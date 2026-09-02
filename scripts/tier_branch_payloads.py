@@ -18,6 +18,7 @@ import copy
 import json
 import re
 import sys
+import unicodedata
 from collections import defaultdict
 from dataclasses import dataclass, field
 from pathlib import Path
@@ -64,6 +65,23 @@ ARABIC_ROOT_CITATION_RE = re.compile(
 
 class TieringError(RuntimeError):
     pass
+
+
+def normalize_arabic_surface(value: str) -> str:
+    normalized = unicodedata.normalize("NFKD", value)
+    normalized = "".join(
+        char
+        for char in normalized
+        if unicodedata.category(char) not in {"Mn", "Cf"}
+        and not char.isspace()
+    )
+    return normalized.translate(str.maketrans({
+        "ٱ": "ا",
+        "أ": "ا",
+        "إ": "ا",
+        "آ": "ا",
+        "ى": "ي",
+    }))
 
 
 def normalize_root(value: str) -> str:
@@ -202,7 +220,7 @@ def validate_source_contract(bundle: dict) -> None:
         "v12_focus_trace_hermetic": dict,
         "v12_reader_walks": dict,
         "v12_reader_walks_wide": dict,
-        "v12_cross_run_publication": dict,
+        "v12_cross_run_publication": (dict, type(None)),
         "channel_subchannels_anchored_here": list,
         "inter_ayah_rows": list,
         "butuncul_okuma_line": (str, dict, type(None)),
@@ -255,8 +273,82 @@ def validate_source_contract(bundle: dict) -> None:
     if isinstance(word_analysis, dict) and not isinstance(word_analysis.get("words"), list):
         errors.append("word_analysis.words is missing or is not an array")
 
+    unit_kind = bundle.get("unit_kind", "numbered_ayah")
+    if unit_kind not in {"numbered_ayah", "prefatory_basmala"}:
+        errors.append(f"unsupported unit_kind: {unit_kind!r}")
+    if unit_kind == "prefatory_basmala":
+        ayah_ref = bundle.get("ayahRef")
+        if (
+            bundle.get("ayah") != 0
+            or not isinstance(ayah_ref, str)
+            or re.fullmatch(r"[1-9][0-9]*:0", ayah_ref) is None
+            or ayah_ref != bundle.get("surface_ref")
+        ):
+            errors.append(
+                "prefatory basmala identity must use matching S:0 ayahRef/surface_ref"
+            )
+        if bundle.get("linguistic_source_ref") != "1:1":
+            errors.append("prefatory basmala linguistic_source_ref must be 1:1")
+        alias = (coverage or {}).get("basmala_alias")
+        surface = (bundle.get("text") or {}).get("arabic_uthmani")
+        if (
+            not isinstance(alias, dict)
+            or alias.get("normalized_surface_equivalent") is not True
+            or not isinstance(alias.get("target_normalized"), str)
+            or not alias.get("target_normalized")
+            or alias.get("target_normalized") != alias.get("source_normalized")
+            or not isinstance(surface, str)
+            or alias.get("target_normalized")
+            != normalize_arabic_surface(surface)
+        ):
+            errors.append("prefatory basmala lacks normalized surface equivalence")
+        if not isinstance(word_analysis, dict) or word_analysis.get("ref") != "1:1":
+            errors.append("prefatory basmala word_analysis.ref must remain 1:1")
+        qac_rows = bundle.get("qac_morphemes")
+        if not isinstance(qac_rows, list) or not qac_rows:
+            errors.append("prefatory basmala requires canonical 1:1 QAC rows")
+        else:
+            for index, row in enumerate(qac_rows):
+                if not isinstance(row, dict) or not all(
+                    isinstance(row.get(field), str)
+                    and row[field].startswith("1:1:")
+                    for field in ("qac_ref", "qac_word_ref")
+                ):
+                    errors.append(
+                        "prefatory basmala QAC identities must remain 1:1:* "
+                        f"at qac_morphemes[{index}]"
+                    )
+                    break
+        for coverage_key in ("inter_ayah", "pericope"):
+            state = (coverage or {}).get(coverage_key)
+            if not isinstance(state, dict) or state.get("status") != "not_applicable":
+                errors.append(
+                    f"prefatory basmala coverage.{coverage_key}.status must be "
+                    "not_applicable"
+                )
+    elif "unit_kind" in bundle:
+        ayah_ref = bundle.get("ayahRef")
+        if (
+            not isinstance(bundle.get("ayah"), int)
+            or bundle.get("ayah", 0) <= 0
+            or ayah_ref != bundle.get("surface_ref")
+            or ayah_ref != bundle.get("linguistic_source_ref")
+        ):
+            errors.append(
+                "numbered_ayah must use one positive ayahRef/surface/linguistic identity"
+            )
+
     hft_coverage = (coverage or {}).get("v12_focus_trace_hermetic", {})
-    if isinstance(hft_coverage, dict) and not hft_coverage.get("present"):
+    hft_not_applicable = (
+        unit_kind == "prefatory_basmala"
+        and isinstance(hft_coverage, dict)
+        and hft_coverage.get("status") == "not_applicable"
+    )
+    if (
+        isinstance(hft_coverage, dict)
+        and not hft_coverage.get("present")
+        and not hft_not_applicable
+    ):
         errors.append(
             "HFT is explicitly absent; interest-tiered Layer 2 bundles require "
             "coverage.v12_focus_trace_hermetic.present=true"

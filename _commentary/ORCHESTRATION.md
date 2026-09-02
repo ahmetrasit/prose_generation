@@ -1,14 +1,21 @@
 # Commentary orchestration
 
+> **Layer 2 retirement notice:** new multi-agent ayah work uses
+> [`v4/ORCHESTRATION.md`](v4/ORCHESTRATION.md). The V4 runbook has one canonical
+> bundle root per ordered analysis, three analysis-namespaced artifact roots,
+> parallel focus-unit orchestration, explicit ordered context, and no
+> session/repair state machine.
+> The build/instantiate paths below remain only for existing legacy prompts and
+> outputs.
+>
 > **Layer 3 retirement notice:** this document remains the run contract for
 > existing ayah-level inputs and outputs. Its combined Layer 3 + 2.5 stages are
 > retired. New surah-wide work uses
 > [`../_channel/layer3/ORCHESTRATION.md`](../_channel/layer3/ORCHESTRATION.md).
 
-How to produce Layer-2 commentary for any ayah, in any target language, from a
-cold start. The ayah build, instantiation, run, and output sections remain
-active. Combined Layer 3 + 2.5 material is retained only as historical context;
-do not use those commands for new surah-wide work.
+How the legacy Layer-2 commentary path was produced for any ayah, in any target
+language, from a cold start. Combined Layer 3 + 2.5 material is retained only as
+historical context; do not use those commands for new work.
 
 Rules are in [`../PRINCIPLES.md`](../PRINCIPLES.md). What commentary is for is in
 [`../COMMENTARY_SPEC.md`](../COMMENTARY_SPEC.md). This file is the run contract:

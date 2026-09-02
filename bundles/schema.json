@@ -1,8 +1,8 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "$id": "https://prose_generation.local/bundles/schema.json",
-  "title": "Ayah input bundle",
-  "description": "One bundle per ayah, produced by scripts/build_bundle.py. See COMMENTARY_SPEC.md §9 for the source inventory and §6 for the evidence rules this bundle exists to satisfy (never filter inter-ayah rows by label; report gaps rather than filling them). A surah bundle (bundle_type=surah, see the $defs.surahBundle definition at the bottom of this file) is the ordered set of its ayah bundles plus surah-scope material; it references ayah bundle files by name rather than embedding them.",
+  "title": "Quran unit input bundle",
+  "description": "One bundle per numbered ayah or prefatory basmala unit, produced by scripts/build_bundle.py. See COMMENTARY_SPEC.md §9 for the source inventory and §6 for the evidence rules this bundle exists to satisfy (never filter inter-ayah rows by label; report gaps rather than filling them). A surah bundle (bundle_type=surah, see the $defs.surahBundle definition at the bottom of this file) keeps numbered-ayah indexes separate from the complete ordered bundle-unit indexes.",
   "type": "object",
   "oneOf": [
     { "$ref": "#/$defs/ayahBundle" },
@@ -24,9 +24,23 @@
         "bundle_type": { "const": "ayah" },
         "schema_version": { "type": "string" },
         "generated_at": { "type": "string", "format": "date-time" },
+        "unit_kind": {
+          "type": "string",
+          "enum": ["numbered_ayah", "prefatory_basmala"]
+        },
         "surah": { "type": "integer", "minimum": 1, "maximum": 114 },
         "ayah": { "type": "integer", "minimum": 0 },
         "ayahRef": { "type": "string", "pattern": "^\\d+:\\d+$" },
+        "surface_ref": {
+          "type": "string",
+          "pattern": "^\\d+:\\d+$",
+          "description": "The Quran text row whose surface this unit presents."
+        },
+        "linguistic_source_ref": {
+          "type": "string",
+          "pattern": "^[1-9]\\d*:[1-9]\\d*$",
+          "description": "The positive numbered ayah owning word-analysis and QAC identities. Prefatory basmalas use 1:1."
+        },
 
         "text": {
           "type": "object",
@@ -583,7 +597,76 @@
             }
           }
         }
-      }
+      },
+      "allOf": [
+        {
+          "if": {
+            "properties": { "schema_version": { "const": "input-bundle-v4" } },
+            "required": ["schema_version"]
+          },
+          "then": {
+            "required": ["unit_kind", "surface_ref", "linguistic_source_ref"]
+          }
+        },
+        {
+          "if": {
+            "properties": { "unit_kind": { "const": "numbered_ayah" } },
+            "required": ["unit_kind"]
+          },
+          "then": {
+            "properties": { "ayah": { "minimum": 1 } }
+          }
+        },
+        {
+          "if": {
+            "properties": { "unit_kind": { "const": "prefatory_basmala" } },
+            "required": ["unit_kind"]
+          },
+          "then": {
+            "required": ["surface_ref", "linguistic_source_ref"],
+            "properties": {
+              "ayah": { "const": 0 },
+              "ayahRef": { "pattern": "^[1-9]\\d*:0$" },
+              "surface_ref": { "pattern": "^[1-9]\\d*:0$" },
+              "linguistic_source_ref": { "const": "1:1" },
+              "pericope": { "type": "null" },
+              "word_analysis": {
+                "properties": { "ref": { "const": "1:1" } }
+              },
+              "qac_morphemes": {
+                "items": {
+                  "properties": {
+                    "qac_ref": { "pattern": "^1:1:" },
+                    "qac_word_ref": { "pattern": "^1:1:" },
+                    "surah": { "const": 1 },
+                    "ayah": { "const": 1 }
+                  }
+                }
+              },
+              "coverage": {
+                "required": ["basmala_alias"],
+                "properties": {
+                  "basmala_alias": {
+                    "type": "object",
+                    "required": [
+                      "surface_ref", "linguistic_source_ref",
+                      "normalized_surface_equivalent", "target_normalized",
+                      "source_normalized"
+                    ],
+                    "properties": {
+                      "surface_ref": { "pattern": "^[1-9]\\d*:0$" },
+                      "linguistic_source_ref": { "const": "1:1" },
+                      "normalized_surface_equivalent": { "const": true },
+                      "target_normalized": { "type": "string", "minLength": 1 },
+                      "source_normalized": { "type": "string", "minLength": 1 }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      ]
     },
 
     "surahBundle": {
@@ -598,10 +681,24 @@
         "schema_version": { "type": "string" },
         "generated_at": { "type": "string", "format": "date-time" },
         "surah": { "type": "integer" },
-        "ayah_refs": { "type": "array", "items": { "type": "string" } },
+        "ayah_refs": {
+          "type": "array",
+          "description": "Numbered ayahs only, in Quran order.",
+          "items": { "type": "string", "pattern": "^[1-9]\\d*:[1-9]\\d*$" }
+        },
         "ayah_bundle_files": {
           "type": "array",
-          "description": "Filenames of the sibling *.ayah.json files in the same output directory, in ayah order.",
+          "description": "Numbered-ayah sibling bundle filenames only, in Quran order.",
+          "items": { "type": "string" }
+        },
+        "bundle_unit_refs": {
+          "type": "array",
+          "description": "Every emitted unit in order: S:0 first when applicable, then numbered ayahs. S1 and S9 have no S:0 unit.",
+          "items": { "type": "string", "pattern": "^[1-9]\\d*:\\d+$" }
+        },
+        "bundle_unit_files": {
+          "type": "array",
+          "description": "Sibling bundle filenames parallel to bundle_unit_refs.",
           "items": { "type": "string" }
         },
         "surah_scope": {
@@ -671,7 +768,20 @@
             }
           }
         }
-      }
+      },
+      "allOf": [
+        {
+          "if": {
+            "properties": {
+              "schema_version": { "const": "input-bundle-surah-v4" }
+            },
+            "required": ["schema_version"]
+          },
+          "then": {
+            "required": ["bundle_unit_refs", "bundle_unit_files"]
+          }
+        }
+      ]
     }
   }
 }

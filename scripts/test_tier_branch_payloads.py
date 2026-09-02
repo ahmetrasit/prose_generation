@@ -231,6 +231,119 @@ class TierBranchPayloadTests(unittest.TestCase):
         with self.assertRaisesRegex(tiering.TieringError, "present is true"):
             tiering.tier_bundle(source)
 
+    def test_prefatory_basmala_allows_explicit_hft_not_applicable(self):
+        source = valid_bundle()
+        source.update({
+            "unit_kind": "prefatory_basmala",
+            "surah": 100,
+            "ayah": 0,
+            "ayahRef": "100:0",
+            "surface_ref": "100:0",
+            "linguistic_source_ref": "1:1",
+            "text": {"arabic_uthmani": "بسم الله الرحمن الرحيم"},
+        })
+        source["qac_morphemes"] = [{
+            "qac_ref": "1:1:1:1",
+            "qac_word_ref": "1:1:1",
+        }]
+        source["word_analysis"]["ref"] = "1:1"
+        source["v12_focus_trace_hermetic"] = {}
+        source["coverage"]["v12_focus_trace_hermetic"] = {
+            "present": False,
+            "status": "not_applicable",
+        }
+        source["coverage"]["inter_ayah"]["status"] = "not_applicable"
+        source["coverage"]["pericope"] = {
+            "present": False,
+            "status": "not_applicable",
+        }
+        source["coverage"]["basmala_alias"] = {
+            "normalized_surface_equivalent": True,
+            "target_normalized": "بسماللهالرحمنالرحيم",
+            "source_normalized": "بسماللهالرحمنالرحيم",
+        }
+
+        tiered, _policy = tiering.tier_bundle(source)
+
+        self.assertEqual(tiered["unit_kind"], "prefatory_basmala")
+        self.assertEqual(tiered["linguistic_source_ref"], "1:1")
+
+    def test_prefatory_basmala_rejects_fabricated_qac_identity(self):
+        source = valid_bundle()
+        source.update({
+            "unit_kind": "prefatory_basmala",
+            "surah": 100,
+            "ayah": 0,
+            "ayahRef": "100:0",
+            "surface_ref": "100:0",
+            "linguistic_source_ref": "1:1",
+            "text": {"arabic_uthmani": "بسم الله الرحمن الرحيم"},
+        })
+        source["qac_morphemes"] = [{
+            "qac_ref": "100:0:1:1",
+            "qac_word_ref": "100:0:1",
+        }]
+        source["word_analysis"]["ref"] = "1:1"
+        source["v12_focus_trace_hermetic"] = {}
+        source["coverage"].update({
+            "v12_focus_trace_hermetic": {
+                "present": False,
+                "status": "not_applicable",
+            },
+            "inter_ayah": {"present": False, "status": "not_applicable"},
+            "pericope": {"present": False, "status": "not_applicable"},
+            "basmala_alias": {
+                "normalized_surface_equivalent": True,
+                "target_normalized": "بسماللهالرحمنالرحيم",
+                "source_normalized": "بسماللهالرحمنالرحيم",
+            },
+        })
+        with self.assertRaisesRegex(tiering.TieringError, "QAC identities"):
+            tiering.tier_bundle(source)
+
+    def test_prefatory_basmala_rejects_forged_surface_equivalence(self):
+        source = valid_bundle()
+        source.update({
+            "unit_kind": "prefatory_basmala",
+            "surah": 100,
+            "ayah": 0,
+            "ayahRef": "100:0",
+            "surface_ref": "100:0",
+            "linguistic_source_ref": "1:1",
+            "text": {"arabic_uthmani": "different"},
+            "qac_morphemes": [{
+                "qac_ref": "1:1:1:1",
+                "qac_word_ref": "1:1:1",
+            }],
+            "v12_focus_trace_hermetic": {},
+        })
+        source["word_analysis"]["ref"] = "1:1"
+        source["coverage"].update({
+            "v12_focus_trace_hermetic": {
+                "present": False,
+                "status": "not_applicable",
+            },
+            "inter_ayah": {"present": False, "status": "not_applicable"},
+            "pericope": {"present": False, "status": "not_applicable"},
+            "basmala_alias": {
+                "normalized_surface_equivalent": True,
+                "target_normalized": "basmala",
+                "source_normalized": "basmala",
+            },
+        })
+        with self.assertRaisesRegex(tiering.TieringError, "surface equivalence"):
+            tiering.tier_bundle(source)
+
+    def test_numbered_bundle_still_rejects_missing_hft(self):
+        source = valid_bundle()
+        source["v12_focus_trace_hermetic"] = {}
+        source["coverage"]["v12_focus_trace_hermetic"] = {
+            "present": False,
+            "status": "not_applicable",
+        }
+        with self.assertRaisesRegex(tiering.TieringError, "HFT is explicitly absent"):
+            tiering.tier_bundle(source)
+
     def test_malformed_structured_hft_anchor_fails(self):
         source = valid_bundle()
         source["v12_focus_trace_hermetic"]["readers"]["reader_a"][

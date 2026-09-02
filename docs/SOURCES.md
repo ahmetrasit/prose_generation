@@ -189,6 +189,11 @@ morphemes, and branch inventories are structurally expected for every canonical
 numbered ayah; their absence aborts the base build. The pre-Layer-2 tierer also
 requires a consistent coverage block, HFT reader payload, and well-formed branch
 identities/citations; it aborts rather than treating a missing field as empty.
+For a prefatory `S:0` unit, the target surface and canonical `1:1` linguistic
+sources are required and normalized surface equivalence is checked. The
+production tierer accepts HFT absence only when `unit_kind` is
+`prefatory_basmala` and coverage explicitly says `not_applicable`; QAC and word
+refs remain positive `1:1:*` identities.
 
 **Degrade gracefully on optional sources.** Retired v12 reader responses,
 reader-walk entries, the whole-surah reading line, cross-run publication rows,

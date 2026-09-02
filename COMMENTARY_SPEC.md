@@ -210,8 +210,9 @@ Contracts and schemas are under `_channel/layer3/`.
 
 ## 6. Input bundle
 
-Layer 2 continues to use one bundle per ayah. The production bundle is the
-output of `scripts/tier_branch_payloads.py`, run against the full ayah bundle
+Layer 2 uses one canonical bundle per Quran analysis unit. A unit is either a
+numbered ayah or a prefatory basmala. The production bundle is the output of
+`scripts/tier_branch_payloads.py`, run against the full unit bundle
 from `scripts/build_bundle.py` before `scripts/instantiate.py`. The tierer may
 project only `root_lexicon` dictionary/gloss branch payloads and its recorded
 branch policy. It must preserve every root target, every dictionary branch
@@ -228,6 +229,60 @@ The admission threshold is density-invariant: a finding receives the same test
 in a three-root and a twenty-six-root ayah. Findings may share prose only when
 their mechanism and payoff are the same and every admitted ref still has an
 identifiable landing.
+
+### 6.1 Unit identity and prefatory basmala
+
+Every current bundle declares `unit_kind`, `surface_ref`, and
+`linguistic_source_ref`. For a `numbered_ayah`, all identities resolve to the
+numbered ayah itself. For `prefatory_basmala`, the surface is the target surah's
+`S:0` Quran-text row and the linguistic source is canonical `1:1`. The builder
+must prove normalized surface equivalence before aliasing. QAC, word-analysis,
+and morpheme-span references remain `1:1:*`; it is forbidden to manufacture
+`S:0:*` linguistic identities.
+
+S1 has no separate `1:0` bundle because its basmala is numbered `1:1`. S9 has
+no prefatory basmala. Every other surah emits `S:0` before numbered units. The
+surah bundle keeps `ayah_refs` / `ayah_bundle_files` numbered-only and exposes
+the complete ordered list separately as `bundle_unit_refs` /
+`bundle_unit_files`.
+
+The prefatory unit carries all intrinsic `1:1` semantic evidence plus available
+target-surah reader walks, wide walks, cross-run publication, whole-surah line,
+and channel material. Native HFT, inter-ayah completeness, and pericope
+membership are `not_applicable`: those protocols are defined on numbered
+focus ayahs. Numbered pericope and HFT windows never expand to include zero.
+
+### 6.2 Explicit ordered context
+
+Canonical unit bundles remain context-independent. V4 may prepare an analysis
+composition containing one or more ordered, discontinuous, and cross-surah
+segments, with one or more declared focus units. Each focus is authored one at
+a time; every other selected unit becomes context. This supports, without a
+new agent behavior:
+
+- a basmala focus with a selected surah as context;
+- each numbered ayah as focus with its surah's basmala as context;
+- each ayah of one surah as focus under an ordered Fatiha or other recitation
+  lens;
+- arbitrary explicit additions such as one external ayah outside a pericope.
+
+The selection order is evidence. Same-surah units in the focus's own segment
+enter the macro packet; cross-segment or cross-surah units enter the global
+packet; micro remains focus-local. A context unit contributes its intrinsic
+surface, morphology, word analysis, branches, and root lexicon. Reader/HFT and
+other derived material originally generated with that context unit as focus is
+also retained, but must be labelled as prior focus-conditioned evidence rather
+than an intrinsic fact or a newly run composition analysis. The V4 projection
+loads and hash-binds the complete upstream HFT packet when the base bundle
+carries only its intentional packet summary.
+
+An analysis ID namespaces `input/`, `raw/`, and `editorial/` paths so native and
+custom readings of the same focus cannot collide. The composition JSON, every
+selected bundle hash, the projected lane packets, and their output identities
+are snapshotted in the unit manifest. Multiple focus units may be prepared and
+orchestrated in parallel. The scope-agent prompts and editorial instructions
+remain the V3 prompts; composition changes evidence packets, not agent roles or
+instructions.
 
 Layer 3 builds a separate hermetic source packet from Quran text, the typed
 primary floor, the completed four-file Layer-2 v2 artifact set for every

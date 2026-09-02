@@ -95,8 +95,10 @@ INCLUDE_HERMETIC_FOCUS_TRACE = True
 REQUIRE_HERMETIC_FOCUS_TRACE = True
 FOCUS_TRACE_VARIANT: str | None = None
 
-BUNDLE_SCHEMA_VERSION = "input-bundle-v3"
-SURAH_BUNDLE_SCHEMA_VERSION = "input-bundle-surah-v3"
+BUNDLE_SCHEMA_VERSION = "input-bundle-v4"
+SURAH_BUNDLE_SCHEMA_VERSION = "input-bundle-surah-v4"
+BASMALA_LINGUISTIC_SOURCE_REF = "1:1"
+BASMALA_EXCLUDED_SURAHS = {1, 9}
 
 
 def relpath(path: Path) -> str:
@@ -2163,6 +2165,16 @@ def normalize_arabic_surface(text: str) -> str:
     return stripped.translate(_ALEF_FOLD)
 
 
+def normalize_basmala_surface(text: str) -> str:
+    """Normalize Quran rows for S:0-to-1:1 surface equivalence only."""
+    normalized = normalize_arabic_surface(text)
+    return "".join(
+        char
+        for char in normalized
+        if unicodedata.category(char) != "Cf" and not char.isspace()
+    )
+
+
 def _find_word_span_from_position(
     morpheme_rows: list[dict],
     position: int,
@@ -2671,6 +2683,108 @@ def preflight(surah: int, ayah_filter: int = None,
     }
 
 
+def preflight_basmala(surah: int) -> dict:
+    """Load the target surface and the canonical 1:1 linguistic evidence.
+
+    A prefatory basmala is not a numbered ayah and therefore must not enter the
+    normal per-ayah HFT/inter-ayah completeness checks. Its morphology and word
+    analysis are the canonical 1:1 records, while surah-conditioned reader
+    evidence is loaded later from the target surah.
+    """
+    if surah in BASMALA_EXCLUDED_SURAHS:
+        reason = "S1 already numbers the basmala as 1:1" if surah == 1 else "S9 has no prefatory basmala"
+        raise RequiredSourceMissing(f"Cannot build {surah}:0: {reason}")
+    if not 2 <= surah <= 114:
+        raise RequiredSourceMissing(f"Surah out of range for prefatory basmala: {surah}")
+
+    rows: list[dict] = []
+    problems: list[str] = []
+    target_quran_text = load_quran_text(surah)
+    target_ref = f"{surah}:0"
+    if target_ref not in target_quran_text:
+        problems.append(f"Quran text missing prefatory basmala row {target_ref}")
+    rows.append(_row(
+        f"Basmala surface {target_ref}",
+        QURAN_TEXT_TSV,
+        True,
+        target_ref in target_quran_text,
+        None if target_ref in target_quran_text else problems[-1],
+    ))
+
+    source_quran_text = load_quran_text(1)
+    source_word_analysis = load_word_analysis(1)
+    source_qac_by_ayah = load_qac_morphemes(1)
+    source_root_id_map, source_root_map_path = load_root_id_map(1)
+    source_alignment = check_word_alignment(
+        1, source_word_analysis, source_qac_by_ayah, [1]
+    )
+
+    source_record = source_word_analysis.get(BASMALA_LINGUISTIC_SOURCE_REF)
+    source_qac = source_qac_by_ayah.get(1)
+    for label, present, note in (
+        ("Canonical 1:1 Quran text", BASMALA_LINGUISTIC_SOURCE_REF in source_quran_text, None),
+        ("Canonical 1:1 word analysis", source_record is not None, None),
+        ("Canonical 1:1 QAC morphemes", bool(source_qac), None),
+    ):
+        rows.append(_row(label, QURAN_TEXT_TSV, True, present, note))
+        if not present:
+            problems.append(f"{label} is missing")
+
+    try:
+        branch_inventories, branch_coverage = load_v12_branch_inventories(
+            1, 1, source_qac or [], []
+        )
+        rows.append(_row(
+            "Canonical 1:1 branch inventories",
+            V12_TR_DIR / "s001",
+            True,
+            bool(branch_inventories),
+            f"scope={branch_coverage.get('scope')}",
+        ))
+    except RequiredSourceMissing as exc:
+        rows.append(_row(
+            "Canonical 1:1 branch inventories", V12_TR_DIR / "s001", True, False, str(exc)
+        ))
+        problems.append(str(exc))
+
+    rows.append(_row(
+        "Canonical 1:1 root ID map",
+        source_root_map_path or QAC_FURUQ_ROOT_MAP_SQLITE_GZ,
+        False,
+        bool(source_root_id_map),
+        f"{len(source_root_id_map)} roots mapped" if source_root_id_map else None,
+    ))
+    rows.append(_row(
+        f"Hermetic Focus Trace {target_ref}",
+        focus_trace_run_dirs(surah)[0],
+        False,
+        False,
+        "not applicable to a prefatory basmala unit",
+    ))
+    rows.append(_row(
+        f"Inter-ayah rows {target_ref}",
+        INTER_AYAH_DIR / f"focus_{surah}_0_cutoff_100.tsv",
+        False,
+        False,
+        "not applicable to a prefatory basmala unit",
+    ))
+    print_preflight_table(surah, rows)
+
+    if problems:
+        raise RequiredSourceMissing(
+            "Basmala preflight found required-source gaps (see table above):\n"
+            + "\n".join(f"  - {problem}" for problem in problems)
+        )
+    return {
+        "target_quran_text": target_quran_text,
+        "source_quran_text": source_quran_text,
+        "source_word_analysis": source_word_analysis,
+        "source_qac_by_ayah": source_qac_by_ayah,
+        "source_root_id_map": source_root_id_map,
+        "source_alignment": source_alignment,
+    }
+
+
 # ---------------------------------------------------------------------------
 # Bundle assembly
 # ---------------------------------------------------------------------------
@@ -2839,9 +2953,12 @@ def build_ayah_bundle(surah: int, ayah: int, quran_text: dict, word_analysis: di
         "bundle_type": "ayah",
         "schema_version": BUNDLE_SCHEMA_VERSION,
         "generated_at": datetime.now(timezone.utc).isoformat(),
+        "unit_kind": "numbered_ayah",
         "surah": surah,
         "ayah": ayah,
         "ayahRef": ayah_ref,
+        "surface_ref": ayah_ref,
+        "linguistic_source_ref": ayah_ref,
         "text": {
             "arabic_uthmani": quran_text[ayah_ref],
             "source": relpath(QURAN_TEXT_TSV),
@@ -2866,8 +2983,222 @@ def build_ayah_bundle(surah: int, ayah: int, quran_text: dict, word_analysis: di
     return bundle
 
 
-def build_surah_bundle(surah: int, ayah_bundles: list, ayah_bundle_filenames: list,
-                        pericopes: list) -> dict:
+def build_basmala_bundle(
+    surah: int,
+    target_quran_text: dict,
+    source_quran_text: dict,
+    source_word_analysis: dict,
+    source_qac_by_ayah: dict,
+    source_root_id_map: dict,
+    source_alignment: dict | None = None,
+) -> dict:
+    """Build a prefatory S:0 unit without fabricating S:0 linguistic refs."""
+    if surah in BASMALA_EXCLUDED_SURAHS:
+        reason = "S1 already numbers the basmala as 1:1" if surah == 1 else "S9 has no prefatory basmala"
+        raise RequiredSourceMissing(f"Cannot build {surah}:0: {reason}")
+    target_ref = f"{surah}:0"
+    target_surface = target_quran_text.get(target_ref)
+    source_surface = source_quran_text.get(BASMALA_LINGUISTIC_SOURCE_REF)
+    if target_surface is None:
+        raise RequiredSourceMissing(f"Quran text missing for {target_ref}")
+    if source_surface is None:
+        raise RequiredSourceMissing(
+            f"Quran text missing canonical basmala source {BASMALA_LINGUISTIC_SOURCE_REF}"
+        )
+    target_normalized = normalize_basmala_surface(target_surface)
+    source_normalized = normalize_basmala_surface(source_surface)
+    if not target_normalized or target_normalized != source_normalized:
+        raise RequiredSourceMissing(
+            f"Normalized basmala surface mismatch: {target_ref} != "
+            f"{BASMALA_LINGUISTIC_SOURCE_REF}"
+        )
+
+    wa_record = source_word_analysis.get(BASMALA_LINGUISTIC_SOURCE_REF)
+    qac_rows = source_qac_by_ayah.get(1)
+    if wa_record is None:
+        raise RequiredSourceMissing(
+            f"word-analysis record missing for {BASMALA_LINGUISTIC_SOURCE_REF}"
+        )
+    if not qac_rows:
+        raise RequiredSourceMissing(
+            f"QAC morphemes missing for {BASMALA_LINGUISTIC_SOURCE_REF}"
+        )
+
+    morphemes_by_ayah, morph_coverage, _morph_path = load_morphemes_tsv(1)
+    word_spans, span_unresolved = resolve_word_morpheme_spans(
+        wa_record, morphemes_by_ayah.get(1, [])
+    )
+    skip_counts = [
+        span.get("morpheme_skip_count", 0) for span in word_spans if span
+    ]
+    skip_histogram: dict[str, int] = {}
+    for skip_count in skip_counts:
+        key = str(skip_count)
+        skip_histogram[key] = skip_histogram.get(key, 0) + 1
+    branch_inventories, branch_coverage = load_v12_branch_inventories(
+        1, 1, qac_rows, []
+    )
+    root_lexicon, root_coverage = build_root_lexicon(
+        qac_rows, source_root_id_map
+    )
+    alignment_detail = (source_alignment or {}).get("detail", {}).get(
+        BASMALA_LINGUISTIC_SOURCE_REF
+    )
+
+    reader_responses, reader_response_coverage = load_v12_reader_responses(surah, 0)
+    reader_walks, reader_walk_coverage = load_v12_reader_walks(surah, 0)
+    reader_walks_wide, reader_walk_wide_coverage = load_v12_reader_walks(
+        surah, 0, V12_TR_11AYAH_DIR, "v12 plus/minus-5 reader walks"
+    )
+    cross_run_publication, cross_run_coverage = load_v12_cross_run_publication(
+        surah, 0
+    )
+    butuncul_all, butuncul_coverage, butuncul_path = load_butuncul_okuma(surah)
+    butuncul_line = butuncul_all.get(target_ref)
+    channel_review, channel_coverage, channel_path = load_channel_review(surah)
+    channel_blocks = channel_blocks_for_ayah(channel_review, target_ref)
+    channel_outputs, channel_outputs_coverage = load_channel_generated_outputs(surah)
+
+    coverage = {
+        "quran_text": {"present": True, "surface_ref": target_ref},
+        "word_analysis": {
+            "present": True,
+            "word_count": len(wa_record.get("words", [])),
+            "linguistic_source_ref": BASMALA_LINGUISTIC_SOURCE_REF,
+        },
+        "word_morpheme_spans": {
+            "present": bool(morph_coverage.get("present"))
+            and any(span for span in word_spans),
+            "source_file": morph_coverage.get("source_file"),
+            "words_total": len(wa_record.get("words", [])),
+            "words_resolved": sum(1 for span in word_spans if span),
+            "words_unresolved": len(span_unresolved),
+            "morpheme_skip_total": sum(skip_counts),
+            "morpheme_skip_max": max(skip_counts, default=0),
+            "morpheme_skip_histogram": skip_histogram,
+            "unresolved": span_unresolved,
+            "morphemes_tsv": morph_coverage,
+            "linguistic_source_ref": BASMALA_LINGUISTIC_SOURCE_REF,
+            "note": (
+                "Basmala critical words are resolved against canonical 1:1 "
+                "morpheme spans; no S:0 word or QAC identities are fabricated."
+            ),
+        },
+        "word_analysis_qac_alignment": {
+            "consistent": alignment_detail is None,
+            "detail": alignment_detail,
+            "linguistic_source_ref": BASMALA_LINGUISTIC_SOURCE_REF,
+            "note": (
+                "Canonical 1:1 word-analysis/QAC alignment is preserved "
+                "without renumbering."
+            ),
+        },
+        "qac_morphemes": {
+            "present": True,
+            "row_count": len(qac_rows),
+            "linguistic_source_ref": BASMALA_LINGUISTIC_SOURCE_REF,
+        },
+        "branch_inventories": {
+            **branch_coverage,
+            "linguistic_source_ref": BASMALA_LINGUISTIC_SOURCE_REF,
+        },
+        "root_lexicon": {
+            **root_coverage,
+            "linguistic_source_ref": BASMALA_LINGUISTIC_SOURCE_REF,
+        },
+        "v12_reader_responses": reader_response_coverage,
+        "v12_focus_trace_hermetic": {
+            "present": False,
+            "packet_present": False,
+            "readers": {},
+            "excluded": False,
+            "status": "not_applicable",
+            "note": "prefatory basmala units have no native HFT focus run",
+        },
+        "v12_reader_walks": reader_walk_coverage,
+        "v12_reader_walks_wide": reader_walk_wide_coverage,
+        "v12_cross_run_publication": cross_run_coverage,
+        "butuncul_okuma": {
+            **butuncul_coverage,
+            "present": butuncul_line is not None,
+            "source_file": relpath(butuncul_path) if butuncul_path else None,
+            "note": (
+                None
+                if butuncul_line is not None
+                else "no prefatory basmala line in the target whole-surah reading"
+            ),
+        },
+        "inter_ayah": {
+            "present": False,
+            "status": "not_applicable",
+            "row_count": 0,
+            "label_counts": {},
+            "note": "inter-ayah completeness is defined on numbered ayahs only",
+        },
+        "channel_review": {
+            **channel_coverage,
+            "source_file": relpath(channel_path) if channel_path else None,
+            "subchannels_anchored_here": len(channel_blocks),
+        },
+        "channel_generated_outputs": channel_outputs_coverage,
+        "pericope": {
+            "present": False,
+            "synthesized": None,
+            "status": "not_applicable",
+            "note": "pericope intervals are defined on numbered ayahs only",
+        },
+        "basmala_alias": {
+            "present": True,
+            "surface_ref": target_ref,
+            "linguistic_source_ref": BASMALA_LINGUISTIC_SOURCE_REF,
+            "normalized_surface_equivalent": True,
+            "target_normalized": target_normalized,
+            "source_normalized": source_normalized,
+        },
+    }
+
+    bundle = {
+        "bundle_type": "ayah",
+        "schema_version": BUNDLE_SCHEMA_VERSION,
+        "generated_at": datetime.now(timezone.utc).isoformat(),
+        "unit_kind": "prefatory_basmala",
+        "surah": surah,
+        "ayah": 0,
+        "ayahRef": target_ref,
+        "surface_ref": target_ref,
+        "linguistic_source_ref": BASMALA_LINGUISTIC_SOURCE_REF,
+        "text": {
+            "arabic_uthmani": target_surface,
+            "source": relpath(QURAN_TEXT_TSV),
+        },
+        "qac_morphemes": qac_rows,
+        "word_analysis": wa_record,
+        "word_morpheme_spans": word_spans,
+        "branch_inventories": branch_inventories,
+        "v12_reader_responses": reader_responses,
+        "v12_focus_trace_hermetic": {},
+        "v12_reader_walks": reader_walks,
+        "v12_reader_walks_wide": reader_walks_wide,
+        "v12_cross_run_publication": cross_run_publication,
+        "butuncul_okuma_line": butuncul_line,
+        "inter_ayah_rows": [],
+        "channel_subchannels_anchored_here": channel_blocks,
+        "channel_generated_outputs": channel_outputs,
+        "pericope": None,
+        "root_lexicon": root_lexicon,
+        "coverage": coverage,
+    }
+    return bundle
+
+
+def build_surah_bundle(
+    surah: int,
+    ayah_bundles: list,
+    ayah_bundle_filenames: list,
+    pericopes: list,
+    bundle_unit_refs: list[str] | None = None,
+    bundle_unit_files: list[str] | None = None,
+) -> dict:
     quran_text = load_quran_text(surah)  # includes S:0 basmalah row if present
     butuncul_all, butuncul_cov, butuncul_path = load_butuncul_okuma(surah)
     channel_review, ch_coverage, ch_path = load_channel_review(surah)
@@ -2900,6 +3231,16 @@ def build_surah_bundle(surah: int, ayah_bundles: list, ayah_bundle_filenames: li
         "surah": surah,
         "ayah_refs": [b["ayahRef"] for b in ayah_bundles],
         "ayah_bundle_files": ayah_bundle_filenames,
+        "bundle_unit_refs": (
+            bundle_unit_refs
+            if bundle_unit_refs is not None
+            else [b["ayahRef"] for b in ayah_bundles]
+        ),
+        "bundle_unit_files": (
+            bundle_unit_files
+            if bundle_unit_files is not None
+            else ayah_bundle_filenames
+        ),
         "surah_scope": {
             "quran_text_all_rows": [
                 {"ayahRef": ref, "arabic_uthmani": text} for ref, text in sorted(
@@ -2932,6 +3273,19 @@ def discover_ayah_numbers(surah: int, quran_text: dict) -> list:
         if int(ref.split(":")[1]) != 0
     )
     return nums
+
+
+def discover_bundle_unit_numbers(surah: int, quran_text: dict) -> list:
+    """Return ordered bundle units without changing numbered-ayah discovery."""
+    numbered = discover_ayah_numbers(surah, quran_text)
+    if surah in BASMALA_EXCLUDED_SURAHS:
+        return numbered
+    basmala_ref = f"{surah}:0"
+    if basmala_ref not in quran_text:
+        raise RequiredSourceMissing(
+            f"Expected prefatory basmala surface is missing: {basmala_ref}"
+        )
+    return [0, *numbered]
 
 
 def main() -> int:
@@ -2982,12 +3336,16 @@ def main() -> int:
         ),
     )
     args = parser.parse_args()
+    if args.ayah is not None and args.ayah < 0:
+        parser.error("--ayah must be >= 0")
     if args.ayah is not None and (args.ayah_from is not None or args.ayah_to is not None):
         parser.error("--ayah cannot be combined with --ayah-from/--ayah-to")
     if (args.ayah_from is None) != (args.ayah_to is None):
         parser.error("--ayah-from and --ayah-to must be passed together")
     if args.ayah_from is not None and args.ayah_from > args.ayah_to:
         parser.error("--ayah-from must be <= --ayah-to")
+    if args.ayah_from is not None and (args.ayah_from <= 0 or args.ayah_to <= 0):
+        parser.error("--ayah-from/--ayah-to spans must contain numbered ayahs only")
     if args.pericope is not None and args.ayah_from is None:
         parser.error("--pericope requires --ayah-from/--ayah-to")
     if args.pericope_label is not None and args.ayah_from is None:
@@ -3007,6 +3365,14 @@ def main() -> int:
     surah = args.surah
     out_dir = args.out or (PROSE_GEN_ROOT / "bundles" / f"s{surah:03d}")
     out_dir.mkdir(parents=True, exist_ok=True)
+
+    if args.ayah == 0:
+        loaded = preflight_basmala(surah)
+        bundle = build_basmala_bundle(surah, **loaded)
+        out_path = out_dir / f"{surah}_0.ayah.json"
+        out_path.write_text(compact_json_text(bundle), encoding="utf-8")
+        print(f"wrote {out_path}")
+        return 0
 
     loaded = preflight(surah, args.ayah, args.ayah_from, args.ayah_to)
     quran_text = loaded["quran_text"]
@@ -3039,6 +3405,18 @@ def main() -> int:
         ayah_numbers = [a for a in ayah_numbers if args.ayah_from <= a <= args.ayah_to]
     ayah_bundles = []
     filenames = []
+    bundle_unit_refs: list[str] = []
+    bundle_unit_files: list[str] = []
+    if args.ayah_from is None and 0 in discover_bundle_unit_numbers(surah, quran_text):
+        basmala_loaded = preflight_basmala(surah)
+        basmala_bundle = build_basmala_bundle(surah, **basmala_loaded)
+        basmala_filename = f"{surah}_0.ayah.json"
+        (out_dir / basmala_filename).write_text(
+            compact_json_text(basmala_bundle), encoding="utf-8"
+        )
+        bundle_unit_refs.append(f"{surah}:0")
+        bundle_unit_files.append(basmala_filename)
+        print(f"wrote {out_dir / basmala_filename}")
     for a in ayah_numbers:
         bundle = build_ayah_bundle(surah, a, quran_text, word_analysis, qac_by_ayah,
                                     root_id_map, pericopes, alignment)
@@ -3046,12 +3424,21 @@ def main() -> int:
         (out_dir / fname).write_text(compact_json_text(bundle), encoding="utf-8")
         ayah_bundles.append(bundle)
         filenames.append(fname)
+        bundle_unit_refs.append(bundle["ayahRef"])
+        bundle_unit_files.append(fname)
         print(f"wrote {out_dir / fname}")
 
     if args.ayah_from is not None:
         return 0
 
-    surah_bundle = build_surah_bundle(surah, ayah_bundles, filenames, pericopes)
+    surah_bundle = build_surah_bundle(
+        surah,
+        ayah_bundles,
+        filenames,
+        pericopes,
+        bundle_unit_refs,
+        bundle_unit_files,
+    )
     surah_out_path = out_dir / f"{surah}.surah.json"
     surah_out_path.write_text(compact_json_text(surah_bundle), encoding="utf-8")
     print(f"wrote {surah_out_path}")

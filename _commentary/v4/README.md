@@ -6,15 +6,23 @@ roots:
 
 ```text
 _commentary/v4/
-  input/sNNN/S_A/       source snapshots, packets, prompts, one manifest
-  raw/sNNN/S_A/         three analyst ledgers and four first-pass files
-  editorial/sNNN/S_A/   four editorial files
+  input/<analysis-id>/sNNN/S_A/       snapshots, packets, prompts, manifest
+  raw/<analysis-id>/sNNN/S_A/         three ledgers and four first-pass files
+  editorial/<analysis-id>/sNNN/S_A/   four editorial files
 ```
 
+`native` is the default analysis ID. Custom ordered contexts use a stable,
+human-readable ID, so several readings of the same focus have disjoint paths
+without run IDs or session directories.
+
 V4 simplifies the authoring workflow, not upstream evidence construction. Its
-starting contract is the existing validated v3 source bundle and adjudication
-docket, and it reuses v3's packet projection code. `prepare` snapshots both into
-the unit input; downstream agents never operate in the v3 authoring trees.
+default input is one canonical/tiered unit bundle under `bundles-layer2/`. For
+a native focus not yet materialized there, it uses the corresponding base unit
+under `bundles/`; the exact origin and hash are recorded in the unit manifest.
+It reuses V3's deterministic preparation and packet-projection code in memory,
+then snapshots the source, derived docket, and packets into the V4 unit input.
+No pre-existing V3 input, adjudication, output, or session tree is required. An
+explicit legacy docket remains available only for exact historical replay.
 
 There are no run IDs, content-addressed directories, session files, turn
 receipts, repair generations, completion manifests, or hidden temporary work
@@ -42,6 +50,9 @@ retry loop.
   That handoff is sent to the same live canonical writer.
 - The three evidence scopes, exact source identities, HFT qualifications,
   Arabic surface evidence, and no-selection rules remain intact.
+- Ordered compositions add hash-bound context candidates to the existing macro
+  and global packet shapes. They do not change the scope prompts, response
+  protocol, editorial instructions, or number of agent turns.
 
 The one intentionally new prompt is `prompts/canonical.md`. It lets one fresh
 writer perform reconciliation, prose preparation, and canonical composition in
@@ -53,7 +64,7 @@ handles only lossless accounting recovery from the supplied packets.
 
 ## Commands
 
-Prepare or advance one numbered ayah:
+Prepare or advance one native numbered ayah:
 
 ```bash
 python3 _commentary/v4/workflow.py advance --ayah 29:38
@@ -89,6 +100,61 @@ no agent handle or session ID. One failed unit is reported without hiding the
 handoffs ready for other units. A `partial_error` batch exits nonzero while
 still returning those valid handoffs in its JSON.
 
+### Ordered context analyses
+
+Define one or more ordered segments and select any subset as focus units. The
+other units become context for each focus:
+
+```bash
+# Add one external ayah to every Fatiha focus, in parallel.
+python3 _commentary/v4/workflow.py advance \
+  --analysis-id fatiha-with-17-50 \
+  --context-bundles-dir bundles \
+  --segment fatiha=1:1-7 \
+  --segment external=17:50 \
+  --ayah 1:1-7
+
+# Analyze every S100 ayah through an ordered Fatiha-then-S100 lens.
+python3 _commentary/v4/workflow.py advance \
+  --analysis-id fatiha-lens-s100 \
+  --segment fatiha=1:1-7 \
+  --segment s100=100:1-11 \
+  --ayah 100:1-11
+```
+
+The first call snapshots the same composition as `analysis.json` under every
+focus input. Later waves use only the stable ID and selected focuses:
+
+```bash
+python3 _commentary/v4/workflow.py advance \
+  --analysis-id fatiha-lens-s100 --ayah 100:1-11
+```
+
+For a reusable declaration, pass `--analysis path/to/analysis.json`; omit
+`--ayah` to run all of its `focus_refs`. The JSON shape is:
+
+```json
+{
+  "schema_version": "commentary-v4-analysis-composition-v1",
+  "analysis_id": "fatiha-lens-s100",
+  "segments": [
+    {"id": "fatiha", "refs": ["1:1-7"]},
+    {"id": "s100", "refs": ["100:1-11"]}
+  ],
+  "focus_refs": ["100:1-11"]
+}
+```
+
+Selectors may be discontinuous or cross-surah. A unit may occur only once in a
+composition, the focus must be selected from it, and ranges may not start at
+zero. Every selected unit other than the current focus becomes context without
+changing the canonical pericope. Same-surah context in the focus's segment is
+routed to macro, including an explicitly selected ayah outside the native
+pericope; cross-segment or cross-surah context is routed to global; micro
+remains focus-local. `S:0` is selected in exactly the same way as any explicit
+ref, with no basmala-specific orchestration mode. S1 uses numbered `1:1`; S9
+has no `9:0`.
+
 After the writer has produced both phases:
 
 ```bash
@@ -101,28 +167,39 @@ outputs. It does not judge findings, request repairs, constrain prose, or
 rewrite agent work. Git remains the history and review boundary for the final
 editorial file bytes; v4 creates no completion receipt.
 
-Use `prepare` directly when source paths need to be supplied explicitly:
+Use `prepare` directly when a source path needs to be supplied explicitly. A
+docket is derived automatically with the fixed V4 preparation policy:
 
 ```bash
 python3 _commentary/v4/workflow.py prepare \
   --ayah 29:38 \
-  --source-bundle path/to/29_38.bundle.json \
-  --docket path/to/29_38.docket.json
+  --source-bundle path/to/29_38.ayah.json
 ```
+
+`--docket path/to/29_38.docket.json` is an optional compatibility override, not
+a normal workflow step. `--context-bundles-dir` changes the single canonical
+bundle root used for focus and selected-context units. Ordered compositions do
+not use the native base fallback because that would silently mix bundle roots;
+when selected units are not tiered, pass `--context-bundles-dir bundles` and V4
+will load every focus and context unit from that base root.
 
 Generated inputs are idempotent. If their semantic source changes, preparation
 stops instead of mixing old raw output with new evidence. `--force-input`
 updates generated input only; it never changes raw or editorial work.
-Explicit `--source-bundle` and `--docket` overrides are single-ayah options.
+Explicit `--source-bundle` and `--docket` overrides are single-unit options.
 
 ## Evidence boundary
 
-Each scope prompt is self-contained. The canonical stage is prompt-bounded: it
-may read only the three packet files in the unit input, while the three raw
-ledgers and governing documents are embedded in its prompt. The packets can be
-large, so duplicating all three inside one canonical prompt would waste context
-and reduce writing quality. Provenance pointers inside a packet are not
-permission to read external files.
+Each scope prompt is self-contained. For selected context units, preparation
+embeds intrinsic evidence and explicitly qualified prior focus-conditioned
+reader evidence. When a bundle carries only an HFT packet summary, preparation
+loads the named raw packet, validates its focus, and embeds it with byte and
+canonical hashes. The canonical stage is prompt-bounded: it may read only the
+three packet files in the unit input, while the three raw ledgers and governing
+documents are embedded in its prompt. The packets can be large, so duplicating
+all three inside one canonical prompt would waste context and reduce writing
+quality. Provenance pointers inside a packet are not permission to read
+external files.
 
 This is not an executor-enforced read sandbox. The handoff grants the worker the
 repository workspace so it can write the declared outputs; compliance with the
@@ -130,9 +207,10 @@ evidence boundary remains an agent instruction. Exact-path checks prevent the
 workflow or a returned handoff from following symlinked unit directories or
 output filenames outside the three artifact roots.
 
-V4 currently accepts numbered ayahs only. A prefatory basmala needs the planned
-versioned `unit_kind`, `surface_ref`, and `linguistic_source_ref` protocol before
-it enters authoring.
+V4 accepts `prefatory_basmala` focus/context units with explicit `unit_kind`,
+`surface_ref`, and `linguistic_source_ref`. S:0 surface evidence belongs to the
+target surah while QAC and word identities remain `1:1:*`; native HFT,
+inter-ayah, and pericope scope are explicitly not applicable.
 
 ## Deliberate omissions
 

@@ -127,7 +127,7 @@ STATUS.md             per-surah coverage
 docs/                 sources, available data, channels, open questions
 scripts/              base builder, pre-L2 branch tierer, and instantiators
 bundles/              generated base and tiered commentary input bundles
-_commentary/          hermetic Layer-2 prompts and authored ayah outputs
+_commentary/v4/       active Git-native Layer-2 orchestration and outputs
 _translation/         layer 1 — the spine
 _ayah_commentary/v2/  active layer 2 — function and resonance, per ayah
 _channel/layer3/      active layer 3 — surah-wide resonance systems
@@ -149,11 +149,14 @@ they are planned, not because they exist.
 - Rules first: [`PRINCIPLES.md`](PRINCIPLES.md), then
   [`COMMENTARY_SPEC.md`](COMMENTARY_SPEC.md).
 - Running layer 1: [`_translation/v1/README.md`](_translation/v1/README.md).
-- Running ayah commentary Layer 2: [`_ayah_commentary/v2/PROMPT.md`](_ayah_commentary/v2/PROMPT.md)
-  is the active authoring path. [`_commentary/ORCHESTRATION.md`](_commentary/ORCHESTRATION.md)
-  remains the run contract for existing ayah prompts and agent-authored outputs;
-  [`scripts/README.md`](scripts/README.md) documents the required
-  `build_bundle.py` -> `tier_branch_payloads.py` -> `instantiate.py` sequence.
+- Running ayah commentary Layer 2: the governing prose prompt remains
+  [`_ayah_commentary/v2/PROMPT.md`](_ayah_commentary/v2/PROMPT.md), while the
+  active multi-agent runbook is
+  [`_commentary/v4/ORCHESTRATION.md`](_commentary/v4/ORCHESTRATION.md). V4 uses
+  one bundle root per ordered analysis and three analysis-namespaced artifact
+  roots, supports parallel focus units and ordered external context, and has no
+  automatic repair cycle. [`scripts/README.md`](scripts/README.md) documents
+  base-bundle construction and the required branch-tier projection.
 - Running surah commentary Layer 3:
   [`_channel/layer3/ORCHESTRATION.md`](_channel/layer3/ORCHESTRATION.md).
 - What evidence exists: [`docs/SOURCES.md`](docs/SOURCES.md) for paths and

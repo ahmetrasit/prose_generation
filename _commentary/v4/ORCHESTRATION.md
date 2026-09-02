@@ -1,7 +1,13 @@
 # Commentary v4 orchestration
 
 This is the complete runbook for a cold orchestrator. Do not invoke v3's
-authoring state machine.
+authoring state machine. V4 reads focus and context units from the single
+`bundles-layer2/` root by default, derives the V3 docket in memory, and writes
+only under `input/<analysis-id>/`, `raw/<analysis-id>/`, and
+`editorial/<analysis-id>/`. A native focus missing from the tiered root falls
+back to its base `bundles/` unit with the origin recorded in the manifest.
+Ordered compositions never mix roots; pass `--context-bundles-dir bundles` if
+any selected unit has not been tiered.
 
 ## One unit
 
@@ -37,6 +43,49 @@ authoring state machine.
 
 7. Inspect `git diff` and commit the unit's `input/`, `raw/`, and `editorial/`
    artifacts together when accepted.
+
+## Custom context
+
+On the first wave, define the ordered composition and all desired focus units:
+
+```bash
+# Add one external ayah to every Fatiha focus. S17 is not tiered yet, so use
+# one explicit base-bundle root for the complete composition.
+python3 _commentary/v4/workflow.py advance \
+  --analysis-id fatiha-with-17-50 \
+  --context-bundles-dir bundles \
+  --segment fatiha=1:1-7 \
+  --segment external=17:50 \
+  --ayah 1:1-7
+
+# Fatiha followed by S100; every S100 ayah is a parallel focus.
+python3 _commentary/v4/workflow.py advance \
+  --analysis-id fatiha-lens-s100 \
+  --segment fatiha=1:1-7 \
+  --segment s100=100:1-11 \
+  --ayah 100:1-11
+```
+
+For every later wave, retain the analysis ID in the command; the composition is
+loaded from each unit's fixed input snapshot:
+
+```bash
+python3 _commentary/v4/workflow.py advance \
+  --analysis-id fatiha-lens-s100 --ayah 100:1-11
+python3 _commentary/v4/workflow.py verify \
+  --analysis-id fatiha-lens-s100 --ayah 100:1-11
+```
+
+An `--analysis FILE` JSON is equivalent to repeated `--segment`; it is the
+preferred interface for a composition reused across separate invocations.
+For each current focus, every other selected unit is context. This does not
+rewrite the focus bundle's canonical pericope; it adds explicitly provenance-
+bound context to the analysis packets. A same-surah unit in the focus's segment
+goes to macro even when it lies outside the native pericope. A separate-segment
+or cross-surah unit goes to global. Selected units can be discontinuous and
+cross-surah, and their order and segment IDs are preserved. Do not put the same
+unit in two segments. `S:0` uses this same mechanism with no special
+orchestration mode; name it explicitly because ranges cannot start at zero.
 
 ## Rules
 
@@ -92,10 +141,14 @@ the unit's complete first-pass set.
 
 Different ayahs have disjoint fixed paths, so their scope, canonical, and
 editorial work may run concurrently without a repository-wide guard. Do not run
-two orchestrators for the same ayah at the same time. A batch can contain mixed
-stages and unit errors; continue every returned handoff and address only the
-reported failed units. `partial_error` deliberately exits nonzero so automation
-cannot miss the failed unit, but its JSON and `parallel_handoffs` remain valid.
+two orchestrators for the same analysis ID and ayah at the same time. Native and
+custom analyses of the same ayah have disjoint paths and may run concurrently.
+A batch can contain mixed stages and unit errors; continue every returned
+handoff and address only the reported failed units. `partial_error` deliberately
+exits nonzero so automation cannot miss the failed unit, but its JSON and
+`parallel_handoffs` remain valid.
 
-Prefatory basmala units remain unsupported until their versioned authoring
-protocol lands.
+Prefatory basmala units are valid for S2-S8 and S10-S114. Their target surface
+and target-surah reader evidence remain `S:0`; word/QAC identities remain
+canonical `1:1:*`; HFT, inter-ayah, and native pericope states are explicitly
+not applicable. Never synthesize `1:0`, `9:0`, or `S:0:*` linguistic refs.

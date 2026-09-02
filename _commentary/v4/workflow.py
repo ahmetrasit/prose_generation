@@ -4,13 +4,14 @@
 from __future__ import annotations
 
 import argparse
+import copy
 import hashlib
 import json
 import os
 import re
 import sys
 import tempfile
-from dataclasses import dataclass
+from dataclasses import asdict, dataclass
 from pathlib import Path
 from typing import Any
 
@@ -26,18 +27,31 @@ EDITORIAL_ROOT = V4_ROOT / "editorial"
 LANES = ("micro", "macro", "global")
 KINDS = ("prose", "evidence", "index", "friction")
 MAX_JSON_BYTES = 128_000_000
+MAX_LANE_PACKET_BYTES = 32_000_000
 MARKER_RE = re.compile(r"@@[A-Z0-9_]+@@")
-AYAH_SELECTOR_RE = re.compile(
-    r"([1-9][0-9]*):(0|[1-9][0-9]*)(?:-([1-9][0-9]*))?"
-)
 MAX_BATCH_UNITS = 512
+DEFAULT_CONTEXT_BUNDLES_DIR = REPO_ROOT / "bundles-layer2"
+BASE_BUNDLES_DIR = REPO_ROOT / "bundles"
+PROJECTS_ROOT = REPO_ROOT.parent
 
 # Reuse v3's evidence projection and exact request identity. The orchestration
 # state machine is deliberately not imported or called.
+sys.path.insert(0, str(V4_ROOT))
 sys.path.insert(0, str(V3_ROOT))
+import composition as compositions  # noqa: E402
 import render_authoring as v3  # noqa: E402
 from v3lib.common import ValidationError  # noqa: E402
-from v3lib.prepare import validate_docket  # noqa: E402
+from v3lib.prepare import (  # noqa: E402
+    PrepareOptions,
+    build_prepared_artifacts,
+    validate_docket,
+)
+
+
+V4_PREPARE_OPTIONS = PrepareOptions(
+    hft_policy="quarantine",
+    max_support_chars=8_000,
+)
 
 
 class WorkflowError(RuntimeError):
@@ -51,6 +65,7 @@ class Layout:
     input: Path
     raw: Path
     editorial: Path
+    analysis_id: str = "native"
 
     def packet(self, lane: str) -> Path:
         return self.input / f"{lane}.packet.json"
@@ -74,6 +89,10 @@ class Layout:
         return self.input / "manifest.json"
 
     @property
+    def composition(self) -> Path:
+        return self.input / "analysis.json"
+
+    @property
     def canonical_prompt(self) -> Path:
         return self.input / "canonical.prompt.md"
 
@@ -88,58 +107,37 @@ class Layout:
         return self.editorial / f"{self.stem}.{kind}.editorial.tr.md"
 
 
-def layout_for(ayah_ref: str) -> Layout:
-    match = re.fullmatch(r"([1-9][0-9]*):([1-9][0-9]*)", ayah_ref)
+def layout_for(ayah_ref: str, analysis_id: str = "native") -> Layout:
+    if compositions.ANALYSIS_ID_RE.fullmatch(analysis_id) is None:
+        raise WorkflowError(f"Invalid analysis ID: {analysis_id!r}")
+    match = re.fullmatch(r"([1-9][0-9]*):(0|[1-9][0-9]*)", ayah_ref)
     if match is None:
-        if re.fullmatch(r"[1-9][0-9]*:0", ayah_ref):
-            raise WorkflowError(
-                "Prefatory basmala units require a versioned authoring protocol; "
-                "v4 currently accepts numbered ayahs only"
-            )
-        raise WorkflowError(f"Invalid numbered ayah reference: {ayah_ref!r}")
+        raise WorkflowError(f"Invalid Quran unit reference: {ayah_ref!r}")
     surah, ayah = int(match.group(1)), int(match.group(2))
+    if not 1 <= surah <= 114:
+        raise WorkflowError(f"Surah is outside 1-114: {ayah_ref}")
+    if ayah == 0 and surah in compositions.BASMALA_EXCLUDED_SURAHS:
+        reason = "S1 uses 1:1" if surah == 1 else "S9 has no prefatory basmala"
+        raise WorkflowError(f"Invalid prefatory unit {ayah_ref}: {reason}")
     folder = f"s{surah:03d}"
     stem = f"{surah}_{ayah}"
     return Layout(
         ayah_ref=ayah_ref,
         stem=stem,
-        input=INPUT_ROOT / folder / stem,
-        raw=RAW_ROOT / folder / stem,
-        editorial=EDITORIAL_ROOT / folder / stem,
+        input=INPUT_ROOT / analysis_id / folder / stem,
+        raw=RAW_ROOT / analysis_id / folder / stem,
+        editorial=EDITORIAL_ROOT / analysis_id / folder / stem,
+        analysis_id=analysis_id,
     )
 
 
 def _expand_ayah_selectors(selectors: list[str] | str) -> list[str]:
-    if isinstance(selectors, str):
-        selectors = [selectors]
-    refs: list[str] = []
-    seen: set[str] = set()
-    for raw_selector in selectors:
-        for selector in raw_selector.split(","):
-            selector = selector.strip()
-            match = AYAH_SELECTOR_RE.fullmatch(selector)
-            if match is None:
-                raise WorkflowError(f"Invalid ayah selector: {selector!r}")
-            surah, first, last_text = match.groups()
-            first_number = int(first)
-            if first_number == 0 and last_text is not None:
-                raise WorkflowError(
-                    f"Ayah ranges may not start at prefatory unit zero: {selector}"
-                )
-            last_number = int(last_text or first)
-            if last_number < first_number:
-                raise WorkflowError(f"Descending ayah range is not allowed: {selector}")
-            for ayah in range(first_number, last_number + 1):
-                ref = f"{int(surah)}:{ayah}"
-                if ref not in seen:
-                    refs.append(ref)
-                    seen.add(ref)
-                if len(refs) > MAX_BATCH_UNITS:
-                    raise WorkflowError(
-                        f"A batch may contain at most {MAX_BATCH_UNITS} ayahs"
-                    )
-    if not refs:
-        raise WorkflowError("At least one numbered ayah is required")
+    try:
+        refs = compositions.expand_selectors(selectors)
+    except compositions.CompositionError as exc:
+        raise WorkflowError(str(exc)) from exc
+    if len(refs) > MAX_BATCH_UNITS:
+        raise WorkflowError(f"A batch may contain at most {MAX_BATCH_UNITS} units")
     return refs
 
 
@@ -243,7 +241,7 @@ def _assert_confined(path: Path, root: Path, *, label: str) -> None:
 
 
 def _assert_layout(layout: Layout) -> None:
-    if layout != layout_for(layout.ayah_ref):
+    if layout != layout_for(layout.ayah_ref, layout.analysis_id):
         raise WorkflowError("Unit layout does not match the fixed v4 paths")
     for label, path, root in (
         ("input directory", layout.input, INPUT_ROOT),
@@ -336,9 +334,472 @@ def _render(template: str, replacements: dict[str, str], *, label: str) -> str:
     return rendered
 
 
+def _analysis_id(args: argparse.Namespace) -> str:
+    value = getattr(args, "analysis_id", None) or "native"
+    if compositions.ANALYSIS_ID_RE.fullmatch(value) is None:
+        raise WorkflowError(f"Invalid analysis ID: {value!r}")
+    return value
+
+
+def _layout_for_args(args: argparse.Namespace) -> Layout:
+    return layout_for(args.ayah, _analysis_id(args))
+
+
+def _is_prefatory_ref(ref: str) -> bool:
+    return bool(re.fullmatch(r"[1-9][0-9]*:0", ref))
+
+
+def _composition_for_prepare(
+    args: argparse.Namespace, layout: Layout
+) -> compositions.Composition | None:
+    if layout.analysis_id == "native":
+        return None
+    supplied = getattr(args, "composition", None)
+    if isinstance(supplied, compositions.Composition):
+        composition = supplied
+    elif layout.composition.is_file() and not layout.composition.is_symlink():
+        try:
+            composition = compositions.load_composition(layout.composition)
+        except compositions.CompositionError as exc:
+            raise WorkflowError(str(exc)) from exc
+    else:
+        raise WorkflowError(
+            f"Analysis {layout.analysis_id!r} has no composition definition. "
+            "Supply --segment definitions (or --analysis) on the first prepare."
+        )
+    if composition.analysis_id != layout.analysis_id:
+        raise WorkflowError("Composition analysis ID does not match the unit path")
+    if layout.ayah_ref not in composition.focus_refs:
+        raise WorkflowError(
+            f"{layout.ayah_ref} is not a focus of analysis {layout.analysis_id}"
+        )
+    return composition
+
+
+def _docket_payload_hash(docket: dict[str, Any]) -> str:
+    payload = copy.deepcopy(docket)
+    payload.get("identity", {}).pop("docket_payload_sha256", None)
+    return v3._sha256_json(payload)
+
+
+def _adapt_basmala_docket(
+    source_bundle: dict[str, Any], template_docket: dict[str, Any]
+) -> dict[str, Any]:
+    target_ref = str(source_bundle.get("ayahRef"))
+    try:
+        unit_identity = compositions.validate_unit_bundle(
+            source_bundle, expected_ref=target_ref
+        )
+    except compositions.CompositionError as exc:
+        raise WorkflowError(str(exc)) from exc
+    if unit_identity["unit_kind"] != "prefatory_basmala":
+        raise WorkflowError("Basmala docket adapter requires prefatory_basmala")
+    if template_docket.get("identity", {}).get("ayah_ref") != "1:1":
+        raise WorkflowError("Basmala linguistic docket template must be 1:1")
+
+    docket = copy.deepcopy(template_docket)
+    intrinsic_types = {"qac_morpheme", "word_analysis"}
+    candidates = [
+        candidate
+        for candidate in docket.get("candidates", [])
+        if isinstance(candidate, dict)
+        and candidate.get("source_type") in intrinsic_types
+    ]
+    support_ids = {
+        support_id
+        for candidate in candidates
+        for support_id in candidate.get("support_ids", [])
+        if isinstance(support_id, str)
+    }
+    for candidate in candidates:
+        candidate["ayah_ref"] = target_ref
+        candidate["surface_ref"] = target_ref
+        candidate["linguistic_source_ref"] = "1:1"
+    docket["candidates"] = candidates
+    docket["support_registry"] = [
+        support
+        for support in docket.get("support_registry", [])
+        if isinstance(support, dict) and support.get("support_id") in support_ids
+    ]
+    docket["identity"] = {
+        "ayah_ref": target_ref,
+        "source_canonical_sha256": v3._sha256_json(source_bundle),
+        "docket_payload_sha256": "",
+    }
+    docket["focus"]["arabic_uthmani"] = source_bundle["text"]["arabic_uthmani"]
+    docket["focus"]["surface_ref"] = target_ref
+    docket["focus"]["linguistic_source_ref"] = "1:1"
+    docket["scope"]["pericope"] = {
+        "id": f"s{int(target_ref.split(':', 1)[0]):03d}-prefatory-basmala",
+        "number": 0,
+        "label": "Prefatory basmala focus",
+        "ayah_from": 0,
+        "ayah_to": 0,
+        "refs": [target_ref],
+    }
+    docket["scope"]["hft"] = {
+        "status": "not_applicable",
+        "adjudicable": False,
+        "reasons": ["prefatory basmala has no native HFT focus run"],
+        "packet": None,
+        "readers": [],
+    }
+    docket["adjudication_gate"] = {
+        **docket.get("adjudication_gate", {}),
+        "ready": True,
+        "mode": "prefatory_basmala_linguistic_alias",
+    }
+    coverage_by_source: dict[str, int] = {}
+    for candidate in candidates:
+        source_type = str(candidate.get("source_type"))
+        coverage_by_source[source_type] = coverage_by_source.get(source_type, 0) + 1
+    docket["coverage"] = {
+        **docket.get("coverage", {}),
+        "docket_candidate_count": len(candidates),
+        "mandatory_candidate_count": sum(
+            candidate.get("mandatory") is True for candidate in candidates
+        ),
+        "optional_candidate_count": sum(
+            candidate.get("mandatory") is not True for candidate in candidates
+        ),
+        "by_source_type": coverage_by_source,
+    }
+    docket["identity"]["docket_payload_sha256"] = _docket_payload_hash(docket)
+    return docket
+
+
+def _derive_docket(
+    source_origin: Path,
+    source_payload: bytes,
+    source_bundle: dict[str, Any],
+) -> tuple[dict[str, Any], dict[str, Any]]:
+    try:
+        _prepared, docket = build_prepared_artifacts(
+            source_bundle,
+            source_path=source_origin,
+            source_raw=source_payload,
+            options=V4_PREPARE_OPTIONS,
+        )
+    except ValidationError as exc:
+        raise WorkflowError(
+            f"Cannot derive the V4 docket from {source_origin}: {exc}"
+        ) from exc
+    return docket, {
+        "kind": "derived_in_memory",
+        "implementation": "_commentary/v3/v3lib/prepare.py",
+        "source": v3._stable_source_path(source_origin),
+        "prepare_options": asdict(V4_PREPARE_OPTIONS),
+    }
+
+
+def _basmala_docket_template(source_bundle: dict[str, Any]) -> dict[str, Any]:
+    """Expose an S:0 bundle through V3's positive-ayah preparation contract."""
+    template = copy.deepcopy(source_bundle)
+    template.update({
+        "unit_kind": "numbered_ayah",
+        "surah": 1,
+        "ayah": 1,
+        "ayahRef": "1:1",
+        "surface_ref": "1:1",
+        "linguistic_source_ref": "1:1",
+        "v12_reader_responses": {},
+        "v12_focus_trace_hermetic": {},
+        "v12_reader_walks": {},
+        "v12_reader_walks_wide": {},
+        "v12_cross_run_publication": None,
+        "butuncul_okuma_line": None,
+        "inter_ayah_rows": [],
+        "channel_subchannels_anchored_here": [],
+        "channel_generated_outputs": {},
+        "pericope": {
+            "surah": 1,
+            "pericope": 1,
+            "ayah_from": 1,
+            "ayah_to": 1,
+            "label": "Canonical basmala linguistic template",
+            "synthesized": True,
+        },
+    })
+    template.pop("v12_focus_trace_hermetic", None)
+    return template
+
+
+def _focus_bundle_origin(
+    args: argparse.Namespace,
+    context_bundles_dir: Path,
+    composition: compositions.Composition | None,
+) -> Path:
+    explicit = getattr(args, "source_bundle", None)
+    if explicit is not None:
+        return Path(explicit)
+
+    selected = compositions.unit_bundle_path(context_bundles_dir, args.ayah)
+    if selected.exists() or selected.is_symlink() or composition is not None:
+        return selected
+
+    base = compositions.unit_bundle_path(BASE_BUNDLES_DIR, args.ayah)
+    if base.is_file() and not base.is_symlink():
+        return base
+    return selected
+
+
+def _load_focus_inputs(
+    args: argparse.Namespace,
+    context_bundles_dir: Path,
+    composition: compositions.Composition | None,
+) -> tuple[
+    Path,
+    bytes,
+    dict[str, Any],
+    dict[str, Any],
+    dict[str, Any],
+]:
+    source_origin = _focus_bundle_origin(args, context_bundles_dir, composition)
+    source_payload, source_bundle = _load_json_with_bytes(source_origin)
+    try:
+        unit_identity = compositions.validate_unit_bundle(
+            source_bundle, expected_ref=args.ayah
+        )
+    except compositions.CompositionError as exc:
+        raise WorkflowError(str(exc)) from exc
+
+    explicit_docket = getattr(args, "docket", None)
+    if explicit_docket is not None:
+        docket_origin = Path(explicit_docket)
+        _docket_payload, docket = _load_json_with_bytes(docket_origin)
+        try:
+            validate_docket(docket)
+        except ValidationError as exc:
+            raise WorkflowError(f"Invalid docket {docket_origin}: {exc}") from exc
+        docket_lineage = {
+            "kind": "provided",
+            "path": v3._stable_source_path(docket_origin),
+        }
+    else:
+        template_origin = source_origin
+        template_payload = source_payload
+        template_bundle = source_bundle
+        if unit_identity["unit_kind"] == "prefatory_basmala":
+            template_bundle = _basmala_docket_template(source_bundle)
+            template_payload = _canonical_json_bytes(template_bundle)
+        docket, docket_lineage = _derive_docket(
+            template_origin,
+            template_payload,
+            template_bundle,
+        )
+
+    if unit_identity["unit_kind"] == "prefatory_basmala":
+        docket = _adapt_basmala_docket(source_bundle, docket)
+        docket_lineage = {
+            **docket_lineage,
+            "adapter": "prefatory_basmala_linguistic_alias_v1",
+            "template_identity_adapter": "s0_bundle_as_positive_1_1_v1",
+            "surface_ref": args.ayah,
+            "linguistic_source_ref": "1:1",
+        }
+    return (
+        source_origin,
+        source_payload,
+        source_bundle,
+        docket,
+        docket_lineage,
+    )
+
+
+def _merge_context_supports(
+    existing: list[dict[str, Any]], additions: list[dict[str, Any]]
+) -> list[dict[str, Any]]:
+    by_id = {
+        support.get("support_id"): support
+        for support in existing
+        if isinstance(support, dict) and isinstance(support.get("support_id"), str)
+    }
+    for addition in additions:
+        support_id = addition["support_id"]
+        current = by_id.get(support_id)
+        if current is None:
+            existing.append(addition)
+            by_id[support_id] = addition
+            continue
+        for field in ("source_type", "role", "payload"):
+            if current.get(field) != addition.get(field):
+                raise WorkflowError(f"Context support ID collision: {support_id}")
+        current["context_refs"] = sorted(set(
+            current.get("context_refs", []) + addition.get("context_refs", [])
+        ))
+    return existing
+
+
+def _composition_projection(
+    composition: compositions.Composition,
+    focus_ref: str,
+    bundle_root: Path,
+) -> dict[str, Any]:
+    by_lane: dict[str, dict[str, list[dict[str, Any]]]] = {
+        lane: {"candidates": [], "supports": [], "units": []}
+        for lane in LANES
+    }
+    all_units: list[dict[str, Any]] = []
+    for context_row in composition.context_rows(focus_ref):
+        try:
+            path, bundle, identity = compositions.load_unit_bundle(
+                bundle_root, context_row["ref"]
+            )
+            candidate, supports, inventory = compositions.project_context_unit(
+                composition=composition,
+                focus_ref=focus_ref,
+                context_row=context_row,
+                source_path=path,
+                bundle=bundle,
+                identity=identity,
+                projects_root=PROJECTS_ROOT,
+            )
+        except compositions.CompositionError as exc:
+            raise WorkflowError(str(exc)) from exc
+        lane_projection = by_lane[context_row["lane"]]
+        lane_projection["candidates"].append(candidate)
+        _merge_context_supports(lane_projection["supports"], supports)
+        lane_projection["units"].append(inventory)
+        all_units.append(inventory)
+    return {"by_lane": by_lane, "units": all_units}
+
+
+def _append_basmala_focus_evidence(
+    packet: dict[str, Any], source_bundle: dict[str, Any], lane: str
+) -> None:
+    if lane != "global":
+        return
+    payload = {
+        field: source_bundle.get(field)
+        for field in (
+            "v12_reader_responses",
+            "v12_reader_walks",
+            "v12_reader_walks_wide",
+            "v12_cross_run_publication",
+            "butuncul_okuma_line",
+            "channel_subchannels_anchored_here",
+            "channel_generated_outputs",
+        )
+        if source_bundle.get(field) not in (None, {}, [], "")
+    }
+    payload["not_applicable_states"] = {
+        "hft": source_bundle.get("coverage", {}).get("v12_focus_trace_hermetic"),
+        "inter_ayah": source_bundle.get("coverage", {}).get("inter_ayah"),
+        "pericope": source_bundle.get("coverage", {}).get("pericope"),
+    }
+    support_id = "sup_basmala_" + v3._sha256_json(payload)[:20]
+    candidate_id = "cand_basmala_" + v3._sha256_json({
+        "focus_ref": source_bundle["ayahRef"],
+        "support_id": support_id,
+    })[:20]
+    packet["support_registry"].append({
+        "support_id": support_id,
+        "source_type": "prefatory_basmala_focus_evidence",
+        "source_local_id": source_bundle["ayahRef"],
+        "scope": "global",
+        "json_pointer": "/prefatory_basmala_focus_evidence",
+        "role": "surah_conditioned_prefatory_evidence",
+        "branch_refs": [],
+        "payload": payload,
+        "trust": "canonical_bundle_hash_bound",
+        "qualification": {
+            "surface_ref": source_bundle["surface_ref"],
+            "linguistic_source_ref": source_bundle["linguistic_source_ref"],
+            "hft_and_inter_ayah_are_not_applicable": True,
+        },
+    })
+    packet["candidate_inventory"].append({
+        "candidate_id": candidate_id,
+        "ayah_ref": source_bundle["ayahRef"],
+        "lane": "global",
+        "source_type": "prefatory_basmala_focus_evidence",
+        "source_local_id": source_bundle["ayahRef"],
+        "source_pointer": "/prefatory_basmala_focus_evidence",
+        "kind": "surah_conditioned_prefatory_evidence",
+        "title": "Prefatory basmala evidence in its target surah",
+        "scope": "wider_record",
+        "anchor_refs": [source_bundle["ayahRef"]],
+        "branch_refs": [],
+        "support_ids": [support_id],
+        "trust": "canonical_bundle_hash_bound",
+        "commentary_obligation": "review",
+    })
+
+
+def _augment_lane_packet(
+    packet: dict[str, Any],
+    *,
+    layout: Layout,
+    composition: compositions.Composition | None,
+    projection: dict[str, Any] | None,
+    source_bundle: dict[str, Any],
+    lane: str,
+) -> dict[str, Any]:
+    if source_bundle.get("unit_kind") == "prefatory_basmala":
+        _append_basmala_focus_evidence(packet, source_bundle, lane)
+        packet["identity"].update({
+            "unit_kind": "prefatory_basmala",
+            "surface_ref": source_bundle["surface_ref"],
+            "linguistic_source_ref": source_bundle["linguistic_source_ref"],
+        })
+        packet["scope"]["prefatory_basmala"] = {
+            "hft": "not_applicable",
+            "inter_ayah": "not_applicable",
+            "native_pericope": "not_applicable",
+        }
+    if composition is not None and projection is not None:
+        lane_projection = projection["by_lane"][lane]
+        packet["candidate_inventory"].extend(lane_projection["candidates"])
+        _merge_context_supports(
+            packet["support_registry"], lane_projection["supports"]
+        )
+        packet["selected_context_units"] = lane_projection["units"]
+        packet["scope"]["analysis_composition"] = {
+            **composition.canonical_payload,
+            "canonical_sha256": composition.canonical_sha256,
+            "current_focus_ref": layout.ayah_ref,
+            "context_refs": [
+                row["ref"] for row in composition.context_rows(layout.ayah_ref)
+            ],
+            "lane_context_refs": [
+                unit["ayah_ref"] for unit in lane_projection["units"]
+            ],
+        }
+        packet["identity"].update({
+            "analysis_id": composition.analysis_id,
+            "analysis_composition_sha256": composition.canonical_sha256,
+        })
+    candidate_ids = [
+        candidate.get("candidate_id") for candidate in packet["candidate_inventory"]
+    ]
+    support_ids = [support.get("support_id") for support in packet["support_registry"]]
+    if len(candidate_ids) != len(set(candidate_ids)):
+        raise WorkflowError(f"{lane} packet contains duplicate candidate IDs")
+    if len(support_ids) != len(set(support_ids)):
+        raise WorkflowError(f"{lane} packet contains duplicate support IDs")
+    packet["identity"]["lane_packet_sha256"] = (
+        v3._payload_hash_with_identity_field_removed(packet, "lane_packet_sha256")
+    )
+    packet_bytes = len(_canonical_json_bytes(packet))
+    if packet_bytes > MAX_LANE_PACKET_BYTES:
+        raise WorkflowError(
+            f"{lane} packet is {packet_bytes} bytes; context budget is "
+            f"{MAX_LANE_PACKET_BYTES}. Reduce the composition explicitly."
+        )
+    return packet
+
+
 def _source_options(parser: argparse.ArgumentParser) -> None:
-    parser.add_argument("--docket", type=Path)
-    parser.add_argument("--source-bundle", type=Path)
+    parser.add_argument(
+        "--docket",
+        type=Path,
+        help="Optional legacy docket override for one unit; normally derived in memory.",
+    )
+    parser.add_argument(
+        "--source-bundle",
+        type=Path,
+        help="Optional focus-bundle override for one unit.",
+    )
     parser.add_argument(
         "--inter-ayah-dir", type=Path, default=v3.DEFAULT_INTER_AYAH_DIR
     )
@@ -349,6 +810,15 @@ def _source_options(parser: argparse.ArgumentParser) -> None:
     )
     parser.add_argument("--quran-text", type=Path, default=v3.DEFAULT_QURAN_TEXT)
     parser.add_argument(
+        "--context-bundles-dir",
+        type=Path,
+        default=DEFAULT_CONTEXT_BUNDLES_DIR,
+        help=(
+            "Root containing canonical/tiered sNNN/S_A.ayah.json files used "
+            "for focus and selected-context units in an ordered analysis."
+        ),
+    )
+    parser.add_argument(
         "--force-input",
         action="store_true",
         help="Replace changed generated input files; raw/editorial files are untouched.",
@@ -358,18 +828,22 @@ def _source_options(parser: argparse.ArgumentParser) -> None:
 def _input_manifest_base(
     layout: Layout,
     source_origin: Path,
-    docket_origin: Path,
+    docket_lineage: dict[str, Any],
     source_bundle: dict[str, Any],
     docket: dict[str, Any],
     quran_coverage: dict[str, Any],
     inter_ayah_coverage: dict[str, Any],
     lane_records: dict[str, Any],
+    composition: compositions.Composition | None,
+    composition_projection: dict[str, Any] | None,
+    context_bundles_dir: Path,
 ) -> dict[str, Any]:
     canonical_template = PROMPTS_ROOT / "canonical.md"
     editorial_instructions = V3_PROMPTS_ROOT / "editorial-followup.md"
     editorial_template = PROMPTS_ROOT / "editorial.md"
     return {
-        "schema_version": "commentary-v4-unit-manifest-v1",
+        "schema_version": "commentary-v4-unit-manifest-v2",
+        "analysis_id": layout.analysis_id,
         "ayah_ref": layout.ayah_ref,
         "layout": {
             "input": _repo_path(layout.input),
@@ -383,7 +857,7 @@ def _input_manifest_base(
         },
         "docket": {
             "snapshot": _path_record(layout.docket),
-            "origin": v3._stable_source_path(docket_origin),
+            "origin": docket_lineage,
             "payload_sha256": docket["identity"]["docket_payload_sha256"],
         },
         "evidence_projection": {
@@ -391,6 +865,24 @@ def _input_manifest_base(
             "inter_ayah": inter_ayah_coverage,
             "implementation": "_commentary/v3/render_authoring.py",
         },
+        "analysis": (
+            {
+                "mode": "native",
+                "analysis_id": "native",
+                "composition": None,
+                "context_bundles_dir": None,
+                "selected_context_units": [],
+            }
+            if composition is None
+            else {
+                "mode": "ordered_composition",
+                "analysis_id": composition.analysis_id,
+                "composition": _path_record(layout.composition),
+                "composition_canonical_sha256": composition.canonical_sha256,
+                "context_bundles_dir": v3._stable_source_path(context_bundles_dir),
+                "selected_context_units": composition_projection["units"],
+            }
+        ),
         "lanes": lane_records,
         "canonical_template": {
             "path": _repo_path(canonical_template),
@@ -411,16 +903,26 @@ def _input_manifest_base(
 
 
 def prepare(args: argparse.Namespace) -> dict[str, Any]:
-    layout = layout_for(args.ayah)
+    layout = _layout_for_args(args)
     _assert_layout(layout)
-    source_origin = (args.source_bundle or v3._default_source_bundle(args.ayah))
-    docket_origin = (args.docket or v3._default_docket(args.ayah))
-    source_payload, source_bundle = _load_json_with_bytes(source_origin)
-    docket_payload, docket = _load_json_with_bytes(docket_origin)
+    composition = _composition_for_prepare(args, layout)
+    context_bundles_dir = Path(
+        getattr(args, "context_bundles_dir", DEFAULT_CONTEXT_BUNDLES_DIR)
+    ).resolve(strict=False)
+    (
+        source_origin,
+        source_payload,
+        source_bundle,
+        docket,
+        docket_lineage,
+    ) = _load_focus_inputs(args, context_bundles_dir, composition)
     try:
-        validate_docket(docket)
-    except ValidationError as exc:
-        raise WorkflowError(f"Invalid docket {docket_origin}: {exc}") from exc
+        unit_identity = compositions.validate_unit_bundle(
+            source_bundle, expected_ref=args.ayah
+        )
+    except compositions.CompositionError as exc:
+        raise WorkflowError(str(exc)) from exc
+    docket_payload = _canonical_json_bytes(docket, newline=True)
     if source_bundle.get("ayahRef") != args.ayah:
         raise WorkflowError("Source bundle ayah identity does not match --ayah")
     if docket.get("identity", {}).get("ayah_ref") != args.ayah:
@@ -435,18 +937,39 @@ def prepare(args: argparse.Namespace) -> dict[str, Any]:
     numbered_refs = {
         ref for ref in quran_evidence if ref.split(":", 1)[1] != "0"
     }
-    inter_rows, reciprocal, inter_coverage = v3._inter_ayah_evidence_with_fallback(
-        args.ayah,
-        args.inter_ayah_dir,
-        args.inter_ayah_parent_dir,
-        numbered_refs,
-    )
+    if unit_identity["unit_kind"] == "prefatory_basmala":
+        inter_rows: list[dict[str, Any]] = []
+        reciprocal: dict[str, list[dict[str, Any]]] = {}
+        inter_coverage = {
+            "status": "not_applicable",
+            "reason": "inter-ayah evidence is defined on numbered ayahs only",
+            "focus_ref": args.ayah,
+        }
+    else:
+        inter_rows, reciprocal, inter_coverage = v3._inter_ayah_evidence_with_fallback(
+            args.ayah,
+            args.inter_ayah_dir,
+            args.inter_ayah_parent_dir,
+            numbered_refs,
+        )
     hft_projection = v3._hft_authoring_projection(docket, source_bundle)
+    composition_projection = (
+        _composition_projection(composition, args.ayah, context_bundles_dir)
+        if composition is not None
+        else None
+    )
 
     layout.input.mkdir(parents=True, exist_ok=True)
     layout.raw.mkdir(parents=True, exist_ok=True)
     layout.editorial.mkdir(parents=True, exist_ok=True)
     _assert_layout(layout)
+    if composition is not None:
+        _write_generated(
+            layout.composition,
+            _pretty_json_bytes(composition.canonical_payload),
+            replace_changed=args.force_input,
+            root=INPUT_ROOT,
+        )
     _write_generated(
         layout.source_bundle,
         source_payload,
@@ -472,6 +995,14 @@ def prepare(args: argparse.Namespace) -> dict[str, Any]:
             inter_coverage,
             quran_evidence,
             quran_coverage,
+        )
+        packet = _augment_lane_packet(
+            packet,
+            layout=layout,
+            composition=composition,
+            projection=composition_projection,
+            source_bundle=source_bundle,
+            lane=lane,
         )
         template_path = V3_PROMPTS_ROOT / f"scope-{lane}.md"
         template = template_path.read_text(encoding="utf-8")
@@ -522,12 +1053,15 @@ def prepare(args: argparse.Namespace) -> dict[str, Any]:
     manifest = _input_manifest_base(
         layout,
         source_origin,
-        docket_origin,
+        docket_lineage,
         source_bundle,
         docket,
         quran_coverage,
         inter_coverage,
         lane_records,
+        composition,
+        composition_projection,
+        context_bundles_dir,
     )
     if layout.manifest.exists():
         if layout.manifest.is_symlink() or not layout.manifest.is_file():
@@ -556,6 +1090,7 @@ def prepare(args: argparse.Namespace) -> dict[str, Any]:
     )
     return {
         "schema_version": "commentary-v4-status-v1",
+        "analysis_id": layout.analysis_id,
         "ayah_ref": args.ayah,
         "status": "prepared",
         "input": str(layout.input),
@@ -622,10 +1157,11 @@ def _load_unit_manifest(layout: Layout) -> dict[str, Any]:
         raise WorkflowError(f"Unit manifest is missing or not regular: {layout.manifest}")
     manifest = _load_json(layout.manifest)
     if (
-        manifest.get("schema_version") != "commentary-v4-unit-manifest-v1"
+        manifest.get("schema_version") != "commentary-v4-unit-manifest-v2"
+        or manifest.get("analysis_id") != layout.analysis_id
         or manifest.get("ayah_ref") != layout.ayah_ref
     ):
-        raise WorkflowError("Unit manifest identity does not match --ayah")
+        raise WorkflowError("Unit manifest identity does not match analysis/focus")
     expected_layout = {
         "input": _repo_path(layout.input),
         "raw": _repo_path(layout.raw),
@@ -650,6 +1186,56 @@ def _load_unit_manifest(layout: Layout) -> dict[str, Any]:
         label="docket snapshot",
         expected=layout.docket,
     )
+    analysis = manifest.get("analysis")
+    if not isinstance(analysis, dict) or analysis.get("analysis_id") != layout.analysis_id:
+        raise WorkflowError("Manifest analysis record is missing or stale")
+    if layout.analysis_id == "native":
+        if analysis.get("mode") != "native" or analysis.get("composition") is not None:
+            raise WorkflowError("Native unit carries a non-native composition")
+    else:
+        if analysis.get("mode") != "ordered_composition":
+            raise WorkflowError("Custom analysis lacks ordered composition metadata")
+        composition_path = _verify_record(
+            analysis.get("composition"),
+            label="analysis composition",
+            expected=layout.composition,
+        )
+        try:
+            composition = compositions.load_composition(composition_path)
+        except compositions.CompositionError as exc:
+            raise WorkflowError(str(exc)) from exc
+        if (
+            composition.analysis_id != layout.analysis_id
+            or composition.canonical_sha256
+            != analysis.get("composition_canonical_sha256")
+            or layout.ayah_ref not in composition.focus_refs
+        ):
+            raise WorkflowError("Analysis composition identity is stale")
+        selected_units = analysis.get("selected_context_units")
+        if not isinstance(selected_units, list):
+            raise WorkflowError("Analysis context-unit lineage is malformed")
+        for unit in selected_units:
+            if not isinstance(unit, dict):
+                raise WorkflowError("Analysis context-unit lineage contains a non-object")
+            source_file = unit.get("source_file")
+            if not isinstance(source_file, str) or not source_file:
+                raise WorkflowError("Analysis context unit has no source_file")
+            source_path = Path(source_file)
+            if not source_path.is_absolute():
+                source_path = PROJECTS_ROOT / source_path
+            if not source_path.is_file() or source_path.is_symlink():
+                raise WorkflowError(f"Analysis context source is unavailable: {source_path}")
+            source_bytes = source_path.read_bytes()
+            if len(source_bytes) != unit.get("bytes"):
+                raise WorkflowError(f"Analysis context source size changed: {source_path}")
+            try:
+                source_value = json.loads(source_bytes)
+            except (UnicodeDecodeError, json.JSONDecodeError) as exc:
+                raise WorkflowError(f"Invalid analysis context source {source_path}: {exc}") from exc
+            if compositions.canonical_sha256(source_value) != unit.get(
+                "canonical_sha256"
+            ):
+                raise WorkflowError(f"Analysis context source changed: {source_path}")
     _verify_source_binding(
         canonical_template,
         path_field="path",
@@ -1031,6 +1617,7 @@ def _scope_handoff(
     layout: Layout, manifest: dict[str, Any], lane: str
 ) -> dict[str, Any]:
     return {
+        "analysis_id": layout.analysis_id,
         "ayah_ref": layout.ayah_ref,
         "role": f"{lane}_scope_reviewer",
         "fresh_agent": True,
@@ -1045,7 +1632,9 @@ def _scope_handoff(
     }
 
 
-def _canonical_handoff(layout: Layout, canonical: dict[str, Any]) -> dict[str, Any]:
+def _canonical_handoff(
+    layout: Layout, canonical: dict[str, Any]
+) -> dict[str, Any]:
     expected_outputs = {
         kind: _handoff_output_path(
             layout.first_pass(kind),
@@ -1055,6 +1644,7 @@ def _canonical_handoff(layout: Layout, canonical: dict[str, Any]) -> dict[str, A
         for kind in KINDS
     }
     return {
+        "analysis_id": layout.analysis_id,
         "ayah_ref": layout.ayah_ref,
         "role": "canonical_writer",
         "fresh_agent": True,
@@ -1066,7 +1656,7 @@ def _canonical_handoff(layout: Layout, canonical: dict[str, Any]) -> dict[str, A
             "same_live_agent": True,
             "command": (
                 f"python3 _commentary/v4/workflow.py advance "
-                f"--ayah {layout.ayah_ref}"
+                f"--analysis-id {layout.analysis_id} --ayah {layout.ayah_ref}"
             ),
         },
     }
@@ -1084,6 +1674,7 @@ def _editorial_handoff(
         for kind in KINDS
     }
     return {
+        "analysis_id": layout.analysis_id,
         "ayah_ref": layout.ayah_ref,
         "role": "canonical_writer",
         "same_live_agent": True,
@@ -1110,7 +1701,7 @@ def _nonempty_outputs(paths: dict[str, Path]) -> tuple[list[str], list[str]]:
 
 
 def advance(args: argparse.Namespace) -> dict[str, Any]:
-    layout = layout_for(args.ayah)
+    layout = _layout_for_args(args)
     _assert_layout(layout)
     if args.force_input or not layout.manifest.exists():
         prepare(args)
@@ -1140,6 +1731,7 @@ def advance(args: argparse.Namespace) -> dict[str, Any]:
     if missing_lanes:
         return {
             "schema_version": "commentary-v4-status-v1",
+            "analysis_id": layout.analysis_id,
             "ayah_ref": args.ayah,
             "status": "waiting_for_agents",
             "stage": "scope_review",
@@ -1155,6 +1747,7 @@ def advance(args: argparse.Namespace) -> dict[str, Any]:
     if first_missing:
         return {
             "schema_version": "commentary-v4-status-v1",
+            "analysis_id": layout.analysis_id,
             "ayah_ref": args.ayah,
             "status": "waiting_for_agent",
             "stage": "canonical_write",
@@ -1169,6 +1762,7 @@ def advance(args: argparse.Namespace) -> dict[str, Any]:
     if editorial_missing:
         return {
             "schema_version": "commentary-v4-status-v1",
+            "analysis_id": layout.analysis_id,
             "ayah_ref": args.ayah,
             "status": "waiting_for_agent",
             "stage": "canonical_editorial",
@@ -1180,7 +1774,7 @@ def advance(args: argparse.Namespace) -> dict[str, Any]:
 
 
 def verify(args: argparse.Namespace) -> dict[str, Any]:
-    layout = layout_for(args.ayah)
+    layout = _layout_for_args(args)
     _assert_layout(layout)
     manifest = _load_unit_manifest(layout)
     reviews: dict[str, dict[str, Any]] = {}
@@ -1203,6 +1797,7 @@ def verify(args: argparse.Namespace) -> dict[str, Any]:
             outputs[phase][kind] = _path_record(path)
     return {
         "schema_version": "commentary-v4-status-v1",
+        "analysis_id": layout.analysis_id,
         "ayah_ref": args.ayah,
         "status": "complete",
         "semantic_validation": "agent_owned",
@@ -1226,8 +1821,8 @@ def _batch_result(
         or getattr(args, "docket", None) is not None
     ):
         raise WorkflowError(
-            "--source-bundle and --docket are single-ayah options; use canonical "
-            "v3 source paths for a multi-ayah batch"
+            "--source-bundle and --docket are single-unit options; use the "
+            "canonical bundle root for a multi-unit batch"
         )
 
     units: list[dict[str, Any]] = []
@@ -1242,6 +1837,7 @@ def _batch_result(
             error_count += 1
             result = {
                 "schema_version": "commentary-v4-error-v1",
+                "analysis_id": _analysis_id(args),
                 "ayah_ref": ayah_ref,
                 "status": "error",
                 "error": str(exc),
@@ -1276,6 +1872,7 @@ def _batch_result(
         {
             "schema_version": "commentary-v4-batch-status-v1",
             "command": args.command,
+            "analysis_id": _analysis_id(args),
             "status": status,
             "ayah_refs": ayah_refs,
             "summary": {
@@ -1304,7 +1901,6 @@ def _parser() -> argparse.ArgumentParser:
         subparser = subparsers.add_parser(command, help=help_text)
         subparser.add_argument(
             "--ayah",
-            required=True,
             action="extend",
             nargs="+",
             metavar="REF_OR_RANGE",
@@ -1312,6 +1908,29 @@ def _parser() -> argparse.ArgumentParser:
                 "One or more refs or same-surah ranges, for example "
                 "100:1-11 or 1:1 1:2. May be repeated."
             ),
+        )
+        subparser.add_argument(
+            "--analysis-id",
+            default="native",
+            help=(
+                "Stable human-readable analysis namespace. 'native' preserves "
+                "the default v3 evidence scope."
+            ),
+        )
+        subparser.add_argument(
+            "--segment",
+            action="append",
+            default=[],
+            metavar="ID=REFS",
+            help=(
+                "Ordered composition segment, for example "
+                "fatiha=1:1-7. Repeat to define the full recitation sequence."
+            ),
+        )
+        subparser.add_argument(
+            "--analysis",
+            type=Path,
+            help="JSON composition file; its focus_refs are used when --ayah is omitted.",
         )
         _source_options(subparser)
     verify_parser = subparsers.add_parser(
@@ -1324,13 +1943,54 @@ def _parser() -> argparse.ArgumentParser:
         nargs="+",
         metavar="REF_OR_RANGE",
     )
+    verify_parser.add_argument("--analysis-id", default="native")
     return parser
 
 
 def main() -> int:
     args = _parser().parse_args()
     try:
-        ayah_refs = _expand_ayah_selectors(args.ayah)
+        composition: compositions.Composition | None = None
+        analysis_path = getattr(args, "analysis", None)
+        segment_specs = getattr(args, "segment", [])
+        if analysis_path is not None and segment_specs:
+            raise WorkflowError("--analysis cannot be combined with --segment")
+        if analysis_path is not None:
+            try:
+                composition = compositions.load_composition(analysis_path)
+            except compositions.CompositionError as exc:
+                raise WorkflowError(str(exc)) from exc
+            if args.analysis_id not in {"native", composition.analysis_id}:
+                raise WorkflowError("--analysis-id disagrees with the composition file")
+            args.analysis_id = composition.analysis_id
+            ayah_refs = (
+                _expand_ayah_selectors(args.ayah)
+                if args.ayah
+                else list(composition.focus_refs)
+            )
+        elif segment_specs:
+            if args.analysis_id == "native":
+                raise WorkflowError("--segment requires a non-native --analysis-id")
+            if not args.ayah:
+                raise WorkflowError("--segment requires --ayah focus selectors")
+            try:
+                composition = compositions.composition_from_cli(
+                    args.analysis_id, segment_specs, args.ayah
+                )
+            except compositions.CompositionError as exc:
+                raise WorkflowError(str(exc)) from exc
+            ayah_refs = list(composition.focus_refs)
+        else:
+            if not args.ayah:
+                raise WorkflowError("--ayah is required without --analysis")
+            ayah_refs = _expand_ayah_selectors(args.ayah)
+        if composition is not None:
+            outside = sorted(set(ayah_refs) - set(composition.focus_refs))
+            if outside:
+                raise WorkflowError(
+                    f"Selected focuses are outside analysis {composition.analysis_id}: {outside}"
+                )
+        args.composition = composition
         if len(ayah_refs) == 1:
             result = _execute_one(
                 argparse.Namespace(**{**vars(args), "ayah": ayah_refs[0]})
@@ -1338,7 +1998,7 @@ def main() -> int:
             has_errors = False
         else:
             result, has_errors = _batch_result(args, ayah_refs)
-    except (WorkflowError, OSError, SystemExit) as exc:
+    except (WorkflowError, compositions.CompositionError, OSError, SystemExit) as exc:
         print(
             json.dumps(
                 {

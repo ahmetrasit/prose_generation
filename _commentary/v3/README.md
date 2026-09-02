@@ -10,6 +10,13 @@ be given the absolute path to `ORCHESTRATION.md` and follow that document as its
 single orchestration entrypoint. This README explains the implementation and
 artifact contracts; it is not the cold-agent runbook.
 
+Standalone V3 remains a numbered-ayah protocol. Prefatory `S:0` units now have
+canonical base bundles, but must not be passed to V3 prepare or orchestration:
+V3's scope/QAC contracts assume a positive focus ayah. Use V4 for the versioned
+`prefatory_basmala` adapter and for analyses that add explicit ordered context;
+V4 reuses these same V3 lane prompts and packet projection without V3's session
+or repair state machine.
+
 ## Evidence lanes
 
 - **micro**: source-bound QAC morphology, word-analysis topics, and a complete record of

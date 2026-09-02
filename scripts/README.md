@@ -16,7 +16,10 @@ gotchas in `docs/SOURCES.md`; output shape in `bundles/schema.json`.
 # One ayah bundle
 python3 scripts/build_bundle.py --surah 103 --ayah 1
 
-# Every ayah bundle for the surah, plus the surah-level bundle
+# One prefatory basmala unit (not valid for S1 or S9)
+python3 scripts/build_bundle.py --surah 100 --ayah 0
+
+# Every bundle unit for the surah, plus the surah-level bundle
 python3 scripts/build_bundle.py --surah 103
 
 # Default build includes and requires Hermetic Focus Trace
@@ -39,8 +42,8 @@ stdlib `sqlite3` against a decompressed temp file.
 
 ### What it emits
 
-For each numbered ayah of the surah — basmalah `S:0` rows get no ayah bundle,
-matching the v12 run layout, which has no `focus_{S}_0`:
+For every numbered ayah, and for the prefatory `S:0` unit of every surah except
+S1 and S9:
 
 `{surah}_{ayah}.ayah.json`, containing
 
@@ -84,10 +87,28 @@ matching the v12 run layout, which has no `focus_{S}_0`:
 - a mandatory `coverage` block: per source, present/missing, with counts or a
   note explaining absence.
 
+Every new bundle declares `unit_kind`, `surface_ref`, and
+`linguistic_source_ref`. A numbered ayah uses its own reference for all three
+identities. A `prefatory_basmala` uses the target `S:0` Quran-text surface but
+the canonical `1:1` word analysis, QAC rows, morpheme spans, branch inventory,
+and root lexicon. Its normalized Arabic surface must equal `1:1`; all QAC and
+word identities remain positive `1:1:*` references and are never rewritten as
+fabricated `S:0:*` references. Reader walks, wide walks, cross-run publication,
+whole-surah line, and channel material come from the target surah. Native HFT,
+inter-ayah rows, and pericope membership are explicitly `not_applicable` for
+the prefatory unit.
+
+Numbered-ayah discovery remains `1..N`. A full-surah build emits `S:0` first
+where applicable, then `1..N`; a requested span remains numbered-only and a
+span starting at zero is rejected.
+
 Run without `--ayah`, it also emits `{surah}.surah.json`, which references the
 ayah bundle filenames rather than duplicating them and carries surah-scope
 material with no single-ayah home: every Quran-text row for the surah including
-the `S:0` basmalah, the full whole-surah reading, and a coverage rollup.
+the `S:0` basmalah, the full whole-surah reading, and a coverage rollup. Its
+existing `ayah_refs` / `ayah_bundle_files` indexes remain numbered-only;
+`bundle_unit_refs` / `bundle_unit_files` list every emitted unit, including
+`S:0` when applicable.
 
 `build_bundle.py` writes canonical minified JSON and keeps its `root_lexicon`
 branch arrays full. Run `tier_branch_payloads.py` before `instantiate.py`; the
@@ -132,6 +153,13 @@ Layer 2 treats this as reconstructed before/after evidence:
 `baseline_models`, `context_deltas`, and `surprising_valid_outliers`. It is not
 labelled as a staged `stage_00` / `stage_01` transcript.
 
+The base bundle deliberately carries the packet identity/window summary and
+complete reader responses rather than duplicating the large upstream HFT input
+packet. V4 ordered-composition preparation resolves the summary's
+`packet_summary.source_file`, verifies the focus and hashes, and snapshots the
+full raw packet into the selected-context support. That is an authoring-packet
+projection boundary, not accidental data loss in the base-bundle contract.
+
 ### Reviewed channels
 
 Each surah's reviewed `network/v3` report is parsed into parent channels and
@@ -161,7 +189,9 @@ they appear.
 Missing **required** sources — Quran text, word-analysis record, QAC morphemes,
 or branch inventories from *either* a focus packet or the surah packet — raise
 `RequiredSourceMissing` and abort with a non-zero exit code. These are
-structurally expected to exist for every canonical numbered ayah.
+structurally expected to exist for every canonical numbered ayah. Prefatory
+basmala construction requires the target `S:0` surface and canonical `1:1`
+linguistic sources, but does not require an `S:0` HFT/inter-ayah run.
 
 Missing **optional** sources — a retired v12 focus-reader response set, a
 reader's ayah-walk entry, a plus/minus-5 reader-walk entry, the cross-run

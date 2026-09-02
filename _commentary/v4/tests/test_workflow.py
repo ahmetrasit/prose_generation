@@ -21,15 +21,32 @@ SPEC.loader.exec_module(workflow)
 class LayoutTests(unittest.TestCase):
     def test_layout_has_only_three_artifact_roots(self) -> None:
         layout = workflow.layout_for("29:38")
-        self.assertEqual(layout.input, workflow.INPUT_ROOT / "s029" / "29_38")
-        self.assertEqual(layout.raw, workflow.RAW_ROOT / "s029" / "29_38")
         self.assertEqual(
-            layout.editorial, workflow.EDITORIAL_ROOT / "s029" / "29_38"
+            layout.input, workflow.INPUT_ROOT / "native" / "s029" / "29_38"
+        )
+        self.assertEqual(
+            layout.raw, workflow.RAW_ROOT / "native" / "s029" / "29_38"
+        )
+        self.assertEqual(
+            layout.editorial,
+            workflow.EDITORIAL_ROOT / "native" / "s029" / "29_38",
         )
 
-    def test_prefatory_basmala_is_explicitly_unsupported(self) -> None:
-        with self.assertRaisesRegex(workflow.WorkflowError, "versioned"):
-            workflow.layout_for("100:0")
+    def test_analysis_namespaces_have_disjoint_fixed_paths(self) -> None:
+        native = workflow.layout_for("100:1")
+        custom = workflow.layout_for("100:1", "fatiha-lens-s100")
+        self.assertNotEqual(native.input, custom.input)
+        self.assertEqual(
+            custom.input,
+            workflow.INPUT_ROOT / "fatiha-lens-s100" / "s100" / "100_1",
+        )
+
+    def test_prefatory_basmala_is_supported_except_s1_and_s9(self) -> None:
+        self.assertEqual(workflow.layout_for("100:0").ayah_ref, "100:0")
+        for ref in ("1:0", "9:0"):
+            with self.subTest(ref=ref):
+                with self.assertRaises(workflow.WorkflowError):
+                    workflow.layout_for(ref)
 
     def test_batch_selectors_support_lists_ranges_and_deduplication(self) -> None:
         self.assertEqual(
@@ -42,6 +59,91 @@ class LayoutTests(unittest.TestCase):
     def test_batch_range_cannot_start_at_prefatory_zero(self) -> None:
         with self.assertRaisesRegex(workflow.WorkflowError, "unit zero"):
             workflow._expand_ayah_selectors(["100:0-3"])
+
+    def test_native_focus_prefers_tiered_then_falls_back_to_base(self) -> None:
+        with tempfile.TemporaryDirectory() as temporary:
+            root = Path(temporary)
+            tiered = root / "tiered"
+            base = root / "base"
+            base_path = base / "s029" / "29_38.ayah.json"
+            base_path.parent.mkdir(parents=True)
+            base_path.write_text("{}", encoding="utf-8")
+            args = SimpleNamespace(ayah="29:38", source_bundle=None)
+            with patch.object(workflow, "BASE_BUNDLES_DIR", base):
+                self.assertEqual(
+                    workflow._focus_bundle_origin(args, tiered, None),
+                    base_path,
+                )
+
+                tiered_path = tiered / "s029" / "29_38.ayah.json"
+                tiered_path.parent.mkdir(parents=True)
+                tiered_path.write_text("{}", encoding="utf-8")
+                self.assertEqual(
+                    workflow._focus_bundle_origin(args, tiered, None),
+                    tiered_path,
+                )
+
+    def test_composition_never_mixes_bundle_roots(self) -> None:
+        with tempfile.TemporaryDirectory() as temporary:
+            root = Path(temporary)
+            tiered = root / "tiered"
+            base = root / "base"
+            base_path = base / "s029" / "29_38.ayah.json"
+            base_path.parent.mkdir(parents=True)
+            base_path.write_text("{}", encoding="utf-8")
+            args = SimpleNamespace(ayah="29:38", source_bundle=None)
+            composition = workflow.compositions.composition_from_cli(
+                "cross-surah",
+                ["first=29:38", "second=100:1"],
+                ["29:38"],
+            )
+            with patch.object(workflow, "BASE_BUNDLES_DIR", base):
+                self.assertEqual(
+                    workflow._focus_bundle_origin(args, tiered, composition),
+                    tiered / "s029" / "29_38.ayah.json",
+                )
+
+    def test_analysis_handoffs_use_input_raw_and_editorial_roots(self) -> None:
+        with tempfile.TemporaryDirectory(dir=workflow.V4_ROOT) as temporary:
+            root = Path(temporary)
+            with (
+                patch.object(workflow, "INPUT_ROOT", root / "input"),
+                patch.object(workflow, "RAW_ROOT", root / "raw"),
+                patch.object(workflow, "EDITORIAL_ROOT", root / "editorial"),
+            ):
+                layout = workflow.layout_for("100:1", "basmala-s100")
+                scope = workflow._scope_handoff(
+                    layout,
+                    {"lanes": {"micro": {"request_sha256": "a" * 64}}},
+                    "micro",
+                )
+                canonical = workflow._canonical_handoff(
+                    layout, {"request_sha256": "b" * 64}
+                )
+                editorial = workflow._editorial_handoff(
+                    layout, {"request_sha256": "c" * 64}
+                )
+
+                self.assertEqual(Path(scope["prompt"]), layout.scope_prompt("micro"))
+                self.assertEqual(
+                    Path(scope["expected_response"]), layout.scope_review("micro")
+                )
+                self.assertTrue(
+                    all(
+                        Path(path).parent == layout.raw
+                        for path in canonical["expected_outputs"].values()
+                    )
+                )
+                self.assertTrue(
+                    all(
+                        Path(path).parent == layout.editorial
+                        for path in editorial["expected_outputs"].values()
+                    )
+                )
+                self.assertIn(
+                    "--analysis-id basmala-s100",
+                    canonical["after_first_pass"]["command"],
+                )
 
 
 class PromptTests(unittest.TestCase):
@@ -201,7 +303,7 @@ class StateTests(unittest.TestCase):
             expected = {
                 "request_sha256": "a" * 64,
                 "prompt": {
-                    "path": "_commentary/v4/input/s001/1_1/canonical.prompt.md",
+                    "path": "_commentary/v4/input/native/s001/1_1/canonical.prompt.md",
                     "bytes": 6,
                     "sha256": "b" * 64,
                 },
@@ -260,7 +362,7 @@ class StateTests(unittest.TestCase):
             expected = {
                 "request_sha256": "a" * 64,
                 "prompt": {
-                    "path": "_commentary/v4/input/s001/1_1/canonical.prompt.md",
+                    "path": "_commentary/v4/input/native/s001/1_1/canonical.prompt.md",
                     "bytes": len(payload),
                     "sha256": workflow._sha256(payload),
                 },
@@ -622,6 +724,158 @@ class ProjectionTests(unittest.TestCase):
                     workflow.WorkflowError, "changed during packet projection"
                 ):
                     workflow._quran_text_projection(source)
+
+
+class CompositionIntegrationTests(unittest.TestCase):
+    def test_lane_augmentation_keeps_micro_local_and_routes_context(self) -> None:
+        analysis = workflow.compositions.composition_from_cli(
+            "fatiha-lens-s100",
+            ["fatiha=1:1", "s100=100:1-2"],
+            ["100:1"],
+        )
+        projection = {
+            "by_lane": {
+                "micro": {"candidates": [], "supports": [], "units": []},
+                "macro": {
+                    "candidates": [{"candidate_id": "cand_ctx_macro"}],
+                    "supports": [{
+                        "support_id": "sup_ctx_macro",
+                        "source_type": "context",
+                        "role": "context",
+                        "payload": {"ref": "100:2"},
+                        "context_refs": ["100:2"],
+                    }],
+                    "units": [{"ayah_ref": "100:2"}],
+                },
+                "global": {
+                    "candidates": [{"candidate_id": "cand_ctx_global"}],
+                    "supports": [{
+                        "support_id": "sup_ctx_global",
+                        "source_type": "context",
+                        "role": "context",
+                        "payload": {"ref": "1:1"},
+                        "context_refs": ["1:1"],
+                    }],
+                    "units": [{"ayah_ref": "1:1"}],
+                },
+            },
+            "units": [{"ayah_ref": "1:1"}, {"ayah_ref": "100:2"}],
+        }
+
+        def packet(lane: str) -> dict[str, object]:
+            return {
+                "identity": {"lane": lane, "lane_packet_sha256": "old"},
+                "scope": {},
+                "candidate_inventory": [],
+                "support_registry": [],
+            }
+
+        source = {"unit_kind": "numbered_ayah"}
+        layout = workflow.layout_for("100:1", analysis.analysis_id)
+        micro = workflow._augment_lane_packet(
+            packet("micro"),
+            layout=layout,
+            composition=analysis,
+            projection=projection,
+            source_bundle=source,
+            lane="micro",
+        )
+        macro = workflow._augment_lane_packet(
+            packet("macro"),
+            layout=layout,
+            composition=analysis,
+            projection=projection,
+            source_bundle=source,
+            lane="macro",
+        )
+        global_packet = workflow._augment_lane_packet(
+            packet("global"),
+            layout=layout,
+            composition=analysis,
+            projection=projection,
+            source_bundle=source,
+            lane="global",
+        )
+
+        self.assertEqual(micro["selected_context_units"], [])
+        self.assertEqual(macro["selected_context_units"], [{"ayah_ref": "100:2"}])
+        self.assertEqual(global_packet["selected_context_units"], [{"ayah_ref": "1:1"}])
+        for value in (micro, macro, global_packet):
+            self.assertEqual(value["identity"]["analysis_id"], analysis.analysis_id)
+            self.assertNotEqual(value["identity"]["lane_packet_sha256"], "old")
+
+    def test_basmala_docket_uses_target_surface_and_1_1_linguistics(self) -> None:
+        source_bundle = json.loads(
+            (
+                workflow.REPO_ROOT
+                / "bundles-layer2"
+                / "s001"
+                / "1_1.ayah.json"
+            ).read_text(encoding="utf-8")
+        )
+        source_bundle.update({
+            "unit_kind": "prefatory_basmala",
+            "surah": 100,
+            "ayah": 0,
+            "ayahRef": "100:0",
+            "surface_ref": "100:0",
+            "linguistic_source_ref": "1:1",
+        })
+        normalized_surface = workflow.compositions.normalize_arabic_surface(
+            source_bundle["text"]["arabic_uthmani"]
+        )
+        source_bundle["coverage"]["basmala_alias"] = {
+            "normalized_surface_equivalent": True,
+            "target_normalized": normalized_surface,
+            "source_normalized": normalized_surface,
+        }
+        template = json.loads(
+            (
+                workflow.V3_ROOT
+                / "inputs"
+                / "adjudication"
+                / "s001"
+                / "1_1.docket.json"
+            ).read_text(encoding="utf-8")
+        )
+
+        docket = workflow._adapt_basmala_docket(source_bundle, template)
+
+        self.assertEqual(docket["identity"]["ayah_ref"], "100:0")
+        self.assertEqual(docket["focus"]["surface_ref"], "100:0")
+        self.assertEqual(docket["focus"]["linguistic_source_ref"], "1:1")
+        self.assertEqual(docket["scope"]["hft"]["status"], "not_applicable")
+        self.assertTrue(docket["candidates"])
+        self.assertTrue(
+            all(candidate["ayah_ref"] == "100:0" for candidate in docket["candidates"])
+        )
+        self.assertTrue(
+            all(
+                row["qac_ref"].startswith("1:1:")
+                for row in docket["focus"]["qac_morphemes"]
+            )
+        )
+
+    def test_derived_docket_records_fixed_v3_projection_policy(self) -> None:
+        docket = {"identity": {"docket_payload_sha256": "a" * 64}}
+        with patch.object(
+            workflow,
+            "build_prepared_artifacts",
+            return_value=({}, docket),
+        ) as build:
+            actual, lineage = workflow._derive_docket(
+                workflow.REPO_ROOT / "bundle.json",
+                b"{}",
+                {},
+            )
+
+        self.assertIs(actual, docket)
+        self.assertEqual(lineage["kind"], "derived_in_memory")
+        self.assertEqual(lineage["prepare_options"]["hft_policy"], "quarantine")
+        self.assertEqual(lineage["prepare_options"]["max_support_chars"], 8_000)
+        self.assertEqual(
+            build.call_args.kwargs["options"], workflow.V4_PREPARE_OPTIONS
+        )
 
 
 if __name__ == "__main__":
