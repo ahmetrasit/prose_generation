@@ -53,6 +53,9 @@ retry loop.
   shapes. Explicitly added ayat are context-only members of all three lanes;
   ordinary ordered context retains macro/global routing. Neither changes the
   scope prompts, response protocol, editorial instructions, or turn count.
+- Automatic basmala, explicit external ayat, and ordinary selected context use
+  one native-depth projection: lean ayah roots/occurrences plus compact mapped
+  branch images. A context unit never imports its standalone-focus products.
 
 The one intentionally new prompt is `prompts/canonical.md`. It lets one fresh
 writer perform reconciliation, prose preparation, and canonical composition in
@@ -216,12 +219,12 @@ python3 _commentary/v4/workflow.py prepare \
   --ayah 29:38
 ```
 
-Inside the pericope package, selected context stays non-tiered because it is
-loaded from the pericope root. Out-of-pericope or external members are loaded
-from `--member-bundles-dir`, so the operator can point that root at the desired
-basic/tiered/full bundle set while preserving exact path and hash lineage.
-The target `29:0` basmala is injected automatically from that member root and
-is not listed in `--add-ayat`.
+Inside the pericope package, the complete selected bundle is loaded from the
+pericope root as the hash-bound source. Out-of-pericope or external members are
+loaded from `--member-bundles-dir`. In every case the agent-facing context is a
+deterministic lean projection, not the complete selected bundle. The target
+`29:0` basmala is injected automatically from that member root and is not listed
+in `--add-ayat`.
 
 To analyze the target basmala itself, make `S:0` an ordinary host-surah focus
 and explicitly choose the numbered ayat that should activate it:
@@ -246,16 +249,16 @@ Explicit `--source-bundle` and `--docket` overrides are single-unit options.
 
 ## Evidence boundary
 
-Each scope prompt is self-contained. For selected context units, preparation
-embeds intrinsic evidence and explicitly qualified prior focus-conditioned
-reader evidence. When a bundle carries only an HFT packet summary, preparation
-loads the named raw packet, validates its focus, and embeds it with byte and
-canonical hashes. The canonical stage is prompt-bounded: it may read only the
-three packet files in the unit input, while the three raw ledgers and governing
-documents are embedded in its prompt. The packets can be large, so duplicating
-all three inside one canonical prompt would waste context and reduce writing
-quality. Provenance pointers inside a packet are not permission to read
-external files.
+Each scope prompt is self-contained. For every selected context unit,
+preparation embeds the same HFT-style non-focus categories: a lean ayah record
+and compact `branch_image_ar` cues for each mapped root target. It does not
+embed that unit's word commentary, full QAC/coverage/root records, prior HFT,
+reader products, inter-ayah rows, or channel material. The complete source
+bundle stays outside the model-visible support and is bound by path, byte count,
+canonical hash, projection hash, and lane-packet hash. The canonical stage is
+prompt-bounded: it may read only the three packet files in the unit input, while
+the three raw ledgers and governing documents are embedded in its prompt.
+Provenance pointers inside a packet are not permission to read external files.
 
 This is not an executor-enforced read sandbox. The handoff grants the worker the
 repository workspace so it can write the declared outputs; compliance with the
@@ -268,10 +271,11 @@ and `linguistic_source_ref`. S:0 surface evidence belongs to the target surah
 while QAC and word identities remain `1:1:*`; native HFT, inter-ayah, and
 pericope scope are explicitly not applicable. For numbered ayahs in a surah
 with a prefatory basmala, preparation snapshots `prefatory_basmala.bundle.json`
-beside the focus source and embeds that full bundle into every micro, macro,
-and global lane packet as surah-preface context. Unit-manifest validation
-rechecks the snapshot bytes, canonical bundle identity, selected-context
-lineage, and every lane packet before workflow advancement.
+beside the focus source for provenance and projects it at ordinary context depth
+into every micro, macro, and global lane packet. The snapshot itself is not
+model-visible. Unit-manifest validation rechecks the snapshot bytes, canonical
+bundle identity, deterministic context projection, selected-context lineage,
+and every lane packet before workflow advancement.
 
 ## Deliberate omissions
 

@@ -190,10 +190,13 @@ labelled as a staged `stage_00` / `stage_01` transcript.
 
 The base bundle deliberately carries the packet identity/window summary and
 complete reader responses rather than duplicating the large upstream HFT input
-packet. V4 ordered-composition preparation resolves the summary's
-`packet_summary.source_file`, verifies the focus and hashes, and snapshots the
-full raw packet into the selected-context support. That is an authoring-packet
-projection boundary, not accidental data loss in the base-bundle contract.
+packet. When the unit is itself the focus, V4 reuses its bundled HFT reader
+evidence through the V3 focus projection. When the unit is selected only as
+context, V4 does not import that HFT run or any other standalone-focus product.
+It derives one lean ayah/root-occurrence record and compact mapped branch-image
+cues, while retaining the complete bundle path and hash only as provenance.
+That is an authoring-packet projection boundary, not accidental data loss in
+the base-bundle contract.
 
 ### Reviewed channels
 

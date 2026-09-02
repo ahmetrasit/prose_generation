@@ -1184,8 +1184,15 @@ class CompositionIntegrationTests(unittest.TestCase):
         support_roles = {
             support["role"] for support in augmented["support_registry"]
         }
-        self.assertIn("context_unit_intrinsic_linguistic_evidence", support_roles)
-        self.assertIn("context_unit_branch_inventories", support_roles)
+        self.assertEqual(support_roles, {"context_unit_native_depth_evidence"})
+        context_support = augmented["support_registry"][0]
+        self.assertEqual(
+            context_support["payload"]["protocol"],
+            workflow.compositions.CONTEXT_MEMBER_PROTOCOL,
+        )
+        self.assertNotIn(
+            "word_analysis", json.dumps(context_support["payload"], ensure_ascii=False)
+        )
         self.assertNotEqual(augmented["identity"]["lane_packet_sha256"], "old")
 
     def test_explicit_basmala_context_is_not_duplicated_by_auto_membership(self) -> None:
@@ -1205,7 +1212,7 @@ class CompositionIntegrationTests(unittest.TestCase):
                     }],
                     "supports": [{
                         "support_id": "sup_explicit_basmala",
-                        "role": "context_unit_intrinsic_linguistic_evidence",
+                        "role": "context_unit_native_depth_evidence",
                         "context_refs": ["100:0"],
                     }],
                     "units": [{
@@ -1283,6 +1290,7 @@ class CompositionIntegrationTests(unittest.TestCase):
                 focus_ref="100:1",
                 basmala_path=Path("100_0.ayah.json"),
                 basmala_bundle=basmala_bundle("100:0"),
+                focus_bundle=numbered_bundle("100:1"),
                 basmala_identity={
                     "ayah_ref": "100:0",
                     "surface_ref": "100:0",
@@ -1335,7 +1343,11 @@ class CompositionIntegrationTests(unittest.TestCase):
                 wraps=workflow.compositions.load_unit_bundle,
             ) as load_bundle:
                 projection = workflow._composition_projection(
-                    analysis, "100:1", package_root, member_root
+                    analysis,
+                    "100:1",
+                    numbered_bundle("100:1"),
+                    package_root,
+                    member_root,
                 )
 
         self.assertIsNotNone(projection)

@@ -54,7 +54,7 @@ V4_PREPARE_OPTIONS = PrepareOptions(
     hft_policy="quarantine",
     max_support_chars=8_000,
 )
-UNIT_MANIFEST_SCHEMA_VERSION = "commentary-v4-unit-manifest-v3"
+UNIT_MANIFEST_SCHEMA_VERSION = "commentary-v4-unit-manifest-v4"
 
 
 class WorkflowError(RuntimeError):
@@ -637,6 +637,7 @@ def _merge_context_supports(
 def _composition_projection(
     composition: compositions.Composition,
     focus_ref: str,
+    focus_bundle: dict[str, Any],
     package_bundle_root: Path,
     member_bundle_root: Path,
 ) -> dict[str, Any]:
@@ -671,6 +672,7 @@ def _composition_projection(
                 context_row=context_row,
                 source_path=path,
                 bundle=bundle,
+                focus_bundle=focus_bundle,
                 identity=identity,
                 projects_root=PROJECTS_ROOT,
             )
@@ -845,6 +847,7 @@ def _append_numbered_ayah_basmala_context(
     focus_ref: str,
     basmala_path: Path,
     basmala_bundle: dict[str, Any],
+    focus_bundle: dict[str, Any],
     basmala_identity: dict[str, Any],
     lane: str,
 ) -> dict[str, Any]:
@@ -911,6 +914,7 @@ def _append_numbered_ayah_basmala_context(
         },
         source_path=basmala_path,
         bundle=basmala_bundle,
+        focus_bundle=focus_bundle,
         identity=basmala_identity,
         projects_root=PROJECTS_ROOT,
     )
@@ -1010,6 +1014,7 @@ def _augment_lane_packet(
             focus_ref=layout.ayah_ref,
             basmala_path=basmala_path,
             basmala_bundle=basmala_bundle,
+            focus_bundle=source_bundle,
             basmala_identity=basmala_identity,
             lane=lane,
         )
@@ -1170,6 +1175,9 @@ def _dedupe_context_units(units: list[dict[str, Any]]) -> list[dict[str, Any]]:
             "unit_kind",
             "surface_ref",
             "linguistic_source_ref",
+            "context_projection_protocol",
+            "context_projection_sha256",
+            "context_projection_bytes",
         ):
             if existing.get(field) != normalized.get(field):
                 raise WorkflowError(
@@ -1411,6 +1419,7 @@ def prepare(args: argparse.Namespace) -> dict[str, Any]:
         _composition_projection(
             composition,
             args.ayah,
+            source_bundle,
             context_bundles_dir,
             member_bundles_dir,
         )
@@ -1837,6 +1846,7 @@ def _load_unit_manifest(layout: Layout) -> dict[str, Any]:
         selected_units = []
     if not isinstance(selected_units, list):
         raise WorkflowError("Analysis context-unit lineage is malformed")
+    expected_context_projections: dict[str, dict[str, Any]] = {}
     for unit in selected_units:
         if not isinstance(unit, dict):
             raise WorkflowError("Analysis context-unit lineage contains a non-object")
@@ -1865,6 +1875,24 @@ def _load_unit_manifest(layout: Layout) -> dict[str, Any]:
             )
         except compositions.CompositionError as exc:
             raise WorkflowError(str(exc)) from exc
+        expected_projection = compositions.context_member_payload(
+            source_value, focus_bundle=source_bundle
+        )
+        expected_projection_sha256 = compositions.canonical_sha256(
+            expected_projection
+        )
+        if (
+            unit.get("context_projection_protocol")
+            != compositions.CONTEXT_MEMBER_PROTOCOL
+            or unit.get("context_projection_sha256")
+            != expected_projection_sha256
+            or unit.get("context_projection_bytes")
+            != len(_canonical_json_bytes(expected_projection))
+        ):
+            raise WorkflowError(
+                f"Analysis context projection is stale: {source_path}"
+            )
+        expected_context_projections[str(unit["ayah_ref"])] = expected_projection
     _verify_source_binding(
         canonical_template,
         path_field="path",
@@ -1919,6 +1947,40 @@ def _load_unit_manifest(layout: Layout) -> dict[str, Any]:
             or lane_record.get("lane_packet_sha256") != packet_hash
         ):
             raise WorkflowError(f"Manifest {lane} packet identity hash is stale")
+        packet_units = packet.get("selected_context_units", [])
+        if not isinstance(packet_units, list):
+            raise WorkflowError(f"Manifest {lane} packet context units are malformed")
+        packet_supports = packet.get("support_registry", [])
+        if not isinstance(packet_supports, list):
+            raise WorkflowError(f"Manifest {lane} packet supports are malformed")
+        for packet_unit in packet_units:
+            if not isinstance(packet_unit, dict):
+                raise WorkflowError(
+                    f"Manifest {lane} packet contains a malformed context unit"
+                )
+            context_ref = packet_unit.get("ayah_ref")
+            expected_projection = expected_context_projections.get(str(context_ref))
+            if expected_projection is None:
+                raise WorkflowError(
+                    f"Manifest {lane} packet has unbound context unit {context_ref}"
+                )
+            matching_supports = [
+                support
+                for support in packet_supports
+                if isinstance(support, dict)
+                and support.get("role") == "context_unit_native_depth_evidence"
+                and support.get("context_refs") == [context_ref]
+            ]
+            if (
+                len(matching_supports) != 1
+                or matching_supports[0].get("payload") != expected_projection
+                or packet_unit.get("context_projection_sha256")
+                != compositions.canonical_sha256(expected_projection)
+            ):
+                raise WorkflowError(
+                    f"Manifest {lane} packet context projection is stale for "
+                    f"{context_ref}"
+                )
         if prefatory_identity is not None:
             matching_units = [
                 unit

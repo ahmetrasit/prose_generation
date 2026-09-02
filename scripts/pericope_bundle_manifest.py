@@ -99,6 +99,11 @@ def generation_policy() -> dict[str, str]:
             "not generated here; pass a separate v4 --member-bundles-dir "
             "and declare context-only membership with --member-surah/--add-ayat"
         ),
+        "v4_context_projection": (
+            "full selected bundles remain hash-bound provenance sources; "
+            "agent-facing non-focus members use lean ayah/root occurrences and "
+            "compact mapped branch-image cues only"
+        ),
     }
 
 

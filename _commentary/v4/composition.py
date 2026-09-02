@@ -12,6 +12,7 @@ from typing import Any, Iterable
 
 
 SCHEMA_VERSION = "commentary-v4-analysis-composition-v2"
+CONTEXT_MEMBER_PROTOCOL = "commentary-v4-native-context-member-v1"
 ANALYSIS_ID_RE = re.compile(r"[a-z0-9](?:[a-z0-9._-]{0,79})")
 SEGMENT_ID_RE = re.compile(r"[a-z0-9](?:[a-z0-9._-]{0,63})")
 REF_RE = re.compile(r"([1-9][0-9]*):(0|[1-9][0-9]*)")
@@ -23,18 +24,6 @@ MAX_COMPOSITION_UNITS = 512
 MAX_SOURCE_JSON_BYTES = 128_000_000
 BASMALA_LINGUISTIC_SOURCE_REF = "1:1"
 BASMALA_EXCLUDED_SURAHS = {1, 9}
-
-DERIVED_FIELDS = (
-    "v12_reader_responses",
-    "v12_reader_walks",
-    "v12_reader_walks_wide",
-    "v12_cross_run_publication",
-    "butuncul_okuma_line",
-    "inter_ayah_rows",
-    "channel_subchannels_anchored_here",
-    "channel_generated_outputs",
-)
-
 
 class CompositionError(RuntimeError):
     """Raised when an analysis composition or selected unit is invalid."""
@@ -539,47 +528,271 @@ def validate_unit_bundle(bundle: dict[str, Any], *, expected_ref: str) -> dict[s
     }
 
 
-def _load_hft_source_packet(
-    bundle: dict[str, Any], *, projects_root: Path, context_ref: str
-) -> dict[str, Any] | None:
-    hft = bundle.get("v12_focus_trace_hermetic")
-    if not isinstance(hft, dict) or not hft:
-        return None
-    summary = hft.get("packet_summary")
-    if not isinstance(summary, dict):
-        return None
-    source_file = summary.get("source_file")
-    if not isinstance(source_file, str) or not source_file:
-        raise CompositionError(f"{context_ref} HFT summary has no source_file")
-    source_path = (projects_root / source_file).resolve(strict=False)
-    try:
-        source_path.relative_to(projects_root.resolve(strict=False))
-    except ValueError as exc:
-        raise CompositionError(f"{context_ref} HFT packet path escapes projects root") from exc
-    if not source_path.is_file() or source_path.is_symlink():
-        raise CompositionError(
-            f"{context_ref} HFT packet is unavailable for hermetic projection: {source_path}"
-        )
-    payload = source_path.read_bytes()
-    if len(payload) > MAX_SOURCE_JSON_BYTES:
-        raise CompositionError(f"{context_ref} HFT packet is too large")
-    try:
-        packet = json.loads(payload)
-    except (UnicodeDecodeError, json.JSONDecodeError) as exc:
-        raise CompositionError(f"Invalid HFT packet for {context_ref}: {exc}") from exc
-    if not isinstance(packet, dict) or packet.get("focus_ref") != context_ref:
-        raise CompositionError(f"HFT packet focus does not match {context_ref}")
-    return {
-        "source_file": source_file,
-        "bytes": len(payload),
-        "sha256": hashlib.sha256(payload).hexdigest(),
-        "canonical_sha256": canonical_sha256(packet),
-        "packet": packet,
+def _ordered_unique(values: Iterable[str]) -> list[str]:
+    seen: set[str] = set()
+    result: list[str] = []
+    for value in values:
+        if value not in seen:
+            seen.add(value)
+            result.append(value)
+    return result
+
+
+def _rooted_qac_rows(bundle: dict[str, Any]) -> list[dict[str, Any]]:
+    rows = bundle.get("qac_morphemes")
+    if not isinstance(rows, list):
+        return []
+    return [
+        row
+        for row in rows
+        if isinstance(row, dict)
+        and isinstance(row.get("root_ar"), str)
+        and bool(row["root_ar"].strip())
+    ]
+
+
+def _bundle_roots(bundle: dict[str, Any]) -> list[str]:
+    return _ordered_unique(str(row["root_ar"]).strip() for row in _rooted_qac_rows(bundle))
+
+
+def _qac_word_index(row: dict[str, Any]) -> str:
+    value = row.get("word_index")
+    if isinstance(value, int) and value > 0:
+        return str(value)
+    if isinstance(value, str) and value.isdigit() and int(value) > 0:
+        return str(int(value))
+    qac_ref = row.get("qac_ref")
+    match = QAC_REF_RE.fullmatch(qac_ref) if isinstance(qac_ref, str) else None
+    if match is None:
+        raise CompositionError(f"Cannot recover QAC word index from {qac_ref!r}")
+    return str(int(qac_ref.split(":", 3)[2]))
+
+
+def _lean_context_ayah(bundle: dict[str, Any]) -> dict[str, Any]:
+    context_ref = str(bundle["ayahRef"])
+    rows = _rooted_qac_rows(bundle)
+    root_sequence = [str(row["root_ar"]).strip() for row in rows]
+    grouped: dict[str, list[dict[str, Any]]] = {}
+    for row in rows:
+        grouped.setdefault(str(row["root_ar"]).strip(), []).append(row)
+    root_occurrences = []
+    for root in _ordered_unique(root_sequence):
+        occurrences = grouped[root]
+        root_occurrences.append({
+            "root": root,
+            "occurrence_count": len(occurrences),
+            "word_indices": [_qac_word_index(row) for row in occurrences],
+            "surfaces_ar": [
+                str(row.get("surface_ar") or row.get("stem_ar") or "")
+                for row in occurrences
+            ],
+            "lemmas_ar": [str(row.get("lemma_ar") or "") for row in occurrences],
+            "pos_tags": [
+                str(row.get("source_pos") or row.get("pos") or "")
+                for row in occurrences
+            ],
+        })
+    ayah = {
+        "ref": context_ref,
+        "text_ar": bundle["text"]["arabic_uthmani"],
+        "root_sequence": root_sequence,
+        "root_occurrences": root_occurrences,
     }
+    if not rows:
+        ayah.update({
+            "rootless": True,
+            "rootless_reason": "QAC has no rooted morphemes for this ayah",
+        })
+    return ayah
 
 
-def _nonempty(value: Any) -> bool:
-    return value is not None and value != {} and value != [] and value != ""
+def _root_target_metadata(
+    bundle: dict[str, Any], qac_root: str
+) -> dict[str, dict[str, Any]]:
+    coverage = bundle.get("coverage")
+    root_coverage = coverage.get("root_lexicon") if isinstance(coverage, dict) else None
+    per_root = root_coverage.get("per_root") if isinstance(root_coverage, dict) else None
+    row = per_root.get(qac_root) if isinstance(per_root, dict) else None
+    mapping = row.get("root_mapping") if isinstance(row, dict) else None
+    raw_targets = mapping.get("targets") if isinstance(mapping, dict) else None
+    result: dict[str, dict[str, Any]] = {}
+    if isinstance(raw_targets, list):
+        for index, target in enumerate(raw_targets):
+            if not isinstance(target, dict):
+                continue
+            root_id = target.get("furuq_root_id")
+            root_norm = target.get("furuq_root_norm")
+            if isinstance(root_id, str) and root_id and isinstance(root_norm, str) and root_norm:
+                result[root_id] = {
+                    "mapped_root_norm": root_norm,
+                    "target_rank": target.get("target_rank", index + 1),
+                }
+
+    root_lexicon = bundle.get("root_lexicon")
+    if isinstance(root_lexicon, dict):
+        for root_id, record in root_lexicon.items():
+            if not isinstance(root_id, str) or not isinstance(record, dict):
+                continue
+            qac_roots = record.get("qac_roots_ar")
+            if not isinstance(qac_roots, list):
+                qac_roots = [record.get("root_ar")]
+            if qac_root not in qac_roots:
+                continue
+            mappings = record.get("qac_root_mappings")
+            rank = None
+            if isinstance(mappings, list):
+                match = next(
+                    (
+                        item
+                        for item in mappings
+                        if isinstance(item, dict) and item.get("root_ar") == qac_root
+                    ),
+                    None,
+                )
+                if match is not None:
+                    rank = match.get("target_rank")
+            result.setdefault(root_id, {
+                "mapped_root_norm": str(record.get("root_ar") or qac_root),
+                "target_rank": rank if isinstance(rank, int) else len(result) + 1,
+            })
+    return result
+
+
+def _context_root_cues(
+    bundle: dict[str, Any], *, focus_roots: set[str]
+) -> list[dict[str, Any]]:
+    packet = bundle.get("branch_inventories")
+    packet = packet.get("full_context_packet") if isinstance(packet, dict) else None
+    inventories = packet.get("branch_inventories") if isinstance(packet, dict) else None
+    if not isinstance(inventories, list):
+        return []
+    inventories_by_root = {
+        inventory.get("root"): inventory
+        for inventory in inventories
+        if isinstance(inventory, dict) and isinstance(inventory.get("root"), str)
+    }
+    result: list[dict[str, Any]] = []
+    for qac_root in _bundle_roots(bundle):
+        if qac_root in focus_roots:
+            continue
+        inventory = inventories_by_root.get(qac_root)
+        if not isinstance(inventory, dict):
+            continue
+        target_metadata = _root_target_metadata(bundle, qac_root)
+        targets: dict[str, dict[str, Any]] = {}
+        for branch in inventory.get("branches", []):
+            if not isinstance(branch, dict):
+                continue
+            branch_id = branch.get("branch_id")
+            if not isinstance(branch_id, str) or not branch_id:
+                continue
+            variants = branch.get("variants")
+            if not isinstance(variants, list) or not variants:
+                variants = [branch]
+            for variant in variants:
+                if not isinstance(variant, dict):
+                    continue
+                root_id = variant.get("root_id") or branch.get("root_id")
+                if not isinstance(root_id, str) or not root_id:
+                    if len(target_metadata) == 1:
+                        root_id = next(iter(target_metadata))
+                    else:
+                        continue
+                metadata = target_metadata.get(root_id, {})
+                root_norm = metadata.get("mapped_root_norm")
+                if not isinstance(root_norm, str) or not root_norm:
+                    root_norm = qac_root
+                image = (
+                    variant.get("image_ar")
+                    or variant.get("branch_image_ar")
+                    or branch.get("image_ar")
+                    or branch.get("branch_image_ar")
+                )
+                if not isinstance(image, str) or not image:
+                    continue
+                target = targets.setdefault(root_id, {
+                    "mapped_root_id": root_id,
+                    "mapped_root_norm": root_norm,
+                    "target_rank": metadata.get("target_rank", len(targets) + 1),
+                    "branches": [],
+                })
+                branch_item = {"branch_id": branch_id, "branch_image_ar": image}
+                if branch_item not in target["branches"]:
+                    target["branches"].append(branch_item)
+        root_lexicon = bundle.get("root_lexicon")
+        if isinstance(root_lexicon, dict):
+            for root_id, metadata in target_metadata.items():
+                if root_id in targets:
+                    continue
+                record = root_lexicon.get(root_id)
+                dictionary = (
+                    record.get("dictionary_entry") if isinstance(record, dict) else None
+                )
+                dictionary_branches = (
+                    dictionary.get("branches") if isinstance(dictionary, dict) else None
+                )
+                if not isinstance(dictionary_branches, list):
+                    continue
+                compact_branches = []
+                for branch in dictionary_branches:
+                    if not isinstance(branch, dict):
+                        continue
+                    branch_ref = branch.get("branch_ref")
+                    image = branch.get("branch_image_ar")
+                    if (
+                        not isinstance(branch_ref, str)
+                        or not branch_ref.startswith(f"{root_id}/")
+                        or not isinstance(image, str)
+                        or not image
+                    ):
+                        continue
+                    compact_branches.append({
+                        "branch_id": branch_ref.split("/", 1)[1],
+                        "branch_image_ar": image,
+                    })
+                if compact_branches:
+                    targets[root_id] = {
+                        "mapped_root_id": root_id,
+                        "mapped_root_norm": metadata["mapped_root_norm"],
+                        "target_rank": metadata.get("target_rank", len(targets) + 1),
+                        "branches": compact_branches,
+                    }
+        for target in targets.values():
+            target["branches"].sort(
+                key=lambda branch: (
+                    int(branch["branch_id"][1:])
+                    if branch["branch_id"].startswith("B")
+                    and branch["branch_id"][1:].isdigit()
+                    else 10**9,
+                    branch["branch_id"],
+                )
+            )
+        ordered_targets_with_rank = sorted(
+            (target for target in targets.values() if target["branches"]),
+            key=lambda target: (target["target_rank"], target["mapped_root_id"]),
+        )
+        ordered_targets = [
+            {key: value for key, value in target.items() if key != "target_rank"}
+            for target in ordered_targets_with_rank
+        ]
+        if ordered_targets:
+            result.append({"root": qac_root, "targets": ordered_targets})
+    return result
+
+
+def context_member_payload(
+    bundle: dict[str, Any], *, focus_bundle: dict[str, Any]
+) -> dict[str, Any]:
+    """Return the same lean evidence categories used for an HFT context ayah."""
+    context_ref = str(bundle["ayahRef"])
+    return {
+        "protocol": CONTEXT_MEMBER_PROTOCOL,
+        "context_order": [context_ref],
+        "context_ayat": [_lean_context_ayah(bundle)],
+        "context_root_cues": _context_root_cues(
+            bundle, focus_roots=set(_bundle_roots(focus_bundle))
+        ),
+    }
 
 
 def project_context_unit(
@@ -589,10 +802,11 @@ def project_context_unit(
     context_row: dict[str, Any],
     source_path: Path,
     bundle: dict[str, Any],
+    focus_bundle: dict[str, Any],
     identity: dict[str, Any],
     projects_root: Path,
 ) -> tuple[dict[str, Any], list[dict[str, Any]], dict[str, Any]]:
-    """Project every semantic field into existing candidate/support shapes."""
+    """Project one full bundle at native non-focus context depth."""
     context_ref = context_row["ref"]
     lane = context_row["lane"]
     try:
@@ -609,100 +823,34 @@ def project_context_unit(
         "segment_id": context_row["segment_id"],
         "composition_order": context_row["composition_order"],
     }
-    supports: list[dict[str, Any]] = []
-
-    def add_support(role: str, payload: Any, *, source_type: str) -> str:
-        stable_payload = {
-            "context_ref": context_ref,
+    payload = context_member_payload(bundle, focus_bundle=focus_bundle)
+    projection_sha256 = canonical_sha256(payload)
+    support_id = _stable_id("sup_ctx", {
+        "context_ref": context_ref,
+        "source_bundle_canonical_sha256": identity["canonical_sha256"],
+        "projection_sha256": projection_sha256,
+        "lane": lane,
+    })
+    supports = [{
+        "support_id": support_id,
+        "source_type": "selected_context_native_depth",
+        "source_local_id": f"{context_ref}:native_context_member",
+        "scope": lane,
+        "json_pointer": f"/selected_context/{context_ref}/native_context_member",
+        "role": "context_unit_native_depth_evidence",
+        "branch_refs": [],
+        "payload": payload,
+        "context_refs": [context_ref],
+        "trust": "canonical_bundle_hash_bound",
+        "qualification": {
+            "context_unit_is_not_the_focus": True,
+            "projection_depth": "hft_non_focus_context",
+            "standalone_focus_material_excluded": True,
             "source_bundle_canonical_sha256": identity["canonical_sha256"],
-            "role": role,
-            "payload": payload,
-        }
-        support_id = _stable_id("sup_ctx", stable_payload)
-        supports.append({
-            "support_id": support_id,
-            "source_type": source_type,
-            "source_local_id": f"{context_ref}:{role}",
-            "scope": lane,
-            "json_pointer": f"/selected_context/{context_ref}/{role}",
-            "role": role,
-            "branch_refs": [],
-            "payload": payload,
-            "context_refs": [context_ref],
-            "trust": "canonical_bundle_hash_bound",
-            "qualification": {
-                "context_unit_is_not_the_focus": True,
-                "derived_focus_readings_keep_original_provenance": True,
-                "source_bundle_canonical_sha256": identity["canonical_sha256"],
-            },
-        })
-        return support_id
-
-    support_ids: list[str] = []
-    support_ids.append(add_support(
-        "context_unit_intrinsic_linguistic_evidence",
-        {
-            "identity": unit_provenance,
-            "text": bundle.get("text"),
-            "qac_morphemes": bundle.get("qac_morphemes"),
-            "word_analysis": bundle.get("word_analysis"),
-            "word_morpheme_spans": bundle.get("word_morpheme_spans"),
-            "pericope": bundle.get("pericope"),
-            "coverage": bundle.get("coverage"),
+            "context_projection_sha256": projection_sha256,
         },
-        source_type="selected_context_intrinsic",
-    ))
-    branch_inventories = bundle.get("branch_inventories")
-    if _nonempty(branch_inventories):
-        support_ids.append(add_support(
-            "context_unit_branch_inventories",
-            branch_inventories,
-            source_type="selected_context_branches",
-        ))
-    root_lexicon = bundle.get("root_lexicon")
-    if isinstance(root_lexicon, dict):
-        for root_id in sorted(root_lexicon):
-            support_ids.append(add_support(
-                "context_root_lexicon",
-                {"root_id": root_id, "record": root_lexicon[root_id]},
-                source_type="selected_context_root",
-            ))
-
-    hft = bundle.get("v12_focus_trace_hermetic")
-    if _nonempty(hft):
-        support_ids.append(add_support(
-            "prior_focus_hft_evidence",
-            {
-                "original_focus_ref": context_ref,
-                "bundle_evidence": hft,
-                "source_packet": _load_hft_source_packet(
-                    bundle, projects_root=projects_root, context_ref=context_ref
-                ),
-                "boundary": (
-                    "This HFT run analyzed the context unit as its own focus in "
-                    "its original packet window. It is prior focus-conditioned "
-                    "evidence, not an intrinsic fact and not a custom-composition run."
-                ),
-            },
-            source_type="selected_context_prior_hft",
-        ))
-    for field in DERIVED_FIELDS:
-        value = bundle.get(field)
-        if not _nonempty(value):
-            continue
-        support_ids.append(add_support(
-            "prior_focus_derived_evidence",
-            {
-                "field": field,
-                "original_focus_ref": context_ref,
-                "payload": value,
-                "boundary": (
-                    "This material was generated with the selected context unit "
-                    "as its original focus. Preserve that direction and provenance."
-                ),
-            },
-            source_type="selected_context_prior_reading",
-        ))
+    }]
+    support_ids = [support_id]
 
     candidate_id = _stable_id("cand_ctx", {
         "analysis_sha256": composition.canonical_sha256,
@@ -731,6 +879,9 @@ def project_context_unit(
     }
     inventory = {
         **unit_provenance,
+        "context_projection_protocol": CONTEXT_MEMBER_PROTOCOL,
+        "context_projection_sha256": projection_sha256,
+        "context_projection_bytes": len(_canonical_json_bytes(payload)),
         "lane": lane,
         "candidate_id": candidate_id,
         "support_ids": support_ids,

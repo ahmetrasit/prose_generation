@@ -246,11 +246,14 @@ surah bundle keeps `ayah_refs` / `ayah_bundle_files` numbered-only and exposes
 the complete ordered list separately as `bundle_unit_refs` /
 `bundle_unit_files`.
 
-The prefatory unit carries all intrinsic `1:1` semantic evidence plus available
-target-surah reader walks, wide walks, cross-run publication, whole-surah line,
-and channel material. Native HFT, inter-ayah completeness, and pericope
-membership are `not_applicable`: those protocols are defined on numbered
-focus ayahs. Numbered pericope and HFT windows never expand to include zero.
+The standalone prefatory unit bundle carries all intrinsic `1:1` semantic
+evidence plus available target-surah reader walks, wide walks, cross-run
+publication, whole-surah line, and channel material. That full depth is used
+when `S:0` is the focus. Native HFT, inter-ayah completeness, and pericope
+membership are `not_applicable`: those protocols are defined on numbered focus
+ayahs. Existing numbered HFT source runs are not rewritten to claim that they
+included zero; V4 adds `S:0` to the scope packet at ordinary non-focus context
+depth.
 
 ### 6.2 Explicit ordered context
 
@@ -280,22 +283,29 @@ source surah, determines the automatic prefatory basmala.
 
 For ordinary ordered segments, selection order is evidence. Same-surah units in
 the focus's own segment enter the macro packet; cross-segment or cross-surah
-units enter the global packet; micro remains focus-local. A context unit
-contributes its intrinsic surface, morphology, word analysis, branches, and root
-lexicon. Reader/HFT and other derived material originally generated with that
-context unit as focus is also retained, but must be labelled as prior
-focus-conditioned evidence rather than an intrinsic fact or a newly run
-composition analysis. The V4 projection loads and hash-binds the complete
-upstream HFT packet when the base bundle carries only its intentional packet
-summary.
+units enter the global packet; micro remains focus-local. Every selected context
+unit, whether native, automatic basmala, or explicit external ayah, is projected
+at HFT non-focus depth: one lean ayah record (`text_ar`, root sequence, and root
+occurrences) plus compact `branch_image_ar` cues grouped under every mapped root
+target. A context root already represented by the current focus inventory does
+not duplicate that inventory.
+
+The complete selected bundle remains the hash-bound provenance source but is
+not embedded as model-visible context. Context projection must exclude the
+unit's standalone-focus word commentary, full QAC rows, morpheme spans,
+coverage report, full root dictionaries/glosses, prior HFT run, reader walks,
+cross-run publication, inter-ayah rows, whole-surah reading, and channel
+material. Those fields remain available only when that unit itself is the
+focus. This boundary prevents automatic basmala and `--add-ayat` members from
+becoming larger or semantically privileged relative to ordinary context ayat.
 
 An analysis ID namespaces `input/`, `raw/`, and `editorial/` paths so native and
 custom readings of the same focus cannot collide. The composition JSON, every
-selected bundle hash, the projected lane packets, and their output identities
-are snapshotted in the unit manifest. Multiple focus units may be prepared and
-orchestrated in parallel. The scope-agent prompts and editorial instructions
-remain the V3 prompts; composition changes evidence packets, not agent roles or
-instructions.
+selected bundle hash, deterministic context-projection hash, projected lane
+packets, and output identities are snapshotted in the unit manifest. Multiple
+focus units may be prepared and orchestrated in parallel. The scope-agent
+prompts and editorial instructions remain the V3 prompts; composition changes
+evidence packets, not agent roles or instructions.
 
 Layer 3 builds a separate hermetic source packet from Quran text, the typed
 primary floor, the completed four-file Layer-2 v2 artifact set for every

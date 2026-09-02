@@ -191,11 +191,11 @@ python3 _commentary/v4/workflow.py advance \
 ```
 
 Inside the pericope, focus and selected same-package context are non-tiered.
-Out-of-pericope members are read from the member root, so use the full, basic,
-or tiered member root appropriate to the size budget and record that choice in
-the command. Added ayat retain their original Quran identities and provenance;
-the automatic basmala is always the host surah's `S:0`, never the source
-surah's basmala for an external ayah.
+Out-of-pericope members are read from the member root. The complete selected
+bundle is used only for validated source lineage; every member is reduced to the
+same lean HFT context shape before it reaches an agent. Added ayat retain their
+original Quran identities and provenance; the automatic basmala is always the
+host surah's `S:0`, never the source surah's basmala for an external ayah.
 
 For a dedicated basmala analysis, make `S:0` the host focus rather than an
 added ayah and put its activating numbered ayat in the ordinary composition:
@@ -274,6 +274,9 @@ Prefatory basmala units are valid for S2-S8 and S10-S114. Their target surface
 and target-surah reader evidence remain `S:0`; word/QAC identities remain
 canonical `1:1:*`; HFT, inter-ayah, and native pericope states are explicitly
 not applicable. For numbered ayahs in those surahs, preparation snapshots
-`prefatory_basmala.bundle.json` beside the focus source and embeds that full
-bundle into each micro, macro, and global lane packet. Never synthesize `1:0`,
-`9:0`, or `S:0:*` linguistic refs.
+`prefatory_basmala.bundle.json` beside the focus source as hash-bound provenance
+and places only its lean ayah/root-occurrence and compact mapped branch-image
+cues into each micro, macro, and global lane packet. The same projection applies
+to every `--add-ayat` member. Never synthesize `1:0`, `9:0`, or `S:0:*`
+linguistic refs, and never import a context member's standalone-focus HFT,
+reader, dictionary/gloss, word-analysis, inter-ayah, or channel payloads.

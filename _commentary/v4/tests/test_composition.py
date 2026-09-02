@@ -225,29 +225,65 @@ class BundleValidationTests(unittest.TestCase):
 
 
 class ProjectionTests(unittest.TestCase):
-    def test_projection_preserves_full_raw_hft_packet_and_qualifies_prior_readings(
-        self,
-    ) -> None:
+    def test_projection_uses_native_context_depth_only(self) -> None:
         with tempfile.TemporaryDirectory() as temporary:
             projects_root = Path(temporary)
             source_path = projects_root / "prose_generation" / "bundle.json"
             source_path.parent.mkdir()
-            raw_hft_path = projects_root / "latent" / "100_1.packet.json"
-            raw_hft_path.parent.mkdir()
-            raw_hft = {
-                "protocol": "focus-trace-hermetic-packet-v2",
-                "focus_ref": "100:1",
-                "large_evidence": {"must_survive": ["a", "b", "c"]},
-            }
-            raw_hft_path.write_text(json.dumps(raw_hft), encoding="utf-8")
-
             bundle = numbered_bundle("100:1")
+            bundle["text"] = {"arabic_uthmani": "سَطْرٌ"}
+            bundle["qac_morphemes"] = [{
+                "qac_ref": "100:1:1:1",
+                "word_index": 1,
+                "root_ar": "س ط ر",
+                "surface_ar": "سَطْرٌ",
+                "lemma_ar": "سَطْر",
+                "source_pos": "N",
+            }]
+            bundle["branch_inventories"] = {
+                "full_context_packet": {
+                    "branch_inventories": [{
+                        "root": "س ط ر",
+                        "branches": [{
+                            "branch_id": "B001",
+                            "image_ar": "نظم السطر",
+                            "scope_ar": "must not be projected for context",
+                            "variants": [{
+                                "root_id": "root_000001",
+                                "image_ar": "نظم السطر",
+                            }],
+                        }],
+                    }],
+                }
+            }
+            bundle["coverage"] = {
+                "root_lexicon": {
+                    "per_root": {
+                        "س ط ر": {
+                            "root_mapping": {
+                                "targets": [{
+                                    "target_rank": 1,
+                                    "furuq_root_id": "root_000001",
+                                    "furuq_root_norm": "س ط ر",
+                                }]
+                            }
+                        }
+                    }
+                }
+            }
+            bundle["root_lexicon"] = {
+                "root_000001": {
+                    "dictionary_entry": {"must_not_survive": "dictionary"},
+                    "gloss": {"must_not_survive": "gloss"},
+                }
+            }
             bundle["v12_focus_trace_hermetic"] = {
-                "packet_summary": {
-                    "focus_ref": "100:1",
-                    "source_file": "latent/100_1.packet.json",
-                },
-                "readers": {"reader": {"finding": "prior"}},
+                "readers": {"must_not_survive": "prior HFT"}
+            }
+            bundle["v12_reader_walks"] = {"must_not_survive": "prior walk"}
+            bundle["inter_ayah_rows"] = [{"must_not_survive": "inter ayah"}]
+            bundle["channel_generated_outputs"] = {
+                "must_not_survive": "channel output"
             }
             source_path.write_text(json.dumps(bundle), encoding="utf-8")
             analysis = composition.composition_from_cli(
@@ -270,26 +306,153 @@ class ProjectionTests(unittest.TestCase):
                 context_row=row,
                 source_path=source_path,
                 bundle=bundle,
+                focus_bundle=numbered_bundle("17:50"),
                 identity=identity,
                 projects_root=projects_root,
             )
 
-        hft_support = next(
-            support
-            for support in supports
-            if support["source_type"] == "selected_context_prior_hft"
-        )
+        self.assertEqual(len(supports), 1)
+        support = supports[0]
         self.assertEqual(
-            hft_support["payload"]["source_packet"]["packet"], raw_hft
+            support["source_type"], "selected_context_native_depth"
         )
+        self.assertEqual(support["role"], "context_unit_native_depth_evidence")
+        payload = support["payload"]
+        self.assertEqual(payload["protocol"], composition.CONTEXT_MEMBER_PROTOCOL)
+        self.assertEqual(payload["context_order"], ["100:1"])
+        self.assertEqual(payload["context_ayat"], [{
+            "ref": "100:1",
+            "text_ar": "سَطْرٌ",
+            "root_sequence": ["س ط ر"],
+            "root_occurrences": [{
+                "root": "س ط ر",
+                "occurrence_count": 1,
+                "word_indices": ["1"],
+                "surfaces_ar": ["سَطْرٌ"],
+                "lemmas_ar": ["سَطْر"],
+                "pos_tags": ["N"],
+            }],
+        }])
+        self.assertEqual(payload["context_root_cues"], [{
+            "root": "س ط ر",
+            "targets": [{
+                "mapped_root_id": "root_000001",
+                "mapped_root_norm": "س ط ر",
+                "branches": [{
+                    "branch_id": "B001",
+                    "branch_image_ar": "نظم السطر",
+                }],
+            }],
+        }])
+        projected_text = json.dumps(payload, ensure_ascii=False)
+        for forbidden in (
+            "qac_morphemes",
+            "word_analysis",
+            "word_morpheme_spans",
+            "coverage",
+            "root_lexicon",
+            "branch_inventories",
+            "v12_focus_trace_hermetic",
+            "v12_reader_walks",
+            "inter_ayah_rows",
+            "channel_generated_outputs",
+            "must_not_survive",
+        ):
+            self.assertNotIn(forbidden, projected_text)
         self.assertEqual(candidate["anchor_refs"], ["100:1"])
         self.assertEqual(inventory["lane"], "global")
-        prior_walk = next(
-            support
-            for support in supports
-            if support["source_type"] == "selected_context_prior_reading"
+        self.assertEqual(
+            inventory["context_projection_sha256"],
+            composition.canonical_sha256(payload),
         )
-        self.assertIn("original focus", prior_walk["payload"]["boundary"])
+
+    def test_projection_omits_context_cue_for_a_focus_root(self) -> None:
+        context = numbered_bundle("100:1")
+        context["qac_morphemes"] = [{
+            "qac_ref": "100:1:1:1",
+            "root_ar": "س ط ر",
+            "surface_ar": "سطر",
+        }]
+        focus = numbered_bundle("17:50")
+        focus["qac_morphemes"] = [{
+            "qac_ref": "17:50:1:1",
+            "root_ar": "س ط ر",
+            "surface_ar": "سطر",
+        }]
+
+        payload = composition.context_member_payload(context, focus_bundle=focus)
+
+        self.assertEqual(payload["context_ayat"][0]["root_sequence"], ["س ط ر"])
+        self.assertEqual(payload["context_root_cues"], [])
+
+    def test_projection_keeps_compact_branches_for_every_split_root_target(self) -> None:
+        context = numbered_bundle("100:1")
+        context["qac_morphemes"] = [{
+            "qac_ref": "100:1:1:1",
+            "root_ar": "س م و",
+            "surface_ar": "اسم",
+        }]
+        context["coverage"] = {
+            "root_lexicon": {
+                "per_root": {
+                    "س م و": {
+                        "root_mapping": {
+                            "targets": [
+                                {
+                                    "target_rank": 1,
+                                    "furuq_root_id": "root_primary",
+                                    "furuq_root_norm": "س م و",
+                                },
+                                {
+                                    "target_rank": 2,
+                                    "furuq_root_id": "root_secondary",
+                                    "furuq_root_norm": "و س م",
+                                },
+                            ]
+                        }
+                    }
+                }
+            }
+        }
+        context["branch_inventories"] = {
+            "full_context_packet": {
+                "branch_inventories": [{
+                    "root": "س م و",
+                    "branches": [{
+                        "branch_id": "B001",
+                        "image_ar": "علو",
+                        "variants": [{"root_id": "root_primary", "image_ar": "علو"}],
+                    }],
+                }]
+            }
+        }
+        context["root_lexicon"] = {
+            "root_secondary": {
+                "root_ar": "س م و",
+                "qac_roots_ar": ["س م و"],
+                "dictionary_entry": {
+                    "branches": [{
+                        "branch_ref": "root_secondary/B003",
+                        "branch_image_ar": "وسم",
+                        "large_record": "must not be projected",
+                    }]
+                },
+            }
+        }
+
+        payload = composition.context_member_payload(
+            context, focus_bundle=numbered_bundle("17:50")
+        )
+
+        targets = payload["context_root_cues"][0]["targets"]
+        self.assertEqual(
+            [(target["mapped_root_id"], target["branches"]) for target in targets],
+            [
+                ("root_primary", [{"branch_id": "B001", "branch_image_ar": "علو"}]),
+                ("root_secondary", [{"branch_id": "B003", "branch_image_ar": "وسم"}]),
+            ],
+        )
+        self.assertNotIn("large_record", json.dumps(payload, ensure_ascii=False))
 
 
 if __name__ == "__main__":
