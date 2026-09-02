@@ -123,10 +123,19 @@ python3 scripts/build_pericope_bundles.py \
 The script wraps `build_bundle.py --ayah-from/--ayah-to`, writes direct ayah
 files under `bundles/sNNN-pericopes/pPP_AAA-BBB/`, and adds
 `pericope.bundle-manifest.json` with the exact command, file hashes, pericope
-span, and policy. It emits no surah aggregate and no `S:0` unit in the
+span, input-index hash, builder hashes, canonical bundle hashes, and policy.
+Generation fails if the output directory contains stale extra ayah files or a
+bundle whose identity/pericope metadata disagrees with the package. It emits no
+surah aggregate and no `S:0` unit in the
 pericope root. For v4, use that pericope directory as `--context-bundles-dir`
 and pass external/out-of-pericope units, including prefatory basmala, through a
-separate `--member-bundles-dir`.
+separate `--member-bundles-dir`. Declare non-basmala external context with
+repeatable comma-separated `--add-ayat` refs; ranges and external focuses are
+not accepted.
+
+The complete prerequisite, package-selection, and agent-handoff sequence is in
+`_commentary/v4/ORCHESTRATION.md`; use its cold-start preflight before beginning
+a v4 unit.
 
 Run without `--ayah`, it also emits `{surah}.surah.json`, which references the
 ayah bundle filenames rather than duplicating them and carries surah-scope

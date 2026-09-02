@@ -9,7 +9,6 @@ package root that v4 can consume with --context-bundles-dir.
 from __future__ import annotations
 
 import argparse
-import hashlib
 import json
 import subprocess
 import sys
@@ -18,9 +17,10 @@ from pathlib import Path
 from typing import Any
 
 import build_bundle
+import pericope_bundle_manifest as package_manifest
 
 
-SCHEMA_VERSION = "pericope-bundle-manifest-v1"
+SCHEMA_VERSION = package_manifest.SCHEMA_VERSION
 SCRIPT_PATH = Path(__file__).resolve()
 REPO_ROOT = SCRIPT_PATH.parent.parent
 DEFAULT_PERICOPE_INDEX = build_bundle.PERICOPES_PATH
@@ -41,10 +41,6 @@ def repo_path(path: Path) -> str:
         return str(path.resolve().relative_to(REPO_ROOT))
     except ValueError:
         return str(path.resolve())
-
-
-def sha256_bytes(payload: bytes) -> str:
-    return hashlib.sha256(payload).hexdigest()
 
 
 def pericope_slug(pericope: int, ayah_from: int, ayah_to: int) -> str:
@@ -153,7 +149,7 @@ def build_command(
         "--pericope-label",
         row["label"],
         "--out",
-        str(out_dir),
+        str(out_dir.resolve(strict=False)),
     ]
     if exclude_focus_trace:
         command.append("--exclude-focus-trace")
@@ -163,21 +159,10 @@ def build_command(
 
 
 def generated_file_records(row: dict[str, Any], out_dir: Path) -> list[dict[str, Any]]:
-    records: list[dict[str, Any]] = []
-    for ayah in range(row["ayah_from"], row["ayah_to"] + 1):
-        path = out_dir / f"{row['surah']}_{ayah}.ayah.json"
-        if not path.is_file() or path.is_symlink():
-            raise RuntimeError(f"Expected pericope bundle file is missing: {path}")
-        payload = path.read_bytes()
-        records.append(
-            {
-                "ayah_ref": f"{row['surah']}:{ayah}",
-                "path": repo_path(path),
-                "bytes": len(payload),
-                "sha256": sha256_bytes(payload),
-            }
-        )
-    return records
+    try:
+        return package_manifest.generated_file_records(row, out_dir, REPO_ROOT)
+    except package_manifest.PericopeManifestError as exc:
+        raise RuntimeError(str(exc)) from exc
 
 
 def write_manifest(
@@ -192,11 +177,20 @@ def write_manifest(
     manifest = {
         "schema_version": SCHEMA_VERSION,
         "generated_at": datetime.now(timezone.utc).isoformat(),
-        "builder": repo_path(SCRIPT_PATH),
-        "lower_level_builder": repo_path(REPO_ROOT / "scripts" / "build_bundle.py"),
+        "builder": package_manifest.file_record(SCRIPT_PATH, REPO_ROOT),
+        "manifest_implementation": package_manifest.file_record(
+            REPO_ROOT / "scripts" / "pericope_bundle_manifest.py", REPO_ROOT
+        ),
+        "lower_level_builder": package_manifest.file_record(
+            REPO_ROOT / "scripts" / "build_bundle.py", REPO_ROOT
+        ),
         "command": command,
         "source": source,
-        "pericope_index": repo_path(pericope_index) if pericope_index is not None else None,
+        "pericope_index": (
+            package_manifest.file_record(pericope_index, REPO_ROOT)
+            if pericope_index is not None
+            else None
+        ),
         "output_dir": repo_path(out_dir),
         "surah": row["surah"],
         "pericope": row["pericope"],
@@ -205,23 +199,19 @@ def write_manifest(
         "label": row["label"],
         "ayah_refs": [record["ayah_ref"] for record in files],
         "ayah_bundle_files": files,
-        "generation_policy": {
-            "package_scope": "pericope",
-            "in_pericope_units": "non_tiered_full_base_bundles",
-            "surah_aggregate": "not_emitted_for_pericope_roots",
-            "prefatory_basmala": (
-                "not emitted inside the pericope root; v4 injects S:0 from "
-                "--member-bundles-dir when the numbered focus's surah has a "
-                "prefatory basmala"
-            ),
-            "external_or_out_of_pericope_units": (
-                "not generated here; pass a separate v4 --member-bundles-dir "
-                "and declare membership with --member-surah/--add-member"
-            ),
-        },
+        "generation_policy": package_manifest.generation_policy(),
     }
     path = out_dir / "pericope.bundle-manifest.json"
     path.write_text(compact_json_text(manifest), encoding="utf-8")
+    try:
+        package_manifest.validate_manifest(
+            path,
+            repo_root=REPO_ROOT,
+            expected_builder=SCRIPT_PATH,
+            expected_lower_level_builder=REPO_ROOT / "scripts" / "build_bundle.py",
+        )
+    except package_manifest.PericopeManifestError as exc:
+        raise RuntimeError(str(exc)) from exc
     return path
 
 

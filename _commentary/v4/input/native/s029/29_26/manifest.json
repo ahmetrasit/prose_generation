@@ -3,89 +3,36 @@
     "analysis_id": "native",
     "composition": null,
     "context_bundles_dir": null,
+    "member_bundles_dir": null,
     "mode": "native",
     "selected_context_units": [
       {
         "automatic_prefatory_basmala_membership": true,
         "ayah_ref": "29:0",
         "bytes": 380628,
-        "candidate_id": "cand_ctx_ad643381e82665a7fa2a",
         "canonical_sha256": "011b5523f5297c41c522144280d0098e5da504ec37c54fd865f0b91b09342b22",
-        "composition_order": 0,
-        "lane": "micro",
+        "lane_bindings": {
+          "global": {
+            "composition_order": 0,
+            "segment_id": "surah-with-prefatory-basmala"
+          },
+          "macro": {
+            "composition_order": 0,
+            "segment_id": "surah-with-prefatory-basmala"
+          },
+          "micro": {
+            "composition_order": 0,
+            "segment_id": "surah-with-prefatory-basmala"
+          }
+        },
+        "lanes": [
+          "micro",
+          "macro",
+          "global"
+        ],
         "linguistic_source_ref": "1:1",
         "schema_version": "input-bundle-v4",
-        "segment_id": "surah-with-prefatory-basmala",
         "source_file": "prose_generation/bundles/s029/29_0.ayah.json",
-        "support_ids": [
-          "sup_ctx_86a615aba1661ff9e440",
-          "sup_ctx_ccb1f5221571cc676016",
-          "sup_ctx_92f4c5a79f994ddadfa7",
-          "sup_ctx_29cb02cca8277daa27cb",
-          "sup_ctx_8e8032cd48620ab0ab68",
-          "sup_ctx_a89ee140b8919c7bbd14",
-          "sup_ctx_d5f56b08d9cd28ab5021",
-          "sup_ctx_a57cfd3fea6b17e49f5e",
-          "sup_ctx_10c7de30036699081aac",
-          "sup_ctx_e9979a34dee54bb03fde",
-          "sup_ctx_df8def9db44ac6dd156c"
-        ],
-        "surface_ref": "29:0",
-        "unit_kind": "prefatory_basmala"
-      },
-      {
-        "automatic_prefatory_basmala_membership": true,
-        "ayah_ref": "29:0",
-        "bytes": 380628,
-        "candidate_id": "cand_ctx_4c47e8e57b06dc97f016",
-        "canonical_sha256": "011b5523f5297c41c522144280d0098e5da504ec37c54fd865f0b91b09342b22",
-        "composition_order": 0,
-        "lane": "macro",
-        "linguistic_source_ref": "1:1",
-        "schema_version": "input-bundle-v4",
-        "segment_id": "surah-with-prefatory-basmala",
-        "source_file": "prose_generation/bundles/s029/29_0.ayah.json",
-        "support_ids": [
-          "sup_ctx_86a615aba1661ff9e440",
-          "sup_ctx_ccb1f5221571cc676016",
-          "sup_ctx_92f4c5a79f994ddadfa7",
-          "sup_ctx_29cb02cca8277daa27cb",
-          "sup_ctx_8e8032cd48620ab0ab68",
-          "sup_ctx_a89ee140b8919c7bbd14",
-          "sup_ctx_d5f56b08d9cd28ab5021",
-          "sup_ctx_a57cfd3fea6b17e49f5e",
-          "sup_ctx_10c7de30036699081aac",
-          "sup_ctx_e9979a34dee54bb03fde",
-          "sup_ctx_df8def9db44ac6dd156c"
-        ],
-        "surface_ref": "29:0",
-        "unit_kind": "prefatory_basmala"
-      },
-      {
-        "automatic_prefatory_basmala_membership": true,
-        "ayah_ref": "29:0",
-        "bytes": 380628,
-        "candidate_id": "cand_ctx_ade1d9ea36d7d7a22f99",
-        "canonical_sha256": "011b5523f5297c41c522144280d0098e5da504ec37c54fd865f0b91b09342b22",
-        "composition_order": 0,
-        "lane": "global",
-        "linguistic_source_ref": "1:1",
-        "schema_version": "input-bundle-v4",
-        "segment_id": "surah-with-prefatory-basmala",
-        "source_file": "prose_generation/bundles/s029/29_0.ayah.json",
-        "support_ids": [
-          "sup_ctx_86a615aba1661ff9e440",
-          "sup_ctx_ccb1f5221571cc676016",
-          "sup_ctx_92f4c5a79f994ddadfa7",
-          "sup_ctx_29cb02cca8277daa27cb",
-          "sup_ctx_8e8032cd48620ab0ab68",
-          "sup_ctx_a89ee140b8919c7bbd14",
-          "sup_ctx_d5f56b08d9cd28ab5021",
-          "sup_ctx_a57cfd3fea6b17e49f5e",
-          "sup_ctx_10c7de30036699081aac",
-          "sup_ctx_e9979a34dee54bb03fde",
-          "sup_ctx_df8def9db44ac6dd156c"
-        ],
         "surface_ref": "29:0",
         "unit_kind": "prefatory_basmala"
       }
@@ -98,6 +45,7 @@
     "path": "_commentary/v4/prompts/canonical.md",
     "sha256": "8d32c57891d728a29b75b9c71fcb795a3785dcf24ce08347d694cae9cc811c3f"
   },
+  "context_package": null,
   "docket": {
     "origin": {
       "implementation": "_commentary/v3/v3lib/prepare.py",
@@ -174,52 +122,52 @@
   "lanes": {
     "global": {
       "expected_response": "_commentary/v4/raw/native/s029/29_26/global.review.json",
-      "lane_packet_sha256": "0a7504f9f845e7216dff6b3da8d46dd69424dfe9d95b38e91a9f3b8d9c2f254a",
+      "lane_packet_sha256": "f7b1b3192681af13b5104642ab5a57d865a3aaa3444ab405e2c41843f6ae0096",
       "packet": {
         "bytes": 1409594,
         "path": "_commentary/v4/input/native/s029/29_26/global.packet.json",
-        "sha256": "c9f887846755a7b6d15d92aa1ffb26fb20c4f9c47d20af07e19b2e17d7519c8b"
+        "sha256": "0945c23059210ff27e25644e7a1fe630e8c7e96d6f759282a1cbbdbf53289969"
       },
       "prompt": {
         "bytes": 1425616,
         "path": "_commentary/v4/input/native/s029/29_26/global.prompt.md",
-        "sha256": "5135f4892652d05dad2901111f48e4d2ba57f7361a311ebdfd51d5077c177b00"
+        "sha256": "635758966f8fce45f3b9a43c1535beeeb0b53868b7d7cc59d8422575971b06db"
       },
-      "request_sha256": "56d852539e86ddf4136c82b8282461eadfc7c064d7dd62d62c93dd7c160b8775",
+      "request_sha256": "7c74d527dfa5c624f416030028be76bb1839438557b613b951594cd7d10a962f",
       "template_sha256": "5582ea99648ce111338f28ac033f9a53b51a055c8421162dd1f2b8dc44f566d5",
       "template_source": "_commentary/v3/prompts/scope-global.md"
     },
     "macro": {
       "expected_response": "_commentary/v4/raw/native/s029/29_26/macro.review.json",
-      "lane_packet_sha256": "9fdb95854d5c7e2c4287e2573ad06e30115aba98f203bc12d73d727805167dc9",
+      "lane_packet_sha256": "2a41b842a8bb0450b63370b93f307bfedd2b94c1deab210175df8b441df3df81",
       "packet": {
         "bytes": 982871,
         "path": "_commentary/v4/input/native/s029/29_26/macro.packet.json",
-        "sha256": "ed163e21173a6e7609febb143421e31db09679f2104e06698284d8796baedf58"
+        "sha256": "f52293850ad37acaff97cd972be40ea20be0c4eb6c30b15f2dc8e49b1f31971c"
       },
       "prompt": {
         "bytes": 997790,
         "path": "_commentary/v4/input/native/s029/29_26/macro.prompt.md",
-        "sha256": "cf03c51c28206510ffb1ebc72ee8c4184f3fb344b9d709b10f483dce6a849229"
+        "sha256": "4eb9cb6c81d6b2893092370e1181a4d1848b77b12293a4229757d6363a43417d"
       },
-      "request_sha256": "16f4411285a486816b3d336681ecce54e04157e5ddb3ad55a8bf9783639033b2",
+      "request_sha256": "85420c39c13162697883843bbeddcc7ce099eb25929fa629c2d7f72ee58cf354",
       "template_sha256": "65d7ff1fcbaa048e497f51297cc15a16728a5583b74d061c5f10214a63c90c0c",
       "template_source": "_commentary/v3/prompts/scope-macro.md"
     },
     "micro": {
       "expected_response": "_commentary/v4/raw/native/s029/29_26/micro.review.json",
-      "lane_packet_sha256": "579dc96a4e34bcf9db49674388e4cbdb4b798f7665b9b5d7204235ee0254ce1f",
+      "lane_packet_sha256": "8b5434ceb6777f6431d7c5fe8a9ed3e341987eddbb1da74ee81f4ab9e72e9296",
       "packet": {
         "bytes": 1024777,
         "path": "_commentary/v4/input/native/s029/29_26/micro.packet.json",
-        "sha256": "5da5d77baf9c51b58753c8d85617e1d255f4c241ed84c9a66bf66c162b6274a4"
+        "sha256": "2b45b3d287ee591355b7254e61ec9241b209d9482b4f46006c9496ab193c7f12"
       },
       "prompt": {
         "bytes": 1037765,
         "path": "_commentary/v4/input/native/s029/29_26/micro.prompt.md",
-        "sha256": "ad44900c874681dc12e6ece425d58c88d865bffb2ad0b82cccf4d6e6633b9daf"
+        "sha256": "e2f7e07d0b1339c1407370f5ce2f261319d2df946f80d716329842fd25d63598"
       },
-      "request_sha256": "107e64fce9f81b90aebd052ae2b69652345803149e5f58bcb2383cb5ada861fd",
+      "request_sha256": "d2fef64f9fb18673ad394222cabc6220012004c834fb32f97ae24be1159623b5",
       "template_sha256": "75f233e513b724d90ad1f5c0c8fa461bb7dea2a65c3fd2dc71c14b3c7bf65b72",
       "template_source": "_commentary/v3/prompts/scope-micro.md"
     }
@@ -240,83 +188,29 @@
         "automatic_prefatory_basmala_membership": true,
         "ayah_ref": "29:0",
         "bytes": 380628,
-        "candidate_id": "cand_ctx_ad643381e82665a7fa2a",
         "canonical_sha256": "011b5523f5297c41c522144280d0098e5da504ec37c54fd865f0b91b09342b22",
-        "composition_order": 0,
-        "lane": "micro",
+        "lane_bindings": {
+          "global": {
+            "composition_order": 0,
+            "segment_id": "surah-with-prefatory-basmala"
+          },
+          "macro": {
+            "composition_order": 0,
+            "segment_id": "surah-with-prefatory-basmala"
+          },
+          "micro": {
+            "composition_order": 0,
+            "segment_id": "surah-with-prefatory-basmala"
+          }
+        },
+        "lanes": [
+          "micro",
+          "macro",
+          "global"
+        ],
         "linguistic_source_ref": "1:1",
         "schema_version": "input-bundle-v4",
-        "segment_id": "surah-with-prefatory-basmala",
         "source_file": "prose_generation/bundles/s029/29_0.ayah.json",
-        "support_ids": [
-          "sup_ctx_86a615aba1661ff9e440",
-          "sup_ctx_ccb1f5221571cc676016",
-          "sup_ctx_92f4c5a79f994ddadfa7",
-          "sup_ctx_29cb02cca8277daa27cb",
-          "sup_ctx_8e8032cd48620ab0ab68",
-          "sup_ctx_a89ee140b8919c7bbd14",
-          "sup_ctx_d5f56b08d9cd28ab5021",
-          "sup_ctx_a57cfd3fea6b17e49f5e",
-          "sup_ctx_10c7de30036699081aac",
-          "sup_ctx_e9979a34dee54bb03fde",
-          "sup_ctx_df8def9db44ac6dd156c"
-        ],
-        "surface_ref": "29:0",
-        "unit_kind": "prefatory_basmala"
-      },
-      {
-        "automatic_prefatory_basmala_membership": true,
-        "ayah_ref": "29:0",
-        "bytes": 380628,
-        "candidate_id": "cand_ctx_4c47e8e57b06dc97f016",
-        "canonical_sha256": "011b5523f5297c41c522144280d0098e5da504ec37c54fd865f0b91b09342b22",
-        "composition_order": 0,
-        "lane": "macro",
-        "linguistic_source_ref": "1:1",
-        "schema_version": "input-bundle-v4",
-        "segment_id": "surah-with-prefatory-basmala",
-        "source_file": "prose_generation/bundles/s029/29_0.ayah.json",
-        "support_ids": [
-          "sup_ctx_86a615aba1661ff9e440",
-          "sup_ctx_ccb1f5221571cc676016",
-          "sup_ctx_92f4c5a79f994ddadfa7",
-          "sup_ctx_29cb02cca8277daa27cb",
-          "sup_ctx_8e8032cd48620ab0ab68",
-          "sup_ctx_a89ee140b8919c7bbd14",
-          "sup_ctx_d5f56b08d9cd28ab5021",
-          "sup_ctx_a57cfd3fea6b17e49f5e",
-          "sup_ctx_10c7de30036699081aac",
-          "sup_ctx_e9979a34dee54bb03fde",
-          "sup_ctx_df8def9db44ac6dd156c"
-        ],
-        "surface_ref": "29:0",
-        "unit_kind": "prefatory_basmala"
-      },
-      {
-        "automatic_prefatory_basmala_membership": true,
-        "ayah_ref": "29:0",
-        "bytes": 380628,
-        "candidate_id": "cand_ctx_ade1d9ea36d7d7a22f99",
-        "canonical_sha256": "011b5523f5297c41c522144280d0098e5da504ec37c54fd865f0b91b09342b22",
-        "composition_order": 0,
-        "lane": "global",
-        "linguistic_source_ref": "1:1",
-        "schema_version": "input-bundle-v4",
-        "segment_id": "surah-with-prefatory-basmala",
-        "source_file": "prose_generation/bundles/s029/29_0.ayah.json",
-        "support_ids": [
-          "sup_ctx_86a615aba1661ff9e440",
-          "sup_ctx_ccb1f5221571cc676016",
-          "sup_ctx_92f4c5a79f994ddadfa7",
-          "sup_ctx_29cb02cca8277daa27cb",
-          "sup_ctx_8e8032cd48620ab0ab68",
-          "sup_ctx_a89ee140b8919c7bbd14",
-          "sup_ctx_d5f56b08d9cd28ab5021",
-          "sup_ctx_a57cfd3fea6b17e49f5e",
-          "sup_ctx_10c7de30036699081aac",
-          "sup_ctx_e9979a34dee54bb03fde",
-          "sup_ctx_df8def9db44ac6dd156c"
-        ],
         "surface_ref": "29:0",
         "unit_kind": "prefatory_basmala"
       }
@@ -328,7 +222,7 @@
     },
     "surface_ref": "29:0"
   },
-  "schema_version": "commentary-v4-unit-manifest-v2",
+  "schema_version": "commentary-v4-unit-manifest-v3",
   "source": {
     "canonical_sha256": "5d66368b632c3a77ecd77727be5324879e0bd946edc31bc10a4bdb53215cd8d2",
     "origin": "prose_generation/bundles/s029/29_26.ayah.json",

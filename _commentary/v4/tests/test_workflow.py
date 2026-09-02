@@ -16,6 +16,47 @@ assert SPEC is not None and SPEC.loader is not None
 workflow = importlib.util.module_from_spec(SPEC)
 sys.modules[SPEC.name] = workflow
 SPEC.loader.exec_module(workflow)
+import build_pericope_bundles as pericope_builder  # noqa: E402
+
+
+def numbered_bundle(ref: str) -> dict[str, object]:
+    surah, ayah = (int(item) for item in ref.split(":"))
+    return {
+        "bundle_type": "ayah",
+        "schema_version": "input-bundle-v4",
+        "unit_kind": "numbered_ayah",
+        "surah": surah,
+        "ayah": ayah,
+        "ayahRef": ref,
+        "surface_ref": ref,
+        "linguistic_source_ref": ref,
+        "text": {"arabic_uthmani": "text"},
+        "qac_morphemes": [{"qac_ref": f"{ref}:1:1"}],
+        "word_analysis": {"ref": ref, "words": []},
+        "coverage": {},
+    }
+
+
+def basmala_bundle(ref: str) -> dict[str, object]:
+    surah = int(ref.split(":", 1)[0])
+    bundle = numbered_bundle("1:1")
+    bundle.update({
+        "unit_kind": "prefatory_basmala",
+        "surah": surah,
+        "ayah": 0,
+        "ayahRef": ref,
+        "surface_ref": ref,
+        "linguistic_source_ref": "1:1",
+        "text": {"arabic_uthmani": "basmala"},
+        "coverage": {
+            "basmala_alias": {
+                "normalized_surface_equivalent": True,
+                "target_normalized": "basmala",
+                "source_normalized": "basmala",
+            }
+        },
+    })
+    return bundle
 
 
 class LayoutTests(unittest.TestCase):
@@ -60,49 +101,55 @@ class LayoutTests(unittest.TestCase):
         with self.assertRaisesRegex(workflow.WorkflowError, "unit zero"):
             workflow._expand_ayah_selectors(["100:0-3"])
 
+    def test_add_ayat_cli_accepts_repeatable_comma_lists(self) -> None:
+        args = workflow._parser().parse_args([
+            "prepare",
+            "--ayah", "100:1",
+            "--analysis-id", "s100-external",
+            "--segment", "host=100:1-2",
+            "--member-surah", "100",
+            "--add-ayat", "1:1,1:2",
+            "--add-ayat", "17:50",
+        ])
+        self.assertEqual(args.add_ayat, ["1:1,1:2", "17:50"])
+
     def test_focus_uses_configured_bundle_root_without_fallback(self) -> None:
         with tempfile.TemporaryDirectory() as temporary:
             root = Path(temporary)
             selected = root / "selected"
             args = SimpleNamespace(ayah="29:38", source_bundle=None)
             self.assertEqual(
-                workflow._focus_bundle_origin(args, selected, selected, None),
+                workflow._focus_bundle_origin(args, selected, selected),
                 selected / "s029" / "29_38.ayah.json",
             )
 
-    def test_composition_never_mixes_bundle_roots(self) -> None:
-        with tempfile.TemporaryDirectory() as temporary:
-            root = Path(temporary)
-            selected = root / "selected"
-            args = SimpleNamespace(ayah="29:38", source_bundle=None)
-            composition = workflow.compositions.composition_from_cli(
-                "cross-surah",
-                ["first=29:38", "second=100:1"],
-                ["29:38"],
-            )
-            self.assertEqual(
-                workflow._focus_bundle_origin(args, selected, selected, composition),
-                selected / "s029" / "29_38.ayah.json",
-            )
-
-    def test_added_member_focus_uses_member_bundle_root(self) -> None:
+    def test_numbered_focus_never_falls_back_to_member_root(self) -> None:
         with tempfile.TemporaryDirectory() as temporary:
             root = Path(temporary)
             package_root = root / "package"
             member_root = root / "members"
-            args = SimpleNamespace(ayah="17:50", source_bundle=None)
+            args = SimpleNamespace(ayah="29:38", source_bundle=None)
+            self.assertEqual(
+                workflow._focus_bundle_origin(args, package_root, member_root),
+                package_root / "s029" / "29_38.ayah.json",
+            )
+
+    def test_prefatory_focus_uses_member_bundle_root(self) -> None:
+        with tempfile.TemporaryDirectory() as temporary:
+            root = Path(temporary)
+            package_root = root / "package"
+            member_root = root / "members"
+            args = SimpleNamespace(ayah="100:0", source_bundle=None)
             composition = workflow.compositions.composition_from_cli(
-                "s100-plus-17-50",
-                ["target=100:1", "added=17:50"],
-                ["17:50"],
-                member_surah=100,
-                added_member_selectors=["17:50"],
+                "s100-basmala",
+                ["target=100:0,100:1"],
+                ["100:0"],
             )
             self.assertEqual(
                 workflow._focus_bundle_origin(
-                    args, package_root, member_root, composition
+                    args, package_root, member_root
                 ),
-                member_root / "s017" / "17_50.ayah.json",
+                member_root / "s100" / "100_0.ayah.json",
             )
 
     def test_analysis_handoffs_use_input_raw_and_editorial_roots(self) -> None:
@@ -383,6 +430,100 @@ class StateTests(unittest.TestCase):
             self.assertEqual(manifest, {"canonical": None})
 
 
+class OrchestrationAcceptanceTests(unittest.TestCase):
+    def test_advance_runs_scope_canonical_editorial_and_complete_sequence(
+        self,
+    ) -> None:
+        with tempfile.TemporaryDirectory(dir=workflow.V4_ROOT) as temporary:
+            root = Path(temporary)
+            with (
+                patch.object(workflow, "INPUT_ROOT", root / "input"),
+                patch.object(workflow, "RAW_ROOT", root / "raw"),
+                patch.object(workflow, "EDITORIAL_ROOT", root / "editorial"),
+            ):
+                layout = workflow.layout_for("1:1")
+                layout.input.mkdir(parents=True)
+                layout.manifest.write_text("{}", encoding="utf-8")
+                manifest = {
+                    "lanes": {
+                        lane: {
+                            "request_sha256": workflow._sha256(
+                                f"{lane}-request".encode()
+                            ),
+                            "lane_packet_sha256": workflow._sha256(
+                                f"{lane}-packet".encode()
+                            ),
+                            "packet": {
+                                "sha256": workflow._sha256(
+                                    f"{lane}-packet".encode()
+                                )
+                            },
+                        }
+                        for lane in workflow.LANES
+                    },
+                    "editorial": {
+                        "instructions_sha256": "d" * 64,
+                        "handoff_template_sha256": "e" * 64,
+                    },
+                    "canonical": None,
+                    "editorial_turn": None,
+                }
+                args = SimpleNamespace(ayah="1:1", force_input=False)
+
+                with patch.object(
+                    workflow, "_load_unit_manifest", return_value=manifest
+                ):
+                    scope = workflow.advance(args)
+                    self.assertEqual(scope["stage"], "scope_review")
+                    self.assertEqual(scope["missing_lanes"], list(workflow.LANES))
+
+                    layout.raw.mkdir(parents=True)
+                    for lane in workflow.LANES:
+                        lane_record = manifest["lanes"][lane]
+                        layout.scope_review(lane).write_text(
+                            json.dumps({
+                                "identity": {
+                                    "ayah_ref": "1:1",
+                                    "lane": lane,
+                                    "lane_packet_sha256": lane_record[
+                                        "lane_packet_sha256"
+                                    ],
+                                    "authoring_request_sha256": lane_record[
+                                        "request_sha256"
+                                    ],
+                                },
+                                "ayah_ref": "1:1",
+                                "lane": lane,
+                            }),
+                            encoding="utf-8",
+                        )
+
+                    canonical = workflow.advance(args)
+                    self.assertEqual(canonical["stage"], "canonical_write")
+                    self.assertTrue(layout.canonical_prompt.is_file())
+
+                    for kind in workflow.KINDS:
+                        layout.first_pass(kind).write_text(
+                            f"first-pass {kind}", encoding="utf-8"
+                        )
+
+                    editorial = workflow.advance(args)
+                    self.assertEqual(editorial["stage"], "canonical_editorial")
+                    self.assertTrue(layout.editorial_prompt.is_file())
+
+                    layout.editorial.mkdir(parents=True)
+                    for kind in workflow.KINDS:
+                        layout.editorial_output(kind).write_text(
+                            f"editorial {kind}", encoding="utf-8"
+                        )
+
+                    complete = workflow.advance(args)
+                    self.assertEqual(complete["status"], "complete")
+                    self.assertEqual(
+                        set(complete["outputs"]), {"raw", "editorial"}
+                    )
+
+
 class BatchTests(unittest.TestCase):
     def test_batch_collects_ready_handoffs_by_ayah_and_stage(self) -> None:
         args = type(
@@ -645,6 +786,76 @@ class PathSafetyTests(unittest.TestCase):
                     expected=expected,
                 )
 
+    def test_prefatory_snapshot_is_reverified_and_canonically_bound(self) -> None:
+        with tempfile.TemporaryDirectory(dir=workflow.V4_ROOT) as temporary:
+            root = Path(temporary)
+            layout = workflow.Layout(
+                ayah_ref="100:1",
+                stem="100_1",
+                input=root / "input",
+                raw=root / "raw",
+                editorial=root / "editorial",
+            )
+            layout.input.mkdir()
+            bundle = basmala_bundle("100:0")
+            layout.prefatory_basmala_bundle.write_text(
+                json.dumps(bundle), encoding="utf-8"
+            )
+            canonical = workflow.compositions.canonical_sha256(bundle)
+            manifest = {
+                "prefatory_basmala": {
+                    "snapshot": workflow._path_record(
+                        layout.prefatory_basmala_bundle
+                    ),
+                    "canonical_sha256": canonical,
+                    "ayah_ref": "100:0",
+                    "surface_ref": "100:0",
+                    "linguistic_source_ref": "1:1",
+                    "mode": "included_as_surah_preface_context_in_every_lane_packet",
+                    "selected_context_units": [{
+                        "ayah_ref": "100:0",
+                        "unit_kind": "prefatory_basmala",
+                        "surface_ref": "100:0",
+                        "linguistic_source_ref": "1:1",
+                        "canonical_sha256": canonical,
+                        "source_file": "source.json",
+                        "lanes": list(workflow.LANES),
+                    }],
+                }
+            }
+
+            identity = workflow._verify_prefatory_basmala_record(
+                manifest, layout, numbered_bundle("100:1")
+            )
+            self.assertEqual(identity["canonical_sha256"], canonical)
+
+            layout.prefatory_basmala_bundle.write_text("{}", encoding="utf-8")
+            with self.assertRaisesRegex(workflow.WorkflowError, "stale"):
+                workflow._verify_prefatory_basmala_record(
+                    manifest, layout, numbered_bundle("100:1")
+                )
+
+    def test_legacy_unit_manifest_schema_is_rejected(self) -> None:
+        with tempfile.TemporaryDirectory(dir=workflow.V4_ROOT) as temporary:
+            root = Path(temporary)
+            with (
+                patch.object(workflow, "INPUT_ROOT", root / "input"),
+                patch.object(workflow, "RAW_ROOT", root / "raw"),
+                patch.object(workflow, "EDITORIAL_ROOT", root / "editorial"),
+            ):
+                layout = workflow.layout_for("100:1")
+                layout.input.mkdir(parents=True)
+                layout.manifest.write_text(
+                    json.dumps({
+                        "schema_version": "commentary-v4-unit-manifest-v2",
+                        "analysis_id": "native",
+                        "ayah_ref": "100:1",
+                    }),
+                    encoding="utf-8",
+                )
+                with self.assertRaisesRegex(workflow.WorkflowError, "identity"):
+                    workflow._load_unit_manifest(layout)
+
 
 class EditorialLineageTests(unittest.TestCase):
     def test_editorial_handoff_embeds_v3_instructions_and_input_hashes(self) -> None:
@@ -708,6 +919,27 @@ class EditorialLineageTests(unittest.TestCase):
 
 
 class ProjectionTests(unittest.TestCase):
+    def test_context_lineage_dedupes_lane_specific_routes(self) -> None:
+        units = []
+        for lane, segment in zip(workflow.LANES, ("automatic", "explicit", "automatic")):
+            units.append({
+                "ayah_ref": "100:0",
+                "unit_kind": "prefatory_basmala",
+                "surface_ref": "100:0",
+                "linguistic_source_ref": "1:1",
+                "canonical_sha256": "a" * 64,
+                "source_file": "bundle.json",
+                "lane": lane,
+                "segment_id": segment,
+                "composition_order": 0,
+            })
+        deduped = workflow._dedupe_context_units(units)
+        self.assertEqual(len(deduped), 1)
+        self.assertEqual(deduped[0]["lanes"], list(workflow.LANES))
+        self.assertEqual(
+            deduped[0]["lane_bindings"]["macro"]["segment_id"], "explicit"
+        )
+
     def test_quran_projection_rejects_concurrent_source_change(self) -> None:
         with tempfile.TemporaryDirectory() as temporary:
             source = Path(temporary) / "quran.tsv"
@@ -726,6 +958,83 @@ class ProjectionTests(unittest.TestCase):
                     workflow.WorkflowError, "changed during packet projection"
                 ):
                     workflow._quran_text_projection(source)
+
+    def test_host_surah_controls_automatic_basmala_for_external_context(self) -> None:
+        analysis = workflow.compositions.composition_from_cli(
+            "s100-with-s17",
+            ["host=100:1-2"],
+            ["100:1"],
+            member_surah=100,
+            added_ayat_selectors=["17:50"],
+        )
+        with tempfile.TemporaryDirectory() as temporary:
+            root = Path(temporary)
+            path = root / "s100" / "100_0.ayah.json"
+            path.parent.mkdir()
+            path.write_text(json.dumps(basmala_bundle("100:0")), encoding="utf-8")
+            loaded = workflow._load_prefatory_basmala_context(
+                numbered_bundle("100:1"), root, analysis
+            )
+        self.assertIsNotNone(loaded)
+        self.assertEqual(loaded[3]["ayah_ref"], "100:0")
+
+    def test_basmala_context_is_mandatory_except_for_s1_and_s9(self) -> None:
+        with tempfile.TemporaryDirectory() as temporary:
+            root = Path(temporary)
+            for ref in ("1:2", "9:1"):
+                with self.subTest(ref=ref):
+                    self.assertIsNone(
+                        workflow._load_prefatory_basmala_context(
+                            numbered_bundle(ref), root, None
+                        )
+                    )
+            with self.assertRaisesRegex(workflow.WorkflowError, "is required"):
+                workflow._load_prefatory_basmala_context(
+                    numbered_bundle("2:1"), root, None
+                )
+
+    def test_flat_context_root_requires_and_revalidates_package_manifest(self) -> None:
+        row = {
+            "surah": 29,
+            "pericope": 3,
+            "ayah_from": 38,
+            "ayah_to": 38,
+            "label": "One ayah",
+        }
+        with tempfile.TemporaryDirectory(
+            dir=workflow.REPO_ROOT / "bundles"
+        ) as temporary:
+            root = Path(temporary)
+            bundle = numbered_bundle("29:38")
+            bundle["pericope"] = {
+                key: row[key]
+                for key in ("surah", "pericope", "ayah_from", "ayah_to", "label")
+            }
+            bundle_path = root / "29_38.ayah.json"
+            bundle_path.write_text(json.dumps(bundle), encoding="utf-8")
+            with self.assertRaisesRegex(workflow.WorkflowError, "must carry"):
+                workflow._context_package_record(root, None, "29:38")
+
+            manifest_path = pericope_builder.write_manifest(
+                row,
+                root,
+                command=pericope_builder.build_command(
+                    row,
+                    root,
+                    exclude_focus_trace=False,
+                    focus_trace_variant=None,
+                ),
+                pericope_index=None,
+                source="cli-span",
+            )
+            record = workflow._context_package_record(root, None, "29:38")
+            self.assertEqual(record["ayah_refs"], ["29:38"])
+
+            manifest = json.loads(manifest_path.read_text(encoding="utf-8"))
+            manifest["ayah_refs"] = []
+            manifest_path.write_text(json.dumps(manifest), encoding="utf-8")
+            with self.assertRaisesRegex(workflow.WorkflowError, "stale"):
+                workflow._verify_context_package_record(record)
 
 
 class CompositionIntegrationTests(unittest.TestCase):
@@ -779,7 +1088,6 @@ class CompositionIntegrationTests(unittest.TestCase):
             layout=layout,
             composition=analysis,
             projection=projection,
-            surah_membership_projection=None,
             source_bundle=source,
             prefatory_basmala_context=None,
             lane="micro",
@@ -789,7 +1097,6 @@ class CompositionIntegrationTests(unittest.TestCase):
             layout=layout,
             composition=analysis,
             projection=projection,
-            surah_membership_projection=None,
             source_bundle=source,
             prefatory_basmala_context=None,
             lane="macro",
@@ -799,7 +1106,6 @@ class CompositionIntegrationTests(unittest.TestCase):
             layout=layout,
             composition=analysis,
             projection=projection,
-            surah_membership_projection=None,
             source_bundle=source,
             prefatory_basmala_context=None,
             lane="global",
@@ -855,7 +1161,6 @@ class CompositionIntegrationTests(unittest.TestCase):
             layout=workflow.layout_for("100:1"),
             composition=None,
             projection=None,
-            surah_membership_projection=None,
             source_bundle={"unit_kind": "numbered_ayah"},
             prefatory_basmala_context=(
                 workflow.REPO_ROOT / "bundles" / "s100" / "100_0.ayah.json",
@@ -905,6 +1210,10 @@ class CompositionIntegrationTests(unittest.TestCase):
                     }],
                     "units": [{
                         "ayah_ref": "100:0",
+                        "unit_kind": "prefatory_basmala",
+                        "surface_ref": "100:0",
+                        "linguistic_source_ref": "1:1",
+                        "canonical_sha256": "b" * 64,
                         "lane": "macro",
                         "candidate_id": "cand_explicit_basmala",
                         "source_file": "prose_generation/bundles/s100/100_0.ayah.json",
@@ -924,7 +1233,6 @@ class CompositionIntegrationTests(unittest.TestCase):
             layout=workflow.layout_for("100:1", analysis.analysis_id),
             composition=analysis,
             projection=projection,
-            surah_membership_projection=None,
             source_bundle={"unit_kind": "numbered_ayah"},
             prefatory_basmala_context=(
                 workflow.REPO_ROOT / "bundles" / "s100" / "100_0.ayah.json",
@@ -956,38 +1264,82 @@ class CompositionIntegrationTests(unittest.TestCase):
             "explicit_composition_context",
         )
 
-    def test_surah_membership_projection_appends_added_ref_to_all_lanes(self) -> None:
+    def test_explicit_basmala_hash_conflict_is_rejected(self) -> None:
+        packet = {
+            "identity": {"ayah_ref": "100:1", "lane": "micro"},
+            "scope": {},
+            "candidate_inventory": [],
+            "support_registry": [],
+            "selected_context_units": [{
+                "ayah_ref": "100:0",
+                "surface_ref": "100:0",
+                "linguistic_source_ref": "1:1",
+                "canonical_sha256": "a" * 64,
+            }],
+        }
+        with self.assertRaisesRegex(workflow.WorkflowError, "conflicts"):
+            workflow._append_numbered_ayah_basmala_context(
+                packet,
+                focus_ref="100:1",
+                basmala_path=Path("100_0.ayah.json"),
+                basmala_bundle=basmala_bundle("100:0"),
+                basmala_identity={
+                    "ayah_ref": "100:0",
+                    "surface_ref": "100:0",
+                    "linguistic_source_ref": "1:1",
+                    "canonical_sha256": "b" * 64,
+                },
+                lane="micro",
+            )
+
+    def test_added_ayat_share_one_load_and_project_to_all_lanes(self) -> None:
         analysis = workflow.compositions.composition_from_cli(
             "s100-plus-17-50",
-            ["target=100:1-2", "added=17:50"],
+            ["target=100:1-2"],
             ["100:1"],
             member_surah=100,
-            added_member_selectors=["17:50"],
+            added_ayat_selectors=["17:50"],
         )
         with tempfile.TemporaryDirectory() as temporary:
             root = Path(temporary)
-            source_path = root / "s017" / "17_50.ayah.json"
-            source_path.parent.mkdir(parents=True)
-            bundle = {
-                "bundle_type": "ayah",
-                "schema_version": "input-bundle-v4",
-                "unit_kind": "numbered_ayah",
-                "surah": 17,
-                "ayah": 50,
-                "ayahRef": "17:50",
-                "surface_ref": "17:50",
-                "linguistic_source_ref": "17:50",
-                "text": {"arabic_uthmani": "text"},
-                "qac_morphemes": [{"qac_ref": "17:50:1:1"}],
-                "word_analysis": {"ref": "17:50", "words": []},
-                "coverage": {},
-            }
-            source_path.write_text(json.dumps(bundle), encoding="utf-8")
-            projection = workflow._surah_membership_projection(
-                analysis, "100:1", root, root
-            )
+            package_root = root / "package"
+            member_root = root / "members"
+            for bundle_root, surah, ayah in (
+                (package_root, 100, 2),
+                (member_root, 17, 50),
+            ):
+                source_path = (
+                    bundle_root / f"s{surah:03d}" / f"{surah}_{ayah}.ayah.json"
+                )
+                source_path.parent.mkdir(parents=True)
+                source_path.write_text(
+                    json.dumps({
+                        "bundle_type": "ayah",
+                        "schema_version": "input-bundle-v4",
+                        "unit_kind": "numbered_ayah",
+                        "surah": surah,
+                        "ayah": ayah,
+                        "ayahRef": f"{surah}:{ayah}",
+                        "surface_ref": f"{surah}:{ayah}",
+                        "linguistic_source_ref": f"{surah}:{ayah}",
+                        "text": {"arabic_uthmani": "text"},
+                        "qac_morphemes": [{"qac_ref": f"{surah}:{ayah}:1:1"}],
+                        "word_analysis": {"ref": f"{surah}:{ayah}", "words": []},
+                        "coverage": {},
+                    }),
+                    encoding="utf-8",
+                )
+            with patch.object(
+                workflow.compositions,
+                "load_unit_bundle",
+                wraps=workflow.compositions.load_unit_bundle,
+            ) as load_bundle:
+                projection = workflow._composition_projection(
+                    analysis, "100:1", package_root, member_root
+                )
 
         self.assertIsNotNone(projection)
+        self.assertEqual(load_bundle.call_count, 2)
         for lane in workflow.LANES:
             packet = {
                 "identity": {"ayah_ref": "100:1", "lane": lane, "lane_packet_sha256": "old"},
@@ -999,43 +1351,41 @@ class CompositionIntegrationTests(unittest.TestCase):
                 packet,
                 layout=workflow.layout_for("100:1", analysis.analysis_id),
                 composition=analysis,
-                projection={
-                    "by_lane": {
-                        item: {"candidates": [], "supports": [], "units": []}
-                        for item in workflow.LANES
-                    },
-                    "units": [],
-                },
-                surah_membership_projection=projection,
+                projection=projection,
                 source_bundle={"unit_kind": "numbered_ayah"},
                 prefatory_basmala_context=None,
                 lane=lane,
             )
-            self.assertEqual(
+            self.assertIn(
+                "17:50",
                 [unit["ayah_ref"] for unit in augmented["selected_context_units"]],
-                ["17:50"],
             )
-            self.assertEqual(
-                augmented["candidate_inventory"][0]["source_type"],
-                "augmented_surah_member",
+            external = next(
+                candidate
+                for candidate in augmented["candidate_inventory"]
+                if candidate.get("source_local_id") == "17:50"
             )
+            self.assertEqual(external["source_type"], "external_ayah_member")
+            self.assertFalse(external["focus_eligible"])
             self.assertEqual(
                 augmented["scope"]["surah_membership"]["lane_context_refs"],
                 ["17:50"],
             )
 
-    def test_membership_skip_keeps_same_package_context_for_regular_focus(self) -> None:
+    def test_added_ayah_conflict_between_roots_is_rejected(self) -> None:
         analysis = workflow.compositions.composition_from_cli(
             "s100-pericope-plus-17-50",
-            ["target=100:1-2", "added=17:50"],
+            ["target=100:1-2"],
             ["100:1"],
             member_surah=100,
-            added_member_selectors=["17:50"],
+            added_ayat_selectors=["17:50"],
         )
         with tempfile.TemporaryDirectory() as temporary:
             root = Path(temporary)
-            for surah, ayah in ((100, 2), (17, 50)):
-                source_path = root / f"s{surah:03d}" / f"{surah}_{ayah}.ayah.json"
+            package_root = root / "package"
+            member_root = root / "members"
+            for index, bundle_root in enumerate((package_root, member_root)):
+                source_path = bundle_root / "s017" / "17_50.ayah.json"
                 source_path.parent.mkdir(parents=True, exist_ok=True)
                 source_path.write_text(
                     json.dumps(
@@ -1043,34 +1393,23 @@ class CompositionIntegrationTests(unittest.TestCase):
                             "bundle_type": "ayah",
                             "schema_version": "input-bundle-v4",
                             "unit_kind": "numbered_ayah",
-                            "surah": surah,
-                            "ayah": ayah,
-                            "ayahRef": f"{surah}:{ayah}",
-                            "surface_ref": f"{surah}:{ayah}",
-                            "linguistic_source_ref": f"{surah}:{ayah}",
-                            "text": {"arabic_uthmani": "text"},
-                            "qac_morphemes": [{"qac_ref": f"{surah}:{ayah}:1:1"}],
-                            "word_analysis": {"ref": f"{surah}:{ayah}", "words": []},
+                            "surah": 17,
+                            "ayah": 50,
+                            "ayahRef": "17:50",
+                            "surface_ref": "17:50",
+                            "linguistic_source_ref": "17:50",
+                            "text": {"arabic_uthmani": f"text-{index}"},
+                            "qac_morphemes": [{"qac_ref": "17:50:1:1"}],
+                            "word_analysis": {"ref": "17:50", "words": []},
                             "coverage": {},
                         }
                     ),
                     encoding="utf-8",
                 )
-
-            skip_refs = workflow._surah_membership_context_refs(analysis, "100:1")
-            projection = workflow._composition_projection(
-                analysis,
-                "100:1",
-                root,
-                skip_refs=skip_refs,
-            )
-
-        self.assertEqual(skip_refs, {"17:50"})
-        self.assertEqual(
-            [unit["ayah_ref"] for unit in projection["by_lane"]["macro"]["units"]],
-            ["100:2"],
-        )
-        self.assertEqual(projection["by_lane"]["global"]["units"], [])
+            with self.assertRaisesRegex(workflow.WorkflowError, "differs"):
+                workflow._load_added_ayah_bundle(
+                    package_root, member_root, "17:50"
+                )
 
     def test_basmala_docket_uses_target_surface_and_1_1_linguistics(self) -> None:
         source_bundle = json.loads(

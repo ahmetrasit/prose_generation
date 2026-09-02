@@ -102,63 +102,105 @@ class SelectorTests(unittest.TestCase):
                 ["2:1"],
             )
 
-    def test_augmented_surah_membership_projects_added_refs_for_native_focus(self) -> None:
+    def test_external_ayat_project_to_all_lanes_for_host_focus(self) -> None:
         analysis = composition.composition_from_cli(
             "s100-plus-17-50",
-            ["target=100:1-3", "added=17:50"],
+            ["target=100:1-3"],
             ["100:2"],
             member_surah=100,
-            added_member_selectors=["17:50"],
+            added_ayat_selectors=["17:50"],
         )
 
-        rows = analysis.surah_membership_rows("100:2", ("micro", "macro", "global"))
+        rows = analysis.context_rows("100:2")
+        added_rows = [row for row in rows if row.get("membership_added_ayah")]
 
         self.assertEqual(
-            [(row["ref"], row["lane"]) for row in rows],
+            [(row["ref"], row["lane"]) for row in added_rows],
             [("17:50", "micro"), ("17:50", "macro"), ("17:50", "global")],
         )
         self.assertEqual(analysis.member_surah, 100)
-        self.assertEqual(analysis.added_member_refs, ("17:50",))
-
-    def test_augmented_surah_membership_allows_added_ref_focus(self) -> None:
-        analysis = composition.composition_from_cli(
-            "s100-plus-17-50",
-            ["target=100:1-2", "added=17:50"],
-            ["17:50"],
-            member_surah=100,
-            added_member_selectors=["17:50"],
-        )
-
-        rows = analysis.surah_membership_rows("17:50", ("micro", "macro"))
-
+        self.assertEqual(analysis.added_ayat_refs, ("17:50",))
         self.assertEqual(
-            [(row["ref"], row["lane"]) for row in rows],
-            [
-                ("100:1", "micro"),
-                ("100:1", "macro"),
-                ("100:2", "micro"),
-                ("100:2", "macro"),
-            ],
+            added_rows[0]["source_pointer"],
+            "/scope/analysis_composition/surah_membership/added_ayat_refs/0",
         )
 
-    def test_augmented_surah_membership_requires_added_refs_in_composition(self) -> None:
-        with self.assertRaisesRegex(composition.CompositionError, "outside"):
+    def test_external_ayah_can_be_the_only_context_for_one_host_focus(self) -> None:
+        analysis = composition.composition_from_cli(
+            "single-focus-with-external",
+            ["host=100:1"],
+            ["100:1"],
+            member_surah=100,
+            added_ayat_selectors=["17:50"],
+        )
+
+        self.assertEqual(analysis.context_refs("100:1"), ("17:50",))
+        self.assertEqual(
+            [row["lane"] for row in analysis.context_rows("100:1")],
+            ["micro", "macro", "global"],
+        )
+
+    def test_added_ayat_are_context_only(self) -> None:
+        with self.assertRaisesRegex(composition.CompositionError, "context-only"):
             composition.composition_from_cli(
-                "bad-membership",
-                ["target=100:1-2"],
-                ["100:1"],
+                "s100-plus-17-50",
+                ["target=100:1-2", "external=17:50"],
+                ["17:50"],
                 member_surah=100,
-                added_member_selectors=["17:50"],
+                added_ayat_selectors=["17:50"],
             )
+
+    def test_added_ayat_need_not_be_repeated_in_segments(self) -> None:
+        analysis = composition.composition_from_cli(
+            "host-with-external",
+            ["target=100:1-2"],
+            ["100:1"],
+            member_surah=100,
+            added_ayat_selectors=["1:1,1:2", "17:50"],
+        )
+        self.assertEqual(analysis.context_refs("100:1"), ("100:2", "1:1", "1:2", "17:50"))
+
+    def test_added_ayat_reject_ranges_duplicates_and_empty_membership(self) -> None:
+        for selectors, message in (
+            (["1:1-7"], "list each"),
+            (["1:1,1:1"], "Duplicate"),
+            ([], "cannot be empty"),
+        ):
+            with self.subTest(selectors=selectors):
+                with self.assertRaisesRegex(composition.CompositionError, message):
+                    composition.composition_from_cli(
+                        "bad-added-ayat",
+                        ["target=100:1-2"],
+                        ["100:1"],
+                        member_surah=100,
+                        added_ayat_selectors=selectors,
+                    )
 
 
 class BundleValidationTests(unittest.TestCase):
+    def test_bundle_lookup_rejects_flat_and_nested_shadowing(self) -> None:
+        with tempfile.TemporaryDirectory() as temporary:
+            root = Path(temporary)
+            direct = root / "100_1.ayah.json"
+            nested = root / "s100" / "100_1.ayah.json"
+            nested.parent.mkdir()
+            direct.write_text("{}", encoding="utf-8")
+            nested.write_text("{}", encoding="utf-8")
+            with self.assertRaisesRegex(composition.CompositionError, "Ambiguous"):
+                composition.unit_bundle_path(root, "100:1")
+
     def test_prefatory_bundle_keeps_positive_linguistic_refs(self) -> None:
         identity = composition.validate_unit_bundle(
             basmala_bundle(), expected_ref="100:0"
         )
         self.assertEqual(identity["surface_ref"], "100:0")
         self.assertEqual(identity["linguistic_source_ref"], "1:1")
+
+    def test_numbered_bundle_cannot_alias_an_external_surface(self) -> None:
+        bundle = numbered_bundle("17:50")
+        bundle["surface_ref"] = "29:38"
+        with self.assertRaisesRegex(composition.CompositionError, "surface ref"):
+            composition.validate_unit_bundle(bundle, expected_ref="17:50")
 
     def test_prefatory_bundle_rejects_fabricated_qac_ref(self) -> None:
         bundle = basmala_bundle()

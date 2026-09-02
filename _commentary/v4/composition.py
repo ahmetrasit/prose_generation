@@ -11,7 +11,7 @@ from pathlib import Path
 from typing import Any, Iterable
 
 
-SCHEMA_VERSION = "commentary-v4-analysis-composition-v1"
+SCHEMA_VERSION = "commentary-v4-analysis-composition-v2"
 ANALYSIS_ID_RE = re.compile(r"[a-z0-9](?:[a-z0-9._-]{0,79})")
 SEGMENT_ID_RE = re.compile(r"[a-z0-9](?:[a-z0-9._-]{0,63})")
 REF_RE = re.compile(r"([1-9][0-9]*):(0|[1-9][0-9]*)")
@@ -124,6 +124,35 @@ def expand_selectors(selectors: str | Iterable[str]) -> list[str]:
     return refs
 
 
+def expand_explicit_refs(selectors: str | Iterable[str]) -> list[str]:
+    """Expand comma-separated refs while rejecting ranges and duplicates."""
+    if isinstance(selectors, str):
+        selectors = [selectors]
+    refs: list[str] = []
+    seen: set[str] = set()
+    for raw_group in selectors:
+        if not isinstance(raw_group, str):
+            raise CompositionError("Added ayat must be strings")
+        for raw_ref in raw_group.split(","):
+            ref = raw_ref.strip()
+            if REF_RE.fullmatch(ref) is None:
+                raise CompositionError(
+                    f"Invalid added ayah reference {ref!r}; list each S:A ref explicitly"
+                )
+            ref = _validate_ref(ref)
+            if ref in seen:
+                raise CompositionError(f"Duplicate added ayah reference: {ref}")
+            refs.append(ref)
+            seen.add(ref)
+            if len(refs) > MAX_COMPOSITION_UNITS:
+                raise CompositionError(
+                    f"A composition may contain at most {MAX_COMPOSITION_UNITS} units"
+                )
+    if not refs:
+        raise CompositionError("surah_membership.added_ayat_refs cannot be empty")
+    return refs
+
+
 @dataclass(frozen=True)
 class Segment:
     segment_id: str
@@ -137,7 +166,7 @@ class Composition:
     focus_refs: tuple[str, ...]
     description: str | None = None
     member_surah: int | None = None
-    added_member_refs: tuple[str, ...] = ()
+    added_ayat_refs: tuple[str, ...] = ()
 
     @property
     def ordered_refs(self) -> tuple[str, ...]:
@@ -159,7 +188,7 @@ class Composition:
         if self.member_surah is not None:
             payload["surah_membership"] = {
                 "target_surah": self.member_surah,
-                "added_refs": list(self.added_member_refs),
+                "added_ayat_refs": list(self.added_ayat_refs),
             }
         return payload
 
@@ -173,18 +202,35 @@ class Composition:
                 return segment
         raise CompositionError(f"Reference {ref} is outside analysis {self.analysis_id}")
 
-    def context_rows(self, focus_ref: str) -> list[dict[str, Any]]:
+    def context_refs(self, focus_ref: str) -> tuple[str, ...]:
+        if focus_ref not in self.focus_refs:
+            raise CompositionError(
+                f"Focus {focus_ref} is not declared by analysis {self.analysis_id}"
+            )
+        added = set(self.added_ayat_refs)
+        refs = [
+            ref for ref in self.ordered_refs if ref != focus_ref and ref not in added
+        ]
+        refs.extend(ref for ref in self.added_ayat_refs if ref != focus_ref)
+        return tuple(refs)
+
+    def context_rows(
+        self,
+        focus_ref: str,
+        added_ayat_lanes: Iterable[str] = ("micro", "macro", "global"),
+    ) -> list[dict[str, Any]]:
         if focus_ref not in self.focus_refs:
             raise CompositionError(
                 f"Focus {focus_ref} is not declared by analysis {self.analysis_id}"
             )
         focus_segment = self.segment_for(focus_ref).segment_id
         focus_surah = focus_ref.split(":", 1)[0]
+        added = set(self.added_ayat_refs)
         rows: list[dict[str, Any]] = []
-        order = 0
+        context_index = 0
         for segment_index, segment in enumerate(self.segments):
             for unit_index, ref in enumerate(segment.refs):
-                if ref == focus_ref:
+                if ref == focus_ref or ref in added:
                     continue
                 lane = (
                     "macro"
@@ -197,61 +243,31 @@ class Composition:
                     "segment_id": segment.segment_id,
                     "segment_index": segment_index,
                     "unit_index": unit_index,
-                    "composition_order": order,
+                    "composition_order": context_index,
+                    "source_pointer": (
+                        "/scope/analysis_composition/context_refs/"
+                        f"{context_index}"
+                    ),
                     "lane": lane,
                 })
-                order += 1
-        return rows
-
-    def surah_membership_refs(self) -> tuple[str, ...]:
-        if self.member_surah is None:
-            return ()
-        target_prefix = f"{self.member_surah}:"
-        refs = [
-            ref
-            for ref in self.ordered_refs
-            if ref.startswith(target_prefix) or ref in self.added_member_refs
-        ]
-        seen: set[str] = set()
-        return tuple(ref for ref in refs if not (ref in seen or seen.add(ref)))
-
-    def surah_membership_rows(
-        self, focus_ref: str, lanes: Iterable[str]
-    ) -> list[dict[str, Any]]:
-        if self.member_surah is None:
-            return []
-        if focus_ref not in self.focus_refs:
-            raise CompositionError(
-                f"Focus {focus_ref} is not declared by analysis {self.analysis_id}"
-            )
-        member_refs = self.surah_membership_refs()
-        if focus_ref not in member_refs:
-            raise CompositionError(
-                f"Focus {focus_ref} is outside augmented surah membership"
-            )
-        target_prefix = f"{self.member_surah}:"
-        focus_is_added = focus_ref in self.added_member_refs
-        rows: list[dict[str, Any]] = []
-        order = 0
-        for ref in member_refs:
-            if ref == focus_ref:
-                continue
-            if not focus_is_added and ref not in self.added_member_refs:
-                continue
-            for lane in lanes:
+                context_index += 1
+        for added_index, ref in enumerate(self.added_ayat_refs):
+            for lane in added_ayat_lanes:
                 rows.append({
                     "ref": ref,
-                    "segment_id": "augmented-surah-membership",
+                    "segment_id": "external-ayat",
                     "segment_index": -1,
-                    "unit_index": order,
-                    "composition_order": order,
+                    "unit_index": added_index,
+                    "composition_order": context_index + added_index,
+                    "source_pointer": (
+                        "/scope/analysis_composition/surah_membership/"
+                        f"added_ayat_refs/{added_index}"
+                    ),
                     "lane": lane,
                     "membership_target_surah": self.member_surah,
-                    "membership_added_ref": ref in self.added_member_refs,
-                    "membership_focus_is_added_ref": focus_is_added,
-                    "membership_ref_is_target_surah": ref.startswith(target_prefix),
+                    "membership_added_ayah": True,
+                    "focus_eligible": False,
                 })
-            order += 1
         return rows
 
 
@@ -317,37 +333,37 @@ def composition_from_payload(payload: dict[str, Any]) -> Composition:
     outside = sorted(set(focus_refs) - set(all_refs))
     if outside:
         raise CompositionError(f"Focus refs are outside the composition: {outside}")
-    if len(all_refs) < 2:
-        raise CompositionError("A contextual composition requires at least two units")
-    for focus_ref in focus_refs:
-        if len(set(all_refs) - {focus_ref}) == 0:
-            raise CompositionError(f"Focus {focus_ref} has no contextual unit")
     description = payload.get("description")
     if description is not None and not isinstance(description, str):
         raise CompositionError("description must be a string")
     member_surah = None
-    added_member_refs: tuple[str, ...] = ()
+    added_ayat_refs: tuple[str, ...] = ()
     membership = payload.get("surah_membership")
     if membership is not None:
         if not isinstance(membership, dict):
             raise CompositionError("surah_membership must be an object")
-        if set(membership) != {"target_surah", "added_refs"}:
+        if set(membership) != {"target_surah", "added_ayat_refs"}:
             raise CompositionError(
-                "surah_membership must contain target_surah and added_refs"
+                "surah_membership must contain target_surah and added_ayat_refs"
             )
         member_surah = membership.get("target_surah")
         if not isinstance(member_surah, int) or not 1 <= member_surah <= 114:
             raise CompositionError("surah_membership.target_surah must be 1-114")
-        raw_added = membership.get("added_refs")
+        raw_added = membership.get("added_ayat_refs")
         if not isinstance(raw_added, (str, list, tuple)):
-            raise CompositionError("surah_membership.added_refs must be selectors")
-        added_member_refs = tuple(expand_selectors(raw_added))
-        if not added_member_refs:
-            raise CompositionError("surah_membership.added_refs cannot be empty")
-        outside = sorted(set(added_member_refs) - set(all_refs))
-        if outside:
             raise CompositionError(
-                f"Added surah members are outside the composition: {outside}"
+                "surah_membership.added_ayat_refs must be explicit refs"
+            )
+        if (isinstance(raw_added, str) and not raw_added.strip()) or (
+            not isinstance(raw_added, str) and not raw_added
+        ):
+            raise CompositionError(
+                "surah_membership.added_ayat_refs cannot be empty"
+            )
+        added_ayat_refs = tuple(expand_explicit_refs(raw_added))
+        if len(set(all_refs) | set(added_ayat_refs)) > MAX_COMPOSITION_UNITS:
+            raise CompositionError(
+                f"A composition may contain at most {MAX_COMPOSITION_UNITS} units"
             )
         target_refs = [
             ref for ref in all_refs if ref.startswith(f"{member_surah}:")
@@ -356,19 +372,28 @@ def composition_from_payload(payload: dict[str, Any]) -> Composition:
             raise CompositionError(
                 "surah_membership requires at least one target-surah unit"
             )
-        member_refs = set(target_refs) | set(added_member_refs)
-        outside_focus = sorted(set(focus_refs) - member_refs)
+        outside_focus = sorted(set(focus_refs) - set(target_refs))
         if outside_focus:
             raise CompositionError(
-                f"Focus refs are outside augmented surah membership: {outside_focus}"
+                "Added ayat are context-only; every focus must belong to "
+                f"target surah {member_surah}: {outside_focus}"
             )
+        added_focuses = sorted(set(focus_refs) & set(added_ayat_refs))
+        if added_focuses:
+            raise CompositionError(
+                f"Added ayat are context-only and cannot be focuses: {added_focuses}"
+            )
+    contextual_refs = set(all_refs) | set(added_ayat_refs)
+    for focus_ref in focus_refs:
+        if not contextual_refs - {focus_ref}:
+            raise CompositionError(f"Focus {focus_ref} has no contextual unit")
     return Composition(
         analysis_id=analysis_id,
         segments=tuple(segments),
         focus_refs=tuple(focus_refs),
         description=description,
         member_surah=member_surah,
-        added_member_refs=added_member_refs,
+        added_ayat_refs=added_ayat_refs,
     )
 
 
@@ -378,7 +403,7 @@ def composition_from_cli(
     focus_selectors: list[str],
     *,
     member_surah: int | None = None,
-    added_member_selectors: list[str] | None = None,
+    added_ayat_selectors: list[str] | None = None,
 ) -> Composition:
     segments: list[dict[str, Any]] = []
     for spec in segment_specs:
@@ -394,10 +419,10 @@ def composition_from_cli(
         "segments": segments,
         "focus_refs": focus_selectors,
     }
-    if member_surah is not None or added_member_selectors:
+    if member_surah is not None or added_ayat_selectors:
         payload["surah_membership"] = {
             "target_surah": member_surah,
-            "added_refs": added_member_selectors or [],
+            "added_ayat_refs": added_ayat_selectors or [],
         }
     return composition_from_payload(payload)
 
@@ -420,9 +445,16 @@ def unit_bundle_path(bundle_root: Path, ref: str) -> Path:
     canonical_ref = _validate_ref(ref)
     surah, ayah = (int(item) for item in canonical_ref.split(":"))
     direct = bundle_root / f"{surah}_{ayah}.ayah.json"
-    if direct.exists() or direct.is_symlink():
+    nested = bundle_root / f"s{surah:03d}" / f"{surah}_{ayah}.ayah.json"
+    direct_present = direct.exists() or direct.is_symlink()
+    nested_present = nested.exists() or nested.is_symlink()
+    if direct_present and nested_present:
+        raise CompositionError(
+            f"Ambiguous bundle layout for {canonical_ref}: both {direct} and {nested} exist"
+        )
+    if direct_present:
         return direct
-    return bundle_root / f"s{surah:03d}" / f"{surah}_{ayah}.ayah.json"
+    return nested
 
 
 def load_unit_bundle(bundle_root: Path, ref: str) -> tuple[Path, dict[str, Any], dict[str, Any]]:
@@ -474,6 +506,11 @@ def validate_unit_bundle(bundle: dict[str, Any], *, expected_ref: str) -> dict[s
     else:
         if unit_kind != "numbered_ayah":
             raise CompositionError(f"{expected_ref} must be a numbered_ayah bundle")
+        surface_ref = bundle.get("surface_ref", expected_ref)
+        if surface_ref != expected_ref:
+            raise CompositionError(
+                f"Numbered unit {expected_ref} has aliased surface ref {surface_ref!r}"
+            )
         linguistic_source_ref = bundle.get("linguistic_source_ref", expected_ref)
         if linguistic_source_ref != expected_ref:
             raise CompositionError(f"Numbered unit {expected_ref} has aliased linguistic refs")
@@ -679,10 +716,7 @@ def project_context_unit(
         "lane": lane,
         "source_type": "selected_context_unit",
         "source_local_id": context_ref,
-        "source_pointer": (
-            "/scope/analysis_composition/context_refs/"
-            f"{context_row['composition_order']}"
-        ),
+        "source_pointer": context_row["source_pointer"],
         "kind": "ordered_context_unit",
         "title": f"Selected context {context_ref}",
         "scope": "analysis_composition",
@@ -701,4 +735,28 @@ def project_context_unit(
         "candidate_id": candidate_id,
         "support_ids": support_ids,
     }
+    if context_row.get("membership_added_ayah") is True:
+        target_surah = context_row["membership_target_surah"]
+        candidate.update({
+            "source_type": "external_ayah_member",
+            "kind": "external_ayah_member",
+            "scope": "host_surah_membership",
+            "title": f"External ayah {context_ref} in S{target_surah} context",
+            "membership_target_surah": target_surah,
+            "membership_added_ayah": True,
+            "focus_eligible": False,
+        })
+        for support in supports:
+            support.setdefault("qualification", {}).update({
+                "host_surah_membership": True,
+                "membership_target_surah": target_surah,
+                "membership_added_ayah": True,
+                "focus_eligible": False,
+            })
+        inventory.update({
+            "host_surah_membership": True,
+            "membership_target_surah": target_surah,
+            "membership_added_ayah": True,
+            "focus_eligible": False,
+        })
     return candidate, supports, inventory

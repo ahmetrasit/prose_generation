@@ -1847,7 +1847,8 @@ def _hft_authoring_projection(
         if isinstance(ref, str)
     }
     raw_hft = source_bundle.get("v12_focus_trace_hermetic")
-    source_present = raw_hft is not None
+    # Bundle generation uses an empty object as the explicit absent-HFT sentinel.
+    source_present = raw_hft is not None and raw_hft != {}
     unstructured_hft = (
         raw_hft
         if raw_hft is not None and not isinstance(raw_hft, dict)

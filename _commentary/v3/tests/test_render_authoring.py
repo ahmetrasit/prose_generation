@@ -22,6 +22,17 @@ from v3lib.common import ValidationError  # noqa: E402
 
 
 class RenderAuthoringTests(unittest.TestCase):
+    def test_empty_hft_object_is_an_absent_source_sentinel(self) -> None:
+        docket = {
+            "identity": {"ayah_ref": "100:1"},
+            "scope": {"pericope": {"refs": ["100:1"]}, "hft": {}},
+        }
+        projection = render_authoring._hft_authoring_projection(
+            docket, {"v12_focus_trace_hermetic": {}}
+        )
+        self.assertFalse(projection["source_present"])
+        self.assertIn("absent", projection["diagnostics"][0]["warning"])
+
     @staticmethod
     def _micro_facet_packet() -> dict[str, object]:
         return {

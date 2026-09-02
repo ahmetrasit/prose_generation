@@ -11,6 +11,32 @@ from unittest.mock import patch
 import build_pericope_bundles as builder
 
 
+def ayah_bundle(row: dict[str, object], ayah: int) -> dict[str, object]:
+    surah = int(row["surah"])
+    ref = f"{surah}:{ayah}"
+    return {
+        "bundle_type": "ayah",
+        "schema_version": "input-bundle-v4",
+        "unit_kind": "numbered_ayah",
+        "surah": surah,
+        "ayah": ayah,
+        "ayahRef": ref,
+        "surface_ref": ref,
+        "linguistic_source_ref": ref,
+        "pericope": {
+            key: row[key]
+            for key in ("surah", "pericope", "ayah_from", "ayah_to", "label")
+        },
+    }
+
+
+def write_bundles(out_dir: Path, row: dict[str, object]) -> None:
+    for ayah in range(int(row["ayah_from"]), int(row["ayah_to"]) + 1):
+        (out_dir / f"{row['surah']}_{ayah}.ayah.json").write_text(
+            json.dumps(ayah_bundle(row, ayah)), encoding="utf-8"
+        )
+
+
 class PericopeBundleScriptTests(unittest.TestCase):
     def test_pericope_slug_is_stable(self) -> None:
         self.assertEqual(builder.pericope_slug(2, 36, 69), "p02_036-069")
@@ -122,16 +148,19 @@ class PericopeBundleScriptTests(unittest.TestCase):
         }
         with tempfile.TemporaryDirectory() as tmp:
             out_dir = Path(tmp)
-            (out_dir / "29_1.ayah.json").write_text('{"ayahRef":"29:1"}', encoding="utf-8")
-            (out_dir / "29_2.ayah.json").write_text('{"ayahRef":"29:2"}', encoding="utf-8")
-            with patch.object(builder, "REPO_ROOT", Path(tmp)):
-                path = builder.write_manifest(
+            write_bundles(out_dir, row)
+            path = builder.write_manifest(
+                row,
+                out_dir,
+                command=builder.build_command(
                     row,
                     out_dir,
-                    command=["python3", "scripts/build_bundle.py"],
-                    pericope_index=None,
-                    source="cli-span",
-                )
+                    exclude_focus_trace=False,
+                    focus_trace_variant=None,
+                ),
+                pericope_index=None,
+                source="cli-span",
+            )
             manifest = json.loads(path.read_text(encoding="utf-8"))
 
         self.assertEqual(manifest["schema_version"], builder.SCHEMA_VERSION)
@@ -145,6 +174,182 @@ class PericopeBundleScriptTests(unittest.TestCase):
             "--member-bundles-dir",
             manifest["generation_policy"]["external_or_out_of_pericope_units"],
         )
+        self.assertIn("sha256", manifest["builder"])
+        self.assertIn("canonical_sha256", manifest["ayah_bundle_files"][0])
+
+    def test_generated_file_records_reject_identity_and_stale_extras(self) -> None:
+        row = {
+            "surah": 29,
+            "pericope": 1,
+            "ayah_from": 1,
+            "ayah_to": 1,
+            "label": "Opening",
+        }
+        with tempfile.TemporaryDirectory() as tmp:
+            out_dir = Path(tmp)
+            write_bundles(out_dir, row)
+            wrong = ayah_bundle(row, 1)
+            wrong["ayahRef"] = "29:2"
+            (out_dir / "29_1.ayah.json").write_text(
+                json.dumps(wrong), encoding="utf-8"
+            )
+            with self.assertRaisesRegex(RuntimeError, "identity"):
+                builder.generated_file_records(row, out_dir)
+
+            write_bundles(out_dir, row)
+            (out_dir / "29_2.ayah.json").write_text("{}", encoding="utf-8")
+            with self.assertRaisesRegex(RuntimeError, "extra"):
+                builder.generated_file_records(row, out_dir)
+
+    def test_manifest_revalidation_detects_changed_index(self) -> None:
+        row = {
+            "surah": 29,
+            "pericope": 1,
+            "ayah_from": 1,
+            "ayah_to": 1,
+            "label": "Opening",
+        }
+        with tempfile.TemporaryDirectory() as tmp:
+            out_dir = Path(tmp) / "package"
+            out_dir.mkdir()
+            index = Path(tmp) / "index.jsonl"
+            index.write_text(json.dumps(row) + "\n", encoding="utf-8")
+            write_bundles(out_dir, row)
+            path = builder.write_manifest(
+                row,
+                out_dir,
+                command=builder.build_command(
+                    row,
+                    out_dir,
+                    exclude_focus_trace=False,
+                    focus_trace_variant=None,
+                ),
+                pericope_index=index,
+                source="index",
+            )
+            index.write_text("modified\n", encoding="utf-8")
+            with self.assertRaisesRegex(
+                builder.package_manifest.PericopeManifestError, "stale"
+            ):
+                builder.package_manifest.validate_manifest(
+                    path,
+                    repo_root=builder.REPO_ROOT,
+                    expected_builder=builder.SCRIPT_PATH,
+                    expected_lower_level_builder=(
+                        builder.REPO_ROOT / "scripts" / "build_bundle.py"
+                    ),
+                )
+
+    def test_manifest_rejects_false_command_policy_and_index_lineage(self) -> None:
+        row = {
+            "surah": 29,
+            "pericope": 1,
+            "ayah_from": 1,
+            "ayah_to": 1,
+            "label": "Opening",
+        }
+        with tempfile.TemporaryDirectory() as tmp:
+            out_dir = Path(tmp) / "package"
+            out_dir.mkdir()
+            write_bundles(out_dir, row)
+            command = builder.build_command(
+                row,
+                out_dir,
+                exclude_focus_trace=False,
+                focus_trace_variant=None,
+            )
+            path = builder.write_manifest(
+                row,
+                out_dir,
+                command=command,
+                pericope_index=None,
+                source="cli-span",
+            )
+            manifest = json.loads(path.read_text(encoding="utf-8"))
+
+            manifest["command"][5] = "2"
+            path.write_text(json.dumps(manifest), encoding="utf-8")
+            with self.assertRaisesRegex(
+                builder.package_manifest.PericopeManifestError, "command"
+            ):
+                builder.package_manifest.validate_manifest(
+                    path,
+                    repo_root=builder.REPO_ROOT,
+                    expected_builder=builder.SCRIPT_PATH,
+                    expected_lower_level_builder=(
+                        builder.REPO_ROOT / "scripts" / "build_bundle.py"
+                    ),
+                )
+
+            manifest["command"] = command
+            manifest["generation_policy"]["package_scope"] = "surah"
+            path.write_text(json.dumps(manifest), encoding="utf-8")
+            with self.assertRaisesRegex(
+                builder.package_manifest.PericopeManifestError, "policy"
+            ):
+                builder.package_manifest.validate_manifest(
+                    path,
+                    repo_root=builder.REPO_ROOT,
+                    expected_builder=builder.SCRIPT_PATH,
+                    expected_lower_level_builder=(
+                        builder.REPO_ROOT / "scripts" / "build_bundle.py"
+                    ),
+                )
+
+            index = Path(tmp) / "index.jsonl"
+            index.write_text(
+                json.dumps({**row, "label": "Different"}) + "\n",
+                encoding="utf-8",
+            )
+            manifest["generation_policy"] = builder.package_manifest.generation_policy()
+            manifest["source"] = "index"
+            manifest["pericope_index"] = builder.package_manifest.file_record(
+                index, builder.REPO_ROOT
+            )
+            path.write_text(json.dumps(manifest), encoding="utf-8")
+            with self.assertRaisesRegex(
+                builder.package_manifest.PericopeManifestError, "matching the package"
+            ):
+                builder.package_manifest.validate_manifest(
+                    path,
+                    repo_root=builder.REPO_ROOT,
+                    expected_builder=builder.SCRIPT_PATH,
+                    expected_lower_level_builder=(
+                        builder.REPO_ROOT / "scripts" / "build_bundle.py"
+                    ),
+                )
+
+    def test_build_one_executes_builder_and_writes_validated_manifest(self) -> None:
+        row = {
+            "surah": 29,
+            "pericope": 1,
+            "ayah_from": 1,
+            "ayah_to": 2,
+            "label": "Opening",
+        }
+        with tempfile.TemporaryDirectory() as tmp:
+            out_dir = Path(tmp) / "package"
+            args = builder.parse_args([
+                "--surah", "29",
+                "--pericope", "1",
+                "--ayah-from", "1",
+                "--ayah-to", "2",
+                "--pericope-label", "Opening",
+                "--out", str(out_dir),
+            ])
+
+            def generate(_command: list[str], check: bool) -> None:
+                self.assertTrue(check)
+                out_dir.mkdir(parents=True)
+                write_bundles(out_dir, row)
+
+            with patch.object(builder.subprocess, "run", side_effect=generate) as run:
+                result = builder.build_one(row, args)
+
+            run.assert_called_once()
+            manifest_path = Path(result["manifest"])
+            self.assertTrue(manifest_path.is_file())
+            self.assertEqual(result["ayah_count"], 2)
 
 
 if __name__ == "__main__":

@@ -49,9 +49,10 @@ retry loop.
   That handoff is sent to the same live canonical writer.
 - The three evidence scopes, exact source identities, HFT qualifications,
   Arabic surface evidence, and no-selection rules remain intact.
-- Ordered compositions add hash-bound context candidates to the existing macro
-  and global packet shapes. They do not change the scope prompts, response
-  protocol, editorial instructions, or number of agent turns.
+- Ordered compositions add hash-bound context candidates to the existing packet
+  shapes. Explicitly added ayat are context-only members of all three lanes;
+  ordinary ordered context retains macro/global routing. Neither changes the
+  scope prompts, response protocol, editorial instructions, or turn count.
 
 The one intentionally new prompt is `prompts/canonical.md`. It lets one fresh
 writer perform reconciliation, prose preparation, and canonical composition in
@@ -62,6 +63,11 @@ authoritative; the adapter preserves their complete finding/evidence unions and
 handles only lossless accounting recovery from the supplied packets.
 
 ## Commands
+
+Before operating a new surah or package root, follow the source and bundle
+decision tree in [`ORCHESTRATION.md`](ORCHESTRATION.md#cold-start-preflight).
+That file is the authoritative end-to-end runbook; this section summarizes the
+command interface.
 
 Prepare or advance one native numbered ayah:
 
@@ -105,11 +111,12 @@ Define one or more ordered segments and select any subset as focus units. The
 other units become context for each focus:
 
 ```bash
-# Add one external ayah to every Fatiha focus, in parallel.
+# Add one external ayah as a first-class context member for every Fatiha focus.
 python3 _commentary/v4/workflow.py advance \
   --analysis-id fatiha-with-17-50 \
   --segment fatiha=1:1-7 \
-  --segment external=17:50 \
+  --member-surah 1 \
+  --add-ayat 17:50 \
   --ayah 1:1-7
 
 # Analyze every S100 ayah through an ordered Fatiha-then-S100 lens.
@@ -133,7 +140,7 @@ For a reusable declaration, pass `--analysis path/to/analysis.json`; omit
 
 ```json
 {
-  "schema_version": "commentary-v4-analysis-composition-v1",
+  "schema_version": "commentary-v4-analysis-composition-v2",
   "analysis_id": "fatiha-lens-s100",
   "segments": [
     {"id": "fatiha", "refs": ["1:1-7"]},
@@ -143,14 +150,21 @@ For a reusable declaration, pass `--analysis path/to/analysis.json`; omit
 }
 ```
 
+The equivalent reusable declaration for `--member-surah 100 --add-ayat
+1:1,1:2` adds `"surah_membership":{"target_surah":100,
+"added_ayat_refs":["1:1","1:2"]}`. Each added ref must be enumerated.
+
 Selectors may be discontinuous or cross-surah. A unit may occur only once in a
 composition, the focus must be selected from it, and ranges may not start at
 zero. Every selected unit other than the current focus becomes context without
 changing the canonical pericope. Same-surah context in the focus's segment is
 routed to macro, including an explicitly selected ayah outside the native
 pericope; cross-segment or cross-surah context is routed to global; micro
-remains focus-local. Direct `S:0` focus/context analysis is selected in exactly
-the same way as any explicit ref. Independently of explicit composition, every
+remains focus-local. `--add-ayat` accepts repeatable comma-separated `S:A`
+refs, not ranges; the refs need not be repeated in a segment. They enter every
+lane as context-only members and can never become focuses. Direct `S:0`
+focus/context analysis is selected in exactly the same way as any explicit
+ref. Independently of explicit composition, every
 numbered ayah packet for S2-S8 and S10-S114 automatically carries the target
 surah's `S:0` prefatory basmala as hash-bound surah-preface context in each
 lane. S1 uses numbered `1:1`; S9 has no `9:0`.
@@ -182,7 +196,7 @@ root used for the focus and same-package selected-context units. The default is
 `bundles/`. If you intentionally run a controlled alternate package root, such
 as `bundles/s029-pericopes/p02_036-069/`, V4 loads package units from that root
 and does not fall back to another root. `--member-bundles-dir` is a separate
-root for units added to the package membership, including prefatory basmala or
+root for the mandatory target-surah prefatory basmala and explicitly added or
 out-of-pericope ayat.
 
 For larger surahs, build a non-tiered pericope root first:
@@ -190,13 +204,12 @@ For larger surahs, build a non-tiered pericope root first:
 ```bash
 python3 scripts/build_pericope_bundles.py --surah 29 --pericope 3
 python3 _commentary/v4/workflow.py prepare \
-  --analysis-id s029-p03-with-basmala \
+  --analysis-id s029-p03-with-fatiha \
   --context-bundles-dir bundles/s029-pericopes/p03_028-044 \
   --member-bundles-dir bundles \
   --member-surah 29 \
-  --add-member 29:0 \
+  --add-ayat 1:1,1:2,1:3,1:4,1:5,1:6,1:7 \
   --segment p03=29:28-44 \
-  --segment basmala=29:0 \
   --ayah 29:38
 ```
 
@@ -204,6 +217,24 @@ Inside the pericope package, selected context stays non-tiered because it is
 loaded from the pericope root. Out-of-pericope or external members are loaded
 from `--member-bundles-dir`, so the operator can point that root at the desired
 basic/tiered/full bundle set while preserving exact path and hash lineage.
+The target `29:0` basmala is injected automatically from that member root and
+is not listed in `--add-ayat`.
+
+To analyze the target basmala itself, make `S:0` an ordinary host-surah focus
+and explicitly choose the numbered ayat that should activate it:
+
+```bash
+python3 _commentary/v4/workflow.py prepare \
+  --analysis-id s029-p03-basmala \
+  --context-bundles-dir bundles/s029-pericopes/p03_028-044 \
+  --member-bundles-dir bundles \
+  --segment host=29:0,29:28-44 \
+  --ayah 29:0
+```
+
+The pericope package manifest is mandatory for a flat context root. V4 verifies
+its exact file set, bundle identities, raw and canonical hashes, builder hashes,
+and pericope-index hash during preparation and every later manifest load.
 
 Generated inputs are idempotent. If their semantic source changes, preparation
 stops instead of mixing old raw output with new evidence. `--force-input`
@@ -235,7 +266,9 @@ while QAC and word identities remain `1:1:*`; native HFT, inter-ayah, and
 pericope scope are explicitly not applicable. For numbered ayahs in a surah
 with a prefatory basmala, preparation snapshots `prefatory_basmala.bundle.json`
 beside the focus source and embeds that full bundle into every micro, macro,
-and global lane packet as surah-preface context.
+and global lane packet as surah-preface context. Unit-manifest validation
+rechecks the snapshot bytes, canonical bundle identity, selected-context
+lineage, and every lane packet before workflow advancement.
 
 ## Deliberate omissions
 

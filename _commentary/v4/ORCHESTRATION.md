@@ -9,6 +9,70 @@ If you intentionally run a controlled package source, pass an explicit
 `--context-bundles-dir`; pass `--member-bundles-dir` separately for ayat added
 to that package membership.
 
+## Cold-start preflight
+
+Run every command from the repository root. Bundle generation requires the
+sibling `../quran-data/data/` source tree. The default Hermetic Focus Trace
+policy also requires `../latent_activation/focus_trace/`; use
+`--exclude-focus-trace` only for an intentional, provenance-recorded no-HFT
+build.
+
+Choose one source mode before starting agents:
+
+1. For a native focus `S:A`, require
+   `bundles/sNNN/S_A.ayah.json`. Build a missing numbered focus with:
+
+   ```bash
+   python3 scripts/build_bundle.py --surah S --ayah A --out bundles/sNNN
+   ```
+
+2. For every numbered focus in S2-S8 or S10-S114, also require the host
+   prefatory bundle `bundles/sNNN/S_0.ayah.json`. Build it with:
+
+   ```bash
+   python3 scripts/build_bundle.py --surah S --ayah 0 --out bundles/sNNN
+   ```
+
+   S1 already has the basmala as numbered ayah `1:1`; S9 has no prefatory
+   basmala. Never create `1:0` or `9:0`.
+
+3. For a pericope focus, inspect the canonical index first:
+
+   ```bash
+   rg '"surah":\s*29' \
+     ../quran-data/data/analysis/channels/network-v3/pericopes/surah_pericopes.jsonl
+   python3 scripts/build_pericope_bundles.py --surah 29 --pericope 3
+   ```
+
+   If no index row exists, declare the span and label explicitly:
+
+   ```bash
+   python3 scripts/build_pericope_bundles.py \
+     --surah 29 --pericope 3 --ayah-from 28 --ayah-to 44 \
+     --pericope-label "Declared operator span"
+   ```
+
+   Use the emitted `bundles/sNNN-pericopes/pPP_AAA-BBB/` directory as
+   `--context-bundles-dir`. The wrapper fails on stale extras or mismatched
+   identities; do not copy unrelated bundle files into that package.
+
+4. For a pericope run, load the host `S:0`, external ayat, and any deliberately
+   selected out-of-pericope ayat from `--member-bundles-dir`. Build any missing
+   member as an ordinary single-ayah bundle before preparation:
+
+   ```bash
+   python3 scripts/build_bundle.py --surah E --ayah A --out bundles/sEEE
+   ```
+
+   Every external ayah must be enumerated through `--add-ayat`; adding all of S1
+   therefore means listing `1:1,1:2,1:3,1:4,1:5,1:6,1:7`.
+
+Run `advance` without `--force-input` first. A pre-existing unit manifest is
+revalidated against every recorded source, package manifest, packet, template,
+and snapshot hash. If that validation reports stale input, inspect the source
+change and `git diff` before using `--force-input`. That option replaces only
+generated input; it never adopts, deletes, or rewrites raw or editorial work.
+
 ## One unit
 
 1. Run:
@@ -53,7 +117,8 @@ On the first wave, define the ordered composition and all desired focus units:
 python3 _commentary/v4/workflow.py advance \
   --analysis-id fatiha-with-17-50 \
   --segment fatiha=1:1-7 \
-  --segment external=17:50 \
+  --member-surah 1 \
+  --add-ayat 17:50 \
   --ayah 1:1-7
 
 # Fatiha followed by S100; every S100 ayah is a parallel focus.
@@ -86,6 +151,11 @@ unit in two segments. Direct `S:0` focus/context analysis uses this same
 mechanism; name it explicitly because ranges cannot start at zero. Numbered
 ayah packets for S2-S8 and S10-S114 automatically include the target surah's
 `S:0` prefatory basmala as hash-bound surah-preface context in every lane.
+Explicit `--add-ayat` refs are a separate context-only set: list each `S:A`
+reference explicitly, comma-separated, and do not use ranges. They are
+available to micro, macro, and global but are never eligible as focuses. Use an
+ordinary segment only when its macro/global routing and focus eligibility are
+intended; use `--add-ayat` for first-class external activation context.
 
 ## Pericope package roots
 
@@ -99,26 +169,40 @@ python3 scripts/build_pericope_bundles.py --surah 29 --pericope 3
 This writes non-tiered direct ayah files under
 `bundles/sNNN-pericopes/pPP_AAA-BBB/` plus
 `pericope.bundle-manifest.json`. Use that directory as
-`--context-bundles-dir`. Add the prefatory basmala or any other external /
-out-of-pericope ayah through `--member-bundles-dir`, and declare membership with
-`--member-surah` and one or more `--add-member` flags:
+`--context-bundles-dir`; V4 requires and revalidates the manifest for a flat
+package root. Supply the mandatory host basmala and external/out-of-pericope
+ayat through `--member-bundles-dir`. Only non-basmala external ayat need
+explicit membership through `--member-surah` and `--add-ayat`:
 
 ```bash
 python3 _commentary/v4/workflow.py advance \
-  --analysis-id s029-p03-with-basmala \
+  --analysis-id s029-p03-with-fatiha \
   --context-bundles-dir bundles/s029-pericopes/p03_028-044 \
   --member-bundles-dir bundles \
   --member-surah 29 \
-  --add-member 29:0 \
+  --add-ayat 1:1,1:2,1:3,1:4,1:5,1:6,1:7 \
   --segment p03=29:28-44 \
-  --segment basmala=29:0 \
   --ayah 29:38
 ```
 
 Inside the pericope, focus and selected same-package context are non-tiered.
 Out-of-pericope members are read from the member root, so use the full, basic,
 or tiered member root appropriate to the size budget and record that choice in
-the command.
+the command. Added ayat retain their original Quran identities and provenance;
+the automatic basmala is always the host surah's `S:0`, never the source
+surah's basmala for an external ayah.
+
+For a dedicated basmala analysis, make `S:0` the host focus rather than an
+added ayah and put its activating numbered ayat in the ordinary composition:
+
+```bash
+python3 _commentary/v4/workflow.py advance \
+  --analysis-id s029-p03-basmala \
+  --context-bundles-dir bundles/s029-pericopes/p03_028-044 \
+  --member-bundles-dir bundles \
+  --segment host=29:0,29:28-44 \
+  --ayah 29:0
+```
 
 ## Rules
 
