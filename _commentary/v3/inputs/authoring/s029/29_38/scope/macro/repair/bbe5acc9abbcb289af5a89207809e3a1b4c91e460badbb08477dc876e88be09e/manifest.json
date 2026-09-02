@@ -1,0 +1,25 @@
+{
+  "authoring_request_sha256": "bbe5acc9abbcb289af5a89207809e3a1b4c91e460badbb08477dc876e88be09e",
+  "ayah_ref": "29:38",
+  "expected_outputs": null,
+  "expected_response": "_commentary/v3/outputs/authoring/s029/29_38/scope/macro/repair/bbe5acc9abbcb289af5a89207809e3a1b4c91e460badbb08477dc876e88be09e/review.json",
+  "inputs": {
+    "ayah_ref": "29:38",
+    "lane": "macro",
+    "lane_packet_sha256": "50518be5de0c11a37334fea5571bf9b8f2a24c0a7842e9d32f2d55943fa002ac",
+    "prior_review_sha256": "f6e8e97cebf6a3755db599696852d5769ecc5d6b606a4ebce6b5d4094ef255e1",
+    "reconciled_sha256": "9e1788d172a234b72ea6b2206e218ea8581fce1991d0eb41bc57be776278a834",
+    "repair_iteration": 1,
+    "repair_phase": "scope_validation",
+    "repair_requests_sha256": "49bd13200fdf330192c0485e66bd24545c1ea578d93728dc23b37506fda56524",
+    "scope_template_sha256": "65d7ff1fcbaa048e497f51297cc15a16728a5583b74d061c5f10214a63c90c0c",
+    "scope_validation_exception_paths": [
+      "candidate_decisions[candidate_id=cand_64952ac6dfd1c0b90cf4].branch_exclusion_reasons[branch_ref=root_001315/B003].branch_ref"
+    ],
+    "wrapper_template_sha256": "4a67025d3c1c07011674ecf89e94718d5097f29f3ede4f2966200538f97d009b"
+  },
+  "prompt_bytes": 931685,
+  "prompt_sha256": "2efb12f5bd979bf999a735a621ef5883fae08af16ca0bfa2739f640d1049552f",
+  "schema_version": "commentary-v3-authoring-prompt-manifest-v1",
+  "stage": "scope-macro-repair"
+}

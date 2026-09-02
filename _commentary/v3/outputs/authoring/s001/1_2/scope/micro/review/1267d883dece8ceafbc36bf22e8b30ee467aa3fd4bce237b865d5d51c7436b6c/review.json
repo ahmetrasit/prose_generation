@@ -1,0 +1,2561 @@
+{
+  "schema_version": "commentary-v3-scope-review-v2",
+  "identity": {
+    "ayah_ref": "1:2",
+    "lane": "micro",
+    "lane_packet_sha256": "c2a39b4e2499d0da894a927c404cd3fc9b645c4855e9152956e35f79a3d0a831",
+    "authoring_request_sha256": "1267d883dece8ceafbc36bf22e8b30ee467aa3fd4bce237b865d5d51c7436b6c"
+  },
+  "ayah_ref": "1:2",
+  "lane": "micro",
+  "coverage_complete": true,
+  "surface_coverage": [
+    {
+      "analysis_record_ref": "1:2:1",
+      "treatment": "develop",
+      "finding_refs": [
+        "micro:finding:nominal-praise",
+        "micro:finding:opening-praise",
+        "micro:finding:praise-formula",
+        "micro:finding:praise-range",
+        "micro:finding:hft-b1-tested-verdict",
+        "micro:finding:hft-b2-stagewise-cultivation",
+        "micro:finding:hft-b3-legibility-field",
+        "micro:finding:hft-b4-credit-reversal"
+      ]
+    },
+    {
+      "analysis_record_ref": "1:2:2",
+      "treatment": "develop",
+      "finding_refs": [
+        "micro:finding:particle-bound-sound",
+        "micro:finding:particle-attribution",
+        "micro:finding:particle-hinge",
+        "micro:finding:particle-due",
+        "micro:finding:hft-b1-tested-verdict",
+        "micro:finding:hft-b4-credit-reversal"
+      ]
+    },
+    {
+      "analysis_record_ref": "1:2:3",
+      "treatment": "develop",
+      "finding_refs": [
+        "micro:finding:name-node",
+        "micro:finding:name-recipient",
+        "micro:finding:name-proper-pressure",
+        "micro:finding:name-recurrence",
+        "micro:finding:name-sound-variant",
+        "micro:finding:hft-b1-tested-verdict",
+        "micro:finding:hft-b4-credit-reversal"
+      ]
+    },
+    {
+      "analysis_record_ref": "1:2:4",
+      "treatment": "develop",
+      "finding_refs": [
+        "micro:finding:apposition-scope",
+        "micro:finding:rabb-convergence",
+        "micro:finding:rabb-formula",
+        "micro:finding:rabb-care",
+        "micro:finding:rabb-title",
+        "micro:finding:hft-b1-tested-verdict",
+        "micro:finding:hft-b2-stagewise-cultivation",
+        "micro:finding:hft-b3-legibility-field"
+      ]
+    },
+    {
+      "analysis_record_ref": "1:2:5",
+      "treatment": "develop",
+      "finding_refs": [
+        "micro:finding:world-boundary",
+        "micro:finding:world-formula",
+        "micro:finding:world-domain",
+        "micro:finding:world-created-signs",
+        "micro:finding:world-totality",
+        "micro:finding:world-kinds",
+        "micro:finding:world-cadence",
+        "micro:finding:hft-b1-tested-verdict",
+        "micro:finding:hft-b2-stagewise-cultivation",
+        "micro:finding:hft-b3-legibility-field"
+      ]
+    }
+  ],
+  "branch_screen": [
+    {
+      "branch_ref": "root_000047/B001",
+      "tested_facets": [
+        {
+          "facet_id": "F001",
+          "result": "no_independent_trigger"
+        },
+        {
+          "facet_id": "F002",
+          "result": "contact"
+        },
+        {
+          "facet_id": "F003",
+          "result": "no_independent_trigger"
+        },
+        {
+          "facet_id": "F004",
+          "result": "no_independent_trigger"
+        }
+      ],
+      "result": "nominated",
+      "contact_refs": [
+        "micro:contact:b1-worshipped-recipient",
+        "micro:contact:b4-worship-credit"
+      ],
+      "reason": "ٱللَّهِ is the actual carrier, and its fixed divine-name form plus the preceding لِ relation activate the worshipped-referent facet. No worship verb, causative construction, or historical sun example activates the other facets."
+    },
+    {
+      "branch_ref": "root_000047/B002",
+      "tested_facets": [
+        {
+          "facet_id": "F001",
+          "result": "contact"
+        },
+        {
+          "facet_id": "F002",
+          "result": "no_independent_trigger"
+        },
+        {
+          "facet_id": "F003",
+          "result": "no_independent_trigger"
+        },
+        {
+          "facet_id": "F004",
+          "result": "no_independent_trigger"
+        },
+        {
+          "facet_id": "F005",
+          "result": "no_independent_trigger"
+        }
+      ],
+      "result": "nominated",
+      "contact_refs": [
+        "micro:contact:proper-name"
+      ],
+      "reason": "The POS:PN surface and recurrence of ٱللَّهِ provide an independent proper-name trigger for F001. The ayah has no source-variant derivation, oath frame, vocative ending, or abbreviated exclamation."
+    },
+    {
+      "branch_ref": "root_000355/B001",
+      "tested_facets": [
+        {
+          "facet_id": "F001",
+          "result": "contact"
+        },
+        {
+          "facet_id": "F002",
+          "result": "no_independent_trigger"
+        },
+        {
+          "facet_id": "F003",
+          "result": "no_independent_trigger"
+        }
+      ],
+      "result": "nominated",
+      "contact_refs": [
+        "micro:contact:b1-praise-polarity",
+        "micro:contact:b2-praise-response"
+      ],
+      "reason": "ٱلْحَمْدُ is the nominal carrier and its assignment through لِ to the Lord creates an evaluative praise declaration. The local clause supplies no explicit benefit event sufficient to activate the thanking facet and no derived intensive form."
+    },
+    {
+      "branch_ref": "root_000355/B002",
+      "tested_facets": [
+        {
+          "facet_id": "F001",
+          "result": "contact"
+        },
+        {
+          "facet_id": "F002",
+          "result": "no_independent_trigger"
+        },
+        {
+          "facet_id": "F003",
+          "result": "no_independent_trigger"
+        }
+      ],
+      "result": "nominated",
+      "contact_refs": [
+        "micro:contact:b1-tested-verdict",
+        "micro:contact:b3-recognition"
+      ],
+      "reason": "The definite nominal declaration evaluates the named Lord in relation to all worlds, giving F001 a bounded verdict reading. No place or task is tested, so F002 and F003 lack their independent situational triggers."
+    },
+    {
+      "branch_ref": "root_000355/B003",
+      "tested_facets": [
+        {
+          "facet_id": "F001",
+          "result": "no_independent_trigger"
+        },
+        {
+          "facet_id": "F002",
+          "result": "no_independent_trigger"
+        }
+      ],
+      "result": "no_independent_trigger",
+      "contact_refs": [],
+      "reason": "The carrier is a noun for praise, not an adjective naming a praised person. No human referent or repeated-praise derivation independently activates this person-denoting branch."
+    },
+    {
+      "branch_ref": "root_000355/B004",
+      "tested_facets": [
+        {
+          "facet_id": "F001",
+          "result": "no_independent_trigger"
+        },
+        {
+          "facet_id": "F002",
+          "result": "no_independent_trigger"
+        },
+        {
+          "facet_id": "F003",
+          "result": "no_independent_trigger"
+        }
+      ],
+      "result": "no_independent_trigger",
+      "contact_refs": [],
+      "reason": "ٱلْحَمْدُ is not a limit-of-action expression, a direct praise label for a person, or the cited feminine plural. The local nominal syntax gives none of those branch-specific triggers."
+    },
+    {
+      "branch_ref": "root_000355/B005",
+      "tested_facets": [
+        {
+          "facet_id": "F001",
+          "result": "contact"
+        },
+        {
+          "facet_id": "F002",
+          "result": "no_independent_trigger"
+        }
+      ],
+      "result": "nominated",
+      "contact_refs": [
+        "micro:contact:b4-credit-claim"
+      ],
+      "reason": "The assignment of hamd away from any human actor and toward Allah supplies a bounded contrast with claiming praise for a favor. The ayah has no self-spending or admonitory context for F002."
+    },
+    {
+      "branch_ref": "root_000355/B006",
+      "tested_facets": [
+        {
+          "facet_id": "F001",
+          "result": "no_independent_trigger"
+        },
+        {
+          "facet_id": "F002",
+          "result": "no_independent_trigger"
+        }
+      ],
+      "result": "no_independent_trigger",
+      "contact_refs": [],
+      "reason": "The surface has no special joint-address or thank-you collocation. A bare definite noun followed by a prepositional attribution cannot independently supply either directed-use facet."
+    },
+    {
+      "branch_ref": "root_000532/B001",
+      "tested_facets": [
+        {
+          "facet_id": "F001",
+          "result": "contact"
+        },
+        {
+          "facet_id": "F002",
+          "result": "no_independent_trigger"
+        }
+      ],
+      "result": "nominated",
+      "contact_refs": [
+        "micro:contact:b1-lordship-authority"
+      ],
+      "reason": "رَبِّ is the genitive construct head over ٱلْعَٰلَمِينَ, so the local relation independently supplies ownership, authority, and ordering. Allah's proper name does not by itself create the human-dependent contrast required for F002."
+    },
+    {
+      "branch_ref": "root_000532/B002",
+      "tested_facets": [
+        {
+          "facet_id": "F001",
+          "result": "contact"
+        },
+        {
+          "facet_id": "F002",
+          "result": "no_independent_trigger"
+        }
+      ],
+      "result": "nominated",
+      "contact_refs": [
+        "micro:contact:b2-stagewise-rabb"
+      ],
+      "reason": "The noun title رَبِّ governs a plural field and the supplied care-and-formation range gives an ongoing completion relation. No child, property, or discrete favor example is locally named for F002."
+    },
+    {
+      "branch_ref": "root_000532/B003",
+      "tested_facets": [
+        {
+          "facet_id": "F001",
+          "result": "no_independent_trigger"
+        },
+        {
+          "facet_id": "F002",
+          "result": "no_independent_trigger"
+        }
+      ],
+      "result": "no_independent_trigger",
+      "contact_refs": [],
+      "reason": "رَبِّ is a divine title in apposition, not a human scholar or teacher. Neither religious expertise nor stepwise instruction of pupils is independently present."
+    },
+    {
+      "branch_ref": "root_000532/B004",
+      "tested_facets": [
+        {
+          "facet_id": "F001",
+          "result": "no_independent_trigger"
+        },
+        {
+          "facet_id": "F002",
+          "result": "no_independent_trigger"
+        }
+      ],
+      "result": "no_independent_trigger",
+      "contact_refs": [],
+      "reason": "The plural object is a governed domain, not a human crowd. No numeral, tribe, or gathering event independently activates the large-assembly branch."
+    },
+    {
+      "branch_ref": "root_000532/B005",
+      "tested_facets": [
+        {
+          "facet_id": "F001",
+          "result": "no_independent_trigger"
+        },
+        {
+          "facet_id": "F002",
+          "result": "no_independent_trigger"
+        }
+      ],
+      "result": "no_independent_trigger",
+      "contact_refs": [],
+      "reason": "The divine title and cosmic construct contain no stepfamily, foster-parent, nursing, or animal-care participant. General nurturing here does not independently activate the specific family branch."
+    },
+    {
+      "branch_ref": "root_000532/B006",
+      "tested_facets": [
+        {
+          "facet_id": "F001",
+          "result": "no_independent_trigger"
+        },
+        {
+          "facet_id": "F002",
+          "result": "no_independent_trigger"
+        }
+      ],
+      "result": "no_independent_trigger",
+      "contact_refs": [],
+      "reason": "رَبِّ is syntactically a lordship title, with no substance, residue, leather, food, or medicine scene to activate the material branch."
+    },
+    {
+      "branch_ref": "root_000532/B007",
+      "tested_facets": [
+        {
+          "facet_id": "F001",
+          "result": "no_independent_trigger"
+        },
+        {
+          "facet_id": "F002",
+          "result": "no_independent_trigger"
+        },
+        {
+          "facet_id": "F003",
+          "result": "no_independent_trigger"
+        }
+      ],
+      "result": "no_independent_trigger",
+      "contact_refs": [],
+      "reason": "The construction describes governance over worlds, not remaining in a place, drifting cloud, tied animal, or approach. No persistence or attachment scene is locally supplied."
+    },
+    {
+      "branch_ref": "root_000532/B008",
+      "tested_facets": [
+        {
+          "facet_id": "F001",
+          "result": "no_independent_trigger"
+        },
+        {
+          "facet_id": "F002",
+          "result": "no_independent_trigger"
+        },
+        {
+          "facet_id": "F003",
+          "result": "no_independent_trigger"
+        }
+      ],
+      "result": "no_independent_trigger",
+      "contact_refs": [],
+      "reason": "Although the clause carries a nurturing relation, it names no cloud, color, rain, or plant-growing scene. The lordship title cannot independently turn into the suspended-cloud branch."
+    },
+    {
+      "branch_ref": "root_000532/B009",
+      "tested_facets": [
+        {
+          "facet_id": "F001",
+          "result": "no_independent_trigger"
+        },
+        {
+          "facet_id": "F002",
+          "result": "no_independent_trigger"
+        },
+        {
+          "facet_id": "F003",
+          "result": "no_independent_trigger"
+        }
+      ],
+      "result": "no_independent_trigger",
+      "contact_refs": [],
+      "reason": "The surface expresses ongoing lordship, not newness, a recently lambed sheep, or the first stage of human youth. No freshness trigger accompanies رَبِّ."
+    },
+    {
+      "branch_ref": "root_000532/B010",
+      "tested_facets": [
+        {
+          "facet_id": "F001",
+          "result": "no_independent_trigger"
+        },
+        {
+          "facet_id": "F002",
+          "result": "no_independent_trigger"
+        }
+      ],
+      "result": "no_independent_trigger",
+      "contact_refs": [],
+      "reason": "No vessel, leather container, lots, arrows, or contained objects occur in the ayah. A construct head over worlds is not an independent container trigger."
+    },
+    {
+      "branch_ref": "root_000532/B011",
+      "tested_facets": [
+        {
+          "facet_id": "F001",
+          "result": "no_independent_trigger"
+        },
+        {
+          "facet_id": "F002",
+          "result": "no_independent_trigger"
+        },
+        {
+          "facet_id": "F003",
+          "result": "no_independent_trigger"
+        }
+      ],
+      "result": "no_independent_trigger",
+      "contact_refs": [],
+      "reason": "The genitive relation is lordship, not a mutual pact, a group bound by contract, or a tithe. No reciprocal parties or fiscal context independently activates this branch."
+    },
+    {
+      "branch_ref": "root_000532/B012",
+      "tested_facets": [
+        {
+          "facet_id": "F001",
+          "result": "no_independent_trigger"
+        },
+        {
+          "facet_id": "F002",
+          "result": "no_independent_trigger"
+        },
+        {
+          "facet_id": "F003",
+          "result": "no_independent_trigger"
+        }
+      ],
+      "result": "no_independent_trigger",
+      "contact_refs": [],
+      "reason": "No named plant, grass, tree, softness, or seasonal greenness is present. Care language in the divine title does not supply the specific botanical carrier."
+    },
+    {
+      "branch_ref": "root_000532/B013",
+      "tested_facets": [
+        {
+          "facet_id": "F001",
+          "result": "no_independent_trigger"
+        },
+        {
+          "facet_id": "F002",
+          "result": "no_independent_trigger"
+        }
+      ],
+      "result": "no_independent_trigger",
+      "contact_refs": [],
+      "reason": "The ayah contains no water quantity, pool, sweetness, or gathered liquid. The worlds governed by Rabb are not independently a water lexeme."
+    },
+    {
+      "branch_ref": "root_000532/B014",
+      "tested_facets": [
+        {
+          "facet_id": "F001",
+          "result": "no_independent_trigger"
+        },
+        {
+          "facet_id": "F002",
+          "result": "no_independent_trigger"
+        }
+      ],
+      "result": "no_independent_trigger",
+      "contact_refs": [],
+      "reason": "ٱلْعَٰلَمِينَ denotes governed domains, not a herd. No wild cattle, livestock, camel, or herd scene independently activates either facet."
+    },
+    {
+      "branch_ref": "root_000532/B015",
+      "tested_facets": [
+        {
+          "facet_id": "F001",
+          "result": "no_independent_trigger"
+        },
+        {
+          "facet_id": "F002",
+          "result": "no_independent_trigger"
+        },
+        {
+          "facet_id": "F003",
+          "result": "no_independent_trigger"
+        }
+      ],
+      "result": "no_independent_trigger",
+      "contact_refs": [],
+      "reason": "رَبِّ is a noun title, not the branch's rare preposition. No indefinite noun, attached particle, or dialectal suffix provides an independent grammatical trigger."
+    },
+    {
+      "branch_ref": "root_000532/B016",
+      "tested_facets": [
+        {
+          "facet_id": "F001",
+          "result": "no_independent_trigger"
+        },
+        {
+          "facet_id": "F002",
+          "result": "no_independent_trigger"
+        },
+        {
+          "facet_id": "F003",
+          "result": "no_independent_trigger"
+        },
+        {
+          "facet_id": "F004",
+          "result": "contact"
+        }
+      ],
+      "result": "nominated",
+      "contact_refs": [
+        "micro:contact:b4-benefaction"
+      ],
+      "reason": "The explicit praise attribution to the Lord of all worlds supplies a bounded benefaction relation for F004. The local clause has no stated unmet need or knot, so F002 and F003 remain unactivated; F001 is only the branch's alternative-set record."
+    },
+    {
+      "branch_ref": "root_000532/B017",
+      "tested_facets": [
+        {
+          "facet_id": "F001",
+          "result": "no_independent_trigger"
+        }
+      ],
+      "result": "no_independent_trigger",
+      "contact_refs": [],
+      "reason": "The carrier is a divine lordship title, not a human leader of sailors. No ship, crew, or nautical authority supplies the branch-specific trigger."
+    },
+    {
+      "branch_ref": "root_000537/B001",
+      "tested_facets": [
+        {
+          "facet_id": "F001",
+          "result": "no_independent_trigger"
+        },
+        {
+          "facet_id": "F002",
+          "result": "no_independent_trigger"
+        },
+        {
+          "facet_id": "F003",
+          "result": "no_independent_trigger"
+        },
+        {
+          "facet_id": "F004",
+          "result": "no_independent_trigger"
+        }
+      ],
+      "result": "no_independent_trigger",
+      "contact_refs": [],
+      "reason": "The packet permits a bounded nourishment-and-growth contact through root_000537/B005, but not the separate generic rise, swelling, foam, or relative-height senses of B001. No independent physical increase scene is present."
+    },
+    {
+      "branch_ref": "root_000537/B002",
+      "tested_facets": [
+        {
+          "facet_id": "F001",
+          "result": "no_independent_trigger"
+        },
+        {
+          "facet_id": "F002",
+          "result": "no_independent_trigger"
+        }
+      ],
+      "result": "no_independent_trigger",
+      "contact_refs": [],
+      "reason": "Nothing in ٱلْعَٰلَمِينَ identifies a raised landform or a variant name for one. The cosmic scope is not an independent terrain-elevation trigger."
+    },
+    {
+      "branch_ref": "root_000537/B003",
+      "tested_facets": [
+        {
+          "facet_id": "F001",
+          "result": "no_independent_trigger"
+        },
+        {
+          "facet_id": "F002",
+          "result": "no_independent_trigger"
+        },
+        {
+          "facet_id": "F003",
+          "result": "no_independent_trigger"
+        },
+        {
+          "facet_id": "F004",
+          "result": "no_independent_trigger"
+        }
+      ],
+      "result": "no_independent_trigger",
+      "contact_refs": [],
+      "reason": "The ayah has no loan, principal, repayment, sale, or legal transaction. Lordship ownership must not be converted into the separate transaction-surplus branch."
+    },
+    {
+      "branch_ref": "root_000537/B004",
+      "tested_facets": [
+        {
+          "facet_id": "F001",
+          "result": "no_independent_trigger"
+        },
+        {
+          "facet_id": "F002",
+          "result": "no_independent_trigger"
+        },
+        {
+          "facet_id": "F003",
+          "result": "no_independent_trigger"
+        }
+      ],
+      "result": "no_independent_trigger",
+      "contact_refs": [],
+      "reason": "No human or animal breath, running, fear, swelling, or respiratory scene is present. The growth pressure retained through B005 is not a breathing trigger."
+    },
+    {
+      "branch_ref": "root_000537/B005",
+      "tested_facets": [
+        {
+          "facet_id": "F001",
+          "result": "contact"
+        },
+        {
+          "facet_id": "F002",
+          "result": "no_independent_trigger"
+        },
+        {
+          "facet_id": "F003",
+          "result": "no_independent_trigger"
+        }
+      ],
+      "result": "nominated",
+      "contact_refs": [
+        "micro:contact:b2-growth"
+      ],
+      "reason": "The local fostering title and its governed plural field independently support the general nourished-growth facet F001. No child, product, or named community supplies the narrower examples in F002 and F003."
+    },
+    {
+      "branch_ref": "root_000537/B006",
+      "tested_facets": [
+        {
+          "facet_id": "F001",
+          "result": "no_independent_trigger"
+        },
+        {
+          "facet_id": "F002",
+          "result": "no_independent_trigger"
+        }
+      ],
+      "result": "no_independent_trigger",
+      "contact_refs": [],
+      "reason": "The phrase contains no body-part or anatomical scene. A non-dominant split-root mapping cannot by itself activate the thigh-root branch."
+    },
+    {
+      "branch_ref": "root_000537/B007",
+      "tested_facets": [
+        {
+          "facet_id": "F001",
+          "result": "no_independent_trigger"
+        },
+        {
+          "facet_id": "F002",
+          "result": "no_independent_trigger"
+        },
+        {
+          "facet_id": "F003",
+          "result": "no_independent_trigger"
+        }
+      ],
+      "result": "no_independent_trigger",
+      "contact_refs": [],
+      "reason": "The clause has no coming-among-kin event or paternal household participant. The relation of Rabb to worlds is not the collocational family-arrival construction."
+    },
+    {
+      "branch_ref": "root_001040/B001",
+      "tested_facets": [
+        {
+          "facet_id": "F001",
+          "result": "contact"
+        },
+        {
+          "facet_id": "F002",
+          "result": "no_independent_trigger"
+        },
+        {
+          "facet_id": "F003",
+          "result": "no_independent_trigger"
+        },
+        {
+          "facet_id": "F004",
+          "result": "no_independent_trigger"
+        }
+      ],
+      "result": "nominated",
+      "contact_refs": [
+        "micro:contact:b3-knowledge"
+      ],
+      "reason": "The final noun is a field of worlds placed in a lordship relation, and the supplied knowability pressure makes F001 a bounded legibility reading. No report, teaching event, learning process, or competition activates F002-F004."
+    },
+    {
+      "branch_ref": "root_001040/B002",
+      "tested_facets": [
+        {
+          "facet_id": "F001",
+          "result": "contact"
+        },
+        {
+          "facet_id": "F002",
+          "result": "no_independent_trigger"
+        },
+        {
+          "facet_id": "F003",
+          "result": "no_independent_trigger"
+        },
+        {
+          "facet_id": "F004",
+          "result": "no_independent_trigger"
+        }
+      ],
+      "result": "nominated",
+      "contact_refs": [
+        "micro:contact:b2-signs",
+        "micro:contact:b3-signs"
+      ],
+      "reason": "The plural worlds are presented as differentiated, recognizable orders under Rabb, independently activating the general sign facet F001. No flag, mountain, fabric, warrior, or end-time comparison is locally present."
+    },
+    {
+      "branch_ref": "root_001040/B003",
+      "tested_facets": [
+        {
+          "facet_id": "F001",
+          "result": "contact"
+        },
+        {
+          "facet_id": "F002",
+          "result": "contact"
+        },
+        {
+          "facet_id": "F003",
+          "result": "contact"
+        }
+      ],
+      "result": "nominated",
+      "contact_refs": [
+        "micro:contact:world-totality",
+        "micro:contact:world-kinds",
+        "micro:contact:world-created-sign"
+      ],
+      "reason": "ٱلْعَٰلَمِينَ directly carries the created-world reading, its plural scope permits distinct kinds or orders, and its attachment to Rabb supplies the bounded created-whole-as-sign consequence. These are separated facets, not a license to activate unrelated root branches."
+    },
+    {
+      "branch_ref": "root_001040/B004",
+      "tested_facets": [
+        {
+          "facet_id": "F001",
+          "result": "no_independent_trigger"
+        },
+        {
+          "facet_id": "F002",
+          "result": "no_independent_trigger"
+        },
+        {
+          "facet_id": "F003",
+          "result": "no_independent_trigger"
+        }
+      ],
+      "result": "no_independent_trigger",
+      "contact_refs": [],
+      "reason": "No lip, cleft, camel, or cutting action appears. The root's anatomical homonym has no independent local carrier beyond the shared root."
+    },
+    {
+      "branch_ref": "root_001040/B005",
+      "tested_facets": [
+        {
+          "facet_id": "F001",
+          "result": "no_independent_trigger"
+        },
+        {
+          "facet_id": "F002",
+          "result": "no_independent_trigger"
+        },
+        {
+          "facet_id": "F003",
+          "result": "no_independent_trigger"
+        }
+      ],
+      "result": "no_independent_trigger",
+      "contact_refs": [],
+      "reason": "The final word names domains, not a sea or a water-rich well. No water body or source-variant context independently activates this branch."
+    },
+    {
+      "branch_ref": "root_001040/B006",
+      "tested_facets": [
+        {
+          "facet_id": "F001",
+          "result": "no_independent_trigger"
+        },
+        {
+          "facet_id": "F002",
+          "result": "no_independent_trigger"
+        }
+      ],
+      "result": "no_independent_trigger",
+      "contact_refs": [],
+      "reason": "No raptor, hawk, falcon, agility, or male-person comparison is present. The plural-world carrier cannot independently activate the bird branch."
+    },
+    {
+      "branch_ref": "root_001040/B007",
+      "tested_facets": [
+        {
+          "facet_id": "F001",
+          "result": "no_independent_trigger"
+        }
+      ],
+      "result": "no_independent_trigger",
+      "contact_refs": [],
+      "reason": "Nothing in the clause denotes a hyena or a sex-specific animal. The same-root occurrence alone is insufficient."
+    }
+  ],
+  "contact_opportunities": [
+    {
+      "contact_ref": "micro:contact:b1-worshipped-recipient",
+      "surface_carrier": "ٱللَّهِ",
+      "distinctive_facet": "F002: eylemden türeyen, kendisine tapınılan varlık",
+      "independent_trigger": "Sabit özel ad, لِ tarafından övgünün yöneldiği ve ait olduğu isim olarak yönetilir; bu ilişki genel bir tapınma eyleminden ayrı bir gönderen kurar.",
+      "changed_reading": "Övgünün alıcısı yalnızca soyut bir hedef değil, tapınmanın yöneldiği belirli ilahî varlık olarak görünür.",
+      "reader_payoff": "Okur, hamdin kime ait olduğuyla kime yöneldiğini aynı yerel bağda görür.",
+      "containment": "Yalnızca tapınılan-varlık facet'i kullanılır; ayet bir tapınma eylemi veya tapınılır kılma işlemi anlatmaz. HFT desteğinin Arapça çapası yüzey temasını doğrular, dallanmış anlamı tek başına kanıtlamaz.",
+      "suggested_lane": "micro",
+      "disposition": "narrow",
+      "finding_refs": [
+        "micro:finding:hft-b1-tested-verdict"
+      ],
+      "support_ids": [
+        "sup_56f77af0994dc83f37ec",
+        "sup_55b9a5e76bc5b2663c24",
+        "sup_f87da56a1f57a48217e8"
+      ],
+      "branch_refs": [
+        "root_000047/B001"
+      ]
+    },
+    {
+      "contact_ref": "micro:contact:b4-worship-credit",
+      "surface_carrier": "ٱللَّهِ",
+      "distinctive_facet": "F002: kendisine tapınılan varlık",
+      "independent_trigger": "Allah özel adı, لِ ile hamdin insanî bir yarar sağlayıcıya değil ilahî ve nihai referansa tahsis edildiği yapının içinde durur.",
+      "changed_reading": "Kredi ve minnettarlık ilişkisi, ara insan failinden nihai ilahî muhataba taşınır.",
+      "reader_payoff": "Okur, insanın yarar sağladığı için mutlak övgü sahibi olma iddiasının neden bozulduğunu fark eder.",
+      "containment": "Bu, HFT'nin keşifsel toplumsal kredi okumasıdır; özel adın tapınılan-referent facet'i korunur, fakat ayet doğrudan insan ilişkileri veya ibadet pratiği anlatmaz.",
+      "suggested_lane": "micro",
+      "disposition": "narrow",
+      "finding_refs": [
+        "micro:finding:hft-b4-credit-reversal"
+      ],
+      "support_ids": [
+        "sup_bc87d01e75368c3f557b",
+        "sup_55b9a5e76bc5b2663c24",
+        "sup_f87da56a1f57a48217e8"
+      ],
+      "branch_refs": [
+        "root_000047/B001"
+      ]
+    },
+    {
+      "contact_ref": "micro:contact:proper-name",
+      "surface_carrier": "ٱللَّهِ",
+      "distinctive_facet": "F001: Yaratıcıyı başkalarından ayıran yalnız ona özgü özel ad",
+      "independent_trigger": "QAC'taki özel ad niteliği, لِ sonrası genitif biçim ve 1:1'deki tekrar aynı referentin yerel çerçevesini açıkça kurar.",
+      "changed_reading": "Metin genel bir deity sınıf adı kullanmak yerine benzersiz ilahî adı övgünün gramatik alıcısı yapar.",
+      "reader_payoff": "Okur, tapınılan varlık baskısının neden genel bir tanrı gloss'una indirgenemeyeceğini görür.",
+      "containment": "Kaynak türetim varyantları, ant ve yakarma kullanımları etkin facet sayılmaz; bulgu yalnızca yüzeydeki özel adlık ve onun bu cümledeki işleviyle sınırlıdır.",
+      "suggested_lane": "micro",
+      "disposition": "accept",
+      "finding_refs": [
+        "micro:finding:name-proper-pressure"
+      ],
+      "support_ids": [
+        "sup_89dc1762d79c7726d338",
+        "sup_f87da56a1f57a48217e8",
+        "sup_55b9a5e76bc5b2663c24"
+      ],
+      "branch_refs": [
+        "root_000047/B002"
+      ]
+    },
+    {
+      "contact_ref": "micro:contact:b1-praise-polarity",
+      "surface_carrier": "ٱلْحَمْدُ",
+      "distinctive_facet": "F001: iyi sözlerle övme, yermenin karşıtı",
+      "independent_trigger": "Belirli nominal konu olarak hamdın لِ ile açık bir övgü atfına bağlanması, onu görünür bir konuşma eyleminden çok değerlendirme kutbuna yerleştirir.",
+      "changed_reading": "Hamdin olumlu kutbu, ilahî lordluğun bütün dünyalarla ilişkisini değerlendiren bir hüküm gibi duyulur.",
+      "reader_payoff": "Okur, övgünün yalnızca teşekkür değil, yermenin karşısında konumlanan bir değer yargısı olduğunu izler.",
+      "containment": "F001'in değerlendirme kutbu korunur; nominal biçim açık bir sınama anlatısı veya her türemiş hamd kullanımı değildir.",
+      "suggested_lane": "micro",
+      "disposition": "narrow",
+      "finding_refs": [
+        "micro:finding:hft-b1-tested-verdict"
+      ],
+      "support_ids": [
+        "sup_56f77af0994dc83f37ec",
+        "sup_e0cec65120a0c361f704",
+        "sup_3103c8a53725e3e9cb7a"
+      ],
+      "branch_refs": [
+        "root_000355/B001"
+      ]
+    },
+    {
+      "contact_ref": "micro:contact:b2-praise-response",
+      "surface_carrier": "ٱلْحَمْدُ",
+      "distinctive_facet": "F001: övgü, yermenin karşıtıdır",
+      "independent_trigger": "Hamdın Rabb'in dünyalarla sürdürdüğü bakım ilişkisine cevap olarak kurulması, olumlu değerlendirmeyi çıplak bir övgü sözünden ayırır.",
+      "changed_reading": "Övgü, dünyaların sürdürülmüş oluşuna verilen olumlu karşılık olarak işlev kazanır.",
+      "reader_payoff": "Okur, övgü ile ilahî bakım arasındaki cevap ilişkisini görür.",
+      "containment": "HFT b2'nin büyüme okuması keşifsel ve sınırlıdır; yerel ayette açık bir nimet olayı bulunmadığından teşekkür facet'i ayrıca etkinleştirilmez.",
+      "suggested_lane": "micro",
+      "disposition": "narrow",
+      "finding_refs": [
+        "micro:finding:hft-b2-stagewise-cultivation"
+      ],
+      "support_ids": [
+        "sup_effca1af2edd75a71dd1",
+        "sup_e0cec65120a0c361f704",
+        "sup_7447bba702c0aab4a53a"
+      ],
+      "branch_refs": [
+        "root_000355/B001"
+      ]
+    },
+    {
+      "contact_ref": "micro:contact:b1-tested-verdict",
+      "surface_carrier": "ٱلْحَمْدُ لِلَّهِ رَبِّ ٱلْعَٰلَمِينَ",
+      "distinctive_facet": "F001: deneyim veya sınama sonrasında övülesi bulma",
+      "independent_trigger": "Belirli nominal hüküm, hamdi Allah'ın Rabb olarak bütün dünyalarla ilişkisine bağlar; bu açık ilişki övgüyü sonuçlanmış bir değerlendirme olarak çerçeveler.",
+      "changed_reading": "Cümle, Allah'ın bütün dünyalar üzerindeki lordluğunu sınanmış bir praiseworthiness hükmü gibi okuma imkânı açar.",
+      "reader_payoff": "Okur, genel övgü beyanının altında ilişkiyi değerlendiren bir hüküm bulunduğunu fark eder.",
+      "containment": "Bu HFT adayının exact Arabic çapası yalnız yüzey temasını doğrular; sınama sonucu doğrudan sözlük gloss'u değildir. F002'nin kişi/yer/iş örnekleri ve başka hamd dalları bu temasa taşınmaz.",
+      "suggested_lane": "micro",
+      "disposition": "narrow",
+      "finding_refs": [
+        "micro:finding:hft-b1-tested-verdict"
+      ],
+      "support_ids": [
+        "sup_56f77af0994dc83f37ec",
+        "sup_e0cec65120a0c361f704",
+        "sup_e8324b9acdc710556b71",
+        "sup_7447bba702c0aab4a53a",
+        "sup_ef2aca100adf79d48301"
+      ],
+      "branch_refs": [
+        "root_000355/B002"
+      ]
+    },
+    {
+      "contact_ref": "micro:contact:b3-recognition",
+      "surface_carrier": "ٱلْحَمْدُ ... رَبِّ ٱلْعَٰلَمِينَ",
+      "distinctive_facet": "F001: karşılaşma veya deneyim sonrasında övülesi bulma",
+      "independent_trigger": "Hamdın sonradan gelen Rabb-alamin ilişkisine bağlanması, tanınabilir bir lordluk düzeniyle karşılaşma ve onu olumlu değerlendirme yönünü açar.",
+      "changed_reading": "Dünyaların legible düzeni, lordluğun tanınarak övülmesine zemin olur.",
+      "reader_payoff": "Okur, bilinebilir düzen ile övgü arasındaki tanıma adımını görür.",
+      "containment": "Bu, HFT b3'ün keşifsel tanıma okumasıdır; ayet belirli bir deneyim olayı anlatmaz ve branch'in yer ya da iş kullanımları etkin değildir.",
+      "suggested_lane": "micro",
+      "disposition": "narrow",
+      "finding_refs": [
+        "micro:finding:hft-b3-legibility-field"
+      ],
+      "support_ids": [
+        "sup_7739a436c68fb8c18718",
+        "sup_e0cec65120a0c361f704",
+        "sup_ef2aca100adf79d48301",
+        "sup_fd58859724725cfa8895"
+      ],
+      "branch_refs": [
+        "root_000355/B002"
+      ]
+    },
+    {
+      "contact_ref": "micro:contact:b1-lordship-authority",
+      "surface_carrier": "رَبِّ ٱلْعَٰلَمِينَ",
+      "distinctive_facet": "F001: sahiplik, buyruk yetkisi ve yönetip düzenleme",
+      "independent_trigger": "رَبِّ construct head olarak ٱلْعَٰلَمِينَ'i yönetilen alan diye alır ve Allah'a apposition içinde bağlanır.",
+      "changed_reading": "Övülen ilişki, yalnızca bir adlandırma değil, bütün dünyalar üzerindeki sahiplik ve yönetim yetkisidir.",
+      "reader_payoff": "Okur, Rabb'in statik bir malik değil, alanı düzenleyen yetkili olduğunu anlar.",
+      "containment": "HFT b1'in HFT-stated branch rolü korunur; exact Arabic yalnız yüzey çapasıdır. İlahi mutlaklık veya başka Rabb homonimleri bu tek facet'in ötesine taşınmaz.",
+      "suggested_lane": "micro",
+      "disposition": "narrow",
+      "finding_refs": [
+        "micro:finding:hft-b1-tested-verdict"
+      ],
+      "support_ids": [
+        "sup_56f77af0994dc83f37ec",
+        "sup_7447bba702c0aab4a53a",
+        "sup_89f24da7a61de5b85c09",
+        "sup_ef2aca100adf79d48301"
+      ],
+      "branch_refs": [
+        "root_000532/B001"
+      ]
+    },
+    {
+      "contact_ref": "micro:contact:b2-stagewise-rabb",
+      "surface_carrier": "رَبِّ ٱلْعَٰلَمِينَ",
+      "distinctive_facet": "F001: eksik durumdan tamamlanmış duruma doğru geliştirme",
+      "independent_trigger": "Rabb'in nominal unvan olarak çoğul dünyaları yönetmesi, bakımın tek seferlik fiil değil zaman içinde sürdürülen bir tamamlama ilişkisi olmasını açar.",
+      "changed_reading": "Lordluk, birçok dünyanın aşama aşama yetiştirilmesi, düzeltilmesi ve tamamlanması olarak görünür.",
+      "reader_payoff": "Okur, bütün dünyaların yalnızca sahip olunan alanlar değil, bakım altında gelişen düzenler olduğunu fark eder.",
+      "containment": "HFT b2 medium ve legacy-unbound bir adaydır; bu gelişim imgesi dar tutulur. Çocuk, mülk ve iyiliği tamamlama örnekleri ayete doğrudan gloss edilmez.",
+      "suggested_lane": "micro",
+      "disposition": "narrow",
+      "finding_refs": [
+        "micro:finding:hft-b2-stagewise-cultivation"
+      ],
+      "support_ids": [
+        "sup_effca1af2edd75a71dd1",
+        "sup_7447bba702c0aab4a53a",
+        "sup_ef2aca100adf79d48301",
+        "sup_a095c414ae190238b457"
+      ],
+      "branch_refs": [
+        "root_000532/B002"
+      ]
+    },
+    {
+      "contact_ref": "micro:contact:b4-credit-claim",
+      "surface_carrier": "ٱلْحَمْدُ لِلَّهِ رَبِّ",
+      "distinctive_facet": "F001: yapılan iyiliği başa kakıp kendine değer payı çıkarma",
+      "independent_trigger": "Hamdın لِ ile Allah'a, Rabb'in de bütün dünyalara bağlanması, iyilikten türetilen övgüyü insan failin kişisel mülkü olmaktan çıkaran açık bir atıf kurar.",
+      "changed_reading": "İyilikten kredi üretme düzeni, övgünün nihai kaynağına yapılan atıfla tersine çevrilir.",
+      "reader_payoff": "Okur, ayetin yalnızca kime övgü söylediğini değil, övgü üzerinde kimin hak iddia edebileceğini de düzenlediğini görür.",
+      "containment": "HFT b4 exploratory'dir; branch'in başa kakma sahnesi ayette anlatılan bir olay değil, atıf yapısının sınırlı karşıtlık imgesidir. F002 harcama örneği etkin değildir.",
+      "suggested_lane": "micro",
+      "disposition": "narrow",
+      "finding_refs": [
+        "micro:finding:hft-b4-credit-reversal"
+      ],
+      "support_ids": [
+        "sup_bc87d01e75368c3f557b",
+        "sup_3103c8a53725e3e9cb7a",
+        "sup_e0cec65120a0c361f704",
+        "sup_7447bba702c0aab4a53a"
+      ],
+      "branch_refs": [
+        "root_000355/B005"
+      ]
+    },
+    {
+      "contact_ref": "micro:contact:b2-growth",
+      "surface_carrier": "رَبِّ ٱلْعَٰلَمِينَ",
+      "distinctive_facet": "F001: büyüyen varlığın beslenmesi ve gelişmesi",
+      "independent_trigger": "Rabb'in bakım ve yetiştirme başlığı altında çoğul dünyaları yönetmesi, besleyerek gelişme yönünü sırf soyut mülkiyetten ayırır.",
+      "changed_reading": "Dünyaların varlığı, beslenip büyütülen ve gelişmesi sürdürülen düzenler olarak tahayyül edilir.",
+      "reader_payoff": "Okur, HFT'nin growth image'ını Rabb'in care relation'ına bağlayabilir; ancak bunun doğrudan kelime karşılığı olmadığını da bilir.",
+      "containment": "root_000537/B005 non-dominant split-root mapping'dir; bu yalnızca exploratory bir gelişme imgesidir, Rabb'in tek zorunlu sözlük anlamı değildir. Çocuk/ürün/topluluk örnekleri aktarılmaz.",
+      "suggested_lane": "micro",
+      "disposition": "narrow",
+      "finding_refs": [
+        "micro:finding:hft-b2-stagewise-cultivation"
+      ],
+      "support_ids": [
+        "sup_effca1af2edd75a71dd1",
+        "sup_7447bba702c0aab4a53a",
+        "sup_ef2aca100adf79d48301"
+      ],
+      "branch_refs": [
+        "root_000537/B005"
+      ]
+    },
+    {
+      "contact_ref": "micro:contact:b4-benefaction",
+      "surface_carrier": "لِلَّهِ رَبِّ ٱلْعَٰلَمِينَ",
+      "distinctive_facet": "F004: başkasına sağlanan iyilik ve yardım",
+      "independent_trigger": "لِ hamdi Allah'a tahsis ederken Rabb unvanı bütün dünyalara yönelik bakım ve iyilik ilişkisini açıkça kurar.",
+      "changed_reading": "Övgü, insanın kendi lehine çevirebildiği bir iyilik kredisi değil, bütün dünyalara uzanan ilahî benefaction ilişkisinde temellenir.",
+      "reader_payoff": "Okur, credit-reversal okumasının neden yalnızca soyut bir ahlak dersi değil, yerel sahiplik ve bakım zincirinden çıktığını görür.",
+      "containment": "B016'da yalnız F004 etkinleştirilmiştir; gereksinim ve düğüm anlamları alternatif olarak kalır. HFT kaydı legacy-unbound'dur ve benefaction imgesi doğrudan lexical gloss değildir.",
+      "suggested_lane": "micro",
+      "disposition": "narrow",
+      "finding_refs": [
+        "micro:finding:hft-b4-credit-reversal"
+      ],
+      "support_ids": [
+        "sup_bc87d01e75368c3f557b",
+        "sup_7447bba702c0aab4a53a",
+        "sup_e0cec65120a0c361f704"
+      ],
+      "branch_refs": [
+        "root_000532/B016"
+      ]
+    },
+    {
+      "contact_ref": "micro:contact:b3-knowledge",
+      "surface_carrier": "ٱلْعَٰلَمِينَ",
+      "distinctive_facet": "F001: bilme, tanıma ve gerçeğine uygun kavrama",
+      "independent_trigger": "Dünyalar, Rabb'in yönettiği çoğul ve düzenli alanlar olarak kurulur; bu referans alanı onları opak bir toplamdan bilinebilir bir alana taşır.",
+      "changed_reading": "Alamin, yalnız toplam varlıklar değil, ilahî bakım sayesinde kavranabilir bir alan olarak görünür.",
+      "reader_payoff": "Okur, bilinebilirlik baskısının neden son kelimenin dünyalar anlamını iptal etmeden ona eşlik ettiğini görür.",
+      "containment": "Bu, HFT b3'ün exploratory legibility reading'idir; ayet bilgi verme, öğretme, öğrenme veya rekabet fiili kurmaz. Aynı kökün bilgi dalı doğrudan dünya gloss'una çevrilmez.",
+      "suggested_lane": "micro",
+      "disposition": "narrow",
+      "finding_refs": [
+        "micro:finding:hft-b3-legibility-field"
+      ],
+      "support_ids": [
+        "sup_7739a436c68fb8c18718",
+        "sup_ef2aca100adf79d48301",
+        "sup_fd58859724725cfa8895",
+        "sup_7447bba702c0aab4a53a"
+      ],
+      "branch_refs": [
+        "root_001040/B001"
+      ]
+    },
+    {
+      "contact_ref": "micro:contact:b2-signs",
+      "surface_carrier": "ٱلْعَٰلَمِينَ",
+      "distinctive_facet": "F001: ayırt edip tanınır kılan belirgin işaret",
+      "independent_trigger": "Çoğul dünyaların Rabb'e bağlı farklı düzenler olarak kurulması, her alanın ayırt edilebilir bir düzen ve işaret taşımasını açar.",
+      "changed_reading": "Gelişen dünyalar birbirinden ayrışan ve tanınabilir düzenler halinde görünür.",
+      "reader_payoff": "Okur, stagewise cultivation okumasındaki farklılaşmanın yalnızca soyut çeşitlilik değil, tanınabilir düzenler olduğunu izler.",
+      "containment": "Yalnız genel sign facet'i aktiftir; bayrak, dağ, yol, kumaş, savaşçı ve kıyamet örnekleri ayete taşınmaz. HFT b2'nin sign contribution'ı exploratory'dir.",
+      "suggested_lane": "micro",
+      "disposition": "narrow",
+      "finding_refs": [
+        "micro:finding:hft-b2-stagewise-cultivation"
+      ],
+      "support_ids": [
+        "sup_effca1af2edd75a71dd1",
+        "sup_ef2aca100adf79d48301",
+        "sup_fd58859724725cfa8895"
+      ],
+      "branch_refs": [
+        "root_001040/B002"
+      ]
+    },
+    {
+      "contact_ref": "micro:contact:b3-signs",
+      "surface_carrier": "ٱلْعَٰلَمِينَ",
+      "distinctive_facet": "F001: ayırt edici ve yol gösterici işaret",
+      "independent_trigger": "Son konumdaki çoğul dünya adı, Rabb'in bakım ilişkisi içinde farklılaşmış ve kendisinin ötesine işaret eden alanlar olarak okunabilir.",
+      "changed_reading": "Dünyalar, caring lordship'in tanınmasını sağlayan ayrıştırıcı işaret alanına dönüşür.",
+      "reader_payoff": "Okur, bilgi baskısı ile işaret baskısının aynı kelimede nasıl birleştiğini görür.",
+      "containment": "B3 HFT kaydı legacy-unbound ve medium'dur; yalnız F001'in genel işaret facet'i tutulur. Somut bayrak/dağ ve diğer özel kullanımlar lexical gloss değildir.",
+      "suggested_lane": "micro",
+      "disposition": "narrow",
+      "finding_refs": [
+        "micro:finding:hft-b3-legibility-field"
+      ],
+      "support_ids": [
+        "sup_7739a436c68fb8c18718",
+        "sup_ef2aca100adf79d48301",
+        "sup_fd58859724725cfa8895"
+      ],
+      "branch_refs": [
+        "root_001040/B002"
+      ]
+    },
+    {
+      "contact_ref": "micro:contact:world-totality",
+      "surface_carrier": "ٱلْعَٰلَمِينَ",
+      "distinctive_facet": "F001: evren ve yaratılmış varlıkların bütünü",
+      "independent_trigger": "Rabb'in construct ilişkisi, son kelimeyi ilahî lordluğun yöneldiği yaratılmış toplam alan olarak kurar.",
+      "changed_reading": "Ayetin sonu tek bir dünya veya setting değil, yaratılmış varlıkların bütününü lordluğun alanı olarak kapatır.",
+      "reader_payoff": "Okur, son kelimenin önceki unvanı genişleten gerçek bir kapsam taşıdığını görür.",
+      "containment": "Bu doğrudan worlds facet'idir; bilme, su, kuş, yarık ve diğer aynı kök dalları etkin değildir.",
+      "suggested_lane": "micro",
+      "disposition": "accept",
+      "finding_refs": [
+        "micro:finding:world-totality"
+      ],
+      "support_ids": [
+        "sup_9571c0e87cf45d51ba5b",
+        "sup_ef2aca100adf79d48301",
+        "sup_f8abe35e24ce27b535fb"
+      ],
+      "branch_refs": [
+        "root_001040/B003"
+      ]
+    },
+    {
+      "contact_ref": "micro:contact:world-kinds",
+      "surface_carrier": "ٱلْعَٰلَمِينَ",
+      "distinctive_facet": "F002: yaratılmışların cins veya sınıflarını ayrı bütünler olarak gösterme",
+      "independent_trigger": "Genitive plural biçim, Rabb'in alanını tek bir homojen kap değil, ayrı ayrı tanınabilir tür ve düzenlerden oluşan çoğulluk olarak kurar.",
+      "changed_reading": "Lordluk bir düz dünya üzerinde değil, kendi bütünlüğü olan birçok sınıf ve düzende dağıtılır.",
+      "reader_payoff": "Okur, çoğul formun yalnız sayısal çokluk değil, ayrışmış alanlar anlamı taşıdığını izler.",
+      "containment": "F002, worlds facet'inin sınıf çoğulluğudur; physical sign branch'inin somut örnekleri veya bütün remote root branches eklenmez.",
+      "suggested_lane": "micro",
+      "disposition": "accept",
+      "finding_refs": [
+        "micro:finding:world-kinds"
+      ],
+      "support_ids": [
+        "sup_9571c0e87cf45d51ba5b",
+        "sup_ef2aca100adf79d48301",
+        "sup_f8abe35e24ce27b535fb"
+      ],
+      "branch_refs": [
+        "root_001040/B003"
+      ]
+    },
+    {
+      "contact_ref": "micro:contact:world-created-sign",
+      "surface_carrier": "رَبِّ ٱلْعَٰلَمِينَ",
+      "distinctive_facet": "F003: yaratılmış bütünün kendi yaratıcısına gösterge olması",
+      "independent_trigger": "Construct binding explicitly places the created-world totality under its Lord, so the relation itself supplies a bounded creator-to-created sign direction.",
+      "changed_reading": "Dünyalar yalnızca yönetilen toplam değil, onları yaratan ve sürdüren Rabb'e işaret eden düzen olarak da görünür.",
+      "reader_payoff": "Okur, son kapsamın ilahî ismi yalnız büyütmediğini, lordluğu görünür kılan bir işaret alanı kurduğunu fark eder.",
+      "containment": "Bu, B003 F003'ün açıklayıcı facet'idir ve B002'nin tek tek fiziksel işaretleriyle aynı değildir. Bilinebilirlik ve gösterge baskısı burada sınırlı secondary pressure olarak tutulur.",
+      "suggested_lane": "micro",
+      "disposition": "accept",
+      "finding_refs": [
+        "micro:finding:world-created-signs"
+      ],
+      "support_ids": [
+        "sup_ef2aca100adf79d48301",
+        "sup_fd58859724725cfa8895",
+        "sup_7447bba702c0aab4a53a",
+        "sup_f8abe35e24ce27b535fb"
+      ],
+      "branch_refs": [
+        "root_001040/B003"
+      ]
+    }
+  ],
+  "candidate_decisions": [
+    {
+      "candidate_id": "cand_5aad190c19c7efa37ec5",
+      "decision": "accept",
+      "reason": "Belirli nominal konu ve merfu yapı, övgüyü görünür failin zamansal eylemi değil sabit bir cümle konusu olarak kuruyor.",
+      "failed_edge": null,
+      "accepted_finding_refs": [
+        "micro:finding:nominal-praise"
+      ],
+      "duplicate_of": null,
+      "excluded_branch_refs": [],
+      "branch_exclusion_reasons": []
+    },
+    {
+      "candidate_id": "cand_c8242ab9f5f37b1bd695",
+      "decision": "accept",
+      "reason": "1:1'deki invocation çerçevesinden 1:2'deki praise stance'a geçiş, ilk kelimenin konumu ve nominal kadansla yerel olarak destekleniyor.",
+      "failed_edge": null,
+      "accepted_finding_refs": [
+        "micro:finding:opening-praise"
+      ],
+      "duplicate_of": null,
+      "excluded_branch_refs": [],
+      "branch_exclusion_reasons": []
+    },
+    {
+      "candidate_id": "cand_a05db3d8ca6868ede560",
+      "decision": "accept",
+      "reason": "Hamd, Allah ve Rabb-alamin zincirindeki yerel düğüm, ayetin tekrarlanan praise-lordship formülüne girişini görünür kılıyor.",
+      "failed_edge": null,
+      "accepted_finding_refs": [
+        "micro:finding:praise-formula"
+      ],
+      "duplicate_of": null,
+      "excluded_branch_refs": [],
+      "branch_exclusion_reasons": []
+    },
+    {
+      "candidate_id": "cand_26137b7c30c9bce6da33",
+      "decision": "narrow",
+      "reason": "Recognition, gratitude ve commendation baskısı gerçek; fakat nominal bağlam her uzak türemiş dalı etkinleştirmiyor.",
+      "failed_edge": null,
+      "accepted_finding_refs": [
+        "micro:finding:praise-range"
+      ],
+      "duplicate_of": null,
+      "excluded_branch_refs": [],
+      "branch_exclusion_reasons": []
+    },
+    {
+      "candidate_id": "cand_3c6861d55225f1ffa0e2",
+      "decision": "accept",
+      "reason": "لِ ile onu izleyen divine name arasındaki birleşik okunuş, bağımlılığı hem gramerde hem recitation formunda görünür kılıyor.",
+      "failed_edge": null,
+      "accepted_finding_refs": [
+        "micro:finding:particle-bound-sound"
+      ],
+      "duplicate_of": null,
+      "excluded_branch_refs": [],
+      "branch_exclusion_reasons": []
+    },
+    {
+      "candidate_id": "cand_40a061313b814955d6d4",
+      "decision": "accept",
+      "reason": "1:1'deki invocation ile 1:2'deki attribution arasındaki farkı bizzat preposition ve onun yönettiği isim kuruyor.",
+      "failed_edge": null,
+      "accepted_finding_refs": [
+        "micro:finding:particle-attribution"
+      ],
+      "duplicate_of": null,
+      "excluded_branch_refs": [],
+      "branch_exclusion_reasons": []
+    },
+    {
+      "candidate_id": "cand_8c558a3a75a2ec39ee8d",
+      "decision": "accept",
+      "reason": "Particle'ın grammar, phonetic binding ve restriction işlevleri aynı yerel hinge içinde birleşiyor.",
+      "failed_edge": null,
+      "accepted_finding_refs": [
+        "micro:finding:particle-hinge"
+      ],
+      "duplicate_of": null,
+      "excluded_branch_refs": [],
+      "branch_exclusion_reasons": []
+    },
+    {
+      "candidate_id": "cand_1118b0e17e9027628918",
+      "decision": "accept",
+      "reason": "لِ, hamdi Allah'a yalnız yöneltmiyor; belonging ve due-ness ilişkisini genitive governance ile kuruyor.",
+      "failed_edge": null,
+      "accepted_finding_refs": [
+        "micro:finding:particle-due"
+      ],
+      "duplicate_of": null,
+      "excluded_branch_refs": [],
+      "branch_exclusion_reasons": []
+    },
+    {
+      "candidate_id": "cand_6b5eb265a55968b9ee80",
+      "decision": "accept",
+      "reason": "Allah adı, hamd, Rabb unvanı ve alamin kapsamını birbirine bağlayan yerel merkezdir.",
+      "failed_edge": null,
+      "accepted_finding_refs": [
+        "micro:finding:name-node"
+      ],
+      "duplicate_of": null,
+      "excluded_branch_refs": [],
+      "branch_exclusion_reasons": []
+    },
+    {
+      "candidate_id": "cand_f9cca2056e45ef63f25d",
+      "decision": "accept",
+      "reason": "Genitive governance, Allah'ı hamdin gramatik alıcısı ve rightful holder'ı yapıyor.",
+      "failed_edge": null,
+      "accepted_finding_refs": [
+        "micro:finding:name-recipient"
+      ],
+      "duplicate_of": null,
+      "excluded_branch_refs": [],
+      "branch_exclusion_reasons": []
+    },
+    {
+      "candidate_id": "cand_dcab49f7025f596aeda1",
+      "decision": "narrow",
+      "reason": "Proper-name ve worship/refuge baskısı gerçek; türetim tartışmaları yalnızca secondary pressure olarak tutuldu ve özel-ad facet'iyle sınırlandı.",
+      "failed_edge": null,
+      "accepted_finding_refs": [
+        "micro:finding:name-proper-pressure"
+      ],
+      "duplicate_of": null,
+      "excluded_branch_refs": [],
+      "branch_exclusion_reasons": []
+    },
+    {
+      "candidate_id": "cand_9176b5d75575c9249adb",
+      "decision": "accept",
+      "reason": "1:1'deki tekrar ve ardından gelen appositional Rabb expansion, Allah adını ayetin hinge'i yapıyor.",
+      "failed_edge": null,
+      "accepted_finding_refs": [
+        "micro:finding:name-recurrence"
+      ],
+      "duplicate_of": null,
+      "excluded_branch_refs": [],
+      "branch_exclusion_reasons": []
+    },
+    {
+      "candidate_id": "cand_d17de0dbbd2255623bd8",
+      "decision": "narrow",
+      "reason": "Variant ses geçişini yumuşatıyor fakat referent veya canonical grammar değiştirmiyor; etki fonetikle sınırlı.",
+      "failed_edge": null,
+      "accepted_finding_refs": [
+        "micro:finding:name-sound-variant"
+      ],
+      "duplicate_of": null,
+      "excluded_branch_refs": [],
+      "branch_exclusion_reasons": []
+    },
+    {
+      "candidate_id": "cand_d5169895c74c6ae88d1f",
+      "decision": "accept",
+      "reason": "Apposition ve construct binding, adı yeni bir clause başlatmadan cosmic scope'a bağlıyor.",
+      "failed_edge": null,
+      "accepted_finding_refs": [
+        "micro:finding:apposition-scope"
+      ],
+      "duplicate_of": null,
+      "excluded_branch_refs": [],
+      "branch_exclusion_reasons": []
+    },
+    {
+      "candidate_id": "cand_b5ab4b0ed337d4885bf2",
+      "decision": "accept",
+      "reason": "Rabb'in grammar, polysemy, variant ve sound baskıları ayetin praise'tan cosmic care'e genişlemesini birlikte açıklar.",
+      "failed_edge": null,
+      "accepted_finding_refs": [
+        "micro:finding:rabb-convergence"
+      ],
+      "duplicate_of": null,
+      "excluded_branch_refs": [],
+      "branch_exclusion_reasons": []
+    },
+    {
+      "candidate_id": "cand_885f8c24ca1c9b69ecde",
+      "decision": "accept",
+      "reason": "Rabb, praise'ı genişleten hinge olarak çalışıyor ve surenin sonraki divine titles'larına yerel geçiş kuruyor.",
+      "failed_edge": null,
+      "accepted_finding_refs": [
+        "micro:finding:rabb-formula"
+      ],
+      "duplicate_of": null,
+      "excluded_branch_refs": [],
+      "branch_exclusion_reasons": []
+    },
+    {
+      "candidate_id": "cand_62a4224eb1181eb5bd6d",
+      "decision": "narrow",
+      "reason": "Ownership, mastery, formation ve care aynı title içinde gerçek baskılar; unrelated homonym branches dışarıda bırakıldı.",
+      "failed_edge": null,
+      "accepted_finding_refs": [
+        "micro:finding:rabb-care"
+      ],
+      "duplicate_of": null,
+      "excluded_branch_refs": [],
+      "branch_exclusion_reasons": []
+    },
+    {
+      "candidate_id": "cand_2754a5679f9e2b2581e3",
+      "decision": "accept",
+      "reason": "Geminate nominal form, Rabb'i tek seferlik bir nurturing event değil yerleşik bir office/title olarak duyuruyor.",
+      "failed_edge": null,
+      "accepted_finding_refs": [
+        "micro:finding:rabb-title"
+      ],
+      "duplicate_of": null,
+      "excluded_branch_refs": [],
+      "branch_exclusion_reasons": []
+    },
+    {
+      "candidate_id": "cand_5ad739d452009218dbde",
+      "decision": "accept",
+      "reason": "Invocation'dan named and knowable domains'a genişleme, son kelimenin önceki söylem sınırını değiştirmesiyle destekleniyor.",
+      "failed_edge": null,
+      "accepted_finding_refs": [
+        "micro:finding:world-boundary"
+      ],
+      "duplicate_of": null,
+      "excluded_branch_refs": [],
+      "branch_exclusion_reasons": []
+    },
+    {
+      "candidate_id": "cand_ff8bafabe0f6514b9cf0",
+      "decision": "accept",
+      "reason": "Final alamin, clause'u evrensel kapsama kapatıyor ve tekrarlanan praise-lordship formula'sını tamamlıyor.",
+      "failed_edge": null,
+      "accepted_finding_refs": [
+        "micro:finding:world-formula"
+      ],
+      "duplicate_of": null,
+      "excluded_branch_refs": [],
+      "branch_exclusion_reasons": []
+    },
+    {
+      "candidate_id": "cand_39498b42864048a73c35",
+      "decision": "accept",
+      "reason": "Genitive plural, alamin'i Rabb'in yönettiği ve sahip olduğu domain olarak sözdizimsel biçimde bağlıyor.",
+      "failed_edge": null,
+      "accepted_finding_refs": [
+        "micro:finding:world-domain"
+      ],
+      "duplicate_of": null,
+      "excluded_branch_refs": [],
+      "branch_exclusion_reasons": []
+    },
+    {
+      "candidate_id": "cand_a963fd18b0de9acb270e",
+      "decision": "narrow",
+      "reason": "Knowability ve sign-bearing pressure local noun'a gerçek ek sonuç veriyor; ancak alamin bilgi kelimesi olarak yeniden gloss edilmiyor.",
+      "failed_edge": null,
+      "accepted_finding_refs": [
+        "micro:finding:world-created-signs"
+      ],
+      "duplicate_of": null,
+      "excluded_branch_refs": [],
+      "branch_exclusion_reasons": []
+    },
+    {
+      "candidate_id": "cand_eb72f0b731d79f638774",
+      "decision": "accept",
+      "reason": "Plural form, lordship alanını tek realm yerine birçok domain ve ayrı yaratılmış bütün olarak dağıtıyor.",
+      "failed_edge": null,
+      "accepted_finding_refs": [
+        "micro:finding:world-totality",
+        "micro:finding:world-kinds"
+      ],
+      "duplicate_of": null,
+      "excluded_branch_refs": [],
+      "branch_exclusion_reasons": []
+    },
+    {
+      "candidate_id": "cand_911c16db92bcd6f15bd0",
+      "decision": "narrow",
+      "reason": "Variant, final kelimenin closure ve cadence yükünü destekliyor; fonetik payoff semantik referenti değiştirmiyor.",
+      "failed_edge": null,
+      "accepted_finding_refs": [
+        "micro:finding:world-cadence"
+      ],
+      "duplicate_of": null,
+      "excluded_branch_refs": [],
+      "branch_exclusion_reasons": []
+    },
+    {
+      "candidate_id": "cand_270a8c148ab6a8846693",
+      "decision": "reject",
+      "reason": "QAC root occurrence yalnızca ٱلْحَمْدُ taşıyıcısının yüzeyini doğruluyor; bağımsız branch trigger veya translation beyond-payoff üretmiyor.",
+      "failed_edge": "no_independent_trigger_and_no_changed_reading",
+      "accepted_finding_refs": [],
+      "duplicate_of": null,
+      "excluded_branch_refs": [],
+      "branch_exclusion_reasons": []
+    },
+    {
+      "candidate_id": "cand_db5b769f998cab9eba3c",
+      "decision": "reject",
+      "reason": "QAC root occurrence yalnızca ٱللَّهِ yüzeyini doğruluyor; root eşleşmesi özel branch anlamlarını etkinleştirmiyor.",
+      "failed_edge": "no_independent_trigger_and_no_changed_reading",
+      "accepted_finding_refs": [],
+      "duplicate_of": null,
+      "excluded_branch_refs": [],
+      "branch_exclusion_reasons": []
+    },
+    {
+      "candidate_id": "cand_984d36a70e8ec9189a77",
+      "decision": "reject",
+      "reason": "QAC r-b-b occurrence, رَبِّ yüzeyini ve iki root mapping'ini doğruluyor; tek başına care, growth veya başka homonym branch'i etkinleştirmiyor.",
+      "failed_edge": "no_independent_trigger_and_no_changed_reading",
+      "accepted_finding_refs": [],
+      "duplicate_of": null,
+      "excluded_branch_refs": [],
+      "branch_exclusion_reasons": []
+    },
+    {
+      "candidate_id": "cand_72ab1b0bcdaa9c4ec3b3",
+      "decision": "reject",
+      "reason": "QAC occurrence, ٱلْعَٰلَمِينَ yüzeyini doğruluyor; world sense dışındaki knowing/sign branches için bağımsız triggeri kendisi sağlamıyor.",
+      "failed_edge": "no_independent_trigger_and_no_changed_reading",
+      "accepted_finding_refs": [],
+      "duplicate_of": null,
+      "excluded_branch_refs": [],
+      "branch_exclusion_reasons": []
+    },
+    {
+      "candidate_id": "cand_031b937f527e1c309e21",
+      "decision": "narrow",
+      "reason": "HFT b1 exact Arabic anchor ile görünür; hamdın evaluative verdict, Allah'ın recipient ve Rabb'in governing relation katkıları korunuyor, fakat HFT branch atıfları yalnız atıflı aday olarak tutuluyor.",
+      "failed_edge": null,
+      "accepted_finding_refs": [
+        "micro:finding:hft-b1-tested-verdict"
+      ],
+      "duplicate_of": null,
+      "excluded_branch_refs": [],
+      "branch_exclusion_reasons": []
+    },
+    {
+      "candidate_id": "cand_bab74cdff61fba630686",
+      "decision": "narrow",
+      "reason": "HFT b2 stagewise cultivation, growth ve differentiation temaslarını gerçek ama exploratory bir micro claim olarak koruyor; split-root growth lexical gloss yapılmıyor.",
+      "failed_edge": null,
+      "accepted_finding_refs": [
+        "micro:finding:hft-b2-stagewise-cultivation"
+      ],
+      "duplicate_of": null,
+      "excluded_branch_refs": [],
+      "branch_exclusion_reasons": []
+    },
+    {
+      "candidate_id": "cand_f6ee46b73725f792db8e",
+      "decision": "narrow",
+      "reason": "HFT b3'ün knowability, signs ve recognition çekirdeği korunuyor; divine Rabb title insan scholar dalını desteklemediği için bu branch çıkarıldı.",
+      "failed_edge": null,
+      "accepted_finding_refs": [
+        "micro:finding:hft-b3-legibility-field"
+      ],
+      "duplicate_of": null,
+      "excluded_branch_refs": [
+        "root_000532/B003"
+      ],
+      "branch_exclusion_reasons": [
+        {
+          "branch_ref": "root_000532/B003",
+          "reason": "F001-F002'nin insan bilgin, dinî uzmanlık ve öğrenci yetiştirme facet'leri için ilahî title ve cosmic construct içinde bağımsız insan/öğretim triggeri yok."
+        }
+      ]
+    },
+    {
+      "candidate_id": "cand_7cdf4d7674a816b4ecb8",
+      "decision": "narrow",
+      "reason": "HFT b4, hamdin Allah'a tahsisi ile insanî credit claim'in tersine çevrilmesini exploratory olarak koruyor; yalnız worshipped referent, credit-claim ve benefaction facet'leri kullanıldı.",
+      "failed_edge": null,
+      "accepted_finding_refs": [
+        "micro:finding:hft-b4-credit-reversal"
+      ],
+      "duplicate_of": null,
+      "excluded_branch_refs": [],
+      "branch_exclusion_reasons": []
+    }
+  ],
+  "scope_referrals": [],
+  "new_findings": [],
+  "accepted_findings": [
+    {
+      "finding_ref": "micro:finding:nominal-praise",
+      "candidate_ids": [
+        "cand_5aad190c19c7efa37ec5"
+      ],
+      "proposal_keys": [],
+      "title": "Belirli nominal konu övgüyü sabit gerçeklik yapar",
+      "claim": "ٱلْحَمْدُ, belirli ve merfu bir isim konusu olarak, görünür bir konuşanın zamanlı övme eylemi yerine övgüyü cümlenin yerleşik konusu halinde öne çıkarır.",
+      "mechanism": "Elif-lamlı isim, nominal yapı ve ardından gelen لِلَّهِ ربّ العالمين zinciri, hamdi önce konu sonra atfedilen ilişki olarak kurar.",
+      "reader_payoff": "Okur, cümlenin ben övüyorum demediğini; övgüyü zaten kurulmuş bir gerçeklik olarak Allah'a bağladığını fark eder.",
+      "containment": "Bu bulgu nominal grammar ile sınırlıdır; hamdın tüm uzak idiomatik dalları veya görünür bir konuşan eklenmez.",
+      "support_ids": [
+        "sup_e0cec65120a0c361f704",
+        "sup_e8324b9acdc710556b71"
+      ],
+      "branch_refs": [],
+      "connection_refs": [],
+      "contact_refs": [],
+      "branch_contributions": [],
+      "epistemic_status": "established"
+    },
+    {
+      "finding_ref": "micro:finding:opening-praise",
+      "candidate_ids": [
+        "cand_c8242ab9f5f37b1bd695"
+      ],
+      "proposal_keys": [],
+      "title": "Başlangıç çağrıdan övgü duruşuna döner",
+      "claim": "1:2'nin ilk tam beyanı, 1:1'deki invocation çerçevesinden praise as stance'a geçer; sebep, istek veya insan failinden önce övgüyü yerleştirir.",
+      "mechanism": "İlk kelime konumu, nominal kadans ve 1:1 ile sınır karşıtlığı hamdi geçici bir eylem değil söylem açılışı yapar.",
+      "reader_payoff": "Okur, surenin ilk açıklayıcı hareketinin bir talep değil, övgüyle kurulan bakış olduğunu görür.",
+      "containment": "Bu discourse boundary yerel ayetler arası yankıyla sınırlıdır; sonraki bütün temalar bu tek kelimeye zorunlu anlam olarak yüklenmez.",
+      "support_ids": [
+        "sup_34b82e73547363026d8d",
+        "sup_e0cec65120a0c361f704"
+      ],
+      "branch_refs": [],
+      "connection_refs": [],
+      "contact_refs": [],
+      "branch_contributions": [],
+      "epistemic_status": "established"
+    },
+    {
+      "finding_ref": "micro:finding:praise-formula",
+      "candidate_ids": [
+        "cand_a05db3d8ca6868ede560"
+      ],
+      "proposal_keys": [],
+      "title": "Övgü deity-lordship-worlds düğümüne girer",
+      "claim": "ٱلْحَمْدُ, Allah ve Rabb al-alamin ile aynı yerel kümede durarak övgüyü isim, unvan ve kozmik kapsamın tekrar eden Kur'anî formülüne bağlar.",
+      "mechanism": "İlk nominal topic, لِ ile divine name'e, ardından Rabb ve alamin'e genişleyen zincirin girişidir; aynı construction başka praise açılış ve kapanışlarında da yankılanır.",
+      "reader_payoff": "Okur, ilk kelimenin tek başına bir övgü sözü değil, hemen genişleyen tanınabilir bir formülün açılışı olduğunu fark eder.",
+      "containment": "Formulaic recurrence destekleyici yerel provenance'tır; yeni bir inter-ayah hükmü veya bütün tekrarların aynı yorumunu iddia etmez.",
+      "support_ids": [
+        "sup_e0cec65120a0c361f704",
+        "sup_eed7f2d465ee29366eac"
+      ],
+      "branch_refs": [],
+      "connection_refs": [],
+      "contact_refs": [],
+      "branch_contributions": [],
+      "epistemic_status": "established"
+    },
+    {
+      "finding_ref": "micro:finding:praise-range",
+      "candidate_ids": [
+        "cand_26137b7c30c9bce6da33"
+      ],
+      "proposal_keys": [],
+      "title": "Hamd teşekkürden kalın bir övgü alanıdır",
+      "claim": "Hamd, teşekkürün yanında worth recognition ve intrinsic commendation taşıyan daha kalın bir övgü alanı açar.",
+      "mechanism": "ح م د kökünün praise, praiseworthiness ve grateful response aralığı, yerel definite noun ile korunur; biçim uzak türemiş dalları seçmez.",
+      "reader_payoff": "Okur, hamdi yalnızca teşekkür diye çevirdiğinde kaybolan değer tanıma ve övülesilik baskısını korur.",
+      "containment": "Yerel isim biçimi yalnızca merkezi praise range'i taşır; tüm türemiş veya idiomatik root branches etkin değildir.",
+      "support_ids": [
+        "sup_3103c8a53725e3e9cb7a",
+        "sup_e0cec65120a0c361f704"
+      ],
+      "branch_refs": [],
+      "connection_refs": [],
+      "contact_refs": [],
+      "branch_contributions": [],
+      "epistemic_status": "qualified"
+    },
+    {
+      "finding_ref": "micro:finding:particle-bound-sound",
+      "candidate_ids": [
+        "cand_3c6861d55225f1ffa0e2"
+      ],
+      "proposal_keys": [],
+      "title": "Bağlı biçim bağımlılığı işitilir kılar",
+      "claim": "لِ'nin Allah adına bağlanmış okunması, övgünün bağımlılığını yalnızca çözümlenen bir grammar değil, recitation içinde işitilen bir attachment olarak da kurar.",
+      "mechanism": "Preposition ile complement'in bound formu, syntactic governance ile phonetic fusion'ı aynı küçük birimde birleştirir.",
+      "reader_payoff": "Okur, tek harflik unsurun hamdi belirli ada bağlama işini ses akışında da hisseder.",
+      "containment": "Ses etkisi grammar'ı güçlendirir; ayrı bir semantik referent veya bağımsız branch çıkarmaz.",
+      "support_ids": [
+        "sup_c0ce5df5a3e4481289ca",
+        "sup_ddbe064044bf6ade25a1"
+      ],
+      "branch_refs": [],
+      "connection_refs": [],
+      "contact_refs": [],
+      "branch_contributions": [],
+      "epistemic_status": "established"
+    },
+    {
+      "finding_ref": "micro:finding:particle-attribution",
+      "candidate_ids": [
+        "cand_40a061313b814955d6d4"
+      ],
+      "proposal_keys": [],
+      "title": "Preposition çağrıyı atfa çevirir",
+      "claim": "1:1'deki divine-name invocation, 1:2'de لِ aracılığıyla hamdin named referent'e attribution'ına dönüşür.",
+      "mechanism": "Preposition, hamdi yöneten isim olarak Allah'ı clause'un yeni öznesi yapmadan recipient ve holder konumuna getirir.",
+      "reader_payoff": "Okur, iki ayet arasındaki küçük biçim farkının söylem eylemini çağrıdan aidiyet beyanına çevirdiğini görür.",
+      "containment": "Yalnızca supplied canonical syntax ve 1:1 contrast kullanılır; alternatif case veya verbal parse canonical reading yerine geçirilmez.",
+      "support_ids": [
+        "sup_a69cd4c3305aa095ddbe",
+        "sup_ddbe064044bf6ade25a1"
+      ],
+      "branch_refs": [],
+      "connection_refs": [],
+      "contact_refs": [],
+      "branch_contributions": [],
+      "epistemic_status": "established"
+    },
+    {
+      "finding_ref": "micro:finding:particle-hinge",
+      "candidate_ids": [
+        "cand_8c558a3a75a2ec39ee8d"
+      ],
+      "proposal_keys": [],
+      "title": "Tek parçacık grammar, form ve restriction'ı toplar",
+      "claim": "لِ, övgünün kime ait olduğunu, kime yöneldiğini ve neden restricted bir aidiyet gibi duyulduğunu aynı hinge işlevinde toplar.",
+      "mechanism": "Genitive governance, bound recitation ve attribution restriction birbirini destekler; ayrı emphatic word gerektirmeden clause yönünü belirler.",
+      "reader_payoff": "Okur, ayetin büyük theological movement'ının bir kısmının küçük bir preposition üzerinde taşındığını fark eder.",
+      "containment": "Hinge synthesis distinct mechanisms'i birleştirir; preposition'a bağımsız root meaning veya yeni branch eklenmez.",
+      "support_ids": [
+        "sup_b46e95b6b62e81463667",
+        "sup_ddbe064044bf6ade25a1"
+      ],
+      "branch_refs": [],
+      "connection_refs": [],
+      "contact_refs": [],
+      "branch_contributions": [],
+      "epistemic_status": "established"
+    },
+    {
+      "finding_ref": "micro:finding:particle-due",
+      "candidate_ids": [
+        "cand_1118b0e17e9027628918"
+      ],
+      "proposal_keys": [],
+      "title": "لِ hamdi ait ve hak edilmiş kılar",
+      "claim": "لِ, hamdi Allah'a yalnızca yöneltilmiş bir söz olarak değil, O'na ait ve O'nun hakkı olan bir alan olarak bağlar.",
+      "mechanism": "Preposition'un genitive governor olması belonging, due-ness ve restriction yüklerini following divine name üzerinde toplar.",
+      "reader_payoff": "Okur, her türlü övgünün Allah'a ait oluşuyla O'na borçlu oluşu arasındaki yoğunluğu tek unsurda görür.",
+      "containment": "Bu semantic load preposition'un yerel işlevinden çıkar; bağımsız possession doctrine veya başka clause'lara taşınmaz.",
+      "support_ids": [
+        "sup_7cc078d80f7962147b3e",
+        "sup_ddbe064044bf6ade25a1"
+      ],
+      "branch_refs": [],
+      "connection_refs": [],
+      "contact_refs": [],
+      "branch_contributions": [],
+      "epistemic_status": "established"
+    },
+    {
+      "finding_ref": "micro:finding:name-node",
+      "candidate_ids": [
+        "cand_6b5eb265a55968b9ee80"
+      ],
+      "proposal_keys": [],
+      "title": "Allah adı praise ile cosmic scope'u bağlar",
+      "claim": "ٱللَّهِ, hamdin recipient'i olarak başlayıp Rabb ve alamin expansion'ını taşıyan central node'dur.",
+      "mechanism": "Divine name, لِ tarafından yönetilir; ardından appositional Rabb ve onun genitive domain'i gelir, böylece clause tek referent etrafında genişler.",
+      "reader_payoff": "Okur, ayette praise, title ve worlds'un üç ayrı parçaya bölünmediğini, Allah adıyla birbirine bağlandığını görür.",
+      "containment": "Bu node relation'ıdır; proper-name derivations, worship action veya independent cosmology eklenmez.",
+      "support_ids": [
+        "sup_7a7892fafc17b51410f6",
+        "sup_f87da56a1f57a48217e8"
+      ],
+      "branch_refs": [],
+      "connection_refs": [],
+      "contact_refs": [],
+      "branch_contributions": [],
+      "epistemic_status": "established"
+    },
+    {
+      "finding_ref": "micro:finding:name-recipient",
+      "candidate_ids": [
+        "cand_f9cca2056e45ef63f25d"
+      ],
+      "proposal_keys": [],
+      "title": "Genitive governance Allah'ı praise-recipient yapar",
+      "claim": "ٱللَّهِ, hamdin yeni subject'i değil, لِ tarafından yönetilen recipient ve rightful holder'ıdır.",
+      "mechanism": "Canonical genitive attachment, definite hamd noun ile divine name arasında recipient relation kurar; Rabb sonra appositional expansion başlatır.",
+      "reader_payoff": "Okur, cümlenin Allah'ı hamdın konuşan faili değil, hamdin ait olduğu referent olarak kurduğunu fark eder.",
+      "containment": "Alternative verbal parse yalnız contrastive kalır; canonical genitive role ve fixed proper name korunur.",
+      "support_ids": [
+        "sup_0d21719b3ed084866861",
+        "sup_f87da56a1f57a48217e8"
+      ],
+      "branch_refs": [],
+      "connection_refs": [],
+      "contact_refs": [],
+      "branch_contributions": [],
+      "epistemic_status": "established"
+    },
+    {
+      "finding_ref": "micro:finding:name-proper-pressure",
+      "candidate_ids": [
+        "cand_dcab49f7025f596aeda1"
+      ],
+      "proposal_keys": [],
+      "title": "Özel ad ibadet ve refuge baskısını taşır",
+      "claim": "Allah, generic deity gloss'u değil benzersiz proper name olarak, worship ve refuge yönelimlerinin çevresinde duran praise-recipient'tir.",
+      "mechanism": "POS:PN formu ve local genitive role benzersiz referenti sabitler; root türetimlerinin worship/turning/refuge baskısı yalnızca kontrollü secondary pressure olarak eşlik eder.",
+      "reader_payoff": "Okur, Allah'ı yalnızca tanrı diye düzleştirmenin özel adlığını ve ona yönelme baskısını kaybettirdiğini görür.",
+      "containment": "root_000047/B002 yalnız F001 ile cite edilir; oath, vocative, source-variant ve abbreviated exclamation facet'leri etkin değildir. Türetim baskısı bağımsız lexical gloss değildir.",
+      "support_ids": [
+        "sup_89dc1762d79c7726d338",
+        "sup_f87da56a1f57a48217e8",
+        "sup_55b9a5e76bc5b2663c24"
+      ],
+      "branch_refs": [
+        "root_000047/B002"
+      ],
+      "connection_refs": [],
+      "contact_refs": [
+        "micro:contact:proper-name"
+      ],
+      "branch_contributions": [
+        {
+          "branch_ref": "root_000047/B002",
+          "facet_id": "F001",
+          "distinctive_facet": "Yaratıcıyı başkalarından ayıran ve yalnız ona özgü sayılan özel ad",
+          "surface_carrier": "ٱللَّهِ",
+          "independent_anchor": "QAC POS:PN, لِ sonrası genitive biçim ve 1:1'deki aynı adın recurrence'ı",
+          "contribution": "Övgünün recipient'i, herhangi bir deity sınıfı değil, benzersiz ilahî referent olarak sabitlenir.",
+          "boundary": "Bu özel-ad facet'i türetim kaynağı, oath, vocative veya şaşma kullanımlarını etkinleştirmez."
+        }
+      ],
+      "epistemic_status": "qualified"
+    },
+    {
+      "finding_ref": "micro:finding:name-recurrence",
+      "candidate_ids": [
+        "cand_9176b5d75575c9249adb"
+      ],
+      "proposal_keys": [],
+      "title": "Tekrarlanan ad appositional expansion'a döner",
+      "claim": "1:1'de çağrılan Allah adı, 1:2'de hamdin recipient'i olarak tekrar edilir ve ardından Rabb ile cosmic scope'a açılır.",
+      "mechanism": "Aynı surface name yeni grammar içinde yeniden anchor olur; apposition, invocation'ı praise attribution'a dönüştüren pivotu taşır.",
+      "reader_payoff": "Okur, tekrarın yalnız ad tekrarı değil, aynı referentin yeni bir clause role'üne geçişi olduğunu görür.",
+      "containment": "Recurrence ve apposition yerel discourse evidence'ıdır; divine name için yeni bir semantic branch önerilmez.",
+      "support_ids": [
+        "sup_f87da56a1f57a48217e8",
+        "sup_f8f7099511c562a6ba50"
+      ],
+      "branch_refs": [],
+      "connection_refs": [],
+      "contact_refs": [],
+      "branch_contributions": [],
+      "epistemic_status": "established"
+    },
+    {
+      "finding_ref": "micro:finding:name-sound-variant",
+      "candidate_ids": [
+        "cand_d17de0dbbd2255623bd8"
+      ],
+      "proposal_keys": [],
+      "title": "Varyant ses geçişini yumuşatır",
+      "claim": "Vowel-harmony variant, praise ile divine name arasındaki recited transition'ı sıkılaştırır fakat referent ve canonical grammar'ı değiştirmez.",
+      "mechanism": "Variant phonetic movement'i etkiler; supplied evidence semantic substitution veya independent referent vermiyor.",
+      "reader_payoff": "Okur, farklı okunuşun anlamı değiştirmeden ayetin ağızda nasıl daha bağlı duyulabileceğini fark eder.",
+      "containment": "Etki yalnız ses ve geçiştedir; variant canonical parse veya divine-name identity yerine geçirilmez.",
+      "support_ids": [
+        "sup_9bcee6689d44d106edcd",
+        "sup_f87da56a1f57a48217e8"
+      ],
+      "branch_refs": [],
+      "connection_refs": [],
+      "contact_refs": [],
+      "branch_contributions": [],
+      "epistemic_status": "qualified"
+    },
+    {
+      "finding_ref": "micro:finding:apposition-scope",
+      "candidate_ids": [
+        "cand_d5169895c74c6ae88d1f"
+      ],
+      "proposal_keys": [],
+      "title": "Apposition adı cosmic scope'a bağlar",
+      "claim": "رَبِّ, Allah adının yanında appositional title olarak gelip construct yoluyla alamin'e açılır; ayet ikinci bir verbal statement başlatmaz.",
+      "mechanism": "Genitive apposition ve construct head aynı Rabb formunda birleşir, named referent'i cosmic domain ile yeniden açıklar.",
+      "reader_payoff": "Okur, genişlemenin yeni bir aktör eklemekle değil aynı ilahî referenti title ve scope ile açmakla gerçekleştiğini görür.",
+      "containment": "Variant parses contrastive kalır; yalnız supplied apposition ve construct ilişkisi kullanılır.",
+      "support_ids": [
+        "sup_4c92c26795f0e62cf877",
+        "sup_7447bba702c0aab4a53a"
+      ],
+      "branch_refs": [],
+      "connection_refs": [],
+      "contact_refs": [],
+      "branch_contributions": [],
+      "epistemic_status": "established"
+    },
+    {
+      "finding_ref": "micro:finding:rabb-convergence",
+      "candidate_ids": [
+        "cand_b5ab4b0ed337d4885bf2"
+      ],
+      "proposal_keys": [],
+      "title": "Rabb grammar, polysemy ve sound'u birleştirir",
+      "claim": "رَبِّ, grammar, ownership-care polysemy, nominal stability, variants ve sound pressure'ın kesiştiği expansion hinge'idir.",
+      "mechanism": "Genitive title hem Allah'ı açıklar hem alamin'i yönetir; root range care ve mastery'yi tutar, geminate noun role'ü sabitler.",
+      "reader_payoff": "Okur, tek bir kısa title'ın ayetin praise'tan governing care'e geçişinin çoğunu neden taşıdığını görür.",
+      "containment": "Synthesis yalnız local divine-title range'ine aittir; syrup, cloud, pact, particle ve diğer homonym branches dışarıda tutulur.",
+      "support_ids": [
+        "sup_0bcb1202e4577acb1d1a",
+        "sup_7447bba702c0aab4a53a"
+      ],
+      "branch_refs": [],
+      "connection_refs": [],
+      "contact_refs": [],
+      "branch_contributions": [],
+      "epistemic_status": "established"
+    },
+    {
+      "finding_ref": "micro:finding:rabb-formula",
+      "candidate_ids": [
+        "cand_885f8c24ca1c9b69ecde"
+      ],
+      "proposal_keys": [],
+      "title": "Rabb praise'ı sonraki titles'a genişletir",
+      "claim": "Rabb, hamdin Allah'a aidiyetini bütün dünyalar üzerindeki cosmic claim'e çeviren hinge olarak 1:3 ve 1:4'teki sonraki divine descriptions'a zemin hazırlar.",
+      "mechanism": "Rabb, Allah'a apposition içinde kalırken alamin'i yönetir; local cluster ve same-surah echoes bu title'ı genişletici ara basamak yapar.",
+      "reader_payoff": "Okur, ayetin sonundaki worlds kapsamının tek başına değil, surenin title progression'ı içinde çalıştığını görür.",
+      "containment": "Later-title anticipation discourse payoff'tur; 1:3 ve 1:4 anlamları bu bulguya geri taşınmaz.",
+      "support_ids": [
+        "sup_71d7b0e1797524f5a249",
+        "sup_7447bba702c0aab4a53a"
+      ],
+      "branch_refs": [],
+      "connection_refs": [],
+      "contact_refs": [],
+      "branch_contributions": [],
+      "epistemic_status": "established"
+    },
+    {
+      "finding_ref": "micro:finding:rabb-care",
+      "candidate_ids": [
+        "cand_62a4224eb1181eb5bd6d"
+      ],
+      "proposal_keys": [],
+      "title": "Lordluk mülkiyetin yanında formation ve care taşır",
+      "claim": "رَبِّ, statik sahiplikten daha geniş olarak sahip olma, yönetme, yetiştirme, düzeltme ve oluşturma ilişkisini aynı divine title içinde tutar.",
+      "mechanism": "Root range owner-master ile tending-formation branches'i, Allah'a apposition ve worlds construct'i tarafından yerel olarak daraltılır.",
+      "reader_payoff": "Okur, Rabb'i yalnız malik diye çevirdiğinde kaybolan developmental ve caring authority'yi korur.",
+      "containment": "Bu local polysemy'dir; unrelated homonym branches ve bütün bakım örnekleri ayete aktarılmaz.",
+      "support_ids": [
+        "sup_7447bba702c0aab4a53a",
+        "sup_a095c414ae190238b457"
+      ],
+      "branch_refs": [],
+      "connection_refs": [],
+      "contact_refs": [],
+      "branch_contributions": [],
+      "epistemic_status": "qualified"
+    },
+    {
+      "finding_ref": "micro:finding:rabb-title",
+      "candidate_ids": [
+        "cand_2754a5679f9e2b2581e3"
+      ],
+      "proposal_keys": [],
+      "title": "Geminate noun role'ü settled title yapar",
+      "claim": "رَبِّ'nin doubled nominal formu nurturing veya ruling'i tek bir narrated act değil, yerleşik bir office ve title olarak sunar.",
+      "mechanism": "Nominal POS, gemination ve construct syntax, ongoing office reading'ini verbal event reading'inin önüne çıkarır.",
+      "reader_payoff": "Okur, Rabb'in yaptığı tek bir şeyi değil, sürekli geçerli bir görevi adlandırdığını hisseder.",
+      "containment": "Form evidence semantic range'i sıkılaştırır; ayrı bir branch veya mutlak verb aspect iddiası eklemez.",
+      "support_ids": [
+        "sup_7447bba702c0aab4a53a",
+        "sup_e091c5f3504ba2ba00f6"
+      ],
+      "branch_refs": [],
+      "connection_refs": [],
+      "contact_refs": [],
+      "branch_contributions": [],
+      "epistemic_status": "established"
+    },
+    {
+      "finding_ref": "micro:finding:world-boundary",
+      "candidate_ids": [
+        "cand_5ad739d452009218dbde"
+      ],
+      "proposal_keys": [],
+      "title": "Çağrı named domains'a genişler",
+      "claim": "Ayet, invocation ve named referent'ten Rabb'in yönettiği bilinebilir, çoğul domains alanına genişleyen bir hareket kurar.",
+      "mechanism": "Son kelime, önceki Allah-Rabb zincirinin genitive scope'u olarak gelir; local boundary, named divine reference'i ordered worlds'a açar.",
+      "reader_payoff": "Okur, surenin açılışındaki hareketin tek bir ada kapanmadığını, bütün yönetilen alanlara yayıldığını görür.",
+      "containment": "Genişleme, supplied alamin word analysis ve local syntax ile sınırlıdır; knowledge branch'i generic knowledge olarak gloss edilmez.",
+      "support_ids": [
+        "sup_bc5c8fbe30f5a1fa6fc3",
+        "sup_ef2aca100adf79d48301"
+      ],
+      "branch_refs": [],
+      "connection_refs": [],
+      "contact_refs": [],
+      "branch_contributions": [],
+      "epistemic_status": "established"
+    },
+    {
+      "finding_ref": "micro:finding:world-formula",
+      "candidate_ids": [
+        "cand_ff8bafabe0f6514b9cf0"
+      ],
+      "proposal_keys": [],
+      "title": "Final totality formülü kapatır",
+      "claim": "ٱلْعَٰلَمِينَ, ayetin sonuna gelerek hamd-Allah-Rabb zincirini universal scope ile kapatır ve tekrarlanan praise-lordship formülünü tamamlar.",
+      "mechanism": "Final position, genitive dependency ve supplied recurrence birlikte önceki bütün clause'u geriye dönük olarak genişletir.",
+      "reader_payoff": "Okur, son kelimenin ek bir setting değil, bütün beyanın kapsamını belirleyen climactic closure olduğunu fark eder.",
+      "containment": "Formulaic and cadence payoff semantik totality claim'ini destekler; remote formula references yeni branch activation değildir.",
+      "support_ids": [
+        "sup_c3980d40110a689d8d7d",
+        "sup_ef2aca100adf79d48301"
+      ],
+      "branch_refs": [],
+      "connection_refs": [],
+      "contact_refs": [],
+      "branch_contributions": [],
+      "epistemic_status": "established"
+    },
+    {
+      "finding_ref": "micro:finding:world-domain",
+      "candidate_ids": [
+        "cand_39498b42864048a73c35"
+      ],
+      "proposal_keys": [],
+      "title": "Genitive plural lordluğun yönetilen alanıdır",
+      "claim": "ٱلْعَٰلَمِينَ, Rabb'in construct head'i tarafından yönetilen, sahip olunan ve nurture edilen domain'lerin gramatik dependent'idir.",
+      "mechanism": "Genitive relation son kelimeyi bağımsız setting olmaktan çıkarıp Rabb title'ının tamamlayıcısı yapar.",
+      "reader_payoff": "Okur, lordluğun dünyalara eklendiğini değil, dünyaların title'ın zorunlu yöneldiği alanı oluşturduğunu görür.",
+      "containment": "Bulgu attachment syntax'ına aittir; world noun'un bütün root branches'i veya tek bir fiziksel realm varsayımı eklenmez.",
+      "support_ids": [
+        "sup_0b3201c024dcdd5b1c17",
+        "sup_ef2aca100adf79d48301"
+      ],
+      "branch_refs": [],
+      "connection_refs": [],
+      "contact_refs": [],
+      "branch_contributions": [],
+      "epistemic_status": "established"
+    },
+    {
+      "finding_ref": "micro:finding:world-created-signs",
+      "candidate_ids": [
+        "cand_a963fd18b0de9acb270e"
+      ],
+      "proposal_keys": [],
+      "title": "Dünyalar yaratıcıya işaret eden bilinebilir düzenlerdir",
+      "claim": "Alamin, Rabb'in yönettiği yaratılmış çoğulluk olarak, bilinebilir ve kendi yaratıcısına işaret eden ordered reality baskısı taşır.",
+      "mechanism": "World-denoting noun, Rabb'in construct relation'ı ve creation-to-Lord direction ile birleşir; bilgi ve marking root pressure world gloss'unu silmeden eşlik eder.",
+      "reader_payoff": "Okur, son kapsamı inert space yerine lordluğu görünür ve tanınabilir kılan bir işaret alanı olarak okuyabilir.",
+      "containment": "B003 F003'ün created-whole-as-sign facet'i kullanılır. Alamin bilgi fiili değildir; B002'nin somut flag/path örnekleri ve uzak root branches etkin değildir.",
+      "support_ids": [
+        "sup_ef2aca100adf79d48301",
+        "sup_fd58859724725cfa8895"
+      ],
+      "branch_refs": [
+        "root_001040/B003"
+      ],
+      "connection_refs": [],
+      "contact_refs": [
+        "micro:contact:world-created-sign"
+      ],
+      "branch_contributions": [
+        {
+          "branch_ref": "root_001040/B003",
+          "facet_id": "F003",
+          "distinctive_facet": "Yaratılmış bütünün kendi yaratıcısına gösterge olması",
+          "surface_carrier": "رَبِّ ٱلْعَٰلَمِينَ",
+          "independent_anchor": "Rabb'in construct relation'ı yaratılmış world-totality'yi onun Lord'una bağlar",
+          "contribution": "Dünyalar, yalnız yönetilen nesneler değil, onları yaratan Rabb'e yönelen bir düzen ve gösterge olarak görünür.",
+          "boundary": "Bu açıklayıcı sign facet'idir; tek tek fiziksel işaretler veya genel bilgi kelimesi değildir."
+        }
+      ],
+      "epistemic_status": "qualified"
+    },
+    {
+      "finding_ref": "micro:finding:world-totality",
+      "candidate_ids": [
+        "cand_eb72f0b731d79f638774"
+      ],
+      "proposal_keys": [],
+      "title": "Son kelime yaratılmış toplamı taşır",
+      "claim": "ٱلْعَٰلَمِينَ, Rabb'in yöneldiği alanı tek bir setting değil evren ve yaratılmış varlıkların bütünü olarak kapatır.",
+      "mechanism": "World-denoting branch, genitive construct ve final position birleşerek lordluğun toplam yaratılmış alana yayıldığını kurar.",
+      "reader_payoff": "Okur, Rabb'in kapsamını son anda bütün varlıklar düzeyine genişleten lexical taşıyıcıyı görür.",
+      "containment": "Yalnız B003 F001 world-totality facet'i kullanılır; bilme, water, bird, cleft ve diğer root branches etkin değildir.",
+      "support_ids": [
+        "sup_9571c0e87cf45d51ba5b",
+        "sup_ef2aca100adf79d48301",
+        "sup_f8abe35e24ce27b535fb"
+      ],
+      "branch_refs": [
+        "root_001040/B003"
+      ],
+      "connection_refs": [],
+      "contact_refs": [
+        "micro:contact:world-totality"
+      ],
+      "branch_contributions": [
+        {
+          "branch_ref": "root_001040/B003",
+          "facet_id": "F001",
+          "distinctive_facet": "Evren ve içindeki yaratılmış varlıkların tamamı",
+          "surface_carrier": "ٱلْعَٰلَمِينَ",
+          "independent_anchor": "Rabb'in construct head'i ve final genitive dependent olarak son kelimeyi lordluğun alanı yapar",
+          "contribution": "Lordluk, tek bir realm'e değil yaratılmış varlıkların toplamına bağlanır.",
+          "boundary": "Bu doğrudan worlds reading'idir; bilinebilirlik veya somut işaret facet'leri buna zorunlu olarak eklenmez."
+        }
+      ],
+      "epistemic_status": "established"
+    },
+    {
+      "finding_ref": "micro:finding:world-kinds",
+      "candidate_ids": [
+        "cand_eb72f0b731d79f638774"
+      ],
+      "proposal_keys": [],
+      "title": "Çoğul, dünyaları ayrı bütünler olarak dağıtır",
+      "claim": "Alamin'in plural formu, lordluğu tek ve düz bir kozmik kap yerine kendi bütünlüğü olan birçok yaratılmış tür ve düzene dağıtır.",
+      "mechanism": "Genitive plural morphology ve world-denoting branch, Rabb'in alanını differentiated classes/domains olarak yapılandırır.",
+      "reader_payoff": "Okur, çoğulun yalnızca çok sayıda nesne değil, ayrı ayrı tanınabilir ordered worlds baskısı taşıdığını görür.",
+      "containment": "Yalnız B003 F002 sınıf çoğulluğu kullanılır; physical sign branch veya uzak aynı-kök nesneleri eklenmez.",
+      "support_ids": [
+        "sup_9571c0e87cf45d51ba5b",
+        "sup_ef2aca100adf79d48301",
+        "sup_f8abe35e24ce27b535fb"
+      ],
+      "branch_refs": [
+        "root_001040/B003"
+      ],
+      "connection_refs": [],
+      "contact_refs": [
+        "micro:contact:world-kinds"
+      ],
+      "branch_contributions": [
+        {
+          "branch_ref": "root_001040/B003",
+          "facet_id": "F002",
+          "distinctive_facet": "Yaratılmışların cins veya sınıflarını ayrı bütünler olarak gösterme",
+          "surface_carrier": "ٱلْعَٰلَمِينَ",
+          "independent_anchor": "Genitive plural morphology and Rabb'in construct relation",
+          "contribution": "Yönetilen alanlar tek bir homojen toplam değil, ayrı bütünler halinde çoğalır.",
+          "boundary": "Bu sınıf çoğulluğudur; her remote branch veya fiziksel işaret örneği değildir."
+        }
+      ],
+      "epistemic_status": "established"
+    },
+    {
+      "finding_ref": "micro:finding:world-cadence",
+      "candidate_ids": [
+        "cand_911c16db92bcd6f15bd0"
+      ],
+      "proposal_keys": [],
+      "title": "Ses sonu kapsamı kapatır",
+      "claim": "Final alamin'in variant ve cadence baskısı, cosmic scope'un kapanışını yalnız anlamda değil recited sound'da da duyurur.",
+      "mechanism": "Son kelimenin fonetik ending'i ve supplied variant, 1:3 ve 1:4'e uzanan surah sound pattern'iyle closure üretir.",
+      "reader_payoff": "Okur, ayetin dünyalarla kapandığını hem sözdizimsel totality'de hem işitsel sonlanmada hisseder.",
+      "containment": "Bu phonetic payoff'tur; ses benzerliği yeni referent veya semantic branch üretmez.",
+      "support_ids": [
+        "sup_9cc9e88f53b120b4a41d",
+        "sup_ef2aca100adf79d48301"
+      ],
+      "branch_refs": [],
+      "connection_refs": [],
+      "contact_refs": [],
+      "branch_contributions": [],
+      "epistemic_status": "qualified"
+    },
+    {
+      "finding_ref": "micro:finding:hft-b1-tested-verdict",
+      "candidate_ids": [
+        "cand_031b937f527e1c309e21"
+      ],
+      "proposal_keys": [],
+      "title": "Hamd, lordluğun sınanmış bir değer hükmü gibi duyulur",
+      "claim": "ٱلْحَمْدُ لِلَّهِ رَبِّ ٱلْعَٰلَمِينَ, genel praise belonging beyanının ötesinde, tapınılan Lord'un bütün worlds üzerindeki ilişkisini praiseworthy bulan sınırlı bir evaluative verdict olarak okunabilir.",
+      "mechanism": "Hamdın blame karşıtı ve tested-satisfactory facet'leri, Allah'ın worshipped referent oluşu ve Rabb'in all-worlds authority relation'ı ile aynı clause'da birleşir.",
+      "reader_payoff": "Okur, övgüyü kör bir applause değil, lordluğun bütün kapsamına ilişkin bir değerlendirme olarak okuyabilir.",
+      "containment": "HFT support_id sup_56f77af0994dc83f37ec korunur. HFT'nin exact Arabic anchor'ı yalnız surface contact kanıtıdır; HFT-stated branches ve roles atıflı adaylardır. Tested verdict doğrudan lexical gloss değildir; B001'de yalnız worshipped-entity facet'i ve B002'de yalnız evaluative facet kullanılır.",
+      "support_ids": [
+        "sup_56f77af0994dc83f37ec",
+        "sup_e0cec65120a0c361f704",
+        "sup_e8324b9acdc710556b71",
+        "sup_7447bba702c0aab4a53a",
+        "sup_ef2aca100adf79d48301"
+      ],
+      "branch_refs": [
+        "root_000047/B001",
+        "root_000355/B001",
+        "root_000355/B002",
+        "root_000532/B001"
+      ],
+      "connection_refs": [],
+      "contact_refs": [
+        "micro:contact:b1-worshipped-recipient",
+        "micro:contact:b1-praise-polarity",
+        "micro:contact:b1-tested-verdict",
+        "micro:contact:b1-lordship-authority"
+      ],
+      "branch_contributions": [
+        {
+          "branch_ref": "root_000047/B001",
+          "facet_id": "F002",
+          "distinctive_facet": "Kendisine tapınılan varlığı gösteren türemiş ad anlamı",
+          "surface_carrier": "ٱللَّهِ",
+          "independent_anchor": "لِ tarafından hamdin yöneldiği fixed divine name",
+          "contribution": "Evaluative response, genel bir kavrama değil tapınılan belirli referente yönelir.",
+          "boundary": "Tapınma eylemi veya tapınılır kılma işlemi ayette etkin değildir."
+        },
+        {
+          "branch_ref": "root_000355/B001",
+          "facet_id": "F001",
+          "distinctive_facet": "İyi sözlerle övme, yermenin karşıtı",
+          "surface_carrier": "ٱلْحَمْدُ",
+          "independent_anchor": "Definite nominal hamdın لِ ile belirli referente atanması",
+          "contribution": "Verdict olumlu değer kutbunda kurulur; praise yalnız teşekkür değildir.",
+          "boundary": "Açık bir timed praising event veya türemiş intensive form iddia edilmez."
+        },
+        {
+          "branch_ref": "root_000355/B002",
+          "facet_id": "F001",
+          "distinctive_facet": "Deneyim veya sınama sonrasında övülesi bulma",
+          "surface_carrier": "ٱلْحَمْدُ لِلَّهِ رَبِّ ٱلْعَٰلَمِينَ",
+          "independent_anchor": "Nominal declaration'ın hamdi, Rabb'in all-worlds relation'ına bağlaması",
+          "contribution": "Praise, lordship relation'ını olumlu bir sonuca bağlayan considered verdict baskısı kazanır.",
+          "boundary": "Somut test olayı verilmez; bu yalnız exploratory interpretive pressure'dır."
+        },
+        {
+          "branch_ref": "root_000532/B001",
+          "facet_id": "F001",
+          "distinctive_facet": "Sahiplik, buyruk yetkisi ve yönetip düzenleme",
+          "surface_carrier": "رَبِّ ٱلْعَٰلَمِينَ",
+          "independent_anchor": "Rabb'in genitive construct head olarak worlds'u yönetilen alan yapması",
+          "contribution": "Praiseworthiness hükmünün konusu, bütün dünyalar üzerindeki authority relation'dır.",
+          "boundary": "Bu contact Rabb'in lordship core'uyla sınırlıdır; insan kullanımı ve diğer homonym branches eklenmez."
+        }
+      ],
+      "epistemic_status": "exploratory"
+    },
+    {
+      "finding_ref": "micro:finding:hft-b2-stagewise-cultivation",
+      "candidate_ids": [
+        "cand_bab74cdff61fba630686"
+      ],
+      "proposal_keys": [],
+      "title": "Rabb birçok dünyayı aşama aşama yetiştirir",
+      "claim": "Rabb al-alamin, statik sahiplikten öte birçok developing world'ün onarılması, beslenmesi, farklılaştırılması ve tamamlanması olarak exploratory bir stagewise cultivation imgesi açar.",
+      "mechanism": "Rabb'in adım adım care facet'i, non-dominant growth mapping ve alamin'in differentiated-sign orders baskısıyla birleşir; hamd bu sürdürülen ilişkiye cevap olur.",
+      "reader_payoff": "Okur, dünyaları yalnızca sahip olunan alanlar değil, gelişen ve tanınabilir düzenler olarak tahayyül edebilir.",
+      "containment": "HFT support_id sup_effca1af2edd75a71dd1 korunur. Exact Arabic yalnız yüzey çapasıdır; split-root root_000537/B005 non-dominant ve analogy-limited'dir, doğrudan Rabb lexical gloss değildir. Somut child/product, physical sign ve diğer remote facets ayete taşınmaz.",
+      "support_ids": [
+        "sup_effca1af2edd75a71dd1",
+        "sup_e0cec65120a0c361f704",
+        "sup_7447bba702c0aab4a53a",
+        "sup_ef2aca100adf79d48301",
+        "sup_a095c414ae190238b457"
+      ],
+      "branch_refs": [
+        "root_000355/B001",
+        "root_000532/B002",
+        "root_000537/B005",
+        "root_001040/B002"
+      ],
+      "connection_refs": [],
+      "contact_refs": [
+        "micro:contact:b2-praise-response",
+        "micro:contact:b2-stagewise-rabb",
+        "micro:contact:b2-growth",
+        "micro:contact:b2-signs"
+      ],
+      "branch_contributions": [
+        {
+          "branch_ref": "root_000355/B001",
+          "facet_id": "F001",
+          "distinctive_facet": "İyi sözlerle övme, yermenin karşıtı",
+          "surface_carrier": "ٱلْحَمْدُ",
+          "independent_anchor": "Hamdın Rabb'in worlds'a yönelik care relation'ına clause içinde cevap olarak bağlanması",
+          "contribution": "Övgü, sürdürülen bakım ve gelişmeye karşı olumlu değerlendirme cevabı olur.",
+          "boundary": "Açık nimet olayı veya teşekkür alt-faceti kurulmaz."
+        },
+        {
+          "branch_ref": "root_000532/B002",
+          "facet_id": "F001",
+          "distinctive_facet": "Gözetileni eksikten tamamlanmışa doğru geliştirme",
+          "surface_carrier": "رَبِّ ٱلْعَٰلَمِينَ",
+          "independent_anchor": "Rabb noun title'ının plural worlds'u doğrudan yönetmesi",
+          "contribution": "Lordluk, zaman içinde sürdürülen repair, nurture ve completion operation'ı olarak görünür.",
+          "boundary": "Çocuk/mülk/iyilik örnekleri yalnız branch provenance'tır, ayet gloss'u değildir."
+        },
+        {
+          "branch_ref": "root_000537/B005",
+          "facet_id": "F001",
+          "distinctive_facet": "Büyüyen varlığın beslenip gelişmesi",
+          "surface_carrier": "رَبِّ",
+          "independent_anchor": "Rabb'in fostering gloss'u ve worlds'un çoğul gelişen alan olarak kurulması",
+          "contribution": "Sürdürülen lordluk, besleyerek büyütme ve gelişme imgesini kazanır.",
+          "boundary": "Non-dominant split-root mapping'dir; literal lexical replacement veya specific child/product scene değildir."
+        },
+        {
+          "branch_ref": "root_001040/B002",
+          "facet_id": "F001",
+          "distinctive_facet": "Ayırt edip tanınır kılan belirgin işaret",
+          "surface_carrier": "ٱلْعَٰلَمِينَ",
+          "independent_anchor": "Plural worlds'un Rabb relation'ı içinde differentiated orders olarak görünmesi",
+          "contribution": "Yetiştirilen çoğulluk birbirinden ayırt edilebilir ve tanınabilir düzenler halinde tamamlanır.",
+          "boundary": "Somut flag, mountain, path veya fabric sign örnekleri dahil değildir."
+        }
+      ],
+      "epistemic_status": "exploratory"
+    },
+    {
+      "finding_ref": "micro:finding:hft-b3-legibility-field",
+      "candidate_ids": [
+        "cand_f6ee46b73725f792db8e"
+      ],
+      "proposal_keys": [],
+      "title": "Dünyalar caring lordship'in legibility field'ıdır",
+      "claim": "Rabb al-alamin, lordluğun bilinebildiği ve tanınabildiği, ayırt edici işaretler taşıyan ordered worlds alanı olarak exploratory bir secondary reading açar.",
+      "mechanism": "Alamin'in knowability ve sign pressure'ı, Rabb'in care relation'ı ve hamdin recognition/verdict yönüyle birleşir.",
+      "reader_payoff": "Okur, worlds'u inert totality değil, bakımın ve lordluğun görünür hale geldiği bir field olarak okuyabilir.",
+      "containment": "HFT support_id sup_7739a436c68fb8c18718 korunur; exact Arabic yalnız yüzey temasını doğrular. root_000532/B003 insan bilgin facet'i bağımsız trigger taşımadığı için dışarıdadır. Bilgi/işaret baskısı doğrudan knowledge verb gloss'u değildir.",
+      "support_ids": [
+        "sup_7739a436c68fb8c18718",
+        "sup_e0cec65120a0c361f704",
+        "sup_ef2aca100adf79d48301",
+        "sup_fd58859724725cfa8895",
+        "sup_7447bba702c0aab4a53a"
+      ],
+      "branch_refs": [
+        "root_000355/B002",
+        "root_001040/B001",
+        "root_001040/B002"
+      ],
+      "connection_refs": [],
+      "contact_refs": [
+        "micro:contact:b3-recognition",
+        "micro:contact:b3-knowledge",
+        "micro:contact:b3-signs"
+      ],
+      "branch_contributions": [
+        {
+          "branch_ref": "root_000355/B002",
+          "facet_id": "F001",
+          "distinctive_facet": "Karşılaşma veya deneyim sonrasında övülesi bulma",
+          "surface_carrier": "ٱلْحَمْدُ",
+          "independent_anchor": "Hamdın Rabb al-alamin relation'ına, alamin'in legible field oluşuyla bağlanması",
+          "contribution": "Tanıma ve değerlendirme, bilinebilir dünyalar üzerinden lordluğa yönelir.",
+          "boundary": "Açık bir sınama olayı ve place/task facets'i yoktur."
+        },
+        {
+          "branch_ref": "root_001040/B001",
+          "facet_id": "F001",
+          "distinctive_facet": "Bilme, tanıma ve gerçeğine uygun kavrama",
+          "surface_carrier": "ٱلْعَٰلَمِينَ",
+          "independent_anchor": "Rabb'in yönettiği plural worlds'un opak değil düzenli ve bilinebilir field olarak kurulması",
+          "contribution": "Worlds, caring lordship'in kavranabildiği bir legibility alanı olur.",
+          "boundary": "Bilme fiili, teaching/learning veya competition kullanımı eklenmez."
+        },
+        {
+          "branch_ref": "root_001040/B002",
+          "facet_id": "F001",
+          "distinctive_facet": "Ayırt edici ve yol gösterici işaret",
+          "surface_carrier": "ٱلْعَٰلَمِينَ",
+          "independent_anchor": "Plural differentiated orders'un Rabb relation'ı içinde tanınabilir olması",
+          "contribution": "Dünyalar, lordluğu görünür kılan ayrıştırıcı düzenler ve işaretler alanına dönüşür.",
+          "boundary": "Somut flag, mountain, fabric, warrior veya end-time example'ları aktarılmaz."
+        }
+      ],
+      "epistemic_status": "exploratory"
+    },
+    {
+      "finding_ref": "micro:finding:hft-b4-credit-reversal",
+      "candidate_ids": [
+        "cand_7cdf4d7674a816b4ecb8"
+      ],
+      "proposal_keys": [],
+      "title": "Hamdın tahsisi insanî credit claim'i tersine çevirir",
+      "claim": "Hamdın Allah'a tahsis edilmesi, iyilik üzerinden başkasının minnettarlığını sahiplenme iddiasını, her benefaction'ın nihai Lord'a bağlandığı exploratory bir micro karşıtlıkla sınırlar.",
+      "mechanism": "Hamdın iyiliği başa kakıp pay çıkarma facet'i, Allah'ın worshipped referent oluşu ve Rabb'in benefaction relation'ı ile ters yönde okunur.",
+      "reader_payoff": "Okur, ayetin övgüyü yalnızca olumlu söz olarak değil, iyilikten mutlak kredi üretme yetkisini sınırlayan bir attribution olarak da duyabileceğini görür.",
+      "containment": "HFT support_id sup_bc87d01e75368c3f557b korunur; exact Arabic yalnız surface anchor'dır ve HFT roles attributed kalır. root_000047/B001'de yalnız F002, root_000355/B005'te yalnız F001, root_000532/B016'da yalnız F004 kullanılır. Bu sosyal ekonomi imgesi doğrudan lexical gloss değildir; need/knot facets etkin değildir.",
+      "support_ids": [
+        "sup_bc87d01e75368c3f557b",
+        "sup_55b9a5e76bc5b2663c24",
+        "sup_f87da56a1f57a48217e8",
+        "sup_3103c8a53725e3e9cb7a",
+        "sup_e0cec65120a0c361f704",
+        "sup_7447bba702c0aab4a53a"
+      ],
+      "branch_refs": [
+        "root_000047/B001",
+        "root_000355/B005",
+        "root_000532/B016"
+      ],
+      "connection_refs": [],
+      "contact_refs": [
+        "micro:contact:b4-worship-credit",
+        "micro:contact:b4-credit-claim",
+        "micro:contact:b4-benefaction"
+      ],
+      "branch_contributions": [
+        {
+          "branch_ref": "root_000047/B001",
+          "facet_id": "F002",
+          "distinctive_facet": "Kendisine tapınılan varlık",
+          "surface_carrier": "ٱللَّهِ",
+          "independent_anchor": "Hamdın لِ ile fixed divine name'e tahsis edilmesi",
+          "contribution": "Ultimate credit, intermediate human benefactor yerine worshipped divine referent'e taşınır.",
+          "boundary": "Worship action, causative worship, and historical example yoktur."
+        },
+        {
+          "branch_ref": "root_000355/B005",
+          "facet_id": "F001",
+          "distinctive_facet": "İyiliği başa kakıp kendine değer payı çıkarma",
+          "surface_carrier": "ٱلْحَمْدُ لِلَّهِ",
+          "independent_anchor": "Praise relation'ın insan benefactor'a değil Allah'a açıkça atfedilmesi",
+          "contribution": "İyilikten türeyen praise ownership iddiası, nihai attribution ile tersine çevrilir.",
+          "boundary": "Ayet belirli bir başa kakma olayı veya F002 harcama öğüdü anlatmaz."
+        },
+        {
+          "branch_ref": "root_000532/B016",
+          "facet_id": "F004",
+          "distinctive_facet": "Başkasına sağlanan iyilik ve yardım",
+          "surface_carrier": "رَبِّ ٱلْعَٰلَمِينَ",
+          "independent_anchor": "Rabb title'ının worlds'a yönelik care/benefaction relation'ı",
+          "contribution": "Praise, bütün yardım ve iyilik zemininin Lord'a ait olduğu relation içinde görünür.",
+          "boundary": "Need ve knot alternatifleri etkin değildir; benefaction sadece bounded secondary pressure'dır."
+        }
+      ],
+      "epistemic_status": "exploratory"
+    }
+  ],
+  "friction_notes": [
+    {
+      "type": "hft_provenance",
+      "note": "Dört HFT kaydının exact Arabic çapası yüzey teması sağlar; segmentation, word indices, roots, branch roles ve HFT payload'ları bağımsız packet kanıtı değil atıflı aday malzemesidir. Bu nedenle HFT bulguları exploratory ve containment içinde tutuldu.",
+      "related_refs": [
+        "sup_56f77af0994dc83f37ec",
+        "sup_effca1af2edd75a71dd1",
+        "sup_7739a436c68fb8c18718",
+        "sup_bc87d01e75368c3f557b"
+      ]
+    },
+    {
+      "type": "hft_branch_exclusion",
+      "note": "b3 adayındaki root_000532/B003, ilahî Rabb title'ı içinde insan bilgin veya öğretmen trigger'i bulunmadığı için dışlandı; b3'ün diğer üç branch'i korunarak aday silinmedi.",
+      "related_refs": [
+        "cand_f6ee46b73725f792db8e",
+        "root_000532/B003",
+        "micro:finding:hft-b3-legibility-field"
+      ]
+    },
+    {
+      "type": "split_root_boundary",
+      "note": "root_000537/B005 yalnız genel beslenip büyüme facet'iyle b2'ye bağlandı. Non-dominant split-root mapping, Rabb'in zorunlu lexical gloss'u veya B001'in genel yükselme dalları değildir.",
+      "related_refs": [
+        "root_000537/B005",
+        "micro:contact:b2-growth",
+        "micro:finding:hft-b2-stagewise-cultivation"
+      ]
+    },
+    {
+      "type": "alternative_facets",
+      "note": "root_000532/B016 üç alternatif sözlük anlamı taşıyor; yalnız F004 benefaction facet'i local praise-Rabb relation tarafından tetiklendi. Gereksinim ve düğüm anlamları görünür tutuldu fakat contact yapılmadı.",
+      "related_refs": [
+        "root_000532/B016",
+        "micro:contact:b4-benefaction",
+        "micro:finding:hft-b4-credit-reversal"
+      ]
+    },
+    {
+      "type": "surface_vs_branch",
+      "note": "QAC root occurrence adayları dört ayrı candidate decision ile reddedildi; bu, yüzey morfolojisini silmez. Aynı yüzey taşıyıcılarındaki accepted word findings ve branch contacts morfolojik temas ile secondary activation'ı ayrı tuttu.",
+      "related_refs": [
+        "cand_270a8c148ab6a8846693",
+        "cand_db5b769f998cab9eba3c",
+        "cand_984d36a70e8ec9189a77",
+        "cand_72ab1b0bcdaa9c4ec3b3"
+      ]
+    },
+    {
+      "type": "facet_separation",
+      "note": "root_001040/B003'te totality, class plurality ve created-whole-as-sign üç ayrı facet ve üç ayrı finding/contact olarak tutuldu; branch ID veya world gloss'u tek başına bu coverage yerine geçirilmedi.",
+      "related_refs": [
+        "root_001040/B003",
+        "micro:finding:world-totality",
+        "micro:finding:world-kinds",
+        "micro:finding:world-created-signs"
+      ]
+    },
+    {
+      "type": "sound_boundary",
+      "note": "Allah ve alamin variant/cadence bulguları yalnız phonetic closure ve transition olarak tutuldu; sound pattern semantik referent veya yeni lexical branch üretmek için kullanılmadı.",
+      "related_refs": [
+        "micro:finding:name-sound-variant",
+        "micro:finding:world-cadence"
+      ]
+    }
+  ]
+}

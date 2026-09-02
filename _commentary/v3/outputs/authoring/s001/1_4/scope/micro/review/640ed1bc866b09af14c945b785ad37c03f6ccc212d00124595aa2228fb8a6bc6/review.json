@@ -1,0 +1,1841 @@
+{
+  "schema_version": "commentary-v3-scope-review-v2",
+  "identity": {
+    "ayah_ref": "1:4",
+    "lane": "micro",
+    "lane_packet_sha256": "43614b362d45092bdc5cc9b0e445f54eeb623c1c0249c4642349a9cd921ee20e",
+    "authoring_request_sha256": "640ed1bc866b09af14c945b785ad37c03f6ccc212d00124595aa2228fb8a6bc6"
+  },
+  "ayah_ref": "1:4",
+  "lane": "micro",
+  "coverage_complete": true,
+  "surface_coverage": [
+    {
+      "analysis_record_ref": "1:4:1",
+      "treatment": "develop",
+      "finding_refs": [
+        "micro:f-authority-hierarchy",
+        "micro:f-construct-definiteness",
+        "micro:f-genitive-praise",
+        "micro:f-bridge-petition",
+        "micro:f-marked-possessor",
+        "micro:f-ownership-disposal",
+        "micro:f-qiraat-authority",
+        "micro:f-head-sound",
+        "micro:f-standing-ownership",
+        "micro:f-sovereign-public-authority",
+        "micro:f-sovereign-divine-authority",
+        "micro:f-debt-holder",
+        "micro:f-regime-authority",
+        "micro:f-cohesive-order",
+        "micro:f-mainstay"
+      ]
+    },
+    {
+      "analysis_record_ref": "1:4:2",
+      "treatment": "develop",
+      "finding_refs": [
+        "micro:f-authority-hierarchy",
+        "micro:f-construct-definiteness",
+        "micro:f-day-named",
+        "micro:f-day-elasticity",
+        "micro:f-middle-formula",
+        "micro:f-day-hinge",
+        "micro:f-time-noun",
+        "micro:f-case-contrast",
+        "micro:f-temporal-petition",
+        "micro:f-day-sound-binding",
+        "micro:f-sovereign-event-day",
+        "micro:f-sovereign-heavy-day",
+        "micro:f-debt-duration",
+        "micro:f-regime-duration",
+        "micro:f-order-duration"
+      ]
+    },
+    {
+      "analysis_record_ref": "1:4:3",
+      "treatment": "develop",
+      "finding_refs": [
+        "micro:f-authority-hierarchy",
+        "micro:f-construct-definiteness",
+        "micro:f-closure-content",
+        "micro:f-ordered-way",
+        "micro:f-debt-image",
+        "micro:f-final-definiteness",
+        "micro:f-final-formula",
+        "micro:f-parse-layering",
+        "micro:f-marked-ownership",
+        "micro:f-nominal-system",
+        "micro:f-polyvalent-obedience",
+        "micro:f-polyvalent-debt",
+        "micro:f-final-sound",
+        "micro:f-sovereign-judgment",
+        "micro:f-sovereign-requital",
+        "micro:f-sovereign-named-day",
+        "micro:f-debt-liability",
+        "micro:f-regime-obedience",
+        "micro:f-regime-worship",
+        "micro:f-regime-law",
+        "micro:f-customary-order"
+      ]
+    }
+  ],
+  "branch_screen": [
+    {
+      "branch_ref": "root_000504/B001",
+      "tested_facets": [
+        {"facet_id": "F001", "result": "contact"},
+        {"facet_id": "F002", "result": "contact"},
+        {"facet_id": "F003", "result": "contact"}
+      ],
+      "result": "nominated",
+      "contact_refs": ["micro:contact-obedience-regime", "micro:contact-ordered-way", "micro:contact-polyvalent"],
+      "reason": "ٱلدِّينِ gerçek yüzey taşıyıcısıdır. Önündeki ilahî sahiplik ve izafet ilişkisi genel boyun eğme ile kulluk bağını, adlandırılmış düzen ve hesap formülü ise inanç yolu ile kurallar alanını bağımsızca tetikler."
+    },
+    {
+      "branch_ref": "root_000504/B002",
+      "tested_facets": [
+        {"facet_id": "F001", "result": "contact"},
+        {"facet_id": "F002", "result": "contact"},
+        {"facet_id": "F003", "result": "contact"}
+      ],
+      "result": "nominated",
+      "contact_refs": ["micro:contact-sovereign-event"],
+      "reason": "Son kelime gerçek taşıyıcıdır; يَوْمِ ile kurulan yinelenen hesap günü formülü hüküm, karşılık ve bu sürecin gerçekleştiği özel gün anlamlarını ayrı ayrı devreye sokar."
+    },
+    {
+      "branch_ref": "root_000504/B003",
+      "tested_facets": [
+        {"facet_id": "F001", "result": "contact"},
+        {"facet_id": "F002", "result": "no_independent_trigger"},
+        {"facet_id": "F003", "result": "no_independent_trigger"},
+        {"facet_id": "F004", "result": "no_independent_trigger"}
+      ],
+      "result": "nominated",
+      "contact_refs": ["micro:contact-debt-maturity", "micro:contact-debt-image", "micro:contact-polyvalent"],
+      "reason": "Dīn taşıyıcısı ile Mālik'in elinde tutma/tasarruf çerçevesi, soyut hükmü vadesi gelen bir yükümlülüğün kapatılması gibi hissettiren F001 temasını kurar. Ancak ödünç verme, ödünç alma veya vadeli satış için bağımsız bir olay ya da taraf yoktur."
+    },
+    {
+      "branch_ref": "root_000504/B004",
+      "tested_facets": [
+        {"facet_id": "F001", "result": "no_independent_trigger"},
+        {"facet_id": "F002", "result": "no_independent_trigger"},
+        {"facet_id": "F003", "result": "no_independent_trigger"},
+        {"facet_id": "F004", "result": "no_independent_trigger"}
+      ],
+      "result": "no_independent_trigger",
+      "contact_refs": [],
+      "reason": "Taşıyıcı aynı kökten gelse de zor kullanma, alçaltma, köleleştirme veya deyimsel kalp etkisi için yerel bir güç ya da kişi sahnesi yoktur."
+    },
+    {
+      "branch_ref": "root_000504/B005",
+      "tested_facets": [
+        {"facet_id": "F001", "result": "contact"},
+        {"facet_id": "F002", "result": "no_independent_trigger"}
+      ],
+      "result": "nominated",
+      "contact_refs": ["micro:contact-mainstay-order"],
+      "reason": "Kesinlik kazanmış soyut ad ve açık temporal alan, dīn'in tekrarla sürdürülen bir düzen olması için F001 temasını sağlar. Belirli bir kişi veya topluluğun öteden beri bilinen tutumunu gösteren F002 bağlamı yoktur."
+    },
+    {
+      "branch_ref": "root_000504/B006",
+      "tested_facets": [
+        {"facet_id": "F001", "result": "no_independent_trigger"},
+        {"facet_id": "F002", "result": "no_independent_trigger"}
+      ],
+      "result": "no_independent_trigger",
+      "contact_refs": [],
+      "reason": "Dīn'in gerçek bir şehir adı olarak kullanılmasını gösterecek yerleşim taşıyıcısı yoktur; yöneticilerin buyruğuna uyulan kent açıklaması da bu ayette bağımsız bir etimolojik tetikleyici değildir."
+    },
+    {
+      "branch_ref": "root_000504/B007",
+      "tested_facets": [
+        {"facet_id": "F001", "result": "no_independent_trigger"},
+        {"facet_id": "F002", "result": "no_independent_trigger"},
+        {"facet_id": "F003", "result": "no_independent_trigger"}
+      ],
+      "result": "no_independent_trigger",
+      "contact_refs": [],
+      "reason": "Kişiyi vicdanıyla baş başa bırakma, yargıda sözünü doğru kabul etme veya yeminin niyetine göre değerlendirme için özel kişi, yargı ya da yemin yapısı bulunmaz."
+    },
+    {
+      "branch_ref": "root_001444/B001",
+      "tested_facets": [
+        {"facet_id": "F001", "result": "contact"},
+        {"facet_id": "F002", "result": "no_independent_trigger"},
+        {"facet_id": "F003", "result": "no_independent_trigger"},
+        {"facet_id": "F004", "result": "no_independent_trigger"}
+      ],
+      "result": "nominated",
+      "contact_refs": ["micro:contact-mainstay-order"],
+      "reason": "مَٰلِكِ ile izafet zinciri ve ٱلدِّينِ'in düzen olarak kurulması, dağılmadan bir arada tutulan bir düzen imgesini F001 düzeyinde mümkün kılar. Hamur, bitki, düşme veya denetimsiz konuşma gibi özel F002-F004 sahneleri tetiklenmez."
+    },
+    {
+      "branch_ref": "root_001444/B002",
+      "tested_facets": [
+        {"facet_id": "F001", "result": "contact"},
+        {"facet_id": "F002", "result": "no_independent_trigger"},
+        {"facet_id": "F003", "result": "no_independent_trigger"},
+        {"facet_id": "F004", "result": "no_independent_trigger"}
+      ],
+      "result": "nominated",
+      "contact_refs": ["micro:contact-debt-maturity", "micro:contact-ownership-disposal"],
+      "reason": "Aktif sahiplik biçimi olan مَٰلِكِ, doğrudan ardından gelen günü elinde tutulan ve üzerinde tasarruf edilen alan yapar. Devir, köleleştirme veya sahibin iyi davranışını anlatan özel kalıplar yoktur."
+    },
+    {
+      "branch_ref": "root_001444/B003",
+      "tested_facets": [
+        {"facet_id": "F001", "result": "contact"},
+        {"facet_id": "F002", "result": "no_independent_trigger"},
+        {"facet_id": "F003", "result": "contact"},
+        {"facet_id": "F004", "result": "no_independent_trigger"}
+      ],
+      "result": "nominated",
+      "contact_refs": ["micro:contact-sovereign-event", "micro:contact-obedience-regime"],
+      "reason": "Mālik'in ilahî niteleme zincirinde hesap günü üzerinde emir ve egemenlik taşıması F001'i, ilahî bağlam ve bütün varlık üzerindeki güncel yetki çerçevesi F003'ü açar. İnsanî ülke yönetimi ve birini tahta çıkarma sahnesi yoktur."
+    },
+    {
+      "branch_ref": "root_001444/B004",
+      "tested_facets": [
+        {"facet_id": "F001", "result": "no_independent_trigger"},
+        {"facet_id": "F002", "result": "no_independent_trigger"},
+        {"facet_id": "F003", "result": "no_independent_trigger"}
+      ],
+      "result": "no_independent_trigger",
+      "contact_refs": [],
+      "reason": "Māliki taşıyıcısı gerçek olsa da evlilik akdi, evlendirme, tören veya tanıklık için bağımsız bir evlilik bağlamı yoktur."
+    },
+    {
+      "branch_ref": "root_001444/B005",
+      "tested_facets": [
+        {"facet_id": "F001", "result": "contact"},
+        {"facet_id": "F002", "result": "no_independent_trigger"},
+        {"facet_id": "F003", "result": "no_independent_trigger"}
+      ],
+      "result": "nominated",
+      "contact_refs": ["micro:contact-mainstay-order"],
+      "reason": "Sahiplik başlığının ardından gelen zaman ve düzen terimleri, Mālik'i bir iş veya düzeni ayakta tutan temel unsur gibi okumaya F001 düzeyinde bağımsız bir sistem tetikleyicisi verir. Belirleyici koşul veya kalp örneği yoktur."
+    },
+    {
+      "branch_ref": "root_001444/B006",
+      "tested_facets": [
+        {"facet_id": "F001", "result": "no_independent_trigger"},
+        {"facet_id": "F002", "result": "no_independent_trigger"},
+        {"facet_id": "F003", "result": "no_independent_trigger"},
+        {"facet_id": "F004", "result": "no_independent_trigger"}
+      ],
+      "result": "no_independent_trigger",
+      "contact_refs": [],
+      "reason": "Yol, vadi veya yerleşimin orta/ana kesimini belirleyen bir mekân taşıyıcısı bulunmaz; izafet zinciri bu özel coğrafi anlamları tetiklemez."
+    },
+    {
+      "branch_ref": "root_001444/B007",
+      "tested_facets": [
+        {"facet_id": "F001", "result": "no_independent_trigger"},
+        {"facet_id": "F002", "result": "no_independent_trigger"},
+        {"facet_id": "F003", "result": "no_independent_trigger"}
+      ],
+      "result": "no_independent_trigger",
+      "contact_refs": [],
+      "reason": "Māliki ile su kaynağı, konaklama, geçim veya su yokluğundan doğan çaresizlik arasında hiçbir yerel taşıyıcı ya da sahne kurulmaz."
+    },
+    {
+      "branch_ref": "root_001444/B008",
+      "tested_facets": [
+        {"facet_id": "F001", "result": "no_independent_trigger"},
+        {"facet_id": "F002", "result": "no_independent_trigger"},
+        {"facet_id": "F003", "result": "no_independent_trigger"},
+        {"facet_id": "F004", "result": "no_independent_trigger"}
+      ],
+      "result": "no_independent_trigger",
+      "contact_refs": [],
+      "reason": "Hayvan topluluğu, arı, sürü, binek veya ön ayaklar için herhangi bir canlılar arası hareket sahnesi yoktur."
+    },
+    {
+      "branch_ref": "root_001444/B009",
+      "tested_facets": [
+        {"facet_id": "F001", "result": "no_independent_trigger"},
+        {"facet_id": "F002", "result": "no_independent_trigger"},
+        {"facet_id": "F003", "result": "no_independent_trigger"}
+      ],
+      "result": "no_independent_trigger",
+      "contact_refs": [],
+      "reason": "İlahî haberci varlığın adı ve bu adın elçilikten türetildiğine ilişkin kaynak açıklaması, bu yüzeyde sahiplik ve gün zincirini bağımsızca etkilemez."
+    },
+    {
+      "branch_ref": "root_001700/B001",
+      "tested_facets": [
+        {"facet_id": "F001", "result": "no_independent_trigger"}
+      ],
+      "result": "no_independent_trigger",
+      "contact_refs": [],
+      "reason": "يَوْمِ gerçek zaman taşıyıcısıdır, fakat güneşin doğuşu ve batışıyla sınırlı gündüzü seçtirecek bağımsız bir ışık veya günlük zaman işareti yoktur; hesap zinciri bu anlamı daraltır."
+    },
+    {
+      "branch_ref": "root_001700/B002",
+      "tested_facets": [
+        {"facet_id": "F001", "result": "contact"},
+        {"facet_id": "F002", "result": "no_independent_trigger"}
+      ],
+      "result": "nominated",
+      "contact_refs": ["micro:contact-debt-maturity", "micro:contact-obedience-regime", "micro:contact-mainstay-order"],
+      "reason": "Genitifteki يَوْمِ, Mālik'in alanı ve dīn'in hesap ya da düzen içeriği arasında uzatılmamış bir zaman aralığı kurar; bu F001 temasını doğrular. Uzun çağ veya bir varlığın yaşam dönemleri için ek bağlam yoktur."
+    },
+    {
+      "branch_ref": "root_001700/B003",
+      "tested_facets": [
+        {"facet_id": "F001", "result": "contact"},
+        {"facet_id": "F002", "result": "contact"},
+        {"facet_id": "F003", "result": "no_independent_trigger"}
+      ],
+      "result": "nominated",
+      "contact_refs": ["micro:contact-sovereign-event", "micro:contact-event-day"],
+      "reason": "Yinelenen يوم الدين formülü, sıradan takvim gününü hükmün gerçekleştiği kritik olaya çevirir; hesap ve egemenlik çerçevesi bu günü ağır ve sonuçları belirleyici kılar. Çoğul tarihî olaylar için çoğul biçim veya geçmiş olay dizisi yoktur."
+    },
+    {
+      "branch_ref": "root_001700/B004",
+      "tested_facets": [
+        {"facet_id": "F001", "result": "no_independent_trigger"},
+        {"facet_id": "F002", "result": "no_independent_trigger"},
+        {"facet_id": "F003", "result": "no_independent_trigger"}
+      ],
+      "result": "no_independent_trigger",
+      "contact_refs": [],
+      "reason": "Günün Tanrı'nın nimeti, bağışlaması veya belirli bir cezalandırmasıyla anıldığı bir hatırlama kalıbı yoktur; ilahî bağlam tek başına bu dalı seçmez."
+    },
+    {
+      "branch_ref": "root_001700/B005",
+      "tested_facets": [
+        {"facet_id": "F001", "result": "no_independent_trigger"},
+        {"facet_id": "F002", "result": "no_independent_trigger"}
+      ],
+      "result": "no_independent_trigger",
+      "contact_refs": [],
+      "reason": "Bağlamın işaret ettiği başka bir güne gönderme yapan birleşik gösterge yoktur; genitif izafet, deiktik birleşik yapı anlamı değildir."
+    }
+  ],
+  "contact_opportunities": [
+    {
+      "contact_ref": "micro:contact-sovereign-event",
+      "surface_carrier": "مَٰلِكِ يَوْمِ ٱلدِّينِ",
+      "distinctive_facet": "root_001444/B003:F001 ve F003 kamusal/ilahî egemenlik; root_001700/B003:F001 ve F002 kritik ve ağır olay-günü; root_000504/B002:F001, F002 ve F003 hüküm, karşılık ve özel hesap günü",
+      "independent_trigger": "Aktif sahiplik biçimi Mālik'in ardından gelen iki izafet bağı, yinelenen yawm al-dīn formülü ve önceki ilahî niteleme zinciri birlikte çalışır; kıraat otorite aralığı da mülkiyet ile hükümranlığı karşılaştırmalı olarak görünür kılar.",
+      "changed_reading": "İfade yalnızca gelecekteki bir tarihin kime ait olduğunu bildirmekten çıkar; egemenliğin hesap ve karşılığın gerçekleştiği kritik bir olayda icra edilmesini sahneler.",
+      "reader_payoff": "Okur, günü dışarıdan sahip olunan bir takvim noktası olarak değil, ilahî yetkinin hüküm ve karşılık olarak işlerlik kazandığı kamusal ve ağır bir olay olarak görür.",
+      "containment": "Odak ayetiyle sınırlı, exploratory ve legacy_unbound HFT kaydıdır. Sağlanan Arapça yalnızca yüzey temasını doğrular; dal, bölümleme ve rol eşleştirmeleri atfedilmiş adaylardır. Bu bir sözlük karşılığı değildir. Kanonik aktif sahiplik ve hesap okuması önceliklidir; insanî yönetim, borç ve itaat okumaları canlı fakat ayrı sınırlar içinde kalır. Başka ayet ve kıraat paralellikleri yalnızca analoji olarak kullanılır.",
+      "suggested_lane": "micro",
+      "disposition": "narrow",
+      "finding_refs": [
+        "micro:f-sovereign-public-authority",
+        "micro:f-sovereign-divine-authority",
+        "micro:f-sovereign-event-day",
+        "micro:f-sovereign-heavy-day",
+        "micro:f-sovereign-judgment",
+        "micro:f-sovereign-requital",
+        "micro:f-sovereign-named-day"
+      ],
+      "support_ids": ["sup_5e5a60a15581f02f2ebd", "sup_613fd4393bdcab97ac78", "sup_51cf6e466b7c15530bf3", "sup_5cc9eecb7b90639f6d3d", "sup_14c1b20570559be207bc", "sup_a72e773b70cd46efe06b"],
+      "branch_refs": ["root_000504/B002", "root_001444/B003", "root_001700/B003"]
+    },
+    {
+      "contact_ref": "micro:contact-debt-maturity",
+      "surface_carrier": "مَٰلِكِ يَوْمِ ٱلدِّينِ",
+      "distinctive_facet": "root_001444/B002:F001 tasarruf edilen hak; root_001700/B002:F001 açık süre; root_000504/B003:F001 mali yükümlülük",
+      "independent_trigger": "Mālik'in elinde tutma ve tasarruf etme biçimi, genitif yawm'in aralık kurması ve dīn'in hesap/borç kök baskısı aynı izafet zincirinde birleşir.",
+      "changed_reading": "İfade, soyut hükmü yalnızca dinî bir etiket değil, sahibi ve vadesi bulunan bir yükümlülüğün sonuçlanması gibi de kurar.",
+      "reader_payoff": "Okur, hesap fikrini borç hesabının kapanışına benzeyen bir olgunlaşma ve teslim süreci olarak hisseder; yine de bunun somut bir kredi işlemi olmadığını bilir.",
+      "containment": "Odak ayetiyle sınırlı, exploratory ve legacy_unbound HFT kaydıdır. Sağlanan Arapça yalnızca yüzey temasını doğrular; dal, bölümleme ve rol eşleştirmeleri atfedilmiş adaylardır. Bu bir sözlük karşılığı değildir. Metin ödünç verme, alma veya satış işlemi söylemez; mali görüntü soyut hesap içinde sınırlı bir baskıdır ve alternatif yargı okuması korunur.",
+      "suggested_lane": "micro",
+      "disposition": "narrow",
+      "finding_refs": ["micro:f-debt-holder", "micro:f-debt-duration", "micro:f-debt-liability"],
+      "support_ids": ["sup_9076b32659455b9ab4a1", "sup_613fd4393bdcab97ac78", "sup_51cf6e466b7c15530bf3", "sup_5cc9eecb7b90639f6d3d", "sup_819f8345fb1c0289c479", "sup_4589d16da66ea5b6fe31"],
+      "branch_refs": ["root_000504/B003", "root_001444/B002", "root_001700/B002"]
+    },
+    {
+      "contact_ref": "micro:contact-obedience-regime",
+      "surface_carrier": "مَٰلِكِ يَوْمِ ٱلدِّينِ",
+      "distinctive_facet": "root_000504/B001:F001-F003 itaat, kulluk ve inanç/kurallar yolu; root_001444/B003:F001 hükmeden otorite; root_001700/B002:F001 sürdürülen süre",
+      "independent_trigger": "İlahî niteleme zinciri ve Mālik'in emir alanı, kesin soyut ad dīn'in itaat/kulluk/düzen yönlerini; yawm'in genitif zaman alanı ise bunların sürdüğü süreyi bağımsızca açar.",
+      "changed_reading": "İfade yalnızca ölüm sonrası bir mahkeme anına değil, otoritenin belirlediği ve ibadet, bağlılık ve izlenen kurallarla sürdürülen bir düzene de işaret edebilir.",
+      "reader_payoff": "Okur, hesap gününü bekleyen bir sonuç kadar, o sonuca göre biçimlenen bağlılık düzeninin hükümranlıkla ilişkisini de fark eder.",
+      "containment": "Odak ayetiyle sınırlı, exploratory ve legacy_unbound HFT kaydıdır. Sağlanan Arapça yalnızca yüzey temasını doğrular; dal, bölümleme ve rol eşleştirmeleri atfedilmiş adaylardır. Bu bir sözlük karşılığı değildir. Yerel hesap anlamı birincil kalır; rejim, kulluk ve kural okuması olası fakat ikincil bir uzanımdır. Paralellikler analoji sınırını aşmaz.",
+      "suggested_lane": "micro",
+      "disposition": "narrow",
+      "finding_refs": ["micro:f-regime-authority", "micro:f-regime-obedience", "micro:f-regime-worship", "micro:f-regime-law", "micro:f-regime-duration"],
+      "support_ids": ["sup_ec98c3825f872a39c0a9", "sup_613fd4393bdcab97ac78", "sup_51cf6e466b7c15530bf3", "sup_5cc9eecb7b90639f6d3d", "sup_01013f3d0430275cbec1", "sup_02c8df68324c0e51b0eb", "sup_459b2375c87d374c5011"],
+      "branch_refs": ["root_000504/B001", "root_001444/B003", "root_001700/B002"]
+    },
+    {
+      "contact_ref": "micro:contact-mainstay-order",
+      "surface_carrier": "مَٰلِكِ يَوْمِ ٱلدِّينِ",
+      "distinctive_facet": "root_001444/B001:F001 parçaları bir arada tutan iç tutarlılık; root_001444/B005:F001 dayanak; root_000504/B005:F001 tekrarla yerleşen düzen; root_001700/B002:F001 süre",
+      "independent_trigger": "Üç terimli izafet zincirinin birbirine bağlı kurulması, kesin soyut dīn'in düzen olarak adlandırılması ve yawm'in bu düzeni taşıyan süre olması, salt dışsal sahipliğin ötesinde tutulan bir sistem görüntüsü verir.",
+      "changed_reading": "Mālik yalnızca olayın dışındaki sahip değil, zaman içinde devam eden alışılmış ve kurumsal düzeni bir arada tutan dayanak olarak da tasarlanabilir.",
+      "reader_payoff": "Okur, otoriteyi tek bir hüküm verme eylemi değil, bir düzeni süreklilik içinde taşıyan ve dağılmasını önleyen merkez olarak hayal eder.",
+      "containment": "Odak ayetiyle sınırlı, exploratory ve legacy_unbound HFT kaydıdır. Sağlanan Arapça yalnızca yüzey temasını doğrular; dal, bölümleme ve rol eşleştirmeleri atfedilmiş adaylardır. Bu bir sözlük karşılığı değildir. Hamur, bitki, kalp, şehir ve somut kurum sahneleri bu ayete aktarılmaz; şehir dalı özellikle dışarıda bırakılmıştır. Ana hesap okuması korunur ve paralellikler analojiyle sınırlıdır.",
+      "suggested_lane": "micro",
+      "disposition": "narrow",
+      "finding_refs": ["micro:f-cohesive-order", "micro:f-mainstay", "micro:f-customary-order", "micro:f-order-duration"],
+      "support_ids": ["sup_247e039079f06dc5170b", "sup_613fd4393bdcab97ac78", "sup_51cf6e466b7c15530bf3", "sup_5cc9eecb7b90639f6d3d", "sup_17b1771aa0e4a29e83b1"],
+      "branch_refs": ["root_000504/B005", "root_001444/B001", "root_001444/B005", "root_001700/B002"]
+    },
+    {
+      "contact_ref": "micro:contact-ownership-disposal",
+      "surface_carrier": "مَٰلِكِ",
+      "distinctive_facet": "root_001444/B002:F001 sahiplikten doğan elinde bulundurma ve tasarruf yetkisi",
+      "independent_trigger": "Aktif sahiplik biçiminin doğrudan yawm'i genitif nesne olarak yönetmesi, mülkiyeti soyut bir unvan olmaktan çıkarıp belirli gün üzerinde tasarruf ilişkisine çevirir.",
+      "changed_reading": "Mālik, yalnızca sahibi olan değil, gün üzerinde hüküm ve tasarruf yetkisi bulunan fail olarak anlaşılır.",
+      "reader_payoff": "Okur, sahiplik kelimesindeki komuta ve elden çıkarma gücünü, hesap gününün içeriği üzerinde gerçek yetki olarak hisseder.",
+      "containment": "Mülkiyet/tasarruf çekirdeğiyle sınırlıdır; devir, köleleştirme, evlilik, yol ortası ve haberci adlandırması bu temasa dahil değildir.",
+      "suggested_lane": "micro",
+      "disposition": "narrow",
+      "finding_refs": ["micro:f-ownership-disposal"],
+      "support_ids": ["sup_613fd4393bdcab97ac78", "sup_819f8345fb1c0289c479"],
+      "branch_refs": ["root_001444/B002"]
+    },
+    {
+      "contact_ref": "micro:contact-ordered-way",
+      "surface_carrier": "ٱلدِّينِ",
+      "distinctive_facet": "root_000504/B001:F003 inanç yolu ve kurallar bütününe bağlanma",
+      "independent_trigger": "Kesin soyut isim olan dīn, yawm'in belirli hesap alanını tanımlayan son genitif olarak bir düzen adını taşır; ilahî sahiplik çerçevesi bu düzenin bağlanılan bir yol olmasını tetikler.",
+      "changed_reading": "Hesap ve karşılık anlamı korunurken dīn, bunları mümkün kılan bağlılık ve izlenen düzen ufkunu da duyurur.",
+      "reader_payoff": "Okur, hukukî hükmü kopuk bir mahkeme sonucu değil, insanın bağlandığı daha geniş bir ahlâkî-kosmolojik düzenin kapanışı olarak görür.",
+      "containment": "Düzen/yol baskısı hesap anlamını genişletir ama onun yerine geçmez; özel bir kurumsal din tanımı veya bütün teolojik alan çıkarılmaz.",
+      "suggested_lane": "micro",
+      "disposition": "narrow",
+      "finding_refs": ["micro:f-ordered-way"],
+      "support_ids": ["sup_01013f3d0430275cbec1", "sup_5cc9eecb7b90639f6d3d"],
+      "branch_refs": ["root_000504/B001"]
+    },
+    {
+      "contact_ref": "micro:contact-debt-image",
+      "surface_carrier": "ٱلدِّينِ",
+      "distinctive_facet": "root_000504/B003:F001 mali yükümlülük doğuran borç ilişkisi",
+      "independent_trigger": "Mālik'in hak ve tasarruf sahibi olarak öne çıkması, yawm'in hesap alanı kurması ve dīn'in kapanış/hesap formülü, soyut hükme ödenenin ve geri verilmesi gerekenin kapatılması görüntüsü verir.",
+      "changed_reading": "Yargı, yalnızca karar verilmesi değil, borçlu olunan karşılığın hesaplanıp teslim edilmesi gibi hissedilir.",
+      "reader_payoff": "Okur, hesap fikrinin soyutluğunu korurken onu borç hesabının kapanışındaki sorumluluk ve denklik duygusuyla kavrar.",
+      "containment": "Bu yalnızca mali bir yankıdır; açık ödünç veren, alan, taraf veya satış bulunmadığı için somut kredi anlamı kurulmaz.",
+      "suggested_lane": "micro",
+      "disposition": "narrow",
+      "finding_refs": ["micro:f-debt-image"],
+      "support_ids": ["sup_4589d16da66ea5b6fe31", "sup_5cc9eecb7b90639f6d3d"],
+      "branch_refs": ["root_000504/B003"]
+    },
+    {
+      "contact_ref": "micro:contact-polyvalent",
+      "surface_carrier": "ٱلدِّينِ",
+      "distinctive_facet": "root_000504/B001:F001 boyun eğme ve B003:F001 mali yükümlülük; merkezde formülün seçtiği hüküm ve karşılık",
+      "independent_trigger": "Son kesin isim, yawm ile kurduğu hesap formülünde merkezî anlamı seçerken, Mālik'in yetkisi ve adın soyut sistem oluşu itaat ile borç baskılarını aynı bağlayıcı ilişki alanında tutar.",
+      "changed_reading": "Dīn tek bir düz sözlük karşılığına indirgenmez: hüküm/karşılık seçilmiş anlam olarak kalır, fakat itaat ve borçta görülen bağlanma ve yükümlülük basıncı silinmez.",
+      "reader_payoff": "Okur, hesap sisteminin hem karşılık veren hem de insanı bir yükümlülük altında tutan bir düzen olduğunu fark eder.",
+      "containment": "Birden fazla kök baskısı aynı anda duyulur; bunlar birbirinin somut sözlük anlamı değildir ve köleleştirme, şehir veya ayrı bir mali işlem sonucu çıkarmaz.",
+      "suggested_lane": "micro",
+      "disposition": "narrow",
+      "finding_refs": ["micro:f-polyvalent-obedience", "micro:f-polyvalent-debt"],
+      "support_ids": ["sup_02c8df68324c0e51b0eb", "sup_5cc9eecb7b90639f6d3d"],
+      "branch_refs": ["root_000504/B001", "root_000504/B003"]
+    },
+    {
+      "contact_ref": "micro:contact-event-day",
+      "surface_carrier": "يَوْمِ",
+      "distinctive_facet": "root_001700/B003:F001 büyük olayın kritik günü veya olayın kendisi",
+      "independent_trigger": "يَوْمِ'in genitif izafet içindeki konumu ve ardından gelen yinelenen hesap günü formülü, sıradan zaman adını hükmün gerçekleştiği olay ufkuna taşır.",
+      "changed_reading": "Gün, boş bir tarih veya yalnızca gündüz aralığı değil, hesapla tanımlanan belirleyici bir olayın sahnesidir.",
+      "reader_payoff": "Okur, zaman kelimesinin olayın ağırlığını taşıyabildiğini ve hesabın gerçekleştiği anı görünür kıldığını hisseder.",
+      "containment": "Kritik olay-günü anlamıyla sınırlıdır; ağır gün, ilahî nimet günleri ve tarihî çoğul olaylar için ayrıca gerekli bağlam yoktur.",
+      "suggested_lane": "micro",
+      "disposition": "narrow",
+      "finding_refs": ["micro:f-day-elasticity"],
+      "support_ids": ["sup_14c1b20570559be207bc", "sup_51cf6e466b7c15530bf3"],
+      "branch_refs": ["root_001700/B003"]
+    }
+  ],
+  "candidate_decisions": [
+    {
+      "candidate_id": "cand_d584a6130d5e5d7473c4",
+      "decision": "accept",
+      "reason": "İki ardışık izafet bağı, Mālik'ten güne ve oradan hesap düzenine inen gerçek bir otorite hiyerarşisi kurar; bu, yetkin bir çevirinin ötesinde sahne düzenidir.",
+      "failed_edge": null,
+      "accepted_finding_refs": ["micro:f-authority-hierarchy"],
+      "duplicate_of": null,
+      "excluded_branch_refs": [],
+      "branch_exclusion_reasons": []
+    },
+    {
+      "candidate_id": "cand_d096bda5e280690e7233",
+      "decision": "accept",
+      "reason": "İzafet başı günü yönetir ve son kesin terim bütün zincire geriye doğru belirginlik verir; görünür artikel olmadan belirli bir gün kurulması gerçek bir gramer sonucudur.",
+      "failed_edge": null,
+      "accepted_finding_refs": ["micro:f-construct-definiteness"],
+      "duplicate_of": null,
+      "excluded_branch_refs": [],
+      "branch_exclusion_reasons": []
+    },
+    {
+      "candidate_id": "cand_10e2975e2a43470504da",
+      "decision": "accept",
+      "reason": "Genitif appozisyon, ifadeyi kopuk bir başlık olmaktan çıkarıp önceki ilahî niteleme zincirinin devamı yapar.",
+      "failed_edge": null,
+      "accepted_finding_refs": ["micro:f-genitive-praise"],
+      "duplicate_of": null,
+      "excluded_branch_refs": [],
+      "branch_exclusion_reasons": []
+    },
+    {
+      "candidate_id": "cand_bc7ccb77c27d95f4e829",
+      "decision": "accept",
+      "reason": "Sahiplik unvanı önceki övgüyü hesap sahnesine ve sonraki kulluk/hidayet talebine bağlayan sınırlı bir söylem eşiği kurar.",
+      "failed_edge": null,
+      "accepted_finding_refs": ["micro:f-bridge-petition"],
+      "duplicate_of": null,
+      "excluded_branch_refs": [],
+      "branch_exclusion_reasons": []
+    },
+    {
+      "candidate_id": "cand_1d7af88ee1616911f9ff",
+      "decision": "accept",
+      "reason": "Yaygın bir kökün seyrek ve ilahî niteleme bağlamındaki aktif sahiplik biçimi, litürjik eşikteki biçim seçimini okura görünür kılar.",
+      "failed_edge": null,
+      "accepted_finding_refs": ["micro:f-marked-possessor"],
+      "duplicate_of": null,
+      "excluded_branch_refs": [],
+      "branch_exclusion_reasons": []
+    },
+    {
+      "candidate_id": "cand_e2881ce3aeac695d0ee6",
+      "decision": "narrow",
+      "reason": "Mālik'in sahipliği yerel izafet içinde tasarruf yetkisi basıncı taşır; temas gerçek olsa da kökün bütün diğer dallarına genişletilemez.",
+      "failed_edge": null,
+      "accepted_finding_refs": ["micro:f-ownership-disposal"],
+      "duplicate_of": null,
+      "excluded_branch_refs": [],
+      "branch_exclusion_reasons": []
+    },
+    {
+      "candidate_id": "cand_38982be08ab072d2bed3",
+      "decision": "narrow",
+      "reason": "Kıraat alanı sahip, kral ve yoğun yetki aralığını karşılaştırmalı biçimde açar; ancak kanonik aktif sahiplik yüzeyinin yerine geçmez.",
+      "failed_edge": null,
+      "accepted_finding_refs": ["micro:f-qiraat-authority"],
+      "duplicate_of": null,
+      "excluded_branch_refs": [],
+      "branch_exclusion_reasons": []
+    },
+    {
+      "candidate_id": "cand_2c15ff8bded81f35718e",
+      "decision": "accept",
+      "reason": "Uzun ünlü, ses konturu ve baştaki daralma, sahiplik okumasını zincirin geri kalanından önce işitilebilir kılar.",
+      "failed_edge": null,
+      "accepted_finding_refs": ["micro:f-head-sound"],
+      "duplicate_of": null,
+      "excluded_branch_refs": [],
+      "branch_exclusion_reasons": []
+    },
+    {
+      "candidate_id": "cand_730efd9f2f5303871ec2",
+      "decision": "accept",
+      "reason": "Aktif ortaç, sonradan başlayacak bir fiili değil, zaten ayakta duran sahiplik niteliğini ifade eden isim cümlesi içinde çalışır.",
+      "failed_edge": null,
+      "accepted_finding_refs": ["micro:f-standing-ownership"],
+      "duplicate_of": null,
+      "excluded_branch_refs": [],
+      "branch_exclusion_reasons": []
+    },
+    {
+      "candidate_id": "cand_1f877dfa4ec3fe370653",
+      "decision": "accept",
+      "reason": "Artikel almayan yawm, kesin dīn terimine izafe edilerek belirsiz bir tarihten bilinen adlandırılmış güne dönüşür.",
+      "failed_edge": null,
+      "accepted_finding_refs": ["micro:f-day-named"],
+      "duplicate_of": null,
+      "excluded_branch_refs": [],
+      "branch_exclusion_reasons": []
+    },
+    {
+      "candidate_id": "cand_6d0df9f1bcd7ffaece09",
+      "decision": "narrow",
+      "reason": "Yawm kökünün gün, süre ve olay esnekliği yerel hesap formülünde belirleyici olay ufkuna daralır; gündüz, çağ ve her tarihî olay anlamları birlikte taşınmaz.",
+      "failed_edge": null,
+      "accepted_finding_refs": ["micro:f-day-elasticity"],
+      "duplicate_of": null,
+      "excluded_branch_refs": [],
+      "branch_exclusion_reasons": []
+    },
+    {
+      "candidate_id": "cand_77edb4e22927fa721fc3",
+      "decision": "accept",
+      "reason": "Orta kelime, yinelenen hesap günü formülüne giriş kapısıdır; bu nedenle nötr bir tarih belirteci olarak kalmaz.",
+      "failed_edge": null,
+      "accepted_finding_refs": ["micro:f-middle-formula"],
+      "duplicate_of": null,
+      "excluded_branch_refs": [],
+      "branch_exclusion_reasons": []
+    },
+    {
+      "candidate_id": "cand_cb477dad6b63424e0da0",
+      "decision": "accept",
+      "reason": "Yawm bir yandan Mālik tarafından yönetilirken bir yandan dīn'i yönetir; bu çift yönlü sentaktik menteşe anlam akışını taşır.",
+      "failed_edge": null,
+      "accepted_finding_refs": ["micro:f-day-hinge"],
+      "duplicate_of": null,
+      "excluded_branch_refs": [],
+      "branch_exclusion_reasons": []
+    },
+    {
+      "candidate_id": "cand_8823bb766dbdf09fc3d9",
+      "decision": "accept",
+      "reason": "Sık görülen kök burada fiil ya da fail değil, iki genitif ilişkiyi birbirine bağlayan kararlı zaman ismi olarak kalır.",
+      "failed_edge": null,
+      "accepted_finding_refs": ["micro:f-time-noun"],
+      "duplicate_of": null,
+      "excluded_branch_refs": [],
+      "branch_exclusion_reasons": []
+    },
+    {
+      "candidate_id": "cand_1db655de3c463b2220da",
+      "decision": "narrow",
+      "reason": "Varyant hâller, genitifin zinciri korumasının neyi dışladığını gösterir; karşılaştırma kanonik yapıyı açıklamakla sınırlıdır.",
+      "failed_edge": null,
+      "accepted_finding_refs": ["micro:f-case-contrast"],
+      "duplicate_of": null,
+      "excluded_branch_refs": [],
+      "branch_exclusion_reasons": []
+    },
+    {
+      "candidate_id": "cand_e60580c7d8041ce6afdd",
+      "decision": "accept",
+      "reason": "Zaman çerçevesi övgüyü hesap sahnesine sokar ve hemen sonraki kulluk ile yol talebine doğru yönlendirir.",
+      "failed_edge": null,
+      "accepted_finding_refs": ["micro:f-temporal-petition"],
+      "duplicate_of": null,
+      "excluded_branch_refs": [],
+      "branch_exclusion_reasons": []
+    },
+    {
+      "candidate_id": "cand_267db6728a85591e6977",
+      "decision": "accept",
+      "reason": "Ses akışı, orta ve son genitifleri burun kapanışı, bağlanma ve tekrarlanan genitif ritmiyle tek formül gibi duyurur.",
+      "failed_edge": null,
+      "accepted_finding_refs": ["micro:f-day-sound-binding"],
+      "duplicate_of": null,
+      "excluded_branch_refs": [],
+      "branch_exclusion_reasons": []
+    },
+    {
+      "candidate_id": "cand_bed7dfd1a0af1a64ff96",
+      "decision": "accept",
+      "reason": "Son genitif, otorite ve zamanı yalnızca yan yana bırakmaz; günün içeriğini veren hüküm düzeniyle sahneyi kapatır.",
+      "failed_edge": null,
+      "accepted_finding_refs": ["micro:f-closure-content"],
+      "duplicate_of": null,
+      "excluded_branch_refs": [],
+      "branch_exclusion_reasons": []
+    },
+    {
+      "candidate_id": "cand_73cc49fe9b05fcad2f67",
+      "decision": "narrow",
+      "reason": "Dīn'in düzen/yol alanı hesap anlamının arkasında gerçek bir yankı bırakır; fakat yerel formül hüküm ve karşılığı merkezde tutar.",
+      "failed_edge": null,
+      "accepted_finding_refs": ["micro:f-ordered-way"],
+      "duplicate_of": null,
+      "excluded_branch_refs": [],
+      "branch_exclusion_reasons": []
+    },
+    {
+      "candidate_id": "cand_da9701c50c4e99cd327d",
+      "decision": "narrow",
+      "reason": "Borç hesabı görüntüsü soyut hükmü keskinleştirir; somut kredi ilişkisi için gerekli taraf ve işlem bulunmadığından görüntü olarak sınırlandırılır.",
+      "failed_edge": null,
+      "accepted_finding_refs": ["micro:f-debt-image"],
+      "duplicate_of": null,
+      "excluded_branch_refs": [],
+      "branch_exclusion_reasons": []
+    },
+    {
+      "candidate_id": "cand_f60d772bab6dd2a01454",
+      "decision": "accept",
+      "reason": "Kesin son genitif hem zinciri kapatır hem de geriye doğru bütün sahiplik ifadesini tanımlar.",
+      "failed_edge": null,
+      "accepted_finding_refs": ["micro:f-final-definiteness"],
+      "duplicate_of": null,
+      "excluded_branch_refs": [],
+      "branch_exclusion_reasons": []
+    },
+    {
+      "candidate_id": "cand_a72fdd098e559cf96684",
+      "decision": "accept",
+      "reason": "Dīn son kelime olarak orta kelimenin açtığı yinelenen hesap günü formülünü tamamlar ve onu kapanışa taşır.",
+      "failed_edge": null,
+      "accepted_finding_refs": ["micro:f-final-formula"],
+      "duplicate_of": null,
+      "excluded_branch_refs": [],
+      "branch_exclusion_reasons": []
+    },
+    {
+      "candidate_id": "cand_565536b084f1144440c2",
+      "decision": "narrow",
+      "reason": "Genitif yapı aidiyeti sabitlerken son terim günün anlamını geriye doğru karakterize eder; alternatif kıraat/parse katmanı kanonik grameri değiştirmez.",
+      "failed_edge": null,
+      "accepted_finding_refs": ["micro:f-parse-layering"],
+      "duplicate_of": null,
+      "excluded_branch_refs": [],
+      "branch_exclusion_reasons": []
+    },
+    {
+      "candidate_id": "cand_81a543ae3500e59dd7bc",
+      "decision": "accept",
+      "reason": "Yinelenen hesap günü formülü baştaki sahiplik başlığının yönetimi altına alınır; tanıdık formül böylece egemenlik iddiasına dönüşür.",
+      "failed_edge": null,
+      "accepted_finding_refs": ["micro:f-marked-ownership"],
+      "duplicate_of": null,
+      "excluded_branch_refs": [],
+      "branch_exclusion_reasons": []
+    },
+    {
+      "candidate_id": "cand_3aaf3c5b2783c78bce5d",
+      "decision": "accept",
+      "reason": "Kesin soyut isim, yargılayan bir fiil anlatmak yerine hesap ve karşılık düzenini adlandırır.",
+      "failed_edge": null,
+      "accepted_finding_refs": ["micro:f-nominal-system"],
+      "duplicate_of": null,
+      "excluded_branch_refs": [],
+      "branch_exclusion_reasons": []
+    },
+    {
+      "candidate_id": "cand_31d7d133ce1a3349a29c",
+      "decision": "narrow",
+      "reason": "Yerel formül hüküm anlamını seçerken borç ve teslimiyet kök baskılarını tamamen susturmaz; bunlar aynı anda duyulan sınırlı yan basınçlardır.",
+      "failed_edge": null,
+      "accepted_finding_refs": ["micro:f-polyvalent-obedience", "micro:f-polyvalent-debt"],
+      "duplicate_of": null,
+      "excluded_branch_refs": [],
+      "branch_exclusion_reasons": []
+    },
+    {
+      "candidate_id": "cand_d9121b28b3a0313c67ad",
+      "decision": "accept",
+      "reason": "Artikelin idğamı, şeddeli başlangıç ve nazal kafiyeli son, kesinlik ile kapanışı aynı ses olayında yoğunlaştırır.",
+      "failed_edge": null,
+      "accepted_finding_refs": ["micro:f-final-sound"],
+      "duplicate_of": null,
+      "excluded_branch_refs": [],
+      "branch_exclusion_reasons": []
+    },
+    {
+      "candidate_id": "cand_3ea7ead20d81d4fd76fb",
+      "decision": "reject",
+      "reason": "QAC kök satırı yalnızca مَٰلِكِ taşıyıcısını doğrular; ledger_only yüzey/provenans kaydı olarak bağımsız mekanizma veya yeni okuyucu getirisi sunmaz.",
+      "failed_edge": "no_changed_reading_or_reader_payoff",
+      "accepted_finding_refs": [],
+      "duplicate_of": null,
+      "excluded_branch_refs": [],
+      "branch_exclusion_reasons": []
+    },
+    {
+      "candidate_id": "cand_1a5189fd545f17b7f6a7",
+      "decision": "reject",
+      "reason": "QAC kök satırı yalnızca يَوْمِ taşıyıcısını doğrular; ledger_only kayıt, zamanın yerel anlamını açıklayan bağımsız bir temas değildir.",
+      "failed_edge": "no_changed_reading_or_reader_payoff",
+      "accepted_finding_refs": [],
+      "duplicate_of": null,
+      "excluded_branch_refs": [],
+      "branch_exclusion_reasons": []
+    },
+    {
+      "candidate_id": "cand_eda2018d432ebffbb5bf",
+      "decision": "reject",
+      "reason": "QAC kök satırı yalnızca دِّينِ taşıyıcısını doğrular; ledger_only kayıt, hesap anlamını üreten bağımsız tetik ve okuyucu getirisi sağlamaz.",
+      "failed_edge": "no_changed_reading_or_reader_payoff",
+      "accepted_finding_refs": [],
+      "duplicate_of": null,
+      "excluded_branch_refs": [],
+      "branch_exclusion_reasons": []
+    },
+    {
+      "candidate_id": "cand_b6d98f0c83a6743ebe20",
+      "decision": "narrow",
+      "reason": "Tam yüzey zinciri, egemenliğin kritik hesap olayında icra edilmesi temasını gerçek biçimde açar; ancak HFT kaydının legacy_unbound niteliği ve atfedilmiş dal eşleştirmeleri iddiayı exploratory sınırına çeker.",
+      "failed_edge": null,
+      "accepted_finding_refs": [
+        "micro:f-sovereign-public-authority",
+        "micro:f-sovereign-divine-authority",
+        "micro:f-sovereign-event-day",
+        "micro:f-sovereign-heavy-day",
+        "micro:f-sovereign-judgment",
+        "micro:f-sovereign-requital",
+        "micro:f-sovereign-named-day"
+      ],
+      "duplicate_of": null,
+      "excluded_branch_refs": [],
+      "branch_exclusion_reasons": []
+    },
+    {
+      "candidate_id": "cand_ceeeb8799a41d7f31756",
+      "decision": "narrow",
+      "reason": "Sahip, süre ve yükümlülük arasındaki olgunlaşma mekanizması yerel temasla kurulabilir; somut borç işlemi iddiası ve legacy_unbound kaynak niteliği nedeniyle bounded exploratory olarak tutulur.",
+      "failed_edge": null,
+      "accepted_finding_refs": ["micro:f-debt-holder", "micro:f-debt-duration", "micro:f-debt-liability"],
+      "duplicate_of": null,
+      "excluded_branch_refs": [],
+      "branch_exclusion_reasons": []
+    },
+    {
+      "candidate_id": "cand_b6d347cb5abb89b72475",
+      "decision": "narrow",
+      "reason": "İtaat, kulluk ve izlenen düzenin egemenlik altında sürdüğü okuması gerçek bir yerel uzanımdır; kanonik hesap anlamını bastırmaması ve HFT provenance sınırı nedeniyle daraltılır.",
+      "failed_edge": null,
+      "accepted_finding_refs": ["micro:f-regime-authority", "micro:f-regime-obedience", "micro:f-regime-worship", "micro:f-regime-law", "micro:f-regime-duration"],
+      "duplicate_of": null,
+      "excluded_branch_refs": [],
+      "branch_exclusion_reasons": []
+    },
+    {
+      "candidate_id": "cand_85368a4b3f75ed141a49",
+      "decision": "narrow",
+      "reason": "Zaman içinde tutulan ve bir arada duran düzen görüntüsü, izafet ile soyut sistem adından gerçek bir exploratory temas kazanır; şehir dalı için taşıyıcı bulunmadığından o dal çıkarılır.",
+      "failed_edge": null,
+      "accepted_finding_refs": ["micro:f-cohesive-order", "micro:f-mainstay", "micro:f-customary-order", "micro:f-order-duration"],
+      "duplicate_of": null,
+      "excluded_branch_refs": ["root_000504/B006"],
+      "branch_exclusion_reasons": [
+        {
+          "branch_ref": "root_000504/B006",
+          "reason": "HFT'nin civic/institutional uzantısı, dīn'in şehir anlamı için gerçek bir yerleşim taşıyıcısı veya etimolojik tetik sağlamaz; şehir dalı final iddiaya alınmadı."
+        }
+      ]
+    }
+  ],
+  "scope_referrals": [],
+  "new_findings": [],
+  "accepted_findings": [
+    {
+      "finding_ref": "micro:f-authority-hierarchy",
+      "candidate_ids": ["cand_d584a6130d5e5d7473c4"],
+      "proposal_keys": [],
+      "title": "Yetki zinciri aşağı doğru daralır",
+      "claim": "İfade, sahipten güne ve günden hesap düzenine inen üç basamaklı bir yetki çerçevesi kurar.",
+      "mechanism": "Mālik izafetin başı olarak yawm'i yönetir; yawm de dīn'i yöneterek otoriteyi zaman ve hesabın içeriğine taşır.",
+      "reader_payoff": "Okur ilk kelimenin yalnızca bir unvan değil, bütün zincirin sahiplik çerçevesi olduğunu görür.",
+      "containment": "Yerel izafet mimarisiyle sınırlıdır; bu yapı tek başına bütün kozmoloji veya başka ayetlerin anlamını taşımaz.",
+      "support_ids": ["sup_17b1771aa0e4a29e83b1", "sup_613fd4393bdcab97ac78"],
+      "branch_refs": [],
+      "connection_refs": [],
+      "contact_refs": [],
+      "branch_contributions": [],
+      "epistemic_status": "supported"
+    },
+    {
+      "finding_ref": "micro:f-construct-definiteness",
+      "candidate_ids": ["cand_d096bda5e280690e7233"],
+      "proposal_keys": [],
+      "title": "İzafet başı belirli günü yönetir",
+      "claim": "Görünür artikel taşımayan baş kelime, son kesin genitif sayesinde belirli bir günün sahibi olarak okunur.",
+      "mechanism": "İlk kelime ikinciyi yönetir; son kelimenin kesinliği izafet zincirine geriye doğru yayılır.",
+      "reader_payoff": "Okur, ifadenin belirsiz bir tarihten değil, adı belirlenmiş tekil bir günden söz ettiğini fark eder.",
+      "containment": "Kesinlik ve izafet sonucu olarak tutulur; ayrı bir gösterme zamiri veya bağımsız tarih bilgisi çıkarılmaz.",
+      "support_ids": ["sup_4bd53eaa2010b4506441", "sup_613fd4393bdcab97ac78"],
+      "branch_refs": [],
+      "connection_refs": [],
+      "contact_refs": [],
+      "branch_contributions": [],
+      "epistemic_status": "supported"
+    },
+    {
+      "finding_ref": "micro:f-genitive-praise",
+      "candidate_ids": ["cand_10e2975e2a43470504da"],
+      "proposal_keys": [],
+      "title": "Genitif övgü zincirini sürdürür",
+      "claim": "Mālik ifadesi bağımsız bir başlık değil, önceki ilahî niteleme zincirinin genitif devamıdır.",
+      "mechanism": "Genitif appozisyon ve izafet, ayeti önceki övgüden koparmadan yeni bir niteleme olarak bağlar.",
+      "reader_payoff": "Okur, yeni cümlenin sahneye sonradan eklenmediğini; önceki ilahî tasvirin içinden çıktığını görür.",
+      "containment": "Yalnızca yerel sözdizimsel devamlılığı taşır; tam bir sure-içi kompozisyon iddiası değildir.",
+      "support_ids": ["sup_613fd4393bdcab97ac78", "sup_973e971167e834110985"],
+      "branch_refs": [],
+      "connection_refs": [],
+      "contact_refs": [],
+      "branch_contributions": [],
+      "epistemic_status": "supported"
+    },
+    {
+      "finding_ref": "micro:f-bridge-petition",
+      "candidate_ids": ["cand_bc7ccb77c27d95f4e829"],
+      "proposal_keys": [],
+      "title": "Sahiplik unvanı talebe döner",
+      "claim": "Sahiplik unvanı önceki nitelemeleri hesap sahnesine, oradan da doğrudan kulluk ve hidayet talebine yönelten bir eşik kurar.",
+      "mechanism": "Mālik'in otorite başlığı, hesap günü çerçevesinden sonraki doğrudan hitap ve yol talebine doğru söylem yönünü değiştirir.",
+      "reader_payoff": "Okur, hesap bilgisinin ibadet isteğinden kopuk değil, ona hazırlık yapan bir dönüş olduğunu fark eder.",
+      "containment": "Bağlantı sure içindeki sınırlı ileri basınç olarak tutulur; sonraki ayetlerin bütün anlamı bu kelimeye yüklenmez.",
+      "support_ids": ["sup_459b2375c87d374c5011", "sup_613fd4393bdcab97ac78"],
+      "branch_refs": [],
+      "connection_refs": [],
+      "contact_refs": [],
+      "branch_contributions": [],
+      "epistemic_status": "supported"
+    },
+    {
+      "finding_ref": "micro:f-marked-possessor",
+      "candidate_ids": ["cand_1d7af88ee1616911f9ff"],
+      "proposal_keys": [],
+      "title": "Seyrek aktif sahiplik biçimi eşikte belirir",
+      "claim": "Yaygın bir kök, burada ilahî niteleme eşiğinde seyrek görülen aktif sahiplik biçimine daraltılır.",
+      "mechanism": "Biçimsel aktif ortaç, ilahî referanslı bağlam ve izafet başı olarak dağılımı birlikte belirginlik kazanır.",
+      "reader_payoff": "Okur, biçim seçiminin sıradan bir kök tekrarı değil, ibadet dilindeki özel bir sahiplik vurgusu olduğunu sezer.",
+      "containment": "Dağılım ve biçim baskısıdır; tek başına kökün bütün ilahî veya krallık alanlarını etkinleştirmez.",
+      "support_ids": ["sup_613fd4393bdcab97ac78", "sup_64e74d3a1f4c07c93894"],
+      "branch_refs": [],
+      "connection_refs": [],
+      "contact_refs": [],
+      "branch_contributions": [],
+      "epistemic_status": "supported"
+    },
+    {
+      "finding_ref": "micro:f-ownership-disposal",
+      "candidate_ids": ["cand_e2881ce3aeac695d0ee6"],
+      "proposal_keys": [],
+      "title": "Sahiplik tasarruf gücü taşır",
+      "claim": "Mālik, günü yalnızca hukuken kendisine ait olan bir şey olarak değil, üzerinde tasarruf edilen bir alan olarak kurar.",
+      "mechanism": "Aktif sahiplik biçimi, doğrudan kendisine bağlanan günü elde tutma ve hükmetme ilişkisine sokar.",
+      "reader_payoff": "Okur sahipliği ince bir mülkiyet etiketi değil, hesap gününün içeriği üzerinde komuta gücü olarak hisseder.",
+      "containment": "Mülkiyet/tasarruf çekirdeğiyle sınırlıdır; köleleştirme, evlilik, coğrafya ve haberci dalları dışarıdadır.",
+      "support_ids": ["sup_613fd4393bdcab97ac78", "sup_819f8345fb1c0289c479"],
+      "branch_refs": ["root_001444/B002"],
+      "connection_refs": [],
+      "contact_refs": ["micro:contact-ownership-disposal"],
+      "branch_contributions": [
+        {
+          "branch_ref": "root_001444/B002",
+          "facet_id": "F001",
+          "distinctive_facet": "Bir kişi, mal veya hak üzerinde sahiplikten doğan elinde bulundurma ve tasarruf yetkisine sahiptir.",
+          "surface_carrier": "مَٰلِكِ",
+          "independent_anchor": "Mālik'in izafet başı olarak doğrudan yawm'i yönetmesi ve belirli günün ardından gelen hesap terimi.",
+          "contribution": "Sahipliği soyut unvan olmaktan çıkarıp gün üzerinde tasarruf yetkisi görüntüsüne dönüştürür.",
+          "boundary": "Devir, köleleştirme, evlilik veya başka özel sahiplik kalıpları bu yerel temasın parçası değildir."
+        }
+      ],
+      "epistemic_status": "exploratory"
+    },
+    {
+      "finding_ref": "micro:f-qiraat-authority",
+      "candidate_ids": ["cand_38982be08ab072d2bed3"],
+      "proposal_keys": [],
+      "title": "Kıraat alanı sahiplik ile hükümranlığı karşılaştırır",
+      "claim": "Varyant okuma alanı sahip, kral ve yoğunlaştırılmış yetki aralığını görünür kılar; kanonik yüzey ise aktif sahipliği öne alır.",
+      "mechanism": "Varyantların otorite aralığı, mevcut aktif ortaç ve izafet zinciriyle karşılaştırmalı bir basınç oluşturur.",
+      "reader_payoff": "Okur, sahiplik ifadesinin krallık çağrışımını taşıyabildiğini fakat onu kanonik yüzeyin yerine koymamak gerektiğini görür.",
+      "containment": "Kıraat karşılaştırmasıdır; varyantlar kanonik grameri veya yerel birincil okumayı değiştirmez.",
+      "support_ids": ["sup_613fd4393bdcab97ac78", "sup_b4185d17d054e7ca7628"],
+      "branch_refs": [],
+      "connection_refs": [],
+      "contact_refs": [],
+      "branch_contributions": [],
+      "epistemic_status": "exploratory"
+    },
+    {
+      "finding_ref": "micro:f-head-sound",
+      "candidate_ids": ["cand_2c15ff8bded81f35718e"],
+      "proposal_keys": [],
+      "title": "Baş kelimenin ses konturu sahipliği öne çıkarır",
+      "claim": "Uzun ünlü ve ses konturu, sahiplik okumasını zincirin daralan devamından önce işitilebilir kılar.",
+      "mechanism": "Madd/imalâ renklenmesi ve baştaki kelimenin kapanış konturu, ardından gelen genitiflere geçmeden önce başlığı duyurur.",
+      "reader_payoff": "Okur, sahiplik temasını yalnızca anlamdan değil, zincirin ilk ses ağırlığından da alır.",
+      "containment": "Perceptual sound findingdir; ses, gramerin yerine geçmez veya ek bir sözlük anlamı üretmez.",
+      "support_ids": ["sup_613fd4393bdcab97ac78", "sup_fee32f29cb2a0b8b041d"],
+      "branch_refs": [],
+      "connection_refs": [],
+      "contact_refs": [],
+      "branch_contributions": [],
+      "epistemic_status": "supported"
+    },
+    {
+      "finding_ref": "micro:f-standing-ownership",
+      "candidate_ids": ["cand_730efd9f2f5303871ec2"],
+      "proposal_keys": [],
+      "title": "Aktif ortaç ayakta duran sahiplik verir",
+      "claim": "Aktif ortaç, sahipliğin gün üzerinde sonradan başlayacak bir eylem değil, zaten geçerli bir nitelik olduğunu gösterir.",
+      "mechanism": "Fiil cümlesi yerine isimsel izafet içinde duran aktif ortaç, gelecekteki başlangıç anlatısını dışarıda bırakır.",
+      "reader_payoff": "Okur, yetkinin yalnızca o gün ortaya çıkmadığını; günün zaten yerleşik bir ilahî niteliğin alanında bulunduğunu anlar.",
+      "containment": "Biçim ve isim cümlesi sınırındadır; zaman dışı metafizik ayrıntılar veya fiilî olay sıralaması çıkarılmaz.",
+      "support_ids": ["sup_613fd4393bdcab97ac78", "sup_ed8e8d5c6ff316dd8d8a"],
+      "branch_refs": [],
+      "connection_refs": [],
+      "contact_refs": [],
+      "branch_contributions": [],
+      "epistemic_status": "supported"
+    },
+    {
+      "finding_ref": "micro:f-day-named",
+      "candidate_ids": ["cand_1f877dfa4ec3fe370653"],
+      "proposal_keys": [],
+      "title": "Artikel olmayan gün adlandırılır",
+      "claim": "Yawm, artikel almadan izafet yoluyla kesinleşir ve belirli bir adlandırılmış zaman birimine dönüşür.",
+      "mechanism": "Son genitifin kesinliği, orta kelimeyi belirsiz bir tarihten belirli bir güne taşır.",
+      "reader_payoff": "Okur, ifadenin herhangi bir gün değil, bilinen ve adı formülle sabitlenen gün olduğunu fark eder.",
+      "containment": "Kesinlik izafet ilişkisine bağlıdır; görünür artikel veya bağımsız gösterme unsuru varmış gibi anlatılmaz.",
+      "support_ids": ["sup_51cf6e466b7c15530bf3", "sup_71e70fb8c4d8f3b6fd87"],
+      "branch_refs": [],
+      "connection_refs": [],
+      "contact_refs": [],
+      "branch_contributions": [],
+      "epistemic_status": "supported"
+    },
+    {
+      "finding_ref": "micro:f-day-elasticity",
+      "candidate_ids": ["cand_6d0df9f1bcd7ffaece09"],
+      "proposal_keys": [],
+      "title": "Gün esnekliği kritik olay ufkunda daralır",
+      "claim": "Yawm kökünün gün, süre ve olay aralığı yerel hesap formülünde belirleyici bir olay ufkuna daralır.",
+      "mechanism": "Genitif izafet ve yinelenen yawm al-dīn formülü, kökün açık süre ihtimalini eskatolojik kritik güne bağlar.",
+      "reader_payoff": "Okur, gün kelimesinin hem zaman birimi hem de gerçekleşen olayın sahnesi olabildiğini, fakat burada rastgele bir süre olmadığını hisseder.",
+      "containment": "Kritik olay-günü ve bounded temporal unit ile sınırlıdır; gündüz, uzun çağ veya bütün tarihî olaylar etkin değildir.",
+      "support_ids": ["sup_14c1b20570559be207bc", "sup_51cf6e466b7c15530bf3"],
+      "branch_refs": ["root_001700/B003"],
+      "connection_refs": [],
+      "contact_refs": ["micro:contact-event-day"],
+      "branch_contributions": [
+        {
+          "branch_ref": "root_001700/B003",
+          "facet_id": "F001",
+          "distinctive_facet": "Gün sözü, büyük bir olay gerçekleştiğinde o kritik zamanı veya gerçekleşen olayı anlatmak üzere aktarılır.",
+          "surface_carrier": "يَوْمِ",
+          "independent_anchor": "ٱلدِّينِ ile yinelenen hesap günü formülü ve yawm'in izafet içinde belirli olay alanı kurması.",
+          "contribution": "Sıradan zaman adını, hesabın gerçekleştiği kritik olayın zamanına çevirir.",
+          "boundary": "Ağır gün, Tanrı'nın nimet günü veya çoğul tarihî olay anlamları bu tekil yüzeyden ayrıca çıkarılmaz."
+        }
+      ],
+      "epistemic_status": "exploratory"
+    },
+    {
+      "finding_ref": "micro:f-middle-formula",
+      "candidate_ids": ["cand_77edb4e22927fa721fc3"],
+      "proposal_keys": [],
+      "title": "Orta kelime hesap günü formülünü açar",
+      "claim": "Orta kelime, yawm al-dīn ifadesinin yinelenen hesap günü formülüne girişini sağlar.",
+      "mechanism": "Yawm'in dīn ile genitif birleşmesi, onu nötr bir tarih belirtecinden formülün temporal eşiğine taşır.",
+      "reader_payoff": "Okur, orta kelimeyi yalnızca zaman bildiren ara unsur değil, son kelimenin eskatolojik alanını açan menteşe olarak duyar.",
+      "containment": "Formül ve yerel kelime ilişkisiyle sınırlıdır; bütün formül kullanımlarının ayrıntılı tefsiri değildir.",
+      "support_ids": ["sup_51cf6e466b7c15530bf3", "sup_8c112abe26320d4b702e"],
+      "branch_refs": [],
+      "connection_refs": [],
+      "contact_refs": [],
+      "branch_contributions": [],
+      "epistemic_status": "supported"
+    },
+    {
+      "finding_ref": "micro:f-day-hinge",
+      "candidate_ids": ["cand_cb477dad6b63424e0da0"],
+      "proposal_keys": [],
+      "title": "Orta isim hem yönetilir hem yönetir",
+      "claim": "Yawm, Mālik tarafından yönetilen ve dīn'i yöneten çift yönlü bir sentaktik menteşedir.",
+      "mechanism": "İlk genitif bağı sahiplik ilişkisini, ikinci izafet bağı ise hesap teriminin yawm'i tanımlamasını taşır.",
+      "reader_payoff": "Okur, zamanın zincirde pasif bir ara kelime olmadığını; sahiplik ile hesabı birbirine bağlayan taşıyıcı olduğunu görür.",
+      "containment": "İzafet ve valans ilişkisiyle sınırlıdır; buna ayrı bir aracılık öznesi veya fiilî eylem eklenmez.",
+      "support_ids": ["sup_51cf6e466b7c15530bf3", "sup_6de496dddc7dfca67bc2"],
+      "branch_refs": [],
+      "connection_refs": [],
+      "contact_refs": [],
+      "branch_contributions": [],
+      "epistemic_status": "supported"
+    },
+    {
+      "finding_ref": "micro:f-time-noun",
+      "candidate_ids": ["cand_8823bb766dbdf09fc3d9"],
+      "proposal_keys": [],
+      "title": "Sık kök burada zaman isminde sabitlenir",
+      "claim": "Yawm kökü bu ayette fiil veya türemiş fail değil, sahiplik ile hesabı bağlayan kararlı zaman ismidir.",
+      "mechanism": "Tekil isim ve genitif biçim, yerel fiil çerçevesi olmadan temporal ara birim olarak çalışır.",
+      "reader_payoff": "Okur, kökün geniş kullanım alanının burada açıkça zaman isimli bir role kilitlendiğini fark eder.",
+      "containment": "Yerel morfolojik kullanım içindir; kökün başka fiil ve türevleri bu ayete taşınmaz.",
+      "support_ids": ["sup_51cf6e466b7c15530bf3", "sup_ff4ec64a41acd87c78f8"],
+      "branch_refs": [],
+      "connection_refs": [],
+      "contact_refs": [],
+      "branch_contributions": [],
+      "epistemic_status": "supported"
+    },
+    {
+      "finding_ref": "micro:f-case-contrast",
+      "candidate_ids": ["cand_1db655de3c463b2220da"],
+      "proposal_keys": [],
+      "title": "Genitif günü zincirde tutar",
+      "claim": "Kanonik genitif, günü sahip olunan yapının içinde tutar; farklı hâl varyantları ise onu zarf tümleci gibi duyurabilirdi.",
+      "mechanism": "Hâl seçimi yawm'in Mālik'e bağlı genitif ve dīn'e bağlı izafet başı olmasını korur.",
+      "reader_payoff": "Okur, günün yalnızca olayın ne zaman olduğunu söyleyen arka plan olmadığını, sahiplik zincirinin parçası olduğunu anlar.",
+      "containment": "Varyantlar karşılaştırmalı sınır işaretidir; kanonik genitif ve yerel gramer birincildir.",
+      "support_ids": ["sup_51cf6e466b7c15530bf3", "sup_7b30429bf1ce383d9449"],
+      "branch_refs": [],
+      "connection_refs": [],
+      "contact_refs": [],
+      "branch_contributions": [],
+      "epistemic_status": "exploratory"
+    },
+    {
+      "finding_ref": "micro:f-temporal-petition",
+      "candidate_ids": ["cand_e60580c7d8041ce6afdd"],
+      "proposal_keys": [],
+      "title": "Temporal çerçeve övgüyü talebe çevirir",
+      "claim": "Hesap için kurulan zaman çerçevesi, övgü dizisini sonraki doğrudan kulluk ve yol talebine yöneltir.",
+      "mechanism": "Yawm, otorite niteliğini hesap sahnesinde sabitler; bu sahne sonraki ibadet beyanı ve yol sonucuna baskı yapar.",
+      "reader_payoff": "Okur, hesap gününün yalnızca bilgi değil, hemen ardından gelecek yönelimin gerekçesi gibi çalıştığını görür.",
+      "containment": "Sınırlı ileri söylem basıncıdır; sonraki ayetlerin tüm temaları bu kelimeye indirgenmez.",
+      "support_ids": ["sup_51cf6e466b7c15530bf3", "sup_76cc63a82aa9c81cef1e"],
+      "branch_refs": [],
+      "connection_refs": [],
+      "contact_refs": [],
+      "branch_contributions": [],
+      "epistemic_status": "supported"
+    },
+    {
+      "finding_ref": "micro:f-day-sound-binding",
+      "candidate_ids": ["cand_267db6728a85591e6977"],
+      "proposal_keys": [],
+      "title": "Ses günü son hesapla bağlar",
+      "claim": "Yawm ile dīn, nazal kapanış, akış ve tekrarlanan genitif ritmiyle işitsel olarak tek bir bağlı ifade haline gelir.",
+      "mechanism": "Orta ve son kelimenin ses sınırları, gramerdeki izafeti duyulur bir birlik olarak pekiştirir.",
+      "reader_payoff": "Okur, temporal kelime ile hesap teriminin anlamca ve sesçe birlikte indiğini hisseder.",
+      "containment": "İşitsel bağlanmadır; ses benzerliği yeni bir kök anlamı veya gramer ilişkisi yaratmaz.",
+      "support_ids": ["sup_4bc8ad33cd3cfb1a8928", "sup_51cf6e466b7c15530bf3"],
+      "branch_refs": [],
+      "connection_refs": [],
+      "contact_refs": [],
+      "branch_contributions": [],
+      "epistemic_status": "supported"
+    },
+    {
+      "finding_ref": "micro:f-closure-content",
+      "candidate_ids": ["cand_bed7dfd1a0af1a64ff96"],
+      "proposal_keys": [],
+      "title": "Son terim sahnenin içeriğini verir",
+      "claim": "Son genitif, otorite ve zamanın kurduğu sahneyi hüküm ve karşılık düzeniyle içerik bakımından tamamlar.",
+      "mechanism": "Yönetilen son terim, yawm'i yalnızca zaman olarak bırakmayıp onun ne günü olduğunu belirler.",
+      "reader_payoff": "Okur, ifade otorite ve zamandan hesap sistemine doğru çözülürken son kelimenin sahneyi kapattığını görür.",
+      "containment": "Yerel zincir kapanışıdır; hüküm düzeninin bütün uygulama ayrıntıları bu satırdan türetilmez.",
+      "support_ids": ["sup_5cc9eecb7b90639f6d3d", "sup_fa7492dd0f3b6cc0fcd0"],
+      "branch_refs": [],
+      "connection_refs": [],
+      "contact_refs": [],
+      "branch_contributions": [],
+      "epistemic_status": "supported"
+    },
+    {
+      "finding_ref": "micro:f-ordered-way",
+      "candidate_ids": ["cand_73cc49fe9b05fcad2f67"],
+      "proposal_keys": [],
+      "title": "Hesap düzeninin arkasında izlenen yol duyulur",
+      "claim": "Dīn'in düzen ve izlenen yol baskısı, hesap anlamını kaldırmadan onu daha geniş bir bağlılık düzenine bağlar.",
+      "mechanism": "Kesin soyut son isim, yawm'in tanımlayıcısı olarak hükmü tek olaydan çok bağlayıcı bir düzenin kapanışı gibi çerçeveler.",
+      "reader_payoff": "Okur, hukukî karşılığın kopuk bir işlem değil, insanın içinde bulunduğu ahlâkî-kosmolojik düzenle ilişkili olduğunu sezer.",
+      "containment": "Düzen/yol yalnızca ikincil bir semantik uzanımdır; yerel hesap ve karşılık seçimi merkezde kalır.",
+      "support_ids": ["sup_01013f3d0430275cbec1", "sup_5cc9eecb7b90639f6d3d"],
+      "branch_refs": ["root_000504/B001"],
+      "connection_refs": [],
+      "contact_refs": ["micro:contact-ordered-way"],
+      "branch_contributions": [
+        {
+          "branch_ref": "root_000504/B001",
+          "facet_id": "F003",
+          "distinctive_facet": "İnanç yolu ve kurallar bütünü, onlara uyma ve bağlanma ilişkisi açısından adlandırılır.",
+          "surface_carrier": "ٱلدِّينِ",
+          "independent_anchor": "Kesin soyut dīn'in yawm'i tanımlayan son genitif olması ve Mālik'in ilahî otorite çerçevesi.",
+          "contribution": "Hesabı, bağlanılan bir yol ve düzenin ahlâkî-kosmolojik sonucu olarak duyurur.",
+          "boundary": "Özel bir kurumsal din tanımı veya hesap anlamının yerine geçen bir inanç etiketi kurulmaz."
+        }
+      ],
+      "epistemic_status": "exploratory"
+    },
+    {
+      "finding_ref": "micro:f-debt-image",
+      "candidate_ids": ["cand_da9701c50c4e99cd327d"],
+      "proposal_keys": [],
+      "title": "Borç hesabı görüntüsü hükmü keskinleştirir",
+      "claim": "Dīn'in hüküm ve karşılık anlamı, ödenmesi veya geri verilmesi gerekenin kapatılması gibi bir borç hesabı görüntüsü kazanır.",
+      "mechanism": "Mālik'in tasarruf sahibi oluşu ve yawm'in hesap alanı, mali yükümlülük dalını soyut hükmün sınırlı görüntüsel basıncı haline getirir.",
+      "reader_payoff": "Okur, karşılığın keyfî değil, hesaplanıp teslim edilmesi gereken bir denklik olduğunu hisseder.",
+      "containment": "Somut kredi, ödünç veren veya alan taraf yoktur; mali görüntü soyut hesap düzenini açıklayan ikincil basınçtır.",
+      "support_ids": ["sup_4589d16da66ea5b6fe31", "sup_5cc9eecb7b90639f6d3d"],
+      "branch_refs": ["root_000504/B003"],
+      "connection_refs": [],
+      "contact_refs": ["micro:contact-debt-image"],
+      "branch_contributions": [
+        {
+          "branch_ref": "root_000504/B003",
+          "facet_id": "F001",
+          "distinctive_facet": "Mal veya paranın borç olarak alınması ya da verilmesiyle mali yükümlülük doğması.",
+          "surface_carrier": "ٱلدِّينِ",
+          "independent_anchor": "Mālik'in yawm üzerinde tasarruf sahibi olması ve dīn'in yinelenen hesap/karşılık formülünü kapatması.",
+          "contribution": "Soyut hükümdeki karşılığı, borçlu olunanın hesaplanıp kapatılması gibi elle tutulur bir sorumluluk görüntüsüyle keskinleştirir.",
+          "boundary": "Ödünç verme, ödünç alma ve vadeli satışın özel biçimleri için bağımsız tetik yoktur."
+        }
+      ],
+      "epistemic_status": "exploratory"
+    },
+    {
+      "finding_ref": "micro:f-final-definiteness",
+      "candidate_ids": ["cand_f60d772bab6dd2a01454"],
+      "proposal_keys": [],
+      "title": "Kesin son genitif zinciri kapatır",
+      "claim": "Son kesin genitif hem izafet zincirinin sonunu koyar hem de önceki ifadeyi belirli bir hesap günü olarak tanımlar.",
+      "mechanism": "Son terim muḍāf ilayh olarak zinciri sonlandırır; kesinliği baştaki sahiplik yapısına kadar geri yayılır.",
+      "reader_payoff": "Okur, anlamın son kelimede yalnızca bitmediğini, bütün önceki zinciri geriye dönük olarak sabitlediğini fark eder.",
+      "containment": "Yerel gramer ve definiteness etkisidir; sonraki teolojik ayrıntılar bu satıra eklenmez.",
+      "support_ids": ["sup_23d201850bbb4c6d14cb", "sup_5cc9eecb7b90639f6d3d"],
+      "branch_refs": [],
+      "connection_refs": [],
+      "contact_refs": [],
+      "branch_contributions": [],
+      "epistemic_status": "supported"
+    },
+    {
+      "finding_ref": "micro:f-final-formula",
+      "candidate_ids": ["cand_a72fdd098e559cf96684"],
+      "proposal_keys": [],
+      "title": "Son kelime hesap günü formülünü tamamlar",
+      "claim": "Dīn, orta kelimenin açtığı yinelenen hesap günü formülünü son terim olarak tamamlar.",
+      "mechanism": "Final genitif, yawm'in hangi gün olduğunu adlandırır ve formülü kapanışta sabitler.",
+      "reader_payoff": "Okur, son kelimeyi yalnızca genel bir din veya sistem adı değil, belirli hesap gününü kuran tamamlayıcı unsur olarak tanır.",
+      "containment": "Yinelenen formülün yerel işleviyle sınırlıdır; tüm kullanım alanları veya bütün ayetler zincire taşınmaz.",
+      "support_ids": ["sup_0bc779fd208db092d121", "sup_5cc9eecb7b90639f6d3d"],
+      "branch_refs": [],
+      "connection_refs": [],
+      "contact_refs": [],
+      "branch_contributions": [],
+      "epistemic_status": "supported"
+    },
+    {
+      "finding_ref": "micro:f-parse-layering",
+      "candidate_ids": ["cand_565536b084f1144440c2"],
+      "proposal_keys": [],
+      "title": "Aidiyet ve niteleme aynı zincirde katmanlanır",
+      "claim": "Son terim gramerce yönetilen aidiyet unsuru iken anlamsal olarak günü niteleyerek çift katmanlı bir kapanış sağlar.",
+      "mechanism": "İzafet grameri dīn'i yawm'e bağlar; dīn'in anlamı da geriye doğru günün niteliğini belirler.",
+      "reader_payoff": "Okur, son kelimenin hem zincirin içinde bağlı hem de zincirin anlamını belirleyen etkin bir kapanış olduğunu görür.",
+      "containment": "Kanonik genitif parse sabittir; kıraat veya alternatif parse yalnızca bu semantik geri akışı açıklayan karşılaştırmadır.",
+      "support_ids": ["sup_5cc9eecb7b90639f6d3d", "sup_c82c2ec94ed066047591"],
+      "branch_refs": [],
+      "connection_refs": [],
+      "contact_refs": [],
+      "branch_contributions": [],
+      "epistemic_status": "exploratory"
+    },
+    {
+      "finding_ref": "micro:f-marked-ownership",
+      "candidate_ids": ["cand_81a543ae3500e59dd7bc"],
+      "proposal_keys": [],
+      "title": "Tanıdık formül sahiplik dilinin altına alınır",
+      "claim": "Yinelenen hesap günü formülü, Mālik'in başlık otoritesi altında sunularak yalnızca bir gün adı olmaktan çıkarılır.",
+      "mechanism": "Marked active possessor, yawm al-dīn eşleşmesini yönetir; alışıldık formül böylece baştaki sahiplik çerçevesine bağlanır.",
+      "reader_payoff": "Okur, tanıdığı hesap günü ifadesini aynı zamanda o gün üzerinde egemenlik iddiası olarak duyar.",
+      "containment": "Yerel sözdizimsel ve semantik çerçevedir; bütün sahiplik veya egemenlik dalları etkin değildir.",
+      "support_ids": ["sup_5cc9eecb7b90639f6d3d", "sup_a72e773b70cd46efe06b"],
+      "branch_refs": [],
+      "connection_refs": [],
+      "contact_refs": [],
+      "branch_contributions": [],
+      "epistemic_status": "supported"
+    },
+    {
+      "finding_ref": "micro:f-nominal-system",
+      "candidate_ids": ["cand_3aaf3c5b2783c78bce5d"],
+      "proposal_keys": [],
+      "title": "Son isim bir sistemi adlandırır",
+      "claim": "Ayah, yargılama eylemini anlatan bir fiille değil, hesabın ve karşılığın bilinen düzenini adlandıran kesin soyut isimle biter.",
+      "mechanism": "Kesin tekil isim, isimsel zincirin son terimi olarak olay anlatısını sistem adlandırmasına çevirir.",
+      "reader_payoff": "Okur, sonu tek bir hâkimin yaptığı eylem olarak değil, içine girilen bağlayıcı bir hesap düzeni olarak kavrar.",
+      "containment": "Nominal kullanım ve yerel düzen anlamıyla sınırlıdır; fiilî yargılama sürecinin bütün aşamaları eklenmez.",
+      "support_ids": ["sup_5cc9eecb7b90639f6d3d", "sup_807fe6a67fa2a2d47348"],
+      "branch_refs": [],
+      "connection_refs": [],
+      "contact_refs": [],
+      "branch_contributions": [],
+      "epistemic_status": "supported"
+    },
+    {
+      "finding_ref": "micro:f-polyvalent-obedience",
+      "candidate_ids": ["cand_31d7d133ce1a3349a29c"],
+      "proposal_keys": [],
+      "title": "Hüküm altında itaat basıncı kalır",
+      "claim": "Dīn'in yerel seçimi hüküm ve karşılık olsa da kökün boyun eğme ve bağlanma basıncı, hesabı bağlayıcı bir düzen olarak duyurmaya devam eder.",
+      "mechanism": "Kesin soyut sistem adı, Mālik'in otorite çerçevesi altında çalışır; bu otorite itaat dalının ilişkisel basıncını canlı tutar.",
+      "reader_payoff": "Okur, hesabı yalnızca sonuç bildiren bir karar değil, insanı bağlayan bir düzen olarak işitir.",
+      "containment": "İtaat yan basıncıdır; yerel yargı anlamını silmez ve ayrı bir kulluk sahnesinin tüm ayrıntılarını kurmaz.",
+      "support_ids": ["sup_02c8df68324c0e51b0eb", "sup_5cc9eecb7b90639f6d3d"],
+      "branch_refs": ["root_000504/B001"],
+      "connection_refs": [],
+      "contact_refs": ["micro:contact-polyvalent"],
+      "branch_contributions": [
+        {
+          "branch_ref": "root_000504/B001",
+          "facet_id": "F001",
+          "distinctive_facet": "Bir üstün iradesine boyun eğme ve onun buyruğuna uyma.",
+          "surface_carrier": "ٱلدِّينِ",
+          "independent_anchor": "Mālik'in üstün irade ve tasarruf çerçevesi oluşturması ile dīn'in kesin soyut sistem adı olarak kullanılması.",
+          "contribution": "Hesap sistemine boyun eğme ve bağlayıcı buyruk ilişkisi basıncı verir.",
+          "boundary": "Bu temas zorla köleleştirme veya genel bir yönetim rejimi anlamına genişletilmez."
+        }
+      ],
+      "epistemic_status": "exploratory"
+    },
+    {
+      "finding_ref": "micro:f-polyvalent-debt",
+      "candidate_ids": ["cand_31d7d133ce1a3349a29c"],
+      "proposal_keys": [],
+      "title": "Hüküm altında borç baskısı kalır",
+      "claim": "Dīn'in hüküm anlamı seçilirken borç ve yükümlülük alanı, karşılığın vadesi gelen bir sorumluluk gibi duyulmasını sağlar.",
+      "mechanism": "Mālik'in tasarruf yetkisi ve yawm'in hesap alanı, kökün mali yükümlülük facetini soyut sistemin sınırlı görüntüsel katmanı yapar.",
+      "reader_payoff": "Okur, karşılığın yalnızca ilan edilmediğini, yükümlülük olarak hesabı görülüp kapatıldığını hisseder.",
+      "containment": "Ödünç veya satış işlemi iddia edilmez; borç baskısı hüküm ve karşılığın yan semantik basıncıdır.",
+      "support_ids": ["sup_02c8df68324c0e51b0eb", "sup_5cc9eecb7b90639f6d3d"],
+      "branch_refs": ["root_000504/B003"],
+      "connection_refs": [],
+      "contact_refs": ["micro:contact-polyvalent"],
+      "branch_contributions": [
+        {
+          "branch_ref": "root_000504/B003",
+          "facet_id": "F001",
+          "distinctive_facet": "Mal veya paranın borç olarak alınması ya da verilmesiyle mali yükümlülük doğması.",
+          "surface_carrier": "ٱلدِّينِ",
+          "independent_anchor": "Yawm al-dīn formülünün hesap/karşılık alanı kurması ve Mālik'in bu alan üzerinde tasarruf sahibi olması.",
+          "contribution": "Karşılık düşüncesini yerine getirilmesi gereken bir yükümlülüğün kapanışı gibi yoğunlaştırır.",
+          "boundary": "Ödünç veren/alan, ileri tarihli satış veya somut mali taraflar bulunmadığı için yalnızca sınırlı bir basınçtır."
+        }
+      ],
+      "epistemic_status": "exploratory"
+    },
+    {
+      "finding_ref": "micro:f-final-sound",
+      "candidate_ids": ["cand_d9121b28b3a0313c67ad"],
+      "proposal_keys": [],
+      "title": "Son isim kesinliği sesle kapatır",
+      "claim": "Artikel idğamı, şeddeli başlangıç, genitif ritmi ve nazal son, kesinlik ile anlamsal kapanışı işitsel olarak ağırlaştırır.",
+      "mechanism": "Son kelimenin asimile başlangıcı ve burunlu kapanışı, hem belirli oluşu hem de zincirin son ağırlığını duyurur.",
+      "reader_payoff": "Okur, kesinlik ve kapanışın yalnızca gramer bilgisi değil, son seste gelen basınç olduğunu hisseder.",
+      "containment": "Ses ve yakın kafiye algısıyla sınırlıdır; ses, dīn'in seçilmiş hesap anlamının yerine geçmez.",
+      "support_ids": ["sup_5cc9eecb7b90639f6d3d", "sup_af40b71ee4e9ff0f1d18"],
+      "branch_refs": [],
+      "connection_refs": [],
+      "contact_refs": [],
+      "branch_contributions": [],
+      "epistemic_status": "supported"
+    },
+    {
+      "finding_ref": "micro:f-sovereign-public-authority",
+      "candidate_ids": ["cand_b6d98f0c83a6743ebe20"],
+      "proposal_keys": [],
+      "title": "Sahiplik kamusal buyurma yetkisine sıkışır",
+      "claim": "Mālik, hesap olayında emir ve yasak koyan kamusal hükümranlık olarak da duyulabilir.",
+      "mechanism": "Aktif sahiplik, dīn'in hüküm ve karşılık alanını yönetir; yawm al-dīn formülü bu yetkiyi gerçekleşen bir olay sahnesine bağlar.",
+      "reader_payoff": "Okur, baştaki otoriteyi yalnızca özel mülk sahibi değil, olayın düzenini icra eden yönetici güç olarak kavrar.",
+      "containment": "Odak ayetiyle sınırlı, exploratory ve legacy_unbound HFT kaydıdır. Sağlanan Arapça yalnızca yüzey temasını doğrular; dal ve rol eşleştirmesi atfedilmiş adaydır. Bu bir sözlük karşılığı değildir; insanî ülke yönetimi veya bütün siyasal kurumlar çıkarılmaz.",
+      "support_ids": ["sup_5e5a60a15581f02f2ebd", "sup_613fd4393bdcab97ac78", "sup_819f8345fb1c0289c479", "sup_a72e773b70cd46efe06b"],
+      "branch_refs": ["root_001444/B003"],
+      "connection_refs": [],
+      "contact_refs": ["micro:contact-sovereign-event"],
+      "branch_contributions": [
+        {
+          "branch_ref": "root_001444/B003",
+          "facet_id": "F001",
+          "distinctive_facet": "Hükümdar, halk üzerinde emir ve yasak koyarak kamusal yönetim yetkisi kullanır.",
+          "surface_carrier": "مَٰلِكِ",
+          "independent_anchor": "Mālik'in aktif sahiplik olarak yawm'i yönetmesi ve son dīn teriminin hüküm/karşılık alanı kurması.",
+          "contribution": "Sahiplik başlığına, hesap olayını yönetip icra eden kamusal buyurma gücü görüntüsü ekler.",
+          "boundary": "İnsan hükümdarı, halkı veya ülkeyi anlatan literal bir siyasal sahne kurulmaz."
+        }
+      ],
+      "epistemic_status": "exploratory"
+    },
+    {
+      "finding_ref": "micro:f-sovereign-divine-authority",
+      "candidate_ids": ["cand_b6d98f0c83a6743ebe20"],
+      "proposal_keys": [],
+      "title": "Yetki ilahî mutlaklıkta yoğunlaşır",
+      "claim": "Mālik'in hesap günü üzerindeki sahipliği, ilahî bağlamda bütün varlık alanına yayılan mutlak ve kalıcı egemenlik olarak yoğunlaşabilir.",
+      "mechanism": "Genitif övgü zinciri ve hesap gününü belirleyen son terim, sahiplik başlığını ilahî hükümranlığın kritik uygulama alanına bağlar.",
+      "reader_payoff": "Okur, hesap olayını ilahî yetkinin yalnızca bir örneği değil, mutlaklığının görünür olduğu an olarak görür.",
+      "containment": "Odak ayetiyle sınırlı, exploratory ve legacy_unbound HFT kaydıdır. Sağlanan Arapça yalnızca yüzey temasını doğrular; dal ve rol eşleştirmesi atfedilmiş adaydır. Bu bir sözlük karşılığı değildir. Kozmik kapsam, metindeki ilahî niteleme ve gün ilişkisini aşmaz; kıraat ve başka ayet paralellikleri yalnızca analojidir.",
+      "support_ids": ["sup_5e5a60a15581f02f2ebd", "sup_613fd4393bdcab97ac78", "sup_a72e773b70cd46efe06b"],
+      "branch_refs": ["root_001444/B003"],
+      "connection_refs": [],
+      "contact_refs": ["micro:contact-sovereign-event"],
+      "branch_contributions": [
+        {
+          "branch_ref": "root_001444/B003",
+          "facet_id": "F003",
+          "distinctive_facet": "İlahi bağlamda bütün varlık üzerindeki mutlak ve kalıcı egemenlik anlatılır.",
+          "surface_carrier": "مَٰلِكِ",
+          "independent_anchor": "Mālik'in önceki ilahî niteleme zincirindeki genitif devamlılığı ve dīn'in hesap alanını kesinleştirmesi.",
+          "contribution": "Sahipliği belirli bir nesne üzerindeki hak olmaktan çıkarıp ilahî egemenliğin hesapta görünür oluşuna bağlar.",
+          "boundary": "Bu temas insanî yönetim, ülke veya her türlü mülkiyet anlamına genellenmez."
+        }
+      ],
+      "epistemic_status": "exploratory"
+    },
+    {
+      "finding_ref": "micro:f-sovereign-event-day",
+      "candidate_ids": ["cand_b6d98f0c83a6743ebe20"],
+      "proposal_keys": [],
+      "title": "Gün egemenliğin icra edildiği olay olur",
+      "claim": "Yawm, takvim etiketi olmaktan çıkıp egemenliğin hesap olayında görünür olduğu kritik gün veya olay olarak çalışır.",
+      "mechanism": "Yawm'in genitif konumu ve yawm al-dīn formülünün tekrarı, zamanı hüküm ve karşılığın gerçekleşme ufkuna bağlar.",
+      "reader_payoff": "Okur, zaman kelimesinin otoriteyi taşıyan olay sahnesine dönüşmesini görür.",
+      "containment": "Odak ayetiyle sınırlı, exploratory ve legacy_unbound HFT kaydıdır. Sağlanan Arapça yalnızca yüzey temasını doğrular; dal ve rol eşleştirmesi atfedilmiş adaydır. Bu bir sözlük karşılığı değildir; sıradan gün ve geniş çağ anlamları burada birincil değildir.",
+      "support_ids": ["sup_5e5a60a15581f02f2ebd", "sup_51cf6e466b7c15530bf3", "sup_14c1b20570559be207bc"],
+      "branch_refs": ["root_001700/B003"],
+      "connection_refs": [],
+      "contact_refs": ["micro:contact-sovereign-event"],
+      "branch_contributions": [
+        {
+          "branch_ref": "root_001700/B003",
+          "facet_id": "F001",
+          "distinctive_facet": "Gün sözü, büyük bir olay gerçekleştiğinde o kritik zamanı veya gerçekleşen olayı anlatmak üzere aktarılır.",
+          "surface_carrier": "يَوْمِ",
+          "independent_anchor": "Son dīn teriminin yawm'i hesap formülüne bağlaması ve Mālik'in bu günü yönetmesi.",
+          "contribution": "Egemenliği soyut bir nitelik olmaktan çıkarıp hükmün icra edildiği kritik olayla birleştirir.",
+          "boundary": "Çoğul tarihî olaylar veya her önemli gün anlamı için bağımsız tetik yoktur."
+        }
+      ],
+      "epistemic_status": "exploratory"
+    },
+    {
+      "finding_ref": "micro:f-sovereign-heavy-day",
+      "candidate_ids": ["cand_b6d98f0c83a6743ebe20"],
+      "proposal_keys": [],
+      "title": "Kritik günün ağırlığı otoriteyi görünür kılar",
+      "claim": "Hesapla tanımlanan gün, yalnızca olayın zamanı değil, etkisi ağır ve sonuçları belirleyici bir gün olarak duyulabilir.",
+      "mechanism": "Yawm'in olay-günü dalı, dīn'in hüküm ve karşılık içeriğiyle birleşerek zamanı sonuç yükü taşıyan kritik eşik haline getirir.",
+      "reader_payoff": "Okur, otoritenin uygulandığı anı nötr bir tarih değil, ağırlığı hissedilen bir eşik olarak algılar.",
+      "containment": "Odak ayetiyle sınırlı, exploratory ve legacy_unbound HFT kaydıdır. Sağlanan Arapça yalnızca yüzey temasını doğrular; dal ve rol eşleştirmesi atfedilmiş adaydır. Bu bir sözlük karşılığı değildir; ağır gün niteliği hesap sahnesinden çıkarılan sınırlı bir yoğunluktur.",
+      "support_ids": ["sup_5e5a60a15581f02f2ebd", "sup_14c1b20570559be207bc", "sup_5cc9eecb7b90639f6d3d"],
+      "branch_refs": ["root_001700/B003"],
+      "connection_refs": [],
+      "contact_refs": ["micro:contact-sovereign-event"],
+      "branch_contributions": [
+        {
+          "branch_ref": "root_001700/B003",
+          "facet_id": "F002",
+          "distinctive_facet": "Belirli kalıplarda günün çok çetin, ağır ve etkisi uzun süren bir gün olduğu vurgulanır.",
+          "surface_carrier": "يَوْمِ",
+          "independent_anchor": "Dīn'in hüküm ve karşılık alanı ile Mālik'in otoritesinin yawm'i kritik olay çerçevesine alması.",
+          "contribution": "Hesap olayının temporal çerçevesine sonuç ağırlığı ve çetin eşik duygusu verir.",
+          "boundary": "Her türlü çetin gün veya ayrı bir acı olayı bu yüzeye eklenmez."
+        }
+      ],
+      "epistemic_status": "exploratory"
+    },
+    {
+      "finding_ref": "micro:f-sovereign-judgment",
+      "candidate_ids": ["cand_b6d98f0c83a6743ebe20"],
+      "proposal_keys": [],
+      "title": "Egemenlik hüküm olarak işler",
+      "claim": "Dīn, egemenlik olayının ne yaptığına hükme varma ve hesabı görme cevabını verir.",
+      "mechanism": "Son terim yawm'i tanımlayan genitif olarak, Mālik'in yönettiği günün içeriğini hüküm ve hesapla belirler.",
+      "reader_payoff": "Okur, sahiplik iddiasının soyut yetki olarak kalmadığını, eylem ve kişi hakkında hüküm veren bir işleyişe dönüştüğünü görür.",
+      "containment": "Odak ayetiyle sınırlı, exploratory ve legacy_unbound HFT kaydıdır. Sağlanan Arapça yalnızca yüzey temasını doğrular; dal ve rol eşleştirmesi atfedilmiş adaydır. Bu bir sözlük karşılığı değildir; borç, itaat ve düzen yan basınçları hüküm seçimini silmez.",
+      "support_ids": ["sup_5e5a60a15581f02f2ebd", "sup_5cc9eecb7b90639f6d3d", "sup_0bc779fd208db092d121"],
+      "branch_refs": ["root_000504/B002"],
+      "connection_refs": [],
+      "contact_refs": ["micro:contact-sovereign-event"],
+      "branch_contributions": [
+        {
+          "branch_ref": "root_000504/B002",
+          "facet_id": "F001",
+          "distinctive_facet": "Bir kişi veya eylem hakkında hükme varıp hesabını görmek.",
+          "surface_carrier": "ٱلدِّينِ",
+          "independent_anchor": "يَوْمِ ile kurulan yinelenen hesap günü formülü ve Mālik'in bu günü yöneten baş olması.",
+          "contribution": "Egemenlik sahnesinin icra içeriğini hüküm ve hesap görme olarak belirler.",
+          "boundary": "Hüküm seçimi, dīn'in diğer bağlılık ve borç baskılarını tamamen yok saymaz."
+        }
+      ],
+      "epistemic_status": "exploratory"
+    },
+    {
+      "finding_ref": "micro:f-sovereign-requital",
+      "candidate_ids": ["cand_b6d98f0c83a6743ebe20"],
+      "proposal_keys": [],
+      "title": "Egemenlik karşılık vererek tamamlanır",
+      "claim": "Dīn, hesaplamayı yapılanın karşılığını verme yönüyle tamamlar; egemenlik böylece yalnızca hükmeden değil, sonuçlandıran güç olur.",
+      "mechanism": "Yawm al-dīn formülündeki son terim, hükmün sonucunu karşılık ve requital olarak sahneye bağlar.",
+      "reader_payoff": "Okur, otoritenin karar vermekle kalmayıp yapılanla orantılı bir sonuç ürettiğini hisseder.",
+      "containment": "Odak ayetiyle sınırlı, exploratory ve legacy_unbound HFT kaydıdır. Sağlanan Arapça yalnızca yüzey temasını doğrular; dal ve rol eşleştirmesi atfedilmiş adaydır. Bu bir sözlük karşılığı değildir; karşılığın bütün ölçütleri bu kısa ifadeden çıkarılmaz.",
+      "support_ids": ["sup_5e5a60a15581f02f2ebd", "sup_5cc9eecb7b90639f6d3d", "sup_0bc779fd208db092d121"],
+      "branch_refs": ["root_000504/B002"],
+      "connection_refs": [],
+      "contact_refs": ["micro:contact-sovereign-event"],
+      "branch_contributions": [
+        {
+          "branch_ref": "root_000504/B002",
+          "facet_id": "F002",
+          "distinctive_facet": "Hesabın sonucuna göre yapılanın karşılığını vermek.",
+          "surface_carrier": "ٱلدِّينِ",
+          "independent_anchor": "Dīn'in yawm'i tanımlayan son terim olması ve formülün tekrarlanan karşılık bağlamı.",
+          "contribution": "Hesap gününü, hükmün karşılığının fiilen verildiği sonuçlandırıcı olay olarak belirler.",
+          "boundary": "Somut ceza listesi veya her türlü mali karşılık bu facetin dışındadır."
+        }
+      ],
+      "epistemic_status": "exploratory"
+    },
+    {
+      "finding_ref": "micro:f-sovereign-named-day",
+      "candidate_ids": ["cand_b6d98f0c83a6743ebe20"],
+      "proposal_keys": [],
+      "title": "Özel gün hesapla adlandırılır",
+      "claim": "Yawm al-dīn, hüküm ve karşılığın gerçekleşeceği özel günü adlandırarak egemenlik olayına sabit bir zaman adı verir.",
+      "mechanism": "Son kesin terim, genitif yawm'i belirli hesap günü olarak tanımlar; Mālik bu adlandırılmış günün sahibidir.",
+      "reader_payoff": "Okur, olayın rastgele bir zaman değil, formülle bilinen ve otoritenin alanına alınmış özel gün olduğunu görür.",
+      "containment": "Odak ayetiyle sınırlı, exploratory ve legacy_unbound HFT kaydıdır. Sağlanan Arapça yalnızca yüzey temasını doğrular; dal ve rol eşleştirmesi atfedilmiş adaydır. Bu bir sözlük karşılığı değildir; özel gün anlamı ilahî nimet veya tarihî gün dallarına yayılmaz.",
+      "support_ids": ["sup_5e5a60a15581f02f2ebd", "sup_5cc9eecb7b90639f6d3d", "sup_0bc779fd208db092d121"],
+      "branch_refs": ["root_000504/B002"],
+      "connection_refs": [],
+      "contact_refs": ["micro:contact-sovereign-event"],
+      "branch_contributions": [
+        {
+          "branch_ref": "root_000504/B002",
+          "facet_id": "F003",
+          "distinctive_facet": "Hüküm, hesap ve karşılığın gerçekleşeceği özel günü adlandırmak.",
+          "surface_carrier": "ٱلدِّينِ",
+          "independent_anchor": "Yawm'in genitif zaman birimi oluşu ve dīn'in kesin son terim olarak formülü tamamlaması.",
+          "contribution": "Hesap olayını belirli ve bilinen bir gün adına sabitler.",
+          "boundary": "Tanrı'nın nimet/bağışlama günleri veya çoğul tarihî günler bu temasın sonucu değildir."
+        }
+      ],
+      "epistemic_status": "exploratory"
+    },
+    {
+      "finding_ref": "micro:f-debt-holder",
+      "candidate_ids": ["cand_ceeeb8799a41d7f31756"],
+      "proposal_keys": [],
+      "title": "Sahip, yükümlülüğün de tutucusudur",
+      "claim": "Mālik, ertelenmiş yükümlülüğün ve onun sonuçlanmasının üzerinde tasarruf sahibi olan tutucu olarak okunabilir.",
+      "mechanism": "Mālik'in sahiplik/tasarruf facetine, dīn'in borç ve hesap baskısı bağlanır; yawm bu ilişkinin alanını verir.",
+      "reader_payoff": "Okur, hesap günündeki otoritenin yalnızca tarihi bilen değil, borcun kime ve nasıl karşılık bulacağını elinde tutan güç olduğunu hisseder.",
+      "containment": "Odak ayetiyle sınırlı, exploratory ve legacy_unbound HFT kaydıdır. Sağlanan Arapça yalnızca yüzey temasını doğrular; dal ve rol eşleştirmesi atfedilmiş adaydır. Bu bir sözlük karşılığı değildir; gerçek bir kredi sözleşmesi veya insanî alacaklı kurulmaz.",
+      "support_ids": ["sup_9076b32659455b9ab4a1", "sup_613fd4393bdcab97ac78", "sup_819f8345fb1c0289c479"],
+      "branch_refs": ["root_001444/B002"],
+      "connection_refs": [],
+      "contact_refs": ["micro:contact-debt-maturity"],
+      "branch_contributions": [
+        {
+          "branch_ref": "root_001444/B002",
+          "facet_id": "F001",
+          "distinctive_facet": "Bir kişi, mal veya hak üzerinde sahiplikten doğan elinde bulundurma ve tasarruf yetkisine sahiptir.",
+          "surface_carrier": "مَٰلِكِ",
+          "independent_anchor": "Dīn'in mali yükümlülük baskısı ile Mālik'in doğrudan yawm'i yönetmesi.",
+          "contribution": "Sahiplik gücünü ertelenmiş yükümlülüğün tutulması ve sonuçlandırılması görüntüsüne bağlar.",
+          "boundary": "Sahiplik devri, köleleştirme veya belirli bir sözleşme türü iddia edilmez."
+        }
+      ],
+      "epistemic_status": "exploratory"
+    },
+    {
+      "finding_ref": "micro:f-debt-duration",
+      "candidate_ids": ["cand_ceeeb8799a41d7f31756"],
+      "proposal_keys": [],
+      "title": "Açık süre yükümlülüğün olgunlaşma alanıdır",
+      "claim": "Yawm, yükümlülüğün sonuçlanmasına kadar uzanan ve uzunluğu önceden sabitlenmeyen süreyi taşıyabilir.",
+      "mechanism": "Genitif zaman ismi, Mālik'in alanı ile dīn'in borç baskısı arasına ertelenmiş bir aralık koyar.",
+      "reader_payoff": "Okur, hesap anını tek bir kopuk nokta değil, borcun olgunlaşıp karşılığın geldiği süre sonu olarak hisseder.",
+      "containment": "Odak ayetiyle sınırlı, exploratory ve legacy_unbound HFT kaydıdır. Sağlanan Arapça yalnızca yüzey temasını doğrular; dal ve rol eşleştirmesi atfedilmiş adaydır. Bu bir sözlük karşılığı değildir; uzun çağ veya belirli bir yaşam dönemi anlamı için ek tetik yoktur.",
+      "support_ids": ["sup_9076b32659455b9ab4a1", "sup_51cf6e466b7c15530bf3"],
+      "branch_refs": ["root_001700/B002"],
+      "connection_refs": [],
+      "contact_refs": ["micro:contact-debt-maturity"],
+      "branch_contributions": [
+        {
+          "branch_ref": "root_001700/B002",
+          "facet_id": "F001",
+          "distinctive_facet": "Herhangi bir uzunluktaki zaman süresini belirtir ve bilinen gündüz sınırlarına bağlı değildir.",
+          "surface_carrier": "يَوْمِ",
+          "independent_anchor": "Dīn'in yükümlülük/hesap alanı ve Mālik'in bu alanı sahiplenmesi.",
+          "contribution": "Günü, mali sorumluluğun vadesine kadar açık kalan süre olarak duyurur.",
+          "boundary": "Bir varlığın çağları veya belirli uzun bir epoch için bağımsız bağlam yoktur."
+        }
+      ],
+      "epistemic_status": "exploratory"
+    },
+    {
+      "finding_ref": "micro:f-debt-liability",
+      "candidate_ids": ["cand_ceeeb8799a41d7f31756"],
+      "proposal_keys": [],
+      "title": "Hesap yükümlülük vadesini kapatır",
+      "claim": "Dīn, soyut hükmün yanı sıra vadesi gelen mali yükümlülüğün ve onun karşılığının kapanışını duyurabilir.",
+      "mechanism": "Dīn'in borç facetine yawm'in açık süresi ve Mālik'in tasarruf sahibi oluşu bağlanarak bir olgunlaşma mekanizması kurulur.",
+      "reader_payoff": "Okur, hüküm ve karşılığı, ödenmesi gerekenin sonunda hesabının görülmesi olarak daha maddi bir sorumluluk duygusuyla kavrar.",
+      "containment": "Odak ayetiyle sınırlı, exploratory ve legacy_unbound HFT kaydıdır. Sağlanan Arapça yalnızca yüzey temasını doğrular; dal ve rol eşleştirmesi atfedilmiş adaydır. Bu bir sözlük karşılığı değildir; somut ödünç verme, alma veya satış yoktur ve merkezî hesap anlamı korunur.",
+      "support_ids": ["sup_9076b32659455b9ab4a1", "sup_5cc9eecb7b90639f6d3d", "sup_4589d16da66ea5b6fe31"],
+      "branch_refs": ["root_000504/B003"],
+      "connection_refs": [],
+      "contact_refs": ["micro:contact-debt-maturity"],
+      "branch_contributions": [
+        {
+          "branch_ref": "root_000504/B003",
+          "facet_id": "F001",
+          "distinctive_facet": "Mal veya paranın borç olarak alınması ya da verilmesiyle mali yükümlülük doğması.",
+          "surface_carrier": "ٱلدِّينِ",
+          "independent_anchor": "Yawm'in süre alanı ve Mālik'in bu alan üzerinde tasarruf sahibi olması.",
+          "contribution": "Hesap ve karşılığı, vadesi gelen bir yükümlülüğün kapanışı gibi maddileştirir.",
+          "boundary": "F002-F004 için ödünç veren, alan veya ileri tarihli satış tetikleyicisi bulunmaz."
+        }
+      ],
+      "epistemic_status": "exploratory"
+    },
+    {
+      "finding_ref": "micro:f-regime-authority",
+      "candidate_ids": ["cand_b6d347cb5abb89b72475"],
+      "proposal_keys": [],
+      "title": "Düzenin otoritesi Mālik'te toplanır",
+      "claim": "Mālik, ibadet ve bağlılıkla sürdürülen düzeni emir alanı altında tutan otorite olarak da okunabilir.",
+      "mechanism": "Kamusal yönetim facetinin emir/yasak çekirdeği, dīn'in itaat ve düzen alanı ile yawm'in süre alanına bağlanır.",
+      "reader_payoff": "Okur, sahiplik başlığını yalnızca hesap anına değil, düzenin nasıl yönetildiğine de bağlar.",
+      "containment": "Odak ayetiyle sınırlı, exploratory ve legacy_unbound HFT kaydıdır. Sağlanan Arapça yalnızca yüzey temasını doğrular; dal ve rol eşleştirmesi atfedilmiş adaydır. Bu bir sözlük karşılığı değildir; insanî yönetim kurumları veya bütün tarihsel rejimler çıkarılmaz.",
+      "support_ids": ["sup_ec98c3825f872a39c0a9", "sup_613fd4393bdcab97ac78", "sup_a72e773b70cd46efe06b"],
+      "branch_refs": ["root_001444/B003"],
+      "connection_refs": [],
+      "contact_refs": ["micro:contact-obedience-regime"],
+      "branch_contributions": [
+        {
+          "branch_ref": "root_001444/B003",
+          "facet_id": "F001",
+          "distinctive_facet": "Hükümdar, halk üzerinde emir ve yasak koyarak kamusal yönetim yetkisi kullanır.",
+          "surface_carrier": "مَٰلِكِ",
+          "independent_anchor": "Mālik'in aktif sahiplik başı olması ve dīn'in bağlılık düzenini adlandırması.",
+          "contribution": "İtaat düzeninin arkasında emir ve yasak koyan bir otorite görüntüsü kurar.",
+          "boundary": "İlahî bağlamdaki sınırlı yetki görüntüsü, insanî siyasal kurum veya ülke yönetimi değildir."
+        }
+      ],
+      "epistemic_status": "exploratory"
+    },
+    {
+      "finding_ref": "micro:f-regime-obedience",
+      "candidate_ids": ["cand_b6d347cb5abb89b72475"],
+      "proposal_keys": [],
+      "title": "Düzen boyun eğme ilişkisiyle sürer",
+      "claim": "Dīn, hesap anlamının yanında üstün iradeye boyun eğerek sürdürülen bir bağlılık düzenini duyurabilir.",
+      "mechanism": "Mālik'in üstün otoritesi ve yawm'in süre alanı, dīn'in genel itaat facetini uygulanır bir düzen biçimine sokar.",
+      "reader_payoff": "Okur, düzenin yalnızca soyut kural değil, ona boyun eğenlerin tekrar eden ilişkisi olduğunu fark eder.",
+      "containment": "Odak ayetiyle sınırlı, exploratory ve legacy_unbound HFT kaydıdır. Sağlanan Arapça yalnızca yüzey temasını doğrular; dal ve rol eşleştirmesi atfedilmiş adaydır. Bu bir sözlük karşılığı değildir; kanonik hesap anlamı birincildir.",
+      "support_ids": ["sup_ec98c3825f872a39c0a9", "sup_5cc9eecb7b90639f6d3d", "sup_02c8df68324c0e51b0eb"],
+      "branch_refs": ["root_000504/B001"],
+      "connection_refs": [],
+      "contact_refs": ["micro:contact-obedience-regime"],
+      "branch_contributions": [
+        {
+          "branch_ref": "root_000504/B001",
+          "facet_id": "F001",
+          "distinctive_facet": "Bir üstün iradesine boyun eğme ve onun buyruğuna uyma.",
+          "surface_carrier": "ٱلدِّينِ",
+          "independent_anchor": "Mālik'in üstün sahiplik/otorite başı ve yawm'in bu otoriteye bağlı süre alanı olması.",
+          "contribution": "Hesap düzenine itaat etme ve buyruğa uyma ilişkisini görünür kılar.",
+          "boundary": "Zorla egemenlik veya köleleştirme facetleri bu katkıya dahil değildir."
+        }
+      ],
+      "epistemic_status": "exploratory"
+    },
+    {
+      "finding_ref": "micro:f-regime-worship",
+      "candidate_ids": ["cand_b6d347cb5abb89b72475"],
+      "proposal_keys": [],
+      "title": "İtaat ilahî bağlamda kulluğa döner",
+      "claim": "İlahî niteleme zinciri ve sonraki doğrudan kulluk yönelimi, dīn'in bağlılık çekirdeğini kulluk biçiminde duyurabilir.",
+      "mechanism": "Dīn'in Tanrı'ya yönelen özel kullanım facetini, Mālik'in ilahî sahiplik başlığı ve ayetin ileri ibadet talebine yönü tetikler.",
+      "reader_payoff": "Okur, hesap düzeniyle kulluk çağrısının aynı üstün irade ilişkisi içinde birleştiğini görür.",
+      "containment": "Odak ayetiyle sınırlı, exploratory ve legacy_unbound HFT kaydıdır. Sağlanan Arapça yalnızca yüzey temasını doğrular; dal ve rol eşleştirmesi atfedilmiş adaydır. Bu bir sözlük karşılığı değildir; sonraki kulluk ifadesi bu ayetin içine tam bir fiil cümlesi olarak taşınmaz.",
+      "support_ids": ["sup_ec98c3825f872a39c0a9", "sup_613fd4393bdcab97ac78", "sup_459b2375c87d374c5011"],
+      "branch_refs": ["root_000504/B001"],
+      "connection_refs": [],
+      "contact_refs": ["micro:contact-obedience-regime"],
+      "branch_contributions": [
+        {
+          "branch_ref": "root_000504/B001",
+          "facet_id": "F002",
+          "distinctive_facet": "Tanrı söz konusu olduğunda bağlılığın kulluk etme biçimini alması.",
+          "surface_carrier": "ٱلدِّينِ",
+          "independent_anchor": "Mālik'in ilahî niteleme zincirini sürdürmesi ve yerel söylemin doğrudan kulluk talebine yönelmesi.",
+          "contribution": "Genel boyun eğme ilişkisini ilahî kulluk biçiminde yoğunlaştırır.",
+          "boundary": "Kulluk facetinin baskısı, ayette açıkça bulunmayan ek ritüel ayrıntıları üretmez."
+        }
+      ],
+      "epistemic_status": "exploratory"
+    },
+    {
+      "finding_ref": "micro:f-regime-law",
+      "candidate_ids": ["cand_b6d347cb5abb89b72475"],
+      "proposal_keys": [],
+      "title": "İtaat izlenen kurallar düzenine uzanır",
+      "claim": "Dīn, hesap anlamını koruyarak bağlı olunan inanç yolu ve kurallar bütününün adını da arka planda taşıyabilir.",
+      "mechanism": "Kesin soyut isim, yawm'i tanımlayan düzen terimi olarak Mālik'in otoritesi altında izlenen bir yol alanı kurar.",
+      "reader_payoff": "Okur, hesap gününü yalnızca sonucun günü değil, bağlılık ve kural düzeninin hesaba çekildiği ufuk olarak algılar.",
+      "containment": "Odak ayetiyle sınırlı, exploratory ve legacy_unbound HFT kaydıdır. Sağlanan Arapça yalnızca yüzey temasını doğrular; dal ve rol eşleştirmesi atfedilmiş adaydır. Bu bir sözlük karşılığı değildir; dīn'in yerel hesap seçimi korunur ve tam bir doktrin tanımı yapılmaz.",
+      "support_ids": ["sup_ec98c3825f872a39c0a9", "sup_01013f3d0430275cbec1", "sup_5cc9eecb7b90639f6d3d"],
+      "branch_refs": ["root_000504/B001"],
+      "connection_refs": [],
+      "contact_refs": ["micro:contact-obedience-regime"],
+      "branch_contributions": [
+        {
+          "branch_ref": "root_000504/B001",
+          "facet_id": "F003",
+          "distinctive_facet": "İnanç yolu ve kurallar bütünü, onlara uyma ve bağlanma ilişkisi açısından adlandırılır.",
+          "surface_carrier": "ٱلدِّينِ",
+          "independent_anchor": "Dīn'in kesin ve sistem adlandıran son isim oluşu, Mālik'in otoritesi ve yawm'in bu düzeni taşıyan alanı.",
+          "contribution": "Hesap ufkuna izlenen yol ve kuralların bağlayıcılığı yönünü ekler.",
+          "boundary": "Kural facetinin varlığı, yerel ifadeyi bütün bir kurum veya ayrıntılı hukuk sistemi anlatısına dönüştürmez."
+        }
+      ],
+      "epistemic_status": "exploratory"
+    },
+    {
+      "finding_ref": "micro:f-regime-duration",
+      "candidate_ids": ["cand_b6d347cb5abb89b72475"],
+      "proposal_keys": [],
+      "title": "Bağlılık düzeni zaman içinde kurulur",
+      "claim": "Yawm, itaat ve kurallarla biçimlenen düzenin üzerinde sürdüğü açık zaman alanını sağlar.",
+      "mechanism": "Yawm'in süre facetine dīn'in bağlılık sistemi ve Mālik'in otoritesi bağlanır.",
+      "reader_payoff": "Okur, düzeni tek anlık hüküm değil, zaman içinde yaşayan bir bağlılık alanı olarak da tasavvur eder.",
+      "containment": "Odak ayetiyle sınırlı, exploratory ve legacy_unbound HFT kaydıdır. Sağlanan Arapça yalnızca yüzey temasını doğrular; dal ve rol eşleştirmesi atfedilmiş adaydır. Bu bir sözlük karşılığı değildir; belirli bir çağ veya tarih dönemi anlamı kurulmaz.",
+      "support_ids": ["sup_ec98c3825f872a39c0a9", "sup_51cf6e466b7c15530bf3", "sup_5cc9eecb7b90639f6d3d"],
+      "branch_refs": ["root_001700/B002"],
+      "connection_refs": [],
+      "contact_refs": ["micro:contact-obedience-regime"],
+      "branch_contributions": [
+        {
+          "branch_ref": "root_001700/B002",
+          "facet_id": "F001",
+          "distinctive_facet": "Herhangi bir uzunluktaki zaman süresini belirtir ve bilinen gündüz sınırlarına bağlı değildir.",
+          "surface_carrier": "يَوْمِ",
+          "independent_anchor": "Dīn'in tekrarlanan itaat/kural düzeni ve Mālik'in bu düzen üzerindeki otoritesi.",
+          "contribution": "Bağlılık düzeninin sürdüğü, gündüzle sınırlı olmayan temporal alanı açar.",
+          "boundary": "Uzun bir çağ, tarih dönemi veya yaşam evreleri için ek bağımsız tetik yoktur."
+        }
+      ],
+      "epistemic_status": "exploratory"
+    },
+    {
+      "finding_ref": "micro:f-cohesive-order",
+      "candidate_ids": ["cand_85368a4b3f75ed141a49"],
+      "proposal_keys": [],
+      "title": "Düzen bir arada tutulur",
+      "claim": "Mālik, zaman içinde sürdürülen dīn düzenini parçaları dağılmadan bir arada tutan merkez olarak da hayal edilebilir.",
+      "mechanism": "İzafet zincirinin birbirine bağlanması, yawm'in süre alanı ve dīn'in düzen niteliği, sahipliği sistemin iç tutarlılığına çevirir.",
+      "reader_payoff": "Okur, otoritenin yalnızca dışarıdan hükmetmediğini, düzeni içeriden tutarlı kılan bir merkez gibi çalıştığını görür.",
+      "containment": "Odak ayetiyle sınırlı, exploratory ve legacy_unbound HFT kaydıdır. Sağlanan Arapça yalnızca yüzey temasını doğrular; dal ve rol eşleştirmeleri atfedilmiş adaylardır. Bu bir sözlük karşılığı değildir. Hamur, bitki, kalp ve somut fiziksel tutarlılık örnekleri aktarılmaz; şehir dalı kullanılmaz.",
+      "support_ids": ["sup_247e039079f06dc5170b", "sup_17b1771aa0e4a29e83b1", "sup_613fd4393bdcab97ac78"],
+      "branch_refs": ["root_001444/B001"],
+      "connection_refs": [],
+      "contact_refs": ["micro:contact-mainstay-order"],
+      "branch_contributions": [
+        {
+          "branch_ref": "root_001444/B001",
+          "facet_id": "F001",
+          "distinctive_facet": "Bir şey, parçaları çözülmeden bir arada duracak güç ve iç tutarlılık taşır.",
+          "surface_carrier": "مَٰلِكِ",
+          "independent_anchor": "Üçlü izafet zincirinin bağlı kuruluşu ve dīn'in zaman alanında sürdürülen düzen olarak kurulması.",
+          "contribution": "Sahiplik ve otoriteyi, düzenin dağılmadan bir arada tutulduğu yapısal bir imgeye dönüştürür.",
+          "boundary": "Özel fiziksel nesne, hamur, bitki veya kişi örneği bu ayete taşınmaz."
+        }
+      ],
+      "epistemic_status": "exploratory"
+    },
+    {
+      "finding_ref": "micro:f-mainstay",
+      "candidate_ids": ["cand_85368a4b3f75ed141a49"],
+      "proposal_keys": [],
+      "title": "Mālik düzenin dayanağı gibi duyulur",
+      "claim": "Mālik, temporal ve alışılmış dīn düzeninin ayakta kalmasını sağlayan temel dayanak olarak da duyulabilir.",
+      "mechanism": "Mālik'in sahiplik başı oluşu, yawm'in süre alanı ve dīn'in tekrarlanan düzen facetine bağlanır.",
+      "reader_payoff": "Okur, otoriteyi tek bir karar anı değil, düzenin devamını ve tamamlanmasını sağlayan merkez olarak hisseder.",
+      "containment": "Odak ayetiyle sınırlı, exploratory ve legacy_unbound HFT kaydıdır. Sağlanan Arapça yalnızca yüzey temasını doğrular; dal ve rol eşleştirmeleri atfedilmiş adaylardır. Bu bir sözlük karşılığı değildir. Kalp örneği veya belirli bir maddi dayanak aktarılmaz; şehir dalı dışarıda tutulur.",
+      "support_ids": ["sup_247e039079f06dc5170b", "sup_613fd4393bdcab97ac78", "sup_51cf6e466b7c15530bf3", "sup_5cc9eecb7b90639f6d3d"],
+      "branch_refs": ["root_001444/B005"],
+      "connection_refs": [],
+      "contact_refs": ["micro:contact-mainstay-order"],
+      "branch_contributions": [
+        {
+          "branch_ref": "root_001444/B005",
+          "facet_id": "F001",
+          "distinctive_facet": "Bir unsur, daha büyük bir işin veya düzenin dayandığı ve onun düzgün işlemesini sağlayan temeldir.",
+          "surface_carrier": "مَٰلِكِ",
+          "independent_anchor": "Mālik'in dīn düzenini tanımlayan yawm'i yönetmesi ve zincirin sistemik kuruluşu.",
+          "contribution": "Sahiplik başlığını, zaman içinde sürdürülen düzenin dayandığı ana unsur olarak yeniden çerçeveler.",
+          "boundary": "Belirli bir organ veya kalp örneği için bağımsız taşıyıcı yoktur."
+        }
+      ],
+      "epistemic_status": "exploratory"
+    },
+    {
+      "finding_ref": "micro:f-customary-order",
+      "candidate_ids": ["cand_85368a4b3f75ed141a49"],
+      "proposal_keys": [],
+      "title": "Hesap adı tekrarlanan düzeni taşıyabilir",
+      "claim": "Dīn, hesap anlamının arkasında tekrarla yerleşen ve zaman içinde sürdürülen bir düzen olarak da duyulabilir.",
+      "mechanism": "Kesin soyut isim oluşu, yawm'in süre alanı ve Mālik'in dayanak/otorite çerçevesi, alışılmış düzen facetini yerel bir sistem görüntüsüne bağlar.",
+      "reader_payoff": "Okur, hesabın yalnızca tek seferlik bir sonuç değil, sürdürülen bir düzenin karşılığı olduğunu sezer.",
+      "containment": "Odak ayetiyle sınırlı, exploratory ve legacy_unbound HFT kaydıdır. Sağlanan Arapça yalnızca yüzey temasını doğrular; dal ve rol eşleştirmeleri atfedilmiş adaylardır. Bu bir sözlük karşılığı değildir. Belirli bir toplumun tarihsel tutumu veya şehir anlamı çıkarılmaz.",
+      "support_ids": ["sup_247e039079f06dc5170b", "sup_5cc9eecb7b90639f6d3d", "sup_51cf6e466b7c15530bf3"],
+      "branch_refs": ["root_000504/B005"],
+      "connection_refs": [],
+      "contact_refs": ["micro:contact-mainstay-order"],
+      "branch_contributions": [
+        {
+          "branch_ref": "root_000504/B005",
+          "facet_id": "F001",
+          "distinctive_facet": "Tekrarlanarak yerleşmiş alışkanlık veya sürekli yapılan iş.",
+          "surface_carrier": "ٱلدِّينِ",
+          "independent_anchor": "Dīn'in kesin soyut sistem adı olması ve yawm'in bu sistem için temporal alan kurması.",
+          "contribution": "Hesap düzenini tekrarla yerleşen ve zaman içinde sürdürülen pratik bir düzen olarak duyurur.",
+          "boundary": "Belirli kişi/topluluk tutumu, şehir veya mali borç anlamı bu katkıya dahil değildir."
+        }
+      ],
+      "epistemic_status": "exploratory"
+    },
+    {
+      "finding_ref": "micro:f-order-duration",
+      "candidate_ids": ["cand_85368a4b3f75ed141a49"],
+      "proposal_keys": [],
+      "title": "Düzenin alanı zamana yayılır",
+      "claim": "Yawm, alışılmış ve kurumsal düzenin üzerinde sürdüğü açık zaman alanını sağlar.",
+      "mechanism": "Yawm'in gündüzle sınırlı olmayan süre facetine Mālik'in dayanaklığı ve dīn'in customary order basıncı bağlanır.",
+      "reader_payoff": "Okur, düzeni tek bir olay anı değil, devamlılık kazanan bir zaman alanı içinde düşünür.",
+      "containment": "Odak ayetiyle sınırlı, exploratory ve legacy_unbound HFT kaydıdır. Sağlanan Arapça yalnızca yüzey temasını doğrular; dal ve rol eşleştirmeleri atfedilmiş adaylardır. Bu bir sözlük karşılığı değildir. Uzun çağ veya belirli tarih dönemi ayrıca iddia edilmez.",
+      "support_ids": ["sup_247e039079f06dc5170b", "sup_51cf6e466b7c15530bf3"],
+      "branch_refs": ["root_001700/B002"],
+      "connection_refs": [],
+      "contact_refs": ["micro:contact-mainstay-order"],
+      "branch_contributions": [
+        {
+          "branch_ref": "root_001700/B002",
+          "facet_id": "F001",
+          "distinctive_facet": "Herhangi bir uzunluktaki zaman süresini belirtir ve bilinen gündüz sınırlarına bağlı değildir.",
+          "surface_carrier": "يَوْمِ",
+          "independent_anchor": "Dīn'in tekrarla sürdürülen düzen olarak okunması ve Mālik'in bu düzeni taşıyan merkez olması.",
+          "contribution": "Düzenin sürdüğü gündüz dışı açık süreyi sağlar.",
+          "boundary": "Varlık çağı veya uzun epoch facetine bağımsız yerel tetik verilmez."
+        }
+      ],
+      "epistemic_status": "exploratory"
+    }
+  ],
+  "friction_notes": [
+    {
+      "note": "Dört HFT kaydı exact Arabic ile yüzey temasına sahiptir, fakat reader identity legacy_unbound ve branch/rol eşleştirmeleri atfedilmiş adaylardır. Bu nedenle temaslar görünür bırakıldı, her biri micro kapsamı ve not-a-lexical-gloss sınırıyla exploratory/narrow tutuldu.",
+      "related_refs": ["cand_b6d98f0c83a6743ebe20", "cand_ceeeb8799a41d7f31756", "cand_b6d347cb5abb89b72475", "cand_85368a4b3f75ed141a49"],
+      "inspection": "Reconciler HFT raw support payloadlarını canlı alternatifleriyle birlikte taşımalı; provenance görünürlüğü azaltmamalıdır."
+    },
+    {
+      "note": "Yawm'in genitif oluşu, kanonik ifadeyi izafet zincirinde tutar; accusative/adverbial varyantlar yalnızca kontrasttır. Bu gramer kararı, günün nötr arka plan olarak okunmasını sınırlar.",
+      "related_refs": ["micro:f-day-hinge", "micro:f-case-contrast", "micro:f-day-named"],
+      "inspection": "Kıraat varyantları kanonik parseın yerine geçirilmemeli, fakat genitifin okuyucu getirisi de silinmemelidir."
+    },
+    {
+      "note": "Dīn için hüküm ve karşılık yerel merkezdir; itaat, kulluk, izlenen yol, borç ve customary order baskıları gerçek fakat farklı erişimlere sahiptir. Borç ve düzen temasları somut kredi, şehir veya zorlayıcı egemenlik anlamına taşınmadı.",
+      "related_refs": ["micro:contact-ordered-way", "micro:contact-debt-image", "micro:contact-polyvalent", "micro:contact-mainstay-order"],
+      "inspection": "Birleştirme sırasında yan baskılar korunmalı, tek bir düz 'din' veya tek bir düz 'hesap' karşılığına indirgenmemelidir."
+    },
+    {
+      "note": "Ses ve kafiye bulguları gerçek bir işitsel kapanış sağlar, ancak bağımsız bir sözlük anlamı veya gramer ilişkisi üretmez.",
+      "related_refs": ["micro:f-head-sound", "micro:f-day-sound-binding", "micro:f-final-sound"],
+      "inspection": "Ses temasını semantik kanıtın yerine koymadan, okuyucunun duyacağı basınç olarak koruyun."
+    },
+    {
+      "note": "HFT mainstay adayındaki root_000504/B006 civic/city uzantısı gerçek taşıyıcı ve bağımsız yerleşim tetikleyicisi taşımadığı için dışlandı; kalan cohesion/mainstay/customary/duration çekirdeği korunmuştur.",
+      "related_refs": ["cand_85368a4b3f75ed141a49", "root_000504/B006", "micro:contact-mainstay-order"],
+      "inspection": "Şehir dalı, yalnızca HFT payloadında geçtiği için accepted findinge geri sokulmamalıdır."
+    }
+  ]
+}

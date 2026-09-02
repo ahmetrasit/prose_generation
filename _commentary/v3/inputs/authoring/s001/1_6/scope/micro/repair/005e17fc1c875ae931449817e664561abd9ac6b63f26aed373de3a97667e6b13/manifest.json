@@ -1,0 +1,25 @@
+{
+  "authoring_request_sha256": "005e17fc1c875ae931449817e664561abd9ac6b63f26aed373de3a97667e6b13",
+  "ayah_ref": "1:6",
+  "expected_outputs": null,
+  "expected_response": "_commentary/v3/outputs/authoring/s001/1_6/scope/micro/repair/005e17fc1c875ae931449817e664561abd9ac6b63f26aed373de3a97667e6b13/review.json",
+  "inputs": {
+    "ayah_ref": "1:6",
+    "lane": "micro",
+    "lane_packet_sha256": "f1e07d4b96b42d5ad724635f4db9211df67558fba578b820c256b871e80ce988",
+    "prior_review_sha256": "9958116d8632a679c7dc434dab6f0d4ef38baf1b137851eedcba82879e4fcfea",
+    "reconciled_sha256": "670045dfb17c05ed08bbd7f1d259cc9ceef3447c33373c91690ce7ceaf778d9f",
+    "repair_iteration": 1,
+    "repair_phase": "scope_validation",
+    "repair_requests_sha256": "4c2db3ae01a4df2db7a1bcacad043ccc0b31fbd9ae2fc6fb8c9da744b3517d22",
+    "scope_template_sha256": "75f233e513b724d90ad1f5c0c8fa461bb7dea2a65c3fd2dc71c14b3c7bf65b72",
+    "scope_validation_exception_paths": [
+      "candidate_decisions[candidate_id=cand_cd1e169d1053188bac51].decision"
+    ],
+    "wrapper_template_sha256": "4a67025d3c1c07011674ecf89e94718d5097f29f3ede4f2966200538f97d009b"
+  },
+  "prompt_bytes": 533566,
+  "prompt_sha256": "f83b91d367c177990b73f9f8f797f4e21a0051b978cdacfe40605a8afd42eadb",
+  "schema_version": "commentary-v3-authoring-prompt-manifest-v1",
+  "stage": "scope-micro-repair"
+}

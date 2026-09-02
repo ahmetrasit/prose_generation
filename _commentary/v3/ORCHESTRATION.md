@@ -22,9 +22,14 @@ length, paragraph, thesis, or prose-density gate.
    an agent message. Give the worker the absolute `prompt_path` returned by the
    workflow and only a short instruction to read that file completely and
    follow it exactly. When using the approved native multi-agent adapter, the
-   wrapper may also name the returned `expected_response` or
-   `expected_outputs` path(s) so the worker can write its own contracted
-   artifact. The wrapper must not add substantive analysis or coaching.
+   wrapper **must** also name the returned `expected_response` or complete
+   `expected_outputs` path map so the worker can write its own contracted
+   artifact. Here, "path-only" means that prompt contents are omitted; it does
+   not mean that the prompt path may be sent without the output path. Never
+   derive an output path from a prompt path, a prior turn, or an original
+   review path. The returned output path is the worker's write target and its
+   write authority; do not ask the user or orchestrator for permission to use
+   it. The wrapper must not add substantive analysis or coaching.
 4. Use persistent agent sessions. An ephemeral agent is forbidden. Follow the
    returned `conversation_action` exactly:
    - `start` means a genuinely fresh session;
@@ -195,6 +200,11 @@ Each item in `handoffs[]` is authoritative. Check these fields before launch:
 - `session_persistence_required: true`;
 - `ephemeral_session_forbidden: true`.
 
+Fail closed before sending any message if a single-file worker lacks
+`expected_response` or a multi-output worker lacks the complete
+`expected_outputs` map. Never send the original prompt-only handoff and hope
+the worker can recover its destination from adjacent manifests or prior turns.
+
 ### Starting a conversation
 
 1. Launch one fresh persistent worker with the required model and reasoning
@@ -214,14 +224,17 @@ Each item in `handoffs[]` is authoritative. Check these fields before launch:
    Read this file completely and follow it exactly:
    /absolute/path/from/prompt_path
 
-   Write your contracted response yourself to:
+   You are authorized to write the contracted artifact to the exact path below.
+   Do not ask for permission to write it, and do not use any other destination:
    /absolute/path/from/expected_response
    ```
 
-   For canonical writer handoffs, replace the JSON-response line with the
-   returned `expected_outputs` paths when the prompt does not already name them
-   clearly. Do not add interpretation, advice, summaries, or selected evidence
-   outside the hermetic prompt.
+   For canonical writer handoffs, replace the JSON-response line with every
+   returned `expected_outputs` path, one per line. Include the complete returned
+   map even when the prompt also names those paths; the wrapper's handoff is the
+   write authorization and must be independently sufficient. Do not add
+   interpretation, advice, summaries, or selected evidence outside the hermetic
+   prompt.
 3. As soon as a session ID is available, execute the returned
    `session_record_command`, replacing only `<returned-session-id>`.
 4. Wait patiently for completion.
@@ -230,9 +243,10 @@ Each item in `handoffs[]` is authoritative. Check these fields before launch:
 
 1. Resume exactly the returned `session_id` using the same model profile.
 2. Send the same prompt-path instruction with the newly returned absolute
-   prompt path. When using the native multi-agent adapter, include only the
-   newly returned `expected_response` or `expected_outputs` path(s) as described
-   above.
+   prompt path. When using the native multi-agent adapter, the message must
+   include the newly returned `expected_response` or complete
+   `expected_outputs` path map as described above. Do not rely on the agent's
+   prior destination or infer a repair path.
 3. Do not create or record a new session receipt.
 4. Wait patiently for completion.
 
@@ -299,8 +313,9 @@ spawn_persistent(
   model=LUNA_5_6, reasoning=MAX,
   message="Read this file completely and follow it exactly:\n" +
           handoff.prompt_path + "\n\n" +
-          "Write your contracted response yourself to:\n" +
-          handoff.expected_response
+          "You are authorized to write the contracted artifact to these exact\n" +
+          "canonical path(s); do not ask for permission or use another path:\n" +
+          format_expected_response_or_outputs(handoff)
 ) -> session_id
 
 resume_persistent(
@@ -308,15 +323,19 @@ resume_persistent(
   model=LUNA_5_6, reasoning=MAX,
   message="Read this file completely and follow it exactly:\n" +
           handoff.prompt_path + "\n\n" +
-          "Write your contracted response yourself to:\n" +
-          handoff.expected_response
+          "You are authorized to write the contracted artifact to these exact\n" +
+          "canonical path(s); do not ask for permission or use another path:\n" +
+          format_expected_response_or_outputs(handoff)
 )
 ```
 
 For this adapter, `workspace_access` is treated as the workflow's declared
 intent, but the enforcement boundary is weaker than an executor-native
-read-only/write split. The orchestrator must not compensate manually; it relies
-on session receipts, expected paths, canonical writer guards, Git-visible
+read-only/write split. On every worker-writing handoff, the returned
+`expected_response` or `expected_outputs` path is an explicit grant to write
+the contracted artifact; the worker must not ask for separate permission and
+must not write elsewhere. The orchestrator must not compensate manually; it
+relies on session receipts, expected paths, canonical writer guards, Git-visible
 change checks, hashes, and the next `authoring-advance` validation to accept or
 reject the turn. Record the returned multi-agent ID as the session ID.
 
@@ -327,6 +346,21 @@ The canonical merge and editorial workers receive the executor's real
 content-addressed `workspace_guard` plus its returned byte hash. Retain that
 path/hash pair in the orchestrator's own handoff state; never let the worker
 select or replace it. They write the four output paths themselves.
+
+This guard creates a repository-wide orchestration barrier. Before launching a
+guarded canonical-writer turn, materialize every deterministic input, manifest,
+handoff, and other workflow artifact that any parallel ayah may need. Once the
+guard snapshot is returned, freeze the repository against other
+`authoring-advance` calls, prompt or manifest generation, repair generation,
+receipt creation, and manual writes until that writer's turn receipt and any
+required editorial follow-up receipt are recorded. Other agents may continue
+only when their prompts, manifests, guards, and output paths were already
+materialized before the snapshot and they write solely to those declared paths.
+Do not run two guarded canonical-writer turns concurrently in the same
+workspace. If this barrier is violated, fail loudly and do not broaden guard
+exclusions, edit the guard, or record the turn; start a new content-addressed
+turn only after the workspace is quiescent.
+
 The workflow snapshots Git-visible state before the handoff and verifies it at
 turn receipt time. Any undeclared change is a loud failure. The guard's semantic
 hash must equal its filename; there must be exactly one guard; and only that

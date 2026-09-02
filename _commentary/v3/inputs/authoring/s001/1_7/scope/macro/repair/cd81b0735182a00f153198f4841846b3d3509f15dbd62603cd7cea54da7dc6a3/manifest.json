@@ -1,0 +1,33 @@
+{
+  "authoring_request_sha256": "cd81b0735182a00f153198f4841846b3d3509f15dbd62603cd7cea54da7dc6a3",
+  "ayah_ref": "1:7",
+  "expected_outputs": null,
+  "expected_response": "_commentary/v3/outputs/authoring/s001/1_7/scope/macro/repair/cd81b0735182a00f153198f4841846b3d3509f15dbd62603cd7cea54da7dc6a3/review.json",
+  "inputs": {
+    "ayah_ref": "1:7",
+    "lane": "macro",
+    "lane_packet_sha256": "49a59dd9aa3fd3d6be661ec20af18f018bce1cf3865a0117c3479570f68c567c",
+    "prior_review_sha256": "68fcb36099b4867cede6008d5e2b0368fb765afff16f46ba900eefcc6bd3c849",
+    "reconciled_sha256": "f8e8bcffe24c0611a2ba528f4f4a832d74466ae348d3b9cf7deb44f01d6beeb6",
+    "repair_iteration": 4,
+    "repair_phase": "scope_validation",
+    "repair_requests_sha256": "81099595c68a39c30b9ed9946309dbd4d09977ad53d03203a717fa91909faeca",
+    "scope_template_sha256": "65d7ff1fcbaa048e497f51297cc15a16728a5583b74d061c5f10214a63c90c0c",
+    "scope_validation_exception_paths": [
+      "scope_referrals[referral_ref=macro:referral:root_000537-B001].referred_lane",
+      "scope_referrals[referral_ref=macro:referral:root_000537-B005].referred_lane",
+      "scope_referrals[referral_ref=macro:referral:root_001069-B002].referred_lane",
+      "scope_referrals[referral_ref=macro:referral:root_001069-B003].referred_lane",
+      "scope_referrals[referral_ref=macro:referral:root_001069-B006].referred_lane",
+      "scope_referrals[referral_ref=macro:referral:root_001580-B001].referred_lane",
+      "scope_referrals[referral_ref=macro:referral:root_001650-B001].referred_lane",
+      "scope_referrals[referral_ref=macro:referral:root_001650-B002].referred_lane",
+      "scope_referrals[referral_ref=macro:referral:root_001650-B003].referred_lane"
+    ],
+    "wrapper_template_sha256": "4a67025d3c1c07011674ecf89e94718d5097f29f3ede4f2966200538f97d009b"
+  },
+  "prompt_bytes": 1145132,
+  "prompt_sha256": "c80751a033e65422d3cd1e7ce2629b799c5afa44ce91a7a7a7fa16b46676eacf",
+  "schema_version": "commentary-v3-authoring-prompt-manifest-v1",
+  "stage": "scope-macro-repair"
+}

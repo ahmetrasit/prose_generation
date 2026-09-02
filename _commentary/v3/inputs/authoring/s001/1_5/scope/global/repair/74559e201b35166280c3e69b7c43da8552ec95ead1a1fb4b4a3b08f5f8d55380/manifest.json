@@ -1,0 +1,31 @@
+{
+  "authoring_request_sha256": "74559e201b35166280c3e69b7c43da8552ec95ead1a1fb4b4a3b08f5f8d55380",
+  "ayah_ref": "1:5",
+  "expected_outputs": null,
+  "expected_response": "_commentary/v3/outputs/authoring/s001/1_5/scope/global/repair/74559e201b35166280c3e69b7c43da8552ec95ead1a1fb4b4a3b08f5f8d55380/review.json",
+  "inputs": {
+    "ayah_ref": "1:5",
+    "lane": "global",
+    "lane_packet_sha256": "961223745636492437d0f7be1986615f3936a3232f60c47f83b7a2d2be48ffce",
+    "prior_review_sha256": "7fa26728710acbad9b078f178bd2bfb8300a6fa6190f5cd08b05b7239cf73ae5",
+    "reconciled_sha256": "06ca2f3d66a54451f76ff882da312ebde37e9026ae1ab4eb0f12001098d22612",
+    "repair_iteration": 6,
+    "repair_phase": "scope_validation",
+    "repair_requests_sha256": "b0ef7b03deb754c5f11af7c511b7919067a4c7327c2c8beebad3578fbc801993",
+    "scope_template_sha256": "5582ea99648ce111338f28ac033f9a53b51a055c8421162dd1f2b8dc44f566d5",
+    "scope_validation_exception_paths": [
+      "candidate_decisions[candidate_id=cand_3a3e39468f839bbbdab7].decision",
+      "candidate_decisions[candidate_id=cand_68b158fa7c0a37dedcf2].decision",
+      "candidate_decisions[candidate_id=cand_7e7c24bfaf0853cf0078].decision",
+      "candidate_decisions[candidate_id=cand_8c0917a7af8ee005eba4].decision",
+      "candidate_decisions[candidate_id=cand_cd36349dc279391c4b3e].decision",
+      "candidate_decisions[candidate_id=cand_d76c8cc76d83d1b64fe8].decision",
+      "candidate_decisions[candidate_id=cand_d93e93b306eb91df7167].decision"
+    ],
+    "wrapper_template_sha256": "4a67025d3c1c07011674ecf89e94718d5097f29f3ede4f2966200538f97d009b"
+  },
+  "prompt_bytes": 973303,
+  "prompt_sha256": "b0f68d8c75da7be814362bc3a382ee572ccc53ef196f6ab64c9ff8c8cda1ff80",
+  "schema_version": "commentary-v3-authoring-prompt-manifest-v1",
+  "stage": "scope-global-repair"
+}

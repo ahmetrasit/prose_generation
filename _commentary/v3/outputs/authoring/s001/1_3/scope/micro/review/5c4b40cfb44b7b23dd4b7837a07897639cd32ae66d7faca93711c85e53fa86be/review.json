@@ -1,0 +1,823 @@
+{
+  "schema_version": "commentary-v3-scope-review-v2",
+  "identity": {
+    "ayah_ref": "1:3",
+    "lane": "micro",
+    "lane_packet_sha256": "75348395867afdfcd520504d88718d7e1ad8bec6962bdf910b85ab0dac61e828",
+    "authoring_request_sha256": "5c4b40cfb44b7b23dd4b7837a07897639cd32ae66d7faca93711c85e53fa86be"
+  },
+  "ayah_ref": "1:3",
+  "lane": "micro",
+  "coverage_complete": true,
+  "surface_coverage": [
+    {
+      "analysis_record_ref": "1:3:1",
+      "treatment": "develop",
+      "finding_refs": [
+        "micro:finding-basmala-ring",
+        "micro:finding-mercy-pair-sound",
+        "micro:finding-divine-title-register",
+        "micro:finding-genitive-chain",
+        "micro:finding-mercy-tenderness",
+        "micro:finding-lordship-as-care",
+        "micro:finding-kinship-pressure",
+        "micro:finding-womb-pressure"
+      ]
+    },
+    {
+      "analysis_record_ref": "1:3:2",
+      "treatment": "develop",
+      "finding_refs": [
+        "micro:finding-mercy-pair-sound",
+        "micro:finding-genitive-chain",
+        "micro:finding-breadth-to-continuance",
+        "micro:finding-adjective-pressure",
+        "micro:finding-closure-epithet",
+        "micro:finding-kinship-pressure",
+        "micro:finding-womb-pressure"
+      ]
+    }
+  ],
+  "branch_screen": [
+    {
+      "branch_ref": "root_000552/B001",
+      "tested_facets": [
+        {
+          "facet_id": "F001",
+          "result": "contact"
+        },
+        {
+          "facet_id": "F002",
+          "result": "contact"
+        },
+        {
+          "facet_id": "F003",
+          "result": "no_independent_trigger"
+        },
+        {
+          "facet_id": "F004",
+          "result": "no_independent_trigger"
+        },
+        {
+          "facet_id": "F005",
+          "result": "contact"
+        }
+      ],
+      "result": "nominated",
+      "contact_refs": [
+        "micro:contact-b001-tenderness",
+        "micro:contact-b001-beneficent-care",
+        "micro:contact-b001-divine-specialization"
+      ],
+      "reason": "Aynı kökten gelen iki kesin ilahî adın genitif zincirinde art arda kurulması, merhameti yumuşaklık ve etkin iyilik yönleriyle okutan yerel bir temas verir; 1:2'ye bağlanan ilahî ad zinciri de tanrısal kuşatıcılığı bağımsızca destekler. Ancak karşılıklılık ya da birine esenlik dileme kalıbı yoktur."
+    },
+    {
+      "branch_ref": "root_000552/B002",
+      "tested_facets": [
+        {
+          "facet_id": "F001",
+          "result": "contact"
+        },
+        {
+          "facet_id": "F002",
+          "result": "no_independent_trigger"
+        },
+        {
+          "facet_id": "F003",
+          "result": "no_independent_trigger"
+        }
+      ],
+      "result": "nominated",
+      "contact_refs": [
+        "micro:contact-b002-nearness"
+      ],
+      "reason": "Kökün iki ilahî merhamet adında yinelenmesi ve adların tek bağlı çift olarak kurulması, merhametin uzak bir iyilikten çok yakınlık kuran bir yöneliş olarak duyulmasına elverişli sınırlı bir temas sağlar. Fakat doğum kaynağı, soy bağı sürdürme veya bağı koparma eylemi açıkça verilmez."
+    },
+    {
+      "branch_ref": "root_000552/B003",
+      "tested_facets": [
+        {
+          "facet_id": "F001",
+          "result": "contact"
+        }
+      ],
+      "result": "nominated",
+      "contact_refs": [
+        "micro:contact-b003-enclosing-sustaining"
+      ],
+      "reason": "İki biçimin aynı kökte genişlikten sürekliliğe ilerleyen karşıtlığı, merhameti kuşatan ve besleyerek sürdüren bir ortam imgesiyle sınırlı biçimde temas ettirir. Yine de ayette organ, gebelik veya doğum bağlamı bulunmadığı için temas yalnızca analojik imge düzeyindedir."
+    },
+    {
+      "branch_ref": "root_000552/B004",
+      "tested_facets": [
+        {
+          "facet_id": "F001",
+          "result": "no_independent_trigger"
+        },
+        {
+          "facet_id": "F002",
+          "result": "no_independent_trigger"
+        },
+        {
+          "facet_id": "F003",
+          "result": "no_independent_trigger"
+        }
+      ],
+      "result": "no_independent_trigger",
+      "contact_refs": [],
+      "reason": "Yüzeyde döl yatağı hastalığı, ağrı, şişme, hayvan, doğum sonrası olay veya yavru zarını atamama bağlamını çağıran bağımsız bir sözcük ya da sözdizimi yoktur; aynı kökün bulunması bu tıbbi dalı tek başına etkinleştirmez."
+    }
+  ],
+  "contact_opportunities": [
+    {
+      "contact_ref": "micro:contact-b001-tenderness",
+      "surface_carrier": "ٱلرَّحْمَٰنِ ٱلرَّحِيمِ",
+      "distinctive_facet": "F001: yüreğin yumuşayıp içten yakınlık duyması",
+      "independent_trigger": "İki kesin ilahî merhamet adının aynı genitif zincirinde, 1:2'deki övgü ve rablık bildirimine bağlı olarak art arda gelmesi",
+      "changed_reading": "Merhamet, yalnızca soyut bir sıfat etiketi değil, muhataba yönelen yumuşaklık ve iç yakınlık tonu olarak duyulur.",
+      "reader_payoff": "Okur, 'merhamet' karşılığının içinde yönelmiş şefkat ve yakınlık bulunduğunu fark eder.",
+      "containment": "B001'in yumuşaklık çekirdeğiyle sınırlıdır; Tanrı'ya insanî duygulanım yüklemez, belirli bir acı veya insanî muhatap icat etmez ve karşılıklı kullanım ya da dilek kalıbını etkinleştirmez.",
+      "suggested_lane": "micro",
+      "disposition": "accept",
+      "finding_refs": [
+        "micro:finding-mercy-tenderness"
+      ],
+      "support_ids": [
+        "sup_272c858fee96121a92cf",
+        "sup_fbeb59f860e5554e459c"
+      ],
+      "branch_refs": [
+        "root_000552/B001"
+      ]
+    },
+    {
+      "contact_ref": "micro:contact-b001-beneficent-care",
+      "surface_carrier": "ٱلرَّحْمَٰنِ ٱلرَّحِيمِ",
+      "distinctive_facet": "F002: acımanın esirgeme ve iyilikte bulunma sonucuna yönelmesi",
+      "independent_trigger": "Aynı kökün bitişik iki biçimde yinelenmesi, ilk biçimde genişlik ve ikinci biçimde süreklilik izlenimi veren biçim karşıtlığıyla kurulmuştur.",
+      "changed_reading": "İki ad yalnızca aynı niteliği yinelemez; merhameti genişçe ulaşan ve ardından sürekli olarak işleyen etkin bir iyiliğe dönüştürür.",
+      "reader_payoff": "Okur, merhametin pasif bir duygu değil, esirgemeye ve somut iyiliğe yönelen etkin bir sonuç olduğunu görür.",
+      "containment": "B001 F002'nin acıma-esirgeme-iyilik çekirdeğiyle sınırlıdır; biçim karşıtlığı iki kesin zaman kipi ya da zorunlu bir doktrinel sıra olarak sunulmaz.",
+      "suggested_lane": "micro",
+      "disposition": "accept",
+      "finding_refs": [
+        "micro:finding-breadth-to-continuance"
+      ],
+      "support_ids": [
+        "sup_02816da6adce33fc2739",
+        "sup_2fafa89b7c69dfe85821",
+        "sup_c232b085604e158cfceb",
+        "sup_20bee313d3d1fd1fd1a1"
+      ],
+      "branch_refs": [
+        "root_000552/B001"
+      ]
+    },
+    {
+      "contact_ref": "micro:contact-b001-divine-specialization",
+      "surface_carrier": "ٱلرَّحْمَٰنِ",
+      "distinctive_facet": "F005: Tanrı hakkında kuşatıcı esirgeme ve iyiliğin yaratılmışlara ulaşması",
+      "independent_trigger": "İlk adın kesin ilahî ad kaydı içinde genitif olarak 1:2'deki rablık zincirini sürdürmesi ve yerel bağlamın ilahî göndergesinin açık olması",
+      "changed_reading": "Rablık, salt sahiplik veya hüküm değil, yaratılmışlara kuşatıcı iyilik ulaştıran bakım olarak çerçevelenir.",
+      "reader_payoff": "Okur, 1:2'deki rablık bildirimini 1:3'te merhametle nitelenmiş bir gözetme ve iyilik olarak okur.",
+      "containment": "İlk adın bu ayetteki ilahî ad işleviyle sınırlıdır; insanî merhamet kullanımını, 55:1'in eşik işlevini veya bağımsız bir teoloji cümlesini doğrudan bu temasın içine taşımaz.",
+      "suggested_lane": "micro",
+      "disposition": "accept",
+      "finding_refs": [
+        "micro:finding-lordship-as-care"
+      ],
+      "support_ids": [
+        "sup_272c858fee96121a92cf",
+        "sup_fbeb59f860e5554e459c"
+      ],
+      "branch_refs": [
+        "root_000552/B001"
+      ]
+    },
+    {
+      "contact_ref": "micro:contact-b002-nearness",
+      "surface_carrier": "ٱلرَّحْمَٰنِ ٱلرَّحِيمِ",
+      "distinctive_facet": "F001: ortak kökten gelen yakın ve kalıcı bağ imgesi",
+      "independent_trigger": "Aynı kökün iki komşu ad biçiminde yinelenmesi ve iki kesin genitif adın tek bir bağlı ad çifti içinde aynı ilahî göndergeye yönelmesi",
+      "changed_reading": "Merhamet, ayrı ve uzak bir alıcıya yönelen iyilikten ibaret değil, yakınlığı kurup sürdürme imgesi de taşıyan bir yöneliş olarak duyulabilir.",
+      "reader_payoff": "Okur, merhametin ilişki kuran ve kopmamayı gözeten bir yakınlık basıncı taşıdığını sezebilir.",
+      "containment": "Bu B002'nin F001 çekirdeğinin keşifsel imgesidir; gerçek soy bağı, ortak ata, bağ sürdürme veya bağ koparma fiili iddia edilmez. Doğrudan sözlük karşılığı değildir. HFT kaydı yalnızca kesin Arapça yüzeyini doğrudan doğrular; kalan rol ve bölümleme legacy_unbound adaylığı olarak tutulur.",
+      "suggested_lane": "micro",
+      "disposition": "narrow",
+      "finding_refs": [
+        "micro:finding-kinship-pressure"
+      ],
+      "support_ids": [
+        "sup_272c858fee96121a92cf",
+        "sup_5cd2ebcd0e3899a1084e",
+        "sup_7599367ac31807367809"
+      ],
+      "branch_refs": [
+        "root_000552/B002"
+      ]
+    },
+    {
+      "contact_ref": "micro:contact-b003-enclosing-sustaining",
+      "surface_carrier": "ٱلرَّحْمَٰنِ ٱلرَّحِيمِ",
+      "distinctive_facet": "F001: yavrunun oluşup geliştiği iç kap olarak kuşatıcı ve taşıyıcı ortam",
+      "independent_trigger": "Aynı kökteki iki biçimin geniş kuşatıcılık ile süreklilik ve besleyici eylem yönünde ardışık bir karşıtlık kurması",
+      "changed_reading": "Merhamet, dışarıdan verilen tekil bir armağanın yanında, varlığın oluşup dayanmasını kuşatan ve sürdüren bir ortam olarak da imgeselleşebilir.",
+      "reader_payoff": "Okur, kuşatıcılık ile devamlılığı tek bir rahmet imgesinde birlikte düşünebilir.",
+      "containment": "Yalnızca keşifsel bir maddi analojidir; döl yatağı anlamı, gebelik veya doğum olgusu bu ayetin sözlük anlamı olarak ileri sürülmez. HFT kaydının kesin Arapça çapası yüzey temasıyla sınırlıdır ve legacy_unbound statüsü korunur.",
+      "suggested_lane": "micro",
+      "disposition": "narrow",
+      "finding_refs": [
+        "micro:finding-womb-pressure"
+      ],
+      "support_ids": [
+        "sup_272c858fee96121a92cf",
+        "sup_5cd2ebcd0e3899a1084e",
+        "sup_2fafa89b7c69dfe85821",
+        "sup_c232b085604e158cfceb",
+        "sup_bc9f3e0dd94d781c05aa"
+      ],
+      "branch_refs": [
+        "root_000552/B003"
+      ]
+    }
+  ],
+  "candidate_decisions": [
+    {
+      "candidate_id": "cand_2fb12f95b6f9a1077b6e",
+      "decision": "accept",
+      "reason": "1:1'deki basmala çiftinin 1:3'te yeniden görünmesi, 1:2'deki övgü ve rablık bildirimini merhamet çerçevesine alan gerçek bir yerel tekrar etkisi kurar.",
+      "failed_edge": null,
+      "accepted_finding_refs": [
+        "micro:finding-basmala-ring"
+      ],
+      "duplicate_of": null,
+      "excluded_branch_refs": [],
+      "branch_exclusion_reasons": []
+    },
+    {
+      "candidate_id": "cand_18d73edde943787b4080",
+      "decision": "accept",
+      "reason": "Bitişik, aynı köklü iki adın bağlaçsız çiftlenmesi; başlangıç ve kapanış rolleriyle birlikte ses ve biçimsel dengeyi görünür kılar.",
+      "failed_edge": null,
+      "accepted_finding_refs": [
+        "micro:finding-mercy-pair-sound"
+      ],
+      "duplicate_of": null,
+      "excluded_branch_refs": [],
+      "branch_exclusion_reasons": []
+    },
+    {
+      "candidate_id": "cand_52d721bf55fbc6055858",
+      "decision": "accept",
+      "reason": "Kesinlik ve özel ad kaydı, ilk sözcüğü yeni ve belirsiz bir niteleme değil, daha önce etkin olan ilahî ad olarak duyurur.",
+      "failed_edge": null,
+      "accepted_finding_refs": [
+        "micro:finding-divine-title-register"
+      ],
+      "duplicate_of": null,
+      "excluded_branch_refs": [],
+      "branch_exclusion_reasons": []
+    },
+    {
+      "candidate_id": "cand_acb38a75be04ec0aa63a",
+      "decision": "accept",
+      "reason": "İlk genitif ad 1:2'deki zinciri sürdürür; 1:3 yeni bir bağımsız cümle olarak başlamaz.",
+      "failed_edge": null,
+      "accepted_finding_refs": [
+        "micro:finding-genitive-chain"
+      ],
+      "duplicate_of": null,
+      "excluded_branch_refs": [],
+      "branch_exclusion_reasons": []
+    },
+    {
+      "candidate_id": "cand_985bed732d2b34730bfb",
+      "decision": "accept",
+      "reason": "İlk adın geniş merhamet anlamı, devam eden rablık zincirinde gözeten ve iyilik ulaştıran ilahî bakım yönünü yerel olarak belirginleştirir.",
+      "failed_edge": null,
+      "accepted_finding_refs": [
+        "micro:finding-mercy-tenderness",
+        "micro:finding-lordship-as-care"
+      ],
+      "duplicate_of": null,
+      "excluded_branch_refs": [],
+      "branch_exclusion_reasons": []
+    },
+    {
+      "candidate_id": "cand_90e67649f941ab2b06ef",
+      "decision": "narrow",
+      "reason": "Kökün soy bağı ve döl yatağı alanları, iki adın yinelenen kök ve biçim karşıtlığıyla bağımsız bir imge basıncı kazanır; ancak doğrudan sözlük anlamı değildir.",
+      "failed_edge": null,
+      "accepted_finding_refs": [
+        "micro:finding-kinship-pressure",
+        "micro:finding-womb-pressure"
+      ],
+      "duplicate_of": null,
+      "excluded_branch_refs": [],
+      "branch_exclusion_reasons": []
+    },
+    {
+      "candidate_id": "cand_635c2435c34747828997",
+      "decision": "narrow",
+      "reason": "55:1'deki sure açılışı yankısı gerçek bir başlık ve eşik tekrarıdır; fakat 1:3'teki genitif-ilahî ad işlevini değiştirmez.",
+      "failed_edge": null,
+      "accepted_finding_refs": [
+        "micro:finding-title-threshold"
+      ],
+      "duplicate_of": null,
+      "excluded_branch_refs": [],
+      "branch_exclusion_reasons": []
+    },
+    {
+      "candidate_id": "cand_5515309fc1e575afa1d7",
+      "decision": "accept",
+      "reason": "Son konum, aynı köklü ikinci adı dengeli çiftin kapanış ve iniş noktası olarak belirginleştirir.",
+      "failed_edge": null,
+      "accepted_finding_refs": [
+        "micro:finding-closure-epithet"
+      ],
+      "duplicate_of": null,
+      "excluded_branch_refs": [],
+      "branch_exclusion_reasons": []
+    },
+    {
+      "candidate_id": "cand_025e40150412f75173b9",
+      "decision": "accept",
+      "reason": "İkinci kesin genitif, ilk adla aynı devam eden zincire bağlıdır; çift, gevşek bir sıfat eklemesi değildir.",
+      "failed_edge": null,
+      "accepted_finding_refs": [
+        "micro:finding-genitive-chain"
+      ],
+      "duplicate_of": null,
+      "excluded_branch_refs": [],
+      "branch_exclusion_reasons": []
+    },
+    {
+      "candidate_id": "cand_e0a7f8e4a3ea54e06ebb",
+      "decision": "accept",
+      "reason": "Aynı kökün iki farklı biçimde yinelenmesi, iki bağımsız merhamet etiketi yerine biçimsel bir anlam menteşesi kurar.",
+      "failed_edge": null,
+      "accepted_finding_refs": [
+        "micro:finding-breadth-to-continuance"
+      ],
+      "duplicate_of": null,
+      "excluded_branch_refs": [],
+      "branch_exclusion_reasons": []
+    },
+    {
+      "candidate_id": "cand_fab3dcd67cb9c46e7fbe",
+      "decision": "narrow",
+      "reason": "İkinci biçimin paylaşılabilir sıfat alanı, merhameti ilişkisel olarak anlaşılır kılar; kesin özel ad ve genitif zincir onu sıradan sıfata dönüştürmez.",
+      "failed_edge": null,
+      "accepted_finding_refs": [
+        "micro:finding-adjective-pressure"
+      ],
+      "duplicate_of": null,
+      "excluded_branch_refs": [],
+      "branch_exclusion_reasons": []
+    },
+    {
+      "candidate_id": "cand_2658d4ef92298f73e244",
+      "decision": "accept",
+      "reason": "Tekrarlanan başlangıç, r-h-m sessiz çerçevesi ve ortak genitif kapanışı çifti ses bakımından dengeler; uzun ünlü farkı iki yarının ayrımını korur.",
+      "failed_edge": null,
+      "accepted_finding_refs": [
+        "micro:finding-mercy-pair-sound"
+      ],
+      "duplicate_of": null,
+      "excluded_branch_refs": [],
+      "branch_exclusion_reasons": []
+    },
+    {
+      "candidate_id": "cand_c2784c118726435c48fa",
+      "decision": "accept",
+      "reason": "İkinci ad, ilkindeki genişlikten sonra süreklilik ve yönelmiş bakımın iniş noktası olarak okunabilir.",
+      "failed_edge": null,
+      "accepted_finding_refs": [
+        "micro:finding-breadth-to-continuance"
+      ],
+      "duplicate_of": null,
+      "excluded_branch_refs": [],
+      "branch_exclusion_reasons": []
+    },
+    {
+      "candidate_id": "cand_a8883dc9a7a282d88748",
+      "decision": "reject",
+      "reason": "Bu kayıt gerçek yüzey taşıyıcısını doğrular, fakat ledger_only yükümlülüğü nedeniyle tek başına yeni bir okuma veya okuyucu getirisi oluşturamaz.",
+      "failed_edge": "Bağımsız tetikleyici ve değişmiş okuma/okuyucu getirisi yok; kayıt yalnızca kök taşıyıcısı ve provenans bilgisidir.",
+      "accepted_finding_refs": [],
+      "duplicate_of": null,
+      "excluded_branch_refs": [],
+      "branch_exclusion_reasons": []
+    },
+    {
+      "candidate_id": "cand_cd0ae7737ec400621108",
+      "decision": "narrow",
+      "reason": "Kesin Arapça yüzey çapası ve bağımsız yerel biçim kanıtı, genişlikten sürekliliğe giden merhamet okumasını taşır; HFT'nin legacy_unbound ve yalnızca yüzey doğrulayan sınırı korunur.",
+      "failed_edge": null,
+      "accepted_finding_refs": [
+        "micro:finding-breadth-to-continuance"
+      ],
+      "duplicate_of": null,
+      "excluded_branch_refs": [],
+      "branch_exclusion_reasons": []
+    },
+    {
+      "candidate_id": "cand_fe32ac952ea4fa4a9c2d",
+      "decision": "narrow",
+      "reason": "HFT adayının yakınlık modeli, yinelenen kök ve bağlı genitif çift tarafından sınırlı bir ilişkisel imge olarak desteklenir; gerçek soy bağına çevrilmez ve legacy_unbound statüsü korunur.",
+      "failed_edge": null,
+      "accepted_finding_refs": [
+        "micro:finding-kinship-pressure"
+      ],
+      "duplicate_of": null,
+      "excluded_branch_refs": [],
+      "branch_exclusion_reasons": []
+    },
+    {
+      "candidate_id": "cand_c5e46909163d28966a09",
+      "decision": "narrow",
+      "reason": "HFT'nin kuşatan ve sürdüren ortam modeli, yerel biçim karşıtlığıyla keşifsel analoji olarak korunur; organ veya gebelik anlamı ileri sürülmez ve legacy_unbound statüsü korunur.",
+      "failed_edge": null,
+      "accepted_finding_refs": [
+        "micro:finding-womb-pressure"
+      ],
+      "duplicate_of": null,
+      "excluded_branch_refs": [],
+      "branch_exclusion_reasons": []
+    }
+  ],
+  "scope_referrals": [],
+  "new_findings": [],
+  "accepted_findings": [
+    {
+      "finding_ref": "micro:finding-basmala-ring",
+      "candidate_ids": [
+        "cand_2fb12f95b6f9a1077b6e"
+      ],
+      "proposal_keys": [],
+      "title": "Basmala çiftinin merhamet halkası olarak dönüşü",
+      "claim": "1:3'teki ilk ad, 1:1'deki basmala merhamet çiftiyle yeniden görünür; böylece 1:2'deki övgü ve rablık bildirimi iki merhamet adının kurduğu bir çerçeve içinde kalır.",
+      "mechanism": "1:1 ile 1:3 arasında aynı iki adın somut tekrarı vardır; yerel genitif zincir ve bitişik çiftlenme bu dönüşü bağımsız bir formül yankısı olarak taşır.",
+      "reader_payoff": "Okur, 1:2'deki övgü ve rablığı merhametten kopuk bir bildirim olarak değil, merhametle çevrelenmiş bir zincir olarak okur.",
+      "containment": "Bu, yerel tekrar ve halka etkisidir; 55:1'in eşik yankısını bu bulguya katmaz ve sonraki ayetler hakkında kapsamlı bir yapı iddiası kurmaz.",
+      "support_ids": [
+        "sup_272c858fee96121a92cf",
+        "sup_d9badd7741765a383942"
+      ],
+      "branch_refs": [],
+      "connection_refs": [],
+      "contact_refs": [],
+      "branch_contributions": [],
+      "epistemic_status": "established"
+    },
+    {
+      "finding_ref": "micro:finding-mercy-pair-sound",
+      "candidate_ids": [
+        "cand_18d73edde943787b4080",
+        "cand_2658d4ef92298f73e244"
+      ],
+      "proposal_keys": [],
+      "title": "İki merhamet adının ses ve biçimle dengelenmesi",
+      "claim": "ٱلرَّحْمَٰنِ ile ٱلرَّحِيمِ bağlaçsız ve bitişik bir çift oluşturur: yinelenen kesin başlangıç, r-h-m sessiz çerçevesi ve ortak genitif kapanışı çifti bağlarken uzun ünlü farkı biçimsel ayrımı duyurur.",
+      "mechanism": "İki sözcük aynı kökü ve ses çerçevesini paylaşır; ilk ve son konumları, uzun ünlülerin farklı dağılımı ve kapanıştaki ortaklıkla açılış-kapanış dengesi kurar.",
+      "reader_payoff": "Okur, ikinci adı ilkini mekanikçe yineleyen bir etiket olarak değil, aynı merhamet alanını farklı biçimle tamamlayan ikinci yarı olarak duyar.",
+      "containment": "Ses ve biçim, tek başına sözlükte bulunmayan yeni bir anlam icat etmez; yalnızca iki yerel adın birlik ve farkını görünür kılar.",
+      "support_ids": [
+        "sup_272c858fee96121a92cf",
+        "sup_75eb074a3ef5fea3ca41",
+        "sup_02816da6adce33fc2739",
+        "sup_d834754f4a5016ec8ba2"
+      ],
+      "branch_refs": [],
+      "connection_refs": [],
+      "contact_refs": [],
+      "branch_contributions": [],
+      "epistemic_status": "established"
+    },
+    {
+      "finding_ref": "micro:finding-divine-title-register",
+      "candidate_ids": [
+        "cand_52d721bf55fbc6055858"
+      ],
+      "proposal_keys": [],
+      "title": "İlk adın kesin ilahî ad kaydı",
+      "claim": "İlk sözcüğün kesin ve özel ad kaydı, onu yeni tanıtılan belirsiz bir sıfat olmaktan çıkarıp 1:1'den beri etkin olan tanınmış ilahî ad olarak kurar.",
+      "mechanism": "Kesinlik, özel ad işlevi ve ilahî gönderge; sıradan insanî niteleme yerine süreklilik taşıyan ilahî ad okumasını destekler.",
+      "reader_payoff": "Okur, ilk adı yalnızca 'merhametli' diye eklenmiş bir açıklama değil, ilahî ad zincirinin tanınan bir üyesi olarak algılar.",
+      "containment": "İlk sözcüğün yerel kesin-ad kaydıyla sınırlıdır; ikinci adın kapanışını veya 55:1'deki eşik işlevini bu bulguya yüklemez.",
+      "support_ids": [
+        "sup_272c858fee96121a92cf",
+        "sup_c8e3357a8bd067782315"
+      ],
+      "branch_refs": [],
+      "connection_refs": [],
+      "contact_refs": [],
+      "branch_contributions": [],
+      "epistemic_status": "established"
+    },
+    {
+      "finding_ref": "micro:finding-genitive-chain",
+      "candidate_ids": [
+        "cand_acb38a75be04ec0aa63a",
+        "cand_025e40150412f75173b9"
+      ],
+      "proposal_keys": [],
+      "title": "İki genitif adın 1:2 zincirini sürdürmesi",
+      "claim": "Her iki kesin genitif ad da 1:2'deki ilahî gönderge zincirine bağlıdır; 1:3, yeni ve bağımsız bir cümle başlatmak yerine önceki bildirimi iki merhamet adıyla niteler.",
+      "mechanism": "İki sözcüğün genitif oluşu, kesinlikleri ve aralarında bağlaç bulunmadan aynı çiftte yer almaları; ilk adın önceki zinciri taşımasını, ikincinin de aynı zincire bağlı kapanış olarak kalmasını sağlar.",
+      "reader_payoff": "Okur, iki adı gevşek bir sonradan eklenmiş sıfat dizisi olarak değil, rablık bildirimini içeriden sürdüren bağlı bir ad çifti olarak okur.",
+      "containment": "Yerel genitif bağlanma ve uygulama olasılığıyla sınırlıdır; tüm sentaktik tartışmayı tek bir zorunlu çözüm diye kapatmaz.",
+      "support_ids": [
+        "sup_272c858fee96121a92cf",
+        "sup_724702948b5a584f3539",
+        "sup_02816da6adce33fc2739",
+        "sup_4fa5e3e0018a25417f1f"
+      ],
+      "branch_refs": [],
+      "connection_refs": [],
+      "contact_refs": [],
+      "branch_contributions": [],
+      "epistemic_status": "established"
+    },
+    {
+      "finding_ref": "micro:finding-mercy-tenderness",
+      "candidate_ids": [
+        "cand_985bed732d2b34730bfb"
+      ],
+      "proposal_keys": [],
+      "title": "Merhamet adının yumuşaklık ve iç yakınlık yönü",
+      "claim": "İki ilahî merhamet adı, merhameti yalnızca sonuç bildiren bir etiket değil, muhataba yönelen yumuşaklık ve iç yakınlık tonu olarak da duyurur.",
+      "mechanism": "Yinelenen kökün aynı ilahî ad çiftinde taşınması ve çiftin önceki rablık bildirimine bağlı oluşu, acıma-yumuşaklık çekirdeğini yerel ad işlevi içinde görünür kılar.",
+      "reader_payoff": "Okur, 'merhamet' karşılığının içinde yönelmiş şefkat ve yakınlık bulunduğunu fark eder.",
+      "containment": "Tanrısal kullanımda insanî duygulanım veya belirli bir acı çeken muhatap varsayılmaz; bulgu B001 F001'in yönelmiş yumuşaklık basıncıyla sınırlıdır.",
+      "support_ids": [
+        "sup_272c858fee96121a92cf",
+        "sup_fbeb59f860e5554e459c"
+      ],
+      "branch_refs": [
+        "root_000552/B001"
+      ],
+      "connection_refs": [],
+      "contact_refs": [
+        "micro:contact-b001-tenderness"
+      ],
+      "branch_contributions": [
+        {
+          "branch_ref": "root_000552/B001",
+          "facet_id": "F001",
+          "distinctive_facet": "Bir başkasının durumu karşısında yüreğin yumuşaması ve içten yakınlık",
+          "surface_carrier": "ٱلرَّحْمَٰنِ ٱلرَّحِيمِ",
+          "independent_anchor": "İki kesin ilahî merhamet adının aynı genitif zincirinde ve aynı göndergeye bağlı tek çift olarak kurulması",
+          "contribution": "B001'in yumuşaklık ve iç yakınlık çekirdeği, ilahî adların soyut bir etiketten çok yönelmiş merhamet tonu taşımasına katkı verir.",
+          "boundary": "Belirli insanî muhatap, acı durumu veya insan tarzı duygulanım doğrudan ayete eklenmez."
+        }
+      ],
+      "epistemic_status": "qualified"
+    },
+    {
+      "finding_ref": "micro:finding-lordship-as-care",
+      "candidate_ids": [
+        "cand_985bed732d2b34730bfb"
+      ],
+      "proposal_keys": [],
+      "title": "Geniş merhametin rablığı bakım olarak belirlemesi",
+      "claim": "1:2'deki rablık zinciri, 1:3'teki ٱلرَّحْمَٰنِ ile salt sahiplik veya hüküm olarak değil, yaratılmışlara kuşatıcı iyilik ulaştıran gözetici bakım olarak belirginleşir.",
+      "mechanism": "İlk adın kesin ilahî ad oluşu, genitif uygulamayla önceki rablık bildirimini sürdürmesi ve genişlik taşıyan biçimsel basınç, rablığı merhamet çerçevesinde yeniden niteler.",
+      "reader_payoff": "Okur, rablık bildirimini merhametle yumuşamış ve yaratılmışlara iyilik ulaştıran bir gözetme olarak okur.",
+      "containment": "Bu yerel ad-zinciri etkisidir; bağımsız bir doktrin özeti, tüm sonraki ayetlere yayılmış bir hüküm veya B001'in karşılıklılık/dilek kullanımı değildir.",
+      "support_ids": [
+        "sup_272c858fee96121a92cf",
+        "sup_fbeb59f860e5554e459c"
+      ],
+      "branch_refs": [
+        "root_000552/B001"
+      ],
+      "connection_refs": [],
+      "contact_refs": [
+        "micro:contact-b001-divine-specialization"
+      ],
+      "branch_contributions": [
+        {
+          "branch_ref": "root_000552/B001",
+          "facet_id": "F005",
+          "distinctive_facet": "Tanrı hakkında esirgemenin genişliği ve iyiliğin yaratılmışlara ulaşması",
+          "surface_carrier": "ٱلرَّحْمَٰنِ",
+          "independent_anchor": "İlk kesin ilahî adın genitif biçimde 1:2'deki rablık zincirine bağlanması",
+          "contribution": "B001 F005, geniş merhamet adının rablığı çıplak hükümden kuşatıcı gözetme ve iyilik yönüne çekmesini sağlar.",
+          "boundary": "Bu ilahî adın 1:3'teki yerel uzmanlaşmasıdır; genel bir insanî merhamet veya kalıplaşmış dilek eylemi değildir."
+        }
+      ],
+      "epistemic_status": "qualified"
+    },
+    {
+      "finding_ref": "micro:finding-breadth-to-continuance",
+      "candidate_ids": [
+        "cand_e0a7f8e4a3ea54e06ebb",
+        "cand_c2784c118726435c48fa",
+        "cand_cd0ae7737ec400621108"
+      ],
+      "proposal_keys": [],
+      "title": "Genişlikten sürekliliğe inen merhamet çifti",
+      "claim": "Aynı kökün iki biçimi bir merhameti iki kayıtsız tekrar olarak değil, ilkinde genişçe ulaşan, ikincisinde ise kalıcı ve yönelmiş biçimde işleyen bir iyilik olarak kademelendirir.",
+      "mechanism": "Bitişik aynı kök, biçim farkı ve ikinci adın son konumu; ilk adın taşan genişliği ile ikinci adın yerleşik ve sürdürülen bakımını aynı çift içinde karşılaştırır.",
+      "reader_payoff": "Okur, ٱلرَّحْمَٰنِ ve ٱلرَّحِيمِ adlarının 'Tanrı merhametlidir' önermesini mekanikçe yinelemediğini, merhametin ulaşma alanı ile sürekliliğini birlikte kurduğunu görür.",
+      "containment": "Biçim farkı iki zorunlu zaman kipi veya kesin bir kronoloji değildir; B001 F002'nin etkin esirgeme ve iyilik sonucunu destekleyen niteliksel bir okuma olarak tutulur. İkinci adın yakın uygulama çifti ya da aynı göndergeye doğrudan niteleme olarak bağlanabilmesi açık bırakılır. HFT desteği exact Arabic yüzey çapası, legacy_unbound kaynak ve aday model sınırları içinde korunur; HFT'nin bölümleme, indeks, kök, dal ve rol iddiaları bağımsız kanıt sayılmaz.",
+      "support_ids": [
+        "sup_02816da6adce33fc2739",
+        "sup_c232b085604e158cfceb",
+        "sup_2fafa89b7c69dfe85821",
+        "sup_20bee313d3d1fd1fd1a1"
+      ],
+      "branch_refs": [
+        "root_000552/B001"
+      ],
+      "connection_refs": [],
+      "contact_refs": [
+        "micro:contact-b001-beneficent-care"
+      ],
+      "branch_contributions": [
+        {
+          "branch_ref": "root_000552/B001",
+          "facet_id": "F002",
+          "distinctive_facet": "İç yönelişin acınanı esirgeyip ona iyilikte bulunma sonucuna taşınması",
+          "surface_carrier": "ٱلرَّحْمَٰنِ ٱلرَّحِيمِ",
+          "independent_anchor": "Aynı kökün bitişik iki farklı biçimde yinelenmesi ve biçim karşıtlığının ilk genişlik ile ikinci süreklilik arasında yerel bir düzen kurması",
+          "contribution": "B001 F002, merhametin yalnızca içsel bir tutum değil, genişçe ulaşan ve ardından süreklilik taşıyan etkin esirgeme olarak okunmasına katkı verir.",
+          "boundary": "Bu, biçim ve sıra üzerinden kurulan niteliksel karşıtlıktır; kesin zaman kipleri, zorunlu kronoloji veya iki ayrı sözlük anlamı iddia edilmez."
+        }
+      ],
+      "epistemic_status": "exploratory"
+    },
+    {
+      "finding_ref": "micro:finding-adjective-pressure",
+      "candidate_ids": [
+        "cand_fab3dcd67cb9c46e7fbe"
+      ],
+      "proposal_keys": [],
+      "title": "İkinci adın paylaşılabilir sıfat basıncı",
+      "claim": "ٱلرَّحِيمِ, paylaşılabilir bir sıfat alanıyla merhameti ilişkisel olarak anlaşılır kılabilir; fakat kesinlik, özel ad kaydı ve genitif zincir yerel işlevi ilahî ad olarak korur.",
+      "mechanism": "Sıfat alanına açık sözlük basıncı, yerel kesin ilahî ad ve zincire bağlılıkla birlikte çalışır; bu gerilim ilişkisel anlaşılabilirliği korurken sıradan sıfata dönüşmeyi engeller.",
+      "reader_payoff": "Okur, ikinci adın insanî ilişkilerde anlaşılabilir bir merhamet yönü taşıdığını sezer, fakat ayetteki ilahî ad işlevini kaybetmez.",
+      "containment": "Bu yalnızca seçilebilir sıfat alanının lexical pressure'ıdır; 1:3'teki sözcük sıradan bir insan sıfatı olarak yeniden sınıflandırılmaz.",
+      "support_ids": [
+        "sup_02816da6adce33fc2739",
+        "sup_4dd33d41bdd71e1ff6cd",
+        "sup_4fa5e3e0018a25417f1f"
+      ],
+      "branch_refs": [],
+      "connection_refs": [],
+      "contact_refs": [],
+      "branch_contributions": [],
+      "epistemic_status": "qualified"
+    },
+    {
+      "finding_ref": "micro:finding-closure-epithet",
+      "candidate_ids": [
+        "cand_5515309fc1e575afa1d7"
+      ],
+      "proposal_keys": [],
+      "title": "İkinci adın kapanışta merhameti indirmesi",
+      "claim": "ٱلرَّحِيمِ, iki sözcüklü ayetin sonundaki konumuyla aynı kökü yineleyen çiftin dengeli kapanış ve iniş noktası olur; kapanış farklı bir sıfatla değil, merhamet kökünün ikinci biçimiyle yapılır.",
+      "mechanism": "Son konum, yinelenen kök, ortak ses çerçevesi ve kapanış epiteli profili, ilk genişlikten sonra süreklilik taşıyan merhameti son duyulan nitelik yapar.",
+      "reader_payoff": "Okur, ayetin sonunu genel bir merhamet bildirimiyle değil, devam eden ve yönelmiş bakımın landing point'iyle kapatır.",
+      "containment": "Kapanış etkisi bu iki sözcüklü ayetin yerel ses ve sıra düzenine aittir; sonraki söylem hakkında otomatik sonuç çıkarmaz.",
+      "support_ids": [
+        "sup_02816da6adce33fc2739",
+        "sup_61326fbf176c211565b2"
+      ],
+      "branch_refs": [],
+      "connection_refs": [],
+      "contact_refs": [],
+      "branch_contributions": [],
+      "epistemic_status": "established"
+    },
+    {
+      "finding_ref": "micro:finding-title-threshold",
+      "candidate_ids": [
+        "cand_635c2435c34747828997"
+      ],
+      "proposal_keys": [],
+      "title": "55:1'deki başlık ve eşik yankısı",
+      "claim": "İlk adın 55:1'deki sure açılışı kullanımı, 1:3'teki aynı başlığa daha geniş bir Kur'anî eşik yankısı verir; ancak yerel sözcük 1:2'ye bağlı ilahî ad olarak kalır.",
+      "mechanism": "Aynı başlığın 55:1'de sure açılışında bulunması, 1:3'teki başlık işlevine tekrar ve eşik basıncı ekler; yerel genitif uygulama bu yankının anlamı devralmasını sınırlar.",
+      "reader_payoff": "Okur, 1:3'teki ilk adı yalnızca yerel bir niteleme değil, sure açılışlarında eşik kurabilen tanınmış bir başlık olarak da duyabilir.",
+      "containment": "55:1 yalnızca yankı ve başlık bağlamıdır; 1:3'ün yerel sözdizimini yönetmez ve bu bulgu makro bir sure yapısı iddiasına genişletilmez.",
+      "support_ids": [
+        "sup_0ed1d956d711789d667e",
+        "sup_272c858fee96121a92cf"
+      ],
+      "branch_refs": [],
+      "connection_refs": [],
+      "contact_refs": [],
+      "branch_contributions": [],
+      "epistemic_status": "qualified"
+    },
+    {
+      "finding_ref": "micro:finding-kinship-pressure",
+      "candidate_ids": [
+        "cand_90e67649f941ab2b06ef",
+        "cand_fe32ac952ea4fa4a9c2d"
+      ],
+      "proposal_keys": [],
+      "title": "Merhamet kökünün yakınlık imgesi",
+      "claim": "Yinelenen merhamet kökü ve tek bağlı ad çifti, merhameti ayrı bir alıcıya verilen iyilikten öte, yakınlığı kuran ve sürdüren bir yöneliş olarak imgesel biçimde duyurabilir.",
+      "mechanism": "B002 F001'in ortak-soy kaynaklı yakın bağ imgesi, gerçek soy veya akrabalık bağlamından değil; iki adın aynı kökü paylaşması ve aynı ilahî göndergeye bağlı tek çift halinde kurulmasından gelen ilişkisel yerellikten beslenir.",
+      "reader_payoff": "Okur, merhametin ilişki kuran ve kopmamayı gözeten bir yakınlık basıncı taşıdığını sezebilir.",
+      "containment": "Bu, B002'nin yalnızca F001 çekirdeğini taşıyan keşifsel bir image-pressure'dır. Ortak ata, gerçek soy bağı, bağ sürdürme/koparma fiili veya doğrudan 'yakın soy bağı' çevirisi ileri sürülmez. HFT desteği sup_7599367ac31807367809 ile taşınır; exact Arabic yalnızca yüzey temasını doğrular ve legacy_unbound kaynak niteliği korunur.",
+      "support_ids": [
+        "sup_272c858fee96121a92cf",
+        "sup_5cd2ebcd0e3899a1084e",
+        "sup_7599367ac31807367809"
+      ],
+      "branch_refs": [
+        "root_000552/B002"
+      ],
+      "connection_refs": [],
+      "contact_refs": [
+        "micro:contact-b002-nearness"
+      ],
+      "branch_contributions": [
+        {
+          "branch_ref": "root_000552/B002",
+          "facet_id": "F001",
+          "distinctive_facet": "Ortak soydan gelmenin kurduğu yakın ve kalıcı ilişki",
+          "surface_carrier": "ٱلرَّحْمَٰنِ ٱلرَّحِيمِ",
+          "independent_anchor": "Aynı kökün iki komşu kesin genitif adında yinelenmesi ve çiftin aynı ilahî göndergeye bağlı tek ilişki olarak kurulması",
+          "contribution": "B002 F001, rahmeti uzak bir iyilik değil, yakınlığı kuran ve koruyan bir yöneliş gibi imgeleştirmeye katkı verir.",
+          "boundary": "Bu doğrudan akrabalık veya soy anlamı değildir; B002 F002 ve F003'teki organ aktarımı ile bağ sürdürme/koparma eylemleri etkinleştirilmez."
+        }
+      ],
+      "epistemic_status": "exploratory"
+    },
+    {
+      "finding_ref": "micro:finding-womb-pressure",
+      "candidate_ids": [
+        "cand_90e67649f941ab2b06ef",
+        "cand_c5e46909163d28966a09"
+      ],
+      "proposal_keys": [],
+      "title": "Merhametin kuşatan ve sürdüren ortam imgesi",
+      "claim": "İlk biçimin geniş kuşatıcılığı ile ikinci biçimin süreklilik taşıyan yönü, merhameti oluşmayı ve dayanmayı mümkün kılan kuşatıcı-besleyici bir ortam olarak keşifsel biçimde imgeselleştirebilir.",
+      "mechanism": "B003 F001'in iç kap ve taşıma imgesi, döl yatağına ilişkin bir yüzey bağlamından değil; aynı kökün iki biçimindeki genişlik-süreklilik karşıtlığının kuşatma ve sürdürme yönleriyle analojik olarak buluşmasından doğar.",
+      "reader_payoff": "Okur, rahmeti dışarıdan gelen tekil yardımın yanında varlığı içinde tutan, oluşmasını ve sürmesini sağlayan bir ortam gibi düşünebilir.",
+      "containment": "Bu yalnızca B003 F001'e bağlı keşifsel bir analojidir; döl yatağı, gebelik, doğum veya organ sözlük anlamı 1:3'e yüklenmez. HFT desteği sup_bc9f3e0dd94d781c05aa ile taşınır; exact Arabic yüzey çapası, atfedilmiş HFT bölümlemesi ve legacy_unbound statüsü birbirine karıştırılmaz.",
+      "support_ids": [
+        "sup_272c858fee96121a92cf",
+        "sup_5cd2ebcd0e3899a1084e",
+        "sup_2fafa89b7c69dfe85821",
+        "sup_c232b085604e158cfceb",
+        "sup_bc9f3e0dd94d781c05aa"
+      ],
+      "branch_refs": [
+        "root_000552/B003"
+      ],
+      "connection_refs": [],
+      "contact_refs": [
+        "micro:contact-b003-enclosing-sustaining"
+      ],
+      "branch_contributions": [
+        {
+          "branch_ref": "root_000552/B003",
+          "facet_id": "F001",
+          "distinctive_facet": "Dişi bedenindeki iç organın yavrunun oluşup geliştiği kuşatıcı kap olması",
+          "surface_carrier": "ٱلرَّحْمَٰنِ ٱلرَّحِيمِ",
+          "independent_anchor": "Aynı kökteki iki biçimin genişlikten sürekliliğe inen yerel karşıtlığı",
+          "contribution": "B003 F001, rahmetin kuşatan ve besleyerek sürdüren bir ortam olarak düşünülmesine maddi bir analoji sağlar.",
+          "boundary": "Organın kendisi veya gebelik olayı ayetin sözlük anlamı değildir; yalnızca sınırlı bir imge basıncı korunur."
+        }
+      ],
+      "epistemic_status": "exploratory"
+    }
+  ],
+  "friction_notes": [
+    {
+      "type": "hft_provenance",
+      "note": "Üç assigned HFT kaydı görünür tutuldu. Her birinde exact Arabic yalnızca yüzey temasını doğrular; HFT'nin segmentation, word index, root, branch ve role iddiaları bağımsız paket kanıtı gibi sunulmadı. Legacy_unbound statüsü, destek ve analoji sınırları kabul edilen bulguların containment alanında korundu."
+    },
+    {
+      "type": "secondary_lexical_pressure",
+      "note": "B002 ve B003 temasları gerçek fakat keşifsel imge düzeyindedir. Soy bağı, döl yatağı, gebelik veya doğum anlamları doğrudan çeviri olarak değil, yinelenen kök ile yerel biçim/sözdizimi düzeninin taşıdığı sınırlı analojiler olarak bırakıldı."
+    },
+    {
+      "type": "unactivated_facets",
+      "note": "B001 F003 ve F004 için karşılıklılık ya da esenlik dileme kalıbı yoktur. B002 F002/F003 için organ aktarımı veya bağ sürdürme-koparma eylemi yoktur. B004'ün üç facet'i için de tıbbi, hayvansal veya doğum sonrası bağımsız bağlam yoktur."
+    },
+    {
+      "type": "recurrence_scope",
+      "note": "1:1 basmala dönüşü ve 55:1 başlık yankısı mikro düzeyde tekrar kanıtı olarak tutuldu. 55:1 bulgusu 1:3'ün genitif-ilahî ad işlevini yönetmez; daha geniş sure yapısı iddiasına çevrilmedi."
+    },
+    {
+      "type": "ledger_only",
+      "note": "cand_a8883dc9a7a282d88748 yalnızca ر ح م kök taşıyıcısını kaydeder. Yüzey kapsaması diğer gerçek bulgularla tamamlandı, fakat ledger_only kaydı kendisi bağımsız finding olarak yayımlanmadı."
+    },
+    {
+      "type": "primary_floor",
+      "note": "'Merhameti sınırsızdır, merhamet edendir.' plain footing korunur; genişlik, etkin iyilik, zincir, ses, tekrar ve sınırlı kök imgeleri bu önermenin yerine geçirilmeden üzerine eklenir."
+    },
+    {
+      "type": "connections",
+      "note": "Packet'ta connection_registry boş olduğundan connection_refs tüm bulgularda boştur; bu, yerel word-analysis ve branch temaslarını silmez."
+    }
+  ]
+}

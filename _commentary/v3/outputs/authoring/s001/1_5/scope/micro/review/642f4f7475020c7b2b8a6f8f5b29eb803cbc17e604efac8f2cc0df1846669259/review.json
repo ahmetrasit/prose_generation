@@ -1,0 +1,1909 @@
+{
+  "schema_version": "commentary-v3-scope-review-v2",
+  "identity": {
+    "ayah_ref": "1:5",
+    "lane": "micro",
+    "lane_packet_sha256": "2323808ee0386a00c7affda53459fde312e2d15697c7b7b097647d4023c524af",
+    "authoring_request_sha256": "642f4f7475020c7b2b8a6f8f5b29eb803cbc17e604efac8f2cc0df1846669259"
+  },
+  "ayah_ref": "1:5",
+  "lane": "micro",
+  "coverage_complete": true,
+  "surface_coverage": [
+    {
+      "analysis_record_ref": "1:5:1",
+      "treatment": "develop",
+      "finding_refs": [
+        "micro:direct-address",
+        "micro:first-fronting"
+      ]
+    },
+    {
+      "analysis_record_ref": "1:5:2",
+      "treatment": "develop",
+      "finding_refs": [
+        "micro:form-order",
+        "micro:ongoing-service",
+        "micro:worship-submission"
+      ]
+    },
+    {
+      "analysis_record_ref": "1:5:3",
+      "treatment": "integrate",
+      "finding_refs": [
+        "micro:parallel-clauses",
+        "micro:resumptive-hinge",
+        "micro:paired-service-aid"
+      ]
+    },
+    {
+      "analysis_record_ref": "1:5:4",
+      "treatment": "develop",
+      "finding_refs": [
+        "micro:second-restriction",
+        "micro:addressee-reidentified",
+        "micro:rootless-echo"
+      ]
+    },
+    {
+      "analysis_record_ref": "1:5:5",
+      "treatment": "develop",
+      "finding_refs": [
+        "micro:form-x-help",
+        "micro:help-branch",
+        "micro:aid-fronting",
+        "micro:guidance-opening"
+      ]
+    }
+  ],
+  "branch_screen": [
+    {
+      "branch_ref": "root_000973/B001",
+      "tested_facets": [
+        {
+          "facet_id": "F001",
+          "result": "no_independent_trigger"
+        },
+        {
+          "facet_id": "F002",
+          "result": "no_independent_trigger"
+        }
+      ],
+      "result": "no_independent_trigger",
+      "contact_refs": [],
+      "reason": "نَعْبُدُ etkin bir fiildir; köle kişi statüsünü veya alım satım ölçütünü seçen isimsel ve hukuki bir bağlam yoktur."
+    },
+    {
+      "branch_ref": "root_000973/B002",
+      "tested_facets": [
+        {
+          "facet_id": "F001",
+          "result": "no_independent_trigger"
+        },
+        {
+          "facet_id": "F002",
+          "result": "no_independent_trigger"
+        }
+      ],
+      "result": "no_independent_trigger",
+      "contact_refs": [],
+      "reason": "Doğrudan tapınma cümlesi yaratılmışlık nispeti veya Tanrı'ya bağlı topluluk adlandırması sağlamaz; dalın statü anlamı eylemden ayrıdır."
+    },
+    {
+      "branch_ref": "root_000973/B003",
+      "tested_facets": [
+        {
+          "facet_id": "F001",
+          "result": "contact"
+        },
+        {
+          "facet_id": "F002",
+          "result": "contact"
+        },
+        {
+          "facet_id": "F003",
+          "result": "no_independent_trigger"
+        }
+      ],
+      "result": "nominated",
+      "contact_refs": [
+        "micro:contact:abd-b003-f001",
+        "micro:contact:abd-b003-f002"
+      ],
+      "reason": "نَعْبُدُ fiilinin tapınma ve hizmet alanı, öne alınmış ilahî muhatapla birlikte boyun eğme ve dinsel yönelişi seçer; insan veya sahte güç uzantısı için yerel tetikleyici yoktur."
+    },
+    {
+      "branch_ref": "root_000973/B004",
+      "tested_facets": [
+        {
+          "facet_id": "F001",
+          "result": "no_independent_trigger"
+        },
+        {
+          "facet_id": "F002",
+          "result": "no_independent_trigger"
+        }
+      ],
+      "result": "no_independent_trigger",
+      "contact_refs": [],
+      "reason": "Yerel yapı konuşanların kendi tapınma eylemidir; başka bir insanı statü değişimine uğratan ettirgen hedef veya boyunduruk bağlamı yoktur."
+    },
+    {
+      "branch_ref": "root_000973/B005",
+      "tested_facets": [
+        {
+          "facet_id": "F001",
+          "result": "no_independent_trigger"
+        },
+        {
+          "facet_id": "F002",
+          "result": "no_independent_trigger"
+        },
+        {
+          "facet_id": "F003",
+          "result": "no_independent_trigger"
+        }
+      ],
+      "result": "no_independent_trigger",
+      "contact_refs": [],
+      "reason": "Yol, deve, gemi veya yüzey kaplama bağlamı bulunmadığından aynı kökün fiziksel yapı kullanımları etkinleşmez."
+    },
+    {
+      "branch_ref": "root_000973/B006",
+      "tested_facets": [
+        {
+          "facet_id": "F001",
+          "result": "contact"
+        },
+        {
+          "facet_id": "F002",
+          "result": "contact"
+        }
+      ],
+      "result": "nominated",
+      "contact_refs": [
+        "micro:contact:abd-b006-f001",
+        "micro:contact:abd-b006-f002"
+      ],
+      "reason": "Hizmet fiilinin öne alınmış muhataba yönelmesi, tapınılan muhatabın yüceltilip onurlandırılmasını ve hizmetin ona sunulmasını yerel olarak görünür kılar."
+    },
+    {
+      "branch_ref": "root_000973/B007",
+      "tested_facets": [
+        {
+          "facet_id": "F001",
+          "result": "no_independent_trigger"
+        },
+        {
+          "facet_id": "F002",
+          "result": "no_independent_trigger"
+        },
+        {
+          "facet_id": "F003",
+          "result": "no_independent_trigger"
+        }
+      ],
+      "result": "no_independent_trigger",
+      "contact_refs": [],
+      "reason": "Fiziksel nesne, kumaş, hayvan veya dayanıklılık bağlamı bulunmaz; yerel fiil güç ve sağlamlık dalını seçmez."
+    },
+    {
+      "branch_ref": "root_000973/B008",
+      "tested_facets": [
+        {
+          "facet_id": "F001",
+          "result": "no_independent_trigger"
+        },
+        {
+          "facet_id": "F002",
+          "result": "no_independent_trigger"
+        },
+        {
+          "facet_id": "F003",
+          "result": "no_independent_trigger"
+        }
+      ],
+      "result": "no_independent_trigger",
+      "contact_refs": [],
+      "reason": "İncinme, öfke, keder veya susma sahnesi yoktur; tapınma fiili duygulanım dalını bağımsız olarak tetiklemez."
+    },
+    {
+      "branch_ref": "root_000973/B009",
+      "tested_facets": [
+        {
+          "facet_id": "F001",
+          "result": "no_independent_trigger"
+        },
+        {
+          "facet_id": "F002",
+          "result": "no_independent_trigger"
+        }
+      ],
+      "result": "no_independent_trigger",
+      "contact_refs": [],
+      "reason": "Gecikme veya koşu bağlamı veren söz öbeği ve hareket sahnesi yoktur."
+    },
+    {
+      "branch_ref": "root_000973/B010",
+      "tested_facets": [
+        {
+          "facet_id": "F001",
+          "result": "no_independent_trigger"
+        },
+        {
+          "facet_id": "F002",
+          "result": "no_independent_trigger"
+        }
+      ],
+      "result": "no_independent_trigger",
+      "contact_refs": [],
+      "reason": "Dağılmış insan, nesne veya yolları belirleyen çoğul ad ve yön sahnesi yoktur."
+    },
+    {
+      "branch_ref": "root_000973/B011",
+      "tested_facets": [
+        {
+          "facet_id": "F001",
+          "result": "no_independent_trigger"
+        },
+        {
+          "facet_id": "F002",
+          "result": "no_independent_trigger"
+        }
+      ],
+      "result": "no_independent_trigger",
+      "contact_refs": [],
+      "reason": "Binek, yolculuk veya direnen deve bağlamı bulunmaz; genel bir güçlük ve kesilme anlamı kurulamaz."
+    },
+    {
+      "branch_ref": "root_000973/B012",
+      "tested_facets": [
+        {
+          "facet_id": "F001",
+          "result": "no_independent_trigger"
+        }
+      ],
+      "result": "no_independent_trigger",
+      "contact_refs": [],
+      "reason": "Güzel koku hazırlama aracı veya ezme işlemiyle ilgili hiçbir yerel unsur yoktur."
+    },
+    {
+      "branch_ref": "root_001064/B001",
+      "tested_facets": [
+        {
+          "facet_id": "F001",
+          "result": "contact"
+        },
+        {
+          "facet_id": "F002",
+          "result": "contact"
+        },
+        {
+          "facet_id": "F003",
+          "result": "no_independent_trigger"
+        }
+      ],
+      "result": "nominated",
+      "contact_refs": [
+        "micro:contact:aun-b001-f001",
+        "micro:contact:aun-b001-f002"
+      ],
+      "reason": "نَسْتَعِينُ Form X yapısıyla destek istemeyi açıkça seçer; إِيَّاكَ yardımın kaynağını öne alır. Yardım sağlayan kişi türevi için bağımsız kanıt yoktur."
+    },
+    {
+      "branch_ref": "root_001064/B002",
+      "tested_facets": [
+        {
+          "facet_id": "F001",
+          "result": "no_independent_trigger"
+        },
+        {
+          "facet_id": "F002",
+          "result": "no_independent_trigger"
+        }
+      ],
+      "result": "no_independent_trigger",
+      "contact_refs": [],
+      "reason": "Yardım isteme fiili yaş, canlı türü, kadın kullanımı veya orta yaş bağlamı sağlamaz."
+    },
+    {
+      "branch_ref": "root_001064/B003",
+      "tested_facets": [
+        {
+          "facet_id": "F001",
+          "result": "no_independent_trigger"
+        }
+      ],
+      "result": "no_independent_trigger",
+      "contact_refs": [],
+      "reason": "Savaşın öncülü veya yinelenmesiyle ilgili hiçbir söylem unsuru yoktur."
+    },
+    {
+      "branch_ref": "root_001064/B004",
+      "tested_facets": [
+        {
+          "facet_id": "F001",
+          "result": "no_independent_trigger"
+        }
+      ],
+      "result": "no_independent_trigger",
+      "contact_refs": [],
+      "reason": "Yaşlı hurma ağacını seçen isimsel ve bitkisel bağlam bulunmaz."
+    },
+    {
+      "branch_ref": "root_001064/B005",
+      "tested_facets": [
+        {
+          "facet_id": "F001",
+          "result": "no_independent_trigger"
+        },
+        {
+          "facet_id": "F002",
+          "result": "no_independent_trigger"
+        },
+        {
+          "facet_id": "F003",
+          "result": "no_independent_trigger"
+        }
+      ],
+      "result": "no_independent_trigger",
+      "contact_refs": [],
+      "reason": "Beden, kadın, hayvan, yaş veya olgunlaşma bağlamı yoktur; yardım isteme fiili bu özel güç-olgunluğu kolunu etkinleştirmez."
+    },
+    {
+      "branch_ref": "root_001064/B006",
+      "tested_facets": [
+        {
+          "facet_id": "F001",
+          "result": "no_independent_trigger"
+        },
+        {
+          "facet_id": "F002",
+          "result": "no_independent_trigger"
+        }
+      ],
+      "result": "no_independent_trigger",
+      "contact_refs": [],
+      "reason": "Yaban eşeği veya sürü adıyla ilgili bir hayvan bağlamı bulunmaz."
+    },
+    {
+      "branch_ref": "root_001064/B007",
+      "tested_facets": [
+        {
+          "facet_id": "F001",
+          "result": "no_independent_trigger"
+        },
+        {
+          "facet_id": "F002",
+          "result": "no_independent_trigger"
+        },
+        {
+          "facet_id": "F003",
+          "result": "no_independent_trigger"
+        }
+      ],
+      "result": "no_independent_trigger",
+      "contact_refs": [],
+      "reason": "Kasık bölgesi, kıl veya tıraş eylemiyle ilgili insan bedeni bağlamı yoktur."
+    },
+    {
+      "branch_ref": "root_001064/B008",
+      "tested_facets": [
+        {
+          "facet_id": "F001",
+          "result": "no_independent_trigger"
+        },
+        {
+          "facet_id": "F002",
+          "result": "no_independent_trigger"
+        }
+      ],
+      "result": "no_independent_trigger",
+      "contact_refs": [],
+      "reason": "Yer adı veya o yere bağlanan şarap nitelemesi bulunmaz."
+    },
+    {
+      "branch_ref": "root_001069/B001",
+      "tested_facets": [
+        {
+          "facet_id": "F001",
+          "result": "no_independent_trigger"
+        }
+      ],
+      "result": "no_independent_trigger",
+      "contact_refs": [],
+      "reason": "نَسْتَعِينُ yardım isteme fiilidir; beden gözü veya görme organı için bağımsız bir bağlam yoktur."
+    },
+    {
+      "branch_ref": "root_001069/B002",
+      "tested_facets": [
+        {
+          "facet_id": "F001",
+          "result": "no_independent_trigger"
+        },
+        {
+          "facet_id": "F002",
+          "result": "no_independent_trigger"
+        }
+      ],
+      "result": "no_independent_trigger",
+      "contact_refs": [],
+      "reason": "Doğrudan görme, yüz yüze tanıma veya kesinlik bildiren kalıp bulunmaz."
+    },
+    {
+      "branch_ref": "root_001069/B003",
+      "tested_facets": [
+        {
+          "facet_id": "F001",
+          "result": "contact"
+        },
+        {
+          "facet_id": "F002",
+          "result": "no_independent_trigger"
+        }
+      ],
+      "result": "nominated",
+      "contact_refs": [
+        "micro:contact:ain-b003-f001-watchful"
+      ],
+      "reason": "HFT'nin baskın olmayan عين eşlemesi tek başına yeterli değildir; ancak yardım isteme ile onurlandırıcı hizmetin yerel çerçevesi, koruyup gözetme çekirdeği için sınırlı bağımsız tetikleyici sağlar. Şefkat uzantısı ayrıca etkinleşmez."
+    },
+    {
+      "branch_ref": "root_001069/B004",
+      "tested_facets": [
+        {
+          "facet_id": "F001",
+          "result": "no_independent_trigger"
+        },
+        {
+          "facet_id": "F002",
+          "result": "no_independent_trigger"
+        }
+      ],
+      "result": "no_independent_trigger",
+      "contact_refs": [],
+      "reason": "Zarar veren bakış, kıskançlık veya olumsuz etki sahnesi yoktur."
+    },
+    {
+      "branch_ref": "root_001069/B005",
+      "tested_facets": [
+        {
+          "facet_id": "F001",
+          "result": "no_independent_trigger"
+        },
+        {
+          "facet_id": "F002",
+          "result": "no_independent_trigger"
+        }
+      ],
+      "result": "no_independent_trigger",
+      "contact_refs": [],
+      "reason": "Gizli haber toplama, öncülük veya gözcülük amacı bulunmaz."
+    },
+    {
+      "branch_ref": "root_001069/B006",
+      "tested_facets": [
+        {
+          "facet_id": "F001",
+          "result": "no_independent_trigger"
+        },
+        {
+          "facet_id": "F002",
+          "result": "no_independent_trigger"
+        }
+      ],
+      "result": "no_independent_trigger",
+      "contact_refs": [],
+      "reason": "Doğal su kaynağı, akan su veya görünür akış sahnesi yoktur."
+    },
+    {
+      "branch_ref": "root_001069/B007",
+      "tested_facets": [
+        {
+          "facet_id": "F001",
+          "result": "no_independent_trigger"
+        },
+        {
+          "facet_id": "F002",
+          "result": "no_independent_trigger"
+        }
+      ],
+      "result": "no_independent_trigger",
+      "contact_refs": [],
+      "reason": "Deri, su kabı, sızıntı veya delik bağlamı bulunmaz."
+    },
+    {
+      "branch_ref": "root_001069/B008",
+      "tested_facets": [
+        {
+          "facet_id": "F001",
+          "result": "no_independent_trigger"
+        }
+      ],
+      "result": "no_independent_trigger",
+      "contact_refs": [],
+      "reason": "Güneş gövdesi veya gökteki yuvarlak cisimle ilgili bağlam yoktur."
+    },
+    {
+      "branch_ref": "root_001069/B009",
+      "tested_facets": [
+        {
+          "facet_id": "F001",
+          "result": "no_independent_trigger"
+        },
+        {
+          "facet_id": "F002",
+          "result": "no_independent_trigger"
+        }
+      ],
+      "result": "no_independent_trigger",
+      "contact_refs": [],
+      "reason": "Göz biçimli çukur, diz, kuyu, terazi veya yayla ilgili somut nesne yoktur."
+    },
+    {
+      "branch_ref": "root_001069/B010",
+      "tested_facets": [
+        {
+          "facet_id": "F001",
+          "result": "no_independent_trigger"
+        },
+        {
+          "facet_id": "F002",
+          "result": "no_independent_trigger"
+        }
+      ],
+      "result": "no_independent_trigger",
+      "contact_refs": [],
+      "reason": "Yönlü bulut veya günlerce süren yağmur sahnesi bulunmaz."
+    },
+    {
+      "branch_ref": "root_001069/B011",
+      "tested_facets": [
+        {
+          "facet_id": "F001",
+          "result": "no_independent_trigger"
+        },
+        {
+          "facet_id": "F002",
+          "result": "no_independent_trigger"
+        }
+      ],
+      "result": "no_independent_trigger",
+      "contact_refs": [],
+      "reason": "Hazır para, altın veya borç karşıtlığıyla ilgili mali bağlam yoktur."
+    },
+    {
+      "branch_ref": "root_001069/B012",
+      "tested_facets": [
+        {
+          "facet_id": "F001",
+          "result": "no_independent_trigger"
+        },
+        {
+          "facet_id": "F002",
+          "result": "no_independent_trigger"
+        }
+      ],
+      "result": "no_independent_trigger",
+      "contact_refs": [],
+      "reason": "Önceden para verme, vadeli alım veya özel satış işlemi yoktur."
+    },
+    {
+      "branch_ref": "root_001069/B013",
+      "tested_facets": [
+        {
+          "facet_id": "F001",
+          "result": "no_independent_trigger"
+        },
+        {
+          "facet_id": "F002",
+          "result": "no_independent_trigger"
+        }
+      ],
+      "result": "no_independent_trigger",
+      "contact_refs": [],
+      "reason": "Bir şeyin bizzat kendisini belirleme veya topluluktan ayırma yönünde isimsel bir yapı bulunmaz."
+    },
+    {
+      "branch_ref": "root_001069/B014",
+      "tested_facets": [
+        {
+          "facet_id": "F001",
+          "result": "no_independent_trigger"
+        }
+      ],
+      "result": "no_independent_trigger",
+      "contact_refs": [],
+      "reason": "En iyi veya seçkin bölüm anlamını tetikleyen karşılaştırma ve üstünlük bağlamı yoktur."
+    },
+    {
+      "branch_ref": "root_001069/B015",
+      "tested_facets": [
+        {
+          "facet_id": "F001",
+          "result": "no_independent_trigger"
+        },
+        {
+          "facet_id": "F002",
+          "result": "no_independent_trigger"
+        }
+      ],
+      "result": "no_independent_trigger",
+      "contact_refs": [],
+      "reason": "Toplumsal önderlik veya aynı anne babadan kardeşlik bağlamı bulunmaz."
+    },
+    {
+      "branch_ref": "root_001069/B016",
+      "tested_facets": [
+        {
+          "facet_id": "F001",
+          "result": "no_independent_trigger"
+        },
+        {
+          "facet_id": "F002",
+          "result": "no_independent_trigger"
+        }
+      ],
+      "result": "no_independent_trigger",
+      "contact_refs": [],
+      "reason": "Gözün genişliği ve güzelliğiyle ilgili niteleyici unsur yoktur."
+    },
+    {
+      "branch_ref": "root_001069/B017",
+      "tested_facets": [
+        {
+          "facet_id": "F001",
+          "result": "no_independent_trigger"
+        },
+        {
+          "facet_id": "F002",
+          "result": "no_independent_trigger"
+        }
+      ],
+      "result": "no_independent_trigger",
+      "contact_refs": [],
+      "reason": "Herhangi bir kişi, ev halkı veya hazır topluluk bildiren yapı bulunmaz."
+    }
+  ],
+  "contact_opportunities": [
+    {
+      "contact_ref": "micro:contact:abd-b003-f001",
+      "surface_carrier": "نَعْبُدُ",
+      "distinctive_facet": "root_000973/B003 F001: sıradan itaati aşan boyun eğme ve alçalma",
+      "independent_trigger": "Öne alınmış إِيَّاكَ ve doğrudan ilahî muhatap, fiili basit bir görev bildiriminden daha güçlü bir teslimiyet olarak çerçeveler.",
+      "changed_reading": "Kulluk yalnızca bir hizmet eylemi değil, muhatap önünde kendini aşağıya koyan bağlılık beyanı olarak duyulur.",
+      "reader_payoff": "Okur, tapınmanın içindeki teslimiyet ve alçalma basıncını görür.",
+      "containment": "Bu temas B003 F001 ile sınırlıdır; köle kişi, yaratılışsal nispet ve diğer kök dalları bu okumaya taşınmaz.",
+      "suggested_lane": "micro",
+      "disposition": "accept",
+      "accepted_finding_refs": [
+        "micro:worship-submission"
+      ],
+      "support_ids": [
+        "sup_9c387b30058b83f9557a",
+        "sup_357a455dd5f2c2e30a3b",
+        "sup_a5d2db62cadf5c0a3c1b"
+      ],
+      "branch_refs": [
+        "root_000973/B003"
+      ]
+    },
+    {
+      "contact_ref": "micro:contact:abd-b003-f002",
+      "surface_carrier": "نَعْبُدُ",
+      "distinctive_facet": "root_000973/B003 F002: Tanrı'ya yönelen tapınma ve kendini bu yönelişe verme",
+      "independent_trigger": "Form I ibadet fiili, öne alınmış tekil muhatapla birleşerek eylemin yönünü ve dinsel hedefini açıkça kurar.",
+      "changed_reading": "Cümle, genel bir itaat sözünden ziyade kendini tek bir ilahî hedefe veren tapınma bildirisine dönüşür.",
+      "reader_payoff": "Okur, fiilin hem eylemi hem de yöneltilmiş dinsel teslimiyeti taşıdığını fark eder.",
+      "containment": "Bu, B003'ün merkezî dinsel kullanımıdır; insanlara veya sahte güçlere yönelen uzantı bu ayette etkin değildir.",
+      "suggested_lane": "micro",
+      "disposition": "accept",
+      "accepted_finding_refs": [
+        "micro:worship-submission",
+        "micro:exclusive-service-support"
+      ],
+      "support_ids": [
+        "sup_9c387b30058b83f9557a",
+        "sup_357a455dd5f2c2e30a3b",
+        "sup_a5d2db62cadf5c0a3c1b",
+        "sup_0184064521ac1dab2926"
+      ],
+      "branch_refs": [
+        "root_000973/B003"
+      ]
+    },
+    {
+      "contact_ref": "micro:contact:abd-b006-f001",
+      "surface_carrier": "إِيَّاكَ نَعْبُدُ",
+      "distinctive_facet": "root_000973/B006 F001: muhatabın saygıdeğer ve yüce tutulması",
+      "independent_trigger": "Hizmet fiilinin öne alınmış özel muhataba yönelmesi, tapınılan kişiyi eylemin yücelttiği ve onurlandırdığı hedef olarak kurar.",
+      "changed_reading": "Tapınma yalnızca konuşanın aşağıya yönelmesi değil, muhatabı etkin biçimde yüceltmesidir.",
+      "reader_payoff": "Okur, ibadetin muhatap üzerinde kurduğu onurlandırıcı yönü fark eder.",
+      "containment": "B006 F001'in ilişkisel sonucudur; ayrı bir isimsel onur unvanı veya bağımsız övgü glossu değildir.",
+      "suggested_lane": "micro",
+      "disposition": "accept",
+      "accepted_finding_refs": [
+        "micro:honoring-service",
+        "micro:watchful-aid"
+      ],
+      "support_ids": [
+        "sup_9c387b30058b83f9557a",
+        "sup_a5d2db62cadf5c0a3c1b",
+        "sup_64eeab6c23d50584f9b3",
+        "sup_40eb955fe0f9f72f362c"
+      ],
+      "branch_refs": [
+        "root_000973/B006"
+      ]
+    },
+    {
+      "contact_ref": "micro:contact:abd-b006-f002",
+      "surface_carrier": "نَعْبُدُ",
+      "distinctive_facet": "root_000973/B006 F002: yüksek konumdaki muhataba hizmet edilmesi",
+      "independent_trigger": "Fiilin hizmet anlamı ile açık nesne ilişkisi, hizmetin soyut bir tutum olarak kalmayıp muhataba sunulduğunu gösterir.",
+      "changed_reading": "Kulluk, onurlandırmanın yanı sıra muhataba yöneltilmiş fiilî hizmet olarak da duyulur.",
+      "reader_payoff": "Okur, tapınmanın hizmet boyutunun doğrudan nesnesine bağlandığını görür.",
+      "containment": "Bu ilişki yerel hizmet etkisidir; B006'daki kişi dalı fiilin bütün sözlük anlamı yerine geçirilmez.",
+      "suggested_lane": "micro",
+      "disposition": "accept",
+      "accepted_finding_refs": [
+        "micro:honoring-service"
+      ],
+      "support_ids": [
+        "sup_9c387b30058b83f9557a",
+        "sup_a5d2db62cadf5c0a3c1b",
+        "sup_64eeab6c23d50584f9b3"
+      ],
+      "branch_refs": [
+        "root_000973/B006"
+      ]
+    },
+    {
+      "contact_ref": "micro:contact:aun-b001-f001",
+      "surface_carrier": "نَسْتَعِينُ",
+      "distinctive_facet": "root_001064/B001 F001: başka birinin işini yapmasına destek olma",
+      "independent_trigger": "Form X fiili yardım istemeyi seçer; öne alınmış nesne, bu desteğin kaynağını ayrıca sınırlar.",
+      "changed_reading": "Yardım genel bir fayda değil, konuşanların işi sürdürebilmesi için dışarıdan aradığı destek olarak görünür.",
+      "reader_payoff": "Okur, ikinci fiilin yardımın verilmesini değil yardımın talep edilmesini anlattığını fark eder.",
+      "containment": "Genel yardım ve destek çekirdeği korunur; yaş, savaş, yer ve diğer ع و ن dalları taşınmaz.",
+      "suggested_lane": "micro",
+      "disposition": "accept",
+      "accepted_finding_refs": [
+        "micro:help-branch",
+        "micro:honoring-service"
+      ],
+      "support_ids": [
+        "sup_4848f68d52f80b9d7d98",
+        "sup_f7fc21a92c2133abd7f1",
+        "sup_25e1615f8d09ac3efcc9",
+        "sup_64eeab6c23d50584f9b3"
+      ],
+      "branch_refs": [
+        "root_001064/B001"
+      ]
+    },
+    {
+      "contact_ref": "micro:contact:aun-b001-f002",
+      "surface_carrier": "إِيَّاكَ نَسْتَعِينُ",
+      "distinctive_facet": "root_001064/B001 F002: başkasından yardım isteme",
+      "independent_trigger": "نَسْتَعِينُ Form X biçiminde birinci çoğul özneyle yardım talep eder ve إِيَّاكَ bu talebin muhatabını öne çıkarır.",
+      "changed_reading": "Konuşanlar yardım alan pasif kişiler olarak değil, belirli bir kaynaktan yardım isteyen etkin bir topluluk olarak görünür.",
+      "reader_payoff": "Okur, yardım talebinin yönünü ve talep eden öznenin etkinliğini birlikte kavrar.",
+      "containment": "Bu, yerel yardım isteme kullanımıdır; yardım sağlayan kişi türevi veya karşılıklı işbirliği anlamı eklenmez.",
+      "suggested_lane": "micro",
+      "disposition": "accept",
+      "accepted_finding_refs": [
+        "micro:help-branch",
+        "micro:exclusive-service-support"
+      ],
+      "support_ids": [
+        "sup_4848f68d52f80b9d7d98",
+        "sup_f7fc21a92c2133abd7f1",
+        "sup_a871c53525052aba59dd",
+        "sup_b83a37bd600e951d76a9"
+      ],
+      "branch_refs": [
+        "root_001064/B001"
+      ]
+    },
+    {
+      "contact_ref": "micro:contact:ain-b003-f001-watchful",
+      "surface_carrier": "إِيَّاكَ نَسْتَعِينُ",
+      "distinctive_facet": "root_001069/B003 F001: koruyup gözetme",
+      "independent_trigger": "Yardım talebinin hizmet ve onurlandırma çerçevesi, HFT'deki baskın olmayan ع و ن → ع ي ن eşlemesiyle birlikte yardımın koruyucu bir gözetim olarak tasarlanmasına sınırlı yerel dayanak verir.",
+      "changed_reading": "Yardım istemek, yalnızca dışarıdan güç beklemek değil, hizmet eden topluluğun gözetilip korunmasını istemek olarak da sezilebilir.",
+      "reader_payoff": "Okur, yardım talebinin deneysel bir koruyucu-huzur imgesine açıldığını görür.",
+      "containment": "Bu yalnızca exploratory bir yan okumadır. Baskın yardım dalı canlıdır; eşleme HFT kaynaklıdır ve bu temas نَسْتَعِينُ fiilinin sözlük glossu veya doğrudan göz anlamı değildir. Şefkat uzantısı etkinleştirilmemiştir.",
+      "suggested_lane": "micro",
+      "disposition": "narrow",
+      "accepted_finding_refs": [
+        "micro:watchful-aid"
+      ],
+      "support_ids": [
+        "sup_40eb955fe0f9f72f362c",
+        "sup_4848f68d52f80b9d7d98",
+        "sup_a527e66a784e6e37ee8a",
+        "sup_64eeab6c23d50584f9b3",
+        "sup_9c387b30058b83f9557a"
+      ],
+      "branch_refs": [
+        "root_000973/B006",
+        "root_001069/B003"
+      ]
+    }
+  ],
+  "candidate_decisions": [
+    {
+      "candidate_id": "cand_8b7e289b140b434dad48",
+      "decision": "accept",
+      "reason": "Üçüncü kişi övgüsünden aynı ilahî muhataba ikinci kişiyle yönelen doğrudan hitap yerel söylem hareketini değiştirir.",
+      "failed_edge": null,
+      "accepted_finding_refs": [
+        "micro:direct-address"
+      ],
+      "duplicate_of": null,
+      "excluded_branch_refs": [],
+      "branch_exclusion_reasons": []
+    },
+    {
+      "candidate_id": "cand_f1331538ba99603f3067",
+      "decision": "accept",
+      "reason": "Öne alınmış nesne, fiilden önce muhatabı vererek özel yönelimi ve dışlayıcı hedefi kurar.",
+      "failed_edge": null,
+      "accepted_finding_refs": [
+        "micro:first-fronting"
+      ],
+      "duplicate_of": null,
+      "excluded_branch_refs": [],
+      "branch_exclusion_reasons": []
+    },
+    {
+      "candidate_id": "cand_33931ce563559a4a1681",
+      "decision": "accept",
+      "reason": "Kök taşımayan aynı nesne zamiri iki fiil arasında dilbilgisel yankı birimi olur.",
+      "failed_edge": null,
+      "accepted_finding_refs": [
+        "micro:rootless-echo"
+      ],
+      "duplicate_of": null,
+      "excluded_branch_refs": [],
+      "branch_exclusion_reasons": []
+    },
+    {
+      "candidate_id": "cand_695098c8d25aec6247dc",
+      "decision": "narrow",
+      "reason": "Varyantlar ayrık öne alınmış nesne biçiminin baskısını görünür kılar; alternatif ayrıştırma yerel okumanın yerine geçirilmez.",
+      "failed_edge": null,
+      "accepted_finding_refs": [
+        "micro:first-segmentation"
+      ],
+      "duplicate_of": null,
+      "excluded_branch_refs": [],
+      "branch_exclusion_reasons": []
+    },
+    {
+      "candidate_id": "cand_a05aa14a8e07f02bfd7e",
+      "decision": "accept",
+      "reason": "Basit Form I hizmet fiili, daha ağır Form X yardım istemeden önce gelir ve sıralı çifti kurar.",
+      "failed_edge": null,
+      "accepted_finding_refs": [
+        "micro:form-order"
+      ],
+      "duplicate_of": null,
+      "excluded_branch_refs": [],
+      "branch_exclusion_reasons": []
+    },
+    {
+      "candidate_id": "cand_9d5172063bf7d3b891c0",
+      "decision": "accept",
+      "reason": "Birinci çoğul eksik biçim, hizmeti tamamlanmış rapor değil sürdürülebilir ortak eylem olarak seslendirir.",
+      "failed_edge": null,
+      "accepted_finding_refs": [
+        "micro:ongoing-service"
+      ],
+      "duplicate_of": null,
+      "excluded_branch_refs": [],
+      "branch_exclusion_reasons": []
+    },
+    {
+      "candidate_id": "cand_b68f421d6c04faedf67b",
+      "decision": "narrow",
+      "reason": "Kök alanı hizmet ve teslimiyet ağırlığı verir; kökün kölelik, fiziksel yumuşatma ve diğer uzak dalları yerel anlama taşınmaz.",
+      "failed_edge": null,
+      "accepted_finding_refs": [
+        "micro:worship-submission"
+      ],
+      "duplicate_of": null,
+      "excluded_branch_refs": [],
+      "branch_exclusion_reasons": []
+    },
+    {
+      "candidate_id": "cand_a18e892b823fcee589ce",
+      "decision": "narrow",
+      "reason": "Varyantlar sesleniş ve kip baskısını karşılaştırmalı olarak açar; üretim okuması etkin birinci çoğul biçimde kalır.",
+      "failed_edge": null,
+      "accepted_finding_refs": [
+        "micro:voice-mood-variants"
+      ],
+      "duplicate_of": null,
+      "excluded_branch_refs": [],
+      "branch_exclusion_reasons": []
+    },
+    {
+      "candidate_id": "cand_35619f79e8d5f9ca2f7b",
+      "decision": "narrow",
+      "reason": "Daha geniş ibadet tekrar alanı yalnızca öne alınmış muhatapla yerelleştirilmiş bir yankı olarak tutulur; dış sahneler içe aktarılmaz.",
+      "failed_edge": null,
+      "accepted_finding_refs": [
+        "micro:worship-recurrence"
+      ],
+      "duplicate_of": null,
+      "excluded_branch_refs": [],
+      "branch_exclusion_reasons": []
+    },
+    {
+      "candidate_id": "cand_78715c7e998b29f32b62",
+      "decision": "accept",
+      "reason": "وَ iki tam, paralel ve öne alınmış nesneli fiil cümlesini birbirine bağlar.",
+      "failed_edge": null,
+      "accepted_finding_refs": [
+        "micro:parallel-clauses"
+      ],
+      "duplicate_of": null,
+      "excluded_branch_refs": [],
+      "branch_exclusion_reasons": []
+    },
+    {
+      "candidate_id": "cand_ef767fbd959482d68eef",
+      "decision": "accept",
+      "reason": "Bağlaç ikinci yarının yeni bir kısıtlı cümle olarak başlamasına ve hizmetten yardım talebine dönmesine izin verir.",
+      "failed_edge": null,
+      "accepted_finding_refs": [
+        "micro:resumptive-hinge"
+      ],
+      "duplicate_of": null,
+      "excluded_branch_refs": [],
+      "branch_exclusion_reasons": []
+    },
+    {
+      "candidate_id": "cand_7c9f5ea48a5eac83412f",
+      "decision": "narrow",
+      "reason": "Yüzey birleşmesi, وَ ile ikinci إِيَّاكَ arasındaki ses ve sınır baskısını gösterir; temel koordinasyon korunur.",
+      "failed_edge": null,
+      "accepted_finding_refs": [
+        "micro:surface-fusion"
+      ],
+      "duplicate_of": null,
+      "excluded_branch_refs": [],
+      "branch_exclusion_reasons": []
+    },
+    {
+      "candidate_id": "cand_5628c45ec85350235cdd",
+      "decision": "accept",
+      "reason": "İkinci zamir eksklusiviteyi ilk cümleden ödünç almak yerine yardım fiili için yeniden kurar.",
+      "failed_edge": null,
+      "accepted_finding_refs": [
+        "micro:second-restriction"
+      ],
+      "duplicate_of": null,
+      "excluded_branch_refs": [],
+      "branch_exclusion_reasons": []
+    },
+    {
+      "candidate_id": "cand_7573923f53066ca88bc8",
+      "decision": "accept",
+      "reason": "Aynı muhatap ikinci fiilin altında yeniden adlandırılır ve sessiz elipse bırakılmaz.",
+      "failed_edge": null,
+      "accepted_finding_refs": [
+        "micro:addressee-reidentified"
+      ],
+      "duplicate_of": null,
+      "excluded_branch_refs": [],
+      "branch_exclusion_reasons": []
+    },
+    {
+      "candidate_id": "cand_845d4ed231917d903848",
+      "decision": "accept",
+      "reason": "Tekrarlanan köksüz zamir, iki farklı fiil arasında paralelliği dilbilgisel biçim üzerinden taşır.",
+      "failed_edge": null,
+      "accepted_finding_refs": [
+        "micro:rootless-echo"
+      ],
+      "duplicate_of": null,
+      "excluded_branch_refs": [],
+      "branch_exclusion_reasons": []
+    },
+    {
+      "candidate_id": "cand_89c8f507254037d02afe",
+      "decision": "narrow",
+      "reason": "İkinci zamir yuvasındaki varyant baskısı ses ve ayrıştırmayı sınar; yerel işlev yine tekrarlanan öne alınmış nesnedir.",
+      "failed_edge": null,
+      "accepted_finding_refs": [
+        "micro:second-slot-variants"
+      ],
+      "duplicate_of": null,
+      "excluded_branch_refs": [],
+      "branch_exclusion_reasons": []
+    },
+    {
+      "candidate_id": "cand_b9d93fb23a0069236b25",
+      "decision": "accept",
+      "reason": "Form X, konuşanların yardım istemesini seçer; yardımın yalnızca verilmiş olduğu edilgen bir okuma değildir.",
+      "failed_edge": null,
+      "accepted_finding_refs": [
+        "micro:form-x-help"
+      ],
+      "duplicate_of": null,
+      "excluded_branch_refs": [],
+      "branch_exclusion_reasons": []
+    },
+    {
+      "candidate_id": "cand_cfb52e93f1f2be3fc96f",
+      "decision": "accept",
+      "reason": "Belirtilmemiş yardım talebi bir sonraki ayetteki hidayet isteğine doğru yerel bir söylem açılımı kurar.",
+      "failed_edge": null,
+      "accepted_finding_refs": [
+        "micro:guidance-opening"
+      ],
+      "duplicate_of": null,
+      "excluded_branch_refs": [],
+      "branch_exclusion_reasons": []
+    },
+    {
+      "candidate_id": "cand_566eefe2070a363286f8",
+      "decision": "narrow",
+      "reason": "Öne alınmış doğrudan nesne, beklenen help-from ilişkisini sıkıştırır; bu işaretli çerçeve standart glossun yerine geçirilmez.",
+      "failed_edge": null,
+      "accepted_finding_refs": [
+        "micro:aid-fronting"
+      ],
+      "duplicate_of": null,
+      "excluded_branch_refs": [],
+      "branch_exclusion_reasons": []
+    },
+    {
+      "candidate_id": "cand_a4baa4f7a8efb832fb3a",
+      "decision": "accept",
+      "reason": "Yardım isteme, önce söylenen hizmetin kopuk bir ikinci dindar fiili değil, onun karşılığıdır.",
+      "failed_edge": null,
+      "accepted_finding_refs": [
+        "micro:paired-service-aid"
+      ],
+      "duplicate_of": null,
+      "excluded_branch_refs": [],
+      "branch_exclusion_reasons": []
+    },
+    {
+      "candidate_id": "cand_74c28700c71cc62264f8",
+      "decision": "narrow",
+      "reason": "Yardım ve sabır alanı gerçek bir tekrar yankısıdır; sabır bu ayette açık nesne veya bağımsız anlam olarak kurulmaz.",
+      "failed_edge": null,
+      "accepted_finding_refs": [
+        "micro:patience-echo"
+      ],
+      "duplicate_of": null,
+      "excluded_branch_refs": [],
+      "branch_exclusion_reasons": []
+    },
+    {
+      "candidate_id": "cand_74e4d9ceeff050130f4c",
+      "decision": "narrow",
+      "reason": "ع و ن alanında yerel olarak yardım isteme kolu seçilir; yaş, savaş, yer adı ve diğer kollar dışarıda tutulur.",
+      "failed_edge": null,
+      "accepted_finding_refs": [
+        "micro:help-branch"
+      ],
+      "duplicate_of": null,
+      "excluded_branch_refs": [],
+      "branch_exclusion_reasons": []
+    },
+    {
+      "candidate_id": "cand_0e5d7964935c0202a39e",
+      "decision": "narrow",
+      "reason": "Kıraat varyantları kapanış sesini etkiler; yerel Form X yardım isteme anlamını değiştirmez.",
+      "failed_edge": null,
+      "accepted_finding_refs": [
+        "micro:vocalization-variants"
+      ],
+      "duplicate_of": null,
+      "excluded_branch_refs": [],
+      "branch_exclusion_reasons": []
+    },
+    {
+      "candidate_id": "cand_bfd3d68cd3d0eb52f2ff",
+      "decision": "narrow",
+      "reason": "QAC kök kaydı yalnızca نَعْبُدُ için taşıyıcı ve provenans olarak, bağımsız bir anlam iddiası oluşturmadan gerçek B003 temasına bağlanır.",
+      "failed_edge": null,
+      "accepted_finding_refs": [
+        "micro:worship-submission"
+      ],
+      "duplicate_of": null,
+      "excluded_branch_refs": [],
+      "branch_exclusion_reasons": []
+    },
+    {
+      "candidate_id": "cand_b7e85043d8efaf24da97",
+      "decision": "narrow",
+      "reason": "QAC kök kaydı yalnızca نَسْتَعِينُ için taşıyıcı ve provenans olarak, bağımsız bir sözlük anlamı oluşturmadan B001 temasına bağlanır.",
+      "failed_edge": null,
+      "accepted_finding_refs": [
+        "micro:help-branch"
+      ],
+      "duplicate_of": null,
+      "excluded_branch_refs": [],
+      "branch_exclusion_reasons": []
+    },
+    {
+      "candidate_id": "cand_e8c827d8f3e5a9d6d8a0",
+      "decision": "accept",
+      "reason": "HFT'nin temel sentezi, bağımsız yerel grammar ve kök temaslarıyla doğrulanan iki parçalı özel yönelimi taşır.",
+      "failed_edge": null,
+      "accepted_finding_refs": [
+        "micro:exclusive-service-support"
+      ],
+      "duplicate_of": null,
+      "excluded_branch_refs": [],
+      "branch_exclusion_reasons": []
+    },
+    {
+      "candidate_id": "cand_dd77e4cddc8666350a84",
+      "decision": "reject",
+      "reason": "HFT adayının iki atıflı dalı da yerel olarak etkinleşmez.",
+      "failed_edge": "root_000973/B001 köle kişi statüsünü, root_001064/B005 ise beden/yaş temelli güç olgunluğunu gerektirir; نَعْبُدُ ve نَسْتَعِينُ bu facetleri seçen bağımsız tetikleyici sağlamaz.",
+      "accepted_finding_refs": [],
+      "duplicate_of": null,
+      "excluded_branch_refs": [
+        "root_000973/B001",
+        "root_001064/B005"
+      ],
+      "branch_exclusion_reasons": [
+        {
+          "branch_ref": "root_000973/B001",
+          "reason": "Etkin fiil, sahip olunan kişi statüsü veya hukuki alım satım ölçütü sağlamaz."
+        },
+        {
+          "branch_ref": "root_001064/B005",
+          "reason": "Yardım isteme yapısında kadın, hayvan, beden veya yaş olgunluğu bağlamı yoktur."
+        }
+      ]
+    },
+    {
+      "candidate_id": "cand_c24a239caf9fa01f4908",
+      "decision": "narrow",
+      "reason": "HFT'nin onurlandırıcı hizmet sentezi korunur; B006 ve yardım dalının yerel ilişkisel etkisi olarak, sıradan glossların yerine geçirilmeden sunulur.",
+      "failed_edge": null,
+      "accepted_finding_refs": [
+        "micro:honoring-service"
+      ],
+      "duplicate_of": null,
+      "excluded_branch_refs": [],
+      "branch_exclusion_reasons": []
+    },
+    {
+      "candidate_id": "cand_892164f326ea04190150",
+      "decision": "narrow",
+      "reason": "Baskın olmayan عين eşlemesi ve HFT provenansı nedeniyle yalnızca sınırlı, exploratory koruyucu-gözetim teması korunur.",
+      "failed_edge": null,
+      "accepted_finding_refs": [
+        "micro:watchful-aid"
+      ],
+      "duplicate_of": null,
+      "excluded_branch_refs": [],
+      "branch_exclusion_reasons": []
+    }
+  ],
+  "scope_referrals": [],
+  "new_findings": [],
+  "accepted_findings": [
+    {
+      "finding_ref": "micro:direct-address",
+      "candidate_ids": [
+        "cand_8b7e289b140b434dad48"
+      ],
+      "proposal_keys": [],
+      "title": "Övgüden doğrudan hitaba geçiş",
+      "claim": "Önceki üçüncü kişi övgüsü, ayahın başında aynı ilahî muhataba ikinci kişiyle dönerek dua söylemine geçer.",
+      "mechanism": "İkinci kişi tekil nesne zamiri, önceki söylemde kurulmuş ilahî göndergeyi doğrudan seslenilen muhatap yapar.",
+      "reader_payoff": "Okur, anlatılan Tanrı hakkında konuşmadan Tanrı'ya konuşmaya geçişi fark eder.",
+      "containment": "Bu bir söylem ve hitap etkisidir; zamire kök anlamı veya yeni bir ilahî isim eklenmez.",
+      "support_ids": [
+        "sup_9e3e734cc223ea2203c9",
+        "sup_a5d2db62cadf5c0a3c1b"
+      ],
+      "branch_refs": [],
+      "connection_refs": [],
+      "contact_refs": [],
+      "branch_contributions": [],
+      "epistemic_status": "established"
+    },
+    {
+      "finding_ref": "micro:first-fronting",
+      "candidate_ids": [
+        "cand_f1331538ba99603f3067"
+      ],
+      "proposal_keys": [],
+      "title": "Öne alınmış nesne kısıtlamayı kurar",
+      "claim": "إِيَّاكَ fiilden önce geldiği için hizmetin hedefini baştan sınırlar ve cümleyi You-alone yönelimiyle açar.",
+      "mechanism": "Açık nesne, yöneten نَعْبُدُ fiilinden önce yerleştirilmiştir; böylece hedef fiilden önce duyulur.",
+      "reader_payoff": "Okur, özel yönelimin yalnızca çeviri sözcüğüyle değil kelime sırasıyla kurulduğunu görür.",
+      "containment": "Kısıtlayıcı etki korunur; dilbilgisel fronting ayrı bir kök veya yeni lexical gloss değildir.",
+      "support_ids": [
+        "sup_845933c4327c7c4d928c",
+        "sup_a5d2db62cadf5c0a3c1b"
+      ],
+      "branch_refs": [],
+      "connection_refs": [],
+      "contact_refs": [],
+      "branch_contributions": [],
+      "epistemic_status": "established"
+    },
+    {
+      "finding_ref": "micro:rootless-echo",
+      "candidate_ids": [
+        "cand_33931ce563559a4a1681",
+        "cand_845d4ed231917d903848"
+      ],
+      "proposal_keys": [],
+      "title": "Yankı birimi kök değil zamir biçimidir",
+      "claim": "Ayahın tekrarlanan yankısı lexical root değil, iki fiili çerçeveleyen aynı ayrık nesne zamiri biçimidir.",
+      "mechanism": "Köksüz إِيَّاكَ önce نَعْبُدُ, sonra نَسْتَعِينُ önünde tekrarlanır ve iki eylemi biçimsel olarak paralelleştirir.",
+      "reader_payoff": "Okur, tekrarın yalnızca anlam alanından değil, aynı gramatik nesne biçiminden geldiğini fark eder.",
+      "containment": "Bu biçimsel paralelliktir; zamire kök veya bağımsız sözlük dalı atfedilmez.",
+      "support_ids": [
+        "sup_6b501c46088e551fc745",
+        "sup_a5d2db62cadf5c0a3c1b",
+        "sup_1f043bb6a4fe11aaa20e",
+        "sup_a871c53525052aba59dd"
+      ],
+      "branch_refs": [],
+      "connection_refs": [],
+      "contact_refs": [],
+      "branch_contributions": [],
+      "epistemic_status": "established"
+    },
+    {
+      "finding_ref": "micro:first-segmentation",
+      "candidate_ids": [
+        "cand_695098c8d25aec6247dc"
+      ],
+      "proposal_keys": [],
+      "title": "Varyantlar ayrık nesne sınırını görünür kılar",
+      "claim": "Ayrıştırma ve ses varyantları, standart okumadaki ayrık öne alınmış nesne biçiminin ne kadar belirleyici olduğunu karşılaştırmalı olarak gösterir.",
+      "mechanism": "Varyant baskısı ilk إِيَّاكَ çevresindeki segmentasyon ve ses sınırında toplanır; yerel parse nesne-fiil olarak kalır.",
+      "reader_payoff": "Okur, özel yönelimin standart biçimdeki ayrık nesne mimarisine bağlı olduğunu fark eder.",
+      "containment": "Varyantlar contrastive evidence olarak tutulur; alternatif okuma veya anlam standardın yerine geçirilmez.",
+      "support_ids": [
+        "sup_a5d2db62cadf5c0a3c1b",
+        "sup_ca993d4391a1b2c31232"
+      ],
+      "branch_refs": [],
+      "connection_refs": [],
+      "contact_refs": [],
+      "branch_contributions": [],
+      "epistemic_status": "qualified"
+    },
+    {
+      "finding_ref": "micro:form-order",
+      "candidate_ids": [
+        "cand_a05aa14a8e07f02bfd7e"
+      ],
+      "proposal_keys": [],
+      "title": "Basit hizmetten türetilmiş yardım istemeye",
+      "claim": "نَعْبُدُ ile bildirilen basit hizmet, نَسْتَعِينُ ile bildirilen türetilmiş yardım istemeden önce gelir.",
+      "mechanism": "İki birinci çoğul eksik fiilin Form I ve Form X oluşu, ayah içinde hizmetten destek talebine doğru sıralı bir hareket kurar.",
+      "reader_payoff": "Okur, ayahın iki fiili eşit ve rastgele yan yana değil, hizmet ardından yardım isteme düzeninde kurduğunu görür.",
+      "containment": "Bu form ve sıra etkisidir; türetilmiş biçim bütün yardım kökü dallarını etkinleştirmez.",
+      "support_ids": [
+        "sup_796c6f7954cf104d6b58",
+        "sup_9c387b30058b83f9557a"
+      ],
+      "branch_refs": [],
+      "connection_refs": [],
+      "contact_refs": [],
+      "branch_contributions": [],
+      "epistemic_status": "established"
+    },
+    {
+      "finding_ref": "micro:ongoing-service",
+      "candidate_ids": [
+        "cand_9d5172063bf7d3b891c0"
+      ],
+      "proposal_keys": [],
+      "title": "Hizmet yenilenebilir ortak eylem olarak seslenir",
+      "claim": "نَعْبُدُ tamamlanmış bir hizmet raporu değil, birinci çoğul öznenin sürdürülebilir ortak eylemidir.",
+      "mechanism": "Form I imperfect biçim ve birinci çoğul çekim, ayrı bir özne ismi olmadan konuşan topluluğun eylemini taşır.",
+      "reader_payoff": "Okur, cümleyi geçmişte yapılmış tek bir iş değil, şimdi yeniden söylenen bir bağlılık beyanı olarak duyar.",
+      "containment": "Süreklilik ve kolektif ses korunur; kip varyantları yerel üretim okumasını değiştirmez.",
+      "support_ids": [
+        "sup_7d314956b5adb85a297c",
+        "sup_9c387b30058b83f9557a"
+      ],
+      "branch_refs": [],
+      "connection_refs": [],
+      "contact_refs": [],
+      "branch_contributions": [],
+      "epistemic_status": "established"
+    },
+    {
+      "finding_ref": "micro:worship-submission",
+      "candidate_ids": [
+        "cand_b68f421d6c04faedf67b",
+        "cand_bfd3d68cd3d0eb52f2ff"
+      ],
+      "proposal_keys": [],
+      "title": "Tapınma, teslimiyet ve hizmet ağırlığı",
+      "claim": "نَعْبُدُ burada yalnızca genel hizmeti değil, tek muhataba yönelen tapınma ve sıradan itaati aşan teslimiyeti taşır.",
+      "mechanism": "Form I hizmet fiili, öne alınmış ilahî nesneyle birleşir; kök alanından gelen teslimiyet basıncı bu yönelimi yoğunlaştırır.",
+      "reader_payoff": "Okur, kulluk sözünün hem eylem hem de derin boyun eğme yönünü birlikte kavrar.",
+      "containment": "B003 F001 ve F002 korunur; köle kişi, yaratılışsal nispet, köleleştirme ve fiziksel dallar yerel gloss yapılmaz. QAC kaydı yalnızca taşıyıcı kanıttır.",
+      "support_ids": [
+        "sup_357a455dd5f2c2e30a3b",
+        "sup_9c387b30058b83f9557a",
+        "sup_539139bd505c5fe541cf"
+      ],
+      "branch_refs": [
+        "root_000973/B003"
+      ],
+      "connection_refs": [],
+      "contact_refs": [
+        "micro:contact:abd-b003-f001",
+        "micro:contact:abd-b003-f002"
+      ],
+      "branch_contributions": [
+        {
+          "branch_ref": "root_000973/B003",
+          "facet_id": "F001",
+          "distinctive_facet": "Sıradan itaati aşan boyun eğme ve alçalma",
+          "surface_carrier": "نَعْبُدُ",
+          "independent_anchor": "Öne alınmış ilahî muhatap إِيَّاكَ",
+          "contribution": "Kulluk, muhatap önünde kendini aşağıya koyan teslimiyet olarak yoğunlaşır.",
+          "boundary": "Bu teslimiyet köle kişi statüsü veya köleleştirme eylemi değildir."
+        },
+        {
+          "branch_ref": "root_000973/B003",
+          "facet_id": "F002",
+          "distinctive_facet": "Tanrı'ya yönelen tapınma ve kendini bu yönelişe verme",
+          "surface_carrier": "نَعْبُدُ",
+          "independent_anchor": "Fiilin açık nesnesi olan tekil ilahî muhatap ve doğrudan hitap",
+          "contribution": "Eylem, kendini belirli bir Tanrı'ya yönelten merkezî dinsel tapınma olarak okunur.",
+          "boundary": "İnsanlara veya sahte güçlere yönelen özel uzantılar bu ayette etkin değildir."
+        }
+      ],
+      "epistemic_status": "qualified"
+    },
+    {
+      "finding_ref": "micro:voice-mood-variants",
+      "candidate_ids": [
+        "cand_a18e892b823fcee589ce"
+      ],
+      "proposal_keys": [],
+      "title": "Varyantlar sesleniş ve kip baskısını sınar",
+      "claim": "Alternatif ses veya kip biçimleri konuşma duruşunu değiştirebilir; mevcut yerel biçim etkin birinci çoğul hizmet beyanıdır.",
+      "mechanism": "Varyant kanıtı pasiflik, apokop veya farklı sesleniş ihtimallerini karşılaştırır; üretim parse'ı etkin imperfect biçimde kalır.",
+      "reader_payoff": "Okur, kolektif beyanın biçimsel olarak nasıl korunmuş olduğunu görür.",
+      "containment": "Varyantlar karşılaştırmalı baskıdır; pasif veya kesilmiş kip alternatifleri yerel anlam olarak sunulmaz.",
+      "support_ids": [
+        "sup_2b933aa13931f2d8068e",
+        "sup_9c387b30058b83f9557a"
+      ],
+      "branch_refs": [],
+      "connection_refs": [],
+      "contact_refs": [],
+      "branch_contributions": [],
+      "epistemic_status": "qualified"
+    },
+    {
+      "finding_ref": "micro:worship-recurrence",
+      "candidate_ids": [
+        "cand_35619f79e8d5f9ca2f7b"
+      ],
+      "proposal_keys": [],
+      "title": "Tek muhatap ibadet tekrar alanını yerelleştirir",
+      "claim": "Daha geniş Kur'anî ibadet alanı burada öne alınmış You-alone nesnesiyle olumlu ve tek hedefli bir beyana çevrilir.",
+      "mechanism": "Tekrar alanı dış örneklerden taşınmaz; yerel öncelik ve nesne yapısı onu bu ayahın özel hitabına bağlar.",
+      "reader_payoff": "Okur, geniş bir ibadet söz dağarcığının burada belirli bir muhataba kilitlendiğini fark eder.",
+      "containment": "98:5 ve 109:2-5 gibi tekrarlar yalnızca yankı olarak kalır; dış sahne ve karşıtlıklar ayahın açık içeriği yapılmaz.",
+      "support_ids": [
+        "sup_9c387b30058b83f9557a",
+        "sup_c18a7d628a9e68c41081"
+      ],
+      "branch_refs": [],
+      "connection_refs": [],
+      "contact_refs": [],
+      "branch_contributions": [],
+      "epistemic_status": "qualified"
+    },
+    {
+      "finding_ref": "micro:parallel-clauses",
+      "candidate_ids": [
+        "cand_78715c7e998b29f32b62"
+      ],
+      "proposal_keys": [],
+      "title": "Bağlaç iki tam kısıtlı cümleyi bağlar",
+      "claim": "وَ, ibadet ve yardım istemeyi tek bir predicate zincirine eritmeden iki tam You-first beyanı koordine eder.",
+      "mechanism": "İkinci yarı yeniden إِيَّاكَ ile açılır ve ardından kendi fiilini alır; bu yapı iki paralel cümleyi korur.",
+      "reader_payoff": "Okur, iki yönelimin birbirine bağlı ama ayrı ayrı kurulduğunu görür.",
+      "containment": "Bağlama ilişkisi korunur; bağlaç tek bir birleşik fiil veya ek anlam olarak çevrilmez.",
+      "support_ids": [
+        "sup_35069690e716ef2e9be5",
+        "sup_4e0f5a9420347d9bde35"
+      ],
+      "branch_refs": [],
+      "connection_refs": [],
+      "contact_refs": [],
+      "branch_contributions": [],
+      "epistemic_status": "established"
+    },
+    {
+      "finding_ref": "micro:resumptive-hinge",
+      "candidate_ids": [
+        "cand_ef767fbd959482d68eef"
+      ],
+      "proposal_keys": [],
+      "title": "Bağlaç ikinci cümleyi yeniden başlatır",
+      "claim": "وَ yalnızca eklemez; hizmetten yardım talebine dönerken ikinci yarıya yeni bir cümle başlangıcı verir.",
+      "mechanism": "Bağlaçtan sonra aynı öne alınmış nesnenin yeniden gelmesi, ikinci yarının kendi kısıtlı beyanını korur.",
+      "reader_payoff": "Okur, ayahın hizmette durmayıp yardım istemeye dönen hareketini hisseder.",
+      "containment": "Bu mikro söylem pivotudur; bir sonraki ayahın hidayet içeriği burada henüz açık nesne yapılmaz.",
+      "support_ids": [
+        "sup_4e0f5a9420347d9bde35",
+        "sup_6e7e13e8086c4c9c2d51"
+      ],
+      "branch_refs": [],
+      "connection_refs": [],
+      "contact_refs": [],
+      "branch_contributions": [],
+      "epistemic_status": "established"
+    },
+    {
+      "finding_ref": "micro:surface-fusion",
+      "candidate_ids": [
+        "cand_7c9f5ea48a5eac83412f"
+      ],
+      "proposal_keys": [],
+      "title": "Yüzey birleşmesi ikinci nesne sınırını duyurur",
+      "claim": "وَإِيَّاكَ birleşik yüzeyi, bağlaç ile tekrarlanan nesne arasındaki canlı sınırı ses düzeyinde taşır.",
+      "mechanism": "Varyantlar bu sınırın ses ve segmentasyon baskısını gösterir; gramatik olarak bağlaçtan sonra yeni nesne cümlesi kalır.",
+      "reader_payoff": "Okur, ikinci kısıtlamanın yüzeyde de yankılanan bir yeniden giriş olduğunu fark eder.",
+      "containment": "Ses etkisi anlam parse'ını değiştirmez; alternatif fusion biçimi bağımsız bir okuma değildir.",
+      "support_ids": [
+        "sup_4e0f5a9420347d9bde35",
+        "sup_556c8188dde574bcd198"
+      ],
+      "branch_refs": [],
+      "connection_refs": [],
+      "contact_refs": [],
+      "branch_contributions": [],
+      "epistemic_status": "qualified"
+    },
+    {
+      "finding_ref": "micro:second-restriction",
+      "candidate_ids": [
+        "cand_5628c45ec85350235cdd"
+      ],
+      "proposal_keys": [],
+      "title": "İkinci zamir eksklusiviteyi yeniler",
+      "claim": "İkinci إِيَّاكَ, yardım isteme cümlesine kendi You-alone çerçevesini verir; ilk cümleden örtük biçimde devralmaz.",
+      "mechanism": "Zamir, نَسْتَعِينُ fiilinin açık nesnesi olarak aynı fronted-object kalıbını yeniden kurar.",
+      "reader_payoff": "Okur, yardım kaynağının da ayrı ve özel olarak aynı muhatapla sınırlandığını görür.",
+      "containment": "Tekrar gerçek bir ikinci nesne çerçevesidir; yalnızca edebî dolgu veya sessiz elips değildir.",
+      "support_ids": [
+        "sup_a871c53525052aba59dd",
+        "sup_b83a37bd600e951d76a9"
+      ],
+      "branch_refs": [],
+      "connection_refs": [],
+      "contact_refs": [],
+      "branch_contributions": [],
+      "epistemic_status": "established"
+    },
+    {
+      "finding_ref": "micro:addressee-reidentified",
+      "candidate_ids": [
+        "cand_7573923f53066ca88bc8"
+      ],
+      "proposal_keys": [],
+      "title": "Muhatap ikinci fiilin altında yeniden belirlenir",
+      "claim": "Aynı ikinci kişi muhatap, yeni fiil altında yeniden adlandırılarak yardım talebinin de açık hedefi yapılır.",
+      "mechanism": "Koordinasyon ve paralellik, ikinci zamiri önceki göndergeyle eşlerken yeni yöneten fiili de açıkça verir.",
+      "reader_payoff": "Okur, aynı Tanrı'ya dönüldüğünü varsaymakla kalmaz; bunun ikinci cümlede yeniden söylendiğini fark eder.",
+      "containment": "Yeni bir gönderge veya başka muhatap önerilmez; anlam aynı ikinci kişi referansında kalır.",
+      "support_ids": [
+        "sup_2453191df6112d1e0f5b",
+        "sup_a871c53525052aba59dd"
+      ],
+      "branch_refs": [],
+      "connection_refs": [],
+      "contact_refs": [],
+      "branch_contributions": [],
+      "epistemic_status": "established"
+    },
+    {
+      "finding_ref": "micro:second-slot-variants",
+      "candidate_ids": [
+        "cand_89c8f507254037d02afe"
+      ],
+      "proposal_keys": [],
+      "title": "Varyantlar tekrarlanan nesne yuvasını korur",
+      "claim": "İkinci zamir çevresindeki ses ve segmentasyon baskısına rağmen yerel işlev tekrarlanan öne alınmış nesne olarak kalır.",
+      "mechanism": "Varyantlar ikinci slotu sınar; mevcut gramatik yapı nesne artı fiil düzenini korur.",
+      "reader_payoff": "Okur, ikinci eksklusivitenin ses varyantları altında bile yapısal olarak ayrı tutulduğunu görür.",
+      "containment": "Varyantlar biçimsel karşılaştırmadır; başka bir nesne veya anlam yapısı kurulmaz.",
+      "support_ids": [
+        "sup_90864f71ae16536c1548",
+        "sup_a871c53525052aba59dd"
+      ],
+      "branch_refs": [],
+      "connection_refs": [],
+      "contact_refs": [],
+      "branch_contributions": [],
+      "epistemic_status": "qualified"
+    },
+    {
+      "finding_ref": "micro:form-x-help",
+      "candidate_ids": [
+        "cand_b9d93fb23a0069236b25"
+      ],
+      "proposal_keys": [],
+      "title": "Form X yardım istemeyi seçer",
+      "claim": "نَسْتَعِينُ konuşanların kendileri için yardım aramasını bildirir; yalnızca yardımın onlara verilmiş olduğunu söylemez.",
+      "mechanism": "Form X imperfect ve birinci çoğul yapı, isteme ve arama yönünü konuşan topluluğa verir.",
+      "reader_payoff": "Okur, topluluğun yardım karşısında edilgen değil, yardım isteyen etkin bir özne olduğunu görür.",
+      "containment": "Yerel anlam yardım istemedir; yardım veren kişi veya karşılıklı işbirliği türevleri eklenmez.",
+      "support_ids": [
+        "sup_4848f68d52f80b9d7d98",
+        "sup_f7fc21a92c2133abd7f1"
+      ],
+      "branch_refs": [],
+      "connection_refs": [],
+      "contact_refs": [],
+      "branch_contributions": [],
+      "epistemic_status": "established"
+    },
+    {
+      "finding_ref": "micro:guidance-opening",
+      "candidate_ids": [
+        "cand_cfb52e93f1f2be3fc96f"
+      ],
+      "proposal_keys": [],
+      "title": "Açık yardım talebi hidayete doğru açılır",
+      "claim": "Ayahın belirlenmemiş yardım talebi, hemen sonraki hidayet isteğine ve ardından yol ayrımlarına doğru yerel bir söylem açıklığı bırakır.",
+      "mechanism": "Kapanıştaki yardım fiili 1:6'daki hidayet istemiyle ileriye dönük bağ kurar; bu ayette hidayet henüz söylenmez.",
+      "reader_payoff": "Okur, yardımın soyut bırakılmasının sonraki tekil rehberlik isteğini hazırladığını fark eder.",
+      "containment": "Bu yalnızca sınırlı ileri işarettir; 1:6 ve 1:7'nin ayrıntıları 1:5'in açık içeriği yapılmaz.",
+      "support_ids": [
+        "sup_4848f68d52f80b9d7d98",
+        "sup_f076657d6a4382b08867"
+      ],
+      "branch_refs": [],
+      "connection_refs": [],
+      "contact_refs": [],
+      "branch_contributions": [],
+      "epistemic_status": "qualified"
+    },
+    {
+      "finding_ref": "micro:aid-fronting",
+      "candidate_ids": [
+        "cand_566eefe2070a363286f8"
+      ],
+      "proposal_keys": [],
+      "title": "Öne alınmış nesne yardım kaynağını sıkıştırır",
+      "claim": "إِيَّاكَ'nın نَسْتَعِينُ önüne alınması, beklenen help-from ilişkisini fiil gelmeden önce tek bir doğrudan nesnede sıkıştırır.",
+      "mechanism": "Yerel parse açık fronted object olarak kalırken sözlükteki yardım kaynağı ilişkisi Türkçede ayrıca açılmak zorunda kalır.",
+      "reader_payoff": "Okur, yardımın kaynağının fiilden sonra açıklanmadığını, cümle başında özel olarak sabitlendiğini görür.",
+      "containment": "Bu işaretli yapı standart yardım glossuna eklenen ilişkisel basınçtır; yeni bir kök dalı değildir.",
+      "support_ids": [
+        "sup_4848f68d52f80b9d7d98",
+        "sup_f7f69438de3d5cd9511f"
+      ],
+      "branch_refs": [],
+      "connection_refs": [],
+      "contact_refs": [],
+      "branch_contributions": [],
+      "epistemic_status": "qualified"
+    },
+    {
+      "finding_ref": "micro:paired-service-aid",
+      "candidate_ids": [
+        "cand_a4baa4f7a8efb832fb3a"
+      ],
+      "proposal_keys": [],
+      "title": "Yardım isteme hizmetin karşılığıdır",
+      "claim": "نَسْتَعِينُ, نَعْبُدُ ile bildirilen hizmetin yanına rastgele eklenmiş ikinci bir dindar fiil değil, onun destek isteyen karşılığı olarak gelir.",
+      "mechanism": "وَ iki fiili koordine eder; aynı muhatabın iki kez öne alınması hizmet ve yardım istemeyi tek yönelim içinde eşler.",
+      "reader_payoff": "Okur, ayahın hizmeti kendinden yeterli saymadığını ve onu yardım talebiyle tamamladığını fark eder.",
+      "containment": "İlişki mikro düzeydedir; yardım talebi hizmetin bütün teolojik sonuçlarını tek başına belirlemez.",
+      "support_ids": [
+        "sup_4848f68d52f80b9d7d98",
+        "sup_a527e66a784e6e37ee8a"
+      ],
+      "branch_refs": [],
+      "connection_refs": [],
+      "contact_refs": [],
+      "branch_contributions": [],
+      "epistemic_status": "established"
+    },
+    {
+      "finding_ref": "micro:patience-echo",
+      "candidate_ids": [
+        "cand_74c28700c71cc62264f8"
+      ],
+      "proposal_keys": [],
+      "title": "Yardım isteme sabır alanına yankı verir",
+      "claim": "Yardım isteme, başka ayetlerdeki sabırla birlikte görülen bir tekrar alanına yankı verir; sabır burada açıkça adlandırılmaz.",
+      "mechanism": "Tekrarlanma kanıtı yardım ve sabır alanını gösterir, fakat yerel grammar yalnızca yardım istemeyi lisanslar.",
+      "reader_payoff": "Okur, kapanıştaki yardım talebinin daha geniş dayanma ve destek alanlarına açılabildiğini, ancak bunları doğrudan söylemediğini görür.",
+      "containment": "2:45 ve 2:153 dış sahne olarak içeri alınmaz; sabır bu ayette bağımsız gloss veya nesne değildir.",
+      "support_ids": [
+        "sup_4848f68d52f80b9d7d98",
+        "sup_9206e7e6bd4333ace245"
+      ],
+      "branch_refs": [],
+      "connection_refs": [],
+      "contact_refs": [],
+      "branch_contributions": [],
+      "epistemic_status": "qualified"
+    },
+    {
+      "finding_ref": "micro:help-branch",
+      "candidate_ids": [
+        "cand_74e4d9ceeff050130f4c",
+        "cand_b7e85043d8efaf24da97"
+      ],
+      "proposal_keys": [],
+      "title": "Yardım kökü yerel olarak isteme kolunu seçer",
+      "claim": "نَسْتَعِينُ, geniş ع و ن alanı içinden destek isteme ve belirli bir kaynağa başvurma kolunu etkinleştirir.",
+      "mechanism": "Form X biçimi istemeyi, öne alınmış إِيَّاكَ ise destek kaynağını seçer; QAC kök kaydı yalnızca taşıyıcı kanıt olarak kalır.",
+      "reader_payoff": "Okur, aynı ses alanındaki yaş, savaş, yer ve diğer kullanımların neden bu ayahın yardım anlamına girmediğini görür.",
+      "containment": "B001 F001 ve F002 ile sınırlıdır; F003 ve diğer ع و ن dalları etkin değildir.",
+      "support_ids": [
+        "sup_25e1615f8d09ac3efcc9",
+        "sup_4848f68d52f80b9d7d98",
+        "sup_544d84c6ce670a48d2d6"
+      ],
+      "branch_refs": [
+        "root_001064/B001"
+      ],
+      "connection_refs": [],
+      "contact_refs": [
+        "micro:contact:aun-b001-f001",
+        "micro:contact:aun-b001-f002"
+      ],
+      "branch_contributions": [
+        {
+          "branch_ref": "root_001064/B001",
+          "facet_id": "F001",
+          "distinctive_facet": "Başkasının işini yapmasına destek olma",
+          "surface_carrier": "نَسْتَعِينُ",
+          "independent_anchor": "Form X yardım isteme yapısı ve öne alınmış kaynak nesnesi",
+          "contribution": "Yardım, konuşanların işi sürdürebilmesi için aradığı dış destek olarak belirir.",
+          "boundary": "Yaş, savaş, yer adı ve diğer kök kolları bu yardım anlamına katılmaz."
+        },
+        {
+          "branch_ref": "root_001064/B001",
+          "facet_id": "F002",
+          "distinctive_facet": "Başkasından yardım isteme",
+          "surface_carrier": "إِيَّاكَ نَسْتَعِينُ",
+          "independent_anchor": "Birinci çoğul Form X fiili ile açık ikinci kişi nesnesinin birlikte bulunması",
+          "contribution": "Konuşanlar belirli muhataptan yardım isteyen etkin bir topluluk olarak kurulur.",
+          "boundary": "Yardım veren kişi türevi veya karşılıklı işbirliği anlamı eklenmez."
+        }
+      ],
+      "epistemic_status": "qualified"
+    },
+    {
+      "finding_ref": "micro:vocalization-variants",
+      "candidate_ids": [
+        "cand_0e5d7964935c0202a39e"
+      ],
+      "proposal_keys": [],
+      "title": "Kıraat varyantları sesten çok anlamı etkiler",
+      "claim": "Önek ünlüsü ve uzatma varyantları kapanış sesini değiştirebilir; yerel anlam birinci çoğul Form X yardım isteme olarak kalır.",
+      "mechanism": "Varyant baskısı ses ve okunuşta toplanır; üretim yapısı yardım isteme fiilini korur.",
+      "reader_payoff": "Okur, sesin değişebilirliğini anlamın aynı kalmasıyla birlikte görür.",
+      "containment": "Varyantlar ses karşılaştırmasıdır; farklı kök, kip veya yardım yönü ileri sürülmez.",
+      "support_ids": [
+        "sup_4848f68d52f80b9d7d98",
+        "sup_f4430d9b6e5ede2e729c"
+      ],
+      "branch_refs": [],
+      "connection_refs": [],
+      "contact_refs": [],
+      "branch_contributions": [],
+      "epistemic_status": "qualified"
+    },
+    {
+      "finding_ref": "micro:exclusive-service-support",
+      "candidate_ids": [
+        "cand_e8c827d8f3e5a9d6d8a0"
+      ],
+      "proposal_keys": [],
+      "title": "Hizmet ve destek aynı tek muhataba yönelir",
+      "claim": "Konuşanların sunduğu teslimiyet yalnızca muhataba yönelir; bu hizmeti sürdürebilmek için gereken destek de yalnızca aynı muhataptan istenir.",
+      "mechanism": "B003'ün dinsel tapınma yönü ile B001'in yardım isteme yönü, iki kez öne alınmış nesneyle aynı hedefe bağlanır.",
+      "reader_payoff": "Okur, ilk yarıdaki bağlılık ile ikinci yarıdaki destek arayışının tek bir özel yönelimde birleştiğini görür.",
+      "containment": "Bu, HFT'nin legacy_unbound sentezinin yerel grammar ve lexical temaslarla daraltılmış biçimidir. Sıradan glosslar canlı alternatiftir; sentez yeni bir kök glossu değildir.",
+      "support_ids": [
+        "sup_0184064521ac1dab2926",
+        "sup_9c387b30058b83f9557a",
+        "sup_4848f68d52f80b9d7d98",
+        "sup_a5d2db62cadf5c0a3c1b",
+        "sup_a871c53525052aba59dd",
+        "sup_b83a37bd600e951d76a9",
+        "sup_a527e66a784e6e37ee8a"
+      ],
+      "branch_refs": [
+        "root_000973/B003",
+        "root_001064/B001"
+      ],
+      "connection_refs": [],
+      "contact_refs": [
+        "micro:contact:abd-b003-f002",
+        "micro:contact:aun-b001-f002"
+      ],
+      "branch_contributions": [
+        {
+          "branch_ref": "root_000973/B003",
+          "facet_id": "F002",
+          "distinctive_facet": "Tanrı'ya yönelen tapınma ve kendini bu yönelişe verme",
+          "surface_carrier": "إِيَّاكَ نَعْبُدُ",
+          "independent_anchor": "Birinci fronted-object cümlesi ve ilahî ikinci kişi muhatap",
+          "contribution": "İlk yarı, özel muhataba yöneltilmiş tapınma ve teslimiyet beyanıdır.",
+          "boundary": "Bu, köle statüsü veya genel sahiplik anlamı değildir."
+        },
+        {
+          "branch_ref": "root_001064/B001",
+          "facet_id": "F002",
+          "distinctive_facet": "Başkasından yardım isteme",
+          "surface_carrier": "إِيَّاكَ نَسْتَعِينُ",
+          "independent_anchor": "Form X isteme fiili ve ikinci kez öne alınmış açık nesne",
+          "contribution": "İkinci yarı, aynı muhataptan hizmeti sürdürecek desteği isteyen ayrı bir beyandır.",
+          "boundary": "Bu yardım istemedir; türemiş yardım sağlayıcı veya diğer kök dalları değildir."
+        }
+      ],
+      "epistemic_status": "qualified"
+    },
+    {
+      "finding_ref": "micro:honoring-service",
+      "candidate_ids": [
+        "cand_c24a239caf9fa01f4908"
+      ],
+      "proposal_keys": [],
+      "title": "Hizmet muhatabı yüceltir ve onurlandırır",
+      "claim": "Hizmet ve yardım talebi, muhatabı yalnızca eylemlerin hedefi değil, onurlandırılan ve hizmet sunulan kişi olarak da görünür kılar.",
+      "mechanism": "B006'nın yüceltme ve hizmet ilişkisi, B001'in destek çekirdeğiyle birleşir; yardım, hizmetin kendinden yeterli olmadığını gösterir.",
+      "reader_payoff": "Okur, tapınmanın yalnızca konuşanın aşağıya yönelmesi olmadığını, muhatabı yükselten ve hizmeti ona bağlayan bir yön taşıdığını görür.",
+      "containment": "HFT kaydı legacy_unbound olduğu için sentez qualified tutulur. B006 kişi dalı doğrudan isim glossu yapılmaz; yardım dalının sıradan anlamı ve diğer yorumlar canlı kalır.",
+      "support_ids": [
+        "sup_64eeab6c23d50584f9b3",
+        "sup_9c387b30058b83f9557a",
+        "sup_4848f68d52f80b9d7d98",
+        "sup_25e1615f8d09ac3efcc9"
+      ],
+      "branch_refs": [
+        "root_000973/B006",
+        "root_001064/B001"
+      ],
+      "connection_refs": [],
+      "contact_refs": [
+        "micro:contact:abd-b006-f001",
+        "micro:contact:abd-b006-f002",
+        "micro:contact:aun-b001-f001"
+      ],
+      "branch_contributions": [
+        {
+          "branch_ref": "root_000973/B006",
+          "facet_id": "F001",
+          "distinctive_facet": "Muhatabın saygıdeğer ve yüce tutulması",
+          "surface_carrier": "إِيَّاكَ نَعْبُدُ",
+          "independent_anchor": "Hizmet fiilinin öne alınmış açık muhataba yönelmesi",
+          "contribution": "Tapınma, muhatabı etkin biçimde yücelten ve onurlandıran bir hizmet yönü taşır.",
+          "boundary": "Bu ilişkisel etki, ayrı bir onur unvanı veya isimsel dal değildir."
+        },
+        {
+          "branch_ref": "root_000973/B006",
+          "facet_id": "F002",
+          "distinctive_facet": "Yüksek konumdaki muhataba hizmet edilmesi",
+          "surface_carrier": "نَعْبُدُ",
+          "independent_anchor": "Fiilin hizmet anlamı ile açık nesne ilişkisinin birleşmesi",
+          "contribution": "Kulluk, onurlandırmanın yanı sıra muhataba sunulan fiilî hizmet olarak da duyulur.",
+          "boundary": "Kölelik, boyunduruk veya fiziksel işleme anlamı eklenmez."
+        },
+        {
+          "branch_ref": "root_001064/B001",
+          "facet_id": "F001",
+          "distinctive_facet": "Başkasının işini yapmasına destek olma",
+          "surface_carrier": "نَسْتَعِينُ",
+          "independent_anchor": "Form X yardım isteme biçimi ve hizmet fiiliyle koordinasyon",
+          "contribution": "Destek, onurlandırıcı hizmetin konuşanlar tarafından kendiliğinden yeterli sayılmadığını gösterir.",
+          "boundary": "Bu destek okuması yaş, savaş, yer adı veya başka ع و ن kollarına açılmaz."
+        }
+      ],
+      "epistemic_status": "exploratory"
+    },
+    {
+      "finding_ref": "micro:watchful-aid",
+      "candidate_ids": [
+        "cand_892164f326ea04190150"
+      ],
+      "proposal_keys": [],
+      "title": "Yardım talebinin deneysel gözetim imgesi",
+      "claim": "Sınırlı bir yan okumada yardım istemek, hizmet eden topluluğun dikkatle korunup gözetilmesini isteme imgesine açılabilir.",
+      "mechanism": "HFT'nin baskın olmayan ع و ن → ع ي ن eşlemesi, نَسْتَعِينُ içindeki yardım talebini B003'ün koruyup gözetme facetine bağlar; yerel hizmet ve onurlandırma ilişkisi bu teması destekler.",
+      "reader_payoff": "Okur, yardımın yalnızca ek güç değil, koruyucu bir dikkat ve muhafaza olarak da sezilebileceğini görür.",
+      "containment": "Bu exploratory ve dar tutulmalıdır. Exact Arabic yalnızca yüzey temasını doğrular; HFT'nin root/branch atfı kaynaklı bir adaydır. Baskın B001 yardım okuması canlıdır. Bu, نَسْتَعِينُ için doğrudan sözlük glossu, fiziksel göz veya kesin şefkat iddiası değildir.",
+      "support_ids": [
+        "sup_40eb955fe0f9f72f362c",
+        "sup_4848f68d52f80b9d7d98",
+        "sup_a527e66a784e6e37ee8a",
+        "sup_64eeab6c23d50584f9b3",
+        "sup_9c387b30058b83f9557a"
+      ],
+      "branch_refs": [
+        "root_000973/B006",
+        "root_001069/B003"
+      ],
+      "connection_refs": [],
+      "contact_refs": [
+        "micro:contact:abd-b006-f001",
+        "micro:contact:ain-b003-f001-watchful"
+      ],
+      "branch_contributions": [
+        {
+          "branch_ref": "root_000973/B006",
+          "facet_id": "F001",
+          "distinctive_facet": "Muhatabın saygıdeğer ve yüce tutulması",
+          "surface_carrier": "نَعْبُدُ",
+          "independent_anchor": "Hizmetin öne alınmış muhatabı yüceltmesi",
+          "contribution": "Koruyucu gözetim yan okuması, hizmet edilen muhatabın onurlandırıcı konumuyla ilişkilendirilir.",
+          "boundary": "Bu ilişki deneysel bir çerçevedir; B006'nın isimsel glossu değildir."
+        },
+        {
+          "branch_ref": "root_001069/B003",
+          "facet_id": "F001",
+          "distinctive_facet": "Birini göz önünde bulundurarak koruma ve gözetme",
+          "surface_carrier": "نَسْتَعِينُ",
+          "independent_anchor": "Yardım istemenin onurlandırıcı hizmetle eşleşmesi ve supplied non-dominant root mapping",
+          "contribution": "Yardım, destek veren gücün topluluğu koruyucu dikkat altında tutması olarak sezilebilir.",
+          "boundary": "B003 F002 şefkat uzantısı ve عين'in diğer dalları etkin değildir."
+        }
+      ],
+      "epistemic_status": "exploratory"
+    }
+  ],
+  "friction_notes": [
+    {
+      "note": "Dört HFT kaydının exact Arabic anchor'ı tamdır; ancak target morphology supplied değildir. Bu nedenle HFT branch, word index ve role atıfları yerel kanıtla daraltılmış, görünürlükten çıkarılmamıştır.",
+      "refs": [
+        "sup_0184064521ac1dab2926",
+        "sup_6efe02d0ef095431c770",
+        "sup_64eeab6c23d50584f9b3",
+        "sup_40eb955fe0f9f72f362c"
+      ]
+    },
+    {
+      "note": "baseline_dependent_agency kaydı, B001 köle statüsü ile B005 beden/yaş olgunluğu facetlerini yerel olarak etkinleştiremediği için reddedildi; HFT provenance bu başarısız kenarı silemez.",
+      "refs": [
+        "cand_dd77e4cddc8666350a84",
+        "root_000973/B001",
+        "root_001064/B005"
+      ]
+    },
+    {
+      "note": "outlier_watchful_eye_aid yalnızca B003 F001 için korundu. Baskın B001 yardım okuması canlıdır; non-dominant ع و ن → ع ي ن mapping bu teması doğrudan lexical gloss yapmaz.",
+      "refs": [
+        "cand_892164f326ea04190150",
+        "root_001069/B003"
+      ]
+    },
+    {
+      "note": "Varyant ve recurrence adayları anlamın yerine geçmeyen contrastive veya echo containment ile tutuldu; ses baskısı, sabır yankısı ve sonraki hidayet bağlantısı açık yerel parse'ı genişletmez.",
+      "refs": [
+        "cand_695098c8d25aec6247dc",
+        "cand_a18e892b823fcee589ce",
+        "cand_74c28700c71cc62264f8",
+        "cand_0e5d7964935c0202a39e"
+      ]
+    }
+  ]
+}

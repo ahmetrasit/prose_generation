@@ -14,3 +14,10 @@ The separate multi-stage workflow formerly called v2 is archived under
 `archive/_commentary/v2/`; it is unrelated to the active ayah prompt version.
 Nothing under `archive/` is an active workflow or should be used for new runs
 unless it is redesigned and explicitly reactivated.
+
+For parallel prose-first authoring from validated v3 source bundles and
+adjudication dockets, use the simplified v4 runbook:
+[`v4/ORCHESTRATION.md`](v4/ORCHESTRATION.md). V4 keeps the three v3 linguistic
+scope prompts and packet projection, but uses fixed per-ayah paths under one
+input root, one raw root, and one editorial root with no persisted sessions or
+repair state machine.
