@@ -76,10 +76,13 @@ python3 _commentary/v4/workflow.py advance --ayah 29:38
 ```
 
 The first call creates the unit input and returns three parallel scope
-handoffs. Each analyst writes the JSON object it returns to the declared
-`expected_response`. Run the same command again after all three files exist;
-it creates one canonical prompt and returns the canonical writer handoff.
+handoffs. Spawn each scope analyst through the multi-agent spawn tool with model
+override `gpt-5.6-luna`, reasoning effort `max`, and no priority/service-tier
+option. Each analyst writes the JSON object it returns to the declared
+`expected_response`. Run the same command again after all three files exist; it
+creates one canonical prompt and returns the canonical writer handoff.
 
+Spawn the canonical writer through the same multi-agent spawn tool settings.
 After that writer creates the four first-pass files, keep it live and run the
 same command once more. V4 binds those exact files by hash, creates the
 editorial handoff with the unchanged v3 editorial instructions, and returns it

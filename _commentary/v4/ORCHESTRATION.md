@@ -82,15 +82,20 @@ generated input; it never adopts, deletes, or rewrites raw or editorial work.
    ```
 
 2. At `stage: scope_review`, start the returned micro, macro, and global
-   handoffs as three fresh independent agents in parallel. Give each agent its
-   absolute prompt path and expected response path. The agent writes its exact
-   returned JSON object to that path. Do not edit, normalize, or repair it.
+   handoffs as three fresh independent agents in parallel through the
+   multi-agent spawn tool. Spawn each with model override `gpt-5.6-luna` and
+   reasoning effort `max`; omit any priority/service-tier option. Give each
+   agent its absolute prompt path and expected response path. The agent writes
+   its exact returned JSON object to that path. Do not edit, normalize, or
+   repair it.
 
 3. Run `advance` again. It performs only JSON parsing and identity checks, then
    returns `stage: canonical_write`. It does not score semantic completeness or
    request repairs.
 
-4. Start one fresh canonical writer with the returned canonical prompt and four
+4. Start one fresh canonical writer through the multi-agent spawn tool with
+   model override `gpt-5.6-luna` and reasoning effort `max`; omit any
+   priority/service-tier option. Give it the returned canonical prompt and four
    raw output paths. Keep that live agent available. After it writes all four
    first-pass files, run `advance` again. This hashes those exact inputs and
    returns `stage: canonical_editorial`.
