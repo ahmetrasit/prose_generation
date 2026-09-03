@@ -71,7 +71,13 @@ supports the primary reading or shifts its frame.
 
 Layer 2 does not select among activated readings. Active V4 preparation derives
 its focus packets from the full canonical `build_bundle.py` output and projects
-every non-focus context member to one uniform lean depth. The legacy direct
+every non-focus context member to one uniform lean depth. When an existing
+candidate's branch-specific trace cites an unresolved branch in exact context
+ayat, that lean packet may add only the cited branch descriptor, aggregating its
+matching occurrences under hash-bound source records while retaining each
+candidate's exact source-to-carrier binding. Branch-only refs are included in
+lane routing before hydration. It does not import those
+context ayat's standalone-focus payloads. The legacy direct
 prompt-instantiation path first runs `scripts/tier_branch_payloads.py`; those
 transport tiers are not finding ranks and are not permission to drop an
 activated reading or reader payoff.

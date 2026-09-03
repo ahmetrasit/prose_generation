@@ -18,5 +18,13 @@ For parallel prose-first authoring from validated v3 source bundles and
 adjudication dockets, use the simplified v4 runbook:
 [`v4/ORCHESTRATION.md`](v4/ORCHESTRATION.md). V4 preserves the established
 V2/V3 linguistic and prose standard inside three one-pass scope-author prompts,
-then uses a merge-only canonical writer and same-writer editorial turn. Its
+then uses a merge-only canonical writer and same-writer editorial turn. Scope
+contributions bind exact branch facets to exact carrier, independent-trigger,
+and focus-return refs. Each finding and each branch activation carries an
+immutable reader-facing semantic sentence, and raw plus editorial landing maps
+prevent either from disappearing. Exact per-finding provenance ledgers in both
+apparatus files preserve the supporting IDs, context, branch path, boundaries,
+candidate exclusions, and linked branch and connection evidence decisions
+without leaking those IDs into reader prose. Each ledger occurs once per
+apparatus file. Its
 fixed per-ayah paths have no persisted sessions or repair state machine.

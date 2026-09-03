@@ -195,9 +195,15 @@ packet. When the unit is itself the focus, V4 reuses its bundled HFT reader
 evidence through the V3 focus projection. When the unit is selected only as
 context, V4 does not import that HFT run or any other standalone-focus product.
 It derives one lean ayah/root-occurrence record and compact mapped branch-image
-cues, while retaining the complete bundle path and hash only as provenance.
-That is an authoring-packet projection boundary, not accidental data loss in
-the base-bundle contract.
+cues. If an already-supplied candidate's branch-specific trace cites an
+unresolved branch in exact context units, V4 may additionally project only the
+cited branch's semantic descriptor and aggregate its matching occurrences. The
+branch refs affect lane routing before hydration, and each candidate retains its
+own context-source-to-carrier binding when a branch is shared. Each
+source path, byte count, raw and canonical hash, source pointer, and complete
+descriptor is then revalidated by the workflow. That is an authoring-packet
+projection boundary, not accidental data loss in the base-bundle contract; no
+standalone-focus payload is imported.
 
 ### Reviewed channels
 

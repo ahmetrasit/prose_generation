@@ -41,22 +41,36 @@ Each fresh scope author receives one self-contained lane prompt. In that single
 turn it must:
 
 1. decide every packet candidate exactly once;
-2. preserve exact support, branch, connection, and context references;
-3. state bounded findings and their reader payoffs; and
-4. supply fluent, prose-ready Turkish movements.
+2. independently test every supplied branch facet against the complete relevant
+   surface and inspect every connection evidence row;
+3. preserve exact support, branch-facet, carrier, independent-trigger,
+   focus-return, connection, and context references; and
+4. supply candidate-owned findings with fluent Turkish draft prose and one
+   exact semantic landing sentence per finding and per branch activation.
 
-The response is one `commentary-v4-scope-contribution-v1` JSON object written to
-`raw/.../<lane>.contribution.json`. V4 checks identity, complete candidate
-accounting, evidence-reference existence, and exactly one movement landing per
-finding. These are structural checks. V4 does not alter an agent's substantive
-accept, narrow, represent, or reject judgment.
+The response is one `commentary-v4-scope-contribution-v2` JSON object written to
+`raw/.../<lane>.contribution.json`. V4 checks identity, complete candidate and
+discovery accounting, dedicated origin findings, exact branch/facet source
+bindings, candidate-specific context-branch carriers, independent triggers, exact
+focus-surface returns, evidence trust, and prose-ready finding and branch
+activation sentences. A bare branch ID is never semantic coverage. V4 does not
+alter an agent's substantive accept, narrow, represent, or reject judgment.
 
 The canonical writer receives only the three validated contributions, the
 focus-surface record, and the governing v2/v3 texts. It does not receive or
 reopen lane packets. Its job is to merge all supplied findings into the four
-first-pass files without genericizing concrete context movements. The same live
-writer then receives the unchanged v3 editorial instructions, bound to those
-four first-pass hashes, and writes four separate editorial files.
+first-pass files without genericizing concrete context movements. Every branch
+activation explains, in fluent prose and without internal IDs, which carrier
+meaning meets which independent trigger and why the resulting reading follows.
+Each finding's own semantic sentence and every branch-activation sentence are
+preserved verbatim; the finding sentence is its exact prose quote in a
+machine-readable landing map. V4 also derives one exact provenance-ledger JSON
+object per finding, including linked candidate, branch, connection, and
+connection-evidence decisions. The canonical writer copies it unchanged exactly
+once into both evidence and index, and each apparatus landing must encompass it.
+The same live writer then receives the unchanged v3 editorial instructions plus
+the V4 preservation contract, bound to those four first-pass hashes, and writes
+four separate editorial files.
 
 See [ORCHESTRATION.md](ORCHESTRATION.md) for the cold-agent runbook.
 
@@ -78,11 +92,15 @@ more after editorial completion, then verify explicitly:
 python3 _commentary/v4/workflow.py verify --ayah 29:38
 ```
 
-The active manifest schema is `commentary-v4-unit-manifest-v5`. Existing
-schema-v4 inputs and `.review.json` files are historical artifacts, not valid
-one-pass state. Preserve their Git history, relocate legacy raw/editorial files,
-then regenerate input explicitly with `advance --force-input`; raw and editorial
-output is never deleted or adopted automatically.
+The active manifest schema is `commentary-v4-unit-manifest-v6`; lane packets use
+`commentary-v4-lane-evidence-packet-v1`, scope responses use
+`commentary-v4-scope-contribution-v2`, and apparatus ledgers use
+`commentary-v4-finding-provenance-v1`. Existing manifest-v5 and older inputs,
+contribution-v1 files, and `.review.json` files are historical artifacts, not
+valid current one-pass state. Preserve their Git history, relocate legacy
+raw/editorial files, then regenerate input explicitly with `advance
+--force-input`; raw and editorial output is never deleted or adopted
+automatically.
 
 Batch selectors accept explicit refs, comma lists, and same-surah ranges:
 
@@ -157,9 +175,10 @@ python3 _commentary/v4/workflow.py advance --ayah 29:0
 
 The CLI derives analysis ID `s029-basmala-full` and the ordered host segment
 `29:0,29:1-69`. All numbered host ayat are ordinary lean macro context for the
-basmala focus. An explicit composition with an `S:0` focus must contain the
-same complete, canonical host-surah sequence; a basmala-only or pericope-only
-focus fails closed.
+basmala focus. Its canonical `1:1` linguistic coordinates remain focus-surface
+evidence, never external context. An explicit composition with an `S:0` focus
+must contain the same complete, canonical host-surah sequence; a basmala-only
+or pericope-only focus fails closed.
 
 `S:0` keeps target-surah surface identity while its word and QAC linguistic
 identity remains `1:1`. Native HFT, inter-ayah, and native pericope evidence are
@@ -204,15 +223,36 @@ to `commentary-v4-native-context-member-v1`: one lean ayah record plus compact
 mapped branch images relevant to the current focus roots. Standalone-focus HFT,
 reader products, full dictionaries, word analysis, inter-ayah material, and
 channel payloads are excluded. The complete source remains hash-bound outside
-the model-visible projection.
+the model-visible projection. If an already-supplied candidate explicitly cites
+a branch belonging to one or more of its referenced context ayat, V4 may hydrate
+only that branch from the exact source refs attached to that candidate/branch
+pair. It aggregates all matching root occurrences across those exact units,
+rejects divergent branch semantics, and does not import the rest of any bundle.
+Every auxiliary source path, byte count, raw SHA-256, canonical SHA-256, unit
+identity, source pointer, and projected branch field is revalidated on every
+manifest load.
+
+Before prompts are written, V4 extracts Quran refs from structured fields,
+free text, serialized JSON, coordinates, and same-surah ranges. Candidate
+evidence is routed to the widest required lane; host basmala and explicit
+`--add-ayat` membership remain macro despite their linguistic/source aliases.
+Branch-citation and branch-trace refs participate in that routing before lane
+selection. When several candidates cite the same branch, each retains its own
+exact context-source binding even though identical branch semantics are stored
+once per lane.
 
 `verify` rechecks all persisted input records, source identities, canonical
 hashes, Quran and inter-ayah sources, projection implementation hashes, context
-projections, lane routing, prompt sources, contribution identity and structure,
-first-pass hashes bound into the editorial handoff, and all eight nonempty
-outputs. It also rejects unexpected non-hidden files in a unit's raw or
-editorial directory. It does not score prose quality or rewrite agent work. Git
-is the final history and review boundary.
+and auxiliary-branch projections, lane routing, prompt sources, contribution
+identity and semantic obligations, first-pass hashes bound into the editorial
+handoff, and all eight outputs. It requires exact raw and editorial landing maps
+for every finding's semantic sentence and every immutable branch-activation
+sentence, non-overlapping landing spans, and exactly one copy of each finding
+provenance ledger in both apparatus files. It rejects internal IDs in reader
+prose and unexpected
+non-hidden files in a unit's raw or editorial directory. It does not judge
+whether an agent's interpretation is
+good or rewrite agent work. Git is the final history and review boundary.
 
 Generated inputs are idempotent. If evidence or a prompt changes, preparation
 stops instead of adopting existing prose under new inputs. `--force-input`

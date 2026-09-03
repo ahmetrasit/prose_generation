@@ -53,11 +53,15 @@ Hermetic Focus Trace policy also requires
 `../latent_activation/focus_trace/`. Use `--exclude-focus-trace` only for an
 intentional build whose manifest records that choice.
 
-The active unit manifest is `commentary-v4-unit-manifest-v5`. If the selected
-unit already has an older manifest or old `.review.json` output, preserve its
-Git history and relocate the legacy raw/editorial files before starting. Then
-regenerate the input with `advance --force-input`; V4 will not adopt legacy
-output into the one-pass workflow.
+The active unit manifest is `commentary-v4-unit-manifest-v6`, lane packets use
+`commentary-v4-lane-evidence-packet-v1`, active scope responses use
+`commentary-v4-scope-contribution-v2`, and apparatus ledgers use
+`commentary-v4-finding-provenance-v1`. If the selected unit
+already has a manifest-v5 or older input, a contribution-v1 response, or old
+`.review.json` output, preserve its Git history and relocate the legacy
+raw/editorial files before starting. Then regenerate the input with
+`advance --force-input`; V4 will not adopt legacy output into the current
+one-pass workflow.
 
 For a pericope package, inspect the canonical index and run the dedicated
 wrapper:
@@ -129,6 +133,16 @@ second time automatically. A malformed, stale, incomplete, or unknown-evidence
 response is a unit error that requires explicit operator inspection and
 replacement.
 
+Each contribution must decide every candidate and audit every supplied branch
+facet, connection, and nested connection-evidence row. Every accepted or
+narrowed candidate owns its own finding; only exact semantic duplicates may be
+represented by another finding. Every activated branch records its exact
+facet, a nonempty subset of its actual carrier occurrences, a distinct
+independent trigger, an exact focus-word return path, and a fluent Turkish
+activation sentence. Every finding also supplies one exact semantic sentence
+that carries its distinctive mechanism and payoff. Internal IDs remain in the
+apparatus and must not appear in either sentence or reader prose.
+
 ## 3. Canonical first pass
 
 After all three scope agents have finished writing, run the same `advance`
@@ -145,7 +159,8 @@ V4 mechanically validates each contribution and returns
 `gpt-5.6-luna`, reasoning effort `max`, and no priority or service-tier option.
 
 The canonical prompt contains the three validated prose-ready contributions,
-focus-surface evidence, and governing texts. It does not expose lane packets or
+focus-surface evidence, workflow-derived per-finding provenance ledgers, and
+governing texts. It does not expose lane packets or
 authorize new evidence decisions. The writer merges all supplied findings and
 writes exactly four first-pass files under the declared raw paths:
 
@@ -155,6 +170,17 @@ S_A.evidence.tr.md
 S_A.index.tr.md
 S_A.friction.tr.md
 ```
+
+The findings index ends with a `commentary-v4-landing-map` JSON block. It binds
+each finding's exact top-level semantic sentence to its unique prose occurrence,
+binds the finding to unique evidence and index quotes, and lists every
+branch-activation sentence verbatim. The canonical writer may compose freely
+around those sentences but may not weaken, generalize, combine away, or omit
+them. Each evidence and index quote must also encompass the only copy in that
+apparatus file of the finding's exact single-line provenance-ledger JSON object.
+The ledger includes linked candidate, branch, connection, and
+connection-evidence decisions. Apparatus quotes and immutable semantic
+sentences for different findings may not overlap or contain one another.
 
 Keep this canonical writer live for the editorial turn.
 
@@ -172,6 +198,12 @@ S_A.evidence.editorial.tr.md
 S_A.index.editorial.tr.md
 S_A.friction.editorial.tr.md
 ```
+
+The editorial index replaces the raw landing map with an editorial map carrying
+the same findings, exact finding-level semantic sentences, and exact activation
+sentences. Editorial revision may change their surrounding prose and apparatus
+quotes, but not either semantic sentence class or the exact provenance ledger
+carried in both apparatus files.
 
 If the canonical conversation is lost, use the returned
 `restart_if_agent_unavailable` canonical prompt and regenerate the complete
@@ -195,16 +227,27 @@ python3 _commentary/v4/workflow.py verify \
 
 `verify` rechecks source and prompt provenance, Quran and inter-ayah source
 hashes, implementation hashes, path safety, composition membership, context
-projections, contribution structure, editorial input hashes, exact output
-filenames, and nonempty output files. It does not assess prose quality or revise
-agent work. Inspect `git diff` and commit the unit's input, raw, and editorial
-artifacts together when accepted.
+and auxiliary-branch projections, contribution identity and semantic
+obligations, editorial input hashes, exact output filenames, and all eight
+outputs. It validates complete candidate/branch/connection accounting, unique
+raw and editorial finding landings, exact activation-sentence survival, and the
+exactly one copy of each per-finding provenance ledger in both apparatus files.
+It rejects
+overlapping landings and internal IDs in reader prose. It does not decide whether an
+interpretation is substantively good or revise agent work. Inspect `git diff`
+and commit the unit's input, raw, and editorial artifacts together when
+accepted.
 
 ## Context rules
 
 - Native `micro` evidence is focus-local.
 - Same-surah context in the focus segment goes to `macro`.
 - Cross-segment or cross-surah ordinary selected context goes to `global`.
+- Candidate and support refs are parsed from structured fields, serialized JSON,
+  Quran coordinates, and same-surah ranges before prompt generation. Evidence
+  is moved to the widest lane required by those refs. Host basmala and explicit
+  `--add-ayat` membership remain macro even when their linguistic source or
+  source evidence names another surah.
 - Every `--add-ayat` ref is inserted once as an ordinary, context-only `macro`
   member of `--member-surah`. It retains its original Quran identity, receives
   focus-conditioned root cues, and never becomes a focus implicitly.
@@ -212,8 +255,18 @@ artifacts together when accepted.
   copied into micro or global and does not import standalone-focus payloads. An
   explicitly segmented host `S:0` is normalized to this same route.
 - If the same explicit member exists in package and member roots, both
-  canonical hashes must agree. A flat package root must have a valid
+  canonical hashes must agree during preparation and every later manifest load.
+  A flat package root must have a valid
   `pericope.bundle-manifest.json`.
+- Lean context normally excludes full root dictionaries. When a supplied
+  candidate's branch-specific trace cites exact context refs whose bundles
+  contain that unresolved branch, V4 adds only that branch's semantic descriptor
+  and aggregates its matching root occurrences. Branch-only refs take part in
+  lane routing before hydration, and each candidate retains a separate source-to-
+  carrier binding so one finding cannot borrow another candidate's occurrence.
+  Every auxiliary bundle's path,
+  bytes, raw and canonical hashes, unit identity, source pointer, and complete
+  projected descriptor are revalidated before every stage.
 
 For a numbered 29:38 pericope run, 29:0, 29:28-37, 29:39-44, and any explicit
 `--add-ayat` refs therefore meet as non-focus macro context. The focus remains
@@ -228,6 +281,8 @@ python3 _commentary/v4/workflow.py advance --ayah 29:0
 The CLI derives `s029-basmala-full` and places `29:0,29:1-69` in one host
 segment. Every numbered host ayah becomes ordinary lean macro context. An
 explicit `S:0` focus composition must carry the complete canonical host surah.
+The focus's canonical `1:1` linguistic coordinates remain focus surface and
+must never be routed or cited as external context.
 
 ## Batch orchestration
 

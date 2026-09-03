@@ -12,7 +12,7 @@ The active Layer 3 production contract is
 [`_channel/layer3/ORCHESTRATION.md`](_channel/layer3/ORCHESTRATION.md). The
 former combined Layer 3 + 2.5 overlay workflow is retired.
 
-Status: active draft, updated 2026-08-18. Layer 2 V4 and Layer 3 v3 workflow
+Status: active draft, updated 2026-09-02. Layer 2 V4 and Layer 3 v3 workflow
 contracts are implemented and locally validated; production Layer 3 semantic
 passes have not yet been run.
 
@@ -151,7 +151,15 @@ Per ayah and per surah:
   coherent local surprise carried by the prose gets an additional
   `surprise:<id>` synthesis row marked `[supports-primary]` or
   `[shifts-primary]`; these rows expose how secondary readings relate to the
-  primary instead of asking layer 3 to reconstruct that relation;
+  primary instead of asking layer 3 to reconstruct that relation. Active V4
+  appends a machine-readable landing map that binds every scope finding's exact
+  semantic sentence to one unique prose occurrence and binds that finding to
+  unique evidence and index passages. Per-branch activation sentences are
+  preserved separately and verbatim. Both apparatus passages carry the same
+  workflow-derived, exact per-finding provenance ledger once per apparatus
+  file. That ledger retains linked candidate, branch, connection, and
+  connection-evidence dispositions, and distinct findings' landing spans may
+  not overlap; the map is apparatus, not reader prose;
 - **friction** — every point where the instructions were ambiguous,
   contradictory, unsatisfiable, or silent. Profile-specific style audits may be
   included here when a prompt profile asks for them, but they must be labelled as
@@ -229,6 +237,15 @@ in a three-root and a twenty-six-root ayah. Findings may share prose only when
 their mechanism and payoff are the same and every admitted ref still has an
 identifiable landing.
 
+An activated branch must become an explicit reader-facing semantic movement,
+not merely an apparatus reference. In fluent prose, state which word or image
+carries the relevant root meaning, which independent word, relation, or context
+detail activates its exact branch facet, why the contact changes the reading,
+and where the inference stops. Root IDs, branch IDs, and analysis coordinates
+remain outside reader prose. Active V4 records the exact carrier, trigger,
+focus-return refs, branch facet, and prose sentence in the scope contribution;
+that sentence must survive both canonical and editorial prose exactly once.
+
 ### 6.1 Unit identity and prefatory basmala
 
 Every current bundle declares `unit_kind`, `surface_ref`, and
@@ -237,7 +254,9 @@ numbered ayah itself. For `prefatory_basmala`, the surface is the target surah's
 `S:0` Quran-text row and the linguistic source is canonical `1:1`. The builder
 must prove normalized surface equivalence before aliasing. QAC, word-analysis,
 and morpheme-span references remain `1:1:*`; it is forbidden to manufacture
-`S:0:*` linguistic identities.
+`S:0:*` linguistic identities. When `S:0` is the focus, those `1:1` coordinates
+remain its focus surface and may not be classified or routed as external
+context.
 
 S1 has no separate `1:0` bundle because its basmala is numbered `1:1`. S9 has
 no prefatory basmala. Every other surah emits `S:0` before numbered units. The
@@ -290,6 +309,13 @@ occurrences) plus compact `branch_image_ar` cues grouped under every mapped root
 target. A context root already represented by the current focus inventory does
 not duplicate that inventory.
 
+Before lane prompts are written, V4 extracts candidate and support Quran refs
+from structured fields, serialized JSON, Quran coordinates, and same-surah
+ranges. Evidence is routed to the widest lane those exact refs require. This
+inference cannot move automatic host-basmala or explicit external-member
+evidence out of macro: their membership is defined by the host analysis, while
+their linguistic and source identities remain intact.
+
 The complete selected bundle remains the hash-bound provenance source but is
 not embedded as model-visible context. Context projection must exclude the
 unit's standalone-focus word commentary, full QAC rows, morpheme spans,
@@ -299,6 +325,18 @@ material. Those fields remain available only when that unit itself is the
 focus. This boundary prevents automatic basmala and `--add-ayat` members from
 becoming larger or semantically privileged relative to ordinary context ayat.
 
+One narrow enrichment affects an evidence descriptor, not the context-depth
+boundary. If a supplied candidate cites an unresolved branch and its
+branch-specific trace names exact context refs whose canonical bundles contain
+that branch, V4 may hydrate only that branch's semantic detail, review facets,
+and all matching root occurrences from those refs. Those branch refs participate
+in lane routing before hydration, and source-to-carrier bindings remain separate
+per candidate when several candidates use the same branch. Divergent source
+semantics fail closed. It must not import neighboring branches or standalone-focus
+payloads. Every auxiliary source path, byte count, raw SHA-256, canonical
+SHA-256, unit identity, source pointer, and projected branch field is persisted
+and revalidated.
+
 An analysis ID namespaces `input/`, `raw/`, and `editorial/` paths so native and
 custom readings of the same focus cannot collide. The composition JSON, every
 selected bundle hash, deterministic context-projection hash, projected lane
@@ -307,8 +345,13 @@ focus units may be prepared and orchestrated in parallel. V4 wraps the
 established V2/V3 interpretive and prose standard in one-pass micro, macro, and
 global contribution prompts; historical stage, role, and file-writing
 instructions in those governing texts do not control V4. The canonical writer
-merges the three completed contributions, and its same live session receives
-the unchanged V3 editorial follow-up.
+merges the three completed contributions. Each contribution must account for
+every candidate, supplied branch facet, connection, and connection-evidence
+row; accepted and narrowed candidates own dedicated findings, while only exact
+semantic duplicates may share one. The canonical and editorial findings
+indexes bind every finding to unique exact output passages and preserve every
+branch-activation sentence. The same live canonical session receives the
+unchanged V3 editorial follow-up plus this preservation contract.
 
 Layer 3 builds a separate hermetic source packet from Quran text, the typed
 primary floor, the completed four-file Layer-2 v2 artifact set for every
