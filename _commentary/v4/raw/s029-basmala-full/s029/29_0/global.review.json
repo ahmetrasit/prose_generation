@@ -1,0 +1,442 @@
+{
+  "schema_version": "commentary-v3-scope-review-v2",
+  "identity": {
+    "ayah_ref": "29:0",
+    "lane": "global",
+    "lane_packet_sha256": "9da3d37bd86193b0f49dcc437d35ca9ce473408c4fbe4ad79e19f20179eb868b",
+    "authoring_request_sha256": "dd9dc21767c075a465bf61892bf4b9681f28c8bde667610365c7c071ffdd93c4"
+  },
+  "ayah_ref": "29:0",
+  "lane": "global",
+  "coverage_complete": true,
+  "support_coverage": [
+    {
+      "support_id": "sup_basmala_b9fdfc10b909918af5b8",
+      "result": "accepted",
+      "related_finding_refs": [
+        "global:finding:designation-accountability-frame",
+        "global:finding:mercy-assay-frame",
+        "global:finding:mercy-operative-medium",
+        "global:finding:named-term-boundary-echo"
+      ],
+      "reason": "Tek destek kaydı, güçlü adlandırma bulgusunu, iki zayıf merhamet bulgusunu, düzenli ve geniş okuyucu yürüyüşlerini ve 29:51 ile 29:53 retrospektif dönüşlerini içeriyor; her biri odak ayetteki ad veya merhamet taşıyıcısına bounded bir dönüşle temsil edildi."
+    }
+  ],
+  "connection_coverage": [],
+  "atlas_facets_tested": [
+    {
+      "branch_ref": "root_000745/B005",
+      "result": "nominated",
+      "contact_refs": [
+        "global:contact:name-authority-accountability",
+        "global:contact:named-term-limit-echo"
+      ],
+      "facet_results": [
+        {
+          "facet_id": "F001",
+          "result": "contact"
+        },
+        {
+          "facet_id": "F002",
+          "result": "no_independent_trigger"
+        },
+        {
+          "facet_id": "F003",
+          "result": "no_independent_trigger"
+        },
+        {
+          "facet_id": "F004",
+          "result": "no_independent_trigger"
+        },
+        {
+          "facet_id": "F005",
+          "result": "contact"
+        }
+      ]
+    },
+    {
+      "branch_ref": "root_000047/B002",
+      "result": "nominated",
+      "contact_refs": [
+        "global:contact:name-authority-accountability"
+      ],
+      "facet_results": [
+        {
+          "facet_id": "F001",
+          "result": "contact"
+        },
+        {
+          "facet_id": "F002",
+          "result": "no_independent_trigger"
+        },
+        {
+          "facet_id": "F003",
+          "result": "no_independent_trigger"
+        },
+        {
+          "facet_id": "F004",
+          "result": "no_independent_trigger"
+        },
+        {
+          "facet_id": "F005",
+          "result": "no_independent_trigger"
+        }
+      ]
+    },
+    {
+      "branch_ref": "root_000552/B001",
+      "result": "nominated",
+      "contact_refs": [
+        "global:contact:mercy-before-assay",
+        "global:contact:mercy-book-medium"
+      ],
+      "facet_results": [
+        {
+          "facet_id": "F001",
+          "result": "contact"
+        },
+        {
+          "facet_id": "F002",
+          "result": "contact"
+        },
+        {
+          "facet_id": "F003",
+          "result": "no_independent_trigger"
+        },
+        {
+          "facet_id": "F004",
+          "result": "no_independent_trigger"
+        },
+        {
+          "facet_id": "F005",
+          "result": "no_independent_trigger"
+        }
+      ]
+    }
+  ],
+  "contact_opportunities": [
+    {
+      "contact_ref": "global:contact:name-authority-accountability",
+      "focus_carrier": "سْمِ ile ona bağlı ٱللَّهِ",
+      "wider_trigger": "29:2-6: insanların söyledikleri ile sınama, bilme, iş, çaba ve dönüş bağlamlarının karşılaştırılması; adın bütün yürüyüşün başında yer alması.",
+      "relation": "Odak ayetteki adlandırma, sabit ilahî özel adla kurulu ilişki içinde durur. Geniş kayıt bu adlandırmayı, sonraki söz ve eylemlerin hangi ilahî yetki altında değerlendirileceğini belirleyen bir başlık olarak açar.",
+      "isolated_before": "Yalnız taban çevirisi Merhameti sınırsız, merhamet eden Allah'ın adıyla der; adın suredeki söz ve eylemleri nasıl çerçevelediği görünmez.",
+      "wider_after": "Basmala, ayrık bir giriş cümlesinden çok, insanların iddialarının sınama ve eylemle açığa çıktığı surenin yetki ve hesap çerçevesi olarak görünür.",
+      "reader_payoff": "Okur, açılışı yalnızca Allah'ın adıyla başlama bildirimi olarak değil, konuşma ve eylemin hangi ad altında sorumluluk kazandığını belirleyen ilk okuma eylemi olarak algılar.",
+      "containment": "Sure düzeyinde yapısal ve okuyucu tarafından açıkça gerekçelendirilmiş çıkarımdır. سْمِ kelimesinin sözlükte doğrudan hesap veya yetki anlamına geldiği, yahut bütün surenin tek bir başlığa indirgenebileceği ileri sürülmez.",
+      "support_ids": [
+        "sup_basmala_b9fdfc10b909918af5b8"
+      ],
+      "branch_refs": [
+        "root_000745/B005",
+        "root_000047/B002"
+      ],
+      "connection_refs": [],
+      "disposition": "accept",
+      "accepted_finding_refs": [
+        "global:finding:designation-accountability-frame"
+      ],
+      "cross_root_boundary": "س م و alanındaki adlandırma ile ء ل ه alanındaki özel ilah adı ayrı taşıyıcılardır; ilişki, odak yapısındaki ad ve özel ad bağından çıkarılır, ortak kök veya etimolojik özdeşlik kurulmaz."
+    },
+    {
+      "contact_ref": "global:contact:mercy-before-assay",
+      "focus_carrier": "رَّحْمَٰنِ / رَّحِيمِ",
+      "wider_trigger": "29:2-3'te tekrarlanan sınama ve 29:5-6'da buluşma, iş, ilahî bilme ve duyma bağlamının merhamet adlarından hemen sonra gelmesi.",
+      "relation": "Merhamet, sınamayı doğuran bir neden olarak değil, sınamanın terk ediş olarak okunmasını sınırlayan ilişki çerçevesi olarak geri döner.",
+      "isolated_before": "Yalnız taban çevirisi Merhameti sınırsız, merhamet eden Allah'ın adıyla der; iki merhamet sıfatının sonraki sınamayla ilişkisi açık değildir.",
+      "wider_after": "Sınama, ilahî terk edişten çok, söz ile gerçek iş arasındaki farkı açığa çıkaran ve kişiyi düzeltebilen bir merhamet ortamı içinde okunabilir.",
+      "reader_payoff": "Okur, 29:2'deki sınamayı merhameti iptal eden bir karşıtlık olarak değil, merhamet adlarının hemen ardından gelen ilişkisel bir açığa çıkarma süreci olarak duyar.",
+      "containment": "Bu, kaynak kaydında zayıf dereceli ve okuyucu tarafından sınırlandırılmış sure içi bir çıkarımdır. Sınama kelimesi merhametle özdeşleştirilmez; merhametin sınamaya nedensel olarak yol açtığı veya her sıkıntının iyilik amacı taşıdığı söylenmez.",
+      "support_ids": [
+        "sup_basmala_b9fdfc10b909918af5b8"
+      ],
+      "branch_refs": [
+        "root_000552/B001"
+      ],
+      "connection_refs": [],
+      "disposition": "narrow",
+      "accepted_finding_refs": [
+        "global:finding:mercy-assay-frame"
+      ],
+      "cross_root_boundary": null
+    },
+    {
+      "contact_ref": "global:contact:mercy-book-medium",
+      "focus_carrier": "رَّحْمَٰنِ / رَّحِيمِ",
+      "wider_trigger": "29:51'de sürekli okunan kitabın merhamet ve hatırlatma olarak anılması.",
+      "relation": "Daha sonraki kitap nitelemesi, odak ayetteki merhameti yalnızca başlangıçta bildirilen bir sıfat olmaktan çıkarıp düzeltici açıklamayı taşıyan sure içi bir iletişim aracına bağlar.",
+      "isolated_before": "Yalnız taban çevirisi Allah'ın merhametini bildirir; bu merhametin sure içinde hangi araçla işlediği görünmez.",
+      "wider_after": "Açılıştaki merhamet, suredeki hatırlatma ve düzeltici ifşanın sürekli okunan kitap aracılığıyla işleyen biçimi olarak görünür.",
+      "reader_payoff": "Okur, basmalanın yalnız kurtuluş sahnelerini değil, surenin kendi hitap ve açıklama tarzını da merhametin işleyiş alanı olarak okur.",
+      "containment": "Tekil okuyucu retrospektifine dayanan, açıkça kayıtlanmış keşiftir. Merhamet sözcüğünün kitap için sözlük karşılığı olduğu veya رَّحْمَٰنِ / رَّحِيمِ'in kelime anlamının kitap ya da tilavet olduğu ileri sürülmez.",
+      "support_ids": [
+        "sup_basmala_b9fdfc10b909918af5b8"
+      ],
+      "branch_refs": [
+        "root_000552/B001"
+      ],
+      "connection_refs": [],
+      "disposition": "accept",
+      "accepted_finding_refs": [
+        "global:finding:mercy-operative-medium"
+      ],
+      "cross_root_boundary": null
+    },
+    {
+      "contact_ref": "global:contact:named-term-limit-echo",
+      "focus_carrier": "سْمِ",
+      "wider_trigger": "29:53'te supplied reader record tarafından مُسَمًّى olarak anılan ve B005'i yeniden etkinleştirdiği söylenen sonraki adlandırma.",
+      "relation": "Sonraki belirlenmiş veya adlandırılmış terim, açılıştaki adı yalnızca bir başlık değil, eylemlerin hangi sınır ve belirlenmiş sonuç altında hesap verebilir olduğunu gösteren bir adlandırma olarak geri çağırır.",
+      "isolated_before": "Yalnız taban çevirisi Allah'ın adıyla başlamayı bildirir; adlandırmanın ileride hesap verilebilirliğin sınırını nasıl belirlediği görünmez.",
+      "wider_after": "Açılıştaki ad, surenin ilerleyen kısmında eylemlerin bağlanacağı belirli sınırı ve adlandırılmış sonucu işaretleyen bir çerçeve olarak yeniden okunur.",
+      "reader_payoff": "Okur, ismi yalnızca başlangıçtaki hitap zemini değil, sorumluluğun hangi belirlenmiş sonuca ve sınıra bağlandığını gösteren bir işaret olarak algılar.",
+      "containment": "Bu, açıkça kaydedilmiş fakat daraltılmış retrospektif bir yankıdır. مُسَمًّى ile سْمِ arasında aynı kök, biçim veya morfolojik özdeşlik kurulmaz; ilişki yalnızca supplied reader'ın belirttiği adlandırma ve sınır dönüşüyle sınırlıdır.",
+      "support_ids": [
+        "sup_basmala_b9fdfc10b909918af5b8"
+      ],
+      "branch_refs": [
+        "root_000745/B005"
+      ],
+      "connection_refs": [],
+      "disposition": "narrow",
+      "accepted_finding_refs": [
+        "global:finding:named-term-boundary-echo"
+      ],
+      "cross_root_boundary": "29:53'teki مُسَمًّى için hedef morfolojisi ve kök çözümlemesi supplied değildir; bu nedenle yalnızca adlandırma yankısı korunur, lexical identity ileri sürülmez."
+    }
+  ],
+  "candidate_decisions": [
+    {
+      "candidate_id": "cand_basmala_1ea05fc79f88cd5284d5",
+      "decision": "accept",
+      "reason": "Destek kaydı, سْمِ ile ٱللَّهِ üzerinden 29:2-6'ya dönen güçlü bir yetki-adlandırma okuması ve merhamet üzerinden iki bounded geniş okuma sağlıyor. 29:51 ve 29:53 retrospektifleri ayrıca temsil edildi; zayıf veya hedef çözümlemesi eksik olan kenarlar bulgu düzeyinde daraltıldı.",
+      "failed_edge": null,
+      "accepted_finding_refs": [
+        "global:finding:designation-accountability-frame",
+        "global:finding:mercy-assay-frame"
+      ],
+      "duplicate_of": null,
+      "excluded_branch_refs": [],
+      "branch_exclusion_reasons": []
+    }
+  ],
+  "scope_referrals": [],
+  "new_findings": [
+    {
+      "proposal_key": "global:proposal:mercy-operative-medium",
+      "accepted_finding_ref": "global:finding:mercy-operative-medium",
+      "contact_refs": [
+        "global:contact:mercy-book-medium"
+      ],
+      "connection_refs": []
+    },
+    {
+      "proposal_key": "global:proposal:named-term-boundary-echo",
+      "accepted_finding_ref": "global:finding:named-term-boundary-echo",
+      "contact_refs": [
+        "global:contact:named-term-limit-echo"
+      ],
+      "connection_refs": []
+    }
+  ],
+  "accepted_findings": [
+    {
+      "finding_ref": "global:finding:designation-accountability-frame",
+      "candidate_ids": [
+        "cand_basmala_1ea05fc79f88cd5284d5"
+      ],
+      "proposal_keys": [],
+      "title": "Açılış adının sureyi yetki ve hesap çerçevesine alması",
+      "isolated_before": "Taban okuması Merhameti sınırsız, merhamet eden Allah'ın adıyla der; adın sure boyunca söz ve eylemleri nasıl çerçevelediği görünmez.",
+      "wider_after": "29:2-6'daki iddia, sınama, bilgi, iş ve dönüş dizisi, açılıştaki adı bütün suredeki sorumluluk ve ilahî yetki başlığı olarak görünür kılar.",
+      "wider_trigger": "29:2-6'da insanların söyledikleri ile sınama ve eylemle açığa çıkan durumların karşılaştırılması.",
+      "claim": "Basmala, suredeki söz ve eylemleri Allah'ın adı altında yetki ve hesap verebilirlik çerçevesine yerleştiren bir açılış işlevi görür.",
+      "mechanism": "بِسْمِ yapısındaki سْمِ adlandırma taşıyıcısı ٱللَّهِ özel adıyla bağlıdır; geniş yürüyüş bu bağlı adı, sonraki iddia ve eylemlerin değerlendirildiği üst çerçeve olarak okur.",
+      "reader_payoff": "Açılış, yalnızca adla başlama formülü değil, surenin ilk anda sözün ve eylemin hangi ilahî ad altında sorumluluk kazandığını belirleyen okuma eylemi olur.",
+      "containment": "Sure düzeyinde yapısal çıkarımdır. İsim literal olarak hesap veya yetki demek değildir; basmalanın prefatory niteliği ortadan kaldırılmaz.",
+      "support_ids": [
+        "sup_basmala_b9fdfc10b909918af5b8"
+      ],
+      "branch_refs": [
+        "root_000745/B005",
+        "root_000047/B002"
+      ],
+      "connection_refs": [],
+      "contact_refs": [
+        "global:contact:name-authority-accountability"
+      ],
+      "branch_contributions": [
+        {
+          "branch_ref": "root_000745/B005",
+          "facet_id": "F001",
+          "distinctive_facet": "Ad, bir varlığı tanıtan ve ondan söz etmeyi sağlayan söz veya anlamdır.",
+          "carrier": "سْمِ",
+          "independent_anchor": "Focus evidence سْمِyi adlandırma taşıyıcısı olarak verir; wide reader, açılışın sonraki söyleme ve sınamaya hükmeden designation olduğunu açıkça söyler.",
+          "actual_contribution": "Adın tanıtıcı işlevi, suredeki söz ve eylemlerin hangi ad altında okunacağını belirleyen üst başlık işlevine dönüşür.",
+          "boundary": "Adın kendisi doğrudan hesap veya hukuk terimi sayılmaz; bu işlev yalnız wider sequence'in yapısal dönüşünden çıkarılır."
+        },
+        {
+          "branch_ref": "root_000745/B005",
+          "facet_id": "F005",
+          "distinctive_facet": "Kaynaklar adın kökenini, adı verilen şeyin anılmasını yükseltmesi ve onu belirgin kılmasıyla açıklar.",
+          "carrier": "سْمِ",
+          "independent_anchor": "Regular ve wide reader ikisi de bunu raised designation olarak adlandırır ve açılıştaki yerleşimi sonraki yürüyüşe hükmeden bir başlık sayar.",
+          "actual_contribution": "Yükseltilmiş ve belirginleştirici designation imgesi, basmalanın sure üstündeki yetki çerçevesi olarak görünmesini sağlar.",
+          "boundary": "Bu, س م و kökünün fiziksel yükselme anlamının yetkiye dönüştüğü yönünde etimolojik bir iddia değildir."
+        },
+        {
+          "branch_ref": "root_000047/B002",
+          "facet_id": "F001",
+          "distinctive_facet": "Dalın merkezinde, Yaratıcıyı başkalarından ayırarak gösteren ve yalnız ona özgü sayılan özel ad bulunur.",
+          "carrier": "ٱللَّهِ",
+          "independent_anchor": "Focus evidence bu biçimi belirli ilahî özel ad olarak verir; wide finding açılıştaki adın Allah'ın yetkisi altında işlediğini söyler.",
+          "actual_contribution": "Designation çerçevesinin muhatabını genel bir ilah sınıfı değil, odak ayetteki belirli ilahî özel ad sabitler.",
+          "boundary": "B002'nin özel ad alanı B005'in genel adlandırma alanıyla birleştirilmez; başka tapınılan varlık adlarına genişletilmez."
+        }
+      ],
+      "epistemic_status": "supported_structural_inference"
+    },
+    {
+      "finding_ref": "global:finding:mercy-assay-frame",
+      "candidate_ids": [
+        "cand_basmala_1ea05fc79f88cd5284d5"
+      ],
+      "proposal_keys": [],
+      "title": "Merhamet adlarının sınamayı terk ediş olarak okunmasını engellemesi",
+      "isolated_before": "Taban okuması Merhameti sınırsız, merhamet eden Allah'ın adıyla der; iki merhamet sıfatının hemen sonraki sınamayla ilişkisi açık değildir.",
+      "wider_after": "29:2-6, sınamayı terk edişten çok, söz ile iş arasındaki farkı açığa çıkaran ve ilahî bilme içinde gerçekleşen ilişkisel bir süreç olarak okumaya izin verir.",
+      "wider_trigger": "29:2-3'te tekrarlanan sınama ile 29:5-6'da buluşma, bilgi, duyma ve çaba bağlamının merhamet adlarından sonra gelmesi.",
+      "claim": "Merhamet adları canlı kaldığı için sonraki sınama, merhameti iptal eden bir terk ediş değil, açığa çıkaran ve düzeltebilen bir ilişki içinde okunabilir.",
+      "mechanism": "Focus'taki çift merhamet nitelemesi sınamadan önce yer alır; wider record bu sıralamayı sınamanın merhamet ortamını bozmadığı, fakat onu nedensel olarak açıklamadığı biçimde işler.",
+      "reader_payoff": "Okur, sınamayı merhamete karşıt bir kopuş olarak değil, merhamet çerçevesinde işleyen bir assay olarak duyar.",
+      "containment": "Kaynak yayınında zayıf dereceli, nitelikli sure içi çıkarımdır. Sınama merhametle özdeş değildir; her sonraki sıkıntının iyilik amacı taşıdığı veya merhametin sınamaya neden olduğu söylenmez.",
+      "support_ids": [
+        "sup_basmala_b9fdfc10b909918af5b8"
+      ],
+      "branch_refs": [
+        "root_000552/B001"
+      ],
+      "connection_refs": [],
+      "contact_refs": [
+        "global:contact:mercy-before-assay"
+      ],
+      "branch_contributions": [
+        {
+          "branch_ref": "root_000552/B001",
+          "facet_id": "F001",
+          "distinctive_facet": "Bir başkasının durumu karşısında yüreğin yumuşaması, ona acıma ve içten yakınlık duyma çekirdeği oluşturur.",
+          "carrier": "رَّحْمَٰنِ / رَّحِيمِ",
+          "independent_anchor": "Wide reader merhameti, sınamanın içinde terk edişi dışlayan ilişkisel çevre olarak açıkça tanımlar.",
+          "actual_contribution": "Merhamet, sınamanın ardından değil, sınama başlamadan önce kurulmuş ilişkisel yumuşaklık olarak okunur.",
+          "boundary": "Bu katkı yalnızca duyarlılık ve ilişkisel çerçeve görünürlüğüdür; sınama eyleminin kendisi merhamet diye adlandırılmaz."
+        },
+        {
+          "branch_ref": "root_000552/B001",
+          "facet_id": "F002",
+          "distinctive_facet": "Bu iç yöneliş, acınan kişiyi esirgemeyi ve ona iyilikte bulunmayı gerektiren etkin bir sonuç taşır.",
+          "carrier": "رَّحْمَٰنِ / رَّحِيمِ",
+          "independent_anchor": "Supplied publication ve wide reader, sınamayı açığa çıkaran ve düzelten, dolayısıyla terk ediş olmayan bir ilişki olarak nitelendirir.",
+          "actual_contribution": "Merhamet çekirdeğinin etkin ve koruyucu yönü, sınamanın kişiyi yalnızca teşhir etmeyip düzeltici bir ilişki içinde tutabileceği bounded okumasını destekler.",
+          "boundary": "Bu, her sınamanın zorunlu olarak iyilik sonucuna ulaştığı anlamına gelmez; yalnızca ilahî terk ediş okumasını sınırlar."
+        }
+      ],
+      "epistemic_status": "qualified_contextual_inference"
+    },
+    {
+      "finding_ref": "global:finding:mercy-operative-medium",
+      "candidate_ids": [],
+      "proposal_keys": [
+        "global:proposal:mercy-operative-medium"
+      ],
+      "title": "Merhametin sure içinde işleyen bir iletişim aracına dönüşmesi",
+      "isolated_before": "Taban okuması Allah'ın merhametini bildirir; bu merhametin surenin kendi hitap ve açıklama biçiminde nasıl işlediği görünmez.",
+      "wider_after": "29:51'de sürekli okunan kitabın merhamet ve hatırlatma olarak anılması, açılıştaki merhameti sure içindeki düzeltici açıklamanın işleyen taşıyıcısı olarak görünür kılar.",
+      "wider_trigger": "29:51'de kitabın merhamet ve hatırlatma olarak anılması; regular reader bunu sürekli okunan kitabın açılış merhametine operative medium sağlaması olarak okur.",
+      "claim": "Wider reading, basmaladaki merhameti yalnızca ilahî bir sıfat değil, surede düzeltici açıklamayı ve hatırlatmayı taşıyan etkin bir iletişim rolü olarak görünür kılar.",
+      "mechanism": "Focus merhamet taşıyıcısı, daha sonra merhamet ve hatırlatma diye nitelenen kitapla işlevsel bir bağ kurar; bu bağ lexical identity değil, merhametin iyiliğe ulaşan etkin sonucu üzerinden kurulur.",
+      "reader_payoff": "Basmala, yalnız kurtuluş sahnelerinin çerçevesi değil, surenin kendi okunma ve hitap tarzının da merhamet tarafından taşındığı bir eşik olarak okunur.",
+      "containment": "Tekil okuyucu retrospektifine ve supplied publication bulgusuna dayanan keşiftir. Merhamet sözcüğünün kitap anlamına geldiği veya رَّحْمَٰنِ / رَّحِيمِ'in literal glossunun kitap olduğu ileri sürülmez.",
+      "support_ids": [
+        "sup_basmala_b9fdfc10b909918af5b8"
+      ],
+      "branch_refs": [
+        "root_000552/B001"
+      ],
+      "connection_refs": [],
+      "contact_refs": [
+        "global:contact:mercy-book-medium"
+      ],
+      "branch_contributions": [
+        {
+          "branch_ref": "root_000552/B001",
+          "facet_id": "F002",
+          "distinctive_facet": "Bu iç yöneliş, acınan kişiyi esirgemeyi ve ona iyilikte bulunmayı gerektiren etkin bir sonuç taşır.",
+          "carrier": "رَّحْمَٰنِ / رَّحِيمِ",
+          "independent_anchor": "29:51 retrospektifi kitabı merhamet ve hatırlatma olarak tanımlar ve onun sürekli okunmasını açılış merhametinin operative medium'u sayar.",
+          "actual_contribution": "Merhametin etkin iyilik yönü, kitabın düzeltici hatırlatma olarak muhataba ulaşmasında sure içi bir taşıyıcı bulur.",
+          "boundary": "Kitap merhametin kendisi veya merhamet kökünün literal referenti değildir; yalnızca merhamet işlevinin daha sonraki taşıyıcısıdır."
+        }
+      ],
+      "epistemic_status": "single_reader_retrospective_inference"
+    },
+    {
+      "finding_ref": "global:finding:named-term-boundary-echo",
+      "candidate_ids": [],
+      "proposal_keys": [
+        "global:proposal:named-term-boundary-echo"
+      ],
+      "title": "Adın daha sonra hesap sınırı belirleyen adlandırma olarak geri dönmesi",
+      "isolated_before": "Taban okuması Allah'ın adıyla başlamayı bildirir; adlandırmanın ileride eylemlerin hangi belirlenmiş sınır altında hesap verebilir olduğunu gösterdiği görünmez.",
+      "wider_after": "29:53'te supplied reader'ın مُسَمًّى dönüşü, açılıştaki adı yalnızca başlık değil, eylemlerin bağlanacağı belirlenmiş sınırı gösteren designation olarak yeniden açar.",
+      "wider_trigger": "29:53'te reader tarafından açıkça anılan مُسَمًّى ve bunun root_000745/B005'i yeniden etkinleştirdiği yönündeki retrospektif açıklama.",
+      "claim": "Daha sonraki adlandırılmış veya belirlenmiş terim, açılış adını sorumluluğun hangi sınır ve belirlenmiş sonuç altında değerlendirileceğini gösteren bir işaret olarak görünür kılar.",
+      "mechanism": "Focus'taki سْمِ adlandırma taşıyıcısı, reader'ın 29:53 için kurduğu designation ve limit ilişkisiyle geri çağrılır; hedef biçiminin kök veya morfolojik çözümlemesi varsayılmaz.",
+      "reader_payoff": "Okur, basmaladaki ismi yalnızca başlangıçta anılan bir ad değil, surenin ilerleyen kısmında hesap verilebilirliğin sınırını belirleyen bir işaret olarak görür.",
+      "containment": "Daraltılmış, reader-grounded retrospektif yankıdır. مُسَمًّى ile سْمِ arasında lexical identity, aynı kök veya aynı morfolojik yapı iddia edilmez; bu bulgu sura tezi değildir.",
+      "support_ids": [
+        "sup_basmala_b9fdfc10b909918af5b8"
+      ],
+      "branch_refs": [
+        "root_000745/B005"
+      ],
+      "connection_refs": [],
+      "contact_refs": [
+        "global:contact:named-term-limit-echo"
+      ],
+      "branch_contributions": [
+        {
+          "branch_ref": "root_000745/B005",
+          "facet_id": "F001",
+          "distinctive_facet": "Ad, bir varlığı tanıtan ve ondan söz etmeyi sağlayan söz veya anlamdır.",
+          "carrier": "سْمِ",
+          "independent_anchor": "Focus branch adlandırmayı tanıtıcı birim olarak verir; wide reader 29:53'teki مُسَمًّى dönüşünü açıkça B005 designation'ıyla ilişkilendirir.",
+          "actual_contribution": "Tanıtıcı ad işlevi, eylemlerin hangi belirlenmiş sınır altında anlamlandırılacağını gösteren uzun menzilli bir işarete dönüşür.",
+          "boundary": "Hedef kelimenin biçimsel veya köksel özdeşliği kanıtlanmamıştır; yalnızca supplied reader'ın designation ve limit ilişkisi korunur."
+        }
+      ],
+      "epistemic_status": "bounded_exploratory_inference"
+    }
+  ],
+  "friction_notes": [
+    {
+      "topic": "source_qualification",
+      "note": "Adın yetki ve hesap çerçevesi bulgusu publication kaydında güçlü ve iki okuyucu yürüyüşünde tekrarlı; merhamet-sınama bulgusu publication kaydında zayıf olduğu için daha dar tutuldu."
+    },
+    {
+      "topic": "retrospective_scope",
+      "note": "29:51 kitabın merhamet olarak işleyen bir araç oluşunu, 29:53 ise adlandırma-sınır yankısını görünür kılıyor; iki dönüş aynı branch alanında buluşsa da tetikleyici, mekanizma ve okuyucu getirisi farklıdır."
+    },
+    {
+      "topic": "target_evidence_gap",
+      "note": "29:53 için supplied Arabic مُسَمًّى okuyucu kaydında mevcut olsa da hedef morfolojisi ve kökü ayrı bir target-evidence satırında verilmemiştir; bu nedenle bulgu lexical identity kurmadan daraltılmıştır."
+    },
+    {
+      "topic": "atlas_scan",
+      "note": "Complete focus atlas tarandı. Yalnız root_000745/B005, root_000047/B002 ve root_000552/B001 için bağımsız wider trigger ve focus-side return bulundu; kalan branch'lerde verilen kayıtta ayah-local dönüşü taşıyacak bağımsız tetikleyici yoktu."
+    },
+    {
+      "topic": "packet_state",
+      "note": "Assigned HFT sayısı sıfır ve HFT payload'ı not applicable; connection registry boş olduğu için reciprocal evidence veya connection-level evidence row değerlendirmesi yoktur."
+    }
+  ]
+}

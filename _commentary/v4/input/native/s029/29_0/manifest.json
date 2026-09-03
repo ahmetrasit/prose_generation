@@ -101,7 +101,53 @@
     "instructions_sha256": "5c26ef4d839e15ce8879a4d1811c5fb5e13b30d7c10d15801da3992541c72fea",
     "instructions_source": "_commentary/v3/prompts/editorial-followup.md"
   },
-  "editorial_turn": null,
+  "editorial_turn": {
+    "canonical_request_sha256": "e132e54fa64cc12f9b738d964d157f5b91a9ea61b5acb234c4f95e694fc15cb1",
+    "expected_outputs": {
+      "evidence": "_commentary/v4/editorial/native/s029/29_0/29_0.evidence.editorial.tr.md",
+      "friction": "_commentary/v4/editorial/native/s029/29_0/29_0.friction.editorial.tr.md",
+      "index": "_commentary/v4/editorial/native/s029/29_0/29_0.index.editorial.tr.md",
+      "prose": "_commentary/v4/editorial/native/s029/29_0/29_0.prose.editorial.tr.md"
+    },
+    "first_pass": {
+      "evidence": {
+        "bytes": 38798,
+        "path": "_commentary/v4/raw/native/s029/29_0/29_0.evidence.tr.md",
+        "sha256": "97561fc38a16dfe3a86c7149db94aadfb347169384a98cfb42d9b385c32570b9"
+      },
+      "friction": {
+        "bytes": 7058,
+        "path": "_commentary/v4/raw/native/s029/29_0/29_0.friction.tr.md",
+        "sha256": "457eaf71cd03b6de93b037f84e0e95b5e65f6a80f07b15afd18511156e180a13"
+      },
+      "index": {
+        "bytes": 4769,
+        "path": "_commentary/v4/raw/native/s029/29_0/29_0.index.tr.md",
+        "sha256": "d646be0d2b2dd6255e8fee1f9cb72f44710bb5471a8aaf37a208d72695486bbf"
+      },
+      "prose": {
+        "bytes": 8222,
+        "path": "_commentary/v4/raw/native/s029/29_0/29_0.prose.tr.md",
+        "sha256": "c2d2c07d226c5110b6e582e2dc19eb4f2c82376dfe152c2c542d966cc3582b63"
+      }
+    },
+    "inputs": {
+      "ayah_ref": "29:0",
+      "canonical_request_sha256": "e132e54fa64cc12f9b738d964d157f5b91a9ea61b5acb234c4f95e694fc15cb1",
+      "evidence_input_sha256": "97561fc38a16dfe3a86c7149db94aadfb347169384a98cfb42d9b385c32570b9",
+      "friction_input_sha256": "457eaf71cd03b6de93b037f84e0e95b5e65f6a80f07b15afd18511156e180a13",
+      "index_input_sha256": "d646be0d2b2dd6255e8fee1f9cb72f44710bb5471a8aaf37a208d72695486bbf",
+      "instructions_sha256": "5c26ef4d839e15ce8879a4d1811c5fb5e13b30d7c10d15801da3992541c72fea",
+      "prose_input_sha256": "c2d2c07d226c5110b6e582e2dc19eb4f2c82376dfe152c2c542d966cc3582b63",
+      "template_sha256": "b6e6ee7d428989cc71eeeca78ceaa7163123cf484c3df4f1805074fb88a8ce0b"
+    },
+    "prompt": {
+      "bytes": 5467,
+      "path": "_commentary/v4/input/native/s029/29_0/editorial.prompt.md",
+      "sha256": "1fdabf9e8ee4303283478351639d0aa428f3c6082fc60438363d090c09adfb35"
+    },
+    "request_sha256": "d04be176e99a6c33ab010f3841cf5bd7ce672b02d17e58da283e6dc705c18b92"
+  },
   "evidence_projection": {
     "implementation": "_commentary/v3/render_authoring.py",
     "inter_ayah": {

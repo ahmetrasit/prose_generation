@@ -43,7 +43,53 @@
   },
   "analysis_id": "native",
   "ayah_ref": "29:38",
-  "canonical": null,
+  "canonical": {
+    "expected_outputs": {
+      "evidence": "_commentary/v4/raw/native/s029/29_38/29_38.evidence.tr.md",
+      "friction": "_commentary/v4/raw/native/s029/29_38/29_38.friction.tr.md",
+      "index": "_commentary/v4/raw/native/s029/29_38/29_38.index.tr.md",
+      "prose": "_commentary/v4/raw/native/s029/29_38/29_38.prose.tr.md"
+    },
+    "inputs": {
+      "ayah_ref": "29:38",
+      "canonical_prompt_v2_sha256": "a6e17213aed8ed538cc1ca2cfa957bfbc4617991df4da6df87bce7f09323468d",
+      "channels_sha256": "e4a9ab0c3eec6af0d559c194254e240aa233ce515376d1f9763676ec3ae8b754",
+      "commentary_spec_sha256": "897ef9e33e2dde39bc7cc990c92bccc7a693a512fbac6b24c990ee6c42dddad8",
+      "editorial_handoff_template_sha256": "b6e6ee7d428989cc71eeeca78ceaa7163123cf484c3df4f1805074fb88a8ce0b",
+      "editorial_instructions_sha256": "5c26ef4d839e15ce8879a4d1811c5fb5e13b30d7c10d15801da3992541c72fea",
+      "global_packet_sha256": "c478ba6c6a24ce1f0882b6f13c51b7f244df5ba807bfc33fcb79ab44b2621529",
+      "global_review_sha256": "1820a61cf0b011fe696154712509530bb139f7ffd9e643f00e0da45dad01a9e6",
+      "macro_packet_sha256": "07f6af5adfa1952840a7d4420418c63edec6cac58f21bb2b7d9ff18407d5403f",
+      "macro_review_sha256": "820b1e20f7b5d0a1083570d1eff43dd8ce9c4c163e1085b20974c0433fa0d647",
+      "micro_packet_sha256": "465233e5baec2654fd3a03fe27c6a9ddfbf43a4a1c6278c5c33532154bfe120c",
+      "micro_review_sha256": "97603140c3fd02c13738c0f7f716df8473aa613d82dfa522aee8045dcb52927b",
+      "principles_sha256": "fe4c0397d275a0201b8803782011ab9281392c2f76dc5e7584e1bec827c0c62c",
+      "template_sha256": "8d32c57891d728a29b75b9c71fcb795a3785dcf24ce08347d694cae9cc811c3f"
+    },
+    "prompt": {
+      "bytes": 595330,
+      "path": "_commentary/v4/input/native/s029/29_38/canonical.prompt.md",
+      "sha256": "2b303cf964e0744e64f4be138ec61fe7e9fa606b03e8920eae28715ed77b455a"
+    },
+    "request_sha256": "e67bbe5eefb062d1b7147a3a9d77ca09a06c89b295775b57659c7419e69ec501",
+    "reviews": {
+      "global": {
+        "bytes": 401123,
+        "path": "_commentary/v4/raw/native/s029/29_38/global.review.json",
+        "sha256": "1820a61cf0b011fe696154712509530bb139f7ffd9e643f00e0da45dad01a9e6"
+      },
+      "macro": {
+        "bytes": 76010,
+        "path": "_commentary/v4/raw/native/s029/29_38/macro.review.json",
+        "sha256": "820b1e20f7b5d0a1083570d1eff43dd8ce9c4c163e1085b20974c0433fa0d647"
+      },
+      "micro": {
+        "bytes": 179720,
+        "path": "_commentary/v4/raw/native/s029/29_38/micro.review.json",
+        "sha256": "97603140c3fd02c13738c0f7f716df8473aa613d82dfa522aee8045dcb52927b"
+      }
+    }
+  },
   "canonical_template": {
     "path": "_commentary/v4/prompts/canonical.md",
     "sha256": "8d32c57891d728a29b75b9c71fcb795a3785dcf24ce08347d694cae9cc811c3f"
@@ -85,7 +131,53 @@
     "instructions_sha256": "5c26ef4d839e15ce8879a4d1811c5fb5e13b30d7c10d15801da3992541c72fea",
     "instructions_source": "_commentary/v3/prompts/editorial-followup.md"
   },
-  "editorial_turn": null,
+  "editorial_turn": {
+    "canonical_request_sha256": "e67bbe5eefb062d1b7147a3a9d77ca09a06c89b295775b57659c7419e69ec501",
+    "expected_outputs": {
+      "evidence": "_commentary/v4/editorial/native/s029/29_38/29_38.evidence.editorial.tr.md",
+      "friction": "_commentary/v4/editorial/native/s029/29_38/29_38.friction.editorial.tr.md",
+      "index": "_commentary/v4/editorial/native/s029/29_38/29_38.index.editorial.tr.md",
+      "prose": "_commentary/v4/editorial/native/s029/29_38/29_38.prose.editorial.tr.md"
+    },
+    "first_pass": {
+      "evidence": {
+        "bytes": 206293,
+        "path": "_commentary/v4/raw/native/s029/29_38/29_38.evidence.tr.md",
+        "sha256": "a2e191e863d7e2eda53d12b137279a5cf4dad04238fcb6b41a331538f5b91aa8"
+      },
+      "friction": {
+        "bytes": 4185,
+        "path": "_commentary/v4/raw/native/s029/29_38/29_38.friction.tr.md",
+        "sha256": "bc6da6b0d8edc9967a12ca5c2c2ed007ca0eeff9e1aba13d43a7e69705ca2a5f"
+      },
+      "index": {
+        "bytes": 10537,
+        "path": "_commentary/v4/raw/native/s029/29_38/29_38.index.tr.md",
+        "sha256": "be33d3032f38b475a34436bfb960450e199ee9548b58703d2b60834ecfd0f813"
+      },
+      "prose": {
+        "bytes": 15833,
+        "path": "_commentary/v4/raw/native/s029/29_38/29_38.prose.tr.md",
+        "sha256": "4c9fb56d75796194fc234a9db55a02b7e7a06e6567e2f0bc2c36312d6cfb235c"
+      }
+    },
+    "inputs": {
+      "ayah_ref": "29:38",
+      "canonical_request_sha256": "e67bbe5eefb062d1b7147a3a9d77ca09a06c89b295775b57659c7419e69ec501",
+      "evidence_input_sha256": "a2e191e863d7e2eda53d12b137279a5cf4dad04238fcb6b41a331538f5b91aa8",
+      "friction_input_sha256": "bc6da6b0d8edc9967a12ca5c2c2ed007ca0eeff9e1aba13d43a7e69705ca2a5f",
+      "index_input_sha256": "be33d3032f38b475a34436bfb960450e199ee9548b58703d2b60834ecfd0f813",
+      "instructions_sha256": "5c26ef4d839e15ce8879a4d1811c5fb5e13b30d7c10d15801da3992541c72fea",
+      "prose_input_sha256": "4c9fb56d75796194fc234a9db55a02b7e7a06e6567e2f0bc2c36312d6cfb235c",
+      "template_sha256": "b6e6ee7d428989cc71eeeca78ceaa7163123cf484c3df4f1805074fb88a8ce0b"
+    },
+    "prompt": {
+      "bytes": 5484,
+      "path": "_commentary/v4/input/native/s029/29_38/editorial.prompt.md",
+      "sha256": "4bb4eb083927778371ca9d08c08c0be3253f0cf4862b53b15c2dfc261c746ad8"
+    },
+    "request_sha256": "a6c6aa13a0bb6e84fe786e4c9fbfde0a329fb5c820862e435ed61bdebf09aa72"
+  },
   "evidence_projection": {
     "implementation": "_commentary/v3/render_authoring.py",
     "inter_ayah": {

@@ -1,0 +1,1905 @@
+{
+  "schema_version": "commentary-v3-scope-review-v2",
+  "identity": {
+    "ayah_ref": "29:0",
+    "lane": "micro",
+    "lane_packet_sha256": "4d35f1523b27fc723d0c84f67adce5e2a888b92ed428656eeed9f852e41e3d70",
+    "authoring_request_sha256": "079759955744f04d2f611baf21b03dc0bf50e2201becd305d5d6fd8e949b9585"
+  },
+  "ayah_ref": "29:0",
+  "lane": "micro",
+  "coverage_complete": true,
+  "surface_coverage": [
+    {
+      "analysis_record_ref": "1:1:1",
+      "treatment": "develop",
+      "finding_refs": [
+        "micro:f001-opening-bound-act"
+      ]
+    },
+    {
+      "analysis_record_ref": "1:1:2",
+      "treatment": "develop",
+      "finding_refs": [
+        "micro:f002-name-construct",
+        "micro:f003-name-mercy-hinge",
+        "micro:f004-name-raised-designation",
+        "micro:f005-name-variant-apparatus"
+      ]
+    },
+    {
+      "analysis_record_ref": "1:1:3",
+      "treatment": "develop",
+      "finding_refs": [
+        "micro:f006-divine-name-anchor",
+        "micro:f007-divine-name-recurrence",
+        "micro:f008-divine-worship-pressure"
+      ]
+    },
+    {
+      "analysis_record_ref": "1:1:4",
+      "treatment": "develop",
+      "finding_refs": [
+        "micro:f009-rahman-attachment",
+        "micro:f010-rahman-expansive",
+        "micro:f011-rahman-sound",
+        "micro:f012-rahman-surah-return",
+        "micro:f013-womb-protective"
+      ]
+    },
+    {
+      "analysis_record_ref": "1:1:5",
+      "treatment": "develop",
+      "finding_refs": [
+        "micro:f013-womb-protective",
+        "micro:f014-rahim-cadence",
+        "micro:f015-formula-completion",
+        "micro:f016-mercy-scalar",
+        "micro:f017-shareable-mercy",
+        "micro:f018-enacted-closure",
+        "micro:f020-pause-bridge"
+      ]
+    }
+  ],
+  "branch_screen": [
+    {
+      "branch_ref": "root_000047/B001",
+      "tested_facets": [
+        {
+          "facet_id": "F001",
+          "result": "no_independent_trigger"
+        },
+        {
+          "facet_id": "F002",
+          "result": "contact"
+        },
+        {
+          "facet_id": "F003",
+          "result": "no_independent_trigger"
+        },
+        {
+          "facet_id": "F004",
+          "result": "no_independent_trigger"
+        }
+      ],
+      "result": "nominated",
+      "contact_refs": [
+        "micro:c-allah-worship"
+      ],
+      "reason": "Yerel özel ad ve çağrı çerçevesi tapınılan ilahî referent baskısını açar; açık tapınma eylemi, ettirgen kullanım veya güneş örneği yoktur."
+    },
+    {
+      "branch_ref": "root_000047/B002",
+      "tested_facets": [
+        {
+          "facet_id": "F001",
+          "result": "contact"
+        },
+        {
+          "facet_id": "F002",
+          "result": "no_independent_trigger"
+        },
+        {
+          "facet_id": "F003",
+          "result": "no_independent_trigger"
+        },
+        {
+          "facet_id": "F004",
+          "result": "no_independent_trigger"
+        },
+        {
+          "facet_id": "F005",
+          "result": "no_independent_trigger"
+        }
+      ],
+      "result": "nominated",
+      "contact_refs": [
+        "micro:c-allah-name",
+        "micro:c-allah-recurrence"
+      ],
+      "reason": "Belirli ve tekil özel ad ile ona bağlanan sıfat zinciri aktiftir; türeyiş açıklamasını gösteren ayrı biçim, ant, doğrudan seslenme veya kısaltılmış kalıp yoktur."
+    },
+    {
+      "branch_ref": "root_000552/B001",
+      "tested_facets": [
+        {
+          "facet_id": "F001",
+          "result": "contact"
+        },
+        {
+          "facet_id": "F002",
+          "result": "contact"
+        },
+        {
+          "facet_id": "F003",
+          "result": "no_independent_trigger"
+        },
+        {
+          "facet_id": "F004",
+          "result": "no_independent_trigger"
+        },
+        {
+          "facet_id": "F005",
+          "result": "contact"
+        }
+      ],
+      "result": "nominated",
+      "contact_refs": [
+        "micro:c-rahm-tenderness",
+        "micro:c-rahm-expansive",
+        "micro:c-rahm-scalar",
+        "micro:c-rahm-enacted"
+      ],
+      "reason": "İki belirli sıfatın Allah'a genitif bağlanması, kökün yumuşaklık ve etkin esirgeme baskısını ve ilahî genişletmeyi açar; karşılıklılık veya esenlik dileği kalıbı yoktur."
+    },
+    {
+      "branch_ref": "root_000552/B002",
+      "tested_facets": [
+        {
+          "facet_id": "F001",
+          "result": "no_independent_trigger"
+        },
+        {
+          "facet_id": "F002",
+          "result": "contact"
+        },
+        {
+          "facet_id": "F003",
+          "result": "no_independent_trigger"
+        }
+      ],
+      "result": "nominated",
+      "contact_refs": [
+        "micro:c-rahm-womb"
+      ],
+      "reason": "Kökün doğum kaynağı ve koruyucu kap imgesi merhamet sıfatlarını gölgelendirir; soy bağı ya da bağı sürdürme-koparma eylemi kurulmaz."
+    },
+    {
+      "branch_ref": "root_000552/B003",
+      "tested_facets": [
+        {
+          "facet_id": "F001",
+          "result": "no_independent_trigger"
+        }
+      ],
+      "result": "no_independent_trigger",
+      "contact_refs": [],
+      "reason": "Yerel taşıyıcılar bedensel organ adı değil ilahî sıfatlardır; organın kendisini veya yavrunun gelişmesini anlatan bağımsız bağlam yoktur."
+    },
+    {
+      "branch_ref": "root_000552/B004",
+      "tested_facets": [
+        {
+          "facet_id": "F001",
+          "result": "no_independent_trigger"
+        },
+        {
+          "facet_id": "F002",
+          "result": "no_independent_trigger"
+        },
+        {
+          "facet_id": "F003",
+          "result": "no_independent_trigger"
+        }
+      ],
+      "result": "no_independent_trigger",
+      "contact_refs": [],
+      "reason": "Merhamet sıfatlarında ağrı, hastalık, şişme veya doğum sonrası bozukluk göstergesi bulunmaz."
+    },
+    {
+      "branch_ref": "root_000743/B001",
+      "tested_facets": [
+        {
+          "facet_id": "F001",
+          "result": "no_independent_trigger"
+        },
+        {
+          "facet_id": "F002",
+          "result": "no_independent_trigger"
+        },
+        {
+          "facet_id": "F003",
+          "result": "no_independent_trigger"
+        }
+      ],
+      "result": "no_independent_trigger",
+      "contact_refs": [],
+      "reason": "سْمِ yerel olarak adlandırma ismidir; dar delik, beden açıklığı veya kılıç çentiği sahnesi yoktur."
+    },
+    {
+      "branch_ref": "root_000743/B002",
+      "tested_facets": [
+        {
+          "facet_id": "F001",
+          "result": "no_independent_trigger"
+        },
+        {
+          "facet_id": "F002",
+          "result": "no_independent_trigger"
+        },
+        {
+          "facet_id": "F003",
+          "result": "no_independent_trigger"
+        }
+      ],
+      "result": "no_independent_trigger",
+      "contact_refs": [],
+      "reason": "İsim tamlamasında bedene giren madde, zehir verme veya zehir taşıyan hayvan yönünde hiçbir yerel tetikleyici yoktur."
+    },
+    {
+      "branch_ref": "root_000743/B003",
+      "tested_facets": [
+        {
+          "facet_id": "F001",
+          "result": "no_independent_trigger"
+        },
+        {
+          "facet_id": "F002",
+          "result": "no_independent_trigger"
+        },
+        {
+          "facet_id": "F003",
+          "result": "no_independent_trigger"
+        }
+      ],
+      "result": "no_independent_trigger",
+      "contact_refs": [],
+      "reason": "Yerel yapı özel iç çevreyi değil, Allah'a bağlı adlandırmayı kurar; yakınlar veya nimetin seçilmiş kişilere ulaşması bağlamı yoktur."
+    },
+    {
+      "branch_ref": "root_000743/B004",
+      "tested_facets": [
+        {
+          "facet_id": "F001",
+          "result": "no_independent_trigger"
+        },
+        {
+          "facet_id": "F002",
+          "result": "no_independent_trigger"
+        },
+        {
+          "facet_id": "F003",
+          "result": "no_independent_trigger"
+        }
+      ],
+      "result": "no_independent_trigger",
+      "contact_refs": [],
+      "reason": "سْمِ sözcüğü sıcak rüzgârı seçen meteorolojik veya bitkisel bir çevreye değil, adlandırma ilişkisine bağlanmıştır."
+    },
+    {
+      "branch_ref": "root_000743/B005",
+      "tested_facets": [
+        {
+          "facet_id": "F001",
+          "result": "no_independent_trigger"
+        },
+        {
+          "facet_id": "F002",
+          "result": "no_independent_trigger"
+        }
+      ],
+      "result": "no_independent_trigger",
+      "contact_refs": [],
+      "reason": "İnsanlar arasını düzeltme ya da yeniden yakınlaştırma eylemini belirleyen toplumsal çatışma bağlamı yoktur."
+    },
+    {
+      "branch_ref": "root_000743/B006",
+      "tested_facets": [
+        {
+          "facet_id": "F001",
+          "result": "no_independent_trigger"
+        },
+        {
+          "facet_id": "F002",
+          "result": "no_independent_trigger"
+        },
+        {
+          "facet_id": "F003",
+          "result": "no_independent_trigger"
+        }
+      ],
+      "result": "no_independent_trigger",
+      "contact_refs": [],
+      "reason": "İsim tamlaması süs boncuğu, kayış halkası veya tavan bezemesi nesnelerini çağırmaz."
+    },
+    {
+      "branch_ref": "root_000743/B007",
+      "tested_facets": [
+        {
+          "facet_id": "F001",
+          "result": "no_independent_trigger"
+        },
+        {
+          "facet_id": "F002",
+          "result": "no_independent_trigger"
+        }
+      ],
+      "result": "no_independent_trigger",
+      "contact_refs": [],
+      "reason": "Yerel referent ne kuş türü ne de hızlı dişi devedir; hayvan adlandırmasını açan bağımsız unsur bulunmaz."
+    },
+    {
+      "branch_ref": "root_000743/B008",
+      "tested_facets": [
+        {
+          "facet_id": "F001",
+          "result": "no_independent_trigger"
+        }
+      ],
+      "result": "no_independent_trigger",
+      "contact_refs": [],
+      "reason": "Tilki, susam, yer, kırmızı böcek veya hafif kişi gibi eş adlı referentlerden hiçbiri yerel yapıda seçilmez."
+    },
+    {
+      "branch_ref": "root_000743/B009",
+      "tested_facets": [
+        {
+          "facet_id": "F001",
+          "result": "no_independent_trigger"
+        }
+      ],
+      "result": "no_independent_trigger",
+      "contact_refs": [],
+      "reason": "Dışlayıcı olumsuz kalıp ve tek muhatap kaygısı yoktur; سْمِ yalnızca tamlama içindeki addır."
+    },
+    {
+      "branch_ref": "root_000743/B010",
+      "tested_facets": [
+        {
+          "facet_id": "F001",
+          "result": "no_independent_trigger"
+        }
+      ],
+      "result": "no_independent_trigger",
+      "contact_refs": [],
+      "reason": "Yaşamın sona ermesi veya ölüm sonucu bildiren hiçbir yerel fiil ya da bağlam yoktur."
+    },
+    {
+      "branch_ref": "root_000743/B011",
+      "tested_facets": [
+        {
+          "facet_id": "F001",
+          "result": "no_independent_trigger"
+        },
+        {
+          "facet_id": "F002",
+          "result": "no_independent_trigger"
+        },
+        {
+          "facet_id": "F003",
+          "result": "no_independent_trigger"
+        }
+      ],
+      "result": "no_independent_trigger",
+      "contact_refs": [],
+      "reason": "İsim, amaçlama, yol doğrultusu veya bir işi derinlemesine yoklama eylemiyle değil, tanımlayıcı adla kurulmuştur."
+    },
+    {
+      "branch_ref": "root_000743/B012",
+      "tested_facets": [
+        {
+          "facet_id": "F001",
+          "result": "no_independent_trigger"
+        },
+        {
+          "facet_id": "F002",
+          "result": "no_independent_trigger"
+        }
+      ],
+      "result": "no_independent_trigger",
+      "contact_refs": [],
+      "reason": "Kap ağzını kapatma veya bir nesneyi sıkıca bağlama sahnesi yoktur."
+    },
+    {
+      "branch_ref": "root_000743/B013",
+      "tested_facets": [
+        {
+          "facet_id": "F001",
+          "result": "no_independent_trigger"
+        },
+        {
+          "facet_id": "F002",
+          "result": "no_independent_trigger"
+        },
+        {
+          "facet_id": "F003",
+          "result": "no_independent_trigger"
+        }
+      ],
+      "result": "no_independent_trigger",
+      "contact_refs": [],
+      "reason": "سْمِ görünür gövde, üst bölüm veya palmiye özü değil; sözdizimsel olarak adlandırma unsurudur."
+    },
+    {
+      "branch_ref": "root_000745/B001",
+      "tested_facets": [
+        {
+          "facet_id": "F001",
+          "result": "no_independent_trigger"
+        },
+        {
+          "facet_id": "F002",
+          "result": "no_independent_trigger"
+        },
+        {
+          "facet_id": "F003",
+          "result": "no_independent_trigger"
+        }
+      ],
+      "result": "no_independent_trigger",
+      "contact_refs": [],
+      "reason": "Yükseltilmiş designation baskısı, genel fiziksel veya toplumsal yükselme dalını değil adın sınırlı etimolojik rengini açar; gerçek yükselme veya bakış hareketi yoktur."
+    },
+    {
+      "branch_ref": "root_000745/B002",
+      "tested_facets": [
+        {
+          "facet_id": "F001",
+          "result": "no_independent_trigger"
+        },
+        {
+          "facet_id": "F002",
+          "result": "no_independent_trigger"
+        },
+        {
+          "facet_id": "F003",
+          "result": "no_independent_trigger"
+        }
+      ],
+      "result": "no_independent_trigger",
+      "contact_refs": [],
+      "reason": "İsim tamlamasında yükselerek uzaktan görünen gövde, dış çizgi veya ay yayı bulunmaz."
+    },
+    {
+      "branch_ref": "root_000745/B003",
+      "tested_facets": [
+        {
+          "facet_id": "F001",
+          "result": "no_independent_trigger"
+        },
+        {
+          "facet_id": "F002",
+          "result": "no_independent_trigger"
+        }
+      ],
+      "result": "no_independent_trigger",
+      "contact_refs": [],
+      "reason": "Erkek deve, dişi deve sürüsü ve sürüye giriş hareketi yoktur."
+    },
+    {
+      "branch_ref": "root_000745/B004",
+      "tested_facets": [
+        {
+          "facet_id": "F001",
+          "result": "no_independent_trigger"
+        },
+        {
+          "facet_id": "F002",
+          "result": "no_independent_trigger"
+        },
+        {
+          "facet_id": "F003",
+          "result": "no_independent_trigger"
+        },
+        {
+          "facet_id": "F004",
+          "result": "no_independent_trigger"
+        },
+        {
+          "facet_id": "F005",
+          "result": "no_independent_trigger"
+        }
+      ],
+      "result": "no_independent_trigger",
+      "contact_refs": [],
+      "reason": "Gök, tavan, bulut, yağmur, bitki veya üst yüzey bağlamı yoktur."
+    },
+    {
+      "branch_ref": "root_000745/B005",
+      "tested_facets": [
+        {
+          "facet_id": "F001",
+          "result": "contact"
+        },
+        {
+          "facet_id": "F002",
+          "result": "no_independent_trigger"
+        },
+        {
+          "facet_id": "F003",
+          "result": "no_independent_trigger"
+        },
+        {
+          "facet_id": "F004",
+          "result": "no_independent_trigger"
+        },
+        {
+          "facet_id": "F005",
+          "result": "contact"
+        }
+      ],
+      "result": "nominated",
+      "contact_refs": [
+        "micro:c-ism-name",
+        "micro:c-ism-hinge",
+        "micro:c-ism-raised"
+      ],
+      "reason": "سْمِ gerçek bir tanımlayıcı ad olarak tamlamada çalışır ve bağlanmış özel referent nedeniyle sınırlı yükseltilmiş-designation baskısı taşır; ad verme eylemi, adaşlık veya denk kişi kullanımları yoktur."
+    },
+    {
+      "branch_ref": "root_000745/B006",
+      "tested_facets": [
+        {
+          "facet_id": "F001",
+          "result": "no_independent_trigger"
+        },
+        {
+          "facet_id": "F002",
+          "result": "no_independent_trigger"
+        },
+        {
+          "facet_id": "F003",
+          "result": "no_independent_trigger"
+        },
+        {
+          "facet_id": "F004",
+          "result": "no_independent_trigger"
+        }
+      ],
+      "result": "no_independent_trigger",
+      "contact_refs": [],
+      "reason": "Av için kıra çıkma, avcı, av hayvanını arama veya koruyucu çorap bağlamı yoktur."
+    },
+    {
+      "branch_ref": "root_000745/B007",
+      "tested_facets": [
+        {
+          "facet_id": "F001",
+          "result": "no_independent_trigger"
+        },
+        {
+          "facet_id": "F002",
+          "result": "no_independent_trigger"
+        },
+        {
+          "facet_id": "F003",
+          "result": "no_independent_trigger"
+        },
+        {
+          "facet_id": "F004",
+          "result": "no_independent_trigger"
+        }
+      ],
+      "result": "no_independent_trigger",
+      "contact_refs": [],
+      "reason": "Karşılıklı yarış, övünme, denk gelme veya rakipsizlik anlamını açan taraf ve mücadele yapısı bulunmaz."
+    },
+    {
+      "branch_ref": "root_000745/B008",
+      "tested_facets": [
+        {
+          "facet_id": "F001",
+          "result": "no_independent_trigger"
+        },
+        {
+          "facet_id": "F002",
+          "result": "no_independent_trigger"
+        }
+      ],
+      "result": "no_independent_trigger",
+      "contact_refs": [],
+      "reason": "İnsanlar arasında yayılan iyi ünü belirleyen toplumsal dolaşım ve olumlu değer koşulu yoktur."
+    },
+    {
+      "branch_ref": "root_001650/B001",
+      "tested_facets": [
+        {
+          "facet_id": "F001",
+          "result": "no_independent_trigger"
+        },
+        {
+          "facet_id": "F002",
+          "result": "no_independent_trigger"
+        },
+        {
+          "facet_id": "F003",
+          "result": "no_independent_trigger"
+        },
+        {
+          "facet_id": "F004",
+          "result": "no_independent_trigger"
+        }
+      ],
+      "result": "no_independent_trigger",
+      "contact_refs": [],
+      "reason": "İsim soyut bir designationdır; hayvan veya nesne üzerinde yakma, kesme, çentikleme ya da işaretleme aracı bulunmaz."
+    },
+    {
+      "branch_ref": "root_001650/B002",
+      "tested_facets": [
+        {
+          "facet_id": "F001",
+          "result": "no_independent_trigger"
+        },
+        {
+          "facet_id": "F002",
+          "result": "no_independent_trigger"
+        },
+        {
+          "facet_id": "F003",
+          "result": "no_independent_trigger"
+        }
+      ],
+      "result": "no_independent_trigger",
+      "contact_refs": [],
+      "reason": "Görünen fiziksel bir belirtiden kişinin karakteri veya durumu hakkında çıkarım yapılmaz."
+    },
+    {
+      "branch_ref": "root_001650/B003",
+      "tested_facets": [
+        {
+          "facet_id": "F001",
+          "result": "no_independent_trigger"
+        },
+        {
+          "facet_id": "F002",
+          "result": "no_independent_trigger"
+        },
+        {
+          "facet_id": "F003",
+          "result": "no_independent_trigger"
+        }
+      ],
+      "result": "no_independent_trigger",
+      "contact_refs": [],
+      "reason": "İlk yağmur, erken mevsim veya toprağın bitkiyle işaretlenmesi yönünde bağımsız unsur yoktur."
+    },
+    {
+      "branch_ref": "root_001650/B004",
+      "tested_facets": [
+        {
+          "facet_id": "F001",
+          "result": "no_independent_trigger"
+        },
+        {
+          "facet_id": "F002",
+          "result": "no_independent_trigger"
+        },
+        {
+          "facet_id": "F003",
+          "result": "no_independent_trigger"
+        },
+        {
+          "facet_id": "F004",
+          "result": "no_independent_trigger"
+        }
+      ],
+      "result": "no_independent_trigger",
+      "contact_refs": [],
+      "reason": "Belirlenmiş toplu buluşma zamanı, yeri, kutsal ziyaret veya pazar sahnesi yoktur."
+    },
+    {
+      "branch_ref": "root_001650/B005",
+      "tested_facets": [
+        {
+          "facet_id": "F001",
+          "result": "no_independent_trigger"
+        },
+        {
+          "facet_id": "F002",
+          "result": "no_independent_trigger"
+        },
+        {
+          "facet_id": "F003",
+          "result": "no_independent_trigger"
+        }
+      ],
+      "result": "no_independent_trigger",
+      "contact_refs": [],
+      "reason": "Kişide görünen yüz güzelliği, zarafet veya güzellik etkisi yerel adlandırma yapısında etkin değildir."
+    },
+    {
+      "branch_ref": "root_001650/B006",
+      "tested_facets": [
+        {
+          "facet_id": "F001",
+          "result": "no_independent_trigger"
+        },
+        {
+          "facet_id": "F002",
+          "result": "no_independent_trigger"
+        }
+      ],
+      "result": "no_independent_trigger",
+      "contact_refs": [],
+      "reason": "Yaprakları boya veren belirli bitki veya boyama kullanımı yoktur."
+    }
+  ],
+  "contact_opportunities": [
+    {
+      "contact_ref": "micro:c-allah-name",
+      "surface_carrier": "ٱللَّهِ",
+      "distinctive_facet": "F001: Yaratıcıyı başkalarından ayıran ve yalnız ona özgü özel ad",
+      "independent_trigger": "Belirli tekil özel adın genitif konstrüksiyonda bulunması ve ardından gelen iki belirli sıfatın aynı ada bağlanması.",
+      "changed_reading": "Sözcük genel bir tapınılan-varlık tür adı olarak değil, açılışın yöneldiği tekil ilahî ad olarak okunur.",
+      "reader_payoff": "Okur, merhamet nitelemelerinin adsız bir niteliğe değil belirli ve tekil ada bağlandığını görür.",
+      "containment": "Özel ad ve yerel genitif bağ korunur; ant, doğrudan seslenme veya genel tür adı kullanımları aktarılmaz.",
+      "suggested_lane": "micro",
+      "disposition": "accept",
+      "accepted_finding_refs": [
+        "micro:f006-divine-name-anchor"
+      ],
+      "support_ids": [
+        "sup_02991ac40aeaac854e72",
+        "sup_9616286c79c43182bed8",
+        "sup_f7725957d9a8549cb393"
+      ],
+      "branch_refs": [
+        "root_000047/B002"
+      ]
+    },
+    {
+      "contact_ref": "micro:c-allah-recurrence",
+      "surface_carrier": "ٱللَّهِ",
+      "distinctive_facet": "F001: Yaratıcıyı başkalarından ayıran ve yalnız ona özgü özel ad",
+      "independent_trigger": "Özel adın konstrüksiyon içinde sesçe sıkışması ve hemen sonraki övgü çerçevesinde yeniden dönmesi.",
+      "changed_reading": "Ad yalnızca bir tamlama öğesi değildir; ses ve tekrar yoluyla sonraki övgünün sabit referans noktası olur.",
+      "reader_payoff": "Okur, açılışta duyulan adı sonraki övgüye taşıyan yoğun birimsel bağı fark eder.",
+      "containment": "Tekrar ve ses bağlanması yerel yapısal baskıdır; yeni bir özel ad veya bağımsız anlam üretilmez.",
+      "suggested_lane": "micro",
+      "disposition": "accept",
+      "accepted_finding_refs": [
+        "micro:f007-divine-name-recurrence"
+      ],
+      "support_ids": [
+        "sup_106108c5d58aa80ed91f",
+        "sup_f7725957d9a8549cb393"
+      ],
+      "branch_refs": [
+        "root_000047/B002"
+      ]
+    },
+    {
+      "contact_ref": "micro:c-allah-worship",
+      "surface_carrier": "ٱللَّهِ",
+      "distinctive_facet": "F002: Kendisine tapınılan varlığı veya tapınma konusu sayılan nesneyi gösteren türemiş varlık anlamı",
+      "independent_trigger": "Özel adın ilahî referent olarak, açılıştaki bağlı çağrı ve merhamet sıfatları çerçevesinde kullanılması.",
+      "changed_reading": "Ad, açık bir tapınma eylemi bildirmeden tapınmanın yöneldiği ilahî referent baskısını taşır.",
+      "reader_payoff": "Okur, adın yalnızca etiket olmadığını; tapınmaya yönelen referenti ve huşu-özlem basıncını topladığını fark eder.",
+      "containment": "Bu yalnızca tapınılan referent yönündeki dar kök baskısıdır; açık tapınma eylemi, ettirgen kullanım veya tarihsel güneş örneği kurulmaz.",
+      "suggested_lane": "micro",
+      "disposition": "narrow",
+      "accepted_finding_refs": [
+        "micro:f008-divine-worship-pressure"
+      ],
+      "support_ids": [
+        "sup_ce242bd892b0c6e51152",
+        "sup_f7725957d9a8549cb393"
+      ],
+      "branch_refs": [
+        "root_000047/B001"
+      ]
+    },
+    {
+      "contact_ref": "micro:c-rahm-tenderness",
+      "surface_carrier": "ٱلرَّحْمَٰنِ / ٱلرَّحِيمِ",
+      "distinctive_facet": "F001: Yüreğin yumuşaması, acıma ve içten yakınlık çekirdeği",
+      "independent_trigger": "Aynı kökten gelen iki belirli sıfatın Allah'a genitif niteleme olarak bağlanması.",
+      "changed_reading": "Merhamet, yalnız soyut iyi niyet değil; yumuşaklık ve koruyucu yakınlık baskısını taşıyan ilahî nitelik olarak duyulur.",
+      "reader_payoff": "Okur, merhamet sözünün duygusal ve koruyucu sıcaklığını, insanî duyguya indirgemeden fark eder.",
+      "containment": "İlahî sıfatın kök rengi korunur; insan öznesinin yaşadığı ayrı bir duygu sahnesi kurulmaz.",
+      "suggested_lane": "micro",
+      "disposition": "narrow",
+      "accepted_finding_refs": [
+        "micro:f009-rahman-attachment"
+      ],
+      "support_ids": [
+        "sup_1675ff53e3dda1fc6912",
+        "sup_4f18b826f6b812c5f5c8"
+      ],
+      "branch_refs": [
+        "root_000552/B001"
+      ]
+    },
+    {
+      "contact_ref": "micro:c-rahm-expansive",
+      "surface_carrier": "ٱلرَّحْمَٰنِ",
+      "distinctive_facet": "F005: Tanrı hakkında esirgemenin genişliği ve yaratılmışlara iyilik olarak ulaşması",
+      "independent_trigger": "İlk merhamet sıfatının Allah'a genitif bağlanması, geniş kuvvetli biçimi ve hemen ardından gelen ikinci merhamet biçimi.",
+      "changed_reading": "İlk merhamet sözü, ilahî esirgemeyi geniş ve kuşatıcı bir alan olarak açar.",
+      "reader_payoff": "Okur, ikinci sıfata geçmeden önce merhametin alanının bütün yaratılmışlara yayılan ufukta kurulduğunu görür.",
+      "containment": "Bu ilahî genişletmedir; genel insan duygusu, ayrı bir yüklem veya bağımsız kök dalı ileri sürülmez.",
+      "suggested_lane": "micro",
+      "disposition": "accept",
+      "accepted_finding_refs": [
+        "micro:f010-rahman-expansive"
+      ],
+      "support_ids": [
+        "sup_4f18b826f6b812c5f5c8",
+        "sup_990bff7b47282b7f417a"
+      ],
+      "branch_refs": [
+        "root_000552/B001"
+      ]
+    },
+    {
+      "contact_ref": "micro:c-rahm-scalar",
+      "surface_carrier": "ٱلرَّحْمَٰنِ / ٱلرَّحِيمِ",
+      "distinctive_facet": "F002: Acımanın esirgeme ve iyilik olarak etkin sonuç taşıması",
+      "independent_trigger": "Aynı kökün art arda, biçimi değiştirilmiş iki sıfatla kurulması.",
+      "changed_reading": "Tekrar, ilk merhamet alanını ikinci biçimde etkili ve gerçekleşen esirgemeye doğru daraltır.",
+      "reader_payoff": "Okur, ikili merhamet ifadesini düz eşanlamlılık değil, genişlikten etkin sonuca geçiş olarak okur.",
+      "containment": "Bu yerel biçim karşıtlığıdır; iki ayrı ilahî varlık veya insanlara özgü bağımsız kullanım kurulmaz.",
+      "suggested_lane": "micro",
+      "disposition": "accept",
+      "accepted_finding_refs": [
+        "micro:f016-mercy-scalar"
+      ],
+      "support_ids": [
+        "sup_5a2186ca53d4a45fa108",
+        "sup_696cad80b84a282418b4"
+      ],
+      "branch_refs": [
+        "root_000552/B001"
+      ]
+    },
+    {
+      "contact_ref": "micro:c-rahm-enacted",
+      "surface_carrier": "ٱلرَّحِيمِ",
+      "distinctive_facet": "F002: Acımanın esirgeme ve iyilik olarak etkin sonuç taşıması",
+      "independent_trigger": "İkinci sıfatın biçim karşıtlığı içinde son sözcük olarak yer alması ve Allah'a bağlı genitif zinciri kapatması.",
+      "changed_reading": "Son merhamet sözü, alanı açılmış merhameti kalıcı ve fiilen ulaşan esirgeme niteliğiyle kapatır.",
+      "reader_payoff": "Okur, kapanışın yalnız tekrar olmadığını; merhametin gerçekleşen iyilikte sabitlendiğini fark eder.",
+      "containment": "Mevcut kullanım ilahî sıfat olarak kalır; başka bağlamlardaki insanî kullanım bu referente taşınmaz.",
+      "suggested_lane": "micro",
+      "disposition": "accept",
+      "accepted_finding_refs": [
+        "micro:f018-enacted-closure"
+      ],
+      "support_ids": [
+        "sup_5a43ccd2baac6c45ad04",
+        "sup_696cad80b84a282418b4"
+      ],
+      "branch_refs": [
+        "root_000552/B001"
+      ]
+    },
+    {
+      "contact_ref": "micro:c-rahm-womb",
+      "surface_carrier": "ٱلرَّحْمَٰنِ / ٱلرَّحِيمِ",
+      "distinctive_facet": "F002: Organ adının ortak doğum kaynağı üzerinden soy ilişkisine aktarılması",
+      "independent_trigger": "Rahm kökünün bedensel kaynak ve koruyucu kap imgesinin, iki ilahî merhamet sıfatıyla birlikte bulunması.",
+      "changed_reading": "Merhamet, içten kuşatan ve koruyucu bir kap gibi ulaşan bir baskı da taşır.",
+      "reader_payoff": "Okur, esirgemeyi yalnız dışarıdan verilen iyilik değil, koruyup içinde tutan bir imgeyle de kavrar.",
+      "containment": "Bu bedensel kök imgesinin sınırlı baskısıdır; literal döl yatağı, soy bağı veya hastalık anlamı aktarılmaz.",
+      "suggested_lane": "micro",
+      "disposition": "narrow",
+      "accepted_finding_refs": [
+        "micro:f013-womb-protective"
+      ],
+      "support_ids": [
+        "sup_4f18b826f6b812c5f5c8",
+        "sup_dbb3006e444c60b8325c"
+      ],
+      "branch_refs": [
+        "root_000552/B002"
+      ]
+    },
+    {
+      "contact_ref": "micro:c-ism-name",
+      "surface_carrier": "سْمِ",
+      "distinctive_facet": "F001: Bir varlığı tanıtan ve ondan söz etmeyi sağlayan ad",
+      "independent_trigger": "Açılıştaki bağlı edatın ismi yönetmesi ve ismin sağındaki belirli ilahî adla konstrüksiyon kurması.",
+      "changed_reading": "İsim burada serbest bir etiket değil, açılış eylemini belirli referente taşıyan ilişkisel aracıdır.",
+      "reader_payoff": "Okur, Allah'a yönelişin doğrudan değil, adlandırılmış referent üzerinden kurulduğunu görür.",
+      "containment": "Yerel ad ve konstrüksiyon korunur; ad verme, adaşlık, gök veya başka s-m-w dalları etkinleştirilmez.",
+      "suggested_lane": "micro",
+      "disposition": "accept",
+      "accepted_finding_refs": [
+        "micro:f002-name-construct"
+      ],
+      "support_ids": [
+        "sup_0d8b07eb431a21708089",
+        "sup_ba54357b33ac2f1cbc46",
+        "sup_8e572e4e186ddeacaa5c"
+      ],
+      "branch_refs": [
+        "root_000745/B005"
+      ]
+    },
+    {
+      "contact_ref": "micro:c-ism-hinge",
+      "surface_carrier": "سْمِ",
+      "distinctive_facet": "F001: Bir varlığı tanıtan ve ondan söz etmeyi sağlayan ad",
+      "independent_trigger": "İsmin ardından tekil ilahî adın ve iki merhamet sıfatının art arda gelmesi.",
+      "changed_reading": "İsim, bağlı edattan ilahî ada ve oradan merhamet zincirine geçen semantik menteşe olur.",
+      "reader_payoff": "Okur, formülü edat, ad, Allah ve merhamet sıfatları arasında tek bir yönlendirilmiş akış olarak izleyebilir.",
+      "containment": "Bu yapısal menteşedir; açık bir ad verme eylemi veya genel isim teorisi ileri sürülmez.",
+      "suggested_lane": "micro",
+      "disposition": "accept",
+      "accepted_finding_refs": [
+        "micro:f003-name-mercy-hinge"
+      ],
+      "support_ids": [
+        "sup_0d8b07eb431a21708089",
+        "sup_4a6a06dc50a4443bda26"
+      ],
+      "branch_refs": [
+        "root_000745/B005"
+      ]
+    },
+    {
+      "contact_ref": "micro:c-ism-raised",
+      "surface_carrier": "سْمِ",
+      "distinctive_facet": "F005: Adın anılmayı yükseltmesi ve verilen şeyi belirgin kılması",
+      "independent_trigger": "İsmin belirli ilahî referente bağlı konstrüksiyonda seçilmesi ve kök alanındaki yükseltilmiş-designation açıklaması.",
+      "changed_reading": "Adlandırma nötr bir etiket olarak kalmaz; referenti ayırt edip anılma düzeyine çıkaran sınırlı bir basınç taşır.",
+      "reader_payoff": "Okur, ismin yalnız göstermediğini, gösterdiği şeyi belirginleştiren ve yükselten bir işlev taşıdığını fark eder.",
+      "containment": "Etimolojik ve anlamsal baskı olarak tutulur; fiziksel yükselme, toplumsal şöhret veya genel yücelme anlamına genişletilmez.",
+      "suggested_lane": "micro",
+      "disposition": "narrow",
+      "accepted_finding_refs": [
+        "micro:f004-name-raised-designation"
+      ],
+      "support_ids": [
+        "sup_0d8b07eb431a21708089",
+        "sup_46da0fbbee759728567b"
+      ],
+      "branch_refs": [
+        "root_000745/B005"
+      ]
+    }
+  ],
+  "candidate_decisions": [
+    {
+      "candidate_id": "cand_1c46d52273a24776b639",
+      "decision": "accept",
+      "reason": "İlk yüzeyin bağlı ve formülleşmiş bir vuruş olarak kurulması, sonraki isme bağımlılıktan önce duyulur.",
+      "failed_edge": null,
+      "accepted_finding_refs": [
+        "micro:f001-opening-bound-act"
+      ],
+      "duplicate_of": null,
+      "excluded_branch_refs": [],
+      "branch_exclusion_reasons": []
+    },
+    {
+      "candidate_id": "cand_ba2e80731a21e085717f",
+      "decision": "narrow",
+      "reason": "Edatın araç, yer, eşlik ve bağlanma aralığı gerçektir; yerel yapı bunları dört ayrı önerme değil, bağlı açılış ilişkisi olarak sınırlar.",
+      "failed_edge": null,
+      "accepted_finding_refs": [
+        "micro:f001-opening-bound-act"
+      ],
+      "duplicate_of": null,
+      "excluded_branch_refs": [],
+      "branch_exclusion_reasons": []
+    },
+    {
+      "candidate_id": "cand_d9c0b1b4fdb4684a48d0",
+      "decision": "accept",
+      "reason": "Açık fiil söylenmeden başlama, okuma veya çağırma eyleminin isim üzerinden sıkıştırılması yerel formül yapısıyla kuruludur.",
+      "failed_edge": null,
+      "accepted_finding_refs": [
+        "micro:f001-opening-bound-act"
+      ],
+      "duplicate_of": null,
+      "excluded_branch_refs": [],
+      "branch_exclusion_reasons": []
+    },
+    {
+      "candidate_id": "cand_3de911178ef87a39e8e3",
+      "decision": "narrow",
+      "reason": "Yükseltilmiş veya işaretleyici designation baskısı vardır; yerel sözcük yine ad anlamında kalır ve genel yükselme dalına dönüşmez.",
+      "failed_edge": null,
+      "accepted_finding_refs": [
+        "micro:f004-name-raised-designation"
+      ],
+      "duplicate_of": null,
+      "excluded_branch_refs": [],
+      "branch_exclusion_reasons": []
+    },
+    {
+      "candidate_id": "cand_39aa3d63b7af231e1d7f",
+      "decision": "accept",
+      "reason": "İsim hem soldan edat tarafından yönetilir hem sağdan ilahî adla konstrüksiyona bağlanır.",
+      "failed_edge": null,
+      "accepted_finding_refs": [
+        "micro:f002-name-construct"
+      ],
+      "duplicate_of": null,
+      "excluded_branch_refs": [],
+      "branch_exclusion_reasons": []
+    },
+    {
+      "candidate_id": "cand_a73536c6f1f30d661198",
+      "decision": "accept",
+      "reason": "İsim, Allah ve iki merhamet sıfatı arasında yer alan gerçek bir yapısal menteşe olarak çalışır.",
+      "failed_edge": null,
+      "accepted_finding_refs": [
+        "micro:f003-name-mercy-hinge"
+      ],
+      "duplicate_of": null,
+      "excluded_branch_refs": [],
+      "branch_exclusion_reasons": []
+    },
+    {
+      "candidate_id": "cand_231d00f4806e5125e785",
+      "decision": "narrow",
+      "reason": "Sky-heavy kök alanı içinde soyut adlandırma seçimi anlamlıdır; fiziksel gök ve yükselme dalları yalnız karşıtlık olarak kalır.",
+      "failed_edge": null,
+      "accepted_finding_refs": [
+        "micro:f002-name-construct"
+      ],
+      "duplicate_of": null,
+      "excluded_branch_refs": [],
+      "branch_exclusion_reasons": []
+    },
+    {
+      "candidate_id": "cand_cf4f3a926ca2139c97f4",
+      "decision": "narrow",
+      "reason": "Alternatif kök yönlendirmesi yerel kökü değiştirmez; yalnız doğru ad dalını belirginleştiren karşıtlık malzemesi olarak korunur.",
+      "failed_edge": null,
+      "accepted_finding_refs": [
+        "micro:f005-name-variant-apparatus"
+      ],
+      "duplicate_of": null,
+      "excluded_branch_refs": [],
+      "branch_exclusion_reasons": []
+    },
+    {
+      "candidate_id": "cand_94927b25c0fed4865f58",
+      "decision": "accept",
+      "reason": "Allah adı, ardından gelen iki belirli merhamet sıfatının yerel başvuru noktasıdır.",
+      "failed_edge": null,
+      "accepted_finding_refs": [
+        "micro:f006-divine-name-anchor"
+      ],
+      "duplicate_of": null,
+      "excluded_branch_refs": [],
+      "branch_exclusion_reasons": []
+    },
+    {
+      "candidate_id": "cand_4b0304416b7855a41e73",
+      "decision": "accept",
+      "reason": "Aynı özel adın konstrüksiyon içinde sıkışıp sonraki övgü çerçevesinde dönmesi bağımsız ses ve tekrar getirisi sağlar.",
+      "failed_edge": null,
+      "accepted_finding_refs": [
+        "micro:f007-divine-name-recurrence"
+      ],
+      "duplicate_of": null,
+      "excluded_branch_refs": [],
+      "branch_exclusion_reasons": []
+    },
+    {
+      "candidate_id": "cand_fa521af54ad04516cae8",
+      "decision": "accept",
+      "reason": "Genitif konstrüksiyon Allah'ı belirli ve tekil özel ad olarak ulaşılan referent yapar.",
+      "failed_edge": null,
+      "accepted_finding_refs": [
+        "micro:f006-divine-name-anchor"
+      ],
+      "duplicate_of": null,
+      "excluded_branch_refs": [],
+      "branch_exclusion_reasons": []
+    },
+    {
+      "candidate_id": "cand_3a84a87d7339e33a9ee4",
+      "decision": "narrow",
+      "reason": "Tapınılan ilahî referent ve huşu-özlem baskısı korunur; açık tapınma eylemi veya bağımsız özlem önermesi kurulmaz.",
+      "failed_edge": null,
+      "accepted_finding_refs": [
+        "micro:f008-divine-worship-pressure"
+      ],
+      "duplicate_of": null,
+      "excluded_branch_refs": [],
+      "branch_exclusion_reasons": []
+    },
+    {
+      "candidate_id": "cand_3f864ad15356ff2ac1aa",
+      "decision": "narrow",
+      "reason": "Varyant durum ekleri gerçek sözdizimsel baskıdır; yerel genitif eklemeyi korur ve alternatif okumaları aparata sınırlar.",
+      "failed_edge": null,
+      "accepted_finding_refs": [
+        "micro:f019-case-variant"
+      ],
+      "duplicate_of": null,
+      "excluded_branch_refs": [],
+      "branch_exclusion_reasons": []
+    },
+    {
+      "candidate_id": "cand_2189a4173d3d3e00fd4b",
+      "decision": "accept",
+      "reason": "İlk merhamet sıfatının belirli ve Allah'a bağlı genitif niteleme oluşu doğrudan yerel gramerle desteklenir.",
+      "failed_edge": null,
+      "accepted_finding_refs": [
+        "micro:f009-rahman-attachment"
+      ],
+      "duplicate_of": null,
+      "excluded_branch_refs": [],
+      "branch_exclusion_reasons": []
+    },
+    {
+      "candidate_id": "cand_846cad2f7d38c7dae4f1",
+      "decision": "accept",
+      "reason": "İlk merhamet biçimi geniş alanı açar; hemen sonraki farklı biçim düz eşanlamlılığı engeller.",
+      "failed_edge": null,
+      "accepted_finding_refs": [
+        "micro:f010-rahman-expansive"
+      ],
+      "duplicate_of": null,
+      "excluded_branch_refs": [],
+      "branch_exclusion_reasons": []
+    },
+    {
+      "candidate_id": "cand_9685004bc52b37b5f3cb",
+      "decision": "accept",
+      "reason": "Belirlilik, çift başlangıç sesi ve ikili kapanış ilk merhamet sıfatını bağlı bir ses birimi olarak duyurur.",
+      "failed_edge": null,
+      "accepted_finding_refs": [
+        "micro:f011-rahman-sound"
+      ],
+      "duplicate_of": null,
+      "excluded_branch_refs": [],
+      "branch_exclusion_reasons": []
+    },
+    {
+      "candidate_id": "cand_15645155a921e968fbc4",
+      "decision": "accept",
+      "reason": "İlk merhamet strandının sure içinde dönmesi ve 1:2'deki övgü ilişkisiyle karşıtlık kurması yerel çerçeveyi genişletir.",
+      "failed_edge": null,
+      "accepted_finding_refs": [
+        "micro:f012-rahman-surah-return"
+      ],
+      "duplicate_of": null,
+      "excluded_branch_refs": [],
+      "branch_exclusion_reasons": []
+    },
+    {
+      "candidate_id": "cand_0d92dd869e87a9099286",
+      "decision": "narrow",
+      "reason": "Rahm kökünün koruyucu ve kuşatıcı bedensel imgesi merhameti renklendirir; literal döl yatağı veya soy bağı anlamı yerel olarak etkin değildir.",
+      "failed_edge": null,
+      "accepted_finding_refs": [
+        "micro:f013-womb-protective"
+      ],
+      "duplicate_of": null,
+      "excluded_branch_refs": [],
+      "branch_exclusion_reasons": []
+    },
+    {
+      "candidate_id": "cand_2d0978cd3ad4a24e0f20",
+      "decision": "accept",
+      "reason": "Son merhamet sözü ikili ritmi kapatır ve aynı ses strandının 1:3'teki dönüşünü görünür kılar.",
+      "failed_edge": null,
+      "accepted_finding_refs": [
+        "micro:f014-rahim-cadence"
+      ],
+      "duplicate_of": null,
+      "excluded_branch_refs": [],
+      "branch_exclusion_reasons": []
+    },
+    {
+      "candidate_id": "cand_4d462bc2882a3f01451d",
+      "decision": "accept",
+      "reason": "Son sıfat önceki merhamet sıfatını tamamlar ve aynı Allah adına bağlı niteleme zincirini kapatır.",
+      "failed_edge": null,
+      "accepted_finding_refs": [
+        "micro:f015-formula-completion"
+      ],
+      "duplicate_of": null,
+      "excluded_branch_refs": [],
+      "branch_exclusion_reasons": []
+    },
+    {
+      "candidate_id": "cand_505f30bd726b25681f68",
+      "decision": "accept",
+      "reason": "Aynı kökün tekrarı biçim farkıyla düz yinelemeyi scalar refinementa dönüştürür.",
+      "failed_edge": null,
+      "accepted_finding_refs": [
+        "micro:f016-mercy-scalar"
+      ],
+      "duplicate_of": null,
+      "excluded_branch_refs": [],
+      "branch_exclusion_reasons": []
+    },
+    {
+      "candidate_id": "cand_69fbec494e02bcd3e720",
+      "decision": "narrow",
+      "reason": "Rahim biçiminin başka kişiler için de kullanılabilmesi karşıtlık olarak korunur; bu occurrence yine Allah'a bağlı özel sıfattır.",
+      "failed_edge": null,
+      "accepted_finding_refs": [
+        "micro:f017-shareable-mercy"
+      ],
+      "duplicate_of": null,
+      "excluded_branch_refs": [],
+      "branch_exclusion_reasons": []
+    },
+    {
+      "candidate_id": "cand_e74130c63d851de1a020",
+      "decision": "accept",
+      "reason": "Son sözcük merhamet alanını kalıcı ve fiilen ulaşan iyilik niteliğiyle kapatır.",
+      "failed_edge": null,
+      "accepted_finding_refs": [
+        "micro:f018-enacted-closure"
+      ],
+      "duplicate_of": null,
+      "excluded_branch_refs": [],
+      "branch_exclusion_reasons": []
+    },
+    {
+      "candidate_id": "cand_d37a7bc52f828cc7df3e",
+      "decision": "narrow",
+      "reason": "Varyant durum ve durak köprüleri anlamlı aparattır; yerel genitif kapanışı ve sonraki çerçeveye bağlılık bunları aşmaz.",
+      "failed_edge": null,
+      "accepted_finding_refs": [
+        "micro:f020-pause-bridge"
+      ],
+      "duplicate_of": null,
+      "excluded_branch_refs": [],
+      "branch_exclusion_reasons": []
+    },
+    {
+      "candidate_id": "cand_353c6d0b915f11c20788",
+      "decision": "reject",
+      "reason": "Bu yalnızca س م و köküne ait QAC occurrence kaydıdır; bağımsız facet, yerel tetikleyici veya okuyucu getirisi kurmaz.",
+      "failed_edge": "no_changed_reading_or_reader_payoff",
+      "accepted_finding_refs": [],
+      "duplicate_of": null,
+      "excluded_branch_refs": [],
+      "branch_exclusion_reasons": []
+    },
+    {
+      "candidate_id": "cand_59d76ebb0fb3cf746c5e",
+      "decision": "reject",
+      "reason": "Bu yalnızca ء ل ه köküne ait QAC occurrence kaydıdır; özel ad ve worship baskısı ayrı dilsel bulgularda zaten değerlendirilmiştir.",
+      "failed_edge": "no_changed_reading_or_reader_payoff",
+      "accepted_finding_refs": [],
+      "duplicate_of": null,
+      "excluded_branch_refs": [],
+      "branch_exclusion_reasons": []
+    },
+    {
+      "candidate_id": "cand_2e4a10b0c79321d62da2",
+      "decision": "reject",
+      "reason": "Bu yalnızca ر ح م köküne ait QAC occurrence kaydıdır; merhamet, biçim ve kök baskıları ayrı bulgularda ele alınmıştır.",
+      "failed_edge": "no_changed_reading_or_reader_payoff",
+      "accepted_finding_refs": [],
+      "duplicate_of": null,
+      "excluded_branch_refs": [],
+      "branch_exclusion_reasons": []
+    }
+  ],
+  "scope_referrals": [],
+  "new_findings": [],
+  "accepted_findings": [
+    {
+      "finding_ref": "micro:f001-opening-bound-act",
+      "candidate_ids": [
+        "cand_1c46d52273a24776b639",
+        "cand_ba2e80731a21e085717f",
+        "cand_d9c0b1b4fdb4684a48d0"
+      ],
+      "proposal_keys": [],
+      "title": "Bağlı açılış edatı örtük eylemi isim üzerinden yönlendirir",
+      "claim": "بِ, açık bir fiil bildirmeden açılışı bağlı bir ilişki olarak kurar; okurun başlama, okuma veya çağırma eylemi سْمِ üzerinden Allah'a yönelir.",
+      "mechanism": "Edatın ismi yönetmesi, formülleşmiş ilk vuruş ve yerel sözdizimsel elipsis.",
+      "reader_payoff": "Okur, düz çevirideki adıyla ifadesinin arkasında açıkça söylenmeyen ama yapı tarafından yönlendirilen bir eylem bulunduğunu fark eder.",
+      "containment": "Araç, yer, eşlik ve bağlanma aralığı tek bir bağlı açılış ilişkisi olarak tutulur; dört ayrı önerme veya bağımsız cümle kurulmaz.",
+      "support_ids": [
+        "sup_0269958b2367af9c5e43",
+        "sup_86c91a923c49bc88a942",
+        "sup_a9711d331c8ab9ebfd32",
+        "sup_db7bbf7d31cf15bf9543"
+      ],
+      "branch_refs": [],
+      "connection_refs": [],
+      "contact_refs": [],
+      "branch_contributions": [],
+      "epistemic_status": "qualified"
+    },
+    {
+      "finding_ref": "micro:f002-name-construct",
+      "candidate_ids": [
+        "cand_39aa3d63b7af231e1d7f",
+        "cand_231d00f4806e5125e785"
+      ],
+      "proposal_keys": [],
+      "title": "İsim, ilahî referente bağlanan soyut designationdır",
+      "claim": "سْمِ serbest bir etiket değildir; açılış edatının yönettiği isim, sağındaki ilahî özel adla konstrüksiyon kurarak başlangıç eylemini adlandırılmış referente taşır.",
+      "mechanism": "Sol edat yönetimi, sağ konstrüksiyon bağı ve geniş s-m-w alanı içinden ad anlamının yerel seçimi.",
+      "reader_payoff": "Okur, ismi nötr bir sözlük etiketi olarak değil, açılışı Allah'a ulaştıran ilişkisel araç olarak anlar.",
+      "containment": "Yerel anlam adlandırmadır; gök, fiziksel yükselme, av, rekabet ve diğer s-m-w dalları etkinleştirilmez.",
+      "support_ids": [
+        "sup_0d8b07eb431a21708089",
+        "sup_ba54357b33ac2f1cbc46",
+        "sup_8e572e4e186ddeacaa5c"
+      ],
+      "branch_refs": [
+        "root_000745/B005"
+      ],
+      "connection_refs": [],
+      "contact_refs": [
+        "micro:c-ism-name"
+      ],
+      "branch_contributions": [
+        {
+          "branch_ref": "root_000745/B005",
+          "facet_id": "F001",
+          "distinctive_facet": "Ad, bir varlığı tanıtan ve ondan söz etmeyi sağlayan söz veya anlamdır.",
+          "surface_carrier": "سْمِ",
+          "independent_anchor": "İsmin edat tarafından yönetilmesi ve Allah'la konstrüksiyon kurması.",
+          "contribution": "Dal, yerel ismin bağımsız etiket değil, belirli referenti tanıtan ve açılış eylemini ona taşıyan designation olduğunu açıklar.",
+          "boundary": "Ad verme eylemi, adaşlık ve diğer kök dalları bu tekil konstrüksiyondan çıkarılmaz."
+        }
+      ],
+      "epistemic_status": "supported"
+    },
+    {
+      "finding_ref": "micro:f003-name-mercy-hinge",
+      "candidate_ids": [
+        "cand_a73536c6f1f30d661198"
+      ],
+      "proposal_keys": [],
+      "title": "Designation, Allah adından merhamet zincirine geçen menteşedir",
+      "claim": "سْمِ, بِ ile başlayan bağlı ilişkiyi Allah'ın özel adına ve oradan iki merhamet sıfatına geçirir; bu yüzden formula içinde izole bir isim değildir.",
+      "mechanism": "İsmin konstrüksiyon bağı ve sağındaki özel ad-sıfat zinciri.",
+      "reader_payoff": "Okur, formülü edat, isim, Allah ve merhamet sıfatları arasında tek yönlü bir akış olarak izler.",
+      "containment": "Bu yapısal menteşedir; açık ad verme eylemi veya genel adlandırma teorisi ileri sürülmez.",
+      "support_ids": [
+        "sup_0d8b07eb431a21708089",
+        "sup_4a6a06dc50a4443bda26"
+      ],
+      "branch_refs": [
+        "root_000745/B005"
+      ],
+      "connection_refs": [],
+      "contact_refs": [
+        "micro:c-ism-hinge"
+      ],
+      "branch_contributions": [
+        {
+          "branch_ref": "root_000745/B005",
+          "facet_id": "F001",
+          "distinctive_facet": "Ad, bir varlığı tanıtan ve ondan söz etmeyi sağlayan söz veya anlamdır.",
+          "surface_carrier": "سْمِ",
+          "independent_anchor": "İsmin hemen ardından Allah ve iki belirli merhamet sıfatının gelmesi.",
+          "contribution": "Adlandırma dalı, ismin Allah'ı göstererek merhamet sıfatlarının referentini hazırlamasını açıklar.",
+          "boundary": "Bu bağlantı adlandırma işlevindedir; ad verme, adaşlık veya başka özel ad kalıpları eklenmez."
+        }
+      ],
+      "epistemic_status": "supported"
+    },
+    {
+      "finding_ref": "micro:f004-name-raised-designation",
+      "candidate_ids": [
+        "cand_3de911178ef87a39e8e3"
+      ],
+      "proposal_keys": [],
+      "title": "Ad, referenti belirginleştiren yükseltilmiş designation baskısı taşır",
+      "claim": "سْمِ yerel olarak ad anlamında kalırken, s-m-w kökünün yükseltme ve belirginleştirme açıklaması designationın referenti sıradan bir etiketten daha seçik kıldığını düşündürür.",
+      "mechanism": "Yerel ad biçimi, belirli ilahî referentle konstrüksiyon ve kökün raise-the-designation açıklaması.",
+      "reader_payoff": "Okur, adlandırmanın yalnız göstermediğini; gösterdiği şeyi anılma ve ayırt edilme düzeyine çıkardığını fark eder.",
+      "containment": "Bu etimolojik ve semantik basınçtır; fiziksel yükselme, toplumsal şöhret veya genel yücelme anlamı değildir.",
+      "support_ids": [
+        "sup_0d8b07eb431a21708089",
+        "sup_46da0fbbee759728567b"
+      ],
+      "branch_refs": [
+        "root_000745/B005"
+      ],
+      "connection_refs": [],
+      "contact_refs": [
+        "micro:c-ism-raised"
+      ],
+      "branch_contributions": [
+        {
+          "branch_ref": "root_000745/B005",
+          "facet_id": "F005",
+          "distinctive_facet": "Kaynaklar adın kökenini, adı verilen şeyin anılmasını yükseltmesi ve onu belirgin kılmasıyla açıklar.",
+          "surface_carrier": "سْمِ",
+          "independent_anchor": "İsmin belirli ilahî ada bağlanması ve kök alanındaki raised-designation açıklaması.",
+          "contribution": "Dal, yerel adın referenti yükseltilmiş ve ayırt edilmiş biçimde sunma baskısını sağlar.",
+          "boundary": "Bu baskı ad anlamını renklendirir; bağımsız yükselme veya ün dalı etkin değildir."
+        }
+      ],
+      "epistemic_status": "exploratory"
+    },
+    {
+      "finding_ref": "micro:f005-name-variant-apparatus",
+      "candidate_ids": [
+        "cand_cf4f3a926ca2139c97f4"
+      ],
+      "proposal_keys": [],
+      "title": "Alternatif kök yönlendirmesi yerel anlamı kirletmeyen aparattır",
+      "claim": "Raporlanan alternatif kök yönlendirmesi, سْمِ için yerel s-m-w hizasını değiştirmez; yalnızca ad dalının sky-heavy komşular arasındaki seçimini karşıtlıkla keskinleştirir.",
+      "mechanism": "Yerel morfolojik kök hizası ile raporlanan alternatif routing arasındaki ayrım.",
+      "reader_payoff": "Okur, aparattaki alternatif baskıyı gerçek yerel anlam sanmadan adlandırma seçiminin neden belirgin olduğunu görür.",
+      "containment": "Alternatif routing yalnız karşılaştırmalı aparattır; yerel sözcük başka köke veya başka dala taşınmaz.",
+      "support_ids": [
+        "sup_0d8b07eb431a21708089",
+        "sup_3904c7864e7ec72fc6b8"
+      ],
+      "branch_refs": [],
+      "connection_refs": [],
+      "contact_refs": [],
+      "branch_contributions": [],
+      "epistemic_status": "qualified"
+    },
+    {
+      "finding_ref": "micro:f006-divine-name-anchor",
+      "candidate_ids": [
+        "cand_94927b25c0fed4865f58",
+        "cand_fa521af54ad04516cae8"
+      ],
+      "proposal_keys": [],
+      "title": "Allah özel adı merhamet sıfatlarının tekil başvuru noktasıdır",
+      "claim": "ٱللَّهِ, konstrüksiyonu tamamlayan belirli ve tekil ilahî özel addır; ardından gelen iki merhamet sıfatı bu ada bağlı genitif nitelemeler olarak okunur.",
+      "mechanism": "Genitif konstrüksiyon, özel adın tekilliği ve takip eden sıfatların aynı referente bağlanması.",
+      "reader_payoff": "Okur, merhameti serbest duran bir kalite değil, belirli ve tekil Allah adına bağlı bir niteleme zinciri olarak kavrar.",
+      "containment": "Yerel özel ad ve genitif bağ korunur; genel tanrı tür adı, ant veya doğrudan seslenme kalıbı ithal edilmez.",
+      "support_ids": [
+        "sup_02991ac40aeaac854e72",
+        "sup_9616286c79c43182bed8",
+        "sup_f7725957d9a8549cb393"
+      ],
+      "branch_refs": [
+        "root_000047/B002"
+      ],
+      "connection_refs": [],
+      "contact_refs": [
+        "micro:c-allah-name"
+      ],
+      "branch_contributions": [
+        {
+          "branch_ref": "root_000047/B002",
+          "facet_id": "F001",
+          "distinctive_facet": "Dalın merkezinde, Yaratıcıyı başkalarından ayırarak gösteren ve yalnız ona özgü sayılan özel ad bulunur.",
+          "surface_carrier": "ٱللَّهِ",
+          "independent_anchor": "Belirli tekil özel adın genitif konstrüksiyonda bulunması ve merhamet sıfatlarını yönetmesi.",
+          "contribution": "Özel ad dalı, yerel Allah biçiminin genel bir ilah adı değil, tekil ilahî referenti sabitleyen ad olduğunu açıklar.",
+          "boundary": "Özel adın ant, seslenme, şaşma veya kısaltılmış kullanım biçimleri bu occurrencea taşınmaz."
+        }
+      ],
+      "epistemic_status": "supported"
+    },
+    {
+      "finding_ref": "micro:f007-divine-name-recurrence",
+      "candidate_ids": [
+        "cand_4b0304416b7855a41e73"
+      ],
+      "proposal_keys": [],
+      "title": "Özel ad konstrüksiyon içinde yoğunlaşır ve sonraki övgüye döner",
+      "claim": "ٱللَّهِ, açılış konstrüksiyonunda sesçe sıkışmış birim olarak duyulur ve aynı adın sonraki övgü çerçevesinde dönüşüyle referansı taşır.",
+      "mechanism": "Konstrüksiyon liaisonı, ses yoğunluğu ve sure içi özel ad tekrarı.",
+      "reader_payoff": "Okur, açılışta duyulan özel adın sonraki övgüde yeniden sabitlenerek formülü taşıdığını fark eder.",
+      "containment": "Bu ses ve tekrar ilişkisi yeni bir anlam veya bağımsız cümle kurmaz.",
+      "support_ids": [
+        "sup_106108c5d58aa80ed91f",
+        "sup_f7725957d9a8549cb393"
+      ],
+      "branch_refs": [
+        "root_000047/B002"
+      ],
+      "connection_refs": [],
+      "contact_refs": [
+        "micro:c-allah-recurrence"
+      ],
+      "branch_contributions": [
+        {
+          "branch_ref": "root_000047/B002",
+          "facet_id": "F001",
+          "distinctive_facet": "Dalın merkezinde, Yaratıcıyı başkalarından ayırarak gösteren ve yalnız ona özgü sayılan özel ad bulunur.",
+          "surface_carrier": "ٱللَّهِ",
+          "independent_anchor": "Özel adın bağlı ses birimi olarak duyulması ve sonraki övgüde geri dönmesi.",
+          "contribution": "Özel ad, yalnız referent göstermekle kalmaz; ses ve tekrar yoluyla övgü dizisinin sabit merkezini oluşturur.",
+          "boundary": "Bu dönüş ant, seslenme veya başka özel ad kalıplarının etkinleştiği anlamına gelmez."
+        }
+      ],
+      "epistemic_status": "supported"
+    },
+    {
+      "finding_ref": "micro:f008-divine-worship-pressure",
+      "candidate_ids": [
+        "cand_3a84a87d7339e33a9ee4"
+      ],
+      "proposal_keys": [],
+      "title": "İlahî özel ad tapınılan referent baskısını toplar",
+      "claim": "ٱللَّهِ, yerel olarak özel ad olarak kalırken, tapınmanın yöneldiği ilahî varlık ve huşu-özlem basıncını çevresinde toplar; ayet açık bir tapınma eylemi bildirmez.",
+      "mechanism": "İlahî özel ad biçimi, bağlı açılış ve kökün tapınılan-varlık alanı.",
+      "reader_payoff": "Okur, Allah adının yalnızca kimlik etiketi değil, tapınmanın yöneldiği referenti de taşıyan yoğun bir ad olduğunu görür.",
+      "containment": "Tapınılan varlık baskısı korunur; açık tapınma fiili, ettirgen kullanım, şaşkınlık veya tarihsel güneş örneği kurulmaz.",
+      "support_ids": [
+        "sup_ce242bd892b0c6e51152",
+        "sup_f7725957d9a8549cb393"
+      ],
+      "branch_refs": [
+        "root_000047/B001"
+      ],
+      "connection_refs": [],
+      "contact_refs": [
+        "micro:c-allah-worship"
+      ],
+      "branch_contributions": [
+        {
+          "branch_ref": "root_000047/B001",
+          "facet_id": "F002",
+          "distinctive_facet": "Eylemden türeyen varlık anlamı, kendisine tapınılan varlığı veya tapınma konusu sayılan nesneyi gösterir.",
+          "surface_carrier": "ٱللَّهِ",
+          "independent_anchor": "Özel adın ilahî referent olarak bağlı açılışta ve merhamet sıfatlarıyla kullanılması.",
+          "contribution": "Dal, Allah adının tapınmanın yöneldiği varlık baskısını taşımasını açıklar.",
+          "boundary": "Tapınma eylemi veya tapınılır kılma işlemi yerel olarak söylenmez."
+        }
+      ],
+      "epistemic_status": "exploratory"
+    },
+    {
+      "finding_ref": "micro:f009-rahman-attachment",
+      "candidate_ids": [
+        "cand_2189a4173d3d3e00fd4b"
+      ],
+      "proposal_keys": [],
+      "title": "İlk merhamet sıfatı Allah'a bağlı niteleme olarak açılır",
+      "claim": "ٱلرَّحْمَٰنِ, Allah'a bağlı belirli genitif sıfattır; rahm kökünün yumuşaklık ve koruyucu yakınlık baskısı böylece adsız bir kalite değil, ilahî adın niteliği olur.",
+      "mechanism": "Belirlilik, genitif apposition ve Allah adına doğrudan sıfat bağlanması.",
+      "reader_payoff": "Okur, ilk merhamet sözünün serbest bir duygu adı değil, belirli ilahî referenti niteleyen köklü bir sıfat olduğunu fark eder.",
+      "containment": "Kökün insanî duygu alanı yalnız renk olarak kalır; insan öznesi, karşılıklı merhamet veya dilek kalıbı eklenmez.",
+      "support_ids": [
+        "sup_1675ff53e3dda1fc6912",
+        "sup_4f18b826f6b812c5f5c8"
+      ],
+      "branch_refs": [
+        "root_000552/B001"
+      ],
+      "connection_refs": [],
+      "contact_refs": [
+        "micro:c-rahm-tenderness"
+      ],
+      "branch_contributions": [
+        {
+          "branch_ref": "root_000552/B001",
+          "facet_id": "F001",
+          "distinctive_facet": "Bir başkasının durumu karşısında yüreğin yumuşaması, ona acıma ve içten yakınlık duyma çekirdeği oluşturur.",
+          "surface_carrier": "ٱلرَّحْمَٰنِ",
+          "independent_anchor": "Kökün belirli ilahî genitif sıfat olarak Allah'a bağlanması.",
+          "contribution": "Dal, merhamet sıfatında yumuşaklık ve koruyucu yakınlık çekirdeğinin korunmasını sağlar.",
+          "boundary": "Bu kök rengi ilahî sıfata uygulanır; insanın başka bir insana acıdığı sahne kurulmaz."
+        }
+      ],
+      "epistemic_status": "qualified"
+    },
+    {
+      "finding_ref": "micro:f010-rahman-expansive",
+      "candidate_ids": [
+        "cand_846cad2f7d38c7dae4f1"
+      ],
+      "proposal_keys": [],
+      "title": "İlk merhamet biçimi alanı genişletir",
+      "claim": "ٱلرَّحْمَٰنِ, ikili merhamet dizisinin ilk üyesi olarak ilahî esirgemeyi geniş ve kuşatıcı bir alan halinde açar; sonraki biçim bu alanı düz tekrara bırakmaz.",
+      "mechanism": "İlk sıfatın biçimsel kuvveti, Allah'a genitif bağlılık ve hemen sonraki aynı-kök biçimi.",
+      "reader_payoff": "Okur, merhamet dizisinin önce kapsamı genişlettiğini, sonra başka bir nitelikle tamamlandığını görür.",
+      "containment": "İlahî genişletme korunur; bağımsız bir yüklem, insanî duygu veya genel rahm kökü dalları aktarılmaz.",
+      "support_ids": [
+        "sup_4f18b826f6b812c5f5c8",
+        "sup_990bff7b47282b7f417a"
+      ],
+      "branch_refs": [
+        "root_000552/B001"
+      ],
+      "connection_refs": [],
+      "contact_refs": [
+        "micro:c-rahm-expansive"
+      ],
+      "branch_contributions": [
+        {
+          "branch_ref": "root_000552/B001",
+          "facet_id": "F005",
+          "distinctive_facet": "Tanrı hakkında kullanıldığında esirgemenin genişliği ve yaratılmışlara iyilik olarak ulaşması belirginleşir.",
+          "surface_carrier": "ٱلرَّحْمَٰنِ",
+          "independent_anchor": "İlk ve geniş kuvvetli merhamet biçiminin Allah'a bağlı sıfat olarak gelmesi.",
+          "contribution": "Dal, ilk sıfatın ilahî esirgemeyi geniş alana yayan özel uygulamasını açıklar.",
+          "boundary": "Bu özel ilahî uygulama, insanî merhamet veya genel olumlu sıfat anlamına indirgenmez."
+        }
+      ],
+      "epistemic_status": "supported"
+    },
+    {
+      "finding_ref": "micro:f011-rahman-sound",
+      "candidate_ids": [
+        "cand_9685004bc52b37b5f3cb"
+      ],
+      "proposal_keys": [],
+      "title": "İlk merhamet sıfatı bağlı çift kapanışın ses üyesidir",
+      "claim": "ٱلرَّحْمَٰنِ, belirlilik, çift duyulan başlangıç ve ikili cadence nedeniyle son merhamet sözüyle birlikte bağlı bir kapanış birimi olarak işitilir.",
+      "mechanism": "Belirli artikel, şeddeli başlangıç, liaison ve art arda gelen kök tekrarının ses yoğunluğu.",
+      "reader_payoff": "Okur, ilk merhamet sözünün tek başına kopuk bir niteleme değil, ritmik olarak son söze bağlanan bir üye olduğunu fark eder.",
+      "containment": "Ses bağlanması ayrı bir sözlük anlamı değildir; yerel genitif sıfat analizini değiştirmez.",
+      "support_ids": [
+        "sup_4f18b826f6b812c5f5c8",
+        "sup_5e4026cbb17c38d001fa"
+      ],
+      "branch_refs": [],
+      "connection_refs": [],
+      "contact_refs": [],
+      "branch_contributions": [],
+      "epistemic_status": "supported"
+    },
+    {
+      "finding_ref": "micro:f012-rahman-surah-return",
+      "candidate_ids": [
+        "cand_15645155a921e968fbc4"
+      ],
+      "proposal_keys": [],
+      "title": "İlk merhamet strandı sure çerçevesinde yeniden belirir",
+      "claim": "İlk merhamet sıfatının strandı sure içinde yeniden dönerek açılıştaki formülü yalnız bırakmaz ve 1:2'de geliştirilen praise-frame ilişkisiyle anlamlı bir karşıtlık kurar.",
+      "mechanism": "Aynı sure içindeki dönüş ve yakın bağlamda farklı bir övgü ilişkisiyle karşılaştırma.",
+      "reader_payoff": "Okur, ilk merhamet sözünün yalnızca formül kalıbı değil, sure boyunca geri çağrılan bir semantic thread olduğunu görür.",
+      "containment": "Bu recurrence ve çerçeve ilişkisidir; yerel genitif apposition korunur ve başka ayetin sözdizimi bu occurrencea aktarılmaz.",
+      "support_ids": [
+        "sup_4f18b826f6b812c5f5c8",
+        "sup_ba63014c1294abaed965"
+      ],
+      "branch_refs": [],
+      "connection_refs": [],
+      "contact_refs": [],
+      "branch_contributions": [],
+      "epistemic_status": "supported"
+    },
+    {
+      "finding_ref": "micro:f013-womb-protective",
+      "candidate_ids": [
+        "cand_0d92dd869e87a9099286"
+      ],
+      "proposal_keys": [],
+      "title": "Rahm kökü merhamete koruyucu kap imgesi verir",
+      "claim": "Rahm kökünün döl yatağı ve ortak doğum kaynağı imgesi, ٱلرَّحْمَٰنِ ve ٱلرَّحِيمِ içinde merhameti kuşatan ve koruyan bir basınçla renklendirir; sözcükler literal organ adı değildir.",
+      "mechanism": "Kökün bedensel kaynak metaforu ile iki ilahî merhamet sıfatının yerel birlikteliği.",
+      "reader_payoff": "Okur, esirgemeyi yalnız dışarıdan verilen iyilik değil, içeriden koruyup kuşatan bir ilişki olarak duyabilir.",
+      "containment": "Metaforik kök baskısıdır; döl yatağı, soy bağı, akrabalık ve hastalık dalları yerel anlam diye sunulmaz.",
+      "support_ids": [
+        "sup_4f18b826f6b812c5f5c8",
+        "sup_dbb3006e444c60b8325c"
+      ],
+      "branch_refs": [
+        "root_000552/B002"
+      ],
+      "connection_refs": [],
+      "contact_refs": [
+        "micro:c-rahm-womb"
+      ],
+      "branch_contributions": [
+        {
+          "branch_ref": "root_000552/B002",
+          "facet_id": "F002",
+          "distinctive_facet": "Bedensel organın adı, aynı doğum kaynağından çıkmış olma düşüncesi üzerinden soy ilişkisine aktarılmıştır.",
+          "surface_carrier": "ٱلرَّحْمَٰنِ / ٱلرَّحِيمِ",
+          "independent_anchor": "Rahm kökünün bedensel kaynak imgesiyle ilahî merhamet sıfatlarının art arda kullanılması.",
+          "contribution": "Dal, merhametin koruyucu ve kuşatıcı kök imgesini literal organ anlamına geçmeden açıklar.",
+          "boundary": "Organ, akrabalık veya soy bağı bu ayette bağımsız referent değildir."
+        }
+      ],
+      "epistemic_status": "exploratory"
+    },
+    {
+      "finding_ref": "micro:f014-rahim-cadence",
+      "candidate_ids": [
+        "cand_2d0978cd3ad4a24e0f20"
+      ],
+      "proposal_keys": [],
+      "title": "Son merhamet sözü ritmik mührü vurur",
+      "claim": "ٱلرَّحِيمِ, ikili merhamet cadenceini tamamlayan son sözcüktür; ses örgüsü kapanışı mühürler ve aynı ending strandının 1:3'teki dönüşünü hazırlamış olur.",
+      "mechanism": "Son sözcük konumu, kök tekrarının ses etkisi ve sure içi aynı kapanışın dönüşü.",
+      "reader_payoff": "Okur, son merhamet sözünü yalnız anlamın son parçası değil, ayetin duyulan mührü olarak işitir.",
+      "containment": "Ses ve recurrence yapısaldır; yeni bir durak anlamı veya alternatif sözdizimi zorunlu kılınmaz.",
+      "support_ids": [
+        "sup_696cad80b84a282418b4",
+        "sup_6ef75f06d3884729980a"
+      ],
+      "branch_refs": [],
+      "connection_refs": [],
+      "contact_refs": [],
+      "branch_contributions": [],
+      "epistemic_status": "supported"
+    },
+    {
+      "finding_ref": "micro:f015-formula-completion",
+      "candidate_ids": [
+        "cand_4d462bc2882a3f01451d"
+      ],
+      "proposal_keys": [],
+      "title": "Son sıfat formulaı Allah adına bağlı biçimde tamamlar",
+      "claim": "ٱلرَّحِيمِ, önceki merhamet sıfatını belirleyen ve aynı Allah adına bağlı kalan son genitif niteleme olarak formülü tamamlar.",
+      "mechanism": "Sıfat zincirinin yerel eklenişi, son sözcük konumu ve özel adla ortak genitif bağ.",
+      "reader_payoff": "Okur, kapanışın bağımsız bir kalite eklemediğini; Allah adına bağlı merhamet zincirini tamamladığını görür.",
+      "containment": "Yerel apposition korunur; son sözcük bağımsız özne, yüklem veya ayrı referent yapılmaz.",
+      "support_ids": [
+        "sup_696cad80b84a282418b4",
+        "sup_a0459e602e39b3c6f314"
+      ],
+      "branch_refs": [],
+      "connection_refs": [],
+      "contact_refs": [],
+      "branch_contributions": [],
+      "epistemic_status": "supported"
+    },
+    {
+      "finding_ref": "micro:f016-mercy-scalar",
+      "candidate_ids": [
+        "cand_505f30bd726b25681f68"
+      ],
+      "proposal_keys": [],
+      "title": "Aynı kök tekrar yoluyla genişlikten etkin merhamete geçer",
+      "claim": "ٱلرَّحْمَٰنِ ile ٱلرَّحِيمِ aynı kökü yankılar; biçim değişikliği bu yankıyı düz eşanlamlılık olmaktan çıkarıp geniş merhametten etkin ve ulaşan merhamete doğru inceltir.",
+      "mechanism": "Aynı kök, bitişik konum ve biçimsel karşıtlığın scalar etkisi.",
+      "reader_payoff": "Okur, tekrarın redundant değil, anlamı ikinci bir merhamet niteliğine doğru rafine eden bir yapı olduğunu fark eder.",
+      "containment": "Bu iki sıfatın yerel semantic refinementıdır; iki ayrı ilahî isim veya insanî kullanım dizisi kurulmaz.",
+      "support_ids": [
+        "sup_5a2186ca53d4a45fa108",
+        "sup_696cad80b84a282418b4"
+      ],
+      "branch_refs": [
+        "root_000552/B001"
+      ],
+      "connection_refs": [],
+      "contact_refs": [
+        "micro:c-rahm-scalar"
+      ],
+      "branch_contributions": [
+        {
+          "branch_ref": "root_000552/B001",
+          "facet_id": "F002",
+          "distinctive_facet": "Bu iç yöneliş, acınan kişiyi esirgemeyi ve ona iyilikte bulunmayı gerektiren etkin bir sonuç taşır.",
+          "surface_carrier": "ٱلرَّحِيمِ",
+          "independent_anchor": "İkinci biçimin aynı kök içinde ilk biçimle karşılaştırılması.",
+          "contribution": "Dal, merhamet kökünün etkin esirgeme ve iyilik sonucu olarak okunmasını sağlar.",
+          "boundary": "Etkin sonuç baskısı korunur; belirli bir insan alıcısı veya karşılıklı davranış kalıbı eklenmez."
+        }
+      ],
+      "epistemic_status": "supported"
+    },
+    {
+      "finding_ref": "micro:f017-shareable-mercy",
+      "candidate_ids": [
+        "cand_69fbec494e02bcd3e720"
+      ],
+      "proposal_keys": [],
+      "title": "Son merhamet biçimi başka faillere de uygulanabilir, fakat burada ilahî addadır",
+      "claim": "ٱلرَّحِيمِ biçimi sözlük alanında Allah'a münhasır değildir ve başka bir failin etkin merhametini de niteleyebilir; bu occurrenceda genitif bağ mevcut referenti Allah'ta tutar.",
+      "mechanism": "Biçimin paylaşılabilir lexical reachi ile yerel özel ad bağı arasındaki karşıtlık.",
+      "reader_payoff": "Okur, son sıfatın genel merhamet kapasitesini kaybetmeden burada neden ilahî özel niteleme olarak kaldığını görür.",
+      "containment": "Başka faillere uygulanan kullanım yalnız sınır karşıtlığıdır; mevcut ayete insanî referent veya peygamber örneği taşınmaz.",
+      "support_ids": [
+        "sup_59953667b2f192780589",
+        "sup_696cad80b84a282418b4"
+      ],
+      "branch_refs": [],
+      "connection_refs": [],
+      "contact_refs": [],
+      "branch_contributions": [],
+      "epistemic_status": "qualified"
+    },
+    {
+      "finding_ref": "micro:f018-enacted-closure",
+      "candidate_ids": [
+        "cand_e74130c63d851de1a020"
+      ],
+      "proposal_keys": [],
+      "title": "Kapanış, merhameti kalıcı ve gerçekleşen iyilikte sabitler",
+      "claim": "ٱلرَّحِيمِ ayetin son semantic unitı olarak merhameti yalnız geniş bir alan değil, istikrarlı ve fiilen ulaşan esirgeme niteliği halinde sabitler.",
+      "mechanism": "Son sözcük konumu, biçim karşıtlığı ve aynı Allah adına bağlı sıfat zincirinin kapanışı.",
+      "reader_payoff": "Okur, ayetin sonunun yalnız merhameti yinelemediğini; onu gerçekleşen ve kalıcı bir nitelikte durdurduğunu fark eder.",
+      "containment": "Bu yerel ilahî sıfat kapanışıdır; insanî kullanım veya ayrı bir eylem sahnesi getirilmez.",
+      "support_ids": [
+        "sup_5a43ccd2baac6c45ad04",
+        "sup_696cad80b84a282418b4"
+      ],
+      "branch_refs": [
+        "root_000552/B001"
+      ],
+      "connection_refs": [],
+      "contact_refs": [
+        "micro:c-rahm-enacted"
+      ],
+      "branch_contributions": [
+        {
+          "branch_ref": "root_000552/B001",
+          "facet_id": "F002",
+          "distinctive_facet": "Bu iç yöneliş, acınan kişiyi esirgemeyi ve ona iyilikte bulunmayı gerektiren etkin bir sonuç taşır.",
+          "surface_carrier": "ٱلرَّحِيمِ",
+          "independent_anchor": "Son sıfatın Allah'a bağlı zinciri kapatması ve biçimsel olarak ikinci, belirleyici üye olması.",
+          "contribution": "Dal, son merhamet sıfatının iyilik ve esirgeme sonucuna inen etkin yönünü açıklar.",
+          "boundary": "Etkinlik ve kalıcılık yerel niteleme baskısıdır; belirli bir muhatap veya insanî eylem eklenmez."
+        }
+      ],
+      "epistemic_status": "supported"
+    },
+    {
+      "finding_ref": "micro:f019-case-variant",
+      "candidate_ids": [
+        "cand_3f864ad15356ff2ac1aa"
+      ],
+      "proposal_keys": [],
+      "title": "Varyant durum ekleri yerel genitif seçimini görünür kılar",
+      "claim": "Raporlanan alternatif durum ekleri merhamet çiftini yüklem veya nesne gibi yeniden kurabilir; mevcut biçimler ise iki sözcüğü Allah'a bağlı genitif sıfat zincirinde tutar.",
+      "mechanism": "Varyant morfoloji ile yerel genitif apposition arasındaki canlı sözdizimsel karşıtlık.",
+      "reader_payoff": "Okur, mevcut eklerin yalnız biçimsel ayrıntı olmadığını; sıfat çiftinin Allah'a nasıl bağlandığını belirlediğini görür.",
+      "containment": "Varyantlar apparatus olarak kalır; yerel genitif okuma değiştirilmez.",
+      "support_ids": [
+        "sup_4f18b826f6b812c5f5c8",
+        "sup_6ead5cbdfb87cc7d1f19"
+      ],
+      "branch_refs": [],
+      "connection_refs": [],
+      "contact_refs": [],
+      "branch_contributions": [],
+      "epistemic_status": "qualified"
+    },
+    {
+      "finding_ref": "micro:f020-pause-bridge",
+      "candidate_ids": [
+        "cand_d37a7bc52f828cc7df3e"
+      ],
+      "proposal_keys": [],
+      "title": "Durak ve varyant köprüsü sonraki övgüye basınç verir",
+      "claim": "Durak ve durum varyantları son merhamet sıfatını sonraki övgü çerçevesine köprüleyebilir veya özel bir odak gibi duyurabilir; yerel biçim yine genitif kapanıştır.",
+      "mechanism": "Recitational pause, reported case variation ve ayet sonundaki bağlı cadence.",
+      "reader_payoff": "Okur, kapanışın sonraki övgüye geçiş için sesçe açık bir eşik oluşturduğunu, fakat gramerin hâlâ kapalı kaldığını fark eder.",
+      "containment": "Köprüleme yalnız recitational ve apparatus baskısıdır; sonraki yapının sözdizimi geriye taşınmaz.",
+      "support_ids": [
+        "sup_696cad80b84a282418b4",
+        "sup_f5a6078ed810bdf095da"
+      ],
+      "branch_refs": [],
+      "connection_refs": [],
+      "contact_refs": [],
+      "branch_contributions": [],
+      "epistemic_status": "qualified"
+    }
+  ],
+  "friction_notes": [
+    {
+      "issue": "HFT payloadı yok ve assigned_record_count sıfır.",
+      "handling": "Atanmış HFT kaydı bulunmadığı için ek HFT satırı üretilmedi; bu durum aday görünürlüğünü bastıran bir karar olarak kullanılmadı."
+    },
+    {
+      "issue": "Focus kimliği 29:0 iken supplied Arabic ve linguistic source 1:1 basmala olarak geliyor.",
+      "handling": "Packet kimliği korundu; yüzey ve recurrence okumaları supplied basmala bağlamında, ayah_ref değiştirilmeden işlendi."
+    },
+    {
+      "issue": "Allah kökündeki worship ve longing baskısı ile yerel özel ad arasında kapsam farkı var.",
+      "handling": "Tapınılan referent baskısı daraltılarak korundu; açık tapınma eylemi ve bağımsız özlem önermesi kurulmadı."
+    },
+    {
+      "issue": "Rahm kökünün kinship ve womb dalları merhamet sıfatlarının altında ikincil imge olarak beliriyor.",
+      "handling": "Yalnız koruyucu kaynak-kap imgesi contact olarak korundu; literal organ, soy bağı, karşılıklılık ve hastalık dalları no_independent_trigger bırakıldı."
+    },
+    {
+      "issue": "Case, pause ve root-routing varyantları yerel okumayı zorlayabilir.",
+      "handling": "Her biri görünür apparatus bulgusu olarak tutuldu; yerel genitif, s-m-w ad seçimi ve özel ad analizi varyantlar tarafından geçersiz kılınmadı."
+    },
+    {
+      "issue": "Bağlantı registrysi boş olmasına rağmen supplied supportlar 1:2 ve 1:3 recurrence bilgisi taşıyor.",
+      "handling": "Bu recurrence bulguları local word-analysis evidence olarak korundu; ayrı connection bulgusu veya connection_refs üretilmedi."
+    }
+  ]
+}
