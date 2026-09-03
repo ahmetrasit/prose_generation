@@ -15,11 +15,12 @@ prepare
   -> verify
 ```
 
-Discovery and composition are two planned turns, not a repair cycle. There are
-no reconciliation, repair, or automated retry stages. The first-turn discovery
-is persisted and hash-bound before the composition prompt is created, so a cold
-replacement may perform the second turn when the original lane agent is no
-longer available.
+Discovery and composition are two planned turns, not an open-ended repair
+cycle. There are no reconciliation or automated retry stages. If a written
+agent output fails mechanical validation, send exactly one detailed repair
+request to the same live agent that wrote it. If that one repair attempt still
+does not produce a validating artifact, accept the output as-is and continue
+operator handling from that state.
 
 ## 1. Preflight
 
@@ -105,8 +106,13 @@ one JSON object to:
 _commentary/v5/raw/<analysis-id>/sNNN/S_A/<lane>.discovery.json
 ```
 
-Do not edit, normalize, repair, supplement, or semantically judge these files.
-Wait until all three agents have finished before advancing the unit.
+Do not edit, normalize, supplement, or semantically judge these files yourself.
+Wait until all three agents have finished before advancing the unit. If
+`advance` rejects a discovery artifact mechanically, send one repair follow-up
+with the exact validation details to the same lane agent that wrote it. Do not
+spawn a replacement agent for a failed output. If the repaired artifact still
+fails, accept that artifact as-is and continue operator handling from that
+state.
 
 ### Discovery Duties
 
@@ -172,9 +178,11 @@ inventory without requiring the agent to echo its hashes or payloads. This is
 mechanical traceability; the workflow does not claim to prove semantic
 entailment.
 
-Do not turn a malformed response into a repair conversation. The workflow stops
-the unit. Preserve or relocate the invalid artifact, diagnose the contract
-failure, and deliberately replace it before continuing.
+If a malformed contribution stops the unit, diagnose the contract failure and
+send exactly one repair follow-up, with the validation details, to the same lane
+agent that wrote the contribution. Do not spawn a replacement agent for a failed
+output. If that one repair attempt still fails validation, accept the output
+as-is and continue operator handling from that state.
 
 ## 4. Canonical First Pass
 
@@ -233,7 +241,8 @@ updating its quotes and phase.
 
 If the canonical conversation is lost, use the returned
 `restart_if_agent_unavailable` canonical prompt and regenerate the complete
-first-pass set before editorial work. Do not invent an editorial repair stage.
+first-pass set before editorial work. Do not invent an open-ended editorial
+repair stage.
 
 ## 6. Complete And Verify
 
@@ -252,11 +261,11 @@ python3 _commentary/v5/workflow.py verify \
 
 Verification is mechanical. It rechecks fixed paths, source and package hashes,
 context membership/projections, implementation and prompt hashes, discovery and
-composition identities, first-pass lineage, all final files, landing coverage,
-compact provenance placement, byte budgets, internal-ID leakage in reader
-prose, and obvious English in all human-authored Turkish output text. It checks
-the declared source-to-passage mapping mechanically; it does not adjudicate
-semantic entailment or interpretive quality.
+composition artifact lineage, first-pass lineage, all final files, landing
+coverage, compact provenance placement, byte budgets, internal-ID leakage in
+reader prose, and obvious English in all human-authored Turkish output text. It
+checks the declared source-to-passage mapping mechanically; it does not
+adjudicate semantic entailment or interpretive quality.
 
 Inspect the complete Git diff before committing the unit.
 
@@ -310,8 +319,11 @@ A failed unit does not suppress ready handoffs for other batch units. A
   replacing generated inputs.
 - `--force-input` changes generated input only. It never edits raw/editorial
   agent artifacts.
-- Do not create attempt counters, repair prompts, reconciliation ledgers,
-  session registries, or hidden worktrees.
-- Do not modify agent outputs in place.
+- Do not create reconciliation ledgers, session registries, hidden worktrees, or
+  open-ended repair loops.
+- Only the same live agent may repair its own failed output, and only once per
+  failed artifact. The repair request must include the concrete validation
+  details. If the single repair attempt fails, accept the output as-is.
+- Do not modify agent outputs yourself.
 - Treat partial work as ordinary Git-visible state; V5 has no second history
   mechanism.

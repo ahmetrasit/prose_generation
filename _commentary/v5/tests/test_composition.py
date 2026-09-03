@@ -391,33 +391,19 @@ class ProjectionTests(unittest.TestCase):
                 ["s100=100:1", "external=17:50"],
                 ["17:50"],
             )
-            identity = composition.validate_unit_bundle(
-                bundle, expected_ref="100:1"
-            )
-            identity.update({
-                "canonical_sha256": composition.canonical_sha256(bundle),
-                "bytes": source_path.stat().st_size,
-            })
             row = analysis.context_rows("17:50")[0]
 
-            candidate, supports, inventory = composition.project_context_unit(
-                composition=analysis,
-                focus_ref="17:50",
+            projected = composition.project_context_unit(
                 context_row=row,
-                source_path=source_path,
                 bundle=bundle,
                 focus_bundle=numbered_bundle("17:50"),
-                identity=identity,
-                projects_root=projects_root,
             )
 
-        self.assertEqual(len(supports), 1)
-        support = supports[0]
-        self.assertEqual(
-            support["source_type"], "selected_context_native_depth"
-        )
-        self.assertEqual(support["role"], "context_unit_native_depth_evidence")
-        payload = support["payload"]
+        self.assertEqual(projected["context_kind"], "ordered_context_ayah")
+        self.assertFalse(projected["focus_eligible"])
+        self.assertNotIn("candidate_id", projected)
+        self.assertNotIn("support_ids", projected)
+        payload = projected["evidence"]
         self.assertEqual(payload["protocol"], composition.CONTEXT_MEMBER_PROTOCOL)
         self.assertEqual(payload["context_order"], ["100:1"])
         self.assertEqual(payload["context_ayat"], [{
@@ -459,12 +445,9 @@ class ProjectionTests(unittest.TestCase):
             "must_not_survive",
         ):
             self.assertNotIn(forbidden, projected_text)
-        self.assertEqual(candidate["anchor_refs"], ["100:1"])
-        self.assertEqual(inventory["lane"], "global")
-        self.assertEqual(
-            inventory["context_projection_sha256"],
-            composition.canonical_sha256(payload),
-        )
+        self.assertEqual(projected["lane"], "global")
+        self.assertNotIn("source_file", projected)
+        self.assertNotIn("context_projection_sha256", projected)
 
     def test_projection_omits_context_cue_for_a_focus_root(self) -> None:
         context = numbered_bundle("100:1")

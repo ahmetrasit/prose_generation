@@ -177,7 +177,7 @@ every manifest load.
 
 `verify` rechecks paths, byte counts, raw and canonical hashes, source identity,
 package manifests and builder hashes, context projections, implementation and
-prompt hashes, discovery/composition identities, editorial input hashes, fixed
+prompt hashes, discovery/composition artifact lineage, editorial input hashes, fixed
 output names, declared landing-map coverage, compact provenance placement,
 artifact size budgets, internal-ID leakage in prose, and obvious English in all
 human-authored Turkish output text.

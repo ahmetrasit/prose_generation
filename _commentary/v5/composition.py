@@ -808,117 +808,28 @@ def context_member_payload(
 
 def project_context_unit(
     *,
-    composition: Composition,
-    focus_ref: str,
     context_row: dict[str, Any],
-    source_path: Path,
     bundle: dict[str, Any],
     focus_bundle: dict[str, Any],
-    identity: dict[str, Any],
-    projects_root: Path,
-) -> tuple[dict[str, Any], list[dict[str, Any]], dict[str, Any]]:
-    """Project one full bundle at native non-focus context depth."""
+) -> dict[str, Any]:
+    """Project one selected ayah as evidence, never as a focus candidate."""
     context_ref = context_row["ref"]
     lane = context_row["lane"]
-    try:
-        stable_source_file = str(
-            source_path.resolve(strict=False).relative_to(
-                projects_root.resolve(strict=False)
-            )
-        )
-    except ValueError:
-        stable_source_file = str(source_path)
-    unit_provenance = {
-        **identity,
-        "source_file": stable_source_file,
-        "segment_id": context_row["segment_id"],
-        "composition_order": context_row["composition_order"],
-    }
-    payload = context_member_payload(bundle, focus_bundle=focus_bundle)
-    projection_sha256 = canonical_sha256(payload)
-    support_id = _stable_id("sup_ctx", {
-        "context_ref": context_ref,
-        "source_bundle_canonical_sha256": identity["canonical_sha256"],
-        "projection_sha256": projection_sha256,
+    record = {
+        "ayah_ref": context_ref,
+        "surface_ref": bundle.get("surface_ref", context_ref),
+        "linguistic_source_ref": bundle.get("linguistic_source_ref", context_ref),
         "lane": lane,
-    })
-    supports = [{
-        "support_id": support_id,
-        "source_type": "selected_context_native_depth",
-        "source_local_id": f"{context_ref}:native_context_member",
-        "scope": lane,
-        "json_pointer": f"/selected_context/{context_ref}/native_context_member",
-        "role": "context_unit_native_depth_evidence",
-        "branch_refs": [],
-        "payload": payload,
-        "context_refs": [context_ref],
-        "trust": "canonical_bundle_hash_bound",
-        "qualification": {
-            "context_unit_is_not_the_focus": True,
-            "projection_depth": "hft_non_focus_context",
-            "standalone_focus_material_excluded": True,
-            "source_bundle_canonical_sha256": identity["canonical_sha256"],
-            "context_projection_sha256": projection_sha256,
-        },
-    }]
-    support_ids = [support_id]
-
-    candidate_id = _stable_id("cand_ctx", {
-        "analysis_sha256": composition.canonical_sha256,
-        "focus_ref": focus_ref,
-        "context_ref": context_ref,
-        "lane": lane,
-    })
-    candidate = {
-        "candidate_id": candidate_id,
-        "ayah_ref": focus_ref,
-        "lane": lane,
-        "source_type": "selected_context_unit",
-        "source_local_id": context_ref,
-        "source_pointer": context_row["source_pointer"],
-        "kind": "ordered_context_unit",
-        "title": f"Selected context {context_ref}",
-        "scope": "analysis_composition",
-        "anchor_refs": [context_ref],
-        "branch_refs": [],
-        "support_ids": support_ids,
-        "trust": "canonical_bundle_hash_bound",
-        "analysis_id": composition.analysis_id,
-        "segment_id": context_row["segment_id"],
-        "composition_order": context_row["composition_order"],
-        "commentary_obligation": "review",
-    }
-    inventory = {
-        **unit_provenance,
-        "context_projection_protocol": CONTEXT_MEMBER_PROTOCOL,
-        "context_projection_sha256": projection_sha256,
-        "context_projection_bytes": len(_canonical_json_bytes(payload)),
-        "lane": lane,
-        "candidate_id": candidate_id,
-        "support_ids": support_ids,
+        "focus_eligible": False,
+        "evidence": context_member_payload(bundle, focus_bundle=focus_bundle),
     }
     if context_row.get("membership_added_ayah") is True:
         target_surah = context_row["membership_target_surah"]
-        candidate.update({
-            "source_type": "external_ayah_member",
-            "kind": "external_ayah_member",
-            "scope": "host_surah_membership",
-            "title": f"External ayah {context_ref} in S{target_surah} context",
+        record.update({
+            "context_kind": "external_ayah_member",
             "membership_target_surah": target_surah,
             "membership_added_ayah": True,
-            "focus_eligible": False,
         })
-        for support in supports:
-            support.setdefault("qualification", {}).update({
-                "host_surah_membership": True,
-                "membership_target_surah": target_surah,
-                "membership_added_ayah": True,
-                "focus_eligible": False,
-            })
-        inventory.update({
-            "host_surah_membership": True,
-            "membership_target_surah": target_surah,
-            "membership_added_ayah": True,
-            "focus_eligible": False,
-        })
-    return candidate, supports, inventory
+    else:
+        record["context_kind"] = "ordered_context_ayah"
+    return record

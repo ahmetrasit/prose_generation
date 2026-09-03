@@ -38,13 +38,6 @@ second copy of the candidate-decision ledger or full lane packet.
 ```json
 {
   "schema_version": "@@SCOPE_COMPOSITION_SCHEMA_VERSION@@",
-  "identity": {
-    "ayah_ref": "@@AYAH_REF@@",
-    "lane": "@@LANE@@",
-    "lane_packet_sha256": "@@LANE_PACKET_SHA256@@",
-    "discovery_sha256": "@@DISCOVERY_SHA256@@",
-    "authoring_request_sha256": "@@AUTHORING_REQUEST_SHA256@@"
-  },
   "ayah_ref": "@@AYAH_REF@@",
   "lane": "@@LANE@@",
   "findings": [

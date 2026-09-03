@@ -69,12 +69,6 @@ Return exactly these top-level fields:
 ```json
 {
   "schema_version": "@@SCOPE_DISCOVERY_SCHEMA_VERSION@@",
-  "identity": {
-    "ayah_ref": "@@AYAH_REF@@",
-    "lane": "@@LANE@@",
-    "lane_packet_sha256": "@@LANE_PACKET_SHA256@@",
-    "authoring_request_sha256": "@@AUTHORING_REQUEST_SHA256@@"
-  },
   "ayah_ref": "@@AYAH_REF@@",
   "lane": "@@LANE@@",
   "coverage_complete": true,
