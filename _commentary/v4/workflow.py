@@ -33,6 +33,20 @@ MARKER_RE = re.compile(r"@@[A-Z0-9_]+@@")
 MAX_BATCH_UNITS = 512
 DEFAULT_CONTEXT_BUNDLES_DIR = REPO_ROOT / "bundles"
 PROJECTS_ROOT = REPO_ROOT.parent
+QURAN_AYAH_COUNTS = (
+    7, 286, 200, 176, 120, 165, 206, 75, 129, 109,
+    123, 111, 43, 52, 99, 128, 111, 110, 98, 135,
+    112, 78, 118, 64, 77, 227, 93, 88, 69, 60,
+    34, 30, 73, 54, 45, 83, 182, 88, 75, 85,
+    54, 53, 89, 59, 37, 35, 38, 29, 18, 45,
+    60, 49, 62, 55, 78, 96, 29, 22, 24, 13,
+    14, 11, 11, 18, 12, 12, 30, 52, 52, 44,
+    28, 28, 20, 56, 40, 31, 50, 40, 46, 42,
+    29, 19, 36, 25, 22, 17, 19, 26, 30, 20,
+    15, 21, 11, 8, 8, 19, 5, 8, 8, 11,
+    11, 8, 3, 9, 5, 4, 7, 3, 6, 3,
+    5, 4, 5, 6,
+)
 
 # Reuse v3's evidence projection and exact request identity. The orchestration
 # state machine is deliberately not imported or called.
@@ -54,7 +68,8 @@ V4_PREPARE_OPTIONS = PrepareOptions(
     hft_policy="quarantine",
     max_support_chars=8_000,
 )
-UNIT_MANIFEST_SCHEMA_VERSION = "commentary-v4-unit-manifest-v4"
+UNIT_MANIFEST_SCHEMA_VERSION = "commentary-v4-unit-manifest-v5"
+SCOPE_CONTRIBUTION_SCHEMA_VERSION = "commentary-v4-scope-contribution-v1"
 
 
 class WorkflowError(RuntimeError):
@@ -76,8 +91,8 @@ class Layout:
     def scope_prompt(self, lane: str) -> Path:
         return self.input / f"{lane}.prompt.md"
 
-    def scope_review(self, lane: str) -> Path:
-        return self.raw / f"{lane}.review.json"
+    def scope_contribution(self, lane: str) -> Path:
+        return self.raw / f"{lane}.contribution.json"
 
     @property
     def source_bundle(self) -> Path:
@@ -204,6 +219,17 @@ def _quran_text_projection(
     except OSError as exc:
         raise WorkflowError(f"Cannot snapshot Quran text source {source_path}: {exc}") from exc
     evidence, coverage = v3._quran_text_evidence(resolved)
+    stable_path = _manifest_source_path(resolved)
+    if coverage.get("source_path") != stable_path:
+        for row in evidence.values():
+            pointer = row.get("source_pointer")
+            if not isinstance(pointer, str) or "#L" not in pointer:
+                raise WorkflowError("Quran text projection has a malformed source pointer")
+            line_suffix = pointer.rsplit("#L", 1)[1]
+            row["source_pointer"] = f"{stable_path}#L{line_suffix}"
+            row.pop("source_row_sha256", None)
+            row["source_row_sha256"] = v3._sha256_json(row)
+        coverage = {**coverage, "source_path": stable_path}
     try:
         after = resolved.read_bytes()
     except OSError as exc:
@@ -217,6 +243,91 @@ def _quran_text_projection(
             "Quran text source changed during packet projection; rerun prepare"
         )
     return evidence, coverage
+
+
+def _verified_quran_text_projection(
+    record: Any,
+) -> tuple[dict[str, dict[str, Any]], dict[str, Any]]:
+    if not isinstance(record, dict):
+        raise WorkflowError("Manifest Quran text record is missing or malformed")
+    source_value = record.get("source_path")
+    if not isinstance(source_value, str) or not source_value:
+        raise WorkflowError("Manifest Quran text record has no source path")
+    source_path = _resolve_manifest_source_path(source_value, label="Quran text")
+    evidence, current = _quran_text_projection(source_path)
+    for field in ("source_id", "source_path", "source_sha256", "ayah_count"):
+        if record.get(field) != current.get(field):
+            raise WorkflowError(f"Manifest Quran text field is stale: {field}")
+    return evidence, current
+
+
+def _manifest_source_path(path: Path) -> str:
+    resolved = path.resolve(strict=False)
+    try:
+        return str(resolved.relative_to(PROJECTS_ROOT.resolve(strict=False)))
+    except ValueError:
+        return str(resolved)
+
+
+def _resolve_manifest_source_path(value: Any, *, label: str) -> Path:
+    if not isinstance(value, str) or not value:
+        raise WorkflowError(f"Manifest {label} source path is missing or malformed")
+    path = Path(value)
+    if not path.is_absolute():
+        path = PROJECTS_ROOT / path
+    return path.resolve(strict=False)
+
+
+def _inter_ayah_input_record(
+    projection_dir: Path, parent_dir: Path
+) -> dict[str, str]:
+    return {
+        "projection_dir": _manifest_source_path(projection_dir),
+        "parent_dir": _manifest_source_path(parent_dir),
+    }
+
+
+def _verified_inter_ayah_projection(
+    coverage_record: Any,
+    input_record: Any,
+    *,
+    focus_ref: str,
+    numbered_refs: set[str],
+    prefatory_focus: bool,
+) -> None:
+    if prefatory_focus:
+        expected = {
+            "status": "not_applicable",
+            "reason": "inter-ayah evidence is defined on numbered focus ayahs only",
+            "focus_ref": focus_ref,
+        }
+        if coverage_record != expected or input_record is not None:
+            raise WorkflowError("Manifest inter-ayah not-applicable record is stale")
+        return
+    if not isinstance(coverage_record, dict):
+        raise WorkflowError("Manifest inter-ayah coverage is missing or malformed")
+    if not isinstance(input_record, dict) or set(input_record) != {
+        "projection_dir",
+        "parent_dir",
+    }:
+        raise WorkflowError("Manifest inter-ayah input record is missing or malformed")
+    projection_dir = _resolve_manifest_source_path(
+        input_record["projection_dir"], label="inter-ayah projection"
+    )
+    parent_dir = _resolve_manifest_source_path(
+        input_record["parent_dir"], label="inter-ayah parent"
+    )
+    try:
+        _rows, _reciprocal, current = v3._inter_ayah_evidence_with_fallback(
+            focus_ref,
+            projection_dir,
+            parent_dir,
+            numbered_refs,
+        )
+    except SystemExit as exc:
+        raise WorkflowError(f"Cannot revalidate inter-ayah evidence: {exc}") from exc
+    if coverage_record != current:
+        raise WorkflowError("Manifest inter-ayah evidence or provenance is stale")
 
 
 def _absolute(path: Path) -> Path:
@@ -356,10 +467,78 @@ def _is_prefatory_ref(ref: str) -> bool:
     return bool(re.fullmatch(r"[1-9][0-9]*:0", ref))
 
 
+def _numbered_surah_refs(
+    quran_evidence: dict[str, dict[str, Any]], surah: int
+) -> tuple[str, ...]:
+    prefix = f"{surah}:"
+    numbers = sorted(
+        int(ref.split(":", 1)[1])
+        for ref in quran_evidence
+        if ref.startswith(prefix) and ref.split(":", 1)[1] != "0"
+    )
+    expected_count = QURAN_AYAH_COUNTS[surah - 1]
+    expected = list(range(1, expected_count + 1))
+    if numbers != expected:
+        missing = sorted(set(expected) - set(numbers))
+        extra = sorted(set(numbers) - set(expected))
+        raise WorkflowError(
+            f"Quran text lacks the complete canonical numbered ayat for surah "
+            f"{surah}; missing={missing}, extra={extra}"
+        )
+    return tuple(f"{surah}:{ayah}" for ayah in expected)
+
+
+def _automatic_basmala_composition(
+    focus_ref: str, quran_evidence: dict[str, dict[str, Any]]
+) -> compositions.Composition:
+    if not _is_prefatory_ref(focus_ref):
+        raise WorkflowError("Automatic basmala composition requires an S:0 focus")
+    surah = int(focus_ref.split(":", 1)[0])
+    if focus_ref not in quran_evidence:
+        raise WorkflowError(f"Quran text is missing prefatory focus {focus_ref}")
+    numbered_refs = _numbered_surah_refs(quran_evidence, surah)
+    return compositions.composition_from_cli(
+        f"s{surah:03d}-basmala-full",
+        [f"host={focus_ref},{surah}:1-{len(numbered_refs)}"],
+        [focus_ref],
+    )
+
+
+def _validate_basmala_focus_context(
+    composition: compositions.Composition,
+    quran_evidence: dict[str, dict[str, Any]],
+) -> None:
+    for focus_ref in composition.focus_refs:
+        if not _is_prefatory_ref(focus_ref):
+            continue
+        surah = int(focus_ref.split(":", 1)[0])
+        if focus_ref not in quran_evidence:
+            raise WorkflowError(f"Quran text is missing prefatory focus {focus_ref}")
+        required = (focus_ref, *_numbered_surah_refs(quran_evidence, surah))
+        focus_segment = composition.segment_for(focus_ref)
+        actual = tuple(
+            ref for ref in focus_segment.refs if ref.startswith(f"{surah}:")
+        )
+        if actual != required:
+            missing = [ref for ref in required if ref not in actual]
+            extra = [ref for ref in actual if ref not in required]
+            raise WorkflowError(
+                f"Prefatory focus {focus_ref} requires the complete numbered host "
+                "surah in canonical order in its own segment; "
+                f"missing={missing}, extra={extra}"
+            )
+
+
 def _composition_for_prepare(
     args: argparse.Namespace, layout: Layout
 ) -> compositions.Composition | None:
     if layout.analysis_id == "native":
+        if _is_prefatory_ref(layout.ayah_ref):
+            raise WorkflowError(
+                f"Prefatory focus {layout.ayah_ref} cannot use a basmala-only native "
+                "analysis; invoke the CLI without --analysis-id to derive its full "
+                "host-surah composition"
+            )
         return None
     supplied = getattr(args, "composition", None)
     if isinstance(supplied, compositions.Composition):
@@ -647,7 +826,7 @@ def _composition_projection(
     }
     all_units: list[dict[str, Any]] = []
     loaded: dict[str, tuple[Path, dict[str, Any], dict[str, Any]]] = {}
-    for context_row in composition.context_rows(focus_ref, LANES):
+    for context_row in composition.context_rows(focus_ref):
         try:
             context_ref = context_row["ref"]
             if context_ref not in loaded:
@@ -1009,15 +1188,25 @@ def _augment_lane_packet(
             }
     if prefatory_basmala_context is not None:
         basmala_path, basmala_bundle, basmala_identity = prefatory_basmala_context
-        _append_numbered_ayah_basmala_context(
-            packet,
-            focus_ref=layout.ayah_ref,
-            basmala_path=basmala_path,
-            basmala_bundle=basmala_bundle,
-            focus_bundle=source_bundle,
-            basmala_identity=basmala_identity,
-            lane=lane,
+        basmala_ref = basmala_identity["ayah_ref"]
+        explicit_here = any(
+            isinstance(unit, dict) and unit.get("ayah_ref") == basmala_ref
+            for unit in packet.get("selected_context_units", [])
         )
+        composition_has_basmala = (
+            composition is not None
+            and basmala_ref in composition.context_refs(layout.ayah_ref)
+        )
+        if explicit_here or (not composition_has_basmala and lane == "macro"):
+            _append_numbered_ayah_basmala_context(
+                packet,
+                focus_ref=layout.ayah_ref,
+                basmala_path=basmala_path,
+                basmala_bundle=basmala_bundle,
+                focus_bundle=source_bundle,
+                basmala_identity=basmala_identity,
+                lane=lane,
+            )
     candidate_ids = [
         candidate.get("candidate_id") for candidate in packet["candidate_inventory"]
     ]
@@ -1111,7 +1300,7 @@ def _context_package_record(
     if not _is_prefatory_ref(focus_ref):
         required_refs.add(focus_ref)
     if composition is not None:
-        for row in composition.context_rows(focus_ref, LANES):
+        for row in composition.context_rows(focus_ref):
             if (
                 row.get("membership_added_ayah") is not True
                 and not _is_prefatory_ref(row["ref"])
@@ -1212,6 +1401,106 @@ def _dedupe_context_units(units: list[dict[str, Any]]) -> list[dict[str, Any]]:
     return deduped
 
 
+def _expected_context_lanes(
+    composition: compositions.Composition | None,
+    focus_ref: str,
+    prefatory_ref: str | None,
+) -> dict[str, list[str]]:
+    expected: dict[str, list[str]] = {}
+    if composition is not None:
+        for row in composition.context_rows(focus_ref):
+            lanes = expected.setdefault(row["ref"], [])
+            if row["lane"] in lanes:
+                raise WorkflowError(
+                    f"Composition routes {row['ref']} to {row['lane']} more than once"
+                )
+            lanes.append(row["lane"])
+    if prefatory_ref is not None:
+        expected.setdefault(prefatory_ref, ["macro"])
+    return expected
+
+
+def _expected_lane_context_refs(
+    composition: compositions.Composition | None,
+    focus_ref: str,
+    prefatory_ref: str | None,
+    lane: str,
+) -> list[str]:
+    refs = []
+    if composition is not None:
+        refs.extend(
+            row["ref"]
+            for row in composition.context_rows(focus_ref)
+            if row["lane"] == lane
+        )
+    if prefatory_ref is not None and prefatory_ref not in refs:
+        composition_refs = (
+            set(composition.context_refs(focus_ref))
+            if composition is not None
+            else set()
+        )
+        if prefatory_ref not in composition_refs and lane == "macro":
+            refs.append(prefatory_ref)
+    return refs
+
+
+def _build_scope_prompt(
+    layout: Layout,
+    lane: str,
+    packet: dict[str, Any],
+) -> tuple[str, dict[str, Any]]:
+    if lane not in LANES:
+        raise WorkflowError(f"Unknown scope lane: {lane}")
+    governing = _canonical_inputs()
+    template_path = PROMPTS_ROOT / "scope.md"
+    template = template_path.read_text(encoding="utf-8")
+    template_sha256 = _sha256(template.encode("utf-8"))
+    governing_hashes = {
+        f"{key}_sha256": _sha256(value.encode("utf-8"))
+        for key, value in governing.items()
+    }
+    request_inputs = {
+        "ayah_ref": layout.ayah_ref,
+        "lane": lane,
+        "lane_packet_sha256": packet["identity"]["lane_packet_sha256"],
+        "template_sha256": template_sha256,
+        **governing_hashes,
+    }
+    request_sha256 = v3._request_sha256(
+        "v4-one-pass-scope-author", request_inputs
+    )
+    prompt = _render(
+        template,
+        {
+            "@@AYAH_REF@@": layout.ayah_ref,
+            "@@LANE@@": lane,
+            "@@LANE_PACKET_SHA256@@": packet["identity"][
+                "lane_packet_sha256"
+            ],
+            "@@AUTHORING_REQUEST_SHA256@@": request_sha256,
+            "@@CONTRIBUTION_OUTPUT_PATH@@": _repo_path(
+                layout.scope_contribution(lane)
+            ),
+            "@@SCOPE_CONTRIBUTION_SCHEMA_VERSION@@": (
+                SCOPE_CONTRIBUTION_SCHEMA_VERSION
+            ),
+            "@@PRINCIPLES_MD@@": governing["principles"],
+            "@@COMMENTARY_SPEC_MD@@": governing["commentary_spec"],
+            "@@CHANNELS_MD@@": governing["channels"],
+            "@@CANONICAL_PROMPT_V2@@": governing["canonical_prompt_v2"],
+            "@@LANE_PACKET_JSON@@": v3._canonical_json(packet),
+        },
+        label=f"{lane} scope author",
+    )
+    return prompt, {
+        "request_sha256": request_sha256,
+        "request_inputs": request_inputs,
+        "response_schema_version": SCOPE_CONTRIBUTION_SCHEMA_VERSION,
+        "template_source": _repo_path(template_path),
+        "template_sha256": template_sha256,
+    }
+
+
 def _input_manifest_base(
     layout: Layout,
     source_origin: Path,
@@ -1221,6 +1510,7 @@ def _input_manifest_base(
     docket: dict[str, Any],
     quran_coverage: dict[str, Any],
     inter_ayah_coverage: dict[str, Any],
+    inter_ayah_inputs: dict[str, str] | None,
     lane_records: dict[str, Any],
     composition: compositions.Composition | None,
     composition_projection: dict[str, Any] | None,
@@ -1257,7 +1547,7 @@ def _input_manifest_base(
         },
         "source": {
             "snapshot": _path_record(layout.source_bundle),
-            "origin": v3._stable_source_path(source_origin),
+            "origin": _manifest_source_path(source_origin),
             "canonical_sha256": v3._sha256_json(source_bundle),
         },
         "prefatory_basmala": prefatory_basmala_record,
@@ -1270,7 +1560,12 @@ def _input_manifest_base(
         "evidence_projection": {
             "quran_text": quran_coverage,
             "inter_ayah": inter_ayah_coverage,
-            "implementation": "_commentary/v3/render_authoring.py",
+            "inter_ayah_inputs": inter_ayah_inputs,
+            "implementation": {
+                "workflow": _path_record(Path(__file__)),
+                "composition": _path_record(Path(compositions.__file__)),
+                "v3_projection": _path_record(V3_ROOT / "render_authoring.py"),
+            },
         },
         "analysis": (
             {
@@ -1287,8 +1582,8 @@ def _input_manifest_base(
                 "analysis_id": composition.analysis_id,
                 "composition": _path_record(layout.composition),
                 "composition_canonical_sha256": composition.canonical_sha256,
-                "context_bundles_dir": v3._stable_source_path(context_bundles_dir),
-                "member_bundles_dir": v3._stable_source_path(member_bundles_dir),
+                "context_bundles_dir": _manifest_source_path(context_bundles_dir),
+                "member_bundles_dir": _manifest_source_path(member_bundles_dir),
                 "selected_context_units": selected_context_units,
                 "surah_membership": (
                     None
@@ -1387,7 +1682,7 @@ def prepare(args: argparse.Namespace) -> dict[str, Any]:
             "ayah_ref": basmala_identity["ayah_ref"],
             "surface_ref": basmala_identity["surface_ref"],
             "linguistic_source_ref": basmala_identity["linguistic_source_ref"],
-            "mode": "included_as_surah_preface_context_in_every_lane_packet",
+            "mode": "included_as_ordinary_context_member",
         }
         prefatory_basmala_packet_context = (
             basmala_origin,
@@ -1396,6 +1691,8 @@ def prepare(args: argparse.Namespace) -> dict[str, Any]:
         )
 
     quran_evidence, quran_coverage = _quran_text_projection(args.quran_text)
+    if composition is not None:
+        _validate_basmala_focus_context(composition, quran_evidence)
     numbered_refs = {
         ref for ref in quran_evidence if ref.split(":", 1)[1] != "0"
     }
@@ -1404,10 +1701,14 @@ def prepare(args: argparse.Namespace) -> dict[str, Any]:
         reciprocal: dict[str, list[dict[str, Any]]] = {}
         inter_coverage = {
             "status": "not_applicable",
-            "reason": "inter-ayah evidence is defined on numbered ayahs only",
+            "reason": "inter-ayah evidence is defined on numbered focus ayahs only",
             "focus_ref": args.ayah,
         }
+        inter_ayah_inputs = None
     else:
+        inter_ayah_inputs = _inter_ayah_input_record(
+            args.inter_ayah_dir, args.inter_ayah_parent_dir
+        )
         inter_rows, reciprocal, inter_coverage = v3._inter_ayah_evidence_with_fallback(
             args.ayah,
             args.inter_ayah_dir,
@@ -1485,30 +1786,7 @@ def prepare(args: argparse.Namespace) -> dict[str, Any]:
                     ):
                         prefatory_basmala_context_units.append(copy.deepcopy(unit))
                         break
-        template_path = V3_PROMPTS_ROOT / f"scope-{lane}.md"
-        template = template_path.read_text(encoding="utf-8")
-        template_sha256 = _sha256(template.encode("utf-8"))
-        request_inputs = {
-            "ayah_ref": args.ayah,
-            "lane": lane,
-            "lane_packet_sha256": packet["identity"]["lane_packet_sha256"],
-            "template_sha256": template_sha256,
-        }
-        request_sha256 = v3._request_sha256(
-            f"scope-{lane}-review", request_inputs
-        )
-        prompt = v3._render(
-            template,
-            {
-                "@@AYAH_REF@@": args.ayah,
-                "@@LANE_PACKET_SHA256@@": packet["identity"][
-                    "lane_packet_sha256"
-                ],
-                "@@AUTHORING_REQUEST_SHA256@@": request_sha256,
-                "@@LANE_PACKET_JSON@@": v3._canonical_json(packet),
-            },
-            label=f"{lane} scope",
-        )
+        prompt, scope_record = _build_scope_prompt(layout, lane, packet)
         _write_generated(
             layout.packet(lane),
             _canonical_json_bytes(packet, newline=True),
@@ -1522,13 +1800,11 @@ def prepare(args: argparse.Namespace) -> dict[str, Any]:
             root=INPUT_ROOT,
         )
         lane_records[lane] = {
-            "request_sha256": request_sha256,
+            **scope_record,
             "lane_packet_sha256": packet["identity"]["lane_packet_sha256"],
             "packet": _path_record(layout.packet(lane)),
             "prompt": _path_record(layout.scope_prompt(lane)),
-            "template_source": _repo_path(template_path),
-            "template_sha256": template_sha256,
-            "expected_response": _repo_path(layout.scope_review(lane)),
+            "expected_response": _repo_path(layout.scope_contribution(lane)),
         }
     if prefatory_basmala_record is not None:
         prefatory_basmala_record["selected_context_units"] = (
@@ -1544,6 +1820,7 @@ def prepare(args: argparse.Namespace) -> dict[str, Any]:
         docket,
         quran_coverage,
         inter_coverage,
+        inter_ayah_inputs,
         lane_records,
         composition,
         composition_projection,
@@ -1720,7 +1997,7 @@ def _verify_prefatory_basmala_record(
     ):
         if record.get(field) != identity[field]:
             raise WorkflowError(f"Prefatory basmala manifest field is stale: {field}")
-    if record.get("mode") != "included_as_surah_preface_context_in_every_lane_packet":
+    if record.get("mode") != "included_as_ordinary_context_member":
         raise WorkflowError("Prefatory basmala manifest mode is stale")
     selected = record.get("selected_context_units")
     if not isinstance(selected, list):
@@ -1734,7 +2011,7 @@ def _verify_prefatory_basmala_record(
         selected_unit.get("ayah_ref") != expected_ref
         or selected_unit.get("canonical_sha256") != identity["canonical_sha256"]
         or not isinstance(selected_lanes, list)
-        or set(selected_lanes) != set(LANES)
+        or selected_lanes != ["macro"]
     ):
         raise WorkflowError("Prefatory basmala context lineage is stale")
     return identity
@@ -1745,9 +2022,16 @@ def _load_unit_manifest(layout: Layout) -> dict[str, Any]:
     if not layout.manifest.is_file() or layout.manifest.is_symlink():
         raise WorkflowError(f"Unit manifest is missing or not regular: {layout.manifest}")
     manifest = _load_json(layout.manifest)
+    if manifest.get("schema_version") != UNIT_MANIFEST_SCHEMA_VERSION:
+        raise WorkflowError(
+            f"Unit manifest uses legacy or stale schema "
+            f"{manifest.get('schema_version')!r}; expected "
+            f"{UNIT_MANIFEST_SCHEMA_VERSION}. Preserve the current Git state, "
+            "relocate legacy raw/editorial artifacts, and rerun advance with "
+            "--force-input."
+        )
     if (
-        manifest.get("schema_version") != UNIT_MANIFEST_SCHEMA_VERSION
-        or manifest.get("analysis_id") != layout.analysis_id
+        manifest.get("analysis_id") != layout.analysis_id
         or manifest.get("ayah_ref") != layout.ayah_ref
     ):
         raise WorkflowError("Unit manifest identity does not match analysis/focus")
@@ -1778,7 +2062,9 @@ def _load_unit_manifest(layout: Layout) -> dict[str, Any]:
     )
     source_bundle = _load_json(source_path)
     try:
-        compositions.validate_unit_bundle(source_bundle, expected_ref=layout.ayah_ref)
+        source_identity = compositions.validate_unit_bundle(
+            source_bundle, expected_ref=layout.ayah_ref
+        )
     except compositions.CompositionError as exc:
         raise WorkflowError(str(exc)) from exc
     if manifest["source"].get("canonical_sha256") != v3._sha256_json(source_bundle):
@@ -1790,6 +2076,35 @@ def _load_unit_manifest(layout: Layout) -> dict[str, Any]:
         != _docket_payload_hash(docket)
     ):
         raise WorkflowError("Manifest docket payload hash is stale")
+    evidence_projection = manifest.get("evidence_projection")
+    if not isinstance(evidence_projection, dict):
+        raise WorkflowError("Manifest evidence projection is missing or malformed")
+    implementation = evidence_projection.get("implementation")
+    if not isinstance(implementation, dict):
+        raise WorkflowError("Manifest evidence implementation record is malformed")
+    for key, expected in (
+        ("workflow", Path(__file__)),
+        ("composition", Path(compositions.__file__)),
+        ("v3_projection", V3_ROOT / "render_authoring.py"),
+    ):
+        _verify_record(
+            implementation.get(key),
+            label=f"{key} implementation",
+            expected=expected,
+        )
+    quran_evidence, quran_coverage = _verified_quran_text_projection(
+        evidence_projection.get("quran_text")
+    )
+    inter_ayah_coverage = evidence_projection.get("inter_ayah")
+    _verified_inter_ayah_projection(
+        inter_ayah_coverage,
+        evidence_projection.get("inter_ayah_inputs"),
+        focus_ref=layout.ayah_ref,
+        numbered_refs={
+            ref for ref in quran_evidence if ref.split(":", 1)[1] != "0"
+        },
+        prefatory_focus=source_identity["unit_kind"] == "prefatory_basmala",
+    )
     prefatory_identity = _verify_prefatory_basmala_record(
         manifest, layout, source_bundle
     )
@@ -1801,6 +2116,11 @@ def _load_unit_manifest(layout: Layout) -> dict[str, Any]:
     if layout.analysis_id == "native":
         if analysis.get("mode") != "native" or analysis.get("composition") is not None:
             raise WorkflowError("Native unit carries a non-native composition")
+        if source_identity["unit_kind"] == "prefatory_basmala":
+            raise WorkflowError(
+                f"Legacy native input for {layout.ayah_ref} has no complete "
+                "host-surah context; rerun the CLI to derive the full basmala analysis"
+            )
     else:
         if analysis.get("mode") != "ordered_composition":
             raise WorkflowError("Custom analysis lacks ordered composition metadata")
@@ -1825,6 +2145,7 @@ def _load_unit_manifest(layout: Layout) -> dict[str, Any]:
             and source_bundle.get("surah") != composition.member_surah
         ):
             raise WorkflowError("Analysis focus does not belong to its host surah")
+        _validate_basmala_focus_context(composition, quran_evidence)
     if context_package is not None:
         required_package_refs: set[str] = set()
         if not _is_prefatory_ref(layout.ayah_ref):
@@ -1832,7 +2153,7 @@ def _load_unit_manifest(layout: Layout) -> dict[str, Any]:
         if composition is not None:
             required_package_refs.update(
                 row["ref"]
-                for row in composition.context_rows(layout.ayah_ref, LANES)
+                for row in composition.context_rows(layout.ayah_ref)
                 if row.get("membership_added_ayah") is not True
                 and not _is_prefatory_ref(row["ref"])
             )
@@ -1846,6 +2167,32 @@ def _load_unit_manifest(layout: Layout) -> dict[str, Any]:
         selected_units = []
     if not isinstance(selected_units, list):
         raise WorkflowError("Analysis context-unit lineage is malformed")
+    deduped_selected_units = _dedupe_context_units(selected_units)
+    if deduped_selected_units != selected_units:
+        raise WorkflowError("Analysis context-unit lineage is duplicated or noncanonical")
+    expected_context_lanes = _expected_context_lanes(
+        composition,
+        layout.ayah_ref,
+        prefatory_identity["ayah_ref"] if prefatory_identity is not None else None,
+    )
+    selected_by_ref = {
+        str(unit.get("ayah_ref")): unit
+        for unit in selected_units
+        if isinstance(unit, dict)
+    }
+    if set(selected_by_ref) != set(expected_context_lanes):
+        missing = sorted(set(expected_context_lanes) - set(selected_by_ref))
+        extra = sorted(set(selected_by_ref) - set(expected_context_lanes))
+        raise WorkflowError(
+            "Analysis context-unit lineage disagrees with its composition; "
+            f"missing={missing}, extra={extra}"
+        )
+    for context_ref, expected_lanes in expected_context_lanes.items():
+        actual_lanes = selected_by_ref[context_ref].get("lanes")
+        if not isinstance(actual_lanes, list) or set(actual_lanes) != set(expected_lanes):
+            raise WorkflowError(
+                f"Analysis context-unit lane binding is stale for {context_ref}"
+            )
     expected_context_projections: dict[str, dict[str, Any]] = {}
     for unit in selected_units:
         if not isinstance(unit, dict):
@@ -1933,12 +2280,23 @@ def _load_unit_manifest(layout: Layout) -> dict[str, Any]:
             label=f"{lane} packet",
             expected=layout.packet(lane),
         )
-        _verify_record(
+        prompt_path = _verify_record(
             prompt_record,
             label=f"{lane} prompt",
             expected=layout.scope_prompt(lane),
         )
         packet = _load_json(packet_path)
+        packet_source_coverage = packet.get("source_coverage")
+        if not isinstance(packet_source_coverage, dict):
+            raise WorkflowError(f"Manifest {lane} packet source coverage is malformed")
+        if packet_source_coverage.get("quran_text_source") != quran_coverage:
+            raise WorkflowError(
+                f"Manifest {lane} packet Quran text provenance is stale"
+            )
+        if packet_source_coverage.get("inter_ayah_source") != inter_ayah_coverage:
+            raise WorkflowError(
+                f"Manifest {lane} packet inter-ayah provenance is stale"
+            )
         packet_hash = v3._payload_hash_with_identity_field_removed(
             packet, "lane_packet_sha256"
         )
@@ -1947,17 +2305,45 @@ def _load_unit_manifest(layout: Layout) -> dict[str, Any]:
             or lane_record.get("lane_packet_sha256") != packet_hash
         ):
             raise WorkflowError(f"Manifest {lane} packet identity hash is stale")
+        expected_prompt, expected_scope_record = _build_scope_prompt(
+            layout, lane, packet
+        )
+        for field in (
+            "request_sha256",
+            "request_inputs",
+            "response_schema_version",
+            "template_source",
+            "template_sha256",
+        ):
+            if lane_record.get(field) != expected_scope_record[field]:
+                raise WorkflowError(
+                    f"Manifest {lane} scope author record is stale: {field}"
+                )
+        if prompt_path.read_text(encoding="utf-8") != expected_prompt:
+            raise WorkflowError(f"Manifest {lane} scope prompt content is stale")
         packet_units = packet.get("selected_context_units", [])
         if not isinstance(packet_units, list):
             raise WorkflowError(f"Manifest {lane} packet context units are malformed")
+        if not all(isinstance(unit, dict) for unit in packet_units):
+            raise WorkflowError(
+                f"Manifest {lane} packet contains a malformed context unit"
+            )
+        expected_lane_refs = _expected_lane_context_refs(
+            composition,
+            layout.ayah_ref,
+            prefatory_identity["ayah_ref"] if prefatory_identity is not None else None,
+            lane,
+        )
+        actual_lane_refs = [str(unit.get("ayah_ref")) for unit in packet_units]
+        if actual_lane_refs != expected_lane_refs:
+            raise WorkflowError(
+                f"Manifest {lane} packet context membership is stale; "
+                f"expected={expected_lane_refs}, actual={actual_lane_refs}"
+            )
         packet_supports = packet.get("support_registry", [])
         if not isinstance(packet_supports, list):
             raise WorkflowError(f"Manifest {lane} packet supports are malformed")
         for packet_unit in packet_units:
-            if not isinstance(packet_unit, dict):
-                raise WorkflowError(
-                    f"Manifest {lane} packet contains a malformed context unit"
-                )
             context_ref = packet_unit.get("ayah_ref")
             expected_projection = expected_context_projections.get(str(context_ref))
             if expected_projection is None:
@@ -1981,7 +2367,9 @@ def _load_unit_manifest(layout: Layout) -> dict[str, Any]:
                     f"Manifest {lane} packet context projection is stale for "
                     f"{context_ref}"
                 )
-        if prefatory_identity is not None:
+        if prefatory_identity is not None and lane in expected_context_lanes.get(
+            prefatory_identity["ayah_ref"], []
+        ):
             matching_units = [
                 unit
                 for unit in packet.get("selected_context_units", [])
@@ -2001,7 +2389,7 @@ def _load_unit_manifest(layout: Layout) -> dict[str, Any]:
                     f"Manifest {lane} packet lacks its mandatory prefatory basmala"
                 )
         if lane_record.get("expected_response") != _repo_path(
-            layout.scope_review(lane)
+            layout.scope_contribution(lane)
         ):
             raise WorkflowError(
                 f"Manifest {lane} response does not match its fixed unit path"
@@ -2017,33 +2405,301 @@ def _load_unit_manifest(layout: Layout) -> dict[str, Any]:
     return manifest
 
 
-def _load_review(
-    layout: Layout, manifest: dict[str, Any], lane: str
-) -> dict[str, Any] | None:
-    path = layout.scope_review(lane)
-    if not path.exists():
-        return None
-    if not path.is_file() or path.is_symlink():
-        raise WorkflowError(f"{lane} response is not a regular file: {path}")
-    review = _load_json(path)
+def _required_text(value: Any, *, label: str) -> str:
+    if not isinstance(value, str) or not value.strip():
+        raise WorkflowError(f"{label} must be a nonempty string")
+    return value
+
+
+def _string_list(value: Any, *, label: str) -> list[str]:
+    if not isinstance(value, list) or not all(
+        isinstance(item, str) and item.strip() for item in value
+    ):
+        raise WorkflowError(f"{label} must be an array of nonempty strings")
+    if len(value) != len(set(value)):
+        raise WorkflowError(f"{label} contains duplicates")
+    return value
+
+
+def _packet_id_set(
+    packet: dict[str, Any], registry: str, field: str, *, lane: str
+) -> set[str]:
+    rows = packet.get(registry)
+    if not isinstance(rows, list):
+        raise WorkflowError(f"{lane} packet {registry} is malformed")
+    values = {
+        row.get(field)
+        for row in rows
+        if isinstance(row, dict) and isinstance(row.get(field), str)
+    }
+    if len(values) != len(rows):
+        raise WorkflowError(f"{lane} packet {registry} has missing or duplicate IDs")
+    return values
+
+
+def _packet_quran_refs(packet: dict[str, Any]) -> set[str]:
+    refs: set[str] = set()
+
+    def visit(value: Any) -> None:
+        if isinstance(value, str):
+            if compositions.REF_RE.fullmatch(value) is not None:
+                refs.add(value)
+            return
+        if isinstance(value, list):
+            for item in value:
+                visit(item)
+            return
+        if isinstance(value, dict):
+            for item in value.values():
+                visit(item)
+
+    visit(packet)
+    return refs
+
+
+def _validate_scope_contribution(
+    contribution: dict[str, Any],
+    *,
+    layout: Layout,
+    manifest: dict[str, Any],
+    lane: str,
+    packet: dict[str, Any],
+) -> None:
+    expected_top_level = {
+        "schema_version",
+        "identity",
+        "ayah_ref",
+        "lane",
+        "coverage_complete",
+        "candidate_decisions",
+        "findings",
+        "movements",
+        "friction_notes",
+    }
+    if set(contribution) != expected_top_level:
+        raise WorkflowError(
+            f"{lane} contribution fields are malformed; "
+            f"missing={sorted(expected_top_level - set(contribution))}, "
+            f"extra={sorted(set(contribution) - expected_top_level)}"
+        )
+    if contribution.get("schema_version") != SCOPE_CONTRIBUTION_SCHEMA_VERSION:
+        raise WorkflowError(f"{lane} contribution schema_version is stale")
     lane_record = manifest["lanes"][lane]
-    identity = review.get("identity")
-    if not isinstance(identity, dict):
-        raise WorkflowError(f"{lane} response has no identity object")
-    expected = {
+    expected_identity = {
         "ayah_ref": layout.ayah_ref,
         "lane": lane,
         "lane_packet_sha256": lane_record["lane_packet_sha256"],
         "authoring_request_sha256": lane_record["request_sha256"],
     }
-    for field, value in expected.items():
-        if identity.get(field) != value:
+    if contribution.get("identity") != expected_identity:
+        raise WorkflowError(f"{lane} contribution identity is stale or mixed")
+    if (
+        contribution.get("ayah_ref") != layout.ayah_ref
+        or contribution.get("lane") != lane
+    ):
+        raise WorkflowError(f"{lane} contribution top-level identity is stale or mixed")
+    if contribution.get("coverage_complete") is not True:
+        raise WorkflowError(f"{lane} contribution must declare coverage_complete=true")
+
+    candidate_ids = _packet_id_set(
+        packet, "candidate_inventory", "candidate_id", lane=lane
+    )
+    support_ids = _packet_id_set(
+        packet, "support_registry", "support_id", lane=lane
+    )
+    branch_refs = _packet_id_set(
+        packet, "branch_registry", "branch_ref", lane=lane
+    )
+    connection_refs = _packet_id_set(
+        packet, "connection_registry", "connection_ref", lane=lane
+    )
+    quran_refs = _packet_quran_refs(packet)
+
+    raw_decisions = contribution.get("candidate_decisions")
+    if not isinstance(raw_decisions, list):
+        raise WorkflowError(f"{lane} candidate_decisions must be an array")
+    decisions: dict[str, dict[str, Any]] = {}
+    expected_decision_fields = {
+        "candidate_id",
+        "decision",
+        "reason",
+        "finding_refs",
+    }
+    for index, decision in enumerate(raw_decisions):
+        label = f"{lane} candidate_decisions[{index}]"
+        if not isinstance(decision, dict) or set(decision) != expected_decision_fields:
+            raise WorkflowError(f"{label} fields are malformed")
+        candidate_id = _required_text(decision.get("candidate_id"), label=f"{label}.candidate_id")
+        if candidate_id in decisions:
+            raise WorkflowError(f"{lane} candidate decision is duplicated: {candidate_id}")
+        disposition = decision.get("decision")
+        if disposition not in {"accept", "narrow", "represented", "reject"}:
+            raise WorkflowError(f"{label}.decision is invalid")
+        _required_text(decision.get("reason"), label=f"{label}.reason")
+        finding_refs = _string_list(
+            decision.get("finding_refs"), label=f"{label}.finding_refs"
+        )
+        if disposition == "reject" and finding_refs:
+            raise WorkflowError(f"{label} rejects a candidate but names findings")
+        if disposition != "reject" and not finding_refs:
+            raise WorkflowError(f"{label} must name at least one finding")
+        decisions[candidate_id] = decision
+    if set(decisions) != candidate_ids:
+        raise WorkflowError(
+            f"{lane} candidate accounting is incomplete; "
+            f"missing={sorted(candidate_ids - set(decisions))}, "
+            f"extra={sorted(set(decisions) - candidate_ids)}"
+        )
+
+    raw_findings = contribution.get("findings")
+    if not isinstance(raw_findings, list):
+        raise WorkflowError(f"{lane} findings must be an array")
+    expected_finding_fields = {
+        "finding_ref",
+        "title",
+        "claim",
+        "mechanism",
+        "reader_payoff",
+        "containment",
+        "epistemic_status",
+        "candidate_ids",
+        "support_ids",
+        "branch_refs",
+        "connection_refs",
+        "context_refs",
+    }
+    findings: dict[str, dict[str, Any]] = {}
+    finding_ref_re = re.compile(
+        rf"{re.escape(lane)}:[A-Za-z0-9][A-Za-z0-9._-]{{0,95}}"
+    )
+    for index, finding in enumerate(raw_findings):
+        label = f"{lane} findings[{index}]"
+        if not isinstance(finding, dict) or set(finding) != expected_finding_fields:
+            raise WorkflowError(f"{label} fields are malformed")
+        finding_ref = _required_text(
+            finding.get("finding_ref"), label=f"{label}.finding_ref"
+        )
+        if finding_ref_re.fullmatch(finding_ref) is None:
+            raise WorkflowError(f"{label}.finding_ref is invalid")
+        if finding_ref in findings:
+            raise WorkflowError(f"{lane} finding is duplicated: {finding_ref}")
+        for field in (
+            "title",
+            "claim",
+            "mechanism",
+            "reader_payoff",
+            "containment",
+            "epistemic_status",
+        ):
+            _required_text(finding.get(field), label=f"{label}.{field}")
+        cited_candidates = _string_list(
+            finding.get("candidate_ids"), label=f"{label}.candidate_ids"
+        )
+        cited_supports = _string_list(
+            finding.get("support_ids"), label=f"{label}.support_ids"
+        )
+        cited_branches = _string_list(
+            finding.get("branch_refs"), label=f"{label}.branch_refs"
+        )
+        cited_connections = _string_list(
+            finding.get("connection_refs"), label=f"{label}.connection_refs"
+        )
+        cited_context = _string_list(
+            finding.get("context_refs"), label=f"{label}.context_refs"
+        )
+        if not (cited_supports or cited_branches or cited_connections):
             raise WorkflowError(
-                f"{lane} response has stale or mixed identity field {field!r}"
+                f"{label} must cite at least one support, branch, or connection ID"
             )
-    if review.get("ayah_ref") != layout.ayah_ref or review.get("lane") != lane:
-        raise WorkflowError(f"{lane} response top-level identity is stale or mixed")
-    return review
+        for cited, available, field in (
+            (set(cited_candidates), candidate_ids, "candidate_ids"),
+            (set(cited_supports), support_ids, "support_ids"),
+            (set(cited_branches), branch_refs, "branch_refs"),
+            (set(cited_connections), connection_refs, "connection_refs"),
+            (set(cited_context), quran_refs, "context_refs"),
+        ):
+            unknown = sorted(cited - available)
+            if unknown:
+                raise WorkflowError(f"{label}.{field} cites unknown IDs: {unknown}")
+        findings[finding_ref] = finding
+
+    for candidate_id, decision in decisions.items():
+        decision_refs = set(decision["finding_refs"])
+        unknown = sorted(decision_refs - set(findings))
+        if unknown:
+            raise WorkflowError(
+                f"{lane} decision {candidate_id} cites unknown findings: {unknown}"
+            )
+        actual_refs = {
+            finding_ref
+            for finding_ref, finding in findings.items()
+            if candidate_id in finding["candidate_ids"]
+        }
+        if decision["decision"] == "reject":
+            if actual_refs:
+                raise WorkflowError(
+                    f"{lane} rejected candidate {candidate_id} appears in findings"
+                )
+        elif actual_refs != decision_refs:
+            raise WorkflowError(
+                f"{lane} candidate-to-finding links disagree for {candidate_id}"
+            )
+
+    raw_movements = contribution.get("movements")
+    if not isinstance(raw_movements, list):
+        raise WorkflowError(f"{lane} movements must be an array")
+    expected_movement_fields = {"movement_key", "draft_prose", "finding_refs"}
+    movement_keys: set[str] = set()
+    landed_refs: list[str] = []
+    for index, movement in enumerate(raw_movements):
+        label = f"{lane} movements[{index}]"
+        if not isinstance(movement, dict) or set(movement) != expected_movement_fields:
+            raise WorkflowError(f"{label} fields are malformed")
+        movement_key = _required_text(
+            movement.get("movement_key"), label=f"{label}.movement_key"
+        )
+        if movement_key in movement_keys:
+            raise WorkflowError(f"{lane} movement key is duplicated: {movement_key}")
+        movement_keys.add(movement_key)
+        _required_text(movement.get("draft_prose"), label=f"{label}.draft_prose")
+        movement_refs = _string_list(
+            movement.get("finding_refs"), label=f"{label}.finding_refs"
+        )
+        if not movement_refs:
+            raise WorkflowError(f"{label} must land at least one finding")
+        unknown = sorted(set(movement_refs) - set(findings))
+        if unknown:
+            raise WorkflowError(f"{label} cites unknown findings: {unknown}")
+        landed_refs.extend(movement_refs)
+    if len(landed_refs) != len(set(landed_refs)):
+        raise WorkflowError(f"{lane} findings land in more than one movement")
+    if set(landed_refs) != set(findings):
+        raise WorkflowError(
+            f"{lane} finding-to-movement coverage is incomplete; "
+            f"missing={sorted(set(findings) - set(landed_refs))}, "
+            f"extra={sorted(set(landed_refs) - set(findings))}"
+        )
+    _string_list(contribution.get("friction_notes"), label=f"{lane} friction_notes")
+
+
+def _load_contribution(
+    layout: Layout, manifest: dict[str, Any], lane: str
+) -> dict[str, Any] | None:
+    path = layout.scope_contribution(lane)
+    if not path.exists():
+        return None
+    if not path.is_file() or path.is_symlink():
+        raise WorkflowError(f"{lane} contribution is not a regular file: {path}")
+    contribution = _load_json(path)
+    packet = _load_json(layout.packet(lane))
+    _validate_scope_contribution(
+        contribution,
+        layout=layout,
+        manifest=manifest,
+        lane=lane,
+        packet=packet,
+    )
+    return contribution
 
 
 def _canonical_inputs() -> dict[str, str]:
@@ -2059,44 +2715,52 @@ def _canonical_inputs() -> dict[str, str]:
 def _build_canonical_prompt(
     layout: Layout,
     manifest: dict[str, Any],
-    reviews: dict[str, dict[str, Any]],
+    contributions: dict[str, dict[str, Any]],
 ) -> tuple[str, dict[str, Any]]:
     governing = _canonical_inputs()
     template_path = PROMPTS_ROOT / "canonical.md"
     template = template_path.read_text(encoding="utf-8")
+    packets = {lane: _load_json(layout.packet(lane)) for lane in LANES}
+    focus_surface = packets["micro"].get("focus_surface_evidence")
+    if not isinstance(focus_surface, dict) or not focus_surface:
+        raise WorkflowError("Micro packet has no focus-surface evidence")
+    if any(
+        packet.get("focus_surface_evidence") != focus_surface
+        for packet in packets.values()
+    ):
+        raise WorkflowError("Lane packets disagree on focus-surface evidence")
+    focus_surface_bytes = _canonical_json_bytes(focus_surface)
+    focus_surface_sha256 = _sha256(focus_surface_bytes)
     replacements = {
         "@@AYAH_REF@@": layout.ayah_ref,
         "@@PROSE_OUTPUT_PATH@@": _repo_path(layout.first_pass("prose")),
         "@@EVIDENCE_OUTPUT_PATH@@": _repo_path(layout.first_pass("evidence")),
         "@@INDEX_OUTPUT_PATH@@": _repo_path(layout.first_pass("index")),
         "@@FRICTION_OUTPUT_PATH@@": _repo_path(layout.first_pass("friction")),
-        "@@MICRO_PACKET_PATH@@": _repo_path(layout.packet("micro")),
-        "@@MACRO_PACKET_PATH@@": _repo_path(layout.packet("macro")),
-        "@@GLOBAL_PACKET_PATH@@": _repo_path(layout.packet("global")),
-        "@@MICRO_PACKET_SHA256@@": manifest["lanes"]["micro"]["packet"][
-            "sha256"
-        ],
-        "@@MACRO_PACKET_SHA256@@": manifest["lanes"]["macro"]["packet"][
-            "sha256"
-        ],
-        "@@GLOBAL_PACKET_SHA256@@": manifest["lanes"]["global"]["packet"][
-            "sha256"
-        ],
         "@@PRINCIPLES_MD@@": governing["principles"],
         "@@COMMENTARY_SPEC_MD@@": governing["commentary_spec"],
         "@@CHANNELS_MD@@": governing["channels"],
         "@@CANONICAL_PROMPT_V2@@": governing["canonical_prompt_v2"],
-        "@@MICRO_REVIEW_JSON@@": v3._canonical_json(reviews["micro"]),
-        "@@MACRO_REVIEW_JSON@@": v3._canonical_json(reviews["macro"]),
-        "@@GLOBAL_REVIEW_JSON@@": v3._canonical_json(reviews["global"]),
+        "@@FOCUS_SURFACE_SHA256@@": focus_surface_sha256,
+        "@@FOCUS_SURFACE_JSON@@": focus_surface_bytes.decode("utf-8"),
+        "@@MICRO_CONTRIBUTION_JSON@@": v3._canonical_json(
+            contributions["micro"]
+        ),
+        "@@MACRO_CONTRIBUTION_JSON@@": v3._canonical_json(
+            contributions["macro"]
+        ),
+        "@@GLOBAL_CONTRIBUTION_JSON@@": v3._canonical_json(
+            contributions["global"]
+        ),
     }
     prompt = _render(template, replacements, label="canonical prompt")
-    review_records = {
-        lane: _path_record(layout.scope_review(lane)) for lane in LANES
+    contribution_records = {
+        lane: _path_record(layout.scope_contribution(lane)) for lane in LANES
     }
     request_inputs = {
         "ayah_ref": layout.ayah_ref,
         "template_sha256": _sha256(template.encode("utf-8")),
+        "focus_surface_sha256": focus_surface_sha256,
         "editorial_instructions_sha256": manifest["editorial"][
             "instructions_sha256"
         ],
@@ -2108,19 +2772,13 @@ def _build_canonical_prompt(
             for key, text in governing.items()
         },
         **{
-            f"{lane}_packet_sha256": manifest["lanes"][lane]["packet"][
-                "sha256"
-            ]
-            for lane in LANES
-        },
-        **{
-            f"{lane}_review_sha256": review_records[lane]["sha256"]
+            f"{lane}_contribution_sha256": contribution_records[lane]["sha256"]
             for lane in LANES
         },
     }
     canonical_record = {
         "request_sha256": v3._request_sha256(
-            "v4-canonical-write", request_inputs
+            "v4-canonical-merge", request_inputs
         ),
         "prompt": {
             "path": _repo_path(layout.canonical_prompt),
@@ -2128,7 +2786,7 @@ def _build_canonical_prompt(
             "sha256": _sha256(prompt.encode("utf-8")),
         },
         "inputs": request_inputs,
-        "reviews": review_records,
+        "contributions": contribution_records,
         "expected_outputs": {
             kind: _repo_path(layout.first_pass(kind)) for kind in KINDS
         },
@@ -2139,11 +2797,13 @@ def _build_canonical_prompt(
 def _ensure_canonical(
     layout: Layout,
     manifest: dict[str, Any],
-    reviews: dict[str, dict[str, Any]],
+    contributions: dict[str, dict[str, Any]],
     *,
     write: bool = True,
 ) -> dict[str, Any]:
-    prompt, expected = _build_canonical_prompt(layout, manifest, reviews)
+    prompt, expected = _build_canonical_prompt(
+        layout, manifest, contributions
+    )
     current = manifest.get("canonical")
     all_output_paths = (
         *(layout.first_pass(kind) for kind in KINDS),
@@ -2338,13 +2998,13 @@ def _scope_handoff(
     return {
         "analysis_id": layout.analysis_id,
         "ayah_ref": layout.ayah_ref,
-        "role": f"{lane}_scope_reviewer",
+        "role": f"{lane}_scope_author",
         "fresh_agent": True,
         "prompt": str(layout.scope_prompt(lane).resolve()),
         "expected_response": _handoff_output_path(
-            layout.scope_review(lane),
+            layout.scope_contribution(lane),
             RAW_ROOT,
-            label=f"{lane} response target",
+            label=f"{lane} contribution target",
         ),
         "workspace": str(REPO_ROOT),
         "request_sha256": manifest["lanes"][lane]["request_sha256"],
@@ -2419,31 +3079,59 @@ def _nonempty_outputs(paths: dict[str, Path]) -> tuple[list[str], list[str]]:
     return present, missing
 
 
+def _assert_fixed_output_names(layout: Layout) -> None:
+    expected_by_root = {
+        layout.raw: {
+            *(layout.scope_contribution(lane).name for lane in LANES),
+            *(layout.first_pass(kind).name for kind in KINDS),
+        },
+        layout.editorial: {
+            layout.editorial_output(kind).name for kind in KINDS
+        },
+    }
+    for root, expected_names in expected_by_root.items():
+        if not root.exists():
+            continue
+        if not root.is_dir() or root.is_symlink():
+            raise WorkflowError(f"Output root is not a regular directory: {root}")
+        unexpected = sorted(
+            child.name
+            for child in root.iterdir()
+            if not child.name.startswith(".") and child.name not in expected_names
+        )
+        if unexpected:
+            raise WorkflowError(
+                f"Unexpected v4 output artifacts in {root}: {unexpected}. "
+                "Preserve, remove, or relocate them explicitly before advancing."
+            )
+
+
 def advance(args: argparse.Namespace) -> dict[str, Any]:
     layout = _layout_for_args(args)
     _assert_layout(layout)
     if args.force_input or not layout.manifest.exists():
         prepare(args)
     manifest = _load_unit_manifest(layout)
-    reviews: dict[str, dict[str, Any]] = {}
+    _assert_fixed_output_names(layout)
+    contributions: dict[str, dict[str, Any]] = {}
     missing_lanes: list[str] = []
     invalid_lanes: dict[str, str] = {}
     for lane in LANES:
         try:
-            review = _load_review(layout, manifest, lane)
+            contribution = _load_contribution(layout, manifest, lane)
         except WorkflowError as exc:
-            review = None
+            contribution = None
             invalid_lanes[lane] = str(exc)
-        if review is None:
+        if contribution is None:
             missing_lanes.append(lane)
         else:
-            reviews[lane] = review
+            contributions[lane] = contribution
     if invalid_lanes:
         details = "; ".join(
             f"{lane}: {issue}" for lane, issue in sorted(invalid_lanes.items())
         )
         raise WorkflowError(
-            "Invalid scope response. V4 does not issue automated repair turns; "
+            "Invalid scope contribution. V4 does not issue automated repair turns; "
             "inspect, remove, or replace the failed artifact explicitly before "
             f"advancing again. {details}"
         )
@@ -2453,14 +3141,14 @@ def advance(args: argparse.Namespace) -> dict[str, Any]:
             "analysis_id": layout.analysis_id,
             "ayah_ref": args.ayah,
             "status": "waiting_for_agents",
-            "stage": "scope_review",
+            "stage": "scope_authoring",
             "missing_lanes": missing_lanes,
             "handoffs": [
                 _scope_handoff(layout, manifest, lane) for lane in missing_lanes
             ],
         }
 
-    canonical = _ensure_canonical(layout, manifest, reviews)
+    canonical = _ensure_canonical(layout, manifest, contributions)
     first_pass_paths = {kind: layout.first_pass(kind) for kind in KINDS}
     first_present, first_missing = _nonempty_outputs(first_pass_paths)
     if first_missing:
@@ -2496,13 +3184,16 @@ def verify(args: argparse.Namespace) -> dict[str, Any]:
     layout = _layout_for_args(args)
     _assert_layout(layout)
     manifest = _load_unit_manifest(layout)
-    reviews: dict[str, dict[str, Any]] = {}
+    _assert_fixed_output_names(layout)
+    contributions: dict[str, dict[str, Any]] = {}
     for lane in LANES:
-        review = _load_review(layout, manifest, lane)
-        if review is None:
-            raise WorkflowError(f"Missing {lane} scope response")
-        reviews[lane] = review
-    canonical = _ensure_canonical(layout, manifest, reviews, write=False)
+        contribution = _load_contribution(layout, manifest, lane)
+        if contribution is None:
+            raise WorkflowError(f"Missing {lane} scope contribution")
+        contributions[lane] = contribution
+    canonical = _ensure_canonical(
+        layout, manifest, contributions, write=False
+    )
     _ensure_editorial(layout, manifest, canonical, write=False)
     outputs: dict[str, dict[str, Any]] = {}
     for phase, paths in (
@@ -2633,7 +3324,8 @@ def _parser() -> argparse.ArgumentParser:
             default="native",
             help=(
                 "Stable human-readable analysis namespace. 'native' preserves "
-                "the default v3 evidence scope."
+                "the default numbered-ayah evidence scope; a lone S:0 focus "
+                "derives sNNN-basmala-full automatically."
             ),
         )
         subparser.add_argument(
@@ -2740,11 +3432,38 @@ def main() -> int:
             if not args.ayah:
                 raise WorkflowError("--ayah is required without --analysis")
             ayah_refs = _expand_ayah_selectors(args.ayah)
+        prefatory_focuses = [ref for ref in ayah_refs if _is_prefatory_ref(ref)]
+        quran_evidence_for_policy: dict[str, dict[str, Any]] | None = None
+        if (
+            composition is None
+            and args.analysis_id == "native"
+            and prefatory_focuses
+        ):
+            if len(ayah_refs) != 1:
+                raise WorkflowError(
+                    "An implicit S:0 full-surah analysis must be invoked as a "
+                    "single-focus command"
+                )
+            quran_evidence_for_policy, _coverage = _quran_text_projection(
+                Path(getattr(args, "quran_text", v3.DEFAULT_QURAN_TEXT))
+            )
+            composition = _automatic_basmala_composition(
+                prefatory_focuses[0], quran_evidence_for_policy
+            )
+            args.analysis_id = composition.analysis_id
         if composition is not None:
             outside = sorted(set(ayah_refs) - set(composition.focus_refs))
             if outside:
                 raise WorkflowError(
                     f"Selected focuses are outside analysis {composition.analysis_id}: {outside}"
+                )
+            if any(_is_prefatory_ref(ref) for ref in composition.focus_refs):
+                if quran_evidence_for_policy is None:
+                    quran_evidence_for_policy, _coverage = _quran_text_projection(
+                        Path(getattr(args, "quran_text", v3.DEFAULT_QURAN_TEXT))
+                    )
+                _validate_basmala_focus_context(
+                    composition, quran_evidence_for_policy
                 )
         args.composition = composition
         if len(ayah_refs) == 1:

@@ -5,10 +5,11 @@ Shared tooling for the two commentary levels. Layer 1 has its own builder under
 
 ## build_bundle.py
 
-Assembles the full, auditable base bundle. Layer 2 does not instantiate this
-bundle directly: `tier_branch_payloads.py` creates the production Layer-2
-projection first. Governed by `COMMENTARY_SPEC.md` §6; sources, formats, and
-gotchas in `docs/SOURCES.md`; output shape in `bundles/schema.json`.
+Assembles the full, auditable base bundle. Active V4 derives focus packets from
+this canonical source and makes its own lean non-focus context projection. The
+legacy direct-instantiation path uses `tier_branch_payloads.py` first. Governed
+by `COMMENTARY_SPEC.md` §6; sources, formats, and gotchas in `docs/SOURCES.md`;
+output shape in `bundles/schema.json`.
 
 ### Run it
 
@@ -129,9 +130,9 @@ bundle whose identity/pericope metadata disagrees with the package. It emits no
 surah aggregate and no `S:0` unit in the
 pericope root. For v4, use that pericope directory as `--context-bundles-dir`
 and pass external/out-of-pericope units, including prefatory basmala, through a
-separate `--member-bundles-dir`. Declare non-basmala external context with
-repeatable comma-separated `--add-ayat` refs; ranges and external focuses are
-not accepted.
+separate `--member-bundles-dir`. Declare every explicit external context unit
+with repeatable comma-separated `--add-ayat` refs; ranges and implicit external
+focuses are not accepted.
 
 The complete prerequisite, package-selection, and agent-handoff sequence is in
 `_commentary/v4/ORCHESTRATION.md`; use its cold-start preflight before beginning

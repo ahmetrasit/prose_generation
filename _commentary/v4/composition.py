@@ -206,7 +206,6 @@ class Composition:
     def context_rows(
         self,
         focus_ref: str,
-        added_ayat_lanes: Iterable[str] = ("micro", "macro", "global"),
     ) -> list[dict[str, Any]]:
         if focus_ref not in self.focus_refs:
             raise CompositionError(
@@ -214,6 +213,7 @@ class Composition:
             )
         focus_segment = self.segment_for(focus_ref).segment_id
         focus_surah = focus_ref.split(":", 1)[0]
+        host_basmala_ref = f"{focus_surah}:0"
         added = set(self.added_ayat_refs)
         rows: list[dict[str, Any]] = []
         context_index = 0
@@ -223,8 +223,11 @@ class Composition:
                     continue
                 lane = (
                     "macro"
-                    if segment.segment_id == focus_segment
-                    and ref.split(":", 1)[0] == focus_surah
+                    if ref == host_basmala_ref
+                    or (
+                        segment.segment_id == focus_segment
+                        and ref.split(":", 1)[0] == focus_surah
+                    )
                     else "global"
                 )
                 rows.append({
@@ -241,22 +244,21 @@ class Composition:
                 })
                 context_index += 1
         for added_index, ref in enumerate(self.added_ayat_refs):
-            for lane in added_ayat_lanes:
-                rows.append({
-                    "ref": ref,
-                    "segment_id": "external-ayat",
-                    "segment_index": -1,
-                    "unit_index": added_index,
-                    "composition_order": context_index + added_index,
-                    "source_pointer": (
-                        "/scope/analysis_composition/surah_membership/"
-                        f"added_ayat_refs/{added_index}"
-                    ),
-                    "lane": lane,
-                    "membership_target_surah": self.member_surah,
-                    "membership_added_ayah": True,
-                    "focus_eligible": False,
-                })
+            rows.append({
+                "ref": ref,
+                "segment_id": "external-ayat",
+                "segment_index": -1,
+                "unit_index": added_index,
+                "composition_order": context_index + added_index,
+                "source_pointer": (
+                    "/scope/analysis_composition/surah_membership/"
+                    f"added_ayat_refs/{added_index}"
+                ),
+                "lane": "macro",
+                "membership_target_surah": self.member_surah,
+                "membership_added_ayah": True,
+                "focus_eligible": False,
+            })
         return rows
 
 

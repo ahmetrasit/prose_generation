@@ -2,8 +2,10 @@
 
 Paths, formats, and verified gotchas for every upstream source read by this
 repository. Shared contract for `_translation/v1/tools/build_bundle.py` (layer
-1), `scripts/build_bundle.py` (full commentary base bundles), and
-`scripts/tier_branch_payloads.py` (the required pre-Layer-2 projection).
+1), `scripts/build_bundle.py` (full commentary base bundles), and the legacy
+direct-instantiation `scripts/tier_branch_payloads.py` projection. Active V4
+derives its own hash-bound focus and lean context packets from the full base
+bundles.
 
 All paths are relative to the sibling-repo root `/Volumes/OZTURK/_projects`.
 

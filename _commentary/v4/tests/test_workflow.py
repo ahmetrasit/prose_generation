@@ -59,6 +59,90 @@ def basmala_bundle(ref: str) -> dict[str, object]:
     return bundle
 
 
+def lane_packet(
+    ref: str,
+    lane: str,
+    packet_hash: str,
+    *,
+    candidate_id: str | None = None,
+    support_id: str = "sup_test",
+) -> dict[str, object]:
+    candidates = []
+    supports = []
+    if candidate_id is not None:
+        candidates.append({"candidate_id": candidate_id, "anchor_refs": [ref]})
+        supports.append({"support_id": support_id})
+    return {
+        "identity": {
+            "ayah_ref": ref,
+            "lane": lane,
+            "lane_packet_sha256": packet_hash,
+        },
+        "focus_surface_evidence": {"arabic_uthmani": "text"},
+        "candidate_inventory": candidates,
+        "support_registry": supports,
+        "branch_registry": [],
+        "connection_registry": [],
+    }
+
+
+def valid_contribution(
+    ref: str,
+    lane: str,
+    packet_hash: str,
+    request_hash: str,
+    *,
+    candidate_id: str | None = None,
+    support_id: str = "sup_test",
+) -> dict[str, object]:
+    decisions = []
+    findings = []
+    movements = []
+    if candidate_id is not None:
+        finding_ref = f"{lane}:finding"
+        decisions.append({
+            "candidate_id": candidate_id,
+            "decision": "accept",
+            "reason": "The packet supplies a bounded mechanism.",
+            "finding_refs": [finding_ref],
+        })
+        findings.append({
+            "finding_ref": finding_ref,
+            "title": "Finding",
+            "claim": "Bounded claim",
+            "mechanism": "Concrete mechanism",
+            "reader_payoff": "Concrete payoff",
+            "containment": "Bounded to the cited evidence",
+            "epistemic_status": "grounded",
+            "candidate_ids": [candidate_id],
+            "support_ids": [support_id],
+            "branch_refs": [],
+            "connection_refs": [],
+            "context_refs": [ref],
+        })
+        movements.append({
+            "movement_key": "movement",
+            "draft_prose": "Akici Turkce hareket.",
+            "finding_refs": [finding_ref],
+        })
+    return {
+        "schema_version": workflow.SCOPE_CONTRIBUTION_SCHEMA_VERSION,
+        "identity": {
+            "ayah_ref": ref,
+            "lane": lane,
+            "lane_packet_sha256": packet_hash,
+            "authoring_request_sha256": request_hash,
+        },
+        "ayah_ref": ref,
+        "lane": lane,
+        "coverage_complete": True,
+        "candidate_decisions": decisions,
+        "findings": findings,
+        "movements": movements,
+        "friction_notes": [],
+    }
+
+
 class LayoutTests(unittest.TestCase):
     def test_layout_has_only_three_artifact_roots(self) -> None:
         layout = workflow.layout_for("29:38")
@@ -175,7 +259,8 @@ class LayoutTests(unittest.TestCase):
 
                 self.assertEqual(Path(scope["prompt"]), layout.scope_prompt("micro"))
                 self.assertEqual(
-                    Path(scope["expected_response"]), layout.scope_review("micro")
+                    Path(scope["expected_response"]),
+                    layout.scope_contribution("micro"),
                 )
                 self.assertTrue(
                     all(
@@ -195,21 +280,116 @@ class LayoutTests(unittest.TestCase):
                 )
 
 
-class PromptTests(unittest.TestCase):
-    def test_scope_templates_are_the_v3_templates(self) -> None:
-        expected_hashes = {
-            "micro": "75f233e513b724d90ad1f5c0c8fa461bb7dea2a65c3fd2dc71c14b3c7bf65b72",
-            "macro": "65d7ff1fcbaa048e497f51297cc15a16728a5583b74d061c5f10214a63c90c0c",
-            "global": "5582ea99648ce111338f28ac033f9a53b51a055c8421162dd1f2b8dc44f566d5",
+class BasmalaFocusPolicyTests(unittest.TestCase):
+    @staticmethod
+    def quran_evidence(ayah_count: int = 11) -> dict[str, dict[str, object]]:
+        return {
+            **{"100:0": {}},
+            **{f"100:{ayah}": {} for ayah in range(1, ayah_count + 1)},
         }
-        for lane, expected_hash in expected_hashes.items():
-            path = workflow.V3_PROMPTS_ROOT / f"scope-{lane}.md"
-            self.assertTrue(path.is_file())
-            self.assertEqual(workflow._sha256(path.read_bytes()), expected_hash)
-            self.assertIn(
-                "commentary-v3-scope-review-v2",
-                path.read_text(encoding="utf-8"),
+
+    def test_implicit_basmala_analysis_contains_the_complete_host_surah(self) -> None:
+        composition = workflow._automatic_basmala_composition(
+            "100:0", self.quran_evidence()
+        )
+
+        self.assertEqual(composition.analysis_id, "s100-basmala-full")
+        self.assertEqual(
+            composition.ordered_refs,
+            ("100:0", *[f"100:{ayah}" for ayah in range(1, 12)]),
+        )
+        self.assertEqual(
+            [(row["ref"], row["lane"]) for row in composition.context_rows("100:0")],
+            [(f"100:{ayah}", "macro") for ayah in range(1, 12)],
+        )
+
+    def test_trailing_truncated_quran_source_is_not_a_complete_host_surah(self) -> None:
+        with self.assertRaisesRegex(
+            workflow.WorkflowError, "complete canonical numbered ayat"
+        ):
+            workflow._automatic_basmala_composition(
+                "100:0", self.quran_evidence(ayah_count=2)
             )
+
+    def test_incomplete_basmala_composition_is_rejected(self) -> None:
+        composition = workflow.compositions.composition_from_cli(
+            "incomplete-basmala",
+            ["host=100:0,100:1-2"],
+            ["100:0"],
+        )
+
+        with self.assertRaisesRegex(
+            workflow.WorkflowError, "complete numbered host surah"
+        ):
+            workflow._validate_basmala_focus_context(
+                composition, self.quran_evidence()
+            )
+
+    def test_basmala_host_ayat_must_stay_in_the_focus_segment(self) -> None:
+        composition = workflow.compositions.composition_from_cli(
+            "split-basmala",
+            ["host=100:0,100:1", "remainder=100:2-11"],
+            ["100:0"],
+        )
+
+        with self.assertRaisesRegex(
+            workflow.WorkflowError, "complete numbered host surah"
+        ):
+            workflow._validate_basmala_focus_context(
+                composition, self.quran_evidence()
+            )
+
+    def test_native_basmala_prepare_fails_closed_without_cli_derivation(self) -> None:
+        layout = workflow.layout_for("100:0")
+        with self.assertRaisesRegex(workflow.WorkflowError, "basmala-only native"):
+            workflow._composition_for_prepare(
+                SimpleNamespace(composition=None), layout
+            )
+
+    def test_complete_basmala_context_lane_contract_is_exact(self) -> None:
+        composition = workflow._automatic_basmala_composition(
+            "100:0", self.quran_evidence()
+        )
+        expected = workflow._expected_context_lanes(
+            composition, "100:0", None
+        )
+
+        self.assertEqual(
+            expected,
+            {f"100:{ayah}": ["macro"] for ayah in range(1, 12)},
+        )
+
+    def test_automatic_numbered_focus_basmala_routes_only_to_macro(self) -> None:
+        expected = workflow._expected_context_lanes(None, "100:1", "100:0")
+        self.assertEqual(expected, {"100:0": ["macro"]})
+        self.assertEqual(
+            [
+                workflow._expected_lane_context_refs(
+                    None, "100:1", "100:0", lane
+                )
+                for lane in workflow.LANES
+            ],
+            [[], ["100:0"], []],
+        )
+
+
+class PromptTests(unittest.TestCase):
+    def test_scope_template_combines_decision_and_prose_in_one_pass(self) -> None:
+        prompt = (workflow.PROMPTS_ROOT / "scope.md").read_text(encoding="utf-8")
+        self.assertIn("one-pass scope author", prompt)
+        self.assertIn("prose-ready Turkish movement", prompt)
+        self.assertIn("candidate_decisions", prompt)
+        self.assertIn("@@CANONICAL_PROMPT_V2@@", prompt)
+        self.assertNotIn("scope-review-v2", prompt)
+
+    def test_governing_spec_matches_active_lane_and_workflow_contract(self) -> None:
+        spec = (workflow.REPO_ROOT / "COMMENTARY_SPEC.md").read_text(
+            encoding="utf-8"
+        )
+        self.assertIn("adds the host surah's `S:0` bundle once to macro", spec)
+        self.assertIn("one-pass micro, macro, and", spec)
+        self.assertNotIn("enter all three lanes", spec)
+        self.assertNotIn("prompts and editorial instructions remain the V3 prompts", spec)
 
     def test_editorial_source_is_unchanged_v3_prompt(self) -> None:
         source = workflow.V3_PROMPTS_ROOT / "editorial-followup.md"
@@ -218,22 +398,148 @@ class PromptTests(unittest.TestCase):
             "5c26ef4d839e15ce8879a4d1811c5fb5e13b30d7c10d15801da3992541c72fea",
         )
 
-    def test_canonical_adapter_preserves_scope_decision_authority(self) -> None:
+    def test_canonical_prompt_is_merge_only(self) -> None:
         prompt = (workflow.PROMPTS_ROOT / "canonical.md").read_text(
             encoding="utf-8"
         )
-        self.assertIn("scope analysts own explicit evidentiary decisions", prompt)
-        self.assertIn("partition the complete union", prompt)
-        self.assertIn("Resolve a referral only when", prompt)
-        self.assertIn("complete union of member candidate", prompt)
+        self.assertIn("Your job is composition, not adjudication", prompt)
+        self.assertIn("Preserve every supplied finding exactly once", prompt)
+        self.assertIn("@@MICRO_CONTRIBUTION_JSON@@", prompt)
+        self.assertNotIn("@@MICRO_PACKET_PATH@@", prompt)
+        self.assertNotIn("recover accounting", prompt)
 
     def test_canonical_render_rejects_unbound_markers(self) -> None:
         with self.assertRaisesRegex(workflow.WorkflowError, "marker mismatch"):
             workflow._render("@@ONE@@ @@TWO@@", {"@@ONE@@": "one"}, label="test")
 
+    def test_canonical_render_contains_contributions_but_no_packet_paths(self) -> None:
+        with tempfile.TemporaryDirectory(dir=workflow.V4_ROOT) as temporary:
+            root = Path(temporary)
+            with (
+                patch.object(workflow, "INPUT_ROOT", root / "input"),
+                patch.object(workflow, "RAW_ROOT", root / "raw"),
+                patch.object(workflow, "EDITORIAL_ROOT", root / "editorial"),
+            ):
+                layout = workflow.layout_for("1:1")
+                layout.input.mkdir(parents=True)
+                layout.raw.mkdir(parents=True)
+                contributions = {}
+                for lane in workflow.LANES:
+                    packet_hash = workflow._sha256(f"{lane}-packet".encode())
+                    request_hash = workflow._sha256(f"{lane}-request".encode())
+                    layout.packet(lane).write_text(
+                        json.dumps(lane_packet("1:1", lane, packet_hash)),
+                        encoding="utf-8",
+                    )
+                    contribution = valid_contribution(
+                        "1:1", lane, packet_hash, request_hash
+                    )
+                    layout.scope_contribution(lane).write_text(
+                        json.dumps(contribution), encoding="utf-8"
+                    )
+                    contributions[lane] = contribution
+                manifest = {
+                    "editorial": {
+                        "instructions_sha256": "a" * 64,
+                        "handoff_template_sha256": "b" * 64,
+                    }
+                }
 
-class ReviewIdentityTests(unittest.TestCase):
-    def test_review_check_is_identity_only_not_semantic_repair(self) -> None:
+                prompt, record = workflow._build_canonical_prompt(
+                    layout, manifest, contributions
+                )
+
+                self.assertIn("<micro_contribution_json>", prompt)
+                self.assertNotIn(str(layout.packet("micro")), prompt)
+                self.assertNotIn("micro_packet_sha256", record["inputs"])
+                self.assertIn("micro_contribution_sha256", record["inputs"])
+
+
+class ColdStartSmokeTests(unittest.TestCase):
+    def test_real_prepare_returns_three_one_pass_scope_handoffs(self) -> None:
+        with tempfile.TemporaryDirectory(dir=workflow.V4_ROOT) as temporary:
+            root = Path(temporary)
+            with (
+                patch.object(workflow, "INPUT_ROOT", root / "input"),
+                patch.object(workflow, "RAW_ROOT", root / "raw"),
+                patch.object(workflow, "EDITORIAL_ROOT", root / "editorial"),
+            ):
+                args = workflow._parser().parse_args(
+                    ["advance", "--ayah", "1:1"]
+                )
+                args.ayah = "1:1"
+                args.composition = None
+
+                prepared = workflow.prepare(args)
+                status = workflow.advance(args)
+                layout = workflow.layout_for("1:1")
+                manifest = json.loads(layout.manifest.read_text(encoding="utf-8"))
+
+                self.assertEqual(prepared["status"], "prepared")
+                self.assertEqual(status["stage"], "scope_authoring")
+                self.assertEqual(
+                    [handoff["role"] for handoff in status["handoffs"]],
+                    [f"{lane}_scope_author" for lane in workflow.LANES],
+                )
+                self.assertEqual(
+                    manifest["schema_version"],
+                    workflow.UNIT_MANIFEST_SCHEMA_VERSION,
+                )
+                for lane in workflow.LANES:
+                    self.assertEqual(
+                        manifest["lanes"][lane]["expected_response"],
+                        workflow._repo_path(layout.scope_contribution(lane)),
+                    )
+                    prompt = layout.scope_prompt(lane).read_text(encoding="utf-8")
+                    self.assertIn("one-pass scope author", prompt)
+                    self.assertIn("<canonical_prompt_v2>", prompt)
+
+    def test_packet_source_coverage_must_match_revalidated_manifest_sources(self) -> None:
+        with tempfile.TemporaryDirectory(dir=workflow.V4_ROOT) as temporary:
+            root = Path(temporary)
+            with (
+                patch.object(workflow, "INPUT_ROOT", root / "input"),
+                patch.object(workflow, "RAW_ROOT", root / "raw"),
+                patch.object(workflow, "EDITORIAL_ROOT", root / "editorial"),
+            ):
+                args = workflow._parser().parse_args(
+                    ["prepare", "--ayah", "1:1"]
+                )
+                args.ayah = "1:1"
+                args.composition = None
+                workflow.prepare(args)
+                layout = workflow.layout_for("1:1")
+
+                packet = json.loads(
+                    layout.packet("macro").read_text(encoding="utf-8")
+                )
+                packet["source_coverage"]["quran_text_source"]["ayah_count"] += 1
+                packet["identity"]["lane_packet_sha256"] = (
+                    workflow.v3._payload_hash_with_identity_field_removed(
+                        packet, "lane_packet_sha256"
+                    )
+                )
+                layout.packet("macro").write_bytes(
+                    workflow._canonical_json_bytes(packet, newline=True)
+                )
+
+                manifest = json.loads(layout.manifest.read_text(encoding="utf-8"))
+                manifest["lanes"]["macro"]["packet"] = workflow._path_record(
+                    layout.packet("macro")
+                )
+                manifest["lanes"]["macro"]["lane_packet_sha256"] = packet[
+                    "identity"
+                ]["lane_packet_sha256"]
+                layout.manifest.write_bytes(workflow._pretty_json_bytes(manifest))
+
+                with self.assertRaisesRegex(
+                    workflow.WorkflowError, "Quran text provenance is stale"
+                ):
+                    workflow._load_unit_manifest(layout)
+
+
+class ContributionValidationTests(unittest.TestCase):
+    def test_valid_complete_contribution_is_loaded(self) -> None:
         with tempfile.TemporaryDirectory() as temporary:
             root = Path(temporary)
             layout = workflow.Layout(
@@ -243,6 +549,7 @@ class ReviewIdentityTests(unittest.TestCase):
                 raw=root / "raw",
                 editorial=root / "editorial",
             )
+            layout.input.mkdir(parents=True)
             layout.raw.mkdir(parents=True)
             packet_hash = "a" * 64
             request_hash = "b" * 64
@@ -255,25 +562,25 @@ class ReviewIdentityTests(unittest.TestCase):
                     }
                 }
             }
-            response = {
-                "identity": {
-                    "ayah_ref": "1:1",
-                    "lane": "micro",
-                    "lane_packet_sha256": packet_hash,
-                    "authoring_request_sha256": request_hash,
-                },
-                "ayah_ref": "1:1",
-                "lane": "micro",
-                "coverage_complete": False,
-            }
-            layout.scope_review("micro").write_text(
+            packet = lane_packet(
+                "1:1", "micro", packet_hash, candidate_id="cand_test"
+            )
+            layout.packet("micro").write_text(json.dumps(packet), encoding="utf-8")
+            response = valid_contribution(
+                "1:1",
+                "micro",
+                packet_hash,
+                request_hash,
+                candidate_id="cand_test",
+            )
+            layout.scope_contribution("micro").write_text(
                 json.dumps(response), encoding="utf-8"
             )
             self.assertEqual(
-                workflow._load_review(layout, manifest, "micro"), response
+                workflow._load_contribution(layout, manifest, "micro"), response
             )
 
-    def test_stale_review_identity_is_rejected(self) -> None:
+    def test_incomplete_candidate_accounting_is_rejected(self) -> None:
         with tempfile.TemporaryDirectory() as temporary:
             root = Path(temporary)
             layout = workflow.Layout(
@@ -283,31 +590,95 @@ class ReviewIdentityTests(unittest.TestCase):
                 raw=root / "raw",
                 editorial=root / "editorial",
             )
+            layout.input.mkdir(parents=True)
             layout.raw.mkdir(parents=True)
+            packet_hash = "a" * 64
+            request_hash = "b" * 64
             manifest = {
                 "lanes": {
                     "micro": {
-                        "packet": {"sha256": "a" * 64},
-                        "lane_packet_sha256": "a" * 64,
-                        "request_sha256": "b" * 64,
+                        "packet": {"sha256": packet_hash},
+                        "lane_packet_sha256": packet_hash,
+                        "request_sha256": request_hash,
                     }
                 }
             }
-            response = {
-                "identity": {
-                    "ayah_ref": "1:2",
-                    "lane": "micro",
-                    "lane_packet_sha256": "a" * 64,
-                    "authoring_request_sha256": "b" * 64,
-                },
-                "ayah_ref": "1:2",
-                "lane": "micro",
-            }
-            layout.scope_review("micro").write_text(
+            packet = lane_packet(
+                "1:1", "micro", packet_hash, candidate_id="cand_test"
+            )
+            layout.packet("micro").write_text(json.dumps(packet), encoding="utf-8")
+            response = valid_contribution(
+                "1:1", "micro", packet_hash, request_hash
+            )
+            layout.scope_contribution("micro").write_text(
                 json.dumps(response), encoding="utf-8"
             )
-            with self.assertRaisesRegex(workflow.WorkflowError, "stale or mixed"):
-                workflow._load_review(layout, manifest, "micro")
+            with self.assertRaisesRegex(workflow.WorkflowError, "accounting is incomplete"):
+                workflow._load_contribution(layout, manifest, "micro")
+
+    def test_each_finding_must_land_once(self) -> None:
+        packet_hash = "a" * 64
+        request_hash = "b" * 64
+        layout = workflow.layout_for("1:1")
+        packet = lane_packet(
+            "1:1", "micro", packet_hash, candidate_id="cand_test"
+        )
+        contribution = valid_contribution(
+            "1:1",
+            "micro",
+            packet_hash,
+            request_hash,
+            candidate_id="cand_test",
+        )
+        contribution["movements"] = []
+        manifest = {
+            "lanes": {
+                "micro": {
+                    "lane_packet_sha256": packet_hash,
+                    "request_sha256": request_hash,
+                }
+            }
+        }
+        with self.assertRaisesRegex(workflow.WorkflowError, "coverage is incomplete"):
+            workflow._validate_scope_contribution(
+                contribution,
+                layout=layout,
+                manifest=manifest,
+                lane="micro",
+                packet=packet,
+            )
+
+    def test_unknown_context_ref_is_rejected(self) -> None:
+        packet_hash = "a" * 64
+        request_hash = "b" * 64
+        layout = workflow.layout_for("1:1")
+        packet = lane_packet(
+            "1:1", "macro", packet_hash, candidate_id="cand_test"
+        )
+        contribution = valid_contribution(
+            "1:1",
+            "macro",
+            packet_hash,
+            request_hash,
+            candidate_id="cand_test",
+        )
+        contribution["findings"][0]["context_refs"] = ["2:2"]
+        manifest = {
+            "lanes": {
+                "macro": {
+                    "lane_packet_sha256": packet_hash,
+                    "request_sha256": request_hash,
+                }
+            }
+        }
+        with self.assertRaisesRegex(workflow.WorkflowError, "unknown IDs"):
+            workflow._validate_scope_contribution(
+                contribution,
+                layout=layout,
+                manifest=manifest,
+                lane="macro",
+                packet=packet,
+            )
 
 
 class StateTests(unittest.TestCase):
@@ -326,6 +697,24 @@ class StateTests(unittest.TestCase):
             present, missing = workflow._nonempty_outputs(paths)
             self.assertEqual(present, ["prose"])
             self.assertEqual(missing, ["evidence"])
+
+    def test_unexpected_output_artifact_is_rejected(self) -> None:
+        with tempfile.TemporaryDirectory(dir=workflow.V4_ROOT) as temporary:
+            root = Path(temporary)
+            with (
+                patch.object(workflow, "INPUT_ROOT", root / "input"),
+                patch.object(workflow, "RAW_ROOT", root / "raw"),
+                patch.object(workflow, "EDITORIAL_ROOT", root / "editorial"),
+            ):
+                layout = workflow.layout_for("1:1")
+                layout.raw.mkdir(parents=True)
+                (layout.raw / "1_1.prose.summary.tr.md").write_text(
+                    "stale", encoding="utf-8"
+                )
+                with self.assertRaisesRegex(
+                    workflow.WorkflowError, "Unexpected v4 output artifacts"
+                ):
+                    workflow._assert_fixed_output_names(layout)
 
     def test_atomic_generated_write_is_idempotent(self) -> None:
         with tempfile.TemporaryDirectory() as temporary:
@@ -366,7 +755,7 @@ class StateTests(unittest.TestCase):
                     workflow.WorkflowError, "Canonical inputs changed"
                 ):
                     workflow._ensure_canonical(
-                        layout, {"canonical": None}, reviews={}
+                        layout, {"canonical": None}, contributions={}
                     )
 
     def test_missing_canonical_prompt_is_regenerated_before_outputs(self) -> None:
@@ -394,7 +783,9 @@ class StateTests(unittest.TestCase):
                     "_build_canonical_prompt",
                     return_value=(payload.decode(), expected),
                 ):
-                    workflow._ensure_canonical(layout, manifest, reviews={})
+                    workflow._ensure_canonical(
+                        layout, manifest, contributions={}
+                    )
                 self.assertEqual(layout.canonical_prompt.read_bytes(), payload)
 
     def test_canonical_verification_mode_does_not_generate_state(self) -> None:
@@ -424,7 +815,7 @@ class StateTests(unittest.TestCase):
             ):
                 with self.assertRaisesRegex(workflow.WorkflowError, "run advance"):
                     workflow._ensure_canonical(
-                        layout, manifest, reviews={}, write=False
+                        layout, manifest, contributions={}, write=False
                     )
             self.assertFalse(layout.canonical_prompt.exists())
             self.assertEqual(manifest, {"canonical": None})
@@ -468,33 +859,41 @@ class OrchestrationAcceptanceTests(unittest.TestCase):
                     "canonical": None,
                     "editorial_turn": None,
                 }
+                for lane in workflow.LANES:
+                    lane_record = manifest["lanes"][lane]
+                    layout.packet(lane).write_text(
+                        json.dumps(
+                            lane_packet(
+                                "1:1",
+                                lane,
+                                lane_record["lane_packet_sha256"],
+                                candidate_id=f"cand_{lane}",
+                            )
+                        ),
+                        encoding="utf-8",
+                    )
                 args = SimpleNamespace(ayah="1:1", force_input=False)
 
                 with patch.object(
                     workflow, "_load_unit_manifest", return_value=manifest
                 ):
                     scope = workflow.advance(args)
-                    self.assertEqual(scope["stage"], "scope_review")
+                    self.assertEqual(scope["stage"], "scope_authoring")
                     self.assertEqual(scope["missing_lanes"], list(workflow.LANES))
 
                     layout.raw.mkdir(parents=True)
                     for lane in workflow.LANES:
                         lane_record = manifest["lanes"][lane]
-                        layout.scope_review(lane).write_text(
-                            json.dumps({
-                                "identity": {
-                                    "ayah_ref": "1:1",
-                                    "lane": lane,
-                                    "lane_packet_sha256": lane_record[
-                                        "lane_packet_sha256"
-                                    ],
-                                    "authoring_request_sha256": lane_record[
-                                        "request_sha256"
-                                    ],
-                                },
-                                "ayah_ref": "1:1",
-                                "lane": lane,
-                            }),
+                        layout.scope_contribution(lane).write_text(
+                            json.dumps(
+                                valid_contribution(
+                                    "1:1",
+                                    lane,
+                                    lane_record["lane_packet_sha256"],
+                                    lane_record["request_sha256"],
+                                    candidate_id=f"cand_{lane}",
+                                )
+                            ),
                             encoding="utf-8",
                         )
 
@@ -538,10 +937,10 @@ class BatchTests(unittest.TestCase):
         results = {
             "1:1": {
                 "status": "waiting_for_agents",
-                "stage": "scope_review",
+                "stage": "scope_authoring",
                 "handoffs": [
-                    {"role": "micro_scope_reviewer"},
-                    {"role": "macro_scope_reviewer"},
+                    {"role": "micro_scope_author"},
+                    {"role": "macro_scope_author"},
                 ],
             },
             "1:2": {
@@ -564,7 +963,7 @@ class BatchTests(unittest.TestCase):
         )
         self.assertEqual(
             [handoff["stage"] for handoff in result["parallel_handoffs"]],
-            ["scope_review", "scope_review", "canonical_write"],
+            ["scope_authoring", "scope_authoring", "canonical_write"],
         )
 
     def test_batch_preserves_other_handoffs_when_one_unit_errors(self) -> None:
@@ -596,7 +995,7 @@ class BatchTests(unittest.TestCase):
 
 
 class RecoveryTests(unittest.TestCase):
-    def test_advance_stops_instead_of_repairing_invalid_regular_review(
+    def test_advance_stops_instead_of_repairing_invalid_contribution(
         self,
     ) -> None:
         with tempfile.TemporaryDirectory(dir=workflow.V4_ROOT) as temporary:
@@ -617,7 +1016,7 @@ class RecoveryTests(unittest.TestCase):
                     }
                 }
 
-                def load_review(
+                def load_contribution(
                     _layout: object, _manifest: object, lane: str
                 ) -> None:
                     if lane == "micro":
@@ -629,7 +1028,9 @@ class RecoveryTests(unittest.TestCase):
                         workflow, "_load_unit_manifest", return_value=manifest
                     ),
                     patch.object(
-                        workflow, "_load_review", side_effect=load_review
+                        workflow,
+                        "_load_contribution",
+                        side_effect=load_contribution,
                     ),
                 ):
                     with self.assertRaisesRegex(
@@ -640,7 +1041,7 @@ class RecoveryTests(unittest.TestCase):
                             SimpleNamespace(ayah="1:1", force_input=False)
                         )
 
-    def test_semantically_incomplete_reviews_advance_directly_to_canonical(
+    def test_incomplete_contribution_fails_before_canonical(
         self,
     ) -> None:
         with tempfile.TemporaryDirectory(dir=workflow.V4_ROOT) as temporary:
@@ -661,34 +1062,29 @@ class RecoveryTests(unittest.TestCase):
                     }
                 }
 
-                def load_review(
+                def load_contribution(
                     _layout: object, _manifest: object, lane: str
                 ) -> dict[str, object]:
-                    return {
-                        "ayah_ref": "1:1",
-                        "lane": lane,
-                        "coverage_complete": False,
-                    }
+                    raise workflow.WorkflowError(
+                        f"{lane} contribution must declare coverage_complete=true"
+                    )
 
                 with (
                     patch.object(
                         workflow, "_load_unit_manifest", return_value=manifest
                     ),
                     patch.object(
-                        workflow, "_load_review", side_effect=load_review
-                    ),
-                    patch.object(
                         workflow,
-                        "_ensure_canonical",
-                        return_value={"request_sha256": "c" * 64},
+                        "_load_contribution",
+                        side_effect=load_contribution,
                     ),
                 ):
-                    result = workflow.advance(
-                        SimpleNamespace(ayah="1:1", force_input=False)
-                    )
-                self.assertEqual(result["stage"], "canonical_write")
-                self.assertEqual(result["handoff"]["role"], "canonical_writer")
-                self.assertNotIn("repair", json.dumps(result).lower())
+                    with self.assertRaisesRegex(
+                        workflow.WorkflowError, "coverage_complete=true"
+                    ):
+                        workflow.advance(
+                            SimpleNamespace(ayah="1:1", force_input=False)
+                        )
 
     def test_advance_force_input_always_runs_prepare(self) -> None:
         with tempfile.TemporaryDirectory(dir=workflow.V4_ROOT) as temporary:
@@ -712,7 +1108,9 @@ class RecoveryTests(unittest.TestCase):
                     patch.object(
                         workflow, "_load_unit_manifest", return_value=manifest
                     ),
-                    patch.object(workflow, "_load_review", return_value=None),
+                    patch.object(
+                        workflow, "_load_contribution", return_value=None
+                    ),
                 ):
                     workflow.advance(SimpleNamespace(ayah="1:1", force_input=True))
                 prepare.assert_called_once()
@@ -747,7 +1145,9 @@ class PathSafetyTests(unittest.TestCase):
             ):
                 layout = workflow.layout_for("1:1")
                 layout.raw.mkdir(parents=True)
-                layout.scope_review("micro").symlink_to(outside / "capture.json")
+                layout.scope_contribution("micro").symlink_to(
+                    outside / "capture.json"
+                )
                 manifest = {
                     "lanes": {"micro": {"request_sha256": "a" * 64}}
                 }
@@ -763,7 +1163,7 @@ class PathSafetyTests(unittest.TestCase):
                 patch.object(workflow, "EDITORIAL_ROOT", root / "editorial"),
             ):
                 layout = workflow.layout_for("1:1")
-                layout.scope_review("micro").mkdir(parents=True)
+                layout.scope_contribution("micro").mkdir(parents=True)
                 manifest = {
                     "lanes": {"micro": {"request_sha256": "a" * 64}}
                 }
@@ -811,7 +1211,7 @@ class PathSafetyTests(unittest.TestCase):
                     "ayah_ref": "100:0",
                     "surface_ref": "100:0",
                     "linguistic_source_ref": "1:1",
-                    "mode": "included_as_surah_preface_context_in_every_lane_packet",
+                    "mode": "included_as_ordinary_context_member",
                     "selected_context_units": [{
                         "ayah_ref": "100:0",
                         "unit_kind": "prefatory_basmala",
@@ -819,7 +1219,7 @@ class PathSafetyTests(unittest.TestCase):
                         "linguistic_source_ref": "1:1",
                         "canonical_sha256": canonical,
                         "source_file": "source.json",
-                        "lanes": list(workflow.LANES),
+                        "lanes": ["macro"],
                     }],
                 }
             }
@@ -853,7 +1253,9 @@ class PathSafetyTests(unittest.TestCase):
                     }),
                     encoding="utf-8",
                 )
-                with self.assertRaisesRegex(workflow.WorkflowError, "identity"):
+                with self.assertRaisesRegex(
+                    workflow.WorkflowError, "legacy or stale schema"
+                ):
                     workflow._load_unit_manifest(layout)
 
 
@@ -958,6 +1360,61 @@ class ProjectionTests(unittest.TestCase):
                     workflow.WorkflowError, "changed during packet projection"
                 ):
                     workflow._quran_text_projection(source)
+
+    def test_out_of_tree_quran_source_round_trips_through_manifest_path(self) -> None:
+        with tempfile.TemporaryDirectory() as temporary:
+            source = Path(temporary) / "quran.tsv"
+            source.write_text("1:1|first\n", encoding="utf-8")
+
+            evidence, coverage = workflow._quran_text_projection(source)
+            verified, current = workflow._verified_quran_text_projection(coverage)
+
+        self.assertEqual(coverage["source_path"], str(source.resolve()))
+        self.assertEqual(
+            evidence["1:1"]["source_pointer"], f"{source.resolve()}#L1"
+        )
+        self.assertEqual(verified, evidence)
+        self.assertEqual(current, coverage)
+
+    def test_inter_ayah_coverage_is_recomputed_on_manifest_load(self) -> None:
+        coverage = {
+            "source_id": "quran-data/inter-ayah-row-reciprocal-v2",
+            "source_document_sha256": "a" * 64,
+        }
+        inputs = {
+            "projection_dir": "/projection",
+            "parent_dir": "/parent",
+        }
+        with patch.object(
+            workflow.v3,
+            "_inter_ayah_evidence_with_fallback",
+            return_value=([], {}, coverage),
+        ) as project:
+            workflow._verified_inter_ayah_projection(
+                coverage,
+                inputs,
+                focus_ref="1:1",
+                numbered_refs={"1:1"},
+                prefatory_focus=False,
+            )
+        project.assert_called_once_with(
+            "1:1", Path("/projection"), Path("/parent"), {"1:1"}
+        )
+
+        changed = {**coverage, "source_document_sha256": "b" * 64}
+        with patch.object(
+            workflow.v3,
+            "_inter_ayah_evidence_with_fallback",
+            return_value=([], {}, changed),
+        ):
+            with self.assertRaisesRegex(workflow.WorkflowError, "provenance is stale"):
+                workflow._verified_inter_ayah_projection(
+                    coverage,
+                    inputs,
+                    focus_ref="1:1",
+                    numbered_refs={"1:1"},
+                    prefatory_focus=False,
+                )
 
     def test_host_surah_controls_automatic_basmala_for_external_context(self) -> None:
         analysis = workflow.compositions.composition_from_cli(
@@ -1118,9 +1575,9 @@ class CompositionIntegrationTests(unittest.TestCase):
             self.assertEqual(value["identity"]["analysis_id"], analysis.analysis_id)
             self.assertNotEqual(value["identity"]["lane_packet_sha256"], "old")
 
-    def test_numbered_ayah_packets_include_prefatory_basmala_context(self) -> None:
+    def test_numbered_ayah_macro_packet_includes_prefatory_basmala_context(self) -> None:
         packet = {
-            "identity": {"ayah_ref": "100:1", "lane": "micro", "lane_packet_sha256": "old"},
+            "identity": {"ayah_ref": "100:1", "lane": "macro", "lane_packet_sha256": "old"},
             "scope": {},
             "candidate_inventory": [],
             "support_registry": [],
@@ -1167,7 +1624,7 @@ class CompositionIntegrationTests(unittest.TestCase):
                 basmala_bundle,
                 basmala_identity,
             ),
-            lane="micro",
+            lane="macro",
         )
 
         self.assertEqual(
@@ -1300,7 +1757,7 @@ class CompositionIntegrationTests(unittest.TestCase):
                 lane="micro",
             )
 
-    def test_added_ayat_share_one_load_and_project_to_all_lanes(self) -> None:
+    def test_added_ayat_share_one_load_and_project_as_macro_context(self) -> None:
         analysis = workflow.compositions.composition_from_cli(
             "s100-plus-17-50",
             ["target=100:1-2"],
@@ -1368,21 +1825,25 @@ class CompositionIntegrationTests(unittest.TestCase):
                 prefatory_basmala_context=None,
                 lane=lane,
             )
-            self.assertIn(
-                "17:50",
-                [unit["ayah_ref"] for unit in augmented["selected_context_units"]],
-            )
-            external = next(
-                candidate
-                for candidate in augmented["candidate_inventory"]
-                if candidate.get("source_local_id") == "17:50"
-            )
-            self.assertEqual(external["source_type"], "external_ayah_member")
-            self.assertFalse(external["focus_eligible"])
+            external_refs = [
+                unit["ayah_ref"]
+                for unit in augmented["selected_context_units"]
+                if unit.get("membership_added_ayah") is True
+            ]
+            self.assertEqual(external_refs, ["17:50"] if lane == "macro" else [])
+            membership = augmented["scope"]["surah_membership"]
             self.assertEqual(
-                augmented["scope"]["surah_membership"]["lane_context_refs"],
-                ["17:50"],
+                membership["lane_context_refs"],
+                ["17:50"] if lane == "macro" else [],
             )
+            if lane == "macro":
+                external = next(
+                    candidate
+                    for candidate in augmented["candidate_inventory"]
+                    if candidate.get("source_local_id") == "17:50"
+                )
+                self.assertEqual(external["source_type"], "external_ayah_member")
+                self.assertFalse(external["focus_eligible"])
 
     def test_added_ayah_conflict_between_roots_is_rejected(self) -> None:
         analysis = workflow.compositions.composition_from_cli(

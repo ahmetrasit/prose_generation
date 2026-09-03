@@ -69,12 +69,12 @@ shown connecting. When secondary resonances cohere, the prose states the
 resulting local surprise clearly: what it makes newly visible and whether it
 supports the primary reading or shifts its frame.
 
-Layer 2 does not select among activated readings. Its production input is made
-by running `scripts/tier_branch_payloads.py` on the full `build_bundle.py`
-output before prompt instantiation. The transport payload is tiered, but every
-dominant/non-dominant root and every dictionary branch identity remains present;
-all non-branch evidence remains unchanged. Payload tiering is not permission to
-drop an activated reading or reader payoff.
+Layer 2 does not select among activated readings. Active V4 preparation derives
+its focus packets from the full canonical `build_bundle.py` output and projects
+every non-focus context member to one uniform lean depth. The legacy direct
+prompt-instantiation path first runs `scripts/tier_branch_payloads.py`; those
+transport tiers are not finding ranks and are not permission to drop an
+activated reading or reader payoff.
 
 The tier labels impose no prose length or priority ranking. Layer 2 remains free
 to develop every materially distinct, anchored surprise that changes the
@@ -153,10 +153,10 @@ they are planned, not because they exist.
   [`_ayah_commentary/v2/PROMPT.md`](_ayah_commentary/v2/PROMPT.md), while the
   active multi-agent runbook is
   [`_commentary/v4/ORCHESTRATION.md`](_commentary/v4/ORCHESTRATION.md). V4 uses
-  one bundle root per ordered analysis and three analysis-namespaced artifact
-  roots, supports parallel focus units and ordered external context, and has no
-  automatic repair cycle. [`scripts/README.md`](scripts/README.md) documents
-  base-bundle construction and the required branch-tier projection.
+  separate package/member bundle roots and three analysis-namespaced artifact
+  roots, supports parallel one-pass scope authors and explicit external context,
+  and has no automatic repair cycle. [`scripts/README.md`](scripts/README.md)
+  documents base and pericope bundle construction.
 - Running surah commentary Layer 3:
   [`_channel/layer3/ORCHESTRATION.md`](_channel/layer3/ORCHESTRATION.md).
 - What evidence exists: [`docs/SOURCES.md`](docs/SOURCES.md) for paths and

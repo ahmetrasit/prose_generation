@@ -12,7 +12,7 @@ The active Layer 3 production contract is
 [`_channel/layer3/ORCHESTRATION.md`](_channel/layer3/ORCHESTRATION.md). The
 former combined Layer 3 + 2.5 overlay workflow is retired.
 
-Status: active draft, updated 2026-08-18. Layer 2 v2 and Layer 3 v3 workflow
+Status: active draft, updated 2026-08-18. Layer 2 V4 and Layer 3 v3 workflow
 contracts are implemented and locally validated; production Layer 3 semantic
 passes have not yet been run.
 
@@ -211,14 +211,13 @@ Contracts and schemas are under `_channel/layer3/`.
 ## 6. Input bundle
 
 Layer 2 uses one canonical bundle per Quran analysis unit. A unit is either a
-numbered ayah or a prefatory basmala. The production bundle is the output of
-`scripts/tier_branch_payloads.py`, run against the full unit bundle
-from `scripts/build_bundle.py` before `scripts/instantiate.py`. The tierer may
-project only `root_lexicon` dictionary/gloss branch payloads and its recorded
-branch policy. It must preserve every root target, every dictionary branch
-identity, and every non-branch field. Its required-source, malformed-citation,
-and semantic-payload checks fail loudly; it never falls back to dictionary
-source files.
+numbered ayah or a prefatory basmala. `scripts/build_bundle.py` creates the full,
+auditable source. Active V4 derives its focus docket and lane packets from that
+source, while selected non-focus units receive the uniform lean projection
+defined below. The retired direct prompt-instantiation path instead runs
+`scripts/tier_branch_payloads.py` before `scripts/instantiate.py`; that tierer
+may project only `root_lexicon` dictionary/gloss branch payloads and must
+preserve every root target, branch identity, and non-branch field.
 
 Branch payload tiers are transport projections, not finding ranks or prose
 budgets. Layer 2 has no root, paragraph, or word-count quota. It must state every
@@ -252,16 +251,16 @@ publication, whole-surah line, and channel material. That full depth is used
 when `S:0` is the focus. Native HFT, inter-ayah completeness, and pericope
 membership are `not_applicable`: those protocols are defined on numbered focus
 ayahs. Existing numbered HFT source runs are not rewritten to claim that they
-included zero; V4 adds `S:0` to the scope packet at ordinary non-focus context
-depth.
+included zero; V4 adds `S:0` once to the macro packet at ordinary non-focus
+context depth.
 
 ### 6.2 Explicit ordered context
 
 Canonical unit bundles remain context-independent. V4 may prepare an analysis
 composition containing one or more ordered, discontinuous, and cross-surah
 segments, with one or more declared focus units. Each focus is authored one at
-a time; every other selected unit becomes context. This supports, without a
-new agent behavior:
+a time; every other selected unit becomes context. This supports, without
+changing the canonical source bundles:
 
 - a basmala focus with a selected surah as context;
 - each numbered ayah as focus with its surah's basmala automatically present;
@@ -270,16 +269,17 @@ new agent behavior:
 - arbitrary explicit additions such as one external ayah outside a pericope.
 
 For every numbered focus in S2-S8 and S10-S114, V4 automatically and mandatorily
-adds the host surah's `S:0` bundle to micro, macro, and global as first-class
-surah-preface context. S1 and S9 retain the exceptions above. A dedicated
-basmala analysis instead makes `S:0` the host focus and selects its activating
-numbered ayat as ordinary context.
+adds the host surah's `S:0` bundle once to macro as first-class, ordinary
+surah-preface context. An explicitly declared host `S:0` is normalized to the
+same macro route and is not duplicated. S1 and S9 retain the exceptions above.
+A dedicated basmala analysis instead makes `S:0` the host focus and selects its
+complete numbered host surah as ordinary macro context.
 
 External ayat use explicit context membership. Every ref must be enumerated;
 comma-separated lists are allowed but ranges and whole-surah shortcuts are not.
-These members retain their original Quran identities, enter all three lanes,
-and are never focus-eligible. The declared host surah, not an external ayah's
-source surah, determines the automatic prefatory basmala.
+These members retain their original Quran identities, enter macro once, and are
+never focus-eligible. The declared host surah, not an external ayah's source
+surah, determines the automatic prefatory basmala.
 
 For ordinary ordered segments, selection order is evidence. Same-surah units in
 the focus's own segment enter the macro packet; cross-segment or cross-surah
@@ -303,9 +303,12 @@ An analysis ID namespaces `input/`, `raw/`, and `editorial/` paths so native and
 custom readings of the same focus cannot collide. The composition JSON, every
 selected bundle hash, deterministic context-projection hash, projected lane
 packets, and output identities are snapshotted in the unit manifest. Multiple
-focus units may be prepared and orchestrated in parallel. The scope-agent
-prompts and editorial instructions remain the V3 prompts; composition changes
-evidence packets, not agent roles or instructions.
+focus units may be prepared and orchestrated in parallel. V4 wraps the
+established V2/V3 interpretive and prose standard in one-pass micro, macro, and
+global contribution prompts; historical stage, role, and file-writing
+instructions in those governing texts do not control V4. The canonical writer
+merges the three completed contributions, and its same live session receives
+the unchanged V3 editorial follow-up.
 
 Layer 3 builds a separate hermetic source packet from Quran text, the typed
 primary floor, the completed four-file Layer-2 v2 artifact set for every

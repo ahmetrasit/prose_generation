@@ -88,6 +88,18 @@ class SelectorTests(unittest.TestCase):
                 ["100:1"],
             )
 
+    def test_host_basmala_is_macro_even_in_a_separate_segment(self) -> None:
+        analysis = composition.composition_from_cli(
+            "segmented-host-basmala",
+            ["preface=100:0", "host=100:1-2"],
+            ["100:1"],
+        )
+
+        self.assertEqual(
+            [(row["ref"], row["lane"]) for row in analysis.context_rows("100:1")],
+            [("100:0", "macro"), ("100:2", "macro")],
+        )
+
     def test_invalid_prefatory_refs_and_zero_range_are_rejected(self) -> None:
         for selector in ("1:0", "9:0", "100:0-2"):
             with self.subTest(selector=selector):
@@ -102,7 +114,7 @@ class SelectorTests(unittest.TestCase):
                 ["2:1"],
             )
 
-    def test_external_ayat_project_to_all_lanes_for_host_focus(self) -> None:
+    def test_external_ayat_project_as_ordinary_macro_context(self) -> None:
         analysis = composition.composition_from_cli(
             "s100-plus-17-50",
             ["target=100:1-3"],
@@ -116,7 +128,7 @@ class SelectorTests(unittest.TestCase):
 
         self.assertEqual(
             [(row["ref"], row["lane"]) for row in added_rows],
-            [("17:50", "micro"), ("17:50", "macro"), ("17:50", "global")],
+            [("17:50", "macro")],
         )
         self.assertEqual(analysis.member_surah, 100)
         self.assertEqual(analysis.added_ayat_refs, ("17:50",))
@@ -137,7 +149,7 @@ class SelectorTests(unittest.TestCase):
         self.assertEqual(analysis.context_refs("100:1"), ("17:50",))
         self.assertEqual(
             [row["lane"] for row in analysis.context_rows("100:1")],
-            ["micro", "macro", "global"],
+            ["macro"],
         )
 
     def test_added_ayat_are_context_only(self) -> None:

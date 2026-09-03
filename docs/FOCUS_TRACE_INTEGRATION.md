@@ -1,5 +1,10 @@
 # Hermetic Focus Trace Integration
 
+> The tier/instantiate commands below document the retired direct Layer-2 path.
+> Active multi-agent work uses `_commentary/v4/ORCHESTRATION.md`: V4 reads the
+> full canonical focus bundle and applies its own lean projection only to
+> non-focus context members.
+
 Hermetic Focus Trace is an upstream workflow in
 `../latent_activation/focus_trace/`. The bundle builder probes both production
 run directory spellings, `runs/s012` and `runs/s12`, and fails on ambiguity

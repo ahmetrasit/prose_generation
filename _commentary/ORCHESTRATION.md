@@ -1,9 +1,9 @@
 # Commentary orchestration
 
 > **Layer 2 retirement notice:** new multi-agent ayah work uses
-> [`v4/ORCHESTRATION.md`](v4/ORCHESTRATION.md). The V4 runbook has one canonical
-> bundle root per ordered analysis, three analysis-namespaced artifact roots,
-> parallel focus-unit orchestration, explicit ordered context, and no
+> [`v4/ORCHESTRATION.md`](v4/ORCHESTRATION.md). The V4 runbook has separate
+> package/member bundle roots, three analysis-namespaced artifact roots,
+> parallel one-pass scope authors, explicit ordered context, and no
 > session/repair state machine.
 > The build/instantiate paths below remain only for existing legacy prompts and
 > outputs.
