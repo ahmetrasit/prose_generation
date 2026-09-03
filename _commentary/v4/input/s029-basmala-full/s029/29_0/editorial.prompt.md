@@ -1,6 +1,6 @@
 # Commentary v4 editorial handoff
 
-Continue as the same live canonical writer for **29:38**. Revise the
+Continue as the same live canonical writer for **29:0**. Revise the
 exact four first-pass files below under the unchanged editorial instructions
 embedded verbatim in this handoff.
 
@@ -10,17 +10,17 @@ and modify nothing else.
 
 ## First-pass inputs
 
-- prose (`sha256:b2882ccb3df90bd78bfa3b53816e13f96b141d24ce44cc3ff27f8785144b2756`): `_commentary/v4/raw/native/s029/29_38/29_38.prose.tr.md`
-- evidence (`sha256:f36f7982a65af7bbcd74b18a338b78df9bb2e3374c27de7fcf2221028a9773a9`): `_commentary/v4/raw/native/s029/29_38/29_38.evidence.tr.md`
-- findings index (`sha256:b4b27671e3130fd6f86f4777e3daf01630925d899d21c5e5e58a2c916ea59e22`): `_commentary/v4/raw/native/s029/29_38/29_38.index.tr.md`
-- friction (`sha256:5a746355f31af49720d6a3a901b128c8b34dcb9b243b2bb662ade506514e9dc6`): `_commentary/v4/raw/native/s029/29_38/29_38.friction.tr.md`
+- prose (`sha256:0f07a0f8538002989af398415090f33ca4fbd1576c2527302c0b9c781b5e2111`): `_commentary/v4/raw/s029-basmala-full/s029/29_0/29_0.prose.tr.md`
+- evidence (`sha256:7bff74f6c9a122a07d3ce6750f8661d26b7ddc8f4de377267f80e41d6f28dc4e`): `_commentary/v4/raw/s029-basmala-full/s029/29_0/29_0.evidence.tr.md`
+- findings index (`sha256:68e91923b94e7e2644788793b8d2b501301eb006a7a9c9d1101db9a6a8a2a798`): `_commentary/v4/raw/s029-basmala-full/s029/29_0/29_0.index.tr.md`
+- friction (`sha256:59df6ed4f7ca03025682c7b946622e1c05338d75d2f265a9fbddee7456255b78`): `_commentary/v4/raw/s029-basmala-full/s029/29_0/29_0.friction.tr.md`
 
 ## Editorial outputs
 
-- prose: `_commentary/v4/editorial/native/s029/29_38/29_38.prose.editorial.tr.md`
-- evidence: `_commentary/v4/editorial/native/s029/29_38/29_38.evidence.editorial.tr.md`
-- findings index: `_commentary/v4/editorial/native/s029/29_38/29_38.index.editorial.tr.md`
-- friction: `_commentary/v4/editorial/native/s029/29_38/29_38.friction.editorial.tr.md`
+- prose: `_commentary/v4/editorial/s029-basmala-full/s029/29_0/29_0.prose.editorial.tr.md`
+- evidence: `_commentary/v4/editorial/s029-basmala-full/s029/29_0/29_0.evidence.editorial.tr.md`
+- findings index: `_commentary/v4/editorial/s029-basmala-full/s029/29_0/29_0.index.editorial.tr.md`
+- friction: `_commentary/v4/editorial/s029-basmala-full/s029/29_0/29_0.friction.editorial.tr.md`
 
 ## Unchanged editorial instructions - verbatim
 

@@ -1,0 +1,294 @@
+{
+  "schema_version": "commentary-v4-scope-contribution-v1",
+  "identity": {
+    "ayah_ref": "29:38",
+    "lane": "macro",
+    "lane_packet_sha256": "1f0888d7dd1f1d3aa7ad6dfb5ff07f1597b3ec70fdb3d67efc24a15f370c7b7b",
+    "authoring_request_sha256": "6268415ea13c3de76d82be5e05bdd0458b84363e15e7a535f785108e4449e62b"
+  },
+  "ayah_ref": "29:38",
+  "lane": "macro",
+  "coverage_complete": true,
+  "candidate_decisions": [
+    {
+      "candidate_id": "cand_df9c356bacb77a20794a",
+      "decision": "accept",
+      "reason": "29:29'daki açık yol kesme bağlamı, odaktaki yoldan alıkoyma fiilini işlek güzergâh, yolcular ve hareketin kesilmesiyle ilişkilendiriyor; paket somut taşıyıcı, mekanizma, before/after değişimi ve okur getirisi sağlıyor.",
+      "finding_refs": ["macro:road-cutting-mobility"]
+    },
+    {
+      "candidate_id": "cand_ff11b4ba64ec617517d0",
+      "decision": "accept",
+      "reason": "29:38'deki meskenlerle 29:41'deki örümcek evi arasında, barınağı yalnız bir kabuk değil destek, ek yeri ve yük taşıyan bir düzenek olarak okutan ayrı bir bağlam mekanizması ve açık bir okur getirisi var.",
+      "finding_refs": ["macro:fitted-dwelling-structure"]
+    },
+    {
+      "candidate_id": "cand_b0cdc9c11beba468f9e4",
+      "decision": "accept",
+      "reason": "Odaktaki açıkça belli olma ve görerek kavrama dili, 29:35'te geride bırakılan açık işaret ve akledenler ifadesiyle doğrudan bağlanıyor; kalıntının olay sonrasında yön gösteren bir kanıta dönüşmesi somut biçimde destekleniyor.",
+      "finding_refs": ["macro:ruin-as-landmark"]
+    },
+    {
+      "candidate_id": "cand_7b6ec7ef851717481779",
+      "decision": "accept",
+      "reason": "29:31-32'de ev halkı ve istisna, 29:41'de ise seçilmiş dayanaklar birlikte veriliyor; odaktaki meskeni fiziksel yer anlamını koruyarak aidiyet, kabul ve koruyucu ilişki açısından değiştiren ayrı bir okuma kurulabiliyor.",
+      "finding_refs": ["macro:shelter-as-belonging"]
+    },
+    {
+      "candidate_id": "cand_64952ac6dfd1c0b90cf4",
+      "decision": "accept",
+      "reason": "29:37-41 ve 29:43'teki açık ayet metinleri, yerleşik beden, görünür kanıt, kibir, suç ve zayıf dayanak sırasını taşıyor; legacy_unbound niteliği görünürlüğü kaldırmıyor, yalnızca bu birleşik mimari okumasının epistemik sınırını zorunlu kılıyor.",
+      "finding_refs": ["macro:stability-test"]
+    },
+    {
+      "candidate_id": "cand_258d68d6010581d8496e",
+      "decision": "accept",
+      "reason": "Odaktaki yol ve görme kelimeleri 29:41'deki örümcek ağına benzeyen zayıf perdeyle aynı somut yüzeyde buluşuyor; HFT kaydı bunun sözlük çevirisi değil, açıkça sınırlandırılmış keşifsel bir benzetme olduğunu belirtiyor.",
+      "finding_refs": ["macro:webbed-sight"]
+    },
+    {
+      "candidate_id": "cand_5b8e47a462dbae9cfa6e",
+      "decision": "accept",
+      "reason": "29:38'deki Âd adı, görünür kılma dili ve 29:40'taki her birini suçuyla yakalama sırası, adları incelenebilir vakalar gibi okutan paket içi bir before/after hareketi sağlıyor; sayma bağlantısı etimoloji değil, HFT'nin açıkça sınırladığı biçimsel bir yankı olarak korunuyor.",
+      "finding_refs": ["macro:case-ledger"]
+    },
+    {
+      "candidate_id": "cand_ctx_2289dc1b718a5197ff13",
+      "decision": "reject",
+      "reason": "29:0 yalnızca otomatik prefatory basmala üyeliğini ve yüzey metnini sağlıyor; 29:38 için somut taşıyıcı, bağlamsal mekanizma, değişen okuma veya ayrı bir okur getirisi vermiyor.",
+      "finding_refs": []
+    }
+  ],
+  "findings": [
+    {
+      "finding_ref": "macro:road-cutting-mobility",
+      "title": "Yoldan alıkoymanın kamusal kesintiye açılması",
+      "claim": "29:38'in Şeytan'ın güzel gösterilen işlerin ardından insanları yoldan alıkoyduğu yönündeki temel okuması, 29:29'un yolu kesme bağlamıyla birlikte başkalarının geçişini ve kaynaklara ulaşmasını bozan etkin bir engelleme olarak görünür.",
+      "mechanism": "Odaktaki yol, alıkoyma ve işler birlikte durur; 29:29 ise yolu kesmeyi, işlek güzergâhı ve yolcuların hareketinin kesilmesini açıkça kurar. Yakın bağlam bu yüzden alıkoymayı yalnız içsel bir sapma değil, kullanılabilir bir geçiş düzenine yönelen dışa dönük eylem olarak genişletir.",
+      "reader_payoff": "Okur, yoldan alıkoyma sözünde yalnız yön kaybını değil, insanların ilerleyişini ve kaynaklara erişimini kesen somut bir hareketi de seçebilir.",
+      "containment": "Âyetin olağan anlamı olan bilinen yoldan uzaklaştırılma korunur. Kamusal yol kesme görüntüsü 29:29'un sağladığı bağlamsal basınçtır; 29:38'in yoldan alıkoymasını tek başına fiziksel yol soygunu diye çevirmeyi gerektirmez.",
+      "epistemic_status": "Güvenilir kanal kanıtı ve açık perikope bağlamıyla desteklenen yerel bağlamsal sentez.",
+      "candidate_ids": ["cand_df9c356bacb77a20794a"],
+      "support_ids": [
+        "sup_4c86cbda457fc090a75c",
+        "sup_4cebd27a45ce2e4abf32",
+        "sup_9589b8f04f9d3592eb22",
+        "sup_aa7da8a5224fd30fbff3",
+        "sup_b188a312e38482aaafb1"
+      ],
+      "branch_refs": [
+        "root_000546/B003",
+        "root_000672/B001",
+        "root_000672/B002",
+        "root_000848/B001",
+        "root_000848/B004",
+        "root_001046/B011",
+        "root_001240/B003",
+        "root_001240/B006",
+        "root_001240/B023"
+      ],
+      "connection_refs": ["conn_630722c657bccfedcdf6"],
+      "context_refs": ["29:29"]
+    },
+    {
+      "finding_ref": "macro:fitted-dwelling-structure",
+      "title": "Meskenin taşıyıcı bir düzenek olarak sınanması",
+      "claim": "29:38'deki meskenler, 29:41'deki örümcek eviyle birlikte okunduğunda yalnız geçmişin görünen kalıntıları değil, barınak adının gerçekten destek ve birleşimlerle iş görüp görmediğini sınayan yapılar olarak belirir.",
+      "mechanism": "Odaktaki mesken yerleşilmiş yeri görünür kanıt haline getirir; 29:41'de ev, örümceğin zayıf eviyle karşılaştırılır. Paket bu karşılaştırmayı dik duran destek, uygun ek yeri, çapraz parçalar ve birleşen yüzeylerin yük taşıması üzerinden kurar; böylece görünüş ile taşıma işlevi ayrışır.",
+      "reader_payoff": "Okur, yurtları yalnız manzaradaki harabe olarak değil, bir barınağın adını taşıyabilmesi için hangi birleşik işlevleri yerine getirmesi gerektiğini gösteren bir sınama olarak görür.",
+      "containment": "29:38'in tarihi yurtları açık kanıt olarak sunan yüzeyi yerinde kalır. Destek ve ek yeri görüntüsü 29:41'deki zayıf evden ve paket içi yapı malzemesinden gelir; mesken kelimesinin tek başına bütün bu teknik ayrıntıları söylediği ileri sürülmez.",
+      "epistemic_status": "Güvenilir kanal kanıtına ve 29:41'in doğrudan ev karşılaştırmasına dayanan, birleştirilmiş yerel okuma.",
+      "candidate_ids": ["cand_ff11b4ba64ec617517d0"],
+      "support_ids": [
+        "sup_0fe4b9ad036326e1a854",
+        "sup_3420e6e4734474286ad5",
+        "sup_9356307ac18b9b5d6571",
+        "sup_a18f9587bf0cab400ef8",
+        "sup_eef53953103112527e89"
+      ],
+      "branch_refs": [
+        "root_000121/B006",
+        "root_000166/B001",
+        "root_000347/B011",
+        "root_000726/B002",
+        "root_001222/B008",
+        "root_001273/B012"
+      ],
+      "connection_refs": ["conn_314ac0eed46265bb9f9e"],
+      "context_refs": ["29:41"]
+    },
+    {
+      "finding_ref": "macro:ruin-as-landmark",
+      "title": "Kalıntının yön gösteren işarete dönüşmesi",
+      "claim": "29:38'de yurtlardan açıkça belli olan şey, 29:35'in açık işaret ve akledenler diliyle birlikte, olay geçtikten sonra da görmeyi anlamaya ve iç kanıta yönlendiren korunmuş bir iz olarak görünür.",
+      "mechanism": "Odaktaki açığa çıkma fiili kanıtı doğrudan yurtlara bağlar ve son söz görerek kavramaya elverişli bir durum taşır. 29:35, yıkılmış kentten akledenler için açık bir işaret bırakıldığını söyleyerek aynı izi önce göze çarpan, sonra anlam açan, daha sonra içten doğrulayan bir harekete dönüştürür.",
+      "reader_payoff": "Harabe, olayın dekoru olmaktan çıkar; ayrılmış bir olayın ardından yönü ve anlamı koruyan bir işaret olarak okunur. Görmek ile kavramak arasındaki geçiş görünür hale gelir.",
+      "containment": "Bedenî görünürlük ve yurtların tanıklığı temel okumanın içinde kalır. İç kavrayış ve yön gösteren işaret, 29:35'in bağlamsal katkısıdır; odaktaki görme ifadesi yalnızca soyut bilgiye indirgenmez.",
+      "epistemic_status": "Güvenilir kanal desteği ve 29:35'in açık işaret bağlantısıyla temellendirilmiş bağlamsal okuma.",
+      "candidate_ids": ["cand_b0cdc9c11beba468f9e4"],
+      "support_ids": [
+        "sup_16efca038eea03d64af6",
+        "sup_75174c86656e229a8ae6",
+        "sup_782eb4659a15f0af3da0",
+        "sup_7f527b731eb1e4e431f6",
+        "sup_e4e46767a633960cd763"
+      ],
+      "branch_refs": [
+        "root_000074/B003",
+        "root_000121/B002",
+        "root_000170/B004",
+        "root_000170/B005",
+        "root_000180/B002",
+        "root_001040/B002"
+      ],
+      "connection_refs": ["conn_9be925dbfa8ea3474562"],
+      "context_refs": ["29:35"]
+    },
+    {
+      "finding_ref": "macro:shelter-as-belonging",
+      "title": "Barınağın aidiyet ve koruma ilişkisi",
+      "claim": "29:38'deki meskenler, yakın bağlamdaki ev halkı ve seçilmiş koruyucularla birlikte, fiziksel yer olmanın yanında kimin içeride sayıldığı, kimin kabul edildiği ve hangi ilişkinin koruma sağladığı sorusunu da görünür kılar.",
+      "mechanism": "Odaktaki yerleşim alanı, 29:31-32'de kent halkı, Lut ve ailesi üzerinden aidiyet ve istisna ilişkileriyle; 29:41'de ise Allah'tan başka edinilen koruyucuların ev benzetmesiyle çevrelenir. Böylece mesken, yaşayanlarını tanıyan ve koruyan bir ilişki düzeni olarak ikinci bir bağlam kazanır.",
+      "reader_payoff": "Okur, yurtların yalnız nerede yaşandığını değil, bir yerin veya ilişkinin gerçekten koruyucu sayılmasını hangi aidiyet ve kabul biçimlerinin mümkün kıldığını da görür.",
+      "containment": "Meskenin fiziksel yer ve kalıntı anlamı korunur. Ev halkı, kabul ve koruyucu ilişki okumaları bağlamdan doğar; mesken kelimesi doğrudan kan bağı veya her tür topluluk anlamına genişletilmez.",
+      "epistemic_status": "Güvenilir kanal malzemesiyle, 29:31-32 ve 29:41'in yakın bağlamından çıkarılan ayrı bir sosyal barınak okuması.",
+      "candidate_ids": ["cand_7b6ec7ef851717481779"],
+      "support_ids": [
+        "sup_364e76cfc81601c6cf58",
+        "sup_748070bde56b5942dc55",
+        "sup_9d31931c52ebea1e09e9",
+        "sup_ded21f511c4f2aa8b1ae",
+        "sup_e0335dc4a16875673f98"
+      ],
+      "branch_refs": [
+        "root_000064/B001",
+        "root_000064/B003",
+        "root_000064/B004",
+        "root_000166/B002",
+        "root_000726/B003",
+        "root_000726/B004",
+        "root_001222/B001",
+        "root_001222/B003"
+      ],
+      "connection_refs": [
+        "conn_7957232d88bd0996251f",
+        "conn_314ac0eed46265bb9f9e"
+      ],
+      "context_refs": ["29:31", "29:32", "29:41"]
+    },
+    {
+      "finding_ref": "macro:stability-test",
+      "title": "Yerleşik görünümün taşıma sınavı",
+      "claim": "Yakın ayet dizisi, 29:38'in görünen yurtlarını geçmiş bir yıkımın izinden, yerleşik bedenleri, açık kanıtı, kibri ve suça bağlanan sonuçları sonunda zayıf bir koruyucu eve bağlayan başarısız bir güven düzeni olarak okumaya açar.",
+      "mechanism": "29:37 bedenleri kendi yurtlarında yere sabitler; odak ayet yurtlardan açıkça belli olan izi, işleri güzelleştirmeyi ve yoldan alıkoymayı verir; 29:39 açık kanıta rağmen büyüklük taslamayı, 29:40 her topluluğu suçu ile karşılayan sonuçları, 29:41 ise seçilmiş koruyucuları en zayıf evle karşılaştırır. 29:43'ün akledenler vurgusu bu zinciri okunabilir bir yapı sınamasına bağlar.",
+      "reader_payoff": "Okur, görünür bir yerleşim veya seçilmiş bir dayanağın yalnızca var görünmesinin yeterli olmadığını; kanıt karşısında yön verip hayatı taşıyıp taşıyamadığının sınandığını fark eder.",
+      "containment": "Âyetin Âd ve Semûd'un yurtlarından görülen tarihsel kanıtı, Şeytan'ın işleri güzel göstermesi ve yoldan alıkoyması temel anlam olarak korunur. Birleşik güven mimarisi okuması legacy_unbound HFT kaydının yazar çıkarımıdır; 29:41'deki benzetmenin yalnızca yıkıntıların açıklaması olabileceği canlı alternatifi yerinde kalır.",
+      "epistemic_status": "Açık ayet metinleriyle temas eden, fakat legacy_unbound HFT sentezi nedeniyle temkinli ve çıkarımsal tutulmuş makro okuma.",
+      "candidate_ids": ["cand_64952ac6dfd1c0b90cf4"],
+      "support_ids": ["sup_01afe80fc3ba4dcd6405"],
+      "branch_refs": [
+        "root_000166/B001",
+        "root_000170/B004",
+        "root_000222/B001",
+        "root_000499/B007",
+        "root_000521/B001",
+        "root_000726/B009",
+        "root_001036/B001",
+        "root_001054/B001",
+        "root_001281/B006",
+        "root_001397/B011",
+        "root_001684/B004",
+        "root_001687/B001"
+      ],
+      "connection_refs": [
+        "conn_0f85d375955afae49954",
+        "conn_0df16f85c8c3d44467a1",
+        "conn_ffac51a6c5eb11e72aa0",
+        "conn_314ac0eed46265bb9f9e",
+        "conn_72e2690863f0e69d1ef1"
+      ],
+      "context_refs": ["29:37", "29:39", "29:40", "29:41", "29:43"]
+    },
+    {
+      "finding_ref": "macro:webbed-sight",
+      "title": "Görüş alanına serilen narin perde",
+      "claim": "Keşifsel ve sınırlı bir maddi benzetme olarak, odaktaki yol ile görme ifadeleri 29:41'deki örümcek ve zayıflık görüntüsüyle buluştuğunda, güzelleştirmenin görme alanına ince bir ağ perdesi serdiği ve ayırt etmenin bu narin engelin altında sürdüğü düşünülebilir.",
+      "mechanism": "Odaktaki yol olağan güzergâh anlamını taşırken son ifade görme yetisini öne çıkarır. 29:41'de örümceğin dokuduğu ev ve zayıflık birlikte verildiğinde, aynı yüzey teması yolu kapatan güçlü bir duvar yerine görüşü örtebilen hafif bir ağ görüntüsü üretir.",
+      "reader_payoff": "Okur, görebilen ve kavrayabilecek durumda olan insanların yine de yönlerinin değişebilmesini, engelin gücünden çok görüş alanını biçimlendiren aldatıcı bir örtü üzerinden de tasavvur edebilir.",
+      "containment": "Odaktaki yolun olağan güzergâh anlamı yerinde kalır; ağsı göz perdesi ilgili dalın uzak ve keşifsel maddi benzetmesidir, ٱلسَّبِيلِ için sözlük çevirisi değildir. 29:41 doğrudan örümcek ve zayıf ev yüzeyini sağlar; HFT'nin hedef morfolojisi ve çözülmemiş dal atıfları nedeniyle bu görüntü kesinleştirilmez.",
+      "epistemic_status": "Legacy_unbound HFT kaydından gelen, açıkça keşifsel ve sözlük anlamı olarak kullanılmayan sınırlı maddi analoji.",
+      "candidate_ids": ["cand_258d68d6010581d8496e"],
+      "support_ids": ["sup_39e089abad690f68c898"],
+      "branch_refs": [
+        "root_000121/B001",
+        "root_000672/B010",
+        "root_001054/B001",
+        "root_001687/B001"
+      ],
+      "connection_refs": ["conn_314ac0eed46265bb9f9e"],
+      "context_refs": ["29:41"]
+    },
+    {
+      "finding_ref": "macro:case-ledger",
+      "title": "Adların incelenebilir vakalara açılması",
+      "claim": "Âd ve Semûd adları, 29:38'in görünür kılınma dili ve 29:40'ta her bir topluluğun suçu ile karşılanmasıyla birlikte, yalnız hatırlanan halk adları değil, her biri kendi izi ve sonucu incelenebilen vakalar gibi okunabilir.",
+      "mechanism": "HFT kaydı Âd özel adının içindeki sayma çağrışımını, odaktaki açığa çıkma dilini ve sonraki her biri ifadesini 29:40'taki suç-sonuç bağlantısıyla birleştirir. Böylece isimler, yurtlardan görülen izleri ve ayrı ayrı karşılanan sonuçları taşıyan bir kayıt düzeninin başlıkları gibi iş görür.",
+      "reader_payoff": "Okur, isimlerin peş peşe anılmasını genel bir tarih listesi olarak bırakmayıp her örneği görünür kanıt ve kendine ait sonuçla birlikte okunabilen bir dosya düzeni olarak kavrayabilir.",
+      "containment": "Âd ve Semûd'un topluluk adları olarak olağan kimliği korunur. Sayma bağlantısı Âd adının etimolojisi veya çevirisi değildir; 29:40'taki her biri ve suçla ilişkilenen sonuç, legacy_unbound HFT kaydının sınırlı biçimsel yankısını taşır.",
+      "epistemic_status": "Legacy_unbound HFT kaydına dayanan, bölünmüş kök çağrışımını kesin etimolojiye çevirmeyen keşifsel bağlamsal okuma.",
+      "candidate_ids": ["cand_5b8e47a462dbae9cfa6e"],
+      "support_ids": ["sup_c02306ffdaee4fc8e150"],
+      "branch_refs": [
+        "root_000170/B004",
+        "root_000521/B001",
+        "root_000989/B001",
+        "root_001315/B003"
+      ],
+      "connection_refs": ["conn_ffac51a6c5eb11e72aa0"],
+      "context_refs": ["29:40"]
+    }
+  ],
+  "movements": [
+    {
+      "movement_key": "road-mobility",
+      "draft_prose": "Âyet ilk bakışta Âd ile Semûd'un yok oluşunu, yurtlarından geriye kalan açık izi ve Şeytan'ın onların yaptıklarını güzel göstererek onları yoldan alıkoymasını anlatır. Sıra önemlidir: geride duran yurtlar tanıklık eder; ardından cazip gösterilen işler, onların anlayabilecek durumda oldukları halde yoldan ayrılmasına dönüşür. {ar:ٱلسَّبِيلِ, tr:es-sebîl, gloss:bilinen yol} bu temel anlamı taşır.\n\nYol kesme anlatısının hemen önceki bağlamda belirginleşmesiyle alıkoyma, insanların ve kaynaklara ulaşmanın sürdürdüğü işlek güzergâhı bozan somut bir eylem olarak da duyulur. Yol yalnız varılacak yön değildir; başkalarının ilerleyebilmesini sağlayan geçiştir. Böylece güzel gösterilen işler, içeride hoş görünen fakat dışarıda başkalarının yolunu kesebilen eylemler olarak görünür. Bu ek görüntü temel anlamı değiştirmez; yoldan alıkoymanın dışa dönük etkisini belirginleştirir.",
+      "finding_refs": ["macro:road-cutting-mobility"]
+    },
+    {
+      "movement_key": "fitted-dwelling",
+      "draft_prose": "{ar:مَّسَٰكِنِهِمْ, tr:mesâkin, gloss:yurtları} sözü, tek başına, yok olmuş bir topluluğun geride kalan meskenlerini ve bu meskenlerden görülen açık kanıtı gösterir. Yakınındaki örümcek evi benzetmesiyle birlikte düşünüldüğünde ev, yalnız üstü örten bir kabuk değil, dik duran destekleri, uygun ek yerleri ve yükü dağıtan parçaları bulunan bir düzenek olarak görünür.\n\nBu bakış yurtları geriye dönük olarak bir yapı sınamasına çevirir: bir şeyin barınak diye görünmesi ile gerçekten taşıması aynı şey değildir. Örümceğin evi, ev adını korurken zayıflığı açığa çıkarır; yurtlardan kalan iz de geçmişi göstermekle birlikte, bir yerleşimin hayatı güvenle taşıyıp taşımadığını düşündürür. Tarihsel kanıt yerinde kalır, ona yapının işleyişini sınayan ikinci bir görüntü eklenir.",
+      "finding_refs": ["macro:fitted-dwelling-structure"]
+    },
+    {
+      "movement_key": "ruin-landmark",
+      "draft_prose": "Âyet kanıtı uzakta verilmiş bir haber olarak değil, yurtların içinden açığa çıkan bir açıklık olarak kurar: size belli olan şey, geride duran meskenlerden görülür. Sonra aynı yakın bağlamda yıkılmış kentten akledenler için açık bir işaret bırakıldığı söylenir. Böylece kalıntı önce göze çarpar, sonra yön gösterir, ardından olay artık geride kalmışken anlamı koruyan bir iç kanıta dönüşür.\n\n{ar:تَّبَيَّنَ, tr:tebeyyene, gloss:açığa çıkmak} ile {ar:مُسْتَبْصِرِينَ, tr:müstebsirîn, gloss:görerek kavrayanlar} birlikte okunduğunda görme ve kavrama birbirinden kopmaz. Yurtların görünür tanıklığı, insanların anlayabilecek durumda olmalarıyla birleşir; açık iz, bakışın içinden geçen bir anlama yolu açar.",
+      "finding_refs": ["macro:ruin-as-landmark"]
+    },
+    {
+      "movement_key": "shelter-belonging",
+      "draft_prose": "Yurtlar fiziksel yer olarak kalır; fakat yakın bağlam bu yerin kimleri içine aldığı sorusunu da açar. Kentin halkı, Lut ve ailesi, ardından bir başkasını Allah'tan ayrı koruyucu edinme benzetmesi, barınmanın yalnız duvarla kurulmadığını gösteren bir dizi oluşturur. Bir ev halkı, yalnız aynı yerde bulunan kişiler değil, tanınan, kabul edilen ve korunması beklenen kimselerdir.\n\nBu yüzden mesken, hem yaşanan yer hem de güven veren bir aidiyet ilişkisi gibi duyulur. Örümcek evinin zayıflığı bu toplumsal görüntüyü keskinleştirir: koruyucu adı taşıyan bir ilişki, gerçekten koruyup korumadığıyla sınanır. Fiziksel yurtların bıraktığı tarihsel iz korunur; ona, kimin içeride sayıldığı ve hangi bağın barınak işlevi gördüğü sorusu eklenir.",
+      "finding_refs": ["macro:shelter-as-belonging"]
+    },
+    {
+      "movement_key": "stability-test",
+      "draft_prose": "Âyet tek başına Âd ve Semûd'un yurtlarından görünen kanıtı, Şeytan'ın işleri güzel göstermesini ve anlayabilecek durumda oldukları halde onları yoldan alıkoymasını söyler. Yakın ayetlerde önce insanların kendi yurtlarında yere kapanmış halde kalması, sonra açık kanıta rağmen büyüklük taslamaları, ardından her topluluğun kendi suçu ile karşılaşması ve sonunda seçilmiş koruyucuların en zayıf eve benzetilmesi gelir.\n\nBu sıra, yurtların yalnız geçmişteki yıkımın izleri olmasının ötesinde, yerleşik görünen bir düzenin gerçekten taşıyıcı olup olmadığını soran bir sınama gibi okunabilir. Görünürlük, kibir ve seçilmiş dayanak aynı düzlemde buluşur: bir düzenin var görünmesi, açık kanıt karşısında yön vermesi veya hayatı taşıması anlamına gelmez. Âyetin tarihsel bildirimi burada yerini korurken, yakın dizi güvenli sanılan yapının içindeki kırılganlığı da görünür kılar.",
+      "finding_refs": ["macro:stability-test"]
+    },
+    {
+      "movement_key": "webbed-sight",
+      "draft_prose": "{ar:ٱلسَّبِيلِ, tr:es-sebîl, gloss:yol} sözü burada bilinen güzergâhı gösterir; sonundaki görme ifadesiyle birlikte, aynı sözün uzak bir maddi görüntüsü de duyulabilir. Örümcek evinin zayıflığıyla yan yana geldiğinde güzelleştirme, görme alanının üzerine serilen ince ve ağsı bir perde gibi tasavvur edilir: ayırt etme yetisi sürer, fakat yönü narin bir örtü biçimlendirir.\n\nBu görüntü yol kelimesinin olağan çevirisinin yerine geçmez. Yoldan alıkoymanın yanında, gören ve kavrayabilecek durumda olan bir topluluğun önüne, gücü büyük görünmeyen fakat bakışın yönünü değiştiren bir perde konabileceğini düşündüren keşifsel bir benzetme olarak kalır.",
+      "finding_refs": ["macro:webbed-sight"]
+    },
+    {
+      "movement_key": "case-ledger",
+      "draft_prose": "Âyetin başındaki Âd ve Semûd adları, yurtlardan görülen açık iz ile birlikte anılır. Yakınındaki devam cümlesi her topluluğu kendi suçu ile karşılanan ayrı bir sonuç içinde ele alınca, adlar yalnız geçmişten hatırlanan halkların başlıkları olarak kalmaz; her biri kendi izi ve karşılığı bulunan incelenebilir vakalara açılır.\n\nÂd adında beliren sayma çağrışımı bu düzeni keşifsel olarak destekler; onu bir etimoloji veya çeviri diye almak gerekmez. Böylece isim, görünür yurt ve ayrı sonuç aynı kayıt hareketinde buluşur: tarihsel örnekler topluca anılırken her birinin kendi eylemi ve karşılığı da görünür kalır.",
+      "finding_refs": ["macro:case-ledger"]
+    }
+  ],
+  "friction_notes": [
+    "Üç HFT kaydında hedef morfolojisi sunulmuyor; dal, kök ve kelime konumu bilgileri paket tarafından atıflı ve kısmen çözülmemiş olarak nitelendiriliyor. Bu nedenle HFT bulguları görünür tutuldu, fakat keşifsel veya temkinli statü ve açık containment ile sınırlandı.",
+    "Bağlantı satırlarında hedef ayetlerin Arapça yüzeyi mevcut olsa da hedef morfolojisi ve bağımsız sözlük çözümlemesi yok; bağlantılar yalnızca verilen ilişki mekanizmaları kadar kullanıldı.",
+    "Paket, aşamalı okuyucu yanıtlarının veya okuyucu yürüyüşlerinin içeriklerini sunmuyor; bu kaynakların sağlayacağı okuyucu-durumu değişimi hakkında çıkarım yapılmadı.",
+    "29:0 prefatory basmala olarak otomatik bağlam üyesi; odak ayet için ayrı bir taşıyıcı, mekanizma veya okuma değişimi vermediği için bulguya dönüştürülmedi."
+  ]
+}

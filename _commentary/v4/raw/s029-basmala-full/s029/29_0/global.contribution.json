@@ -1,0 +1,98 @@
+{
+  "schema_version": "commentary-v4-scope-contribution-v1",
+  "identity": {
+    "ayah_ref": "29:0",
+    "lane": "global",
+    "lane_packet_sha256": "b87171824e80905503148fdfa1708d9b9e6825aa0688dea54466124c82ea9ffb",
+    "authoring_request_sha256": "9ce020e6de69bf9dd327352c22bb0e0d526a8af7dc624b0a543ee9c599d7d547"
+  },
+  "ayah_ref": "29:0",
+  "lane": "global",
+  "coverage_complete": true,
+  "candidate_decisions": [
+    {
+      "candidate_id": "cand_basmala_1ea05fc79f88cd5284d5",
+      "decision": "accept",
+      "reason": "Paket, بِسْمِ içindeki adlandırma taşıyıcısını ve Allah'ın özel adıyla ilişkisini, 29:2-6 ile 29:51 ve 29:53'teki daha geniş tetikleyicileri, focus ayetine dönüş yolunu ve okuyucu kazanımını birlikte veriyor. Bu nedenle aday, birbirinden farklı mekanizmaları koruyan iki sınırlandırılmış global bulgu olarak kabul edildi.",
+      "finding_refs": [
+        "global:ad-yetki-cercevesi",
+        "global:merhamet-sinama-zemini"
+      ]
+    }
+  ],
+  "findings": [
+    {
+      "finding_ref": "global:ad-yetki-cercevesi",
+      "title": "Adın geniş bağlamı taşıyan çerçevesi",
+      "claim": "29:0'daki adlandırma, surenin sınama, kurtuluş ve dönüş anlatılarını Allah'ın yetkisi altında okutan bir üst başlık gibi işler; bu geniş yankı, بِسْمِ ile Allah'ın özel adı arasındaki ilişki üzerinden focus ayetine geri döner.",
+      "mechanism": "Paketin geniş okuyuşunda adlandırma, insanların söylediklerinin sınama, bilgi ve emek tarafından açığa çıkarıldığı ilk diziye yerleştirilir; 29:53'te belirlenmiş bir adlandırma yeniden görünerek aynı ad baskısını tetikler. Böylece başlangıçtaki ad, yalnızca bir giriş işareti değil, söz ve eylemin hangi yetki altında sorumluluk kazanacağını belirleyen bir çerçeve olarak okunur.",
+      "reader_payoff": "Okur, basmalayı süslenmiş bir önsöz olarak bırakmadan, ilerideki iddia ve eylemlerin kimin adıyla okunacağını baştan belirleyen bir başlangıç eylemi olarak kavrar.",
+      "containment": "Bu okuma, 'Merhameti sınırsız, merhamet eden Allah'ın adıyla' birincil anlamını ve adla başlama bildirimini korur. Üst başlık ve hesap verebilirlik etkisi, kelimenin bu yerde duruşu ile paketteki geniş tetikleyicilerden çıkan bir yankıdır; ayeti bütün sura tezine indirgemez ve adın sözlük anlamının yerine geçmez.",
+      "epistemic_status": "Paketin kanonik desteğiyle taşınan, odak ifadenin yerleşimi ve sonraki tetikleyicilerden çıkarılan sınırlı bir geniş-bağlam yorumudur.",
+      "candidate_ids": [
+        "cand_basmala_1ea05fc79f88cd5284d5"
+      ],
+      "support_ids": [
+        "sup_basmala_b9fdfc10b909918af5b8"
+      ],
+      "branch_refs": [
+        "root_000745/B005",
+        "root_000047/B002"
+      ],
+      "connection_refs": [],
+      "context_refs": [
+        "29:2",
+        "29:3",
+        "29:4",
+        "29:5",
+        "29:6",
+        "29:53"
+      ]
+    },
+    {
+      "finding_ref": "global:merhamet-sinama-zemini",
+      "title": "Merhametin sınamayı çevreleyen zemini",
+      "claim": "Başlangıçtaki iki merhamet nitelemesi, daha geniş dizideki sınamayı ilahî terk ediliş olarak değil, açığa çıkaran ve düzelten bir ilişki içinde okumaya elverişli bir zemin kurar; merhamet burada sınamanın bildirilen sebebi değil, onun okunuşunu çevreleyen çerçevedir.",
+      "mechanism": "29:2-3'te sınama fiilinin tekrarı ve 29:5-6'da belirlenmiş buluşma ile çabanın Allah'ın işitmesi, bilmesi ve kendine yeter oluşu içinde anılması, focus ayetindeki merhamet kökünü sonraki açığa çıkma hareketine bağlar. 29:51'de merhametin sürekli okunan bir kitapta işleyen bir hitap biçimi olarak görünmesi, bu başlangıç zeminine daha sonraki bir taşıyıcı da verir.",
+      "reader_payoff": "Okur, sınanmayı otomatik olarak ilahî terk ediliş diye okumak zorunda kalmaz; iddianın açığa çıkması ve biçimlenmesi, eşikte duyulan merhametle birlikte düşünülebilir.",
+      "containment": "Bu bulgu, 'Merhameti sınırsız, merhamet eden Allah'ın adıyla' sözündeki birincil merhamet bildirimini taşır ve ona geniş bağlamdan gelen bir ilişki çerçevesi ekler. Paket merhametin sınamaya neden olduğunu söylemediği için nedensellik kurulmaz; alışılmadık kök ve bağlam yankıları, açık merhamet okumasını bastırmadan ihtiyatla tutulur.",
+      "epistemic_status": "Paket içindeki zayıf çapraz-run bulgusu ile geniş okuyuşun verdiği bağlardan çıkarılan, nedensellik iddiası taşımayan ihtiyatlı bir rezonanstır.",
+      "candidate_ids": [
+        "cand_basmala_1ea05fc79f88cd5284d5"
+      ],
+      "support_ids": [
+        "sup_basmala_b9fdfc10b909918af5b8"
+      ],
+      "branch_refs": [
+        "root_000552/B001"
+      ],
+      "connection_refs": [],
+      "context_refs": [
+        "29:2",
+        "29:3",
+        "29:5",
+        "29:6",
+        "29:51"
+      ]
+    }
+  ],
+  "movements": [
+    {
+      "movement_key": "ad-yetki-cercevesi",
+      "draft_prose": "Merhameti sınırsız, merhamet eden Allah'ın adıyla. Bu sözde ad, yalnızca başlangıçta anılan bir isim olarak kalmaz. Sözün hemen ardından insanın söyledikleri sınanıp yaptıklarıyla açığa çıktığında, başlangıçtaki adlandırma bütün bu yürüyüşün hangi yetki altında okunacağını belirleyen yüksek bir başlık gibi duyulur. Böylece basmala, ilerideki iddia ve eylemleri kendi başına sahiplenmez; onları Allah'ın adıyla sorumluluk alanına yerleştirir. Daha sonra belirlenmiş bir adlandırmanın yeniden görünmesi de bu yankıyı güçlendirir: ad vermek, yalnızca anmak değil, sözün ve eylemin sınırını görünür kılmak anlamına gelebilir. Bu, ayetin açıkça söylediği tek anlamın yerine geçen bir hüküm değil, başlangıçtaki yerleşimle geniş bağlamın birlikte açtığı sınırlı bir imkandır.",
+      "finding_refs": [
+        "global:ad-yetki-cercevesi"
+      ]
+    },
+    {
+      "movement_key": "merhamet-sinama-zemini",
+      "draft_prose": "Merhameti sınırsız, merhamet eden Allah'ın adıyla sözü, eşiğe iki merhamet niteliği yerleştirir. Sonraki akışta sınanmanın tekrarlanması, belirlenmiş buluşmanın ve çabanın ilahî işitme, bilme ve kendine yeter oluşla birlikte anılması, bu merhameti sınamanın karşısına dikilen bir duygu değil, sınamanın nasıl okunacağını çevreleyen bir ilişki olarak geri getirir. Sınanma böylece ilahî terk ediliş olarak değil, iddianın açığa çıkması ve düzelmeye yönelmesiyle birlikte düşünülebilir; yine de merhametin sınamaya sebep olduğu söylenmez. Daha ileride merhametin sürekli okunan kitapta işleyen bir hitap biçimine dönüşmesi, eşikteki iki niteliğin yalnızca duygusal bir önsöz değil, düzeltici açıklığın taşıyıcı zemini olabileceğini hissettirir.",
+      "finding_refs": [
+        "global:merhamet-sinama-zemini"
+      ]
+    }
+  ],
+  "friction_notes": [
+    "Bu prefatory birimde yerel HFT, inter-ayah ve ayrı bağlantı kayıtları uygulanabilir değildir; geniş okumalar yalnızca aynı destek demetindeki çapraz-run ve okuyucu yürüyüşünün verdiği tetikleyicilerle sınırlı tutuldu."
+  ]
+}

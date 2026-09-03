@@ -15,23 +15,13 @@
         "context_projection_protocol": "commentary-v4-native-context-member-v1",
         "context_projection_sha256": "37701812680de2ba4acd3547afeb3040ed1e3cfae25c9fb2f4ff2a220c514eb4",
         "lane_bindings": {
-          "global": {
-            "composition_order": 0,
-            "segment_id": "surah-with-prefatory-basmala"
-          },
           "macro": {
-            "composition_order": 0,
-            "segment_id": "surah-with-prefatory-basmala"
-          },
-          "micro": {
             "composition_order": 0,
             "segment_id": "surah-with-prefatory-basmala"
           }
         },
         "lanes": [
-          "micro",
-          "macro",
-          "global"
+          "macro"
         ],
         "linguistic_source_ref": "1:1",
         "schema_version": "input-bundle-v4",
@@ -44,6 +34,23 @@
   "analysis_id": "native",
   "ayah_ref": "29:38",
   "canonical": {
+    "contributions": {
+      "global": {
+        "bytes": 35416,
+        "path": "_commentary/v4/raw/native/s029/29_38/global.contribution.json",
+        "sha256": "69e92d74585873c07514fa9c520cb2c307a809cd8c1d196b5d6316ad0f616851"
+      },
+      "macro": {
+        "bytes": 25118,
+        "path": "_commentary/v4/raw/native/s029/29_38/macro.contribution.json",
+        "sha256": "6875b941d8e6e0a2a993422c9faff43597381cecd76fb50ed9fb4cc90ed144df"
+      },
+      "micro": {
+        "bytes": 39048,
+        "path": "_commentary/v4/raw/native/s029/29_38/micro.contribution.json",
+        "sha256": "f924309c1345807e86a9e56587d0e8b69ee9a5fd451d6ee1a114ec51f07518a1"
+      }
+    },
     "expected_outputs": {
       "evidence": "_commentary/v4/raw/native/s029/29_38/29_38.evidence.tr.md",
       "friction": "_commentary/v4/raw/native/s029/29_38/29_38.friction.tr.md",
@@ -54,45 +61,26 @@
       "ayah_ref": "29:38",
       "canonical_prompt_v2_sha256": "a6e17213aed8ed538cc1ca2cfa957bfbc4617991df4da6df87bce7f09323468d",
       "channels_sha256": "e4a9ab0c3eec6af0d559c194254e240aa233ce515376d1f9763676ec3ae8b754",
-      "commentary_spec_sha256": "897ef9e33e2dde39bc7cc990c92bccc7a693a512fbac6b24c990ee6c42dddad8",
+      "commentary_spec_sha256": "54a50d7d5aa4d3ed8a84d097407f79f6f82338e7ee4b478242678cc48775d911",
       "editorial_handoff_template_sha256": "b6e6ee7d428989cc71eeeca78ceaa7163123cf484c3df4f1805074fb88a8ce0b",
       "editorial_instructions_sha256": "5c26ef4d839e15ce8879a4d1811c5fb5e13b30d7c10d15801da3992541c72fea",
-      "global_packet_sha256": "c478ba6c6a24ce1f0882b6f13c51b7f244df5ba807bfc33fcb79ab44b2621529",
-      "global_review_sha256": "1820a61cf0b011fe696154712509530bb139f7ffd9e643f00e0da45dad01a9e6",
-      "macro_packet_sha256": "07f6af5adfa1952840a7d4420418c63edec6cac58f21bb2b7d9ff18407d5403f",
-      "macro_review_sha256": "820b1e20f7b5d0a1083570d1eff43dd8ce9c4c163e1085b20974c0433fa0d647",
-      "micro_packet_sha256": "465233e5baec2654fd3a03fe27c6a9ddfbf43a4a1c6278c5c33532154bfe120c",
-      "micro_review_sha256": "97603140c3fd02c13738c0f7f716df8473aa613d82dfa522aee8045dcb52927b",
+      "focus_surface_sha256": "e52d6fa99ae313a3c08d32fde1cd57a9632042058358a824ab6e33ce50a884a8",
+      "global_contribution_sha256": "69e92d74585873c07514fa9c520cb2c307a809cd8c1d196b5d6316ad0f616851",
+      "macro_contribution_sha256": "6875b941d8e6e0a2a993422c9faff43597381cecd76fb50ed9fb4cc90ed144df",
+      "micro_contribution_sha256": "f924309c1345807e86a9e56587d0e8b69ee9a5fd451d6ee1a114ec51f07518a1",
       "principles_sha256": "fe4c0397d275a0201b8803782011ab9281392c2f76dc5e7584e1bec827c0c62c",
-      "template_sha256": "8d32c57891d728a29b75b9c71fcb795a3785dcf24ce08347d694cae9cc811c3f"
+      "template_sha256": "e62ad8c9f682bd40a249277578466635b2137928e6e063d052bc70e0d19be3c1"
     },
     "prompt": {
-      "bytes": 595330,
+      "bytes": 177253,
       "path": "_commentary/v4/input/native/s029/29_38/canonical.prompt.md",
-      "sha256": "2b303cf964e0744e64f4be138ec61fe7e9fa606b03e8920eae28715ed77b455a"
+      "sha256": "74344bbecbd18d5010ecb5104d72ad022dfbf93be4c69bd533a0679c77f70607"
     },
-    "request_sha256": "e67bbe5eefb062d1b7147a3a9d77ca09a06c89b295775b57659c7419e69ec501",
-    "reviews": {
-      "global": {
-        "bytes": 401123,
-        "path": "_commentary/v4/raw/native/s029/29_38/global.review.json",
-        "sha256": "1820a61cf0b011fe696154712509530bb139f7ffd9e643f00e0da45dad01a9e6"
-      },
-      "macro": {
-        "bytes": 76010,
-        "path": "_commentary/v4/raw/native/s029/29_38/macro.review.json",
-        "sha256": "820b1e20f7b5d0a1083570d1eff43dd8ce9c4c163e1085b20974c0433fa0d647"
-      },
-      "micro": {
-        "bytes": 179720,
-        "path": "_commentary/v4/raw/native/s029/29_38/micro.review.json",
-        "sha256": "97603140c3fd02c13738c0f7f716df8473aa613d82dfa522aee8045dcb52927b"
-      }
-    }
+    "request_sha256": "18baef1cd6a89fcd6af77075a30a6f824fe7fa1702ab5eb2b05bb33d57252048"
   },
   "canonical_template": {
     "path": "_commentary/v4/prompts/canonical.md",
-    "sha256": "8d32c57891d728a29b75b9c71fcb795a3785dcf24ce08347d694cae9cc811c3f"
+    "sha256": "e62ad8c9f682bd40a249277578466635b2137928e6e063d052bc70e0d19be3c1"
   },
   "context_package": null,
   "docket": {
@@ -132,7 +120,7 @@
     "instructions_source": "_commentary/v3/prompts/editorial-followup.md"
   },
   "editorial_turn": {
-    "canonical_request_sha256": "e67bbe5eefb062d1b7147a3a9d77ca09a06c89b295775b57659c7419e69ec501",
+    "canonical_request_sha256": "18baef1cd6a89fcd6af77075a30a6f824fe7fa1702ab5eb2b05bb33d57252048",
     "expected_outputs": {
       "evidence": "_commentary/v4/editorial/native/s029/29_38/29_38.evidence.editorial.tr.md",
       "friction": "_commentary/v4/editorial/native/s029/29_38/29_38.friction.editorial.tr.md",
@@ -141,45 +129,61 @@
     },
     "first_pass": {
       "evidence": {
-        "bytes": 206293,
+        "bytes": 46717,
         "path": "_commentary/v4/raw/native/s029/29_38/29_38.evidence.tr.md",
-        "sha256": "a2e191e863d7e2eda53d12b137279a5cf4dad04238fcb6b41a331538f5b91aa8"
+        "sha256": "f36f7982a65af7bbcd74b18a338b78df9bb2e3374c27de7fcf2221028a9773a9"
       },
       "friction": {
-        "bytes": 4185,
+        "bytes": 3828,
         "path": "_commentary/v4/raw/native/s029/29_38/29_38.friction.tr.md",
-        "sha256": "bc6da6b0d8edc9967a12ca5c2c2ed007ca0eeff9e1aba13d43a7e69705ca2a5f"
+        "sha256": "5a746355f31af49720d6a3a901b128c8b34dcb9b243b2bb662ade506514e9dc6"
       },
       "index": {
-        "bytes": 10537,
+        "bytes": 8974,
         "path": "_commentary/v4/raw/native/s029/29_38/29_38.index.tr.md",
-        "sha256": "be33d3032f38b475a34436bfb960450e199ee9548b58703d2b60834ecfd0f813"
+        "sha256": "b4b27671e3130fd6f86f4777e3daf01630925d899d21c5e5e58a2c916ea59e22"
       },
       "prose": {
-        "bytes": 15833,
+        "bytes": 12323,
         "path": "_commentary/v4/raw/native/s029/29_38/29_38.prose.tr.md",
-        "sha256": "4c9fb56d75796194fc234a9db55a02b7e7a06e6567e2f0bc2c36312d6cfb235c"
+        "sha256": "b2882ccb3df90bd78bfa3b53816e13f96b141d24ce44cc3ff27f8785144b2756"
       }
     },
     "inputs": {
       "ayah_ref": "29:38",
-      "canonical_request_sha256": "e67bbe5eefb062d1b7147a3a9d77ca09a06c89b295775b57659c7419e69ec501",
-      "evidence_input_sha256": "a2e191e863d7e2eda53d12b137279a5cf4dad04238fcb6b41a331538f5b91aa8",
-      "friction_input_sha256": "bc6da6b0d8edc9967a12ca5c2c2ed007ca0eeff9e1aba13d43a7e69705ca2a5f",
-      "index_input_sha256": "be33d3032f38b475a34436bfb960450e199ee9548b58703d2b60834ecfd0f813",
+      "canonical_request_sha256": "18baef1cd6a89fcd6af77075a30a6f824fe7fa1702ab5eb2b05bb33d57252048",
+      "evidence_input_sha256": "f36f7982a65af7bbcd74b18a338b78df9bb2e3374c27de7fcf2221028a9773a9",
+      "friction_input_sha256": "5a746355f31af49720d6a3a901b128c8b34dcb9b243b2bb662ade506514e9dc6",
+      "index_input_sha256": "b4b27671e3130fd6f86f4777e3daf01630925d899d21c5e5e58a2c916ea59e22",
       "instructions_sha256": "5c26ef4d839e15ce8879a4d1811c5fb5e13b30d7c10d15801da3992541c72fea",
-      "prose_input_sha256": "4c9fb56d75796194fc234a9db55a02b7e7a06e6567e2f0bc2c36312d6cfb235c",
+      "prose_input_sha256": "b2882ccb3df90bd78bfa3b53816e13f96b141d24ce44cc3ff27f8785144b2756",
       "template_sha256": "b6e6ee7d428989cc71eeeca78ceaa7163123cf484c3df4f1805074fb88a8ce0b"
     },
     "prompt": {
       "bytes": 5484,
       "path": "_commentary/v4/input/native/s029/29_38/editorial.prompt.md",
-      "sha256": "4bb4eb083927778371ca9d08c08c0be3253f0cf4862b53b15c2dfc261c746ad8"
+      "sha256": "34924b48d561978b378aecaf8acbb5949e88f1268276c0a411e8353a855b6a4d"
     },
-    "request_sha256": "a6c6aa13a0bb6e84fe786e4c9fbfde0a329fb5c820862e435ed61bdebf09aa72"
+    "request_sha256": "b7d0b05eaffd9f0329156a91279dafa457d32110b8bffbf8d3ac9295bc4be647"
   },
   "evidence_projection": {
-    "implementation": "_commentary/v3/render_authoring.py",
+    "implementation": {
+      "composition": {
+        "bytes": 37453,
+        "path": "_commentary/v4/composition.py",
+        "sha256": "b4b46b37eec1f916207c01ac89f563afa42130a110555183603e39fcccbebea5"
+      },
+      "v3_projection": {
+        "bytes": 476273,
+        "path": "_commentary/v3/render_authoring.py",
+        "sha256": "f530013fe4c7ca2b7172488702f246917ce02deac95bb9128f0f00b6ded5b259"
+      },
+      "workflow": {
+        "bytes": 134685,
+        "path": "_commentary/v4/workflow.py",
+        "sha256": "6dc68a1023213a5cc8632112b8a5467d7848c9e7864db10c6d76704ab417317b"
+      }
+    },
     "inter_ayah": {
       "directional_review_row_count": 140,
       "directional_source_available_for_pointer_dereference": true,
@@ -207,6 +211,10 @@
       "source_document_sha256": "cba5aa22bbeb2ae3898d39946e1a457bc8e3d9e17ae2fd6d0c66abe7865b5f78",
       "source_id": "quran-data/inter-ayah-row-reciprocal-v2"
     },
+    "inter_ayah_inputs": {
+      "parent_dir": "quran-data/data/analysis/inter-ayah",
+      "projection_dir": "quran-data/data/analysis/inter-ayah/reciprocal"
+    },
     "quran_text": {
       "ayah_count": 6348,
       "source_id": "quran-data/quran-uthmani",
@@ -216,24 +224,35 @@
   },
   "lanes": {
     "global": {
-      "expected_response": "_commentary/v4/raw/native/s029/29_38/global.review.json",
-      "lane_packet_sha256": "f8950d18191ee2d26b97fe03d56c04318343b2745421d65291ca09c0feaf4678",
+      "expected_response": "_commentary/v4/raw/native/s029/29_38/global.contribution.json",
+      "lane_packet_sha256": "7df1717bf2d163e3cc4b8d004256fb1fa2062925cb6240a9fdc04e6e3bb9c999",
       "packet": {
-        "bytes": 1291877,
+        "bytes": 1285620,
         "path": "_commentary/v4/input/native/s029/29_38/global.packet.json",
-        "sha256": "c478ba6c6a24ce1f0882b6f13c51b7f244df5ba807bfc33fcb79ab44b2621529"
+        "sha256": "868f383f884da4a983963df8edd94f88b1a7a3626d9a040f14915ada7b962802"
       },
       "prompt": {
-        "bytes": 1307899,
+        "bytes": 1358309,
         "path": "_commentary/v4/input/native/s029/29_38/global.prompt.md",
-        "sha256": "a0aecbe728b3a612f21b3fa515007d30d46b2a1da9f0bc36212aaaebab96bf42"
+        "sha256": "5b8911038bea0f5cb2790f260cb0e7a86d2977ebac372df2d4445f243700f03c"
       },
-      "request_sha256": "b7020f06d6a72e9caebe7fb1e6ce55eec5c3f701b197aea131f35c8216b1cbd1",
-      "template_sha256": "5582ea99648ce111338f28ac033f9a53b51a055c8421162dd1f2b8dc44f566d5",
-      "template_source": "_commentary/v3/prompts/scope-global.md"
+      "request_inputs": {
+        "ayah_ref": "29:38",
+        "canonical_prompt_v2_sha256": "a6e17213aed8ed538cc1ca2cfa957bfbc4617991df4da6df87bce7f09323468d",
+        "channels_sha256": "e4a9ab0c3eec6af0d559c194254e240aa233ce515376d1f9763676ec3ae8b754",
+        "commentary_spec_sha256": "54a50d7d5aa4d3ed8a84d097407f79f6f82338e7ee4b478242678cc48775d911",
+        "lane": "global",
+        "lane_packet_sha256": "7df1717bf2d163e3cc4b8d004256fb1fa2062925cb6240a9fdc04e6e3bb9c999",
+        "principles_sha256": "fe4c0397d275a0201b8803782011ab9281392c2f76dc5e7584e1bec827c0c62c",
+        "template_sha256": "e75c0d27f878691a22910c4a9f3a1546d72e50a7f03ce133ff6ef36e46bcdaf9"
+      },
+      "request_sha256": "35df040354d22037a55497cf6b226573e74c056cb26ac96efcb43f43088cfabd",
+      "response_schema_version": "commentary-v4-scope-contribution-v1",
+      "template_sha256": "e75c0d27f878691a22910c4a9f3a1546d72e50a7f03ce133ff6ef36e46bcdaf9",
+      "template_source": "_commentary/v4/prompts/scope.md"
     },
     "macro": {
-      "expected_response": "_commentary/v4/raw/native/s029/29_38/macro.review.json",
+      "expected_response": "_commentary/v4/raw/native/s029/29_38/macro.contribution.json",
       "lane_packet_sha256": "1f0888d7dd1f1d3aa7ad6dfb5ff07f1597b3ec70fdb3d67efc24a15f370c7b7b",
       "packet": {
         "bytes": 781607,
@@ -241,30 +260,52 @@
         "sha256": "07f6af5adfa1952840a7d4420418c63edec6cac58f21bb2b7d9ff18407d5403f"
       },
       "prompt": {
-        "bytes": 796526,
+        "bytes": 854287,
         "path": "_commentary/v4/input/native/s029/29_38/macro.prompt.md",
-        "sha256": "fd7ac7ad9b46ea23b3981cecb62684f6796d9b1d1f3616ce700031a1b76175e3"
+        "sha256": "09e7c646cc0f4e6a794cdb226f83faede89be74e865ec4f73e21d006e037c020"
       },
-      "request_sha256": "c4378881a5f05f97a3c8dc553b02fb2f75e8d89499eb7feb6dac336e84f70b31",
-      "template_sha256": "65d7ff1fcbaa048e497f51297cc15a16728a5583b74d061c5f10214a63c90c0c",
-      "template_source": "_commentary/v3/prompts/scope-macro.md"
+      "request_inputs": {
+        "ayah_ref": "29:38",
+        "canonical_prompt_v2_sha256": "a6e17213aed8ed538cc1ca2cfa957bfbc4617991df4da6df87bce7f09323468d",
+        "channels_sha256": "e4a9ab0c3eec6af0d559c194254e240aa233ce515376d1f9763676ec3ae8b754",
+        "commentary_spec_sha256": "54a50d7d5aa4d3ed8a84d097407f79f6f82338e7ee4b478242678cc48775d911",
+        "lane": "macro",
+        "lane_packet_sha256": "1f0888d7dd1f1d3aa7ad6dfb5ff07f1597b3ec70fdb3d67efc24a15f370c7b7b",
+        "principles_sha256": "fe4c0397d275a0201b8803782011ab9281392c2f76dc5e7584e1bec827c0c62c",
+        "template_sha256": "e75c0d27f878691a22910c4a9f3a1546d72e50a7f03ce133ff6ef36e46bcdaf9"
+      },
+      "request_sha256": "6268415ea13c3de76d82be5e05bdd0458b84363e15e7a535f785108e4449e62b",
+      "response_schema_version": "commentary-v4-scope-contribution-v1",
+      "template_sha256": "e75c0d27f878691a22910c4a9f3a1546d72e50a7f03ce133ff6ef36e46bcdaf9",
+      "template_source": "_commentary/v4/prompts/scope.md"
     },
     "micro": {
-      "expected_response": "_commentary/v4/raw/native/s029/29_38/micro.review.json",
-      "lane_packet_sha256": "afd67097672853c15e60d3e6b790713bb5f19b3f7ab943a6639c51a469c8766a",
+      "expected_response": "_commentary/v4/raw/native/s029/29_38/micro.contribution.json",
+      "lane_packet_sha256": "4de2e08920717f8d996565f51697db0449f036aff369a692cbc6e7efba1dccf3",
       "packet": {
-        "bytes": 780733,
+        "bytes": 774479,
         "path": "_commentary/v4/input/native/s029/29_38/micro.packet.json",
-        "sha256": "465233e5baec2654fd3a03fe27c6a9ddfbf43a4a1c6278c5c33532154bfe120c"
+        "sha256": "8931a2b56e438af6aff817b60aeebf7a04595d2a0c34407d864a1c4fd5fc8b3c"
       },
       "prompt": {
-        "bytes": 793721,
+        "bytes": 847159,
         "path": "_commentary/v4/input/native/s029/29_38/micro.prompt.md",
-        "sha256": "e6d09073d4ec27a017b43fa3a2d42f473688152b781f8bfeaf53accfd7ac9570"
+        "sha256": "d78ccaced633e8ead8b72dc5321846e3c05a288ff524e14a25cbd475828bda3b"
       },
-      "request_sha256": "c5ed3f092069d95145813cb76795236a223c608490a3e550a3386acb0a4f6e0b",
-      "template_sha256": "75f233e513b724d90ad1f5c0c8fa461bb7dea2a65c3fd2dc71c14b3c7bf65b72",
-      "template_source": "_commentary/v3/prompts/scope-micro.md"
+      "request_inputs": {
+        "ayah_ref": "29:38",
+        "canonical_prompt_v2_sha256": "a6e17213aed8ed538cc1ca2cfa957bfbc4617991df4da6df87bce7f09323468d",
+        "channels_sha256": "e4a9ab0c3eec6af0d559c194254e240aa233ce515376d1f9763676ec3ae8b754",
+        "commentary_spec_sha256": "54a50d7d5aa4d3ed8a84d097407f79f6f82338e7ee4b478242678cc48775d911",
+        "lane": "micro",
+        "lane_packet_sha256": "4de2e08920717f8d996565f51697db0449f036aff369a692cbc6e7efba1dccf3",
+        "principles_sha256": "fe4c0397d275a0201b8803782011ab9281392c2f76dc5e7584e1bec827c0c62c",
+        "template_sha256": "e75c0d27f878691a22910c4a9f3a1546d72e50a7f03ce133ff6ef36e46bcdaf9"
+      },
+      "request_sha256": "c24e105ebe815c4a3b14f7822c4083a83d66dbf089d8389767b82cc297d947f6",
+      "response_schema_version": "commentary-v4-scope-contribution-v1",
+      "template_sha256": "e75c0d27f878691a22910c4a9f3a1546d72e50a7f03ce133ff6ef36e46bcdaf9",
+      "template_source": "_commentary/v4/prompts/scope.md"
     }
   },
   "layout": {
@@ -276,7 +317,7 @@
     "ayah_ref": "29:0",
     "canonical_sha256": "6b0467fca5f4add9d570439fb7d630f86f0f867530ee9e0682bf428a8e41bd8f",
     "linguistic_source_ref": "1:1",
-    "mode": "included_as_surah_preface_context_in_every_lane_packet",
+    "mode": "included_as_ordinary_context_member",
     "origin": "prose_generation/bundles/s029/29_0.ayah.json",
     "selected_context_units": [
       {
@@ -288,23 +329,13 @@
         "context_projection_protocol": "commentary-v4-native-context-member-v1",
         "context_projection_sha256": "37701812680de2ba4acd3547afeb3040ed1e3cfae25c9fb2f4ff2a220c514eb4",
         "lane_bindings": {
-          "global": {
-            "composition_order": 0,
-            "segment_id": "surah-with-prefatory-basmala"
-          },
           "macro": {
-            "composition_order": 0,
-            "segment_id": "surah-with-prefatory-basmala"
-          },
-          "micro": {
             "composition_order": 0,
             "segment_id": "surah-with-prefatory-basmala"
           }
         },
         "lanes": [
-          "micro",
-          "macro",
-          "global"
+          "macro"
         ],
         "linguistic_source_ref": "1:1",
         "schema_version": "input-bundle-v4",
@@ -320,7 +351,7 @@
     },
     "surface_ref": "29:0"
   },
-  "schema_version": "commentary-v4-unit-manifest-v4",
+  "schema_version": "commentary-v4-unit-manifest-v5",
   "source": {
     "canonical_sha256": "702dd7200f5e8f6795213f4cc9de257da29c65ddc7e60614f1dde219f8d6287d",
     "origin": "prose_generation/bundles/s029/29_38.ayah.json",
