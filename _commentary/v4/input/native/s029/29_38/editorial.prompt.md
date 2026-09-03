@@ -8,12 +8,41 @@ The explicit destination map below overrides the filename-location example in
 the embedded instructions. Write exactly the four editorial files listed here
 and modify nothing else.
 
+## Semantic invariants
+
+- Improve cadence, continuity, clarity, and repetition without deleting,
+  combining, weakening, or genericizing any finding.
+- Preserve every finding's top-level semantic `prose_statement` verbatim and
+  exactly once. Its editorial landing-map `prose_quote` must equal that exact
+  sentence, not merely point to nearby generic prose.
+- Preserve every branch-activation sentence listed in the first-pass index's
+  landing map verbatim and exactly once in editorial reader prose. Integrate
+  these sentences fluently; they explain which carrier/root meaning meets which
+  trigger and why the resulting reading becomes active.
+- Keep internal root/branch IDs, finding IDs, evidence IDs, lane names, and
+  QAC/analysis coordinates out of reader prose. They remain in the apparatus.
+- Preserve each finding's context refs, evidence boundary, concrete semantic
+  details, counter-readings, and epistemic qualification.
+- Preserve each finding's exact single-line provenance-ledger JSON object from
+  the first-pass evidence and index exactly once in each editorial apparatus
+  file. Do not edit, reserialize, or duplicate it, and make each landing-map
+  apparatus quote encompass the complete object.
+- Replace the first-pass landing map with exactly one final fenced
+  `commentary-v4-landing-map` JSON block at the end of the editorial findings
+  index. Use schema `commentary-v4-canonical-landing-map-v1`, ayah `29:38`, and
+  phase `editorial`. Keep the same finding order and exact activation quote
+  arrays. Repeat each finding's exact semantic `prose_quote`; update its unique
+  `evidence_quote` and `index_quote` to point to the editorial files. Evidence
+  and index quotes must contain the exact finding ref and exact provenance
+  ledger. Quotes for different findings may not overlap or contain one another.
+  Write no text after the block.
+
 ## First-pass inputs
 
-- prose (`sha256:b2882ccb3df90bd78bfa3b53816e13f96b141d24ce44cc3ff27f8785144b2756`): `_commentary/v4/raw/native/s029/29_38/29_38.prose.tr.md`
-- evidence (`sha256:f36f7982a65af7bbcd74b18a338b78df9bb2e3374c27de7fcf2221028a9773a9`): `_commentary/v4/raw/native/s029/29_38/29_38.evidence.tr.md`
-- findings index (`sha256:b4b27671e3130fd6f86f4777e3daf01630925d899d21c5e5e58a2c916ea59e22`): `_commentary/v4/raw/native/s029/29_38/29_38.index.tr.md`
-- friction (`sha256:5a746355f31af49720d6a3a901b128c8b34dcb9b243b2bb662ade506514e9dc6`): `_commentary/v4/raw/native/s029/29_38/29_38.friction.tr.md`
+- prose (`sha256:b2c2cdf9cde765ff104cd28d20772211d3040daa3efefef944f2f04c9b0bac06`): `_commentary/v4/raw/native/s029/29_38/29_38.prose.tr.md`
+- evidence (`sha256:a15b64f558725241d241eaaf6c0b236866394c27d1abfc4ecdd144a8e6f75fd0`): `_commentary/v4/raw/native/s029/29_38/29_38.evidence.tr.md`
+- findings index (`sha256:c3828d5745f4b52c6a95fb58eaab8ac8e2bdf12f94adfb1f74f7ebe88d625c52`): `_commentary/v4/raw/native/s029/29_38/29_38.index.tr.md`
+- friction (`sha256:29639d5889fe5e301bf1954d491ed82b3cd30bc0d5ca1c9474d99859a1fdcb83`): `_commentary/v4/raw/native/s029/29_38/29_38.friction.tr.md`
 
 ## Editorial outputs
 

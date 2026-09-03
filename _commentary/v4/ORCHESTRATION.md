@@ -9,12 +9,14 @@ The fixed sequence is:
 ```text
 prepare
   -> 3 fresh one-pass scope authors in parallel
+  -> same scope author for one repair turn if its contribution is invalid
   -> 1 fresh canonical merge writer
   -> same canonical writer for editorial
   -> verify
 ```
 
-There are no repair, reconciliation, retry, or session-recovery stages.
+There are no reconciliation, retry-loop, or session-recovery stages. The only
+repair path is a single same-agent scope repair described below.
 
 ## 1. Preflight
 
@@ -128,10 +130,15 @@ one exact JSON object to:
 raw/<analysis-id>/sNNN/S_A/<lane>.contribution.json
 ```
 
-Do not edit, normalize, or supplement a contribution. Do not run an agent a
-second time automatically. A malformed, stale, incomplete, or unknown-evidence
-response is a unit error that requires explicit operator inspection and
-replacement.
+Do not edit, normalize, or supplement a contribution. If a malformed, stale,
+incomplete, or unknown-evidence response fails workflow validation, preserve the
+bad artifact outside the active raw path and send exactly one repair request to
+the same live scope agent. The repair request must give the same prompt and
+expected response path, must instruct the agent not to read the failed artifact
+or any existing output data, and must require overwriting the expected response
+directly. When that same agent returns the second artifact for the lane, accept
+it as the lane contribution and continue the fixed workflow; do not run another
+repair, do not spawn a replacement, and do not create a retry loop.
 
 Each contribution must decide every candidate and audit every supplied branch
 facet, connection, and nested connection-evidence row. Every accepted or
@@ -207,7 +214,8 @@ carried in both apparatus files.
 
 If the canonical conversation is lost, use the returned
 `restart_if_agent_unavailable` canonical prompt and regenerate the complete
-first-pass set before producing editorial output. Do not invent a repair stage.
+first-pass set before producing editorial output. Do not invent any repair stage
+outside the single same-agent scope repair.
 
 ## 5. Complete and verify
 
@@ -313,10 +321,12 @@ A failed unit does not suppress ready handoffs for other batch units. A
   source change and `git diff` before replacing generated input.
 - `--force-input` changes generated input only. It never adopts, deletes, or
   rewrites raw or editorial work.
-- Do not create session IDs, attempt counters, repair prompts, reconciliation
-  ledgers, or hidden worktrees.
+- Do not create session IDs, attempt counters, separate repair prompts,
+  reconciliation ledgers, or hidden worktrees.
 - Do not drive an errored unit with an automatic retry loop.
 - Do not modify agent outputs in place. Preserve, remove, or relocate a failed
-  artifact explicitly, then rerun the fixed stage.
+  scope artifact explicitly, then send one same-agent repair request. Accept the
+  second returned artifact for that lane and continue; do not spawn a replacement
+  for the same lane unless the original live agent is unavailable.
 - Treat partial work as ordinary Git-visible state. V4 does not create a second
   history mechanism.

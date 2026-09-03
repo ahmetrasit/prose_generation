@@ -1,421 +1,1214 @@
 {
-  "schema_version": "commentary-v4-scope-contribution-v1",
+  "schema_version": "commentary-v4-scope-contribution-v2",
   "identity": {
     "ayah_ref": "29:0",
     "lane": "micro",
-    "lane_packet_sha256": "189d1a92c4d4565153c9420b118d0c6142eb40b2bec423cfb126137e326e1df0",
-    "authoring_request_sha256": "3c3d406858a239787abc17f891461645a49366ad7e6524328ba5d8590e6e76ae"
+    "lane_packet_sha256": "8344f70ae1c4dfa812ce4e5e0c5e99508efe4125478a0450d31f241fc8ae497f",
+    "authoring_request_sha256": "3bd867f6ada6c631f34a750a3b02c3ca8c555e727cf6a3e7756606d7734165d1"
   },
   "ayah_ref": "29:0",
   "lane": "micro",
   "coverage_complete": true,
+  "discovery_audit": {
+    "reviewed_surface_refs": [
+      "1:1:1",
+      "1:1:2",
+      "1:1:3",
+      "1:1:4",
+      "1:1:5"
+    ],
+    "reviewed_context_refs": [],
+    "reviewed_support_ids": [
+      "sup_0269958b2367af9c5e43",
+      "sup_0d8b07eb431a21708089",
+      "sup_3904c7864e7ec72fc6b8",
+      "sup_3d9db17a6b2ee32b24cc",
+      "sup_46da0fbbee759728567b",
+      "sup_4a6a06dc50a4443bda26",
+      "sup_701f6be1a818d6d1c994",
+      "sup_7522ff51600da0a209ed",
+      "sup_86c91a923c49bc88a942",
+      "sup_8e572e4e186ddeacaa5c",
+      "sup_a9711d331c8ab9ebfd32",
+      "sup_ba54357b33ac2f1cbc46",
+      "sup_db7bbf7d31cf15bf9543"
+    ],
+    "discovered_finding_refs": [
+      "micro:mercy-softened-heart",
+      "micro:mercy-protective-act",
+      "micro:divine-mercy-reaching"
+    ],
+    "branch_dispositions": [
+      {
+        "branch_ref": "root_000047/B001",
+        "facet_id": "F001",
+        "decision": "no_independent_trigger",
+        "reason": "Faset ifadesi “Temel eylem, bir varlığa tapınmak ve kişinin kendini bu tapınmaya vermesidir.” için yüzeydeki taşıyıcı(lar) 1:1:2:1; bu özel anlamı bağımsızca kuran ayrı bir kelime, eylem veya gramatik dönüş bulunmadığından temas bağımsız bir okuma değişimi üretmiyor.",
+        "finding_refs": []
+      },
+      {
+        "branch_ref": "root_000047/B001",
+        "facet_id": "F002",
+        "decision": "no_independent_trigger",
+        "reason": "Faset ifadesi “Eylemden türeyen varlık anlamı, kendisine tapınılan varlığı veya tapınma konusu sayılan nesneyi gösterir.” için yüzeydeki taşıyıcı(lar) 1:1:2:1; bu özel anlamı bağımsızca kuran ayrı bir kelime, eylem veya gramatik dönüş bulunmadığından temas bağımsız bir okuma değişimi üretmiyor.",
+        "finding_refs": []
+      },
+      {
+        "branch_ref": "root_000047/B001",
+        "facet_id": "F003",
+        "decision": "no_independent_trigger",
+        "reason": "Faset ifadesi “Ettirgen kullanım, bir varlığı başkalarınca tapınılır duruma getirme veya öyle sunma işlemini bildirir.” için yüzeydeki taşıyıcı(lar) 1:1:2:1; bu özel anlamı bağımsızca kuran ayrı bir kelime, eylem veya gramatik dönüş bulunmadığından temas bağımsız bir okuma değişimi üretmiyor.",
+        "finding_refs": []
+      },
+      {
+        "branch_ref": "root_000047/B001",
+        "facet_id": "F004",
+        "decision": "no_independent_trigger",
+        "reason": "Faset ifadesi “Güneşe kimi topluluklarca tapınılması nedeniyle ona tapınılan varlık anlamındaki bir ad verilmesi, varlık anlamının tarihsel bir örneğidir.” için yüzeydeki taşıyıcı(lar) 1:1:2:1; bu özel anlamı bağımsızca kuran ayrı bir kelime, eylem veya gramatik dönüş bulunmadığından temas bağımsız bir okuma değişimi üretmiyor.",
+        "finding_refs": []
+      },
+      {
+        "branch_ref": "root_000047/B002",
+        "facet_id": "F001",
+        "decision": "no_independent_trigger",
+        "reason": "Faset ifadesi “Dalın merkezinde, Yaratıcıyı başkalarından ayırarak gösteren ve yalnız ona özgü sayılan özel ad bulunur.” için yüzeydeki taşıyıcı(lar) 1:1:2:1; bu özel anlamı bağımsızca kuran ayrı bir kelime, eylem veya gramatik dönüş bulunmadığından temas bağımsız bir okuma değişimi üretmiyor.",
+        "finding_refs": []
+      },
+      {
+        "branch_ref": "root_000047/B002",
+        "facet_id": "F002",
+        "decision": "no_independent_trigger",
+        "reason": "Faset ifadesi “Özel adın, tapınılan varlığı bildiren genel addan ses düşmesi ve belirleyici unsur eklenmesiyle oluştuğu açıklanır.” için yüzeydeki taşıyıcı(lar) 1:1:2:1; bu özel anlamı bağımsızca kuran ayrı bir kelime, eylem veya gramatik dönüş bulunmadığından temas bağımsız bir okuma değişimi üretmiyor.",
+        "finding_refs": []
+      },
+      {
+        "branch_ref": "root_000047/B002",
+        "facet_id": "F003",
+        "decision": "no_independent_trigger",
+        "reason": "Faset ifadesi “Özel ad, sözün başında ant değeri taşıyarak ardından gelen yapmama bildirimini güçlendirebilir.” için yüzeydeki taşıyıcı(lar) 1:1:2:1; bu özel anlamı bağımsızca kuran ayrı bir kelime, eylem veya gramatik dönüş bulunmadığından temas bağımsız bir okuma değişimi üretmiyor.",
+        "finding_refs": []
+      },
+      {
+        "branch_ref": "root_000047/B002",
+        "facet_id": "F004",
+        "decision": "no_independent_trigger",
+        "reason": "Faset ifadesi “Özel adın doğrudan ya da seslenme öğesi yerine geçen bir sonla kullanılması, yakarma ve dilek bildiren seslenme biçimleri kurar.” için yüzeydeki taşıyıcı(lar) 1:1:2:1; bu özel anlamı bağımsızca kuran ayrı bir kelime, eylem veya gramatik dönüş bulunmadığından temas bağımsız bir okuma değişimi üretmiyor.",
+        "finding_refs": []
+      },
+      {
+        "branch_ref": "root_000047/B002",
+        "facet_id": "F005",
+        "decision": "no_independent_trigger",
+        "reason": "Faset ifadesi “Ses veya parçaların düşürüldüğü kısalmış biçimler, şaşma ve ant anlatan kalıplarda kullanılır.” için yüzeydeki taşıyıcı(lar) 1:1:2:1; bu özel anlamı bağımsızca kuran ayrı bir kelime, eylem veya gramatik dönüş bulunmadığından temas bağımsız bir okuma değişimi üretmiyor.",
+        "finding_refs": []
+      },
+      {
+        "branch_ref": "root_000552/B001",
+        "facet_id": "F001",
+        "decision": "activated",
+        "reason": "İki r-h-m sıfatı ile Allah özel adının aynı yapıda buluşması, yüreği yumuşatan yakınlık fasetini yerel olarak görünür kılıyor.",
+        "finding_refs": [
+          "micro:mercy-softened-heart"
+        ]
+      },
+      {
+        "branch_ref": "root_000552/B001",
+        "facet_id": "F002",
+        "decision": "activated",
+        "reason": "İki r-h-m sıfatı ile Allah özel adının aynı yapıda buluşması, merhametin esirgeyip iyilik eden etkin sonucunu yerel olarak görünür kılıyor.",
+        "finding_refs": [
+          "micro:mercy-protective-act"
+        ]
+      },
+      {
+        "branch_ref": "root_000552/B001",
+        "facet_id": "F003",
+        "decision": "no_independent_trigger",
+        "reason": "Faset ifadesi “Topluluğun bireylerinin birbirine acıyıp birbirini esirgemesi, çekirdeğin karşılıklı bir kuruluşta gerçekleşmesidir.” için yüzeydeki taşıyıcı(lar) 1:1:3:2, 1:1:4:2; bu özel anlamı bağımsızca kuran ayrı bir kelime, eylem veya gramatik dönüş bulunmadığından temas bağımsız bir okuma değişimi üretmiyor.",
+        "finding_refs": []
+      },
+      {
+        "branch_ref": "root_000552/B001",
+        "facet_id": "F004",
+        "decision": "no_independent_trigger",
+        "reason": "Faset ifadesi “Bir kimsenin Tanrı'nın esirgemesine erişmesini dilemek, çekirdek anlamdan doğan kalıplaşmış bir söz eylemidir.” için yüzeydeki taşıyıcı(lar) 1:1:3:2, 1:1:4:2; bu özel anlamı bağımsızca kuran ayrı bir kelime, eylem veya gramatik dönüş bulunmadığından temas bağımsız bir okuma değişimi üretmiyor.",
+        "finding_refs": []
+      },
+      {
+        "branch_ref": "root_000552/B001",
+        "facet_id": "F005",
+        "decision": "activated",
+        "reason": "Allah özel adı ile iki r-h-m sıfatının aynı yapıda buluşması, Tanrı hakkında kullanılan geniş ve yaratılmışlara ulaşan merhamet fasetini yerel olarak görünür kılıyor.",
+        "finding_refs": [
+          "micro:divine-mercy-reaching"
+        ]
+      },
+      {
+        "branch_ref": "root_000552/B002",
+        "facet_id": "F001",
+        "decision": "no_independent_trigger",
+        "reason": "Faset ifadesi “Ortak soydan gelme, kişiler arasında yakın ve kalıcı bir soy ilişkisi kurar.” için yüzeydeki taşıyıcı(lar) 1:1:3:2, 1:1:4:2; bu özel anlamı bağımsızca kuran ayrı bir kelime, eylem veya gramatik dönüş bulunmadığından temas bağımsız bir okuma değişimi üretmiyor.",
+        "finding_refs": []
+      },
+      {
+        "branch_ref": "root_000552/B002",
+        "facet_id": "F002",
+        "decision": "no_independent_trigger",
+        "reason": "Faset ifadesi “Bedensel organın adı, aynı doğum kaynağından çıkmış olma düşüncesi üzerinden soy ilişkisine aktarılmıştır.” için yüzeydeki taşıyıcı(lar) 1:1:3:2, 1:1:4:2; bu özel anlamı bağımsızca kuran ayrı bir kelime, eylem veya gramatik dönüş bulunmadığından temas bağımsız bir okuma değişimi üretmiyor.",
+        "finding_refs": []
+      },
+      {
+        "branch_ref": "root_000552/B002",
+        "facet_id": "F003",
+        "decision": "no_independent_trigger",
+        "reason": "Faset ifadesi “Soy bağını sürdürmek veya koparmak, ilişkinin kendisini değil ona karşı takınılan eylemli tutumu anlatır.” için yüzeydeki taşıyıcı(lar) 1:1:3:2, 1:1:4:2; bu özel anlamı bağımsızca kuran ayrı bir kelime, eylem veya gramatik dönüş bulunmadığından temas bağımsız bir okuma değişimi üretmiyor.",
+        "finding_refs": []
+      },
+      {
+        "branch_ref": "root_000552/B003",
+        "facet_id": "F001",
+        "decision": "no_independent_trigger",
+        "reason": "Faset ifadesi “Dişi bedenindeki bu iç organ, yavrunun oluşup geliştiği yer ve onu karın içinde taşıyan kap işlevindedir.” için yüzeydeki taşıyıcı(lar) 1:1:3:2, 1:1:4:2; bu özel anlamı bağımsızca kuran ayrı bir kelime, eylem veya gramatik dönüş bulunmadığından temas bağımsız bir okuma değişimi üretmiyor.",
+        "finding_refs": []
+      },
+      {
+        "branch_ref": "root_000552/B004",
+        "facet_id": "F001",
+        "decision": "no_independent_trigger",
+        "reason": "Faset ifadesi “Dişi hayvan veya kadında döl yatağının ağrıması ya da hastalanması temel durumdur; özellikle bazı kullanımlarda bu durum doğum sonrasında görülür.” için yüzeydeki taşıyıcı(lar) 1:1:3:2, 1:1:4:2; bu özel anlamı bağımsızca kuran ayrı bir kelime, eylem veya gramatik dönüş bulunmadığından temas bağımsız bir okuma değişimi üretmiyor.",
+        "finding_refs": []
+      },
+      {
+        "branch_ref": "root_000552/B004",
+        "facet_id": "F002",
+        "decision": "no_independent_trigger",
+        "reason": "Faset ifadesi “Koyunun doğum yaptıktan sonra yavru zarını dışarı atamaması, dala bağlı özel bir doğum sonrası bozukluktur.” için yüzeydeki taşıyıcı(lar) 1:1:3:2, 1:1:4:2; bu özel anlamı bağımsızca kuran ayrı bir kelime, eylem veya gramatik dönüş bulunmadığından temas bağımsız bir okuma değişimi üretmiyor.",
+        "finding_refs": []
+      },
+      {
+        "branch_ref": "root_000552/B004",
+        "facet_id": "F003",
+        "decision": "no_independent_trigger",
+        "reason": "Faset ifadesi “Koyun veya koyun sürüsünde döl yatağının şişmesi, hastalık durumunun özel bir gerçekleşmesidir.” için yüzeydeki taşıyıcı(lar) 1:1:3:2, 1:1:4:2; bu özel anlamı bağımsızca kuran ayrı bir kelime, eylem veya gramatik dönüş bulunmadığından temas bağımsız bir okuma değişimi üretmiyor.",
+        "finding_refs": []
+      },
+      {
+        "branch_ref": "root_000743/B001",
+        "facet_id": "F001",
+        "decision": "no_independent_trigger",
+        "reason": "Faset ifadesi “Bir şeyin içeri girebildiği dar delik, açıklık veya geçit.” için yüzeydeki taşıyıcı(lar) 1:1:1:2; bu özel anlamı bağımsızca kuran ayrı bir kelime, eylem veya gramatik dönüş bulunmadığından temas bağımsız bir okuma değişimi üretmiyor.",
+        "finding_refs": []
+      },
+      {
+        "branch_ref": "root_000743/B001",
+        "facet_id": "F002",
+        "decision": "no_independent_trigger",
+        "reason": "Faset ifadesi “İğne deliği, beden gözenekleri ve insan ya da hayvandaki ağız, burun ve kulak gibi açıklıklar.” için yüzeydeki taşıyıcı(lar) 1:1:1:2; bu özel anlamı bağımsızca kuran ayrı bir kelime, eylem veya gramatik dönüş bulunmadığından temas bağımsız bir okuma değişimi üretmiyor.",
+        "finding_refs": []
+      },
+      {
+        "branch_ref": "root_000743/B001",
+        "facet_id": "F003",
+        "decision": "no_independent_trigger",
+        "reason": "Faset ifadesi “Kılıç üzerinde ayırt etmeye yarayan ince çentikler.” için yüzeydeki taşıyıcı(lar) 1:1:1:2; bu özel anlamı bağımsızca kuran ayrı bir kelime, eylem veya gramatik dönüş bulunmadığından temas bağımsız bir okuma değişimi üretmiyor.",
+        "finding_refs": []
+      },
+      {
+        "branch_ref": "root_000743/B002",
+        "facet_id": "F001",
+        "decision": "no_independent_trigger",
+        "reason": "Faset ifadesi “Bedene girip iç dokulara işleyerek öldürebilen madde.” için yüzeydeki taşıyıcı(lar) 1:1:1:2; bu özel anlamı bağımsızca kuran ayrı bir kelime, eylem veya gramatik dönüş bulunmadığından temas bağımsız bir okuma değişimi üretmiyor.",
+        "finding_refs": []
+      },
+      {
+        "branch_ref": "root_000743/B002",
+        "facet_id": "F002",
+        "decision": "no_independent_trigger",
+        "reason": "Faset ifadesi “Birine bu maddeyi içirmek veya yiyeceğin içine katmak.” için yüzeydeki taşıyıcı(lar) 1:1:1:2; bu özel anlamı bağımsızca kuran ayrı bir kelime, eylem veya gramatik dönüş bulunmadığından temas bağımsız bir okuma değişimi üretmiyor.",
+        "finding_refs": []
+      },
+      {
+        "branch_ref": "root_000743/B002",
+        "facet_id": "F003",
+        "decision": "no_independent_trigger",
+        "reason": "Faset ifadesi “Yılan gibi zehir taşıyan küçük hayvanlar ve öldürmeyen zehirli türler.” için yüzeydeki taşıyıcı(lar) 1:1:1:2; bu özel anlamı bağımsızca kuran ayrı bir kelime, eylem veya gramatik dönüş bulunmadığından temas bağımsız bir okuma değişimi üretmiyor.",
+        "finding_refs": []
+      },
+      {
+        "branch_ref": "root_000743/B003",
+        "facet_id": "F001",
+        "decision": "no_independent_trigger",
+        "reason": "Faset ifadesi “Bir kişinin işlerine yakınlıkla katılan özel ve iç çevre.” için yüzeydeki taşıyıcı(lar) 1:1:1:2; bu özel anlamı bağımsızca kuran ayrı bir kelime, eylem veya gramatik dönüş bulunmadığından temas bağımsız bir okuma değişimi üretmiyor.",
+        "finding_refs": []
+      },
+      {
+        "branch_ref": "root_000743/B003",
+        "facet_id": "F002",
+        "decision": "no_independent_trigger",
+        "reason": "Faset ifadesi “Özel çevreyi oluşturan yakınlar ve akrabalar.” için yüzeydeki taşıyıcı(lar) 1:1:1:2; bu özel anlamı bağımsızca kuran ayrı bir kelime, eylem veya gramatik dönüş bulunmadığından temas bağımsız bir okuma değişimi üretmiyor.",
+        "finding_refs": []
+      },
+      {
+        "branch_ref": "root_000743/B003",
+        "facet_id": "F003",
+        "decision": "no_independent_trigger",
+        "reason": "Faset ifadesi “Bir nimetin genel topluluk içinden belirli kişilere özellikle ulaşması.” için yüzeydeki taşıyıcı(lar) 1:1:1:2; bu özel anlamı bağımsızca kuran ayrı bir kelime, eylem veya gramatik dönüş bulunmadığından temas bağımsız bir okuma değişimi üretmiyor.",
+        "finding_refs": []
+      },
+      {
+        "branch_ref": "root_000743/B004",
+        "facet_id": "F001",
+        "decision": "no_independent_trigger",
+        "reason": "Faset ifadesi “Cisimlere nüfuz eden ve yakıcı etki bırakan sıcak rüzgar.” için yüzeydeki taşıyıcı(lar) 1:1:1:2; bu özel anlamı bağımsızca kuran ayrı bir kelime, eylem veya gramatik dönüş bulunmadığından temas bağımsız bir okuma değişimi üretmiyor.",
+        "finding_refs": []
+      },
+      {
+        "branch_ref": "root_000743/B004",
+        "facet_id": "F002",
+        "decision": "no_independent_trigger",
+        "reason": "Faset ifadesi “Bu rüzgarın görüldüğü gündüz veya gece.” için yüzeydeki taşıyıcı(lar) 1:1:1:2; bu özel anlamı bağımsızca kuran ayrı bir kelime, eylem veya gramatik dönüş bulunmadığından temas bağımsız bir okuma değişimi üretmiyor.",
+        "finding_refs": []
+      },
+      {
+        "branch_ref": "root_000743/B004",
+        "facet_id": "F003",
+        "decision": "no_independent_trigger",
+        "reason": "Faset ifadesi “Sıcak rüzgarın vurup zarar verdiği bitki.” için yüzeydeki taşıyıcı(lar) 1:1:1:2; bu özel anlamı bağımsızca kuran ayrı bir kelime, eylem veya gramatik dönüş bulunmadığından temas bağımsız bir okuma değişimi üretmiyor.",
+        "finding_refs": []
+      },
+      {
+        "branch_ref": "root_000743/B005",
+        "facet_id": "F001",
+        "decision": "no_independent_trigger",
+        "reason": "Faset ifadesi “İnsanlar arasındaki ayrılığı gidererek onları uzlaştırma.” için yüzeydeki taşıyıcı(lar) 1:1:1:2; bu özel anlamı bağımsızca kuran ayrı bir kelime, eylem veya gramatik dönüş bulunmadığından temas bağımsız bir okuma değişimi üretmiyor.",
+        "finding_refs": []
+      },
+      {
+        "branch_ref": "root_000743/B005",
+        "facet_id": "F002",
+        "decision": "no_independent_trigger",
+        "reason": "Faset ifadesi “Uzlaşma sonucunda tarafların yeniden birbirine yakınlaşması.” için yüzeydeki taşıyıcı(lar) 1:1:1:2; bu özel anlamı bağımsızca kuran ayrı bir kelime, eylem veya gramatik dönüş bulunmadığından temas bağımsız bir okuma değişimi üretmiyor.",
+        "finding_refs": []
+      },
+      {
+        "branch_ref": "root_000743/B006",
+        "facet_id": "F001",
+        "decision": "no_independent_trigger",
+        "reason": "Faset ifadesi “Denizden çıkan kabuk benzeri süs parçası veya dizilen delinmiş boncuk.” için yüzeydeki taşıyıcı(lar) 1:1:1:2; bu özel anlamı bağımsızca kuran ayrı bir kelime, eylem veya gramatik dönüş bulunmadığından temas bağımsız bir okuma değişimi üretmiyor.",
+        "finding_refs": []
+      },
+      {
+        "branch_ref": "root_000743/B006",
+        "facet_id": "F002",
+        "decision": "no_independent_trigger",
+        "reason": "Faset ifadesi “Bir kayışta oluşturulan halka veya kayışa halkalar yapma işlemi.” için yüzeydeki taşıyıcı(lar) 1:1:1:2; bu özel anlamı bağımsızca kuran ayrı bir kelime, eylem veya gramatik dönüş bulunmadığından temas bağımsız bir okuma değişimi üretmiyor.",
+        "finding_refs": []
+      },
+      {
+        "branch_ref": "root_000743/B006",
+        "facet_id": "F003",
+        "decision": "no_independent_trigger",
+        "reason": "Faset ifadesi “Tavan yüzünde yapılan bezemeler.” için yüzeydeki taşıyıcı(lar) 1:1:1:2; bu özel anlamı bağımsızca kuran ayrı bir kelime, eylem veya gramatik dönüş bulunmadığından temas bağımsız bir okuma değişimi üretmiyor.",
+        "finding_refs": []
+      },
+      {
+        "branch_ref": "root_000743/B007",
+        "facet_id": "F001",
+        "decision": "no_independent_trigger",
+        "reason": "Faset ifadesi “Belirli bir küçük kuş türünün adı.” için yüzeydeki taşıyıcı(lar) 1:1:1:2; bu özel anlamı bağımsızca kuran ayrı bir kelime, eylem veya gramatik dönüş bulunmadığından temas bağımsız bir okuma değişimi üretmiyor.",
+        "finding_refs": []
+      },
+      {
+        "branch_ref": "root_000743/B007",
+        "facet_id": "F002",
+        "decision": "no_independent_trigger",
+        "reason": "Faset ifadesi “Aynı biçimin hızlı dişi deve için kullanılması.” için yüzeydeki taşıyıcı(lar) 1:1:1:2; bu özel anlamı bağımsızca kuran ayrı bir kelime, eylem veya gramatik dönüş bulunmadığından temas bağımsız bir okuma değişimi üretmiyor.",
+        "finding_refs": []
+      },
+      {
+        "branch_ref": "root_000743/B008",
+        "facet_id": "F001",
+        "decision": "no_independent_trigger",
+        "reason": "Faset ifadesi “Aynı biçim çevresinde tilki, yağlık tohum, yer, kırmızı karınca ve hafif ya da hızlı kişi adlandırmaları bulunur.” için yüzeydeki taşıyıcı(lar) 1:1:1:2; bu özel anlamı bağımsızca kuran ayrı bir kelime, eylem veya gramatik dönüş bulunmadığından temas bağımsız bir okuma değişimi üretmiyor.",
+        "finding_refs": []
+      },
+      {
+        "branch_ref": "root_000743/B009",
+        "facet_id": "F001",
+        "decision": "no_independent_trigger",
+        "reason": "Faset ifadesi “Kişinin ilgi ve kaygısının yalnız muhataba yöneldiğini bildiren dışlayıcı söz.” için yüzeydeki taşıyıcı(lar) 1:1:1:2; bu özel anlamı bağımsızca kuran ayrı bir kelime, eylem veya gramatik dönüş bulunmadığından temas bağımsız bir okuma değişimi üretmiyor.",
+        "finding_refs": []
+      },
+      {
+        "branch_ref": "root_000743/B010",
+        "facet_id": "F001",
+        "decision": "no_independent_trigger",
+        "reason": "Faset ifadesi “Canlı yaşamının sona ermesi.” için yüzeydeki taşıyıcı(lar) 1:1:1:2; bu özel anlamı bağımsızca kuran ayrı bir kelime, eylem veya gramatik dönüş bulunmadığından temas bağımsız bir okuma değişimi üretmiyor.",
+        "finding_refs": []
+      },
+      {
+        "branch_ref": "root_000743/B011",
+        "facet_id": "F001",
+        "decision": "no_independent_trigger",
+        "reason": "Faset ifadesi “Bir şeye yönelmek ve onu amaç edinmek.” için yüzeydeki taşıyıcı(lar) 1:1:1:2; bu özel anlamı bağımsızca kuran ayrı bir kelime, eylem veya gramatik dönüş bulunmadığından temas bağımsız bir okuma değişimi üretmiyor.",
+        "finding_refs": []
+      },
+      {
+        "branch_ref": "root_000743/B011",
+        "facet_id": "F002",
+        "decision": "no_independent_trigger",
+        "reason": "Faset ifadesi “Yolun doğrultusu veya bir ihtiyacın yönü ve hedefi.” için yüzeydeki taşıyıcı(lar) 1:1:1:2; bu özel anlamı bağımsızca kuran ayrı bir kelime, eylem veya gramatik dönüş bulunmadığından temas bağımsız bir okuma değişimi üretmiyor.",
+        "finding_refs": []
+      },
+      {
+        "branch_ref": "root_000743/B011",
+        "facet_id": "F003",
+        "decision": "no_independent_trigger",
+        "reason": "Faset ifadesi “Bir işi derinlemesine yoklayıp iç yüzünü anlamaya çalışmak.” için yüzeydeki taşıyıcı(lar) 1:1:1:2; bu özel anlamı bağımsızca kuran ayrı bir kelime, eylem veya gramatik dönüş bulunmadığından temas bağımsız bir okuma değişimi üretmiyor.",
+        "finding_refs": []
+      },
+      {
+        "branch_ref": "root_000743/B012",
+        "facet_id": "F001",
+        "decision": "no_independent_trigger",
+        "reason": "Faset ifadesi “Şişe gibi bir kabın ağzını kapatmak.” için yüzeydeki taşıyıcı(lar) 1:1:1:2; bu özel anlamı bağımsızca kuran ayrı bir kelime, eylem veya gramatik dönüş bulunmadığından temas bağımsız bir okuma değişimi üretmiyor.",
+        "finding_refs": []
+      },
+      {
+        "branch_ref": "root_000743/B012",
+        "facet_id": "F002",
+        "decision": "no_independent_trigger",
+        "reason": "Faset ifadesi “Bir şeyi sıkıca bağlayıp sağlamlaştırmak.” için yüzeydeki taşıyıcı(lar) 1:1:1:2; bu özel anlamı bağımsızca kuran ayrı bir kelime, eylem veya gramatik dönüş bulunmadığından temas bağımsız bir okuma değişimi üretmiyor.",
+        "finding_refs": []
+      },
+      {
+        "branch_ref": "root_000743/B013",
+        "facet_id": "F001",
+        "decision": "no_independent_trigger",
+        "reason": "Faset ifadesi “Bir şeyin görünen gövdesi veya belirgin biçimi.” için yüzeydeki taşıyıcı(lar) 1:1:1:2; bu özel anlamı bağımsızca kuran ayrı bir kelime, eylem veya gramatik dönüş bulunmadığından temas bağımsız bir okuma değişimi üretmiyor.",
+        "finding_refs": []
+      },
+      {
+        "branch_ref": "root_000743/B013",
+        "facet_id": "F002",
+        "decision": "no_independent_trigger",
+        "reason": "Faset ifadesi “Bir şeyin üst bölümü olarak yorumlanan yüz.” için yüzeydeki taşıyıcı(lar) 1:1:1:2; bu özel anlamı bağımsızca kuran ayrı bir kelime, eylem veya gramatik dönüş bulunmadığından temas bağımsız bir okuma değişimi üretmiyor.",
+        "finding_refs": []
+      },
+      {
+        "branch_ref": "root_000743/B013",
+        "facet_id": "F003",
+        "decision": "no_independent_trigger",
+        "reason": "Faset ifadesi “Palmiye gövdesinin içte bulunan yumuşak özü.” için yüzeydeki taşıyıcı(lar) 1:1:1:2; bu özel anlamı bağımsızca kuran ayrı bir kelime, eylem veya gramatik dönüş bulunmadığından temas bağımsız bir okuma değişimi üretmiyor.",
+        "finding_refs": []
+      },
+      {
+        "branch_ref": "root_000745/B001",
+        "facet_id": "F001",
+        "decision": "no_independent_trigger",
+        "reason": "Faset ifadesi “Bir şey bulunduğu düzeyden yukarı çıkar veya yüksek duruma gelir.” için yüzeydeki taşıyıcı(lar) 1:1:1:2; bu özel anlamı bağımsızca kuran ayrı bir kelime, eylem veya gramatik dönüş bulunmadığından temas bağımsız bir okuma değişimi üretmiyor.",
+        "finding_refs": []
+      },
+      {
+        "branch_ref": "root_000745/B001",
+        "facet_id": "F002",
+        "decision": "no_independent_trigger",
+        "reason": "Faset ifadesi “Bir kişinin değeri, saygınlığı ya da toplumdaki yeri yükselir.” için yüzeydeki taşıyıcı(lar) 1:1:1:2; bu özel anlamı bağımsızca kuran ayrı bir kelime, eylem veya gramatik dönüş bulunmadığından temas bağımsız bir okuma değişimi üretmiyor.",
+        "finding_refs": []
+      },
+      {
+        "branch_ref": "root_000745/B001",
+        "facet_id": "F003",
+        "decision": "no_independent_trigger",
+        "reason": "Faset ifadesi “Bakış bir şeye doğru yukarı kaldırılır.” için yüzeydeki taşıyıcı(lar) 1:1:1:2; bu özel anlamı bağımsızca kuran ayrı bir kelime, eylem veya gramatik dönüş bulunmadığından temas bağımsız bir okuma değişimi üretmiyor.",
+        "finding_refs": []
+      },
+      {
+        "branch_ref": "root_000745/B002",
+        "facet_id": "F001",
+        "decision": "no_independent_trigger",
+        "reason": "Faset ifadesi “Bir şey yükselir ve uzaktan bakıldığında görünür, ayırt edilir hale gelir.” için yüzeydeki taşıyıcı(lar) 1:1:1:2; bu özel anlamı bağımsızca kuran ayrı bir kelime, eylem veya gramatik dönüş bulunmadığından temas bağımsız bir okuma değişimi üretmiyor.",
+        "finding_refs": []
+      },
+      {
+        "branch_ref": "root_000745/B002",
+        "facet_id": "F002",
+        "decision": "no_independent_trigger",
+        "reason": "Faset ifadesi “Bir şeyin yüksekte görünen gövdesi, dış çizgisi ya da belirgin yanı anlatılır.” için yüzeydeki taşıyıcı(lar) 1:1:1:2; bu özel anlamı bağımsızca kuran ayrı bir kelime, eylem veya gramatik dönüş bulunmadığından temas bağımsız bir okuma değişimi üretmiyor.",
+        "finding_refs": []
+      },
+      {
+        "branch_ref": "root_000745/B002",
+        "facet_id": "F003",
+        "decision": "no_independent_trigger",
+        "reason": "Faset ifadesi “Ayın ince yayı ufuktan biraz yükseldiğinde görünen biçimiyle örneklenir.” için yüzeydeki taşıyıcı(lar) 1:1:1:2; bu özel anlamı bağımsızca kuran ayrı bir kelime, eylem veya gramatik dönüş bulunmadığından temas bağımsız bir okuma değişimi üretmiyor.",
+        "finding_refs": []
+      },
+      {
+        "branch_ref": "root_000745/B003",
+        "facet_id": "F001",
+        "decision": "no_independent_trigger",
+        "reason": "Faset ifadesi “Erkek deve dişi deve sürüsünün üzerine doğru yükselir veya atılır.” için yüzeydeki taşıyıcı(lar) 1:1:1:2; bu özel anlamı bağımsızca kuran ayrı bir kelime, eylem veya gramatik dönüş bulunmadığından temas bağımsız bir okuma değişimi üretmiyor.",
+        "finding_refs": []
+      },
+      {
+        "branch_ref": "root_000745/B003",
+        "facet_id": "F002",
+        "decision": "no_independent_trigger",
+        "reason": "Faset ifadesi “Erkek deve hareketini sürdürerek dişi develerin arasına girer.” için yüzeydeki taşıyıcı(lar) 1:1:1:2; bu özel anlamı bağımsızca kuran ayrı bir kelime, eylem veya gramatik dönüş bulunmadığından temas bağımsız bir okuma değişimi üretmiyor.",
+        "finding_refs": []
+      },
+      {
+        "branch_ref": "root_000745/B004",
+        "facet_id": "F001",
+        "decision": "no_independent_trigger",
+        "reason": "Faset ifadesi “Bir şeyin üzerinde yükselen ve onu örten gök, tavan veya üst yan anlatılır.” için yüzeydeki taşıyıcı(lar) 1:1:1:2; bu özel anlamı bağımsızca kuran ayrı bir kelime, eylem veya gramatik dönüş bulunmadığından temas bağımsız bir okuma değişimi üretmiyor.",
+        "finding_refs": []
+      },
+      {
+        "branch_ref": "root_000745/B004",
+        "facet_id": "F002",
+        "decision": "no_independent_trigger",
+        "reason": "Faset ifadesi “Üstte bulunan ve örten bulut aynı adla anılır.” için yüzeydeki taşıyıcı(lar) 1:1:1:2; bu özel anlamı bağımsızca kuran ayrı bir kelime, eylem veya gramatik dönüş bulunmadığından temas bağımsız bir okuma değişimi üretmiyor.",
+        "finding_refs": []
+      },
+      {
+        "branch_ref": "root_000745/B004",
+        "facet_id": "F003",
+        "decision": "no_independent_trigger",
+        "reason": "Faset ifadesi “Yukarıdaki kaynağından gelen yağmur aynı adla anılır.” için yüzeydeki taşıyıcı(lar) 1:1:1:2; bu özel anlamı bağımsızca kuran ayrı bir kelime, eylem veya gramatik dönüş bulunmadığından temas bağımsız bir okuma değişimi üretmiyor.",
+        "finding_refs": []
+      },
+      {
+        "branch_ref": "root_000745/B004",
+        "facet_id": "F004",
+        "decision": "no_independent_trigger",
+        "reason": "Faset ifadesi “Yağmurdan çıkan veya yerden yükselen bitkiye aynı ad aktarılır.” için yüzeydeki taşıyıcı(lar) 1:1:1:2; bu özel anlamı bağımsızca kuran ayrı bir kelime, eylem veya gramatik dönüş bulunmadığından temas bağımsız bir okuma değişimi üretmiyor.",
+        "finding_refs": []
+      },
+      {
+        "branch_ref": "root_000745/B004",
+        "facet_id": "F005",
+        "decision": "no_independent_trigger",
+        "reason": "Faset ifadesi “Atın sırtı ve genel olarak bir şeyin en üst yanı bu yüksek üst yüzey kapsamında adlandırılır.” için yüzeydeki taşıyıcı(lar) 1:1:1:2; bu özel anlamı bağımsızca kuran ayrı bir kelime, eylem veya gramatik dönüş bulunmadığından temas bağımsız bir okuma değişimi üretmiyor.",
+        "finding_refs": []
+      },
+      {
+        "branch_ref": "root_000745/B005",
+        "facet_id": "F001",
+        "decision": "no_independent_trigger",
+        "reason": "Faset ifadesi “Ad, bir varlığı tanıtan ve ondan söz etmeyi sağlayan söz veya anlamdır.” için yüzeydeki taşıyıcı(lar) 1:1:1:2; bu özel anlamı bağımsızca kuran ayrı bir kelime, eylem veya gramatik dönüş bulunmadığından temas bağımsız bir okuma değişimi üretmiyor.",
+        "finding_refs": []
+      },
+      {
+        "branch_ref": "root_000745/B005",
+        "facet_id": "F002",
+        "decision": "no_independent_trigger",
+        "reason": "Faset ifadesi “Birine ad verilir veya kişi kendisi için bir ad edinir ve o adla çağrılır.” için yüzeydeki taşıyıcı(lar) 1:1:1:2; bu özel anlamı bağımsızca kuran ayrı bir kelime, eylem veya gramatik dönüş bulunmadığından temas bağımsız bir okuma değişimi üretmiyor.",
+        "finding_refs": []
+      },
+      {
+        "branch_ref": "root_000745/B005",
+        "facet_id": "F003",
+        "decision": "no_independent_trigger",
+        "reason": "Faset ifadesi “İki kişi aynı adı taşıdığında birbirinin adaşı olur.” için yüzeydeki taşıyıcı(lar) 1:1:1:2; bu özel anlamı bağımsızca kuran ayrı bir kelime, eylem veya gramatik dönüş bulunmadığından temas bağımsız bir okuma değişimi üretmiyor.",
+        "finding_refs": []
+      },
+      {
+        "branch_ref": "root_000745/B005",
+        "facet_id": "F004",
+        "decision": "no_independent_trigger",
+        "reason": "Faset ifadesi “Bir kişi, aynı adı veya niteliği hak edecek ölçüde başkasının dengi sayılır.” için yüzeydeki taşıyıcı(lar) 1:1:1:2; bu özel anlamı bağımsızca kuran ayrı bir kelime, eylem veya gramatik dönüş bulunmadığından temas bağımsız bir okuma değişimi üretmiyor.",
+        "finding_refs": []
+      },
+      {
+        "branch_ref": "root_000745/B005",
+        "facet_id": "F005",
+        "decision": "no_independent_trigger",
+        "reason": "Faset ifadesi “Kaynaklar adın kökenini, adı verilen şeyin anılmasını yükseltmesi ve onu belirgin kılmasıyla açıklar.” için yüzeydeki taşıyıcı(lar) 1:1:1:2; bu özel anlamı bağımsızca kuran ayrı bir kelime, eylem veya gramatik dönüş bulunmadığından temas bağımsız bir okuma değişimi üretmiyor.",
+        "finding_refs": []
+      },
+      {
+        "branch_ref": "root_000745/B006",
+        "facet_id": "F001",
+        "decision": "no_independent_trigger",
+        "reason": "Faset ifadesi “Bir topluluk avlanmak amacıyla kır veya çöl gibi ıssız araziye çıkar.” için yüzeydeki taşıyıcı(lar) 1:1:1:2; bu özel anlamı bağımsızca kuran ayrı bir kelime, eylem veya gramatik dönüş bulunmadığından temas bağımsız bir okuma değişimi üretmiyor.",
+        "finding_refs": []
+      },
+      {
+        "branch_ref": "root_000745/B006",
+        "facet_id": "F002",
+        "decision": "no_independent_trigger",
+        "reason": "Faset ifadesi “Bu amaçla araziye çıkan kişiler avcı adıyla anılır.” için yüzeydeki taşıyıcı(lar) 1:1:1:2; bu özel anlamı bağımsızca kuran ayrı bir kelime, eylem veya gramatik dönüş bulunmadığından temas bağımsız bir okuma değişimi üretmiyor.",
+        "finding_refs": []
+      },
+      {
+        "branch_ref": "root_000745/B006",
+        "facet_id": "F003",
+        "decision": "no_independent_trigger",
+        "reason": "Faset ifadesi “Av hayvanını bulup avlamak üzere arama eylemi aynı alana bağlıdır.” için yüzeydeki taşıyıcı(lar) 1:1:1:2; bu özel anlamı bağımsızca kuran ayrı bir kelime, eylem veya gramatik dönüş bulunmadığından temas bağımsız bir okuma değişimi üretmiyor.",
+        "finding_refs": []
+      },
+      {
+        "branch_ref": "root_000745/B006",
+        "facet_id": "F004",
+        "decision": "no_independent_trigger",
+        "reason": "Faset ifadesi “Avcının sıcak zeminde hayvan beklerken ayağını korumak için giydiği çorap adlandırılır.” için yüzeydeki taşıyıcı(lar) 1:1:1:2; bu özel anlamı bağımsızca kuran ayrı bir kelime, eylem veya gramatik dönüş bulunmadığından temas bağımsız bir okuma değişimi üretmiyor.",
+        "finding_refs": []
+      },
+      {
+        "branch_ref": "root_000745/B007",
+        "facet_id": "F001",
+        "decision": "no_independent_trigger",
+        "reason": "Faset ifadesi “İki veya daha çok taraf üstün gelmek için karşılıklı olarak yarışır.” için yüzeydeki taşıyıcı(lar) 1:1:1:2; bu özel anlamı bağımsızca kuran ayrı bir kelime, eylem veya gramatik dönüş bulunmadığından temas bağımsız bir okuma değişimi üretmiyor.",
+        "finding_refs": []
+      },
+      {
+        "branch_ref": "root_000745/B007",
+        "facet_id": "F002",
+        "decision": "no_independent_trigger",
+        "reason": "Faset ifadesi “Taraflar sahip oldukları üstünlüklerle övünerek birbirleriyle boy ölçüşür.” için yüzeydeki taşıyıcı(lar) 1:1:1:2; bu özel anlamı bağımsızca kuran ayrı bir kelime, eylem veya gramatik dönüş bulunmadığından temas bağımsız bir okuma değişimi üretmiyor.",
+        "finding_refs": []
+      },
+      {
+        "branch_ref": "root_000745/B007",
+        "facet_id": "F003",
+        "decision": "no_independent_trigger",
+        "reason": "Faset ifadesi “Taraflardan biri ötekine karşı koyar, onunla aynı düzeye gelmeye veya onu geçmeye çalışır.” için yüzeydeki taşıyıcı(lar) 1:1:1:2; bu özel anlamı bağımsızca kuran ayrı bir kelime, eylem veya gramatik dönüş bulunmadığından temas bağımsız bir okuma değişimi üretmiyor.",
+        "finding_refs": []
+      },
+      {
+        "branch_ref": "root_000745/B007",
+        "facet_id": "F004",
+        "decision": "no_independent_trigger",
+        "reason": "Faset ifadesi “Kimsenin bir kişiyle yarışamaması, o kişinin erişilemez ölçüde üstün olduğunu bildirir.” için yüzeydeki taşıyıcı(lar) 1:1:1:2; bu özel anlamı bağımsızca kuran ayrı bir kelime, eylem veya gramatik dönüş bulunmadığından temas bağımsız bir okuma değişimi üretmiyor.",
+        "finding_refs": []
+      },
+      {
+        "branch_ref": "root_000745/B008",
+        "facet_id": "F001",
+        "decision": "no_independent_trigger",
+        "reason": "Faset ifadesi “Bir kişi hakkındaki söz veya ün insanlar arasında yayılır.” için yüzeydeki taşıyıcı(lar) 1:1:1:2; bu özel anlamı bağımsızca kuran ayrı bir kelime, eylem veya gramatik dönüş bulunmadığından temas bağımsız bir okuma değişimi üretmiyor.",
+        "finding_refs": []
+      },
+      {
+        "branch_ref": "root_000745/B008",
+        "facet_id": "F002",
+        "decision": "no_independent_trigger",
+        "reason": "Faset ifadesi “Yayılan ün yalnız iyi yöndedir ve kötü ünü dışarıda bırakır.” için yüzeydeki taşıyıcı(lar) 1:1:1:2; bu özel anlamı bağımsızca kuran ayrı bir kelime, eylem veya gramatik dönüş bulunmadığından temas bağımsız bir okuma değişimi üretmiyor.",
+        "finding_refs": []
+      },
+      {
+        "branch_ref": "root_001650/B001",
+        "facet_id": "F001",
+        "decision": "no_independent_trigger",
+        "reason": "Faset ifadesi “Bir nesne veya hayvan üzerinde onu tanıtmaya ve başkalarından ayırmaya yarayan görünür bir fiziksel iz oluşturulur.” için yüzeydeki taşıyıcı(lar) 1:1:1:2; bu özel anlamı bağımsızca kuran ayrı bir kelime, eylem veya gramatik dönüş bulunmadığından temas bağımsız bir okuma değişimi üretmiyor.",
+        "finding_refs": []
+      },
+      {
+        "branch_ref": "root_001650/B001",
+        "facet_id": "F002",
+        "decision": "no_independent_trigger",
+        "reason": "Faset ifadesi “İşaret, kızgın araçla yakılarak, kulağın bir bölümü kesilerek veya çentik açılarak bırakılabilir.” için yüzeydeki taşıyıcı(lar) 1:1:1:2; bu özel anlamı bağımsızca kuran ayrı bir kelime, eylem veya gramatik dönüş bulunmadığından temas bağımsız bir okuma değişimi üretmiyor.",
+        "finding_refs": []
+      },
+      {
+        "branch_ref": "root_001650/B001",
+        "facet_id": "F003",
+        "decision": "no_independent_trigger",
+        "reason": "Faset ifadesi “Eylemin sonucunda kalan tanıtıcı iz de aynı anlam alanında adlandırılır.” için yüzeydeki taşıyıcı(lar) 1:1:1:2; bu özel anlamı bağımsızca kuran ayrı bir kelime, eylem veya gramatik dönüş bulunmadığından temas bağımsız bir okuma değişimi üretmiyor.",
+        "finding_refs": []
+      },
+      {
+        "branch_ref": "root_001650/B001",
+        "facet_id": "F004",
+        "decision": "no_independent_trigger",
+        "reason": "Faset ifadesi “Özellikle hayvanlara bu izi koymak için kullanılan kızgın işaretleme aracı da bu dala bağlıdır.” için yüzeydeki taşıyıcı(lar) 1:1:1:2; bu özel anlamı bağımsızca kuran ayrı bir kelime, eylem veya gramatik dönüş bulunmadığından temas bağımsız bir okuma değişimi üretmiyor.",
+        "finding_refs": []
+      },
+      {
+        "branch_ref": "root_001650/B002",
+        "facet_id": "F001",
+        "decision": "no_independent_trigger",
+        "reason": "Faset ifadesi “Kişide görülen bir belirti, görünmeyen bir nitelik veya durumun göstergesi olarak okunur.” için yüzeydeki taşıyıcı(lar) 1:1:1:2; bu özel anlamı bağımsızca kuran ayrı bir kelime, eylem veya gramatik dönüş bulunmadığından temas bağımsız bir okuma değişimi üretmiyor.",
+        "finding_refs": []
+      },
+      {
+        "branch_ref": "root_001650/B002",
+        "facet_id": "F002",
+        "decision": "no_independent_trigger",
+        "reason": "Faset ifadesi “Gözlemden hareketle sezgisel bir değerlendirme ve çıkarım yapılır.” için yüzeydeki taşıyıcı(lar) 1:1:1:2; bu özel anlamı bağımsızca kuran ayrı bir kelime, eylem veya gramatik dönüş bulunmadığından temas bağımsız bir okuma değişimi üretmiyor.",
+        "finding_refs": []
+      },
+      {
+        "branch_ref": "root_001650/B002",
+        "facet_id": "F003",
+        "decision": "no_independent_trigger",
+        "reason": "Faset ifadesi “Çıkarılan nitelik iyilik de kötülük de olabilir; anlam yalnızca olumlu bir yargıyla sınırlı değildir.” için yüzeydeki taşıyıcı(lar) 1:1:1:2; bu özel anlamı bağımsızca kuran ayrı bir kelime, eylem veya gramatik dönüş bulunmadığından temas bağımsız bir okuma değişimi üretmiyor.",
+        "finding_refs": []
+      },
+      {
+        "branch_ref": "root_001650/B003",
+        "facet_id": "F001",
+        "decision": "no_independent_trigger",
+        "reason": "Faset ifadesi “Yağmur, yılın ya da ilkbaharın ilk döneminde görülen ilk yağış olarak zaman bakımından sınırlandırılır.” için yüzeydeki taşıyıcı(lar) 1:1:1:2; bu özel anlamı bağımsızca kuran ayrı bir kelime, eylem veya gramatik dönüş bulunmadığından temas bağımsız bir okuma değişimi üretmiyor.",
+        "finding_refs": []
+      },
+      {
+        "branch_ref": "root_001650/B003",
+        "facet_id": "F002",
+        "decision": "no_independent_trigger",
+        "reason": "Faset ifadesi “Bu ilk yağmur toprağın bitki çıkarmasını sağlar ve yerde görünür bir etki bırakır.” için yüzeydeki taşıyıcı(lar) 1:1:1:2; bu özel anlamı bağımsızca kuran ayrı bir kelime, eylem veya gramatik dönüş bulunmadığından temas bağımsız bir okuma değişimi üretmiyor.",
+        "finding_refs": []
+      },
+      {
+        "branch_ref": "root_001650/B003",
+        "facet_id": "F003",
+        "decision": "no_independent_trigger",
+        "reason": "Faset ifadesi “İlk yağmuru almış ve onun bitkisel etkisini taşıyan toprak sonuç durumuyla adlandırılır.” için yüzeydeki taşıyıcı(lar) 1:1:1:2; bu özel anlamı bağımsızca kuran ayrı bir kelime, eylem veya gramatik dönüş bulunmadığından temas bağımsız bir okuma değişimi üretmiyor.",
+        "finding_refs": []
+      },
+      {
+        "branch_ref": "root_001650/B004",
+        "facet_id": "F001",
+        "decision": "no_independent_trigger",
+        "reason": "Faset ifadesi “Bir zaman veya yer, insanların ortak amaçla toplanacağı belirlenmiş bir buluşma noktası işlevi görür.” için yüzeydeki taşıyıcı(lar) 1:1:1:2; bu özel anlamı bağımsızca kuran ayrı bir kelime, eylem veya gramatik dönüş bulunmadığından temas bağımsız bir okuma değişimi üretmiyor.",
+        "finding_refs": []
+      },
+      {
+        "branch_ref": "root_001650/B004",
+        "facet_id": "F002",
+        "decision": "no_independent_trigger",
+        "reason": "Faset ifadesi “Kutsal ziyaret için insanların toplandığı belirlenmiş buluşma bu çekirdeğin başlıca gerçekleşmesidir.” için yüzeydeki taşıyıcı(lar) 1:1:1:2; bu özel anlamı bağımsızca kuran ayrı bir kelime, eylem veya gramatik dönüş bulunmadığından temas bağımsız bir okuma değişimi üretmiyor.",
+        "finding_refs": []
+      },
+      {
+        "branch_ref": "root_001650/B004",
+        "facet_id": "F003",
+        "decision": "no_independent_trigger",
+        "reason": "Faset ifadesi “Eski Arap pazarlarının belirli toplanma zamanları ve yerleri de bu anlamın örnekleridir.” için yüzeydeki taşıyıcı(lar) 1:1:1:2; bu özel anlamı bağımsızca kuran ayrı bir kelime, eylem veya gramatik dönüş bulunmadığından temas bağımsız bir okuma değişimi üretmiyor.",
+        "finding_refs": []
+      },
+      {
+        "branch_ref": "root_001650/B004",
+        "facet_id": "F004",
+        "decision": "no_independent_trigger",
+        "reason": "Faset ifadesi “İnsanların belirlenmiş toplu buluşmaya gidip onu hazır bulunarak geçirmesi bağlantılı bir eylemdir.” için yüzeydeki taşıyıcı(lar) 1:1:1:2; bu özel anlamı bağımsızca kuran ayrı bir kelime, eylem veya gramatik dönüş bulunmadığından temas bağımsız bir okuma değişimi üretmiyor.",
+        "finding_refs": []
+      },
+      {
+        "branch_ref": "root_001650/B005",
+        "facet_id": "F001",
+        "decision": "no_independent_trigger",
+        "reason": "Faset ifadesi “Kişide dışarıdan fark edilen güzellik ve hoş görünüş bulunur.” için yüzeydeki taşıyıcı(lar) 1:1:1:2; bu özel anlamı bağımsızca kuran ayrı bir kelime, eylem veya gramatik dönüş bulunmadığından temas bağımsız bir okuma değişimi üretmiyor.",
+        "finding_refs": []
+      },
+      {
+        "branch_ref": "root_001650/B005",
+        "facet_id": "F002",
+        "decision": "no_independent_trigger",
+        "reason": "Faset ifadesi “Güzellik özellikle yüzün güzelliği veya kişide yerleşmiş kalıcı bir hoşluk olarak ifade edilir.” için yüzeydeki taşıyıcı(lar) 1:1:1:2; bu özel anlamı bağımsızca kuran ayrı bir kelime, eylem veya gramatik dönüş bulunmadığından temas bağımsız bir okuma değişimi üretmiyor.",
+        "finding_refs": []
+      },
+      {
+        "branch_ref": "root_001650/B005",
+        "facet_id": "F003",
+        "decision": "no_independent_trigger",
+        "reason": "Faset ifadesi “Güzellik ve zarafetin kişi üzerinde bıraktığı görünür etki de aynı anlam alanında adlandırılır.” için yüzeydeki taşıyıcı(lar) 1:1:1:2; bu özel anlamı bağımsızca kuran ayrı bir kelime, eylem veya gramatik dönüş bulunmadığından temas bağımsız bir okuma değişimi üretmiyor.",
+        "finding_refs": []
+      },
+      {
+        "branch_ref": "root_001650/B006",
+        "facet_id": "F001",
+        "decision": "no_independent_trigger",
+        "reason": "Faset ifadesi “Referans, belirli bir bitki veya küçük ağaç türüdür.” için yüzeydeki taşıyıcı(lar) 1:1:1:2; bu özel anlamı bağımsızca kuran ayrı bir kelime, eylem veya gramatik dönüş bulunmadığından temas bağımsız bir okuma değişimi üretmiyor.",
+        "finding_refs": []
+      },
+      {
+        "branch_ref": "root_001650/B006",
+        "facet_id": "F002",
+        "decision": "no_independent_trigger",
+        "reason": "Faset ifadesi “Bitkinin yaprakları renk verici madde sağlar ve boyama amacıyla kullanılır.” için yüzeydeki taşıyıcı(lar) 1:1:1:2; bu özel anlamı bağımsızca kuran ayrı bir kelime, eylem veya gramatik dönüş bulunmadığından temas bağımsız bir okuma değişimi üretmiyor.",
+        "finding_refs": []
+      }
+    ],
+    "connection_dispositions": []
+  },
   "candidate_decisions": [
     {
       "candidate_id": "cand_1c46d52273a24776b639",
       "decision": "accept",
-      "reason": "sup_0269958b2367af9c5e43 ve sup_86c91a923c49bc88a942, بِ parçasını sonraki ada bağlanan formülün ilk vuruşu ve eylemi sıkıştıran yapı olarak birlikte temellendiriyor.",
-      "finding_refs": ["micro:opening-bound-act"]
+      "reason": "Bağlı ilk vuruş adlandırılmış formül vuruşu olarak doğrudan destekleniyor.",
+      "finding_refs": [
+        "micro:bound-opening-beat"
+      ],
+      "branch_exclusions": [],
+      "context_exclusions": []
     },
     {
       "candidate_id": "cand_ba2e80731a21e085717f",
       "decision": "narrow",
-      "reason": "sup_a9711d331c8ab9ebfd32 edatın araç, beraberlik ve içinden geçme duyumlarını destekliyor; sup_86c91a923c49bc88a942 yerel yönetimin bunları dört ayrı önerme değil tek bağlı yapı olarak tuttuğunu gösteriyor.",
-      "finding_refs": ["micro:opening-bound-act"]
+      "reason": "Edatın araç, yer, eşlik ve bağlanma basıncı korunuyor; yerel tamlama bunları tek bir bağlı ilişki içinde sınırlandırıyor.",
+      "finding_refs": [
+        "micro:bi-relation-range"
+      ],
+      "branch_exclusions": [],
+      "context_exclusions": []
     },
     {
       "candidate_id": "cand_d9c0b1b4fdb4684a48d0",
       "decision": "accept",
-      "reason": "sup_db7bbf7d31cf15bf9543, بِ'nin açıkça söylenmeyen başlama, okuma veya anma eylemini ada yönelterek formülü tamamlayan sıkıştırılmış çerçeve olduğunu doğrudan taşıyor.",
-      "finding_refs": ["micro:opening-bound-act"]
+      "reason": "Elips, açıkça seçilmiş tek bir fiil icat etmeden okuyanın başlangıç eylemini formüle bağlayan gerçek bir katkı sağlıyor.",
+      "finding_refs": [
+        "micro:implicit-opening-act"
+      ],
+      "branch_exclusions": [],
+      "context_exclusions": []
     },
     {
       "candidate_id": "cand_3de911178ef87a39e8e3",
       "decision": "narrow",
-      "reason": "sup_46da0fbbee759728567b yükseltilmiş ya da işaretlenmiş belirginlik tonunu destekliyor; sup_0d8b07eb431a21708089 yerel biçimin etkin anlamını ad olarak tuttuğu için bu ton sınırlandırılarak taşındı.",
-      "finding_refs": ["micro:name-as-mediated-designation"]
+      "reason": "Adın belirginleştirme ve yüceltme etkisi korunuyor; fiziksel yükselme ve başka dallar yerel anlam diye taşınmıyor.",
+      "finding_refs": [
+        "micro:raised-designation"
+      ],
+      "branch_exclusions": [],
+      "context_exclusions": []
     },
     {
       "candidate_id": "cand_39aa3d63b7af231e1d7f",
       "decision": "accept",
-      "reason": "sup_ba54357b33ac2f1cbc46 ve sup_0d8b07eb431a21708089, isim kelimesinin soldan بِ tarafından yönetilip sağdan Allah'ın özel adına tamlama ile bağlandığını açıkça gösteriyor.",
-      "finding_refs": ["micro:name-as-mediated-designation"]
+      "reason": "Edat yönetimi ile Allah'a izafet aynı isimde birleştiği için adayın tam yapısal iddiası korunuyor.",
+      "finding_refs": [
+        "micro:governed-construct"
+      ],
+      "branch_exclusions": [],
+      "context_exclusions": []
     },
     {
       "candidate_id": "cand_a73536c6f1f30d661198",
       "decision": "accept",
-      "reason": "sup_4a6a06dc50a4443bda26, ismi açılış edatından Allah adına ve oradan merhamet sıfatlarına geçiren yapısal menteşe olarak temellendiriyor.",
-      "finding_refs": ["micro:name-as-mediated-designation"]
+      "reason": "İsim, özel ad ve iki merhamet sıfatının ardışık kuruluşu okuyucunun ilk anlamını somut biçimde değiştiriyor.",
+      "finding_refs": [
+        "micro:name-mercy-frame"
+      ],
+      "branch_exclusions": [],
+      "context_exclusions": []
     },
     {
       "candidate_id": "cand_231d00f4806e5125e785",
       "decision": "narrow",
-      "reason": "sup_8e572e4e186ddeacaa5c, s-m-w anlam çevresindeki somut gök ve yükselme kullanımlarıyla soyut adlandırma arasındaki karşıtlığı veriyor; sup_0d8b07eb431a21708089 yalnız ad dalının yerel olarak seçildiğini koruyor.",
-      "finding_refs": ["micro:name-as-mediated-designation"]
+      "reason": "Geniş kök alanındaki yükselme ve gök baskısı adın seçkinliğine eşlik eden karşıtlık olarak korunuyor; gök anlamı etkinleştirilmiyor.",
+      "finding_refs": [
+        "micro:abstract-name-pressure"
+      ],
+      "branch_exclusions": [],
+      "context_exclusions": []
     },
     {
       "candidate_id": "cand_cf4f3a926ca2139c97f4",
-      "decision": "narrow",
-      "reason": "sup_3904c7864e7ec72fc6b8, alternatif kök yönlendirmesini yalnızca adlandırma anlamını keskinleştiren karşıtlık olarak sınırlıyor; sup_0d8b07eb431a21708089 yerel kök hizasını koruyor.",
-      "finding_refs": ["micro:name-as-mediated-designation"]
-    },
-    {
-      "candidate_id": "cand_94927b25c0fed4865f58",
       "decision": "accept",
-      "reason": "sup_02991ac40aeaac854e72 ve sup_f7725957d9a8549cb393, iki merhamet sıfatının bağımsız bir niteliğe değil Allah'ın belirli adına bağlandığını ve zinciri oradan aldığını gösteriyor.",
-      "finding_refs": ["micro:divine-name-anchor"]
-    },
-    {
-      "candidate_id": "cand_4b0304416b7855a41e73",
-      "decision": "accept",
-      "reason": "sup_106108c5d58aa80ed91f, Allah adının tamlama içinde sesçe yoğunlaştığını ve ardından hamd ilişkisine dayanak olarak döndüğünü bildiriyor; bu ayrı ses ve bağlanma getirisi korunuyor.",
-      "finding_refs": ["micro:divine-name-anchor"]
-    },
-    {
-      "candidate_id": "cand_fa521af54ad04516cae8",
-      "decision": "accept",
-      "reason": "sup_9616286c79c43182bed8 ve sup_f7725957d9a8549cb393, Allah kelimesini genitif tamlamaya ulaşan belirli ve tekil özel ad olarak doğrudan destekliyor.",
-      "finding_refs": ["micro:divine-name-anchor"]
-    },
-    {
-      "candidate_id": "cand_3a84a87d7339e33a9ee4",
-      "decision": "narrow",
-      "reason": "sup_ce242bd892b0c6e51152 tapınma ve özlem ya da hayranlık basıncını anlamlı bir karşıtlık olarak veriyor, fakat aynı kayıt Allah kelimesi için V4 satırı bulunmadığını ve yerel biçimin özel ad kaldığını belirtiyor.",
-      "finding_refs": ["micro:divine-name-worship-pressure"]
-    },
-    {
-      "candidate_id": "cand_3f864ad15356ff2ac1aa",
-      "decision": "narrow",
-      "reason": "sup_6ead5cbdfb87cc7d1f19 varyant irabların sıfat çiftini yüklem veya nesne gibi yeniden duyurabilecek canlı bir basınç taşıdığını söylüyor; aynı kayıt yerel genitif sıfat zincirini koruyor.",
-      "finding_refs": ["micro:variant-syntactic-pressure"]
-    },
-    {
-      "candidate_id": "cand_2189a4173d3d3e00fd4b",
-      "decision": "accept",
-      "reason": "sup_1675ff53e3dda1fc6912 ve sup_4f18b826f6b812c5f5c8, ilk merhamet sıfatının belirli ve genitif bir niteleme olarak Allah adına bağlandığını doğrudan temellendiriyor.",
-      "finding_refs": ["micro:paired-mercy-attributes"]
-    },
-    {
-      "candidate_id": "cand_846cad2f7d38c7dae4f1",
-      "decision": "accept",
-      "reason": "sup_990bff7b47282b7f417a ve sup_4f18b826f6b812c5f5c8, ilk merhamet biçiminin genişletici niteliğini ve hemen ardından gelen aynı anlam ailesiyle farklandırıldığını destekliyor.",
-      "finding_refs": ["micro:paired-mercy-attributes"]
-    },
-    {
-      "candidate_id": "cand_9685004bc52b37b5f3cb",
-      "decision": "accept",
-      "reason": "sup_5e4026cbb17c38d001fa, belirli takı, yinelenen başlangıç ve ritmin ilk merhamet sıfatını ikili sonun bağlı üyesi olarak işittirdiğini gösteriyor.",
-      "finding_refs": ["micro:mercy-cadence-and-return"]
-    },
-    {
-      "candidate_id": "cand_15645155a921e968fbc4",
-      "decision": "accept",
-      "reason": "sup_ba63014c1294abaed965, ilk merhamet çizgisinin 1:3'te yeniden duyulmasını ve 1:2'deki hamd ilişkisiyle ayrımını somut bir aynı-surah yankısı olarak veriyor.",
-      "finding_refs": ["micro:mercy-cadence-and-return"]
-    },
-    {
-      "candidate_id": "cand_0d92dd869e87a9099286",
-      "decision": "narrow",
-      "reason": "sup_dbb3006e444c60b8325c merhamet ve döl yatağı dallarının birlikte koruyucu-kuşatıcı basınç verebildiğini, fakat yerel sıfatın merhamet anlamını seçtiğini belirtiyor.",
-      "finding_refs": ["micro:protective-mercy-pressure"]
-    },
-    {
-      "candidate_id": "cand_2d0978cd3ad4a24e0f20",
-      "decision": "accept",
-      "reason": "sup_6ef75f06d3884729980a, kapanış kelimesinin ikili ritmi mühürlediğini ve aynı son çizgisinin 1:3'te döndüğünü açıkça taşıyor.",
-      "finding_refs": ["micro:mercy-cadence-and-return"]
-    },
-    {
-      "candidate_id": "cand_4d462bc2882a3f01451d",
-      "decision": "accept",
-      "reason": "sup_a0459e602e39b3c6f314 ve sup_696cad80b84a282418b4, son kelimenin önceki sıfatı tamamlayıp aynı Allah adına bağlı zinciri kapattığını destekliyor.",
-      "finding_refs": ["micro:paired-mercy-attributes"]
-    },
-    {
-      "candidate_id": "cand_505f30bd726b25681f68",
-      "decision": "accept",
-      "reason": "sup_5a2186ca53d4a45fa108, aynı anlam ailesinin ikinci kez dönmesini biçim farkıyla daralan bir inceltme olarak kuruyor; tekrarın düz eşanlamlılık olmadığını gösteriyor.",
-      "finding_refs": ["micro:paired-mercy-attributes"]
-    },
-    {
-      "candidate_id": "cand_69fbec494e02bcd3e720",
-      "decision": "narrow",
-      "reason": "sup_59953667b2f192780589 son merhamet biçiminin insan hakkında gerçekleşen merhameti de niteleyebildiğini gösteriyor; sup_696cad80b84a282418b4 yerel genitif bağın onu burada Allah'a ait sıfat tuttuğunu sınırlandırıyor.",
-      "finding_refs": ["micro:paired-mercy-attributes"]
-    },
-    {
-      "candidate_id": "cand_e74130c63d851de1a020",
-      "decision": "accept",
-      "reason": "sup_5a43ccd2baac6c45ad04 ve sup_696cad80b84a282418b4, final sıfatın formülü dayanıklı ve gerçekleşen merhamet niteliğinde sonlandırdığını destekliyor.",
-      "finding_refs": ["micro:paired-mercy-attributes"]
-    },
-    {
-      "candidate_id": "cand_d37a7bc52f828cc7df3e",
-      "decision": "narrow",
-      "reason": "sup_f5a6078ed810bdf095da, irab ve durak varyantlarının son sıfatı 1:2'ye geçiş eşiği gibi duyurabileceğini bildiriyor; yerel biçim yine genitif kapanış olduğundan yalnızca bu sentaktik ve tilavetsel basınç taşındı.",
-      "finding_refs": ["micro:variant-syntactic-pressure"]
+      "reason": "Varyant yönlendirme, yerel ad anlamını dağıtmadan onun sınırını açıklayan ayrı bir apparatus bulgusu taşıyor.",
+      "finding_refs": [
+        "micro:variant-root-boundary"
+      ],
+      "branch_exclusions": [],
+      "context_exclusions": []
     },
     {
       "candidate_id": "cand_353c6d0b915f11c20788",
       "decision": "reject",
-      "reason": "sup_7522ff51600da0a209ed yalnızca س م و kökünün QAC yüzey koordinatını kaydeden ledger_only bir oluşumdur; bağımsız okuyucu anlamı sağlamaz ve adlandırma bulgusunun yerine geçmez.",
-      "finding_refs": []
+      "reason": "QAC kök satırı yalnızca ledger_only kaydıdır; kendi başına okuyucuya sunulacak bir anlam iddiası kurmaz.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "context_exclusions": []
     },
     {
       "candidate_id": "cand_59d76ebb0fb3cf746c5e",
       "decision": "reject",
-      "reason": "sup_701f6be1a818d6d1c994 yalnızca ء ل ه kökünün QAC morfem kaydıdır; ledger_only olduğu için özel ad ve tapınma basıncına ayrıca yeni bir okuyucu bulgusu eklemez.",
-      "finding_refs": []
+      "reason": "QAC kök satırı yalnızca ledger_only kaydıdır; branch availability bağımsız tetikleyici yerine geçmez.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "context_exclusions": []
     },
     {
       "candidate_id": "cand_2e4a10b0c79321d62da2",
       "decision": "reject",
-      "reason": "sup_3d9db17a6b2ee32b24cc yalnızca ر ح م kökünün QAC morfem kaydını verir; ledger_only kayıt olarak merhamet sıfatı bulgusuna ek, bağımsız bir anlam taşımaz.",
-      "finding_refs": []
+      "reason": "QAC kök satırı yalnızca ledger_only kaydıdır; destek kaydı tek başına ayrı bir prose bulgusu oluşturmaz.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "context_exclusions": []
     }
   ],
   "findings": [
     {
-      "finding_ref": "micro:opening-bound-act",
-      "title": "Bağlı başlangıç ve sıkıştırılmış eylem",
-      "claim": "بِ, başlama, okuma veya anma eylemini kendinden sonraki ada bağlayan bağlı bir başlangıç hareketi kurar; eylem açıkça söylenmeden okuyanın edimi için yer bırakır.",
-      "mechanism": "Açılış edatı sonraki isim kelimesini yönetir ve formülün ilk vuruşu olarak duyulur. Edatın araç, beraberlik ve içinden geçme yönleri tek bir yönetilen tamlama içinde toplanır; ardından gelen eylem dilbilgisel olarak sıkıştırılmış kalır.",
-      "reader_payoff": "Okur, Türkçedeki tek bir 'adıyla' karşılığının arkasında bir hükümden önce kurulan ilişkiyi ve kendi başlama ya da okuma ediminin bu ilişkiye nasıl yerleştiğini fark eder.",
-      "containment": "Birincil okuma 'Allah'ın adıyla' olarak korunur. Araç, beraberlik ve yöneliş duyumları birbirinin yerine geçen dört önerme değil, aynı bağlı yapının sınırlı tonlarıdır.",
-      "epistemic_status": "Yerel edat yönetimi ve tamlama yapısından doğrudan okunan, eylem elipsini sınırlı biçimde içeren bulgu.",
-      "candidate_ids": [
-        "cand_1c46d52273a24776b639",
-        "cand_ba2e80731a21e085717f",
-        "cand_d9c0b1b4fdb4684a48d0"
-      ],
+      "finding_ref": "micro:bound-opening-beat",
+      "origin_candidate_id": "cand_1c46d52273a24776b639",
+      "represented_candidate_ids": [],
+      "title": "Bağlı ilk vuruş",
+      "claim": "Açılış edatı ile isim sözcüğü, tam bir cümleye açılmadan bağımlı ve formülleşmiş bir başlangıç vuruşu kurar.",
+      "mechanism": "بِ edatının سْمِ ismini yönetmesi, formülün ilk sesini sonraki ada bağlar ve eylemi sıkıştırılmış halde tutar.",
+      "reader_payoff": "Okur, basmalanın ilk kelimesini bağımsız bir önermeden çok adıyla başlanan bir yöneliş olarak duyar.",
+      "containment": "Bu okuma basmalanın olağan 'Allah'ın adıyla' anlamını taşır; yalnızca o anlamın daha ilk seslerde nasıl kurulduğunu görünür kılar.",
+      "prose_statement": "İlk ses olan {ar:بِ, tr:bi, gloss:ile} ile {ar:سْمِ, tr:ismi, gloss:adı} birlikte kurulduğunda basmala, daha başında sonraki ada bağlanan tek bir formül vuruşu olarak duyulur.",
+      "epistemic": {
+        "status": "grounded",
+        "source_trust": [
+          "trusted"
+        ],
+        "reason": "Bağlı açılış biçimi ve edatın sonraki ismi yönetmesi doğrudan destekleniyor; yorum, tam cümle icat etmeden bu biçimsel etkiyi sınırlandırıyor."
+      },
+      "draft_prose": "İlk ses olan {ar:بِ, tr:bi, gloss:ile} ile {ar:سْمِ, tr:ismi, gloss:adı} birlikte kurulduğunda basmala, daha başında sonraki ada bağlanan tek bir formül vuruşu olarak duyulur.",
       "support_ids": [
         "sup_0269958b2367af9c5e43",
+        "sup_86c91a923c49bc88a942"
+      ],
+      "branch_activations": [],
+      "connection_refs": [],
+      "context_refs": []
+    },
+    {
+      "finding_ref": "micro:bi-relation-range",
+      "origin_candidate_id": "cand_ba2e80731a21e085717f",
+      "represented_candidate_ids": [],
+      "title": "Bağlama ilişkisi",
+      "claim": "بِ, Türkçedeki tek bir 'ile' karşılığına kapanmadan başlangıç eylemini ada bağlayan ilişkisel bir çerçeve kurar.",
+      "mechanism": "Edat, yer, araç, eşlik ve bağlanma yönlerini yerel tamlama içinde toplar; bunları dört ayrı önerme haline getirmez.",
+      "reader_payoff": "Okur, 'adıyla' ifadesinde eylemin adla birlikte ve ad üzerinden kurulduğunu sezebilir.",
+      "containment": "Edatın geniş ilişkisel alanı yalnız bu bağlı yapının içinde tutulur; bağımsız yer, araç veya eşlik cümleleri ileri sürülmez.",
+      "prose_statement": "Buradaki {ar:بِ, tr:bi, gloss:ile} Türkçedeki tek bir \"ile\" karşılığından geniştir; başlama eylemini Allah'ın adıyla, onun adına ve onun aracılığıyla ilişkilendirir.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": [
+          "trusted"
+        ],
+        "reason": "Kaynak, edatın birden çok ilişkisel basıncını verirken yerel yapı bunları tek bir yönetilen kuruluşta sınırlar."
+      },
+      "draft_prose": "Buradaki {ar:بِ, tr:bi, gloss:ile} Türkçedeki tek bir \"ile\" karşılığından geniştir; başlama eylemini Allah'ın adıyla, onun adına ve onun aracılığıyla ilişkilendirir.",
+      "support_ids": [
         "sup_86c91a923c49bc88a942",
-        "sup_a9711d331c8ab9ebfd32",
+        "sup_a9711d331c8ab9ebfd32"
+      ],
+      "branch_activations": [],
+      "connection_refs": [],
+      "context_refs": []
+    },
+    {
+      "finding_ref": "micro:implicit-opening-act",
+      "origin_candidate_id": "cand_d9c0b1b4fdb4684a48d0",
+      "represented_candidate_ids": [],
+      "title": "Örtük başlangıç eylemi",
+      "claim": "Formül, yapılacak işi açık bir fiille söylemeden okuyanın başlama, anma veya okuma eylemini ad üzerinden yönlendirir.",
+      "mechanism": "بِ ile kurulan bağlı yapı, yönetilen eylemi açıkça adlandırmayarak sözün icrasındaki başlangıç hareketini sıkıştırılmış biçimde taşır.",
+      "reader_payoff": "Okur, basmalayı söylerken kendi başlama eyleminin bu ifadede nasıl yer bulduğunu fark eder.",
+      "containment": "Burada belirli bir gizli fiil seçilmez; yalnızca bağlı formülün okuyanın fiilî başlangıcına açık bıraktığı alan korunur.",
+      "prose_statement": "Söylenmeyen iş, {ar:بِ, tr:bi, gloss:ile} aracılığıyla okuyanın başlama, anma veya okuma eylemi olarak tamamlanır ve bu eylem Allah'ın adına yönelir.",
+      "epistemic": {
+        "status": "grounded",
+        "source_trust": [
+          "trusted"
+        ],
+        "reason": "Formülleşmiş elips ve genitif yönetim, bir fiili tekleştirmeden icracının başlangıç eylemini taşıyan çerçeveyi destekliyor."
+      },
+      "draft_prose": "Söylenmeyen iş, {ar:بِ, tr:bi, gloss:ile} aracılığıyla okuyanın başlama, anma veya okuma eylemi olarak tamamlanır ve bu eylem Allah'ın adına yönelir.",
+      "support_ids": [
+        "sup_86c91a923c49bc88a942",
         "sup_db7bbf7d31cf15bf9543"
       ],
-      "branch_refs": [],
+      "branch_activations": [],
       "connection_refs": [],
       "context_refs": []
     },
     {
-      "finding_ref": "micro:name-as-mediated-designation",
-      "title": "Adın aracılı ve belirginleştirici kuruluşu",
-      "claim": "سْمِ, soldan بِ tarafından yönetilen ve sağdan Allah'ın özel adına tamlama ile bağlanan bir adlandırmadır; bağlı olduğu anlam çevresindeki yükselme ve belirginleşme basıncı, adı anılanı öne çıkaran bir tona dönüştürür.",
-      "mechanism": "İsim kelimesi ne bağımsız bir etiket olarak kalır ne de kök çevresindeki somut gök ve yükselme görüntülerine kayar. Yönetim ve tamlama ilişkisi onu açılış hareketinin aracısı yaparken, adlandırma dalı yükseltilmiş ya da işaretlenmiş belirginliği sınırlı bir renk olarak taşır.",
-      "reader_payoff": "Okur, 'ad' kelimesinin burada yalnızca bir isim bildirmediğini; başlangıç edimini belirli bir ada ulaştırıp o adı görünür ve ayırt edilir kılan bir iş yaptığını görür.",
-      "containment": "Yerel anlam ad ve adlandırmadır. Gök, yükselme ve karşıt kök yönlendirmeleri yalnızca bu seçimi keskinleştiren sınır bilgisi olarak kalır; ayet somut gök, av, yarış veya başka bir kök anlamına çevrilmez.",
-      "epistemic_status": "Yerel tamlama ilişkisiyle sağlamlaşan ve yükselme-belirginlik tonunu sınırlı sözcük çağrışımı olarak taşıyan bulgu.",
-      "candidate_ids": [
-        "cand_3de911178ef87a39e8e3",
-        "cand_39aa3d63b7af231e1d7f",
-        "cand_a73536c6f1f30d661198",
-        "cand_231d00f4806e5125e785",
-        "cand_cf4f3a926ca2139c97f4"
-      ],
+      "finding_ref": "micro:raised-designation",
+      "origin_candidate_id": "cand_3de911178ef87a39e8e3",
+      "represented_candidate_ids": [],
+      "title": "Yükseltilmiş adlandırma",
+      "claim": "سْمِ, yerel olarak 'ad' anlamını korurken adlandırılanı belirgin ve yüceltilmiş bir konuma çıkaran bir işaretleme etkisi taşır.",
+      "mechanism": "س م و alanındaki yükselme ve belirginleşme basıncı, isim biçimi ve Allah'a bağlanan tamlama tarafından adlandırma işlevi içinde tutulur.",
+      "reader_payoff": "Okur, 'ad'ı nötr bir etiket değil, Allah'ı ayırt ederek öne çıkaran bir adlandırma olarak kavrar.",
+      "containment": "Yükselme burada fiziksel göğe çıkma değildir; yerel isim anlamına eşlik eden belirginleştirme etkisi olarak kalır.",
+      "prose_statement": "{ar:سْمِ, tr:ismi, gloss:adı} burada nötr bir etiket değil, Allah'ı ayırt eden, belirginleştiren ve yücelten bir adlandırmadır.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": [
+          "trusted"
+        ],
+        "reason": "İsim anlamı ve yükseltilmiş designation basıncı destekleniyor; fiziksel yükselme dalları yerel biçim tarafından dışarıda tutuluyor."
+      },
+      "draft_prose": "{ar:سْمِ, tr:ismi, gloss:adı} burada nötr bir etiket değil, Allah'ı ayırt eden, belirginleştiren ve yücelten bir adlandırmadır.",
       "support_ids": [
         "sup_0d8b07eb431a21708089",
-        "sup_46da0fbbee759728567b",
-        "sup_4a6a06dc50a4443bda26",
-        "sup_8e572e4e186ddeacaa5c",
-        "sup_ba54357b33ac2f1cbc46",
-        "sup_7522ff51600da0a209ed"
+        "sup_46da0fbbee759728567b"
       ],
-      "branch_refs": [
-        "root_000745/B004",
-        "root_000745/B005"
-      ],
+      "branch_activations": [],
       "connection_refs": [],
       "context_refs": []
     },
     {
-      "finding_ref": "micro:divine-name-anchor",
-      "title": "Özel adın merhamet zincirini taşıması",
-      "claim": "ٱللَّهِ, isim tamlamasının genitif konumundaki belirli ve tekil özel ad olarak, ardından gelen iki merhamet sıfatını kendisine bağlar ve tamlamayı sesçe yoğun bir birlik halinde taşır.",
-      "mechanism": "QAC biçimi ve yerel bağlanma, Allah adını soldaki isim tarafından ulaşılan referent, sağdaki sıfatların da onun genitif nitelemeleri olarak kurar. Aynı adın hamd ilişkisine doğru yeniden dayanak olması, bu yapısal bağın ses ve geçişte de sürmesini sağlar.",
-      "reader_payoff": "Merhamet artık Allah'ın adından kopuk iki özellik gibi görünmez; okur, adın açılıştaki yönelişi merhamet zincirine taşıyan merkezî bağ olduğunu işitir.",
-      "containment": "Allah kelimesi yerel olarak özel addır; ses yoğunluğu ve sonraki hamd ilişkisi bu adın bağımsız bir yüklem ya da genel tür adı olduğu anlamına gelmez.",
-      "epistemic_status": "Genitif özel ad yapısı, sıfat bağlanması ve supplied ses-yankı kanıtlarıyla desteklenen yerel bulgu.",
-      "candidate_ids": [
-        "cand_94927b25c0fed4865f58",
-        "cand_4b0304416b7855a41e73",
-        "cand_fa521af54ad04516cae8"
-      ],
+      "finding_ref": "micro:governed-construct",
+      "origin_candidate_id": "cand_39aa3d63b7af231e1d7f",
+      "represented_candidate_ids": [],
+      "title": "İsmin çift yönlü bağlılığı",
+      "claim": "سْمِ, soldan بِ tarafından yönetilirken sağdan Allah özel adıyla tamlama içine girer ve başlangıcın aracını belirler.",
+      "mechanism": "Edat yönetimi ile izafet bağı aynı isimde kesişir; isim hem eylemin ilişki noktası hem de belirli referentin taşıyıcısı olur.",
+      "reader_payoff": "Okur, 'Allah'ın adıyla' ifadesindeki adın yalnızca eklenmiş bir kelime değil, kuruluşun merkezindeki aracı olduğunu görür.",
+      "containment": "Bu yapı referenti değiştirmez ve yeni bir fail kurmaz; yalnızca başlangıç eyleminin belirli ad üzerinden kurulduğunu açıklar.",
+      "prose_statement": "{ar:سْمِ, tr:ismi, gloss:adı} hem {ar:بِ, tr:bi, gloss:ile} tarafından yönetilir hem de {ar:ٱللَّهِ, tr:Allahi, gloss:Allah'ın} ile tamlama kurar; böylece başlangıç belirli bir ad üzerinden ilerler.",
+      "epistemic": {
+        "status": "grounded",
+        "source_trust": [
+          "trusted"
+        ],
+        "reason": "Hem edat yönetimi hem izafet bağının birlikte kurulması doğrudan attachment ve construct kanıtıyla destekleniyor."
+      },
+      "draft_prose": "{ar:سْمِ, tr:ismi, gloss:adı} hem {ar:بِ, tr:bi, gloss:ile} tarafından yönetilir hem de {ar:ٱللَّهِ, tr:Allahi, gloss:Allah'ın} ile tamlama kurar; böylece başlangıç belirli bir ad üzerinden ilerler.",
       "support_ids": [
-        "sup_02991ac40aeaac854e72",
-        "sup_106108c5d58aa80ed91f",
-        "sup_701f6be1a818d6d1c994",
-        "sup_9616286c79c43182bed8",
-        "sup_f7725957d9a8549cb393"
+        "sup_0d8b07eb431a21708089",
+        "sup_ba54357b33ac2f1cbc46"
       ],
-      "branch_refs": [
-        "root_000047/B002"
-      ],
+      "branch_activations": [],
       "connection_refs": [],
       "context_refs": []
     },
     {
-      "finding_ref": "micro:divine-name-worship-pressure",
-      "title": "Özel adda tapınma yönelişinin basıncı",
-      "claim": "Allah adının bağlı olduğu anlam çevresi, yerel özel ad okumasının içinde tapınmaya yöneliş ve hayranlık ya da özlem basıncını arka planda toplar.",
-      "mechanism": "ء ل ه alanındaki tapınma ve yöneliş anlamı, Allah adının belirli referentiyle birlikte okunduğunda 'Allah'ın adıyla' başlangıcına nötr bir etiketin ötesinde kulluk yönü verir. Yerel biçim bu basıncı özel adın etrafında tutar.",
-      "reader_payoff": "Okur, ada yönelmenin yalnızca bir ismi anmak olmadığını; başlangıç hareketinin tapınmaya yönelen bir muhataba doğru ağırlık kazandığını fark eder.",
-      "containment": "Paket bu kök için V4 satırı bulunmadığını bildirir; bu nedenle tapınma ve hayranlık/özlem basıncı etimolojik ve karşılaştırmalı bir renktir. Yerel okuma belirli özel ad olarak korunur, genel bir ilah türüne genişletilmez.",
-      "epistemic_status": "Kök anlam çevresinden gelen, V4 kapsamı sınırlı olduğu için özel ad biçimiyle çerçevelenmiş ikincil basınç.",
-      "candidate_ids": [
-        "cand_3a84a87d7339e33a9ee4"
-      ],
+      "finding_ref": "micro:name-mercy-frame",
+      "origin_candidate_id": "cand_a73536c6f1f30d661198",
+      "represented_candidate_ids": [],
+      "title": "Ad ile merhamet çerçevesi",
+      "claim": "İsim, Allah özel adı ve ardından gelen iki belirli merhamet sıfatı arasında bir geçit kurarak başlangıcı belirli bir merhamet çerçevesine yerleştirir.",
+      "mechanism": "سْمِ izafeti Allah'a bağlanır; الرحمن ve الرحيم aynı genitif appozisyon içinde bu adlandırmayı nitelendirir.",
+      "reader_payoff": "Okur, adın soyut bir etiket olarak kalmadığını, daha söylenirken merhametle tanınan Allah'a bağlandığını hisseder.",
+      "containment": "Bu yerel bağlanma merhamet sıfatlarının kapsamını seçmez ve daha geniş bir surah tezi kurmaz; yalnızca formülün anlık kuruluşunu açıklar.",
+      "prose_statement": "İsim sözü {ar:ٱللَّهِ, tr:Allahi, gloss:Allah'ın} ile {ar:ٱلرَّحْمَٰنِ, tr:er-Rahmân, gloss:merhameti sınırsız} ve {ar:ٱلرَّحِيمِ, tr:er-Rahîm, gloss:merhamet eden} sıfatlarına bağlanınca başlangıç, merhametle tanınan belirli bir ada yönelir.",
+      "epistemic": {
+        "status": "grounded",
+        "source_trust": [
+          "trusted"
+        ],
+        "reason": "İzafet, özel ad ve iki merhamet sıfatının ardışık çerçevesi yapı kanıtıyla doğrudan kuruluyor."
+      },
+      "draft_prose": "İsim sözü {ar:ٱللَّهِ, tr:Allahi, gloss:Allah'ın} ile {ar:ٱلرَّحْمَٰنِ, tr:er-Rahmân, gloss:merhameti sınırsız} ve {ar:ٱلرَّحِيمِ, tr:er-Rahîm, gloss:merhamet eden} sıfatlarına bağlanınca başlangıç, merhametle tanınan belirli bir ada yönelir.",
       "support_ids": [
-        "sup_ce242bd892b0c6e51152",
-        "sup_f7725957d9a8549cb393"
+        "sup_0d8b07eb431a21708089",
+        "sup_4a6a06dc50a4443bda26"
       ],
-      "branch_refs": [
-        "root_000047/B001",
-        "root_000047/B002"
-      ],
+      "branch_activations": [],
       "connection_refs": [],
       "context_refs": []
     },
     {
-      "finding_ref": "micro:paired-mercy-attributes",
-      "title": "Genişleyen ve gerçekleşen merhamet çifti",
-      "claim": "İlk merhamet sıfatı Allah adına bağlı, belirli ve genişletici bir niteleme açar; aynı anlam ailesinden gelen son sıfat bu alanı gerçekleşen ve süreklilik kazanan merhamet niteliğiyle inceltir, formülü yine Allah adına bağlı olarak tamamlar.",
-      "mechanism": "Her iki sıfatın belirli takısı ve genitif biçimi onları Allah adına bağlar. İlk biçimin genişlik kuvveti, hemen yanındaki biçim değişikliğiyle düz tekrar olmaktan çıkar; son kelime önceki sıfatı belirleyip aynı niteleme zincirini kapatır. Son biçimin insan hakkında gerçekleşen merhameti de niteleyebilmesi, bu eylemde görünen kaliteyi karşılaştırmalı olarak belirginleştirir.",
-      "reader_payoff": "Çeviride yan yana duran iki 'merhamet' kelimesi, Arapçada önce kuşatan bir alanı açıp sonra o alanı süreklilik taşıyan iyilikte sabitleyen bir hareket olarak görünür.",
-      "containment": "Birincil okuma Allah'ın sınırsız merhamet sahibi ve merhamet eden oluşudur. Aynı anlam ailesindeki soy bağı ya da döl yatağı görüntüleri bu bulguda literal bir organ veya soy iddiası değildir; son biçimin başka kişilerde kullanılabilmesi de bu ayetteki ilahî genitif bağını değiştirmez.",
-      "epistemic_status": "Yerel biçim, genitif sıfat zinciri ve aynı anlam ailesindeki biçim farkıyla desteklenen; ikinci merhamet formunu bir inceltme olarak okuyan bulgu.",
-      "candidate_ids": [
-        "cand_2189a4173d3d3e00fd4b",
-        "cand_846cad2f7d38c7dae4f1",
-        "cand_4d462bc2882a3f01451d",
-        "cand_505f30bd726b25681f68",
-        "cand_69fbec494e02bcd3e720",
-        "cand_e74130c63d851de1a020"
-      ],
+      "finding_ref": "micro:abstract-name-pressure",
+      "origin_candidate_id": "cand_231d00f4806e5125e785",
+      "represented_candidate_ids": [],
+      "title": "Soyut adın yükselme basıncı",
+      "claim": "سْمِ, yükselme ve gök alanı geniş bir kök içinde soyut adlandırmayı seçerek Allah adını belirgin bir işaret haline getirir.",
+      "mechanism": "Kök alanındaki somut yükselme ve gök çağrışımları, yerel isim biçiminde etkin bir gök anlamına dönüşmeden adın seçkinliğini arka planda hissettirir.",
+      "reader_payoff": "Okur, 'ad' kelimesinin neden yalnız bir etiket gibi durmadığını ve seçilmiş designation etkisini anlar.",
+      "containment": "Gök, av, yarışma ve başka kök dalları bu ayette etkin anlam olarak kurulmaz; yalnızca adın belirginleşme basıncını açıklayan karşıtlıkta kalır.",
+      "prose_statement": "{ar:سْمِ, tr:ismi, gloss:adı} sözcüğündeki yükselme ve belirginleşme çağrışımı, göğe taşınmadan Allah adının seçkin ve ayırt edici duyuluşuna eşlik eder.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": [
+          "trusted"
+        ],
+        "reason": "Kök alanının genişliği ve yerel isim seçimi destekleniyor; somut gök dalları için bağımsız taşıyıcı veya tetikleyici bulunmuyor."
+      },
+      "draft_prose": "{ar:سْمِ, tr:ismi, gloss:adı} sözcüğündeki yükselme ve belirginleşme çağrışımı, göğe taşınmadan Allah adının seçkin ve ayırt edici duyuluşuna eşlik eder.",
       "support_ids": [
-        "sup_1675ff53e3dda1fc6912",
+        "sup_0d8b07eb431a21708089",
+        "sup_8e572e4e186ddeacaa5c"
+      ],
+      "branch_activations": [],
+      "connection_refs": [],
+      "context_refs": []
+    },
+    {
+      "finding_ref": "micro:variant-root-boundary",
+      "origin_candidate_id": "cand_cf4f3a926ca2139c97f4",
+      "represented_candidate_ids": [],
+      "title": "Karşıt kök baskısının sınırı",
+      "claim": "Raporlanmış kök yönlendirme karşıtlığı, yerel okumanın adlandırma sınırını keskinleştirir; alternatif kök anlamı ayete taşınmaz.",
+      "mechanism": "س م و hizalanması isim anlamını taşırken bildirilen karşıtlık yalnız karşılaştırmalı bir sınır işareti olarak kalır.",
+      "reader_payoff": "Okur, sözlükteki geniş baskının Allah'ın adıyla başlayan yerel anlamı dağıtmadığını görür.",
+      "containment": "Karşıtlık, bağımsız bir ayet anlamı veya ses benzerliğine dayalı yeni bir okuma değildir; yalnızca yerel kök hizasını görünür kılar.",
+      "prose_statement": "Kök yönlendirmesine dair bildirilen karşıtlık, {ar:سْمِ, tr:ismi, gloss:adı} için adlandırma sınırını keskinleştirir; ayette etkin kalan anlam Allah'a bağlı addır.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": [
+          "trusted"
+        ],
+        "reason": "Yerel kök hizası ve varyant baskısının yalnız apparatus işlevi taşıdığı destekleniyor."
+      },
+      "draft_prose": "Kök yönlendirmesine dair bildirilen karşıtlık, {ar:سْمِ, tr:ismi, gloss:adı} için adlandırma sınırını keskinleştirir; ayette etkin kalan anlam Allah'a bağlı addır.",
+      "support_ids": [
+        "sup_0d8b07eb431a21708089",
+        "sup_3904c7864e7ec72fc6b8"
+      ],
+      "branch_activations": [],
+      "connection_refs": [],
+      "context_refs": []
+    },
+    {
+      "finding_ref": "micro:mercy-softened-heart",
+      "origin_candidate_id": null,
+      "represented_candidate_ids": [],
+      "title": "Yumuşayan kalp",
+      "claim": "İki merhamet sıfatı, Allah'ın adı çevresinde merhametin yüreği yumuşatan yakınlık çekirdeğini de görünür kılar.",
+      "mechanism": "ر ح م taşıyıcısı iki ayrı merhamet sıfatında yinelenir; Allah özel adı bu duygusal çekirdeğin ilahî isnadını kurar.",
+      "reader_payoff": "Okur, merhameti yalnız sonuç olarak değil, başkasının durumuna yönelen içten yakınlık olarak da işitir.",
+      "containment": "Bu yerel temas insanî bir duygu görüntüsünü Allah'a sınırlı biçimde isnat eden sözlük fasetini taşır; soy bağı, döl yatağı ve hastalık dallarına açılmaz.",
+      "prose_statement": "{ar:ٱلرَّحْمَٰنِ, tr:er-Rahmân, gloss:merhameti sınırsız} ile {ar:ٱلرَّحِيمِ, tr:er-Rahîm, gloss:merhamet eden}, Allah'ın adı çevresinde merhameti yüreği yumuşatan bir yakınlık ve içten yöneliş olarak da duyurur.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": [
+          "trusted"
+        ],
+        "reason": "İki r-h-m biçimi ve Allah özel adı bu faseti yerel olarak temellendiriyor; okuyucuya açılan iç yakınlık sentezi yazar çıkarımı olarak tutuluyor."
+      },
+      "draft_prose": "{ar:ٱلرَّحْمَٰنِ, tr:er-Rahmân, gloss:merhameti sınırsız} ile {ar:ٱلرَّحِيمِ, tr:er-Rahîm, gloss:merhamet eden}, Allah'ın adı çevresinde merhameti yüreği yumuşatan bir yakınlık ve içten yöneliş olarak da duyurur.",
+      "support_ids": [
         "sup_3d9db17a6b2ee32b24cc",
-        "sup_4f18b826f6b812c5f5c8",
-        "sup_5a2186ca53d4a45fa108",
-        "sup_5a43ccd2baac6c45ad04",
-        "sup_59953667b2f192780589",
-        "sup_696cad80b84a282418b4",
-        "sup_990bff7b47282b7f417a",
-        "sup_a0459e602e39b3c6f314"
+        "sup_701f6be1a818d6d1c994",
+        "sup_4a6a06dc50a4443bda26"
       ],
-      "branch_refs": [
-        "root_000552/B001"
+      "branch_activations": [
+        {
+          "branch_ref": "root_000552/B001",
+          "facet_id": "F001",
+          "branch_gloss": "acıma duygusuyla esirgeyip iyilik etme",
+          "facet_statement": "Bir başkasının durumu karşısında yüreğin yumuşaması, ona acıma ve içten yakınlık duyma çekirdeği oluşturur.",
+          "application_mode": "intrinsic_cross_root",
+          "carrier_refs": [
+            "1:1:3:2"
+          ],
+          "trigger_refs": [
+            "1:1:2:1",
+            "1:1:4:2"
+          ],
+          "focus_return_refs": [
+            "1:1:3:2",
+            "1:1:4:2"
+          ],
+          "carrier": "Taşıyıcı, Allah'a bağlanan ilk merhamet sıfatının ر ح م kökündeki anlamıdır.",
+          "independent_trigger": "Allah'ın özel adı ile aynı kökten gelen ikinci merhamet sıfatı, taşıyıcıdan ayrı bir ilahî kullanım tetikleyicisi sağlar.",
+          "activation": "Özel ad ile iki merhamet sıfatının aynı bağlı yapıda buluşması, ilgili merhamet fasetini bu yerel kullanıma taşır.",
+          "resulting_reading": "İki merhamet sıfatı, Allah'ın adı çevresinde merhametin yüreği yumuşatan yakınlık çekirdeğini de görünür kılar.",
+          "boundary": "Bu yerel temas insanî bir duygu görüntüsünü Allah'a sınırlı biçimde isnat eden sözlük fasetini taşır; soy bağı, döl yatağı ve hastalık dallarına açılmaz.",
+          "prose_statement": "{ar:ٱلرَّحْمَٰنِ, tr:er-Rahmân, gloss:merhameti sınırsız} ile {ar:ٱلرَّحِيمِ, tr:er-Rahîm, gloss:merhamet eden}, Allah'ın adı çevresinde merhameti yüreği yumuşatan bir yakınlık ve içten yöneliş olarak da duyurur."
+        }
       ],
       "connection_refs": [],
       "context_refs": []
     },
     {
-      "finding_ref": "micro:protective-mercy-pressure",
-      "title": "Merhametin koruyucu yakınlık rengi",
-      "claim": "Merhamet kelimesi, seçtiği merhamet anlamını korurken yakınlık, içinde taşıma ve koruyucu kuşatıcılık duyumuyla zenginleşir.",
-      "mechanism": "Aynı anlam çevresindeki soy bağı ve döl yatağı kullanımları, merhameti yalnızca soyut bir duygu değil, canlıyı gözeten ve içinde taşıyan bir esirgeme basıncı olarak renklendirir. Yerel sıfatın Allah adına bağlı oluşu bu rengi kapsayıcı merhamet yönünde tutar.",
-      "reader_payoff": "Okur, 'merhamet' kelimesini uzak bir iyi niyet etiketi olarak değil, koruyan ve kuşatan bir yakınlık olarak duyabilir; bu, ilk sıfatın genişlik kuvvetini bedensel bir sezgiyle görünür kılar.",
-      "containment": "Yerel kelime merhamettir. Soy bağı veya döl yatağı burada doğrudan anlatılan varlıklar değildir; yalnızca koruyucu ve içinde taşıyıcı basınç olarak merhamete renk verir.",
-      "epistemic_status": "Merhamet anlamının seçildiği yerel sıfata, aynı anlam çevresinden gelen sınırlı ve mecazî bir koruyucu basınç ekleyen bulgu.",
-      "candidate_ids": [
-        "cand_0d92dd869e87a9099286"
-      ],
+      "finding_ref": "micro:mercy-protective-act",
+      "origin_candidate_id": null,
+      "represented_candidate_ids": [],
+      "title": "Esirgeyen eylem",
+      "claim": "İki merhamet sıfatı, merhametin iç yakınlıktan muhatabı esirgeyen ve ona iyilik ulaştıran etkin sonuca açıldığını görünür kılar.",
+      "mechanism": "ر ح م kökünün duygu çekirdeği, iki sıfatın aynı Allah adına bağlanmasıyla koruyucu ve iyilik ulaştıran bir sonuca taşınır.",
+      "reader_payoff": "Okur, 'merhamet eden' ifadesinde merhametin eyleme dönüşen yönünü daha belirgin görür.",
+      "containment": "Bu okuma verilen esirgeme ve iyilik çekirdeğiyle sınırlıdır; insan topluluğu, soy bağı veya özel dua kalıbı hakkında ek iddia kurmaz.",
+      "prose_statement": "{ar:ٱلرَّحْمَٰنِ, tr:er-Rahmân, gloss:merhameti sınırsız} ile {ar:ٱلرَّحِيمِ, tr:er-Rahîm, gloss:merhamet eden}, Allah'ın adıyla başlayan merhameti içteki yakınlıktan muhatabı esirgeyen ve ona iyilik ulaştıran etkin bir davranışa açar.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": [
+          "trusted"
+        ],
+        "reason": "Kök tanımı duygu ile bunun doğurduğu esirgeme ve iyiliği birlikte verir; iki sıfatın Allah adına bağlanması bu sonucun yerel temasını kuruyor."
+      },
+      "draft_prose": "{ar:ٱلرَّحْمَٰنِ, tr:er-Rahmân, gloss:merhameti sınırsız} ile {ar:ٱلرَّحِيمِ, tr:er-Rahîm, gloss:merhamet eden}, Allah'ın adıyla başlayan merhameti içteki yakınlıktan muhatabı esirgeyen ve ona iyilik ulaştıran etkin bir davranışa açar.",
       "support_ids": [
-        "sup_4f18b826f6b812c5f5c8",
-        "sup_696cad80b84a282418b4",
-        "sup_dbb3006e444c60b8325c"
+        "sup_3d9db17a6b2ee32b24cc",
+        "sup_701f6be1a818d6d1c994",
+        "sup_4a6a06dc50a4443bda26"
       ],
-      "branch_refs": [
-        "root_000552/B001",
-        "root_000552/B002",
-        "root_000552/B003"
+      "branch_activations": [
+        {
+          "branch_ref": "root_000552/B001",
+          "facet_id": "F002",
+          "branch_gloss": "acıma duygusuyla esirgeyip iyilik etme",
+          "facet_statement": "Bu iç yöneliş, acınan kişiyi esirgemeyi ve ona iyilikte bulunmayı gerektiren etkin bir sonuç taşır.",
+          "application_mode": "intrinsic_cross_root",
+          "carrier_refs": [
+            "1:1:3:2"
+          ],
+          "trigger_refs": [
+            "1:1:2:1",
+            "1:1:4:2"
+          ],
+          "focus_return_refs": [
+            "1:1:3:2",
+            "1:1:4:2"
+          ],
+          "carrier": "Taşıyıcı, Allah'a bağlanan ilk merhamet sıfatının ر ح م kökündeki anlamıdır.",
+          "independent_trigger": "Allah'ın özel adı ile aynı kökten gelen ikinci merhamet sıfatı, taşıyıcıdan ayrı bir ilahî kullanım tetikleyicisi sağlar.",
+          "activation": "Özel ad ile iki merhamet sıfatının aynı bağlı yapıda buluşması, ilgili merhamet fasetini bu yerel kullanıma taşır.",
+          "resulting_reading": "İki merhamet sıfatı, merhametin iç yakınlıktan muhatabı esirgeyen ve ona iyilik ulaştıran etkin sonuca açıldığını görünür kılar.",
+          "boundary": "Bu okuma verilen esirgeme ve iyilik çekirdeğiyle sınırlıdır; insan topluluğu, soy bağı veya özel dua kalıbı hakkında ek iddia kurmaz.",
+          "prose_statement": "{ar:ٱلرَّحْمَٰنِ, tr:er-Rahmân, gloss:merhameti sınırsız} ile {ar:ٱلرَّحِيمِ, tr:er-Rahîm, gloss:merhamet eden}, Allah'ın adıyla başlayan merhameti içteki yakınlıktan muhatabı esirgeyen ve ona iyilik ulaştıran etkin bir davranışa açar."
+        }
       ],
       "connection_refs": [],
       "context_refs": []
     },
     {
-      "finding_ref": "micro:mercy-cadence-and-return",
-      "title": "İkili ses kapanışı ve merhamet yankısı",
-      "claim": "İki belirli merhamet sıfatının yinelenen başlangıcı ve benzer kapanışı, ilk sıfatı bağlı bir çiftin üyesi, son sıfatı ise ayeti mühürleyen ses olarak duyurur; bu merhamet sonu 1:3'te yeniden yankılanır.",
-      "mechanism": "Belirli takıların yinelenmesi, aynı anlam ailesinin iki biçimi ve ritmik yakınlık ilk kelimenin tek başına kapanmayıp ikinci kelimeye akmasını sağlar. Sonraki aynı-surah dönüşü, burada kurulan merhamet kapanışını hamd çerçevesiyle birlikte yeniden işittirir.",
-      "reader_payoff": "Okur, son iki kelimeyi yalnızca art arda gelen eş anlamlılar olarak değil, biri alanı açan diğeri sesi ve niteliği mühürleyen bağlı bir çift olarak duyar.",
-      "containment": "1:3'teki dönüş, bu ayetin yerel ses ve biçim hareketini destekleyen bir yankıdır; prefatory ifadenin yerine geçen bir surah tezi ya da tek doğru okuma ilanı değildir.",
-      "epistemic_status": "Yerel ses, biçim ve aynı-surah yankı kayıtlarıyla desteklenen, anlamı sıralamayan akustik ve yapısal bulgu.",
-      "candidate_ids": [
-        "cand_9685004bc52b37b5f3cb",
-        "cand_15645155a921e968fbc4",
-        "cand_2d0978cd3ad4a24e0f20"
-      ],
+      "finding_ref": "micro:divine-mercy-reaching",
+      "origin_candidate_id": null,
+      "represented_candidate_ids": [],
+      "title": "Merhametin ilahî ulaşımı",
+      "claim": "Allah özel adıyla yan yana gelen iki merhamet sıfatı, merhameti yaratılmışlara ulaşan geniş bir esirgeme ve iyilik olarak duyurur.",
+      "mechanism": "ر ح م taşıyıcısı Allah'a isnat edilir ve aynı kökten gelen iki belirli sıfatın ardışıklığı, duygu çekirdeğini yaratılmışlara ulaşan eylemli sonuca açar.",
+      "reader_payoff": "Okur, merhamet sözünü yalnız içte kalan bir duygu değil, kuşatan ve iyilik olarak ulaşan bir bakım hareketi halinde işitir.",
+      "containment": "Bu yerel faset, merhamet kökünün soy bağı, döl yatağı veya hastalık dallarını etkinleştirmez; yaratılmışlara ulaşma ifadesi yalnız verilen ilahî kullanım sınırındadır.",
+      "prose_statement": "{ar:ٱلرَّحْمَٰنِ, tr:er-Rahmân, gloss:merhameti sınırsız} ile {ar:ٱلرَّحِيمِ, tr:er-Rahîm, gloss:merhamet eden}, Allah adıyla yan yana geldiklerinde merhameti yalnız bir duygu olarak değil, yaratılmışlara ulaşan geniş bir esirgeme ve iyilik olarak duyurur.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": [
+          "trusted"
+        ],
+        "reason": "Allah özel adı, aynı kökten iki merhamet biçimi ve ilahî kullanım faseti birlikte görünür; sonuç cümlesi bu temasın yazar sentezidir."
+      },
+      "draft_prose": "{ar:ٱلرَّحْمَٰنِ, tr:er-Rahmân, gloss:merhameti sınırsız} ile {ar:ٱلرَّحِيمِ, tr:er-Rahîm, gloss:merhamet eden}, Allah adıyla yan yana geldiklerinde merhameti yalnız bir duygu olarak değil, yaratılmışlara ulaşan geniş bir esirgeme ve iyilik olarak duyurur.",
       "support_ids": [
-        "sup_106108c5d58aa80ed91f",
-        "sup_5e4026cbb17c38d001fa",
-        "sup_6ef75f06d3884729980a",
-        "sup_696cad80b84a282418b4",
-        "sup_ba63014c1294abaed965"
+        "sup_3d9db17a6b2ee32b24cc",
+        "sup_701f6be1a818d6d1c994",
+        "sup_4a6a06dc50a4443bda26"
       ],
-      "branch_refs": [
-        "root_000552/B001"
+      "branch_activations": [
+        {
+          "branch_ref": "root_000552/B001",
+          "facet_id": "F005",
+          "branch_gloss": "acıma duygusuyla esirgeyip iyilik etme",
+          "facet_statement": "Tanrı hakkında kullanıldığında esirgemenin genişliği ve yaratılmışlara iyilik olarak ulaşması belirginleşir.",
+          "application_mode": "intrinsic_cross_root",
+          "carrier_refs": [
+            "1:1:3:2"
+          ],
+          "trigger_refs": [
+            "1:1:2:1",
+            "1:1:4:2"
+          ],
+          "focus_return_refs": [
+            "1:1:3:2",
+            "1:1:4:2"
+          ],
+          "carrier": "Taşıyıcı, Allah'a bağlanan ilk merhamet sıfatının ر ح م kökündeki anlamıdır.",
+          "independent_trigger": "Allah'ın özel adı ile aynı kökten gelen ikinci merhamet sıfatı, taşıyıcıdan ayrı bir ilahî kullanım tetikleyicisi sağlar.",
+          "activation": "Özel ad ile iki merhamet sıfatının aynı bağlı yapıda buluşması, ilgili merhamet fasetini bu yerel kullanıma taşır.",
+          "resulting_reading": "Allah özel adıyla yan yana gelen iki merhamet sıfatı, merhameti yaratılmışlara ulaşan geniş bir esirgeme ve iyilik olarak duyurur.",
+          "boundary": "Bu yerel faset, merhamet kökünün soy bağı, döl yatağı veya hastalık dallarını etkinleştirmez; yaratılmışlara ulaşma ifadesi yalnız verilen ilahî kullanım sınırındadır.",
+          "prose_statement": "{ar:ٱلرَّحْمَٰنِ, tr:er-Rahmân, gloss:merhameti sınırsız} ile {ar:ٱلرَّحِيمِ, tr:er-Rahîm, gloss:merhamet eden}, Allah adıyla yan yana geldiklerinde merhameti yalnız bir duygu olarak değil, yaratılmışlara ulaşan geniş bir esirgeme ve iyilik olarak duyurur."
+        }
       ],
       "connection_refs": [],
       "context_refs": []
-    },
-    {
-      "finding_ref": "micro:variant-syntactic-pressure",
-      "title": "Varyantlarda açığa çıkan sentaktik eşik",
-      "claim": "Aktarılan irab ve durak varyantları, merhamet çiftinin yüklem ya da nesne gibi yeniden duyulabileceğini ve son kelimenin 1:2'ye doğru bir geçiş eşiği kurabileceğini görünür kılar; mevcut yapı ise iki sıfatı Allah adına bağlı genitif kapanışta tutar.",
-      "mechanism": "Varyant kayıtları sıfatların cümledeki hareket alanını ve durakla sonraki hamd cümlesine bağlanma ihtimalini açar. Yerel uyumlu biçim, bu basıncı genitif sıfat zinciri içinde sınırlar ve kapanışın nasıl kurulduğunu belirginleştirir.",
-      "reader_payoff": "Okur, okunuş ve irabın yalnızca son ek ayrıntısı olmadığını; son kelimenin hem bir formülü kapatıp hem de sonraki cümleye geçiş hissi taşıyabildiğini fark eder.",
-      "containment": "Varyantlar canlı bir sentaktik ve tilavetsel basınç olarak korunur. Bu basınç mevcut genitif nitelemeyi ortadan kaldırmaz ve alternatif bir hüküm seçtirmez.",
-      "epistemic_status": "Varyant ve durak aparatına dayanan, yerel genitif çözümlemeyle açıkça sınırlandırılmış bulgu.",
-      "candidate_ids": [
-        "cand_3f864ad15356ff2ac1aa",
-        "cand_d37a7bc52f828cc7df3e"
-      ],
-      "support_ids": [
-        "sup_4f18b826f6b812c5f5c8",
-        "sup_6ead5cbdfb87cc7d1f19",
-        "sup_696cad80b84a282418b4",
-        "sup_f5a6078ed810bdf095da"
-      ],
-      "branch_refs": [],
-      "connection_refs": [],
-      "context_refs": []
-    }
-  ],
-  "movements": [
-    {
-      "movement_key": "opening-act",
-      "draft_prose": "Bu kısa ifade, 'Merhameti sınırsız, merhamet eden Allah'ın adıyla' diyerek başlanılan işi Allah'ın adıyla ilişkilendirir. İlk parça olan {ar:بِ, tr:bi, gloss:ile / adıyla}, Türkçedeki tek bir 'ile'den daha sıkı bir bağ kurar: başlama, okuma ya da anma eylemi kendinden sonra gelen adın içinden ve onunla birlikte yürür. {ar:سْمِ, tr:ismi, gloss:adı} kelimesi bu edatın yönetiminde olduğu için ifade eylemi uzun bir cümle halinde açıklamaz; okuyan kişi başlıyorum, okuyorum veya anıyorum gibi edimleri bu ada bağlayarak cümleyi tamamlar. Böylece söz, bir hüküm bildirmekten önce ilişki kuran bir başlangıç hareketi olarak duyulur.",
-      "finding_refs": ["micro:opening-bound-act"]
-    },
-    {
-      "movement_key": "name-and-anchor",
-      "draft_prose": "Bu adın iki yönlü bağlanışı, ifadenin taşıyıcı eksenidir. {ar:سْمِ, tr:ismi, gloss:adı} soldan بِ tarafından yönetilir, sağdan {ar:ٱللَّهِ, tr:Allahi, gloss:Allah'ın} ile tamlamaya girer. Bu yüzden 'ad' soyut ve başıboş bir etiket gibi kalmaz; başlangıç hareketini Allah'ın belirli adına ulaştıran bir aracı olur. Adlandırmanın anlam çevresinde yükselme ve belirginleşme duyumu da vardır. Aynı kelime ailesindeki gök ve yükselme görüntüleri burada somut bir göğe dönüşmez; adın anılanı görünür ve ayırt edilir kılan işlevine hafif bir yükseklik tonu verir. Böylece Türkçede 'adıyla' diye geçen kelime, yalnızca isim bildirmez; adı öne çıkaran bir yöneliş de kurar.\n\n{ar:ٱللَّهِ, tr:Allahi, gloss:Allah'ın} burada belirli ve tekil özel ad olarak tamlamanın ulaştığı noktadır; ardından gelen iki merhamet sıfatı bu ada bağlanır. Ad, merhameti kendi başına duran bir nitelik gibi değil, Allah'ın adı içinde açılan bir niteleme zinciri halinde taşır. Ses bakımından da bu tamlama sıkışık bir birlik gibi işitilir; Allah adı, sonraki hamd ilişkisine doğru bu birliği taşıyan dayanak olur. Adın bağlı olduğu anlam çevresinde tapınmaya yöneliş ve hayranlık ya da özlem basıncı da bulunur. Bu basınç, 'Allah'ın adıyla' deyişini nötr bir etiket olmaktan çıkarıp yöneliş ve kulluk duygusu taşıyan bir başlangıç haline getirir; kelime yine belirli Allah adıdır.",
-      "finding_refs": [
-        "micro:name-as-mediated-designation",
-        "micro:divine-name-anchor",
-        "micro:divine-name-worship-pressure"
-      ]
-    },
-    {
-      "movement_key": "mercy-pair",
-      "draft_prose": "Allah adından sonra gelen ilk sıfat, {ar:الرَّحْمَٰنِ, tr:er-Rahmân, gloss:merhameti sınırsız} kelimesidir. Başındaki belirli takı ve genitif biçimi, onu Allah adına bağlı bir niteleme yapar; anlamı ise merhameti geniş ve kuşatıcı bir alan olarak açar. Bunun ardından {ar:الرَّحِيمِ, tr:er-Rahîm, gloss:merhamet eden} gelir. Aynı anlam ailesinin ikinci biçimi, ilk kelimeyi düz bir tekrar olarak bırakmaz: genişleyen merhamet, burada gerçekleşen ve süreklilik taşıyan iyilik niteliğinde incelir. Son kelime önceki sıfatı belirleyerek aynı Allah adına bağlı zinciri tamamlar. Bu biçimin insan hakkında gerçekleşen merhameti de niteleyebilmesi, merhameti eylemde görünen bir kalite olarak duyurur; bu ifadede ise genitif bağ onu Allah'a ait sıfat olarak tutar.\n\nMerhamet sözcüğünün anlam çevresinde soy bağı ve döl yatağı gibi yakınlık ve içinde taşıma görüntüleri de bulunur. Bunlar burada doğrudan organ veya soy anlatımı kurmaz; merhameti koruyan, kuşatan ve canlıya ulaşan bir esirgeme basıncı olarak renk verir. Böylece ilk sıfatın genişliği yalnız soyut bir sınırsızlık değil, koruyucu bir yakınlık sezgisiyle birlikte duyulur.",
-      "finding_refs": [
-        "micro:paired-mercy-attributes",
-        "micro:protective-mercy-pressure"
-      ]
-    },
-    {
-      "movement_key": "closing-and-variants",
-      "draft_prose": "İki belirli merhamet sıfatının yinelenen başlangıcı ve benzer kapanışı, ilk kelimeyi bağlı bir çiftin üyesi, son kelimeyi ise ifadeyi mühürleyen ses olarak duyurur. İlk merhamet çizgisi Fâtiha'nın 1:3'ünde yeniden işitilir; bu dönüş, burada kurulan merhamet kapanışının hamd çerçevesine geçerken de tanınmasını sağlar.\n\nAktarılan irab ve durak biçimleri, bu sıfatların bazı okunuşlarda yüklem ya da nesne gibi yeniden duyulabileceğini, son kelimenin de 1:2'ye doğru bir geçiş eşiği kurabileceğini gösterir. Uyumlu yerel yapı ise iki sıfatı Allah adına bağlı genitif nitelemeler olarak kapatır. Böylece ifade, önce adıyla başlayan eylemi Allah'ın belirli adına bağlar; ardından merhameti genişletir, onu gerçekleşen bir iyilikte sabitler ve son sesiyle tamamlanır. Her iki merhamet okuması da bu açık birincil anlamın içinde yerini korur.",
-      "finding_refs": [
-        "micro:mercy-cadence-and-return",
-        "micro:variant-syntactic-pressure"
-      ]
     }
   ],
   "friction_notes": [
-    "HFT payloadı yok; hft_evidence.source_present=false, assigned_record_count=0 ve anchor kapsamı sıfırdır. Bu nedenle baseline/context delta/outlier, aşamalı okuyucu yanıtı veya reader-walk değişimi üzerinden ek bir before/after okuması yazılmadı.",
-    "Bağlantı kaydı ve lane context sunulmamış durumda: connection_count=0, authored_connection_count=0 ve selected_context_units=0. Bulgular yalnızca 1:1 yüzey, word-analysis kayıtları ve bunlara bağlı focus-root dallarıyla sınırlandı.",
-    "33 focus-root dalının yüzeyde bulunması tek başına etkinlik kanıtı sayılmadı; aday bağlantısı ve bağımsız dilsel taşıyıcı olmayan dallar okuyucu bulgusu yapılmadı. Üç ledger_only QAC oluşumu da bu nedenle ayrı bir karar ile reddedildi."
+    "Bu prefatory basmala paketinde seçili context unit, HFT, inter-ayah bağlantısı ve reciprocal evidence bulunmadığı için katkı yalnızca 1:1 dilsel yüzeyinin mikro okumasıyla sınırlıdır.",
+    "İki r-h-m sıfatının yerel teması üç ayrı sözlük fasetine kadar taşınmıştır; daha geniş teolojik, surah-geneli veya bağlam dışı sonuçlar için bu pakette bağımsız kanıt yoktur."
   ]
 }
+

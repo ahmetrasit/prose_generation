@@ -1,43 +1,1497 @@
 {
-  "schema_version": "commentary-v4-scope-contribution-v1",
+  "schema_version": "commentary-v4-scope-contribution-v2",
   "identity": {
     "ayah_ref": "29:0",
     "lane": "global",
-    "lane_packet_sha256": "b87171824e80905503148fdfa1708d9b9e6825aa0688dea54466124c82ea9ffb",
-    "authoring_request_sha256": "9ce020e6de69bf9dd327352c22bb0e0d526a8af7dc624b0a543ee9c599d7d547"
+    "lane_packet_sha256": "a9af51497cb2f6854a0f5fefd6083679dd79eb02d198639d103b6c30a952f128",
+    "authoring_request_sha256": "da2f3720bcf29c5b3effd257f79890af3ea6e042a906f73141d2f00a8f5acffd"
   },
   "ayah_ref": "29:0",
   "lane": "global",
   "coverage_complete": true,
+  "discovery_audit": {
+    "reviewed_surface_refs": [
+      "1:1:1",
+      "1:1:2",
+      "1:1:3",
+      "1:1:4",
+      "1:1:5"
+    ],
+    "reviewed_context_refs": [
+      "1:2",
+      "1:3",
+      "9:128",
+      "29:2",
+      "29:3",
+      "29:4",
+      "29:5",
+      "29:6",
+      "29:51",
+      "29:53"
+    ],
+    "reviewed_support_ids": [
+      "sup_02991ac40aeaac854e72",
+      "sup_106108c5d58aa80ed91f",
+      "sup_1675ff53e3dda1fc6912",
+      "sup_4f18b826f6b812c5f5c8",
+      "sup_59953667b2f192780589",
+      "sup_5a2186ca53d4a45fa108",
+      "sup_5a43ccd2baac6c45ad04",
+      "sup_5e4026cbb17c38d001fa",
+      "sup_696cad80b84a282418b4",
+      "sup_6ead5cbdfb87cc7d1f19",
+      "sup_6ef75f06d3884729980a",
+      "sup_9616286c79c43182bed8",
+      "sup_990bff7b47282b7f417a",
+      "sup_a0459e602e39b3c6f314",
+      "sup_ba63014c1294abaed965",
+      "sup_ce242bd892b0c6e51152",
+      "sup_dbb3006e444c60b8325c",
+      "sup_f5a6078ed810bdf095da",
+      "sup_f7725957d9a8549cb393",
+      "sup_basmala_b9fdfc10b909918af5b8"
+    ],
+    "discovered_finding_refs": [
+      "global:mercy-frame-for-assay"
+    ],
+    "branch_dispositions": [
+      {
+        "branch_ref": "root_000047/B001",
+        "facet_id": "F001",
+        "decision": "no_independent_trigger",
+        "reason": "Bu facetin \"Temel eylem, bir varlığa tapınmak ve kişinin kendini bu tapınmaya vermesidir.\" biçimindeki özel iddiasını focus yüzeyindeki başka bir kelime, ilişki veya izinli bağlam teması bağımsız biçimde çağırmıyor; yalnızca \"tapınma ve tapınılan varlık\" dalının mevcut olması aktivasyon kanıtı değildir.",
+        "finding_refs": []
+      },
+      {
+        "branch_ref": "root_000047/B001",
+        "facet_id": "F002",
+        "decision": "no_independent_trigger",
+        "reason": "Bu facetin \"Eylemden türeyen varlık anlamı, kendisine tapınılan varlığı veya tapınma konusu sayılan nesneyi gösterir.\" biçimindeki özel iddiasını focus yüzeyindeki başka bir kelime, ilişki veya izinli bağlam teması bağımsız biçimde çağırmıyor; yalnızca \"tapınma ve tapınılan varlık\" dalının mevcut olması aktivasyon kanıtı değildir.",
+        "finding_refs": []
+      },
+      {
+        "branch_ref": "root_000047/B001",
+        "facet_id": "F003",
+        "decision": "no_independent_trigger",
+        "reason": "Bu facetin \"Ettirgen kullanım, bir varlığı başkalarınca tapınılır duruma getirme veya öyle sunma işlemini bildirir.\" biçimindeki özel iddiasını focus yüzeyindeki başka bir kelime, ilişki veya izinli bağlam teması bağımsız biçimde çağırmıyor; yalnızca \"tapınma ve tapınılan varlık\" dalının mevcut olması aktivasyon kanıtı değildir.",
+        "finding_refs": []
+      },
+      {
+        "branch_ref": "root_000047/B001",
+        "facet_id": "F004",
+        "decision": "no_independent_trigger",
+        "reason": "Bu facetin \"Güneşe kimi topluluklarca tapınılması nedeniyle ona tapınılan varlık anlamındaki bir ad verilmesi, varlık anlamının tarihsel bir örneğidir.\" biçimindeki özel iddiasını focus yüzeyindeki başka bir kelime, ilişki veya izinli bağlam teması bağımsız biçimde çağırmıyor; yalnızca \"tapınma ve tapınılan varlık\" dalının mevcut olması aktivasyon kanıtı değildir.",
+        "finding_refs": []
+      },
+      {
+        "branch_ref": "root_000047/B002",
+        "facet_id": "F001",
+        "decision": "activated",
+        "reason": "Basmala'daki Allah adı ile 29:5-6'daki ilahi işitme, bilme ve karşılaşma çerçevesi, yalnız Yaratıcıya özgü ad facetini yetki dönüşüyle etkinleştiriyor.",
+        "finding_refs": [
+          "global:governing-designation-frame"
+        ]
+      },
+      {
+        "branch_ref": "root_000047/B002",
+        "facet_id": "F002",
+        "decision": "no_independent_trigger",
+        "reason": "Bu facetin \"Özel adın, tapınılan varlığı bildiren genel addan ses düşmesi ve belirleyici unsur eklenmesiyle oluştuğu açıklanır.\" biçimindeki özel iddiasını focus yüzeyindeki başka bir kelime, ilişki veya izinli bağlam teması bağımsız biçimde çağırmıyor; yalnızca \"Yaratıcıya özgü ad ile seslenme ve ant biçimleri\" dalının mevcut olması aktivasyon kanıtı değildir.",
+        "finding_refs": []
+      },
+      {
+        "branch_ref": "root_000047/B002",
+        "facet_id": "F003",
+        "decision": "no_independent_trigger",
+        "reason": "Bu facetin \"Özel ad, sözün başında ant değeri taşıyarak ardından gelen yapmama bildirimini güçlendirebilir.\" biçimindeki özel iddiasını focus yüzeyindeki başka bir kelime, ilişki veya izinli bağlam teması bağımsız biçimde çağırmıyor; yalnızca \"Yaratıcıya özgü ad ile seslenme ve ant biçimleri\" dalının mevcut olması aktivasyon kanıtı değildir.",
+        "finding_refs": []
+      },
+      {
+        "branch_ref": "root_000047/B002",
+        "facet_id": "F004",
+        "decision": "no_independent_trigger",
+        "reason": "Bu facetin \"Özel adın doğrudan ya da seslenme öğesi yerine geçen bir sonla kullanılması, yakarma ve dilek bildiren seslenme biçimleri kurar.\" biçimindeki özel iddiasını focus yüzeyindeki başka bir kelime, ilişki veya izinli bağlam teması bağımsız biçimde çağırmıyor; yalnızca \"Yaratıcıya özgü ad ile seslenme ve ant biçimleri\" dalının mevcut olması aktivasyon kanıtı değildir.",
+        "finding_refs": []
+      },
+      {
+        "branch_ref": "root_000047/B002",
+        "facet_id": "F005",
+        "decision": "no_independent_trigger",
+        "reason": "Bu facetin \"Ses veya parçaların düşürüldüğü kısalmış biçimler, şaşma ve ant anlatan kalıplarda kullanılır.\" biçimindeki özel iddiasını focus yüzeyindeki başka bir kelime, ilişki veya izinli bağlam teması bağımsız biçimde çağırmıyor; yalnızca \"Yaratıcıya özgü ad ile seslenme ve ant biçimleri\" dalının mevcut olması aktivasyon kanıtı değildir.",
+        "finding_refs": []
+      },
+      {
+        "branch_ref": "root_000552/B001",
+        "facet_id": "F001",
+        "decision": "activated",
+        "reason": "Merhamet taşıyıcıları ile 29:2-3 ve 29:5-6'daki sınama ve oluş ilişkisi, içten yakınlık facetini bağımsız biçimde sahneye çağırıyor.",
+        "finding_refs": [
+          "global:mercy-frame-for-assay"
+        ]
+      },
+      {
+        "branch_ref": "root_000552/B001",
+        "facet_id": "F002",
+        "decision": "activated",
+        "reason": "Aynı bağlam teması merhametin iç yönelişten esirgeyen ve iyilikte bulunan etkin sonuca geçtiğini bağımsız biçimde görünür kılıyor.",
+        "finding_refs": [
+          "global:mercy-frame-for-assay"
+        ]
+      },
+      {
+        "branch_ref": "root_000552/B001",
+        "facet_id": "F003",
+        "decision": "no_independent_trigger",
+        "reason": "Bu facetin \"Topluluğun bireylerinin birbirine acıyıp birbirini esirgemesi, çekirdeğin karşılıklı bir kuruluşta gerçekleşmesidir.\" biçimindeki özel iddiasını focus yüzeyindeki başka bir kelime, ilişki veya izinli bağlam teması bağımsız biçimde çağırmıyor; yalnızca \"acıma duygusuyla esirgeyip iyilik etme\" dalının mevcut olması aktivasyon kanıtı değildir.",
+        "finding_refs": []
+      },
+      {
+        "branch_ref": "root_000552/B001",
+        "facet_id": "F004",
+        "decision": "no_independent_trigger",
+        "reason": "Bu facetin \"Bir kimsenin Tanrı'nın esirgemesine erişmesini dilemek, çekirdek anlamdan doğan kalıplaşmış bir söz eylemidir.\" biçimindeki özel iddiasını focus yüzeyindeki başka bir kelime, ilişki veya izinli bağlam teması bağımsız biçimde çağırmıyor; yalnızca \"acıma duygusuyla esirgeyip iyilik etme\" dalının mevcut olması aktivasyon kanıtı değildir.",
+        "finding_refs": []
+      },
+      {
+        "branch_ref": "root_000552/B001",
+        "facet_id": "F005",
+        "decision": "activated",
+        "reason": "Allah adı ve 29:51'de kitabın merhamet diye anılması, ilahi merhametin yaratılmışlara ulaşan genişlik facetini geri çağırıyor.",
+        "finding_refs": [
+          "global:mercy-frame-for-assay"
+        ]
+      },
+      {
+        "branch_ref": "root_000552/B002",
+        "facet_id": "F001",
+        "decision": "no_independent_trigger",
+        "reason": "Bu facetin \"Ortak soydan gelme, kişiler arasında yakın ve kalıcı bir soy ilişkisi kurar.\" biçimindeki özel iddiasını focus yüzeyindeki başka bir kelime, ilişki veya izinli bağlam teması bağımsız biçimde çağırmıyor; yalnızca \"yakın soy bağı\" dalının mevcut olması aktivasyon kanıtı değildir.",
+        "finding_refs": []
+      },
+      {
+        "branch_ref": "root_000552/B002",
+        "facet_id": "F002",
+        "decision": "no_independent_trigger",
+        "reason": "Bu facetin \"Bedensel organın adı, aynı doğum kaynağından çıkmış olma düşüncesi üzerinden soy ilişkisine aktarılmıştır.\" biçimindeki özel iddiasını focus yüzeyindeki başka bir kelime, ilişki veya izinli bağlam teması bağımsız biçimde çağırmıyor; yalnızca \"yakın soy bağı\" dalının mevcut olması aktivasyon kanıtı değildir.",
+        "finding_refs": []
+      },
+      {
+        "branch_ref": "root_000552/B002",
+        "facet_id": "F003",
+        "decision": "no_independent_trigger",
+        "reason": "Bu facetin \"Soy bağını sürdürmek veya koparmak, ilişkinin kendisini değil ona karşı takınılan eylemli tutumu anlatır.\" biçimindeki özel iddiasını focus yüzeyindeki başka bir kelime, ilişki veya izinli bağlam teması bağımsız biçimde çağırmıyor; yalnızca \"yakın soy bağı\" dalının mevcut olması aktivasyon kanıtı değildir.",
+        "finding_refs": []
+      },
+      {
+        "branch_ref": "root_000552/B003",
+        "facet_id": "F001",
+        "decision": "no_independent_trigger",
+        "reason": "Bu facetin \"Dişi bedenindeki bu iç organ, yavrunun oluşup geliştiği yer ve onu karın içinde taşıyan kap işlevindedir.\" biçimindeki özel iddiasını focus yüzeyindeki başka bir kelime, ilişki veya izinli bağlam teması bağımsız biçimde çağırmıyor; yalnızca \"döl yatağı\" dalının mevcut olması aktivasyon kanıtı değildir.",
+        "finding_refs": []
+      },
+      {
+        "branch_ref": "root_000552/B004",
+        "facet_id": "F001",
+        "decision": "no_independent_trigger",
+        "reason": "Bu facetin \"Dişi hayvan veya kadında döl yatağının ağrıması ya da hastalanması temel durumdur; özellikle bazı kullanımlarda bu durum doğum sonrasında görülür.\" biçimindeki özel iddiasını focus yüzeyindeki başka bir kelime, ilişki veya izinli bağlam teması bağımsız biçimde çağırmıyor; yalnızca \"döl yatağı hastalığı ve doğum sonrası bozukluk\" dalının mevcut olması aktivasyon kanıtı değildir.",
+        "finding_refs": []
+      },
+      {
+        "branch_ref": "root_000552/B004",
+        "facet_id": "F002",
+        "decision": "no_independent_trigger",
+        "reason": "Bu facetin \"Koyunun doğum yaptıktan sonra yavru zarını dışarı atamaması, dala bağlı özel bir doğum sonrası bozukluktur.\" biçimindeki özel iddiasını focus yüzeyindeki başka bir kelime, ilişki veya izinli bağlam teması bağımsız biçimde çağırmıyor; yalnızca \"döl yatağı hastalığı ve doğum sonrası bozukluk\" dalının mevcut olması aktivasyon kanıtı değildir.",
+        "finding_refs": []
+      },
+      {
+        "branch_ref": "root_000552/B004",
+        "facet_id": "F003",
+        "decision": "no_independent_trigger",
+        "reason": "Bu facetin \"Koyun veya koyun sürüsünde döl yatağının şişmesi, hastalık durumunun özel bir gerçekleşmesidir.\" biçimindeki özel iddiasını focus yüzeyindeki başka bir kelime, ilişki veya izinli bağlam teması bağımsız biçimde çağırmıyor; yalnızca \"döl yatağı hastalığı ve doğum sonrası bozukluk\" dalının mevcut olması aktivasyon kanıtı değildir.",
+        "finding_refs": []
+      },
+      {
+        "branch_ref": "root_000743/B001",
+        "facet_id": "F001",
+        "decision": "no_independent_trigger",
+        "reason": "Bu facetin \"Bir şeyin içeri girebildiği dar delik, açıklık veya geçit.\" biçimindeki özel iddiasını focus yüzeyindeki başka bir kelime, ilişki veya izinli bağlam teması bağımsız biçimde çağırmıyor; yalnızca \"dar giriş deliği\" dalının mevcut olması aktivasyon kanıtı değildir.",
+        "finding_refs": []
+      },
+      {
+        "branch_ref": "root_000743/B001",
+        "facet_id": "F002",
+        "decision": "no_independent_trigger",
+        "reason": "Bu facetin \"İğne deliği, beden gözenekleri ve insan ya da hayvandaki ağız, burun ve kulak gibi açıklıklar.\" biçimindeki özel iddiasını focus yüzeyindeki başka bir kelime, ilişki veya izinli bağlam teması bağımsız biçimde çağırmıyor; yalnızca \"dar giriş deliği\" dalının mevcut olması aktivasyon kanıtı değildir.",
+        "finding_refs": []
+      },
+      {
+        "branch_ref": "root_000743/B001",
+        "facet_id": "F003",
+        "decision": "no_independent_trigger",
+        "reason": "Bu facetin \"Kılıç üzerinde ayırt etmeye yarayan ince çentikler.\" biçimindeki özel iddiasını focus yüzeyindeki başka bir kelime, ilişki veya izinli bağlam teması bağımsız biçimde çağırmıyor; yalnızca \"dar giriş deliği\" dalının mevcut olması aktivasyon kanıtı değildir.",
+        "finding_refs": []
+      },
+      {
+        "branch_ref": "root_000743/B002",
+        "facet_id": "F001",
+        "decision": "no_independent_trigger",
+        "reason": "Bu facetin \"Bedene girip iç dokulara işleyerek öldürebilen madde.\" biçimindeki özel iddiasını focus yüzeyindeki başka bir kelime, ilişki veya izinli bağlam teması bağımsız biçimde çağırmıyor; yalnızca \"bedene işleyen öldürücü madde\" dalının mevcut olması aktivasyon kanıtı değildir.",
+        "finding_refs": []
+      },
+      {
+        "branch_ref": "root_000743/B002",
+        "facet_id": "F002",
+        "decision": "no_independent_trigger",
+        "reason": "Bu facetin \"Birine bu maddeyi içirmek veya yiyeceğin içine katmak.\" biçimindeki özel iddiasını focus yüzeyindeki başka bir kelime, ilişki veya izinli bağlam teması bağımsız biçimde çağırmıyor; yalnızca \"bedene işleyen öldürücü madde\" dalının mevcut olması aktivasyon kanıtı değildir.",
+        "finding_refs": []
+      },
+      {
+        "branch_ref": "root_000743/B002",
+        "facet_id": "F003",
+        "decision": "no_independent_trigger",
+        "reason": "Bu facetin \"Yılan gibi zehir taşıyan küçük hayvanlar ve öldürmeyen zehirli türler.\" biçimindeki özel iddiasını focus yüzeyindeki başka bir kelime, ilişki veya izinli bağlam teması bağımsız biçimde çağırmıyor; yalnızca \"bedene işleyen öldürücü madde\" dalının mevcut olması aktivasyon kanıtı değildir.",
+        "finding_refs": []
+      },
+      {
+        "branch_ref": "root_000743/B003",
+        "facet_id": "F001",
+        "decision": "no_independent_trigger",
+        "reason": "Bu facetin \"Bir kişinin işlerine yakınlıkla katılan özel ve iç çevre.\" biçimindeki özel iddiasını focus yüzeyindeki başka bir kelime, ilişki veya izinli bağlam teması bağımsız biçimde çağırmıyor; yalnızca \"özel iç çevre\" dalının mevcut olması aktivasyon kanıtı değildir.",
+        "finding_refs": []
+      },
+      {
+        "branch_ref": "root_000743/B003",
+        "facet_id": "F002",
+        "decision": "no_independent_trigger",
+        "reason": "Bu facetin \"Özel çevreyi oluşturan yakınlar ve akrabalar.\" biçimindeki özel iddiasını focus yüzeyindeki başka bir kelime, ilişki veya izinli bağlam teması bağımsız biçimde çağırmıyor; yalnızca \"özel iç çevre\" dalının mevcut olması aktivasyon kanıtı değildir.",
+        "finding_refs": []
+      },
+      {
+        "branch_ref": "root_000743/B003",
+        "facet_id": "F003",
+        "decision": "no_independent_trigger",
+        "reason": "Bu facetin \"Bir nimetin genel topluluk içinden belirli kişilere özellikle ulaşması.\" biçimindeki özel iddiasını focus yüzeyindeki başka bir kelime, ilişki veya izinli bağlam teması bağımsız biçimde çağırmıyor; yalnızca \"özel iç çevre\" dalının mevcut olması aktivasyon kanıtı değildir.",
+        "finding_refs": []
+      },
+      {
+        "branch_ref": "root_000743/B004",
+        "facet_id": "F001",
+        "decision": "no_independent_trigger",
+        "reason": "Bu facetin \"Cisimlere nüfuz eden ve yakıcı etki bırakan sıcak rüzgar.\" biçimindeki özel iddiasını focus yüzeyindeki başka bir kelime, ilişki veya izinli bağlam teması bağımsız biçimde çağırmıyor; yalnızca \"yakıcı sıcak rüzgar\" dalının mevcut olması aktivasyon kanıtı değildir.",
+        "finding_refs": []
+      },
+      {
+        "branch_ref": "root_000743/B004",
+        "facet_id": "F002",
+        "decision": "no_independent_trigger",
+        "reason": "Bu facetin \"Bu rüzgarın görüldüğü gündüz veya gece.\" biçimindeki özel iddiasını focus yüzeyindeki başka bir kelime, ilişki veya izinli bağlam teması bağımsız biçimde çağırmıyor; yalnızca \"yakıcı sıcak rüzgar\" dalının mevcut olması aktivasyon kanıtı değildir.",
+        "finding_refs": []
+      },
+      {
+        "branch_ref": "root_000743/B004",
+        "facet_id": "F003",
+        "decision": "no_independent_trigger",
+        "reason": "Bu facetin \"Sıcak rüzgarın vurup zarar verdiği bitki.\" biçimindeki özel iddiasını focus yüzeyindeki başka bir kelime, ilişki veya izinli bağlam teması bağımsız biçimde çağırmıyor; yalnızca \"yakıcı sıcak rüzgar\" dalının mevcut olması aktivasyon kanıtı değildir.",
+        "finding_refs": []
+      },
+      {
+        "branch_ref": "root_000743/B005",
+        "facet_id": "F001",
+        "decision": "no_independent_trigger",
+        "reason": "Bu facetin \"İnsanlar arasındaki ayrılığı gidererek onları uzlaştırma.\" biçimindeki özel iddiasını focus yüzeyindeki başka bir kelime, ilişki veya izinli bağlam teması bağımsız biçimde çağırmıyor; yalnızca \"aralarını düzeltmek\" dalının mevcut olması aktivasyon kanıtı değildir.",
+        "finding_refs": []
+      },
+      {
+        "branch_ref": "root_000743/B005",
+        "facet_id": "F002",
+        "decision": "no_independent_trigger",
+        "reason": "Bu facetin \"Uzlaşma sonucunda tarafların yeniden birbirine yakınlaşması.\" biçimindeki özel iddiasını focus yüzeyindeki başka bir kelime, ilişki veya izinli bağlam teması bağımsız biçimde çağırmıyor; yalnızca \"aralarını düzeltmek\" dalının mevcut olması aktivasyon kanıtı değildir.",
+        "finding_refs": []
+      },
+      {
+        "branch_ref": "root_000743/B006",
+        "facet_id": "F001",
+        "decision": "no_independent_trigger",
+        "reason": "Bu facetin \"Denizden çıkan kabuk benzeri süs parçası veya dizilen delinmiş boncuk.\" biçimindeki özel iddiasını focus yüzeyindeki başka bir kelime, ilişki veya izinli bağlam teması bağımsız biçimde çağırmıyor; yalnızca \"deniz kabuğu biçimli süs boncuğu\" dalının mevcut olması aktivasyon kanıtı değildir.",
+        "finding_refs": []
+      },
+      {
+        "branch_ref": "root_000743/B006",
+        "facet_id": "F002",
+        "decision": "no_independent_trigger",
+        "reason": "Bu facetin \"Bir kayışta oluşturulan halka veya kayışa halkalar yapma işlemi.\" biçimindeki özel iddiasını focus yüzeyindeki başka bir kelime, ilişki veya izinli bağlam teması bağımsız biçimde çağırmıyor; yalnızca \"deniz kabuğu biçimli süs boncuğu\" dalının mevcut olması aktivasyon kanıtı değildir.",
+        "finding_refs": []
+      },
+      {
+        "branch_ref": "root_000743/B006",
+        "facet_id": "F003",
+        "decision": "no_independent_trigger",
+        "reason": "Bu facetin \"Tavan yüzünde yapılan bezemeler.\" biçimindeki özel iddiasını focus yüzeyindeki başka bir kelime, ilişki veya izinli bağlam teması bağımsız biçimde çağırmıyor; yalnızca \"deniz kabuğu biçimli süs boncuğu\" dalının mevcut olması aktivasyon kanıtı değildir.",
+        "finding_refs": []
+      },
+      {
+        "branch_ref": "root_000743/B007",
+        "facet_id": "F001",
+        "decision": "no_independent_trigger",
+        "reason": "Bu facetin \"Belirli bir küçük kuş türünün adı.\" biçimindeki özel iddiasını focus yüzeyindeki başka bir kelime, ilişki veya izinli bağlam teması bağımsız biçimde çağırmıyor; yalnızca \"bir kuş türü ve hızlı dişi deve\" dalının mevcut olması aktivasyon kanıtı değildir.",
+        "finding_refs": []
+      },
+      {
+        "branch_ref": "root_000743/B007",
+        "facet_id": "F002",
+        "decision": "no_independent_trigger",
+        "reason": "Bu facetin \"Aynı biçimin hızlı dişi deve için kullanılması.\" biçimindeki özel iddiasını focus yüzeyindeki başka bir kelime, ilişki veya izinli bağlam teması bağımsız biçimde çağırmıyor; yalnızca \"bir kuş türü ve hızlı dişi deve\" dalının mevcut olması aktivasyon kanıtı değildir.",
+        "finding_refs": []
+      },
+      {
+        "branch_ref": "root_000743/B008",
+        "facet_id": "F001",
+        "decision": "no_independent_trigger",
+        "reason": "Bu facetin \"Aynı biçim çevresinde tilki, yağlık tohum, yer, kırmızı karınca ve hafif ya da hızlı kişi adlandırmaları bulunur.\" biçimindeki özel iddiasını focus yüzeyindeki başka bir kelime, ilişki veya izinli bağlam teması bağımsız biçimde çağırmıyor; yalnızca \"biçime bağlı adlandırmalar\" dalının mevcut olması aktivasyon kanıtı değildir.",
+        "finding_refs": []
+      },
+      {
+        "branch_ref": "root_000743/B009",
+        "facet_id": "F001",
+        "decision": "no_independent_trigger",
+        "reason": "Bu facetin \"Kişinin ilgi ve kaygısının yalnız muhataba yöneldiğini bildiren dışlayıcı söz.\" biçimindeki özel iddiasını focus yüzeyindeki başka bir kelime, ilişki veya izinli bağlam teması bağımsız biçimde çağırmıyor; yalnızca \"senden başka düşündüğü yok\" dalının mevcut olması aktivasyon kanıtı değildir.",
+        "finding_refs": []
+      },
+      {
+        "branch_ref": "root_000743/B010",
+        "facet_id": "F001",
+        "decision": "no_independent_trigger",
+        "reason": "Bu facetin \"Canlı yaşamının sona ermesi.\" biçimindeki özel iddiasını focus yüzeyindeki başka bir kelime, ilişki veya izinli bağlam teması bağımsız biçimde çağırmıyor; yalnızca \"ölüm\" dalının mevcut olması aktivasyon kanıtı değildir.",
+        "finding_refs": []
+      },
+      {
+        "branch_ref": "root_000743/B011",
+        "facet_id": "F001",
+        "decision": "no_independent_trigger",
+        "reason": "Bu facetin \"Bir şeye yönelmek ve onu amaç edinmek.\" biçimindeki özel iddiasını focus yüzeyindeki başka bir kelime, ilişki veya izinli bağlam teması bağımsız biçimde çağırmıyor; yalnızca \"amaç ve yön; derinlemesine yoklama\" dalının mevcut olması aktivasyon kanıtı değildir.",
+        "finding_refs": []
+      },
+      {
+        "branch_ref": "root_000743/B011",
+        "facet_id": "F002",
+        "decision": "no_independent_trigger",
+        "reason": "Bu facetin \"Yolun doğrultusu veya bir ihtiyacın yönü ve hedefi.\" biçimindeki özel iddiasını focus yüzeyindeki başka bir kelime, ilişki veya izinli bağlam teması bağımsız biçimde çağırmıyor; yalnızca \"amaç ve yön; derinlemesine yoklama\" dalının mevcut olması aktivasyon kanıtı değildir.",
+        "finding_refs": []
+      },
+      {
+        "branch_ref": "root_000743/B011",
+        "facet_id": "F003",
+        "decision": "no_independent_trigger",
+        "reason": "Bu facetin \"Bir işi derinlemesine yoklayıp iç yüzünü anlamaya çalışmak.\" biçimindeki özel iddiasını focus yüzeyindeki başka bir kelime, ilişki veya izinli bağlam teması bağımsız biçimde çağırmıyor; yalnızca \"amaç ve yön; derinlemesine yoklama\" dalının mevcut olması aktivasyon kanıtı değildir.",
+        "finding_refs": []
+      },
+      {
+        "branch_ref": "root_000743/B012",
+        "facet_id": "F001",
+        "decision": "no_independent_trigger",
+        "reason": "Bu facetin \"Şişe gibi bir kabın ağzını kapatmak.\" biçimindeki özel iddiasını focus yüzeyindeki başka bir kelime, ilişki veya izinli bağlam teması bağımsız biçimde çağırmıyor; yalnızca \"kapatıp sıkıca bağlamak\" dalının mevcut olması aktivasyon kanıtı değildir.",
+        "finding_refs": []
+      },
+      {
+        "branch_ref": "root_000743/B012",
+        "facet_id": "F002",
+        "decision": "no_independent_trigger",
+        "reason": "Bu facetin \"Bir şeyi sıkıca bağlayıp sağlamlaştırmak.\" biçimindeki özel iddiasını focus yüzeyindeki başka bir kelime, ilişki veya izinli bağlam teması bağımsız biçimde çağırmıyor; yalnızca \"kapatıp sıkıca bağlamak\" dalının mevcut olması aktivasyon kanıtı değildir.",
+        "finding_refs": []
+      },
+      {
+        "branch_ref": "root_000743/B013",
+        "facet_id": "F001",
+        "decision": "no_independent_trigger",
+        "reason": "Bu facetin \"Bir şeyin görünen gövdesi veya belirgin biçimi.\" biçimindeki özel iddiasını focus yüzeyindeki başka bir kelime, ilişki veya izinli bağlam teması bağımsız biçimde çağırmıyor; yalnızca \"görünen gövde veya üst bölüm\" dalının mevcut olması aktivasyon kanıtı değildir.",
+        "finding_refs": []
+      },
+      {
+        "branch_ref": "root_000743/B013",
+        "facet_id": "F002",
+        "decision": "no_independent_trigger",
+        "reason": "Bu facetin \"Bir şeyin üst bölümü olarak yorumlanan yüz.\" biçimindeki özel iddiasını focus yüzeyindeki başka bir kelime, ilişki veya izinli bağlam teması bağımsız biçimde çağırmıyor; yalnızca \"görünen gövde veya üst bölüm\" dalının mevcut olması aktivasyon kanıtı değildir.",
+        "finding_refs": []
+      },
+      {
+        "branch_ref": "root_000743/B013",
+        "facet_id": "F003",
+        "decision": "no_independent_trigger",
+        "reason": "Bu facetin \"Palmiye gövdesinin içte bulunan yumuşak özü.\" biçimindeki özel iddiasını focus yüzeyindeki başka bir kelime, ilişki veya izinli bağlam teması bağımsız biçimde çağırmıyor; yalnızca \"görünen gövde veya üst bölüm\" dalının mevcut olması aktivasyon kanıtı değildir.",
+        "finding_refs": []
+      },
+      {
+        "branch_ref": "root_000745/B001",
+        "facet_id": "F001",
+        "decision": "no_independent_trigger",
+        "reason": "Bu facetin \"Bir şey bulunduğu düzeyden yukarı çıkar veya yüksek duruma gelir.\" biçimindeki özel iddiasını focus yüzeyindeki başka bir kelime, ilişki veya izinli bağlam teması bağımsız biçimde çağırmıyor; yalnızca \"fiziksel ya da toplumsal yükselme\" dalının mevcut olması aktivasyon kanıtı değildir.",
+        "finding_refs": []
+      },
+      {
+        "branch_ref": "root_000745/B001",
+        "facet_id": "F002",
+        "decision": "no_independent_trigger",
+        "reason": "Bu facetin \"Bir kişinin değeri, saygınlığı ya da toplumdaki yeri yükselir.\" biçimindeki özel iddiasını focus yüzeyindeki başka bir kelime, ilişki veya izinli bağlam teması bağımsız biçimde çağırmıyor; yalnızca \"fiziksel ya da toplumsal yükselme\" dalının mevcut olması aktivasyon kanıtı değildir.",
+        "finding_refs": []
+      },
+      {
+        "branch_ref": "root_000745/B001",
+        "facet_id": "F003",
+        "decision": "no_independent_trigger",
+        "reason": "Bu facetin \"Bakış bir şeye doğru yukarı kaldırılır.\" biçimindeki özel iddiasını focus yüzeyindeki başka bir kelime, ilişki veya izinli bağlam teması bağımsız biçimde çağırmıyor; yalnızca \"fiziksel ya da toplumsal yükselme\" dalının mevcut olması aktivasyon kanıtı değildir.",
+        "finding_refs": []
+      },
+      {
+        "branch_ref": "root_000745/B002",
+        "facet_id": "F001",
+        "decision": "no_independent_trigger",
+        "reason": "Bu facetin \"Bir şey yükselir ve uzaktan bakıldığında görünür, ayırt edilir hale gelir.\" biçimindeki özel iddiasını focus yüzeyindeki başka bir kelime, ilişki veya izinli bağlam teması bağımsız biçimde çağırmıyor; yalnızca \"yükselerek uzaktan beliren görünüş\" dalının mevcut olması aktivasyon kanıtı değildir.",
+        "finding_refs": []
+      },
+      {
+        "branch_ref": "root_000745/B002",
+        "facet_id": "F002",
+        "decision": "no_independent_trigger",
+        "reason": "Bu facetin \"Bir şeyin yüksekte görünen gövdesi, dış çizgisi ya da belirgin yanı anlatılır.\" biçimindeki özel iddiasını focus yüzeyindeki başka bir kelime, ilişki veya izinli bağlam teması bağımsız biçimde çağırmıyor; yalnızca \"yükselerek uzaktan beliren görünüş\" dalının mevcut olması aktivasyon kanıtı değildir.",
+        "finding_refs": []
+      },
+      {
+        "branch_ref": "root_000745/B002",
+        "facet_id": "F003",
+        "decision": "no_independent_trigger",
+        "reason": "Bu facetin \"Ayın ince yayı ufuktan biraz yükseldiğinde görünen biçimiyle örneklenir.\" biçimindeki özel iddiasını focus yüzeyindeki başka bir kelime, ilişki veya izinli bağlam teması bağımsız biçimde çağırmıyor; yalnızca \"yükselerek uzaktan beliren görünüş\" dalının mevcut olması aktivasyon kanıtı değildir.",
+        "finding_refs": []
+      },
+      {
+        "branch_ref": "root_000745/B003",
+        "facet_id": "F001",
+        "decision": "no_independent_trigger",
+        "reason": "Bu facetin \"Erkek deve dişi deve sürüsünün üzerine doğru yükselir veya atılır.\" biçimindeki özel iddiasını focus yüzeyindeki başka bir kelime, ilişki veya izinli bağlam teması bağımsız biçimde çağırmıyor; yalnızca \"erkek devenin dişi deve sürüsüne atılıp aralarına girmesi\" dalının mevcut olması aktivasyon kanıtı değildir.",
+        "finding_refs": []
+      },
+      {
+        "branch_ref": "root_000745/B003",
+        "facet_id": "F002",
+        "decision": "no_independent_trigger",
+        "reason": "Bu facetin \"Erkek deve hareketini sürdürerek dişi develerin arasına girer.\" biçimindeki özel iddiasını focus yüzeyindeki başka bir kelime, ilişki veya izinli bağlam teması bağımsız biçimde çağırmıyor; yalnızca \"erkek devenin dişi deve sürüsüne atılıp aralarına girmesi\" dalının mevcut olması aktivasyon kanıtı değildir.",
+        "finding_refs": []
+      },
+      {
+        "branch_ref": "root_000745/B004",
+        "facet_id": "F001",
+        "decision": "no_independent_trigger",
+        "reason": "Bu facetin \"Bir şeyin üzerinde yükselen ve onu örten gök, tavan veya üst yan anlatılır.\" biçimindeki özel iddiasını focus yüzeyindeki başka bir kelime, ilişki veya izinli bağlam teması bağımsız biçimde çağırmıyor; yalnızca \"üstteki gök veya örtü ve buna bağlı üstten gelen ya da üstte bulunan şeyler\" dalının mevcut olması aktivasyon kanıtı değildir.",
+        "finding_refs": []
+      },
+      {
+        "branch_ref": "root_000745/B004",
+        "facet_id": "F002",
+        "decision": "no_independent_trigger",
+        "reason": "Bu facetin \"Üstte bulunan ve örten bulut aynı adla anılır.\" biçimindeki özel iddiasını focus yüzeyindeki başka bir kelime, ilişki veya izinli bağlam teması bağımsız biçimde çağırmıyor; yalnızca \"üstteki gök veya örtü ve buna bağlı üstten gelen ya da üstte bulunan şeyler\" dalının mevcut olması aktivasyon kanıtı değildir.",
+        "finding_refs": []
+      },
+      {
+        "branch_ref": "root_000745/B004",
+        "facet_id": "F003",
+        "decision": "no_independent_trigger",
+        "reason": "Bu facetin \"Yukarıdaki kaynağından gelen yağmur aynı adla anılır.\" biçimindeki özel iddiasını focus yüzeyindeki başka bir kelime, ilişki veya izinli bağlam teması bağımsız biçimde çağırmıyor; yalnızca \"üstteki gök veya örtü ve buna bağlı üstten gelen ya da üstte bulunan şeyler\" dalının mevcut olması aktivasyon kanıtı değildir.",
+        "finding_refs": []
+      },
+      {
+        "branch_ref": "root_000745/B004",
+        "facet_id": "F004",
+        "decision": "no_independent_trigger",
+        "reason": "Bu facetin \"Yağmurdan çıkan veya yerden yükselen bitkiye aynı ad aktarılır.\" biçimindeki özel iddiasını focus yüzeyindeki başka bir kelime, ilişki veya izinli bağlam teması bağımsız biçimde çağırmıyor; yalnızca \"üstteki gök veya örtü ve buna bağlı üstten gelen ya da üstte bulunan şeyler\" dalının mevcut olması aktivasyon kanıtı değildir.",
+        "finding_refs": []
+      },
+      {
+        "branch_ref": "root_000745/B004",
+        "facet_id": "F005",
+        "decision": "no_independent_trigger",
+        "reason": "Bu facetin \"Atın sırtı ve genel olarak bir şeyin en üst yanı bu yüksek üst yüzey kapsamında adlandırılır.\" biçimindeki özel iddiasını focus yüzeyindeki başka bir kelime, ilişki veya izinli bağlam teması bağımsız biçimde çağırmıyor; yalnızca \"üstteki gök veya örtü ve buna bağlı üstten gelen ya da üstte bulunan şeyler\" dalının mevcut olması aktivasyon kanıtı değildir.",
+        "finding_refs": []
+      },
+      {
+        "branch_ref": "root_000745/B005",
+        "facet_id": "F001",
+        "decision": "activated",
+        "reason": "Basmala'daki isim ile Allah'ın özel adı arasındaki focus içi ilişki ve 29:53'teki yeniden adlandırma teması, adın tanıtıcı işlevini bağımsız olarak geri çağırıyor.",
+        "finding_refs": [
+          "global:governing-designation-frame"
+        ]
+      },
+      {
+        "branch_ref": "root_000745/B005",
+        "facet_id": "F002",
+        "decision": "no_independent_trigger",
+        "reason": "Bu facetin \"Birine ad verilir veya kişi kendisi için bir ad edinir ve o adla çağrılır.\" biçimindeki özel iddiasını focus yüzeyindeki başka bir kelime, ilişki veya izinli bağlam teması bağımsız biçimde çağırmıyor; yalnızca \"ad, adlandırma ve ad ya da nitelik bakımından denklik\" dalının mevcut olması aktivasyon kanıtı değildir.",
+        "finding_refs": []
+      },
+      {
+        "branch_ref": "root_000745/B005",
+        "facet_id": "F003",
+        "decision": "no_independent_trigger",
+        "reason": "Bu facetin \"İki kişi aynı adı taşıdığında birbirinin adaşı olur.\" biçimindeki özel iddiasını focus yüzeyindeki başka bir kelime, ilişki veya izinli bağlam teması bağımsız biçimde çağırmıyor; yalnızca \"ad, adlandırma ve ad ya da nitelik bakımından denklik\" dalının mevcut olması aktivasyon kanıtı değildir.",
+        "finding_refs": []
+      },
+      {
+        "branch_ref": "root_000745/B005",
+        "facet_id": "F004",
+        "decision": "no_independent_trigger",
+        "reason": "Bu facetin \"Bir kişi, aynı adı veya niteliği hak edecek ölçüde başkasının dengi sayılır.\" biçimindeki özel iddiasını focus yüzeyindeki başka bir kelime, ilişki veya izinli bağlam teması bağımsız biçimde çağırmıyor; yalnızca \"ad, adlandırma ve ad ya da nitelik bakımından denklik\" dalının mevcut olması aktivasyon kanıtı değildir.",
+        "finding_refs": []
+      },
+      {
+        "branch_ref": "root_000745/B005",
+        "facet_id": "F005",
+        "decision": "activated",
+        "reason": "29:2-6'daki söz-eylem sınaması ile 29:51 ve 29:53'teki kitap ve adlandırma dönüşleri, ismi yükseltilmiş ve belirleyici bir yetki başlığı olarak geri çağırıyor.",
+        "finding_refs": [
+          "global:governing-designation-frame"
+        ]
+      },
+      {
+        "branch_ref": "root_000745/B006",
+        "facet_id": "F001",
+        "decision": "no_independent_trigger",
+        "reason": "Bu facetin \"Bir topluluk avlanmak amacıyla kır veya çöl gibi ıssız araziye çıkar.\" biçimindeki özel iddiasını focus yüzeyindeki başka bir kelime, ilişki veya izinli bağlam teması bağımsız biçimde çağırmıyor; yalnızca \"av için ıssız araziye çıkma ve buna bağlı avcı kullanımları\" dalının mevcut olması aktivasyon kanıtı değildir.",
+        "finding_refs": []
+      },
+      {
+        "branch_ref": "root_000745/B006",
+        "facet_id": "F002",
+        "decision": "no_independent_trigger",
+        "reason": "Bu facetin \"Bu amaçla araziye çıkan kişiler avcı adıyla anılır.\" biçimindeki özel iddiasını focus yüzeyindeki başka bir kelime, ilişki veya izinli bağlam teması bağımsız biçimde çağırmıyor; yalnızca \"av için ıssız araziye çıkma ve buna bağlı avcı kullanımları\" dalının mevcut olması aktivasyon kanıtı değildir.",
+        "finding_refs": []
+      },
+      {
+        "branch_ref": "root_000745/B006",
+        "facet_id": "F003",
+        "decision": "no_independent_trigger",
+        "reason": "Bu facetin \"Av hayvanını bulup avlamak üzere arama eylemi aynı alana bağlıdır.\" biçimindeki özel iddiasını focus yüzeyindeki başka bir kelime, ilişki veya izinli bağlam teması bağımsız biçimde çağırmıyor; yalnızca \"av için ıssız araziye çıkma ve buna bağlı avcı kullanımları\" dalının mevcut olması aktivasyon kanıtı değildir.",
+        "finding_refs": []
+      },
+      {
+        "branch_ref": "root_000745/B006",
+        "facet_id": "F004",
+        "decision": "no_independent_trigger",
+        "reason": "Bu facetin \"Avcının sıcak zeminde hayvan beklerken ayağını korumak için giydiği çorap adlandırılır.\" biçimindeki özel iddiasını focus yüzeyindeki başka bir kelime, ilişki veya izinli bağlam teması bağımsız biçimde çağırmıyor; yalnızca \"av için ıssız araziye çıkma ve buna bağlı avcı kullanımları\" dalının mevcut olması aktivasyon kanıtı değildir.",
+        "finding_refs": []
+      },
+      {
+        "branch_ref": "root_000745/B007",
+        "facet_id": "F001",
+        "decision": "no_independent_trigger",
+        "reason": "Bu facetin \"İki veya daha çok taraf üstün gelmek için karşılıklı olarak yarışır.\" biçimindeki özel iddiasını focus yüzeyindeki başka bir kelime, ilişki veya izinli bağlam teması bağımsız biçimde çağırmıyor; yalnızca \"yarışma, övünerek boy ölçüşme ve karşı koyma\" dalının mevcut olması aktivasyon kanıtı değildir.",
+        "finding_refs": []
+      },
+      {
+        "branch_ref": "root_000745/B007",
+        "facet_id": "F002",
+        "decision": "no_independent_trigger",
+        "reason": "Bu facetin \"Taraflar sahip oldukları üstünlüklerle övünerek birbirleriyle boy ölçüşür.\" biçimindeki özel iddiasını focus yüzeyindeki başka bir kelime, ilişki veya izinli bağlam teması bağımsız biçimde çağırmıyor; yalnızca \"yarışma, övünerek boy ölçüşme ve karşı koyma\" dalının mevcut olması aktivasyon kanıtı değildir.",
+        "finding_refs": []
+      },
+      {
+        "branch_ref": "root_000745/B007",
+        "facet_id": "F003",
+        "decision": "no_independent_trigger",
+        "reason": "Bu facetin \"Taraflardan biri ötekine karşı koyar, onunla aynı düzeye gelmeye veya onu geçmeye çalışır.\" biçimindeki özel iddiasını focus yüzeyindeki başka bir kelime, ilişki veya izinli bağlam teması bağımsız biçimde çağırmıyor; yalnızca \"yarışma, övünerek boy ölçüşme ve karşı koyma\" dalının mevcut olması aktivasyon kanıtı değildir.",
+        "finding_refs": []
+      },
+      {
+        "branch_ref": "root_000745/B007",
+        "facet_id": "F004",
+        "decision": "no_independent_trigger",
+        "reason": "Bu facetin \"Kimsenin bir kişiyle yarışamaması, o kişinin erişilemez ölçüde üstün olduğunu bildirir.\" biçimindeki özel iddiasını focus yüzeyindeki başka bir kelime, ilişki veya izinli bağlam teması bağımsız biçimde çağırmıyor; yalnızca \"yarışma, övünerek boy ölçüşme ve karşı koyma\" dalının mevcut olması aktivasyon kanıtı değildir.",
+        "finding_refs": []
+      },
+      {
+        "branch_ref": "root_000745/B008",
+        "facet_id": "F001",
+        "decision": "no_independent_trigger",
+        "reason": "Bu facetin \"Bir kişi hakkındaki söz veya ün insanlar arasında yayılır.\" biçimindeki özel iddiasını focus yüzeyindeki başka bir kelime, ilişki veya izinli bağlam teması bağımsız biçimde çağırmıyor; yalnızca \"insanlar arasında yayılan iyi ün\" dalının mevcut olması aktivasyon kanıtı değildir.",
+        "finding_refs": []
+      },
+      {
+        "branch_ref": "root_000745/B008",
+        "facet_id": "F002",
+        "decision": "no_independent_trigger",
+        "reason": "Bu facetin \"Yayılan ün yalnız iyi yöndedir ve kötü ünü dışarıda bırakır.\" biçimindeki özel iddiasını focus yüzeyindeki başka bir kelime, ilişki veya izinli bağlam teması bağımsız biçimde çağırmıyor; yalnızca \"insanlar arasında yayılan iyi ün\" dalının mevcut olması aktivasyon kanıtı değildir.",
+        "finding_refs": []
+      },
+      {
+        "branch_ref": "root_001650/B001",
+        "facet_id": "F001",
+        "decision": "no_independent_trigger",
+        "reason": "Bu facetin \"Bir nesne veya hayvan üzerinde onu tanıtmaya ve başkalarından ayırmaya yarayan görünür bir fiziksel iz oluşturulur.\" biçimindeki özel iddiasını focus yüzeyindeki başka bir kelime, ilişki veya izinli bağlam teması bağımsız biçimde çağırmıyor; yalnızca \"tanıtıcı fiziksel iz koyma, iz ve araç\" dalının mevcut olması aktivasyon kanıtı değildir.",
+        "finding_refs": []
+      },
+      {
+        "branch_ref": "root_001650/B001",
+        "facet_id": "F002",
+        "decision": "no_independent_trigger",
+        "reason": "Bu facetin \"İşaret, kızgın araçla yakılarak, kulağın bir bölümü kesilerek veya çentik açılarak bırakılabilir.\" biçimindeki özel iddiasını focus yüzeyindeki başka bir kelime, ilişki veya izinli bağlam teması bağımsız biçimde çağırmıyor; yalnızca \"tanıtıcı fiziksel iz koyma, iz ve araç\" dalının mevcut olması aktivasyon kanıtı değildir.",
+        "finding_refs": []
+      },
+      {
+        "branch_ref": "root_001650/B001",
+        "facet_id": "F003",
+        "decision": "no_independent_trigger",
+        "reason": "Bu facetin \"Eylemin sonucunda kalan tanıtıcı iz de aynı anlam alanında adlandırılır.\" biçimindeki özel iddiasını focus yüzeyindeki başka bir kelime, ilişki veya izinli bağlam teması bağımsız biçimde çağırmıyor; yalnızca \"tanıtıcı fiziksel iz koyma, iz ve araç\" dalının mevcut olması aktivasyon kanıtı değildir.",
+        "finding_refs": []
+      },
+      {
+        "branch_ref": "root_001650/B001",
+        "facet_id": "F004",
+        "decision": "no_independent_trigger",
+        "reason": "Bu facetin \"Özellikle hayvanlara bu izi koymak için kullanılan kızgın işaretleme aracı da bu dala bağlıdır.\" biçimindeki özel iddiasını focus yüzeyindeki başka bir kelime, ilişki veya izinli bağlam teması bağımsız biçimde çağırmıyor; yalnızca \"tanıtıcı fiziksel iz koyma, iz ve araç\" dalının mevcut olması aktivasyon kanıtı değildir.",
+        "finding_refs": []
+      },
+      {
+        "branch_ref": "root_001650/B002",
+        "facet_id": "F001",
+        "decision": "no_independent_trigger",
+        "reason": "Bu facetin \"Kişide görülen bir belirti, görünmeyen bir nitelik veya durumun göstergesi olarak okunur.\" biçimindeki özel iddiasını focus yüzeyindeki başka bir kelime, ilişki veya izinli bağlam teması bağımsız biçimde çağırmıyor; yalnızca \"belirtiden karakter veya durum sezme\" dalının mevcut olması aktivasyon kanıtı değildir.",
+        "finding_refs": []
+      },
+      {
+        "branch_ref": "root_001650/B002",
+        "facet_id": "F002",
+        "decision": "no_independent_trigger",
+        "reason": "Bu facetin \"Gözlemden hareketle sezgisel bir değerlendirme ve çıkarım yapılır.\" biçimindeki özel iddiasını focus yüzeyindeki başka bir kelime, ilişki veya izinli bağlam teması bağımsız biçimde çağırmıyor; yalnızca \"belirtiden karakter veya durum sezme\" dalının mevcut olması aktivasyon kanıtı değildir.",
+        "finding_refs": []
+      },
+      {
+        "branch_ref": "root_001650/B002",
+        "facet_id": "F003",
+        "decision": "no_independent_trigger",
+        "reason": "Bu facetin \"Çıkarılan nitelik iyilik de kötülük de olabilir; anlam yalnızca olumlu bir yargıyla sınırlı değildir.\" biçimindeki özel iddiasını focus yüzeyindeki başka bir kelime, ilişki veya izinli bağlam teması bağımsız biçimde çağırmıyor; yalnızca \"belirtiden karakter veya durum sezme\" dalının mevcut olması aktivasyon kanıtı değildir.",
+        "finding_refs": []
+      },
+      {
+        "branch_ref": "root_001650/B003",
+        "facet_id": "F001",
+        "decision": "no_independent_trigger",
+        "reason": "Bu facetin \"Yağmur, yılın ya da ilkbaharın ilk döneminde görülen ilk yağış olarak zaman bakımından sınırlandırılır.\" biçimindeki özel iddiasını focus yüzeyindeki başka bir kelime, ilişki veya izinli bağlam teması bağımsız biçimde çağırmıyor; yalnızca \"toprağı bitkilendiren yılın ilk yağmuru\" dalının mevcut olması aktivasyon kanıtı değildir.",
+        "finding_refs": []
+      },
+      {
+        "branch_ref": "root_001650/B003",
+        "facet_id": "F002",
+        "decision": "no_independent_trigger",
+        "reason": "Bu facetin \"Bu ilk yağmur toprağın bitki çıkarmasını sağlar ve yerde görünür bir etki bırakır.\" biçimindeki özel iddiasını focus yüzeyindeki başka bir kelime, ilişki veya izinli bağlam teması bağımsız biçimde çağırmıyor; yalnızca \"toprağı bitkilendiren yılın ilk yağmuru\" dalının mevcut olması aktivasyon kanıtı değildir.",
+        "finding_refs": []
+      },
+      {
+        "branch_ref": "root_001650/B003",
+        "facet_id": "F003",
+        "decision": "no_independent_trigger",
+        "reason": "Bu facetin \"İlk yağmuru almış ve onun bitkisel etkisini taşıyan toprak sonuç durumuyla adlandırılır.\" biçimindeki özel iddiasını focus yüzeyindeki başka bir kelime, ilişki veya izinli bağlam teması bağımsız biçimde çağırmıyor; yalnızca \"toprağı bitkilendiren yılın ilk yağmuru\" dalının mevcut olması aktivasyon kanıtı değildir.",
+        "finding_refs": []
+      },
+      {
+        "branch_ref": "root_001650/B004",
+        "facet_id": "F001",
+        "decision": "no_independent_trigger",
+        "reason": "Bu facetin \"Bir zaman veya yer, insanların ortak amaçla toplanacağı belirlenmiş bir buluşma noktası işlevi görür.\" biçimindeki özel iddiasını focus yüzeyindeki başka bir kelime, ilişki veya izinli bağlam teması bağımsız biçimde çağırmıyor; yalnızca \"belirlenmiş toplu buluşma zamanı ve yeri\" dalının mevcut olması aktivasyon kanıtı değildir.",
+        "finding_refs": []
+      },
+      {
+        "branch_ref": "root_001650/B004",
+        "facet_id": "F002",
+        "decision": "no_independent_trigger",
+        "reason": "Bu facetin \"Kutsal ziyaret için insanların toplandığı belirlenmiş buluşma bu çekirdeğin başlıca gerçekleşmesidir.\" biçimindeki özel iddiasını focus yüzeyindeki başka bir kelime, ilişki veya izinli bağlam teması bağımsız biçimde çağırmıyor; yalnızca \"belirlenmiş toplu buluşma zamanı ve yeri\" dalının mevcut olması aktivasyon kanıtı değildir.",
+        "finding_refs": []
+      },
+      {
+        "branch_ref": "root_001650/B004",
+        "facet_id": "F003",
+        "decision": "no_independent_trigger",
+        "reason": "Bu facetin \"Eski Arap pazarlarının belirli toplanma zamanları ve yerleri de bu anlamın örnekleridir.\" biçimindeki özel iddiasını focus yüzeyindeki başka bir kelime, ilişki veya izinli bağlam teması bağımsız biçimde çağırmıyor; yalnızca \"belirlenmiş toplu buluşma zamanı ve yeri\" dalının mevcut olması aktivasyon kanıtı değildir.",
+        "finding_refs": []
+      },
+      {
+        "branch_ref": "root_001650/B004",
+        "facet_id": "F004",
+        "decision": "no_independent_trigger",
+        "reason": "Bu facetin \"İnsanların belirlenmiş toplu buluşmaya gidip onu hazır bulunarak geçirmesi bağlantılı bir eylemdir.\" biçimindeki özel iddiasını focus yüzeyindeki başka bir kelime, ilişki veya izinli bağlam teması bağımsız biçimde çağırmıyor; yalnızca \"belirlenmiş toplu buluşma zamanı ve yeri\" dalının mevcut olması aktivasyon kanıtı değildir.",
+        "finding_refs": []
+      },
+      {
+        "branch_ref": "root_001650/B005",
+        "facet_id": "F001",
+        "decision": "no_independent_trigger",
+        "reason": "Bu facetin \"Kişide dışarıdan fark edilen güzellik ve hoş görünüş bulunur.\" biçimindeki özel iddiasını focus yüzeyindeki başka bir kelime, ilişki veya izinli bağlam teması bağımsız biçimde çağırmıyor; yalnızca \"kişide görünen yerleşik güzellik ve zarafet\" dalının mevcut olması aktivasyon kanıtı değildir.",
+        "finding_refs": []
+      },
+      {
+        "branch_ref": "root_001650/B005",
+        "facet_id": "F002",
+        "decision": "no_independent_trigger",
+        "reason": "Bu facetin \"Güzellik özellikle yüzün güzelliği veya kişide yerleşmiş kalıcı bir hoşluk olarak ifade edilir.\" biçimindeki özel iddiasını focus yüzeyindeki başka bir kelime, ilişki veya izinli bağlam teması bağımsız biçimde çağırmıyor; yalnızca \"kişide görünen yerleşik güzellik ve zarafet\" dalının mevcut olması aktivasyon kanıtı değildir.",
+        "finding_refs": []
+      },
+      {
+        "branch_ref": "root_001650/B005",
+        "facet_id": "F003",
+        "decision": "no_independent_trigger",
+        "reason": "Bu facetin \"Güzellik ve zarafetin kişi üzerinde bıraktığı görünür etki de aynı anlam alanında adlandırılır.\" biçimindeki özel iddiasını focus yüzeyindeki başka bir kelime, ilişki veya izinli bağlam teması bağımsız biçimde çağırmıyor; yalnızca \"kişide görünen yerleşik güzellik ve zarafet\" dalının mevcut olması aktivasyon kanıtı değildir.",
+        "finding_refs": []
+      },
+      {
+        "branch_ref": "root_001650/B006",
+        "facet_id": "F001",
+        "decision": "no_independent_trigger",
+        "reason": "Bu facetin \"Referans, belirli bir bitki veya küçük ağaç türüdür.\" biçimindeki özel iddiasını focus yüzeyindeki başka bir kelime, ilişki veya izinli bağlam teması bağımsız biçimde çağırmıyor; yalnızca \"yaprakları boya olarak kullanılan bitki\" dalının mevcut olması aktivasyon kanıtı değildir.",
+        "finding_refs": []
+      },
+      {
+        "branch_ref": "root_001650/B006",
+        "facet_id": "F002",
+        "decision": "no_independent_trigger",
+        "reason": "Bu facetin \"Bitkinin yaprakları renk verici madde sağlar ve boyama amacıyla kullanılır.\" biçimindeki özel iddiasını focus yüzeyindeki başka bir kelime, ilişki veya izinli bağlam teması bağımsız biçimde çağırmıyor; yalnızca \"yaprakları boya olarak kullanılan bitki\" dalının mevcut olması aktivasyon kanıtı değildir.",
+        "finding_refs": []
+      }
+    ],
+    "connection_dispositions": []
+  },
   "candidate_decisions": [
+    {
+      "candidate_id": "cand_94927b25c0fed4865f58",
+      "decision": "accept",
+      "reason": "Genitif bağlanma ve sonraki hamd dönüşü merhamet zincirini aynı özel ada bağlayan ayrı bir okuyucu kazanımı veriyor.",
+      "finding_refs": [
+        "global:divine-name-anchors-mercy"
+      ],
+      "branch_exclusions": [],
+      "context_exclusions": []
+    },
+    {
+      "candidate_id": "cand_4b0304416b7855a41e73",
+      "decision": "accept",
+      "reason": "Aynı adın sesçe yoğun bağlı yapı içinde yeniden duyulması, özel adın yalnız sözdizimsel taşıyıcı oluşundan ayrı bir global dönüş sağlıyor.",
+      "finding_refs": [
+        "global:name-returns-as-construct"
+      ],
+      "branch_exclusions": [],
+      "context_exclusions": []
+    },
+    {
+      "candidate_id": "cand_fa521af54ad04516cae8",
+      "decision": "accept",
+      "reason": "QAC ve bağlanma kayıtları Allah lafzını belirli, tekil özel ad olarak kuruyor; bu, merhamet zinciri bulgusundan ayrı bir gönderim açıklamasıdır.",
+      "finding_refs": [
+        "global:proper-name-through-governed-relation"
+      ],
+      "branch_exclusions": [],
+      "context_exclusions": []
+    },
+    {
+      "candidate_id": "cand_3a84a87d7339e33a9ee4",
+      "decision": "narrow",
+      "reason": "Tapınma ve özlem basıncı korunuyor, fakat yerel özel ad biçimi bunu genel ilah adı veya bağımsız türetim olmaktan çıkarıyor.",
+      "finding_refs": [
+        "global:worship-pressure-bounded-by-name"
+      ],
+      "branch_exclusions": [],
+      "context_exclusions": []
+    },
+    {
+      "candidate_id": "cand_3f864ad15356ff2ac1aa",
+      "decision": "narrow",
+      "reason": "Varyant durum ekleri ve durak baskısı kayda değer, ancak yerel genitif sıfat kuruluşunun yerine geçmiyor.",
+      "finding_refs": [
+        "global:variant-syntax-keeps-adjectival-chain"
+      ],
+      "branch_exclusions": [],
+      "context_exclusions": []
+    },
+    {
+      "candidate_id": "cand_2189a4173d3d3e00fd4b",
+      "decision": "accept",
+      "reason": "İlk belirli merhamet sıfatının Allah adına genitif bağlanması doğrudan ve ayrı bir sözdizimsel okuyucu kazanımı sağlıyor.",
+      "finding_refs": [
+        "global:first-mercy-epithet-attaches"
+      ],
+      "branch_exclusions": [],
+      "context_exclusions": []
+    },
+    {
+      "candidate_id": "cand_846cad2f7d38c7dae4f1",
+      "decision": "accept",
+      "reason": "İlk ve ikinci merhamet biçimleri arasındaki genişlikten işleyen niteliğe geçiş, yerel tekrarın bağımsız semantik hareketidir.",
+      "finding_refs": [
+        "global:expansive-mercy-before-enacted"
+      ],
+      "branch_exclusions": [],
+      "context_exclusions": []
+    },
+    {
+      "candidate_id": "cand_9685004bc52b37b5f3cb",
+      "decision": "accept",
+      "reason": "Belirli artikel, çiftlenen başlangıç ve eşlenen kapanışın işitsel bağlanması anlam açıklamasına ek bir okuyucu getirisi veriyor.",
+      "finding_refs": [
+        "global:first-mercy-doubled-onset"
+      ],
+      "branch_exclusions": [],
+      "context_exclusions": []
+    },
+    {
+      "candidate_id": "cand_15645155a921e968fbc4",
+      "decision": "accept",
+      "reason": "İlk merhamet çizgisinin sonraki dönüşü, basmalanın aynı-surah akışındaki yerini görünür kılan ayrı bir geri dönüş kanıtıdır.",
+      "finding_refs": [
+        "global:first-mercy-returns-in-frame"
+      ],
+      "branch_exclusions": [],
+      "context_exclusions": []
+    },
+    {
+      "candidate_id": "cand_0d92dd869e87a9099286",
+      "decision": "narrow",
+      "reason": "Koruyucu ve kuşatıcı basınç korunuyor, fakat döl yatağı dalı yerel bir sahne veya literal anlam olarak etkinleştirilmiyor.",
+      "finding_refs": [
+        "global:protective-mercy-pressure"
+      ],
+      "branch_exclusions": [],
+      "context_exclusions": []
+    },
+    {
+      "candidate_id": "cand_2d0978cd3ad4a24e0f20",
+      "decision": "accept",
+      "reason": "Kapanış konumu ve sonraki merhamet dönüşü, çift ritmin mühür ve geri taşıma işlevini ayrı bir bulgu olarak kuruyor.",
+      "finding_refs": [
+        "global:paired-cadence-seals-return"
+      ],
+      "branch_exclusions": [],
+      "context_exclusions": []
+    },
+    {
+      "candidate_id": "cand_4d462bc2882a3f01451d",
+      "decision": "accept",
+      "reason": "Son kelimenin formülü tamamlayıp yine Allah adına bağlaması, ses kapanışından ve genişlik-incelme farkından ayrı bir attachment bulgusudur.",
+      "finding_refs": [
+        "global:formula-completion-divine-attachment"
+      ],
+      "branch_exclusions": [],
+      "context_exclusions": []
+    },
+    {
+      "candidate_id": "cand_505f30bd726b25681f68",
+      "decision": "accept",
+      "reason": "Aynı anlam ailesinin biçimsel yankısı, merhametin tekrarını dereceli incelme olarak açıklayan ayrı bir mekanizma taşıyor.",
+      "finding_refs": [
+        "global:mercy-root-scalar-refinement"
+      ],
+      "branch_exclusions": [],
+      "context_exclusions": []
+    },
+    {
+      "candidate_id": "cand_69fbec494e02bcd3e720",
+      "decision": "narrow",
+      "reason": "Başka bir merhamet edeni niteleyebilme karşılaştırması korunuyor, ancak 9:128 kapsamı bu basmaladaki ilahi gönderimi değiştirmiyor.",
+      "finding_refs": [
+        "global:shareable-mercy-form-bounded"
+      ],
+      "branch_exclusions": [],
+      "context_exclusions": []
+    },
+    {
+      "candidate_id": "cand_e74130c63d851de1a020",
+      "decision": "accept",
+      "reason": "Son epithetin kalıcı ve işleyen merhamet niteliğinde inişi, önceki genişlik ve ses bulgularını tekrar etmeyen kapanış payoff'udur.",
+      "finding_refs": [
+        "global:enacted-mercy-final-landing"
+      ],
+      "branch_exclusions": [],
+      "context_exclusions": []
+    },
+    {
+      "candidate_id": "cand_d37a7bc52f828cc7df3e",
+      "decision": "narrow",
+      "reason": "Durak ve durum eki ihtimalleri kapanış baskısını görünür kılıyor, fakat yerel genitif kapanış korunuyor.",
+      "finding_refs": [
+        "global:variant-pause-closure"
+      ],
+      "branch_exclusions": [],
+      "context_exclusions": []
+    },
     {
       "candidate_id": "cand_basmala_1ea05fc79f88cd5284d5",
       "decision": "accept",
-      "reason": "Paket, بِسْمِ içindeki adlandırma taşıyıcısını ve Allah'ın özel adıyla ilişkisini, 29:2-6 ile 29:51 ve 29:53'teki daha geniş tetikleyicileri, focus ayetine dönüş yolunu ve okuyucu kazanımını birlikte veriyor. Bu nedenle aday, birbirinden farklı mekanizmaları koruyan iki sınırlandırılmış global bulgu olarak kabul edildi.",
+      "reason": "Target surah bağlamındaki reader walk ve çapraz-koşu kanıtı, adlandırma ve merhamet için iki ayrı global dönüşü taşıyor.",
       "finding_refs": [
-        "global:ad-yetki-cercevesi",
-        "global:merhamet-sinama-zemini"
-      ]
+        "global:governing-designation-frame"
+      ],
+      "branch_exclusions": [],
+      "context_exclusions": []
     }
   ],
   "findings": [
     {
-      "finding_ref": "global:ad-yetki-cercevesi",
-      "title": "Adın geniş bağlamı taşıyan çerçevesi",
-      "claim": "29:0'daki adlandırma, surenin sınama, kurtuluş ve dönüş anlatılarını Allah'ın yetkisi altında okutan bir üst başlık gibi işler; bu geniş yankı, بِسْمِ ile Allah'ın özel adı arasındaki ilişki üzerinden focus ayetine geri döner.",
-      "mechanism": "Paketin geniş okuyuşunda adlandırma, insanların söylediklerinin sınama, bilgi ve emek tarafından açığa çıkarıldığı ilk diziye yerleştirilir; 29:53'te belirlenmiş bir adlandırma yeniden görünerek aynı ad baskısını tetikler. Böylece başlangıçtaki ad, yalnızca bir giriş işareti değil, söz ve eylemin hangi yetki altında sorumluluk kazanacağını belirleyen bir çerçeve olarak okunur.",
-      "reader_payoff": "Okur, basmalayı süslenmiş bir önsöz olarak bırakmadan, ilerideki iddia ve eylemlerin kimin adıyla okunacağını baştan belirleyen bir başlangıç eylemi olarak kavrar.",
-      "containment": "Bu okuma, 'Merhameti sınırsız, merhamet eden Allah'ın adıyla' birincil anlamını ve adla başlama bildirimini korur. Üst başlık ve hesap verebilirlik etkisi, kelimenin bu yerde duruşu ile paketteki geniş tetikleyicilerden çıkan bir yankıdır; ayeti bütün sura tezine indirgemez ve adın sözlük anlamının yerine geçmez.",
-      "epistemic_status": "Paketin kanonik desteğiyle taşınan, odak ifadenin yerleşimi ve sonraki tetikleyicilerden çıkarılan sınırlı bir geniş-bağlam yorumudur.",
-      "candidate_ids": [
-        "cand_basmala_1ea05fc79f88cd5284d5"
+      "finding_ref": "global:divine-name-anchors-mercy",
+      "origin_candidate_id": "cand_94927b25c0fed4865f58",
+      "represented_candidate_ids": [],
+      "title": "İlahi özel ad merhamet zincirini bağlar",
+      "claim": "Allah adı, ardından gelen iki merhamet sıfatını aynı ilahi ada bağlı tek bir niteleme zinciri içinde kurar.",
+      "mechanism": "Genitif sıfat ilişkisi ve kelime sırası, merhameti bağımsız bir nitelik olarak bırakmayıp önceki özel ada bağlar; sonraki hamd çerçevesi bu bağın geri dönüşünü görünür kılar.",
+      "reader_payoff": "Okur, merhametin kime ait olduğunu ve basmalanın tek nefeste nasıl kapandığını birlikte kavrar.",
+      "containment": "Bu bulgu iki sıfatın aynı ilahi ada bağlılığını anlatır; sonraki hamd cümlesinin bütün anlamını basmalaya indirgemez.",
+      "prose_statement": "{ar:ٱللَّهِ, tr:Allahi, gloss:Allah'ın} adı, ardından gelen iki merhamet nitelemesini aynı ilahi ada bağlayarak merhameti havada duran bir sıfat olmaktan çıkarır.",
+      "epistemic": {
+        "status": "grounded",
+        "source_trust": [
+          "trusted"
+        ],
+        "reason": "QAC bağlanışı ve sıfat zinciri doğrudan yerel yapıyı destekliyor; kaynakların tümü güvenilir olarak işaretlenmiş."
+      },
+      "draft_prose": "{ar:ٱللَّهِ, tr:Allahi, gloss:Allah'ın} adı, ardından gelen iki merhamet nitelemesini aynı ilahi ada bağlayarak merhameti havada duran bir sıfat olmaktan çıkarır.",
+      "support_ids": [
+        "sup_02991ac40aeaac854e72",
+        "sup_f7725957d9a8549cb393"
       ],
+      "branch_activations": [],
+      "connection_refs": [],
+      "context_refs": [
+        "1:2"
+      ]
+    },
+    {
+      "finding_ref": "global:name-returns-as-construct",
+      "origin_candidate_id": "cand_4b0304416b7855a41e73",
+      "represented_candidate_ids": [],
+      "title": "Aynı ad bağlı bir ses birimi olarak geri döner",
+      "claim": "Allah adı, basmaladaki yoğun bağlı ses akışıyla sonraki hamd ilişkisinin dayanağı olarak yeniden duyulur.",
+      "mechanism": "İsim, bağlı yapı içinde merhamet nitelemelerine sesçe eklemlenir; aynı adın sonraki hamd cümlesinde yeniden belirmesi bu yoğunluğu süreklilik duygusuna taşır.",
+      "reader_payoff": "Okur, basmalayı kopuk bir formül değil, adı öne alıp hamde uzanan tek akış olarak işitir.",
+      "containment": "Ses yoğunluğu ve geri dönüş, yerel genitif kuruluşu destekler; sonraki cümlenin sözdizimini basmalanın içine taşımaz.",
+      "prose_statement": "Allah adı, basmaladaki bağlı ses akışıyla sonraki hamd ilişkisinin dayanağı olarak yeniden duyulur; açılış böylece tek nefeste kurulan bir bağ olarak genişler.",
+      "epistemic": {
+        "status": "grounded",
+        "source_trust": [
+          "trusted"
+        ],
+        "reason": "Aynı adın dönüşü ve yerel bağlı ses akışı doğrudan destekleniyor; çıkarım sözdizimsel okumayı değiştirmiyor."
+      },
+      "draft_prose": "Allah adı, basmaladaki bağlı ses akışıyla sonraki hamd ilişkisinin dayanağı olarak yeniden duyulur; açılış böylece tek nefeste kurulan bir bağ olarak genişler.",
+      "support_ids": [
+        "sup_106108c5d58aa80ed91f",
+        "sup_f7725957d9a8549cb393"
+      ],
+      "branch_activations": [],
+      "connection_refs": [],
+      "context_refs": [
+        "1:2"
+      ]
+    },
+    {
+      "finding_ref": "global:proper-name-through-governed-relation",
+      "origin_candidate_id": "cand_fa521af54ad04516cae8",
+      "represented_candidate_ids": [],
+      "title": "Özel ad bağlı ilişki içinden belirginleşir",
+      "claim": "Allah lafzı, genel bir ilah sınıfı adı değil, ismin bağlı olduğu tekil ve belirli özel addır.",
+      "mechanism": "Yerel genitif yapı, önceki isimle Allah lafzı arasındaki yönetilen ilişkiyi kurar; belirli oluş ve bağlanma, merhamet nitelemelerinin gönderimini sabitler.",
+      "reader_payoff": "Okur, çeviride tek kelime görünen Allah adının cümle içinde nasıl yönlendirildiğini fark eder.",
+      "containment": "Bu bulgu özel adın yerel gönderimini açıklar; kök alanındaki bütün türemiş adları bu biçime yüklemez.",
+      "prose_statement": "Basmala, Allah'ı bir varlık sınıfının adı gibi değil, ismin yöneldiği tekil ve belirli özel ad olarak kurar; bu adın bağlı yapı içindeki yeri merhamet nitelemelerinin kime ait olduğunu belirler.",
+      "epistemic": {
+        "status": "grounded",
+        "source_trust": [
+          "trusted"
+        ],
+        "reason": "QAC ve bağlanma kanıtı özel adın genitif ilişkisini doğrudan kuruyor; bağlamsal destek gönderimi pekiştiriyor."
+      },
+      "draft_prose": "Basmala, Allah'ı bir varlık sınıfının adı gibi değil, ismin yöneldiği tekil ve belirli özel ad olarak kurar; bu adın bağlı yapı içindeki yeri merhamet nitelemelerinin kime ait olduğunu belirler.",
+      "support_ids": [
+        "sup_9616286c79c43182bed8",
+        "sup_f7725957d9a8549cb393"
+      ],
+      "branch_activations": [],
+      "connection_refs": [],
+      "context_refs": [
+        "1:2"
+      ]
+    },
+    {
+      "finding_ref": "global:worship-pressure-bounded-by-name",
+      "origin_candidate_id": "cand_3a84a87d7339e33a9ee4",
+      "represented_candidate_ids": [],
+      "title": "Özel ad tapınma basıncını sınırlar",
+      "claim": "Allah adında tapınmaya yönelme ve bildirilen özlem basıncı duyulabilir; yerel biçim bu basıncı belirli bir özel ad içinde tutar.",
+      "mechanism": "İlgili anlam alanı tapınma ve özlem yönünü açar, fakat basmala içindeki belirli özel ad biçimi bu basıncı genel bir ilah adı veya bağımsız bir türetim olarak değil, Allah adına bağlı renk olarak sınırlar.",
+      "reader_payoff": "Okur, Allah adının yalnız sözlükteki bir etiket olmadığını, yöneliş ve tapınma ufkunu da taşıdığını ölçülü biçimde kavrar.",
+      "containment": "Özlem basıncı etimolojik bir renk olarak kalır; basmala burada şaşkınlık, yoğun keder veya genel bir ilah sınıfı bildirmez.",
+      "prose_statement": "Allah adının sesinde tapınmaya yönelme ve bildirilen özlem çağrışımı duyulur; yerel özel ad biçimi bu basıncı belirli bir ilahi ada bağlar.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": [
+          "trusted"
+        ],
+        "reason": "Destek bu basıncı açıkça kaydediyor, ancak aynı zamanda yerel özel ad biçimi nedeniyle kapsamı daraltıyor."
+      },
+      "draft_prose": "Allah adının sesinde tapınmaya yönelme ve bildirilen özlem çağrışımı duyulur; yerel özel ad biçimi bu basıncı belirli bir ilahi ada bağlar.",
+      "support_ids": [
+        "sup_ce242bd892b0c6e51152",
+        "sup_f7725957d9a8549cb393"
+      ],
+      "branch_activations": [],
+      "connection_refs": [],
+      "context_refs": [
+        "1:2"
+      ]
+    },
+    {
+      "finding_ref": "global:variant-syntax-keeps-adjectival-chain",
+      "origin_candidate_id": "cand_3f864ad15356ff2ac1aa",
+      "represented_candidate_ids": [],
+      "title": "Varyant baskısı sıfat zincirini görünür kılar",
+      "claim": "Farklı okuyuş ihtimalleri sıfat çiftine başka cümle görevleri açarken, bu yerel biçim onları Allah adının nitelemeleri olarak tutar.",
+      "mechanism": "Varyant durum ekleri ve durak ihtimalleri alternatif sözdizimsel basıncı gösterir; mevcut genitif biçim ise iki merhamet sözünü adla bağlı sıfat zincirinde sabitler.",
+      "reader_payoff": "Okur, çevirinin seçtiği sıfat yapısının bir zorunluluk değil, tanınabilir bir yerel kuruluş olduğunu görür.",
+      "containment": "Varyantlar canlı bir okuma baskısı olarak kaydedilir; yerel genitif çözümün yerine geçirilmez ve bağımsız bir anlam iddiasına dönüştürülmez.",
+      "prose_statement": "Farklı okuyuş ihtimalleri sıfat çiftine başka cümle görevleri açarken, bu basmaladaki genitif biçim onları Allah adının nitelemeleri olarak tutar.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": [
+          "trusted"
+        ],
+        "reason": "Varyant kanıtı anlamlıdır, ancak destek açıkça yerel genitif çözümün korunduğunu bildiriyor."
+      },
+      "draft_prose": "Farklı okuyuş ihtimalleri sıfat çiftine başka cümle görevleri açarken, bu basmaladaki genitif biçim onları Allah adının nitelemeleri olarak tutar.",
+      "support_ids": [
+        "sup_4f18b826f6b812c5f5c8",
+        "sup_6ead5cbdfb87cc7d1f19"
+      ],
+      "branch_activations": [],
+      "connection_refs": [],
+      "context_refs": [
+        "1:2",
+        "1:3"
+      ]
+    },
+    {
+      "finding_ref": "global:first-mercy-epithet-attaches",
+      "origin_candidate_id": "cand_2189a4173d3d3e00fd4b",
+      "represented_candidate_ids": [],
+      "title": "İlk merhamet sıfatı ada tutunur",
+      "claim": "İlk merhamet epithet'i, belirli oluşu ve genitif bağıyla Allah adına bağlıdır.",
+      "mechanism": "Belirli artikel, sıfat biçimi ve bağlanma kayıtları ilk merhamet kelimesini önceki özel adın nitelemesi olarak kurar.",
+      "reader_payoff": "Okur, merhametin cümlede başıboş bir nitelik değil, Allah adına yöneltilmiş bir tanım olduğunu görür.",
+      "containment": "Bu bağlanma yerel sıfat ilişkisini açıklar; diğer merhamet biçiminin işlevini ilk kelimeye eritmez.",
+      "prose_statement": "İlk merhamet sıfatı, belirli oluşu ve genitif bağıyla Allah adına tutunur; merhamet önce ilahi adın içinde yerleşir.",
+      "epistemic": {
+        "status": "grounded",
+        "source_trust": [
+          "trusted"
+        ],
+        "reason": "Yerel bağlanma kanıtı ilk merhamet sıfatının ilahi ada genitif olarak bağlı olduğunu doğrudan destekliyor."
+      },
+      "draft_prose": "İlk merhamet sıfatı, belirli oluşu ve genitif bağıyla Allah adına tutunur; merhamet önce ilahi adın içinde yerleşir.",
+      "support_ids": [
+        "sup_1675ff53e3dda1fc6912",
+        "sup_4f18b826f6b812c5f5c8"
+      ],
+      "branch_activations": [],
+      "connection_refs": [],
+      "context_refs": [
+        "1:2",
+        "1:3"
+      ]
+    },
+    {
+      "finding_ref": "global:expansive-mercy-before-enacted",
+      "origin_candidate_id": "cand_846cad2f7d38c7dae4f1",
+      "represented_candidate_ids": [],
+      "title": "Geniş merhamet işleyen merhamete açılır",
+      "claim": "İlk merhamet biçimi geniş bir alan açar; hemen ardından gelen ikinci biçim bu alanı süreklilik kazanan işleyen bir niteliğe doğru sıkılaştırır.",
+      "mechanism": "Aynı anlam ailesinin yan yana gelişi tekrar duygusu yaratırken biçim farkı ilk sözü yaygınlık, son sözü ise yerleşmiş eyleyicilik yönünde ayırır.",
+      "reader_payoff": "Okur, iki merhamet kelimesinin düz bir tekrar olmadığını, genişlikten gerçekleşmeye doğru bir hareket kurduğunu fark eder.",
+      "containment": "Bu ölçekleme iki biçim arasındaki yerel farkı anlatır; ilk kelimeyi etkisiz, ikinci kelimeyi tek gerçek merhamet saymaz.",
+      "prose_statement": "İlk merhamet sözü geniş bir alan açar, hemen ardından gelen ikinci biçim bu alanı işleyen ve süreklilik kazanan bir iyilik niteliğine doğru sıkılaştırır.",
+      "epistemic": {
+        "status": "grounded",
+        "source_trust": [
+          "trusted"
+        ],
+        "reason": "Morfoloji ve bitişik aynı-kök komşuluğu genişleyen ilk biçim ile belirginleşen ikinci biçim arasındaki farkı destekliyor."
+      },
+      "draft_prose": "İlk merhamet sözü geniş bir alan açar, hemen ardından gelen ikinci biçim bu alanı işleyen ve süreklilik kazanan bir iyilik niteliğine doğru sıkılaştırır.",
+      "support_ids": [
+        "sup_4f18b826f6b812c5f5c8",
+        "sup_990bff7b47282b7f417a"
+      ],
+      "branch_activations": [],
+      "connection_refs": [],
+      "context_refs": [
+        "1:2",
+        "1:3"
+      ]
+    },
+    {
+      "finding_ref": "global:first-mercy-doubled-onset",
+      "origin_candidate_id": "cand_9685004bc52b37b5f3cb",
+      "represented_candidate_ids": [],
+      "title": "Belirli merhamet sesi çifti bağlar",
+      "claim": "İlk merhamet epithet'inin belirli oluşu, çiftlenen başlangıç sesi ve kapanış ritmi onu sonraki merhamet kelimesine bağlar.",
+      "mechanism": "Ses kayıtları ve belirli sıfat biçimi, ilk kelimeyi tek başına bir nitelik olmaktan çıkarıp son merhamet sözüyle birlikte duyulan ikili yapının ilk halkası yapar.",
+      "reader_payoff": "Okur, anlam farkının yanında basmalanın kulağa nasıl bağlandığını da işitir.",
+      "containment": "Ses bağlanması yeni bir kök anlamı üretmez; yalnızca mevcut iki sıfatın ritmik birlikteliğini görünür kılar.",
+      "prose_statement": "İlk merhamet nitelemesinin belirli artikeli ve çiftlenen başlangıç sesi, onu sonundaki merhamet sözüne bağlı bir ses halkası olarak duyurur.",
+      "epistemic": {
+        "status": "grounded",
+        "source_trust": [
+          "trusted"
+        ],
+        "reason": "Yerel ses kayıtları ve iki belirli merhamet sıfatının yan yana gelişi bu işitsel bağlanmayı doğrudan taşıyor."
+      },
+      "draft_prose": "İlk merhamet nitelemesinin belirli artikeli ve çiftlenen başlangıç sesi, onu sonundaki merhamet sözüne bağlı bir ses halkası olarak duyurur.",
+      "support_ids": [
+        "sup_4f18b826f6b812c5f5c8",
+        "sup_5e4026cbb17c38d001fa"
+      ],
+      "branch_activations": [],
+      "connection_refs": [],
+      "context_refs": [
+        "1:2",
+        "1:3"
+      ]
+    },
+    {
+      "finding_ref": "global:first-mercy-returns-in-frame",
+      "origin_candidate_id": "cand_15645155a921e968fbc4",
+      "represented_candidate_ids": [],
+      "title": "İlk merhamet çizgisi hamd çerçevesine döner",
+      "claim": "İlk merhamet epithet'inin sonraki dönüşü, başlangıçtaki merhameti tek kullanımlık formül olmaktan çıkarıp hamd çerçevesine bağlar.",
+      "mechanism": "Aynı merhamet çizgisinin geri gelişi ve hamd ilişkisindeki karşıt çerçeve, yerel sıfat zincirini daha geniş okuma akışına taşır.",
+      "reader_payoff": "Okur, başlangıçtaki merhametin açılışta kapanıp kaybolmadığını, sonraki ilahi tasvirin eşiğine geri döndüğünü görür.",
+      "containment": "Bu geri dönüş basmalanın yerel genitif kuruluşunu korur; bütün hamd cümlesini yalnız merhamet üzerinden açıklamaz.",
+      "prose_statement": "İlk merhamet çizgisinin ilerideki tekrarında yeniden belirmesi, başlangıçtaki merhameti tek kullanımlık bir formül değil, hamd çerçevesine geri dönen bir hat olarak duyurur.",
+      "epistemic": {
+        "status": "grounded",
+        "source_trust": [
+          "trusted"
+        ],
+        "reason": "Aynı-surah dönüşü ve hamd çerçevesi için verilen iki bağlam kaydı bu yapısal geri gelişi destekliyor."
+      },
+      "draft_prose": "İlk merhamet çizgisinin ilerideki tekrarında yeniden belirmesi, başlangıçtaki merhameti tek kullanımlık bir formül değil, hamd çerçevesine geri dönen bir hat olarak duyurur.",
+      "support_ids": [
+        "sup_4f18b826f6b812c5f5c8",
+        "sup_ba63014c1294abaed965"
+      ],
+      "branch_activations": [],
+      "connection_refs": [],
+      "context_refs": [
+        "1:2",
+        "1:3"
+      ]
+    },
+    {
+      "finding_ref": "global:protective-mercy-pressure",
+      "origin_candidate_id": "cand_0d92dd869e87a9099286",
+      "represented_candidate_ids": [],
+      "title": "Koruyucu yakınlık merhameti renklendirir",
+      "claim": "Merhamet alanı, koruyan ve içine alan bir yakınlık basıncı taşır; yerel sıfat biçimi bunu bedensel bir terime dönüştürmeden esirgeme olarak tutar.",
+      "mechanism": "Merhamet ile döl yatağı arasındaki anlam akrabalığı koruyucu ve kuşatıcı bir duygu basıncı sağlar, fakat yerel ilahi epithet bu akrabalığı somut organ anlamı yerine esirgeyen iyilik olarak sınırlar.",
+      "reader_payoff": "Okur, merhametin soyut bir nezaket değil, koruyup taşıyan bir yakınlık duygusu verdiğini kavrar.",
+      "containment": "Döl yatağı dalı burada bağımsız bir sahne olarak etkin değildir; yalnızca merhamet anlamını bedensel koruma basıncıyla renklendirir.",
+      "prose_statement": "Merhamet sözünün anlam alanı koruyan ve içine alan bir yakınlık hissi verir; basmala bu basıncı bedensel bir döl yatağı imgesine çevirmeden esirgeme olarak tutar.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": [
+          "trusted"
+        ],
+        "reason": "Destek merhamet ve döl yatağı alanlarını birlikte koruyucu basınç olarak sunuyor, fakat yerel epithetin merhamet dalında kaldığını açıkça sınırlıyor."
+      },
+      "draft_prose": "Merhamet sözünün anlam alanı koruyan ve içine alan bir yakınlık hissi verir; basmala bu basıncı bedensel bir döl yatağı imgesine çevirmeden esirgeme olarak tutar.",
+      "support_ids": [
+        "sup_4f18b826f6b812c5f5c8",
+        "sup_dbb3006e444c60b8325c"
+      ],
+      "branch_activations": [],
+      "connection_refs": [],
+      "context_refs": [
+        "1:2",
+        "1:3"
+      ]
+    },
+    {
+      "finding_ref": "global:paired-cadence-seals-return",
+      "origin_candidate_id": "cand_2d0978cd3ad4a24e0f20",
+      "represented_candidate_ids": [],
+      "title": "Çift ritim kapanışı mühürler",
+      "claim": "Son merhamet kelimesi, ikili merhamet ritmini kapatır ve aynı ses-anlam çizgisini sonraki merhamet anışına taşır.",
+      "mechanism": "Kapanış konumu, eşlenen ses akışı ve sonraki dönüş birlikte son kelimeyi ayahın akustik mührü haline getirir.",
+      "reader_payoff": "Okur, son kelimenin yalnız anlam taşımadığını, basmalanın kapanışını sonraki yankıya hazırladığını duyar.",
+      "containment": "Akustik mühür, sonraki ayetteki anlamı önceden belirlemez; yalnız kapanış ile geri dönüş arasındaki bağı görünür kılar.",
+      "prose_statement": "Son merhamet sözü, çift merhamet ritmini kapatıp aynı ses ve anlam çizgisini sonraki ilahi merhamet anışına taşıyan bir mühür gibi işler.",
+      "epistemic": {
+        "status": "grounded",
+        "source_trust": [
+          "trusted"
+        ],
+        "reason": "Ses kayıtları ve sonraki merhamet dönüşü kapanış ile geri geliş arasındaki akustik ve yapısal bağı destekliyor."
+      },
+      "draft_prose": "Son merhamet sözü, çift merhamet ritmini kapatıp aynı ses ve anlam çizgisini sonraki ilahi merhamet anışına taşıyan bir mühür gibi işler.",
+      "support_ids": [
+        "sup_696cad80b84a282418b4",
+        "sup_6ef75f06d3884729980a"
+      ],
+      "branch_activations": [],
+      "connection_refs": [],
+      "context_refs": [
+        "1:2",
+        "1:3",
+        "9:128"
+      ]
+    },
+    {
+      "finding_ref": "global:formula-completion-divine-attachment",
+      "origin_candidate_id": "cand_4d462bc2882a3f01451d",
+      "represented_candidate_ids": [],
+      "title": "Son kelime formülü ilahi ada bağlar",
+      "claim": "Son merhamet epithet'i formülü tamamlar, önceki merhamet kelimesini belirginleştirir ve bütünü Allah adına bağlı tutar.",
+      "mechanism": "Kelime sırası ve sıfat zinciri son kelimeyi bağımsız bir kalite değil, aynı özel ada bağlı tamamlayıcı niteleme olarak kurar.",
+      "reader_payoff": "Okur, basmalanın kapanışını hem semantik tamamlama hem de ilahi ada dönüş olarak okur.",
+      "containment": "Tamamlama ilişkisi son epithet'in kendine özgü işini korur; iki merhamet biçimini tek bir düz anlama indirgemez.",
+      "prose_statement": "Son kelime, basmalanın formülünü tamamlayıp ikinci merhamet niteliğini yine Allah adına bağlar; kapanışta bağımsız bir sıfat değil, tamamlanmış bir adlandırma duyulur.",
+      "epistemic": {
+        "status": "grounded",
+        "source_trust": [
+          "trusted"
+        ],
+        "reason": "Yerel sıfat zinciri ve kelime sırası son kelimenin tamamlayıcı ilahi ada bağlı işlevini doğrudan destekliyor."
+      },
+      "draft_prose": "Son kelime, basmalanın formülünü tamamlayıp ikinci merhamet niteliğini yine Allah adına bağlar; kapanışta bağımsız bir sıfat değil, tamamlanmış bir adlandırma duyulur.",
+      "support_ids": [
+        "sup_696cad80b84a282418b4",
+        "sup_a0459e602e39b3c6f314"
+      ],
+      "branch_activations": [],
+      "connection_refs": [],
+      "context_refs": [
+        "1:2",
+        "1:3",
+        "9:128"
+      ]
+    },
+    {
+      "finding_ref": "global:mercy-root-scalar-refinement",
+      "origin_candidate_id": "cand_505f30bd726b25681f68",
+      "represented_candidate_ids": [],
+      "title": "Aynı anlam ailesi dereceli incelme kurar",
+      "claim": "Aynı anlam ailesinin tekrarı ilk merhamet genişliğini ikinci kelimede kalıcı ve işleyen bir iyilik niteliğiyle inceltir.",
+      "mechanism": "Kök yankısı birlik kurarken biçim farkı ilk ve son epithet arasında genişlikten sürekliliğe doğru yerel bir ölçekleme yaratır.",
+      "reader_payoff": "Okur, tekrarın boş yineleme değil, anlamı kapanışa doğru işleyen bir incelme olduğunu fark eder.",
+      "containment": "İkinci biçimin inceltici işlevi ilk merhameti silmez; iki yön aynı basmalada birlikte kalır.",
+      "prose_statement": "Aynı anlam ailesinin tekrarı, ilk merhamet genişliğini ikinci kelimede kalıcı ve işleyen bir iyilik niteliğiyle inceltir; tekrar bu yüzden boş yineleme olarak kalmaz.",
+      "epistemic": {
+        "status": "grounded",
+        "source_trust": [
+          "trusted"
+        ],
+        "reason": "Aynı kökün yakın tekrarı ve biçim farkı, genişlik ile işleyen süreklilik arasındaki yerel ayrımı destekliyor."
+      },
+      "draft_prose": "Aynı anlam ailesinin tekrarı, ilk merhamet genişliğini ikinci kelimede kalıcı ve işleyen bir iyilik niteliğiyle inceltir; tekrar bu yüzden boş yineleme olarak kalmaz.",
+      "support_ids": [
+        "sup_5a2186ca53d4a45fa108",
+        "sup_696cad80b84a282418b4"
+      ],
+      "branch_activations": [],
+      "connection_refs": [],
+      "context_refs": [
+        "1:2",
+        "1:3",
+        "9:128"
+      ]
+    },
+    {
+      "finding_ref": "global:shareable-mercy-form-bounded",
+      "origin_candidate_id": "cand_69fbec494e02bcd3e720",
+      "represented_candidate_ids": [],
+      "title": "Paylaşılabilir merhamet biçimi yerel ada bağlanır",
+      "claim": "Son merhamet biçimi başka bir merhamet edeni niteleyebilir; bu basmalada ise genitif bağlanma onu Allah adına sabitler.",
+      "mechanism": "Başka bir ayetteki insan merhameti kullanımı sıfatın paylaşılabilir alanını gösterirken, mevcut bağlanma ve gönderim bu biçimin burada ilahi epithet olarak kalmasını sağlar.",
+      "reader_payoff": "Okur, sıfatın kullanım alanının genişliğini ve bu cümlede özel ada bağlı kalışını aynı anda görür.",
+      "containment": "Başka bir merhamet edeni niteleyebilme, bu basmaladaki ilahi gönderimi değiştirmez ve iki kullanımı tek bir özneye zorla eşitlemez.",
+      "prose_statement": "Son merhamet biçiminin başka bir merhamet edeni niteleyebilmesi, sıfatın paylaşılabilir bir kullanım alanı taşıdığını gösterir; bu basmalada bağlandığı özel ad ise gönderimi Allah'ta sabitler.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": [
+          "trusted"
+        ],
+        "reason": "9:128 karşılaştırması sıfatın paylaşılabilirliğini gösteriyor, fakat yerel ilahi bağlanma kapsamı açıkça daraltıyor."
+      },
+      "draft_prose": "Son merhamet biçiminin başka bir merhamet edeni niteleyebilmesi, sıfatın paylaşılabilir bir kullanım alanı taşıdığını gösterir; bu basmalada bağlandığı özel ad ise gönderimi Allah'ta sabitler.",
+      "support_ids": [
+        "sup_59953667b2f192780589",
+        "sup_696cad80b84a282418b4"
+      ],
+      "branch_activations": [],
+      "connection_refs": [],
+      "context_refs": [
+        "1:2",
+        "1:3",
+        "9:128"
+      ]
+    },
+    {
+      "finding_ref": "global:enacted-mercy-final-landing",
+      "origin_candidate_id": "cand_e74130c63d851de1a020",
+      "represented_candidate_ids": [],
+      "title": "Son epithet işleyen merhamete iner",
+      "claim": "Basmala'nın son kelimesi merhamet alanını kalıcı ve fiilen ulaşan bir iyilik niteliğinde toplar.",
+      "mechanism": "Son konum, ikinci biçimin belirleyici sıfat işlevi ve kapanış sesi genişleyen merhamet alanını yerleşmiş bir sonuca indirir.",
+      "reader_payoff": "Okur, basmalanın sonunu yalnız tekrar değil, merhametin belirgin bir eyleyici niteliğe vardığı bir iniş olarak duyar.",
+      "containment": "Bu iniş ilk merhametin genişliğini ortadan kaldırmaz; kapanışta belirginleşen niteliği onun üzerine ekler.",
+      "prose_statement": "Basmala'nın son kelimesi merhamet alanını kalıcı ve fiilen ulaşan bir iyilik niteliğinde toplar; okuyuş genişleyen başlangıçtan yerleşmiş bir sonuca iner.",
+      "epistemic": {
+        "status": "grounded",
+        "source_trust": [
+          "trusted"
+        ],
+        "reason": "Son epithetin biçimi, konumu ve doğrudan morfoloji satırları kalıcı işleyen merhamet kapanışını destekliyor."
+      },
+      "draft_prose": "Basmala'nın son kelimesi merhamet alanını kalıcı ve fiilen ulaşan bir iyilik niteliğinde toplar; okuyuş genişleyen başlangıçtan yerleşmiş bir sonuca iner.",
+      "support_ids": [
+        "sup_5a43ccd2baac6c45ad04",
+        "sup_696cad80b84a282418b4"
+      ],
+      "branch_activations": [],
+      "connection_refs": [],
+      "context_refs": [
+        "1:2",
+        "1:3",
+        "9:128"
+      ]
+    },
+    {
+      "finding_ref": "global:variant-pause-closure",
+      "origin_candidate_id": "cand_d37a7bc52f828cc7df3e",
+      "represented_candidate_ids": [],
+      "title": "Durak varyantı kapanış baskısını açığa çıkarır",
+      "claim": "Durak ve durum eklerine ilişkin farklı ihtimaller son epithet'in cümleyle köprüleşebileceğini gösterirken, yerel genitif kapanış son bağlantıyı korur.",
+      "mechanism": "Raporlanan okuyuş ve durak ihtimalleri son kelimenin sonraki hamde açılabilecek bir baskı taşıdığını gösterir; mevcut durum eki formülü yerel olarak kapatır.",
+      "reader_payoff": "Okur, kapanışın hem bir son hem de sonraki cümleye açılan bir ses eşiği taşıdığını fark eder.",
+      "containment": "Varyant ve durak baskısı yerel genitif okumayı değiştirmez; sonraki cümleyi bu epithet'in tamamlayıcısı ilan etmez.",
+      "prose_statement": "Durak ve durum eklerine ilişkin farklı ihtimaller, son sıfatın cümleyle nasıl köprüleşebileceğini gösterir; yerel genitif kapanış formülün son bağlantısını korur.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": [
+          "trusted"
+        ],
+        "reason": "Aparatüs kanıtı köprüleşme baskısını taşıyor, fakat destek yerel genitif kapanışın üstün geldiğini açıkça belirtiyor."
+      },
+      "draft_prose": "Durak ve durum eklerine ilişkin farklı ihtimaller, son sıfatın cümleyle nasıl köprüleşebileceğini gösterir; yerel genitif kapanış formülün son bağlantısını korur.",
+      "support_ids": [
+        "sup_696cad80b84a282418b4",
+        "sup_f5a6078ed810bdf095da"
+      ],
+      "branch_activations": [],
+      "connection_refs": [],
+      "context_refs": [
+        "1:2",
+        "1:3",
+        "9:128"
+      ]
+    },
+    {
+      "finding_ref": "global:governing-designation-frame",
+      "origin_candidate_id": "cand_basmala_1ea05fc79f88cd5284d5",
+      "represented_candidate_ids": [],
+      "title": "Adlandırma sonraki anlatıya yetki çerçevesi verir",
+      "claim": "Basmala, Allah'ın adını anarak sonraki sınama ve hesap verme sahnelerini hangi yetki altında okuyacağımızı baştan belirleyen bir yönlendirici çerçeve kurar.",
+      "mechanism": "İsim ve Allah'ın özel adı arasındaki focus içi ilişki, sonraki söz-eylem sınaması ile adlandırma dönüşleri tarafından genişletilir; ad artık yalnız başlangıç formülü değil, okuma merciini belirleyen bir giriş eylemidir.",
+      "reader_payoff": "Okur, sonraki anlatının sözlerini ve eylemlerini başıboş olaylar olarak değil, başta adı anılan merciin önünde anlam kazanan sahneler olarak okumaya başlar.",
+      "containment": "Bu bir bağlamdan çıkarılan yetki ve hesap verebilirlik çerçevesidir; basmalayı surenin bütün anlamına veya tek bir nihai teze dönüştürmez.",
+      "prose_statement": "Basmala, Allah'ın adını anarak sonraki sınama ve hesaplaşma sahnelerini hangi yetki altında okuyacağımızı baştan belirleyen bir yönlendirici çerçeve kurar.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": [
+          "canonical_bundle_hash_bound"
+        ],
+        "reason": "Bağlam yürüyüşleri ve çapraz-koşu bulguları somut dönüşleri veriyor; bunların yetki çerçevesine bağlanması açıkça çıkarımsal bir global okumadır."
+      },
+      "draft_prose": "İsim, bir varlığı tanıtan söz olarak Allah'ın özel adına bağlanır ve açılıştaki eylemi belirli bir mercie yöneltir. Adın anılmayı yükseltip onu belirgin kıldığını söyleyen açıklama, sonraki söz ve eylem sınamasının önüne yerleşen bir yetki çerçevesi kurar. Allah lafzının yalnız Yaratıcıyı ayıran özel ad oluşu, ilerideki işitme, bilme ve karşılaşma ifadelerinin merciini tek bir odağa toplar. Basmala, Allah'ın adını anarak sonraki sınama ve hesaplaşma sahnelerini hangi yetki altında okuyacağımızı baştan belirleyen bir yönlendirici çerçeve kurar.",
       "support_ids": [
         "sup_basmala_b9fdfc10b909918af5b8"
       ],
-      "branch_refs": [
-        "root_000745/B005",
-        "root_000047/B002"
+      "branch_activations": [
+        {
+          "branch_ref": "root_000745/B005",
+          "facet_id": "F001",
+          "branch_gloss": "ad, adlandırma ve ad ya da nitelik bakımından denklik",
+          "facet_statement": "Ad, bir varlığı tanıtan ve ondan söz etmeyi sağlayan söz veya anlamdır.",
+          "application_mode": "intrinsic_cross_root",
+          "carrier_refs": [
+            "1:1:1:2"
+          ],
+          "trigger_refs": [
+            "1:1:2:1",
+            "29:53"
+          ],
+          "focus_return_refs": [
+            "1:1:1"
+          ],
+          "carrier": "Basmala içindeki isim, bir varlığı tanıtan ve ondan söz etmeyi sağlayan ad anlamını taşır.",
+          "independent_trigger": "Allah'ın özel adı ve daha sonra belirlenmiş adlandırmaya dönen bağlam, ismin gösterdiği mercii somutlaştırır.",
+          "activation": "İsim ile Allah'ın özel adı arasındaki bağ, 'adıyla' sözünü soyut bir başlık olmaktan çıkarıp yetkiyi belirli bir varlığa yönelten bir açılış eylemine dönüştürür.",
+          "resulting_reading": "Basmala'nın başlangıcı, sonraki anlatının adlandırılmış ve belirli bir merci altında okunacağını bildirir.",
+          "boundary": "Bu temas, isim alanındaki bütün eş adlı kullanımları veya tek başına bir sure tezini etkin kılmaz.",
+          "prose_statement": "İsim, bir varlığı tanıtan söz olarak Allah'ın özel adına bağlanır ve açılıştaki eylemi belirli bir mercie yöneltir."
+        },
+        {
+          "branch_ref": "root_000745/B005",
+          "facet_id": "F005",
+          "branch_gloss": "ad, adlandırma ve ad ya da nitelik bakımından denklik",
+          "facet_statement": "Kaynaklar adın kökenini, adı verilen şeyin anılmasını yükseltmesi ve onu belirgin kılmasıyla açıklar.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "1:1:1:2"
+          ],
+          "trigger_refs": [
+            "29:2",
+            "29:3",
+            "29:4",
+            "29:5",
+            "29:6",
+            "29:51",
+            "29:53"
+          ],
+          "focus_return_refs": [
+            "1:1:1"
+          ],
+          "carrier": "Basmala'daki isim, anılmayı sağlayan ve gösterdiği şeyi belirginleştiren ad olarak işler.",
+          "independent_trigger": "Sonraki sahnelerde sözlerin sınanması, ilahi işitme ve bilme, kitabın merhamet ve hatırlatma olarak anılması ve belirlenmiş karşılaşma teması görünür.",
+          "activation": "İsmin anılmayı yükselten ve belirginleştiren yönü, açılıştaki adlandırmayı sonraki iddiaların ölçüldüğü bir eşik olarak duyurur.",
+          "resulting_reading": "Adıyla başlamak, sonraki anlatıya yön veren bir hesap verebilirlik ve yetki çerçevesi kurar.",
+          "boundary": "Bu bağlam, adın bütün yükselme ve görünüş dallarını veya surenin tek tezini söz konusu etmez.",
+          "prose_statement": "Adın anılmayı yükseltip onu belirgin kıldığını söyleyen açıklama, sonraki söz ve eylem sınamasının önüne yerleşen bir yetki çerçevesi kurar."
+        },
+        {
+          "branch_ref": "root_000047/B002",
+          "facet_id": "F001",
+          "branch_gloss": "Yaratıcıya özgü ad ile seslenme ve ant biçimleri",
+          "facet_statement": "Dalın merkezinde, Yaratıcıyı başkalarından ayırarak gösteren ve yalnız ona özgü sayılan özel ad bulunur.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "1:1:2:1"
+          ],
+          "trigger_refs": [
+            "1:1:1:2",
+            "29:5",
+            "29:6"
+          ],
+          "focus_return_refs": [
+            "1:1:2"
+          ],
+          "carrier": "Allah lafzı, Yaratıcıyı başkalarından ayırarak gösteren ve yalnız ona özgü sayılan özel addır.",
+          "independent_trigger": "Basmala'daki isim ilişkisi ile ilerideki işitme, bilme ve belirlenmiş karşılaşma ifadeleri tek bir ilahi merciyi öne çıkarır.",
+          "activation": "Allah lafzının yalnız Yaratıcıyı ayıran özel ad oluşu, ilerideki işitme, bilme ve karşılaşma ifadelerinin merciini tek bir odağa toplar.",
+          "resulting_reading": "Başlangıçtaki ad, sonraki söz ve eylem sahnelerinin yetkisini belirli bir ilahi odağa bağlar.",
+          "boundary": "Bu okuma özel adın yetki işlevini taşır; seslenme, ant ve kısalmış kalıp kullanımlarını bu yüzeye aktarmaz.",
+          "prose_statement": "Allah lafzının yalnız Yaratıcıyı ayıran özel ad oluşu, ilerideki işitme, bilme ve karşılaşma ifadelerinin merciini tek bir odağa toplar."
+        }
       ],
       "connection_refs": [],
       "context_refs": [
@@ -46,25 +1500,111 @@
         "29:4",
         "29:5",
         "29:6",
+        "29:51",
         "29:53"
       ]
     },
     {
-      "finding_ref": "global:merhamet-sinama-zemini",
-      "title": "Merhametin sınamayı çevreleyen zemini",
-      "claim": "Başlangıçtaki iki merhamet nitelemesi, daha geniş dizideki sınamayı ilahî terk ediliş olarak değil, açığa çıkaran ve düzelten bir ilişki içinde okumaya elverişli bir zemin kurar; merhamet burada sınamanın bildirilen sebebi değil, onun okunuşunu çevreleyen çerçevedir.",
-      "mechanism": "29:2-3'te sınama fiilinin tekrarı ve 29:5-6'da belirlenmiş buluşma ile çabanın Allah'ın işitmesi, bilmesi ve kendine yeter oluşu içinde anılması, focus ayetindeki merhamet kökünü sonraki açığa çıkma hareketine bağlar. 29:51'de merhametin sürekli okunan bir kitapta işleyen bir hitap biçimi olarak görünmesi, bu başlangıç zeminine daha sonraki bir taşıyıcı da verir.",
-      "reader_payoff": "Okur, sınanmayı otomatik olarak ilahî terk ediliş diye okumak zorunda kalmaz; iddianın açığa çıkması ve biçimlenmesi, eşikte duyulan merhametle birlikte düşünülebilir.",
-      "containment": "Bu bulgu, 'Merhameti sınırsız, merhamet eden Allah'ın adıyla' sözündeki birincil merhamet bildirimini taşır ve ona geniş bağlamdan gelen bir ilişki çerçevesi ekler. Paket merhametin sınamaya neden olduğunu söylemediği için nedensellik kurulmaz; alışılmadık kök ve bağlam yankıları, açık merhamet okumasını bastırmadan ihtiyatla tutulur.",
-      "epistemic_status": "Paket içindeki zayıf çapraz-run bulgusu ile geniş okuyuşun verdiği bağlardan çıkarılan, nedensellik iddiası taşımayan ihtiyatlı bir rezonanstır.",
-      "candidate_ids": [
-        "cand_basmala_1ea05fc79f88cd5284d5"
-      ],
+      "finding_ref": "global:mercy-frame-for-assay",
+      "origin_candidate_id": null,
+      "represented_candidate_ids": [],
+      "title": "Çift merhamet sınamanın ilişkisel çerçevesini açar",
+      "claim": "Çift merhamet, daha sonra gelen sınamayı ilahi terk edişten çok insanı açığa çıkaran ve biçimlendiren bir iyilik ilişkisi içinde okumaya açar.",
+      "mechanism": "Merhamet sıfatlarının focus içindeki tekrarı, sonraki sınama ve çaba anlatılarıyla, ardından kitabın merhamet ve hatırlatma olarak anılmasıyla temas eder; bu temas merhameti sınamanın çevresindeki ilişki ve etkin sonuç olarak yeniden duymayı sağlar.",
+      "reader_payoff": "Okur, sınanmanın yalnız ayıran bir işlem olmadığını, görme, açığa çıkarma ve iyiliğe yöneltme imkânını da taşıdığını fark eder.",
+      "containment": "Bu bağlamsal çerçeve sınamanın bütün sonuçlarını olumlu ilan etmez; merhameti terk edişin alternatifi olarak korur ama yerel basmalanın iki sıfatlı yapısını silmez.",
+      "prose_statement": "Çift merhamet, daha sonra gelen sınamayı ilahi terk edişten çok insanı açığa çıkaran ve biçimlendiren bir iyilik ilişkisi içinde okumaya açar.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": [
+          "canonical_bundle_hash_bound"
+        ],
+        "reason": "İzinli bağlam yürüyüşü merhamet ile sınama ve kitap dönüşlerini birlikte veriyor; bunların ilişkisel çerçeveye bağlanması writer inference olarak tutuluyor."
+      },
+      "draft_prose": "Merhamet sözcükleri, sonraki sınama sözleriyle temas ettiğinde başkasının durumuna yumuşayan ve ona içten yakınlık duyan bir yakınlık olarak hissedilir. Aynı temas merhameti yalnız içte kalan bir duygu değil, sınananı esirgeyip iyiliğe yönelten etkin bir sonuç olarak gösterir. Allah'a bağlı merhamet, kitabın daha sonra merhamet ve hatırlatma diye anılmasıyla yaratılmışlara ulaşan geniş bir esirgeme olarak belirginleşir. Çift merhamet, daha sonra gelen sınamayı ilahi terk edişten çok insanı açığa çıkaran ve biçimlendiren bir iyilik ilişkisi içinde okumaya açar.",
       "support_ids": [
         "sup_basmala_b9fdfc10b909918af5b8"
       ],
-      "branch_refs": [
-        "root_000552/B001"
+      "branch_activations": [
+        {
+          "branch_ref": "root_000552/B001",
+          "facet_id": "F001",
+          "branch_gloss": "acıma duygusuyla esirgeyip iyilik etme",
+          "facet_statement": "Bir başkasının durumu karşısında yüreğin yumuşaması, ona acıma ve içten yakınlık duyma çekirdeği oluşturur.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "1:1:3:2",
+            "1:1:4:2"
+          ],
+          "trigger_refs": [
+            "29:2",
+            "29:3",
+            "29:5",
+            "29:6"
+          ],
+          "focus_return_refs": [
+            "1:1:3",
+            "1:1:4"
+          ],
+          "carrier": "İki merhamet sıfatı, başkasına karşı yüreğin yumuşaması ve içten yakınlık duyma çekirdeğini taşır.",
+          "independent_trigger": "Sonraki ayetlerde sınanma, çabanın açığa çıkması, işitme ve bilme ilişkileri belirir.",
+          "activation": "Merhamet sözcükleri, sonraki sınama sözleriyle temas ettiğinde başkasının durumuna yumuşayan ve ona içten yakınlık duyan bir yakınlık olarak hissedilir.",
+          "resulting_reading": "Sınama, okurun zihninde duyarsız bir eleme değil, insanı gören bir ilişki içinde gerçekleşen açığa çıkış olarak belirir.",
+          "boundary": "Bu temas, sınamanın her sonucunu otomatik olarak iyi ilan etmez ve merhamet sözünü yalnız insani duyguya indirgemez.",
+          "prose_statement": "Merhamet sözcükleri, sonraki sınama sözleriyle temas ettiğinde başkasının durumuna yumuşayan ve ona içten yakınlık duyan bir yakınlık olarak hissedilir."
+        },
+        {
+          "branch_ref": "root_000552/B001",
+          "facet_id": "F002",
+          "branch_gloss": "acıma duygusuyla esirgeyip iyilik etme",
+          "facet_statement": "Bu iç yöneliş, acınan kişiyi esirgemeyi ve ona iyilikte bulunmayı gerektiren etkin bir sonuç taşır.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "1:1:3:2",
+            "1:1:4:2"
+          ],
+          "trigger_refs": [
+            "29:2",
+            "29:3",
+            "29:5",
+            "29:6"
+          ],
+          "focus_return_refs": [
+            "1:1:3",
+            "1:1:4"
+          ],
+          "carrier": "Merhamet, içten yönelişin acınanı esirgemeye ve ona iyilikte bulunmaya uzanan etkin sonucunu taşır.",
+          "independent_trigger": "Sınanma ve çaba sahneleriyle birlikte ilahi işitme, bilme ve kişinin kendi uğraşına dönen sorumluluk ilişkisi görünür.",
+          "activation": "Aynı temas merhameti yalnız içte kalan bir duygu değil, sınananı esirgeyip iyiliğe yönelten etkin bir sonuç olarak gösterir.",
+          "resulting_reading": "Açığa çıkarma eylemi, düzeltme ve iyiliğe yönelme ihtimalini taşıyan etkin bir ilişki olarak okunur.",
+          "boundary": "Bu okuma her sınamanın sonucunu peşinen kurtuluş saymaz; yalnız merhametin eylemli sonuç basıncını korur.",
+          "prose_statement": "Aynı temas merhameti yalnız içte kalan bir duygu değil, sınananı esirgeyip iyiliğe yönelten etkin bir sonuç olarak gösterir."
+        },
+        {
+          "branch_ref": "root_000552/B001",
+          "facet_id": "F005",
+          "branch_gloss": "acıma duygusuyla esirgeyip iyilik etme",
+          "facet_statement": "Tanrı hakkında kullanıldığında esirgemenin genişliği ve yaratılmışlara iyilik olarak ulaşması belirginleşir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "1:1:3:2",
+            "1:1:4:2"
+          ],
+          "trigger_refs": [
+            "1:1:2:1",
+            "29:51"
+          ],
+          "focus_return_refs": [
+            "1:1:3",
+            "1:1:4"
+          ],
+          "carrier": "Allah'a bağlanan merhamet sıfatları, yaratılmışlara ulaşan geniş bir esirgeme ve iyilik ufku taşır.",
+          "independent_trigger": "Allah adıyla birlikte kitabın daha sonra merhamet ve hatırlatma olarak anılması, merhametin yalnız soyut bir nitelik olmadığını gösterir.",
+          "activation": "Allah'a bağlı merhamet, kitabın daha sonra merhamet ve hatırlatma diye anılmasıyla yaratılmışlara ulaşan geniş bir esirgeme olarak belirginleşir.",
+          "resulting_reading": "Basmala'nın merhameti, sonraki hitabın insanı görüp düzelten ve iyiliğe ulaştıran ortamı olarak genişler.",
+          "boundary": "Bu genişlik, kitabın kendisini Allah'la özdeşleştirmez ve yerel sıfat bağlanmasını değiştirmez.",
+          "prose_statement": "Allah'a bağlı merhamet, kitabın daha sonra merhamet ve hatırlatma diye anılmasıyla yaratılmışlara ulaşan geniş bir esirgeme olarak belirginleşir."
+        }
       ],
       "connection_refs": [],
       "context_refs": [
@@ -76,23 +1616,9 @@
       ]
     }
   ],
-  "movements": [
-    {
-      "movement_key": "ad-yetki-cercevesi",
-      "draft_prose": "Merhameti sınırsız, merhamet eden Allah'ın adıyla. Bu sözde ad, yalnızca başlangıçta anılan bir isim olarak kalmaz. Sözün hemen ardından insanın söyledikleri sınanıp yaptıklarıyla açığa çıktığında, başlangıçtaki adlandırma bütün bu yürüyüşün hangi yetki altında okunacağını belirleyen yüksek bir başlık gibi duyulur. Böylece basmala, ilerideki iddia ve eylemleri kendi başına sahiplenmez; onları Allah'ın adıyla sorumluluk alanına yerleştirir. Daha sonra belirlenmiş bir adlandırmanın yeniden görünmesi de bu yankıyı güçlendirir: ad vermek, yalnızca anmak değil, sözün ve eylemin sınırını görünür kılmak anlamına gelebilir. Bu, ayetin açıkça söylediği tek anlamın yerine geçen bir hüküm değil, başlangıçtaki yerleşimle geniş bağlamın birlikte açtığı sınırlı bir imkandır.",
-      "finding_refs": [
-        "global:ad-yetki-cercevesi"
-      ]
-    },
-    {
-      "movement_key": "merhamet-sinama-zemini",
-      "draft_prose": "Merhameti sınırsız, merhamet eden Allah'ın adıyla sözü, eşiğe iki merhamet niteliği yerleştirir. Sonraki akışta sınanmanın tekrarlanması, belirlenmiş buluşmanın ve çabanın ilahî işitme, bilme ve kendine yeter oluşla birlikte anılması, bu merhameti sınamanın karşısına dikilen bir duygu değil, sınamanın nasıl okunacağını çevreleyen bir ilişki olarak geri getirir. Sınanma böylece ilahî terk ediliş olarak değil, iddianın açığa çıkması ve düzelmeye yönelmesiyle birlikte düşünülebilir; yine de merhametin sınamaya sebep olduğu söylenmez. Daha ileride merhametin sürekli okunan kitapta işleyen bir hitap biçimine dönüşmesi, eşikteki iki niteliğin yalnızca duygusal bir önsöz değil, düzeltici açıklığın taşıyıcı zemini olabileceğini hissettirir.",
-      "finding_refs": [
-        "global:merhamet-sinama-zemini"
-      ]
-    }
-  ],
   "friction_notes": [
-    "Bu prefatory birimde yerel HFT, inter-ayah ve ayrı bağlantı kayıtları uygulanabilir değildir; geniş okumalar yalnızca aynı destek demetindeki çapraz-run ve okuyucu yürüyüşünün verdiği tetikleyicilerle sınırlı tutuldu."
+    "Prefatory basmala birimi için HFT, inter-ayah ve native pericope protokolleri paket tarafından uygulanamaz olarak işaretlenmiştir; bu nedenle global keşif yalnızca paket içindeki reader walk, çapraz-koşu yayını ve hedef sure bağlamına dayanır.",
+    "Bağlam ayetleri lean root/QAC kayıtlarıyla değil, izinli global destek payload'ındaki okuyucu yürüyüşleri ve tam ayet referanslarıyla sunulmuştur; bu yüzden etkinleştirilen global dallarda taşıyıcı focus kelimesi korunmuş, bağlam yalnız bağımsız tetikleyici olarak kullanılmıştır.",
+    "Paket dışındaki channel_generated_outputs dosyaları yalnız manifest olarak verilmiştir ve okunmamıştır; kanıtlanmış kanal adı, olgunluk veya dış dosya ayrıntısı çıkarılmamıştır."
   ]
 }
