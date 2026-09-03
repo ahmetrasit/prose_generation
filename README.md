@@ -69,7 +69,7 @@ shown connecting. When secondary resonances cohere, the prose states the
 resulting local surprise clearly: what it makes newly visible and whether it
 supports the primary reading or shifts its frame.
 
-Layer 2 does not select among activated readings. Active V4 preparation derives
+Layer 2 does not select among activated readings. Active V5 preparation derives
 its focus packets from the full canonical `build_bundle.py` output and projects
 every non-focus context member to one uniform lean depth. When an existing
 candidate's branch-specific trace cites an unresolved branch in exact context
@@ -133,7 +133,7 @@ STATUS.md             per-surah coverage
 docs/                 sources, available data, channels, open questions
 scripts/              base builder, pre-L2 branch tierer, and instantiators
 bundles/              generated base and tiered commentary input bundles
-_commentary/v4/       active Git-native Layer-2 orchestration and outputs
+_commentary/v5/       active Git-native Layer-2 orchestration and outputs
 _translation/         layer 1 — the spine
 _ayah_commentary/v2/  active layer 2 — function and resonance, per ayah
 _channel/layer3/      active layer 3 — surah-wide resonance systems
@@ -158,10 +158,11 @@ they are planned, not because they exist.
 - Running ayah commentary Layer 2: the governing prose prompt remains
   [`_ayah_commentary/v2/PROMPT.md`](_ayah_commentary/v2/PROMPT.md), while the
   active multi-agent runbook is
-  [`_commentary/v4/ORCHESTRATION.md`](_commentary/v4/ORCHESTRATION.md). V4 uses
+  [`_commentary/v5/ORCHESTRATION.md`](_commentary/v5/ORCHESTRATION.md). V5 uses
   separate package/member bundle roots and three analysis-namespaced artifact
-  roots, supports parallel one-pass scope authors and explicit external context,
-  and has no automatic repair cycle. [`scripts/README.md`](scripts/README.md)
+  roots, runs parallel discovery plus planned composition turns for each scope,
+  supports explicit external context, and has no automatic repair cycle.
+  [`scripts/README.md`](scripts/README.md)
   documents base and pericope bundle construction.
 - Running surah commentary Layer 3:
   [`_channel/layer3/ORCHESTRATION.md`](_channel/layer3/ORCHESTRATION.md).

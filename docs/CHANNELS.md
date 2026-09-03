@@ -178,8 +178,8 @@ Layer 3 then performs three separate semantic passes:
 - blind discovery of possible cross-ayah recognitions;
 - review into channel briefs, with stable hinges, claim policies, and complete
   accounting for every discovery hypothesis and local resonance;
-- composition into a prose envelope whose evidence map proves that every
-  admitted channel and hinge landed in reader-visible language.
+- composition into a prose envelope whose evidence map mechanically maps every
+  admitted channel and hinge to reader-visible language.
 
 This is not disambiguation. Review decides whether something qualifies as a
 surah-wide channel, but admitted channels are not ranked and incompatible

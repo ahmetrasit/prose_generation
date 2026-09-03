@@ -629,12 +629,15 @@ class PromptTests(unittest.TestCase):
         self.assertIn("@@CANONICAL_PROMPT_V2@@", prompt)
         self.assertNotIn("scope-review-v2", prompt)
 
-    def test_governing_spec_matches_active_lane_and_workflow_contract(self) -> None:
+    def test_governing_spec_supersedes_historical_v4_contract(self) -> None:
         spec = (workflow.REPO_ROOT / "COMMENTARY_SPEC.md").read_text(
             encoding="utf-8"
         )
         self.assertIn("adds the host surah's `S:0` bundle once to macro", spec)
-        self.assertIn("one-pass micro, macro, and", spec)
+        self.assertIn("separating each of the", spec)
+        self.assertIn("planned composition", spec)
+        self.assertIn("follow-up to the same agent", spec)
+        self.assertNotIn("one-pass micro, macro, and", spec)
         self.assertNotIn("enter all three lanes", spec)
         self.assertNotIn("prompts and editorial instructions remain the V3 prompts", spec)
 

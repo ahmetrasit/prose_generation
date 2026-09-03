@@ -5,7 +5,7 @@ Shared tooling for the two commentary levels. Layer 1 has its own builder under
 
 ## build_bundle.py
 
-Assembles the full, auditable base bundle. Active V4 derives focus packets from
+Assembles the full, auditable base bundle. Active V5 derives focus packets from
 this canonical source and makes its own lean non-focus context projection. The
 legacy direct-instantiation path uses `tier_branch_payloads.py` first. Governed
 by `COMMENTARY_SPEC.md` §6; sources, formats, and gotchas in `docs/SOURCES.md`;
@@ -128,15 +128,19 @@ span, input-index hash, builder hashes, canonical bundle hashes, and policy.
 Generation fails if the output directory contains stale extra ayah files or a
 bundle whose identity/pericope metadata disagrees with the package. It emits no
 surah aggregate and no `S:0` unit in the
-pericope root. For v4, use that pericope directory as `--context-bundles-dir`
+pericope root. For V5, use that pericope directory as `--context-bundles-dir`
 and pass external/out-of-pericope units, including prefatory basmala, through a
 separate `--member-bundles-dir`. Declare every explicit external context unit
 with repeatable comma-separated `--add-ayat` refs; ranges and implicit external
 focuses are not accepted.
 
 The complete prerequisite, package-selection, and agent-handoff sequence is in
-`_commentary/v4/ORCHESTRATION.md`; use its cold-start preflight before beginning
-a v4 unit.
+`_commentary/v5/ORCHESTRATION.md`; use its cold-start preflight before beginning
+a V5 unit. Existing `pericope-bundle-manifest-v2` files may retain the
+historical policy key `v4_context_projection`; validation accepts it only with
+the exact pinned path, bytes, and digest of the committed historical package
+manifest. Newly generated manifests use the workflow-neutral
+`commentary_context_projection` policy key.
 
 Run without `--ayah`, it also emits `{surah}.surah.json`, which references the
 ayah bundle filenames rather than duplicating them and carries surah-scope
@@ -191,12 +195,12 @@ labelled as a staged `stage_00` / `stage_01` transcript.
 
 The base bundle deliberately carries the packet identity/window summary and
 complete reader responses rather than duplicating the large upstream HFT input
-packet. When the unit is itself the focus, V4 reuses its bundled HFT reader
+packet. When the unit is itself the focus, V5 reuses its bundled HFT reader
 evidence through the V3 focus projection. When the unit is selected only as
-context, V4 does not import that HFT run or any other standalone-focus product.
+context, V5 does not import that HFT run or any other standalone-focus product.
 It derives one lean ayah/root-occurrence record and compact mapped branch-image
 cues. If an already-supplied candidate's branch-specific trace cites an
-unresolved branch in exact context units, V4 may additionally project only the
+unresolved branch in exact context units, V5 may additionally project only the
 cited branch's semantic descriptor and aggregate its matching occurrences. The
 branch refs affect lane routing before hydration, and each candidate retains its
 own context-source-to-carrier binding when a branch is shared. Each

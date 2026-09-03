@@ -3,7 +3,8 @@
 
 This is a wrapper around scripts/build_bundle.py's span mode. It keeps the
 lower-level whole-surah/ayah builder unchanged while emitting a pericope
-package root that v4 can consume with --context-bundles-dir.
+package root that the active commentary workflow can consume with
+--context-bundles-dir.
 """
 
 from __future__ import annotations

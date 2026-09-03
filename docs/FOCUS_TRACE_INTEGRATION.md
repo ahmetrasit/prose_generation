@@ -1,7 +1,7 @@
 # Hermetic Focus Trace Integration
 
 > The tier/instantiate commands below document the retired direct Layer-2 path.
-> Active multi-agent work uses `_commentary/v4/ORCHESTRATION.md`: V4 reads the
+> Active multi-agent work uses `_commentary/v5/ORCHESTRATION.md`: V5 reads the
 > full canonical focus bundle and applies its own lean projection only to
 > non-focus context members.
 

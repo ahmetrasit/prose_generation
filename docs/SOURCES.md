@@ -3,7 +3,7 @@
 Paths, formats, and verified gotchas for every upstream source read by this
 repository. Shared contract for `_translation/v1/tools/build_bundle.py` (layer
 1), `scripts/build_bundle.py` (full commentary base bundles), and the legacy
-direct-instantiation `scripts/tier_branch_payloads.py` projection. Active V4
+direct-instantiation `scripts/tier_branch_payloads.py` projection. Active V5
 derives its own hash-bound focus and lean context packets from the full base
 bundles. A candidate-cited unresolved context branch may be hydrated only from
 the exact context refs bound to that candidate/branch pair. Matching occurrences

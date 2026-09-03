@@ -10,6 +10,22 @@ from typing import Any
 
 SCHEMA_VERSION = "pericope-bundle-manifest-v2"
 MAX_JSON_BYTES = 128_000_000
+LEGACY_V4_MANIFEST_RECORDS = {
+    (
+        "bundles/s029-pericopes/p03_028-044/pericope.bundle-manifest.json",
+        6492,
+        "f9be01183eb41907f474d7c3fec858d5bcfcea40f576944495ea8b5e6eceb154",
+    ): {
+        "builder": (
+            10740,
+            "2fa8433e9ae25c5c12a703c7893462d5b1d4f0d9efccb38afd5703392bf46d1a",
+        ),
+        "manifest_implementation": (
+            13235,
+            "53fb6e137fc9b89b2220e8dee86ae32dee8224dd39d0c8d21715b4466f351648",
+        ),
+    },
+}
 
 
 class PericopeManifestError(RuntimeError):
@@ -85,7 +101,7 @@ def _expected_refs(row: dict[str, Any]) -> list[str]:
     ]
 
 
-def generation_policy() -> dict[str, str]:
+def legacy_v4_generation_policy() -> dict[str, str]:
     return {
         "package_scope": "pericope",
         "in_pericope_units": "non_tiered_full_base_bundles",
@@ -105,6 +121,103 @@ def generation_policy() -> dict[str, str]:
             "compact mapped branch-image cues only"
         ),
     }
+
+
+def generation_policy() -> dict[str, str]:
+    return {
+        "package_scope": "pericope",
+        "in_pericope_units": "non_tiered_full_base_bundles",
+        "surah_aggregate": "not_emitted_for_pericope_roots",
+        "prefatory_basmala": (
+            "not emitted inside the pericope root; the consuming commentary "
+            "workflow injects S:0 from --member-bundles-dir when the numbered "
+            "focus's surah has a prefatory basmala"
+        ),
+        "external_or_out_of_pericope_units": (
+            "not generated here; pass a separate --member-bundles-dir and "
+            "declare context-only membership with --member-surah/--add-ayat"
+        ),
+        "commentary_context_projection": (
+            "full selected bundles remain hash-bound provenance sources; "
+            "agent-facing non-focus members use lean ayah/root occurrences and "
+            "compact mapped branch-image cues only"
+        ),
+    }
+
+
+def _verify_manifest_implementation(
+    record: Any,
+    *,
+    manifest_path: Path,
+    manifest_payload: bytes,
+    repo_root: Path,
+    expected: Path,
+) -> str:
+    if not isinstance(record, dict) or set(record) != {"path", "bytes", "sha256"}:
+        raise PericopeManifestError(
+            "Pericope manifest implementation record is malformed"
+        )
+    path_value = record.get("path")
+    if not isinstance(path_value, str) or resolve_path(path_value, repo_root) != (
+        expected.resolve(strict=False)
+    ):
+        raise PericopeManifestError(
+            "Pericope manifest implementation record names the wrong path"
+        )
+    current = file_record(expected, repo_root)
+    if record == current:
+        return "current"
+    legacy_manifest_identity = (
+        stable_path(manifest_path, repo_root),
+        len(manifest_payload),
+        hashlib.sha256(manifest_payload).hexdigest(),
+    )
+    legacy_records = LEGACY_V4_MANIFEST_RECORDS.get(legacy_manifest_identity)
+    allowed_legacy_implementation = (
+        legacy_records.get("manifest_implementation")
+        if legacy_records is not None
+        else None
+    )
+    legacy_identity = (record.get("bytes"), record.get("sha256"))
+    if (
+        allowed_legacy_implementation is not None
+        and legacy_identity == allowed_legacy_implementation
+    ):
+        return "legacy_v4"
+    raise PericopeManifestError(
+        "Pericope manifest implementation record is stale or unknown"
+    )
+
+
+def _verify_manifest_builder(
+    record: Any,
+    *,
+    manifest_path: Path,
+    manifest_payload: bytes,
+    repo_root: Path,
+    expected: Path,
+) -> None:
+    if not isinstance(record, dict) or set(record) != {"path", "bytes", "sha256"}:
+        raise PericopeManifestError("Pericope builder record is malformed")
+    path_value = record.get("path")
+    if not isinstance(path_value, str) or resolve_path(path_value, repo_root) != (
+        expected.resolve(strict=False)
+    ):
+        raise PericopeManifestError("Pericope builder record names the wrong path")
+    if record == file_record(expected, repo_root):
+        return
+    manifest_identity = (
+        stable_path(manifest_path, repo_root),
+        len(manifest_payload),
+        hashlib.sha256(manifest_payload).hexdigest(),
+    )
+    legacy_records = LEGACY_V4_MANIFEST_RECORDS.get(manifest_identity)
+    allowed_legacy_builder = (
+        legacy_records.get("builder") if legacy_records is not None else None
+    )
+    if (record.get("bytes"), record.get("sha256")) == allowed_legacy_builder:
+        return
+    raise PericopeManifestError("Pericope builder record is stale or unknown")
 
 
 def _validate_build_command(
@@ -306,15 +419,17 @@ def validate_manifest(
     out_dir = manifest_path.parent.resolve(strict=False)
     if manifest.get("output_dir") != stable_path(out_dir, repo_root):
         raise PericopeManifestError("Pericope manifest output_dir is stale")
-    verify_file_record(
+    _verify_manifest_builder(
         manifest.get("builder"),
-        label="pericope builder",
+        manifest_path=manifest_path,
+        manifest_payload=payload,
         repo_root=repo_root,
         expected=expected_builder,
     )
-    verify_file_record(
+    implementation_version = _verify_manifest_implementation(
         manifest.get("manifest_implementation"),
-        label="pericope manifest implementation",
+        manifest_path=manifest_path,
+        manifest_payload=payload,
         repo_root=repo_root,
         expected=expected_builder.parent / "pericope_bundle_manifest.py",
     )
@@ -347,7 +462,12 @@ def validate_manifest(
         repo_root=repo_root,
         expected_lower_level_builder=expected_lower_level_builder,
     )
-    if manifest.get("generation_policy") != generation_policy():
+    expected_policy = (
+        legacy_v4_generation_policy()
+        if implementation_version == "legacy_v4"
+        else generation_policy()
+    )
+    if manifest.get("generation_policy") != expected_policy:
         raise PericopeManifestError("Pericope manifest generation policy is stale")
 
     actual_records = generated_file_records(row, out_dir, repo_root)

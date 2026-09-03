@@ -2,6 +2,7 @@
 
 from __future__ import annotations
 
+import copy
 import json
 import tempfile
 import unittest
@@ -174,8 +175,104 @@ class PericopeBundleScriptTests(unittest.TestCase):
             "--member-bundles-dir",
             manifest["generation_policy"]["external_or_out_of_pericope_units"],
         )
+        self.assertIn(
+            "commentary_context_projection", manifest["generation_policy"]
+        )
+        self.assertNotIn("v4_context_projection", manifest["generation_policy"])
         self.assertIn("sha256", manifest["builder"])
         self.assertIn("canonical_sha256", manifest["ayah_bundle_files"][0])
+
+    def test_legacy_policy_is_accepted_only_for_pinned_historical_manifest(self) -> None:
+        historical_path = (
+            builder.REPO_ROOT
+            / "bundles"
+            / "s029-pericopes"
+            / "p03_028-044"
+            / "pericope.bundle-manifest.json"
+        )
+        historical_payload = historical_path.read_bytes()
+        historical = json.loads(historical_payload)
+        validated_historical = builder.package_manifest.validate_manifest(
+            historical_path,
+            repo_root=builder.REPO_ROOT,
+            expected_builder=builder.SCRIPT_PATH,
+            expected_lower_level_builder=(
+                builder.REPO_ROOT / "scripts" / "build_bundle.py"
+            ),
+        )
+        self.assertEqual(
+            validated_historical["ayah_refs"], historical["ayah_refs"]
+        )
+        self.assertEqual(
+            builder.package_manifest._verify_manifest_implementation(
+                historical["manifest_implementation"],
+                manifest_path=historical_path,
+                manifest_payload=historical_payload,
+                repo_root=builder.REPO_ROOT,
+                expected=(
+                    builder.REPO_ROOT / "scripts" / "pericope_bundle_manifest.py"
+                ),
+            ),
+            "legacy_v4",
+        )
+
+        row = {
+            "surah": 29,
+            "pericope": 1,
+            "ayah_from": 1,
+            "ayah_to": 1,
+            "label": "Opening",
+        }
+        validate_kwargs = {
+            "repo_root": builder.REPO_ROOT,
+            "expected_builder": builder.SCRIPT_PATH,
+            "expected_lower_level_builder": (
+                builder.REPO_ROOT / "scripts" / "build_bundle.py"
+            ),
+        }
+        with tempfile.TemporaryDirectory() as tmp:
+            out_dir = Path(tmp)
+            write_bundles(out_dir, row)
+            path = builder.write_manifest(
+                row,
+                out_dir,
+                command=builder.build_command(
+                    row,
+                    out_dir,
+                    exclude_focus_trace=False,
+                    focus_trace_variant=None,
+                ),
+                pericope_index=None,
+                source="cli-span",
+            )
+            current = json.loads(path.read_text(encoding="utf-8"))
+            legacy = copy.deepcopy(current)
+            legacy_records = next(iter(
+                builder.package_manifest.LEGACY_V4_MANIFEST_RECORDS.values()
+            ))
+            legacy_bytes, legacy_sha256 = legacy_records[
+                "manifest_implementation"
+            ]
+            legacy["manifest_implementation"].update({
+                "bytes": legacy_bytes,
+                "sha256": legacy_sha256,
+            })
+            legacy["generation_policy"] = (
+                builder.package_manifest.legacy_v4_generation_policy()
+            )
+            path.write_text(json.dumps(legacy), encoding="utf-8")
+            with self.assertRaisesRegex(
+                builder.package_manifest.PericopeManifestError,
+                "stale or unknown",
+            ):
+                builder.package_manifest.validate_manifest(path, **validate_kwargs)
+
+            legacy["manifest_implementation"] = current["manifest_implementation"]
+            path.write_text(json.dumps(legacy), encoding="utf-8")
+            with self.assertRaisesRegex(
+                builder.package_manifest.PericopeManifestError, "policy"
+            ):
+                builder.package_manifest.validate_manifest(path, **validate_kwargs)
 
     def test_generated_file_records_reject_identity_and_stale_extras(self) -> None:
         row = {
