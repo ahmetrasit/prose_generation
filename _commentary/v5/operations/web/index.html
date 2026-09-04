@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="color-scheme" content="light">
+    <title>V5 Commentary Operations</title>
+    <link rel="stylesheet" href="./styles.css">
+  </head>
+  <body>
+    <header class="topbar">
+      <div class="brand-block">
+        <p class="product-kicker">Kelimeden Kelama</p>
+        <h1>V5 Commentary Operations</h1>
+      </div>
+      <div class="connection-block">
+        <span id="connection-dot" class="connection-dot" aria-hidden="true"></span>
+        <span id="connection-label">Connecting</span>
+        <button id="sign-in" class="button secondary" type="button" hidden>Sign in</button>
+      </div>
+    </header>
+
+    <section class="commandbar" aria-label="Run and orchestration controls">
+      <label class="field compact-field">
+        <span>Run</span>
+        <input id="run-id" type="text" spellcheck="false" autocomplete="off">
+      </label>
+      <label class="field orchestrator-field">
+        <span>Orchestrator</span>
+        <select id="orchestrator-select"></select>
+      </label>
+      <button id="refresh" class="icon-button" type="button" title="Refresh now" aria-label="Refresh now">&#8635;</button>
+      <div class="segmented" aria-label="Requested orchestrator state">
+        <button id="resume" type="button">Resume</button>
+        <button id="pause" type="button">Pause</button>
+      </div>
+      <span id="control-note" class="control-note"></span>
+    </section>
+
+    <main>
+      <section class="metrics" aria-label="Run summary">
+        <div class="metric"><span>Ayat</span><strong id="metric-total">0</strong></div>
+        <div class="metric"><span>Pending</span><strong id="metric-pending">0</strong></div>
+        <div class="metric"><span>Active ayat</span><strong id="metric-active">0</strong></div>
+        <div class="metric"><span>Active agents</span><strong id="metric-agents">0</strong></div>
+        <div class="metric"><span>Completed</span><strong id="metric-completed">0</strong></div>
+        <div class="metric alert-metric"><span>Attention</span><strong id="metric-attention">0</strong></div>
+        <div class="metric"><span>Reruns</span><strong id="metric-reruns">0</strong></div>
+      </section>
+
+      <section id="attention-strip" class="attention-strip" hidden>
+        <div>
+          <strong id="attention-title">Attention required</strong>
+          <span id="attention-detail"></span>
+        </div>
+        <button id="show-attention" class="button secondary" type="button">Show only</button>
+      </section>
+
+      <div class="workspace">
+        <section class="queue" aria-labelledby="queue-heading">
+          <div class="section-toolbar">
+            <div>
+              <h2 id="queue-heading">Ayah queue</h2>
+              <p id="queue-caption">No tasks loaded</p>
+            </div>
+            <div class="filters">
+              <label class="search-field">
+                <span class="sr-only">Search ayat or agents</span>
+                <input id="search" type="search" placeholder="Search ayah or agent">
+              </label>
+              <label>
+                <span class="sr-only">Filter by status</span>
+                <select id="status-filter">
+                  <option value="all">All states</option>
+                  <option value="attention">Attention</option>
+                  <option value="active">Active</option>
+                  <option value="pending">Pending</option>
+                  <option value="completed">Completed</option>
+                </select>
+              </label>
+            </div>
+          </div>
+
+          <div class="table-wrap">
+            <table>
+              <thead>
+                <tr>
+                  <th>Ayah</th>
+                  <th>State</th>
+                  <th>Current step</th>
+                  <th>Agent</th>
+                  <th>Attempts</th>
+                  <th>Updated</th>
+                </tr>
+              </thead>
+              <tbody id="task-rows"></tbody>
+            </table>
+            <p id="empty-state" class="empty-state" hidden>No ayat match this view.</p>
+          </div>
+          <div class="pagination">
+            <button id="previous-page" class="icon-button" type="button" title="Previous page" aria-label="Previous page">&#8592;</button>
+            <span id="page-label">Page 1</span>
+            <button id="next-page" class="icon-button" type="button" title="Next page" aria-label="Next page">&#8594;</button>
+          </div>
+        </section>
+
+        <aside class="reader" aria-labelledby="reader-heading">
+          <div class="reader-heading-row">
+            <div>
+              <p class="reader-label">Markup reader</p>
+              <h2 id="reader-heading">Select an ayah</h2>
+            </div>
+            <button id="close-reader" class="icon-button mobile-only" type="button" title="Close reader" aria-label="Close reader">&#215;</button>
+          </div>
+          <div id="artifact-tabs" class="tabs" role="tablist" aria-label="Commentary artifacts"></div>
+          <div id="reader-meta" class="reader-meta">Choose a row to inspect its generated prose.</div>
+          <article id="reader-content" class="prose"></article>
+        </aside>
+      </div>
+    </main>
+
+    <template id="task-row-template">
+      <tr tabindex="0">
+        <td class="ayah-cell"></td>
+        <td><span class="status-badge"></span></td>
+        <td class="step-cell"></td>
+        <td class="agent-cell"></td>
+        <td class="attempt-cell"></td>
+        <td class="updated-cell"></td>
+      </tr>
+    </template>
+
+    <script type="module" src="./app.js"></script>
+  </body>
+</html>
+
