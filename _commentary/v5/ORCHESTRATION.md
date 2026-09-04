@@ -19,12 +19,69 @@ prepare
   -> close consolidator
 ```
 
-V5 has no post-launch orchestration gates. After `prepare`, do not run `advance`
+V5 has no post-launch analytical gates. After `prepare`, do not run `advance`
 or `verify`; they are not V5 commands. Do not create ledgers, manifests, hidden
-state directories, or audit files for V5 orchestration.
+state directories, or audit files for V5 orchestration. The only exception is
+`_commentary/v5/operations/runtime/`, which is monitor-owned operational state,
+ignored by Git, and never commentary evidence.
 
 All agent launches in this runbook must use the multiagent spawn tool. Do not
 launch V5 agents with `codex exec`, shell scripts, or ad hoc terminal sessions.
+
+## Operations Monitor
+
+Before preflight, start one operations monitor for this orchestrator and wait
+for a JSON result with `"status": "started"`:
+
+```bash
+V5_MONITOR_PASSCODE='<operator-supplied-passcode>' \
+python3 _commentary/v5/operations/monitor.py start \
+  --run-id <shared-run-id> \
+  --orchestrator-id <unique-orchestrator-id> \
+  --agent-id <orchestrator-agent-id> \
+  --analysis-id <analysis-id> \
+  --scope <scope-selector>
+```
+
+The passcode must be at least 12 characters. If the operator did not provide
+one in the orchestration request, ask for it before starting the monitor or
+launching agents. Use the passcode only in the environment of this `monitor.py
+start` command. Never write the plaintext passcode to a repository file,
+runtime event, agent launch message, final response, or commit. Scope agents and
+consolidators do not need the passcode.
+
+The Firebase project and Web API key are already configured as monitor defaults.
+Do not request, set, pass, or document Firebase credentials during ordinary V5
+orchestration. Do not deploy Firebase, create a daemon script, copy a monitor
+script, or add supervisor/queue/restart automation. The orchestrator runs the
+existing `_commentary/v5/operations/monitor.py` script.
+
+All machines participating in the same run use the same `run-id`. Each
+orchestrator uses an `orchestrator-id` that is unique across all participating
+machines and accounts. One monitor registration covers one `analysis-id`; repeat
+`--scope` when needed. Valid scope selectors are `S`, `S-T`, `S:A`, and
+`S:A-B`.
+
+The monitor writes local operational files under:
+
+```text
+_commentary/v5/operations/runtime/runs/<run-id>/orchestrators/<orchestrator-id>/registration.json
+_commentary/v5/operations/runtime/runs/<run-id>/orchestrators/<orchestrator-id>/events/sNNN/S_A/<task>.<attempt>.jsonl
+_commentary/v5/operations/runtime/monitors/<run-id>/<orchestrator-id>.log
+_commentary/v5/operations/runtime/monitors/<run-id>/<orchestrator-id>.pid
+_commentary/v5/operations/runtime/snapshot.json
+```
+
+For scope agents, `<task>` is `micro`, `macro`, or `global`; for the
+consolidator, `<task>` is `canonical`. These files are logs and dashboard state
+only. Do not read them as commentary evidence, do not use them as analytical
+state, and do not create any other tracking files. Do not ignore
+`_commentary/v5/operations/` or its subfolders in general: `monitor.py` and the
+operations docs are part of the orchestration tooling. Only `operations/runtime/`
+is disposable monitor runtime state.
+
+If monitor startup fails or does not return `"status": "started"`, do not launch
+analysis agents. Report the startup error to the operator.
 
 ## 1. Preflight
 
@@ -122,8 +179,26 @@ tool, one for each prompt. Every scope agent must be `gpt-5.6-luna` at `max`
 reasoning effort. Do not substitute another model, lower reasoning effort, or
 launch with `codex exec`.
 
-Give each agent only its prompt path and the instruction to follow that prompt.
-Keep the session open after its first response.
+The scope-agent launch message may contain only the prompt path, the instruction
+to follow it, and the start/terminal lifecycle command templates below. Do not
+pass the monitor passcode or Firebase details to a scope agent. Use the spawn
+task name as `--agent-id`; do not pass `--attempt`.
+
+Before analysis, each scope agent runs:
+
+```bash
+python3 _commentary/v5/operations/monitor.py event \
+  --run-id <shared-run-id> \
+  --orchestrator-id <unique-orchestrator-id> \
+  --ayah-ref <S:A> \
+  --role scope \
+  --lane <micro|macro|global> \
+  --agent-id <spawn-task-name> \
+  --status started
+```
+
+Keep the session open after its first response. The same scope agent must not
+append a terminal event after its first-turn nomination response.
 
 First turn: each scope agent nominates the findings/candidates that matter for
 its lane. It should decide supplied candidates and independently notice
@@ -156,7 +231,25 @@ global.scope.tr.md
 ```
 
 Do not edit the scope agents' files yourself. Once a scope agent has written its
-requested files, continue the workflow with the files it produced.
+requested scope prose file, it runs the same lifecycle command with one final
+session status:
+
+```bash
+python3 _commentary/v5/operations/monitor.py event \
+  --run-id <shared-run-id> \
+  --orchestrator-id <unique-orchestrator-id> \
+  --ayah-ref <S:A> \
+  --role scope \
+  --lane <micro|macro|global> \
+  --agent-id <spawn-task-name> \
+  --status <completed|failed|interrupted|attention>
+```
+
+Use `completed` only after the requested scope prose file exists. Use `failed`
+when required output could not be produced, `interrupted` when the lifecycle was
+interrupted, and `attention` when operator attention is needed. Treat that final
+event as the scope agent's lifecycle close. Continue the workflow with the files
+the scope agents produced.
 
 ## 4. Consolidation
 
@@ -165,7 +258,9 @@ fresh `gpt-5.6-luna` agent at `max` reasoning effort as the consolidator. This
 model and reasoning setting are mandatory for the consolidation and editorial
 agent: do not substitute another model, do not lower reasoning effort, and do
 not reuse a scope-agent session. Use `_commentary/v5/prompts/canonical.md` as
-the consolidation instruction template.
+the consolidation instruction template. Do not pass the monitor passcode or
+Firebase details to the consolidator. Use the spawn task name as `--agent-id`;
+do not pass `--attempt`.
 
 Fill that template manually before launching the agent:
 
@@ -186,17 +281,32 @@ The consolidator writes:
 _commentary/v5/raw/<analysis-id>/sNNN/S_A/S_A.prose.tr.md
 ```
 
+Before consolidation, the consolidator runs:
+
+```bash
+python3 _commentary/v5/operations/monitor.py event \
+  --run-id <shared-run-id> \
+  --orchestrator-id <unique-orchestrator-id> \
+  --ayah-ref <S:A> \
+  --role canonical \
+  --agent-id <spawn-task-name> \
+  --status started
+```
+
 Launch message:
 
 ```text
 You are the V5 consolidator for <S:A>. You are running as a fresh gpt-5.6-luna
 max agent.
 
+Before consolidation, run this lifecycle command:
+python3 _commentary/v5/operations/monitor.py event --run-id <shared-run-id> --orchestrator-id <unique-orchestrator-id> --ayah-ref <S:A> --role canonical --agent-id <spawn-task-name> --status started
+
 Read and follow this consolidation prompt exactly:
 <filled contents of _commentary/v5/prompts/canonical.md>
 
 Write only the requested first-pass prose file. Keep this conversation open for
-the editorial follow-up.
+the editorial follow-up. Do not append a terminal lifecycle event yet.
 ```
 
 The prose should be coherent Turkish, not a lane report or word-by-word
@@ -282,7 +392,14 @@ Write only the requested editorial prose file. Then run the validator command
 specified in the prompt yourself on that editorial prose file only. If it fails,
 repair only the reported mechanical prose-file issues and rerun it. Stop after
 the validator passes or after two repair/rerun cycles, whichever comes first.
-Report the final validator result in this conversation.
+Then run exactly one terminal lifecycle command:
+python3 _commentary/v5/operations/monitor.py event --run-id <shared-run-id> --orchestrator-id <unique-orchestrator-id> --ayah-ref <S:A> --role canonical --agent-id <spawn-task-name> --status <completed|failed|interrupted|attention>
+
+Use canonical completed only when the editorial validator passed. Use attention
+when the editorial prose exists but the validator is still nonzero after the two
+permitted repair/rerun cycles. Use failed when required output could not be
+produced and interrupted when the lifecycle was interrupted. Report the final
+validator result and lifecycle status in this conversation.
 ```
 
 After writing the editorial file, the same consolidator must run the mechanical
@@ -307,6 +424,12 @@ validator, and may do this at most two times. After two repair/rerun cycles,
 accept the editorial prose as it stands and report the remaining validator
 findings. Do not use validator failures to reopen evidence selection, add new
 findings, drop findings, or launch a separate repair agent.
+
+Do not add a separate validator agent, validator event, or per-step progress
+event. The consolidator has one `canonical started` event and one final
+`canonical completed`, `canonical failed`, `canonical interrupted`, or
+`canonical attention` event covering consolidation, editorial work, and the
+validator/repair cycle.
 
 The orchestrating agent does not run this validator as a workflow gate. It
 should only confirm that the consolidator reported either a passing validator
@@ -343,6 +466,19 @@ Use ranges or explicit sets and launch every returned handoff concurrently with
 the multiagent spawn tool. Each item carries its own `ayah_ref`, `analysis_id`,
 lane, and prompt path; do not infer them from list order.
 
+Immediately before beginning the next ayah's analysis or launching that ayah's
+first scope agents, the orchestrator runs:
+
+```bash
+python3 _commentary/v5/operations/monitor.py wait \
+  --run-id <shared-run-id> \
+  --orchestrator-id <unique-orchestrator-id>
+```
+
+Pause is cooperative. An ayah already in progress may finish; no new ayah may
+start until `wait` returns `running`. Do not run `wait` between steps of an
+active ayah, and do not introduce direct remote messaging to agents.
+
 When multiple ayat are selected, run the whole V5 workflow for those ayat in
 parallel. Do not finish one ayah end to end before starting the next. Spawn the
 three `gpt-5.6-luna` max scope agents for each ayah as soon as its prompts
@@ -362,3 +498,15 @@ Do not run two orchestrators for the same analysis ID and ayah at once.
 - Do not modify agent outputs yourself.
 - Treat partial work as ordinary Git-visible state.
 - Inspect the final prose before committing the unit.
+- If a launched agent terminates before appending its final lifecycle event,
+  leave its start event incomplete. That is how the dashboard identifies a
+  possible stall.
+- If spawning fails before the new agent can write `started`, the orchestrator
+  writes an `attention` event for the intended ayah, role, agent ID, and scope
+  lane when applicable.
+- Never fabricate `completed` from the presence of a response alone.
+- Event messages must be short operational descriptions. Never put prose,
+  evidence, prompts, or model reasoning in event logs.
+- A rerun starts a new lifecycle with a new `started` event and receives the
+  next attempt number automatically. Do not close or overwrite the earlier
+  attempt to make the dashboard look successful.
