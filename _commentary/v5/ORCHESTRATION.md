@@ -69,10 +69,12 @@ mandatory host basmala and external ayat. Do not patch `scripts/build_bundle.py`
 to orchestrate pericopes.
 
 Every external ayah must be listed individually with `--add-ayat`; ranges are
-invalid. Adding all of S1 requires:
+invalid. For non-S1/S9 host analyses, the default external Fatiha complement is
+S1 after the basmala, because the host prefatory basmala is already present as
+`S:0`. Use:
 
 ```text
-1:1,1:2,1:3,1:4,1:5,1:6,1:7
+1:2,1:3,1:4,1:5,1:6,1:7
 ```
 
 ## 2. Prepare Prompts
@@ -91,7 +93,7 @@ python3 _commentary/v5/workflow.py prepare \
   --context-bundles-dir bundles/s029-pericopes/p03_028-044 \
   --member-bundles-dir bundles \
   --member-surah 29 \
-  --add-ayat 1:1,1:2,1:3,1:4,1:5,1:6,1:7 \
+  --add-ayat 1:2,1:3,1:4,1:5,1:6,1:7 \
   --segment p03=29:28-44 \
   --ayah 29:38
 ```

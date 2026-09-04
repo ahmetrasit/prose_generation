@@ -183,7 +183,7 @@ class ContextEvidenceTests(unittest.TestCase):
     def test_external_overlay_procedure_is_macro_only(self) -> None:
         packet = {
             "analysis_context": {
-                "external_ayat_refs": ["1:1", "1:2", "1:3", "1:4", "1:5", "1:6", "1:7"]
+                "external_ayat_refs": ["1:2", "1:3", "1:4", "1:5", "1:6", "1:7"]
             }
         }
 

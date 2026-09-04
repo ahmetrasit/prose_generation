@@ -116,15 +116,17 @@ segment is macro; ordinary cross-segment or cross-surah context is global.
 Explicit external ayat use `--add-ayat`. They are first-class, context-only
 members of `--member-surah`, enter macro once, retain their original Quran
 identity, and receive root cues conditioned by the host-surah focus. They never
-become focus ayat implicitly. The option accepts comma-separated individual
-refs and rejects ranges. To add all of S1, list all seven ayat:
+become focus ayat implicitly. The option accepts comma-separated individual refs
+and rejects ranges. For non-S1/S9 host analyses, the default external Fatiha
+complement starts at `1:2` because `1:1` is already represented by the mandatory
+host prefatory basmala `S:0`:
 
 ```bash
 python3 _commentary/v5/workflow.py prepare \
   --analysis-id s100-with-fatiha \
   --segment host=100:1-11 \
   --member-surah 100 \
-  --add-ayat 1:1,1:2,1:3,1:4,1:5,1:6,1:7 \
+  --add-ayat 1:2,1:3,1:4,1:5,1:6,1:7 \
   --ayah 100:1-11
 ```
 
@@ -166,7 +168,7 @@ python3 _commentary/v5/workflow.py prepare \
   --context-bundles-dir bundles/s029-pericopes/p03_028-044 \
   --member-bundles-dir bundles \
   --member-surah 29 \
-  --add-ayat 1:1,1:2,1:3,1:4,1:5,1:6,1:7 \
+  --add-ayat 1:2,1:3,1:4,1:5,1:6,1:7 \
   --segment p03=29:28-44 \
   --ayah 29:38
 ```
