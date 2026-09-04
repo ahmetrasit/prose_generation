@@ -637,6 +637,20 @@ class PrepareTests(unittest.TestCase):
                 }
             ],
         )
+        expanded = BranchResolver(
+            root_ids_by_arabic={"س م و": split_targets},
+            native_branch_refs_by_arabic={
+                "س م و": {
+                    "B004": ["root_000745/B004", "root_009999/B004"]
+                },
+            },
+            available_branch_refs={"root_000745/B004", "root_009999/B004"},
+            expand_ambiguous_native_branches=True,
+        )
+        self.assertEqual(
+            expanded.resolve_text("س م و:B004"),
+            (["root_000745/B004", "root_009999/B004"], []),
+        )
 
     def test_unknown_explicit_branch_is_diagnostic_not_support_metadata(self) -> None:
         bundle = fixture_bundle()

@@ -494,6 +494,50 @@ class ReciprocalInputTests(unittest.TestCase):
         self.assertEqual(coverage["self_reiteration_row_count"], 1)
 
 
+class V3PreparationCompatibilityTests(unittest.TestCase):
+    def test_real_s87_1_retains_problematic_channel_evidence(self) -> None:
+        path = workflow.REPO_ROOT / "bundles" / "s087" / "87_1.ayah.json"
+        bundle = json.loads(path.read_text(encoding="utf-8"))
+
+        prepared, docket = workflow.build_prepared_artifacts(
+            bundle,
+            source_path=path,
+            options=workflow.PREPARE_OPTIONS,
+        )
+
+        candidate = next(
+            item
+            for item in docket["candidates"]
+            if item["source_type"] == "channel"
+            and item["title"] == "Origination and State-Making"
+        )
+        self.assertTrue(prepared["mandatory_candidates_ready"])
+        self.assertTrue(candidate["adjudicable"])
+        self.assertEqual(candidate["unresolved_branch_citations"], [])
+        self.assertTrue(
+            {
+                "root_000831/B001",
+                "root_000832/B001",
+            }.issubset(candidate["branch_refs"])
+        )
+        unresolved = next(
+            item
+            for item in docket["candidates"]
+            if item["source_type"] == "channel"
+            and item["title"] == "Smooth Surface, Worn Fabric, and Damp Folding"
+        )
+        self.assertFalse(unresolved["mandatory"])
+        self.assertEqual(
+            unresolved["unresolved_branch_citations"],
+            [
+                {
+                    "citation": "ب ل ل/B007",
+                    "reason": "no registered branch match",
+                }
+            ],
+        )
+
+
 class PrepareTests(unittest.TestCase):
     def _args(self, root: Path) -> argparse.Namespace:
         return argparse.Namespace(

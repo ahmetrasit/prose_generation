@@ -117,6 +117,8 @@ from v3lib.prepare import (  # noqa: E402
 
 PREPARE_OPTIONS = PrepareOptions(
     hft_policy="quarantine",
+    expand_ambiguous_native_branches=True,
+    demote_unresolved_mandatory_candidates=True,
     max_optional_candidates=80,
     max_support_chars=8_000,
 )

@@ -194,6 +194,8 @@ class PrepareOptions:
     hft_policy: str = "strict"
     allow_legacy_hft_response: bool = False
     allow_incomplete_branch_coverage: bool = False
+    expand_ambiguous_native_branches: bool = False
+    demote_unresolved_mandatory_candidates: bool = False
     max_optional_candidates: int = 40
     max_support_chars: int = 1_600
     max_support_per_candidate: int = 5
@@ -214,6 +216,14 @@ class PrepareOptions:
         if not isinstance(self.allow_incomplete_branch_coverage, bool):
             raise ValidationError(
                 "allow_incomplete_branch_coverage must be boolean"
+            )
+        if not isinstance(self.expand_ambiguous_native_branches, bool):
+            raise ValidationError(
+                "expand_ambiguous_native_branches must be boolean"
+            )
+        if not isinstance(self.demote_unresolved_mandatory_candidates, bool):
+            raise ValidationError(
+                "demote_unresolved_mandatory_candidates must be boolean"
             )
         for name in (
             "max_optional_candidates",
@@ -352,6 +362,7 @@ class BranchResolver:
             dict[str, dict[str, list[str]]] | None
         ) = None,
         grounding_root_ids_by_arabic: dict[str, list[str]] | None = None,
+        expand_ambiguous_native_branches: bool = False,
     ) -> None:
         def canonicalize(
             mappings: dict[str, list[str]],
@@ -399,6 +410,7 @@ class BranchResolver:
         )
         self.grounding_root_ids_by_arabic = canonicalize(grounding_mappings)
         self.available_branch_refs = available_branch_refs
+        self.expand_ambiguous_native_branches = expand_ambiguous_native_branches
 
     def resolve_text(
         self, value: Any
@@ -430,7 +442,8 @@ class BranchResolver:
             if immediate and _match_is_token_bounded(tail, immediate, group=1):
                 branch_ids.add(immediate.group(1))
             for branch_id in branch_ids:
-                if canonical_root in self.native_branch_refs_by_arabic:
+                native_mapping = canonical_root in self.native_branch_refs_by_arabic
+                if native_mapping:
                     candidates = [
                         branch_ref
                         for branch_ref in self.native_branch_refs_by_arabic[
@@ -450,6 +463,12 @@ class BranchResolver:
                 citation = f"{root_ar}/{branch_id}"
                 if len(candidates) == 1:
                     resolved.add(candidates[0])
+                elif (
+                    len(candidates) > 1
+                    and native_mapping
+                    and self.expand_ambiguous_native_branches
+                ):
+                    resolved.update(candidates)
                 elif not candidates:
                     unresolved.append(
                         {"citation": citation, "reason": "no registered branch match"}
@@ -600,6 +619,35 @@ def _candidate(
         "anchor_refs": normalized_anchors,
         "support_ids": normalized_supports,
     }
+
+
+def _candidate_identity(candidate: dict[str, Any], *, ayah_ref: str) -> str:
+    return _stable_id(
+        "cand",
+        {
+            "ayah_ref": ayah_ref,
+            **{
+                key: candidate[key]
+                for key in (
+                    "lane",
+                    "source_type",
+                    "source_local_id",
+                    "source_pointer",
+                    "kind",
+                    "title",
+                    "mandatory",
+                    "obligation",
+                    "scope",
+                    "trust",
+                    "branch_refs",
+                    "root_ids",
+                    "unresolved_branch_citations",
+                    "anchor_refs",
+                    "support_ids",
+                )
+            },
+        },
+    )
 
 
 def _ledger_entry(
@@ -4344,6 +4392,9 @@ def build_prepared_artifacts(
         native_branch_refs_by_arabic=inventory_branch_mappings,
         available_branch_refs=known_branch_refs | set(inventory_registry),
         grounding_root_ids_by_arabic=root_mappings,
+        expand_ambiguous_native_branches=(
+            options.expand_ambiguous_native_branches
+        ),
     )
     supports = SupportBuilder(max_chars=options.max_support_chars)
     candidates: list[dict[str, Any]] = []
@@ -4422,12 +4473,6 @@ def build_prepared_artifacts(
     ledger.extend(entries)
 
     candidates = _deduplicate_candidates(candidates, ledger)
-    optional_count = sum(1 for candidate in candidates if not candidate["mandatory"])
-    if optional_count > options.max_optional_candidates:
-        raise BudgetError(
-            f"Optional candidate count {optional_count} exceeds limit "
-            f"{options.max_optional_candidates}; no candidates were truncated"
-        )
     support_registry = supports.values()
     support_map = {item["support_id"]: item for item in support_registry}
     cited_nominated_refs = {
@@ -4473,15 +4518,38 @@ def build_prepared_artifacts(
             candidate["selection_ineligibility_reasons"],
         ) = _selection_eligibility(candidate, support_map)
         if candidate["mandatory"] and not candidate["adjudicable"]:
-            raise ValidationError(
-                f"Mandatory candidate {candidate['candidate_id']} has unresolved "
-                "branch evidence"
+            if not options.demote_unresolved_mandatory_candidates:
+                raise ValidationError(
+                    f"Mandatory candidate {candidate['candidate_id']} has unresolved "
+                    "branch evidence"
+                )
+            old_candidate_id = candidate["candidate_id"]
+            candidate["mandatory"] = False
+            candidate["candidate_id"] = _candidate_identity(
+                candidate, ayah_ref=scope["ayah_ref"]
             )
+            for entry in ledger:
+                if entry.get("candidate_id") == old_candidate_id:
+                    entry["candidate_id"] = candidate["candidate_id"]
+                    entry["disposition"] = "docket_optional"
+                    entry["reason"] = (
+                        "unresolved branch evidence retained for authoring review"
+                    )
+                    break
         if candidate["mandatory"] and not candidate["selection_eligible"]:
             raise ValidationError(
                 f"Mandatory candidate {candidate['candidate_id']} is not selection "
                 f"eligible: {candidate['selection_ineligibility_reasons']}"
             )
+
+    optional_count = sum(
+        1 for candidate in candidates if not candidate["mandatory"]
+    )
+    if optional_count > options.max_optional_candidates:
+        raise BudgetError(
+            f"Optional candidate count {optional_count} exceeds limit "
+            f"{options.max_optional_candidates}; no candidates were truncated"
+        )
 
     branch_review_grounding_gaps = _branch_review_grounding_gaps(
         ayah_ref=scope["ayah_ref"],
