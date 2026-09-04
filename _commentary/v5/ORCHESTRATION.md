@@ -1,26 +1,24 @@
 # Commentary v5 orchestration
 
-This is the end-to-end runbook for a cold orchestrator. Run every command from
-the repository root. Do not invoke V2/V3/V4 state machines and do not use old
-prose as evidence or as a gap checklist.
+This is the cold-agent runbook for V5. Run commands from the repository root.
+Do not invoke V2/V3/V4 state machines, and do not use old prose as evidence or
+as a checklist.
 
 ## Fixed Sequence
 
 ```text
 prepare
-  -> 3 fresh scope-discovery agents in parallel
-  -> planned composition follow-up to the same 3 live agents in parallel
-  -> 1 fresh canonical writer
-  -> editorial follow-up to the same live canonical writer
-  -> verify
+  -> 3 fresh scope agents in parallel
+  -> same 3 agents write their scope prose
+  -> close scope agents
+  -> 1 fresh consolidator merges the three prose drafts
+  -> same consolidator writes the editorial version
+  -> close consolidator
 ```
 
-Discovery and composition are two planned turns, not an open-ended repair
-cycle. There are no reconciliation or automated retry stages. If a written
-agent output fails mechanical validation, send exactly one detailed repair
-request to the same live agent that wrote it. If that one repair attempt still
-does not produce a validating artifact, accept the output as-is and continue
-operator handling from that state.
+V5 has no post-launch workflow gates. After `prepare`, do not run `advance` or
+`verify`; they are not V5 commands. Do not create ledgers, manifests, hidden
+state directories, repair loops, or audit files for V5 orchestration.
 
 ## 1. Preflight
 
@@ -36,9 +34,14 @@ Build a missing numbered bundle with:
 python3 scripts/build_bundle.py --surah S --ayah A --out bundles/sNNN
 ```
 
-For numbered focuses in S2-S8 and S10-S114, also require
-`bundles/sNNN/S_0.ayah.json`. S1 uses `1:1`; S9 has no prefatory basmala. Never
-create `1:0` or `9:0`.
+For numbered focuses in S2-S8 and S10-S114, also require the host prefatory
+basmala bundle:
+
+```text
+bundles/sNNN/S_0.ayah.json
+```
+
+S1 uses `1:1`; S9 has no prefatory basmala. Never create `1:0` or `9:0`.
 
 For a large-surah pericope, use the wrapper:
 
@@ -54,27 +57,30 @@ python3 scripts/build_pericope_bundles.py \
   --pericope-label "Declared operator span"
 ```
 
-Use its emitted `bundles/sNNN-pericopes/pPP_AAA-BBB/` directory as
+Use the emitted `bundles/sNNN-pericopes/pPP_AAA-BBB/` directory as
 `--context-bundles-dir`. Keep `bundles/` as `--member-bundles-dir` for the
 mandatory host basmala and external ayat. Do not patch `scripts/build_bundle.py`
 to orchestrate pericopes.
 
 Every external ayah must be listed individually with `--add-ayat`; ranges are
-invalid. Adding all of S1 requires
-`1:1,1:2,1:3,1:4,1:5,1:6,1:7`.
+invalid. Adding all of S1 requires:
 
-## 2. Start The Unit
+```text
+1:1,1:2,1:3,1:4,1:5,1:6,1:7
+```
+
+## 2. Prepare Prompts
 
 Native:
 
 ```bash
-python3 _commentary/v5/workflow.py advance --ayah S:A
+python3 _commentary/v5/workflow.py prepare --ayah S:A
 ```
 
 Pericope with external Fatiha:
 
 ```bash
-python3 _commentary/v5/workflow.py advance \
+python3 _commentary/v5/workflow.py prepare \
   --analysis-id s029-p03-with-fatiha \
   --context-bundles-dir bundles/s029-pericopes/p03_028-044 \
   --member-bundles-dir bundles \
@@ -84,190 +90,128 @@ python3 _commentary/v5/workflow.py advance \
   --ayah 29:38
 ```
 
-The first call prepares all hermetic inputs and returns
-`stage: scope_discovery` with three roles:
+The command writes three hermetic prompt files under:
 
 ```text
-micro_scope_discoverer
-macro_scope_discoverer
-global_scope_discoverer
+_commentary/v5/input/<analysis-id>/sNNN/S_A/
 ```
 
-Launch three fresh, independent agents in parallel. Use the configured
-maximum-capability authoring model at maximum reasoning effort; the established
-repository default is `gpt-5.6-luna` with `max`. Do not add a priority or
-service-tier override. This is operator policy, not a model/runtime identity
-attested by the manifest or checked by `verify`.
-
-Give each agent only its returned prompt and destination. Each writes exactly
-one JSON object to:
+It prints three handoffs:
 
 ```text
-_commentary/v5/raw/<analysis-id>/sNNN/S_A/<lane>.discovery.json
+micro
+macro
+global
 ```
 
-Do not edit, normalize, supplement, or semantically judge these files yourself.
-Wait until all three agents have finished before advancing the unit. If
-`advance` rejects a discovery artifact mechanically, send one repair follow-up
-with the exact validation details to the same lane agent that wrote it. Do not
-spawn a replacement agent for a failed output. If the repaired artifact still
-fails, accept that artifact as-is and continue operator handling from that
-state.
+Each handoff gives the exact prompt path. The prompts contain all evidence the
+scope agents should use.
 
-### Discovery Duties
+## 3. Scope Agents
 
-Each agent decides every supplied candidate and independently searches its lane
-for uncandidate findings. It does not write polished prose and does not emit an
-exhaustive negative audit of every dictionary branch or connection.
+Launch three fresh, independent agents in parallel, one for each prompt. Use
+the configured maximum-capability authoring model at maximum reasoning effort;
+the current repository default is `gpt-5.6-luna` with `max`.
 
-For each supplied candidate it must preserve or explicitly exclude:
+Give each agent only its prompt path and the instruction to follow that prompt.
+Keep the session open after its first response.
 
-- every nominated branch;
-- every explicitly nominated branch facet;
-- every required context ref;
-- every named semantic obligation, including candidate-specific word/channel
-  evidence, HFT trace roles, before/after readings, and containment.
+First turn: each scope agent nominates the findings/candidates that matter for
+its lane. It should decide supplied candidates and independently notice
+uncandidate findings. It should not write final polished prose in this turn.
 
-A context ref survives only through an actual activation carrier or trigger.
-Every branch activation names an exact facet, actual carrier, independent
-trigger, focus return, resulting reading, and boundary. A specialization cannot
-stand without that branch's core facet. `root_ids` on word-analysis candidates
-are orientation/provenance only. Their `root_branch_options` index makes the
-relevant choices explicit, but the agent still decides whether any branch is
-activated from an independent trigger.
+Second turn: ask the same live scope agent to turn its nominated findings into
+fluent Turkish scope prose. The prose should make activation explicit in normal
+language: which root or ordinary meaning is activated, what in the focus carries
+it, what in the context triggers it, and how the focus reading changes. It
+should not expose internal root IDs or branch IDs to the reader.
 
-## 3. Scope Composition Follow-Up
-
-After all three discovery files exist, run the same `advance` command. For a
-prepared custom analysis, the stable ID and focus are sufficient:
-
-```bash
-python3 _commentary/v5/workflow.py advance \
-  --analysis-id s029-p03-with-fatiha --ayah 29:38
-```
-
-The workflow validates each discovery, records its raw bytes and SHA-256 in the
-unit manifest, and writes a self-contained composition prompt. It returns
-`stage: scope_composition` with three roles:
+Write each scope prose file under:
 
 ```text
-micro_scope_composer
-macro_scope_composer
-global_scope_composer
+_commentary/v5/raw/<analysis-id>/sNNN/S_A/
 ```
 
-Send each prompt as the planned follow-up to the same live lane agent. These
-three follow-ups may run in parallel. If a lane conversation was lost, start one
-cold replacement with that lane's returned composition prompt; it embeds the
-validated finding set and compact semantic requirements, not another copy of the
-candidate-decision ledger or full packet.
-
-Each lane writes exactly one JSON object to:
+Use clear lane-specific filenames, for example:
 
 ```text
-_commentary/v5/raw/<analysis-id>/sNNN/S_A/<lane>.contribution.json
+micro.scope.tr.md
+macro.scope.tr.md
+global.scope.tr.md
 ```
 
-The agent renders every discovery finding as fluent Turkish without changing
-the finding set. It may group compatible activation explanations within a
-finding, but it must explicitly preserve the carrier, trigger, contact,
-resulting reading, boundary, and concrete semantic details. English source
-phrases must be translated, not copied. The response maps every ordered
-semantic ref to an exact prose passage. The request hash binds the source
-inventory without requiring the agent to echo its hashes or payloads. This is
-mechanical traceability; the workflow does not claim to prove semantic
-entailment.
+Do not edit the scope agents' files yourself. If an agent output is malformed or
+thin, ask the same live agent once for a clearer replacement, then continue with
+the best available scope prose.
 
-If a malformed contribution stops the unit, diagnose the contract failure and
-send exactly one repair follow-up, with the validation details, to the same lane
-agent that wrote the contribution. Do not spawn a replacement agent for a failed
-output. If that one repair attempt still fails validation, accept the output
-as-is and continue operator handling from that state.
+## 4. Consolidation
 
-## 4. Canonical First Pass
+After all three scope prose files exist, close the scope agents. Start one
+fresh consolidator agent.
 
-After all three lane contributions exist, run `advance` again. It returns
-`stage: canonical_write`.
+Give the consolidator:
 
-Start one fresh canonical writer with the same maximum-capability model policy.
-The prompt contains compact findings projections, Turkish lane renderings,
-focus-surface evidence, compact provenance ledgers, and governing texts. Full
-packets and candidate audits remain separately persisted and hash-bound. The
-writer is not authorized to make new evidence decisions.
+- the focus/context brief printed by `prepare`;
+- the three scope prose files;
+- the instruction to merge them into the four first-pass files.
 
-The writer creates exactly:
+The consolidator writes:
 
 ```text
-S_A.prose.tr.md
-S_A.evidence.tr.md
-S_A.index.tr.md
-S_A.friction.tr.md
+_commentary/v5/raw/<analysis-id>/sNNN/S_A/S_A.prose.tr.md
+_commentary/v5/raw/<analysis-id>/sNNN/S_A/S_A.evidence.tr.md
+_commentary/v5/raw/<analysis-id>/sNNN/S_A/S_A.index.tr.md
+_commentary/v5/raw/<analysis-id>/sNNN/S_A/S_A.friction.tr.md
 ```
 
-The prose must be coherent Turkish, not a lane report or ledger dump. Wording
-from lane contributions is editable. Every validated mechanism and specific
-image remains explicit, including which ordinary/root meaning meets which
-trigger and how that contact changes the focus reading.
+The prose should be coherent Turkish, not a lane report. It may rewrite,
+combine, reorder, or compress scope prose as long as it preserves the actual
+interpretive findings and makes the activation mechanisms clear.
 
-The findings index ends with one `commentary-v5-landing-map` block. For every
-finding it gives exact prose/evidence/index quotes and lists every ordered
-semantic ref exactly once. Compatible findings may share one substantive prose
-quote. Evidence and index quotes must remain unique. Evidence contains the
-finding ref and exact compact provenance ledger once; the index contains the
-finding ref and only the ledger's source-record hash.
+Tell the consolidator to treat every retained finding from the micro, macro,
+and global inputs as mandatory. Before drafting, it should identify each
+finding's carrier, independent trigger, contact, changed reading, concrete
+semantic detail, and boundary. Every part must remain explicit in
+reader-facing prose; concrete images, pathologies, secondary branches, repeated
+actions, spatial relations, and before/after shifts must not be flattened into
+general themes.
 
-Keep this canonical writer live.
+Boundaries must stay attached to the interpretations they limit. Saying that a
+word is not being translated literally in one way does not authorize deleting
+the related contextual resonance.
+
+A single scope paragraph may contain multiple retained findings or branches.
+Tell the consolidator to treat each distinct claim, image, branch activation,
+or interpretive movement as a separate mandatory landing. Each retained landing
+should appear once as an explicit substantive prose landing and remain
+traceable in evidence and index. Compatible landings may share a paragraph only
+when every landing's carrier, trigger, contact, changed reading, concrete
+detail, and boundary remain visible there. If any retained landing is missing,
+the consolidator should revise before treating the unit as complete.
 
 ## 5. Editorial Follow-Up
 
-After all four first-pass files exist, run `advance` again. It validates the raw
-landing map, binds all four input hashes, and returns
-`stage: canonical_editorial`.
+Keep the consolidator live. Send one follow-up asking for the editorial
+version. The editorial pass may rewrite sentences for cadence, clarity, Turkish
+fluency, removal of English leakage, and better reader-facing explanation. It
+must not add new evidence or erase a substantive finding.
 
-Send the returned prompt to the same live canonical writer. The writer creates:
+The editorial version must preserve the complete semantic coverage of the raw
+version. It may change wording, cadence, clarity, and fluency; it may not remove
+the carrier, independent trigger, contact, changed reading, concrete detail, or
+boundary of any retained finding or distinct retained landing.
+
+The consolidator writes:
 
 ```text
-S_A.prose.editorial.tr.md
-S_A.evidence.editorial.tr.md
-S_A.index.editorial.tr.md
-S_A.friction.editorial.tr.md
+_commentary/v5/editorial/<analysis-id>/sNNN/S_A/S_A.prose.editorial.tr.md
+_commentary/v5/editorial/<analysis-id>/sNNN/S_A/S_A.evidence.editorial.tr.md
+_commentary/v5/editorial/<analysis-id>/sNNN/S_A/S_A.index.editorial.tr.md
+_commentary/v5/editorial/<analysis-id>/sNNN/S_A/S_A.friction.editorial.tr.md
 ```
 
-Editorial prose may rewrite every prior sentence to improve cadence, remove
-technical shorthand, and translate English leakage. The immutable layer is the
-structured discovery semantics and exact apparatus provenance, not a sentence.
-The editorial landing map keeps the same finding order and semantic refs while
-updating its quotes and phase.
-
-If the canonical conversation is lost, use the returned
-`restart_if_agent_unavailable` canonical prompt and regenerate the complete
-first-pass set before editorial work. Do not invent an open-ended editorial
-repair stage.
-
-## 6. Complete And Verify
-
-Run `advance` after editorial output, then verify explicitly:
-
-```bash
-python3 _commentary/v5/workflow.py verify --ayah S:A
-```
-
-Custom analysis:
-
-```bash
-python3 _commentary/v5/workflow.py verify \
-  --analysis-id s029-p03-with-fatiha --ayah 29:38
-```
-
-Verification is mechanical. It rechecks fixed paths, source and package hashes,
-context membership/projections, implementation and prompt hashes, discovery and
-composition artifact lineage, first-pass lineage, all final files, landing
-coverage, compact provenance placement, byte budgets, internal-ID leakage in
-reader prose, and obvious English in all human-authored Turkish output text. It
-checks the declared source-to-passage mapping mechanically; it does not
-adjudicate semantic entailment or interpretive quality.
-
-Inspect the complete Git diff before committing the unit.
+After those files exist, close the consolidator and inspect the prose quality
+directly.
 
 ## Context Rules
 
@@ -279,19 +223,14 @@ Inspect the complete Git diff before committing the unit.
 - Added ayat are context-only and never become focus ayat implicitly.
 - Every non-focus member uses the same lean native-context projection. A
   basmala does not import its standalone-focus payload into another focus.
-- Candidate-bound unresolved context branches may be hydrated only from the
-  exact cited context sources. Their paths, bytes, hashes, identities, and
-  projections are revalidated.
-- If an explicit member exists in package and member roots, canonical hashes
-  must agree.
 
-For pericope focus 29:38, `29:0`, `29:28-37`, `29:39-44`, and explicit
+For pericope focus `29:38`, `29:0`, `29:28-37`, `29:39-44`, and explicit
 `--add-ayat` refs are non-focus macro context. The focus remains `29:38`.
 
 For a dedicated basmala analysis:
 
 ```bash
-python3 _commentary/v5/workflow.py advance --ayah 29:0
+python3 _commentary/v5/workflow.py prepare --ayah 29:0
 ```
 
 The derived `s029-basmala-full` analysis puts all numbered S29 ayat in ordinary
@@ -299,31 +238,19 @@ lean macro context so they can activate basmala-focused resonances.
 
 ## Batch Rules
 
-Use ranges or explicit sets and launch every returned `parallel_handoffs` item
-concurrently. Each item carries its own `ayah_ref` and `stage`; do not infer
-either from list order. Do not advance a unit while one of its agents is still
-writing.
+Use ranges or explicit sets and launch every returned handoff concurrently.
+Each item carries its own `ayah_ref`, `analysis_id`, lane, and prompt path; do
+not infer them from list order.
 
-Retain an in-memory map from ayah ref to live lane agents through the composition
-wave, and from ayah ref to canonical writer through editorial. Agent sessions
-are conveniences, not persisted workflow state. Different ayat and analysis IDs
-have disjoint paths and may run concurrently; never run two orchestrators for
-the same analysis ID and ayah at once.
-
-A failed unit does not suppress ready handoffs for other batch units. A
-`partial_error` response exits nonzero.
+Different ayat and analysis IDs have disjoint paths and may run concurrently.
+Do not run two orchestrators for the same analysis ID and ayah at once.
 
 ## Operational Rules
 
-- Run without `--force-input` first. Inspect any stale-input error before
-  replacing generated inputs.
-- `--force-input` changes generated input only. It never edits raw/editorial
-  agent artifacts.
-- Do not create reconciliation ledgers, session registries, hidden worktrees, or
-  open-ended repair loops.
-- Only the same live agent may repair its own failed output, and only once per
-  failed artifact. The repair request must include the concrete validation
-  details. If the single repair attempt fails, accept the output as-is.
+- Preflight checks happen before agent orchestration starts.
+- After scope agents are launched, do not introduce validation gates that stop
+  the workflow.
 - Do not modify agent outputs yourself.
-- Treat partial work as ordinary Git-visible state; V5 has no second history
-  mechanism.
+- Treat partial work as ordinary Git-visible state.
+- Inspect the final prose, evidence, index, and friction files before committing
+  the unit.
