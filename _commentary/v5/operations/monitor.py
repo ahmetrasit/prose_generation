@@ -1252,6 +1252,32 @@ def _process_exists(pid: int) -> bool:
     return True
 
 
+def _is_expected_monitor_process(pid: int, registration: dict[str, Any]) -> bool:
+    expected_script = str(Path(__file__).resolve())
+    expected_registration = str(
+        registration_path(
+            registration["run_id"], registration["orchestrator_id"]
+        ).resolve()
+    )
+    try:
+        result = subprocess.run(
+            ["ps", "-p", str(pid), "-o", "command="],
+            capture_output=True,
+            check=False,
+            text=True,
+            timeout=2,
+        )
+    except (OSError, subprocess.SubprocessError):
+        return False
+    command = result.stdout.strip()
+    return (
+        result.returncode == 0
+        and expected_script in command
+        and expected_registration in command
+        and " run " in f" {command} "
+    )
+
+
 def create_registration(
     args: argparse.Namespace, *, orchestrator_id: str | None = None
 ) -> tuple[Path, dict[str, Any]]:
@@ -1523,6 +1549,14 @@ def command_stop(args: argparse.Namespace) -> int:
             )
             return 0
         _atomic_write_text(stop_marker(registration), f"stop_requested_at={utc_now()}\n")
+        if _is_expected_monitor_process(pid, registration):
+            try:
+                os.kill(pid, signal.SIGTERM)
+            except ProcessLookupError:
+                pid_path.unlink(missing_ok=True)
+                stop_marker(registration).unlink(missing_ok=True)
+            except PermissionError:
+                pass
         deadline = time.monotonic() + args.timeout_seconds
         while pid_path.exists() and time.monotonic() < deadline:
             if not _process_exists(pid):

@@ -559,10 +559,36 @@ class EventAndTaskTests(unittest.TestCase):
                 return False
             return True
 
-        with patch.object(monitor, "_process_exists", side_effect=fake_exists) as exists:
+        with (
+            patch.object(monitor, "_process_exists", side_effect=fake_exists) as exists,
+            patch.object(monitor, "_is_expected_monitor_process", return_value=False),
+        ):
             self.assertEqual(0, monitor.command_stop(args))
         self.assertGreaterEqual(exists.call_count, 2)
         self.assertFalse(monitor.stop_marker(self.registration).exists())
+
+    def test_stop_only_signals_a_verified_monitor_process(self):
+        self.registration["run_id"] = "run-signal"
+        self.registration["orchestrator_id"] = "orch-signal"
+        destination = monitor.registration_path("run-signal", "orch-signal")
+        monitor._atomic_write_json(destination, self.registration)
+        pid_path = monitor._pid_path(self.registration)
+        monitor._atomic_write_text(pid_path, "4321\n")
+        args = argparse.Namespace(
+            run_id="run-signal", orchestrator_id="orch-signal", timeout_seconds=1
+        )
+
+        def fake_kill(_pid, signal_number):
+            if signal_number == signal.SIGTERM:
+                pid_path.unlink(missing_ok=True)
+
+        with (
+            patch.object(monitor, "_process_exists", return_value=True),
+            patch.object(monitor, "_is_expected_monitor_process", return_value=True),
+            patch.object(monitor.os, "kill", side_effect=fake_kill) as kill,
+        ):
+            self.assertEqual(0, monitor.command_stop(args))
+        kill.assert_called_once_with(4321, signal.SIGTERM)
 
     def test_daemon_retries_pending_upload_before_cooperative_stop(self):
         artifact = self.v5 / "raw" / "native" / "s029" / "29_38" / "micro.scope.tr.md"
