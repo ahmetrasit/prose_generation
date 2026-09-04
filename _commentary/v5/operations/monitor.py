@@ -15,6 +15,9 @@ import sys
 import tempfile
 import time
 import uuid
+from urllib.error import HTTPError, URLError
+from urllib.parse import quote, urlencode
+from urllib.request import Request, urlopen
 from dataclasses import dataclass
 from datetime import UTC, datetime
 from pathlib import Path
@@ -37,6 +40,9 @@ EVENTS = frozenset({"started", *TERMINAL_EVENTS, "attention"})
 ROLES = frozenset({"scope", "canonical", "validator", "orchestrator"})
 LANES = ("micro", "macro", "global")
 MAX_ARTIFACT_BYTES = 900_000
+DEFAULT_FIREBASE_PROJECT_ID = "v5-monitor"
+DEFAULT_FIREBASE_API_KEY = "AIzaSyArWIsYnZvo5Sbf87htqjxE21omQNKtsyU"
+FIRESTORE_API_ROOT = "https://firestore.googleapis.com/v1"
 
 # Numbered ayat by surah. Prefatory basmalas are selected explicitly as S:0.
 QURAN_AYAH_COUNTS = (
@@ -199,6 +205,46 @@ def event_path(
     )
 
 
+def _event_task_name(role: str, lane: str | None) -> str:
+    return str(lane) if role == "scope" else role
+
+
+def resolve_attempt(
+    registration: dict[str, Any],
+    ayah_ref: str,
+    role: str,
+    lane: str | None,
+    status: str,
+    agent_id: str | None,
+    requested: int | None,
+) -> int:
+    if requested is not None:
+        if requested < 1:
+            raise MonitorError("Attempt must be at least 1")
+        return requested
+    directory = event_path(registration, ayah_ref, role, lane, 1).parent
+    task_name = re.escape(_event_task_name(role, lane))
+    attempts: dict[int, list[dict[str, Any]]] = {}
+    for path in directory.glob(f"{_event_task_name(role, lane)}.*.jsonl"):
+        match = re.fullmatch(rf"{task_name}\.(\d+)\.jsonl", path.name)
+        if match is not None:
+            attempts[int(match.group(1))] = _read_event_file(path)
+    if status == "started":
+        return max(attempts, default=0) + 1
+    open_attempts = [
+        number
+        for number, events in attempts.items()
+        if not events or events[-1].get("event") not in TERMINAL_EVENTS
+    ]
+    matching = [
+        number
+        for number in open_attempts
+        if agent_id
+        and any(event.get("agent_id") == agent_id for event in attempts[number])
+    ]
+    return max(matching or open_attempts or attempts or {1})
+
+
 def _append_jsonl(path: Path, value: dict[str, Any]) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
     line = json.dumps(value, ensure_ascii=False, sort_keys=True) + "\n"
@@ -252,6 +298,14 @@ class RemoteSink(Protocol):
     def upsert_artifact(self, task: dict[str, Any], artifact: dict[str, Any]) -> None: ...
 
     def close(self, registration: dict[str, Any], at: str) -> None: ...
+
+
+def public_registration(registration: dict[str, Any]) -> dict[str, Any]:
+    return {
+        key: value
+        for key, value in registration.items()
+        if key != "firebase_passcode_hash"
+    }
 
 
 class LocalSnapshot:
@@ -336,10 +390,12 @@ class LocalSnapshot:
             "heartbeat_at": utc_now(),
         }
         self.value["workers"][registration["worker_id"]] = worker
-        current = self.value["orchestrators"].get(registration["orchestrator_id"], {})
+        current = public_registration(
+            self.value["orchestrators"].get(registration["orchestrator_id"], {})
+        )
         self.value["orchestrators"][registration["orchestrator_id"]] = {
             **current,
-            **registration,
+            **public_registration(registration),
             "desired_state": current.get("desired_state", "running"),
             "monitor_state": "online",
         }
@@ -351,8 +407,10 @@ class LocalSnapshot:
 
     def set_control_state(self, registration: dict[str, Any], state: str) -> None:
         record = self.value["orchestrators"].setdefault(
-            registration["orchestrator_id"], dict(registration)
+            registration["orchestrator_id"], public_registration(registration)
         )
+        if record.get("desired_state") == state:
+            return
         record["desired_state"] = state
         record["control_mirrored_at"] = utc_now()
         self._mark("orchestrators", registration["orchestrator_id"])
@@ -363,14 +421,25 @@ class LocalSnapshot:
         )
         worker.update({"status": "online", "heartbeat_at": at})
         self._mark("workers", registration["worker_id"])
+        record = self.value["orchestrators"].setdefault(
+            registration["orchestrator_id"], public_registration(registration)
+        )
+        record.update({"monitor_state": "online", "heartbeat_at": at})
+        self._mark("orchestrators", registration["orchestrator_id"])
 
     def upsert_task(self, task: dict[str, Any]) -> None:
         self.value["tasks"][task["task_id"]] = task
         self._mark("tasks", task["task_id"])
 
-    def upsert_artifact(self, task: dict[str, Any], artifact: dict[str, Any]) -> None:
-        by_task = self.value["artifacts"].setdefault(task["task_id"], {})
-        by_task[artifact["kind"]] = artifact
+    def replace_artifacts(
+        self, task: dict[str, Any], artifacts: list[dict[str, Any]]
+    ) -> None:
+        self.value["artifacts"][task["task_id"]] = {
+            artifact["kind"]: {
+                key: value for key, value in artifact.items() if key != "content"
+            }
+            for artifact in artifacts
+        }
         self._mark("artifacts", task["task_id"])
 
     def close(self, registration: dict[str, Any], at: str) -> None:
@@ -382,94 +451,236 @@ class LocalSnapshot:
         self.flush()
 
 
-class FirebaseSink:
-    """Small Firebase Admin adapter; imported only when cloud sync is requested."""
+def _firestore_value(value: Any) -> dict[str, Any]:
+    if value is None:
+        return {"nullValue": None}
+    if isinstance(value, bool):
+        return {"booleanValue": value}
+    if isinstance(value, int):
+        return {"integerValue": str(value)}
+    if isinstance(value, float):
+        return {"doubleValue": value}
+    if isinstance(value, str):
+        return {"stringValue": value}
+    if isinstance(value, (list, tuple)):
+        return {"arrayValue": {"values": [_firestore_value(item) for item in value]}}
+    if isinstance(value, dict):
+        return {
+            "mapValue": {
+                "fields": {str(key): _firestore_value(item) for key, item in value.items()}
+            }
+        }
+    raise MonitorError(f"Unsupported Firestore value: {type(value).__name__}")
 
-    def __init__(self, project_id: str) -> None:
-        try:
-            import firebase_admin
-            from firebase_admin import firestore
-        except ImportError as exc:
-            raise MonitorError(
-                "Firebase sync requires `pip install -r operations/requirements.txt`"
-            ) from exc
-        app_name = f"commentary-v5-{os.getpid()}"
-        self._app = firebase_admin.initialize_app(
-            options={"projectId": project_id}, name=app_name
+
+def _from_firestore_value(value: dict[str, Any]) -> Any:
+    if "nullValue" in value:
+        return None
+    if "booleanValue" in value:
+        return value["booleanValue"]
+    if "integerValue" in value:
+        return int(value["integerValue"])
+    if "doubleValue" in value:
+        return value["doubleValue"]
+    if "stringValue" in value:
+        return value["stringValue"]
+    if "timestampValue" in value:
+        return value["timestampValue"]
+    if "arrayValue" in value:
+        return [
+            _from_firestore_value(item)
+            for item in value["arrayValue"].get("values", [])
+        ]
+    if "mapValue" in value:
+        return {
+            key: _from_firestore_value(item)
+            for key, item in value["mapValue"].get("fields", {}).items()
+        }
+    raise MonitorError("Unsupported Firestore response value")
+
+
+def _firestore_document(value: dict[str, Any]) -> dict[str, Any]:
+    return {"fields": {key: _firestore_value(item) for key, item in value.items()}}
+
+
+def _from_firestore_document(value: dict[str, Any]) -> dict[str, Any]:
+    return {
+        key: _from_firestore_value(item)
+        for key, item in value.get("fields", {}).items()
+    }
+
+
+class FirebaseRestSink:
+    """Direct Firestore REST adapter authenticated by a revocable passcode hash."""
+
+    def __init__(self, project_id: str, api_key: str, passcode_hash: str) -> None:
+        self.project_id = validate_id(project_id, "Firebase project ID")
+        if not api_key:
+            raise MonitorError("Firebase API key is required")
+        if re.fullmatch(r"[0-9a-f]{64}", passcode_hash) is None:
+            raise MonitorError("Firebase passcode hash is invalid")
+        self.api_key = api_key
+        self.passcode_hash = passcode_hash
+        self.last_desired_state: str | None = None
+        self.base_url = (
+            f"{FIRESTORE_API_ROOT}/projects/{quote(project_id, safe='')}"
+            "/databases/(default)/documents"
         )
-        self._db = firestore.client(app=self._app)
 
-    def _orchestrator_ref(self, registration: dict[str, Any]):
-        return (
-            self._db.collection("runs")
-            .document(registration["run_id"])
-            .collection("orchestrators")
-            .document(registration["orchestrator_id"])
+    @staticmethod
+    def _path(*parts: str) -> str:
+        return "/".join(quote(str(part), safe="") for part in parts)
+
+    @staticmethod
+    def _control_id(registration: dict[str, Any]) -> str:
+        return f"{registration['run_id']}--{registration['orchestrator_id']}"
+
+    def _request(
+        self,
+        method: str,
+        path: str,
+        value: dict[str, Any] | None = None,
+        *,
+        update_fields: Iterable[str] | None = None,
+        allow_not_found: bool = False,
+    ) -> dict[str, Any] | None:
+        query: list[tuple[str, str]] = [("key", self.api_key)]
+        if update_fields is not None:
+            query.extend(("updateMask.fieldPaths", field) for field in update_fields)
+        url = f"{self.base_url}/{path}?{urlencode(query)}"
+        payload = None
+        headers = {"Accept": "application/json"}
+        if value is not None:
+            payload = json.dumps(_firestore_document(value)).encode("utf-8")
+            headers["Content-Type"] = "application/json"
+        request = Request(url, data=payload, headers=headers, method=method)
+        for attempt in range(3):
+            try:
+                with urlopen(request, timeout=20) as response:
+                    body = response.read()
+                return json.loads(body) if body else {}
+            except HTTPError as exc:
+                if exc.code == 404 and allow_not_found:
+                    return None
+                if exc.code in {429, 500, 502, 503, 504} and attempt < 2:
+                    time.sleep(attempt + 1)
+                    continue
+                try:
+                    detail = json.loads(exc.read()).get("error", {}).get("message")
+                except (json.JSONDecodeError, AttributeError):
+                    detail = None
+                raise MonitorError(
+                    f"Firestore {method} {path} failed ({exc.code})"
+                    + (f": {detail}" if detail else "")
+                ) from exc
+            except (URLError, TimeoutError) as exc:
+                if attempt < 2:
+                    time.sleep(attempt + 1)
+                    continue
+                raise MonitorError(f"Firestore {method} {path} failed: {exc}") from exc
+        raise MonitorError(f"Firestore {method} {path} failed")
+
+    def _write(
+        self,
+        path: str,
+        value: dict[str, Any],
+        *,
+        update_fields: Iterable[str] | None = None,
+    ) -> None:
+        secured = {**value, "_passcode_hash": self.passcode_hash}
+        fields = None
+        if update_fields is not None:
+            fields = [*update_fields, "_passcode_hash"]
+        self._request("PATCH", path, secured, update_fields=fields)
+
+    def _get(self, path: str) -> dict[str, Any] | None:
+        document = self._request("GET", path, allow_not_found=True)
+        return _from_firestore_document(document) if document is not None else None
+
+    def _orchestrator_path(self, registration: dict[str, Any]) -> str:
+        return self._path(
+            "runs",
+            registration["run_id"],
+            "orchestrators",
+            registration["orchestrator_id"],
         )
 
     def register(self, registration: dict[str, Any]) -> str:
-        worker_ref = self._db.collection("workers").document(registration["worker_id"])
-        worker_ref.set(
+        desired = self._read_control_state(registration) or "running"
+        self.last_desired_state = desired
+        self._write(
+            self._path("workers", registration["worker_id"]),
             {
                 "worker_id": registration["worker_id"],
                 "status": "online",
                 "heartbeat_at": utc_now(),
             },
-            merge=True,
         )
-        orchestrator_ref = self._orchestrator_ref(registration)
-        current = orchestrator_ref.get()
-        desired = "running"
-        if current.exists:
-            desired = (current.to_dict() or {}).get("desired_state", desired)
-        orchestrator_ref.set(
+        self._write(
+            self._orchestrator_path(registration),
             {
-                **registration,
+                **public_registration(registration),
                 "desired_state": desired,
                 "monitor_state": "online",
                 "registered_at": utc_now(),
             },
-            merge=True,
         )
         return desired
 
-    def desired_state(self, registration: dict[str, Any]) -> str | None:
-        snapshot = self._orchestrator_ref(registration).get()
-        if not snapshot.exists:
+    def _read_control_state(self, registration: dict[str, Any]) -> str | None:
+        control = self._get(
+            self._path("controls", self._control_id(registration))
+        )
+        if control is None or control.get("desired_state") not in {"running", "paused"}:
             return None
-        return (snapshot.to_dict() or {}).get("desired_state")
+        return str(control["desired_state"])
+
+    def desired_state(self, registration: dict[str, Any]) -> str | None:
+        desired = self._read_control_state(registration)
+        if desired is not None and desired != self.last_desired_state:
+            self._write(
+                self._orchestrator_path(registration),
+                {"desired_state": desired, "control_mirrored_at": utc_now()},
+                update_fields=("desired_state", "control_mirrored_at"),
+            )
+            self.last_desired_state = desired
+        return desired
 
     def heartbeat(self, registration: dict[str, Any], at: str) -> None:
-        self._db.collection("workers").document(registration["worker_id"]).set(
-            {"status": "online", "heartbeat_at": at}, merge=True
+        self._write(
+            self._path("workers", registration["worker_id"]),
+            {"status": "online", "heartbeat_at": at},
+            update_fields=("status", "heartbeat_at"),
         )
-        self._orchestrator_ref(registration).set(
-            {"monitor_state": "online", "heartbeat_at": at}, merge=True
+        self._write(
+            self._orchestrator_path(registration),
+            {"monitor_state": "online", "heartbeat_at": at},
+            update_fields=("monitor_state", "heartbeat_at"),
         )
 
     def upsert_task(self, task: dict[str, Any]) -> None:
-        (
-            self._db.collection("runs")
-            .document(task["run_id"])
-            .collection("tasks")
-            .document(task["task_id"])
-            .set(task, merge=True)
+        self._write(
+            self._path("runs", task["run_id"], "tasks", task["task_id"]), task
         )
 
     def upsert_artifact(self, task: dict[str, Any], artifact: dict[str, Any]) -> None:
-        (
-            self._db.collection("runs")
-            .document(task["run_id"])
-            .collection("tasks")
-            .document(task["task_id"])
-            .collection("artifacts")
-            .document(artifact["kind"])
-            .set(artifact, merge=True)
+        self._write(
+            self._path(
+                "runs",
+                task["run_id"],
+                "tasks",
+                task["task_id"],
+                "artifacts",
+                artifact["kind"],
+            ),
+            artifact,
         )
 
     def close(self, registration: dict[str, Any], at: str) -> None:
-        self._orchestrator_ref(registration).set(
-            {"monitor_state": "offline", "heartbeat_at": at}, merge=True
+        self._write(
+            self._orchestrator_path(registration),
+            {"monitor_state": "offline", "heartbeat_at": at},
+            update_fields=("monitor_state", "heartbeat_at"),
         )
 
 
@@ -555,7 +766,10 @@ def _event_stage(event: dict[str, Any]) -> str:
 
 def _latest_by_stage(events: list[dict[str, Any]]) -> dict[str, dict[str, Any]]:
     result: dict[str, dict[str, Any]] = {}
-    for event in sorted(events, key=lambda item: (str(item.get("at", "")), int(item.get("attempt", 0)))):
+    for event in sorted(
+        events,
+        key=lambda item: (int(item.get("attempt", 0)), str(item.get("at", ""))),
+    ):
         result[_event_stage(event)] = event
     return result
 
@@ -573,34 +787,48 @@ def _stage_state(
         "updated_at": event.get("at"),
     }
     event_status = event.get("event")
-    if event_status == "started":
-        state["status"] = "active"
-    elif event_status in TERMINAL_EVENTS:
-        state["status"] = event_status
-    elif event_status == "attention":
-        state["status"] = "attention"
     event_at = str(event.get("at", ""))
 
     def artifact_is_current(kind: str) -> bool:
         artifact = artifacts.get(kind)
         return bool(artifact and str(artifact.get("modified_at", "")) >= event_at)
 
-    if stage in LANES:
-        if artifact_is_current(stage):
-            state["status"] = "completed"
-        elif artifact_is_current(f"{stage}_discovery") and state["status"] in {"pending", "active"}:
+    if event_status in {"failed", "interrupted", "attention"}:
+        state["status"] = event_status
+        return state
+
+    if event_status == "completed":
+        required_artifact = stage if stage in LANES else "editorial"
+        if stage == "validator":
+            state["status"] = "passed" if "editorial" in artifacts else "attention"
+        else:
+            state["status"] = (
+                "completed" if required_artifact in artifacts else "attention"
+            )
+        return state
+
+    if event_status == "started":
+        state["status"] = "active"
+        if stage in LANES and artifact_is_current(f"{stage}_discovery"):
             state["status"] = "composing"
-        elif artifact_is_current(f"{stage}_prompt") and state["status"] == "pending":
+        elif stage == "canonical" and artifact_is_current("consolidated"):
+            state["status"] = "editing"
+        return state
+
+    if stage in LANES:
+        if stage in artifacts:
+            state["status"] = "completed"
+        elif f"{stage}_discovery" in artifacts:
+            state["status"] = "composing"
+        elif f"{stage}_prompt" in artifacts:
             state["status"] = "ready"
     elif stage == "canonical":
-        if artifact_is_current("editorial"):
+        if "editorial" in artifacts:
             state["status"] = "completed"
-        elif artifact_is_current("consolidated") and state["status"] in {"pending", "active"}:
+        elif "consolidated" in artifacts:
             state["status"] = "editing"
-        elif all(lane in artifacts for lane in LANES) and state["status"] == "pending":
+        elif all(lane in artifacts for lane in LANES):
             state["status"] = "ready"
-    elif stage == "validator" and event_status == "completed":
-        state["status"] = "passed"
     return state
 
 
@@ -614,14 +842,33 @@ def build_task(registration: dict[str, Any], ayah_ref: str) -> tuple[dict[str, A
     artifacts: dict[str, dict[str, Any]] = {}
     reader_artifacts: list[dict[str, Any]] = []
     latest_mtime_ns = 0
+    v5_root = V5_ROOT.resolve()
     for spec in artifact_specs(registration, ayah_ref):
         try:
-            stat = spec.path.stat()
-        except OSError:
+            resolved = spec.path.resolve(strict=True)
+            resolved.relative_to(v5_root)
+            stat = resolved.stat()
+        except (OSError, RuntimeError):
             continue
-        if not spec.path.is_file():
+        except ValueError:
             continue
-        latest_mtime_ns = max(latest_mtime_ns, stat.st_mtime_ns)
+        if not resolved.is_file():
+            continue
+        payload: bytes | None = None
+        content: str | None = None
+        if spec.reader_visible:
+            try:
+                payload = resolved.read_bytes()
+                second_stat = resolved.stat()
+                if (
+                    second_stat.st_mtime_ns != stat.st_mtime_ns
+                    or second_stat.st_size != stat.st_size
+                ):
+                    continue
+                if len(payload) <= MAX_ARTIFACT_BYTES:
+                    content = payload.decode("utf-8")
+            except (OSError, UnicodeDecodeError):
+                continue
         metadata = {
             "kind": spec.kind,
             "path": str(spec.path.relative_to(REPO_ROOT)),
@@ -631,16 +878,15 @@ def build_task(registration: dict[str, Any], ayah_ref: str) -> tuple[dict[str, A
             .replace("+00:00", "Z"),
         }
         artifacts[spec.kind] = metadata
+        latest_mtime_ns = max(latest_mtime_ns, stat.st_mtime_ns)
         if spec.reader_visible:
-            payload = spec.path.read_bytes()
+            assert payload is not None
             artifact = {
                 **metadata,
                 "sha256": hashlib.sha256(payload).hexdigest(),
                 "oversize": len(payload) > MAX_ARTIFACT_BYTES,
-                "content": None,
+                "content": content,
             }
-            if not artifact["oversize"]:
-                artifact["content"] = payload.decode("utf-8")
             reader_artifacts.append(artifact)
 
     latest = _latest_by_stage(events)
@@ -648,6 +894,14 @@ def build_task(registration: dict[str, Any], ayah_ref: str) -> tuple[dict[str, A
         stage: _stage_state(stage, latest, artifacts)
         for stage in (*LANES, "canonical", "validator")
     }
+    if "validator" not in latest and stages["canonical"]["status"] == "completed":
+        canonical = stages["canonical"]
+        stages["validator"] = {
+            "status": "passed",
+            "attempt": canonical["attempt"],
+            "agent_id": canonical["agent_id"],
+            "updated_at": canonical["updated_at"],
+        }
     attention = [
         {
             "stage": _event_stage(event),
@@ -656,13 +910,15 @@ def build_task(registration: dict[str, Any], ayah_ref: str) -> tuple[dict[str, A
             "at": event.get("at"),
         }
         for event in events
-        if event.get("event") in {"failed", "attention"}
+        if event.get("event") in {"failed", "interrupted", "attention"}
     ]
     current_failures = [
         stage for stage, value in stages.items() if value["status"] == "failed"
     ]
     current_attention = [
-        stage for stage, value in stages.items() if value["status"] == "attention"
+        stage
+        for stage, value in stages.items()
+        if value["status"] in {"attention", "interrupted"}
     ]
     if current_failures:
         status = "failed"
@@ -674,7 +930,7 @@ def build_task(registration: dict[str, Any], ayah_ref: str) -> tuple[dict[str, A
         status = "awaiting_validation"
     elif any(
         value["status"] not in {"pending", "ready"} for value in stages.values()
-    ) or artifacts:
+    ):
         status = "active"
     else:
         status = "pending"
@@ -711,7 +967,7 @@ class Monitor:
         *,
         interval: float,
         heartbeat_interval: float,
-        firebase: FirebaseSink | None,
+        firebase: RemoteSink | None,
     ) -> None:
         self.registration = registration
         self.interval = interval
@@ -721,17 +977,19 @@ class Monitor:
         self.stop_requested = False
         self.fingerprints: dict[Path, tuple[int, int]] = {}
         self.synced_artifacts: dict[tuple[str, str], str] = {}
+        self.pending_refs: set[str] = set()
         self.scope = set(registration["scope_refs"])
         self.last_heartbeat = 0.0
+        self.registration_synced = firebase is None
 
-    def _safe_remote(self, method: str, *args: Any) -> Any:
+    def _safe_remote(self, method: str, *args: Any) -> tuple[bool, Any]:
         if self.firebase is None:
-            return None
+            return True, None
         try:
-            return getattr(self.firebase, method)(*args)
+            return True, getattr(self.firebase, method)(*args)
         except Exception as exc:  # keep local monitoring alive during network loss
             print(f"{utc_now()} firebase {method} failed: {exc}", flush=True)
-            return None
+            return False, None
 
     def _mirror_control(self, desired: str | None) -> None:
         marker = control_marker(self.registration)
@@ -793,20 +1051,34 @@ class Monitor:
 
     def sync_ref(self, ayah_ref: str) -> None:
         task, artifacts = build_task(self.registration, ayah_ref)
-        self.local.upsert_task(task)
-        self._safe_remote("upsert_task", task)
+        if self.firebase is None:
+            self.local.upsert_task(task)
+            self.local.replace_artifacts(task, artifacts)
+        task_ok, _value = self._safe_remote("upsert_task", task)
+        remote_ok = task_ok
         for artifact in artifacts:
             key = (task["task_id"], artifact["kind"])
             if self.synced_artifacts.get(key) == artifact["sha256"]:
                 continue
-            self.local.upsert_artifact(task, artifact)
-            self._safe_remote("upsert_artifact", task, artifact)
-            self.synced_artifacts[key] = artifact["sha256"]
+            artifact_ok, _value = self._safe_remote("upsert_artifact", task, artifact)
+            remote_ok = remote_ok and artifact_ok
+            if artifact_ok:
+                self.synced_artifacts[key] = artifact["sha256"]
+        if remote_ok:
+            self.pending_refs.discard(ayah_ref)
+        else:
+            self.pending_refs.add(ayah_ref)
 
     def tick(self) -> None:
-        desired = self._safe_remote("desired_state", self.registration)
+        if not self.registration_synced:
+            registered, remote_desired = self._safe_remote("register", self.registration)
+            self.registration_synced = registered
+            if registered:
+                self._mirror_control(remote_desired)
+        _desired_ok, desired = self._safe_remote("desired_state", self.registration)
         self._mirror_control(desired)
-        for ayah_ref in sorted(self.changed_refs(), key=lambda ref: ref_parts(ref)):
+        changed = self.changed_refs() | self.pending_refs
+        for ayah_ref in sorted(changed, key=lambda ref: ref_parts(ref)):
             self.sync_ref(ayah_ref)
         now = time.monotonic()
         if now - self.last_heartbeat >= self.heartbeat_interval:
@@ -818,7 +1090,8 @@ class Monitor:
 
     def run(self, *, once: bool = False) -> None:
         desired = self.local.register(self.registration)
-        remote_desired = self._safe_remote("register", self.registration)
+        registered, remote_desired = self._safe_remote("register", self.registration)
+        self.registration_synced = registered
         self._mirror_control(remote_desired or desired)
         self.local.flush()
         while not self.stop_requested:
@@ -854,6 +1127,9 @@ def create_registration(args: argparse.Namespace) -> tuple[Path, dict[str, Any]]
     )
     analysis_id = validate_id(args.analysis_id, "analysis ID")
     scope_refs = expand_scope(args.scope)
+    passcode = (args.passcode or "").strip()
+    if not args.local_only and len(passcode) < 12:
+        raise MonitorError("--passcode or V5_MONITOR_PASSCODE must be at least 12 characters")
     registration = {
         "schema_version": "commentary-v5-orchestrator-registration-v1",
         "run_id": run_id,
@@ -868,6 +1144,10 @@ def create_registration(args: argparse.Namespace) -> tuple[Path, dict[str, Any]]
         "repo_root": str(REPO_ROOT),
         "poll_seconds": args.poll_seconds,
         "firebase_project_id": args.firebase_project,
+        "firebase_api_key": args.firebase_api_key,
+        "firebase_passcode_hash": (
+            hashlib.sha256(passcode.encode("utf-8")).hexdigest() if passcode else None
+        ),
     }
     path = registration_path(run_id, orchestrator_id)
     _atomic_write_json(path, registration)
@@ -878,12 +1158,8 @@ def command_start(args: argparse.Namespace) -> int:
     if not args.local_only:
         if not args.firebase_project:
             raise MonitorError("--firebase-project is required unless --local-only is used")
-        try:
-            import firebase_admin  # noqa: F401
-        except ImportError as exc:
-            raise MonitorError(
-                "Firebase sync requires `pip install -r _commentary/v5/operations/requirements.txt`"
-            ) from exc
+        if not args.firebase_api_key:
+            raise MonitorError("--firebase-api-key is required unless --local-only is used")
     path, registration = create_registration(args)
     log_path = _monitor_log_path(registration)
     log_path.parent.mkdir(parents=True, exist_ok=True)
@@ -932,9 +1208,11 @@ def command_run(args: argparse.Namespace) -> int:
     firebase = None
     if not args.local_only:
         project_id = registration.get("firebase_project_id")
-        if not project_id:
-            raise MonitorError("Registration has no Firebase project ID")
-        firebase = FirebaseSink(project_id)
+        api_key = registration.get("firebase_api_key")
+        passcode_hash = registration.get("firebase_passcode_hash")
+        if not project_id or not api_key or not passcode_hash:
+            raise MonitorError("Registration has incomplete Firebase API credentials")
+        firebase = FirebaseRestSink(project_id, api_key, passcode_hash)
     monitor = Monitor(
         registration,
         interval=float(registration.get("poll_seconds", 10)),
@@ -970,24 +1248,49 @@ def command_event(args: argparse.Namespace) -> int:
         raise MonitorError("Scope events require --lane micro, macro, or global")
     if args.role != "scope" and args.lane is not None:
         raise MonitorError("--lane is only valid for scope events")
-    event = {
-        "schema_version": "commentary-v5-operation-event-v1",
-        "event": args.status,
-        "at": utc_now(),
-        "run_id": registration["run_id"],
-        "worker_id": registration["worker_id"],
-        "orchestrator_id": registration["orchestrator_id"],
-        "agent_id": args.agent_id,
-        "ayah_ref": args.ayah_ref,
-        "role": args.role,
-        "lane": args.lane,
-        "attempt": args.attempt,
-        "message": args.message,
-    }
-    destination = event_path(
-        registration, args.ayah_ref, args.role, args.lane, args.attempt
-    )
-    _append_jsonl(destination, event)
+    directory = event_path(registration, args.ayah_ref, args.role, args.lane, 1).parent
+    directory.mkdir(parents=True, exist_ok=True)
+    lock_path = directory / f".{_event_task_name(args.role, args.lane)}.lock"
+    with lock_path.open("a", encoding="utf-8") as lock:
+        try:
+            import fcntl
+
+            fcntl.flock(lock.fileno(), fcntl.LOCK_EX)
+        except ImportError:
+            pass
+        attempt = resolve_attempt(
+            registration,
+            args.ayah_ref,
+            args.role,
+            args.lane,
+            args.status,
+            args.agent_id,
+            args.attempt,
+        )
+        event = {
+            "schema_version": "commentary-v5-operation-event-v1",
+            "event": args.status,
+            "at": utc_now(),
+            "run_id": registration["run_id"],
+            "worker_id": registration["worker_id"],
+            "orchestrator_id": registration["orchestrator_id"],
+            "agent_id": args.agent_id,
+            "ayah_ref": args.ayah_ref,
+            "role": args.role,
+            "lane": args.lane,
+            "attempt": attempt,
+            "message": args.message,
+        }
+        destination = event_path(
+            registration, args.ayah_ref, args.role, args.lane, attempt
+        )
+        _append_jsonl(destination, event)
+        try:
+            import fcntl
+
+            fcntl.flock(lock.fileno(), fcntl.LOCK_UN)
+        except ImportError:
+            pass
     print(str(destination))
     return 0
 
@@ -1037,7 +1340,15 @@ def parser() -> argparse.ArgumentParser:
         help="S, S-T, S:A, or S:A-B; may be repeated.",
     )
     start.add_argument("--poll-seconds", type=float, default=10)
-    start.add_argument("--firebase-project", default=os.environ.get("FIREBASE_PROJECT_ID"))
+    start.add_argument(
+        "--firebase-project",
+        default=os.environ.get("FIREBASE_PROJECT_ID", DEFAULT_FIREBASE_PROJECT_ID),
+    )
+    start.add_argument(
+        "--firebase-api-key",
+        default=os.environ.get("FIREBASE_API_KEY", DEFAULT_FIREBASE_API_KEY),
+    )
+    start.add_argument("--passcode", default=os.environ.get("V5_MONITOR_PASSCODE"))
     start.add_argument("--local-only", action="store_true")
     start.set_defaults(func=command_start)
 
@@ -1053,7 +1364,11 @@ def parser() -> argparse.ArgumentParser:
     event.add_argument("--ayah-ref", required=True)
     event.add_argument("--role", choices=sorted(ROLES), required=True)
     event.add_argument("--lane", choices=LANES)
-    event.add_argument("--attempt", type=int, default=1)
+    event.add_argument(
+        "--attempt",
+        type=int,
+        help="Override the automatically assigned or matched attempt number.",
+    )
     event.add_argument("--status", choices=sorted(EVENTS), required=True)
     event.add_argument("--agent-id")
     event.add_argument("--message")

@@ -53,6 +53,76 @@ class SnapshotTests(unittest.TestCase):
             value = json.loads(path.read_text(encoding="utf-8"))
             self.assertIn("task-1", value["tasks"])
 
+    def test_replacing_artifacts_removes_deleted_content(self):
+        with tempfile.TemporaryDirectory() as directory:
+            path = Path(directory) / "snapshot.json"
+            snapshot = monitor.LocalSnapshot(path)
+            task = {"task_id": "task-1"}
+            snapshot.replace_artifacts(task, [{"kind": "micro", "content": "old"}])
+            snapshot.flush()
+            value = json.loads(path.read_text(encoding="utf-8"))
+            self.assertNotIn("content", value["artifacts"]["task-1"]["micro"])
+            snapshot.replace_artifacts(task, [])
+            snapshot.flush()
+            value = json.loads(path.read_text(encoding="utf-8"))
+            self.assertEqual({}, value["artifacts"]["task-1"])
+
+
+class FirebaseRestTests(unittest.TestCase):
+    def test_firestore_document_round_trip(self):
+        value = {
+            "name": "monitor",
+            "count": 3,
+            "active": True,
+            "empty": None,
+            "stages": {"micro": {"status": "active"}},
+            "refs": ["1:1", "1:2"],
+        }
+        encoded = monitor._firestore_document(value)
+        self.assertEqual(value, monitor._from_firestore_document(encoded))
+
+    def test_public_registration_removes_bearer_hash(self):
+        registration = registration_fixture()
+        registration["firebase_passcode_hash"] = "a" * 64
+        public = monitor.public_registration(registration)
+        self.assertNotIn("firebase_passcode_hash", public)
+
+    def test_unchanged_control_does_not_repeat_remote_write(self):
+        sink = monitor.FirebaseRestSink("v5-monitor", "public-key", "a" * 64)
+        registration = registration_fixture()
+        with (
+            patch.object(sink, "_get", return_value={"desired_state": "paused"}),
+            patch.object(sink, "_write") as write,
+        ):
+            self.assertEqual("paused", sink.desired_state(registration))
+            self.assertEqual("paused", sink.desired_state(registration))
+        self.assertEqual(1, write.call_count)
+
+
+class FailingArtifactSink:
+    def __init__(self):
+        self.artifact_calls = 0
+
+    def register(self, _registration):
+        return "running"
+
+    def desired_state(self, _registration):
+        return None
+
+    def heartbeat(self, _registration, _at):
+        return None
+
+    def upsert_task(self, _task):
+        return None
+
+    def upsert_artifact(self, _task, _artifact):
+        self.artifact_calls += 1
+        if self.artifact_calls == 1:
+            raise RuntimeError("temporary")
+
+    def close(self, _registration, _at):
+        return None
+
 
 class EventAndTaskTests(unittest.TestCase):
     def setUp(self):
@@ -93,9 +163,57 @@ class EventAndTaskTests(unittest.TestCase):
                 message=None,
             )
             self.assertEqual(0, monitor.command_event(args))
+        artifact = self.v5 / "raw" / "native" / "s029" / "29_38" / "micro.scope.tr.md"
+        artifact.parent.mkdir(parents=True, exist_ok=True)
+        artifact.write_text("complete", encoding="utf-8")
         task, _artifacts = monitor.build_task(self.registration, "29:38")
         self.assertEqual("completed", task["stages"]["micro"]["status"])
         self.assertEqual("agent-7", task["stages"]["micro"]["agent_id"])
+
+    def test_attempts_are_allocated_and_matched_automatically(self):
+        def write(status, agent_id):
+            return monitor.command_event(
+                argparse.Namespace(
+                    run_id="run-1",
+                    orchestrator_id="orch-1",
+                    ayah_ref="29:38",
+                    role="scope",
+                    lane="macro",
+                    attempt=None,
+                    status=status,
+                    agent_id=agent_id,
+                    message=None,
+                )
+            )
+
+        self.assertEqual(0, write("started", "agent-1"))
+        self.assertEqual(0, write("failed", "agent-1"))
+        self.assertEqual(0, write("started", "agent-2"))
+        self.assertEqual(0, write("completed", "agent-2"))
+        artifact = self.v5 / "raw" / "native" / "s029" / "29_38" / "macro.scope.tr.md"
+        artifact.parent.mkdir(parents=True, exist_ok=True)
+        artifact.write_text("complete", encoding="utf-8")
+        task, _artifacts = monitor.build_task(self.registration, "29:38")
+        self.assertEqual(2, task["stages"]["macro"]["attempt"])
+        self.assertEqual("completed", task["stages"]["macro"]["status"])
+
+    def test_parallel_starts_get_distinct_attempts(self):
+        common = {
+            "run_id": "run-1",
+            "orchestrator_id": "orch-1",
+            "ayah_ref": "29:38",
+            "role": "scope",
+            "lane": "global",
+            "attempt": None,
+            "status": "started",
+            "message": None,
+        }
+        monitor.command_event(argparse.Namespace(**common, agent_id="agent-1"))
+        monitor.command_event(argparse.Namespace(**common, agent_id="agent-2"))
+        first = monitor.event_path(self.registration, "29:38", "scope", "global", 1)
+        second = monitor.event_path(self.registration, "29:38", "scope", "global", 2)
+        self.assertTrue(first.exists())
+        self.assertTrue(second.exists())
 
     def test_new_attempt_is_not_hidden_by_old_artifact(self):
         artifact = self.v5 / "raw" / "native" / "s029" / "29_38" / "micro.scope.tr.md"
@@ -118,6 +236,90 @@ class EventAndTaskTests(unittest.TestCase):
         self.assertEqual("active", task["stages"]["micro"]["status"])
         self.assertEqual(2, task["stages"]["micro"]["attempt"])
 
+    def test_prompt_files_alone_leave_task_pending(self):
+        prompt = self.v5 / "input" / "native" / "s029" / "29_38" / "micro.discovery.prompt.md"
+        prompt.parent.mkdir(parents=True, exist_ok=True)
+        prompt.write_text("prepared", encoding="utf-8")
+        task, _artifacts = monitor.build_task(self.registration, "29:38")
+        self.assertEqual("pending", task["status"])
+        self.assertEqual("ready", task["stages"]["micro"]["status"])
+
+    def test_later_old_attempt_does_not_override_new_attempt(self):
+        directory = monitor.event_path(
+            self.registration, "29:38", "scope", "micro", 1
+        ).parent
+        directory.mkdir(parents=True, exist_ok=True)
+        monitor._append_jsonl(
+            directory / "micro.002.jsonl",
+            {
+                "event": "started",
+                "at": "2026-09-04T12:00:00Z",
+                "role": "scope",
+                "lane": "micro",
+                "attempt": 2,
+                "agent_id": "agent-2",
+            },
+        )
+        monitor._append_jsonl(
+            directory / "micro.001.jsonl",
+            {
+                "event": "failed",
+                "at": "2026-09-04T13:00:00Z",
+                "role": "scope",
+                "lane": "micro",
+                "attempt": 1,
+                "agent_id": "agent-1",
+            },
+        )
+        task, _artifacts = monitor.build_task(self.registration, "29:38")
+        self.assertEqual(2, task["stages"]["micro"]["attempt"])
+        self.assertEqual("active", task["stages"]["micro"]["status"])
+
+    def test_failure_is_not_hidden_by_artifact(self):
+        artifact = self.v5 / "raw" / "native" / "s029" / "29_38" / "global.scope.tr.md"
+        artifact.parent.mkdir(parents=True, exist_ok=True)
+        artifact.write_text("partial", encoding="utf-8")
+        monitor._append_jsonl(
+            monitor.event_path(self.registration, "29:38", "scope", "global", 1),
+            {
+                "event": "failed",
+                "at": "2026-09-04T13:00:00Z",
+                "role": "scope",
+                "lane": "global",
+                "attempt": 1,
+                "agent_id": "agent-1",
+            },
+        )
+        task, _artifacts = monitor.build_task(self.registration, "29:38")
+        self.assertEqual("failed", task["stages"]["global"]["status"])
+        self.assertEqual("failed", task["status"])
+
+    def test_canonical_completion_implies_validation(self):
+        artifact = (
+            self.v5
+            / "editorial"
+            / "native"
+            / "s029"
+            / "29_38"
+            / "29_38.prose.editorial.tr.md"
+        )
+        artifact.parent.mkdir(parents=True, exist_ok=True)
+        artifact.write_text("editorial", encoding="utf-8")
+        monitor._append_jsonl(
+            monitor.event_path(self.registration, "29:38", "canonical", None, 1),
+            {
+                "event": "completed",
+                "at": "2026-09-04T13:00:00Z",
+                "role": "canonical",
+                "lane": None,
+                "attempt": 1,
+                "agent_id": "agent-c",
+            },
+        )
+        task, _artifacts = monitor.build_task(self.registration, "29:38")
+        self.assertEqual("passed", task["stages"]["validator"]["status"])
+        self.assertEqual("completed", task["status"])
+
     def test_local_control_creates_and_removes_marker(self):
         for state in ("paused", "running"):
             args = argparse.Namespace(
@@ -125,6 +327,24 @@ class EventAndTaskTests(unittest.TestCase):
             )
             self.assertEqual(0, monitor.command_control(args))
         self.assertFalse(monitor.control_marker(self.registration).exists())
+
+    def test_failed_remote_artifact_is_retried(self):
+        artifact = self.v5 / "raw" / "native" / "s029" / "29_38" / "micro.scope.tr.md"
+        artifact.parent.mkdir(parents=True, exist_ok=True)
+        artifact.write_text("retry", encoding="utf-8")
+        sink = FailingArtifactSink()
+        daemon = monitor.Monitor(
+            self.registration,
+            interval=10,
+            heartbeat_interval=60,
+            firebase=sink,
+        )
+        daemon.sync_ref("29:38")
+        self.assertIn("29:38", daemon.pending_refs)
+        self.assertEqual({}, daemon.synced_artifacts)
+        daemon.sync_ref("29:38")
+        self.assertNotIn("29:38", daemon.pending_refs)
+        self.assertEqual(2, sink.artifact_calls)
 
 
 def registration_fixture():

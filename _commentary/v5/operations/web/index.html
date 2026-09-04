@@ -11,14 +11,65 @@
     <header class="topbar">
       <div class="brand-block">
         <p class="product-kicker">Kelimeden Kelama</p>
-        <h1>V5 Commentary Operations</h1>
+        <h1>V5 Commentary Operations <span id="app-version" class="app-version"></span></h1>
       </div>
       <div class="connection-block">
         <span id="connection-dot" class="connection-dot" aria-hidden="true"></span>
         <span id="connection-label">Connecting</span>
+        <button id="manage-passcodes" class="button secondary" type="button" hidden>Passcodes</button>
         <button id="sign-in" class="button secondary" type="button" hidden>Sign in</button>
       </div>
     </header>
+
+    <section id="version-banner" class="version-banner" aria-live="polite" hidden>
+      <strong id="version-banner-text">New version available</strong>
+      <button id="update-app" class="button" type="button">Update</button>
+    </section>
+
+    <section id="passcode-admin" class="admin-page" aria-labelledby="passcode-heading" hidden>
+      <div class="admin-heading">
+        <div>
+          <p class="product-kicker">Daemon access</p>
+          <h2 id="passcode-heading">Allowed passcodes</h2>
+        </div>
+        <button id="close-passcodes" class="icon-button" type="button" title="Close passcodes" aria-label="Close passcodes">&#215;</button>
+      </div>
+      <form id="passcode-form" class="passcode-form">
+        <label class="field">
+          <span>Label</span>
+          <input id="passcode-label" type="text" maxlength="80" placeholder="Office Mac" autocomplete="off" required>
+        </label>
+        <label class="field passcode-field">
+          <span>Passcode</span>
+          <input id="passcode-value" type="password" minlength="12" autocomplete="new-password" required>
+        </label>
+        <button id="generate-passcode" class="button" type="button">Generate</button>
+        <button id="allow-passcode" class="button primary" type="submit">Allow</button>
+      </form>
+      <div id="created-passcode" class="created-passcode" hidden>
+        <label class="field">
+          <span>New passcode</span>
+          <input id="created-passcode-value" type="text" readonly>
+        </label>
+        <button id="copy-passcode" class="button" type="button">Copy</button>
+        <span id="passcode-result" role="status"></span>
+      </div>
+      <div class="passcode-table-wrap">
+        <table class="passcode-table">
+          <thead>
+            <tr>
+              <th>Label</th>
+              <th>Fingerprint</th>
+              <th>State</th>
+              <th>Created</th>
+              <th>Action</th>
+            </tr>
+          </thead>
+          <tbody id="passcode-rows"></tbody>
+        </table>
+        <p id="passcode-empty" class="empty-state">No passcodes.</p>
+      </div>
+    </section>
 
     <section class="commandbar" aria-label="Run and orchestration controls">
       <label class="field compact-field">
@@ -133,4 +184,3 @@
     <script type="module" src="./app.js"></script>
   </body>
 </html>
-

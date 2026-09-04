@@ -89,6 +89,14 @@ h1 {
   letter-spacing: 0;
 }
 
+.app-version {
+  margin-left: 5px;
+  color: #a9c7c5;
+  font-size: 11px;
+  font-weight: 650;
+  white-space: nowrap;
+}
+
 h2 {
   margin-bottom: 0;
   font-size: 16px;
@@ -118,6 +126,19 @@ h2 {
 
 .connection-dot.error {
   background: #dc7272;
+}
+
+.version-banner {
+  min-height: 42px;
+  padding: 5px 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  color: #593600;
+  background: var(--amber-soft);
+  border-bottom: 1px solid #ecc77e;
+  font-size: 13px;
 }
 
 .commandbar {
@@ -173,6 +194,12 @@ select {
 
 .button {
   padding: 0 12px;
+}
+
+.button.primary {
+  color: #fff;
+  background: var(--teal);
+  border-color: var(--teal);
 }
 
 .topbar .button {
@@ -236,6 +263,71 @@ button:disabled {
 
 main {
   min-width: 0;
+}
+
+.admin-page {
+  min-height: calc(100vh - 72px);
+  background: var(--surface);
+}
+
+.admin-heading {
+  min-height: 70px;
+  padding: 14px 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid var(--line);
+}
+
+.admin-heading .product-kicker {
+  color: var(--muted);
+}
+
+.passcode-form {
+  padding: 18px 24px;
+  display: grid;
+  grid-template-columns: minmax(180px, 280px) minmax(240px, 420px) auto auto;
+  align-items: end;
+  gap: 10px;
+  background: #f1f4f3;
+  border-bottom: 1px solid var(--line);
+}
+
+.created-passcode {
+  min-height: 66px;
+  padding: 10px 24px;
+  display: flex;
+  align-items: end;
+  gap: 10px;
+  color: var(--muted);
+  border-bottom: 1px solid var(--line);
+  font-size: 12px;
+}
+
+.created-passcode .field {
+  width: min(440px, 60vw);
+}
+
+.created-passcode input {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+}
+
+.passcode-table-wrap {
+  overflow-x: auto;
+}
+
+.passcode-table {
+  min-width: 680px;
+}
+
+.passcode-table th:nth-child(1) { width: 26%; }
+.passcode-table th:nth-child(2) { width: 24%; }
+.passcode-table th:nth-child(3) { width: 14%; }
+.passcode-table th:nth-child(4) { width: 20%; }
+.passcode-table th:nth-child(5) { width: 16%; }
+
+.passcode-table td:nth-child(2) {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
 }
 
 .metrics {
@@ -358,12 +450,12 @@ th {
   text-transform: uppercase;
 }
 
-th:nth-child(1) { width: 78px; }
-th:nth-child(2) { width: 150px; }
-th:nth-child(3) { width: 140px; }
-th:nth-child(4) { width: 130px; }
-th:nth-child(5) { width: 72px; }
-th:nth-child(6) { width: 118px; }
+.queue th:nth-child(1) { width: 78px; }
+.queue th:nth-child(2) { width: 150px; }
+.queue th:nth-child(3) { width: 140px; }
+.queue th:nth-child(4) { width: 130px; }
+.queue th:nth-child(5) { width: 72px; }
+.queue th:nth-child(6) { width: 118px; }
 
 td {
   height: 48px;
@@ -628,10 +720,43 @@ tbody tr.selected {
     font-size: 11px;
   }
 
+  .version-banner {
+    padding-right: 14px;
+    padding-left: 14px;
+  }
+
   .commandbar {
     padding: 8px 12px;
     align-items: end;
     flex-wrap: wrap;
+  }
+
+  .admin-page {
+    min-height: calc(100vh - 66px);
+  }
+
+  .admin-heading,
+  .passcode-form,
+  .created-passcode {
+    padding-left: 14px;
+    padding-right: 14px;
+  }
+
+  .passcode-form {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .passcode-form .field {
+    grid-column: 1 / -1;
+  }
+
+  .created-passcode {
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  .created-passcode .field {
+    width: 100%;
   }
 
   .compact-field,

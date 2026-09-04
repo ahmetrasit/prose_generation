@@ -2,35 +2,64 @@ rules_version = '2';
 
 service cloud.firestore {
   match /databases/{database}/documents {
-    function signedIn() {
-      return request.auth != null;
+    function operator() {
+      return request.auth != null
+        && request.auth.token.email_verified == true
+        && request.auth.token.email == 'ozturk.ahmetr@gmail.com';
     }
 
-    function verifiedOperator() {
-      return signedIn() && request.auth.token.email_verified == true;
+    function allowedPasscode() {
+      return request.auth == null
+        && request.resource.data._passcode_hash is string
+        && request.resource.data._passcode_hash.size() == 64
+        && exists(
+          /databases/$(database)/documents/passcodes/$(request.resource.data._passcode_hash)
+        )
+        && get(
+          /databases/$(database)/documents/passcodes/$(request.resource.data._passcode_hash)
+        ).data.active == true;
+    }
+
+    match /passcodes/{passcodeHash} {
+      allow read, create, update, delete: if operator();
     }
 
     match /workers/{workerId} {
-      allow read: if signedIn();
-      allow write: if false;
+      allow read: if operator();
+      allow create, update: if allowedPasscode();
+      allow delete: if false;
+    }
+
+    match /controls/{controlId} {
+      allow get: if true;
+      allow list: if operator();
+      allow create, update: if operator()
+        && request.resource.data.keys().hasOnly([
+          'control_id',
+          'run_id',
+          'orchestrator_id',
+          'desired_state',
+          'control_requested_at'
+        ])
+        && request.resource.data.desired_state in ['running', 'paused'];
+      allow delete: if false;
     }
 
     match /runs/{runId}/orchestrators/{orchestratorId} {
-      allow read: if signedIn();
-      allow create, delete: if false;
-      allow update: if verifiedOperator()
-        && request.resource.data.diff(resource.data).affectedKeys()
-          .hasOnly(['desired_state', 'control_requested_at'])
-        && request.resource.data.desired_state in ['running', 'paused'];
+      allow read: if operator();
+      allow create, update: if allowedPasscode();
+      allow delete: if false;
     }
 
     match /runs/{runId}/tasks/{taskId} {
-      allow read: if signedIn();
-      allow write: if false;
+      allow read: if operator();
+      allow create, update: if allowedPasscode();
+      allow delete: if false;
 
       match /artifacts/{artifactId} {
-        allow read: if signedIn();
-        allow write: if false;
+        allow read: if operator();
+        allow create, update: if allowedPasscode();
+        allow delete: if false;
       }
     }
   }

@@ -15,7 +15,7 @@ const stageNames = {
 
 const elements = Object.fromEntries(
   [
-    "connection-dot", "connection-label", "sign-in", "run-id",
+    "connection-dot", "connection-label", "sign-in", "manage-passcodes", "app-version", "run-id",
     "orchestrator-select", "refresh", "resume", "pause", "control-note",
     "metric-total", "metric-pending", "metric-active", "metric-agents",
     "metric-completed", "metric-attention", "metric-reruns",
@@ -23,10 +23,16 @@ const elements = Object.fromEntries(
     "queue-caption", "search", "status-filter", "task-rows", "empty-state",
     "previous-page", "next-page", "page-label", "reader-heading",
     "artifact-tabs", "reader-meta", "reader-content", "close-reader",
+    "passcode-admin", "close-passcodes", "passcode-form", "passcode-label",
+    "passcode-value", "generate-passcode", "allow-passcode", "created-passcode",
+    "created-passcode-value", "copy-passcode", "passcode-result", "passcode-rows",
+    "passcode-empty", "version-banner", "version-banner-text", "update-app",
   ].map((id) => [id, document.getElementById(id)])
 );
 
 const params = new URLSearchParams(window.location.search);
+elements["app-version"].textContent = `v${dashboardConfig.appVersion}`;
+document.title = `V5 Commentary Operations v${dashboardConfig.appVersion}`;
 const state = {
   mode: firebaseConfig && params.get("local") !== "1" ? "firebase" : "local",
   runId: params.get("run") || dashboardConfig.defaultRunId,
@@ -37,6 +43,9 @@ const state = {
   selectedArtifact: null,
   page: 1,
   lastLoadAt: null,
+  contentCache: new Map(),
+  passcodes: {},
+  adminOpen: false,
 };
 
 function emptySnapshot() {
@@ -159,9 +168,10 @@ function displayStatus(task) {
 }
 
 function isStalled(task) {
-  if (!task.updated_at) return false;
-  const age = Date.now() - new Date(task.updated_at).getTime();
-  return age > dashboardConfig.staleAfterMinutes * 60 * 1000;
+  const threshold = dashboardConfig.staleAfterMinutes * 60 * 1000;
+  return activeStages(task).some(([, stage]) => (
+    stage.updated_at && Date.now() - new Date(stage.updated_at).getTime() > threshold
+  ));
 }
 
 function activeStages(task) {
@@ -227,7 +237,7 @@ function updateMetrics(tasks) {
   elements["attention-strip"].hidden = attention.length === 0;
   const failures = attention.filter((task) => task.status === "failed").length;
   const stalled = attention.filter((task) => displayStatus(task) === "stalled").length;
-  elements["attention-title"].textContent = `${attention.length} ayah${attention.length === 1 ? "" : "s"} need attention`;
+  elements["attention-title"].textContent = `${attention.length} ayah${attention.length === 1 ? " needs" : "s need"} attention`;
   elements["attention-detail"].textContent = `${failures} failed, ${stalled} potentially stalled`;
 }
 
@@ -311,7 +321,8 @@ async function selectTask(task) {
 
 function renderReader(task) {
   const artifacts = state.snapshot.artifacts?.[task.task_id] || {};
-  const available = ARTIFACT_ORDER.filter((kind) => artifacts[kind]);
+  const currentKinds = new Set(task.artifact_kinds || []);
+  const available = ARTIFACT_ORDER.filter((kind) => artifacts[kind] && currentKinds.has(kind));
   elements["artifact-tabs"].replaceChildren();
   if (!state.selectedArtifact || !available.includes(state.selectedArtifact)) {
     state.selectedArtifact = available.includes("editorial") ? "editorial" : available.at(-1) || null;
@@ -336,16 +347,158 @@ function renderReader(task) {
   }
   const artifact = artifacts[state.selectedArtifact];
   elements["reader-meta"].textContent = `${artifact.path} / ${Number(artifact.size || 0).toLocaleString()} bytes / ${relativeTime(artifact.modified_at)}`;
-  if (artifact.oversize || artifact.content == null) {
+  if (artifact.oversize) {
     elements["reader-content"].innerHTML = '<p class="reader-placeholder">This artifact exceeds the inline reader limit.</p>';
+  } else if (artifact.content == null && state.mode === "local") {
+    elements["reader-content"].innerHTML = '<p class="reader-placeholder">Loading prose...</p>';
+    loadLocalArtifact(task, artifact);
+  } else if (artifact.content == null) {
+    elements["reader-content"].innerHTML = '<p class="reader-placeholder">Prose content is unavailable.</p>';
   } else {
     elements["reader-content"].innerHTML = renderMarkup(artifact.content);
+  }
+}
+
+async function loadLocalArtifact(task, artifact) {
+  const cacheKey = artifact.sha256 || `${artifact.path}:${artifact.modified_at}`;
+  try {
+    if (!state.contentCache.has(cacheKey)) {
+      const path = artifact.path.split("/").map(encodeURIComponent).join("/");
+      const response = await fetch(`/${path}`, { cache: "no-store" });
+      if (!response.ok) throw new Error(`HTTP ${response.status}`);
+      state.contentCache.set(cacheKey, await response.text());
+    }
+    artifact.content = state.contentCache.get(cacheKey);
+    if (state.selectedTaskId === task.task_id) renderReader(task);
+  } catch (error) {
+    elements["reader-content"].innerHTML = `<p class="reader-placeholder">Could not load prose: ${escapeHtml(error.message)}</p>`;
   }
 }
 
 function setConnection(label, kind = "online") {
   elements["connection-label"].textContent = label;
   elements["connection-dot"].className = `connection-dot ${kind}`;
+}
+
+async function checkForUpdate() {
+  try {
+    const configUrl = new URL("./firebase-config.js", import.meta.url);
+    configUrl.searchParams.set("check", Date.now());
+    const latest = await import(configUrl.href);
+    const latestVersion = latest.dashboardConfig?.appVersion;
+    if (latestVersion && latestVersion !== dashboardConfig.appVersion) {
+      elements["version-banner-text"].textContent = `Version v${latestVersion} is available`;
+      elements["version-banner"].hidden = false;
+    }
+  } catch (_error) {
+    // A failed update check should not interrupt monitoring.
+  }
+}
+
+function setAdminOpen(open) {
+  state.adminOpen = open;
+  elements["passcode-admin"].hidden = !open;
+  document.querySelector(".commandbar").hidden = open;
+  document.querySelector("main").hidden = open;
+}
+
+function generatePasscode() {
+  const bytes = crypto.getRandomValues(new Uint8Array(18));
+  return [...bytes].map((value) => value.toString(16).padStart(2, "0")).join("");
+}
+
+async function hashPasscode(passcode) {
+  const digest = await crypto.subtle.digest("SHA-256", new TextEncoder().encode(passcode));
+  return [...new Uint8Array(digest)]
+    .map((value) => value.toString(16).padStart(2, "0"))
+    .join("");
+}
+
+function firestoreDate(value) {
+  if (value?.toDate) return value.toDate();
+  return value ? new Date(value) : null;
+}
+
+function renderPasscodes() {
+  const entries = Object.values(state.passcodes).sort((first, second) => {
+    if (Boolean(first.active) !== Boolean(second.active)) return first.active ? -1 : 1;
+    return String(first.label || "").localeCompare(String(second.label || ""));
+  });
+  elements["passcode-rows"].replaceChildren();
+  elements["passcode-empty"].hidden = entries.length !== 0;
+  for (const passcode of entries) {
+    const row = document.createElement("tr");
+    const created = firestoreDate(passcode.created_at);
+    const values = [
+      passcode.label || "Unnamed",
+      `${String(passcode.fingerprint || "").slice(0, 12)}...`,
+      passcode.active ? "Allowed" : "Revoked",
+      created && !Number.isNaN(created.getTime()) ? created.toLocaleString() : "Pending",
+    ];
+    for (const value of values) {
+      const cell = document.createElement("td");
+      cell.textContent = value;
+      row.append(cell);
+    }
+    const actionCell = document.createElement("td");
+    const action = document.createElement("button");
+    action.type = "button";
+    action.className = "button";
+    action.textContent = passcode.active ? "Revoke" : "Allow";
+    action.addEventListener("click", () => setPasscodeActive(passcode.fingerprint, !passcode.active));
+    actionCell.append(action);
+    row.append(actionCell);
+    elements["passcode-rows"].append(row);
+  }
+}
+
+async function setPasscodeActive(fingerprint, active) {
+  if (!state.firebase?.user) return;
+  const { storeApi, db } = state.firebase;
+  try {
+    await storeApi.updateDoc(storeApi.doc(db, "passcodes", fingerprint), {
+      active,
+      updated_at: storeApi.serverTimestamp(),
+    });
+  } catch (error) {
+    elements["passcode-result"].textContent = error.message;
+  }
+}
+
+async function allowPasscode(event) {
+  event.preventDefault();
+  if (!state.firebase?.user) return;
+  const label = elements["passcode-label"].value.trim();
+  const passcode = elements["passcode-value"].value.trim();
+  if (passcode.length < 12) {
+    elements["passcode-value"].setCustomValidity("Use at least 12 characters.");
+    elements["passcode-value"].reportValidity();
+    return;
+  }
+  elements["passcode-value"].setCustomValidity("");
+  const fingerprint = await hashPasscode(passcode);
+  const { storeApi, db, user } = state.firebase;
+  elements["allow-passcode"].disabled = true;
+  try {
+    await storeApi.setDoc(storeApi.doc(db, "passcodes", fingerprint), {
+      fingerprint,
+      label,
+      active: true,
+      created_at: storeApi.serverTimestamp(),
+      updated_at: storeApi.serverTimestamp(),
+      created_by: user.email,
+    }, { merge: true });
+    elements["created-passcode-value"].value = passcode;
+    elements["created-passcode"].hidden = false;
+    elements["passcode-result"].textContent = "Allowed";
+    elements["passcode-value"].value = "";
+    elements["passcode-value"].type = "password";
+  } catch (error) {
+    elements["passcode-result"].textContent = error.message;
+    elements["created-passcode"].hidden = false;
+  } finally {
+    elements["allow-passcode"].disabled = false;
+  }
 }
 
 async function loadLocal() {
@@ -381,9 +534,12 @@ async function initializeFirebase() {
   authApi.onAuthStateChanged(auth, (user) => {
     state.firebase.user = user;
     elements["sign-in"].textContent = user ? "Sign out" : "Sign in";
+    elements["manage-passcodes"].hidden = !user;
     if (user) subscribeFirebase();
     else {
       unsubscribeFirebase();
+      setAdminOpen(false);
+      state.passcodes = {};
       state.snapshot = emptySnapshot();
       setConnection("Sign in required", "error");
       render();
@@ -403,6 +559,7 @@ function subscribeFirebase() {
   const onError = (error) => setConnection(`Firebase error: ${error.code || error.message}`, "error");
   const orchestratorsRef = storeApi.collection(db, "runs", state.runId, "orchestrators");
   const tasksRef = storeApi.collection(db, "runs", state.runId, "tasks");
+  const passcodesRef = storeApi.collection(db, "passcodes");
   state.unsubscribe.push(storeApi.onSnapshot(orchestratorsRef, (result) => {
     state.snapshot.orchestrators = Object.fromEntries(result.docs.map((doc) => [doc.id, doc.data()]));
     setConnection(`Firebase / ${state.firebase.user.email}`);
@@ -411,6 +568,10 @@ function subscribeFirebase() {
   state.unsubscribe.push(storeApi.onSnapshot(tasksRef, (result) => {
     state.snapshot.tasks = Object.fromEntries(result.docs.map((doc) => [doc.id, doc.data()]));
     render();
+  }, onError));
+  state.unsubscribe.push(storeApi.onSnapshot(passcodesRef, (result) => {
+    state.passcodes = Object.fromEntries(result.docs.map((document) => [document.id, document.data()]));
+    renderPasscodes();
   }, onError));
 }
 
@@ -425,8 +586,22 @@ async function setRemoteControl(desiredState) {
   const orchestratorId = elements["orchestrator-select"].value;
   if (!orchestratorId || !state.firebase?.user) return;
   const { storeApi, db } = state.firebase;
-  const reference = storeApi.doc(db, "runs", state.runId, "orchestrators", orchestratorId);
-  await storeApi.updateDoc(reference, { desired_state: desiredState, control_requested_at: storeApi.serverTimestamp() });
+  const controlId = `${state.runId}--${orchestratorId}`;
+  const reference = storeApi.doc(db, "controls", controlId);
+  try {
+    await storeApi.setDoc(reference, {
+      control_id: controlId,
+      run_id: state.runId,
+      orchestrator_id: orchestratorId,
+      desired_state: desiredState,
+      control_requested_at: storeApi.serverTimestamp(),
+    }, { merge: true });
+    const orchestrator = state.snapshot.orchestrators[orchestratorId];
+    if (orchestrator) orchestrator.desired_state = desiredState;
+    renderControls();
+  } catch (error) {
+    setConnection(`Control failed: ${error.code || error.message}`, "error");
+  }
 }
 
 function changeRun() {
@@ -509,6 +684,25 @@ elements["orchestrator-select"].addEventListener("change", renderControls);
 elements.resume.addEventListener("click", () => setRemoteControl("running"));
 elements.pause.addEventListener("click", () => setRemoteControl("paused"));
 elements["close-reader"].addEventListener("click", () => document.querySelector(".reader").classList.remove("open"));
+elements["manage-passcodes"].addEventListener("click", () => setAdminOpen(true));
+elements["close-passcodes"].addEventListener("click", () => setAdminOpen(false));
+elements["generate-passcode"].addEventListener("click", () => {
+  elements["passcode-value"].value = generatePasscode();
+  elements["passcode-value"].type = "text";
+});
+elements["passcode-value"].addEventListener("input", () => {
+  elements["passcode-value"].setCustomValidity("");
+});
+elements["passcode-form"].addEventListener("submit", allowPasscode);
+elements["copy-passcode"].addEventListener("click", async () => {
+  try {
+    await navigator.clipboard.writeText(elements["created-passcode-value"].value);
+    elements["passcode-result"].textContent = "Copied";
+  } catch (error) {
+    elements["passcode-result"].textContent = error.message;
+  }
+});
+elements["update-app"].addEventListener("click", () => window.location.reload());
 elements["sign-in"].addEventListener("click", async () => {
   const { authApi, auth, user } = state.firebase;
   if (user) await authApi.signOut(auth);
@@ -521,3 +715,4 @@ if (state.mode === "local") {
 } else {
   initializeFirebase().catch((error) => setConnection(`Firebase startup failed: ${error.message}`, "error"));
 }
+window.setInterval(checkForUpdate, 60000);
