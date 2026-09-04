@@ -99,6 +99,17 @@ class FirebaseRestTests(unittest.TestCase):
             self.assertEqual("paused", sink.desired_state(registration))
         self.assertEqual(1, write.call_count)
 
+    def test_registration_creates_run_index_for_session_discovery(self):
+        sink = monitor.FirebaseRestSink("v5-monitor", "public-key", "a" * 64)
+        registration = registration_fixture()
+        with (
+            patch.object(sink, "_read_control_state", return_value=None),
+            patch.object(sink, "_write") as write,
+        ):
+            self.assertEqual("running", sink.register(registration))
+        self.assertEqual("runs/run-1", write.call_args_list[0].args[0])
+        self.assertEqual("run-1", write.call_args_list[0].args[1]["run_id"])
+
 
 class FailingArtifactSink:
     def __init__(self):
@@ -222,6 +233,30 @@ class EventAndTaskTests(unittest.TestCase):
         self.assertTrue(first.exists())
         self.assertTrue(second.exists())
 
+    def test_terminal_event_never_closes_another_agents_attempt(self):
+        started = argparse.Namespace(
+            run_id="run-1",
+            orchestrator_id="orch-1",
+            ayah_ref="29:38",
+            role="scope",
+            lane="macro",
+            attempt=None,
+            status="started",
+            agent_id="agent-1",
+            message=None,
+        )
+        monitor.command_event(started)
+        with self.assertRaisesRegex(monitor.MonitorError, "another agent"):
+            monitor.command_event(
+                argparse.Namespace(
+                    **{
+                        **vars(started),
+                        "status": "completed",
+                        "agent_id": "agent-2",
+                    }
+                )
+            )
+
     def test_parallel_starts_get_distinct_attempts(self):
         common = {
             "run_id": "run-1",
@@ -260,6 +295,33 @@ class EventAndTaskTests(unittest.TestCase):
         task, _artifacts = monitor.build_task(self.registration, "29:38")
         self.assertEqual("active", task["stages"]["micro"]["status"])
         self.assertEqual(2, task["stages"]["micro"]["attempt"])
+
+    def test_old_artifact_cannot_complete_a_later_attempt(self):
+        artifact = self.v5 / "raw" / "native" / "s029" / "29_38" / "micro.scope.tr.md"
+        artifact.parent.mkdir(parents=True, exist_ok=True)
+        artifact.write_text("old", encoding="utf-8")
+        os.utime(artifact, (100, 100))
+        destination = monitor.event_path(
+            self.registration, "29:38", "scope", "micro", 2
+        )
+        for event in ("started", "completed"):
+            monitor._append_jsonl(
+                destination,
+                {
+                    "event": event,
+                    "at": (
+                        "2026-09-04T12:00:00.100000Z"
+                        if event == "started"
+                        else "2026-09-04T12:00:01Z"
+                    ),
+                    "role": "scope",
+                    "lane": "micro",
+                    "attempt": 2,
+                    "agent_id": "agent-8",
+                },
+            )
+        task, _artifacts = monitor.build_task(self.registration, "29:38")
+        self.assertEqual("attention", task["stages"]["micro"]["status"])
 
     def test_prompt_files_alone_leave_task_pending(self):
         prompt = self.v5 / "input" / "native" / "s029" / "29_38" / "micro.discovery.prompt.md"
@@ -423,7 +485,64 @@ class EventAndTaskTests(unittest.TestCase):
         )
         self.assertTrue(monitor.control_marker(registration).exists())
 
-    def test_stop_terminates_background_monitor(self):
+    def test_duplicate_start_is_refused_without_spawning(self):
+        args = argparse.Namespace(
+            run_id="run-1",
+            worker_id="worker-1",
+            orchestrator_id="orch-1",
+            agent_id="agent-orch",
+            analysis_id="native",
+            scope=["29:38"],
+            poll_seconds=10,
+            firebase_project=None,
+            firebase_api_key=None,
+            passcode=None,
+            local_only=True,
+        )
+        monitor._atomic_write_text(monitor._pid_path(self.registration), "1234\n")
+        with (
+            patch.object(monitor, "_process_exists", return_value=True),
+            patch.object(monitor.subprocess, "Popen") as popen,
+        ):
+            with self.assertRaisesRegex(monitor.MonitorError, "already running"):
+                monitor.command_start(args)
+        popen.assert_not_called()
+
+    def test_failed_rerun_spawn_gets_a_new_attention_attempt(self):
+        destination = monitor.event_path(
+            self.registration, "29:38", "scope", "global", 1
+        )
+        for event in ("started", "failed"):
+            monitor._append_jsonl(
+                destination,
+                {
+                    "event": event,
+                    "at": "2026-09-04T12:00:00Z",
+                    "role": "scope",
+                    "lane": "global",
+                    "attempt": 1,
+                    "agent_id": "agent-1",
+                },
+            )
+        args = argparse.Namespace(
+            run_id="run-1",
+            orchestrator_id="orch-1",
+            ayah_ref="29:38",
+            role="scope",
+            lane="global",
+            attempt=None,
+            status="attention",
+            agent_id="agent-2",
+            message="Spawn failed",
+        )
+        self.assertEqual(0, monitor.command_event(args))
+        self.assertTrue(
+            monitor.event_path(
+                self.registration, "29:38", "scope", "global", 2
+            ).exists()
+        )
+
+    def test_stop_requests_cooperative_final_sync(self):
         self.registration["run_id"] = "run-stop"
         self.registration["orchestrator_id"] = "orch-stop"
         destination = monitor.registration_path("run-stop", "orch-stop")
@@ -434,13 +553,42 @@ class EventAndTaskTests(unittest.TestCase):
             run_id="run-stop", orchestrator_id="orch-stop", timeout_seconds=1
         )
 
-        def fake_kill(_pid, sig):
-            if sig == signal.SIGTERM:
+        def fake_exists(_pid):
+            if monitor.stop_marker(self.registration).exists():
                 pid_path.unlink(missing_ok=True)
+                return False
+            return True
 
-        with patch.object(monitor.os, "kill", side_effect=fake_kill) as kill:
+        with patch.object(monitor, "_process_exists", side_effect=fake_exists) as exists:
             self.assertEqual(0, monitor.command_stop(args))
-        kill.assert_called_once_with(1234, signal.SIGTERM)
+        self.assertGreaterEqual(exists.call_count, 2)
+        self.assertFalse(monitor.stop_marker(self.registration).exists())
+
+    def test_daemon_retries_pending_upload_before_cooperative_stop(self):
+        artifact = self.v5 / "raw" / "native" / "s029" / "29_38" / "micro.scope.tr.md"
+        artifact.parent.mkdir(parents=True, exist_ok=True)
+        artifact.write_text("retry", encoding="utf-8")
+        sink = FailingArtifactSink()
+        daemon = monitor.Monitor(
+            self.registration,
+            interval=0,
+            heartbeat_interval=60,
+            firebase=sink,
+        )
+        monitor._atomic_write_text(
+            monitor.stop_marker(self.registration), "stop_requested_at=test\n"
+        )
+        daemon.run()
+        self.assertEqual(2, sink.artifact_calls)
+        self.assertEqual(set(), daemon.pending_refs)
+
+    def test_load_registration_rejects_invalid_scope_count(self):
+        path = monitor.registration_path("run-bad", "orch-bad")
+        invalid = {**self.registration, "run_id": "run-bad", "orchestrator_id": "orch-bad"}
+        invalid["scope_count"] = 99
+        monitor._atomic_write_json(path, invalid)
+        with self.assertRaisesRegex(monitor.MonitorError, "scope_count"):
+            monitor.load_registration(path)
 
 
 def registration_fixture():

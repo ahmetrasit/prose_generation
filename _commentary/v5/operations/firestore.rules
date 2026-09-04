@@ -45,6 +45,12 @@ service cloud.firestore {
       allow delete: if false;
     }
 
+    match /runs/{runId} {
+      allow read: if operator();
+      allow create, update: if allowedPasscode();
+      allow delete: if false;
+    }
+
     match /runs/{runId}/orchestrators/{orchestratorId} {
       allow read: if operator();
       allow create, update: if allowedPasscode();

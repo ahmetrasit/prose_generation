@@ -67,9 +67,15 @@ python3 _commentary/v5/operations/monitor.py stop \
   --run-id commentary-v5 --orchestrator-id orch-s029
 ```
 
+Shutdown is cooperative. `stop` writes a local `STOP` marker; the daemon scans
+once more, retries any pending Firebase prose uploads, marks itself offline, and
+then exits. A second `start` for the same run and orchestrator is refused while
+the existing monitor process is live.
+
 Pause is cooperative: Firebase sets `desired_state` to `paused`, the monitor
 creates its local `runtime/control/.../PAUSE` marker, and `wait` blocks before the
-next ayah. Work already in progress may finish.
+next ayah. Work already in progress may finish. Remote control changes normally
+reach the local marker within the monitor's 10-second polling interval.
 
 ## Firebase setup
 
@@ -111,8 +117,9 @@ python3 -m http.server 4173 --bind 127.0.0.1
 Open
 `http://127.0.0.1:4173/_commentary/v5/operations/web/?local=1&run=commentary-v5`.
 The web view polls `runtime/snapshot.json` every 10 seconds and fetches only the
-selected prose file. If no snapshot exists, it shows labeled preview data so the
-layout remains testable.
+selected prose file. If no snapshot exists, it shows a labeled 180-ayah preview
+so sorting, filtering, pagination, stalled work, reruns, and the markup reader can
+be tested at bulk-session scale.
 
 The daemon is intentionally restart-neutral for now. Its registration format is
 separate from process launch, so a later always-running supervisor can create the

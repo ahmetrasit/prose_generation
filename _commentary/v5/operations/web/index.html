@@ -72,12 +72,13 @@
     </section>
 
     <section class="commandbar" aria-label="Run and orchestration controls">
-      <label class="field compact-field">
+      <label class="field run-field">
         <span>Run</span>
-        <input id="run-id" type="text" spellcheck="false" autocomplete="off">
+        <input id="run-id" type="text" list="run-options" spellcheck="false" autocomplete="off">
+        <datalist id="run-options"></datalist>
       </label>
       <label class="field orchestrator-field">
-        <span>Orchestrator</span>
+        <span>Control orchestrator</span>
         <select id="orchestrator-select"></select>
       </label>
       <button id="refresh" class="icon-button" type="button" title="Refresh now" aria-label="Refresh now">&#8635;</button>
@@ -98,6 +99,10 @@
         <div class="metric alert-metric"><span>Attention</span><strong id="metric-attention">0</strong></div>
         <div class="metric"><span>Reruns</span><strong id="metric-reruns">0</strong></div>
       </section>
+      <section class="progress-band" aria-label="Run completion">
+        <div class="progress-track"><span id="progress-fill"></span></div>
+        <span id="progress-label">0% complete</span>
+      </section>
 
       <section id="attention-strip" class="attention-strip" hidden>
         <div>
@@ -107,41 +112,55 @@
         <button id="show-attention" class="button secondary" type="button">Show only</button>
       </section>
 
-      <div class="workspace">
+      <div id="workspace" class="workspace">
         <section class="queue" aria-labelledby="queue-heading">
           <div class="section-toolbar">
-            <div>
+            <div class="queue-title">
               <h2 id="queue-heading">Ayah queue</h2>
               <p id="queue-caption">No tasks loaded</p>
             </div>
             <div class="filters">
               <label class="search-field">
-                <span class="sr-only">Search ayat or agents</span>
-                <input id="search" type="search" placeholder="Search ayah or agent">
+                <span class="sr-only">Search queue</span>
+                <input id="search" type="search" placeholder="Search ayah, agent, step...">
               </label>
               <label>
                 <span class="sr-only">Filter by status</span>
                 <select id="status-filter">
                   <option value="all">All states</option>
-                  <option value="attention">Attention</option>
+                  <option value="attention">Needs attention</option>
                   <option value="active">Active</option>
                   <option value="pending">Pending</option>
                   <option value="completed">Completed</option>
+                  <option value="failed">Failed</option>
+                  <option value="stalled">Stalled</option>
                 </select>
               </label>
+              <label>
+                <span class="sr-only">Filter by surah</span>
+                <select id="surah-filter"><option value="all">All surahs</option></select>
+              </label>
+              <label>
+                <span class="sr-only">Filter by orchestrator</span>
+                <select id="orchestrator-filter"><option value="all">All orchestrators</option></select>
+              </label>
+              <button id="reset-filters" class="button quiet" type="button">Reset</button>
             </div>
           </div>
 
           <div class="table-wrap">
-            <table>
+            <table class="task-table">
               <thead>
                 <tr>
-                  <th>Ayah</th>
-                  <th>State</th>
-                  <th>Current step</th>
-                  <th>Agent</th>
-                  <th>Attempts</th>
-                  <th>Updated</th>
+                  <th class="col-surah" data-sort="surah"><button type="button">Surah <span class="sort-indicator"></span></button></th>
+                  <th class="col-ayah" data-sort="ayah"><button type="button">Ayah <span class="sort-indicator"></span></button></th>
+                  <th class="col-state" data-sort="state"><button type="button">State <span class="sort-indicator"></span></button></th>
+                  <th class="col-step" data-sort="step"><button type="button">Current step <span class="sort-indicator"></span></button></th>
+                  <th class="col-agent" data-sort="agent"><button type="button">Agent <span class="sort-indicator"></span></button></th>
+                  <th class="col-attempts number-column" data-sort="attempts"><button type="button">Attempts <span class="sort-indicator"></span></button></th>
+                  <th class="col-analysis" data-sort="analysis"><button type="button">Analysis <span class="sort-indicator"></span></button></th>
+                  <th class="col-orchestrator" data-sort="orchestrator"><button type="button">Orchestrator <span class="sort-indicator"></span></button></th>
+                  <th class="col-updated" data-sort="updated"><button type="button">Updated <span class="sort-indicator"></span></button></th>
                 </tr>
               </thead>
               <tbody id="task-rows"></tbody>
@@ -149,22 +168,35 @@
             <p id="empty-state" class="empty-state" hidden>No ayat match this view.</p>
           </div>
           <div class="pagination">
+            <label class="page-size-field">Rows
+              <select id="page-size">
+                <option value="25">25</option>
+                <option value="50" selected>50</option>
+                <option value="100">100</option>
+                <option value="250">250</option>
+              </select>
+            </label>
+            <span id="page-range">0 rows</span>
             <button id="previous-page" class="icon-button" type="button" title="Previous page" aria-label="Previous page">&#8592;</button>
             <span id="page-label">Page 1</span>
             <button id="next-page" class="icon-button" type="button" title="Next page" aria-label="Next page">&#8594;</button>
           </div>
         </section>
 
-        <aside class="reader" aria-labelledby="reader-heading">
+        <aside id="reader" class="reader" aria-labelledby="reader-heading" hidden>
           <div class="reader-heading-row">
             <div>
               <p class="reader-label">Markup reader</p>
-              <h2 id="reader-heading">Select an ayah</h2>
+              <h2 id="reader-heading">Selected ayah</h2>
             </div>
-            <button id="close-reader" class="icon-button mobile-only" type="button" title="Close reader" aria-label="Close reader">&#215;</button>
+            <div class="reader-actions">
+              <button id="previous-task" class="icon-button" type="button" title="Previous filtered ayah" aria-label="Previous filtered ayah">&#8592;</button>
+              <button id="next-task" class="icon-button" type="button" title="Next filtered ayah" aria-label="Next filtered ayah">&#8594;</button>
+              <button id="close-reader" class="icon-button" type="button" title="Close reader" aria-label="Close reader">&#215;</button>
+            </div>
           </div>
           <div id="artifact-tabs" class="tabs" role="tablist" aria-label="Commentary artifacts"></div>
-          <div id="reader-meta" class="reader-meta">Choose a row to inspect its generated prose.</div>
+          <div id="reader-meta" class="reader-meta"></div>
           <article id="reader-content" class="prose"></article>
         </aside>
       </div>
@@ -172,15 +204,19 @@
 
     <template id="task-row-template">
       <tr tabindex="0">
-        <td class="ayah-cell"></td>
-        <td><span class="status-badge"></span></td>
-        <td class="step-cell"></td>
-        <td class="agent-cell"></td>
-        <td class="attempt-cell"></td>
-        <td class="updated-cell"></td>
+        <td class="surah-cell col-surah number-cell"></td>
+        <td class="ayah-cell col-ayah number-cell"></td>
+        <td class="state-cell col-state"><span class="status-badge"></span></td>
+        <td class="step-cell col-step"></td>
+        <td class="agent-cell col-agent"></td>
+        <td class="attempt-cell col-attempts number-cell"></td>
+        <td class="analysis-cell col-analysis"></td>
+        <td class="orchestrator-cell col-orchestrator"></td>
+        <td class="updated-cell col-updated"></td>
       </tr>
     </template>
 
+    <div id="cell-tooltip" class="cell-tooltip" role="tooltip" hidden></div>
     <script type="module" src="./app.js"></script>
   </body>
 </html>

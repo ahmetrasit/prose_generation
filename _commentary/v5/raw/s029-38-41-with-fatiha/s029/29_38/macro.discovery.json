@@ -1,0 +1,1294 @@
+{
+  "schema_version": "commentary-v5-scope-discovery-v1",
+  "ayah_ref": "29:38",
+  "lane": "macro",
+  "coverage_complete": true,
+  "candidate_decisions": [
+    {
+      "candidate_id": "cand_df9c356bacb77a20794a",
+      "decision": "narrow",
+      "reason": "The supplied road-cutting evidence supports a bounded public-mobility reading through the focus path and obstruction, the worked-road branch, and the context's travelers and road-blocking image. The water-crossing facets have no independent local trigger and are excluded.",
+      "finding_refs": ["macro:worked-road-obstruction"],
+      "branch_exclusions": [
+        {
+          "branch_ref": "root_000848/B004",
+          "reason": "The water-route branch is available in the registry, but the supplied 29:29 context and focus do not provide an independent water carrier or changed local reading."
+        },
+        {
+          "branch_ref": "root_001240/B003",
+          "reason": "The crossing-span or water branch has no independent water or crossing carrier in the supplied focus/pericope evidence; retaining it would be availability-only."
+        }
+      ],
+      "facet_exclusions": [
+        {
+          "branch_ref": "root_000672/B001",
+          "facet_id": "F003",
+          "reason": "The religious-path specialization belongs to the later explicit Fatiha overlay, not the quarantined native/pericope finding."
+        },
+        {
+          "branch_ref": "root_000848/B004",
+          "facet_id": "F001",
+          "reason": "The water-route facet is excluded with its branch because no independent water carrier is supplied."
+        },
+        {
+          "branch_ref": "root_001240/B003",
+          "facet_id": "SOURCE_IMAGE",
+          "reason": "The water-crossing source image is excluded with its branch because no independent local crossing contact is supplied."
+        }
+      ],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_ff11b4ba64ec617517d0",
+      "decision": "narrow",
+      "reason": "The dwelling evidence supports settlement, shelter, and joined structural material in contact with the spider-house context. The nominated socket, tent-frame, and upright-apparatus images lack a specific supplied local carrier and are omitted.",
+      "finding_refs": ["macro:fitted-dwelling-mechanism"],
+      "branch_exclusions": [
+        {
+          "branch_ref": "root_000347/B011",
+          "reason": "The fitted-socket branch is only a nominated structural image; the packet supplies no exact local socket carrier beyond the broader house description."
+        },
+        {
+          "branch_ref": "root_001222/B008",
+          "reason": "The wooden tent-pole frame branch has no independent tent-frame or pole occurrence in the supplied context."
+        },
+        {
+          "branch_ref": "root_001273/B012",
+          "reason": "The upright-apparatus branch has no independent apparatus or standing-part occurrence in the supplied context."
+        }
+      ],
+      "facet_exclusions": [
+        {
+          "branch_ref": "root_000121/B006",
+          "facet_id": "F003",
+          "reason": "The tent, garment, or water-vessel specialization is not required by the supplied spider-house contact."
+        },
+        {
+          "branch_ref": "root_000121/B006",
+          "facet_id": "F004",
+          "reason": "The patched-result extension is not independently triggered in the supplied context."
+        },
+        {
+          "branch_ref": "root_000347/B011",
+          "facet_id": "SOURCE_IMAGE",
+          "reason": "The branch is excluded because the packet has no exact local socket carrier."
+        },
+        {
+          "branch_ref": "root_000726/B002",
+          "facet_id": "F003",
+          "reason": "The juridical or causative lodging extension is not part of the local structural reading."
+        },
+        {
+          "branch_ref": "root_001222/B008",
+          "facet_id": "SOURCE_IMAGE",
+          "reason": "The branch is excluded because the supplied context does not contain its tent-frame carrier."
+        },
+        {
+          "branch_ref": "root_001273/B012",
+          "facet_id": "SOURCE_IMAGE",
+          "reason": "The branch is excluded because the supplied context does not contain its apparatus carrier."
+        }
+      ],
+      "context_exclusions": [
+        {
+          "context_ref": "29:28",
+          "reason": "The opening Lot narrative supplies broad pericope setting but no specific fitted-structure contact used by the finding."
+        },
+        {
+          "context_ref": "29:31",
+          "reason": "The town-judgment context supports social belonging, not the bounded physical fitting mechanism retained here."
+        },
+        {
+          "context_ref": "29:44",
+          "reason": "The creation sign is a broad closing frame and supplies no specific structural carrier for this finding."
+        }
+      ],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_b0cdc9c11beba468f9e4",
+      "decision": "narrow",
+      "reason": "The supplied trace evidence supports all six named branches as one bounded movement from visible remains to inwardly usable evidence, while only the facets directly grounded by the clear-sign contact are retained.",
+      "finding_refs": ["macro:trace-to-insight"],
+      "branch_exclusions": [],
+      "facet_exclusions": [
+        {
+          "branch_ref": "root_000121/B002",
+          "facet_id": "F003",
+          "reason": "The specialized firm-conviction use is not independently required by the supplied ruin-and-sign contact."
+        },
+        {
+          "branch_ref": "root_000121/B002",
+          "facet_id": "F004",
+          "reason": "The self-recognition extension is not independently required by the supplied ruin-and-sign contact."
+        },
+        {
+          "branch_ref": "root_000170/B004",
+          "facet_id": "F002",
+          "reason": "The causative removal-of-uncertainty extension is subsumed by the retained visible-and-understandable core and is not separately landed."
+        },
+        {
+          "branch_ref": "root_000170/B005",
+          "facet_id": "F003",
+          "reason": "The clear-speaking specialization has no independent speech carrier in the supplied context."
+        }
+      ],
+      "context_exclusions": [
+        {
+          "context_ref": "29:28",
+          "reason": "The opening Lot context is broad background and supplies no distinct trace-to-insight contact beyond the retained 29:35 sign."
+        }
+      ],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_7b6ec7ef851717481779",
+      "decision": "narrow",
+      "reason": "The town and house evidence supports an inhabited social dwelling in which belonging, residence, and reassurance meet. Qualification as a semantic branch and hospitality through gathered food lack a specific supplied local carrier and are omitted.",
+      "finding_refs": ["macro:inhabited-belonging"],
+      "branch_exclusions": [
+        {
+          "branch_ref": "root_000064/B003",
+          "reason": "The fit-or-worthiness branch has no independent qualification or deservingness carrier in the supplied native context."
+        },
+        {
+          "branch_ref": "root_001222/B003",
+          "reason": "The hospitality-with-gathered-food branch has no supplied food or hosting occurrence; the visiting context alone is insufficient."
+        }
+      ],
+      "facet_exclusions": [
+        {
+          "branch_ref": "root_000064/B003",
+          "facet_id": "SOURCE_IMAGE",
+          "reason": "The branch is excluded because no independent qualification contact is supplied."
+        },
+        {
+          "branch_ref": "root_000726/B004",
+          "facet_id": "F002",
+          "reason": "The night and prayer extension is not independently triggered in the retained town-and-house contact."
+        },
+        {
+          "branch_ref": "root_000726/B004",
+          "facet_id": "F003",
+          "reason": "The fire specialization has no independent fire carrier in the supplied context."
+        },
+        {
+          "branch_ref": "root_001222/B003",
+          "facet_id": "SOURCE_IMAGE",
+          "reason": "The branch is excluded because no gathered-food or hospitality carrier is supplied."
+        }
+      ],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_64952ac6dfd1c0b90cf4",
+      "decision": "narrow",
+      "reason": "The legacy HFT delta contains an anchored macro synthesis, but only the registered dwelling-position, disclosure, and shelter branches can land independently. Nine HFT-only branch references are unresolved and remain explicitly excluded.",
+      "finding_refs": ["macro:failed-stability-architecture"],
+      "branch_exclusions": [
+        {
+          "branch_ref": "root_000222/B001",
+          "reason": "No separate registered branch descriptor or facet is supplied; the attributed HFT role cannot independently land this branch."
+        },
+        {
+          "branch_ref": "root_000499/B007",
+          "reason": "No separate registered branch descriptor or facet is supplied; the attributed HFT role cannot independently land this branch."
+        },
+        {
+          "branch_ref": "root_000521/B001",
+          "reason": "No separate registered branch descriptor or facet is supplied; the attributed HFT role cannot independently land this branch."
+        },
+        {
+          "branch_ref": "root_001036/B001",
+          "reason": "No separate registered branch descriptor or facet is supplied; the attributed HFT role cannot independently land this branch."
+        },
+        {
+          "branch_ref": "root_001054/B001",
+          "reason": "No separate registered branch descriptor or facet is supplied; the attributed HFT role cannot independently land this branch."
+        },
+        {
+          "branch_ref": "root_001281/B006",
+          "reason": "No separate registered branch descriptor or facet is supplied; the attributed HFT role cannot independently land this branch."
+        },
+        {
+          "branch_ref": "root_001397/B011",
+          "reason": "No separate registered branch descriptor or facet is supplied; the attributed HFT role cannot independently land this branch."
+        },
+        {
+          "branch_ref": "root_001684/B004",
+          "reason": "No separate registered branch descriptor or facet is supplied; the attributed HFT role cannot independently land this branch."
+        },
+        {
+          "branch_ref": "root_001687/B001",
+          "reason": "No separate registered branch descriptor or facet is supplied; the attributed HFT role cannot independently land this branch."
+        }
+      ],
+      "facet_exclusions": [
+        {
+          "branch_ref": "root_000170/B004",
+          "facet_id": "F002",
+          "reason": "The broader causative clarification extension is not separately needed for the retained architecture finding."
+        },
+        {
+          "branch_ref": "root_000726/B009",
+          "facet_id": "F001",
+          "reason": "The body-specific location facet is not the HFT role retained here."
+        },
+        {
+          "branch_ref": "root_000726/B009",
+          "facet_id": "F003",
+          "reason": "The special-place variant is not independently triggered by the supplied sequence."
+        }
+      ],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_258d68d6010581d8496e",
+      "decision": "narrow",
+      "reason": "The HFT outlier has a grounded focus path and visual-sight contact with the exact weak spider-house context. The spider and weakness branch references themselves are unresolved and cannot be promoted to independent lexical evidence.",
+      "finding_refs": ["macro:webbed-path-obstruction"],
+      "branch_exclusions": [
+        {
+          "branch_ref": "root_001054/B001",
+          "reason": "No separate registered branch descriptor or facet is supplied; the attributed spider-weaving role remains unresolved."
+        },
+        {
+          "branch_ref": "root_001687/B001",
+          "reason": "No separate registered branch descriptor or facet is supplied; the attributed weakness role remains unresolved."
+        }
+      ],
+      "facet_exclusions": [
+        {
+          "branch_ref": "root_000121/B001",
+          "facet_id": "F002",
+          "reason": "The sighted-person specialization is not required by the retained material analogy."
+        },
+        {
+          "branch_ref": "root_000121/B001",
+          "facet_id": "F003",
+          "reason": "The attentive-gaze associated use is not separately landed."
+        },
+        {
+          "branch_ref": "root_000121/B001",
+          "facet_id": "F004",
+          "reason": "The young-animal eye-opening extension is not independently triggered."
+        }
+      ],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_5b8e47a462dbae9cfa6e",
+      "decision": "narrow",
+      "reason": "The HFT ledger outlier retains the registered counting and disclosure branches, grounded by the focus names and the following each-offense-outcome context. The offense and total-inclusion branch records are unresolved and are excluded.",
+      "finding_refs": ["macro:counted-case-ledger"],
+      "branch_exclusions": [
+        {
+          "branch_ref": "root_000521/B001",
+          "reason": "No separate registered branch descriptor or facet is supplied; the attributed offense-guilt role remains unresolved."
+        },
+        {
+          "branch_ref": "root_001315/B003",
+          "reason": "No separate registered branch descriptor or facet is supplied; the attributed total-inclusion role remains unresolved."
+        }
+      ],
+      "facet_exclusions": [
+        {
+          "branch_ref": "root_000989/B001",
+          "facet_id": "F002",
+          "reason": "The counted-result extension is not separately landed beyond the retained counting operation."
+        },
+        {
+          "branch_ref": "root_000989/B001",
+          "facet_id": "F003",
+          "reason": "The membership-in-a-group associated use is not independently required by the retained case-ledger reading."
+        },
+        {
+          "branch_ref": "root_000170/B004",
+          "facet_id": "F002",
+          "reason": "The causative clarification extension is not separately landed."
+        },
+        {
+          "branch_ref": "root_000170/B004",
+          "facet_id": "F003",
+          "reason": "The explicit-proof specialization is not separately required beyond the retained visible-case core."
+        }
+      ],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    }
+  ],
+  "findings": [
+    {
+      "finding_ref": "macro:worked-road-obstruction",
+      "origin_candidate_id": "cand_df9c356bacb77a20794a",
+      "represented_candidate_ids": [],
+      "title": "A worked public route is cut",
+      "claim": "The focus presents the named peoples' diversion as the interruption of an already usable route: a worked road with walkers and travelers is cut until movement and access fail.",
+      "mechanism": "The focus path and transitive turning-away form meet the pericope's exact road-cutting context; the retained worked-road, traveler, stranding, and road-blocking images explain obstruction as damage to shared mobility.",
+      "reader_payoff": "The obstruction becomes visible as an attack on a public route and its users, not only as an inward change of preference.",
+      "containment": "The ordinary path and turning-away remain intact. Water crossing is excluded, and the finding does not make every route a religious path or make the focus word mean walking or robbery.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": ["trusted"],
+        "reason": "The channel source is trusted and its retained branches have exact focus or context carriers plus independent local triggers, while the water branches fail that test."
+      },
+      "support_ids": [
+        "sup_4c86cbda457fc090a75c",
+        "sup_4cebd27a45ce2e4abf32",
+        "sup_9589b8f04f9d3592eb22",
+        "sup_aa7da8a5224fd30fbff3",
+        "sup_b188a312e38482aaafb1"
+      ],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000546/B003",
+          "facet_id": "SOURCE_IMAGE",
+          "branch_gloss": "on-foot movement",
+          "facet_statement": "on-foot movement",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["29:29"],
+          "trigger_refs": ["29:38:14:2"],
+          "focus_return_refs": ["29:38:14:2"],
+          "carrier": "The road-cutting context carries people moving on foot.",
+          "independent_trigger": "The focus names the path from which the named peoples are turned away.",
+          "activation": "The context's walkers make the blocked route a lived passage whose interruption reaches ordinary movement.",
+          "resulting_reading": "The focus's obstruction includes the stoppage of pedestrian movement along a shared route.",
+          "boundary": "The focus word is not translated as walking; this is a contextual movement image."
+        },
+        {
+          "branch_ref": "root_000672/B001",
+          "facet_id": "F001",
+          "branch_gloss": "yol ve bir amaca ulaştıran yol",
+          "facet_statement": "İnsanların üzerinde yürüyüp ilerlediği uzanmış yol veya yolları belirtir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["29:38:14:2"],
+          "trigger_refs": ["29:29"],
+          "focus_return_refs": ["29:38:14:2"],
+          "carrier": "The definite focus path is the route named as the object of obstruction.",
+          "independent_trigger": "29:29 supplies the explicit road-cutting context.",
+          "activation": "The ordinary path meets the prior account of cutting the road, giving the definite route a public and already-used setting.",
+          "resulting_reading": "The path is heard as a worked public route whose access can be deliberately interrupted.",
+          "boundary": "The religious-path specialization is reserved for the separate Fatiha overlay."
+        },
+        {
+          "branch_ref": "root_000672/B001",
+          "facet_id": "F002",
+          "branch_gloss": "yol ve bir amaca ulaştıran yol",
+          "facet_statement": "Bir sonuca erişmeyi mümkün kılan bağlantı, yöntem, olanak veya çıkış yolunu belirtir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["29:38:14:2"],
+          "trigger_refs": ["29:29"],
+          "focus_return_refs": ["29:38:14:2"],
+          "carrier": "The focus path carries the means by which movement reaches a destination.",
+          "independent_trigger": "The prior context describes cutting the route and thereby disrupting access.",
+          "activation": "A route that enables arrival becomes an infrastructure whose loss affects more than the person's inward intention.",
+          "resulting_reading": "Turning people from the path also removes an available means of reaching what lies ahead.",
+          "boundary": "This remains an instrumental route resonance, not a claim that the focus names every possible method."
+        },
+        {
+          "branch_ref": "root_000672/B002",
+          "facet_id": "F001",
+          "branch_gloss": "yol kullanan kişi veya yolcu",
+          "facet_statement": "Yollarda gidip gelen veya bir yolu izleyen insanları belirtir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["29:38:14:2"],
+          "trigger_refs": ["29:29"],
+          "focus_return_refs": ["29:38:14:2"],
+          "carrier": "The focus path is the field through which its users pass.",
+          "independent_trigger": "29:29 supplies road users and travelers within the road-cutting charge.",
+          "activation": "The path's human users make diversion a social interruption rather than a purely abstract redirection.",
+          "resulting_reading": "The named peoples are turned away from a route that carries people, so the obstruction has a human traffic dimension.",
+          "boundary": "The path is not reduced to the travelers who use it."
+        },
+        {
+          "branch_ref": "root_000672/B002",
+          "facet_id": "F002",
+          "branch_gloss": "yol kullanan kişi veya yolcu",
+          "facet_statement": "Belirli söz öbeğinde evinden uzakta bulunan veya yolculukta çaresiz kalmış yolcuyu belirtir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["29:38:14:2"],
+          "trigger_refs": ["29:29"],
+          "focus_return_refs": ["29:38:14:2"],
+          "carrier": "The focus route carries the possibility of a journey and return.",
+          "independent_trigger": "The supplied road-cutting evidence describes travelers whose means are interrupted.",
+          "activation": "A path that is cut leaves the traveler exposed to being stranded away from a home or destination.",
+          "resulting_reading": "The focus's turning-away includes the loss of a route on which a traveler depends.",
+          "boundary": "This does not add a separate legal category of traveler to the focus."
+        },
+        {
+          "branch_ref": "root_000848/B001",
+          "facet_id": "F001",
+          "branch_gloss": "yüz çevirme ve alıkoyma",
+          "facet_statement": "Özne, yöneldiği şeyden yüz çevirir, uzaklaşır veya ona katılmaktan kaçınır.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["29:38:12:2"],
+          "trigger_refs": ["29:29"],
+          "focus_return_refs": ["29:38:12:2"],
+          "carrier": "The focus verb marks turning away from the path.",
+          "independent_trigger": "The prior context names cutting the road as the relevant obstruction.",
+          "activation": "The general movement of turning away meets a concrete road interruption, so the verb holds both direction and access in view.",
+          "resulting_reading": "The named peoples' diversion can be pictured as withdrawal from a route made unusable around them.",
+          "boundary": "The finding does not import the branch's other senses of noise, wound fluid, or proximity."
+        },
+        {
+          "branch_ref": "root_000848/B001",
+          "facet_id": "F002",
+          "branch_gloss": "yüz çevirme ve alıkoyma",
+          "facet_statement": "Geçişli kullanımda özne, başka bir kişiyi belirli bir işten men eder ve yönünü o işten çevirir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["29:38:12:2"],
+          "trigger_refs": ["29:29"],
+          "focus_return_refs": ["29:38:12:2"],
+          "carrier": "The transitive focus verb has the named peoples as those turned away.",
+          "independent_trigger": "29:29 supplies a concrete communal act of blocking the road.",
+          "activation": "The transitive grammar meets the road-blocking context and makes the obstruction an act imposed on people.",
+          "resulting_reading": "The route is actively withheld from its users, not merely abandoned by them.",
+          "boundary": "This does not identify the obstructing agent beyond the focus's stated causal frame."
+        },
+        {
+          "branch_ref": "root_001046/B011",
+          "facet_id": "F001",
+          "branch_gloss": "işlek yol",
+          "facet_statement": "Yürünmüş ve işlek hale gelmiş yol ana anlamdır.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["29:38:11:1"],
+          "trigger_refs": ["29:29"],
+          "focus_return_refs": ["29:38:11:1"],
+          "carrier": "The focus's deed-object is connected by the nominated branch to a route made active by use.",
+          "independent_trigger": "The road-cutting context explicitly concerns a route used by travelers.",
+          "activation": "The worked quality turns obstruction into the interruption of a functioning route rather than an empty line on a map.",
+          "resulting_reading": "The route's public usefulness is part of what the diversion damages.",
+          "boundary": "The focus word for deeds is not translated as road; the branch is a contained cross-root resonance."
+        },
+        {
+          "branch_ref": "root_001046/B011",
+          "facet_id": "F002",
+          "branch_gloss": "işlek yol",
+          "facet_statement": "Yolun açık ve belirgin oluşu anlamın ayrılmaz parçasıdır.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["29:38:11:1"],
+          "trigger_refs": ["29:29"],
+          "focus_return_refs": ["29:38:11:1"],
+          "carrier": "The nominated worked-road branch carries an open and recognizable route image.",
+          "independent_trigger": "The prior charge describes blocking an established road.",
+          "activation": "The road is obstructed precisely because it is an available, legible means of passage.",
+          "resulting_reading": "The focus's path retains a visible route before the obstruction closes it.",
+          "boundary": "No separate claim is made about the lexical sense of the focus's action noun."
+        },
+        {
+          "branch_ref": "root_001240/B006",
+          "facet_id": "SOURCE_IMAGE",
+          "branch_gloss": "being cut off in hope or journey",
+          "facet_statement": "being cut off in hope or journey",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["29:29"],
+          "trigger_refs": ["29:38:12:2"],
+          "focus_return_refs": ["29:38:14:2"],
+          "carrier": "The road-cutting context carries the stranded journey image.",
+          "independent_trigger": "The focus explicitly joins transitive turning-away to the path.",
+          "activation": "When the path is the object of imposed turning-away, the journey's means can be cut off along with the direction.",
+          "resulting_reading": "The obstruction reaches the traveler's hope of continuing, not only the abstract route.",
+          "boundary": "The focus does not explicitly describe lost supplies or a mount; those details remain bounded to the nominated image."
+        },
+        {
+          "branch_ref": "root_001240/B023",
+          "facet_id": "SOURCE_IMAGE",
+          "branch_gloss": "road robbery or blocking the way",
+          "facet_statement": "road robbery or blocking the way",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["29:29"],
+          "trigger_refs": ["29:38:12:2"],
+          "focus_return_refs": ["29:38:14:2"],
+          "carrier": "The supplied prior context carries the exact road-blocking image.",
+          "independent_trigger": "The focus says that the named peoples were turned away from the path.",
+          "activation": "The contextual road seizure gives the focus's obstruction an outward mechanism that affects passage.",
+          "resulting_reading": "The path can be read as a route actively closed to those who would use it.",
+          "boundary": "No historical road-robbery event beyond the supplied contextual image is asserted."
+        }
+      ],
+      "connection_refs": ["conn_630722c657bccfedcdf6"],
+      "context_refs": ["29:29"],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "macro:fitted-dwelling-mechanism",
+      "origin_candidate_id": "cand_ff11b4ba64ec617517d0",
+      "represented_candidate_ids": [],
+      "title": "A dwelling is a fitted mechanism",
+      "claim": "The dwelling is legible as a fitted structure: a place where people settle and an apparent shelter whose joined parts must carry a load.",
+      "mechanism": "The focus's settlement form meets the spider-house in 29:41, while the retained edge-and-join branch supplies the physical relation between pieces; the shelter image turns a mere house reference into a question of structural fitness.",
+      "reader_payoff": "The reader sees why a house can carry the name of shelter while still being tested for whether it can bear what is entrusted to it.",
+      "containment": "Only settlement, shelter, and joining are retained. The nominated socket, tent-frame, and upright-apparatus pictures lack a supplied local carrier and are excluded; no complete engineering account is claimed.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": ["trusted"],
+        "reason": "The trusted channel supplies exact branch descriptions and a specific spider-house contact, while the omitted component images lack local carriers."
+      },
+      "support_ids": [
+        "sup_0fe4b9ad036326e1a854",
+        "sup_3420e6e4734474286ad5",
+        "sup_9356307ac18b9b5d6571",
+        "sup_a18f9587bf0cab400ef8",
+        "sup_eef53953103112527e89"
+      ],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000121/B006",
+          "facet_id": "F001",
+          "branch_gloss": "kalın kenar ve ek yeri",
+          "facet_statement": "Nesnenin kalın dış yanı, kenarı, yüzeyi veya yönü çekirdeğin bir bölümüdür.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["29:38:16:1"],
+          "trigger_refs": ["29:41"],
+          "focus_return_refs": ["29:38:16:1"],
+          "carrier": "The focus's insight term carries the nominated edge-and-surface branch.",
+          "independent_trigger": "29:41 supplies the house whose apparent shelter is tested for weakness.",
+          "activation": "The house context gives the edge and surface image a structural place in the focus's otherwise settled architecture.",
+          "resulting_reading": "The apparent dwelling can be attended to as a made surface with an outer edge that contributes to, or reveals, its stability.",
+          "boundary": "This is a structural cross-root image, not the ordinary translation of the insight term."
+        },
+        {
+          "branch_ref": "root_000121/B006",
+          "facet_id": "F002",
+          "branch_gloss": "kalın kenar ve ek yeri",
+          "facet_statement": "İki deri, kumaş veya kap parçasının ek yerinden dikilip birleştirilmesi çekirdeğin diğer bölümüdür.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["29:38:16:1"],
+          "trigger_refs": ["29:41"],
+          "focus_return_refs": ["29:38:16:1"],
+          "carrier": "The focus's insight term carries the nominated joining branch.",
+          "independent_trigger": "The spider-house scene supplies a shelter assembled by joining material.",
+          "activation": "The house context makes joining the relevant operation by which a shelter appears able to hold together.",
+          "resulting_reading": "The dwelling's claim to shelter is newly read through the quality of its joined parts.",
+          "boundary": "No literal textile or vessel is added to the focus scene."
+        },
+        {
+          "branch_ref": "root_000166/B001",
+          "facet_id": "SOURCE_IMAGE",
+          "branch_gloss": "shelter and dwelling",
+          "facet_statement": "shelter and dwelling",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["29:41"],
+          "trigger_refs": ["29:38:7:1"],
+          "focus_return_refs": ["29:38:7:1"],
+          "carrier": "The spider-house context carries the explicit shelter image.",
+          "independent_trigger": "The focus names the peoples' settled dwellings.",
+          "activation": "The two house references meet and make shelter the shared object whose dependability is being examined.",
+          "resulting_reading": "The focus dwellings can be reread as shelters whose name does not by itself establish structural security.",
+          "boundary": "The focus remains about the named peoples' dwellings; the parable is an attached local analogue."
+        },
+        {
+          "branch_ref": "root_000726/B002",
+          "facet_id": "F001",
+          "branch_gloss": "bir yere yerleşip orada yaşama",
+          "facet_statement": "Kişi bir yere yerleşir ve orada yaşamını sürdürür.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["29:38:7:1"],
+          "trigger_refs": ["29:41"],
+          "focus_return_refs": ["29:38:7:1"],
+          "carrier": "The focus dwelling term carries the act of settling and continuing life in a place.",
+          "independent_trigger": "29:41 tests a named shelter against its weakness.",
+          "activation": "A house's structural weakness changes how settled life in that place is perceived.",
+          "resulting_reading": "Settlement is read as dependent on a structure capable of carrying the life placed within it.",
+          "boundary": "This does not say that the focus word means only the act of settling."
+        },
+        {
+          "branch_ref": "root_000726/B002",
+          "facet_id": "F002",
+          "branch_gloss": "bir yere yerleşip orada yaşama",
+          "facet_statement": "Yerleşilip yaşanan ev veya yer, bu eylemin yer adı olarak anlatılır.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["29:38:7:1"],
+          "trigger_refs": ["29:41"],
+          "focus_return_refs": ["29:38:7:1"],
+          "carrier": "The focus plural names the places where settlement has taken form.",
+          "independent_trigger": "The parable names a house while explicitly judging its weakness.",
+          "activation": "The place-name and the weak-house image meet at the question of whether a lived-in location actually provides shelter.",
+          "resulting_reading": "The dwellings become places whose visible form and protective function can come apart.",
+          "boundary": "The parable is not used to erase the historical reference of the focus dwellings."
+        }
+      ],
+      "connection_refs": ["conn_314ac0eed46265bb9f9e"],
+      "context_refs": ["29:41"],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "macro:trace-to-insight",
+      "origin_candidate_id": "cand_b0cdc9c11beba468f9e4",
+      "represented_candidate_ids": [],
+      "title": "A remaining trace becomes usable evidence",
+      "claim": "The visible remains of a settlement become a sign that can be seen, understood, and carried inward as evidence.",
+      "mechanism": "The pericope's explicit sign from the town meets the focus's self-manifesting clarity and inward sight; the retained trace and distinguishing-mark images explain how a ruin remains a direction after the event.",
+      "reader_payoff": "A ruin becomes newly perceptible as an addressable sign rather than merely a leftover scene.",
+      "containment": "The reading adds a route from sight to understanding while keeping the ordinary statement that the dwellings make the past clear. It does not make every sign a verbal explanation or assert that any one nominated mark is the only sense.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": ["trusted"],
+        "reason": "The trusted channel provides a specific 29:35 sign and trace contact, and each retained branch returns to an exact focus word or QAC occurrence."
+      },
+      "support_ids": [
+        "sup_16efca038eea03d64af6",
+        "sup_75174c86656e229a8ae6",
+        "sup_782eb4659a15f0af3da0",
+        "sup_7f527b731eb1e4e431f6",
+        "sup_e4e46767a633960cd763"
+      ],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000074/B003",
+          "facet_id": "SOURCE_IMAGE",
+          "branch_gloss": "a visible sign",
+          "facet_statement": "a visible sign",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["29:35"],
+          "trigger_refs": ["29:38:7:1"],
+          "focus_return_refs": ["29:38:7:1"],
+          "carrier": "29:35 carries the visible sign left from the town.",
+          "independent_trigger": "The focus identifies the named peoples through their dwellings.",
+          "activation": "The dwelling term gives the remaining sign a concrete site rather than an abstract lesson.",
+          "resulting_reading": "The focus dwellings can function as visible signs left for later attention.",
+          "boundary": "The sign branch is a contextual image and not a retranslation of the focus noun."
+        },
+        {
+          "branch_ref": "root_000121/B002",
+          "facet_id": "F001",
+          "branch_gloss": "iç kavrayış",
+          "facet_statement": "Bir şeyi bilme, kalpte nüfuz eden kavrayış ve doğrulanmış anlayış çekirdektir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["29:38:16:1"],
+          "trigger_refs": ["29:35"],
+          "focus_return_refs": ["29:38:16:1"],
+          "carrier": "The focus's insight term carries inner knowing and confirmed understanding.",
+          "independent_trigger": "29:35 names a clear sign left for a people who reason.",
+          "activation": "The clear remnant supplies the material through which the focus's capacity for understanding can operate.",
+          "resulting_reading": "Insight is newly tied to receiving a visible remainder as intelligible evidence.",
+          "boundary": "The presence of insight does not guarantee that the named peoples used it rightly."
+        },
+        {
+          "branch_ref": "root_000121/B002",
+          "facet_id": "F002",
+          "branch_gloss": "iç kavrayış",
+          "facet_statement": "Bu iç kavrayış delil, kanıt, ibret ve açıklayıcı bildirim anlamlarına uzanır.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["29:38:16:1"],
+          "trigger_refs": ["29:35"],
+          "focus_return_refs": ["29:38:16:1"],
+          "carrier": "The focus insight term carries the possibility of evidence becoming a lesson.",
+          "independent_trigger": "The preceding sign is explicitly left for reflective people.",
+          "activation": "The trace supplies the evidential detail that lets inward recognition extend beyond bare visual contact.",
+          "resulting_reading": "The remains invite a conversion from seeing a ruin to understanding what it discloses.",
+          "boundary": "The finding does not collapse physical sight and inward understanding into one lexical sense."
+        },
+        {
+          "branch_ref": "root_000121/B003",
+          "facet_id": "F002",
+          "branch_gloss": "aydınlatıcı açıklık",
+          "facet_statement": "Bir işaretin insanları görür veya kavrar hale getirmesi bu çekirdeğin nedensel uzantısıdır.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["29:38:16:1"],
+          "trigger_refs": ["29:35"],
+          "focus_return_refs": ["29:38:16:1"],
+          "carrier": "The focus sight term carries the branch in which clarity enables seeing or understanding.",
+          "independent_trigger": "29:35 supplies a sign expressly left for reflective understanding.",
+          "activation": "The sign gives the focus's seeing-capacity an illuminating cause, folded into the same trace-to-insight mechanism.",
+          "resulting_reading": "The remains can illuminate the field in which discernment becomes possible.",
+          "boundary": "This unlinked focus branch is folded into the present finding and does not replace the inward-sight branch."
+        },
+        {
+          "branch_ref": "root_000170/B004",
+          "facet_id": "F001",
+          "branch_gloss": "açığa çıkıp belirginleşme",
+          "facet_statement": "Çekirdek anlam şeyin görünür, anlaşılır ve açık hale gelmesidir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["29:38:4:1"],
+          "trigger_refs": ["29:35"],
+          "focus_return_refs": ["29:38:4:1"],
+          "carrier": "The focus verb carries becoming visible, understandable, and clear.",
+          "independent_trigger": "29:35 supplies the town's clear remaining sign.",
+          "activation": "The earlier sign makes the focus's self-manifesting clarity concrete and situated in a visible remnant.",
+          "resulting_reading": "The dwellings' disclosure is an emergence of evidence rather than a mere report about the past.",
+          "boundary": "The focus verb is not reduced to the later sign noun."
+        },
+        {
+          "branch_ref": "root_000170/B004",
+          "facet_id": "F003",
+          "branch_gloss": "açığa çıkıp belirginleşme",
+          "facet_statement": "Açık kanıt, açık işaret veya belirgin belge olarak adlaşmış kullanımı vardır.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["29:38:4:1"],
+          "trigger_refs": ["29:35"],
+          "focus_return_refs": ["29:38:4:1"],
+          "carrier": "The focus clarity term carries the possibility of an explicit proof or sign.",
+          "independent_trigger": "The pericope names a clear sign left in the town.",
+          "activation": "The sign context lets the focus's clarity operate as a document-like disclosure that can be revisited.",
+          "resulting_reading": "The remaining dwellings acquire the force of an inspectable proof.",
+          "boundary": "No separate technical document is asserted."
+        },
+        {
+          "branch_ref": "root_000170/B005",
+          "facet_id": "F001",
+          "branch_gloss": "anlamı açıkça ortaya koyma",
+          "facet_statement": "Çekirdek anlam, kastedilen anlamı açığa çıkarıp anlaşılır kılmadır.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["29:38:4:1"],
+          "trigger_refs": ["29:35"],
+          "focus_return_refs": ["29:38:4:1"],
+          "carrier": "The focus verb carries bringing intended meaning into intelligibility.",
+          "independent_trigger": "The clear-sign context gives the meaning-bearing remainder a concrete referent.",
+          "activation": "A remnant can make the significance of a past event intelligible without another speaker spelling it out.",
+          "resulting_reading": "The dwellings themselves participate in making the consequence understood.",
+          "boundary": "This does not assert a speech act by the ruins."
+        },
+        {
+          "branch_ref": "root_000170/B005",
+          "facet_id": "F002",
+          "branch_gloss": "anlamı açıkça ortaya koyma",
+          "facet_statement": "Bu açıklama sadece konuşmayla değil yazı, işaret veya başka gösterme yollarıyla da olabilir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["29:38:4:1"],
+          "trigger_refs": ["29:35"],
+          "focus_return_refs": ["29:38:4:1"],
+          "carrier": "The focus clarity verb carries nonverbal disclosure as well as verbal explanation.",
+          "independent_trigger": "29:35 identifies a remaining sign as the means of disclosure.",
+          "activation": "The sign makes the focus's meaning-emergence branch operate through a material remainder.",
+          "resulting_reading": "The site can disclose without becoming a spoken explanation.",
+          "boundary": "The speech-specialization facet is excluded."
+        },
+        {
+          "branch_ref": "root_000180/B002",
+          "facet_id": "SOURCE_IMAGE",
+          "branch_gloss": "leaving an effect to remain",
+          "facet_statement": "leaving an effect to remain",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["29:35"],
+          "trigger_refs": ["29:38:7:1"],
+          "focus_return_refs": ["29:38:7:1"],
+          "carrier": "29:35 carries the act of leaving a sign behind.",
+          "independent_trigger": "The focus identifies the remaining trace through the peoples' dwellings.",
+          "activation": "The retained effect gives the focus place a temporal afterlife in which the past remains readable.",
+          "resulting_reading": "The dwellings carry the event forward as a trace after its actors have departed.",
+          "boundary": "No root identity or etymology is inferred from the nominated image."
+        },
+        {
+          "branch_ref": "root_001040/B002",
+          "facet_id": "SOURCE_IMAGE",
+          "branch_gloss": "a distinguishing mark that points to something",
+          "facet_statement": "a distinguishing mark that points to something",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["29:35"],
+          "trigger_refs": ["29:38:4:1"],
+          "focus_return_refs": ["29:38:4:1"],
+          "carrier": "The clear sign context carries a distinguishing mark that points beyond itself.",
+          "independent_trigger": "The focus's clarity verb names the direction in which the mark becomes intelligible.",
+          "activation": "The remaining site functions as a landmark: it catches attention and directs it toward an understood consequence.",
+          "resulting_reading": "The focus dwellings point the reader toward what happened and what the visible remains mean.",
+          "boundary": "The nominated landmark image is not made the sole lexical meaning of the focus."
+        }
+      ],
+      "connection_refs": ["conn_9be925dbfa8ea3474562"],
+      "context_refs": ["29:35"],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "macro:inhabited-belonging",
+      "origin_candidate_id": "cand_7b6ec7ef851717481779",
+      "represented_candidate_ids": [],
+      "title": "Dwelling gathers an inhabited belonging",
+      "claim": "The focus dwellings can be felt as inhabited relations: a place gathers people who belong, live together, and seek dependable reception.",
+      "mechanism": "The pericope's town and household vocabulary and the focus's plural dwelling form meet the protective-affiliation scene; residence and inner reassurance give the social shelter a consequence without turning it into a guarantee.",
+      "reader_payoff": "The reader notices that the dwellings point toward who is inside a shelter and what makes belonging protective, not only toward physical location.",
+      "containment": "This remains a local social reading of the dwellings. It does not equate every kinship or hospitality image with the focus and does not claim that belonging itself secures anyone.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": ["trusted"],
+        "reason": "The trusted channel supplies exact town, household, resident, and protective-dwelling contacts, while qualification and food-hospitality branches are explicitly omitted."
+      },
+      "support_ids": [
+        "sup_364e76cfc81601c6cf58",
+        "sup_748070bde56b5942dc55",
+        "sup_9d31931c52ebea1e09e9",
+        "sup_ded21f511c4f2aa8b1ae",
+        "sup_e0335dc4a16875673f98"
+      ],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000064/B001",
+          "facet_id": "SOURCE_IMAGE",
+          "branch_gloss": "people bound by closeness and belonging",
+          "facet_statement": "people bound by closeness and belonging",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["29:31"],
+          "trigger_refs": ["29:38:7:1"],
+          "focus_return_refs": ["29:38:7:1"],
+          "carrier": "29:31 carries the town's people as a bound household group.",
+          "independent_trigger": "The focus names the places belonging to the named peoples.",
+          "activation": "The town's gathered people turn the focus dwelling into a social place of belonging.",
+          "resulting_reading": "The dwellings are perceived through the people bound to them, not as empty architecture alone.",
+          "boundary": "The broad belonging branch is not reduced to blood kinship."
+        },
+        {
+          "branch_ref": "root_000064/B004",
+          "facet_id": "SOURCE_IMAGE",
+          "branch_gloss": "familiar habitation and domestication",
+          "facet_statement": "familiar habitation and domestication",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["29:31"],
+          "trigger_refs": ["29:38:7:1"],
+          "focus_return_refs": ["29:38:7:1"],
+          "carrier": "The town context carries inhabited familiarity and a settled population.",
+          "independent_trigger": "The focus uses the plural term for their settled dwellings.",
+          "activation": "The settled town and the named dwellings meet in the experience of a place made familiar by habitation.",
+          "resulting_reading": "The focus locations hold the weight of lived familiarity, which makes their exposed fate more concrete.",
+          "boundary": "No claim is made that the focus explicitly names domestication."
+        },
+        {
+          "branch_ref": "root_000166/B002",
+          "facet_id": "SOURCE_IMAGE",
+          "branch_gloss": "household and family",
+          "facet_statement": "household and family",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["29:31"],
+          "trigger_refs": ["29:41"],
+          "focus_return_refs": ["29:38:7:1"],
+          "carrier": "The town household context carries the family or house-affiliated group.",
+          "independent_trigger": "29:41 supplies protective affiliation expressed through a house comparison.",
+          "activation": "Household belonging meets chosen protection and makes social shelter part of the focus dwelling's local field.",
+          "resulting_reading": "A dwelling can be read as a relation of who is gathered and protected within it.",
+          "boundary": "The focus does not assert that every household relation is secure or morally sound."
+        },
+        {
+          "branch_ref": "root_000726/B003",
+          "facet_id": "F001",
+          "branch_gloss": "ev halkı ve orada yaşayanlar",
+          "facet_statement": "Gönderim, evin kendisine değil o evde yaşayan kişilere yönelir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["29:38:7:1"],
+          "trigger_refs": ["29:31"],
+          "focus_return_refs": ["29:38:7:1"],
+          "carrier": "The focus dwelling term carries the residents associated with a house.",
+          "independent_trigger": "29:31 supplies the town's people as the inhabitants under judgment.",
+          "activation": "The context shifts attention from the building alone to the people whose life makes it a dwelling.",
+          "resulting_reading": "Their dwellings retain the presence of their inhabitants even when the verse speaks through place.",
+          "boundary": "This does not replace the focus's physical-place reference."
+        },
+        {
+          "branch_ref": "root_000726/B003",
+          "facet_id": "F002",
+          "branch_gloss": "ev halkı ve orada yaşayanlar",
+          "facet_statement": "Aynı evin halkı ve bakmakla yükümlü olunan aile üyeleri bu grubun belirgin özel alanıdır.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["29:38:7:1"],
+          "trigger_refs": ["29:31"],
+          "focus_return_refs": ["29:38:7:1"],
+          "carrier": "The plural dwelling term carries the household members associated with a place.",
+          "independent_trigger": "The pericope's town context supplies a defined population rather than an empty site.",
+          "activation": "A named household group makes the focus places socially inhabited and accountable.",
+          "resulting_reading": "The dwellings are read as the lived setting of a people, with the shelter relation close to the people themselves.",
+          "boundary": "No extra family narrative is imported beyond the supplied local context."
+        },
+        {
+          "branch_ref": "root_000726/B003",
+          "facet_id": "F003",
+          "branch_gloss": "ev halkı ve orada yaşayanlar",
+          "facet_statement": "Çoğul kullanım, bir evde veya başka bir yerde oturanların tümüne genişleyebilir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["29:38:7:1"],
+          "trigger_refs": ["29:31"],
+          "focus_return_refs": ["29:38:7:1"],
+          "carrier": "The focus plural carries all who occupy the named places.",
+          "independent_trigger": "29:31 frames the community as a gathered town population.",
+          "activation": "The plural place can hold an entire inhabiting group, connecting settlement to communal life.",
+          "resulting_reading": "The focus's dwellings gather a whole population into the scene of the visible consequence.",
+          "boundary": "The extension does not make every community relation an instance of household."
+        },
+        {
+          "branch_ref": "root_000726/B004",
+          "facet_id": "F001",
+          "branch_gloss": "insanı rahatlatıp içini yatıştıran dayanak",
+          "facet_statement": "Kişi sevdiği veya yakın bulduğu birine ya da şeye yönelir ve onun yanında içi yatışır.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["29:38:7:1"],
+          "trigger_refs": ["29:41"],
+          "focus_return_refs": ["29:38:7:1"],
+          "carrier": "The focus dwelling term carries a place toward which people settle and turn for rest.",
+          "independent_trigger": "29:41 makes protective support the subject of a house comparison.",
+          "activation": "The social shelter contact gives the dwelling an affective function while the parable questions whether that function is dependable.",
+          "resulting_reading": "A place can feel like a reassuring support even as the surrounding context exposes false security.",
+          "boundary": "Reassurance is a bounded function, not a guarantee that the dwelling protects."
+        },
+        {
+          "branch_ref": "root_001222/B001",
+          "facet_id": "SOURCE_IMAGE",
+          "branch_gloss": "people gathered in a settlement",
+          "facet_statement": "people gathered in a settlement",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["29:31"],
+          "trigger_refs": ["29:38:7:1"],
+          "focus_return_refs": ["29:38:7:1"],
+          "carrier": "The town context carries people gathered in a settlement.",
+          "independent_trigger": "The focus identifies the settled places attached to a named people.",
+          "activation": "Settlement and population meet, making the dwellings a communal rather than solitary space.",
+          "resulting_reading": "The focus locations are understood as inhabited settlements whose social bonds are part of their meaning.",
+          "boundary": "The hospitality branch is excluded; gathering here means inhabitation, not a supplied meal."
+        }
+      ],
+      "connection_refs": [
+        "conn_7957232d88bd0996251f",
+        "conn_314ac0eed46265bb9f9e"
+      ],
+      "context_refs": ["29:31", "29:41"],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "macro:failed-stability-architecture",
+      "origin_candidate_id": "cand_64952ac6dfd1c0b90cf4",
+      "represented_candidate_ids": [],
+      "title": "An inhabited structure can fail as security",
+      "claim": "The pericope exposes a failed stability design: a settled, visible, and inhabited-looking structure can still collapse when pride and chosen supports govern it.",
+      "mechanism": "The HFT trace links the focus's fixed place to preceding collapse and following proofs, then to the weak house. The retained exact branches join location, disclosure, and shelter; unresolved HFT-only roles remain outside the finding.",
+      "reader_payoff": "Past ruins, pride, culpable outcomes, and the weak house become two scales of one question: what makes apparent stability able to carry life.",
+      "containment": "This is an attributed exploratory synthesis. It does not decide that 29:41 is only about ruins or convert unresolved HFT roles into lexical facts; the ordinary historical and parabolic readings remain recoverable.",
+      "epistemic": {
+        "status": "exploratory",
+        "source_trust": ["legacy_unbound"],
+        "reason": "The HFT record is legacy_unbound and its target morphology is not supplied; only branches with registered glosses and exact focus/context contacts are retained."
+      },
+      "support_ids": ["sup_01afe80fc3ba4dcd6405"],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000726/B009",
+          "facet_id": "F002",
+          "branch_gloss": "sabit yer ve konum bildiren özel kullanımlar",
+          "facet_statement": "Çoğul kalıp ifadeler kişilerin yerlerini, konumlarını, düzeylerini, evlerini veya alışılmış düzenlerini gösterebilir.",
+          "application_mode": "attributed",
+          "carrier_refs": ["29:38:7:1"],
+          "trigger_refs": ["29:37", "29:40"],
+          "focus_return_refs": ["29:38:7:1"],
+          "carrier": "The focus plural dwelling term carries places, positions, and established arrangements.",
+          "independent_trigger": "29:37 fixes bodies in their dwellings and 29:40 follows with varied material outcomes.",
+          "activation": "The preceding collapse and following consequences reassess the stability implied by an established place.",
+          "resulting_reading": "A settled location can look fixed while remaining exposed to a larger failure of security.",
+          "boundary": "The body-specific and special-place variants are not being claimed."
+        },
+        {
+          "branch_ref": "root_000170/B004",
+          "facet_id": "F001",
+          "branch_gloss": "açığa çıkıp belirginleşme",
+          "facet_statement": "Çekirdek anlam şeyin görünür, anlaşılır ve açık hale gelmesidir.",
+          "application_mode": "attributed",
+          "carrier_refs": ["29:38:4:1"],
+          "trigger_refs": ["29:39", "29:40"],
+          "focus_return_refs": ["29:38:4:1"],
+          "carrier": "The focus clarity verb carries what becomes visible and understandable.",
+          "independent_trigger": "29:39 pairs clear proofs with pride and 29:40 pairs culpability with material outcomes.",
+          "activation": "Visible proof remains present while the following sequence shows that pride and culpability can govern what follows.",
+          "resulting_reading": "The failed stability is exposed rather than hidden: its defect can be seen in the sequence of proof and outcome.",
+          "boundary": "The HFT synthesis does not make every visible thing a proof."
+        },
+        {
+          "branch_ref": "root_000170/B004",
+          "facet_id": "F003",
+          "branch_gloss": "açığa çıkıp belirginleşme",
+          "facet_statement": "Açık kanıt, açık işaret veya belirgin belge olarak adlaşmış kullanımı vardır.",
+          "application_mode": "attributed",
+          "carrier_refs": ["29:38:4:1"],
+          "trigger_refs": ["29:39"],
+          "focus_return_refs": ["29:38:4:1"],
+          "carrier": "The focus clarity term carries explicit evidence.",
+          "independent_trigger": "29:39 supplies the next named sequence of clear proofs met by pride.",
+          "activation": "The proof's presence makes the later failure a defect in the stability design rather than an absence of information.",
+          "resulting_reading": "The architecture fails in the presence of evidence, not because the evidence never emerged.",
+          "boundary": "The explicit-proof specialization is retained only as this bounded HFT contact."
+        },
+        {
+          "branch_ref": "root_000166/B001",
+          "facet_id": "SOURCE_IMAGE",
+          "branch_gloss": "shelter and dwelling",
+          "facet_statement": "shelter and dwelling",
+          "application_mode": "attributed",
+          "carrier_refs": ["29:41"],
+          "trigger_refs": ["29:38:7:1", "29:43"],
+          "focus_return_refs": ["29:38:7:1"],
+          "carrier": "29:41 carries the explicit shelter and dwelling image.",
+          "independent_trigger": "The focus names settled dwellings and 29:43 frames the house example as something to be understood.",
+          "activation": "The shelter analogy becomes diagnostic when it is read beside settled places, visible proof, and the call to understand the example.",
+          "resulting_reading": "An inhabited-looking refuge may fail at the level of the support it promises.",
+          "boundary": "The unresolved alliance, spider, weakness, culpability, and intellect branch refs are not silently promoted."
+        }
+      ],
+      "connection_refs": [
+        "conn_0f85d375955afae49954",
+        "conn_0df16f85c8c3d44467a1",
+        "conn_ffac51a6c5eb11e72aa0",
+        "conn_314ac0eed46265bb9f9e",
+        "conn_72e2690863f0e69d1ef1"
+      ],
+      "context_refs": ["29:37", "29:39", "29:40", "29:41", "29:43"],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "macro:webbed-path-obstruction",
+      "origin_candidate_id": "cand_258d68d6010581d8496e",
+      "represented_candidate_ids": [],
+      "title": "A fragile web can obstruct sight",
+      "claim": "As an exploratory material analogy, beautification can be pictured as a fragile web-like film laid across the path of sight, leaving discernment present beneath the obstruction.",
+      "mechanism": "The focus path is paired with its own visual-sight term, and the spider-house's exact weak-web scene supplies the independent material trigger; together they alter the obstruction from an abstract barrier to a thin covering.",
+      "reader_payoff": "Something visibly weak can still interfere with seeing and choosing, so the obstacle need not be strong to be effective.",
+      "containment": "This is a surprising analogy, never a lexical translation of ٱلسَّبِيلِ. It retains the ordinary road and sight readings, and the unresolved spider and weakness branch refs are not treated as independently verified lexicon evidence.",
+      "epistemic": {
+        "status": "exploratory",
+        "source_trust": ["legacy_unbound"],
+        "reason": "The HFT record is legacy_unbound, but its exact focus path and sight carriers meet the supplied spider-house context; the material image remains explicitly bounded."
+      },
+      "support_ids": ["sup_39e089abad690f68c898"],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000672/B010",
+          "facet_id": "F001",
+          "branch_gloss": "kırmızı damarlı ağsı göz perdesi",
+          "facet_statement": "Gözün üzerinde görüşü örten ağsı bir perde oluşturan hastalığı belirtir.",
+          "application_mode": "analogical",
+          "carrier_refs": ["29:38:14:2"],
+          "trigger_refs": ["29:38:16:1", "29:41"],
+          "focus_return_refs": ["29:38:14:2"],
+          "carrier": "The focus path carries the retained eye-film branch.",
+          "independent_trigger": "The focus also supplies visual sight, while 29:41 supplies an actual spider-house and weak shelter scene.",
+          "activation": "The path and sight words meet the web-like obstruction image, allowing the focus's blockage to be pictured as a covering across perception.",
+          "resulting_reading": "The obstruction can be thin and film-like while still interrupting the field through which discernment moves.",
+          "boundary": "This is a material analogy, not a medical claim about the named peoples."
+        },
+        {
+          "branch_ref": "root_000672/B010",
+          "facet_id": "F002",
+          "branch_gloss": "kırmızı damarlı ağsı göz perdesi",
+          "facet_statement": "Perdenin örümcek ağına benzemesi ve kırmızı damarlar taşıması ayırıcı görünüşüdür.",
+          "application_mode": "analogical",
+          "carrier_refs": ["29:38:14:2"],
+          "trigger_refs": ["29:38:16:1", "29:41"],
+          "focus_return_refs": ["29:38:14:2"],
+          "carrier": "The focus path carries the spider-web-like appearance branch.",
+          "independent_trigger": "The sight term and the exact spider-house context provide separate visual and material grounding.",
+          "activation": "The web appearance makes the obstruction's fragility and its visual interference perceptible together.",
+          "resulting_reading": "A weak-looking film can be imagined across the path of sight without erasing sight itself.",
+          "boundary": "The appearance is retained as an outlier image and not as the ordinary meaning of the path."
+        },
+        {
+          "branch_ref": "root_000121/B001",
+          "facet_id": "F001",
+          "branch_gloss": "gözle görme",
+          "facet_statement": "Görme duyusu, bakan göz organı ve bir şeyi gözle görme eylemi çekirdeği oluşturur.",
+          "application_mode": "analogical",
+          "carrier_refs": ["29:38:16:1"],
+          "trigger_refs": ["29:38:14:2", "29:41"],
+          "focus_return_refs": ["29:38:16:1"],
+          "carrier": "The focus sight term carries bodily seeing.",
+          "independent_trigger": "The path word supplies the route across which the eye-film analogy is placed, and 29:41 supplies the web material.",
+          "activation": "Sight remains the perceptual ground that lets a fragile covering explain how the obstruction is experienced.",
+          "resulting_reading": "Discernment persists beneath the obstruction even while the path through which it operates is visually interfered with.",
+          "boundary": "The finding does not replace the focus's inner or ordinary interpretive dimensions."
+        }
+      ],
+      "connection_refs": ["conn_314ac0eed46265bb9f9e"],
+      "context_refs": ["29:41"],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "macro:counted-case-ledger",
+      "origin_candidate_id": "cand_5b8e47a462dbae9cfa6e",
+      "represented_candidate_ids": [],
+      "title": "The named peoples open a case ledger",
+      "claim": "In a contained split-root resonance, naming ʿAd and Thamud begins a countable case sequence: visible remains can be read alongside an offense and its outcome.",
+      "mechanism": "The non-dominant count branch at عادًا meets the focus's clear and inspectable form and the following كلًّا ... بذنب sequence; the names become a ledger-like arrangement without losing their proper-name identity.",
+      "reader_payoff": "The reader sees the list as a sequence of inspectable cases whose traces and consequences are paired.",
+      "containment": "The dominant proper-name reading remains intact. Counting is a bounded split-root formal resonance, not an etymology or translation of عَادًا, and the unresolved offense and total-inclusion branches are omitted.",
+      "epistemic": {
+        "status": "exploratory",
+        "source_trust": ["legacy_unbound"],
+        "reason": "The HFT record is legacy_unbound, but the retained count and disclosure branches have registered facets and exact focus/context contacts; the remaining HFT branches are unresolved."
+      },
+      "support_ids": ["sup_c02306ffdaee4fc8e150"],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000989/B001",
+          "facet_id": "F001",
+          "branch_gloss": "sayma, sayı ve sayıya göre bir topluluğa katma",
+          "facet_statement": "Bir şeyin birimlerini sayıp toplam miktarını belirleme işlemi.",
+          "application_mode": "intrinsic_cross_root",
+          "carrier_refs": ["29:38:1:2"],
+          "trigger_refs": ["29:40"],
+          "focus_return_refs": ["29:38:1:2"],
+          "carrier": "The proper name ʿAd carries the registered non-dominant count branch.",
+          "independent_trigger": "29:40 closes over the preceding cases with an each-case judgment sequence.",
+          "activation": "The counted-name possibility meets the later case-closing structure and gives the paired names a ledger-like formal pressure.",
+          "resulting_reading": "The names can be heard as opening a set of cases to be inspected one by one, alongside their visible remains.",
+          "boundary": "ʿAd remains the proper name of the people; the count branch is not offered as derivation."
+        },
+        {
+          "branch_ref": "root_000170/B004",
+          "facet_id": "F001",
+          "branch_gloss": "açığa çıkıp belirginleşme",
+          "facet_statement": "Çekirdek anlam şeyin görünür, anlaşılır ve açık hale gelmesidir.",
+          "application_mode": "intrinsic_cross_root",
+          "carrier_refs": ["29:38:4:1"],
+          "trigger_refs": ["29:40"],
+          "focus_return_refs": ["29:38:4:1"],
+          "carrier": "The focus clarity term carries cases becoming visible and understandable.",
+          "independent_trigger": "29:40 supplies the following one-by-one consequence structure.",
+          "activation": "The disclosure branch makes the counted sequence inspectable rather than a bare enumeration of names.",
+          "resulting_reading": "Each named case can be read through what its visible remains disclose and what follows from it.",
+          "boundary": "The branch does not independently establish the unresolved offense or total-inclusion images."
+        }
+      ],
+      "connection_refs": ["conn_ffac51a6c5eb11e72aa0"],
+      "context_refs": ["29:40"],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "macro:beautified-deliberate-works",
+      "origin_candidate_id": null,
+      "represented_candidate_ids": [],
+      "title": "Beautification governs the reading of deliberate works",
+      "claim": "The next context makes the beautified object more precise: it is their deliberate work, evaluated in the presence of clear proof, pride, and later culpable outcomes.",
+      "mechanism": "The focus pairing زَيَّنَ ... أَعْمَالَهُمْ is returned to by 29:39's clear proofs and pride and 29:40's offense-outcome frame, so the obstruction is a change in valuation of acts rather than the disappearance of evidence.",
+      "reader_payoff": "The reader can see the path obstruction as a failure in judging one's own acts even while proof remains available.",
+      "containment": "This sharpens the focus's ordinary beautification-of-deeds statement without making every work false or redefining either focus word. The historical and path readings remain intact.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": ["trusted"],
+        "reason": "The exact focus action carrier and the supplied 29:39-29:40 context form an independent macro contact through registered focus branches."
+      },
+      "support_ids": ["sup_9589b8f04f9d3592eb22"],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000660/B002",
+          "facet_id": "F001",
+          "branch_gloss": "güzelleştirme ve güzelliğini görünür kılma",
+          "facet_statement": "Bir şey güzelleştirilir veya onda bulunan güzellik eylem ya da söz yoluyla görünür hale getirilir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["29:38:8:2"],
+          "trigger_refs": ["29:39", "29:40"],
+          "focus_return_refs": ["29:38:8:2"],
+          "carrier": "The focus verb carries active beautification or making an attractive quality visible.",
+          "independent_trigger": "The following context joins clear proofs and pride to the later account of culpable outcomes.",
+          "activation": "Beautification is therefore read as an evaluative action that can alter how conduct appears before the actor.",
+          "resulting_reading": "The act of making deeds attractive becomes the hinge through which evidence and direction are separated.",
+          "boundary": "No claim is made that this branch replaces the focus's ordinary Form II action."
+        },
+        {
+          "branch_ref": "root_001046/B001",
+          "facet_id": "F001",
+          "branch_gloss": "bilerek yapılan iş veya eylem",
+          "facet_statement": "Bir yapanın bilerek ortaya koyduğu iş veya eylem anlamı çekirdektir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["29:38:11:1"],
+          "trigger_refs": ["29:39", "29:40"],
+          "focus_return_refs": ["29:38:11:1"],
+          "carrier": "The focus deed-object carries deliberate action.",
+          "independent_trigger": "29:39 supplies clear proofs met by pride, and 29:40 links each group to an offense and outcome.",
+          "activation": "The surrounding sequence makes the object of beautification responsible action rather than an unspecified possession.",
+          "resulting_reading": "The diversion concerns how deliberate works are valued and followed despite available proof.",
+          "boundary": "The finding does not add a moral verdict to every action or activate the fee, office, or other work branches."
+        }
+      ],
+      "connection_refs": [
+        "conn_0df16f85c8c3d44467a1",
+        "conn_ffac51a6c5eb11e72aa0"
+      ],
+      "context_refs": ["29:39", "29:40"],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "macro:established-insight-state",
+      "origin_candidate_id": null,
+      "represented_candidate_ids": [],
+      "title": "Insight is presented as an established state",
+      "claim": "The closing state of being discerning is sharpened by the surrounding repeated forms of being: discernment is presented as an established condition, while the later parable asks whether understanding is actually present.",
+      "mechanism": "The focus's past auxiliary and insight participle meet the repeated كَانَ forms in 29:39-29:41 and the conditional knowing in 29:41; this makes the irony a failure of an existing capacity to govern direction.",
+      "reader_payoff": "The problem becomes the failure of a present faculty or state to direct action, not the absence of a faculty altogether.",
+      "containment": "This is a grammatical and contextual sharpening, not a claim that every ك و ن form shares one meaning or that the focus state guarantees right judgment.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": ["trusted"],
+        "reason": "The exact focus auxiliary and participle and the supplied repeated-state context support a bounded macro reading."
+      },
+      "support_ids": ["sup_7f527b731eb1e4e431f6"],
+      "branch_activations": [
+        {
+          "branch_ref": "root_001332/B001",
+          "facet_id": "F003",
+          "branch_gloss": "gerçekleşme, bulunma ve olma bildirimi",
+          "facet_statement": "Geçmişteki bir durumun haber verilmesi veya şimdiki olmanın bildirilmesi bu alana bağlıdır.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["29:38:15:2"],
+          "trigger_refs": ["29:39", "29:40", "29:41"],
+          "focus_return_refs": ["29:38:15:2"],
+          "carrier": "The focus auxiliary carries an already-held state of being.",
+          "independent_trigger": "The surrounding contexts repeat being-forms and culminate in the conditional question of knowing.",
+          "activation": "The repeated state language lets the focus's discernment stand as a condition already present before the later test of understanding.",
+          "resulting_reading": "They are shown as possessing an established capacity while their direction and judgment still fail.",
+          "boundary": "This does not turn the grammatical auxiliary into an independent theological claim."
+        }
+      ],
+      "connection_refs": [
+        "conn_0df16f85c8c3d44467a1",
+        "conn_ffac51a6c5eb11e72aa0",
+        "conn_314ac0eed46265bb9f9e",
+        "conn_72e2690863f0e69d1ef1"
+      ],
+      "context_refs": ["29:39", "29:40", "29:41"],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "macro:fatiha-straight-path-overlay",
+      "origin_candidate_id": null,
+      "represented_candidate_ids": [],
+      "title": "The blocked path is also the requested straight course",
+      "claim": "Under the explicitly added Fatiha overlay, the focus's definite path also appears as the straight course being requested, while straying marks the opposite directional outcome.",
+      "mechanism": "The focus path carrier meets 1:6's request for guidance to the straight path and 1:7's distinction from the paths of anger and straying; this adds a petitionary directional frame beyond the native road-cutting context.",
+      "reader_payoff": "The obstruction now has a precise counter-movement: the route that can be cut is also the course a community asks to be led along.",
+      "containment": "Only individual 1:6 and 1:7 contacts are retained. The overlay does not import a whole-surah theology, redefine سَبِيل lexically, or displace the native claim that the named peoples were turned from it.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": ["trusted"],
+        "reason": "The external ayat are explicit macro members and supply a specific path-and-guidance contact that adds petitionary direction beyond the native road-cutting finding."
+      },
+      "support_ids": [
+        "sup_4c86cbda457fc090a75c",
+        "sup_9589b8f04f9d3592eb22"
+      ],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000672/B001",
+          "facet_id": "F003",
+          "branch_gloss": "yol ve bir amaca ulaştıran yol",
+          "facet_statement": "Belirli dinsel söz öbeklerinde doğruluğa, iyiliğe veya kurtuluşa yönelten yolu belirtir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["29:38:14:2"],
+          "trigger_refs": ["1:6", "1:7"],
+          "focus_return_refs": ["29:38:14:2"],
+          "carrier": "The focus definite path carries the route named as the object of diversion.",
+          "independent_trigger": "1:6 requests guidance to the straight path and 1:7 distinguishes its recipients from anger and straying.",
+          "activation": "The external prayer gives the focus route a direct petitionary orientation and supplies a concrete counter-direction to being turned away.",
+          "resulting_reading": "The path is newly heard as a course a community asks to be guided along, in addition to being the route from which the named peoples were diverted.",
+          "boundary": "The overlay does not make سَبِيل and صِرَاط identical or import the whole of Fatiha into the focus."
+        }
+      ],
+      "connection_refs": [],
+      "context_refs": ["1:6", "1:7"],
+      "semantic_obligation_refs": []
+    }
+  ],
+  "friction_notes": [
+    "All seven packet candidates were reviewed exactly once; each is narrowed to a dedicated finding, and no represented or rejected duplicate was used.",
+    "The trusted channel findings retain only branches with a supplied focus or context carrier and an independent trigger; omitted branches and facets are recorded on the corresponding candidate decisions.",
+    "The HFT records are legacy_unbound and supply exact anchor Arabic without target morphology. Registered HFT branches are retained as exploratory attributed contacts, while unresolved HFT-only branches remain explicit exclusions.",
+    "The automatic host basmala 29:0 was inspected and yielded no independent focus carrier-trigger-payoff chain. External 1:2-1:5 were quarantined as broad or repetitive material; only the specific 1:6-1:7 path overlay survived Phase 2.",
+    "The broad connection rows for 29:28, 29:30, 29:32-29:34, 29:36, 29:42, and 29:44 were inspected; they add surrounding repetition or reciprocal counterevidence without a distinct macro carrier-trigger change. The retained connection rows are cited in findings.",
+    "Unlinked focus branches root_000660/B002 and root_001046/B001 were admitted through the beautified-works contact, root_001332/B001 through the repeated-state contact, and root_000121/B003 was folded into the trace-to-insight finding. Other available branches lacked an independent carrier, trigger, changed reading, and reader payoff chain.",
+    "The packet candidate inventory contains no semantic_obligations arrays or named obligation references; semantic obligation arrays are therefore empty rather than invented."
+  ]
+}

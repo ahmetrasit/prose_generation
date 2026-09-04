@@ -15,6 +15,7 @@ import sys
 import tempfile
 import time
 import uuid
+from contextlib import contextmanager
 from urllib.error import HTTPError, URLError
 from urllib.parse import quote, urlencode
 from urllib.request import Request, urlopen
@@ -66,7 +67,7 @@ class MonitorError(RuntimeError):
 
 
 def utc_now() -> str:
-    return datetime.now(UTC).isoformat(timespec="seconds").replace("+00:00", "Z")
+    return datetime.now(UTC).isoformat(timespec="microseconds").replace("+00:00", "Z")
 
 
 def validate_id(value: str, label: str) -> str:
@@ -189,6 +190,10 @@ def control_marker(registration: dict[str, Any]) -> Path:
     )
 
 
+def stop_marker(registration: dict[str, Any]) -> Path:
+    return control_marker(registration).with_name("STOP")
+
+
 def event_path(
     registration: dict[str, Any], ayah_ref: str, role: str, lane: str | None, attempt: int
 ) -> Path:
@@ -242,7 +247,19 @@ def resolve_attempt(
         if agent_id
         and any(event.get("agent_id") == agent_id for event in attempts[number])
     ]
-    return max(matching or open_attempts or attempts or {1})
+    if agent_id and matching:
+        return max(matching)
+    if agent_id and open_attempts:
+        raise MonitorError(
+            f"No open attempt for agent {agent_id!r}; refusing to close another agent's attempt"
+        )
+    if len(open_attempts) == 1:
+        return open_attempts[0]
+    if len(open_attempts) > 1:
+        raise MonitorError("Multiple attempts are open; provide --agent-id or --attempt")
+    if status == "attention":
+        return max(attempts, default=0) + 1
+    raise MonitorError("No open attempt matches this terminal event")
 
 
 def _append_jsonl(path: Path, value: dict[str, Any]) -> None:
@@ -283,6 +300,31 @@ def load_registration(path: Path) -> dict[str, Any]:
     missing = sorted(required - set(value))
     if missing:
         raise MonitorError(f"Registration is missing fields: {missing}")
+    for key, label in (
+        ("run_id", "run ID"),
+        ("worker_id", "worker ID"),
+        ("orchestrator_id", "orchestrator ID"),
+        ("analysis_id", "analysis ID"),
+    ):
+        if not isinstance(value.get(key), str):
+            raise MonitorError(f"Registration {key} must be a string")
+        validate_id(value[key], label)
+    scope_refs = value.get("scope_refs")
+    if not isinstance(scope_refs, list) or not scope_refs:
+        raise MonitorError("Registration scope_refs must be a nonempty list")
+    if any(not isinstance(ref, str) for ref in scope_refs):
+        raise MonitorError("Registration scope_refs must contain only strings")
+    normalized_refs = expand_scope(scope_refs)
+    if normalized_refs != scope_refs:
+        raise MonitorError("Registration scope_refs are invalid, duplicated, or not normalized")
+    if value.get("scope_count") is not None and value["scope_count"] != len(scope_refs):
+        raise MonitorError("Registration scope_count does not match scope_refs")
+    try:
+        poll_seconds = float(value.get("poll_seconds", 10))
+    except (TypeError, ValueError) as exc:
+        raise MonitorError("Registration poll_seconds must be numeric") from exc
+    if poll_seconds <= 0:
+        raise MonitorError("Registration poll_seconds must be greater than zero")
     return value
 
 
@@ -609,6 +651,13 @@ class FirebaseRestSink:
         desired = self._read_control_state(registration) or "running"
         self.last_desired_state = desired
         self._write(
+            self._path("runs", registration["run_id"]),
+            {
+                "run_id": registration["run_id"],
+                "last_registered_at": utc_now(),
+            },
+        )
+        self._write(
             self._path("workers", registration["worker_id"]),
             {
                 "worker_id": registration["worker_id"],
@@ -765,13 +814,42 @@ def _event_stage(event: dict[str, Any]) -> str:
 
 
 def _latest_by_stage(events: list[dict[str, Any]]) -> dict[str, dict[str, Any]]:
+    grouped: dict[str, list[dict[str, Any]]] = {}
+    for event in events:
+        grouped.setdefault(_event_stage(event), []).append(event)
     result: dict[str, dict[str, Any]] = {}
-    for event in sorted(
-        events,
-        key=lambda item: (int(item.get("attempt", 0)), str(item.get("at", ""))),
-    ):
-        result[_event_stage(event)] = event
+    for stage, stage_events in grouped.items():
+        latest_attempt = max(int(event.get("attempt", 0)) for event in stage_events)
+        attempt_events = [
+            event
+            for event in stage_events
+            if int(event.get("attempt", 0)) == latest_attempt
+        ]
+        latest = max(attempt_events, key=lambda item: _timestamp_key(item.get("at")))
+        starts = [
+            event
+            for event in attempt_events
+            if event.get("event") == "started" and event.get("at")
+        ]
+        result[stage] = {
+            **latest,
+            "_started_at": (
+                min(starts, key=lambda item: _timestamp_key(item.get("at"))).get("at")
+                if starts
+                else None
+            ),
+        }
     return result
+
+
+def _timestamp_key(value: Any) -> datetime:
+    if isinstance(value, str):
+        try:
+            parsed = datetime.fromisoformat(value.replace("Z", "+00:00"))
+            return parsed if parsed.tzinfo is not None else parsed.replace(tzinfo=UTC)
+        except ValueError:
+            pass
+    return datetime.min.replace(tzinfo=UTC)
 
 
 def _stage_state(
@@ -787,11 +865,17 @@ def _stage_state(
         "updated_at": event.get("at"),
     }
     event_status = event.get("event")
-    event_at = str(event.get("at", ""))
+    attempt_started_at = event.get("_started_at")
 
     def artifact_is_current(kind: str) -> bool:
         artifact = artifacts.get(kind)
-        return bool(artifact and str(artifact.get("modified_at", "")) >= event_at)
+        if not artifact:
+            return False
+        if not attempt_started_at:
+            return True
+        return _timestamp_key(artifact.get("modified_at")) >= _timestamp_key(
+            attempt_started_at
+        )
 
     if event_status in {"failed", "interrupted", "attention"}:
         state["status"] = event_status
@@ -803,7 +887,7 @@ def _stage_state(
             state["status"] = "passed" if "editorial" in artifacts else "attention"
         else:
             state["status"] = (
-                "completed" if required_artifact in artifacts else "attention"
+                "completed" if artifact_is_current(required_artifact) else "attention"
             )
         return state
 
@@ -874,7 +958,7 @@ def build_task(registration: dict[str, Any], ayah_ref: str) -> tuple[dict[str, A
             "path": str(spec.path.relative_to(REPO_ROOT)),
             "size": stat.st_size,
             "modified_at": datetime.fromtimestamp(stat.st_mtime, UTC)
-            .isoformat(timespec="seconds")
+            .isoformat(timespec="microseconds")
             .replace("+00:00", "Z"),
         }
         artifacts[spec.kind] = metadata
@@ -939,7 +1023,7 @@ def build_task(registration: dict[str, Any], ayah_ref: str) -> tuple[dict[str, A
     if latest_mtime_ns:
         timestamps.append(
             datetime.fromtimestamp(latest_mtime_ns / 1_000_000_000, UTC)
-            .isoformat(timespec="seconds")
+            .isoformat(timespec="microseconds")
             .replace("+00:00", "Z")
         )
     task_id = f"{registration['orchestrator_id']}--{unit_key(ayah_ref)}"
@@ -955,7 +1039,11 @@ def build_task(registration: dict[str, Any], ayah_ref: str) -> tuple[dict[str, A
         "stages": stages,
         "attention": attention[-20:],
         "artifact_kinds": sorted(artifacts),
-        "updated_at": max(timestamps) if timestamps else registration["started_at"],
+        "updated_at": (
+            max(timestamps, key=_timestamp_key)
+            if timestamps
+            else registration["started_at"]
+        ),
     }
     return task, reader_artifacts
 
@@ -1007,14 +1095,9 @@ class Monitor:
         ).parent / "events"
         if event_root.is_dir():
             yield from event_root.rglob("*.jsonl")
-        analysis_id = self.registration["analysis_id"]
-        for root in (
-            V5_ROOT / "input" / analysis_id,
-            V5_ROOT / "raw" / analysis_id,
-            V5_ROOT / "editorial" / analysis_id,
-        ):
-            if root.is_dir():
-                yield from root.rglob("*")
+        for ayah_ref in self.registration["scope_refs"]:
+            for spec in artifact_specs(self.registration, ayah_ref):
+                yield spec.path
 
     def _ref_from_path(self, path: Path) -> str | None:
         for parent in (path.parent, *path.parents):
@@ -1051,11 +1134,9 @@ class Monitor:
 
     def sync_ref(self, ayah_ref: str) -> None:
         task, artifacts = build_task(self.registration, ayah_ref)
-        if self.firebase is None:
-            self.local.upsert_task(task)
-            self.local.replace_artifacts(task, artifacts)
-        task_ok, _value = self._safe_remote("upsert_task", task)
-        remote_ok = task_ok
+        self.local.upsert_task(task)
+        self.local.replace_artifacts(task, artifacts)
+        remote_ok = True
         for artifact in artifacts:
             key = (task["task_id"], artifact["kind"])
             if self.synced_artifacts.get(key) == artifact["sha256"]:
@@ -1064,6 +1145,8 @@ class Monitor:
             remote_ok = remote_ok and artifact_ok
             if artifact_ok:
                 self.synced_artifacts[key] = artifact["sha256"]
+        task_ok, _value = self._safe_remote("upsert_task", task)
+        remote_ok = remote_ok and task_ok
         if remote_ok:
             self.pending_refs.discard(ayah_ref)
         else:
@@ -1094,9 +1177,10 @@ class Monitor:
         self.registration_synced = registered
         self._mirror_control(remote_desired or desired)
         self.local.flush()
-        while not self.stop_requested:
+        while True:
             self.tick()
-            if once:
+            should_stop = self.stop_requested or stop_marker(self.registration).exists()
+            if once or (should_stop and not self.pending_refs):
                 break
             time.sleep(self.interval)
         at = utc_now()
@@ -1117,16 +1201,72 @@ def _pid_path(registration: dict[str, Any]) -> Path:
     return _monitor_log_path(registration).with_suffix(".pid")
 
 
-def create_registration(args: argparse.Namespace) -> tuple[Path, dict[str, Any]]:
+def _monitor_lock_path(registration: dict[str, Any]) -> Path:
+    return _monitor_log_path(registration).with_suffix(".lock")
+
+
+@contextmanager
+def _exclusive_lock(path: Path) -> Iterable[None]:
+    path.parent.mkdir(parents=True, exist_ok=True)
+    with path.open("a", encoding="utf-8") as lock:
+        try:
+            import fcntl
+
+            fcntl.flock(lock.fileno(), fcntl.LOCK_EX)
+        except ImportError:
+            pass
+        try:
+            yield
+        finally:
+            try:
+                import fcntl
+
+                fcntl.flock(lock.fileno(), fcntl.LOCK_UN)
+            except ImportError:
+                pass
+
+
+def _read_monitor_pid(path: Path) -> int | None:
+    try:
+        value = path.read_text(encoding="utf-8").strip()
+    except FileNotFoundError:
+        return None
+    except OSError as exc:
+        raise MonitorError(f"Cannot read monitor PID file {path}: {exc}") from exc
+    try:
+        pid = int(value)
+    except ValueError as exc:
+        raise MonitorError(f"Invalid monitor PID file: {path}") from exc
+    if pid <= 1:
+        raise MonitorError(f"Invalid monitor PID file: {path}")
+    return pid
+
+
+def _process_exists(pid: int) -> bool:
+    try:
+        os.kill(pid, 0)
+    except ProcessLookupError:
+        return False
+    except PermissionError:
+        return True
+    return True
+
+
+def create_registration(
+    args: argparse.Namespace, *, orchestrator_id: str | None = None
+) -> tuple[Path, dict[str, Any]]:
     run_id = validate_id(args.run_id, "run ID")
     worker_id = validate_id(args.worker_id or socket.gethostname().split(".")[0], "worker ID")
     orchestrator_id = validate_id(
-        args.orchestrator_id
+        orchestrator_id
+        or args.orchestrator_id
         or f"orch-{datetime.now(UTC).strftime('%Y%m%dT%H%M%S')}-{uuid.uuid4().hex[:8]}",
         "orchestrator ID",
     )
     analysis_id = validate_id(args.analysis_id, "analysis ID")
     scope_refs = expand_scope(args.scope)
+    if args.poll_seconds <= 0:
+        raise MonitorError("--poll-seconds must be greater than zero")
     passcode = (args.passcode or "").strip()
     if not args.local_only and len(passcode) < 12:
         raise MonitorError("--passcode or V5_MONITOR_PASSCODE must be at least 12 characters")
@@ -1160,44 +1300,73 @@ def command_start(args: argparse.Namespace) -> int:
             raise MonitorError("--firebase-project is required unless --local-only is used")
         if not args.firebase_api_key:
             raise MonitorError("--firebase-api-key is required unless --local-only is used")
-    path, registration = create_registration(args)
-    remote_desired: str | None = None
-    if not args.local_only:
-        passcode_hash = registration.get("firebase_passcode_hash")
-        if not passcode_hash:
-            raise MonitorError("Registration has no Firebase passcode hash")
-        remote = FirebaseRestSink(
-            str(registration["firebase_project_id"]),
-            str(registration["firebase_api_key"]),
-            str(passcode_hash),
+    run_id = validate_id(args.run_id, "run ID")
+    orchestrator_id = validate_id(
+        args.orchestrator_id
+        or f"orch-{datetime.now(UTC).strftime('%Y%m%dT%H%M%S')}-{uuid.uuid4().hex[:8]}",
+        "orchestrator ID",
+    )
+    identity = {"run_id": run_id, "orchestrator_id": orchestrator_id}
+    with _exclusive_lock(_monitor_lock_path(identity)):
+        existing_pid = _read_monitor_pid(_pid_path(identity))
+        if existing_pid is not None and _process_exists(existing_pid):
+            raise MonitorError(
+                f"Monitor is already running for {run_id}/{orchestrator_id} "
+                f"as process {existing_pid}"
+            )
+        if existing_pid is not None:
+            _pid_path(identity).unlink(missing_ok=True)
+
+        path, registration = create_registration(
+            args, orchestrator_id=orchestrator_id
         )
-        remote_desired = remote.register(registration)
-        if remote_desired == "paused":
-            _atomic_write_text(control_marker(registration), f"paused_at={utc_now()}\n")
-        elif remote_desired == "running":
-            control_marker(registration).unlink(missing_ok=True)
-    log_path = _monitor_log_path(registration)
-    log_path.parent.mkdir(parents=True, exist_ok=True)
-    command = [
-        sys.executable,
-        str(Path(__file__).resolve()),
-        "run",
-        "--registration",
-        str(path),
-    ]
-    if args.local_only:
-        command.append("--local-only")
-    with log_path.open("ab", buffering=0) as output:
-        process = subprocess.Popen(
-            command,
-            cwd=REPO_ROOT,
-            stdin=subprocess.DEVNULL,
-            stdout=output,
-            stderr=subprocess.STDOUT,
-            start_new_session=True,
-            close_fds=True,
-        )
-    _atomic_write_text(_pid_path(registration), f"{process.pid}\n")
+        stop_marker(registration).unlink(missing_ok=True)
+        remote_desired: str | None = None
+        remote: FirebaseRestSink | None = None
+        if not args.local_only:
+            passcode_hash = registration.get("firebase_passcode_hash")
+            if not passcode_hash:
+                raise MonitorError("Registration has no Firebase passcode hash")
+            remote = FirebaseRestSink(
+                str(registration["firebase_project_id"]),
+                str(registration["firebase_api_key"]),
+                str(passcode_hash),
+            )
+            remote_desired = remote.register(registration)
+            if remote_desired == "paused":
+                _atomic_write_text(control_marker(registration), f"paused_at={utc_now()}\n")
+            elif remote_desired == "running":
+                control_marker(registration).unlink(missing_ok=True)
+        log_path = _monitor_log_path(registration)
+        log_path.parent.mkdir(parents=True, exist_ok=True)
+        command = [
+            sys.executable,
+            str(Path(__file__).resolve()),
+            "run",
+            "--registration",
+            str(path),
+        ]
+        if args.local_only:
+            command.append("--local-only")
+        try:
+            with log_path.open("ab", buffering=0) as output:
+                process = subprocess.Popen(
+                    command,
+                    cwd=REPO_ROOT,
+                    stdin=subprocess.DEVNULL,
+                    stdout=output,
+                    stderr=subprocess.STDOUT,
+                    start_new_session=True,
+                    close_fds=True,
+                )
+        except OSError:
+            if remote is not None:
+                try:
+                    remote.close(registration, utc_now())
+                except Exception:
+                    pass
+            raise
+        _atomic_write_text(_pid_path(registration), f"{process.pid}\n")
     print(
         json.dumps(
             {
@@ -1245,11 +1414,15 @@ def command_run(args: argparse.Namespace) -> int:
         monitor.run(once=args.once)
     finally:
         pid_path = _pid_path(registration)
+        owns_pid_file = False
         try:
             if pid_path.read_text(encoding="utf-8").strip() == str(os.getpid()):
+                owns_pid_file = True
                 pid_path.unlink(missing_ok=True)
         except OSError:
             pass
+        if owns_pid_file:
+            stop_marker(registration).unlink(missing_ok=True)
     return 0
 
 
@@ -1331,43 +1504,37 @@ def command_stop(args: argparse.Namespace) -> int:
         registration_path(args.run_id, args.orchestrator_id)
     )
     pid_path = _pid_path(registration)
-    try:
-        pid_text = pid_path.read_text(encoding="utf-8").strip()
-    except OSError:
-        print(
-            json.dumps(
-                {
-                    "status": "stopped",
-                    "run_id": registration["run_id"],
-                    "orchestrator_id": registration["orchestrator_id"],
-                    "already_stopped": True,
-                },
-                indent=2,
-                sort_keys=True,
-            )
-        )
-        return 0
-    try:
-        pid = int(pid_text)
-    except ValueError as exc:
-        raise MonitorError(f"Invalid monitor PID file: {pid_path}") from exc
-    try:
-        os.kill(pid, signal.SIGTERM)
-    except ProcessLookupError:
-        pid_path.unlink(missing_ok=True)
-    except PermissionError as exc:
-        raise MonitorError(f"Cannot stop monitor process {pid}: {exc}") from exc
-
-    deadline = time.monotonic() + args.timeout_seconds
-    while pid_path.exists() and time.monotonic() < deadline:
-        try:
-            os.kill(pid, 0)
-        except ProcessLookupError:
+    with _exclusive_lock(_monitor_lock_path(registration)):
+        pid = _read_monitor_pid(pid_path)
+        if pid is None or not _process_exists(pid):
             pid_path.unlink(missing_ok=True)
-            break
-        time.sleep(0.2)
-    if pid_path.exists():
-        raise MonitorError(f"Monitor process {pid} did not stop within timeout")
+            stop_marker(registration).unlink(missing_ok=True)
+            print(
+                json.dumps(
+                    {
+                        "status": "stopped",
+                        "run_id": registration["run_id"],
+                        "orchestrator_id": registration["orchestrator_id"],
+                        "already_stopped": True,
+                    },
+                    indent=2,
+                    sort_keys=True,
+                )
+            )
+            return 0
+        _atomic_write_text(stop_marker(registration), f"stop_requested_at={utc_now()}\n")
+        deadline = time.monotonic() + args.timeout_seconds
+        while pid_path.exists() and time.monotonic() < deadline:
+            if not _process_exists(pid):
+                pid_path.unlink(missing_ok=True)
+                stop_marker(registration).unlink(missing_ok=True)
+                break
+            time.sleep(0.2)
+        if pid_path.exists():
+            raise MonitorError(
+                f"Monitor process {pid} is still completing its final sync; "
+                f"the stop request remains at {stop_marker(registration)}"
+            )
     print(
         json.dumps(
             {
@@ -1456,7 +1623,7 @@ def parser() -> argparse.ArgumentParser:
     stop = subparsers.add_parser("stop", help="Stop a background monitor.")
     stop.add_argument("--run-id", required=True)
     stop.add_argument("--orchestrator-id", required=True)
-    stop.add_argument("--timeout-seconds", type=float, default=10)
+    stop.add_argument("--timeout-seconds", type=float, default=45)
     stop.set_defaults(func=command_stop)
 
     control = subparsers.add_parser("control", help="Set local control state for testing.")

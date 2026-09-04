@@ -1,0 +1,520 @@
+{
+  "schema_version": "commentary-v5-scope-discovery-v1",
+  "ayah_ref": "29:40",
+  "lane": "macro",
+  "coverage_complete": true,
+  "candidate_decisions": [
+    {
+      "candidate_id": "cand_d24db6fdb7a652545382",
+      "decision": "narrow",
+      "reason": "Odaktaki حَاصِبًا için üç focus dalı, 29:34 ve 29:43 ile birlikte gökten gelen taşlı ve yönlendirilmiş darbe okumasını kuruyor. Gökyüzü, hava etkisi ve aşağı indirme olarak sunulan dört ek dal ise packet içinde geçerli bir carrier occurrence taşımıyor; bu nedenle adayın bounded core'u focus dallarıyla korunuyor.",
+      "finding_refs": ["macro:stone-bearing-wind"],
+      "branch_exclusions": [
+        {"branch_ref": "root_000745/B004", "reason": "Kaynak görüntüsü gökyüzü ve örtü olsa da packet içinde bu dalın geçerli bir carrier occurrence'ı yok; 29:34 ve 29:44 yalnızca aday kaynağında anılıyor."},
+        {"branch_ref": "root_000906/B013", "reason": "Hava etkisinin yer ve bitkilere yönelmesi packet içinde bağımsız bir carrier occurrence ile gösterilmemiştir."},
+        {"branch_ref": "root_001492/B002", "reason": "Genel aşağı indirme görüntüsü için packet içinde geçerli bir carrier occurrence veya ayrı hedef biçimi bulunmuyor."},
+        {"branch_ref": "root_001492/B006", "reason": "Aşağı inen musibet dalı yalnız aday desteğinde kayıtlıdır; focus/context occurrence bulunmadığı için aktive edilemez."}
+      ],
+      "facet_exclusions": [
+        {"branch_ref": "root_000745/B004", "facet_id": "SOURCE_IMAGE", "reason": "Kaynak görüntüsü packet içinde carrier occurrence ile doğrulanmadı."},
+        {"branch_ref": "root_000906/B013", "facet_id": "SOURCE_IMAGE", "reason": "Kaynak görüntüsü packet içinde carrier occurrence ile doğrulanmadı."},
+        {"branch_ref": "root_001492/B002", "facet_id": "SOURCE_IMAGE", "reason": "Kaynak görüntüsü packet içinde carrier occurrence ile doğrulanmadı."},
+        {"branch_ref": "root_001492/B006", "facet_id": "SOURCE_IMAGE", "reason": "Kaynak görüntüsü packet içinde carrier occurrence ile doğrulanmadı."}
+      ],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_45b6f559310b5d67e918",
+      "decision": "narrow",
+      "reason": "Odaktaki أَغْرَقْنَا, أَرْضَ ve كُلًّا/أَخَذْنَا temasları ile suyun toplanıp alanı doldurması ve bütünüyle kaplaması arasında yerel bir temas kurulabiliyor; 29:36 ve 29:37 bu cezaların birbirinden farklı işleyişler olduğunu destekliyor. ج ث م su kütlesi dalı için packet içinde geçerli bir carrier occurrence bulunmadığından yalnız bu dal dışarıda bırakıldı.",
+      "finding_refs": ["macro:engulfing-water"],
+      "branch_exclusions": [
+        {"branch_ref": "root_000222/B007", "reason": "Toplanmış su kütlesi dalı 29:37 ile ilişkilendirilmiş olsa da packet'teki context projection bu kökün occurrence'ını sağlamıyor; geçerli carrier kurulamaz."}
+      ],
+      "facet_exclusions": [
+        {"branch_ref": "root_000222/B007", "facet_id": "SOURCE_IMAGE", "reason": "Kaynak görüntüsü için packet içinde carrier occurrence bulunmuyor."}
+      ],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_bba87b42d8018ee0ce2c",
+      "decision": "narrow",
+      "reason": "Odaktaki أَخَذْنَا, خَسَفْنَا ve أَرْضَ occurrences, yere bağlılık, zeminin çökmesi ve aşağılanma yönlerini birbirine bağlayan bounded bir zemin-çöküş okuması kuruyor; 29:36-29:39 bağlamı bunu günah ve toplulukların yargılanmasıyla sınırlıyor. Dairevi musibet dalı için packet içinde geçerli bir carrier occurrence bulunmadığından dışarıda bırakıldı.",
+      "finding_refs": ["macro:substrate-collapse"],
+      "branch_exclusions": [
+        {"branch_ref": "root_000499/B004", "reason": "Olumsuz dönüş ve kuşatan musibet dalı yalnız kaynak görüntüsü olarak sunuluyor; packet içinde geçerli carrier occurrence yok."}
+      ],
+      "facet_exclusions": [
+        {"branch_ref": "root_000499/B004", "facet_id": "SOURCE_IMAGE", "reason": "Kaynak görüntüsü packet içinde carrier occurrence ile doğrulanmadı."}
+      ],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_3f6cc6663674b04b97d7",
+      "decision": "narrow",
+      "reason": "Odaktaki definite ٱلصَّيْحَةُ, 29:37'nin sarsıntı ve yerde kalma sahnesiyle birlikte ani ve işitilebilir bir yakalanma biçimini görünür kılıyor; focus'taki iki ص ي ح dalı bunun ses çekirdeği ve korku-ceza uzantısını taşımaya yeterli. ج ث م, daire, sarsıntı ve şafak dalları context projection içinde carrier occurrence taşımadığından dışarıda bırakıldı.",
+      "finding_refs": ["macro:acoustic-arrest"],
+      "branch_exclusions": [
+        {"branch_ref": "root_000222/B001", "reason": "Yerde çömelip kalma dalı 29:37 ile anılsa da packet'te bu dalın geçerli context carrier occurrence'ı yok."},
+        {"branch_ref": "root_000499/B004", "reason": "Olumsuz dönüş ve kuşatma dalı için packet içinde carrier occurrence yok."},
+        {"branch_ref": "root_000545/B001", "reason": "Şiddetli sarsıntı dalı 29:37 aday kaynağında anılıyor, fakat packet'te carrier occurrence olarak sağlanmıyor."},
+        {"branch_ref": "root_000839/B001", "reason": "Şafak dalı 29:37 aday kaynağında anılıyor, fakat packet'te carrier occurrence olarak sağlanmıyor."}
+      ],
+      "facet_exclusions": [
+        {"branch_ref": "root_000222/B001", "facet_id": "SOURCE_IMAGE", "reason": "Kaynak görüntüsü packet içinde carrier occurrence ile doğrulanmadı."},
+        {"branch_ref": "root_000499/B004", "facet_id": "SOURCE_IMAGE", "reason": "Kaynak görüntüsü packet içinde carrier occurrence ile doğrulanmadı."},
+        {"branch_ref": "root_000545/B001", "facet_id": "SOURCE_IMAGE", "reason": "Kaynak görüntüsü packet içinde carrier occurrence ile doğrulanmadı."},
+        {"branch_ref": "root_000839/B001", "facet_id": "SOURCE_IMAGE", "reason": "Kaynak görüntüsü packet içinde carrier occurrence ile doğrulanmadı."}
+      ],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_70c086705ad5ce130992",
+      "decision": "narrow",
+      "reason": "HFT kaydı, focus'taki كُلًّا ile kök-ağı düzeyinde ince bir koruyucu örtü ve حَاصِبًا ile bu örtüyü zorlayan rüzgârlı taş teması kuruyor. Tam tanımlı iki focus dalı korunuyor; ب ي ت ve و ه ن kayıtlarının ayrı branch descriptor'ı ve occurrence'ı packet'te bulunmadığı için bunlar doğrulanmış dal olarak taşınmıyor. HFT kimliği legacy_unbound olduğundan finding exploratory kalıyor.",
+      "finding_refs": ["macro:thin-house-echo"],
+      "branch_exclusions": [
+        {"branch_ref": "root_000166/B001", "reason": "HFT trace bu dalı adlandırıyor, ancak packet'te ayrı branch descriptor'ı, gloss'u veya carrier occurrence'ı yok."},
+        {"branch_ref": "root_001687/B001", "reason": "HFT trace bu dalı adlandırıyor, ancak packet'te ayrı branch descriptor'ı, gloss'u veya carrier occurrence'ı yok."}
+      ],
+      "facet_exclusions": [
+        {"branch_ref": "root_000166/B001", "facet_id": null, "reason": "Çözümlenmemiş dal için packet'te facet descriptor'ı bulunmuyor."},
+        {"branch_ref": "root_001687/B001", "facet_id": null, "reason": "Çözümlenmemiş dal için packet'te facet descriptor'ı bulunmuyor."}
+      ],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    }
+  ],
+  "findings": [
+    {
+      "finding_ref": "macro:pericope-accountability",
+      "origin_candidate_id": null,
+      "represented_candidate_ids": [],
+      "title": "Dağıtılmış ve sorumluluğa bağlanmış hüküm",
+      "claim": "Native pericope bağlamı 29:40'ı daha önce adı geçen topluluklar hakkında dağıtılmış bir hüküm olarak kurar: her biri kendi günahı sebebiyle yakalanır, dört ceza biçimi ayrı ayrı sıralanır ve kapanış haksızlığın onların kendi kendilerine zulmetmesinde bulunduğunu açıklar.",
+      "mechanism": "29:28-29'daki suç ve meydan okuma, 29:30-36'daki yardım, uyarı ve yargı çerçevesi, 29:37-39'daki farklı toplulukların anılması ve 29:43'teki örnekler vurgusu focus'taki فَكُلًّا ve tekrarlanan مِنْهُمْ مَنْ yapısıyla birleşir. Böylece genel yakalama fiili dört ayrı olay biçimine dağıtılır; son مَا كَانَ ... وَلَٰكِن dönüşü bu dağılımı adalet cümlesiyle sınırlar.",
+      "reader_payoff": "Liste rastgele felaketlerin yan yana gelmesi olmaktan çıkar; aynı hükmün her topluluğa kendi fiiliyle bağlantılı ve farklı bir gerçekleşme biçiminde uygulandığı bir kayıt olarak okunur.",
+      "containment": "Bu finding yalnızca sağlanan pericope ilişkisini ve focus gramerini taşır; bir ceza biçimini seçmez, bağlantı etiketlerini karar saymaz, daha geniş bir sure tezine dönüşmez.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": [],
+        "reason": "Focus metni ve gramer özeti packet'te doğrudan sağlanıyor. Bağlantı satırları exact context Arabic ve ilişki notları sunuyor, fakat target morphology ve ayrı trust etiketi sunmuyor."
+      },
+      "support_ids": [],
+      "branch_activations": [],
+      "connection_refs": [
+        "conn_9131fddbe799f0cc272e",
+        "conn_6c4767f8722e6fa3858a",
+        "conn_28af0ade9eb81e4b1a35",
+        "conn_0eb67bdc6443d0a5ac35",
+        "conn_e0f5a5e8758da1b80938",
+        "conn_e5d9d0da9081f37776e8",
+        "conn_aa6c2fff1b009c2ed3f7",
+        "conn_201a555833f632e9a4b8",
+        "conn_80e3cd23fd4b61515dd7",
+        "conn_cb704d11cf6013579ab8",
+        "conn_e59cd2be75e39f478ed4",
+        "conn_33923439d603a619d2d0",
+        "conn_8eb5a5a6acf995b1fd54"
+      ],
+      "context_refs": ["29:28", "29:29", "29:30", "29:31", "29:32", "29:33", "29:34", "29:35", "29:36", "29:37", "29:38", "29:39", "29:43"],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "macro:stone-bearing-wind",
+      "origin_candidate_id": "cand_d24db6fdb7a652545382",
+      "represented_candidate_ids": [],
+      "title": "Yukarıdan gelen taşlı darbe",
+      "claim": "Pericope'nin gökten gelen ceza çerçevesiyle birlikte حَاصِبًا, yalnızca genel bir helak sözü değil, yukarıdan yöneltilen taşlı ve parçacıklı bir darbe olarak belirginleşir.",
+      "mechanism": "Focus carrier حَاصِبًا üç ayrı focus facetini taşır: taş malzemesi, taş saçma ve toz/çakıl taşıyan sert rüzgâr. 29:34'teki gökten inen musibet ve 29:43'teki farklı örneklerin hatırlatılması bu carrier'ı bağımsız bir yukarıdan geliş ve çarpma düzenine bağlar.",
+      "reader_payoff": "Dört ceza biçimi tek bir yıkım adı altında erimez: bu satırda saldırı üstten gelir, parçacıkları taşır ve açık zemine çarpar; ses, zemin çökmesi ve su altında kalma bundan ayrı kalır.",
+      "containment": "Sıradan taşlı kasırga okuması korunur. Gökyüzü, hava etkisi ve aşağı indirme dalları geçerli carrier occurrence taşımadığı için bu finding onları bağımsız sözlük anlamı olarak ileri sürmez.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": ["trusted"],
+        "reason": "Focus carrier ve üç facet descriptor'ı doğrudan packet'te bulunuyor; bağlam bağlantıları exact Arabic sağlıyor, fakat hedef morphology'si verilmediği için bağlamsal nitelik qualified tutuluyor."
+      },
+      "support_ids": [
+        "sup_4909d5ffbe439cc72cf1",
+        "sup_8ee1ac1034d73713b47b",
+        "sup_90cdef2d951b71b0d70c",
+        "sup_bd5c1d8ef495a1eb5a04",
+        "sup_f8e1eef4030c5b5d00de"
+      ],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000325/B001",
+          "facet_id": "F001",
+          "branch_gloss": "çakıl taşı, çakıllı zemin ve çakılla döşeme",
+          "facet_statement": "Küçük ya da büyük çakıl taşları ile bunların oluşturduğu taş malzemesini belirtir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["29:40:8:1"],
+          "trigger_refs": ["29:34", "29:43"],
+          "focus_return_refs": ["29:40:8:1"],
+          "carrier": "Odaktaki حَاصِبًا somut çakıl ve taş malzemesi taşıyan bir cezayı taşır.",
+          "independent_trigger": "29:34'te cezanın gökten indirileceği bildirilir; 29:43'te toplulukların örnek olarak yeniden kavranması istenir.",
+          "activation": "Gökten inen ceza çerçevesi, حَاصِبًا içindeki taş malzemesini soyut bir yıkım sonucundan ayrılan yukarıdan gelen darbe olarak okutur.",
+          "resulting_reading": "Bir grubun açık zemine taş malzemesiyle vurulan bir saldırı altında kalması görünür olur.",
+          "boundary": "Bu, her gökten inen cezanın taş olduğu veya focus kelimesinin gökyüzü anlamına geldiği iddiası değildir."
+        },
+        {
+          "branch_ref": "root_000325/B002",
+          "facet_id": "F001",
+          "branch_gloss": "çakıl atma, karşılıklı taşlama ve atın koşuda çakıl kaldırması",
+          "facet_statement": "Bir insana çakıl taşı atmayı veya bir yere küçük çakıl taşları saçmayı anlatır.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["29:40:8:1"],
+          "trigger_refs": ["29:34", "29:43"],
+          "focus_return_refs": ["29:40:8:1"],
+          "carrier": "حَاصِبًا, bir hedefe taş saçan pelting eyleminin nesneleşmiş biçimini taşır.",
+          "independent_trigger": "29:34'ün gökten yönelen musibet çerçevesi ve 29:43'ün birden çok tarihsel örneği, cezanın hedefe ulaştırılan ayrı bir olay olduğunu gösterir.",
+          "activation": "Yukarıdan gönderilme ile hedefe taş saçma birleşince, cezanın yalnız sonucuyla değil, hedefe ulaşan darbe hareketiyle de algılanması sağlanır.",
+          "resulting_reading": "Topluluğun üzerine taşların yöneltilip saçıldığı belirli bir saldırı biçimi belirir.",
+          "boundary": "Karşılıklı insan taşlaması ve atın çakıl kaldırması gibi diğer kullanımlar bu focus olayına taşınmaz."
+        },
+        {
+          "branch_ref": "root_000325/B003",
+          "facet_id": "F001",
+          "branch_gloss": "toz taşıyıp çakıl kaldıran sert rüzgar; ince dolu ve kar serpintisi",
+          "facet_statement": "Tozu beraberinde taşıyan sert rüzgarı belirtir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["29:40:8:1"],
+          "trigger_refs": ["29:34", "29:43"],
+          "focus_return_refs": ["29:40:8:1"],
+          "carrier": "حَاصِبًا, çakıl veya toz kaldıracak sertlikteki rüzgârı taşıyan bir active-participle biçimidir.",
+          "independent_trigger": "29:34'teki gökten iniş ve 29:43'teki örnekler dizisi, bu rüzgârı bağlam içinde gönderilmiş bir ceza kuvveti olarak çerçeveler.",
+          "activation": "Gökten yönelme, sert rüzgârın taşıdığı parçacıkları açık zemine indiren bir ulaştırma mekanizmasına bağlanır.",
+          "resulting_reading": "İnsanların üzerine ulaşan şey yalnız taş değil, taşı yerinden kaldırıp indiren hava hareketiyle birlikte çalışan bir darbe düzenidir.",
+          "boundary": "Her sert rüzgâr bu dala alınmaz; ince dolu, kar ve başka weather uzantıları ayrıca etkinleştirilmiş değildir."
+        }
+      ],
+      "connection_refs": ["conn_201a555833f632e9a4b8", "conn_0eb67bdc6443d0a5ac35"],
+      "context_refs": ["29:34", "29:43"],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "macro:engulfing-water",
+      "origin_candidate_id": "cand_45b6f559310b5d67e918",
+      "represented_candidate_ids": [],
+      "title": "Suyun alanı doldurarak kuşatması",
+      "claim": "Odaktaki أَغْرَقْنَا, pericope'nin farklı biçimlerde yakalanma örnekleriyle birlikte, suyun bir topluluğu yalnızca boğmakla kalmayıp bulunduğu alanı doldurarak bütünüyle kuşatması şeklinde de okunur.",
+      "mechanism": "أَغْرَقْنَا carrier'ı fiziksel batma ve boğulma, suyla dolma ve alanı bütünüyle kapsama facetleriyle taşır. أَرْضَ alt zemini, كُلًّا dağıtıcı totaliteyi, 29:36 ve 29:37 ise farklı yakalanma olaylarını sağlar; أَخَذْنَا ile su tutan çukur dalı da toplama ve tutma yönünü focus içindeki başka bir fiile bağlar.",
+      "reader_payoff": "Boğma, taşlı darbe, ses ve zeminin çökmesiyle aynı şey gibi görünmez; bu olayda su alanı doldurur, hareket payını kapatır ve kurbanı içine alır.",
+      "containment": "Metin doğrudan bir havuz adı vermez; su tutan çukur, suyla dolma ve tam kapsama dalları burada focus kelimeleri arasındaki qualified resonance olarak tutulur. Toplanmış su kütlesi dalı occurrence eksikliği nedeniyle dışarıda kalır.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": ["trusted"],
+        "reason": "Focus occurrences, facet descriptor'ları ve trusted aday desteği mevcut; 29:36-29:37 bağlantılarında hedef morphology'si bulunmadığından reading qualified olarak sınırlandırılıyor."
+      },
+      "support_ids": [
+        "sup_255d59ea96a1e984d7b3",
+        "sup_440b50a8e978c395abe3",
+        "sup_4d4c61b66008ee375fb2",
+        "sup_7be06b2c0e26130909a0",
+        "sup_7d7a34bc04f92fff9343"
+      ],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000018/B006",
+          "facet_id": "F001",
+          "branch_gloss": "su tutan çukur veya havuz",
+          "facet_statement": "Suyu bir yerde toplayıp bir süre tutan çukur, havuz veya benzeri yeri anlatır.",
+          "application_mode": "intrinsic_cross_root",
+          "carrier_refs": ["29:40:2:1"],
+          "trigger_refs": ["29:40:20:1", "29:36", "29:37"],
+          "focus_return_refs": ["29:40:2:1"],
+          "carrier": "أَخَذْنَا, toplama ve bir şeyi kendi alanına alma yönünü taşıyan focus fiilidir.",
+          "independent_trigger": "أَغْرَقْنَا'nın su içinde bırakma anlamı ile 29:36 ve 29:37'deki farklı yakalanma örnekleri, tutulan alanın suyla dolduğunu etkinleştirir.",
+          "activation": "Toplama/elde tutma fiili su içinde bırakma fiiliyle buluştuğunda, boğulma tek bir son değil, kurbanı içine alan ve tutan bir su alanı olarak görünür.",
+          "resulting_reading": "Her grubun farklı bir yakalanma biçimi içinde, suyun topladığı ve çıkışsız tuttuğu bir alana alınması sezilir.",
+          "boundary": "أَخَذْنَا burada gerçek bir havuz adı değildir; havuz dalı, focus içi su temasının sınırlı bir yansımasıdır."
+        },
+        {
+          "branch_ref": "root_000025/B001",
+          "facet_id": "F001",
+          "branch_gloss": "yer ve yere bakan alt bölüm",
+          "facet_statement": "Göğün karşısında aşağıda bulunan ve üzerinde yaşanan yer küresidir.",
+          "application_mode": "intrinsic_cross_root",
+          "carrier_refs": ["29:40:17:2"],
+          "trigger_refs": ["29:40:20:1", "29:36", "29:37"],
+          "focus_return_refs": ["29:40:17:2"],
+          "carrier": "ٱلْأَرْضَ, üzerinde yaşanan aşağıdaki yer küresini taşıyan focus nesnesidir.",
+          "independent_trigger": "أَغْرَقْنَا'nın suyla boğma fiili ve 29:36-29:37'deki toplulukların farklı biçimlerde yakalanması, zemini su olayının karşılaştığı alt alan olarak belirginleştirir.",
+          "activation": "Yer küresi ile suya batırma fiili yan yana geldiğinde, ceza uzakta kalan soyut bir sonuç değil, yaşanan zeminin çevresinde ve içinde gerçekleşen bir kuşatma olur.",
+          "resulting_reading": "Suyun, insanların üzerinde bulunduğu zemini de hesaba katan bir alanı doldurması görünür hale gelir.",
+          "boundary": "Bu activation yerin kendisinin boğulduğunu veya her الأرض kullanımının su anlamı taşıdığını söylemez."
+        },
+        {
+          "branch_ref": "root_001080/B001",
+          "facet_id": "F001",
+          "branch_gloss": "suda batıp boğulma veya boğma; bunaltıcı bir şey içinde kalma",
+          "facet_statement": "Bir kişinin suda batması, su altında kalması ve bunun sonucunda boğulmasıdır.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["29:40:20:1"],
+          "trigger_refs": ["29:40:17:2", "29:36", "29:37"],
+          "focus_return_refs": ["29:40:20:1"],
+          "carrier": "أَغْرَقْنَا, ettirgen biçimiyle bir grubu suya batırıp boğma olayını doğrudan taşır.",
+          "independent_trigger": "ٱلْأَرْضَ ve 29:36-29:37'deki ayrı topluluk örnekleri, boğulmayı diğer yakalanma düzenlerinden ayrılan fiziksel olay olarak çerçeveler.",
+          "activation": "Suya batırma, alt zemin ve farklı yakalanma örnekleriyle birlikte okunduğunda suyun kurbanın hareket edebileceği alanı işgal ettiği bir olay haline gelir.",
+          "resulting_reading": "Boğulma, başka cezaların sonucu değil, suyun içine alma ve nefes alanını kapatma mekanizmasıyla çalışan ayrı bir yakalanmadır.",
+          "boundary": "Borç, bela, nimet veya yakarış uzantıları bu olayda etkinleştirilmiş değildir."
+        },
+        {
+          "branch_ref": "root_001080/B003",
+          "facet_id": "F001",
+          "branch_gloss": "gözün yaşla, toprağın suyla dolması",
+          "facet_statement": "Bir yerin veya organın su ya da yaşla dolarak doygun duruma gelmesidir.",
+          "application_mode": "intrinsic_cross_root",
+          "carrier_refs": ["29:40:20:1"],
+          "trigger_refs": ["29:40:17:2", "29:36", "29:37"],
+          "focus_return_refs": ["29:40:20:1"],
+          "carrier": "أَغْرَقْنَا, fiziksel boğulmanın yanında bir alanı suyla doldurma sonucunu da taşıyabilecek focus carrier'ıdır.",
+          "independent_trigger": "ٱلْأَرْضَ'nın açıkça adlandırılması ve 29:36-29:37'deki farklı toplulukların ayrı yakalanışları, doluluk sonucunu olayın mekânsal yüzü olarak açar.",
+          "activation": "Boğma fiili yer ile temas ettiğinde, suyun yalnız kurbanı değil, kurbanın bulunduğu alanı da doygunluğa kadar doldurması okunabilir.",
+          "resulting_reading": "Suyun kurbanın bulunduğu alanı doldurup hareket imkânını kapattığı somut bir doluluk görüntüsü belirir.",
+          "boundary": "Gözyaşı ve serbest akış gibi özel alt kullanımlar bu activation'a taşınmaz."
+        },
+        {
+          "branch_ref": "root_001080/B005",
+          "facet_id": "F001",
+          "branch_gloss": "bir alanı tümüyle kapsama; sürüye karışıp öne geçme",
+          "facet_statement": "Bir alanın, sürenin veya kapasitenin hiçbir pay bırakmadan bütünüyle kapsanmasıdır.",
+          "application_mode": "intrinsic_cross_root",
+          "carrier_refs": ["29:40:20:1"],
+          "trigger_refs": ["29:40:1:2", "29:36", "29:37"],
+          "focus_return_refs": ["29:40:20:1"],
+          "carrier": "أَغْرَقْنَا, boğmayı bir alanın bütünüyle kaplanması baskısıyla taşıyabilir.",
+          "independent_trigger": "Başta gelen كُلًّا ve 29:36-29:37'nin farklı grupları, kapsamın her grubu ayrı ayrı içine alan totalite yönünü sağlar.",
+          "activation": "Dağıtıcı totalite ile tümüyle kapsama birleşince, suyun bir grubu yalnızca vurmadığı, onun bulunduğu alanı pay bırakmadan işgal ettiği okunur.",
+          "resulting_reading": "Boğulma, suyun kurbanın alanında nefes ve hareket için boşluk bırakmayan kuşatmasına dönüşür.",
+          "boundary": "At yarışı, soluk, bakış ve koşum gibi özel uzantılar bu focus olayına alınmaz."
+        }
+      ],
+      "connection_refs": ["conn_e5d9d0da9081f37776e8", "conn_6c4767f8722e6fa3858a"],
+      "context_refs": ["29:36", "29:37"],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "macro:substrate-collapse",
+      "origin_candidate_id": "cand_bba87b42d8018ee0ce2c",
+      "represented_candidate_ids": [],
+      "title": "Desteğin cezaya dönüşmesi",
+      "claim": "خَسَفْنَا بِهِ ٱلْأَرْضَ, pericope'deki günah ve yargı çerçevesi içinde, yaşanan zeminin güvenilir destek olmaktan çıkıp kişiyi içine alan bir çöküş ortamına dönüşmesini görünür kılar.",
+      "mechanism": "أَرْضَ yer küresini ve yere bağlı kalma yönünü, خَسَفْنَا yerin çöküp üzerindekini gömmesini, أَخَذْنَا ise beden üzerinde bir durumun etkisini göstermeye başlamasını taşır. 29:36-29:39'daki toplulukların günahları ve yeryüzündeki kibirleri, mekânsal inişi sorumluluk çerçevesinde sınırlar.",
+      "reader_payoff": "Zemin yalnızca olayın sahnesi olmaktan çıkar; taşıması beklenen şeyin içine çöken, yere bağlılığı ağırlaşmaya ve toplumsal aşağılanmaya çeviren ayrı bir ceza mekanizması olarak belirir.",
+      "containment": "Bu finding, خَسَفْنَا بِهِ ٱلْأَرْضَ ifadesindeki yer çökmesi ve gömme çekirdeğini korur. Ay dal, dairevi musibet veya bütün benzetmeli kullanımlar için ayrı carrier occurrence sağlamadığından bunları metne eklemez.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": ["trusted"],
+        "reason": "Focus branch descriptor'ları ve trusted aday desteği mevcut; context connection target morphology'si sağlanmadığı için bağlamsal genişleme qualified tutuluyor."
+      },
+      "support_ids": [
+        "sup_2ada812407980ac60aae",
+        "sup_5192dbb3b5f2a52aa32f",
+        "sup_a6c4a03d935a608b709d",
+        "sup_c4e753f294e76e8454c0",
+        "sup_dff773cef5fa303a00c3"
+      ],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000018/B007",
+          "facet_id": "F001",
+          "branch_gloss": "bedende bir durumun baş gösterip etkisini göstermesi",
+          "facet_statement": "Bir hastalık ya da beden durumunun insanı veya hayvanı etkisi altına almaya başlamasını anlatan genel bağı kurar.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["29:40:2:1"],
+          "trigger_refs": ["29:40:15:1", "29:40:17:2", "29:36", "29:37"],
+          "focus_return_refs": ["29:40:2:1"],
+          "carrier": "أَخَذْنَا, bir topluluğu yakalayıp etkisi altına alma fiili olarak focus'ta taşınır.",
+          "independent_trigger": "خَسَفْنَا بِهِ ٱلْأَرْضَ'nın zemini çökerten olayı ve 29:36-29:37'nin farklı yakalanış örnekleri, etkilenmenin bedensel/yerel bir tutuşa dönüşmesini sağlar.",
+          "activation": "Yakalama fiili yerin çökmesiyle buluşunca, hüküm yalnızca sonuca değil, çöküşün bedeni ve topluluğu etkisi altına alışına da bağlanır.",
+          "resulting_reading": "Çöken zemin, insanı içine alırken bir durumun bedende ve toplulukta etkisini göstermeye başladığı bir yakalanma biçimi olarak görünür.",
+          "boundary": "Burada belirli bir hastalık adı veya hayvanlara ait alt kullanım ileri sürülmez."
+        },
+        {
+          "branch_ref": "root_000025/B001",
+          "facet_id": "F001",
+          "branch_gloss": "yer ve yere bakan alt bölüm",
+          "facet_statement": "Göğün karşısında aşağıda bulunan ve üzerinde yaşanan yer küresidir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["29:40:17:2"],
+          "trigger_refs": ["29:40:15:1", "29:36", "29:37"],
+          "focus_return_refs": ["29:40:17:2"],
+          "carrier": "ٱلْأَرْضَ, üzerinde yaşanan ve topluluğu taşıyan aşağıdaki yer küresidir.",
+          "independent_trigger": "خَسَفْنَا fiilinin çökme ve gömme sonucu ile 29:36-29:37'deki farklı yakalanışlar, yerin pasif arka plan olmaktan çıkmasını sağlar.",
+          "activation": "Yer adı, onu içine alan fiille doğrudan birleştiğinde destek zemini hükmün uygulandığı aktif ortama dönüşür.",
+          "resulting_reading": "Topluluğun üzerinde durduğu yer, onu taşıyan zemin olarak kalırken aynı anda içine alan cezalandırıcı ortam olur.",
+          "boundary": "Yer küresi anlamı korunur; göğe karşı alt bölüm ve hayvan ayağı gibi yan kullanımlar etkin değildir."
+        },
+        {
+          "branch_ref": "root_000025/B006",
+          "facet_id": "F001",
+          "branch_gloss": "yere çökercesine ağırlaşıp oyalanmak",
+          "facet_statement": "Kişi yerden ayrılmayarak yere bağlı kalır.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["29:40:17:2"],
+          "trigger_refs": ["29:40:15:1", "29:39", "29:36", "29:37"],
+          "focus_return_refs": ["29:40:17:2"],
+          "carrier": "ٱلْأَرْضَ, yere bağlı kalma ve aşağıda sabitlenme baskısını taşıyabilecek focus carrier'ıdır.",
+          "independent_trigger": "خَسَفْنَا'nın zemini çökertmesi ve 29:39'da topluluğun yeryüzünde büyüklük taslamasının anılması, ağırlaşma ve yere sabitlenme karşıtlığını kurar.",
+          "activation": "Yeryüzünde yükselme iddiası, onu taşıyan zeminin içine çökme ve ayrılmayı engelleyen ağırlıkla karşılaşır.",
+          "resulting_reading": "Çöküş, yalnızca aşağı yönlü bir hareket değil, kişiyi yerden ayrılamaz ve orada kalmış bir duruma getiren bir sabitlenmedir.",
+          "boundary": "Tembellik, geri kayma veya başkasına karşı çıkma gibi diğer dal yönleri bu olayda etkinleştirilmez."
+        },
+        {
+          "branch_ref": "root_000410/B001",
+          "facet_id": "F001",
+          "branch_gloss": "yerin çöküp üzerindekini toprağa gömmesi",
+          "facet_statement": "Yer yüzeyi içeri çöker ve üzerindeki şey toprağın içinde kaybolur.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["29:40:15:1"],
+          "trigger_refs": ["29:40:17:2", "29:36", "29:37"],
+          "focus_return_refs": ["29:40:15:1"],
+          "carrier": "خَسَفْنَا, bir topluluğu yerin içine gömen ve görünmez kılan çöküş fiilidir.",
+          "independent_trigger": "ٱلْأَرْضَ nesnesi ve 29:36-29:37'deki topluluk cezaları, çöküşün yerel ve kolektif bir yakalanma biçimi olduğunu sağlar.",
+          "activation": "Çökme fiili yer nesnesiyle birleşince, kaybolma gökten gelen veya suyla kaplayan olaylardan ayrılıp destek yüzeyinin içeri açılması olarak okunur.",
+          "resulting_reading": "Zemin, üzerinde duran topluluğu kendi içine alarak eski destek ilişkisini yok eder.",
+          "boundary": "Ayın kararması, gözün çökmesi, kuyu suyu veya soyut eksilme kullanımları bu activation'a taşınmaz."
+        },
+        {
+          "branch_ref": "root_000410/B006",
+          "facet_id": "F001",
+          "branch_gloss": "aşağılama ve istemediği yüke zorlama",
+          "facet_statement": "Bir kişi hor ve aşağı bir duruma düşürülür.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["29:40:15:1"],
+          "trigger_refs": ["29:40:3:2", "29:39"],
+          "focus_return_refs": ["29:40:15:1"],
+          "carrier": "خَسَفْنَا, aşağıya düşürme ve yerin içine alma yönünü taşıyan focus fiilidir.",
+          "independent_trigger": "بِذَنۢبِهِۦ günahı doğrudan sorumluluk nedeni yapar; 29:39 yeryüzünde büyüklük taslayanları anarak kaybın statü boyutunu destekler.",
+          "activation": "Mekânsal aşağı iniş, günah sebebiyle yakalanma ve yeryüzündeki kibirle birleştiğinde, destek kaybı aynı zamanda aşağılanmış bir duruma düşüş olarak belirir.",
+          "resulting_reading": "Çöküş, kişinin yalnızca yer altında kaybolması değil, kendini üstün kıldığı zeminde aşağı bir duruma indirilmesi olarak da duyulur.",
+          "boundary": "Bu, her güçlük veya açlık anlamı değildir; sosyal aşağılanma ve zorlayıcı yük yönüyle sınırlıdır."
+        }
+      ],
+      "connection_refs": ["conn_e5d9d0da9081f37776e8", "conn_6c4767f8722e6fa3858a", "conn_33923439d603a619d2d0", "conn_8eb5a5a6acf995b1fd54"],
+      "context_refs": ["29:36", "29:37", "29:38", "29:39"],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "macro:acoustic-arrest",
+      "origin_candidate_id": "cand_3f6cc6663674b04b97d7",
+      "represented_candidate_ids": [],
+      "title": "Sesin ani yakalaması",
+      "claim": "Definite ٱلصَّيْحَةُ, 29:37'deki farklı yakalanma biçimiyle birlikte, bir topluluğu ani ve işitilebilir bir şokla durduran bilinen tekil ses olayını öne çıkarır.",
+      "mechanism": "الصَّيْحَةُ focus'ta yüksek ses çekirdeğini ve çığlığın korku/ceza olarak aktarılmasını bir arada taşır. 29:37'nin topluluğun sarsıntıyla yakalanıp bulunduğu yerde kalmasını anlatan exact Arabic'i, ses cezasını rüzgâr, su ve zemin çöküşünden ayrı bir ani durum değişimi olarak çerçeveler.",
+      "reader_payoff": "Ceza, yalnızca bedenlerin yok olması olarak değil, yükselen sesin bir anda alarmı ve ardından hareketsizliği üretmesi olarak duyulur.",
+      "containment": "الصيحة'nın bilinen katastrofik ses okuması korunur. Sarsıntı, şafak, yerde kalma ve kuşatan musibet dalları occurrence eksikliği nedeniyle bu finding'e eklenmez.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": ["trusted"],
+        "reason": "Focus carrier ve iki focus facet'i doğrudan kayıtlı; 29:37 context target Arabic'i mevcut olsa da hedef morphology'si sağlanmıyor."
+      },
+      "support_ids": [
+        "sup_0e4b72484c891bef5311",
+        "sup_51c2a3836570221754b9",
+        "sup_b51e66d3a895962162c3",
+        "sup_bd14ba7569fe629e172f",
+        "sup_c9fc98b9fe5ff47cc5ed"
+      ],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000895/B001",
+          "facet_id": "F001",
+          "branch_gloss": "yüksek ses çıkarma ve karşılıklı bağırışma",
+          "facet_statement": "Temel anlam sesi yükseltmek ve yüksek ya da şiddetli bir ses çıkarmaktır.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["29:40:12:2"],
+          "trigger_refs": ["29:37"],
+          "focus_return_refs": ["29:40:12:2"],
+          "carrier": "ٱلصَّيْحَةُ, yükselen ve şiddetli tekil ses olayını taşıyan definite isimdir.",
+          "independent_trigger": "29:37'de topluluğun ani bir yakalanışla bulunduğu yerde kalması, sesin sonuçta hemen durum değiştiren bir kuvvet olduğunu sağlar.",
+          "activation": "Yüksek ses ile ani hareketsizlik arasındaki temas, sesin yalnız duyulan bir işaret değil, topluluğu o anda yakalayan olay olarak okunmasına izin verir.",
+          "resulting_reading": "Bir ses yükselir ve topluluk için hareket edemeyecekleri yeni bir durum açar.",
+          "boundary": "Karşılıklı bağırışma veya başka ص ي ح uzantıları bu olayda ayrıca ileri sürülmez."
+        },
+        {
+          "branch_ref": "root_000895/B002",
+          "facet_id": "F001",
+          "branch_gloss": "çığlığa bağlı ceza, korku, baskın, ağıt ve ani kötülük kullanımları",
+          "facet_statement": "Çığlık, doğurduğu korku üzerinden ceza veya korkunun kendisini adlandırır.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["29:40:12:2"],
+          "trigger_refs": ["29:37"],
+          "focus_return_refs": ["29:40:12:2"],
+          "carrier": "ٱلصَّيْحَةُ, çığlığın doğurduğu korku üzerinden cezayı adlandıran aktarılmış yönü taşır.",
+          "independent_trigger": "29:37'nin ani yakalanma ve yerde kalma sahnesi, sesin korku ve cezaya dönüşen etkisini destekler.",
+          "activation": "Sesin kendisi ile onun topluluğu bir anda durduran sonucu birleşince, bilinen çığlık cezanın taşıyıcısı değil doğrudan cezanın görünür biçimi olur.",
+          "resulting_reading": "Topluluğu basan şeyin, hava veya su değil, korkuyu ve tamamlanmış hareketsizliği birlikte getiren tek bir çığlık olduğu görünür.",
+          "boundary": "Baskın alarmı, ağıt, bitki veya çatlama gibi özel kullanımlar bu activation'a taşınmaz."
+        }
+      ],
+      "connection_refs": ["conn_6c4767f8722e6fa3858a"],
+      "context_refs": ["29:37"],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "macro:thin-house-echo",
+      "origin_candidate_id": "cand_70c086705ad5ce130992",
+      "represented_candidate_ids": [],
+      "title": "Kırılgan koruyucu örtü yankısı",
+      "claim": "HFT'nin exploratory root-network yankısı olarak, 29:41'deki örümcek evi focus'taki كُلًّا ve حَاصِبًا ile temas eder: hüküm altındaki topluluklar, çeşitli saldırılar karşısında geçirgen kalan koruyucu örtülerin yanındaki görüntüyü hazırlar.",
+      "mechanism": "كُلًّا için tam tanımlı ك ل ل/B006 dalı ince kumaştan ev biçimli koruyucu örtüyü taşır; 29:41 açıkça ev ve evlerin zayıflığını adlandırır. حَاصِبًا için tam tanımlı B003 dalı rüzgârla taşınan çakılı taşır; aynı ev görüntüsü bu kuvvetin dışarıda bırakılamayan bir sınama olduğunu gösterir.",
+      "reader_payoff": "29:40'taki her grubun hüküm altına alınması, hemen ardından gelen ev benzetmesinden kopuk bir liste gibi kalmaz; koruma iddiasının ince ve geçirgen oluşu focus'taki çeşitli cezaların karşısında sezilir.",
+      "containment": "Bu, كُلًّا kelimesinin sözlük gloss'unun ince örtü olduğu iddiası değildir; HFT'nin legacy_unbound, exploratory kök-ağı yankısıdır. Çözümlenmemiş ب ي ت ve و ه ن dalları ayrı doğrulanmış aktivasyon olarak taşınmaz.",
+      "epistemic": {
+        "status": "exploratory",
+        "source_trust": ["legacy_unbound"],
+        "reason": "HFT exact Arabic anchor'ları ve iki tam branch descriptor'ı packet'te mevcut, ancak reader identity legacy_unbound, source qualification broader_than_declared_pericope ve iki trace branch'i unresolved."
+      },
+      "support_ids": ["sup_84d6df61db2d968fde6a"],
+      "branch_activations": [
+        {
+          "branch_ref": "root_001315/B006",
+          "facet_id": "F001",
+          "branch_gloss": "ev biçimli ince koruyucu örtü",
+          "facet_statement": "İnce kumaştan dikilen ve küçük bir ev gibi kurulabilen koruyucu örtü temel nesnedir.",
+          "application_mode": "attributed",
+          "carrier_refs": ["29:40:1:2"],
+          "trigger_refs": ["29:41"],
+          "focus_return_refs": ["29:40:1:2"],
+          "carrier": "فَكُلًّا içindeki كُلًّا, focus'ta her bir topluluğu dağıtıcı biçimde kapsayan gerçek taşıyıcıdır.",
+          "independent_trigger": "29:41, örümceğin kurduğu evi ve evlerin en zayıf oluşunu exact Arabic ile açıkça sunar.",
+          "activation": "Dağıtıcı كلّ ile hemen sonraki ev ve zayıflık görüntüsü temas edince, her hüküm altındaki grubun koruyucu görünen fakat ince bir örtüye benzerliği yalnızca kök-ağı düzeyinde belirir.",
+          "resulting_reading": "Her grubun hükümden kaçış sağlayan bir koruma iddiası taşıdığı, ardından bu korumanın geçirgenliğinin açığa çıktığı qualified bir yankı oluşur.",
+          "boundary": "Bu, كلًّا'nın focus içindeki gramerini değiştirmez ve kelimeye doğrudan ev anlamı vermez."
+        },
+        {
+          "branch_ref": "root_000325/B003",
+          "facet_id": "F001",
+          "branch_gloss": "toz taşıyıp çakıl kaldıran sert rüzgar; ince dolu ve kar serpintisi",
+          "facet_statement": "Tozu beraberinde taşıyan sert rüzgarı belirtir.",
+          "application_mode": "attributed",
+          "carrier_refs": ["29:40:8:1"],
+          "trigger_refs": ["29:41"],
+          "focus_return_refs": ["29:40:8:1"],
+          "carrier": "حَاصِبًا, rüzgârın taşıdığı çakıl ve tozla çalışan concrete punishment carrier'ıdır.",
+          "independent_trigger": "29:41'deki zayıf ev, kendi korumasının dışarıdan gelen kuvvetlere karşı dayanımını sınayan exact context görüntüsüdür.",
+          "activation": "Rüzgârla taşınan çakıl, ince bir örtünün koruma iddiasını aşan belirli bir kuvvet olarak ev benzetmesiyle temas eder.",
+          "resulting_reading": "Focus'taki taşlı saldırı, hemen sonraki evin zayıflığını görünür kılan geçirgenlik sınaması olarak da yankılanır.",
+          "boundary": "Bu, spider-house benzetmesinin focus cezasının literal mekanizması olduğunu veya her taşlı rüzgârın ev anlamı taşıdığını söylemez."
+        }
+      ],
+      "connection_refs": ["conn_eaf5075342338125cc38"],
+      "context_refs": ["29:41"],
+      "semantic_obligation_refs": []
+    }
+  ],
+  "friction_notes": [
+    "Automatic host basmala 29:0, native pericope bağlamının ilk fazında incelendi; رحمن/رحيم ile focus adalet cümlesi arasında ayrı carrier, bağımsız trigger ve yeni reader payoff oluşturan bir temas packet'te kurulmadı.",
+    "1:2-1:7 Fatiha ayatları native findings sabitlendikten sonra ayrı overlay fazında gözden geçirildi. العالمين, rahmet, din, ibadet, yol ve dalalet cue'ları ya native sorumluluk çerçevesini tekrar ediyor ya da focus'ta sağlanmayan bir cross-root carrier ve whole-surah path/water okuması gerektiriyor; bu yüzden dış overlay finding'i tutulmadı.",
+    "Native connection rows için exact target Arabic sağlanıyor, ancak target morphology sağlanmıyor. Önceki strong/medium/weak etiketleri discovery nomination olarak bırakıldı ve hiçbir finding'de karar veya sıralama olarak kullanılmadı.",
+    "HFT kaydının reader identity'si legacy_unbound ve source kapsamı declared pericope'den broader. Bu nedenle HFT bulgusu görünürlükten düşürülmedi, fakat exploratory olarak nitelendirildi; descriptor ve occurrence taşımayan iki branch açıkça dışlandı.",
+    "Candidate inventory'de ayrı semantic_obligations alanı bulunmadı; bu nedenle semantic_obligation_exclusions ve semantic_obligation_refs her candidate/finding için boş bırakıldı. Yeni obligation icat edilmedi.",
+    "Unlinked focus branch seçenekleri tarandı; bağımsız trigger, mekanizma ve anlamlı reader payoff birlikte sağlayan başka bir native macro activation bulunmadı."
+  ]
+}
