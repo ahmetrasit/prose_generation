@@ -1,8 +1,13 @@
 # Commentary v5 editorial handoff
 
-Continue as the same live consolidator for **@@AYAH_REF@@**. Revise the four
-first-pass files under the editorial instructions below and write the four
-editorial outputs. Modify nothing else.
+Continue as the same live consolidator for **@@AYAH_REF@@**. Revise the
+first-pass prose under the editorial instructions below and write the editorial
+prose output. Modify nothing else.
+
+This V5 editorial handoff writes prose only. Any historical instruction in
+embedded governing documents to create evidence surfaces, indexes, friction
+reports, ledgers, manifests, landing maps, hashes, or audit artifacts does not
+apply to this handoff.
 
 ## Editorial Contract
 
@@ -21,6 +26,9 @@ and Turkish fluency.
 - No first-pass sentence is verbatim-immutable. Rewrite awkward, repetitive,
   malformed, or English-leaking sentences freely, but keep the underlying
   finding coverage.
+- Preserve the project display tag syntax at Arabic anchor points:
+  `{ar:ARABIC, tr:transliteration, gloss:Turkish gloss}`. Do not remove tags,
+  convert tagged anchors to plain Arabic only, or invent another tag shape.
 - Reader-facing prose must be Turkish. Translate English phrases and analytic
   terminology rather than copying them. Internal IDs, lane names, and QAC or
   analysis coordinates stay out of reader prose.
@@ -29,30 +37,21 @@ and Turkish fluency.
 - A single raw paragraph may contain multiple retained findings or branches.
   Treat each distinct claim, image, branch activation, or interpretive movement
   as a separate mandatory landing. Each one must remain explicit in editorial
-  prose, evidence, and index.
-- Keep the evidence and index proportional. Every retained finding should
-  remain traceable there, but do not copy full packets, candidate audits, or
-  bulky source payloads.
+  prose.
 
 Before finishing, compare the editorial prose against the raw prose and confirm
 that every raw finding and every distinct retained landing still appears once
-as an explicit substantive landing and remains traceable in the editorial
-evidence and index. If any retained landing is missing, revise before you
-consider the unit complete.
+as an explicit substantive landing. Also confirm that tagged Arabic anchors
+still use the project tag syntax. If any retained landing is missing or any tag
+syntax is damaged, revise before you consider the unit complete.
 
 ## First-Pass Inputs
 
 - prose: `@@PROSE_INPUT_PATH@@`
-- evidence: `@@EVIDENCE_INPUT_PATH@@`
-- findings index: `@@INDEX_INPUT_PATH@@`
-- friction: `@@FRICTION_INPUT_PATH@@`
 
 ## Editorial Outputs
 
 - prose: `@@PROSE_OUTPUT_PATH@@`
-- evidence: `@@EVIDENCE_OUTPUT_PATH@@`
-- findings index: `@@INDEX_OUTPUT_PATH@@`
-- friction: `@@FRICTION_OUTPUT_PATH@@`
 
 <editorial_instructions>
 @@EDITORIAL_INSTRUCTIONS@@

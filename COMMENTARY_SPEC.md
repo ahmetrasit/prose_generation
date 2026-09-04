@@ -77,11 +77,11 @@ A **surah-wide system** is different. It says how recurring semantic operations
 make several ayahs explain one another and change the reading of the assembly.
 The isolated Layer-2 writer cannot know that. Layer 3 consumes the unchanged
 Layer-2 v2 artifacts alongside the typed Layer-1 primary floor and available
-network/V11 evidence. It reads the complete Layer-2 findings index, local
-`surprise:<id>` resonance rows, and preserved boundaries. It hashes Layer-2
-prose and friction for lineage, but does not use their prose as the primary
-floor or as semantic input. It writes a separate surah reading and does not
-rewrite or overlay the ayah prose.
+network/V11 evidence. It reads the complete Layer-2 findings index and preserved
+boundaries. Legacy Layer-2 runs may also contain local `surprise:<id>` resonance
+rows, but simplified V5 commentary does not require those rows, a landing map,
+or provenance-ledger apparatus. Layer 3 writes a separate surah reading and does
+not rewrite or overlay the ayah prose.
 
 Layer 2 may **not** carry the surah's architecture or name a recurring
 surah-wide system. The distinction is testable: a local surprise is fully
@@ -138,42 +138,35 @@ Per ayah and per surah:
 - **prose** — continuous, single voice, no provenance markers, no headers named
   after evidence layers, and no wrapper labels such as `=== THE PROSE ===` when
   the prose is written to its own file;
-- **evidence surface** — separate, addressable per phrase, holding refs, branch
-  IDs, counter-evidence, coverage, and an explicit mark on every claim that is
-  inference rather than bundle-traceable;
-- **findings index** — *ayah level only.* A flat list of every reading the prose
-  carries, one line per reading, each under its bundle ref, with `[inference]`
-  marking the writer's own readings. It compresses how each reading is said and
-  never how many there are: every `must_integrate` topic appears exactly once,
-  `ledger_only` topics are excluded, and no line may name a reading the prose does
-  not carry. It is a table of contents for the field, not a summary. Layer 3 does
-  not emit one — it selects, so its analogue is the exclusion list. Each
-  coherent local surprise carried by the prose gets an additional
-  `surprise:<id>` synthesis row marked `[supports-primary]` or
-  `[shifts-primary]`; these rows expose how secondary readings relate to the
-  primary instead of asking layer 3 to reconstruct that relation. Active V5
-  appends a machine-readable landing map that maps each workflow-derived
-  semantic ref to an exact prose passage and binds each finding to unique
-  evidence and index passages. This is deterministic traceability, not a claim
-  that software can judge semantic entailment. Wording may change while the
-  structured semantics remain explicit. Evidence carries one compact
-  workflow-derived provenance ledger per finding; the index carries only that
-  ledger's source-record hash. Distinct apparatus landing spans may not
-  overlap; the map is apparatus, not reader prose;
-- **friction** — every point where the instructions were ambiguous,
-  contradictory, unsatisfiable, or silent. Profile-specific style audits may be
-  included here when a prompt profile asks for them, but they must be labelled as
-  style audit rather than friction.
+- **legacy evidence surface** — separate, addressable per phrase, holding refs,
+  branch IDs, counter-evidence, coverage, and an explicit mark on every claim
+  that is inference rather than bundle-traceable. Simplified V5 consolidation and
+  editorial handoffs do not write this artifact;
+- **legacy findings index** — *ayah level only.* A flat list of every reading the
+  prose carries, one line per reading, each under its bundle ref, with
+  `[inference]` marking the writer's own readings. Legacy Layer-2 runs may add
+  `surprise:<id>` synthesis rows for local resonances, but simplified V5 does not
+  require surprise rows, a machine-readable landing map, or provenance-ledger/hash
+  apparatus. V5 traceability is prose-level: each retained finding and each
+  distinct retained landing must remain explicit in reader prose;
+- **legacy friction** — ambiguity, contradiction, missing evidence, or production
+  limitations. Simplified V5 consolidation and editorial handoffs do not write a
+  friction file.
 
-The prose must be readable end to end with the evidence surface closed.
+The prose must be readable end to end on its own. Legacy evidence surfaces, when
+present, are supporting apparatus rather than required reader context.
+Mandatory coverage does not license checklist prose. Findings may be woven,
+grouped, and reordered into composed commentary when every retained landing
+remains recoverable and its boundary remains attached.
 
 Ayah prose makes its surprise turn explicit in reader language. It first gives a
 recoverable primary floor, then enters through a local word, states the
 secondary resonance, and makes clear what that resonance newly supports or
 shifts. This is part of the continuous prose, not a section headed "surprise" and
 not an apparatus label. When no secondary material survives grounding and
-containment, the writer records that in evidence/friction rather than inventing
-a turn.
+containment, the writer leaves it out rather than inventing a turn. Legacy
+workflows may record the omission in evidence or friction; simplified V5 does
+not require that apparatus.
 
 Arabic lexical items in authored prose should use structured surface spans so one
 text can render for both reading and listening editions:
@@ -185,7 +178,11 @@ text can render for both reading and listening editions:
 Use the span at first mention of an ayah word, and again when the prose returns
 to that word after moving to another word or another paragraph. A renderer may
 collapse repeated fields later; the authored source should preserve `ar`, `tr`,
-and `gloss` whenever the word is doing fresh interpretive work.
+and `gloss` whenever the word is doing fresh interpretive work. Active V5
+consolidation and editorial passes must preserve this exact tag shape at Arabic
+anchor points. They may reduce repeated tags after the anchor is established,
+but they must not drop the anchor tag, convert it to plain Arabic only, or
+invent another tag format.
 
 For reader display, render transliteration first, with Arabic in parentheses and
 the gloss nearby. For TTS, render the Arabic surface form. For Turkish-only
@@ -242,11 +239,10 @@ not merely an apparatus reference. In fluent prose, state which word or image
 carries the relevant root meaning, which independent word, relation, or context
 detail activates its exact branch facet, why the contact changes the reading,
 and where the inference stops. Root IDs, branch IDs, and analysis coordinates
-remain outside reader prose. Active V5 records the exact carrier, trigger,
-focus-return refs, branch facet, changed reading, and boundary in structured
-discovery. Its planned scope-composition turn maps every resulting semantic ref
-to exact prose passages. Canonical and editorial wording may change, but those
-structured meanings must remain explicit and mapped.
+remain outside reader prose. Active V5 scope and consolidation instructions
+preserve the exact carrier, trigger, contact, changed reading, concrete
+semantic detail, and boundary for every retained finding. Canonical and
+editorial wording may change, but those meanings must remain explicit.
 
 ### 6.1 Unit identity and prefatory basmala
 
@@ -350,14 +346,13 @@ follow-up to the same agent. Historical stage, role, and file-writing
 instructions in embedded governing texts do not override V5. Discovery must
 account for every candidate, supplied branch facet, connection, and named
 semantic obligation; accepted and narrowed candidates own dedicated findings,
-while only exact semantic duplicates may share one. The second turn renders
-the fixed finding set and maps its ordered semantic inventory to exact Turkish
-passages. The canonical writer receives compact findings projections rather
-than another copy of the full packets. Canonical and editorial indexes retain
-the semantic passage map, one compact evidence ledger, and one index hash per
-finding. The same live canonical session receives the unchanged V3 editorial
-follow-up plus this preservation contract. There is no automated repair,
-reconciliation, or semantic-adjudication cycle.
+while only exact semantic duplicates may share one. The second turn renders the
+fixed finding set into Turkish scope prose. The V5 consolidator then receives
+the three scope prose files and writes only a consolidated prose file; the same
+live consolidator writes only the editorial prose file. No V5 consolidation or
+editorial handoff creates evidence files, indexes, friction files, ledgers,
+landing maps, manifests, hashes, or audit artifacts. There is no automated
+repair, reconciliation, or semantic-adjudication cycle.
 
 Layer 3 builds a separate hermetic source packet from Quran text, the typed
 primary floor, the completed four-file Layer-2 v2 artifact set for every

@@ -147,15 +147,16 @@ the best available scope prose.
 ## 4. Consolidation
 
 After all three scope prose files exist, close the scope agents. Start one
-fresh `gpt-5.6-luna` agent at `max` reasoning effort as the consolidator. Use
-`_commentary/v5/prompts/canonical.md` as the consolidation instruction template.
+fresh `gpt-5.6-luna` agent at `max` reasoning effort as the consolidator. This
+model and reasoning setting are mandatory for the consolidation and editorial
+agent: do not substitute another model, do not lower reasoning effort, and do
+not reuse a scope-agent session. Use `_commentary/v5/prompts/canonical.md` as
+the consolidation instruction template.
 
 Fill that template manually before launching the agent:
 
 - replace `@@AYAH_REF@@` with the focus ref;
-- replace `@@PROSE_OUTPUT_PATH@@`, `@@EVIDENCE_OUTPUT_PATH@@`,
-  `@@INDEX_OUTPUT_PATH@@`, and `@@FRICTION_OUTPUT_PATH@@` with the exact output
-  paths below;
+- replace `@@PROSE_OUTPUT_PATH@@` with the exact output path below;
 - replace `@@FOCUS_CONTEXT_BRIEF@@` with the `focus_context_brief` object
   printed by `prepare`;
 - replace `@@MICRO_SCOPE_PROSE@@`, `@@MACRO_SCOPE_PROSE@@`, and
@@ -169,9 +170,6 @@ The consolidator writes:
 
 ```text
 _commentary/v5/raw/<analysis-id>/sNNN/S_A/S_A.prose.tr.md
-_commentary/v5/raw/<analysis-id>/sNNN/S_A/S_A.evidence.tr.md
-_commentary/v5/raw/<analysis-id>/sNNN/S_A/S_A.index.tr.md
-_commentary/v5/raw/<analysis-id>/sNNN/S_A/S_A.friction.tr.md
 ```
 
 Launch message:
@@ -183,20 +181,33 @@ max agent.
 Read and follow this consolidation prompt exactly:
 <filled contents of _commentary/v5/prompts/canonical.md>
 
-Write only the four requested first-pass files. Keep this conversation open for
+Write only the requested first-pass prose file. Keep this conversation open for
 the editorial follow-up.
 ```
 
-The prose should be coherent Turkish, not a lane report. The template already
-contains the mandatory non-compression rule: every retained finding, and every
-distinct claim, image, branch activation, or interpretive movement inside a
-scope paragraph, must land explicitly in prose and remain traceable in evidence
-and index. If any retained landing is missing, the consolidator should revise
-before treating the unit as complete.
+The prose should be coherent Turkish, not a lane report or word-by-word
+catalogue. The template already contains the mandatory non-compression rule:
+every retained finding, and every distinct claim, image, branch activation, or
+interpretive movement inside a scope paragraph, must land explicitly in prose.
+Explicit landings may be woven into v2-style composed prose; they do not require
+one paragraph per finding. If any retained landing is missing, the consolidator
+should revise before treating the unit as complete.
+
+When an Arabic word is doing interpretive work, tell the consolidator to use
+the project display tag syntax:
+
+```text
+{ar:ARABIC, tr:transliteration, gloss:Turkish gloss}
+```
+
+It should not drop tags, convert tagged anchors to plain Arabic only, or invent
+another tag shape.
 
 ## 5. Editorial Follow-Up
 
-Keep the same `gpt-5.6-luna` max consolidator live. Send one follow-up asking
+Keep the same `gpt-5.6-luna` max consolidator live for editorial. The editorial
+agent is not a new role or model; it is the same mandatory `gpt-5.6-luna` max
+session that wrote the consolidated first-pass prose. Send one follow-up asking
 for the editorial version. The editorial pass may rewrite sentences for
 cadence, clarity, Turkish fluency, removal of English leakage, and better
 reader-facing explanation. It must not add new evidence or erase a substantive
@@ -206,25 +217,22 @@ Use `_commentary/v5/prompts/editorial.md` as the editorial follow-up template.
 Fill it manually:
 
 - replace `@@AYAH_REF@@` with the focus ref;
-- replace the four first-pass input placeholders with the exact first-pass
-  paths;
-- replace the four editorial output placeholders with the exact editorial paths
-  below;
+- replace `@@PROSE_INPUT_PATH@@` with the exact first-pass prose path;
+- replace `@@PROSE_OUTPUT_PATH@@` with the exact editorial prose path below;
 - replace `@@EDITORIAL_INSTRUCTIONS@@` with any unit-specific editorial request,
   or `No additional unit-specific instructions.`.
 
 The editorial version must preserve the complete semantic coverage of the raw
 version. It may change wording, cadence, clarity, and fluency; it may not remove
 the carrier, independent trigger, contact, changed reading, concrete detail, or
-boundary of any retained finding or distinct retained landing.
+boundary of any retained finding or distinct retained landing. It must also
+preserve valid `{ar:..., tr:..., gloss:...}` display tags at Arabic anchor
+points.
 
 The consolidator writes:
 
 ```text
 _commentary/v5/editorial/<analysis-id>/sNNN/S_A/S_A.prose.editorial.tr.md
-_commentary/v5/editorial/<analysis-id>/sNNN/S_A/S_A.evidence.editorial.tr.md
-_commentary/v5/editorial/<analysis-id>/sNNN/S_A/S_A.index.editorial.tr.md
-_commentary/v5/editorial/<analysis-id>/sNNN/S_A/S_A.friction.editorial.tr.md
 ```
 
 Follow-up message:
@@ -235,7 +243,7 @@ Continue as the same V5 consolidator for <S:A>.
 Read and follow this editorial prompt exactly:
 <filled contents of _commentary/v5/prompts/editorial.md>
 
-Write only the four requested editorial files.
+Write only the requested editorial prose file.
 ```
 
 After those files exist, close the consolidator and inspect the prose quality
@@ -280,5 +288,4 @@ Do not run two orchestrators for the same analysis ID and ayah at once.
   the workflow.
 - Do not modify agent outputs yourself.
 - Treat partial work as ordinary Git-visible state.
-- Inspect the final prose, evidence, index, and friction files before committing
-  the unit.
+- Inspect the final prose before committing the unit.
