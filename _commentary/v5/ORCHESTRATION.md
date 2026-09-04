@@ -245,6 +245,16 @@ boundary of any retained finding or distinct retained landing. It must also
 preserve valid `{ar:..., tr:..., gloss:...}` display tags at every
 paragraph-local Arabic anchor point.
 
+Every inter-ayah or contextual comment in the editorial prose must show the
+source ayah reference near the comment itself, normally in compact parentheses
+like `(29:41)`. If several ayat jointly carry one movement, list the compact set
+or range, such as `(29:17, 29:25)` or `(29:45-46)`. Do not leave context sources
+as vague phrases such as "sûrenin ilerleyen yerinde", "bir yerde", "başka
+yerde", or "sonlara doğru". Use the workflow/context reference visible to the
+reader: a host prefatory basmala acting as context is cited as `(S:0)`, while
+`(1:1)` is used only when Al-Fatiha 1:1 itself is being discussed as a separate
+source or alias.
+
 The consolidator writes:
 
 ```text

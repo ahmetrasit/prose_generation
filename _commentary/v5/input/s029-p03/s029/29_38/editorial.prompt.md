@@ -44,6 +44,16 @@ and Turkish fluency.
 - Reader-facing prose must be Turkish. Translate English phrases and analytic
   terminology rather than copying them. Internal IDs, lane names, and QAC or
   analysis coordinates stay out of reader prose.
+- When editorial prose uses a non-focus ayah as a contextual trigger, contrast,
+  echo, or source of resonance, make the Quran reference visible in the same
+  sentence or clause, usually in compact parentheses such as `(29:41)`. If a
+  single movement depends on several ayat, list the compact set or range, such
+  as `(29:17, 29:25)` or `(29:45-46)`. Do not replace ayah references with vague
+  phrases like "sûrenin ilerleyen yerinde", "bir yerde", "başka yerde", or
+  "sonlara doğru" unless the concrete reference is also visible there. Use the
+  workflow/context reference visible to the reader: a host prefatory basmala
+  acting as context is cited as `(S:0)`, while `(1:1)` is used only when Al-Fatiha
+  1:1 itself is being discussed as a separate source or alias.
 - Compatible findings may share a fluent passage, but none may become implicit
   or disappear.
 - A single raw paragraph may contain multiple retained findings or branches.
@@ -54,9 +64,11 @@ and Turkish fluency.
 Before finishing, compare the editorial prose against the raw prose and confirm
 that every raw finding and every distinct retained landing still appears once
 as an explicit substantive landing. Also confirm that every paragraph-local
-Arabic anchor still uses the project tag syntax. If any retained landing is
-missing or any tag syntax is damaged, revise before you consider the unit
-complete.
+Arabic anchor still uses the project tag syntax. Then test every inter-ayah or
+contextual comment: if a non-focus ayah is doing interpretive work, its Quran
+reference must be visible beside that comment. If any retained landing is
+missing, any tag syntax is damaged, or any inter-ayah comment lacks its visible
+reference, revise before you consider the unit complete.
 
 ## First-Pass Inputs
 

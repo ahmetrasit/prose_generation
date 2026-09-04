@@ -71,7 +71,10 @@ concrete semantic detail, and boundary visible in the reader-facing result.
 When one scope paragraph contains multiple claims, images, branches, or
 movements, each distinct one is a separate mandatory landing.
 Editorial rewriting may improve Turkish and cadence, but it must not reduce
-that coverage.
+that coverage. In editorial prose, every inter-ayah or contextual comment must
+show the source ayah reference near the comment itself, normally in compact
+parentheses like `(29:41)`. Use the workflow/context reference visible to the
+reader, so a host prefatory basmala acting as context is cited as `(S:0)`.
 
 After editorial prose is written, the same consolidator runs the mechanical
 downstream-safety validator on the editorial prose file only:
