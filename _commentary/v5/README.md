@@ -10,11 +10,13 @@ prepare
   -> same three agents write scope prose after nomination
   -> one consolidator merges the three prose drafts without dropping findings
   -> same consolidator writes the editorial version without reducing coverage
+  -> same consolidator validates only editorial prose and repairs up to 2 times
 ```
 
 There is no V5 state machine after `prepare`: no `advance`, no `verify`, no
-manifest audit, no repair loop, and no hidden session registry. After the three
-prompts exist, orchestration is normal agent management and Git-visible files.
+manifest audit, and no hidden session registry. After the three prompts exist,
+orchestration is normal agent management and Git-visible files. Launch V5
+agents with the multiagent spawn tool, not `codex exec`.
 
 ## Basic Command
 
@@ -30,6 +32,10 @@ Batch focus selectors are accepted:
 python3 _commentary/v5/workflow.py prepare --ayah 100:1-11
 python3 _commentary/v5/workflow.py prepare --ayah 1:1-7 2:1-5
 ```
+
+For a batch, run the complete workflow for all selected ayat in parallel. Each
+ayah gets its own three `gpt-5.6-luna` max scope agents and its own fresh
+`gpt-5.6-luna` max consolidator/editorial session.
 
 The command writes one prompt per lane:
 
@@ -66,6 +72,29 @@ When one scope paragraph contains multiple claims, images, branches, or
 movements, each distinct one is a separate mandatory landing.
 Editorial rewriting may improve Turkish and cadence, but it must not reduce
 that coverage.
+
+After editorial prose is written, the same consolidator runs the mechanical
+downstream-safety validator on the editorial prose file only:
+
+```bash
+python3 _commentary/v5/validate_prose.py \
+  _commentary/v5/editorial/<analysis-id>/sNNN/S_A/S_A.prose.editorial.tr.md
+```
+
+This checks format safety only, including downstream-renderable prose, malformed
+tags, double-curly tags, unsupported or duplicate tag fields, unresolved
+placeholders, wrapper labels, and Arabic script outside valid paragraph-local
+`{ar:..., tr:..., gloss:...}` tags. It lists every detected issue, including
+every Arabic-outside span, in compact line-oriented output. A nonzero result
+stays with the same consolidator: it fixes only the reported mechanical
+editorial-prose issue and reruns the validator, with at most two repair/rerun
+cycles. After that, the editorial prose is accepted as-is and any remaining
+validator findings are reported. It does not reopen evidence selection or launch
+another agent.
+
+Reader-facing section subtitles are allowed in consolidated and editorial
+prose when they improve readability. They are not wrappers; generic labels such
+as `# PROSE`, `=== PROSE ===`, and XML-style prose wrappers remain invalid.
 
 ## Context And External Ayat
 

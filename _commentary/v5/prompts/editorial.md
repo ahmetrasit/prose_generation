@@ -4,10 +4,11 @@ Continue as the same live consolidator for **@@AYAH_REF@@**. Revise the
 first-pass prose under the editorial instructions below and write the editorial
 prose output. Modify nothing else.
 
-This V5 editorial handoff writes prose only. Any historical instruction in
+This V5 editorial handoff modifies prose only. Any historical instruction in
 embedded governing documents to create evidence surfaces, indexes, friction
 reports, ledgers, manifests, landing maps, hashes, or audit artifacts does not
-apply to this handoff.
+apply to this handoff. You may run the mechanical validator command named below;
+that command is a prose-file format check, not an audit artifact.
 
 ## Editorial Contract
 
@@ -17,6 +18,10 @@ and Turkish fluency.
 
 - Preserve every retained finding's carrier, independent trigger, contact,
   changed reading, concrete semantic detail, and boundary.
+- Preserve useful section subtitles, or add short Turkish section subtitles
+  when they make the editorial prose easier to follow. Subtitles are reader
+  prose, not wrappers; do not use generic labels such as `# PROSE`,
+  `=== PROSE ===`, or XML-style prose wrappers.
 - Preserve concrete images and secondary branches. Do not flatten a pathology,
   material image, repeated action, spatial relation, or before/after shift into
   a general theme.
@@ -58,6 +63,28 @@ complete.
 ## Editorial Outputs
 
 - prose: `@@PROSE_OUTPUT_PATH@@`
+
+## Mechanical Validation
+
+After writing the editorial prose file, run this validator on the editorial
+prose file only:
+
+```bash
+python3 _commentary/v5/validate_prose.py @@PROSE_OUTPUT_PATH@@
+```
+
+If the validator returns nonzero, repair only the reported mechanical
+file-contract issues in the editorial prose file, then rerun the validator.
+You may do at most two repair/rerun cycles. After two cycles, accept the
+editorial prose as-is and report the remaining validator findings in this
+conversation. Mechanical repairs include tag syntax, unsupported or duplicate
+tag fields, unresolved placeholders, wrapper labels, empty/non-renderable prose
+wrappers, malformed braces, and Arabic script outside valid paragraph-local
+tags. The validator lists every detected issue, including every Arabic-outside
+span, in compact line-oriented output. Do not use validator failures to add new
+evidence, drop findings, reopen evidence selection, create ledgers, create
+hashes, write a separate validation report, validate scope prose, validate
+first-pass prose, or launch another agent.
 
 <editorial_instructions>
 @@EDITORIAL_INSTRUCTIONS@@

@@ -14,12 +14,17 @@ prepare
   -> close scope agents
   -> 1 fresh consolidator merges the three prose drafts
   -> same consolidator writes the editorial version
+  -> same consolidator validates the editorial prose only
+  -> same consolidator repairs mechanical validator failures, up to 2 cycles
   -> close consolidator
 ```
 
-V5 has no post-launch workflow gates. After `prepare`, do not run `advance` or
-`verify`; they are not V5 commands. Do not create ledgers, manifests, hidden
-state directories, repair loops, or audit files for V5 orchestration.
+V5 has no post-launch orchestration gates. After `prepare`, do not run `advance`
+or `verify`; they are not V5 commands. Do not create ledgers, manifests, hidden
+state directories, or audit files for V5 orchestration.
+
+All agent launches in this runbook must use the multiagent spawn tool. Do not
+launch V5 agents with `codex exec`, shell scripts, or ad hoc terminal sessions.
 
 ## 1. Preflight
 
@@ -110,9 +115,10 @@ scope agents should use.
 
 ## 3. Scope Agents
 
-Launch three fresh, independent agents in parallel, one for each prompt. Use
-the configured maximum-capability authoring model at maximum reasoning effort;
-the current repository default is `gpt-5.6-luna` with `max`.
+Launch three fresh, independent agents in parallel with the multiagent spawn
+tool, one for each prompt. Every scope agent must be `gpt-5.6-luna` at `max`
+reasoning effort. Do not substitute another model, lower reasoning effort, or
+launch with `codex exec`.
 
 Give each agent only its prompt path and the instruction to follow that prompt.
 Keep the session open after its first response.
@@ -141,9 +147,8 @@ macro.scope.tr.md
 global.scope.tr.md
 ```
 
-Do not edit the scope agents' files yourself. If an agent output is malformed or
-thin, ask the same live agent once for a clearer replacement, then continue with
-the best available scope prose.
+Do not edit the scope agents' files yourself. Once a scope agent has written its
+requested files, continue the workflow with the files it produced.
 
 ## 4. Consolidation
 
@@ -193,6 +198,10 @@ interpretive movement inside a scope paragraph, must land explicitly in prose.
 Explicit landings may be woven into v2-style composed prose; they do not require
 one paragraph per finding. If any retained landing is missing, the consolidator
 should revise before treating the unit as complete.
+
+Real Turkish section subtitles are allowed and encouraged when they make the
+commentary easier to read. They are reader prose, not wrapper labels. Do not use
+generic wrappers such as `# PROSE`, `=== PROSE ===`, or XML-style prose wrappers.
 
 When an Arabic word is doing interpretive work, tell the consolidator to use
 the project display tag syntax:
@@ -248,10 +257,40 @@ Continue as the same V5 consolidator for <S:A>.
 Read and follow this editorial prompt exactly:
 <filled contents of _commentary/v5/prompts/editorial.md>
 
-Write only the requested editorial prose file.
+Write only the requested editorial prose file. Then run the validator command
+specified in the prompt yourself on that editorial prose file only. If it fails,
+repair only the reported mechanical prose-file issues and rerun it. Stop after
+the validator passes or after two repair/rerun cycles, whichever comes first.
+Report the final validator result in this conversation.
 ```
 
-After those files exist, close the consolidator and inspect the prose quality
+After writing the editorial file, the same consolidator must run the mechanical
+downstream-safety validator itself. This validation applies only to the
+editorial prose file, not to scope prose or first-pass prose:
+
+```text
+python3 _commentary/v5/validate_prose.py @@PROSE_OUTPUT_PATH@@
+```
+
+This check is limited to file-contract safety: existence, nonempty UTF-8 text,
+downstream-renderable prose, unresolved placeholders, wrapper labels, malformed
+braces, double-curly tags, unsupported or duplicate tag fields, and Arabic
+script outside valid paragraph-local `{ar:..., tr:..., gloss:...}` tags. The
+validator reports every detected issue, including every Arabic-outside span, but
+keeps each finding line compact for repair. It does not judge semantic quality,
+does not validate evidence, and does not create ledgers or hashes.
+
+If validation returns nonzero, the same consolidator repairs only the reported
+mechanical file-contract issues in the editorial prose file, reruns the
+validator, and may do this at most two times. After two repair/rerun cycles,
+accept the editorial prose as it stands and report the remaining validator
+findings. Do not use validator failures to reopen evidence selection, add new
+findings, drop findings, or launch a separate repair agent.
+
+The orchestrating agent does not run this validator as a workflow gate. It
+should only confirm that the consolidator reported either a passing validator
+result or completion of the two permitted repair/rerun cycles with remaining
+findings reported, then close the consolidator and inspect the prose quality
 directly.
 
 ## Context Rules
@@ -279,9 +318,17 @@ lean macro context so they can activate basmala-focused resonances.
 
 ## Batch Rules
 
-Use ranges or explicit sets and launch every returned handoff concurrently.
-Each item carries its own `ayah_ref`, `analysis_id`, lane, and prompt path; do
-not infer them from list order.
+Use ranges or explicit sets and launch every returned handoff concurrently with
+the multiagent spawn tool. Each item carries its own `ayah_ref`, `analysis_id`,
+lane, and prompt path; do not infer them from list order.
+
+When multiple ayat are selected, run the whole V5 workflow for those ayat in
+parallel. Do not finish one ayah end to end before starting the next. Spawn the
+three `gpt-5.6-luna` max scope agents for each ayah as soon as its prompts
+exist; as each ayah's three scope prose files are ready, spawn that ayah's fresh
+`gpt-5.6-luna` max consolidator and carry that same consolidator through the
+editorial follow-up. Each ayah remains an independent workflow with its own
+scope agents, consolidator, paths, and Git-visible outputs.
 
 Different ayat and analysis IDs have disjoint paths and may run concurrently.
 Do not run two orchestrators for the same analysis ID and ayah at once.
@@ -289,8 +336,8 @@ Do not run two orchestrators for the same analysis ID and ayah at once.
 ## Operational Rules
 
 - Preflight checks happen before agent orchestration starts.
-- After scope agents are launched, do not introduce validation gates that stop
-  the workflow.
+- After scope agents are launched, do not introduce validation gates outside the
+  consolidator's editorial-only mechanical validator.
 - Do not modify agent outputs yourself.
 - Treat partial work as ordinary Git-visible state.
 - Inspect the final prose before committing the unit.
