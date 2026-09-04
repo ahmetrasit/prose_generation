@@ -1171,6 +1171,14 @@ class Monitor:
             self.last_heartbeat = now
         self.local.flush()
 
+    def _sleep_until_next_tick(self) -> None:
+        deadline = time.monotonic() + self.interval
+        while not self.stop_requested and not stop_marker(self.registration).exists():
+            remaining = deadline - time.monotonic()
+            if remaining <= 0:
+                return
+            time.sleep(min(0.2, remaining))
+
     def run(self, *, once: bool = False) -> None:
         desired = self.local.register(self.registration)
         registered, remote_desired = self._safe_remote("register", self.registration)
@@ -1182,7 +1190,10 @@ class Monitor:
             should_stop = self.stop_requested or stop_marker(self.registration).exists()
             if once or (should_stop and not self.pending_refs):
                 break
-            time.sleep(self.interval)
+            if should_stop:
+                time.sleep(self.interval)
+            else:
+                self._sleep_until_next_tick()
         at = utc_now()
         self.local.close(self.registration, at)
         self._safe_remote("close", self.registration, at)
@@ -1250,32 +1261,6 @@ def _process_exists(pid: int) -> bool:
     except PermissionError:
         return True
     return True
-
-
-def _is_expected_monitor_process(pid: int, registration: dict[str, Any]) -> bool:
-    expected_script = str(Path(__file__).resolve())
-    expected_registration = str(
-        registration_path(
-            registration["run_id"], registration["orchestrator_id"]
-        ).resolve()
-    )
-    try:
-        result = subprocess.run(
-            ["ps", "-p", str(pid), "-o", "command="],
-            capture_output=True,
-            check=False,
-            text=True,
-            timeout=2,
-        )
-    except (OSError, subprocess.SubprocessError):
-        return False
-    command = result.stdout.strip()
-    return (
-        result.returncode == 0
-        and expected_script in command
-        and expected_registration in command
-        and " run " in f" {command} "
-    )
 
 
 def create_registration(
@@ -1549,14 +1534,6 @@ def command_stop(args: argparse.Namespace) -> int:
             )
             return 0
         _atomic_write_text(stop_marker(registration), f"stop_requested_at={utc_now()}\n")
-        if _is_expected_monitor_process(pid, registration):
-            try:
-                os.kill(pid, signal.SIGTERM)
-            except ProcessLookupError:
-                pid_path.unlink(missing_ok=True)
-                stop_marker(registration).unlink(missing_ok=True)
-            except PermissionError:
-                pass
         deadline = time.monotonic() + args.timeout_seconds
         while pid_path.exists() and time.monotonic() < deadline:
             if not _process_exists(pid):
