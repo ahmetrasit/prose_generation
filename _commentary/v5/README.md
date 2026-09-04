@@ -34,9 +34,17 @@ python3 _commentary/v5/workflow.py prepare --ayah 1:1-7 2:1-5
 The command writes one prompt per lane:
 
 ```text
-_commentary/v5/input/<analysis-id>/sNNN/S_A/micro.scope.prompt.md
-_commentary/v5/input/<analysis-id>/sNNN/S_A/macro.scope.prompt.md
-_commentary/v5/input/<analysis-id>/sNNN/S_A/global.scope.prompt.md
+_commentary/v5/input/<analysis-id>/sNNN/S_A/micro.discovery.prompt.md
+_commentary/v5/input/<analysis-id>/sNNN/S_A/macro.discovery.prompt.md
+_commentary/v5/input/<analysis-id>/sNNN/S_A/global.discovery.prompt.md
+```
+
+The first scope-agent turn writes the matching discovery files under `raw/`:
+
+```text
+_commentary/v5/raw/<analysis-id>/sNNN/S_A/micro.discovery.json
+_commentary/v5/raw/<analysis-id>/sNNN/S_A/macro.discovery.json
+_commentary/v5/raw/<analysis-id>/sNNN/S_A/global.discovery.json
 ```
 
 It also creates the matching raw and editorial output directories for agent

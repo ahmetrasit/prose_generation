@@ -51,11 +51,15 @@ reader in the consolidated commentary without requiring a separate ledger.
 ## Writing Contract
 
 - Write fluent Turkish reader prose, not a lane report or technical ledger.
-- Preserve the project display tag syntax when naming an Arabic word doing
-  interpretive work: `{ar:ARABIC, tr:transliteration, gloss:Turkish gloss}`.
-  Do not drop the tag, convert it to plain Arabic only, or invent another tag
-  shape. Use tags sparingly at real anchor points; do not tag every repeated
-  mention of the same word.
+- Preserve the project display tag syntax when naming an Arabic word, phrase,
+  carrier, or anchor doing interpretive work in a paragraph:
+  `{ar:ARABIC, tr:transliteration, gloss:Turkish gloss}`. Tags are
+  paragraph-local. A tag in an earlier paragraph does not cover a later
+  paragraph. Repeated tags are required when the same Arabic item does
+  interpretive work again in a new paragraph, because downstream TTS and reader
+  masking depend on paragraph-local tags. Do not deduplicate tags, reduce
+  later paragraph tags, replace them with plain Arabic/transliteration, add QAC
+  IDs, or invent another tag format.
 - Explain activation in ordinary language: which Arabic surface, root meaning,
   or ordinary meaning is carried by the focus; what independent word, image, or
   context triggers it; why they make contact; how the focus reading changes;

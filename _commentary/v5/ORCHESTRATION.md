@@ -1,8 +1,9 @@
 # Commentary v5 orchestration
 
-This is the cold-agent runbook for V5. Run commands from the repository root.
-Do not invoke V2/V3/V4 state machines, and do not use old prose as evidence or
-as a checklist.
+This is the cold-agent runbook for V5. This file is authoritative;
+`_commentary/v5/README.md` is a quick reference only. Run commands from the
+repository root. Do not invoke V2/V3/V4 state machines, and do not use old prose
+as evidence or as a checklist.
 
 ## Fixed Sequence
 
@@ -200,8 +201,12 @@ the project display tag syntax:
 {ar:ARABIC, tr:transliteration, gloss:Turkish gloss}
 ```
 
-It should not drop tags, convert tagged anchors to plain Arabic only, or invent
-another tag shape.
+Tags are paragraph-local. A tag in an earlier paragraph does not cover a later
+paragraph. If the same Arabic word, phrase, carrier, or anchor does
+interpretive work again in a new paragraph, repeat the full tag in that
+paragraph. This is required for downstream TTS and reader masking. Do not
+deduplicate tags, reduce later paragraph tags, convert tagged anchors to plain
+Arabic/transliteration, add QAC IDs, or invent another tag shape.
 
 ## 5. Editorial Follow-Up
 
@@ -226,8 +231,8 @@ The editorial version must preserve the complete semantic coverage of the raw
 version. It may change wording, cadence, clarity, and fluency; it may not remove
 the carrier, independent trigger, contact, changed reading, concrete detail, or
 boundary of any retained finding or distinct retained landing. It must also
-preserve valid `{ar:..., tr:..., gloss:...}` display tags at Arabic anchor
-points.
+preserve valid `{ar:..., tr:..., gloss:...}` display tags at every
+paragraph-local Arabic anchor point.
 
 The consolidator writes:
 

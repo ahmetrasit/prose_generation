@@ -1,6 +1,6 @@
 # Commentary v5 editorial handoff
 
-Continue as the same live consolidator for **@@AYAH_REF@@**. Revise the
+Continue as the same live consolidator for **29:38**. Revise the
 first-pass prose under the editorial instructions below and write the editorial
 prose output. Modify nothing else.
 
@@ -53,12 +53,12 @@ complete.
 
 ## First-Pass Inputs
 
-- prose: `@@PROSE_INPUT_PATH@@`
+- prose: `_commentary/v5/raw/s029-p03/s029/29_38/29_38.prose.tr.md`
 
 ## Editorial Outputs
 
-- prose: `@@PROSE_OUTPUT_PATH@@`
+- prose: `_commentary/v5/editorial/s029-p03/s029/29_38/29_38.prose.editorial.tr.md`
 
 <editorial_instructions>
-@@EDITORIAL_INSTRUCTIONS@@
+No additional unit-specific instructions.
 </editorial_instructions>
