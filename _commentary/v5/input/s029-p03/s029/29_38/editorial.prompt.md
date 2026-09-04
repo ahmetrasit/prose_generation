@@ -47,8 +47,9 @@ and Turkish fluency.
 - When editorial prose uses a non-focus ayah as a contextual trigger, contrast,
   echo, or source of resonance, make the Quran reference visible in the same
   sentence or clause, usually in compact parentheses such as `(29:41)`. If a
-  single movement depends on several ayat, list the compact set or range, such
-  as `(29:17, 29:25)` or `(29:45-46)`. Do not replace ayah references with vague
+  single movement depends on several ayat, list every ayah explicitly, such as
+  `(29:17, 29:25)` or `(1:6, 1:7)`. Do not use ayah interval shorthand such as
+  `(1:6-1:7)`, `(1:6-7)`, or `(29:45-46)`. Do not replace ayah references with vague
   phrases like "sûrenin ilerleyen yerinde", "bir yerde", "başka yerde", or
   "sonlara doğru" unless the concrete reference is also visible there. Use the
   workflow/context reference visible to the reader: a host prefatory basmala

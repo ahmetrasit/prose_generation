@@ -62,6 +62,10 @@ self-contained so a replacement agent can continue if the session is lost.
 - `global`: a wider resonance only when a concrete wider trigger returns
   through a focus word, relation, or act and materially changes the reading.
 
+## Lane-Specific Procedure
+
+@@LANE_SPECIFIC_PROCEDURE@@
+
 ## Response Schema
 
 Return exactly these top-level fields:

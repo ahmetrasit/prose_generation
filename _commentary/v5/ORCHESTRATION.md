@@ -126,6 +126,12 @@ Keep the session open after its first response.
 First turn: each scope agent nominates the findings/candidates that matter for
 its lane. It should decide supplied candidates and independently notice
 uncandidate findings. It should not write final polished prose in this turn.
+Macro prompts include a lane-specific external-ayat overlay procedure when
+`--add-ayat` is present: the macro agent first assesses native/pericope context
+and mandatory host basmala while quarantining explicitly added external ayat,
+then separately reviews those external ayat for genuine deltas before finalizing
+macro findings. This is part of the original macro discovery prompt, not a
+separate agent or later follow-up.
 
 Second turn: ask the same live scope agent to turn its nominated findings into
 fluent Turkish scope prose. The prose should make activation explicit in normal
@@ -247,8 +253,9 @@ paragraph-local Arabic anchor point.
 
 Every inter-ayah or contextual comment in the editorial prose must show the
 source ayah reference near the comment itself, normally in compact parentheses
-like `(29:41)`. If several ayat jointly carry one movement, list the compact set
-or range, such as `(29:17, 29:25)` or `(29:45-46)`. Do not leave context sources
+like `(29:41)`. If several ayat jointly carry one movement, list every ayah
+explicitly, such as `(29:17, 29:25)` or `(1:6, 1:7)`. Do not use ayah interval
+shorthand such as `(1:6-1:7)`, `(1:6-7)`, or `(29:45-46)`. Do not leave context sources
 as vague phrases such as "sûrenin ilerleyen yerinde", "bir yerde", "başka
 yerde", or "sonlara doğru". Use the workflow/context reference visible to the
 reader: a host prefatory basmala acting as context is cited as `(S:0)`, while

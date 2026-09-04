@@ -180,6 +180,34 @@ class CliSurfaceTests(unittest.TestCase):
 
 
 class ContextEvidenceTests(unittest.TestCase):
+    def test_external_overlay_procedure_is_macro_only(self) -> None:
+        packet = {
+            "analysis_context": {
+                "external_ayat_refs": ["1:1", "1:2", "1:3", "1:4", "1:5", "1:6", "1:7"]
+            }
+        }
+
+        macro = workflow._lane_specific_procedure("macro", packet)
+        micro = workflow._lane_specific_procedure("micro", packet)
+        global_ = workflow._lane_specific_procedure("global", packet)
+
+        self.assertIn("Phase 1", macro)
+        self.assertIn("Phase 2", macro)
+        self.assertIn("1:6", macro)
+        self.assertIn("individually listed ayat", macro)
+        self.assertIn("not as an implicit whole-surah reading", macro)
+        self.assertEqual(micro, "- No additional lane-specific procedure.")
+        self.assertEqual(global_, "- No additional lane-specific procedure.")
+
+    def test_macro_without_external_ayat_has_no_overlay_phase(self) -> None:
+        procedure = workflow._lane_specific_procedure(
+            "macro",
+            {"analysis_context": {"external_ayat_refs": []}},
+        )
+
+        self.assertIn("no explicitly added external ayat", procedure)
+        self.assertNotIn("Phase 1", procedure)
+
     def test_ordered_external_and_basmala_members_are_evidence_not_candidates(self) -> None:
         with tempfile.TemporaryDirectory() as temporary:
             root = Path(temporary)

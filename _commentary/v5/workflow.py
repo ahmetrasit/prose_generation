@@ -978,6 +978,53 @@ def _canonical_inputs() -> dict[str, str]:
         raise WorkflowError(f"Cannot read governing instructions: {exc}") from exc
 
 
+def _lane_specific_procedure(lane: str, packet: dict[str, Any]) -> str:
+    if lane != "macro":
+        return "- No additional lane-specific procedure."
+
+    analysis_context = packet.get("analysis_context") or {}
+    external_refs = [
+        ref for ref in analysis_context.get("external_ayat_refs", []) if isinstance(ref, str)
+    ]
+    if not external_refs:
+        return (
+            "- Macro has no explicitly added external ayat. Assess the declared "
+            "pericope or host-surah context, including any automatic host basmala, "
+            "as ordinary non-focus context."
+        )
+
+    external_display = ", ".join(external_refs)
+    return "\n".join(
+        [
+            (
+                "- Macro has explicitly added external ayat: "
+                f"{external_display}. Treat them as an overlay, not as the "
+                "starting frame."
+            ),
+            (
+                "- Phase 1: assess the focus against the declared pericope or "
+                "host-surah context and any automatic host basmala. During this "
+                "phase, quarantine explicitly added external ayat: do not let them "
+                "nominate, rank, suppress, or reframe native/pericope findings."
+            ),
+            (
+                "- Phase 2: review only the explicitly added external ayat and ask "
+                "what genuine delta they add beyond Phase 1. Retain an external "
+                "overlay finding only when it creates a specific carrier, trigger, "
+                "contact, changed reading, semantic detail, and boundary. Reject "
+                "external material that only restates a native/pericope finding or "
+                "imports a whole-surah theme without a local contact."
+            ),
+            (
+                "- If all ayat of a surah were supplied externally, still treat "
+                "them as individually listed ayat, not as an implicit whole-surah "
+                "reading. Cite and land only the individual external ayat that "
+                "actually trigger the finding."
+            ),
+        ]
+    )
+
+
 def _build_scope_prompt(layout: Layout, lane: str, packet: dict[str, Any]) -> str:
     governing = _canonical_inputs()
     template_path = PROMPTS_ROOT / "discovery.md"
@@ -996,6 +1043,7 @@ def _build_scope_prompt(layout: Layout, lane: str, packet: dict[str, Any]) -> st
             "@@COMMENTARY_SPEC_MD@@": governing["commentary_spec"],
             "@@CHANNELS_MD@@": governing["channels"],
             "@@CANONICAL_PROMPT_V2@@": governing["canonical_prompt_v2"],
+            "@@LANE_SPECIFIC_PROCEDURE@@": _lane_specific_procedure(lane, packet),
             "@@LANE_PACKET_JSON@@": _canonical_json(packet),
         },
         label=f"{lane} scope prompt",

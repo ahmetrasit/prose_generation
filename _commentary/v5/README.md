@@ -73,8 +73,15 @@ movements, each distinct one is a separate mandatory landing.
 Editorial rewriting may improve Turkish and cadence, but it must not reduce
 that coverage. In editorial prose, every inter-ayah or contextual comment must
 show the source ayah reference near the comment itself, normally in compact
-parentheses like `(29:41)`. Use the workflow/context reference visible to the
-reader, so a host prefatory basmala acting as context is cited as `(S:0)`.
+parentheses like `(29:41)`. If several ayat carry one comment, every ayah must
+be listed explicitly, such as `(1:6, 1:7)`; interval shorthand such as `(1:6-7)`
+is not allowed in reader prose. Use the workflow/context reference visible to
+the reader, so a host prefatory basmala acting as context is cited as `(S:0)`.
+
+When `--add-ayat` is present, only the macro prompt gets an external-ayat
+overlay procedure. The macro agent first nominates native/pericope and mandatory
+host-basmala findings, then separately checks the explicit external ayat for
+genuine delta activations before it writes macro prose.
 
 After editorial prose is written, the same consolidator runs the mechanical
 downstream-safety validator on the editorial prose file only:
