@@ -200,8 +200,10 @@ one paragraph per finding. If any retained landing is missing, the consolidator
 should revise before treating the unit as complete.
 
 Real Turkish section subtitles are allowed and encouraged when they make the
-commentary easier to read. They are reader prose, not wrapper labels. Do not use
-generic wrappers such as `# PROSE`, `=== PROSE ===`, or XML-style prose wrappers.
+commentary easier to read. They must be marked as level-2 Markdown headings, for
+example `## Taşın Hafızası`, so downstream renderers can style them separately.
+They are reader prose, not wrapper labels. Do not use generic wrappers such as
+`# PROSE`, `=== PROSE ===`, or XML-style prose wrappers.
 
 When an Arabic word is doing interpretive work, tell the consolidator to use
 the project display tag syntax:

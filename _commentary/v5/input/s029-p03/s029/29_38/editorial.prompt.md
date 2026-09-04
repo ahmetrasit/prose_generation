@@ -19,9 +19,11 @@ and Turkish fluency.
 - Preserve every retained finding's carrier, independent trigger, contact,
   changed reading, concrete semantic detail, and boundary.
 - Preserve useful section subtitles, or add short Turkish section subtitles
-  when they make the editorial prose easier to follow. Subtitles are reader
-  prose, not wrappers; do not use generic labels such as `# PROSE`,
-  `=== PROSE ===`, or XML-style prose wrappers.
+  when they make the editorial prose easier to follow. Mark each subtitle as a
+  level-2 Markdown heading, for example `## Taşın Hafızası`, so downstream
+  renderers can style it separately. Subtitles are reader prose, not wrappers;
+  do not use generic labels such as `# PROSE`, `=== PROSE ===`, or XML-style
+  prose wrappers.
 - Preserve concrete images and secondary branches. Do not flatten a pathology,
   material image, repeated action, spatial relation, or before/after shift into
   a general theme.

@@ -93,8 +93,10 @@ validator findings are reported. It does not reopen evidence selection or launch
 another agent.
 
 Reader-facing section subtitles are allowed in consolidated and editorial
-prose when they improve readability. They are not wrappers; generic labels such
-as `# PROSE`, `=== PROSE ===`, and XML-style prose wrappers remain invalid.
+prose when they improve readability. They must be marked as level-2 Markdown
+headings, for example `## Taşın Hafızası`, so downstream renderers can style
+them separately. They are not wrappers; generic labels such as `# PROSE`,
+`=== PROSE ===`, and XML-style prose wrappers remain invalid.
 
 ## Context And External Ayat
 

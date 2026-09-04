@@ -52,9 +52,11 @@ reader in the consolidated commentary without requiring a separate ledger.
 
 - Write fluent Turkish reader prose, not a lane report or technical ledger.
 - Use short Turkish section subtitles when they improve readability and
-  movement through the commentary. Subtitles are reader-facing prose, not
-  wrapper labels; do not use generic labels such as `# PROSE`, `=== PROSE ===`,
-  or XML-style prose wrappers.
+  movement through the commentary. Mark each subtitle as a level-2 Markdown
+  heading, for example `## Taşın Hafızası`, so downstream renderers can style it
+  separately. Subtitles are reader-facing prose, not wrapper labels; do not use
+  generic labels such as `# PROSE`, `=== PROSE ===`, or XML-style prose
+  wrappers.
 - Preserve the project display tag syntax when naming an Arabic word, phrase,
   carrier, or anchor doing interpretive work in a paragraph:
   `{ar:ARABIC, tr:transliteration, gloss:Turkish gloss}`. Tags are
