@@ -141,6 +141,9 @@ class Layout:
     def scope_discovery(self, lane: str) -> Path:
         return self.raw / f"{lane}.discovery.json"
 
+    def scope_prose(self, lane: str) -> Path:
+        return self.raw / f"{lane}.scope.tr.md"
+
 
 def layout_for(ayah_ref: str, analysis_id: str = "native") -> Layout:
     if compositions.ANALYSIS_ID_RE.fullmatch(analysis_id) is None:
@@ -1146,6 +1149,15 @@ def prepare(args: argparse.Namespace) -> dict[str, Any]:
             {
                 "lane": lane,
                 "prompt": str(layout.scope_prompt(lane).resolve(strict=False)),
+                "discovery_output": str(
+                    layout.scope_discovery(lane).resolve(strict=False)
+                ),
+                "scope_prose_output": str(
+                    layout.scope_prose(lane).resolve(strict=False)
+                ),
+                "composition_template": str(
+                    (PROMPTS_ROOT / "composition.md").resolve(strict=False)
+                ),
                 "launch": "fresh_agent",
                 "keep_session_open": True,
             }
@@ -1154,7 +1166,8 @@ def prepare(args: argparse.Namespace) -> dict[str, Any]:
         "orchestration": {
             "scope_launch": "launch all three handoffs in parallel",
             "scope_follow_up": (
-                "after nomination, ask each same live agent to write its scope prose"
+                "after nomination, fill prompts/composition.md and ask each same "
+                "live agent to write its scope prose"
             ),
             "consolidation": (
                 "close scope agents, then give the three scope prose texts and a "

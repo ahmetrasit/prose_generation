@@ -35,8 +35,8 @@ AYAH_SELECTOR_RE = re.compile(
 )
 SURAH_SELECTOR_RE = re.compile(r"([1-9][0-9]*)(?:-([1-9][0-9]*))?")
 UNIT_DIR_RE = re.compile(r"([1-9][0-9]*)_(0|[1-9][0-9]*)")
-TERMINAL_EVENTS = frozenset({"completed", "failed", "interrupted"})
-EVENTS = frozenset({"started", *TERMINAL_EVENTS, "attention"})
+TERMINAL_EVENTS = frozenset({"completed", "failed", "interrupted", "attention"})
+EVENTS = frozenset({"started", *TERMINAL_EVENTS})
 ROLES = frozenset({"scope", "canonical", "validator", "orchestrator"})
 LANES = ("micro", "macro", "global")
 MAX_ARTIFACT_BYTES = 900_000
@@ -1161,6 +1161,21 @@ def command_start(args: argparse.Namespace) -> int:
         if not args.firebase_api_key:
             raise MonitorError("--firebase-api-key is required unless --local-only is used")
     path, registration = create_registration(args)
+    remote_desired: str | None = None
+    if not args.local_only:
+        passcode_hash = registration.get("firebase_passcode_hash")
+        if not passcode_hash:
+            raise MonitorError("Registration has no Firebase passcode hash")
+        remote = FirebaseRestSink(
+            str(registration["firebase_project_id"]),
+            str(registration["firebase_api_key"]),
+            str(passcode_hash),
+        )
+        remote_desired = remote.register(registration)
+        if remote_desired == "paused":
+            _atomic_write_text(control_marker(registration), f"paused_at={utc_now()}\n")
+        elif remote_desired == "running":
+            control_marker(registration).unlink(missing_ok=True)
     log_path = _monitor_log_path(registration)
     log_path.parent.mkdir(parents=True, exist_ok=True)
     command = [
@@ -1195,6 +1210,7 @@ def command_start(args: argparse.Namespace) -> int:
                 "registration": str(path),
                 "pause_file": str(control_marker(registration)),
                 "log": str(log_path),
+                "remote_desired_state": remote_desired,
             },
             indent=2,
             sort_keys=True,
@@ -1310,6 +1326,63 @@ def command_wait(args: argparse.Namespace) -> int:
     return 0
 
 
+def command_stop(args: argparse.Namespace) -> int:
+    registration = load_registration(
+        registration_path(args.run_id, args.orchestrator_id)
+    )
+    pid_path = _pid_path(registration)
+    try:
+        pid_text = pid_path.read_text(encoding="utf-8").strip()
+    except OSError:
+        print(
+            json.dumps(
+                {
+                    "status": "stopped",
+                    "run_id": registration["run_id"],
+                    "orchestrator_id": registration["orchestrator_id"],
+                    "already_stopped": True,
+                },
+                indent=2,
+                sort_keys=True,
+            )
+        )
+        return 0
+    try:
+        pid = int(pid_text)
+    except ValueError as exc:
+        raise MonitorError(f"Invalid monitor PID file: {pid_path}") from exc
+    try:
+        os.kill(pid, signal.SIGTERM)
+    except ProcessLookupError:
+        pid_path.unlink(missing_ok=True)
+    except PermissionError as exc:
+        raise MonitorError(f"Cannot stop monitor process {pid}: {exc}") from exc
+
+    deadline = time.monotonic() + args.timeout_seconds
+    while pid_path.exists() and time.monotonic() < deadline:
+        try:
+            os.kill(pid, 0)
+        except ProcessLookupError:
+            pid_path.unlink(missing_ok=True)
+            break
+        time.sleep(0.2)
+    if pid_path.exists():
+        raise MonitorError(f"Monitor process {pid} did not stop within timeout")
+    print(
+        json.dumps(
+            {
+                "status": "stopped",
+                "run_id": registration["run_id"],
+                "orchestrator_id": registration["orchestrator_id"],
+                "pid": pid,
+            },
+            indent=2,
+            sort_keys=True,
+        )
+    )
+    return 0
+
+
 def command_control(args: argparse.Namespace) -> int:
     registration = load_registration(
         registration_path(args.run_id, args.orchestrator_id)
@@ -1379,6 +1452,12 @@ def parser() -> argparse.ArgumentParser:
     wait.add_argument("--orchestrator-id", required=True)
     wait.add_argument("--poll-seconds", type=float, default=10)
     wait.set_defaults(func=command_wait)
+
+    stop = subparsers.add_parser("stop", help="Stop a background monitor.")
+    stop.add_argument("--run-id", required=True)
+    stop.add_argument("--orchestrator-id", required=True)
+    stop.add_argument("--timeout-seconds", type=float, default=10)
+    stop.set_defaults(func=command_stop)
 
     control = subparsers.add_parser("control", help="Set local control state for testing.")
     control.add_argument("--run-id", required=True)

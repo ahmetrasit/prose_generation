@@ -2,13 +2,16 @@
 
 Continue as the same live consolidator for **@@AYAH_REF@@**. Revise the
 first-pass prose under the editorial instructions below and write the editorial
-prose output. Modify nothing else.
+prose output. Modify nothing else, except for the mechanical validator command
+and any required monitor lifecycle event command supplied by the orchestrator.
 
 This V5 editorial handoff modifies prose only. Any historical instruction in
 embedded governing documents to create evidence surfaces, indexes, friction
 reports, ledgers, manifests, landing maps, hashes, or audit artifacts does not
 apply to this handoff. You may run the mechanical validator command named below;
-that command is a prose-file format check, not an audit artifact.
+that command is a prose-file format check, not an audit artifact. You may also
+run the monitor lifecycle event command supplied by the orchestrator; it is
+operational logging, not commentary evidence.
 
 ## Editorial Contract
 

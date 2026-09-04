@@ -43,6 +43,10 @@ python3 _commentary/v5/operations/monitor.py start \
   --scope <scope-selector>
 ```
 
+Use `commentary-v5` as the shared `run-id` unless the operator supplies a
+different shared run ID. All machines participating in the same run must use
+the same `run-id`.
+
 The passcode must be at least 12 characters. If the operator did not provide
 one in the orchestration request, ask for it before starting the monitor or
 launching agents. Use the passcode only in the environment of this `monitor.py
@@ -56,11 +60,15 @@ orchestration. Do not deploy Firebase, create a daemon script, copy a monitor
 script, or add supervisor/queue/restart automation. The orchestrator runs the
 existing `_commentary/v5/operations/monitor.py` script.
 
-All machines participating in the same run use the same `run-id`. Each
-orchestrator uses an `orchestrator-id` that is unique across all participating
-machines and accounts. One monitor registration covers one `analysis-id`; repeat
-`--scope` when needed. Valid scope selectors are `S`, `S-T`, `S:A`, and
-`S:A-B`.
+For cloud operation, `"status": "started"` means the passcode-backed Firebase
+registration succeeded and the background monitor process was launched. If
+monitor startup fails or does not return `"status": "started"`, do not launch
+analysis agents. Report the startup error to the operator.
+
+Each orchestrator uses an `orchestrator-id` that is unique across all
+participating machines and accounts. One monitor registration covers one
+`analysis-id`; repeat `--scope` when needed. Valid scope selectors are `S`,
+`S-T`, `S:A`, and `S:A-B`.
 
 The monitor writes local operational files under:
 
@@ -80,8 +88,18 @@ state, and do not create any other tracking files. Do not ignore
 operations docs are part of the orchestration tooling. Only `operations/runtime/`
 is disposable monitor runtime state.
 
-If monitor startup fails or does not return `"status": "started"`, do not launch
-analysis agents. Report the startup error to the operator.
+Before launching the first scope agents for any ayah, including a single-ayah
+run, the orchestrator checks pause:
+
+```bash
+python3 _commentary/v5/operations/monitor.py wait \
+  --run-id <shared-run-id> \
+  --orchestrator-id <unique-orchestrator-id>
+```
+
+Pause is cooperative. An ayah already in progress may finish; no new ayah may
+start until `wait` returns `running`. Do not run `wait` between steps of an
+active ayah, and do not introduce direct remote messaging to agents.
 
 ## 1. Preflight
 
@@ -210,11 +228,22 @@ then separately reviews those external ayat for genuine deltas before finalizing
 macro findings. This is part of the original macro discovery prompt, not a
 separate agent or later follow-up.
 
-Second turn: ask the same live scope agent to turn its nominated findings into
-fluent Turkish scope prose. The prose should make activation explicit in normal
-language: which root or ordinary meaning is activated, what in the focus carries
-it, what in the context triggers it, and how the focus reading changes. It
-should not expose internal root IDs or branch IDs to the reader.
+Second turn: keep the same live scope agent and use
+`_commentary/v5/prompts/composition.md` as the follow-up template. Fill it before
+sending:
+
+- replace `@@AYAH_REF@@` with the focus ref;
+- replace `@@LANE@@` with `micro`, `macro`, or `global`;
+- replace `@@DISCOVERY_OUTPUT_PATH@@` with that lane's exact
+  `*.discovery.json` path from the prepare handoff;
+- replace `@@SCOPE_PROSE_OUTPUT_PATH@@` with that lane's exact
+  `*.scope.tr.md` output path from the prepare handoff.
+
+Ask the same agent to turn its nominated findings into fluent Turkish scope
+prose. The prose should make activation explicit in normal language: which root
+or ordinary meaning is activated, what in the focus carries it, what in the
+context triggers it, and how the focus reading changes. It should not expose
+internal root IDs or branch IDs to the reader.
 
 Write each scope prose file under:
 
@@ -466,18 +495,8 @@ Use ranges or explicit sets and launch every returned handoff concurrently with
 the multiagent spawn tool. Each item carries its own `ayah_ref`, `analysis_id`,
 lane, and prompt path; do not infer them from list order.
 
-Immediately before beginning the next ayah's analysis or launching that ayah's
-first scope agents, the orchestrator runs:
-
-```bash
-python3 _commentary/v5/operations/monitor.py wait \
-  --run-id <shared-run-id> \
-  --orchestrator-id <unique-orchestrator-id>
-```
-
-Pause is cooperative. An ayah already in progress may finish; no new ayah may
-start until `wait` returns `running`. Do not run `wait` between steps of an
-active ayah, and do not introduce direct remote messaging to agents.
+The Operations Monitor pause check applies before the first scope-agent launch
+for each ayah in the batch. Do not omit it for single-ayah runs or batch runs.
 
 When multiple ayat are selected, run the whole V5 workflow for those ayat in
 parallel. Do not finish one ayah end to end before starting the next. Spawn the
@@ -489,6 +508,17 @@ scope agents, consolidator, paths, and Git-visible outputs.
 
 Different ayat and analysis IDs have disjoint paths and may run concurrently.
 Do not run two orchestrators for the same analysis ID and ayah at once.
+
+## Monitor Shutdown
+
+After all ayat assigned to this orchestrator are complete and no spawned V5
+agents remain live, stop the monitor:
+
+```bash
+python3 _commentary/v5/operations/monitor.py stop \
+  --run-id <shared-run-id> \
+  --orchestrator-id <unique-orchestrator-id>
+```
 
 ## Operational Rules
 

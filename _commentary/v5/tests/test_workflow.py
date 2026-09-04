@@ -553,6 +553,16 @@ class PrepareTests(unittest.TestCase):
             "micro.discovery.prompt.md",
         ])
         self.assertEqual(len(result["handoffs"]), 3)
+        for handoff in result["handoffs"]:
+            lane = handoff["lane"]
+            self.assertTrue(handoff["prompt"].endswith(f"{lane}.discovery.prompt.md"))
+            self.assertTrue(
+                handoff["discovery_output"].endswith(f"{lane}.discovery.json")
+            )
+            self.assertTrue(
+                handoff["scope_prose_output"].endswith(f"{lane}.scope.tr.md")
+            )
+            self.assertTrue(handoff["composition_template"].endswith("composition.md"))
         self.assertEqual(result["orchestration"]["post_launch_gates"], [])
         self.assertEqual(
             result["focus_context_brief"]["automatic_host_basmala_ref"], None

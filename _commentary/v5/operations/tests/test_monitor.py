@@ -2,6 +2,7 @@ import argparse
 import importlib.util
 import json
 import os
+import signal
 import sys
 import tempfile
 import unittest
@@ -197,6 +198,30 @@ class EventAndTaskTests(unittest.TestCase):
         self.assertEqual(2, task["stages"]["macro"]["attempt"])
         self.assertEqual("completed", task["stages"]["macro"]["status"])
 
+    def test_attention_closes_attempt_for_terminal_matching(self):
+        def write(status, agent_id):
+            return monitor.command_event(
+                argparse.Namespace(
+                    run_id="run-1",
+                    orchestrator_id="orch-1",
+                    ayah_ref="29:38",
+                    role="scope",
+                    lane="macro",
+                    attempt=None,
+                    status=status,
+                    agent_id=agent_id,
+                    message=None,
+                )
+            )
+
+        self.assertEqual(0, write("started", "agent-1"))
+        self.assertEqual(0, write("attention", "agent-1"))
+        self.assertEqual(0, write("started", "agent-2"))
+        first = monitor.event_path(self.registration, "29:38", "scope", "macro", 1)
+        second = monitor.event_path(self.registration, "29:38", "scope", "macro", 2)
+        self.assertTrue(first.exists())
+        self.assertTrue(second.exists())
+
     def test_parallel_starts_get_distinct_attempts(self):
         common = {
             "run_id": "run-1",
@@ -345,6 +370,77 @@ class EventAndTaskTests(unittest.TestCase):
         daemon.sync_ref("29:38")
         self.assertNotIn("29:38", daemon.pending_refs)
         self.assertEqual(2, sink.artifact_calls)
+
+    def test_start_verifies_remote_registration_before_spawning(self):
+        args = argparse.Namespace(
+            run_id="run-2",
+            worker_id="worker-2",
+            orchestrator_id="orch-2",
+            agent_id="agent-orch",
+            analysis_id="native",
+            scope=["29:38"],
+            poll_seconds=10,
+            firebase_project="v5-monitor",
+            firebase_api_key="public-key",
+            passcode="abcdefghijkl",
+            local_only=False,
+        )
+        with (
+            patch.object(
+                monitor.FirebaseRestSink,
+                "register",
+                side_effect=monitor.MonitorError("revoked passcode"),
+            ) as register,
+            patch.object(monitor.subprocess, "Popen") as popen,
+        ):
+            with self.assertRaisesRegex(monitor.MonitorError, "revoked passcode"):
+                monitor.command_start(args)
+        register.assert_called_once()
+        popen.assert_not_called()
+
+    def test_start_mirrors_initial_remote_pause_before_spawning(self):
+        args = argparse.Namespace(
+            run_id="run-paused",
+            worker_id="worker-paused",
+            orchestrator_id="orch-paused",
+            agent_id="agent-orch",
+            analysis_id="native",
+            scope=["29:38"],
+            poll_seconds=10,
+            firebase_project="v5-monitor",
+            firebase_api_key="public-key",
+            passcode="abcdefghijkl",
+            local_only=False,
+        )
+        process = argparse.Namespace(pid=9876)
+        with (
+            patch.object(monitor.FirebaseRestSink, "register", return_value="paused"),
+            patch.object(monitor.subprocess, "Popen", return_value=process),
+        ):
+            self.assertEqual(0, monitor.command_start(args))
+        registration = monitor.load_registration(
+            monitor.registration_path("run-paused", "orch-paused")
+        )
+        self.assertTrue(monitor.control_marker(registration).exists())
+
+    def test_stop_terminates_background_monitor(self):
+        self.registration["run_id"] = "run-stop"
+        self.registration["orchestrator_id"] = "orch-stop"
+        destination = monitor.registration_path("run-stop", "orch-stop")
+        monitor._atomic_write_json(destination, self.registration)
+        pid_path = monitor._pid_path(self.registration)
+        monitor._atomic_write_text(pid_path, "1234\n")
+        args = argparse.Namespace(
+            run_id="run-stop", orchestrator_id="orch-stop", timeout_seconds=1
+        )
+
+        def fake_kill(_pid, sig):
+            if sig == signal.SIGTERM:
+                pid_path.unlink(missing_ok=True)
+
+        with patch.object(monitor.os, "kill", side_effect=fake_kill) as kill:
+            self.assertEqual(0, monitor.command_stop(args))
+        kill.assert_called_once_with(1234, signal.SIGTERM)
 
 
 def registration_fixture():

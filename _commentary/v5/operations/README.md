@@ -9,9 +9,12 @@ it before every Hosting deployment.
 
 ## Orchestrator contract
 
-Start one monitor when an orchestrator starts:
+Start one monitor when an orchestrator starts. For cloud operation, set the
+passcode copied from the dashboard before starting the monitor:
 
 ```bash
+export V5_MONITOR_PASSCODE='the-passcode-from-the-dashboard'
+
 python3 _commentary/v5/operations/monitor.py start \
   --run-id commentary-v5 \
   --orchestrator-id orch-s029 \
@@ -21,12 +24,9 @@ python3 _commentary/v5/operations/monitor.py start \
 ```
 
 Use `--scope 29:38-45`, repeat `--scope`, or use `--scope 1-114`. Use
-`--local-only` while testing without Firebase. For cloud operation, set the
-passcode copied from the dashboard before starting the monitor:
-
-```bash
-export V5_MONITOR_PASSCODE='the-passcode-from-the-dashboard'
-```
+`--local-only` while testing without Firebase. For cloud operation, `start`
+verifies the passcode-backed Firebase registration before it launches the
+background monitor.
 
 The Firebase project and public Web API key already default to `v5-monitor`.
 They can be overridden with `--firebase-project` and `--firebase-api-key`.
@@ -53,11 +53,19 @@ python3 _commentary/v5/operations/monitor.py event \
 ```
 
 Use `--role canonical` without `--lane`. Terminal states are `completed`,
-`failed`, and `interrupted`; `attention` records a user decision that is needed.
-New starts allocate attempt numbers automatically, so an unplanned rerun remains
-visible. `--attempt` is only an override. Event lines are tiny JSON objects and the
-daemon does the filesystem and Firebase work, so prose does not pass through agent
-logs.
+`failed`, `interrupted`, and `attention`; `attention` records operator attention
+needed for an otherwise finished attempt. New starts allocate attempt numbers
+automatically, so an unplanned rerun remains visible. `--attempt` is only an
+override. Event lines are tiny JSON objects and the daemon does the filesystem
+and Firebase work, so prose does not pass through agent logs.
+
+Stop the monitor when the orchestrator has no live spawned agents and all
+assigned ayat are complete:
+
+```bash
+python3 _commentary/v5/operations/monitor.py stop \
+  --run-id commentary-v5 --orchestrator-id orch-s029
+```
 
 Pause is cooperative: Firebase sets `desired_state` to `paused`, the monitor
 creates its local `runtime/control/.../PAUSE` marker, and `wait` blocks before the

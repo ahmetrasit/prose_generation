@@ -85,7 +85,8 @@ reader in the consolidated commentary without requiring a separate ledger.
 
 ## Output
 
-Write exactly one nonempty file and modify nothing else:
+Write exactly one nonempty prose file and modify nothing else, except for any
+required monitor lifecycle event command supplied by the orchestrator:
 
 - prose: `@@PROSE_OUTPUT_PATH@@`
 

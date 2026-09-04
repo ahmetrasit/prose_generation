@@ -62,8 +62,18 @@ _commentary/v5/editorial/<analysis-id>/sNNN/S_A/
 ```
 
 The JSON printed by `prepare` contains the generated prompt paths, the
-focus/context brief, and short orchestration notes. It is advisory; it is not a
-completion manifest.
+matching discovery and scope-prose output paths, the focus/context brief, and
+short orchestration notes. It is advisory; it is not a completion manifest.
+
+The second turn for each scope agent uses
+`_commentary/v5/prompts/composition.md`. Fill it with the focus ref, lane,
+that lane's `*.discovery.json` path, and that lane's `*.scope.tr.md` output
+path from the prepare handoff.
+
+V5 orchestration uses the operations monitor documented in
+`_commentary/v5/ORCHESTRATION.md`. The monitor writes only operational runtime
+state under `_commentary/v5/operations/runtime/`; that directory is not
+commentary evidence and is not an analytical gate.
 
 Consolidation is prose work, not evidence selection. Every retained scope
 finding must keep its carrier, independent trigger, contact, changed reading,

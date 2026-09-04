@@ -2,11 +2,14 @@
 
 You are the fresh **@@LANE@@** scope discoverer for **@@AYAH_REF@@**. This is
 the first of two planned turns for this lane. Decide what the supplied evidence
-supports and persist a semantic ledger. Do not write polished commentary prose.
+supports and persist the requested discovery JSON. Do not write polished
+commentary prose.
 
 Write exactly one JSON object to `@@DISCOVERY_OUTPUT_PATH@@` and modify nothing
-else. Remain available for a follow-up composition turn, but make this artifact
-self-contained so a replacement agent can continue if the session is lost.
+else, except for any required monitor lifecycle event command supplied by the
+orchestrator. Remain available for a follow-up composition turn, but make this
+artifact self-contained so a replacement agent can continue if the session is
+lost.
 
 ## Evidence And Discovery
 
