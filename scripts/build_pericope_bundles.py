@@ -186,7 +186,10 @@ def write_manifest(
             REPO_ROOT / "scripts" / "build_bundle.py", REPO_ROOT
         ),
         "alignment_implementation": package_manifest.file_record(
-            REPO_ROOT / "scripts" / "word_morpheme_alignment.py", REPO_ROOT
+            REPO_ROOT / "_commentary" / "qac_analysis_bridge.py", REPO_ROOT
+        ),
+        "alignment_cache_implementation": package_manifest.file_record(
+            REPO_ROOT / "_commentary/v5/qac_cache.py", REPO_ROOT
         ),
         "command": command,
         "source": source,

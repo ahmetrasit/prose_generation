@@ -1124,37 +1124,32 @@
           "word_count": 1
         },
         "word_morpheme_spans": {
-          "present": false,
-          "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s046/linguistic/morphemes.tsv",
-          "alignment_version": "ordered-morpheme-spans-v2",
-          "words_total": 1,
-          "words_resolved": 0,
-          "words_unresolved": 1,
-          "morpheme_skip_total": 0,
-          "morpheme_skip_max": 0,
-          "morpheme_skip_histogram": {},
-          "unresolved": [
-            {
-              "word_index": 0,
-              "surface_ar": "حمٓ",
-              "reason": "no compatible span in the best ordered source alignment"
-            }
-          ],
-          "morphemes_tsv": {
-            "present": true,
-            "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s046/linguistic/morphemes.tsv",
-            "ayah_count": 34,
-            "row_count": 1042,
-            "malformed_rows": 0,
-            "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
-            "dropped_preface_rows": 7
+          "present": true,
+          "alignment_version": "qac-analysis-bridge-v1",
+          "source_namespace": "word-analysis",
+          "target_namespace": "qac-morpheme",
+          "bridge": {
+            "source": "quran-data/data/bridges/qac-masaq.sqlite.gz",
+            "source_sha256": "a3dabe8200c3e172bfd1ea8eff1c051a250ab65eb7bd4dc0cb5144c9117d7a2a",
+            "schema_version": "qac-masaq-bridge-v1",
+            "sqlite_user_version": 4,
+            "release_id": "2026.09.02",
+            "release_manifest_sha256": "10c30bf9e36c8efcf14ee1cc1d9005024d2eaf97190135ad25b8ef314ebe28b6",
+            "qac_source_sha256": "706a45d150251ca3114a13499e2b665fe5596b03b2272557574f0ed58eb29594",
+            "word_analysis_tree_sha256": "95529b40cf4cbcdd88e855ef8418eb465820507b1fd3497094fa5075ecbb7f7e"
           },
-          "note": "Ordered surface alignment within canonical QAC words; only spans shared by all best alignments are joined. Upstream word-analysis identities and wording are preserved. Unresolved analytic units remain available for qualified reading; never infer their QAC identity from upstream numbering."
+          "linguistic_source_ref": "46:1",
+          "words_total": 1,
+          "words_resolved": 1,
+          "words_unresolved": 0,
+          "unresolved": [],
+          "shared_morphemes": [],
+          "note": "Accepted bridge links preserve independent analysis identities. Several analysis entries may share canonical morphemes. Read their distinct semantic claims; shared morphology alone is not duplication. Legacy aligned_qac_word_ref values are source observations, not QAC joins. Excluded source entries remain available with their explicit qualification."
         },
         "word_analysis_qac_alignment": {
           "consistent": true,
           "detail": null,
-          "note": "aligned_qac_word_ref resolves against qac_morphemes for this ayah"
+          "note": "Legacy analysis and QAC numbers are separate source namespaces. Use accepted word_morpheme_spans for actual many-to-many joins. The legacy numbering observation is preserved, not used for alignment."
         },
         "qac_morphemes": {
           "present": true,
@@ -1497,32 +1492,31 @@
         },
         "word_morpheme_spans": {
           "present": true,
-          "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s046/linguistic/morphemes.tsv",
-          "alignment_version": "ordered-morpheme-spans-v2",
+          "alignment_version": "qac-analysis-bridge-v1",
+          "source_namespace": "word-analysis",
+          "target_namespace": "qac-morpheme",
+          "bridge": {
+            "source": "quran-data/data/bridges/qac-masaq.sqlite.gz",
+            "source_sha256": "a3dabe8200c3e172bfd1ea8eff1c051a250ab65eb7bd4dc0cb5144c9117d7a2a",
+            "schema_version": "qac-masaq-bridge-v1",
+            "sqlite_user_version": 4,
+            "release_id": "2026.09.02",
+            "release_manifest_sha256": "10c30bf9e36c8efcf14ee1cc1d9005024d2eaf97190135ad25b8ef314ebe28b6",
+            "qac_source_sha256": "706a45d150251ca3114a13499e2b665fe5596b03b2272557574f0ed58eb29594",
+            "word_analysis_tree_sha256": "95529b40cf4cbcdd88e855ef8418eb465820507b1fd3497094fa5075ecbb7f7e"
+          },
+          "linguistic_source_ref": "46:2",
           "words_total": 6,
           "words_resolved": 6,
           "words_unresolved": 0,
-          "morpheme_skip_total": 0,
-          "morpheme_skip_max": 0,
-          "morpheme_skip_histogram": {
-            "0": 6
-          },
           "unresolved": [],
-          "morphemes_tsv": {
-            "present": true,
-            "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s046/linguistic/morphemes.tsv",
-            "ayah_count": 34,
-            "row_count": 1042,
-            "malformed_rows": 0,
-            "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
-            "dropped_preface_rows": 7
-          },
-          "note": "Ordered surface alignment within canonical QAC words; only spans shared by all best alignments are joined. Upstream word-analysis identities and wording are preserved. Unresolved analytic units remain available for qualified reading; never infer their QAC identity from upstream numbering."
+          "shared_morphemes": [],
+          "note": "Accepted bridge links preserve independent analysis identities. Several analysis entries may share canonical morphemes. Read their distinct semantic claims; shared morphology alone is not duplication. Legacy aligned_qac_word_ref values are source observations, not QAC joins. Excluded source entries remain available with their explicit qualification."
         },
         "word_analysis_qac_alignment": {
           "consistent": true,
           "detail": null,
-          "note": "aligned_qac_word_ref resolves against qac_morphemes for this ayah"
+          "note": "Legacy analysis and QAC numbers are separate source namespaces. Use accepted word_morpheme_spans for actual many-to-many joins. The legacy numbering observation is preserved, not used for alignment."
         },
         "qac_morphemes": {
           "present": true,
@@ -2277,34 +2271,26 @@
         },
         "word_morpheme_spans": {
           "present": true,
-          "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s046/linguistic/morphemes.tsv",
-          "alignment_version": "ordered-morpheme-spans-v2",
+          "alignment_version": "qac-analysis-bridge-v1",
+          "source_namespace": "word-analysis",
+          "target_namespace": "qac-morpheme",
+          "bridge": {
+            "source": "quran-data/data/bridges/qac-masaq.sqlite.gz",
+            "source_sha256": "a3dabe8200c3e172bfd1ea8eff1c051a250ab65eb7bd4dc0cb5144c9117d7a2a",
+            "schema_version": "qac-masaq-bridge-v1",
+            "sqlite_user_version": 4,
+            "release_id": "2026.09.02",
+            "release_manifest_sha256": "10c30bf9e36c8efcf14ee1cc1d9005024d2eaf97190135ad25b8ef314ebe28b6",
+            "qac_source_sha256": "706a45d150251ca3114a13499e2b665fe5596b03b2272557574f0ed58eb29594",
+            "word_analysis_tree_sha256": "95529b40cf4cbcdd88e855ef8418eb465820507b1fd3497094fa5075ecbb7f7e"
+          },
+          "linguistic_source_ref": "46:3",
           "words_total": 20,
-          "words_resolved": 19,
-          "words_unresolved": 1,
-          "morpheme_skip_total": 2,
-          "morpheme_skip_max": 2,
-          "morpheme_skip_histogram": {
-            "0": 18,
-            "2": 1
-          },
-          "unresolved": [
-            {
-              "word_index": 17,
-              "surface_ar": "عَنْ",
-              "reason": "no compatible span in the best ordered source alignment"
-            }
-          ],
-          "morphemes_tsv": {
-            "present": true,
-            "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s046/linguistic/morphemes.tsv",
-            "ayah_count": 34,
-            "row_count": 1042,
-            "malformed_rows": 0,
-            "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
-            "dropped_preface_rows": 7
-          },
-          "note": "Ordered surface alignment within canonical QAC words; only spans shared by all best alignments are joined. Upstream word-analysis identities and wording are preserved. Unresolved analytic units remain available for qualified reading; never infer their QAC identity from upstream numbering."
+          "words_resolved": 20,
+          "words_unresolved": 0,
+          "unresolved": [],
+          "shared_morphemes": [],
+          "note": "Accepted bridge links preserve independent analysis identities. Several analysis entries may share canonical morphemes. Read their distinct semantic claims; shared morphology alone is not duplication. Legacy aligned_qac_word_ref values are source observations, not QAC joins. Excluded source entries remain available with their explicit qualification."
         },
         "word_analysis_qac_alignment": {
           "consistent": false,
@@ -2319,7 +2305,7 @@
               "46:3:20"
             ]
           },
-          "note": "aligned_qac_word_ref does NOT resolve against qac_morphemes for this ayah: word-analysis counts orthographic words where QAC counts morphological words. Word-level joins between word_analysis topics and QAC morphology are UNRELIABLE here. Upstream defect in quran-data's word-analysis; deliberately not auto-repaired (renumbering would fabricate identities)."
+          "note": "Legacy analysis and QAC numbers are separate source namespaces. Use accepted word_morpheme_spans for actual many-to-many joins. The legacy numbering observation is preserved, not used for alignment."
         },
         "qac_morphemes": {
           "present": true,
@@ -3353,27 +3339,26 @@
         },
         "word_morpheme_spans": {
           "present": true,
-          "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s046/linguistic/morphemes.tsv",
-          "alignment_version": "ordered-morpheme-spans-v2",
+          "alignment_version": "qac-analysis-bridge-v1",
+          "source_namespace": "word-analysis",
+          "target_namespace": "qac-morpheme",
+          "bridge": {
+            "source": "quran-data/data/bridges/qac-masaq.sqlite.gz",
+            "source_sha256": "a3dabe8200c3e172bfd1ea8eff1c051a250ab65eb7bd4dc0cb5144c9117d7a2a",
+            "schema_version": "qac-masaq-bridge-v1",
+            "sqlite_user_version": 4,
+            "release_id": "2026.09.02",
+            "release_manifest_sha256": "10c30bf9e36c8efcf14ee1cc1d9005024d2eaf97190135ad25b8ef314ebe28b6",
+            "qac_source_sha256": "706a45d150251ca3114a13499e2b665fe5596b03b2272557574f0ed58eb29594",
+            "word_analysis_tree_sha256": "95529b40cf4cbcdd88e855ef8418eb465820507b1fd3497094fa5075ecbb7f7e"
+          },
+          "linguistic_source_ref": "46:4",
           "words_total": 31,
           "words_resolved": 31,
           "words_unresolved": 0,
-          "morpheme_skip_total": 0,
-          "morpheme_skip_max": 0,
-          "morpheme_skip_histogram": {
-            "0": 31
-          },
           "unresolved": [],
-          "morphemes_tsv": {
-            "present": true,
-            "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s046/linguistic/morphemes.tsv",
-            "ayah_count": 34,
-            "row_count": 1042,
-            "malformed_rows": 0,
-            "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
-            "dropped_preface_rows": 7
-          },
-          "note": "Ordered surface alignment within canonical QAC words; only spans shared by all best alignments are joined. Upstream word-analysis identities and wording are preserved. Unresolved analytic units remain available for qualified reading; never infer their QAC identity from upstream numbering."
+          "shared_morphemes": [],
+          "note": "Accepted bridge links preserve independent analysis identities. Several analysis entries may share canonical morphemes. Read their distinct semantic claims; shared morphology alone is not duplication. Legacy aligned_qac_word_ref values are source observations, not QAC joins. Excluded source entries remain available with their explicit qualification."
         },
         "word_analysis_qac_alignment": {
           "consistent": false,
@@ -3385,7 +3370,7 @@
               "46:4:31"
             ]
           },
-          "note": "aligned_qac_word_ref does NOT resolve against qac_morphemes for this ayah: word-analysis counts orthographic words where QAC counts morphological words. Word-level joins between word_analysis topics and QAC morphology are UNRELIABLE here. Upstream defect in quran-data's word-analysis; deliberately not auto-repaired (renumbering would fabricate identities)."
+          "note": "Legacy analysis and QAC numbers are separate source namespaces. Use accepted word_morpheme_spans for actual many-to-many joins. The legacy numbering observation is preserved, not used for alignment."
         },
         "qac_morphemes": {
           "present": true,
@@ -5054,27 +5039,26 @@
         },
         "word_morpheme_spans": {
           "present": true,
-          "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s046/linguistic/morphemes.tsv",
-          "alignment_version": "ordered-morpheme-spans-v2",
+          "alignment_version": "qac-analysis-bridge-v1",
+          "source_namespace": "word-analysis",
+          "target_namespace": "qac-morpheme",
+          "bridge": {
+            "source": "quran-data/data/bridges/qac-masaq.sqlite.gz",
+            "source_sha256": "a3dabe8200c3e172bfd1ea8eff1c051a250ab65eb7bd4dc0cb5144c9117d7a2a",
+            "schema_version": "qac-masaq-bridge-v1",
+            "sqlite_user_version": 4,
+            "release_id": "2026.09.02",
+            "release_manifest_sha256": "10c30bf9e36c8efcf14ee1cc1d9005024d2eaf97190135ad25b8ef314ebe28b6",
+            "qac_source_sha256": "706a45d150251ca3114a13499e2b665fe5596b03b2272557574f0ed58eb29594",
+            "word_analysis_tree_sha256": "95529b40cf4cbcdd88e855ef8418eb465820507b1fd3497094fa5075ecbb7f7e"
+          },
+          "linguistic_source_ref": "46:5",
           "words_total": 20,
           "words_resolved": 20,
           "words_unresolved": 0,
-          "morpheme_skip_total": 0,
-          "morpheme_skip_max": 0,
-          "morpheme_skip_histogram": {
-            "0": 20
-          },
           "unresolved": [],
-          "morphemes_tsv": {
-            "present": true,
-            "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s046/linguistic/morphemes.tsv",
-            "ayah_count": 34,
-            "row_count": 1042,
-            "malformed_rows": 0,
-            "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
-            "dropped_preface_rows": 7
-          },
-          "note": "Ordered surface alignment within canonical QAC words; only spans shared by all best alignments are joined. Upstream word-analysis identities and wording are preserved. Unresolved analytic units remain available for qualified reading; never infer their QAC identity from upstream numbering."
+          "shared_morphemes": [],
+          "note": "Accepted bridge links preserve independent analysis identities. Several analysis entries may share canonical morphemes. Read their distinct semantic claims; shared morphology alone is not duplication. Legacy aligned_qac_word_ref values are source observations, not QAC joins. Excluded source entries remain available with their explicit qualification."
         },
         "word_analysis_qac_alignment": {
           "consistent": false,
@@ -5086,7 +5070,7 @@
               "46:5:20"
             ]
           },
-          "note": "aligned_qac_word_ref does NOT resolve against qac_morphemes for this ayah: word-analysis counts orthographic words where QAC counts morphological words. Word-level joins between word_analysis topics and QAC morphology are UNRELIABLE here. Upstream defect in quran-data's word-analysis; deliberately not auto-repaired (renumbering would fabricate identities)."
+          "note": "Legacy analysis and QAC numbers are separate source namespaces. Use accepted word_morpheme_spans for actual many-to-many joins. The legacy numbering observation is preserved, not used for alignment."
         },
         "qac_morphemes": {
           "present": true,
@@ -6098,27 +6082,26 @@
         },
         "word_morpheme_spans": {
           "present": true,
-          "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s046/linguistic/morphemes.tsv",
-          "alignment_version": "ordered-morpheme-spans-v2",
+          "alignment_version": "qac-analysis-bridge-v1",
+          "source_namespace": "word-analysis",
+          "target_namespace": "qac-morpheme",
+          "bridge": {
+            "source": "quran-data/data/bridges/qac-masaq.sqlite.gz",
+            "source_sha256": "a3dabe8200c3e172bfd1ea8eff1c051a250ab65eb7bd4dc0cb5144c9117d7a2a",
+            "schema_version": "qac-masaq-bridge-v1",
+            "sqlite_user_version": 4,
+            "release_id": "2026.09.02",
+            "release_manifest_sha256": "10c30bf9e36c8efcf14ee1cc1d9005024d2eaf97190135ad25b8ef314ebe28b6",
+            "qac_source_sha256": "706a45d150251ca3114a13499e2b665fe5596b03b2272557574f0ed58eb29594",
+            "word_analysis_tree_sha256": "95529b40cf4cbcdd88e855ef8418eb465820507b1fd3497094fa5075ecbb7f7e"
+          },
+          "linguistic_source_ref": "46:6",
           "words_total": 13,
           "words_resolved": 13,
           "words_unresolved": 0,
-          "morpheme_skip_total": 0,
-          "morpheme_skip_max": 0,
-          "morpheme_skip_histogram": {
-            "0": 13
-          },
           "unresolved": [],
-          "morphemes_tsv": {
-            "present": true,
-            "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s046/linguistic/morphemes.tsv",
-            "ayah_count": 34,
-            "row_count": 1042,
-            "malformed_rows": 0,
-            "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
-            "dropped_preface_rows": 7
-          },
-          "note": "Ordered surface alignment within canonical QAC words; only spans shared by all best alignments are joined. Upstream word-analysis identities and wording are preserved. Unresolved analytic units remain available for qualified reading; never infer their QAC identity from upstream numbering."
+          "shared_morphemes": [],
+          "note": "Accepted bridge links preserve independent analysis identities. Several analysis entries may share canonical morphemes. Read their distinct semantic claims; shared morphology alone is not duplication. Legacy aligned_qac_word_ref values are source observations, not QAC joins. Excluded source entries remain available with their explicit qualification."
         },
         "word_analysis_qac_alignment": {
           "consistent": false,
@@ -6132,7 +6115,7 @@
               "46:6:13"
             ]
           },
-          "note": "aligned_qac_word_ref does NOT resolve against qac_morphemes for this ayah: word-analysis counts orthographic words where QAC counts morphological words. Word-level joins between word_analysis topics and QAC morphology are UNRELIABLE here. Upstream defect in quran-data's word-analysis; deliberately not auto-repaired (renumbering would fabricate identities)."
+          "note": "Legacy analysis and QAC numbers are separate source namespaces. Use accepted word_morpheme_spans for actual many-to-many joins. The legacy numbering observation is preserved, not used for alignment."
         },
         "qac_morphemes": {
           "present": true,
@@ -6942,27 +6925,26 @@
         },
         "word_morpheme_spans": {
           "present": true,
-          "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s046/linguistic/morphemes.tsv",
-          "alignment_version": "ordered-morpheme-spans-v2",
+          "alignment_version": "qac-analysis-bridge-v1",
+          "source_namespace": "word-analysis",
+          "target_namespace": "qac-morpheme",
+          "bridge": {
+            "source": "quran-data/data/bridges/qac-masaq.sqlite.gz",
+            "source_sha256": "a3dabe8200c3e172bfd1ea8eff1c051a250ab65eb7bd4dc0cb5144c9117d7a2a",
+            "schema_version": "qac-masaq-bridge-v1",
+            "sqlite_user_version": 4,
+            "release_id": "2026.09.02",
+            "release_manifest_sha256": "10c30bf9e36c8efcf14ee1cc1d9005024d2eaf97190135ad25b8ef314ebe28b6",
+            "qac_source_sha256": "706a45d150251ca3114a13499e2b665fe5596b03b2272557574f0ed58eb29594",
+            "word_analysis_tree_sha256": "95529b40cf4cbcdd88e855ef8418eb465820507b1fd3497094fa5075ecbb7f7e"
+          },
+          "linguistic_source_ref": "46:7",
           "words_total": 16,
           "words_resolved": 16,
           "words_unresolved": 0,
-          "morpheme_skip_total": 0,
-          "morpheme_skip_max": 0,
-          "morpheme_skip_histogram": {
-            "0": 16
-          },
           "unresolved": [],
-          "morphemes_tsv": {
-            "present": true,
-            "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s046/linguistic/morphemes.tsv",
-            "ayah_count": 34,
-            "row_count": 1042,
-            "malformed_rows": 0,
-            "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
-            "dropped_preface_rows": 7
-          },
-          "note": "Ordered surface alignment within canonical QAC words; only spans shared by all best alignments are joined. Upstream word-analysis identities and wording are preserved. Unresolved analytic units remain available for qualified reading; never infer their QAC identity from upstream numbering."
+          "shared_morphemes": [],
+          "note": "Accepted bridge links preserve independent analysis identities. Several analysis entries may share canonical morphemes. Read their distinct semantic claims; shared morphology alone is not duplication. Legacy aligned_qac_word_ref values are source observations, not QAC joins. Excluded source entries remain available with their explicit qualification."
         },
         "word_analysis_qac_alignment": {
           "consistent": false,
@@ -6974,7 +6956,7 @@
               "46:7:16"
             ]
           },
-          "note": "aligned_qac_word_ref does NOT resolve against qac_morphemes for this ayah: word-analysis counts orthographic words where QAC counts morphological words. Word-level joins between word_analysis topics and QAC morphology are UNRELIABLE here. Upstream defect in quran-data's word-analysis; deliberately not auto-repaired (renumbering would fabricate identities)."
+          "note": "Legacy analysis and QAC numbers are separate source namespaces. Use accepted word_morpheme_spans for actual many-to-many joins. The legacy numbering observation is preserved, not used for alignment."
         },
         "qac_morphemes": {
           "present": true,
@@ -8015,27 +7997,26 @@
         },
         "word_morpheme_spans": {
           "present": true,
-          "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s046/linguistic/morphemes.tsv",
-          "alignment_version": "ordered-morpheme-spans-v2",
+          "alignment_version": "qac-analysis-bridge-v1",
+          "source_namespace": "word-analysis",
+          "target_namespace": "qac-morpheme",
+          "bridge": {
+            "source": "quran-data/data/bridges/qac-masaq.sqlite.gz",
+            "source_sha256": "a3dabe8200c3e172bfd1ea8eff1c051a250ab65eb7bd4dc0cb5144c9117d7a2a",
+            "schema_version": "qac-masaq-bridge-v1",
+            "sqlite_user_version": 4,
+            "release_id": "2026.09.02",
+            "release_manifest_sha256": "10c30bf9e36c8efcf14ee1cc1d9005024d2eaf97190135ad25b8ef314ebe28b6",
+            "qac_source_sha256": "706a45d150251ca3114a13499e2b665fe5596b03b2272557574f0ed58eb29594",
+            "word_analysis_tree_sha256": "95529b40cf4cbcdd88e855ef8418eb465820507b1fd3497094fa5075ecbb7f7e"
+          },
+          "linguistic_source_ref": "46:8",
           "words_total": 29,
           "words_resolved": 29,
           "words_unresolved": 0,
-          "morpheme_skip_total": 0,
-          "morpheme_skip_max": 0,
-          "morpheme_skip_histogram": {
-            "0": 29
-          },
           "unresolved": [],
-          "morphemes_tsv": {
-            "present": true,
-            "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s046/linguistic/morphemes.tsv",
-            "ayah_count": 34,
-            "row_count": 1042,
-            "malformed_rows": 0,
-            "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
-            "dropped_preface_rows": 7
-          },
-          "note": "Ordered surface alignment within canonical QAC words; only spans shared by all best alignments are joined. Upstream word-analysis identities and wording are preserved. Unresolved analytic units remain available for qualified reading; never infer their QAC identity from upstream numbering."
+          "shared_morphemes": [],
+          "note": "Accepted bridge links preserve independent analysis identities. Several analysis entries may share canonical morphemes. Read their distinct semantic claims; shared morphology alone is not duplication. Legacy aligned_qac_word_ref values are source observations, not QAC joins. Excluded source entries remain available with their explicit qualification."
         },
         "word_analysis_qac_alignment": {
           "consistent": false,
@@ -8049,7 +8030,7 @@
               "46:8:29"
             ]
           },
-          "note": "aligned_qac_word_ref does NOT resolve against qac_morphemes for this ayah: word-analysis counts orthographic words where QAC counts morphological words. Word-level joins between word_analysis topics and QAC morphology are UNRELIABLE here. Upstream defect in quran-data's word-analysis; deliberately not auto-repaired (renumbering would fabricate identities)."
+          "note": "Legacy analysis and QAC numbers are separate source namespaces. Use accepted word_morpheme_spans for actual many-to-many joins. The legacy numbering observation is preserved, not used for alignment."
         },
         "qac_morphemes": {
           "present": true,
@@ -9317,27 +9298,26 @@
         },
         "word_morpheme_spans": {
           "present": true,
-          "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s046/linguistic/morphemes.tsv",
-          "alignment_version": "ordered-morpheme-spans-v2",
+          "alignment_version": "qac-analysis-bridge-v1",
+          "source_namespace": "word-analysis",
+          "target_namespace": "qac-morpheme",
+          "bridge": {
+            "source": "quran-data/data/bridges/qac-masaq.sqlite.gz",
+            "source_sha256": "a3dabe8200c3e172bfd1ea8eff1c051a250ab65eb7bd4dc0cb5144c9117d7a2a",
+            "schema_version": "qac-masaq-bridge-v1",
+            "sqlite_user_version": 4,
+            "release_id": "2026.09.02",
+            "release_manifest_sha256": "10c30bf9e36c8efcf14ee1cc1d9005024d2eaf97190135ad25b8ef314ebe28b6",
+            "qac_source_sha256": "706a45d150251ca3114a13499e2b665fe5596b03b2272557574f0ed58eb29594",
+            "word_analysis_tree_sha256": "95529b40cf4cbcdd88e855ef8418eb465820507b1fd3497094fa5075ecbb7f7e"
+          },
+          "linguistic_source_ref": "46:9",
           "words_total": 28,
           "words_resolved": 28,
           "words_unresolved": 0,
-          "morpheme_skip_total": 0,
-          "morpheme_skip_max": 0,
-          "morpheme_skip_histogram": {
-            "0": 28
-          },
           "unresolved": [],
-          "morphemes_tsv": {
-            "present": true,
-            "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s046/linguistic/morphemes.tsv",
-            "ayah_count": 34,
-            "row_count": 1042,
-            "malformed_rows": 0,
-            "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
-            "dropped_preface_rows": 7
-          },
-          "note": "Ordered surface alignment within canonical QAC words; only spans shared by all best alignments are joined. Upstream word-analysis identities and wording are preserved. Unresolved analytic units remain available for qualified reading; never infer their QAC identity from upstream numbering."
+          "shared_morphemes": [],
+          "note": "Accepted bridge links preserve independent analysis identities. Several analysis entries may share canonical morphemes. Read their distinct semantic claims; shared morphology alone is not duplication. Legacy aligned_qac_word_ref values are source observations, not QAC joins. Excluded source entries remain available with their explicit qualification."
         },
         "word_analysis_qac_alignment": {
           "consistent": false,
@@ -9351,7 +9331,7 @@
               "46:9:28"
             ]
           },
-          "note": "aligned_qac_word_ref does NOT resolve against qac_morphemes for this ayah: word-analysis counts orthographic words where QAC counts morphological words. Word-level joins between word_analysis topics and QAC morphology are UNRELIABLE here. Upstream defect in quran-data's word-analysis; deliberately not auto-repaired (renumbering would fabricate identities)."
+          "note": "Legacy analysis and QAC numbers are separate source namespaces. Use accepted word_morpheme_spans for actual many-to-many joins. The legacy numbering observation is preserved, not used for alignment."
         },
         "qac_morphemes": {
           "present": true,
@@ -10483,28 +10463,26 @@
         },
         "word_morpheme_spans": {
           "present": true,
-          "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s046/linguistic/morphemes.tsv",
-          "alignment_version": "ordered-morpheme-spans-v2",
+          "alignment_version": "qac-analysis-bridge-v1",
+          "source_namespace": "word-analysis",
+          "target_namespace": "qac-morpheme",
+          "bridge": {
+            "source": "quran-data/data/bridges/qac-masaq.sqlite.gz",
+            "source_sha256": "a3dabe8200c3e172bfd1ea8eff1c051a250ab65eb7bd4dc0cb5144c9117d7a2a",
+            "schema_version": "qac-masaq-bridge-v1",
+            "sqlite_user_version": 4,
+            "release_id": "2026.09.02",
+            "release_manifest_sha256": "10c30bf9e36c8efcf14ee1cc1d9005024d2eaf97190135ad25b8ef314ebe28b6",
+            "qac_source_sha256": "706a45d150251ca3114a13499e2b665fe5596b03b2272557574f0ed58eb29594",
+            "word_analysis_tree_sha256": "95529b40cf4cbcdd88e855ef8418eb465820507b1fd3497094fa5075ecbb7f7e"
+          },
+          "linguistic_source_ref": "46:10",
           "words_total": 28,
           "words_resolved": 28,
           "words_unresolved": 0,
-          "morpheme_skip_total": 1,
-          "morpheme_skip_max": 1,
-          "morpheme_skip_histogram": {
-            "0": 27,
-            "1": 1
-          },
           "unresolved": [],
-          "morphemes_tsv": {
-            "present": true,
-            "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s046/linguistic/morphemes.tsv",
-            "ayah_count": 34,
-            "row_count": 1042,
-            "malformed_rows": 0,
-            "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
-            "dropped_preface_rows": 7
-          },
-          "note": "Ordered surface alignment within canonical QAC words; only spans shared by all best alignments are joined. Upstream word-analysis identities and wording are preserved. Unresolved analytic units remain available for qualified reading; never infer their QAC identity from upstream numbering."
+          "shared_morphemes": [],
+          "note": "Accepted bridge links preserve independent analysis identities. Several analysis entries may share canonical morphemes. Read their distinct semantic claims; shared morphology alone is not duplication. Legacy aligned_qac_word_ref values are source observations, not QAC joins. Excluded source entries remain available with their explicit qualification."
         },
         "word_analysis_qac_alignment": {
           "consistent": false,
@@ -10518,7 +10496,7 @@
               "46:10:28"
             ]
           },
-          "note": "aligned_qac_word_ref does NOT resolve against qac_morphemes for this ayah: word-analysis counts orthographic words where QAC counts morphological words. Word-level joins between word_analysis topics and QAC morphology are UNRELIABLE here. Upstream defect in quran-data's word-analysis; deliberately not auto-repaired (renumbering would fabricate identities)."
+          "note": "Legacy analysis and QAC numbers are separate source namespaces. Use accepted word_morpheme_spans for actual many-to-many joins. The legacy numbering observation is preserved, not used for alignment."
         },
         "qac_morphemes": {
           "present": true,
@@ -11887,27 +11865,26 @@
         },
         "word_morpheme_spans": {
           "present": true,
-          "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s046/linguistic/morphemes.tsv",
-          "alignment_version": "ordered-morpheme-spans-v2",
+          "alignment_version": "qac-analysis-bridge-v1",
+          "source_namespace": "word-analysis",
+          "target_namespace": "qac-morpheme",
+          "bridge": {
+            "source": "quran-data/data/bridges/qac-masaq.sqlite.gz",
+            "source_sha256": "a3dabe8200c3e172bfd1ea8eff1c051a250ab65eb7bd4dc0cb5144c9117d7a2a",
+            "schema_version": "qac-masaq-bridge-v1",
+            "sqlite_user_version": 4,
+            "release_id": "2026.09.02",
+            "release_manifest_sha256": "10c30bf9e36c8efcf14ee1cc1d9005024d2eaf97190135ad25b8ef314ebe28b6",
+            "qac_source_sha256": "706a45d150251ca3114a13499e2b665fe5596b03b2272557574f0ed58eb29594",
+            "word_analysis_tree_sha256": "95529b40cf4cbcdd88e855ef8418eb465820507b1fd3497094fa5075ecbb7f7e"
+          },
+          "linguistic_source_ref": "46:11",
           "words_total": 23,
           "words_resolved": 23,
           "words_unresolved": 0,
-          "morpheme_skip_total": 0,
-          "morpheme_skip_max": 0,
-          "morpheme_skip_histogram": {
-            "0": 23
-          },
           "unresolved": [],
-          "morphemes_tsv": {
-            "present": true,
-            "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s046/linguistic/morphemes.tsv",
-            "ayah_count": 34,
-            "row_count": 1042,
-            "malformed_rows": 0,
-            "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
-            "dropped_preface_rows": 7
-          },
-          "note": "Ordered surface alignment within canonical QAC words; only spans shared by all best alignments are joined. Upstream word-analysis identities and wording are preserved. Unresolved analytic units remain available for qualified reading; never infer their QAC identity from upstream numbering."
+          "shared_morphemes": [],
+          "note": "Accepted bridge links preserve independent analysis identities. Several analysis entries may share canonical morphemes. Read their distinct semantic claims; shared morphology alone is not duplication. Legacy aligned_qac_word_ref values are source observations, not QAC joins. Excluded source entries remain available with their explicit qualification."
         },
         "word_analysis_qac_alignment": {
           "consistent": false,
@@ -11921,7 +11898,7 @@
               "46:11:23"
             ]
           },
-          "note": "aligned_qac_word_ref does NOT resolve against qac_morphemes for this ayah: word-analysis counts orthographic words where QAC counts morphological words. Word-level joins between word_analysis topics and QAC morphology are UNRELIABLE here. Upstream defect in quran-data's word-analysis; deliberately not auto-repaired (renumbering would fabricate identities)."
+          "note": "Legacy analysis and QAC numbers are separate source namespaces. Use accepted word_morpheme_spans for actual many-to-many joins. The legacy numbering observation is preserved, not used for alignment."
         },
         "qac_morphemes": {
           "present": true,
@@ -12971,27 +12948,26 @@
         },
         "word_morpheme_spans": {
           "present": true,
-          "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s046/linguistic/morphemes.tsv",
-          "alignment_version": "ordered-morpheme-spans-v2",
+          "alignment_version": "qac-analysis-bridge-v1",
+          "source_namespace": "word-analysis",
+          "target_namespace": "qac-morpheme",
+          "bridge": {
+            "source": "quran-data/data/bridges/qac-masaq.sqlite.gz",
+            "source_sha256": "a3dabe8200c3e172bfd1ea8eff1c051a250ab65eb7bd4dc0cb5144c9117d7a2a",
+            "schema_version": "qac-masaq-bridge-v1",
+            "sqlite_user_version": 4,
+            "release_id": "2026.09.02",
+            "release_manifest_sha256": "10c30bf9e36c8efcf14ee1cc1d9005024d2eaf97190135ad25b8ef314ebe28b6",
+            "qac_source_sha256": "706a45d150251ca3114a13499e2b665fe5596b03b2272557574f0ed58eb29594",
+            "word_analysis_tree_sha256": "95529b40cf4cbcdd88e855ef8418eb465820507b1fd3497094fa5075ecbb7f7e"
+          },
+          "linguistic_source_ref": "46:12",
           "words_total": 22,
           "words_resolved": 22,
           "words_unresolved": 0,
-          "morpheme_skip_total": 0,
-          "morpheme_skip_max": 0,
-          "morpheme_skip_histogram": {
-            "0": 22
-          },
           "unresolved": [],
-          "morphemes_tsv": {
-            "present": true,
-            "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s046/linguistic/morphemes.tsv",
-            "ayah_count": 34,
-            "row_count": 1042,
-            "malformed_rows": 0,
-            "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
-            "dropped_preface_rows": 7
-          },
-          "note": "Ordered surface alignment within canonical QAC words; only spans shared by all best alignments are joined. Upstream word-analysis identities and wording are preserved. Unresolved analytic units remain available for qualified reading; never infer their QAC identity from upstream numbering."
+          "shared_morphemes": [],
+          "note": "Accepted bridge links preserve independent analysis identities. Several analysis entries may share canonical morphemes. Read their distinct semantic claims; shared morphology alone is not duplication. Legacy aligned_qac_word_ref values are source observations, not QAC joins. Excluded source entries remain available with their explicit qualification."
         },
         "word_analysis_qac_alignment": {
           "consistent": false,
@@ -13007,7 +12983,7 @@
               "46:12:22"
             ]
           },
-          "note": "aligned_qac_word_ref does NOT resolve against qac_morphemes for this ayah: word-analysis counts orthographic words where QAC counts morphological words. Word-level joins between word_analysis topics and QAC morphology are UNRELIABLE here. Upstream defect in quran-data's word-analysis; deliberately not auto-repaired (renumbering would fabricate identities)."
+          "note": "Legacy analysis and QAC numbers are separate source namespaces. Use accepted word_morpheme_spans for actual many-to-many joins. The legacy numbering observation is preserved, not used for alignment."
         },
         "qac_morphemes": {
           "present": true,
@@ -14131,27 +14107,26 @@
         },
         "word_morpheme_spans": {
           "present": true,
-          "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s046/linguistic/morphemes.tsv",
-          "alignment_version": "ordered-morpheme-spans-v2",
+          "alignment_version": "qac-analysis-bridge-v1",
+          "source_namespace": "word-analysis",
+          "target_namespace": "qac-morpheme",
+          "bridge": {
+            "source": "quran-data/data/bridges/qac-masaq.sqlite.gz",
+            "source_sha256": "a3dabe8200c3e172bfd1ea8eff1c051a250ab65eb7bd4dc0cb5144c9117d7a2a",
+            "schema_version": "qac-masaq-bridge-v1",
+            "sqlite_user_version": 4,
+            "release_id": "2026.09.02",
+            "release_manifest_sha256": "10c30bf9e36c8efcf14ee1cc1d9005024d2eaf97190135ad25b8ef314ebe28b6",
+            "qac_source_sha256": "706a45d150251ca3114a13499e2b665fe5596b03b2272557574f0ed58eb29594",
+            "word_analysis_tree_sha256": "95529b40cf4cbcdd88e855ef8418eb465820507b1fd3497094fa5075ecbb7f7e"
+          },
+          "linguistic_source_ref": "46:13",
           "words_total": 15,
           "words_resolved": 15,
           "words_unresolved": 0,
-          "morpheme_skip_total": 0,
-          "morpheme_skip_max": 0,
-          "morpheme_skip_histogram": {
-            "0": 15
-          },
           "unresolved": [],
-          "morphemes_tsv": {
-            "present": true,
-            "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s046/linguistic/morphemes.tsv",
-            "ayah_count": 34,
-            "row_count": 1042,
-            "malformed_rows": 0,
-            "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
-            "dropped_preface_rows": 7
-          },
-          "note": "Ordered surface alignment within canonical QAC words; only spans shared by all best alignments are joined. Upstream word-analysis identities and wording are preserved. Unresolved analytic units remain available for qualified reading; never infer their QAC identity from upstream numbering."
+          "shared_morphemes": [],
+          "note": "Accepted bridge links preserve independent analysis identities. Several analysis entries may share canonical morphemes. Read their distinct semantic claims; shared morphology alone is not duplication. Legacy aligned_qac_word_ref values are source observations, not QAC joins. Excluded source entries remain available with their explicit qualification."
         },
         "word_analysis_qac_alignment": {
           "consistent": false,
@@ -14163,7 +14138,7 @@
               "46:13:15"
             ]
           },
-          "note": "aligned_qac_word_ref does NOT resolve against qac_morphemes for this ayah: word-analysis counts orthographic words where QAC counts morphological words. Word-level joins between word_analysis topics and QAC morphology are UNRELIABLE here. Upstream defect in quran-data's word-analysis; deliberately not auto-repaired (renumbering would fabricate identities)."
+          "note": "Legacy analysis and QAC numbers are separate source namespaces. Use accepted word_morpheme_spans for actual many-to-many joins. The legacy numbering observation is preserved, not used for alignment."
         },
         "qac_morphemes": {
           "present": true,
@@ -15033,27 +15008,26 @@
         },
         "word_morpheme_spans": {
           "present": true,
-          "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s046/linguistic/morphemes.tsv",
-          "alignment_version": "ordered-morpheme-spans-v2",
+          "alignment_version": "qac-analysis-bridge-v1",
+          "source_namespace": "word-analysis",
+          "target_namespace": "qac-morpheme",
+          "bridge": {
+            "source": "quran-data/data/bridges/qac-masaq.sqlite.gz",
+            "source_sha256": "a3dabe8200c3e172bfd1ea8eff1c051a250ab65eb7bd4dc0cb5144c9117d7a2a",
+            "schema_version": "qac-masaq-bridge-v1",
+            "sqlite_user_version": 4,
+            "release_id": "2026.09.02",
+            "release_manifest_sha256": "10c30bf9e36c8efcf14ee1cc1d9005024d2eaf97190135ad25b8ef314ebe28b6",
+            "qac_source_sha256": "706a45d150251ca3114a13499e2b665fe5596b03b2272557574f0ed58eb29594",
+            "word_analysis_tree_sha256": "95529b40cf4cbcdd88e855ef8418eb465820507b1fd3497094fa5075ecbb7f7e"
+          },
+          "linguistic_source_ref": "46:14",
           "words_total": 10,
           "words_resolved": 10,
           "words_unresolved": 0,
-          "morpheme_skip_total": 0,
-          "morpheme_skip_max": 0,
-          "morpheme_skip_histogram": {
-            "0": 10
-          },
           "unresolved": [],
-          "morphemes_tsv": {
-            "present": true,
-            "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s046/linguistic/morphemes.tsv",
-            "ayah_count": 34,
-            "row_count": 1042,
-            "malformed_rows": 0,
-            "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
-            "dropped_preface_rows": 7
-          },
-          "note": "Ordered surface alignment within canonical QAC words; only spans shared by all best alignments are joined. Upstream word-analysis identities and wording are preserved. Unresolved analytic units remain available for qualified reading; never infer their QAC identity from upstream numbering."
+          "shared_morphemes": [],
+          "note": "Accepted bridge links preserve independent analysis identities. Several analysis entries may share canonical morphemes. Read their distinct semantic claims; shared morphology alone is not duplication. Legacy aligned_qac_word_ref values are source observations, not QAC joins. Excluded source entries remain available with their explicit qualification."
         },
         "word_analysis_qac_alignment": {
           "consistent": false,
@@ -15064,7 +15038,7 @@
               "46:14:10"
             ]
           },
-          "note": "aligned_qac_word_ref does NOT resolve against qac_morphemes for this ayah: word-analysis counts orthographic words where QAC counts morphological words. Word-level joins between word_analysis topics and QAC morphology are UNRELIABLE here. Upstream defect in quran-data's word-analysis; deliberately not auto-repaired (renumbering would fabricate identities)."
+          "note": "Legacy analysis and QAC numbers are separate source namespaces. Use accepted word_morpheme_spans for actual many-to-many joins. The legacy numbering observation is preserved, not used for alignment."
         },
         "qac_morphemes": {
           "present": true,
@@ -15843,27 +15817,26 @@
         },
         "word_morpheme_spans": {
           "present": true,
-          "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s046/linguistic/morphemes.tsv",
-          "alignment_version": "ordered-morpheme-spans-v2",
+          "alignment_version": "qac-analysis-bridge-v1",
+          "source_namespace": "word-analysis",
+          "target_namespace": "qac-morpheme",
+          "bridge": {
+            "source": "quran-data/data/bridges/qac-masaq.sqlite.gz",
+            "source_sha256": "a3dabe8200c3e172bfd1ea8eff1c051a250ab65eb7bd4dc0cb5144c9117d7a2a",
+            "schema_version": "qac-masaq-bridge-v1",
+            "sqlite_user_version": 4,
+            "release_id": "2026.09.02",
+            "release_manifest_sha256": "10c30bf9e36c8efcf14ee1cc1d9005024d2eaf97190135ad25b8ef314ebe28b6",
+            "qac_source_sha256": "706a45d150251ca3114a13499e2b665fe5596b03b2272557574f0ed58eb29594",
+            "word_analysis_tree_sha256": "95529b40cf4cbcdd88e855ef8418eb465820507b1fd3497094fa5075ecbb7f7e"
+          },
+          "linguistic_source_ref": "46:15",
           "words_total": 55,
           "words_resolved": 55,
           "words_unresolved": 0,
-          "morpheme_skip_total": 0,
-          "morpheme_skip_max": 0,
-          "morpheme_skip_histogram": {
-            "0": 55
-          },
           "unresolved": [],
-          "morphemes_tsv": {
-            "present": true,
-            "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s046/linguistic/morphemes.tsv",
-            "ayah_count": 34,
-            "row_count": 1042,
-            "malformed_rows": 0,
-            "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
-            "dropped_preface_rows": 7
-          },
-          "note": "Ordered surface alignment within canonical QAC words; only spans shared by all best alignments are joined. Upstream word-analysis identities and wording are preserved. Unresolved analytic units remain available for qualified reading; never infer their QAC identity from upstream numbering."
+          "shared_morphemes": [],
+          "note": "Accepted bridge links preserve independent analysis identities. Several analysis entries may share canonical morphemes. Read their distinct semantic claims; shared morphology alone is not duplication. Legacy aligned_qac_word_ref values are source observations, not QAC joins. Excluded source entries remain available with their explicit qualification."
         },
         "word_analysis_qac_alignment": {
           "consistent": false,
@@ -15883,7 +15856,7 @@
               "46:15:55"
             ]
           },
-          "note": "aligned_qac_word_ref does NOT resolve against qac_morphemes for this ayah: word-analysis counts orthographic words where QAC counts morphological words. Word-level joins between word_analysis topics and QAC morphology are UNRELIABLE here. Upstream defect in quran-data's word-analysis; deliberately not auto-repaired (renumbering would fabricate identities)."
+          "note": "Legacy analysis and QAC numbers are separate source namespaces. Use accepted word_morpheme_spans for actual many-to-many joins. The legacy numbering observation is preserved, not used for alignment."
         },
         "qac_morphemes": {
           "present": true,
@@ -18047,27 +18020,26 @@
         },
         "word_morpheme_spans": {
           "present": true,
-          "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s046/linguistic/morphemes.tsv",
-          "alignment_version": "ordered-morpheme-spans-v2",
+          "alignment_version": "qac-analysis-bridge-v1",
+          "source_namespace": "word-analysis",
+          "target_namespace": "qac-morpheme",
+          "bridge": {
+            "source": "quran-data/data/bridges/qac-masaq.sqlite.gz",
+            "source_sha256": "a3dabe8200c3e172bfd1ea8eff1c051a250ab65eb7bd4dc0cb5144c9117d7a2a",
+            "schema_version": "qac-masaq-bridge-v1",
+            "sqlite_user_version": 4,
+            "release_id": "2026.09.02",
+            "release_manifest_sha256": "10c30bf9e36c8efcf14ee1cc1d9005024d2eaf97190135ad25b8ef314ebe28b6",
+            "qac_source_sha256": "706a45d150251ca3114a13499e2b665fe5596b03b2272557574f0ed58eb29594",
+            "word_analysis_tree_sha256": "95529b40cf4cbcdd88e855ef8418eb465820507b1fd3497094fa5075ecbb7f7e"
+          },
+          "linguistic_source_ref": "46:16",
           "words_total": 19,
           "words_resolved": 19,
           "words_unresolved": 0,
-          "morpheme_skip_total": 0,
-          "morpheme_skip_max": 0,
-          "morpheme_skip_histogram": {
-            "0": 19
-          },
           "unresolved": [],
-          "morphemes_tsv": {
-            "present": true,
-            "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s046/linguistic/morphemes.tsv",
-            "ayah_count": 34,
-            "row_count": 1042,
-            "malformed_rows": 0,
-            "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
-            "dropped_preface_rows": 7
-          },
-          "note": "Ordered surface alignment within canonical QAC words; only spans shared by all best alignments are joined. Upstream word-analysis identities and wording are preserved. Unresolved analytic units remain available for qualified reading; never infer their QAC identity from upstream numbering."
+          "shared_morphemes": [],
+          "note": "Accepted bridge links preserve independent analysis identities. Several analysis entries may share canonical morphemes. Read their distinct semantic claims; shared morphology alone is not duplication. Legacy aligned_qac_word_ref values are source observations, not QAC joins. Excluded source entries remain available with their explicit qualification."
         },
         "word_analysis_qac_alignment": {
           "consistent": false,
@@ -18078,7 +18050,7 @@
               "46:16:19"
             ]
           },
-          "note": "aligned_qac_word_ref does NOT resolve against qac_morphemes for this ayah: word-analysis counts orthographic words where QAC counts morphological words. Word-level joins between word_analysis topics and QAC morphology are UNRELIABLE here. Upstream defect in quran-data's word-analysis; deliberately not auto-repaired (renumbering would fabricate identities)."
+          "note": "Legacy analysis and QAC numbers are separate source namespaces. Use accepted word_morpheme_spans for actual many-to-many joins. The legacy numbering observation is preserved, not used for alignment."
         },
         "qac_morphemes": {
           "present": true,
@@ -19120,27 +19092,26 @@
         },
         "word_morpheme_spans": {
           "present": true,
-          "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s046/linguistic/morphemes.tsv",
-          "alignment_version": "ordered-morpheme-spans-v2",
+          "alignment_version": "qac-analysis-bridge-v1",
+          "source_namespace": "word-analysis",
+          "target_namespace": "qac-morpheme",
+          "bridge": {
+            "source": "quran-data/data/bridges/qac-masaq.sqlite.gz",
+            "source_sha256": "a3dabe8200c3e172bfd1ea8eff1c051a250ab65eb7bd4dc0cb5144c9117d7a2a",
+            "schema_version": "qac-masaq-bridge-v1",
+            "sqlite_user_version": 4,
+            "release_id": "2026.09.02",
+            "release_manifest_sha256": "10c30bf9e36c8efcf14ee1cc1d9005024d2eaf97190135ad25b8ef314ebe28b6",
+            "qac_source_sha256": "706a45d150251ca3114a13499e2b665fe5596b03b2272557574f0ed58eb29594",
+            "word_analysis_tree_sha256": "95529b40cf4cbcdd88e855ef8418eb465820507b1fd3497094fa5075ecbb7f7e"
+          },
+          "linguistic_source_ref": "46:17",
           "words_total": 33,
           "words_resolved": 33,
           "words_unresolved": 0,
-          "morpheme_skip_total": 0,
-          "morpheme_skip_max": 0,
-          "morpheme_skip_histogram": {
-            "0": 33
-          },
           "unresolved": [],
-          "morphemes_tsv": {
-            "present": true,
-            "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s046/linguistic/morphemes.tsv",
-            "ayah_count": 34,
-            "row_count": 1042,
-            "malformed_rows": 0,
-            "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
-            "dropped_preface_rows": 7
-          },
-          "note": "Ordered surface alignment within canonical QAC words; only spans shared by all best alignments are joined. Upstream word-analysis identities and wording are preserved. Unresolved analytic units remain available for qualified reading; never infer their QAC identity from upstream numbering."
+          "shared_morphemes": [],
+          "note": "Accepted bridge links preserve independent analysis identities. Several analysis entries may share canonical morphemes. Read their distinct semantic claims; shared morphology alone is not duplication. Legacy aligned_qac_word_ref values are source observations, not QAC joins. Excluded source entries remain available with their explicit qualification."
         },
         "word_analysis_qac_alignment": {
           "consistent": false,
@@ -19155,7 +19126,7 @@
               "46:17:33"
             ]
           },
-          "note": "aligned_qac_word_ref does NOT resolve against qac_morphemes for this ayah: word-analysis counts orthographic words where QAC counts morphological words. Word-level joins between word_analysis topics and QAC morphology are UNRELIABLE here. Upstream defect in quran-data's word-analysis; deliberately not auto-repaired (renumbering would fabricate identities)."
+          "note": "Legacy analysis and QAC numbers are separate source namespaces. Use accepted word_morpheme_spans for actual many-to-many joins. The legacy numbering observation is preserved, not used for alignment."
         },
         "qac_morphemes": {
           "present": true,
@@ -20540,28 +20511,26 @@
         },
         "word_morpheme_spans": {
           "present": true,
-          "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s046/linguistic/morphemes.tsv",
-          "alignment_version": "ordered-morpheme-spans-v2",
+          "alignment_version": "qac-analysis-bridge-v1",
+          "source_namespace": "word-analysis",
+          "target_namespace": "qac-morpheme",
+          "bridge": {
+            "source": "quran-data/data/bridges/qac-masaq.sqlite.gz",
+            "source_sha256": "a3dabe8200c3e172bfd1ea8eff1c051a250ab65eb7bd4dc0cb5144c9117d7a2a",
+            "schema_version": "qac-masaq-bridge-v1",
+            "sqlite_user_version": 4,
+            "release_id": "2026.09.02",
+            "release_manifest_sha256": "10c30bf9e36c8efcf14ee1cc1d9005024d2eaf97190135ad25b8ef314ebe28b6",
+            "qac_source_sha256": "706a45d150251ca3114a13499e2b665fe5596b03b2272557574f0ed58eb29594",
+            "word_analysis_tree_sha256": "95529b40cf4cbcdd88e855ef8418eb465820507b1fd3497094fa5075ecbb7f7e"
+          },
+          "linguistic_source_ref": "46:18",
           "words_total": 18,
           "words_resolved": 18,
           "words_unresolved": 0,
-          "morpheme_skip_total": 1,
-          "morpheme_skip_max": 1,
-          "morpheme_skip_histogram": {
-            "0": 17,
-            "1": 1
-          },
           "unresolved": [],
-          "morphemes_tsv": {
-            "present": true,
-            "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s046/linguistic/morphemes.tsv",
-            "ayah_count": 34,
-            "row_count": 1042,
-            "malformed_rows": 0,
-            "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
-            "dropped_preface_rows": 7
-          },
-          "note": "Ordered surface alignment within canonical QAC words; only spans shared by all best alignments are joined. Upstream word-analysis identities and wording are preserved. Unresolved analytic units remain available for qualified reading; never infer their QAC identity from upstream numbering."
+          "shared_morphemes": [],
+          "note": "Accepted bridge links preserve independent analysis identities. Several analysis entries may share canonical morphemes. Read their distinct semantic claims; shared morphology alone is not duplication. Legacy aligned_qac_word_ref values are source observations, not QAC joins. Excluded source entries remain available with their explicit qualification."
         },
         "word_analysis_qac_alignment": {
           "consistent": false,
@@ -20572,7 +20541,7 @@
               "46:18:18"
             ]
           },
-          "note": "aligned_qac_word_ref does NOT resolve against qac_morphemes for this ayah: word-analysis counts orthographic words where QAC counts morphological words. Word-level joins between word_analysis topics and QAC morphology are UNRELIABLE here. Upstream defect in quran-data's word-analysis; deliberately not auto-repaired (renumbering would fabricate identities)."
+          "note": "Legacy analysis and QAC numbers are separate source namespaces. Use accepted word_morpheme_spans for actual many-to-many joins. The legacy numbering observation is preserved, not used for alignment."
         },
         "qac_morphemes": {
           "present": true,
@@ -21527,27 +21496,26 @@
         },
         "word_morpheme_spans": {
           "present": true,
-          "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s046/linguistic/morphemes.tsv",
-          "alignment_version": "ordered-morpheme-spans-v2",
+          "alignment_version": "qac-analysis-bridge-v1",
+          "source_namespace": "word-analysis",
+          "target_namespace": "qac-morpheme",
+          "bridge": {
+            "source": "quran-data/data/bridges/qac-masaq.sqlite.gz",
+            "source_sha256": "a3dabe8200c3e172bfd1ea8eff1c051a250ab65eb7bd4dc0cb5144c9117d7a2a",
+            "schema_version": "qac-masaq-bridge-v1",
+            "sqlite_user_version": 4,
+            "release_id": "2026.09.02",
+            "release_manifest_sha256": "10c30bf9e36c8efcf14ee1cc1d9005024d2eaf97190135ad25b8ef314ebe28b6",
+            "qac_source_sha256": "706a45d150251ca3114a13499e2b665fe5596b03b2272557574f0ed58eb29594",
+            "word_analysis_tree_sha256": "95529b40cf4cbcdd88e855ef8418eb465820507b1fd3497094fa5075ecbb7f7e"
+          },
+          "linguistic_source_ref": "46:19",
           "words_total": 14,
           "words_resolved": 14,
           "words_unresolved": 0,
-          "morpheme_skip_total": 0,
-          "morpheme_skip_max": 0,
-          "morpheme_skip_histogram": {
-            "0": 14
-          },
           "unresolved": [],
-          "morphemes_tsv": {
-            "present": true,
-            "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s046/linguistic/morphemes.tsv",
-            "ayah_count": 34,
-            "row_count": 1042,
-            "malformed_rows": 0,
-            "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
-            "dropped_preface_rows": 7
-          },
-          "note": "Ordered surface alignment within canonical QAC words; only spans shared by all best alignments are joined. Upstream word-analysis identities and wording are preserved. Unresolved analytic units remain available for qualified reading; never infer their QAC identity from upstream numbering."
+          "shared_morphemes": [],
+          "note": "Accepted bridge links preserve independent analysis identities. Several analysis entries may share canonical morphemes. Read their distinct semantic claims; shared morphology alone is not duplication. Legacy aligned_qac_word_ref values are source observations, not QAC joins. Excluded source entries remain available with their explicit qualification."
         },
         "word_analysis_qac_alignment": {
           "consistent": false,
@@ -21562,7 +21530,7 @@
               "46:19:14"
             ]
           },
-          "note": "aligned_qac_word_ref does NOT resolve against qac_morphemes for this ayah: word-analysis counts orthographic words where QAC counts morphological words. Word-level joins between word_analysis topics and QAC morphology are UNRELIABLE here. Upstream defect in quran-data's word-analysis; deliberately not auto-repaired (renumbering would fabricate identities)."
+          "note": "Legacy analysis and QAC numbers are separate source namespaces. Use accepted word_morpheme_spans for actual many-to-many joins. The legacy numbering observation is preserved, not used for alignment."
         },
         "qac_morphemes": {
           "present": true,
@@ -22211,28 +22179,26 @@
         },
         "word_morpheme_spans": {
           "present": true,
-          "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s046/linguistic/morphemes.tsv",
-          "alignment_version": "ordered-morpheme-spans-v2",
+          "alignment_version": "qac-analysis-bridge-v1",
+          "source_namespace": "word-analysis",
+          "target_namespace": "qac-morpheme",
+          "bridge": {
+            "source": "quran-data/data/bridges/qac-masaq.sqlite.gz",
+            "source_sha256": "a3dabe8200c3e172bfd1ea8eff1c051a250ab65eb7bd4dc0cb5144c9117d7a2a",
+            "schema_version": "qac-masaq-bridge-v1",
+            "sqlite_user_version": 4,
+            "release_id": "2026.09.02",
+            "release_manifest_sha256": "10c30bf9e36c8efcf14ee1cc1d9005024d2eaf97190135ad25b8ef314ebe28b6",
+            "qac_source_sha256": "706a45d150251ca3114a13499e2b665fe5596b03b2272557574f0ed58eb29594",
+            "word_analysis_tree_sha256": "95529b40cf4cbcdd88e855ef8418eb465820507b1fd3497094fa5075ecbb7f7e"
+          },
+          "linguistic_source_ref": "46:20",
           "words_total": 34,
           "words_resolved": 34,
           "words_unresolved": 0,
-          "morpheme_skip_total": 1,
-          "morpheme_skip_max": 1,
-          "morpheme_skip_histogram": {
-            "0": 33,
-            "1": 1
-          },
           "unresolved": [],
-          "morphemes_tsv": {
-            "present": true,
-            "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s046/linguistic/morphemes.tsv",
-            "ayah_count": 34,
-            "row_count": 1042,
-            "malformed_rows": 0,
-            "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
-            "dropped_preface_rows": 7
-          },
-          "note": "Ordered surface alignment within canonical QAC words; only spans shared by all best alignments are joined. Upstream word-analysis identities and wording are preserved. Unresolved analytic units remain available for qualified reading; never infer their QAC identity from upstream numbering."
+          "shared_morphemes": [],
+          "note": "Accepted bridge links preserve independent analysis identities. Several analysis entries may share canonical morphemes. Read their distinct semantic claims; shared morphology alone is not duplication. Legacy aligned_qac_word_ref values are source observations, not QAC joins. Excluded source entries remain available with their explicit qualification."
         },
         "word_analysis_qac_alignment": {
           "consistent": false,
@@ -22249,7 +22215,7 @@
               "46:20:34"
             ]
           },
-          "note": "aligned_qac_word_ref does NOT resolve against qac_morphemes for this ayah: word-analysis counts orthographic words where QAC counts morphological words. Word-level joins between word_analysis topics and QAC morphology are UNRELIABLE here. Upstream defect in quran-data's word-analysis; deliberately not auto-repaired (renumbering would fabricate identities)."
+          "note": "Legacy analysis and QAC numbers are separate source namespaces. Use accepted word_morpheme_spans for actual many-to-many joins. The legacy numbering observation is preserved, not used for alignment."
         },
         "qac_morphemes": {
           "present": true,
@@ -23854,34 +23820,26 @@
         },
         "word_morpheme_spans": {
           "present": true,
-          "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s046/linguistic/morphemes.tsv",
-          "alignment_version": "ordered-morpheme-spans-v2",
+          "alignment_version": "qac-analysis-bridge-v1",
+          "source_namespace": "word-analysis",
+          "target_namespace": "qac-morpheme",
+          "bridge": {
+            "source": "quran-data/data/bridges/qac-masaq.sqlite.gz",
+            "source_sha256": "a3dabe8200c3e172bfd1ea8eff1c051a250ab65eb7bd4dc0cb5144c9117d7a2a",
+            "schema_version": "qac-masaq-bridge-v1",
+            "sqlite_user_version": 4,
+            "release_id": "2026.09.02",
+            "release_manifest_sha256": "10c30bf9e36c8efcf14ee1cc1d9005024d2eaf97190135ad25b8ef314ebe28b6",
+            "qac_source_sha256": "706a45d150251ca3114a13499e2b665fe5596b03b2272557574f0ed58eb29594",
+            "word_analysis_tree_sha256": "95529b40cf4cbcdd88e855ef8418eb465820507b1fd3497094fa5075ecbb7f7e"
+          },
+          "linguistic_source_ref": "46:21",
           "words_total": 29,
-          "words_resolved": 28,
-          "words_unresolved": 1,
-          "morpheme_skip_total": 2,
-          "morpheme_skip_max": 2,
-          "morpheme_skip_histogram": {
-            "0": 27,
-            "2": 1
-          },
-          "unresolved": [
-            {
-              "word_index": 19,
-              "surface_ar": "أَنْ",
-              "reason": "no compatible span in the best ordered source alignment"
-            }
-          ],
-          "morphemes_tsv": {
-            "present": true,
-            "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s046/linguistic/morphemes.tsv",
-            "ayah_count": 34,
-            "row_count": 1042,
-            "malformed_rows": 0,
-            "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
-            "dropped_preface_rows": 7
-          },
-          "note": "Ordered surface alignment within canonical QAC words; only spans shared by all best alignments are joined. Upstream word-analysis identities and wording are preserved. Unresolved analytic units remain available for qualified reading; never infer their QAC identity from upstream numbering."
+          "words_resolved": 29,
+          "words_unresolved": 0,
+          "unresolved": [],
+          "shared_morphemes": [],
+          "note": "Accepted bridge links preserve independent analysis identities. Several analysis entries may share canonical morphemes. Read their distinct semantic claims; shared morphology alone is not duplication. Legacy aligned_qac_word_ref values are source observations, not QAC joins. Excluded source entries remain available with their explicit qualification."
         },
         "word_analysis_qac_alignment": {
           "consistent": false,
@@ -23895,7 +23853,7 @@
               "46:21:29"
             ]
           },
-          "note": "aligned_qac_word_ref does NOT resolve against qac_morphemes for this ayah: word-analysis counts orthographic words where QAC counts morphological words. Word-level joins between word_analysis topics and QAC morphology are UNRELIABLE here. Upstream defect in quran-data's word-analysis; deliberately not auto-repaired (renumbering would fabricate identities)."
+          "note": "Legacy analysis and QAC numbers are separate source namespaces. Use accepted word_morpheme_spans for actual many-to-many joins. The legacy numbering observation is preserved, not used for alignment."
         },
         "qac_morphemes": {
           "present": true,
@@ -25336,27 +25294,26 @@
         },
         "word_morpheme_spans": {
           "present": true,
-          "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s046/linguistic/morphemes.tsv",
-          "alignment_version": "ordered-morpheme-spans-v2",
+          "alignment_version": "qac-analysis-bridge-v1",
+          "source_namespace": "word-analysis",
+          "target_namespace": "qac-morpheme",
+          "bridge": {
+            "source": "quran-data/data/bridges/qac-masaq.sqlite.gz",
+            "source_sha256": "a3dabe8200c3e172bfd1ea8eff1c051a250ab65eb7bd4dc0cb5144c9117d7a2a",
+            "schema_version": "qac-masaq-bridge-v1",
+            "sqlite_user_version": 4,
+            "release_id": "2026.09.02",
+            "release_manifest_sha256": "10c30bf9e36c8efcf14ee1cc1d9005024d2eaf97190135ad25b8ef314ebe28b6",
+            "qac_source_sha256": "706a45d150251ca3114a13499e2b665fe5596b03b2272557574f0ed58eb29594",
+            "word_analysis_tree_sha256": "95529b40cf4cbcdd88e855ef8418eb465820507b1fd3497094fa5075ecbb7f7e"
+          },
+          "linguistic_source_ref": "46:22",
           "words_total": 15,
           "words_resolved": 15,
           "words_unresolved": 0,
-          "morpheme_skip_total": 0,
-          "morpheme_skip_max": 0,
-          "morpheme_skip_histogram": {
-            "0": 15
-          },
           "unresolved": [],
-          "morphemes_tsv": {
-            "present": true,
-            "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s046/linguistic/morphemes.tsv",
-            "ayah_count": 34,
-            "row_count": 1042,
-            "malformed_rows": 0,
-            "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
-            "dropped_preface_rows": 7
-          },
-          "note": "Ordered surface alignment within canonical QAC words; only spans shared by all best alignments are joined. Upstream word-analysis identities and wording are preserved. Unresolved analytic units remain available for qualified reading; never infer their QAC identity from upstream numbering."
+          "shared_morphemes": [],
+          "note": "Accepted bridge links preserve independent analysis identities. Several analysis entries may share canonical morphemes. Read their distinct semantic claims; shared morphology alone is not duplication. Legacy aligned_qac_word_ref values are source observations, not QAC joins. Excluded source entries remain available with their explicit qualification."
         },
         "word_analysis_qac_alignment": {
           "consistent": false,
@@ -25369,7 +25326,7 @@
               "46:22:15"
             ]
           },
-          "note": "aligned_qac_word_ref does NOT resolve against qac_morphemes for this ayah: word-analysis counts orthographic words where QAC counts morphological words. Word-level joins between word_analysis topics and QAC morphology are UNRELIABLE here. Upstream defect in quran-data's word-analysis; deliberately not auto-repaired (renumbering would fabricate identities)."
+          "note": "Legacy analysis and QAC numbers are separate source namespaces. Use accepted word_morpheme_spans for actual many-to-many joins. The legacy numbering observation is preserved, not used for alignment."
         },
         "qac_morphemes": {
           "present": true,
@@ -26392,27 +26349,26 @@
         },
         "word_morpheme_spans": {
           "present": true,
-          "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s046/linguistic/morphemes.tsv",
-          "alignment_version": "ordered-morpheme-spans-v2",
+          "alignment_version": "qac-analysis-bridge-v1",
+          "source_namespace": "word-analysis",
+          "target_namespace": "qac-morpheme",
+          "bridge": {
+            "source": "quran-data/data/bridges/qac-masaq.sqlite.gz",
+            "source_sha256": "a3dabe8200c3e172bfd1ea8eff1c051a250ab65eb7bd4dc0cb5144c9117d7a2a",
+            "schema_version": "qac-masaq-bridge-v1",
+            "sqlite_user_version": 4,
+            "release_id": "2026.09.02",
+            "release_manifest_sha256": "10c30bf9e36c8efcf14ee1cc1d9005024d2eaf97190135ad25b8ef314ebe28b6",
+            "qac_source_sha256": "706a45d150251ca3114a13499e2b665fe5596b03b2272557574f0ed58eb29594",
+            "word_analysis_tree_sha256": "95529b40cf4cbcdd88e855ef8418eb465820507b1fd3497094fa5075ecbb7f7e"
+          },
+          "linguistic_source_ref": "46:23",
           "words_total": 15,
           "words_resolved": 15,
           "words_unresolved": 0,
-          "morpheme_skip_total": 0,
-          "morpheme_skip_max": 0,
-          "morpheme_skip_histogram": {
-            "0": 15
-          },
           "unresolved": [],
-          "morphemes_tsv": {
-            "present": true,
-            "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s046/linguistic/morphemes.tsv",
-            "ayah_count": 34,
-            "row_count": 1042,
-            "malformed_rows": 0,
-            "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
-            "dropped_preface_rows": 7
-          },
-          "note": "Ordered surface alignment within canonical QAC words; only spans shared by all best alignments are joined. Upstream word-analysis identities and wording are preserved. Unresolved analytic units remain available for qualified reading; never infer their QAC identity from upstream numbering."
+          "shared_morphemes": [],
+          "note": "Accepted bridge links preserve independent analysis identities. Several analysis entries may share canonical morphemes. Read their distinct semantic claims; shared morphology alone is not duplication. Legacy aligned_qac_word_ref values are source observations, not QAC joins. Excluded source entries remain available with their explicit qualification."
         },
         "word_analysis_qac_alignment": {
           "consistent": false,
@@ -26424,7 +26380,7 @@
               "46:23:15"
             ]
           },
-          "note": "aligned_qac_word_ref does NOT resolve against qac_morphemes for this ayah: word-analysis counts orthographic words where QAC counts morphological words. Word-level joins between word_analysis topics and QAC morphology are UNRELIABLE here. Upstream defect in quran-data's word-analysis; deliberately not auto-repaired (renumbering would fabricate identities)."
+          "note": "Legacy analysis and QAC numbers are separate source namespaces. Use accepted word_morpheme_spans for actual many-to-many joins. The legacy numbering observation is preserved, not used for alignment."
         },
         "qac_morphemes": {
           "present": true,
@@ -27468,27 +27424,26 @@
         },
         "word_morpheme_spans": {
           "present": true,
-          "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s046/linguistic/morphemes.tsv",
-          "alignment_version": "ordered-morpheme-spans-v2",
+          "alignment_version": "qac-analysis-bridge-v1",
+          "source_namespace": "word-analysis",
+          "target_namespace": "qac-morpheme",
+          "bridge": {
+            "source": "quran-data/data/bridges/qac-masaq.sqlite.gz",
+            "source_sha256": "a3dabe8200c3e172bfd1ea8eff1c051a250ab65eb7bd4dc0cb5144c9117d7a2a",
+            "schema_version": "qac-masaq-bridge-v1",
+            "sqlite_user_version": 4,
+            "release_id": "2026.09.02",
+            "release_manifest_sha256": "10c30bf9e36c8efcf14ee1cc1d9005024d2eaf97190135ad25b8ef314ebe28b6",
+            "qac_source_sha256": "706a45d150251ca3114a13499e2b665fe5596b03b2272557574f0ed58eb29594",
+            "word_analysis_tree_sha256": "95529b40cf4cbcdd88e855ef8418eb465820507b1fd3497094fa5075ecbb7f7e"
+          },
+          "linguistic_source_ref": "46:24",
           "words_total": 19,
           "words_resolved": 19,
           "words_unresolved": 0,
-          "morpheme_skip_total": 0,
-          "morpheme_skip_max": 0,
-          "morpheme_skip_histogram": {
-            "0": 19
-          },
           "unresolved": [],
-          "morphemes_tsv": {
-            "present": true,
-            "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s046/linguistic/morphemes.tsv",
-            "ayah_count": 34,
-            "row_count": 1042,
-            "malformed_rows": 0,
-            "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
-            "dropped_preface_rows": 7
-          },
-          "note": "Ordered surface alignment within canonical QAC words; only spans shared by all best alignments are joined. Upstream word-analysis identities and wording are preserved. Unresolved analytic units remain available for qualified reading; never infer their QAC identity from upstream numbering."
+          "shared_morphemes": [],
+          "note": "Accepted bridge links preserve independent analysis identities. Several analysis entries may share canonical morphemes. Read their distinct semantic claims; shared morphology alone is not duplication. Legacy aligned_qac_word_ref values are source observations, not QAC joins. Excluded source entries remain available with their explicit qualification."
         },
         "word_analysis_qac_alignment": {
           "consistent": false,
@@ -27499,7 +27454,7 @@
               "46:24:19"
             ]
           },
-          "note": "aligned_qac_word_ref does NOT resolve against qac_morphemes for this ayah: word-analysis counts orthographic words where QAC counts morphological words. Word-level joins between word_analysis topics and QAC morphology are UNRELIABLE here. Upstream defect in quran-data's word-analysis; deliberately not auto-repaired (renumbering would fabricate identities)."
+          "note": "Legacy analysis and QAC numbers are separate source namespaces. Use accepted word_morpheme_spans for actual many-to-many joins. The legacy numbering observation is preserved, not used for alignment."
         },
         "qac_morphemes": {
           "present": true,
@@ -28630,27 +28585,26 @@
         },
         "word_morpheme_spans": {
           "present": true,
-          "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s046/linguistic/morphemes.tsv",
-          "alignment_version": "ordered-morpheme-spans-v2",
+          "alignment_version": "qac-analysis-bridge-v1",
+          "source_namespace": "word-analysis",
+          "target_namespace": "qac-morpheme",
+          "bridge": {
+            "source": "quran-data/data/bridges/qac-masaq.sqlite.gz",
+            "source_sha256": "a3dabe8200c3e172bfd1ea8eff1c051a250ab65eb7bd4dc0cb5144c9117d7a2a",
+            "schema_version": "qac-masaq-bridge-v1",
+            "sqlite_user_version": 4,
+            "release_id": "2026.09.02",
+            "release_manifest_sha256": "10c30bf9e36c8efcf14ee1cc1d9005024d2eaf97190135ad25b8ef314ebe28b6",
+            "qac_source_sha256": "706a45d150251ca3114a13499e2b665fe5596b03b2272557574f0ed58eb29594",
+            "word_analysis_tree_sha256": "95529b40cf4cbcdd88e855ef8418eb465820507b1fd3497094fa5075ecbb7f7e"
+          },
+          "linguistic_source_ref": "46:25",
           "words_total": 17,
           "words_resolved": 17,
           "words_unresolved": 0,
-          "morpheme_skip_total": 0,
-          "morpheme_skip_max": 0,
-          "morpheme_skip_histogram": {
-            "0": 17
-          },
           "unresolved": [],
-          "morphemes_tsv": {
-            "present": true,
-            "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s046/linguistic/morphemes.tsv",
-            "ayah_count": 34,
-            "row_count": 1042,
-            "malformed_rows": 0,
-            "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
-            "dropped_preface_rows": 7
-          },
-          "note": "Ordered surface alignment within canonical QAC words; only spans shared by all best alignments are joined. Upstream word-analysis identities and wording are preserved. Unresolved analytic units remain available for qualified reading; never infer their QAC identity from upstream numbering."
+          "shared_morphemes": [],
+          "note": "Accepted bridge links preserve independent analysis identities. Several analysis entries may share canonical morphemes. Read their distinct semantic claims; shared morphology alone is not duplication. Legacy aligned_qac_word_ref values are source observations, not QAC joins. Excluded source entries remain available with their explicit qualification."
         },
         "word_analysis_qac_alignment": {
           "consistent": false,
@@ -28663,7 +28617,7 @@
               "46:25:17"
             ]
           },
-          "note": "aligned_qac_word_ref does NOT resolve against qac_morphemes for this ayah: word-analysis counts orthographic words where QAC counts morphological words. Word-level joins between word_analysis topics and QAC morphology are UNRELIABLE here. Upstream defect in quran-data's word-analysis; deliberately not auto-repaired (renumbering would fabricate identities)."
+          "note": "Legacy analysis and QAC numbers are separate source namespaces. Use accepted word_morpheme_spans for actual many-to-many joins. The legacy numbering observation is preserved, not used for alignment."
         },
         "qac_morphemes": {
           "present": true,
@@ -29806,27 +29760,26 @@
         },
         "word_morpheme_spans": {
           "present": true,
-          "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s046/linguistic/morphemes.tsv",
-          "alignment_version": "ordered-morpheme-spans-v2",
+          "alignment_version": "qac-analysis-bridge-v1",
+          "source_namespace": "word-analysis",
+          "target_namespace": "qac-morpheme",
+          "bridge": {
+            "source": "quran-data/data/bridges/qac-masaq.sqlite.gz",
+            "source_sha256": "a3dabe8200c3e172bfd1ea8eff1c051a250ab65eb7bd4dc0cb5144c9117d7a2a",
+            "schema_version": "qac-masaq-bridge-v1",
+            "sqlite_user_version": 4,
+            "release_id": "2026.09.02",
+            "release_manifest_sha256": "10c30bf9e36c8efcf14ee1cc1d9005024d2eaf97190135ad25b8ef314ebe28b6",
+            "qac_source_sha256": "706a45d150251ca3114a13499e2b665fe5596b03b2272557574f0ed58eb29594",
+            "word_analysis_tree_sha256": "95529b40cf4cbcdd88e855ef8418eb465820507b1fd3497094fa5075ecbb7f7e"
+          },
+          "linguistic_source_ref": "46:26",
           "words_total": 44,
           "words_resolved": 44,
           "words_unresolved": 0,
-          "morpheme_skip_total": 0,
-          "morpheme_skip_max": 0,
-          "morpheme_skip_histogram": {
-            "0": 44
-          },
           "unresolved": [],
-          "morphemes_tsv": {
-            "present": true,
-            "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s046/linguistic/morphemes.tsv",
-            "ayah_count": 34,
-            "row_count": 1042,
-            "malformed_rows": 0,
-            "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
-            "dropped_preface_rows": 7
-          },
-          "note": "Ordered surface alignment within canonical QAC words; only spans shared by all best alignments are joined. Upstream word-analysis identities and wording are preserved. Unresolved analytic units remain available for qualified reading; never infer their QAC identity from upstream numbering."
+          "shared_morphemes": [],
+          "note": "Accepted bridge links preserve independent analysis identities. Several analysis entries may share canonical morphemes. Read their distinct semantic claims; shared morphology alone is not duplication. Legacy aligned_qac_word_ref values are source observations, not QAC joins. Excluded source entries remain available with their explicit qualification."
         },
         "word_analysis_qac_alignment": {
           "consistent": false,
@@ -29848,7 +29801,7 @@
               "46:26:44"
             ]
           },
-          "note": "aligned_qac_word_ref does NOT resolve against qac_morphemes for this ayah: word-analysis counts orthographic words where QAC counts morphological words. Word-level joins between word_analysis topics and QAC morphology are UNRELIABLE here. Upstream defect in quran-data's word-analysis; deliberately not auto-repaired (renumbering would fabricate identities)."
+          "note": "Legacy analysis and QAC numbers are separate source namespaces. Use accepted word_morpheme_spans for actual many-to-many joins. The legacy numbering observation is preserved, not used for alignment."
         },
         "qac_morphemes": {
           "present": true,
@@ -31008,27 +30961,26 @@
         },
         "word_morpheme_spans": {
           "present": true,
-          "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s046/linguistic/morphemes.tsv",
-          "alignment_version": "ordered-morpheme-spans-v2",
+          "alignment_version": "qac-analysis-bridge-v1",
+          "source_namespace": "word-analysis",
+          "target_namespace": "qac-morpheme",
+          "bridge": {
+            "source": "quran-data/data/bridges/qac-masaq.sqlite.gz",
+            "source_sha256": "a3dabe8200c3e172bfd1ea8eff1c051a250ab65eb7bd4dc0cb5144c9117d7a2a",
+            "schema_version": "qac-masaq-bridge-v1",
+            "sqlite_user_version": 4,
+            "release_id": "2026.09.02",
+            "release_manifest_sha256": "10c30bf9e36c8efcf14ee1cc1d9005024d2eaf97190135ad25b8ef314ebe28b6",
+            "qac_source_sha256": "706a45d150251ca3114a13499e2b665fe5596b03b2272557574f0ed58eb29594",
+            "word_analysis_tree_sha256": "95529b40cf4cbcdd88e855ef8418eb465820507b1fd3497094fa5075ecbb7f7e"
+          },
+          "linguistic_source_ref": "46:27",
           "words_total": 13,
           "words_resolved": 13,
           "words_unresolved": 0,
-          "morpheme_skip_total": 0,
-          "morpheme_skip_max": 0,
-          "morpheme_skip_histogram": {
-            "0": 13
-          },
           "unresolved": [],
-          "morphemes_tsv": {
-            "present": true,
-            "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s046/linguistic/morphemes.tsv",
-            "ayah_count": 34,
-            "row_count": 1042,
-            "malformed_rows": 0,
-            "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
-            "dropped_preface_rows": 7
-          },
-          "note": "Ordered surface alignment within canonical QAC words; only spans shared by all best alignments are joined. Upstream word-analysis identities and wording are preserved. Unresolved analytic units remain available for qualified reading; never infer their QAC identity from upstream numbering."
+          "shared_morphemes": [],
+          "note": "Accepted bridge links preserve independent analysis identities. Several analysis entries may share canonical morphemes. Read their distinct semantic claims; shared morphology alone is not duplication. Legacy aligned_qac_word_ref values are source observations, not QAC joins. Excluded source entries remain available with their explicit qualification."
         },
         "word_analysis_qac_alignment": {
           "consistent": false,
@@ -31041,7 +30993,7 @@
               "46:27:13"
             ]
           },
-          "note": "aligned_qac_word_ref does NOT resolve against qac_morphemes for this ayah: word-analysis counts orthographic words where QAC counts morphological words. Word-level joins between word_analysis topics and QAC morphology are UNRELIABLE here. Upstream defect in quran-data's word-analysis; deliberately not auto-repaired (renumbering would fabricate identities)."
+          "note": "Legacy analysis and QAC numbers are separate source namespaces. Use accepted word_morpheme_spans for actual many-to-many joins. The legacy numbering observation is preserved, not used for alignment."
         },
         "qac_morphemes": {
           "present": true,
@@ -31779,27 +31731,26 @@
         },
         "word_morpheme_spans": {
           "present": true,
-          "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s046/linguistic/morphemes.tsv",
-          "alignment_version": "ordered-morpheme-spans-v2",
+          "alignment_version": "qac-analysis-bridge-v1",
+          "source_namespace": "word-analysis",
+          "target_namespace": "qac-morpheme",
+          "bridge": {
+            "source": "quran-data/data/bridges/qac-masaq.sqlite.gz",
+            "source_sha256": "a3dabe8200c3e172bfd1ea8eff1c051a250ab65eb7bd4dc0cb5144c9117d7a2a",
+            "schema_version": "qac-masaq-bridge-v1",
+            "sqlite_user_version": 4,
+            "release_id": "2026.09.02",
+            "release_manifest_sha256": "10c30bf9e36c8efcf14ee1cc1d9005024d2eaf97190135ad25b8ef314ebe28b6",
+            "qac_source_sha256": "706a45d150251ca3114a13499e2b665fe5596b03b2272557574f0ed58eb29594",
+            "word_analysis_tree_sha256": "95529b40cf4cbcdd88e855ef8418eb465820507b1fd3497094fa5075ecbb7f7e"
+          },
+          "linguistic_source_ref": "46:28",
           "words_total": 20,
           "words_resolved": 20,
           "words_unresolved": 0,
-          "morpheme_skip_total": 0,
-          "morpheme_skip_max": 0,
-          "morpheme_skip_histogram": {
-            "0": 20
-          },
           "unresolved": [],
-          "morphemes_tsv": {
-            "present": true,
-            "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s046/linguistic/morphemes.tsv",
-            "ayah_count": 34,
-            "row_count": 1042,
-            "malformed_rows": 0,
-            "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
-            "dropped_preface_rows": 7
-          },
-          "note": "Ordered surface alignment within canonical QAC words; only spans shared by all best alignments are joined. Upstream word-analysis identities and wording are preserved. Unresolved analytic units remain available for qualified reading; never infer their QAC identity from upstream numbering."
+          "shared_morphemes": [],
+          "note": "Accepted bridge links preserve independent analysis identities. Several analysis entries may share canonical morphemes. Read their distinct semantic claims; shared morphology alone is not duplication. Legacy aligned_qac_word_ref values are source observations, not QAC joins. Excluded source entries remain available with their explicit qualification."
         },
         "word_analysis_qac_alignment": {
           "consistent": false,
@@ -31812,7 +31763,7 @@
               "46:28:20"
             ]
           },
-          "note": "aligned_qac_word_ref does NOT resolve against qac_morphemes for this ayah: word-analysis counts orthographic words where QAC counts morphological words. Word-level joins between word_analysis topics and QAC morphology are UNRELIABLE here. Upstream defect in quran-data's word-analysis; deliberately not auto-repaired (renumbering would fabricate identities)."
+          "note": "Legacy analysis and QAC numbers are separate source namespaces. Use accepted word_morpheme_spans for actual many-to-many joins. The legacy numbering observation is preserved, not used for alignment."
         },
         "qac_morphemes": {
           "present": true,
@@ -32766,27 +32717,26 @@
         },
         "word_morpheme_spans": {
           "present": true,
-          "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s046/linguistic/morphemes.tsv",
-          "alignment_version": "ordered-morpheme-spans-v2",
+          "alignment_version": "qac-analysis-bridge-v1",
+          "source_namespace": "word-analysis",
+          "target_namespace": "qac-morpheme",
+          "bridge": {
+            "source": "quran-data/data/bridges/qac-masaq.sqlite.gz",
+            "source_sha256": "a3dabe8200c3e172bfd1ea8eff1c051a250ab65eb7bd4dc0cb5144c9117d7a2a",
+            "schema_version": "qac-masaq-bridge-v1",
+            "sqlite_user_version": 4,
+            "release_id": "2026.09.02",
+            "release_manifest_sha256": "10c30bf9e36c8efcf14ee1cc1d9005024d2eaf97190135ad25b8ef314ebe28b6",
+            "qac_source_sha256": "706a45d150251ca3114a13499e2b665fe5596b03b2272557574f0ed58eb29594",
+            "word_analysis_tree_sha256": "95529b40cf4cbcdd88e855ef8418eb465820507b1fd3497094fa5075ecbb7f7e"
+          },
+          "linguistic_source_ref": "46:29",
           "words_total": 21,
           "words_resolved": 21,
           "words_unresolved": 0,
-          "morpheme_skip_total": 0,
-          "morpheme_skip_max": 0,
-          "morpheme_skip_histogram": {
-            "0": 21
-          },
           "unresolved": [],
-          "morphemes_tsv": {
-            "present": true,
-            "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s046/linguistic/morphemes.tsv",
-            "ayah_count": 34,
-            "row_count": 1042,
-            "malformed_rows": 0,
-            "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
-            "dropped_preface_rows": 7
-          },
-          "note": "Ordered surface alignment within canonical QAC words; only spans shared by all best alignments are joined. Upstream word-analysis identities and wording are preserved. Unresolved analytic units remain available for qualified reading; never infer their QAC identity from upstream numbering."
+          "shared_morphemes": [],
+          "note": "Accepted bridge links preserve independent analysis identities. Several analysis entries may share canonical morphemes. Read their distinct semantic claims; shared morphology alone is not duplication. Legacy aligned_qac_word_ref values are source observations, not QAC joins. Excluded source entries remain available with their explicit qualification."
         },
         "word_analysis_qac_alignment": {
           "consistent": false,
@@ -32799,7 +32749,7 @@
               "46:29:21"
             ]
           },
-          "note": "aligned_qac_word_ref does NOT resolve against qac_morphemes for this ayah: word-analysis counts orthographic words where QAC counts morphological words. Word-level joins between word_analysis topics and QAC morphology are UNRELIABLE here. Upstream defect in quran-data's word-analysis; deliberately not auto-repaired (renumbering would fabricate identities)."
+          "note": "Legacy analysis and QAC numbers are separate source namespaces. Use accepted word_morpheme_spans for actual many-to-many joins. The legacy numbering observation is preserved, not used for alignment."
         },
         "qac_morphemes": {
           "present": true,
@@ -33919,28 +33869,26 @@
         },
         "word_morpheme_spans": {
           "present": true,
-          "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s046/linguistic/morphemes.tsv",
-          "alignment_version": "ordered-morpheme-spans-v2",
+          "alignment_version": "qac-analysis-bridge-v1",
+          "source_namespace": "word-analysis",
+          "target_namespace": "qac-morpheme",
+          "bridge": {
+            "source": "quran-data/data/bridges/qac-masaq.sqlite.gz",
+            "source_sha256": "a3dabe8200c3e172bfd1ea8eff1c051a250ab65eb7bd4dc0cb5144c9117d7a2a",
+            "schema_version": "qac-masaq-bridge-v1",
+            "sqlite_user_version": 4,
+            "release_id": "2026.09.02",
+            "release_manifest_sha256": "10c30bf9e36c8efcf14ee1cc1d9005024d2eaf97190135ad25b8ef314ebe28b6",
+            "qac_source_sha256": "706a45d150251ca3114a13499e2b665fe5596b03b2272557574f0ed58eb29594",
+            "word_analysis_tree_sha256": "95529b40cf4cbcdd88e855ef8418eb465820507b1fd3497094fa5075ecbb7f7e"
+          },
+          "linguistic_source_ref": "46:30",
           "words_total": 21,
           "words_resolved": 21,
           "words_unresolved": 0,
-          "morpheme_skip_total": 1,
-          "morpheme_skip_max": 1,
-          "morpheme_skip_histogram": {
-            "0": 20,
-            "1": 1
-          },
           "unresolved": [],
-          "morphemes_tsv": {
-            "present": true,
-            "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s046/linguistic/morphemes.tsv",
-            "ayah_count": 34,
-            "row_count": 1042,
-            "malformed_rows": 0,
-            "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
-            "dropped_preface_rows": 7
-          },
-          "note": "Ordered surface alignment within canonical QAC words; only spans shared by all best alignments are joined. Upstream word-analysis identities and wording are preserved. Unresolved analytic units remain available for qualified reading; never infer their QAC identity from upstream numbering."
+          "shared_morphemes": [],
+          "note": "Accepted bridge links preserve independent analysis identities. Several analysis entries may share canonical morphemes. Read their distinct semantic claims; shared morphology alone is not duplication. Legacy aligned_qac_word_ref values are source observations, not QAC joins. Excluded source entries remain available with their explicit qualification."
         },
         "word_analysis_qac_alignment": {
           "consistent": false,
@@ -33952,7 +33900,7 @@
               "46:30:21"
             ]
           },
-          "note": "aligned_qac_word_ref does NOT resolve against qac_morphemes for this ayah: word-analysis counts orthographic words where QAC counts morphological words. Word-level joins between word_analysis topics and QAC morphology are UNRELIABLE here. Upstream defect in quran-data's word-analysis; deliberately not auto-repaired (renumbering would fabricate identities)."
+          "note": "Legacy analysis and QAC numbers are separate source namespaces. Use accepted word_morpheme_spans for actual many-to-many joins. The legacy numbering observation is preserved, not used for alignment."
         },
         "qac_morphemes": {
           "present": true,
@@ -35203,27 +35151,26 @@
         },
         "word_morpheme_spans": {
           "present": true,
-          "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s046/linguistic/morphemes.tsv",
-          "alignment_version": "ordered-morpheme-spans-v2",
+          "alignment_version": "qac-analysis-bridge-v1",
+          "source_namespace": "word-analysis",
+          "target_namespace": "qac-morpheme",
+          "bridge": {
+            "source": "quran-data/data/bridges/qac-masaq.sqlite.gz",
+            "source_sha256": "a3dabe8200c3e172bfd1ea8eff1c051a250ab65eb7bd4dc0cb5144c9117d7a2a",
+            "schema_version": "qac-masaq-bridge-v1",
+            "sqlite_user_version": 4,
+            "release_id": "2026.09.02",
+            "release_manifest_sha256": "10c30bf9e36c8efcf14ee1cc1d9005024d2eaf97190135ad25b8ef314ebe28b6",
+            "qac_source_sha256": "706a45d150251ca3114a13499e2b665fe5596b03b2272557574f0ed58eb29594",
+            "word_analysis_tree_sha256": "95529b40cf4cbcdd88e855ef8418eb465820507b1fd3497094fa5075ecbb7f7e"
+          },
+          "linguistic_source_ref": "46:31",
           "words_total": 17,
           "words_resolved": 17,
           "words_unresolved": 0,
-          "morpheme_skip_total": 0,
-          "morpheme_skip_max": 0,
-          "morpheme_skip_histogram": {
-            "0": 17
-          },
           "unresolved": [],
-          "morphemes_tsv": {
-            "present": true,
-            "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s046/linguistic/morphemes.tsv",
-            "ayah_count": 34,
-            "row_count": 1042,
-            "malformed_rows": 0,
-            "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
-            "dropped_preface_rows": 7
-          },
-          "note": "Ordered surface alignment within canonical QAC words; only spans shared by all best alignments are joined. Upstream word-analysis identities and wording are preserved. Unresolved analytic units remain available for qualified reading; never infer their QAC identity from upstream numbering."
+          "shared_morphemes": [],
+          "note": "Accepted bridge links preserve independent analysis identities. Several analysis entries may share canonical morphemes. Read their distinct semantic claims; shared morphology alone is not duplication. Legacy aligned_qac_word_ref values are source observations, not QAC joins. Excluded source entries remain available with their explicit qualification."
         },
         "word_analysis_qac_alignment": {
           "consistent": false,
@@ -35236,7 +35183,7 @@
               "46:31:17"
             ]
           },
-          "note": "aligned_qac_word_ref does NOT resolve against qac_morphemes for this ayah: word-analysis counts orthographic words where QAC counts morphological words. Word-level joins between word_analysis topics and QAC morphology are UNRELIABLE here. Upstream defect in quran-data's word-analysis; deliberately not auto-repaired (renumbering would fabricate identities)."
+          "note": "Legacy analysis and QAC numbers are separate source namespaces. Use accepted word_morpheme_spans for actual many-to-many joins. The legacy numbering observation is preserved, not used for alignment."
         },
         "qac_morphemes": {
           "present": true,
@@ -36469,28 +36416,26 @@
         },
         "word_morpheme_spans": {
           "present": true,
-          "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s046/linguistic/morphemes.tsv",
-          "alignment_version": "ordered-morpheme-spans-v2",
+          "alignment_version": "qac-analysis-bridge-v1",
+          "source_namespace": "word-analysis",
+          "target_namespace": "qac-morpheme",
+          "bridge": {
+            "source": "quran-data/data/bridges/qac-masaq.sqlite.gz",
+            "source_sha256": "a3dabe8200c3e172bfd1ea8eff1c051a250ab65eb7bd4dc0cb5144c9117d7a2a",
+            "schema_version": "qac-masaq-bridge-v1",
+            "sqlite_user_version": 4,
+            "release_id": "2026.09.02",
+            "release_manifest_sha256": "10c30bf9e36c8efcf14ee1cc1d9005024d2eaf97190135ad25b8ef314ebe28b6",
+            "qac_source_sha256": "706a45d150251ca3114a13499e2b665fe5596b03b2272557574f0ed58eb29594",
+            "word_analysis_tree_sha256": "95529b40cf4cbcdd88e855ef8418eb465820507b1fd3497094fa5075ecbb7f7e"
+          },
+          "linguistic_source_ref": "46:32",
           "words_total": 22,
           "words_resolved": 22,
           "words_unresolved": 0,
-          "morpheme_skip_total": 1,
-          "morpheme_skip_max": 1,
-          "morpheme_skip_histogram": {
-            "0": 21,
-            "1": 1
-          },
           "unresolved": [],
-          "morphemes_tsv": {
-            "present": true,
-            "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s046/linguistic/morphemes.tsv",
-            "ayah_count": 34,
-            "row_count": 1042,
-            "malformed_rows": 0,
-            "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
-            "dropped_preface_rows": 7
-          },
-          "note": "Ordered surface alignment within canonical QAC words; only spans shared by all best alignments are joined. Upstream word-analysis identities and wording are preserved. Unresolved analytic units remain available for qualified reading; never infer their QAC identity from upstream numbering."
+          "shared_morphemes": [],
+          "note": "Accepted bridge links preserve independent analysis identities. Several analysis entries may share canonical morphemes. Read their distinct semantic claims; shared morphology alone is not duplication. Legacy aligned_qac_word_ref values are source observations, not QAC joins. Excluded source entries remain available with their explicit qualification."
         },
         "word_analysis_qac_alignment": {
           "consistent": false,
@@ -36504,7 +36449,7 @@
               "46:32:22"
             ]
           },
-          "note": "aligned_qac_word_ref does NOT resolve against qac_morphemes for this ayah: word-analysis counts orthographic words where QAC counts morphological words. Word-level joins between word_analysis topics and QAC morphology are UNRELIABLE here. Upstream defect in quran-data's word-analysis; deliberately not auto-repaired (renumbering would fabricate identities)."
+          "note": "Legacy analysis and QAC numbers are separate source namespaces. Use accepted word_morpheme_spans for actual many-to-many joins. The legacy numbering observation is preserved, not used for alignment."
         },
         "qac_morphemes": {
           "present": true,
@@ -37620,28 +37565,26 @@
         },
         "word_morpheme_spans": {
           "present": true,
-          "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s046/linguistic/morphemes.tsv",
-          "alignment_version": "ordered-morpheme-spans-v2",
+          "alignment_version": "qac-analysis-bridge-v1",
+          "source_namespace": "word-analysis",
+          "target_namespace": "qac-morpheme",
+          "bridge": {
+            "source": "quran-data/data/bridges/qac-masaq.sqlite.gz",
+            "source_sha256": "a3dabe8200c3e172bfd1ea8eff1c051a250ab65eb7bd4dc0cb5144c9117d7a2a",
+            "schema_version": "qac-masaq-bridge-v1",
+            "sqlite_user_version": 4,
+            "release_id": "2026.09.02",
+            "release_manifest_sha256": "10c30bf9e36c8efcf14ee1cc1d9005024d2eaf97190135ad25b8ef314ebe28b6",
+            "qac_source_sha256": "706a45d150251ca3114a13499e2b665fe5596b03b2272557574f0ed58eb29594",
+            "word_analysis_tree_sha256": "95529b40cf4cbcdd88e855ef8418eb465820507b1fd3497094fa5075ecbb7f7e"
+          },
+          "linguistic_source_ref": "46:33",
           "words_total": 27,
           "words_resolved": 27,
           "words_unresolved": 0,
-          "morpheme_skip_total": 1,
-          "morpheme_skip_max": 1,
-          "morpheme_skip_histogram": {
-            "0": 26,
-            "1": 1
-          },
           "unresolved": [],
-          "morphemes_tsv": {
-            "present": true,
-            "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s046/linguistic/morphemes.tsv",
-            "ayah_count": 34,
-            "row_count": 1042,
-            "malformed_rows": 0,
-            "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
-            "dropped_preface_rows": 7
-          },
-          "note": "Ordered surface alignment within canonical QAC words; only spans shared by all best alignments are joined. Upstream word-analysis identities and wording are preserved. Unresolved analytic units remain available for qualified reading; never infer their QAC identity from upstream numbering."
+          "shared_morphemes": [],
+          "note": "Accepted bridge links preserve independent analysis identities. Several analysis entries may share canonical morphemes. Read their distinct semantic claims; shared morphology alone is not duplication. Legacy aligned_qac_word_ref values are source observations, not QAC joins. Excluded source entries remain available with their explicit qualification."
         },
         "word_analysis_qac_alignment": {
           "consistent": false,
@@ -37656,7 +37599,7 @@
               "46:33:27"
             ]
           },
-          "note": "aligned_qac_word_ref does NOT resolve against qac_morphemes for this ayah: word-analysis counts orthographic words where QAC counts morphological words. Word-level joins between word_analysis topics and QAC morphology are UNRELIABLE here. Upstream defect in quran-data's word-analysis; deliberately not auto-repaired (renumbering would fabricate identities)."
+          "note": "Legacy analysis and QAC numbers are separate source namespaces. Use accepted word_morpheme_spans for actual many-to-many joins. The legacy numbering observation is preserved, not used for alignment."
         },
         "qac_morphemes": {
           "present": true,
@@ -38812,27 +38755,26 @@
         },
         "word_morpheme_spans": {
           "present": true,
-          "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s046/linguistic/morphemes.tsv",
-          "alignment_version": "ordered-morpheme-spans-v2",
+          "alignment_version": "qac-analysis-bridge-v1",
+          "source_namespace": "word-analysis",
+          "target_namespace": "qac-morpheme",
+          "bridge": {
+            "source": "quran-data/data/bridges/qac-masaq.sqlite.gz",
+            "source_sha256": "a3dabe8200c3e172bfd1ea8eff1c051a250ab65eb7bd4dc0cb5144c9117d7a2a",
+            "schema_version": "qac-masaq-bridge-v1",
+            "sqlite_user_version": 4,
+            "release_id": "2026.09.02",
+            "release_manifest_sha256": "10c30bf9e36c8efcf14ee1cc1d9005024d2eaf97190135ad25b8ef314ebe28b6",
+            "qac_source_sha256": "706a45d150251ca3114a13499e2b665fe5596b03b2272557574f0ed58eb29594",
+            "word_analysis_tree_sha256": "95529b40cf4cbcdd88e855ef8418eb465820507b1fd3497094fa5075ecbb7f7e"
+          },
+          "linguistic_source_ref": "46:34",
           "words_total": 23,
           "words_resolved": 23,
           "words_unresolved": 0,
-          "morpheme_skip_total": 0,
-          "morpheme_skip_max": 0,
-          "morpheme_skip_histogram": {
-            "0": 23
-          },
           "unresolved": [],
-          "morphemes_tsv": {
-            "present": true,
-            "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s046/linguistic/morphemes.tsv",
-            "ayah_count": 34,
-            "row_count": 1042,
-            "malformed_rows": 0,
-            "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
-            "dropped_preface_rows": 7
-          },
-          "note": "Ordered surface alignment within canonical QAC words; only spans shared by all best alignments are joined. Upstream word-analysis identities and wording are preserved. Unresolved analytic units remain available for qualified reading; never infer their QAC identity from upstream numbering."
+          "shared_morphemes": [],
+          "note": "Accepted bridge links preserve independent analysis identities. Several analysis entries may share canonical morphemes. Read their distinct semantic claims; shared morphology alone is not duplication. Legacy aligned_qac_word_ref values are source observations, not QAC joins. Excluded source entries remain available with their explicit qualification."
         },
         "word_analysis_qac_alignment": {
           "consistent": false,
@@ -38847,7 +38789,7 @@
               "46:34:23"
             ]
           },
-          "note": "aligned_qac_word_ref does NOT resolve against qac_morphemes for this ayah: word-analysis counts orthographic words where QAC counts morphological words. Word-level joins between word_analysis topics and QAC morphology are UNRELIABLE here. Upstream defect in quran-data's word-analysis; deliberately not auto-repaired (renumbering would fabricate identities)."
+          "note": "Legacy analysis and QAC numbers are separate source namespaces. Use accepted word_morpheme_spans for actual many-to-many joins. The legacy numbering observation is preserved, not used for alignment."
         },
         "qac_morphemes": {
           "present": true,
@@ -39966,28 +39908,26 @@
         },
         "word_morpheme_spans": {
           "present": true,
-          "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s046/linguistic/morphemes.tsv",
-          "alignment_version": "ordered-morpheme-spans-v2",
+          "alignment_version": "qac-analysis-bridge-v1",
+          "source_namespace": "word-analysis",
+          "target_namespace": "qac-morpheme",
+          "bridge": {
+            "source": "quran-data/data/bridges/qac-masaq.sqlite.gz",
+            "source_sha256": "a3dabe8200c3e172bfd1ea8eff1c051a250ab65eb7bd4dc0cb5144c9117d7a2a",
+            "schema_version": "qac-masaq-bridge-v1",
+            "sqlite_user_version": 4,
+            "release_id": "2026.09.02",
+            "release_manifest_sha256": "10c30bf9e36c8efcf14ee1cc1d9005024d2eaf97190135ad25b8ef314ebe28b6",
+            "qac_source_sha256": "706a45d150251ca3114a13499e2b665fe5596b03b2272557574f0ed58eb29594",
+            "word_analysis_tree_sha256": "95529b40cf4cbcdd88e855ef8418eb465820507b1fd3497094fa5075ecbb7f7e"
+          },
+          "linguistic_source_ref": "46:35",
           "words_total": 32,
           "words_resolved": 32,
           "words_unresolved": 0,
-          "morpheme_skip_total": 1,
-          "morpheme_skip_max": 1,
-          "morpheme_skip_histogram": {
-            "0": 31,
-            "1": 1
-          },
           "unresolved": [],
-          "morphemes_tsv": {
-            "present": true,
-            "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s046/linguistic/morphemes.tsv",
-            "ayah_count": 34,
-            "row_count": 1042,
-            "malformed_rows": 0,
-            "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
-            "dropped_preface_rows": 7
-          },
-          "note": "Ordered surface alignment within canonical QAC words; only spans shared by all best alignments are joined. Upstream word-analysis identities and wording are preserved. Unresolved analytic units remain available for qualified reading; never infer their QAC identity from upstream numbering."
+          "shared_morphemes": [],
+          "note": "Accepted bridge links preserve independent analysis identities. Several analysis entries may share canonical morphemes. Read their distinct semantic claims; shared morphology alone is not duplication. Legacy aligned_qac_word_ref values are source observations, not QAC joins. Excluded source entries remain available with their explicit qualification."
         },
         "word_analysis_qac_alignment": {
           "consistent": false,
@@ -40002,7 +39942,7 @@
               "46:35:32"
             ]
           },
-          "note": "aligned_qac_word_ref does NOT resolve against qac_morphemes for this ayah: word-analysis counts orthographic words where QAC counts morphological words. Word-level joins between word_analysis topics and QAC morphology are UNRELIABLE here. Upstream defect in quran-data's word-analysis; deliberately not auto-repaired (renumbering would fabricate identities)."
+          "note": "Legacy analysis and QAC numbers are separate source namespaces. Use accepted word_morpheme_spans for actual many-to-many joins. The legacy numbering observation is preserved, not used for alignment."
         },
         "qac_morphemes": {
           "present": true,

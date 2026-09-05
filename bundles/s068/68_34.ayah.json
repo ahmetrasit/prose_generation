@@ -2264,6 +2264,7 @@
   "word_morpheme_spans": [
     {
       "word_index": 0,
+      "analysis_ref": "68:34:1",
       "surface_ar": "إِنَّ",
       "word_ids": [
         "w-s068-a034-w001"
@@ -2274,11 +2275,11 @@
       "morpheme_ids": [
         "m-w-s068-a034-w001-01"
       ],
-      "aligned_qac_word_ref_upstream": "68:34:1",
-      "morpheme_skip_count": 0
+      "aligned_qac_word_ref_upstream": "68:34:1"
     },
     {
       "word_index": 1,
+      "analysis_ref": "68:34:2",
       "surface_ar": "لِ",
       "word_ids": [
         "w-s068-a034-w002"
@@ -2289,11 +2290,11 @@
       "morpheme_ids": [
         "m-w-s068-a034-w002-01"
       ],
-      "aligned_qac_word_ref_upstream": "68:34:2",
-      "morpheme_skip_count": 0
+      "aligned_qac_word_ref_upstream": "68:34:2"
     },
     {
       "word_index": 2,
+      "analysis_ref": "68:34:3",
       "surface_ar": "ٱلْمُتَّقِينَ",
       "word_ids": [
         "w-s068-a034-w002"
@@ -2306,11 +2307,11 @@
         "m-w-s068-a034-w002-02",
         "m-w-s068-a034-w002-03"
       ],
-      "aligned_qac_word_ref_upstream": "68:34:3",
-      "morpheme_skip_count": 0
+      "aligned_qac_word_ref_upstream": "68:34:3"
     },
     {
       "word_index": 3,
+      "analysis_ref": "68:34:4",
       "surface_ar": "عِندَ",
       "word_ids": [
         "w-s068-a034-w003"
@@ -2321,11 +2322,11 @@
       "morpheme_ids": [
         "m-w-s068-a034-w003-01"
       ],
-      "aligned_qac_word_ref_upstream": "68:34:4",
-      "morpheme_skip_count": 0
+      "aligned_qac_word_ref_upstream": "68:34:4"
     },
     {
       "word_index": 4,
+      "analysis_ref": "68:34:5",
       "surface_ar": "رَبِّهِمْ",
       "word_ids": [
         "w-s068-a034-w004"
@@ -2338,11 +2339,11 @@
         "m-w-s068-a034-w004-01",
         "m-w-s068-a034-w004-02"
       ],
-      "aligned_qac_word_ref_upstream": "68:34:5",
-      "morpheme_skip_count": 0
+      "aligned_qac_word_ref_upstream": "68:34:5"
     },
     {
       "word_index": 5,
+      "analysis_ref": "68:34:6",
       "surface_ar": "جَنَّاتِ",
       "word_ids": [
         "w-s068-a034-w005"
@@ -2353,11 +2354,11 @@
       "morpheme_ids": [
         "m-w-s068-a034-w005-01"
       ],
-      "aligned_qac_word_ref_upstream": "68:34:6",
-      "morpheme_skip_count": 0
+      "aligned_qac_word_ref_upstream": "68:34:6"
     },
     {
       "word_index": 6,
+      "analysis_ref": "68:34:7",
       "surface_ar": "ٱلنَّعِيمِ",
       "word_ids": [
         "w-s068-a034-w006"
@@ -2370,8 +2371,7 @@
         "m-w-s068-a034-w006-01",
         "m-w-s068-a034-w006-02"
       ],
-      "aligned_qac_word_ref_upstream": "68:34:7",
-      "morpheme_skip_count": 0
+      "aligned_qac_word_ref_upstream": "68:34:7"
     }
   ],
   "branch_inventories": {
@@ -23716,27 +23716,26 @@
     },
     "word_morpheme_spans": {
       "present": true,
-      "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s068/linguistic/morphemes.tsv",
-      "alignment_version": "ordered-morpheme-spans-v2",
+      "alignment_version": "qac-analysis-bridge-v1",
+      "source_namespace": "word-analysis",
+      "target_namespace": "qac-morpheme",
+      "bridge": {
+        "source": "quran-data/data/bridges/qac-masaq.sqlite.gz",
+        "source_sha256": "a3dabe8200c3e172bfd1ea8eff1c051a250ab65eb7bd4dc0cb5144c9117d7a2a",
+        "schema_version": "qac-masaq-bridge-v1",
+        "sqlite_user_version": 4,
+        "release_id": "2026.09.02",
+        "release_manifest_sha256": "10c30bf9e36c8efcf14ee1cc1d9005024d2eaf97190135ad25b8ef314ebe28b6",
+        "qac_source_sha256": "706a45d150251ca3114a13499e2b665fe5596b03b2272557574f0ed58eb29594",
+        "word_analysis_tree_sha256": "95529b40cf4cbcdd88e855ef8418eb465820507b1fd3497094fa5075ecbb7f7e"
+      },
+      "linguistic_source_ref": "68:34",
       "words_total": 7,
       "words_resolved": 7,
       "words_unresolved": 0,
-      "morpheme_skip_total": 0,
-      "morpheme_skip_max": 0,
-      "morpheme_skip_histogram": {
-        "0": 7
-      },
       "unresolved": [],
-      "morphemes_tsv": {
-        "present": true,
-        "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s068/linguistic/morphemes.tsv",
-        "ayah_count": 52,
-        "row_count": 508,
-        "malformed_rows": 0,
-        "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
-        "dropped_preface_rows": 7
-      },
-      "note": "Ordered surface alignment within canonical QAC words; only spans shared by all best alignments are joined. Upstream word-analysis identities and wording are preserved. Unresolved analytic units remain available for qualified reading; never infer their QAC identity from upstream numbering."
+      "shared_morphemes": [],
+      "note": "Accepted bridge links preserve independent analysis identities. Several analysis entries may share canonical morphemes. Read their distinct semantic claims; shared morphology alone is not duplication. Legacy aligned_qac_word_ref values are source observations, not QAC joins. Excluded source entries remain available with their explicit qualification."
     },
     "word_analysis_qac_alignment": {
       "consistent": false,
@@ -23747,7 +23746,7 @@
           "68:34:7"
         ]
       },
-      "note": "aligned_qac_word_ref does NOT resolve against qac_morphemes for this ayah: word-analysis counts orthographic words where QAC counts morphological words. Word-level joins between word_analysis topics and QAC morphology are UNRELIABLE here. Upstream defect in quran-data's word-analysis; deliberately not auto-repaired (renumbering would fabricate identities)."
+      "note": "Legacy analysis and QAC numbers are separate source namespaces. Use accepted word_morpheme_spans for actual many-to-many joins. The legacy numbering observation is preserved, not used for alignment."
     },
     "qac_morphemes": {
       "present": true,

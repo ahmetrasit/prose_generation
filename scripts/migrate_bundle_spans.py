@@ -17,7 +17,7 @@ import tempfile
 
 import build_bundle as builder
 import pericope_bundle_manifest as manifest_lib
-from word_morpheme_alignment import ALIGNMENT_VERSION, coverage, resolve
+from _commentary.qac_analysis_bridge import ALIGNMENT_VERSION
 
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "_commentary" / "v3"))
@@ -53,17 +53,19 @@ def derive(bundle, morphology_cache):
         if source_ref != "1:1":
             raise ValueError("Prefatory input must explicitly use canonical 1:1")
         s, a = 1, 1
-    if s not in morphology_cache:
-        morphology_cache[s] = builder.load_morphemes_tsv(s)
-    by_ayah, source_coverage, source_path = morphology_cache[s]
-    if not source_path or not source_coverage.get("present"):
-        raise RuntimeError(f"Required morpheme source missing for surah {s}")
-    spans, gaps = resolve(bundle["word_analysis"], by_ayah.get(a, []))
+    spans, source_coverage = builder.build_word_qac_alignment(
+        bundle["word_analysis"], bundle["qac_morphemes"])
+    gaps = source_coverage["unresolved"]
     result = copy.deepcopy(bundle)
     result["word_morpheme_spans"] = spans
-    result.setdefault("coverage", {})["word_morpheme_spans"] = coverage(
-        spans, gaps, source_coverage, source_ref if bundle["ayah"] == 0 else None
-    )
+    result.setdefault("coverage", {})["word_morpheme_spans"] = source_coverage
+    legacy = result["coverage"].get("word_analysis_qac_alignment")
+    if isinstance(legacy, dict):
+        legacy["note"] = (
+            "Legacy analysis and QAC numbers are separate source namespaces. "
+            "Use accepted word_morpheme_spans for actual many-to-many joins. "
+            "The legacy numbering observation is preserved, not used for alignment."
+        )
     qac = _validated_qac_inventory(result, ayah_ref=source_ref)
     _word_analysis_qac_refs(result, ayah_ref=source_ref,
                            words=bundle["word_analysis"]["words"], qac=qac)
@@ -89,9 +91,12 @@ def migrate(root, apply=False):
             ("builder", "build_pericope_bundles.py"),
             ("lower_level_builder", "build_bundle.py"),
             ("manifest_implementation", "pericope_bundle_manifest.py"),
-            ("alignment_implementation", "word_morpheme_alignment.py"),
         )
     }
+    code_records["alignment_implementation"] = manifest_lib.file_record(
+        ROOT / "_commentary/qac_analysis_bridge.py", ROOT)
+    code_records["alignment_cache_implementation"] = manifest_lib.file_record(
+        ROOT / "_commentary/v5/qac_cache.py", ROOT)
     manifests, stale_manifests = [], []
     for path in sorted(root.rglob("pericope.bundle-manifest.json")):
         original = path.read_text(encoding="utf-8")
@@ -151,6 +156,12 @@ def migrate(root, apply=False):
                 failures.append({"path": str(path), "error": f"Summary has missing ayah {ref}"})
                 continue
             item["word_morpheme_spans"] = summaries[path.parent][ref]
+            if isinstance(item.get("word_analysis_qac_alignment"), dict):
+                item["word_analysis_qac_alignment"]["note"] = (
+                    "Legacy analysis and QAC numbers are separate source namespaces. "
+                    "Use accepted word_morpheme_spans for actual many-to-many joins. "
+                    "The legacy numbering observation is preserved, not used for alignment."
+                )
         if updated != bundle:
             aggregate_updates.append((path, original, updated))
 

@@ -57,8 +57,8 @@ class BasmalaBundleTests(unittest.TestCase):
             ),
             patch.object(
                 builder,
-                "resolve_word_morpheme_spans",
-                return_value=([], []),
+                "build_word_qac_alignment",
+                return_value=([], {"present": True, "unresolved": [], "linguistic_source_ref": "1:1"}),
             ),
             patch.object(
                 builder,

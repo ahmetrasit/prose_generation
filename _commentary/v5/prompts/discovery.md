@@ -29,6 +29,9 @@ lost.
   readings remain available, but upstream word numbering does not establish a
   QAC join. Inspect the supplied Arabic and morphology; qualify any uncertain
   carrier without treating a missing join as evidence against the reading.
+- Analysis refs and QAC refs have separate identities; use each word candidate's
+  `word_alignment` when supplied. Accepted overlaps can describe a whole expression and its component.
+  Shared morphemes alone do not make their semantic claims duplicates.
 - Candidates are a review docket, not an accepted list, discovery limit, or
   quota. Decide every candidate exactly once. Independently inspect the full
   relevant surface, supports, connections, and available branches for

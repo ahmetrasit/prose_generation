@@ -67,6 +67,7 @@ def compact_json_text(value):
 SCRIPT_PATH = Path(__file__).resolve()
 PROSE_GEN_ROOT = SCRIPT_PATH.parent.parent          # .../prose_generation
 PROJECTS_ROOT = PROSE_GEN_ROOT.parent               # .../_projects
+sys.path.insert(0, str(PROSE_GEN_ROOT))
 
 QURAN_DATA = PROJECTS_ROOT / "quran-data" / "data"
 LATENT_ACTIVATION_ROOT = PROJECTS_ROOT / "latent_activation"
@@ -2303,6 +2304,15 @@ def resolve_word_morpheme_spans(wa_record: dict, morpheme_rows: list) -> tuple:
     return resolve(wa_record, morpheme_rows)
 
 
+def build_word_qac_alignment(wa_record: dict, qac_rows: list) -> tuple:
+    """Project the release's accepted many-to-many links, preserving analysis."""
+    from _commentary.qac_analysis_bridge import get_bridge
+    try:
+        return get_bridge(QURAN_DATA.parent).align(wa_record, qac_rows)
+    except (OSError, ValueError, sqlite3.Error, subprocess.SubprocessError) as exc:
+        raise RequiredSourceMissing(f"Required word-analysis/QAC bridge: {exc}") from exc
+
+
 def check_word_alignment(surah: int, word_analysis: dict, qac_by_ayah: dict,
                           target_ayahs: list) -> dict:
     """Cross-validates word_analysis[].aligned_qac_word_ref against the QAC word
@@ -2454,31 +2464,21 @@ def preflight(surah: int, ayah_filter: int = None,
         f"{len(root_id_map)} roots mapped" if root_id_map else "no root_id map available; dictionary/gloss join will be empty for this surah",
     ))
 
-    morph_by_ayah, morph_cov, morph_path = load_morphemes_tsv(surah)
-    morph_display = morph_path or (V12_TR_DIR / f"s{surah:03d}" / "linguistic" / "morphemes.tsv")
-    rows.append(_row(
-        "Morphemes crosswalk (morphemes.tsv)", morph_display, False,
-        morph_cov.get("present", False),
-        morph_cov.get("note") if not morph_cov.get("present")
-        else f"{morph_cov.get('row_count')} rows / {morph_cov.get('ayah_count')} ayahs",
-    ))
-    if morph_cov.get("present"):
-        unresolved_total = 0
-        words_total = 0
-        for a in target_ayahs:
-            rec = word_analysis.get(f"{surah}:{a}") if word_analysis else None
-            if not rec:
-                continue
-            _spans, unres = resolve_word_morpheme_spans(rec, morph_by_ayah.get(a, []))
-            unresolved_total += len(unres)
-            words_total += len(rec.get("words", []) or [])
-        if unresolved_total:
-            rows.append(_row(
-                "  -> critical-word span resolution", morph_display, False, False,
-                f"{unresolved_total} of {words_total} critical words UNRESOLVED "
-                f"(surface match against morphemes.tsv); see per-ayah "
-                f"coverage.word_morpheme_spans.unresolved",
-            ))
+    bridge_path = QURAN_DATA / "bridges/qac-masaq.sqlite.gz"
+    if word_analysis and qac_by_ayah:
+        try:
+            resolved = total = 0
+            for a in target_ayahs:
+                _spans, cov = build_word_qac_alignment(
+                    word_analysis[f"{surah}:{a}"], qac_by_ayah.get(a, []))
+                resolved += cov["words_resolved"]
+                total += cov["words_total"]
+            rows.append(_row("Word-analysis/QAC bridge", bridge_path, True, True,
+                             f"{resolved}/{total} accepted analysis mappings; "
+                             "any excluded source entries remain explicitly qualified"))
+        except RequiredSourceMissing as exc:
+            rows.append(_row("Word-analysis/QAC bridge", bridge_path, True, False, str(exc)))
+            problems.append(str(exc))
 
     review_path = NETWORK_V3_DIR / f"s{surah:03d}" / "review" / "reader_a_pilot.md"
     rows.append(_row("Channel review", review_path, False, review_path.exists(),
@@ -2609,12 +2609,11 @@ def preflight(surah: int, ayah_filter: int = None,
         alignment = check_word_alignment(surah, word_analysis, qac_by_ayah, target_ayahs)
         if not alignment["consistent"]:
             print(
-                f"WARNING: word_analysis/QAC word alignment mismatch in "
+                f"NOTE: legacy analysis/QAC numbering differs in "
                 f"{alignment['ayahs_with_dangling_refs']} of {alignment['ayahs_checked']} "
-                f"ayah(s) for surah {surah}. Word-level joins between word_analysis "
-                f"topics and QAC morphology are UNRELIABLE for these ayahs "
-                f"(upstream defect; not auto-repaired -- see coverage."
-                f"word_analysis_qac_alignment).",
+                f"ayah(s) for surah {surah}. The accepted bridge supplies exact "
+                f"morpheme links in word_morpheme_spans; legacy numbers are preserved "
+                f"as source observations.",
                 file=sys.stderr,
             )
             for ref, d in list(alignment["detail"].items())[:12]:
@@ -2763,33 +2762,18 @@ def build_ayah_bundle(surah: int, ayah: int, quran_text: dict, word_analysis: di
         raise RequiredSourceMissing(f"word-analysis record missing for {ayah_ref}")
     coverage["word_analysis"] = {"present": True, "word_count": len(wa_record.get("words", []))}
 
-    # Deterministic crosswalk: resolve each critical word to a MORPHEME SPAN
-    # via linguistic/morphemes.tsv. Added alongside -- never replacing -- the
-    # upstream aligned_qac_word_ref.
-    morphemes_by_ayah, morph_cov, _morph_path = load_morphemes_tsv(surah)
-    word_spans, span_unresolved = resolve_word_morpheme_spans(
-        wa_record, morphemes_by_ayah.get(ayah, [])
-    )
-    skip_counts = [s.get("morpheme_skip_count", 0) for s in word_spans if s]
-    if any(count > 0 for count in skip_counts):
-        print(
-            f"WARNING: {ayah_ref}: alignment used non-zero morpheme skips for "
-            f"{sum(1 for count in skip_counts if count > 0)} word(s); "
-            f"see coverage.word_morpheme_spans.morpheme_skip_histogram",
-            file=sys.stderr,
-        )
+    word_spans, span_coverage = build_word_qac_alignment(
+        wa_record, qac_by_ayah.get(ayah, []))
+    span_unresolved = span_coverage["unresolved"]
     if span_unresolved:
         print(
             f"WARNING: {ayah_ref}: {len(span_unresolved)} of "
-            f"{len(wa_record.get('words', []) or [])} critical word(s) could not be "
-            f"resolved to a morpheme span via morphemes.tsv "
+            f"{len(wa_record.get('words', []) or [])} analysis entries are excluded "
+            f"from accepted bridge links by the source review "
             f"(see coverage.word_morpheme_spans.unresolved).",
             file=sys.stderr,
         )
-    from word_morpheme_alignment import coverage as span_coverage
-    coverage["word_morpheme_spans"] = span_coverage(
-        word_spans, span_unresolved, morph_cov
-    )
+    coverage["word_morpheme_spans"] = span_coverage
 
     # Cross-layer identity check: does this ayah's word-analysis actually align
     # to QAC words? Recorded per ayah so a consumer can refuse the join rather
@@ -2799,14 +2783,12 @@ def build_ayah_bundle(surah: int, ayah: int, quran_text: dict, word_analysis: di
         "consistent": this_ayah_alignment is None,
         "detail": this_ayah_alignment,
         "note": (
-            "aligned_qac_word_ref resolves against qac_morphemes for this ayah"
+            "Legacy analysis refs happen to use existing QAC word numbers; "
+            "use accepted word_morpheme_spans for actual joins."
             if this_ayah_alignment is None else
-            "aligned_qac_word_ref does NOT resolve against qac_morphemes for this "
-            "ayah: word-analysis counts orthographic words where QAC counts "
-            "morphological words. Word-level joins between word_analysis topics "
-            "and QAC morphology are UNRELIABLE here. Upstream defect in "
-            "quran-data's word-analysis; deliberately not auto-repaired "
-            "(renumbering would fabricate identities)."
+            "Legacy analysis numbering differs from QAC word numbering. "
+            "Accepted word_morpheme_spans supply the actual many-to-many joins; "
+            "source analysis identities remain unchanged."
         ),
     }
 
@@ -2963,10 +2945,7 @@ def build_basmala_bundle(
             f"QAC morphemes missing for {BASMALA_LINGUISTIC_SOURCE_REF}"
         )
 
-    morphemes_by_ayah, morph_coverage, _morph_path = load_morphemes_tsv(1)
-    word_spans, span_unresolved = resolve_word_morpheme_spans(
-        wa_record, morphemes_by_ayah.get(1, [])
-    )
+    word_spans, span_coverage = build_word_qac_alignment(wa_record, qac_rows)
     branch_inventories, branch_coverage = load_v12_branch_inventories(
         1, 1, qac_rows, []
     )
@@ -2991,7 +2970,6 @@ def build_basmala_bundle(
     channel_blocks = channel_blocks_for_ayah(channel_review, target_ref)
     channel_outputs, channel_outputs_coverage = load_channel_generated_outputs(surah)
 
-    from word_morpheme_alignment import coverage as span_coverage
     coverage = {
         "quran_text": {"present": True, "surface_ref": target_ref},
         "word_analysis": {
@@ -2999,9 +2977,7 @@ def build_basmala_bundle(
             "word_count": len(wa_record.get("words", [])),
             "linguistic_source_ref": BASMALA_LINGUISTIC_SOURCE_REF,
         },
-        "word_morpheme_spans": span_coverage(
-            word_spans, span_unresolved, morph_coverage, BASMALA_LINGUISTIC_SOURCE_REF
-        ),
+        "word_morpheme_spans": span_coverage,
         "word_analysis_qac_alignment": {
             "consistent": alignment_detail is None,
             "detail": alignment_detail,

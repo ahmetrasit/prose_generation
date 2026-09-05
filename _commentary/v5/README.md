@@ -37,7 +37,26 @@ Before bulk operation, check the actual saved inventory. The first command
 checks whether deterministic word-to-morpheme joins need migration; add
 `--apply` to regenerate only those joins and their coverage. It also updates
 surah coverage summaries and existing package manifests. Source analysis and
-agent outputs are preserved. Unresolved or ambiguous joins remain explicit.
+agent outputs are preserved. Reviewed source exclusions remain explicit.
+
+New generation and migration use the accepted `analysis_qac_edges` in
+`quran-data/data/bridges/qac-masaq.sqlite.gz`. Analysis identities are separate
+from QAC identities: a whole expression and its component can share morphemes.
+The loader verifies release checksums, bridge version and source metadata,
+the released analysis, and the bundled QAC rows. Missing, changed or incompatible
+sources fail preparation; source exclusions are retained with their reasons.
+The compressed databases are streamed into the existing disk cache, and one
+verified connection per process serves subsequent ayat. Local paths never enter
+the recorded bridge provenance.
+
+Legacy ordered spans retain their strict contract. Bridge-backed spans carry
+`analysis_ref` and verified QAC links instead of an exclusive traversal's
+`morpheme_skip_count`. Preparation verifies the complete mapping and its
+provenance against the release before allowing overlaps. This migration applies
+to canonical, prefatory and pericope copies through the same generation path.
+Bridge-verified analysis IDs may be sparse and larger than the analysis array's
+length. They remain source identities, never array positions. V5 also compares
+the delivered word-topic inventory with the source and refuses incomplete delivery.
 
 ```bash
 python3 scripts/migrate_bundle_spans.py --report /tmp/v5-span-audit.json
@@ -61,8 +80,10 @@ the audit reports any missing host files explicitly.
 For a selected production command, append `--check-only` to perform its full
 preparation without writing prompts. A successful result has `status: checked`.
 The QAC cache may be populated. `focus_word_alignment` in every new lane packet
-identifies analytic units without a reliable QAC join; their readings remain
-available, with explicit qualifications instead of guessed identities.
+identifies the bridge provenance, shared morphemes and excluded source units.
+Each word candidate also carries `word_alignment` with its analysis identity,
+exact QAC refs and status. Shared morphology does not make distinct semantic
+claims duplicates; excluded entries retain their source readings and qualification.
 
 For a batch, run the complete workflow for all selected ayat in parallel. Each
 ayah gets its own three `gpt-5.6-luna` max scope agents and its own fresh

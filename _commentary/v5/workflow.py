@@ -952,6 +952,14 @@ def _load_focus_inputs(
         raise WorkflowError(str(exc)) from exc
 
     if args.docket is not None:
+        if source_bundle.get("coverage", {}).get("word_morpheme_spans", {}).get(
+            "alignment_version") == "qac-analysis-bridge-v1":
+            from _commentary.qac_analysis_bridge import validate_bundle
+            try:
+                validate_bundle(source_bundle, source_ref=source_bundle.get(
+                    "linguistic_source_ref", args.ayah))
+            except (OSError, ValueError, RuntimeError) as exc:
+                raise WorkflowError(f"Invalid accepted word/QAC bridge mapping: {exc}") from exc
         _payload, docket = _load_json_object(Path(args.docket))
         try:
             validate_docket(docket)
@@ -1530,6 +1538,18 @@ def _normalize_and_route_lane_packets(
         raise WorkflowError("A lane packet candidate has no ID")
     if len(candidate_ids) != len(set(candidate_ids)):
         raise WorkflowError("A candidate appears in more than one source lane")
+    if source_bundle.get("coverage", {}).get("word_morpheme_spans", {}).get(
+        "alignment_version") == "qac-analysis-bridge-v1":
+        expected_topics = {topic["topic_id"]
+                           for word in source_bundle["word_analysis"]["words"]
+                           for topic in word.get("topics", [])}
+        delivered_topics = {candidate["source_local_id"]
+                            for _lane, candidate in all_candidates
+                            if candidate.get("source_type") == "word_analysis"}
+        if expected_topics != delivered_topics:
+            raise WorkflowError("Word-analysis topic delivery is incomplete: "
+                                f"missing={sorted(expected_topics - delivered_topics)}, "
+                                f"unexpected={sorted(delivered_topics - expected_topics)}")
 
     routed_candidates: dict[str, list[dict[str, Any]]] = {
         lane: [] for lane in LANES
@@ -1810,6 +1830,24 @@ def _build_lane_packet(
     except SystemExit as exc:
         raise WorkflowError(str(exc)) from exc
 
+    if source_bundle.get("coverage", {}).get("word_morpheme_spans", {}).get(
+        "alignment_version") == "qac-analysis-bridge-v1":
+        topic_links = {}
+        source_ref = source_bundle.get("linguistic_source_ref", source_bundle["ayahRef"])
+        for word, span in zip(source_bundle["word_analysis"]["words"],
+                              source_bundle["word_morpheme_spans"]):
+            link = {
+                "analysis_ref": f"{source_ref}:{word['critical_w']}",
+                "qac_refs": list(span["qac_refs"]) if span else [],
+                "status": "accepted" if span else "excluded-source-defect",
+            }
+            for topic in word.get("topics", []):
+                if topic["topic_id"] in topic_links:
+                    raise WorkflowError("Word-analysis topic identities are duplicated")
+                topic_links[topic["topic_id"]] = link
+        for candidate in packet["candidate_inventory"]:
+            if candidate.get("source_type") == "word_analysis":
+                candidate["word_alignment"] = copy.deepcopy(topic_links[candidate["source_local_id"]])
     units = copy.deepcopy(context_by_lane[lane])
     if lane == "macro":
         _append_host_basmala(
@@ -1980,6 +2018,7 @@ def prepare(args: argparse.Namespace) -> dict[str, Any]:
             key: alignment[key] for key in (
                 "alignment_version", "words_total", "words_resolved",
                 "words_unresolved", "unresolved", "note",
+                "source_namespace", "target_namespace", "bridge", "shared_morphemes",
             ) if key in alignment
         }
     packet_evidence.attach_context_evidence(

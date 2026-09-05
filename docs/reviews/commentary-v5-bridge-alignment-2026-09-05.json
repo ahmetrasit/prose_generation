@@ -1,0 +1,116 @@
+{
+  "alignment_version": "qac-analysis-bridge-v1",
+  "mapped_input_files": 3086,
+  "words_total": 42140,
+  "words_resolved": 42138,
+  "source_exclusions": [
+    {
+      "path": "bundles/s017/17_28.ayah.json",
+      "words": [
+        {
+          "word_index": 11,
+          "analysis_ref": "17:28:12",
+          "surface_ar": "قُل",
+          "status": "excluded-source-defect",
+          "reason": "duplicate_qul_cannot_map_to_masaq_lam"
+        }
+      ]
+    },
+    {
+      "path": "bundles/s017-pericopes/p02_023-039/17_28.ayah.json",
+      "words": [
+        {
+          "word_index": 11,
+          "analysis_ref": "17:28:12",
+          "surface_ar": "قُل",
+          "status": "excluded-source-defect",
+          "reason": "duplicate_qul_cannot_map_to_masaq_lam"
+        }
+      ]
+    }
+  ],
+  "preservation": {
+    "files": 3155,
+    "words": 42140,
+    "topics": 144237,
+    "resolved": 42138,
+    "source_changes": [],
+    "words_without_topics": []
+  },
+  "preparation_counts": {
+    "checked": 5318,
+    "error": 4
+  },
+  "preparation_results": "docs/reviews/commentary-v5-bridge-preparation-2026-09-05.jsonl.gz",
+  "preparation_results_sha256": "5a865af9f6eee603214116361cc869593d29723f9c206acf10928caac48309b4",
+  "preparation_method": "Actual serialized lane JSON was decoded and compared against all source word topics, their full word/topic support fields, and exact QAC links. The complete sweep preceded the sparse-ID correction; all five affected configurations were rechecked after that correction. Other changes after the sweep were the explicit analysis namespace and a topic-completeness guard.",
+  "remaining_layout_gaps": [
+    {
+      "path": "bundles/s005/5_0.ayah.json",
+      "error": "WorkflowError: Selected context bundle is missing or not regular"
+    },
+    {
+      "path": "bundles/s012/12_0.ayah.json",
+      "error": "WorkflowError: Selected context bundle is missing or not regular"
+    },
+    {
+      "path": "bundles/s018/18_0.ayah.json",
+      "error": "WorkflowError: Selected context bundle is missing or not regular"
+    },
+    {
+      "path": "bundles/s022/22_0.ayah.json",
+      "error": "WorkflowError: Selected context bundle is missing or not regular"
+    }
+  ],
+  "restored_source_topics": {
+    "unique_ayat": 3,
+    "unique_topics": 110,
+    "topics_including_copies": 155,
+    "files": [
+      {
+        "path": "bundles/s024/24_31.ayah.json",
+        "units": 23,
+        "topics": 45
+      },
+      {
+        "path": "bundles/s005-pericopes/p01_001-011/5_3.ayah.json",
+        "units": 13,
+        "topics": 19
+      },
+      {
+        "path": "bundles/s024-pericopes/p01_001-034/24_31.ayah.json",
+        "units": 23,
+        "topics": 45
+      },
+      {
+        "path": "bundles/s012-pericopes/p02_019-035/12_31.ayah.json",
+        "units": 10,
+        "topics": 46
+      }
+    ]
+  },
+  "fresh_preparations": {
+    "count": 29,
+    "status": "checked",
+    "whole_surah": "100:0-11",
+    "pericope": "29:28-44"
+  },
+  "supplemental_checks": {
+    "bridge_integration_tests": 8,
+    "builder_tests": 34,
+    "v3_preparation_tests": 74,
+    "v5_tests": 89
+  },
+  "code_sha256": {
+    "_commentary/qac_analysis_bridge.py": "d703f066b7e301b0f0e071840999a918ec3be3fa31c6c08f9d890128ba5da11a",
+    "_commentary/v3/v3lib/prepare.py": "8d4533bfca6557ba0feb4aee8cedbeecef7655839b2dba905ba56ce1048d5110",
+    "_commentary/v3/v3lib/discovery.py": "4330f27db2ff5910f6f541b0c6a86295761f5d0550ee3441e875ebd52ded7e4b",
+    "_commentary/v5/workflow.py": "393a93df02a6b30fea872fc200eab1a50d9b732790ce9da884e42ce013e76706",
+    "_commentary/v5/qac_cache.py": "4da216ac0843f59e19e8a544bc5aefceb439deb01f7fce494050b4a59de201c8",
+    "_commentary/v5/prompts/discovery.md": "992d1ecca40bf81f286a68abaf68040683cf6768e57589b64724ee86c4e3904a",
+    "scripts/build_bundle.py": "c59822945e94394d82a033580fce511a5de9919f7d0e75a2915ddbdd8c3cf47f",
+    "scripts/build_pericope_bundles.py": "874b923e1f5444d43a081285029dc757715a2563532e89615de072983da9ef93",
+    "scripts/pericope_bundle_manifest.py": "3ac5147ff2acd58d4b4decbf4cc0ac66c6e7ac1172a41f7cd37c62a87b80a65e",
+    "scripts/migrate_bundle_spans.py": "9d2a9015676dc2f0de40d00bc10f51bdb7d75bca37eccacf7022f17d2a26498a"
+  }
+}

@@ -405,7 +405,12 @@ def _validate_bundle_shape(source: dict[str, Any]) -> None:
         "morpheme_skip_count",
     }
     seen_span_qac_refs: set[str] = set()
-    for index, raw_span in enumerate(spans):
+    bridge_aligned = bundle.get("coverage", {}).get("word_morpheme_spans", {}).get(
+        "alignment_version") == "qac-analysis-bridge-v1"
+    if bridge_aligned:
+        from .prepare import _word_analysis_qac_refs
+        _word_analysis_qac_refs(bundle, ayah_ref=source["ayah_ref"], words=words, qac=qac)
+    for index, raw_span in enumerate([] if bridge_aligned else spans):
         if raw_span is None:
             continue
         span = _dict(raw_span, f"word_morpheme_spans[{index}]")

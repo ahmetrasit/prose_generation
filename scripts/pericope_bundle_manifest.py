@@ -440,11 +440,22 @@ def validate_manifest(
         expected=expected_lower_level_builder,
     )
     if "alignment_implementation" in manifest:
+        alignment_name = Path(manifest["alignment_implementation"].get("path", "")).name
+        if alignment_name not in {"word_morpheme_alignment.py", "qac_analysis_bridge.py"}:
+            raise PericopeManifestError("Unknown word alignment implementation")
         verify_file_record(
             manifest["alignment_implementation"],
             label="word alignment implementation",
             repo_root=repo_root,
-            expected=expected_lower_level_builder.parent / "word_morpheme_alignment.py",
+            expected=(repo_root / "_commentary/qac_analysis_bridge.py"
+                      if alignment_name == "qac_analysis_bridge.py"
+                      else expected_lower_level_builder.parent / alignment_name),
+        )
+    if "alignment_cache_implementation" in manifest:
+        verify_file_record(
+            manifest["alignment_cache_implementation"],
+            label="alignment cache implementation", repo_root=repo_root,
+            expected=repo_root / "_commentary/v5/qac_cache.py",
         )
 
     source = manifest.get("source")

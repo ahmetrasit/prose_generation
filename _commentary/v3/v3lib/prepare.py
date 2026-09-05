@@ -5,6 +5,7 @@ from __future__ import annotations
 import copy
 import json
 import re
+import sys
 import unicodedata
 from dataclasses import dataclass
 from pathlib import Path
@@ -742,7 +743,7 @@ def _validated_word_ref(
     value: Any,
     *,
     ayah_ref: str,
-    word_count: int,
+    word_count: int | None,
     label: str,
 ) -> str:
     if not isinstance(value, str):
@@ -750,7 +751,9 @@ def _validated_word_ref(
     match = WORD_REF_RE.fullmatch(value)
     if not match or f"{int(match.group(1))}:{int(match.group(2))}" != ayah_ref:
         raise ValidationError(f"{label} must belong to focus ayah {ayah_ref}")
-    if int(match.group(3)) > word_count:
+    # Bridge-verified analysis identities may be sparse; their numeric suffix
+    # is not an index into the word-analysis array or the QAC word table.
+    if word_count is not None and int(match.group(3)) > word_count:
         raise ValidationError(
             f"{label} word index exceeds the {word_count} word-analysis rows"
         )
@@ -1366,6 +1369,14 @@ def _word_analysis_qac_refs(
     qac: list[dict[str, Any]],
 ) -> list[list[str]]:
     """Build the lossless word-analysis-to-QAC join used for root contact."""
+    alignment = bundle.get("coverage", {}).get("word_morpheme_spans", {})
+    if alignment.get("alignment_version") == "qac-analysis-bridge-v1":
+        sys.path.insert(0, str(Path(__file__).resolve().parents[3]))
+        from _commentary.qac_analysis_bridge import validate_bundle
+        try:
+            return validate_bundle(bundle, source_ref=ayah_ref)
+        except (OSError, ValueError, RuntimeError) as exc:
+            raise ValidationError(f"Invalid accepted word/QAC bridge mapping: {exc}") from exc
     qac_by_ref = {row["qac_ref"]: row for row in qac}
     qac_position = {row["qac_ref"]: index for index, row in enumerate(qac)}
     if "word_morpheme_spans" not in bundle:
@@ -1484,6 +1495,8 @@ def _focus_packet(bundle: dict[str, Any], *, ayah_ref: str) -> dict[str, Any]:
         arabic = text
     analysis = bundle.get("word_analysis")
     words = analysis.get("words") if isinstance(analysis, dict) else None
+    bridge_aligned = bundle.get("coverage", {}).get("word_morpheme_spans", {}).get(
+        "alignment_version") == "qac-analysis-bridge-v1"
     word_analysis_refs: list[str | None] = []
     word_analysis_qac_refs: list[list[str]] = []
     if isinstance(words, list):
@@ -1491,11 +1504,12 @@ def _focus_packet(bundle: dict[str, Any], *, ayah_ref: str) -> dict[str, Any]:
             try:
                 word_analysis_refs.append(
                     _validated_word_ref(
-                        word.get("aligned_qac_word_ref")
+                        (f"{ayah_ref}:{word.get('critical_w')}" if bridge_aligned
+                         else word.get("aligned_qac_word_ref"))
                         if isinstance(word, dict)
                         else None,
                         ayah_ref=ayah_ref,
-                        word_count=len(words),
+                        word_count=None if bridge_aligned else len(words),
                         label=f"word_analysis.words[{index}].aligned_qac_word_ref",
                     )
                 )
@@ -1512,6 +1526,7 @@ def _focus_packet(bundle: dict[str, Any], *, ayah_ref: str) -> dict[str, Any]:
         "qac_morphemes": morphemes,
         "word_analysis_refs": word_analysis_refs,
         "word_analysis_qac_refs": word_analysis_qac_refs,
+        **({"word_analysis_ref_namespace": "word-analysis"} if bridge_aligned else {}),
     }
 
 
@@ -1601,6 +1616,8 @@ def _word_candidates(
     candidates: list[dict[str, Any]] = []
     ledger: list[dict[str, Any]] = []
     word_count = len(words)
+    bridge_aligned = bundle.get("coverage", {}).get("word_morpheme_spans", {}).get(
+        "alignment_version") == "qac-analysis-bridge-v1"
     for word_index, raw_word in enumerate(words):
         if not isinstance(raw_word, dict):
             local_id = f"word-{word_index}:invalid"
@@ -1616,9 +1633,10 @@ def _word_candidates(
             continue
         try:
             word_ref = _validated_word_ref(
-                raw_word.get("aligned_qac_word_ref"),
+                (f"{ayah_ref}:{raw_word.get('critical_w')}" if bridge_aligned
+                 else raw_word.get("aligned_qac_word_ref")),
                 ayah_ref=ayah_ref,
-                word_count=word_count,
+                word_count=None if bridge_aligned else word_count,
                 label=f"word_analysis.words[{word_index}].aligned_qac_word_ref",
             )
         except ValidationError as exc:
@@ -3073,6 +3091,9 @@ def validate_docket(docket: dict[str, Any]) -> None:
     if len(support_ids) != len(supports):
         raise ValidationError("Support IDs must be present and unique")
     focus = _require_dict(docket.get("focus"), "docket focus")
+    namespaced_analysis = "word_analysis_ref_namespace" in focus
+    if namespaced_analysis and focus["word_analysis_ref_namespace"] != "word-analysis":
+        raise ValidationError("Unknown word-analysis identity namespace")
     _require_exact_keys(
         focus,
         {
@@ -3080,7 +3101,7 @@ def validate_docket(docket: dict[str, Any]) -> None:
             "qac_morphemes",
             "word_analysis_refs",
             "word_analysis_qac_refs",
-        },
+        } | ({"word_analysis_ref_namespace"} if namespaced_analysis else set()),
         "docket focus",
     )
     if not isinstance(focus.get("arabic_uthmani"), str) or not focus[
@@ -3134,7 +3155,7 @@ def validate_docket(docket: dict[str, Any]) -> None:
         _validated_word_ref(
             word_ref,
             ayah_ref=identity["ayah_ref"],
-            word_count=len(word_analysis_refs),
+            word_count=None if namespaced_analysis else len(word_analysis_refs),
             label=f"docket focus word_analysis_refs[{index}]",
         )
     word_analysis_qac_refs = _require_list(
