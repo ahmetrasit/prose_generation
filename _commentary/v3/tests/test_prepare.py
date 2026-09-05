@@ -649,7 +649,18 @@ class PrepareTests(unittest.TestCase):
         )
         self.assertEqual(
             expanded.resolve_text("س م و:B004"),
-            (["root_000745/B004", "root_009999/B004"], []),
+            (
+                ["root_000745/B004", "root_009999/B004"],
+                [
+                    {
+                        "citation": "س م و/B004",
+                        "reason": (
+                            "ambiguous root mapping expanded as alternatives: "
+                            "root_000745/B004, root_009999/B004"
+                        ),
+                    }
+                ],
+            ),
         )
 
     def test_unknown_explicit_branch_is_diagnostic_not_support_metadata(self) -> None:

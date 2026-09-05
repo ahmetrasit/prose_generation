@@ -1,31 +1,15 @@
-# Handoff: V5 operations integration
+# Handoff: V5 operations contract
 
-## Objective
+## Status
 
-Update `_commentary/v5/ORCHESTRATION.md` so every V5 orchestrator uses the
-existing operations monitor. Keep the analytical workflow unchanged. This is a
-documentation-only task. Keep the runbook limited to what a V5 orchestrator and
-its spawned agents must do; do not expose Firebase administration or monitor
-implementation details there.
+The operations integration is implemented. The authoritative cold-agent
+instructions are in `_commentary/v5/ORCHESTRATION.md`; this file records the
+boundary that future orchestration changes must preserve. It is not an
+outstanding documentation task.
 
-## Allowed scope
+## Orchestrator Boundary
 
-Edit only:
-
-```text
-_commentary/v5/ORCHESTRATION.md
-```
-
-Do not edit `workflow.py`, analytical prompts, prose outputs, validators, the
-operations implementation, or Firebase configuration. Do not deploy Firebase.
-
-## Required changes
-
-### 1. Register the orchestrator once
-
-Add a short `Operations Monitor` section before `1. Preflight`. Require the
-orchestrator to use the passcode supplied by the operator in the orchestration
-request and launch one monitor before beginning work:
+An orchestrator starts one existing monitor process before preflight:
 
 ```bash
 V5_MONITOR_PASSCODE='<operator-supplied-passcode>' \
@@ -37,65 +21,33 @@ python3 _commentary/v5/operations/monitor.py start \
   --scope <scope-selector>
 ```
 
-State these rules compactly:
+- Use `commentary-v5` as the shared run ID unless the operator supplies another.
+- The passcode is at least 12 characters and exists only in the startup process
+  environment. It is never written to files, logs, prompts, agent messages,
+  commits, or final responses.
+- Firebase project details are configured defaults. Ordinary orchestrators do
+  not administer passcodes, provision Firebase, or deploy the dashboard.
+- A second start for the same live run/orchestrator identity is refused.
+- `_commentary/v5/operations/runtime/` is the sole operational-state exception
+  to V5's no-ledger rule. It is not commentary evidence or an analytical gate.
 
-- The passcode must be at least 12 characters. If the operator did not supply
-  one, ask for it before starting the monitor or launching agents.
-- Use the passcode only for the `monitor.py start` process. Never write the
-  plaintext value to a repository file, runtime event, agent launch message,
-  final response, or commit. Scope agents and consolidators do not need it.
-- The Firebase project and Web API key are already configured as monitor
-  defaults. Do not request, set, or pass them during ordinary orchestration.
-- All machines participating in one run use the same `run-id`.
-- Every orchestrator uses an `orchestrator-id` unique across all participating
-  machines and accounts.
-- One registration covers one `analysis-id`; repeat `--scope` when needed.
-- Valid scope selectors are `S`, `S-T`, `S:A`, and `S:A-B`.
-- The orchestrator launches the existing script. It does not create or copy a
-  daemon script.
-- Require a successful `status: started` result before proceeding. If startup
-  fails, do not launch analysis agents; report the error to the operator.
-- Passcode administration, Firebase sign-in, provisioning, API details,
-  Firestore paths/rules, dashboard behavior, dependency installation, and
-  deployment are outside the V5 orchestrator's role. Do not add any of them to
-  the cold-agent runbook.
-
-### 2. Preserve the no-ledger rule with one exception
-
-The current runbook prohibits ledgers, manifests, hidden state, and audit files.
-Keep that prohibition, but add this explicit exception:
-
-```text
-_commentary/v5/operations/runtime/
-```
-
-Clarify that this directory is monitor-owned, ignored by Git, operational only,
-and must never be read as commentary evidence or used as an analytical gate.
-Agents must not create any other tracking files.
-
-### 3. Check pause before each new ayah
-
-In `Batch Rules`, require this command immediately before beginning the next
-ayah's analysis or launching its first scope agents:
+Immediately before launching the first scope agents for every new ayah, use the
+nonblocking local check:
 
 ```bash
-python3 _commentary/v5/operations/monitor.py wait \
+python3 _commentary/v5/operations/monitor.py check \
   --run-id <shared-run-id> \
   --orchestrator-id <unique-orchestrator-id>
 ```
 
-Pause is cooperative. An ayah already in progress may finish; no new ayah may
-start until `wait` returns `running`. Do not introduce direct remote messaging
-to agents.
+`paused` defers that not-yet-started ayah. It does not interrupt active ayat or
+hold a terminal open. The daemon mirrors Firebase control state to the local
+marker; agents never poll Firebase directly.
 
-### 4. Add the scope-agent lifecycle boundary
+## Agent Lifecycle
 
-Amend the instruction that currently gives scope agents "only" the prompt path.
-The launch message may contain only the prompt path, the instruction to follow
-it, and the start/terminal lifecycle command templates. Do not pass the monitor
-passcode or any Firebase details to a scope agent.
-
-The scope agent runs this before analysis:
+Every scope agent writes one `started` event before analysis and one terminal
+event only after its second-turn prose work:
 
 ```bash
 python3 _commentary/v5/operations/monitor.py event \
@@ -105,90 +57,41 @@ python3 _commentary/v5/operations/monitor.py event \
   --role scope \
   --lane <micro|macro|global> \
   --agent-id <spawn-task-name> \
-  --status started
+  --status <started|completed|failed|interrupted|attention>
 ```
 
-Immediately before its final response from the second, prose-writing turn, the
-same agent runs the same command with one terminal status: `completed`,
-`failed`, `interrupted`, or `attention`. It must not append a terminal event
-after its first-turn nomination response. `completed` is allowed only after its
-requested scope prose file exists.
+The consolidator uses the same two-event lifecycle with `--role canonical` and
+no lane. Its terminal event comes only after consolidated prose, editorial
+prose, and the validator/repair cycle. `canonical completed` attests that the
+editorial validator passed.
 
-Use the spawn task name as `agent-id`; it is stable and known before launch. Do
-not pass `--attempt`. Each new `started` event receives the next attempt number
-automatically, including an unplanned rerun.
+- Do not pass the passcode or Firebase details to spawned agents.
+- Do not pass `--attempt`; every new `started` event allocates the next attempt.
+- A failed spawn is recorded by the orchestrator as a new `attention` attempt.
+- If an agent disappears, leave its start-only attempt open so the dashboard can
+  show it as potentially stalled.
+- Events contain only short operational descriptions, never prose, evidence,
+  prompts, or reasoning.
+- Never infer completion from an artifact or response alone.
 
-### 5. Add the consolidator lifecycle boundary
+## Shutdown
 
-Add the corresponding commands to the consolidator launch and editorial
-follow-up contract. Do not pass the monitor passcode or Firebase details to the
-consolidator:
+After all assigned ayat and spawned agents are finished:
 
 ```bash
-python3 _commentary/v5/operations/monitor.py event \
+python3 _commentary/v5/operations/monitor.py stop \
   --run-id <shared-run-id> \
-  --orchestrator-id <unique-orchestrator-id> \
-  --ayah-ref <S:A> \
-  --role canonical \
-  --agent-id <spawn-task-name> \
-  --status started
+  --orchestrator-id <unique-orchestrator-id>
 ```
 
-The consolidator starts its event before consolidation and must not append a
-terminal event after its first-pass response. It emits its canonical terminal
-event only after the editorial follow-up, after it has written the consolidated
-prose, written the editorial prose, and finished the required validator/repair
-cycle. `canonical completed` means the editorial validator passed. If the
-validator is still nonzero after the two permitted repair/rerun cycles, use
-`attention`; use `failed` when required output could not be produced and
-`interrupted` when the lifecycle was interrupted.
+The daemon performs at most two final sync attempts. A `stopped` response means
+it has exited. A successful `stop_requested` response means that bounded final
+sync continues in the detached process; the command does not fail or block the
+orchestrator indefinitely.
 
-Do not add a separate validator agent or require per-step progress events. Keep
-the agreed start/final lifecycle minimal.
+## Deliberate Omissions
 
-### 6. Define the failure fallback
-
-Add one short operational rule:
-
-- If a launched agent terminates before appending its terminal event, leave its
-  start event incomplete; that is how the dashboard identifies a possible
-  stall.
-- If spawning fails before the new agent can write `started`, the orchestrator
-  writes an `attention` event for the intended ayah, role, agent ID, and scope
-  lane when applicable.
-- Never fabricate `completed` from the presence of a response alone.
-- Event messages must remain short operational descriptions. Never put prose,
-  evidence, prompts, or model reasoning in event logs.
-- A rerun uses a new `started` event and receives a new attempt automatically;
-  never close or overwrite the earlier attempt to make the dashboard look
-  successful.
-
-## Required consistency cleanup
-
-Update the `Fixed Sequence`, `Scope Agents`, `Consolidation`, `Editorial
-Follow-Up`, `Batch Rules`, and `Operational Rules` wording only where necessary
-to make the additions above non-contradictory. Do not otherwise reorganize or
-rewrite those sections.
-
-The current monitor already interprets a final `canonical completed` event as
-confirmation that the mandatory validator cycle passed. Preserve the two-event
-consolidator lifecycle; do not add separate validator events to the runbook.
-
-## Acceptance checks
-
-- Exactly one monitor is started per orchestrator registration.
-- Pause is checked once before each newly started ayah, not between steps of an
-  active ayah.
-- Each normally finishing scope agent has one start and one terminal event; an
-  unexpectedly terminated agent intentionally remains start-only.
-- Each normally finishing consolidator has one start and one terminal event
-  covering consolidation, editorial work, and validation; an unexpectedly
-  terminated consolidator intentionally remains start-only.
-- Reruns require no manual attempt bookkeeping.
-- The plaintext passcode appears only in the operator-to-orchestrator request
-  and the environment of the monitor startup command; it is not propagated to
-  spawned agents or files.
-- The existing evidence, model, prompt, file-path, validator, and concurrency
-  rules remain unchanged.
-- No Git automation, supervisor, queue, restart recovery, or agent-spawning
-  daemon is introduced.
+The monitor does not spawn agents, manage a queue, auto-commit Git changes,
+recover work after machine restart, or run as a permanent supervisor. Its
+registration format remains compatible with a future always-running launcher,
+but that launcher is not implemented.

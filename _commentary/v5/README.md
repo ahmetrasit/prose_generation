@@ -75,6 +75,10 @@ V5 orchestration uses the operations monitor documented in
 state under `_commentary/v5/operations/runtime/`; that directory is not
 commentary evidence and is not an analytical gate.
 
+Consolidation receives all three discovery JSON objects as well as all three
+scope prose files. Discovery evidence facts and exact branch fields control
+source facts; scope prose controls intended coverage but may be corrected when
+it demonstrably misstates grammar, morphology, or lexical identity.
 Consolidation is prose work, not evidence selection. Every retained scope
 finding must keep its carrier, independent trigger, contact, changed reading,
 concrete semantic detail, and boundary visible in the reader-facing result.

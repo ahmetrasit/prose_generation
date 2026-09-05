@@ -469,6 +469,15 @@ class BranchResolver:
                     and self.expand_ambiguous_native_branches
                 ):
                     resolved.update(candidates)
+                    unresolved.append(
+                        {
+                            "citation": citation,
+                            "reason": (
+                                "ambiguous root mapping expanded as alternatives: "
+                                + ", ".join(candidates)
+                            ),
+                        }
+                    )
                 elif not candidates:
                     unresolved.append(
                         {"citation": citation, "reason": "no registered branch match"}

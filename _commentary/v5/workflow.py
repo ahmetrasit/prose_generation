@@ -25,11 +25,19 @@ RAW_ROOT = V5_ROOT / "raw"
 EDITORIAL_ROOT = V5_ROOT / "editorial"
 DEFAULT_CONTEXT_BUNDLES_DIR = REPO_ROOT / "bundles"
 LANES = ("micro", "macro", "global")
+LANE_RANK = {lane: index for index, lane in enumerate(LANES)}
 MAX_BATCH_UNITS = 512
 MAX_JSON_BYTES = 128_000_000
 MAX_SCOPE_PROMPT_BYTES = 16_000_000
-SCOPE_DISCOVERY_SCHEMA_VERSION = "commentary-v5-scope-discovery-v1"
+SCOPE_DISCOVERY_SCHEMA_VERSION = "commentary-v5-scope-discovery-v2"
 MARKER_RE = re.compile(r"@@[A-Z0-9_]+@@")
+QURAN_REF_IN_TEXT_RE = re.compile(
+    r"(?<![0-9:])([1-9][0-9]*):(0|[1-9][0-9]*)"
+    r"(?:[-\u2013\u2014]([1-9][0-9]*))?(?![0-9:])"
+)
+QURAN_COORDINATE_RE = re.compile(
+    r"([1-9][0-9]*):(0|[1-9][0-9]*)(?::[1-9][0-9]*){1,2}"
+)
 INTER_AYAH_FILE_RE = re.compile(
     r"focus_([1-9][0-9]*)_([1-9][0-9]*)_cutoff_100\.tsv"
 )
@@ -121,6 +129,7 @@ PREPARE_OPTIONS = PrepareOptions(
     demote_unresolved_mandatory_candidates=True,
     max_optional_candidates=80,
     max_support_chars=8_000,
+    max_docket_bytes=4_800_000,
 )
 
 
@@ -258,6 +267,450 @@ def _canonical_json(value: Any) -> str:
         sort_keys=True,
         separators=(",", ":"),
     )
+
+
+def _record_line_json(value: dict[str, Any]) -> str:
+    """Render valid JSON with large registry records on separate lines."""
+    lines = ["{"]
+    keys = sorted(value)
+    for key_index, key in enumerate(keys):
+        prefix = _canonical_json(key) + ":"
+        item = value[key]
+        comma = "," if key_index < len(keys) - 1 else ""
+        if isinstance(item, list) and item:
+            lines.append(prefix + "[")
+            for row_index, row in enumerate(item):
+                row_comma = "," if row_index < len(item) - 1 else ""
+                lines.append(_canonical_json(row) + row_comma)
+            lines.append("]" + comma)
+        else:
+            lines.append(prefix + _canonical_json(item) + comma)
+    lines.append("}")
+    return "\n".join(lines)
+
+
+def _quran_ref_sort_key(ref: str) -> tuple[int, int]:
+    surah, ayah = ref.split(":", 1)
+    return int(surah), int(ayah)
+
+
+def _canonical_extracted_ref(surah: int, ayah: int) -> str | None:
+    if not 1 <= surah <= len(QURAN_AYAH_COUNTS):
+        return None
+    if ayah == 0:
+        if surah in compositions.BASMALA_EXCLUDED_SURAHS:
+            return None
+    elif not 1 <= ayah <= QURAN_AYAH_COUNTS[surah - 1]:
+        return None
+    return f"{surah}:{ayah}"
+
+
+def _coordinate_ayah_ref(value: str) -> str | None:
+    match = QURAN_COORDINATE_RE.fullmatch(value)
+    if match is None:
+        return None
+    return _canonical_extracted_ref(int(match.group(1)), int(match.group(2)))
+
+
+def _extract_quran_refs(value: Any) -> list[str]:
+    """Extract canonical ayah refs, including refs in serialized JSON text."""
+    refs: set[str] = set()
+
+    def add_range(surah_text: str, first_text: str, last_text: str | None) -> None:
+        surah = int(surah_text)
+        first = int(first_text)
+        last = int(last_text or first_text)
+        if (
+            last < first
+            or _canonical_extracted_ref(surah, first) is None
+            or _canonical_extracted_ref(surah, last) is None
+        ):
+            return
+        refs.update(
+            ref
+            for ayah in range(first, last + 1)
+            if (ref := _canonical_extracted_ref(surah, ayah)) is not None
+        )
+
+    def visit(item: Any) -> None:
+        if isinstance(item, str):
+            stripped = item.strip()
+            if coordinate_ref := _coordinate_ayah_ref(stripped):
+                refs.add(coordinate_ref)
+            if stripped.startswith(("{", "[")):
+                try:
+                    decoded = json.loads(stripped)
+                except json.JSONDecodeError:
+                    decoded = None
+                if isinstance(decoded, (dict, list)):
+                    visit(decoded)
+                    return
+            for match in QURAN_COORDINATE_RE.finditer(item):
+                coordinate_ref = _canonical_extracted_ref(
+                    int(match.group(1)), int(match.group(2))
+                )
+                if coordinate_ref is not None:
+                    refs.add(coordinate_ref)
+            for match in QURAN_REF_IN_TEXT_RE.finditer(item):
+                add_range(*match.groups())
+        elif isinstance(item, list):
+            for child in item:
+                visit(child)
+        elif isinstance(item, dict):
+            for key, child in item.items():
+                visit(key)
+                visit(child)
+
+    visit(value)
+    return sorted(refs, key=_quran_ref_sort_key)
+
+
+def _candidate_linked_supports(
+    candidate: dict[str, Any], support_map: dict[str, dict[str, Any]]
+) -> list[dict[str, Any]]:
+    return [
+        support_map[support_id]
+        for support_id in candidate.get("support_ids", [])
+        if isinstance(support_id, str) and support_id in support_map
+    ]
+
+
+def _candidate_specific_supports(
+    candidate: dict[str, Any], support_map: dict[str, dict[str, Any]]
+) -> list[dict[str, Any]]:
+    """Return supports that define this candidate rather than its shared word."""
+    linked = _candidate_linked_supports(candidate, support_map)
+    source_local_id = candidate.get("source_local_id")
+    if not isinstance(source_local_id, str):
+        return linked
+    specific = [
+        support
+        for support in linked
+        if support.get("source_local_id") == source_local_id
+    ]
+    return specific or linked
+
+
+def _context_refs_for_support(
+    support: dict[str, Any], *, focus_ref: str, linguistic_source_ref: str
+) -> tuple[list[str], list[str]]:
+    source = {
+        key: value
+        for key, value in support.items()
+        if key not in {"quran_refs", "context_refs"}
+    }
+    quran_refs = set(_extract_quran_refs(source))
+    quran_refs.update(_extract_quran_refs(support.get("quran_refs", [])))
+    explicit_context = {
+        ref
+        for ref in support.get("context_refs", [])
+        if isinstance(ref, str) and compositions.REF_RE.fullmatch(ref) is not None
+    }
+    quran_refs.update(explicit_context)
+    context_refs = quran_refs - {focus_ref}
+    if linguistic_source_ref != focus_ref:
+        context_refs.discard(linguistic_source_ref)
+        context_refs.update(explicit_context - {focus_ref, linguistic_source_ref})
+    return (
+        sorted(quran_refs, key=_quran_ref_sort_key),
+        sorted(context_refs, key=_quran_ref_sort_key),
+    )
+
+
+def _candidate_required_context_refs(
+    candidate: dict[str, Any],
+    support_map: dict[str, dict[str, Any]],
+    *,
+    focus_ref: str,
+    linguistic_source_ref: str,
+) -> list[str]:
+    refs: set[str] = set()
+    for anchor in candidate.get("anchor_refs", []):
+        if not isinstance(anchor, str):
+            continue
+        if coordinate_ref := _coordinate_ayah_ref(anchor):
+            refs.add(coordinate_ref)
+        refs.update(_extract_quran_refs(anchor))
+    for support in _candidate_specific_supports(candidate, support_map):
+        refs.update(support.get("context_refs", []))
+    refs.discard(focus_ref)
+    refs.discard(linguistic_source_ref)
+    return sorted(refs, key=_quran_ref_sort_key)
+
+
+ROOT_DISPLAY_RE = re.compile(r"\{\{ar:([^}]+)\}\}")
+
+
+def _candidate_source_roots(
+    candidate: dict[str, Any], support_map: dict[str, dict[str, Any]]
+) -> set[str]:
+    roots: set[str] = set()
+    for support in _candidate_linked_supports(candidate, support_map):
+        text = support.get("text")
+        if not isinstance(text, str):
+            continue
+        try:
+            payload = json.loads(text)
+        except json.JSONDecodeError:
+            continue
+        root_display = payload.get("root_display") if isinstance(payload, dict) else None
+        if not isinstance(root_display, str):
+            continue
+        match = ROOT_DISPLAY_RE.search(root_display)
+        if match is not None:
+            roots.update(
+                " ".join(part.split())
+                for part in match.group(1).split("/")
+                if part.strip()
+            )
+    return roots
+
+
+def _normalize_word_analysis_root_ids(
+    candidate: dict[str, Any],
+    support_map: dict[str, dict[str, Any]],
+    branch_map: dict[str, dict[str, Any]],
+) -> None:
+    if candidate.get("source_type") != "word_analysis":
+        return
+    if isinstance(candidate.get("root_ids"), list) and candidate["root_ids"]:
+        return
+    source_roots = _candidate_source_roots(candidate, support_map)
+    candidate["root_ids"] = sorted({
+        str(branch["root_id"])
+        for branch in branch_map.values()
+        if branch.get("root_ar") in source_roots
+        and isinstance(branch.get("root_id"), str)
+    })
+
+
+def _candidate_semantic_obligations(
+    candidate: dict[str, Any], support_map: dict[str, dict[str, Any]]
+) -> list[dict[str, Any]]:
+    """Create compact pointers for every candidate-authored semantic claim."""
+    obligations: list[dict[str, Any]] = []
+
+    def append(
+        support_id: str,
+        kind: str,
+        source_pointer: str,
+        semantic_claim: Any = None,
+    ) -> None:
+        identity = {
+            "candidate_id": candidate.get("candidate_id"),
+            "support_id": support_id,
+            "kind": kind,
+            "source_pointer": source_pointer,
+        }
+        row = {
+            "obligation_ref": "obl_" + v3._sha256_json(identity)[:20],
+            "support_id": support_id,
+            "kind": kind,
+            "source_pointer": source_pointer,
+        }
+        if semantic_claim not in (None, "", [], {}):
+            row["semantic_claim"] = copy.deepcopy(semantic_claim)
+        if row not in obligations:
+            obligations.append(row)
+
+    for support in _candidate_specific_supports(candidate, support_map):
+        support_id = support.get("support_id")
+        if not isinstance(support_id, str):
+            continue
+        text = support.get("text")
+        if isinstance(text, str) and text.strip():
+            try:
+                decoded = json.loads(text)
+            except json.JSONDecodeError:
+                decoded = None
+            if isinstance(decoded, dict):
+                semantic_fields = (
+                    "headline",
+                    "reason",
+                    "reader_payoff",
+                    "blocking_evidence",
+                    "gloss_range",
+                    "root_gloss_range",
+                    "prose",
+                )
+                for field in semantic_fields:
+                    value = decoded.get(field)
+                    if value in (None, "", [], {}):
+                        continue
+                    append(
+                        support_id,
+                        f"candidate_{field}",
+                        f"/support_registry/{support_id}/text/{field}",
+                        value if field != "prose" else None,
+                    )
+            else:
+                append(
+                    support_id,
+                    "candidate_support_text",
+                    f"/support_registry/{support_id}/text",
+                    text if len(text) <= 1_000 else None,
+                )
+
+        payload = support.get("payload")
+        if isinstance(payload, str) and payload.strip():
+            append(
+                support_id,
+                "hft_claim",
+                f"/support_registry/{support_id}/payload",
+                payload if len(payload) <= 1_000 else None,
+            )
+            continue
+        if not isinstance(payload, dict):
+            continue
+        trace = payload.get("activation_trace")
+        if isinstance(trace, list):
+            for index, row in enumerate(trace):
+                if isinstance(row, dict):
+                    append(
+                        support_id,
+                        "activation_trace",
+                        f"/support_registry/{support_id}/payload/activation_trace/{index}",
+                        {
+                            key: copy.deepcopy(row.get(key))
+                            for key in ("branch_ref", "mapped_root_id", "branch_id", "source_ref", "role")
+                            if row.get(key) not in (None, "", [], {})
+                        },
+                    )
+        changed = payload.get("changed_reading")
+        if isinstance(changed, dict) and changed:
+            append(
+                support_id,
+                "changed_reading",
+                f"/support_registry/{support_id}/payload/changed_reading",
+                changed,
+            )
+        for field in ("mechanism", "reader_inference", "containment"):
+            value = payload.get(field)
+            if isinstance(value, str) and value.strip():
+                append(
+                    support_id,
+                    field,
+                    f"/support_registry/{support_id}/payload/{field}",
+                    value,
+                )
+        cues = payload.get("structural_cues")
+        if isinstance(cues, list):
+            for index, cue in enumerate(cues):
+                if isinstance(cue, str) and cue.strip():
+                    append(
+                        support_id,
+                        "structural_cue",
+                        f"/support_registry/{support_id}/payload/structural_cues/{index}",
+                        cue,
+                    )
+    return obligations
+
+
+def _branch_review_pairs(branches: list[dict[str, Any]]) -> list[dict[str, Any]]:
+    pairs: list[dict[str, Any]] = []
+    for branch in branches:
+        branch_ref = branch.get("branch_ref")
+        facets = branch.get("review_facets")
+        if isinstance(facets, list) and facets:
+            pairs.extend(
+                {"branch_ref": branch_ref, "facet_id": facet.get("facet_id")}
+                for facet in facets
+                if isinstance(facet, dict) and isinstance(facet.get("facet_id"), str)
+            )
+        else:
+            pairs.append({"branch_ref": branch_ref, "facet_id": None})
+    return pairs
+
+
+def _required_candidate_branch_facets(
+    candidate: dict[str, Any], branch_map: dict[str, dict[str, Any]]
+) -> list[dict[str, Any]]:
+    available = {
+        (row["branch_ref"], row["facet_id"])
+        for row in _branch_review_pairs(list(branch_map.values()))
+    }
+    return [
+        {"branch_ref": row["branch_ref"], "facet_id": row.get("facet_id")}
+        for row in candidate.get("nominated_branch_facets", [])
+        if isinstance(row, dict)
+        and (row.get("branch_ref"), row.get("facet_id")) in available
+    ]
+
+
+def _candidate_root_branch_options(
+    candidate: dict[str, Any], branch_map: dict[str, dict[str, Any]]
+) -> list[str]:
+    if candidate.get("source_type") != "word_analysis":
+        return []
+    root_ids = {
+        root_id
+        for root_id in candidate.get("root_ids", [])
+        if isinstance(root_id, str)
+    }
+    return sorted(
+        branch_ref
+        for branch_ref, branch in branch_map.items()
+        if branch.get("registry") == "focus" and branch.get("root_id") in root_ids
+    )
+
+
+def _candidate_branch_alternatives(
+    candidate: dict[str, Any], branch_map: dict[str, dict[str, Any]]
+) -> list[dict[str, Any]]:
+    groups: list[dict[str, Any]] = []
+    for diagnostic in candidate.get("unresolved_branch_citations", []):
+        if not isinstance(diagnostic, dict):
+            continue
+        reason = diagnostic.get("reason")
+        if not isinstance(reason, str) or "ambiguous root mapping" not in reason:
+            continue
+        options = sorted({
+            ref
+            for ref in re.findall(r"root_[0-9]+/B[0-9]+", reason)
+            if ref in branch_map
+        })
+        if len(options) > 1:
+            groups.append({
+                "citation": diagnostic.get("citation"),
+                "branch_options": options,
+                "status": "alternatives_not_established",
+            })
+    return groups
+
+
+def _merge_branch_record(
+    current: dict[str, Any] | None, addition: dict[str, Any]
+) -> dict[str, Any]:
+    if current is None:
+        return copy.deepcopy(addition)
+    dynamic = {"candidate_links", "support_links", "hft_citations"}
+    if ({k: v for k, v in current.items() if k not in dynamic}
+            != {k: v for k, v in addition.items() if k not in dynamic}):
+        raise WorkflowError(
+            f"Branch semantics differ across lanes: {addition.get('branch_ref')}"
+        )
+    merged = copy.deepcopy(current)
+    for field in dynamic:
+        rows: list[Any] = []
+        seen: set[str] = set()
+        for source in (current, addition):
+            for row in source.get(field, []) or []:
+                key = _canonical_json(row)
+                if key not in seen:
+                    seen.add(key)
+                    rows.append(copy.deepcopy(row))
+        if rows or field in current or field in addition:
+            merged[field] = rows
+    return merged
+
+
+def _finalize_lane_packet_contract(packet: dict[str, Any]) -> dict[str, Any]:
+    """Annotate the packet without removing or rewriting evidence records."""
+    contract = packet.setdefault("evidence_contract", {})
+    contract["focus_root_occurrences_do_not_prove_branch_activation"] = True
+    contract["connection_labels_are_nominations_not_decisions"] = True
+    contract["evidence_records_are_lossless"] = True
+    return packet
 
 
 def _render(template: str, replacements: dict[str, str], *, label: str) -> str:
@@ -904,6 +1357,349 @@ def _strip_audit_fields(value: Any) -> Any:
     }
 
 
+def _effective_lane_for_refs(
+    refs: list[str],
+    *,
+    source_lane: str,
+    focus_ref: str,
+    pericope_refs: set[str],
+    composition_lanes: dict[str, str] | None,
+    empty_lane: str | None = None,
+    empty_basis: str = "upstream_lane",
+) -> tuple[str, str]:
+    if not refs:
+        return empty_lane or source_lane, empty_basis
+    lanes: list[str] = []
+    for ref in refs:
+        if composition_lanes is not None:
+            lanes.append(composition_lanes.get(ref, "global"))
+        elif ref in pericope_refs:
+            lanes.append("macro")
+        else:
+            lanes.append("global")
+    resolved = max(lanes, key=LANE_RANK.__getitem__)
+    if composition_lanes is not None:
+        basis = "declared_composition"
+    elif resolved == "macro":
+        basis = "native_pericope_reference"
+    else:
+        basis = "beyond_native_pericope_reference"
+    return resolved, basis
+
+
+def _candidate_empty_ref_route(
+    candidate: dict[str, Any], source_lane: str
+) -> tuple[str, str]:
+    if (
+        candidate.get("source_type")
+        in {"v12_reader_walks", "v12_reader_walks_wide"}
+        and candidate.get("kind") == "reader_walk_activation"
+    ):
+        return "micro", "focus_only_reader_activation"
+    return source_lane, "upstream_lane"
+
+
+def _normalize_and_route_lane_packets(
+    packets: dict[str, dict[str, Any]],
+    source_bundle: dict[str, Any],
+    composition: compositions.Composition | None,
+) -> dict[str, dict[str, Any]]:
+    """Make candidate, support, connection, and context routing agree."""
+    focus_ref = str(source_bundle["ayahRef"])
+    linguistic_source_ref = str(
+        source_bundle.get("linguistic_source_ref", focus_ref)
+    )
+    pericope_refs = {
+        ref
+        for packet in packets.values()
+        for ref in packet.get("scope", {}).get("pericope", {}).get("refs", [])
+        if isinstance(ref, str) and ref != focus_ref
+    }
+    composition_lanes = None
+    if composition is not None:
+        composition_lanes = {
+            row["ref"]: row["lane"]
+            for row in composition.context_rows(focus_ref)
+        }
+
+    support_map: dict[str, dict[str, Any]] = {}
+    support_order: list[str] = []
+    branch_map: dict[str, dict[str, Any]] = {}
+    original_branch_refs: dict[str, set[str]] = {lane: set() for lane in LANES}
+    all_candidates: list[tuple[str, dict[str, Any]]] = []
+    all_connections: list[tuple[str, dict[str, Any]]] = []
+    hft_records: dict[str, dict[str, Any]] = {}
+
+    for lane in LANES:
+        packet = packets[lane]
+        for raw_support in packet.get("support_registry", []):
+            if not isinstance(raw_support, dict):
+                raise WorkflowError(f"{lane} packet contains malformed support")
+            support = copy.deepcopy(raw_support)
+            support_id = support.get("support_id")
+            if not isinstance(support_id, str) or not support_id:
+                raise WorkflowError(f"{lane} packet support has no ID")
+            quran_refs, context_refs = _context_refs_for_support(
+                support,
+                focus_ref=focus_ref,
+                linguistic_source_ref=linguistic_source_ref,
+            )
+            support["quran_refs"] = quran_refs
+            support["context_refs"] = context_refs
+            if support_id in support_map and support_map[support_id] != support:
+                raise WorkflowError(f"Support ID differs across lanes: {support_id}")
+            if support_id not in support_map:
+                support_map[support_id] = support
+                support_order.append(support_id)
+        for raw_branch in packet.get("branch_registry", []):
+            if not isinstance(raw_branch, dict):
+                raise WorkflowError(f"{lane} packet contains malformed branch")
+            branch_ref = raw_branch.get("branch_ref")
+            if not isinstance(branch_ref, str) or not branch_ref:
+                raise WorkflowError(f"{lane} packet branch has no ref")
+            original_branch_refs[lane].add(branch_ref)
+            branch_map[branch_ref] = _merge_branch_record(
+                branch_map.get(branch_ref), raw_branch
+            )
+        for candidate in packet.get("candidate_inventory", []):
+            if not isinstance(candidate, dict):
+                raise WorkflowError(f"{lane} packet contains malformed candidate")
+            all_candidates.append((lane, candidate))
+        for connection in packet.get("connection_registry", []):
+            if not isinstance(connection, dict):
+                raise WorkflowError(f"{lane} packet contains malformed connection")
+            all_connections.append((lane, connection))
+        hft = packet.get("hft_evidence")
+        if isinstance(hft, dict):
+            for record in hft.get("assigned_records", []):
+                if isinstance(record, dict) and isinstance(record.get("hft_ref"), str):
+                    hft_records[record["hft_ref"]] = copy.deepcopy(record)
+
+    candidate_ids = [
+        candidate.get("candidate_id") for _lane, candidate in all_candidates
+    ]
+    if not all(isinstance(candidate_id, str) for candidate_id in candidate_ids):
+        raise WorkflowError("A lane packet candidate has no ID")
+    if len(candidate_ids) != len(set(candidate_ids)):
+        raise WorkflowError("A candidate appears in more than one source lane")
+
+    routed_candidates: dict[str, list[dict[str, Any]]] = {
+        lane: [] for lane in LANES
+    }
+    for source_lane, raw_candidate in all_candidates:
+        candidate = copy.deepcopy(raw_candidate)
+        _normalize_word_analysis_root_ids(candidate, support_map, branch_map)
+        candidate_specific_supports = _candidate_specific_supports(
+            candidate, support_map
+        )
+        candidate["candidate_specific_support_ids"] = [
+            support["support_id"] for support in candidate_specific_supports
+        ]
+        required_refs = _candidate_required_context_refs(
+            candidate,
+            support_map,
+            focus_ref=focus_ref,
+            linguistic_source_ref=linguistic_source_ref,
+        )
+        empty_lane, empty_basis = _candidate_empty_ref_route(
+            candidate, source_lane
+        )
+        target_lane, basis = _effective_lane_for_refs(
+            required_refs,
+            source_lane=source_lane,
+            focus_ref=focus_ref,
+            pericope_refs=pericope_refs,
+            composition_lanes=composition_lanes,
+            empty_lane=empty_lane,
+            empty_basis=empty_basis,
+        )
+        for support_id in candidate.get("support_ids", []):
+            if support_id not in support_map:
+                raise WorkflowError(
+                    f"Candidate {candidate.get('candidate_id')} cites unknown "
+                    f"support {support_id}"
+                )
+        candidate["lane"] = target_lane
+        candidate["required_context_refs"] = required_refs
+        candidate["semantic_obligations"] = _candidate_semantic_obligations(
+            candidate, support_map
+        )
+        candidate["required_branch_facets"] = _required_candidate_branch_facets(
+            candidate, branch_map
+        )
+        candidate["root_branch_options"] = _candidate_root_branch_options(
+            candidate, branch_map
+        )
+        alternatives = _candidate_branch_alternatives(candidate, branch_map)
+        if alternatives:
+            candidate["branch_alternative_groups"] = alternatives
+        candidate["v5_routing"] = {
+            "source_lane": source_lane,
+            "resolved_lane": target_lane,
+            "basis": basis,
+        }
+        if basis == "focus_only_reader_activation":
+            candidate["v5_routing"]["constraint"] = (
+                "Only the assembled focus-local claim is in scope; an unstated "
+                "wider context cannot support acceptance or rejection."
+            )
+        routed_candidates[target_lane].append(candidate)
+
+    connection_ids = [
+        connection.get("connection_ref") for _lane, connection in all_connections
+    ]
+    if not all(isinstance(connection_id, str) for connection_id in connection_ids):
+        raise WorkflowError("A lane packet connection has no ref")
+    if len(connection_ids) != len(set(connection_ids)):
+        raise WorkflowError("A connection appears in more than one source lane")
+
+    routed_connections: dict[str, list[dict[str, Any]]] = {
+        lane: [] for lane in LANES
+    }
+    for source_lane, raw_connection in all_connections:
+        connection = copy.deepcopy(raw_connection)
+        refs = set(_extract_quran_refs(connection.get("target_ref")))
+        refs.update(_extract_quran_refs(connection.get("source_target_components", [])))
+        refs.discard(focus_ref)
+        refs.discard(linguistic_source_ref)
+        required_refs = sorted(refs, key=_quran_ref_sort_key)
+        target_lane, basis = _effective_lane_for_refs(
+            required_refs,
+            source_lane=source_lane,
+            focus_ref=focus_ref,
+            pericope_refs=pericope_refs,
+            composition_lanes=composition_lanes,
+        )
+        connection["required_context_refs"] = required_refs
+        connection["v5_routing"] = {
+            "source_lane": source_lane,
+            "resolved_lane": target_lane,
+            "basis": basis,
+        }
+        routed_connections[target_lane].append(connection)
+
+    for lane in LANES:
+        packet = packets[lane]
+        candidates = routed_candidates[lane]
+        connections = routed_connections[lane]
+        needed_support_ids = {
+            support_id
+            for candidate in candidates
+            for support_id in candidate.get("support_ids", [])
+        }
+        supports: list[dict[str, Any]] = []
+        for support_id in support_order:
+            if support_id not in needed_support_ids:
+                continue
+            support = copy.deepcopy(support_map[support_id])
+            if support.get("scope") != lane:
+                support["upstream_scope"] = support.get("scope")
+                support["scope"] = lane
+            supports.append(support)
+
+        needed_branch_refs = set(original_branch_refs[lane])
+        for candidate in candidates:
+            for field in (
+                "branch_refs",
+                "focus_branch_refs",
+                "nominated_branch_refs",
+                "unresolved_branch_refs",
+                "root_branch_options",
+            ):
+                needed_branch_refs.update(
+                    ref
+                    for ref in candidate.get(field, [])
+                    if isinstance(ref, str)
+                )
+        for support in supports:
+            needed_branch_refs.update(
+                ref
+                for ref in support.get("branch_refs", [])
+                if isinstance(ref, str)
+            )
+        missing_branches = needed_branch_refs - set(branch_map)
+        if missing_branches:
+            raise WorkflowError(
+                f"{lane} packet lacks routed branches: {sorted(missing_branches)}"
+            )
+
+        lane_candidate_ids = {candidate["candidate_id"] for candidate in candidates}
+        lane_support_ids = {support["support_id"] for support in supports}
+        lane_hft_refs = {
+            candidate.get("hft_ref")
+            for candidate in candidates
+            if isinstance(candidate.get("hft_ref"), str)
+        }
+        branches: list[dict[str, Any]] = []
+        for branch_ref in sorted(needed_branch_refs):
+            branch = copy.deepcopy(branch_map[branch_ref])
+            branch["candidate_links"] = [
+                {**link, "lane": lane}
+                for link in branch.get("candidate_links", [])
+                if isinstance(link, dict)
+                and link.get("candidate_id") in lane_candidate_ids
+            ]
+            branch["support_links"] = [
+                support_id
+                for support_id in branch.get("support_links", [])
+                if support_id in lane_support_ids
+            ]
+            branch["hft_citations"] = [
+                citation
+                for citation in branch.get("hft_citations", [])
+                if isinstance(citation, dict)
+                and citation.get("hft_ref") in lane_hft_refs
+            ]
+            branches.append(branch)
+
+        packet["candidate_inventory"] = candidates
+        packet["support_registry"] = supports
+        packet["branch_registry"] = branches
+        packet["connection_registry"] = connections
+        packet["review_inventory"] = {
+            "context_refs": sorted({
+                ref
+                for candidate in candidates
+                for ref in candidate.get("required_context_refs", [])
+            } | {
+                ref
+                for connection in connections
+                for ref in connection.get("required_context_refs", [])
+            } | {
+                unit["ayah_ref"]
+                for unit in packet.get("selected_context_units", [])
+                if isinstance(unit, dict) and isinstance(unit.get("ayah_ref"), str)
+            }, key=_quran_ref_sort_key),
+            "candidate_ids": [candidate["candidate_id"] for candidate in candidates],
+            "support_ids": [support["support_id"] for support in supports],
+            "connection_refs": [
+                connection["connection_ref"] for connection in connections
+            ],
+            "available_branch_facets": _branch_review_pairs(branches),
+        }
+        packet["evidence_contract"] = {
+            "candidate_context_refs_are_exact": True,
+            "candidate_specific_supports_drive_routing": True,
+            "support_quran_refs_are_structured": True,
+            "composition_routing_is_authoritative": composition is not None,
+            "focus_only_reader_activations_are_micro": True,
+            "root_branch_options_are_non_nominating": True,
+            "branch_alternative_groups_are_non_cumulative": True,
+        }
+        hft = packet.get("hft_evidence")
+        if isinstance(hft, dict):
+            assigned = [
+                copy.deepcopy(hft_records[ref])
+                for ref in sorted(lane_hft_refs)
+                if ref in hft_records
+            ]
+            hft["assigned_records"] = assigned
+            hft["assigned_record_count"] = len(assigned)
+        packet["schema_version"] = "commentary-v5-hermetic-scope-packet-v2"
+        _finalize_lane_packet_contract(packet)
+    return packets
+
+
 def _build_lane_packet(
     *,
     lane: str,
@@ -970,17 +1766,12 @@ def _build_lane_packet(
     return _strip_audit_fields(packet)
 
 
-def _canonical_inputs() -> dict[str, str]:
-    paths = {
-        "principles": REPO_ROOT / "PRINCIPLES.md",
-        "commentary_spec": REPO_ROOT / "COMMENTARY_SPEC.md",
-        "channels": REPO_ROOT / "docs" / "CHANNELS.md",
-        "canonical_prompt_v2": REPO_ROOT / "_ayah_commentary" / "v2" / "PROMPT.md",
-    }
+def _discovery_policy() -> str:
+    path = PROMPTS_ROOT / "discovery-policy.md"
     try:
-        return {key: path.read_text(encoding="utf-8") for key, path in paths.items()}
+        return path.read_text(encoding="utf-8")
     except OSError as exc:
-        raise WorkflowError(f"Cannot read governing instructions: {exc}") from exc
+        raise WorkflowError(f"Cannot read discovery policy: {exc}") from exc
 
 
 def _lane_specific_procedure(lane: str, packet: dict[str, Any]) -> str:
@@ -1031,7 +1822,6 @@ def _lane_specific_procedure(lane: str, packet: dict[str, Any]) -> str:
 
 
 def _build_scope_prompt(layout: Layout, lane: str, packet: dict[str, Any]) -> str:
-    governing = _canonical_inputs()
     template_path = PROMPTS_ROOT / "discovery.md"
     try:
         template = template_path.read_text(encoding="utf-8")
@@ -1044,12 +1834,9 @@ def _build_scope_prompt(layout: Layout, lane: str, packet: dict[str, Any]) -> st
             "@@LANE@@": lane,
             "@@DISCOVERY_OUTPUT_PATH@@": _repo_path(layout.scope_discovery(lane)),
             "@@SCOPE_DISCOVERY_SCHEMA_VERSION@@": SCOPE_DISCOVERY_SCHEMA_VERSION,
-            "@@PRINCIPLES_MD@@": governing["principles"],
-            "@@COMMENTARY_SPEC_MD@@": governing["commentary_spec"],
-            "@@CHANNELS_MD@@": governing["channels"],
-            "@@CANONICAL_PROMPT_V2@@": governing["canonical_prompt_v2"],
+            "@@DISCOVERY_POLICY_MD@@": _discovery_policy(),
             "@@LANE_SPECIFIC_PROCEDURE@@": _lane_specific_procedure(lane, packet),
-            "@@LANE_PACKET_JSON@@": _canonical_json(packet),
+            "@@LANE_PACKET_JSON@@": _record_line_json(packet),
         },
         label=f"{lane} scope prompt",
     )
@@ -1090,9 +1877,9 @@ def prepare(args: argparse.Namespace) -> dict[str, Any]:
         source_bundle, member_root, composition
     )
 
-    prompts: dict[str, str] = {}
+    packets: dict[str, dict[str, Any]] = {}
     for lane in LANES:
-        packet = _build_lane_packet(
+        packets[lane] = _build_lane_packet(
             lane=lane,
             docket=docket,
             source_bundle=source_bundle,
@@ -1106,7 +1893,10 @@ def prepare(args: argparse.Namespace) -> dict[str, Any]:
             context_by_lane=context_by_lane,
             host_basmala=host_basmala,
         )
-        prompts[lane] = _build_scope_prompt(layout, lane, packet)
+    _normalize_and_route_lane_packets(packets, source_bundle, composition)
+    prompts = {
+        lane: _build_scope_prompt(layout, lane, packets[lane]) for lane in LANES
+    }
 
     _assert_confined(layout.raw, RAW_ROOT)
     _assert_confined(layout.editorial, EDITORIAL_ROOT)
@@ -1172,8 +1962,9 @@ def prepare(args: argparse.Namespace) -> dict[str, Any]:
                 "live agent to write its scope prose"
             ),
             "consolidation": (
-                "close scope agents, then give the three scope prose texts and a "
-                "short focus/context brief to one fresh consolidator"
+                "close scope agents, then give the three discovery JSON objects, "
+                "three scope prose texts, and a short focus/context brief to one "
+                "fresh consolidator"
             ),
             "editorial": (
                 "ask that same consolidator for the editorial rewrite, then close"

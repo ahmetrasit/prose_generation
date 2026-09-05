@@ -18,6 +18,10 @@ orchestrator:
 - Preserve every retained finding from your discovery work. Each finding's
   carrier, independent trigger, contact, changed reading, concrete semantic
   detail, and boundary must be visible to a reader.
+- Recheck grammatical, morphological, and lexical wording against the
+  finding's `evidence_facts` and exact branch-activation fields. Correct your
+  own accidental classification errors before writing prose; preserve the
+  supported finding, not an erroneous formulation of it.
 - A single discovery finding may contain multiple distinct claims, images,
   branch activations, or interpretive movements. Treat each distinct movement as
   a mandatory prose landing.

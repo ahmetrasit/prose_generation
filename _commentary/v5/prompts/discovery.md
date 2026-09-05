@@ -32,6 +32,11 @@ lost.
   roots. Inspect it specifically for a branch that fits the candidate claim
   and meets an independent word/image/relation in the focus; nominate only a
   branch that actually passes that test.
+- `candidate_specific_support_ids` identify the supports that define a
+  candidate and therefore control its semantic obligations and lane routing.
+  Other `support_ids` remain fully available as shared word or surface evidence,
+  but an incidental cross-reference in shared evidence does not turn every
+  sibling candidate into a contextual claim.
 - `accept` preserves the complete candidate. `narrow` preserves a bounded core
   and explicitly records every omitted candidate branch, branch facet, context
   ref, and semantic obligation. `represented` is only for an exact semantic
@@ -44,6 +49,10 @@ lost.
 - A retained candidate context ref counts as landed only when it occurs in a
   branch activation's `carrier_refs` or `trigger_refs`. Merely listing it in
   `context_refs` does not count.
+- When `v5_routing.basis` is `focus_only_reader_activation`, assess the supplied
+  focus-local mechanism in micro. Do not infer missing wider evidence from its
+  legacy source lane, and do not reject the local reading merely because that
+  wider evidence was never assembled.
 - Every candidate `branch_ref` must either land through an exact activated facet
   or be explicitly excluded. Separately account for any explicitly nominated
   `required_branch_facets`; do not expand this into all available facets. If a
@@ -115,6 +124,14 @@ Return exactly these top-level fields:
         "reason": "why this status fits"
       },
       "support_ids": ["exact support ID"],
+      "evidence_facts": [
+        {
+          "support_id": "exact support ID",
+          "source_pointer": "exact semantic-obligation source_pointer or support field",
+          "function": "carrier | grammar | trigger | lexical_source | boundary",
+          "fact": "concise source-grounded fact needed downstream"
+        }
+      ],
       "branch_activations": [
         {
           "branch_ref": "exact branch ref",
@@ -149,24 +166,19 @@ use a valid carrier occurrence, identify a distinct trigger, and return through
 a focus-surface ref rather than the whole ayah. Include each non-focus ayah
 used by a carrier or trigger in `context_refs`.
 
-The texts below preserve the established v2/v3 linguistic standard. This V5
-handoff controls the evidence boundary, role, response schema, and destination.
+For every material grammatical classification, morphological claim, lexical
+source, unusual sense, or interpretive boundary used by a finding, add the
+smallest useful `evidence_facts` record. Copy exact source wording when it is
+already concise; otherwise give a faithful compact statement and identify its
+packet support and source pointer. These records let downstream composition
+correct an accidental prose misstatement without reopening evidence selection.
+An obligation `source_pointer` points into its named inline support, including
+when that support's `text` is serialized JSON; it is not permission to read an
+external file.
 
-<principles>
-@@PRINCIPLES_MD@@
-</principles>
-
-<commentary_spec>
-@@COMMENTARY_SPEC_MD@@
-</commentary_spec>
-
-<channel_definitions>
-@@CHANNELS_MD@@
-</channel_definitions>
-
-<canonical_prompt_v2>
-@@CANONICAL_PROMPT_V2@@
-</canonical_prompt_v2>
+<discovery_policy>
+@@DISCOVERY_POLICY_MD@@
+</discovery_policy>
 
 <lane_packet_json>
 @@LANE_PACKET_JSON@@

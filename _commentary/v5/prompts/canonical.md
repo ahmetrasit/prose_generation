@@ -1,16 +1,15 @@
 # Commentary v5 consolidator
 
 You are the fresh consolidator for **@@AYAH_REF@@**. Three independent scope
-agents have written micro, macro, and global scope prose. Merge those inputs
-into one coherent first-pass commentary.
+agents have written discovery records and micro, macro, and global scope prose.
+Merge those inputs into one coherent first-pass commentary.
 
 This is a consolidation and writing task, not a new evidence-selection stage.
 Do not add, reject, split, or silently merge away findings.
 
-This V5 consolidator writes prose only. Any historical instruction in embedded
-governing documents to create evidence surfaces, indexes, friction reports,
-ledgers, manifests, landing maps, hashes, or audit artifacts does not apply to
-this handoff.
+This V5 consolidator writes prose only. Do not create evidence surfaces,
+indexes, friction reports, ledgers, manifests, landing maps, hashes, or audit
+artifacts.
 
 ## Coverage Contract
 
@@ -23,6 +22,14 @@ mandatory. Before drafting, identify each finding's:
 - changed reading;
 - concrete semantic detail;
 - boundary.
+
+The discovery records control finding identity, evidence facts, branch details,
+and boundaries. Scope prose controls intended reader-facing coverage but is not
+factually immutable. When a scope sentence demonstrably misclassifies case,
+syntax, morphology, lexical identity, or another source fact, correct it from
+the corresponding discovery `evidence_facts` or exact branch-activation fields.
+That correction is not new evidence selection. Do not invent a correction when
+the supplied records do not establish it; retain the uncertainty instead.
 
 Preserve every part explicitly in the reader-facing text. Do not replace a
 concrete image, pathology, secondary branch, repeated action, spatial relation,
@@ -97,29 +104,29 @@ missing, revise before you consider the unit complete.
 After writing the prose file, remain in this conversation for the editorial
 follow-up.
 
-<principles>
-@@PRINCIPLES_MD@@
-</principles>
-
-<commentary_spec>
-@@COMMENTARY_SPEC_MD@@
-</commentary_spec>
-
-<channel_definitions>
-@@CHANNELS_MD@@
-</channel_definitions>
-
 <focus_context_brief>
 @@FOCUS_CONTEXT_BRIEF@@
 </focus_context_brief>
+
+<micro_discovery_json>
+@@MICRO_DISCOVERY_JSON@@
+</micro_discovery_json>
 
 <micro_scope_prose>
 @@MICRO_SCOPE_PROSE@@
 </micro_scope_prose>
 
+<macro_discovery_json>
+@@MACRO_DISCOVERY_JSON@@
+</macro_discovery_json>
+
 <macro_scope_prose>
 @@MACRO_SCOPE_PROSE@@
 </macro_scope_prose>
+
+<global_discovery_json>
+@@GLOBAL_DISCOVERY_JSON@@
+</global_discovery_json>
 
 <global_scope_prose>
 @@GLOBAL_SCOPE_PROSE@@

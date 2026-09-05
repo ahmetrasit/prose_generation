@@ -31,12 +31,17 @@ background monitor.
 The Firebase project and public Web API key already default to `v5-monitor`.
 They can be overridden with `--firebase-project` and `--firebase-api-key`.
 
-Before starting each new ayah, the orchestrator runs:
+Before starting each new ayah, the orchestrator checks local state without
+blocking:
 
 ```bash
-python3 _commentary/v5/operations/monitor.py wait \
+python3 _commentary/v5/operations/monitor.py check \
   --run-id commentary-v5 --orchestrator-id orch-s029
 ```
+
+Start the ayah only when the result says `running`. A `paused` result returns
+immediately; already-running ayat may finish, and the orchestrator can check
+again before a later launch.
 
 Each scope or canonical agent makes exactly two event writes:
 
@@ -67,15 +72,19 @@ python3 _commentary/v5/operations/monitor.py stop \
   --run-id commentary-v5 --orchestrator-id orch-s029
 ```
 
-Shutdown is cooperative. `stop` writes a local `STOP` marker; the daemon scans
-once more, retries any pending Firebase prose uploads, marks itself offline, and
-then exits. A second `start` for the same run and orchestrator is refused while
-the existing monitor process is live.
+Shutdown is cooperative. `stop` writes a local `STOP` marker; the daemon makes
+at most two final sync attempts, marks itself offline, and exits. Persistent
+network failure leaves the unsynced runtime state local instead of retrying
+forever. If that work outlives the command's five-second wait window, `stop`
+returns `status: stop_requested` successfully while the detached daemon finishes
+in the background. A second `start` for the same run and orchestrator is refused
+while the existing monitor process is live.
 
 Pause is cooperative: Firebase sets `desired_state` to `paused`, the monitor
-creates its local `runtime/control/.../PAUSE` marker, and `wait` blocks before the
-next ayah. Work already in progress may finish. Remote control changes normally
-reach the local marker within the monitor's 10-second polling interval.
+creates its local `runtime/control/.../PAUSE` marker, and `check` reports it
+before the next ayah without holding a terminal. Work already in progress may
+finish. Remote control changes normally reach the local marker within the
+monitor's 10-second polling interval.
 
 ## Firebase setup
 

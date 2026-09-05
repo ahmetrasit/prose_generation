@@ -407,6 +407,24 @@ class EventAndTaskTests(unittest.TestCase):
         self.assertEqual("passed", task["stages"]["validator"]["status"])
         self.assertEqual("completed", task["status"])
 
+    def test_editorial_artifact_without_event_does_not_imply_validation(self):
+        artifact = (
+            self.v5
+            / "editorial"
+            / "native"
+            / "s029"
+            / "29_38"
+            / "29_38.prose.editorial.tr.md"
+        )
+        artifact.parent.mkdir(parents=True, exist_ok=True)
+        artifact.write_text("", encoding="utf-8")
+
+        task, _artifacts = monitor.build_task(self.registration, "29:38")
+
+        self.assertEqual("editing", task["stages"]["canonical"]["status"])
+        self.assertEqual("pending", task["stages"]["validator"]["status"])
+        self.assertEqual("active", task["status"])
+
     def test_local_control_creates_and_removes_marker(self):
         for state in ("paused", "running"):
             args = argparse.Namespace(
@@ -414,6 +432,15 @@ class EventAndTaskTests(unittest.TestCase):
             )
             self.assertEqual(0, monitor.command_control(args))
         self.assertFalse(monitor.control_marker(self.registration).exists())
+
+    def test_check_reports_pause_without_waiting(self):
+        args = argparse.Namespace(run_id="run-1", orchestrator_id="orch-1")
+        monitor._atomic_write_text(
+            monitor.control_marker(self.registration), "paused_at=test\n"
+        )
+        started = time.monotonic()
+        self.assertEqual(0, monitor.command_check(args))
+        self.assertLess(time.monotonic() - started, 0.5)
 
     def test_failed_remote_artifact_is_retried(self):
         artifact = self.v5 / "raw" / "native" / "s029" / "29_38" / "micro.scope.tr.md"
@@ -564,6 +591,27 @@ class EventAndTaskTests(unittest.TestCase):
         self.assertGreaterEqual(exists.call_count, 2)
         self.assertFalse(monitor.stop_marker(self.registration).exists())
 
+    def test_stop_returns_after_wait_window_while_final_sync_continues(self):
+        self.registration["run_id"] = "run-stop-pending"
+        self.registration["orchestrator_id"] = "orch-stop-pending"
+        destination = monitor.registration_path(
+            "run-stop-pending", "orch-stop-pending"
+        )
+        monitor._atomic_write_json(destination, self.registration)
+        pid_path = monitor._pid_path(self.registration)
+        monitor._atomic_write_text(pid_path, "1234\n")
+        args = argparse.Namespace(
+            run_id="run-stop-pending",
+            orchestrator_id="orch-stop-pending",
+            timeout_seconds=0,
+        )
+
+        with patch.object(monitor, "_process_exists", return_value=True):
+            self.assertEqual(0, monitor.command_stop(args))
+
+        self.assertTrue(pid_path.exists())
+        self.assertTrue(monitor.stop_marker(self.registration).exists())
+
     def test_local_stop_marker_interrupts_long_poll_sleep(self):
         daemon = monitor.Monitor(
             self.registration,
@@ -595,6 +643,32 @@ class EventAndTaskTests(unittest.TestCase):
         daemon.run()
         self.assertEqual(2, sink.artifact_calls)
         self.assertEqual(set(), daemon.pending_refs)
+
+    def test_daemon_stops_after_bounded_failed_final_syncs(self):
+        artifact = self.v5 / "raw" / "native" / "s029" / "29_38" / "micro.scope.tr.md"
+        artifact.parent.mkdir(parents=True, exist_ok=True)
+        artifact.write_text("retry", encoding="utf-8")
+        sink = FailingArtifactSink()
+
+        def always_fail(_task, _artifact):
+            sink.artifact_calls += 1
+            raise RuntimeError("still unavailable")
+
+        sink.upsert_artifact = always_fail
+        daemon = monitor.Monitor(
+            self.registration,
+            interval=0,
+            heartbeat_interval=60,
+            firebase=sink,
+        )
+        monitor._atomic_write_text(
+            monitor.stop_marker(self.registration), "stop_requested_at=test\n"
+        )
+
+        daemon.run()
+
+        self.assertEqual(monitor.MAX_STOP_SYNC_ATTEMPTS, sink.artifact_calls)
+        self.assertEqual({"29:38"}, daemon.pending_refs)
 
     def test_load_registration_rejects_invalid_scope_count(self):
         path = monitor.registration_path("run-bad", "orch-bad")

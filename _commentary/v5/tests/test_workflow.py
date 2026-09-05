@@ -85,7 +85,7 @@ def base_packet(lane: str) -> dict[str, object]:
             "lane_packet_sha256": "b" * 64,
         },
         "candidate_inventory": [{
-            "candidate_id": "focus-only",
+            "candidate_id": f"{lane}-focus-only",
             "ayah_ref": "29:38",
         }],
         "support_registry": [],
@@ -177,6 +177,33 @@ class CliSurfaceTests(unittest.TestCase):
             root.symlink_to(target, target_is_directory=True)
             with self.assertRaisesRegex(workflow.WorkflowError, "root is a symlink"):
                 workflow._assert_confined(root / "unit" / "prompt.md", root)
+
+    def test_record_line_json_is_valid_and_splits_registry_records(self) -> None:
+        value = {"identity": {"lane": "micro"}, "records": [{"id": 1}, {"id": 2}]}
+        rendered = workflow._record_line_json(value)
+        self.assertEqual(json.loads(rendered), value)
+        self.assertIn('\n{"id":1},\n{"id":2}\n', rendered)
+
+    def test_canonical_template_requires_discovery_and_scope_inputs(self) -> None:
+        template = (workflow.PROMPTS_ROOT / "canonical.md").read_text(
+            encoding="utf-8"
+        )
+        markers = set(workflow.MARKER_RE.findall(template))
+        self.assertEqual(
+            markers,
+            {
+                "@@AYAH_REF@@",
+                "@@PROSE_OUTPUT_PATH@@",
+                "@@FOCUS_CONTEXT_BRIEF@@",
+                "@@MICRO_DISCOVERY_JSON@@",
+                "@@MACRO_DISCOVERY_JSON@@",
+                "@@GLOBAL_DISCOVERY_JSON@@",
+                "@@MICRO_SCOPE_PROSE@@",
+                "@@MACRO_SCOPE_PROSE@@",
+                "@@GLOBAL_SCOPE_PROSE@@",
+            },
+        )
+        self.assertNotIn("@@PRINCIPLES_MD@@", template)
 
 
 class ContextEvidenceTests(unittest.TestCase):
@@ -314,13 +341,173 @@ class ContextEvidenceTests(unittest.TestCase):
             )
 
         self.assertEqual(packet["candidate_inventory"], [{
-            "candidate_id": "focus-only",
+            "candidate_id": "macro-focus-only",
             "ayah_ref": "29:38",
         }])
         self.assertEqual(packet["selected_context_units"], [context])
         self.assertNotIn("source_coverage", packet)
         self.assertNotIn("contract", packet)
         self.assertNotIn("source_canonical_sha256", json.dumps(packet))
+
+
+class PacketNormalizationTests(unittest.TestCase):
+    def _packets(self) -> dict[str, dict[str, object]]:
+        packets: dict[str, dict[str, object]] = {}
+        for lane in workflow.LANES:
+            packet = base_packet(lane)
+            packet["candidate_inventory"] = []
+            packet["scope"] = {
+                "pericope": {
+                    "refs": ["29:38", "29:39", "29:40", "29:41"]
+                }
+            }
+            packet["selected_context_units"] = []
+            packets[lane] = packet
+        packets["micro"]["candidate_inventory"] = [{
+            "candidate_id": "next-ayah",
+            "lane": "micro",
+            "source_type": "word_analysis",
+            "source_local_id": "29:38:22:next-ayah",
+            "anchor_refs": ["29:38:22"],
+            "branch_refs": [],
+            "root_ids": [],
+            "support_ids": ["support-next"],
+        }]
+        packets["micro"]["support_registry"] = [{
+            "support_id": "support-next",
+            "source_type": "word_analysis",
+            "role": "candidate_evidence",
+            "scope": "micro",
+            "text": json.dumps({
+                "headline": "next-ayah echo",
+                "reason": "The same construction appears in 29:39.",
+                "prose": "The pattern reaches 29:39.",
+                "root_display": "{{ar:ك و ن}} ({{tr:k-w-n}})",
+            }, ensure_ascii=False),
+        }]
+        packets["micro"]["branch_registry"] = [{
+            "branch_ref": "root_000001/B001",
+            "registry": "focus",
+            "root_id": "root_000001",
+            "root_ar": "ك و ن",
+            "gloss": "being",
+            "review_facets": [{"facet_id": "F001", "statements": {"statement": "existence"}}],
+            "candidate_links": [],
+            "support_links": [],
+            "hft_citations": [],
+        }]
+        packets["macro"]["connection_registry"] = [{
+            "connection_ref": "connection-29-41",
+            "target_ref": "29:41",
+            "source_target_components": ["29:41"],
+        }]
+        packets["global"]["connection_registry"] = [{
+            "connection_ref": "connection-44-32",
+            "target_ref": "44:32",
+            "source_target_components": ["44:32"],
+        }]
+        return packets
+
+    def test_packet_contract_fields_and_native_pericope_routing(self) -> None:
+        packets = self._packets()
+
+        workflow._normalize_and_route_lane_packets(
+            packets, numbered_bundle("29:38"), None
+        )
+
+        candidate = packets["macro"]["candidate_inventory"][0]
+        self.assertEqual(candidate["candidate_id"], "next-ayah")
+        self.assertEqual(candidate["root_ids"], ["root_000001"])
+        self.assertEqual(
+            candidate["root_branch_options"], ["root_000001/B001"]
+        )
+        self.assertEqual(candidate["required_context_refs"], ["29:39"])
+        self.assertTrue(candidate["semantic_obligations"])
+        self.assertEqual(
+            packets["macro"]["support_registry"][0]["support_id"],
+            "support-next",
+        )
+        self.assertEqual(packets["micro"]["candidate_inventory"], [])
+
+    def test_declared_composition_routes_all_evidence_with_one_map(self) -> None:
+        packets = self._packets()
+        composition = workflow.compositions.composition_from_cli(
+            "routing-test",
+            ["focus=29:38,29:39", "later=29:41"],
+            ["29:38"],
+            member_surah=29,
+            added_ayat_selectors=["44:32"],
+        )
+
+        workflow._normalize_and_route_lane_packets(
+            packets, numbered_bundle("29:38"), composition
+        )
+
+        macro_connections = {
+            row["connection_ref"]
+            for row in packets["macro"]["connection_registry"]
+        }
+        global_connections = {
+            row["connection_ref"]
+            for row in packets["global"]["connection_registry"]
+        }
+        self.assertEqual(macro_connections, {"connection-44-32"})
+        self.assertEqual(global_connections, {"connection-29-41"})
+        candidate = packets["macro"]["candidate_inventory"][0]
+        self.assertEqual(
+            candidate["v5_routing"]["basis"], "declared_composition"
+        )
+
+    def test_ambiguous_branches_remain_an_explicit_alternative_group(self) -> None:
+        candidate = {
+            "unresolved_branch_citations": [{
+                "citation": "ش ي ء/B001",
+                "reason": (
+                    "ambiguous root mapping expanded as alternatives: "
+                    "root_000831/B001, root_000832/B001"
+                ),
+            }]
+        }
+        branches = {
+            ref: {"branch_ref": ref}
+            for ref in ("root_000831/B001", "root_000832/B001")
+        }
+
+        self.assertEqual(
+            workflow._candidate_branch_alternatives(candidate, branches),
+            [{
+                "citation": "ش ي ء/B001",
+                "branch_options": ["root_000831/B001", "root_000832/B001"],
+                "status": "alternatives_not_established",
+            }],
+        )
+
+    def test_packet_finalization_does_not_remove_evidence(self) -> None:
+        packet = {
+            "branch_registry": [{
+                "branch_ref": "root_000001/B001",
+                "semantic_detail": {
+                    "neighbor_distinctions": [{"gloss": "distinct detail"}],
+                },
+                "root_occurrence_qualification": "bounded qualification",
+            }],
+            "connection_registry": [{
+                "connection_ref": "connection-1",
+                "qualification": {"review_boundary": "full detail"},
+                "reciprocal_evidence": [{"source_note": "counter-reading"}],
+            }],
+            "review_inventory": {"candidate_ids": ["candidate-1"]},
+            "hft_evidence": {"assigned_records": [{"hft_ref": "hft-1"}]},
+        }
+        original = json.loads(json.dumps(packet))
+
+        workflow._finalize_lane_packet_contract(packet)
+
+        for key, value in original.items():
+            self.assertEqual(packet[key], value)
+        self.assertTrue(
+            packet["evidence_contract"]["evidence_records_are_lossless"]
+        )
 
 
 class ReciprocalInputTests(unittest.TestCase):
@@ -495,6 +682,9 @@ class ReciprocalInputTests(unittest.TestCase):
 
 
 class V3PreparationCompatibilityTests(unittest.TestCase):
+    def test_v5_budget_accepts_lossless_long_ayah_dockets(self) -> None:
+        self.assertGreaterEqual(workflow.PREPARE_OPTIONS.max_docket_bytes, 1_300_000)
+
     def test_real_s87_1_retains_problematic_channel_evidence(self) -> None:
         path = workflow.REPO_ROOT / "bundles" / "s087" / "87_1.ayah.json"
         bundle = json.loads(path.read_text(encoding="utf-8"))
@@ -512,8 +702,20 @@ class V3PreparationCompatibilityTests(unittest.TestCase):
             and item["title"] == "Origination and State-Making"
         )
         self.assertTrue(prepared["mandatory_candidates_ready"])
-        self.assertTrue(candidate["adjudicable"])
-        self.assertEqual(candidate["unresolved_branch_citations"], [])
+        self.assertFalse(candidate["adjudicable"])
+        self.assertFalse(candidate["mandatory"])
+        self.assertEqual(
+            candidate["unresolved_branch_citations"],
+            [
+                {
+                    "citation": "ش ي ء/B001",
+                    "reason": (
+                        "ambiguous root mapping expanded as alternatives: "
+                        "root_000831/B001, root_000832/B001"
+                    ),
+                }
+            ],
+        )
         self.assertTrue(
             {
                 "root_000831/B001",

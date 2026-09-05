@@ -37,6 +37,7 @@ AYAH_SELECTOR_RE = re.compile(
 SURAH_SELECTOR_RE = re.compile(r"([1-9][0-9]*)(?:-([1-9][0-9]*))?")
 UNIT_DIR_RE = re.compile(r"([1-9][0-9]*)_(0|[1-9][0-9]*)")
 TERMINAL_EVENTS = frozenset({"completed", "failed", "interrupted", "attention"})
+MAX_STOP_SYNC_ATTEMPTS = 2
 EVENTS = frozenset({"started", *TERMINAL_EVENTS})
 ROLES = frozenset({"scope", "canonical", "validator", "orchestrator"})
 LANES = ("micro", "macro", "global")
@@ -908,7 +909,10 @@ def _stage_state(
             state["status"] = "ready"
     elif stage == "canonical":
         if "editorial" in artifacts:
-            state["status"] = "completed"
+            # An artifact can exist before validation finishes, or can be left
+            # behind by an interrupted attempt. Only a canonical completion
+            # event attests that the validator passed.
+            state["status"] = "editing"
         elif "consolidated" in artifacts:
             state["status"] = "editing"
         elif all(lane in artifacts for lane in LANES):
@@ -978,7 +982,12 @@ def build_task(registration: dict[str, Any], ayah_ref: str) -> tuple[dict[str, A
         stage: _stage_state(stage, latest, artifacts)
         for stage in (*LANES, "canonical", "validator")
     }
-    if "validator" not in latest and stages["canonical"]["status"] == "completed":
+    canonical_event = latest.get("canonical", {})
+    if (
+        "validator" not in latest
+        and canonical_event.get("event") == "completed"
+        and stages["canonical"]["status"] == "completed"
+    ):
         canonical = stages["canonical"]
         stages["validator"] = {
             "status": "passed",
@@ -1185,13 +1194,20 @@ class Monitor:
         self.registration_synced = registered
         self._mirror_control(remote_desired or desired)
         self.local.flush()
+        stop_sync_attempts = 0
         while True:
             self.tick()
             should_stop = self.stop_requested or stop_marker(self.registration).exists()
-            if once or (should_stop and not self.pending_refs):
+            if should_stop:
+                stop_sync_attempts += 1
+            if (
+                once
+                or (should_stop and not self.pending_refs)
+                or stop_sync_attempts >= MAX_STOP_SYNC_ATTEMPTS
+            ):
                 break
             if should_stop:
-                time.sleep(self.interval)
+                time.sleep(min(self.interval, 1.0))
             else:
                 self._sleep_until_next_tick()
         at = utc_now()
@@ -1510,6 +1526,24 @@ def command_wait(args: argparse.Namespace) -> int:
     return 0
 
 
+def command_check(args: argparse.Namespace) -> int:
+    registration = load_registration(
+        registration_path(args.run_id, args.orchestrator_id)
+    )
+    marker = control_marker(registration)
+    print(
+        json.dumps(
+            {
+                "status": "paused" if marker.exists() else "running",
+                "pause_file": str(marker),
+            },
+            indent=2,
+            sort_keys=True,
+        )
+    )
+    return 0
+
+
 def command_stop(args: argparse.Namespace) -> int:
     registration = load_registration(
         registration_path(args.run_id, args.orchestrator_id)
@@ -1542,10 +1576,24 @@ def command_stop(args: argparse.Namespace) -> int:
                 break
             time.sleep(0.2)
         if pid_path.exists():
-            raise MonitorError(
-                f"Monitor process {pid} is still completing its final sync; "
-                f"the stop request remains at {stop_marker(registration)}"
+            print(
+                json.dumps(
+                    {
+                        "status": "stop_requested",
+                        "run_id": registration["run_id"],
+                        "orchestrator_id": registration["orchestrator_id"],
+                        "pid": pid,
+                        "stop_file": str(stop_marker(registration)),
+                        "message": (
+                            "The monitor is finishing its bounded final sync "
+                            "in the background."
+                        ),
+                    },
+                    indent=2,
+                    sort_keys=True,
+                )
             )
+            return 0
     print(
         json.dumps(
             {
@@ -1631,10 +1679,17 @@ def parser() -> argparse.ArgumentParser:
     wait.add_argument("--poll-seconds", type=float, default=10)
     wait.set_defaults(func=command_wait)
 
+    check = subparsers.add_parser(
+        "check", help="Report local pause state without blocking."
+    )
+    check.add_argument("--run-id", required=True)
+    check.add_argument("--orchestrator-id", required=True)
+    check.set_defaults(func=command_check)
+
     stop = subparsers.add_parser("stop", help="Stop a background monitor.")
     stop.add_argument("--run-id", required=True)
     stop.add_argument("--orchestrator-id", required=True)
-    stop.add_argument("--timeout-seconds", type=float, default=45)
+    stop.add_argument("--timeout-seconds", type=float, default=5)
     stop.set_defaults(func=command_stop)
 
     control = subparsers.add_parser("control", help="Set local control state for testing.")

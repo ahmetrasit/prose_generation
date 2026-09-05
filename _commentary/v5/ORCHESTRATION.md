@@ -88,18 +88,20 @@ state, and do not create any other tracking files. Do not ignore
 operations docs are part of the orchestration tooling. Only `operations/runtime/`
 is disposable monitor runtime state.
 
-Before launching the first scope agents for any ayah, including a single-ayah
-run, the orchestrator checks pause:
+Immediately before beginning a new ayah, including a single-ayah run, the
+orchestrator checks the daemon-maintained local pause marker without blocking:
 
 ```bash
-python3 _commentary/v5/operations/monitor.py wait \
+python3 _commentary/v5/operations/monitor.py check \
   --run-id <shared-run-id> \
   --orchestrator-id <unique-orchestrator-id>
 ```
 
-Pause is cooperative. An ayah already in progress may finish; no new ayah may
-start until `wait` returns `running`. Do not run `wait` between steps of an
-active ayah, and do not introduce direct remote messaging to agents.
+The command returns immediately with `running` or `paused`. On `running`, begin
+the ayah. On `paused`, do not launch that ayah's scope agents; report the paused
+state and leave already-running ayat alone. The daemon will remove the marker
+after a remote resume. Do not check between steps of an active ayah, poll
+Firebase directly, or introduce direct remote messaging to agents.
 
 ## 1. Preflight
 
@@ -297,12 +299,18 @@ Fill that template manually before launching the agent:
 - replace `@@PROSE_OUTPUT_PATH@@` with the exact output path below;
 - replace `@@FOCUS_CONTEXT_BRIEF@@` with the `focus_context_brief` object
   printed by `prepare`;
+- replace `@@MICRO_DISCOVERY_JSON@@`, `@@MACRO_DISCOVERY_JSON@@`, and
+  `@@GLOBAL_DISCOVERY_JSON@@` with the complete contents of the three discovery
+  JSON files;
 - replace `@@MICRO_SCOPE_PROSE@@`, `@@MACRO_SCOPE_PROSE@@`, and
   `@@GLOBAL_SCOPE_PROSE@@` with the complete contents of the three scope prose
-  files;
-- replace the governing-document placeholders with the current contents of the
-  named local documents, or include those documents by path if the consolidator
-  can read the workspace.
+  files.
+
+Discovery `evidence_facts` and exact branch-activation fields control source
+facts. Scope prose controls intended coverage but is not factually immutable.
+The consolidator may correct a demonstrable grammatical, morphological, or
+lexical misstatement from those records without treating the correction as a
+new finding or silently dropping the intended finding.
 
 The consolidator writes:
 
@@ -495,8 +503,10 @@ Use ranges or explicit sets and launch every returned handoff concurrently with
 the multiagent spawn tool. Each item carries its own `ayah_ref`, `analysis_id`,
 lane, and prompt path; do not infer them from list order.
 
-The Operations Monitor pause check applies before the first scope-agent launch
-for each ayah in the batch. Do not omit it for single-ayah runs or batch runs.
+The nonblocking Operations Monitor pause check applies before the first
+scope-agent launch for each ayah in the batch. Do not omit it for single-ayah
+runs or batch runs. A `paused` result defers only ayat that have not started;
+it does not interrupt or hold the terminal for active ayat.
 
 When multiple ayat are selected, run the whole V5 workflow for those ayat in
 parallel. Do not finish one ayah end to end before starting the next. Spawn the
@@ -519,6 +529,12 @@ python3 _commentary/v5/operations/monitor.py stop \
   --run-id <shared-run-id> \
   --orchestrator-id <unique-orchestrator-id>
 ```
+
+Shutdown performs at most two final sync attempts, then exits even if Firebase
+is unavailable. `status: stop_requested` is a successful bounded response: the
+detached monitor is finishing those attempts in the background. Unsynced local
+runtime state remains local rather than keeping the orchestrator blocked
+indefinitely.
 
 ## Operational Rules
 
