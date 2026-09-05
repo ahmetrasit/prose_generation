@@ -3571,6 +3571,8 @@ def validate_docket(docket: dict[str, Any]) -> None:
             pointer_match = WORD_TOPIC_SOURCE_POINTER_RE.fullmatch(
                 candidate["source_pointer"]
             )
+            # Authoring preparation can retain unresolved topics for review.
+            # Their source obligation stays intact; selection remains disabled.
             if (
                 candidate["lane"] != "micro"
                 or candidate["kind"] != "word_topic"
@@ -3578,7 +3580,10 @@ def validate_docket(docket: dict[str, Any]) -> None:
                 or candidate["trust"] != "trusted"
                 or candidate["obligation"] not in WORD_TOPIC_OBLIGATIONS
                 or candidate["mandatory"]
-                is not (candidate["obligation"] in ("must_integrate", "candidate"))
+                is not (
+                    candidate["obligation"] in ("must_integrate", "candidate")
+                    and candidate["adjudicable"]
+                )
                 or candidate["root_ids"]
                 or pointer_match is None
             ):

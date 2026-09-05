@@ -5064,8 +5064,38 @@
     ]
   },
   "word_morpheme_spans": [
-    null,
-    null,
+    {
+      "word_index": 0,
+      "surface_ar": "يَا",
+      "word_ids": [
+        "w-s012-a041-w001"
+      ],
+      "qac_refs": [
+        "12:41:1:1"
+      ],
+      "morpheme_ids": [
+        "m-w-s012-a041-w001-01"
+      ],
+      "aligned_qac_word_ref_upstream": "12:41:1",
+      "morpheme_skip_count": 0
+    },
+    {
+      "word_index": 1,
+      "surface_ar": "صَاحِبَيِ",
+      "word_ids": [
+        "w-s012-a041-w001"
+      ],
+      "qac_refs": [
+        "12:41:1:2",
+        "12:41:1:3"
+      ],
+      "morpheme_ids": [
+        "m-w-s012-a041-w001-02",
+        "m-w-s012-a041-w001-03"
+      ],
+      "aligned_qac_word_ref_upstream": "12:41:2",
+      "morpheme_skip_count": 0
+    },
     {
       "word_index": 2,
       "surface_ar": "ٱلسِّجْنِ",
@@ -5081,7 +5111,7 @@
         "m-w-s012-a041-w002-02"
       ],
       "aligned_qac_word_ref_upstream": "12:41:3",
-      "morpheme_skip_count": 3
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 3,
@@ -5130,7 +5160,21 @@
       "aligned_qac_word_ref_upstream": "12:41:6",
       "morpheme_skip_count": 0
     },
-    null,
+    {
+      "word_index": 6,
+      "surface_ar": "يَسْقِي",
+      "word_ids": [
+        "w-s012-a041-w005"
+      ],
+      "qac_refs": [
+        "12:41:5:2"
+      ],
+      "morpheme_ids": [
+        "m-w-s012-a041-w005-02"
+      ],
+      "aligned_qac_word_ref_upstream": "12:41:7",
+      "morpheme_skip_count": 0
+    },
     {
       "word_index": 7,
       "surface_ar": "رَبَّهُ",
@@ -5146,7 +5190,7 @@
         "m-w-s012-a041-w006-02"
       ],
       "aligned_qac_word_ref_upstream": "12:41:8",
-      "morpheme_skip_count": 1
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 8,
@@ -5319,7 +5363,21 @@
       "aligned_qac_word_ref_upstream": "12:41:19",
       "morpheme_skip_count": 0
     },
-    null,
+    {
+      "word_index": 19,
+      "surface_ar": "قُضِيَ",
+      "word_ids": [
+        "w-s012-a041-w015"
+      ],
+      "qac_refs": [
+        "12:41:15:1"
+      ],
+      "morpheme_ids": [
+        "m-w-s012-a041-w015-01"
+      ],
+      "aligned_qac_word_ref_upstream": "12:41:20",
+      "morpheme_skip_count": 0
+    },
     {
       "word_index": 20,
       "surface_ar": "ٱلْأَمْرُ",
@@ -5335,7 +5393,7 @@
         "m-w-s012-a041-w016-02"
       ],
       "aligned_qac_word_ref_upstream": "12:41:21",
-      "morpheme_skip_count": 1
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 21,
@@ -54305,38 +54363,16 @@
     "word_morpheme_spans": {
       "present": true,
       "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s012/linguistic/morphemes.tsv",
+      "alignment_version": "ordered-morpheme-spans-v2",
       "words_total": 24,
-      "words_resolved": 20,
-      "words_unresolved": 4,
-      "morpheme_skip_total": 5,
-      "morpheme_skip_max": 3,
+      "words_resolved": 24,
+      "words_unresolved": 0,
+      "morpheme_skip_total": 0,
+      "morpheme_skip_max": 0,
       "morpheme_skip_histogram": {
-        "3": 1,
-        "0": 17,
-        "1": 2
+        "0": 24
       },
-      "unresolved": [
-        {
-          "word_index": 0,
-          "surface_ar": "يَا",
-          "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-        },
-        {
-          "word_index": 1,
-          "surface_ar": "صَاحِبَيِ",
-          "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-        },
-        {
-          "word_index": 6,
-          "surface_ar": "يَسْقِي",
-          "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-        },
-        {
-          "word_index": 19,
-          "surface_ar": "قُضِيَ",
-          "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-        }
-      ],
+      "unresolved": [],
       "morphemes_tsv": {
         "present": true,
         "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s012/linguistic/morphemes.tsv",
@@ -54346,7 +54382,7 @@
         "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
         "dropped_preface_rows": 7
       },
-      "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
+      "note": "Ordered surface alignment within canonical QAC words; only spans shared by all best alignments are joined. Upstream word-analysis identities and wording are preserved. Unresolved analytic units remain available for qualified reading; never infer their QAC identity from upstream numbering."
     },
     "word_analysis_qac_alignment": {
       "consistent": false,

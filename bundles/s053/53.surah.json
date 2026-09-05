@@ -2004,19 +2004,26 @@
         "word_morpheme_spans": {
           "present": true,
           "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s053/linguistic/morphemes.tsv",
+          "alignment_version": "ordered-morpheme-spans-v2",
           "words_total": 4,
           "words_resolved": 4,
           "words_unresolved": 0,
+          "morpheme_skip_total": 0,
+          "morpheme_skip_max": 0,
+          "morpheme_skip_histogram": {
+            "0": 4
+          },
           "unresolved": [],
           "morphemes_tsv": {
             "present": true,
             "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s053/linguistic/morphemes.tsv",
-            "ayah_count": 63,
-            "row_count": 575,
+            "ayah_count": 62,
+            "row_count": 568,
             "malformed_rows": 0,
-            "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+            "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+            "dropped_preface_rows": 7
           },
-          "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
+          "note": "Ordered surface alignment within canonical QAC words; only spans shared by all best alignments are joined. Upstream word-analysis identities and wording are preserved. Unresolved analytic units remain available for qualified reading; never infer their QAC identity from upstream numbering."
         },
         "word_analysis_qac_alignment": {
           "consistent": false,
@@ -2560,19 +2567,26 @@
         "word_morpheme_spans": {
           "present": true,
           "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s053/linguistic/morphemes.tsv",
+          "alignment_version": "ordered-morpheme-spans-v2",
           "words_total": 6,
           "words_resolved": 6,
           "words_unresolved": 0,
+          "morpheme_skip_total": 0,
+          "morpheme_skip_max": 0,
+          "morpheme_skip_histogram": {
+            "0": 6
+          },
           "unresolved": [],
           "morphemes_tsv": {
             "present": true,
             "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s053/linguistic/morphemes.tsv",
-            "ayah_count": 63,
-            "row_count": 575,
+            "ayah_count": 62,
+            "row_count": 568,
             "malformed_rows": 0,
-            "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+            "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+            "dropped_preface_rows": 7
           },
-          "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
+          "note": "Ordered surface alignment within canonical QAC words; only spans shared by all best alignments are joined. Upstream word-analysis identities and wording are preserved. Unresolved analytic units remain available for qualified reading; never infer their QAC identity from upstream numbering."
         },
         "word_analysis_qac_alignment": {
           "consistent": false,
@@ -3148,19 +3162,26 @@
         "word_morpheme_spans": {
           "present": true,
           "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s053/linguistic/morphemes.tsv",
+          "alignment_version": "ordered-morpheme-spans-v2",
           "words_total": 5,
           "words_resolved": 5,
           "words_unresolved": 0,
+          "morpheme_skip_total": 0,
+          "morpheme_skip_max": 0,
+          "morpheme_skip_histogram": {
+            "0": 5
+          },
           "unresolved": [],
           "morphemes_tsv": {
             "present": true,
             "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s053/linguistic/morphemes.tsv",
-            "ayah_count": 63,
-            "row_count": 575,
+            "ayah_count": 62,
+            "row_count": 568,
             "malformed_rows": 0,
-            "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+            "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+            "dropped_preface_rows": 7
           },
-          "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
+          "note": "Ordered surface alignment within canonical QAC words; only spans shared by all best alignments are joined. Upstream word-analysis identities and wording are preserved. Unresolved analytic units remain available for qualified reading; never infer their QAC identity from upstream numbering."
         },
         "word_analysis_qac_alignment": {
           "consistent": false,
@@ -3718,19 +3739,26 @@
         "word_morpheme_spans": {
           "present": true,
           "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s053/linguistic/morphemes.tsv",
+          "alignment_version": "ordered-morpheme-spans-v2",
           "words_total": 5,
           "words_resolved": 5,
           "words_unresolved": 0,
+          "morpheme_skip_total": 0,
+          "morpheme_skip_max": 0,
+          "morpheme_skip_histogram": {
+            "0": 5
+          },
           "unresolved": [],
           "morphemes_tsv": {
             "present": true,
             "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s053/linguistic/morphemes.tsv",
-            "ayah_count": 63,
-            "row_count": 575,
+            "ayah_count": 62,
+            "row_count": 568,
             "malformed_rows": 0,
-            "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+            "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+            "dropped_preface_rows": 7
           },
-          "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
+          "note": "Ordered surface alignment within canonical QAC words; only spans shared by all best alignments are joined. Upstream word-analysis identities and wording are preserved. Unresolved analytic units remain available for qualified reading; never infer their QAC identity from upstream numbering."
         },
         "word_analysis_qac_alignment": {
           "consistent": true,
@@ -4129,19 +4157,26 @@
         "word_morpheme_spans": {
           "present": true,
           "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s053/linguistic/morphemes.tsv",
+          "alignment_version": "ordered-morpheme-spans-v2",
           "words_total": 3,
           "words_resolved": 3,
           "words_unresolved": 0,
+          "morpheme_skip_total": 0,
+          "morpheme_skip_max": 0,
+          "morpheme_skip_histogram": {
+            "0": 3
+          },
           "unresolved": [],
           "morphemes_tsv": {
             "present": true,
             "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s053/linguistic/morphemes.tsv",
-            "ayah_count": 63,
-            "row_count": 575,
+            "ayah_count": 62,
+            "row_count": 568,
             "malformed_rows": 0,
-            "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+            "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+            "dropped_preface_rows": 7
           },
-          "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
+          "note": "Ordered surface alignment within canonical QAC words; only spans shared by all best alignments are joined. Upstream word-analysis identities and wording are preserved. Unresolved analytic units remain available for qualified reading; never infer their QAC identity from upstream numbering."
         },
         "word_analysis_qac_alignment": {
           "consistent": true,
@@ -4769,19 +4804,26 @@
         "word_morpheme_spans": {
           "present": true,
           "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s053/linguistic/morphemes.tsv",
+          "alignment_version": "ordered-morpheme-spans-v2",
           "words_total": 4,
           "words_resolved": 4,
           "words_unresolved": 0,
+          "morpheme_skip_total": 0,
+          "morpheme_skip_max": 0,
+          "morpheme_skip_histogram": {
+            "0": 4
+          },
           "unresolved": [],
           "morphemes_tsv": {
             "present": true,
             "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s053/linguistic/morphemes.tsv",
-            "ayah_count": 63,
-            "row_count": 575,
+            "ayah_count": 62,
+            "row_count": 568,
             "malformed_rows": 0,
-            "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+            "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+            "dropped_preface_rows": 7
           },
-          "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
+          "note": "Ordered surface alignment within canonical QAC words; only spans shared by all best alignments are joined. Upstream word-analysis identities and wording are preserved. Unresolved analytic units remain available for qualified reading; never infer their QAC identity from upstream numbering."
         },
         "word_analysis_qac_alignment": {
           "consistent": false,
@@ -5336,19 +5378,26 @@
         "word_morpheme_spans": {
           "present": true,
           "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s053/linguistic/morphemes.tsv",
+          "alignment_version": "ordered-morpheme-spans-v2",
           "words_total": 5,
           "words_resolved": 5,
           "words_unresolved": 0,
+          "morpheme_skip_total": 0,
+          "morpheme_skip_max": 0,
+          "morpheme_skip_histogram": {
+            "0": 5
+          },
           "unresolved": [],
           "morphemes_tsv": {
             "present": true,
             "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s053/linguistic/morphemes.tsv",
-            "ayah_count": 63,
-            "row_count": 575,
+            "ayah_count": 62,
+            "row_count": 568,
             "malformed_rows": 0,
-            "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+            "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+            "dropped_preface_rows": 7
           },
-          "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
+          "note": "Ordered surface alignment within canonical QAC words; only spans shared by all best alignments are joined. Upstream word-analysis identities and wording are preserved. Unresolved analytic units remain available for qualified reading; never infer their QAC identity from upstream numbering."
         },
         "word_analysis_qac_alignment": {
           "consistent": false,
@@ -5892,19 +5941,26 @@
         "word_morpheme_spans": {
           "present": true,
           "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s053/linguistic/morphemes.tsv",
+          "alignment_version": "ordered-morpheme-spans-v2",
           "words_total": 4,
           "words_resolved": 4,
           "words_unresolved": 0,
+          "morpheme_skip_total": 0,
+          "morpheme_skip_max": 0,
+          "morpheme_skip_histogram": {
+            "0": 4
+          },
           "unresolved": [],
           "morphemes_tsv": {
             "present": true,
             "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s053/linguistic/morphemes.tsv",
-            "ayah_count": 63,
-            "row_count": 575,
+            "ayah_count": 62,
+            "row_count": 568,
             "malformed_rows": 0,
-            "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+            "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+            "dropped_preface_rows": 7
           },
-          "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
+          "note": "Ordered surface alignment within canonical QAC words; only spans shared by all best alignments are joined. Upstream word-analysis identities and wording are preserved. Unresolved analytic units remain available for qualified reading; never infer their QAC identity from upstream numbering."
         },
         "word_analysis_qac_alignment": {
           "consistent": false,
@@ -6462,19 +6518,26 @@
         "word_morpheme_spans": {
           "present": true,
           "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s053/linguistic/morphemes.tsv",
+          "alignment_version": "ordered-morpheme-spans-v2",
           "words_total": 6,
           "words_resolved": 6,
           "words_unresolved": 0,
+          "morpheme_skip_total": 0,
+          "morpheme_skip_max": 0,
+          "morpheme_skip_histogram": {
+            "0": 6
+          },
           "unresolved": [],
           "morphemes_tsv": {
             "present": true,
             "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s053/linguistic/morphemes.tsv",
-            "ayah_count": 63,
-            "row_count": 575,
+            "ayah_count": 62,
+            "row_count": 568,
             "malformed_rows": 0,
-            "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+            "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+            "dropped_preface_rows": 7
           },
-          "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
+          "note": "Ordered surface alignment within canonical QAC words; only spans shared by all best alignments are joined. Upstream word-analysis identities and wording are preserved. Unresolved analytic units remain available for qualified reading; never infer their QAC identity from upstream numbering."
         },
         "word_analysis_qac_alignment": {
           "consistent": false,
@@ -7176,19 +7239,26 @@
         "word_morpheme_spans": {
           "present": true,
           "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s053/linguistic/morphemes.tsv",
+          "alignment_version": "ordered-morpheme-spans-v2",
           "words_total": 6,
           "words_resolved": 6,
           "words_unresolved": 0,
+          "morpheme_skip_total": 0,
+          "morpheme_skip_max": 0,
+          "morpheme_skip_histogram": {
+            "0": 6
+          },
           "unresolved": [],
           "morphemes_tsv": {
             "present": true,
             "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s053/linguistic/morphemes.tsv",
-            "ayah_count": 63,
-            "row_count": 575,
+            "ayah_count": 62,
+            "row_count": 568,
             "malformed_rows": 0,
-            "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+            "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+            "dropped_preface_rows": 7
           },
-          "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
+          "note": "Ordered surface alignment within canonical QAC words; only spans shared by all best alignments are joined. Upstream word-analysis identities and wording are preserved. Unresolved analytic units remain available for qualified reading; never infer their QAC identity from upstream numbering."
         },
         "word_analysis_qac_alignment": {
           "consistent": false,
@@ -7646,19 +7716,26 @@
         "word_morpheme_spans": {
           "present": true,
           "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s053/linguistic/morphemes.tsv",
+          "alignment_version": "ordered-morpheme-spans-v2",
           "words_total": 5,
           "words_resolved": 5,
           "words_unresolved": 0,
+          "morpheme_skip_total": 0,
+          "morpheme_skip_max": 0,
+          "morpheme_skip_histogram": {
+            "0": 5
+          },
           "unresolved": [],
           "morphemes_tsv": {
             "present": true,
             "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s053/linguistic/morphemes.tsv",
-            "ayah_count": 63,
-            "row_count": 575,
+            "ayah_count": 62,
+            "row_count": 568,
             "malformed_rows": 0,
-            "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+            "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+            "dropped_preface_rows": 7
           },
-          "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
+          "note": "Ordered surface alignment within canonical QAC words; only spans shared by all best alignments are joined. Upstream word-analysis identities and wording are preserved. Unresolved analytic units remain available for qualified reading; never infer their QAC identity from upstream numbering."
         },
         "word_analysis_qac_alignment": {
           "consistent": true,
@@ -8204,19 +8281,26 @@
         "word_morpheme_spans": {
           "present": true,
           "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s053/linguistic/morphemes.tsv",
+          "alignment_version": "ordered-morpheme-spans-v2",
           "words_total": 5,
           "words_resolved": 5,
           "words_unresolved": 0,
+          "morpheme_skip_total": 0,
+          "morpheme_skip_max": 0,
+          "morpheme_skip_histogram": {
+            "0": 5
+          },
           "unresolved": [],
           "morphemes_tsv": {
             "present": true,
             "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s053/linguistic/morphemes.tsv",
-            "ayah_count": 63,
-            "row_count": 575,
+            "ayah_count": 62,
+            "row_count": 568,
             "malformed_rows": 0,
-            "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+            "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+            "dropped_preface_rows": 7
           },
-          "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
+          "note": "Ordered surface alignment within canonical QAC words; only spans shared by all best alignments are joined. Upstream word-analysis identities and wording are preserved. Unresolved analytic units remain available for qualified reading; never infer their QAC identity from upstream numbering."
         },
         "word_analysis_qac_alignment": {
           "consistent": false,
@@ -8729,19 +8813,26 @@
         "word_morpheme_spans": {
           "present": true,
           "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s053/linguistic/morphemes.tsv",
+          "alignment_version": "ordered-morpheme-spans-v2",
           "words_total": 6,
           "words_resolved": 6,
           "words_unresolved": 0,
+          "morpheme_skip_total": 0,
+          "morpheme_skip_max": 0,
+          "morpheme_skip_histogram": {
+            "0": 6
+          },
           "unresolved": [],
           "morphemes_tsv": {
             "present": true,
             "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s053/linguistic/morphemes.tsv",
-            "ayah_count": 63,
-            "row_count": 575,
+            "ayah_count": 62,
+            "row_count": 568,
             "malformed_rows": 0,
-            "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+            "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+            "dropped_preface_rows": 7
           },
-          "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
+          "note": "Ordered surface alignment within canonical QAC words; only spans shared by all best alignments are joined. Upstream word-analysis identities and wording are preserved. Unresolved analytic units remain available for qualified reading; never infer their QAC identity from upstream numbering."
         },
         "word_analysis_qac_alignment": {
           "consistent": false,
@@ -9398,19 +9489,26 @@
         "word_morpheme_spans": {
           "present": true,
           "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s053/linguistic/morphemes.tsv",
+          "alignment_version": "ordered-morpheme-spans-v2",
           "words_total": 3,
           "words_resolved": 3,
           "words_unresolved": 0,
+          "morpheme_skip_total": 0,
+          "morpheme_skip_max": 0,
+          "morpheme_skip_histogram": {
+            "0": 3
+          },
           "unresolved": [],
           "morphemes_tsv": {
             "present": true,
             "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s053/linguistic/morphemes.tsv",
-            "ayah_count": 63,
-            "row_count": 575,
+            "ayah_count": 62,
+            "row_count": 568,
             "malformed_rows": 0,
-            "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+            "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+            "dropped_preface_rows": 7
           },
-          "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
+          "note": "Ordered surface alignment within canonical QAC words; only spans shared by all best alignments are joined. Upstream word-analysis identities and wording are preserved. Unresolved analytic units remain available for qualified reading; never infer their QAC identity from upstream numbering."
         },
         "word_analysis_qac_alignment": {
           "consistent": true,
@@ -10049,19 +10147,26 @@
         "word_morpheme_spans": {
           "present": true,
           "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s053/linguistic/morphemes.tsv",
+          "alignment_version": "ordered-morpheme-spans-v2",
           "words_total": 3,
           "words_resolved": 3,
           "words_unresolved": 0,
+          "morpheme_skip_total": 0,
+          "morpheme_skip_max": 0,
+          "morpheme_skip_histogram": {
+            "0": 3
+          },
           "unresolved": [],
           "morphemes_tsv": {
             "present": true,
             "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s053/linguistic/morphemes.tsv",
-            "ayah_count": 63,
-            "row_count": 575,
+            "ayah_count": 62,
+            "row_count": 568,
             "malformed_rows": 0,
-            "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+            "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+            "dropped_preface_rows": 7
           },
-          "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
+          "note": "Ordered surface alignment within canonical QAC words; only spans shared by all best alignments are joined. Upstream word-analysis identities and wording are preserved. Unresolved analytic units remain available for qualified reading; never infer their QAC identity from upstream numbering."
         },
         "word_analysis_qac_alignment": {
           "consistent": true,
@@ -10579,19 +10684,26 @@
         "word_morpheme_spans": {
           "present": true,
           "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s053/linguistic/morphemes.tsv",
+          "alignment_version": "ordered-morpheme-spans-v2",
           "words_total": 5,
           "words_resolved": 5,
           "words_unresolved": 0,
+          "morpheme_skip_total": 0,
+          "morpheme_skip_max": 0,
+          "morpheme_skip_histogram": {
+            "0": 5
+          },
           "unresolved": [],
           "morphemes_tsv": {
             "present": true,
             "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s053/linguistic/morphemes.tsv",
-            "ayah_count": 63,
-            "row_count": 575,
+            "ayah_count": 62,
+            "row_count": 568,
             "malformed_rows": 0,
-            "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+            "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+            "dropped_preface_rows": 7
           },
-          "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
+          "note": "Ordered surface alignment within canonical QAC words; only spans shared by all best alignments are joined. Upstream word-analysis identities and wording are preserved. Unresolved analytic units remain available for qualified reading; never infer their QAC identity from upstream numbering."
         },
         "word_analysis_qac_alignment": {
           "consistent": true,
@@ -11091,19 +11203,26 @@
         "word_morpheme_spans": {
           "present": true,
           "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s053/linguistic/morphemes.tsv",
+          "alignment_version": "ordered-morpheme-spans-v2",
           "words_total": 6,
           "words_resolved": 6,
           "words_unresolved": 0,
+          "morpheme_skip_total": 0,
+          "morpheme_skip_max": 0,
+          "morpheme_skip_histogram": {
+            "0": 6
+          },
           "unresolved": [],
           "morphemes_tsv": {
             "present": true,
             "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s053/linguistic/morphemes.tsv",
-            "ayah_count": 63,
-            "row_count": 575,
+            "ayah_count": 62,
+            "row_count": 568,
             "malformed_rows": 0,
-            "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+            "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+            "dropped_preface_rows": 7
           },
-          "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
+          "note": "Ordered surface alignment within canonical QAC words; only spans shared by all best alignments are joined. Upstream word-analysis identities and wording are preserved. Unresolved analytic units remain available for qualified reading; never infer their QAC identity from upstream numbering."
         },
         "word_analysis_qac_alignment": {
           "consistent": false,
@@ -11782,19 +11901,26 @@
         "word_morpheme_spans": {
           "present": true,
           "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s053/linguistic/morphemes.tsv",
+          "alignment_version": "ordered-morpheme-spans-v2",
           "words_total": 7,
           "words_resolved": 7,
           "words_unresolved": 0,
+          "morpheme_skip_total": 0,
+          "morpheme_skip_max": 0,
+          "morpheme_skip_histogram": {
+            "0": 7
+          },
           "unresolved": [],
           "morphemes_tsv": {
             "present": true,
             "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s053/linguistic/morphemes.tsv",
-            "ayah_count": 63,
-            "row_count": 575,
+            "ayah_count": 62,
+            "row_count": 568,
             "malformed_rows": 0,
-            "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+            "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+            "dropped_preface_rows": 7
           },
-          "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
+          "note": "Ordered surface alignment within canonical QAC words; only spans shared by all best alignments are joined. Upstream word-analysis identities and wording are preserved. Unresolved analytic units remain available for qualified reading; never infer their QAC identity from upstream numbering."
         },
         "word_analysis_qac_alignment": {
           "consistent": false,
@@ -12543,25 +12669,32 @@
         "word_morpheme_spans": {
           "present": true,
           "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s053/linguistic/morphemes.tsv",
+          "alignment_version": "ordered-morpheme-spans-v2",
           "words_total": 5,
           "words_resolved": 4,
           "words_unresolved": 1,
+          "morpheme_skip_total": 0,
+          "morpheme_skip_max": 0,
+          "morpheme_skip_histogram": {
+            "0": 4
+          },
           "unresolved": [
             {
               "word_index": 0,
               "surface_ar": "فَ",
-              "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
+              "reason": "no compatible span in the best ordered source alignment"
             }
           ],
           "morphemes_tsv": {
             "present": true,
             "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s053/linguistic/morphemes.tsv",
-            "ayah_count": 63,
-            "row_count": 575,
+            "ayah_count": 62,
+            "row_count": 568,
             "malformed_rows": 0,
-            "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+            "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+            "dropped_preface_rows": 7
           },
-          "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
+          "note": "Ordered surface alignment within canonical QAC words; only spans shared by all best alignments are joined. Upstream word-analysis identities and wording are preserved. Unresolved analytic units remain available for qualified reading; never infer their QAC identity from upstream numbering."
         },
         "word_analysis_qac_alignment": {
           "consistent": false,
@@ -12973,19 +13106,26 @@
         "word_morpheme_spans": {
           "present": true,
           "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s053/linguistic/morphemes.tsv",
+          "alignment_version": "ordered-morpheme-spans-v2",
           "words_total": 4,
           "words_resolved": 4,
           "words_unresolved": 0,
+          "morpheme_skip_total": 0,
+          "morpheme_skip_max": 0,
+          "morpheme_skip_histogram": {
+            "0": 4
+          },
           "unresolved": [],
           "morphemes_tsv": {
             "present": true,
             "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s053/linguistic/morphemes.tsv",
-            "ayah_count": 63,
-            "row_count": 575,
+            "ayah_count": 62,
+            "row_count": 568,
             "malformed_rows": 0,
-            "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+            "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+            "dropped_preface_rows": 7
           },
-          "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
+          "note": "Ordered surface alignment within canonical QAC words; only spans shared by all best alignments are joined. Upstream word-analysis identities and wording are preserved. Unresolved analytic units remain available for qualified reading; never infer their QAC identity from upstream numbering."
         },
         "word_analysis_qac_alignment": {
           "consistent": false,
@@ -13476,19 +13616,26 @@
         "word_morpheme_spans": {
           "present": true,
           "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s053/linguistic/morphemes.tsv",
+          "alignment_version": "ordered-morpheme-spans-v2",
           "words_total": 5,
           "words_resolved": 5,
           "words_unresolved": 0,
+          "morpheme_skip_total": 0,
+          "morpheme_skip_max": 0,
+          "morpheme_skip_histogram": {
+            "0": 5
+          },
           "unresolved": [],
           "morphemes_tsv": {
             "present": true,
             "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s053/linguistic/morphemes.tsv",
-            "ayah_count": 63,
-            "row_count": 575,
+            "ayah_count": 62,
+            "row_count": 568,
             "malformed_rows": 0,
-            "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+            "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+            "dropped_preface_rows": 7
           },
-          "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
+          "note": "Ordered surface alignment within canonical QAC words; only spans shared by all best alignments are joined. Upstream word-analysis identities and wording are preserved. Unresolved analytic units remain available for qualified reading; never infer their QAC identity from upstream numbering."
         },
         "word_analysis_qac_alignment": {
           "consistent": false,
@@ -14095,19 +14242,26 @@
         "word_morpheme_spans": {
           "present": true,
           "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s053/linguistic/morphemes.tsv",
+          "alignment_version": "ordered-morpheme-spans-v2",
           "words_total": 4,
           "words_resolved": 4,
           "words_unresolved": 0,
+          "morpheme_skip_total": 0,
+          "morpheme_skip_max": 0,
+          "morpheme_skip_histogram": {
+            "0": 4
+          },
           "unresolved": [],
           "morphemes_tsv": {
             "present": true,
             "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s053/linguistic/morphemes.tsv",
-            "ayah_count": 63,
-            "row_count": 575,
+            "ayah_count": 62,
+            "row_count": 568,
             "malformed_rows": 0,
-            "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+            "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+            "dropped_preface_rows": 7
           },
-          "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
+          "note": "Ordered surface alignment within canonical QAC words; only spans shared by all best alignments are joined. Upstream word-analysis identities and wording are preserved. Unresolved analytic units remain available for qualified reading; never infer their QAC identity from upstream numbering."
         },
         "word_analysis_qac_alignment": {
           "consistent": true,
@@ -14582,19 +14736,26 @@
         "word_morpheme_spans": {
           "present": true,
           "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s053/linguistic/morphemes.tsv",
+          "alignment_version": "ordered-morpheme-spans-v2",
           "words_total": 29,
           "words_resolved": 29,
           "words_unresolved": 0,
+          "morpheme_skip_total": 0,
+          "morpheme_skip_max": 0,
+          "morpheme_skip_histogram": {
+            "0": 29
+          },
           "unresolved": [],
           "morphemes_tsv": {
             "present": true,
             "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s053/linguistic/morphemes.tsv",
-            "ayah_count": 63,
-            "row_count": 575,
+            "ayah_count": 62,
+            "row_count": 568,
             "malformed_rows": 0,
-            "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+            "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+            "dropped_preface_rows": 7
           },
-          "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
+          "note": "Ordered surface alignment within canonical QAC words; only spans shared by all best alignments are joined. Upstream word-analysis identities and wording are preserved. Unresolved analytic units remain available for qualified reading; never infer their QAC identity from upstream numbering."
         },
         "word_analysis_qac_alignment": {
           "consistent": false,
@@ -15929,19 +16090,26 @@
         "word_morpheme_spans": {
           "present": true,
           "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s053/linguistic/morphemes.tsv",
+          "alignment_version": "ordered-morpheme-spans-v2",
           "words_total": 5,
           "words_resolved": 5,
           "words_unresolved": 0,
+          "morpheme_skip_total": 0,
+          "morpheme_skip_max": 0,
+          "morpheme_skip_histogram": {
+            "0": 5
+          },
           "unresolved": [],
           "morphemes_tsv": {
             "present": true,
             "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s053/linguistic/morphemes.tsv",
-            "ayah_count": 63,
-            "row_count": 575,
+            "ayah_count": 62,
+            "row_count": 568,
             "malformed_rows": 0,
-            "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+            "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+            "dropped_preface_rows": 7
           },
-          "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
+          "note": "Ordered surface alignment within canonical QAC words; only spans shared by all best alignments are joined. Upstream word-analysis identities and wording are preserved. Unresolved analytic units remain available for qualified reading; never infer their QAC identity from upstream numbering."
         },
         "word_analysis_qac_alignment": {
           "consistent": false,
@@ -16465,19 +16633,26 @@
         "word_morpheme_spans": {
           "present": true,
           "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s053/linguistic/morphemes.tsv",
+          "alignment_version": "ordered-morpheme-spans-v2",
           "words_total": 6,
           "words_resolved": 6,
           "words_unresolved": 0,
+          "morpheme_skip_total": 0,
+          "morpheme_skip_max": 0,
+          "morpheme_skip_histogram": {
+            "0": 6
+          },
           "unresolved": [],
           "morphemes_tsv": {
             "present": true,
             "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s053/linguistic/morphemes.tsv",
-            "ayah_count": 63,
-            "row_count": 575,
+            "ayah_count": 62,
+            "row_count": 568,
             "malformed_rows": 0,
-            "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+            "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+            "dropped_preface_rows": 7
           },
-          "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
+          "note": "Ordered surface alignment within canonical QAC words; only spans shared by all best alignments are joined. Upstream word-analysis identities and wording are preserved. Unresolved analytic units remain available for qualified reading; never infer their QAC identity from upstream numbering."
         },
         "word_analysis_qac_alignment": {
           "consistent": false,
@@ -17006,105 +17181,26 @@
         "word_morpheme_spans": {
           "present": true,
           "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s053/linguistic/morphemes.tsv",
+          "alignment_version": "ordered-morpheme-spans-v2",
           "words_total": 21,
-          "words_resolved": 4,
-          "words_unresolved": 17,
-          "unresolved": [
-            {
-              "word_index": 4,
-              "surface_ar": "فِي",
-              "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-            },
-            {
-              "word_index": 5,
-              "surface_ar": "ٱلسَّمَٰوَٰتِ",
-              "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-            },
-            {
-              "word_index": 6,
-              "surface_ar": "لَا",
-              "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-            },
-            {
-              "word_index": 7,
-              "surface_ar": "تُغْنِي",
-              "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-            },
-            {
-              "word_index": 8,
-              "surface_ar": "شَفَاعَتُهُمْ",
-              "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-            },
-            {
-              "word_index": 9,
-              "surface_ar": "شَيْـًٔا",
-              "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-            },
-            {
-              "word_index": 10,
-              "surface_ar": "إِلَّا",
-              "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-            },
-            {
-              "word_index": 11,
-              "surface_ar": "مِنْ",
-              "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-            },
-            {
-              "word_index": 12,
-              "surface_ar": "بَعْدِ",
-              "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-            },
-            {
-              "word_index": 13,
-              "surface_ar": "أَنْ",
-              "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-            },
-            {
-              "word_index": 14,
-              "surface_ar": "يَأْذَنَ",
-              "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-            },
-            {
-              "word_index": 15,
-              "surface_ar": "ٱللَّهُ",
-              "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-            },
-            {
-              "word_index": 16,
-              "surface_ar": "لِ",
-              "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-            },
-            {
-              "word_index": 17,
-              "surface_ar": "مَنْ",
-              "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-            },
-            {
-              "word_index": 18,
-              "surface_ar": "يَشَاءُ",
-              "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-            },
-            {
-              "word_index": 19,
-              "surface_ar": "وَ",
-              "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-            },
-            {
-              "word_index": 20,
-              "surface_ar": "يَرْضَىٰ",
-              "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-            }
-          ],
+          "words_resolved": 21,
+          "words_unresolved": 0,
+          "morpheme_skip_total": 0,
+          "morpheme_skip_max": 0,
+          "morpheme_skip_histogram": {
+            "0": 21
+          },
+          "unresolved": [],
           "morphemes_tsv": {
             "present": true,
             "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s053/linguistic/morphemes.tsv",
-            "ayah_count": 63,
-            "row_count": 575,
+            "ayah_count": 62,
+            "row_count": 568,
             "malformed_rows": 0,
-            "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+            "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+            "dropped_preface_rows": 7
           },
-          "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
+          "note": "Ordered surface alignment within canonical QAC words; only spans shared by all best alignments are joined. Upstream word-analysis identities and wording are preserved. Unresolved analytic units remain available for qualified reading; never infer their QAC identity from upstream numbering."
         },
         "word_analysis_qac_alignment": {
           "consistent": false,
@@ -18252,19 +18348,26 @@
         "word_morpheme_spans": {
           "present": true,
           "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s053/linguistic/morphemes.tsv",
+          "alignment_version": "ordered-morpheme-spans-v2",
           "words_total": 11,
           "words_resolved": 11,
           "words_unresolved": 0,
+          "morpheme_skip_total": 0,
+          "morpheme_skip_max": 0,
+          "morpheme_skip_histogram": {
+            "0": 11
+          },
           "unresolved": [],
           "morphemes_tsv": {
             "present": true,
             "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s053/linguistic/morphemes.tsv",
-            "ayah_count": 63,
-            "row_count": 575,
+            "ayah_count": 62,
+            "row_count": 568,
             "malformed_rows": 0,
-            "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+            "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+            "dropped_preface_rows": 7
           },
-          "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
+          "note": "Ordered surface alignment within canonical QAC words; only spans shared by all best alignments are joined. Upstream word-analysis identities and wording are preserved. Unresolved analytic units remain available for qualified reading; never infer their QAC identity from upstream numbering."
         },
         "word_analysis_qac_alignment": {
           "consistent": false,
@@ -19021,19 +19124,26 @@
         "word_morpheme_spans": {
           "present": true,
           "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s053/linguistic/morphemes.tsv",
+          "alignment_version": "ordered-morpheme-spans-v2",
           "words_total": 19,
           "words_resolved": 19,
           "words_unresolved": 0,
+          "morpheme_skip_total": 0,
+          "morpheme_skip_max": 0,
+          "morpheme_skip_histogram": {
+            "0": 19
+          },
           "unresolved": [],
           "morphemes_tsv": {
             "present": true,
             "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s053/linguistic/morphemes.tsv",
-            "ayah_count": 63,
-            "row_count": 575,
+            "ayah_count": 62,
+            "row_count": 568,
             "malformed_rows": 0,
-            "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+            "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+            "dropped_preface_rows": 7
           },
-          "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
+          "note": "Ordered surface alignment within canonical QAC words; only spans shared by all best alignments are joined. Upstream word-analysis identities and wording are preserved. Unresolved analytic units remain available for qualified reading; never infer their QAC identity from upstream numbering."
         },
         "word_analysis_qac_alignment": {
           "consistent": false,
@@ -19947,19 +20057,26 @@
         "word_morpheme_spans": {
           "present": true,
           "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s053/linguistic/morphemes.tsv",
+          "alignment_version": "ordered-morpheme-spans-v2",
           "words_total": 13,
           "words_resolved": 13,
           "words_unresolved": 0,
+          "morpheme_skip_total": 0,
+          "morpheme_skip_max": 0,
+          "morpheme_skip_histogram": {
+            "0": 13
+          },
           "unresolved": [],
           "morphemes_tsv": {
             "present": true,
             "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s053/linguistic/morphemes.tsv",
-            "ayah_count": 63,
-            "row_count": 575,
+            "ayah_count": 62,
+            "row_count": 568,
             "malformed_rows": 0,
-            "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+            "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+            "dropped_preface_rows": 7
           },
-          "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
+          "note": "Ordered surface alignment within canonical QAC words; only spans shared by all best alignments are joined. Upstream word-analysis identities and wording are preserved. Unresolved analytic units remain available for qualified reading; never infer their QAC identity from upstream numbering."
         },
         "word_analysis_qac_alignment": {
           "consistent": false,
@@ -20894,19 +21011,26 @@
         "word_morpheme_spans": {
           "present": true,
           "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s053/linguistic/morphemes.tsv",
+          "alignment_version": "ordered-morpheme-spans-v2",
           "words_total": 17,
           "words_resolved": 17,
           "words_unresolved": 0,
+          "morpheme_skip_total": 0,
+          "morpheme_skip_max": 0,
+          "morpheme_skip_histogram": {
+            "0": 17
+          },
           "unresolved": [],
           "morphemes_tsv": {
             "present": true,
             "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s053/linguistic/morphemes.tsv",
-            "ayah_count": 63,
-            "row_count": 575,
+            "ayah_count": 62,
+            "row_count": 568,
             "malformed_rows": 0,
-            "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+            "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+            "dropped_preface_rows": 7
           },
-          "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
+          "note": "Ordered surface alignment within canonical QAC words; only spans shared by all best alignments are joined. Upstream word-analysis identities and wording are preserved. Unresolved analytic units remain available for qualified reading; never infer their QAC identity from upstream numbering."
         },
         "word_analysis_qac_alignment": {
           "consistent": false,
@@ -21857,19 +21981,26 @@
         "word_morpheme_spans": {
           "present": true,
           "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s053/linguistic/morphemes.tsv",
+          "alignment_version": "ordered-morpheme-spans-v2",
           "words_total": 23,
           "words_resolved": 23,
           "words_unresolved": 0,
+          "morpheme_skip_total": 0,
+          "morpheme_skip_max": 0,
+          "morpheme_skip_histogram": {
+            "0": 23
+          },
           "unresolved": [],
           "morphemes_tsv": {
             "present": true,
             "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s053/linguistic/morphemes.tsv",
-            "ayah_count": 63,
-            "row_count": 575,
+            "ayah_count": 62,
+            "row_count": 568,
             "malformed_rows": 0,
-            "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+            "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+            "dropped_preface_rows": 7
           },
-          "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
+          "note": "Ordered surface alignment within canonical QAC words; only spans shared by all best alignments are joined. Upstream word-analysis identities and wording are preserved. Unresolved analytic units remain available for qualified reading; never infer their QAC identity from upstream numbering."
         },
         "word_analysis_qac_alignment": {
           "consistent": false,
@@ -22848,19 +22979,26 @@
         "word_morpheme_spans": {
           "present": true,
           "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s053/linguistic/morphemes.tsv",
+          "alignment_version": "ordered-morpheme-spans-v2",
           "words_total": 35,
           "words_resolved": 35,
           "words_unresolved": 0,
+          "morpheme_skip_total": 0,
+          "morpheme_skip_max": 0,
+          "morpheme_skip_histogram": {
+            "0": 35
+          },
           "unresolved": [],
           "morphemes_tsv": {
             "present": true,
             "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s053/linguistic/morphemes.tsv",
-            "ayah_count": 63,
-            "row_count": 575,
+            "ayah_count": 62,
+            "row_count": 568,
             "malformed_rows": 0,
-            "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+            "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+            "dropped_preface_rows": 7
           },
-          "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
+          "note": "Ordered surface alignment within canonical QAC words; only spans shared by all best alignments are joined. Upstream word-analysis identities and wording are preserved. Unresolved analytic units remain available for qualified reading; never infer their QAC identity from upstream numbering."
         },
         "word_analysis_qac_alignment": {
           "consistent": false,
@@ -24430,25 +24568,32 @@
         "word_morpheme_spans": {
           "present": true,
           "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s053/linguistic/morphemes.tsv",
+          "alignment_version": "ordered-morpheme-spans-v2",
           "words_total": 4,
           "words_resolved": 3,
           "words_unresolved": 1,
+          "morpheme_skip_total": 0,
+          "morpheme_skip_max": 0,
+          "morpheme_skip_histogram": {
+            "0": 3
+          },
           "unresolved": [
             {
               "word_index": 0,
               "surface_ar": "فَ",
-              "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
+              "reason": "no compatible span in the best ordered source alignment"
             }
           ],
           "morphemes_tsv": {
             "present": true,
             "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s053/linguistic/morphemes.tsv",
-            "ayah_count": 63,
-            "row_count": 575,
+            "ayah_count": 62,
+            "row_count": 568,
             "malformed_rows": 0,
-            "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+            "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+            "dropped_preface_rows": 7
           },
-          "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
+          "note": "Ordered surface alignment within canonical QAC words; only spans shared by all best alignments are joined. Upstream word-analysis identities and wording are preserved. Unresolved analytic units remain available for qualified reading; never infer their QAC identity from upstream numbering."
         },
         "word_analysis_qac_alignment": {
           "consistent": false,
@@ -24932,19 +25077,26 @@
         "word_morpheme_spans": {
           "present": true,
           "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s053/linguistic/morphemes.tsv",
+          "alignment_version": "ordered-morpheme-spans-v2",
           "words_total": 5,
           "words_resolved": 5,
           "words_unresolved": 0,
+          "morpheme_skip_total": 0,
+          "morpheme_skip_max": 0,
+          "morpheme_skip_histogram": {
+            "0": 5
+          },
           "unresolved": [],
           "morphemes_tsv": {
             "present": true,
             "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s053/linguistic/morphemes.tsv",
-            "ayah_count": 63,
-            "row_count": 575,
+            "ayah_count": 62,
+            "row_count": 568,
             "malformed_rows": 0,
-            "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+            "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+            "dropped_preface_rows": 7
           },
-          "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
+          "note": "Ordered surface alignment within canonical QAC words; only spans shared by all best alignments are joined. Upstream word-analysis identities and wording are preserved. Unresolved analytic units remain available for qualified reading; never infer their QAC identity from upstream numbering."
         },
         "word_analysis_qac_alignment": {
           "consistent": false,
@@ -25521,19 +25673,26 @@
         "word_morpheme_spans": {
           "present": true,
           "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s053/linguistic/morphemes.tsv",
+          "alignment_version": "ordered-morpheme-spans-v2",
           "words_total": 6,
           "words_resolved": 6,
           "words_unresolved": 0,
+          "morpheme_skip_total": 0,
+          "morpheme_skip_max": 0,
+          "morpheme_skip_histogram": {
+            "0": 6
+          },
           "unresolved": [],
           "morphemes_tsv": {
             "present": true,
             "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s053/linguistic/morphemes.tsv",
-            "ayah_count": 63,
-            "row_count": 575,
+            "ayah_count": 62,
+            "row_count": 568,
             "malformed_rows": 0,
-            "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+            "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+            "dropped_preface_rows": 7
           },
-          "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
+          "note": "Ordered surface alignment within canonical QAC words; only spans shared by all best alignments are joined. Upstream word-analysis identities and wording are preserved. Unresolved analytic units remain available for qualified reading; never infer their QAC identity from upstream numbering."
         },
         "word_analysis_qac_alignment": {
           "consistent": false,
@@ -26208,19 +26367,26 @@
         "word_morpheme_spans": {
           "present": true,
           "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s053/linguistic/morphemes.tsv",
+          "alignment_version": "ordered-morpheme-spans-v2",
           "words_total": 8,
           "words_resolved": 8,
           "words_unresolved": 0,
+          "morpheme_skip_total": 0,
+          "morpheme_skip_max": 0,
+          "morpheme_skip_histogram": {
+            "0": 8
+          },
           "unresolved": [],
           "morphemes_tsv": {
             "present": true,
             "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s053/linguistic/morphemes.tsv",
-            "ayah_count": 63,
-            "row_count": 575,
+            "ayah_count": 62,
+            "row_count": 568,
             "malformed_rows": 0,
-            "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+            "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+            "dropped_preface_rows": 7
           },
-          "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
+          "note": "Ordered surface alignment within canonical QAC words; only spans shared by all best alignments are joined. Upstream word-analysis identities and wording are preserved. Unresolved analytic units remain available for qualified reading; never infer their QAC identity from upstream numbering."
         },
         "word_analysis_qac_alignment": {
           "consistent": false,
@@ -26679,19 +26845,26 @@
         "word_morpheme_spans": {
           "present": true,
           "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s053/linguistic/morphemes.tsv",
+          "alignment_version": "ordered-morpheme-spans-v2",
           "words_total": 4,
           "words_resolved": 4,
           "words_unresolved": 0,
+          "morpheme_skip_total": 0,
+          "morpheme_skip_max": 0,
+          "morpheme_skip_histogram": {
+            "0": 4
+          },
           "unresolved": [],
           "morphemes_tsv": {
             "present": true,
             "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s053/linguistic/morphemes.tsv",
-            "ayah_count": 63,
-            "row_count": 575,
+            "ayah_count": 62,
+            "row_count": 568,
             "malformed_rows": 0,
-            "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+            "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+            "dropped_preface_rows": 7
           },
-          "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
+          "note": "Ordered surface alignment within canonical QAC words; only spans shared by all best alignments are joined. Upstream word-analysis identities and wording are preserved. Unresolved analytic units remain available for qualified reading; never infer their QAC identity from upstream numbering."
         },
         "word_analysis_qac_alignment": {
           "consistent": false,
@@ -27154,19 +27327,26 @@
         "word_morpheme_spans": {
           "present": true,
           "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s053/linguistic/morphemes.tsv",
+          "alignment_version": "ordered-morpheme-spans-v2",
           "words_total": 5,
           "words_resolved": 5,
           "words_unresolved": 0,
+          "morpheme_skip_total": 0,
+          "morpheme_skip_max": 0,
+          "morpheme_skip_histogram": {
+            "0": 5
+          },
           "unresolved": [],
           "morphemes_tsv": {
             "present": true,
             "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s053/linguistic/morphemes.tsv",
-            "ayah_count": 63,
-            "row_count": 575,
+            "ayah_count": 62,
+            "row_count": 568,
             "malformed_rows": 0,
-            "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+            "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+            "dropped_preface_rows": 7
           },
-          "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
+          "note": "Ordered surface alignment within canonical QAC words; only spans shared by all best alignments are joined. Upstream word-analysis identities and wording are preserved. Unresolved analytic units remain available for qualified reading; never infer their QAC identity from upstream numbering."
         },
         "word_analysis_qac_alignment": {
           "consistent": true,
@@ -27698,19 +27878,26 @@
         "word_morpheme_spans": {
           "present": true,
           "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s053/linguistic/morphemes.tsv",
+          "alignment_version": "ordered-morpheme-spans-v2",
           "words_total": 8,
           "words_resolved": 8,
           "words_unresolved": 0,
+          "morpheme_skip_total": 0,
+          "morpheme_skip_max": 0,
+          "morpheme_skip_histogram": {
+            "0": 8
+          },
           "unresolved": [],
           "morphemes_tsv": {
             "present": true,
             "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s053/linguistic/morphemes.tsv",
-            "ayah_count": 63,
-            "row_count": 575,
+            "ayah_count": 62,
+            "row_count": 568,
             "malformed_rows": 0,
-            "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+            "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+            "dropped_preface_rows": 7
           },
-          "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
+          "note": "Ordered surface alignment within canonical QAC words; only spans shared by all best alignments are joined. Upstream word-analysis identities and wording are preserved. Unresolved analytic units remain available for qualified reading; never infer their QAC identity from upstream numbering."
         },
         "word_analysis_qac_alignment": {
           "consistent": false,
@@ -28324,19 +28511,26 @@
         "word_morpheme_spans": {
           "present": true,
           "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s053/linguistic/morphemes.tsv",
+          "alignment_version": "ordered-morpheme-spans-v2",
           "words_total": 5,
           "words_resolved": 5,
           "words_unresolved": 0,
+          "morpheme_skip_total": 0,
+          "morpheme_skip_max": 0,
+          "morpheme_skip_histogram": {
+            "0": 5
+          },
           "unresolved": [],
           "morphemes_tsv": {
             "present": true,
             "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s053/linguistic/morphemes.tsv",
-            "ayah_count": 63,
-            "row_count": 575,
+            "ayah_count": 62,
+            "row_count": 568,
             "malformed_rows": 0,
-            "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+            "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+            "dropped_preface_rows": 7
           },
-          "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
+          "note": "Ordered surface alignment within canonical QAC words; only spans shared by all best alignments are joined. Upstream word-analysis identities and wording are preserved. Unresolved analytic units remain available for qualified reading; never infer their QAC identity from upstream numbering."
         },
         "word_analysis_qac_alignment": {
           "consistent": false,
@@ -28859,19 +29053,26 @@
         "word_morpheme_spans": {
           "present": true,
           "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s053/linguistic/morphemes.tsv",
+          "alignment_version": "ordered-morpheme-spans-v2",
           "words_total": 4,
           "words_resolved": 4,
           "words_unresolved": 0,
+          "morpheme_skip_total": 0,
+          "morpheme_skip_max": 0,
+          "morpheme_skip_histogram": {
+            "0": 4
+          },
           "unresolved": [],
           "morphemes_tsv": {
             "present": true,
             "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s053/linguistic/morphemes.tsv",
-            "ayah_count": 63,
-            "row_count": 575,
+            "ayah_count": 62,
+            "row_count": 568,
             "malformed_rows": 0,
-            "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+            "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+            "dropped_preface_rows": 7
           },
-          "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
+          "note": "Ordered surface alignment within canonical QAC words; only spans shared by all best alignments are joined. Upstream word-analysis identities and wording are preserved. Unresolved analytic units remain available for qualified reading; never infer their QAC identity from upstream numbering."
         },
         "word_analysis_qac_alignment": {
           "consistent": true,
@@ -29417,19 +29618,26 @@
         "word_morpheme_spans": {
           "present": true,
           "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s053/linguistic/morphemes.tsv",
+          "alignment_version": "ordered-morpheme-spans-v2",
           "words_total": 5,
           "words_resolved": 5,
           "words_unresolved": 0,
+          "morpheme_skip_total": 0,
+          "morpheme_skip_max": 0,
+          "morpheme_skip_histogram": {
+            "0": 5
+          },
           "unresolved": [],
           "morphemes_tsv": {
             "present": true,
             "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s053/linguistic/morphemes.tsv",
-            "ayah_count": 63,
-            "row_count": 575,
+            "ayah_count": 62,
+            "row_count": 568,
             "malformed_rows": 0,
-            "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+            "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+            "dropped_preface_rows": 7
           },
-          "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
+          "note": "Ordered surface alignment within canonical QAC words; only spans shared by all best alignments are joined. Upstream word-analysis identities and wording are preserved. Unresolved analytic units remain available for qualified reading; never infer their QAC identity from upstream numbering."
         },
         "word_analysis_qac_alignment": {
           "consistent": false,
@@ -29965,40 +30173,33 @@
         "word_morpheme_spans": {
           "present": true,
           "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s053/linguistic/morphemes.tsv",
+          "alignment_version": "ordered-morpheme-spans-v2",
           "words_total": 6,
-          "words_resolved": 2,
-          "words_unresolved": 4,
+          "words_resolved": 5,
+          "words_unresolved": 1,
+          "morpheme_skip_total": 2,
+          "morpheme_skip_max": 2,
+          "morpheme_skip_histogram": {
+            "0": 4,
+            "2": 1
+          },
           "unresolved": [
             {
               "word_index": 2,
               "surface_ar": "هُوَ",
-              "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-            },
-            {
-              "word_index": 3,
-              "surface_ar": "أَضْحَكَ",
-              "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-            },
-            {
-              "word_index": 4,
-              "surface_ar": "وَ",
-              "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-            },
-            {
-              "word_index": 5,
-              "surface_ar": "أَبْكَىٰ",
-              "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
+              "reason": "ambiguous occurrence across best ordered source alignments"
             }
           ],
           "morphemes_tsv": {
             "present": true,
             "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s053/linguistic/morphemes.tsv",
-            "ayah_count": 63,
-            "row_count": 575,
+            "ayah_count": 62,
+            "row_count": 568,
             "malformed_rows": 0,
-            "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+            "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+            "dropped_preface_rows": 7
           },
-          "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
+          "note": "Ordered surface alignment within canonical QAC words; only spans shared by all best alignments are joined. Upstream word-analysis identities and wording are preserved. Unresolved analytic units remain available for qualified reading; never infer their QAC identity from upstream numbering."
         },
         "word_analysis_qac_alignment": {
           "consistent": false,
@@ -30425,40 +30626,33 @@
         "word_morpheme_spans": {
           "present": true,
           "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s053/linguistic/morphemes.tsv",
+          "alignment_version": "ordered-morpheme-spans-v2",
           "words_total": 6,
-          "words_resolved": 2,
-          "words_unresolved": 4,
+          "words_resolved": 5,
+          "words_unresolved": 1,
+          "morpheme_skip_total": 2,
+          "morpheme_skip_max": 2,
+          "morpheme_skip_histogram": {
+            "0": 4,
+            "2": 1
+          },
           "unresolved": [
             {
               "word_index": 2,
               "surface_ar": "هُوَ",
-              "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-            },
-            {
-              "word_index": 3,
-              "surface_ar": "أَمَاتَ",
-              "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-            },
-            {
-              "word_index": 4,
-              "surface_ar": "وَ",
-              "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-            },
-            {
-              "word_index": 5,
-              "surface_ar": "أَحْيَا",
-              "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
+              "reason": "ambiguous occurrence across best ordered source alignments"
             }
           ],
           "morphemes_tsv": {
             "present": true,
             "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s053/linguistic/morphemes.tsv",
-            "ayah_count": 63,
-            "row_count": 575,
+            "ayah_count": 62,
+            "row_count": 568,
             "malformed_rows": 0,
-            "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+            "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+            "dropped_preface_rows": 7
           },
-          "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
+          "note": "Ordered surface alignment within canonical QAC words; only spans shared by all best alignments are joined. Upstream word-analysis identities and wording are preserved. Unresolved analytic units remain available for qualified reading; never infer their QAC identity from upstream numbering."
         },
         "word_analysis_qac_alignment": {
           "consistent": false,
@@ -30970,19 +31164,26 @@
         "word_morpheme_spans": {
           "present": true,
           "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s053/linguistic/morphemes.tsv",
+          "alignment_version": "ordered-morpheme-spans-v2",
           "words_total": 7,
           "words_resolved": 7,
           "words_unresolved": 0,
+          "morpheme_skip_total": 0,
+          "morpheme_skip_max": 0,
+          "morpheme_skip_histogram": {
+            "0": 7
+          },
           "unresolved": [],
           "morphemes_tsv": {
             "present": true,
             "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s053/linguistic/morphemes.tsv",
-            "ayah_count": 63,
-            "row_count": 575,
+            "ayah_count": 62,
+            "row_count": 568,
             "malformed_rows": 0,
-            "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+            "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+            "dropped_preface_rows": 7
           },
-          "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
+          "note": "Ordered surface alignment within canonical QAC words; only spans shared by all best alignments are joined. Upstream word-analysis identities and wording are preserved. Unresolved analytic units remain available for qualified reading; never infer their QAC identity from upstream numbering."
         },
         "word_analysis_qac_alignment": {
           "consistent": false,
@@ -31601,19 +31802,26 @@
         "word_morpheme_spans": {
           "present": true,
           "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s053/linguistic/morphemes.tsv",
+          "alignment_version": "ordered-morpheme-spans-v2",
           "words_total": 4,
           "words_resolved": 4,
           "words_unresolved": 0,
+          "morpheme_skip_total": 0,
+          "morpheme_skip_max": 0,
+          "morpheme_skip_histogram": {
+            "0": 4
+          },
           "unresolved": [],
           "morphemes_tsv": {
             "present": true,
             "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s053/linguistic/morphemes.tsv",
-            "ayah_count": 63,
-            "row_count": 575,
+            "ayah_count": 62,
+            "row_count": 568,
             "malformed_rows": 0,
-            "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+            "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+            "dropped_preface_rows": 7
           },
-          "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
+          "note": "Ordered surface alignment within canonical QAC words; only spans shared by all best alignments are joined. Upstream word-analysis identities and wording are preserved. Unresolved analytic units remain available for qualified reading; never infer their QAC identity from upstream numbering."
         },
         "word_analysis_qac_alignment": {
           "consistent": true,
@@ -32156,19 +32364,26 @@
         "word_morpheme_spans": {
           "present": true,
           "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s053/linguistic/morphemes.tsv",
+          "alignment_version": "ordered-morpheme-spans-v2",
           "words_total": 5,
           "words_resolved": 5,
           "words_unresolved": 0,
+          "morpheme_skip_total": 0,
+          "morpheme_skip_max": 0,
+          "morpheme_skip_histogram": {
+            "0": 5
+          },
           "unresolved": [],
           "morphemes_tsv": {
             "present": true,
             "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s053/linguistic/morphemes.tsv",
-            "ayah_count": 63,
-            "row_count": 575,
+            "ayah_count": 62,
+            "row_count": 568,
             "malformed_rows": 0,
-            "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+            "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+            "dropped_preface_rows": 7
           },
-          "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
+          "note": "Ordered surface alignment within canonical QAC words; only spans shared by all best alignments are joined. Upstream word-analysis identities and wording are preserved. Unresolved analytic units remain available for qualified reading; never infer their QAC identity from upstream numbering."
         },
         "word_analysis_qac_alignment": {
           "consistent": false,
@@ -32721,19 +32936,26 @@
         "word_morpheme_spans": {
           "present": true,
           "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s053/linguistic/morphemes.tsv",
+          "alignment_version": "ordered-morpheme-spans-v2",
           "words_total": 6,
           "words_resolved": 6,
           "words_unresolved": 0,
+          "morpheme_skip_total": 0,
+          "morpheme_skip_max": 0,
+          "morpheme_skip_histogram": {
+            "0": 6
+          },
           "unresolved": [],
           "morphemes_tsv": {
             "present": true,
             "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s053/linguistic/morphemes.tsv",
-            "ayah_count": 63,
-            "row_count": 575,
+            "ayah_count": 62,
+            "row_count": 568,
             "malformed_rows": 0,
-            "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+            "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+            "dropped_preface_rows": 7
           },
-          "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
+          "note": "Ordered surface alignment within canonical QAC words; only spans shared by all best alignments are joined. Upstream word-analysis identities and wording are preserved. Unresolved analytic units remain available for qualified reading; never infer their QAC identity from upstream numbering."
         },
         "word_analysis_qac_alignment": {
           "consistent": false,
@@ -33194,19 +33416,26 @@
         "word_morpheme_spans": {
           "present": true,
           "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s053/linguistic/morphemes.tsv",
+          "alignment_version": "ordered-morpheme-spans-v2",
           "words_total": 5,
           "words_resolved": 5,
           "words_unresolved": 0,
+          "morpheme_skip_total": 0,
+          "morpheme_skip_max": 0,
+          "morpheme_skip_histogram": {
+            "0": 5
+          },
           "unresolved": [],
           "morphemes_tsv": {
             "present": true,
             "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s053/linguistic/morphemes.tsv",
-            "ayah_count": 63,
-            "row_count": 575,
+            "ayah_count": 62,
+            "row_count": 568,
             "malformed_rows": 0,
-            "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+            "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+            "dropped_preface_rows": 7
           },
-          "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
+          "note": "Ordered surface alignment within canonical QAC words; only spans shared by all best alignments are joined. Upstream word-analysis identities and wording are preserved. Unresolved analytic units remain available for qualified reading; never infer their QAC identity from upstream numbering."
         },
         "word_analysis_qac_alignment": {
           "consistent": false,
@@ -33764,19 +33993,26 @@
         "word_morpheme_spans": {
           "present": true,
           "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s053/linguistic/morphemes.tsv",
+          "alignment_version": "ordered-morpheme-spans-v2",
           "words_total": 5,
           "words_resolved": 5,
           "words_unresolved": 0,
+          "morpheme_skip_total": 0,
+          "morpheme_skip_max": 0,
+          "morpheme_skip_histogram": {
+            "0": 5
+          },
           "unresolved": [],
           "morphemes_tsv": {
             "present": true,
             "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s053/linguistic/morphemes.tsv",
-            "ayah_count": 63,
-            "row_count": 575,
+            "ayah_count": 62,
+            "row_count": 568,
             "malformed_rows": 0,
-            "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+            "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+            "dropped_preface_rows": 7
           },
-          "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
+          "note": "Ordered surface alignment within canonical QAC words; only spans shared by all best alignments are joined. Upstream word-analysis identities and wording are preserved. Unresolved analytic units remain available for qualified reading; never infer their QAC identity from upstream numbering."
         },
         "word_analysis_qac_alignment": {
           "consistent": false,
@@ -34428,19 +34664,26 @@
         "word_morpheme_spans": {
           "present": true,
           "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s053/linguistic/morphemes.tsv",
+          "alignment_version": "ordered-morpheme-spans-v2",
           "words_total": 5,
           "words_resolved": 5,
           "words_unresolved": 0,
+          "morpheme_skip_total": 0,
+          "morpheme_skip_max": 0,
+          "morpheme_skip_histogram": {
+            "0": 5
+          },
           "unresolved": [],
           "morphemes_tsv": {
             "present": true,
             "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s053/linguistic/morphemes.tsv",
-            "ayah_count": 63,
-            "row_count": 575,
+            "ayah_count": 62,
+            "row_count": 568,
             "malformed_rows": 0,
-            "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+            "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+            "dropped_preface_rows": 7
           },
-          "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
+          "note": "Ordered surface alignment within canonical QAC words; only spans shared by all best alignments are joined. Upstream word-analysis identities and wording are preserved. Unresolved analytic units remain available for qualified reading; never infer their QAC identity from upstream numbering."
         },
         "word_analysis_qac_alignment": {
           "consistent": false,
@@ -34889,40 +35132,27 @@
         "word_morpheme_spans": {
           "present": true,
           "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s053/linguistic/morphemes.tsv",
+          "alignment_version": "ordered-morpheme-spans-v2",
           "words_total": 11,
-          "words_resolved": 7,
-          "words_unresolved": 4,
-          "unresolved": [
-            {
-              "word_index": 6,
-              "surface_ar": "كَانُوا۟",
-              "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-            },
-            {
-              "word_index": 8,
-              "surface_ar": "أَظْلَمَ",
-              "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-            },
-            {
-              "word_index": 9,
-              "surface_ar": "وَ",
-              "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-            },
-            {
-              "word_index": 10,
-              "surface_ar": "أَطْغَىٰ",
-              "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-            }
-          ],
+          "words_resolved": 11,
+          "words_unresolved": 0,
+          "morpheme_skip_total": 1,
+          "morpheme_skip_max": 1,
+          "morpheme_skip_histogram": {
+            "0": 10,
+            "1": 1
+          },
+          "unresolved": [],
           "morphemes_tsv": {
             "present": true,
             "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s053/linguistic/morphemes.tsv",
-            "ayah_count": 63,
-            "row_count": 575,
+            "ayah_count": 62,
+            "row_count": 568,
             "malformed_rows": 0,
-            "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+            "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+            "dropped_preface_rows": 7
           },
-          "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
+          "note": "Ordered surface alignment within canonical QAC words; only spans shared by all best alignments are joined. Upstream word-analysis identities and wording are preserved. Unresolved analytic units remain available for qualified reading; never infer their QAC identity from upstream numbering."
         },
         "word_analysis_qac_alignment": {
           "consistent": false,
@@ -35735,19 +35965,26 @@
         "word_morpheme_spans": {
           "present": true,
           "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s053/linguistic/morphemes.tsv",
+          "alignment_version": "ordered-morpheme-spans-v2",
           "words_total": 3,
           "words_resolved": 3,
           "words_unresolved": 0,
+          "morpheme_skip_total": 0,
+          "morpheme_skip_max": 0,
+          "morpheme_skip_histogram": {
+            "0": 3
+          },
           "unresolved": [],
           "morphemes_tsv": {
             "present": true,
             "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s053/linguistic/morphemes.tsv",
-            "ayah_count": 63,
-            "row_count": 575,
+            "ayah_count": 62,
+            "row_count": 568,
             "malformed_rows": 0,
-            "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+            "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+            "dropped_preface_rows": 7
           },
-          "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
+          "note": "Ordered surface alignment within canonical QAC words; only spans shared by all best alignments are joined. Upstream word-analysis identities and wording are preserved. Unresolved analytic units remain available for qualified reading; never infer their QAC identity from upstream numbering."
         },
         "word_analysis_qac_alignment": {
           "consistent": false,
@@ -36219,19 +36456,26 @@
         "word_morpheme_spans": {
           "present": true,
           "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s053/linguistic/morphemes.tsv",
+          "alignment_version": "ordered-morpheme-spans-v2",
           "words_total": 4,
           "words_resolved": 4,
           "words_unresolved": 0,
+          "morpheme_skip_total": 0,
+          "morpheme_skip_max": 0,
+          "morpheme_skip_histogram": {
+            "0": 4
+          },
           "unresolved": [],
           "morphemes_tsv": {
             "present": true,
             "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s053/linguistic/morphemes.tsv",
-            "ayah_count": 63,
-            "row_count": 575,
+            "ayah_count": 62,
+            "row_count": 568,
             "malformed_rows": 0,
-            "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+            "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+            "dropped_preface_rows": 7
           },
-          "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
+          "note": "Ordered surface alignment within canonical QAC words; only spans shared by all best alignments are joined. Upstream word-analysis identities and wording are preserved. Unresolved analytic units remain available for qualified reading; never infer their QAC identity from upstream numbering."
         },
         "word_analysis_qac_alignment": {
           "consistent": false,
@@ -36667,19 +36911,26 @@
         "word_morpheme_spans": {
           "present": true,
           "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s053/linguistic/morphemes.tsv",
+          "alignment_version": "ordered-morpheme-spans-v2",
           "words_total": 6,
           "words_resolved": 6,
           "words_unresolved": 0,
+          "morpheme_skip_total": 0,
+          "morpheme_skip_max": 0,
+          "morpheme_skip_histogram": {
+            "0": 6
+          },
           "unresolved": [],
           "morphemes_tsv": {
             "present": true,
             "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s053/linguistic/morphemes.tsv",
-            "ayah_count": 63,
-            "row_count": 575,
+            "ayah_count": 62,
+            "row_count": 568,
             "malformed_rows": 0,
-            "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+            "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+            "dropped_preface_rows": 7
           },
-          "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
+          "note": "Ordered surface alignment within canonical QAC words; only spans shared by all best alignments are joined. Upstream word-analysis identities and wording are preserved. Unresolved analytic units remain available for qualified reading; never infer their QAC identity from upstream numbering."
         },
         "word_analysis_qac_alignment": {
           "consistent": false,
@@ -37347,19 +37598,26 @@
         "word_morpheme_spans": {
           "present": true,
           "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s053/linguistic/morphemes.tsv",
+          "alignment_version": "ordered-morpheme-spans-v2",
           "words_total": 5,
           "words_resolved": 5,
           "words_unresolved": 0,
+          "morpheme_skip_total": 0,
+          "morpheme_skip_max": 0,
+          "morpheme_skip_histogram": {
+            "0": 5
+          },
           "unresolved": [],
           "morphemes_tsv": {
             "present": true,
             "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s053/linguistic/morphemes.tsv",
-            "ayah_count": 63,
-            "row_count": 575,
+            "ayah_count": 62,
+            "row_count": 568,
             "malformed_rows": 0,
-            "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+            "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+            "dropped_preface_rows": 7
           },
-          "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
+          "note": "Ordered surface alignment within canonical QAC words; only spans shared by all best alignments are joined. Upstream word-analysis identities and wording are preserved. Unresolved analytic units remain available for qualified reading; never infer their QAC identity from upstream numbering."
         },
         "word_analysis_qac_alignment": {
           "consistent": true,
@@ -37883,19 +38141,26 @@
         "word_morpheme_spans": {
           "present": true,
           "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s053/linguistic/morphemes.tsv",
+          "alignment_version": "ordered-morpheme-spans-v2",
           "words_total": 2,
           "words_resolved": 2,
           "words_unresolved": 0,
+          "morpheme_skip_total": 0,
+          "morpheme_skip_max": 0,
+          "morpheme_skip_histogram": {
+            "0": 2
+          },
           "unresolved": [],
           "morphemes_tsv": {
             "present": true,
             "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s053/linguistic/morphemes.tsv",
-            "ayah_count": 63,
-            "row_count": 575,
+            "ayah_count": 62,
+            "row_count": 568,
             "malformed_rows": 0,
-            "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+            "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+            "dropped_preface_rows": 7
           },
-          "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
+          "note": "Ordered surface alignment within canonical QAC words; only spans shared by all best alignments are joined. Upstream word-analysis identities and wording are preserved. Unresolved analytic units remain available for qualified reading; never infer their QAC identity from upstream numbering."
         },
         "word_analysis_qac_alignment": {
           "consistent": true,
@@ -38295,19 +38560,26 @@
         "word_morpheme_spans": {
           "present": true,
           "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s053/linguistic/morphemes.tsv",
+          "alignment_version": "ordered-morpheme-spans-v2",
           "words_total": 7,
           "words_resolved": 7,
           "words_unresolved": 0,
+          "morpheme_skip_total": 0,
+          "morpheme_skip_max": 0,
+          "morpheme_skip_histogram": {
+            "0": 7
+          },
           "unresolved": [],
           "morphemes_tsv": {
             "present": true,
             "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s053/linguistic/morphemes.tsv",
-            "ayah_count": 63,
-            "row_count": 575,
+            "ayah_count": 62,
+            "row_count": 568,
             "malformed_rows": 0,
-            "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+            "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+            "dropped_preface_rows": 7
           },
-          "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
+          "note": "Ordered surface alignment within canonical QAC words; only spans shared by all best alignments are joined. Upstream word-analysis identities and wording are preserved. Unresolved analytic units remain available for qualified reading; never infer their QAC identity from upstream numbering."
         },
         "word_analysis_qac_alignment": {
           "consistent": false,
@@ -38946,19 +39218,26 @@
         "word_morpheme_spans": {
           "present": true,
           "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s053/linguistic/morphemes.tsv",
+          "alignment_version": "ordered-morpheme-spans-v2",
           "words_total": 5,
           "words_resolved": 5,
           "words_unresolved": 0,
+          "morpheme_skip_total": 0,
+          "morpheme_skip_max": 0,
+          "morpheme_skip_histogram": {
+            "0": 5
+          },
           "unresolved": [],
           "morphemes_tsv": {
             "present": true,
             "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s053/linguistic/morphemes.tsv",
-            "ayah_count": 63,
-            "row_count": 575,
+            "ayah_count": 62,
+            "row_count": 568,
             "malformed_rows": 0,
-            "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+            "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+            "dropped_preface_rows": 7
           },
-          "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
+          "note": "Ordered surface alignment within canonical QAC words; only spans shared by all best alignments are joined. Upstream word-analysis identities and wording are preserved. Unresolved analytic units remain available for qualified reading; never infer their QAC identity from upstream numbering."
         },
         "word_analysis_qac_alignment": {
           "consistent": false,
@@ -39442,19 +39721,26 @@
         "word_morpheme_spans": {
           "present": true,
           "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s053/linguistic/morphemes.tsv",
+          "alignment_version": "ordered-morpheme-spans-v2",
           "words_total": 5,
           "words_resolved": 5,
           "words_unresolved": 0,
+          "morpheme_skip_total": 0,
+          "morpheme_skip_max": 0,
+          "morpheme_skip_histogram": {
+            "0": 5
+          },
           "unresolved": [],
           "morphemes_tsv": {
             "present": true,
             "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s053/linguistic/morphemes.tsv",
-            "ayah_count": 63,
-            "row_count": 575,
+            "ayah_count": 62,
+            "row_count": 568,
             "malformed_rows": 0,
-            "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+            "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+            "dropped_preface_rows": 7
           },
-          "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
+          "note": "Ordered surface alignment within canonical QAC words; only spans shared by all best alignments are joined. Upstream word-analysis identities and wording are preserved. Unresolved analytic units remain available for qualified reading; never infer their QAC identity from upstream numbering."
         },
         "word_analysis_qac_alignment": {
           "consistent": false,
@@ -39934,19 +40220,26 @@
         "word_morpheme_spans": {
           "present": true,
           "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s053/linguistic/morphemes.tsv",
+          "alignment_version": "ordered-morpheme-spans-v2",
           "words_total": 3,
           "words_resolved": 3,
           "words_unresolved": 0,
+          "morpheme_skip_total": 0,
+          "morpheme_skip_max": 0,
+          "morpheme_skip_histogram": {
+            "0": 3
+          },
           "unresolved": [],
           "morphemes_tsv": {
             "present": true,
             "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s053/linguistic/morphemes.tsv",
-            "ayah_count": 63,
-            "row_count": 575,
+            "ayah_count": 62,
+            "row_count": 568,
             "malformed_rows": 0,
-            "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+            "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+            "dropped_preface_rows": 7
           },
-          "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
+          "note": "Ordered surface alignment within canonical QAC words; only spans shared by all best alignments are joined. Upstream word-analysis identities and wording are preserved. Unresolved analytic units remain available for qualified reading; never infer their QAC identity from upstream numbering."
         },
         "word_analysis_qac_alignment": {
           "consistent": false,
@@ -40409,19 +40702,26 @@
         "word_morpheme_spans": {
           "present": true,
           "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s053/linguistic/morphemes.tsv",
+          "alignment_version": "ordered-morpheme-spans-v2",
           "words_total": 6,
           "words_resolved": 6,
           "words_unresolved": 0,
+          "morpheme_skip_total": 0,
+          "morpheme_skip_max": 0,
+          "morpheme_skip_histogram": {
+            "0": 6
+          },
           "unresolved": [],
           "morphemes_tsv": {
             "present": true,
             "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s053/linguistic/morphemes.tsv",
-            "ayah_count": 63,
-            "row_count": 575,
+            "ayah_count": 62,
+            "row_count": 568,
             "malformed_rows": 0,
-            "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+            "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+            "dropped_preface_rows": 7
           },
-          "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
+          "note": "Ordered surface alignment within canonical QAC words; only spans shared by all best alignments are joined. Upstream word-analysis identities and wording are preserved. Unresolved analytic units remain available for qualified reading; never infer their QAC identity from upstream numbering."
         },
         "word_analysis_qac_alignment": {
           "consistent": false,

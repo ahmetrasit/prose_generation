@@ -2355,10 +2355,12 @@
         "w-s040-a032-w001"
       ],
       "qac_refs": [
-        "40:32:1:3"
+        "40:32:1:3",
+        "40:32:1:4"
       ],
       "morpheme_ids": [
-        "m-w-s040-a032-w001-03"
+        "m-w-s040-a032-w001-03",
+        "m-w-s040-a032-w001-04"
       ],
       "aligned_qac_word_ref_upstream": "40:32:3",
       "morpheme_skip_count": 0
@@ -2367,16 +2369,13 @@
       "word_index": 3,
       "surface_ar": "إِنِّىٓ",
       "word_ids": [
-        "w-s040-a032-w001",
         "w-s040-a032-w002"
       ],
       "qac_refs": [
-        "40:32:1:4",
         "40:32:2:1",
         "40:32:2:2"
       ],
       "morpheme_ids": [
-        "m-w-s040-a032-w001-04",
         "m-w-s040-a032-w002-01",
         "m-w-s040-a032-w002-02"
       ],
@@ -19417,6 +19416,7 @@
     "word_morpheme_spans": {
       "present": true,
       "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s040/linguistic/morphemes.tsv",
+      "alignment_version": "ordered-morpheme-spans-v2",
       "words_total": 8,
       "words_resolved": 8,
       "words_unresolved": 0,
@@ -19435,7 +19435,7 @@
         "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
         "dropped_preface_rows": 7
       },
-      "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
+      "note": "Ordered surface alignment within canonical QAC words; only spans shared by all best alignments are joined. Upstream word-analysis identities and wording are preserved. Unresolved analytic units remain available for qualified reading; never infer their QAC identity from upstream numbering."
     },
     "word_analysis_qac_alignment": {
       "consistent": false,

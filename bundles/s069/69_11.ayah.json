@@ -2450,7 +2450,8 @@
         "m-w-s069-a011-w001-01",
         "m-w-s069-a011-w001-02"
       ],
-      "aligned_qac_word_ref_upstream": "69:11:1"
+      "aligned_qac_word_ref_upstream": "69:11:1",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 1,
@@ -2464,13 +2465,78 @@
       "morpheme_ids": [
         "m-w-s069-a011-w002-01"
       ],
-      "aligned_qac_word_ref_upstream": "69:11:2"
+      "aligned_qac_word_ref_upstream": "69:11:2",
+      "morpheme_skip_count": 0
     },
     null,
-    null,
-    null,
-    null,
-    null
+    {
+      "word_index": 3,
+      "surface_ar": "ٱلْمَآءُ",
+      "word_ids": [
+        "w-s069-a011-w004"
+      ],
+      "qac_refs": [
+        "69:11:4:1",
+        "69:11:4:2"
+      ],
+      "morpheme_ids": [
+        "m-w-s069-a011-w004-01",
+        "m-w-s069-a011-w004-02"
+      ],
+      "aligned_qac_word_ref_upstream": "69:11:4",
+      "morpheme_skip_count": 1
+    },
+    {
+      "word_index": 4,
+      "surface_ar": "حَمَلْنَٰكُمْ",
+      "word_ids": [
+        "w-s069-a011-w005"
+      ],
+      "qac_refs": [
+        "69:11:5:1",
+        "69:11:5:2",
+        "69:11:5:3"
+      ],
+      "morpheme_ids": [
+        "m-w-s069-a011-w005-01",
+        "m-w-s069-a011-w005-02",
+        "m-w-s069-a011-w005-03"
+      ],
+      "aligned_qac_word_ref_upstream": "69:11:5",
+      "morpheme_skip_count": 0
+    },
+    {
+      "word_index": 5,
+      "surface_ar": "فِي",
+      "word_ids": [
+        "w-s069-a011-w006"
+      ],
+      "qac_refs": [
+        "69:11:6:1"
+      ],
+      "morpheme_ids": [
+        "m-w-s069-a011-w006-01"
+      ],
+      "aligned_qac_word_ref_upstream": "69:11:6",
+      "morpheme_skip_count": 0
+    },
+    {
+      "word_index": 6,
+      "surface_ar": "ٱلْجَارِيَةِ",
+      "word_ids": [
+        "w-s069-a011-w007"
+      ],
+      "qac_refs": [
+        "69:11:7:1",
+        "69:11:7:2"
+      ],
+      "morpheme_ids": [
+        "m-w-s069-a011-w007-01",
+        "m-w-s069-a011-w007-02"
+      ],
+      "aligned_qac_word_ref_upstream": "69:11:7",
+      "morpheme_skip_count": 0
+    }
   ],
   "branch_inventories": {
     "full_context_packet": {
@@ -21350,45 +21416,33 @@
     "word_morpheme_spans": {
       "present": true,
       "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s069/linguistic/morphemes.tsv",
+      "alignment_version": "ordered-morpheme-spans-v2",
       "words_total": 7,
-      "words_resolved": 2,
-      "words_unresolved": 5,
+      "words_resolved": 6,
+      "words_unresolved": 1,
+      "morpheme_skip_total": 1,
+      "morpheme_skip_max": 1,
+      "morpheme_skip_histogram": {
+        "0": 5,
+        "1": 1
+      },
       "unresolved": [
         {
           "word_index": 2,
           "surface_ar": "طَغَى",
-          "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-        },
-        {
-          "word_index": 3,
-          "surface_ar": "ٱلْمَآءُ",
-          "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-        },
-        {
-          "word_index": 4,
-          "surface_ar": "حَمَلْنَٰكُمْ",
-          "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-        },
-        {
-          "word_index": 5,
-          "surface_ar": "فِي",
-          "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-        },
-        {
-          "word_index": 6,
-          "surface_ar": "ٱلْجَارِيَةِ",
-          "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
+          "reason": "no compatible span in the best ordered source alignment"
         }
       ],
       "morphemes_tsv": {
         "present": true,
         "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s069/linguistic/morphemes.tsv",
-        "ayah_count": 53,
-        "row_count": 445,
+        "ayah_count": 52,
+        "row_count": 438,
         "malformed_rows": 0,
-        "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+        "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+        "dropped_preface_rows": 7
       },
-      "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
+      "note": "Ordered surface alignment within canonical QAC words; only spans shared by all best alignments are joined. Upstream word-analysis identities and wording are preserved. Unresolved analytic units remain available for qualified reading; never infer their QAC identity from upstream numbering."
     },
     "word_analysis_qac_alignment": {
       "consistent": true,

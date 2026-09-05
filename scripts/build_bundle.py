@@ -2267,6 +2267,8 @@ def load_morphemes_tsv(surah: int) -> tuple:
                 "morpheme_index": parts[3],
                 "surface_ar": parts[4],
                 "root": parts[7] if len(parts) > 7 else "",
+                "lemma_ar": parts[6] if len(parts) > 6 else "",
+                "pos": parts[9] if len(parts) > 9 else "",
             })
     coverage.update({
         "present": bool(by_ayah),
@@ -2288,9 +2290,7 @@ def load_morphemes_tsv(surah: int) -> tuple:
 
 
 def resolve_word_morpheme_spans(wa_record: dict, morpheme_rows: list) -> tuple:
-    """Resolves each word_analysis critical word to a morpheme span by walking
-    the ayah's ordered morphemes and consuming them until their concatenated
-    surface matches the critical word's surface.
+    """Resolve unambiguous spans using the complete ayah's ordered surfaces.
 
     Returns (spans, unresolved). `spans` is a list parallel to
     wa_record['words']; each entry carries the resolved word_id(s) and the
@@ -2299,50 +2299,8 @@ def resolve_word_morpheme_spans(wa_record: dict, morpheme_rows: list) -> tuple:
     This ADDS a resolution; it never overwrites or deletes the upstream
     `aligned_qac_word_ref`, so the discrepancy stays inspectable
     (PRINCIPLES.md §11, and the basmalah no-hidden-renumbering rule)."""
-    spans, unresolved = [], []
-    position = 0
-    for index, word in enumerate(wa_record.get("words", []) or []):
-        display = word.get("surface_display") or ""
-        m = _WA_ARABIC_RE.search(display)
-        target = normalize_arabic_surface(m.group(1)) if m else ""
-        if not target:
-            spans.append(None)
-            unresolved.append({
-                "word_index": index,
-                "surface_display": display,
-                "reason": "no {{ar:...}} surface in surface_display",
-            })
-            continue
-
-        matched, span_start, j, skipped = _find_word_span_from_position(
-            morpheme_rows=morpheme_rows,
-            position=position,
-            target=target,
-        )
-
-        if not matched:
-            spans.append(None)
-            unresolved.append({
-                "word_index": index,
-                "surface_ar": m.group(1),
-                "reason": ("no morpheme rows for this ayah" if not morpheme_rows
-                           else "surface mismatch: critical word does not equal any "
-                                "run of morpheme surfaces from the current position"),
-            })
-            continue
-
-        spanned = morpheme_rows[span_start:j]
-        position = j
-        spans.append({
-            "word_index": index,
-            "surface_ar": m.group(1),
-            "word_ids": sorted({r["word_id"] for r in spanned}),
-            "qac_refs": [r["qac_ref"] for r in spanned],
-            "morpheme_ids": [r["morpheme_id"] for r in spanned],
-            "aligned_qac_word_ref_upstream": word.get("aligned_qac_word_ref"),
-            "morpheme_skip_count": skipped,
-        })
-    return spans, unresolved
+    from word_morpheme_alignment import resolve
+    return resolve(wa_record, morpheme_rows)
 
 
 def check_word_alignment(surah: int, word_analysis: dict, qac_by_ayah: dict,
@@ -2813,9 +2771,6 @@ def build_ayah_bundle(surah: int, ayah: int, quran_text: dict, word_analysis: di
         wa_record, morphemes_by_ayah.get(ayah, [])
     )
     skip_counts = [s.get("morpheme_skip_count", 0) for s in word_spans if s]
-    span_skip_histogram = {}
-    for skip_count in skip_counts:
-        span_skip_histogram[str(skip_count)] = span_skip_histogram.get(str(skip_count), 0) + 1
     if any(count > 0 for count in skip_counts):
         print(
             f"WARNING: {ayah_ref}: alignment used non-zero morpheme skips for "
@@ -2831,26 +2786,10 @@ def build_ayah_bundle(surah: int, ayah: int, quran_text: dict, word_analysis: di
             f"(see coverage.word_morpheme_spans.unresolved).",
             file=sys.stderr,
         )
-    coverage["word_morpheme_spans"] = {
-        "present": bool(morph_cov.get("present")) and any(s for s in word_spans),
-        "source_file": morph_cov.get("source_file"),
-        "words_total": len(wa_record.get("words", []) or []),
-        "words_resolved": sum(1 for s in word_spans if s),
-        "words_unresolved": len(span_unresolved),
-        "morpheme_skip_total": sum(skip_counts),
-        "morpheme_skip_max": max(skip_counts, default=0),
-        "morpheme_skip_histogram": span_skip_histogram,
-        "unresolved": span_unresolved,
-        "morphemes_tsv": morph_cov,
-        "note": (
-            "word_analysis critical words are orthographic/analytic units, not "
-            "QAC words; each resolves to a MORPHEME SPAN. The upstream "
-            "aligned_qac_word_ref is preserved verbatim in word_analysis and is "
-            "NOT corrected here -- renumbering would fabricate identities "
-            "(PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use "
-            "word_morpheme_spans for any word-level join to QAC."
-        ),
-    }
+    from word_morpheme_alignment import coverage as span_coverage
+    coverage["word_morpheme_spans"] = span_coverage(
+        word_spans, span_unresolved, morph_cov
+    )
 
     # Cross-layer identity check: does this ayah's word-analysis actually align
     # to QAC words? Recorded per ayah so a consumer can refuse the join rather
@@ -3028,13 +2967,6 @@ def build_basmala_bundle(
     word_spans, span_unresolved = resolve_word_morpheme_spans(
         wa_record, morphemes_by_ayah.get(1, [])
     )
-    skip_counts = [
-        span.get("morpheme_skip_count", 0) for span in word_spans if span
-    ]
-    skip_histogram: dict[str, int] = {}
-    for skip_count in skip_counts:
-        key = str(skip_count)
-        skip_histogram[key] = skip_histogram.get(key, 0) + 1
     branch_inventories, branch_coverage = load_v12_branch_inventories(
         1, 1, qac_rows, []
     )
@@ -3059,6 +2991,7 @@ def build_basmala_bundle(
     channel_blocks = channel_blocks_for_ayah(channel_review, target_ref)
     channel_outputs, channel_outputs_coverage = load_channel_generated_outputs(surah)
 
+    from word_morpheme_alignment import coverage as span_coverage
     coverage = {
         "quran_text": {"present": True, "surface_ref": target_ref},
         "word_analysis": {
@@ -3066,24 +2999,9 @@ def build_basmala_bundle(
             "word_count": len(wa_record.get("words", [])),
             "linguistic_source_ref": BASMALA_LINGUISTIC_SOURCE_REF,
         },
-        "word_morpheme_spans": {
-            "present": bool(morph_coverage.get("present"))
-            and any(span for span in word_spans),
-            "source_file": morph_coverage.get("source_file"),
-            "words_total": len(wa_record.get("words", [])),
-            "words_resolved": sum(1 for span in word_spans if span),
-            "words_unresolved": len(span_unresolved),
-            "morpheme_skip_total": sum(skip_counts),
-            "morpheme_skip_max": max(skip_counts, default=0),
-            "morpheme_skip_histogram": skip_histogram,
-            "unresolved": span_unresolved,
-            "morphemes_tsv": morph_coverage,
-            "linguistic_source_ref": BASMALA_LINGUISTIC_SOURCE_REF,
-            "note": (
-                "Basmala critical words are resolved against canonical 1:1 "
-                "morpheme spans; no S:0 word or QAC identities are fabricated."
-            ),
-        },
+        "word_morpheme_spans": span_coverage(
+            word_spans, span_unresolved, morph_coverage, BASMALA_LINGUISTIC_SOURCE_REF
+        ),
         "word_analysis_qac_alignment": {
             "consistent": alignment_detail is None,
             "detail": alignment_detail,

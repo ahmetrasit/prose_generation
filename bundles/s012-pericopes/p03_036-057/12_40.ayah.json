@@ -5725,7 +5725,23 @@
       "aligned_qac_word_ref_upstream": "12:40:9",
       "morpheme_skip_count": 0
     },
-    null,
+    {
+      "word_index": 9,
+      "surface_ar": "آبَاؤُكُمْ",
+      "word_ids": [
+        "w-s012-a040-w009"
+      ],
+      "qac_refs": [
+        "12:40:9:2",
+        "12:40:9:3"
+      ],
+      "morpheme_ids": [
+        "m-w-s012-a040-w009-02",
+        "m-w-s012-a040-w009-03"
+      ],
+      "aligned_qac_word_ref_upstream": "12:40:10",
+      "morpheme_skip_count": 0
+    },
     {
       "word_index": 10,
       "surface_ar": "مَا",
@@ -5739,7 +5755,7 @@
         "m-w-s012-a040-w010-01"
       ],
       "aligned_qac_word_ref_upstream": "12:40:11",
-      "morpheme_skip_count": 2
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 11,
@@ -5803,7 +5819,21 @@
       "aligned_qac_word_ref_upstream": "12:40:15",
       "morpheme_skip_count": 0
     },
-    null,
+    {
+      "word_index": 15,
+      "surface_ar": "سُلْطَانٍ",
+      "word_ids": [
+        "w-s012-a040-w015"
+      ],
+      "qac_refs": [
+        "12:40:15:1"
+      ],
+      "morpheme_ids": [
+        "m-w-s012-a040-w015-01"
+      ],
+      "aligned_qac_word_ref_upstream": "12:40:16",
+      "morpheme_skip_count": 0
+    },
     {
       "word_index": 16,
       "surface_ar": "إِنِ",
@@ -5817,7 +5847,7 @@
         "m-w-s012-a040-w016-01"
       ],
       "aligned_qac_word_ref_upstream": "12:40:17",
-      "morpheme_skip_count": 1
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 17,
@@ -5866,7 +5896,21 @@
       "aligned_qac_word_ref_upstream": "12:40:20",
       "morpheme_skip_count": 0
     },
-    null,
+    {
+      "word_index": 20,
+      "surface_ar": "اللَّهِ",
+      "word_ids": [
+        "w-s012-a040-w019"
+      ],
+      "qac_refs": [
+        "12:40:19:2"
+      ],
+      "morpheme_ids": [
+        "m-w-s012-a040-w019-02"
+      ],
+      "aligned_qac_word_ref_upstream": "12:40:21",
+      "morpheme_skip_count": 0
+    },
     {
       "word_index": 21,
       "surface_ar": "أَمَرَ",
@@ -5880,7 +5924,7 @@
         "m-w-s012-a040-w020-01"
       ],
       "aligned_qac_word_ref_upstream": "12:40:22",
-      "morpheme_skip_count": 1
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 22,
@@ -51133,33 +51177,16 @@
     "word_morpheme_spans": {
       "present": true,
       "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s012/linguistic/morphemes.tsv",
+      "alignment_version": "ordered-morpheme-spans-v2",
       "words_total": 35,
-      "words_resolved": 32,
-      "words_unresolved": 3,
-      "morpheme_skip_total": 4,
-      "morpheme_skip_max": 2,
+      "words_resolved": 35,
+      "words_unresolved": 0,
+      "morpheme_skip_total": 0,
+      "morpheme_skip_max": 0,
       "morpheme_skip_histogram": {
-        "0": 29,
-        "2": 1,
-        "1": 2
+        "0": 35
       },
-      "unresolved": [
-        {
-          "word_index": 9,
-          "surface_ar": "آبَاؤُكُمْ",
-          "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-        },
-        {
-          "word_index": 15,
-          "surface_ar": "سُلْطَانٍ",
-          "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-        },
-        {
-          "word_index": 20,
-          "surface_ar": "اللَّهِ",
-          "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-        }
-      ],
+      "unresolved": [],
       "morphemes_tsv": {
         "present": true,
         "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s012/linguistic/morphemes.tsv",
@@ -51169,7 +51196,7 @@
         "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
         "dropped_preface_rows": 7
       },
-      "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
+      "note": "Ordered surface alignment within canonical QAC words; only spans shared by all best alignments are joined. Upstream word-analysis identities and wording are preserved. Unresolved analytic units remain available for qualified reading; never infer their QAC identity from upstream numbering."
     },
     "word_analysis_qac_alignment": {
       "consistent": false,

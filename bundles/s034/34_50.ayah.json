@@ -4203,10 +4203,12 @@
         "w-s034-a050-w012"
       ],
       "qac_refs": [
-        "34:50:12:1"
+        "34:50:12:1",
+        "34:50:12:2"
       ],
       "morpheme_ids": [
-        "m-w-s034-a050-w012-01"
+        "m-w-s034-a050-w012-01",
+        "m-w-s034-a050-w012-02"
       ],
       "aligned_qac_word_ref_upstream": "34:50:16",
       "morpheme_skip_count": 0
@@ -4215,16 +4217,13 @@
       "word_index": 16,
       "surface_ar": "رَبِّىٓ",
       "word_ids": [
-        "w-s034-a050-w012",
         "w-s034-a050-w013"
       ],
       "qac_refs": [
-        "34:50:12:2",
         "34:50:13:1",
         "34:50:13:2"
       ],
       "morpheme_ids": [
-        "m-w-s034-a050-w012-02",
         "m-w-s034-a050-w013-01",
         "m-w-s034-a050-w013-02"
       ],
@@ -40518,6 +40517,7 @@
     "word_morpheme_spans": {
       "present": true,
       "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s034/linguistic/morphemes.tsv",
+      "alignment_version": "ordered-morpheme-spans-v2",
       "words_total": 20,
       "words_resolved": 20,
       "words_unresolved": 0,
@@ -40536,7 +40536,7 @@
         "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
         "dropped_preface_rows": 7
       },
-      "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
+      "note": "Ordered surface alignment within canonical QAC words; only spans shared by all best alignments are joined. Upstream word-analysis identities and wording are preserved. Unresolved analytic units remain available for qualified reading; never infer their QAC identity from upstream numbering."
     },
     "word_analysis_qac_alignment": {
       "consistent": false,

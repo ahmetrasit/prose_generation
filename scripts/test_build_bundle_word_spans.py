@@ -6,9 +6,38 @@ from __future__ import annotations
 import unittest
 
 import build_bundle as bb
+from word_morpheme_alignment import surface_forms
 
 
 class WordMorphemeSpanTests(unittest.TestCase):
+    def test_duplicate_analytic_units_do_not_choose_an_arbitrary_owner(self) -> None:
+        record = {"words": [{"surface_display": "{{ar:قُلْ}}"}] * 2}
+        rows = [{"surface_ar": "قُلْ", "qac_ref": "1:1:1:1",
+                 "word_id": "w1", "morpheme_id": "m1"}]
+        spans, unresolved = bb.resolve_word_morpheme_spans(record, rows)
+        self.assertEqual(spans, [None, None])
+        self.assertEqual(len(unresolved), 2)
+
+    def test_contracted_article_does_not_steal_later_preposition(self) -> None:
+        record = {"words": [{"surface_display": "{{ar:" + text + "}}"}
+                            for text in ("لِ", "التَّقْوَىٰ", "لَ", "هُمْ")]}
+        rows = [dict(surface_ar=text, pos=pos, qac_ref=ref,
+                     word_id=ref.rsplit(":", 1)[0], morpheme_id=ref)
+                for text, pos, ref in (
+                    ("لِ", "P", "49:3:13:1"), ("ل", "DET", "49:3:13:2"),
+                    ("تَّقْوَىٰ", "N", "49:3:13:3"),
+                    ("لَ", "P", "49:3:14:1"), ("هُمْ", "PRON", "49:3:14:2"))]
+        spans, unresolved = bb.resolve_word_morpheme_spans(record, rows)
+        self.assertEqual(unresolved, [])
+        self.assertEqual(spans[2]["qac_refs"], ["49:3:14:1"])
+
+    def test_spelling_equivalences_preserve_distinct_carriers(self) -> None:
+        self.assertFalse(surface_forms("إِلَىٰ") & surface_forms("إِلَّا"))
+        self.assertFalse(surface_forms("وَٰحِد") & surface_forms("أَحَد"))
+        self.assertTrue(surface_forms("صَلَوٰة") & surface_forms("صَلَاة"))
+        self.assertTrue(surface_forms("مَسَٰكِن") & surface_forms("مَسَاكِن"))
+        self.assertTrue(surface_forms("هُدَىٰهَا") & surface_forms("هُدَاهَا"))
+
     def test_alef_maqsura_matches_ya_surface(self) -> None:
         self.assertEqual(
             bb.normalize_arabic_surface("إِلَيَّ"),

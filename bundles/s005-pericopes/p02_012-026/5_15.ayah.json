@@ -3918,7 +3918,21 @@
     ]
   },
   "word_morpheme_spans": [
-    null,
+    {
+      "word_index": 0,
+      "surface_ar": "يَا",
+      "word_ids": [
+        "w-s005-a015-w001"
+      ],
+      "qac_refs": [
+        "5:15:1:1"
+      ],
+      "morpheme_ids": [
+        "m-w-s005-a015-w001-01"
+      ],
+      "aligned_qac_word_ref_upstream": "5:15:1",
+      "morpheme_skip_count": 0
+    },
     {
       "word_index": 1,
       "surface_ar": "أَهْلَ",
@@ -3932,9 +3946,25 @@
         "m-w-s005-a015-w001-02"
       ],
       "aligned_qac_word_ref_upstream": "5:15:2",
-      "morpheme_skip_count": 1
+      "morpheme_skip_count": 0
     },
-    null,
+    {
+      "word_index": 2,
+      "surface_ar": "الْكِتَابِ",
+      "word_ids": [
+        "w-s005-a015-w002"
+      ],
+      "qac_refs": [
+        "5:15:2:1",
+        "5:15:2:2"
+      ],
+      "morpheme_ids": [
+        "m-w-s005-a015-w002-01",
+        "m-w-s005-a015-w002-02"
+      ],
+      "aligned_qac_word_ref_upstream": "5:15:3",
+      "morpheme_skip_count": 0
+    },
     {
       "word_index": 3,
       "surface_ar": "قَدْ",
@@ -3948,7 +3978,7 @@
         "m-w-s005-a015-w003-01"
       ],
       "aligned_qac_word_ref_upstream": "5:15:4",
-      "morpheme_skip_count": 2
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 4,
@@ -4097,7 +4127,23 @@
       "aligned_qac_word_ref_upstream": "5:15:13",
       "morpheme_skip_count": 0
     },
-    null,
+    {
+      "word_index": 13,
+      "surface_ar": "الْكِتَابِ",
+      "word_ids": [
+        "w-s005-a015-w013"
+      ],
+      "qac_refs": [
+        "5:15:13:1",
+        "5:15:13:2"
+      ],
+      "morpheme_ids": [
+        "m-w-s005-a015-w013-01",
+        "m-w-s005-a015-w013-02"
+      ],
+      "aligned_qac_word_ref_upstream": "5:15:14",
+      "morpheme_skip_count": 0
+    },
     {
       "word_index": 14,
       "surface_ar": "وَ",
@@ -4111,9 +4157,23 @@
         "m-w-s005-a015-w014-01"
       ],
       "aligned_qac_word_ref_upstream": "5:15:15",
-      "morpheme_skip_count": 2
+      "morpheme_skip_count": 0
     },
-    null,
+    {
+      "word_index": 15,
+      "surface_ar": "يَعْفُو",
+      "word_ids": [
+        "w-s005-a015-w014"
+      ],
+      "qac_refs": [
+        "5:15:14:2"
+      ],
+      "morpheme_ids": [
+        "m-w-s005-a015-w014-02"
+      ],
+      "aligned_qac_word_ref_upstream": "5:15:16",
+      "morpheme_skip_count": 0
+    },
     {
       "word_index": 16,
       "surface_ar": "عَنْ",
@@ -4127,7 +4187,7 @@
         "m-w-s005-a015-w015-01"
       ],
       "aligned_qac_word_ref_upstream": "5:15:17",
-      "morpheme_skip_count": 1
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 17,
@@ -4236,7 +4296,21 @@
       "aligned_qac_word_ref_upstream": "5:15:24",
       "morpheme_skip_count": 0
     },
-    null,
+    {
+      "word_index": 24,
+      "surface_ar": "كِتَابٌ",
+      "word_ids": [
+        "w-s005-a015-w022"
+      ],
+      "qac_refs": [
+        "5:15:22:2"
+      ],
+      "morpheme_ids": [
+        "m-w-s005-a015-w022-02"
+      ],
+      "aligned_qac_word_ref_upstream": "5:15:25",
+      "morpheme_skip_count": 0
+    },
     {
       "word_index": 25,
       "surface_ar": "مُبِينٌ",
@@ -4250,7 +4324,7 @@
         "m-w-s005-a015-w023-01"
       ],
       "aligned_qac_word_ref_upstream": "5:15:26",
-      "morpheme_skip_count": 1
+      "morpheme_skip_count": 0
     }
   ],
   "branch_inventories": {
@@ -29438,43 +29512,16 @@
     "word_morpheme_spans": {
       "present": true,
       "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s005/linguistic/morphemes.tsv",
+      "alignment_version": "ordered-morpheme-spans-v2",
       "words_total": 26,
-      "words_resolved": 21,
-      "words_unresolved": 5,
-      "morpheme_skip_total": 7,
-      "morpheme_skip_max": 2,
+      "words_resolved": 26,
+      "words_unresolved": 0,
+      "morpheme_skip_total": 0,
+      "morpheme_skip_max": 0,
       "morpheme_skip_histogram": {
-        "1": 3,
-        "2": 2,
-        "0": 16
+        "0": 26
       },
-      "unresolved": [
-        {
-          "word_index": 0,
-          "surface_ar": "يَا",
-          "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-        },
-        {
-          "word_index": 2,
-          "surface_ar": "الْكِتَابِ",
-          "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-        },
-        {
-          "word_index": 13,
-          "surface_ar": "الْكِتَابِ",
-          "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-        },
-        {
-          "word_index": 15,
-          "surface_ar": "يَعْفُو",
-          "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-        },
-        {
-          "word_index": 24,
-          "surface_ar": "كِتَابٌ",
-          "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-        }
-      ],
+      "unresolved": [],
       "morphemes_tsv": {
         "present": true,
         "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s005/linguistic/morphemes.tsv",
@@ -29484,7 +29531,7 @@
         "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
         "dropped_preface_rows": 7
       },
-      "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
+      "note": "Ordered surface alignment within canonical QAC words; only spans shared by all best alignments are joined. Upstream word-analysis identities and wording are preserved. Unresolved analytic units remain available for qualified reading; never infer their QAC identity from upstream numbering."
     },
     "word_analysis_qac_alignment": {
       "consistent": false,

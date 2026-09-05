@@ -3332,7 +3332,8 @@
       "morpheme_ids": [
         "m-w-s041-a054-w001-01"
       ],
-      "aligned_qac_word_ref_upstream": "41:54:1"
+      "aligned_qac_word_ref_upstream": "41:54:1",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 1,
@@ -3348,7 +3349,8 @@
         "m-w-s041-a054-w002-01",
         "m-w-s041-a054-w002-02"
       ],
-      "aligned_qac_word_ref_upstream": "41:54:2"
+      "aligned_qac_word_ref_upstream": "41:54:2",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 2,
@@ -3362,7 +3364,8 @@
       "morpheme_ids": [
         "m-w-s041-a054-w003-01"
       ],
-      "aligned_qac_word_ref_upstream": "41:54:3"
+      "aligned_qac_word_ref_upstream": "41:54:3",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 3,
@@ -3376,7 +3379,8 @@
       "morpheme_ids": [
         "m-w-s041-a054-w004-01"
       ],
-      "aligned_qac_word_ref_upstream": "41:54:4"
+      "aligned_qac_word_ref_upstream": "41:54:4",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 4,
@@ -3390,7 +3394,8 @@
       "morpheme_ids": [
         "m-w-s041-a054-w005-01"
       ],
-      "aligned_qac_word_ref_upstream": "41:54:5"
+      "aligned_qac_word_ref_upstream": "41:54:5",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 5,
@@ -3404,7 +3409,8 @@
       "morpheme_ids": [
         "m-w-s041-a054-w006-01"
       ],
-      "aligned_qac_word_ref_upstream": "41:54:6"
+      "aligned_qac_word_ref_upstream": "41:54:6",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 6,
@@ -3420,7 +3426,8 @@
         "m-w-s041-a054-w007-01",
         "m-w-s041-a054-w007-02"
       ],
-      "aligned_qac_word_ref_upstream": "41:54:7"
+      "aligned_qac_word_ref_upstream": "41:54:7",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 7,
@@ -3434,7 +3441,8 @@
       "morpheme_ids": [
         "m-w-s041-a054-w008-01"
       ],
-      "aligned_qac_word_ref_upstream": "41:54:8"
+      "aligned_qac_word_ref_upstream": "41:54:8",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 8,
@@ -3450,7 +3458,8 @@
         "m-w-s041-a054-w009-01",
         "m-w-s041-a054-w009-02"
       ],
-      "aligned_qac_word_ref_upstream": "41:54:9"
+      "aligned_qac_word_ref_upstream": "41:54:9",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 9,
@@ -3464,7 +3473,8 @@
       "morpheme_ids": [
         "m-w-s041-a054-w010-01"
       ],
-      "aligned_qac_word_ref_upstream": "41:54:10"
+      "aligned_qac_word_ref_upstream": "41:54:10",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 10,
@@ -3478,7 +3488,8 @@
       "morpheme_ids": [
         "m-w-s041-a054-w010-02"
       ],
-      "aligned_qac_word_ref_upstream": "41:54:11"
+      "aligned_qac_word_ref_upstream": "41:54:11",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 11,
@@ -3492,7 +3503,8 @@
       "morpheme_ids": [
         "m-w-s041-a054-w011-01"
       ],
-      "aligned_qac_word_ref_upstream": "41:54:12"
+      "aligned_qac_word_ref_upstream": "41:54:12",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 12,
@@ -3506,7 +3518,8 @@
       "morpheme_ids": [
         "m-w-s041-a054-w012-01"
       ],
-      "aligned_qac_word_ref_upstream": "41:54:13"
+      "aligned_qac_word_ref_upstream": "41:54:13",
+      "morpheme_skip_count": 0
     }
   ],
   "branch_inventories": {
@@ -24946,19 +24959,26 @@
     "word_morpheme_spans": {
       "present": true,
       "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s041/linguistic/morphemes.tsv",
+      "alignment_version": "ordered-morpheme-spans-v2",
       "words_total": 13,
       "words_resolved": 13,
       "words_unresolved": 0,
+      "morpheme_skip_total": 0,
+      "morpheme_skip_max": 0,
+      "morpheme_skip_histogram": {
+        "0": 13
+      },
       "unresolved": [],
       "morphemes_tsv": {
         "present": true,
         "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s041/linguistic/morphemes.tsv",
-        "ayah_count": 54,
-        "row_count": 1353,
+        "ayah_count": 53,
+        "row_count": 1346,
         "malformed_rows": 0,
-        "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+        "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+        "dropped_preface_rows": 7
       },
-      "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
+      "note": "Ordered surface alignment within canonical QAC words; only spans shared by all best alignments are joined. Upstream word-analysis identities and wording are preserved. Unresolved analytic units remain available for qualified reading; never infer their QAC identity from upstream numbering."
     },
     "word_analysis_qac_alignment": {
       "consistent": false,

@@ -1974,6 +1974,14 @@ def prepare(args: argparse.Namespace) -> dict[str, Any]:
             host_basmala=host_basmala,
         )
     _normalize_and_route_lane_packets(packets, source_bundle, composition)
+    alignment = source_bundle.get("coverage", {}).get("word_morpheme_spans", {})
+    for packet in packets.values():
+        packet["focus_word_alignment"] = {
+            key: alignment[key] for key in (
+                "alignment_version", "words_total", "words_resolved",
+                "words_unresolved", "unresolved", "note",
+            ) if key in alignment
+        }
     packet_evidence.attach_context_evidence(
         packets, quran_evidence,
         Path(getattr(args, "qac_morphology", DEFAULT_QAC_MORPHOLOGY)),
@@ -1993,6 +2001,18 @@ def prepare(args: argparse.Namespace) -> dict[str, Any]:
         lane: _build_scope_prompt(layout, lane, packets[lane]) for lane in LANES
     }
 
+    if getattr(args, "check_only", False):
+        return {
+            "schema_version": "commentary-v5-preparation-check-v1",
+            "status": "checked",
+            "analysis_id": layout.analysis_id,
+            "ayah_ref": layout.ayah_ref,
+            "context_morphology_status": "degraded" if missing_morphology else "complete",
+            "missing_context_morphology_refs": missing_morphology,
+            "prompt_bytes": {lane: len(prompt.encode("utf-8")) for lane, prompt in prompts.items()},
+            "word_alignment": source_bundle.get("coverage", {}).get("word_morpheme_spans", {}),
+        }
+
     _assert_confined(layout.raw, RAW_ROOT)
     _assert_confined(layout.editorial, EDITORIAL_ROOT)
     layout.raw.mkdir(parents=True, exist_ok=True)
@@ -2009,6 +2029,7 @@ def prepare(args: argparse.Namespace) -> dict[str, Any]:
         "status": "prepared",
         "context_morphology_status": "degraded" if missing_morphology else "complete",
         "missing_context_morphology_refs": missing_morphology,
+        "focus_word_alignment": packets["micro"]["focus_word_alignment"],
         "analysis_id": layout.analysis_id,
         "ayah_ref": layout.ayah_ref,
         "focus_context_brief": {
@@ -2125,6 +2146,10 @@ def _parser() -> argparse.ArgumentParser:
     subparsers = parser.add_subparsers(dest="command", required=True)
     prepare_parser = subparsers.add_parser(
         "prepare", help="Run all preflight checks and write three scope prompts."
+    )
+    prepare_parser.add_argument(
+        "--check-only", action="store_true",
+        help="Assemble and validate all prompts without writing prompts or creating handoffs.",
     )
     prepare_parser.add_argument(
         "--ayah",
@@ -2248,7 +2273,7 @@ def _prepare_batch(
         try:
             result = prepare(unit_args)
             handoffs.extend(
-                {**handoff, "ayah_ref": ref} for handoff in result["handoffs"]
+                {**handoff, "ayah_ref": ref} for handoff in result.get("handoffs", [])
             )
         except (WorkflowError, compositions.CompositionError, OSError) as exc:
             errors += 1
@@ -2264,7 +2289,7 @@ def _prepare_batch(
     return (
         {
             "schema_version": "commentary-v5-prepared-batch-v1",
-            "status": "prepared" if not errors else "error",
+            "status": ("checked" if getattr(args, "check_only", False) else "prepared") if not errors else "error",
             "units": units,
             "parallel_handoffs": handoffs if not errors else [],
         },

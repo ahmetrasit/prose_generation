@@ -8202,7 +8202,23 @@
       "aligned_qac_word_ref_upstream": "48:27:5",
       "morpheme_skip_count": 0
     },
-    null,
+    {
+      "word_index": 5,
+      "surface_ar": "الرُّؤْيَا",
+      "word_ids": [
+        "w-s048-a027-w005"
+      ],
+      "qac_refs": [
+        "48:27:5:1",
+        "48:27:5:2"
+      ],
+      "morpheme_ids": [
+        "m-w-s048-a027-w005-01",
+        "m-w-s048-a027-w005-02"
+      ],
+      "aligned_qac_word_ref_upstream": "48:27:6",
+      "morpheme_skip_count": 0
+    },
     {
       "word_index": 6,
       "surface_ar": "بِ",
@@ -8216,7 +8232,7 @@
         "m-w-s048-a027-w006-01"
       ],
       "aligned_qac_word_ref_upstream": "48:27:7",
-      "morpheme_skip_count": 2
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 7,
@@ -8346,7 +8362,21 @@
       "aligned_qac_word_ref_upstream": "48:27:15",
       "morpheme_skip_count": 0
     },
-    null,
+    {
+      "word_index": 15,
+      "surface_ar": "آمِنِينَ",
+      "word_ids": [
+        "w-s048-a027-w013"
+      ],
+      "qac_refs": [
+        "48:27:13:1"
+      ],
+      "morpheme_ids": [
+        "m-w-s048-a027-w013-01"
+      ],
+      "aligned_qac_word_ref_upstream": "48:27:16",
+      "morpheme_skip_count": 0
+    },
     {
       "word_index": 16,
       "surface_ar": "مُحَلِّقِينَ",
@@ -8360,7 +8390,7 @@
         "m-w-s048-a027-w014-01"
       ],
       "aligned_qac_word_ref_upstream": "48:27:17",
-      "morpheme_skip_count": 1
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 17,
@@ -68492,28 +68522,16 @@
     "word_morpheme_spans": {
       "present": true,
       "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s048/linguistic/morphemes.tsv",
+      "alignment_version": "ordered-morpheme-spans-v2",
       "words_total": 34,
-      "words_resolved": 32,
-      "words_unresolved": 2,
-      "morpheme_skip_total": 3,
-      "morpheme_skip_max": 2,
+      "words_resolved": 34,
+      "words_unresolved": 0,
+      "morpheme_skip_total": 0,
+      "morpheme_skip_max": 0,
       "morpheme_skip_histogram": {
-        "0": 30,
-        "2": 1,
-        "1": 1
+        "0": 34
       },
-      "unresolved": [
-        {
-          "word_index": 5,
-          "surface_ar": "الرُّؤْيَا",
-          "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-        },
-        {
-          "word_index": 15,
-          "surface_ar": "آمِنِينَ",
-          "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-        }
-      ],
+      "unresolved": [],
       "morphemes_tsv": {
         "present": true,
         "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s048/linguistic/morphemes.tsv",
@@ -68523,7 +68541,7 @@
         "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
         "dropped_preface_rows": 7
       },
-      "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
+      "note": "Ordered surface alignment within canonical QAC words; only spans shared by all best alignments are joined. Upstream word-analysis identities and wording are preserved. Unresolved analytic units remain available for qualified reading; never infer their QAC identity from upstream numbering."
     },
     "word_analysis_qac_alignment": {
       "consistent": false,

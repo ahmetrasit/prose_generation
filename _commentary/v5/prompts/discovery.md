@@ -25,6 +25,10 @@ lost.
   evidence is a qualification, not a verdict against a reading.
   Inspect all candidate, branch, and connection records; retrieve detailed
   context morphology as particular comparisons require it.
+- Check `focus_word_alignment` for unresolved analytic units. Their source
+  readings remain available, but upstream word numbering does not establish a
+  QAC join. Inspect the supplied Arabic and morphology; qualify any uncertain
+  carrier without treating a missing join as evidence against the reading.
 - Candidates are a review docket, not an accepted list, discovery limit, or
   quota. Decide every candidate exactly once. Independently inspect the full
   relevant surface, supports, connections, and available branches for

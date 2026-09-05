@@ -33,6 +33,37 @@ python3 _commentary/v5/workflow.py prepare --ayah 100:1-11
 python3 _commentary/v5/workflow.py prepare --ayah 1:1-7 2:1-5
 ```
 
+Before bulk operation, check the actual saved inventory. The first command
+checks whether deterministic word-to-morpheme joins need migration; add
+`--apply` to regenerate only those joins and their coverage. It also updates
+surah coverage summaries and existing package manifests. Source analysis and
+agent outputs are preserved. Unresolved or ambiguous joins remain explicit.
+
+```bash
+python3 scripts/migrate_bundle_spans.py --report /tmp/v5-span-audit.json
+python3 _commentary/v5/audit_preparation.py --whole-surah --workers 4 --report /tmp/v5-preparation.jsonl
+```
+
+The preparation audit renders and validates all three real prompts for every
+saved focus, including each pericope package's declared context. `--whole-surah`
+also checks every numbered canonical focus against its full host surah. It
+records every failure and prompt byte size and exits unsuccessfully if any
+preparation fails. It creates no agent artifacts or handoffs. Large byte sizes
+still require a separate reading-efficiency review; the 16 MB guard is a file
+limit, not a model-context or semantic-quality guarantee.
+
+For an S:0 focus, its complete numbered host must be available in one context
+root. A basmala bundle can already serve as package context while those numbered
+inputs still live in separate pericope collections. Generate the whole-surah
+root with `scripts/build_bundle.py --surah S` before using its native S:0 focus;
+the audit reports any missing host files explicitly.
+
+For a selected production command, append `--check-only` to perform its full
+preparation without writing prompts. A successful result has `status: checked`.
+The QAC cache may be populated. `focus_word_alignment` in every new lane packet
+identifies analytic units without a reliable QAC join; their readings remain
+available, with explicit qualifications instead of guessed identities.
+
 For a batch, run the complete workflow for all selected ayat in parallel. Each
 ayah gets its own three `gpt-5.6-luna` max scope agents and its own fresh
 `gpt-5.6-luna` max consolidator/editorial session.

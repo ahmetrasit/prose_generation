@@ -4977,26 +4977,39 @@
       "aligned_qac_word_ref_upstream": "29:8:20",
       "morpheme_skip_count": 0
     },
-    null,
+    {
+      "word_index": 20,
+      "surface_ar": "إِلَيَّ",
+      "word_ids": [
+        "w-s029-a008-w016"
+      ],
+      "qac_refs": [
+        "29:8:16:1",
+        "29:8:16:2"
+      ],
+      "morpheme_ids": [
+        "m-w-s029-a008-w016-01",
+        "m-w-s029-a008-w016-02"
+      ],
+      "aligned_qac_word_ref_upstream": "29:8:21",
+      "morpheme_skip_count": 0
+    },
     {
       "word_index": 21,
       "surface_ar": "مَرْجِعُكُمْ",
       "word_ids": [
-        "w-s029-a008-w016",
         "w-s029-a008-w017"
       ],
       "qac_refs": [
-        "29:8:16:2",
         "29:8:17:1",
         "29:8:17:2"
       ],
       "morpheme_ids": [
-        "m-w-s029-a008-w016-02",
         "m-w-s029-a008-w017-01",
         "m-w-s029-a008-w017-02"
       ],
       "aligned_qac_word_ref_upstream": "29:8:22",
-      "morpheme_skip_count": 1
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 22,
@@ -38935,22 +38948,16 @@
     "word_morpheme_spans": {
       "present": true,
       "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s029/linguistic/morphemes.tsv",
+      "alignment_version": "ordered-morpheme-spans-v2",
       "words_total": 28,
-      "words_resolved": 27,
-      "words_unresolved": 1,
-      "morpheme_skip_total": 1,
-      "morpheme_skip_max": 1,
+      "words_resolved": 28,
+      "words_unresolved": 0,
+      "morpheme_skip_total": 0,
+      "morpheme_skip_max": 0,
       "morpheme_skip_histogram": {
-        "0": 26,
-        "1": 1
+        "0": 28
       },
-      "unresolved": [
-        {
-          "word_index": 20,
-          "surface_ar": "إِلَيَّ",
-          "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-        }
-      ],
+      "unresolved": [],
       "morphemes_tsv": {
         "present": true,
         "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s029/linguistic/morphemes.tsv",
@@ -38960,7 +38967,7 @@
         "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
         "dropped_preface_rows": 7
       },
-      "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
+      "note": "Ordered surface alignment within canonical QAC words; only spans shared by all best alignments are joined. Upstream word-analysis identities and wording are preserved. Unresolved analytic units remain available for qualified reading; never infer their QAC identity from upstream numbering."
     },
     "word_analysis_qac_alignment": {
       "consistent": false,

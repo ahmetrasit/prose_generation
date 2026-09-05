@@ -182,7 +182,7 @@ class PericopeBundleScriptTests(unittest.TestCase):
         self.assertIn("sha256", manifest["builder"])
         self.assertIn("canonical_sha256", manifest["ayah_bundle_files"][0])
 
-    def test_legacy_policy_is_accepted_only_for_pinned_historical_manifest(self) -> None:
+    def test_migrated_manifest_is_current_and_unpinned_legacy_policy_is_rejected(self) -> None:
         historical_path = (
             builder.REPO_ROOT
             / "bundles"
@@ -213,7 +213,7 @@ class PericopeBundleScriptTests(unittest.TestCase):
                     builder.REPO_ROOT / "scripts" / "pericope_bundle_manifest.py"
                 ),
             ),
-            "legacy_v4",
+            "current",
         )
 
         row = {

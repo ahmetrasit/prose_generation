@@ -439,6 +439,13 @@ def validate_manifest(
         repo_root=repo_root,
         expected=expected_lower_level_builder,
     )
+    if "alignment_implementation" in manifest:
+        verify_file_record(
+            manifest["alignment_implementation"],
+            label="word alignment implementation",
+            repo_root=repo_root,
+            expected=expected_lower_level_builder.parent / "word_morpheme_alignment.py",
+        )
 
     source = manifest.get("source")
     index_record = manifest.get("pericope_index")

@@ -185,6 +185,9 @@ def write_manifest(
         "lower_level_builder": package_manifest.file_record(
             REPO_ROOT / "scripts" / "build_bundle.py", REPO_ROOT
         ),
+        "alignment_implementation": package_manifest.file_record(
+            REPO_ROOT / "scripts" / "word_morpheme_alignment.py", REPO_ROOT
+        ),
         "command": command,
         "source": source,
         "pericope_index": (

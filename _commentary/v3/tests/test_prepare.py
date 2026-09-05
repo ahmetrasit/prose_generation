@@ -292,6 +292,27 @@ def fixture_bundle(
 
 
 class PrepareTests(unittest.TestCase):
+    def test_authoring_retains_unresolved_word_topic_without_changing_obligation(self) -> None:
+        bundle = fixture_bundle()
+        topic = bundle["word_analysis"]["words"][0]["topics"][0]
+        topic["reason"] = "Check the unregistered root_001046/B999 citation."
+        original = copy.deepcopy(bundle)
+        with self.assertRaisesRegex(ValidationError, "unresolved branch evidence"):
+            build_prepared_artifacts(bundle, source_path=Path("fixture.json"),
+                options=PrepareOptions(hft_policy="quarantine"))
+        _prepared, docket = build_prepared_artifacts(
+            bundle, source_path=Path("fixture.json"),
+            options=PrepareOptions(hft_policy="quarantine",
+                demote_unresolved_mandatory_candidates=True))
+        candidate = next(item for item in docket["candidates"]
+                         if item["source_local_id"] == topic["topic_id"])
+        self.assertEqual(candidate["obligation"], "must_integrate")
+        self.assertFalse(candidate["mandatory"])
+        self.assertFalse(candidate["adjudicable"])
+        self.assertFalse(candidate["selection_eligible"])
+        self.assertTrue(candidate["unresolved_branch_citations"])
+        self.assertEqual(bundle, original)
+
     def test_missing_word_morpheme_spans_cannot_fall_back_to_upstream_refs(self) -> None:
         bundle = fixture_bundle()
         bundle.pop("word_morpheme_spans", None)

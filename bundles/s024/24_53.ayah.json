@@ -3317,7 +3317,21 @@
       "aligned_qac_word_ref_upstream": "24:53:7",
       "morpheme_skip_count": 0
     },
-    null,
+    {
+      "word_index": 7,
+      "surface_ar": "إِنْ",
+      "word_ids": [
+        "w-s024-a053-w005"
+      ],
+      "qac_refs": [
+        "24:53:5:2"
+      ],
+      "morpheme_ids": [
+        "m-w-s024-a053-w005-02"
+      ],
+      "aligned_qac_word_ref_upstream": "24:53:8",
+      "morpheme_skip_count": 0
+    },
     {
       "word_index": 8,
       "surface_ar": "أَمَرْتَهُمْ",
@@ -3335,7 +3349,7 @@
         "m-w-s024-a053-w006-03"
       ],
       "aligned_qac_word_ref_upstream": "24:53:9",
-      "morpheme_skip_count": 1
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 9,
@@ -37098,22 +37112,16 @@
     "word_morpheme_spans": {
       "present": true,
       "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s024/linguistic/morphemes.tsv",
+      "alignment_version": "ordered-morpheme-spans-v2",
       "words_total": 22,
-      "words_resolved": 21,
-      "words_unresolved": 1,
-      "morpheme_skip_total": 1,
-      "morpheme_skip_max": 1,
+      "words_resolved": 22,
+      "words_unresolved": 0,
+      "morpheme_skip_total": 0,
+      "morpheme_skip_max": 0,
       "morpheme_skip_histogram": {
-        "0": 20,
-        "1": 1
+        "0": 22
       },
-      "unresolved": [
-        {
-          "word_index": 7,
-          "surface_ar": "إِنْ",
-          "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-        }
-      ],
+      "unresolved": [],
       "morphemes_tsv": {
         "present": true,
         "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s024/linguistic/morphemes.tsv",
@@ -37123,7 +37131,7 @@
         "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
         "dropped_preface_rows": 7
       },
-      "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
+      "note": "Ordered surface alignment within canonical QAC words; only spans shared by all best alignments are joined. Upstream word-analysis identities and wording are preserved. Unresolved analytic units remain available for qualified reading; never infer their QAC identity from upstream numbering."
     },
     "word_analysis_qac_alignment": {
       "consistent": false,

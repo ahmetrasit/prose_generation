@@ -1131,112 +1131,28 @@
           "word_count": 18
         },
         "word_morpheme_spans": {
-          "present": false,
+          "present": true,
           "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s049/linguistic/morphemes.tsv",
+          "alignment_version": "ordered-morpheme-spans-v2",
           "words_total": 18,
-          "words_resolved": 0,
-          "words_unresolved": 18,
-          "unresolved": [
-            {
-              "word_index": 0,
-              "surface_ar": "يَا",
-              "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-            },
-            {
-              "word_index": 1,
-              "surface_ar": "أَيُّهَا",
-              "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-            },
-            {
-              "word_index": 2,
-              "surface_ar": "ٱلَّذِينَ",
-              "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-            },
-            {
-              "word_index": 3,
-              "surface_ar": "ءَامَنُوا۟",
-              "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-            },
-            {
-              "word_index": 4,
-              "surface_ar": "لَا",
-              "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-            },
-            {
-              "word_index": 5,
-              "surface_ar": "تُقَدِّمُوا۟",
-              "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-            },
-            {
-              "word_index": 6,
-              "surface_ar": "بَيْنَ",
-              "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-            },
-            {
-              "word_index": 7,
-              "surface_ar": "يَدَىِ",
-              "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-            },
-            {
-              "word_index": 8,
-              "surface_ar": "ٱللَّهِ",
-              "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-            },
-            {
-              "word_index": 9,
-              "surface_ar": "وَ",
-              "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-            },
-            {
-              "word_index": 10,
-              "surface_ar": "رَسُولِهِۦ",
-              "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-            },
-            {
-              "word_index": 11,
-              "surface_ar": "وَ",
-              "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-            },
-            {
-              "word_index": 12,
-              "surface_ar": "ٱتَّقُوا۟",
-              "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-            },
-            {
-              "word_index": 13,
-              "surface_ar": "ٱللَّهَ",
-              "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-            },
-            {
-              "word_index": 14,
-              "surface_ar": "إِنَّ",
-              "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-            },
-            {
-              "word_index": 15,
-              "surface_ar": "ٱللَّهَ",
-              "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-            },
-            {
-              "word_index": 16,
-              "surface_ar": "سَمِيعٌ",
-              "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-            },
-            {
-              "word_index": 17,
-              "surface_ar": "عَلِيمٌۭ",
-              "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-            }
-          ],
+          "words_resolved": 18,
+          "words_unresolved": 0,
+          "morpheme_skip_total": 0,
+          "morpheme_skip_max": 0,
+          "morpheme_skip_histogram": {
+            "0": 18
+          },
+          "unresolved": [],
           "morphemes_tsv": {
             "present": true,
             "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s049/linguistic/morphemes.tsv",
-            "ayah_count": 19,
-            "row_count": 566,
+            "ayah_count": 18,
+            "row_count": 559,
             "malformed_rows": 0,
-            "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+            "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+            "dropped_preface_rows": 7
           },
-          "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
+          "note": "Ordered surface alignment within canonical QAC words; only spans shared by all best alignments are joined. Upstream word-analysis identities and wording are preserved. Unresolved analytic units remain available for qualified reading; never infer their QAC identity from upstream numbering."
         },
         "word_analysis_qac_alignment": {
           "consistent": false,
@@ -2888,162 +2804,28 @@
           "word_count": 28
         },
         "word_morpheme_spans": {
-          "present": false,
+          "present": true,
           "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s049/linguistic/morphemes.tsv",
+          "alignment_version": "ordered-morpheme-spans-v2",
           "words_total": 28,
-          "words_resolved": 0,
-          "words_unresolved": 28,
-          "unresolved": [
-            {
-              "word_index": 0,
-              "surface_ar": "يَا",
-              "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-            },
-            {
-              "word_index": 1,
-              "surface_ar": "أَيُّهَا",
-              "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-            },
-            {
-              "word_index": 2,
-              "surface_ar": "ٱلَّذِينَ",
-              "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-            },
-            {
-              "word_index": 3,
-              "surface_ar": "ءَامَنُوا۟",
-              "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-            },
-            {
-              "word_index": 4,
-              "surface_ar": "لَا",
-              "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-            },
-            {
-              "word_index": 5,
-              "surface_ar": "تَرْفَعُوٓا۟",
-              "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-            },
-            {
-              "word_index": 6,
-              "surface_ar": "أَصْوَٰتَكُمْ",
-              "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-            },
-            {
-              "word_index": 7,
-              "surface_ar": "فَوْقَ",
-              "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-            },
-            {
-              "word_index": 8,
-              "surface_ar": "صَوْتِ",
-              "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-            },
-            {
-              "word_index": 9,
-              "surface_ar": "ٱلنَّبِىِّ",
-              "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-            },
-            {
-              "word_index": 10,
-              "surface_ar": "وَ",
-              "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-            },
-            {
-              "word_index": 11,
-              "surface_ar": "لَا",
-              "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-            },
-            {
-              "word_index": 12,
-              "surface_ar": "تَجْهَرُوا۟",
-              "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-            },
-            {
-              "word_index": 13,
-              "surface_ar": "لَهُۥ",
-              "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-            },
-            {
-              "word_index": 14,
-              "surface_ar": "بِ",
-              "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-            },
-            {
-              "word_index": 15,
-              "surface_ar": "ٱلْقَوْلِ",
-              "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-            },
-            {
-              "word_index": 16,
-              "surface_ar": "كَ",
-              "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-            },
-            {
-              "word_index": 17,
-              "surface_ar": "جَهْرِ",
-              "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-            },
-            {
-              "word_index": 18,
-              "surface_ar": "بَعْضِكُمْ",
-              "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-            },
-            {
-              "word_index": 19,
-              "surface_ar": "لِ",
-              "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-            },
-            {
-              "word_index": 20,
-              "surface_ar": "بَعْضٍ",
-              "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-            },
-            {
-              "word_index": 21,
-              "surface_ar": "أَن",
-              "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-            },
-            {
-              "word_index": 22,
-              "surface_ar": "تَحْبَطَ",
-              "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-            },
-            {
-              "word_index": 23,
-              "surface_ar": "أَعْمَٰلُكُمْ",
-              "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-            },
-            {
-              "word_index": 24,
-              "surface_ar": "وَ",
-              "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-            },
-            {
-              "word_index": 25,
-              "surface_ar": "أَنتُمْ",
-              "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-            },
-            {
-              "word_index": 26,
-              "surface_ar": "لَا",
-              "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-            },
-            {
-              "word_index": 27,
-              "surface_ar": "تَشْعُرُونَ",
-              "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-            }
-          ],
+          "words_resolved": 28,
+          "words_unresolved": 0,
+          "morpheme_skip_total": 0,
+          "morpheme_skip_max": 0,
+          "morpheme_skip_histogram": {
+            "0": 28
+          },
+          "unresolved": [],
           "morphemes_tsv": {
             "present": true,
             "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s049/linguistic/morphemes.tsv",
-            "ayah_count": 19,
-            "row_count": 566,
+            "ayah_count": 18,
+            "row_count": 559,
             "malformed_rows": 0,
-            "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+            "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+            "dropped_preface_rows": 7
           },
-          "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
+          "note": "Ordered surface alignment within canonical QAC words; only spans shared by all best alignments are joined. Upstream word-analysis identities and wording are preserved. Unresolved analytic units remain available for qualified reading; never infer their QAC identity from upstream numbering."
         },
         "word_analysis_qac_alignment": {
           "consistent": false,
@@ -4452,105 +4234,26 @@
         "word_morpheme_spans": {
           "present": true,
           "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s049/linguistic/morphemes.tsv",
+          "alignment_version": "ordered-morpheme-spans-v2",
           "words_total": 20,
-          "words_resolved": 3,
-          "words_unresolved": 17,
-          "unresolved": [
-            {
-              "word_index": 3,
-              "surface_ar": "أَصْوَاتَهُمْ",
-              "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-            },
-            {
-              "word_index": 4,
-              "surface_ar": "عِنْدَ",
-              "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-            },
-            {
-              "word_index": 5,
-              "surface_ar": "رَسُولِ",
-              "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-            },
-            {
-              "word_index": 6,
-              "surface_ar": "اللَّهِ",
-              "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-            },
-            {
-              "word_index": 7,
-              "surface_ar": "أُو۟لَٰٓئِكَ",
-              "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-            },
-            {
-              "word_index": 8,
-              "surface_ar": "الَّذِينَ",
-              "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-            },
-            {
-              "word_index": 9,
-              "surface_ar": "ٱمْتَحَنَ",
-              "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-            },
-            {
-              "word_index": 10,
-              "surface_ar": "اللَّهُ",
-              "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-            },
-            {
-              "word_index": 11,
-              "surface_ar": "قُلُوبَهُمْ",
-              "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-            },
-            {
-              "word_index": 12,
-              "surface_ar": "لِ",
-              "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-            },
-            {
-              "word_index": 13,
-              "surface_ar": "ٱلتَّقْوَىٰ",
-              "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-            },
-            {
-              "word_index": 14,
-              "surface_ar": "لَ",
-              "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-            },
-            {
-              "word_index": 15,
-              "surface_ar": "هُمْ",
-              "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-            },
-            {
-              "word_index": 16,
-              "surface_ar": "مَّغْفِرَةٌۭ",
-              "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-            },
-            {
-              "word_index": 17,
-              "surface_ar": "وَ",
-              "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-            },
-            {
-              "word_index": 18,
-              "surface_ar": "أَجْرٌ",
-              "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-            },
-            {
-              "word_index": 19,
-              "surface_ar": "عَظِيمٌ",
-              "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-            }
-          ],
+          "words_resolved": 20,
+          "words_unresolved": 0,
+          "morpheme_skip_total": 0,
+          "morpheme_skip_max": 0,
+          "morpheme_skip_histogram": {
+            "0": 20
+          },
+          "unresolved": [],
           "morphemes_tsv": {
             "present": true,
             "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s049/linguistic/morphemes.tsv",
-            "ayah_count": 19,
-            "row_count": 566,
+            "ayah_count": 18,
+            "row_count": 559,
             "malformed_rows": 0,
-            "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+            "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+            "dropped_preface_rows": 7
           },
-          "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
+          "note": "Ordered surface alignment within canonical QAC words; only spans shared by all best alignments are joined. Upstream word-analysis identities and wording are preserved. Unresolved analytic units remain available for qualified reading; never infer their QAC identity from upstream numbering."
         },
         "word_analysis_qac_alignment": {
           "consistent": false,
@@ -5798,19 +5501,26 @@
         "word_morpheme_spans": {
           "present": true,
           "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s049/linguistic/morphemes.tsv",
+          "alignment_version": "ordered-morpheme-spans-v2",
           "words_total": 9,
           "words_resolved": 9,
           "words_unresolved": 0,
+          "morpheme_skip_total": 0,
+          "morpheme_skip_max": 0,
+          "morpheme_skip_histogram": {
+            "0": 9
+          },
           "unresolved": [],
           "morphemes_tsv": {
             "present": true,
             "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s049/linguistic/morphemes.tsv",
-            "ayah_count": 19,
-            "row_count": 566,
+            "ayah_count": 18,
+            "row_count": 559,
             "malformed_rows": 0,
-            "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+            "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+            "dropped_preface_rows": 7
           },
-          "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
+          "note": "Ordered surface alignment within canonical QAC words; only spans shared by all best alignments are joined. Upstream word-analysis identities and wording are preserved. Unresolved analytic units remain available for qualified reading; never infer their QAC identity from upstream numbering."
         },
         "word_analysis_qac_alignment": {
           "consistent": true,
@@ -6740,19 +6450,26 @@
         "word_morpheme_spans": {
           "present": true,
           "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s049/linguistic/morphemes.tsv",
+          "alignment_version": "ordered-morpheme-spans-v2",
           "words_total": 16,
           "words_resolved": 16,
           "words_unresolved": 0,
+          "morpheme_skip_total": 0,
+          "morpheme_skip_max": 0,
+          "morpheme_skip_histogram": {
+            "0": 16
+          },
           "unresolved": [],
           "morphemes_tsv": {
             "present": true,
             "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s049/linguistic/morphemes.tsv",
-            "ayah_count": 19,
-            "row_count": 566,
+            "ayah_count": 18,
+            "row_count": 559,
             "malformed_rows": 0,
-            "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+            "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+            "dropped_preface_rows": 7
           },
-          "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
+          "note": "Ordered surface alignment within canonical QAC words; only spans shared by all best alignments are joined. Upstream word-analysis identities and wording are preserved. Unresolved analytic units remain available for qualified reading; never infer their QAC identity from upstream numbering."
         },
         "word_analysis_qac_alignment": {
           "consistent": false,
@@ -7717,132 +7434,35 @@
           "word_count": 22
         },
         "word_morpheme_spans": {
-          "present": false,
+          "present": true,
           "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s049/linguistic/morphemes.tsv",
+          "alignment_version": "ordered-morpheme-spans-v2",
           "words_total": 22,
-          "words_resolved": 0,
-          "words_unresolved": 22,
+          "words_resolved": 21,
+          "words_unresolved": 1,
+          "morpheme_skip_total": 1,
+          "morpheme_skip_max": 1,
+          "morpheme_skip_histogram": {
+            "0": 20,
+            "1": 1
+          },
           "unresolved": [
-            {
-              "word_index": 0,
-              "surface_ar": "يَا",
-              "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-            },
             {
               "word_index": 1,
               "surface_ar": "أَيُّ",
-              "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-            },
-            {
-              "word_index": 2,
-              "surface_ar": "ٱلَّذِينَ",
-              "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-            },
-            {
-              "word_index": 3,
-              "surface_ar": "ءَامَنُوٓا۟",
-              "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-            },
-            {
-              "word_index": 4,
-              "surface_ar": "إِنْ",
-              "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-            },
-            {
-              "word_index": 5,
-              "surface_ar": "جَآءَكُمْ",
-              "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-            },
-            {
-              "word_index": 6,
-              "surface_ar": "فَاسِقٌ",
-              "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-            },
-            {
-              "word_index": 7,
-              "surface_ar": "بِ",
-              "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-            },
-            {
-              "word_index": 8,
-              "surface_ar": "نَبَإٍ",
-              "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-            },
-            {
-              "word_index": 9,
-              "surface_ar": "فَ",
-              "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-            },
-            {
-              "word_index": 10,
-              "surface_ar": "تَبَيَّنُوٓا۟",
-              "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-            },
-            {
-              "word_index": 11,
-              "surface_ar": "أَنْ",
-              "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-            },
-            {
-              "word_index": 12,
-              "surface_ar": "تُصِيبُوا۟",
-              "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-            },
-            {
-              "word_index": 13,
-              "surface_ar": "قَوْمًۢا",
-              "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-            },
-            {
-              "word_index": 14,
-              "surface_ar": "بِ",
-              "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-            },
-            {
-              "word_index": 15,
-              "surface_ar": "جَهَٰلَةٍ",
-              "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-            },
-            {
-              "word_index": 16,
-              "surface_ar": "فَ",
-              "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-            },
-            {
-              "word_index": 17,
-              "surface_ar": "تُصْبِحُوا۟",
-              "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-            },
-            {
-              "word_index": 18,
-              "surface_ar": "عَلَىٰ",
-              "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-            },
-            {
-              "word_index": 19,
-              "surface_ar": "مَا",
-              "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-            },
-            {
-              "word_index": 20,
-              "surface_ar": "فَعَلْتُمْ",
-              "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-            },
-            {
-              "word_index": 21,
-              "surface_ar": "نَٰدِمِينَ",
-              "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
+              "reason": "no compatible span in the best ordered source alignment"
             }
           ],
           "morphemes_tsv": {
             "present": true,
             "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s049/linguistic/morphemes.tsv",
-            "ayah_count": 19,
-            "row_count": 566,
+            "ayah_count": 18,
+            "row_count": 559,
             "malformed_rows": 0,
-            "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+            "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+            "dropped_preface_rows": 7
           },
-          "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
+          "note": "Ordered surface alignment within canonical QAC words; only spans shared by all best alignments are joined. Upstream word-analysis identities and wording are preserved. Unresolved analytic units remain available for qualified reading; never infer their QAC identity from upstream numbering."
         },
         "word_analysis_qac_alignment": {
           "consistent": false,
@@ -9206,19 +8826,26 @@
         "word_morpheme_spans": {
           "present": true,
           "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s049/linguistic/morphemes.tsv",
+          "alignment_version": "ordered-morpheme-spans-v2",
           "words_total": 35,
           "words_resolved": 35,
           "words_unresolved": 0,
+          "morpheme_skip_total": 0,
+          "morpheme_skip_max": 0,
+          "morpheme_skip_histogram": {
+            "0": 35
+          },
           "unresolved": [],
           "morphemes_tsv": {
             "present": true,
             "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s049/linguistic/morphemes.tsv",
-            "ayah_count": 19,
-            "row_count": 566,
+            "ayah_count": 18,
+            "row_count": 559,
             "malformed_rows": 0,
-            "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+            "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+            "dropped_preface_rows": 7
           },
-          "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
+          "note": "Ordered surface alignment within canonical QAC words; only spans shared by all best alignments are joined. Upstream word-analysis identities and wording are preserved. Unresolved analytic units remain available for qualified reading; never infer their QAC identity from upstream numbering."
         },
         "word_analysis_qac_alignment": {
           "consistent": false,
@@ -10969,19 +10596,26 @@
         "word_morpheme_spans": {
           "present": true,
           "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s049/linguistic/morphemes.tsv",
+          "alignment_version": "ordered-morpheme-spans-v2",
           "words_total": 9,
           "words_resolved": 9,
           "words_unresolved": 0,
+          "morpheme_skip_total": 0,
+          "morpheme_skip_max": 0,
+          "morpheme_skip_histogram": {
+            "0": 9
+          },
           "unresolved": [],
           "morphemes_tsv": {
             "present": true,
             "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s049/linguistic/morphemes.tsv",
-            "ayah_count": 19,
-            "row_count": 566,
+            "ayah_count": 18,
+            "row_count": 559,
             "malformed_rows": 0,
-            "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+            "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+            "dropped_preface_rows": 7
           },
-          "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
+          "note": "Ordered surface alignment within canonical QAC words; only spans shared by all best alignments are joined. Upstream word-analysis identities and wording are preserved. Unresolved analytic units remain available for qualified reading; never infer their QAC identity from upstream numbering."
         },
         "word_analysis_qac_alignment": {
           "consistent": false,
@@ -11817,150 +11451,26 @@
         "word_morpheme_spans": {
           "present": true,
           "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s049/linguistic/morphemes.tsv",
+          "alignment_version": "ordered-morpheme-spans-v2",
           "words_total": 38,
-          "words_resolved": 12,
-          "words_unresolved": 26,
-          "unresolved": [
-            {
-              "word_index": 12,
-              "surface_ar": "إِحْدَاهُمَا",
-              "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-            },
-            {
-              "word_index": 13,
-              "surface_ar": "عَلَى",
-              "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-            },
-            {
-              "word_index": 14,
-              "surface_ar": "ٱلْأُخْرَى",
-              "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-            },
-            {
-              "word_index": 15,
-              "surface_ar": "فَ",
-              "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-            },
-            {
-              "word_index": 16,
-              "surface_ar": "قَٰتِلُوا۟",
-              "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-            },
-            {
-              "word_index": 17,
-              "surface_ar": "ٱلَّتِى",
-              "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-            },
-            {
-              "word_index": 18,
-              "surface_ar": "تَبْغِى",
-              "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-            },
-            {
-              "word_index": 19,
-              "surface_ar": "حَتَّى",
-              "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-            },
-            {
-              "word_index": 20,
-              "surface_ar": "تَفِىٓءَ",
-              "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-            },
-            {
-              "word_index": 21,
-              "surface_ar": "إِلَىٰٓ",
-              "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-            },
-            {
-              "word_index": 22,
-              "surface_ar": "أَمْرِ",
-              "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-            },
-            {
-              "word_index": 23,
-              "surface_ar": "ٱللَّهِ",
-              "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-            },
-            {
-              "word_index": 24,
-              "surface_ar": "فَ",
-              "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-            },
-            {
-              "word_index": 25,
-              "surface_ar": "إِنْ",
-              "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-            },
-            {
-              "word_index": 26,
-              "surface_ar": "فَآءَتْ",
-              "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-            },
-            {
-              "word_index": 27,
-              "surface_ar": "فَ",
-              "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-            },
-            {
-              "word_index": 28,
-              "surface_ar": "أَصْلِحُوا۟",
-              "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-            },
-            {
-              "word_index": 29,
-              "surface_ar": "بَيْنَهُمَا",
-              "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-            },
-            {
-              "word_index": 30,
-              "surface_ar": "بِ",
-              "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-            },
-            {
-              "word_index": 31,
-              "surface_ar": "ٱلْعَدْلِ",
-              "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-            },
-            {
-              "word_index": 32,
-              "surface_ar": "وَ",
-              "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-            },
-            {
-              "word_index": 33,
-              "surface_ar": "أَقْسِطُوٓا۟",
-              "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-            },
-            {
-              "word_index": 34,
-              "surface_ar": "إِنَّ",
-              "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-            },
-            {
-              "word_index": 35,
-              "surface_ar": "ٱللَّهَ",
-              "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-            },
-            {
-              "word_index": 36,
-              "surface_ar": "يُحِبُّ",
-              "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-            },
-            {
-              "word_index": 37,
-              "surface_ar": "ٱلْمُقْسِطِينَ",
-              "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-            }
-          ],
+          "words_resolved": 38,
+          "words_unresolved": 0,
+          "morpheme_skip_total": 0,
+          "morpheme_skip_max": 0,
+          "morpheme_skip_histogram": {
+            "0": 38
+          },
+          "unresolved": [],
           "morphemes_tsv": {
             "present": true,
             "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s049/linguistic/morphemes.tsv",
-            "ayah_count": 19,
-            "row_count": 566,
+            "ayah_count": 18,
+            "row_count": 559,
             "malformed_rows": 0,
-            "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+            "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+            "dropped_preface_rows": 7
           },
-          "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
+          "note": "Ordered surface alignment within canonical QAC words; only spans shared by all best alignments are joined. Upstream word-analysis identities and wording are preserved. Unresolved analytic units remain available for qualified reading; never infer their QAC identity from upstream numbering."
         },
         "word_analysis_qac_alignment": {
           "consistent": false,
@@ -13313,19 +12823,26 @@
         "word_morpheme_spans": {
           "present": true,
           "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s049/linguistic/morphemes.tsv",
+          "alignment_version": "ordered-morpheme-spans-v2",
           "words_total": 12,
           "words_resolved": 12,
           "words_unresolved": 0,
+          "morpheme_skip_total": 0,
+          "morpheme_skip_max": 0,
+          "morpheme_skip_histogram": {
+            "0": 12
+          },
           "unresolved": [],
           "morphemes_tsv": {
             "present": true,
             "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s049/linguistic/morphemes.tsv",
-            "ayah_count": 19,
-            "row_count": 566,
+            "ayah_count": 18,
+            "row_count": 559,
             "malformed_rows": 0,
-            "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+            "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+            "dropped_preface_rows": 7
           },
-          "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
+          "note": "Ordered surface alignment within canonical QAC words; only spans shared by all best alignments are joined. Upstream word-analysis identities and wording are preserved. Unresolved analytic units remain available for qualified reading; never infer their QAC identity from upstream numbering."
         },
         "word_analysis_qac_alignment": {
           "consistent": false,
@@ -14183,252 +13700,35 @@
           "word_count": 46
         },
         "word_morpheme_spans": {
-          "present": false,
+          "present": true,
           "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s049/linguistic/morphemes.tsv",
+          "alignment_version": "ordered-morpheme-spans-v2",
           "words_total": 46,
-          "words_resolved": 0,
-          "words_unresolved": 46,
+          "words_resolved": 45,
+          "words_unresolved": 1,
+          "morpheme_skip_total": 1,
+          "morpheme_skip_max": 1,
+          "morpheme_skip_histogram": {
+            "0": 44,
+            "1": 1
+          },
           "unresolved": [
-            {
-              "word_index": 0,
-              "surface_ar": "يَا",
-              "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-            },
             {
               "word_index": 1,
               "surface_ar": "أَيُّ",
-              "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-            },
-            {
-              "word_index": 2,
-              "surface_ar": "ٱلَّذِينَ",
-              "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-            },
-            {
-              "word_index": 3,
-              "surface_ar": "ءَامَنُوا۟",
-              "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-            },
-            {
-              "word_index": 4,
-              "surface_ar": "لَا",
-              "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-            },
-            {
-              "word_index": 5,
-              "surface_ar": "يَسْخَرْ",
-              "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-            },
-            {
-              "word_index": 6,
-              "surface_ar": "قَوْمٌۭ",
-              "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-            },
-            {
-              "word_index": 7,
-              "surface_ar": "مِّن",
-              "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-            },
-            {
-              "word_index": 8,
-              "surface_ar": "قَوْمٍ",
-              "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-            },
-            {
-              "word_index": 9,
-              "surface_ar": "عَسَىٰٓ",
-              "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-            },
-            {
-              "word_index": 10,
-              "surface_ar": "أَن",
-              "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-            },
-            {
-              "word_index": 11,
-              "surface_ar": "يَكُونُوا۟",
-              "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-            },
-            {
-              "word_index": 12,
-              "surface_ar": "خَيْرًۭا",
-              "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-            },
-            {
-              "word_index": 13,
-              "surface_ar": "مِّنْهُمْ",
-              "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-            },
-            {
-              "word_index": 14,
-              "surface_ar": "وَ",
-              "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-            },
-            {
-              "word_index": 15,
-              "surface_ar": "لَا",
-              "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-            },
-            {
-              "word_index": 16,
-              "surface_ar": "نِسَآءٌۭ",
-              "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-            },
-            {
-              "word_index": 17,
-              "surface_ar": "مِّن",
-              "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-            },
-            {
-              "word_index": 18,
-              "surface_ar": "نِّسَآءٍ",
-              "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-            },
-            {
-              "word_index": 19,
-              "surface_ar": "عَسَىٰٓ",
-              "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-            },
-            {
-              "word_index": 20,
-              "surface_ar": "أَن",
-              "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-            },
-            {
-              "word_index": 21,
-              "surface_ar": "يَكُنَّ",
-              "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-            },
-            {
-              "word_index": 22,
-              "surface_ar": "خَيْرًۭا",
-              "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-            },
-            {
-              "word_index": 23,
-              "surface_ar": "مِّنْهُنَّ",
-              "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-            },
-            {
-              "word_index": 24,
-              "surface_ar": "وَ",
-              "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-            },
-            {
-              "word_index": 25,
-              "surface_ar": "لَا",
-              "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-            },
-            {
-              "word_index": 26,
-              "surface_ar": "تَلْمِزُوٓا۟",
-              "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-            },
-            {
-              "word_index": 27,
-              "surface_ar": "أَنفُسَكُمْ",
-              "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-            },
-            {
-              "word_index": 28,
-              "surface_ar": "وَ",
-              "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-            },
-            {
-              "word_index": 29,
-              "surface_ar": "لَا",
-              "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-            },
-            {
-              "word_index": 30,
-              "surface_ar": "تَنَابَزُوا۟",
-              "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-            },
-            {
-              "word_index": 31,
-              "surface_ar": "بِ",
-              "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-            },
-            {
-              "word_index": 32,
-              "surface_ar": "ٱلْأَلْقَٰبِ",
-              "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-            },
-            {
-              "word_index": 33,
-              "surface_ar": "بِئْسَ",
-              "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-            },
-            {
-              "word_index": 34,
-              "surface_ar": "ٱلِٱسْمُ",
-              "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-            },
-            {
-              "word_index": 35,
-              "surface_ar": "ٱلْفُسُوقُ",
-              "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-            },
-            {
-              "word_index": 36,
-              "surface_ar": "بَعْدَ",
-              "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-            },
-            {
-              "word_index": 37,
-              "surface_ar": "ٱلْإِيمَٰنِ",
-              "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-            },
-            {
-              "word_index": 38,
-              "surface_ar": "وَ",
-              "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-            },
-            {
-              "word_index": 39,
-              "surface_ar": "مَن",
-              "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-            },
-            {
-              "word_index": 40,
-              "surface_ar": "لَّمْ",
-              "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-            },
-            {
-              "word_index": 41,
-              "surface_ar": "يَتُبْ",
-              "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-            },
-            {
-              "word_index": 42,
-              "surface_ar": "فَ",
-              "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-            },
-            {
-              "word_index": 43,
-              "surface_ar": "أُو۟لَٰٓئِكَ",
-              "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-            },
-            {
-              "word_index": 44,
-              "surface_ar": "هُمُ",
-              "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-            },
-            {
-              "word_index": 45,
-              "surface_ar": "ٱلظَّٰلِمُونَ",
-              "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
+              "reason": "no compatible span in the best ordered source alignment"
             }
           ],
           "morphemes_tsv": {
             "present": true,
             "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s049/linguistic/morphemes.tsv",
-            "ayah_count": 19,
-            "row_count": 566,
+            "ayah_count": 18,
+            "row_count": 559,
             "malformed_rows": 0,
-            "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+            "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+            "dropped_preface_rows": 7
           },
-          "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
+          "note": "Ordered surface alignment within canonical QAC words; only spans shared by all best alignments are joined. Upstream word-analysis identities and wording are preserved. Unresolved analytic units remain available for qualified reading; never infer their QAC identity from upstream numbering."
         },
         "word_analysis_qac_alignment": {
           "consistent": false,
@@ -15971,202 +15271,28 @@
           "word_count": 36
         },
         "word_morpheme_spans": {
-          "present": false,
+          "present": true,
           "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s049/linguistic/morphemes.tsv",
+          "alignment_version": "ordered-morpheme-spans-v2",
           "words_total": 36,
-          "words_resolved": 0,
-          "words_unresolved": 36,
-          "unresolved": [
-            {
-              "word_index": 0,
-              "surface_ar": "يَا",
-              "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-            },
-            {
-              "word_index": 1,
-              "surface_ar": "أَيُّهَا",
-              "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-            },
-            {
-              "word_index": 2,
-              "surface_ar": "ٱلَّذِينَ",
-              "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-            },
-            {
-              "word_index": 3,
-              "surface_ar": "ءَامَنُوا۟",
-              "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-            },
-            {
-              "word_index": 4,
-              "surface_ar": "ٱجْتَنِبُوا۟",
-              "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-            },
-            {
-              "word_index": 5,
-              "surface_ar": "كَثِيرًۭا",
-              "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-            },
-            {
-              "word_index": 6,
-              "surface_ar": "مِّنَ",
-              "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-            },
-            {
-              "word_index": 7,
-              "surface_ar": "ٱلظَّنِّ",
-              "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-            },
-            {
-              "word_index": 8,
-              "surface_ar": "إِنَّ",
-              "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-            },
-            {
-              "word_index": 9,
-              "surface_ar": "بَعْضَ",
-              "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-            },
-            {
-              "word_index": 10,
-              "surface_ar": "ٱلظَّنِّ",
-              "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-            },
-            {
-              "word_index": 11,
-              "surface_ar": "إِثْمٌۭ",
-              "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-            },
-            {
-              "word_index": 12,
-              "surface_ar": "وَ",
-              "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-            },
-            {
-              "word_index": 13,
-              "surface_ar": "لَا",
-              "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-            },
-            {
-              "word_index": 14,
-              "surface_ar": "تَجَسَّسُوا۟",
-              "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-            },
-            {
-              "word_index": 15,
-              "surface_ar": "وَ",
-              "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-            },
-            {
-              "word_index": 16,
-              "surface_ar": "لَا",
-              "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-            },
-            {
-              "word_index": 17,
-              "surface_ar": "يَغْتَب",
-              "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-            },
-            {
-              "word_index": 18,
-              "surface_ar": "بَّعْضُكُم",
-              "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-            },
-            {
-              "word_index": 19,
-              "surface_ar": "بَعْضًا",
-              "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-            },
-            {
-              "word_index": 20,
-              "surface_ar": "أَيُحِبُّ",
-              "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-            },
-            {
-              "word_index": 21,
-              "surface_ar": "أَحَدُكُمْ",
-              "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-            },
-            {
-              "word_index": 22,
-              "surface_ar": "أَن",
-              "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-            },
-            {
-              "word_index": 23,
-              "surface_ar": "يَأْكُلَ",
-              "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-            },
-            {
-              "word_index": 24,
-              "surface_ar": "لَحْمَ",
-              "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-            },
-            {
-              "word_index": 25,
-              "surface_ar": "أَخِيهِ",
-              "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-            },
-            {
-              "word_index": 26,
-              "surface_ar": "مَيْتًۭا",
-              "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-            },
-            {
-              "word_index": 27,
-              "surface_ar": "فَ",
-              "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-            },
-            {
-              "word_index": 28,
-              "surface_ar": "كَرِهْتُمُوهُ",
-              "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-            },
-            {
-              "word_index": 29,
-              "surface_ar": "وَ",
-              "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-            },
-            {
-              "word_index": 30,
-              "surface_ar": "ٱتَّقُوا۟",
-              "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-            },
-            {
-              "word_index": 31,
-              "surface_ar": "ٱللَّهَ",
-              "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-            },
-            {
-              "word_index": 32,
-              "surface_ar": "إِنَّ",
-              "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-            },
-            {
-              "word_index": 33,
-              "surface_ar": "ٱللَّهَ",
-              "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-            },
-            {
-              "word_index": 34,
-              "surface_ar": "تَوَّابٌۭ",
-              "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-            },
-            {
-              "word_index": 35,
-              "surface_ar": "رَّحِيمٌۭ",
-              "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-            }
-          ],
+          "words_resolved": 36,
+          "words_unresolved": 0,
+          "morpheme_skip_total": 0,
+          "morpheme_skip_max": 0,
+          "morpheme_skip_histogram": {
+            "0": 36
+          },
+          "unresolved": [],
           "morphemes_tsv": {
             "present": true,
             "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s049/linguistic/morphemes.tsv",
-            "ayah_count": 19,
-            "row_count": 566,
+            "ayah_count": 18,
+            "row_count": 559,
             "malformed_rows": 0,
-            "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+            "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+            "dropped_preface_rows": 7
           },
-          "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
+          "note": "Ordered surface alignment within canonical QAC words; only spans shared by all best alignments are joined. Upstream word-analysis identities and wording are preserved. Unresolved analytic units remain available for qualified reading; never infer their QAC identity from upstream numbering."
         },
         "word_analysis_qac_alignment": {
           "consistent": false,
@@ -18001,147 +17127,29 @@
           "word_count": 25
         },
         "word_morpheme_spans": {
-          "present": false,
+          "present": true,
           "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s049/linguistic/morphemes.tsv",
+          "alignment_version": "ordered-morpheme-spans-v2",
           "words_total": 25,
-          "words_resolved": 0,
-          "words_unresolved": 25,
-          "unresolved": [
-            {
-              "word_index": 0,
-              "surface_ar": "يَا",
-              "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-            },
-            {
-              "word_index": 1,
-              "surface_ar": "أَيُّهَا",
-              "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-            },
-            {
-              "word_index": 2,
-              "surface_ar": "ٱلنَّاسُ",
-              "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-            },
-            {
-              "word_index": 3,
-              "surface_ar": "إِنَّ",
-              "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-            },
-            {
-              "word_index": 4,
-              "surface_ar": "خَلَقْنَٰكُم",
-              "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-            },
-            {
-              "word_index": 5,
-              "surface_ar": "مِنْ",
-              "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-            },
-            {
-              "word_index": 6,
-              "surface_ar": "ذَكَرٍۢ",
-              "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-            },
-            {
-              "word_index": 7,
-              "surface_ar": "وَ",
-              "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-            },
-            {
-              "word_index": 8,
-              "surface_ar": "أُنثَىٰ",
-              "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-            },
-            {
-              "word_index": 9,
-              "surface_ar": "وَ",
-              "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-            },
-            {
-              "word_index": 10,
-              "surface_ar": "جَعَلْنَٰكُمْ",
-              "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-            },
-            {
-              "word_index": 11,
-              "surface_ar": "شُعُوبًۭا",
-              "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-            },
-            {
-              "word_index": 12,
-              "surface_ar": "وَ",
-              "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-            },
-            {
-              "word_index": 13,
-              "surface_ar": "قَبَآئِلَ",
-              "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-            },
-            {
-              "word_index": 14,
-              "surface_ar": "لِ",
-              "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-            },
-            {
-              "word_index": 15,
-              "surface_ar": "تَعَارَفُوا",
-              "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-            },
-            {
-              "word_index": 16,
-              "surface_ar": "إِنَّ",
-              "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-            },
-            {
-              "word_index": 17,
-              "surface_ar": "أَكْرَمَكُمْ",
-              "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-            },
-            {
-              "word_index": 18,
-              "surface_ar": "عِندَ",
-              "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-            },
-            {
-              "word_index": 19,
-              "surface_ar": "ٱللَّهِ",
-              "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-            },
-            {
-              "word_index": 20,
-              "surface_ar": "أَتْقَىٰكُمْ",
-              "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-            },
-            {
-              "word_index": 21,
-              "surface_ar": "إِنَّ",
-              "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-            },
-            {
-              "word_index": 22,
-              "surface_ar": "ٱللَّهَ",
-              "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-            },
-            {
-              "word_index": 23,
-              "surface_ar": "عَلِيمٌ",
-              "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-            },
-            {
-              "word_index": 24,
-              "surface_ar": "خَبِيرٌۭ",
-              "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-            }
-          ],
+          "words_resolved": 25,
+          "words_unresolved": 0,
+          "morpheme_skip_total": 1,
+          "morpheme_skip_max": 1,
+          "morpheme_skip_histogram": {
+            "0": 24,
+            "1": 1
+          },
+          "unresolved": [],
           "morphemes_tsv": {
             "present": true,
             "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s049/linguistic/morphemes.tsv",
-            "ayah_count": 19,
-            "row_count": 566,
+            "ayah_count": 18,
+            "row_count": 559,
             "malformed_rows": 0,
-            "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+            "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+            "dropped_preface_rows": 7
           },
-          "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
+          "note": "Ordered surface alignment within canonical QAC words; only spans shared by all best alignments are joined. Upstream word-analysis identities and wording are preserved. Unresolved analytic units remain available for qualified reading; never infer their QAC identity from upstream numbering."
         },
         "word_analysis_qac_alignment": {
           "consistent": false,
@@ -19625,19 +18633,26 @@
         "word_morpheme_spans": {
           "present": true,
           "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s049/linguistic/morphemes.tsv",
+          "alignment_version": "ordered-morpheme-spans-v2",
           "words_total": 31,
           "words_resolved": 31,
           "words_unresolved": 0,
+          "morpheme_skip_total": 0,
+          "morpheme_skip_max": 0,
+          "morpheme_skip_histogram": {
+            "0": 31
+          },
           "unresolved": [],
           "morphemes_tsv": {
             "present": true,
             "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s049/linguistic/morphemes.tsv",
-            "ayah_count": 19,
-            "row_count": 566,
+            "ayah_count": 18,
+            "row_count": 559,
             "malformed_rows": 0,
-            "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+            "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+            "dropped_preface_rows": 7
           },
-          "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
+          "note": "Ordered surface alignment within canonical QAC words; only spans shared by all best alignments are joined. Upstream word-analysis identities and wording are preserved. Unresolved analytic units remain available for qualified reading; never infer their QAC identity from upstream numbering."
         },
         "word_analysis_qac_alignment": {
           "consistent": false,
@@ -20956,19 +19971,26 @@
         "word_morpheme_spans": {
           "present": true,
           "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s049/linguistic/morphemes.tsv",
+          "alignment_version": "ordered-morpheme-spans-v2",
           "words_total": 23,
           "words_resolved": 23,
           "words_unresolved": 0,
+          "morpheme_skip_total": 0,
+          "morpheme_skip_max": 0,
+          "morpheme_skip_histogram": {
+            "0": 23
+          },
           "unresolved": [],
           "morphemes_tsv": {
             "present": true,
             "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s049/linguistic/morphemes.tsv",
-            "ayah_count": 19,
-            "row_count": 566,
+            "ayah_count": 18,
+            "row_count": 559,
             "malformed_rows": 0,
-            "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+            "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+            "dropped_preface_rows": 7
           },
-          "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
+          "note": "Ordered surface alignment within canonical QAC words; only spans shared by all best alignments are joined. Upstream word-analysis identities and wording are preserved. Unresolved analytic units remain available for qualified reading; never infer their QAC identity from upstream numbering."
         },
         "word_analysis_qac_alignment": {
           "consistent": false,
@@ -22018,19 +21040,26 @@
         "word_morpheme_spans": {
           "present": true,
           "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s049/linguistic/morphemes.tsv",
+          "alignment_version": "ordered-morpheme-spans-v2",
           "words_total": 21,
           "words_resolved": 21,
           "words_unresolved": 0,
+          "morpheme_skip_total": 0,
+          "morpheme_skip_max": 0,
+          "morpheme_skip_histogram": {
+            "0": 21
+          },
           "unresolved": [],
           "morphemes_tsv": {
             "present": true,
             "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s049/linguistic/morphemes.tsv",
-            "ayah_count": 19,
-            "row_count": 566,
+            "ayah_count": 18,
+            "row_count": 559,
             "malformed_rows": 0,
-            "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+            "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+            "dropped_preface_rows": 7
           },
-          "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
+          "note": "Ordered surface alignment within canonical QAC words; only spans shared by all best alignments are joined. Upstream word-analysis identities and wording are preserved. Unresolved analytic units remain available for qualified reading; never infer their QAC identity from upstream numbering."
         },
         "word_analysis_qac_alignment": {
           "consistent": false,
@@ -23063,40 +22092,26 @@
         "word_morpheme_spans": {
           "present": true,
           "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s049/linguistic/morphemes.tsv",
+          "alignment_version": "ordered-morpheme-spans-v2",
           "words_total": 20,
-          "words_resolved": 16,
-          "words_unresolved": 4,
-          "unresolved": [
-            {
-              "word_index": 16,
-              "surface_ar": "ٱلْإِيمَٰنِ",
-              "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-            },
-            {
-              "word_index": 17,
-              "surface_ar": "إِنْ",
-              "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-            },
-            {
-              "word_index": 18,
-              "surface_ar": "كُنتُمْ",
-              "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-            },
-            {
-              "word_index": 19,
-              "surface_ar": "صَٰدِقِينَ",
-              "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-            }
-          ],
+          "words_resolved": 20,
+          "words_unresolved": 0,
+          "morpheme_skip_total": 0,
+          "morpheme_skip_max": 0,
+          "morpheme_skip_histogram": {
+            "0": 20
+          },
+          "unresolved": [],
           "morphemes_tsv": {
             "present": true,
             "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s049/linguistic/morphemes.tsv",
-            "ayah_count": 19,
-            "row_count": 566,
+            "ayah_count": 18,
+            "row_count": 559,
             "malformed_rows": 0,
-            "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+            "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+            "dropped_preface_rows": 7
           },
-          "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
+          "note": "Ordered surface alignment within canonical QAC words; only spans shared by all best alignments are joined. Upstream word-analysis identities and wording are preserved. Unresolved analytic units remain available for qualified reading; never infer their QAC identity from upstream numbering."
         },
         "word_analysis_qac_alignment": {
           "consistent": false,
@@ -24056,19 +23071,26 @@
         "word_morpheme_spans": {
           "present": true,
           "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s049/linguistic/morphemes.tsv",
+          "alignment_version": "ordered-morpheme-spans-v2",
           "words_total": 13,
           "words_resolved": 13,
           "words_unresolved": 0,
+          "morpheme_skip_total": 0,
+          "morpheme_skip_max": 0,
+          "morpheme_skip_histogram": {
+            "0": 13
+          },
           "unresolved": [],
           "morphemes_tsv": {
             "present": true,
             "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s049/linguistic/morphemes.tsv",
-            "ayah_count": 19,
-            "row_count": 566,
+            "ayah_count": 18,
+            "row_count": 559,
             "malformed_rows": 0,
-            "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+            "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+            "dropped_preface_rows": 7
           },
-          "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
+          "note": "Ordered surface alignment within canonical QAC words; only spans shared by all best alignments are joined. Upstream word-analysis identities and wording are preserved. Unresolved analytic units remain available for qualified reading; never infer their QAC identity from upstream numbering."
         },
         "word_analysis_qac_alignment": {
           "consistent": false,

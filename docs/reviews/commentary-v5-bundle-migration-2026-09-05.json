@@ -1,0 +1,93 @@
+{
+  "current_ayah_files": 3086,
+  "existing_focus_matrix": {
+    "by_mode": {
+      "native": 2304,
+      "package": 778,
+      "whole_surah": 2236
+    },
+    "configurations": 5318,
+    "final_status": "checked",
+    "initial_failures": 37,
+    "repaired_and_rechecked": 37
+  },
+  "final_code_sha256": {
+    "_commentary/v3/v3lib/prepare.py": "aa0914051be8373ca82fad4ef2cc90675c545c780a114196801290e578752431",
+    "_commentary/v5/audit_preparation.py": "708d7f5caf941c3303642690650cfaeb70fc9288b30a58d773177358688f2fac",
+    "_commentary/v5/prompts/discovery.md": "db5f569a073c64f5f1e25851498eaf85510ed3748c71e14dd12bfdfddd3b67e7",
+    "_commentary/v5/workflow.py": "8737fd77bda8fb89cd047001dc1d95d4a61f9c6bbcd6688a173f675fb52950db",
+    "scripts/build_bundle.py": "2228b41bf35b7470fe649cdefda84bf07edb04bffb8cee9886340d8c21c3b653",
+    "scripts/migrate_bundle_spans.py": "6170b78973f2686d7b428526ce46deceb23599d437fdc9d3299ee3892e2095c5",
+    "scripts/word_morpheme_alignment.py": "e69fba15f9e010c5198307f739fbb870cd52b4b4a43e7859a50a376330814cfb"
+  },
+  "fresh_generated_units_prepared": 29,
+  "maximum_prompt_bytes": {
+    "global": {
+      "bytes": 7459475,
+      "mode": "package",
+      "path": "bundles/s022-pericopes/p01_001-037/22_5.ayah.json"
+    },
+    "macro": {
+      "bytes": 3253506,
+      "mode": "whole_surah",
+      "path": "bundles/s073/73_20.ayah.json"
+    },
+    "micro": {
+      "bytes": 3738580,
+      "mode": "whole_surah",
+      "path": "bundles/s073/73_20.ayah.json"
+    }
+  },
+  "migrated_surah_summaries": 69,
+  "new_context_inputs_requiring_whole_host_layout_for_their_own_focus": [
+    {
+      "error": "WorkflowError: Selected context bundle is missing or not regular: /Volumes/OZTURK/_projects/prose_generation/bundles/s005/5_1.ayah.json",
+      "mode": "native",
+      "path": "bundles/s005/5_0.ayah.json",
+      "seconds": 0.69,
+      "status": "error"
+    },
+    {
+      "error": "WorkflowError: Selected context bundle is missing or not regular: /Volumes/OZTURK/_projects/prose_generation/bundles/s012/12_1.ayah.json",
+      "mode": "native",
+      "path": "bundles/s012/12_0.ayah.json",
+      "seconds": 0.551,
+      "status": "error"
+    },
+    {
+      "error": "WorkflowError: Selected context bundle is missing or not regular: /Volumes/OZTURK/_projects/prose_generation/bundles/s018/18_1.ayah.json",
+      "mode": "native",
+      "path": "bundles/s018/18_0.ayah.json",
+      "seconds": 0.548,
+      "status": "error"
+    },
+    {
+      "error": "WorkflowError: Selected context bundle is missing or not regular: /Volumes/OZTURK/_projects/prose_generation/bundles/s022/22_1.ayah.json",
+      "mode": "native",
+      "path": "bundles/s022/22_0.ayah.json",
+      "seconds": 0.541,
+      "status": "error"
+    }
+  ],
+  "original_ayah_files": 3082,
+  "preparation_report": {
+    "path": "docs/reviews/commentary-v5-preparation-2026-09-05.jsonl.gz",
+    "sha256": "f345aea76a652125ff42818d408d81bac66a5194dc985dec96e5ddb24754bdba"
+  },
+  "preservation": {
+    "agent_outputs_changed": false,
+    "existing_ayah_source_fields_unchanged": 3082,
+    "saved_prompts_changed": false,
+    "surah_fields_outside_span_coverage_unchanged": 69
+  },
+  "qac_crosscheck": {
+    "files": 3086,
+    "mismatches": [],
+    "qac_source_sha256": "706a45d150251ca3114a13499e2b665fe5596b03b2272557574f0ed58eb29594"
+  },
+  "qualified_files": 93,
+  "qualified_word_rows": 115,
+  "resolved_word_rows": 42025,
+  "semantic_agent_runs": 0,
+  "word_rows": 42140
+}

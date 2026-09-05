@@ -5369,7 +5369,21 @@
       "aligned_qac_word_ref_upstream": "13:33:13",
       "morpheme_skip_count": 0
     },
-    null,
+    {
+      "word_index": 13,
+      "surface_ar": "ٱللَّهِ",
+      "word_ids": [
+        "w-s013-a033-w010"
+      ],
+      "qac_refs": [
+        "13:33:10:2"
+      ],
+      "morpheme_ids": [
+        "m-w-s013-a033-w010-02"
+      ],
+      "aligned_qac_word_ref_upstream": "13:33:14",
+      "morpheme_skip_count": 0
+    },
     {
       "word_index": 14,
       "surface_ar": "شُرَكَآءَ",
@@ -5383,7 +5397,7 @@
         "m-w-s013-a033-w011-01"
       ],
       "aligned_qac_word_ref_upstream": "13:33:15",
-      "morpheme_skip_count": 1
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 15,
@@ -5434,7 +5448,25 @@
       "aligned_qac_word_ref_upstream": "13:33:18",
       "morpheme_skip_count": 0
     },
-    null,
+    {
+      "word_index": 18,
+      "surface_ar": "تُنَبِّئُونَهُ",
+      "word_ids": [
+        "w-s013-a033-w015"
+      ],
+      "qac_refs": [
+        "13:33:15:1",
+        "13:33:15:2",
+        "13:33:15:3"
+      ],
+      "morpheme_ids": [
+        "m-w-s013-a033-w015-01",
+        "m-w-s013-a033-w015-02",
+        "m-w-s013-a033-w015-03"
+      ],
+      "aligned_qac_word_ref_upstream": "13:33:19",
+      "morpheme_skip_count": 0
+    },
     {
       "word_index": 19,
       "surface_ar": "بِ",
@@ -5448,7 +5480,7 @@
         "m-w-s013-a033-w016-01"
       ],
       "aligned_qac_word_ref_upstream": "13:33:20",
-      "morpheme_skip_count": 3
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 20,
@@ -5649,7 +5681,21 @@
       "aligned_qac_word_ref_upstream": "13:33:33",
       "morpheme_skip_count": 0
     },
-    null,
+    {
+      "word_index": 33,
+      "surface_ar": "ٱلَّذِينَ",
+      "word_ids": [
+        "w-s013-a033-w027"
+      ],
+      "qac_refs": [
+        "13:33:27:2"
+      ],
+      "morpheme_ids": [
+        "m-w-s013-a033-w027-02"
+      ],
+      "aligned_qac_word_ref_upstream": "13:33:34",
+      "morpheme_skip_count": 0
+    },
     {
       "word_index": 34,
       "surface_ar": "كَفَرُوا۟",
@@ -5665,7 +5711,7 @@
         "m-w-s013-a033-w028-02"
       ],
       "aligned_qac_word_ref_upstream": "13:33:35",
-      "morpheme_skip_count": 1
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 35,
@@ -73466,33 +73512,16 @@
     "word_morpheme_spans": {
       "present": true,
       "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s013/linguistic/morphemes.tsv",
+      "alignment_version": "ordered-morpheme-spans-v2",
       "words_total": 49,
-      "words_resolved": 46,
-      "words_unresolved": 3,
-      "morpheme_skip_total": 5,
-      "morpheme_skip_max": 3,
+      "words_resolved": 49,
+      "words_unresolved": 0,
+      "morpheme_skip_total": 0,
+      "morpheme_skip_max": 0,
       "morpheme_skip_histogram": {
-        "0": 43,
-        "1": 2,
-        "3": 1
+        "0": 49
       },
-      "unresolved": [
-        {
-          "word_index": 13,
-          "surface_ar": "ٱللَّهِ",
-          "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-        },
-        {
-          "word_index": 18,
-          "surface_ar": "تُنَبِّئُونَهُ",
-          "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-        },
-        {
-          "word_index": 33,
-          "surface_ar": "ٱلَّذِينَ",
-          "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-        }
-      ],
+      "unresolved": [],
       "morphemes_tsv": {
         "present": true,
         "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s013/linguistic/morphemes.tsv",
@@ -73502,7 +73531,7 @@
         "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
         "dropped_preface_rows": 7
       },
-      "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
+      "note": "Ordered surface alignment within canonical QAC words; only spans shared by all best alignments are joined. Upstream word-analysis identities and wording are preserved. Unresolved analytic units remain available for qualified reading; never infer their QAC identity from upstream numbering."
     },
     "word_analysis_qac_alignment": {
       "consistent": false,

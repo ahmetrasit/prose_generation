@@ -3964,25 +3964,52 @@
     ]
   },
   "word_morpheme_spans": [
-    null,
-    null,
+    {
+      "word_index": 0,
+      "surface_ar": "يَا",
+      "word_ids": [
+        "w-s031-a017-w001"
+      ],
+      "qac_refs": [
+        "31:17:1:1"
+      ],
+      "morpheme_ids": [
+        "m-w-s031-a017-w001-01"
+      ],
+      "aligned_qac_word_ref_upstream": "31:17:1",
+      "morpheme_skip_count": 0
+    },
+    {
+      "word_index": 1,
+      "surface_ar": "بُنَيَّ",
+      "word_ids": [
+        "w-s031-a017-w001"
+      ],
+      "qac_refs": [
+        "31:17:1:2",
+        "31:17:1:3"
+      ],
+      "morpheme_ids": [
+        "m-w-s031-a017-w001-02",
+        "m-w-s031-a017-w001-03"
+      ],
+      "aligned_qac_word_ref_upstream": "31:17:2",
+      "morpheme_skip_count": 0
+    },
     {
       "word_index": 2,
       "surface_ar": "أَقِمِ",
       "word_ids": [
-        "w-s031-a017-w001",
         "w-s031-a017-w002"
       ],
       "qac_refs": [
-        "31:17:1:3",
         "31:17:2:1"
       ],
       "morpheme_ids": [
-        "m-w-s031-a017-w001-03",
         "m-w-s031-a017-w002-01"
       ],
       "aligned_qac_word_ref_upstream": "31:17:3",
-      "morpheme_skip_count": 2
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 3,
@@ -45011,27 +45038,16 @@
     "word_morpheme_spans": {
       "present": true,
       "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s031/linguistic/morphemes.tsv",
+      "alignment_version": "ordered-morpheme-spans-v2",
       "words_total": 22,
-      "words_resolved": 20,
-      "words_unresolved": 2,
-      "morpheme_skip_total": 2,
-      "morpheme_skip_max": 2,
+      "words_resolved": 22,
+      "words_unresolved": 0,
+      "morpheme_skip_total": 0,
+      "morpheme_skip_max": 0,
       "morpheme_skip_histogram": {
-        "2": 1,
-        "0": 19
+        "0": 22
       },
-      "unresolved": [
-        {
-          "word_index": 0,
-          "surface_ar": "يَا",
-          "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-        },
-        {
-          "word_index": 1,
-          "surface_ar": "بُنَيَّ",
-          "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-        }
-      ],
+      "unresolved": [],
       "morphemes_tsv": {
         "present": true,
         "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s031/linguistic/morphemes.tsv",
@@ -45041,7 +45057,7 @@
         "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
         "dropped_preface_rows": 7
       },
-      "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
+      "note": "Ordered surface alignment within canonical QAC words; only spans shared by all best alignments are joined. Upstream word-analysis identities and wording are preserved. Unresolved analytic units remain available for qualified reading; never infer their QAC identity from upstream numbering."
     },
     "word_analysis_qac_alignment": {
       "consistent": false,
