@@ -192,6 +192,13 @@ global
 Each handoff gives the exact prompt path. The prompts contain all evidence the
 scope agents should use.
 
+Production preparation checks QAC source availability before a batch and
+required morphology coverage before returning handoffs. Stop on a preparation
+error; do not launch from files left by an earlier run. Confirm
+`context_morphology_status: complete` for each prepared unit. The
+`--allow-missing-qac-morphology` override is for explicitly exploratory runs,
+not this production procedure. Source checksums are recorded in the packets.
+
 ## 3. Scope Agents
 
 Launch three fresh, independent agents in parallel with the multiagent spawn

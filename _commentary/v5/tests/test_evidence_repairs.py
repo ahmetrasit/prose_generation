@@ -78,24 +78,28 @@ class SemanticRepairTests(unittest.TestCase):
             "rendering_caution", "why_still_valid", "abductive_moves", "candidate_text", "hft_claim"})
         self.assertEqual(len({o["obligation_ref"] for o in obligations}), 5)
 
-    def test_nested_evidence_round_trips_without_losing_the_unusual_detail(self):
+    def test_prompt_keeps_complete_records_without_string_lookups(self):
         detail = {"lexical_item": "a red-veined eye film resembling woven webbing",
                   "boundary": "A separate same-root lexical item; not the meaning of the focus form."}
         packet = {"branches": [{"id": "B010", "detail": detail},
                                {"id": "B011", "detail": detail}],
                   "support": [detail, {"quoted_boundary": detail["boundary"]}]}
         original = copy.deepcopy(packet)
-        compact = evidence.compact_packet(packet)
-        decoded = evidence.expand_packet(json.loads(json.dumps(compact)))
+        prompt = workflow._build_scope_prompt(workflow.layout_for("29:38"), "micro", packet)
+        rendered = prompt.split("<lane_packet_json>\n", 1)[1].split("\n</lane_packet_json>", 1)[0]
+        decoded = json.loads(rendered)
         self.assertEqual(decoded, original)
         self.assertEqual(packet, original)
-        self.assertLess(len(json.dumps(compact)), len(json.dumps(original)))
+        self.assertNotIn("$v5_ref", prompt)
+        self.assertNotIn("shared_evidence", decoded)
 
-    def test_transport_collisions_fail_instead_of_erasing_source_evidence(self):
-        for packet in ({"shared_evidence": ["source claim"]},
-                       {"branch": {"$v5_ref": 17}}):
-            with self.subTest(packet=packet), self.assertRaises(ValueError):
-                evidence.compact_packet(packet)
+    def test_historical_compact_packets_can_still_be_decoded(self):
+        packet = {"branch": {"$v5_ref": 1}, "shared_evidence": [
+            {"ref": 1, "value": {"lexical_item": "eye film", "boundary": {"$v5_ref": 2}}},
+            {"ref": 2, "value": "A separate same-root item, not the focus meaning."},
+        ]}
+        self.assertEqual(evidence.expand_packet(packet), {"branch": {
+            "lexical_item": "eye film", "boundary": "A separate same-root item, not the focus meaning."}})
 
 
 class ContextEvidenceTests(unittest.TestCase):
@@ -112,7 +116,7 @@ class ContextEvidenceTests(unittest.TestCase):
             path = Path(temporary) / "qac.sqlite.gz"
             path.write_bytes(gzip.compress(connection.serialize()))
             evidence.attach_context_evidence({"global": packet},
-                {"7:201": {"arabic_uthmani": "فَإِذَا هُم مُبْصِرُونَ"}}, path)
+                {"7:201": {"arabic_uthmani": "فَإِذَا هُم مُبْصِرُونَ"}}, path, Path(temporary) / "cache")
         connection.close()
         self.assertEqual(packet["context_evidence"][0]["morphemes"], [list(row[:7])])
         self.assertEqual(packet["context_evidence_coverage"]["missing_morphology_refs"], [])
@@ -133,7 +137,7 @@ class ContextEvidenceTests(unittest.TestCase):
             # Valid gzip header followed by an invalid DEFLATE block type.
             path.write_bytes(bytes.fromhex("1f8b0800000000000003") + b"\x07" + b"\x00" * 8)
             evidence.attach_context_evidence({"global": packet},
-                {"7:201": {"arabic_uthmani": "مُبْصِرُونَ"}}, path)
+                {"7:201": {"arabic_uthmani": "مُبْصِرُونَ"}}, path, Path(temporary) / "cache")
         self.assertEqual(packet["context_evidence"][0]["arabic_uthmani"], "مُبْصِرُونَ")
         self.assertEqual(packet["context_evidence_coverage"]["missing_morphology_refs"], ["7:201"])
         self.assertIn("could not be projected", packet["context_evidence_coverage"]["morphology_error"])

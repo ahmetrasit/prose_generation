@@ -15,10 +15,10 @@ lost.
 
 - The inline lane packet is the complete evidence boundary. Paths and pointers
   inside it are provenance, not permission to read other files.
-- A value shaped as `{"$v5_ref":17}` means the exact `value` in inline
-  `shared_evidence` row `ref:17`. Resolve references recursively wherever they
-  occur; they store identical evidence once without summarizing it. Read every
-  required record in bounded chunks, including its referenced evidence.
+- Evidence records contain their full wording and qualifications. Read them in
+  bounded chunks; use candidate, support, branch, and ayah IDs to join whole
+  records as needed. Repeated wording is one source fact, not independent
+  corroboration.
 - `context_evidence` supplies the required non-focus Arabic and QAC morphemes.
   Each morpheme array follows `context_morpheme_columns` in order. Check
   `context_evidence_coverage` before assigning a target form or root; missing

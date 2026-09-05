@@ -8,8 +8,10 @@ import copy
 import json
 import os
 import re
+import sqlite3
 import sys
 import tempfile
+import zlib
 from dataclasses import dataclass
 from pathlib import Path
 from typing import Any
@@ -1773,7 +1775,7 @@ def _normalize_and_route_lane_packets(
             scope["upstream_pericope"] = scope.pop("pericope")
         if "lane_contract" in scope:
             scope["upstream_lane_contract"] = scope.pop("lane_contract")
-        packet["schema_version"] = "commentary-v5-hermetic-scope-packet-v3"
+        packet["schema_version"] = "commentary-v5-hermetic-scope-packet-v4"
         _finalize_lane_packet_contract(packet)
     return packets
 
@@ -1905,10 +1907,6 @@ def _build_scope_prompt(layout: Layout, lane: str, packet: dict[str, Any]) -> st
         template = template_path.read_text(encoding="utf-8")
     except OSError as exc:
         raise WorkflowError(f"Cannot read scope prompt template: {exc}") from exc
-    try:
-        compact_packet = packet_evidence.compact_packet(packet)
-    except ValueError as exc:
-        raise WorkflowError(f"Cannot encode {lane} evidence: {exc}") from exc
     prompt = _render(
         template,
         {
@@ -1918,7 +1916,7 @@ def _build_scope_prompt(layout: Layout, lane: str, packet: dict[str, Any]) -> st
             "@@SCOPE_DISCOVERY_SCHEMA_VERSION@@": SCOPE_DISCOVERY_SCHEMA_VERSION,
             "@@DISCOVERY_POLICY_MD@@": _discovery_policy(),
             "@@LANE_SPECIFIC_PROCEDURE@@": _lane_specific_procedure(lane, packet),
-            "@@LANE_PACKET_JSON@@": _record_line_json(compact_packet),
+            "@@LANE_PACKET_JSON@@": _record_line_json(packet),
         },
         label=f"{lane} scope prompt",
     )
@@ -1977,8 +1975,20 @@ def prepare(args: argparse.Namespace) -> dict[str, Any]:
         )
     _normalize_and_route_lane_packets(packets, source_bundle, composition)
     packet_evidence.attach_context_evidence(
-        packets, quran_evidence, Path(getattr(args, "qac_morphology", DEFAULT_QAC_MORPHOLOGY))
+        packets, quran_evidence,
+        Path(getattr(args, "qac_morphology", DEFAULT_QAC_MORPHOLOGY)),
+        Path(getattr(args, "qac_cache_dir", packet_evidence.DEFAULT_CACHE_DIR)),
     )
+    missing_morphology = sorted({
+        ref for packet in packets.values()
+        for ref in packet["context_evidence_coverage"]["missing_morphology_refs"]
+    }, key=_quran_ref_sort_key)
+    if missing_morphology and not getattr(args, "allow_missing_qac_morphology", False):
+        raise WorkflowError(
+            "Required QAC morphology is unavailable for " + ", ".join(missing_morphology)
+            + ". Check --qac-morphology and --qac-cache-dir. "
+            "Use --allow-missing-qac-morphology only for an explicitly exploratory run."
+        )
     prompts = {
         lane: _build_scope_prompt(layout, lane, packets[lane]) for lane in LANES
     }
@@ -1997,6 +2007,8 @@ def prepare(args: argparse.Namespace) -> dict[str, Any]:
     return {
         "schema_version": "commentary-v5-prepared-v1",
         "status": "prepared",
+        "context_morphology_status": "degraded" if missing_morphology else "complete",
+        "missing_context_morphology_refs": missing_morphology,
         "analysis_id": layout.analysis_id,
         "ayah_ref": layout.ayah_ref,
         "focus_context_brief": {
@@ -2083,6 +2095,14 @@ def _source_options(parser: argparse.ArgumentParser) -> None:
     parser.add_argument(
         "--qac-morphology", type=Path, default=DEFAULT_QAC_MORPHOLOGY,
         help="Local QAC SQLite gzip source for inline target morphology.",
+    )
+    parser.add_argument(
+        "--qac-cache-dir", type=Path, default=packet_evidence.DEFAULT_CACHE_DIR,
+        help="Reusable local directory for the streamed, source-hashed QAC database.",
+    )
+    parser.add_argument(
+        "--allow-missing-qac-morphology", action="store_true",
+        help="Exploratory runs only: permit explicitly qualified missing context morphology.",
     )
     parser.add_argument(
         "--context-bundles-dir",
@@ -2252,10 +2272,29 @@ def _prepare_batch(
     )
 
 
+def _preflight_qac(args: argparse.Namespace) -> None:
+    """Fail once before a production batch if its local QAC source is unusable."""
+    if getattr(args, "allow_missing_qac_morphology", False):
+        return
+    try:
+        with packet_evidence.open_database(
+            Path(args.qac_morphology), Path(args.qac_cache_dir)
+        ) as (connection, _source_hash):
+            columns = ", ".join((*packet_evidence.MORPHEME_COLUMNS,
+                                 "surah", "ayah", "word_index", "morpheme_index"))
+            connection.execute(f"SELECT {columns} FROM qac_morphemes LIMIT 0")
+    except (OSError, EOFError, sqlite3.Error, ValueError, zlib.error) as exc:
+        raise WorkflowError(
+            f"QAC source preflight failed: {exc}. Check --qac-morphology and "
+            "--qac-cache-dir; --allow-missing-qac-morphology is for exploratory runs only."
+        ) from exc
+
+
 def main() -> int:
     args = _parser().parse_args()
     try:
         refs, composition = _resolve_request(args)
+        _preflight_qac(args)
         if len(refs) == 1:
             result = prepare(
                 argparse.Namespace(

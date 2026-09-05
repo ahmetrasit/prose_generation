@@ -872,6 +872,38 @@ class PrepareTests(unittest.TestCase):
                 old_editorial.read_text(encoding="utf-8"), "editorial prose"
             )
 
+    def test_missing_required_morphology_stops_writes_unless_explicitly_exploratory(self) -> None:
+        for allow_missing in (False, True):
+            with self.subTest(allow_missing=allow_missing), tempfile.TemporaryDirectory() as temporary:
+                root = Path(temporary)
+                args = self._args(root)
+                args.qac_morphology = root / "missing-qac.gz"
+                args.qac_cache_dir = root / "cache"
+                args.allow_missing_qac_morphology = allow_missing
+                patches = self._patch_preflight()
+                def lane_packet(**kwargs):
+                    lane = kwargs["lane"]
+                    return {**base_packet(lane), "connection_registry": [{
+                        "connection_ref": lane + "-target", "target_ref": "7:201", "qualification": {},
+                    }]}
+                with (
+                    patch.object(workflow, "INPUT_ROOT", root / "input"),
+                    patch.object(workflow, "RAW_ROOT", root / "raw"),
+                    patch.object(workflow, "EDITORIAL_ROOT", root / "editorial"),
+                    patch.object(workflow, "_required_host_basmala", return_value=None),
+                    patch.object(workflow, "_build_lane_packet", side_effect=lane_packet),
+                    patches[0], patches[1], patches[2], patches[3],
+                ):
+                    if allow_missing:
+                        result = workflow.prepare(args)
+                        self.assertEqual(result["context_morphology_status"], "degraded")
+                        self.assertEqual(result["missing_context_morphology_refs"], ["7:201"])
+                        self.assertEqual(len(result["generated_files"]), 3)
+                    else:
+                        with self.assertRaisesRegex(workflow.WorkflowError, "Required QAC morphology"):
+                            workflow.prepare(args)
+                        self.assertFalse((root / "input").exists())
+
 
 if __name__ == "__main__":
     unittest.main()

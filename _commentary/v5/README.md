@@ -65,18 +65,35 @@ The JSON printed by `prepare` contains the generated prompt paths, the
 matching discovery and scope-prose output paths, the focus/context brief, and
 short orchestration notes. It is advisory; it is not a completion manifest.
 
-Scope packet v3 includes exact Arabic and typed QAC morphology for required
+Scope packet v4 includes exact Arabic and typed QAC morphology for required
 context references. `--qac-morphology` overrides the local `qac.sqlite.gz`
 source; unavailable Arabic or morphology is listed in
 `context_evidence_coverage`. Morpheme arrays use the explicitly supplied
 `context_morpheme_columns`. These records establish forms and roots, not
 activation of a dictionary branch.
 
-Prompts store exact repeated values once in the inline `shared_evidence` list.
-A `{"$v5_ref":17}` value resolves recursively to row `ref:17`; no source detail
-is summarized or omitted. `packet_evidence.expand_packet` reconstructs the full
-packet for inspection. Agents must read each relevant record and its referenced
-evidence, using bounded reads of the prompt. No external evidence file is needed.
+QAC is streamed once into a local SQLite cache and queried read-only. The cache
+defaults to the Git-ignored `_commentary/v5/.cache/qac`; `--qac-cache-dir`
+overrides it. Each use hashes the compressed source, so even a same-size source
+replacement cannot reuse stale data. Concurrent preparations share an atomic,
+validated cache. Packets identify the source by its stable logical name and
+SHA-256 of the compressed bytes; local corpus/cache paths stay out of that
+provenance. The cache is preparation infrastructure, not agent input.
+
+Production preparation requires a readable QAC source and all required context
+morphology. The CLI checks the source once before starting a batch, and each
+focus checks coverage before writing prompts or returning handoffs. For an
+explicitly exploratory run, `--allow-missing-qac-morphology` preserves Arabic
+with missing-evidence qualifications and reports `context_morphology_status:
+degraded` in the preparation result. Do not use this override in production.
+
+Prompts supply complete evidence records with their wording and qualifications
+together. Existing candidate, support, branch, and ayah IDs connect records;
+new prompts contain no `$v5_ref` string lookups or shared-value table. Some
+wording is deliberately repeated to keep records readable, without summarizing
+or omitting source details. Agents use bounded reads of the inline packet; no
+external evidence file is needed. `packet_evidence.expand_packet` remains a
+decoder for historical v3 packets only.
 
 The second turn for each scope agent uses
 `_commentary/v5/prompts/composition.md`. Fill it with the focus ref, lane,
