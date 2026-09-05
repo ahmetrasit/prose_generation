@@ -25,6 +25,12 @@ of every hermetic lane prompt.
   the source lexical item or branch feature, the independent contact, the change
   it makes to the focus, and the boundary that prevents false translation or
   etymology.
+- For a same-root resonance, explicitly distinguish the other attested lexical
+  item or sense from the focus form's meaning. Preserve its form restrictions;
+  naming the shared image alone does not establish that lexical connection.
+- Every resonance must preserve the ordinary reading intact and keep it
+  recoverable where the resonance is explained. Develop that reading; do not
+  replace it with an alternative disguised as a deeper meaning.
 - Keep morphology and syntax distinct. An accusative form establishes case, not
   objecthood by itself; identify the governing construction before assigning a
   syntactic role, including the predicate of a copular `kana` construction.

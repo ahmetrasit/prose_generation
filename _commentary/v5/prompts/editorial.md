@@ -25,6 +25,9 @@ misstates case, syntax, morphology, lexical identity, or another source fact,
 correct the wording while preserving the intended supported finding. Do not
 invent new evidence or silently delete the finding.
 
+Every resonance must preserve the ordinary reading intact and keep it
+recoverable in the same explanation; a latent reading cannot replace it.
+
 - Preserve every retained finding's carrier, independent trigger, contact,
   changed reading, concrete semantic detail, and boundary.
 - Preserve useful section subtitles, or add short Turkish section subtitles

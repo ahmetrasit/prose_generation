@@ -32,8 +32,11 @@ MAX_SCOPE_PROMPT_BYTES = 16_000_000
 SCOPE_DISCOVERY_SCHEMA_VERSION = "commentary-v5-scope-discovery-v2"
 MARKER_RE = re.compile(r"@@[A-Z0-9_]+@@")
 QURAN_REF_IN_TEXT_RE = re.compile(
-    r"(?<![0-9:])([1-9][0-9]*):(0|[1-9][0-9]*)"
-    r"(?:[-\u2013\u2014]([1-9][0-9]*))?(?![0-9:])"
+    r"(?<![0-9:])([1-9][0-9]*):(0|[1-9][0-9]*)(?![0-9:])"
+)
+QURAN_REF_CONTINUATION_RE = re.compile(
+    r"\s*(?P<separator>[-\u2013\u2014,\u060c])\s*"
+    r"(?:(?P<surah>[1-9][0-9]*):)?(?P<ayah>0|[1-9][0-9]*)(?![0-9:])"
 )
 QURAN_COORDINATE_RE = re.compile(
     r"([1-9][0-9]*):(0|[1-9][0-9]*)(?::[1-9][0-9]*){1,2}"
@@ -114,6 +117,7 @@ sys.path.insert(0, str(V3_ROOT))
 sys.path.insert(0, str(SCRIPTS_ROOT))
 sys.path.insert(0, str(REPO_ROOT))
 from _commentary.v5 import composition as compositions  # noqa: E402
+from _commentary.v5 import packet_evidence  # noqa: E402
 import render_authoring as v3  # noqa: E402
 from v3lib.common import ValidationError  # noqa: E402
 from v3lib.prepare import (  # noqa: E402
@@ -131,6 +135,7 @@ PREPARE_OPTIONS = PrepareOptions(
     max_support_chars=8_000,
     max_docket_bytes=4_800_000,
 )
+DEFAULT_QAC_MORPHOLOGY = REPO_ROOT.parent / "quran-data/data/morphology/qac.sqlite.gz"
 
 
 class WorkflowError(RuntimeError):
@@ -316,10 +321,7 @@ def _extract_quran_refs(value: Any) -> list[str]:
     """Extract canonical ayah refs, including refs in serialized JSON text."""
     refs: set[str] = set()
 
-    def add_range(surah_text: str, first_text: str, last_text: str | None) -> None:
-        surah = int(surah_text)
-        first = int(first_text)
-        last = int(last_text or first_text)
+    def add_range(surah: int, first: int, last: int) -> None:
         if (
             last < first
             or _canonical_extracted_ref(surah, first) is None
@@ -351,8 +353,33 @@ def _extract_quran_refs(value: Any) -> list[str]:
                 )
                 if coordinate_ref is not None:
                     refs.add(coordinate_ref)
+            # Consume a whole reference expression once: later ayah numbers
+            # inherit the current surah, while explicit S:A resets it.
+            end = 0
             for match in QURAN_REF_IN_TEXT_RE.finditer(item):
-                add_range(*match.groups())
+                if match.start() < end:
+                    continue
+                surah, previous = map(int, match.groups())
+                add_range(surah, previous, previous)
+                end = match.end()
+                while continuation := QURAN_REF_CONTINUATION_RE.match(item, end):
+                    next_surah = int(continuation["surah"] or surah)
+                    ayah = int(continuation["ayah"])
+                    if continuation["separator"] in {",", "\u060c"}:
+                        add_range(next_surah, ayah, ayah)
+                    elif next_surah == surah:
+                        add_range(surah, previous, ayah)
+                    elif (surah < next_surah
+                          and _canonical_extracted_ref(surah, previous)
+                          and _canonical_extracted_ref(next_surah, ayah)):
+                        for chapter in range(surah, next_surah + 1):
+                            add_range(
+                                chapter,
+                                previous if chapter == surah else 1,
+                                ayah if chapter == next_surah else QURAN_AYAH_COUNTS[chapter - 1],
+                            )
+                    surah, previous = next_surah, ayah
+                    end = continuation.end()
         elif isinstance(item, list):
             for child in item:
                 visit(child)
@@ -532,6 +559,7 @@ def _candidate_semantic_obligations(
                     "gloss_range",
                     "root_gloss_range",
                     "prose",
+                    "text",  # cross-run published findings
                 )
                 for field in semantic_fields:
                     value = decoded.get(field)
@@ -552,6 +580,14 @@ def _candidate_semantic_obligations(
                 )
 
         payload = support.get("payload")
+        if isinstance(payload, list):
+            for index, claim in enumerate(payload):
+                if claim not in (None, "", [], {}):
+                    append(
+                        support_id, "hft_claim",
+                        f"/support_registry/{support_id}/payload/{index}", claim,
+                    )
+            continue
         if isinstance(payload, str) and payload.strip():
             append(
                 support_id,
@@ -584,7 +620,10 @@ def _candidate_semantic_obligations(
                 f"/support_registry/{support_id}/payload/changed_reading",
                 changed,
             )
-        for field in ("mechanism", "reader_inference", "containment"):
+        for field in (
+            "mechanism", "reader_inference", "containment", "rendering_caution",
+            "why_still_valid", "why_surprising", "ablation", "limitations",
+        ):
             value = payload.get(field)
             if isinstance(value, str) and value.strip():
                 append(
@@ -593,14 +632,16 @@ def _candidate_semantic_obligations(
                     f"/support_registry/{support_id}/payload/{field}",
                     value,
                 )
-        cues = payload.get("structural_cues")
-        if isinstance(cues, list):
-            for index, cue in enumerate(cues):
-                if isinstance(cue, str) and cue.strip():
+        for field in ("structural_cues", "abductive_moves", "minimal_triggers", "trigger_refs"):
+            cues = payload.get(field)
+            if isinstance(cues, list):
+                for index, cue in enumerate(cues):
+                    if cue in (None, "", [], {}):
+                        continue
                     append(
                         support_id,
-                        "structural_cue",
-                        f"/support_registry/{support_id}/payload/structural_cues/{index}",
+                        "structural_cue" if field == "structural_cues" else field,
+                        f"/support_registry/{support_id}/payload/{field}/{index}",
                         cue,
                     )
     return obligations
@@ -1396,6 +1437,8 @@ def _candidate_empty_ref_route(
         and candidate.get("kind") == "reader_walk_activation"
     ):
         return "micro", "focus_only_reader_activation"
+    if candidate.get("source_type") == "cross_run_publication":
+        return "micro", "focus_only_published_finding"
     return source_lane, "upstream_lane"
 
 
@@ -1421,6 +1464,9 @@ def _normalize_and_route_lane_packets(
             row["ref"]: row["lane"]
             for row in composition.context_rows(focus_ref)
         }
+        for unit in packets['macro'].get('selected_context_units', []):
+            if unit.get('automatic_prefatory_basmala_membership'):
+                composition_lanes[unit['ayah_ref']] = 'macro'
 
     support_map: dict[str, dict[str, Any]] = {}
     support_order: list[str] = []
@@ -1538,6 +1584,11 @@ def _normalize_and_route_lane_packets(
             "resolved_lane": target_lane,
             "basis": basis,
         }
+        if "lane_assignment_basis" in candidate:
+            candidate["upstream_lane_assignment_basis"] = candidate["lane_assignment_basis"]
+            candidate["lane_assignment_basis"] = basis
+        candidate["upstream_scope"] = candidate.get("scope")
+        candidate["scope"] = target_lane
         if basis == "focus_only_reader_activation":
             candidate["v5_routing"]["constraint"] = (
                 "Only the assembled focus-local claim is in scope; an unstated "
@@ -1571,6 +1622,8 @@ def _normalize_and_route_lane_packets(
             composition_lanes=composition_lanes,
         )
         connection["required_context_refs"] = required_refs
+        connection["upstream_relation_scope"] = connection.get("relation_scope")
+        connection["relation_scope"] = target_lane
         connection["v5_routing"] = {
             "source_lane": source_lane,
             "resolved_lane": target_lane,
@@ -1578,6 +1631,10 @@ def _normalize_and_route_lane_packets(
         }
         routed_connections[target_lane].append(connection)
 
+    hft_lane_counts = {
+        lane: sum(isinstance(c.get('hft_ref'), str) for c in candidates)
+        for lane, candidates in routed_candidates.items()
+    }
     for lane in LANES:
         packet = packets[lane]
         candidates = routed_candidates[lane]
@@ -1693,9 +1750,30 @@ def _normalize_and_route_lane_packets(
                 for ref in sorted(lane_hft_refs)
                 if ref in hft_records
             ]
+            for record in assigned:
+                record["upstream_owning_lane"] = record.get("owning_lane")
+                record["owning_lane"] = lane
+                for field in ("lane_basis", "evidence_scope"):
+                    if field in record:
+                        record[f"upstream_{field}"] = record[field]
+                record["evidence_scope"] = lane
+                record["lane_basis"] = next(
+                    candidate["v5_routing"]["basis"]
+                    for candidate in candidates
+                    if candidate.get("hft_ref") == record["hft_ref"]
+                )
             hft["assigned_records"] = assigned
             hft["assigned_record_count"] = len(assigned)
-        packet["schema_version"] = "commentary-v5-hermetic-scope-packet-v2"
+            hft["lane_counts"] = hft_lane_counts
+            scope_hft = packet.get("scope", {}).get("hft")
+            if isinstance(scope_hft, dict):
+                scope_hft["assigned_record_count"] = len(assigned)
+        scope = packet.get("scope", {})
+        if composition is not None and "pericope" in scope:
+            scope["upstream_pericope"] = scope.pop("pericope")
+        if "lane_contract" in scope:
+            scope["upstream_lane_contract"] = scope.pop("lane_contract")
+        packet["schema_version"] = "commentary-v5-hermetic-scope-packet-v3"
         _finalize_lane_packet_contract(packet)
     return packets
 
@@ -1827,6 +1905,10 @@ def _build_scope_prompt(layout: Layout, lane: str, packet: dict[str, Any]) -> st
         template = template_path.read_text(encoding="utf-8")
     except OSError as exc:
         raise WorkflowError(f"Cannot read scope prompt template: {exc}") from exc
+    try:
+        compact_packet = packet_evidence.compact_packet(packet)
+    except ValueError as exc:
+        raise WorkflowError(f"Cannot encode {lane} evidence: {exc}") from exc
     prompt = _render(
         template,
         {
@@ -1836,7 +1918,7 @@ def _build_scope_prompt(layout: Layout, lane: str, packet: dict[str, Any]) -> st
             "@@SCOPE_DISCOVERY_SCHEMA_VERSION@@": SCOPE_DISCOVERY_SCHEMA_VERSION,
             "@@DISCOVERY_POLICY_MD@@": _discovery_policy(),
             "@@LANE_SPECIFIC_PROCEDURE@@": _lane_specific_procedure(lane, packet),
-            "@@LANE_PACKET_JSON@@": _record_line_json(packet),
+            "@@LANE_PACKET_JSON@@": _record_line_json(compact_packet),
         },
         label=f"{lane} scope prompt",
     )
@@ -1894,6 +1976,9 @@ def prepare(args: argparse.Namespace) -> dict[str, Any]:
             host_basmala=host_basmala,
         )
     _normalize_and_route_lane_packets(packets, source_bundle, composition)
+    packet_evidence.attach_context_evidence(
+        packets, quran_evidence, Path(getattr(args, "qac_morphology", DEFAULT_QAC_MORPHOLOGY))
+    )
     prompts = {
         lane: _build_scope_prompt(layout, lane, packets[lane]) for lane in LANES
     }
@@ -1995,6 +2080,10 @@ def _source_options(parser: argparse.ArgumentParser) -> None:
         help="Directional source root used for inline evidence pointers.",
     )
     parser.add_argument("--quran-text", type=Path, default=v3.DEFAULT_QURAN_TEXT)
+    parser.add_argument(
+        "--qac-morphology", type=Path, default=DEFAULT_QAC_MORPHOLOGY,
+        help="Local QAC SQLite gzip source for inline target morphology.",
+    )
     parser.add_argument(
         "--context-bundles-dir",
         type=Path,

@@ -34,6 +34,8 @@ the supplied records do not establish it; retain the uncertainty instead.
 Preserve every part explicitly in the reader-facing text. Do not replace a
 concrete image, pathology, secondary branch, repeated action, spatial relation,
 or before/after shift with a general theme.
+Preserve the attested lexical connection and form restrictions behind a
+same-root resonance, not only the resulting image.
 
 Boundaries must stay attached to the interpretations they limit. Saying that a
 word is not being translated literally in one way does not authorize deleting
@@ -58,6 +60,8 @@ reader in the consolidated commentary without requiring a separate ledger.
 ## Writing Contract
 
 - Write fluent Turkish reader prose, not a lane report or technical ledger.
+- Every resonance must preserve the ordinary reading intact and keep it
+  recoverable in the same explanation; a latent reading cannot replace it.
 - Use short Turkish section subtitles when they improve readability and
   movement through the commentary. Mark each subtitle as a level-2 Markdown
   heading, for example `## Taşın Hafızası`, so downstream renderers can style it

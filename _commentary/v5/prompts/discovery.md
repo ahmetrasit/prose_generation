@@ -15,6 +15,16 @@ lost.
 
 - The inline lane packet is the complete evidence boundary. Paths and pointers
   inside it are provenance, not permission to read other files.
+- A value shaped as `{"$v5_ref":17}` means the exact `value` in inline
+  `shared_evidence` row `ref:17`. Resolve references recursively wherever they
+  occur; they store identical evidence once without summarizing it. Read every
+  required record in bounded chunks, including its referenced evidence.
+- `context_evidence` supplies the required non-focus Arabic and QAC morphemes.
+  Each morpheme array follows `context_morpheme_columns` in order. Check
+  `context_evidence_coverage` before assigning a target form or root; missing
+  evidence is a qualification, not a verdict against a reading.
+  Inspect all candidate, branch, and connection records; retrieve detailed
+  context morphology as particular comparisons require it.
 - Candidates are a review docket, not an accepted list, discovery limit, or
   quota. Decide every candidate exactly once. Independently inspect the full
   relevant surface, supports, connections, and available branches for
@@ -126,8 +136,8 @@ Return exactly these top-level fields:
       "support_ids": ["exact support ID"],
       "evidence_facts": [
         {
-          "support_id": "exact support ID",
-          "source_pointer": "exact semantic-obligation source_pointer or support field",
+          "support_id": "exact support ID, or null for direct focus/branch/context evidence",
+          "source_pointer": "exact source field in support, focus_surface_evidence, branch_registry, or context_evidence",
           "function": "carrier | grammar | trigger | lexical_source | boundary",
           "fact": "concise source-grounded fact needed downstream"
         }

@@ -15,6 +15,8 @@ orchestrator:
 ## Scope Prose Contract
 
 - Write fluent Turkish scope prose, not JSON, a checklist, or a lane report.
+- Every resonance must preserve the ordinary reading intact and keep it
+  recoverable in the same explanation; a latent reading cannot replace it.
 - Preserve every retained finding from your discovery work. Each finding's
   carrier, independent trigger, contact, changed reading, concrete semantic
   detail, and boundary must be visible to a reader.
@@ -32,6 +34,8 @@ orchestrator:
 - Preserve concrete details. Do not flatten a pathology, material image,
   repeated action, spatial relation, before/after shift, or secondary branch
   into a general theme.
+- Preserve the attested lexical connection and form restrictions behind a
+  same-root resonance, not only the resulting image.
 - Use the project display tag syntax when an Arabic word, phrase, carrier, or
   anchor does interpretive work in a paragraph:
   `{ar:ARABIC, tr:transliteration, gloss:Turkish gloss}`.
