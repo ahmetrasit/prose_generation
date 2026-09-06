@@ -22,7 +22,7 @@ sys.path.insert(0, str(ROOT))
 from _commentary.v6 import reading
 
 RAW_ROOT = V6_ROOT / "raw"
-WORK_SCHEMA = "commentary-v6-discovery-work-v1"
+WORK_SCHEMA = "commentary-v6-discovery-work-v2"
 DISCOVERY_SCHEMA = "commentary-v6-scope-discovery-v2"
 DECISIONS = {"accept", "narrow", "represented", "reject"}
 EXCLUSIONS = {
@@ -331,7 +331,7 @@ class Session:
                          all(type(n) is int and n > 0 for n in numbers) and
                          len(numbers) == len(set(numbers)), f"Checkpoint has invalid {field} numbers")
         done = _strings(work.get("completed_batches"), "completed_batches")
-        _require(set(done) <= self.batches.keys(), "Checkpoint cites unknown batches")
+        _require(done == list(self.batches)[:len(done)], "Completed batches must follow the reading plan order")
         _rows(work.get("notes"), "notes")
         _rows(work.get("leads"), "leads")
         _require(isinstance(work.get("discovery"), dict), "Checkpoint lacks discovery")
@@ -390,14 +390,21 @@ class Session:
 
     def read(self, batch_id: str | None, catalog: str | None, page: int) -> dict[str, Any]:
         work = self.load_work()
+        pending = [bid for bid in self.batches if bid not in work["completed_batches"]]
+        next_id = pending[0] if pending else None
+        if batch_id:
+            _require(batch_id in self.batches, f"Unknown batch: {batch_id}")
+            _require(batch_id in work["completed_batches"] or batch_id == next_id,
+                     f"Checkpoint and complete {next_id} before reading a later batch; "
+                     "use lookup for a specific cross-batch lead")
+        else:
+            _require(not pending, "Complete the reading batches before reviewing the catalogs")
         output = self.batch_pages(batch_id) if batch_id else self.catalog_view(catalog)
         _require(1 <= page <= len(output), f"Page must be in 1..{len(output)}")
         if batch_id:
             delivered = work["read_pages"].setdefault(batch_id, [])
-        elif set(work["completed_batches"]) == set(self.batches):
-            delivered = work["catalog_pages"].setdefault(catalog, [])
         else:
-            return output[page - 1]  # Early browsing does not count as final synthesis.
+            delivered = work["catalog_pages"].setdefault(catalog, [])
         if page not in delivered:
             delivered.append(page)
             delivered.sort()
@@ -406,15 +413,76 @@ class Session:
 
     def complete(self, batch_id: str) -> dict[str, Any]:
         work = self.load_work()
+        _require(batch_id in self.batches, f"Unknown batch: {batch_id}")
+        pending = [bid for bid in self.batches if bid not in work["completed_batches"]]
+        _require(batch_id in work["completed_batches"] or batch_id == pending[0],
+                 "Complete the current batch before advancing")
         count = len(self.batch_pages(batch_id))
         _require(set(work["read_pages"].get(batch_id, [])) == set(range(1, count + 1)),
                  "The reader has not delivered every page of this batch")
+        self._check_notes(work)
+        self._check_leads(work, final=False)
+        self._check_batch_note(work, batch_id)
         if batch_id not in work["completed_batches"]:
             work["completed_batches"].append(batch_id)
             work["catalog_pages"] = {}
             work["cross_batch_review"] = ""
             self.save(work)
         return self.status()
+
+    def _check_notes(self, work: dict[str, Any]) -> None:
+        for note in _rows(work.get("notes"), "notes"):
+            _require(_text(note.get("note")), "A checkpoint note lacks its observation")
+            if "batch_id" in note:
+                _require(note["batch_id"] in self.batches, "A note cites an unknown batch")
+            pointers = _strings(note.get("source_pointers"), "note.source_pointers")
+            _require(pointers, "A checkpoint note needs source pointers")
+            for pointer in pointers:
+                reading.resolve(self.packet, pointer)
+
+    def _check_batch_note(self, work: dict[str, Any], batch_id: str) -> None:
+        indexes = reading.registry_maps(self.packet)
+        for note in work["notes"]:
+            if note.get("batch_id") != batch_id:
+                continue
+            for pointer in note["source_pointers"]:
+                # Treat emitted numeric pointers and equivalent evidence-ID
+                # pointers alike when checking a note's batch membership.
+                parts = pointer.split("/")
+                if len(parts) >= 3 and parts[1] in indexes:
+                    identity = parts[2].replace("~1", "/").replace("~0", "~")
+                    if identity in indexes[parts[1]]:
+                        pointer = indexes[parts[1]][identity] + "/".join([""] + parts[3:])
+                if any(pointer == owner or pointer.startswith(owner + "/")
+                       for owner in self.batches[batch_id]["pointers"]):
+                    return
+        raise DiscoveryError(f"Save a notes entry with batch_id={batch_id}, a concise review, "
+                             "and a source pointer from this batch before completing it")
+
+    def _check_leads(self, work: dict[str, Any], *, final: bool) -> None:
+        lead_ids = set()
+        for lead in _rows(work.get("leads"), "leads"):
+            lid = lead.get("lead_id")
+            _require(_text(lid) and lid not in lead_ids, "Leads need unique IDs")
+            lead_ids.add(lid)
+            _require(_text(lead.get("note")), f"Lead {lid} lacks its observation")
+            pointers = _strings(lead.get("source_pointers"), f"{lid}.source_pointers")
+            _require(pointers, f"Lead {lid} needs source pointers")
+            for pointer in pointers:
+                reading.resolve(self.packet, pointer)
+            _require(lead.get("status") in {"open", "landed", "closed", "unresolved"},
+                     f"Lead {lid} has an invalid status")
+            if not final:
+                continue
+            _require(lead["status"] != "open" and _text(lead.get("resolution")),
+                     f"Lead {lid} still needs an explicit disposition")
+            if lead["status"] == "unresolved":
+                _require(lead["resolution"] in work["discovery"].get("friction_notes", []),
+                         f"Unresolved lead {lid} must remain in friction_notes")
+            if lead["status"] == "landed":
+                findings = {r["finding_ref"] for r in work["discovery"].get("findings", [])}
+                refs = _strings(lead.get("finding_refs"), f"{lid}.finding_refs")
+                _require(refs and set(refs) <= findings, f"Lead {lid} lacks its retained findings")
 
     def lookup(self, pointer: str, page: int) -> dict[str, Any]:
         output = reading.pages(self.packet, [pointer], label="source_lookup",
@@ -445,27 +513,10 @@ class Session:
             _require(set(work["catalog_pages"].get(catalog, [])) == set(range(1, count + 1)),
                      f"Cross-batch review has not read the complete {catalog} catalog")
         _require(_text(work.get("cross_batch_review")), "Explain the cross-batch review before finishing")
-        for note in _rows(work.get("notes"), "notes"):
-            _require(_text(note.get("note")), "A checkpoint note lacks its observation")
-            for pointer in _strings(note.get("source_pointers"), "note.source_pointers"):
-                reading.resolve(self.packet, pointer)
-        lead_ids = set()
-        for lead in _rows(work.get("leads"), "leads"):
-            lid = lead.get("lead_id")
-            _require(_text(lid) and lid not in lead_ids, "Leads need unique IDs")
-            lead_ids.add(lid)
-            _require(_text(lead.get("note")), f"Lead {lid} lacks its observation")
-            for pointer in _strings(lead.get("source_pointers"), f"{lid}.source_pointers"):
-                reading.resolve(self.packet, pointer)
-            _require(lead.get("status") in {"landed", "closed", "unresolved"}
-                     and _text(lead.get("resolution")), f"Lead {lid} still needs an explicit disposition")
-            if lead["status"] == "unresolved":
-                _require(lead["resolution"] in work["discovery"].get("friction_notes", []),
-                         f"Unresolved lead {lid} must remain in friction_notes")
-            if lead["status"] == "landed":
-                findings = {r["finding_ref"] for r in work["discovery"].get("findings", [])}
-                refs = _strings(lead.get("finding_refs"), f"{lid}.finding_refs")
-                _require(refs and set(refs) <= findings, f"Lead {lid} lacks its retained findings")
+        self._check_notes(work)
+        for bid in self.batches:
+            self._check_batch_note(work, bid)
+        self._check_leads(work, final=True)
         result = work.get("discovery")
         _require(isinstance(result, dict), "Checkpoint lacks discovery")
         validate_discovery(self.packet, result)

@@ -234,7 +234,11 @@ python3 _commentary/v6/operations/monitor.py event \
 Keep each scope session open through discovery and composition. Discovery can
 span many bounded reads and continuations; an intermediate response is not a
 completed discovery. The agent saves useful observations and unresolved leads
-before completing each batch. After compaction it reloads its checkpoint and
+before completing each batch, including a short note tagged with that batch's
+`batch_id` and source pointers. The helper blocks later batches until that review
+is saved and the current batch completed; targeted cross-batch lookup stays
+available. Tool wrappers must return each evidence or catalog page intact.
+After compaction it reloads its checkpoint and
 needed evidence. All supplied branches and connections remain in the reading
 plan, including those no candidate nominated. After the batches, the same
 agent reviews both complete catalogs and resolves or explicitly preserves its

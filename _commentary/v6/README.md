@@ -156,6 +156,13 @@ The default batch budget is 120,000 UTF-8 bytes (`--reading-budget` overrides
 it). Byte budgets are conservative sizing, not measured model tokens. This
 changes how evidence is consumed; it does not claim a 50% token reduction.
 
+The reader opens the current batch and completed batches. Before advancing,
+the agent saves a short `notes` entry with that `batch_id` and a source pointer
+from the batch, plus any useful unfinished leads. Completion validates those
+pointers immediately. Targeted `lookup` remains available across batches.
+Evidence and catalog pages must reach the agent intact; analytical choices
+cannot be supplied by default facets, fallback carriers, or generic templates.
+
 After all batches, the same agent reviews all branch facets and connections
 again using compact catalogs, follows cross-batch leads, and reopens full source
 records as needed. Unresolved leads remain explicit in final friction notes.
@@ -318,5 +325,9 @@ plan before writes, and confirmed that the monitor ignores partial checkpoints.
 Synthetic checks covered oversized records and string fragments, interrupted
 reading, cross-batch completion, source accounting, and refusal to overwrite a
 final discovery. The 101 workflow/reader checks and 35 monitor checks passed.
-No Luna semantic pilot has been run for V6; these checks establish evidence
-delivery and mechanical behavior, not the quality or completeness of readings.
+The [first Luna semantic pilot](reviews/29-38-global-pilot-2026-09-06.md) completed
+but exposed delayed checkpoints, filtered tool responses, and a wrong facet
+choice that passed mechanical validation. Batch progression now requires a
+source-grounded checkpoint, and the prompt explicitly requires intact page
+reads and individual semantic judgments. A fresh pilot must evaluate those
+behavioral changes before drawing conclusions about large-packet readiness.

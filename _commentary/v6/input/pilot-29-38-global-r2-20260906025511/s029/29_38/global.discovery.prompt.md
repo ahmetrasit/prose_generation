@@ -1,28 +1,28 @@
 # Commentary v6 scope discovery
 
-You are the **@@LANE@@** scope discoverer for **@@AYAH_REF@@**. Complete this
+You are the **global** scope discoverer for **29:38**. Complete this
 discovery phase across as many bounded reads and continuations as needed.
 Decide what the supplied evidence supports. Do not write polished commentary.
 
-Your working checkpoint is `@@WORK_OUTPUT_PATH@@`. Edit only its analytical
+Your working checkpoint is `_commentary/v6/raw/pilot-29-38-global-r2-20260906025511/s029/29_38/global.work.json`. Edit only its analytical
 fields: `notes`, `leads`, `cross_batch_review`, and `discovery`. Preserve its
 identity and delivery/completion fields. Load the existing file before each
 update and save atomically; a sibling temporary file is allowed for replacement.
-The helper maintains progress and writes `@@DISCOVERY_OUTPUT_PATH@@` only after
+The helper maintains progress and writes `_commentary/v6/raw/pilot-29-38-global-r2-20260906025511/s029/29_38/global.discovery.json` only after
 completion checks pass. Do not write that final path yourself. The supplied
 monitor lifecycle commands are also allowed. Stay available for composition.
 
 ## Reading And Checkpoints
 
-The sealed input consists of this instruction file, `@@READING_PLAN_PATH@@`,
-and the full evidence snapshot `@@PACKET_PATH@@`. Use this helper:
+The sealed input consists of this instruction file, `_commentary/v6/input/pilot-29-38-global-r2-20260906025511/s029/29_38/global.reading.json`,
+and the full evidence snapshot `_commentary/v6/input/pilot-29-38-global-r2-20260906025511/s029/29_38/global.packet.json`. Use this helper:
 
 ```text
-python3 _commentary/v6/discovery.py --plan @@READING_PLAN_PATH@@ init
-python3 _commentary/v6/discovery.py --plan @@READING_PLAN_PATH@@ status
-python3 _commentary/v6/discovery.py --plan @@READING_PLAN_PATH@@ read --batch BATCH_ID --page N
-python3 _commentary/v6/discovery.py --plan @@READING_PLAN_PATH@@ lookup --pointer /branch_registry/0 --page N
-python3 _commentary/v6/discovery.py --plan @@READING_PLAN_PATH@@ complete --batch BATCH_ID
+python3 _commentary/v6/discovery.py --plan _commentary/v6/input/pilot-29-38-global-r2-20260906025511/s029/29_38/global.reading.json init
+python3 _commentary/v6/discovery.py --plan _commentary/v6/input/pilot-29-38-global-r2-20260906025511/s029/29_38/global.reading.json status
+python3 _commentary/v6/discovery.py --plan _commentary/v6/input/pilot-29-38-global-r2-20260906025511/s029/29_38/global.reading.json read --batch BATCH_ID --page N
+python3 _commentary/v6/discovery.py --plan _commentary/v6/input/pilot-29-38-global-r2-20260906025511/s029/29_38/global.reading.json lookup --pointer /branch_registry/0 --page N
+python3 _commentary/v6/discovery.py --plan _commentary/v6/input/pilot-29-38-global-r2-20260906025511/s029/29_38/global.reading.json complete --batch BATCH_ID
 ```
 
 - On first use run `init`; after interruption or compaction run `status` and
@@ -82,7 +82,7 @@ Record what this cross-batch review established or left unresolved in
 set its `coverage_complete` to true, and run:
 
 ```text
-python3 _commentary/v6/discovery.py --plan @@READING_PLAN_PATH@@ finish
+python3 _commentary/v6/discovery.py --plan _commentary/v6/input/pilot-29-38-global-r2-20260906025511/s029/29_38/global.reading.json finish
 ```
 
 Repair any reported checkpoint errors yourself and retry. These checks establish
@@ -175,7 +175,7 @@ source accounting; they do not decide whether a semantic reading is convincing.
 
 ## Lane-Specific Procedure
 
-@@LANE_SPECIFIC_PROCEDURE@@
+- No additional lane-specific procedure.
 
 ## Final Discovery Schema
 
@@ -183,16 +183,16 @@ Put exactly these fields under checkpoint `discovery`:
 
 ```json
 {
-  "schema_version": "@@SCOPE_DISCOVERY_SCHEMA_VERSION@@",
-  "ayah_ref": "@@AYAH_REF@@",
-  "lane": "@@LANE@@",
+  "schema_version": "commentary-v6-scope-discovery-v2",
+  "ayah_ref": "29:38",
+  "lane": "global",
   "coverage_complete": true,
   "candidate_decisions": [
     {
       "candidate_id": "exact packet candidate ID",
       "decision": "accept | narrow | represented | reject",
       "reason": "specific evidentiary reason",
-      "finding_refs": ["@@LANE@@:stable-key"],
+      "finding_refs": ["global:stable-key"],
       "branch_exclusions": [
         {"branch_ref": "exact ref", "reason": "specific reason"}
       ],
@@ -209,7 +209,7 @@ Put exactly these fields under checkpoint `discovery`:
   ],
   "findings": [
     {
-      "finding_ref": "@@LANE@@:stable-key",
+      "finding_ref": "global:stable-key",
       "origin_candidate_id": "accepted/narrowed candidate ID, or null",
       "represented_candidate_ids": ["exact duplicate candidate ID"],
       "title": "short descriptive title",
@@ -258,7 +258,7 @@ Put exactly these fields under checkpoint `discovery`:
 ```
 
 Use empty arrays, not placeholders. Finding refs must be unique and begin with
-`@@LANE@@:`. Accepted/narrowed candidates own dedicated findings. A represented
+`global:`. Accepted/narrowed candidates own dedicated findings. A represented
 candidate points to one exact-duplicate finding. Every cited ID/ref must exist
 in the packet. Every branch activation must copy the exact gloss/facet source,
 use a valid carrier occurrence, identify a distinct trigger, and return through
@@ -277,5 +277,83 @@ when that support's `text` is serialized JSON; it is not permission to read an
 external file.
 
 <discovery_policy>
-@@DISCOVERY_POLICY_MD@@
+# V6 discovery standard
+
+This compact policy is authoritative for the discovery turn. The longer project
+documents remain design history; their repeated prose is intentionally not part
+of every hermetic lane prompt.
+
+## Evidence
+
+- Establish readings from supplied evidence before writing prose. A candidate,
+  prior label, channel, reader walk, HFT item, dictionary branch, or retrieval
+  rank is a nomination, never a verdict.
+- Do not solve ambiguity by choosing a winner. Retain materially distinct,
+  grounded readings together and state the boundary of each. Branch alternative
+  groups are alternatives: their members must not be treated as cumulatively
+  established merely because all are visible.
+- Root membership alone does not activate a branch. Activation needs a surface
+  carrier, an independent trigger, an intelligible contact, a changed reading,
+  a reader payoff, and a limit. The trigger must add something beyond repeating
+  the branch gloss.
+- Preserve counterevidence, uncertainty, unresolved identity, and failed edges.
+  Source trust changes qualification; it does not make evidence invisible or
+  automatically acceptable.
+- Preserve complete explanatory chains. A vivid image without the lexical or
+  structural evidence that licensed it is not preserved. In particular, retain
+  the source lexical item or branch feature, the independent contact, the change
+  it makes to the focus, and the boundary that prevents false translation or
+  etymology.
+- For a same-root resonance, explicitly distinguish the other attested lexical
+  item or sense from the focus form's meaning. Preserve its form restrictions;
+  naming the shared image alone does not establish that lexical connection.
+- Every resonance must preserve the ordinary reading intact and keep it
+  recoverable where the resonance is explained. Develop that reading; do not
+  replace it with an alternative disguised as a deeper meaning.
+- Keep morphology and syntax distinct. An accusative form establishes case, not
+  objecthood by itself; identify the governing construction before assigning a
+  syntactic role, including the predicate of a copular `kana` construction.
+
+## Coverage
+
+- Inspect every focus surface and decide every supplied candidate once. Also
+  inspect the complete branch inventory, supports, and lane connections
+  for grounded findings that no candidate nominated.
+- Do not turn coverage into a catalogue or a quota. Negative branch-by-branch
+  reporting is unnecessary unless a supplied candidate attached that semantic
+  obligation, branch, facet, or context reference.
+- A narrow or rejected candidate must hand its exclusions forward explicitly.
+  A represented candidate must be an exact semantic duplicate of the named
+  finding. Stable packet IDs must be copied exactly.
+- Retrieval order and prior strength labels help locate evidence; they may not
+  filter, rank, or suppress it. Do not call one resonance the deepest, central,
+  governing, or real reading.
+
+## Scope
+
+- Micro concerns the focus wording: ordinary sense, morphology, syntax, sound,
+  root pressure, and contacts among focus words.
+- Macro concerns what the declared local context changes. A host basmala and
+  explicitly added ayat are non-focus context, not new focus candidates.
+- Global concerns a wider Quranic contact only when an exact wider trigger
+  returns through a focus word, relation, or act and changes how it is read.
+- The packet's `v6_routing` and `required_context_refs` are authoritative. Do
+  not reject evidence merely because an upstream source originally assigned it
+  to another lane.
+- Candidate-specific supports control routing. Shared word evidence remains
+  visible for lexical inspection, but its incidental Quran references do not
+  silently move every candidate attached to that word. A focus-only legacy
+  reader activation belongs in micro; assess only its assembled local mechanism
+  and do not convert absent wider context into a negative semantic decision.
+
+## Reader standard
+
+The later Turkish prose must first leave the ordinary sense clear, then make
+each retained development understandable to a reader who does not know Arabic.
+It must explain what the Arabic form contributes without exposing internal IDs,
+turning a local surprise into a surah thesis, or mixing provenance apparatus
+into prose. Discovery records therefore need enough concrete lexical,
+grammatical, contextual, and boundary detail for that prose to be written
+without inventing a missing link.
+
 </discovery_policy>

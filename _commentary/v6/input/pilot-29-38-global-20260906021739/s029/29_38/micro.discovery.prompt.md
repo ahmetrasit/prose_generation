@@ -1,50 +1,41 @@
 # Commentary v6 scope discovery
 
-You are the **@@LANE@@** scope discoverer for **@@AYAH_REF@@**. Complete this
+You are the **micro** scope discoverer for **29:38**. Complete this
 discovery phase across as many bounded reads and continuations as needed.
 Decide what the supplied evidence supports. Do not write polished commentary.
 
-Your working checkpoint is `@@WORK_OUTPUT_PATH@@`. Edit only its analytical
+Your working checkpoint is `_commentary/v6/raw/pilot-29-38-global-20260906021739/s029/29_38/micro.work.json`. Edit only its analytical
 fields: `notes`, `leads`, `cross_batch_review`, and `discovery`. Preserve its
 identity and delivery/completion fields. Load the existing file before each
 update and save atomically; a sibling temporary file is allowed for replacement.
-The helper maintains progress and writes `@@DISCOVERY_OUTPUT_PATH@@` only after
+The helper maintains progress and writes `_commentary/v6/raw/pilot-29-38-global-20260906021739/s029/29_38/micro.discovery.json` only after
 completion checks pass. Do not write that final path yourself. The supplied
 monitor lifecycle commands are also allowed. Stay available for composition.
 
 ## Reading And Checkpoints
 
-The sealed input consists of this instruction file, `@@READING_PLAN_PATH@@`,
-and the full evidence snapshot `@@PACKET_PATH@@`. Use this helper:
+The sealed input consists of this instruction file, `_commentary/v6/input/pilot-29-38-global-20260906021739/s029/29_38/micro.reading.json`,
+and the full evidence snapshot `_commentary/v6/input/pilot-29-38-global-20260906021739/s029/29_38/micro.packet.json`. Use this helper:
 
 ```text
-python3 _commentary/v6/discovery.py --plan @@READING_PLAN_PATH@@ init
-python3 _commentary/v6/discovery.py --plan @@READING_PLAN_PATH@@ status
-python3 _commentary/v6/discovery.py --plan @@READING_PLAN_PATH@@ read --batch BATCH_ID --page N
-python3 _commentary/v6/discovery.py --plan @@READING_PLAN_PATH@@ lookup --pointer /branch_registry/0 --page N
-python3 _commentary/v6/discovery.py --plan @@READING_PLAN_PATH@@ complete --batch BATCH_ID
+python3 _commentary/v6/discovery.py --plan _commentary/v6/input/pilot-29-38-global-20260906021739/s029/29_38/micro.reading.json init
+python3 _commentary/v6/discovery.py --plan _commentary/v6/input/pilot-29-38-global-20260906021739/s029/29_38/micro.reading.json status
+python3 _commentary/v6/discovery.py --plan _commentary/v6/input/pilot-29-38-global-20260906021739/s029/29_38/micro.reading.json read --batch BATCH_ID --page N
+python3 _commentary/v6/discovery.py --plan _commentary/v6/input/pilot-29-38-global-20260906021739/s029/29_38/micro.reading.json lookup --pointer /branch_registry/0 --page N
+python3 _commentary/v6/discovery.py --plan _commentary/v6/input/pilot-29-38-global-20260906021739/s029/29_38/micro.reading.json complete --batch BATCH_ID
 ```
 
 - On first use run `init`; after interruption or compaction run `status` and
   reload your checkpoint. Re-read the focus evidence and any source facts needed
   to continue. Resume unfinished work without treating a conversation summary
   as the source of an exact quotation, exclusion, or morphological identity.
-- Work on the `next_batch` returned by `status`: read its pages, checkpoint its
-  review and useful leads, then run `complete` before starting another batch.
-  The helper enforces this order. Earlier batches remain readable; use `lookup`
-  for a specific comparison that needs a later source. A batch review can record
-  an observation, counter-reading, unresolved contact, or a reason no further
-  lead emerged. Keep it concise; no negative essay per record or finding quota.
-- Return each evidence or catalog page intact to your model context, one page
-  per tool response. Do not filter, project, summarize, or collect pages inside
-  code before you have read them. A helper delivery count does not establish
-  that your tool wrapper presented the evidence. Reciprocal notes, qualifications,
-  and every variant of a facet statement are part of the semantic evidence.
-- Pages contain at most 24,000 UTF-8 bytes and identify `page` and `page_count`.
-  Request at least 32,000 output tokens on the command tool and its outer wrapper
-  (for `functions.exec`, use `// @exec: {"max_output_tokens": 32000}`). Return
-  the command output verbatim and check for truncation. A truncated or failed
-  response is unread; retrieve it again. Oversized source records are
+- Follow the plan's batches. Each page carries source pointers, record identity,
+  `page`, and `page_count`. Read every page of a batch; save findings, useful
+  observations and unfinished leads before marking it complete. Completing a
+  batch records review, not acceptance. No negative essay per record is required.
+- Pages contain at most 24,000 UTF-8 bytes. Request a tool-output allowance of at
+  least 32,000 tokens and check for truncation. A truncated response is unread;
+  retrieve it again before completing its batch. Oversized source records are
   split into exact field pieces or explicitly numbered string fragments, and
   may continue across batches. Preserve the unfinished lead until all relevant
   pieces have been inspected.
@@ -52,22 +43,12 @@ python3 _commentary/v6/discovery.py --plan @@READING_PLAN_PATH@@ complete --batc
   needs evidence from another batch. Inspect complete relevant records and all
   fragments before deciding the claim. Always consider the whole focus; batch
   boundaries neither restrict possible triggers nor create separate readings.
-- Before completing each batch, save at least one `notes` entry using
-  `{"batch_id":"BATCH_ID","note":"specific review","source_pointers":["/..."]}`
-  with a pointer to evidence in that batch. Preserve useful observations even
-  without a candidate. Additional cross-batch notes may omit `batch_id`.
+- `notes` entries use `{"note":"observation","source_pointers":["/..."]}`.
+  Keep useful observations even when they have not produced a candidate.
   `leads` entries use `lead_id`, `note`, `source_pointers`, `status`, `resolution`,
   and `finding_refs`. Status is `open`, `landed`, `closed`, or `unresolved`.
   Preserve earlier leads and record their disposition instead of deleting them.
   Copy an unresolved lead's resolution into the final `friction_notes`.
-
-Use code to serialize your judgments and copy exact source identities or wording.
-Make each semantic judgment yourself: choose a facet for its meaning, identify
-its actual carrier, and explain its particular contact with the trigger. Never
-default to the first/core facet, a convenient focus word, or reusable analytical
-sentences. A context branch can have its carrier in the context and a separate
-`focus_return_refs` link. An image applied across roots needs that relation
-explained explicitly. Core status alone does not establish activation.
 
 After all batches, read both complete catalogs with `read --catalog branches`
 and `read --catalog connections`, using `--page N` for every page. Compare the
@@ -82,7 +63,7 @@ Record what this cross-batch review established or left unresolved in
 set its `coverage_complete` to true, and run:
 
 ```text
-python3 _commentary/v6/discovery.py --plan @@READING_PLAN_PATH@@ finish
+python3 _commentary/v6/discovery.py --plan _commentary/v6/input/pilot-29-38-global-20260906021739/s029/29_38/micro.reading.json finish
 ```
 
 Repair any reported checkpoint errors yourself and retry. These checks establish
@@ -120,11 +101,6 @@ source accounting; they do not decide whether a semantic reading is convincing.
   independent trigger, a mechanism, a changed reading, a reader payoff, and a
   boundary. Another word, root, image, grammatical relation, or act can be the
   trigger. Macro and global context may supply a trigger within that lane.
-- Evidence facts must state the concrete wording, morphological distinction, or
-  relation needed downstream. Give the relevant fact from each cited source;
-  saying that a source "supplies a trigger" supplies no such fact. Check the
-  morphology columns before interpreting arrays. Shared roots can have different
-  derived forms, and a qualified reading still needs accurate source facts.
 - `root_ids` on a word-analysis candidate are provenance normalization. They
   identify source/QAC root records but do not nominate or activate a branch.
   `root_branch_options` is the compact index of focus branches under those
@@ -175,7 +151,7 @@ source accounting; they do not decide whether a semantic reading is convincing.
 
 ## Lane-Specific Procedure
 
-@@LANE_SPECIFIC_PROCEDURE@@
+- No additional lane-specific procedure.
 
 ## Final Discovery Schema
 
@@ -183,16 +159,16 @@ Put exactly these fields under checkpoint `discovery`:
 
 ```json
 {
-  "schema_version": "@@SCOPE_DISCOVERY_SCHEMA_VERSION@@",
-  "ayah_ref": "@@AYAH_REF@@",
-  "lane": "@@LANE@@",
+  "schema_version": "commentary-v6-scope-discovery-v2",
+  "ayah_ref": "29:38",
+  "lane": "micro",
   "coverage_complete": true,
   "candidate_decisions": [
     {
       "candidate_id": "exact packet candidate ID",
       "decision": "accept | narrow | represented | reject",
       "reason": "specific evidentiary reason",
-      "finding_refs": ["@@LANE@@:stable-key"],
+      "finding_refs": ["micro:stable-key"],
       "branch_exclusions": [
         {"branch_ref": "exact ref", "reason": "specific reason"}
       ],
@@ -209,7 +185,7 @@ Put exactly these fields under checkpoint `discovery`:
   ],
   "findings": [
     {
-      "finding_ref": "@@LANE@@:stable-key",
+      "finding_ref": "micro:stable-key",
       "origin_candidate_id": "accepted/narrowed candidate ID, or null",
       "represented_candidate_ids": ["exact duplicate candidate ID"],
       "title": "short descriptive title",
@@ -258,7 +234,7 @@ Put exactly these fields under checkpoint `discovery`:
 ```
 
 Use empty arrays, not placeholders. Finding refs must be unique and begin with
-`@@LANE@@:`. Accepted/narrowed candidates own dedicated findings. A represented
+`micro:`. Accepted/narrowed candidates own dedicated findings. A represented
 candidate points to one exact-duplicate finding. Every cited ID/ref must exist
 in the packet. Every branch activation must copy the exact gloss/facet source,
 use a valid carrier occurrence, identify a distinct trigger, and return through
@@ -277,5 +253,83 @@ when that support's `text` is serialized JSON; it is not permission to read an
 external file.
 
 <discovery_policy>
-@@DISCOVERY_POLICY_MD@@
+# V6 discovery standard
+
+This compact policy is authoritative for the discovery turn. The longer project
+documents remain design history; their repeated prose is intentionally not part
+of every hermetic lane prompt.
+
+## Evidence
+
+- Establish readings from supplied evidence before writing prose. A candidate,
+  prior label, channel, reader walk, HFT item, dictionary branch, or retrieval
+  rank is a nomination, never a verdict.
+- Do not solve ambiguity by choosing a winner. Retain materially distinct,
+  grounded readings together and state the boundary of each. Branch alternative
+  groups are alternatives: their members must not be treated as cumulatively
+  established merely because all are visible.
+- Root membership alone does not activate a branch. Activation needs a surface
+  carrier, an independent trigger, an intelligible contact, a changed reading,
+  a reader payoff, and a limit. The trigger must add something beyond repeating
+  the branch gloss.
+- Preserve counterevidence, uncertainty, unresolved identity, and failed edges.
+  Source trust changes qualification; it does not make evidence invisible or
+  automatically acceptable.
+- Preserve complete explanatory chains. A vivid image without the lexical or
+  structural evidence that licensed it is not preserved. In particular, retain
+  the source lexical item or branch feature, the independent contact, the change
+  it makes to the focus, and the boundary that prevents false translation or
+  etymology.
+- For a same-root resonance, explicitly distinguish the other attested lexical
+  item or sense from the focus form's meaning. Preserve its form restrictions;
+  naming the shared image alone does not establish that lexical connection.
+- Every resonance must preserve the ordinary reading intact and keep it
+  recoverable where the resonance is explained. Develop that reading; do not
+  replace it with an alternative disguised as a deeper meaning.
+- Keep morphology and syntax distinct. An accusative form establishes case, not
+  objecthood by itself; identify the governing construction before assigning a
+  syntactic role, including the predicate of a copular `kana` construction.
+
+## Coverage
+
+- Inspect every focus surface and decide every supplied candidate once. Also
+  inspect the complete branch inventory, supports, and lane connections
+  for grounded findings that no candidate nominated.
+- Do not turn coverage into a catalogue or a quota. Negative branch-by-branch
+  reporting is unnecessary unless a supplied candidate attached that semantic
+  obligation, branch, facet, or context reference.
+- A narrow or rejected candidate must hand its exclusions forward explicitly.
+  A represented candidate must be an exact semantic duplicate of the named
+  finding. Stable packet IDs must be copied exactly.
+- Retrieval order and prior strength labels help locate evidence; they may not
+  filter, rank, or suppress it. Do not call one resonance the deepest, central,
+  governing, or real reading.
+
+## Scope
+
+- Micro concerns the focus wording: ordinary sense, morphology, syntax, sound,
+  root pressure, and contacts among focus words.
+- Macro concerns what the declared local context changes. A host basmala and
+  explicitly added ayat are non-focus context, not new focus candidates.
+- Global concerns a wider Quranic contact only when an exact wider trigger
+  returns through a focus word, relation, or act and changes how it is read.
+- The packet's `v6_routing` and `required_context_refs` are authoritative. Do
+  not reject evidence merely because an upstream source originally assigned it
+  to another lane.
+- Candidate-specific supports control routing. Shared word evidence remains
+  visible for lexical inspection, but its incidental Quran references do not
+  silently move every candidate attached to that word. A focus-only legacy
+  reader activation belongs in micro; assess only its assembled local mechanism
+  and do not convert absent wider context into a negative semantic decision.
+
+## Reader standard
+
+The later Turkish prose must first leave the ordinary sense clear, then make
+each retained development understandable to a reader who does not know Arabic.
+It must explain what the Arabic form contributes without exposing internal IDs,
+turning a local surprise into a surah thesis, or mixing provenance apparatus
+into prose. Discovery records therefore need enough concrete lexical,
+grammatical, contextual, and boundary detail for that prose to be written
+without inventing a missing link.
+
 </discovery_policy>

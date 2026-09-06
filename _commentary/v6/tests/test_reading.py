@@ -116,11 +116,21 @@ class CompletionTests(unittest.TestCase):
         self.session = discovery.Session(self.plan_path, raw_root=self.root / "raw")
         self.session.init()
 
+    def checkpoint_batch(self, bid):
+        work = self.session.load_work()
+        work["notes"].append({"batch_id": bid, "note": "Fixture batch review",
+                              "source_pointers": [self.session.batches[bid]["pointers"][0]]})
+        self.session.save(work)
+
+    def deliver_batch(self, bid):
+        for n in range(1, len(self.session.batch_pages(bid)) + 1):
+            self.session.read(bid, None, n)
+        self.checkpoint_batch(bid)
+        self.session.complete(bid)
+
     def deliver_batches(self):
         for bid in self.session.batches:
-            for n in range(1, len(self.session.batch_pages(bid)) + 1):
-                self.session.read(bid, None, n)
-            self.session.complete(bid)
+            self.deliver_batch(bid)
 
     def deliver_catalogs(self):
         for kind in ("branches", "connections"):
@@ -152,15 +162,63 @@ class CompletionTests(unittest.TestCase):
 
     def test_missing_pages_and_early_catalog_reads_do_not_allow_completion(self):
         bid = next(b for b in self.session.batches if len(self.session.batch_pages(b)) > 1)
+        for earlier in self.session.batches:
+            if earlier == bid:
+                break
+            self.deliver_batch(earlier)
         self.session.read(bid, None, 1)
         with self.assertRaisesRegex(discovery.DiscoveryError, "every page"):
             self.session.complete(bid)
-        self.deliver_catalogs()
+        with self.assertRaisesRegex(discovery.DiscoveryError, "reading batches"):
+            self.session.read(None, "branches", 1)
         self.assertEqual(self.session.load_work()["catalog_pages"], {})
         self.deliver_batches()
         with self.assertRaisesRegex(discovery.DiscoveryError, "catalog"):
             self.session.finish()
         self.assertFalse(self.session.output_path.exists())
+
+    def test_later_batch_requires_a_review_of_the_current_batch(self):
+        first, second = list(self.session.batches)[:2]
+        with self.assertRaisesRegex(discovery.DiscoveryError, "Checkpoint and complete"):
+            self.session.read(second, None, 1)
+        self.assertNotIn(second, self.session.load_work()["read_pages"])
+        # Targeted investigation remains possible without crediting a later batch.
+        self.session.lookup(self.session.batches[second]["pointers"][0], 1)
+        self.assertNotIn(second, self.session.load_work()["read_pages"])
+        for n in range(1, len(self.session.batch_pages(first)) + 1):
+            self.session.read(first, None, n)
+        with self.assertRaisesRegex(discovery.DiscoveryError, "Save a notes entry"):
+            self.session.complete(first)
+        work = self.session.load_work()
+        work["notes"] = [{"batch_id": first, "note": "This reviews another batch",
+                          "source_pointers": [self.session.batches[second]["pointers"][0]]}]
+        self.session.save(work)
+        with self.assertRaisesRegex(discovery.DiscoveryError, "Save a notes entry"):
+            self.session.complete(first)
+        self.checkpoint_batch(first)
+        self.session.complete(first)
+        self.session.read(second, None, 1)
+        self.session.read(first, None, 1)  # Completed evidence stays accessible.
+
+    def test_bad_review_pointers_fail_at_batch_completion_and_id_pointers_work(self):
+        for bid in self.session.batches:
+            for n in range(1, len(self.session.batch_pages(bid)) + 1):
+                self.session.read(bid, None, n)
+            self.checkpoint_batch(bid)
+            work = self.session.load_work()
+            pointer = work["notes"][-1]["source_pointers"][0]
+            work["notes"][-1]["source_pointers"] = ["/focus/missing"]
+            self.session.save(work)
+            with self.assertRaisesRegex(reading.ReadingError, "Unknown packet pointer"):
+                self.session.complete(bid)
+            if pointer.startswith("/branch_registry/0"):
+                pointer = pointer.replace("/branch_registry/0", "/branch_registry/root~1B001", 1)
+            work["notes"][-1]["source_pointers"] = [pointer]
+            self.session.save(work)
+            self.session.complete(bid)
+        # Completion and reads remain idempotent after the final batch.
+        self.session.complete(bid)
+        self.session.read(bid, None, 1)
 
     def test_changed_evidence_instructions_or_plan_cannot_resume(self):
         for name in ("global.packet.json", "global.discovery.prompt.md", "global.reading.json"):
