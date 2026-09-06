@@ -329,5 +329,10 @@ The [first Luna semantic pilot](reviews/29-38-global-pilot-2026-09-06.md) comple
 but exposed delayed checkpoints, filtered tool responses, and a wrong facet
 choice that passed mechanical validation. Batch progression now requires a
 source-grounded checkpoint, and the prompt explicitly requires intact page
-reads and individual semantic judgments. A fresh pilot must evaluate those
-behavioral changes before drawing conclusions about large-packet readiness.
+reads and individual semantic judgments. The
+[fresh rerun](reviews/29-38-global-rerun-2026-09-06.md) preserved batch reviews
+through four compactions and removed the original facet error and boilerplate.
+It still made false source-availability exclusions, and the inherited
+core/extension rule induced an unsupported grammatical activation. These
+semantic failures remain unresolved; the run does not establish large-packet
+readiness.
