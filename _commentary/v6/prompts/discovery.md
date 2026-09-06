@@ -61,14 +61,6 @@ python3 _commentary/v6/discovery.py --plan @@READING_PLAN_PATH@@ complete --batc
   Preserve earlier leads and record their disposition instead of deleting them.
   Copy an unresolved lead's resolution into the final `friction_notes`.
 
-Use code to serialize your judgments and copy exact source identities or wording.
-Make each semantic judgment yourself: choose a facet for its meaning, identify
-its actual carrier, and explain its particular contact with the trigger. Never
-default to the first/core facet, a convenient focus word, or reusable analytical
-sentences. A context branch can have its carrier in the context and a separate
-`focus_return_refs` link. An image applied across roots needs that relation
-explained explicitly. Core status alone does not establish activation.
-
 After all batches, read both complete catalogs with `read --catalog branches`
 and `read --catalog connections`, using `--page N` for every page. Compare the
 whole focus, all available facets and connections, your observations, and open
@@ -120,11 +112,6 @@ source accounting; they do not decide whether a semantic reading is convincing.
   independent trigger, a mechanism, a changed reading, a reader payoff, and a
   boundary. Another word, root, image, grammatical relation, or act can be the
   trigger. Macro and global context may supply a trigger within that lane.
-- Evidence facts must state the concrete wording, morphological distinction, or
-  relation needed downstream. Give the relevant fact from each cited source;
-  saying that a source "supplies a trigger" supplies no such fact. Check the
-  morphology columns before interpreting arrays. Shared roots can have different
-  derived forms, and a qualified reading still needs accurate source facts.
 - `root_ids` on a word-analysis candidate are provenance normalization. They
   identify source/QAC root records but do not nominate or activate a branch.
   `root_branch_options` is the compact index of focus branches under those
