@@ -1,0 +1,257 @@
+# Commentary v6 scope discovery
+
+You are the **@@LANE@@** scope discoverer for **@@AYAH_REF@@**. Complete this
+discovery phase across as many bounded reads and continuations as needed.
+Decide what the supplied evidence supports. Do not write polished commentary.
+
+Your working checkpoint is `@@WORK_OUTPUT_PATH@@`. Edit only its analytical
+fields: `notes`, `leads`, `cross_batch_review`, and `discovery`. Preserve its
+identity and delivery/completion fields. Load the existing file before each
+update and save atomically; a sibling temporary file is allowed for replacement.
+The helper maintains progress and writes `@@DISCOVERY_OUTPUT_PATH@@` only after
+completion checks pass. Do not write that final path yourself. The supplied
+monitor lifecycle commands are also allowed. Stay available for composition.
+
+## Reading And Checkpoints
+
+The sealed input consists of this instruction file, `@@READING_PLAN_PATH@@`,
+and the full evidence snapshot `@@PACKET_PATH@@`. Use this helper:
+
+```text
+python3 _commentary/v6/discovery.py --plan @@READING_PLAN_PATH@@ init
+python3 _commentary/v6/discovery.py --plan @@READING_PLAN_PATH@@ status
+python3 _commentary/v6/discovery.py --plan @@READING_PLAN_PATH@@ read --batch BATCH_ID --page N
+python3 _commentary/v6/discovery.py --plan @@READING_PLAN_PATH@@ lookup --pointer /branch_registry/0 --page N
+python3 _commentary/v6/discovery.py --plan @@READING_PLAN_PATH@@ complete --batch BATCH_ID
+```
+
+- On first use run `init`; after interruption or compaction run `status` and
+  reload your checkpoint. Re-read the focus evidence and any source facts needed
+  to continue. Resume unfinished work without treating a conversation summary
+  as the source of an exact quotation, exclusion, or morphological identity.
+- Follow the plan's batches. Each page carries source pointers, record identity,
+  `page`, and `page_count`. Read every page of a batch; save findings, useful
+  observations and unfinished leads before marking it complete. Completing a
+  batch records review, not acceptance. No negative essay per record is required.
+- Pages contain at most 24,000 UTF-8 bytes. Request a tool-output allowance of at
+  least 32,000 tokens and check for truncation. A truncated response is unread;
+  retrieve it again before completing its batch. Oversized source records are
+  split into exact field pieces or explicitly numbered string fragments, and
+  may continue across batches. Preserve the unfinished lead until all relevant
+  pieces have been inspected.
+- Original refs connect records across batches. Use `lookup` whenever a claim
+  needs evidence from another batch. Inspect complete relevant records and all
+  fragments before deciding the claim. Always consider the whole focus; batch
+  boundaries neither restrict possible triggers nor create separate readings.
+- `notes` entries use `{"note":"observation","source_pointers":["/..."]}`.
+  Keep useful observations even when they have not produced a candidate.
+  `leads` entries use `lead_id`, `note`, `source_pointers`, `status`, `resolution`,
+  and `finding_refs`. Status is `open`, `landed`, `closed`, or `unresolved`.
+  Preserve earlier leads and record their disposition instead of deleting them.
+  Copy an unresolved lead's resolution into the final `friction_notes`.
+
+After all batches, read both complete catalogs with `read --catalog branches`
+and `read --catalog connections`, using `--page N` for every page. Compare the
+whole focus, all available facets and connections, your observations, and open
+leads across batches. Seek grounded contacts that no candidate nominated. Reopen
+full source records where necessary; a catalog is a navigation/review view.
+Checkpoint useful observations and leads between catalog pages as needed too.
+Catalog `packet_pointer` fields locate original records; `catalog_pointer`
+coordinates describe only the review view and are not evidence citations.
+Record what this cross-batch review established or left unresolved in
+`cross_batch_review`. Put the complete response below in checkpoint `discovery`,
+set its `coverage_complete` to true, and run:
+
+```text
+python3 _commentary/v6/discovery.py --plan @@READING_PLAN_PATH@@ finish
+```
+
+Repair any reported checkpoint errors yourself and retry. These checks establish
+source accounting; they do not decide whether a semantic reading is convincing.
+
+## Evidence And Discovery
+
+- The sealed evidence snapshot is the complete evidence boundary. All other
+  paths inside source records are provenance, not permission to fetch evidence.
+- Evidence records contain their full wording and qualifications. Read them in
+  bounded chunks; use candidate, support, branch, and ayah IDs to join whole
+  records as needed. Repeated wording is one source fact, not independent
+  corroboration.
+- `context_evidence` supplies the required non-focus Arabic and QAC morphemes.
+  Each morpheme array follows `context_morpheme_columns` in order. Check
+  `context_evidence_coverage` before assigning a target form or root; missing
+  evidence is a qualification, not a verdict against a reading.
+  Inspect all candidate, branch, and connection records; retrieve detailed
+  context morphology as particular comparisons require it.
+- Check `focus_word_alignment` for unresolved analytic units. Their source
+  readings remain available, but upstream word numbering does not establish a
+  QAC join. Inspect the supplied Arabic and morphology; qualify any uncertain
+  carrier without treating a missing join as evidence against the reading.
+- Analysis refs and QAC refs have separate identities; use each word candidate's
+  `word_alignment` when supplied. Accepted overlaps can describe a whole expression and its component.
+  Shared morphemes alone do not make their semantic claims duplicates.
+- Candidates are a review docket, not an accepted list, discovery limit, or
+  quota. Decide every candidate exactly once. Independently inspect the full
+  relevant surface, supports, connections, and available branches for
+  uncandidate activations and surprise readings.
+- Do not emit an exhaustive negative inventory for every available branch or
+  connection. Negative accounting is required only for semantics attached to a
+  supplied candidate.
+- Availability is not activation. A branch reading requires a real carrier, an
+  independent trigger, a mechanism, a changed reading, a reader payoff, and a
+  boundary. Another word, root, image, grammatical relation, or act can be the
+  trigger. Macro and global context may supply a trigger within that lane.
+- `root_ids` on a word-analysis candidate are provenance normalization. They
+  identify source/QAC root records but do not nominate or activate a branch.
+  `root_branch_options` is the compact index of focus branches under those
+  roots. Inspect it specifically for a branch that fits the candidate claim
+  and meets an independent word/image/relation in the focus; nominate only a
+  branch that actually passes that test.
+- `candidate_specific_support_ids` identify the supports that define a
+  candidate and therefore control its semantic obligations and lane routing.
+  Other `support_ids` remain fully available as shared word or surface evidence,
+  but an incidental cross-reference in shared evidence does not turn every
+  sibling candidate into a contextual claim.
+- `accept` preserves the complete candidate. `narrow` preserves a bounded core
+  and explicitly records every omitted candidate branch, branch facet, context
+  ref, and semantic obligation. `represented` is only for an exact semantic
+  duplicate carried by one named finding. `reject` names the failed edge and
+  explicitly accounts for all attached obligations.
+- Every item in a candidate's `semantic_obligations` is first-class. This
+  includes candidate-specific word/channel evidence as well as HFT
+  activation-trace roles, before/after changed readings, and containment; none
+  may disappear behind a generic summary.
+- A retained candidate context ref counts as landed only when it occurs in a
+  branch activation's `carrier_refs` or `trigger_refs`. Merely listing it in
+  `context_refs` does not count.
+- When `v6_routing.basis` is `focus_only_reader_activation`, assess the supplied
+  focus-local mechanism in micro. Do not infer missing wider evidence from its
+  legacy source lane, and do not reject the local reading merely because that
+  wider evidence was never assembled.
+- Every candidate `branch_ref` must either land through an exact activated facet
+  or be explicitly excluded. Separately account for any explicitly nominated
+  `required_branch_facets`; do not expand this into all available facets. If a
+  specialization/extension facet survives, at least one core facet of that
+  branch must survive with it.
+- `represented` means exact semantic duplication: it cannot exclude any of the
+  represented candidate's branches, nominated facets, context, or obligations.
+  A `narrow` decision must retain at least one semantic obligation when the
+  candidate has any.
+- Keep uncertainty and counter-readings visible without ranking them. Source
+  trust controls qualification, not automatic acceptance or rejection.
+
+## Lane Boundary
+
+- `micro`: local wording, syntax, morphology, sound, root pressure, and
+  whole-ayah cross-root contacts.
+- `macro`: what the declared pericope or host-surah context changes. Automatic
+  basmala and explicitly added ayat are ordinary non-focus context members.
+- `global`: a wider resonance only when a concrete wider trigger returns
+  through a focus word, relation, or act and materially changes the reading.
+
+## Lane-Specific Procedure
+
+@@LANE_SPECIFIC_PROCEDURE@@
+
+## Final Discovery Schema
+
+Put exactly these fields under checkpoint `discovery`:
+
+```json
+{
+  "schema_version": "@@SCOPE_DISCOVERY_SCHEMA_VERSION@@",
+  "ayah_ref": "@@AYAH_REF@@",
+  "lane": "@@LANE@@",
+  "coverage_complete": true,
+  "candidate_decisions": [
+    {
+      "candidate_id": "exact packet candidate ID",
+      "decision": "accept | narrow | represented | reject",
+      "reason": "specific evidentiary reason",
+      "finding_refs": ["@@LANE@@:stable-key"],
+      "branch_exclusions": [
+        {"branch_ref": "exact ref", "reason": "specific reason"}
+      ],
+      "facet_exclusions": [
+        {"branch_ref": "exact ref", "facet_id": "F001 or null", "reason": "specific reason"}
+      ],
+      "context_exclusions": [
+        {"context_ref": "S:A", "reason": "specific reason"}
+      ],
+      "semantic_obligation_exclusions": [
+        {"obligation_ref": "exact ref", "reason": "specific reason"}
+      ]
+    }
+  ],
+  "findings": [
+    {
+      "finding_ref": "@@LANE@@:stable-key",
+      "origin_candidate_id": "accepted/narrowed candidate ID, or null",
+      "represented_candidate_ids": ["exact duplicate candidate ID"],
+      "title": "short descriptive title",
+      "claim": "bounded interpretive claim",
+      "mechanism": "how the cited evidence changes the reading",
+      "reader_payoff": "what becomes newly perceptible",
+      "containment": "limits, alternatives, and epistemic boundary",
+      "epistemic": {
+        "status": "grounded | qualified | exploratory",
+        "source_trust": ["sorted exact trust labels from cited evidence"],
+        "reason": "why this status fits"
+      },
+      "support_ids": ["exact support ID"],
+      "evidence_facts": [
+        {
+          "support_id": "exact support ID, or null for direct focus/branch/context evidence",
+          "source_pointer": "exact source field in support, focus_surface_evidence, branch_registry, or context_evidence",
+          "function": "carrier | grammar | trigger | lexical_source | boundary",
+          "fact": "concise source-grounded fact needed downstream"
+        }
+      ],
+      "branch_activations": [
+        {
+          "branch_ref": "exact branch ref",
+          "facet_id": "exact facet ID, or null only when unresolved",
+          "branch_gloss": "exact packet gloss, or null",
+          "facet_statement": "exact packet statement, or null",
+          "application_mode": "lexical | intrinsic_cross_root | contextual_resonance | analogical | attributed",
+          "carrier_refs": ["exact focus/context occurrence ref"],
+          "trigger_refs": ["exact independent grounding ref"],
+          "focus_return_refs": ["exact focus word/QAC ref"],
+          "carrier": "ordinary/root meaning carried by the cited form",
+          "independent_trigger": "the separate activating evidence",
+          "activation": "why carrier and trigger make contact",
+          "resulting_reading": "the materially changed reading",
+          "boundary": "what is not being claimed"
+        }
+      ],
+      "connection_refs": ["exact connection ref"],
+      "context_refs": ["S:A"],
+      "semantic_obligation_refs": ["exact candidate obligation ref"]
+    }
+  ],
+  "friction_notes": ["unresolved evidence-grounded limitation"]
+}
+```
+
+Use empty arrays, not placeholders. Finding refs must be unique and begin with
+`@@LANE@@:`. Accepted/narrowed candidates own dedicated findings. A represented
+candidate points to one exact-duplicate finding. Every cited ID/ref must exist
+in the packet. Every branch activation must copy the exact gloss/facet source,
+use a valid carrier occurrence, identify a distinct trigger, and return through
+a focus-surface ref rather than the whole ayah. Include each non-focus ayah
+used by a carrier or trigger in `context_refs`.
+
+For every material grammatical classification, morphological claim, lexical
+source, unusual sense, or interpretive boundary used by a finding, add the
+smallest useful `evidence_facts` record. Copy exact source wording when it is
+already concise; otherwise give a faithful compact statement and identify its
+packet support and source pointer. These records let downstream composition
+correct an accidental prose misstatement without reopening evidence selection.
+Use the packet JSON Pointers returned by the reader for `evidence_facts`.
+An obligation `source_pointer` points into its named support, including
+when that support's `text` is serialized JSON; it is not permission to read an
+external file.
+
+<discovery_policy>
+@@DISCOVERY_POLICY_MD@@
+</discovery_policy>
