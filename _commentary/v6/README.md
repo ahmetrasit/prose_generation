@@ -339,5 +339,13 @@ readiness.
 
 After that rerun, the discovery prompt's semantic instructions were restored
 to V5, retaining V6's reading and checkpoint procedure. New preparations use
-this revision; the saved pilot prompts and agent outputs preserve their original
-run conditions.
+this revision. Earlier pilot prompts and agent outputs remain available in Git
+history with their original run conditions.
+
+The [V5-semantics pilot](reviews/29-38-global-v5-semantics-2026-09-06.md) ran
+discovery and composition in the same fresh Luna max agent. All 125 scheduled
+pages reached the agent intact, but nine of its fifteen finding records became
+generic attributed placeholders with no retained context or branch activation.
+The prose preserved that contraction. Restoring V5 semantics alone did not
+recover V5's analysis; the review records the agent-authored narrowing script,
+later retrieval failures, comparison limits, and proposed procedural changes.
