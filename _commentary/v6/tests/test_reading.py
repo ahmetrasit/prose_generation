@@ -251,6 +251,85 @@ class CompletionTests(unittest.TestCase):
                 action()
         self.assertEqual(self.session.output_path.read_bytes(), original)
 
+    def test_literal_checkpoints_preserve_other_records_and_progress(self):
+        bid = next(iter(self.session.batches))
+        self.session.read(bid, None, 1)
+        progress = self.session.load_work()["read_pages"]
+        note = {"batch_id": bid, "note": "Literal observation", "source_pointers": ["/focus"]}
+        lead = {"lead_id": "L1", "note": "Compare this contact", "status": "open",
+                "source_pointers": ["/focus"], "resolution": "", "finding_refs": []}
+        finding = discovery_fixture()["findings"][0]
+        self.session.checkpoint({"notes": [note], "leads": [lead], "findings": [finding]})
+        self.session.checkpoint({"notes": [note], "leads": [{**lead, "status": "closed",
+                                 "resolution": "Explicitly withdrawn"}]})
+        work = self.session.load_work()
+        self.assertEqual(work["notes"], [note])
+        self.assertEqual(work["leads"][0]["resolution"], "Explicitly withdrawn")
+        self.assertEqual(work["read_pages"], progress)
+        self.assertEqual(work["discovery"]["findings"], [finding])
+        changed = {**finding, "claim": "Revised literal claim"}
+        self.session.checkpoint({"findings": [changed]})
+        self.assertEqual(self.session.load_work()["discovery"]["findings"], [changed])
+        self.session.checkpoint({"remove_finding_refs": [finding["finding_ref"]]})
+        self.assertEqual(self.session.load_work()["discovery"]["findings"], [])
+        self.assertEqual(self.session.load_work()["notes"], [note])
+
+    def test_bad_checkpoint_updates_are_atomic_and_cannot_change_progress(self):
+        original = self.session.work_path.read_bytes()
+        for update in (
+            {"read_pages": {}}, {"discovery": {"schema_version": "wrong"}},
+            {"notes": [{"note": "Lost pointer", "source_pointers": ["/missing"]}]},
+            {"findings": [{"finding_ref": "global:x"}, {"finding_ref": "global:x"}]},
+            {"coverage_complete": "true"}, {"remove_finding_refs": ["global:missing"]},
+        ):
+            with self.subTest(update=update), self.assertRaises(ValueError):
+                self.session.checkpoint(update)
+            self.assertEqual(self.session.work_path.read_bytes(), original)
+        self.completed_work()
+        self.session.finish()
+        original = self.session.work_path.read_bytes()
+        with self.assertRaisesRegex(discovery.DiscoveryError, "finalized"):
+            self.session.checkpoint({"friction_notes": ["Changed after finish"]})
+        self.assertEqual(self.session.work_path.read_bytes(), original)
+
+    def test_state_pages_are_exact_bounded_and_read_only(self):
+        with self.assertRaisesRegex(discovery.DiscoveryError, "Finish"):
+            self.session.state("discovery", None, 1)
+        work = self.completed_work()
+        work["discovery"]["findings"][0]["claim"] = 'Literal بسم "\\\n' * 6000
+        self.session.save(work)
+        self.session.finish()
+        before = (self.session.work_path.read_bytes(), self.session.output_path.read_bytes())
+        for kind, value in (("work", work), ("discovery", work["discovery"])):
+            first = self.session.state(kind, None, 1)
+            self.assertGreater(first["page_count"], 1)
+            fragments = {}
+            for n in range(1, first["page_count"] + 1):
+                page = self.session.state(kind, None, n)
+                self.assertLessEqual(len(reading.encode(page)), reading.READ_BYTES)
+                self.assertEqual(page["state_sha256"], reading.digest(value))
+                for row in page["records"]:
+                    self.assertNotIn("source_pointer", row)
+                    source = reading.resolve(value, row["state_pointer"])
+                    if "string_fragment" in row:
+                        info = row["string_fragment"]
+                        self.assertEqual(row["value"], source[info["start"]:info["end"]])
+                        fragments.setdefault(row["state_pointer"], []).append(row["value"])
+                    else:
+                        self.assertEqual(row["value"], source)
+            for pointer, pieces in fragments.items():
+                self.assertEqual("".join(pieces), reading.resolve(value, pointer))
+        self.assertEqual(before, (self.session.work_path.read_bytes(), self.session.output_path.read_bytes()))
+
+    def test_specialization_does_not_require_activating_an_inapplicable_core(self):
+        packet, result = copy.deepcopy(self.packet), discovery_fixture()
+        packet["branch_registry"][0]["review_facets"].append({"facet_id": "F002",
+            "role": "specialization", "statements": {"statement": "Attested transitive meaning"}})
+        packet["candidate_inventory"][0]["required_branch_facets"][0]["facet_id"] = "F002"
+        result["findings"][0]["branch_activations"][0].update(
+            facet_id="F002", facet_statement="Attested transitive meaning")
+        discovery.validate_discovery(packet, result)
+
     def test_unresolved_lead_must_remain_in_final_friction_notes(self):
         work = self.completed_work()
         work["leads"] = [{"lead_id": "L1", "note": "Uncertain contact", "source_pointers": ["/focus"],

@@ -4,13 +4,11 @@ You are the **@@LANE@@** scope discoverer for **@@AYAH_REF@@**. Complete this
 discovery phase across as many bounded reads and continuations as needed.
 Decide what the supplied evidence supports. Do not write polished commentary.
 
-Your working checkpoint is `@@WORK_OUTPUT_PATH@@`. Edit only its analytical
-fields: `notes`, `leads`, `cross_batch_review`, and `discovery`. Preserve its
-identity and delivery/completion fields. Load the existing file before each
-update and save atomically; a sibling temporary file is allowed for replacement.
-The helper maintains progress and writes `@@DISCOVERY_OUTPUT_PATH@@` only after
-completion checks pass. Do not write that final path yourself. The supplied
-monitor lifecycle commands are also allowed. Stay available for composition.
+Your working checkpoint is `@@WORK_OUTPUT_PATH@@`. Submit your literal judgments
+through `checkpoint` below; the helper preserves progress and earlier records,
+saves atomically, and publishes `@@DISCOVERY_OUTPUT_PATH@@` after completion
+checks. Do not edit either JSON file directly. The supplied monitor lifecycle
+commands are also allowed. Stay available for composition.
 
 ## Reading And Checkpoints
 
@@ -20,13 +18,21 @@ and the full evidence snapshot `@@PACKET_PATH@@`. Use this helper:
 ```text
 python3 _commentary/v6/discovery.py --plan @@READING_PLAN_PATH@@ init
 python3 _commentary/v6/discovery.py --plan @@READING_PLAN_PATH@@ status
+python3 _commentary/v6/discovery.py --plan @@READING_PLAN_PATH@@ state --kind work --pointer /notes --page N
 python3 _commentary/v6/discovery.py --plan @@READING_PLAN_PATH@@ read --batch BATCH_ID --page N
 python3 _commentary/v6/discovery.py --plan @@READING_PLAN_PATH@@ lookup --pointer /branch_registry/0 --page N
+python3 _commentary/v6/discovery.py --plan @@READING_PLAN_PATH@@ checkpoint <<'JSON'
+{"notes":[{"batch_id":"BATCH_ID","note":"your observation","source_pointers":["/..."]}]}
+JSON
 python3 _commentary/v6/discovery.py --plan @@READING_PLAN_PATH@@ complete --batch BATCH_ID
 ```
 
+- Do not write scripts, helper programs, or parsers that select facets or
+  carriers, assign decisions, generate findings or exclusions, or reduce
+  evidence. Use the supplied commands and literal JSON. Tool wrappers may invoke
+  commands and return their output verbatim; they must not make analytical choices.
 - On first use run `init`; after interruption or compaction run `status` and
-  reload your checkpoint. Re-read the focus evidence and any source facts needed
+  reload your checkpoint with `state`. Re-read the focus evidence and source facts needed
   to continue. Resume unfinished work without treating a conversation summary
   as the source of an exact quotation, exclusion, or morphological identity.
 - Work on the `next_batch` returned by `status`: read its pages, checkpoint its
@@ -35,7 +41,7 @@ python3 _commentary/v6/discovery.py --plan @@READING_PLAN_PATH@@ complete --batc
   for a specific comparison that needs a later source. A batch review can record
   an observation, counter-reading, unresolved contact, or a reason no further
   lead emerged. Keep it concise; no negative essay per record or finding quota.
-- Return each evidence or catalog page intact to your model context, one page
+- Return each evidence, catalog, or state page intact to your model context, one page
   per tool response. Do not filter, project, summarize, or collect pages inside
   code before you have read them. A helper delivery count does not establish
   that your tool wrapper presented the evidence. Reciprocal notes, qualifications,
@@ -52,6 +58,11 @@ python3 _commentary/v6/discovery.py --plan @@READING_PLAN_PATH@@ complete --batc
   needs evidence from another batch. Inspect complete relevant records and all
   fragments before deciding the claim. Always consider the whole focus; batch
   boundaries neither restrict possible triggers nor create separate readings.
+- Use `lookup` for every later evidence retrieval and `state` for checkpoint
+  reloads; do not dump or search packet/work files with ad hoc code or shell
+  commands. `state` without `--pointer` pages the complete state. Its
+  `state_pointer` locates your work, not source evidence; `state_sha256` identifies
+  that snapshot. Finish a multi-page reload before updating it.
 - Before completing each batch, save at least one `notes` entry using
   `{"batch_id":"BATCH_ID","note":"specific review","source_pointers":["/..."]}`
   with a pointer to evidence in that batch. Preserve useful observations even
@@ -60,6 +71,13 @@ python3 _commentary/v6/discovery.py --plan @@READING_PLAN_PATH@@ complete --batc
   and `finding_refs`. Status is `open`, `landed`, `closed`, or `unresolved`.
   Preserve earlier leads and record their disposition instead of deleting them.
   Copy an unresolved lead's resolution into the final `friction_notes`.
+- `checkpoint` accepts any subset of `notes`, `leads`, `findings`,
+  `candidate_decisions`, `cross_batch_review`, `coverage_complete`, and
+  `friction_notes`. Notes append (identical retries are harmless); leads,
+  findings, and decisions add or replace one complete record by `lead_id`,
+  `finding_ref`, or `candidate_id`. Omitted records stay intact. The last three
+  fields replace their previous values. To withdraw a draft finding explicitly,
+  send `remove_finding_refs`; update its decision/lead links before finishing.
 
 After all batches, read both complete catalogs with `read --catalog branches`
 and `read --catalog connections`, using `--page N` for every page. Compare the
@@ -70,8 +88,9 @@ Checkpoint useful observations and leads between catalog pages as needed too.
 Catalog `packet_pointer` fields locate original records; `catalog_pointer`
 coordinates describe only the review view and are not evidence citations.
 Record what this cross-batch review established or left unresolved in
-`cross_batch_review`. Put the complete response below in checkpoint `discovery`,
-set its `coverage_complete` to true, and run:
+`cross_batch_review`. Submit the response records below through `checkpoint`
+(findings and decisions can be saved separately), set `coverage_complete` to
+true, and run:
 
 ```text
 python3 _commentary/v6/discovery.py --plan @@READING_PLAN_PATH@@ finish
@@ -141,9 +160,9 @@ source accounting; they do not decide whether a semantic reading is convincing.
   wider evidence was never assembled.
 - Every candidate `branch_ref` must either land through an exact activated facet
   or be explicitly excluded. Separately account for any explicitly nominated
-  `required_branch_facets`; do not expand this into all available facets. If a
-  specialization/extension facet survives, at least one core facet of that
-  branch must survive with it.
+  `required_branch_facets`; do not expand this into all available facets. Judge
+  each facet on its own evidence: retaining a specialization/extension does not
+  imply that the branch's core facet is active.
 - `represented` means exact semantic duplication: it cannot exclude any of the
   represented candidate's branches, nominated facets, context, or obligations.
   A `narrow` decision must retain at least one semantic obligation when the
@@ -166,7 +185,8 @@ source accounting; they do not decide whether a semantic reading is convincing.
 
 ## Final Discovery Schema
 
-Put exactly these fields under checkpoint `discovery`:
+The helper assembles these fields under checkpoint `discovery`, maintaining
+`schema_version`, `ayah_ref`, and `lane` automatically:
 
 ```json
 {

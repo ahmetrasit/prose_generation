@@ -199,6 +199,14 @@ Each handoff gives the exact prompt, reading-plan, checkpoint, and final-output
 paths. The instruction file identifies its adjacent frozen evidence snapshot.
 Together the three input files are the lane's hermetic package.
 
+For an isolated single-lane pilot, stage only that lane's three input files and
+the matching `reading.py`/`discovery.py` helpers in a clean working directory,
+preserving their relative paths and bytes. Supply that directory to the agent;
+do not stage other lanes, prior outputs, or reviews. Keep monitor commands in
+the main checkout. Copy the agent's output files back byte-for-byte before the
+parent's completion check and review. This prevents incidental workspace
+searches from returning other runs; it is not an operating-system sandbox.
+
 Production preparation checks QAC source availability before a batch and
 required morphology coverage before returning handoffs. Stop on a preparation
 error; do not launch from files left by an earlier run. Confirm
@@ -213,8 +221,9 @@ tool, one for each prompt. Every scope agent must be `gpt-5.6-luna` at `max`
 reasoning effort. Do not substitute another model, lower reasoning effort, or
 launch with `codex exec`.
 
-The scope-agent launch message may contain only the prompt path, the instruction
-to follow it, and the start/terminal lifecycle command templates below. Do not
+The scope-agent launch message may contain only the prompt path, working
+directory, the instruction to follow it, and the start/terminal lifecycle
+command templates below. Do not
 pass the monitor passcode or Firebase details to a scope agent. Use the spawn
 task name as `--agent-id`; do not pass `--attempt`.
 
@@ -237,9 +246,12 @@ completed discovery. The agent saves useful observations and unresolved leads
 before completing each batch, including a short note tagged with that batch's
 `batch_id` and source pointers. The helper blocks later batches until that review
 is saved and the current batch completed; targeted cross-batch lookup stays
-available. Tool wrappers must return each evidence or catalog page intact.
-After compaction it reloads its checkpoint and
-needed evidence. All supplied branches and connections remain in the reading
+available. The `checkpoint` command saves literal agent judgments, appending
+notes and replacing records only by their explicitly supplied identities.
+Tool wrappers must return each evidence, catalog, or state page intact.
+After compaction it uses `state` to reload its checkpoint and `lookup` for
+needed evidence. Agent-authored semantic scripts and ad hoc file projections
+are prohibited. All supplied branches and connections remain in the reading
 plan, including those no candidate nominated. After the batches, the same
 agent reviews both complete catalogs and resolves or explicitly preserves its
 cross-batch leads. Do not append a terminal event after discovery alone.
@@ -268,6 +280,7 @@ sending:
 
 - replace `@@AYAH_REF@@` with the focus ref;
 - replace `@@LANE@@` with `micro`, `macro`, or `global`;
+- replace `@@READING_PLAN_PATH@@` with that lane's exact reading-plan path;
 - replace `@@DISCOVERY_OUTPUT_PATH@@` with that lane's exact
   `*.discovery.json` path from the prepare handoff;
 - replace `@@SCOPE_PROSE_OUTPUT_PATH@@` with that lane's exact

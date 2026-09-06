@@ -162,6 +162,12 @@ from the batch, plus any useful unfinished leads. Completion validates those
 pointers immediately. Targeted `lookup` remains available across batches.
 Evidence and catalog pages must reach the agent intact; analytical choices
 cannot be supplied by default facets, fallback carriers, or generic templates.
+The supplied `checkpoint` command saves literal JSON judgments without requiring
+the agent to rewrite progress or generate records in code. Notes append; leads,
+findings, and decisions are added or replaced by their explicit identities.
+`state` provides bounded, exact checkpoint and final-discovery views, including
+composition reloads. Later evidence reads use `lookup`, with the same intact-page
+rule. Agents may not author scripts that choose interpretations or reduce evidence.
 
 After all batches, the same agent reviews all branch facets and connections
 again using compact catalogs, follows cross-batch leads, and reopens full source
@@ -172,10 +178,13 @@ requires reloading the checkpoint and relevant source evidence, not trusting a
 conversation summary for exact facts. Packet, instruction, and reader/helper
 hashes prevent resuming against changed inputs or paging rules; use a fresh
 analysis ID when they change.
+An activated specialization or extension does not require activating its
+branch's core facet. Each activation needs its own evidence; source roles do
+not override grammatical or semantic restrictions.
 
 The composition phase for each scope agent uses
 `_commentary/v6/prompts/composition.md`. Fill it with the focus ref, lane,
-that lane's `*.discovery.json` path, and that lane's `*.scope.tr.md` output
+that lane's reading-plan path, `*.discovery.json` path, and `*.scope.tr.md` output
 path from the prepare handoff.
 
 V6 orchestration uses the operations monitor documented in

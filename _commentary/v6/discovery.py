@@ -213,13 +213,6 @@ def validate_discovery(packet: dict[str, Any], result: dict[str, Any]) -> None:
         _require(used_contexts <= set(finding["context_refs"]), f"{ref} omits a used context ayah")
         landed_contexts[ref] = used_contexts
 
-    for branch_ref, branch in branches.items():
-        roles = {f["facet_id"]: f.get("role") for f in branch.get("review_facets", [])}
-        landed_roles = {roles.get(a.get("facet_id")) for f in findings.values()
-                        for a in f["branch_activations"] if a["branch_ref"] == branch_ref}
-        if "core" in roles.values() and landed_roles & {"specialization", "extension"}:
-            _require("core" in landed_roles, f"{branch_ref} retains an extension without a core facet")
-
     decisions = {}
     for decision in _rows(result["candidate_decisions"], "candidate_decisions"):
         cid = decision.get("candidate_id")
@@ -349,6 +342,70 @@ class Session:
             _require(not self.output_path.exists(), "A final discovery already exists; use a fresh analysis ID")
             self.save(self.empty_work())
         return self.status()
+
+    def checkpoint(self, update: dict[str, Any]) -> dict[str, Any]:
+        """Save literal judgments; never select or generate analytical content."""
+        _require(not self.output_path.exists() and not self.output_path.is_symlink(),
+                 "Discovery is finalized; use a fresh analysis ID")
+        allowed = {"notes", "leads", "findings", "candidate_decisions", "remove_finding_refs",
+                   "cross_batch_review", "coverage_complete", "friction_notes"}
+        _require(isinstance(update, dict) and update and set(update) <= allowed,
+                 "Checkpoint accepts only analytical update fields")
+        work = self.load_work()
+        for note in _rows(update.get("notes", []), "notes"):
+            if note not in work["notes"]:
+                work["notes"].append(note)
+        for field, identity in (("leads", "lead_id"), ("findings", "finding_ref"),
+                                ("candidate_decisions", "candidate_id")):
+            incoming = _rows(update.get(field, []), field)
+            _strings([row.get(identity) for row in incoming], f"{field}.{identity}")
+            owner = work if field == "leads" else work["discovery"]
+            positions = {row[identity]: i for i, row in enumerate(owner[field])}
+            for row in incoming:
+                if row[identity] in positions:
+                    owner[field][positions[row[identity]]] = row
+                else:
+                    owner[field].append(row)
+        removed = set(_strings(update.get("remove_finding_refs", []), "remove_finding_refs"))
+        _require(not removed.intersection(row["finding_ref"] for row in update.get("findings", [])),
+                 "Cannot update and remove the same finding")
+        if removed:
+            _require(removed <= {row["finding_ref"] for row in work["discovery"]["findings"]},
+                     "Cannot remove an unknown finding")
+            work["discovery"]["findings"] = [row for row in work["discovery"]["findings"]
+                                             if row["finding_ref"] not in removed]
+        if "cross_batch_review" in update:
+            _require(_text(update["cross_batch_review"]), "Cross-batch review must be nonempty text")
+            work["cross_batch_review"] = update["cross_batch_review"]
+        if "coverage_complete" in update:
+            _require(type(update["coverage_complete"]) is bool, "coverage_complete must be boolean")
+            work["discovery"]["coverage_complete"] = update["coverage_complete"]
+        if "friction_notes" in update:
+            work["discovery"]["friction_notes"] = _strings(update["friction_notes"], "friction_notes")
+        self._check_notes(work)
+        self._check_leads(work, final=False)
+        self.save(work)
+        return self.status()
+
+    def state(self, kind: str, pointer: str | None, page: int) -> dict[str, Any]:
+        """Read exact analytical state in bounded pages, without recording delivery."""
+        _require(kind in {"work", "discovery"}, "Unknown state kind")
+        work = self.load_work()
+        value = work
+        if kind == "discovery":
+            _require(self.output_path.is_file(), "Finish discovery before reading its final state")
+            self._check_existing_output(work["discovery"])
+            value = work["discovery"]
+        pointers = [pointer] if pointer is not None else ["/" + reading.escape(k) for k in sorted(value)]
+        output = reading.pages(value, pointers, label=f"state:{kind}",
+                               packet_sha256=self.plan["packet_sha256"],
+                               read_bytes=reading.READ_BYTES - 512)
+        _require(1 <= page <= len(output), f"Page must be in 1..{len(output)}")
+        result = output[page - 1]
+        result["state_sha256"] = reading.digest(value)
+        for row in result["records"]:
+            row["state_pointer"] = row.pop("source_pointer")
+        return result
 
     def batch_pages(self, batch_id: str) -> list[dict[str, Any]]:
         _require(batch_id in self.batches, f"Unknown batch: {batch_id}")
@@ -541,6 +598,11 @@ def main(argv: list[str] | None = None) -> int:
     commands = parser.add_subparsers(dest="command", required=True)
     for name in ("init", "status", "check", "finish"):
         commands.add_parser(name)
+    commands.add_parser("checkpoint", help="Save literal analytical updates from JSON on stdin")
+    state = commands.add_parser("state", help="Read bounded checkpoint or final-discovery pages")
+    state.add_argument("--kind", choices=("work", "discovery"), default="work")
+    state.add_argument("--pointer")
+    state.add_argument("--page", type=int, default=1)
     read = commands.add_parser("read")
     selector = read.add_mutually_exclusive_group(required=True)
     selector.add_argument("--batch")
@@ -560,6 +622,10 @@ def main(argv: list[str] | None = None) -> int:
             result = session.complete(args.batch)
         elif args.command == "lookup":
             result = session.lookup(args.pointer, args.page)
+        elif args.command == "checkpoint":
+            result = session.checkpoint(json.load(sys.stdin))
+        elif args.command == "state":
+            result = session.state(args.kind, args.pointer, args.page)
         else:
             result = getattr(session, args.command)()
         print(reading.encode(result).decode("utf-8"))

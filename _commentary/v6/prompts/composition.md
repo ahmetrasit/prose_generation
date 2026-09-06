@@ -12,6 +12,21 @@ orchestrator:
 
 - prose: `@@SCOPE_PROSE_OUTPUT_PATH@@`
 
+Read the complete discovery through the supplied bounded reader, requesting
+every page indicated by `page_count`:
+
+```text
+python3 _commentary/v6/discovery.py --plan @@READING_PLAN_PATH@@ state --kind discovery --page N
+python3 _commentary/v6/discovery.py --plan @@READING_PLAN_PATH@@ lookup --pointer /... --page N
+```
+
+Use `lookup` for any source recheck. Return each page intact, one per tool
+response, with at least 32,000 output tokens on both command and outer wrapper
+(`functions.exec`: `// @exec: {"max_output_tokens": 32000}`). Retry truncated
+responses. After compaction, reload the relevant discovery and evidence pages.
+Do not dump or project JSON files, write scripts that choose or generate
+interpretations, or use other lanes or prior runs. Write your prose literally.
+
 ## Scope Prose Contract
 
 - Write fluent Turkish scope prose, not JSON, a checklist, or a lane report.
