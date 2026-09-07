@@ -1,0 +1,222 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="color-scheme" content="light">
+    <title>V7 Commentary Operations</title>
+    <link rel="stylesheet" href="./styles.css">
+  </head>
+  <body>
+    <header class="topbar">
+      <div class="brand-block">
+        <p class="product-kicker">Kelimeden Kelama</p>
+        <h1>V7 Commentary Operations <span id="app-version" class="app-version"></span></h1>
+      </div>
+      <div class="connection-block">
+        <span id="connection-dot" class="connection-dot" aria-hidden="true"></span>
+        <span id="connection-label">Connecting</span>
+        <button id="manage-passcodes" class="button secondary" type="button" hidden>Passcodes</button>
+        <button id="sign-in" class="button secondary" type="button" hidden>Sign in</button>
+      </div>
+    </header>
+
+    <section id="version-banner" class="version-banner" aria-live="polite" hidden>
+      <strong id="version-banner-text">New version available</strong>
+      <button id="update-app" class="button" type="button">Update</button>
+    </section>
+
+    <section id="passcode-admin" class="admin-page" aria-labelledby="passcode-heading" hidden>
+      <div class="admin-heading">
+        <div>
+          <p class="product-kicker">Daemon access</p>
+          <h2 id="passcode-heading">Allowed passcodes</h2>
+        </div>
+        <button id="close-passcodes" class="icon-button" type="button" title="Close passcodes" aria-label="Close passcodes">&#215;</button>
+      </div>
+      <form id="passcode-form" class="passcode-form">
+        <label class="field">
+          <span>Label</span>
+          <input id="passcode-label" type="text" maxlength="80" placeholder="Office Mac" autocomplete="off" required>
+        </label>
+        <label class="field passcode-field">
+          <span>Passcode</span>
+          <input id="passcode-value" type="password" minlength="12" autocomplete="new-password" required>
+        </label>
+        <button id="generate-passcode" class="button" type="button">Generate</button>
+        <button id="allow-passcode" class="button primary" type="submit">Allow</button>
+      </form>
+      <div id="created-passcode" class="created-passcode" hidden>
+        <label class="field">
+          <span>New passcode</span>
+          <input id="created-passcode-value" type="text" readonly>
+        </label>
+        <button id="copy-passcode" class="button" type="button">Copy</button>
+        <span id="passcode-result" role="status"></span>
+      </div>
+      <div class="passcode-table-wrap">
+        <table class="passcode-table">
+          <thead>
+            <tr>
+              <th>Label</th>
+              <th>Fingerprint</th>
+              <th>State</th>
+              <th>Created</th>
+              <th>Action</th>
+            </tr>
+          </thead>
+          <tbody id="passcode-rows"></tbody>
+        </table>
+        <p id="passcode-empty" class="empty-state">No passcodes.</p>
+      </div>
+    </section>
+
+    <section class="commandbar" aria-label="Run and orchestration controls">
+      <label class="field run-field">
+        <span>Run</span>
+        <input id="run-id" type="text" list="run-options" spellcheck="false" autocomplete="off">
+        <datalist id="run-options"></datalist>
+      </label>
+      <label class="field orchestrator-field">
+        <span>Control orchestrator</span>
+        <select id="orchestrator-select"></select>
+      </label>
+      <button id="refresh" class="icon-button" type="button" title="Refresh now" aria-label="Refresh now">&#8635;</button>
+      <div class="segmented" aria-label="Requested orchestrator state">
+        <button id="resume" type="button">Resume</button>
+        <button id="pause" type="button">Pause</button>
+      </div>
+      <span id="control-note" class="control-note"></span>
+    </section>
+
+    <main>
+      <section class="metrics" aria-label="Run summary">
+        <div class="metric"><span>Ayat</span><strong id="metric-total">0</strong></div>
+        <div class="metric"><span>Pending</span><strong id="metric-pending">0</strong></div>
+        <div class="metric"><span>Active ayat</span><strong id="metric-active">0</strong></div>
+        <div class="metric"><span>Active agents</span><strong id="metric-agents">0</strong></div>
+        <div class="metric"><span>Completed</span><strong id="metric-completed">0</strong></div>
+        <div class="metric alert-metric"><span>Attention</span><strong id="metric-attention">0</strong></div>
+        <div class="metric"><span>Reruns</span><strong id="metric-reruns">0</strong></div>
+      </section>
+      <section class="progress-band" aria-label="Run completion">
+        <div class="progress-track"><span id="progress-fill"></span></div>
+        <span id="progress-label">0% complete</span>
+      </section>
+
+      <section id="attention-strip" class="attention-strip" hidden>
+        <div>
+          <strong id="attention-title">Attention required</strong>
+          <span id="attention-detail"></span>
+        </div>
+        <button id="show-attention" class="button secondary" type="button">Show only</button>
+      </section>
+
+      <div id="workspace" class="workspace">
+        <section class="queue" aria-labelledby="queue-heading">
+          <div class="section-toolbar">
+            <div class="queue-title">
+              <h2 id="queue-heading">Ayah queue</h2>
+              <p id="queue-caption">No tasks loaded</p>
+            </div>
+            <div class="filters">
+              <label class="search-field">
+                <span class="sr-only">Search queue</span>
+                <input id="search" type="search" placeholder="Search ayah, agent, step...">
+              </label>
+              <label>
+                <span class="sr-only">Filter by status</span>
+                <select id="status-filter">
+                  <option value="all">All states</option>
+                  <option value="attention">Needs attention</option>
+                  <option value="active">Active</option>
+                  <option value="pending">Pending</option>
+                  <option value="completed">Completed</option>
+                  <option value="failed">Failed</option>
+                  <option value="stalled">Stalled</option>
+                </select>
+              </label>
+              <label>
+                <span class="sr-only">Filter by surah</span>
+                <select id="surah-filter"><option value="all">All surahs</option></select>
+              </label>
+              <label>
+                <span class="sr-only">Filter by orchestrator</span>
+                <select id="orchestrator-filter"><option value="all">All orchestrators</option></select>
+              </label>
+              <button id="reset-filters" class="button quiet" type="button">Reset</button>
+            </div>
+          </div>
+
+          <div class="table-wrap">
+            <table class="task-table">
+              <thead>
+                <tr>
+                  <th class="col-surah" data-sort="surah"><button type="button">Surah <span class="sort-indicator"></span></button></th>
+                  <th class="col-ayah" data-sort="ayah"><button type="button">Ayah <span class="sort-indicator"></span></button></th>
+                  <th class="col-state" data-sort="state"><button type="button">State <span class="sort-indicator"></span></button></th>
+                  <th class="col-step" data-sort="step"><button type="button">Current step <span class="sort-indicator"></span></button></th>
+                  <th class="col-agent" data-sort="agent"><button type="button">Agent <span class="sort-indicator"></span></button></th>
+                  <th class="col-attempts number-column" data-sort="attempts"><button type="button">Attempts <span class="sort-indicator"></span></button></th>
+                  <th class="col-analysis" data-sort="analysis"><button type="button">Analysis <span class="sort-indicator"></span></button></th>
+                  <th class="col-orchestrator" data-sort="orchestrator"><button type="button">Orchestrator <span class="sort-indicator"></span></button></th>
+                  <th class="col-updated" data-sort="updated"><button type="button">Updated <span class="sort-indicator"></span></button></th>
+                </tr>
+              </thead>
+              <tbody id="task-rows"></tbody>
+            </table>
+            <p id="empty-state" class="empty-state" hidden>No ayat match this view.</p>
+          </div>
+          <div class="pagination">
+            <label class="page-size-field">Rows
+              <select id="page-size">
+                <option value="25">25</option>
+                <option value="50" selected>50</option>
+                <option value="100">100</option>
+                <option value="250">250</option>
+              </select>
+            </label>
+            <span id="page-range">0 rows</span>
+            <button id="previous-page" class="icon-button" type="button" title="Previous page" aria-label="Previous page">&#8592;</button>
+            <span id="page-label">Page 1</span>
+            <button id="next-page" class="icon-button" type="button" title="Next page" aria-label="Next page">&#8594;</button>
+          </div>
+        </section>
+
+        <aside id="reader" class="reader" aria-labelledby="reader-heading" hidden>
+          <div class="reader-heading-row">
+            <div>
+              <p class="reader-label">Markup reader</p>
+              <h2 id="reader-heading">Selected ayah</h2>
+            </div>
+            <div class="reader-actions">
+              <button id="previous-task" class="icon-button" type="button" title="Previous filtered ayah" aria-label="Previous filtered ayah">&#8592;</button>
+              <button id="next-task" class="icon-button" type="button" title="Next filtered ayah" aria-label="Next filtered ayah">&#8594;</button>
+              <button id="close-reader" class="icon-button" type="button" title="Close reader" aria-label="Close reader">&#215;</button>
+            </div>
+          </div>
+          <div id="artifact-tabs" class="tabs" role="tablist" aria-label="Commentary artifacts"></div>
+          <div id="reader-meta" class="reader-meta"></div>
+          <article id="reader-content" class="prose"></article>
+        </aside>
+      </div>
+    </main>
+
+    <template id="task-row-template">
+      <tr tabindex="0">
+        <td class="surah-cell col-surah number-cell"></td>
+        <td class="ayah-cell col-ayah number-cell"></td>
+        <td class="state-cell col-state"><span class="status-badge"></span></td>
+        <td class="step-cell col-step"></td>
+        <td class="agent-cell col-agent"></td>
+        <td class="attempt-cell col-attempts number-cell"></td>
+        <td class="analysis-cell col-analysis"></td>
+        <td class="orchestrator-cell col-orchestrator"></td>
+        <td class="updated-cell col-updated"></td>
+      </tr>
+    </template>
+
+    <div id="cell-tooltip" class="cell-tooltip" role="tooltip" hidden></div>
+    <script type="module" src="./app.js"></script>
+  </body>
+</html>
