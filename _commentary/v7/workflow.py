@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Prepare hermetic evidence and all stage prompts for commentary v7."""
+"""Prepare hermetic discovery evidence for commentary v7."""
 
 from __future__ import annotations
 
@@ -31,7 +31,7 @@ LANE_RANK = {lane: index for index, lane in enumerate(LANES)}
 MAX_BATCH_UNITS = 512
 MAX_JSON_BYTES = 128_000_000
 MAX_SCOPE_PROMPT_BYTES = 16_000_000
-SCOPE_DISCOVERY_SCHEMA_VERSION = "commentary-v7-scope-discovery-v2"
+SCOPE_DISCOVERY_SCHEMA_VERSION = "commentary-v7-scope-discovery-v3"
 MARKER_RE = re.compile(r"@@[A-Z0-9_]+@@")
 QURAN_REF_IN_TEXT_RE = re.compile(
     r"(?<![0-9:])([1-9][0-9]*):(0|[1-9][0-9]*)(?![0-9:])"
@@ -1966,6 +1966,7 @@ def _build_scope_prompt(layout: Layout, lane: str, packet: dict[str, Any]) -> st
             "@@AYAH_REF@@": layout.ayah_ref,
             "@@LANE@@": lane,
             "@@DISCOVERY_OUTPUT_PATH@@": _repo_path(layout.scope_discovery(lane)),
+            "@@DISCOVERY_PROMPT_PATH@@": _repo_path(layout.scope_prompt(lane)),
             "@@SCOPE_DISCOVERY_SCHEMA_VERSION@@": SCOPE_DISCOVERY_SCHEMA_VERSION,
             "@@DISCOVERY_POLICY_MD@@": _discovery_policy(),
             "@@READING_STANDARD@@": (PROMPTS_ROOT / "reading-standard.md").read_text(encoding="utf-8"),
@@ -1981,69 +1982,12 @@ def _build_scope_prompt(layout: Layout, lane: str, packet: dict[str, Any]) -> st
     return prompt
 
 
-def _evidence_inputs(layout: Layout, lanes: tuple[str, ...]) -> str:
-    sources = "\n".join(
-        f"- {lane} original evidence: `{_repo_path(layout.scope_prompt(lane))}`"
-        for lane in lanes
+def _handoff_command(layout: Layout, stage: str, lane: str | None = None) -> str:
+    command = (
+        "python3 _commentary/v7/authoring.py handoff "
+        f"--analysis-id {layout.analysis_id} --ayah {layout.ayah_ref} --stage {stage}"
     )
-    return sources + "\n\n" + (
-        "Use the `<lane_packet_json>` data blocks in these files as the sealed "
-        "source evidence; this stage's prompt governs your work, not the "
-        "discovery-stage instructions surrounding those blocks. Source paths "
-        "inside the packets are provenance, not permission to fetch outside "
-        "evidence. Return relevant records intact, including qualifications, "
-        "statement variants, and SOURCE_IMAGE Arabic/English fields. Use bounded "
-        "reads that fit the tool output limit and recover any truncated passage "
-        "before judging it. Scripts may access or copy records and serialize "
-        "judgments already made; they must not select readings, facets, carriers, "
-        "or exclusions, or substitute filtered fields for evidence. Earlier "
-        "records help locate evidence; investigate further contacts as you write."
-    )
-
-
-def _build_follow_up_prompts(
-    layout: Layout, focus_context_brief: dict[str, Any],
-) -> dict[Path, str]:
-    """Render later handoffs without requiring or modifying agent outputs."""
-    common = {
-        "@@AYAH_REF@@": layout.ayah_ref,
-        "@@READING_STANDARD@@": (PROMPTS_ROOT / "reading-standard.md").read_text(encoding="utf-8"),
-    }
-    prompts: dict[Path, str] = {}
-
-    def add(path: Path, template: str, values: dict[str, str]) -> None:
-        prompts[path] = _render(
-            (PROMPTS_ROOT / template).read_text(encoding="utf-8"),
-            {**common, **values}, label=template,
-        )
-
-    for lane in LANES:
-        add(layout.scope_composition_prompt(lane), "composition.md", {
-            "@@LANE@@": lane,
-            "@@DISCOVERY_OUTPUT_PATH@@": _repo_path(layout.scope_discovery(lane)),
-            "@@SCOPE_PROSE_OUTPUT_PATH@@": _repo_path(layout.scope_prose(lane)),
-            "@@EVIDENCE_INPUTS@@": _evidence_inputs(layout, (lane,)),
-        })
-    shared_inputs = {
-        "@@AUTHORING_INPUTS@@": "\n".join(
-            f"- {lane} discovery: `{_repo_path(layout.scope_discovery(lane))}`\n"
-            f"- {lane} scope prose: `{_repo_path(layout.scope_prose(lane))}`"
-            for lane in LANES
-        ),
-        "@@EVIDENCE_INPUTS@@": _evidence_inputs(layout, LANES),
-    }
-    add(layout.canonical_prompt(), "canonical.md", {
-        **shared_inputs,
-        "@@PROSE_OUTPUT_PATH@@": _repo_path(layout.consolidated_prose()),
-        "@@FOCUS_CONTEXT_BRIEF@@": json.dumps(focus_context_brief, ensure_ascii=False, indent=2),
-    })
-    add(layout.editorial_prompt(), "editorial.md", {
-        **shared_inputs,
-        "@@PROSE_INPUT_PATH@@": _repo_path(layout.consolidated_prose()),
-        "@@PROSE_OUTPUT_PATH@@": _repo_path(layout.editorial_prose()),
-        "@@EDITORIAL_INSTRUCTIONS@@": "No additional unit-specific instructions.",
-    })
-    return prompts
+    return command + (f" --lane {lane}" if lane else "")
 
 
 def prepare(args: argparse.Namespace) -> dict[str, Any]:
@@ -2144,11 +2088,7 @@ def prepare(args: argparse.Namespace) -> dict[str, Any]:
             else []
         ),
     }
-    follow_up_prompts = _build_follow_up_prompts(layout, focus_context_brief)
-    all_prompts = {
-        **{layout.scope_prompt(lane): prompt for lane, prompt in prompts.items()},
-        **follow_up_prompts,
-    }
+    all_prompts = {layout.scope_prompt(lane): prompt for lane, prompt in prompts.items()}
 
     if getattr(args, "check_only", False):
         return {
@@ -2159,10 +2099,6 @@ def prepare(args: argparse.Namespace) -> dict[str, Any]:
             "context_morphology_status": "degraded" if missing_morphology else "complete",
             "missing_context_morphology_refs": missing_morphology,
             "prompt_bytes": {lane: len(prompt.encode("utf-8")) for lane, prompt in prompts.items()},
-            "follow_up_prompt_bytes": {
-                path.name: len(prompt.encode("utf-8"))
-                for path, prompt in follow_up_prompts.items()
-            },
             "word_alignment": source_bundle.get("coverage", {}).get("word_morpheme_spans", {}),
         }
 
@@ -2199,6 +2135,7 @@ def prepare(args: argparse.Namespace) -> dict[str, Any]:
                 "composition_prompt": str(
                     layout.scope_composition_prompt(lane).resolve(strict=False)
                 ),
+                "render_composition": _handoff_command(layout, "composition", lane),
                 "launch": "fresh_agent",
                 "keep_session_open": True,
             }
@@ -2206,28 +2143,30 @@ def prepare(args: argparse.Namespace) -> dict[str, Any]:
         ],
         "consolidation_handoff": {
             "prompt": str(layout.canonical_prompt().resolve(strict=False)),
+            "render": _handoff_command(layout, "canonical"),
             "prose_output": str(layout.consolidated_prose().resolve(strict=False)),
             "launch": "fresh_agent",
             "keep_session_open": True,
         },
         "editorial_handoff": {
             "prompt": str(layout.editorial_prompt().resolve(strict=False)),
+            "render": _handoff_command(layout, "editorial"),
             "prose_output": str(layout.editorial_prose().resolve(strict=False)),
             "launch": "same_consolidator",
         },
         "orchestration": {
             "scope_launch": "launch all three handoffs in parallel",
             "scope_follow_up": (
-                "after discovery, send each composition_prompt to the same live "
-                "scope agent to develop its prose and further readings"
+                "after discovery, run render_composition to embed the complete "
+                "record and cited sources; send composition_prompt to the same scope agent"
             ),
             "consolidation": (
-                "after all scope outputs exist, close scope agents and send "
-                "consolidation_handoff.prompt to one fresh consolidator"
+                "after all scope outputs exist, run consolidation_handoff.render "
+                "and send its complete prompt to one fresh consolidator"
             ),
             "editorial": (
-                "after first-pass prose exists, send editorial_handoff.prompt to "
-                "the same consolidator, then close after editorial validation"
+                "after first-pass prose exists, run editorial_handoff.render and "
+                "send its complete prompt to the same consolidator"
             ),
             "post_launch_gates": [],
         },
@@ -2287,7 +2226,7 @@ def _parser() -> argparse.ArgumentParser:
     )
     subparsers = parser.add_subparsers(dest="command", required=True)
     prepare_parser = subparsers.add_parser(
-        "prepare", help="Run preflight and write discovery, composition, and editorial handoffs."
+        "prepare", help="Write hermetic discovery prompts and commands for later authoring handoffs."
     )
     prepare_parser.add_argument(
         "--check-only", action="store_true",

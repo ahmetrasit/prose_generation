@@ -24,3 +24,8 @@ Coherence comes from arranging explicit readings and explaining their
 relationships. Compatible readings may share a paragraph only while each
 reading's evidence, connection, and interpretive consequence remain visible.
 Remove duplicated wording, not distinct meanings or their supporting links.
+Two readings are duplicates only when their evidence, connection, and
+interpretive consequence are equivalent. A shared conclusion is insufficient.
+Keep ordinary glosses separate from inferred scenes; explain the additional
+reading in the surrounding prose. Preserve the name of the attested lexical
+item and its link to the passage, not just an evocative source-image description.

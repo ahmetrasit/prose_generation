@@ -16,9 +16,12 @@ outputs; corrections belong to the producing agent under the prompts.
 ```text
 prepare
   -> 3 fresh scope agents in parallel
+  -> render each composition handoff after its discovery exists
   -> same 3 agents write their scope prose
   -> close scope agents
+  -> render consolidation handoff with all six authored inputs
   -> 1 fresh consolidator merges the three prose drafts
+  -> render editorial handoff with first pass and original inputs
   -> same consolidator writes the editorial version
   -> same consolidator validates the editorial prose only
   -> same consolidator repairs mechanical validator failures, up to 2 cycles
@@ -181,8 +184,7 @@ python3 _commentary/v7/workflow.py prepare \
   --ayah 29:38
 ```
 
-The command writes three hermetic discovery prompts and five small follow-up
-prompts under:
+The command writes three hermetic discovery prompts under:
 
 ```text
 _commentary/v7/input/<analysis-id>/sNNN/S_A/
@@ -196,12 +198,16 @@ macro
 global
 ```
 
-Each scope handoff gives its discovery prompt and `composition_prompt` path.
-The result also includes `consolidation_handoff` and `editorial_handoff`.
-Preparation renders all eight prompts before writing any of them. Later-stage
-input paths refer to outputs that their preceding agents will produce; their
-existence is required before those handoffs are sent. Discovery prompts contain
-the sealed evidence, and follow-up prompts reference those same packets.
+Each scope handoff gives its discovery prompt, `composition_prompt` path, and
+`render_composition` command. The result also includes `consolidation_handoff`
+and `editorial_handoff`, each with a `render` command. Preparation renders all
+three discovery prompts before writing any of them. Run each later render
+command only after its preceding outputs exist. It embeds those complete inputs
+verbatim and attaches exact source records; it never changes agent outputs.
+It validates file shape, source references, and candidate accounting, with no
+semantic acceptance gate. Missing inputs stop rendering before any handoff is
+written. If an authored file has an invalid identity or reference, return that
+specific error to its producing agent; do not repair the file yourself.
 
 Production preparation checks QAC source availability before a batch and
 required morphology coverage before returning handoffs. Stop on a preparation
@@ -248,10 +254,11 @@ then separately reviews those external ayat for genuine deltas before finalizing
 macro findings. This is part of the original macro discovery prompt, not a
 separate agent or later follow-up.
 
-Second turn: send the generated `composition_prompt` path from the lane's
-prepare handoff to that same live agent and tell it to follow the prompt.
-No template filling is needed. The prompt names the initial discovery JSON,
-original evidence, and prose output. The agent develops all supported initial
+Second turn: run the lane's `render_composition` command from `prepare`, then
+send the resulting `composition_prompt` path to that same live agent and tell
+it to follow the prompt. No template filling is needed. The prompt includes
+the complete discovery JSON and source records, and names the prose output.
+The agent develops all supported initial
 findings and actively looks for further readings while writing. New findings
 are fully explained in prose; the discovery JSON remains the initial snapshot.
 
@@ -292,7 +299,8 @@ the scope agents produced.
 
 ## 4. Consolidation
 
-After all three scope prose files exist, close the scope agents. Start one
+After all three scope prose files exist, close the scope agents. Run
+`consolidation_handoff.render` to assemble the complete inputs. Start one
 fresh `gpt-5.6-luna` agent at `max` reasoning effort as the consolidator. This
 model and reasoning setting are mandatory for the consolidation and editorial
 agent: do not substitute another model, do not lower reasoning effort, and do
@@ -301,13 +309,17 @@ not reuse a scope-agent session. Send the generated
 monitor passcode or Firebase details. Use the spawn task name as `--agent-id`;
 do not pass `--attempt`.
 
-The prompt names all three discovery JSON files, all three scope prose files,
-and their original sealed evidence, and includes the focus/context brief.
+The prompt embeds all three discovery JSON files and all three scope prose
+files in full, followed by exact source records and the focus/context data.
 No manual copying or template filling is required. The consolidator reads all
 six authored inputs, preserves their supported readings, and investigates new
 contacts across scopes. It can check source facts and reopen exclusions using
 the original packet data. Current-stage instructions govern; the discovery
 instructions surrounding those data blocks do not apply to consolidation.
+The stateless supplied reader returns complete records or exact text windows;
+agents do not author parsers, generators, or filtered evidence projections.
+Read the six authored inputs fully; consult source records as needed for
+verification and further discovery, without a mandatory second source survey.
 
 The consolidator writes:
 
@@ -381,10 +393,11 @@ cadence, clarity, Turkish fluency, removal of English leakage, and better
 reader-facing explanation. It also remains open to new readings and recovery
 of missed explanations from the supplied original evidence.
 
-Send the generated `editorial_handoff.prompt` path to the same consolidator.
+Run `editorial_handoff.render` after the first pass exists, then send the
+resulting `editorial_handoff.prompt` path to the same consolidator.
 Append any unit-specific editorial request to the follow-up message. The prompt
-already names the first-pass input, original evidence, earlier authored inputs,
-and exact editorial output. New findings belong in the editorial prose, fully
+embeds the first pass and earlier authored inputs in full, attaches exact
+original evidence, and names the editorial output. New findings belong in the editorial prose, fully
 explained; do not require rewriting earlier artifacts or updating a ledger.
 
 The editorial version must preserve all supported readings of the raw version
@@ -419,7 +432,7 @@ Follow-up message:
 Continue as the same V7 consolidator for <S:A>.
 
 Read and follow this editorial prompt exactly:
-<filled contents of _commentary/v7/prompts/editorial.md>
+<editorial_handoff.prompt path after rendering>
 
 Write only the requested editorial prose file. Then run the validator command
 specified in the prompt yourself on that editorial prose file only. If it fails,

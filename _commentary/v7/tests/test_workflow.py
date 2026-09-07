@@ -188,30 +188,6 @@ class CliSurfaceTests(unittest.TestCase):
         self.assertEqual(json.loads(rendered), value)
         self.assertIn('\n{"id":1},\n{"id":2}\n', rendered)
 
-    def test_follow_up_handoffs_render_without_agent_outputs(self) -> None:
-        with tempfile.TemporaryDirectory() as temporary:
-            root = Path(temporary)
-            layout = workflow.Layout(
-                ayah_ref="29:38", analysis_id="handoff-check", stem="29_38",
-                input=root / "input", raw=root / "raw", editorial=root / "editorial",
-            )
-            prompts = workflow._build_follow_up_prompts(layout, {"focus_ref": "29:38"})
-            self.assertEqual(len(prompts), 5)
-            for content in prompts.values():
-                self.assertFalse(workflow.MARKER_RE.search(content))
-            for lane in workflow.LANES:
-                scope = prompts[layout.scope_composition_prompt(lane)]
-                for source in (layout.scope_discovery(lane), layout.scope_prompt(lane)):
-                    self.assertIn(str(source), scope)
-                self.assertIn(str(layout.scope_prose(lane)), scope)
-                for stage in (layout.canonical_prompt(), layout.editorial_prompt()):
-                    for source in (layout.scope_discovery(lane), layout.scope_prose(lane),
-                                   layout.scope_prompt(lane)):
-                        self.assertIn(str(source), prompts[stage])
-            self.assertIn(str(layout.consolidated_prose()), prompts[layout.canonical_prompt()])
-            self.assertIn(str(layout.consolidated_prose()), prompts[layout.editorial_prompt()])
-            self.assertIn(str(layout.editorial_prose()), prompts[layout.editorial_prompt()])
-            self.assertEqual(list(root.iterdir()), [])
 
 
 class ContextEvidenceTests(unittest.TestCase):
@@ -783,7 +759,7 @@ class PrepareTests(unittest.TestCase):
             ),
         )
 
-    def test_prepare_writes_all_stage_prompts_and_no_state_artifacts(self) -> None:
+    def test_prepare_writes_discovery_prompts_and_no_state_artifacts(self) -> None:
         with tempfile.TemporaryDirectory() as temporary:
             root = Path(temporary)
             input_root = root / "input"
@@ -802,10 +778,7 @@ class PrepareTests(unittest.TestCase):
             generated = sorted(path.name for path in input_root.rglob("*") if path.is_file())
 
         self.assertEqual(generated, [
-            "canonical.prompt.md", "editorial.prompt.md",
-            "global.composition.prompt.md", "global.discovery.prompt.md",
-            "macro.composition.prompt.md", "macro.discovery.prompt.md",
-            "micro.composition.prompt.md", "micro.discovery.prompt.md",
+            "global.discovery.prompt.md", "macro.discovery.prompt.md", "micro.discovery.prompt.md",
         ])
         self.assertEqual(len(result["handoffs"]), 3)
         for handoff in result["handoffs"]:
@@ -818,6 +791,7 @@ class PrepareTests(unittest.TestCase):
                 handoff["scope_prose_output"].endswith(f"{lane}.scope.tr.md")
             )
             self.assertTrue(handoff["composition_prompt"].endswith(f"{lane}.composition.prompt.md"))
+            self.assertIn(f"--stage composition --lane {lane}", handoff["render_composition"])
         self.assertEqual(result["orchestration"]["post_launch_gates"], [])
         self.assertEqual(
             result["focus_context_brief"]["automatic_host_basmala_ref"], None
@@ -907,7 +881,7 @@ class PrepareTests(unittest.TestCase):
                         result = workflow.prepare(args)
                         self.assertEqual(result["context_morphology_status"], "degraded")
                         self.assertEqual(result["missing_context_morphology_refs"], ["7:201"])
-                        self.assertEqual(len(result["generated_files"]), 8)
+                        self.assertEqual(len(result["generated_files"]), 3)
                     else:
                         with self.assertRaisesRegex(workflow.WorkflowError, "Required QAC morphology"):
                             workflow.prepare(args)

@@ -1,75 +1,73 @@
 # Commentary v7 consolidator
 
-You are the fresh consolidator for **@@AYAH_REF@@**. Read all three discovery
-records and all three scope prose files below. Compose one coherent Turkish
-commentary, preserving their supported readings and actively developing further
-readings, including connections that become visible across scopes.
+You are the fresh consolidator for **@@AYAH_REF@@**. Read the complete three
+discovery records and three scope prose files below. Arrange their explanations
+into coherent Turkish commentary and develop further readings, including
+connections that become visible across scopes.
 
 ## Reading Purpose
 
 @@READING_STANDARD@@
 
-## Inputs
+## Inputs And Evidence
+
+All six authoring inputs are embedded in full. Original source records cited by
+discovery, and the candidates' specific evidence, follow without field filtering.
+Use them to verify facts and recover missing links. The originals control words,
+grammar, lexical identity, and references; earlier interpretations are revisable.
+If counterevidence defeats a reading, briefly identify the correction and its
+basis in your completion reply. Do not silently remove it or invent support.
+
+Use the supplied reader, not custom scripts, parsers, projections, or generators:
+
+```bash
+python3 _commentary/v7/authoring.py read --prompt @@HANDOFF_PROMPT_PATH@@ --block authoring_inputs
+```
+
+Continue at `next_offset` with the same `--block` to read all six inputs.
+Consult the source appendix as needed for verification; it does not require a
+second exhaustive survey. A read without selectors returns instructions and a
+block index. Use one read per tool call with at least 16,000 output tokens;
+recover failed or truncated reads. Further discovery has access to the same
+sealed original packets:
+
+@@SOURCE_COMMANDS@@
+
+Use `--refs support:ID branch:ROOT/BRANCH context:S:A` to return whole records.
+Paths within records are provenance; current-stage instructions govern your work.
+
+## Consolidation
+
+Work from the distinct explanatory mechanisms, including those inside a larger
+finding or paragraph. Arrange them by the passage's movement and connect them.
+Combine repeated explanations only when their evidence, connection, and result
+are equivalent. Similar conclusions can arise from different linguistic facts;
+those facts and their separate contributions must remain explicit.
+
+Preserve the actual lexical item behind a secondary sense, its relation to the
+focus form, the independent textual contact, and the resulting reading. An
+anonymous source image or a list of citations cannot replace this explanation.
+Form restrictions qualify the lexical claim without automatically defeating a
+contextual resonance. Keep uncertainty specific and brief.
+
+Use helpful Turkish level-2 subtitles. Use paragraph-local
+`{ar:ARABIC, tr:transliteration, gloss:Turkish gloss}` tags at Arabic anchors.
+Keep the ordinary gloss separate from inference. Cite individual non-focus ayat
+beside their own contribution, not in intervals or a collective reference list.
+Check that each quotation belongs to its stated source; a word from the previous
+ayah must not migrate into the next one while joining their interpretations.
+Keep internal IDs, QAC coordinates, and provenance machinery out of reader prose.
+
+Write only `@@PROSE_OUTPUT_PATH@@`, using the file editor. Before finishing,
+compare each input explanation with its prose expression: source fact, connection,
+and consequence must survive. Checking titles, reference counts, or shared themes
+does not perform this comparison. No ledger or separate report is needed.
+Remain available for the editorial follow-up; run any supplied lifecycle command.
+
+## Complete Authoring Inputs
 
 @@AUTHORING_INPUTS@@
 
-<focus_context_brief>
-@@FOCUS_CONTEXT_BRIEF@@
-</focus_context_brief>
-
-## Original Evidence
+## Exact Source Records
 
 @@EVIDENCE_INPUTS@@
-
-The discovery records are initial judgments, and scope prose may develop
-additional findings. Neither is a ceiling or an immutable account of source
-facts. The original evidence controls wording, grammar, morphology, lexical
-identity, and references. Revisit earlier exclusions where it supports a
-reading; explain every new reading fully in the commentary.
-
-Preserve each supported incoming reading, including distinct claims, images,
-branches, or movements within one finding or paragraph. Correct factual errors
-from source evidence while preserving the supported interpretation. A lexical
-form restriction limits a literal sense, not automatically a contextual
-resonance. If concrete counterevidence defeats a claim, briefly identify the
-correction and its basis in your completion reply; do not silently drop it or
-invent supporting evidence. No separate correction ledger is needed.
-
-## Writing Contract
-
-- Make each reading's evidence, connection to this passage, and interpretive
-  consequence explicit to someone who does not know Arabic. Keep the ordinary
-  sense recoverable without turning the commentary into another generalized
-  main reading.
-- Preserve concrete images, pathologies, secondary lexical senses, repeated
-  actions, spatial relations, and before/after shifts. Show the attested link
-  and relevant form restrictions behind a same-root resonance.
-- Compatible readings may share a paragraph when each one's reasoning remains
-  visible. Remove duplicated wording, not distinct meanings. Arrange by the
-  passage's movement rather than lane order or a word-by-word catalogue.
-- Use short Turkish level-2 subtitles when helpful, such as `## Taşın Hafızası`.
-  Do not use wrapper labels such as `# PROSE` or XML prose wrappers.
-- Use `{ar:ARABIC, tr:transliteration, gloss:Turkish gloss}` at every Arabic
-  interpretive anchor. Tags are paragraph-local; repeat the full tag when an
-  item does interpretive work again in another paragraph. Do not expose internal
-  IDs, QAC coordinates, or lane machinery.
-- Cite each non-focus ayah beside the claim it supports, such as `(29:41)` or
-  `(1:6, 1:7)`. List individual refs, not intervals. Cite a host prefatory
-  basmala acting as context as `(S:0)`. Contextual resonance is not lexical
-  meaning; keep the connection visible.
-- Translate English source language naturally into Turkish. Keep materially
-  different readings available without ranking them by familiarity or lane.
-  Attach brief, specific boundaries where they prevent misunderstanding.
-
-## Output
-
-Write exactly one nonempty Markdown prose file and modify nothing else, except
-for any monitor lifecycle command supplied by the orchestrator:
-
-- prose: `@@PROSE_OUTPUT_PATH@@`
-
-Check that each supported input reading and each new reading has an explicit
-explanatory chain in the commentary. A headline or a generalized conclusion
-does not count. Revise missing explanations before finishing. Do not create
-ledgers, manifests, or other audit artifacts. Remain in this conversation for
-the editorial follow-up.

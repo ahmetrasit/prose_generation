@@ -1,57 +1,66 @@
 # Commentary v7 scope prose
 
-Continue as the **@@LANE@@** scope agent for **@@AYAH_REF@@**. This is the
-planned second turn for your lane. Read your discovery JSON at
-`@@DISCOVERY_OUTPUT_PATH@@` and develop fluent Turkish scope prose. Actively
-look for further readings while explaining the findings; stay within your lane.
+Continue as the **@@LANE@@** scope agent for **@@AYAH_REF@@**. Read the complete
+discovery below and develop fluent Turkish scope prose. Discover further
+readings within your lane as you explain the evidence.
 
 ## Reading Purpose
 
 @@READING_STANDARD@@
 
-## Evidence and Earlier Work
+## Working With The Inputs
+
+The discovery is included in full. The appended source records are copied by
+the workflow with their original wording, qualifications, and morphology.
+They let you check the evidence without reconstructing an earlier agent's
+summary. Initial findings and exclusions are revisable judgments, not a ceiling.
+Preserve each supported mechanism; correct factual mistakes from the evidence.
+If counterevidence defeats a reading, explain the correction briefly in your
+completion reply. Do not silently drop it or fabricate support.
+
+Use the supplied reader, not custom scripts, parsers, projections, or generators.
+Read the complete discovery with:
+
+```bash
+python3 _commentary/v7/authoring.py read --prompt @@HANDOFF_PROMPT_PATH@@ --block authoring_inputs
+```
+
+Continue at `next_offset` with the same `--block` to read the remaining text.
+Read the source appendix as needed for verification, not as a mandatory second
+survey. A read without selectors returns instructions and a block index.
+Use one read per tool call with at least 16,000 output tokens; recover failed
+or truncated reads.
+Additional evidence remains available from the same sealed packet:
+
+@@SOURCE_COMMANDS@@
+
+Use `--refs support:ID branch:ROOT/BRANCH context:S:A` for whole records. Source
+paths inside those records are provenance. Current-stage instructions govern;
+discovery instructions around original data blocks do not reopen your role.
+
+## Writing
+
+Explain each distinct evidence-to-interpretation chain. Several mechanisms may
+share a paragraph while retaining their individual wording, connection, and
+consequence. Keep lexical items, concrete images, form restrictions, and every
+contributing ayah's particular role visible. Boundaries stay short and local.
+
+Use `{ar:ARABIC, tr:transliteration, gloss:Turkish gloss}` at each Arabic anchor,
+repeating it when the item does interpretive work in another paragraph. The
+gloss describes the actual word or phrase; inference belongs outside the tag.
+Cite each non-focus ayah beside its own contribution, using individual refs,
+not intervals. Check quotations against the named source rather than moving a
+nearby word into that ayah. Internal IDs and lane machinery stay out of prose.
+
+Write only `@@PROSE_OUTPUT_PATH@@`, using the file editor. Preserve the discovery
+JSON as the initial snapshot; new findings belong in the prose. Before finishing,
+compare the explanations, not just their headings or references: each input
+mechanism must still be explicit. Run any supplied terminal lifecycle command.
+
+## Complete Discovery
+
+@@AUTHORING_INPUTS@@
+
+## Exact Source Records
 
 @@EVIDENCE_INPUTS@@
-
-The discovery JSON records your initial judgments. Its exclusions and finding
-list are revisable, not a ceiling. Use the original evidence to check source
-facts, restore missed details, and develop further readings. Explain new
-readings fully in the prose so subsequent stages can carry them forward; do not
-rewrite the discovery JSON.
-
-Preserve every supported incoming finding, including distinct claims or images
-inside a single finding. Correct mistaken grammar, morphology, lexical identity,
-or citations from the source evidence. A lexical form restriction limits a
-literal sense; it does not by itself defeat a contextual resonance. If concrete
-counterevidence defeats a claim, briefly identify that correction and its basis
-in your completion reply. Do not silently discard it or invent support to keep
-it. No separate correction ledger is needed.
-
-## Writing Contract
-
-- Explain each reading's carrier, particular trigger, connection, and changed
-  interpretation in ordinary language. Keep the ordinary sense recoverable,
-  while giving secondary readings their full explanation.
-- Preserve concrete details: a pathology, material image, repeated action,
-  spatial relation, or before/after shift must not become a general theme.
-  Explain the attested lexical connection and relevant form restrictions behind
-  a same-root resonance, not only the resulting image.
-- Use `{ar:ARABIC, tr:transliteration, gloss:Turkish gloss}` whenever an Arabic
-  word or phrase does interpretive work. Tags are paragraph-local: repeat the
-  full tag if the item is used interpretively in another paragraph.
-- Show every non-focus ayah reference beside the interpretation it supports,
-  such as `(29:41)` or `(1:6, 1:7)`. List individual refs, not intervals. A host
-  prefatory basmala used as context is cited as `(S:0)`.
-- Write Turkish reader prose. Translate English source language naturally; keep
-  internal IDs, QAC coordinates, and lane machinery out of the prose.
-- Arrange related readings coherently without making their distinct evidence
-  and consequences implicit. Keep necessary boundaries brief and local.
-
-Write exactly one nonempty Markdown file and modify nothing else, except for
-any monitor lifecycle command supplied by the orchestrator:
-
-- prose: `@@SCOPE_PROSE_OUTPUT_PATH@@`
-
-Before finishing, check that each supported incoming and newly developed reading
-has its evidence, connection, and interpretive consequence explicit in the
-prose. Then run the terminal monitor command supplied by the orchestrator.

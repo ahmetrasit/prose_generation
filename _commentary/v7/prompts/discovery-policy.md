@@ -1,80 +1,35 @@
-# V7 discovery standard
+# Discovery standard
 
-This compact policy is authoritative for the discovery turn. The longer project
-documents remain design history; their repeated prose is intentionally not part
-of every hermetic lane prompt.
+- Micro develops focus wording, morphology, syntax, sound, and contacts among
+  focus words and roots. Macro develops the declared pericope or host-surah
+  context. Global develops wider contacts that return through a focus word,
+  relation, or act and change how the passage is read.
+- Root membership is availability, not activation. Explain a real surface
+  carrier, an independent word/image/construction/context, their particular
+  connection, and the interpretive change. The independent contact must add
+  something beyond repeating a branch gloss.
+- Inspect all statement variants, including SOURCE_IMAGE Arabic and English.
+  Each selected sense needs its own evidence. An extension does not require a
+  core facet beside it; do not invent a reading to complete a lexical family.
+- Preserve alternatives as alternatives. Source trust, unresolved identity,
+  uncertainty, and unconventionality qualify a reading rather than suppress it.
+  Keep counterevidence visible. Do not choose a winner or rank by familiarity.
+- Distinguish another attested lexical item or sense from the focus form's
+  ordinary meaning. Explain the shared root or structural relationship and the
+  independent textual contact. Preserve form restrictions without treating them
+  as automatic vetoes on contextual resonance.
+- A context can contribute through its wording, syntax, scene, or relation to
+  the focus without a dictionary branch. Explain what each contributing ayah
+  adds. An ayah reference alone does not preserve that contribution.
+- Case and syntactic role are different claims. Establish the governing
+  construction before assigning objecthood or the predicate of a copular verb.
+- Candidate semantic obligations are evidence to examine and explain, not
+  phrases to copy into generic fields. Preserve their distinct developments or
+  give the particular evidentiary reason for narrowing or rejecting them.
+- Routing determines the evidence assembled for each lane. Missing wider
+  context cannot disprove a local mechanism. Conversely, a source's passing
+  reference to a wider ayah is not permission to analyze that ayah in micro.
 
-## Evidence
-
-- Establish readings from supplied evidence before writing prose. A candidate,
-  prior label, channel, reader walk, HFT item, dictionary branch, or retrieval
-  rank is a nomination, never a verdict.
-- Do not solve ambiguity by choosing a winner. Retain materially distinct,
-  grounded readings together and state the boundary of each. Branch alternative
-  groups are alternatives: their members must not be treated as cumulatively
-  established merely because all are visible.
-- Root membership alone does not activate a branch. Activation needs a surface
-  carrier, an independent trigger, an intelligible contact, a changed reading,
-  a reader payoff, and an appropriate limit. The trigger must add something
-  beyond repeating the branch gloss.
-- Preserve counterevidence, uncertainty, unresolved identity, and failed edges.
-  Source trust changes qualification; it does not make evidence invisible or
-  automatically acceptable.
-- Preserve complete explanatory chains. A vivid image without the lexical or
-  structural evidence that licensed it is not preserved. In particular, retain
-  the source lexical item or branch feature, the independent contact, the change
-  it makes to the focus, and the boundary that prevents false translation or
-  etymology.
-- For a same-root resonance, explicitly distinguish the other attested lexical
-  item or sense from the focus form's meaning. Preserve its form restrictions;
-  naming the shared image alone does not establish that lexical connection.
-- Every resonance must preserve the ordinary reading intact and keep it
-  recoverable where the resonance is explained. Develop that reading; do not
-  replace it with an alternative disguised as a deeper meaning.
-- Keep morphology and syntax distinct. An accusative form establishes case, not
-  objecthood by itself; identify the governing construction before assigning a
-  syntactic role, including the predicate of a copular `kana` construction.
-
-## Coverage
-
-- Inspect every focus surface and decide every supplied candidate once. Also
-  inspect the complete branch inventory, supports, and lane connections
-  for grounded findings that no candidate nominated.
-- Do not turn coverage into a catalogue or a quota. Negative branch-by-branch
-  reporting is unnecessary unless a supplied candidate attached that semantic
-  obligation, branch, facet, or context reference.
-- A narrow or rejected candidate must hand its exclusions forward explicitly.
-  A represented candidate must be an exact semantic duplicate of the named
-  finding. Stable packet IDs must be copied exactly.
-- Retrieval order and prior strength labels help locate evidence; they may not
-  filter, rank, or suppress it. Do not call one resonance the deepest, central,
-  governing, or real reading.
-
-## Scope
-
-- Micro concerns the focus wording: ordinary sense, morphology, syntax, sound,
-  root pressure, and contacts among focus words.
-- Macro concerns what the declared local context changes. A host basmala and
-  explicitly added ayat are non-focus context, not new focus candidates.
-- Global concerns a wider Quranic contact only when an exact wider trigger
-  returns through a focus word, relation, or act and changes how it is read.
-- The packet's `v7_routing` and `required_context_refs` are authoritative. Do
-  not reject evidence merely because an upstream source originally assigned it
-  to another lane.
-- Candidate-specific supports control routing. Shared word evidence remains
-  visible for lexical inspection, but its incidental Quran references do not
-  silently move every candidate attached to that word. A focus-only legacy
-  reader activation belongs in micro; assess only its assembled local mechanism
-  and do not convert absent wider context into a negative semantic decision.
-
-## Reader standard
-
-The later Turkish prose must first leave the ordinary sense clear, then make
-each retained development understandable to a reader who does not know Arabic.
-It must show the Arabic or textual evidence, explain the connection, and
-state the resulting shift in reading without exposing internal IDs or mixing
-provenance apparatus into prose. Keep boundaries brief and specific. Discovery
-records are an initial account, open to further findings in every later stage.
-They therefore need enough concrete lexical,
-grammatical, contextual, and boundary detail for that prose to be written
-without inventing a missing link.
+Discovery records must let a later writer explain the reading without inventing
+a missing linguistic link. Write enough concrete reasoning to make that possible;
+leave mechanical source copying to the workflow. Later stages can discover more.

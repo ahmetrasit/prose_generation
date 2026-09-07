@@ -2,8 +2,9 @@
 
 V7 starts from V5's deterministic preparation and inline hermetic evidence.
 V6 is a reference for observed failures; none of its delivery or checkpoint
-implementation is used here. The source evidence and discovery output shape
-remain those of V5, with V7 version identifiers.
+implementation is used here. Source evidence remains complete. Discovery v3
+uses one self-contained explanation and source references per finding, instead
+of repeating the reasoning across several semantic fields.
 
 The purpose is to reveal secondary readings that expand, complicate, or shift
 the main reading. Each reading must show its particular evidence, its connection
@@ -14,9 +15,20 @@ Novelty, uncertainty, earlier exclusion, and absence from a candidate list are
 not automatic vetoes; source facts and interpretive inferences stay distinct.
 
 The code validates inputs, assembles the evidence, and renders ready-to-use
-prompts for all stages. There are no new analytical gates, checkpoints, or
-finding ledgers. This initial V7 implementation has not yet had an agent pilot;
-preparation correctness does not establish semantic yield or quality.
+prompts for all stages. There are no semantic acceptance gates, checkpoints, or
+finding ledgers. The initial 29:38 pilot exposed generic discovery fields and
+lost explanations in later prose. The revised handoffs preserve complete inputs
+and source records.
+
+The second 29:38 Luna max pilot, `pilot-29-38-p03-fatiha-r2-202609070227`, used
+the same pericope plus Fatiha evidence. All five later handoffs reproduced their
+authored inputs verbatim, and editorial format validation passed. Semantic
+review was mixed: some explanations recovered, but the first pilot's five
+additional global readings were missing from discovery, lexical connections
+still disappeared in prose, and consolidation introduced a verse attribution
+error that editorial retained (household rescue assigned to 29:31, rather than
+29:32). This revision remains experimental; successful evidence transport and
+format checks do not establish adequate discovery or preservation.
 
 ```text
 prepare
@@ -103,9 +115,8 @@ For a batch, run the complete workflow for all selected ayat in parallel. Each
 ayah gets its own three `gpt-5.6-luna` max scope agents and its own fresh
 `gpt-5.6-luna` max consolidator/editorial session.
 
-The command writes three evidence-bearing discovery prompts and five small
-follow-up prompts. Follow-ups reference the original packets without copying
-them again:
+Preparation writes three evidence-bearing discovery prompts. Later handoffs
+are rendered after their required agent outputs exist:
 
 ```text
 _commentary/v7/input/<analysis-id>/sNNN/S_A/micro.discovery.prompt.md
@@ -135,7 +146,9 @@ _commentary/v7/editorial/<analysis-id>/sNNN/S_A/
 The JSON printed by `prepare` contains the generated prompt paths, the
 matching discovery and scope-prose output paths, `composition_prompt` for each
 lane, `consolidation_handoff`, `editorial_handoff`, the focus/context brief, and
-short orchestration notes. It is advisory; it is not a completion manifest.
+short orchestration notes. Each scope has a `render_composition` command;
+consolidation and editorial each have a `render` command. This result is
+advisory, not a completion manifest.
 
 Scope packet v4 includes exact Arabic and typed QAC morphology for required
 context references. `--qac-morphology` overrides the local `qac.sqlite.gz`
@@ -163,16 +176,32 @@ Prompts supply complete evidence records with their wording and qualifications
 together. Existing candidate, support, branch, and ayah IDs connect records;
 new prompts contain no `$v7_ref` string lookups or shared-value table. Some
 wording is deliberately repeated to keep records readable, without summarizing
-or omitting source details. Agents use bounded reads of the inline packet; no
-external evidence file is needed. `packet_evidence.expand_packet` remains a
+or omitting source details. Agents use the stateless `authoring.py read` command
+for complete records or exact text windows, without custom parsers or filtered
+tool responses. It saves no reading state and certifies no semantic coverage.
+No external evidence file is needed. `packet_evidence.expand_packet` remains a
 decoder for historical v3 packets only.
 
-The second turn uses the generated `<lane>.composition.prompt.md` with the
-same scope agent. Consolidation uses `canonical.prompt.md` with one fresh agent;
-editorial uses `editorial.prompt.md` with that same consolidator. Every handoff
-already has the exact input, evidence, and output paths. Wait for the preceding
-stage's outputs before sending its successor prompt. Unit-specific editorial
-instructions may accompany the editorial follow-up.
+After discovery, run the lane's `render_composition` command and send the
+resulting `<lane>.composition.prompt.md` to the same scope agent. After all
+three scope prose files exist, run `consolidation_handoff.render` and send
+`canonical.prompt.md` to one fresh agent. After its first pass exists, run
+`editorial_handoff.render` and send `editorial.prompt.md` to that same agent.
+For example:
+
+```bash
+python3 _commentary/v7/authoring.py handoff --analysis-id native --ayah 29:38 --stage composition --lane micro
+python3 _commentary/v7/authoring.py handoff --analysis-id native --ayah 29:38 --stage canonical
+python3 _commentary/v7/authoring.py handoff --analysis-id native --ayah 29:38 --stage editorial
+```
+
+Each handoff embeds its complete authored inputs verbatim and copies the cited
+source records with all their fields. Discovery validation checks identities,
+references, and candidate accounting only; it cannot approve or reject a
+semantic reading. Missing inputs fail before writing a handoff. Agent outputs
+are never rewritten by this command. Agents read the complete authoring inputs
+and consult the source appendix as needed; it requires no repeated exhaustive
+source survey. Unit-specific editorial instructions may accompany the follow-up.
 
 The compact [reading standard](prompts/reading-standard.md) is rendered into
 every stage. Later agents can consult the original `<lane_packet_json>` blocks;
