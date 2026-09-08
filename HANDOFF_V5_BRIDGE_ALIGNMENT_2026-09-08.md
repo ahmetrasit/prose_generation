@@ -10,6 +10,27 @@ Identify which recent V5-related change fixed the builder/preparation path so
 previously missing word-analysis data is included, and verify whether the same
 change explains the 29:38 hermetic bundle changes.
 
+## Follow-up: Agent Input Compatibility
+
+The user clarified that the concern is the size, shape, and behavior of the
+generated agent prompts, with the established workflow to be preserved alongside
+QAC and other small correctness fixes. The follow-up audit records an initial
+compatibility prototype, the subsequently identified historical consolidation
+baseline, and the selected experiment: restoring full historical project guidance
+in separate current micro and macro discovery prompts while retaining current
+evidence and QAC fixes.
+
+The source-bundle size table below does not measure generated agent prompts.
+The follow-up [input compatibility audit](AUDIT_V5_INPUT_COMPATIBILITY_2026-09-08.md)
+reproduces 29:38 p03 global prompt growth from 1,368,058 to 2,076,949 bytes and
+identifies earlier September 4 changes to context morphology, repeated records,
+candidate routing, review obligations, and discovery instructions. These changes
+are separate from the small September 5 bridge/alignment deltas. Keep the bridge
+fix; do not interpret this handoff as approval to keep every earlier change to
+the agent input contract. The roughly 170 KiB historical input was a consolidation
+prompt; it is not directly comparable to a discovery prompt containing source
+evidence. The guidance experiment has not yet been evaluated by authoring agents.
+
 ## Short Answer
 
 The reliable commit is:

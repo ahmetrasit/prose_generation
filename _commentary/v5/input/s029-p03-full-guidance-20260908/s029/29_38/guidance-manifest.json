@@ -1,0 +1,70 @@
+{
+  "schema_version": "v5-full-project-guidance-experiment-v1",
+  "analysis_id": "s029-p03-full-guidance-20260908",
+  "focus_ref": "29:38",
+  "composition_segment": "package=29:28-44",
+  "preparation_commit": "1f5c5114c8986c93eecfd4c0d71de6bbbd014907",
+  "source_bundle": "bundles/s029-pericopes/p03_028-044/29_38.ayah.json",
+  "source_bundle_sha256": "b5ce4ff002de45f7be7fac6871ae4ad7df13fccd49927a6372ca9f2fba20144c",
+  "historical_guidance_commit": "41763703b52566086edf707d008857c6995d78ab",
+  "historical_guidance_snapshot": "_commentary/v5/input/s029-p03/s029/29_38/canonical.prompt.md",
+  "guidance_documents": {
+    "principles": {
+      "bytes": 9198,
+      "sha256": "fe4c0397d275a0201b8803782011ab9281392c2f76dc5e7584e1bec827c0c62c"
+    },
+    "commentary_spec": {
+      "bytes": 20207,
+      "sha256": "ff755d734ed019afe0217c8564538ac26cec8b42941cee78492e7a7a19ab6614"
+    },
+    "channel_definitions": {
+      "bytes": 15053,
+      "sha256": "bdb3a2efbc5e1352e1e995ea1e9ab28f8a4bb81d0cf5a758f4b42bf9bd8f89a6"
+    },
+    "canonical_prompt_v2": {
+      "bytes": 25192,
+      "sha256": "a6e17213aed8ed538cc1ca2cfa957bfbc4617991df4da6df87bce7f09323468d"
+    }
+  },
+  "guidance_content_bytes": 69650,
+  "guidance_applicability": "Apply the full project guidance inlined below to semantic reasoning, grounded\ndiscovery, integration, and reader intelligibility. This policy and the scope\ndiscovery instructions define the current turn. Its role, lane boundary, inline\nevidence boundary, response schema, and output path govern execution; historical\ninstructions inside the project documents do not add phases, output files,\nexternal evidence reads, or a prose-writing task to this discovery turn.",
+  "checks": {
+    "current_inline_evidence_byte_identical": true,
+    "historical_guidance_content_exact": true,
+    "current_routing_and_response_schema_preserved": true,
+    "context_morphology_complete": true,
+    "preparation_guard_passed": true
+  },
+  "lanes": {
+    "micro": {
+      "file": "_commentary/v5/input/s029-p03-full-guidance-20260908/s029/29_38/micro.discovery.prompt.md",
+      "discovery_output": "_commentary/v5/raw/s029-p03-full-guidance-20260908/s029/29_38/micro.discovery.json",
+      "baseline_prompt_bytes": 876323,
+      "with_full_guidance_bytes": 946409,
+      "added_bytes": 70086,
+      "with_full_guidance_kib": 924.2275390625,
+      "inline_packet_bytes": 861479,
+      "inline_packet_sha256": "c0cf8a14eb167ee4de1d3eb01a27fa552226dfc35e59a1bc9ece5dea5207f9e9",
+      "prompt_sha256": "3ab50ef4503459d697d33071f4cb3e160105ac18da3d4ebe2689c75f68483456",
+      "candidate_count": 55,
+      "word_analysis_candidate_count": 39,
+      "word_alignment_count": 39,
+      "context_ayah_count": 0
+    },
+    "macro": {
+      "file": "_commentary/v5/input/s029-p03-full-guidance-20260908/s029/29_38/macro.discovery.prompt.md",
+      "discovery_output": "_commentary/v5/raw/s029-p03-full-guidance-20260908/s029/29_38/macro.discovery.json",
+      "baseline_prompt_bytes": 1043796,
+      "with_full_guidance_bytes": 1113882,
+      "added_bytes": 70086,
+      "with_full_guidance_kib": 1087.775390625,
+      "inline_packet_bytes": 1028825,
+      "inline_packet_sha256": "684caca158a1974314cbd098c6994d880ecfc605afb287e2b094ac37aeb2f769",
+      "prompt_sha256": "58706e2ac36069bdf5e01283e9e4dc90f4d76c8e5bf4ea8f212a7fc88ef679c0",
+      "candidate_count": 13,
+      "word_analysis_candidate_count": 4,
+      "word_alignment_count": 4,
+      "context_ayah_count": 17
+    }
+  }
+}
