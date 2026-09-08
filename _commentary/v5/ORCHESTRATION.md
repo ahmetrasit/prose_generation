@@ -193,11 +193,13 @@ Each handoff gives the exact prompt path. The prompts contain all evidence the
 scope agents should use.
 
 Production preparation checks QAC source availability before a batch and
-required morphology coverage before returning handoffs. Stop on a preparation
-error; do not launch from files left by an earlier run. Confirm
-`context_morphology_status: complete` for each prepared unit. The
-`--allow-missing-qac-morphology` override is for explicitly exploratory runs,
-not this production procedure. Source checksums are recorded in the packets.
+validates the focus's accepted analysis/QAC bridge and complete word-topic
+delivery. Stop on a preparation error; do not launch from files left by an
+earlier run. Confirm `agent_input_contract: early-v5-compact` for each prepared
+unit. `context_morphology_status: not_requested` is expected: these prompts
+restore the original lean context projections, without the later bulk context
+morphology registry. The `--allow-missing-qac-morphology` source-preflight
+override is for explicitly exploratory runs, not this production procedure.
 
 ## 3. Scope Agents
 
@@ -306,18 +308,23 @@ Fill that template manually before launching the agent:
 - replace `@@PROSE_OUTPUT_PATH@@` with the exact output path below;
 - replace `@@FOCUS_CONTEXT_BRIEF@@` with the `focus_context_brief` object
   printed by `prepare`;
-- replace `@@MICRO_DISCOVERY_JSON@@`, `@@MACRO_DISCOVERY_JSON@@`, and
-  `@@GLOBAL_DISCOVERY_JSON@@` with the complete contents of the three discovery
-  JSON files;
+- replace `@@PRINCIPLES_MD@@`, `@@COMMENTARY_SPEC_MD@@`, `@@CHANNELS_MD@@`, and
+  `@@CANONICAL_PROMPT_V2@@` with the complete contents of
+  `_commentary/v5/guidance/PRINCIPLES.md`,
+  `_commentary/v5/guidance/COMMENTARY_SPEC.md`,
+  `_commentary/v5/guidance/CHANNELS.md`, and
+  `_commentary/v5/guidance/PROMPT_V2.md`, respectively;
 - replace `@@MICRO_SCOPE_PROSE@@`, `@@MACRO_SCOPE_PROSE@@`, and
   `@@GLOBAL_SCOPE_PROSE@@` with the complete contents of the three scope prose
   files.
 
-Discovery `evidence_facts` and exact branch-activation fields control source
-facts. Scope prose controls intended coverage but is not factually immutable.
-The consolidator may correct a demonstrable grammatical, morphological, or
-lexical misstatement from those records without treating the correction as a
-new finding or silently dropping the intended finding.
+The consolidation package contains the three scope prose texts, full pinned
+guidance, and the focus/context brief. Discovery JSON stays with the scope
+agents and is not appended to this package. Scope prose controls intended
+coverage; a demonstrable inconsistency may be corrected from those supplied
+texts without adding evidence or silently dropping a finding. The governing
+documents' historical multi-file output instructions are subordinate to the
+V5 prose-only handoff.
 
 The consolidator writes:
 

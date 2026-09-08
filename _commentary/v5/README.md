@@ -13,6 +13,22 @@ prepare
   -> same consolidator validates only editorial prose and repairs up to 2 times
 ```
 
+The default agent input contract is the compact early V5 workflow from
+`41763703` (September 3, before the later expansion). Discovery keeps the
+original candidate ownership, support/branch organization, lean selected
+context, and discovery v1 response schema. All word-analysis topics remain in
+micro, including topics whose source explanations mention another ayah.
+The four governing documents in `guidance/` are pinned to that revision and
+embedded in full. Later shared project-document edits cannot silently change
+this V5 contract.
+
+Exact QAC/analysis links, sparse topic preservation, source validation, root-ID
+corrections, unresolved-branch handling, basmala/external-context support, the
+QAC cache, monitor lifecycle, and prose formatting/validation fixes remain.
+The later candidate rerouting, generated semantic/review inventories, and bulk
+context-morphology registry are not part of newly prepared agent inputs. Source
+data and historical expanded packets remain available in the repository.
+
 There is no V5 state machine after `prepare`: no `advance`, no `verify`, no
 manifest audit, and no hidden session registry. After the three prompts exist,
 orchestration is normal agent management and Git-visible files. Launch V5
@@ -117,35 +133,23 @@ The JSON printed by `prepare` contains the generated prompt paths, the
 matching discovery and scope-prose output paths, the focus/context brief, and
 short orchestration notes. It is advisory; it is not a completion manifest.
 
-Scope packet v4 includes exact Arabic and typed QAC morphology for required
-context references. `--qac-morphology` overrides the local `qac.sqlite.gz`
-source; unavailable Arabic or morphology is listed in
-`context_evidence_coverage`. Morpheme arrays use the explicitly supplied
-`context_morpheme_columns`. These records establish forms and roots, not
-activation of a dictionary branch.
+The scope packet uses the original v1 organization, with the additive
+`focus_word_alignment` and candidate `word_alignment` correctness fields.
+Source supports retain their full text and qualifications. Selected context,
+connection evidence, and existing source projections are supplied as before;
+the later `context_evidence`, `context_morpheme_columns`, and generated
+`review_inventory` sections are not inserted. Their absence does not establish
+that a nominated interpretation is false. Agents stay within the evidence
+actually supplied by the lane packet.
 
-QAC is streamed once into a local SQLite cache and queried read-only. The cache
-defaults to the Git-ignored `_commentary/v5/.cache/qac`; `--qac-cache-dir`
-overrides it. Each use hashes the compressed source, so even a same-size source
-replacement cannot reuse stale data. Concurrent preparations share an atomic,
-validated cache. Packets identify the source by its stable logical name and
-SHA-256 of the compressed bytes; local corpus/cache paths stay out of that
-provenance. The cache is preparation infrastructure, not agent input.
-
-Production preparation requires a readable QAC source and all required context
-morphology. The CLI checks the source once before starting a batch, and each
-focus checks coverage before writing prompts or returning handoffs. For an
-explicitly exploratory run, `--allow-missing-qac-morphology` preserves Arabic
-with missing-evidence qualifications and reports `context_morphology_status:
-degraded` in the preparation result. Do not use this override in production.
-
-Prompts supply complete evidence records with their wording and qualifications
-together. Existing candidate, support, branch, and ayah IDs connect records;
-new prompts contain no `$v5_ref` string lookups or shared-value table. Some
-wording is deliberately repeated to keep records readable, without summarizing
-or omitting source details. Agents use bounded reads of the inline packet; no
-external evidence file is needed. `packet_evidence.expand_packet` remains a
-decoder for historical v3 packets only.
+Preparation reports `agent_input_contract: early-v5-compact` and
+`context_morphology_status: not_requested`. The latter describes the omitted
+bulk registry, not a failed focus alignment or a claim of complete context
+morphology. Production CLI preflight still checks a readable QAC source;
+`--qac-morphology` and `--qac-cache-dir` configure that check. The cache and
+historical packet utilities remain available, including the decoder for saved
+v3 `$v5_ref` transport. The exploratory `--allow-missing-qac-morphology` flag
+skips the source preflight; it does not bypass focus bridge validation.
 
 The second turn for each scope agent uses
 `_commentary/v5/prompts/composition.md`. Fill it with the focus ref, lane,
@@ -157,10 +161,12 @@ V5 orchestration uses the operations monitor documented in
 state under `_commentary/v5/operations/runtime/`; that directory is not
 commentary evidence and is not an analytical gate.
 
-Consolidation receives all three discovery JSON objects as well as all three
-scope prose files. Discovery evidence facts and exact branch fields control
-source facts; scope prose controls intended coverage but may be corrected when
-it demonstrably misstates grammar, morphology, or lexical identity.
+Consolidation receives the three scope prose files, a focus/context brief, and
+the four full pinned guidance documents. Discovery JSON is not appended. Scope
+agents carry their findings and necessary explanations into prose during their
+second turn. The consolidator can correct a demonstrable inconsistency from
+the supplied texts, while retaining uncertainty where those texts do not
+establish a correction.
 Consolidation is prose work, not evidence selection. Every retained scope
 finding must keep its carrier, independent trigger, contact, changed reading,
 concrete semantic detail, and boundary visible in the reader-facing result.

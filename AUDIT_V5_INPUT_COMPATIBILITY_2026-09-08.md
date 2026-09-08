@@ -9,14 +9,72 @@ lane ownership, discovery instructions, and downstream handoffs. Retain the QAC
 alignment fixes and other small correctness fixes. A large change to the agent
 input contract is not a minor bug fix merely because it preserves source data.
 
-The investigation initially tested keeping all restored factual evidence while
-restoring earlier agent instructions and routing. The user rejected that
-prototype because it did not resolve the size concern. The selected experiment
-instead restores the full historical project guidance in separate current micro
-and macro discovery prompts. Current evidence, routing, response schema, and
-QAC fixes remain in those experimental prompts.
+The user selected a production rollback to the compact early V5 input contract
+at `41763703`, preserving QAC alignment and minor correctness fixes. The full
+guidance experiment described below completed; it recovered some macro imagery
+but did not consistently recover the earlier word-to-image explanations. Its
+expanded data contract is not the selected production workflow.
 
-## Historical baseline and selected guidance experiment
+## Implemented compact workflow
+
+New preparation restores original candidate ownership and ordering, full source
+supports and branches, lean context projections, compact JSON serialization,
+and discovery v1. The four historical governing documents are frozen under
+`_commentary/v5/guidance/` and embedded in discovery and consolidation. The
+consolidator receives three scope drafts and guidance; the later discovery JSON
+payload is no longer appended. Scope composition remains Turkish Markdown and
+consolidation remains prose-only. Monitor lifecycle, paragraph-local tags,
+editorial context references, and the prose validator are retained.
+
+The later generated routing, obligation/review inventories, and bulk context
+morphology registry are not inserted into new packets. Their underlying source
+data, historical outputs, and packet utilities are preserved. The QAC bridge,
+per-candidate alignment, sparse topic delivery checks, root-ID correction,
+unresolved-branch preparation fixes, cache, and input validation remain.
+Preparation identifies `agent_input_contract: early-v5-compact` and reports the
+bulk registry as `context_morphology_status: not_requested`, not as complete.
+
+Matched 29:38 p03 discovery preparations use the same analysis ID and context
+`package=29:28-44`. The consolidation comparison reuses the exact same early
+scope texts and focus/context brief; it is not a new authored commentary.
+
+| Prompt | Early V5 bytes | Expanded bytes | Restored bytes | Restored KiB |
+| --- | ---: | ---: | ---: | ---: |
+| Micro discovery | 848,184 | 876,303 | 855,831 | 835.77 |
+| Macro discovery | 994,284 | 1,043,776 | 996,901 | 973.54 |
+| Global discovery | 1,368,119 | 2,076,949 | 1,370,609 | 1,338.49 |
+| Consolidation, same historical scope texts | 168,935 | 346,236 | 170,875 | 166.87 |
+
+The remaining consolidation overhead is 1,940 bytes (1.15%) for retained
+prose-format and correctness instructions. The 29:38 packet comparison finds
+exact equality with the early candidate order, support registries, branch
+registries, connection registries, and selected context units in all three
+lanes. Differences are confined to corrected candidate root IDs, QAC joins and
+analysis namespaces, and the additive alignment fields. All 49 word topics
+return to micro; total lane candidate counts return to 62 / 7 / 23.
+
+Real package preparation also delivers all 102 / 106 / 80 source word topics
+for 5:3 / 12:31 / 24:31, with exact candidate QAC links. Thus the 110 topics
+restored by the bridge fix remain delivered. Regression tests cover those full
+rendered packets, compact preparation, guidance snapshot identity, incomplete
+topic detection, and the retained bridge/cache/prose-format behavior.
+
+Verification: all 80 tests passed, including all nine QAC bridge regressions:
+
+```text
+python3 -B -m unittest _commentary.v5.tests.test_workflow _commentary.v5.tests.test_evidence_repairs _commentary.v5.tests.test_qac_cache _commentary.v5.tests.test_validate_prose scripts.test_qac_analysis_bridge
+```
+
+Fresh discovery inputs are saved under
+`_commentary/v5/input/s029-p03-compact-20260908/s029/29_38/`. Their exact bytes
+are 855,839 / 996,909 / 1,370,617; the eight-byte difference from the matched
+comparison is the output analysis-ID length. The controlled consolidation
+prompt and comparison details are under `/tmp/v5-compact-comparison/`.
+No authoring agents have been run on this restored production contract yet.
+
+The following sections preserve the investigation and rejected alternatives.
+
+## Historical baseline and completed guidance experiment
 
 The roughly 170 KiB historical inputs were consolidation prompts. The saved V5
 29:38 p03 canonical prompt at `41763703` (September 3) is 168,935 bytes
@@ -24,7 +82,7 @@ The roughly 170 KiB historical inputs were consolidation prompts. The saved V5
 Discovery prompts contain the source evidence and are substantially larger.
 
 Using the same historical three scope prose files and discovery JSON files,
-the current consolidation template reconstructs to 346,236 bytes (338.12 KiB).
+the pre-rollback consolidation template reconstructs to 346,236 bytes (338.12 KiB).
 This is a controlled reconstruction, not a saved historical 338 KiB file.
 Its main additions are 244,985 bytes of discovery JSON, while the four historical
 project-guidance documents (69,650 bytes) were removed. Restoring those documents
@@ -46,9 +104,9 @@ The files are under
 `_commentary/v5/input/s029-p03-full-guidance-20260908/s029/29_38/`.
 The accompanying preparation manifest records hashes and checks: current inline
 evidence is byte-identical, historical guidance content is exact, and current
-preparation and context-morphology guards passed. Production templates are not
-changed. Agent output quality and recovery of complex findings remain untested
-at this pre-run checkpoint.
+preparation and context-morphology guards passed. Production templates were not
+changed by that experiment. This was the pre-run checkpoint. Both scope agents subsequently completed
+discovery and prose; the final production decision is recorded above.
 
 The reproduction and rejected prototype below remain as investigative history,
 not the selected implementation.

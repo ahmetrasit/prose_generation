@@ -81,6 +81,58 @@ class AcceptedAnalysisBridgeTests(unittest.TestCase):
         with self.assertRaisesRegex(ValueError, "differ from the accepted bridge"):
             bridge.validate_bundle(altered, source_ref="29:38")
 
+    def test_compact_packets_keep_all_restored_sparse_topics_and_exact_links(self):
+        from _commentary.v5 import workflow
+        cases = (
+            ("5:3", "s005-pericopes/p01_001-011", "5:1-11", 102),
+            ("12:31", "s012-pericopes/p02_019-035", "12:19-35", 106),
+            ("24:31", "s024-pericopes/p01_001-034", "24:1-34", 80),
+        )
+        for ref, package, segment, count in cases:
+            with self.subTest(ref=ref):
+                directory = bridge.ROOT / "bundles" / package
+                source = json.loads((directory / (ref.replace(":", "_") + ".ayah.json")).read_text())
+                expected = {
+                    topic["topic_id"]: {
+                        "analysis_ref": f"{ref}:{word['critical_w']}",
+                        "qac_refs": list(span["qac_refs"]) if span else [],
+                        "status": "accepted" if span else "excluded-source-defect",
+                    }
+                    for word, span in zip(source["word_analysis"]["words"], source["word_morpheme_spans"])
+                    for topic in word["topics"]
+                }
+                packets = {}
+                render = workflow._build_scope_prompt
+
+                def capture(layout, lane, packet):
+                    prompt = render(layout, lane, packet)
+                    packets[lane] = json.loads(prompt.rsplit("<lane_packet_json>\n", 1)[1].split(
+                        "\n</lane_packet_json>", 1)[0])
+                    return prompt
+
+                args = workflow._parser().parse_args([
+                    "prepare", "--ayah", ref, "--context-bundles-dir", str(directory),
+                    "--analysis-id", "compact-bridge-check", "--segment", "package=" + segment,
+                    "--check-only",
+                ])
+                refs, args.composition = workflow._resolve_request(args)
+                args.ayah = refs[0]
+                with patch.object(workflow, "_build_scope_prompt", capture):
+                    self.assertEqual(workflow.prepare(args)["status"], "checked")
+                received = {
+                    c["source_local_id"]: c["word_alignment"]
+                    for c in packets["micro"]["candidate_inventory"]
+                    if c["source_type"] == "word_analysis"
+                }
+                self.assertEqual(len(expected), count)
+                self.assertEqual(received, expected)
+                for lane in ("macro", "global"):
+                    self.assertFalse(any(c["source_type"] == "word_analysis"
+                                         for c in packets[lane]["candidate_inventory"]))
+                for packet in packets.values():
+                    self.assertNotIn("context_evidence", packet)
+                    self.assertNotIn("review_inventory", packet)
+
     def test_stale_provenance_is_rejected_even_with_correct_edges(self):
         altered = copy.deepcopy(self.bundle)
         altered["coverage"]["word_morpheme_spans"]["bridge"]["source_sha256"] = "0" * 64

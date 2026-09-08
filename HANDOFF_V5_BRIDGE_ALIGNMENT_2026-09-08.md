@@ -14,11 +14,13 @@ change explains the 29:38 hermetic bundle changes.
 
 The user clarified that the concern is the size, shape, and behavior of the
 generated agent prompts, with the established workflow to be preserved alongside
-QAC and other small correctness fixes. The follow-up audit records an initial
-compatibility prototype, the subsequently identified historical consolidation
-baseline, and the selected experiment: restoring full historical project guidance
-in separate current micro and macro discovery prompts while retaining current
-evidence and QAC fixes.
+QAC and other small correctness fixes. The follow-up audit records the
+historical consolidation baseline, the completed
+full-guidance experiment, and the selected production rollback: restore the
+compact early V5 input contract at `41763703` while retaining QAC and minor
+correctness fixes. New packets preserve the earlier candidate ownership and
+evidence organization; consolidation again receives scope prose and full
+guidance without the later discovery JSON payload.
 
 The source-bundle size table below does not measure generated agent prompts.
 The follow-up [input compatibility audit](AUDIT_V5_INPUT_COMPATIBILITY_2026-09-08.md)
@@ -29,7 +31,9 @@ are separate from the small September 5 bridge/alignment deltas. Keep the bridge
 fix; do not interpret this handoff as approval to keep every earlier change to
 the agent input contract. The roughly 170 KiB historical input was a consolidation
 prompt; it is not directly comparable to a discovery prompt containing source
-evidence. The guidance experiment has not yet been evaluated by authoring agents.
+evidence. The guidance experiment completed. The compact production rollback
+has passed preparation and regression checks; a new authoring comparison has
+not been run.
 
 ## Short Answer
 

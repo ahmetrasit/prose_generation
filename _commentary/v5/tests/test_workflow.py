@@ -1,6 +1,8 @@
 from __future__ import annotations
 
 import argparse
+import copy
+import hashlib
 import importlib.util
 import json
 import sys
@@ -184,7 +186,7 @@ class CliSurfaceTests(unittest.TestCase):
         self.assertEqual(json.loads(rendered), value)
         self.assertIn('\n{"id":1},\n{"id":2}\n', rendered)
 
-    def test_canonical_template_requires_discovery_and_scope_inputs(self) -> None:
+    def test_canonical_template_restores_guidance_and_scope_only_inputs(self) -> None:
         template = (workflow.PROMPTS_ROOT / "canonical.md").read_text(
             encoding="utf-8"
         )
@@ -195,15 +197,16 @@ class CliSurfaceTests(unittest.TestCase):
                 "@@AYAH_REF@@",
                 "@@PROSE_OUTPUT_PATH@@",
                 "@@FOCUS_CONTEXT_BRIEF@@",
-                "@@MICRO_DISCOVERY_JSON@@",
-                "@@MACRO_DISCOVERY_JSON@@",
-                "@@GLOBAL_DISCOVERY_JSON@@",
+                "@@PRINCIPLES_MD@@",
+                "@@COMMENTARY_SPEC_MD@@",
+                "@@CHANNELS_MD@@",
+                "@@CANONICAL_PROMPT_V2@@",
                 "@@MICRO_SCOPE_PROSE@@",
                 "@@MACRO_SCOPE_PROSE@@",
                 "@@GLOBAL_SCOPE_PROSE@@",
             },
         )
-        self.assertNotIn("@@PRINCIPLES_MD@@", template)
+        self.assertNotIn("_discovery_json>", template)
 
 
 class ContextEvidenceTests(unittest.TestCase):
@@ -508,6 +511,55 @@ class PacketNormalizationTests(unittest.TestCase):
         self.assertTrue(
             packet["evidence_contract"]["evidence_records_are_lossless"]
         )
+
+
+class CompactPacketTests(unittest.TestCase):
+    def test_governing_documents_match_the_early_v5_snapshot(self) -> None:
+        expected = {
+            "principles": "fe4c0397d275a0201b8803782011ab9281392c2f76dc5e7584e1bec827c0c62c",
+            "commentary_spec": "ff755d734ed019afe0217c8564538ac26cec8b42941cee78492e7a7a19ab6614",
+            "channels": "bdb3a2efbc5e1352e1e995ea1e9ab28f8a4bb81d0cf5a758f4b42bf9bd8f89a6",
+            "canonical_prompt_v2": "a6e17213aed8ed538cc1ca2cfa957bfbc4617991df4da6df87bce7f09323468d",
+        }
+        self.assertEqual({key: hashlib.sha256(text.encode()).hexdigest()
+                          for key, text in workflow._canonical_inputs().items()}, expected)
+
+    def test_root_repair_preserves_original_topic_ownership_and_evidence(self) -> None:
+        packets = PacketNormalizationTests()._packets()
+        before = copy.deepcopy(packets)
+        workflow._finalize_compact_lane_packets(packets, numbered_bundle("29:38"))
+        before["micro"]["candidate_inventory"][0]["root_ids"] = ["root_000001"]
+        self.assertEqual(packets, before)
+        self.assertEqual(packets["macro"]["candidate_inventory"], [])
+
+    def test_complete_topic_delivery_is_checked_without_rerouting(self) -> None:
+        bundle = numbered_bundle("29:38")
+        bundle["coverage"] = {"word_morpheme_spans": {
+            "alignment_version": "qac-analysis-bridge-v1"}}
+        bundle["word_analysis"]["words"] = [{"topics": [
+            {"topic_id": "29:38:22:next-ayah"},
+            {"topic_id": "29:38:23:inverse-rare-echo"},
+        ]}]
+        packets = PacketNormalizationTests()._packets()
+        with self.assertRaisesRegex(workflow.WorkflowError, "inverse-rare-echo"):
+            workflow._finalize_compact_lane_packets(packets, bundle)
+
+    def test_duplicate_candidate_identity_is_rejected(self) -> None:
+        packets = PacketNormalizationTests()._packets()
+        packets["macro"]["candidate_inventory"] = copy.deepcopy(
+            packets["micro"]["candidate_inventory"])
+        with self.assertRaisesRegex(workflow.WorkflowError, "more than one source lane"):
+            workflow._finalize_compact_lane_packets(packets, numbered_bundle("29:38"))
+
+    def test_conflicting_shared_source_evidence_is_still_rejected(self) -> None:
+        for field, error in (("support_registry", "Support ID differs"),
+                             ("branch_registry", "Branch semantics differ")):
+            with self.subTest(field=field):
+                packets = PacketNormalizationTests()._packets()
+                packets["macro"][field] = copy.deepcopy(packets["micro"][field])
+                packets["macro"][field][0]["text"] = "contradictory source detail"
+                with self.assertRaisesRegex(workflow.WorkflowError, error):
+                    workflow._finalize_compact_lane_packets(packets, numbered_bundle("29:38"))
 
 
 class ReciprocalInputTests(unittest.TestCase):
@@ -872,15 +924,25 @@ class PrepareTests(unittest.TestCase):
                 old_editorial.read_text(encoding="utf-8"), "editorial prose"
             )
 
-    def test_missing_required_morphology_stops_writes_unless_explicitly_exploratory(self) -> None:
-        for allow_missing in (False, True):
-            with self.subTest(allow_missing=allow_missing), tempfile.TemporaryDirectory() as temporary:
+    def test_compact_prepare_never_adds_bulk_context_or_reroutes_candidates(self) -> None:
+        for check_only in (False, True):
+            with self.subTest(check_only=check_only), tempfile.TemporaryDirectory() as temporary:
                 root = Path(temporary)
                 args = self._args(root)
-                args.qac_morphology = root / "missing-qac.gz"
-                args.qac_cache_dir = root / "cache"
-                args.allow_missing_qac_morphology = allow_missing
+                args.check_only = check_only
                 patches = self._patch_preflight()
+                packets = {}
+                render = workflow._build_scope_prompt
+
+                def capture(layout, lane, packet):
+                    prompt = render(layout, lane, packet)
+                    packets[lane] = json.loads(prompt.split(
+                        "<lane_packet_json>\n", 1)[1].split("\n</lane_packet_json>", 1)[0])
+                    self.assertIn('"commentary-v5-scope-discovery-v1"', prompt)
+                    for guidance in workflow._canonical_inputs().values():
+                        self.assertIn(guidance, prompt)
+                    return prompt
+
                 def lane_packet(**kwargs):
                     lane = kwargs["lane"]
                     return {**base_packet(lane), "connection_registry": [{
@@ -892,17 +954,23 @@ class PrepareTests(unittest.TestCase):
                     patch.object(workflow, "EDITORIAL_ROOT", root / "editorial"),
                     patch.object(workflow, "_required_host_basmala", return_value=None),
                     patch.object(workflow, "_build_lane_packet", side_effect=lane_packet),
+                    patch.object(workflow, "_build_scope_prompt", side_effect=capture),
+                    patch.object(workflow, "_normalize_and_route_lane_packets",
+                                 side_effect=AssertionError("expanded routing used")),
+                    patch.object(workflow.packet_evidence, "attach_context_evidence",
+                                 side_effect=AssertionError("bulk context added")),
                     patches[0], patches[1], patches[2], patches[3],
                 ):
-                    if allow_missing:
-                        result = workflow.prepare(args)
-                        self.assertEqual(result["context_morphology_status"], "degraded")
-                        self.assertEqual(result["missing_context_morphology_refs"], ["7:201"])
-                        self.assertEqual(len(result["generated_files"]), 3)
-                    else:
-                        with self.assertRaisesRegex(workflow.WorkflowError, "Required QAC morphology"):
-                            workflow.prepare(args)
-                        self.assertFalse((root / "input").exists())
+                    result = workflow.prepare(args)
+                self.assertEqual(result["agent_input_contract"], "early-v5-compact")
+                self.assertEqual(result["context_morphology_status"], "not_requested")
+                self.assertEqual(result["missing_context_morphology_refs"], [])
+                self.assertEqual((root / "input").exists(), not check_only)
+                for lane, packet in packets.items():
+                    self.assertEqual(packet["candidate_inventory"],
+                                     base_packet(lane)["candidate_inventory"])
+                    self.assertNotIn("context_evidence", packet)
+                    self.assertNotIn("review_inventory", packet)
 
 
 if __name__ == "__main__":

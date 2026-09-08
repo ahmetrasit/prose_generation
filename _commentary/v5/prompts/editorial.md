@@ -19,8 +19,8 @@ The editorial version must preserve the complete semantic coverage of the raw
 version while changing only wording, cadence, clarity, proportion, repetition,
 and Turkish fluency.
 
-Preservation binds supported findings, not factual mistakes. If the discovery
-records already in this live conversation demonstrate that the first-pass prose
+Preservation binds supported findings, not factual mistakes. If the scope
+texts already in this live conversation demonstrate that the first-pass prose
 misstates case, syntax, morphology, lexical identity, or another source fact,
 correct the wording while preserving the intended supported finding. Do not
 invent new evidence or silently delete the finding.

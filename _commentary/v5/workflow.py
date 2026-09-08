@@ -22,6 +22,7 @@ REPO_ROOT = V5_ROOT.parents[1]
 V3_ROOT = V5_ROOT.parent / "v3"
 SCRIPTS_ROOT = REPO_ROOT / "scripts"
 PROMPTS_ROOT = V5_ROOT / "prompts"
+GUIDANCE_ROOT = V5_ROOT / "guidance"
 INPUT_ROOT = V5_ROOT / "input"
 RAW_ROOT = V5_ROOT / "raw"
 EDITORIAL_ROOT = V5_ROOT / "editorial"
@@ -31,7 +32,7 @@ LANE_RANK = {lane: index for index, lane in enumerate(LANES)}
 MAX_BATCH_UNITS = 512
 MAX_JSON_BYTES = 128_000_000
 MAX_SCOPE_PROMPT_BYTES = 16_000_000
-SCOPE_DISCOVERY_SCHEMA_VERSION = "commentary-v5-scope-discovery-v2"
+SCOPE_DISCOVERY_SCHEMA_VERSION = "commentary-v5-scope-discovery-v1"
 MARKER_RE = re.compile(r"@@[A-Z0-9_]+@@")
 QURAN_REF_IN_TEXT_RE = re.compile(
     r"(?<![0-9:])([1-9][0-9]*):(0|[1-9][0-9]*)(?![0-9:])"
@@ -1457,7 +1458,7 @@ def _normalize_and_route_lane_packets(
     source_bundle: dict[str, Any],
     composition: compositions.Composition | None,
 ) -> dict[str, dict[str, Any]]:
-    """Make candidate, support, connection, and context routing agree."""
+    """Legacy expanded packet assembly; prepare uses the compact contract."""
     focus_ref = str(source_bundle["ayahRef"])
     linguistic_source_ref = str(
         source_bundle.get("linguistic_source_ref", focus_ref)
@@ -1884,12 +1885,97 @@ def _build_lane_packet(
     return _strip_audit_fields(packet)
 
 
-def _discovery_policy() -> str:
-    path = PROMPTS_ROOT / "discovery-policy.md"
+def _finalize_compact_lane_packets(
+    packets: dict[str, dict[str, Any]], source_bundle: dict[str, Any]
+) -> None:
+    """Keep early V5 ownership and evidence shape, with correctness checks.
+
+    Do not derive review inventories, obligations, or additional context here.
+    Source supports already carry those claims. QAC links are attached by
+    _build_lane_packet; root identities can be repaired without moving topics.
+    """
+    candidates: list[dict[str, Any]] = []
+    seen: set[str] = set()
+    all_supports: dict[str, dict[str, Any]] = {}
+    all_branches: dict[str, dict[str, Any]] = {}
+    connection_ids: set[str] = set()
+    for lane in LANES:
+        packet = packets[lane]
+        support_map: dict[str, dict[str, Any]] = {}
+        branch_map: dict[str, dict[str, Any]] = {}
+        for support in packet["support_registry"]:
+            if not isinstance(support, dict) or not isinstance(support.get("support_id"), str):
+                raise WorkflowError(f"{lane} packet contains malformed support")
+            support_id = support["support_id"]
+            if not support_id or support_id in support_map:
+                raise WorkflowError(f"{lane} packet has an empty or duplicate support ID")
+            if support_id in all_supports and all_supports[support_id] != support:
+                raise WorkflowError(f"Support ID differs across lanes: {support_id}")
+            support_map[support_id] = all_supports[support_id] = support
+        for branch in packet["branch_registry"]:
+            if not isinstance(branch, dict) or not isinstance(branch.get("branch_ref"), str):
+                raise WorkflowError(f"{lane} packet contains malformed branch")
+            branch_ref = branch["branch_ref"]
+            if not branch_ref or branch_ref in branch_map:
+                raise WorkflowError(f"{lane} packet has an empty or duplicate branch ref")
+            all_branches[branch_ref] = _merge_branch_record(all_branches.get(branch_ref), branch)
+            branch_map[branch_ref] = branch
+        for connection in packet.get("connection_registry", []):
+            if not isinstance(connection, dict) or not isinstance(connection.get("connection_ref"), str):
+                raise WorkflowError(f"{lane} packet contains malformed connection")
+            connection_ref = connection["connection_ref"]
+            if not connection_ref or connection_ref in connection_ids:
+                raise WorkflowError("A connection ref is empty or duplicated across source lanes")
+            connection_ids.add(connection_ref)
+        for candidate in packet["candidate_inventory"]:
+            if not isinstance(candidate, dict):
+                raise WorkflowError(f"{lane} packet contains malformed candidate")
+            candidate_id = candidate.get("candidate_id")
+            if not isinstance(candidate_id, str) or not candidate_id:
+                raise WorkflowError("A lane packet candidate has no ID")
+            if candidate_id in seen:
+                raise WorkflowError("A candidate appears in more than one source lane")
+            seen.add(candidate_id)
+            candidates.append(candidate)
+            for support_id in candidate.get("support_ids", []):
+                if support_id not in support_map:
+                    raise WorkflowError(
+                        f"Candidate {candidate_id} cites unknown support {support_id}"
+                    )
+            _normalize_word_analysis_root_ids(candidate, support_map, branch_map)
+
+    alignment = source_bundle.get("coverage", {}).get("word_morpheme_spans", {})
+    if alignment.get("alignment_version") == "qac-analysis-bridge-v1":
+        expected_topics = {
+            topic["topic_id"]
+            for word in source_bundle["word_analysis"]["words"]
+            for topic in word.get("topics", [])
+        }
+        delivered_topics = [
+            candidate["source_local_id"] for candidate in candidates
+            if candidate.get("source_type") == "word_analysis"
+        ]
+        if (expected_topics != set(delivered_topics)
+                or len(delivered_topics) != len(expected_topics)):
+            raise WorkflowError(
+                "Word-analysis topic delivery is incomplete or duplicated: "
+                f"missing={sorted(expected_topics - set(delivered_topics))}, "
+                f"unexpected={sorted(set(delivered_topics) - expected_topics)}"
+            )
+
+
+def _canonical_inputs() -> dict[str, str]:
+    """Load the governing documents frozen with the early V5 input contract."""
+    paths = {
+        "principles": GUIDANCE_ROOT / "PRINCIPLES.md",
+        "commentary_spec": GUIDANCE_ROOT / "COMMENTARY_SPEC.md",
+        "channels": GUIDANCE_ROOT / "CHANNELS.md",
+        "canonical_prompt_v2": GUIDANCE_ROOT / "PROMPT_V2.md",
+    }
     try:
-        return path.read_text(encoding="utf-8")
+        return {key: path.read_text(encoding="utf-8") for key, path in paths.items()}
     except OSError as exc:
-        raise WorkflowError(f"Cannot read discovery policy: {exc}") from exc
+        raise WorkflowError(f"Cannot read governing instructions: {exc}") from exc
 
 
 def _lane_specific_procedure(lane: str, packet: dict[str, Any]) -> str:
@@ -1940,6 +2026,7 @@ def _lane_specific_procedure(lane: str, packet: dict[str, Any]) -> str:
 
 
 def _build_scope_prompt(layout: Layout, lane: str, packet: dict[str, Any]) -> str:
+    governing = _canonical_inputs()
     template_path = PROMPTS_ROOT / "discovery.md"
     try:
         template = template_path.read_text(encoding="utf-8")
@@ -1952,9 +2039,12 @@ def _build_scope_prompt(layout: Layout, lane: str, packet: dict[str, Any]) -> st
             "@@LANE@@": lane,
             "@@DISCOVERY_OUTPUT_PATH@@": _repo_path(layout.scope_discovery(lane)),
             "@@SCOPE_DISCOVERY_SCHEMA_VERSION@@": SCOPE_DISCOVERY_SCHEMA_VERSION,
-            "@@DISCOVERY_POLICY_MD@@": _discovery_policy(),
+            "@@PRINCIPLES_MD@@": governing["principles"],
+            "@@COMMENTARY_SPEC_MD@@": governing["commentary_spec"],
+            "@@CHANNELS_MD@@": governing["channels"],
+            "@@CANONICAL_PROMPT_V2@@": governing["canonical_prompt_v2"],
             "@@LANE_SPECIFIC_PROCEDURE@@": _lane_specific_procedure(lane, packet),
-            "@@LANE_PACKET_JSON@@": _record_line_json(packet),
+            "@@LANE_PACKET_JSON@@": _canonical_json(packet),
         },
         label=f"{lane} scope prompt",
     )
@@ -2011,7 +2101,7 @@ def prepare(args: argparse.Namespace) -> dict[str, Any]:
             context_by_lane=context_by_lane,
             host_basmala=host_basmala,
         )
-    _normalize_and_route_lane_packets(packets, source_bundle, composition)
+    _finalize_compact_lane_packets(packets, source_bundle)
     alignment = source_bundle.get("coverage", {}).get("word_morpheme_spans", {})
     for packet in packets.values():
         packet["focus_word_alignment"] = {
@@ -2021,21 +2111,6 @@ def prepare(args: argparse.Namespace) -> dict[str, Any]:
                 "source_namespace", "target_namespace", "bridge", "shared_morphemes",
             ) if key in alignment
         }
-    packet_evidence.attach_context_evidence(
-        packets, quran_evidence,
-        Path(getattr(args, "qac_morphology", DEFAULT_QAC_MORPHOLOGY)),
-        Path(getattr(args, "qac_cache_dir", packet_evidence.DEFAULT_CACHE_DIR)),
-    )
-    missing_morphology = sorted({
-        ref for packet in packets.values()
-        for ref in packet["context_evidence_coverage"]["missing_morphology_refs"]
-    }, key=_quran_ref_sort_key)
-    if missing_morphology and not getattr(args, "allow_missing_qac_morphology", False):
-        raise WorkflowError(
-            "Required QAC morphology is unavailable for " + ", ".join(missing_morphology)
-            + ". Check --qac-morphology and --qac-cache-dir. "
-            "Use --allow-missing-qac-morphology only for an explicitly exploratory run."
-        )
     prompts = {
         lane: _build_scope_prompt(layout, lane, packets[lane]) for lane in LANES
     }
@@ -2046,8 +2121,9 @@ def prepare(args: argparse.Namespace) -> dict[str, Any]:
             "status": "checked",
             "analysis_id": layout.analysis_id,
             "ayah_ref": layout.ayah_ref,
-            "context_morphology_status": "degraded" if missing_morphology else "complete",
-            "missing_context_morphology_refs": missing_morphology,
+            "agent_input_contract": "early-v5-compact",
+            "context_morphology_status": "not_requested",
+            "missing_context_morphology_refs": [],
             "prompt_bytes": {lane: len(prompt.encode("utf-8")) for lane, prompt in prompts.items()},
             "word_alignment": source_bundle.get("coverage", {}).get("word_morpheme_spans", {}),
         }
@@ -2066,8 +2142,9 @@ def prepare(args: argparse.Namespace) -> dict[str, Any]:
     return {
         "schema_version": "commentary-v5-prepared-v1",
         "status": "prepared",
-        "context_morphology_status": "degraded" if missing_morphology else "complete",
-        "missing_context_morphology_refs": missing_morphology,
+        "agent_input_contract": "early-v5-compact",
+        "context_morphology_status": "not_requested",
+        "missing_context_morphology_refs": [],
         "focus_word_alignment": packets["micro"]["focus_word_alignment"],
         "analysis_id": layout.analysis_id,
         "ayah_ref": layout.ayah_ref,
@@ -2119,9 +2196,9 @@ def prepare(args: argparse.Namespace) -> dict[str, Any]:
                 "live agent to write its scope prose"
             ),
             "consolidation": (
-                "close scope agents, then give the three discovery JSON objects, "
-                "three scope prose texts, and a short focus/context brief to one "
-                "fresh consolidator"
+                "close scope agents, then give the three scope prose texts, "
+                "the pinned project guidance, and a short focus/context brief "
+                "to one fresh consolidator"
             ),
             "editorial": (
                 "ask that same consolidator for the editorial rewrite, then close"
@@ -2154,7 +2231,7 @@ def _source_options(parser: argparse.ArgumentParser) -> None:
     parser.add_argument("--quran-text", type=Path, default=v3.DEFAULT_QURAN_TEXT)
     parser.add_argument(
         "--qac-morphology", type=Path, default=DEFAULT_QAC_MORPHOLOGY,
-        help="Local QAC SQLite gzip source for inline target morphology.",
+        help="Local QAC SQLite gzip source checked by the preparation preflight.",
     )
     parser.add_argument(
         "--qac-cache-dir", type=Path, default=packet_evidence.DEFAULT_CACHE_DIR,
@@ -2162,7 +2239,7 @@ def _source_options(parser: argparse.ArgumentParser) -> None:
     )
     parser.add_argument(
         "--allow-missing-qac-morphology", action="store_true",
-        help="Exploratory runs only: permit explicitly qualified missing context morphology.",
+        help="Exploratory runs only: skip the QAC source preflight; focus bridge validation still applies.",
     )
     parser.add_argument(
         "--context-bundles-dir",
