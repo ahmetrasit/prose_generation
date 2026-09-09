@@ -46,7 +46,12 @@ lost.
 - For every retained finding, write `claim` and `mechanism` as the actual
   semantic relation. A statement that a supplied record or support merely
   identifies a contribution does not satisfy either field. Name the carrier,
-  trigger, contact, and resulting change in meaning.
+  trigger, contact, and resulting change in meaning. If a branch otherwise
+  passes the activation test, do not narrow the candidate or exclude the branch
+  merely because the relation is peripheral, attributed, surprising,
+  multi-step, or difficult to articulate. A form restriction justifies
+  exclusion only when it is incompatible with the actual carrier; otherwise
+  retain the relation with its restriction and evidence status explicit.
 - Every item in a candidate's `semantic_obligations` is first-class. This
   includes candidate-specific word/channel evidence as well as HFT
   activation-trace roles, before/after changed readings, and containment; none
