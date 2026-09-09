@@ -142,14 +142,29 @@ the later `context_evidence`, `context_morpheme_columns`, and generated
 that a nominated interpretation is false. Agents stay within the evidence
 actually supplied by the lane packet.
 
+For 29:38, five individually reviewed source items supplement that contract
+when their owning candidates are present. Micro's `reference_evidence` supplies
+the complete Arabic and typed QAC rows for 7:201 and 29:39, supporting the
+already-nominated participle comparisons. Macro's `lexical_evidence` supplies
+dictionary quotations, source names, form restrictions, and sense boundaries
+for `root_000347/B011`, `root_001222/B008`, and `root_001273/B012` (socket/join,
+tent frame, and upright support). These are selected branch fields, not whole
+root dictionaries. `_commentary/v5/reviewed_supplements.py` fixes the reviewed
+references and source locations; it does not expand other context automatically.
+The raw evidence adds 4,306 / 4,527 bytes to micro / macro, respectively.
+
 Preparation reports `agent_input_contract: early-v5-compact` and
-`context_morphology_status: not_requested`. The latter describes the omitted
-bulk registry, not a failed focus alignment or a claim of complete context
-morphology. Production CLI preflight still checks a readable QAC source;
+`context_morphology_status: targeted` when those reviewed QAC references are
+included, otherwise `not_requested`. Neither status claims a complete context
+morphology registry. The `reviewed_supplements` handoff records the included
+references, QAC source hash, and lexical source pointers. Missing required
+Arabic, QAC rows, or dictionary fields stop preparation before prompts are
+written. Production CLI preflight still checks a readable QAC source;
 `--qac-morphology` and `--qac-cache-dir` configure that check. The cache and
 historical packet utilities remain available, including the decoder for saved
 v3 `$v5_ref` transport. The exploratory `--allow-missing-qac-morphology` flag
-skips the source preflight; it does not bypass focus bridge validation.
+skips the source preflight; it does not bypass focus bridge validation or the
+required reviewed-source checks.
 
 The second turn for each scope agent uses
 `_commentary/v5/prompts/composition.md`. Fill it with the focus ref, lane,

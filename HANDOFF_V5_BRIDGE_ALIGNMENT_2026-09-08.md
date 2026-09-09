@@ -35,6 +35,13 @@ evidence. The guidance experiment completed. The compact production rollback
 has passed preparation and regression checks; a new authoring comparison has
 not been run.
 
+The user then approved five bounded source additions for 29:38: micro receives
+7:201 and 29:39 Arabic/QAC evidence, and macro receives three selected dictionary
+excerpts with their sense restrictions. These add 8.63 KiB of evidence (8.93 KiB
+including prompt wrappers/instructions). The updated audit records exact sizes
+and 84 passing tests; the underlying compact packets and global prompt remain
+unchanged apart from those additions.
+
 ## Short Answer
 
 The reliable commit is:

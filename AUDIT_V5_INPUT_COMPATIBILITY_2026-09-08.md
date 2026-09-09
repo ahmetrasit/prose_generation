@@ -15,7 +15,7 @@ guidance experiment described below completed; it recovered some macro imagery
 but did not consistently recover the earlier word-to-image explanations. Its
 expanded data contract is not the selected production workflow.
 
-## Implemented compact workflow
+## Implemented compact workflow at `604e3fc5`
 
 New preparation restores original candidate ownership and ordering, full source
 supports and branches, lean context projections, compact JSON serialization,
@@ -31,8 +31,10 @@ morphology registry are not inserted into new packets. Their underlying source
 data, historical outputs, and packet utilities are preserved. The QAC bridge,
 per-candidate alignment, sparse topic delivery checks, root-ID correction,
 unresolved-branch preparation fixes, cache, and input validation remain.
-Preparation identifies `agent_input_contract: early-v5-compact` and reports the
-bulk registry as `context_morphology_status: not_requested`, not as complete.
+At this rollback checkpoint, preparation identifies
+`agent_input_contract: early-v5-compact` and reports the bulk registry as
+`context_morphology_status: not_requested`, not as complete. The subsequently
+approved, bounded additions are recorded separately below.
 
 Matched 29:38 p03 discovery preparations use the same analysis ID and context
 `package=29:28-44`. The consolidation comparison reuses the exact same early
@@ -65,12 +67,70 @@ Verification: all 80 tests passed, including all nine QAC bridge regressions:
 python3 -B -m unittest _commentary.v5.tests.test_workflow _commentary.v5.tests.test_evidence_repairs _commentary.v5.tests.test_qac_cache _commentary.v5.tests.test_validate_prose scripts.test_qac_analysis_bridge
 ```
 
-Fresh discovery inputs are saved under
-`_commentary/v5/input/s029-p03-compact-20260908/s029/29_38/`. Their exact bytes
-are 855,839 / 996,909 / 1,370,617; the eight-byte difference from the matched
-comparison is the output analysis-ID length. The controlled consolidation
+Discovery inputs were saved under
+`_commentary/v5/input/s029-p03-compact-20260908/s029/29_38/`. At `604e3fc5` their
+exact bytes are 855,839 / 996,909 / 1,370,617; the eight-byte difference from the
+matched comparison is the output analysis-ID length. The controlled consolidation
 prompt and comparison details are under `/tmp/v5-compact-comparison/`.
 No authoring agents have been run on this restored production contract yet.
+
+## Approved evidence additions after the rollback
+
+The user approved 8.63 KiB of additional source evidence across micro and macro.
+This layer supplies five reviewed items for 29:38 only when the existing lane
+candidates nominate them:
+
+- Micro: full Arabic and typed QAC morphology for 7:201 and 29:39 (17 and 26
+  morphemes). These complete the reference evidence for the inverse rare echo
+  and next-ayah participle echo. The compact `reference_evidence` value is
+  4,306 bytes (4.21 KiB).
+- Macro: dictionary source excerpts for `root_000347/B011` from 29:44,
+  `root_001222/B008` from 29:31, and `root_001273/B012` from 29:28. Each preserves
+  the concept gloss, Arabic quotation, source names, lexicalization scope, and
+  positive/negative sense boundaries. The tent-frame apparatus, for example,
+  remains explicitly distinct from the village sense. The compact
+  `lexical_evidence` value is 4,527 bytes (4.42 KiB).
+
+The saved prompts at the same path have been regenerated. Relative to the
+rollback checkpoint:
+
+| Lane | Baseline bytes | Current bytes | Current KiB | Added bytes | Added KiB |
+| --- | ---: | ---: | ---: | ---: | ---: |
+| Micro | 855,839 | 860,285 | 840.12 | 4,446 | 4.34 |
+| Macro | 996,909 | 1,001,609 | 978.13 | 4,700 | 4.59 |
+| Global | 1,370,617 | 1,370,617 | 1,338.49 | 0 | 0.00 |
+
+Raw evidence totals 8,833 bytes (8.63 KiB). Field wrappers and one brief
+evidence-use instruction per affected lane add another 313 bytes, making total
+prompt growth 9,146 bytes (8.93 KiB). The instructions identify the supplied
+fields without treating evidence availability as activation of an interpretation.
+
+Removing just the new evidence field from each decoded lane packet yields
+exact equality with the corresponding `604e3fc5` packet. The global prompt is
+byte-identical. Candidate ownership, order, all 49 micro word topics, QAC joins,
+support/branch/context registries, full pinned guidance, response schema, and
+downstream handoffs remain unchanged. Consolidation still receives scope prose
+and guidance; these source records are not appended to it.
+
+Preparation reports `context_morphology_status: targeted` for the two selected
+QAC references, and includes their source hash and the three lexical source
+pointers in `reviewed_supplements`. Required sources are checked before any
+prompt is written. Other focuses and absent owning candidates receive no
+supplement. The source-preflight override cannot skip these checks.
+
+All 84 tests passed, including ten QAC bridge regressions. The added integration
+check compares every delivered reference morpheme against the canonical QAC
+database, Arabic against the Quran projection, and all three lexical records
+against their source branches; it also checks the approved raw footprint and
+lane placement. Failure tests cover unavailable Arabic/morphology and missing
+lexical boundaries without publishing a partial supplement.
+
+```text
+python3 -B -m unittest _commentary.v5.tests.test_workflow _commentary.v5.tests.test_reviewed_supplements _commentary.v5.tests.test_evidence_repairs _commentary.v5.tests.test_qac_cache _commentary.v5.tests.test_validate_prose scripts.test_qac_analysis_bridge
+```
+
+No new discovery or prose run has been performed, so this validates evidence
+delivery and compatibility rather than a measured improvement in agent output.
 
 The following sections preserve the investigation and rejected alternatives.
 

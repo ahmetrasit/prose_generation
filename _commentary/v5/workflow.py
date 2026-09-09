@@ -121,6 +121,7 @@ sys.path.insert(0, str(SCRIPTS_ROOT))
 sys.path.insert(0, str(REPO_ROOT))
 from _commentary.v5 import composition as compositions  # noqa: E402
 from _commentary.v5 import packet_evidence  # noqa: E402
+from _commentary.v5 import reviewed_supplements  # noqa: E402
 import render_authoring as v3  # noqa: E402
 from v3lib.common import ValidationError  # noqa: E402
 from v3lib.prepare import (  # noqa: E402
@@ -1979,6 +1980,23 @@ def _canonical_inputs() -> dict[str, str]:
 
 
 def _lane_specific_procedure(lane: str, packet: dict[str, Any]) -> str:
+    if lane == "micro" and packet.get("reference_evidence"):
+        return (
+            "- Use reference_evidence for the nominated cross-ayah comparisons; "
+            "morpheme_columns defines its QAC rows. Evidence availability does "
+            "not establish activation."
+        )
+    procedure = _context_overlay_procedure(lane, packet)
+    if lane == "macro" and packet.get("lexical_evidence"):
+        procedure += (
+            "\n- Match lexical_evidence by branch_ref. Its dictionary quotations "
+            "and form restrictions qualify the nominated meaning; they do not "
+            "establish activation."
+        )
+    return procedure
+
+
+def _context_overlay_procedure(lane: str, packet: dict[str, Any]) -> str:
     if lane != "macro":
         return "- No additional lane-specific procedure."
 
@@ -2111,6 +2129,23 @@ def prepare(args: argparse.Namespace) -> dict[str, Any]:
                 "source_namespace", "target_namespace", "bridge", "shared_morphemes",
             ) if key in alignment
         }
+    def load_lexical_source(ref: str) -> dict[str, Any]:
+        path = compositions.unit_bundle_path(context_root, ref)
+        root = context_root if path.is_file() else member_root
+        return compositions.load_unit_bundle(root, ref)[1]
+
+    try:
+        supplements = reviewed_supplements.attach(
+            packets, quran_evidence,
+            Path(getattr(args, "qac_morphology", DEFAULT_QAC_MORPHOLOGY)),
+            Path(getattr(args, "qac_cache_dir", packet_evidence.DEFAULT_CACHE_DIR)),
+            load_lexical_source,
+        )
+    except (reviewed_supplements.SupplementError, compositions.CompositionError) as exc:
+        raise WorkflowError(str(exc)) from exc
+    context_morphology_status = (
+        "targeted" if supplements["micro_reference_refs"] else "not_requested"
+    )
     prompts = {
         lane: _build_scope_prompt(layout, lane, packets[lane]) for lane in LANES
     }
@@ -2122,8 +2157,9 @@ def prepare(args: argparse.Namespace) -> dict[str, Any]:
             "analysis_id": layout.analysis_id,
             "ayah_ref": layout.ayah_ref,
             "agent_input_contract": "early-v5-compact",
-            "context_morphology_status": "not_requested",
+            "context_morphology_status": context_morphology_status,
             "missing_context_morphology_refs": [],
+            "reviewed_supplements": supplements,
             "prompt_bytes": {lane: len(prompt.encode("utf-8")) for lane, prompt in prompts.items()},
             "word_alignment": source_bundle.get("coverage", {}).get("word_morpheme_spans", {}),
         }
@@ -2143,8 +2179,9 @@ def prepare(args: argparse.Namespace) -> dict[str, Any]:
         "schema_version": "commentary-v5-prepared-v1",
         "status": "prepared",
         "agent_input_contract": "early-v5-compact",
-        "context_morphology_status": "not_requested",
+        "context_morphology_status": context_morphology_status,
         "missing_context_morphology_refs": [],
+        "reviewed_supplements": supplements,
         "focus_word_alignment": packets["micro"]["focus_word_alignment"],
         "analysis_id": layout.analysis_id,
         "ayah_ref": layout.ayah_ref,

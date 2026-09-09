@@ -196,9 +196,11 @@ Production preparation checks QAC source availability before a batch and
 validates the focus's accepted analysis/QAC bridge and complete word-topic
 delivery. Stop on a preparation error; do not launch from files left by an
 earlier run. Confirm `agent_input_contract: early-v5-compact` for each prepared
-unit. `context_morphology_status: not_requested` is expected: these prompts
-restore the original lean context projections, without the later bulk context
-morphology registry. The `--allow-missing-qac-morphology` source-preflight
+unit. `context_morphology_status` is `targeted` when the individually reviewed
+29:38 reference additions are included, otherwise `not_requested`. The
+`reviewed_supplements` handoff identifies the supplied sources. Preparation
+requires those selected sources to be present; neither status claims a bulk
+context morphology registry. The `--allow-missing-qac-morphology` source-preflight
 override is for explicitly exploratory runs, not this production procedure.
 
 ## 3. Scope Agents

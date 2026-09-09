@@ -56,6 +56,64 @@ class AcceptedAnalysisBridgeTests(unittest.TestCase):
         with self.assertRaisesRegex(ValueError, "differ from the accepted bridge"):
             bridge.validate_bundle(altered, source_ref="29:38")
 
+    def test_reviewed_29_38_additions_deliver_exact_bounded_sources(self):
+        from _commentary.v5 import packet_evidence, reviewed_supplements, workflow
+        directory = bridge.ROOT / "bundles/s029-pericopes/p03_028-044"
+        args = workflow._parser().parse_args([
+            "prepare", "--ayah", "29:38", "--analysis-id", "reviewed-evidence-check",
+            "--context-bundles-dir", str(directory), "--segment", "package=29:28-44",
+            "--check-only",
+        ])
+        refs, args.composition = workflow._resolve_request(args)
+        args.ayah = refs[0]
+        packets = {}
+        render = workflow._build_scope_prompt
+
+        def capture(layout, lane, packet):
+            prompt = render(layout, lane, packet)
+            packets[lane] = json.loads(prompt.rsplit("<lane_packet_json>\n", 1)[1].split(
+                "\n</lane_packet_json>", 1)[0])
+            return prompt
+
+        with patch.object(workflow, "_build_scope_prompt", capture):
+            result = workflow.prepare(args)
+        self.assertEqual(result["context_morphology_status"], "targeted")
+        reference = packets["micro"]["reference_evidence"]
+        self.assertEqual(reference["morpheme_columns"], list(packet_evidence.MORPHEME_COLUMNS))
+        self.assertEqual([row["ayah_ref"] for row in reference["context"]], ["7:201", "29:39"])
+        quran, _ = workflow._quran_text_projection(workflow.v3.DEFAULT_QURAN_TEXT)
+        columns = ", ".join(packet_evidence.MORPHEME_COLUMNS)
+        for record in reference["context"]:
+            ref = record["ayah_ref"]
+            rows = self.source.qac.execute(
+                f"SELECT {columns} FROM qac_morphemes WHERE surah=? AND ayah=? "
+                "ORDER BY word_index, morpheme_index", tuple(map(int, ref.split(":")))).fetchall()
+            self.assertEqual(record["morphemes"], [list(row) for row in rows])
+            self.assertEqual(record["arabic_uthmani"], quran[ref]["arabic_uthmani"])
+
+        lexical = packets["macro"]["lexical_evidence"]
+        expected_sources = reviewed_supplements.MACRO_LEXICAL_SOURCES["29:38"]
+        self.assertEqual([row["branch_ref"] for row in lexical], list(expected_sources))
+        for record in lexical:
+            ref = expected_sources[record["branch_ref"]]
+            bundle = json.loads((directory / (ref.replace(":", "_") + ".ayah.json")).read_text())
+            root = record["branch_ref"].split("/", 1)[0]
+            source = next(row for row in bundle["root_lexicon"][root]["dictionary_entry"]["branches"]
+                          if row["branch_ref"] == record["branch_ref"])
+            self.assertEqual(record, {field: source[field] for field in reviewed_supplements.LEXICAL_FIELDS})
+        # Protect the approved footprint; complete neighboring root entries are much larger.
+        encode = lambda value: json.dumps(value, ensure_ascii=False, separators=(",", ":")).encode()
+        self.assertEqual(len(encode(reference)), 4306)
+        self.assertEqual(len(encode(lexical)), 4527)
+        self.assertEqual([len(packets[lane]["candidate_inventory"]) for lane in workflow.LANES], [62, 7, 23])
+        for lane in workflow.LANES:
+            self.assertNotIn("context_evidence", packets[lane])
+            self.assertNotIn("review_inventory", packets[lane])
+            if lane != "micro":
+                self.assertNotIn("reference_evidence", packets[lane])
+            if lane != "macro":
+                self.assertNotIn("lexical_evidence", packets[lane])
+
     def test_sparse_analysis_ids_preserve_all_late_topics(self):
         from _commentary.v5 import workflow
         source = bridge.ROOT / "bundles/s005-pericopes/p01_001-011/5_3.ayah.json"
