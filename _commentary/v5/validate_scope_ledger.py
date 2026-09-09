@@ -59,6 +59,15 @@ def _paragraphs(text: str) -> list[str]:
     ]
 
 
+def _valid_anchor_shape(anchor: str) -> bool:
+    if "\n" in anchor:
+        return False
+    stripped = anchor.strip()
+    if stripped.endswith(":") or stripped.startswith("#"):
+        return False
+    return len(re.findall(r"\w+", stripped, flags=re.UNICODE)) >= 6
+
+
 def _load_json(path: Path) -> tuple[dict[str, Any] | None, list[Finding]]:
     try:
         raw = path.read_bytes()
@@ -157,9 +166,12 @@ def validate(
                 )
                 continue
             anchor = landing.get("anchor")
-            if not isinstance(anchor, str) or "\n" in anchor or len(anchor.strip()) < 12:
+            if not isinstance(anchor, str) or not _valid_anchor_shape(anchor):
                 errors.append(
-                    Finding("anchor", f"{landing_label}: anchor must be a substantive single-line passage")
+                    Finding(
+                        "anchor",
+                        f"{landing_label}: anchor must be a substantive clause, not a heading or label",
+                    )
                 )
                 continue
             anchor = anchor.strip()

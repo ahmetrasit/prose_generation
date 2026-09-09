@@ -53,7 +53,7 @@ class ScopeLedgerValidatorTest(unittest.TestCase):
                                 "discovery:containment",
                             ],
                             "paragraph": 1,
-                            "anchor": "temel iddiayı ve sınırını",
+                            "anchor": "temel iddiayı ve sınırını açıkça kurar",
                         },
                         {
                             "movement_refs": [
@@ -63,7 +63,9 @@ class ScopeLedgerValidatorTest(unittest.TestCase):
                                 "context:29:41",
                             ],
                             "paragraph": 2,
-                            "anchor": "bağlamdaki hareketi ayrıntılı",
+                            "anchor": (
+                                "İkinci paragraf bağlamdaki hareketi ayrıntılı biçimde açıklar"
+                            ),
                         },
                     ],
                 }
@@ -88,6 +90,24 @@ class ScopeLedgerValidatorTest(unittest.TestCase):
         self.ledger["findings"][0]["landings"][0]["paragraph"] = 2
         codes = {item.code for item in validator.validate(self.discovery, self.ledger, self.prose)}
         self.assertIn("anchor_paragraph", codes)
+
+    def test_rejects_heading_or_label_anchor(self) -> None:
+        self.ledger["findings"][0]["landings"][0]["anchor"] = (
+            "Yerleşmiş yapı yine de çökebilir:"
+        )
+        codes = {
+            item.code
+            for item in validator.validate(self.discovery, self.ledger, self.prose)
+        }
+        self.assertIn("anchor", codes)
+
+    def test_rejects_short_anchor(self) -> None:
+        self.ledger["findings"][0]["landings"][0]["anchor"] = "temel iddia burada"
+        codes = {
+            item.code
+            for item in validator.validate(self.discovery, self.ledger, self.prose)
+        }
+        self.assertIn("anchor", codes)
 
 
 if __name__ == "__main__":

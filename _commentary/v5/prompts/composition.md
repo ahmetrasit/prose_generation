@@ -28,6 +28,10 @@ commands supplied below:
 - A single discovery finding may contain multiple distinct claims, images,
   branch activations, or interpretive movements. Treat each distinct movement as
   a mandatory prose landing.
+- Compose by semantic movement rather than by finding row. Related findings
+  should normally share a paragraph; the number of findings must not determine
+  the number of paragraphs. Use the ledger to preserve their separate landings
+  inside the integrated prose.
 - Explain activation in ordinary language: which Arabic surface, root meaning,
   or ordinary meaning is carried by the focus; what independent word, image, or
   context triggers it; why they make contact; how the focus reading changes; and
@@ -42,7 +46,9 @@ commands supplied below:
   the lexical source from the contextual trigger. Consult the supplied lane
   evidence when discovery leaves this connection implicit. If the reader
   cannot tell where the image comes from and why it applies here, revise the
-  paragraph. Mentioning the image alone does not preserve the finding.
+  paragraph. Mentioning the branch gloss alone does not preserve the finding:
+  state the operative detail in its `facet_statement` or `semantic_detail` and
+  show how the independent trigger activates that detail.
 - Use the project display tag syntax when an Arabic word, phrase, carrier, or
   anchor does interpretive work in a paragraph:
   `{ar:ARABIC, tr:transliteration, gloss:Turkish gloss}`.
@@ -51,6 +57,9 @@ commands supplied below:
   another tag shape.
 - Do not expose internal root IDs, branch IDs, candidate IDs, support IDs, QAC
   coordinates, or lane machinery in reader prose.
+- Render evidence qualifications as natural reader-facing limits. Do not mention
+  the packet, registry status, HFT record or trace, source roles, or null lexical
+  fields in reader prose.
 - Translate English source language naturally. Arabic and transliteration may
   remain in the established notation.
 - Keep uncertainty, limits, and counter-readings attached to the interpretation
@@ -96,10 +105,13 @@ finding, map these required movement refs exactly once and in this order:
 5. each `context_ref` as `context:<exact ref>`.
 
 One substantive passage may carry several compatible movement refs; group those
-refs in one landing. `paragraph` is the one-based position of the nonempty
-Markdown block containing the passage. `anchor` must be a short exact passage
-that occurs once in the complete prose and once in that paragraph. Keep internal
-IDs in the ledger only.
+refs in one landing only when the quoted passage actually expresses every mapped
+movement. Separate movements into additional landings when it does not.
+`paragraph` is the one-based position of the nonempty Markdown block containing
+the passage. `anchor` must quote the complete sentence or substantive clause that
+expresses the mapped movements and occurs once in the complete prose and once in
+that paragraph. A heading, opening label, or generic summary is not a valid
+anchor. Keep internal IDs in the ledger only.
 
 Run this validator after writing both files:
 
