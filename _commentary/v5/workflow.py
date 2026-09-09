@@ -164,6 +164,9 @@ class Layout:
     def scope_prose(self, lane: str) -> Path:
         return self.raw / f"{lane}.scope.tr.md"
 
+    def scope_ledger(self, lane: str) -> Path:
+        return self.raw / f"{lane}.scope.ledger.json"
+
 
 def layout_for(ayah_ref: str, analysis_id: str = "native") -> Layout:
     if compositions.ANALYSIS_ID_RE.fullmatch(analysis_id) is None:
@@ -1921,6 +1924,23 @@ def _finalize_compact_lane_packets(
                 raise WorkflowError(f"{lane} packet has an empty or duplicate branch ref")
             all_branches[branch_ref] = _merge_branch_record(all_branches.get(branch_ref), branch)
             branch_map[branch_ref] = branch
+            if branch.get("registry") == "unresolved" and branch.get("hft_citations"):
+                branch["boundary"] = (
+                    "No registered branch descriptor is supplied. An exact HFT "
+                    "trace may support an attributed contextual activation, but it "
+                    "does not establish a gloss, facet, or verified lexical identity."
+                )
+                branch["root_occurrence_qualification"] = (
+                    "No registered focus occurrence is supplied. Use only the "
+                    "HFT-cited context coordinate, root, and role for an attributed "
+                    "activation whose contact returns to the focus."
+                )
+                for citation in branch["hft_citations"]:
+                    if isinstance(citation, dict):
+                        citation["qualification"] = (
+                            "Exact HFT-attributed role; eligible as attributed "
+                            "contextual evidence, not verified lexicon evidence."
+                        )
         for connection in packet.get("connection_registry", []):
             if not isinstance(connection, dict) or not isinstance(connection.get("connection_ref"), str):
                 raise WorkflowError(f"{lane} packet contains malformed connection")
@@ -1982,9 +2002,11 @@ def _canonical_inputs() -> dict[str, str]:
 def _lane_specific_procedure(lane: str, packet: dict[str, Any]) -> str:
     if lane == "micro" and packet.get("reference_evidence"):
         return (
-            "- Use reference_evidence for the nominated cross-ayah comparisons; "
-            "morpheme_columns defines its QAC rows. Evidence availability does "
-            "not establish activation."
+            "- reference_evidence is additive reviewed evidence for its nominated "
+            "cross-ayah comparisons, not a complete registry or whitelist. Its "
+            "absence is not evidence against another candidate whose own supplied "
+            "supports establish a comparison. morpheme_columns defines the added "
+            "QAC rows. Evidence availability does not establish activation."
         )
     procedure = _context_overlay_procedure(lane, packet)
     if lane == "macro" and packet.get("lexical_evidence"):
@@ -2218,6 +2240,9 @@ def prepare(args: argparse.Namespace) -> dict[str, Any]:
                 "scope_prose_output": str(
                     layout.scope_prose(lane).resolve(strict=False)
                 ),
+                "scope_ledger_output": str(
+                    layout.scope_ledger(lane).resolve(strict=False)
+                ),
                 "composition_template": str(
                     (PROMPTS_ROOT / "composition.md").resolve(strict=False)
                 ),
@@ -2230,7 +2255,7 @@ def prepare(args: argparse.Namespace) -> dict[str, Any]:
             "scope_launch": "launch all three handoffs in parallel",
             "scope_follow_up": (
                 "after nomination, fill prompts/composition.md and ask each same "
-                "live agent to write its scope prose"
+                "live agent to write its scope prose and landing ledger"
             ),
             "consolidation": (
                 "close scope agents, then give the three scope prose texts, "

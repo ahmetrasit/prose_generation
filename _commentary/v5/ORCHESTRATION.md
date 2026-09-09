@@ -251,6 +251,8 @@ sending:
   `*.discovery.json` path from the prepare handoff;
 - replace `@@SCOPE_PROSE_OUTPUT_PATH@@` with that lane's exact
   `*.scope.tr.md` output path from the prepare handoff.
+- replace `@@SCOPE_LEDGER_OUTPUT_PATH@@` with that lane's exact
+  `*.scope.ledger.json` output path from the prepare handoff.
 
 Ask the same agent to turn its nominated findings into fluent Turkish scope
 prose. The prose should make activation explicit in normal language: which root
@@ -258,7 +260,7 @@ or ordinary meaning is activated, what in the focus carries it, what in the
 context triggers it, and how the focus reading changes. It should not expose
 internal root IDs or branch IDs to the reader.
 
-Write each scope prose file under:
+Write each scope prose and non-prose landing-ledger pair under:
 
 ```text
 _commentary/v5/raw/<analysis-id>/sNNN/S_A/
@@ -268,13 +270,19 @@ Use clear lane-specific filenames, for example:
 
 ```text
 micro.scope.tr.md
+micro.scope.ledger.json
 macro.scope.tr.md
+macro.scope.ledger.json
 global.scope.tr.md
+global.scope.ledger.json
 ```
 
-Do not edit the scope agents' files yourself. Once a scope agent has written its
-requested scope prose file, it runs the same lifecycle command with one final
-session status:
+The landing ledger is compact accountability metadata. It must not be appended
+to reader prose or expose internal IDs there. The composition template requires
+the scope agent to run `validate_scope_ledger.py` against its discovery, prose,
+and ledger. Do not edit the scope agents' files yourself. Once a scope agent has
+written both requested files and the ledger validator reports `ok`, it runs the
+same lifecycle command with one final session status:
 
 ```bash
 python3 _commentary/v5/operations/monitor.py event \
@@ -287,11 +295,11 @@ python3 _commentary/v5/operations/monitor.py event \
   --status <completed|failed|interrupted|attention>
 ```
 
-Use `completed` only after the requested scope prose file exists. Use `failed`
-when required output could not be produced, `interrupted` when the lifecycle was
-interrupted, and `attention` when operator attention is needed. Treat that final
-event as the scope agent's lifecycle close. Continue the workflow with the files
-the scope agents produced.
+Use `completed` only after the requested scope prose and ledger files exist and
+the ledger validator reports `ok`. Use `failed` when required output could not
+be produced, `interrupted` when the lifecycle was interrupted, and `attention`
+when operator attention is needed. Treat that final event as the scope agent's
+lifecycle close. Continue the workflow with the files the scope agents produced.
 
 ## 4. Consolidation
 

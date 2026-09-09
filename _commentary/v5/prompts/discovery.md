@@ -61,6 +61,15 @@ lost.
   candidate has any.
 - Keep uncertainty and counter-readings visible without ranking them. Source
   trust controls qualification, not automatic acceptance or rejection.
+- For a `legacy_unbound` HFT candidate, `registry: unresolved` means that no
+  independent lexicon branch record is supplied; it does not by itself require
+  exclusion. When its exact HFT trace names a supplied context ayah, word index,
+  root, attributed role, and a contact returning to the focus, evaluate that
+  trace as attributed contextual evidence. If it survives, retain it with
+  `application_mode: attributed`, without inventing a branch gloss or facet.
+  Exclude it when the coordinate or root does not agree with the supplied
+  surface, the focus return is missing, or the inference exceeds the stated
+  HFT role.
 
 ## Lane Boundary
 

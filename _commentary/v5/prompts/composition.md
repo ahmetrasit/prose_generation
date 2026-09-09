@@ -6,11 +6,12 @@ discovery JSON at `@@DISCOVERY_OUTPUT_PATH@@` as the finding boundary. Do not
 reopen evidence selection, add new findings, drop findings, or rewrite another
 lane.
 
-Write exactly one nonempty Turkish Markdown prose file and modify nothing else,
-except for any required monitor lifecycle event command supplied by the
-orchestrator:
+Write exactly one nonempty Turkish Markdown prose file and one non-prose landing
+ledger, then modify nothing else except for the validation and monitor lifecycle
+commands supplied below:
 
 - prose: `@@SCOPE_PROSE_OUTPUT_PATH@@`
+- ledger: `@@SCOPE_LEDGER_OUTPUT_PATH@@`
 
 ## Scope Prose Contract
 
@@ -56,6 +57,59 @@ orchestrator:
   they bound.
 
 Before finishing, check that every retained finding and every distinct retained
-landing from your discovery appears explicitly in the scope prose. If anything
-is missing, revise the prose file before you report completion. Then run the
+landing from your discovery appears explicitly in the scope prose. Write the
+landing ledger only after the prose is complete.
+
+## Landing Ledger
+
+The ledger is accountability metadata, not reader prose. Return exactly these
+top-level fields in `@@SCOPE_LEDGER_OUTPUT_PATH@@`:
+
+```json
+{
+  "schema_version": "commentary-v5-scope-landing-ledger-v1",
+  "ayah_ref": "@@AYAH_REF@@",
+  "lane": "@@LANE@@",
+  "findings": [
+    {
+      "finding_ref": "exact discovery finding ref",
+      "landings": [
+        {
+          "movement_refs": ["one or more required movement refs"],
+          "paragraph": 1,
+          "anchor": "short exact passage unique in that prose paragraph"
+        }
+      ]
+    }
+  ]
+}
+```
+
+Return one ledger row for every discovery finding in exact order. Within each
+finding, map these required movement refs exactly once and in this order:
+
+1. `discovery:claim`, `discovery:mechanism`, `discovery:reader_payoff`, and
+   `discovery:containment`;
+2. each `semantic_obligation_ref` as `obligation:<exact ref>`;
+3. each branch activation in discovery order as `activation:<zero-based index>`;
+4. each `connection_ref` as `connection:<exact ref>`;
+5. each `context_ref` as `context:<exact ref>`.
+
+One substantive passage may carry several compatible movement refs; group those
+refs in one landing. `paragraph` is the one-based position of the nonempty
+Markdown block containing the passage. `anchor` must be a short exact passage
+that occurs once in the complete prose and once in that paragraph. Keep internal
+IDs in the ledger only.
+
+Run this validator after writing both files:
+
+```text
+python3 _commentary/v5/validate_scope_ledger.py \
+  --discovery @@DISCOVERY_OUTPUT_PATH@@ \
+  --prose @@SCOPE_PROSE_OUTPUT_PATH@@ \
+  --ledger @@SCOPE_LEDGER_OUTPUT_PATH@@
+```
+
+If validation fails, repair the prose or ledger and rerun it. Do not change the
+discovery finding set. Finish only after validation reports `ok`, then run the
 terminal monitor lifecycle command supplied by the orchestrator.

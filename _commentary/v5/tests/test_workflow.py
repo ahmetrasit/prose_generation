@@ -532,6 +532,31 @@ class CompactPacketTests(unittest.TestCase):
         self.assertEqual(packets, before)
         self.assertEqual(packets["macro"]["candidate_inventory"], [])
 
+    def test_unresolved_hft_branch_is_qualified_for_attributed_activation(self) -> None:
+        packets = PacketNormalizationTests()._packets()
+        branch = packets["micro"]["branch_registry"][0]
+        branch.update({
+            "registry": "unresolved",
+            "root_ar": None,
+            "gloss": None,
+            "branch_kind": None,
+            "hft_citations": [{
+                "source_ref": "29:39",
+                "source_word_indices": ["1"],
+                "root": "ك و ن",
+                "role": "attributed context role",
+                "qualification": "old qualification",
+            }],
+        })
+
+        workflow._finalize_compact_lane_packets(
+            packets, numbered_bundle("29:38")
+        )
+
+        self.assertIn("may support an attributed contextual activation", branch["boundary"])
+        self.assertIn("returns to the focus", branch["root_occurrence_qualification"])
+        self.assertIn("not verified lexicon evidence", branch["hft_citations"][0]["qualification"])
+
     def test_complete_topic_delivery_is_checked_without_rerouting(self) -> None:
         bundle = numbered_bundle("29:38")
         bundle["coverage"] = {"word_morpheme_spans": {
@@ -859,6 +884,11 @@ class PrepareTests(unittest.TestCase):
             )
             self.assertTrue(
                 handoff["scope_prose_output"].endswith(f"{lane}.scope.tr.md")
+            )
+            self.assertTrue(
+                handoff["scope_ledger_output"].endswith(
+                    f"{lane}.scope.ledger.json"
+                )
             )
             self.assertTrue(handoff["composition_template"].endswith("composition.md"))
         self.assertEqual(result["orchestration"]["post_launch_gates"], [])

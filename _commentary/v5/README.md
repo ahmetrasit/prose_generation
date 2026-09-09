@@ -168,8 +168,12 @@ required reviewed-source checks.
 
 The second turn for each scope agent uses
 `_commentary/v5/prompts/composition.md`. Fill it with the focus ref, lane,
-that lane's `*.discovery.json` path, and that lane's `*.scope.tr.md` output
-path from the prepare handoff.
+that lane's `*.discovery.json` path, and that lane's `*.scope.tr.md` and
+`*.scope.ledger.json` output paths from the prepare handoff. The scope prose
+remains publishable Markdown. The sidecar ledger maps every retained discovery
+movement to a paragraph-local exact anchor without duplicating the prose or the
+governing documents. The same scope agent runs `validate_scope_ledger.py` before
+reporting completion.
 
 V5 orchestration uses the operations monitor documented in
 `_commentary/v5/ORCHESTRATION.md`. The monitor writes only operational runtime

@@ -2572,8 +2572,8 @@ def _lane_packet(
                     "source_word_indices": trace.get("source_word_indices"),
                     "role": trace.get("role"),
                     "qualification": (
-                        "This is the HFT reader's exact attributed branch role, "
-                        "not an independently supplied lexicon entry."
+                        "Exact HFT-attributed role; eligible as attributed contextual "
+                        "evidence, not verified lexicon evidence."
                     ),
                 }
             )
@@ -2587,17 +2587,18 @@ def _lane_packet(
             "branch_kind": None,
             "gloss": None,
             "boundary": (
-                "No separate registered branch descriptor is supplied. The exact "
-                "HFT citation and attributed role remain reviewable, but they do "
-                "not become independently verified lexicon evidence."
+                "No registered branch descriptor is supplied. An exact HFT trace "
+                "may support an attributed contextual activation, but it does not "
+                "establish a gloss, facet, or verified lexical identity."
             ),
             "source_pointer": None,
             "semantic_detail": {},
             "review_facets": [],
             "focus_root_occurrences": [],
             "root_occurrence_qualification": (
-                "No registered root occurrence is supplied; this unresolved "
-                "citation cannot establish a branch carrier."
+                "No registered focus occurrence is supplied. Use only the HFT-cited "
+                "context coordinate, root, and role for an attributed activation "
+                "whose contact returns to the focus."
             ),
             "candidate_links": [
                 {

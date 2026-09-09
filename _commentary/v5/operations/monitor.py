@@ -767,6 +767,11 @@ def artifact_specs(registration: dict[str, Any], ayah_ref: str) -> list[Artifact
                     raw_dir / f"{lane}.scope.tr.md",
                     True,
                 ),
+                ArtifactSpec(
+                    f"{lane}_ledger",
+                    raw_dir / f"{lane}.scope.ledger.json",
+                    False,
+                ),
             ]
         )
     specs.extend(
