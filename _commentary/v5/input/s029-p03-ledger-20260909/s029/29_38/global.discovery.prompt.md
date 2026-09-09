@@ -43,6 +43,10 @@ lost.
   ref, and semantic obligation. `represented` is only for an exact semantic
   duplicate carried by one named finding. `reject` names the failed edge and
   explicitly accounts for all attached obligations.
+- For every retained finding, write `claim` and `mechanism` as the actual
+  semantic relation. A statement that a supplied record or support merely
+  identifies a contribution does not satisfy either field. Name the carrier,
+  trigger, contact, and resulting change in meaning.
 - Every item in a candidate's `semantic_obligations` is first-class. This
   includes candidate-specific word/channel evidence as well as HFT
   activation-trace roles, before/after changed readings, and containment; none

@@ -4,185 +4,115 @@
   "lane": "macro",
   "findings": [
     {
-      "finding_ref": "macro:cutting-worked-road",
+      "finding_ref": "macro:worked-road-obstruction",
       "landings": [
-        {
-          "movement_refs": [
-            "discovery:claim",
-            "discovery:mechanism",
-            "discovery:reader_payoff",
-            "discovery:containment",
-            "activation:0",
-            "activation:1",
-            "activation:2",
-            "activation:3",
-            "activation:4",
-            "activation:5",
-            "activation:6",
-            "connection:conn_630722c657bccfedcdf6",
-            "context:29:29"
-          ],
-          "paragraph": 1,
-          "anchor": "Yol, burada çizilmiş bir çizgi olarak kalmaz:"
-        }
+        {"movement_refs": ["discovery:claim"], "paragraph": 1, "anchor": "Ayette {ar:ٱلسَّبِيلِ, tr:es-sebîl, gloss:yol ve bir amaca ulaştıran yol} tanınan bir güzergâhı, {ar:صَدَّهُمْ, tr:saddehum, gloss:yüz çevirme ve alıkoyma} ise insanları yöneldikleri şeyden çevirmeyi söyler; ayetin açık anlamında Âd ve Semûd yoldan alıkonmuştur."},
+        {"movement_refs": ["discovery:mechanism"], "paragraph": 1, "anchor": "29:29’daki {ar:تَقْطَعُونَ ٱلسَّبِيلَ, tr:taqtaʿûna's-sabîl, gloss:yolu kesmek} ayrı ve somut bir yol-kesme fiili olarak bu ifadeye temas eder."},
+        {"movement_refs": ["discovery:reader_payoff"], "paragraph": 1, "anchor": "Böylece alıkoyma, yalnızca yön duygusunun kaybı değil, işlenmiş bir güzergâhın ve ortak hareket imkânının kesilmesi gibi algılanır."},
+        {"movement_refs": ["discovery:containment"], "paragraph": 1, "anchor": "Okuma burada yolu yol olarak korur; yolcu, suya varan yol veya yolculukta erzakı tükenen kişi hakkında ayrı bir iddia kurmaz."},
+        {"movement_refs": ["activation:0"], "paragraph": 1, "anchor": "Bu bağımsız yol-kesme sözü, odaktaki yolu ortak geçişi mümkün kılan ve yönü belirleyen bir güzergâh olarak yeniden görünür kılar."},
+        {"movement_refs": ["activation:1"], "paragraph": 1, "anchor": "{ar:صَدَّهُمْ, tr:saddehum, gloss:yüz çevirme ve alıkoyma} biçiminin geçişli yapısı, birilerinin belirli bir işten men edilip yönünün o işten çevrilmesini taşır."},
+        {"movement_refs": ["activation:2"], "paragraph": 1, "anchor": "{ar:أَعْمَالَهُمْ, tr:aʿmâlahum, gloss:yaptıkları işler} de bu temasla, yürünerek işlekleşmiş ve belirginleşmiş bir yol imgesine bağlanır."},
+        {"movement_refs": ["activation:3"], "paragraph": 1, "anchor": "{ar:تَقْطَعُونَ ٱلسَّبِيلَ, tr:taqtaʿûna's-sabîl, gloss:yolu kesmek} ifadesi yolun açıkça tanınan bir geçiş olduğunu ve bu geçişin zorla kesilebildiğini gösterir."},
+        {"movement_refs": ["connection:conn_630722c657bccfedcdf6", "context:29:29"], "paragraph": 1, "anchor": "Bu temasın bağımsız bağlamı 29:29’daki yol-kesme sahnesidir; ayetin kendi yolu ve alıkoyma fiili bu sahneye geri döner."}
       ]
     },
     {
       "finding_ref": "macro:fitted-dwelling-structure",
       "landings": [
-        {
-          "movement_refs": [
-            "discovery:claim",
-            "discovery:mechanism",
-            "discovery:reader_payoff",
-            "discovery:containment",
-            "activation:0",
-            "activation:1",
-            "activation:2",
-            "activation:3",
-            "activation:4",
-            "activation:5",
-            "connection:conn_7957232d88bd0996251f",
-            "connection:conn_314ac0eed46265bb9f9e",
-            "connection:conn_4c39502cd99dadefed16",
-            "context:29:28",
-            "context:29:31",
-            "context:29:41",
-            "context:29:44"
-          ],
-          "paragraph": 2,
-          "anchor": "Barınağın parçaları da konuşur:"
-        }
+        {"movement_refs": ["discovery:claim"], "paragraph": 2, "anchor": "{ar:مَسَٰكِنِهِمْ, tr:masâkinîhim, gloss:yerleşilip yaşanan evler ve yerler} önce insanların yerleştiği görünen mekânları bildirir."},
+        {"movement_refs": ["discovery:mechanism"], "paragraph": 2, "anchor": "Görme ve algılama alanındaki {ar:مُسْتَبْصِرِينَ, tr:mustabsirîn, gloss:gören ve algılayanlar} sözü, bu perikop bağlantısında iki parçanın dikilerek birleştiği kalın kenar ve ek yeri imgesine temas eder."},
+        {"movement_refs": ["discovery:reader_payoff"], "paragraph": 2, "anchor": "29:41’deki {ar:بَيْتًا, tr:baytan, gloss:sığınak ve mesken} ile {ar:أَوْهَنَ ٱلْبُيُوتِ, tr:awhana'l-buyût, gloss:evlerin en zayıfı} yan yana geldiğinde, bir ev adının koruma için yeterli olup olmadığı sınanır."},
+        {"movement_refs": ["discovery:containment"], "paragraph": 2, "anchor": "Bu genişletme, tarihî meskenlere görünmeyen ek yerleri atfetmeden, yerleşmeyi parçaları birbirine oturan ve yükü taşıyabilen bir düzenek olarak düşündürür."},
+        {"movement_refs": ["activation:0"], "paragraph": 2, "anchor": "{ar:مُسْتَبْصِرِينَ, tr:mustabsirîn, gloss:gören ve algılayanlar} için tutulan ek yeri kullanımı, ancak 29:41’deki birleşim ve zayıflık görüntüsüyle temas ettiğinde yapısal bir ayrıntı kazanır."},
+        {"movement_refs": ["activation:1"], "paragraph": 2, "anchor": "{ar:بَيْتًا, tr:baytan, gloss:sığınak ve mesken} sözcüğü, 29:41’deki örümcek evinin direk, birleşim ve duvar malzemesiyle birlikte gerçek bir sığınak olarak test edilmesini sağlar."},
+        {"movement_refs": ["activation:2"], "paragraph": 2, "anchor": "{ar:مَسَٰكِنِهِمْ, tr:masâkinîhim, gloss:yerleşilip yaşanan evler ve yerler} bu bağımsız ev görüntüsüyle buluşunca, yerleşmenin yalnızca bulunmak değil, koruyabilmek olduğu da sezilir."},
+        {"movement_refs": ["connection:conn_314ac0eed46265bb9f9e", "context:29:41"], "paragraph": 2, "anchor": "Bu yapısal temasın bağımsız perikop taşıyıcısı 29:41’deki ev ve zayıflık karşılaştırmasıdır."}
       ]
     },
     {
-      "finding_ref": "macro:trace-to-recognition",
+      "finding_ref": "macro:landmark-inward-sight",
       "landings": [
-        {
-          "movement_refs": [
-            "discovery:claim",
-            "discovery:mechanism",
-            "discovery:reader_payoff",
-            "discovery:containment",
-            "activation:0",
-            "activation:1",
-            "activation:2",
-            "activation:3",
-            "activation:4",
-            "activation:5",
-            "connection:conn_55584c68eb711729c67a",
-            "connection:conn_9be925dbfa8ea3474562",
-            "context:29:28",
-            "context:29:35"
-          ],
-          "paragraph": 3,
-          "anchor": "Kalan iz, burada susmaz:"
-        }
+        {"movement_refs": ["discovery:claim"], "paragraph": 3, "anchor": "Bu açıklık ve algı, 29:35’in açık işareti ile 29:43’ün kavrayış dili arasında meskeni yön gösteren bir alamete dönüştüren perikop hareketini kurar."},
+        {"movement_refs": ["discovery:mechanism"], "paragraph": 3, "anchor": "{ar:تَبَيَّنَ, tr:tabayyana, gloss:açığa çıkıp belirginleşti} meskenlerden gelen açıklığın görünür hale geldiğini, {ar:مُسْتَبْصِرِينَ, tr:mustabsirîn, gloss:gözle görme ve algılama halinde olanlar} ise algı imkânını söyler."},
+        {"movement_refs": ["discovery:reader_payoff"], "paragraph": 3, "anchor": "Mesken önce göze çarpan bir kalıntı, sonra yön gösteren bir alamet, ardından kavranabilir bir iç kanıt haline gelir."},
+        {"movement_refs": ["discovery:containment"], "paragraph": 3, "anchor": "Görünür iz ve iç kavrayış birlikte ilerler; biri diğerini susturmaz ve ayet hâlâ görünen meskenlerden söz eder."},
+        {"movement_refs": ["activation:0"], "paragraph": 3, "anchor": "29:35’teki {ar:يَعْقِلُونَ, tr:yaʿqilûn, gloss:akleden ve kavrayanlar} ile 29:43’teki {ar:يَعْقِلُهَا, tr:yaʿqiluhâ, gloss:onları kavrar} ayrı kavrayış tetikleyicileridir; görme burada iç tanımaya ve kanıtı kullanmaya açılır."},
+        {"movement_refs": ["activation:1"], "paragraph": 3, "anchor": "29:35’in {ar:بَيِّنَةً, tr:bayyinatan, gloss:açık işaret ve kanıt} ve 29:39’un {ar:بِٱلْبَيِّنَٰتِ, tr:bi’l-bayyinât, gloss:açık deliller} ifadeleri, {ar:تَبَيَّنَ, tr:tabayyana, gloss:açıklığa çıkmak} fiilindeki görünür açıklığı açık kanıt düzeyine taşır."},
+        {"movement_refs": ["activation:2"], "paragraph": 3, "anchor": "29:35’teki {ar:ءَايَةً, tr:âyatan, gloss:görünür işaret} sözcüğü, kalıntının işaret olmasını; 29:43’teki {ar:ٱلْأَمْثَٰلُ, tr:al-emsâl, gloss:ders veren benzetmeler} ise gösterilen şeyin anlamı açmasını sağlar."},
+        {"movement_refs": ["activation:3"], "paragraph": 3, "anchor": "Bu gösterme biçimi, anlamın yalnızca sözle değil, önümüzde duran iz ve örnek aracılığıyla açık hale gelmesidir."},
+        {"movement_refs": ["activation:4"], "paragraph": 3, "anchor": "{ar:تَرَكْنَا, tr:taraknâ, gloss:geride bırakmak} sözcüğü, olay çekildikten sonra kalan etkinin kendi başına bir işaret olarak çalışmasını sağlar."},
+        {"movement_refs": ["activation:5"], "paragraph": 3, "anchor": "29:43’teki {ar:عَٰلِمُونَ, tr:ʿâlimûn, gloss:bilenler} ile tutulan işaret imgesi, bilgiyi yüzeydeki bir etiket değil, bakışı bir şeye yönelten bir alamet olarak sınırlar."},
+        {"movement_refs": ["connection:conn_9be925dbfa8ea3474562", "connection:conn_72e2690863f0e69d1ef1"], "paragraph": 3, "anchor": "29:35’in açık işaret bağlantısı ile 29:43’ün kavrayan bilenler bağlantısı, meskenin iz ve iç tanıma arasında yön gösteren bir alamet gibi işlemesini birlikte taşır."},
+        {"movement_refs": ["context:29:35", "context:29:43"], "paragraph": 3, "anchor": "Bu iki bağlam ayeti, görünür meskeni kalıntıdan yönlendirici işarete ve oradan kavranabilir kanıta taşıyan bağımsız tetikleyicilerdir."}
       ]
     },
     {
-      "finding_ref": "macro:dwelling-gathers-people",
+      "finding_ref": "macro:household-welcome",
       "landings": [
-        {
-          "movement_refs": [
-            "discovery:claim",
-            "discovery:mechanism",
-            "discovery:reader_payoff",
-            "discovery:containment",
-            "activation:0",
-            "activation:1",
-            "activation:2",
-            "activation:3",
-            "activation:4",
-            "activation:5",
-            "activation:6",
-            "connection:conn_7957232d88bd0996251f",
-            "connection:conn_314ac0eed46265bb9f9e",
-            "context:29:31",
-            "context:29:41"
-          ],
-          "paragraph": 4,
-          "anchor": "Meskenin içi de görünür:"
-        }
+        {"movement_refs": ["discovery:claim"], "paragraph": 4, "anchor": "{ar:مَسَٰكِنِهِمْ, tr:masâkinîhim, gloss:yerleşim yerleri} bu perikopta yalnızca taş ve duvarları değil, orada kimlerin toplandığını da düşündürür."},
+        {"movement_refs": ["discovery:mechanism"], "paragraph": 4, "anchor": "Meskenin sosyal içi, bir yerin halkını ve o yere bağlanan insanları birlikte düşündürerek odaktaki yerleşimden hane ilişkisine genişlemeyi sağlar."},
+        {"movement_refs": ["discovery:reader_payoff"], "paragraph": 4, "anchor": "Bu hoş karşılama imgesinde yiyecek eylemi ayrıca verilmediği için, yalnızca gelen kişiyi kabul eden sınırlı bir bağ kurulabilir."},
+        {"movement_refs": ["discovery:containment"], "paragraph": 4, "anchor": "Mesken böylece hem görünen bir yer hem de aidiyet, tanışıklık, dinlenme ve kabul ilişkilerinin kurulduğu bir hane olarak kalır."},
+        {"movement_refs": ["activation:0"], "paragraph": 4, "anchor": "29:31’deki {ar:أَهْلِ هَٰذِهِ ٱلْقَرْيَةِ, tr:ehli hâzihi’l-qarya, gloss:bu yerleşimin halkı} ve 29:34’teki {ar:أَهْلِ, tr:ehli, gloss:yerin ve evin halkı} aynı yüzeyi yakınlık ve aidiyet ilişkisine açar."},
+        {"movement_refs": ["activation:1"], "paragraph": 4, "anchor": "{ar:أَهْل, tr:ahl, gloss:bir yere veya role uygun ve ehil olma} sözcüğünün bağlı kullanımı, halk adının yanına bir yere layık olma ve o yer için uygun düşme yönünü ekler."},
+        {"movement_refs": ["activation:2"], "paragraph": 4, "anchor": "{ar:أَهْل, tr:ahl, gloss:alışılmış ve tanıdık mesken} sözcüğünün yerleşiklik yönü, bir mekânı insanı içine alan tanıdık bir yer yapar."},
+        {"movement_refs": ["activation:3"], "paragraph": 4, "anchor": "29:41’deki {ar:بَيْتًا, tr:baytan, gloss:ev ve hane} bu sosyal alanı aile ve hane halkı imgesiyle toplar."},
+        {"movement_refs": ["activation:4"], "paragraph": 4, "anchor": "Odaktaki {ar:مَسَٰكِنِهِمْ, tr:masâkinîhim, gloss:meskenleri} evin kendisinden orada yaşayanlara doğru da okunabilir; görünür yerleşimlerin insanî içi belirir."},
+        {"movement_refs": ["activation:5"], "paragraph": 4, "anchor": "Aynı mesken, 29:41’deki {ar:أَوْلِيَاءَ, tr:awliyâʾ, gloss:seçilmiş destek ve yakın dayanaklar} ile insanın yanında içini yatıştıran bir sığınak vaadi taşır."},
+        {"movement_refs": ["activation:6"], "paragraph": 4, "anchor": "{ar:ٱلْقَرْيَةِ, tr:al-qarya, gloss:insanların toplandığı yerleşim} sözcüğü, bu ilişkileri tek bir yerleşimde toplanmış insanlar olarak bir araya getirir."},
+        {"movement_refs": ["activation:7"], "paragraph": 4, "anchor": "29:31’de gelen {ar:رُسُلُ, tr:rusul, gloss:gelen elçiler} ile aynı yerleşim, misafiri karşılama ve ağırlama işlevine de dokunur."},
+        {"movement_refs": ["connection:conn_7957232d88bd0996251f", "connection:conn_314ac0eed46265bb9f9e"], "paragraph": 4, "anchor": "29:31’in hane ve yerleşim sahnesi ile 29:41’in ev ve yakın destek sahnesi, meskeni sosyal aidiyet ile koruyucu ilişki arasında bağlar."},
+        {"movement_refs": ["context:29:31", "context:29:34", "context:29:41"], "paragraph": 4, "anchor": "29:31, 29:34 ve 29:41 bağlamları birlikte okunduğunda, meskenin halk, aile, yerleşim ve kabul ilişkilerinin kurulduğu bir hane olduğu görünür."}
       ]
     },
     {
       "finding_ref": "macro:false-stability-architecture",
       "landings": [
-        {
-          "movement_refs": [
-            "discovery:claim",
-            "discovery:mechanism",
-            "discovery:reader_payoff",
-            "discovery:containment",
-            "activation:0",
-            "activation:1",
-            "activation:2",
-            "activation:3",
-            "activation:4",
-            "activation:5",
-            "activation:6",
-            "activation:7",
-            "activation:8",
-            "activation:9",
-            "activation:10",
-            "activation:11",
-            "connection:conn_0f85d375955afae49954",
-            "connection:conn_0df16f85c8c3d44467a1",
-            "connection:conn_ffac51a6c5eb11e72aa0",
-            "connection:conn_314ac0eed46265bb9f9e",
-            "connection:conn_72e2690863f0e69d1ef1",
-            "context:29:37",
-            "context:29:39",
-            "context:29:40",
-            "context:29:41",
-            "context:29:43"
-          ],
-          "paragraph": 5,
-          "anchor": "Yerleşmiş yapı yine de çökebilir:"
-        }
+        {"movement_refs": ["discovery:claim"], "paragraph": 5, "anchor": "Yerleşik görünen yapı, 29:39–43 arasındaki kanıt, gurur, kusur, seçilmiş destek ve zayıf ev temaslarıyla hayatı taşıyıp taşımadığı bakımından yeniden sınanır."},
+        {"movement_refs": ["discovery:mechanism"], "paragraph": 5, "anchor": "29:38’deki {ar:مَسَٰكِنِهِمْ, tr:masâkinîhim, gloss:sabit yerleri ve konumları} ile başlayan sıra, yerleşmeyi içinde bedenlerin hareketsiz kaldığı bir sonla yeniden ölçer."},
+        {"movement_refs": ["discovery:reader_payoff"], "paragraph": 5, "anchor": "Bu beş bağlam halkası birlikte, maddî meskeni ve seçilmiş koruyucuyu aynı başarısız istikrar sorusuna bağlar."},
+        {"movement_refs": ["discovery:containment"], "paragraph": 5, "anchor": "Tarihî mesken okuması yerinde kalır; eklenen mimari, seçilmiş dayanakların gerçekten koruyup korumadığını görünür kılan bir perikop yankısıdır."},
+        {"movement_refs": ["activation:0"], "paragraph": 5, "anchor": "29:38’deki {ar:مَسَٰكِنِهِمْ, tr:masâkinîhim, gloss:sabit yerleri ve konumları} odaktaki yerleşik düzeni, 29:37’deki yurt ve çökmüş bedenler ise bu düzenin sonrasını taşır."},
+        {"movement_refs": ["activation:1"], "paragraph": 5, "anchor": "29:37’deki {ar:دَارِهِمْ, tr:dârihim, gloss:onların yurdu} yurdu, {ar:جَٰثِمِينَ, tr:jâsimîn, gloss:yere çökmüş olanlar} ise orada kalmış bedenleri aynı sonuç görüntüsünde buluşturur."},
+        {"movement_refs": ["activation:2"], "paragraph": 5, "anchor": "Bu sıra 29:37’deki {ar:دَارِهِمْ, tr:dârihim, gloss:onların yurdu} ve {ar:جَٰثِمِينَ, tr:jâsimîn, gloss:yere çökmüş ve orada kalmış olanlar} üzerinden görünür bir istikrarın nasıl terminal hareketsizliğe döndüğünü gösterir."},
+        {"movement_refs": ["activation:3"], "paragraph": 5, "anchor": "29:39’daki {ar:بِٱلْبَيِّنَٰتِ, tr:bi’l-bayyinât, gloss:açık deliller} kanıtın hazır bulunduğunu gösterir."},
+        {"movement_refs": ["activation:4"], "paragraph": 5, "anchor": "Hemen ardından gelen {ar:ٱسْتَكْبَرُوا۟, tr:istakbarû, gloss:büyüklük tasladılar} sözü, açık delile rağmen duruşun değişmediğini bildirir."},
+        {"movement_refs": ["activation:5"], "paragraph": 5, "anchor": "29:40’taki {ar:بِذَنۢبِهِۦ, tr:bi-dhanbihî, gloss:suç ve kusuru sebebiyle} ifadesi sonucu yalnızca çöken bir yapı gibi bırakmaz; maddî sonucun bir eylem ve sorumluluk bağı vardır."},
+        {"movement_refs": ["activation:6"], "paragraph": 5, "anchor": "29:41’deki {ar:أَوْلِيَاءَ, tr:awliyâʾ, gloss:yakın destek ve ittifaklar} koruyucu ilişkiyi, görünmez bir fikir değil, bir yapı malzemesi gibi sahneye getirir."},
+        {"movement_refs": ["activation:7"], "paragraph": 5, "anchor": "Aynı ayetin {ar:ٱلْعَنكَبُوتِ, tr:al-ʿankabût, gloss:örücü örümcek} sözcüğü, korunma görüntüsü veren ağın nasıl kurulduğunu gösterir."},
+        {"movement_refs": ["activation:8"], "paragraph": 5, "anchor": "{ar:بَيْتًا, tr:baytan, gloss:sığınak ve ev} bu örüntüyü açıkça ev adıyla toplar; görünen sığınak ile onu taşıyan gerçek kuvvet birbirinden ayrılır."},
+        {"movement_refs": ["activation:9"], "paragraph": 5, "anchor": "{ar:أَوْهَنَ, tr:awhana, gloss:en zayıf ve kuvveti en az olan} sözcüğü, ev adının altındaki yapısal kusuru belirginleştirir."},
+        {"movement_refs": ["activation:10"], "paragraph": 5, "anchor": "29:43’teki {ar:ٱلْأَمْثَٰلُ, tr:al-emsâl, gloss:ders veren benzetmeler} bu zayıf evi süs değil, durumları birbirine bağlayan tanılayıcı bir örnek yapar."},
+        {"movement_refs": ["activation:11"], "paragraph": 5, "anchor": "Son olarak {ar:يَعْقِلُهَا, tr:yaʿqiluhâ, gloss:onu kavrayıp akılla çözen} ifadesi, bu mimariyi okuyabilmek için yalnızca bakmanın yetmediğini bildirir."},
+        {"movement_refs": ["connection:conn_0f85d375955afae49954", "connection:conn_0df16f85c8c3d44467a1", "connection:conn_ffac51a6c5eb11e72aa0", "connection:conn_314ac0eed46265bb9f9e", "connection:conn_72e2690863f0e69d1ef1", "context:29:37", "context:29:39", "context:29:40", "context:29:41", "context:29:43"], "paragraph": 5, "anchor": "Bu hareketin bağımsız bağlam bağlantıları 29:37’deki yurt ve çöküş, 29:39’daki delil ve gurur, 29:40’taki kusur, 29:41’deki ittifak ve ev, 29:43’teki benzetme ve kavrayıştır."}
       ]
     },
     {
-      "finding_ref": "macro:webbed-sight-analogy",
+      "finding_ref": "macro:webbed-path-outlier",
       "landings": [
-        {
-          "movement_refs": [
-            "discovery:claim",
-            "discovery:mechanism",
-            "discovery:reader_payoff",
-            "discovery:containment",
-            "activation:0",
-            "activation:1",
-            "activation:2",
-            "activation:3",
-            "connection:conn_314ac0eed46265bb9f9e",
-            "context:29:41"
-          ],
-          "paragraph": 6,
-          "anchor": "İnce ağın açtığı perde:"
-        }
+        {"movement_refs": ["discovery:claim"], "paragraph": 6, "anchor": "{ar:ٱلسَّبِيلِ, tr:es-sebîl, gloss:yol} ile {ar:مُسْتَبْصِرِينَ, tr:mustabsirîn, gloss:gözle görme ve görme duyusu} birlikte okunduğunda, ayetin olağan yol ve algı alanı korunur."},
+        {"movement_refs": ["discovery:mechanism"], "paragraph": 6, "anchor": "Ağın örümcek ağına benzemesi ve kırmızı damarlar taşıması, yolu kapatan şeyin ince bir film gibi hayal edilmesini sağlar."},
+        {"movement_refs": ["discovery:reader_payoff"], "paragraph": 6, "anchor": "Bu ince örtü, yolun dışarıdan kapatılmasından çok görme alanında hafif bir perde gibi etki eder."},
+        {"movement_refs": ["discovery:containment"], "paragraph": 6, "anchor": "Bu, yolun sözlük anlamı değildir; olağan güzergâh ve görme okumaları korunurken, yalnızca perikop içindeki örümcek eviyle sınırlı keşifsel bir madde benzetmesidir."},
+        {"movement_refs": ["activation:0"], "paragraph": 6, "anchor": "29:41’deki {ar:عَنكَبُوتِ, tr:al-ʿankabût, gloss:örümcek ağı kuran örümcek} ve {ar:أَوْهَنَ, tr:awhana, gloss:zayıflık} bağımsız tetikleyicileriyle, sözlüklerde tanıklanan kırmızı damarlı ağsı göz perdesi imgesi keşifsel olarak {ar:ٱلسَّبِيلِ, tr:es-sebîl, gloss:yol} üzerine düşebilir."},
+        {"movement_refs": ["activation:1"], "paragraph": 6, "anchor": "Bu malzeme, {ar:مُسْتَبْصِرِينَ, tr:mustabsirîn, gloss:gözle görme} sözcüğünün bedensel görme çekirdeğine döner; görme bütünüyle silinmez, ağsı örtünün içinden sürer."},
+        {"movement_refs": ["activation:2"], "paragraph": 6, "anchor": "Örümceğin ördüğü yüzey ile zayıf kuvvetin ayrı temasları, engelin katı bir duvar değil, etkisi gücünü aşabilen ince bir dokuma olduğunu düşündürür."},
+        {"movement_refs": ["activation:3", "connection:conn_314ac0eed46265bb9f9e", "context:29:41"], "paragraph": 6, "anchor": "Bu bağlam dönüşü, odağın yol ve görme ifadelerini 29:41’deki örümcek ve zayıf ev görüntüsüne bağlayan tekil temas noktasıdır."}
       ]
     },
     {
       "finding_ref": "macro:counted-case-ledger",
       "landings": [
-        {
-          "movement_refs": [
-            "discovery:claim",
-            "discovery:mechanism",
-            "discovery:reader_payoff",
-            "discovery:containment",
-            "activation:0",
-            "activation:1",
-            "activation:2",
-            "activation:3",
-            "connection:conn_ffac51a6c5eb11e72aa0",
-            "context:29:40"
-          ],
-          "paragraph": 7,
-          "anchor": "İsimler birer kayda dönüşür:"
-        }
+        {"movement_refs": ["discovery:claim"], "paragraph": 7, "anchor": "Özel adın taşıyıcısı olan {ar:عَادًا, tr:ʿÂdan, gloss:sayılmış bir topluluğa açılan yankı} ile 29:40’taki {ar:كُلًّا, tr:kullan, gloss:her birini} ve {ar:بِذَنۢبِهِۦ, tr:bi-dhanbihî, gloss:suçuyla} temas ettiğinde, adlar etimolojiye dönüştürülmeden incelenebilir vaka kayıtları gibi açılır."},
+        {"movement_refs": ["discovery:mechanism"], "paragraph": 7, "anchor": "Bu sınırlı vaka defteri imgesi, meskenlerde kalan izleri tek tek incelemeye ve her adı kendi sonucuyla birlikte görmeye yarar."},
+        {"movement_refs": ["discovery:reader_payoff"], "paragraph": 7, "anchor": "Bu düzen, her adın kendi mesken izi ve sonucu içinde ayrı bir vaka olarak okunabilmesini sağlar."},
+        {"movement_refs": ["discovery:containment"], "paragraph": 7, "anchor": "Tarihî adlandırma korunur; sayma yankısı özel adın çevirisi değil, perikopun sıra ve sonuç düzenine bağlı keşifsel bir ek okumadır."},
+        {"movement_refs": ["activation:0"], "paragraph": 7, "anchor": "Odaktaki {ar:عَادًا, tr:ʿÂdan, gloss:özel adın sayma yankısı} sözcüğü, 29:40’taki her birini kapsayan ifade ile buluşunca sayılmış bir topluluğa açılan biçimsel yankıyı taşır."},
+        {"movement_refs": ["activation:1"], "paragraph": 7, "anchor": "Odaktaki {ar:تَبَيَّنَ, tr:tabayyana, gloss:belirginleşti} bu adları yalnızca listelenmiş isimler olmaktan çıkarıp meskenlerinde görünen kanıtla okunabilir kılar."},
+        {"movement_refs": ["activation:2"], "paragraph": 7, "anchor": "29:40’taki {ar:كُلًّا, tr:kullan, gloss:her birini ve bütün vakaları kapsayan ifade} her kaydı kapatır; toplamlayıcı hareket, her örneğin ayrı sonucunu tek bir sıra içinde tutar."},
+        {"movement_refs": ["activation:3"], "paragraph": 7, "anchor": "Aynı ayetteki {ar:بِذَنۢبِهِۦ, tr:bi-dhanbihî, gloss:kusur ve suç bağı} her vakayı kendisine bağlı bir sonuçla ilişkilendirir."},
+        {"movement_refs": ["connection:conn_ffac51a6c5eb11e72aa0", "context:29:40"], "paragraph": 7, "anchor": "Bu son bağ, 29:40’ın her-biri ve kusur-sonuç düzenini adlandırılmış vakaların tamamına geri döndürür."}
       ]
     }
   ]
