@@ -34,8 +34,14 @@ orchestrator:
 - Preserve concrete details. Do not flatten a pathology, material image,
   repeated action, spatial relation, before/after shift, or secondary branch
   into a general theme.
-- Preserve the attested lexical connection and form restrictions behind a
-  same-root resonance, not only the resulting image.
+- For each retained lexical resonance, explain its source in the same paragraph
+  as the resulting image: name the Arabic word and its ordinary meaning,
+  identify the supplied lexical use and any form restriction, and explain
+  which separate contextual word or passage activates it here. Distinguish
+  the lexical source from the contextual trigger. Consult the supplied lane
+  evidence when discovery leaves this connection implicit. If the reader
+  cannot tell where the image comes from and why it applies here, revise the
+  paragraph. Mentioning the image alone does not preserve the finding.
 - Use the project display tag syntax when an Arabic word, phrase, carrier, or
   anchor does interpretive work in a paragraph:
   `{ar:ARABIC, tr:transliteration, gloss:Turkish gloss}`.
