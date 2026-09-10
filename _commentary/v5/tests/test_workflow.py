@@ -110,14 +110,16 @@ def write_tsv(path: Path, columns: tuple[str, ...], row: dict[str, str]) -> None
 
 
 class CliSurfaceTests(unittest.TestCase):
-    def test_only_prepare_is_exposed(self) -> None:
+    def test_only_supported_prepare_commands_are_exposed(self) -> None:
         parser = workflow._parser()
         subparsers = next(
             action
             for action in parser._actions
             if isinstance(action, argparse._SubParsersAction)
         )
-        self.assertEqual(set(subparsers.choices), {"prepare"})
+        self.assertEqual(
+            set(subparsers.choices), {"prepare", "prepare-invitation"}
+        )
 
     def test_removed_post_launch_commands_are_rejected(self) -> None:
         with redirect_stderr(StringIO()), self.assertRaises(SystemExit):
@@ -224,8 +226,52 @@ class CliSurfaceTests(unittest.TestCase):
             },
         )
         self.assertIn("sole semantic source", template)
+        self.assertIn("where any nonordinary detail comes from", template)
+        self.assertIn("reference from the editorial prose", template)
         self.assertNotIn("@@MICRO_SCOPE_LEDGER@@", template)
         self.assertNotIn("@@CANONICAL_PROMPT_V2@@", template)
+
+    def test_prepare_invitation_embeds_only_final_editorial_prose(self) -> None:
+        with tempfile.TemporaryDirectory() as temporary:
+            root = Path(temporary)
+            input_root = root / "input"
+            editorial_root = root / "editorial"
+            source = (
+                editorial_root
+                / "trial"
+                / "s001"
+                / "1_5"
+                / "1_5.prose.editorial.tr.md"
+            )
+            source.parent.mkdir(parents=True)
+            source.write_text("Yolun nasıl işlendiğini açıklayan nihai metin.", encoding="utf-8")
+            with (
+                patch.object(workflow, "INPUT_ROOT", input_root),
+                patch.object(workflow, "EDITORIAL_ROOT", editorial_root),
+            ):
+                result = workflow.prepare_invitation(
+                    argparse.Namespace(ayah="1:5", analysis_id="trial")
+                )
+                prompt = Path(result["handoff"]["prompt"]).read_text(encoding="utf-8")
+
+        self.assertIn("Yolun nasıl işlendiğini açıklayan nihai metin.", prompt)
+        self.assertNotIn("@@EDITORIAL_PROSE@@", prompt)
+        self.assertEqual(result["handoff"]["role"], "invitation")
+        self.assertEqual(result["handoff"]["model"], "gpt-5.6-luna")
+
+    def test_prepare_invitation_requires_completed_editorial_prose(self) -> None:
+        with tempfile.TemporaryDirectory() as temporary:
+            root = Path(temporary)
+            with (
+                patch.object(workflow, "INPUT_ROOT", root / "input"),
+                patch.object(workflow, "EDITORIAL_ROOT", root / "editorial"),
+            ):
+                with self.assertRaisesRegex(
+                    workflow.WorkflowError, "Cannot read final editorial prose"
+                ):
+                    workflow.prepare_invitation(
+                        argparse.Namespace(ayah="1:5", analysis_id="trial")
+                    )
 
 
 class ContextEvidenceTests(unittest.TestCase):

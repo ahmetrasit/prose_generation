@@ -1,0 +1,91 @@
+Bu kısa ifade açıkça “Hesap gününün sahibidir” der. {ar:مَٰلِكِ, tr:mâliki, gloss:sahiplik başı} ile {ar:يَوْمِ, tr:yevmi, gloss:Gün} ve {ar:ٱلدِّينِ, tr:ed-dîni, gloss:hesap ve karşılık düzeni} art arda bağlanınca ifade, sahibinden belirli zamana ve o zamanı anlamlandıran hesap düzenine iner; iki izafet bağı bu hiyerarşiyi kurar, okura ilk sözcüğün bütün çerçeveyi tuttuğunu gösterir ve bu ek yapı açıkça hesap gününün sahibi olma anlamını korur.
+
+Başta görünür belirteç taşımayan {ar:مَٰلِكِ, tr:mâliki, gloss:sahiplik başı}, sonundaki belirli terim sayesinde belirli bir Günü yönetir; izafet, belirginliği zincirin sonundan geriye taşır, böylece okur belirsiz bir tarihle değil tanınan bir Gün'le karşılaşır ve bu gramatik işleyiş sahiplik anlamını aynen korur.
+
+{ar:مَٰلِكِ, tr:mâliki, gloss:sahiplik başı} önceki ilahî niteleme zincirine genitif bir devam olarak girer; bu bağlantı sözcüğü önceki övgüden koparmadan yeni izafet zincirini açar, okura bağımsız bir unvan değil süren bir niteleme hareketi duyurur ve hesap gününün sahibi olma açık anlamını yerinden oynatmaz.
+
+Etkin ortaç biçimi sahipliği Gün'le birlikte başlayacak bir olay olarak değil, zaten duran bir ilahî nitelik olarak sunar; sonlu fiil cümlesi kurmayan nominal zincir bu sürekliliği taşır, okur otoritenin yalnız son anda ortaya çıkmadığını görür ve bu biçimsel katkı açık sahiplik bildirimini sınırları içinde tutar.
+
+{ar:مَٰلِكِ, tr:mâliki, gloss:sahiplik başı} seyrek görülen etkin sahiplik biçimiyle ilahî niteleme eşiğinde belirginleşir; düşük görülme sıklığı ve ilahî gönderge biçimi yaygın kök alanını bu özel kullanıma toplar, okur bunun sıradan bir sahiplik adı olmadığını sezer ve kökün bütün olası anlamları aynı anda etkinleşmiş sayılmaz.
+
+Bu sahiplik ince bir hukukî unvanla sınırlı kalmaz: {ar:مَٰلِكِ, tr:mâliki, gloss:sahiplik ve tasarruf yetkisi} Gün üzerinde elinde bulundurma ve tasarruf gücü taşır; izafet bu gücü belirli zamana bağlar, okur sahibin o Gün üzerinde yetki kullandığını hisseder ve evlilik, yol merkezi ya da haberci gibi ilgisiz alanlar bu yerel okumaya katılmaz.
+
+Aktarılan okuyuş alanı sahipliği hem tasarruf hem hükümdarlık yönünde duyurur; bu karşıtlık otorite aralığını görünür kılarken hizalanmış etkin sahiplik yüzeyini önde tutar, okur tek bir karşılığın arkasındaki yetki yoğunluğunu fark eder ve varyant alanı mevcut sahiplik zincirinin yerine geçirilmez.
+
+Uzun ünlü ve ses konturu {ar:مَٰلِكِ, tr:mâliki, gloss:sahiplik başı} biçimini sonraki genitifler daralmadan önce duyulur kılar; ses ve yazım akışı başı öne çıkarıp ardından zincire bağlar, okur anlamı sesçe açılıp kapanan bir hareket olarak izler ve bu işitsel katkı yeni bir sözlük anlamı iddia etmez.
+
+{ar:يَوْمِ, tr:yevmi, gloss:belirli Gün} artikel taşımayan tamlayan olarak görünse de sonundaki belirli terimle belirli ve bilinen bir zaman birimine dönüşür; izafet tekil zaman birimini korurken belirginliği geriye taşır, okur herhangi bir gün değil tanınan bir Gün duyar ve temel zaman anlamı bu adlandırma içinde kalır.
+
+Gün sözcüğü burada hem sınırlı bir zaman birimini hem de belirleyici bir olay ufkunu taşır; gün, süre ve olay günü esnekliği hesap tamlamasıyla genel zamandan belirli bir eskatolojik sahneye daralır, okur zamanı yalnız takvim etiketi değil anlamın gerçekleştiği sınır olarak hisseder ve bu ufuk belirli Gün anlamını sınırsızlaştırmaz.
+
+{ar:يَوْمِ, tr:yevmi, gloss:Gün} orta sözcük olarak nötr bir tarih işareti bırakmaz, tekrarlanan hesap günü formülüne giriş sağlar; son terimle kurduğu yerleşik tamlama zamanı hesap ve karşılık sahnesine bağlar, okur bu sözcüğü tanınabilir bir formülün eşiği olarak duyar ve formül açık hesap günü anlamını destekler.
+
+{ar:يَوْمِ, tr:yevmi, gloss:Gün} baştan gelen sahipliği alır ve sondaki hesap terimini yöneterek zincirin iki yönünü bağlar; genitif tamamlayanı ve construct head oluşu onu pasif bir ara kelime olmaktan çıkarır, okur sahiplik ile hesap içeriğinin aynı menteşede birleştiğini görür ve bu işlev belirli Gün'ün açık anlamını birlikte taşır.
+
+Sık görülen bu kök, {ar:يَوْمِ, tr:yevmi, gloss:kararlı zaman adı} biçiminde eylem veya fail üretmez; fiil çerçevesi bulunmayan isim kullanımı onu zaman birimine sabitler, okur Gün'ü hesapla sahipliği taşıyan kararlı bir birim olarak fark eder ve kökün bütün sözlük aralığı etkin sayılmaz.
+
+Kanonik genitif, {ar:يَوْمِ, tr:yevmi, gloss:izafet içindeki Gün} sözcüğünü zincir içinde sahip olunan terim olarak tutar; hâl karşıtlığı accusative yönelimin zamanı adverbial bir arka plan gibi kurabileceğini gösterir, okur küçük bir hâl farkının sahnenin yapısını değiştirdiğini görür ve karşıt yönelim mevcut okumaya geçirilmez.
+
+Gün çerçevesi övgü dizisini hesap sahnesine çevirerek ifadenin ileriye dönük yönelişini hazırlar; {ar:يَوْمِ, tr:yevmi, gloss:hesap zamanı} sahipliği belirli bir hesap zamanına bağlar ve sonraki ibadet-yol talebine geçiş için sahne kurar, okur niteliğin tekrarlanmasından yöneliş atmosferine geçişi sezer ve burada sonraki taleplerin ayrıntısı kurulmaz.
+
+Yumuşak geçiş, nazal kapanış ve tekrarlanan genitif ritmi {ar:يَوْمِ, tr:yevmi, gloss:Gün} ile {ar:ٱلدِّينِ, tr:ed-dîni, gloss:hesap düzeni} terimlerini tek bir işitilebilir ifade gibi bağlar; ses akışı tamlamanın birlikteliğini pekiştirir, okur iki ayrı etiketten çok kenetlenmiş bir bütün duyar ve ses bağı yerel gramerin ötesinde yeni bir ilişki kurmaz.
+
+{ar:ٱلدِّينِ, tr:ed-dîni, gloss:hesap ve karşılık düzeni} otorite ile zamanın kurduğu sahnenin içeriğini tamamlar; yönetilen son genitif baştaki yetkiyi ve ortadaki zamanı hesap düzeniyle doldurur, okur ifadenin otoriteden zamana ve oradan Gün'ün içeriğine çözüldüğünü görür ve son terim bağımsız bir fiile dönüşmez.
+
+Son terim, yerel olarak seçilen hesabı onu taşıyan daha geniş bir düzen ve uyum yolu içinde duyurabilir; düzen baskısı hukukî işlemi çevrelerken gramer onu yine Gün'ün hesap içeriği olarak tutar, okur hesabı tekil hüküm anından daha bağlayıcı bir ahlâkî düzen olarak işitir ve bu genişleme yerel hesabı silmez.
+
+Hesap, borçta olanın verilmesi ve geri dönmesi imgesiyle keskinleşir; {ar:ٱلدِّينِ, tr:ed-dîni, gloss:hesap düzeni} borç ve alacak baskısını hükümle buluşturur, okur karşılığı havada kalan bir karar değil görülüp iade edilen bir hesap gibi hisseder ve sözcük yalnız mali borca kapanmaz.
+
+Belirli son genitif zinciri kapatırken belirginliğini önceki terimlere geri gönderir; {ar:ٱلدِّينِ, tr:ed-dîni, gloss:belirli hesap düzeni} hem gramatik son hem de bütün izafeti tek hesaba bağlayan tanımlayıcı olur, okur son kelimenin baştan beri okunan sahipliğin neye ait olduğunu açıkladığını görür ve bu geriye belirleme hesap gününün sahibi olma anlamını korur.
+
+{ar:ٱلدِّينِ, tr:ed-dîni, gloss:hesap ve karşılık} Gün'ü tekrarlanan hesap günü formülüne tamamlar; {ar:يَوْمِ, tr:yevmi, gloss:Gün} zaman birimini açarken son kelime hüküm ve karşılık içeriğiyle kapatır, okur formülün anlam yükünü son terimde tamamlanmış duyar ve başka bir gün türü seçilmez.
+
+Son terim gramer bakımından yönetilen unsurken anlam bakımından Gün'ün karakterini kurar; genitif bağ aidiyeti taşırken anlam yönü son kelimenin zamanı hesap düzeni olarak nitelemesine izin verir, okur bir kelimenin bağlı konumda durup önceki zamanı açıklayabildiğini görür ve bu katmanlama kanonik genitifin yerine başka bir parse koymaz.
+
+Tanıdık hesap günü formülü baştaki sahiplik dilinin altına yerleşir; {ar:مَٰلِكِ, tr:mâliki, gloss:sahiplik başı} otoriteyi, {ar:يَوْمِ, tr:yevmi, gloss:Gün} ile {ar:ٱلدِّينِ, tr:ed-dîni, gloss:hesap formülü} de formülü kurar, okur hesap gününü sahibinin yetkisi altında gerçekleşen bir düzen olarak görür ve bu çerçeve tanıdık formülü değiştirmez.
+
+Âyet, yargılama eylemini anlatan bir fiille değil, Gün'e içeriğini veren belirli bir hesap ve karşılık sistemi adıyla kapanır; belirli tekil soyut isim nominal zincirin sonuna yerleşerek sahneyi tanımlı bir düzen yapar, okur sonun hareketli bir “yargılıyor” değil adlandırılmış bir sistem olduğunu fark eder ve bu isim hesap anlamını inkâr etmez.
+
+Yerel seçim hüküm ve karşılığı öne çıkarırken hesap düzeninin borç, yükümlülük, itaat ve boyun eğme baskıları da duyulabilir; {ar:ٱلدِّينِ, tr:ed-dîni, gloss:hesap düzeni} geniş kök alanını hesap tamlamasıyla yargı eksenine toplar, okur kelimeyi yalnız mahkeme hükmü değil bağlayıcı bir ilişki düzeni olarak işitir ve bu baskılar yerel hükmün yerine geçen rakipler değildir.
+
+Belirli artikelin asimilasyonu, çiftlenen başlangıç ve nazal kafiye son isme hem işitsel hem anlamsal kapanış ağırlığı verir; {ar:ٱلدِّينِ, tr:ed-dîni, gloss:belirli hesap düzeni} genitif kadansını ve zincirin tamamlanmasını duyurur, okur son kelimede tanım ile basıncın toplandığını işitir ve ses kapanışı yeni bir içerik iddia etmez.
+
+Sahiplik unvanı önceki rahmet ve övgü çerçevesini hesap sahnesine bağlayan, ardından doğrudan yönelişe hazırlayan bir eşik gibi işler; {ar:مَٰلِكِ, tr:mâliki, gloss:sahiplik başı} önceki nitelemeye eklenirken sağındaki zaman ve hesap terimleri otorite çerçevesi kurar, okur bu başlığın ifadenin yönünü hesap ve hitap tarafına çevirdiğini görür ve bu köprü açık hesap günü anlamının sınırları içinde kalır.
+
+İfadenin açık sahiplik ve hesap günü anlamı yerinde dururken, üç sözcüğün egemenlik, kritik zaman ve hesap içeriğiyle temasından kamusal bir olay sahnesi açılabilir; okur sahipliğin olay anında işleyen egemenlik ilişkisini de görür ve bu ek temas açık anlamın yerine geçmez.
+
+{ar:يَوْمِ, tr:yevmi, gloss:çetin olay günü} büyük olayın kritik zamanını taşır; ayrı {ar:مَٰلِكِ, tr:mâliki, gloss:egemen sahiplik} ilahî ve kalıcı egemenliği ve {ar:ٱلدِّينِ, tr:ed-dîni, gloss:özel hesap ve karşılık günü} hüküm içeriğini getirir, bu temas zamanı takvim etiketi olmaktan çıkarıp otoritenin açığa çıktığı kritik sahneye dönüştürür, okur Gün'ün hesap olayının ufku olduğunu fark eder ve bu çetin olay ayrıntısı belirli Gün'ü genelleştirmez.
+
+{ar:مَٰلِكِ, tr:mâliki, gloss:egemen sahiplik} sözcüğündeki ilahî ve kalıcı egemenlik, ayrı {ar:يَوْمِ, tr:yevmi, gloss:kritik olay zamanı} sözcüğünün büyük olay zamanını ve {ar:ٱلدِّينِ, tr:ed-dîni, gloss:hesap ve karşılık} sözcüğünün hüküm içeriğini bulur; bu temas zamanı takvim etiketi olmaktan çıkarıp otoritenin açığa çıktığı kritik sahneye dönüştürür, okur Gün'ün hesap olayının ufku olduğunu fark eder ve bu çetin olay ayrıntısı belirli Gün'ü genelleştirmez.
+
+{ar:ٱلدِّينِ, tr:ed-dîni, gloss:özel hesap ve karşılık günü} hüküm, hesap ve karşılığın gerçekleştiği özel gün anlamını, ayrı {ar:مَٰلِكِ, tr:mâliki, gloss:egemen sahiplik} egemenliği ve {ar:يَوْمِ, tr:yevmi, gloss:kritik zaman} kritik zamanı ile buluşturur; böylece son terim soyut bir ad olmaktan çıkıp icra edilen hüküm ve karşılık sahnesinin içeriğini verir, okur egemen olayın ne yaptığını görür ve bu ek açılım yeni bir hüküm doktrini kurmaz.
+
+Hesap günü anlamı korunurken {ar:مَٰلِكِ, tr:mâliki, gloss:sahiplik ve tasarruf yetkisi} borç üzerindeki tasarrufu, {ar:يَوْمِ, tr:yevmi, gloss:açık zaman süresi} vade aralığını ve {ar:ٱلدِّينِ, tr:ed-dîni, gloss:mali yükümlülük} borçtan doğan yükümlülüğü buluşturabilir; ifade böylece ertelenmiş yükümlülüğün ve onun olgunlaştığı zamanın sahibi olarak da açılır, okur hesabı borç ve vade ilişkisi gibi duyabilir ve bu imge sözcüğü yalnız mali sözleşmeye indirmez.
+
+{ar:مَٰلِكِ, tr:mâliki, gloss:sahiplik ve tasarruf yetkisi} borcu ve zamanı elde tutan yetkiyi taşır; ayrı {ar:يَوْمِ, tr:yevmi, gloss:vade aralığı} vade aralığını ve {ar:ٱلدِّينِ, tr:ed-dîni, gloss:borç yükümlülüğü} mali yükümlülüğü getirir, bu temas tasarruf gücünü hem borcun hem vadenin üzerinde toplar, okur baş sözcüğü vadesi gelen yükümlülüğün sahibi olarak da görür ve tarihsel kişi sahipliği iddiası burada kurulmaz.
+
+{ar:يَوْمِ, tr:yevmi, gloss:herhangi uzunluktaki süre} bilinen gündüz sınırlarına bağlı olmayan süreyi, ayrı {ar:مَٰلِكِ, tr:mâliki, gloss:tutulan yetki} tutulan tasarruf yetkisi ve {ar:ٱلدِّينِ, tr:ed-dîni, gloss:borç yükümlülüğü} vadesi gelen yükümlülük ile buluşturur; bu temas Gün'ü borcun olgunlaşıp kapandığı aralık yapar, okur vade anını zamanın içinde hisseder ve özel hesap günü belirsiz bir zamana dönüşmez.
+
+{ar:ٱلدِّينِ, tr:ed-dîni, gloss:mali yükümlülük} borç alınması veya verilmesinden doğan yükümlülüğü taşır; ayrı {ar:مَٰلِكِ, tr:mâliki, gloss:tutma ve tasarruf} tutma gücü ve {ar:يَوْمِ, tr:yevmi, gloss:olgunlaşma süresi} bu yükümlülüğün süresiyle birleşince hesap ve karşılık vadesi gelmiş borcun kapanışı gibi duyulur, okur karşılığın somut zamanını görür ve dîn yalnız mali borçla özdeşleşmez.
+
+Hesap gününün sahibi olma anlamı korunurken {ar:مَٰلِكِ, tr:mâliki, gloss:kamusal egemenlik} emir ve yönetim yetkisini, {ar:يَوْمِ, tr:yevmi, gloss:süre} devam eden zaman alanını ve {ar:ٱلدِّينِ, tr:ed-dîni, gloss:buyruğa uyma} üstün iradeye boyun eğme ilişkisini buluşturabilir; böylece ifade zaman içinde sürdürülen bir itaat düzeni olarak da açılır, okur sahipliği olayın sonuna değil düzenin işleyişine bağlar ve bu rejim resmi sonul hesap sahnesini ortadan kaldırmaz.
+
+{ar:مَٰلِكِ, tr:mâliki, gloss:kamusal yönetim yetkisi} emir koyan otoriteyi, ayrı {ar:يَوْمِ, tr:yevmi, gloss:süre} süreyi ve {ar:ٱلدِّينِ, tr:ed-dîni, gloss:itaat pratiği} tekrarlanan itaati getirir; kamusal egemenlik bu iki ayrı unsurla birleşerek bir olay anından uzun süren düzen kurar, okur baş sözcüğü itaat düzeninin yöneticisi olarak da duyabilir ve bu ilişki her tarihsel yönetim biçimine genellenmez.
+
+{ar:يَوْمِ, tr:yevmi, gloss:açık zaman süresi} egemenlik ve itaatin yaşandığı süreyi taşır; ayrı {ar:مَٰلِكِ, tr:mâliki, gloss:yöneten otorite} yönetimi ve {ar:ٱلدِّينِ, tr:ed-dîni, gloss:bağlılık pratiği} süre içinde yinelenen bağlılığı kurar, böylece Gün düzenin devam ettiği alan olarak da görünür ve bu süre okuması âyeti sınırsız çağlar hakkında bir iddiaya çevirmeden belirli Gün'ü korur.
+
+{ar:ٱلدِّينِ, tr:ed-dîni, gloss:boyun eğerek uyma} üstün iradeye boyun eğme ve buyruğa uyma ilişkisini taşır; ayrı {ar:مَٰلِكِ, tr:mâliki, gloss:buyruk koyan otorite} otoriteyi ve {ar:يَوْمِ, tr:yevmi, gloss:bağlılık süresi} zaman alanını getirince dîn, hüküm anının yanında zaman içinde yürüyen bağlılık düzeni olarak da duyulur ve bu itaat açılımı hesap ve karşılık anlamını dışlamaz.
+
+Bir başka atfedilmiş açılım, sahipliği zaman, alışkanlık ve kurumsal düzeni ayakta tutan bir dayanak olarak duyurur; bu ek resim açık hesap günü anlamını taşır, okura egemenliğin taşıyıcı yönünü gösterir ve onu bağımsız bir düzen teorisine dönüştürmez.
+
+{ar:مَٰلِكِ, tr:mâliki, gloss:bir arada tutan güç} güçlü ve iç tutarlı biçimde bir arada tutan taşıyıcıyı, {ar:يَوْمِ, tr:yevmi, gloss:uzun zaman süresi} süreyi ve {ar:ٱلدِّينِ, tr:ed-dîni, gloss:tekrarlanan düzen} tekrarlanan düzeni buluşturur; böylece sahiplik yapının zaman içinde dağılmadan kalmasını sağlayan iç dayanak gibi görünür, okur egemenliğin taşıyıcı yönünü fark eder ve bu görüntü fiziksel bir yapıya genellenmez.
+
+{ar:مَٰلِكِ, tr:mâliki, gloss:temel dayanak} büyük bir düzenin dayandığı ve işlemesini sağlayan temeli taşır; ayrı {ar:يَوْمِ, tr:yevmi, gloss:süreklilik alanı} sürekliliği ve {ar:ٱلدِّينِ, tr:ed-dîni, gloss:sürdürülen düzen} alışkanlık ile kurumsal düzeni getirir, dayanak bu unsurlarla buluşunca sahiplik işleyişi mümkün kılan temel gibi duyulur ve bu imge açık sahiplik anlamına eklenir.
+
+{ar:يَوْمِ, tr:yevmi, gloss:uzun zaman süresi} dayanağın düzeni taşıdığı zaman alanını kurar; ayrı {ar:مَٰلِكِ, tr:mâliki, gloss:dayanak} taşıyıcı gücü ve {ar:ٱلدِّينِ, tr:ed-dîni, gloss:alışılmış düzen} tekrarı getirir, böylece Gün dayanağın düzeni zaman içinde tuttuğu alan olarak da açılır ve bu süre ayrıntısı sonsuz devir iddiası taşımaz.
+
+{ar:ٱلدِّينِ, tr:ed-dîni, gloss:alışılmış davranış} tekrarlanarak yerleşen alışkanlık ve sürekli işi taşır; ayrı {ar:مَٰلِكِ, tr:mâliki, gloss:dayanak} dayanağı ve {ar:يَوْمِ, tr:yevmi, gloss:süren zaman} zamanı sağlayınca dîn düzeni her defasında yeniden üreten pratik olarak da görünür ve bu alışkanlık hesap anlamını silmez.
+
+{ar:ٱلدِّينِ, tr:ed-dîni, gloss:kent} düzenlenmiş toplu yerleşim görüntüsünü de taşıyabilir; ayrı {ar:مَٰلِكِ, tr:mâliki, gloss:ayakta tutan dayanak} yapıyı ayakta tutan dayanak ve {ar:يَوْمِ, tr:yevmi, gloss:süre} kurumun sürdüğü zaman olarak temas edince düzen soyut olmaktan çıkıp kurumsal bir biçim kazanır, okur dîn'i civic bir yapı gibi de duyabilir ve kelime gerçek bir şehir adına dönüşmez.
+
+Bütün bu açılımlar cümlenin açık zeminini birlikte taşır: {ar:مَٰلِكِ, tr:mâliki, gloss:sahiplik başı} belirli hesabın sahibidir, {ar:يَوْمِ, tr:yevmi, gloss:Gün} bu sahipliğin zamanını kurar, {ar:ٱلدِّينِ, tr:ed-dîni, gloss:hesap düzeni} ise Gün'ün hüküm ve karşılık içeriğini verir; yan anlamlar bu zemini değiştirmeden otoriteyi, vadeyi, itaati ve düzeni farklı temas noktalarından görünür kılar.

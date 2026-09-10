@@ -17,6 +17,9 @@ prepare
   -> same consolidator validates the editorial prose only
   -> same consolidator repairs mechanical validator failures, up to 2 cycles
   -> close consolidator
+  -> render the invitation prompt from final editorial prose
+  -> 1 fresh invitation agent writes and validates the reading invitation
+  -> close invitation agent
 ```
 
 V5 has no post-launch analytical gates. After `prepare`, do not run `advance`
@@ -81,9 +84,10 @@ _commentary/v5/operations/runtime/snapshot.json
 ```
 
 For scope agents, `<task>` is `micro`, `macro`, or `global`; for the
-consolidator, `<task>` is `canonical`. These files are logs and dashboard state
-only. Do not read them as commentary evidence, do not use them as analytical
-state, and do not create any other tracking files. Do not ignore
+consolidator, `<task>` is `canonical`; for the reading-invitation writer it is
+`invitation`. These files are logs and dashboard state only. Do not read them
+as commentary evidence, do not use them as analytical state, and do not create
+any other tracking files. Do not ignore
 `_commentary/v5/operations/` or its subfolders in general: `monitor.py` and the
 operations docs are part of the orchestration tooling. Only `operations/runtime/`
 is disposable monitor runtime state.
@@ -502,19 +506,24 @@ result or completion of the two permitted repair/rerun cycles with remaining
 findings reported, then close the consolidator and inspect the prose quality
 directly.
 
-## Optional Reading Invitation
+## 6. Reading Invitation
 
-When the user requests an ayah summary, generate a separate reading invitation
-after the final editorial prose is ready. This derivative is an entry into the
-commentary, not a compressed substitute for it, and its failure does not alter
-the completed commentary.
+After CE has written and validated the final editorial prose, generate the
+separate reading invitation as the final required stage for that ayah. This
+derivative is an entry into the commentary, not a compressed substitute for it.
 
-Use `_commentary/v5/prompts/invitation.md`. Fill it manually:
+Render its hermetic prompt from the completed editorial prose:
 
-- replace `@@AYAH_REF@@` with the focus ref;
-- replace `@@INVITATION_OUTPUT_PATH@@` with
-  `_commentary/v5/editorial/<analysis-id>/sNNN/S_A/S_A.invitation.tr.md`;
-- replace `@@EDITORIAL_PROSE@@` with the complete final editorial prose.
+```bash
+python3 _commentary/v5/workflow.py prepare-invitation \
+  --ayah <S:A> \
+  --analysis-id <analysis-id>
+```
+
+The command writes
+`_commentary/v5/input/<analysis-id>/sNNN/S_A/invitation.prompt.md` and returns a
+fresh-agent handoff whose output is
+`_commentary/v5/editorial/<analysis-id>/sNNN/S_A/S_A.invitation.tr.md`.
 
 Start one fresh `gpt-5.6-luna` max agent with no inherited conversation history.
 Give it only the filled invitation prompt. Do not reuse the consolidator session
@@ -526,9 +535,35 @@ second coverage pass.
 
 The invitation agent writes only the separate invitation artifact and runs the
 mechanical prose validator named in the prompt. It does not modify the editorial
-commentary or emit a V5 scope/canonical monitor event. Inspect and report the
-invitation separately from the completed commentary. Regenerate it whenever its
-editorial source changes.
+commentary. It must append one `invitation started` lifecycle event before
+writing and exactly one terminal `invitation completed`, `invitation failed`,
+`invitation interrupted`, or `invitation attention` event after validation.
+Use `completed` only when the invitation exists and its validator passed. Use
+`attention` when it exists but validation remains nonzero after the permitted
+repair cycles.
+
+Launch message:
+
+```text
+You are the V5 reading-invitation writer for <S:A>. You are running as a fresh
+gpt-5.6-luna max agent.
+
+Before writing, run this lifecycle command:
+python3 _commentary/v5/operations/monitor.py event --run-id <shared-run-id> --orchestrator-id <unique-orchestrator-id> --ayah-ref <S:A> --role invitation --agent-id <spawn-task-name> --status started
+
+Read and follow this invitation prompt exactly:
+<complete contents of the generated invitation.prompt.md>
+
+After validation, run exactly one terminal lifecycle command:
+python3 _commentary/v5/operations/monitor.py event --run-id <shared-run-id> --orchestrator-id <unique-orchestrator-id> --ayah-ref <S:A> --role invitation --agent-id <spawn-task-name> --status <completed|failed|interrupted|attention>
+
+Report the final validator result and lifecycle status in this conversation.
+```
+
+Inspect and report the invitation separately from the completed commentary.
+Regenerate it whenever its editorial source changes. The monitor considers a
+newly registered ayah complete only after both CE validation and invitation
+validation have completed.
 
 ## Context Rules
 
@@ -570,7 +605,9 @@ three `gpt-5.6-luna` max scope agents for each ayah as soon as its prompts
 exist; as each ayah's three scope prose files are ready, spawn that ayah's fresh
 `gpt-5.6-sol` max consolidator and carry that same consolidator through the
 editorial follow-up. Each ayah remains an independent workflow with its own
-scope agents, consolidator, paths, and Git-visible outputs.
+scope agents, consolidator, invitation agent, paths, and Git-visible outputs.
+As soon as an ayah's CE stage completes, render and launch its invitation; do
+not wait for CE to finish on the other ayat.
 
 Different ayat and analysis IDs have disjoint paths and may run concurrently.
 Do not run two orchestrators for the same analysis ID and ayah at once.

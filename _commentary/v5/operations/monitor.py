@@ -39,7 +39,7 @@ UNIT_DIR_RE = re.compile(r"([1-9][0-9]*)_(0|[1-9][0-9]*)")
 TERMINAL_EVENTS = frozenset({"completed", "failed", "interrupted", "attention"})
 MAX_STOP_SYNC_ATTEMPTS = 2
 EVENTS = frozenset({"started", *TERMINAL_EVENTS})
-ROLES = frozenset({"scope", "canonical", "validator", "orchestrator"})
+ROLES = frozenset({"scope", "canonical", "invitation", "validator", "orchestrator"})
 LANES = ("micro", "macro", "global")
 MAX_ARTIFACT_BYTES = 900_000
 DEFAULT_FIREBASE_PROJECT_ID = "v5-monitor"
@@ -320,6 +320,8 @@ def load_registration(path: Path) -> dict[str, Any]:
         raise MonitorError("Registration scope_refs are invalid, duplicated, or not normalized")
     if value.get("scope_count") is not None and value["scope_count"] != len(scope_refs):
         raise MonitorError("Registration scope_count does not match scope_refs")
+    if not isinstance(value.get("invitation_required", False), bool):
+        raise MonitorError("Registration invitation_required must be a boolean")
     try:
         poll_seconds = float(value.get("poll_seconds", 10))
     except (TypeError, ValueError) as exc:
@@ -782,6 +784,16 @@ def artifact_specs(registration: dict[str, Any], ayah_ref: str) -> list[Artifact
                 editorial_dir / f"{unit_dir}.prose.editorial.tr.md",
                 True,
             ),
+            ArtifactSpec(
+                "invitation_prompt",
+                input_dir / "invitation.prompt.md",
+                False,
+            ),
+            ArtifactSpec(
+                "invitation",
+                editorial_dir / f"{unit_dir}.invitation.tr.md",
+                True,
+            ),
         ]
     )
     return specs
@@ -888,7 +900,9 @@ def _stage_state(
         return state
 
     if event_status == "completed":
-        required_artifact = stage if stage in LANES else "editorial"
+        required_artifact = (
+            stage if stage in (*LANES, "invitation") else "editorial"
+        )
         if stage == "validator":
             state["status"] = "passed" if "editorial" in artifacts else "attention"
         else:
@@ -921,6 +935,12 @@ def _stage_state(
         elif "consolidated" in artifacts:
             state["status"] = "editing"
         elif all(lane in artifacts for lane in LANES):
+            state["status"] = "ready"
+    elif stage == "invitation":
+        if "invitation" in artifacts:
+            # Only a terminal invitation event attests that validation passed.
+            state["status"] = "active"
+        elif "invitation_prompt" in artifacts:
             state["status"] = "ready"
     return state
 
@@ -983,9 +1003,13 @@ def build_task(registration: dict[str, Any], ayah_ref: str) -> tuple[dict[str, A
             reader_artifacts.append(artifact)
 
     latest = _latest_by_stage(events)
+    stage_names = [*LANES, "canonical", "validator"]
+    invitation_required = bool(registration.get("invitation_required", False))
+    if invitation_required:
+        stage_names.append("invitation")
     stages = {
         stage: _stage_state(stage, latest, artifacts)
-        for stage in (*LANES, "canonical", "validator")
+        for stage in stage_names
     }
     canonical_event = latest.get("canonical", {})
     if (
@@ -1022,8 +1046,16 @@ def build_task(registration: dict[str, Any], ayah_ref: str) -> tuple[dict[str, A
         status = "failed"
     elif current_attention:
         status = "attention"
-    elif stages["validator"]["status"] == "passed":
+    elif (
+        stages["validator"]["status"] == "passed"
+        and (
+            not invitation_required
+            or stages["invitation"]["status"] == "completed"
+        )
+    ):
         status = "completed"
+    elif invitation_required and stages["validator"]["status"] == "passed":
+        status = "active"
     elif stages["canonical"]["status"] == "completed":
         status = "awaiting_validation"
     elif any(
@@ -1312,6 +1344,7 @@ def create_registration(
         "scope_selectors": list(args.scope),
         "scope_refs": scope_refs,
         "scope_count": len(scope_refs),
+        "invitation_required": True,
         "started_at": utc_now(),
         "repo_root": str(REPO_ROOT),
         "poll_seconds": args.poll_seconds,

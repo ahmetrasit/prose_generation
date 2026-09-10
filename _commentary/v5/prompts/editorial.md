@@ -31,6 +31,14 @@ silently delete one.
 Every resonance must preserve the ordinary reading intact and keep it
 recoverable in the same explanation; a latent reading cannot replace it.
 
+- Build or rebuild the reading order before polishing sentences or choosing
+  headings. Privately identify what each paragraph contributes beyond what the
+  reader already understands: a perceptible detail, a developing relation, a
+  changed consequence, a contrast, or a necessary qualification. Rework
+  paragraphs that only preview later explanations, report that connections
+  exist, or restart an established conclusion. Move every unique contribution
+  intact into the developing explanation; do not obtain momentum by deleting
+  or condensing it.
 - Preserve every retained finding's carrier, independent trigger, contact,
   changed reading, concrete semantic detail, and boundary.
 - Preserve useful section subtitles, or add short Turkish section subtitles
@@ -52,17 +60,27 @@ recoverable in the same explanation; a latent reading cannot replace it.
   source construction, operative details, qualifications, and necessary
   paragraph-local Arabic anchors with it. Restore a displaced element where it
   participates in the reading.
-- Build transitions from something the preceding passage has made intelligible.
-  Show what the next action, source use, speaker, sound, grammatical relation,
-  temporal turn, material process, contrast, or question changes. Where no
-  supported continuity exists, make a deliberate cut by identifying the change
-  of scale, time, speaker, question, or perspective instead of inventing a
-  bridge.
+- Read each paragraph's closing together with the next opening, including
+  across headings. Carry forward something specifically established—an object,
+  action, sound, grammatical relation, material process, temporal condition,
+  speaker, tension, or question—and show what changes next. Where supported
+  continuity is absent, identify the new question, perspective, or scale
+  honestly. A heading, a change of carrier, or "another use" does not itself
+  establish a transition. Repair the passages themselves, not only their
+  connecting phrase.
 - Complete every contextual excursion by returning to what it changes,
   clarifies, complicates, or leaves open in the focus reading.
 - Build a multi-branch image from its contributing operations before stating
   the composite result. Do not replace its construction with a broad thematic
   summary or announce the result and then list its supports.
+- An inventory of contributions followed by a statement that they are distinct
+  does not construct their interaction. Let the reader follow what each
+  contribution enables, changes, obstructs, answers, or qualifies. If a
+  paragraph contains more operations than the reader can follow, redistribute
+  its complete explanations across connected paragraphs; do not reduce them to
+  named results. Place each necessary qualification beside the operation it
+  limits, before, within, or after it as clarity requires. Preserve its full
+  force without routinely making it the paragraph's final gesture.
 - Combine passages only when their sources, operations, effects, and limits
   remain distinguishable. Remove repeated wording only after confirming that
   it contributes no distinct operation, detail, interaction, change, or
@@ -72,9 +90,14 @@ recoverable in the same explanation; a latent reading cannot replace it.
   paragraph-local. A tag in an earlier paragraph does not cover a later
   paragraph. Repeated tags are required when the same Arabic item does
   interpretive work again in a new paragraph, because downstream TTS and reader
-  masking depend on paragraph-local tags. Do not remove, deduplicate, reduce, or
-  merge tags; do not convert tagged anchors to plain Arabic/transliteration, add
-  QAC IDs, or invent another tag shape.
+  masking depend on paragraph-local tags. Do not remove a tag while its Arabic
+  item still does interpretive work in that paragraph. When a complete
+  explanation moves or a genuinely redundant passage is removed, rebuild the
+  affected paragraphs' tags around the surviving explanations; original tag
+  occurrences are not independently preserved content. Every required
+  paragraph-local anchor must remain in the established syntax. Do not convert
+  tagged anchors to plain Arabic/transliteration, add QAC IDs, or invent another
+  tag shape.
 - Use one consistent Turkish-readable transliteration for an identical Arabic
   surface. Preserve differences grounded in genuinely different Arabic forms
   or readings. Keep tag glosses short and ordinary; place lexical restrictions,
@@ -99,10 +122,13 @@ recoverable in the same explanation; a latent reading cannot replace it.
   Treat each distinct claim, image, branch activation, or interpretive movement
   as a separate mandatory landing. Each one must remain explicit in editorial
   prose.
-- Do not relocate tags as an inventory, append displaced anchors, or create a
-  late recap to compensate for omissions elsewhere. Repair the explanation in
-  the passage where the reader needs it. An ending may complete a movement; it
-  must not substitute a catalogue of findings for their integration.
+- Do not relocate tags as an inventory or append displaced anchors. Repair the
+  explanation in the passage where the reader needs it.
+- Do not add a closing recap, overview, or inventory, even when all findings
+  already appear in the body. End by completing the last consequential
+  movement. If an existing closing paragraph contains unique information, move
+  that information into the explanation that needs it, then remove the repeated
+  summary. Do not replace it with a shorter inventory.
 
 Before finishing, compare the editorial prose against the raw prose and confirm
 that every raw finding and every distinct retained landing still appears once

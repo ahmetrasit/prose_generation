@@ -15,11 +15,18 @@ Begin inside the ayah's own words, images, actions, or relations, with its plain
 propositional reading still reachable. Do not front-load context about the
 surah, the ayah's position, or the commentary project.
 
-For each selected movement, preserve enough construction for the reader to
-understand what belongs to the focus carrier, what a contributing word or
-context supplies, and how their contact changes the reading. Keep the operative
-detail. Do not present an imported image, root-family resonance, collocational
-use, or form-restricted meaning as the focus carrier's ordinary meaning.
+For a chosen movement, let the reader identify the expression being interpreted,
+where any nonordinary detail comes from, and what that detail changes in the
+reading. Briefly identify the word-family use, restricted form, collocation, or
+context that supplies an essential added detail, and preserve the concrete
+operation that makes the image work. Keep the ordinary reading and necessary
+qualification clear within this explanation; do not repeat them as a fixed
+formula. If the movement needs more room, select fewer other movements. Choose
+another only when the editorial prose does not supply enough to explain it
+faithfully.
+
+When a non-focus ayah supplies a contribution used in the invitation, keep its
+reference from the editorial prose beside that contribution.
 
 You may leave other movements entirely in the commentary. Do not flatten
 several distinct movements into a broad conclusion merely to fit more of them
@@ -45,6 +52,11 @@ relation into its next change. Do not praise the commentary's quality, promise
 what the reader will find, manufacture suspense, recap at the end, or add a call
 to action. End on an image, relation, action, or tension already established by
 the selected arc.
+
+Before finishing, check each selected image against its editorial explanation:
+can the reader tell where its nonordinary detail comes from and how it changes
+the reading, with the necessary qualification intact? Repair any missing link
+in the prose. Do not output this check.
 
 Write only the invitation text to:
 

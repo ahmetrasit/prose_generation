@@ -32,6 +32,7 @@ LANE_RANK = {lane: index for index, lane in enumerate(LANES)}
 MAX_BATCH_UNITS = 512
 MAX_JSON_BYTES = 128_000_000
 MAX_SCOPE_PROMPT_BYTES = 16_000_000
+MAX_EDITORIAL_PROSE_BYTES = 900_000
 SCOPE_DISCOVERY_SCHEMA_VERSION = "commentary-v5-scope-discovery-v1"
 MARKER_RE = re.compile(r"@@[A-Z0-9_]+@@")
 QURAN_REF_IN_TEXT_RE = re.compile(
@@ -166,6 +167,15 @@ class Layout:
 
     def scope_ledger(self, lane: str) -> Path:
         return self.raw / f"{lane}.scope.ledger.json"
+
+    def editorial_prose(self) -> Path:
+        return self.editorial / f"{self.stem}.prose.editorial.tr.md"
+
+    def invitation_prompt(self) -> Path:
+        return self.input / "invitation.prompt.md"
+
+    def invitation_output(self) -> Path:
+        return self.editorial / f"{self.stem}.invitation.tr.md"
 
 
 def layout_for(ayah_ref: str, analysis_id: str = "native") -> Layout:
@@ -2095,6 +2105,54 @@ def _build_scope_prompt(layout: Layout, lane: str, packet: dict[str, Any]) -> st
     return prompt
 
 
+def prepare_invitation(args: argparse.Namespace) -> dict[str, Any]:
+    """Render the post-editorial invitation prompt from the final prose alone."""
+    layout = layout_for(args.ayah, _analysis_id(args))
+    editorial_path = layout.editorial_prose()
+    try:
+        editorial_payload = editorial_path.read_bytes()
+    except OSError as exc:
+        raise WorkflowError(f"Cannot read final editorial prose {editorial_path}: {exc}") from exc
+    if not editorial_payload:
+        raise WorkflowError(f"Final editorial prose is empty: {editorial_path}")
+    if len(editorial_payload) > MAX_EDITORIAL_PROSE_BYTES:
+        raise WorkflowError(
+            f"Final editorial prose exceeds {MAX_EDITORIAL_PROSE_BYTES} bytes: {editorial_path}"
+        )
+    try:
+        editorial_prose = editorial_payload.decode("utf-8")
+        template = (PROMPTS_ROOT / "invitation.md").read_text(encoding="utf-8")
+    except (OSError, UnicodeDecodeError) as exc:
+        raise WorkflowError(f"Cannot prepare invitation prompt: {exc}") from exc
+    prompt = _render(
+        template,
+        {
+            "@@AYAH_REF@@": layout.ayah_ref,
+            "@@EDITORIAL_PROSE@@": editorial_prose,
+            "@@INVITATION_OUTPUT_PATH@@": _repo_path(layout.invitation_output()),
+        },
+        label="invitation prompt",
+    )
+    _atomic_write(
+        layout.invitation_prompt(), prompt.encode("utf-8"), root=INPUT_ROOT
+    )
+    return {
+        "schema_version": "commentary-v5-invitation-prepared-v1",
+        "status": "prepared",
+        "analysis_id": layout.analysis_id,
+        "ayah_ref": layout.ayah_ref,
+        "handoff": {
+            "role": "invitation",
+            "prompt": str(layout.invitation_prompt().resolve(strict=False)),
+            "output": str(layout.invitation_output().resolve(strict=False)),
+            "launch": "fresh_agent",
+            "model": "gpt-5.6-luna",
+            "reasoning_effort": "max",
+        },
+        "generated_files": [str(layout.invitation_prompt().resolve(strict=False))],
+    }
+
+
 def prepare(args: argparse.Namespace) -> dict[str, Any]:
     layout = layout_for(args.ayah, _analysis_id(args))
     composition = getattr(args, "composition", None)
@@ -2265,6 +2323,10 @@ def prepare(args: argparse.Namespace) -> dict[str, Any]:
             "editorial": (
                 "ask that same consolidator for the editorial rewrite, then close"
             ),
+            "invitation": (
+                "after editorial completion, run prepare-invitation and launch its "
+                "fresh Luna max handoff as a monitored invitation stage"
+            ),
             "post_launch_gates": [],
         },
         "generated_files": [
@@ -2362,6 +2424,19 @@ def _parser() -> argparse.ArgumentParser:
         help="Explicit comma-separated external ayat; ranges are not accepted.",
     )
     _source_options(prepare_parser)
+    invitation_parser = subparsers.add_parser(
+        "prepare-invitation",
+        help="Render fresh-agent invitation prompts from completed editorial prose.",
+    )
+    invitation_parser.add_argument(
+        "--ayah",
+        action="extend",
+        nargs="+",
+        required=True,
+        metavar="REF_OR_RANGE",
+        help="One or more refs or same-surah ranges; may be repeated.",
+    )
+    invitation_parser.add_argument("--analysis-id", default="native")
     return parser
 
 
@@ -2496,6 +2571,31 @@ def _preflight_qac(args: argparse.Namespace) -> None:
 def main() -> int:
     args = _parser().parse_args()
     try:
+        if args.command == "prepare-invitation":
+            refs = _expand_ayah_selectors(args.ayah)
+            units: list[dict[str, Any]] = []
+            errors = 0
+            for ref in refs:
+                try:
+                    units.append(
+                        prepare_invitation(
+                            argparse.Namespace(ayah=ref, analysis_id=args.analysis_id)
+                        )
+                    )
+                except (WorkflowError, OSError) as exc:
+                    errors += 1
+                    units.append({"ayah_ref": ref, "status": "error", "error": str(exc)})
+            result = units[0] if len(units) == 1 else {
+                "schema_version": "commentary-v5-invitation-prepared-batch-v1",
+                "status": "prepared" if not errors else "error",
+                "units": units,
+                "parallel_handoffs": [
+                    unit["handoff"] | {"ayah_ref": unit["ayah_ref"]}
+                    for unit in units if unit.get("status") == "prepared"
+                ] if not errors else [],
+            }
+            print(json.dumps(result, ensure_ascii=False, indent=2, sort_keys=True))
+            return 1 if errors else 0
         refs, composition = _resolve_request(args)
         _preflight_qac(args)
         if len(refs) == 1:

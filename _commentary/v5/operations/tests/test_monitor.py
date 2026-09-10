@@ -407,6 +407,60 @@ class EventAndTaskTests(unittest.TestCase):
         self.assertEqual("passed", task["stages"]["validator"]["status"])
         self.assertEqual("completed", task["status"])
 
+    def test_new_run_waits_for_required_invitation(self):
+        self.registration["invitation_required"] = True
+        editorial = (
+            self.v5 / "editorial" / "native" / "s029" / "29_38"
+            / "29_38.prose.editorial.tr.md"
+        )
+        editorial.parent.mkdir(parents=True, exist_ok=True)
+        editorial.write_text("editorial", encoding="utf-8")
+        monitor._append_jsonl(
+            monitor.event_path(self.registration, "29:38", "canonical", None, 1),
+            {
+                "event": "completed",
+                "at": "2026-09-04T13:00:00Z",
+                "role": "canonical",
+                "lane": None,
+                "attempt": 1,
+                "agent_id": "agent-c",
+            },
+        )
+
+        task, _artifacts = monitor.build_task(self.registration, "29:38")
+
+        self.assertEqual("passed", task["stages"]["validator"]["status"])
+        self.assertEqual("pending", task["stages"]["invitation"]["status"])
+        self.assertEqual("active", task["status"])
+
+    def test_required_invitation_completion_finishes_task(self):
+        self.registration["invitation_required"] = True
+        editorial_dir = self.v5 / "editorial" / "native" / "s029" / "29_38"
+        editorial_dir.mkdir(parents=True, exist_ok=True)
+        (editorial_dir / "29_38.prose.editorial.tr.md").write_text(
+            "editorial", encoding="utf-8"
+        )
+        invitation = editorial_dir / "29_38.invitation.tr.md"
+        invitation.write_text("invitation", encoding="utf-8")
+        for role, agent_id in (("canonical", "agent-c"), ("invitation", "agent-i")):
+            monitor._append_jsonl(
+                monitor.event_path(self.registration, "29:38", role, None, 1),
+                {
+                    "event": "completed",
+                    "at": "2026-09-04T13:00:00Z",
+                    "role": role,
+                    "lane": None,
+                    "attempt": 1,
+                    "agent_id": agent_id,
+                },
+            )
+
+        task, artifacts = monitor.build_task(self.registration, "29:38")
+
+        self.assertEqual("completed", task["stages"]["invitation"]["status"])
+        self.assertEqual("completed", task["status"])
+        self.assertIn("invitation", {item["kind"] for item in artifacts})
+
     def test_editorial_artifact_without_event_does_not_imply_validation(self):
         artifact = (
             self.v5

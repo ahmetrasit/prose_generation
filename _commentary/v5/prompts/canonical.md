@@ -74,18 +74,22 @@ to a reader without requiring the reader to consult a ledger.
 - Write fluent Turkish reader prose, not a lane report or technical ledger.
 - Every resonance must preserve the ordinary reading intact and keep it
   recoverable in the same explanation; a latent reading cannot replace it.
-- Choose a reading order that lets attention develop through the supplied
-  material. Identify what the reader attends to when a passage begins, what
-  changes within it, and what that change makes available next. Continuity may
-  be spatial, temporal, grammatical, dialogical, causal, auditory, visual,
-  material, or conceptual. Use the kind of movement the supplied material
-  supports.
-- Where the inputs support continuity, carry an already perceptible object,
-  action, sound, grammatical relation, speaker, material process, temporal
-  condition, cause, contrast, or question into the next movement. Where they do
-  not, make a deliberate and intelligible cut by naming the change of scale,
-  time, speaker, question, or perspective. Never invent a bridge merely to make
-  the prose appear seamless.
+- Build the reading order before polishing sentences or choosing headings.
+  Privately identify what each paragraph contributes beyond what the reader
+  already understands: a perceptible detail, a developing relation, a changed
+  consequence, a contrast, or a necessary qualification. Rework paragraphs
+  that only preview later explanations, report that connections exist, or
+  restart an established conclusion. Move every unique contribution intact
+  into the developing explanation; do not obtain momentum by deleting or
+  condensing it.
+- Read each paragraph's closing together with the next opening, including
+  across headings. Carry forward something specifically established—an object,
+  action, sound, grammatical relation, material process, temporal condition,
+  speaker, tension, or question—and show what changes next. Where supported
+  continuity is absent, identify the new question, perspective, or scale
+  honestly. A heading, a change of carrier, or "another use" does not itself
+  establish a transition. Repair the passages themselves, not only their
+  connecting phrase.
 - Complete every contextual excursion by showing what it changes, clarifies,
   complicates, or leaves open in the focus reading. Do not leave the reader in
   a supporting passage and begin an unrelated movement from there.
@@ -93,6 +97,14 @@ to a reader without requiring the reader to consult a ledger.
   that makes their interaction intelligible. Let the composite image emerge
   from those operations before naming its interpretive result. Do not announce
   a general conclusion and then list its supports.
+- An inventory of contributions followed by a statement that they are distinct
+  does not construct their interaction. Let the reader follow what each
+  contribution enables, changes, obstructs, answers, or qualifies. If a
+  paragraph contains more operations than the reader can follow, redistribute
+  its complete explanations across connected paragraphs; do not reduce them to
+  named results. Place each necessary qualification beside the operation it
+  limits, before, within, or after it as clarity requires. Preserve its full
+  force without routinely making it the paragraph's final gesture.
 - Narrative fluency must preserve semantic accountability in full. Several
   movements may share a passage when their sources, operations, interactions,
   changed readings, concrete details, and limits remain distinguishable. A
@@ -118,9 +130,14 @@ to a reader without requiring the reader to consult a ledger.
   paragraph-local. A tag in an earlier paragraph does not cover a later
   paragraph. Repeated tags are required when the same Arabic item does
   interpretive work again in a new paragraph, because downstream TTS and reader
-  masking depend on paragraph-local tags. Do not deduplicate tags, reduce
-  later paragraph tags, replace them with plain Arabic/transliteration, add QAC
-  IDs, or invent another tag format.
+  masking depend on paragraph-local tags. Do not remove a tag while its Arabic
+  item still does interpretive work in that paragraph. When a complete
+  explanation moves or a genuinely redundant passage is removed, rebuild the
+  affected paragraphs' tags around the surviving explanations; original tag
+  occurrences are not independently preserved content. Every required
+  paragraph-local anchor must remain in the established syntax. Do not replace
+  tags with plain Arabic/transliteration, add QAC IDs, or invent another tag
+  format.
 - Use one consistent Turkish-readable transliteration for an identical Arabic
   surface. Preserve distinctions that arise from genuinely different Arabic
   forms or readings. Keep tag glosses short and ordinary; put lexical
@@ -142,6 +159,11 @@ to a reader without requiring the reader to consult a ledger.
   members. Contextual resonance must not be presented as lexical meaning.
 - Keep counter-readings visible without verdict or rank. Do not turn lane order
   into evidentiary rank.
+- Do not add a closing recap, overview, or inventory, even when all findings
+  already appear in the body. End by completing the last consequential
+  movement. If a closing paragraph would contain unique information, move that
+  information into the explanation that needs it. Do not replace the closing
+  recap with a shorter inventory.
 
 ## Output
 
