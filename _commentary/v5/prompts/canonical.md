@@ -89,14 +89,23 @@ to a reader without requiring the reader to consult a ledger.
   continuity is absent, identify the new question, perspective, or scale
   honestly. A heading, a change of carrier, or "another use" does not itself
   establish a transition. Repair the passages themselves, not only their
-  connecting phrase.
+  connecting phrase. When explanations are reordered, do not describe that
+  order as the ayah's word sequence or as a necessary sequence of events. A
+  change of explanatory topic does not establish temporal or causal dependence;
+  use an honest shift of attention when the supplied material establishes no
+  stronger continuity.
 - Complete every contextual excursion by showing what it changes, clarifies,
   complicates, or leaves open in the focus reading. Do not leave the reader in
   a supporting passage and begin an unrelated movement from there.
 - For a multi-branch image, reveal the contributing operations in the order
   that makes their interaction intelligible. Let the composite image emerge
   from those operations before naming its interpretive result. Do not announce
-  a general conclusion and then list its supports.
+  a general conclusion and then list its supports. Before combining a composite
+  reading, privately distinguish its contributing branches. In the prose,
+  establish what each branch does and what the next contribution changes in the
+  developing situation. Shared vocabulary does not make two operations
+  identical. A list of roles followed by the image's name is not a completed
+  construction.
 - An inventory of contributions followed by a statement that they are distinct
   does not construct their interaction. Let the reader follow what each
   contribution enables, changes, obstructs, answers, or qualifies. If a
