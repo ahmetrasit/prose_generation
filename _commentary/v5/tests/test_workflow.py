@@ -211,6 +211,22 @@ class CliSurfaceTests(unittest.TestCase):
         )
         self.assertNotIn("_discovery_json>", template)
 
+    def test_invitation_template_uses_editorial_prose_as_sole_source(self) -> None:
+        template = (workflow.PROMPTS_ROOT / "invitation.md").read_text(
+            encoding="utf-8"
+        )
+        self.assertEqual(
+            set(workflow.MARKER_RE.findall(template)),
+            {
+                "@@AYAH_REF@@",
+                "@@EDITORIAL_PROSE@@",
+                "@@INVITATION_OUTPUT_PATH@@",
+            },
+        )
+        self.assertIn("sole semantic source", template)
+        self.assertNotIn("@@MICRO_SCOPE_LEDGER@@", template)
+        self.assertNotIn("@@CANONICAL_PROMPT_V2@@", template)
+
 
 class ContextEvidenceTests(unittest.TestCase):
     def test_external_overlay_procedure_is_macro_only(self) -> None:

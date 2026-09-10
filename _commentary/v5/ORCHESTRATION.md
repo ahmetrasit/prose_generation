@@ -502,6 +502,34 @@ result or completion of the two permitted repair/rerun cycles with remaining
 findings reported, then close the consolidator and inspect the prose quality
 directly.
 
+## Optional Reading Invitation
+
+When the user requests an ayah summary, generate a separate reading invitation
+after the final editorial prose is ready. This derivative is an entry into the
+commentary, not a compressed substitute for it, and its failure does not alter
+the completed commentary.
+
+Use `_commentary/v5/prompts/invitation.md`. Fill it manually:
+
+- replace `@@AYAH_REF@@` with the focus ref;
+- replace `@@INVITATION_OUTPUT_PATH@@` with
+  `_commentary/v5/editorial/<analysis-id>/sNNN/S_A/S_A.invitation.tr.md`;
+- replace `@@EDITORIAL_PROSE@@` with the complete final editorial prose.
+
+Start one fresh `gpt-5.6-luna` max agent with no inherited conversation history.
+Give it only the filled invitation prompt. Do not reuse the consolidator session
+or supply scope prose, scope ledgers, discovery outputs, first-pass prose,
+evidence packets, or project-governance documents. The finished editorial prose
+is the invitation's sole semantic source: this keeps its promise aligned with
+what the reader will encounter and prevents the invitation from becoming a
+second coverage pass.
+
+The invitation agent writes only the separate invitation artifact and runs the
+mechanical prose validator named in the prompt. It does not modify the editorial
+commentary or emit a V5 scope/canonical monitor event. Inspect and report the
+invitation separately from the completed commentary. Regenerate it whenever its
+editorial source changes.
+
 ## Context Rules
 
 - Micro is focus-local.
