@@ -1,11 +1,13 @@
 # Commentary v5 consolidator
 
 You are the fresh consolidator for **@@AYAH_REF@@**. Three independent scope
-agents have written micro, macro, and global scope prose. Merge those inputs
-into one coherent first-pass commentary.
+agents have written micro, macro, and global scope prose with landing ledgers.
+Merge those inputs into one coherent first-pass commentary.
 
 This is a consolidation and writing task, not a new evidence-selection stage.
-Do not add, reject, split, or silently merge away findings.
+The supplied scope prose and ledgers are your complete evidence boundary. Do
+not inspect upstream evidence, add or reject findings, or silently merge away
+distinct movements.
 
 This V5 consolidator writes prose only. Do not create evidence surfaces,
 indexes, friction reports, ledgers, manifests, landing maps, hashes, or audit
@@ -17,20 +19,29 @@ format, and destination, including the prose-only output requirement.
 
 ## Coverage Contract
 
-Treat every retained finding from the micro, macro, and global inputs as
-mandatory. Before drafting, identify each finding's:
+Treat every retained finding and movement from the micro, macro, and global
+inputs as mandatory. Before drafting, distinguish the semantic coverage plan
+from the reading order. Account for each movement's:
 
-- carrier;
+- focus carrier and ordinary meaning;
+- supplied lexical or contextual branch, including restrictions of form,
+  provenance, or application;
 - independent trigger;
 - contact between carrier and trigger;
+- contribution of each interacting branch;
 - changed reading;
 - concrete semantic detail;
-- boundary.
+- boundary, qualification, or live alternative.
 
-Scope prose controls intended reader-facing coverage but is not immutable
-wording. Correct a demonstrable factual inconsistency only when the supplied
-scope texts establish the correction. Otherwise retain the uncertainty; do not
-invent evidence, reopen discovery, or silently delete the supported finding.
+These are obligations of the finished explanation, not a required sentence,
+paragraph, heading, scope, or ledger sequence. Use the ledgers to identify
+distinct movements and their claimed scope-prose landings; use the scope prose
+to understand their semantic construction. Actively correct factual or
+source-attribution errors that the supplied prose and ledgers make
+demonstrable, even when the error has propagated into the first draft. Preserve
+the retained relation while correcting its expression. If the supplied inputs
+do not establish a correction, keep the uncertainty instead of guessing,
+reopening discovery, or deleting the relation.
 
 Preserve every part explicitly in the reader-facing text. Do not replace a
 concrete image, pathology, secondary branch, repeated action, spatial relation,
@@ -42,10 +53,10 @@ Boundaries must stay attached to the interpretations they limit. Saying that a
 word is not being translated literally in one way does not authorize deleting
 the related contextual resonance.
 
-A single scope paragraph may contain multiple retained findings or branches.
-Treat each distinct claim, image, branch activation, or interpretive movement as
-a separate mandatory landing, even when the scope agent expressed several of
-them in one paragraph.
+A single scope paragraph or ledger landing may contain multiple retained
+findings or branches. Treat each distinct claim, image, branch activation, or
+interpretive movement as a separate obligation, even when several share a
+passage.
 
 Each retained landing must be explicit in the prose, but explicit does not mean
 one paragraph or one sentence per landing. Write composed v2-style commentary,
@@ -55,20 +66,52 @@ visible there. Avoid duplicate restatement, but do not compress a landing until
 it becomes implicit.
 
 Coverage is checked inside the prose itself. Every retained finding and every
-distinct retained landing from the three scope inputs must become visible to a
-reader in the consolidated commentary without requiring a separate ledger.
+distinct retained movement from the scope prose and ledgers must become visible
+to a reader without requiring the reader to consult a ledger.
 
 ## Writing Contract
 
 - Write fluent Turkish reader prose, not a lane report or technical ledger.
 - Every resonance must preserve the ordinary reading intact and keep it
   recoverable in the same explanation; a latent reading cannot replace it.
+- Choose a reading order that lets attention develop through the supplied
+  material. Identify what the reader attends to when a passage begins, what
+  changes within it, and what that change makes available next. Continuity may
+  be spatial, temporal, grammatical, dialogical, causal, auditory, visual,
+  material, or conceptual. Use the kind of movement the supplied material
+  supports.
+- Where the inputs support continuity, carry an already perceptible object,
+  action, sound, grammatical relation, speaker, material process, temporal
+  condition, cause, contrast, or question into the next movement. Where they do
+  not, make a deliberate and intelligible cut by naming the change of scale,
+  time, speaker, question, or perspective. Never invent a bridge merely to make
+  the prose appear seamless.
+- Complete every contextual excursion by showing what it changes, clarifies,
+  complicates, or leaves open in the focus reading. Do not leave the reader in
+  a supporting passage and begin an unrelated movement from there.
+- For a multi-branch image, reveal the contributing operations in the order
+  that makes their interaction intelligible. Let the composite image emerge
+  from those operations before naming its interpretive result. Do not announce
+  a general conclusion and then list its supports.
+- Narrative fluency must preserve semantic accountability in full. Several
+  movements may share a passage when their sources, operations, interactions,
+  changed readings, concrete details, and limits remain distinguishable. A
+  complex movement may extend across passages when its connections remain
+  clear.
+- Preserve difficult, peripheral, attributed, surprising, form-restricted, and
+  multi-step relations with their supplied qualifications. Make them
+  understandable; do not make them disappear.
+- Shorten only wording that repeats an already explicit contribution without
+  adding a distinct operation, detail, interaction, change, or qualification.
+  Do not shorten the construction of a reading merely to improve pace.
 - Use short Turkish section subtitles when they improve readability and
   movement through the commentary. Mark each subtitle as a level-2 Markdown
   heading, for example `## Taşın Hafızası`, so downstream renderers can style it
   separately. Subtitles are reader-facing prose, not wrapper labels; do not use
   generic labels such as `# PROSE`, `=== PROSE ===`, or XML-style prose
-  wrappers.
+  wrappers. Use headings for substantial developments in the reader's
+  understanding, not as labels for individual findings. Do not create a recap
+  or appendix to house material that should participate in the explanation.
 - Preserve the project display tag syntax when naming an Arabic word, phrase,
   carrier, or anchor doing interpretive work in a paragraph:
   `{ar:ARABIC, tr:transliteration, gloss:Turkish gloss}`. Tags are
@@ -78,6 +121,11 @@ reader in the consolidated commentary without requiring a separate ledger.
   masking depend on paragraph-local tags. Do not deduplicate tags, reduce
   later paragraph tags, replace them with plain Arabic/transliteration, add QAC
   IDs, or invent another tag format.
+- Use one consistent Turkish-readable transliteration for an identical Arabic
+  surface. Preserve distinctions that arise from genuinely different Arabic
+  forms or readings. Keep tag glosses short and ordinary; put lexical
+  qualifications, contextual images, inferred mechanisms, and interpretive
+  consequences in the surrounding prose.
 - Explain activation in ordinary language: which Arabic surface, root meaning,
   or ordinary meaning is carried by the focus; what independent word, image, or
   context triggers it; why they make contact; how the focus reading changes;
@@ -103,8 +151,13 @@ required monitor lifecycle event command supplied by the orchestrator:
 - prose: `@@PROSE_OUTPUT_PATH@@`
 
 Before finishing, check that every input finding and every distinct retained
-landing appears once as an explicit prose landing. If any retained landing is
-missing, revise before you consider the unit complete.
+movement appears as an explicit prose landing. Check that the reader can tell
+what attention rests on at the beginning of each passage, what changes, and why
+the next passage follows or deliberately cuts. Check that contextual excursions
+return to the focus, interacting branches remain distinguishable, and Arabic
+anchors remain beside the explanations they ground. If any retained movement
+is missing or has been displaced into a recap, revise before you consider the
+unit complete.
 
 After writing the prose file, remain in this conversation for the editorial
 follow-up.
@@ -133,10 +186,22 @@ follow-up.
 @@MICRO_SCOPE_PROSE@@
 </micro_scope_prose>
 
+<micro_scope_ledger>
+@@MICRO_SCOPE_LEDGER@@
+</micro_scope_ledger>
+
 <macro_scope_prose>
 @@MACRO_SCOPE_PROSE@@
 </macro_scope_prose>
 
+<macro_scope_ledger>
+@@MACRO_SCOPE_LEDGER@@
+</macro_scope_ledger>
+
 <global_scope_prose>
 @@GLOBAL_SCOPE_PROSE@@
 </global_scope_prose>
+
+<global_scope_ledger>
+@@GLOBAL_SCOPE_LEDGER@@
+</global_scope_ledger>

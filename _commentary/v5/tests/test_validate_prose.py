@@ -73,6 +73,20 @@ class ValidateProseTests(unittest.TestCase):
         self.assertEqual(codes("# PROSE\n\nGeçerli Türkçe düzyazı.\n"), ["wrapper_label"])
         self.assertIn("no_renderable_prose", codes("## Taşın Hafızası\n"))
 
+    def test_rejects_heading_without_blank_line_separation(self) -> None:
+        self.assertEqual(
+            codes("Önceki paragraf.\n## Yeni Bakış\nSonraki paragraf.\n"),
+            ["heading_spacing", "heading_spacing"],
+        )
+
+    def test_rejects_mixed_transliteration_for_identical_arabic_surface(self) -> None:
+        text = (
+            "{ar:ٱلسَّبِيلِ, tr:es-sebîl, gloss:yol} burada açılır.\n\n"
+            "{ar:ٱلسَّبِيلِ, tr:as-sabīl, gloss:yol} burada kapanır.\n"
+        )
+
+        self.assertEqual(codes(text), ["inconsistent_transliteration"])
+
     def test_rejects_arabic_outside_tag(self) -> None:
         self.assertEqual(codes("Bu ٱلسَّبِيلِ etiketsizdir.\n"), ["arabic_outside_tag"])
         self.assertEqual(codes("Bu ﷲ etiketsizdir.\n"), ["arabic_outside_tag"])

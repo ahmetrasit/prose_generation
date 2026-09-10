@@ -1,0 +1,2415 @@
+{
+  "schema_version": "commentary-v5-scope-discovery-v1",
+  "ayah_ref": "29:38",
+  "lane": "global",
+  "coverage_complete": true,
+  "candidate_decisions": [
+    {
+      "candidate_id": "cand_3bc56997b4f3d1787b11",
+      "decision": "accept",
+      "reason": "Güvenilir yayımlanmış bulgu, yurt kanıtı, iç kavrayış, süslenmiş iş ve yoldan alıkoymayı aynı odak mekanizmasında kuruyor.",
+      "finding_refs": [
+        "global:visible-evidence-evaluative-blockage"
+      ],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_029f6cac1f2d21898055",
+      "decision": "accept",
+      "reason": "Odak yürüyüşü süslenmiş işin mevcut görme kapasitesi ile yol arasına alıkoyucu bir engel koyduğunu açıkça bağlıyor.",
+      "finding_refs": [
+        "global:decorated-sight-blockage"
+      ],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_92731051cd9e27e99bcf",
+      "decision": "reject",
+      "reason": "Retrospektif kayıt, 29:41-43 için odak kelimesine dönen bağımsız taşıyıcı ve tetikleyici vermiyor; iddia başka kayıtlarda somutlaştırılmadıkça global bulgu kurmuyor.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [
+        {
+          "context_ref": "29:41",
+          "reason": "Kayıt ayat aralığını anıyor fakat exact taşıyıcı veya tetikleyici koordinatı vermiyor."
+        },
+        {
+          "context_ref": "29:42",
+          "reason": "Kayıt ayat aralığını anıyor fakat exact taşıyıcı veya tetikleyici koordinatı vermiyor."
+        },
+        {
+          "context_ref": "29:43",
+          "reason": "Kayıt ayat aralığını anıyor fakat exact taşıyıcı veya tetikleyici koordinatı vermiyor."
+        }
+      ],
+      "semantic_obligation_exclusions": [
+        {
+          "obligation_ref": "obl_9e8c03676ba3283a09a8",
+          "reason": "Destek metni bağlanmamış bir retrospektif özet; bağımsız carrier-trigger-fokus dönüşü kurulmadığı için taşınmıyor."
+        }
+      ]
+    },
+    {
+      "candidate_id": "cand_05ceb0391bfa78b1bd57",
+      "decision": "accept",
+      "reason": "Geniş yürüyüş, yurtların açıklığı ile iç kavrayışı odak yüzeyinde birbirine bağlayarak kanıtın görülebilir fakat yönü belirlemeye yetmeyen niteliğini kuruyor.",
+      "finding_refs": [
+        "global:dwellings-inner-sight"
+      ],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_012aa490468209c9ba9f",
+      "decision": "accept",
+      "reason": "Geniş yürüyüş, güzelleştirme, fail, bilinçli iş, alıkoyma ve yolu tek bir değerlendirme mekanizmasında açıkça birleştiriyor.",
+      "finding_refs": [
+        "global:adorned-work-evaluation"
+      ],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_ffbcbe8292074b9be873",
+      "decision": "reject",
+      "reason": "Retrospektif not 29:61'i yalnızca uzak bir doğrulama olarak anıyor; odak yüzeyine dönen bağımsız carrier-trigger ilişkisi kurmuyor.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [
+        {
+          "context_ref": "29:61",
+          "reason": "Kayıt bağlam ayatını anıyor fakat exact taşıyıcı ve odak dönüş koordinatı vermiyor."
+        }
+      ],
+      "semantic_obligation_exclusions": [
+        {
+          "obligation_ref": "obl_a13fb9a2479392f2182f",
+          "reason": "Bağlanmamış retrospektif not, kendi başına değişmiş bir global okuma sağlamıyor."
+        }
+      ]
+    },
+    {
+      "candidate_id": "cand_164728c5d0819990bd37",
+      "decision": "reject",
+      "reason": "Belirsizlik kaydı yalnızca مُسْتَبْصِرِينَ için olası anlamları açık bırakıyor; bağımsız tetikleyici, mekanizma ve odak dönüşü içermiyor.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": [
+        {
+          "obligation_ref": "obl_1bfb1cb20d7ec3038647",
+          "reason": "Tek başına belirsizlik notu, exact activation trace ve değişmiş okuma vermiyor."
+        }
+      ]
+    },
+    {
+      "candidate_id": "cand_a09ff26fc7469fadf112",
+      "decision": "reject",
+      "reason": "Süslemeden sosyal bağ ve yol kesmeye uzanan nedensellik ayrı HFT kayıtlarında exact izlerle inceleniyor; bu bağlanmamış özet kendi başına taşıyıcı ve tetikleyici sağlamıyor.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": [
+        {
+          "obligation_ref": "obl_0107e678b7d9f22adfc5",
+          "reason": "Bağlanmamış nedensellik özeti, ayrı trace kayıtlarının yerine geçirilmiyor."
+        }
+      ]
+    },
+    {
+      "candidate_id": "cand_49c0ee7683fa531b82a5",
+      "decision": "reject",
+      "reason": "Webbed-path ve counted-ledger ifadeleri için paket lexical carrier veya bağımsız trigger sunmuyor; destek metni bunları branch resonance olarak sınırlıyor.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": [
+        {
+          "obligation_ref": "obl_4d2bc8499db5d659de52",
+          "reason": "Destek metni açıkça yalnızca branch resonance sınırı koyuyor; yayınlanabilir global bulguya dönüşmüyor."
+        }
+      ]
+    },
+    {
+      "candidate_id": "cand_b9670a0364a325c0bdc3",
+      "decision": "reject",
+      "reason": "Nonconversion özeti, iç işaret, bilgi, doğru söz ve sapma ilişkisini ayrı exact trace adayında taşıyor; kendi HFT özetinde carrier ve trigger koordinatları yok.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": [
+        {
+          "obligation_ref": "obl_8c832996d80e29853b51",
+          "reason": "Bağlanmamış toplu özet, exact HFT activation trace yerine geçirilmiyor."
+        }
+      ]
+    },
+    {
+      "candidate_id": "cand_8e5bb7c83a6252372acc",
+      "decision": "reject",
+      "reason": "Sosyal güzelleştirme ve kamusal normalleşme ilişkisi ayrı exact HFT trace adayında mevcut; bu özet bağımsız carrier-trigger dönüşü vermiyor.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": [
+        {
+          "obligation_ref": "obl_d9c1619770ecea3a6840",
+          "reason": "Özet, ayrı sosyalized-obstruction trace kaydını tekrar ediyor fakat kendi exact trace'i yok."
+        }
+      ]
+    },
+    {
+      "candidate_id": "cand_a109ebb6dd938c02de4d",
+      "decision": "reject",
+      "reason": "Yurtların saha kanıtı ve güvenlik mimarisi iddiası ayrı exact HFT trace adayında inceleniyor; bağlanmamış özet kendi başına aktivasyon kurmuyor.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": [
+        {
+          "obligation_ref": "obl_23f61b3706b9889d0510",
+          "reason": "Özet, exact carrier ve trigger koordinatları olmadan yayınlanabilir bulgu sağlamıyor."
+        }
+      ]
+    },
+    {
+      "candidate_id": "cand_da1e3a1dbde3882b4cb7",
+      "decision": "reject",
+      "reason": "Eylem düzeyindeki karşı mekanizmalar ayrı HFT trace kayıtlarında korunuyor; bağlanmamış özet kendi başına focus return vermiyor.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": [
+        {
+          "obligation_ref": "obl_edbb3349f8ec7e173cae",
+          "reason": "Birden çok ayrı delta'yı tek bir özet iddiada topluyor; exact trace'ler ayrı ayrı korunmuştur."
+        }
+      ]
+    },
+    {
+      "candidate_id": "cand_23dbd9d5b8a7d6b9a45c",
+      "decision": "reject",
+      "reason": "Özel olanın ne olduğuna dair özet, kendi başına taşıyıcı, tetikleyici ve değişmiş okuma sunmuyor; bileşenleri ayrı retained bulgularda değerlendiriliyor.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": [
+        {
+          "obligation_ref": "obl_04f4af7ac92332677031",
+          "reason": "Bağlanmamış genel özet, exact activation trace kurmadığı için taşınmıyor."
+        }
+      ]
+    },
+    {
+      "candidate_id": "cand_2eba703117e453f48de4",
+      "decision": "accept",
+      "reason": "Exact HFT trace 29:2-4'teki sınama, doğrulama, iş ve hüküm kayıtlarını مُسْتَبْصِرِينَ yüzeyine geri bağlıyor; legacy_unbound niteliği korunarak kabul edilebilir.",
+      "finding_refs": [
+        "global:discernment-under-assay"
+      ],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_3da929e6a62922e844d9",
+      "decision": "accept",
+      "reason": "Exact HFT trace 29:12-13'teki takip, rakip yol ve yük aktarımı vaadini odaktaki alıkoyma ve yol ile temas ettiriyor.",
+      "finding_refs": [
+        "global:rival-route-burden-transfer"
+      ],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_c8da6ae730c2e7bb770d",
+      "decision": "accept",
+      "reason": "Exact HFT trace 29:17, 25 ve 29'da üretilmiş yanlış değer, bağ, meclis ve yol kesmeyi odaktaki güzelleştirme ve alıkoymaya geri bağlıyor.",
+      "finding_refs": [
+        "global:socialized-obstruction"
+      ],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_0d0a8651cf8736a990ff",
+      "decision": "accept",
+      "reason": "Exact HFT trace 29:19-20 ve 29:35'te hareket, bakış, kalan iz ve akıl; odaktaki belirginleşen yurtları field evidence olarak niteliyor.",
+      "finding_refs": [
+        "global:dwellings-as-field-evidence"
+      ],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_18fd8cc8b4fefc8c9168",
+      "decision": "accept",
+      "reason": "Exact HFT trace 29:45'teki tekrarlı uygulama ve engelleme ilişkisini odaktaki güzelleştirilmiş iş düzeyine döndürüyor; orta güven açıkça qualified/exploratory tutuluyor.",
+      "finding_refs": [
+        "global:embodied-inhibition"
+      ],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_eff6f2741bc0415655e9",
+      "decision": "accept",
+      "reason": "Exact HFT trace 29:47-49 ve 29:61-63, iç işaret ve doğru sözün inkâr, yön değişimi ve düşünmeme ile birlikte bulunabildiğini odak kavrayışına geri bağlıyor.",
+      "finding_refs": [
+        "global:nonbinding-knowledge"
+      ],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_2e491022b5747ed267d7",
+      "decision": "accept",
+      "reason": "Exact HFT trace 29:64-65, güzelleştirilmiş çekimin kriz ve kurtuluşla değişen davranış etkisini odaktaki güzelleştirme ve olma haliyle ilişkilendiriyor.",
+      "finding_refs": [
+        "global:state-dependent-salience"
+      ],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_21f509a01c539ee2988d",
+      "decision": "accept",
+      "reason": "Exact HFT trace 29:67, görme, güvenlik, çevresel tehdit ve yanlış güven nesnesini odaktaki iç kavrayışa döndürüyor; alternatif kelime oyunu sınırı korunuyor.",
+      "finding_refs": [
+        "global:security-belief-collision"
+      ],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_f2ec08c088717523861f",
+      "decision": "accept",
+      "reason": "Exact HFT trace 29:69, çaba, yönlendirme ve çoğul yolları odaktaki alıkoyma ve tekil yol ile karşılaştırmalı bir eylemli karşılık olarak kuruyor.",
+      "finding_refs": [
+        "global:effort-opens-paths"
+      ],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    }
+  ],
+  "findings": [
+    {
+      "finding_ref": "global:visible-evidence-evaluative-blockage",
+      "origin_candidate_id": "cand_3bc56997b4f3d1787b11",
+      "represented_candidate_ids": [],
+      "title": "Görünür kanıt ile değerlendirmeyi kaplayan süsleme",
+      "claim": "Yurtların görünür kanıtı ve iç kavrayış mevcutken, süslenmiş işler değerlendirmeyi kendi üzerine çekerek kanıt ile yol arasına bir engel yerleştirir.",
+      "mechanism": "تَبَيَّنَ ile belirginleşen yurt kanıtı ve مُسْتَبْصِرِينَ ile belirtilen iç kavrayış, زَيَّنَ ile çekici gösterilen işler ve صَدَّ ile kurulan alıkoyma ilişkisine bağlanır.",
+      "reader_payoff": "Saptırma, kanıt yokluğundan çok kanıtın değerlendirilmesini kaplayan bir ara engel olarak görünür.",
+      "containment": "Odaktaki işlerin değerlendirme üzerindeki engelleyici etkisini taşır; bütün görme veya bütün yollar hakkında tek bir hüküm kurmaz.",
+      "epistemic": {
+        "status": "grounded",
+        "source_trust": [
+          "trusted"
+        ],
+        "reason": "Paketteki güvenilir yayımlanmış bulgu, dört odak taşıyıcısını aynı mekanizma içinde açıkça birleştiriyor."
+      },
+      "support_ids": [
+        "sup_3e1351fa35815a1bbc9f"
+      ],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000170/B004",
+          "facet_id": "F003",
+          "branch_gloss": "açığa çıkıp belirginleşme",
+          "facet_statement": "Açık kanıt, açık işaret veya belirgin belge olarak adlaşmış kullanımı vardır.",
+          "application_mode": "intrinsic_cross_root",
+          "carrier_refs": [
+            "29:38:4:1"
+          ],
+          "trigger_refs": [
+            "29:38:7:1"
+          ],
+          "focus_return_refs": [
+            "29:38:4:1"
+          ],
+          "carrier": "تَبَيَّنَ, yurtlardan çıkan görünür kanıtı taşır.",
+          "independent_trigger": "مَسَاكِنِهِمْ, kanıtın maddi kaynağını verir.",
+          "activation": "Belirginleşen kanıt, yurtların maddi iziyle buluşunca değerlendirmeye sunulmuş bir saha verisine dönüşür.",
+          "resulting_reading": "Yurtlar, okunabilir bir kanıt yüzeyi olarak görünür.",
+          "boundary": "Yurtların tarihsel kanıt oluşu korunur; başka açık kanıt türleri bu bulguya eklenmez."
+        },
+        {
+          "branch_ref": "root_000660/B002",
+          "facet_id": "F001",
+          "branch_gloss": "güzelleştirme ve güzelliğini görünür kılma",
+          "facet_statement": "Bir şey güzelleştirilir veya onda bulunan güzellik eylem ya da söz yoluyla görünür hale getirilir.",
+          "application_mode": "intrinsic_cross_root",
+          "carrier_refs": [
+            "29:38:8:2"
+          ],
+          "trigger_refs": [
+            "29:38:16:1"
+          ],
+          "focus_return_refs": [
+            "29:38:8:2"
+          ],
+          "carrier": "زَيَّنَ, işlerin çekici bir görünüşe büründürülmesini taşır.",
+          "independent_trigger": "مُسْتَبْصِرِينَ, çekiciliğin karşısında mevcut iç kavrayışı taşır.",
+          "activation": "Güzelleştirme ile kavrayış yan yana geldiğinde, çekici görünüşün değerlendirmeyi yönlendiren bir yüzey olduğu belirir.",
+          "resulting_reading": "İşlerin güzelleştirilmesi, algılanan değeri yönlendiren bir ara işlem olarak görünür.",
+          "boundary": "Güzelleştirme ilişkisi korunur; tüm güzellik deneyimleri saptırma sayılmaz."
+        },
+        {
+          "branch_ref": "root_000121/B002",
+          "facet_id": "F001",
+          "branch_gloss": "iç kavrayış",
+          "facet_statement": "Bir şeyi bilme, kalpte nüfuz eden kavrayış ve doğrulanmış anlayış çekirdektir.",
+          "application_mode": "intrinsic_cross_root",
+          "carrier_refs": [
+            "29:38:16:1"
+          ],
+          "trigger_refs": [
+            "29:38:8:2"
+          ],
+          "focus_return_refs": [
+            "29:38:16:1"
+          ],
+          "carrier": "مُسْتَبْصِرِينَ, iç kavrayış ve doğrulanmış anlayış kapasitesini taşır.",
+          "independent_trigger": "زَيَّنَ, işlerin görünüşte güzelleştirilmesini kurar.",
+          "activation": "İç kavrayış, süslenmiş işlerin değerlendirmeyi kaplamasıyla buluşunca, görme kapasitesi ile yönelişin ayrılabildiği görülür.",
+          "resulting_reading": "Kavrayışın varlığı, yolun izlenmesini kendiliğinden güvenceye almaz.",
+          "boundary": "Kavrayışın mevcut olduğu okuma korunur; kavrayışın her durumda davranışa dönüştüğü iddia edilmez."
+        },
+        {
+          "branch_ref": "root_000848/B001",
+          "facet_id": "F002",
+          "branch_gloss": "yüz çevirme ve alıkoyma",
+          "facet_statement": "Geçişli kullanımda özne, başka bir kişiyi belirli bir işten men eder ve yönünü o işten çevirir.",
+          "application_mode": "intrinsic_cross_root",
+          "carrier_refs": [
+            "29:38:12:2"
+          ],
+          "trigger_refs": [
+            "29:38:8:2",
+            "29:38:14:2"
+          ],
+          "focus_return_refs": [
+            "29:38:12:2"
+          ],
+          "carrier": "صَدَّهُمْ, öznenin başkasını belirli işten men edip yönünü çeviren geçişli alıkoymayı taşır.",
+          "independent_trigger": "زَيَّنَ ve ٱلسَّبِيلِ, çekici iş ile tanınan yolu aynı ardışık yapıda verir.",
+          "activation": "Süsleme fiilinin ardından gelen geçişli alıkoyma, değerlendirmedeki değişimin hareketi yoldan uzaklaştırdığını gösterir.",
+          "resulting_reading": "Süslenmiş iş, kanıt ile tanınan yol arasında yön değiştirici bir engel gibi çalışır.",
+          "boundary": "Geçişli alıkoyma ve yol ilişkisi korunur; fiziksel bir duvar ileri sürülmez."
+        },
+        {
+          "branch_ref": "root_000848/B005",
+          "facet_id": "F002",
+          "branch_gloss": "engel oluşturan dağ",
+          "facet_statement": "Dağın araya girip geçişi veya görüşü kesen bölümü özellikle öne çıkarılabilir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "29:38:12:2"
+          ],
+          "trigger_refs": [
+            "29:38:14:2"
+          ],
+          "focus_return_refs": [
+            "29:38:12:2"
+          ],
+          "carrier": "صَدَّهُمْ yüzeyi, yolun geçişini kesen engel imgesine bağlanabilir.",
+          "independent_trigger": "ٱلسَّبِيلِ, geçilen ve amaca ulaştıran yol imgesini taşır.",
+          "activation": "Yolun adlandırılması, alıkoymayı araya giren bir engel görüntüsüyle duyulur.",
+          "resulting_reading": "Yol ile alıkoyma arasındaki temas, aşılması güç bir engel görüntüsünü açar.",
+          "boundary": "Dağın literal olarak ayette bulunduğu ileri sürülmez; yalnızca engel imgesi korunur."
+        }
+      ],
+      "connection_refs": [],
+      "context_refs": [],
+      "semantic_obligation_refs": [
+        "obl_82d65642da8ea4833452"
+      ]
+    },
+    {
+      "finding_ref": "global:decorated-sight-blockage",
+      "origin_candidate_id": "cand_029f6cac1f2d21898055",
+      "represented_candidate_ids": [],
+      "title": "Süslenmiş bakışın önündeki alıkoyma",
+      "claim": "Görünür sonuç ve iç kavrayış korunurken, süslenmiş işler bakışın hizmet edeceği yönü değiştirerek yolu kapatabilir.",
+      "mechanism": "زَيَّنَ ile çekici gösterilen işler, صَدَّهُمْ ile belirtilen geçişli alıkoymaya bağlanır; مُسْتَبْصِرِينَ ise bu dönüşün körlükten ibaret olmadığını açık tutar.",
+      "reader_payoff": "Okur, görme kapasitesinin mevcut olması ile o kapasitenin hangi yöne hizmet ettiği arasındaki farkı görür.",
+      "containment": "Bu okuma süslemenin odaktaki değerlendirme ve yöneliş üzerindeki işleyişini taşır; her algı veya her süslemeyi aynı sonuca bağlamaz.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": [
+          "legacy_unbound"
+        ],
+        "reason": "Okur yürüyüşü odak kelimelerine dönüyor ve mekanizmayı açıkça kuruyor; kaynak legacy_unbound olarak nitelikli tutuluyor."
+      },
+      "support_ids": [
+        "sup_a77d2794b80076f119e6"
+      ],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000848/B001",
+          "facet_id": "F002",
+          "branch_gloss": "yüz çevirme ve alıkoyma",
+          "facet_statement": "Geçişli kullanımda özne, başka bir kişiyi belirli bir işten men eder ve yönünü o işten çevirir.",
+          "application_mode": "intrinsic_cross_root",
+          "carrier_refs": [
+            "29:38:12:2"
+          ],
+          "trigger_refs": [
+            "29:38:8:2",
+            "29:38:16:1"
+          ],
+          "focus_return_refs": [
+            "29:38:12:2"
+          ],
+          "carrier": "صَدَّهُمْ, başkasının yönünü belirli işten çeviren alıkoymayı taşır.",
+          "independent_trigger": "زَيَّنَ ve مُسْتَبْصِرِينَ, çekici görünüş ile mevcut kavrayışın temasını kurar.",
+          "activation": "Geçişli alıkoyma, süslenmiş değerlendirmenin bakıştan yola giden hareketi kesmesiyle açıklanır.",
+          "resulting_reading": "Süslenmiş işler, görme kapasitesi ile yol arasında işleyen bir engel gibi görünür.",
+          "boundary": "Körlük veya fiziksel duvar ileri sürülmez; değerlendirme ve yöneliş arasındaki engel korunur."
+        },
+        {
+          "branch_ref": "root_000848/B005",
+          "facet_id": "F002",
+          "branch_gloss": "engel oluşturan dağ",
+          "facet_statement": "Dağın araya girip geçişi veya görüşü kesen bölümü özellikle öne çıkarılabilir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "29:38:12:2"
+          ],
+          "trigger_refs": [
+            "29:38:14:2"
+          ],
+          "focus_return_refs": [
+            "29:38:12:2"
+          ],
+          "carrier": "صَدَّهُمْ yüzeyi, yolun geçişini kesen engel imgesine bağlanır.",
+          "independent_trigger": "ٱلسَّبِيلِ, geçilen yolu bağımsız bir temas noktası olarak verir.",
+          "activation": "Alıkoyma ile yol birlikte duyulduğunda, yönelişin önüne geçen sert bir ara engel görüntüsü açılır.",
+          "resulting_reading": "Bakışın yol üzerindeki hizmeti, süslenmiş değerlendirme tarafından kesilebilir.",
+          "boundary": "Dağ lafzı literal bir varlık olarak eklenmez; yalnızca engel görüntüsü taşınır."
+        }
+      ],
+      "connection_refs": [],
+      "context_refs": [],
+      "semantic_obligation_refs": [
+        "obl_f5e266cb6de75c347739"
+      ]
+    },
+    {
+      "finding_ref": "global:dwellings-inner-sight",
+      "origin_candidate_id": "cand_05ceb0391bfa78b1bd57",
+      "represented_candidate_ids": [],
+      "title": "Yurtların açığa çıkardığı kanıt ve iç kavrayış",
+      "claim": "Yurtlar açık bir sonuç kanıtı sunarken, مُسْتَبْصِرِينَ iç kavrayışın mevcut olduğunu korur; ayet böylece kanıtı görmek ile yönü korumayı birbirinden ayırır.",
+      "mechanism": "تَبَيَّنَ yurtlardan çıkan açıklığı, مَسَاكِنِهِمْ maddi yerleşim izini, مُسْتَبْصِرِينَ ise bu izleri kavrayabilecek kapasiteyi aynı cümlede toplar.",
+      "reader_payoff": "Başarısızlık körlükten çok, görülen ve kavranan kanıtın yönelişe dönüşmemesi olarak belirir.",
+      "containment": "Ayetin açık yurt kanıtı ve iç kavrayış bildirimini korur; bütün kavrayışların eyleme dönüşmediği şeklinde genellemez.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": [
+          "legacy_unbound"
+        ],
+        "reason": "Geniş okur yürüyüşü üç odak dalını birlikte ve bağımsız bir kanıt-kavrayış mekanizmasıyla ilişkilendiriyor."
+      },
+      "support_ids": [
+        "sup_b38252d24f40c2eaccc8"
+      ],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000170/B004",
+          "facet_id": "F003",
+          "branch_gloss": "açığa çıkıp belirginleşme",
+          "facet_statement": "Açık kanıt, açık işaret veya belirgin belge olarak adlaşmış kullanımı vardır.",
+          "application_mode": "intrinsic_cross_root",
+          "carrier_refs": [
+            "29:38:4:1"
+          ],
+          "trigger_refs": [
+            "29:38:7:1",
+            "29:35"
+          ],
+          "focus_return_refs": [
+            "29:38:4:1"
+          ],
+          "carrier": "تَبَيَّنَ, yurtlardan çıkan açık ve okunabilir kanıtı taşır.",
+          "independent_trigger": "مَسَاكِنِهِمْ, yerleşimlerin bu kanıtın kaynağı olduğunu gösterir.",
+          "activation": "Açığa çıkma fiili yurtların maddi iziyle buluşunca, tarihsel sonuç göz önüne gelen bir kanıta dönüşür.",
+          "resulting_reading": "Yurtlar, geçmişin görünür ve incelenebilir sonucu olur.",
+          "boundary": "Yurtların kanıt işlevi korunur; bütün dış işaretler bu okuma içine alınmaz."
+        },
+        {
+          "branch_ref": "root_000726/B002",
+          "facet_id": "F002",
+          "branch_gloss": "bir yere yerleşip orada yaşama",
+          "facet_statement": "Yerleşilip yaşanan ev veya yer, bu eylemin yer adı olarak anlatılır.",
+          "application_mode": "intrinsic_cross_root",
+          "carrier_refs": [
+            "29:38:7:1"
+          ],
+          "trigger_refs": [
+            "29:38:4:1"
+          ],
+          "focus_return_refs": [
+            "29:38:7:1"
+          ],
+          "carrier": "مَسَاكِنِهِمْ, yerleşilip yaşanan yer adını ve maddi yurtları taşır.",
+          "independent_trigger": "تَبَيَّنَ, bu yerlerin açıklık üreten kaynak olduğunu kurar.",
+          "activation": "Yerleşim adı açıklık fiiliyle temas edince, yurtlar yalnızca geçmişte kalmış evler değil, okunabilir bir sonuç yüzeyi olur.",
+          "resulting_reading": "Maddi yurt, kavranabilir tarihsel kanıtın taşıyıcısı görünür.",
+          "boundary": "Yerleşim ve ev anlamı korunur; başka sabit yer kullanımları eklenmez."
+        },
+        {
+          "branch_ref": "root_000121/B002",
+          "facet_id": "F001",
+          "branch_gloss": "iç kavrayış",
+          "facet_statement": "Bir şeyi bilme, kalpte nüfuz eden kavrayış ve doğrulanmış anlayış çekirdektir.",
+          "application_mode": "intrinsic_cross_root",
+          "carrier_refs": [
+            "29:38:16:1"
+          ],
+          "trigger_refs": [
+            "29:38:4:1",
+            "29:38:7:1"
+          ],
+          "focus_return_refs": [
+            "29:38:16:1"
+          ],
+          "carrier": "مُسْتَبْصِرِينَ, bilme ve doğrulanmış iç kavrayış çekirdeğini taşır.",
+          "independent_trigger": "تَبَيَّنَ ve مَسَاكِنِهِمْ, kavrayışın önündeki dış kanıtı sağlar.",
+          "activation": "İç kavrayış, açık yurt kanıtıyla buluştuğunda ayetin sonundaki sapma, bilgi yokluğundan ayrılır.",
+          "resulting_reading": "Görülen kanıtı kavrayabilmek, yolu korumayı otomatikleştirmeyen bir kapasite olarak görünür.",
+          "boundary": "İç kavrayış korunur; ahlaki veya dinî kavrayışın bütün ayrıntıları bu dalda ileri sürülmez."
+        }
+      ],
+      "connection_refs": [],
+      "context_refs": [
+        "29:35"
+      ],
+      "semantic_obligation_refs": [
+        "obl_d073550b91a667c2d2b8"
+      ]
+    },
+    {
+      "finding_ref": "global:adorned-work-evaluation",
+      "origin_candidate_id": "cand_012aa490468209c9ba9f",
+      "represented_candidate_ids": [],
+      "title": "Süslenmiş işin değerlendirmeyi ele geçirmesi",
+      "claim": "Süslenmiş işler, kendi değerlerini değerlendiren kişiyi çekici görünüme bağlayarak tanınan yoldan uzaklaştırabilir.",
+      "mechanism": "زَيَّنَ, ٱلشَّيْطَانُ, أَعْمَالَهُمْ, صَدَّهُمْ ve ٱلسَّبِيلِ aynı ardışık yapıda güzelleştirme, fail, bilinçli iş, alıkoyma ve yol ilişkisini kurar.",
+      "reader_payoff": "Saptırma, kanıt eksikliğinden çok kişinin kendi işine verdiği değerin yönlendirilmesi olarak görünür.",
+      "containment": "Bu mekanizma odaktaki süsleme-iş-yol zinciriyle sınırlıdır; bütün öz-değerlendirmeler veya bütün yollar için genelleme yapmaz.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": [
+          "legacy_unbound"
+        ],
+        "reason": "Geniş odak yürüyüşü beş odak taşıyıcısını sıralı bir mekanizma ve belirgin okuyucu değişimiyle veriyor."
+      },
+      "support_ids": [
+        "sup_8ddab411dc46fedd646f"
+      ],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000660/B002",
+          "facet_id": "F001",
+          "branch_gloss": "güzelleştirme ve güzelliğini görünür kılma",
+          "facet_statement": "Bir şey güzelleştirilir veya onda bulunan güzellik eylem ya da söz yoluyla görünür hale getirilir.",
+          "application_mode": "intrinsic_cross_root",
+          "carrier_refs": [
+            "29:38:8:2"
+          ],
+          "trigger_refs": [
+            "29:38:11:1",
+            "29:38:10:2"
+          ],
+          "focus_return_refs": [
+            "29:38:8:2"
+          ],
+          "carrier": "زَيَّنَ, eylemlerin güzelleştirilmesini ve güzel görünür kılınmasını taşır.",
+          "independent_trigger": "أَعْمَالَهُمْ ve ٱلشَّيْطَانُ, güzelleştirilen bilinçli işi ve ayırıcı faili belirler.",
+          "activation": "Güzelleştirme, bilinçli işin değerlendirme yüzeyini değiştirerek alıkoyma fiiline geçiş sağlar.",
+          "resulting_reading": "İşin çekici görünmesi, kişinin kendi eylemini değerlendirme biçimini yönlendiren bir ara işlem olur.",
+          "boundary": "Güzelleştirme çekirdeği korunur; bütün estetik güzellikler bu mekanizmaya dahil edilmez."
+        },
+        {
+          "branch_ref": "root_000796/B003",
+          "facet_id": "F001",
+          "branch_gloss": "yönünden ayırma ve bağlama göre eğrilik ya da çetinlik",
+          "facet_statement": "Yalın eylem, bir kişiyi niyet ettiği yön ve doğrultudan ayırmayı ya da ona ters düşmeyi anlatır.",
+          "application_mode": "intrinsic_cross_root",
+          "carrier_refs": [
+            "29:38:10:2"
+          ],
+          "trigger_refs": [
+            "29:38:8:2",
+            "29:38:12:2"
+          ],
+          "focus_return_refs": [
+            "29:38:10:2"
+          ],
+          "carrier": "ٱلشَّيْطَانُ yüzeyi, yönünden ayıran ve ters düşen fail imgesini taşır.",
+          "independent_trigger": "زَيَّنَ ve صَدَّهُمْ, failin eylemi güzelleştirme ile yol alıkoyma arasında konumlandırır.",
+          "activation": "Ayırıcı fail imgesi, süslemeyi yalnızca görünüş değil, yön değiştiren bir etki olarak okutur.",
+          "resulting_reading": "Şeytanî fail, değerlendirmeyi yönünden ayıran ara etki olarak görünür.",
+          "boundary": "Fail ve yönünden ayırma ilişkisi korunur; kökün bütün eğrilik ve çetinlik uzantıları eklenmez."
+        },
+        {
+          "branch_ref": "root_001046/B001",
+          "facet_id": "F001",
+          "branch_gloss": "bilerek yapılan iş veya eylem",
+          "facet_statement": "Bir yapanın bilerek ortaya koyduğu iş veya eylem anlamı çekirdektir.",
+          "application_mode": "intrinsic_cross_root",
+          "carrier_refs": [
+            "29:38:11:1"
+          ],
+          "trigger_refs": [
+            "29:38:8:2"
+          ],
+          "focus_return_refs": [
+            "29:38:11:1"
+          ],
+          "carrier": "أَعْمَالَهُمْ, bilerek ortaya konan iş ve eylem alanını taşır.",
+          "independent_trigger": "زَيَّنَ, bu bilinçli işin görünüşünü değerlendirmeye açar.",
+          "activation": "Güzelleştirme nesnesi bilinçli iş olduğunda, değerlendirme dışarıdan bir görüntüye değil kişinin yaptığı şeye bağlanır.",
+          "resulting_reading": "Kişinin işi, kendi değer yargısını yönlendiren somut aracı olur.",
+          "boundary": "Bilinçli eylem korunur; işin her hukuki veya mesleki uzantısı ileri sürülmez."
+        },
+        {
+          "branch_ref": "root_000848/B001",
+          "facet_id": "F002",
+          "branch_gloss": "yüz çevirme ve alıkoyma",
+          "facet_statement": "Geçişli kullanımda özne, başka bir kişiyi belirli bir işten men eder ve yönünü o işten çevirir.",
+          "application_mode": "intrinsic_cross_root",
+          "carrier_refs": [
+            "29:38:12:2"
+          ],
+          "trigger_refs": [
+            "29:38:8:2",
+            "29:38:11:1"
+          ],
+          "focus_return_refs": [
+            "29:38:12:2"
+          ],
+          "carrier": "فَصَدَّهُمْ, başkasını belirli işten men eden geçişli alıkoymayı taşır.",
+          "independent_trigger": "زَيَّنَ ve أَعْمَالَهُمْ, alıkoymadan hemen önceki değerlendirme nesnesini verir.",
+          "activation": "Süsleme ile bilinçli işin birleşimi, alıkoymayı değerlendirme üzerinden işleyen bir hareket olarak açıklar.",
+          "resulting_reading": "Çekici görünen iş, kişiyi tanınan yoldan çeviren işleve sahip olur.",
+          "boundary": "Geçişli alıkoyma korunur; fiziksel zorlama veya iradenin tamamen silinmesi iddia edilmez."
+        },
+        {
+          "branch_ref": "root_000672/B001",
+          "facet_id": "F001",
+          "branch_gloss": "yol ve bir amaca ulaştıran yol",
+          "facet_statement": "İnsanların üzerinde yürüyüp ilerlediği uzanmış yol veya yolları belirtir.",
+          "application_mode": "intrinsic_cross_root",
+          "carrier_refs": [
+            "29:38:14:2"
+          ],
+          "trigger_refs": [
+            "29:38:12:2"
+          ],
+          "focus_return_refs": [
+            "29:38:14:2"
+          ],
+          "carrier": "ٱلسَّبِيلِ, üzerinde yürünüp ilerlenen tanınan yolu taşır.",
+          "independent_trigger": "فَصَدَّهُمْ, yolun hedeflendiği alıkoymayı doğrudan belirler.",
+          "activation": "Yolun tekil ve belirli oluşu, süslenmiş işin yönü belirlenmiş bir güzergâhı kestiğini görünür kılar.",
+          "resulting_reading": "Saptırma, belirsiz bir kayboluş değil, tanınan bir yoldan yön değiştirme olarak görünür.",
+          "boundary": "Yolun çekirdeği korunur; sonraki özel dinî kullanımlar bu bulguya eklenmez."
+        }
+      ],
+      "connection_refs": [],
+      "context_refs": [],
+      "semantic_obligation_refs": [
+        "obl_3217e8b06febcd1f9bc2"
+      ]
+    },
+    {
+      "finding_ref": "global:discernment-under-assay",
+      "origin_candidate_id": "cand_2eba703117e453f48de4",
+      "represented_candidate_ids": [],
+      "title": "Kavrayışın davranışsal sınanması",
+      "claim": "مُسْتَبْصِرِينَ ile taşınan kavrayış, davranış içinde sınanan bir kapasite olarak görünür; süslenmiş iş bu kapasitenin doğru hükme dönüşmediğini açığa çıkarır.",
+      "mechanism": "29:2-4 dizisi iddianın sınanmasını, doğrulanmış davranışı, bilerek yapılan işi ve hatalı hükmü art arda kurar; bu dizi 29:38'deki kavrayış ile saptırılmış iş arasındaki geçişi sınama olarak okutur.",
+      "reader_payoff": "İçgörü, eylemi kendiliğinden yöneten bir sonuç değil, davranışta doğrulanması gereken bir imkân olarak görünür.",
+      "containment": "Bu, odak kavrayışının sınanma biçimini açıklar; مُسْتَبْصِرِينَ kelimesinin yalnızca ahlaki kavrayış anlamına zorlandığını ileri sürmez.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": [
+          "legacy_unbound"
+        ],
+        "reason": "Kaynak HFT kaydı legacy_unbound olarak nitelikli; exact ayat ve atıflı activation trace korunuyor."
+      },
+      "support_ids": [
+        "sup_cff11748f7e10c72e06a"
+      ],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000121/B002",
+          "facet_id": "F001",
+          "branch_gloss": "iç kavrayış",
+          "facet_statement": "Bir şeyi bilme, kalpte nüfuz eden kavrayış ve doğrulanmış anlayış çekirdektir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "29:38:16:1"
+          ],
+          "trigger_refs": [
+            "29:2:10"
+          ],
+          "focus_return_refs": [
+            "29:38:16:1"
+          ],
+          "carrier": "Odak biçimi, iç kavrayış anlam alanını bu ayetteki taşıyıcı olarak doğrudan kurar.",
+          "independent_trigger": "Odak dışı 29:2:10 koordinatı, bu odak anlamını davranışsal ve bağlamsal bir işleyişe açar.",
+          "activation": "Odaktaki kavrayış, 29:2-4'teki sınama ve davranış doğrulamasıyla temas edince, bilginin eyleme dönüşmesi gereken bir geçiş olarak yeniden okunur.",
+          "resulting_reading": "مُسْتَبْصِرِينَ ile taşınan kavrayış, davranış içinde sınanan bir kapasite olarak görünür; süslenmiş iş bu kapasitenin doğru hükme dönüşmediğini açığa çıkarır.",
+          "boundary": "HFT'nin atfettiği sınama ve doğrulama ilişkisi korunur; odak dışı dallar için bağımsız sözlük açıklaması kurulmaz."
+        },
+        {
+          "branch_ref": "root_001128/B001",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "29:2:10"
+          ],
+          "trigger_refs": [
+            "29:38:16:1"
+          ],
+          "focus_return_refs": [
+            "29:38:16:1"
+          ],
+          "carrier": "HFT'nin 29:2:10 koordinatına bağladığı taşıyıcı: The branch image of assaying metal or a person supplies a test that reveals what cognition is worth in conduct.",
+          "independent_trigger": "Odaktaki 29:38:16:1 yüzeyi, HFT'nin bu bağlamsal atfını odak okumaya geri bağlar.",
+          "activation": "Odaktaki kavrayış, 29:2-4'teki sınama ve davranış doğrulamasıyla temas edince, bilginin eyleme dönüşmesi gereken bir geçiş olarak yeniden okunur.",
+          "resulting_reading": "مُسْتَبْصِرِينَ ile taşınan kavrayış, davranış içinde sınanan bir kapasite olarak görünür; süslenmiş iş bu kapasitenin doğru hükme dönüşmediğini açığa çıkarır.",
+          "boundary": "HFT'nin atfettiği sınama ve doğrulama ilişkisi korunur; odak dışı dallar için bağımsız sözlük açıklaması kurulmaz."
+        },
+        {
+          "branch_ref": "root_000852/B004",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "29:3:9"
+          ],
+          "trigger_refs": [
+            "29:38:16:1"
+          ],
+          "focus_return_refs": [
+            "29:38:16:1"
+          ],
+          "carrier": "HFT'nin 29:3:9 koordinatına bağladığı taşıyıcı: The branch image of making a promise or act real supplies behavioral verification rather than verbal correctness alone.",
+          "independent_trigger": "Odaktaki 29:38:16:1 yüzeyi, HFT'nin bu bağlamsal atfını odak okumaya geri bağlar.",
+          "activation": "Odaktaki kavrayış, 29:2-4'teki sınama ve davranış doğrulamasıyla temas edince, bilginin eyleme dönüşmesi gereken bir geçiş olarak yeniden okunur.",
+          "resulting_reading": "مُسْتَبْصِرِينَ ile taşınan kavrayış, davranış içinde sınanan bir kapasite olarak görünür; süslenmiş iş bu kapasitenin doğru hükme dönüşmediğini açığa çıkarır.",
+          "boundary": "HFT'nin atfettiği sınama ve doğrulama ilişkisi korunur; odak dışı dallar için bağımsız sözlük açıklaması kurulmaz."
+        },
+        {
+          "branch_ref": "root_001046/B001",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "29:4:4"
+          ],
+          "trigger_refs": [
+            "29:38:16:1"
+          ],
+          "focus_return_refs": [
+            "29:38:16:1"
+          ],
+          "carrier": "HFT'nin 29:4:4 koordinatına bağladığı taşıyıcı: The branch image of purposive work places intended deeds, the same medium as the focus ayah, under the assay.",
+          "independent_trigger": "Odaktaki 29:38:16:1 yüzeyi, HFT'nin bu bağlamsal atfını odak okumaya geri bağlar.",
+          "activation": "Odaktaki kavrayış, 29:2-4'teki sınama ve davranış doğrulamasıyla temas edince, bilginin eyleme dönüşmesi gereken bir geçiş olarak yeniden okunur.",
+          "resulting_reading": "مُسْتَبْصِرِينَ ile taşınan kavrayış, davranış içinde sınanan bir kapasite olarak görünür; süslenmiş iş bu kapasitenin doğru hükme dönüşmediğini açığa çıkarır.",
+          "boundary": "HFT'nin atfettiği sınama ve doğrulama ilişkisi korunur; odak dışı dallar için bağımsız sözlük açıklaması kurulmaz."
+        },
+        {
+          "branch_ref": "root_000348/B003",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "29:4:10"
+          ],
+          "trigger_refs": [
+            "29:38:16:1"
+          ],
+          "focus_return_refs": [
+            "29:38:16:1"
+          ],
+          "carrier": "HFT'nin 29:4:10 koordinatına bağladığı taşıyıcı: The branch image of accurate wisdom supplies the evaluative standard that their judgment misses.",
+          "independent_trigger": "Odaktaki 29:38:16:1 yüzeyi, HFT'nin bu bağlamsal atfını odak okumaya geri bağlar.",
+          "activation": "Odaktaki kavrayış, 29:2-4'teki sınama ve davranış doğrulamasıyla temas edince, bilginin eyleme dönüşmesi gereken bir geçiş olarak yeniden okunur.",
+          "resulting_reading": "مُسْتَبْصِرِينَ ile taşınan kavrayış, davranış içinde sınanan bir kapasite olarak görünür; süslenmiş iş bu kapasitenin doğru hükme dönüşmediğini açığa çıkarır.",
+          "boundary": "HFT'nin atfettiği sınama ve doğrulama ilişkisi korunur; odak dışı dallar için bağımsız sözlük açıklaması kurulmaz."
+        }
+      ],
+      "connection_refs": [],
+      "context_refs": [
+        "29:2",
+        "29:3",
+        "29:4"
+      ],
+      "semantic_obligation_refs": [
+        "obl_ea3bbce22b9877954aab",
+        "obl_433ec2f3226e797d80f7",
+        "obl_5af2c069b046d5b0a54a",
+        "obl_01cd39826fecb358eb75",
+        "obl_621570a8c4b4407abe21",
+        "obl_e5ace2ce6e6c4f73d2fe",
+        "obl_68433225ced9ba252b94",
+        "obl_bcb6ef8ff3dad6419b70",
+        "obl_7bdb24e4ddd157abd0a7",
+        "obl_46244b81dd617a908679"
+      ]
+    },
+    {
+      "finding_ref": "global:rival-route-burden-transfer",
+      "origin_candidate_id": "cand_3da929e6a62922e844d9",
+      "represented_candidate_ids": [],
+      "title": "Rakip yola çağrı ve yükün devredileceği vaadi",
+      "claim": "Alıkoyma, kişiyi başkasının 'bizim yolumuz' diye sunduğu rakip güzergâha çekip sonuçların yükünü başkasının taşıyacağı vaadiyle işleyebilir.",
+      "mechanism": "29:12'de takip, rakip yol ve yükü üstlenme vaadi aynı konuşmada birleşir; 29:13 bu vaadi kişisel ve ek yüklerin çoğalmasıyla bozar.",
+      "reader_payoff": "Yoldan alıkoyma, yalnızca yolu görünmez kılan bir engel değil, güven verici sosyal bir çağrıyla rakip güzergâh kuran bir işlem olarak görünür.",
+      "containment": "Bu okuma 29:12-13'teki rakip yol ve yük aktarımı zincirine bağlıdır; her sosyal çağrı veya her sorumluluk ilişkisi için genelleme yapmaz.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": [
+          "legacy_unbound"
+        ],
+        "reason": "Kaynak HFT kaydı legacy_unbound olarak nitelikli; exact ayat ve atıflı activation trace korunuyor."
+      },
+      "support_ids": [
+        "sup_0843c8dd4c0817b7ca59"
+      ],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000848/B001",
+          "facet_id": "F002",
+          "branch_gloss": "yüz çevirme ve alıkoyma",
+          "facet_statement": "Geçişli kullanımda özne, başka bir kişiyi belirli bir işten men eder ve yönünü o işten çevirir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "29:38:12:2"
+          ],
+          "trigger_refs": [
+            "29:12:6"
+          ],
+          "focus_return_refs": [
+            "29:38:12:2"
+          ],
+          "carrier": "Odak biçimi, yüz çevirme ve alıkoyma anlam alanını bu ayetteki taşıyıcı olarak doğrudan kurar.",
+          "independent_trigger": "Odak dışı 29:12:6 koordinatı, bu odak anlamını davranışsal ve bağlamsal bir işleyişe açar.",
+          "activation": "Odaktaki صَدَّ ve ٱلسَّبِيلِ yüzeyi, 29:12-13'teki takip ve rakip yol çağrısıyla temas edince, saptırmanın sosyal olarak kurulan bir güzergâh ve yük aktarımı vaadiyle işleyebileceği görülür.",
+          "resulting_reading": "Alıkoyma, kişiyi başkasının 'bizim yolumuz' diye sunduğu rakip güzergâha çekip sonuçların yükünü başkasının taşıyacağı vaadiyle işleyebilir.",
+          "boundary": "Sosyal yönlendirme ve yük aktarımı HFT'nin açık izine bağlıdır; odakta doğrudan söylenmeyen bütün propaganda biçimleri eklenmez."
+        },
+        {
+          "branch_ref": "root_000175/B001",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "29:12:6"
+          ],
+          "trigger_refs": [
+            "29:38:12:2"
+          ],
+          "focus_return_refs": [
+            "29:38:12:2",
+            "29:38:14:2"
+          ],
+          "carrier": "HFT'nin 29:12:6 koordinatına bağladığı taşıyıcı: The branch image of following behind supplies recruitment into a socially led route.",
+          "independent_trigger": "Odaktaki 29:38:12:2 ve 29:38:14:2 yüzeyi, HFT'nin bu bağlamsal atfını odak okumaya geri bağlar.",
+          "activation": "Odaktaki صَدَّ ve ٱلسَّبِيلِ yüzeyi, 29:12-13'teki takip ve rakip yol çağrısıyla temas edince, saptırmanın sosyal olarak kurulan bir güzergâh ve yük aktarımı vaadiyle işleyebileceği görülür.",
+          "resulting_reading": "Alıkoyma, kişiyi başkasının 'bizim yolumuz' diye sunduğu rakip güzergâha çekip sonuçların yükünü başkasının taşıyacağı vaadiyle işleyebilir.",
+          "boundary": "Sosyal yönlendirme ve yük aktarımı HFT'nin açık izine bağlıdır; odakta doğrudan söylenmeyen bütün propaganda biçimleri eklenmez."
+        },
+        {
+          "branch_ref": "root_000672/B001",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "29:12:7"
+          ],
+          "trigger_refs": [
+            "29:38:12:2"
+          ],
+          "focus_return_refs": [
+            "29:38:12:2",
+            "29:38:14:2"
+          ],
+          "carrier": "HFT'nin 29:12:7 koordinatına bağladığı taşıyıcı: The extended traversable road supplies an explicit competing path rather than mere aimlessness.",
+          "independent_trigger": "Odaktaki 29:38:12:2 ve 29:38:14:2 yüzeyi, HFT'nin bu bağlamsal atfını odak okumaya geri bağlar.",
+          "activation": "Odaktaki صَدَّ ve ٱلسَّبِيلِ yüzeyi, 29:12-13'teki takip ve rakip yol çağrısıyla temas edince, saptırmanın sosyal olarak kurulan bir güzergâh ve yük aktarımı vaadiyle işleyebileceği görülür.",
+          "resulting_reading": "Alıkoyma, kişiyi başkasının 'bizim yolumuz' diye sunduğu rakip güzergâha çekip sonuçların yükünü başkasının taşıyacağı vaadiyle işleyebilir.",
+          "boundary": "Sosyal yönlendirme ve yük aktarımı HFT'nin açık izine bağlıdır; odakta doğrudan söylenmeyen bütün propaganda biçimleri eklenmez."
+        },
+        {
+          "branch_ref": "root_000357/B003",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "29:12:8",
+            "29:12:12"
+          ],
+          "trigger_refs": [
+            "29:38:12:2"
+          ],
+          "focus_return_refs": [
+            "29:38:12:2",
+            "29:38:14:2"
+          ],
+          "carrier": "HFT'nin 29:12:8,12 koordinatına bağladığı taşıyıcı: The branch image of bearing an entrusted burden or guilt supplies the promised transfer of liability and its denial.",
+          "independent_trigger": "Odaktaki 29:38:12:2 ve 29:38:14:2 yüzeyi, HFT'nin bu bağlamsal atfını odak okumaya geri bağlar.",
+          "activation": "Odaktaki صَدَّ ve ٱلسَّبِيلِ yüzeyi, 29:12-13'teki takip ve rakip yol çağrısıyla temas edince, saptırmanın sosyal olarak kurulan bir güzergâh ve yük aktarımı vaadiyle işleyebileceği görülür.",
+          "resulting_reading": "Alıkoyma, kişiyi başkasının 'bizim yolumuz' diye sunduğu rakip güzergâha çekip sonuçların yükünü başkasının taşıyacağı vaadiyle işleyebilir.",
+          "boundary": "Sosyal yönlendirme ve yük aktarımı HFT'nin açık izine bağlıdır; odakta doğrudan söylenmeyen bütün propaganda biçimleri eklenmez."
+        },
+        {
+          "branch_ref": "root_000202/B007",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "29:13:2",
+            "29:13:3",
+            "29:13:5"
+          ],
+          "trigger_refs": [
+            "29:38:12:2"
+          ],
+          "focus_return_refs": [
+            "29:38:12:2",
+            "29:38:14:2"
+          ],
+          "carrier": "HFT'nin 29:13:2,3,5 koordinatına bağladığı taşıyıcı: The branch image of loading a burden supplies the later multiplication that exposes the outsourcing promise.",
+          "independent_trigger": "Odaktaki 29:38:12:2 ve 29:38:14:2 yüzeyi, HFT'nin bu bağlamsal atfını odak okumaya geri bağlar.",
+          "activation": "Odaktaki صَدَّ ve ٱلسَّبِيلِ yüzeyi, 29:12-13'teki takip ve rakip yol çağrısıyla temas edince, saptırmanın sosyal olarak kurulan bir güzergâh ve yük aktarımı vaadiyle işleyebileceği görülür.",
+          "resulting_reading": "Alıkoyma, kişiyi başkasının 'bizim yolumuz' diye sunduğu rakip güzergâha çekip sonuçların yükünü başkasının taşıyacağı vaadiyle işleyebilir.",
+          "boundary": "Sosyal yönlendirme ve yük aktarımı HFT'nin açık izine bağlıdır; odakta doğrudan söylenmeyen bütün propaganda biçimleri eklenmez."
+        }
+      ],
+      "connection_refs": [],
+      "context_refs": [
+        "29:12",
+        "29:13"
+      ],
+      "semantic_obligation_refs": [
+        "obl_72ee9f11772db42a58e8",
+        "obl_d8de08881948e1032dd5",
+        "obl_70e1504f22e06f1521ca",
+        "obl_d8bab8490ac97f4730f3",
+        "obl_6ee95238edb808f9e14e",
+        "obl_a3d29478c1dd6462a7bb",
+        "obl_c2f006831c8a57ba5bec",
+        "obl_3e18aaa6b06a72135d55",
+        "obl_d166637982607f91e336",
+        "obl_337fc75f91f36aedae64"
+      ]
+    },
+    {
+      "finding_ref": "global:socialized-obstruction",
+      "origin_candidate_id": "cand_c8da6ae730c2e7bb770d",
+      "represented_candidate_ids": [],
+      "title": "Süslemenin ortak bir engel kültürüne dönüşmesi",
+      "claim": "Süsleme, üretilmiş bir değerin karşılıklı bağlılık ve toplu gösteriyle paylaşılmasına, ardından bu ortaklığın yolu başkaları için de kesmesine dönüşebilir.",
+      "mechanism": "29:17, 29:25 ve 29:29; yanlış sözün üretilmesini, karşılıklı sevgiyi, meclis içindeki kamusal performansı ve yol kesmeyi art arda verir.",
+      "reader_payoff": "Odaktaki alıkoyma, yalnızca bireyin iç değerlendirmesi değil, ortak bir değer düzeninin katılımcılarını yol kesen kişilere dönüştürmesi olarak da okunur.",
+      "containment": "Bu zincir belirtilen ayatların atıflı HFT okumasıdır; bütün topluluk bağlarını veya bütün sevgi biçimlerini engel kültürü saymaz.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": [
+          "legacy_unbound"
+        ],
+        "reason": "Kaynak HFT kaydı legacy_unbound olarak nitelikli; exact ayat ve atıflı activation trace korunuyor."
+      },
+      "support_ids": [
+        "sup_2731278a47385c012147"
+      ],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000660/B002",
+          "facet_id": "F001",
+          "branch_gloss": "güzelleştirme ve güzelliğini görünür kılma",
+          "facet_statement": "Bir şey güzelleştirilir veya onda bulunan güzellik eylem ya da söz yoluyla görünür hale getirilir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "29:38:8:2"
+          ],
+          "trigger_refs": [
+            "29:17:7"
+          ],
+          "focus_return_refs": [
+            "29:38:8:2"
+          ],
+          "carrier": "Odak biçimi, güzelleştirme ve güzelliğini görünür kılma anlam alanını bu ayetteki taşıyıcı olarak doğrudan kurar.",
+          "independent_trigger": "Odak dışı 29:17:7 koordinatı, bu odak anlamını davranışsal ve bağlamsal bir işleyişe açar.",
+          "activation": "Odaktaki زَيَّنَ ve أَعْمَالَهُمْ, 29:17'deki üretilmiş yanlış değer, 29:25'teki bağ ve 29:29'daki meclis-yol kesme zinciriyle temas edince, alıkoymanın toplumsal olarak çoğalabilen bir işlem olduğu görünür.",
+          "resulting_reading": "Süsleme, üretilmiş bir değerin karşılıklı bağlılık ve toplu gösteriyle paylaşılmasına, ardından bu ortaklığın yolu başkaları için de kesmesine dönüşebilir.",
+          "boundary": "Sosyal çoğalma HFT'nin atfettiği ayat ve rollerle sınırlıdır; diğer topluluk ilişkileri bu bulguya eklenmez."
+        },
+        {
+          "branch_ref": "root_001046/B001",
+          "facet_id": "F001",
+          "branch_gloss": "bilerek yapılan iş veya eylem",
+          "facet_statement": "Bir yapanın bilerek ortaya koyduğu iş veya eylem anlamı çekirdektir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "29:38:11:1"
+          ],
+          "trigger_refs": [
+            "29:17:7"
+          ],
+          "focus_return_refs": [
+            "29:38:11:1"
+          ],
+          "carrier": "Odak biçimi, bilerek yapılan iş veya eylem anlam alanını bu ayetteki taşıyıcı olarak doğrudan kurar.",
+          "independent_trigger": "Odak dışı 29:17:7 koordinatı, bu odak anlamını davranışsal ve bağlamsal bir işleyişe açar.",
+          "activation": "Odaktaki زَيَّنَ ve أَعْمَالَهُمْ, 29:17'deki üretilmiş yanlış değer, 29:25'teki bağ ve 29:29'daki meclis-yol kesme zinciriyle temas edince, alıkoymanın toplumsal olarak çoğalabilen bir işlem olduğu görünür.",
+          "resulting_reading": "Süsleme, üretilmiş bir değerin karşılıklı bağlılık ve toplu gösteriyle paylaşılmasına, ardından bu ortaklığın yolu başkaları için de kesmesine dönüşebilir.",
+          "boundary": "Sosyal çoğalma HFT'nin atfettiği ayat ve rollerle sınırlıdır; diğer topluluk ilişkileri bu bulguya eklenmez."
+        },
+        {
+          "branch_ref": "root_000434/B007",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "29:17:7"
+          ],
+          "trigger_refs": [
+            "29:38:8:2"
+          ],
+          "focus_return_refs": [
+            "29:38:8:2",
+            "29:38:11:1",
+            "29:38:12:2",
+            "29:38:14:2"
+          ],
+          "carrier": "HFT'nin 29:17:7 koordinatına bağladığı taşıyıcı: The branch image of fabricating false speech supplies active production rather than passive error.",
+          "independent_trigger": "Odaktaki 29:38:8:2 ve 29:38:11:1 ve 29:38:12:2 ve 29:38:14:2 yüzeyi, HFT'nin bu bağlamsal atfını odak okumaya geri bağlar.",
+          "activation": "Odaktaki زَيَّنَ ve أَعْمَالَهُمْ, 29:17'deki üretilmiş yanlış değer, 29:25'teki bağ ve 29:29'daki meclis-yol kesme zinciriyle temas edince, alıkoymanın toplumsal olarak çoğalabilen bir işlem olduğu görünür.",
+          "resulting_reading": "Süsleme, üretilmiş bir değerin karşılıklı bağlılık ve toplu gösteriyle paylaşılmasına, ardından bu ortaklığın yolu başkaları için de kesmesine dönüşebilir.",
+          "boundary": "Sosyal çoğalma HFT'nin atfettiği ayat ve rollerle sınırlıdır; diğer topluluk ilişkileri bu bulguya eklenmez."
+        },
+        {
+          "branch_ref": "root_000041/B002",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "29:17:8"
+          ],
+          "trigger_refs": [
+            "29:38:8:2"
+          ],
+          "focus_return_refs": [
+            "29:38:8:2",
+            "29:38:11:1",
+            "29:38:12:2",
+            "29:38:14:2"
+          ],
+          "carrier": "HFT'nin 29:17:8 koordinatına bağladığı taşıyıcı: The branch image of falsehood turned away from truth supplies the fabricated content.",
+          "independent_trigger": "Odaktaki 29:38:8:2 ve 29:38:11:1 ve 29:38:12:2 ve 29:38:14:2 yüzeyi, HFT'nin bu bağlamsal atfını odak okumaya geri bağlar.",
+          "activation": "Odaktaki زَيَّنَ ve أَعْمَالَهُمْ, 29:17'deki üretilmiş yanlış değer, 29:25'teki bağ ve 29:29'daki meclis-yol kesme zinciriyle temas edince, alıkoymanın toplumsal olarak çoğalabilen bir işlem olduğu görünür.",
+          "resulting_reading": "Süsleme, üretilmiş bir değerin karşılıklı bağlılık ve toplu gösteriyle paylaşılmasına, ardından bu ortaklığın yolu başkaları için de kesmesine dönüşebilir.",
+          "boundary": "Sosyal çoğalma HFT'nin atfettiği ayat ve rollerle sınırlıdır; diğer topluluk ilişkileri bu bulguya eklenmez."
+        },
+        {
+          "branch_ref": "root_001634/B001",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "29:25:8"
+          ],
+          "trigger_refs": [
+            "29:38:8:2"
+          ],
+          "focus_return_refs": [
+            "29:38:8:2",
+            "29:38:11:1",
+            "29:38:12:2",
+            "29:38:14:2"
+          ],
+          "carrier": "HFT'nin 29:25:8 koordinatına bağladığı taşıyıcı: The branch image of mutual love supplies the bonding reward that stabilizes the fabrication among people.",
+          "independent_trigger": "Odaktaki 29:38:8:2 ve 29:38:11:1 ve 29:38:12:2 ve 29:38:14:2 yüzeyi, HFT'nin bu bağlamsal atfını odak okumaya geri bağlar.",
+          "activation": "Odaktaki زَيَّنَ ve أَعْمَالَهُمْ, 29:17'deki üretilmiş yanlış değer, 29:25'teki bağ ve 29:29'daki meclis-yol kesme zinciriyle temas edince, alıkoymanın toplumsal olarak çoğalabilen bir işlem olduğu görünür.",
+          "resulting_reading": "Süsleme, üretilmiş bir değerin karşılıklı bağlılık ve toplu gösteriyle paylaşılmasına, ardından bu ortaklığın yolu başkaları için de kesmesine dönüşebilir.",
+          "boundary": "Sosyal çoğalma HFT'nin atfettiği ayat ve rollerle sınırlıdır; diğer topluluk ilişkileri bu bulguya eklenmez."
+        },
+        {
+          "branch_ref": "root_001487/B003",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "29:29:8"
+          ],
+          "trigger_refs": [
+            "29:38:8:2"
+          ],
+          "focus_return_refs": [
+            "29:38:8:2",
+            "29:38:11:1",
+            "29:38:12:2",
+            "29:38:14:2"
+          ],
+          "carrier": "HFT'nin 29:29:8 koordinatına bağladığı taşıyıcı: The branch image of a people's council and gathering supplies the public venue of normalization.",
+          "independent_trigger": "Odaktaki 29:38:8:2 ve 29:38:11:1 ve 29:38:12:2 ve 29:38:14:2 yüzeyi, HFT'nin bu bağlamsal atfını odak okumaya geri bağlar.",
+          "activation": "Odaktaki زَيَّنَ ve أَعْمَالَهُمْ, 29:17'deki üretilmiş yanlış değer, 29:25'teki bağ ve 29:29'daki meclis-yol kesme zinciriyle temas edince, alıkoymanın toplumsal olarak çoğalabilen bir işlem olduğu görünür.",
+          "resulting_reading": "Süsleme, üretilmiş bir değerin karşılıklı bağlılık ve toplu gösteriyle paylaşılmasına, ardından bu ortaklığın yolu başkaları için de kesmesine dönüşebilir.",
+          "boundary": "Sosyal çoğalma HFT'nin atfettiği ayat ve rollerle sınırlıdır; diğer topluluk ilişkileri bu bulguya eklenmez."
+        },
+        {
+          "branch_ref": "root_001550/B006",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "29:29:9"
+          ],
+          "trigger_refs": [
+            "29:38:8:2"
+          ],
+          "focus_return_refs": [
+            "29:38:8:2",
+            "29:38:11:1",
+            "29:38:12:2",
+            "29:38:14:2"
+          ],
+          "carrier": "HFT'nin 29:29:9 koordinatına bağladığı taşıyıcı: The branch image of reprehensible conduct that should be checked supplies what the assembly instead performs.",
+          "independent_trigger": "Odaktaki 29:38:8:2 ve 29:38:11:1 ve 29:38:12:2 ve 29:38:14:2 yüzeyi, HFT'nin bu bağlamsal atfını odak okumaya geri bağlar.",
+          "activation": "Odaktaki زَيَّنَ ve أَعْمَالَهُمْ, 29:17'deki üretilmiş yanlış değer, 29:25'teki bağ ve 29:29'daki meclis-yol kesme zinciriyle temas edince, alıkoymanın toplumsal olarak çoğalabilen bir işlem olduğu görünür.",
+          "resulting_reading": "Süsleme, üretilmiş bir değerin karşılıklı bağlılık ve toplu gösteriyle paylaşılmasına, ardından bu ortaklığın yolu başkaları için de kesmesine dönüşebilir.",
+          "boundary": "Sosyal çoğalma HFT'nin atfettiği ayat ve rollerle sınırlıdır; diğer topluluk ilişkileri bu bulguya eklenmez."
+        },
+        {
+          "branch_ref": "root_001240/B023",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "29:29:4"
+          ],
+          "trigger_refs": [
+            "29:38:8:2"
+          ],
+          "focus_return_refs": [
+            "29:38:8:2",
+            "29:38:11:1",
+            "29:38:12:2",
+            "29:38:14:2"
+          ],
+          "carrier": "HFT'nin 29:29:4 koordinatına bağladığı taşıyıcı: The explicit branch image of road-cutting by seizure or obstruction turns diverted agents into obstructors of others.",
+          "independent_trigger": "Odaktaki 29:38:8:2 ve 29:38:11:1 ve 29:38:12:2 ve 29:38:14:2 yüzeyi, HFT'nin bu bağlamsal atfını odak okumaya geri bağlar.",
+          "activation": "Odaktaki زَيَّنَ ve أَعْمَالَهُمْ, 29:17'deki üretilmiş yanlış değer, 29:25'teki bağ ve 29:29'daki meclis-yol kesme zinciriyle temas edince, alıkoymanın toplumsal olarak çoğalabilen bir işlem olduğu görünür.",
+          "resulting_reading": "Süsleme, üretilmiş bir değerin karşılıklı bağlılık ve toplu gösteriyle paylaşılmasına, ardından bu ortaklığın yolu başkaları için de kesmesine dönüşebilir.",
+          "boundary": "Sosyal çoğalma HFT'nin atfettiği ayat ve rollerle sınırlıdır; diğer topluluk ilişkileri bu bulguya eklenmez."
+        },
+        {
+          "branch_ref": "root_000672/B001",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "29:29:5"
+          ],
+          "trigger_refs": [
+            "29:38:8:2"
+          ],
+          "focus_return_refs": [
+            "29:38:8:2",
+            "29:38:11:1",
+            "29:38:12:2",
+            "29:38:14:2"
+          ],
+          "carrier": "HFT'nin 29:29:5 koordinatına bağladığı taşıyıcı: The traversable road supplies the public route their normalized conduct severs.",
+          "independent_trigger": "Odaktaki 29:38:8:2 ve 29:38:11:1 ve 29:38:12:2 ve 29:38:14:2 yüzeyi, HFT'nin bu bağlamsal atfını odak okumaya geri bağlar.",
+          "activation": "Odaktaki زَيَّنَ ve أَعْمَالَهُمْ, 29:17'deki üretilmiş yanlış değer, 29:25'teki bağ ve 29:29'daki meclis-yol kesme zinciriyle temas edince, alıkoymanın toplumsal olarak çoğalabilen bir işlem olduğu görünür.",
+          "resulting_reading": "Süsleme, üretilmiş bir değerin karşılıklı bağlılık ve toplu gösteriyle paylaşılmasına, ardından bu ortaklığın yolu başkaları için de kesmesine dönüşebilir.",
+          "boundary": "Sosyal çoğalma HFT'nin atfettiği ayat ve rollerle sınırlıdır; diğer topluluk ilişkileri bu bulguya eklenmez."
+        }
+      ],
+      "connection_refs": [],
+      "context_refs": [
+        "29:17",
+        "29:25",
+        "29:29"
+      ],
+      "semantic_obligation_refs": [
+        "obl_73d70febab85d5a3f3f3",
+        "obl_5ffcf66e861cd57ba27e",
+        "obl_8df5ac8e40e3cc4dcd90",
+        "obl_8e6da7a8514bb9adb1e6",
+        "obl_92f3a27c820e90335dba",
+        "obl_78c17a7d8bc45c2af4c0",
+        "obl_59a411ed41c29e78f3d6",
+        "obl_022a4a43a518e5ddddfd",
+        "obl_d3501fab7dba61b3166f",
+        "obl_44c40e7c536d089070a1",
+        "obl_5ffa98da39a55daa8e35",
+        "obl_1628fb7f1c9e3c843034",
+        "obl_a3caf01ccdab43dd58ea",
+        "obl_28a5213564e994e8c99e"
+      ]
+    },
+    {
+      "finding_ref": "global:dwellings-as-field-evidence",
+      "origin_candidate_id": "cand_0d0a8651cf8736a990ff",
+      "represented_candidate_ids": [],
+      "title": "Yurtların tekrarlanabilir saha kanıtına dönüşmesi",
+      "claim": "Yurtlar, yalnızca geçmişi hatırlatan kalıntılar olarak değil, hareket edip bakmayı ve kalan izi akılla değerlendirmeyi gerektiren tekrarlanabilir bir saha kanıtı olarak görünür.",
+      "mechanism": "29:19-20 hareketi ve yöneltilmiş bakışı, 29:35 ise kalan izi açık bir işaret olarak verir; 29:38 bu kanıtın kaynağını yurtlarda gösterir.",
+      "reader_payoff": "Okur, meskenleri hazır bir ibret cümlesi olarak değil, görülebilen ve akılla okunması gereken bir kanıt yüzeyi olarak algılar.",
+      "containment": "Saha kanıtı modeli atıflı HFT zincirine bağlıdır; ayetin yurtları bütün tarihsel araştırma yöntemlerini emrettiği söylenmez.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": [
+          "legacy_unbound"
+        ],
+        "reason": "Kaynak HFT kaydı legacy_unbound olarak nitelikli; exact ayat ve atıflı activation trace korunuyor."
+      },
+      "support_ids": [
+        "sup_517a678fb16d212c1d73"
+      ],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000170/B004",
+          "facet_id": "F003",
+          "branch_gloss": "açığa çıkıp belirginleşme",
+          "facet_statement": "Açık kanıt, açık işaret veya belirgin belge olarak adlaşmış kullanımı vardır.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "29:38:4:1"
+          ],
+          "trigger_refs": [
+            "29:19:2"
+          ],
+          "focus_return_refs": [
+            "29:38:4:1"
+          ],
+          "carrier": "Odak biçimi, açığa çıkıp belirginleşme anlam alanını bu ayetteki taşıyıcı olarak doğrudan kurar.",
+          "independent_trigger": "Odak dışı 29:19:2 koordinatı, bu odak anlamını davranışsal ve bağlamsal bir işleyişe açar.",
+          "activation": "Odaktaki تَبَيَّنَ ve مَسَاكِنِهِمْ, 29:19-20'deki görme-yürüme-bakma dizisi ve 29:35'teki bırakılmış işaretle temas edince, yurtlar tekrarlanabilir gözlem alanı olur.",
+          "resulting_reading": "Yurtlar, yalnızca geçmişi hatırlatan kalıntılar olarak değil, hareket edip bakmayı ve kalan izi akılla değerlendirmeyi gerektiren tekrarlanabilir bir saha kanıtı olarak görünür.",
+          "boundary": "HFT'nin alan kanıtı ve aklın dönüştürücü rolü korunur; bağlam dalları için bağımsız sözlük facet'i kurulmaz."
+        },
+        {
+          "branch_ref": "root_000726/B009",
+          "facet_id": "F002",
+          "branch_gloss": "sabit yer ve konum bildiren özel kullanımlar",
+          "facet_statement": "Çoğul kalıp ifadeler kişilerin yerlerini, konumlarını, düzeylerini, evlerini veya alışılmış düzenlerini gösterebilir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "29:38:7:1"
+          ],
+          "trigger_refs": [
+            "29:19:2"
+          ],
+          "focus_return_refs": [
+            "29:38:7:1"
+          ],
+          "carrier": "Odak biçimi, sabit yer ve konum bildiren özel kullanımlar anlam alanını bu ayetteki taşıyıcı olarak doğrudan kurar.",
+          "independent_trigger": "Odak dışı 29:19:2 koordinatı, bu odak anlamını davranışsal ve bağlamsal bir işleyişe açar.",
+          "activation": "Odaktaki تَبَيَّنَ ve مَسَاكِنِهِمْ, 29:19-20'deki görme-yürüme-bakma dizisi ve 29:35'teki bırakılmış işaretle temas edince, yurtlar tekrarlanabilir gözlem alanı olur.",
+          "resulting_reading": "Yurtlar, yalnızca geçmişi hatırlatan kalıntılar olarak değil, hareket edip bakmayı ve kalan izi akılla değerlendirmeyi gerektiren tekrarlanabilir bir saha kanıtı olarak görünür.",
+          "boundary": "HFT'nin alan kanıtı ve aklın dönüştürücü rolü korunur; bağlam dalları için bağımsız sözlük facet'i kurulmaz."
+        },
+        {
+          "branch_ref": "root_000531/B001",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "29:19:2"
+          ],
+          "trigger_refs": [
+            "29:38:4:1"
+          ],
+          "focus_return_refs": [
+            "29:38:4:1",
+            "29:38:7:1"
+          ],
+          "carrier": "HFT'nin 29:19:2 koordinatına bağladığı taşıyıcı: The branch image of eye-sight and insight supplies direct perception as an evidentiary operation.",
+          "independent_trigger": "Odaktaki 29:38:4:1 ve 29:38:7:1 yüzeyi, HFT'nin bu bağlamsal atfını odak okumaya geri bağlar.",
+          "activation": "Odaktaki تَبَيَّنَ ve مَسَاكِنِهِمْ, 29:19-20'deki görme-yürüme-bakma dizisi ve 29:35'teki bırakılmış işaretle temas edince, yurtlar tekrarlanabilir gözlem alanı olur.",
+          "resulting_reading": "Yurtlar, yalnızca geçmişi hatırlatan kalıntılar olarak değil, hareket edip bakmayı ve kalan izi akılla değerlendirmeyi gerektiren tekrarlanabilir bir saha kanıtı olarak görünür.",
+          "boundary": "HFT'nin alan kanıtı ve aklın dönüştürücü rolü korunur; bağlam dalları için bağımsız sözlük facet'i kurulmaz."
+        },
+        {
+          "branch_ref": "root_000769/B001",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "29:20:2"
+          ],
+          "trigger_refs": [
+            "29:38:4:1"
+          ],
+          "focus_return_refs": [
+            "29:38:4:1",
+            "29:38:7:1"
+          ],
+          "carrier": "HFT'nin 29:20:2 koordinatına bağladığı taşıyıcı: The branch image of moving and proceeding supplies travel to the observable field.",
+          "independent_trigger": "Odaktaki 29:38:4:1 ve 29:38:7:1 yüzeyi, HFT'nin bu bağlamsal atfını odak okumaya geri bağlar.",
+          "activation": "Odaktaki تَبَيَّنَ ve مَسَاكِنِهِمْ, 29:19-20'deki görme-yürüme-bakma dizisi ve 29:35'teki bırakılmış işaretle temas edince, yurtlar tekrarlanabilir gözlem alanı olur.",
+          "resulting_reading": "Yurtlar, yalnızca geçmişi hatırlatan kalıntılar olarak değil, hareket edip bakmayı ve kalan izi akılla değerlendirmeyi gerektiren tekrarlanabilir bir saha kanıtı olarak görünür.",
+          "boundary": "HFT'nin alan kanıtı ve aklın dönüştürücü rolü korunur; bağlam dalları için bağımsız sözlük facet'i kurulmaz."
+        },
+        {
+          "branch_ref": "root_001520/B001",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "29:20:5"
+          ],
+          "trigger_refs": [
+            "29:38:4:1"
+          ],
+          "focus_return_refs": [
+            "29:38:4:1",
+            "29:38:7:1"
+          ],
+          "carrier": "HFT'nin 29:20:5 koordinatına bağladığı taşıyıcı: The branch image of directing eye or insight supplies deliberate inspection rather than casual seeing.",
+          "independent_trigger": "Odaktaki 29:38:4:1 ve 29:38:7:1 yüzeyi, HFT'nin bu bağlamsal atfını odak okumaya geri bağlar.",
+          "activation": "Odaktaki تَبَيَّنَ ve مَسَاكِنِهِمْ, 29:19-20'deki görme-yürüme-bakma dizisi ve 29:35'teki bırakılmış işaretle temas edince, yurtlar tekrarlanabilir gözlem alanı olur.",
+          "resulting_reading": "Yurtlar, yalnızca geçmişi hatırlatan kalıntılar olarak değil, hareket edip bakmayı ve kalan izi akılla değerlendirmeyi gerektiren tekrarlanabilir bir saha kanıtı olarak görünür.",
+          "boundary": "HFT'nin alan kanıtı ve aklın dönüştürücü rolü korunur; bağlam dalları için bağımsız sözlük facet'i kurulmaz."
+        },
+        {
+          "branch_ref": "root_000180/B002",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "29:35:2"
+          ],
+          "trigger_refs": [
+            "29:38:4:1"
+          ],
+          "focus_return_refs": [
+            "29:38:4:1",
+            "29:38:7:1"
+          ],
+          "carrier": "HFT'nin 29:35:2 koordinatına bağladığı taşıyıcı: The branch image of leaving an effect behind supplies the persistence of material evidence.",
+          "independent_trigger": "Odaktaki 29:38:4:1 ve 29:38:7:1 yüzeyi, HFT'nin bu bağlamsal atfını odak okumaya geri bağlar.",
+          "activation": "Odaktaki تَبَيَّنَ ve مَسَاكِنِهِمْ, 29:19-20'deki görme-yürüme-bakma dizisi ve 29:35'teki bırakılmış işaretle temas edince, yurtlar tekrarlanabilir gözlem alanı olur.",
+          "resulting_reading": "Yurtlar, yalnızca geçmişi hatırlatan kalıntılar olarak değil, hareket edip bakmayı ve kalan izi akılla değerlendirmeyi gerektiren tekrarlanabilir bir saha kanıtı olarak görünür.",
+          "boundary": "HFT'nin alan kanıtı ve aklın dönüştürücü rolü korunur; bağlam dalları için bağımsız sözlük facet'i kurulmaz."
+        },
+        {
+          "branch_ref": "root_000074/B003",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "29:35:4"
+          ],
+          "trigger_refs": [
+            "29:38:4:1"
+          ],
+          "focus_return_refs": [
+            "29:38:4:1",
+            "29:38:7:1"
+          ],
+          "carrier": "HFT'nin 29:35:4 koordinatına bağladığı taşıyıcı: The branch image of a manifest sign assigns evidentiary function to the surviving trace.",
+          "independent_trigger": "Odaktaki 29:38:4:1 ve 29:38:7:1 yüzeyi, HFT'nin bu bağlamsal atfını odak okumaya geri bağlar.",
+          "activation": "Odaktaki تَبَيَّنَ ve مَسَاكِنِهِمْ, 29:19-20'deki görme-yürüme-bakma dizisi ve 29:35'teki bırakılmış işaretle temas edince, yurtlar tekrarlanabilir gözlem alanı olur.",
+          "resulting_reading": "Yurtlar, yalnızca geçmişi hatırlatan kalıntılar olarak değil, hareket edip bakmayı ve kalan izi akılla değerlendirmeyi gerektiren tekrarlanabilir bir saha kanıtı olarak görünür.",
+          "boundary": "HFT'nin alan kanıtı ve aklın dönüştürücü rolü korunur; bağlam dalları için bağımsız sözlük facet'i kurulmaz."
+        },
+        {
+          "branch_ref": "root_001036/B001",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "29:35:7"
+          ],
+          "trigger_refs": [
+            "29:38:4:1"
+          ],
+          "focus_return_refs": [
+            "29:38:4:1",
+            "29:38:7:1"
+          ],
+          "carrier": "HFT'nin 29:35:7 koordinatına bağladığı taşıyıcı: The branch image of intellect restraining ignorance supplies the required conversion of observation into judgment.",
+          "independent_trigger": "Odaktaki 29:38:4:1 ve 29:38:7:1 yüzeyi, HFT'nin bu bağlamsal atfını odak okumaya geri bağlar.",
+          "activation": "Odaktaki تَبَيَّنَ ve مَسَاكِنِهِمْ, 29:19-20'deki görme-yürüme-bakma dizisi ve 29:35'teki bırakılmış işaretle temas edince, yurtlar tekrarlanabilir gözlem alanı olur.",
+          "resulting_reading": "Yurtlar, yalnızca geçmişi hatırlatan kalıntılar olarak değil, hareket edip bakmayı ve kalan izi akılla değerlendirmeyi gerektiren tekrarlanabilir bir saha kanıtı olarak görünür.",
+          "boundary": "HFT'nin alan kanıtı ve aklın dönüştürücü rolü korunur; bağlam dalları için bağımsız sözlük facet'i kurulmaz."
+        }
+      ],
+      "connection_refs": [],
+      "context_refs": [
+        "29:19",
+        "29:20",
+        "29:35"
+      ],
+      "semantic_obligation_refs": [
+        "obl_367fe286d53edd518115",
+        "obl_af9e0ac41eed0e5978ef",
+        "obl_cbec2373ea20b5d89011",
+        "obl_d6fed64894c7a00a39ad",
+        "obl_c52816511bc1ac8f51d0",
+        "obl_538b17ad019a0571faa3",
+        "obl_6a0f10ed9105ba4beb3f",
+        "obl_3145079f058527a53a01",
+        "obl_47d88ea95aa0315ec295",
+        "obl_0ab63b0e4483b8f06e91",
+        "obl_8eaa10a8fbd7656ebc35",
+        "obl_12ab657608b6c95fcb41",
+        "obl_704773cb0454201ab89d"
+      ]
+    },
+    {
+      "finding_ref": "global:embodied-inhibition",
+      "origin_candidate_id": "cand_18fd8cc8b4fefc8c9168",
+      "represented_candidate_ids": [],
+      "title": "Kavrayışa eylem düzeyinde fren eklenmesi",
+      "claim": "Süslenmiş işlerin çekimine karşı, kavrayışın tekrarlanan ve bedensel bir uygulamayla davranışı frenleyen bir karşı işlemi bulunur.",
+      "mechanism": "29:45'teki tekrarlı uygulama, çirkin ve reddedilmiş davranışı engelleyen bir ilişki içinde verilir; bu ilişki odaktaki güzelleştirmenin eylem düzeyindeki karşı mekanizmasını sağlar.",
+      "reader_payoff": "Sorun yalnızca daha iyi anlamak değil, değerlendirmeyi tekrar eden eylem içinde yönetecek bir fren kurmak olarak görünür.",
+      "containment": "Bu, HFT'nin 29:45'e dayalı atıflı karşı mekanizmasıdır; uygulamanın bütün normatif ve ritüel boyutları bu bulguya taşınmaz.",
+      "epistemic": {
+        "status": "exploratory",
+        "source_trust": [
+          "legacy_unbound"
+        ],
+        "reason": "Kaynak HFT kaydı legacy_unbound olarak nitelikli; exact ayat ve atıflı activation trace korunuyor."
+      },
+      "support_ids": [
+        "sup_90522d6b1c956355c011"
+      ],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000660/B002",
+          "facet_id": "F002",
+          "branch_gloss": "güzelleştirme ve güzelliğini görünür kılma",
+          "facet_statement": "Yerin otlarıyla güzelleşip canlanması, güzelliğin doğal bir değişimle ortaya çıkmasına örnektir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "29:38:8:2"
+          ],
+          "trigger_refs": [
+            "29:45:8"
+          ],
+          "focus_return_refs": [
+            "29:38:8:2"
+          ],
+          "carrier": "Odak biçimi, güzelleştirme ve güzelliğini görünür kılma anlam alanını bu ayetteki taşıyıcı olarak doğrudan kurar.",
+          "independent_trigger": "Odak dışı 29:45:8 koordinatı, bu odak anlamını davranışsal ve bağlamsal bir işleyişe açar.",
+          "activation": "Odaktaki زَيَّنَ ve أَعْمَالَهُمْ, 29:45'teki tekrarlı uygulama ve alıkoyma ilişkisiyle temas edince, güzelleştirmenin eylem düzeyinde frenlenebileceği görülür.",
+          "resulting_reading": "Süslenmiş işlerin çekimine karşı, kavrayışın tekrarlanan ve bedensel bir uygulamayla davranışı frenleyen bir karşı işlemi bulunur.",
+          "boundary": "HFT'nin uygulama-fren atfı korunur; odak ayetinin kendi başına sonraki uygulamayı anlattığı iddia edilmez."
+        },
+        {
+          "branch_ref": "root_001046/B001",
+          "facet_id": "F001",
+          "branch_gloss": "bilerek yapılan iş veya eylem",
+          "facet_statement": "Bir yapanın bilerek ortaya koyduğu iş veya eylem anlamı çekirdektir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "29:38:11:1"
+          ],
+          "trigger_refs": [
+            "29:45:8"
+          ],
+          "focus_return_refs": [
+            "29:38:11:1"
+          ],
+          "carrier": "Odak biçimi, bilerek yapılan iş veya eylem anlam alanını bu ayetteki taşıyıcı olarak doğrudan kurar.",
+          "independent_trigger": "Odak dışı 29:45:8 koordinatı, bu odak anlamını davranışsal ve bağlamsal bir işleyişe açar.",
+          "activation": "Odaktaki زَيَّنَ ve أَعْمَالَهُمْ, 29:45'teki tekrarlı uygulama ve alıkoyma ilişkisiyle temas edince, güzelleştirmenin eylem düzeyinde frenlenebileceği görülür.",
+          "resulting_reading": "Süslenmiş işlerin çekimine karşı, kavrayışın tekrarlanan ve bedensel bir uygulamayla davranışı frenleyen bir karşı işlemi bulunur.",
+          "boundary": "HFT'nin uygulama-fren atfı korunur; odak ayetinin kendi başına sonraki uygulamayı anlattığı iddia edilmez."
+        },
+        {
+          "branch_ref": "root_000879/B003",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "29:45:8",
+            "29:45:10"
+          ],
+          "trigger_refs": [
+            "29:38:8:2"
+          ],
+          "focus_return_refs": [
+            "29:38:8:2",
+            "29:38:11:1"
+          ],
+          "carrier": "HFT'nin 29:45:8,10 koordinatına bağladığı taşıyıcı: The branch image of the specified worship practice supplies repeated embodied orientation rather than bare cognition.",
+          "independent_trigger": "Odaktaki 29:38:8:2 ve 29:38:11:1 yüzeyi, HFT'nin bu bağlamsal atfını odak okumaya geri bağlar.",
+          "activation": "Odaktaki زَيَّنَ ve أَعْمَالَهُمْ, 29:45'teki tekrarlı uygulama ve alıkoyma ilişkisiyle temas edince, güzelleştirmenin eylem düzeyinde frenlenebileceği görülür.",
+          "resulting_reading": "Süslenmiş işlerin çekimine karşı, kavrayışın tekrarlanan ve bedensel bir uygulamayla davranışı frenleyen bir karşı işlemi bulunur.",
+          "boundary": "HFT'nin uygulama-fren atfı korunur; odak ayetinin kendi başına sonraki uygulamayı anlattığı iddia edilmez."
+        },
+        {
+          "branch_ref": "root_001560/B001",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "29:45:11"
+          ],
+          "trigger_refs": [
+            "29:38:8:2"
+          ],
+          "focus_return_refs": [
+            "29:38:8:2",
+            "29:38:11:1"
+          ],
+          "carrier": "HFT'nin 29:45:11 koordinatına bağladığı taşıyıcı: The branch image of checking and restraining an act supplies the direct counterforce to attractive wrongdoing.",
+          "independent_trigger": "Odaktaki 29:38:8:2 ve 29:38:11:1 yüzeyi, HFT'nin bu bağlamsal atfını odak okumaya geri bağlar.",
+          "activation": "Odaktaki زَيَّنَ ve أَعْمَالَهُمْ, 29:45'teki tekrarlı uygulama ve alıkoyma ilişkisiyle temas edince, güzelleştirmenin eylem düzeyinde frenlenebileceği görülür.",
+          "resulting_reading": "Süslenmiş işlerin çekimine karşı, kavrayışın tekrarlanan ve bedensel bir uygulamayla davranışı frenleyen bir karşı işlemi bulunur.",
+          "boundary": "HFT'nin uygulama-fren atfı korunur; odak ayetinin kendi başına sonraki uygulamayı anlattığı iddia edilmez."
+        },
+        {
+          "branch_ref": "root_000885/B001",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "29:45:21"
+          ],
+          "trigger_refs": [
+            "29:38:8:2"
+          ],
+          "focus_return_refs": [
+            "29:38:8:2",
+            "29:38:11:1"
+          ],
+          "carrier": "HFT'nin 29:45:21 koordinatına bağladığı taşıyıcı: The branch image of making something by skilled action keeps the diagnostic focused on produced conduct.",
+          "independent_trigger": "Odaktaki 29:38:8:2 ve 29:38:11:1 yüzeyi, HFT'nin bu bağlamsal atfını odak okumaya geri bağlar.",
+          "activation": "Odaktaki زَيَّنَ ve أَعْمَالَهُمْ, 29:45'teki tekrarlı uygulama ve alıkoyma ilişkisiyle temas edince, güzelleştirmenin eylem düzeyinde frenlenebileceği görülür.",
+          "resulting_reading": "Süslenmiş işlerin çekimine karşı, kavrayışın tekrarlanan ve bedensel bir uygulamayla davranışı frenleyen bir karşı işlemi bulunur.",
+          "boundary": "HFT'nin uygulama-fren atfı korunur; odak ayetinin kendi başına sonraki uygulamayı anlattığı iddia edilmez."
+        }
+      ],
+      "connection_refs": [],
+      "context_refs": [
+        "29:45"
+      ],
+      "semantic_obligation_refs": [
+        "obl_2922d0bd0efcbc4b153e",
+        "obl_51a338b2fda3d04cd1d9",
+        "obl_2267b65f143159bdea9a",
+        "obl_f4177910596cc9e2fdc8",
+        "obl_eee344e8b5489d8c14a2",
+        "obl_e72a86c46335a1bdd771",
+        "obl_d139dbb2a0a479b2f4e2",
+        "obl_560445a560af8d0ff0a8",
+        "obl_e246d4c5a296a274e608",
+        "obl_021c7ccbf484ff50579b"
+      ]
+    },
+    {
+      "finding_ref": "global:nonbinding-knowledge",
+      "origin_candidate_id": "cand_eff6f2741bc0415655e9",
+      "represented_candidate_ids": [],
+      "title": "Bilginin içte bulunup eylemi bağlamaması",
+      "claim": "İç işaretler ve doğru söz bulunabilir; buna rağmen inkâr, çıkarım ve davranış bunlara bağlanmayabilir.",
+      "mechanism": "29:47-49 işaretleri göğüslerde ve bilgiyi bilen kişilerde konumlandırır; 29:61-63 doğru cevapların hemen yanında yön değişmesini ve düşünmeme halini gösterir.",
+      "reader_payoff": "مُسْتَبْصِرِينَ, alaycı bir etiket olmak zorunda kalmadan, içte gerçekten bulunan fakat bağlılık ve çıkarımı yönetmeyen bir bilgi kapasitesi olarak okunur.",
+      "containment": "Bu, bilginin bağlayıcı olmamasına ilişkin atıflı bir okuma imkânıdır; doğru cevapların polemik işlevi ve alternatif ironi korunur.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": [
+          "legacy_unbound"
+        ],
+        "reason": "Kaynak HFT kaydı legacy_unbound olarak nitelikli; exact ayat ve atıflı activation trace korunuyor."
+      },
+      "support_ids": [
+        "sup_386ea38831259af5594e"
+      ],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000121/B002",
+          "facet_id": "F001",
+          "branch_gloss": "iç kavrayış",
+          "facet_statement": "Bir şeyi bilme, kalpte nüfuz eden kavrayış ve doğrulanmış anlayış çekirdektir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "29:38:16:1"
+          ],
+          "trigger_refs": [
+            "29:47:16",
+            "29:48"
+          ],
+          "focus_return_refs": [
+            "29:38:16:1"
+          ],
+          "carrier": "Odak biçimi, iç kavrayış anlam alanını bu ayetteki taşıyıcı olarak doğrudan kurar.",
+          "independent_trigger": "Odak dışı 29:47:16 koordinatı, bu odak anlamını davranışsal ve bağlamsal bir işleyişe açar.",
+          "activation": "Odaktaki iç kavrayış ve alıkoyma, göğüslerdeki işaret, bilgiyle birlikte inkâr, doğru söz ve ardından yön değiştirme dizisiyle temas edince, kavrayış ile bağlılık arasındaki kopukluk görünür.",
+          "resulting_reading": "İç işaretler ve doğru söz bulunabilir; buna rağmen inkâr, çıkarım ve davranış bunlara bağlanmayabilir.",
+          "boundary": "Atıflı HFT zinciri korunur; bu ayetteki kavrayış kelimesi yalnızca iç bilgiye indirgenmez."
+        },
+        {
+          "branch_ref": "root_000848/B001",
+          "facet_id": "F002",
+          "branch_gloss": "yüz çevirme ve alıkoyma",
+          "facet_statement": "Geçişli kullanımda özne, başka bir kişiyi belirli bir işten men eder ve yönünü o işten çevirir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "29:38:12:2"
+          ],
+          "trigger_refs": [
+            "29:47:16",
+            "29:62"
+          ],
+          "focus_return_refs": [
+            "29:38:12:2"
+          ],
+          "carrier": "Odak biçimi, yüz çevirme ve alıkoyma anlam alanını bu ayetteki taşıyıcı olarak doğrudan kurar.",
+          "independent_trigger": "Odak dışı 29:47:16 koordinatı, bu odak anlamını davranışsal ve bağlamsal bir işleyişe açar.",
+          "activation": "Odaktaki iç kavrayış ve alıkoyma, göğüslerdeki işaret, bilgiyle birlikte inkâr, doğru söz ve ardından yön değiştirme dizisiyle temas edince, kavrayış ile bağlılık arasındaki kopukluk görünür.",
+          "resulting_reading": "İç işaretler ve doğru söz bulunabilir; buna rağmen inkâr, çıkarım ve davranış bunlara bağlanmayabilir.",
+          "boundary": "Atıflı HFT zinciri korunur; bu ayetteki kavrayış kelimesi yalnızca iç bilgiye indirgenmez."
+        },
+        {
+          "branch_ref": "root_000224/B001",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "29:47:16"
+          ],
+          "trigger_refs": [
+            "29:38:16:1"
+          ],
+          "focus_return_refs": [
+            "29:38:16:1",
+            "29:38:12:2"
+          ],
+          "carrier": "HFT'nin 29:47:16 koordinatına bağladığı taşıyıcı: The branch image of denial with knowledge directly supplies cognition coexisting with refusal.",
+          "independent_trigger": "Odaktaki 29:38:16:1 ve 29:38:12:2 yüzeyi, HFT'nin bu bağlamsal atfını odak okumaya geri bağlar.",
+          "activation": "Odaktaki iç kavrayış ve alıkoyma, göğüslerdeki işaret, bilgiyle birlikte inkâr, doğru söz ve ardından yön değiştirme dizisiyle temas edince, kavrayış ile bağlılık arasındaki kopukluk görünür.",
+          "resulting_reading": "İç işaretler ve doğru söz bulunabilir; buna rağmen inkâr, çıkarım ve davranış bunlara bağlanmayabilir.",
+          "boundary": "Atıflı HFT zinciri korunur; bu ayetteki kavrayış kelimesi yalnızca iç bilgiye indirgenmez."
+        },
+        {
+          "branch_ref": "root_000074/B003",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "29:49:3",
+            "29:49:12"
+          ],
+          "trigger_refs": [
+            "29:38:16:1"
+          ],
+          "focus_return_refs": [
+            "29:38:16:1",
+            "29:38:12:2"
+          ],
+          "carrier": "HFT'nin 29:49:3,12 koordinatına bağladığı taşıyıcı: Manifest signs supply content that is internally present rather than unavailable.",
+          "independent_trigger": "Odaktaki 29:38:16:1 ve 29:38:12:2 yüzeyi, HFT'nin bu bağlamsal atfını odak okumaya geri bağlar.",
+          "activation": "Odaktaki iç kavrayış ve alıkoyma, göğüslerdeki işaret, bilgiyle birlikte inkâr, doğru söz ve ardından yön değiştirme dizisiyle temas edince, kavrayış ile bağlılık arasındaki kopukluk görünür.",
+          "resulting_reading": "İç işaretler ve doğru söz bulunabilir; buna rağmen inkâr, çıkarım ve davranış bunlara bağlanmayabilir.",
+          "boundary": "Atıflı HFT zinciri korunur; bu ayetteki kavrayış kelimesi yalnızca iç bilgiye indirgenmez."
+        },
+        {
+          "branch_ref": "root_000849/B004",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "29:49:6"
+          ],
+          "trigger_refs": [
+            "29:38:16:1"
+          ],
+          "focus_return_refs": [
+            "29:38:16:1",
+            "29:38:12:2"
+          ],
+          "carrier": "HFT'nin 29:49:6 koordinatına bağladığı taşıyıcı: The branch image of the source from which actions issue places the signs inside the action-generating interior.",
+          "independent_trigger": "Odaktaki 29:38:16:1 ve 29:38:12:2 yüzeyi, HFT'nin bu bağlamsal atfını odak okumaya geri bağlar.",
+          "activation": "Odaktaki iç kavrayış ve alıkoyma, göğüslerdeki işaret, bilgiyle birlikte inkâr, doğru söz ve ardından yön değiştirme dizisiyle temas edince, kavrayış ile bağlılık arasındaki kopukluk görünür.",
+          "resulting_reading": "İç işaretler ve doğru söz bulunabilir; buna rağmen inkâr, çıkarım ve davranış bunlara bağlanmayabilir.",
+          "boundary": "Atıflı HFT zinciri korunur; bu ayetteki kavrayış kelimesi yalnızca iç bilgiye indirgenmez."
+        },
+        {
+          "branch_ref": "root_001040/B001",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "29:49:9"
+          ],
+          "trigger_refs": [
+            "29:38:16:1"
+          ],
+          "focus_return_refs": [
+            "29:38:16:1",
+            "29:38:12:2"
+          ],
+          "carrier": "HFT'nin 29:49:9 koordinatına bağladığı taşıyıcı: The branch image of disclosure to the knower supplies genuine possession of knowledge.",
+          "independent_trigger": "Odaktaki 29:38:16:1 ve 29:38:12:2 yüzeyi, HFT'nin bu bağlamsal atfını odak okumaya geri bağlar.",
+          "activation": "Odaktaki iç kavrayış ve alıkoyma, göğüslerdeki işaret, bilgiyle birlikte inkâr, doğru söz ve ardından yön değiştirme dizisiyle temas edince, kavrayış ile bağlılık arasındaki kopukluk görünür.",
+          "resulting_reading": "İç işaretler ve doğru söz bulunabilir; buna rağmen inkâr, çıkarım ve davranış bunlara bağlanmayabilir.",
+          "boundary": "Atıflı HFT zinciri korunur; bu ayetteki kavrayış kelimesi yalnızca iç bilgiye indirgenmez."
+        },
+        {
+          "branch_ref": "root_001272/B001",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "29:61:10"
+          ],
+          "trigger_refs": [
+            "29:38:16:1"
+          ],
+          "focus_return_refs": [
+            "29:38:16:1",
+            "29:38:12:2"
+          ],
+          "carrier": "HFT'nin 29:61:10 koordinatına bağladığı taşıyıcı: The branch image of voiced speech supplies an overtly correct answer that still does not govern orientation.",
+          "independent_trigger": "Odaktaki 29:38:16:1 ve 29:38:12:2 yüzeyi, HFT'nin bu bağlamsal atfını odak okumaya geri bağlar.",
+          "activation": "Odaktaki iç kavrayış ve alıkoyma, göğüslerdeki işaret, bilgiyle birlikte inkâr, doğru söz ve ardından yön değiştirme dizisiyle temas edince, kavrayış ile bağlılık arasındaki kopukluk görünür.",
+          "resulting_reading": "İç işaretler ve doğru söz bulunabilir; buna rağmen inkâr, çıkarım ve davranış bunlara bağlanmayabilir.",
+          "boundary": "Atıflı HFT zinciri korunur; bu ayetteki kavrayış kelimesi yalnızca iç bilgiye indirgenmez."
+        },
+        {
+          "branch_ref": "root_000041/B001",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "29:61:13"
+          ],
+          "trigger_refs": [
+            "29:38:16:1"
+          ],
+          "focus_return_refs": [
+            "29:38:16:1",
+            "29:38:12:2"
+          ],
+          "carrier": "HFT'nin 29:61:13 koordinatına bağladığı taşıyıcı: The branch image of turning something from its direction supplies the broken transition from premise to orientation.",
+          "independent_trigger": "Odaktaki 29:38:16:1 ve 29:38:12:2 yüzeyi, HFT'nin bu bağlamsal atfını odak okumaya geri bağlar.",
+          "activation": "Odaktaki iç kavrayış ve alıkoyma, göğüslerdeki işaret, bilgiyle birlikte inkâr, doğru söz ve ardından yön değiştirme dizisiyle temas edince, kavrayış ile bağlılık arasındaki kopukluk görünür.",
+          "resulting_reading": "İç işaretler ve doğru söz bulunabilir; buna rağmen inkâr, çıkarım ve davranış bunlara bağlanmayabilir.",
+          "boundary": "Atıflı HFT zinciri korunur; bu ayetteki kavrayış kelimesi yalnızca iç bilgiye indirgenmez."
+        },
+        {
+          "branch_ref": "root_001036/B001",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "29:63:22"
+          ],
+          "trigger_refs": [
+            "29:38:16:1"
+          ],
+          "focus_return_refs": [
+            "29:38:16:1",
+            "29:38:12:2"
+          ],
+          "carrier": "HFT'nin 29:63:22 koordinatına bağladığı taşıyıcı: The branch image of intellect restraining ignorance supplies the inferential restraint absent after another correct answer.",
+          "independent_trigger": "Odaktaki 29:38:16:1 ve 29:38:12:2 yüzeyi, HFT'nin bu bağlamsal atfını odak okumaya geri bağlar.",
+          "activation": "Odaktaki iç kavrayış ve alıkoyma, göğüslerdeki işaret, bilgiyle birlikte inkâr, doğru söz ve ardından yön değiştirme dizisiyle temas edince, kavrayış ile bağlılık arasındaki kopukluk görünür.",
+          "resulting_reading": "İç işaretler ve doğru söz bulunabilir; buna rağmen inkâr, çıkarım ve davranış bunlara bağlanmayabilir.",
+          "boundary": "Atıflı HFT zinciri korunur; bu ayetteki kavrayış kelimesi yalnızca iç bilgiye indirgenmez."
+        }
+      ],
+      "connection_refs": [],
+        "context_refs": [
+          "29:47",
+          "29:48",
+          "29:49",
+          "29:61",
+          "29:62",
+          "29:63"
+        ],
+      "semantic_obligation_refs": [
+        "obl_6824b5f93793ceee39ad",
+        "obl_2d858cdb585546429c1d",
+        "obl_297ff56f1f978290ec15",
+        "obl_6ab278bc03258cd5539d",
+        "obl_c4b3a95e6d76ed64adf7",
+        "obl_d38850e53a1718d7bed8",
+        "obl_71bba862efa8c3e29797",
+        "obl_007f4a73cc8e5b093bcf",
+        "obl_84cea3698ccfb1d992e9",
+        "obl_71a2cb497b063b16363d",
+        "obl_5248c20d0e772d0622d0",
+        "obl_a6176894430a98e3655a",
+        "obl_a6f52cdc6294776167a5",
+        "obl_099ff60d95afe8430c9f"
+      ]
+    },
+    {
+      "finding_ref": "global:state-dependent-salience",
+      "origin_candidate_id": "cand_2e491022b5747ed267d7",
+      "represented_candidate_ids": [],
+      "title": "Sabit özellikten duruma bağlı salience rejimine",
+      "claim": "Kavrayış mevcut kalabilir; fakat kriz çekici seçenekleri soyduğunda davranışı yönetir, güvenlik geri geldiğinde sıradan çekim yeniden üstün gelebilir.",
+      "mechanism": "29:64 dikkat dağıtan meşguliyeti ve amaçsız eylemi, 29:65 ise tehlike altında arınmış bağlılığı, kurtuluşu ve yeniden ortaklığı art arda verir.",
+      "reader_payoff": "İçgörü, sürekli bulunan veya sürekli kaybolan bir kişilik özelliği yerine, hangi çekimin davranışı yönettiğine bağlı olarak etkinleşen bir kapasite olarak görünür.",
+      "containment": "Duruma bağlı çekim değişimi atıflı HFT çıkarımıdır; sahnenin basit retorik tutarsızlık olarak okunması canlı kalır.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": [
+          "legacy_unbound"
+        ],
+        "reason": "Kaynak HFT kaydı legacy_unbound olarak nitelikli; exact ayat ve atıflı activation trace korunuyor."
+      },
+      "support_ids": [
+        "sup_891d2200b6fc717ec68b"
+      ],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000660/B002",
+          "facet_id": "F001",
+          "branch_gloss": "güzelleştirme ve güzelliğini görünür kılma",
+          "facet_statement": "Bir şey güzelleştirilir veya onda bulunan güzellik eylem ya da söz yoluyla görünür hale getirilir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "29:38:8:2"
+          ],
+          "trigger_refs": [
+            "29:64:6"
+          ],
+          "focus_return_refs": [
+            "29:38:8:2"
+          ],
+          "carrier": "Odak biçimi, güzelleştirme ve güzelliğini görünür kılma anlam alanını bu ayetteki taşıyıcı olarak doğrudan kurar.",
+          "independent_trigger": "Odak dışı 29:64:6 koordinatı, bu odak anlamını davranışsal ve bağlamsal bir işleyişe açar.",
+          "activation": "Odaktaki güzelleştirme ve olma halinde bulunma, 29:64-65'teki dikkat dağılması, amaçsız eylem, kriz arınması ve kurtuluş sonrası ortaklık dönüşüyle temas edince, etkili yönelişin duruma bağlı olduğu görülür.",
+          "resulting_reading": "Kavrayış mevcut kalabilir; fakat kriz çekici seçenekleri soyduğunda davranışı yönetir, güvenlik geri geldiğinde sıradan çekim yeniden üstün gelebilir.",
+          "boundary": "HFT'nin atıflı durum değişimi korunur; kavrayışın psikolojik bir durum anahtarı olduğu kesinlenmez."
+        },
+        {
+          "branch_ref": "root_001332/B001",
+          "facet_id": "F003",
+          "branch_gloss": "gerçekleşme, bulunma ve olma bildirimi",
+          "facet_statement": "Geçmişteki bir durumun haber verilmesi veya şimdiki olmanın bildirilmesi bu alana bağlıdır.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "29:38:15:2"
+          ],
+          "trigger_refs": [
+            "29:64:6"
+          ],
+          "focus_return_refs": [
+            "29:38:15:2"
+          ],
+          "carrier": "Odak biçimi, gerçekleşme, bulunma ve olma bildirimi anlam alanını bu ayetteki taşıyıcı olarak doğrudan kurar.",
+          "independent_trigger": "Odak dışı 29:64:6 koordinatı, bu odak anlamını davranışsal ve bağlamsal bir işleyişe açar.",
+          "activation": "Odaktaki güzelleştirme ve olma halinde bulunma, 29:64-65'teki dikkat dağılması, amaçsız eylem, kriz arınması ve kurtuluş sonrası ortaklık dönüşüyle temas edince, etkili yönelişin duruma bağlı olduğu görülür.",
+          "resulting_reading": "Kavrayış mevcut kalabilir; fakat kriz çekici seçenekleri soyduğunda davranışı yönetir, güvenlik geri geldiğinde sıradan çekim yeniden üstün gelebilir.",
+          "boundary": "HFT'nin atıflı durum değişimi korunur; kavrayışın psikolojik bir durum anahtarı olduğu kesinlenmez."
+        },
+        {
+          "branch_ref": "root_001382/B001",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "29:64:6"
+          ],
+          "trigger_refs": [
+            "29:38:8:2"
+          ],
+          "focus_return_refs": [
+            "29:38:8:2",
+            "29:38:15:2"
+          ],
+          "carrier": "HFT'nin 29:64:6 koordinatına bağladığı taşıyıcı: The branch image of being occupied away from one thing by another supplies attentional displacement.",
+          "independent_trigger": "Odaktaki 29:38:8:2 ve 29:38:15:2 yüzeyi, HFT'nin bu bağlamsal atfını odak okumaya geri bağlar.",
+          "activation": "Odaktaki güzelleştirme ve olma halinde bulunma, 29:64-65'teki dikkat dağılması, amaçsız eylem, kriz arınması ve kurtuluş sonrası ortaklık dönüşüyle temas edince, etkili yönelişin duruma bağlı olduğu görülür.",
+          "resulting_reading": "Kavrayış mevcut kalabilir; fakat kriz çekici seçenekleri soyduğunda davranışı yönetir, güvenlik geri geldiğinde sıradan çekim yeniden üstün gelebilir.",
+          "boundary": "HFT'nin atıflı durum değişimi korunur; kavrayışın psikolojik bir durum anahtarı olduğu kesinlenmez."
+        },
+        {
+          "branch_ref": "root_001358/B001",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "29:64:7"
+          ],
+          "trigger_refs": [
+            "29:38:8:2"
+          ],
+          "focus_return_refs": [
+            "29:38:8:2",
+            "29:38:15:2"
+          ],
+          "carrier": "HFT'nin 29:64:7 koordinatına bağladığı taşıyıcı: The branch image of action without a sound aim supplies energetic but misdirected conduct.",
+          "independent_trigger": "Odaktaki 29:38:8:2 ve 29:38:15:2 yüzeyi, HFT'nin bu bağlamsal atfını odak okumaya geri bağlar.",
+          "activation": "Odaktaki güzelleştirme ve olma halinde bulunma, 29:64-65'teki dikkat dağılması, amaçsız eylem, kriz arınması ve kurtuluş sonrası ortaklık dönüşüyle temas edince, etkili yönelişin duruma bağlı olduğu görülür.",
+          "resulting_reading": "Kavrayış mevcut kalabilir; fakat kriz çekici seçenekleri soyduğunda davranışı yönetir, güvenlik geri geldiğinde sıradan çekim yeniden üstün gelebilir.",
+          "boundary": "HFT'nin atıflı durum değişimi korunur; kavrayışın psikolojik bir durum anahtarı olduğu kesinlenmez."
+        },
+        {
+          "branch_ref": "root_000430/B004",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "29:65:7"
+          ],
+          "trigger_refs": [
+            "29:38:8:2"
+          ],
+          "focus_return_refs": [
+            "29:38:8:2",
+            "29:38:15:2"
+          ],
+          "carrier": "HFT'nin 29:65:7 koordinatına bağladığı taşıyıcı: The branch image of exclusive separation from association supplies crisis-induced clearing of competing commitments.",
+          "independent_trigger": "Odaktaki 29:38:8:2 ve 29:38:15:2 yüzeyi, HFT'nin bu bağlamsal atfını odak okumaya geri bağlar.",
+          "activation": "Odaktaki güzelleştirme ve olma halinde bulunma, 29:64-65'teki dikkat dağılması, amaçsız eylem, kriz arınması ve kurtuluş sonrası ortaklık dönüşüyle temas edince, etkili yönelişin duruma bağlı olduğu görülür.",
+          "resulting_reading": "Kavrayış mevcut kalabilir; fakat kriz çekici seçenekleri soyduğunda davranışı yönetir, güvenlik geri geldiğinde sıradan çekim yeniden üstün gelebilir.",
+          "boundary": "HFT'nin atıflı durum değişimi korunur; kavrayışın psikolojik bir durum anahtarı olduğu kesinlenmez."
+        },
+        {
+          "branch_ref": "root_001476/B001",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "29:65:11"
+          ],
+          "trigger_refs": [
+            "29:38:8:2"
+          ],
+          "focus_return_refs": [
+            "29:38:8:2",
+            "29:38:15:2"
+          ],
+          "carrier": "HFT'nin 29:65:11 koordinatına bağladığı taşıyıcı: The branch image of escape by separation supplies the transition back into safety.",
+          "independent_trigger": "Odaktaki 29:38:8:2 ve 29:38:15:2 yüzeyi, HFT'nin bu bağlamsal atfını odak okumaya geri bağlar.",
+          "activation": "Odaktaki güzelleştirme ve olma halinde bulunma, 29:64-65'teki dikkat dağılması, amaçsız eylem, kriz arınması ve kurtuluş sonrası ortaklık dönüşüyle temas edince, etkili yönelişin duruma bağlı olduğu görülür.",
+          "resulting_reading": "Kavrayış mevcut kalabilir; fakat kriz çekici seçenekleri soyduğunda davranışı yönetir, güvenlik geri geldiğinde sıradan çekim yeniden üstün gelebilir.",
+          "boundary": "HFT'nin atıflı durum değişimi korunur; kavrayışın psikolojik bir durum anahtarı olduğu kesinlenmez."
+        },
+        {
+          "branch_ref": "root_000791/B002",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "29:65:16"
+          ],
+          "trigger_refs": [
+            "29:38:8:2"
+          ],
+          "focus_return_refs": [
+            "29:38:8:2",
+            "29:38:15:2"
+          ],
+          "carrier": "HFT'nin 29:65:16 koordinatına bağladığı taşıyıcı: The branch image of association with God supplies the restored ordinary pattern after rescue.",
+          "independent_trigger": "Odaktaki 29:38:8:2 ve 29:38:15:2 yüzeyi, HFT'nin bu bağlamsal atfını odak okumaya geri bağlar.",
+          "activation": "Odaktaki güzelleştirme ve olma halinde bulunma, 29:64-65'teki dikkat dağılması, amaçsız eylem, kriz arınması ve kurtuluş sonrası ortaklık dönüşüyle temas edince, etkili yönelişin duruma bağlı olduğu görülür.",
+          "resulting_reading": "Kavrayış mevcut kalabilir; fakat kriz çekici seçenekleri soyduğunda davranışı yönetir, güvenlik geri geldiğinde sıradan çekim yeniden üstün gelebilir.",
+          "boundary": "HFT'nin atıflı durum değişimi korunur; kavrayışın psikolojik bir durum anahtarı olduğu kesinlenmez."
+        }
+      ],
+      "connection_refs": [],
+      "context_refs": [
+        "29:64",
+        "29:65"
+      ],
+      "semantic_obligation_refs": [
+        "obl_3c77cffa2f1d12f60ff3",
+        "obl_060079e7d0b442799273",
+        "obl_8bb3aedcf933787de59a",
+        "obl_0777fde495dcd4ba35d8",
+        "obl_14faf9ed62f12fcb7ed7",
+        "obl_f887cbba32e4d340b1e5",
+        "obl_cb566653d78e84c3f462",
+        "obl_aff72bf636feb1642e07",
+        "obl_4b98e089ee04c236b9f7",
+        "obl_210ac740824ca479a589",
+        "obl_1747d25e56b85b9959e0",
+        "obl_7dd941c875bf85b83f0e"
+      ]
+    },
+    {
+      "finding_ref": "global:security-belief-collision",
+      "origin_candidate_id": "cand_21f509a01c539ee2988d",
+      "represented_candidate_ids": [],
+      "title": "Güvenliği doğru görüp güveni yanlış yere bağlamak",
+      "claim": "Güvenli alan ile çevresindeki tehdidi ayırt edebilirken, yerleşik güveni yanlış nesneye bağlamak mümkündür; görme ile bağlılık aynı haritayı izlemez.",
+      "mechanism": "29:67 doğrudan görmeyi, sığınaktaki güvenliği, çevredeki kapılmayı ve aynı güven kökünün inanma eyleminde kullanılmasını yan yana getirir; ardından güven yanlış olana bağlanır.",
+      "reader_payoff": "Sorun, gerçeği hiç seçememekten çok, seçilmiş güvenlik bilgisini yanlış bağlılığın nesnesine aktarmak olarak görünür.",
+      "containment": "Bu okuma HFT'nin kök ve sahne temasına dayalı atıflı bir çıkarımdır; ortak kökün yalnızca kelime oyunu olduğu alternatif korunur.",
+      "epistemic": {
+        "status": "exploratory",
+        "source_trust": [
+          "legacy_unbound"
+        ],
+        "reason": "Kaynak HFT kaydı legacy_unbound olarak nitelikli; exact ayat ve atıflı activation trace korunuyor."
+      },
+      "support_ids": [
+        "sup_a9f84032e1d82087f211"
+      ],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000121/B002",
+          "facet_id": "F001",
+          "branch_gloss": "iç kavrayış",
+          "facet_statement": "Bir şeyi bilme, kalpte nüfuz eden kavrayış ve doğrulanmış anlayış çekirdektir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "29:38:16:1"
+          ],
+          "trigger_refs": [
+            "29:67:2"
+          ],
+          "focus_return_refs": [
+            "29:38:16:1"
+          ],
+          "carrier": "Odak biçimi, iç kavrayış anlam alanını bu ayetteki taşıyıcı olarak doğrudan kurar.",
+          "independent_trigger": "Odak dışı 29:67:2 koordinatı, bu odak anlamını davranışsal ve bağlamsal bir işleyişe açar.",
+          "activation": "Odaktaki iç kavrayış, 29:67'de güvenli alan ile çevredeki tehdidi ayırt eden görme ve yanlış nesneye yönelen inanma ilişkisiyle temas edince, kavrayış ile güven tahsisi ayrışır.",
+          "resulting_reading": "Güvenli alan ile çevresindeki tehdidi ayırt edebilirken, yerleşik güveni yanlış nesneye bağlamak mümkündür; görme ile bağlılık aynı haritayı izlemez.",
+          "boundary": "HFT'nin atıflı güven ve görme ilişkisi korunur; ortak kökten doğrudan bir nedensellik kesinlenmez."
+        },
+        {
+          "branch_ref": "root_000531/B001",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "29:67:2"
+          ],
+          "trigger_refs": [
+            "29:38:16:1"
+          ],
+          "focus_return_refs": [
+            "29:38:16:1"
+          ],
+          "carrier": "HFT'nin 29:67:2 koordinatına bağladığı taşıyıcı: The branch image of eye-sight and insight supplies explicit recognition of the security contrast.",
+          "independent_trigger": "Odaktaki 29:38:16:1 yüzeyi, HFT'nin bu bağlamsal atfını odak okumaya geri bağlar.",
+          "activation": "Odaktaki iç kavrayış, 29:67'de güvenli alan ile çevredeki tehdidi ayırt eden görme ve yanlış nesneye yönelen inanma ilişkisiyle temas edince, kavrayış ile güven tahsisi ayrışır.",
+          "resulting_reading": "Güvenli alan ile çevresindeki tehdidi ayırt edebilirken, yerleşik güveni yanlış nesneye bağlamak mümkündür; görme ile bağlılık aynı haritayı izlemez.",
+          "boundary": "HFT'nin atıflı güven ve görme ilişkisi korunur; ortak kökten doğrudan bir nedensellik kesinlenmez."
+        },
+        {
+          "branch_ref": "root_000054/B001",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "29:67:6",
+            "29:67:12"
+          ],
+          "trigger_refs": [
+            "29:38:16:1"
+          ],
+          "focus_return_refs": [
+            "29:38:16:1"
+          ],
+          "carrier": "HFT'nin 29:67:6,12 koordinatına bağladığı taşıyıcı: The branch image of settled security and trust binds the secure sanctuary and the later act of believing within one supplied root occurrence.",
+          "independent_trigger": "Odaktaki 29:38:16:1 yüzeyi, HFT'nin bu bağlamsal atfını odak okumaya geri bağlar.",
+          "activation": "Odaktaki iç kavrayış, 29:67'de güvenli alan ile çevredeki tehdidi ayırt eden görme ve yanlış nesneye yönelen inanma ilişkisiyle temas edince, kavrayış ile güven tahsisi ayrışır.",
+          "resulting_reading": "Güvenli alan ile çevresindeki tehdidi ayırt edebilirken, yerleşik güveni yanlış nesneye bağlamak mümkündür; görme ile bağlılık aynı haritayı izlemez.",
+          "boundary": "HFT'nin atıflı güven ve görme ilişkisi korunur; ortak kökten doğrudan bir nedensellik kesinlenmez."
+        },
+        {
+          "branch_ref": "root_000423/B001",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "29:67:7"
+          ],
+          "trigger_refs": [
+            "29:38:16:1"
+          ],
+          "focus_return_refs": [
+            "29:38:16:1"
+          ],
+          "carrier": "HFT'nin 29:67:7 koordinatına bağladığı taşıyıcı: The branch image of swift snatching supplies the visible insecurity surrounding the sanctuary.",
+          "independent_trigger": "Odaktaki 29:38:16:1 yüzeyi, HFT'nin bu bağlamsal atfını odak okumaya geri bağlar.",
+          "activation": "Odaktaki iç kavrayış, 29:67'de güvenli alan ile çevredeki tehdidi ayırt eden görme ve yanlış nesneye yönelen inanma ilişkisiyle temas edince, kavrayış ile güven tahsisi ayrışır.",
+          "resulting_reading": "Güvenli alan ile çevresindeki tehdidi ayırt edebilirken, yerleşik güveni yanlış nesneye bağlamak mümkündür; görme ile bağlılık aynı haritayı izlemez.",
+          "boundary": "HFT'nin atıflı güven ve görme ilişkisi korunur; ortak kökten doğrudan bir nedensellik kesinlenmez."
+        },
+        {
+          "branch_ref": "root_000127/B001",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "29:67:11"
+          ],
+          "trigger_refs": [
+            "29:38:16:1"
+          ],
+          "focus_return_refs": [
+            "29:38:16:1"
+          ],
+          "carrier": "HFT'nin 29:67:11 koordinatına bağladığı taşıyıcı: The branch image of losing truth and stability supplies the false object to which trust is assigned.",
+          "independent_trigger": "Odaktaki 29:38:16:1 yüzeyi, HFT'nin bu bağlamsal atfını odak okumaya geri bağlar.",
+          "activation": "Odaktaki iç kavrayış, 29:67'de güvenli alan ile çevredeki tehdidi ayırt eden görme ve yanlış nesneye yönelen inanma ilişkisiyle temas edince, kavrayış ile güven tahsisi ayrışır.",
+          "resulting_reading": "Güvenli alan ile çevresindeki tehdidi ayırt edebilirken, yerleşik güveni yanlış nesneye bağlamak mümkündür; görme ile bağlılık aynı haritayı izlemez.",
+          "boundary": "HFT'nin atıflı güven ve görme ilişkisi korunur; ortak kökten doğrudan bir nedensellik kesinlenmez."
+        }
+      ],
+      "connection_refs": [],
+      "context_refs": [
+        "29:67"
+      ],
+      "semantic_obligation_refs": [
+        "obl_e0464759a171687a15cd",
+        "obl_8dba24312d9eb4f4ef02",
+        "obl_b4a688e793e3d0879d23",
+        "obl_acb7e6458fb7c9b5adfa",
+        "obl_be156ab020568b368761",
+        "obl_84814f0e95944d3c819f",
+        "obl_5856ee00ff2b435cfcbc",
+        "obl_b8d8b8e767060d5f64a5",
+        "obl_e2f14128f3eaa8107032",
+        "obl_4807e4b03c81b6b14a19"
+      ]
+    },
+    {
+      "finding_ref": "global:effort-opens-paths",
+      "origin_candidate_id": "cand_f2ec08c088717523861f",
+      "represented_candidate_ids": [],
+      "title": "Eylemli çabanın kapalı yolu açması",
+      "claim": "Algı tek başına eylemsiz kalabilir; zorlu çaba, yönlendirme ve açılan yollarla buluştuğunda, çekici işlerin kapattığı tekil yolun karşısına geçilebilir güzergâhlar çıkar.",
+      "mechanism": "29:69 çabayı, yönlendirmeyi ve çoğul yolları birlikte verir; bu dizi 29:38'deki kavrayış, alıkoyma ve tekil yol temasına davranışla açılan bir karşı işlem ekler.",
+      "reader_payoff": "Düzeltici unsurun daha fazla görmek değil, kavrayışı hareket ve rehberlikle yola dönüştürmek olduğu görünür.",
+      "containment": "Bu, HFT'nin 29:69'a bağlı atıflı karşı dizisidir; tekil ve çoğul yol biçimlerinin kesin bir dilbilgisel karşıtlık olduğu ileri sürülmez.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": [
+          "legacy_unbound"
+        ],
+        "reason": "Kaynak HFT kaydı legacy_unbound olarak nitelikli; exact ayat ve atıflı activation trace korunuyor."
+      },
+      "support_ids": [
+        "sup_a42ebf8ea764ccd4776f"
+      ],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000848/B001",
+          "facet_id": "F002",
+          "branch_gloss": "yüz çevirme ve alıkoyma",
+          "facet_statement": "Geçişli kullanımda özne, başka bir kişiyi belirli bir işten men eder ve yönünü o işten çevirir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "29:38:12:2"
+          ],
+          "trigger_refs": [
+            "29:69:2"
+          ],
+          "focus_return_refs": [
+            "29:38:12:2"
+          ],
+          "carrier": "Odak biçimi, yüz çevirme ve alıkoyma anlam alanını bu ayetteki taşıyıcı olarak doğrudan kurar.",
+          "independent_trigger": "Odak dışı 29:69:2 koordinatı, bu odak anlamını davranışsal ve bağlamsal bir işleyişe açar.",
+          "activation": "Odaktaki صَدَّ ve ٱلسَّبِيلِ, 29:69'da çaba, yönlendirme ve çoğul yollarla temas edince, kavrayışın yolu açan eylemli bir karşılığa ihtiyaç duyduğu görünür.",
+          "resulting_reading": "Algı tek başına eylemsiz kalabilir; zorlu çaba, yönlendirme ve açılan yollarla buluştuğunda, çekici işlerin kapattığı tekil yolun karşısına geçilebilir güzergâhlar çıkar.",
+          "boundary": "Atıflı çaba-yönlendirme dizisi korunur; odak ayetinde doğrudan bir çözüm vaadi bulunduğu iddia edilmez."
+        },
+        {
+          "branch_ref": "root_000672/B001",
+          "facet_id": "F001",
+          "branch_gloss": "yol ve bir amaca ulaştıran yol",
+          "facet_statement": "İnsanların üzerinde yürüyüp ilerlediği uzanmış yol veya yolları belirtir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "29:38:14:2"
+          ],
+          "trigger_refs": [
+            "29:69:2"
+          ],
+          "focus_return_refs": [
+            "29:38:14:2"
+          ],
+          "carrier": "Odak biçimi, yol ve bir amaca ulaştıran yol anlam alanını bu ayetteki taşıyıcı olarak doğrudan kurar.",
+          "independent_trigger": "Odak dışı 29:69:2 koordinatı, bu odak anlamını davranışsal ve bağlamsal bir işleyişe açar.",
+          "activation": "Odaktaki صَدَّ ve ٱلسَّبِيلِ, 29:69'da çaba, yönlendirme ve çoğul yollarla temas edince, kavrayışın yolu açan eylemli bir karşılığa ihtiyaç duyduğu görünür.",
+          "resulting_reading": "Algı tek başına eylemsiz kalabilir; zorlu çaba, yönlendirme ve açılan yollarla buluştuğunda, çekici işlerin kapattığı tekil yolun karşısına geçilebilir güzergâhlar çıkar.",
+          "boundary": "Atıflı çaba-yönlendirme dizisi korunur; odak ayetinde doğrudan bir çözüm vaadi bulunduğu iddia edilmez."
+        },
+        {
+          "branch_ref": "root_000268/B001",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "29:69:2"
+          ],
+          "trigger_refs": [
+            "29:38:12:2"
+          ],
+          "focus_return_refs": [
+            "29:38:12:2",
+            "29:38:14:2"
+          ],
+          "carrier": "HFT'nin 29:69:2 koordinatına bağladığı taşıyıcı: The branch image of expending capacity under hardship supplies committed motion beyond passive insight.",
+          "independent_trigger": "Odaktaki 29:38:12:2 ve 29:38:14:2 yüzeyi, HFT'nin bu bağlamsal atfını odak okumaya geri bağlar.",
+          "activation": "Odaktaki صَدَّ ve ٱلسَّبِيلِ, 29:69'da çaba, yönlendirme ve çoğul yollarla temas edince, kavrayışın yolu açan eylemli bir karşılığa ihtiyaç duyduğu görünür.",
+          "resulting_reading": "Algı tek başına eylemsiz kalabilir; zorlu çaba, yönlendirme ve açılan yollarla buluştuğunda, çekici işlerin kapattığı tekil yolun karşısına geçilebilir güzergâhlar çıkar.",
+          "boundary": "Atıflı çaba-yönlendirme dizisi korunur; odak ayetinde doğrudan bir çözüm vaadi bulunduğu iddia edilmez."
+        },
+        {
+          "branch_ref": "root_001583/B001",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "29:69:4"
+          ],
+          "trigger_refs": [
+            "29:38:12:2"
+          ],
+          "focus_return_refs": [
+            "29:38:12:2",
+            "29:38:14:2"
+          ],
+          "carrier": "HFT'nin 29:69:4 koordinatına bağladığı taşıyıcı: The branch image of gentle direction to road and truth supplies responsive guidance.",
+          "independent_trigger": "Odaktaki 29:38:12:2 ve 29:38:14:2 yüzeyi, HFT'nin bu bağlamsal atfını odak okumaya geri bağlar.",
+          "activation": "Odaktaki صَدَّ ve ٱلسَّبِيلِ, 29:69'da çaba, yönlendirme ve çoğul yollarla temas edince, kavrayışın yolu açan eylemli bir karşılığa ihtiyaç duyduğu görünür.",
+          "resulting_reading": "Algı tek başına eylemsiz kalabilir; zorlu çaba, yönlendirme ve açılan yollarla buluştuğunda, çekici işlerin kapattığı tekil yolun karşısına geçilebilir güzergâhlar çıkar.",
+          "boundary": "Atıflı çaba-yönlendirme dizisi korunur; odak ayetinde doğrudan bir çözüm vaadi bulunduğu iddia edilmez."
+        },
+        {
+          "branch_ref": "root_000672/B001",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "29:69:5"
+          ],
+          "trigger_refs": [
+            "29:38:12:2"
+          ],
+          "focus_return_refs": [
+            "29:38:12:2",
+            "29:38:14:2"
+          ],
+          "carrier": "HFT'nin 29:69:5 koordinatına bağladığı taşıyıcı: The extended roads, now plural in the source, supply opened courses that answer exertion.",
+          "independent_trigger": "Odaktaki 29:38:12:2 ve 29:38:14:2 yüzeyi, HFT'nin bu bağlamsal atfını odak okumaya geri bağlar.",
+          "activation": "Odaktaki صَدَّ ve ٱلسَّبِيلِ, 29:69'da çaba, yönlendirme ve çoğul yollarla temas edince, kavrayışın yolu açan eylemli bir karşılığa ihtiyaç duyduğu görünür.",
+          "resulting_reading": "Algı tek başına eylemsiz kalabilir; zorlu çaba, yönlendirme ve açılan yollarla buluştuğunda, çekici işlerin kapattığı tekil yolun karşısına geçilebilir güzergâhlar çıkar.",
+          "boundary": "Atıflı çaba-yönlendirme dizisi korunur; odak ayetinde doğrudan bir çözüm vaadi bulunduğu iddia edilmez."
+        }
+      ],
+      "connection_refs": [],
+      "context_refs": [
+        "29:69"
+      ],
+      "semantic_obligation_refs": [
+        "obl_cdb17c3d118212e63be9",
+        "obl_67755c960da7e73d6a5f",
+        "obl_37a9404ae6566924e7aa",
+        "obl_aee1ed7ae48c4857984d",
+        "obl_3b8e3a7852e0e6fadd68",
+        "obl_b7fdd4b545c519d2a8a7",
+        "obl_57fcc94ad4a750864d0e",
+        "obl_e1320433e476742b22af",
+        "obl_24bbd01509c3057bc47c",
+        "obl_31695edc2746c6aebd83"
+      ]
+    }
+  ],
+  "friction_notes": [
+    "Paket 253 bağlantı adayını ve exact hedef Arapçasını sağlıyor; hedef morfolojisi ve lexical analysis verilmediği için bağlantı sıraları tek başına yeni lexical branch aktivasyonu olarak kabul edilmedi.",
+    "Global bağlam için lane_context_refs boş; retained HFT kayıtlarının exact anchor ayatları ve source word indices bağlam taşıyıcısı olarak kullanıldı.",
+    "Çözümlenmemiş HFT branch kayıtları, exact ayat-word-root-role trace ve focus return bulunduğu için attributed modda korundu; bu aktivasyonlarda branch_gloss ve facet_statement null bırakıldı.",
+    "Bağlanmamış reader summary ve retrospective kayıtlar, ilgili exact trace adayları varken ayrıca bulgu yapılmadı; kendi taşıyıcı-tetikleyici-odak dönüşleri olmadığı için obligation düzeyinde reddedildi."
+  ]
+}

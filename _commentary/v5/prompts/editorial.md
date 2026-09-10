@@ -15,15 +15,18 @@ operational logging, not commentary evidence.
 
 ## Editorial Contract
 
-The editorial version must preserve the complete semantic coverage of the raw
-version while changing only wording, cadence, clarity, proportion, repetition,
-and Turkish fluency.
+Reshape the draft into fluent Turkish with directed, continuous attention while
+preserving every distinct retained semantic movement. Treat its paragraph
+boundaries, headings, and order as revisable.
 
-Preservation binds supported findings, not factual mistakes. If the scope
-texts already in this live conversation demonstrate that the first-pass prose
-misstates case, syntax, morphology, lexical identity, or another source fact,
-correct the wording while preserving the intended supported finding. Do not
-invent new evidence or silently delete the finding.
+Preservation binds supported findings, not factual mistakes. The scope prose
+and ledgers already in this conversation are your complete evidence boundary.
+Actively compare the draft with them and correct demonstrable errors in ayah
+attribution, Arabic surface, case, syntax, morphology, lexical identity,
+translation, or semantic detail, even when an error appears repeatedly in the
+draft. Preserve the retained relation while correcting its expression. Do not
+inspect upstream evidence, guess beyond the supplied inputs, add a finding, or
+silently delete one.
 
 Every resonance must preserve the ordinary reading intact and keep it
 recoverable in the same explanation; a latent reading cannot replace it.
@@ -45,6 +48,25 @@ recoverable in the same explanation; a latent reading cannot replace it.
 - No first-pass sentence is verbatim-immutable. Rewrite awkward, repetitive,
   malformed, or English-leaking sentences freely, but keep the underlying
   finding coverage.
+- Revise complete explanatory passages. When an explanation moves, move its
+  source construction, operative details, qualifications, and necessary
+  paragraph-local Arabic anchors with it. Restore a displaced element where it
+  participates in the reading.
+- Build transitions from something the preceding passage has made intelligible.
+  Show what the next action, source use, speaker, sound, grammatical relation,
+  temporal turn, material process, contrast, or question changes. Where no
+  supported continuity exists, make a deliberate cut by identifying the change
+  of scale, time, speaker, question, or perspective instead of inventing a
+  bridge.
+- Complete every contextual excursion by returning to what it changes,
+  clarifies, complicates, or leaves open in the focus reading.
+- Build a multi-branch image from its contributing operations before stating
+  the composite result. Do not replace its construction with a broad thematic
+  summary or announce the result and then list its supports.
+- Combine passages only when their sources, operations, effects, and limits
+  remain distinguishable. Remove repeated wording only after confirming that
+  it contributes no distinct operation, detail, interaction, change, or
+  qualification.
 - Preserve the project display tag syntax at Arabic anchor points:
   `{ar:ARABIC, tr:transliteration, gloss:Turkish gloss}`. Tags are
   paragraph-local. A tag in an earlier paragraph does not cover a later
@@ -53,6 +75,10 @@ recoverable in the same explanation; a latent reading cannot replace it.
   masking depend on paragraph-local tags. Do not remove, deduplicate, reduce, or
   merge tags; do not convert tagged anchors to plain Arabic/transliteration, add
   QAC IDs, or invent another tag shape.
+- Use one consistent Turkish-readable transliteration for an identical Arabic
+  surface. Preserve differences grounded in genuinely different Arabic forms
+  or readings. Keep tag glosses short and ordinary; place lexical restrictions,
+  activated images, mechanisms, and consequences in the prose.
 - Reader-facing prose must be Turkish. Translate English phrases and analytic
   terminology rather than copying them. Internal IDs, lane names, and QAC or
   analysis coordinates stay out of reader prose.
@@ -73,15 +99,23 @@ recoverable in the same explanation; a latent reading cannot replace it.
   Treat each distinct claim, image, branch activation, or interpretive movement
   as a separate mandatory landing. Each one must remain explicit in editorial
   prose.
+- Do not relocate tags as an inventory, append displaced anchors, or create a
+  late recap to compensate for omissions elsewhere. Repair the explanation in
+  the passage where the reader needs it. An ending may complete a movement; it
+  must not substitute a catalogue of findings for their integration.
 
 Before finishing, compare the editorial prose against the raw prose and confirm
 that every raw finding and every distinct retained landing still appears once
 as an explicit substantive landing. Also confirm that every paragraph-local
 Arabic anchor still uses the project tag syntax. Then test every inter-ayah or
 contextual comment: if a non-focus ayah is doing interpretive work, its Quran
-reference must be visible beside that comment. If any retained landing is
-missing, any tag syntax is damaged, or any inter-ayah comment lacks its visible
-reference, revise before you consider the unit complete.
+reference must be visible beside that comment. Confirm that every passage has a
+clear object of attention, a legible change, and either a supported continuation
+or an intelligible cut; that every contextual excursion returns to the focus;
+and that interacting branches remain distinguishable. If any retained landing
+is missing, any explanation has been displaced into a recap, any tag syntax is
+damaged, or any inter-ayah comment lacks its visible reference, revise before
+you consider the unit complete.
 
 ## First-Pass Inputs
 

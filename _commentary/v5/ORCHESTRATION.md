@@ -327,14 +327,18 @@ Fill that template manually before launching the agent:
 - replace `@@MICRO_SCOPE_PROSE@@`, `@@MACRO_SCOPE_PROSE@@`, and
   `@@GLOBAL_SCOPE_PROSE@@` with the complete contents of the three scope prose
   files.
+- replace `@@MICRO_SCOPE_LEDGER@@`, `@@MACRO_SCOPE_LEDGER@@`, and
+  `@@GLOBAL_SCOPE_LEDGER@@` with the complete contents of the three validated
+  scope landing-ledger files.
 
-The consolidation package contains the three scope prose texts, full pinned
-guidance, and the focus/context brief. Discovery JSON stays with the scope
-agents and is not appended to this package. Scope prose controls intended
-coverage; a demonstrable inconsistency may be corrected from those supplied
-texts without adding evidence or silently dropping a finding. The governing
-documents' historical multi-file output instructions are subordinate to the
-V5 prose-only handoff.
+The consolidation package contains the three scope prose texts, their validated
+landing ledgers, full pinned guidance, and the focus/context brief. Discovery
+JSON stays with the scope agents and is not appended to this package. Scope
+prose and ledgers form the consolidator's complete evidence boundary. They
+control intended coverage; a demonstrable inconsistency may be corrected from
+those supplied inputs without adding evidence or silently dropping a finding.
+The governing documents' historical multi-file output instructions are
+subordinate to the V5 prose-only handoff.
 
 The consolidator writes:
 

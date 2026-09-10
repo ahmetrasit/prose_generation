@@ -251,7 +251,8 @@ def validate_text(text: str, *, path: Path) -> list[Finding]:
         errors.append(_finding(path, 1, "empty_file", "Prose file is empty"))
         return errors
 
-    for line_number, line in enumerate(text.splitlines(), start=1):
+    lines = text.splitlines()
+    for line_number, line in enumerate(lines, start=1):
         if (
             WRAPPER_LABEL_RE.match(line)
             or MARKDOWN_WRAPPER_LABEL_RE.match(line)
@@ -283,6 +284,26 @@ def validate_text(text: str, *, path: Path) -> list[Finding]:
                     "Double-curly tag",
                 )
             )
+        if re.match(r"^\s{0,3}#{1,6}\s+\S", line):
+            index = line_number - 1
+            if index > 0 and lines[index - 1].strip():
+                errors.append(
+                    _finding(
+                        path,
+                        line_number,
+                        "heading_spacing",
+                        "Markdown heading must be preceded by a blank line",
+                    )
+                )
+            if index + 1 < len(lines) and lines[index + 1].strip():
+                errors.append(
+                    _finding(
+                        path,
+                        line_number,
+                        "heading_spacing",
+                        "Markdown heading must be followed by a blank line",
+                    )
+                )
 
     if text.count("{") != text.count("}"):
         errors.append(_finding(path, 1, "unbalanced_braces", "Unbalanced braces"))
@@ -300,6 +321,7 @@ def validate_text(text: str, *, path: Path) -> list[Finding]:
 
     cleaned_parts: list[str] = []
     renderable_parts: list[str] = []
+    transliterations: dict[str, tuple[str, int]] = {}
     cursor = 0
     for match in candidates:
         cleaned_parts.append(text[cursor : match.start()])
@@ -308,6 +330,25 @@ def validate_text(text: str, *, path: Path) -> list[Finding]:
         token = match.group(0)
         tag_errors = _validate_tag(path, line_number, token)
         errors.extend(tag_errors)
+        strict_tag = STRICT_TAG_RE.fullmatch(token)
+        if strict_tag is not None and not tag_errors:
+            arabic = strict_tag.group("ar").strip()
+            transliteration = strict_tag.group("tr").strip()
+            prior = transliterations.get(arabic)
+            if prior is None:
+                transliterations[arabic] = (transliteration, line_number)
+            elif prior[0] != transliteration:
+                errors.append(
+                    _finding(
+                        path,
+                        line_number,
+                        "inconsistent_transliteration",
+                        (
+                            f"Same Arabic surface uses '{prior[0]}' on line "
+                            f"{prior[1]} and '{transliteration}' here"
+                        ),
+                    )
+                )
         nested_candidate = (
             (match.start() > 0 and text[match.start() - 1] == "{")
             or (match.end() < len(text) and text[match.end()] == "}")

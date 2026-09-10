@@ -186,7 +186,7 @@ class CliSurfaceTests(unittest.TestCase):
         self.assertEqual(json.loads(rendered), value)
         self.assertIn('\n{"id":1},\n{"id":2}\n', rendered)
 
-    def test_canonical_template_restores_guidance_and_scope_only_inputs(self) -> None:
+    def test_canonical_template_restores_guidance_scope_and_ledger_inputs(self) -> None:
         template = (workflow.PROMPTS_ROOT / "canonical.md").read_text(
             encoding="utf-8"
         )
@@ -204,6 +204,9 @@ class CliSurfaceTests(unittest.TestCase):
                 "@@MICRO_SCOPE_PROSE@@",
                 "@@MACRO_SCOPE_PROSE@@",
                 "@@GLOBAL_SCOPE_PROSE@@",
+                "@@MICRO_SCOPE_LEDGER@@",
+                "@@MACRO_SCOPE_LEDGER@@",
+                "@@GLOBAL_SCOPE_LEDGER@@",
             },
         )
         self.assertNotIn("_discovery_json>", template)
