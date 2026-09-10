@@ -304,7 +304,7 @@ lifecycle close. Continue the workflow with the files the scope agents produced.
 ## 4. Consolidation
 
 After all three scope prose files exist, close the scope agents. Start one
-fresh `gpt-5.6-luna` agent at `max` reasoning effort as the consolidator. This
+fresh `gpt-5.6-sol` agent at `max` reasoning effort as the consolidator. This
 model and reasoning setting are mandatory for the consolidation and editorial
 agent: do not substitute another model, do not lower reasoning effort, and do
 not reuse a scope-agent session. Use `_commentary/v5/prompts/canonical.md` as
@@ -361,7 +361,7 @@ python3 _commentary/v5/operations/monitor.py event \
 Launch message:
 
 ```text
-You are the V5 consolidator for <S:A>. You are running as a fresh gpt-5.6-luna
+You are the V5 consolidator for <S:A>. You are running as a fresh gpt-5.6-sol
 max agent.
 
 Before consolidation, run this lifecycle command:
@@ -404,8 +404,8 @@ Arabic/transliteration, add QAC IDs, or invent another tag shape.
 
 ## 5. Editorial Follow-Up
 
-Keep the same `gpt-5.6-luna` max consolidator live for editorial. The editorial
-agent is not a new role or model; it is the same mandatory `gpt-5.6-luna` max
+Keep the same `gpt-5.6-sol` max consolidator live for editorial. The editorial
+agent is not a new role or model; it is the same mandatory `gpt-5.6-sol` max
 session that wrote the consolidated first-pass prose. Send one follow-up asking
 for the editorial version. The editorial pass may rewrite sentences for
 cadence, clarity, Turkish fluency, removal of English leakage, and better
@@ -540,7 +540,7 @@ When multiple ayat are selected, run the whole V5 workflow for those ayat in
 parallel. Do not finish one ayah end to end before starting the next. Spawn the
 three `gpt-5.6-luna` max scope agents for each ayah as soon as its prompts
 exist; as each ayah's three scope prose files are ready, spawn that ayah's fresh
-`gpt-5.6-luna` max consolidator and carry that same consolidator through the
+`gpt-5.6-sol` max consolidator and carry that same consolidator through the
 editorial follow-up. Each ayah remains an independent workflow with its own
 scope agents, consolidator, paths, and Git-visible outputs.
 
