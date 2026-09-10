@@ -4,6 +4,30 @@ This repository authors the reader-facing content for the Quran reader: the
 translation spine, ayah commentary, and surah commentary. Upstream repositories
 produce evidence; this one adjudicates it and writes prose.
 
+## Canonical commentary workflow
+
+As of 2026-09-10, [`_commentary/v5/`](_commentary/v5/) is the canonical workflow
+for new ayah-commentary generation. Start with
+[`_commentary/v5/ORCHESTRATION.md`](_commentary/v5/ORCHESTRATION.md) and use
+[`_commentary/v5/workflow.py`](_commentary/v5/workflow.py) for preparation. The
+accepted workflow state is frozen at `d18a3daa`; later changes require a new
+reviewed workflow revision rather than silently altering this contract.
+
+V5 uses the compact early-V5 input shape with the reviewed QAC, alignment,
+unresolved-branch, context, and source fixes retained. For each focus ayah,
+fresh `gpt-5.6-luna` max agents perform micro, macro, and global discovery, then
+the same three sessions write scope prose and landing ledgers. A fresh
+`gpt-5.6-sol` max agent consolidates those scope outputs and performs the
+same-session editorial pass. After editorial validation, a fresh
+`gpt-5.6-luna` max agent writes the reading invitation from the final editorial
+prose. The operations monitor covers the complete lifecycle.
+
+[`_ayah_commentary/v2/PROMPT.md`](_ayah_commentary/v2/PROMPT.md) remains a
+governing prose source and historical direct-run surface. It is not the entry
+point for new production orchestration. Historical V5 experiments and generated
+outputs remain available for comparison; their presence does not make them
+alternate active workflows.
+
 ## Who this is for
 
 One reader, concretely: a curious Turkish speaker with almost no Arabic grammar,
@@ -48,10 +72,11 @@ handed forward — see [`PRINCIPLES.md`](PRINCIPLES.md) §6.
 
 ### Layer 2 — function and resonance, per ayah (`_ayah_commentary/`)
 
-Active work uses
-[`_ayah_commentary/v2/PROMPT.md`](_ayah_commentary/v2/PROMPT.md). Earlier ayah
-prompt versions remain for historical reproduction, not new runs. Do not confuse
-this active ayah prompt with the separate multi-stage workflow archived under
+Active work uses the canonical
+[`_commentary/v5/ORCHESTRATION.md`](_commentary/v5/ORCHESTRATION.md) workflow.
+The V2 prompt remains part of the pinned prose standard embedded by V5 and is
+retained for historical reproduction, not as the production launch surface.
+Do not confuse it with the separate multi-stage workflow archived under
 [`archive/_commentary/v2/`](archive/_commentary/v2/).
 
 Two jobs.
@@ -133,9 +158,9 @@ STATUS.md             per-surah coverage
 docs/                 sources, available data, channels, open questions
 scripts/              base builder, pre-L2 branch tierer, and instantiators
 bundles/              generated base and tiered commentary input bundles
-_commentary/v5/       active Git-native Layer-2 orchestration and outputs
+_commentary/v5/       canonical Git-native Layer-2 orchestration and outputs
 _translation/         layer 1 — the spine
-_ayah_commentary/v2/  active layer 2 — function and resonance, per ayah
+_ayah_commentary/v2/  pinned prose guidance and historical direct-run prompt
 _channel/layer3/      active layer 3 — surah-wide resonance systems
 _channel/*.md         retired combined layer 3 + 2.5 experiment
 _channel_review/      retired review experiment
@@ -157,11 +182,14 @@ they are planned, not because they exist.
 - Running layer 1: [`_translation/v1/README.md`](_translation/v1/README.md).
 - Running ayah commentary Layer 2: the governing prose prompt remains
   [`_ayah_commentary/v2/PROMPT.md`](_ayah_commentary/v2/PROMPT.md), while the
-  active multi-agent runbook is
+  canonical production entry point is
   [`_commentary/v5/ORCHESTRATION.md`](_commentary/v5/ORCHESTRATION.md). V5 uses
   separate package/member bundle roots and three analysis-namespaced artifact
-  roots, runs parallel discovery plus planned composition turns for each scope,
-  supports explicit external context, and has no automatic repair cycle.
+  roots; runs parallel discovery and same-session composition for each scope;
+  gives consolidation and editorial to one fresh Sol Max session; validates and
+  permits at most two mechanical editorial-repair cycles; then gives the final
+  editorial prose to a fresh Luna Max invitation agent. It supports explicit
+  external context and monitors the complete lifecycle.
   [`scripts/README.md`](scripts/README.md)
   documents base and pericope bundle construction.
 - Running surah commentary Layer 3:
