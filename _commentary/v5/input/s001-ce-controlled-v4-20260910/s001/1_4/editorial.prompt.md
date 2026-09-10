@@ -1,6 +1,6 @@
 # Commentary v5 editorial handoff
 
-Continue as the same live consolidator for **@@AYAH_REF@@**. Revise the
+Continue as the same live consolidator for **1:4**. Revise the
 first-pass prose under the editorial instructions below and write the editorial
 prose output. Modify nothing else, except for the mechanical validator command
 and any required monitor lifecycle event command supplied by the orchestrator.
@@ -167,11 +167,11 @@ you consider the unit complete.
 
 ## First-Pass Inputs
 
-- prose: `@@PROSE_INPUT_PATH@@`
+- prose: `_commentary/v5/raw/s001-ce-controlled-v4-20260910/s001/1_4/1_4.prose.tr.md`
 
 ## Editorial Outputs
 
-- prose: `@@PROSE_OUTPUT_PATH@@`
+- prose: `_commentary/v5/editorial/s001-ce-controlled-v4-20260910/s001/1_4/1_4.prose.editorial.tr.md`
 
 ## Mechanical Validation
 
@@ -179,7 +179,7 @@ After writing the editorial prose file, run this validator on the editorial
 prose file only:
 
 ```bash
-python3 _commentary/v5/validate_prose.py @@PROSE_OUTPUT_PATH@@
+python3 _commentary/v5/validate_prose.py _commentary/v5/editorial/s001-ce-controlled-v4-20260910/s001/1_4/1_4.prose.editorial.tr.md
 ```
 
 If the validator returns nonzero, repair only the reported mechanical
@@ -196,5 +196,5 @@ hashes, write a separate validation report, validate scope prose, validate
 first-pass prose, or launch another agent.
 
 <editorial_instructions>
-@@EDITORIAL_INSTRUCTIONS@@
+No additional unit-specific instructions.
 </editorial_instructions>

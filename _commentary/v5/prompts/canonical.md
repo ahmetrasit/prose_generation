@@ -89,11 +89,16 @@ to a reader without requiring the reader to consult a ledger.
   continuity is absent, identify the new question, perspective, or scale
   honestly. A heading, a change of carrier, or "another use" does not itself
   establish a transition. Repair the passages themselves, not only their
-  connecting phrase. When explanations are reordered, do not describe that
-  order as the ayah's word sequence or as a necessary sequence of events. A
-  change of explanatory topic does not establish temporal or causal dependence;
-  use an honest shift of attention when the supplied material establishes no
-  stronger continuity.
+  connecting phrase. Build strong continuity of attention, including between
+  distinct images or lines of thought. Temporal, causal, or material continuity
+  may be asserted only where the supplied material supports that particular
+  connection; sharing a subsection, carrier, or motif does not establish it.
+  Between otherwise independent images, make the shift of image, question,
+  perspective, or scale legible without implying that one becomes, produces,
+  supplies, or requires the other. This applies within metaphors as well as
+  between them. Carry genuine supplied interactions across paragraph and
+  subsection boundaries. Use the focus carrier or an opened question when
+  helpful, without restarting the explanation or omitting a retained relation.
 - Complete every contextual excursion by showing what it changes, clarifies,
   complicates, or leaves open in the focus reading. Do not leave the reader in
   a supporting passage and begin an unrelated movement from there.
