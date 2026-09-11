@@ -204,3 +204,150 @@ Keep the new analytical work. The strongest gains are evidence-role discipline, 
 Before judging the set final, recheck 1:5's concrete-image retention after development stops. Then make tightly scoped editorial changes: remove duplicate explanations, keep each substantive qualification once, and preserve the now-clear contribution of each image. Reconsider invitation selection where the loss is meaningful, especially the gestation/debt reading in 1:4 and the overlap between 1:5 and 1:6.
 
 The defensible model conclusion is: **this Astra-led run is analytically stronger overall, but not uniformly better edited, and one evolving run does not isolate the model effect from the new follow-up or normal run variation.** A clean future comparison would hold discovery packets, downstream prompts, follow-up, and completion status fixed, then compare matched runs or pass the same scope material to both editorial configurations.
+
+## Updated Question: Where Is Astra Worth Its Cost?
+
+This section supplements, rather than replaces, the findings above. The updated question is whether much cheaper Luna can supply sufficient interpretive material, with Astra used only where its contribution is substantial. It also asks what a hybrid would preserve or lose in content, style, and coherence.
+
+### Executive Answer
+
+**Yes: this set supports testing a mixed workflow much more strongly than it supports paying for Astra everywhere.** Many of the most striking underlying readings were already in Luna's discovery. Astra frequently makes their mechanisms, implications, and limits intelligible. But a smaller, important class of improvements involves accepting an omitted detail, recovering a rejected connection, or introducing a materially different contextual test. Those cannot all be obtained through editorial polish alone.
+
+I would first test **Luna max for the three discovery/scope sessions, Astra high for the existing consolidation/editorial session, and Luna max for invitations**. This isolates whether the stronger presentation can be obtained from cheap upstream material without changing the workflow's evidence boundary. It is a candidate configuration, not a demonstrated optimum or a claim that Astra is necessary for CE. Keep the existing Sol-max CE configuration as the lower-cost control, using the same new follow-up.
+
+If that leaves meaningful analytical gaps, selectively upgrade the global session or a flagged macro session. Do not automatically replace all three scope sessions. An even more cost-focused alternative is a compact Astra adjudication of flagged upstream connections, with Sol or Luna doing the long prose writing; that would require a separately approved workflow change and has not been tested here.
+
+### What Luna Already Had
+
+The following distinctions come from the old discovery artifacts themselves, not merely from reading the old Sol-written editorial. They are examples, not a measured percentage of all retained insights.
+
+| Reading | Evidence in Luna's earlier output | What Astra adds | Does it require Astra discovery? |
+| --- | --- | --- | --- |
+| 1:4: the creditor supplies the capacity to answer the debt | `macro:cand_f0238210878c5c01408d` explicitly says that the owner advances the capacity by which the debtor can answer | Clearer ready-resource/advance distinction, attribution, and contextual limits | Not for the central insight; it was already explicit |
+| 1:4: an account matures through supported development | Earlier macro includes cultivated maturity and the old invitation already develops gestation and maturing liability | More careful explanation of the analogy and its boundaries | Not for the main channel; the old invitation arguably selected it more vividly |
+| 1:6: guidance is supported movement, not merely directions | `global:supported-procession`, `global:assisted-procession`, and maintained-path findings already develop this | Better source attribution, less overstatement about the whole praying group, clearer distinction between the support and the person's own movement | Not for the core channel |
+| 1:7: losing access and memory, not just taking a wrong turn | `global:straying-loses-locatability` retains both inability to reach a fixed place and loss of remembered information; macro also retains forgetting | A much clearer explanation of the still-existing destination and the role of reminders, with new contextual anchors | No for the conceptual core; yes to upstream work if the new evidence anchors are to be added |
+| 1:2: provision includes sustained water and care | `macro:water-secured-livelihood` and `macro:hft-o1-ecological-water-cycle` already retain water, the well, and continuous nurture | More explicit functional separation of source, access, and use | The broad theme is inherited; the full lifting-apparatus version is an upstream addition in this ayah |
+| 1:3: mercy includes vulnerability after formation | `macro:mercy-as-generative-vulnerability` already says that the bodily aftermath remains vulnerable | A sharper shift of attention to the mother, with a specific retained-afterbirth image | The broad insight is inherited; the specific afterbirth detail is not merely stylistic elaboration |
+
+One representative old Luna claim is already very close to the desired surprise: "Straying becomes a loss of recoverable orientation, so guidance appears as restoration of findability as well as direction." That is not a modest restatement of the ayah. Its poor visibility in the old invitation was a downstream selection/presentation problem.
+
+Similarly, the creditor-advance reading is not an Astra discovery hidden in a new paragraph. Luna's old claim explicitly contains the surprising relationship. Paying for discovery again to obtain that same core is hard to justify from this evidence.
+
+However, some Luna findings use a generic payoff such as perceiving the focus through a newly activated image. That is a usable lead, but not always a fully worked reading. A stronger downstream writer can clarify retained contributions; it must not invent a causal relation or a source detail merely because the lead is promising.
+
+### What Cannot Be Recovered by Prose Polish Alone
+
+**1:2's lifting apparatus.** The old accepted macro output retained the well and gathered water, but not the distinct `macro:water-must-be-drawn` finding now present. The current distinction between water below and the supports that make it accessible is richer than the broad old provisioning theme. An editor confined to old scope prose cannot simply import the omitted apparatus from the raw packet.
+
+**1:3's retained-afterbirth detail.** Luna's `macro:mercy-as-generative-vulnerability` explicitly bounded its activation: "No specific animal, retained afterbirth, or swelling specialization is asserted." Astra's current maternal reading uses precisely such a specialization. Under the present contract, this needs a changed upstream acceptance/activation, not an editor quietly overriding the old restriction. A mother-centered explanation of general postpartum vulnerability may still be possible within the older material, but not the full new clinical image.
+
+**1:6's recovered macro channels.** These are upstream acceptance differences relative to the latest Luna run. Crucially, they are not evidence that Luna cannot discover them: `ffd454af` and `e8832a35` each had 44 macro findings, including foster care, water-supported settlement, well apparatus, marriage, and covenant/refuge. The latest `8f763df2` fell to 33 and omitted those titles. Astra recovers much of that range with better qualifications. The more defensible advantage is better selection/explanation in this sample, not exclusive access to those ideas.
+
+**New contextual tests.** The new 1:6 discussion of positive plural paths (29:69 and 5:16), and the new 1:7 distinction between an accusation of error and a supported judgment, are substantive enrichments. They test the relation rather than merely decorating an existing analogy. Recovering their particular evidence and argumentative contribution belongs upstream when they are absent from the scope package.
+
+This is the important hybrid limit: **an expensive editor can clarify weakly expressed retained findings; it cannot legitimately recover rejected findings, reverse explicit scope restrictions, or add missing evidence.** A hybrid needs an upstream escalation route for those cases. The current presentation follow-up should not be repurposed as hidden discovery.
+
+### Stage-by-Stage Allocation
+
+These are recommendations inferred from the artifacts, not measured stage-specific model benchmarks.
+
+| Stage | Cost-sensitive default | When Astra has a plausible role | Confidence from this review |
+| --- | --- | --- | --- |
+| Bundle preparation and mechanical validation | Existing scripts | No model upgrade | High: these are deterministic tasks |
+| Micro discovery and scope prose | Luna max | Ambiguous morphology, competing etymologies, source restrictions, or recurring attribution errors | Moderate: most core surface analysis is already present in Luna; some precision gains are real |
+| Macro discovery and scope prose | Luna max | Material rejection drift, unexplained image lists, participant mismatches, or unsupported chains between images | Moderate-high that selective review is worthwhile; weak evidence for paying for Astra on every macro |
+| Global discovery and scope prose | Luna max initially; first upstream stage to test with Astra | Important contextual counterexamples are missing, the same few references are recycled, or supporting verses are being made to prove lexical details | Strongest observed case for a selective upstream upgrade, but no isolated global A/B yet |
+| Consolidation/editorial session, including its presentation follow-up | Test Astra high against existing Sol max on identical Luna scope inputs | Findings exist but their contributions, boundaries, and relationship are hard to understand | Strong evidence for the importance of the task; model-specific marginal gain remains confounded |
+| Invitation | Luna max under the current selective prompt | It keeps reverting to grammar/main meaning, chooses weak channels, or fails to explain a strong retained one | No clean same-editorial A/B; Astra's current examples are better, but necessity is unproven |
+
+Discovery and scope composition currently share a session. Treat upgrading a lane as upgrading that session, unless deliberately testing a new architecture. Likewise, CE is one session with several writing turns, not one short call. Counting agents is not a useful substitute for counting tokens.
+
+If using only Luna and Astra, the first candidate is Luna upstream plus Astra CE. If minimizing spend takes priority over obtaining the best visible prose immediately, retain the existing Luna/Sol pipeline and spend Astra only on flagged reasoning problems until the controlled CE test demonstrates an advantage worth buying.
+
+### Content, Style, and Coherence Are Different Gains
+
+| Dimension | Gain in the Astra-led run | Loss or remaining weakness | Hybrid implication |
+| --- | --- | --- | --- |
+| Interpretive range | More developed global context; recovery of the latest 1:6 macro omissions | Some speculative channels are rejected; more findings sometimes just means splitting | Preserve cheap broad exploration; escalate significant omissions rather than paying for repeated discovery everywhere |
+| Interpretive specificity | More exact descriptions of what each object or relation contributes | Some precision becomes exhaustive explanation of everything an image cannot mean | Stronger editorial development is valuable, but it needs economy |
+| Evidence fidelity | Better distinction between lexical image, contextual support, and proposed analogy | The delay/non-delay inconsistency survives; not every source issue is fixed | Use targeted source-aware review, not a belief that premium prose guarantees accuracy |
+| Local coherence | A reader can follow why the water, support, and apparatus belong together | Contributions are often restated at the end of the same paragraph | Retain the mechanism explanation; remove duplicated summaries |
+| Whole-ayah coherence | Better headings and more explicit connections between arguments | Many long returns to the same care, agency, route, and accounting themes; weaker sense of progression | Test organization and redundancy separately from finding retention |
+| Whole-surah coherence | Recurring images produce recognizable continuity | 1:1/1:3 share gestation and 1:5/1:6 share assisted walking, reducing invitation variety | Judge the seven invitations as a set, not just seven individually strong pieces |
+| Warmth and tone | More contribution-first prose and fewer exclusions per unit of text | Still frequent defensive endings; several openings sound like methodological notes | This is an editorial control issue, not evidence that Astra is intrinsically warmer |
+| Vividness | Concrete distinctions make several images newly memorable | The old prose was often brisker and more immersive, partly because it merged images too freely | Preserve energy without restoring unsupported mergers |
+| Reading effort | More detail allows inspection of the argument | About 2.15 times as many editorial words in this snapshot | More explanation is not automatically more value for either the reader or the budget |
+
+In short: Astra's strongest stylistic gain is **explanatory clarity**, not brevity, warmth, or musicality. Its local reasoning is often more coherent while its whole-document progression is less economical. Those judgments can coexist.
+
+Examples in English paraphrase, not proposed replacements for the Turkish:
+
+- 1:2 moves from "care supplies abundant water" to "water can exist without being available to the life that needs it; support makes access possible." Clearer mechanism, but the full apparatus requires retained upstream material.
+- 1:3 moves from "formation leaves vulnerability" to "the life has arrived, yet the body that carried it still needs care." Sharper human significance; the specific afterbirth explanation adds an upstream detail.
+- 1:7 moves from "loss includes memory and belonging" to "the place still exists, but the knowledge that lets me reach it can fail." Mostly clearer articulation of an already retained channel, with additional evidence in the new run.
+- 1:4 still contains the inherited question: "What if the one to whom I must answer is also the source of my ability to answer?" Astra makes it more defensible; the older invitation gave its gestational background more space.
+
+### What a Cheaper Hybrid Would Likely Preserve or Lose
+
+**Likely preservable, subject to an actual test:** the principal womb/care, creditor/advance, supported-walking, navigable-signs, and lost-access/memory channels; their more readable explanation; much of the gain from selecting one strong invitation channel instead of compressing the main meaning. These are supported by retained Luna material, not merely my guess that Luna could discover them.
+
+**At risk with Luna-only upstream:** selective concrete details that Luna explicitly excludes, inconsistent decisions across reruns, some precise evidence boundaries, and contextual counterexamples that materially reshape the reading. A prose-only Astra session cannot fix all of these within the present rules.
+
+**Not demonstrated:** that Astra CE on Luna inputs will match the current full-Astra prose; that Luna invitations on the current Astra editorial will match Astra invitations; that any proposed hybrid preserves a particular percentage of quality; or that a fixed number of Astra calls yields a known percentage of savings. None of those crossovers has been run in this review.
+
+It would also be a mistake to call shorter prose an automatic loss. A hybrid that preserves the substantive relations while restoring the old prose's pace could be preferable to full Astra, not merely an affordable compromise.
+
+### Cost Interpretation
+
+Using the user's approximately 100x price ratio as a planning scenario, a small amount of Astra can still dominate cost. Under the simplifying assumption of identical token volumes and the same premium on input and output, routing a fraction `p` of otherwise Luna-priced work to Astra gives a relative cost of `1 + 99p`:
+
+| Fraction upgraded | Cost versus the same all-Luna work |
+| ---: | ---: |
+| 1% | 1.99x |
+| 5% | 5.95x |
+| 10% | 10.90x |
+| 25% | 25.75x |
+
+These are arithmetic illustrations, not estimates for this pipeline. They exclude differing output lengths, reasoning usage, cache behavior, retries, and the fact that the old CE used Sol rather than Luna. A new review pass adds work instead of simply replacing a fraction. An invitation is short to write but reads a long editorial; a CE follow-up may reread substantial context. Neither is automatically cheap because its final text is short.
+
+Pricing note checked September 11: current standard API pages list Astra at $10 input / $50 output per million tokens and Luna at $0.20 / $1.20, corresponding to 50x input and approximately 41.7x output, not exactly 100x. This does not establish the user's effective billed ratio; both pages also describe long-input pricing conditions. The expensive-model allocation question remains the same under either scenario. Sources: [official Astra pricing](https://developers.openai.com/api/docs/models/gpt-6-astra), [official Luna pricing](https://developers.openai.com/api/docs/models/gpt-5.6-luna).
+
+Measure actual input, cached input, output/reasoning usage, and retries per stage before estimating total savings. The 2.15x visible prose expansion is a warning about verbosity, not a measurement of billed token cost.
+
+#### Where the Estimated Workload Sits
+
+A separate [S1 token estimate](s001-astra-token-usage-estimate.md) appeared during this review. It estimates tokens from UTF-8 bytes divided by four, and weights output five times input. I did not independently reconstruct or validate that estimate's context accounting. In particular, these are not actual tokenizer counts, cached-token records, reasoning-token totals, or bills.
+
+Aggregating its displayed rows gives approximately:
+
+| Stage group | Share of estimated weighted workload |
+| --- | ---: |
+| Discovery, scope composition, and scope repairs | 81.6% |
+| CE canonical, editorial, repairs, and presentation follow-up | 17.7% |
+| Invitations | 0.7% |
+
+This supports putting the first savings effort upstream. Under the user's 100x scenario, and assuming these same stage volumes and weights, keeping Astra for CE while moving upstream and invitations to Luna would cost approximately **18.5% of the estimated all-Astra configuration**. That is about 81.5% lower than all-Astra, but still approximately 18.5 times the hypothetical all-Luna equivalent. This is a conditional arithmetic illustration, not a forecast: model-dependent output, repair behavior, reasoning, caching, and context sizes can change the result.
+
+It also qualifies the invitation recommendation. In this estimate, keeping Astra for invitations as well would move the hybrid from about 18.5% to 19.2% of all-Astra, a roughly 3.7% increase over that hybrid. If invitations are the main reader experience, that could be a sensible premium. Test Luna against Astra on the same editorial; do not assume cutting the invitation model is the main source of savings. The large saving is avoiding Astra across all upstream sessions.
+
+### Smallest Useful Controlled Test
+
+Do not begin by purchasing another all-Astra S1 run. Reuse finalized, frozen artifacts and test where the premium buys something:
+
+1. On 1:4 and 1:7, feed identical existing Luna scope prose and ledgers to Sol CE and Astra CE, with the same editorial and qualification follow-ups. These ayahs already contain strong Luna seeds, so they test articulation without paying again for discovery. Compare retention, attribution, repeated qualifications, narrative progression, and invitation-ready insights.
+2. On 1:2 or 1:6, compare Luna and Astra for the one problematic upstream lane while holding the other lanes and downstream CE fixed. This tests the value of recovered details or contextual discrimination rather than conflating all stages again.
+3. Give Luna and Astra the same finalized editorial and the same invitation prompt. Judge surprise, clarity of the selected images, faithfulness, tone, and distinction from neighboring invitations. This establishes whether the invitation upgrade itself is worth paying for.
+4. Record billed usage and blind the model labels during qualitative review. Include repeated samples for at least the disputed 1:6 case, since earlier Luna runs already demonstrate meaningful selection variation.
+
+These are proposed experiments only. No models were launched, prompts changed, or stage assignments edited during this review.
+
+### Final Allocation Judgment
+
+**Luna is already supplying valuable discoveries, not merely raw hints of the obvious meaning.** The evidence does not justify replacing it everywhere. Astra's strongest demonstrated contributions are making relationships precise, resolving source/role problems, and developing context that challenges an overly simple reading. Some of that can be bought downstream; some requires targeted upstream work.
+
+Start with the controlled Luna-to-Astra CE crossover. Use the global lane as the first selective upstream upgrade, with macro escalation for important rejected or poorly connected images. Keep invitations on Luna until a same-input comparison shows a meaningful gap. Preserve the current Sol CE as the cost-control alternative. The desired outcome is not "Astra style everywhere" but the existing strong readings made clear, accurate, and coherent at the lowest verified cost.
+
+### Snapshot Check
+
+At the last check, all seven editorials and all seven invitations passed the mechanical prose validator, and the linked local files in this report existed. The earlier 1:5 retention and first-pass formatting findings remain observations about the inspected development snapshot; the report does not certify that the run is finalized.
