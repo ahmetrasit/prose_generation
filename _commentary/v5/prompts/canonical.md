@@ -74,6 +74,16 @@ to a reader without requiring the reader to consult a ledger.
 - Write fluent Turkish reader prose, not a lane report or technical ledger.
 - Every resonance must preserve the ordinary reading intact and keep it
   recoverable in the same explanation; a latent reading cannot replace it.
+- Explain positively how the resonance relates to that foreground meaning:
+  what it reinforces, expands, or shifts in the reader's understanding. State
+  its source and degree of certainty naturally beside its contribution.
+  Boundaries can be carried by this precise account of the relation; they do
+  not require a denial after every explanation. Reserve explicit exclusions
+  for a concrete ambiguity or live counter-evidence that needs them. Rewrite
+  repeated "this is not X" endings as affirmative accounts of what the reading
+  contributes, retaining any substantive restriction. A second-layer reading
+  can change how the foreground is understood; avoid calling every resonance
+  mere support or repeating "second layer" as a formula.
 - Build the reading order before polishing sentences or choosing headings.
   Privately identify what each paragraph contributes beyond what the reader
   already understands: a perceptible detail, a developing relation, a changed

@@ -37,6 +37,16 @@ silently delete one.
 Every resonance must preserve the ordinary reading intact and keep it
 recoverable in the same explanation; a latent reading cannot replace it.
 
+- Review passages for repeated denials, especially "this is not X" endings
+  that appear to withdraw the interpretation just presented. Rewrite them as
+  positive explanations of what the resonance contributes and how it relates
+  to the foreground meaning. Preserve the actual source distinction,
+  restriction, or uncertainty in that explanation. State whether the reading
+  reinforces, expands, or shifts the reader's understanding, as the inputs
+  support; a second layer can reshape how the foreground is heard. Reserve
+  explicit exclusions for concrete ambiguities or live counter-evidence that
+  need them. Keep the wording natural instead of repeating a "second layer"
+  formula or treating every resonance as merely supportive.
 - Build or rebuild the reading order before polishing sentences or choosing
   headings. Privately identify what each paragraph contributes beyond what the
   reader already understands: a perceptible detail, a developing relation, a
@@ -56,9 +66,11 @@ recoverable in the same explanation; a latent reading cannot replace it.
 - Preserve concrete images and secondary branches. Do not flatten a pathology,
   material image, repeated action, spatial relation, or before/after shift into
   a general theme.
-- Keep each boundary attached to the interpretation it limits. A warning
-  against literal translation does not authorize deleting the contextual
-  resonance being bounded.
+- Keep each substantive boundary attached to its interpretation by stating
+  the source, scope, or kind of relation precisely. For example, "a contextual
+  image of protective care" can establish the status of an image positively.
+  Once that distinction is clear, remove a redundant denial of literal meaning
+  while preserving the contextual resonance and its concrete contribution.
 - No first-pass sentence is verbatim-immutable. Rewrite awkward, repetitive,
   malformed, or English-leaking sentences freely, but keep the underlying
   finding coverage.
@@ -100,10 +112,12 @@ recoverable in the same explanation; a latent reading cannot replace it.
   remain distinguishable. Remove repeated wording only after confirming that
   it contributes no distinct operation, detail, interaction, change, or
   qualification.
-- Preserve negation, modality, agency, and scope when rewriting. "Not" must not
-  become "not merely" or "beyond"; a possible relation must not become a
-  settled fact; a branch restricted to a particular form or referent must not
-  become a general property.
+- Preserve truth conditions, modality, agency, and scope when rewriting.
+  Substantive negation in the ayah, evidence, or a live counter-reading retains
+  its force: "not" cannot become "not merely" or "beyond." Explanatory
+  disclaimers may be recast positively when the same restriction remains clear;
+  their negative sentence form is not preserved content. Keep a possible
+  relation possible and a form- or referent-specific claim within that scope.
 - Preserve the project display tag syntax at Arabic anchor points:
   `{ar:ARABIC, tr:transliteration, gloss:Turkish gloss}`. Tags are
   paragraph-local. A tag in an earlier paragraph does not cover a later
@@ -160,7 +174,9 @@ contextual comment: if a non-focus ayah is doing interpretive work, its Quran
 reference must be visible beside that comment. Confirm that every passage has a
 clear object of attention, a legible change, and either a supported continuation
 or an intelligible cut; that every contextual excursion returns to the focus;
-and that interacting branches remain distinguishable. If any retained landing
+and that interacting branches remain distinguishable. Read paragraph endings
+together for accumulated disclaimers; where the distinction is already clear,
+let the passage finish on its interpretive contribution. If any retained landing
 is missing, any explanation has been displaced into a recap, any tag syntax is
 damaged, or any inter-ayah comment lacks its visible reference, revise before
 you consider the unit complete.

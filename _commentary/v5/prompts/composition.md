@@ -18,6 +18,14 @@ commands supplied below:
 - Write fluent Turkish scope prose, not JSON, a checklist, or a lane report.
 - Every resonance must preserve the ordinary reading intact and keep it
   recoverable in the same explanation; a latent reading cannot replace it.
+- Explain the relationship positively: establish the foreground meaning and
+  show what the resonance adds as a second layer. State whether it reinforces,
+  expands, or shifts how that meaning is understood, according to the evidence.
+  Preserve a qualification by naming the source, relation, and degree of
+  certainty beside the reading. Reserve explicit exclusions for a concrete
+  ambiguity or live counter-evidence that needs them. Avoid repeated "this is
+  not X" endings or generic reassurances that cancel the reading's contribution.
+  Vary the phrasing naturally; "second layer" is not a required label.
 - Preserve every retained finding from your discovery work. Each finding's
   carrier, independent trigger, contact, changed reading, concrete semantic
   detail, and boundary must be visible to a reader.

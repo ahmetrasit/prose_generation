@@ -510,7 +510,21 @@ directly.
 
 After CE has written and validated the final editorial prose, generate the
 separate reading invitation as the final required stage for that ayah. This
-derivative is an entry into the commentary, not a compressed substitute for it.
+derivative follows one or two main channels of resonance in two to four
+Turkish paragraphs. A channel is a connected background of meanings, images,
+actions, or relations that the editorial develops through several details.
+Select across the complete editorial prose for interpretive consequence and
+clear grounding. Start with the expression that opens a channel, unfold its
+connected background, and show how the ayah sounds or reads against it, making
+an expansion or shift of its main meaning intelligible. Reveal a distinctive
+reading in the first paragraph and preserve its force and qualifications.
+
+One developed channel is sufficient. The invitation does not compress findings
+individually, and no finding, channel, or major shift is mandatory coverage.
+Other channels may remain entirely in the commentary. A modest explanation
+of the main meaning or a collection of unusual details is insufficient when
+the source develops a more revealing channel. Use only connections developed
+in the editorial; if it supplies none, explain its strongest grounded reading.
 
 Render its hermetic prompt from the completed editorial prose:
 
@@ -530,8 +544,8 @@ Give it only the filled invitation prompt. Do not reuse the consolidator session
 or supply scope prose, scope ledgers, discovery outputs, first-pass prose,
 evidence packets, or project-governance documents. The finished editorial prose
 is the invitation's sole semantic source: this keeps its promise aligned with
-what the reader will encounter and prevents the invitation from becoming a
-second coverage pass.
+what the reader will encounter. The summary is selective; it does not repeat
+every reading or introduce discoveries absent from the editorial prose.
 
 The invitation agent writes only the separate invitation artifact and runs the
 mechanical prose validator named in the prompt. It does not modify the editorial
@@ -561,7 +575,12 @@ Report the final validator result and lifecycle status in this conversation.
 ```
 
 Inspect and report the invitation separately from the completed commentary.
-Regenerate it whenever its editorial source changes. The monitor considers a
+Check that the reader can follow the selected channel from its opening
+expression through its connected background to an expanded or shifted reading
+of the ayah. Check fidelity of the connections and qualifications, not coverage
+of omitted findings or channels. Mechanical validation does not establish this
+semantic quality. Regenerate it whenever
+its editorial source or invitation instructions change. The monitor considers a
 newly registered ayah complete only after both CE validation and invitation
 validation have completed.
 
