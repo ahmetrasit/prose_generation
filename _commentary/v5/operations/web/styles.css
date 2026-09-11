@@ -446,7 +446,7 @@ main {
 
 .workspace.reader-open {
   display: grid;
-  grid-template-columns: minmax(620px, 1fr) minmax(360px, 40vw);
+  grid-template-columns: minmax(420px, 1fr) 8px minmax(320px, var(--reader-width, 40vw));
 }
 
 .queue,
@@ -455,7 +455,45 @@ main {
 }
 
 .workspace.reader-open .queue {
+  border-right: 0;
+}
+
+.reader-resizer {
+  display: none;
+}
+
+.workspace.reader-open .reader-resizer {
+  position: relative;
+  display: block;
+  min-width: 8px;
+  background: #eef2f2;
   border-right: 1px solid var(--line);
+  border-left: 1px solid var(--line);
+  cursor: col-resize;
+  touch-action: none;
+}
+
+.workspace.reader-open .reader-resizer::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 2px;
+  height: 42px;
+  background: #9aabad;
+  border-radius: 2px;
+  transform: translate(-50%, -50%);
+}
+
+.workspace.reader-open .reader-resizer:hover,
+.workspace.reader-open .reader-resizer:focus-visible,
+.workspace.reader-resizing .reader-resizer {
+  background: #dde8e7;
+}
+
+.workspace.reader-resizing {
+  cursor: col-resize;
+  user-select: none;
 }
 
 .section-toolbar {
@@ -844,7 +882,7 @@ td {
   }
 
   .workspace.reader-open {
-    grid-template-columns: minmax(560px, 1fr) minmax(340px, 42vw);
+    grid-template-columns: minmax(420px, 1fr) 8px minmax(320px, var(--reader-width, 42vw));
   }
 
   .workspace.reader-open .task-table .col-analysis,
@@ -873,6 +911,10 @@ td {
 
   .workspace.reader-open .queue {
     border-right: 0;
+  }
+
+  .workspace.reader-open .reader-resizer {
+    display: none;
   }
 
   .reader {

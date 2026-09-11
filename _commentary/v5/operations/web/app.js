@@ -3,12 +3,14 @@ import { dashboardConfig, firebaseConfig } from "./firebase-config.js";
 const FIREBASE_VERSION = "12.18.0";
 const ACTIVE_STAGE_STATES = new Set(["active", "composing", "editing"]);
 const ATTENTION_STATES = new Set(["failed", "attention", "interrupted", "stalled"]);
-const ARTIFACT_ORDER = ["micro", "macro", "global", "consolidated", "editorial"];
+const ARTIFACT_ORDER = ["micro", "macro", "global", "consolidated", "editorial", "invitation"];
+const READER_WIDTH_STORAGE_KEY = "v5-monitor-reader-width";
 const STAGE_NAMES = {
   micro: "Micro scope",
   macro: "Macro scope",
   global: "Global scope",
   canonical: "Canonical",
+  invitation: "Invitation",
   validator: "Validation",
 };
 const STATUS_ORDER = {
@@ -32,6 +34,7 @@ const elements = Object.fromEntries(
     "reset-filters", "task-rows", "empty-state", "page-size", "page-range",
     "previous-page", "next-page", "page-label", "reader", "reader-heading", "previous-task",
     "next-task", "artifact-tabs", "reader-meta", "reader-content", "close-reader",
+    "reader-resizer",
     "cell-tooltip", "passcode-admin", "close-passcodes", "passcode-form", "passcode-label",
     "passcode-value", "generate-passcode", "allow-passcode", "created-passcode",
     "created-passcode-value", "copy-passcode", "passcode-result", "passcode-rows",
@@ -59,6 +62,7 @@ const state = {
   pageSize: 50,
   sort: { key: "surah", direction: "asc" },
   contentCache: new Map(),
+  readerWidth: readStoredReaderWidth(),
   passcodes: {},
   adminOpen: false,
 };
@@ -129,6 +133,71 @@ function renderMarkup(markdown) {
   flushParagraph();
   flushList();
   return output.join("");
+}
+
+function readStoredReaderWidth() {
+  try {
+    const value = Number(window.localStorage.getItem(READER_WIDTH_STORAGE_KEY));
+    return Number.isFinite(value) && value > 0 ? value : null;
+  } catch (_error) {
+    return null;
+  }
+}
+
+function storeReaderWidth(width) {
+  try {
+    window.localStorage.setItem(READER_WIDTH_STORAGE_KEY, String(Math.round(width)));
+  } catch (_error) {
+    // Pane size persistence is a convenience; monitoring should continue without it.
+  }
+}
+
+function applyReaderWidth(width) {
+  if (!width) return;
+  elements.workspace.style.setProperty("--reader-width", `${Math.round(width)}px`);
+}
+
+function updateReaderResizerValue(width, maxWidth) {
+  elements["reader-resizer"].setAttribute("aria-valuemax", String(Math.round(maxWidth)));
+  elements["reader-resizer"].setAttribute("aria-valuenow", String(Math.round(width)));
+}
+
+function readerWidthBounds() {
+  const bounds = elements.workspace.getBoundingClientRect();
+  const minReader = 320;
+  const minQueue = 420;
+  const maxReader = Math.max(minReader, bounds.width - minQueue);
+  return { minReader, maxReader };
+}
+
+function setReaderWidth(width, { persist = true } = {}) {
+  const { minReader, maxReader } = readerWidthBounds();
+  const next = Math.min(maxReader, Math.max(minReader, width));
+  applyReaderWidth(next);
+  updateReaderResizerValue(next, maxReader);
+  if (persist) {
+    state.readerWidth = next;
+    storeReaderWidth(next);
+  }
+}
+
+function syncReaderWidth() {
+  const { minReader, maxReader } = readerWidthBounds();
+  if (!state.readerWidth && !elements.workspace.classList.contains("reader-open")) {
+    updateReaderResizerValue(minReader, maxReader);
+    return;
+  }
+  const current = state.readerWidth || elements.reader.getBoundingClientRect().width || minReader;
+  setReaderWidth(current, { persist: false });
+}
+
+function readerWidthFromPointer(event) {
+  const bounds = elements.workspace.getBoundingClientRect();
+  return bounds.right - event.clientX;
+}
+
+function artifactLabel(kind) {
+  return kind === "invitation" ? "invitation summary" : kind;
 }
 
 function refNumbers(taskOrRef) {
@@ -501,15 +570,16 @@ async function selectTask(task) {
   state.selectedArtifact = null;
   elements.reader.hidden = false;
   elements.workspace.classList.add("reader-open");
+  syncReaderWidth();
   elements["reader-heading"].textContent = `Surah ${refNumbers(task).surah}, ayah ${refNumbers(task).ayah}`;
-  elements["reader-content"].innerHTML = '<p class="reader-placeholder">Loading prose...</p>';
+  setReaderHtml('<p class="reader-placeholder">Loading prose...</p>');
   renderTable(tasksForRun());
   if (state.mode === "firebase") {
     try {
       await loadFirebaseArtifacts(task);
     } catch (error) {
       if (state.selectedTaskId === task.task_id) {
-        elements["reader-content"].innerHTML = `<p class="reader-placeholder">Could not load prose: ${escapeHtml(error.message)}</p>`;
+        setReaderHtml(`<p class="reader-placeholder">Could not load prose: ${escapeHtml(error.message)}</p>`);
       }
       return;
     }
@@ -520,6 +590,8 @@ async function selectTask(task) {
 function closeReader() {
   state.selectedTaskId = null;
   state.selectedArtifact = null;
+  elements["reader-content"].dataset.viewKey = "";
+  elements["reader-content"].dataset.contentKey = "";
   elements.reader.hidden = true;
   elements.workspace.classList.remove("reader-open");
   renderTable(tasksForRun());
@@ -537,6 +609,47 @@ function navigateReader(offset) {
   if (task) selectTask(task);
 }
 
+function startReaderResize(event) {
+  if (event.button !== 0 || window.matchMedia("(max-width: 920px)").matches) return;
+  event.preventDefault();
+  elements["reader-resizer"].setPointerCapture(event.pointerId);
+  elements.workspace.classList.add("reader-resizing");
+  setReaderWidth(readerWidthFromPointer(event));
+}
+
+function moveReaderResize(event) {
+  if (!elements.workspace.classList.contains("reader-resizing")) return;
+  setReaderWidth(readerWidthFromPointer(event));
+}
+
+function finishReaderResize(event) {
+  if (!elements.workspace.classList.contains("reader-resizing")) return;
+  elements.workspace.classList.remove("reader-resizing");
+  if (elements["reader-resizer"].hasPointerCapture(event.pointerId)) {
+    elements["reader-resizer"].releasePointerCapture(event.pointerId);
+  }
+}
+
+function adjustReaderWidth(event) {
+  if (!["ArrowLeft", "ArrowRight"].includes(event.key)) return;
+  event.preventDefault();
+  const current = state.readerWidth || elements.reader.getBoundingClientRect().width;
+  setReaderWidth(current + (event.key === "ArrowLeft" ? 40 : -40));
+}
+
+function artifactCacheKey(artifact) {
+  return artifact.sha256 || `${artifact.path}:${artifact.modified_at}:${artifact.size}`;
+}
+
+function setReaderHtml(html, { viewKey = "", contentKey = "", preserveScroll = false } = {}) {
+  const reader = elements["reader-content"];
+  const scrollTop = preserveScroll ? reader.scrollTop : 0;
+  reader.innerHTML = html;
+  reader.dataset.viewKey = viewKey;
+  reader.dataset.contentKey = contentKey;
+  reader.scrollTop = Math.min(scrollTop, Math.max(0, reader.scrollHeight - reader.clientHeight));
+}
+
 function renderReader(task) {
   const artifacts = state.snapshot.artifacts?.[task.task_id] || {};
   const currentKinds = new Set(task.artifact_kinds || []);
@@ -549,7 +662,7 @@ function renderReader(task) {
     const button = document.createElement("button");
     button.type = "button";
     button.role = "tab";
-    button.textContent = kind;
+    button.textContent = artifactLabel(kind);
     button.classList.toggle("selected", kind === state.selectedArtifact);
     button.setAttribute("aria-selected", String(kind === state.selectedArtifact));
     button.addEventListener("click", () => {
@@ -561,27 +674,36 @@ function renderReader(task) {
   updateReaderNavigation();
   if (!state.selectedArtifact) {
     elements["reader-meta"].textContent = `${task.orchestrator_id} / no reader-visible output yet`;
-    elements["reader-content"].innerHTML = '<p class="reader-placeholder">Scope and consolidated prose will appear here when written.</p>';
+    setReaderHtml('<p class="reader-placeholder">Scope and consolidated prose will appear here when written.</p>');
     return;
   }
   const artifact = artifacts[state.selectedArtifact];
+  const viewKey = `${task.task_id}:${state.selectedArtifact}`;
+  const sameView = elements["reader-content"].dataset.viewKey === viewKey;
+  const cacheKey = artifactCacheKey(artifact);
+  if (artifact.content == null && state.mode === "local" && state.contentCache.has(cacheKey)) {
+    artifact.content = state.contentCache.get(cacheKey);
+  }
   elements["reader-meta"].textContent = `${artifact.path} / ${Number(artifact.size || 0).toLocaleString()} bytes / ${relativeTime(artifact.modified_at)}`;
   elements["reader-meta"].title = `${artifact.path} / ${absoluteTime(artifact.modified_at)}`;
   if (artifact.oversize) {
-    elements["reader-content"].innerHTML = '<p class="reader-placeholder">This artifact exceeds the inline reader limit.</p>';
+    setReaderHtml('<p class="reader-placeholder">This artifact exceeds the inline reader limit.</p>', { viewKey, contentKey: cacheKey, preserveScroll: sameView });
   } else if (artifact.content == null && state.mode === "local") {
-    elements["reader-content"].innerHTML = '<p class="reader-placeholder">Loading prose...</p>';
+    if (!sameView || !elements["reader-content"].textContent.trim()) {
+      setReaderHtml('<p class="reader-placeholder">Loading prose...</p>', { viewKey, contentKey: cacheKey });
+    }
     loadLocalArtifact(task, artifact);
   } else if (artifact.content == null) {
-    elements["reader-content"].innerHTML = '<p class="reader-placeholder">Prose content is unavailable.</p>';
+    setReaderHtml('<p class="reader-placeholder">Prose content is unavailable.</p>', { viewKey, contentKey: cacheKey, preserveScroll: sameView });
   } else {
-    elements["reader-content"].innerHTML = renderMarkup(artifact.content);
-    elements["reader-content"].scrollTop = 0;
+    const contentKey = `${cacheKey}:${artifact.content.length}`;
+    if (sameView && elements["reader-content"].dataset.contentKey === contentKey) return;
+    setReaderHtml(renderMarkup(artifact.content), { viewKey, contentKey, preserveScroll: sameView });
   }
 }
 
 async function loadLocalArtifact(task, artifact) {
-  const cacheKey = artifact.sha256 || `${artifact.path}:${artifact.modified_at}`;
+  const cacheKey = artifactCacheKey(artifact);
   try {
     if (!state.contentCache.has(cacheKey)) {
       const path = artifact.path.split("/").map(encodeURIComponent).join("/");
@@ -592,7 +714,12 @@ async function loadLocalArtifact(task, artifact) {
     artifact.content = state.contentCache.get(cacheKey);
     if (state.selectedTaskId === task.task_id) renderReader(task);
   } catch (error) {
-    elements["reader-content"].innerHTML = `<p class="reader-placeholder">Could not load prose: ${escapeHtml(error.message)}</p>`;
+    if (state.selectedTaskId === task.task_id) {
+      setReaderHtml(`<p class="reader-placeholder">Could not load prose: ${escapeHtml(error.message)}</p>`, {
+        viewKey: `${task.task_id}:${artifact.kind}`,
+        contentKey: artifactCacheKey(artifact),
+      });
+    }
   }
 }
 
@@ -905,7 +1032,7 @@ function demoSnapshot() {
       let artifactKinds = [];
       if (cycle < 11) {
         status = "completed";
-        for (const stage of ["micro", "macro", "global", "canonical"]) {
+        for (const stage of ["micro", "macro", "global", "canonical", "invitation"]) {
           stages[stage] = { status: "completed", attempt, agent_id: `agent-${stage}-${String(index).padStart(3, "0")}`, updated_at: updatedAt };
         }
         stages.validator = { status: "passed", attempt, agent_id: `agent-canonical-${String(index).padStart(3, "0")}`, updated_at: updatedAt };
@@ -1033,6 +1160,11 @@ elements.pause.addEventListener("click", () => setRemoteControl("paused"));
 elements["close-reader"].addEventListener("click", closeReader);
 elements["previous-task"].addEventListener("click", () => navigateReader(-1));
 elements["next-task"].addEventListener("click", () => navigateReader(1));
+elements["reader-resizer"].addEventListener("pointerdown", startReaderResize);
+elements["reader-resizer"].addEventListener("pointermove", moveReaderResize);
+elements["reader-resizer"].addEventListener("pointerup", finishReaderResize);
+elements["reader-resizer"].addEventListener("pointercancel", finishReaderResize);
+elements["reader-resizer"].addEventListener("keydown", adjustReaderWidth);
 elements["manage-passcodes"].addEventListener("click", () => setAdminOpen(true));
 elements["close-passcodes"].addEventListener("click", () => setAdminOpen(false));
 elements["generate-passcode"].addEventListener("click", () => {
@@ -1066,7 +1198,17 @@ document.addEventListener("pointerout", (event) => {
 document.addEventListener("focusin", (event) => showTooltip(event.target.closest("[data-tooltip]")));
 document.addEventListener("focusout", hideTooltip);
 window.addEventListener("scroll", hideTooltip, true);
-window.addEventListener("resize", hideTooltip);
+window.addEventListener("resize", () => {
+  hideTooltip();
+  if (
+    state.readerWidth
+    && elements.workspace.classList.contains("reader-open")
+    && !window.matchMedia("(max-width: 920px)").matches
+  ) {
+    syncReaderWidth();
+  }
+});
+syncReaderWidth();
 
 if (state.mode === "local") {
   loadLocal();
