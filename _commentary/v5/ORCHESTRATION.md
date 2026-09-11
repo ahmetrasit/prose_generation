@@ -16,6 +16,9 @@ prepare
   -> same consolidator writes the editorial version
   -> same consolidator validates the editorial prose only
   -> same consolidator repairs mechanical validator failures, up to 2 cycles
+  -> same consolidator revises qualification/image presentation
+  -> same consolidator validates the editorial prose again
+  -> same consolidator repairs mechanical validator failures, up to 2 cycles
   -> close consolidator
   -> render the invitation prompt from final editorial prose
   -> 1 fresh invitation agent writes and validates the reading invitation
@@ -210,7 +213,7 @@ override is for explicitly exploratory runs, not this production procedure.
 ## 3. Scope Agents
 
 Launch three fresh, independent agents in parallel with the multiagent spawn
-tool, one for each prompt. Every scope agent must be `gpt-5.6-luna` at `max`
+tool, one for each prompt. Every scope agent must be `gpt-6-astra` at `high`
 reasoning effort. Do not substitute another model, lower reasoning effort, or
 launch with `codex exec`.
 
@@ -308,7 +311,7 @@ lifecycle close. Continue the workflow with the files the scope agents produced.
 ## 4. Consolidation
 
 After all three scope prose files exist, close the scope agents. Start one
-fresh `gpt-5.6-sol` agent at `max` reasoning effort as the consolidator. This
+fresh `gpt-6-astra` agent at `high` reasoning effort as the consolidator. This
 model and reasoning setting are mandatory for the consolidation and editorial
 agent: do not substitute another model, do not lower reasoning effort, and do
 not reuse a scope-agent session. Use `_commentary/v5/prompts/canonical.md` as
@@ -365,8 +368,8 @@ python3 _commentary/v5/operations/monitor.py event \
 Launch message:
 
 ```text
-You are the V5 consolidator for <S:A>. You are running as a fresh gpt-5.6-sol
-max agent.
+You are the V5 consolidator for <S:A>. You are running as a fresh gpt-6-astra
+high agent.
 
 Before consolidation, run this lifecycle command:
 python3 _commentary/v5/operations/monitor.py event --run-id <shared-run-id> --orchestrator-id <unique-orchestrator-id> --ayah-ref <S:A> --role canonical --agent-id <spawn-task-name> --status started
@@ -408,8 +411,8 @@ Arabic/transliteration, add QAC IDs, or invent another tag shape.
 
 ## 5. Editorial Follow-Up
 
-Keep the same `gpt-5.6-sol` max consolidator live for editorial. The editorial
-agent is not a new role or model; it is the same mandatory `gpt-5.6-sol` max
+Keep the same `gpt-6-astra` high consolidator live for editorial. The editorial
+agent is not a new role or model; it is the same mandatory `gpt-6-astra` high
 session that wrote the consolidated first-pass prose. Send one follow-up asking
 for the editorial version. The editorial pass may rewrite sentences for
 cadence, clarity, Turkish fluency, removal of English leakage, and better
@@ -461,14 +464,14 @@ Write only the requested editorial prose file. Then run the validator command
 specified in the prompt yourself on that editorial prose file only. If it fails,
 repair only the reported mechanical prose-file issues and rerun it. Stop after
 the validator passes or after two repair/rerun cycles, whichever comes first.
-Then run exactly one terminal lifecycle command:
-python3 _commentary/v5/operations/monitor.py event --run-id <shared-run-id> --orchestrator-id <unique-orchestrator-id> --ayah-ref <S:A> --role canonical --agent-id <spawn-task-name> --status <completed|failed|interrupted|attention>
-
-Use canonical completed only when the editorial validator passed. Use attention
-when the editorial prose exists but the validator is still nonzero after the two
-permitted repair/rerun cycles. Use failed when required output could not be
-produced and interrupted when the lifecycle was interrupted. Report the final
-validator result and lifecycle status in this conversation.
+Keep this conversation open for the final qualification/image presentation
+follow-up. When that final follow-up arrives, apply it to the same editorial
+prose file, then run the editorial prose validator again on that same file and
+repair only mechanical validator failures, up to two cycles. After the
+post-follow-up validator passes or the two repair cycles are exhausted, run
+exactly one terminal canonical lifecycle event and report the final validator
+result and lifecycle status. Do not append a terminal lifecycle event before
+that final follow-up is complete.
 ```
 
 After writing the editorial file, the same consolidator must run the mechanical
@@ -497,8 +500,8 @@ findings, drop findings, or launch a separate repair agent.
 Do not add a separate validator agent, validator event, or per-step progress
 event. The consolidator has one `canonical started` event and one final
 `canonical completed`, `canonical failed`, `canonical interrupted`, or
-`canonical attention` event covering consolidation, editorial work, and the
-validator/repair cycle.
+`canonical attention` event covering consolidation, editorial work, the
+qualification/image presentation follow-up, and validator/repair cycles.
 
 The orchestrating agent does not run this validator as a workflow gate. It
 should only confirm that the consolidator reported either a passing validator
@@ -506,9 +509,76 @@ result or completion of the two permitted repair/rerun cycles with remaining
 findings reported, then close the consolidator and inspect the prose quality
 directly.
 
-## 6. Reading Invitation
+## 6. Qualification/Image Presentation Follow-Up
 
-After CE has written and validated the final editorial prose, generate the
+Keep the same `gpt-6-astra` high consolidator live after the editorial validator
+has passed or completed its permitted repair/rerun cycles. Send this exact
+message verbatim as the final CE writing follow-up:
+
+```text
+Revise only the presentation of qualifications and the clarity of image
+  contributions in the editorial prose. Lead with what each resonance
+  contributes and describe its scope affirmatively where possible.
+
+  Avoid repeatedly listing unused images merely to exclude them. When such a
+  list expresses a substantive restriction, preserve that restriction in a
+  concise sentence attached to the relevant reading. Retain explicit exclusions
+  wherever affirmative wording would leave the boundary ambiguous.
+
+  Where several images or details accumulate, clarify what each contributes to
+  the reading and how their contributions relate. Make the existing connections
+  easier to follow without inventing new connections or removing concrete
+  details.
+
+  Make clear that a restriction concerns this particular connection, rather than
+  declaring other readings invalid. Preserve every retained finding, concrete
+  image, evidence attribution, uncertainty level, and substantive qualification.
+  Do not strengthen claims or add interpretations.
+```
+
+This follow-up rewrites the same editorial prose file in place:
+
+```text
+_commentary/v5/editorial/<analysis-id>/sNNN/S_A/S_A.prose.editorial.tr.md
+```
+
+It is not a new evidence-selection stage and must not inspect upstream evidence,
+add findings, drop findings, strengthen claims, or create any extra artifacts.
+The validation and terminal lifecycle instructions must have been supplied in
+the earlier editorial follow-up message so this final CE writing follow-up can
+remain exactly the quoted text. After writing the revised editorial prose, the
+same consolidator must run:
+
+```text
+python3 _commentary/v5/validate_prose.py _commentary/v5/editorial/<analysis-id>/sNNN/S_A/S_A.prose.editorial.tr.md
+```
+
+If validation returns nonzero, the same consolidator repairs only the reported
+mechanical file-contract issues in the editorial prose file, reruns the
+validator, and may do this at most two times. After the validator passes, or
+after two repair/rerun cycles with remaining findings reported, the same
+consolidator runs exactly one terminal lifecycle command:
+
+```bash
+python3 _commentary/v5/operations/monitor.py event \
+  --run-id <shared-run-id> \
+  --orchestrator-id <unique-orchestrator-id> \
+  --ayah-ref <S:A> \
+  --role canonical \
+  --agent-id <spawn-task-name> \
+  --status <completed|failed|interrupted|attention>
+```
+
+Use canonical `completed` only when the final editorial prose exists and the
+post-follow-up validator passed. Use `attention` when the final editorial prose
+exists but validation remains nonzero after the two permitted repair/rerun
+cycles. Use `failed` when required output could not be produced and
+`interrupted` when the lifecycle was interrupted. Report the final validator
+result and lifecycle status in this conversation.
+
+## 7. Reading Invitation
+
+After CE has written, revised, and validated the final editorial prose, generate the
 separate reading invitation as the final required stage for that ayah. This
 derivative follows one or two main channels of resonance in two to four
 Turkish paragraphs. A channel is a connected background of meanings, images,
@@ -539,7 +609,7 @@ The command writes
 fresh-agent handoff whose output is
 `_commentary/v5/editorial/<analysis-id>/sNNN/S_A/S_A.invitation.tr.md`.
 
-Start one fresh `gpt-5.6-luna` max agent with no inherited conversation history.
+Start one fresh `gpt-6-astra` high agent with no inherited conversation history.
 Give it only the filled invitation prompt. Do not reuse the consolidator session
 or supply scope prose, scope ledgers, discovery outputs, first-pass prose,
 evidence packets, or project-governance documents. The finished editorial prose
@@ -560,7 +630,7 @@ Launch message:
 
 ```text
 You are the V5 reading-invitation writer for <S:A>. You are running as a fresh
-gpt-5.6-luna max agent.
+gpt-6-astra high agent.
 
 Before writing, run this lifecycle command:
 python3 _commentary/v5/operations/monitor.py event --run-id <shared-run-id> --orchestrator-id <unique-orchestrator-id> --ayah-ref <S:A> --role invitation --agent-id <spawn-task-name> --status started
@@ -620,13 +690,14 @@ it does not interrupt or hold the terminal for active ayat.
 
 When multiple ayat are selected, run the whole V5 workflow for those ayat in
 parallel. Do not finish one ayah end to end before starting the next. Spawn the
-three `gpt-5.6-luna` max scope agents for each ayah as soon as its prompts
+three `gpt-6-astra` high scope agents for each ayah as soon as its prompts
 exist; as each ayah's three scope prose files are ready, spawn that ayah's fresh
-`gpt-5.6-sol` max consolidator and carry that same consolidator through the
-editorial follow-up. Each ayah remains an independent workflow with its own
-scope agents, consolidator, invitation agent, paths, and Git-visible outputs.
-As soon as an ayah's CE stage completes, render and launch its invitation; do
-not wait for CE to finish on the other ayat.
+`gpt-6-astra` high consolidator and carry that same consolidator through the
+editorial follow-up and qualification/image presentation follow-up. Each ayah
+remains an independent workflow with its own scope agents, consolidator,
+invitation agent, paths, and Git-visible outputs. As soon as an ayah's CE stage
+completes, render and launch its invitation; do not wait for CE to finish on the
+other ayat.
 
 Different ayat and analysis IDs have disjoint paths and may run concurrently.
 Do not run two orchestrators for the same analysis ID and ayah at once.
@@ -659,6 +730,10 @@ indefinitely.
 - If a launched agent terminates before appending its final lifecycle event,
   leave its start event incomplete. That is how the dashboard identifies a
   possible stall.
+- Monitor or lifecycle logging mismatches are operational only. Do not rerun
+  content, relaunch agents, or change the workflow solely to fix monitor state.
+  Hand-record the operational issue if useful; if it cannot be repaired, leave
+  it and continue from the content files that were produced and validated.
 - If spawning fails before the new agent can write `started`, the orchestrator
   writes an `attention` event for the intended ayah, role, agent ID, and scope
   lane when applicable.
