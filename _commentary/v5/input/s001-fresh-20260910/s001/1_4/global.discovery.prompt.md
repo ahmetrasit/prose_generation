@@ -1446,20 +1446,10 @@ hedging and break the flow. Turkish carries contrast through `zaten`, `hem… he
 | Türkçede bunun karşılığı yoktur. | Türkçe burada tek bir "ilet" ile yetinir. |
 | Âyet yolun düz olduğunu ileri sürmüyor; hangi yol olduğunu söylüyor. | Âyet hangi yol olduğunu söyler: o yol, o bilinen dosdoğru olan. |
 
-Make the relationship between layers intelligible in positive terms: establish
-the foreground meaning and show what a resonance contributes in the background.
-According to the evidence, it may reinforce, expand, or shift how the primary
-meaning is understood. Preserve its source, scope, and degree of certainty
-within that account. The foreground's continued presence can be demonstrated
-by the explanation itself, without repeated assurances after each reading.
-Use varied language; "second layer" is not a required label, and "supports the
-main meaning" is not an adequate description of every interpretive contribution.
-
-Use an explicit negative when a concrete ambiguity or live counter-evidence
-requires it. Preserve substantive restrictions when rewriting denials, while
-letting each explanation leave the reader with what the reading contributes.
-Review paragraph endings for repeated exclusions that seem to withdraw the
-interpretation just developed.
+Use an explicit negative only to correct a likely misconception, protect the
+primary sense from replacement, or preserve live counter-evidence. If no
+explicit negative is needed, say in the friction report that there was no live
+misconception requiring one.
 
 ## Arabic word surfaces
 
