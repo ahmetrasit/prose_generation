@@ -4,1432 +4,184 @@
   "lane": "micro",
   "coverage_complete": true,
   "candidate_decisions": [
-    {
-      "candidate_id": "cand_0663af724eacd2ab5392",
-      "decision": "accept",
-      "reason": "The supplied focus evidence supports a shift from the preceding declarative posture into a fresh collective petition.",
-      "finding_refs": ["micro:petition-from-declaration"],
-      "branch_exclusions": [],
-      "facet_exclusions": [],
-      "context_exclusions": [],
-      "semantic_obligation_exclusions": []
-    },
-    {
-      "candidate_id": "cand_0644a65d0afd803dfc30",
-      "decision": "accept",
-      "reason": "The imperative carries both the attached plural recipient and the explicit route object in one direct verbal frame.",
-      "finding_refs": ["micro:recipient-route-compression"],
-      "branch_exclusions": [],
-      "facet_exclusions": [],
-      "context_exclusions": [],
-      "semantic_obligation_exclusions": []
-    },
-    {
-      "candidate_id": "cand_6ff4c433ccccb8b7bd39",
-      "decision": "accept",
-      "reason": "The focus clause turns the guidance request immediately toward a route that is then qualified, giving the request a concrete specification.",
-      "finding_refs": ["micro:request-opens-path-specification"],
-      "branch_exclusions": [],
-      "facet_exclusions": [],
-      "context_exclusions": [],
-      "semantic_obligation_exclusions": []
-    },
-    {
-      "candidate_id": "cand_16b2a41258f843a9a200",
-      "decision": "narrow",
-      "reason": "Retain the bounded pressure that requested guidance is received as a giving action; the focus does not supply a separate gift object, reciprocal exchange, or gift-related associated use.",
-      "finding_refs": ["micro:bestowed-guidance-pressure"],
-      "branch_exclusions": [],
-      "facet_exclusions": [
-        {"branch_ref": "root_001583/B004", "facet_id": "F001", "reason": "No separate gift object is present; only the giving action colors the requested guidance."},
-        {"branch_ref": "root_001583/B004", "facet_id": "F003", "reason": "The focus supplies no independent trigger for reciprocal gift exchange."},
-        {"branch_ref": "root_001583/B004", "facet_id": "F004", "reason": "The focus supplies no carrier for the plate or frequent-giver associated use."}
-      ],
-      "context_exclusions": [],
-      "semantic_obligation_exclusions": []
-    },
-    {
-      "candidate_id": "cand_70aedb9ca94d9797d891",
-      "decision": "accept",
-      "reason": "The local governing relation places guidance directly beside the path and its upright qualification, producing a real local collocation.",
-      "finding_refs": ["micro:guidance-path-upright-field"],
-      "branch_exclusions": [],
-      "facet_exclusions": [],
-      "context_exclusions": [],
-      "semantic_obligation_exclusions": []
-    },
-    {
-      "candidate_id": "cand_39ed91562016915b2cf8",
-      "decision": "accept",
-      "reason": "The supplied morphology identifies a silent second-person agent and a first-plural object, reversing the reader's expected roles in the petition.",
-      "finding_refs": ["micro:imperative-address"],
-      "branch_exclusions": [],
-      "facet_exclusions": [],
-      "context_exclusions": [],
-      "semantic_obligation_exclusions": []
-    },
-    {
-      "candidate_id": "cand_4eae2247c1532e262519",
-      "decision": "accept",
-      "reason": "The rare fused imperative surface makes the beneficiary inseparable from the request and concentrates the guidance act in one form.",
-      "finding_refs": ["micro:fused-beneficiary-form"],
-      "branch_exclusions": [],
-      "facet_exclusions": [],
-      "context_exclusions": [],
-      "semantic_obligation_exclusions": []
-    },
-    {
-      "candidate_id": "cand_b8dc8011db9958e6b367",
-      "decision": "accept",
-      "reason": "The imperative morphology remains forceful while the address relation makes that force a dependent supplication rather than an order over the addressee.",
-      "finding_refs": ["micro:petitionary-imperative"],
-      "branch_exclusions": [],
-      "facet_exclusions": [],
-      "context_exclusions": [],
-      "semantic_obligation_exclusions": []
-    },
-    {
-      "candidate_id": "cand_36bd6c50ab3c538a58b0",
-      "decision": "accept",
-      "reason": "The direct path object selects the guidance sense of leading toward a route, rather than the root's other available general or perceptual pressures.",
-      "finding_refs": ["micro:selected-guidance-direction"],
-      "branch_exclusions": [],
-      "facet_exclusions": [],
-      "context_exclusions": [],
-      "semantic_obligation_exclusions": []
-    },
-    {
-      "candidate_id": "cand_fc6d07528eb24906775d",
-      "decision": "accept",
-      "reason": "The compact suffix-bound request expands acoustically into two heavier definite nominals, giving the petition a locally perceptible cadence.",
-      "finding_refs": ["micro:request-cadence"],
-      "branch_exclusions": [],
-      "facet_exclusions": [],
-      "context_exclusions": [],
-      "semantic_obligation_exclusions": []
-    },
-    {
-      "candidate_id": "cand_0ae317a37674edacdc32",
-      "decision": "accept",
-      "reason": "The dominant abstract form names a way while retaining the concrete pressure of a road, so abstraction does not erase movement.",
-      "finding_refs": ["micro:abstract-road-pressure"],
-      "branch_exclusions": [],
-      "facet_exclusions": [],
-      "context_exclusions": [],
-      "semantic_obligation_exclusions": []
-    },
-    {
-      "candidate_id": "cand_432360ee37ae1e5005ff",
-      "decision": "accept",
-      "reason": "The route noun is accusative and functions as the explicit object that answers what the imperative asks guidance to supply.",
-      "finding_refs": ["micro:accusative-path-object"],
-      "branch_exclusions": [],
-      "facet_exclusions": [],
-      "context_exclusions": [],
-      "semantic_obligation_exclusions": []
-    },
-    {
-      "candidate_id": "cand_0e8825308dbefbe4750c",
-      "decision": "accept",
-      "reason": "The supplied comparison evidence places the focus wording within a recurring straight-path formula family, which changes how the local phrase is heard without replacing its local sense.",
-      "finding_refs": ["micro:formula-family"],
-      "branch_exclusions": [],
-      "facet_exclusions": [],
-      "context_exclusions": [],
-      "semantic_obligation_exclusions": []
-    },
-    {
-      "candidate_id": "cand_3dbf0bd82a70db792bda",
-      "decision": "accept",
-      "reason": "Canonical definiteness makes the requested route identifiable as the known path rather than any indefinite straight instance.",
-      "finding_refs": ["micro:known-path-definiteness"],
-      "branch_exclusions": [],
-      "facet_exclusions": [],
-      "context_exclusions": [],
-      "semantic_obligation_exclusions": []
-    },
-    {
-      "candidate_id": "cand_4635ddeb23a0dab39504",
-      "decision": "accept",
-      "reason": "The local governing relation and supplied pairing evidence make the route part of a guidance-and-upright-path construction rather than an isolated noun.",
-      "finding_refs": ["micro:guidance-path-formula"],
-      "branch_exclusions": [],
-      "facet_exclusions": [],
-      "context_exclusions": [],
-      "semantic_obligation_exclusions": []
-    },
-    {
-      "candidate_id": "cand_4ceb1e4e04681bbcb115",
-      "decision": "accept",
-      "reason": "The path noun and its following qualifier are joined by adjective agreement, so the phrase remains one grammatically locked route.",
-      "finding_refs": ["micro:path-adjective-lock"],
-      "branch_exclusions": [],
-      "facet_exclusions": [],
-      "context_exclusions": [],
-      "semantic_obligation_exclusions": []
-    },
-    {
-      "candidate_id": "cand_2854b0b41fd05e84ff1a",
-      "decision": "accept",
-      "reason": "Standing between the imperative and the qualifier, the path noun turns the request into a destination and hands it forward for specification.",
-      "finding_refs": ["micro:middle-path-hinge"],
-      "branch_exclusions": [],
-      "facet_exclusions": [],
-      "context_exclusions": [],
-      "semantic_obligation_exclusions": []
-    },
-    {
-      "candidate_id": "cand_59e3791b4fa55849096f",
-      "decision": "accept",
-      "reason": "The route slot preserves a physical road image while the guidance relation makes that image carry the abstract request as movement through a conduit.",
-      "finding_refs": ["micro:path-as-conduit"],
-      "branch_exclusions": [],
-      "facet_exclusions": [],
-      "context_exclusions": [],
-      "semantic_obligation_exclusions": []
-    },
-    {
-      "candidate_id": "cand_eb920cc8465d4ff5ac6a",
-      "decision": "accept",
-      "reason": "The supplied variant and canonical sound evidence separates acoustic pressure from lexical reference: the word can sound differently while the route remains the route.",
-      "finding_refs": ["micro:phonetic-stability"],
-      "branch_exclusions": [],
-      "facet_exclusions": [],
-      "context_exclusions": [],
-      "semantic_obligation_exclusions": []
-    },
-    {
-      "candidate_id": "cand_c5cf68725c979d3d7f76",
-      "decision": "accept",
-      "reason": "Vowel length, assimilation, and liaison make the definite route attach audibly to the request and give the noun temporal weight in recitation.",
-      "finding_refs": ["micro:recited-route-cadence"],
-      "branch_exclusions": [],
-      "facet_exclusions": [],
-      "context_exclusions": [],
-      "semantic_obligation_exclusions": []
-    },
-    {
-      "candidate_id": "cand_23a6c249ac3b29dfd035",
-      "decision": "narrow",
-      "reason": "Retain the passage-and-conduit pressure carried by the route, activated by the guidance relation; omit the food, throat, and easy-swallowing specializations because the focus supplies no such carrier.",
-      "finding_refs": ["micro:passage-conduit-pressure"],
-      "branch_exclusions": [],
-      "facet_exclusions": [
-        {"branch_ref": "root_000858/B002", "facet_id": "F002", "reason": "No pelte-like food carrier is present in the focus."},
-        {"branch_ref": "root_000858/B002", "facet_id": "F003", "reason": "No throat or bodily-width carrier is present in the focus."},
-        {"branch_ref": "root_000858/B002", "facet_id": "F004", "reason": "The focus activates passage pressure, not the direct food-swallowing specialization."}
-      ],
-      "context_exclusions": [],
-      "semantic_obligation_exclusions": []
-    },
-    {
-      "candidate_id": "cand_2b4c922a5af6577ceeaf",
-      "decision": "accept",
-      "reason": "The supplied variant comparison makes the canonical definite, unpossessed route visibly identifiable and preserves its standard force.",
-      "finding_refs": ["micro:canonical-definiteness-pressure"],
-      "branch_exclusions": [],
-      "facet_exclusions": [],
-      "context_exclusions": [],
-      "semantic_obligation_exclusions": []
-    },
-    {
-      "candidate_id": "cand_0c8f51514cb3b5698ca9",
-      "decision": "accept",
-      "reason": "The Form X active participle gives the path's uprightness the force of an active property carried by the route.",
-      "finding_refs": ["micro:active-uprightness"],
-      "branch_exclusions": [],
-      "facet_exclusions": [],
-      "context_exclusions": [],
-      "semantic_obligation_exclusions": []
-    },
-    {
-      "candidate_id": "cand_cd1e169d1053188bac51",
-      "decision": "accept",
-      "reason": "Definiteness and accusative agreement make the final adjective the path's bound qualifier rather than an independent assertion.",
-      "finding_refs": ["micro:adjective-concord"],
-      "branch_exclusions": [],
-      "facet_exclusions": [],
-      "context_exclusions": [],
-      "semantic_obligation_exclusions": []
-    },
-    {
-      "candidate_id": "cand_4713384bd683cedc0de5",
-      "decision": "narrow",
-      "reason": "Retain the local standing-and-value pressure narrowed to upright quality; the supplied family does not activate its peoplehood, pricing, or resurrection branches here.",
-      "finding_refs": ["micro:bounded-qwm-family-pressure"],
-      "branch_exclusions": [
-        {"branch_ref": "root_001273/B001", "reason": "The adjective's path attachment supplies no peoplehood carrier."},
-        {"branch_ref": "root_001273/B010", "reason": "The focus supplies no valuation or pricing trigger."},
-        {"branch_ref": "root_001273/B013", "reason": "The focus supplies no resurrection or judgment-day trigger for this candidate."}
-      ],
-      "facet_exclusions": [],
-      "context_exclusions": [],
-      "semantic_obligation_exclusions": []
-    },
-    {
-      "candidate_id": "cand_0731bed37ac9d2e90102",
-      "decision": "accept",
-      "reason": "The adjective has a supplied wider domain range, while its local agreement restricts the active attribute to this path phrase.",
-      "finding_refs": ["micro:mobile-attribute-localized"],
-      "branch_exclusions": [],
-      "facet_exclusions": [],
-      "context_exclusions": [],
-      "semantic_obligation_exclusions": []
-    },
-    {
-      "candidate_id": "cand_acc9354d85c525f58b00",
-      "decision": "accept",
-      "reason": "The postposed adjective occupies the ayah's final position, making the path's upright quality the audible landing point.",
-      "finding_refs": ["micro:final-quality-seal"],
-      "branch_exclusions": [],
-      "facet_exclusions": [],
-      "context_exclusions": [],
-      "semantic_obligation_exclusions": []
-    },
-    {
-      "candidate_id": "cand_f5cc14b4e06beb3dd2bd",
-      "decision": "accept",
-      "reason": "The final adjective completes the supplied guidance-and-straight-path formula by giving the route its governing norm.",
-      "finding_refs": ["micro:formula-completion"],
-      "branch_exclusions": [],
-      "facet_exclusions": [],
-      "context_exclusions": [],
-      "semantic_obligation_exclusions": []
-    },
-    {
-      "candidate_id": "cand_0cfa0b63a10a94662d35",
-      "decision": "accept",
-      "reason": "The focus first names the path's quality, leaving the identified route open to fuller specification without changing the current clause.",
-      "finding_refs": ["micro:qualifier-forward-opening"],
-      "branch_exclusions": [],
-      "facet_exclusions": [],
-      "context_exclusions": [],
-      "semantic_obligation_exclusions": []
-    },
-    {
-      "candidate_id": "cand_62278d932a16dda2ff1d",
-      "decision": "accept",
-      "reason": "The final qualifier closes the movement from asking for guidance to naming a route and then naming the standard that makes it right.",
-      "finding_refs": ["micro:guidance-field-closure"],
-      "branch_exclusions": [],
-      "facet_exclusions": [],
-      "context_exclusions": [],
-      "semantic_obligation_exclusions": []
-    },
-    {
-      "candidate_id": "cand_41ca6235d661817d9db1",
-      "decision": "accept",
-      "reason": "The final adjective follows the heavier route noun and tightens the nominal rhythm into a firm local closure.",
-      "finding_refs": ["micro:cadential-closure"],
-      "branch_exclusions": [],
-      "facet_exclusions": [],
-      "context_exclusions": [],
-      "semantic_obligation_exclusions": []
-    },
-    {
-      "candidate_id": "cand_9210bd980982ae081114",
-      "decision": "narrow",
-      "reason": "Retain only a qualified standing-horizon pressure around the path's upright quality; the supplied 1:4 pointer is not a selected micro context and the resurrection branch is not locally activated.",
-      "finding_refs": ["micro:standing-horizon-pressure"],
-      "branch_exclusions": [
-        {"branch_ref": "root_001273/B013", "reason": "The focus adjective and route relation do not independently activate the resurrection-and-judgment-day branch."}
-      ],
-      "facet_exclusions": [],
-      "context_exclusions": [
-        {"context_ref": "1:4", "reason": "The support names 1:4 as a horizon pointer, but this micro packet contains no selected 1:4 occurrence; retain only local standing pressure."}
-      ],
-      "semantic_obligation_exclusions": []
-    },
-    {
-      "candidate_id": "cand_62fe9e43fbbc86b6ccda",
-      "decision": "accept",
-      "reason": "The path qualifier keeps physical straightness together with upright, balanced, and non-deviating conduct, grounded in the local cross-root contact.",
-      "finding_refs": ["micro:upright-rectitude"],
-      "branch_exclusions": [],
-      "facet_exclusions": [],
-      "context_exclusions": [],
-      "semantic_obligation_exclusions": []
-    },
-    {
-      "candidate_id": "cand_27d468cfbae0ceb8b8a3",
-      "decision": "accept",
-      "reason": "Canonical definiteness and accusative agreement present one known standard for this path, while the supplied variants expose how alternative constructions would loosen it.",
-      "finding_refs": ["micro:definite-standard-variant"],
-      "branch_exclusions": [],
-      "facet_exclusions": [],
-      "context_exclusions": [],
-      "semantic_obligation_exclusions": []
-    },
-    {
-      "candidate_id": "cand_6ccb416e8c68494faadb",
-      "decision": "reject",
-      "reason": "This entry is a ledger-only QAC root occurrence, not an independent semantic candidate; its occurrence support remains accounted for in the packet but creates no finding.",
-      "finding_refs": [],
-      "branch_exclusions": [],
-      "facet_exclusions": [],
-      "context_exclusions": [],
-      "semantic_obligation_exclusions": []
-    },
-    {
-      "candidate_id": "cand_05d6b41dd49e924c94ac",
-      "decision": "reject",
-      "reason": "This entry is a ledger-only QAC root occurrence, not an independent semantic candidate; its occurrence support remains accounted for in the packet but creates no finding.",
-      "finding_refs": [],
-      "branch_exclusions": [],
-      "facet_exclusions": [],
-      "context_exclusions": [],
-      "semantic_obligation_exclusions": []
-    },
-    {
-      "candidate_id": "cand_0e595bca31b3c8e93f20",
-      "decision": "reject",
-      "reason": "This entry is a ledger-only QAC root occurrence, not an independent semantic candidate; its occurrence support remains accounted for in the packet but creates no finding.",
-      "finding_refs": [],
-      "branch_exclusions": [],
-      "facet_exclusions": [],
-      "context_exclusions": [],
-      "semantic_obligation_exclusions": []
-    },
-    {
-      "candidate_id": "cand_920b68fde665251c48f8",
-      "decision": "accept",
-      "reason": "The exact HFT trace names the supplied focus coordinate, roots, word positions, and return through the focus; retain its three-part activation as attributed contextual evidence.",
-      "finding_refs": ["micro:hft-gentle-upright-alignment"],
-      "branch_exclusions": [],
-      "facet_exclusions": [],
-      "context_exclusions": [],
-      "semantic_obligation_exclusions": []
-    },
-    {
-      "candidate_id": "cand_66350b14efe8f125c000",
-      "decision": "accept",
-      "reason": "The exact HFT trace agrees with the supplied focus surface and returns through all three focus words; retain the assisted-motion reading as attributed contextual evidence.",
-      "finding_refs": ["micro:hft-assisted-motion"],
-      "branch_exclusions": [],
-      "facet_exclusions": [],
-      "context_exclusions": [],
-      "semantic_obligation_exclusions": []
-    },
-    {
-      "candidate_id": "cand_fddf92cac71d212859fc",
-      "decision": "accept",
-      "reason": "The exact HFT trace agrees with the supplied focus coordinates and names a distinct course, manner, and support relation; retain it as attributed contextual evidence.",
-      "finding_refs": ["micro:hft-sustaining-course"],
-      "branch_exclusions": [],
-      "facet_exclusions": [],
-      "context_exclusions": [],
-      "semantic_obligation_exclusions": []
-    },
-    {
-      "candidate_id": "cand_4f4d0028b4c2a6fb8258",
-      "decision": "accept",
-      "reason": "The exact exploratory HFT trace agrees with the supplied focus coordinates, including the passage and leading branches, and returns through the focus; retain it with exploratory epistemic status and attributed application.",
-      "finding_refs": ["micro:hft-following-passage"],
-      "branch_exclusions": [],
-      "facet_exclusions": [],
-      "context_exclusions": [],
-      "semantic_obligation_exclusions": []
-    }
+    {"candidate_id":"cand_0663af724eacd2ab5392","decision":"accept","reason":"The supplied transition from the prior declaration to this imperative is a grounded local change of act.","finding_refs":["micro:petition-turn"],"branch_exclusions":[],"facet_exclusions":[],"context_exclusions":[],"semantic_obligation_exclusions":[]},
+    {"candidate_id":"cand_0644a65d0afd803dfc30","decision":"accept","reason":"The morphology and attachment directly bind the plural recipient and the accusative route in one request.","finding_refs":["micro:recipient-route-frame"],"branch_exclusions":[],"facet_exclusions":[],"context_exclusions":[],"semantic_obligation_exclusions":[]},
+    {"candidate_id":"cand_6ff4c433ccccb8b7bd39","decision":"accept","reason":"The verb-object-adjective sequence makes the requested route the immediate specification of guidance, with the supplied forward echo retained as a qualified local relation.","finding_refs":["micro:request-to-specification"],"branch_exclusions":[],"facet_exclusions":[],"context_exclusions":[],"semantic_obligation_exclusions":[]},
+    {"candidate_id":"cand_16b2a41258f843a9a200","decision":"accept","reason":"The petitionary act and its directed route give the gift pressure an independent local trigger; it is retained as coloring, not as a replacement sense.","finding_refs":["micro:received-guidance"],"branch_exclusions":[],"facet_exclusions":[],"context_exclusions":[],"semantic_obligation_exclusions":[]},
+    {"candidate_id":"cand_70aedb9ca94d9797d891","decision":"accept","reason":"The governed path and its upright qualifier create a supplied local collocation with a distinct reader payoff.","finding_refs":["micro:guidance-path-field"],"branch_exclusions":[],"facet_exclusions":[],"context_exclusions":[],"semantic_obligation_exclusions":[]},
+    {"candidate_id":"cand_39ed91562016915b2cf8","decision":"accept","reason":"The imperative's recoverable silent subject and first-plural object are independently grounded grammatical roles.","finding_refs":["micro:silent-agent-plural-object"],"branch_exclusions":[],"facet_exclusions":[],"context_exclusions":[],"semantic_obligation_exclusions":[]},
+    {"candidate_id":"cand_4eae2247c1532e262519","decision":"accept","reason":"The supplied form profile gives the fused beneficiary-bearing imperative a distinct concentration effect.","finding_refs":["micro:fused-imperative-beneficiary"],"branch_exclusions":[],"facet_exclusions":[],"context_exclusions":[],"semantic_obligation_exclusions":[]},
+    {"candidate_id":"cand_b8dc8011db9958e6b367","decision":"accept","reason":"The command morphology and dependent discourse act jointly ground a petitionary reading.","finding_refs":["micro:petitionary-command"],"branch_exclusions":[],"facet_exclusions":[],"context_exclusions":[],"semantic_obligation_exclusions":[]},
+    {"candidate_id":"cand_36bd6c50ab3c538a58b0","decision":"accept","reason":"The direct path object selects the right-direction sense of the guidance verb over unrelated root possibilities.","finding_refs":["micro:path-selects-guidance"],"branch_exclusions":[],"facet_exclusions":[],"context_exclusions":[],"semantic_obligation_exclusions":[]},
+    {"candidate_id":"cand_fc6d07528eb24906775d","decision":"accept","reason":"The compact imperative followed by two heavier definite nominals supplies a distinct supported cadence effect.","finding_refs":["micro:request-cadence"],"branch_exclusions":[],"facet_exclusions":[],"context_exclusions":[],"semantic_obligation_exclusions":[]},
+    {"candidate_id":"cand_0ae317a37674edacdc32","decision":"accept","reason":"The supplied form evidence grounds a dominant abstract route register while preserving its concrete road pressure.","finding_refs":["micro:abstract-route-register"],"branch_exclusions":[],"facet_exclusions":[],"context_exclusions":[],"semantic_obligation_exclusions":[]},
+    {"candidate_id":"cand_432360ee37ae1e5005ff","decision":"accept","reason":"The accusative route is the direct object of the guidance request and changes how the destination is heard.","finding_refs":["micro:accusative-route"],"branch_exclusions":[],"facet_exclusions":[],"context_exclusions":[],"semantic_obligation_exclusions":[]},
+    {"candidate_id":"cand_0e8825308dbefbe4750c","decision":"accept","reason":"The packet supplies a recurrent straight-path formula relation; it is retained as a qualified pattern, not as a surah-wide thesis.","finding_refs":["micro:straight-path-references"],"branch_exclusions":[],"facet_exclusions":[],"context_exclusions":[],"semantic_obligation_exclusions":[]},
+    {"candidate_id":"cand_3dbf0bd82a70db792bda","decision":"accept","reason":"Canonical definiteness supplies an identifiable route rather than an arbitrary member of the class.","finding_refs":["micro:known-path-definiteness"],"branch_exclusions":[],"facet_exclusions":[],"context_exclusions":[],"semantic_obligation_exclusions":[]},
+    {"candidate_id":"cand_4635ddeb23a0dab39504","decision":"accept","reason":"The supplied local governing relation and qualifier support the recurrent guidance-path construction.","finding_refs":["micro:recurrent-path-formula"],"branch_exclusions":[],"facet_exclusions":[],"context_exclusions":[],"semantic_obligation_exclusions":[]},
+    {"candidate_id":"cand_4ceb1e4e04681bbcb115","decision":"accept","reason":"Agreement in definiteness and case locks the qualifier onto the path as one phrase.","finding_refs":["micro:path-qualifier-concord"],"branch_exclusions":[],"facet_exclusions":[],"context_exclusions":[],"semantic_obligation_exclusions":[]},
+    {"candidate_id":"cand_2854b0b41fd05e84ff1a","decision":"accept","reason":"The middle route noun is a grounded local hinge between the request and its qualifying specification.","finding_refs":["micro:middle-path-pivot"],"branch_exclusions":[],"facet_exclusions":[],"context_exclusions":[],"semantic_obligation_exclusions":[]},
+    {"candidate_id":"cand_59e3791b4fa55849096f","decision":"accept","reason":"The path branch and its qualifying relation produce a distinct route-as-conduit reading while preserving the ordinary path.","finding_refs":["micro:route-as-conduit"],"branch_exclusions":[],"facet_exclusions":[],"context_exclusions":[],"semantic_obligation_exclusions":[]},
+    {"candidate_id":"cand_eb920cc8465d4ff5ac6a","decision":"accept","reason":"The packet distinguishes acoustic pressure from stable lexical reference, giving the canonical route sound a bounded effect.","finding_refs":["micro:pressured-route-sound"],"branch_exclusions":[],"facet_exclusions":[],"context_exclusions":[],"semantic_obligation_exclusions":[]},
+    {"candidate_id":"cand_c5cf68725c979d3d7f76","decision":"accept","reason":"The supplied liaison, assimilation, length, and emphatic features make the route phrase audible without changing its reference.","finding_refs":["micro:route-liaison-cadence"],"branch_exclusions":[],"facet_exclusions":[],"context_exclusions":[],"semantic_obligation_exclusions":[]},
+    {"candidate_id":"cand_23a6c249ac3b29dfd035","decision":"accept","reason":"The supplied path form has a bounded passage image with a distinct payoff; the core path sense remains explicit.","finding_refs":["micro:passage-through-route"],"branch_exclusions":[],"facet_exclusions":[],"context_exclusions":[],"semantic_obligation_exclusions":[]},
+    {"candidate_id":"cand_2b4c922a5af6577ceeaf","decision":"accept","reason":"The supplied variant contrast makes canonical definiteness semantically visible without changing the canonical construction.","finding_refs":["micro:variant-reveals-definiteness"],"branch_exclusions":[],"facet_exclusions":[],"context_exclusions":[],"semantic_obligation_exclusions":[]},
+    {"candidate_id":"cand_0c8f51514cb3b5698ca9","decision":"accept","reason":"The Form X active participle supplies property-force to the upright qualifier and is directly grounded in the surface morphology.","finding_refs":["micro:active-upright-property"],"branch_exclusions":[],"facet_exclusions":[],"context_exclusions":[],"semantic_obligation_exclusions":[]},
+    {"candidate_id":"cand_cd1e169d1053188bac51","decision":"accept","reason":"The adjective's agreement with the path gives the qualifier a bound syntactic carrier.","finding_refs":["micro:qualifier-agreement"],"branch_exclusions":[],"facet_exclusions":[],"context_exclusions":[],"semantic_obligation_exclusions":[]},
+    {"candidate_id":"cand_4713384bd683cedc0de5","decision":"accept","reason":"The broad supplied root range is locally narrowed by the active-participle path qualification to upright quality, with other available branches contained.","finding_refs":["micro:root-family-narrowing"],"branch_exclusions":[],"facet_exclusions":[],"context_exclusions":[],"semantic_obligation_exclusions":[]},
+    {"candidate_id":"cand_0731bed37ac9d2e90102","decision":"reject","reason":"The record establishes cross-domain availability but supplies no typed independent local trigger or changed understanding beyond the retained path qualification.","finding_refs":[],"branch_exclusions":[],"facet_exclusions":[],"context_exclusions":[],"semantic_obligation_exclusions":[]},
+    {"candidate_id":"cand_acc9354d85c525f58b00","decision":"accept","reason":"The adjective's final position gives the upright quality a distinct landing weight in the clause.","finding_refs":["micro:final-adjective-weight"],"branch_exclusions":[],"facet_exclusions":[],"context_exclusions":[],"semantic_obligation_exclusions":[]},
+    {"candidate_id":"cand_f5cc14b4e06beb3dd2bd","decision":"accept","reason":"The qualifier completes the supplied guidance-path formula by adding the norm absent from the noun alone.","finding_refs":["micro:formula-completion"],"branch_exclusions":[],"facet_exclusions":[],"context_exclusions":[],"semantic_obligation_exclusions":[]},
+    {"candidate_id":"cand_0cfa0b63a10a94662d35","decision":"accept","reason":"The supplied forward relation gives the final qualifier a bounded preparation effect for the fuller path identification.","finding_refs":["micro:qualifier-forward-expansion"],"branch_exclusions":[],"facet_exclusions":[],"context_exclusions":[],"semantic_obligation_exclusions":[]},
+    {"candidate_id":"cand_62278d932a16dda2ff1d","decision":"accept","reason":"The final qualifier closes the request by specifying the standard that makes the named route right.","finding_refs":["micro:uprightness-closes"],"branch_exclusions":[],"facet_exclusions":[],"context_exclusions":[],"semantic_obligation_exclusions":[]},
+    {"candidate_id":"cand_41ca6235d661817d9db1","decision":"accept","reason":"The supplied sound profile gives the final adjective a distinct tightening and closure effect.","finding_refs":["micro:closure-sound"],"branch_exclusions":[],"facet_exclusions":[],"context_exclusions":[],"semantic_obligation_exclusions":[]},
+    {"candidate_id":"cand_9210bd980982ae081114","decision":"reject","reason":"The horizon claim relies on an untyped external association and lacks a landed independent trigger in this micro packet; root availability alone is insufficient.","finding_refs":[],"branch_exclusions":[],"facet_exclusions":[],"context_exclusions":[],"semantic_obligation_exclusions":[]},
+    {"candidate_id":"cand_62fe9e43fbbc86b6ccda","decision":"accept","reason":"The standing-derived qualifier has a grounded local alignment relation to the path, retaining both route straightness and upright rectitude.","finding_refs":["micro:standing-rectitude"],"branch_exclusions":[],"facet_exclusions":[],"context_exclusions":[],"semantic_obligation_exclusions":[]},
+    {"candidate_id":"cand_27d468cfbae0ceb8b8a3","decision":"accept","reason":"The canonical definite accusative adjective presents one known standard for the definite path, with the supplied variants as contrast evidence.","finding_refs":["micro:definite-standard"],"branch_exclusions":[],"facet_exclusions":[],"context_exclusions":[],"semantic_obligation_exclusions":[]},
+    {"candidate_id":"cand_6ccb416e8c68494faadb","decision":"reject","reason":"This is explicitly ledger_only QAC apparatus and creates no independent reader-facing semantic finding.","finding_refs":[],"branch_exclusions":[],"facet_exclusions":[],"context_exclusions":[],"semantic_obligation_exclusions":[]},
+    {"candidate_id":"cand_05d6b41dd49e924c94ac","decision":"reject","reason":"This is explicitly ledger_only QAC apparatus and creates no independent reader-facing semantic finding.","finding_refs":[],"branch_exclusions":[],"facet_exclusions":[],"context_exclusions":[],"semantic_obligation_exclusions":[]},
+    {"candidate_id":"cand_0e595bca31b3c8e93f20","decision":"reject","reason":"This is explicitly ledger_only QAC apparatus and creates no independent reader-facing semantic finding.","finding_refs":[],"branch_exclusions":[],"facet_exclusions":[],"context_exclusions":[],"semantic_obligation_exclusions":[]},
+    {"candidate_id":"cand_920b68fde665251c48f8","decision":"accept","reason":"The exact attributed HFT trace agrees with all three focus word indices and roots; retain it as qualified attributed evidence without a branch facet.","finding_refs":["micro:hft-gentle-upright"],"branch_exclusions":[],"facet_exclusions":[],"context_exclusions":[],"semantic_obligation_exclusions":[]},
+    {"candidate_id":"cand_66350b14efe8f125c000","decision":"accept","reason":"The exact attributed HFT trace agrees with all three focus word indices and roots; retain it as qualified attributed evidence without a branch facet.","finding_refs":["micro:hft-supported-motion"],"branch_exclusions":[],"facet_exclusions":[],"context_exclusions":[],"semantic_obligation_exclusions":[]},
+    {"candidate_id":"cand_fddf92cac71d212859fc","decision":"accept","reason":"The exact attributed HFT trace agrees with all three focus word indices and roots; retain it as qualified attributed evidence without a branch facet.","finding_refs":["micro:hft-sustaining-course"],"branch_exclusions":[],"facet_exclusions":[],"context_exclusions":[],"semantic_obligation_exclusions":[]},
+    {"candidate_id":"cand_4f4d0028b4c2a6fb8258","decision":"accept","reason":"The exact attributed HFT trace agrees with all three focus word indices and roots; retain its exploratory temporal movement as attributed evidence without a branch facet.","finding_refs":["micro:hft-following-passage"],"branch_exclusions":[],"facet_exclusions":[],"context_exclusions":[],"semantic_obligation_exclusions":[]}
   ],
   "findings": [
     {
-      "finding_ref": "micro:petition-from-declaration",
-      "origin_candidate_id": "cand_0663af724eacd2ab5392",
-      "represented_candidate_ids": [],
-      "title": "A declaration becomes a petition",
-      "claim": "The ayah turns the shared voice from stating its posture before God into asking for the concrete content of help.",
-      "mechanism": "The supplied focus evidence presents a new, unjoined imperative at the start of the clause, so the collective voice now performs a request rather than continuing a declaration.",
-      "reader_payoff": "The reader hears 1:6 as an active turn in speech: the speakers move from what they say about their relation to what they ask to receive.",
-      "containment": "The petition retains the plain request to be led to the right path; the finding describes the ayah's discourse act without replacing that request with a broader thesis.",
-      "epistemic": {
-        "status": "grounded",
-        "source_trust": ["trusted"],
-        "reason": "The supplied word-analysis evidence directly identifies the imperative boundary and its relation to the preceding posture."
-      },
-      "support_ids": ["sup_a4ef298a7c11bb82e99d", "sup_e81042b37b6f80510287"],
-      "branch_activations": [],
-      "connection_refs": [],
-      "context_refs": [],
-      "semantic_obligation_refs": []
+      "finding_ref":"micro:petition-turn","origin_candidate_id":"cand_0663af724eacd2ab5392","represented_candidate_ids":[],"title":"A declaration becomes a concrete petition","claim":"The collective speaker moves from the prior declaration into a direct request for help in this ayah.","mechanism":"The opening imperative changes the clause act from the supplied declarative posture into an addressed request, while the same collective voice remains the recipient of the requested guidance.","reader_payoff":"The ayah is heard as the concrete content of dependence, not as another description of the speakers.","containment":"The finding describes the local turn into petition and does not replace or reinterpret the prior declaration.","epistemic":{"status":"grounded","source_trust":["trusted"],"reason":"The candidate and its word-analysis support directly record the local discourse transition."},"support_ids":["sup_a4ef298a7c11bb82e99d","sup_e81042b37b6f80510287"],"branch_activations":[],"connection_refs":[],"context_refs":[],"semantic_obligation_refs":[]
     },
     {
-      "finding_ref": "micro:recipient-route-compression",
-      "origin_candidate_id": "cand_0644a65d0afd803dfc30",
-      "represented_candidate_ids": [],
-      "title": "Recipient and route in one request",
-      "claim": "The request binds the speakers who need guidance and the route they ask for into one verbal act.",
-      "mechanism": "The imperative carries the first-plural object suffix while the route noun appears as an explicit accusative object without an intervening preposition, compressing recipient and destination together.",
-      "reader_payoff": "Guidance becomes a directed act upon the speakers toward a concrete route, rather than an unlocated request for help.",
-      "containment": "The relation sharpens the ordinary reading 'lead us to the path'; it does not claim that the grammar supplies a different destination.",
-      "epistemic": {
-        "status": "grounded",
-        "source_trust": ["trusted"],
-        "reason": "The focus morphology and attachment evidence explicitly supply both objects and their direct relation."
-      },
-      "support_ids": ["sup_e81042b37b6f80510287", "sup_f67e4e8c7afc3b79d37e"],
-      "branch_activations": [],
-      "connection_refs": [],
-      "context_refs": [],
-      "semantic_obligation_refs": []
+      "finding_ref":"micro:recipient-route-frame","origin_candidate_id":"cand_0644a65d0afd803dfc30","represented_candidate_ids":[],"title":"Recipient and route share one verbal frame","claim":"The request binds the plural recipients and the named route into the same act of guidance.","mechanism":"The imperative carries a first-plural object and governs an explicit accusative path noun without an intervening route preposition, so who is guided and where guidance is directed arrive together.","reader_payoff":"The request becomes concrete: it asks for the speakers to be led into a route, not for guidance as an unlocated abstraction.","containment":"The direct frame preserves the ordinary request for guidance and only makes its recipient-route relation visible.","epistemic":{"status":"grounded","source_trust":["trusted"],"reason":"The supplied morphology and attachment supports directly establish both objects and their relation."},"support_ids":["sup_e81042b37b6f80510287","sup_f67e4e8c7afc3b79d37e"],"branch_activations":[],"connection_refs":[],"context_refs":[],"semantic_obligation_refs":[]
     },
     {
-      "finding_ref": "micro:request-opens-path-specification",
-      "origin_candidate_id": "cand_6ff4c433ccccb8b7bd39",
-      "represented_candidate_ids": [],
-      "title": "The request opens onto a specified route",
-      "claim": "The guidance request immediately demands a route whose identity can be made more precise.",
-      "mechanism": "The imperative first opens an unsatisfied request, the path noun fills its object slot, and the following qualifier supplies the route's first specification.",
-      "reader_payoff": "The reader feels the sentence moving from asking for guidance into naming exactly what kind of route is wanted.",
-      "containment": "This is the local unfolding of the three-word clause; it does not import a later ayah's content or select a wider interpretation.",
-      "epistemic": {
-        "status": "grounded",
-        "source_trust": ["trusted"],
-        "reason": "The focus word order and supplied attachment evidence establish the request-object-qualifier progression."
-      },
-      "support_ids": ["sup_5c9cf2cce4d4fccaa0a2", "sup_e81042b37b6f80510287"],
-      "branch_activations": [],
-      "connection_refs": [],
-      "context_refs": [],
-      "semantic_obligation_refs": []
+      "finding_ref":"micro:request-to-specification","origin_candidate_id":"cand_6ff4c433ccccb8b7bd39","represented_candidate_ids":[],"title":"The request opens into route specification","claim":"The guidance request creates an immediate need for the route and its qualifying standard to be named.","mechanism":"The imperative supplies the act of asking, the next noun supplies its destination, and the final adjective completes the requested specification; the packet's forward relation keeps the route open for fuller identification.","reader_payoff":"The reader feels the request narrowing from help in general to a determinate kind of way.","containment":"The finding follows the supplied word sequence and forward relation without importing a surah thesis or making the later specification the only possible reading.","epistemic":{"status":"qualified","source_trust":["trusted"],"reason":"The local sequence is direct, while the forward expansion is supplied as a qualified candidate relation."},"support_ids":["sup_5c9cf2cce4d4fccaa0a2","sup_e81042b37b6f80510287"],"branch_activations":[],"connection_refs":[],"context_refs":[],"semantic_obligation_refs":[]
     },
     {
-      "finding_ref": "micro:bestowed-guidance-pressure",
-      "origin_candidate_id": "cand_16b2a41258f843a9a200",
-      "represented_candidate_ids": [],
-      "title": "Guidance felt as received direction",
-      "claim": "The requested direction can be felt as something given to the speakers, while the local sense remains guidance onto a path.",
-      "mechanism": "The guidance form carries the ordinary leading sense; its contact with the plural recipient and the directly requested route activates the supplied giving-action facet as a bounded coloring of the request.",
-      "reader_payoff": "The reader perceives guidance as received enablement rather than a route discovered and produced by the speakers themselves.",
-      "containment": "The gift pressure colors the act of leading and does not turn the path into a material gift or activate reciprocal gift uses.",
-      "epistemic": {
-        "status": "qualified",
-        "source_trust": ["trusted"],
-        "reason": "The word-analysis support explicitly narrows the gift branch to pressure rather than replacement, and the local carrier-trigger contact is supplied."
-      },
-      "support_ids": ["sup_02e4afb0a8647070c4b7", "sup_e81042b37b6f80510287"],
-      "branch_activations": [
-        {
-          "branch_ref": "root_001583/B004",
-          "facet_id": "F002",
-          "branch_gloss": "incelik göstergesi armağan verme",
-          "facet_statement": "Böyle bir armağanı birine göndermek veya vermek eylemidir.",
-          "application_mode": "intrinsic_cross_root",
-          "carrier_refs": ["1:6:1:1"],
-          "trigger_refs": ["1:6:1:2", "1:6:2:2"],
-          "focus_return_refs": ["1:6:1:1"],
-          "carrier": "ٱهْدِنَا'nın yerel taşıdığı rehberlik isteği, alıcıya ulaşan yönlendirmedir.",
-          "independent_trigger": "Birinci çoğul nesne eki ve doğrudan yol nesnesi, yönelişi alınan bir yardım olarak çerçeveler.",
-          "activation": "Rehberlik isteyen toplu alıcı ile doğrudan istenen yol birleşince, yön verme eylemi incelikle sunulan bir armağan gibi duyulur.",
-          "resulting_reading": "İstenen yön, konuşanların kendi üretimi olmaktan çok kendilerine verilen bir yönlendirme olarak açılır.",
-          "boundary": "Bu temas maddi bir armağanı veya karşılıklı hediyeleşmeyi ayetin yerel anlamı yapmaz; yol üzerinde rehberlik temel okuma olarak kalır."
-        }
-      ],
-      "connection_refs": [],
-      "context_refs": [],
-      "semantic_obligation_refs": []
+      "finding_ref":"micro:received-guidance","origin_candidate_id":"cand_16b2a41258f843a9a200","represented_candidate_ids":[],"title":"Guidance is colored as received direction","claim":"The requested direction can be felt as something bestowed on the petitioners while remaining guidance onto a route.","mechanism":"The imperative's petitionary act supplies the request for a benefit, and the path object gives that benefit a concrete destination; their contact lets the gift pressure color the selected guidance sense.","reader_payoff":"The reader perceives guidance as received enabling rather than merely the transfer of route information.","containment":"This is lexical pressure around the path-directed sense, not a generic gift meaning or a replacement for guidance.","epistemic":{"status":"qualified","source_trust":["trusted"],"reason":"The support explicitly marks the gift branch as narrowed pressure and preserves the local guidance selection."},"support_ids":["sup_02e4afb0a8647070c4b7","sup_e81042b37b6f80510287"],"branch_activations":[
+        {"branch_ref":"root_001583/B004","facet_id":"F001","branch_gloss":"incelik göstergesi armağan verme","facet_statement":"Sevgi veya yakınlık duyulan birine incelik göstergesi olarak verilen şeydir.","application_mode":"contextual_resonance","carrier_refs":["1:6:1:1"],"trigger_refs":["1:6:2:2"],"focus_return_refs":["1:6:1:1","1:6:2:2"],"carrier":"The guidance imperative carries directed help toward the plural recipient.","independent_trigger":"The direct path object makes the requested direction a concrete benefit received by the petitioners.","activation":"The petition and its route object let the giving pressure touch the ordinary guidance act.","resulting_reading":"Guidance is heard as direction granted to the requesting group while still leading onto a path.","boundary":"No general gift exchange or non-guidance sense is asserted."}
+      ],"connection_refs":[],"context_refs":[],"semantic_obligation_refs":[]
     },
     {
-      "finding_ref": "micro:guidance-path-upright-field",
-      "origin_candidate_id": "cand_70aedb9ca94d9797d891",
-      "represented_candidate_ids": [],
-      "title": "Guidance enters the path field",
-      "claim": "The request is pulled toward path and uprightness as soon as guidance is uttered.",
-      "mechanism": "The local verb governs the route noun, and the route is immediately qualified by the upright adjective, so the request's semantic field is built by the next two words rather than left general.",
-      "reader_payoff": "The reader sees that the request already contains the shape of its answer: guidance is direction toward a route with a stated quality.",
-      "containment": "The collocation describes the focus clause's local construction and does not claim a surah-wide system.",
-      "epistemic": {
-        "status": "grounded",
-        "source_trust": ["trusted"],
-        "reason": "The supplied focus attachment and collocation evidence directly connect the three local words."
-      },
-      "support_ids": ["sup_4a34ad6f30f5f11e6647", "sup_e81042b37b6f80510287"],
-      "branch_activations": [],
-      "connection_refs": [],
-      "context_refs": [],
-      "semantic_obligation_refs": []
+      "finding_ref":"micro:guidance-path-field","origin_candidate_id":"cand_70aedb9ca94d9797d891","represented_candidate_ids":[],"title":"Guidance immediately enters the path field","claim":"The guidance verb is locally pulled toward the path and uprightness vocabulary that follows it.","mechanism":"The imperative governs the route noun, and that noun is immediately qualified by the standing-derived adjective; the three-word contact turns guidance into a route-with-standard relation.","reader_payoff":"The reader sees the semantic field forming inside the short request before any wider association is needed.","containment":"The finding is local collocation and attachment, not a claim about a recurring surah-wide system.","epistemic":{"status":"grounded","source_trust":["trusted"],"reason":"The support records the governing relation and the local collocation directly."},"support_ids":["sup_4a34ad6f30f5f11e6647","sup_e81042b37b6f80510287"],"branch_activations":[],"connection_refs":[],"context_refs":[],"semantic_obligation_refs":[]
     },
     {
-      "finding_ref": "micro:imperative-address",
-      "origin_candidate_id": "cand_39ed91562016915b2cf8",
-      "represented_candidate_ids": [],
-      "title": "The speakers become the guided object",
-      "claim": "The addressed God remains the silent agent of guidance, while the speaking group is grammatically placed as the object being guided.",
-      "mechanism": "The imperative supplies a recoverable second-person singular subject and the fused first-plural suffix supplies the object, so the roles run from divine action toward the collective speakers.",
-      "reader_payoff": "The prayer's dependence is audible in its grammar: the speakers do not issue guidance but ask to receive it.",
-      "containment": "The role reversal clarifies the ordinary petition and does not infer anything about the addressee beyond the supplied imperative structure.",
-      "epistemic": {
-        "status": "grounded",
-        "source_trust": ["trusted"],
-        "reason": "The focus morphology explicitly supplies the subject and object roles."
-      },
-      "support_ids": ["sup_57749049ae44ee40f2c5", "sup_e81042b37b6f80510287"],
-      "branch_activations": [],
-      "connection_refs": [],
-      "context_refs": [],
-      "semantic_obligation_refs": []
+      "finding_ref":"micro:silent-agent-plural-object","origin_candidate_id":"cand_39ed91562016915b2cf8","represented_candidate_ids":[],"title":"The addressed agent and guided group reverse roles","claim":"The speakers become the object of guidance while the addressed singular agent remains the recoverable subject of the imperative.","mechanism":"The command form supplies a second-person masculine singular subject, and the attached first-plural suffix places the collective speaker group in the object position.","reader_payoff":"The grammar makes dependence audible: the worshipping group now asks to be acted upon.","containment":"The grammatical role reversal describes the petitionary frame without adding a new theological claim beyond the supplied address relation.","epistemic":{"status":"grounded","source_trust":["trusted"],"reason":"QAC-compatible morphology and the supplied attachment evidence establish the roles."},"support_ids":["sup_57749049ae44ee40f2c5","sup_e81042b37b6f80510287"],"branch_activations":[],"connection_refs":[],"context_refs":[],"semantic_obligation_refs":[]
     },
     {
-      "finding_ref": "micro:fused-beneficiary-form",
-      "origin_candidate_id": "cand_4eae2247c1532e262519",
-      "represented_candidate_ids": [],
-      "title": "The beneficiary is fused into the verb",
-      "claim": "The surface form makes the people who need guidance inseparable from the guidance request itself.",
-      "mechanism": "The marked imperative and its attached first-plural pronoun compress the act and its beneficiary into one short word, and the supplied distribution marks this exact form as uncommon within the guidance field.",
-      "reader_payoff": "The request sounds concentrated and communal before the route is even named.",
-      "containment": "The markedness describes the form's concentration; it does not make rarity a measure of semantic authority.",
-      "epistemic": {
-        "status": "grounded",
-        "source_trust": ["trusted"],
-        "reason": "The support supplies both the compatible morphology and the form-distribution observation."
-      },
-      "support_ids": ["sup_514b3b5dd9767a7b4927", "sup_e81042b37b6f80510287"],
-      "branch_activations": [],
-      "connection_refs": [],
-      "context_refs": [],
-      "semantic_obligation_refs": []
+      "finding_ref":"micro:fused-imperative-beneficiary","origin_candidate_id":"cand_4eae2247c1532e262519","represented_candidate_ids":[],"title":"The fused surface concentrates the beneficiary","claim":"The marked imperative surface binds the collective beneficiary tightly to the request.","mechanism":"The guidance command and first-plural suffix arrive as one fused word, so the recipient is embedded in the verb before the route phrase expands the request.","reader_payoff":"The reader hears the group inside the command rather than as an external addition.","containment":"The form's rarity and concentration are described as surface effects; they do not create a different verb sense.","epistemic":{"status":"grounded","source_trust":["trusted"],"reason":"The supplied QAC morphology and form-distribution support directly ground the claim."},"support_ids":["sup_514b3b5dd9767a7b4927","sup_e81042b37b6f80510287"],"branch_activations":[],"connection_refs":[],"context_refs":[],"semantic_obligation_refs":[]
     },
     {
-      "finding_ref": "micro:petitionary-imperative",
-      "origin_candidate_id": "cand_b8dc8011db9958e6b367",
-      "represented_candidate_ids": [],
-      "title": "An imperative shaped as supplication",
-      "claim": "The ayah keeps the direct force of an imperative while making that force a dependent plea.",
-      "mechanism": "The clause opens with a command form, but the silent addressee is the one whose action is requested and the attached speakers are its object; the command therefore functions as supplication.",
-      "reader_payoff": "The reader can feel both urgency and dependence in the same grammatical shape.",
-      "containment": "The imperative remains a request to guide; its petitionary use does not soften it into a description or replace its directness.",
-      "epistemic": {
-        "status": "grounded",
-        "source_trust": ["trusted"],
-        "reason": "The support explicitly joins imperative morphology with the supplied discourse relation."
-      },
-      "support_ids": ["sup_aa155430b447ffa916c5", "sup_e81042b37b6f80510287"],
-      "branch_activations": [],
-      "connection_refs": [],
-      "context_refs": [],
-      "semantic_obligation_refs": []
+      "finding_ref":"micro:petitionary-command","origin_candidate_id":"cand_b8dc8011db9958e6b367","represented_candidate_ids":[],"title":"Command shape becomes supplication","claim":"The ayah retains the forceful shape of an imperative while functioning as dependent supplication.","mechanism":"The surface begins with a command form, but the speaker-addressee relation makes the command a request made to the one who can provide the action.","reader_payoff":"The reader can feel urgency without mistaking the prayer for an order issued over its addressee.","containment":"The imperative force remains present and is not cancelled by the petitionary function.","epistemic":{"status":"grounded","source_trust":["trusted"],"reason":"The candidate support explicitly supplies both the command morphology and its discourse function."},"support_ids":["sup_aa155430b447ffa916c5","sup_e81042b37b6f80510287"],"branch_activations":[],"connection_refs":[],"context_refs":[],"semantic_obligation_refs":[]
     },
     {
-      "finding_ref": "micro:selected-guidance-direction",
-      "origin_candidate_id": "cand_36bd6c50ab3c538a58b0",
-      "represented_candidate_ids": [],
-      "title": "Guidance takes directional shape",
-      "claim": "Here guidance means being directed onto a route, with the path object selecting that sense of the verb.",
-      "mechanism": "The direct route object narrows the guidance form toward leading and showing a way, while the supplied alternatives remain unselected lexical possibilities.",
-      "reader_payoff": "The request becomes evaluated movement toward a way rather than a general wish for favor, information, or correction.",
-      "containment": "The directional sense stays within the ordinary 'lead us' reading and does not deny the word's broader lexical range outside this construction.",
-      "epistemic": {
-        "status": "grounded",
-        "source_trust": ["trusted"],
-        "reason": "The path object and the supplied selected-sense analysis provide the local disambiguating relation."
-      },
-      "support_ids": ["sup_868acdd94cd1f16caa24", "sup_e81042b37b6f80510287"],
-      "branch_activations": [],
-      "connection_refs": [],
-      "context_refs": [],
-      "semantic_obligation_refs": []
+      "finding_ref":"micro:path-selects-guidance","origin_candidate_id":"cand_36bd6c50ab3c538a58b0","represented_candidate_ids":[],"title":"The path object selects the guidance sense","claim":"Here the guidance verb means directing the group onto the named route.","mechanism":"The direct path object supplies the verb's destination slot, selecting right-direction and way-showing pressure over generic favor, perception, information, or correction.","reader_payoff":"The reader knows exactly what kind of guidance the short imperative requests.","containment":"The selected route-directed sense remains primary; other root possibilities are not presented as active meanings here.","epistemic":{"status":"grounded","source_trust":["trusted"],"reason":"The support directly ties the selected sense to the canonical path object."},"support_ids":["sup_868acdd94cd1f16caa24","sup_e81042b37b6f80510287"],"branch_activations":[],"connection_refs":[],"context_refs":[],"semantic_obligation_refs":[]
     },
     {
-      "finding_ref": "micro:request-cadence",
-      "origin_candidate_id": "cand_fc6d07528eb24906775d",
-      "represented_candidate_ids": [],
-      "title": "A short plea opens into a heavier cadence",
-      "claim": "The compact request expands into the weightier sound of the route phrase.",
-      "mechanism": "The suffix-bound imperative is followed by two longer definite nominals, and the nasal ending of the first word makes the collective beneficiary audible before the phrase grows.",
-      "reader_payoff": "The reader hears the prayer widen from a clipped appeal into a fully formed destination.",
-      "containment": "The cadence supports the grammatical movement but does not create an independent meaning beyond the supplied request and route.",
-      "epistemic": {
-        "status": "grounded",
-        "source_trust": ["trusted"],
-        "reason": "The supplied sound analysis directly describes the local word shapes and their sequence."
-      },
-      "support_ids": ["sup_d4474069a1204c0d1c1f", "sup_e81042b37b6f80510287"],
-      "branch_activations": [],
-      "connection_refs": [],
-      "context_refs": [],
-      "semantic_obligation_refs": []
+      "finding_ref":"micro:request-cadence","origin_candidate_id":"cand_fc6d07528eb24906775d","represented_candidate_ids":[],"title":"A clipped request opens into heavier cadence","claim":"The short fused request expands into a weightier nominal phrase.","mechanism":"The compact imperative and nasal collective suffix are followed by two longer definite nominals, so the utterance moves from compressed asking into an extended route-and-standard cadence.","reader_payoff":"The listener hears the request open out into the thing being requested.","containment":"The sound movement supports the semantic expansion but does not itself select a new lexical reading.","epistemic":{"status":"grounded","source_trust":["trusted"],"reason":"The supplied sound evidence directly describes the local word-shape sequence."},"support_ids":["sup_d4474069a1204c0d1c1f","sup_e81042b37b6f80510287"],"branch_activations":[],"connection_refs":[],"context_refs":[],"semantic_obligation_refs":[]
     },
     {
-      "finding_ref": "micro:abstract-road-pressure",
-      "origin_candidate_id": "cand_0ae317a37674edacdc32",
-      "represented_candidate_ids": [],
-      "title": "An abstract way keeps the road inside it",
-      "claim": "The route noun can name an abstract way while retaining the feel of a traversable road.",
-      "mechanism": "Its dominant local form is abstract, yet its route slot under the guidance verb keeps the road-like image available as the concrete shape of the requested way.",
-      "reader_payoff": "The reader can understand 'way' as something one moves through, not merely a label for an idea.",
-      "containment": "The road image deepens the abstract route and does not force the ayah into a literal physical landscape.",
-      "epistemic": {
-        "status": "grounded",
-        "source_trust": ["trusted"],
-        "reason": "The focus register and supplied route-slot evidence directly support the coexistence of abstract and road pressure."
-      },
-      "support_ids": ["sup_8a6889a73ecf1d60d70f", "sup_ae45ea46f324d0598c73"],
-      "branch_activations": [],
-      "connection_refs": [],
-      "context_refs": [],
-      "semantic_obligation_refs": []
+      "finding_ref":"micro:abstract-route-register","origin_candidate_id":"cand_0ae317a37674edacdc32","represented_candidate_ids":[],"title":"The abstract route retains road pressure","claim":"The dominant abstract noun still carries the felt shape of a traversable road.","mechanism":"The local form names a way in an abstract register, while its supplied road semantics keep guidance spatially organized as movement through a route.","reader_payoff":"The reader can hold an ethical or normative way together with the concrete road image that makes it intelligible.","containment":"The abstract register does not become a literal landscape, and the road image does not erase the abstract sense.","epistemic":{"status":"grounded","source_trust":["trusted"],"reason":"The form distribution and lexical support directly establish the coexistence of abstract and road pressure."},"support_ids":["sup_8a6889a73ecf1d60d70f","sup_ae45ea46f324d0598c73"],"branch_activations":[],"connection_refs":[],"context_refs":[],"semantic_obligation_refs":[]
     },
     {
-      "finding_ref": "micro:accusative-path-object",
-      "origin_candidate_id": "cand_432360ee37ae1e5005ff",
-      "represented_candidate_ids": [],
-      "title": "The route answers the imperative",
-      "claim": "The path is the direct object that completes what the request asks guidance to do.",
-      "mechanism": "The route noun is accusative in the local attachment, so the verb's action lands directly on the named path rather than reaching it through an unstated intermediary.",
-      "reader_payoff": "The request has a clear grammatical destination before the adjective adds the route's quality.",
-      "containment": "The direct-object relation refines the ordinary translation and does not add a second destination.",
-      "epistemic": {
-        "status": "grounded",
-        "source_trust": ["trusted"],
-        "reason": "The supplied morphology and attachment evidence explicitly identify the accusative route frame."
-      },
-      "support_ids": ["sup_0835123aa1694edbf737", "sup_8a6889a73ecf1d60d70f"],
-      "branch_activations": [],
-      "connection_refs": [],
-      "context_refs": [],
-      "semantic_obligation_refs": []
+      "finding_ref":"micro:accusative-route","origin_candidate_id":"cand_432360ee37ae1e5005ff","represented_candidate_ids":[],"title":"The accusative route answers the imperative","claim":"The route is presented as the direct object sought by the guidance request.","mechanism":"The accusative noun follows the imperative as its explicit object, allowing the action of guidance to point directly into the route rather than merely discuss it.","reader_payoff":"The path becomes the requested destination and medium of movement at once.","containment":"The compact object relation preserves the ordinary path reading and adds its syntactic force.","epistemic":{"status":"grounded","source_trust":["trusted"],"reason":"The supplied attachment and case evidence directly support the object relation."},"support_ids":["sup_0835123aa1694edbf737","sup_8a6889a73ecf1d60d70f"],"branch_activations":[],"connection_refs":[],"context_refs":[],"semantic_obligation_refs":[]
     },
     {
-      "finding_ref": "micro:formula-family",
-      "origin_candidate_id": "cand_0e8825308dbefbe4750c",
-      "represented_candidate_ids": [],
-      "title": "The route phrase has a wider formula shape",
-      "claim": "The wording is heard as part of a recurring straight-path formula family, not as an isolated pairing of words.",
-      "mechanism": "The supplied comparison row identifies the same route-and-qualification shape in concrete wider references, while the focus syntax keeps its local petitionary function intact.",
-      "reader_payoff": "The reader recognizes a familiar formula whose repeated shape carries a stable route-and-standard relation.",
-      "containment": "Only the supplied formula-family relation is carried here; no external passage is imported as a new focus meaning.",
-      "epistemic": {
-        "status": "grounded",
-        "source_trust": ["trusted"],
-        "reason": "The packet supplies a concrete formula-family support row tied to the focus route word."
-      },
-      "support_ids": ["sup_8a6889a73ecf1d60d70f", "sup_f22117ee24b20e157b53"],
-      "branch_activations": [],
-      "connection_refs": [],
-      "context_refs": [],
-      "semantic_obligation_refs": []
+      "finding_ref":"micro:straight-path-references","origin_candidate_id":"cand_0e8825308dbefbe4750c","represented_candidate_ids":[],"title":"The wording belongs to a supplied straight-path family","claim":"The path wording participates in a recurrent guidance-and-straightness formula documented in the packet.","mechanism":"The same path-plus-qualification shape is identified across the supplied formula evidence, so this occurrence carries a recognizable construction while retaining its own local request.","reader_payoff":"The reader hears the phrase as a formed expression rather than an isolated noun sequence.","containment":"The packet supports a formula family only; this finding does not turn that family into a surah-level system or rank its occurrences.","epistemic":{"status":"qualified","source_trust":["trusted"],"reason":"The formula relation is supplied, but its wider references are not independently expanded in this micro finding."},"support_ids":["sup_8a6889a73ecf1d60d70f","sup_f22117ee24b20e157b53"],"branch_activations":[],"connection_refs":[],"context_refs":[],"semantic_obligation_refs":[]
     },
     {
-      "finding_ref": "micro:known-path-definiteness",
-      "origin_candidate_id": "cand_3dbf0bd82a70db792bda",
-      "represented_candidate_ids": [],
-      "title": "The path is made identifiable",
-      "claim": "The canonical wording asks for an identifiable path, not for any path that happens to be straight.",
-      "mechanism": "The route noun carries the definite article in the focus surface, and its bound qualifier stays within that same definite phrase.",
-      "reader_payoff": "The reader hears the request as turning toward a known route whose identity is treated as recoverable.",
-      "containment": "Definiteness adds identifiability to the ordinary path reading; it does not supply a separate possessive or hidden noun.",
-      "epistemic": {
-        "status": "grounded",
-        "source_trust": ["trusted"],
-        "reason": "The QAC surface and supplied definiteness analysis directly support the definite route reading."
-      },
-      "support_ids": ["sup_4330ba264591572b32cd", "sup_8a6889a73ecf1d60d70f"],
-      "branch_activations": [],
-      "connection_refs": [],
-      "context_refs": [],
-      "semantic_obligation_refs": []
+      "finding_ref":"micro:known-path-definiteness","origin_candidate_id":"cand_3dbf0bd82a70db792bda","represented_candidate_ids":[],"title":"Definiteness makes the route identifiable","claim":"The request names an identifiable path rather than any arbitrary straight instance.","mechanism":"The route noun carries canonical definiteness as the singular object of guidance, so the qualifier describes a known path within the phrase rather than an indefinite example.","reader_payoff":"The reader notices the difference between asking for some right route and asking for the recognizable route meant by the phrase.","containment":"Identifiability is a grammatical effect and does not add an explicit possessive or erase the path's normative qualification.","epistemic":{"status":"grounded","source_trust":["trusted"],"reason":"The supplied definiteness and attachment evidence directly support the claim."},"support_ids":["sup_4330ba264591572b32cd","sup_8a6889a73ecf1d60d70f"],"branch_activations":[],"connection_refs":[],"context_refs":[],"semantic_obligation_refs":[]
     },
     {
-      "finding_ref": "micro:guidance-path-formula",
-      "origin_candidate_id": "cand_4635ddeb23a0dab39504",
-      "represented_candidate_ids": [],
-      "title": "Guidance and upright path form one construction",
-      "claim": "The path belongs to a recurrent construction in which guidance is completed by an upright route.",
-      "mechanism": "The guidance verb governs the route and the supplied pairing evidence joins that route to the active upright qualifier, making the relation structural rather than accidental.",
-      "reader_payoff": "The reader sees the phrase as a built request: guidance receives its shape from the route and its norm from the qualifier.",
-      "containment": "This finding concerns the focus construction and does not claim that every occurrence of either word has this pairing.",
-      "epistemic": {
-        "status": "grounded",
-        "source_trust": ["trusted"],
-        "reason": "The local governing relation and supplied pairing profile support the construction directly."
-      },
-      "support_ids": ["sup_8a6889a73ecf1d60d70f", "sup_d1c5bfe4b4ca7c36d959"],
-      "branch_activations": [],
-      "connection_refs": [],
-      "context_refs": [],
-      "semantic_obligation_refs": []
+      "finding_ref":"micro:recurrent-path-formula","origin_candidate_id":"cand_4635ddeb23a0dab39504","represented_candidate_ids":[],"title":"The path is the object of a formed guidance pairing","claim":"The route noun and upright qualifier form a familiar guidance-path pairing in this clause.","mechanism":"The guidance verb governs the path, and the active-participle qualifier completes that same local pairing, giving the route a norm rather than leaving it generic.","reader_payoff":"The reader sees why the phrase feels complete only when the qualifier arrives.","containment":"This is a local/formulaic relation supplied for the focus and not a claim that one interpretation excludes another.","epistemic":{"status":"grounded","source_trust":["trusted"],"reason":"The packet directly supplies both the governing relation and the path-qualifier pairing."},"support_ids":["sup_8a6889a73ecf1d60d70f","sup_d1c5bfe4b4ca7c36d959"],"branch_activations":[],"connection_refs":[],"context_refs":[],"semantic_obligation_refs":[]
     },
     {
-      "finding_ref": "micro:path-adjective-lock",
-      "origin_candidate_id": "cand_4ceb1e4e04681bbcb115",
-      "represented_candidate_ids": [],
-      "title": "The quality is fastened to the path",
-      "claim": "The final word qualifies the path as part of one phrase rather than adding a separate statement beside it.",
-      "mechanism": "The adjective agrees with the route noun in definiteness and accusative case, and the supplied attachment evidence makes it the route's head qualifier.",
-      "reader_payoff": "The reader keeps 'the upright path' together as one requested object.",
-      "containment": "The concord sharpens the ordinary phrase and does not split the adjective into an independent proposition.",
-      "epistemic": {
-        "status": "grounded",
-        "source_trust": ["trusted"],
-        "reason": "The supplied agreement and attachment records directly establish the phrase boundary."
-      },
-      "support_ids": ["sup_8a6889a73ecf1d60d70f", "sup_fda5a4f0fce23ed9d493"],
-      "branch_activations": [],
-      "connection_refs": [],
-      "context_refs": [],
-      "semantic_obligation_refs": []
+      "finding_ref":"micro:path-qualifier-concord","origin_candidate_id":"cand_4ceb1e4e04681bbcb115","represented_candidate_ids":[],"title":"The path and its qualifier are one phrase","claim":"The final adjective is grammatically fastened to the path it qualifies.","mechanism":"Definiteness and accusative agreement connect the adjective to the route noun, making one definite path phrase instead of a noun followed by an independent assertion.","reader_payoff":"The reader sees that the path's character is built into the request itself.","containment":"The agreement relation keeps the adjective subordinate to the path while allowing its semantic weight to remain visible.","epistemic":{"status":"grounded","source_trust":["trusted"],"reason":"The supplied concord and attachment evidence directly establish the phrase structure."},"support_ids":["sup_8a6889a73ecf1d60d70f","sup_fda5a4f0fce23ed9d493"],"branch_activations":[],"connection_refs":[],"context_refs":[],"semantic_obligation_refs":[]
     },
     {
-      "finding_ref": "micro:middle-path-hinge",
-      "origin_candidate_id": "cand_2854b0b41fd05e84ff1a",
-      "represented_candidate_ids": [],
-      "title": "The middle word is the hinge",
-      "claim": "The route noun turns a general request for guidance into a request aimed at a destination with a defined quality.",
-      "mechanism": "Its middle position receives the imperative's action and passes the phrase to the following adjective, so the route is both destination and hinge toward qualification.",
-      "reader_payoff": "The reader can feel the sentence pivot in the middle: 'guide us' becomes 'guide us to this kind of path.'",
-      "containment": "The hinge is a local word-order effect and does not make the next ayah part of this finding.",
-      "epistemic": {
-        "status": "grounded",
-        "source_trust": ["trusted"],
-        "reason": "The focus position and supplied middle-pivot analysis establish the local semantic transition."
-      },
-      "support_ids": ["sup_8a6889a73ecf1d60d70f", "sup_eabbc68753fd5bcac779"],
-      "branch_activations": [],
-      "connection_refs": [],
-      "context_refs": [],
-      "semantic_obligation_refs": []
+      "finding_ref":"micro:middle-path-pivot","origin_candidate_id":"cand_2854b0b41fd05e84ff1a","represented_candidate_ids":[],"title":"The middle noun pivots request toward specification","claim":"The route noun is the hinge that turns a general request for guidance into a request about a defined way.","mechanism":"Placed between the imperative and its adjective, the path noun receives the request first and then hands it to the qualifying standard, with the supplied forward echo keeping that hinge open.","reader_payoff":"The reader can feel the clause pivot from asking to the thing asked for and then to its required quality.","containment":"The hinge explains the word order without treating the later path identification as a replacement for the current phrase.","epistemic":{"status":"qualified","source_trust":["trusted"],"reason":"The local position is direct; the forward echo is retained as supplied qualified evidence."},"support_ids":["sup_8a6889a73ecf1d60d70f","sup_eabbc68753fd5bcac779"],"branch_activations":[],"connection_refs":[],"context_refs":[],"semantic_obligation_refs":[]
     },
     {
-      "finding_ref": "micro:path-as-conduit",
-      "origin_candidate_id": "cand_59e3791b4fa55849096f",
-      "represented_candidate_ids": [],
-      "title": "Guidance becomes movement through a route",
-      "claim": "The road image gives the abstract request a traversable shape: guidance is movement through a route whose quality can be followed.",
-      "mechanism": "The guidance verb governs a road-like path object, and the final adjective supplies the route's normative qualification, so the abstract way is felt as a course rather than a flat label.",
-      "reader_payoff": "The reader can picture the request as being led along something, while still hearing the path as an abstract way of life or conduct.",
-      "containment": "The route image supports the ordinary guidance reading and does not assert a literal road scene.",
-      "epistemic": {
-        "status": "grounded",
-        "source_trust": ["trusted"],
-        "reason": "The supplied route-branch selection and local adjective relation provide the carrier and its change in reading."
-      },
-      "support_ids": ["sup_75ad2c1ff4e6385e0a0e", "sup_8a6889a73ecf1d60d70f"],
-      "branch_activations": [],
-      "connection_refs": [],
-      "context_refs": [],
-      "semantic_obligation_refs": []
+      "finding_ref":"micro:route-as-conduit","origin_candidate_id":"cand_59e3791b4fa55849096f","represented_candidate_ids":[],"title":"The road image carries the abstract guidance","claim":"Guidance can be understood as movement through a route while the phrase remains an abstract request for the right way.","mechanism":"The path noun supplies the physical carrier and the following qualifier supplies the normative trigger, so direction is pictured as travel through a route that has a standard.","reader_payoff":"The abstract request gains spatial movement without losing its ordinary ethical or normative sense.","containment":"The route image supports the abstract guidance; it does not convert the phrase into a literal travel instruction.","epistemic":{"status":"grounded","source_trust":["trusted"],"reason":"The supplied path-conduit support explicitly grounds the interaction of route and qualifier."},"support_ids":["sup_75ad2c1ff4e6385e0a0e","sup_8a6889a73ecf1d60d70f"],"branch_activations":[],"connection_refs":[],"context_refs":[],"semantic_obligation_refs":[]
     },
     {
-      "finding_ref": "micro:phonetic-stability",
-      "origin_candidate_id": "cand_eb920cc8465d4ff5ac6a",
-      "represented_candidate_ids": [],
-      "title": "Sound pressure leaves the route recognizable",
-      "claim": "The route word can carry emphatic and variant sound pressure while its lexical reference remains stable.",
-      "mechanism": "The supplied recitation variants alter onset texture and the canonical surface retains emphatic consonantal weight, separating acoustic variation from the word's route reference.",
-      "reader_payoff": "The reader can hear the sound as forceful without mistaking sound variation for a change in what path is named.",
-      "containment": "The finding is about the supplied sound evidence and does not treat acoustic pressure as an additional lexical branch.",
-      "epistemic": {
-        "status": "grounded",
-        "source_trust": ["trusted"],
-        "reason": "The packet supplies both variant sound observations and the stable canonical route surface."
-      },
-      "support_ids": ["sup_4d390c4e9a11c1959eba", "sup_8a6889a73ecf1d60d70f"],
-      "branch_activations": [],
-      "connection_refs": [],
-      "context_refs": [],
-      "semantic_obligation_refs": []
+      "finding_ref":"micro:pressured-route-sound","origin_candidate_id":"cand_eb920cc8465d4ff5ac6a","represented_candidate_ids":[],"title":"Sound pressure leaves reference stable","claim":"The route's emphatic and variant sound textures can press on the hearing of the word without changing which path it denotes.","mechanism":"The supplied recitation evidence varies onset texture and preserves emphatic consonantal weight, while the canonical lexeme and syntactic slot continue to identify the same route.","reader_payoff":"The reader can distinguish acoustic force from a change of lexical reference.","containment":"The sound effect is bounded to hearing and cadence; it is not a new route meaning.","epistemic":{"status":"qualified","source_trust":["trusted"],"reason":"The packet directly records the acoustic contrast and its stable-reference qualification."},"support_ids":["sup_4d390c4e9a11c1959eba","sup_8a6889a73ecf1d60d70f"],"branch_activations":[],"connection_refs":[],"context_refs":[],"semantic_obligation_refs":[]
     },
     {
-      "finding_ref": "micro:recited-route-cadence",
-      "origin_candidate_id": "cand_c5cf68725c979d3d7f76",
-      "represented_candidate_ids": [],
-      "title": "The route attaches audibly",
-      "claim": "Recitation makes the route's attachment to the request perceptible as the phrase lengthens.",
-      "mechanism": "Vowel length, assimilation, and liaison join the definite route surface to the preceding request and give it a longer acoustic body.",
-      "reader_payoff": "The reader hears the destination arrive as an extended phrase rather than as a detached noun.",
-      "containment": "The cadence reinforces the supplied syntax and does not claim that sound alone selects a new sense.",
-      "epistemic": {
-        "status": "grounded",
-        "source_trust": ["trusted"],
-        "reason": "The supplied recitation support names the relevant local sound features."
-      },
-      "support_ids": ["sup_17ba50bb5ca03e9aa51a", "sup_8a6889a73ecf1d60d70f"],
-      "branch_activations": [],
-      "connection_refs": [],
-      "context_refs": [],
-      "semantic_obligation_refs": []
+      "finding_ref":"micro:route-liaison-cadence","origin_candidate_id":"cand_c5cf68725c979d3d7f76","represented_candidate_ids":[],"title":"Liaison makes the route audible","claim":"Length, assimilation, liaison, and emphatic consonants give the route phrase audible weight in recitation.","mechanism":"The path noun expands after the short imperative and attaches into the following phrase, so its sound carries the route from request toward qualification.","reader_payoff":"The listener hears the route as an extended passage in the utterance, not as a weightless label.","containment":"The cadence intensifies the phrase's delivery while leaving its lexical path reference intact.","epistemic":{"status":"grounded","source_trust":["trusted"],"reason":"The supplied recitation support directly identifies these local sound features."},"support_ids":["sup_17ba50bb5ca03e9aa51a","sup_8a6889a73ecf1d60d70f"],"branch_activations":[],"connection_refs":[],"context_refs":[],"semantic_obligation_refs":[]
     },
     {
-      "finding_ref": "micro:passage-conduit-pressure",
-      "origin_candidate_id": "cand_23a6c249ac3b29dfd035",
-      "represented_candidate_ids": [],
-      "title": "The route can receive and carry",
-      "claim": "Alongside its road sense, the route carries a bounded passage pressure in which the traveler is received and carried onward.",
-      "mechanism": "The route form is the carrier of the supplied passage-and-disappearance facet; the guidance verb and the upright qualifier independently activate movement through that route, allowing a conduit image to color the primary path reading.",
-      "reader_payoff": "The reader senses the path as something one enters and is carried through, not only a line viewed from outside.",
-      "containment": "The local syntax keeps the ordinary path meaning primary; no literal food, throat, or swallowing event is introduced.",
-      "epistemic": {
-        "status": "qualified",
-        "source_trust": ["trusted"],
-        "reason": "The supplied support narrows the passage branch to image pressure, and the focus route has an independent guidance-and-qualification trigger."
-      },
-      "support_ids": ["sup_8a6889a73ecf1d60d70f", "sup_ed5b8742c0fed1e0c33c"],
-      "branch_activations": [
-        {
-          "branch_ref": "root_000858/B002",
-          "facet_id": "F001",
-          "branch_gloss": "geçişte gözden kaybolmak; özellikle yiyeceği yutmak",
-          "facet_statement": "Temel anlam, bir şeyin geçiş ve gidiş sırasında gözden kaybolmasıdır.",
-          "application_mode": "intrinsic_cross_root",
-          "carrier_refs": ["1:6:2:2"],
-          "trigger_refs": ["1:6:1:1", "1:6:3:2"],
-          "focus_return_refs": ["1:6:2:2"],
-          "carrier": "ٱلصِّرَٰطَ'nın olağan taşıdığı yol anlamı, burada geçişi mümkün kılan bir güzergâh görüntüsünü taşır.",
-          "independent_trigger": "Rehberlik fiilinin yolu doğrudan istemesi ve son sıfatın bu yolu nitelemesi, güzergâhı içine alan ve ilerleten bir geçiş olarak çerçeveler.",
-          "activation": "Yol nesnesi, yönlendirme eylemiyle birlikte düşünüldüğünde, geçişte gireni eski konumundan çıkaran bir taşıyıcı kanal baskısı kazanır.",
-          "resulting_reading": "İstenen yol, üzerinde yürünülen güzergâh olmanın yanında yolcuyu içine alıp ilerleten bir geçit gibi duyulur.",
-          "boundary": "Bu temas yiyecek yutmayı, boğazı veya başka bir bedensel kullanımı ayetin yerel anlamı yapmaz; bunlar için odakta taşıyıcı bulunmaz."
-        }
-      ],
-      "connection_refs": [],
-      "context_refs": [],
-      "semantic_obligation_refs": []
+      "finding_ref":"micro:passage-through-route","origin_candidate_id":"cand_23a6c249ac3b29dfd035","represented_candidate_ids":[],"title":"Passage pressure deepens the route","claim":"The route can carry a bounded image of receiving and carrying the traveler through passage.","mechanism":"The path word is the carrier, while its governed role in a request for direction supplies the independent trigger; the passage facet makes the route feel like a conduit that takes an entrant beyond the prior position.","reader_payoff":"The reader senses movement through the path while still hearing the ordinary road meaning.","containment":"Only the core passage/disappearance facet is activated; no literal food, throat, or swallowing scene is claimed.","epistemic":{"status":"qualified","source_trust":["trusted"],"reason":"The candidate support explicitly narrows the passage image to pressure around the selected path sense."},"support_ids":["sup_8a6889a73ecf1d60d70f","sup_ed5b8742c0fed1e0c33c"],"branch_activations":[
+        {"branch_ref":"root_000858/B002","facet_id":"F001","branch_gloss":"geçişte gözden kaybolmak; özellikle yiyeceği yutmak","facet_statement":"Temel anlam, bir şeyin geçiş ve gidiş sırasında gözden kaybolmasıdır.","application_mode":"intrinsic_cross_root","carrier_refs":["1:6:2:2"],"trigger_refs":["1:6:1:1","1:6:3:2"],"focus_return_refs":["1:6:1:1","1:6:2:2","1:6:3:2"],"carrier":"The route noun carries the ordinary traversable-path meaning.","independent_trigger":"The guidance relation and the upright qualifier make the route a course into which and along which the group is directed.","activation":"The route's role as the destination and conduit of guidance contacts the passage/disappearance core.","resulting_reading":"The named path receives and carries the guided travelers while remaining a path.","boundary":"The activation stops at passage through a route and does not assert literal ingestion or a food example."}
+      ],"connection_refs":[],"context_refs":[],"semantic_obligation_refs":[]
     },
     {
-      "finding_ref": "micro:canonical-definiteness-pressure",
-      "origin_candidate_id": "cand_2b4c922a5af6577ceeaf",
-      "represented_candidate_ids": [],
-      "title": "The variant makes the definite form visible",
-      "claim": "The supplied indefinite alternatives make the canonical wording's definite, identifiable route stand out.",
-      "mechanism": "The canonical route carries the definite article without an explicit possessive noun, while the variant evidence shows how indefiniteness or appositional reframing would loosen that construction.",
-      "reader_payoff": "The reader notices that the short article is doing real work: the prayer reaches toward a path treated as identifiable.",
-      "containment": "The comparison clarifies canonical definiteness and does not make the omitted variant forms live meanings of this surface.",
-      "epistemic": {
-        "status": "grounded",
-        "source_trust": ["trusted"],
-        "reason": "The supplied variant evidence directly contrasts the canonical definite route with alternative constructions."
-      },
-      "support_ids": ["sup_59d6da2aaef925a12afe", "sup_8a6889a73ecf1d60d70f"],
-      "branch_activations": [],
-      "connection_refs": [],
-      "context_refs": [],
-      "semantic_obligation_refs": []
+      "finding_ref":"micro:variant-reveals-definiteness","origin_candidate_id":"cand_2b4c922a5af6577ceeaf","represented_candidate_ids":[],"title":"The variant makes definiteness visible","claim":"Contrasting forms show that the canonical wording's definiteness identifies the route as a known standard rather than an indefinite possibility.","mechanism":"The supplied indefinite and appositional alternatives expose what the canonical definite noun contributes while the canonical attachment remains the controlling construction.","reader_payoff":"A feature hidden by translation becomes perceptible: the request points to the identifiable path intended by the phrase.","containment":"Variants are contrast evidence only; they do not displace the canonical reading or create alternate live constructions.","epistemic":{"status":"grounded","source_trust":["trusted"],"reason":"The packet supplies the canonical form and the explicit variant contrast."},"support_ids":["sup_59d6da2aaef925a12afe","sup_8a6889a73ecf1d60d70f"],"branch_activations":[],"connection_refs":[],"context_refs":[],"semantic_obligation_refs":[]
     },
     {
-      "finding_ref": "micro:active-uprightness",
-      "origin_candidate_id": "cand_0c8f51514cb3b5698ca9",
-      "represented_candidate_ids": [],
-      "title": "Uprightness acts as a property",
-      "claim": "The final qualifier presents uprightness as an active property carried by the path, not only as a static translation label.",
-      "mechanism": "The focus tags the form as a Form X active participle functioning adjectivally, so the route is qualified by a property that presents standing and maintained alignment as active force.",
-      "reader_payoff": "The reader hears the path as one that holds its upright quality rather than merely being drawn as a geometrically straight line.",
-      "containment": "The active force remains the path's adjective and does not turn the form into an independent verb or a complete root inventory.",
-      "epistemic": {
-        "status": "grounded",
-        "source_trust": ["trusted"],
-        "reason": "The supplied morphology and active-participle analysis directly establish the property force."
-      },
-      "support_ids": ["sup_34b13892b3bff3c94c18", "sup_d38a47a249e8a0e55a79"],
-      "branch_activations": [],
-      "connection_refs": [],
-      "context_refs": [],
-      "semantic_obligation_refs": []
+      "finding_ref":"micro:active-upright-property","origin_candidate_id":"cand_0c8f51514cb3b5698ca9","represented_candidate_ids":[],"title":"The active participle gives uprightness property-force","claim":"The qualifier presents uprightness as a property the path carries, not merely as a static label attached from outside.","mechanism":"The Form X active participle functions adjectivally on the route, allowing the path to be heard as actively standing, remaining established, and maintaining its upright quality.","reader_payoff":"The standard requested from the path feels operative within the path itself.","containment":"The form remains an adjective of the route; it does not become an independent sentence or a complete root inventory.","epistemic":{"status":"grounded","source_trust":["trusted"],"reason":"The supplied morphology and word analysis directly establish the active-participial property force."},"support_ids":["sup_34b13892b3bff3c94c18","sup_d38a47a249e8a0e55a79"],"branch_activations":[],"connection_refs":[],"context_refs":[],"semantic_obligation_refs":[]
     },
     {
-      "finding_ref": "micro:adjective-concord",
-      "origin_candidate_id": "cand_cd1e169d1053188bac51",
-      "represented_candidate_ids": [],
-      "title": "The adjective belongs to the route",
-      "claim": "The final word is grammatically fastened to the route as its qualifier.",
-      "mechanism": "It agrees with the route noun in definiteness and accusative case, and the supplied attachment profile identifies adjective modification as its local role.",
-      "reader_payoff": "The reader keeps the phrase as one object of the request: the path comes with its quality attached.",
-      "containment": "Agreement preserves the plain path phrase and does not make the adjective an additional clause.",
-      "epistemic": {
-        "status": "grounded",
-        "source_trust": ["trusted"],
-        "reason": "The focus morphology and attachment support explicitly establish the concord."
-      },
-      "support_ids": ["sup_489a08519feabbd8ac9f", "sup_d38a47a249e8a0e55a79"],
-      "branch_activations": [],
-      "connection_refs": [],
-      "context_refs": [],
-      "semantic_obligation_refs": []
+      "finding_ref":"micro:qualifier-agreement","origin_candidate_id":"cand_cd1e169d1053188bac51","represented_candidate_ids":[],"title":"Agreement binds the adjective to the route","claim":"The final word qualifies the path as part of one phrase rather than making a separate assertion.","mechanism":"Its definiteness and accusative agreement match the route noun, and the supplied attachment evidence assigns it the adjective role.","reader_payoff":"The reader sees that the requested path arrives already characterized by its standard.","containment":"The adjective remains syntactically bound to the path even as its semantic force is developed.","epistemic":{"status":"grounded","source_trust":["trusted"],"reason":"The supplied agreement and head-role evidence directly establish the relation."},"support_ids":["sup_489a08519feabbd8ac9f","sup_d38a47a249e8a0e55a79"],"branch_activations":[],"connection_refs":[],"context_refs":[],"semantic_obligation_refs":[]
     },
     {
-      "finding_ref": "micro:bounded-qwm-family-pressure",
-      "origin_candidate_id": "cand_4713384bd683cedc0de5",
-      "represented_candidate_ids": [],
-      "title": "A wide standing field narrows at the path",
-      "claim": "The adjective lets a wider standing-and-value vocabulary press behind the phrase while its attachment narrows that pressure to upright quality.",
-      "mechanism": "The supplied root-family record contains several construction-bound meanings, but the active participle's local role as the path's qualifier selects standing, balance, and rectitude as the bounded contribution here.",
-      "reader_payoff": "The reader senses depth behind 'straight' while knowing why the local sentence keeps that depth focused on the route's upright quality.",
-      "containment": "Peoplehood, pricing, resurrection, and other supplied family branches remain outside this local finding; the path's upright qualification remains intact.",
-      "epistemic": {
-        "status": "qualified",
-        "source_trust": ["trusted"],
-        "reason": "The supplied support explicitly narrows the broad family to the local upright quality and names the omitted branch areas."
-      },
-      "support_ids": ["sup_cad2fd3a60813cf57e37", "sup_d38a47a249e8a0e55a79"],
-      "branch_activations": [],
-      "connection_refs": [],
-      "context_refs": [],
-      "semantic_obligation_refs": []
+      "finding_ref":"micro:root-family-narrowing","origin_candidate_id":"cand_4713384bd683cedc0de5","represented_candidate_ids":[],"title":"A wide standing field narrows to upright quality","claim":"The broad standing-derived family is narrowed here to the upright quality of the path.","mechanism":"The active-participle adjective is attached to a route noun, so standing, establishment, value, peoplehood, resurrection, and other available pressures are contained around the local upright-quality relation.","reader_payoff":"The reader sees depth behind the translation without treating every related root meaning as active at once.","containment":"Only the path-qualified upright quality is retained as local; the other family members remain boundary information rather than readings.","epistemic":{"status":"qualified","source_trust":["trusted"],"reason":"The support explicitly marks the broad family as narrowed by local form and attachment."},"support_ids":["sup_cad2fd3a60813cf57e37","sup_d38a47a249e8a0e55a79"],"branch_activations":[],"connection_refs":[],"context_refs":[],"semantic_obligation_refs":[]
     },
     {
-      "finding_ref": "micro:mobile-attribute-localized",
-      "origin_candidate_id": "cand_0731bed37ac9d2e90102",
-      "represented_candidate_ids": [],
-      "title": "A mobile quality is localized here",
-      "claim": "The upright attribute can travel across domains in the supplied evidence, yet this occurrence attaches it specifically to the path.",
-      "mechanism": "The wider usage range shows the adjective's mobility, while local agreement and head attachment restrict its active predication to the route phrase.",
-      "reader_payoff": "The reader sees both the word's reusable quality and the grammatical reason this ayah directs it to the path.",
-      "containment": "No other supplied domain is imported into the focus; the wider range marks capacity, not simultaneous activation.",
-      "epistemic": {
-        "status": "grounded",
-        "source_trust": ["trusted"],
-        "reason": "The support supplies the wider attribute range together with the local attachment restriction."
-      },
-      "support_ids": ["sup_4f4e6665c683e737764d", "sup_d38a47a249e8a0e55a79"],
-      "branch_activations": [],
-      "connection_refs": [],
-      "context_refs": [],
-      "semantic_obligation_refs": []
+      "finding_ref":"micro:final-adjective-weight","origin_candidate_id":"cand_acc9354d85c525f58b00","represented_candidate_ids":[],"title":"The final adjective gives the clause landing weight","claim":"The ayah lands on the path's upright quality, making the final adjective its audible and semantic takeaway.","mechanism":"The qualifier follows the noun in ordinary adjective order and occupies the ayah-final position, so the route's standard receives the closing stress.","reader_payoff":"The reader feels the request settle on what makes the path right, rather than ending on the bare route name.","containment":"The final position gives closure weight but does not make the adjective an independent proposition.","epistemic":{"status":"grounded","source_trust":["trusted"],"reason":"The supplied position and adjective-order evidence directly support the closure effect."},"support_ids":["sup_0dc7631bc0a570b93c49","sup_d38a47a249e8a0e55a79"],"branch_activations":[],"connection_refs":[],"context_refs":[],"semantic_obligation_refs":[]
     },
     {
-      "finding_ref": "micro:final-quality-seal",
-      "origin_candidate_id": "cand_acc9354d85c525f58b00",
-      "represented_candidate_ids": [],
-      "title": "The path lands on its quality",
-      "claim": "The ayah ends by making the path's upright quality its final take-away.",
-      "mechanism": "The adjective follows the route in ordinary adjective order and also occupies the final surface position, so the request settles on the route's qualifying standard.",
-      "reader_payoff": "The reader feels the final word as the place where the request lands, rather than as an afterthought to 'path.'",
-      "containment": "The closing weight consolidates the path phrase and does not rank the quality above the request's other grammatical work.",
-      "epistemic": {
-        "status": "grounded",
-        "source_trust": ["trusted"],
-        "reason": "The supplied word order and final-position evidence directly support the closure effect."
-      },
-      "support_ids": ["sup_0dc7631bc0a570b93c49", "sup_d38a47a249e8a0e55a79"],
-      "branch_activations": [],
-      "connection_refs": [],
-      "context_refs": [],
-      "semantic_obligation_refs": []
+      "finding_ref":"micro:formula-completion","origin_candidate_id":"cand_f5cc14b4e06beb3dd2bd","represented_candidate_ids":[],"title":"The adjective completes the path formula","claim":"The qualifier completes the guidance-path expression by supplying the norm the route noun alone leaves open.","mechanism":"The path is first named as an object of guidance and then qualified by the active-participle standard, so the phrase moves from route to route-that-is-upright.","reader_payoff":"The reader understands why the adjective is necessary to the request rather than ornamental repetition.","containment":"The formula completion deepens the plain path request without selecting against other retained local readings.","epistemic":{"status":"grounded","source_trust":["trusted"],"reason":"The packet supplies the local pairing, attachment, and completion relation."},"support_ids":["sup_898c35035c7cd8c4634d","sup_d38a47a249e8a0e55a79"],"branch_activations":[],"connection_refs":[],"context_refs":[],"semantic_obligation_refs":[]
     },
     {
-      "finding_ref": "micro:formula-completion",
-      "origin_candidate_id": "cand_f5cc14b4e06beb3dd2bd",
-      "represented_candidate_ids": [],
-      "title": "The qualifier completes the formula",
-      "claim": "The final adjective completes the route formula by supplying the norm that the noun alone leaves open.",
-      "mechanism": "The supplied pairing evidence joins the path noun to this active-participle qualifier, and the local attachment makes the qualifier decisive without detaching it from the noun.",
-      "reader_payoff": "The reader hears why the request asks for a path and immediately names the standard that makes it the requested path.",
-      "containment": "The formula relation deepens the ordinary phrase and does not replace the path with an abstract norm alone.",
-      "epistemic": {
-        "status": "grounded",
-        "source_trust": ["trusted"],
-        "reason": "The supplied formula-completion and focus attachment records directly establish the relation."
-      },
-      "support_ids": ["sup_898c35035c7cd8c4634d", "sup_d38a47a249e8a0e55a79"],
-      "branch_activations": [],
-      "connection_refs": [],
-      "context_refs": [],
-      "semantic_obligation_refs": []
+      "finding_ref":"micro:qualifier-forward-expansion","origin_candidate_id":"cand_0cfa0b63a10a94662d35","represented_candidate_ids":[],"title":"The quality prepares fuller path identity","claim":"The final quality names the kind of path before the supplied forward relation gives that path fuller identification.","mechanism":"The adjective closes the current request by fixing the route's standard, while the packet's forward evidence treats that standard as preparation for a later specification.","reader_payoff":"The reader senses why a short request can be complete now and still open toward a more particular account of the path.","containment":"The preparation is a bounded forward relation; it does not import later material as the present ayah's whole meaning.","epistemic":{"status":"qualified","source_trust":["trusted"],"reason":"The local adjective is grounded; the forward expansion is explicitly supplied as a candidate relation."},"support_ids":["sup_a86788268cbf3124a16f","sup_d38a47a249e8a0e55a79"],"branch_activations":[],"connection_refs":[],"context_refs":[],"semantic_obligation_refs":[]
     },
     {
-      "finding_ref": "micro:qualifier-forward-opening",
-      "origin_candidate_id": "cand_0cfa0b63a10a94662d35",
-      "represented_candidate_ids": [],
-      "title": "Quality before fuller identification",
-      "claim": "The focus names the route's quality before the path receives fuller identification.",
-      "mechanism": "The final adjective closes the current phrase with a quality, while the supplied forward-expansion relation leaves the route open to further specification without altering its present grammatical role.",
-      "reader_payoff": "The reader sees the ayah ending with a standard that prepares the mind to ask which people or relation embody this path.",
-      "containment": "Only the focus's opening toward fuller identification is retained; no later specification is imported into this finding.",
-      "epistemic": {
-        "status": "grounded",
-        "source_trust": ["trusted"],
-        "reason": "The supplied focus ordering and forward-expansion support establish the bounded opening."
-      },
-      "support_ids": ["sup_a86788268cbf3124a16f", "sup_d38a47a249e8a0e55a79"],
-      "branch_activations": [],
-      "connection_refs": [],
-      "context_refs": [],
-      "semantic_obligation_refs": []
+      "finding_ref":"micro:uprightness-closes","origin_candidate_id":"cand_62278d932a16dda2ff1d","represented_candidate_ids":[],"title":"Uprightness closes the guidance request","claim":"The clause narrows from asking for guidance to naming a route and then the standard that makes the route right.","mechanism":"The final adjective is the last semantic qualification on the governed path, so it closes the movement from petition to route to upright norm.","reader_payoff":"The reader leaves the short request with both its destination and the condition that defines it.","containment":"The closure consolidates the ordinary request and does not turn the standard into a competing destination.","epistemic":{"status":"grounded","source_trust":["trusted"],"reason":"The support directly records the local sequence and final adjective role."},"support_ids":["sup_d38a47a249e8a0e55a79","sup_d422ae7f69ac31222c3c"],"branch_activations":[],"connection_refs":[],"context_refs":[],"semantic_obligation_refs":[]
     },
     {
-      "finding_ref": "micro:guidance-field-closure",
-      "origin_candidate_id": "cand_62278d932a16dda2ff1d",
-      "represented_candidate_ids": [],
-      "title": "The request closes on its standard",
-      "claim": "The clause narrows in three steps from asking for guidance to naming a route and then naming the standard that makes the route right.",
-      "mechanism": "The final adjective belongs to the guidance co-occurrence field and occupies the end of the three-word clause, so it closes the requested movement with a qualifying norm.",
-      "reader_payoff": "The reader can follow the sentence's narrowing movement instead of receiving 'right path' as a flat translation unit.",
-      "containment": "The closure preserves the ordinary request and does not turn the sequence into a claim about the whole surah.",
-      "epistemic": {
-        "status": "grounded",
-        "source_trust": ["trusted"],
-        "reason": "The supplied local sequence and guidance-field evidence directly establish the closure."
-      },
-      "support_ids": ["sup_d38a47a249e8a0e55a79", "sup_d422ae7f69ac31222c3c"],
-      "branch_activations": [],
-      "connection_refs": [],
-      "context_refs": [],
-      "semantic_obligation_refs": []
+      "finding_ref":"micro:closure-sound","origin_candidate_id":"cand_41ca6235d661817d9db1","represented_candidate_ids":[],"title":"The sound tightens into closure","claim":"The final qualifier shares the heavier nominal cadence of the path and closes the ayah with firmness.","mechanism":"The short imperative is followed by the longer route phrase, and the final adjective completes that rhythm with its own sound pattern.","reader_payoff":"The listener hears the request settle rather than stop abruptly after the verb or bare noun.","containment":"The acoustic closure supports the semantic landing without changing the word's reference or selecting a new reading.","epistemic":{"status":"grounded","source_trust":["trusted"],"reason":"The supplied sound-cadence evidence directly supports the local closure."},"support_ids":["sup_c3be83398c44363ae571","sup_d38a47a249e8a0e55a79"],"branch_activations":[],"connection_refs":[],"context_refs":[],"semantic_obligation_refs":[]
     },
     {
-      "finding_ref": "micro:cadential-closure",
-      "origin_candidate_id": "cand_41ca6235d661817d9db1",
-      "represented_candidate_ids": [],
-      "title": "The sound tightens at the end",
-      "claim": "The final adjective tightens the heavier nominal rhythm into a firm closure.",
-      "mechanism": "The qualifier follows the route noun's longer sound pattern and shares its nominal weight, so the ayah ends with a compact acoustic seal.",
-      "reader_payoff": "The reader hears the request settle rather than trail off after the word 'path.'",
-      "containment": "The sound effect supports the supplied final-position meaning and does not create a separate lexical reading.",
-      "epistemic": {
-        "status": "grounded",
-        "source_trust": ["trusted"],
-        "reason": "The supplied sound and closure support records directly describe the local rhythm."
-      },
-      "support_ids": ["sup_c3be83398c44363ae571", "sup_d38a47a249e8a0e55a79"],
-      "branch_activations": [],
-      "connection_refs": [],
-      "context_refs": [],
-      "semantic_obligation_refs": []
+      "finding_ref":"micro:standing-rectitude","origin_candidate_id":"cand_62fe9e43fbbc86b6ccda","represented_candidate_ids":[],"title":"Standing and rectitude remain joined","claim":"The path is straight as a route and upright as a stable, balanced, normatively aligned way.","mechanism":"The standing-derived adjective is carried by the path noun, and the route relation activates the branch's physical and behavioral alignment pressure together.","reader_payoff":"The translation's single word \"straight\" opens into a path that keeps its balance and does not lose its right alignment.","containment":"The local phrase retains the ordinary straight-path reading; no separate resurrection, pricing, peoplehood, or support reading is activated here.","epistemic":{"status":"grounded","source_trust":["trusted"],"reason":"The support directly joins the standing image to the path's rectitude, and the branch facet is supplied."},"support_ids":["sup_d38a47a249e8a0e55a79","sup_e63e96f4595dafd2f76a"],"branch_activations":[
+        {"branch_ref":"root_001273/B008","facet_id":"F001","branch_gloss":"düzgünlük, denge ve doğru yoldan sapmama","facet_statement":"Bir şey fiziksel, davranışsal veya yargısal olarak düz çizgisini korur, dengeli olur ve sapmaz.","application_mode":"intrinsic_cross_root","carrier_refs":["1:6:3:2"],"trigger_refs":["1:6:2:2"],"focus_return_refs":["1:6:2:2","1:6:3:2"],"carrier":"The final adjective carries the standing-derived quality of remaining upright and aligned.","independent_trigger":"The path noun supplies the route relation in which straightness and non-deviation become meaningful.","activation":"The qualifier's standing/alignment field contacts the route's straight-path relation.","resulting_reading":"The requested path is a route whose straightness includes maintained balance and right alignment.","boundary":"Only the supplied alignment core is activated; broader root branches are not made local meanings."}
+      ],"connection_refs":[],"context_refs":[],"semantic_obligation_refs":[]
     },
     {
-      "finding_ref": "micro:standing-horizon-pressure",
-      "origin_candidate_id": "cand_9210bd980982ae081114",
-      "represented_candidate_ids": [],
-      "title": "A restrained standing horizon",
-      "claim": "The standing-related pressure behind the qualifier can let the requested path carry a restrained horizon of uprightness being held to account, while it remains a path qualifier here.",
-      "mechanism": "The active participle qualifies the route and the guidance-path relation gives its standing association a local point of contact; the supplied horizon pointer remains a qualification rather than a separate contextual activation.",
-      "reader_payoff": "The reader senses that 'straight' can carry an upright horizon without losing sight of the ordinary route being requested.",
-      "containment": "This finding retains local standing pressure only; it does not activate resurrection or import the supplied 1:4 context into the micro reading.",
-      "epistemic": {
-        "status": "qualified",
-        "source_trust": ["trusted"],
-        "reason": "The support explicitly limits the horizon to pressure, and the packet lacks a selected context occurrence for the named pointer."
-      },
-      "support_ids": ["sup_23d5cf7e29a2884b28dd", "sup_d38a47a249e8a0e55a79"],
-      "branch_activations": [],
-      "connection_refs": [],
-      "context_refs": [],
-      "semantic_obligation_refs": []
+      "finding_ref":"micro:definite-standard","origin_candidate_id":"cand_27d468cfbae0ceb8b8a3","represented_candidate_ids":[],"title":"The canonical adjective presents one known standard","claim":"The canonical definite adjective presents uprightness as the known qualifying standard of the path.","mechanism":"Definiteness and accusative agreement keep the qualifier attached to the definite route, while the supplied variants show how alternative forms would loosen that standard relation.","reader_payoff":"The reader notices that the path is requested with a determinate quality, not with an open-ended adjective.","containment":"The contrast explains the canonical force without treating variant constructions as active alternatives in this ayah.","epistemic":{"status":"grounded","source_trust":["trusted"],"reason":"The packet supplies the canonical morphology and the relevant variant contrast."},"support_ids":["sup_d38a47a249e8a0e55a79","sup_e1ca88f7223892e96839"],"branch_activations":[],"connection_refs":[],"context_refs":[],"semantic_obligation_refs":[]
     },
     {
-      "finding_ref": "micro:upright-rectitude",
-      "origin_candidate_id": "cand_62fe9e43fbbc86b6ccda",
-      "represented_candidate_ids": [],
-      "title": "Straightness and uprightness stay together",
-      "claim": "The requested path is straight as a route and upright as a balanced, non-deviating way of proceeding.",
-      "mechanism": "The qwm-derived qualifier carries the supplied straightness-and-balance facet, and its attachment to the route makes that quality the route's own norm rather than a detached moral label.",
-      "reader_payoff": "The reader keeps the physical direction and the normative stability in one phrase, where a translation's single 'right' can flatten them.",
-      "containment": "The upright relation deepens the ordinary straight-path reading and does not activate the root family's peoplehood, pricing, or resurrection branches.",
-      "epistemic": {
-        "status": "grounded",
-        "source_trust": ["trusted"],
-        "reason": "The supplied local adjective analysis and accepted uprightness facet provide the carrier and the path contact."
-      },
-      "support_ids": ["sup_d38a47a249e8a0e55a79", "sup_e63e96f4595dafd2f76a"],
-      "branch_activations": [
-        {
-          "branch_ref": "root_001273/B008",
-          "facet_id": "F001",
-          "branch_gloss": "düzgünlük, denge ve doğru yoldan sapmama",
-          "facet_statement": "Bir şey fiziksel, davranışsal veya yargısal olarak düz çizgisini korur, dengeli olur ve sapmaz.",
-          "application_mode": "intrinsic_cross_root",
-          "carrier_refs": ["1:6:3:2"],
-          "trigger_refs": ["1:6:1:1", "1:6:2:2"],
-          "focus_return_refs": ["1:6:3:2"],
-          "carrier": "ٱلْمُسْتَقِيمَ'nın olağan path qualifier işlevi, yolu straight/upright olarak niteler.",
-          "independent_trigger": "Rehberlik fiilinin doğrudan yol istemesi, düzgünlük ve sapmama niteliğini bu güzergâhın ölçüsü haline getirir.",
-          "activation": "Yolun nitelenmesi, fiziksel doğrultu ile dengeli ve sapmayan ilerleyişi aynı route standardında buluşturur.",
-          "resulting_reading": "İstenen yol, yalnızca düz görünen bir çizgi değil, uprightness ve balance korunarak yürünecek bir route olarak açılır.",
-          "boundary": "Bu temas qwm ailesinin diğer branch meaningsini ayetin yerel anlamına taşımaz; active claim path qualifier ile sınırlıdır."
-        }
-      ],
-      "connection_refs": [],
-      "context_refs": [],
-      "semantic_obligation_refs": []
+      "finding_ref":"micro:hft-gentle-upright","origin_candidate_id":"cand_920b68fde665251c48f8","represented_candidate_ids":[],"title":"Attributed gentle enabling into upright alignment","claim":"The focus words can be read together as a request to be gently enabled into and along a real course whose correctness is sustained uprightness and even measure.","mechanism":"The guidance imperative at the first focus word supplies enabling, the route noun supplies a traversable course, and the final qualifier supplies the alignment standard; the exact attributed trace returns through all three focus occurrences.","reader_payoff":"The ordinary request for the right path becomes a supported movement into a course without losing its recoverable path meaning.","containment":"This is attributed HFT evidence with unresolved facet identity; it does not invent a lexicon gloss or displace the ordinary petition.","epistemic":{"status":"qualified","source_trust":["legacy_unbound"],"reason":"The trace is coordinate-consistent and complete at the focus, but its reader identity is legacy_unbound."},"support_ids":["sup_05bb55d00f6ac56a3f60"],"branch_activations":[
+        {"branch_ref":"root_001583/B001","facet_id":null,"branch_gloss":null,"facet_statement":null,"application_mode":"attributed","carrier_refs":["1:6:1:1"],"trigger_refs":["1:6:2:2","1:6:3:2"],"focus_return_refs":["1:6:1:1","1:6:2:2","1:6:3:2"],"carrier":"The guidance imperative carries directed enabling toward the right way.","independent_trigger":"The route noun and its upright qualifier provide the separate course and alignment contacts named by the trace.","activation":"The three focus words contact as enabling, traversable course, and sustained alignment.","resulting_reading":"The group asks to be gently enabled into and along a real upright course.","boundary":"Attributed HFT only; no independent facet gloss is asserted."},
+        {"branch_ref":"root_000858/B001","facet_id":null,"branch_gloss":null,"facet_statement":null,"application_mode":"attributed","carrier_refs":["1:6:2:2"],"trigger_refs":["1:6:1:1","1:6:3:2"],"focus_return_refs":["1:6:1:1","1:6:2:2","1:6:3:2"],"carrier":"The route noun carries a straight traversable road.","independent_trigger":"The guidance imperative directs the group and the final qualifier supplies the alignment condition.","activation":"The road meaning contacts the enabling request and the upright standard.","resulting_reading":"The requested guidance enters a real course whose straightness is maintained alignment.","boundary":"Attributed HFT only; the ordinary route sense remains primary."},
+        {"branch_ref":"root_001273/B008","facet_id":null,"branch_gloss":null,"facet_statement":null,"application_mode":"attributed","carrier_refs":["1:6:3:2"],"trigger_refs":["1:6:1:1","1:6:2:2"],"focus_return_refs":["1:6:1:1","1:6:2:2","1:6:3:2"],"carrier":"The final adjective carries upright, even alignment on the route.","independent_trigger":"The imperative and route noun provide the enabling act and the course being qualified.","activation":"The qualifier contacts the guidance-and-road relation as the standard that keeps the course upright.","resulting_reading":"Correctness is heard as sustained upright and even alignment within the requested course.","boundary":"Attributed HFT only; no separate moral or legal branch is added."}
+      ],"connection_refs":[],"context_refs":[],"semantic_obligation_refs":[]
     },
     {
-      "finding_ref": "micro:definite-standard-variant",
-      "origin_candidate_id": "cand_27d468cfbae0ceb8b8a3",
-      "represented_candidate_ids": [],
-      "title": "One definite standard",
-      "claim": "The canonical adjective presents the path's upright quality as one definite standard.",
-      "mechanism": "The adjective is definite and accusative in agreement with the route, while the supplied variants test forms that would loosen or reframe that relationship.",
-      "reader_payoff": "The reader sees the qualifier as the known standard of this path rather than as an optional description.",
-      "containment": "The variant contrast explains the canonical construction and does not make the alternatives active readings of the focus surface.",
-      "epistemic": {
-        "status": "grounded",
-        "source_trust": ["trusted"],
-        "reason": "The supplied canonical morphology and variant-standard evidence directly support the definite standard relation."
-      },
-      "support_ids": ["sup_d38a47a249e8a0e55a79", "sup_e1ca88f7223892e96839"],
-      "branch_activations": [],
-      "connection_refs": [],
-      "context_refs": [],
-      "semantic_obligation_refs": []
+      "finding_ref":"micro:hft-supported-motion","origin_candidate_id":"cand_66350b14efe8f125c000","represented_candidate_ids":[],"title":"Attributed assisted motion toward the route","claim":"The focus words can also support a request for accompaniment through unstable movement until the travelers can stand and proceed.","mechanism":"The guidance word is attributed with supported swaying motion, the route supplies the surface of travel, and the standing-derived qualifier supplies regained posture; the trace returns through the three matching focus word indices.","reader_payoff":"Guidance becomes bodily assistance that enables actual travel, while the ordinary request for a straight path remains recoverable.","containment":"This is an attributed motion reading, not a claim that the ayah literally describes bodily weakness or excludes route knowledge.","epistemic":{"status":"qualified","source_trust":["legacy_unbound"],"reason":"The exact focus coordinates and roots agree, but the HFT reader identity is legacy_unbound."},"support_ids":["sup_d616dd9234152a99b613"],"branch_activations":[
+        {"branch_ref":"root_001583/B008","facet_id":null,"branch_gloss":null,"facet_statement":null,"application_mode":"attributed","carrier_refs":["1:6:1:1"],"trigger_refs":["1:6:2:2","1:6:3:2"],"focus_return_refs":["1:6:1:1","1:6:2:2","1:6:3:2"],"carrier":"The guidance surface carries the attributed image of supported, swaying walking.","independent_trigger":"The route and standing-derived qualifier provide travel surface and regained posture.","activation":"Assisted movement contacts the course and the posture needed to proceed.","resulting_reading":"The request includes support for unstable gait until the group can travel the route.","boundary":"Attributed HFT only; no bodily scene is asserted as the sole meaning."},
+        {"branch_ref":"root_000858/B001","facet_id":null,"branch_gloss":null,"facet_statement":null,"application_mode":"attributed","carrier_refs":["1:6:2:2"],"trigger_refs":["1:6:1:1","1:6:3:2"],"focus_return_refs":["1:6:1:1","1:6:2:2","1:6:3:2"],"carrier":"The route noun carries the surface and direction of travel.","independent_trigger":"The imperative supplies assisted movement and the final adjective supplies stabilization.","activation":"The road gives the attributed bodily motion a course on which it can become travel.","resulting_reading":"Assisted movement becomes actual progress along the requested path.","boundary":"Attributed HFT only; the route remains an ordinary path."},
+        {"branch_ref":"root_001273/B002","facet_id":null,"branch_gloss":null,"facet_statement":null,"application_mode":"attributed","carrier_refs":["1:6:3:2"],"trigger_refs":["1:6:1:1","1:6:2:2"],"focus_return_refs":["1:6:1:1","1:6:2:2","1:6:3:2"],"carrier":"The final adjective carries the attributed image of bodily rising and standing.","independent_trigger":"The guidance word supplies assisted motion and the route noun supplies the course.","activation":"Regained posture contacts the supported movement and makes continuing travel possible.","resulting_reading":"The request includes support until the travelers can rise, align, and proceed.","boundary":"Attributed HFT only; no independent bodily branch facet is asserted."}
+      ],"connection_refs":[],"context_refs":[],"semantic_obligation_refs":[]
     },
     {
-      "finding_ref": "micro:hft-gentle-upright-alignment",
-      "origin_candidate_id": "cand_920b68fde665251c48f8",
-      "represented_candidate_ids": [],
-      "title": "Gentle enabling into upright alignment",
-      "claim": "The petition can be heard as asking for gentle enabling into and along a real course whose correctness consists in sustained uprightness and even measure.",
-      "mechanism": "The attributed guidance facet supplies gentle indication and enabling, the route facet supplies a traversable course, and the uprightness facet makes straightness an active norm of balance; their exact focus traces return through all three focus words.",
-      "reader_payoff": "The reader sees guidance as being enabled to move within a maintained alignment, not only as being told which route is correct.",
-      "containment": "The plain request to be led to the straight path remains recoverable; this is an attributed local activation and does not claim a separate literal scene or a surah-wide system.",
-      "epistemic": {
-        "status": "qualified",
-        "source_trust": ["legacy_unbound"],
-        "reason": "The HFT trace has exact focus coordinates and complete branch contacts, but its reader identity is legacy-unbound, so the synthesis remains attributed."
-      },
-      "support_ids": ["sup_05bb55d00f6ac56a3f60"],
-      "branch_activations": [
-        {
-          "branch_ref": "root_001583/B001",
-          "facet_id": "F001",
-          "branch_gloss": "doğru yolu gösterme ve doğruya yönelme",
-          "facet_statement": "Doğru yönü, yolu veya gerçeği incelikle göstermek, açıklamak ve tanıtmaktır.",
-          "application_mode": "attributed",
-          "carrier_refs": ["1:6:1:1"],
-          "trigger_refs": ["1:6:2:2", "1:6:3:2"],
-          "focus_return_refs": ["1:6:1:1"],
-          "carrier": "ٱهْدِنَا olağan olarak doğru yola yönlendirme isteğini taşır.",
-          "independent_trigger": "Doğrudan istenen yol ve onu niteleyen upright adjective, yönlendirmeyi gerçek bir course'a bağlar.",
-          "activation": "Guidance carrier, route and its standardıyla temas ettiğinde yalnızca bilgi vermek değil, doğru yöne incelikle sokup enable etmek olarak açılır.",
-          "resulting_reading": "İstek, bizi gerçek bir güzergâha nazikçe sokup onun boyunca sustained uprightness ve even measure ile ilerletmeye yönelir.",
-          "boundary": "The attributed trace does not replace the ordinary guidance request with an independent gift or physical travel claim."
-        },
-        {
-          "branch_ref": "root_000858/B001",
-          "facet_id": "F001",
-          "branch_gloss": "yol, özellikle düz yol",
-          "facet_statement": "Temel gönderim, üzerinde ilerlenen yoldur.",
-          "application_mode": "attributed",
-          "carrier_refs": ["1:6:2:2"],
-          "trigger_refs": ["1:6:1:1", "1:6:3:2"],
-          "focus_return_refs": ["1:6:2:2"],
-          "carrier": "ٱلصِّرَٰطَ olağan olarak üzerinde ilerlenen traversable road'u taşır.",
-          "independent_trigger": "Guidance'ın doğrudan bu noun'a yönelmesi ve final adjective'in onu nitelemesi, route'u hareketin gerçek course'u yapar.",
-          "activation": "Route carrier, gentle guidance ve upright standard ile temas ederek yalnızca doğru bir çizgi değil, içine girilip boyunca ilerlenen bir course olarak çalışır.",
-          "resulting_reading": "Yol, yönlendirmenin içine ve boyunca hareket ettirdiği gerçek bir güzergâh olarak görünür.",
-          "boundary": "This attributed activation retains the primary road reference and does not import the branch's source-variant facet."
-        },
-        {
-          "branch_ref": "root_001273/B008",
-          "facet_id": "F001",
-          "branch_gloss": "düzgünlük, denge ve doğru yoldan sapmama",
-          "facet_statement": "Bir şey fiziksel, davranışsal veya yargısal olarak düz çizgisini korur, dengeli olur ve sapmaz.",
-          "application_mode": "attributed",
-          "carrier_refs": ["1:6:3:2"],
-          "trigger_refs": ["1:6:1:1", "1:6:2:2"],
-          "focus_return_refs": ["1:6:3:2"],
-          "carrier": "ٱلْمُسْتَقِيمَ olağan olarak route'u straight/upright olarak niteleyen bir active property'dir.",
-          "independent_trigger": "Guidance verb ile route noun, straightness'i yalnızca görünüş değil sustained alignment standardı olarak çerçeveler.",
-          "activation": "Uprightness carrier, route ve guidance ile temas ederek düzlüğü balance ve non-deviation ölçüsüne dönüştürür.",
-          "resulting_reading": "Yolun doğruluğu, sustained uprightness ve even measure ile korunur.",
-          "boundary": "The attributed relation remains the path's qualifying standard and does not activate qwm's resurrection or pricing branches."
-        }
-      ],
-      "connection_refs": [],
-      "context_refs": [],
-      "semantic_obligation_refs": []
+      "finding_ref":"micro:hft-sustaining-course","origin_candidate_id":"cand_fddf92cac71d212859fc","represented_candidate_ids":[],"title":"Attributed course as sustaining order","claim":"The focus words can also frame guidance as setting conduct within a course that continually supports life and practice.","mechanism":"The guidance word is attributed with direction and manner, the route anchors that manner as a traversable course, and the final qualifier supplies the supporting order that keeps it in operation.","reader_payoff":"The path is felt as a sustaining way of proceeding rather than only a line between points.","containment":"This attributed course reading adds sustaining pressure to the ordinary path request and does not turn the adjective into a general provision claim.","epistemic":{"status":"qualified","source_trust":["legacy_unbound"],"reason":"The trace is exact at all focus coordinates but remains legacy_unbound and therefore attributed."},"support_ids":["sup_6b4cf7608702d3c206b9"],"branch_activations":[
+        {"branch_ref":"root_001583/B002","facet_id":null,"branch_gloss":null,"facet_statement":null,"application_mode":"attributed","carrier_refs":["1:6:1:1"],"trigger_refs":["1:6:2:2","1:6:3:2"],"focus_return_refs":["1:6:1:1","1:6:2:2","1:6:3:2"],"carrier":"The guidance imperative carries direction, manner, and intended course.","independent_trigger":"The route and its qualifier provide the traversable setting and sustaining standard.","activation":"Direction contacts a course that is maintained as an order rather than merely named.","resulting_reading":"The petition asks for conduct to be set within a durable way of proceeding.","boundary":"Attributed HFT only; no independent lexicon facet is asserted."},
+        {"branch_ref":"root_000858/B001","facet_id":null,"branch_gloss":null,"facet_statement":null,"application_mode":"attributed","carrier_refs":["1:6:2:2"],"trigger_refs":["1:6:1:1","1:6:3:2"],"focus_return_refs":["1:6:1:1","1:6:2:2","1:6:3:2"],"carrier":"The route noun carries a traversable course.","independent_trigger":"The guidance word supplies manner and direction, while the adjective supplies continued support.","activation":"The road keeps the attributed manner anchored as a course rather than an abstract virtue.","resulting_reading":"The requested way functions as an ordered course through which conduct can continue.","boundary":"Attributed HFT only; the path is not reduced to a sustaining metaphor."},
+        {"branch_ref":"root_001273/B009","facet_id":null,"branch_gloss":null,"facet_statement":null,"application_mode":"attributed","carrier_refs":["1:6:3:2"],"trigger_refs":["1:6:1:1","1:6:2:2"],"focus_return_refs":["1:6:1:1","1:6:2:2","1:6:3:2"],"carrier":"The final adjective carries the attributed image of a supporting order.","independent_trigger":"The guidance and route words provide direction and the course that is to be supported.","activation":"The qualifier's standing-support pressure contacts the route as the condition for continuing life and conduct.","resulting_reading":"The right course is heard as a mainstay that keeps proceeding possible.","boundary":"Attributed HFT only; no separate material-subsistence claim is asserted."}
+      ],"connection_refs":[],"context_refs":[],"semantic_obligation_refs":[]
     },
     {
-      "finding_ref": "micro:hft-assisted-motion",
-      "origin_candidate_id": "cand_66350b14efe8f125c000",
-      "represented_candidate_ids": [],
-      "title": "Supported movement toward the route",
-      "claim": "The petition can also be heard as asking that an unstable gait be supported until the travelers can rise, remain aligned, and proceed along the route.",
-      "mechanism": "The attributed walking-while-leaning facet supplies assisted motion, the road supplies the surface of travel, and the standing facet supplies regained posture; each trace returns through its focus word.",
-      "reader_payoff": "The reader sees the plural object as a group whose capacity to move is being supported, not only as people requesting route information.",
-      "containment": "The ordinary guidance-to-the-straight-path request remains intact; the trace is an attributed embodied pressure and does not assert literal bodily incapacity.",
-      "epistemic": {
-        "status": "qualified",
-        "source_trust": ["legacy_unbound"],
-        "reason": "The HFT record has exact focus coordinate agreement and complete carrier-trigger-return coverage, with legacy-unbound provenance."
-      },
-      "support_ids": ["sup_d616dd9234152a99b613"],
-      "branch_activations": [
-        {
-          "branch_ref": "root_001583/B008",
-          "facet_id": "F001",
-          "branch_gloss": "sallanarak, gerektiğinde başkalarına dayanarak yürüme",
-          "facet_statement": "Yürüyüş sırasında sağa sola sallanma ve yalpalama hareketidir.",
-          "application_mode": "attributed",
-          "carrier_refs": ["1:6:1:1"],
-          "trigger_refs": ["1:6:2:2", "1:6:3:2"],
-          "focus_return_refs": ["1:6:1:1"],
-          "carrier": "ٱهْدِنَا olağan olarak rehberlik ister; attributed facet bunu başkalarının desteğiyle ilerleyen bir yürüyüş baskısıyla renklendirir.",
-          "independent_trigger": "Çoğul alıcı, doğrudan route ve upright qualifier birlikte, rehberliği hareket kapasitesine yöneltir.",
-          "activation": "Guidance carrier, route'un gerçek travel surface'i ve standing result ile temas ederek desteklenen, başlangıçta unstable bir yürüyüş görüntüsü üretir.",
-          "resulting_reading": "İstek, bizi destekli bir gait içinde route'a ulaştırıp yürüyebilir hale getirmeyi de taşır.",
-          "boundary": "The attributed walking facet is an image pressure; it does not replace the ordinary petition or assert a diagnosed physical condition."
-        },
-        {
-          "branch_ref": "root_000858/B001",
-          "facet_id": "F001",
-          "branch_gloss": "yol, özellikle düz yol",
-          "facet_statement": "Temel gönderim, üzerinde ilerlenen yoldur.",
-          "application_mode": "attributed",
-          "carrier_refs": ["1:6:2:2"],
-          "trigger_refs": ["1:6:1:1", "1:6:3:2"],
-          "focus_return_refs": ["1:6:2:2"],
-          "carrier": "ٱلصِّرَٰطَ ordinary road meaning supplies the surface and direction of actual travel.",
-          "independent_trigger": "The assisted guidance carrier and standing qualifier make the road the place where supported movement occurs.",
-          "activation": "The route receives the unstable travelers' movement and turns guidance into actual passage along a surface.",
-          "resulting_reading": "The named path is the course on which supported movement becomes travel.",
-          "boundary": "The attributed course remains the focus road/path and does not make the physical image the only meaning."
-        },
-        {
-          "branch_ref": "root_001273/B002",
-          "facet_id": "F001",
-          "branch_gloss": "ayağa kalkma ve dik durma",
-          "facet_statement": "Canlı ya da cansız bir varlık dik konuma gelir veya dik durumda bulunur.",
-          "application_mode": "attributed",
-          "carrier_refs": ["1:6:3:2"],
-          "trigger_refs": ["1:6:1:1", "1:6:2:2"],
-          "focus_return_refs": ["1:6:3:2"],
-          "carrier": "ٱلْمُسْتَقِيمَ ordinary path qualifier supplies straightness; attributed standing pressure supplies regained upright posture.",
-          "independent_trigger": "The plural guidance request and route surface give bodily rising a destination and a reason to stabilize.",
-          "activation": "The path's qualifier meets assisted motion as the posture that lets the travelers stand and proceed.",
-          "resulting_reading": "Guidance supports movement until the travelers can rise, align, and continue on the route.",
-          "boundary": "The standing facet is attributed contextual evidence and does not turn the adjective into an independent bodily command."
-        }
-      ],
-      "connection_refs": [],
-      "context_refs": [],
-      "semantic_obligation_refs": []
-    },
-    {
-      "finding_ref": "micro:hft-sustaining-course",
-      "origin_candidate_id": "cand_fddf92cac71d212859fc",
-      "represented_candidate_ids": [],
-      "title": "A course that sustains conduct",
-      "claim": "The request can be heard as asking that intention and manner be set within a course that supports the continuation of life and conduct.",
-      "mechanism": "The attributed guidance facet supplies direction, manner, and course; the road anchors that manner in a traversable route; the supporting-order facet makes uprightness function as a mainstay rather than a geometric label alone.",
-      "reader_payoff": "The reader sees the path as an ordered way of proceeding that keeps action together, not merely as a line between points.",
-      "containment": "The sustaining-course reading remains an attributed local coloring of 'guide us to the straight path'; it does not replace the route or claim a full theory of conduct.",
-      "epistemic": {
-        "status": "qualified",
-        "source_trust": ["legacy_unbound"],
-        "reason": "The HFT trace supplies exact focus coordinates and complete branch contacts, while its reader identity remains legacy-unbound."
-      },
-      "support_ids": ["sup_6b4cf7608702d3c206b9"],
-      "branch_activations": [
-        {
-          "branch_ref": "root_001583/B002",
-          "facet_id": "F001",
-          "branch_gloss": "yön, izlenen yol ve tutum",
-          "facet_statement": "Bir işin yönünü, hedefini ve izlenen doğrultusunu bildirir.",
-          "application_mode": "attributed",
-          "carrier_refs": ["1:6:1:1"],
-          "trigger_refs": ["1:6:2:2", "1:6:3:2"],
-          "focus_return_refs": ["1:6:1:1"],
-          "carrier": "ٱهْدِنَا ordinary guidance meaning carries direction toward a way; attributed facet adds course and manner pressure.",
-          "independent_trigger": "The route noun and its upright qualifier give the requested direction a durable course and standard.",
-          "activation": "Guidance meets route and qualifier as the shaping of how to proceed, not only where to point.",
-          "resulting_reading": "The petition asks for intention and manner to be set within a sustained way of proceeding.",
-          "boundary": "The attributed course facet does not replace the ordinary meaning of guidance toward a path or activate unrelated uses of the root."
-        },
-        {
-          "branch_ref": "root_000858/B001",
-          "facet_id": "F001",
-          "branch_gloss": "yol, özellikle düz yol",
-          "facet_statement": "Temel gönderim, üzerinde ilerlenen yoldur.",
-          "application_mode": "attributed",
-          "carrier_refs": ["1:6:2:2"],
-          "trigger_refs": ["1:6:1:1", "1:6:3:2"],
-          "focus_return_refs": ["1:6:2:2"],
-          "carrier": "ٱلصِّرَٰطَ ordinary road meaning anchors the manner of proceeding in a traversable course.",
-          "independent_trigger": "The guidance course and supporting uprightness require a route on which that order can be followed.",
-          "activation": "The road carrier prevents the course from becoming an abstract virtue and gives it a place of continued movement.",
-          "resulting_reading": "The requested way is a real course that can hold and carry ongoing conduct.",
-          "boundary": "The attributed road image remains contained by the path noun and does not displace its abstract way sense."
-        },
-        {
-          "branch_ref": "root_001273/B009",
-          "facet_id": "F001",
-          "branch_gloss": "ayakta tutan dayanak ve geçim temeli",
-          "facet_statement": "Bir şeyin varlığını ve düzenini sürdürmesini sağlayan temel dayanak veya düzenleyici unsur bulunur.",
-          "application_mode": "attributed",
-          "carrier_refs": ["1:6:3:2"],
-          "trigger_refs": ["1:6:1:1", "1:6:2:2"],
-          "focus_return_refs": ["1:6:3:2"],
-          "carrier": "ٱلْمُسْتَقِيمَ ordinary upright qualifier carries the path's maintained alignment; attributed facet adds support and sustaining order.",
-          "independent_trigger": "The guidance request seeks a route for continued movement, and the route noun supplies the object that must be sustained.",
-          "activation": "Upright qualification meets the route's ongoing use as the support by which conduct and life continue in order.",
-          "resulting_reading": "The straight path can be felt as a mainstay that holds practice together and keeps it moving.",
-          "boundary": "The attributed support facet does not make provision or maintenance the sole sense of the adjective."
-        }
-      ],
-      "connection_refs": [],
-      "context_refs": [],
-      "semantic_obligation_refs": []
-    },
-    {
-      "finding_ref": "micro:hft-following-passage",
-      "origin_candidate_id": "cand_4f4d0028b4c2a6fb8258",
-      "represented_candidate_ids": [],
-      "title": "Following into a passage",
-      "claim": "The petition can be heard as asking for a lead that takes the speakers through a passage and raises their resolve to continue.",
-      "mechanism": "The attributed leading facet supplies what goes ahead, the passage facet lets the route carry entrants beyond their former position, and the committed-rising facet turns entry into continuation; the exact trace returns through all three focus words.",
-      "reader_payoff": "The reader senses a temporal movement from being led, to entering a route, to continuing with resolve, while the ordinary path request remains visible.",
-      "containment": "This is an exploratory attributed sequence, not a claim that the path literally swallows people or that the ordinary road meaning is displaced.",
-      "epistemic": {
-        "status": "exploratory",
-        "source_trust": ["legacy_unbound"],
-        "reason": "The HFT coordinates and branch contacts are exact, but the supplied trace is exploratory and its reader identity is legacy-unbound."
-      },
-      "support_ids": ["sup_2a28d018a6b23d4894ef"],
-      "branch_activations": [
-        {
-          "branch_ref": "root_001583/B003",
-          "facet_id": "F001",
-          "branch_gloss": "bir şeyin ilk veya öndeki bölümü",
-          "facet_statement": "Bir bütünün ilk veya önde bulunan bölümü ya da üyesidir.",
-          "application_mode": "attributed",
-          "carrier_refs": ["1:6:1:1"],
-          "trigger_refs": ["1:6:2:2", "1:6:3:2"],
-          "focus_return_refs": ["1:6:1:1"],
-          "carrier": "ٱهْدِنَا ordinary guidance request carries direction; attributed front-part facet supplies something leading ahead.",
-          "independent_trigger": "The route noun supplies a course to be entered and the upright qualifier supplies the continuation's standard.",
-          "activation": "Guidance meets the route as a lead placed before the travelers, giving the request temporal direction.",
-          "resulting_reading": "The prayer asks for a lead that goes ahead of the speakers and brings them toward the route.",
-          "boundary": "The attributed front-part facet does not make an animal or object the literal subject of the ayah."
-        },
-        {
-          "branch_ref": "root_000858/B002",
-          "facet_id": "F001",
-          "branch_gloss": "geçişte gözden kaybolmak; özellikle yiyeceği yutmak",
-          "facet_statement": "Temel anlam, bir şeyin geçiş ve gidiş sırasında gözden kaybolmasıdır.",
-          "application_mode": "attributed",
-          "carrier_refs": ["1:6:2:2"],
-          "trigger_refs": ["1:6:1:1", "1:6:3:2"],
-          "focus_return_refs": ["1:6:2:2"],
-          "carrier": "ٱلصِّرَٰطَ ordinary road meaning carries a route; attributed passage facet lets that route receive entrants and leave their prior position behind.",
-          "independent_trigger": "The leading guidance request and the route's upright qualification give passage a directed destination and continuation.",
-          "activation": "The path carrier meets forward guidance as a passage through which the travelers move beyond where they were.",
-          "resulting_reading": "The route is felt as a passage that receives the travelers and carries them out of their prior position.",
-          "boundary": "The exploratory trace retains passage pressure only and does not activate literal food swallowing or make it the primary path sense."
-        },
-        {
-          "branch_ref": "root_001273/B003",
-          "facet_id": "F001",
-          "branch_gloss": "bir işe kararlılıkla girişme",
-          "facet_statement": "Kişi belirli bir işe kesin niyetle yönelir, işi üstlenir ve ona girişir.",
-          "application_mode": "attributed",
-          "carrier_refs": ["1:6:3:2"],
-          "trigger_refs": ["1:6:1:1", "1:6:2:2"],
-          "focus_return_refs": ["1:6:3:2"],
-          "carrier": "ٱلْمُسْتَقِيمَ ordinary qualifier carries a path's upright direction; attributed facet supplies committed continuation after entry.",
-          "independent_trigger": "The imperative's plural object and the passage route require a resulting act of continuing along that route.",
-          "activation": "The upright qualifier meets forward passage as resolve that turns being carried into committed proceeding.",
-          "resulting_reading": "The request includes being raised into the resolve to continue once the route has received the travelers.",
-          "boundary": "The attributed commitment facet does not turn the adjective into an independent command or erase the ordinary route qualification."
-        }
-      ],
-      "connection_refs": [],
-      "context_refs": [],
-      "semantic_obligation_refs": []
+      "finding_ref":"micro:hft-following-passage","origin_candidate_id":"cand_4f4d0028b4c2a6fb8258","represented_candidate_ids":[],"title":"Attributed following through passage","claim":"The focus words can also be read as a temporal movement in which a lead goes ahead, the route carries the group through, and resolve rises for continuation.","mechanism":"The guidance word is attributed with a leading front, the route with passage beyond the prior position, and the final qualifier with committed rising; the exact trace returns through all three focus occurrences.","reader_payoff":"The request gains a sequence of being led, entering a passage, and continuing, while the ordinary request for the straight path remains intact.","containment":"This exploratory attributed sequence does not make transition the sole sense and does not invent a branch gloss or facet.","epistemic":{"status":"exploratory","source_trust":["legacy_unbound"],"reason":"The coordinate and root trace is exact, but the supplied HFT model is exploratory and legacy_unbound."},"support_ids":["sup_2a28d018a6b23d4894ef"],"branch_activations":[
+        {"branch_ref":"root_001583/B003","facet_id":null,"branch_gloss":null,"facet_statement":null,"application_mode":"attributed","carrier_refs":["1:6:1:1"],"trigger_refs":["1:6:2:2","1:6:3:2"],"focus_return_refs":["1:6:1:1","1:6:2:2","1:6:3:2"],"carrier":"The guidance imperative carries the attributed leading-front element.","independent_trigger":"The route and final qualifier provide passage and committed continuation.","activation":"A lead going ahead gives the imperative temporal direction into the route.","resulting_reading":"The request includes putting a lead before the group.","boundary":"Attributed exploratory HFT only; no independent facet gloss is asserted."},
+        {"branch_ref":"root_000858/B002","facet_id":null,"branch_gloss":null,"facet_statement":null,"application_mode":"attributed","carrier_refs":["1:6:2:2"],"trigger_refs":["1:6:1:1","1:6:3:2"],"focus_return_refs":["1:6:1:1","1:6:2:2","1:6:3:2"],"carrier":"The route noun carries the attributed passage-through image.","independent_trigger":"The guidance word supplies leading movement and the adjective supplies continuation.","activation":"The route receives the group and takes it beyond the prior position in the attributed sequence.","resulting_reading":"The path becomes a passage through which the group moves onward.","boundary":"Attributed exploratory HFT only; no literal swallowing scene is asserted."},
+        {"branch_ref":"root_001273/B003","facet_id":null,"branch_gloss":null,"facet_statement":null,"application_mode":"attributed","carrier_refs":["1:6:3:2"],"trigger_refs":["1:6:1:1","1:6:2:2"],"focus_return_refs":["1:6:1:1","1:6:2:2","1:6:3:2"],"carrier":"The final adjective carries the attributed rising-with-resolve element.","independent_trigger":"The guidance and route words provide the lead and passage that require continuation.","activation":"Committed rising contacts the passage after the route has received the travelers.","resulting_reading":"The movement ends in resolve to continue along the course.","boundary":"Attributed exploratory HFT only; no independent facet gloss is asserted."}
+      ],"connection_refs":[],"context_refs":[],"semantic_obligation_refs":[]
     }
   ],
   "friction_notes": [
-    "The packet supplies no explicit semantic_obligations arrays; all supplied candidate support records are retained in support_ids, and no unprovided obligation identifiers are invented.",
-    "The focus_word_alignment is complete for all three word-analysis units, but selected_context_units is empty; the 1:4 horizon pointer attached to the narrowed candidate is therefore excluded from contextual activation.",
-    "The packet contains no connection records and no staged reader responses, Hermetic Focus Trace baseline/context-delta object, reader walks, wide reader walks, cross-run publication, or anchored channel-subchannel record; discovery is limited to the supplied word-analysis, focus branch, and four HFT records.",
-    "Legacy-unbound HFT records have exact focus coordinates and return through the focus words, so they are retained as attributed findings; their provenance is shown through qualified or exploratory epistemic status rather than treated as independent lexical proof.",
-    "No non-focus carrier or trigger is used, so all retained context_refs and connection_refs are empty."
+    "The packet has no semantic_obligations field or typed semantic-obligation IDs; all semantic_obligation_refs and exclusions are therefore empty.",
+    "The three QAC root-occurrence candidates are ledger_only and were retained only as accounted-for apparatus, not as findings.",
+    "The four HFT records are coordinate-consistent but legacy_unbound; their branch activations remain attributed with null gloss and facet fields.",
+    "No connection records or selected context units are supplied. Word-analysis forward and formula evidence is retained only within its supplied support boundary; no untyped external context activation was added."
   ]
 }
