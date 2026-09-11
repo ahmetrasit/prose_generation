@@ -1,0 +1,658 @@
+{
+  "schema_version": "commentary-v5-scope-discovery-v1",
+  "ayah_ref": "87:6",
+  "lane": "global",
+  "coverage_complete": true,
+  "candidate_decisions": [
+    {
+      "candidate_id": "cand_e6d4012b608286e5a7b3",
+      "decision": "accept",
+      "reason": "The trusted published claim is anchored to the focus n-s-y occurrence and matches the accepted abandonment branch. Supplied cross-surah evidence at 20:126 and 9:67 independently returns the focus to enacted neglect, so the complete candidate is retained.",
+      "finding_refs": ["global:entrusted-nonabandonment"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_3f69fe664e3deb0b6941",
+      "decision": "accept",
+      "reason": "Both split-root B001 records and the focus n-s-y B001 record are carried by exact focus occurrences. The supplied 75:17 gathering-and-recitation parallel and 20:52 preservation parallel provide independent global triggers, so the three branch contributions remain together as one retention mechanism.",
+      "finding_refs": ["global:gathered-recitation-retention"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_ca18e6975302e7c419ae",
+      "decision": "reject",
+      "reason": "The B003 carrier is present at the focus, but its supplied chaff/refuse and persistence triggers are only host-surah context at 87:5 and 87:17. No wider connection or other global trigger returns through the focus, so the reading belongs to macro context rather than this global lane.",
+      "finding_refs": [],
+      "branch_exclusions": [
+        {
+          "branch_ref": "root_001501/B003",
+          "reason": "The branch's discard/residue change is activated only by host-surah cues 87:5 and 87:17; the packet supplies no independent wider trigger for a global activation."
+        }
+      ],
+      "facet_exclusions": [],
+      "context_exclusions": [
+        {
+          "context_ref": "87:5",
+          "reason": "The chaff/refuse cue is host-surah context and does not provide a wider global return through the focus."
+        },
+        {
+          "context_ref": "87:17",
+          "reason": "The persistence cue is host-surah context and does not independently activate the discarded-thing branch in the global lane."
+        }
+      ],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_55a68de6829e3f29fc32",
+      "decision": "narrow",
+      "reason": "The q-r reading/teaching branch and the tongue-mention branch meet the focus verb and the later reminder relation, with 96:3 supplying an independent global reading trigger. The split-root alternative whose exact gloss is appointed time or cycle does not contribute to this teaching-to-reminder claim and is excluded here.",
+      "finding_refs": ["global:recitation-for-reminder"],
+      "branch_exclusions": [
+        {
+          "branch_ref": "root_001211/B002",
+          "reason": "Its exact supplied gloss is appointed time or cycle, while this candidate's evidence establishes preparation for voiced reminder and supplies no independent timing mechanism for that claim."
+        }
+      ],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_e3be030e742fb9f23224",
+      "decision": "narrow",
+      "reason": "The oral-written preservation portion has independent written-record triggers at 85:22 and 96:4 and is retained. The chaff/refuse portion is the host-only B003 reading and is explicitly omitted from this global finding.",
+      "finding_refs": ["global:oral-written-continuity"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [
+        {
+          "context_ref": "87:5",
+          "reason": "The chaff/refuse cue has no independent wider trigger in this candidate; the retained core is the oral-written preservation relation."
+        }
+      ],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_462562fb55188504a423",
+      "decision": "represented",
+      "reason": "Its gathered-speech-against-loss claim is an exact semantic duplicate of the retained finding for cand_3f69fe664e3deb0b6941; that finding already carries the focus q-r and n-s-y branches and the same preservation mechanism.",
+      "finding_refs": ["global:gathered-recitation-retention"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_34d797ea193a7c66b650",
+      "decision": "accept",
+      "reason": "The reader walk supplies a contained analogy with a focus q-r carrier, the supplied opening mercy/womb and originating cues, and an external mercy-and-teaching contact. It changes the image of retention without requiring a literal gestational claim, so it is retained as exploratory analogical evidence.",
+      "finding_refs": ["global:carried-recitation"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_28118d572fb0a8709daf",
+      "decision": "represented",
+      "reason": "Its claim that preservation reaches beyond mental lapse into entrusted abandonment is an exact semantic duplicate of the retained abandonment finding for cand_e6d4012b608286e5a7b3.",
+      "finding_refs": ["global:entrusted-nonabandonment"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_a1848672c5f0c79febb8",
+      "decision": "accept",
+      "reason": "The collected-cycles claim has an independent staged-recitation trigger at 25:32 and concrete host cues of measure and ease at 87:2, 87:3, and 87:8. The temporal reading is retained with an exploratory boundary rather than treated as a fixed timetable.",
+      "finding_refs": ["global:staged-teaching"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_55f864d2655cbbefc500",
+      "decision": "narrow",
+      "reason": "The social reminder-relay portion is independently returned through 84:21's audience scene and the supplied 87:9-10 reminder context. The written-sheets portion is the archival relation retained under cand_e3be030e742fb9f23224 and is omitted here.",
+      "finding_refs": ["global:social-reminder-relay"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [
+        {
+          "context_ref": "87:18",
+          "reason": "The written-sheets cue belongs to the separate oral-written preservation finding and is not part of this social-relay core."
+        },
+        {
+          "context_ref": "87:19",
+          "reason": "The written-sheets cue belongs to the separate oral-written preservation finding and is not part of this social-relay core."
+        }
+      ],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_e82ce6dda611b2ce5251",
+      "decision": "represented",
+      "reason": "Its wide-context gathered-speech claim is an exact semantic duplicate of the retained finding for cand_3f69fe664e3deb0b6941; the target finding preserves both split-root gathering branches and their return through the focus.",
+      "finding_refs": ["global:gathered-recitation-retention"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_19bcaf69704dccdb7d96",
+      "decision": "represented",
+      "reason": "Its abandonment reading is an exact duplicate of the retained n-s-y B002 finding for cand_e6d4012b608286e5a7b3; the target finding carries the same action-level and entrusted-charge relation.",
+      "finding_refs": ["global:entrusted-nonabandonment"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_7bf3a079bfddeb5ce2e7",
+      "decision": "accept",
+      "reason": "Both supplied q-r B005 alternatives receive distinct external triggers: 25:32 activates staged appointed delivery, while 73:4 activates measured manner or pattern. The local causative recitation sense remains intact, so the full candidate is retained as exploratory coexisting facets.",
+      "finding_refs": ["global:staged-recurrence-pattern"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_31d9172c1eaeb0a3f8e5",
+      "decision": "represented",
+      "reason": "Its retrospective active-neglect reading is an exact semantic duplicate of the retained abandonment finding for cand_e6d4012b608286e5a7b3; the target finding includes the entrusted-charge facet and the 87:11 action cue.",
+      "finding_refs": ["global:entrusted-nonabandonment"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_408fc21ae6779d6e7578",
+      "decision": "reject",
+      "reason": "The legacy-unbound HFT summary asserts an engineered recitative capacity but supplies no anchor evidence, focus word coordinate, independent trigger, or focus return. Its summary payload therefore cannot establish a retained global finding.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_7edcde3c3884a5b261e2",
+      "decision": "reject",
+      "reason": "The legacy-unbound HFT summary about exception and governed disclosure has empty anchor evidence and no supplied carrier, trigger, or focus-return trace for 87:6, so the claim cannot be activated in the global lane.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_7d52e53c375fe301c2f8",
+      "decision": "reject",
+      "reason": "The legacy-unbound HFT social-relay summary has no anchor evidence or exact focus-return coordinate. Related reader-walk material is reviewed under the separately anchored social-reminder candidate, so this anchorless HFT record cannot establish its own finding.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_5a020095d424e46d7d7d",
+      "decision": "reject",
+      "reason": "The legacy-unbound HFT temporal and scroll summary has no supplied anchor, carrier occurrence, independent trigger, or focus return. Its broad cross-media assertion therefore remains unactivated.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_3cd12b106cd0ad244b3b",
+      "decision": "reject",
+      "reason": "The legacy-unbound HFT inventory summary combines several mechanisms and explicitly arrives without anchor evidence. Because it names no exact carrier, independent trigger, or focus return, it cannot be retained as a global finding or thesis.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_9d7e943ffbdd1f14c76c",
+      "decision": "reject",
+      "reason": "This HFT record is an unanchored uncertainty about fa-la's force, not an activated semantic relation. It supplies no carrier, independent trigger, changed reading, or focus return.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_658c4d8780642de3bb0e",
+      "decision": "reject",
+      "reason": "The HFT distance statement only reports that several branches are remote and supplies no activated branch, carrier, trigger, or focus-return trace. It is a qualification record rather than a retainable global reading.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_b3e023b677e17cbf003b",
+      "decision": "reject",
+      "reason": "The HFT suggestion about a permitted lapse in 87:7 has no exact focus-word or root coordinate and no supplied contact returning to 87:6. The stated uncertainty cannot activate a global finding.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_4ef9d2364ae6666a50b4",
+      "decision": "reject",
+      "reason": "The HFT record labels the ecological, practice-loop, temporal-salience, and cross-media arrows as reader-supplied abductions but provides no exact anchor or focus-return trace. Those broad relations cannot be activated by this record alone.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    }
+  ],
+  "findings": [
+    {
+      "finding_ref": "global:entrusted-nonabandonment",
+      "origin_candidate_id": "cand_e6d4012b608286e5a7b3",
+      "represented_candidate_ids": [],
+      "title": "Retention as protection from entrusted abandonment",
+      "claim": "The focus promise can also describe the received recitation as being kept from deliberate abandonment: the recitation is delivered, and the entrusted word remains in use rather than being left aside.",
+      "mechanism": "The focus n-s-y form is the carrier. The supplied 20:126 and 9:67 scenes provide independent cases where forgetting functions as leaving received signs or an entrusted relation, so the focus negation changes the result from memory-only protection to continued keeping of a charge.",
+      "reader_payoff": "The promise covers what happens to received material after it has been given: it stays active in conduct, not merely present in recollection.",
+      "containment": "The ordinary promise about not forgetting remains intact; this added ethical and behavioral sense concerns the use of the received recitation and does not claim that every forgetting occurrence means deliberate abandonment.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": ["trusted"],
+        "reason": "A trusted publication and an accepted focus branch ground the claim; the external connection cards supply exact target surfaces but omit target morphology, so the cross-ayah reinforcement remains qualified."
+      },
+      "support_ids": ["sup_11cffd5a65531d48dc43"],
+      "branch_activations": [
+        {
+          "branch_ref": "root_001501/B002",
+          "facet_id": "F001",
+          "branch_gloss": "bilerek bırakma ve yerine getirmeme",
+          "facet_statement": "Bir şey unutma sözüyle anlatılsa da asıl işlem onu bilerek bırakmak ve sürdürmemektir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["87:6:3:1"],
+          "trigger_refs": ["20:126", "conn_ev_cc38d08d0db465fac6b4"],
+          "focus_return_refs": ["87:6:3:1"],
+          "carrier": "The focus n-s-y form carries the action of leaving or neglecting what has been received.",
+          "independent_trigger": "The supplied 20:126 surface and its authored relation note connect forgetting received signs with accountable neglect.",
+          "activation": "The external scene gives the focus form an action-level counterpart: what is forgotten can be treated as what has been left aside, so the focus negation protects continuation.",
+          "resulting_reading": "The promise keeps the received recitation from becoming an abandoned charge as well as from disappearing from memory.",
+          "boundary": "This is a behavior-level extension of the focus promise, not a claim that the focus reproduces every meaning of the external occurrence."
+        },
+        {
+          "branch_ref": "root_001501/B002",
+          "facet_id": "F002",
+          "branch_gloss": "bilerek bırakma ve yerine getirmeme",
+          "facet_statement": "Bırakılan şey bir söz, buyruk, yükümlülük veya yapılması gereken iş olabilir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["87:6:3:1"],
+          "trigger_refs": ["9:67", "conn_ev_84c6f8343763bff48ab2", "87:11", "6:44", "conn_ev_b265c400ebcb0386bbeb"],
+          "focus_return_refs": ["87:6:3:1"],
+          "carrier": "The negated focus form applies to the recited material implied by the preceding promise.",
+          "independent_trigger": "The supplied 9:67 and 6:44 relation cards model forgetting as enacted abandonment, while 87:11 supplies an active move to set the reminder aside.",
+          "activation": "The entrusted-word specialization meets the focus when a received reminder can be either kept in use or deliberately moved aside; the negation protects the former continuity.",
+          "resulting_reading": "The recitation remains an active word or charge rather than becoming something deliberately left unused.",
+          "boundary": "The focus does not assert the reciprocal divine consequence in 9:67; only the supplied action-level abandonment facet is carried here."
+        }
+      ],
+      "connection_refs": ["conn_38acd90da8bc6299f388", "conn_4ab7b11810bad9f5ccc4", "conn_e229f56ba1107dc583cf"],
+      "context_refs": ["20:126", "9:67", "87:11", "6:44"],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:gathered-recitation-retention",
+      "origin_candidate_id": "cand_3f69fe664e3deb0b6941",
+      "represented_candidate_ids": [],
+      "title": "Gathered recitation secured against loss",
+      "claim": "The causative recitation gathers the received speech into an ordered whole, and the negated forgetting keeps that whole available as durable verbal memory.",
+      "mechanism": "The focus q-r form supplies the gathering and recitation carriers, while the focus n-s-y form supplies the loss-of-recall carrier. The separate 75:17 gathering-and-recitation surface and 20:52 preservation surface return those carriers to the focus and make the relation more than a shared morphology.",
+      "reader_payoff": "Recitation becomes an active formation of durable verbal order: the promise concerns how speech is made retainable, not only whether a lapse will occur.",
+      "containment": "The local Form IV causative reading remains the plain foundation; gathering describes what the enabled recitation does, and preservation describes its joined effect rather than replacing the direct promise.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": ["legacy_unbound"],
+        "reason": "The exact focus carriers and supplied branch glosses support the relation, but the originating reader walk is legacy-unbound and the external target morphology is not supplied."
+      },
+      "support_ids": ["sup_b7544085f9e6bfe7fa61"],
+      "branch_activations": [
+        {
+          "branch_ref": "root_001210/B001",
+          "facet_id": "SOURCE_IMAGE",
+          "branch_gloss": "collecting and gathering",
+          "facet_statement": "collecting and gathering",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["87:6:1:2"],
+          "trigger_refs": ["75:17", "conn_ev_2694f8a1d7e03e0c9951"],
+          "focus_return_refs": ["87:6:1:2"],
+          "carrier": "The focus q-r verb carries the action of bringing speech together through enabled recitation.",
+          "independent_trigger": "The supplied 75:17 surface joins gathering and recitation in a separate preservation-related scene.",
+          "activation": "The external gathering-recitation relation meets the focus verb, so the act of making the addressee recite can be perceived as assembling speech into a whole.",
+          "resulting_reading": "The promised recitation forms an ordered verbal whole that can remain available.",
+          "boundary": "The local verb is still causative recitation; the broader gathering image is not a claim about an unexpressed object or a separate grammatical construction."
+        },
+        {
+          "branch_ref": "root_001211/B001",
+          "facet_id": "SOURCE_IMAGE",
+          "branch_gloss": "gathering speech into recitation",
+          "facet_statement": "gathering speech into recitation",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["87:6:1:2"],
+          "trigger_refs": ["75:17", "conn_ev_2694f8a1d7e03e0c9951"],
+          "focus_return_refs": ["87:6:1:2"],
+          "carrier": "The focus q-r form carries speech into recitation as a gathered whole.",
+          "independent_trigger": "The separate 75:17 wording supplies gathering joined directly to Quranic recitation.",
+          "activation": "The speech-specific gathering facet explains how enabled recitation becomes a repeatable verbal whole in the focus.",
+          "resulting_reading": "The focus promises not merely delivery but speech gathered into a form that can be retained.",
+          "boundary": "This does not turn the focus into a quotation of 75:17 or settle every possible q-r branch."
+        },
+        {
+          "branch_ref": "root_001501/B001",
+          "facet_id": "F001",
+          "branch_gloss": "hatırdan çıkma veya akılda tutmayı bırakma",
+          "facet_statement": "Daha önce hatırda bulunan şey zihinde hazır olmaktan çıkar ve kişi onu anamaz.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["87:6:3:1"],
+          "trigger_refs": ["20:52", "conn_ev_f98c264b5f78eabab2dd"],
+          "focus_return_refs": ["87:6:3:1"],
+          "carrier": "The negated focus n-s-y form carries the loss-of-recall consequence that the promise prevents.",
+          "independent_trigger": "The supplied 20:52 surface and relation note provide a separate preservation counterpart for non-forgetting.",
+          "activation": "The loss-of-recall facet meets the gathering carrier: once speech is assembled as recitation, the negation keeps that assembled whole from leaving mental availability.",
+          "resulting_reading": "Divinely enabled recitation becomes a means of durable verbal memory.",
+          "boundary": "The branch remains the memory facet; it does not absorb the distinct abandonment branch retained elsewhere."
+        }
+      ],
+      "connection_refs": ["conn_b5e1a1878c1af9b82fbf", "conn_303eb1316b21d09e59a9"],
+      "context_refs": ["75:17", "20:52"],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:recitation-for-reminder",
+      "origin_candidate_id": "cand_55a68de6829e3f29fc32",
+      "represented_candidate_ids": [],
+      "title": "Recitation prepared for voiced reminder",
+      "claim": "The promised recitation equips the addressee to voice a reminder: material made reliably recitable in the focus can enter the later act of mention on the tongue.",
+      "mechanism": "The focus q-r reading-and-teaching carrier is returned by the separate reading command at 96:3, while the supplied 87:9 and 87:15 context occurrences carry the later tongue-mention relation. Their contact changes recitation from an isolated transfer into material prepared for public reminder.",
+      "reader_payoff": "The reader can see why the promise matters for the next act of reminder: reliable reception supplies the words that can later be voiced to another.",
+      "containment": "The focus still says that the addressee will be made to recite and will not forget; the teaching-to-reminder relation adds a downstream use without claiming that the focus itself contains the later reminder word.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": ["legacy_unbound"],
+        "reason": "The focus carrier, later context references, and supplied external reading command form a concrete relation, but the reader-walk source is legacy-unbound and the context word morphology is not separately supplied."
+      },
+      "support_ids": ["sup_d2932fce42fe9e2a40e2"],
+      "branch_activations": [
+        {
+          "branch_ref": "root_001210/B002",
+          "facet_id": "SOURCE_IMAGE",
+          "branch_gloss": "reading, reciting, and teaching recitation",
+          "facet_statement": "reading, reciting, and teaching recitation",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["87:6:1:2"],
+          "trigger_refs": ["96:3", "conn_ev_be891f8e5ec37bb4e70b"],
+          "focus_return_refs": ["87:6:1:2"],
+          "carrier": "The focus q-r form carries divinely enabled recitation and teaching to the 2ms addressee.",
+          "independent_trigger": "The supplied 96:3 surface provides a separate command to read, returning through the focus's recitation carrier.",
+          "activation": "The reading-and-teaching facet meets the focus's causative form, making the promised recitation intelligible as preparation for words that can be voiced again.",
+          "resulting_reading": "The recitation promise becomes an enabling stage for later reminder.",
+          "boundary": "No claim is made that 96:3 supplies the same local grammar or that the focus's recited object is explicitly named."
+        },
+        {
+          "branch_ref": "root_000516/B004",
+          "facet_id": "SOURCE_IMAGE",
+          "branch_gloss": "mention on the tongue",
+          "facet_statement": "mention on the tongue",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["87:9", "87:15"],
+          "trigger_refs": ["96:3", "conn_ev_be891f8e5ec37bb4e70b"],
+          "focus_return_refs": ["87:6:1:2"],
+          "carrier": "The supplied later context occurrences carry reminder as voiced mention on the tongue.",
+          "independent_trigger": "The external 96:3 reading command makes the vocal relay from recitation to voiced reminder concrete.",
+          "activation": "The tongue-mention carrier contacts the focus q-r recitation through the supplied later reminder sequence, so retained material can move from receiver to speech.",
+          "resulting_reading": "The focus preserves a recitation that can be reactivated as spoken reminder.",
+          "boundary": "The focus surface has no supplied dhikr root occurrence; the branch is a context carrier returning through the focus q-r word, not a claim of local morphological identity."
+        }
+      ],
+      "connection_refs": ["conn_89e97c4845eec1b3a8bc"],
+      "context_refs": ["87:9", "87:15", "96:3"],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:oral-written-continuity",
+      "origin_candidate_id": "cand_e3be030e742fb9f23224",
+      "represented_candidate_ids": [],
+      "title": "Oral preservation alongside written preservation",
+      "claim": "The promise that the addressee will not forget can be seen as oral preservation alongside written preservation: recitation keeps the received words available in the voice while sheets keep them available on a material surface.",
+      "mechanism": "The focus q-r recitation carrier is connected to the supplied 87:18-19 sheets by the external preserved-tablet surface at 85:22 and the pen-mediated surface at 96:4. The independent written carriers change the focus promise into a paired oral-and-material continuity image.",
+      "reader_payoff": "Retention is perceptible across two media: a voice can preserve what a written surface preserves, while the focus remains an event of recitation.",
+      "containment": "The packet does not establish a historical chain or equality between oral and written media; it supplies a contained parallel of preservation, with the host chaff cue intentionally left outside this global core.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": ["legacy_unbound"],
+        "reason": "The retrospective support supplies the host written-sheets change and the connection registry supplies exact external written surfaces, but the reader-walk source is legacy-unbound and target morphology is unavailable."
+      },
+      "support_ids": ["sup_fa14a58c331553506527"],
+      "branch_activations": [
+        {
+          "branch_ref": "root_001210/B002",
+          "facet_id": "SOURCE_IMAGE",
+          "branch_gloss": "reading, reciting, and teaching recitation",
+          "facet_statement": "reading, reciting, and teaching recitation",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["87:6:1:2"],
+          "trigger_refs": ["87:18", "87:19", "85:22", "conn_2d4d6e48448b059a65c4", "96:4", "conn_ev_659967cb96ecf800870f"],
+          "focus_return_refs": ["87:6:1:2"],
+          "carrier": "The focus q-r form carries recitation as voiced access to received material.",
+          "independent_trigger": "The supplied 87:18-19 sheets are joined by the external preserved-tablet surface at 85:22 and the pen-mediated surface at 96:4.",
+          "activation": "Written preservation gives the focus's retained recitation a separate material counterpart, so the oral promise can be perceived as continuity across voice and surface.",
+          "resulting_reading": "The focus presents durable reception in the voice while remaining compatible with preservation in written sheets.",
+          "boundary": "This is a preservation parallel, not a claim that the focus names sheets, a pen, or a documentary transmission history."
+        }
+      ],
+      "connection_refs": ["conn_2d4d6e48448b059a65c4", "conn_1db0c13690bc3bdc9a0a"],
+      "context_refs": ["87:18", "87:19", "85:22", "96:4"],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:carried-recitation",
+      "origin_candidate_id": "cand_34d797ea193a7c66b650",
+      "represented_candidate_ids": [],
+      "title": "A contained image of carried recitation",
+      "claim": "The act of being made to recite can also be pictured as carrying revelation until it is ready to be uttered: the focus's recitation receives material, while the opening womb-and-origin imagery supplies the vessel-like frame.",
+      "mechanism": "The focus q-r verb is the carrier. The supplied opening context at 87:0 and 87:2 provides the womb-and-origin frame, and the external 18:65 card adds a separate mercy-and-teaching contact. Their contact changes the promise from a bare hearing event into a contained image of retained material brought forth in speech.",
+      "reader_payoff": "Retention becomes something the addressee carries until utterance, allowing the promise to be felt as held and brought forth rather than merely heard and repeated.",
+      "containment": "This remains an analogy only: no literal pregnancy, biological process, or unavailable q-r womb branch is asserted. The direct promise of enabled recitation and non-forgetting remains the ground.",
+      "epistemic": {
+        "status": "exploratory",
+        "source_trust": ["legacy_unbound"],
+        "reason": "The reader walk supplies a concrete focus/context analogy and an external mercy-and-teaching contact, but the source is legacy-unbound and no independent q-r womb branch record is supplied."
+      },
+      "support_ids": ["sup_6bfeaec17a2fba1618b2"],
+      "branch_activations": [
+        {
+          "branch_ref": null,
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "analogical",
+          "carrier_refs": ["87:6:1:2"],
+          "trigger_refs": ["87:0", "87:2", "18:65", "conn_ev_777dffb071a2275bfb86"],
+          "focus_return_refs": ["87:6:1:2"],
+          "carrier": "The focus q-r form carries receiving and retaining speech through enabled recitation.",
+          "independent_trigger": "The supplied earlier context pairs mercy/womb and originating imagery, while the external 18:65 card supplies a separate mercy-and-teaching scene.",
+          "activation": "The vessel-and-bearing image meets the focus recitation carrier, so retained recitation can be imagined as something held and brought forth after preparation.",
+          "resulting_reading": "The promise includes carried retention until utterance, as a contained analogy alongside ordinary recitation and memory.",
+          "boundary": "The branch identity remains unresolved; no literal womb, biological claim, or unavailable lexical q-r womb branch is being asserted."
+        }
+      ],
+      "connection_refs": ["conn_2cea0258c7fee1b5a9d1"],
+      "context_refs": ["87:0", "87:2", "18:65"],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:staged-teaching",
+      "origin_candidate_id": "cand_a1848672c5f0c79febb8",
+      "represented_candidate_ids": [],
+      "title": "Paced teaching through collected occasions",
+      "claim": "The focus promise can be heard as paced pedagogy: recitation arrives through measured occasions, and the promised ease makes the sequence teachable.",
+      "mechanism": "The focus q-r carrier is connected to the appointed-time and cycle branch by the host measure/ease cues at 87:2 and 87:8 and by the separate staged-recitation surface at 25:32. The relation changes a single future transfer into a possible ordered course of reception.",
+      "reader_payoff": "The future promise can feel like an organized curriculum whose delivery is spaced and made bearable, while the direct assurance remains visible.",
+      "containment": "The packet does not establish a fixed timetable or convert the promise into a calendar. The 25:32 connection is also boundary evidence against overreading recurring teaching, so the temporal reading remains exploratory.",
+      "epistemic": {
+        "status": "exploratory",
+        "source_trust": ["legacy_unbound"],
+        "reason": "The reader support names the cycle and measure relation, and 25:32 supplies a concrete staged-recitation surface, but the focus form locally selects causative recitation and the source is legacy-unbound."
+      },
+      "support_ids": ["sup_3e1bfa36434b291ca885"],
+      "branch_activations": [
+        {
+          "branch_ref": "root_001211/B002",
+          "facet_id": "SOURCE_IMAGE",
+          "branch_gloss": "appointed time or cycle",
+          "facet_statement": "appointed time or cycle",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["87:6:1:2"],
+          "trigger_refs": ["87:2", "87:3", "87:8", "25:32", "conn_ev_7e360eb14ab0c3406113"],
+          "focus_return_refs": ["87:6:1:2"],
+          "carrier": "The focus q-r verb carries the promised recitation as an event that can unfold for the addressee.",
+          "independent_trigger": "The supplied 25:32 surface presents measured, staged delivery, while 87:2, 87:3, and 87:8 supply the packet's measure and ease cues.",
+          "activation": "The cycle facet meets the future recitation carrier through staged delivery and measure, making a paced teaching sequence newly perceptible.",
+          "resulting_reading": "The recitation promise can be received as an ordered course whose successive occasions remain joined to non-forgetting.",
+          "boundary": "No fixed interval, calendar, or exclusive temporal meaning of the local verb is claimed."
+        },
+        {
+          "branch_ref": "root_001210/B005",
+          "facet_id": "SOURCE_IMAGE",
+          "branch_gloss": "appointed time arriving or being delayed",
+          "facet_statement": "appointed time arriving or being delayed",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["87:6:1:2"],
+          "trigger_refs": ["87:2", "87:8", "25:32", "conn_ev_7e360eb14ab0c3406113"],
+          "focus_return_refs": ["87:6:1:2"],
+          "carrier": "The focus future form carries an enabled recitation that is yet to arrive for the addressee.",
+          "independent_trigger": "The staged-recitation surface at 25:32 supplies a separate arrival-in-portions and measured-delivery frame.",
+          "activation": "The appointed-arrival facet contacts the future prefix and the staged external delivery, so the promise can be heard as arriving through teachable occasions.",
+          "resulting_reading": "Recitation may unfold by measured arrival rather than as one undifferentiated transfer.",
+          "boundary": "This does not claim delay, failure, or a predetermined schedule in the focus wording."
+        }
+      ],
+      "connection_refs": ["conn_7d6a0377e4784fa5e234"],
+      "context_refs": ["87:2", "87:3", "87:8", "25:32"],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:social-reminder-relay",
+      "origin_candidate_id": "cand_55f864d2655cbbefc500",
+      "represented_candidate_ids": [],
+      "title": "Recitation entering a social reminder relay",
+      "claim": "The preserved recitation moves beyond the private addressee into a social relay: what is kept in the focus becomes a reminder that another person can hear and remember.",
+      "mechanism": "The focus q-r recitation carrier is connected to the supplied 87:9-10 reminder and recollection context, while 84:21 supplies a separate audience scene in which the Quran is recited to others. The contact changes retention from a private possession into a possible movement from giver to hearer.",
+      "reader_payoff": "The preserved words acquire a public path: the focus's non-forgetting now explains how reminder can travel to another listener without leaving the original promise behind.",
+      "containment": "This does not claim that every listener responds or that a surah-wide social system has been established. The written-sheets relation is separately retained, and this finding stays with the voiced reminder relay.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": ["legacy_unbound"],
+        "reason": "The retrospective support names the reminder change and 84:21 supplies an audience surface, but the reader-walk source is legacy-unbound and target morphology is not supplied."
+      },
+      "support_ids": ["sup_d97c42a55586fc91d820"],
+      "branch_activations": [
+        {
+          "branch_ref": "root_001210/B002",
+          "facet_id": "SOURCE_IMAGE",
+          "branch_gloss": "reading, reciting, and teaching recitation",
+          "facet_statement": "reading, reciting, and teaching recitation",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["87:6:1:2"],
+          "trigger_refs": ["87:9", "87:10", "84:21", "conn_ev_4f38237dc49aeb4d3976"],
+          "focus_return_refs": ["87:6:1:2"],
+          "carrier": "The focus q-r form carries received speech from divine enabling into recitation by the addressee.",
+          "independent_trigger": "The supplied 87:9-10 reminder sequence and 84:21 audience surface provide separate downstream hearer and recollection conditions.",
+          "activation": "The audience condition meets the preserved recitation carrier, so the focus can be perceived as the first link in a reminder relay.",
+          "resulting_reading": "Non-forgetting protects words that can be voiced to another and become recollection beyond the initial recipient.",
+          "boundary": "No universal audience response, communal institution, or written-medium claim is being added."
+        }
+      ],
+      "connection_refs": ["conn_71103c56b325cf867dc8"],
+      "context_refs": ["87:9", "87:10", "84:21"],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:staged-recurrence-pattern",
+      "origin_candidate_id": "cand_7bf3a079bfddeb5ce2e7",
+      "represented_candidate_ids": [],
+      "title": "Staged recurrence and patterned manner",
+      "claim": "The future promise can also remain open as staged recurrence: recitation is delivered across appointed occasions, and its manner can be patterned and measured rather than arriving as an undifferentiated event.",
+      "mechanism": "The focus future prefix and q-r carrier meet the external staged-delivery surface at 25:32 for the appointed-time branch, while the measured-recitation surface at 73:4 independently returns through the same carrier for the patterned-manner branch. The two contacts preserve distinct temporal and delivery-form changes within one exploratory candidate.",
+      "reader_payoff": "The future tense can be felt as an unfolding practice with recurring occasions and a recognizable manner of delivery, not only as a single future event.",
+      "containment": "The local form still says that divine enabling will make the addressee recite; these temporal and patterned readings remain exploratory, do not impose a timetable, and do not equate the recitation with poetry.",
+      "epistemic": {
+        "status": "exploratory",
+        "source_trust": ["legacy_unbound"],
+        "reason": "Both exact q-r branch alternatives have concrete external staging or measured-manner triggers, but the source is legacy-unbound and the local form primarily supports causative recitation."
+      },
+      "support_ids": ["sup_ae95c38419c8cb77db84"],
+      "branch_activations": [
+        {
+          "branch_ref": "root_001210/B005",
+          "facet_id": "SOURCE_IMAGE",
+          "branch_gloss": "appointed time arriving or being delayed",
+          "facet_statement": "appointed time arriving or being delayed",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["87:6:1:2"],
+          "trigger_refs": ["87:6:1:1", "25:32", "conn_ev_7e360eb14ab0c3406113"],
+          "focus_return_refs": ["87:6:1:2"],
+          "carrier": "The focus future-plus-q-r form carries a recitation that is promised to arrive for the addressee.",
+          "independent_trigger": "The supplied 25:32 surface presents revelation delivered in measured portions, independently activating an arrival-through-occasions image.",
+          "activation": "The future prefix and staged external delivery meet the appointed-time branch, so the recitation promise can be heard as recurring arrival while remaining one promise.",
+          "resulting_reading": "Non-forgetting can accompany recitation delivered across appointed occasions.",
+          "boundary": "No fixed schedule, delay, or exclusive time meaning is claimed for the local form."
+        },
+        {
+          "branch_ref": "root_001211/B005",
+          "facet_id": "SOURCE_IMAGE",
+          "branch_gloss": "poetic pattern or manner",
+          "facet_statement": "poetic pattern or manner",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["87:6:1:2"],
+          "trigger_refs": ["73:4", "conn_ev_b4e3b1aaf1b962ad3e6f"],
+          "focus_return_refs": ["87:6:1:2"],
+          "carrier": "The focus q-r form carries recitation as a voiced act whose manner can be perceived.",
+          "independent_trigger": "The supplied 73:4 surface commands measured recitation, providing an external manner-of-delivery trigger.",
+          "activation": "The measured-delivery trigger meets the poetic-pattern-or-manner branch, so the future recitation can be perceived as having a repeatable form without changing its recipient-side action.",
+          "resulting_reading": "The promised recitation may unfold in a patterned, measured manner as well as across occasions.",
+          "boundary": "The branch does not assert poetry, poetic authorship, or that the focus's primary form is a poetic noun."
+        }
+      ],
+      "connection_refs": ["conn_7d6a0377e4784fa5e234", "conn_f56197d97ae2f35d22a3"],
+      "context_refs": ["25:32", "73:4"],
+      "semantic_obligation_refs": []
+    }
+  ],
+  "friction_notes": [
+    "focus_word_alignment resolves all four word-analysis units with no unresolved join; the focus surface locally selects causative recitation and negated loss or neglect.",
+    "The packet contains no selected canonical context units. Non-focus contexts are used only when named by supplied support or an exact connection, and connection target morphology is unavailable, so cross-ayah activations remain qualified.",
+    "The nine legacy_unbound HFT records have empty anchor_evidence and no exact word, root, independent-trigger, or focus-return trace; all were reviewed and rejected rather than treated as findings.",
+    "The chaff/refuse candidate was excluded from the global lane because its activation is host-surah-only. The retained gestational and temporal relations remain exploratory because their branch identity or local-form fit is unresolved or distant.",
+    "Connection retrieval labels and reciprocal notes were treated as nominations rather than decisions; the staged-recitation boundary at 25:32 remains visible in the temporal finding."
+  ]
+}

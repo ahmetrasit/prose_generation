@@ -1,0 +1,663 @@
+{
+  "schema_version": "commentary-v5-scope-discovery-v1",
+  "ayah_ref": "87:11",
+  "lane": "global",
+  "coverage_complete": true,
+  "candidate_decisions": [
+    {
+      "candidate_id": "cand_0d509b397562a5e8b93f",
+      "decision": "accept",
+      "reason": "87:11:1'deki kaçınma taşıyıcısı B001, B002 ve B003 dallarıyla birlikte yakınlık ile yana çekilme arasındaki bağı kurar; bağımsız hatırlatma bağlantıları adayın tam anlam değişikliğini destekler.",
+      "finding_refs": ["global:deliberate-proximity"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_ccfacf9c0bd9a70869f6",
+      "decision": "accept",
+      "reason": "B003'teki etkin yana çekilme, 87:12-13'ün ateş ve askıda kalma dizisiyle ve bağımsız bağlantı kayıtlarıyla sıkıntıya yönelen bir rota olarak değişir; B003 ve B002 eksiksiz indirilmiştir.",
+      "finding_refs": ["global:adverse-course"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_6d3aec35096d941069bc",
+      "decision": "accept",
+      "reason": "B011 taşıyıcısı odak hareketiyle ve sonraki ateş/korumadan çıkış tetikleyicileriyle gerçek temas kurar; kaynak satırının reject etiketi otomatik karar sayılmayıp çıkarımsal sınır olarak korunmuştur.",
+      "finding_refs": ["global:shield-exposure"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_4c0a3330ffb224550991",
+      "decision": "accept",
+      "reason": "B003'ün karşılıklı üstün gelme ve B004'ün yükselen dağ sırtı dalları, 87:1'in yükseklik ölçeği ve 91:12'nin fail bağlantısıyla buluşur; published reject etiketi qualified epistemik sınır olarak kaydedilmiştir.",
+      "finding_refs": ["global:false-ascent"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_9a3d35b26d06bfe27696",
+      "decision": "accept",
+      "reason": "B008'in süt azalması dalı, paketteki önceki bakım ve otlak bağlamıyla temas ederek kaçınmayı besleyici düzenden dışarı çekilme olarak değiştirir; ilişki qualified bağlamsal yankı olarak tutulmuştur.",
+      "finding_refs": ["global:ecological-deprivation"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_e291abdbddac42756846",
+      "decision": "represented",
+      "reason": "Lateral self-removal ve kaçınmanın sıkıntıya açılan yönü global:adverse-course bulgusunun B003 taşıyıcısı ve sonuç tetikleyicileriyle birebir taşınmaktadır.",
+      "finding_refs": ["global:adverse-course"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_24235cef0dc0375ec4e1",
+      "decision": "accept",
+      "reason": "B001'in yan/böğür konumu, 87:3 ve 87:8'deki yönlendirilmiş ve kolaylaştırılmış kursla temas ederek genel yakınlık kopuşundan ayrı bir yol geometrisi payoff'ı üretir.",
+      "finding_refs": ["global:lateral-path"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_935b5cc6cfc3b1a62e31",
+      "decision": "represented",
+      "reason": "Kayıtlı B003 çekirdeğiyle kurulan zorlu karşı-tırmanış iddiası global:false-ascent bulgusuyla aynı semantik okumadır; çözümlenmemiş ع ل و/B001 alıntısı ayrı bir dal olarak etkinleştirilmemiştir.",
+      "finding_refs": ["global:false-ascent"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_c4ba2645ba8dac6b6dd0",
+      "decision": "reject",
+      "reason": "Retrospektif kayıt, 87:12 ve 87:8'in iki ayrı etkinleştirilmiş okumayı belirginleştirdiği zamanı bildirir; bunlara yeni bir semantik ilişki veya bağımsız reader payoff eklemez.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_cdcbc982754d26e790cb",
+      "decision": "represented",
+      "reason": "Hatırlatmadan yana hareket etme ve bunun sıkıntı yönüne açılması global:adverse-course bulgusundaki aynı B003 taşıyıcısı ve ateş/sıkıntı temasında korunmaktadır.",
+      "finding_refs": ["global:adverse-course"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_f60a07aea39353e4aa9a",
+      "decision": "represented",
+      "reason": "Yakındaki hatırlatmadan kaçınmayı başarısız yakınlık olarak okuyan kayıt global:deliberate-proximity bulgusunun B002 ve B003 temasının exact duplicate'idir.",
+      "finding_refs": ["global:deliberate-proximity"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_d97d9075cbd99c9aa8e5",
+      "decision": "represented",
+      "reason": "Karşılıklı sıkıntı uğraşı ve sahte yükseliş okuması global:false-ascent bulgusunun kayıtlı B003/B004 çekirdeğiyle aynıdır.",
+      "finding_refs": ["global:false-ascent"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_78a8fc9121e875904076",
+      "decision": "represented",
+      "reason": "Bakım ve beslenme düzeninin dışına çıkma okuması global:ecological-deprivation bulgusundaki B008 süt-kıtlığı ilişkisinin exact duplicate'idir.",
+      "finding_refs": ["global:ecological-deprivation"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_de4731196ee30e91890d",
+      "decision": "accept",
+      "reason": "Bu retrospektif kayıt, adverse-course sonucundan ayrı bir before/after ilişkisi kurar: 87:12-13 askıda sıkıntıyı, 87:16 ise yakın hayat tercihinin kaçınma hareketindeki yönünü görünür kılar.",
+      "finding_refs": ["global:preference-suspended-state"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_8b8cdb7341e501fff6a7",
+      "decision": "represented",
+      "reason": "Etkin uzamsal kendini yönlendirme ve bunun zorluğa giden rota oluşu global:adverse-course bulgusundaki B003 ve ş-q-w B002 çekirdeğiyle aynıdır.",
+      "finding_refs": ["global:adverse-course"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_0a467013e8b74d435fc5",
+      "decision": "represented",
+      "reason": "Yakınlık ile geri çekilmenin aynı biçimde yan yana gelmesi global:deliberate-proximity bulgusuyla birebir örtüşür.",
+      "finding_refs": ["global:deliberate-proximity"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_461c3f0f7c6f67622a21",
+      "decision": "represented",
+      "reason": "Yana alınan kalkanın ateş karşısında açığa çıkması global:shield-exposure bulgusunun B011 çekirdeğiyle exact duplicate'dir.",
+      "finding_refs": ["global:shield-exposure"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_50e697373608da182a2e",
+      "decision": "accept",
+      "reason": "Retrospektif B011/B002 kaydı, kalkanın açığa çıkmasına ek olarak 87:13'teki askıda sıkıntıya uzanan ikinci dönüşü kurar; iki dal ayrı etkinleştirmeyle korunmuştur.",
+      "finding_refs": ["global:shield-hardship-reversal"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_5ae97edc38515a1414f7",
+      "decision": "reject",
+      "reason": "Legacy-unbound HFT özeti anti-memory iddiasını bildirir, fakat pakette ayet/kelime indeksi, kök, atfedilen rol ve odağa dönüşü birlikte veren exact HFT trace veya anchor evidence yok; attributed etkinleştirme kurulamaz.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_51b0a3c454594d5b9b5b",
+      "decision": "reject",
+      "reason": "Guidance/easing karşı-yörüngesi yalnızca legacy-unbound HFT özetinde bulunur; exact carrier ve focus return koordinatı verilmediği için HFT rolü dışına taşan global dal doğrulanamaz.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_e11572efaef518a0e013",
+      "decision": "reject",
+      "reason": "Yakın hayat/sonraki hayat topolojisi, exact HFT activation trace olmadan verilmiş bir unbound summary claim'dir; bağımsız taşıyıcı ve tetikleyici koordinatları bulunmadığından attributed kanıt olarak ayrı tutulamaz.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_4e399deb46ace8441cbc",
+      "decision": "reject",
+      "reason": "Ateş ve ölüm/yararlı hayat yokluğu üzerinden askıda eziyet iddiası, exact HFT coordinate trace ve focus return bulunmayan legacy-unbound özete dayanır; reader-walk bulgularına bağımsız kanıt eklemez.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_cfeb096a660181c8ded9",
+      "decision": "reject",
+      "reason": "Arınma, hatırlama ve namazın karşıt öz-pratik olarak okunması yalnızca unbound HFT summary düzeyindedir; supplied carrier, independent trigger ve focus return birlikte gösterilmemiştir.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_6f686da2786e6cd8defc",
+      "decision": "reject",
+      "reason": "Bu kayıt tek bir semantik ilişki değil, split-root ve çok sayıda yönsel yankıyı birleştiren genel HFT özeti; exact trace yok ve kayıt bağımsız finding değil.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_a5372ead0fd30f917e4f",
+      "decision": "reject",
+      "reason": "هَا zamirinin olası daha geniş kapsamı, exact HFT trace ile odağa dönen atıf olarak teslim edilmemiş bir belirsizlik kaydıdır; tek başına değişmiş okuma kurmaz.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_eecf204081eeb25a9556",
+      "decision": "reject",
+      "reason": "Path, shield, marking, ecological ve race mekanizmalarını birlikte sayan özet, her biri için exact carrier/trigger/focus-return trace sunmaz; toplu abductive not bir aday bulgusu değildir.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_84eb2236c9151bccc53e",
+      "decision": "reject",
+      "reason": "Non-dominant marking/succession aktivasyonları için exact HFT trace, focus taşıyıcısı veya doğrulanmış branch return verilmemiştir; düşük mapping rank tek başına aktivasyon kanıtı değildir.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_cb5391ea9cc6aa889e60",
+      "decision": "reject",
+      "reason": "87:12 ile yan/böğür örtüşmesinin kasıtlı dönüş mü yoksa lexical resonance mı olduğu açık bırakılmıştır; exact HFT trace ve bağımsız focus-return bulunmadığı için etkinleştirilemez.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    }
+  ],
+  "findings": [
+    {
+      "finding_ref": "global:deliberate-proximity",
+      "origin_candidate_id": "cand_0d509b397562a5e8b93f",
+      "represented_candidate_ids": ["cand_f60a07aea39353e4aa9a", "cand_0a467013e8b74d435fc5"],
+      "title": "Yakındaki hatırlatmadan bilinçli yana çekilme",
+      "claim": "87:11'deki kaçınma, erişilebilir ve yakındaki hatırlatmayla bağı bilinçli biçimde koparan etkin bir yana çekilme olarak belirir.",
+      "mechanism": "يَتَجَنَّبُهَا taşıyıcısı yan, yakınlık ve uzaklaşma dallarını taşır; 87:9-10'da sunulan hatırlatma ve 41:51, 39:56, 74:49'daki bağımsız bağlantılar bu hareketle temas ederek kaçınmayı mevcut bir çağrıdan ayrılma olarak değiştirir.",
+      "reader_payoff": "Okur, kaçınan kişinin uzakta kalmış biri değil, önünde bulunan hatırlatmayla arasındaki yakınlığı kendisi bozan biri olduğunu görür.",
+      "containment": "Birincil hatırlatmadan kaçınma anlamı korunur; ج ن ب alanındaki ritüel, yel, hastalık, süt ve diğer dallar bu bulguya taşınmaz.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": ["legacy_unbound", "trusted"],
+        "reason": "Trusted cross-run kaydı üç focus dalını birlikte verir; legacy reader-walk kayıtları yakınlık ayrımını destekler, fakat kendi başlarına bağımsız lexicon kanıtı sayılmaz."
+      },
+      "support_ids": ["sup_91a9b68b966c913de32a", "sup_f5e2f35b7c72fef76f45", "sup_5b598980abd2ecbeffb4"],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000262/B001",
+          "facet_id": "F001",
+          "branch_gloss": "bedenin veya şeyin yanı ve bitişik çevresi",
+          "facet_statement": "İnsan veya hayvan bedeninin böğrünü ve bir şeyin yanını ya da tarafını belirtir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["87:11:1:2"],
+          "trigger_refs": ["87:9", "87:10", "41:51", "conn_ev_9eabfb0725a17973ffb4"],
+          "focus_return_refs": ["87:11:1:2", "87:11:1:3"],
+          "carrier": "يَتَجَنَّبُهَا yüzeyindeki hareket, hatırlatmayı kendi yanından ve bitişik alanından dışarı alma yönünü taşır.",
+          "independent_trigger": "87:9-10'da hatırlatmanın sunulması ve 41:51 bağlantısındaki yanına çekilme ifadesi, yan konumunu bağımsız biçimde etkinleştirir.",
+          "activation": "Odak fiilindeki kaçınma, yan/böğür taşıyıcısı ile mevcut hatırlatmanın yakınlığını aynı hareket içinde temas ettirir; uzaklık taşıyıcının ürettiği konum değişikliğine dönüşür.",
+          "resulting_reading": "Kaçınan kişi, hatırlatmadan yalnızca habersiz biri değil, onu kendi yanından uzaklaştıran biri olarak görünür.",
+          "boundary": "Yan dalı, odak hareketinin bağlamsal uzantısıdır; başka özel uygulamalar ileri sürülmez."
+        },
+        {
+          "branch_ref": "root_000262/B002",
+          "facet_id": "F001",
+          "branch_gloss": "yanında yakın bulunma ve eşlik etme",
+          "facet_statement": "Bir kimseye yakın olmayı, yanında bulunmayı veya kolayca yaklaşılabilir olmayı belirtir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["87:11:1:2"],
+          "trigger_refs": ["87:9", "87:10", "39:56", "conn_ev_5417418d70bfbbf7793d"],
+          "focus_return_refs": ["87:11:1:2", "87:11:1:3"],
+          "carrier": "يَتَجَنَّبُهَا biçimi, kaçınılan nesneyi yanında bulunabilecek kadar yakın bir muhatap olarak tutar.",
+          "independent_trigger": "87:9-10'un hatırlatma ve ona yönelen alıcı karşıtlığı ile 39:56'daki janb Allah yakınlığı, yakın bulunma dalını çağırır.",
+          "activation": "Yakın bulunma dalı, aynı fiilin uzak durma yönüyle karşılaşınca mesafenin yakınlığın içinden üretildiğini gösterir.",
+          "resulting_reading": "Ayet, rehberliğin yokluğunu değil, yanına kadar gelmiş bir hatırlatmayla bağın koparılmasını görünür kılar.",
+          "boundary": "Eşlik ve yakınlık imgesi korunur; fiilin bütün özel dinsel kullanımları odak ayete taşınmaz."
+        },
+        {
+          "branch_ref": "root_000262/B003",
+          "facet_id": "F001",
+          "branch_gloss": "uzak durma veya uzaklaştırma",
+          "facet_statement": "Kişinin bir şeyden uzaklaşmasını, ona yaklaşmamasını veya onu bırakmasını belirtir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["87:11:1:2", "87:11:1:3"],
+          "trigger_refs": ["87:9", "87:10", "74:49", "conn_ev_f4391cfab052fc272b65"],
+          "focus_return_refs": ["87:11:1:2", "87:11:1:3"],
+          "carrier": "يَتَجَنَّبُهَا fiili ve ona bağlı هَا zamiri, belirli bir hatırlatmadan uzaklaşan faili ve nesneyi birlikte taşır.",
+          "independent_trigger": "74:49'daki açık hatırlatma-yüz çevirme bağlantısı ve odaktan hemen önceki hatırlama çağrısı, uzaklaşmanın yönünü belirler.",
+          "activation": "Uzak durma dalı, yakınlık ve yan konumuyla aynı odağa döndüğünde kaçınmayı yönü belirli bir eylem haline getirir.",
+          "resulting_reading": "En bahtsız olan, hatırlatmanın kendisine ulaşamadığı kişi değil, ulaştığı halde ondan yana çekilen kişidir.",
+          "boundary": "İlişki sorumluluk ve yön duygusunu genişletir; bunun ötesinde psikolojik niyet tanımı yapılmaz."
+        }
+      ],
+      "connection_refs": ["conn_92fa8587da7d5d3e45da", "conn_8f039fd64e8b8429f402", "conn_ff7983af9a265c344677"],
+      "context_refs": ["87:9", "87:10", "41:51", "39:56", "74:49"],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:adverse-course",
+      "origin_candidate_id": "cand_ccfacf9c0bd9a70869f6",
+      "represented_candidate_ids": ["cand_e291abdbddac42756846", "cand_cdcbc982754d26e790cb", "cand_8b8cdb7341e501fff6a7"],
+      "title": "Kaçınmanın sıkıntıya yönelen bir rota oluşu",
+      "claim": "Yana çekilme, sonraki ateş ve yararlı hayatın askıya alınmasıyla birlikte kişiyi sıkıntıya yönelten etkin bir rota olarak okunur.",
+      "mechanism": "ج ن ب/B003 uzaklaşma hareketi, 87:12-13'ün ateş ve askı dizisiyle ve 72:17, 92:15, 20:74 bağlantılarındaki hatırlatmadan yüz çevirme-sıkıntı sonuçlarıyla temas eder; ش ق و/B002 böylece yalnızca sıfat değil, hareketin açıldığı uğraş alanı olur.",
+      "reader_payoff": "Okur, الأشقى etiketinin kaçınmadan sonra gelen sabit bir hükümden önce, kaçınmanın yöneldiği sonucu da adlandırdığını görür.",
+      "containment": "Birincil hatırlatmadan kaçınma yerinde kalır; sıkıntı rotası fiilin tek başına ceza demek olduğu iddiası değil, odak eylemi ile sonraki bağlam arasındaki değişmiş ilişkidir.",
+      "epistemic": {
+        "status": "grounded",
+        "source_trust": ["legacy_unbound", "trusted"],
+        "reason": "Trusted cross-run finding-2, kabul edilmiş iki focus branch'i ve bağımsız ateş/hatırlatma bağlantıları aynı taşıyıcı-tetikleyici temasını verir; legacy kayıtları yön okumasını destekleyici kalır."
+      },
+      "support_ids": ["sup_db0ceb9da69531760430", "sup_677fc6bdec9b1b4ae002", "sup_1de00e0c79fdb6647efa", "sup_2cf4d21a551469968f8c"],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000262/B003",
+          "facet_id": "F001",
+          "branch_gloss": "uzak durma veya uzaklaştırma",
+          "facet_statement": "Kişinin bir şeyden uzaklaşmasını, ona yaklaşmamasını veya onu bırakmasını belirtir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["87:11:1:2", "87:11:1:3"],
+          "trigger_refs": ["87:12", "87:13", "72:17", "92:15", "conn_ev_0c4fa8822e9c6bb43b67", "conn_ev_013b53f4fda18e204a4e"],
+          "focus_return_refs": ["87:11:1:2", "87:11:1:3"],
+          "carrier": "يَتَجَنَّبُهَا, belirli hatırlatmadan ayrılan bir failin eylemini taşır.",
+          "independent_trigger": "87:12-13'ün ateş ve askıda hayat dizisi ile 72:17 ve 92:15 bağlantılarındaki hatırlatmadan yüz çevirme-sıkıntı ilişkisi, eylemin sonuç yönünü verir.",
+          "activation": "Uzaklaşma taşıyıcısı ateş ve kapanmayan sıkıntı tetikleyicileriyle temas edince kaçınma sonuç yönü olan bir hareket haline gelir.",
+          "resulting_reading": "Hatırlatmadan kaçınma, kişiyi sıkıntıya doğru götüren tercih edilmiş rota olarak görünür.",
+          "boundary": "Kaçınma fiilinin tek başına ateş veya ceza anlamına geldiği söylenmez; sonuç bağlantısı bağlamdan gelir."
+        },
+        {
+          "branch_ref": "root_000808/B002",
+          "facet_id": "F001",
+          "branch_gloss": "güçlük çekme ve zorluğa dayanma",
+          "facet_statement": "Temel anlam, kolaylığın karşıtı olan güçlüğü çekmek ve zorluğa katlanmaktır.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["87:11:2:2"],
+          "trigger_refs": ["87:12", "87:13", "20:74", "conn_ev_7a3434f8c57738013b7d"],
+          "focus_return_refs": ["87:11:2:2"],
+          "carrier": "ٱلْأَشْقَى'nın bağlı olduğu ş-q-w dalı, güçlük çekme ve zorluğa katlanma yüzünü taşır.",
+          "independent_trigger": "87:13'teki ölümle yararlı hayat arasındaki askı ve 20:74 bağlantısı, güçlüğü sırf sınıflandırma olmaktan çıkarır.",
+          "activation": "Al-ashqa'nın elatif etiketi, kaçınma eyleminin açıldığı ateş ve askı durumu ile buluşunca bahtsızlığı sürdürülen güçlük biçiminde okutur.",
+          "resulting_reading": "Sıkıntı, yalnızca sonradan verilmiş bir ad değil, yana çekilme hareketinin içine girdiği durumdur.",
+          "boundary": "B002'nin etkinleşmesi bütün ş-q-w dallarını veya literal fiziksel yorgunluğu ileri sürmez."
+        }
+      ],
+      "connection_refs": ["conn_3ef24019e32ec673d6a4", "conn_79aaec8d9ef510fe7d00", "conn_acc2cc04f04d40f51ebe"],
+      "context_refs": ["87:12", "87:13", "72:17", "92:15", "20:74"],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:shield-exposure",
+      "origin_candidate_id": "cand_6d3aec35096d941069bc",
+      "represented_candidate_ids": ["cand_461c3f0f7c6f67622a21"],
+      "title": "Yana alınan kalkanın açığa dönüşmesi",
+      "claim": "Hatırlatmayı yana itme, kişiyi koruyacağını sandığı bir yan kalkan kurma hareketi olarak belirir; sonraki ateş imgesi bu koruma yönünü açığa dönüşen bir manevra olarak değiştirir.",
+      "mechanism": "Odaktaki kaçınma fiili B011'in koruyucu kalkan/örtü taşıyıcısıyla temas eder; 87:12'nin ateşi ve 20:117 ile 92:14'ün korumadan çıkış ve ateş uyarısı bağlantıları, yana almanın korunma vaadini tersine çevirir.",
+      "reader_payoff": "Okur, yana itmenin koruyucu görünen bir manevra olarak da okunabildiğini ve aynı manevranın ateş karşısında kişiyi açıkta bıraktığını fark eder.",
+      "containment": "Kalkan ve koruma niyeti çıkarımsal bağlamsal imgedir; literal kalkan veya kesin psikolojik niyet ayetin sözlük anlamı olarak ileri sürülmez. Trusted kaydın reject etiketi sınırı görünür tutar.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": ["legacy_unbound", "trusted"],
+        "reason": "B011 focus taşıyıcısı ve ateş tetikleyicisi gerçek packet kayıtlarıdır; citable satır reject etiketi taşır ve koruma yönü legacy reader kaydında çıkarımsaldır."
+      },
+      "support_ids": ["sup_23b6845759cc79d3c963", "sup_3bd018706997e3007bde"],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000262/B011",
+          "facet_id": "F001",
+          "branch_gloss": "yanı koruyan kalkan veya örtü",
+          "facet_statement": "Kişinin yanında taşıdığı ve bedenini koruyan kalkanı belirtir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["87:11:1:2"],
+          "trigger_refs": ["87:12", "20:117", "92:14", "conn_ev_5e9669dd75f081520f1e", "conn_ev_2d0ad283a3314eb2a3e8"],
+          "focus_return_refs": ["87:11:1:2", "87:11:1:3"],
+          "carrier": "يَتَجَنَّبُهَا hareketi, hatırlatmayı kişinin yanından çekip koruyucu bir yan örtüsünün arkasına alma imgesini taşır.",
+          "independent_trigger": "87:12'nin sonraki ateşi ile 20:117'de korumadan çıkışın sıkıntıya, 92:14'te uyarı ateşinin kurulması, kalkan facet'ini etkinleştirir.",
+          "activation": "Yan kalkan taşıyıcısı, kaçınma hareketinin ardından gelen ateşle karşılaşınca koruma amacı ile açığa kalma arasındaki tersliği görünür kılar.",
+          "resulting_reading": "Hatırlatmayı yana itmek, koruyan bir sınır kurma girişimi gibi görünürken kişiyi ateş karşısında korumasız bırakan bir harekete dönüşür.",
+          "boundary": "Bu, B011'in bağlamsal koruma imgesidir; literal kalkan veya bütün j-n-b koruma kullanımları iddia edilmez."
+        }
+      ],
+      "connection_refs": ["conn_e171c888875b0c340cf9", "conn_fdc34f5713586671e9f1"],
+      "context_refs": ["87:12", "20:117", "92:14"],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:false-ascent",
+      "origin_candidate_id": "cand_4c0a3330ffb224550991",
+      "represented_candidate_ids": ["cand_935b5cc6cfc3b1a62e31", "cand_d97d9075cbd99c9aa8e5"],
+      "title": "Bahtsızlığın karşı-tırmanış imgesi",
+      "claim": "ٱلْأَشْقَى, 87:1'in en yüce ölçeğiyle karşılaşıp 91:12'nin etkin fail bağlantısına açıldığında, en yüceye yönelen yükselişten ayrılıp sıkıntı yönünde seçilen bir karşı-tırmanış imgesini de taşır.",
+      "mechanism": "Ş-q-w/B003'ün karşılıklı uğraşta üstün gelme facet'i ve B004'ün yükselen uzun dağ sırtı, odaktaki elatif sıfatla birleşir; 87:1'in الأعلى ölçeği ve 91:12 bağlantısındaki الأشقى'nın belirleyici hareketi üstünlük ve yükseliş dilini odağa döndürür.",
+      "reader_payoff": "En bahtsız ifadesi, yalnızca durum bildiren sıfat olmaktan çıkarak hangi yöne ve hangi uğraşa girildiğini hissettiren yön imgesi kazanır.",
+      "containment": "Bu bağlamsal karşı-tırmanış literal dağ çıkışı veya En Yüce'ye gerçek rakiplik değildir. Kayıtsız ع ل و/B001 alıntısı etkin branch sayılmaz; trusted reject etiketi ve sınırlı bağlantı kapsamı okumayı qualified tutar.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": ["legacy_unbound", "trusted"],
+        "reason": "B003/B004 focus kayıtları ve 87:1, 91:12 tetikleyicileri mevcuttur; fakat sahte yükseliş yönü published finding'de reject işaretlidir ve reader kayıtları legacy-unbound çıkarım taşır."
+      },
+      "support_ids": ["sup_d4bde3ced50297ebbbfb", "sup_b4089828ef1b98909521", "sup_6d586487fc7ced7a809d"],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000808/B003",
+          "facet_id": "F001",
+          "branch_gloss": "karşılıklı uğraşta ötekini yenme",
+          "facet_statement": "Karşılıklı uğraşın sonunda konuşan, öteki kişiye aynı uğraş alanında üstün gelir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["87:11:2:2"],
+          "trigger_refs": ["87:1", "87:12", "91:12", "conn_ev_3fd892c585914aa201de"],
+          "focus_return_refs": ["87:11:2:2"],
+          "carrier": "ٱلْأَشْقَى'nın elatif biçimi, üstün gelme ve sıkıntılı uğraş içinde öne çıkan fail taşıyıcısını sağlar.",
+          "independent_trigger": "87:1'deki الأعلى ile 91:12'deki الأشقى'nın belirleyici hareketi, üstünlük facet'ine bağımsız ölçek ve fail bağlantısı verir.",
+          "activation": "Karşılıklı uğraşta üstün gelme dalı, en yüce ölçeğin yanına yerleşen elatif faille buluşunca kaçınmayı başka bir yükseliş yönünü seçen mücadele imgesine çevirir.",
+          "resulting_reading": "Bahtsızlık, en yüceye yönelen düzenin yanında sıkıntı tarafında üstün gelmeye çalışan karşı hareket gibi görünür.",
+          "boundary": "Gerçek ilahi rekabet veya bütün B003 kullanım alanları ileri sürülmez; yalnızca odak failinin bağlamsal yön değişimidir."
+        },
+        {
+          "branch_ref": "root_000808/B004",
+          "facet_id": "F001",
+          "branch_gloss": "uzun, kolay çıkılan ve oturmaya elverişli dağ sırtı",
+          "facet_statement": "Gönderge, dağın yükselen ve uzun bir sırtıdır.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["87:11:2:2"],
+          "trigger_refs": ["87:1", "87:12"],
+          "focus_return_refs": ["87:11:2:2"],
+          "carrier": "ٱلْأَشْقَى sıfatının genişleyen elatif alanı, uzun ve yükselen bir sırtın yön imgesini taşıyabilir.",
+          "independent_trigger": "87:1'in yükseklik adı ve 87:12'nin büyük ateş ölçeği, odak sıfatındaki yükselen ölçüsel imgeyi çerçeveler.",
+          "activation": "Yükselen uzun sırt facet'i, odak failinin sıkıntı ile tanımlanması ve yüksekliğin önceki çerçevesiyle temas edince bahtsızlığı seçilmiş bir yön ve tırmanış biçimi olarak okutur.",
+          "resulting_reading": "Ayet, kaçınanın başka bir yola sapmasını yükselen fakat sıkıntı taşıyan bir sırt imgesiyle görünür kılar.",
+          "boundary": "Dağ imgesi bağlamsal analojidir; ayetin literal göndergesinin dağ olduğu veya B004'ün tek doğru anlam olduğu söylenmez."
+        }
+      ],
+      "connection_refs": ["conn_c4d0303860f010ceea66"],
+      "context_refs": ["87:1", "87:12", "91:12"],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:ecological-deprivation",
+      "origin_candidate_id": "cand_9a3d35b26d06bfe27696",
+      "represented_candidate_ids": ["cand_78a8fc9121e875904076"],
+      "title": "Kaçınmanın besleyici düzenden dışarı çekilmesi",
+      "claim": "Kaçınma, önceki bakım ve otlak imgesiyle karşılaştığında, kişiyi besleyen düzenden dışarı çıkaran bir yoksunluk hareketi olarak da okunur.",
+      "mechanism": "Odak fiilinin j-n-b yüzeyi B008'in develerde sütün azalması veya tükenmesi facet'iyle temas eder; paketteki 87:4-5 bakım/otlak bağlamı bu süt-kıtlığı imgesini etkinleştirerek kaçınmayı rehberlik ve beslenme ekonomisinin dışına çekilme şeklinde değiştirir.",
+      "reader_payoff": "Okur, bahtsızlığı yalnızca ilerideki sonuç olarak değil, hatırlatmadan yana çekilmenin kendini sürdüren kaynaktan uzaklaştırması olarak da görür.",
+      "containment": "Süt kıtlığı literal biyolojik sonuç veya ayetin doğrudan sözlük anlamı değildir; trusted satırın reject etiketi ve legacy reader kaydının çıkarımsal yönü korunarak verilen bağlamsal yankıdır.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": ["legacy_unbound", "trusted"],
+        "reason": "B008 focus kaydı ve 87:4-5 bağlamı somut taşıyıcı/tetikleyici sınırı sağlar; citable finding-5 reject etiketlidir ve bakım-ekonomi yönü legacy reader çıkarımıdır."
+      },
+      "support_ids": ["sup_ed7a55713fd71d92cbe7", "sup_8b1442c9b67ed7d01a87"],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000262/B008",
+          "facet_id": "F001",
+          "branch_gloss": "develerde sütün azalması veya tükenmesi",
+          "facet_statement": "Bir topluluğun develerindeki sütün azalmasını veya hiç kalmamasını belirtir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["87:11:1:2"],
+          "trigger_refs": ["87:4", "87:5"],
+          "focus_return_refs": ["87:11:1:2", "87:11:1:3"],
+          "carrier": "يَتَجَنَّبُهَا hareketi, kendini bir kaynaktan ayırma yönüyle süt azalması/tükenmesi facet'inin yoksunluk imgesini taşır.",
+          "independent_trigger": "Paketin 87:4-5 için verdiği önceki otlak ve bakım dizisi, süt-kıtlığı dalını odak fiilinden bağımsız biçimde hazırlar.",
+          "activation": "Beslenme düzenini kuran bağlam, yana çekilme taşıyıcısıyla temas edince kaçınma sunulan nimetin dışına çıkma olarak okunur.",
+          "resulting_reading": "Bahtsızlık, bakım ve beslenme akışının dışında kalmış bir yönelimin sonucu gibi görünür.",
+          "boundary": "Literal deve sütü, toplumsal sahiplik veya zorunlu biyolojik nedensellik ileri sürülmez; yalnızca B008'in bağlamsal facet'i etkinleştirilir."
+        }
+      ],
+      "connection_refs": [],
+      "context_refs": ["87:4", "87:5"],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:lateral-path",
+      "origin_candidate_id": "cand_24235cef0dc0375ec4e1",
+      "represented_candidate_ids": [],
+      "title": "Yönlendirilmiş kurstan yana sapma",
+      "claim": "ج ن ب alanındaki yan/böğür konumu, 87:3 ve 87:8'de sunulan yönlendirilmiş ve kolaylaştırılmış kursla buluştuğunda, kaçınmayı yolun dışına doğru yanal bir yerleşim olarak değiştirir.",
+      "mechanism": "Odak taşıyıcısı B001'in yan veya taraf facet'idir; rehberlik, ölçülmüş kurs ve kolaylaştırma bağlamı ile 20:123'teki hidayeti izleme bağlantısı bağımsız tetikleyici olur ve reddi yön geometrisi olarak görünür kılar.",
+      "reader_payoff": "Okur, kaçınmayı yalnızca bir çağrıya cevap vermeme değil, zaten açılmış bir kurstan yana doğru yerleşme hareketi olarak algılar.",
+      "containment": "Yol geometrisi bağlamsal analojidir; ج ن ب fiilinin literal olarak yol anlamına geldiği veya yön değişiminin tek okuma olduğu ileri sürülmez.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": ["legacy_unbound"],
+        "reason": "Focus branch kayıtlıdır ve 87:3, 87:8, 20:123 bağımsız yön tetikleyicileri sağlar; reader-walk kaynağı legacy-unbound olduğu için nedensel ok niteliklidir."
+      },
+      "support_ids": ["sup_84a39e296b06c3c3ea50"],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000262/B001",
+          "facet_id": "F001",
+          "branch_gloss": "bedenin veya şeyin yanı ve bitişik çevresi",
+          "facet_statement": "İnsan veya hayvan bedeninin böğrünü ve bir şeyin yanını ya da tarafını belirtir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["87:11:1:2"],
+          "trigger_refs": ["87:3", "87:8", "20:123", "conn_ev_41adfb11f7e5a035231b"],
+          "focus_return_refs": ["87:11:1:2"],
+          "carrier": "يَتَجَنَّبُهَا taşıyıcısındaki yan/böğür konumu, failin yönlendirilmiş akışa göre nerede durduğunu gösterecek mekansal yüzü sağlar.",
+          "independent_trigger": "87:3 ve 87:8'in yönlendirilmiş/kolaylaştırılmış kursu ile 20:123'te hidayeti izleme bağlantısı, yan konumunu rota ölçüsü haline getirir.",
+          "activation": "Yan konumu rehberli kursla temas ettiğinde kaçınmanın yönsüz yokluk değil, kursa göre yana yerleşen hareket olduğunu gösterir.",
+          "resulting_reading": "En bahtsız olan, hatırlatmadan uzaklaşırken kendisini kolaylaştırılmış yönün yanına yerleştiren kişi olarak görünür.",
+          "boundary": "Yol ve rota dili bağlamsaldır; literal yol taşıyıcısı veya sure çapında sistem iddia edilmez."
+        }
+      ],
+      "connection_refs": ["conn_3e655e8bd9a8851841e8"],
+      "context_refs": ["87:3", "87:8", "20:123"],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:preference-suspended-state",
+      "origin_candidate_id": "cand_de4731196ee30e91890d",
+      "represented_candidate_ids": [],
+      "title": "Kaçınmanın yakın hayat tercihiyle askıda sıkıntıya açılması",
+      "claim": "Ateş, yararlı hayatın askıya alınması ve yakın hayat tercihi birlikte okunduğunda, 87:11'deki kaçınma enacted bir yöneliş olarak görünür: kişi hatırlatmadan uzaklaşarak kendisini askıda sıkıntıya götüren tercihi yaşar.",
+      "mechanism": "Focus'taki B003 uzaklaşma hareketi ve هَا ile tutulan nesne, 87:12-13'ün sonuç dizisi ve 87:16'nın yakın hayat tercihiyle tekrar odağa döner; 20:74, 53:29 ve 14:3 bağlantıları bu sonuç-tercih temasını bağımsız biçimde kurar.",
+      "reader_payoff": "Okur before/after hareketini görür: önce hatırlatmadan kaçınma, sonra bu eylemin askıda sıkıntı olarak açılan sonucu ve yakın olana yönelen motif belirir.",
+      "containment": "Birincil kaçınma anlamı korunur; هَا'nın en yakın hatırlatma gönderimi kaldırılıp daha geniş bir kapsam zorunlu kılınmaz. Yakın hayat tercihi ayetin sözlük anlamı diye eklenmez.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": ["legacy_unbound"],
+        "reason": "Retrospektif reader-walk kaydı açık 87:12-13 ve 87:16 dönüşlerini verir; kaynak legacy-unbound olduğundan preference ve sonuç arasındaki nedensel ok çıkarım olarak tutulur."
+      },
+      "support_ids": ["sup_edcc890f833446677a06"],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000262/B003",
+          "facet_id": "F001",
+          "branch_gloss": "uzak durma veya uzaklaştırma",
+          "facet_statement": "Kişinin bir şeyden uzaklaşmasını, ona yaklaşmamasını veya onu bırakmasını belirtir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["87:11:1:2", "87:11:1:3"],
+          "trigger_refs": ["87:12", "87:13", "87:16", "20:74", "53:29", "14:3", "conn_ev_7a3434f8c57738013b7d", "conn_ev_0a57b31f23b7ad17abb9", "conn_ev_afd4b7eb4af0c7708c86"],
+          "focus_return_refs": ["87:11:1:2", "87:11:1:3"],
+          "carrier": "يَتَجَنَّبُهَا, kaçınılan hatırlatmaya yönelen bir uzaklaşma eylemini ve nesnesini birlikte taşır.",
+          "independent_trigger": "87:12-13'ün sonuçları ve 87:16'nın yakın hayat tercihi; 20:74, 53:29 ve 14:3 bağlantıları bu sonuç ve tercihi odak fiiline geri bağlar.",
+          "activation": "Uzaklaşma dalı sonuç ve tercih tetikleyicileriyle temas edince kaçınma, sabit bir karakter etiketi yerine kişiyi belirli sonuca yönelten yaşanmış tercih olarak değişir.",
+          "resulting_reading": "En bahtsızlık, hatırlatmadan yana çekilmenin ardından gelen askıda sıkıntıyla birlikte yakın hayatı seçen yönelişin sonucu olarak görünür.",
+          "boundary": "Bu, supplied reader-walk bağlamının qualified çıkarımıdır; yakın hayat tercihi 87:11'e sözlük anlamı olarak eklenmez."
+        }
+      ],
+      "connection_refs": ["conn_acc2cc04f04d40f51ebe", "conn_ad1cf5b5a2f0ef1bde4e", "conn_c91826b93d16caf766d6"],
+      "context_refs": ["87:12", "87:13", "87:16", "20:74", "53:29", "14:3"],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:shield-hardship-reversal",
+      "origin_candidate_id": "cand_50e697373608da182a2e",
+      "represented_candidate_ids": [],
+      "title": "Kalkan imgesinden askıda sıkıntıya dönüş",
+      "claim": "Yana alınan kalkan imgesi, sonraki ateş ve ölümle yararlı hayat arasındaki askı ile buluştuğunda, koruma arayışının kişiyi açıkta bırakıp sürdürülen sıkıntıya açıldığı iki aşamalı bir dönüş kurar.",
+      "mechanism": "B011'in koruyucu yan örtüsü önce 87:12 ve 20:117'nin ateş/korumadan çıkış tetikleyicisiyle açığa döner; B002'nin güçlük çekme facet'i ardından 87:13 ve 20:74'ün ölüm ile yararlı hayatın kapanmasıyla temas ederek açığa kalmayı askıda eziyet olarak değiştirir.",
+      "reader_payoff": "Okur, koruma görüntüsünün önce ateşe açıklık, sonra ölümün ve yararlı hayatın kapanmadığı sürdürülen sıkıntı olarak iki adımda çözüldüğünü görür.",
+      "containment": "Koruyucu niyet, kalkan ve nedensel dönüş legacy reader-walk çıkarımıdır; literal eşya, zorunlu psikolojik niyet veya tüm B002 kullanımları ileri sürülmez.",
+      "epistemic": {
+        "status": "exploratory",
+        "source_trust": ["legacy_unbound"],
+        "reason": "Retrospektif kayıt B011/B002 ile 87:12-13 dönüşünü açıkça kurar, fakat kaynak legacy-unbound ve nedensel ok çok adımlı çıkarımsaldır."
+      },
+      "support_ids": ["sup_4e98dec41cefbad08b84"],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000262/B011",
+          "facet_id": "F001",
+          "branch_gloss": "yanı koruyan kalkan veya örtü",
+          "facet_statement": "Kişinin yanında taşıdığı ve bedenini koruyan kalkanı belirtir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["87:11:1:2"],
+          "trigger_refs": ["87:12", "20:117", "conn_ev_5e9669dd75f081520f1e"],
+          "focus_return_refs": ["87:11:1:2", "87:11:1:3"],
+          "carrier": "يَتَجَنَّبُهَا hareketi, yana alınan koruyucu örtünün ilk görünümünü taşır.",
+          "independent_trigger": "87:12'nin ateşi ve 20:117'nin korumadan ayrılma-sıkıntı bağlantısı, kalkanın koruyucu işlevini tersine çeviren ilk tetikleyicidir.",
+          "activation": "Koruyucu yan örtüsü ateş ve korumadan çıkışla karşılaşınca aynı yana çekilme hareketini açığa kalma aşamasına taşır.",
+          "resulting_reading": "Yana itme, kendini saklayan sınır görüntüsünden ateşe açık kalma görüntüsüne döner.",
+          "boundary": "İlk aşama bağlamsal kalkan imgesidir; literal kalkan veya kesin niyet iddiası yoktur."
+        },
+        {
+          "branch_ref": "root_000808/B002",
+          "facet_id": "F001",
+          "branch_gloss": "güçlük çekme ve zorluğa dayanma",
+          "facet_statement": "Temel anlam, kolaylığın karşıtı olan güçlüğü çekmek ve zorluğa katlanmaktır.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["87:11:2:2"],
+          "trigger_refs": ["87:13", "20:74", "conn_ev_7a3434f8c57738013b7d"],
+          "focus_return_refs": ["87:11:2:2"],
+          "carrier": "ٱلْأَشْقَى'nın ş-q-w/B002 facet'i, açığa çıkıştan sonra sürdürülen güçlük çekme durumunu taşır.",
+          "independent_trigger": "87:13'te ölüm ve yararlı hayatın askıya alınması ile 20:74'teki aynı sonuç bağlantısı, güçlük facet'ini ikinci aşamaya bağlar.",
+          "activation": "Güçlük çekme dalı, koruyucu manevranın ateşle bozulmasından sonra askıda kalan hayatla temas ederek başarısız korumayı kapanmayan eziyet olarak değiştirir.",
+          "resulting_reading": "Kalkanın açığa dönmesi, kişiyi biten bir sonuca değil, ölümün ve yararlı hayatın kapanmadığı sürdürülen sıkıntıya taşır.",
+          "boundary": "Bu çok adımlı bağ B002'nin bağlamsal facet'idir; fiziksel yorgunluk veya tüm ş-q-w dalları ileri sürülmez."
+        }
+      ],
+      "connection_refs": ["conn_e171c888875b0c340cf9", "conn_acc2cc04f04d40f51ebe"],
+      "context_refs": ["87:12", "20:117", "87:13", "20:74"],
+      "semantic_obligation_refs": []
+    }
+  ],
+  "friction_notes": [
+    "Docket kapsamı tamamlandı: 28 adayın her biri tam bir kez karara bağlandı; sekiz retained finding kabul edilen adayları ve yalnızca exact semantic duplicate olan represented kayıtları taşıyor.",
+    "HFT kaynağı görünür olsa da anchor_evidence_coverage supplied_unique_anchor_count=0 bildiriyor; assigned HFT records içinde ayet, kelime indeksi, kök, atfedilen rol ve focus return'u birlikte veren exact trace yok. Bu nedenle on reader_summary_claim attributed kanıt olarak reddedildi.",
+    "Beş trusted cross-run satırından finding-3, finding-4 ve finding-5 reject öncelik etiketi taşır. Etiketler otomatik karar sayılmadı; shield, false-ascent ve ecological adayları yalnızca gerçek focus carrier, bağımsız context trigger ve açık containment bulunduğu ölçüde qualified tutuldu.",
+    "Reader-walk kayıtları legacy_unbound'dur. Retained semantik, kayıtlı focus branch'leri veya pakette açıkça listelenen context dönüşleri üzerinden nitelendirildi; reader sayısı ve kaynak tekrarı sıralama kanıtı olarak kullanılmadı.",
+    "reader_a false-ascent kaydındaki ع ل و/B001 alıntısı branch_registry'de çözümlenmemiştir; exact branch ref olmadığı için ayrı activation yapılmadı ve kayıtlı ş-q-w B003/B004 çekirdeğinin yerine geçirilmedi.",
+    "Candidate kayıtlarında ayrı bir semantic_obligations alanı sunulmadı; sentetik obligation ID üretilmedi. Mevcut tüm candidate branch_refs ilgili activation'a indi veya omitted branch olarak bırakılmadı.",
+    "Global packet ordered_context_refs listesini veriyor, ancak selected_context_units boş; aynı-surah carrier/trigger kullanımı packet'te açıkça adlandırılan context ref'leri ve bunları taşıyan support/connection kayıtlarıyla sınırlandı.",
+    "Hiçbir finding başka birini daha doğru veya daha güçlü ilan etmez; farklı yönlere giden qualified ve exploratory okumalar aynı ayah yüzeyine geri döndürülerek birlikte tutuldu."
+  ]
+}

@@ -1,0 +1,249 @@
+# V5 reading invitation — 87:7
+
+You are a fresh reading-invitation writer. Read the complete editorial prose
+before writing. It is your sole semantic source.
+
+Write two to four paragraphs of fluent, contemporary Turkish that reveal a
+surprising reading by following one or two main channels of resonance in the
+ayah. A channel is a connected background of meanings, images, actions, or
+relations through which the ayah can be heard and understood differently.
+Several editorial findings may together develop one channel. Summarize that
+connected movement and its consequence for the ayah's main meaning, rather
+than compressing findings individually. Give the reading's substance now;
+the invitation comes from understanding it, not from a promise of hidden depth.
+
+Before drafting, read the entire editorial prose and silently select the one
+or two channels with the strongest interpretive consequence and enough
+grounding to explain clearly. Favor channels that expand or shift what the
+ayah says, the relation it establishes, or what is at stake in its action or
+image. One fully developed channel is sufficient; add a second only when it
+offers a distinct consequential reading that can be explained within the
+invitation. No finding, channel, or major shift has an individual coverage
+claim. Unselected material may remain entirely in the full commentary.
+
+A channel may develop through grammar, sound, dialogue, a material process,
+time, imagery, or a conceptual relation. Resonance is not limited to acoustic
+effects, and an unusual image alone does not establish a channel. Use only
+connections the editorial prose actually develops. If it supplies no such
+channel, explain its strongest grounded reading without inventing connections
+or surprise.
+
+Begin inside the ayah's own words, images, actions, or relations and reveal a
+selected distinctive reading in the first paragraph. Keep the plain meaning
+reachable with only the orientation needed to understand the change. Do not
+spend an opening paragraph on routine explanation or front-load context about
+the surah, the ayah's position, or the commentary project.
+
+For each selected channel, begin with the expression that opens it, unfold the
+connected background, and show how the ayah reads or sounds against that
+background. Let a detail lead into the next through an intelligible relation
+or process, so the reader experiences the emerging reading. This is a movement
+of thought, not a mandatory sentence pattern or one paragraph per finding.
+Let the reader identify the expression being interpreted,
+where any nonordinary detail comes from, and what that detail changes in the
+reading. Briefly identify the word-family use, restricted form, collocation, or
+context that supplies an essential added detail, and preserve the concrete
+operation that makes the image work. Keep the ordinary reading and necessary
+qualification clear within this explanation; do not repeat them as a fixed
+formula. Preserve the particular object, process, or relation that makes this
+reading distinctive, and state its interpretive consequence for the ayah as a
+whole. Make intelligible what the familiar reading leaves less visible and
+what the expanded or shifted reading now lets the reader understand. Preserve
+the editorial's force: an exploratory possibility remains possible, while a
+developed shift must not be softened into a decorative association or a
+reassurance that everything means the same thing. A concrete
+account of how something is carried, transformed, lost, or restored must not
+shrink to a general statement about care, guidance, dependence, or goodness.
+Keep the details needed to make the selected channel work; omit side findings
+and shorten routine setup. If a channel cannot be explained faithfully from
+the editorial prose, choose another grounded channel or reading.
+
+When a non-focus ayah supplies a contribution used in the invitation, keep its
+reference from the editorial prose beside that contribution.
+
+Do not turn the invitation into a miniature inventory of the commentary's
+conclusions, or flatten distinct channels into a broad theme to include more
+material. Do not repair, extend, or supplement the editorial prose from memory
+or outside knowledge.
+
+Omit technical apparatus. Retain any qualification, source distinction, live
+alternative, or boundary whose absence would change the force or meaning of a
+chosen reading. Express it naturally beside the image or relation it qualifies.
+Favor positive explanations of the relation between layers: what remains in
+the foreground and what the resonance makes audible in the background. State
+how that background reinforces, expands, or shifts the understanding of the
+main meaning, with the source and degree of certainty clear. Reserve explicit
+exclusions for concrete ambiguities or live counter-evidence that need them.
+Repeated "this is not X" endings make a reading sound withdrawn; express the
+substantive qualification through what the reading does contribute wherever
+possible. Use varied, natural language rather than a repeated "second layer"
+formula, and preserve the force of expansions and shifts.
+Do not name branches, candidates, findings, scopes, evidence categories,
+ledgers, or workflow stages, or label the prose as numbered channels. Do not
+list findings serially.
+
+Use the established `{ar:..., tr:..., gloss:...}` syntax, consistent
+Turkish-readable transliteration, and short ordinary glosses. Keep Arabic
+anchors beside the explanations they ground. Within a paragraph, continue with
+the Turkish meaning where clear; provide the necessary local tag when a later
+paragraph interprets the carrier anew. Do not place Arabic script outside a
+valid tag.
+
+Build transitions within a channel through its shared object, action, or
+relation. If two channels are selected, they may occupy separate paragraphs;
+do not invent a link between them. Do not praise the commentary's quality,
+promise what the reader will find, manufacture suspense, recap at the end, or
+add a call to action. End on an image, relation, action, or tension already
+established by the selected reading.
+
+Before finishing, compare the invitation with the entire editorial prose:
+does the chosen channel reveal a consequential reading, or could the text have
+been written from the ordinary translation and a modest explanation alone?
+When the editorial supports a surprising channel, the latter fails this task.
+Can the reader follow the opening expression into a connected background and
+understand how that background expands or shifts the ayah's main meaning?
+Check the selected connections against their editorial explanation: can the
+reader tell where the nonordinary details come from, with the necessary
+qualifications intact? Repair generic explanation, isolated curiosities, or a
+compressed findings list by developing the selected channel. Do not add
+omitted channels merely for coverage. Do not output this check.
+
+Write only the invitation text to:
+
+`_commentary/v5/editorial/s087-regular-20260911/s087/87_7/87_7.invitation.tr.md`
+
+Do not add a heading, wrapper label, index, ledger, evidence file, or any other
+artifact. Do not modify the editorial prose.
+
+After writing the invitation, run:
+
+```bash
+python3 _commentary/v5/validate_prose.py _commentary/v5/editorial/s087-regular-20260911/s087/87_7/87_7.invitation.tr.md
+```
+
+If validation fails, repair only the reported mechanical file-contract issues
+and rerun it, for at most two repair cycles. Report the final validator result
+in your response.
+
+<editorial_prose>
+Bu ayet, önceki vaadi niteleyerek başlar: "Sana okutacağız, artık unutmayacaksın" denildikten sonra (87:6), "Ancak Allah'ın dilediği dışında; kuşkusuz O, açık olanı da gizli kalanı da bilir" buyurulur. Unutulmama vaadi böylece korunur ve Allah'ın dilemesiyle belirlenen sınırı içinde anlaşılır.
+
+## İstisnanın Kurduğu Sınır
+
+Cümlenin ilk kelimesi {ar:إِلَّا, tr:illâ, gloss:ancak/dışında}dır; dikkat daha başta vaadin nitelenmesine çekilir. Ardından {ar:مَا شَآءَ ٱللَّهُ, tr:mâ şâe Allāhu, gloss:Allah'ın dilediği} gelir ve sınırı koyan öznenin Allah olduğu belirtilir. "Allah'ın dilediği" kalıbı başka bağlamlarda da imkânın yahut tasarrufun sınırını ilahî iradeye bağlar (7:188, 18:39). Bu kullanımlar korunmuş tilavet vaadiyle buluştuğunda (87:6), istisna kontrol dışı bir unutma boşluğundan bilen öznenin belirlediği bilinen bir sınıra dönüşür. Hemen sonraki kolaylaştırma vaadinin (87:8) bu okumaya katkısı yalnız ileriye dönük ve ihtiyatlıdır: aynı sınırı, yardımı kesen bir kopuştan çok yardımın yönetildiği alan olarak duymaya imkân verir.
+
+İstisnadaki ilk {ar:مَا, tr:mâ, gloss:her ne/açık bırakılan alan}, ayrılan nesneyi adlandırmadan açık bırakır. Yapı hem "Allah'ın dilediği şey" yönünü hem dileme edimini öne çıkaran "Allah'ın dilediği ölçüde" yönünü taşıyabilir; iki imkân da açık kalır. Mâ fiilden önce geldiği için okur önce ayrılmış ama henüz belirtilmemiş alanla, sonra onu dileyen özneyle karşılaşır. Bu sıra, istisna edilen içeriği ve o içeriği belirleyen iradeyi aynı yapıda duyurur. Dilemenin çevresinde hissedilen "bir şeye yönelme" ve bilinebilir bir "şey" basıncı da istisnayı seçilmiş bir mesele kadar somutlaştırır. Yerel biçimin çizdiği sınır açıktır: {ar:شَآءَ, tr:şâe, gloss:diledi} doğrudan dilemeyi anlatır; yapmak veya var etmek yönleri, yalnız ileride bağlamın açacağı nitelikli çağrışımlar olarak katkı verir.
+
+{ar:شَآءَ, tr:şâe, gloss:diledi}, tamamlanmış görünümüyle belirsiz bir temenni yerine Allah'a bağlanmış belirli bir irade kurar. Tanıdık "Allah dilerse" kalıbı burada unutulmama vaadinin özel rezervine yerleşir. Sonra gelen {ar:ٱللَّهُ, tr:Allāhu, gloss:Allah} açık öznedir: sınırın faili adlandırılmıştır. Bu özel adın sözlük çevresinde tapınılmaya layık olma, bağlılık ve hayranlık çağrışımları da duyulur; ad yine özel ad olarak kaldığından bu türevsel yönler failin kimliğini genelleştirmez. Bu özel bağlantıda özne işlevi belirleyicidir; seslenme, yemin ve başka kalıp kullanımları onun yerini alamaz.
+
+Aynı fail, {ar:إِنَّهُۥ, tr:innahu, gloss:kuşkusuz O} ile ikinci cümleye taşınır. Zamir Allah adını yeniden söylemeden ona açıkça döner; {ar:يَعْلَمُ, tr:yaʿlamu, gloss:bilir} fiilinin içinde taşınan özne de adı konmuş failin devamıdır. İnnahu, "Kuşkusuz O bilir" cümlesini sesçe kuvvetlendirirken onu istisnadan sonra serbestçe eklenmiş bir bilgiden sınırın gerekçesine dönüştürür. Allah adı böylece {ar:شَآءَ, tr:şâe, gloss:diledi} ile {ar:يَعْلَمُ, tr:yaʿlamu, gloss:bilir} arasında köprü olur; dileme ile bilme tek ilahî failde birleşir.
+
+Biçimlerin zamanı da bu ilişkiyi keskinleştirir. Tamamlanmış {ar:شَآءَ, tr:şâe, gloss:diledi}nin ardından süreklilik taşıyan {ar:يَعْلَمُ, tr:yaʿlamu, gloss:bilir} gelir: belirlenmiş irade, açık ve gizliyi şimdi de kuşatan devamlı bilgiyle temellendirilir. Bu bağlantıda bilmenin katkısı aktif kavrayıştır; öğretme veya başkasına bildirme biçimleri ayetin yüzeyinde seçilmemiştir. Kelimenin tanıma, gerçeğine uygun kavrama ve ayırt edici işareti seçme yönleri, bilginin nesnesini şaşırmayan niteliğini açar. Görünür olmakla gizli kalmak insan için iki ayrı erişim durumuyken ikisi de tek bilme fiiline bağlanır; Allah'ın bilmesi, nesnenin önce görünür hâle gelmesini beklemeyen bir kuşatıcılık kazanır.
+
+## Açık Alan, Gizli Alan
+
+Bilme fiilinin ilk nesnesi {ar:ٱلْجَهْرَ, tr:el-cehr, gloss:açık olan}dır. Belirli isim biçimiyle hazır bir alan gösterir: sesi yükseltilerek duyurulmuş söz, saklanmadan yapılan iş ve örtüsüz biçimde göz önünde duran şey bu açıklığın somut yüzleridir. Bu bağlantının odağı, açığa vurulmuş olanın bilgiye konu olmasıdır; bir öznenin açığa çıkarma eylemi burada anlatılmaz. Sesli söylenen sözün sır ve daha gizli olanla aynı bilgi içinde tutulması, açık kutbun işitilebilir yüzünü belirginleştirir (20:7). Gizlenenle açığa vurulanın birlikte bilinmesi de buna görünürlük yüzünü ekler (3:29). Ses böylece kamusal açıklığın gerçek bir parçası olurken kelimenin alanı duyulur olanla sınırlanmaz.
+
+Bu belirli nesneden sonra {ar:وَ, tr:ve, gloss:bağlayan} gelir ve ikinci alanı aynı bilme fiilinin eşit derecede yöneldiği karşı kutup olarak bağlar. Yazıda sonraki kelimeye bitişse de bağlacın ayrı işi sürer. Ardından gelen ikinci {ar:مَا, tr:mâ, gloss:her ne}, belirli başka bir isim sunmak yerine {ar:يَخْفَىٰ, tr:yakhfā, gloss:gizli kalır} fiilini başlatan açık uçlu bir ilgi ifadesidir. Yapı böylece sınırları belirgin "açık olan"dan cinsiyet, sayı, söz, niyet veya nesne türüyle daraltılmamış "gizli kalan her ne ise" alanına genişler. Tek yüklemin iki alanı yönetmesi, gizli tarafı açık nesne kadar cümlenin asli parçası yapar.
+
+{ar:يَخْفَىٰ, tr:yakhfā, gloss:gizli kalır} geçişsiz bir yüklem olarak önceki {ar:مَا, tr:mâ, gloss:her ne}nin hâlini tamamlar. Doğrudan söylediği, birinin bir şeyi gizlemesi veya açığa çıkarması değil, şeyin gizli kalmasıdır. Görünmez, açığa çıkmamış veya başkalarının bilgisinden uzak kalan şey; başka bir şeyi örten unsur ya da kendisi örtü altında duran içerik bu alanda duyulabilir. İncelik, zor seçilme ve belli belirsizlik de gizliliğin derecelerini verir. Bu dereceler yerel fiilin hükmünü çoğaltmak yerine onun kapalılık niteliğini zenginleştirir. Son kelimenin hem okunan hem yazılı biçiminin ayeti yakhfā üzerinde durdurması, karşıtlığı yaratılmışların en az erişebildiği uçta tamamlar; tam da o uç, devam eden {ar:يَعْلَمُ, tr:yaʿlamu, gloss:bilir} fiilinin içindedir.
+
+İki {ar:مَا, tr:mâ, gloss:açık bırakılan alan} arasındaki biçimsel yankı da cümlenin kapsamını büyütür. İlki dilemenin altına bırakılmış belirtilmemiş alanı, ikincisi bilmenin içine alınmış belirtilmemiş alanı açar. Biri istisnanın neye uzandığını, öteki neyin gizli kalabileceğini belirsiz bırakır; ayet bunları aynı nesne ilan etmez. Yan yana gelişleri yine de iradenin yöneldiği bilinmeyenle bilginin kuşattığı bilinmeyeni karşılaştırır. İnsana açıklanmamış taraf, bilen fail açısından alanın dışında kalmadığı için istisna açıklamasız bir kesinti olmaktan çıkar.
+
+Bu yerel yapı, gizli-açık karşıtlığıyla (13:10), "gizli ve daha gizli" alanıyla (20:7) ve içten, alçak sesli yakarışla (19:3) yankılanır. Bu karşılaştırmaların katkısı, {ar:ٱلْجَهْرَ, tr:el-cehr, gloss:açık olan} ile {ar:يَخْفَىٰ, tr:yakhfā, gloss:gizli kalır}ın kendi kalıplarını koruyarak ayetin nesne yapısındaki kamusal erişim ile örtülü iç arasını genişletmesidir. Bilme fiilinin ayırt etme ve işaret tanıma yönü de açık yüzdeki belirtiyle onun tüketmediği saklı gerçekliği birlikte kavrar. İşaret, bu özel okumada doğrudan bilinen içe açılan görünür yüz olarak işler; tahmine dayanak olma yönü bu bağlantıya katılmaz.
+
+İki kutup, bir başka açıdan durağan bölmelerden çok görünürlük eşiği gibi duyulabilir. Tortusu çekilen kuyunun katkısı, suyun durulup görünmesiyle maddi açılmayı göstermektir; {ar:ٱلْجَهْرَ, tr:el-cehr, gloss:açık olan}ın açıklığı ile {ar:يَخْفَىٰ, tr:yakhfā, gloss:gizli kalır}ın örtülülüğü bu eşikte buluşur. Yakhfā'nın sözlük çevresindeki örtünün kaldırılması yönü, bir şeyin görünür veya bilinir hâle gelebildiğini ve gizliliğin geçilebilir bir eşik olarak duyulabileceğini ekler; yerel fiil yine "gizli kalır" der. Bulut içinde düşük şiddetle belli belirsiz parlayan şimşek ise tam saklılık ile tam açıklık arasındaki ara dereceyi görünür kılar. Ayette adlandırılmayan kuyu, su ve şimşek bu somut benzetmenin kapsamını oluşturur: {ar:يَعْلَمُ, tr:yaʿlamu, gloss:bilir}in saklı kalmayı, hafifçe belirmeyi, örtünün kalkmasını ve tam açıklığı aynı çizgide kuşatabilmesini gösterirler.
+
+Bu eşik başka ayetlerin kurduğu bağımsız sahnelerde hareket kazanır. Gizli olanı çıkaran özne ile insanların gizlediğini ve açıkladığını bilen öznenin buluşması, çıkarma ile bilmeyi aynı sahneye getirir (27:25); daha önce saklananın sonradan belirmesi, eşiğe zamansal hareket verir (6:28); simalar ve sözün tarzı ise içeridekinin tanınmasına aracılık eden belirgin izler sağlar (47:30). Bu temaslar, {ar:يَخْفَىٰ, tr:yakhfā, gloss:gizli kalır}ın yerel, geçişsiz biçimini korurken {ar:يَعْلَمُ, tr:yaʿlamu, gloss:bilir}in gizliyi tanınır hâle gelişinde de kuşatıcı olduğunu düşündürür. Bilgi burada hem saklı olanı hem onun belirgin bir iz üzerinden ayırt edilebilir hâle gelişini kavrar. Bu bağlantıda görünen işaret saklı gerçeği tüketmez; bilen özne hem izi hem ardındaki karşılığı bilir.
+
+## İradenin Şekillenen Nesnesi
+
+İstisna bir şeye yönelen {ar:شَآءَ, tr:şâe, gloss:diledi} ile kurulduğu için, yakın bağlamdaki biçim ve durum ayrıntıları bu yönelişin nesnesini somutlaştırır. Tam ve ölçülü biçim, iç yapı ile karakterin nasıl kurulduğunu gösterir (87:2); kendi türünün alışılmış sınırını aşan biçim değişme imkânını açar (87:4); kısa, tıknaz ve inatçı oluş beden ile karakteri aynı görünüşte yoğunlaştırır (87:5); yüz ve çehre ise iç durumun dışarıda hangi yüzle belirdiğini düşündürür (87:13). Şâe'nin sözlük çevresindeki biçim ve yüzde bozulma yönü bu sahnelerle temas ettiğinde ölçünün kurulması, biçimin değişmesi ve dış yüzün iç durumu doğru yansıtması veya bozması aynı sorunun parçaları olur. Farklı kelime ailelerinin kurduğu bu buluşma güvenilir fakat niteliklidir; cümlenin dilbilgisinde doğrudan seçilen ilahî iradeyi korurken biçim ve bozulma ihtimallerini onun çevresinde tutar.
+
+Aynı nesne başlangıçtan duruma gelişe uzanan bir sıra içinde de görünür. Başlatma ve varlığa getirme ölçülü yaratmayı açar (87:2); Rabbin onarması, yetiştirmesi ve tamamlaması bakım yönünü taşır (87:1, 87:15); bir şeyi yapmak yahut var etmekle onu başka bir duruma çevirmek ise iki ayrı işlem olarak belirir (87:5). {ar:شَآءَ, tr:şâe, gloss:diledi}nin bir şeye yönelen iradesi ve o şeyin bilinebilir oluşu bu basamaklarla birleşince, istisna seçilen nesnenin yanında onun hangi koşullarda kurulup hangi hâle geçirildiğini de düşündürür. Bu bağlamsal yankıların katkısı, yaratma, yetiştirme ve durum verme üzerinden iradenin nesnesindeki düzenli oluşu görünür kılmaktır; bu özel bağlantıda söz konusu işlemler dileme fiilinin doğrudan çekimleri sayılmaz.
+
+Bu oluşun canlı bir örneği genç palmiyedir. {ar:شَآءَ, tr:şâe, gloss:diledi} çevresinde korunan iki ayrı genç palmiye kullanımı, kısa veya küçük palmiyelerle temas ederek canlılığın başlangıç biçimini verir (87:5); büyüme ve artış bu küçük başlangıcın yükselmesini (87:14), sürme ve kalıcılık ise gelişmenin zamana yayılmasını sağlar (87:17). Palmiye, gençlik ve kısalık başlangıcı; büyüme değişimi; kalıcılık da değişim boyunca sürmeyi kurunca iradenin sınırı, tek bir anlık seçimden kök salan canlılık sırasına açılır. Bu bitkisel bağlantının kapsamı bu maddi çizgidir; aynı kelime çevresindeki dinleme yönü, ilerideki ayrı ses hareketine aittir.
+
+Biçimin görünmesi, onun gerçeğini göstermesini garanti etmez. {ar:شَآءَ, tr:şâe, gloss:diledi}nin biçim bozulması yönüyle temas eden kökenden veya itaatten ayrılma, dıştaki biçimle asıl yön arasına mesafe koyar (87:4). Sahte söz üretme bu mesafeyi dile taşır (87:2); satışta abartı ve aldatma, sergilenen şey ile gerçek koşulu ayırır (87:14); ölmüş gibi yapma ve sahte alçakgönüllülük ise beden ile davranışı yanıltıcı bir yüz hâline getirir (87:13). Bir şey böylece yapılabilir, sergilenebilir, el değiştirebilir ve görünen hâliyle başka bir koşulu örtebilir. Açık yüz ile gizli durum arasındaki fark ilahî irade ve bilgi cümlesinde keskinleşir. Bu özel bağlantıda aldatma yankısının sınırlı katkısı, ayeti bir dolandırıcılık anlatısına çevirmeden kurulmuş görüntünün ardını da bilen özneyi öne çıkarmaktır.
+
+Görünüşün insanda doğurduğu tepki de tek tür değildir. Büyük ve bunaltıcı ateş sonucu (87:12), {ar:شَآءَ, tr:şâe, gloss:diledi} çevresinde korunan hayret veya acı ünlemi, hayranlık ve sevinç, ağıt ve ünlem kullanımlarını harekete geçirir: saklı sonuç açığa çıktığında tepki övgüye, şaşkınlığa ya da pişmanlık kabarmasına dönebilir. Ayrı bir değer biçme hareketinde yaygın iyi ün, asalet ve yüksek mevki (87:1, 87:15) ile bir şeyi büyük sayma (87:12), görünür olanın gözlemcinin içinde değer ve hayranlık büyütmesini sağlar. Duygusal ünlem karşılaşmanın sarsıntısını, değer verme görünen şeye içeriden verilen mevkiyi açar. Bu özel tepki bağlantısında hayranlık görünür olana biçilen değerden, ateş karşısındaki ünlem sarsıcı karşılaşmadan doğar; biçim bozulması birinci resmin, uzak görüş de ikinci resmin işlemi değildir. Böylece her dal kendi bağımsız tetikleyicisiyle kalır.
+
+İradenin nesnesine yönelmesi, sürdürülen dikkat şeklinde de yankılanır. {ar:شَآءَ, tr:şâe, gloss:diledi} çevresindeki bir işi bir yöne sürme ve uzak görüş kullanımları; birinin izinden gitmeyle (87:16), bir işi gözetip düşünmeyle (87:4), mecazen bilmeyle (87:10) ve bir şeyi gözetip beklemeyle (87:17) buluşur. İz sürme nesneyi kaybetmemeyi, düşünme onun hâlini tartmayı, bekleme sonucu zaman içinde izlemeyi, uzak görüş henüz yakın olmayanı hesaba katmayı ekler. Böylece {ar:يَعْلَمُ, tr:yaʿlamu, gloss:bilir}, elde duran bilginin yanında nesnesine yönelmiş sürekli dikkat gibi de hissedilir. Bu gözetim benzetmesinin katkısı ilahî bilmenin kuşatıcılığını genişletmektir; bu bağlantıda fiziksel bakış onun ölçüsü olarak kullanılmaz.
+
+## Belirme, Kalma, Kararma
+
+Ölçme ve oranlama (87:2) rastlantısal görünüş yerine düzenli başlangıç verir; takdir ve öngörü ile yola doğru yumuşak yöneltme (87:3), ölçülmüş kapasiteyi gelişime taşır. Sonra bir şey dışarı çıkar (87:4), başka bir duruma çevrilir; sel üzerinde yüzen döküntü önceki canlılığın açıkta kalan artığı olur ve kararma görünür büyümeyi örten son evreyi getirir (87:5). {ar:شَآءَ, tr:şâe, gloss:diledi} bu dönüşümlere yönelen iradeyi, {ar:ٱلْجَهْرَ, tr:el-cehr, gloss:açık olan} beliren evreyi, {ar:يَخْفَىٰ, tr:yakhfā, gloss:gizli kalır} yeniden örtülen durumu taşır. Örtülü olanın açığa çıkabildiği, açıkça gelişenin de kararıp taşınan kalıntıya dönüşebildiği bir süreç oku belirir. Bu ardışıklık, ayetin olağan açık ve gizli alanlarını zaman içinde düşündüren nitelikli bir bağlamsal modeldir.
+
+Bu dizideki belirli bir temas, maddi belirmeden söze geçer. Toprağın otlağı dışarı çıkarması bitkisel oluşun görünür hâle gelişini sağlar (87:4); hatırlatmanın açıkça verilmesi ise aynı belirme sorusunu iletişim alanına taşır (87:9). İki bağımsız sahnenin ortak katkısı, {ar:يَخْفَىٰ, tr:yakhfā, gloss:gizli kalır}ın saklı olanın sonradan görünür veya bilinir hâle gelebilme yönünü harekete geçirmektir. {ar:يَعْلَمُ, tr:yaʿlamu, gloss:belirgin işareti kavrar} de ortaya çıkanı tanınır kılan yüzü taşır. Bu özel analoji otlak ile hatırlatmayı özdeşleştirmez; gizli kalanın ilahî bilgi içinde tanınabilir bir biçimde belirebilmesini odak ayete geri getirir.
+
+Suyun tutulması bu sürece daha somut bir iç ve dış verir. {ar:ٱلْجَهْرَ, tr:el-cehr, gloss:açık olan} çevresindeki kuyuyu temizleme, suyun durulup görünmesini sağlar; çevrili su toplama yerleri suya sınır kazandırır (87:5), su tutan çukur veya yeni kuyu kaynağın barınağını kurar (87:2), toplanmış bol su ise hacmini büyütür (87:1, 87:15). {ar:يَعْلَمُ, tr:yaʿlamu, gloss:bilir} çevresindeki deniz yahut suyu bol kuyu kullanımı, bu havzaya su bolluğu ekler. Ayrıntılar birleştiğinde saklı olan, tutulmuş ve erişilebilir kılınabilecek bir kaynak gibi görünür. Bu maddi su bağlantısının dayanakları 87:1, 87:2, 87:5 ve 87:15 ile sınırlıdır; yakın hayat tercihi (87:16) ona somut sözlük dayanağı sağlamaz. Kuyu, havza, çukur ve nem, odak kelimelerin olağan anlamlarını koruyan ve gizli kaynağın nasıl tutulup açılabileceğini gösteren maddi benzetmelerdir.
+
+Kuyunun açılması, geride ne kaldığı sorusunu doğurur. Örtülü malzemenin dışarı çıkarılması gizli maddeyle görünür sonuç arasını açar (87:4); akıştan ayrılıp yüzeye çıkan döküntü artığı görünür kılar, onun toplanıp bir arada tutulması ise arınmayla yok olmayanı korur (87:5); sıvının koyulaşıp pıhtılaşması, akışın sonradan yerleşmiş kalıntıya dönüşmesini gösterir (87:18). Bu farklı işlemler içinde {ar:ٱلْجَهْرَ, tr:el-cehr, gloss:açık olan} temizlenince görünen suyu, {ar:يَخْفَىٰ, tr:yakhfā, gloss:gizli kalır} örtü altından ayrılan maddeyi duyurur. {ar:يَعْلَمُ, tr:yaʿlamu, gloss:bilir} de görünür sonuçla geride tutulan maddeyi karıştırmadan kavrayan ayrışma bilgisi gibi hissedilir. Bu deneysel maddi sürecin kapsamı, açık ve gizlinin ilişkisinin nasıl değişebileceğini göstermektir; odak kelimelerin olağan anlamları kuyu temizliği veya tortuya dönüşmez.
+
+Belirme ile sönme arasında hayatın gecikmesi de yer alır. Uykuya yahut çürümeye benzeyen hareketsizlik, yoklukla canlılık arasındaki sınırı bulanıklaştırır; yağmur ve bitkiyle canlanan toprak, durağan görünen kapasitenin etkinleşmesini gösterir (87:13). Büyüme ve artış bu kapasitenin dışarı gerçekleşmesini (87:14), kalıcılık ve sürme ise değişen görünürlük dereceleri boyunca devamını sağlar (87:17). {ar:ٱلْجَهْرَ, tr:el-cehr, gloss:açık olan} etkin ve algıya açık evreyi taşırken {ar:يَخْفَىٰ, tr:yakhfā, gloss:gizli kalır}ın bulut içindeki silik parıltısı henüz kamusal olmamış imkânı sezdirir. Ayrıntıların ortak katkısı, gizli olanı yoklukla gerçekleşmiş hayat arasında uykuda veya beklemede duran kapasite gibi düşündürmektir. Bu daha deneysel benzetmede hayat ve ölüm, görünürlük gecikmesinin somut koşulları olarak kalır; odak kelimelere yeni sözlük karşılıkları yüklenmez.
+
+Gizlilik bazen beklemenin yanında etkin tutma olarak belirir. {ar:يَخْفَىٰ, tr:yakhfā, gloss:gizli kalır}, bir payın geri tutulmasıyla (87:17); rahmin gebeliği kuşatması, doğrulamak yahut alıkoymak için tutma ve ertelemeye bırakma imgeleriyle (87:6) temas eder. Geri tutulan pay hemen erişilemez olur; rahim henüz görünmeyen gelişimi kuşatır; doğrulama için alıkoyma sonucu askıda tutar; erteleme söze veya gerçekleşmeye giden aralığı uzatır. Bu katkılar gizli olana, daha sonra serbest bırakılabilecek, doğrulanabilecek veya dile gelebilecek sürdürülen bir bekleme kazandırır. Bu özel tutma yankısı niteliklidir: yalnız gizli kalmanın zaman içindeki işleyişini görünür kılar, her gecikmeyi yakhfā'ya eşitlemez.
+
+Hatırlatmadan kaçınan yönelişin (87:11) ardından ateşle karşılaşılmasının (87:12) ihtiyatlı katkısı, saklı sonucun daha sonra görünürleşebilmesini ciddiye almaktır. {ar:يَخْفَىٰ, tr:yakhfā, gloss:gizli kalır}ın örtülü olanın sonradan belirmesine açık yönü, kaçınmanın gizli kalan sonucuyla ateşin görünür etkisini zaman içinde birbirine yaklaştırır; gizlilik bu resimde daha sonraki karşılaşmada açığa çıkabilecek bir evre olur. Bu özel temasta ateş yakhfā'nın sözlük anlamı sayılmaz ve açığa çıkış ayetin zorunlu lafzî hükmüne dönüştürülmez.
+
+## Sözün Dışarı Çıkışı
+
+{ar:ٱلْجَهْرَ, tr:el-cehr, gloss:açık olan}ın ilk somut yüzü sestir: söz gizlilikten çıkar, ses yükselir ve başkasının işitebileceği hâle gelir. Dilde anma (87:15), dikkatli işitmeyi sağlama (87:4), okutma (87:6) ve hatırlatma (87:9) bu çıkışın birbirini tamamlayan işlemlerini kurar. Dilde anma sözü ağızda belirginleştirir; hatırlatma da sözü yeniden dile getiren anma yönünü sürdürür (87:9). Dikkatli işitme sesin alınmasını, tilavet onun akışını, hatırlatma duyulanın geri çağrılmasını sağlar. Kelimenin çevresindeki nefes akışıyla, boğumlanma yerindeki baskıdan çıkarılan harf ayrıntısı, açıklığın fiziksel biçimini de duyurur. {ar:شَآءَ, tr:şâe, gloss:diledi} çevresindeki bir şeye çekilme veya ondan hoşlanma ile dinleme kullanımları ise alıcının sese yönelmesini ekler. İrade fiilinin anlamını koruyan bu nitelikli genişleme, açık sözü ağızdan kulağa ve belleğe ilerleyen olay hâline getirir.
+
+Bu ilerleyişin içeride sessiz bir aralığı vardır. Okutma ve unutma sahnesi (87:6), {ar:شَآءَ, tr:şâe, gloss:diledi} çevresindeki yakından dinlemeyi işitsel bir gölge olarak; {ar:ٱلْجَهْرَ, tr:el-cehr, gloss:açık olan} çevresindeki boğumlanmış harfi işitilebilir akış olarak; {ar:يَخْفَىٰ, tr:yakhfā, gloss:gizli kalır} çevresindeki örten veya örtülü şeyi içte tutulan içerik olarak buluşturur. Tilavet saklı anlamı canlı sese çıkarır, unutma ise içte tutmayla sesli çıktı arasındaki geçişin kesilebildiği noktayı gösterir. Bellekteki bu ara katman, olağan irade anlamını ve açık-gizli karşıtlığını koruyan deneysel bir fonetik benzetmedir; katkısı, sesin içeriden dışarı geçişini duyulur kılmaktır.
+
+Bu aralık, okutma ve unutmadan kolaylaştırmaya, hatırlatmaya ve önceki sahifelere ilerlediğinde yönetilen bir aktarım sürecine dönüşür (87:6, 87:8, 87:9, 87:18, 87:19). {ar:شَآءَ, tr:şâe, gloss:diledi} bir şeye yönelen irade olarak istisnayı rastgele kayıptan etkin tutma sınırına çevirir; {ar:يَعْلَمُ, tr:yaʿlamu, gloss:bilir} insanın geçici olarak erişemediğini de gerçeğine uygun kavrar. {ar:ٱلْجَهْرَ, tr:el-cehr, gloss:açık olan} nefesle boğumlanan tilaveti, {ar:يَخْفَىٰ, tr:yakhfā, gloss:gizli kalır} içte ya da fiziksel olarak örtülü katmanı taşır. Okutma somut işlemi başlatır, unutma erişimdeki kopmayı gösterir (87:6); zorluktan kolaylığa açılan yol içte tutulanı yeniden kullanılabilir kılar (87:8), hatırlatma yokluğu silinme saymayıp geri çağırmaya yönelir (87:9). Önceki sahifeler ise belleğin o anda yüzeye çıkaramadığı sözü taşıyan kalıcı dış destek ve aktarımın daha eski başlangıcıdır (87:18, 87:19). Seslenen metin, saklı bellek, geçici unutma ve yazılı taşıyıcı böylece aynı ilahî bilgi içinde tutulur.
+
+Önceki tilavetle sonraki hatırlatma arasındaki hareket (87:6, 87:9), daha geniş iletişim sahneleriyle de temas eder. Vahyin iletilen içerik oluşu, saklı kalabilecek şeyin taşınmasını sağlar (53:4); tebliğin elçiye düşen açık görev oluşu, bu taşınmanın kamusal yönünü belirginleştirir (5:99). {ar:يَخْفَىٰ, tr:yakhfā, gloss:gizli kalır}ın örtüsü kalkabilen yönü burada belirmeyi, {ar:ٱلْجَهْرَ, tr:el-cehr, gloss:açık olan} sesli çıkışı taşır. Seslendirilen söz ile gizli içeriğin birlikte bilinmesi ise (21:110), tilavet ve hatırlatmayı sözün dışarı çıkışıyla alımlamanın içeride kalışı arasında okutur (87:6, 87:7, 87:8, 87:9). Bu bağımsız sahnelerin ortak katkısı, kamusal sözün görünmeyen bir karşılığa dönebilmesini göstermektir. Açığa çıkarma yalnız bu bağlamsal genişlemeye aittir: yerel yakhfā biçimi "gizli kalır" anlamını korur ve gizli olanın her durumda bütünüyle ifşa edildiğini söylemez. Hatırlama ile kaçınma da (87:10, 87:11) bu bağlantıda mâ yakhfā'nın muhtemel iç karşılıklarıdır, tek kesin nesnesi değildir.
+
+Bilmenin bu aktarım içindeki başka bir yüzü öğrenilmiş tanımadır. {ar:يَعْلَمُ, tr:yaʿlamu, gloss:bilir}; alışkanlıkla beceri kazanma ve iz bırakmayla (87:16), Rabbin bakımının oluşturduğu bilgiyle (87:1, 87:15), yönlendirilmiş okuma seyri, tarz ve şiirsel örüntüyle (87:6) temas eder. Pratik algıyı beceriye, bakım ham kapasiteyi olgun bilgiye, tekrar edilen okuma saklı örüntüyü kullanılabilir düzene çevirir. Hatırlatma (87:9) ve eski sahifeler (87:18) bu öğrenilmiş geri dönüşü sürdürünce, gizli olan alıştırma ve okuma yoluyla tanınabilir hâle gelen yapı olarak da belirir. Bu bağlantının sınırlı katkısını örüntü ve beceri sağlar; bunlar olağan bilmenin nasıl kullanılabildiğini açar. Aynı sözlük çevresindeki "belirlenmiş zaman" kullanımı, okuma sahnesinde bilgi veya beceri teması bulunmadığı için bu özel harekete katılmaz (87:6).
+
+## Sözün İçerideki Karşılığı
+
+Aynı açık hatırlatma herkeste aynı biçimde yerleşmez (87:9, 87:10, 87:11). {ar:ٱلْجَهْرَ, tr:el-cehr, gloss:açık duyuru} sesli ve kamusal müdahaleyi sağlar; faydanın zarara karşıtlığı, alımlamayı yalnız işitilmiş olmaktan çıkarıp işleyen bir karşılığa bağlar (87:9). Korkuya eklenen huşu, içerideki duruşun hatırlamayla görünürleşmesini (87:10); bilinçli uzaklaşma ve geri çekilme, karşıt dış yönelimi gösterir (87:11). Bedbahtlığın mutluluğa karşıtlığı da kaçınmanın değer yönünü ekler (87:11). {ar:يَخْفَىٰ, tr:yakhfā, gloss:gizli kalır} kamusal davranışla bütünüyle aynı olmayan kabulü veya direnci, {ar:يَعْلَمُ, tr:yaʿlamu, gloss:bilir} ise davranıştan önce de sonra da tepkinin gerçeğini kavrayan bilgiyi taşır. Açık duyuruyla iç karşılık arasındaki fark böylece bilginin kapsamına girer.
+
+Bu iç karşılık dışarıda iz bırakabilir. Simalar ve sözün tarzı üzerinden tanınma, iç durumun yüz ve söyleyiş biçiminde seçilebilen bir belirti kazanmasını sağlar (47:30); gözlerin hain bakışıyla göğüslerin gizlediğinin aynı ilahî bilgiye girmesi, görünür belirti ile saklı yöneliş arasındaki mesafeyi korur (40:19). Bu iki sahne hatırlama ve kaçınma tepkilerine bağımsız bir ölçü verir (87:10, 87:11). {ar:ٱلْجَهْرَ, tr:el-cehr, gloss:görünür olan} yüzü, söyleniş tarzını ve seçilebilen davranışı; {ar:يَخْفَىٰ, tr:yakhfā, gloss:gizli kalır} bunların ardında kalan yönelişi; {ar:يَعْلَمُ, tr:yaʿlamu, gloss:ayırt ederek bilir} dış işaretle saklı karşılığı birlikte kavramayı taşır. Dış izin bu okumaya katkısı, görünür yüzün iç alanı tüketmediğini göstermektir; bilme hem görünen tepkiyi hem onun işaret edebileceği iç durumu kapsar. Bu özel işaret okuması davranışı gizli hâlin yanılmaz kanıtı saymaz ve ayetin kapsamını psikolojik teşhise genişletmez.
+
+Önceki sahifeler bu ilişkiye maddi kayıt ekler (87:18, 87:19). Tebliğ ve Allah'ın insanların açığa vurduklarıyla gizlediklerini bilmesiyle birlikte düşünüldüğünde (5:99), {ar:يَعْلَمُ, tr:yaʿlamu, gloss:ayırt ederek bilir}in işaret yönü görünür biçimde aktarılan sözü arkasında kalan gizli yönden ayırır. Yazının katkısı, rastlantısal izden farklı olarak kalıcı ve amaçlı bir yüzey sağlamaktır; içerideki alımlama bu yüzeyle özdeş değildir. Açık hatırlatma ve içteki hatırlama (87:9, 87:10), {ar:يَخْفَىٰ, tr:yakhfā, gloss:gizli kalır}ın alıcıdaki görünmeyen karşılığını sahifedeki ve sözdeki görünür işaretin yanına getirir. Bu özel bağlantıda alımlama mâ yakhfā'nın bir yüzüdür, bütün nesne alanı değildir; bilginin koruyucu işlevi de yazının bütün yanlış okumaları kendiliğinden çözmesi anlamına gelmez. Maddi kayıt ile saklı yöneliş böylece birbirine karışmadan aynı bilgiye girer.
+
+Kamusal aktarım böylece birkaç görünür yüz kazanır. Hatırlatma açık sözü ortaya koyarken hatırlama ve kaçınma onun iki ayrı dış tepkisini üretir (87:9, 87:10, 87:11); önceki sahifeler aynı sözün zaman içinde taşınan yazılı izini korur (87:18, 87:19). Sima ve söz tarzı, tepkinin bedende ve söyleyişte seçilebilen yüzünü ekler (47:30); tebliğ ise sözün kamusal görev olarak iletilmesini belirginleştirir (5:99). {ar:ٱلْجَهْرَ, tr:el-cehr, gloss:göz önündeki yüz} seçilebilir tepkileri, {ar:يَخْفَىٰ, tr:yakhfā, gloss:gizli yöneliş} farklı karşılıkların iç alanını, {ar:يَعْلَمُ, tr:yaʿlamu, gloss:işaretleri kavrar} tepkiyle kaydı ayırt eden ilişkiyi taşır. Kaydın bu okumaya özgü katkısı, sözün kamusal yolculuğuna kalıcı bir yüz kazandırmaktır.
+
+Bu sözün merkezinde tekrar tekrar söylenen bir ad vardır. {ar:ٱللَّهُ, tr:Allāhu, gloss:Allah} odak ayette iradenin açık öznesiyken, Rabbin adını yüceltme (87:1) ve adı dilde anıp namaz kılma (87:15) sahneleriyle ilişkiye girer. Özel ad Yaratıcıyı başkalarından ayırır; adın çevresindeki tapınma ve kişinin kendini tapınmaya verme yönü, yüceltme ile belirlenmiş, bağlayıcı ibadette karşılık bulur (87:1, 87:15). Dilde anma adı sesli kılar, namaz adlandırmayı yaşanan adanmaya dönüştürür (87:15). Adın gösterge oluşu, duyulan sesin kendisinin ötesine işaret etmesini; Rab unvanının onarma, yetiştirme ve tamamlama yönü ise ilişkinin bakım içeriğini sağlar (87:1). {ar:ٱلْجَهْرَ, tr:el-cehr, gloss:açık duyuru} yüceltme ve anmanın dış yüzünü, {ar:يَخْفَىٰ, tr:yakhfā, gloss:gizli kalır} sesin ardındaki sessiz yönelişi taşır. Özel ad kimlik işlevini korurken söylenen ad, içteki adanmanın görünür işareti olur.
+
+Açıklığın bir topluluk önünde gerçekleşmesi, sesin sosyal alanını büyütür. {ar:ٱلْجَهْرَ, tr:el-cehr, gloss:kamusal açıklık} çevresindeki insan topluluğu kullanımı; kişinin evi ve bakmakla yükümlü olduklarıyla (87:18), toplama, bir arada tutma ve kümelenmiş yapılarla (87:5), klan veya kabileyle (87:13), büyük kalabalıkla (87:1) buluşur. Anma, ibadet ve yakın hayatın insan hareketi de kamusal çevreyi genişletir (87:15, 87:16). Ev yakın sorumluluk alanını, klan aidiyeti, kamp ve yapı kümesi yerleşmiş birlikteliği, kalabalık sözün geniş işitilme alanını açar. El-cehrin olağan açıklık anlamı bu sosyal imgelerin içinde korunur; ev, klan ve kalabalık onun kamusal görünürlüğüne sınır ve ölçek kazandırır.
+
+## İzden Yola
+
+İçte kalanın dışarıda bıraktığı iz, {ar:يَعْلَمُ, tr:yaʿlamu, gloss:bilir}in ayırt edici ve yol gösterici işaret yönünü harekete geçirir. Geçmişe işaret eden kalıntı, artık görünmeyen olayı taşır; deve ayağına damga koyup iz sürme, hareketli hedefi takip edilebilir kılar (87:16). İşaret ateşi, nirengi ve kandil uzaktan konum bildirir (87:12); önde bulunan ön kısım yaklaşan istikameti belirler (87:3); ayrı çizgiler veya beden izleri yüzeyi okunabilir parçalara ayırır (87:8). Her ayrıntı görünmeyen kaynağa başka yoldan geri götürür: kalıntı geçmişe, ayak damgası hedefe, ateş konuma, ön belirti yöne, çizgi farkı da seçilebilir ayrımlara açılır. Bu işaretlerin katkısıyla bilme, izi gizli gerçeğin yerine koymadan işaretten geriye gidebilen kavrayış kazanır.
+
+Ad, iz ve sahife aynı işaret işi içinde farklı ağırlıklar taşır. Ad bir şeyi bilinir kılan görünür belirti (87:1), kalıntı artık görünmeyen nedenin kanıtı (87:16), sahife kalıcı ve amaçlı yazıdır (87:18). {ar:ٱلْجَهْرَ, tr:el-cehr, gloss:görünür yüz} bu kayıtların okunabilir yüzeyini; {ar:يَخْفَىٰ, tr:yakhfā, gloss:gizli kalır} işaretin ardındaki neden ve göndergeyi; {ar:يَعْلَمُ, tr:yaʿlamu, gloss:işaretten tanır} adlandırılmış, iz bırakmış ve yazıya geçirilmiş yüzler arasında geri dönüşü taşır. Böylece yokluk, kendisinden kalan işaret sayesinde yeniden tanınabilir. Bu bağlamsal ağın kapsamı görünür kayıtla gerisindeki anlam arasındaki ilişkidir; bu özel bağlantı her adı ve yazıyı bilme fiilinin sözlük anlamına dönüştürmez, yoruma da otomatik doğruluk güvencesi vermez.
+
+İşaret önce bir zeminde görünür. {ar:ٱلْجَهْرَ, tr:el-cehr, gloss:açık olan} çevresindeki geniş, yayvan tepe ile bilinmeyen araziyi katetme kullanımları; geniş veya düz açık zeminle (87:2), hareket alanı ve geçimlik yerle (87:1), düz yayılım ve genişlikle (87:18) temas eder. Yayvan tepe çevresinden yükselerek seçilir, düz zemin görüşü açar, hareket alanı geçişe izin verir; bilinmeyen arazi ise açık olduğu hâlde yürüyenin onu katetmesini gerektirir. Birlikte açıklığın yolu okunabilir kıldığını fakat yönlendirme ihtiyacını kaldırmadığını gösterirler. Bu özel zemin benzetmesinde düz arazi, tepe ve geçimlik yer kamusal görünürlüğün mekânı nasıl açtığını somutlaştırır; el-cehrin olağan açıklık anlamı korunur.
+
+Bu açık arazi, insanın içinde yaşayıp işlediği çevreye de dönüşür. {ar:ٱلْجَهْرَ, tr:el-cehr, gloss:açık alan}ın bilinmeyen araziyi katetme yönü; sürü, toplanmış yabani sığır ve geçimlik yerle (87:1, 87:15), çobanlık ve koruyucu bakımla (87:4), toprağı yaran çiftçiyle (87:14) buluşur. Sabbuha adlı yer de zeminin adlandırılmış mevki oluşunu ekler (87:1). Sürü hareketli canlılığı, çoban gözetilen düzeni, geçimlik yer kullanım değerini, çiftçinin yarığı toprağın emekle açılmasını sağlar. Açıkta olan böylece uzaktan görülen zeminden içinde hareket edilen, korunan ve işlendikçe anlaşılır hâle gelen alana dönüşür. Tarım ve çobanlık, el-cehrin açıklık anlamını yaşanan arazide somutlaştıran nitelikli yankılardır.
+
+Bu zeminde güzergâh yalnız görünen kesimden oluşmaz. Yola yumuşak yöneltme salt itişten farklı bir rehberlik kurar (87:3); hareketin hafif ve uyumlu olması yolu kolaylaştırır (87:8); yana yönelip geri çekilme ayrılan güzergâhı gösterir (87:11); birinin izinden gitme gerideki kanıtla süreklilik sağlar (87:16); bir sonuca dönme ise yolun ufkunu açar (87:18). Bu hareketler içinde {ar:شَآءَ, tr:şâe, gloss:diledi} çevresindeki bir şeyi bir yöne sürme iradenin itici yönünü, {ar:يَعْلَمُ, tr:yaʿlamu, gloss:yolu işaretle bilir} ayırt edici nirengiyi, {ar:ٱلْجَهْرَ, tr:el-cehr, gloss:açık arazi} görülse de henüz tanınmayan zemini, {ar:يَخْفَىٰ, tr:yakhfā, gloss:gizli kalır} yolun gözden uzak kesim ve sonuçlarını taşır. Bu daha deneysel mekânsal analojinin katkısı, bilmeyi görünmeyen kesitleri de hesaba katan yol yönetimi gibi duyurmaktır. Bu bağlantıda kelimelerin olağan anlamları korunur: irade zorlamaya, bilme yol buyruğuna, açık ve gizli de coğrafi terimlere dönüşmez.
+
+Fâtiha'dan eklenen dış bağlam bu işaret işini iki sınırlı yönde büyütür. Doğru yol isteği ile nimet verilen yol, öfke ve sapma karşıtlığı (1:6, 1:7), {ar:يَعْلَمُ, tr:yaʿlamu, gloss:ayırt ederek bilir} çevresindeki tanınır ve izlenebilir kılan işareti harekete geçirir: bu iki ayetin katkısıyla bilme, işaretlenmiş yol ile sapma arasındaki fark boyunca yön gösterebilen bir yeti gibi algılanır. Bu özel bağlantının kapsamı yalnız 1:6 ve 1:7'dir; bilme fiili hidayet buyruğuna, Fâtiha'nın tamamı da odak ayetin çerçevesine dönüştürülmez. "Âlemler" ise aynı kelime çevresindeki evren ve bütün yaratılmış varlıklar kullanımını açar (1:2). Bu tek dış ayetin ayrı katkısıyla {ar:يَعْلَمُ, tr:yaʿlamu, gloss:bilir}in nesne alanı, açık-gizli çiftini koruyarak yaratılmışların tamamına uzanan kozmik genişlik kazanır; bu ikinci bağlantının kapsamı 1:2 ile sınırlıdır.
+
+## Canlı, Hedef ve Kenar
+
+Bilmenin ayırt ettiği nesne bazen somut bir canlıdır. {ar:يَعْلَمُ, tr:yaʿlamu, gloss:bilir}in sözlük çevresindeki doğan veya atmaca türü yırtıcı kuş, hareket ve av kabiliyeti katkısını taşır; devekuşu yavrusu gelişim evresini (87:5), "canlı varlık" kullanımları da hayat statüsünü belirginleştirir (87:13, 87:16). Birlikte bilmeye, biçimden türü ve evreyi tanıyan somut bir katman kazandırırlar. Bu özel temas doğan, atmaca, devekuşu yavrusu ve canlılıkla sınırlıdır; ayrı bir sözlük kullanımı verilmediği için bülbül ve sesi bu resme katılmaz. Kuş ayrıntıları canlılar arasındaki ayrımı görünür kılarken yaʿlamu fiili "bilir" anlamını korur.
+
+Başka bir tanıma sahnesinde arazi ile canlı birbirini görünür kılar. {ar:يَعْلَمُ, tr:yaʿlamu, gloss:bilir} çevresindeki erkek sırtlan kullanımı tür kimliğini sağlar; dağa çıkan yaban keçisi hareketi ekler (87:18), uzun ve yükselen dağ yamacı zemini kurar (87:11), büyük ve uzun yapı da uzaktan seçilen silueti belirginleştirir (87:1). Bu katkılarla açık-gizli alan, uzaklık, beden ve çıkıntılı arazi boyunca canlıyı seçme sahnesine dönüşür. Sırtlan, keçi, dağ ve mahmuz bu nitelikli sahnede bilmenin canlıyı çevresinden ayırt etmesini somutlaştırır; yaʿlamu'nun olağan bilme anlamı korunur.
+
+Canlının hareketli hedef oluşu, tanımayı avın basamakları boyunca sınar. Sûre başındaki besmele (87:0) bu özel bağlantıda olağan önsöz olarak kalır ve av imgesine sözlüksel dayanak yapılmaz. Somut av hareketini ava çıkma başlatır (87:1), hayvanı ininden dışarı çekme saklı hedefi erişime getirir (87:17), kurulmuş kapan ve çoğul tuzaklar hareketini sınırlar (87:15), kuvvetli karşılaşma karşılaşmanın şiddetini gösterir (87:12), avın ölüp ölmediğini yoklama son durumu teyit eder (87:13). {ar:يَعْلَمُ, tr:yaʿlamu, gloss:bilir} çevresindeki doğan veya atmaca ise hedefe yönelen avcı kuş katkısını taşır. Basamaklar birleştiğinde bilme, hedefe yönelmiş ve sonucu denetlenmiş erişim gibi duyulabilir. Bu özel av benzetmesinde avcı kuş, av ve tuzak yaklaşma ile doğrulamayı somutlaştırır; fiilin olağan bilme anlamı korunur.
+
+Açıkla gizli arasındaki sınır bazen yüzeyin kendisinde belirir. {ar:يَعْلَمُ, tr:yaʿlamu, gloss:bilir}in sözlük çevresindeki üst dudak yarığı; deliksiz katı kapanışla (87:2), sert, keskin ve güçlü oluşla (87:15), yarma veya kesme ve dudak yarığıyla (87:14) temas eder. Kapanış içi erişilmez kılar, keskinlik yüzeye güç verir, yarma ve kesme içle dış arasında yeni kenar açar, anatomik yarık bu sınırı bedende görünür hâle getirir. Bu katkılarla gizli olan, belirsiz bir içten bir kapanışın ardında yahut ince kesik boyunca kalan şeye dönüşür. Üst dudak yarığının bu sınırlı yankıdaki işi, açık-gizli sınırını maddi yüzeyde göstermektir; bu özel bağlantı bilme fiiline bedensel kusur anlamı yüklemez.
+
+Açıklığın gelişi her zaman sakin değildir. {ar:ٱلْجَهْرَ, tr:el-cehr, gloss:açık olan} çevresindeki sabah vakti bir topluluğu gafil avlayarak varma kullanımı ani ulaşmayı sağlar. Kılıç izi karşılaşmanın kalıcı belirtisini, parlaklık göz önündeki çakışı, darbe alıcıyı değiştiren kuvveti ekler (87:16); çekişme ve üstün gelme direncin aşılmasını (87:12), aşağı doğru kıvrılma yahut yüze yönelen itiş de kuvvetin yönünü gösterir (87:8). Ayrıntılar birleştiğinde açık kutup, hedefe varıp onda iz bırakan hareketli bir geliş gibi duyulur. Bu sınırlı benzetmenin katkısı açıklığın alıcı üzerindeki değiştirici etkisini görünür kılmaktır; saldırı ve silah bu özel bağlantıda el-cehrin sözlük karşılıkları yapılmaz.
+
+## İnsan Bakışının Sınırı
+
+Açıkta olmak, insan tarafından eksiksiz bilinmekle aynı değildir. {ar:ٱلْجَهْرَ, tr:el-cehr, gloss:açık olan} çevresindeki bakanın gözünde büyük ve etkileyici görünme, güneşte kamaşıp görememe ve bilinmeyen araziyi katetme kullanımları; yükselen belirgin siluet ve yükseklikle (87:1), ateş ve ışıkla (87:12) harekete geçer. Büyük görünen şey dikkati ele geçirir, parlaklık gözü doldurup görüşü kesebilir, açık arazi görünür olduğu hâlde tanınmamış kalabilir. {ar:يَخْفَىٰ, tr:yakhfā, gloss:gizli kalır} çevresindeki örten şey ve belli belirsiz ışık, erişimsizliğin öteki ucunu taşır. Örtü az göstererek, kamaşma fazlasıyla göstererek insan erişimini bozar; {ar:يَعْلَمُ, tr:yaʿlamu, gloss:bilir} ise iki algı arızasını da kuşatan bilgiyi bildirir.
+
+Bakışın kendisi görünürlükle daha da belirginleşir. Ateş ve ışık görünürlüğün yoğunluğunu (87:12), yüz ve çehre gözlemcinin konumunu (87:13), uzak görüş bakışın erişmek istediği ufku sağlar (87:19); {ar:ٱلْجَهْرَ, tr:el-cehr, gloss:açık olan}ın gösterişli büyüklük ve güneş altında görememe yönleri, {ar:شَآءَ, tr:şâe, gloss:diledi} çevresindeki bir yöne sürme ve uzak görüş kullanımlarıyla böylece buluşur. Yöneltme dikkatin nereye çevrildiğini ekler. Aşırı belirginlik bakışı sabitleyip kamaştırdığında görünür olan yeniden erişilmezleşebilir. Bu nitelikli algı tersinmesinin kapsamı insan algısıdır: el-cehrin olağan açıklık anlamı korunur, insanın görünürlük sırası ilahî bilgiye uygulanmaz ve fiziksel görme ilahî bilmenin ölçüsü olmaz.
+
+Bu fark seçimin ufkunda son bir sonuç doğurur. İnsan yakın hayatı seçip öne alır (87:16); sonraki olan ise daha hayırlı ve kalıcıdır (87:17). {ar:شَآءَ, tr:şâe, gloss:diledi} bir şeye yönelen iradeyi, {ar:يَعْلَمُ, tr:yaʿlamu, gloss:gerçeğini bilir} seçilenin bütün sonucunu kavramayı taşır; {ar:ٱلْجَهْرَ, tr:el-cehr, gloss:hemen görünür olan} yakın seçeneğin zamansal ve algısal çekimini, {ar:يَخْفَىٰ, tr:yakhfā, gloss:gizli kalır} henüz görünmeyen ve sonraya bırakılmış sonucu açar. Öne alma beşerî tercihi görünür kılar, yakınlık onu cazip hâle getirir; "daha hayırlı" oluş salt yakınlığa karşı değer ölçüsü, sürme ve kalıcılık şimdiki tercihin örttüğü uzun ufuk olur. Yakın-sonraki ile açık-gizli birbirine eşit iki karşıtlık değildir; bilen iradenin seçim ufku, insanın hemen görebildiği sonucun ötesini de içine alır.
+
+</editorial_prose>

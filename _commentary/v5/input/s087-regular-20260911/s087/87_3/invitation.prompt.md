@@ -1,0 +1,221 @@
+# V5 reading invitation — 87:3
+
+You are a fresh reading-invitation writer. Read the complete editorial prose
+before writing. It is your sole semantic source.
+
+Write two to four paragraphs of fluent, contemporary Turkish that reveal a
+surprising reading by following one or two main channels of resonance in the
+ayah. A channel is a connected background of meanings, images, actions, or
+relations through which the ayah can be heard and understood differently.
+Several editorial findings may together develop one channel. Summarize that
+connected movement and its consequence for the ayah's main meaning, rather
+than compressing findings individually. Give the reading's substance now;
+the invitation comes from understanding it, not from a promise of hidden depth.
+
+Before drafting, read the entire editorial prose and silently select the one
+or two channels with the strongest interpretive consequence and enough
+grounding to explain clearly. Favor channels that expand or shift what the
+ayah says, the relation it establishes, or what is at stake in its action or
+image. One fully developed channel is sufficient; add a second only when it
+offers a distinct consequential reading that can be explained within the
+invitation. No finding, channel, or major shift has an individual coverage
+claim. Unselected material may remain entirely in the full commentary.
+
+A channel may develop through grammar, sound, dialogue, a material process,
+time, imagery, or a conceptual relation. Resonance is not limited to acoustic
+effects, and an unusual image alone does not establish a channel. Use only
+connections the editorial prose actually develops. If it supplies no such
+channel, explain its strongest grounded reading without inventing connections
+or surprise.
+
+Begin inside the ayah's own words, images, actions, or relations and reveal a
+selected distinctive reading in the first paragraph. Keep the plain meaning
+reachable with only the orientation needed to understand the change. Do not
+spend an opening paragraph on routine explanation or front-load context about
+the surah, the ayah's position, or the commentary project.
+
+For each selected channel, begin with the expression that opens it, unfold the
+connected background, and show how the ayah reads or sounds against that
+background. Let a detail lead into the next through an intelligible relation
+or process, so the reader experiences the emerging reading. This is a movement
+of thought, not a mandatory sentence pattern or one paragraph per finding.
+Let the reader identify the expression being interpreted,
+where any nonordinary detail comes from, and what that detail changes in the
+reading. Briefly identify the word-family use, restricted form, collocation, or
+context that supplies an essential added detail, and preserve the concrete
+operation that makes the image work. Keep the ordinary reading and necessary
+qualification clear within this explanation; do not repeat them as a fixed
+formula. Preserve the particular object, process, or relation that makes this
+reading distinctive, and state its interpretive consequence for the ayah as a
+whole. Make intelligible what the familiar reading leaves less visible and
+what the expanded or shifted reading now lets the reader understand. Preserve
+the editorial's force: an exploratory possibility remains possible, while a
+developed shift must not be softened into a decorative association or a
+reassurance that everything means the same thing. A concrete
+account of how something is carried, transformed, lost, or restored must not
+shrink to a general statement about care, guidance, dependence, or goodness.
+Keep the details needed to make the selected channel work; omit side findings
+and shorten routine setup. If a channel cannot be explained faithfully from
+the editorial prose, choose another grounded channel or reading.
+
+When a non-focus ayah supplies a contribution used in the invitation, keep its
+reference from the editorial prose beside that contribution.
+
+Do not turn the invitation into a miniature inventory of the commentary's
+conclusions, or flatten distinct channels into a broad theme to include more
+material. Do not repair, extend, or supplement the editorial prose from memory
+or outside knowledge.
+
+Omit technical apparatus. Retain any qualification, source distinction, live
+alternative, or boundary whose absence would change the force or meaning of a
+chosen reading. Express it naturally beside the image or relation it qualifies.
+Favor positive explanations of the relation between layers: what remains in
+the foreground and what the resonance makes audible in the background. State
+how that background reinforces, expands, or shifts the understanding of the
+main meaning, with the source and degree of certainty clear. Reserve explicit
+exclusions for concrete ambiguities or live counter-evidence that need them.
+Repeated "this is not X" endings make a reading sound withdrawn; express the
+substantive qualification through what the reading does contribute wherever
+possible. Use varied, natural language rather than a repeated "second layer"
+formula, and preserve the force of expansions and shifts.
+Do not name branches, candidates, findings, scopes, evidence categories,
+ledgers, or workflow stages, or label the prose as numbered channels. Do not
+list findings serially.
+
+Use the established `{ar:..., tr:..., gloss:...}` syntax, consistent
+Turkish-readable transliteration, and short ordinary glosses. Keep Arabic
+anchors beside the explanations they ground. Within a paragraph, continue with
+the Turkish meaning where clear; provide the necessary local tag when a later
+paragraph interprets the carrier anew. Do not place Arabic script outside a
+valid tag.
+
+Build transitions within a channel through its shared object, action, or
+relation. If two channels are selected, they may occupy separate paragraphs;
+do not invent a link between them. Do not praise the commentary's quality,
+promise what the reader will find, manufacture suspense, recap at the end, or
+add a call to action. End on an image, relation, action, or tension already
+established by the selected reading.
+
+Before finishing, compare the invitation with the entire editorial prose:
+does the chosen channel reveal a consequential reading, or could the text have
+been written from the ordinary translation and a modest explanation alone?
+When the editorial supports a surprising channel, the latter fails this task.
+Can the reader follow the opening expression into a connected background and
+understand how that background expands or shifts the ayah's main meaning?
+Check the selected connections against their editorial explanation: can the
+reader tell where the nonordinary details come from, with the necessary
+qualifications intact? Repair generic explanation, isolated curiosities, or a
+compressed findings list by developing the selected channel. Do not add
+omitted channels merely for coverage. Do not output this check.
+
+Write only the invitation text to:
+
+`_commentary/v5/editorial/s087-regular-20260911/s087/87_3/87_3.invitation.tr.md`
+
+Do not add a heading, wrapper label, index, ledger, evidence file, or any other
+artifact. Do not modify the editorial prose.
+
+After writing the invitation, run:
+
+```bash
+python3 _commentary/v5/validate_prose.py _commentary/v5/editorial/s087-regular-20260911/s087/87_3/87_3.invitation.tr.md
+```
+
+If validation fails, repair only the reported mechanical file-contract issues
+and rerun it, for at most two repair cycles. Report the final validator result
+in your response.
+
+<editorial_prose>
+Âyetin yalın sözü {ar:وَٱلَّذِى قَدَّرَ فَهَدَىٰ, tr:ve'l-lezî kaddara fe-hedâ, gloss:ve O, ölçüyü belirledi; ardından yol gösterdi} şeklindedir. Baştaki {ar:وَ, tr:ve, gloss:ve}, cümleyi yaratma ve düzgün biçim verme tasvirine bağlar (87:2). Yazıda da tilavette de duyulan bu küçük bağ, bağımsız bir konu açmak yerine aynı öznenin yeni işlerini önceki tasvire ekler. Onu izleyen {ar:ٱلَّذِى, tr:el-lezî, gloss:O ki} eril tekil özneyi devraldığı için ölçenin de yol gösterenin de kim olduğu belirsiz kalmaz. Âyet sınırı geçilmiş olsa bile göreli cümle yeniden kurulur; tasvir sıfırlanmaz, birikerek sürer. {ar:وَٱلَّذِى, tr:ve'l-lezî, gloss:ve O ki} böylece iki fiili başıboş süreçler olmaktan çıkarıp aynı Rabbin tanıtıcı nitelikleri hâline getirir: Rab oluş burada yalnız bir adla değil, yapılan işlerle görünür.
+
+Bu işlerin ilki olan {ar:قَدَّرَ, tr:kaddara, gloss:ölçüsünü belirledi}, tamamlanmış ve etkin bir fiildir. Ortasındaki çift ünsüzle gelen ikinci kalıp, gevşekçe tahmin etmekten çok miktarı, oranı ve payı belirleyip ayarlama yönünü öne çıkarır. Aynı anlam alanındaki başka kalıplarla karşılaştırıldığında bu yoğun biçimin hassas düzenleme ve belirli paylaştırma tarafı daha belirginleşir. Kelimenin ölçüsü hem varılacak sınırı hem bir şeyin taşıyabileceği kapasiteyi, kendisine uygun payı ve ona verilmiş değeri düşündürebilir. Böylece sınır, iş görebilecek bir yeterliğin hazırlanması olarak da okunur. Kaddara’nın sıkışık çift sesi, ardından gelen {ar:هَدَىٰ, tr:hedâ, gloss:yol gösterdi} fiilinin uzun â sesiyle açılır: ses kendi başına anlam belirlemez, fakat tilavette ölçünün baskısından yönün açılmasına geçen hareketi işitilir kılar.
+
+Ölçü, cümleyi yönlendirmeye açan dönüm noktasıdır. {ar:قَدَّرَ, tr:kaddara, gloss:ölçüsünü belirledi} fiilinin nesnesi söylenmeyerek yaratılmış alanın tamamına geri açılabilecek geniş bir ölçü sahası bırakılır; {ar:هَدَىٰ, tr:hedâ, gloss:yol gösterdi} fiilinde de kimin, neyin veya hangi yolun yönlendirildiği ayrıca belirtilmez. Böylece aynı genişlik ikinci fiilde korunur. Aradaki {ar:فَ, tr:fe, gloss:ardından ve böylece}, yakın ardıllıkla sonucu birleştirir ve aynı özneyi kaldığı yerden sürdürür. Üstelik bağlaç yüzeyde {ar:فَهَدَىٰ, tr:fe-hedâ, gloss:ardından yol gösterdi} biçiminde fiile bitişmiştir; yön, kendi menteşesiyle gelir. Hedâ da tamamlanmış etkin bir eylemdir: salt bilgi vermekten öte, bir hedefe doğru pratik yön verme ve bir şeyi varacağı yere taşıma basıncı taşır. Yaratma ile yol göstermenin yan yana gelişi başka bir âyette de görülür (20:50); buradaki kaddara ve fe ise tanıdık ilişkiyi özellikle ölçüden açılan yönlendirme olarak sıkılaştırır.
+
+## Ölçünün Açtığı Alan
+
+{ar:قَدَّرَ, tr:kaddara, gloss:ölçüyü belirledi} için en yakın genişleme, bir şeyin miktarını ve erişeceği sınırı tayin etmektir. “Bilinen ölçü” sınırı (77:22), düşünüp hesaplayarak tasarlama planı (74:18), tam ölçüsünde hazırlanan kaplar da yerine oturan oranı görünür kılar (76:16). İnsan hesabı ve ölçülü kap kendi bağlamlarında kalırken, odağa ölçüp biçme ve uygun düşürme ayrıntılarını taşırlar. Ardından {ar:هَدَىٰ, tr:hedâ, gloss:yol gösterdi} gelir: yön kaybından sonra yeniden yöneltme (93:7) ile dosdoğru yolun istenmesi (1:6), fiilin doğruya döndürme ve izlenen istikameti belirleme taraflarını açar. Miktar ve sınır, tasarlama ve uygunluk, doğruya dönüş ve takip edilebilir doğrultu böylece birbirine işler; belirlenen kapasite kendisine uygun bir gidiş kazanır. Bu özel temasların kapsamı ölçü, plan, uygunluk ve yönle sınırlıdır; bütün sözlük alanı, zorunlu kadercilik ve sûrenin tek bir tezle açıklanması bu ilişkinin dışında kalır.
+
+Uygun gidiş, yakın bağlamda yaratılmış biçimin tamamlanmasından doğar. {ar:ٱلَّذِى خَلَقَ فَسَوَّىٰ, tr:el-lezî halaka fe-sevvâ, gloss:yarattı ve düzgün biçim verdi} oluşturma ile içsel düzgünlüğü kurar (87:2); odaktaki {ar:قَدَّرَ, tr:kaddara, gloss:ölçüp biçerek hazırladı} bu biçime miktar, sınır, süre ve uygun son verir, {ar:فَهَدَىٰ, tr:fe-hedâ, gloss:ardından yol gösterdi} ise tamamlanmış biçimi işleyebileceği doğrultuya açar. Sonra {ar:ٱلْمَرْعَىٰ, tr:el-mer'â, gloss:otlak}ın ortaya çıkarılması düzenleyici eylemi somut bir canlılık alanına taşır (87:4). Bu paralel harekette ilahî belirleme, yaratılanın biçimini ve işleyebileceği yolu birlikte hazırlayan dinamik bir düzen olarak duyulur; âyetin temel “ölçüyü belirledi” anlamı, yakın bağlamın bu ayrıntıları içinde daha görünür hâle gelir.
+
+Ölçünün uygunluk tarafını önce biçim ve yeterlik ayrıntıları geliştirir. {ar:خَلَقَ, tr:halaka, gloss:yarattı} ölçme ve oranlamayı, tamamlanmış biçimi ve elverişliliği; {ar:سَوَّىٰ, tr:sevvâ, gloss:düzgün ve eşit kıldı} eşitliği ve içten tamamlanmayı taşır (87:2). {ar:تَزَكَّىٰ, tr:tezekkâ, gloss:arındı ve gelişti} uygunlukla gelişmeyi (87:14), {ar:تُؤْثِرُونَ, tr:tü'sirûne, gloss:tercih ediyorsunuz} ise bir şeye alışıp onda beceri kazanma çağrışımını ekler (87:16). Bunlarla temas eden {ar:قَدَّرَ, tr:kaddara, gloss:miktarını ve erişeceği ölçüyü belirledi}, sayısal sınırı kullanılabilir yeterliğe dönüştürür: ölçü, yaratılanın neyi taşıyabileceğini ve neye elverişli hâle geldiğini de gösterir.
+
+Aynı ölçü, uçları ve ortayı karşılaştırılabilir kılar. {ar:ٱلْكُبْرَىٰ, tr:el-kübrâ, gloss:en büyük olan} büyüklüğü ve ağırlığı (87:12), {ar:ٱلْيُسْرَىٰ, tr:el-yüsrâ, gloss:kolay olan} kolaylığın yanı sıra az miktar çağrışımını (87:8), {ar:سَوَّىٰ, tr:sevvâ, gloss:düzgün ve eşit kıldı} ise orta ve adil buluşma ile başa denk gelen servet payını taşır (87:2). {ar:قَدَّرَ, tr:kaddara, gloss:ölçüyü belirledi} bu temaslarla büyük ile küçüğü, darlık ile genişliği, uçlarla hakkaniyetli ortayı aynı ölçek üzerinde görünür kılar. Kelimenin geçim payını daraltma kullanımı özel bir söz öbeğine bağlı olduğundan çıplak odak fiilinin doğrudan karşılığına dönüşmez; burada kalan şey, ölçünün hem kapasiteyi hem onun sonlu kenarını göstermesidir.
+
+Bu sonlu kenar, yönlendirmenin işleyebileceği alanı kurar. {ar:قَدَّرَ, tr:kaddara, gloss:ölçüsünü ve kapasitesini belirledi} bir işi yapmaya elveren yerleşik gücü düşündürürken, {ar:فَهَدَىٰ, tr:fe-hedâ, gloss:ardından doğruya yöneltti} bu imkânın hangi yönde kullanılacağını açar. Geçim payı daraltılan kişinin kendi imkânına göre harcaması ve ardından kolaylığın anılması, daraltma kolunun özel bağlamını gösterir (65:7); doğru yön ile sapan yolların ayrımı da yönün gerçek bir tutum ve izlek olduğunu belirginleştirir (16:9). Sûrede {ar:أَشْقَىٰ, tr:eşkâ, gloss:daha sıkıntılı olan} meşakkati (87:11), {ar:ٱلْكُبْرَىٰ, tr:el-kübrâ, gloss:en büyük ve ağır olan} yükü (87:12), {ar:نُيَسِّرُكَ لِلْيُسْرَىٰ, tr:nüyessiruke li'l-yüsrâ, gloss:seni kolay olana hazırlayacağız} ise kolaylığı ve kullanılabilir araçları yan yana getirir (87:8). Ölçü alanı böylece direnç ve ağırlığın içinden kolaylığa açılan sınırlı bir güzergâh gibi genişler.
+
+Güzergâhın kapasitesi bir hüküm ve sorumluluk alanı içinde belirir. {ar:رَبِّكَ, tr:rabbike, gloss:Rabbin} ile daha sonraki Rab anması hüküm, mülkiyet ve koruyucu yetkiyi taşır (87:1, 87:15); Fâtiha’daki {ar:رَبِّ, tr:rabb, gloss:Rab} bu yetki alanını dış bağlamda da görünür kılar (1:2). {ar:نُقْرِئُكَ, tr:nukri'uke, gloss:sana okutacağız} ise mülk ve bakmakla yükümlü olunanlar çağrışımını ekler (87:6). Bu bağımsız baskılarla {ar:قَدَّرَ, tr:kaddara, gloss:kapasitesini belirledi} kullanılabilir gücü, {ar:هَدَىٰ, tr:hedâ, gloss:yol gösterdi} o gücün izleyebileceği yönü gösterir. Bu bağlantının olumlu iddiası, sınırın rehberliği yürünebilir kılabilmesidir; bütün sınırlılıkları merhamet saymak ve sonraki insan tercihlerini tek nedene bağlamak kapsamının dışındadır.
+
+Ölçü bir payı alıcıya ulaştırdığında tahsis görüntüsü belirir. {ar:أَخْرَجَ, tr:ahrece, gloss:çıkardı} karşılıklı payların uzlaştırılmasını (87:4), {ar:سَوَّىٰ, tr:sevvâ, gloss:eşitledi} her başa denk düşen miktarı (87:2), {ar:ٱلْيُسْرَىٰ, tr:el-yüsrâ, gloss:kolay olan} kura ile paylaştırılmış deve çağrışımını taşır (87:8). Rab sözleri, okları bir kılıfta toplayarak bölüşümün ortak başlangıcını verir (87:1, 87:15, 1:2). Oklar bir araya gelir, paylar denk düşürülür, belirlenen pay sahibine yönelir; bu işlemlerle {ar:قَدَّرَ فَهَدَىٰ, tr:kaddara fe-hedâ, gloss:ölçtü ve yön verdi} çifti belirsiz bölüşümü kurallı atamaya çevirir. Kura görüntüsünün katkısı bu tahsis hareketini somutlaştırmaktır; âyetin düz anlamı ölçme ile yön verme olarak kalır.
+
+Tahsis edilen payın elde tutulması, sayımın tekrarlanabilir olmasını gerektirir. {ar:أَبْقَىٰٓ, tr:ebkâ, gloss:daha kalıcı tuttu} payın rezervde kalmasını sağlar (87:17); {ar:أَخْرَجَ, tr:ahrece, gloss:çıkardı} saklı olanın yeniden bulunmasını (87:4), {ar:سَبِّحِ, tr:sebbih, gloss:tesbih et} boncukların tek tek sayılmasını (87:1), {ar:نُيَسِّرُكَ لِلْيُسْرَىٰ, tr:nüyessiruke li'l-yüsrâ, gloss:seni kolay olana hazırlayacağız} ayrılmış çizgi ve beden işaretleriyle sıranın okunmasını çağrıştırır (87:8). Rezerv süreklilik, bulma geri erişim, boncuklar tekrar, işaretler de düzenli sıra kazandırır. Bunlarla temas eden {ar:قَدَّرَ, tr:kaddara, gloss:ölçü ve sınır verdi}, elde tutulan payın işaretlenip tekrar tekrar denetlenebildiği bir düzeni görünür kılar; saklı nesne imgesi bu özel işleyişi somutlaştırmakla sınırlıdır.
+
+Sayım servet ve yükümlülüğe uygulandığında bölüşümün sorumluluğu öne çıkar. {ar:أَخْرَجَ, tr:ahrece, gloss:çıkardı} hak edilmiş servet çıktısını ve uzlaşılmış payı (87:4), {ar:سَوَّىٰ, tr:sevvâ, gloss:eşitledi} denk miktarı (87:2), {ar:نُقْرِئُكَ, tr:nukri'uke, gloss:sana okutacağız} mülk ile bağlıları taşır (87:6). {ar:قَدَّرَ, tr:kaddara, gloss:ölçü ve sınır belirledi} bu unsurları hesaplanabilir bir payda buluşturur. İlk sahifelere bağlanan özel atfın neyi işaret ettiği çözülmediği için bu bölüşüm çekirdeğine eklenmez (87:18); ölçünün burada değiştirdiği okuma, mülkiyet ile bakmakla yükümlü olunanlar arasında denetlenebilir bir hesabın bulunmasıdır.
+
+Hesabın sürmesi, sonucu hazırlama kadar sonuca giden işi de düzenlemeyi gerektirir. {ar:ٱلْأُولَىٰ, tr:el-ûlâ, gloss:önceki olan} işleri doğruya koyma ve yönetmeyi (87:18), {ar:أَبْقَىٰٓ, tr:ebkâ, gloss:daha kalıcı tuttu} bekleyip gözetmeyi (87:17), {ar:جَعَلَهُۥ, tr:ce'alehû, gloss:onu yaptı} bir eylemi başlatıp sürdürmeyi (87:5), {ar:ٱلْمَرْعَىٰ, tr:el-mer'â, gloss:otlak} çobanlığı, koruyucu bakımı ve işi değerlendirmeyi taşır (87:4). {ar:ٱلْكُبْرَىٰ, tr:el-kübrâ, gloss:en büyük olan} işin başlıca yükünü ayrıca belirginleştirir (87:12). Yönetim düzeni kurar, gözetim sapmayı fark eder, süreklilik işi kesintiden korur, bakım da ana yükü taşır. Bunlarla temas eden {ar:قَدَّرَ, tr:kaddara, gloss:ölçüp hazırladı} ile {ar:هَدَىٰ, tr:hedâ, gloss:yönetti ve yol gösterdi}, belirlenmiş sonucu hazırlama, izleme, düzeltme ve bakımla sürdüren bir iş akışı gibi duyulur.
+
+## Yükü Taşıyan Yön
+
+Bakımla sürdürülen düzenin ardından dikkat şimdi yönün nasıl izlendiğine döner. {ar:يَتَجَنَّبُهَا, tr:yetecennebuhâ, gloss:ondan uzak duracak} bir şeyi yanında tutarak yönlendirme çağrışımını (87:11), {ar:سَوَّىٰ, tr:sevvâ, gloss:düzgün kıldı} bir yöne dönmeyi ve kişi ya da hedef gözetmeyi (87:2), {ar:نُقْرِئُكَ, tr:nukri'uke, gloss:sana okutacağız} biçim, örüntü ve izlenen yöntemi taşır (87:6). Kolay olana hazırlanmak bu yöntemin yürünebilirliğini ayrıca gösterir (87:8). Bu baskılar altında {ar:هَدَىٰ, tr:hedâ, gloss:yol gösterdi} doğruyu incelikle gösterme, izlenen doğrultu ve bir bütünün ön veya ilk üyesi olma taraflarını açar: önden bir işaret belirir, alıcı hedefe döner, yöntemi izler ve yanında götürülür. Yön gerçek bir istikamettir, fakat gösterilmiş olması yürüyenin cevabını peşinen belirlemez.
+
+Bu ilerleyiş beden kazandığında önce taşıma araçları görünür olur. {ar:قَدَّرَ, tr:kaddara, gloss:taşıyabileceği ölçüyü hazırladı} yol ile yükün ayarını kurar. {ar:فَهَدَىٰ, tr:fe-hedâ, gloss:ardından yol gösterdi} ile bağlantılı sallanarak ve bir başkasına dayanarak yürüme; {ar:يَتَجَنَّبُهَا, tr:yetecennebuhâ, gloss:ondan uzak duracak}ın dışa açılmış bacak duruşuyla (87:11), {ar:أَحْوَىٰ, tr:ahvâ, gloss:kararmış olan}nın deve eyeri çerçevesiyle (87:5), {ar:سَبِّحِ, tr:sebbih, gloss:tesbih et}in deri giysi ve sağlam pelerinle (87:1), {ar:سَوَّىٰ, tr:sevvâ, gloss:düzgün kıldı}nın bineğe yerleşme ve sırt pediyle temas eder (87:2). Çerçeve yükü toplar, örtü korur, ped basıncı dağıtır, açılmış duruş denge sağlar; bu işlemler birleşince yön, kırılgan hareketi destekleyen bir seyahat düzeni hâline gelir.
+
+Aynı bedenin sınırı, taşıma düzeninin neyi önlediğini gösterir. {ar:يَتَجَنَّبُهَا, tr:yetecennebuhâ, gloss:ondan uzak duracak} dışa açılan duruşu (87:11), {ar:سَوَّىٰ, tr:sevvâ, gloss:yerleşip dengelendi} yükselip yerleşmeyi (87:2), {ar:ٱلْأَعْلَى, tr:el-a'lâ, gloss:en yüce olan} üstte bulunan veya eklenen yükü (87:1), {ar:نُيَسِّرُكَ لِلْيُسْرَىٰ, tr:nüyessiruke li'l-yüsrâ, gloss:seni kolay olana hazırlayacağız} aşağı kıvırma ve yüz hizasına itme hareketini taşır (87:8). Bu bedensel ayara {ar:قَدَّرَ, tr:kaddara, gloss:uygun ölçüye getirdi} uygunluğu verir; {ar:هَدَىٰ, tr:hedâ, gloss:yol gösterdi} ise sallanarak destekle yürümenin yanında sakin ve düzgün ilerlemeyi duyurur.
+
+Hedâ ile bağlantılı ayrı bir anlam çizgisindeki üç imge, bu dengenin karşısındaki baskıyı farklı yönlerden açar: kırıp yıkma yapısal bütünlüğün kaybını, ağır ve sert basma zemine binen yükü, sarp inişli geçit ise hareketin güçleştiği araziyi gösterir. {ar:قَدَّرَ, tr:kaddara, gloss:uygun ölçüye getirdi} yükü taşıyacak ayarı kurar; {ar:هَدَىٰ, tr:hedâ, gloss:yol gösterdi} bu şartlarda sakin ilerleyişi sürdürür. Kırılma, sert adım ve sarp inişin bu özel bağlantıdaki katkısı, açık ölçme ve yol gösterme eylemlerini yük altında çökmeyi önleyen bedenlenmiş bir geçiş olarak duyurmaktır.
+
+Destekli yürüyüş, gücün kesilmesi ile toparlanma arasındaki eşiğe de dokunur. {ar:يَمُوتُ, tr:yemûtu, gloss:ölür} kuvvetin sönmesini, {ar:يَحْيَىٰ, tr:yahyâ, gloss:yaşar} hayatı ve kurtarıcı yararı birlikte taşır (87:13); {ar:ٱلْأَعْلَى, tr:el-a'lâ, gloss:en yüce olan} hastalık veya lohusalık sonrasındaki toparlanma çağrışımını ekler (87:1). Yakın hayatın tercih edilmesi de hareketin hangi yöne dönebileceğini açık bırakır (87:16). Bunlarla temas eden {ar:فَهَدَىٰ, tr:fe-hedâ, gloss:ardından yol gösterdi}, sallanarak ve başkasına dayanarak ilerleme yönüyle, rehberliği istikrarsızlıktan yeniden etkili harekete geçişe açar. Hayat ve ölümün açık karşıtlığı yerinde durur; bedensel toparlanma, o karşıtlığın odak fiiline verdiği somut baskıdır.
+
+Toparlanan hareketin bir varışa dönüşmesi, öncülük ile uygunluk arasında yeni bir temas kurar. {ar:قَدَّرَ, tr:kaddara, gloss:uygun ölçüsünü hazırladı} varılacak ilişkiye göre bir son hazırlarken, {ar:هَدَىٰ, tr:hedâ, gloss:önden gidip yol gösterdi} kılavuzun öncülüğünü ve birini belirlenmiş yerine götürmesini görünür kılar. Hedâ ile belgelenen “gelini eşinin yanına götürme” kullanımı taşıma işini somutlaştırır. {ar:ٱلْأُولَىٰ, tr:el-ûlâ, gloss:önceki olan} haneyi ve bakmakla yükümlü olunanları (87:18), {ar:يَحْيَىٰ, tr:yahyâ, gloss:yaşar} kabile ve topluluğu (87:13), {ar:تَزَكَّىٰ, tr:tezekkâ, gloss:arındı ve gelişti} çift ile eşleşmeyi çağrıştırır (87:14); öne alıp seçme hareketi de yerleşmenin yönünü belirginleştirir (87:16). Hane varış yerini, topluluk yeni aidiyeti, çift ise kurulan ilişkiyi verir. Bu parçalarla yön, varıştan ilişkiye katılmaya doğru genişler. Gelin imgesinin bu bağlantıdaki kapsamı, ölçülmüş olanın uygun yerine yalnız bırakılmadan ulaştırılmasıdır; odak âyetin yüzeyinde bir evlilik sahnesi kurulmaz.
+
+Uygun yere ulaştırılanın korunması, varışa yükümlülük ve güvence ekler. {ar:أَبْقَىٰٓ, tr:ebkâ, gloss:daha kalıcı tuttu} bağışlayarak hayatta tutmayı ve direnci (87:17), {ar:يَتَجَنَّبُهَا, tr:yetecennebuhâ, gloss:ondan uzak duracak} yanında ve yakınında bulundurmayı (87:11), {ar:ٱلْمَرْعَىٰ, tr:el-mer'â, gloss:otlak} bir hakkı esirgeyip korumayı taşır (87:4). {ar:رَبِّكَ, tr:rabbike, gloss:Rabbin} ve daha sonraki Rab anması bağlayıcı ant ile mülkiyet sorumluluğunu (87:1, 87:15), Fâtiha’daki {ar:رَبِّ, tr:rabb, gloss:Rab} koruyucu Rab oluşu ekler (1:2). Bu işlemlerle {ar:قَدَّرَ فَهَدَىٰ, tr:kaddara fe-hedâ, gloss:ölçtü ve yol gösterdi} çifti korunmasız hayatı sözleşme, yakınlık ve bağışlama içinde tutar; hedâ’nın dokunulmaz sığınmacıyı güvenceye alma yönü, yol göstermeyi kaybolmayı önleyen koruyucu ilişki olarak genişletir.
+
+Korunan yol kişide karşılık bulduğunda, dışarıdaki istikamet bir tutuma dönüşür. {ar:يَخْشَىٰ, tr:yahşâ, gloss:huşu duyar} korku ile saygılı ürpertiyi (87:10), {ar:ٱلْمَرْعَىٰ, tr:el-mer'â, gloss:otlak} yanlıştan dönme ve korunan hakkı (87:4), {ar:يَمُوتُ, tr:yemûtu, gloss:ölür} hakikate boyun eğme çağrışımını taşır (87:13). {ar:هَدَىٰ, tr:hedâ, gloss:yol gösterdi}nin sakin ve ölçülü ilerleme yönü bu hareketleri birbirine bağlar: ürperti geri dönüşü mümkün kılar, korunan hak teslimiyetin sınırını tutar, teslimiyet de acele etmeyen ilerleyişe dönüşür. Bu özel ahlaki yankı, otlak ve ölümün açık anlamlarını koruyarak odak fiilini kişinin kendi hızını ve direncini frenleyen istikamet olarak yeniden duyurur.
+
+Bu tutumdan sonra yeni soru, hedefe nasıl yaklaşıldığıdır. {ar:فَصَلَّىٰ, tr:fe-sallâ, gloss:ardından namaz kıldı} dua ve ibadet yerlerini (87:15), {ar:يَصْلَى, tr:yaslâ, gloss:girecek ve yanacak} salât adı verilen kutsal mekân çağrışımını taşır (87:12). {ar:فَهَدَىٰ, tr:fe-hedâ, gloss:ardından yol gösterdi} ile bağlantılı sevgi armağanı, kutsal hedefe adanan sunu ve dokunulmaz sığınmacı anlamları bunlarla birleşince yaklaşmanın işlemleri belirir: armağan yakınlık kurar, adak ayrılır, ibadet yerine yönelinir ve sığınmacı güvenceyle yaklaşır. Ritüel güzergâh, yol göstermenin hedef kadar yaklaşma biçimini de kapsayabildiğini gösterir; belirli ibadet yeri, armağan ve kurban ayrıntıları bağlam sözcüklerinin kurduğu somutlamaya aittir.
+
+Bu karşılığın bulunmadığı durumda yönün karşı kutbu görünür. {ar:جَعَلَهُۥ, tr:ce'alehû, gloss:onu yaptı} bedensel katılığı ve inadı (87:5), {ar:يَمُوتُ, tr:yemûtu, gloss:ölür} kalbin ölüleşmesini (87:13), {ar:ٱلنَّارَ, tr:en-nâr, gloss:ateş} kaçınma ve kararsız uçuşu taşır (87:12). Hedâ ile bağlantılı bön, güçsüz ve ağır kişi nitelemesi bunlarla temas ettiğinde, katılık hareketi zorlaştırır, ölüleşme kavrayışı söndürür, kararsız kaçış da istikameti dağıtır. Sonuç, hareket ettiği hâlde yönü kavrayıp ona istikrarlı cevap veremeyen bir alıcıdır. Bu niteleme yalnız bu karşı görüntünün alıcısını tarif eder; {ar:هَدَىٰ, tr:hedâ, gloss:yol gösterdi}nin odaktaki anlamı doğruya yöneltme olarak kalır.
+
+## Ulaştırılan İyilik
+
+Yönün bir alıcıya ulaşması, ölçü ile uygunluğun armağan tarafını açar. {ar:قَدَّرَ, tr:kaddara, gloss:ölçüp biçerek hazırladı} biçimi ve payı uygunlaştırır; {ar:هَدَىٰ, tr:hedâ, gloss:yol gösterdi} ile bağlantılı sevgi veya yakınlık armağanı verme kullanımı, hazırlanan imkânın zarafetle ulaştırılmasını düşündürür. Tam ölçülü sunum uygun biçimi (76:16), hükümdara gönderilen maddi armağan ulaştırma hareketini (27:35), imana yönelişin ilahî lütuf diye anılması da alıcı yararına açılan iyiliği gösterir (49:17). Meranın ortaya çıkıp solması verilen imkânın maddi ömrünü (87:4, 87:5), okumanın korunması ve istisnanın açık tutulması taşıma kapasitesini (87:6, 87:7), kolaylığa hazırlanma ise alıcıya uygun yolu görünür kılar (87:8). Böylece yol göstermek, hedefi bildiren işaret olmanın yanında ölçülmüş olana uygun biçimde erişen lütuf gibi de algılanır. Armağan imgesinin kapsamı yönlendirmenin incelikli ulaşma tarzıdır; hedâ’nın düz anlamı doğruya yöneltme olarak korunur.
+
+Ulaştırılan iyilik alıcıda sonuç doğurduğunda değer aktarımı görünür olur. {ar:جَعَلَهُۥ, tr:ce'alehû, gloss:onu yaptı} emeğe bağlanan ödülü (87:5), {ar:خَيْرٌ, tr:hayrun, gloss:daha hayırlı} iyilik ile bağışı (87:17), {ar:نَّفَعَتِ, tr:nefe'at, gloss:yarar verdiyse} zararın karşıtı yararı taşır (87:9). {ar:تُؤْثِرُونَ, tr:tü'sirûne, gloss:tercih ediyorsunuz} alıcının etkin seçimini ayrıca görünür kılar (87:16). Ödül karşılığı, bağış cömertliği, yarar muhataptaki iyileşmeyi, seçim de onun etkin cevabını ekler. Bunlarla temas eden {ar:فَهَدَىٰ, tr:fe-hedâ, gloss:ardından yol gösterdi}nin sevgi armağanı yönü, ölçülü yönlendirmenin muhataba erişmesini ve taraflar arasında karşılıklı düzelme doğurmasını sağlar. Ücret çağrışımının bu bağlantıdaki payı emeğe karşılığı göstermektir; odak âyette bir ücret sözleşmesi kurulmaz.
+
+Değerin ilk karşılaşmadan sonra yaşayabilmesi için taşınabilir bir biçim gerekir. Başlangıçtaki besmele (87:0), adın yüceltilmesi (87:1) ve yeniden anılması (87:15) sözün tanınan bir isim çevresinde dolaşmasını sağlar. {ar:تُؤْثِرُونَ, tr:tü'sirûne, gloss:tercih ediyorsunuz} elden ele aktarılan raporu (87:16), {ar:ذَكَرَ, tr:zekere, gloss:andı} şerefli anılma ve ünü (87:15), {ar:ٱسْمَ, tr:isme, gloss:adı} yayılan itibarı (87:1), {ar:نُقْرِئُكَ, tr:nukri'uke, gloss:sana okutacağız} ise belirlenmiş fakat ertelenebilen vakti ve örüntülü söyleyişi taşır (87:6). Hatırlatmanın yararı ve huşuyla gelen cevap, aktarımın alıcıda nasıl tamamlandığını gösterir (87:9, 87:10).
+
+Bu taşıyıcılara {ar:قَدَّرَ, tr:kaddara, gloss:ölçüp biçerek tasarladı} sözün düzenini verir; {ar:هَدَىٰ, tr:hedâ, gloss:yol gösterdi} ile belgelenen övgü ya da yergi şiiri sunma kullanımı da hazırlanmış sözün birine ulaştırılmasını düşündürür. Rapor aktarımı dolaşımı, ad ve ün hatırlanabilirliği, örüntülü söyleyiş ise biçimin korunmasını sağlar; bunlar birleşince rehberlik söylenen, adanan ve ilk andan sonra da yaşayabilen bir model olur. Şiir sunmanın bu bağlantıdaki payı, ölçülü sözün bir ileti gibi taşınabilmesidir; odak âyetin türü bu kullanımla belirlenmez.
+
+## Kabın ve Canlının Ölçüsü
+
+Taşınabilir biçimden maddi kaba geçildiğinde dikkat başka bir ölçeğe döner: burada soru, bir dönüşümün aşamalarını neyin tuttuğudur. {ar:ٱلْأُولَىٰ, tr:el-ûlâ, gloss:önceki olan} içeceği olgunlaştıran kabı getirir (87:18); {ar:أَخْرَجَ, tr:ahrece, gloss:çıkardı} içeride birikenin dışa taşmasını (87:4), {ar:فَصَلَّىٰ, tr:fe-sallâ, gloss:ardından namaz kıldı} ateş ve ısıyla karşılaşmayı (87:15), {ar:يَصْلَى, tr:yaslâ, gloss:girecek ve yanacak} yakma, kızartma ve ateşle düzeltmeyi, {ar:ٱلنَّارَ, tr:en-nâr, gloss:ateş} ise yakan ve damgalayan sonucu taşır (87:12). Kap maddeyi alır, ısı dönüşümü başlatır, zaman içeriği olgunlaştırır, dışa taşma ile damga da değişimin sonucunu görünür kılar. {ar:قَدَّرَ, tr:kaddara, gloss:ölçüsünü belirledi} bu görüntüde aşamaları bir arada tutan sınırdır. Kaddara’dan türeyen özel “pişirme kabı” adı çıplak odak fiilinde kurulmaz; bu bağlantıda kap ve ısı, çevredeki bağımsız sözcüklerin ölçüye verdiği somutluktur.
+
+Dönüşümün gerçekleşmesi, kabın yanı sıra ona hizmet eden araçların da malzemeye ve yüke uygun olmasını gerektirir. {ar:جَعَلَهُۥ, tr:ce'alehû, gloss:onu yaptı} kap kaldırma bezini (87:5), {ar:أَخْرَجَ, tr:ahrece, gloss:çıkardı} iki taraflı heybeyi (87:4), {ar:ٱلصُّحُفِ, tr:es-suhuf, gloss:sayfalar} geniş ve sığ tası ya da leğeni (87:18, 87:19), {ar:فَصَلَّىٰ, tr:fe-sallâ, gloss:ardından namaz kıldı} dövme taşını (87:15), {ar:يَصْلَى, tr:yaslâ, gloss:girecek ve yanacak} taş veya levhayı taşır (87:12). {ar:ٱلْأُولَىٰ, tr:el-ûlâ, gloss:önceki olan} olgunlaştırma kabını (87:18), Rab sözleri de ok kılıfı gibi toplanmış demeti ekler (87:1, 1:2). Kap, bez, heybe ve taş böylece birbirine hizmet eden bir takım hâline gelir.
+
+Bu takımın odağa dönen katkısı, sınırı kullanım biçimiyle ilişkilendirmesidir. Bez kabı kaldırır, heybe yükü iki yana dağıtır, taş malzemeyi işler, kabın biçimi içeriği tutar. Bu ayrı hizmetler {ar:قَدَّرَ, tr:kaddara, gloss:uygun ölçüsünü belirledi} çevresinde birleşince ölçü, içeriğin miktarı kadar onu taşıyan desteğin kapasitesini de gösterir. Böylece çevresel araçların ortak baskısı, odak fiilini pratik hizmete ve taşıma sınırına uygunluk yönünde genişletir.
+
+Kabın içindeki değişim, canlı malzemenin zaman içindeki rotasında başka bir karşılık bulur. {ar:أَخْرَجَ, tr:ahrece, gloss:çıkardı} gizliden çıkarma hareketini, {ar:ٱلْمَرْعَىٰ, tr:el-mer'â, gloss:otlak} beslenmeyi taşır (87:4); {ar:جَعَلَهُۥ, tr:ce'alehû, gloss:onu yaptı} yeni duruma geçişi, {ar:غُثَآءً, tr:gusâ'en, gloss:kuru döküntü} yaşlanıp dağılmış maddeyi, {ar:أَحْوَىٰ, tr:ahvâ, gloss:kararmış olan} son görünümü getirir (87:5). Çıkarma başlangıcı, otlak besleyici evreyi, ce'alehû bilinçli durum değişimini, kuru döküntü ile kararma da çözülüşün iki sonucunu verir. Bu evreleri {ar:قَدَّرَ, tr:kaddara, gloss:ölçü, sınır ve süre belirledi} ile {ar:فَهَدَىٰ, tr:fe-hedâ, gloss:ardından yol gösterdi} birbirine bağladığında, yön ortaya çıkma, beslenme, durum değiştirme, kuruyup ufalanma ve kararmadan geçen ölçülmüş bir hayat rotası gibi duyulur. Bu güçlü bağlamsal genişleme, meranın dönüşümünü ilahî kudret ve faniliğin bağımsız örneği olarak okuma imkânıyla birlikte kalır.
+
+Canlı rota toprağın içinde çalıştığında, gelişmenin iç mekanizması görünür. {ar:أَفْلَحَ, tr:efleha, gloss:kurtuluşa erdi} toprağı yarıp oluğu açan işi ve başarıya ulaşmayı, {ar:تَزَكَّىٰ, tr:tezekkâ, gloss:arındı ve gelişti} büyümeyi, arınmayı ve uygun hâle gelmeyi taşır (87:14). Bu iki işlemle temas eden {ar:قَدَّرَ, tr:kaddara, gloss:başka bir ölçüye uygun biçim verdi} kanalın ölçülerini, {ar:هَدَىٰ, tr:hedâ, gloss:yol gösterdi} kanalın izlenen yönünü kurar. Oluk başlangıç yolunu açar, ölçü bu yolu büyümeye uygun kılar, gelişme de açılan izde gerçekleşir; dışarıdan gösterilen yön böylece canlılığın içinde çalışan biçime dönüşür. Tarımsal kanalın bu bağlantıdaki kapsamı, ölçü, doğrultu ve gelişmenin ortak işleyişini somutlaştırmaktır; kelimelerin açık anlamları yerinde kalır.
+
+Canlı rotanın bir de zaman ufku vardır. {ar:تُؤْثِرُونَ, tr:tü'sirûne, gloss:tercih ediyorsunuz} öne almayı, {ar:ٱلدُّنْيَا, tr:ed-dünyâ, gloss:yakın dünya hayatı} yakın ufku taşır (87:16); {ar:ٱلْءَاخِرَةُ, tr:el-âhiretu, gloss:ahiret} ertelenmiş sonraki ufku, {ar:خَيْرٌ, tr:hayrun, gloss:daha hayırlı} değeri, {ar:أَبْقَىٰٓ, tr:ebkâ, gloss:daha kalıcı} devamlılığı getirir (87:17). {ar:ٱلْأُولَىٰ, tr:el-ûlâ, gloss:önceki olan} da sonuca geri dönen ilk ufuk çağrışımını ekler (87:18). Tercih iki ufuk arasında dönüşü, hayır değeri, kalıcılık ise süreyi belirginleştirir. Bunlarla temas eden {ar:قَدَّرَ, tr:kaddara, gloss:ölçüsünü ve vadesini belirledi} süreyi ve sonu kurar; {ar:هَدَىٰ, tr:hedâ, gloss:yol gösterdi} yakın olanla daha kalıcı olan arasında seçilebilen yönü açar. Ahlaki karşılaştırma sonraki âyetlerin kendi hareketidir; bu bağlantıda odağa taşıdığı şey, ölçülü yönün zaman içinde de izlenebilmesidir.
+
+## Hatırlatılan ve Seçilen Yol
+
+Zaman içinde yön, alıcının kapasitesine göre yeniden açılan bir hatırlatma döngüsü hâline gelebilir. {ar:سَنُقْرِئُكَ, tr:senukri'uke, gloss:sana okutacağız} tekrarlanan aktarımı (87:6), {ar:تَنسَىٰ, tr:tensâ, gloss:unutursun} kayıp ihtimalini (87:7), {ar:نُيَسِّرُكَ لِلْيُسْرَىٰ, tr:nüyessiruke li'l-yüsrâ, gloss:seni kolay olana hazırlayacağız} sürtünmenin azaltılmasını (87:8), {ar:فَذَكِّرْ, tr:fe-zekkir, gloss:o hâlde hatırlat} işaretin yeniden verilmesini ve {ar:نَّفَعَتِ, tr:nefe'at, gloss:yarar verdiyse} işlevsel ölçütü taşır (87:9). {ar:سَيَذَّكَّرُ, tr:seyezzekkeru, gloss:hatırlayacak} alıcının toparlanmasını, {ar:يَخْشَىٰ, tr:yahşâ, gloss:huşu duyar} onun açık karşılığını gösterir (87:10).
+
+Bu sıralamada {ar:قَدَّرَ, tr:kaddara, gloss:taşıyabileceği kapasiteyi belirledi} alıcının sınırını, {ar:هَدَىٰ, tr:hedâ, gloss:nazikçe doğruya yöneltti} zorlamadan gösterilen yolu taşır. Aktarım unutma ihtimaline cevap verir, kolaylaştırma sürtünmeyi azaltır, hatırlatma işareti yeniden çalıştırır, yarar ile huşu da alıcının cevabını görünür kılar. Rehberlik böylece unutma ve direnç görüldükçe kapasiteyi gözeterek yeniden açılan bir yol olur. Geri besleme bağlantısının kapsamı bu tekrar ve cevap düzenidir; okuma vaadi, kolaylaştırma ve öğüt kendi ayrı hareketlerini de korur.
+
+Yolun yeniden açılması alımı zorlamadığı için bir ayrım da oluşur. {ar:قَدَّرَ, tr:kaddara, gloss:sınırlı bir alan belirledi} gerçek bir koridor çizer, {ar:فَهَدَىٰ, tr:fe-hedâ, gloss:ardından bir yön gösterdi} o koridor içinde izlenebilir tutumu erişilebilir kılar. Buna karşı {ar:يَتَجَنَّبُهَا, tr:yetecennebuhâ, gloss:ondan uzak duracak} yana çekilip ayrılmayı, {ar:أَشْقَىٰ, tr:eşkâ, gloss:daha sıkıntılı olan} zahmetli direnci taşır (87:11); ateşe giriş bağımsız ceza hattını açar (87:12), {ar:يَمُوتُ, tr:yemûtu, gloss:ölür} ile {ar:يَحْيَىٰ, tr:yahyâ, gloss:yaşar} ise ne ölümle tamamlanan ne yararlı hayata ulaşan askıda durumu gösterir (87:13). Kaddara’nın geçim payını daraltma kullanımı çıplak fiile taşınmadan koridorun sınırlı kenarına atıf verir. Böylece ölçülü yönün zorlayıcı olmayan okuması ile sıkıntı ve ateş dizisinin bağımsız ceza anlatımı yan yana kalır.
+
+## İşaretten Mirasa
+
+Bir yol, geçildikten sonra iz bırakıyorsa yönlendirme ilk hareket anını aşar. {ar:تُؤْثِرُونَ, tr:tü'sirûne, gloss:tercih ediyorsunuz} geride kalan işareti ve izlenebilmesi için işaretlenen deve tırnağını (87:16), {ar:يَعْلَمُ, tr:ya'lemu, gloss:bilir} bir şeye götüren ayırt edici izi (87:7), {ar:ٱلنَّارَ, tr:en-nâr, gloss:ateş} işaret ateşi ile nirengi lambasını taşır (87:12). Fâtiha’daki {ar:ٱلْعَٰلَمِينَ, tr:el-âlemîn, gloss:âlemler} tanınan işaretler alanını (1:2), {ar:نُيَسِّرُكَ لِلْيُسْرَىٰ, tr:nüyessiruke li'l-yüsrâ, gloss:seni kolay olana hazırlayacağız} ise ayrılmış çizgiler ve beden işaretlerini ekler (87:8). Bu parçalar {ar:هَدَىٰ, tr:hedâ, gloss:önden yol gösterdi}nin öncülüğüyle birleşince hareket eden, ardında okunabilir hat bırakan bir kılavuz görünür: daha sonra gelen, iz, işaret ateşi ve nirengi sayesinde yönünü bulur.
+
+İzin okunabilir olması, biçimin kendi yönünü bildirmesine kadar genişler. {ar:ٱسْمَ, tr:isme, gloss:adı} görünür tanıtıcı işareti taşır (87:1); {ar:يَعْلَمُ, tr:ya'lemu, gloss:bilir} nesneye götüren ayırt edici izi, {ar:ٱلْجَهْرَ, tr:el-cehr, gloss:açık olan} açık tezahürü, {ar:يَخْفَىٰ, tr:yahfâ, gloss:gizli kalır} gizlinin açığa çıkışını getirir (87:7). {ar:قَدَّرَ, tr:kaddara, gloss:ölçüye uygun biçim verdi} bu görünür taşıyıcıyı kurar; {ar:هَدَىٰ, tr:hedâ, gloss:doğruyu incelikle gösterdi} onu yön işaretine çevirir. Ölçülü form böylece alıcıya verilen talimatın yanında, doğru kullanımı kendi işaretleriyle okunabilen bir düzen olur. Adın yüceltilmesi (87:1) ile Allah’ın açığı ve gizliyi bilmesi (87:7) kendi açık anlamlarını korur; işaret okuması onların odağa çevirdiği ek görünürlüktür.
+
+Okunabilir iz, ardılların yerini bulduğu sıralı bir geçiş de kurabilir. {ar:قَدَّرَ, tr:kaddara, gloss:ölçüp yerleştirerek düzenledi} sıralı yerleşimi, {ar:هَدَىٰ, tr:hedâ, gloss:önden yol gösterdi} yolu açan öncüyü taşır. {ar:يَصْلَى, tr:yaslâ, gloss:girecek ve yanacak} bir önderin hemen ardından geleni (87:12), {ar:فَصَلَّىٰ, tr:fe-sallâ, gloss:ardından namaz kıldı} yarışta öndekini ikinci sırada izleyeni (87:15), {ar:تُؤْثِرُونَ, tr:tü'sirûne, gloss:tercih ediyorsunuz} öncekinin bıraktığı iz üzerinde ilerlemeyi ve izlenebilir tırnak işaretini çağrıştırır (87:16). Öncü yolu açar, ilk ardıl sırayı korur, ikinci ardıl mesafeyi sürdürür, iz ise hareketi bir sonrakine devreder. Yarış ve röle imgelerinin bu özel bağlantıdaki payı düzen, öncülük, ardıllık ve işaret ilişkisini somutlaştırmaktır; âyetin yüzeyinde yarış anlatılmaz.
+
+İşaret ses ve yazıya geçtiğinde yönün ömrü daha da uzar. {ar:قَدَّرَ, tr:kaddara, gloss:ölçüp biçerek tasarladı} içeriğin düzenini, {ar:هَدَىٰ, tr:hedâ, gloss:yol gösterip ulaştırdı} armağanı ulaştırma ve örüntülü söz sunma hareketini taşır. {ar:سَنُقْرِئُكَ, tr:senukri'uke, gloss:sana okutacağız} seslendirmeyi (87:6), {ar:ذَكَرَ, tr:zekere, gloss:andı} dilde dolaşan anmayı (87:15), {ar:ٱلصُّحُفِ, tr:es-suhuf, gloss:sayfalar} yazılı taşıyıcıyı ve {ar:ٱلْأُولَىٰ, tr:el-ûlâ, gloss:önceki olan} miras alınan önceki katmanı ekler (87:18, 87:19). Hesaplı tasarım, düzenleme yönünü gösterirken insanî hesabın faili odaktaki ilahî faille aynılaştırılmaz (74:18). Yazılı kayıtlarla birlikte anılan ışık ve kılavuzluk (6:91), peygamberlere emanet edilen ortak din ve yöneliş de aynı sürekliliği başka bağlamlarda görünür kılar (42:13). Yazı ve sahifeler 87:3’ün yüzeyinde bulunmaz; ölçülmüş sözün okunması, anılması ve önceki kayıtlarda taşınması, gösterilen yönü ilk aktarım anından sonra da yürünebilir tutar.
+
+</editorial_prose>

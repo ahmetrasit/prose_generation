@@ -353,6 +353,17 @@ Fill that template manually before launching the agent:
   `@@GLOBAL_SCOPE_LEDGER@@` with the complete contents of the three validated
   scope landing-ledger files.
 
+Write the filled consolidation handoff under the same repo input directory as
+the scope prompts:
+
+```text
+_commentary/v5/input/<analysis-id>/sNNN/S_A/canonical.prompt.md
+```
+
+Do not place filled handoff prompts under `/tmp`, `/private/tmp`, a home
+directory scratch path, or any location outside the repository. Every agent
+handoff path used in orchestration must be a repository path.
+
 The consolidation package contains the three scope prose texts, their validated
 landing ledgers, full pinned guidance, and the focus/context brief. Discovery
 JSON stays with the scope agents and is not appended to this package. Scope
@@ -389,8 +400,8 @@ max agent.
 Before consolidation, run this lifecycle command:
 python3 _commentary/v5/operations/monitor.py event --run-id <shared-run-id> --orchestrator-id <unique-orchestrator-id> --ayah-ref <S:A> --role canonical --agent-id <spawn-task-name> --status started
 
-Read and follow this consolidation prompt exactly:
-<filled contents of _commentary/v5/prompts/canonical.md>
+Read and follow this filled consolidation prompt exactly:
+_commentary/v5/input/<analysis-id>/sNNN/S_A/canonical.prompt.md
 
 Write only the requested first-pass prose file. Keep this conversation open for
 the editorial follow-up. Do not append a terminal lifecycle event yet.
@@ -443,6 +454,15 @@ Fill it manually:
 - replace `@@EDITORIAL_INSTRUCTIONS@@` with any unit-specific editorial request,
   or `No additional unit-specific instructions.`.
 
+Write the filled editorial handoff under:
+
+```text
+_commentary/v5/input/<analysis-id>/sNNN/S_A/editorial.prompt.md
+```
+
+Do not place this filled handoff under `/tmp`, `/private/tmp`, a home directory
+scratch path, or any location outside the repository.
+
 The editorial version must preserve the complete semantic coverage of the raw
 version. It may change wording, cadence, clarity, and fluency; it may not remove
 the carrier, independent trigger, contact, changed reading, concrete detail, or
@@ -472,8 +492,8 @@ Follow-up message:
 ```text
 Continue as the same V5 consolidator for <S:A>.
 
-Read and follow this editorial prompt exactly:
-<filled contents of _commentary/v5/prompts/editorial.md>
+Read and follow this filled editorial prompt exactly:
+_commentary/v5/input/<analysis-id>/sNNN/S_A/editorial.prompt.md
 
 Write only the requested editorial prose file. Then run the validator command
 specified in the prompt yourself on that editorial prose file only. If it fails,
@@ -668,6 +688,17 @@ semantic quality. Regenerate it whenever its editorial source changes.
 The monitor considers a
 newly registered ayah complete only after both CE validation and invitation
 validation have completed.
+
+## Completed Surah Continuation
+
+Once every numbered ayah in one analysis has completed its final editorial
+follow-ups, the surah reading can run under
+`_surah_commentary/v2/ORCHESTRATION.md`. It consumes only those final editorial
+texts. Discovery, scope prose/ledgers, invitations, separate translations, and
+network evidence are not surah inputs. Invitations may finish independently.
+The responsible orchestrator must confirm editorial completion and the full
+numbered ayah count before creating the immutable surah snapshot. This optional
+continuation does not change any ayah discovery or editorial-generation step.
 
 ## Context Rules
 

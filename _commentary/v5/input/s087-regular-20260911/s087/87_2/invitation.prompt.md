@@ -1,0 +1,247 @@
+# V5 reading invitation — 87:2
+
+You are a fresh reading-invitation writer. Read the complete editorial prose
+before writing. It is your sole semantic source.
+
+Write two to four paragraphs of fluent, contemporary Turkish that reveal a
+surprising reading by following one or two main channels of resonance in the
+ayah. A channel is a connected background of meanings, images, actions, or
+relations through which the ayah can be heard and understood differently.
+Several editorial findings may together develop one channel. Summarize that
+connected movement and its consequence for the ayah's main meaning, rather
+than compressing findings individually. Give the reading's substance now;
+the invitation comes from understanding it, not from a promise of hidden depth.
+
+Before drafting, read the entire editorial prose and silently select the one
+or two channels with the strongest interpretive consequence and enough
+grounding to explain clearly. Favor channels that expand or shift what the
+ayah says, the relation it establishes, or what is at stake in its action or
+image. One fully developed channel is sufficient; add a second only when it
+offers a distinct consequential reading that can be explained within the
+invitation. No finding, channel, or major shift has an individual coverage
+claim. Unselected material may remain entirely in the full commentary.
+
+A channel may develop through grammar, sound, dialogue, a material process,
+time, imagery, or a conceptual relation. Resonance is not limited to acoustic
+effects, and an unusual image alone does not establish a channel. Use only
+connections the editorial prose actually develops. If it supplies no such
+channel, explain its strongest grounded reading without inventing connections
+or surprise.
+
+Begin inside the ayah's own words, images, actions, or relations and reveal a
+selected distinctive reading in the first paragraph. Keep the plain meaning
+reachable with only the orientation needed to understand the change. Do not
+spend an opening paragraph on routine explanation or front-load context about
+the surah, the ayah's position, or the commentary project.
+
+For each selected channel, begin with the expression that opens it, unfold the
+connected background, and show how the ayah reads or sounds against that
+background. Let a detail lead into the next through an intelligible relation
+or process, so the reader experiences the emerging reading. This is a movement
+of thought, not a mandatory sentence pattern or one paragraph per finding.
+Let the reader identify the expression being interpreted,
+where any nonordinary detail comes from, and what that detail changes in the
+reading. Briefly identify the word-family use, restricted form, collocation, or
+context that supplies an essential added detail, and preserve the concrete
+operation that makes the image work. Keep the ordinary reading and necessary
+qualification clear within this explanation; do not repeat them as a fixed
+formula. Preserve the particular object, process, or relation that makes this
+reading distinctive, and state its interpretive consequence for the ayah as a
+whole. Make intelligible what the familiar reading leaves less visible and
+what the expanded or shifted reading now lets the reader understand. Preserve
+the editorial's force: an exploratory possibility remains possible, while a
+developed shift must not be softened into a decorative association or a
+reassurance that everything means the same thing. A concrete
+account of how something is carried, transformed, lost, or restored must not
+shrink to a general statement about care, guidance, dependence, or goodness.
+Keep the details needed to make the selected channel work; omit side findings
+and shorten routine setup. If a channel cannot be explained faithfully from
+the editorial prose, choose another grounded channel or reading.
+
+When a non-focus ayah supplies a contribution used in the invitation, keep its
+reference from the editorial prose beside that contribution.
+
+Do not turn the invitation into a miniature inventory of the commentary's
+conclusions, or flatten distinct channels into a broad theme to include more
+material. Do not repair, extend, or supplement the editorial prose from memory
+or outside knowledge.
+
+Omit technical apparatus. Retain any qualification, source distinction, live
+alternative, or boundary whose absence would change the force or meaning of a
+chosen reading. Express it naturally beside the image or relation it qualifies.
+Favor positive explanations of the relation between layers: what remains in
+the foreground and what the resonance makes audible in the background. State
+how that background reinforces, expands, or shifts the understanding of the
+main meaning, with the source and degree of certainty clear. Reserve explicit
+exclusions for concrete ambiguities or live counter-evidence that need them.
+Repeated "this is not X" endings make a reading sound withdrawn; express the
+substantive qualification through what the reading does contribute wherever
+possible. Use varied, natural language rather than a repeated "second layer"
+formula, and preserve the force of expansions and shifts.
+Do not name branches, candidates, findings, scopes, evidence categories,
+ledgers, or workflow stages, or label the prose as numbered channels. Do not
+list findings serially.
+
+Use the established `{ar:..., tr:..., gloss:...}` syntax, consistent
+Turkish-readable transliteration, and short ordinary glosses. Keep Arabic
+anchors beside the explanations they ground. Within a paragraph, continue with
+the Turkish meaning where clear; provide the necessary local tag when a later
+paragraph interprets the carrier anew. Do not place Arabic script outside a
+valid tag.
+
+Build transitions within a channel through its shared object, action, or
+relation. If two channels are selected, they may occupy separate paragraphs;
+do not invent a link between them. Do not praise the commentary's quality,
+promise what the reader will find, manufacture suspense, recap at the end, or
+add a call to action. End on an image, relation, action, or tension already
+established by the selected reading.
+
+Before finishing, compare the invitation with the entire editorial prose:
+does the chosen channel reveal a consequential reading, or could the text have
+been written from the ordinary translation and a modest explanation alone?
+When the editorial supports a surprising channel, the latter fails this task.
+Can the reader follow the opening expression into a connected background and
+understand how that background expands or shifts the ayah's main meaning?
+Check the selected connections against their editorial explanation: can the
+reader tell where the nonordinary details come from, with the necessary
+qualifications intact? Repair generic explanation, isolated curiosities, or a
+compressed findings list by developing the selected channel. Do not add
+omitted channels merely for coverage. Do not output this check.
+
+Write only the invitation text to:
+
+`_commentary/v5/editorial/s087-regular-20260911/s087/87_2/87_2.invitation.tr.md`
+
+Do not add a heading, wrapper label, index, ledger, evidence file, or any other
+artifact. Do not modify the editorial prose.
+
+After writing the invitation, run:
+
+```bash
+python3 _commentary/v5/validate_prose.py _commentary/v5/editorial/s087-regular-20260911/s087/87_2/87_2.invitation.tr.md
+```
+
+If validation fails, repair only the reported mechanical file-contract issues
+and rerun it, for at most two repair cycles. Report the final validator result
+in your response.
+
+<editorial_prose>
+## Aynı Fail, İki İş
+
+Âyetin açık sözü kısadır: O yarattı, ardından düzene koydu. Fakat cümle kendi başına yeni bir özne tanıtarak başlamaz. {ar:ٱلَّذِى, tr:ellezî, gloss:o ki} sözü, bir önceki âyette “en yüce Rabbinin adını tesbih et” emriyle tanıtılan Rabbi buraya taşır (87:1). Böylece hitap, doğrudan bir emirden o emrin dayanağını gösteren ilahî işlere geçer; okuyucu başka bir fail aramaz. “O ki” denilen, bilinen o Rabdir ve şimdi yaptığı iki işle tanınır: {ar:خَلَقَ, tr:halaka, gloss:yarattı} ile {ar:فَسَوَّىٰ, tr:fe-sevvâ, gloss:ardından düzene koydu} aynı bağıl cümlenin içinde onu birlikte niteler. Yaratma ile düzenleme, aynı failin birbirine bağlı fakat ayrı iki işi olarak birlikte delil olur.
+
+Bu ayrılık fiillerin biçiminde de görünür. {ar:خَلَقَ, tr:halaka, gloss:yarattı} etkin geçmiş zamandadır: yaratma, ilahî öznenin doğrudan gerçekleştirdiği tamamlanmış bir iş olarak sunulur. Bu dilbilgisel bağlantı, kendiliğinden ilerleyen bir süreç ya da faili gizlenmiş bir olay yerine failin eylemini öne çıkarır. {ar:سَوَّىٰ, tr:sevvâ, gloss:düzene koydu} da üçüncü tekil eril etkin geçmiş biçimindedir; eylem değişirken özne sabit kalır ve uygunluğu meydana getiren yine odur. Yalın fiil kalıbındaki ilk eylem varlığa getirmeyi, geçişli ve etkin Form II kalıbındaki ikinci eylem ortaya çıkanı ayarlamayı üstlenir. İki biçim böylece aynı failin ayrı işlerini dağıtır: biri yaratır, öteki yaratılmış olanı tamamlar.
+
+Her iki fiilin nesnesi de söylenmez. Bu susuş, {ar:خَلَقَ, tr:halaka, gloss:yarattı} fiilini yalnız insana, bedene ya da adı konmuş tek bir varlığa kapatmadan yaratılan alanı geniş bırakır. {ar:سَوَّىٰ, tr:sevvâ, gloss:düzene koydu} fiilinin nesnesi de önceki yaratma alanından anlaşılır. Benzer bir dizide nesnenin zamirle belirginleşmesi (82:7), buradaki açıklığı daha iyi duyurur; o âyetin tekil muhatabı buraya taşınmaksızın, 87:2’de zamirin bulunmayışının kapsamı nasıl açık tuttuğu görülür. Fâtiha’daki {ar:رَبِّ الْعَالَمِينَ, tr:rabbi'l-âlemîn, gloss:âlemlerin Rabbi} ifadesi (1:2), dışarıdan bu açıklığa “âlemler” diye sınırlı bir bağlam alanı önerebilir. Fiilin sözlük anlamı yine yaratmaktır; dış çerçeve, nesnesiz yaratmayı dünyalar ufkunda duymaya imkân verir ve yerli cümlenin sırasını korur.
+
+İki eylemin arasındaki küçük {ar:فَ, tr:fe, gloss:ardından ve böylece} bağı, hem yazıda ikinci fiile bitişir hem seste arayı kapatır. Gevşek bir “ve”den daha fazlasını yapar: {ar:سَوَّىٰ, tr:sevvâ, gloss:düzene koydu}, yaratmanın yakın sonucu ve tamamlayıcı devamı olarak gelir; iki eylem yine de ayrı kalır. Yaratma-düzenleme paralellikleri (75:38, 82:7), ilk fiilin uygunlaştırmayı nasıl açtığını gösterir. Ölçünün ardından yol göstermeyi yine fe ile bağlayan bir sonraki âyet (87:3) de aynı sûre içinde biçimsel bir yankı kurar. Bu yankının kapsamı 87:2’deki somut bağlanma tarzıdır: yaratmadan tamamlanmaya geçen yerel hareketi görünür kılar; kendi başına sûre çapında bir tez kurmaz.
+
+Kulak da bu hareketi izler. {ar:خَلَقَ, tr:halaka, gloss:yarattı} sözünün boğazdan gelen daha dokulu başlangıcından {ar:سَوَّىٰ, tr:sevvâ, gloss:düzene koydu} sözünün daha akıcı kapanışına geçilir. İkinci fiildeki şedde ayarlama işinin etkin baskısını duyururken, uzun son ses cümleyi tamamlanmış bir akışla kapatır. Sesin buradaki rolü destekleyicidir: dilbilgisinin kurduğu yaratmadan düzene geçişi işitilir hâle getirir.
+
+## Ölçülmüş Kuruluş
+
+{ar:خَلَقَ, tr:halaka, gloss:yarattı} öncelikle varlığa getirmeyi söyler. Ardından gelen {ar:سَوَّىٰ, tr:sevvâ, gloss:düzene koydu}, ilk fiilin ölçme, biçme ve sınırları belirlenmiş bir yapı kurma yönünü etkinleştirir; yaratılan şey rastgele beliren bir kütleden çok, ölçüsü düşünülmüş bir kuruluş gibi görünür. Bu doğrudan bağlantının kapsamı ölçülü var etmedir. Halaka’nın uydurma ve yalan üretme, koku ya da yıpranmış kumaşla ilgili uzak kullanımları buraya taşınmaz; bunlardan bazıları ileride ancak kendilerine özgü bağlamların kurduğu sınırlı benzetmelerde görünür. Geçişli {ar:سَوَّىٰ, tr:sevvâ, gloss:düzene koydu} ise yaratılmış olanı eşitlik, doğruluk, uygunluk ve sağlam bütünlük içinde yerli yerine getirir. Sakinleşme, yükselme ve kendiliğinden yönelme ayrıntıları da bu özel bağlantının doğrudan anlamı değil, yalnız onları ayrı ayrı tetikleyen bağlamlarla açılabilecek uzak imkânlardır.
+
+Bu temasın içinde üç işlem ayırt edilebilir. {ar:خَلَقَ, tr:halaka, gloss:yarattı}, önce nesnenin ölçü ve sınırlarının eylemden önce belirlenmiş olmasını duyurur; ölçme yaratmanın tasarı boyutudur. Aynı fiilin varlık kazandırma yönü, tasarının gerçeğe geçirildiğini söyler. Bu bağlantıda kelime üretici ya da yaratılmış için adlaşmaz, etkin fiil olarak kalır. Ardından {ar:سَوَّىٰ, tr:sevvâ, gloss:düzene koydu}, ortaya çıkmış olanı eğrilikten kurtarıp düzgün ve sağlam bir bütünlüğe ulaştırır. Geçişli yapı, ilahî failin doğrultup tamamlama işini öne çıkararak kendi kendine yerleşme ihtimalini bu özel kullanımdan ayırır. Ölçülmüş tasarım, varlığa geliş ve fiilen uygunlaştırılma böylece aynı açık cümlenin birbirini açıklayan aşamaları olur.
+
+Yaratmanın ardından ölçü verilmesi (25:2), {ar:خَلَقَ, tr:halaka, gloss:ölçüp yarattı} fiilindeki sınır belirleme basıncını görünür kılar. Yaratma, düzenleme ve ayarlamanın ardışıklığı (82:7) ise {ar:سَوَّىٰ, tr:sevvâ, gloss:düzene koydu} sözünün kendi içinde düzgün ve tam kılma yönünü açar. Bu iki dış paralellik odak cümlesini belirli bir varlığa daraltmaz; ölçülmüş kuruluş ile tamamlanma arasındaki ilişkiyi kuvvetlendirir. Allah’ın yaratıp düzenlediğini bildiren birincil anlam, bu temasla yaratmanın nasıl bir kuruluş olduğunu da duyurur.
+
+Ölçünün bir sonucu, kurulmuş varlığın yön gösterilmeye elverişli hâle gelmesidir. Yaratılışın hemen ardından gelen {ar:هَدَىٰ, tr:hedâ, gloss:yol gösterdi} sözü (20:50) ile {ar:قَدَّرَ, tr:kaddera, gloss:ölçüsünü belirledi} ve {ar:هَدَىٰ, tr:hedâ, gloss:yol gösterdi} sırası (87:3), odaktaki iki fiile işlevsel bir paralellik sunar. {ar:خَلَقَ, tr:halaka, gloss:yarattı}, kapasitenin varlığını ve sınırlarını kurmuş; {ar:سَوَّىٰ, tr:sevvâ, gloss:uygunlaştırdı} da o kapasiteyi izlenebilir bir hedefe yönelebilecek hâle getirmiş gibi duyulur. Bu temasın kapsamı işlevsel paralelliktir: dört fiilin olağan anlamları korunur ve ölçülmüş kuruluşun sonraki yönlendirmeye nasıl zemin olduğu görünür olur.
+
+Bu zemin, kelimelerin daha ihtimalli bir buluşmasını da taşır. {ar:خَلَقَ, tr:halaka, gloss:yarattı}, bir kişiyle ona yaraşan iş ya da nitelik arasındaki güçlü uygunluğu düşündürebilir; {ar:سَوَّىٰ, tr:sevvâ, gloss:düzene koydu} ise hedefe yönelme ayrıntısıyla bu kapasiteyi işleyeceği doğrultuya çevirir. {ar:فَ, tr:fe, gloss:ardından} bağı, kapasitenin kurulmasıyla yönünün ayarlanmasını peş peşe tutar; âyet hedefi adlandırmadığı için bu okuma da belirli bir hedef seçmez. Güçlükten sonra açılan kolay yol (87:8), hatırlamanın yeniden canlanması ve yararın zarara karşı ölçüt oluşu (87:9), korkuyla karışık huşu (87:10), bu uygunluğu cevap verebilir bir kapasiteye doğru genişletir. Kurulmuş olanın iyi bir yola düşük dirençle girebilmesi ve hatırlatmaya karşılık verebilmesi ihtimali doğar. Kolaylaştırmanın özel bir muhataba verilmiş vaat olarak okunabilmesi de (87:8) bu genellemeyi sınırlar; kapasite okuması mümkün bir sonuç olarak kalır.
+
+## Dış Biçim, İç Yatkınlık
+
+Ölçülmüş kuruluş önce gözle seçilen biçimde belirir. {ar:خَلَقَ, tr:halaka, gloss:yarattı} ile {ar:سَوَّىٰ, tr:sevvâ, gloss:düzene koydu}, dış şeklin tamamlanıp ölçülü hâle gelmesini birlikte duyurur. İnsan biçimlerinin iyileştirilmesi (64:3) ve insanın en iyi ölçülü kuruluşta yaratılması (95:4), bu görünür tamamlığı destekler. Bu paralelliklerin katkısı ölçülü görünüşü belirginleştirmektir; güzellik hükmü vermek ya da açık bırakılmış nesneyi yalnız insan bedenine daraltmak onların kapsamına girmez. Görünür beden, yaratılmış bütünlüğün mümkün yüzlerinden biri hâline gelir ve dış biçim iç karaktere de açık ölçülü bir görünüş olarak okunur.
+
+Yakın çevreden gelen daha dokulu imgeler, bu görünüşün nötr bir siluet olmadığını düşündürür. Kısalık ve tıknazlık dış yapıya yoğunluk, bunlara eşlik eden inat ise görünür yapıyla huy arasındaki ilk bağı kazandırır (87:5). Yüz, biçimin okunabildiği belirgin yüzeyi açar (87:13); türünün olağan sınırını aşan deve biçimi, dış şeklin türle ilişkisini sınar (87:4); bir şeye yönelen irade ile yüzün ve biçimin bozulması da iç yönelişin görünüşü değiştirebilmesini gösterir (87:7). Bu katkılar {ar:خَلَقَ, tr:halaka, gloss:biçim verdi} ve {ar:سَوَّىٰ, tr:sevvâ, gloss:düzene koydu} sözleriyle temas edince, gözle seçilen dış yapı yerleşik huy ve davranış eğilimiyle birlikte okunabilen bir beden olur. İrade ve bozuluş bu özel bağlamsal genişlemenin iç yönünü, yaratma ve düzenleme ise açık anlam zeminini taşır.
+
+Yaratılmış insanın belirli bir iç eğilimle anılması (70:19), {ar:خَلَقَ, tr:halaka, gloss:yarattı} fiilini dış şeklin yanında içte yerleşen huy ve davranış yatkınlığıyla buluşturur. Düzenlemenin ardından yetilerin verilmesi (32:9), {ar:سَوَّىٰ, tr:sevvâ, gloss:düzgün ve tam duruma getirdi} sözünü cevap verebilecek bir iç kapasiteye açar. Kalıcı ve doğru yaradılış düzeni (30:30) de iç karakter ile düzgün kuruluşu yan yana getirir. Her temas ayrı katkısını yaptıktan sonra sevvâ, dış biçim ile iç yatkınlığı uyumlu bir bütün içinde doğrultan tamamlayıcı iş olarak duyulur.
+
+Rabbin yetiştirip tamamlayan adı (87:1) ile arınma hareketi (87:14), bu iç kapasiteye ahlâkî bir ufuk açar. {ar:خَلَقَ فَسَوَّىٰ, tr:halaka fe-sevvâ, gloss:yarattı ve düzene koydu} sözü, insanın hatırlamaya ve arınmaya cevap verebilecek, doğrultulabilir bir iç yapıyla yaratılmış olmasını düşündürür; nesnesi açık yaratma ufku ile insanın arınması arasında böylece bir bağ belirir. Fiillerin doğrudan işi yaratmak ve düzenlemektir; arınma, bu kuruluşun üzerinde çalışabileceği yatkınlığı görünür kılar. Arınma (87:14) ve iyi değer çağrısı (87:17), {ar:خَلَقَ, tr:halaka, gloss:varlığa getirdi} kelimesindeki “iyilikten ayrılmış pay” imgesine değdiğinde dar bir yankı daha oluşur: varlığa geliş, iyiliğe elverişli bir nasip boyutu kazanabilir. Pay çekirdeği korunurken yaratma belirli bir erdemle özdeşleşmez.
+
+Biçimin içe uygunluğu, görünüşün doğruluğu sorusunu da açar. Kökeninden ya da itaattan ayrılma ve uydurup yalan üretme (87:4), kurulan temsilin kaynağından sapabilmesini; irade ve yüz bozumu (87:7), biçimin istekle değişebilmesini; satışta abartı ile aldatma (87:14), görünüşün değer iddiasına göre parlatılabilmesini; ölü ya da boyun eğmiş gibi görünme (87:13) ise dış hâlin gerçeği örtebilmesini getirir. Bu ayrıntılar {ar:خَلَقَ, tr:halaka, gloss:biçim verdi} sözünün uzak “uydurulmuş temsil” yönüyle ve {ar:سَوَّىٰ, tr:sevvâ, gloss:uygunlaştırdı} sözünün biçimi iddiasına uygun gösterme imkânıyla temas eder. Önce bir temsil kurulur, sonra görünüş iddiaya uydurulur; bağlam bu ikisinin hakikate uyup uymadığını sordurur. Bu uzak bağlantının kapsamı ilahî yaratmanın niteliği değil, yaratılmış biçim ile ona sonradan yüklenen yanıltıcı görünüş arasındaki farktır.
+
+## Olgunlaşan Tamamlık
+
+Görünüş ile iç yatkınlığın birlikte kurulması, “tamamlanmış” sözünün zamandaki karşılığını sormaya götürür. {ar:رَبّ, tr:rabb, gloss:yetiştirip gözeten Rab} adı; onarma, yetiştirme, tamamlama, besleme ve büyütme yönlerini taşır (87:1). Onarma bozulanı toparlar, besleme oluşu sürdürür, büyütme onu ileri taşır, yetiştirme ile tamamlama ise uygun son hâle eriştirir. Bu hareket {ar:خَلَقَ, tr:halaka, gloss:başlangıçta yarattı} ile başlangıcı, {ar:سَوَّىٰ, tr:sevvâ, gloss:sağlamlaştırıp tamamladı} ile oluşun sonunda uygun, sesli ve sağlam bir biçime erişmeyi birbirine bağlar. Bilinebilirlik (87:15) tamamlanmış biçimin tanınabilmesini, irade eden özne görüntüsü (87:7) de bu süreçteki fail sürekliliğini ekler. Etkin geçmiş fiillerin bildirdiği yaratma ve ardından düzenleme sırası böylece Rabbin bakımı içinde zaman boyunca yetişen bir tamamlık olarak genişler.
+
+Zaman içindeki oluşun ilk somut resmi, içeride taşınan ve eşiğine yaklaşan biçimdir. Doğumun yaklaşması (87:16); okuma, tilavet ve tilavet öğretimi (87:6); adet ile temizlik çevrimi, belirlenmiş vakit ve tekrar, rahimde toplanma ve taşıma imgeleri, {ar:سَوَّىٰ, tr:sevvâ, gloss:tamamladı} sözünün sonucunu örüntülü bir süreç içinde beliren biçim olarak düşündürür. Tilavet tekrarlı düzeni, bedensel çevrim vakti, rahim ise içeride taşınıp gelişmeyi getirir; bunlar aynı işlem değil, oluş ritminin ayrı katkılarıdır. Sevvâ doğurma ya da okuma fiiline dönüşmeden, yaratılmış biçimin bir eşiğe doğru tamamlanmasını duyurur.
+
+Fâtiha’daki {ar:رَحِم, tr:rahim, gloss:rahim ve akrabalık bağı} ailesinin rahim imgesi (1:3), içeride gelişmeyi merhamet çerçevesine alır. Bu imge {ar:سَوَّىٰ, tr:sevvâ, gloss:düzene koydu} çevresindeki kapalı üreme yolu ayrıntısıyla buluşunca, {ar:خَلَقَ, tr:halaka, gloss:oluşturdu} sözü içeride tutulan, korunan ve gelişen bir oluş olarak yeniden duyulur. Dış bağlamın katkısı, rahimde gelişen oluşun nasıl bir korunma içinde düşünülebileceğini açmaktır; yaratma ve düzenleme fiilleri bu çerçevenin dilbilgisel zemini olarak kalır. Kadın bedenindeki kapanma da bu özel bağlantıda anatomik sınırını korur ve genel tıkanıklık ya da her düzgün yüzey için bir anlama dönüşmez.
+
+Olgunlaşmanın daha geniş zaman dili farklı eşiklerden kurulur. Gençlik olgunluğuna erişme ile ayın on üçüncü gecesi, gelişmenin belirgin bir evreye varmasını; şafak öncesi falah öğünü ise günlük çevrim içinde yaklaşan vakti gösterir (87:14). Okuma ile tilavet tekrarı taşır (87:6); dişi devenin kızışma ya da üreme hâli bedensel dönemi, belirlenmiş vakit çevrimin düzenini, yaşlılık ile günün yüksek vakti de sürecin ileri ucunu görünür kılar (87:12). Bu katkılar {ar:سَوَّىٰ, tr:sevvâ, gloss:olgunlaştırıp tamamladı} ile buluştuğunda, tamamlanma tekrarlanan dönemler boyunca doğru vaktine ulaşan bir oluş gibi görünür. Her imge kendi zaman türünü korur ve birlikte “tam olma”nın zamansal bir eşiği bulunduğunu gösterir.
+
+Canlı hayatın çizgisi bu çevrim duygusunu doğumdan yaşlılığa yayar. Canlılık ve doğumdan hemen sonraki tazelik (87:13), gençlik olgunluğu (87:1, 87:15), yaşlılık (87:12), Yasar adıyla anılan genç adam imgesi (87:8), {ar:سَوَّىٰ, tr:sevvâ, gloss:olgunlaştırdı} sözünü canlı bir dizinin gelişme evresi olarak açar. Bir varlık her aşamada kendi içinde tamam görülebilir; düzenleme ayrıca onun zaman boyunca taşıdığı olgunlaşma hareketini de kapsayabilir. Hayat safhaları bu yolla yaratma ile uygun hâle getirme arasındaki tamamlığın zamansal yüzünü görünür kılar.
+
+## İşe Yarayan Yerleşim
+
+Zamanda olgunlaşan biçimin neye göre “uygun” olduğu sorusu, {ar:سَوَّىٰ, tr:sevvâ, gloss:uygun ve dengeli hâle getirdi} sözünün bağlı ayrıntılarını bir araya getirir. Ölçüp sınır belirleme biçimin çerçevesini, bir işi yaparak ustalaşma işlevini, tamamlanmış ve gözle seçilen dış şekil sonucu, bir şeye yaraşma yerindeliği, iki şeyi denk kılma ilişkiyi, eğrilikten kurtulup düzgünleşme iç tutarlılığı, ölçünün bütün kapsama ulaşması yeterliliği, iki uç arasındaki orta değer ise aşırılıklardan uzak uygunluğu getirir. Ölçü, elverişlilik ve beceri ipuçları (87:3, 87:14, 87:16), bu katkıları aynı sahada harekete geçirir. Eşit yüzey bu sahanın yalnız bir parçasıdır; birleşik sonuç, yaratılmış olanın yeri ve işi için ayarlanmış biçimdir.
+
+Bu işlev ilk olarak bir bedeni taşıyan donanımda görünür. Deveye binme çerçevesi ya da onu saran eyer örtüsü (87:5) biniciye yer açar; deri giysi, üzerine çıkıp yerleşme veya egemen olma ve devenin sırtına konan dolgulu örtü (87:1) bu yeri sarıp destekler. Yayılmış uzuv biçimi (87:11) yükü tabana dağıtır; sallanarak ya da destekle yürüme (87:3) ise dengenin hareket içinde korunmasını ister. Bu işlemler {ar:سَوَّىٰ, tr:sevvâ, gloss:yerleştirip dengede tuttu} sözünde birleşince, düzenleme taşıyan beden ile onu sabit tutan donanım arasındaki uygunluk olarak görünür. Binme sahnesi bu işlevsel sonucu anlatan sınırlı bir benzetmedir.
+
+Üstteki destek ve yön aynı görüntüyü statik şekilden beden duruşuna çevirir. Yayılmış uzuvlar (87:11) tabanı kurar; üzerine çıkıp yerleşme ile sonradan eklenen üst parça (87:1) desteği yerleştirir; sallanarak ya da destekle yürüme (87:3) dengeyi sınar; aşağı kıvrılma yahut yüz hizasına yönelme (87:8) duruşun nereye açıldığını belirler. {ar:سَوَّىٰ, tr:sevvâ, gloss:yerleşimi ayarladı} bu katkılarla, düzenlenmiş biçimi hareketi mümkün kılan bir duruş olarak gösterir. Yürüyüş bu özel bağlantıda bağlamsal sınama işini görür; sevvânın sözlükteki düzenleme anlamı yerinde kalır.
+
+Taşınan yük, bu duruşun amacını daha da somutlaştırır. Alet, destek ya da sedye (87:18) yükün altına girer; öne uzanan uzun boyun (87:4) taşıma hattını ileri götürür; devenin sırtındaki dolgulu örtü ile üstte eklenen şey (87:1) yükü yayar; dümeni andıran taşıyıcı (87:14) yönü korur. Bu ayrı işlemler {ar:سَوَّىٰ, tr:sevvâ, gloss:taşıyacak biçimde ayarladı} çevresinde işlevsel tamamlığı kurar. Yapının dış çizgisiyle birlikte neyi üstlendiği ve onu nereye taşıdığı da okunur hâle gelir. Bu bağlantıda taşıyıcı görüntüsü işlevi açıklar; sevvâ ise eyer ya da araç adına dönüşmeden düzenleme anlamını korur.
+
+Yerleşim, canlı biçimin dışarı çıkıp bir hedefe ilerlemesini sağlayan düzeni de açar. Yanında götürme ya da eşlikte tutma (87:11) hareketin bağını korur; gelme, acele etme ve yaklaşma (87:13) varış yönünü belirler; içeriden dışarı çıkma (87:4) başlangıç eşiğini açar; geçim ve dolaşım alanı ile hedefe yönelme (87:1) hareketin kullanılabilir zeminini verir. {ar:سَوَّىٰ, tr:sevvâ, gloss:yönünü ve yerini düzenledi} bu katkılarla, bulunduğu yerde donmayan ve hedefe doğru işleyebilen yörüngeli bir düzeni görünür kılar. Çıkma ve yaklaşma bu bağlantının hareket ayrıntılarıdır; fiilin olağan anlamı düzenlemedir.
+
+Canlı hareketin her zaman uysal olmayışı bu düzenin sınavıdır. Yeni doğmuş ve taze hayvan (87:13), sürü ya da toplanmış yabani sığır (87:1), otlama ile mera (87:15), üzerine çıkıp yerleşme yahut yönetme (87:4), kaçınma, kaçış ve kararsızlık (87:12), {ar:سَوَّىٰ, tr:sevvâ, gloss:yerleştirip düzenledi} sözünü canlıyı yönetilebilir bir konuma yerleştirmek gibi duyurur. Sürünün huzursuzluğu bu sonucu değiştirir: iyi kurulmuş yer, tekdüze hareketsizlik üretmek yerine dirençli ve kaçmaya eğilimli hareketi taşımalıdır. Hayvan yönetimi, düzenin canlı dinamizme yer açmasını gösteren sınırlı analojidir.
+
+Hareketi mümkün kılan yer de biçimin parçasıdır. Geniş yükselti ve bilinmeyen zeminde ilerleme (87:7) yön bulmanın direncini gösterir; dolaşım ile geçim alanı (87:1) zeminin yaşamsal işlevini, geniş açık arazi ve düz yayılım (87:18) ise geçilebilir yüzeyi getirir. Bu ayrıntılar {ar:سَوَّىٰ, tr:sevvâ, gloss:düzleyip geçit verdi} çevresinde tepe ile ova arasında karşıtlık kurar. Açık ve düzgün alan yürümeyi, yaşamayı ve dolaşmayı mümkün kılar. Bu özel arazi görüntüsü, sevvâya peyzaj adı vermek yerine oranlamanın canlıya hareket alanı açan sonucunu gösterir.
+
+Bu araziye eksen eklendiğinde düzen, yönsüz eşitlik olmaktan çıkar. El-Ca‘le adlı yer (87:5) ve Sabbuha adlı yer (87:1), soyut yönü adlandırılmış konumlara bağlar. Hedefe yahut hedefin izlediği yöne yönelme (87:1) varış noktasını belirler; sol taraf ve el yatay ekseni, aşağı doğru kıvrılma ya da yüz hizasına yönelme hareketin doğrultusunu, Yusr/Yasar adlı yer ise bir başka konum işaretini ekler (87:8). {ar:سَوَّىٰ, tr:sevvâ, gloss:yerli yerine koydu} böylece tarafı ve varış noktası bulunan konumlu bir geometri açar. Yer adları ve yönler bu özel mekân benzetmesinin sınırlı işaretleridir; uygunluk her şeye kendi yerini verir. Yukarı yön işareti (87:1) geometriyi dikeyleştirerek uygun kapasitelere sahip varlıkların kararlı seviyelere yerleşmesini düşündürür ve oranlama ile tamamlanmanın mekânsal sonucunu görünür kılar.
+
+## Payın Ölçüsü
+
+Her şeye kendi yerini vermek, ölçünün alıcılar arasında nasıl dağıtıldığı sorusuna geçer. {ar:سَوَّىٰ, tr:sevvâ, gloss:ölçülü hâle getirdi} fiilinin denkleştiren yönü; payların karşılıklı uzlaştırılması (87:4), okları ya da kura paylarını birlikte tutan kılıf ve demet (87:1, 87:15), kişi başına denk mal ile bolluk, ölçünün bir şeyin sınırına ulaşması (87:3) ve kura ile paylaştırılan deve (87:8) görüntüleriyle buluşur. Kılıf payları bir arada tutar, kura onları alıcılara ayırır, ölçünün sınıra varması tahsisin nerede tamamlandığını gösterir. Böylece eşitleme soyut simetriden çıkıp dağıtılan payların görünür işlemi olur; kura sahnesi bu tahsisi açıklayan sınırlı bir benzetme olarak kalır.
+
+Dağıtım, hak ve sorumluluk ilişkisini de görünür kılar. Kişiye ödenmesi gereken mal çıktısı (87:4) hakkın karşılığını, payların uzlaştırılması ile ölçünün bütün kapsama ulaşması (87:3) dağıtımın sınırını, mal ile bakmakla yükümlü olunanları birlikte bildiren qirah kullanımı (87:6) ise payın bağlı olduğu topluluğu getirir. {ar:سَوَّىٰ, tr:sevvâ, gloss:payı ölçülü kıldı} böylece kimin neyi taşıdığını ve neyin kime ait sayıldığını belirginleştiren pratik bir hak düzenine açılır. Bu bağlantı sahiplik ve yükümlülüğün ölçülü ilişkisi kadar konuşur; âyetten vergi ya da mülkiyet hukuku hükmü üretmez.
+
+Çalışma karşılığı belirlenmiş ücret (87:5), ödenmesi gereken çıktı (87:4), mal ile bakmakla yükümlü olunanlar (87:6), kişi başına denk mal, bolluk, refah ve geçim (87:8), aynı ilişkinin iaşe yüzünü kurar. {ar:سَوَّىٰ, tr:sevvâ, gloss:ölçülü dağıttı} artık ölçüyü onu alacak insan grubunun ihtiyaç ve sorumluluklarıyla ilişkilendirir. Ücret emeğin karşılığını, çıktı üretilen payı, mülk ve yükümlülük topluluğu, refah ise yaşamın sürmesini getirir. Her katkı ayrı kalırken, odak fiilin düzenleme anlamı paylaşımın nasıl ölçülü bir sonuç doğurabildiğini gösterir.
+
+Paylaştırmanın adaleti her zaman aynı miktarı vermekle ölçülmez. İki uç arasındaki tarafsız orta; kişi başına denk mal ve bolluk; ölçünün sınıra varması (87:3); az bir ölçüye daralma (87:12); küçüklüğün karşıtı olarak büyüklük ve küçük miktar (87:8), {ar:سَوَّىٰ, tr:sevvâ, gloss:ortayı ve dengeyi kurdu} sözünü fazlalıkla kıtlık arasındaki ayarlı ilişkiye dönüştürür. Büyük ile küçük uçları, daralan ölçü kıtlığı, denk pay ise alıcıya uygun ortayı gösterir. Nicelik, oranlamanın bağlamla açılan yüzüdür; denge de yaratılmış olanın kendisine uygun değeri bulmasıdır.
+
+Uygun değer yalnız şimdiki ana kapanmaz. Yakında olanı seçme (87:16) ile gecikmiş başkalığın, yararın ve kalıcılığın öne çıkması (87:16, 87:17), {ar:سَوَّىٰ, tr:sevvâ, gloss:orantıladı} sözünün adaletini anlık yüzey simetrisinden zaman içindeki değere taşır. Ölçü, neyin hemen elde edildiği kadar neyin korunup sürdüğünü de hesaba katan uzak bir dağılım imgesi kazanır; mekândaki denge bunun zemini olarak kalır. Fâtiha’daki {ar:غَيْرِ, tr:gayri, gloss:başka ve olmayan} sınırı (1:7) da dışarıdan aynı soruya dokunur. Onun başkalığı sevvâ çevresindeki ayırma imgesiyle buluşunca, tamamlanmış düzenin benzer biçimlerin yanı sıra birbirinden ayrı yerler ve sınırlar verdiği görülür. Böylece oranlama, eşitlik ve orta anlamlarını koruyarak farkı da düzen içinde tutabilir.
+
+Uzak bir sınır vakası, kararlı düzenin mahrumiyeti de barındırabileceğini gösterir. Yana ayırma ve sınır koyma, yoksunluk ile bedbahtlığı aynı ara hâlde tutar (87:11); uyuşuk ve ölüm benzeri durgunluk da yararlı hayatın karşısında sabit fakat gelişmeyen bir durum kurar (87:13). Bu ayrıntılar {ar:سَوَّىٰ, tr:sevvâ, gloss:orta ve sabit bir düzen kurdu} ile buluşunca, düzen içinde ortaya çıkan hâlin değeri ayrıca sorulur. Bu özel bağlantıda düzgünlük evrensel rahatlık iddiası taşımaz; sonuçları farklılaşabilen kararlı yerleştirmeyi görünür kılar.
+
+## Yüzey, Sınır ve İşlem
+
+Uygunluğun maddi yüzüne bakıldığında ilk görüntü kumaştır. {ar:سَوَّىٰ, tr:sevvâ, gloss:düzleştirip tamamladı} sözünün düzgün ve yıpranabilir yüzey çağrışımı; deri giysi, sağlam pelerin ve devenin sırtına yerleştirilen dolgulu binme örtüsüyle temas eder (87:1). Engebesiz ve kesintisiz yüzey kullanım için hazırlanır; kullanım onu zamanla eskitip yıpratır, buna rağmen yüzey hizmet vermeyi sürdürebilir. Sınırlı kumaş benzetmesi, yaratma-düzenleme zeminindeki tamamlanmışlığı çıplak geometriden çıkarıp maddi bir kullanım tarihine taşır.
+
+Yüzey yalnız aşınmaz, üzerine sürülen maddeyle de değişebilir. Kısalık, tıknazlık ve inat görüntüsüne eşlik eden hoş kokulu karışım (87:5) yüzeye koku; değersiz atık, dövme ya da sürme için kullanılan is pigmenti ve bedene uygulanan kireç (87:12) renk ve kullanım niteliği kazandırır. Bu işlemler {ar:سَوَّىٰ, tr:sevvâ, gloss:yüzeyi tamamladı} sözünün geometrik tamamlanmasını, üzerine malzeme sürülerek işlenebilen bir yüzeyle genişletir. Koku ve kaplama bu özel maddi benzetmenin ayrıntılarıdır; fiilin doğrudan anlamı yüzeyi uygun hâle getirmektir.
+
+Yüzeyin bittiği yerde sınır, kapanma ve yarık görünür olur. {ar:سَوَّىٰ, tr:sevvâ, gloss:biçimi düzenledi} çevresindeki kapalı üreme yolu imgesi içeriyi tutan sınırı getirir. Sertlik, keskinlik ve kuvvet (87:16) bu sınıra maddi direnç; kılıç izi, parıltı ya da darbe (87:15) belirgin kenar; yarma ve kesme (87:14) ise açılma eşiği kazandırır. Üst dudaktaki yarık görüntüsü de bu eşiği bedende görünür kılar. Kapanma, kenar ve yarık böylece aynı biçimin farklı işlemlerini açıklar: biri içeriyi korur, biri dış çizgiyi belirler, öteki sınıra yaklaşılabilen açıklığı gösterir. Bu bağlamsal bileşim, yaratma-düzenleme zeminindeki biçimlenmişliği dokunulabilir sertlik ve belirgin sınırla genişletir.
+
+Sınırın bedendeki iki yönü, ikinci bir yakınlaşmada daha da belirginleşir. Kuvvetli erkeklik imgesi (87:15) kapalı üreme yolunun bedensel bağını, görünür üst dudak yarığı (87:7) dışarıdan seçilen açıklığı, kesme ve dudağın yarılması (87:14) ise iki tarafın ayrılmasını getirir. {ar:خَلَقَ, tr:halaka, gloss:oluşturdu} ile {ar:سَوَّىٰ, tr:sevvâ, gloss:belirginleştirdi}nin kurduğu bedende hem içeriyi koruyan kapanma hem biçimleri ayıran açıklık seçilir. Bu bağlantının kapsamı anatomik sınırdır: erkeklik ve yarılma ayrıntıları, fiillerin doğrudan karşılığı olmadan yaratılmış bedendeki kapanma ile açıklığı birlikte görünür kılar.
+
+Tamamlamadan önce bozulma bulunabilmesi daha uzak bir ihtimaldir. Yönlendirme çevresinde (87:3), {ar:خَلَقَ, tr:halaka, gloss:biçim verdi} ile ortaya çıkan formun kırılma ya da yıkımdan geçip sonra {ar:سَوَّىٰ, tr:sevvâ, gloss:eğriliğini giderip düzeltti} ile daha sağlam bir hatta alınması düşünülebilir. Bu ihtimalli ara işlem, düzeltmeyi ilk biçimin doğrudan devamı olmanın yanında bozulma sonrasında yeniden doğrultma olarak da gösterir. Kırılma aynı ses alanındaki uzak bir eşlemeden gelir; bu özel bağlantı {ar:هَدَىٰ, tr:hedâ, gloss:yol gösterdi} sözünün yol gösterme anlamını korur ve yıkım imgesini yalnız ara işlemle sınırlar.
+
+Yakıcı ateş (87:12), tamamlamanın maddi gerilimine başka bir yönden katkıda bulunur. Isı, {ar:خَلَقَ, tr:halaka, gloss:ilk biçimi yaptı} ile meydana gelen formu temperleyip {ar:سَوَّىٰ, tr:sevvâ, gloss:ısıl işlemle doğrulttu} ile tamamlayan araç gibi çalışabilir; aynı ateş yakıp yok eden karşı hareketi de taşır. Bu iki sonuç birlikte tutulduğunda benzetmenin sınırı belirginleşir: ısıl işlem, açık yaratma-düzenleme anlamını değiştirmeden tamamlamanın düzeltici imkânını ve yıkıma açıklığını yan yana gösterir.
+
+## Suyu Tutan Zemin
+
+Maddi yüzeyden arazi ölçeğine geçildiğinde düzgünlüğün ilk işi akışı karşılamaktır. {ar:خَلَقَ فَسَوَّىٰ, tr:halaka fe-sevvâ, gloss:var edip düzenledi} sözü çevresindeki kaya oyuğu suyu alır, yeni kuyu onu erişilebilir kılar; kuyunun temizlenmesi (87:7) bu erişimi sürdürür, kapalı su havzaları (87:5) akışı içeride tutar, toplanmış bol su ile büyük birikmiş su kütlesi (87:1, 87:15) düzenin kapasitesini gösterir. Bu işlemler yaratılıp düzenlenen biçimi, akışı alan ve tutan bir yüzey sistemi olarak duyurur. Kuyu ve su yönetimi bu özel arazi benzetmesinin işlevidir; iki fiilin olağan anlamı oluşmuş geometriyi kurmaya devam eder.
+
+Selin taşıdığı yüzen döküntü (87:5), bu sisteme eğim ve hareket ekler. Su tutan kaya oyuğu ya da yeni kuyu, geniş açık zemin ve kapalı toplama alanlarıyla birlikte {ar:خَلَقَ, tr:halaka, gloss:oluşturdu} ve {ar:سَوَّىٰ, tr:sevvâ, gloss:yüzeyi derecelendirdi} sözlerini, suyu ve sürüklenen maddeyi yönlendirip tutan arazi düzeni gibi gösterir. Oyuk alıcı geometriyi kurar; çevredeki düz ya da eğimli alan akışın yönünü belirler; sel döküntüsü bu düzenlemenin taşınan maddeyi de etkilediğini gösterir. Uzak ve maddi bu manzara, yaratma ile düzenlemenin yüzeye kazandırdığı işlevi somutlaştırır.
+
+Akışı tutan zemin canlılık üretmeye elverişli olduğunda görüntünün ölçeği yeniden değişir. Nesnesi söylenmeyen {ar:خَلَقَ, tr:halaka, gloss:yarattı} sözünün düz ve kesintisiz yüzey yönü ile {ar:سَوَّىٰ, tr:sevvâ, gloss:düzene koydu} sözünün geniş açık arazi yönü; yaratma, su indirme, ürün çıkarma ve rızık verme zinciriyle temas eder (14:32). Otlağın hemen belirmesi (87:4) bu teması odak çevresine getirir. Bedensel ve kozmik oluşum imkânları açık kalırken yaratma-düzenleme çifti, canlılığın çıkacağı düzgün ve üretken zeminin hazırlanması olarak da duyulur.
+
+Üretkenlik bazen düzgün yüzeyin yarılmasını gerektirir. Kesmeden önce ölçme ve sınırlandırma, geniş açık arazi, toprağın sabanla yarılması ve bu yarılmadan doğan artış (87:14), {ar:خَلَقَ فَسَوَّىٰ, tr:halaka fe-sevvâ, gloss:oluşturup hazırladı} sözünü ekime hazır bir zemin gibi açar. Ölçü alanı belirler, saban yüzeyi yarar, açılan toprak büyümeye imkân verir. Yarılma tamamlanmışlığı ortadan kaldırmak yerine hazırlanmış zeminin üretken kullanımını başlatır. Uzak tarım benzetmesi, odak fiillerin kurduğu zeminin sonradan büyümeye nasıl hizmet edebileceğini gösterir.
+
+Ekolojik yankı, tamamlanmış düzenin değişimi de taşıyabildiğini gösterir. Gizliden ortaya çıkan oluş (87:4) başlangıcı, otlayan canlıya yarar sağlayan madde (87:4) kullanımı, kuru döküntüye dönüşme (87:5) eskimeyi, toplanma ve sınırlandırılma (87:5) ise maddi geri dönüşü getirir. {ar:سَوَّىٰ, tr:sevvâ, gloss:dengeledi} çevresindeki ortayı kurma imgesi, bu ayrı evreleri aynı sistem içinde dengeler. Bu ihtimalli ölçek değişimi statik tamamlanma okumasını geçersiz kılmaz; onun yanına ortaya çıkma, kullanılma, dönüşme ve geri dönme hareketlerini taşıyan düzenli ekolojiyi yerleştirir.
+
+## Okunabilen Biçim
+
+Üretken zeminde beliren şeylerin ayırt edilebilir oluşu, biçimi işaret hâline getirir. {ar:اِسْم, tr:ism, gloss:ad ve işaret} ifadesi (87:1), daha uzak bir çağrışımla adlandırmayı göstergeye, görünür biçimi kimliği seçtiren işarete bağlar. {ar:خَلَقَ, tr:halaka, gloss:biçim verdi} yüzeyi oluşturur; {ar:سَوَّىٰ, tr:sevvâ, gloss:sağlamlaştırdı} onu içten düzgün ve tutarlı hâle getirir. Bu işlemler birleşince varlığın durumu ve kimliği okunabilir olur. Ism sözünün o âyette yalnız söylenmesi emredilen ad olması ihtimali de (87:1) açık kalır; uzak ilişki, odak cümleye kimliğin biçimden okunabilmesi katmanını ekler.
+
+Okunabilirlik, görmenin yanında toplama ve hatırlamayı da ister. Okuma ve ayırt ederek toplama (87:6) görünür farkları bir araya getirir; unutma (87:6) bu birliğin kaybolma ihtimalini açar. Tanımayı yönlendiren ayırt edici işaret, göze görünme ve gizlinin açığa çıkması (87:7) ise farkların yeniden seçilebilmesini sağlar. Bu işlemler {ar:خَلَقَ فَسَوَّىٰ, tr:halaka fe-sevvâ, gloss:oluşturup düzenledi} sözünün tamamlanmış özelliklerini tanınabilen ve hatırda tutulabilen bir işaretler düzenine dönüştürür. Uzak benzetme yaratılmış dünyanın okunabilirliğini açarken, bu özel pasajın vahiy ya da ilahî bilgi hakkındaki okuması da (87:6, 87:7) bütünüyle kullanılabilir kalır.
+
+Yazılı sahifeler (87:18, 87:19), bu işaretler düzenini yüzeye yaklaştırır; kalemle öğretim (96:4) daha geniş bir dış paralellik sağlar. {ar:خَلَقَ, tr:halaka, gloss:var etti} sözünün engebesiz yüzey yönü, üzerine düzenli işaretlerin yerleşebileceği bir hazırlık gibi duyulur. {ar:سَوَّىٰ, tr:sevvâ, gloss:düzene koydu} da işaretlerin okunabilir bir ilişkide kalmasını sağlar. Bu bağlantının katkısı, canlı, bedensel ve araziye ilişkin oluşumların düzenini okunabilir kılan yüzey benzetmesidir. Kapsamı da bu benzetmeyle sınırlıdır: âyetin açık sözü yazı ya da kalem yerine yaratma ve düzenlemeyi bildirir.
+
+Sahifeler yalnız yüzeyi değil, sıralanmış bütünü de gösterir. Yazılı yaprakların toplanması, başlangıç ve bir şeyin ardından başka bir şeyin gelmesi (87:18), {ar:خَلَقَ, tr:halaka, gloss:birimler oluşturdu} ile {ar:سَوَّىٰ, tr:sevvâ, gloss:birimleri hizaladı} sözlerini kompozisyon benzetmesinde buluşturur. Oluşturulan her birim kendi içinde tamam olabilir; ardından gelen birim onu aktarılabilir diziye ekler; hizalama parçaların zaman boyunca örüntü taşımasını sağlar. Tamamlık böylece hem tek tek varlıkların kuruluşunda hem ölçülü birimlerin ardışık bütüne katılmasında görünür olur.
+
+Aktarılabilir biçim, aktarımın kırılganlığını da beraberinde taşır. Kafiye bağından sonra gelen son elif (87:4) sözün biçimsel kuruluşunu, uydurulmuş anlatı (87:4) kurulmuş sözün yanıltıcı kullanımını, yazılı yapraklardan yanlış okuma (87:18) ise aktarım sırasında doğan bozulmayı görünür kılar. Bunlar {ar:خَلَقَ, tr:halaka, gloss:kurdu} ve {ar:سَوَّىٰ, tr:sevvâ, gloss:biçimledi} sözlerinin dilsel yüzünde buluşur: söz özenle kurulup biçimlenebilir, yine de okunurken bozulabilir. Okuma ve tilavet alanı (87:6) bu ihtimali daha da inceltir. Halaka’nın ölçüp paylaştıran yönü planı, sevvânın seçip sıraya koyan yönü bir harfi ya da pasajı dışarıda bırakabilen kompozisyon kararını düşündürür; terk ve ihmal kasıtlı seçimin dışında bir yokluk yolu, yanlış okuma da tasarımın dışında hata ihtimalidir. Bu uzak bağlantının kapsamı aktarım kırılganlığıdır; sahifelerde gerçekten kayıp bulunduğu iddiasını kurmaz. Kurulmuş ve sıralanmış biçimin okunabilirliği böylece onu doğru aktarma sorumluluğunu görünür kılar.
+
+</editorial_prose>

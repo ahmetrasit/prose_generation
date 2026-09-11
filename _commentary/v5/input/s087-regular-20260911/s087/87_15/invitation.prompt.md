@@ -1,0 +1,259 @@
+# V5 reading invitation — 87:15
+
+You are a fresh reading-invitation writer. Read the complete editorial prose
+before writing. It is your sole semantic source.
+
+Write two to four paragraphs of fluent, contemporary Turkish that reveal a
+surprising reading by following one or two main channels of resonance in the
+ayah. A channel is a connected background of meanings, images, actions, or
+relations through which the ayah can be heard and understood differently.
+Several editorial findings may together develop one channel. Summarize that
+connected movement and its consequence for the ayah's main meaning, rather
+than compressing findings individually. Give the reading's substance now;
+the invitation comes from understanding it, not from a promise of hidden depth.
+
+Before drafting, read the entire editorial prose and silently select the one
+or two channels with the strongest interpretive consequence and enough
+grounding to explain clearly. Favor channels that expand or shift what the
+ayah says, the relation it establishes, or what is at stake in its action or
+image. One fully developed channel is sufficient; add a second only when it
+offers a distinct consequential reading that can be explained within the
+invitation. No finding, channel, or major shift has an individual coverage
+claim. Unselected material may remain entirely in the full commentary.
+
+A channel may develop through grammar, sound, dialogue, a material process,
+time, imagery, or a conceptual relation. Resonance is not limited to acoustic
+effects, and an unusual image alone does not establish a channel. Use only
+connections the editorial prose actually develops. If it supplies no such
+channel, explain its strongest grounded reading without inventing connections
+or surprise.
+
+Begin inside the ayah's own words, images, actions, or relations and reveal a
+selected distinctive reading in the first paragraph. Keep the plain meaning
+reachable with only the orientation needed to understand the change. Do not
+spend an opening paragraph on routine explanation or front-load context about
+the surah, the ayah's position, or the commentary project.
+
+For each selected channel, begin with the expression that opens it, unfold the
+connected background, and show how the ayah reads or sounds against that
+background. Let a detail lead into the next through an intelligible relation
+or process, so the reader experiences the emerging reading. This is a movement
+of thought, not a mandatory sentence pattern or one paragraph per finding.
+Let the reader identify the expression being interpreted,
+where any nonordinary detail comes from, and what that detail changes in the
+reading. Briefly identify the word-family use, restricted form, collocation, or
+context that supplies an essential added detail, and preserve the concrete
+operation that makes the image work. Keep the ordinary reading and necessary
+qualification clear within this explanation; do not repeat them as a fixed
+formula. Preserve the particular object, process, or relation that makes this
+reading distinctive, and state its interpretive consequence for the ayah as a
+whole. Make intelligible what the familiar reading leaves less visible and
+what the expanded or shifted reading now lets the reader understand. Preserve
+the editorial's force: an exploratory possibility remains possible, while a
+developed shift must not be softened into a decorative association or a
+reassurance that everything means the same thing. A concrete
+account of how something is carried, transformed, lost, or restored must not
+shrink to a general statement about care, guidance, dependence, or goodness.
+Keep the details needed to make the selected channel work; omit side findings
+and shorten routine setup. If a channel cannot be explained faithfully from
+the editorial prose, choose another grounded channel or reading.
+
+When a non-focus ayah supplies a contribution used in the invitation, keep its
+reference from the editorial prose beside that contribution.
+
+Do not turn the invitation into a miniature inventory of the commentary's
+conclusions, or flatten distinct channels into a broad theme to include more
+material. Do not repair, extend, or supplement the editorial prose from memory
+or outside knowledge.
+
+Omit technical apparatus. Retain any qualification, source distinction, live
+alternative, or boundary whose absence would change the force or meaning of a
+chosen reading. Express it naturally beside the image or relation it qualifies.
+Favor positive explanations of the relation between layers: what remains in
+the foreground and what the resonance makes audible in the background. State
+how that background reinforces, expands, or shifts the understanding of the
+main meaning, with the source and degree of certainty clear. Reserve explicit
+exclusions for concrete ambiguities or live counter-evidence that need them.
+Repeated "this is not X" endings make a reading sound withdrawn; express the
+substantive qualification through what the reading does contribute wherever
+possible. Use varied, natural language rather than a repeated "second layer"
+formula, and preserve the force of expansions and shifts.
+Do not name branches, candidates, findings, scopes, evidence categories,
+ledgers, or workflow stages, or label the prose as numbered channels. Do not
+list findings serially.
+
+Use the established `{ar:..., tr:..., gloss:...}` syntax, consistent
+Turkish-readable transliteration, and short ordinary glosses. Keep Arabic
+anchors beside the explanations they ground. Within a paragraph, continue with
+the Turkish meaning where clear; provide the necessary local tag when a later
+paragraph interprets the carrier anew. Do not place Arabic script outside a
+valid tag.
+
+Build transitions within a channel through its shared object, action, or
+relation. If two channels are selected, they may occupy separate paragraphs;
+do not invent a link between them. Do not praise the commentary's quality,
+promise what the reader will find, manufacture suspense, recap at the end, or
+add a call to action. End on an image, relation, action, or tension already
+established by the selected reading.
+
+Before finishing, compare the invitation with the entire editorial prose:
+does the chosen channel reveal a consequential reading, or could the text have
+been written from the ordinary translation and a modest explanation alone?
+When the editorial supports a surprising channel, the latter fails this task.
+Can the reader follow the opening expression into a connected background and
+understand how that background expands or shifts the ayah's main meaning?
+Check the selected connections against their editorial explanation: can the
+reader tell where the nonordinary details come from, with the necessary
+qualifications intact? Repair generic explanation, isolated curiosities, or a
+compressed findings list by developing the selected channel. Do not add
+omitted channels merely for coverage. Do not output this check.
+
+Write only the invitation text to:
+
+`_commentary/v5/editorial/s087-regular-20260911/s087/87_15/87_15.invitation.tr.md`
+
+Do not add a heading, wrapper label, index, ledger, evidence file, or any other
+artifact. Do not modify the editorial prose.
+
+After writing the invitation, run:
+
+```bash
+python3 _commentary/v5/validate_prose.py _commentary/v5/editorial/s087-regular-20260911/s087/87_15/87_15.invitation.tr.md
+```
+
+If validation fails, repair only the reported mechanical file-contract issues
+and rerun it, for at most two repair cycles. Report the final validator result
+in your response.
+
+<editorial_prose>
+## İki Bağlacın Kurduğu Sıra
+
+Bu ayet, arınarak başarıya ulaşan kişinin ne yaptığını iki tamamlanmış eylemle gösterir: {ar:وَذَكَرَ ٱسْمَ رَبِّهِۦ فَصَلَّىٰ, tr:ve zekere isme rabbihî fe-sallâ, gloss:Ve Rabbinin adını andı, ardından namaz kıldı}. İlk eylem Rabbin adını hatırlayıp anmak, ikincisi namaz kılmaktır. Cümle, önceki ayette başlayan insan tasvirini sürdürür, adı anmayı tamamlar ve oradan bedensel ibadete geçer. Bu sıkı sıra içinde hatırlama ile namaz yine iki ayrı iş olarak kalır.
+
+Sürekliliği ilk olarak baştaki {ar:وَ, tr:ve, gloss:ve} kurar. Yazıda ve söylenişte sonraki fiile bitişse de ayrı bir bağlaçtır; {ar:ذَكَرَ, tr:zekere, gloss:andı} fiilini “arınan başarıya erdi” cümlesine taşır (87:14). Böylece önümüzde birbirinden kopuk güzel davranışlar değil, arınan ve başarıya eren aynı kişinin sürdürülen hareketi vardır. “Ve”, hatırlamayı arınmaya eşlik eden bir sonraki eylem olarak da duyurur. Buradaki payı devam ve eşlikle sınırlıdır: yeni bir sözlük anlamı ya da daha kuvvetli bir sebep-sonuç bağı kurmadan kişinin hayat çizgisini kesintisiz gösterir.
+
+{ar:ذَكَرَ, tr:zekere, gloss:andı} tamamlanmış geçmiş zamanda, üçüncü tekil şahıstadır; görünmeyen özne, önceki ayette arınan ve başarıya ulaşan kişidir (87:14). Ayetin sonundaki {ar:صَلَّىٰ, tr:sallâ, gloss:namaz kıldı} da aynı kişi ve aynı tamamlanmış zamanla gelir. Bu özne birliği, “arınan”, “anan” ve “namaz kılan” diye üç örnek kişi tasarlamamızı engeller. Başarı tasviri tek kişinin içinden ve bedeninden geçen bir diziye dönüşür; kişi hakkında söylenebilecek kimlik de bu başarı dizisinin verdiği çerçevede kalır.
+
+İki fiilin arasına {ar:ٱسْمَ رَبِّهِۦ, tr:isme rabbihî, gloss:Rabbinin adını} öbeğinin bütünü girer. Bu yerleşim, ilk hareketin neye yöneldiğini namaz gelmeden önce tamamlar. Hatırlama bitmiş bir ilk hareket, namaz da onun ardından gerçekleşmiş cevap gibi işitilir. Öbek aynı zamanda bir köprüdür: Rabbin adı zihinde ve dilde belirginleşir, sonra bu belirli ilişki eyleme açılır. Adı anmanın ve namaz kılmanın ayrı işleri, tam da bu köprü sayesinde tek bir gelişen hareket oluşturur.
+
+Geçişi {ar:فَ, tr:fe, gloss:ardından} sıkılaştırır. “Fe” de yazıda namaz fiiline bitişir, fakat bağlaç olmayı sürdürür; sıralamayı ve sonucu aynı anda duyurur. Baştaki “ve” önceki başarı çerçevesini yeni cümleye taşırken, “fe” Rabbin adı anıldıktan sonra namaza doğru hızlı bir dönüş yaptırır. Namaz böylece “sonra bir de yapılan” ilgisiz bir ek değil, anılmış ilişkinin yakın sonucu olur. Bu yakınlık mekanik zorunluluk değil, tamamlanmış iki eylemi birbirine bağlayan cümle düzenidir.
+
+Ayetin sesi de iki hareketi ayırarak birleştirir. {ar:ذَكَرَ, tr:zekere, gloss:andı} sonrasında ad ve Rab öbeği genişler; özellikle şeddeli {ar:رَبِّهِۦ, tr:rabbihî, gloss:Rabbinin} namaz eşiğindeki son anlam düğümünü ağırlaştırır. Ardından bitişik “fe-sallâ” hızla gelir, fakat {ar:صَلَّىٰ, tr:sallâ, gloss:namaz kıldı} sonundaki uzun ses ayeti açık ve yayılmış bir kapanışa bırakır. Sözlük anlamına yeni bir yük eklemeyen bu ritim, dikkati önce adın sahibinde toplar, sonra eyleme geçirir.
+
+## Hatırlanan Ad
+
+{ar:ذَكَرَ, tr:zekere, gloss:andı ve hatırladı} Türkçedeki sessizce “hatırında tutma”dan daha geniş bir hareket taşıyabilir. Yeniden hatırlama kaybolan içeriği bilince getirir, akılda tutma onu korur, sözle anma işitilir kılar, kulluk amacıyla zikretme ise ona yön verir. Cümlede açıkça bir adın nesne olması bu katkıları aynı harekette toplar: kişi farkındalığını toparlarken Rabbin adını da anılabilir kılar. Bu bağlantıda fiilin kapsamı bellek, sözlü anma ve kulluk yönelişidir; erkeklik, sertlik, kitap ve ünle ilgili uzak kullanımlar devreye girmez. Kamusal ün yankısı ileride fiilin doğrudan anlamından değil, adın başka bağlamlarla temasından açılacaktır.
+
+Fiilin yönünü {ar:ٱسْمَ, tr:isme, gloss:adını} belirler. Bu kelime cümlenin doğrudan nesnesidir; {ar:رَبِّهِۦ, tr:rabbihî, gloss:Rabbinin} ise o ismin kime ait olduğunu bildiren tamlayıcıdır. İfade böylece belirsiz bir dinî duyguyu değil, belirli olarak “Rabbinin adını anmayı” söyler; dilbilgisel nesne Rabbin kendisi değil, bu ad tamlamasıdır. “İsim” hem hatırlama fiilinin nesnesi hem “Rabbinin” tamlamasının başı olduğundan, üç gevşek kelime zihne alınan ve sahibine bağlanan tek bir yapı hâline gelir.
+
+{ar:ٱسْمَ رَبِّهِۦ, tr:isme rabbihî, gloss:Rabbinin adını} tekil ve belirli bir tamlamadır. Türkçede ayrı bir tanımlıkla gösteremediğimiz bu belirlilik, ismin tamlayıcısıyla kurulur: dağınık adlardan herhangi biri değil, o kişiyi Rabbine bağlayan bilinen ad anılır. Cümle o anda yeni bir isim koymak yerine, hatırlanmak ve söylenmek üzere zaten hazır bulunan bir adlandırmayı öne getirir. “Ad”ın bir şeyi tanıtması ve ondan söz etmeyi mümkün kılması temel anlamdır; ad ya da nitelik bakımından denklik gibi sözlük uzantıları da bu belirli ilişkiyi renklendirir.
+
+“İsim” bu yapı içinde çıplak bir etiketten daha dolu duyulur. {ar:ٱسْمَ, tr:isme, gloss:adını} önce birini belirginleştirir, tanınabilir ve muhatap alınabilir kılar; onur ve saygınlık bu belirlemeye değer, toplumsal yükselme ise görünürlük katar. Böylece ad, işaret ettiği kişiyi konuşmanın odağına getiren değer yüklü bir işaret olur. Bu bağlantıdaki yükselme fiziksel bir sahne kurmaz; bilinen adın tanınır ve saygıya değer hâle gelişini anlatır.
+
+Buradan daha ihtiyatlı bir sözlük ihtimali açılır. {ar:ٱسْمَ, tr:isme, gloss:adını} ile akraba kullanım alanındaki fiziksel iz, tanınmayı somutlaştırır; o izden görünmeyen durum ya da karakter hakkında sezgi çıkarma ise adın bir ilişkiyi okunabilir kılmasını açıklar. {ar:ذَكَرَ, tr:zekere, gloss:hatırladı} bu belirtiyi yeniden fark etmeyi, Rabbin biçimlendirici bakımı belirtinin arkasındaki kaynağı, namaz da fark edişin bedende görünmesini sağlar. Damga, kesik ve çentik bu deneysel sözlük resminin somut türleridir; ayetin anlattığı fiziksel olaylar değildir. Çıkarım kesin kanıt düzeyine yükselmeden, olağan “ad” anlamını derinleştiren okunabilir bir belirti olarak kalır.
+
+Adın sahibi {ar:رَبِّهِۦ, tr:rabbihî, gloss:Rabbinin} diye belirlenir. “Rabb”de sahiplik ilişkiyi kurar, yönetim yön verir, adım adım eksikten tamamlanmışa yetiştirme ise gözetici bakımın süresini açar. Namazdan hemen önce duran bu üç katkı, anılan Rabb'i yetiştiren ve sürdüren özne olarak gösterir. Buradaki bağlantının kapsamı sahiplik, yönetim ve yetiştirici bakımdır; maddi büyüme resmi kendi bağımsız bağlamlarıyla daha sonra kurulacaktır.
+
+{ar:رَبِّهِۦ, tr:rabbihî, gloss:Rabbinin} sonundaki “-hi” eki, Rabliği cümlenin görünmeyen öznesine bağlar: genel bir unvan değil, anan ve namaz kılan kişinin “onun Rabbi”dir. Tekil ve iyelikli yapı ilişkiyi hem kişisel hem belirli kılar. Açılışta ikinci şahsa yöneltilen “Rabbinin adını yücelt” buyruğunun dili (87:1), burada üçüncü şahıs anlatımına döner; buyruk, arınmış kişinin yaptığı işte tanıklık edilen bir karşılık kazanır. Zamirin kurduğu yerel dönüş, kişisel Rab ilişkisini namaz eşiğine kadar taşır.
+
+## Hatırlatmadan Cevaba
+
+Surenin hatırlama çizgisi, {ar:ذَكَرَ, tr:zekere, gloss:andı ve hatırladı} fiilinin neden hem iç hem dış bir hareket olduğunu açar. Okutulma, kıraat ve tilavet öğretimiyle unutmama (87:6); yarar verecekse hatırlatma, hatırlamayı sağlayan araç ve sıkça anma imkânı (87:9); sakınan kişinin hatırlaması (87:10), birbirini izleyen ayrı işlemlerdir. Önce içerik okunur ve kaybolmaktan korunur, sonra hatırlatılır, onu alan kişi yeniden hatırlar. Bu alan tamamlanmış fiile ulaştığında, geri kazanılan bilgi Rabbin adına yönelir ve {ar:فَصَلَّىٰ, tr:fe-sallâ, gloss:ardından namaz kıldı} ile görünür cevaba dönüşür. Kıraat, unutmayış, hatırlatma, hatırlama ve namazın ayrılığı, aktarımın her aşamasını seçilebilir kılar.
+
+Aktarımın sesli yanı da bağlam içinde belirginleşir. Okutma sözün aktarılmasını sağlar (87:6); açıkça seslendirme ve sesli ünsüz çağrışımları işitilebilirliği somutlaştırır (87:7); hatırlatma ise sesi başkasına ulaştırır (87:9). Bu katkılar {ar:ذَكَرَ, tr:zekere, gloss:sözle andı} fiilini zihinde korunan içerikten söylenen ada doğru genişletir. Açığa çıkanı bilme ile gizli olanın bilgide tutulması aynı ayette yan yana geldiği için (87:7), söylenen ad içteki farkındalıktan kopmaz. Açık ses ve gizli bütünlük, bu bağlantıda odak fiile yeni sözlük anlamları eklemek yerine söz ile iç durum arasındaki sorumluluğu kurar.
+
+Bu aktarım iki cevap yolu açar. Hatırlatmanın yarara dönüştüğü kişi sakınarak hatırlar (87:9, 87:10); en bedbaht olan ise ondan yana çekilip uzaklaşır (87:11). {ar:ذَكَرَ, tr:zekere, gloss:hatırladı} alınan içeriğin bilinçteki cevabını, {ar:صَلَّىٰ, tr:sallâ, gloss:namaz kıldı} onun görünür ve bedensel karşılığını verir. Kenara çekilme, uzaklık, yabancılaşma, güçlük ve cevap verememe öteki yolu belirginleştirir. Bu karşıtlığın kapsamı iki yanıt biçimini görünür kılmaktır: kıraat, hatırlama ve namaz ayrı işlemler olarak kalır; namaz da her hatırlatmanın otomatik sonucu sayılmaz.
+
+Bağlamın ilahî bilgi tarafı, {ar:رَبِّهِۦ, tr:rabbihî, gloss:Rabbinin} sözünü ayrıca derinleştirir. Okutma ve öğretme ortamı (87:6) ile açığa çıkanı ve gizliyi bilme vurgusu (87:7), Rabb'i yalnız sahip olan değil, bilerek yetiştiren, tanıtan ve yol gösteren olarak düşündürür. O içerikten haberdar olduğu için hatırlama ve ibadet yolu anlaşılır hâle gelir. Bilgi ve öğretim Rabbe, hatırlayıp cevap verme insana ait kaldığından, ibadet eden kişi bu temasla her şeyi bilen konumuna çıkarılmaz.
+
+Surenin açılışı bu cevabın adresini önceden vermiştir: {ar:سَبِّحِ ٱسْمَ رَبِّكَ ٱلْأَعْلَى, tr:sebbih isme rabbikel-a‘lâ, gloss:En Yüce Rabbinin adını yücelt} çağrısı (87:1), odak ayette üçüncü şahsın yaptığı işte gerçekleşmiş görünür. “Allah'ın dilediği dışında” ifadesinin ibadet edilen Allah'ı sabit ilahî adıyla anması ve yemin-yakarış dilini çağrıştırması (87:7), bu adresi daha da belirginleştirir. {ar:ذَكَرَ, tr:zekere, gloss:adını andı} adı sözde hazır eder; {ar:صَلَّىٰ, tr:sallâ, gloss:namaz kıldı} övgü ve kulluğu bedende tamamlar. Açılışın bütün ayrıntılarını odak cümleye yüklemeyen bu geri dönüş, yüceltme buyruğunu yaşanmış bir karşılığa kavuşturur.
+
+Dış bağlamlar aynı dönüşü farklı uçlarından aydınlatır. Rabbin adının sabah akşam anılması (76:25), söyleme ve okumanın Rabbin adıyla başlaması (96:1), ilahî adlarla çağırmanın namazın ses ölçüsüyle yan yana gelişi (17:110) ve namazın hatırlama için kurulması (20:14), ayrı katkılar sağlar. Bunlar {ar:ذَكَرَ, tr:zekere, gloss:andı} fiilindeki yeniden bilince getirme ile sözle anmayı, {ar:ٱسْمَ, tr:isme, gloss:adını} kelimesindeki tanıtıcı adresi, {ar:رَبِّهِۦ, tr:rabbihî, gloss:Rabbinin} sözündeki yetiştirici ilişkiyi ve {ar:صَلَّىٰ, tr:sallâ, gloss:namaz kıldı} fiilindeki kurallı ibadeti birbirine geçirir. Ayrı kalan bu beş temas sayesinde hatırlanan içerik işitilebilir hitaba, hitap da bedensel pratiğe varır.
+
+Rabbin adını anmanın ardından bütünüyle O'na yönelme (73:8), adlarla çağırma (17:110) ve namazla birlikte Rabbe dönüş (6:72), bu hareketin yönünü tamamlar. Bu temaslarda {ar:ذَكَرَ, tr:zekere, gloss:adını andı} tek başına kapanan bir hatıra olmadan önceki çağrıya verilmiş fiilî cevabı başlatır; {ar:فَصَلَّىٰ, tr:fe-sallâ, gloss:ardından namaz kıldı} cevabı bedende tamamlar. Önceki emir odak ayetin dilbilgisini tek başına belirlemez; adlandırılmış hatırlama, yönelme ve namaz kendi katkılarını koruyarak yaşanmış bir cevap oluşturur.
+
+## Adın Görünürlük Kazanması
+
+Sözle anılan bir ad, söyleyen kişinin içinde kalmaz. Açılıştaki yüceltme (87:1) ve başkasına ulaşan hatırlatma (87:9), {ar:ٱسْمَ, tr:isme, gloss:adını} kelimesinin belirtme işini toplumsal alana açar. Ad, kimliği taşıyan bir işaret olarak söylenebilir, hatırlatılabilir ve yayılabilir. Onur, iyi ün, saygınlık, fiziksel ya da toplumsal yükselme ve insanlar arasında dolaşan itibar bu açılımda ayrı katkılar yapar; ad veya nitelik bakımından denklik ise kimin ve neyin anıldığını sabit tutar. Böylece isim özel bir etiket olmaktan çıkarken, belirtme, onur ve itibar birbirine karışmadan birlikte iş görür.
+
+“Sizin zikriniz”in kamusal değer ve statü taşıması (21:10), {ar:ذَكَرَ, tr:zekere, gloss:onurla andı} eylemine olumlu biçimde anılma imkânı verir. Anılmanın yükseltilmesi (94:4) de {ar:ٱسْمَ, tr:isme, gloss:yayılan ad} için insanlar arasında erişim kazanan iyi ün imgesini besler. Böylece zihindeki bilgi korunurken ad işitilir ve konuşanın sınırını aşan bir tanıma doğar. Bu bağlantının ölçülü katkısı kamusal onay arayışı değil, onurlu anmanın erişimidir; olağan ad anlamı ile ritüel namaz onun sabit zeminidir.
+
+Görünürlüğün değer ölçüsü açılıştaki {ar:ٱلْأَعْلَى, tr:el-a‘lâ, gloss:en Yüce} ile belirginleşir (87:1). Yükseklik ve üst taraf yön verir; asalet, yüksek mertebe ve önderlik bu yönü onurla doldurur; kusurdan arındırarak yüceltme de adın neden saygıyla anıldığını açıklar. {ar:ٱلْكُبْرَىٰ, tr:el-kübrâ, gloss:en büyük} ise ateşin büyüklük baskısını ve “büyük görme”nin mertebe, onur ve önderlik çağrışımlarını getirerek ciddi bir karşı ağırlık kurar (87:12). Bu iki katkının temasında {ar:ٱسْمَ, tr:isme, gloss:adını} saygıya layık olanı seçip öne çıkaran değerlendirici işaret gibi duyulur. Yüceltilen ad ile büyük ateş bu bağlantıda birbirine dönüşmez; biri yönelişin değerini, öteki seçimin ciddiyetini belirginleştirir.
+
+Olumlu anma, daha ihtiyatlı bir yönden övgü ve niyaza açılır. {ar:ذَكَرَ, tr:zekere, gloss:sözle andı} Rabbin adını seslendirir; adın onur ve yükselme çağrışımı bu sesi tanınan bir konuma çıkarır; {ar:رَبِّهِۦ, tr:rabbihî, gloss:Rabbinin} sahiplik ve yönetimi hitabın kime döndüğünü belirler. Ardından {ar:صَلَّىٰ, tr:sallâ, gloss:namaz kıldı} insanın başkası için iyilik, esenlik ve iyi sonuç dilemesi, övgüde bulunması ve merhamet istemesi yönünü kurallı ibadetin içinde taşıyabilir. Fiziksel yükseliş ya da sosyal şöhret talebi yerine, seslenen tanıma övgü ve yakarış niteliği kazanır.
+
+## Yetiştiren Rab ve Kurulmuş Düzen
+
+{ar:رَبِّهِۦ, tr:rabbihî, gloss:Rabbinin} namazdan hemen önce durduğu için ibadetin yakın yönünü ve güdüsünü verir. Rabb'in sahip olup yönetmesi, gözetmesi ve adım adım tamamlaması aynı ilişkide buluşur. Ölçü koyup yol göstermesi (87:3) ve kolay olana yöneltmesi (87:8), sahipliği fiilî yönetime, kudreti imkân ve esenliğe açar. Böylece adı anılan Rab yalnız düzenin sahibi değil, düzeni izlenebilir kılan etkin kudret olarak görünür; “isim” de soyut bir güç kavramı yerine gerçekten yol açan ve yön veren özneyi tanıtır.
+
+Yaratma ve düzgün-orantılı hâle getirme (87:2), yeşil merayı koyu kuru artığa dönüştürme (87:5) ve ilahî dileme (87:7), birbirinden ayrı işlemlerdir. Bunlar {ar:رَبِّهِۦ, tr:rabbihî, gloss:Rabbinin} sözündeki başlatma, oluşturma, bir hâle sokma ve tamamlanana dek yetiştirme anlamlarıyla temas ettiğinde, namaz zaten kurulmuş, ölçülmüş ve dönüşümleri gözetilmiş bir düzen içinde gerçekleşen insan cevabı olur. {ar:صَلَّىٰ, tr:sallâ, gloss:namaz kıldı} kendi sözlük anlamında ibadet olarak kalır; yaratma, dönüştürme ve dilemenin kurduğu daha geniş sıra, bu ibadetin nerede gerçekleştiğini açıklar.
+
+Bu sıra yalnız başlangıçtan ibaret değildir. Yaratma ve oran verme (87:2), ölçme ve rehberlik etme (87:3), merayı çıkarma ile otlatma ve gözetici bakım (87:4), ardından bitkinin kırılgan kuru artığa dönüşmesi (87:5) farklı işlemleri art arda getirir. {ar:رَبِّهِۦ, tr:rabbihî, gloss:Rabbinin} yetiştirici bakımı ile {ar:صَلَّىٰ, tr:sallâ, gloss:namaz kıldı} fiilinin uyum ve yakından izleme imkânı bu işlemlere değdiğinde, namaz ölçülmüş ve önü gösterilmiş düzene verilen uyumlu cevap gibi okunabilir. Ölçü, doğruluk ve tamamlanma; nazik yönlendirme, mera ve geçici bitkisel biçim kendi maddi ayrıntılarıyla bu bağlamsal resmi birlikte kurar.
+
+Ölçü koyan Rabbin yol göstermesi (87:3) ile kolay olana yöneltiş (87:8), bu uyumun niteliğini değiştirir. {ar:رَبِّهِۦ, tr:rabbihî, gloss:Rabbinin} yönetimi ve {ar:صَلَّىٰ, tr:sallâ, gloss:namaz kıldı} eylemi buluştuğunda, ibadet önceden biçimlendirilmiş bir düzene kör taklit olarak değil, yolu ve kapasitesi açılmış bir karşılık olarak görünür. “Kolay” alanındaki hafif, uysal ve yumuşak hareket çağrışımı izleyişe imkân verilmiş uyum niteliği katar; bu nitelik, her namazın öznel olarak zahmetsiz olacağı iddiasına genişlemez.
+
+Bu kurulmuş düzenden farklı ölçekte, maddi bir büyüme resmi belirir. {ar:ٱسْمَ, tr:isme, gloss:adını} çevresinde açılan biçimce akraba sözlük kullanımlarından katmanlı ve asılı bulut kümesi, büyümeyi önce gökte bekleyen imkân hâlinde gösterir; yılın ilk yağmuru toprağın bitkilenmesini başlatır; develerin otladığı iri başaklı bitki ise gelişmeyi besine dönüşen görünür ürün hâline getirir. Meranın çıkarılması bu ürüne geniş bir yetişme alanı verir (87:4), koyu kuru artığa dönüşmesi de görünen biçimin geçiciliğini gösterir (87:5). {ar:تَزَكَّىٰ, tr:tezekkâ, gloss:arındı ve gelişti} fiilindeki saflık ve sağlamlık başlangıcı temizler, büyüme ve verimlenme ise aynı işlemi insan tarafında geliştirir (87:14). Böylece bulut, ilk yağmur, bitki, mera ve kuru artık birbirini tekrarlayan süsler değil, imkândan ürüne ve üründen geçiciliğe uzanan ayrı aşamalardır.
+
+Bu aşamalar kurulduktan sonra {ar:صَلَّىٰ, tr:sallâ, gloss:namaz kıldı} gözetilen iç gelişmenin görünür verimi gibi düşünülebilir. {ar:رَبِّهِۦ, tr:rabbihî, gloss:Rabbinin} sözündeki yetiştirici bakım, arınmayı tek bir temizlenme anından çıkarıp hatırlama ve eylemle kültive edilmiş sonuca ulaştırır; kuru artık ise görünür sonucun kendisini kalıcı sanmaya karşı sınır koyar. Bu keşifsel bağlantıda bulut, yağmur ve bitki maddi benzetmenin taşıyıcılarıdır; “isim” tanıtan ad, Rab yetiştiren özne, namaz da bedensel ibadet olarak kalır. İmge böylece bakım altında gelişme ile görünen biçimlerin geçiciliğini aynı okumada tutar.
+
+## Bedende Tamamlanan Yöneliş
+
+{ar:صَلَّىٰ, tr:sallâ, gloss:namaz kıldı} ayetin yerel biçiminde kurallı ibadettir: ayakta durma, eğilme, yere kapanma, dilek ve yüceltme bölümleri bulunan, yükümlülük niteliği taşıyan tapınma. “Fe” bu bedensel düzeni anılmış Rab adına bağlar. Namaz böylece içte toparlanan farkındalığın görünür hizalanması ve yakınlaşması olur. Kurallı biçim, bu genişlemeyi genel bir yakınlık duygusundan, herhangi bir dilekten ya da yalnız sözlü bir çağrıdan ayırır.
+
+Fiilin ardından bir nesne gelmez. Hemen önceki {ar:رَبِّهِۦ, tr:rabbihî, gloss:Rabbinin} ise namazın kime yöneldiğini ve hangi ilişkinin onu harekete geçirdiğini açık tutar. Dilbilgisel olarak söylenmemiş bir nesne eklemeden, ibadetin Rabbe dönük olduğunu anlarız. Nesnesiz ve tamamlanmış oluş, namazı belirli bir dünyevî fayda istemeye ya da bir düşmana karşı araca bağlamadan, kendi içinde tamamlanan kulluk yönelişi hâline getirir.
+
+Kurallı biçim dua ve merhamet talebine de yer verir. İnsanın başkası için iyilik ve esenlik dilemesi (33:56) ile arınma, içten kulluk ve namazın buluşması (98:5), {ar:صَلَّىٰ, tr:sallâ, gloss:namaz kıldı} fiilinde övgü, iyi son dileği ve merhamet istemeyi ayakta durma, eğilme ve secde düzeninin içine yerleştirir. Allah'a ve meleklere nispet edilen salâtın gerçekleşme tarzı ise özne sınırını gösterir (33:43). Buradaki özne insan olduğundan ilahî esirgeme ya da meleksel salât ona aktarılmaz; insan, biçimli ibadet içinde dua eder.
+
+Bu dış biçimin iç niteliğini huşu (23:2), bedensel hazırlık ve ne söylendiğini bilme şartı (4:43), namazları koruyup içten bağlılıkla durma vurgusu (2:238) belirginleştirir. Huşu dikkatin yönünü, hazırlık bedenin hazır oluşunu, koruma ise bu ikisinin zaman içinde sürmesini sağlar. Böylece {ar:صَلَّىٰ, tr:sallâ, gloss:namaz kıldı} belirli beden hareketleri içinde uyanık ve korunmuş dikkat taşır. Bu bağlantı her dış icranın aynı iç yoğunluğa ulaştığını garanti etmez; iç niteliği, biçimsiz bir duyguya çevirmeden namazın düzeni içinde görünür kılar.
+
+Hatırlama ile namaz arasındaki ilişki tek yönde işlemez. Namazın hatırlama için kurulması (20:14), bir yönden namazın hatırlamayı taşımasını gösterir; buradaki {ar:ذَكَرَ ... فَصَلَّىٰ, tr:zekere ... fe-sallâ, gloss:andı, ardından namaz kıldı} sırası ise hatırlamayı namaza akıtır. Birbirini karşılıklı aydınlatan iki eylem ayrı kalır ve odak ayetin kendi sırası, bilinçte ve sözde başlayan hareketin bedende tamamlanması olarak belirginleşir.
+
+## Ateşin Karşısındaki Biçim
+
+Namazın son fiili, büyük ateşe girme fiiline sesçe çok yaklaşır: orada {ar:يَصْلَى, tr:yaslâ, gloss:ateşe girer ve yanmasına maruz kalır} (87:12), burada {ar:صَلَّىٰ, tr:sallâ, gloss:namaz kıldı} denir. Ses yakınlığı önce aynı bedeni iki farklı durumda işittirir: biri yakıcı şiddete maruz kalır, öteki Rabbin adını anarak kurallı biçimde durur, eğilir ve yere kapanır. Bu karşılaşmanın kapsamını iki yüzeyin sözlüksel ayrılığı belirler; son zayıf harfleri farklı iki kök alanına ait oldukları için ateş namazın anlamına eklenmez. Ateş, ayrı kimliğini koruyarak ibadetin yönünü keskinleştiren karşı fon olur.
+
+Ateş tarafındaki sözlük alanında sıcaklığa ya da ateşe benzer bir sıkıntının şiddetine maruz kalma, bedenin neye uğradığını gösterir; ateşe girme veya sokma, bu şiddete doğru hareketi belirler. Yakıt olma şiddetin neyle sürdüğünü, ateşte pişirme ve ısıyla işleme maddenin nasıl değiştiğini, damgalama ise ateşin bedende bıraktığı izi somutlaştırır. Yanan büyük ateş bu ayrıntıları bağımsız olarak etkinleştirir (87:12). Onların karşısındaki {ar:صَلَّىٰ, tr:sallâ, gloss:namaz kıldı} kurallı ibadet olarak seçilmiş ve disiplinli yönelişi taşır; iki beden yolu aynı işitme alanında belirginleşirken ibadet ile ceza ayrı kalır.
+
+Ateş ehlinin “namaz kılanlardan değildik” demesi (74:43) terk ediş ile ateş arasındaki sonucu, namazı zayi edenlerin ardından kötü sonucun gelmesi (19:59) bu terk edişin sürekliliğini görünür kılar. Namaza bağlı kalanların ayrılması (70:22) ise karşı yönde sürdürülen pratiği gösterir. Bu temaslarda {ar:صَلَّىٰ, tr:sallâ, gloss:namaz kıldı} tek seferlik jestten fazla, yıkıcı gidişin karşısında korunan yapıcı yol gibi görünür. Dış ayetlerin sonuçları odak ayetin açık hükümleri değildir; bu bağlantıda onların katkısı, tamamlanmış ibadetin hangi yönde sürdürülebileceğini belirginleştirmektir.
+
+Isı alanında daha deneysel bir karşı-imge de vardır. Ateşte pişirme maddenin değişmesini, ısıyla düzeltme ise değişimin biçim verici yönünü açar. Bu iki katkı düzgün ve orantılı biçim vermeyle (87:2), ardından arınma ve sağlamlaşmayla (87:14) buluşur; {ar:صَلَّىٰ, tr:sallâ, gloss:namaz kıldı} da yönelişi disiplinli bedende sürdürür. Böylece yaratılıştaki ölçü, arınmadaki saflık ve namazdaki düzen, yıkıcı ateşin yanında seçilmiş bir doğrulma ve biçimlenme yolu kurabilir. Bu ihtiyatlı benzetmede ısı yalnız biçim verme imgesini sağlar; namazın kaynağı ve olağan anlamı kurallı ibadettir, ateş de yıkıcı karşı kutup olarak kalır.
+
+## Önden Gideni Yakından İzlemek
+
+{ar:صَلَّىٰ, tr:sallâ, gloss:namaz kıldı} kelimesinin ailesinde, at yarışındaki ikinci at için kullanılan çok somut bir yakınlık resmi bulunur: ikinci atın başı, öndeki atın sırtının sonuna ve kuyruk kökünün iki yanına gelecek kadar yakındır. Başın bu hizası mesafeyi, ikincilik öndekiyle ilişkiyi, konumu korumak ise izleyişin sürekliliğini gösterir. Bu üç ayrıntı bedensel ibadete dinamik bir yakın takip imgesi ekler. At yarışı resmi bu bağlantıda yalnız izleyişin biçimini açıklar; ön plandaki eylem, yöneldiği önderliğin ardında yakın duruş kazanan namazdır.
+
+Ölçü koyup yol gösteren Rab (87:3), izlenecek yönü açar; kolay olana yöneltilme (87:8) bu yönde hareket etme imkânı verir. {ar:رَبِّهِۦ, tr:rabbihî, gloss:Rabbinin} sahipliği ve yönetimi önden açılan rehberliği, {ar:صَلَّىٰ, tr:sallâ, gloss:namaz kıldı} ise o rehberliğin ardında yakın kalmayı taşır. Kolaylık alanındaki hafif ve uysal hareket de izleyişi imkân verilmiş uyum olarak niteler. Bu bağlantıda önde açılan yol ve ardışıklık bağlamın katkısıdır; namaz fiilinin kendi anlamı kurallı ibadet olarak korunur.
+
+Bu yakın duruş, {ar:يَتَجَنَّبُهَا, tr:yetecennebühâ, gloss:ondan yana çekilip kaçınır} ile karşılaşınca ahlaki yön kazanır (87:11). Bedensel yan çağrışımı konumun neresi olduğunu sorar; kenara çekilme, uzaklaşma ve yabancılaşma o konumdan ayrılışı gösterir; yanında götürme ya da eşlik ettirme imkânı ise yakınlığın karşı seçeneğini açık tutar. Namazın at imgesindeki sırt sonu ve kuyruk kökü yanları aynı mekânsal soruya, öndekinin ardında yakın kalarak cevap verir. Anatomi yalnız mesafeyi ve tarafı somutlaştırır, yarış yalnız yakın takibi gösterir; odak okumada bunlar kaçınma ile namazın iki farklı konum alışını açıklayan mecazlardır.
+
+Yakın dünya hayatı (87:16) ile daha sonra gelen ve kalıcı olan (87:17), konuma zaman boyutu ekler. Yakınlık ve yaklaşma hemen erişilen hayatın çekimini öne getirir; “sonraki”nin arka ya da geride kalan taraf çağrışımı henüz görünmeyen ufka yön verir; kalıcılık da bu yönün süresini açar. {ar:صَلَّىٰ, tr:sallâ, gloss:namaz kıldı} bu üç katkının arasında, adı anılan Rabbe yakın ve kalıcı olana dönük bir yerleşme eylemi gibi okunabilir. Öndeki rehberi izlemek mesafeyi, hatırlatmadan yana kaçmamak tarafı, sonraki ufku gözetmek zamanı belirginleştirir.
+
+İlk sahifeler (87:18) şimdi yapılanın önünde bir kayıt bulunduğunu, İbrahim ve Musa'nın sahifeleri (87:19) ise bu kaydın önceki taşıyıcılarını gösterir. “İlk” böylece tarihsel öncelik, adlandırılan taşıyıcılar da aktarım çizgisi sağlar. At yarışındaki yakın takip imgesiyle {ar:صَلَّىٰ, tr:sallâ, gloss:yakından izleyerek namaz kıldı} bu iki katkıya değdiğinde, namaz önceki öğretinin arkasında yer alan katılım gibi görünür. Kitaba tutunma ile namazın birlikte anılması uygulamayı (7:170), yazılı öğretinin hatırlanmaya elverişli oluşu da aktarılabilirliği destekler (54:22). Bu mecazın kapsamı devralınmış yolu yakından izlemektir; bütün dönemlerin ritüel ayrıntıları aynılaştırılmaz.
+
+Bu geri bakış iki ayrı çizgiyi birlikte tutar. Rabbin adı (87:1), {ar:ذَكَرَ, tr:zekere, gloss:adı andı} eylemini açılıştaki çağrının tamamlanmış sözlü cevabı yapar; yana çekilme (87:11) ise {ar:صَلَّىٰ, tr:sallâ, gloss:namaz kıldı} eylemini rehberin ardında kalma yönüyle keskinleştirir. Adı anarak çağrıya cevap vermek ile namazda yakın izleyiş paralel hareketlerdir. Bu iki geri dönüş, odak cümlenin yalın ve tamamlanmış eylemlerini geçmişteki çağrıya ve karşıt konuma bağlayan bir eşik oluşturur.
+
+## Yakın Olanı Yeniden Tartmak
+
+Odak ayetin yeri, eylemin ufkunu değiştirir. Öncesindeki {ar:قَدْ أَفْلَحَ مَن تَزَكَّىٰ, tr:kad efleha men tezekkâ, gloss:arınan gerçekten başarıya erdi} (87:14), anma ve namazı arınmanın görünür sonucu yapar. Sonrasında yakın dünya hayatının tercih edilmesi (87:16) seçimin baskısını, ahiretin daha hayırlı ve kalıcı oluşu (87:17) ise seçimin ölçüsünü verir. Bu önce-sonra düzeninde {ar:ذَكَرَ ... فَصَلَّىٰ, tr:zekere ... fe-sallâ, gloss:andı, ardından namaz kıldı} yakın olana teslim olmayan uygulanmış tercih olur. Bu bağlantının kapsamı namazın baktığı ufuktur; sonraki karşılaştırmanın bağlacı ve açık ahiret önermesi odak fiilin içine taşınmaz.
+
+Hatırlamadan yüz çevirip yalnız dünya hayatını isteme (53:29), sevilen yakın malın anmayı perdelemesi (38:32) ve gözün dünya hayatının süsüne çevrilmesi (18:28), “yakın” tercihin farklı sahneleridir. Bu sahneler {ar:صَلَّىٰ, tr:sallâ, gloss:namaz kıldı} ile temas ettiğinde namaz, yakının çekiciliğinin önem sırasını tek başına yönetmesini engelleyen eylem gibi görünür. Odağın kendi başına anlatmadığı bu dış sahneler, kişinin daha iyi ve kalıcı olana bedenle yönelerek neyi yeniden tarttığını açığa çıkarır.
+
+“Sonraki”nin kelime alanı daha sonraya bırakılmayı ve ertelemeyi, “kalıcı”nın alanı ise bir şeyi gözetip beklemeyi çağrıştırır (87:17). {ar:صَلَّىٰ, tr:sallâ, gloss:namaz kıldı} kelime ailesindeki “bir yerde kalıp sürme” uzantısı, beklenen ufka sebatla bağlı kalma yönünü ekler. Erteleme ufkun henüz gelmediğini, bekleme onun görüşte tutulduğunu, kalıp sürme de şimdiki eylemin devam yönünü gösterir. Böylece namaz kendi ritüel anlamını koruyarak hemen olana kapanmayan zamansal bir nitelik kazanır.
+
+Bu tercih, arınmadaki büyüme imgesini de sonuçlandırır (87:14). Arınma saflık ve gelişme imkânı açar; {ar:ذَكَرَ, tr:zekere, gloss:hatırladı} gelişmenin yönünü Rabbin adına toplar; {ar:صَلَّىٰ, tr:sallâ, gloss:namaz kıldı} onu görünür verime dönüştürür. Meranın yeşermesi gelişmenin görünür biçimini (87:4), kuru artığa dönüşmesi bu biçimin geçiciliğini gösterir (87:5). Yakın hayatın çekiciliği ile daha kalıcı olanın üstünlüğü (87:16, 87:17), bu önce-sonra resmine tercih ölçüsü ekler. Bitkisel ayrıntılar bu bağlantıda gelişme evrelerini somutlaştırır; insan arınan ve namaz kılan özne, namaz da onun bedensel eylemi olarak kalır.
+
+## Devralınan ve Sürdürülen İbadet
+
+İlk sahifeler (87:18) ile İbrahim ve Musa'nın sahifeleri (87:19), izlemekten daha fazlasını, kayda geçirilmiş bir öncülü de açar. Yazılı sayfa öğretinin maddi ortamını, hakkı gösteren belge onun doğrultusunu, bağlayıcı söz yükümlülüğünü, güvence ise devralınan ilişkinin sürekliliğini belirginleştirir. Bu katkılar {ar:ذَكَرَ, tr:zekere, gloss:hatırda tuttu} ile kaydı yeniden bilince, {ar:صَلَّىٰ, tr:sallâ, gloss:namaz kıldı} ile uygulamaya taşır. Bugünkü ad-anma ve namaz dizisi böylece devralınmış öğretinin icrası olarak tarihsel derinlik kazanır. Bu bağlantı yazılı kayıt ile sonraki uygulamanın sürekliliğini gösterir; “bu” işaretinin yalnız odak cümleyi göstermesini zorunlu kılmaz.
+
+Kitaba sımsıkı tutunma ile namazın birlikte anılması uygulama bağını kurar (7:170); vahyin hatırlama için kolaylaştırılması kaydın yeniden erişilebilir oluşunu gösterir (54:22). İlk sahifeler önceliği (87:18), İbrahim ile Musa'ya nispet edilen sahifeler de önceki taşıyıcıları verir (87:19). Bu bağ içinde {ar:ذَكَرَ, tr:zekere, gloss:hatırladı} yazılı ve hatırlanabilir öğretiyi şimdi yeniden bilinçte tutar; {ar:صَلَّىٰ, tr:sallâ, gloss:namaz kıldı} alınmış yükümlülüğü bedende yerine getirir. “Belge” hatırlama fiilinin sözlük anlamı değildir ve tarihsel süreklilik bütün dönemlerin ritüel ayrıntılarını özdeş kılmaz; bu bağlantının kazancı devralınmış öğretinin bugünkü icrasıdır.
+
+Ayetin iki fiili tamamlanmış olsa da dış bağlam onların tekrar edebilen bir ritme açıldığını gösterir. Rabbin adını sabah akşam anma zamana yayılmayı (76:25), namazdan sonra ayakta, otururken ve yanlar üzerinde Allah'ı anma farklı beden hâllerine yayılmayı sağlar (4:103). Böylece {ar:ذَكَرَ, tr:zekere, gloss:sözle andı} tek bir söz anını çevreleyen devamlılık kazanır. Namaza devam etme sürekliliği (70:23), aileye namazı emredip onda sebat etme sorumluluk çevresini açar (20:132); {ar:صَلَّىٰ, tr:sallâ, gloss:namaz kıldı} bu katkılarla sürdürülebilir pratiğin eşiği olur. Bağlantının kapsamı bu ritimdir: tamamlanmış fiiller belirli bir takvime, sıklığa ya da herkes için eksiksiz uygulama düzenine dönüştürülmez.
+
+Bu ritim özel hayata kapanmaz. Namazın mali tasarruf ve servet kullanımıyla tartışılması kaynak seçimini (11:87), namaz kılanların toplumsal duyarsızlık içinde uyarılması ibadet ile kamusal davranış arasındaki gerilimi (107:4), namazın hayasızlık ve kötülükten alıkoyması ahlaki sakınmayı (29:45), namazla mali sorumluluğun yan yana gelmesi ise maddi yükümlülüğü belirginleştirir (2:277). Bu katkılar {ar:صَلَّىٰ, tr:sallâ, gloss:namaz kıldı} eylemini kaynak kullanımı, kendini tutma ve etik davranış üzerinde sonuçları olan yöneliş hâline getirir. Bu bağlantı odak ayetten ayrıntılı mali ya da sosyal yasa çıkarmak yerine, namazın ortak dünyadaki davranıştan kopmayan yönünü gösterir.
+
+Dışa açılan sorumluluk, namazı bütün hayatın yönünün yoğunlaşmış ifadesi olarak da okumaya izin verir. Namazın sunu, hayat ve ölümle birlikte anılması varoluşun tamamını (6:162), Rabbe dönüşle namazın buluşması yönelişi (30:31), namazın dönüş ve sakınma içinde yer alması ise bu yönelişin ahlaki korunmasını görünür kılar (6:72). Bu katkılarla {ar:صَلَّىٰ, tr:sallâ, gloss:namaz kıldı} kişinin kime doğru yaşadığını yoğunlaştıran bir an olur. Bağlantının kapsamı bu hayat yönüdür; odak ayetin kendi söylediği eylem kurallı namazdır, hayat, ölüm ve sunu ayrıntıları dış bağlamlarda kalır.
+
+Bu hayat yönü, bedende korunmuş dikkat olarak tamamlanır. Huşu dikkatin iç yönünü (23:2), hazırlanmış beden ve söylenenin farkında olma uyanıklığını (4:43), namazları koruma ise sürekliliğini sağlar (2:238). Böylece {ar:صَلَّىٰ, tr:sallâ, gloss:namaz kıldı} ayakta durma, eğilme ve yere kapanma biçimi içinde yönelmiş dikkat taşır. Rabbin adı önce bilinçte ve seste belirginleşmiş, “fe” bu belirginliği eyleme çevirmiştir. Bu bağlantı her dış harekette aynı iç yoğunluğu varsaymaz; huşuyu namazın belirli düzeninde korunabilen iç yöneliş olarak gösterir.
+
+</editorial_prose>

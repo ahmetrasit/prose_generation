@@ -1,0 +1,36 @@
+Bu âyetin açık sözü şudur: “Ve seni kolay olana yönelteceğiz.”
+{ar:وَ, tr:wa, gloss:ve} burada küçük bir bağlaç olarak sözü önceki güvenceye bağlar; sonuç bildiren katı bir “böylece” ya da yemin başlatan bir edat gibi çalışmadığı için vaat, sırf sonuç veya yemin çerçevesine indirgenmez.
+Bu bağlaç ayrı bir kelime olarak çözümlense de yüzeyde fiilin başına yapışır ve ses akışında devamlılığı fiilin eyleminden önce duyurur; bu sıkışma yalnızca işitsel bir vurgu getirir, yeni bir sözlük anlamı getirmez.
+Böylece cümle, bağımsız bir kolaylık özdeyişi değil, önceki güvenceyi etkin bir kolaylaştırma vaadine taşıyan devam cümlesi olarak açılır.
+
+{ar:نُيَسِّرُكَ, tr:nuyassiruka, gloss:seni kolaylaştıracağız} etkin, birinci çoğul şahısta ve genişleyen bir zaman görünümündeki fiil olarak kolaylaştırmayı konuşanın hâlen gerçekleştirdiği bir süreç halinde kurar; Türkçedeki gelecek zaman karşılığı bu açık süreci kapatmaz.
+Bu süreç, önceki güvenceyle bilinen gizli engellere hazırlanmış ve ardından gelecek hatırlatma sözüne yönelen bir görevlendirme niteliği kazanır; muhatap yapacağı iş için donatılır.
+Fiilin sonundaki {ar:كَ, tr:ka, gloss:seni} eki muhatabı doğrudan etkilenen kişi yaparken, hemen sonraki {ar:لِ, tr:li, gloss:yönelme ve amaç} hedef ilişkisi kolaylaştırmanın nereye yöneldiğini ayrı bir parça olarak gösterir; kişi ile güzergâh aynı şey değildir.
+Fiilin II. kalıbı bu ilişkiye sebep olma gücü verir: kolaylık kendiliğinden beliren bir hâl değil, muhatap üzerinde gerçekleştirilen ve onun için düzenlenen bir eylem olarak görünür; bu, “seni kolay olana yönelteceğiz” sözünün içindeki fail ve yönü belirginleştirir.
+
+Aynı kolaylaştırma alanı başka yerlerde bir istek ya da bir davranışın sonucu çevresinde kurulabilir; burada {ar:نُيَسِّرُكَ, tr:nuyassiruka, gloss:seni kolaylaştıracağız} doğrudan verilen bir ilahî görev hazırlığını kurar ve bu ayrım yerel vaadi genişletirken başka sahneleri bu cümleye taşımaz.
+Aynı kelime ailesi {ar:لْيُسْرَىٰ, tr:al-yusrā, gloss:kolay olan} içinde ikinci kez duyulurken, ilk biçimdeki kolaylaştırma eylemi son biçimde adlandırılmış hedefe dönüşür; tekrar ses değil, eylemden varış noktasına uzanan bir anlam hareketi kurar.
+Bu aile kolaylığı direnç azalmasının yanında hazır olma, kullanılabilir imkân ve kapasite olarak da duyurur; doğrudan nesne ile hedef ilişkisi bu imkânı muhatabın gerçekten girebileceği yola bağlar, böylece basınç kabul edilen kolaylığın içinde kalır.
+
+Yönelme ve amaç ilişkisini taşıyan {ar:لِ, tr:li, gloss:yönelme ve amaç} edatı, kolaylaştırmanın bir şeye doğru, bir amaç için, yarar sağlayacak ve sonuç doğuracak şekilde ilerlediğini bildirir; yardımın yönü görünür hâle gelirken edatın kendisi yeni bir sözlük anlamına dönüşmez.
+Bu edatın yönettiği {ar:لْيُسْرَىٰ, tr:al-yusrā, gloss:kolay olan} son isim, fiilin çerçevesini tamamlayan gerçek hedef olur; cümle kolaylaştırma eylemini bir varış noktasına bağlar ve bu hedef ilişkisi olağan “kolay olana” anlamını korur.
+Önceki sözde görünmeyen engelleri bilen bir failin bulunması, bu hedefi gerçek dirençlere hazırlanmış bir güzergâh gibi temellendirir; kolaylık burada soyut bir rahatlık değil, karşılaşılacak güçlükler için güvenilir bir hazırlık olarak duyulur.
+Yüzeyde bitişik görünen {ar:لِ, tr:li, gloss:yönelme ve amaç} ile {ar:لْيُسْرَىٰ, tr:al-yusrā, gloss:kolay olan} yine de iki ayrı parçadır: ilki ilişkiyi kurar, ikincisi kolaylık taşıyan isim olarak hedefi doldurur; ses birleşmesi bu görev ayrımını ortadan kaldırmaz.
+
+Son kelimenin belirli oluşu ve dişil üstünlük/niteleme biçimi, {ar:لْيُسْرَىٰ, tr:al-yusrā, gloss:kolay olan} sözünü tanınan, tekil ve güzergâh gibi kavranan kolay, hatta en kolay hedefe çevirir; biçim, “en kolay” derecesini her bağlama zorlamadan bu belirli hedefi korur.
+Bu isim {ar:لِ, tr:li, gloss:yönelme ve amaç} tarafından yönetildiği için kolaylık havada kalan bir nitelik değil, sözün ulaştığı amaç olur; böylece vaat “kolaylaştıracağız” eyleminden “kolay olana” varışına tamamlanır.
+
+{ar:نُيَسِّرُكَ, tr:nuyassiruka, gloss:seni kolaylaştıracağız} ile {ar:لْيُسْرَىٰ, tr:al-yusrā, gloss:kolay olan} birlikte düşünüldüğünde kolaylık, burada doğrudan görev için etkinleştirme biçimini alır; başka yerlerdeki istek, insan profiline bağlanan sonuç veya zorlukla yan yana duran kolaylık çerçeveleri kendi yerinde kalırken, bu ayetin hedefe dönük vaadi belirginleşir.
+Bu hedef, erişilebilirlik, yönetilebilirlik ve düşük direnç taşıyan kullanılabilir bir rota gibi de görünür; {ar:لْيُسْرَىٰ, tr:al-yusrā, gloss:kolay olan} içindeki kabul edilmiş kolaylık alanı bu ayrıntıları besler, yönetilen son isim ise onları tam bu varış noktasına sınırlar.
+Fiilin kök yankısını kapatan {ar:لْيُسْرَىٰ, tr:al-yusrā, gloss:kolay olan} kelimesi, ardından gelen hatırlatma buyruğuna geçiş için hazırlanmış bir iniş noktası bırakır; eylem hedefte kapanırken sonraki söz oradan başlar.
+{ar:لْيُسْرَىٰ, tr:al-yusrā, gloss:kolay olan} biçiminin okunuşundaki ses farkı bu kapanışı kalınlaştırsa da kök, belirlik ve hedef görevi aynı kalır; uzun fiil öbeğini kısa son isimle dengeleyen uzun ünlü, anlamı değiştirmeden varışın sesini açık bırakır.
+
+{ar:نُيَسِّرُكَ, tr:nuyassiruka, gloss:seni kolaylaştıracağız} ve {ar:لْيُسْرَىٰ, tr:al-yusrā, gloss:kolay olan} kelimeleri, güçlüğün karşıtı olan kolaylığı birlikte taşıyarak birinde muhatap üzerinde yapılan işi, ötekinde o işin yöneldiği kolay durumu buluşturur.
+Muhatabı doğrudan nesne yapan “seni” ilişkisi ile hedefi gösteren {ar:لِ, tr:li, gloss:yönelme ve amaç} edatı bu iki biçime temas ettirdiğinde, kolaylaşma ve hazır duruma gelme süreci dirençten sonra açılan bir hâle dönüşür; bu temas, kelimenin süreç anlamını da görünür kılar.
+Bu ihtiyatlı okuma, bu temas sayesinde vaadi “dirençten sonra hazır hâle gelen bir açılığa seni uydurmak” diye genişletir; olağan “seni kolay olana yönelteceğiz” anlamı zeminde kalır, böylece ikinci katman hazırlığı görünür kılarken kelime ailesinin başka alanlarına taşmaz.
+
+{ar:نُيَسِّرُكَ, tr:nuyassiruka, gloss:seni kolaylaştıracağız} ile {ar:لْيُسْرَىٰ, tr:al-yusrā, gloss:kolay olan} içindeki kolaylık, ihtiyatla duyulabilecek başka bir yüz olarak canlı bir muhatabın yönlendirmeye yumuşakça uyması ve akıcı ilerlemesidir; “seni” doğrudan nesne yapan fiil ile hedefi gösteren {ar:لِ, tr:li, gloss:yönelme ve amaç} bu yüzü uygulanabilir yolu izleyen bir uyumluluk olarak harekete geçirir, hayvana özgü hafif bacak tasvirine taşımaz.
+Kolaylık kelimesi aynı temasla maddi imkânların genişlemesi gibi de duyulabilir: muhatap, karşısında kalan işi karşılayacak kadar araç ve alanla donatılır; bu ihtiyatlı görüntü kolaylığın içine eklenen bir genişliktir ve genel bir zenginlik hükmüne dönüşmez.
+
+{ar:نُيَسِّرُكَ, tr:nuyassiruka, gloss:seni kolaylaştıracağız} ile {ar:لْيُسْرَىٰ, tr:al-yusrā, gloss:kolay olan} arasındaki, {ar:لِ, tr:li, gloss:yönelme ve amaç} ile kurulan doğrudan kişi-hedef teması, kelimenin az miktar veya kısa süre anlamını ihtiyatlı bir keşif olarak buraya değdirebilir: yük, görev ya da süre asgari fakat yeterli ölçüye iner ve bu görüntü olağan kolay olana yöneltme sözünü koruyarak kıtlığı asıl anlam ilan etmez.
+Sonuçta âyet, açık anlamında seni kolay olana yönelten ilahî eylemi söyler; kelimelerin birbirine bağlanan bu yankıları ise aynı cümlede eylemi, hedefi, hazırlığı ve ölçüyü birlikte duyulur kılar.

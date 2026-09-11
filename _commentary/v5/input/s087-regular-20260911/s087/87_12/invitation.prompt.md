@@ -1,0 +1,255 @@
+# V5 reading invitation — 87:12
+
+You are a fresh reading-invitation writer. Read the complete editorial prose
+before writing. It is your sole semantic source.
+
+Write two to four paragraphs of fluent, contemporary Turkish that reveal a
+surprising reading by following one or two main channels of resonance in the
+ayah. A channel is a connected background of meanings, images, actions, or
+relations through which the ayah can be heard and understood differently.
+Several editorial findings may together develop one channel. Summarize that
+connected movement and its consequence for the ayah's main meaning, rather
+than compressing findings individually. Give the reading's substance now;
+the invitation comes from understanding it, not from a promise of hidden depth.
+
+Before drafting, read the entire editorial prose and silently select the one
+or two channels with the strongest interpretive consequence and enough
+grounding to explain clearly. Favor channels that expand or shift what the
+ayah says, the relation it establishes, or what is at stake in its action or
+image. One fully developed channel is sufficient; add a second only when it
+offers a distinct consequential reading that can be explained within the
+invitation. No finding, channel, or major shift has an individual coverage
+claim. Unselected material may remain entirely in the full commentary.
+
+A channel may develop through grammar, sound, dialogue, a material process,
+time, imagery, or a conceptual relation. Resonance is not limited to acoustic
+effects, and an unusual image alone does not establish a channel. Use only
+connections the editorial prose actually develops. If it supplies no such
+channel, explain its strongest grounded reading without inventing connections
+or surprise.
+
+Begin inside the ayah's own words, images, actions, or relations and reveal a
+selected distinctive reading in the first paragraph. Keep the plain meaning
+reachable with only the orientation needed to understand the change. Do not
+spend an opening paragraph on routine explanation or front-load context about
+the surah, the ayah's position, or the commentary project.
+
+For each selected channel, begin with the expression that opens it, unfold the
+connected background, and show how the ayah reads or sounds against that
+background. Let a detail lead into the next through an intelligible relation
+or process, so the reader experiences the emerging reading. This is a movement
+of thought, not a mandatory sentence pattern or one paragraph per finding.
+Let the reader identify the expression being interpreted,
+where any nonordinary detail comes from, and what that detail changes in the
+reading. Briefly identify the word-family use, restricted form, collocation, or
+context that supplies an essential added detail, and preserve the concrete
+operation that makes the image work. Keep the ordinary reading and necessary
+qualification clear within this explanation; do not repeat them as a fixed
+formula. Preserve the particular object, process, or relation that makes this
+reading distinctive, and state its interpretive consequence for the ayah as a
+whole. Make intelligible what the familiar reading leaves less visible and
+what the expanded or shifted reading now lets the reader understand. Preserve
+the editorial's force: an exploratory possibility remains possible, while a
+developed shift must not be softened into a decorative association or a
+reassurance that everything means the same thing. A concrete
+account of how something is carried, transformed, lost, or restored must not
+shrink to a general statement about care, guidance, dependence, or goodness.
+Keep the details needed to make the selected channel work; omit side findings
+and shorten routine setup. If a channel cannot be explained faithfully from
+the editorial prose, choose another grounded channel or reading.
+
+When a non-focus ayah supplies a contribution used in the invitation, keep its
+reference from the editorial prose beside that contribution.
+
+Do not turn the invitation into a miniature inventory of the commentary's
+conclusions, or flatten distinct channels into a broad theme to include more
+material. Do not repair, extend, or supplement the editorial prose from memory
+or outside knowledge.
+
+Omit technical apparatus. Retain any qualification, source distinction, live
+alternative, or boundary whose absence would change the force or meaning of a
+chosen reading. Express it naturally beside the image or relation it qualifies.
+Favor positive explanations of the relation between layers: what remains in
+the foreground and what the resonance makes audible in the background. State
+how that background reinforces, expands, or shifts the understanding of the
+main meaning, with the source and degree of certainty clear. Reserve explicit
+exclusions for concrete ambiguities or live counter-evidence that need them.
+Repeated "this is not X" endings make a reading sound withdrawn; express the
+substantive qualification through what the reading does contribute wherever
+possible. Use varied, natural language rather than a repeated "second layer"
+formula, and preserve the force of expansions and shifts.
+Do not name branches, candidates, findings, scopes, evidence categories,
+ledgers, or workflow stages, or label the prose as numbered channels. Do not
+list findings serially.
+
+Use the established `{ar:..., tr:..., gloss:...}` syntax, consistent
+Turkish-readable transliteration, and short ordinary glosses. Keep Arabic
+anchors beside the explanations they ground. Within a paragraph, continue with
+the Turkish meaning where clear; provide the necessary local tag when a later
+paragraph interprets the carrier anew. Do not place Arabic script outside a
+valid tag.
+
+Build transitions within a channel through its shared object, action, or
+relation. If two channels are selected, they may occupy separate paragraphs;
+do not invent a link between them. Do not praise the commentary's quality,
+promise what the reader will find, manufacture suspense, recap at the end, or
+add a call to action. End on an image, relation, action, or tension already
+established by the selected reading.
+
+Before finishing, compare the invitation with the entire editorial prose:
+does the chosen channel reveal a consequential reading, or could the text have
+been written from the ordinary translation and a modest explanation alone?
+When the editorial supports a surprising channel, the latter fails this task.
+Can the reader follow the opening expression into a connected background and
+understand how that background expands or shifts the ayah's main meaning?
+Check the selected connections against their editorial explanation: can the
+reader tell where the nonordinary details come from, with the necessary
+qualifications intact? Repair generic explanation, isolated curiosities, or a
+compressed findings list by developing the selected channel. Do not add
+omitted channels merely for coverage. Do not output this check.
+
+Write only the invitation text to:
+
+`_commentary/v5/editorial/s087-regular-20260911/s087/87_12/87_12.invitation.tr.md`
+
+Do not add a heading, wrapper label, index, ledger, evidence file, or any other
+artifact. Do not modify the editorial prose.
+
+After writing the invitation, run:
+
+```bash
+python3 _commentary/v5/validate_prose.py _commentary/v5/editorial/s087-regular-20260911/s087/87_12/87_12.invitation.tr.md
+```
+
+If validation fails, repair only the reported mechanical file-contract issues
+and rerun it, for at most two repair cycles. Report the final validator result
+in your response.
+
+<editorial_prose>
+## Kişiden Akıbete
+
+Âyetin yalın sözü şudur: “O, büyük ateşe girecektir.” Baştaki {ar:ٱلَّذِى, tr:ellezî, gloss:o kim ki}, önceki âyette öğütten kaçınan diye gösterilmiş {ar:ٱلْأَشْقَى, tr:el-eşkâ, gloss:en bahtsız olan}ı taşır ve onun için bir akıbet cümlesi açar (87:11). Âyet sınırı sözü iki aşamada duyurur: kişi önce davranışıyla adlandırılır, ardından {ar:ٱلَّذِى يَصْلَى ٱلنَّارَ ٱلْكُبْرَىٰ, tr:ellezî yaslâ en-nâra el-kübrâ, gloss:büyük ateşe girecek olan} denilerek sonucu bildirilir. Böylece “en bahtsız” soyut ve kapalı bir etiket olarak kalmaz; ateşe varan akıbet, bu kimliğin ağırlığını açığa çıkarır.
+
+Yeni cümlede ayrıca söylenmiş bir özne yoktur. {ar:يَصْلَى, tr:yaslâ, gloss:ateşe girip yakıcı şiddetine uğrar} fiilindeki gizli eril tekil özne aynı kişiyi isim tekrarı olmadan ileri taşır; {ar:ٱلَّذِى, tr:ellezî, gloss:o kim ki} de davranış ile sonuç arasındaki devamlılığı sıkılaştırır. Kaçınan ile ateşe maruz kalan böylece aynı kişidir. Bağın kapsamı iki ifadenin ilişkisiyle sınırlıdır: {ar:ٱلْأَشْقَى, tr:el-eşkâ, gloss:en bahtsız olan} kendi hükmünü, ateşe giriş de kendi açık eylemini korur; cümle düzeni birincisini ikincisiyle tanınır hale getirir.
+
+Bu bağ seste de işitilir. {ar:ٱلَّذِى يَصْلَى, tr:ellezî yaslâ, gloss:o ki ateşe girer} dizisinde ilgi adının uzun sonu, fiilin sıkışık başlangıcına ve ardından genişleyen son hecesine bağlanır. Kısa, basınçlı girişten uzun kapanışa uzanan {ar:يَصْلَى, tr:yaslâ, gloss:ateşe girip yakıcı şiddetine uğrar}, kişiyi temasın içine sokan ve orada tutan bir süreç duygusu verir. Ses burada ilgi bağıyla eylemin ayrılmazlığını ve maruz kalmanın tek dokunuşta bitmediğini işitilir kılar; katkısı, cezanın içeriğini genişletmekten çok bu sürekliliği duyurmaktır.
+
+Cümlenin sırası aynı süreci adım adım kurar: önce kişi, sonra ateşle teması, ardından temas edilen ortam, en sonda o ortamın ölçeği gelir. {ar:يَصْلَى, tr:yaslâ, gloss:ateşe girip yakıcı şiddetine uğrar} geleceğe dönük ve süreç içinde gerçekleşen doğrudan maruz kalmayı bildirir. Kişi ateşin içine girer, orada kalır ve ısısını çeker; fiilin ısınma, pişme ve ateşe tutulma yönleri bu yakınlığı bedenselleştirir. Bu bağlantının bildirdiği süreç yakıcı temasla sınırlıdır: zamanlanmış fizik ve bedenin nasıl yeniden kurulduğu âyetin açıklamadığı alan olarak kalır.
+
+Temasın nesnesi {ar:ٱلنَّارَ, tr:en-nâra, gloss:ateşi}dir. Belirli, dişil, tekil ve belirtme durumundaki bu isim, ateşi tanınan ve doğrudan karşılaşılan nesne yapar. Fiilin ısınma ve ateşten yararlanma yönleri olası temas biçimlerini, sesçe namazla kesişen yönü ise ilerideki karşıtlığı hazırlar; belirli ateş nesnesi bunların arasından yıkıcı maruz kalmayı seçer. Doğrudan ateşe giriş kalıbı (111:3) ile {ar:ٱلْأَشْقَى, tr:el-eşkâ, gloss:en bahtsız olan}ın ateşle yeniden eşleşmesi (92:15) yanmayı ön plana alır. Isınma yararı ve ibadet, bu özel fiil-nesne bağlantısının seçmediği anlamlar olarak arka planda kalır.
+
+Doğrudan nesne, bir sonraki âyette içine kapanılan ortama dönüşür. {ar:يَصْلَى ٱلنَّارَ, tr:yaslâ en-nâra, gloss:ateşe girip yakıcı şiddetine uğrar} kişiyle ateş arasındaki teması kurarken, {ar:لَا يَمُوتُ فِيهَا وَلَا يَحْيَىٰ, tr:lâ yemûtü fîhâ ve-lâ yahyâ, gloss:orada ne ölür ne yaşar} bu ateşi kişiyi çevreleyen bir “orada” haline getirir (87:13). Aynı isim böylece solda eylemin hedefini, sağda sıfatın taşıyıcısını, sonra da çıkışı kapanan ortamı bir arada tutan menteşedir. Kişi, temas, ortam ve büyüklük çizgisi ateşi soyut bir ceza etiketinden çıkarır; okur onu bedeni ve konumu belirleyen karşılaşma olarak algılar.
+
+## Büyüklüğün Son Sözü
+
+{ar:ٱلْكُبْرَىٰ, tr:el-kübrâ, gloss:büyük/en büyük}, dişil tekil oluşuyla {ar:ٱلنَّارَ, tr:en-nâra, gloss:ateşi} niteler; dönüp “en bahtsız” kişiyi büyüklük bakımından sınıflandırmaz. Ateş önce adlandırılır, ölçeği sonra gelir. Bu gecikme okuru önce nesneyle karşılaştırır, ardından son kelimede onun olağan ölçüyü aşan ağırlığını duyurur. Açık ve uzayan {ar:ٱلنَّارَ, tr:en-nâra, gloss:ateşi} sesinden daha ağır {ar:ٱلْكُبْرَىٰ, tr:el-kübrâ, gloss:büyük/en büyük} kapanışına geçiş de hükmü kulağa taşır. Karşılaştırılan daha küçük ateş belirtilmediği için üstünlük biçimi, ateşi adı konmamış sıradan derecelerin ötesine yerleştirir.
+
+Yerel cümlede büyüklük, ateşin cezalandırıcı şiddetini artırır. {ar:ٱلْكُبْرَىٰ, tr:el-kübrâ, gloss:büyük/en büyük} ululuk, yüksek konum ve üstün gelme çevresini getirir; ateşi nitelemesi, bu çevreyi yakıcı temas ve hemen ardından hem ölümün hem yararlı hayatın kapanmasıyla sınırlar (87:13). Önceki uç insan profili {ar:ٱلْأَشْقَى, tr:el-eşkâ, gloss:en bahtsız olan} (87:11), burada uç ölçekle karşılaşır. İlki kişiyi, ikincisi ateşi nitelediği için bu özel dağılımda büyüklük bir onur payesi olarak değil, cezanın derecesi olarak duyulur.
+
+Başka ateş ifadeleri ölçeğin ne yaptığını keskinleştirir. Bir yerde alev niteliği ateşin canlı ve yakıcı yapısını belirginleştirirken (111:3), burada {ar:ٱلنَّارَ ٱلْكُبْرَىٰ, tr:en-nâra el-kübrâ, gloss:büyük/en büyük ateşi} onun derecesini öne çıkarır. Ölümün de hayatın da çıkış olmaması (87:13) bu dereceyi genişlikten yaşanan ağırlığa taşır; benzer çıkışsızlıkta (20:74) {ar:ٱلْكُبْرَىٰ, tr:el-kübrâ, gloss:büyük/en büyük} kişiye ağır gelen iş ve güçlük yönüyle duyulur. Ateş böylece girilen, kalınan ve şiddeti tükenmeden taşınan yük kazanır. Bu bağlantının süreye ilişkin payı çıkışın kapanmasıyla sınırlıdır; sınırlı maruz kalma karşı okumasını açık bırakır ve herkes için tek kalış süresi belirlemez.
+
+Bu ağırlık, sûrenin güçlük ile kolaylık çizgisinde yön kazanır. {ar:ٱلْأَشْقَى, tr:el-eşkâ, gloss:en bahtsız olan} ailesindeki güçlük çekme ve ağır sıkıntıya dayanma (87:11), {ar:قَدَّرَ, tr:kaddera, gloss:ölçü koydu} çevresindeki dar ve kıt payla (87:3), {ar:وَنُيَسِّرُكَ لِلْيُسْرَىٰ, tr:ve-nüyessirüke li'l-yüsrâ, gloss:seni en kolay olana kolaylaştıracağız}daki hazır açılış ve küçük, kolay miktarla karşılaşır (87:8). Ölçülmüş ve kolaylaştırılmış yol mümkünken ondan çekilen kişi, sonunda {ar:ٱلْكُبْرَىٰ, tr:el-kübrâ, gloss:büyük/en büyük}ın yük ve güçlük yüzüyle buluşur. Bu kelimeler bütün zorlukları tek anlama indirgemeden, son ateşi erişilebilir kolaylığa sırt çeviren güzergâhın taşınması güç sonucu olarak değiştirir.
+
+Güç sonuçta büyür, fakat yaratılışın ölçülü alanından çıkmaz. {ar:خَلَقَ فَسَوَّىٰ, tr:halaka fesevvâ, gloss:yarattı ve düzenleyip biçim verdi} tasarlanmış parçaları uyumlu bütün, ortalama ve denge halinde kurar (87:2); {ar:قَدَّرَ, tr:kaddera, gloss:ölçü koydu} kapsamı ve payı belirler, kimi kullanımında darlık ve azlığı da taşır (87:3). {ar:فَسَوَّىٰ, tr:fesevvâ, gloss:düzenleyip dengeledi} çevresindeki adalet ve eşit buluşma denklik ölçüsünü, mal ya da talihte denk pay ise bölüşülen miktarı somutlaştırır. Bunlar {ar:ٱلْكُبْرَىٰ, tr:el-kübrâ, gloss:daha büyük/en büyük}ın küçüğe göre büyük oluşu ve {ar:ٱلْيُسْرَىٰ, tr:el-yüsrâ, gloss:en kolay olan} çevresindeki küçük, kıt miktarla buluşur (87:8). Ateş böylece yaratılmış ve ölçülmüş alan içindeki en ağır derece gibi görünür. Bu bağlantı karşılaştıranı söylenmemiş cezalandırıcı üstünlüğü açıklar; sonsuzluk, kozmik boyut ve sayısal derecelendirme onun kapsamı dışındadır.
+
+Ölçünün üst sınırını sûrenin ilk hitabı koyar. {ar:رَبِّكَ ٱلْأَعْلَى, tr:rabbike el-a'lâ, gloss:En Yüce Rabbin} egemenliği ve yükseklik eksenini baştan kurar (87:1); daha sonra gelen {ar:ٱلْكُبْرَىٰ, tr:el-kübrâ, gloss:büyük/en büyük} ateş bu egemenliğin içinde kalır. {ar:سَبِّحِ, tr:sebbih, gloss:tesbih et ve tenzih et} arındırma ve serbest bırakmayı, {ar:ٱسْمَ, tr:isme, gloss:adı} yükselme ile görünür ünü, {ar:ٱلْأَعْلَى, tr:el-a'lâ, gloss:En Yüce} yüksek mevki, üst taraf ve şerefi olumlu yükselişte birleştirir (87:1); anma ve namaz bu yönü bedende sürdürür (87:15). Büyük ateş, aynı yükseklik dilini cezalandırıcı karşı görüntüye çevirir. Bu özel karşılıkta ateşin büyüklüğü En Yüce'ye rakip bağımsız mutlaklık değil, O'nun egemenliği altındaki ölçüdür.
+
+Bu karşı görüntü, büyüklüğü kimin ve neyin taşıdığı sorusunu açar. İnsanın kendini büyütmesi (37:35) yanlış yükselişi, Rabbin büyütülmesi (74:3) doğru yönelişi belirginleştirir; {ar:ٱلْكُبْرَىٰ, tr:el-kübrâ, gloss:büyük/en büyük} çevresindeki üstünlük böylece iki yöne ayrılır. Ateş karşılığının kendini büyütmeyle yan yana gelmesi (46:20) bu ayrımı sonuca bağlar, ölüm ile hayat çıkışının kapanması (20:74) da sonucun yaşanan ağırlığını ekler: büyük olan, kendisini büyük sayanın üzerinde belirir. Bu bağlantıda yerel sıfat ateşin büyüklüğünü bildirmeyi sürdürür; “kibir”, “günah” veya belirli bir hukuk cezası onun doğrudan anlamı değildir. İlk bağlamdaki karşılıklılık (37:35) da kendini büyütmeyi bu tek sonucun otomatik sebebi saymaya karşı sınır koyar.
+
+Yanlış yükseliş çekişmeye dönüştüğünde ölçek yenilgi duygusu kazanır. {ar:تُؤْثِرُونَ, tr:tü'sirûne, gloss:yeğliyorsunuz} çevresindeki payı kendine ayırma sahiplenmeyi (87:16), {ar:ٱسْمَ, tr:isme, gloss:adı} çevresindeki yukarı doğru yarış rütbe arayışını (87:1), {ar:ٱلْأَشْقَى, tr:el-eşkâ, gloss:en bahtsız olan} ailesindeki acı çekme yarışında ötekini geçme dayanıklılık iddiasını açar (87:11). {ar:ٱلْكُبْرَىٰ, tr:el-kübrâ, gloss:büyük/en büyük} çevresindeki üstünlük mücadelesi ve yenilgi, bu ayrı katkıları ateş karşısında buluşturur: pay, rütbe ve dayanıklılık arayan kişi kendisinden büyük ölçüyle ezilir. Bu bağlantı imgeleri aynı kişide zorunlu olarak birleştirmez ve ateşi insan gibi yarışan faile dönüştürmez; “en büyük” son sözünün kişiyi aşan kuvvetini gösterir.
+
+Ölçek aynı zamanda zihinsel bir sarsıntı üretir. {ar:شَآءَ, tr:şâe, gloss:diledi} ailesindeki hayret ve sevinçli hayranlık şaşırmanın açık yüzünü, keder ile ağıt ünlemleri ise onun acılı yönünü taşır (87:7); {ar:ٱلْكُبْرَىٰ, tr:el-kübrâ, gloss:büyük/en büyük} çevresindeki zihinde büyütme bu tepkilerin nesnesini genişletir. {ar:ٱسْمَ, tr:isme, gloss:adı} çevresindeki iyi ünün yayılması ve {ar:ٱلْأَعْلَى, tr:el-a'lâ, gloss:En Yüce}deki soylu mevki hayranlığın olumlu kutbunu (87:1), anma ile namaz da olumlu yönelişini gösterir (87:15). Ateşin büyüklüğü, aynı duygu alanını alarm, keder ve ağıta çevirerek gerçek sonucu okurun zihninde büyütür. Bu özel temas bedensel biçim bozukluğunu değil, cezalandırıcı ölçeğin uyandırdığı şaşkınlığı anlatır.
+
+Zihinde büyüyen sonuç, zaman bakımından da yakın seçeneği aşar. {ar:ٱلْـَٔاخِرَةُ, tr:el-âhiretü, gloss:sonraki hayat} daha sonraki ufku, {ar:وَأَبْقَىٰ, tr:ve-ebkâ, gloss:ve daha kalıcı} daha uzun sürmeyi, {ar:ٱلْكُبْرَىٰ, tr:el-kübrâ, gloss:büyük/en büyük} ise ana payı, ağır yükü ve baskın dereceyi açar (87:17). Böylece ateşin büyüklüğü, kısa ve yakın tercihin üzerinde kalan süre ile egemenlik bakımından da duyulur. Üstünlük sıfatı tek başına “ebedî” anlamına gelmez; zaman yönü, sûrenin sonraki ve daha kalıcı olanı yakın hayata üstün tutması kadar ileri gider.
+
+## Ölçülmüş Yolun Sonu
+
+Zamanda ve ölçüde yerini bulan ateş, düzenlenmiş bir sonuca dönüşür. {ar:ٱلْأُولَىٰ, tr:el-ûlâ, gloss:önceki} çevresindeki yönetme ve düzenleme akışın idaresini (87:18), {ar:وَأَبْقَىٰ, tr:ve-ebkâ, gloss:ve daha kalıcı} çevresindeki gözetme ve bekleme sürenin denetimini (87:17), {ar:فَجَعَلَهُۥ, tr:fecealehû, gloss:onu yaptı} bir işin başlatılıp sürdürülmesini gösterir (87:5). {ar:ٱلْمَرْعَىٰ, tr:el-mer'â, gloss:otlak} çevresindeki çobanlık ve bakım, inceleme ile değerlendirmeyi bu yönetime katar (87:4); {ar:قَدَّرَ, tr:kaddera, gloss:ölçü koydu} da düşünülmüş planı ekler (87:3). Bu ayrı işlemler {ar:ٱلنَّارَ ٱلْكُبْرَىٰ, tr:en-nâra el-kübrâ, gloss:büyük/en büyük ateşi}ni başıboş patlama yerine yönetilmiş akışın sonucu olarak duyurur. Bağlantının kapsamı sonuç üzerindeki bu düzenlemedir; gizli bir ceza takvimi ve ateşin yararlı bakım olduğu iddiası bu kapsamın dışındadır.
+
+Düzenlenmiş sonun izi de sürülebilir. {ar:تُؤْثِرُونَ, tr:tü'sirûne, gloss:yeğliyorsunuz} çevresindeki geride kalan iz ve deve toynağı takip edilebilir hattı, kılıç çizgisi bu hattın keskinliğini verir (87:16). {ar:يَعْلَمُ, tr:ya'lemü, gloss:bilir} çevresindeki belirti hedefi ayırt edilir kılar (87:7); {ar:هَدَىٰ, tr:hedâ, gloss:yol gösterdi} önden götürerek yönü kurar (87:3), {ar:ٱلْيُسْرَىٰ, tr:el-yüsrâ, gloss:en kolay olan} çevresindeki çizgi veya bedensel işaret konumu somutlaştırır (87:8). {ar:ٱلنَّارَ, tr:en-nâra, gloss:ateşi} çevresindeki uzaktan görülen işaret ve yüksek yapı bütün bu hareketin varışını görünür hale getirir. Ateş böylece yönü belirgin hedef gibi duyulur; bu özel mekânsal bağlantı gerçek harita, bedensel damga veya ateşe çağıran kılavuz ileri sürmeden varışın seçilebilirliğini artırır.
+
+Hedefe giden çizgi, yaratma ve hidayetle daha baştan ölçülmüştür. {ar:خَلَقَ, tr:halaka, gloss:yarattı} tasarlanmış oranı, {ar:فَسَوَّىٰ, tr:fesevvâ, gloss:düzenleyip biçim verdi} parçaların uyumlu bütüne gelişini gösterir (87:2); {ar:قَدَّرَ, tr:kaddera, gloss:ölçü koydu} payı belirler, {ar:فَهَدَىٰ, tr:fehedâ, gloss:sonra yol gösterdi} o düzen içinde nazik yöneltmeyi açar (87:3). {ar:يَصْلَى, tr:yaslâ, gloss:ateşe girip yakıcı şiddetine uğrar} çevresindeki öndeki atın ardından giden ikinci at bu hatta ardıllık, {ar:ٱلنَّارَ, tr:en-nâra, gloss:ateşi} çevresindeki görünür işaret ise seçilebilir son nokta katar. Kişi böylece kendisinden önce çizilmiş yolu izleyen sonrakine benzer. Bu bağlantıda fiilin açık anlamı ateşe girmeyi sürdürür; ikinci at görüntüsü yaratılıştan cezaya mekanik zorunluluk kurmadan, girişin yönlendirilmiş dünyadaki belirli varış olduğunu hissettirir.
+
+Yolun kişiden eski oluşu, yazılı geçmişle açılır. {ar:ٱلصُّحُفِ ٱلْأُولَىٰ, tr:es-suhufi'l-ûlâ, gloss:önceki sayfalar} kayda geçmiş öncelik ve tekrarı, {ar:يَصْلَى, tr:yaslâ, gloss:ateşe girip yakıcı şiddetine uğrar} çevresindeki ikinci koşucu ardışıklığı, {ar:ٱلنَّارَ, tr:en-nâra, gloss:ateşi} çevresindeki yol işareti ise bu ardışıklığın görünür sonunu getirir (87:18). Birlikte odak kişiyi kayıtlı ve daha önce geçilmiş insanî hattın son takipçisi gibi gösterirler. Bu özel temas, önceki sayfaların yalnız ateşi anlattığı veya tarihin kişiyi aynı sona zorladığı iddiasından ayrılır; kaçınmayı yeni ve işaretsiz sapma olmaktan çıkarır, çünkü uyarının geçmişi kişinin varışından daha eskidir.
+
+Kişinin bu eski uyarı karşısında neyi yakına aldığı, güzergâha ihtiyatlı bir tuzak resmi ekler. {ar:تُؤْثِرُونَ, tr:tü'sirûne, gloss:yeğliyorsunuz} seçim hareketini, {ar:ٱلدُّنْيَا, tr:ed-dünyâ, gloss:yakın dünya} hemen erişilen hedefi öne çıkarır (87:16). {ar:خَيْرٌ, tr:hayrun, gloss:daha hayırlı} ailesindeki nadir yem kullanımı hayvanı korunağından dışarı çeken cazibeyi, {ar:وَأَبْقَىٰ, tr:ve-ebkâ, gloss:ve daha kalıcı} bunun karşısındaki uzun süreyi getirir (87:17). {ar:ٱلنَّارَ, tr:en-nâra, gloss:ateşi} çevresindeki uzaktan seçilen ışık hedefi görünür, {ar:يَصْلَى, tr:yaslâ, gloss:ateşe girip yakıcı şiddetine uğrar} çevresindeki kapan ise varışı yakalanış haline getirir. Birlikte yakın kazancı kalıcı yakalanışa çeken yem gibi gösterirler. Bu düşük güvenli resmin kapsamı kısa yarar ile uzun sonuç arasındaki aldanmadır; gerçek av planı, kişinin ateşe bilerek yaklaşması ve zorunlu nedensellik bu bağlantının dışında kalır.
+
+Görünürlük ile yakalanma, ateş ve fiilin kendi uzak dallarında da buluşur. {ar:ٱلنَّارَ, tr:en-nâra, gloss:yanan ateş} alanındaki belirgin işaret ve yüksek yapı uzaktan yön tayin ettirir; {ar:يَصْلَى, tr:yaslâ, gloss:ateşe girip yakıcı şiddetine uğrar} alanındaki kapan aynı görünür hedefi yakalayan düzeneğe çevirir. Cehennem'in mutlaka görülmesi ilk katkıyı (102:6), pusu diye anılması ikincisini harekete geçirir (78:21); {ar:ٱلْكُبْرَىٰ, tr:el-kübrâ, gloss:büyük/en büyük} çevresindeki ana ve baskın pay da hedefin ağırlığını artırır. İşaret ile kapan böylece doğrudan yanmanın kuşatıcı yönünü genişletir. Bu özel resimde görülen son güvenli değildir; gerçek yem ve zorunlu nedensel rota ise ileri sürülmez.
+
+Kapan imgesinin odağa döndüğü yer, önceki kaçınma hareketidir. {ar:يَتَجَنَّبُهَا, tr:yetecennebühâ, gloss:ondan kaçınır} ile öğütten yana çekilen {ar:ٱلْأَشْقَى, tr:el-eşkâ, gloss:en bahtsız olan} (87:11), {ar:ٱلَّذِى, tr:ellezî, gloss:o kim ki} üzerinden {ar:يَصْلَى, tr:yaslâ, gloss:ateşe girip yakıcı şiddetine uğrar} sonucuna bağlanır. Okunan âyetlerden dönüp sonucu bekleyen kişi kaçınma-sonuç yönünü (31:7), ateşle birlikte anılan en bahtsız sınırlaması özne ile son arasındaki bağı belirginleştirir (92:15). Böylece ateş, öğütten uzaklaşmanın kişiyi içine alan varışı olarak duyulur. Bu yankı dış bağlamların kişilerini ve çekim biçimlerini odağa taşımadan, yalnız bu kaçınma-sonuç hareketini niteler; her yüz çevirme için otomatik yasa kurmaz.
+
+Öğütten uzaklaşma, aynı zamanda kurulmuş bağdan çekilme görüntüsü kazanır. {ar:ٱلْأُولَىٰ, tr:el-ûlâ, gloss:önceki} çevresindeki aile ve bakmakla yükümlü olunanlar yakın ilişki alanını (87:18), {ar:رَبِّكَ, tr:rabbike, gloss:Rabbin} çevresindeki sıkı düğüm ve ahit bu ilişkinin bağlayıcılığını taşır (87:1, 87:15). {ar:يَتَجَنَّبُهَا, tr:yetecennebühâ, gloss:ondan kaçınır} mesafe ve yabancılaşmayla bu bağdan geri çekilmeyi (87:11), {ar:ٱلنَّارَ, tr:en-nâra, gloss:ateşi} çevresindeki topluluklar arası düşmanlık ise kopuşun kızışmasını gösterir (87:16). Birlikte korunmuş yakınlıktan ayrılıp alevlenen karşıtlığa yönelme resmi kurarlar. Aile, ahit ve husumet bu özel bağlantının ilişki ayrıntılarıdır; odak kelimelerin yerel çevirilerini değiştirmezler.
+
+Bağdan çekilen hareket, direnme sertliğiyle de temas eder. {ar:فَجَعَلَهُۥ, tr:fecealehû, gloss:onu yaptı} çevresindeki kısalık, katılık ve inat direncin kıvamını (87:5), {ar:أَخْرَجَ, tr:ahrace, gloss:çıkardı} çevresindeki kökten ya da itaattan ayrılma yönünü gösterir (87:4). {ar:ٱلْأَعْلَى, tr:el-a'lâ, gloss:En Yüce} çevresindeki üstün gelme (87:1) ile {ar:ٱلْكُبْرَىٰ, tr:el-kübrâ, gloss:büyük/en büyük} çevresindeki kendini yüceltme, yakın hayatı yeğleme sahnesinde bu dirence yükselme iddiası ekler (87:16). {ar:ٱلنَّارَ, tr:en-nâra, gloss:ateşi}n düşmanlık alevi ilişkiyi husumete, {ar:يَصْلَى, tr:yaslâ, gloss:ateşe girip yanar}ın fiziksel teması ise tekrar gerçek yanmaya bağlar. Ortaya çıkan yangın resmi, direnme ile sonuç arasındaki sınırlı sûre içi ilişkiyi açıklar; belirli tarihsel çatışma ve her gurur için değişmez sonuç iddiası taşımaz.
+
+## Ateşin İşlemi
+
+Varış gerçekleştiğinde {ar:يَصْلَى, tr:yaslâ, gloss:ateşe girip yakıcı şiddetine uğrar}, ısının kişi üzerinde sürdürdüğü işlemi duyurur. Yakıtın ateşi beslemesi sürecin sürmesini, yiyeceğin pişmesi ısıyla dönüşümü, değneğin yumuşatılıp doğrultulması biçim veren basıncı somutlaştırır. {ar:ٱلنَّارَ, tr:en-nâra, gloss:yanan ateş} ise canlı, ışık veren, hızla ve kararsızca hareket eden alevi; yakma ile dağlama da doğrudan bedensel etkiyi taşır. Bu katkılar kişiyi girip kaldığı ateşin ısıtma, yakma ve biçim değiştirme etkisine bırakır. Yemek, yararlı ısınma, değnek ve hayvan damgası bu özel bağlantıda gerçek sahne öğeleri değil, ateş temasının farklı işlemlerini görünür kılan somut ayrıntılardır.
+
+Bu etkinliğe sûrenin başka madde süreçleri katılır. {ar:ٱلْأُولَىٰ, tr:el-ûlâ, gloss:önceki} alanında kapta bekleyip yaşlanan içecek, zaman içinde kıvam değişimini gösterir (87:18). {ar:أَخْرَجَ, tr:ahrace, gloss:çıkardı} alanında olgunlaşıp patlayan ve boşalan apse, içeride biriken basıncın dışarı çıkışını (87:4); {ar:قَدَّرَ, tr:kaddera, gloss:ölçü koydu} çevresindeki pişirme kabı ile içeriğinin ayarlanması ise ısının ölçülü uygulanışını ekler (87:3). Bunlar {ar:يَصْلَى, tr:yaslâ, gloss:ateşe girip yakıcı şiddetine uğrar}daki yakıt, pişirme ve doğrultmaya; {ar:ٱلنَّارَ, tr:en-nâra, gloss:ateşi}ndaki yakma ve damgalamaya değince ısıtma, kaynatma, pişirme, bekletme ve dönüşme alanı açılır (87:15). İçecek, apse ve kap bu bağlantıda ateşin zamana yayılan çalışma biçimlerini açıklar; âyetin gerçek maddeleri olarak sunulmaz.
+
+Sürecin biçim verme yüzü, gönüllü ve zorunlu iki yöneliş arasında sertleşir. {ar:تَزَكَّىٰ, tr:tezekkâ, gloss:arındı} isteyerek arınmayı (87:14), {ar:فَصَلَّىٰ, tr:fesallâ, gloss:namaz kıldı} seçilmiş bedensel düzeni (87:15), ateşe girme buyruğu ise dayatılmış teması gösterir (36:64). Bir değneğin ateş üzerinde döndürülüp yumuşatılarak doğrultulması, {ar:يَصْلَى, tr:yaslâ, gloss:ateşe girip yakıcı şiddetine uğrar}ın zorla işleyen ısı basıncını somutlaştırır. Bu özel imge kişiyi çubuğa çevirmek veya ateşe zorunlu ahlaki onarım amacı yüklemek yerine, seçilmiş düzelme imkânı ile reddin ardından gelen biçimlendirici baskı arasındaki farkı açar. {ar:ٱلْكُبْرَىٰ, tr:el-kübrâ, gloss:büyük/en büyük}ın yük yönü de yeni görev değil, çekilen güçlüğün ölçüsüdür.
+
+Isının üzerinde çalıştığı ilk yer yüzeydir. {ar:خَلَقَ, tr:halaka, gloss:yarattı} çevresindeki sürülen macun ve parfüm yapışma ile kaplamayı (87:2), {ar:غُثَآءً, tr:gusâen, gloss:çerçöp ve artık} geride kalan tortuyu, {ar:فَجَعَلَهُۥ, tr:fecealehû, gloss:onu yaptı} çevresindeki sertleşme değişen kıvamı taşır (87:5). {ar:ٱلنَّارَ, tr:en-nâra, gloss:ateşi} çevresindeki is kaplanmayı, göz boyası ile dövme pigmenti işaretlenmeyi, beden merhemi ise maddenin tene sürülmesini somutlaştırır. Birlikte ateşi değdiği yüzeye tutunan, onu kaplayan, işaretleyen ve kıvamını değiştiren kuvvet gibi hissettirirler. Bu maddeler odak sahnenin nesneleri olarak değil, doğrudan yanmanın yüzeyde kalıcı değişim oluşturma biçimleri olarak çalışır.
+
+Yüzey değişiminin rengi ve çizgisi de seçilir. {ar:تُؤْثِرُونَ, tr:tü'sirûne, gloss:yeğliyorsunuz} çevresindeki kılıç izi ile darbe çizgisi temasın hattını, parıltı ise o hattın anlık görünürlüğünü verir (87:16). {ar:أَحْوَىٰ, tr:ahvâ, gloss:kararmış} koyu kızıldan siyaha yaklaşan son tonu (87:5), {ar:أَخْرَجَ, tr:ahrace, gloss:çıkardı} çevresindeki iki renkli beneklenme yüzeydeki alacalanmayı ekler (87:4). {ar:ٱلنَّارَ, tr:en-nâra, gloss:ateşi} alanındaki is, göz sürmesi, dövme boyası ve beden merhemi bu renk ile çizgiyi tene taşır. Sonuç, içte duyulan ısıyı karartan, alacalandıran ve iz bırakan maruziyet olarak görünür hale getirir; kılıç ile kozmetik bu özel ilişkide ateşin tanımı değil, ısı, renk ve tortunun ayrı görüntüleridir.
+
+Bu görünür dönüşüm, sûrenin bitki dizisinde bir önce-sonra yönü bulur. {ar:ٱلْمَرْعَىٰ, tr:el-mer'â, gloss:otlak} canlı ve besleyici başlangıcı, {ar:فَجَعَلَهُۥ, tr:fecealehû, gloss:sonra onu yaptı} dönüşümün etkinliğini, {ar:غُثَآءً, tr:gusâen, gloss:kuru çerçöp ve artık} biçimin dağılmış kalıntısını, {ar:أَحْوَىٰ, tr:ahvâ, gloss:kararmış} ise son rengi gösterir (87:4, 87:5). {ar:يَصْلَى, tr:yaslâ, gloss:ateşe girip yakıcı şiddetine uğrar}ın yakıt ve ısıyla işleme yüzü bu sıraya değdiğinde, biçim verilmiş hayatın koyu artığa indirgenmesi ateş sonucunu somutlaştırır. Benzetmenin kapsamı ortak dönüş yönüdür; otlak ile insan bedenini aynı maddi mekanizmaya bağlamaz.
+
+Aynı dizinin daha uç bir dalı, öznenin besin düzenindeki yerini tersine çevirir. {ar:يَصْلَى, tr:yaslâ, gloss:ateşe girip yakıcı şiddetine uğrar} çevresindeki iri kulaklı ya da iri başaklı deve yemi bitkisi besin konumunu; {ar:ٱلْمَرْعَىٰ, tr:el-mer'â, gloss:otlak} ile {ar:غُثَآءً, tr:gusâen, gloss:kuru artık} arasındaki değişim tüketilebilir biçimden kalıntıya geçişi; {ar:ٱلنَّارَ, tr:en-nâra, gloss:ateşi}n yakma-damgalama alanı da tüketen kuvveti getirir (87:4, 87:5). Tercih eden ve tüketen kişi, bu düşük güvenli resimde ateş ekonomisinin tükettiği yem konumuna düşer. Katkı tüketicinin tüketilene dönüşmesiyle sınırlıdır; nadir bitki adı fiilin ateşe giriş anlamını değiştirmez ve insanı gerçek hayvan ya da bitki yapmaz.
+
+Ateşin bıraktığı iz, okunabilir kayıtla başka bir yüzey ilişkisi kurar. {ar:ٱلنَّارَ, tr:en-nâra, gloss:ateşi} çevresindeki is ve mürekkep yazı maddesini, dövme kalıcı beden izini; {ar:تُؤْثِرُونَ, tr:tü'sirûne, gloss:yeğliyorsunuz} çevresindeki çizgi izin sürekliliğini getirir (87:16). {ar:ٱلصُّحُفِ, tr:es-suhufi, gloss:sayfalar} okunabilir dış yüzeyi açarken (87:18), {ar:ٱلْكُبْرَىٰ, tr:el-kübrâ, gloss:büyük/en büyük} çevresindeki ana pay karşı izin ağırlığını artırır. Önceki sayfalar sözü dışarıda okunur kılar; ateş ise kişinin üzerinde silinmez karşı iz yazıyor gibi görünür. Bu keşifsel benzetmenin kapsamı okunmuş uyarı ile maruz kalmanın kalıcı işaretidir; ateşi gerçek kalem veya mürekkep, beden izini de gerçek metin saymaz.
+
+Kalıcı işaret, büyüme ihtimalinin karşısında daha ağır görünür. {ar:أَخْرَجَ, tr:ahrace, gloss:çıkardı} içeriden yeni biçimin ortaya çıkışını (87:4), {ar:تَزَكَّىٰ, tr:tezekkâ, gloss:arındı ve gelişti} büyüyüp artmayı taşır (87:14); {ar:ٱلنَّارَ, tr:en-nâra, gloss:ateşi} alanındaki ağaç çiçeği ve açma yönü canlı yüzeyin belirmesini ekler. Aynı alanın yakma ve karartma yönü doğuş, gelişme ve çiçeklenmenin karşısına geçerek oluşmuş biçimi tüketir. Çiçek dalı böylece yanmanın yok ettiği canlı açılımı görünür kılar. Bu özel yankıda önceki sayfalar çiçeklenme taşıyıcısı değildir (87:19) ve ateş yeniden doğuş döngüsü olarak okunmaz.
+
+Yüzeye yerleşen işlem bir noktada darbe kuvveti kazanır. {ar:تُؤْثِرُونَ, tr:tü'sirûne, gloss:yeğliyorsunuz} çevresindeki kılıç izi temasın keskin hattını, parıltı ani görünürlüğünü, sabah baskını beklenmedik hücumu getirir (87:16). {ar:ٱلْكُبْرَىٰ, tr:el-kübrâ, gloss:büyük/en büyük} çevresindeki üstün gelme ile yenilgi bu hücumun karşısındakini bastıran yönünü; {ar:ٱلْيُسْرَىٰ, tr:el-yüsrâ, gloss:en kolay olan} çevresindeki aşağı bükülme ya da yüz hizasına itiş bedensel yönünü açar (87:8). Görme ve yön bulma baskısı da hedefin denetimini daraltır (87:7). {ar:ٱلنَّارَ, tr:en-nâra, gloss:ateşi} böylece içine işleyen, büken ve karşısındakini yenen itki kazanır. Kılıç ile baskın bu bağlantıda tarihsel savaş kurmaz; yanmanın nüfuz eden kuvvetini somutlaştırır.
+
+## Zararlı Görünürlük
+
+Darbe gibi işleyen ateş aynı zamanda ışık verir. {ar:ٱلنَّارَ, tr:en-nâra, gloss:yanan ateş}in aydınlatma yönü çevreyi görünür, canlı ve kararsız parıltısı bu görünürlüğü huzursuz kılar. {ar:يَصْلَى, tr:yaslâ, gloss:ateşe girip yakıcı şiddetine uğrar} ışığı yıkıcı temasın içine, {ar:ٱلْكُبْرَىٰ, tr:el-kübrâ, gloss:büyük/en büyük} ise cezalandırıcı ölçeğin altına yerleştirir. Bu yüzden ışık kişiye güvenli yol açmak yerine onu ateş içinde açığa çıkarır. Parıltının bu özel bağlantıdaki katkısı nötr aydınlık veya rehberlik değil, yakıcılığın içinden gelen zararlı teşhirdir.
+
+Işık ile karanlığın ayrılan yolları aydınlığın yön verme işini belirginleştirir (2:257); ateşin içeride olana ulaşması ise yanmanın nüfuzunu dış yüzeyden içe taşır (104:7). {ar:ٱلنَّارَ, tr:en-nâra, gloss:yanan ateş} bu iki katkıyla, içine aldığı kişinin saklı tuttuğuna kadar uzanan zararlı görünürlük gibi hissedilir: ışık açığa çıkarma işini yanmayla birlikte yapar. Bu bağlantının kapsamı aydınlığın ateşle birleştiğinde kurtarmak yerine maruz bırakmasıdır. Rehberlik eden ışığın güvenli işlevi kendi bağlamında açık kalır (2:257); odak cümlesi de ayrıca bir iç teşhisi veya bütün cezaları kapsayan ışık öğretisi ilan etmez.
+
+Aynı karşıtlık daha dar bir ters rehberlik yankısı doğurur. Işığın beklenen yön verme işi, ateşe varan yolda çıkış göstermeyen görünürlüğe dönüşür; görülen işaret, kişiyi kurtaran kılavuzluğun karanlık taklidi haline gelir (2:257). Taklidin maddi zemini gerçek yanmadır: ateş görünürdür, fakat görünürlüğü içinden çıkış sunmaz. Bu özel ilişki, aynı görünürlüğün zıt varışlarda nasıl farklı değer kazandığını gösterir; {ar:ٱلنَّارَ, tr:en-nâra, gloss:yanan ateş}in sözlük anlamını “hidayet” veya “karanlık” yapmaz ve rehberlik ışığını ateşle özdeşleştirmez.
+
+Görünürlüğün zorlayıcı oluşu, sûrenin bilme ve gizlenme dilinde ayrıntılanır. {ar:يَعْلَمُ, tr:ya'lemü, gloss:bilir} erişip ayırt eden bilgiyi, {ar:ٱلْجَهْرَ, tr:el-cehra, gloss:açık olanı} görünür tezahürü, {ar:وَمَا يَخْفَىٰ, tr:ve-mâ yahfâ, gloss:gizli olanı} örtü altında kalanı karşı karşıya getirir (87:7); {ar:سَيَذَّكَّرُ, tr:seyezzekkeru, gloss:öğüt alacaktır} saklı veya unutulmuş olanı yeniden bilince çıkarır (87:10). {ar:ٱلنَّارَ, tr:en-nâra, gloss:ateşi}n ışığı örtülü olanı görünür kılarken şaşırtıcı parıltısı sıradan görme yetisini güvenilmez hale getirir. Maruz kalma böylece karışık ve saklı olanı zorla açar. Bu temas ateşi “bilgi” diye yeniden adlandırmadan, yakıcı ortamın açığa çıkarıcı etkisini derinleştirir.
+
+Bu açığa çıkış yine de güvenli görsel denetim sağlamaz. {ar:ٱلْجَهْرَ, tr:el-cehra, gloss:açık olanı} çevresindeki çarpıcı görünüş nesnenin belirginliğini, güneş parıltısının doğurduğu görme bozukluğu aşırı ışığın gözü bastırmasını, bilinmeyen arazide yolculuk ise yön bulma güçlüğünü getirir (87:7). {ar:يَخْفَىٰ, tr:yahfâ, gloss:gizli kalır} çevresindeki örtü görünmezliği, uzakta çakan silik şimşek belirsiz görünürlüğü; {ar:ٱسْمَ, tr:isme, gloss:adı} çevresindeki yükselmiş ve kabarık biçim ise seçilen çıkıntıyı ekler (87:1). {ar:ٱلنَّارَ ٱلْكُبْرَىٰ, tr:en-nâra el-kübrâ, gloss:büyük/en büyük ateşi} bu ayrıntılarla hem aşırı görünür hem görüşü güvenilmez kılan algı şartı olur. Bu özel resim gerçek göz hastalığı veya arazi yolculuğu bildirmek yerine, ışık, örtü ve yön bulmanın ateş altında aynı anda gerilmesini hissettirir.
+
+Bu gerilim yüze kadar yaklaşır. {ar:ٱلْجَهْرَ, tr:el-cehra, gloss:açık olanı} çevresindeki kör edici parıltı gözü baskılar (87:7), {ar:يَحْيَىٰ, tr:yahyâ, gloss:yaşar} çevresindeki yüz bu baskıya bedensel yüzey verir (87:13), {ar:شَآءَ, tr:şâe, gloss:diledi} çevresindeki bir işe sürülme zorlanmış hareketi, uzaktan görme ise erişilemeyen hedefi ekler (87:7). {ar:ٱلنَّارَ, tr:en-nâra, gloss:ateşi}n karşısındaki kişi hem görülen hem görmeye çalışan, fakat parıltı ve zorlanma altında görsel denetimini yitiren merkez gibi hissedilir. Bu algısal maruziyet gerçek körlük teşhisi değildir; ateşin gözü ve yön duygusunu bastırmasını anlatır. Önceki sayfalar bu özel görme taşıyıcılarına sahip olmadığı için aynı yankıyı açmaz (87:19).
+
+## Canlı Biçimden Artığa
+
+Algısal baskı, ateşten ürken canlı bedenin hareketine geçer. {ar:أَخْرَجَ, tr:ahrace, gloss:çıkardı} çevresindeki ileri uzanan uzun boyun bedeni öne taşır (87:4); {ar:ذَكَرَ, tr:zekera, gloss:andı} çevresindeki erkek hayvan cinsiyetli canlılığı (87:15), {ar:رَبِّكَ, tr:rabbike, gloss:Rabbin} çevresindeki yenidoğan, sürü ve yabani sığır korunmaya muhtaç toplu hareketi (87:1), {ar:ٱسْمَ, tr:isme, gloss:adı} çevresindeki sürüye çıkan aygır ise yukarı ve ileri atılımı ekler (87:1). {ar:ٱلنَّارَ, tr:en-nâra, gloss:ateşi} çevresindeki ürkütme, uzaklaştırma ve geri sıçratma bu ilerleyişi ani kaçış tepkisine çevirir. Ayrıntıların bu bağlantıdaki katkısı bedensel alarmdır; kişiyi gerçek hayvan olarak sınıflandırmazlar.
+
+Canlının hareketi önce bakım alanında düzenlenmiştir. Yeni doğmuş hayvan tazeliği, sürü ile yabani sığır birlikte hareket eden canlı topluluğunu {ar:رَبِّكَ, tr:rabbike, gloss:Rabbin} kelimesinin uzak çevresinden getirir (87:1, 87:15). {ar:ٱلْمَرْعَىٰ, tr:el-mer'â, gloss:otlak} bu topluluğu besleyen alanı açar (87:4); {ar:فَسَوَّىٰ, tr:fesevvâ, gloss:düzenleyip biçim verdi} çevresindeki ayağa kalkma ve üzerine binme bedene düzenli hareket kazandırır (87:2). {ar:ٱلنَّارَ, tr:en-nâra, gloss:ateşi}n ürkütüp uzaklaştıran yönü korunaklı akışı kaçışa çevirirken, {ar:يَصْلَى, tr:yaslâ, gloss:ateşe girip yakıcı şiddetine uğrar} kaçmak isteyen bedeni maruz kalmanın içine yerleştirir. Bu bağlantı sürü alegorisi kurmak yerine, bakım altındaki canlı hareket ile cezalandırıcı ortam arasındaki farkı keskinleştirir.
+
+Hareketli bedenin tepki gücü giderek azalır. {ar:فَجَعَلَهُۥ, tr:fecealehû, gloss:onu yaptı} çevresindeki kısalık, sertlik ve inat bedensel görünüşle direnç kıvamını (87:5), {ar:يَمُوتُ, tr:yemûtü, gloss:ölür} çevresindeki kalp katılığı cevap verme gücünün sönmesini taşır (87:13). {ar:ٱلنَّارَ, tr:en-nâra, gloss:ateşi}n ürkütücü yönü tehlikeyi sezen ani sıçramayı, {ar:فَهَدَىٰ, tr:fehedâ, gloss:sonra yol gösterdi} çevresindeki ağır, zayıf veya donuk kişi tasviri ise hareketin yavaşlamasını ekler (87:3). Böylece sezerek kaçan canlılık ile güçten düşüp karşılık veremeyen beden karşı karşıya gelir. Bu özel karşıtlık hayvan, zihinsel donukluk veya tıbbî sınıflandırma hükmü kurmadan, yararlı hayatın azalmasını bedensel ve değerlendirici dille hazırlar.
+
+Azalan hayat, baştan sona uzanan gelişme çizgisinin sonuna yerleşir. {ar:رَبِّكَ, tr:rabbike, gloss:Rabbin} çevresindeki yenidoğan ve tazelik başlangıcı (87:1, 87:15), {ar:ٱلْيُسْرَىٰ, tr:el-yüsrâ, gloss:en kolay olan} alanında “Yasâr” adlı gence uzanan özel kullanım gençlik kutbunu (87:8), {ar:فَسَوَّىٰ, tr:fesevvâ, gloss:düzenleyip olgunlaştırdı} tam olgunluğu gösterir (87:2). {ar:ٱلْكُبْرَىٰ, tr:el-kübrâ, gloss:büyük/en büyük} çevresindeki yaşlanma bu çizgiye son evreyi, {ar:يَحْيَىٰ, tr:yahyâ, gloss:yaşar} ise hâlâ süren canlı varlığı ekler (87:13). Büyük ateş böylece tazelik ve olgunluktan sonra gelen ağır son evre gibi duyulur. Bu bağlantı öznenin gerçek yaşını veya ateşin biyolojik yaşlandırma yöntemini belirlemekten çok, düzenli yaşamın sonunda beliren sonucu gösterir.
+
+Gelişmenin zamana yayılması, tekrar ve öğretim çevrimini de odağa yaklaştırır. {ar:فَسَوَّىٰ, tr:fesevvâ, gloss:düzenleyip dengeledi} tam olgunluğu ve gecenin dengelenen ayını taşıyarak tamamlanmış evreyi gösterir (87:2). {ar:أَفْلَحَ, tr:efleha, gloss:kurtuluşa erdi} çevresindeki tan öncesi öğün gün döngüsüne erken vakti ekler (87:14); {ar:سَنُقْرِئُكَ, tr:senukriüke, gloss:sana okutacağız} okuma ile öğretimde tekrarı, dişi devenin kızgınlık ve çiftleşme döneminde devreyi, ayrıca belirlenmiş zamanı taşır (87:6). {ar:ٱلْكُبْرَىٰ, tr:el-kübrâ, gloss:büyük/en büyük} çevresindeki yaşlanma ve yükselmiş gündüz bu devreyi ileri taşır. Ateş böylece yaratma, olgunlaşma, okuma, hatırlama ve tekrar içinde hazırlanmış sonraki sonuç evresi olur. Biyolojik çiftleşme, ay takvimi ve ritüel ceza düzeni bu bağlantının iddiası değil; ayrıntıların ortak katkısı sonucun zaman içinde hazırlanmasıdır.
+
+Hazırlanmış sonuç, büyümenin doğal devamı yerine onun kesintisi olarak belirir. {ar:أَخْرَجَ, tr:ahrace, gloss:çıkardı} içeriden çıkan yeni biçimi ve otlağın besleyici büyümesini (87:4), {ar:تَزَكَّىٰ, tr:tezekkâ, gloss:arındı ve gelişti} artan hayatı getirir (87:14); ateş alanındaki çiçeklenme ihtimali bu canlı açılımı görünür yüzeye taşır. Bunun karşısında {ar:يَصْلَى ٱلنَّارَ, tr:yaslâ en-nâra, gloss:ateşe girip yanar} biçimi tüketip karartan işlemdir. Ateşin “çiçek” dalı kaybedilen canlı açılımı belirginleştirir; bu bağlantıda yanma anlamını tersine çevirmez ve yaşam çevrimine iyileştirici yenilenme niteliği eklemez.
+
+## İki Yöneliş
+
+Yaşamı açan yol ile ateşe varan yol, odak fiilin sesinde birbirine çok yaklaşır. {ar:يَصْلَى, tr:yaslâ, gloss:ateşe girip yakıcı şiddetine uğrar} belirli ateş nesnesiyle yanmayı, {ar:فَصَلَّىٰ, tr:fesallâ, gloss:sonra namaz kıldı} Rabbin adını anmanın ardından kurallı ibadeti seçer (87:15). Namazdaki ayakta durma, eğilme, yere kapanma, yakarış ve yüceltme seçilmiş beden düzenini; ateşe giriş ise zorunlu teması gösterir. Namaz kılmayanların sözü ibadet kutbunu (74:43), doğrudan ateş kalıbı yanma kutbunu belirginleştirir (111:3). Ses yakınlığının bu özel bağlantıdaki katkısı iki yönelişin karşıtlığını işitilir kılmaktır; biçimler dilbilgisel olarak ayrı kalır.
+
+Bu karşıtlık, hatırlatmaya verilen cevabın bedende aldığı biçimdir. {ar:ذَكَرَ ٱسْمَ رَبِّهِۦ فَصَلَّىٰ, tr:zekera isme rabbihî fesallâ, gloss:Rabbinin adını andı ve namaz kıldı} hatırlamayı seçilmiş yöneliş ve namazla bedene taşır (87:15); {ar:ٱلَّذِى يَصْلَى ٱلنَّارَ, tr:ellezî yaslâ en-nâra, gloss:ateşe girecek olan} ise öğütten kaçınan bedeni doğrudan ateş temasına taşır. Aynı ses alanında dua ile namaz iradî cevabı, yakıt ve pişme ateşin sürdürdüğü işlemi, ısıyla doğrultulma biçim verici baskıyı, acı çekme de yaşanan sonucu gösterir. Okur böylece bir tarafta düzenli ibadeti, diğer tarafta bedenin ateş düzenine zorla sokuluşunu duyar. Bu bağlantı başka bağlamlarda ışık ve rahmetle ilişkili olan namazı ateşle genel olarak özdeşleştirmez.
+
+Sûrenin olumlu dizisi, iki beden düzeni arasındaki asimetriyi genişletir. {ar:قَدْ أَفْلَحَ, tr:kad efleha, gloss:gerçekten kurtuluşa erdi} başarı ve sürekliliği, {ar:تَزَكَّىٰ, tr:tezekkâ, gloss:arındı} gönüllü temizlenmeyi (87:14), {ar:ذَكَرَ, tr:zekera, gloss:andı} etkin hatırlamayı ve {ar:فَصَلَّىٰ, tr:fesallâ, gloss:namaz kıldı} bedensel ibadeti kurar (87:15). Bunun karşısında {ar:يَصْلَى, tr:yaslâ, gloss:ateşe girip yakıcı şiddetine uğrar}, seçilmiş yönelişi reddeden bedenin ağır fırına zorunlu teslimi gibi duyulur. “Karşı-ritüel” görüntüsü tam olarak bu asimetriyi anlatır: bir yanda iradî arınma ve ibadet, öte yanda irade dışı maruziyet vardır. İki taraf eşdeğer ayinler olmadığı için bağlantı ateşte ibadet anlamı üretmez; namazsızlığı da bu sonucun tek sebebi saymaz.
+
+Fiilin nadir namaz dalı daha dar bir “karşı-namaz” yankısı da açar. {ar:تَزَكَّىٰ, tr:tezekkâ, gloss:arındı} seçilmiş arınmayı, {ar:فَصَلَّىٰ, tr:fesallâ, gloss:namaz kıldı} bu seçimin bedensel düzenini kurar (87:14, 87:15); {ar:يَصْلَى, tr:yaslâ, gloss:ateşe girip yanar}ın uzak namaz dalı, onları reddeden bedenin istemeden başka düzene sokuluşunu duyurur. Belirli ateş nesnesi ve cezalandırıcı bağlam fiilin açık anlamını yanmada sabit tutar. Bu nedenle yankının katkısı anlamı değiştirmek değil, seçilmiş yöneliş ile zorunlu maruziyet arasındaki keskinliği artırmaktır.
+
+İki yöneliş, yüksekliğin de iki ayrı kullanımını gösterir. {ar:سَبِّحِ ٱسْمَ رَبِّكَ ٱلْأَعْلَى, tr:sebbih isme rabbike el-a'lâ, gloss:En Yüce Rabbinin adını tesbih et} arındırmayı ve serbest bırakmayı doğru üstünlüğü tanımaya, adı yükseltmeyi de bu tanımanın görünür ifadesine dönüştürür (87:1); anma ile namaz bunu bedende sürdürür (87:15). {ar:ٱلنَّارَ ٱلْكُبْرَىٰ, tr:en-nâra el-kübrâ, gloss:büyük/en büyük ateşi} yanlış üstünlük arayışını ağır aşağılanmaya çeviren karşı eksendir. Bu karşılıkta ateşin büyüklüğü kutsallık veya şeref değil, En Yüce'nin egemenliği altında kişiyi aşan cezalandırıcı kuvvettir.
+
+## Kaçışın İçinde Kalmak
+
+İbadetten ateşe dönen beden, önceki kaçınmanın tersini yaşamaya başlar. {ar:يَتَجَنَّبُهَا, tr:yetecennebühâ, gloss:ondan kaçınır} öğütten uzaklaşma hareketini, {ar:ٱلْأَشْقَى, tr:el-eşkâ, gloss:en bahtsız olan} onun ağır güçlüğünü taşır (87:11). {ar:ٱلنَّارَ, tr:en-nâra, gloss:ateşi} çevresindeki ürkme bedeni geri sıçratır; {ar:يَصْلَى, tr:yaslâ, gloss:ateşe girip yakıcı şiddetine uğrar} acıyı sürdürür, {ar:ٱلْكُبْرَىٰ, tr:el-kübrâ, gloss:büyük/en büyük} ise bu acıya yük ekler. Hatırlatmadan kaçışın sonunda beden ateşten de geri çekilmek ister, fakat artık kaçındığı ortamın içindedir. Bu özel terslik hayvan kapanı veya ayrı ceza aşaması kurmak yerine, kaçınma dürtüsünün kendi sonucunda çıkış üretememesini görünür kılar.
+
+Yakın tercih bu çıkışsızlığın zamanını belirler. {ar:تُؤْثِرُونَ ٱلْحَيَاةَ ٱلدُّنْيَا, tr:tü'sirûne el-hayâte ed-dünyâ, gloss:yakın dünya hayatını yeğliyorsunuz} hemen erişileni öne çıkarır (87:16); {ar:وَٱلْـَٔاخِرَةُ خَيْرٌ وَأَبْقَىٰ, tr:ve'l-âhiretü hayrun ve-ebkâ, gloss:sonraki hayat daha hayırlı ve kalıcıdır} daha uzak görünen fakat daha sürekli ufku açar (87:17). Görünür işaret sonu seçilir, yem yakın kazancı çekici, kapan varışı kuşatıcı kılar; büyük ateş de yakın seçimin baskın ve uzun süren karşılığı gibi duyulur. Bu bağlantının kapsamı kısa görünen kazanç ile tükenmeyen maruz kalma arasındaki yön farkıdır. Kişinin ateşi bilinçli seçtiği ve dünya hayatının gerçek yem olduğu iddiası bu kapsamın dışındadır.
+
+Bu sonuç bedende ne ölümün tamamlanmasına ne de hayatın yeniden açılmasına izin verir. {ar:ثُمَّ لَا يَمُوتُ فِيهَا وَلَا يَحْيَىٰ, tr:sümme lâ yemûtü fîhâ ve-lâ yahyâ, gloss:sonra orada ne ölür ne yaşar} ölümün kuvveti söndürme, durma ve son verme yönünü de, hayatın yararlı biçimde sürme ve gelişme yönünü de kapatır (87:13). {ar:يَصْلَى, tr:yaslâ, gloss:ateşe girip yakıcı şiddetine uğrar}ın süreç oluşu ile {ar:ٱلْكُبْرَىٰ, tr:el-kübrâ, gloss:büyük/en büyük}ın ağır yükü arasında kişi ne ölümle maruziyeti boşaltabilir ne de hayatla ondan ileri çıkabilir. Âyet bedenin nasıl korunduğuna dair fiziksel bir teori vermeden, gücü tekrar tekrar azaltan fakat tüketilip bitmeye de izin vermeyen askıyı açık bırakır.
+
+</editorial_prose>
