@@ -496,6 +496,15 @@ function replaceFilterOptions(select, firstLabel, values) {
   select.value = [...select.options].some((option) => option.value === previous) ? previous : "all";
 }
 
+function orchestratorCreatedAt(orchestrator) {
+  return orchestrator?.started_at || orchestrator?.registered_at || null;
+}
+
+function compareOrchestratorCreation(first, second) {
+  const created = timestampValue(orchestratorCreatedAt(second)) - timestampValue(orchestratorCreatedAt(first));
+  return created || String(first?.orchestrator_id || "").localeCompare(String(second?.orchestrator_id || ""));
+}
+
 function updateFilterOptions(tasks) {
   const surahs = [...new Set(tasks.map((task) => refNumbers(task).surah))].sort((a, b) => a - b);
   replaceFilterOptions(
@@ -503,21 +512,27 @@ function updateFilterOptions(tasks) {
     "All surahs",
     surahs.map((surah) => ({ value: String(surah), label: `Surah ${surah}` }))
   );
-  const orchestrators = [...new Set(tasks.map((task) => task.orchestrator_id).filter(Boolean))].sort();
+  const snapshotOrchestrators = state.snapshot.orchestrators || {};
+  const orchestrators = [...new Set(tasks.map((task) => task.orchestrator_id).filter(Boolean))]
+    .map((id) => snapshotOrchestrators[id] || { orchestrator_id: id })
+    .sort(compareOrchestratorCreation);
   replaceFilterOptions(
     elements["orchestrator-filter"],
     "All orchestrators",
-    orchestrators.map((value) => ({ value, label: value }))
+    orchestrators.map((orchestrator) => {
+      const createdAt = orchestratorCreatedAt(orchestrator);
+      return {
+        value: orchestrator.orchestrator_id,
+        label: createdAt ? `${orchestrator.orchestrator_id} / ${relativeTime(createdAt)}` : orchestrator.orchestrator_id,
+      };
+    })
   );
 }
 
 function orchestratorsForRun() {
   return Object.values(state.snapshot.orchestrators || {})
     .filter((item) => !item.run_id || item.run_id === state.runId)
-    .sort((a, b) => {
-      const created = timestampValue(b.started_at || b.registered_at) - timestampValue(a.started_at || a.registered_at);
-      return created || String(a.orchestrator_id).localeCompare(String(b.orchestrator_id));
-    });
+    .sort(compareOrchestratorCreation);
 }
 
 function renderRuns() {
@@ -544,7 +559,7 @@ function renderControls() {
   }
   for (const orchestrator of orchestrators) {
     const option = document.createElement("option");
-    const createdAt = orchestrator.started_at || orchestrator.registered_at;
+    const createdAt = orchestratorCreatedAt(orchestrator);
     option.value = orchestrator.orchestrator_id;
     option.textContent = [
       orchestrator.orchestrator_id,

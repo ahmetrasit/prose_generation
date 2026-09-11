@@ -4,462 +4,583 @@
   "lane": "micro",
   "findings": [
     {
-      "finding_ref": "micro:prior-declaration-petition",
+      "finding_ref": "micro:w1-boundary-from-declaration",
       "landings": [
         {
-          "movement_refs": ["discovery:claim", "discovery:mechanism", "discovery:reader_payoff", "discovery:containment"],
+          "movement_refs": [
+            "discovery:claim",
+            "discovery:mechanism",
+            "discovery:reader_payoff",
+            "discovery:containment"
+          ],
           "paragraph": 1,
-          "anchor": "Önceki âyette kurulan kulluk ve yardım isteme sözü, burada {ar:ٱهْدِنَا, tr:ihdinā, gloss:bizi ilet} ile somut bir dileğe dönüşür; cümlenin işi, önceki bildiriyi değiştirmek değil, onun içinden istenen yardımı görünür kılmaktır."
+          "anchor": "Bizi doğru yola ilet: {ar:ٱهْدِنَا, tr:ihdinâ, gloss:bizi ilet} sözü, başına bağlaç almadan doğrudan bir kılavuzluk isteği açar. Konuşanlar daha ilk sözde, kendilerine yöneltilecek eylemi talep eder; başlangıcın belirginliği buradan duyulur. Bu taze açılış âyetin kendi cümlesinde görülebilir, önceki bir sözle karşılaştırma gerektirmez."
         }
       ]
     },
     {
-      "finding_ref": "micro:recipient-route-frame",
+      "finding_ref": "micro:w1-double-object-route-frame",
       "landings": [
         {
-          "movement_refs": ["discovery:claim", "discovery:mechanism", "discovery:reader_payoff", "discovery:containment"],
-          "paragraph": 1,
-          "anchor": "{ar:ٱهْدِنَا, tr:ihdinā, gloss:bizi ilet} fiiline bitişen topluluk nesnesi ile hemen ardından gelen {ar:ٱلصِّرَٰطَ, tr:aṣ-ṣirāṭa, gloss:yol} araya bir yol edatı girmeden aynı doğrudan çerçevede birleşir; böylece rehberlik, yol hakkında uzaktan bilgi vermek yerine konuşanları bir güzergâha yönelten tek bir eylem olarak duyulur."
-        }
-      ]
-    },
-    {
-      "finding_ref": "micro:path-specification",
-      "landings": [
-        {
-          "movement_refs": ["discovery:claim", "discovery:mechanism", "discovery:reader_payoff", "discovery:containment"],
-          "paragraph": 1,
-          "anchor": "Aynı istek {ar:ٱلصِّرَٰطَ, tr:aṣ-ṣirāṭa, gloss:yol} kelimesiyle yolu yalnızca anmakla kalmaz, hangi yolun istendiğini hemen açıklamaya açar; niteleyici bu boşluğu doldurur, sonraki açılım da yolun daha tam kimliğini verir ve açıkta kalan yardım ihtiyacını belirli bir hedefe bağlar."
-        }
-      ]
-    },
-    {
-      "finding_ref": "micro:gift-bestowal-pressure",
-      "landings": [
-        {
-          "movement_refs": ["discovery:claim", "discovery:mechanism", "discovery:reader_payoff", "discovery:containment", "activation:0"],
-          "paragraph": 1,
-          "anchor": "{ar:ٱهْدِنَا, tr:ihdinā, gloss:bizi ilet} kelimesinin armağan verme alanı, bitişik topluluk nesnesiyle birleşerek istenen yönü konuşanların kendi başına kurduğu bir güzergâh değil, onlara incelikle gönderilen ve kabul edilen bir yöneliş gibi duyurur; bu ikinci katman seçilmiş rehberlik anlamının yerini almaz."
-        }
-      ]
-    },
-    {
-      "finding_ref": "micro:guidance-path-upright",
-      "landings": [
-        {
-          "movement_refs": ["discovery:claim", "discovery:mechanism", "discovery:reader_payoff", "discovery:containment"],
-          "paragraph": 6,
-          "anchor": "Kelime ilişkilerinin sunduğu ihtiyatlı bir birleşim, {ar:ٱهْدِنَا, tr:ihdinā, gloss:bizi ilet} isteğini gerçek bir güzergâha yumuşakça yerleşme ve o güzergâhın doğruluğunu sürdürülen diklik ile dengede bulma talebi olarak duyurur; bu, olağan rehberlik anlamını koruyan nitelikli bir ikinci okumadır."
-        },
-        {
-          "movement_refs": ["activation:0"],
-          "paragraph": 6,
-          "anchor": "{ar:ٱهْدِنَا, tr:ihdinā, gloss:bizi ilet} kelimesi burada doğru yolu incelikle gösterme ve ona yöneltme anlamını taşır; bağımsız temasını {ar:ٱلصِّرَٰطَ, tr:aṣ-ṣirāṭa, gloss:yol} kelimesinin üzerinde ilerlenen yol çekirdeği verir ve ikisi birleşince rehberlik, gerçek bir güzergâha giriş sağlayan yumuşak yönlendirme olarak derinleşir."
-        },
-        {
-          "movement_refs": ["activation:1"],
-          "paragraph": 6,
-          "anchor": "{ar:ٱلصِّرَٰطَ, tr:aṣ-ṣirāṭa, gloss:yol} kelimesi geçilebilir yolu taşır; onu harekete geçiren ayrı unsur {ar:ٱهْدِنَا, tr:ihdinā, gloss:bizi ilet} fiilinin yön göstermesidir ve bu temas, istenen şeyin yalnızca doğru fikir değil, içine girilip izlenebilen bir rota olduğunu görünür kılar."
-        },
-        {
-          "movement_refs": ["activation:2"],
-          "paragraph": 6,
-          "anchor": "{ar:ٱلْمُسْتَقِيمَ, tr:al-mustaqīm, gloss:dosdoğru} ise düzgünlüğü, dengeyi ve çizgiden sapmamayı taşır; bunu harekete geçiren bağımsız zemin {ar:ٱلصِّرَٰطَ, tr:aṣ-ṣirāṭa, gloss:yol} kelimesinin nitelediği yoldur ve böylece yolun doğruluğu sürdürülen bir hizalanma şartına dönüşür."
-        }
-      ]
-    },
-    {
-      "finding_ref": "micro:imperative-address",
-      "landings": [
-        {
-          "movement_refs": ["discovery:claim", "discovery:mechanism", "discovery:reader_payoff", "discovery:containment"],
-          "paragraph": 1,
-          "anchor": "Bu emrin gizli öznesi ikinci tekil muhatapta kalırken, -nā eki topluluğu yönlendirilen nesne yapar; böylece dua, muhataba hükmeden bir buyruk değil, onun fiiline açılan bağımlı bir istek olarak anlaşılır."
-        }
-      ]
-    },
-    {
-      "finding_ref": "micro:fused-imperative",
-      "landings": [
-        {
-          "movement_refs": ["discovery:claim", "discovery:mechanism", "discovery:reader_payoff", "discovery:containment"],
-          "paragraph": 1,
-          "anchor": "{ar:ٱهْدِنَا, tr:ihdinā, gloss:bizi ilet} yüzeyinin emir gövdesiyle birinci çoğul eki tek kısa biçimde kaynaştırması, yararlanacak topluluğu isteğin içine sıkıştırır; okur daha yol söylenmeden toplu bir yalvarış duyar ve bu biçimsel yoğunluk anlamı değiştirmeden dileği keskinleştirir."
-        }
-      ]
-    },
-    {
-      "finding_ref": "micro:petitionary-imperative",
-      "landings": [
-        {
-          "movement_refs": ["discovery:claim", "discovery:mechanism", "discovery:reader_payoff", "discovery:containment"],
-          "paragraph": 1,
-          "anchor": "Emir kalıbı buyurucu kuvvetini korur, fakat konuşanların kendilerini yönlendirilmek üzere sunması onu yakarışa çevirir; bu nedenle söz hem acil hem bağımlı duyulur, emir oluşu da silinmez."
-        }
-      ]
-    },
-    {
-      "finding_ref": "micro:selected-guidance",
-      "landings": [
-        {
-          "movement_refs": ["discovery:claim", "discovery:mechanism", "discovery:reader_payoff", "discovery:containment"],
-          "paragraph": 1,
-          "anchor": "Bu bağlamda {ar:ٱهْدِنَا, tr:ihdinā, gloss:bizi ilet} yalnızca bilgi, lütuf veya görme istemez; yol nesnesi fiilin doğru yönü gösterip o yola sevk etme anlamını seçer, böylece rehberlik ve yönelişin neden birlikte işlediği görünür olur."
-        }
-      ]
-    },
-    {
-      "finding_ref": "micro:request-cadence",
-      "landings": [
-        {
-          "movement_refs": ["discovery:claim", "discovery:mechanism", "discovery:reader_payoff", "discovery:containment"],
-          "paragraph": 1,
-          "anchor": "Kısa emir ve burundaki topluluk eki, ardından gelen daha ağır belirli iki isimle genişler; bu ritim isteği yolun içine doğru uzatır, fakat ses basıncı yolun gönderimini değiştiren ayrı bir anlam kurmaz."
-        }
-      ]
-    },
-    {
-      "finding_ref": "micro:abstract-route-register",
-      "landings": [
-        {
-          "movement_refs": ["discovery:claim", "discovery:mechanism", "discovery:reader_payoff", "discovery:containment"],
-          "paragraph": 2,
-          "anchor": "{ar:ٱلصِّرَٰطَ, tr:aṣ-ṣirāṭa, gloss:yol} burada soyut bir yol veya izlenen tarz adı olarak kullanılırken, üzerinde ilerlenen somut yol basıncını da korur; böylece normatif yön, hareket edilebilen bir güzergâh olarak kavranır ve bu somutluk kelimeyi maddi bir yola indirgemeden rehberliği mekânlı kılar."
-        }
-      ]
-    },
-    {
-      "finding_ref": "micro:accusative-route",
-      "landings": [
-        {
-          "movement_refs": ["discovery:claim", "discovery:mechanism", "discovery:reader_payoff", "discovery:containment"],
-          "paragraph": 2,
-          "anchor": "Aynı kelimenin mansup oluşu, istenen şeyin doğrudan yol olduğunu gösterir; fiilin yöneldiği nesne, açık bir edatla yandan eklenmiş bilgi değil, rehberlik eyleminin cevabıdır."
-        }
-      ]
-    },
-    {
-      "finding_ref": "micro:formula-family",
-      "landings": [
-        {
-          "movement_refs": ["discovery:claim", "discovery:mechanism", "discovery:reader_payoff", "discovery:containment"],
-          "paragraph": 2,
-          "anchor": "Yol ile dosdoğru niteleyicisinin bu biçimde yan yana gelişi, verilen 2:142, 3:51, 5:16 ve 42:52 örnekleriyle görülen daha geniş bir yol formülüne bağlanır; bu akrabalık âyeti başka yerlere indirgemez, yalnızca yerel ifadenin tanınan bir kuruluş biçimi olduğunu gösterir."
-        }
-      ]
-    },
-    {
-      "finding_ref": "micro:definite-known-path",
-      "landings": [
-        {
-          "movement_refs": ["discovery:claim", "discovery:mechanism", "discovery:reader_payoff", "discovery:containment"],
-          "paragraph": 2,
-          "anchor": "Başındaki belirli artikel, herhangi bir düz örnek değil, tanınabilir ve belirli bir güzergâh istendiğini duyurur; hedef dilde çoğu zaman tek sözcüğe sığan bu belirginlik, yolun kimliğini cümlenin içinde taşır."
-        }
-      ]
-    },
-    {
-      "finding_ref": "micro:formula-pairing",
-      "landings": [
-        {
-          "movement_refs": ["discovery:claim", "discovery:mechanism", "discovery:reader_payoff", "discovery:containment"],
-          "paragraph": 2,
-          "anchor": "Bu yüzden {ar:ٱلصِّرَٰطَ, tr:aṣ-ṣirāṭa, gloss:yol}, rehberlik fiiliyle kurulan ve sonundaki {ar:ٱلْمُسْتَقِيمَ, tr:al-mustaqīm, gloss:dosdoğru} ile tamamlanan bir çiftin ortasında durur; yol adı, ardından gelecek niteliğin taşıyıcısı olur."
-        }
-      ]
-    },
-    {
-      "finding_ref": "micro:path-adjective-concord",
-      "landings": [
-        {
-          "movement_refs": ["discovery:claim", "discovery:mechanism", "discovery:reader_payoff", "discovery:containment"],
-          "paragraph": 2,
-          "anchor": "Bu çiftte belirlik ve mansupluk bakımından uyuşan niteleyici, yolu başka bir iddia eklemeden doğrudan onun niteliği olarak kilitler; okur böylece yol ile ölçünün tek öbekte birleştiğini görür."
-        }
-      ]
-    },
-    {
-      "finding_ref": "micro:middle-path-pivot",
-      "landings": [
-        {
-          "movement_refs": ["discovery:claim", "discovery:mechanism", "discovery:reader_payoff", "discovery:containment"],
-          "paragraph": 2,
-          "anchor": "Üç kelimelik dizide yol sözcüğü isteği hedefe çeviren orta menteşedir: emirle başlayan istek burada bir güzergâh kazanır, son niteleyiciyle daralır ve verilen sonraki açılımda aynı yolun daha tam kimliğine yer bırakır."
-        }
-      ]
-    },
-    {
-      "finding_ref": "micro:route-conduit",
-      "landings": [
-        {
-          "movement_refs": ["discovery:claim", "discovery:mechanism", "discovery:reader_payoff", "discovery:containment", "activation:0"],
+          "movement_refs": [
+            "discovery:claim",
+            "discovery:mechanism",
+            "discovery:reader_payoff",
+            "discovery:containment",
+            "activation:0",
+            "activation:1"
+          ],
           "paragraph": 3,
-          "anchor": "Yol kelimesinin fiziksel güzergâh çekirdeği, {ar:ٱهْدِنَا, tr:ihdinā, gloss:bizi ilet} fiilinin yön verme hareketi ve {ar:ٱلْمُسْتَقِيمَ, tr:al-mustaqīm, gloss:dosdoğru} kelimesinin hizalanmış nitelik yüklemesiyle temas ettiğinde, soyut rehberlik geçilebilen bir rota olarak görünür; bu ikinci katman yolu fiziksel bir nesneye çevirmeden isteğin nasıl hareket kazandığını açıklar."
+          "anchor": "{ar:ٱهْدِنَا, tr:ihdinâ, gloss:bizi ilet} hem {ar:نَا, tr:nâ, gloss:bizi} ekini hem {ar:ٱلصِّرَٰطَ, tr:es-sırâta, gloss:yolu} adını doğrudan kendine bağlar; iletilecek kişilerle üzerinde ilerlenen güzergâh, araya yönelme edatı girmeden aynı eylemin içinde buluşur. Fiilin incelikle doğru yönü gösterme anlamına yol nesnesi bir seyir verir, {ar:ٱلْمُسْتَقِيمَ, tr:el-müstakîm, gloss:dosdoğru olan} da o yönün doğruluğunu belirler. Böylece kime ve hangi yolda kılavuzluk edileceği birlikte anlaşılır. Bu nesne çözümlemesi mevcut cümleyi açıklar; fiilin her kullanımına yayılmış bir dil bilgisi kuralı veya gerçek bir yolculuk olayı kurmaz."
         }
       ]
     },
     {
-      "finding_ref": "micro:path-sound-pressure",
+      "finding_ref": "micro:w1-forward-path-specification",
       "landings": [
         {
-          "movement_refs": ["discovery:claim", "discovery:mechanism", "discovery:reader_payoff", "discovery:containment"],
-          "paragraph": 3,
-          "anchor": "{ar:ٱلصِّرَٰطَ, tr:aṣ-ṣirāṭa, gloss:yol} kelimesinin sesinde birleşme, uzunluk ve vurgulu ünsüzlerin oluşturduğu basınç artar, fakat bu akustik yoğunluk hangi yolun kastedildiğini değiştirmez; dinleyen, gönderim sabit kalırken rota sözcüğünün daha sıkı duyulduğunu fark eder."
-        }
-      ]
-    },
-    {
-      "finding_ref": "micro:route-recitation",
-      "landings": [
-        {
-          "movement_refs": ["discovery:claim", "discovery:mechanism", "discovery:reader_payoff", "discovery:containment"],
-          "paragraph": 3,
-          "anchor": "Okunuşta uzun merkezî ses, güneş harfiyle birleşme ve kelimeler arasındaki ulama, yolu kısa isteğin içinden uzatıp duyulur kılar; bu ritmik hareket anlamı yeniden kurmaz, aynı güzergâhı işitsel olarak taşır."
-        }
-      ]
-    },
-    {
-      "finding_ref": "micro:swallowing-passage",
-      "landings": [
-        {
-          "movement_refs": ["discovery:claim", "discovery:mechanism", "discovery:reader_payoff", "discovery:containment", "activation:0"],
-          "paragraph": 3,
-          "anchor": "{ar:ٱلصِّرَٰطَ, tr:aṣ-ṣirāṭa, gloss:yol} için verilen geçişte gözden kaybolma ve özellikle yutma kullanımı, {ar:ٱهْدِنَا, tr:ihdinā, gloss:bizi ilet} kelimesinin birini yola sokan hareketiyle temas ettiğinde rotayı içine alan bir geçit gibi duyurur; burada ortaya çıkan imge, yol anlamının yerine geçen gerçek bir yutma değil, yönlendirilen kişiyi alıp taşıyan sınırlı bir geçit basıncıdır."
-        }
-      ]
-    },
-    {
-      "finding_ref": "micro:variant-definiteness",
-      "landings": [
-        {
-          "movement_refs": ["discovery:claim", "discovery:mechanism", "discovery:reader_payoff", "discovery:containment"],
-          "paragraph": 3,
-          "anchor": "Belirli biçimin karşısındaki verilen belirsiz ve yeniden çerçeveleyen seçenekler, {ar:ٱلصِّرَٰطَ, tr:aṣ-ṣirāṭa, gloss:yol} kelimesinin burada neden tanınabilir tek bir güzergâh gibi duyulduğunu açığa çıkarır; karşılaştırma asıl ifadeyi zayıflatmaz, belirli artikelin görünmeyen katkısını belirginleştirir."
-        }
-      ]
-    },
-    {
-      "finding_ref": "micro:active-participle",
-      "landings": [
-        {
-          "movement_refs": ["discovery:claim", "discovery:mechanism", "discovery:reader_payoff", "discovery:containment"],
+          "movement_refs": [
+            "discovery:claim",
+            "discovery:mechanism",
+            "discovery:reader_payoff",
+            "discovery:containment",
+            "activation:0",
+            "activation:1"
+          ],
           "paragraph": 4,
-          "anchor": "{ar:ٱلْمُسْتَقِيمَ, tr:al-mustaqīm, gloss:dosdoğru} biçimi, Form X etken ortaç olarak yolu yalnızca bir sıfatla etiketlemez; doğruluğu ve dikliği yolun taşıdığı, sürdürülen bir özellik gibi kurar."
+          "anchor": "{ar:ٱهْدِنَا, tr:ihdinâ, gloss:bizi ilet} başlangıçta yönlendirilme isteğini açar; ardından {ar:ٱلصِّرَٰطَ, tr:es-sırâta, gloss:yolu} gelince incelikle gösterilen yön, üzerinde gidilecek bir güzergâha bağlanır. {ar:ٱلْمُسْتَقِيمَ, tr:el-müstakîm, gloss:dosdoğru olan} ise o yolun doğrultusunu koruyan, dengeli ve sapmayan niteliğini açık eder. Böylece okur, açık başlayan isteğin üç sözcük içinde nasıl belirli bir yol ve nitelik kazandığını izler. Bu tamamlama, âyetin kendi içindeki sözlere dayanır; sonraki bir açıklamayı buraya taşımaz."
         }
       ]
     },
     {
-      "finding_ref": "micro:adjective-concord",
+      "finding_ref": "micro:w1-gift-bestowal-pressure",
       "landings": [
         {
-          "movement_refs": ["discovery:claim", "discovery:mechanism", "discovery:reader_payoff", "discovery:containment"],
-          "paragraph": 4,
-          "anchor": "Bu kelime {ar:ٱلصِّرَٰطَ, tr:aṣ-ṣirāṭa, gloss:yol} ile belirlik ve mansupluk bakımından uyuştuğu için tek bir yol öbeğini tamamlar; yolun ardından gelen bağımsız bir hüküm değil, yolun nasıl bir yol olduğunu bildiren bağlı nitelemedir."
+          "movement_refs": [
+            "discovery:claim",
+            "discovery:mechanism",
+            "discovery:reader_payoff",
+            "discovery:containment",
+            "activation:0",
+            "activation:1"
+          ],
+          "paragraph": 13,
+          "anchor": "{ar:ٱهْدِنَا, tr:ihdinâ, gloss:bizi ilet} kelimesinin ailesinde, sevgi veya yakınlık duyulan birine incelik göstergesi olarak verilen armağan ve böyle bir armağanı gönderme ya da verme kullanımı da bulunur. Burada armağan imgesini çağıran ayrı unsur, fiile eklenen {ar:نَا, tr:nâ, gloss:bizi} ile kurulan alıcı ilişkisidir: konuşanlar, iyiliği {ar:ٱلْمُسْتَقِيمَ, tr:el-müstakîm, gloss:dosdoğru olan} niteliğiyle belirlenen bir yönü kendileri için isterler; bu yön, kişiye incelikle sunulan bir iyilik gibi düşünülebilir. {ar:ٱلصِّرَٰطَ, tr:es-sırâta, gloss:yolu} bu iyiliğin içeriğini somutlaştırır; muhataptan bizi bu yola iletmesini istemek, sözlükteki birine armağan verme hareketiyle buluşunca kılavuzluk, alıcılarına bahşedilen yön olarak hissedilir. Doğru yol dileği böylece verenle alan arasındaki yakınlığı görünür kılan bir incelik kazanır: yön, onu bekleyen biz için verilmiş bir iyilik gibi alınır. Armağanın sevgi ve yakınlık bildiren özelliği burada benzetmenin kaynağıdır; muhatabın duygusunu ayrıca haber veren bir hüküm olarak kurulmaz. Sözlükte sıradan mal aktarımından ayrılan bu incelik armağanı, kılavuzluk isteğini renklendirir; kurban sunusu, ücret, maddi hediye nesnesi veya karşılıklı armağan alışverişi bu cümlede kurulmuş bir olay değildir."
         }
       ]
     },
     {
-      "finding_ref": "micro:upright-root-narrowing",
+      "finding_ref": "micro:w1-guidance-path-upright-collocation",
       "landings": [
         {
-          "movement_refs": ["discovery:claim", "discovery:mechanism", "discovery:reader_payoff", "discovery:containment"],
-          "paragraph": 4,
-          "anchor": "{ar:ٱلْمُسْتَقِيمَ, tr:al-mustaqīm, gloss:dosdoğru} kelimesinin geniş dikilme, kurma, ayakta tutma ve değer alanı, bu gerçek taşıyıcıya bağlandığında düzgünlük ve doğru çizgiden sapmama niteliğine daralır; böylece her sözlük dalı aynı anda etkinleşmeden kökün derinliği duyulur."
-        }
-      ]
-    },
-    {
-      "finding_ref": "micro:mobile-upright-attribute",
-      "landings": [
-        {
-          "movement_refs": ["discovery:claim", "discovery:mechanism", "discovery:reader_payoff", "discovery:containment"],
-          "paragraph": 4,
-          "anchor": "Bu niteleyici başka taşıyıcılara da uygulanabilen hareketli bir kalite taşır, fakat burada onu taşıyan şey özellikle yoldur; geniş kullanım alanı niteliğin taşınabilirliğini gösterir, başka nesneleri bu âyete taşımaz."
-        }
-      ]
-    },
-    {
-      "finding_ref": "micro:final-adjective",
-      "landings": [
-        {
-          "movement_refs": ["discovery:claim", "discovery:mechanism", "discovery:reader_payoff", "discovery:containment"],
-          "paragraph": 4,
-          "anchor": "Niteleyicinin âyetin sonunda bulunması, isteğin son vurgusunu yolun kalitesine verir; dua yolu anıp orada bırakılmaz, hafızada doğruluk ve hizalanma ile mühürlenir."
-        }
-      ]
-    },
-    {
-      "finding_ref": "micro:formula-completion",
-      "landings": [
-        {
-          "movement_refs": ["discovery:claim", "discovery:mechanism", "discovery:reader_payoff", "discovery:containment"],
-          "paragraph": 4,
-          "anchor": "Bu son kelime, yol ile dosdoğru formülünü tamamlayarak yol adının açık bıraktığı standardı cümlenin içine alır; okur hem bir güzergâh hem de o güzergâhı tanınabilir kılan ölçüyü işitir."
-        }
-      ]
-    },
-    {
-      "finding_ref": "micro:forward-expansion",
-      "landings": [
-        {
-          "movement_refs": ["discovery:claim", "discovery:mechanism", "discovery:reader_payoff", "discovery:containment"],
-          "paragraph": 4,
-          "anchor": "Niteleyicinin ardından daha geniş bir kimlik açıklamasına yer kalması, önce yolun niteliğinin söylenip sonra onun kim olduğunun açılacağı bir sıra kurar; bu ileri açılım mevcut isteği ertelemez, onun tamamlanmış ilk biçimini genişletir."
-        }
-      ]
-    },
-    {
-      "finding_ref": "micro:upright-closure",
-      "landings": [
-        {
-          "movement_refs": ["discovery:claim", "discovery:mechanism", "discovery:reader_payoff", "discovery:containment"],
-          "paragraph": 4,
-          "anchor": "Böylece rehberlik talebi önce fiille, sonra yol adıyla, en sonunda da yolu doğru kılan dik ve sapmasız ölçüyle daralır; son niteleyici isteğin standardını kapatır ve cümlenin üç aşamalı hareketini bir arada tutar."
-        }
-      ]
-    },
-    {
-      "finding_ref": "micro:sound-closure",
-      "landings": [
-        {
-          "movement_refs": ["discovery:claim", "discovery:mechanism", "discovery:reader_payoff", "discovery:containment"],
-          "paragraph": 4,
-          "anchor": "Bu kapanış ses bakımından da sıkılaşır: kısa emirden ağır yol öbeğine uzanan ritim, {ar:ٱلْمُسْتَقِيمَ, tr:al-mustaqīm, gloss:dosdoğru} ile kararlı bir iniş yapar ve anlamdaki kapanışı işitsel olarak destekler."
-        }
-      ]
-    },
-    {
-      "finding_ref": "micro:standing-horizon",
-      "landings": [
-        {
-          "movement_refs": ["discovery:claim", "discovery:mechanism", "discovery:reader_payoff", "discovery:containment"],
-          "paragraph": 5,
-          "anchor": "Surenin daha önceki hesap ufkunda duyulan ayağa kalkma imgesi, {ar:ٱلْمُسْتَقِيمَ, tr:al-mustaqīm, gloss:dosdoğru} kelimesinin diklik alanına değdiğinde, yolun doğruluğuna nitelikli bir hesap ve ayakta durma yankısı eklenebilir; bu temas yerel sıfat anlamını değiştirmeden yolun hangi ufka karşı doğru tutulduğunu düşündürür."
-        },
-        {
-          "movement_refs": ["activation:0", "context:1:4"],
-          "paragraph": 5,
-          "anchor": "1:4'te insanların yargı için ayağa kalktığı ufuk ile bu odaktaki dik ve sapmayan yol birbirine değdiğinde, yolun doğruluğu sorumluluk önünde ayakta kalabilen bir hizalanma olarak duyulur; bu bağlam yankısı niteliklidir ve {ar:ٱلْمُسْتَقِيمَ, tr:al-mustaqīm, gloss:dosdoğru} kelimesini doğrudan diriliş veya hesap günü diye çevirmeyi gerektirmez."
-        }
-      ]
-    },
-    {
-      "finding_ref": "micro:standing-rectitude",
-      "landings": [
-        {
-          "movement_refs": ["discovery:claim", "discovery:mechanism", "discovery:reader_payoff", "discovery:containment"],
-          "paragraph": 5,
-          "anchor": "Fiziksel diklik, denge ve normatif doğruluk {ar:ٱلْمُسْتَقِيمَ, tr:al-mustaqīm, gloss:dosdoğru} içinde birlikte kaldığında, yol hem bir güzergâh olarak düz hem de izlenme biçimi olarak istikrarlı görünür; bu iki katman birbirini açıklar, biri diğerinin yerine geçmez."
-        }
-      ]
-    },
-    {
-      "finding_ref": "micro:variant-standard",
-      "landings": [
-        {
-          "movement_refs": ["discovery:claim", "discovery:mechanism", "discovery:reader_payoff", "discovery:containment"],
-          "paragraph": 5,
-          "anchor": "Son kelimenin belirli ve mansup biçimi, bu diklik niteliğini yolun bilinen standardı olarak sunar; biçimi gevşeten seçenekler düşünüldüğünde, niteleyicinin isteğe bağlı bir süs değil, yolun standardı olduğu daha açık hale gelir."
-        }
-      ]
-    },
-    {
-      "finding_ref": "micro:hft-gentle-alignment",
-      "landings": [
-        {
-          "movement_refs": ["discovery:claim", "discovery:mechanism", "discovery:reader_payoff", "discovery:containment"],
-          "paragraph": 6,
-          "anchor": "Bu üç temasın birlikte kurduğu daha ihtiyatlı görüntü, bizi gerçek bir güzergâha yumuşakça yerleştiren ve doğruluğunu sürdürülen diklik ile dengede bulan bir rehberlik talebidir; okur böylece hareketi, yolu ve hizalanmayı tek bir temas içinde görür, fakat bu görüntü olağan duanın yerine geçen kesin bir sözlük anlamı değildir."
-        },
-        {
-          "movement_refs": ["activation:0"],
-          "paragraph": 6,
-          "anchor": "Bu ihtiyatlı görüntünün ilk taşıyıcısı olan {ar:ٱهْدِنَا, tr:ihdinā, gloss:bizi ilet}, doğru yolu incelikle gösterme ve doğruya yöneltme anlamını taşır; onu somutlaştıran bağımsız temas, {ar:ٱلصِّرَٰطَ, tr:aṣ-ṣirāṭa, gloss:yol} kelimesinin üzerinde ilerlenen yol oluşudur ve temas rehberliği gerçek bir güzergâha girişe dönüştürür."
-        },
-        {
-          "movement_refs": ["activation:1"],
-          "paragraph": 6,
-          "anchor": "Aynı görüntüde {ar:ٱلصِّرَٰطَ, tr:aṣ-ṣirāṭa, gloss:yol}, geçilebilir yol anlamını taşır; hareketi başlatan ayrı unsur {ar:ٱهْدِنَا, tr:ihdinā, gloss:bizi ilet} kelimesinin yön göstermesidir ve böylece rota, rehberliğin içine girip izlediği yüzey olur."
-        },
-        {
-          "movement_refs": ["activation:2"],
-          "paragraph": 6,
-          "anchor": "Görüntüyü hizalayan son taşıyıcı {ar:ٱلْمُسْتَقِيمَ, tr:al-mustaqīm, gloss:dosdoğru} kelimesidir; onun bağımsız teması yoldur ve düzgünlük, denge ve sapmama yolun sürdürülen standardı olarak geri döner."
-        }
-      ]
-    },
-    {
-      "finding_ref": "micro:hft-supported-motion",
-      "landings": [
-        {
-          "movement_refs": ["discovery:claim", "discovery:mechanism", "discovery:reader_payoff", "discovery:containment"],
-          "paragraph": 7,
-          "anchor": "Başka bir ihtiyatlı temas, {ar:ٱهْدِنَا, tr:ihdinā, gloss:bizi ilet} kelimesinin sağa sola sallanarak ve gerektiğinde başkalarına dayanarak yürüme imgesini, {ar:ٱلْمُسْتَقِيمَ, tr:al-mustaqīm, gloss:dosdoğru} kelimesinin ayağa kalkma ve dik durma imgesiyle buluşturur; ortaya çıkan hareket, olağan rehberlik isteğini koruyarak dengesiz yürüyüşten sabit duruşa geçişi düşündürür."
-        },
-        {
-          "movement_refs": ["activation:0"],
-          "paragraph": 7,
-          "anchor": "{ar:ٱهْدِنَا, tr:ihdinā, gloss:bizi ilet} kelimesindeki sallantılı ve başkasına dayanarak yürüme ayrıntısı, bağımsız temasını {ar:ٱلْمُسْتَقِيمَ, tr:al-mustaqīm, gloss:dosdoğru} kelimesinin dik konuma gelme imgesinden alır; bu temas, desteklenmiş hareketin dengeye yönelmesini görünür kılar."
-        },
-        {
-          "movement_refs": ["activation:1"],
-          "paragraph": 7,
-          "anchor": "{ar:ٱلصِّرَٰطَ, tr:aṣ-ṣirāṭa, gloss:yol} kelimesi bu hareketin üzerinde gerçekleştiği yüzeyi taşır; bağımsız tetikleyici, {ar:ٱهْدِنَا, tr:ihdinā, gloss:bizi ilet} içindeki desteklenmiş yürüyüştür ve böylece yol, yalnızca soyut istikamet değil, yürüyüşü gerçek seyahate çeviren zemin olur."
-        },
-        {
-          "movement_refs": ["activation:2"],
-          "paragraph": 7,
-          "anchor": "{ar:ٱلْمُسْتَقِيمَ, tr:al-mustaqīm, gloss:dosdoğru} kelimesindeki dik durma, {ar:ٱهْدِنَا, tr:ihdinā, gloss:bizi ilet} kelimesindeki yalpalayan hareketle temas ettiğinde, ayağa kalkıp ilerlemeye devam etme sonucu belirir; bu bedensel imge nitelikli bir okumadır ve duanın olağan yol istemini ortadan kaldırmaz."
-        }
-      ]
-    },
-    {
-      "finding_ref": "micro:hft-sustaining-course",
-      "landings": [
-        {
-          "movement_refs": ["discovery:claim", "discovery:mechanism", "discovery:reader_payoff", "discovery:containment"],
+          "movement_refs": [
+            "discovery:claim",
+            "discovery:mechanism",
+            "discovery:reader_payoff",
+            "discovery:containment",
+            "activation:0",
+            "activation:1",
+            "activation:2"
+          ],
           "paragraph": 8,
-          "anchor": "Bir başka kelime teması, {ar:ٱهْدِنَا, tr:ihdinā, gloss:bizi ilet} kelimesindeki yön, hedef ve izlenen tutum alanını, {ar:ٱلْمُسْتَقِيمَ, tr:al-mustaqīm, gloss:dosdoğru} kelimesindeki ayakta tutan dayanakla buluşturur; böylece istek, yönümüzü ve davranışımızı hayatı taşıyan bir düzene yerleştirme yönünde genişler ve yine yola iletilme anlamı korunur."
-        },
-        {
-          "movement_refs": ["activation:0"],
-          "paragraph": 8,
-          "anchor": "{ar:ٱهْدِنَا, tr:ihdinā, gloss:bizi ilet} kelimesi yönü ve yöntemi taşır; onu ayakta tutan ayrı temas, {ar:ٱلْمُسْتَقِيمَ, tr:al-mustaqīm, gloss:dosdoğru} kelimesinin düzeni sürdürme basıncıdır ve bu temas rehberliği devam edebilen bir davranış tarzına çevirir."
-        },
-        {
-          "movement_refs": ["activation:1"],
-          "paragraph": 8,
-          "anchor": "{ar:ٱلصِّرَٰطَ, tr:aṣ-ṣirāṭa, gloss:yol} kelimesi bu tarzın yürünebilir güzergâhını taşır; bağımsız temas, yön veren {ar:ٱهْدِنَا, tr:ihdinā, gloss:bizi ilet} ile düzeni sürdüren {ar:ٱلْمُسْتَقِيمَ, tr:al-mustaqīm, gloss:dosdoğru} arasındaki ilişkidir ve yol, hayatı ve davranışı bir arada tutan bir seyir gibi duyulur."
-        },
-        {
-          "movement_refs": ["activation:2"],
-          "paragraph": 8,
-          "anchor": "{ar:ٱلْمُسْتَقِيمَ, tr:al-mustaqīm, gloss:dosdoğru} kelimesindeki dayanak ve geçim temeli alanı, bağımsız temasını {ar:ٱلصِّرَٰطَ, tr:aṣ-ṣirāṭa, gloss:yol} kelimesinin düzenli rotasından alır; bu temas, yolun sürdürme işlevini nitelikli bir imge olarak açar, fakat sıfatın yerel anlamını geçim sözcüğüne dönüştürmez."
+          "anchor": "Üç sözcük birbirini anlamca da belirler: ihdinânın incelikle doğru yönü gösterme anlamını yol nesnesi bir güzergâha bağlar; sırâtın üzerinde gidilen yol oluşunu fiil, bize yönelik bir harekete açar; müstakîmin düzgün, dengeli ve sapmayan niteliği de bu yolun nasıl bir seyir olacağını belirtir. Böylece okur üç ayrı sözlük karşılığı yerine, yönü ve ölçüsü birlikte kurulan bir kılavuzluk isteği duyar. Birlikte kullanıma ilişkin dil incelemeleri bu yerel ilişkiyi destekler; istatistiksel öne çıkma, yorumlardan birini diğerine üstün kılmaz."
         }
       ]
     },
     {
-      "finding_ref": "micro:hft-following-passage",
+      "finding_ref": "micro:w1-imperative-address-role",
       "landings": [
         {
-          "movement_refs": ["discovery:claim", "discovery:mechanism", "discovery:reader_payoff", "discovery:containment"],
-          "paragraph": 9,
-          "anchor": "Daha keşifsel bir kelime teması, {ar:ٱهْدِنَا, tr:ihdinā, gloss:bizi ilet} kelimesindeki önde bulunan veya önden giden bölüm imgesini, {ar:ٱلصِّرَٰطَ, tr:aṣ-ṣirāṭa, gloss:yol} kelimesindeki geçişte gözden kaybolma imgesiyle birleştirir; böylece dua, önümüzde bir yönün belirmesi, bir geçitten geçip eski konumu geride bırakma ve devam etmek için kararlılık kazanma hareketini de düşündürür, ancak bu keşifsel katman olağan yol talebini değiştirmez."
-        },
+          "movement_refs": [
+            "discovery:claim",
+            "discovery:mechanism",
+            "discovery:reader_payoff",
+            "discovery:containment"
+          ],
+          "paragraph": 1,
+          "anchor": "Hitap edilen tek kişi, ayrıca zamirle söylenmese de ihdinânın işi yapması beklenen öznesidir; sonundaki {ar:نَا, tr:nâ, gloss:bizi} ise konuşanları açıkça çoğul nesne yapar. Sözü söyleyen biz, aynı zamanda iletilecek bizdir: dua edenler kendi sesleriyle kendilerine yapılacak şeyi ister. Tekil muhatap ile çoğul alıcı arasındaki bu ilişki burada kuruludur; daha önceki bir konuşmayla özdeşlik veya özne değişimi ileri sürmez."
+        }
+      ]
+    },
+    {
+      "finding_ref": "micro:w1-marked-form-and-fused-pronoun",
+      "landings": [
         {
-          "movement_refs": ["activation:0"],
-          "paragraph": 9,
-          "anchor": "{ar:ٱهْدِنَا, tr:ihdinā, gloss:bizi ilet} kelimesindeki öndeki bölüm ve önden gitme ayrıntısı, bağımsız temasını {ar:ٱلصِّرَٰطَ, tr:aṣ-ṣirāṭa, gloss:yol} kelimesinin geçişte kaybolan şeyi taşıyan geçit imgesinden alır; temas, rehberliğe zaman yönü vererek önümüzde giden bir başlangıç kurar."
-        },
+          "movement_refs": [
+            "discovery:claim",
+            "discovery:mechanism",
+            "discovery:reader_payoff",
+            "discovery:containment"
+          ],
+          "paragraph": 2,
+          "anchor": "{ar:ٱهْدِنَا, tr:ihdinâ, gloss:bizi ilet} içinde isteme fiiliyle bu isteğin yararlanıcıları aynı sözcüktedir; {ar:نَا, tr:nâ, gloss:bizi} eki, kılavuzluğu bekleyenleri yol adı gelmeden dileğin içine yerleştirir. Kullanım incelemeleri bu tam emir ve zamir birleşimini geniş bir yöneltme söz varlığı içinde seyrek görülen bir biçim olarak niteler. Genel anlam ailesinin belirli bir toplu istekte yoğunlaşması buradan fark edilir; seyreklik gözlemi, tek kullanım bulunduğu veya duanın ne sıklıkta okunduğu hakkında sayısal bir sonuç vermez."
+        }
+      ]
+    },
+    {
+      "finding_ref": "micro:w1-petitionary-command-form",
+      "landings": [
         {
-          "movement_refs": ["activation:1"],
-          "paragraph": 9,
-          "anchor": "{ar:ٱلصِّرَٰطَ, tr:aṣ-ṣirāṭa, gloss:yol} kelimesindeki geçiş ve gözden kaybolma ayrıntısı, {ar:ٱهْدِنَا, tr:ihdinā, gloss:bizi ilet} kelimesindeki önden yönlendirme ile tetiklenir; yol böylece yolcuyu önceki konumun ötesine taşıyan bir geçit gibi duyulur, gerçek yutma iddiası doğmaz."
-        },
+          "movement_refs": [
+            "discovery:claim",
+            "discovery:mechanism",
+            "discovery:reader_payoff",
+            "discovery:containment"
+          ],
+          "paragraph": 1,
+          "anchor": "Fiilin emir biçimi, muhatabından bir eylem bekleyen duaya doğrudanlık verir; doğru yola iletilmeyi isteyenlerin konumu ise sözün Allah'a yöneltilen bir yakarış olarak anlaşılmasını sağlar. İsteğin kuvvetiyle yardım bekleyişi böylece aynı söyleyişte buluşur. Dua ilişkisi bu kullanımın anlamıdır; emir biçimi tek başına her bağlamda aynı muhatabı veya aynı ilişkiyi kurmaz."
+        }
+      ]
+    },
+    {
+      "finding_ref": "micro:w1-selected-guidance-sense",
+      "landings": [
         {
-          "movement_refs": ["activation:2"],
+          "movement_refs": [
+            "discovery:claim",
+            "discovery:mechanism",
+            "discovery:reader_payoff",
+            "discovery:containment",
+            "activation:0"
+          ],
+          "paragraph": 3,
+          "anchor": "Yolun varlığı ihdinânın sözlükteki doğru yönü incelikle gösterme, açıklama ve tanıtma anlamını burada özellikle belirginleştirir; dosdoğru niteliği de gösterilen yönü değerlendirir. Bu yüzden kılavuzluk, adı konmuş doğru güzergâha yöneltme olarak anlaşılır. Sözcük incelemelerinde iyilik etme, bildirme, görme veya düzeltme yönündeki başka isteme fiilleriyle yapılan karşılaştırmalar, bu yön seçimini daha görünür kılar. Karşılaştırmanın aktarılan anlam farkları korunur; alternatif okuyuşların tam sözü veya kime ait olduğu yeniden kurulmaz."
+        }
+      ]
+    },
+    {
+      "finding_ref": "micro:w1-sound-and-cadence",
+      "landings": [
+        {
+          "movement_refs": [
+            "discovery:claim",
+            "discovery:mechanism",
+            "discovery:reader_payoff",
+            "discovery:containment"
+          ],
+          "paragraph": 2,
+          "anchor": "Bizi ekindeki geniz sesi, kısa çağrının içinde topluluğu işitilir kılar; ardından {ar:ٱلصِّرَٰطَ, tr:es-sırâta, gloss:yolu} ve {ar:ٱلْمُسْتَقِيمَ, tr:el-müstakîm, gloss:dosdoğru olan} gelince sesçe daha geniş iki sözcük, isteğin içeriğini açar. Dileğin istekten nitelenmiş yola doğru büyümesi, böylece sözcüklerin ses biçiminde de izlenebilir. Bu, yerel söyleyişin bir betimlemesidir; belirli bir okuyuşun ölçülmüş süresi veya seslerden çıkarılan bir sözlük anlamı değildir."
+        }
+      ]
+    },
+    {
+      "finding_ref": "micro:w2-abstract-dominant-register",
+      "landings": [
+        {
+          "movement_refs": [
+            "discovery:claim",
+            "discovery:mechanism",
+            "discovery:reader_payoff",
+            "discovery:containment",
+            "activation:0",
+            "activation:1"
+          ],
+          "paragraph": 7,
+          "anchor": "{ar:ٱلصِّرَٰطَ, tr:es-sırâta, gloss:yolu} için kullanım incelemelerinin yaygın diye anlattığı soyut yol anlamı, üzerinde gidilen güzergâh imgesini korur. {ar:ٱهْدِنَا, tr:ihdinâ, gloss:bizi ilet} yol isteyen insanları bu güzergâha bağlar, {ar:ٱلْمُسْتَقِيمَ, tr:el-müstakîm, gloss:dosdoğru olan} da onun doğrultusunu koruyan, dengeli ve sapmayan niteliğini belirtir. Yaşayışın yönü, böylece insanın önünde ve üzerinde ilerlenebilir bir yol gibi anlaşılır. Yaygınlık bir kullanım incelemesi gözlemidir; burada bağımsız bir sayım veya belirli bir coğrafi yer bilgisi olarak sunulmaz."
+        }
+      ]
+    },
+    {
+      "finding_ref": "micro:w2-accusative-route-frame",
+      "landings": [
+        {
+          "movement_refs": [
+            "discovery:claim",
+            "discovery:mechanism",
+            "discovery:reader_payoff",
+            "discovery:containment",
+            "activation:0"
+          ],
+          "paragraph": 3,
+          "anchor": "Yol adı belirtme durumuyla fiilin isteğini karşılar: sözlükte üzerinde gidilen güzergâh olan sırât, bizi ilet çağrısının nesnesi olunca hem yönelinen yol hem kılavuzluğun üzerinde ilerlediği seyir diye duyulabilir. Okur yolu bağımsız bir konu olarak değil, istenen eylemin içeriği olarak görür. Türkçede yola ve yol boyunca diye açılan bu iki yön, Arapçaya iki eksik edat ekleme iddiası taşımadan, verilen nesne ilişkisinin anlamını açar."
+        }
+      ]
+    },
+    {
+      "finding_ref": "micro:w2-definite-known-path",
+      "landings": [
+        {
+          "movement_refs": [
+            "discovery:claim",
+            "discovery:mechanism",
+            "discovery:reader_payoff",
+            "discovery:containment"
+          ],
+          "paragraph": 5,
+          "anchor": "{ar:ٱلصِّرَٰطَ, tr:es-sırâta, gloss:yolu} tekil ve belirlidir; başındaki belirleyici, isteği rastgele bir yol örneğinden tanınabilir olan yola yöneltir. Bu sayede dua, yolun sahibini ayrıca bir adla söylemeden de belirli bir yöneliş kazanır. Tanınabilir diye istenen yolun nasıl izleneceğinin dua edenlerce zaten bilindiği sonucu ise bu belirlilikten çıkmaz."
+        }
+      ]
+    },
+    {
+      "finding_ref": "micro:w2-formulaic-guidance-path-pairing",
+      "landings": [
+        {
+          "movement_refs": [
+            "discovery:claim",
+            "discovery:mechanism",
+            "discovery:reader_payoff",
+            "discovery:containment",
+            "activation:0",
+            "activation:1"
+          ],
+          "paragraph": 8,
+          "anchor": "{ar:ٱلصِّرَٰطَ, tr:es-sırâta, gloss:yolu} ile {ar:ٱلْمُسْتَقِيمَ, tr:el-müstakîm, gloss:dosdoğru olan} birlikteliği, kullanım incelemelerinde tekrarlanan bir söyleyiş olarak anlatılır; {ar:ٱهْدِنَا, tr:ihdinâ, gloss:bizi ilet} burada onu dileğin nesnesi yapar. Fiil, üzerinde ilerlenen yol anlamını harekete geçirir; o yol da sıfattaki dengeyi ve sapmadan doğrultusunu korumayı seyredilecek bir gidişe bağlar. Bu iki dil bilgisi ilişkisi, adı tek başına bir yol sözcüğünden bağlı bir kılavuzluk yapısının merkezine dönüştürür. Tekrarlanma burada aktarılan kullanım gözlemidir, başka âyetlerle ayrıca kurulmuş bir bağ değildir."
+        }
+      ]
+    },
+    {
+      "finding_ref": "micro:w2-head-adjective-concord",
+      "landings": [
+        {
+          "movement_refs": [
+            "discovery:claim",
+            "discovery:mechanism",
+            "discovery:reader_payoff",
+            "discovery:containment"
+          ],
+          "paragraph": 5,
+          "anchor": "{ar:ٱلْمُسْتَقِيمَ, tr:el-müstakîm, gloss:dosdoğru olan}, yol adıyla belirlilik ve belirtme durumu bakımından uyum gösterir. Yol adının kullanım incelemelerinde sıfatla bağının öne çıkması, bu cümlede somut bir ilişki olur: nitelik ada sıkıca bağlanır, istenen yol genel bırakılmaz. İncelemenin gözlemi bu yerel bağı destekler; uyumun kurduğu şey, ayrı bir yargıdan önce tek bir nitelenmiş yol öbeğidir."
+        }
+      ]
+    },
+    {
+      "finding_ref": "micro:w2-middle-pivot-and-forward-echo",
+      "landings": [
+        {
+          "movement_refs": [
+            "discovery:claim",
+            "discovery:mechanism",
+            "discovery:reader_payoff",
+            "discovery:containment",
+            "activation:0"
+          ],
+          "paragraph": 4,
+          "anchor": "Ortadaki sırât iki ilişkiyi birbirine geçirir: geriye doğru kılavuzluk fiilinin nesnesi, ileriye doğru dosdoğru sıfatının nitelediği addır. Üzerinde ilerlenen yol anlamı, fiilin alıcılarını bir güzergâhla buluştururken, sıfata da niteleyeceği şeyi verir. Ortadaki sözcüğün eylemle nitelik arasındaki bu işi, isteğin nasıl bir yola dönüştüğünü görünür kılar; burada izlenen bağ yalnız bu âyetin içindedir."
+        }
+      ]
+    },
+    {
+      "finding_ref": "micro:w2-path-conduit-image",
+      "landings": [
+        {
+          "movement_refs": [
+            "discovery:claim",
+            "discovery:mechanism",
+            "discovery:reader_payoff",
+            "discovery:containment",
+            "activation:0",
+            "activation:1",
+            "activation:2"
+          ],
+          "paragraph": 7,
+          "anchor": "Bu yol imgesi kılavuzluğu katılınabilir bir seyre dönüştürür: sırât üzerinde gidilen yolu, ihdinâ da o yola girecek ve onu izleyecek kişileri getirir. Müstakîmin fiziksel, davranışsal ve yargısal düzgünlük anlamı bu yol üzerinde doğrultuyu ve dengeyi korumaya açılır; sözlükte doğru yolda kalma, doğru inanç düzeni ve adil söz gibi kullanımlar da aynı düzgünlüğün değer alanındaki uzantılarıdır. Böylece doğru yol dileği hem hareketin somut imgesini hem davranışın normunu bir arada duyurur. Bu, yolun olağan benzetme gücüdür; ayrıca belirli bir inanç tartışması veya söz söyleme olayı anlatmaz."
+        }
+      ]
+    },
+    {
+      "finding_ref": "micro:w2-phonetic-variant-and-sound",
+      "landings": [
+        {
+          "movement_refs": [
+            "discovery:claim",
+            "discovery:mechanism",
+            "discovery:reader_payoff",
+            "discovery:containment",
+            "activation:0",
+            "activation:1"
+          ],
+          "paragraph": 10,
+          "anchor": "Sırâtın sözlük tanıklıkları aynı yol anlamını üç söyleniş biçimiyle kaydeder; okuyuş aktarımlarında da başlangıç sesinin dokusu değişirken yol gönderiminin korunduğu belirtilir. Kılavuzluk fiilinin istediği güzergâh ve onu niteleyen {ar:ٱلْمُسْتَقِيمَ, tr:el-müstakîm, gloss:dosdoğru olan} ilişkisi, değişen sesin altında üzerinde ilerlenen aynı yol anlamını tutar. Böylece akustik farkla sözcüğün neyi adlandırdığı ayırt edilebilir. Sözlükteki üç söyleyiş, burada üç belirli kıraat geleneğine eşitlenmez; tam alternatif metin veya okuyucu adı eklenmez, ses ağırlığından yeni bir anlam çıkarılmaz."
+        }
+      ]
+    },
+    {
+      "finding_ref": "micro:w2-recitation-cadence",
+      "landings": [
+        {
+          "movement_refs": [
+            "discovery:claim",
+            "discovery:mechanism",
+            "discovery:reader_payoff",
+            "discovery:containment"
+          ],
+          "paragraph": 10,
+          "anchor": "{ar:ٱلصِّرَٰطَ, tr:es-sırâta, gloss:yolu} sözünün bağlı okuyuşta önceki {ar:ٱهْدِنَا, tr:ihdinâ, gloss:bizi ilet} çağrısına eklenişi, belirleyicideki l sesinin sonraki sâd sesine benzeşmesi, ortadaki uzun ünlü ve kalın ünsüzler, yol adının sesçe ağırlığını duyurur. Birbirine akan söyleyiş isteği yoluna bağlar; belirleyicinin ses içindeki birleşmesi belirliliği, uzun ünlü de kısa çağrıdan sonra genişleyen yol adını işittirir. Bunlar yerel ses özelliklerinin betimidir; yolun fiziksel uzunluğunu, belirli bir kaydın ölçülmüş süresini veya kalın ünsüzlerden zorunlu olarak çıkan bir anlamı göstermez."
+        }
+      ]
+    },
+    {
+      "finding_ref": "micro:w2-swallowing-passage-pressure",
+      "landings": [
+        {
+          "movement_refs": [
+            "discovery:claim",
+            "discovery:mechanism",
+            "discovery:reader_payoff",
+            "discovery:containment",
+            "activation:0",
+            "activation:1"
+          ],
+          "paragraph": 14,
+          "anchor": "{ar:ٱلصِّرَٰطَ, tr:es-sırâta, gloss:yolu} için daha içe alan bir imge, Mekâyîs'teki sözlük açıklamasından doğar: kelime ailesinde bir şeyin geçip giderken gözden kaybolması ve özellikle yiyeceğin boğazdan geçirilerek yutulması birlikte anlatılır. Yolun yanındaki {ar:ٱهْدِنَا, tr:ihdinâ, gloss:bizi ilet} isteği, bu geçişe girecek insanları ve hareketin yönünü verir; böylece yol, ilerleyenlerin önceki görüş alanından uzaklaşıp içinde yol aldığı bir geçit gibi düşünülebilir. Sözlükte yutulan yiyecek boğazdan geçerek görünmez olur; bizi yola ilet çağrısı bu giriş ve içinden geçiş düzeniyle buluşunca, yol da yolcusunu içine kabul edip ilerleten bir kanal imgesi kazanır. Bu benzetme doğru yola iletilme dileğini genişletir: okur artık yalnız önünde uzanan bir çizgiyi değil, içine girilen ve içinde yol alınan bir geçidi de görebilir. Geçerken gözden kaybolma ile yutmayı birbirine bağlayan bu açıklama, burada tek sözlük tanıklığına dayanır; yol ile kılavuzluk isteğinin onu canlandırması ise benzetmeye dayalı bir okumadır. Yiyecek ve boğaz, benzetmenin sözlükteki somut sahnesidir; insanın yok olması veya kimliğini yitirmesi gibi bir sonuç bu geçiş imgesine yüklenmez. Yolcuyu içine alan yol düşüncesi, geçişin mutlaka kolay olacağını, geniş bir boğazı veya artık geri dönülemeyeceğini de söylemez; asıl dilek, yol içinde ilerleyebilmek olarak açık kalır."
+        }
+      ]
+    },
+    {
+      "finding_ref": "micro:w2-variant-definiteness-pressure",
+      "landings": [
+        {
+          "movement_refs": [
+            "discovery:claim",
+            "discovery:mechanism",
+            "discovery:reader_payoff",
+            "discovery:containment"
+          ],
+          "paragraph": 6,
+          "anchor": "{ar:ٱلصِّرَٰطَ, tr:es-sırâta, gloss:yolu} hakkındaki belirsiz ve ek açıklamalı söyleyiş aktarımları, mevcut cümlenin belirliliğini daha görünür kılar: burada yol, sahibini ayrıca adlandıran ikinci bir ad olmadan tanınabilir diye istenir. Belirleyiciyle sağlanan kimlik, belirsiz bırakma veya başka bir adla açıklama yollarıyla karşılaştırıldığında işini açığa vurur. Bu karşılaştırma, aktarılan dil bilgisi farkıyla sınırlıdır; tam alternatif metin, belirli bir sahip veya okuyuşların aktarım hükmü eklenmez."
+        }
+      ]
+    },
+    {
+      "finding_ref": "micro:w3-active-participle-force",
+      "landings": [
+        {
+          "movement_refs": [
+            "discovery:claim",
+            "discovery:mechanism",
+            "discovery:reader_payoff",
+            "discovery:containment",
+            "activation:0"
+          ],
           "paragraph": 9,
-          "anchor": "{ar:ٱلْمُسْتَقِيمَ, tr:al-mustaqīm, gloss:dosdoğru} kelimesindeki bir işe kararlılıkla girişme alanı, bağımsız temasını bu geçiş rotasından alır; geçide giriş, devam etme azmiyle birleşir, fakat âyete yeni bir fiil eklenmez."
+          "anchor": "{ar:ٱلْمُسْتَقِيمَ, tr:el-müstakîm, gloss:dosdoğru olan}, onuncu fiil kalıbının etken ortacıdır ve burada {ar:ٱلصِّرَٰطَ, tr:es-sırâta, gloss:yolu} adını niteler. Yol adına bağlanması, düzgünlüğü, dengeyi ve doğrultuyu korumayı yolun kendisinin taşıdığı özellik olarak sunar; {ar:ٱهْدِنَا, tr:ihdinâ, gloss:bizi ilet} dileği de bu niteliğe sahip güzergâha yönelir. Okur dosdoğruluğu yalnız bir geometrik etiket olarak değil, yol üzerinde taşınan canlı bir nitelik olarak düşünebilir. Etken ortaç oluşu bu imgeyi destekler; yolun kendini onaran bağımsız bir özne olduğu sonucu dil bilgisi biçiminden çıkmaz."
+        }
+      ]
+    },
+    {
+      "finding_ref": "micro:w3-adjective-concord",
+      "landings": [
+        {
+          "movement_refs": [
+            "discovery:claim",
+            "discovery:mechanism",
+            "discovery:reader_payoff",
+            "discovery:containment"
+          ],
+          "paragraph": 5,
+          "anchor": "Aynı bağa son sözcük tarafından bakıldığında, müstakîmin görevi istenen nesnenin hangi nitelikte olduğunu tamamlamaktır. Kendisinin de belirli ve belirtme durumunda gelişi, onu fiile bağlı yolun sıfatı yapar; dosdoğruluk, başka bir konu üzerine bağımsızca söylenen bir hüküm yerine, bu dileğin yöneldiği yolun niteliği olarak anlaşılır. Türkçenin tek bir doğru yol deyişiyle geçtiği yerde, iki Arapça sözcüğün uyumu aynı istenen şeyi tutar."
+        }
+      ]
+    },
+    {
+      "finding_ref": "micro:w3-broad-root-family-pressure",
+      "landings": [
+        {
+          "movement_refs": [
+            "discovery:claim",
+            "discovery:mechanism",
+            "discovery:reader_payoff",
+            "discovery:containment",
+            "activation:0",
+            "activation:1",
+            "activation:2"
+          ],
+          "paragraph": 9,
+          "anchor": "Müstakîmin ailesindeki fiziksel olarak dik konuma gelme ve dik durma anlamı, yol ile o yolda iletilmeyi isteyen insanlarla karşılaşınca yönelişe bedensel sağlamlık imgesi verir. Yolun düzgün, dengeli ve sapmayan oluşu da sözlükteki doğru yolda kalma, doğru inanç düzeni ve adil söz uzantılarıyla normatif değer kazanır. Ailenin genişliği, okura hem derinliği hem yerel sınırı gösterir: dik duruş yolun niteliğine benzetmeyle taşınır; aynı ailedeki topluluk, diriliş ve fiyat belirleme kullanımları, bu sıfatın anlamına dönüşmez. Buradaki değer ekonomik bedel değil, gidişin doğruluğudur."
+        }
+      ]
+    },
+    {
+      "finding_ref": "micro:w3-final-position-seal",
+      "landings": [
+        {
+          "movement_refs": [
+            "discovery:claim",
+            "discovery:mechanism",
+            "discovery:reader_payoff",
+            "discovery:containment"
+          ],
+          "paragraph": 11,
+          "anchor": "{ar:ٱلْمُسْتَقِيمَ, tr:el-müstakîm, gloss:dosdoğru olan} sıfatının {ar:ٱلصِّرَٰطَ, tr:es-sırâta, gloss:yolu} adından sonra gelişi olağan dil bilgisi sırasıdır; bu sıra aynı zamanda sıfatı âyetin sonuna yerleştirir. İstenen yolun doğruluğu böylece son duyulan içerik olur ve kapanışın anlam ağırlığını alır. Okur dileği yolun niteliği üzerinde bırakabilir; bu, özel bir devriklik veya ölçülmüş bir psikolojik etki iddiası değil, olağan sıra ile son konumun birlikte düşündürdüğü vurgudur."
+        }
+      ]
+    },
+    {
+      "finding_ref": "micro:w3-formula-completion",
+      "landings": [
+        {
+          "movement_refs": [
+            "discovery:claim",
+            "discovery:mechanism",
+            "discovery:reader_payoff",
+            "discovery:containment",
+            "activation:0",
+            "activation:1",
+            "activation:2"
+          ],
+          "paragraph": 8,
+          "anchor": "Bu tanıdık birliktelikte müstakîmin katkısı yine de duyulur: sırâtın yürünebilir güzergâhı, sıfatın düzgün ve dengeli kalma anlamıyla ölçüsünü kazanır. İletilme isteğiyle buluşan bu ölçü, sözlükteki doğru yolda kalma, doğru inanç düzeni ve adil söz kullanımları gibi davranış ve değer alanına da açılır; doğru yol, üzerinde gidilecek yerle birlikte gidişin nasıl doğru olacağını düşündürür. Yol adının kendi sözlük anlamı da düz yolu özellikle vurgulayabilir; sıfat bu imkânı belirginleştirir. Birlikteliğin tanıdıklığı aktarılan bir gözlemdir, katkıları veya okumaları doğruluk sırasına koymaz."
+        }
+      ]
+    },
+    {
+      "finding_ref": "micro:w3-guidance-field-closure",
+      "landings": [
+        {
+          "movement_refs": [
+            "discovery:claim",
+            "discovery:mechanism",
+            "discovery:reader_payoff",
+            "discovery:containment",
+            "activation:0",
+            "activation:1",
+            "activation:2"
+          ],
+          "paragraph": 4,
+          "anchor": "Son sıfata varıldığında istek ölçüsüne ulaşır: fiilin incelikle gösterdiği yönü, nesnesi olan yol yürünebilir kılar; yolun bağlı sıfatı da düzgün, dengeli, sapmadan sürdürülen doğrultuyu belirtir. Bizi ilet deyişinden hangi yola ve nasıl bir doğrulukla sorularının cevabına kadar ilerleyen tek bir dilek duyulur. Bu kapanış, iki dil bilgisi bağının anlamı tamamlamasıdır; sözcük sırasından zaman içinde gerçekleşmiş üç olay veya sûrenin bütünü için bir düzen çıkarılmaz."
+        }
+      ]
+    },
+    {
+      "finding_ref": "micro:w3-sound-cadence-closure",
+      "landings": [
+        {
+          "movement_refs": [
+            "discovery:claim",
+            "discovery:mechanism",
+            "discovery:reader_payoff",
+            "discovery:containment"
+          ],
+          "paragraph": 11,
+          "anchor": "Kısa {ar:ٱهْدِنَا, tr:ihdinâ, gloss:bizi ilet} çağrısından sonra genişleyen yol adının ses yürüyüşünü, müstakîm sürdürür ve cümleyi tok bir bitişe taşır. Daha uzun iki ad soylu sözcüğün ritmiyle son ses örüntüsü, anlamı tamamlayan niteliği işitsel kapanışa da yerleştirir. Dileğin tamamlanışı böylece kulakta da izlenebilir. Tokluk, sözcük biçimlerine dayalı bir dinleme betimlemesidir; belirli bir kayıt ölçümü veya özel bir duruş kuralı ileri sürmez."
+        }
+      ]
+    },
+    {
+      "finding_ref": "micro:w3-upright-normative-rectitude",
+      "landings": [
+        {
+          "movement_refs": [
+            "discovery:claim",
+            "discovery:mechanism",
+            "discovery:reader_payoff",
+            "discovery:containment",
+            "activation:0",
+            "activation:1",
+            "activation:2"
+          ],
+          "paragraph": 9,
+          "anchor": "Dik konuma gelen veya dik duran bir canlı ya da nesnenin dengesi, müstakîmin sözlük ailesindeki somut duruşu anlaşılır kılar; sırât ile ihdinânın bir araya getirdiği yol ve yolcular, bu duruşu yönünü koruyan gidişle buluşturur. Böyle bakıldığında yol hem düzgün ve sapmayan doğrultusuyla hem davranıştaki doğruluğa, doğru inanç düzenine ve hakkaniyetli söze açılabilen ölçüsüyle duyulur. Bedensel diklik, doğru gidişin ahlaki sağlamlığını görünür kılan bir imge olur. Duruş ile normatif doğruluk ayrı anlamlar olarak korunur; benzetme, yolun düşey olduğunu, insanların gerçekten doğrulduğunu veya belirli bir hüküm ve söz olayının yaşandığını bildirmez."
+        }
+      ]
+    },
+    {
+      "finding_ref": "micro:w3-variant-standard-force",
+      "landings": [
+        {
+          "movement_refs": [
+            "discovery:claim",
+            "discovery:mechanism",
+            "discovery:reader_payoff",
+            "discovery:containment"
+          ],
+          "paragraph": 6,
+          "anchor": "{ar:ٱلْمُسْتَقِيمَ, tr:el-müstakîm, gloss:dosdoğru olan} için bildirilen belirsiz söyleyiş ve tamlayan ilişkisi içindeki kuruluş da farkı sıfatın tarafından gösterir. Buradaki belirli ve belirtme durumundaki sıfat, yol adıyla doğrudan uyum kurarak dosdoğruluğu bu yolun tanınan niteliği yapar. Okur böylece olası ve bağımsız bir nitelikten çok, istenen yolun belirli ölçüsünü duyar. Tam metinler ve aktarım ayrıntıları verilmediğinden bu gramer karşılaştırması, okuyucu adı veya yorumlar arasında geçerlilik sırası kurmaz."
+        }
+      ]
+    },
+    {
+      "finding_ref": "micro:gentle-upright-alignment",
+      "landings": [
+        {
+          "movement_refs": [
+            "discovery:claim",
+            "discovery:mechanism",
+            "discovery:reader_payoff",
+            "discovery:containment",
+            "activation:0",
+            "activation:1",
+            "activation:2",
+            "activation:3",
+            "activation:4"
+          ],
+          "paragraph": 12,
+          "anchor": "{ar:ٱهْدِنَا, tr:ihdinâ, gloss:bizi ilet} için sözlüklerin verdiği incelikle gösterme ve doğruya yöneltme, dinî kullanımda bu yönelişi mümkün kılan ilahi desteğe de açılır; dua edenlerin Allah'tan kendileri için istemeleri, bu destek anlamını yakından düşündürür. Yanındaki {ar:ٱلصِّرَٰطَ, tr:es-sırâta, gloss:yolu}, üzerinde yürünüp ilerlenen bir güzergâh vererek gösterilen yönü insanların katılacağı bir seyre dönüştürür; {ar:ٱلْمُسْتَقِيمَ, tr:el-müstakîm, gloss:dosdoğru olan} ise o seyrin düzgün, dengeli ve sapmadan sürme niteliğini belirtir. Doğru yönü gösteren fiil, o yönü alacak biz ve yönün doğruluğunu belirleyen sıfat birlikte okunduğunda, dilek doğruya yönelmeyi mümkün kılan yardımın da istenmesi olarak genişler. Düzgünlüğün sözlüklerde doğru davranışa ve adil söze uzanan kullanımı, yol ile kılavuzluk isteğinin bu temasında hakkaniyetli ölçüyü de duyurur; yolun doğru oluşu, gidişin dengesi ve tutarlılığıyla anlaşılır. Böyle bir okumada bizi doğru yola ilet, hangi yolun doğru olduğunu bildiren bir cevabın ötesine açılır: doğruyu incelikle tanıt, ona yönelmeyi mümkün kıl ve o yolda dengeli ilerleyişimize yardım et. Bu genişleme, sözlükteki yöneltme ve ilahi destek anlamlarını duanın ilişkisiyle buluşturan bir yorumdur; destek, gerçekleştiği haber verilen bir sonuç değil, istenen yardımdır. Dengenin korunması da yol için aranan nitelik olarak kalır; gelecekte hiç sapılmayacağına güvence veya ayrıca bir yargılama ya da tartı sahnesi eklemez."
+        }
+      ]
+    },
+    {
+      "finding_ref": "micro:embodied-supported-motion",
+      "landings": [
+        {
+          "movement_refs": [
+            "discovery:claim",
+            "discovery:mechanism",
+            "discovery:reader_payoff",
+            "discovery:containment",
+            "activation:0",
+            "activation:1",
+            "activation:2",
+            "activation:3"
+          ],
+          "paragraph": 15,
+          "anchor": "{ar:ٱهْدِنَا, tr:ihdinâ, gloss:bizi ilet} kelimesinin ailesi, yürürken sağa sola sallanmayı ve yalpalamayı anlatan kullanımlara da sahiptir; bunların özel birinde güçsüz kişi, iki kişinin arasında yürürken ikisine birden dayanır. Yanındaki {ar:ٱلصِّرَٰطَ, tr:es-sırâta, gloss:yolu} yürümenin güzergâhını, {ar:ٱلْمُسْتَقِيمَ, tr:el-müstakîm, gloss:dosdoğru olan} ise aynı zamanda dik konuma gelme ve dik durma anlamlarına açılan ailesiyle dengeye kavuşmanın bedensel imgesini verir; ayrı sözcüklerin bu teması, yalpalayan yürüyüşü kılavuzluk isteğinde düşündürücü kılar. Bizi diye kendileri için yol isteyenler, sözlükteki iki kişiye dayanarak yürüyen güçsüz kişiyle benzetme yoluyla yan yana geldiğinde, kılavuzluk hareket edebilmeyi sağlayan refakat gibi okunabilir. Dik durma, canlı veya cansız bir şeyin fiziksel olarak doğrulması ya da dik kalmasıdır; burada yolda ilerleme isteğiyle buluştuğunda, destek alan yolcuların yürüyebilecekleri sağlam duruşa kavuşması imgesini açar. Böylece doğru yola iletilmek, yalnız güzergâhı öğrenmekten, dengesiz adımı desteklenerek doğrulabilmek ve gerçekten yol alabilmek düşüncesine genişler. Bu ihtimal, aynı kelime ailesindeki özel yürüyüş kullanımından beslenir; âyetteki ilet emri o yürüyüş kalıbının kendisi değildir ve dosdoğru sıfatı dil bilgisi bakımından yolu nitelemeyi sürdürür. İki destekçi ve güçsüzlük, sözlükte anlatılan benzetme sahnesinin koşullarıdır; Allah'a yönelen tekil hitap iki yardımcıya bölünmez, dua edenler hakkında bedensel bir rahatsızlık teşhisi veya gerçekleşmiş bir iyileşme ileri sürülmez. Yalpalamadan destekle dik duruşa geçiş, sözcüklerin birlikte düşündürdüğü ihtimalli bir sıralamadır; cümlenin anlattığı bitmiş bir olay olarak değil, yol alabilme dileğinin bedensel açılımı olarak tutulur."
+        }
+      ]
+    },
+    {
+      "finding_ref": "micro:sustaining-course",
+      "landings": [
+        {
+          "movement_refs": [
+            "discovery:claim",
+            "discovery:mechanism",
+            "discovery:reader_payoff",
+            "discovery:containment",
+            "activation:0",
+            "activation:1",
+            "activation:2",
+            "activation:3"
+          ],
+          "paragraph": 16,
+          "anchor": "{ar:ٱهْدِنَا, tr:ihdinâ, gloss:bizi ilet} ailesinde bir işin yönünü, hedefini ve izlenen doğrultusunu bildiren kullanımlar da, kişinin gidişini, görünür tutumunu ve izlediği yöntemi anlatan kullanımlar da vardır. {ar:ٱلصِّرَٰطَ, tr:es-sırâta, gloss:yolu}, bu hedef ve doğrultuya üzerinde ilerlenen belirli bir güzergâh verir; {ar:ٱلْمُسْتَقِيمَ, tr:el-müstakîm, gloss:dosdoğru olan} o yönelişi doğruluk ölçüsüne bağladığında, kılavuzluk niyetin ve amacın doğru bir seyir kazanması diye de duyulabilir. Aynı yol ve doğruluk ilişkisi, görünür tutum ve yöntem anlamını harekete geçirir: istenen yönlendirme, nereye gidildiğiyle birlikte nasıl bir gidiş izlendiğini de biçimlendiren yardım olarak anlaşılabilir. Müstakîmin bağlı olduğu ailede ayrıca bir işin, düzenin veya yaşamın varlığını sürdürmesini sağlayan dayanak ve düzenleyici unsur anlamı bulunur; yön ve yöntem kazanan bu yol, o ayakta tutma anlamıyla karşılaşacak bağımsız bir içerik sağlar. Kılavuzlukla seçilen gidişin bir yol boyunca sürmesi, dosdoğrulukta duyulan ayakta tutan dayanağı, davranışın dağılmasını önleyen düzen gibi düşündürür; yol, yaşayış ve uygulamanın bir arada kalmasına yardım eden bir dayanak olarak okunabilir. Bu okumada bizi doğru yola ilet, iki nokta arasındaki düz çizgiyi bulma düşüncesinden, niyet ve tutumu hayatı bir arada tutan bir gidişe yerleştirme düşüncesine açılır. Yön ve yöntem, fiilin aile içindeki anlamlarıyla kurulan bu yorumda yol bulma dileğini genişletir; konuşanların belirli bir gizli niyeti, alışkanlığı veya gündelik programı hakkında bilgi vermez. Ayakta tutan dayanak, burada sıfatın düzgünlük anlamına eklenen bir benzetmedir ve yaşayışın düzenini anlatır; sözlükteki geçim aracı kullanımı için gereken yiyecek, gelir veya maddi kaynak bu âyette ayrıca belirtilmediğinden, bedensel geçim sağlanacağına dair bir vaat kurulmaz."
+        }
+      ]
+    },
+    {
+      "finding_ref": "micro:following-into-passage",
+      "landings": [
+        {
+          "movement_refs": [
+            "discovery:claim",
+            "discovery:mechanism",
+            "discovery:reader_payoff",
+            "discovery:containment",
+            "activation:0",
+            "activation:1",
+            "activation:2",
+            "activation:3",
+            "activation:4"
+          ],
+          "paragraph": 17,
+          "anchor": "{ar:ٱهْدِنَا, tr:ihdinâ, gloss:bizi ilet} ailesinin sözlüklerdeki bir başka kullanımı, bir bütünün ilk veya önde bulunan bölümünü ya da üyesini adlandırır; bazı örneklerde önden giden değnek veya kılavuz, bu önde bulunuşuyla başkasına yön gösterir. {ar:ٱلصِّرَٰطَ, tr:es-sırâta, gloss:yolu} ile fiildeki çoğul {ar:نَا, tr:nâ, gloss:bizi} birlikte düşünülünce, önde bulunma imgesi yol üzerinde ön alma ve arkadan izleme ilişkisine dönüşebilir: yol isteyen topluluğun önünde takip edilebilir bir başlangıç belirir. Önde ilerleyen değneğin veya kılavuzun sözlükteki işi, arkasından gelene yönü göstermektir; yol ve onu izleyecek biz, bu konumsal ilişkiyi harekete geçirerek iletilmeyi bir öncüyü takip ederek yol alma gibi düşündürür. Öndeki her parça kılavuz değildir; değnek ve önden giden rehber burada benzetmenin sözlükteki örnekleridir, Allah'a bedensel bir yer veya duaya ayrıca bir eşya eklenmez. Aynı sırât ailesinin geçip giderken gözden kaybolma ve yiyeceği boğazdan geçirerek yutma kullanımları, ilet çağrısının yoluna girecek insanlarla buluştuğunda, bu takip bir geçidin içine alınarak önceki konumdan uzaklaşma imgesi kazanır. Yutma kullanımında bir şey boğazın içinden geçerek görüşten çıkar; yol ile yönlendirilme isteği, bu içeri giriş düzenini yolun takipçilerini kabul edip içinden ilerletmesine benzetmeye imkân verir. {ar:ٱلْمُسْتَقِيمَ, tr:el-müstakîm, gloss:dosdoğru olan} ailesinde de belirli bir işe kesin niyetle yönelip onu üstlenme ve yapmaya girişme kullanımı vardır; bizi ilet isteğiyle onun belirli yolu, bu kararlılığın yönelebileceği işi sağlar. Önde gidenin verdiği yön takip edilir, yolun içine alan geçişine girilir, belirli gidişi üstlenme kararlılığı da dosdoğru niteliğiyle temas ederek bu girişe sürdürme iradesini ekler; burada üç sözlük imgesi birbirini açıklayan bir hareket oluşturur. Bizi doğru yola ilet sözü bu ihtimalde, zaten görünen bir yolu tanımaktan, önündeki yönü izleyerek bir geçide girmeye ve o gidişi kararlılıkla üstlenmeye doğru genişler. Bu, önde bulunma, geçiş ve kararlılık sözlük kullanımlarını âyetin yol isteğiyle buluşturan bir benzetme dizisidir; kararlılık anlamı özellikle belirli bir işi üstlenme yapısına bağlıdır, burada dosdoğru sıfatının doğrudan dil bilgisi çözümlemesi yerine geçmez. Ön alma, giriş ve kararlılık sırası yorumun kurduğu ilişkidir; yolcunun yok oluşu, artık geri dönemeyeceği veya sürdürme iradesinin hiç kırılmayacağı bu ilişkiden çıkmaz."
+        }
+      ]
+    },
+    {
+      "finding_ref": "micro:composed-proceeding",
+      "landings": [
+        {
+          "movement_refs": [
+            "discovery:claim",
+            "discovery:mechanism",
+            "discovery:reader_payoff",
+            "discovery:containment",
+            "activation:0",
+            "activation:1"
+          ],
+          "paragraph": 18,
+          "anchor": "{ar:ٱهْدِنَا, tr:ihdinâ, gloss:bizi ilet} ailesindeki sakin ve telaşsız hareket etme kullanımı, aynı sakinliğe eşlik eden düzgün ve güzel görünür tutumu da içerir. Burada {ar:ٱلصِّرَٰطَ, tr:es-sırâta, gloss:yolu} sakinliği bir ilerleyişle buluşturur; {ar:ٱلْمُسْتَقِيمَ, tr:el-müstakîm, gloss:dosdoğru olan} niteliğinin denge ve düzgünlüğü de o ilerleyişin ölçülü oluşunu düşündürür. Sözlükte sakinliğe eşlik eden düzgün görünür hâl, ayrı yol ve doğruluk sözcüklerinin bu temasıyla yalnız nereye gidildiğini değil, gidişin nasıl bir tutum taşıdığını da aydınlatabilir. Doğru yola iletilme dileği, böylece telaşsız ve derli toplu bir ilerleyişi de hayal ettirir; istenen yol, ona yönelen kişinin gidiş tarzında hissedilir. Bu sakinlik, sözlükteki hareket ve tutum kullanımından doğan ihtimalli bir benzetmedir; âyet belirli bir yürüme hızı, görünüş veya duygu durumu bildirmez. Sözlükte sakin ilerleyişin karşısına konan bozgun hâlindeki acele kaçış, anlamı açıklayan karşı örnek olarak kalır; burada gerçekleşen bir kaçış sahnesi değildir. Sakin ilerleyiş imgesi ile destek isteyen yalpalı yürüyüş imgesi birlikte açık tutulabilir: biri gidişin ölçüsünü, öteki hareket edebilmek için alınan yardımı düşündürür ve ikisi de bizi doğru yola ilet isteğinin içinde kalır."
         }
       ]
     }

@@ -8,7 +8,7 @@ export const firebaseConfig = {
 };
 
 export const dashboardConfig = {
-  appVersion: "0.2.3",
+  appVersion: "0.2.4",
   defaultRunId: "commentary-v5",
   staleAfterMinutes: 30,
   localSnapshotUrl: "../runtime/snapshot.json",

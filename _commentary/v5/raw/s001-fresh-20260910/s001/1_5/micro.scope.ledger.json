@@ -4,302 +4,438 @@
   "lane": "micro",
   "findings": [
     {
-      "finding_ref": "micro:address-pivot",
+      "finding_ref": "micro:direct-address",
       "landings": [
         {
-          "movement_refs": ["discovery:claim", "discovery:mechanism", "discovery:reader_payoff", "discovery:containment"],
+          "movement_refs": [
+            "discovery:claim",
+            "discovery:mechanism",
+            "discovery:reader_payoff",
+            "discovery:containment"
+          ],
           "paragraph": 1,
-          "anchor": "Bu ayetin düz anlamında topluluk, yalnız sana kulluk eder ve yalnız senden yardım ister; fakat söz, önceki övgüde kendisinden bahsedilen muhataba dönerek kurulur: {ar:إِيَّاكَ, tr:iyyāka, gloss:yalnız sana} ile anlatımdan doğrudan hitaba geçilir, böylece okur bir açıklamanın değil muhatabın karşısında verilen bir sözün içine alınır; bu değişim önceki muhatabı değiştirmez, yalnızca söyleyişin hitap biçimini açıklaştırır."
+          "anchor": "Âyet, “Yalnız sana kulluk ederiz ve yalnız senden yardım isteriz” diye seslenir. {ar:إِيَّاكَ, tr:iyyâke, gloss:yalnız sana} ile {ar:نَعْبُدُ, tr:na'budu, gloss:kulluk ederiz} karşı karşıya geldiğinde, kulluğu bildirenler aynı zamanda kulluk ettikleri muhataba konuşur; yapılan işin bildirimi, o kişiyle kurulan doğrudan hitabın içinde gerçekleşir. Bu sesleniş, âyetin kendi cümlesinde konuşanlarla kendisine konuşulan arasındaki ilişkidir."
         }
       ]
     },
     {
-      "finding_ref": "micro:fronted-service-restriction",
+      "finding_ref": "micro:exclusive-service",
       "landings": [
         {
-          "movement_refs": ["discovery:claim", "discovery:mechanism", "discovery:reader_payoff", "discovery:containment"],
-          "paragraph": 2,
-          "anchor": "{ar:إِيَّاكَ, tr:iyyāka, gloss:yalnız sana} fiilden önce geldiği için yalnızlık vurgusu eylemden sonra eklenmiş bir açıklama değil, hizmetin yönünü daha eylem söylenmeden belirleyen cümle kuruluşudur; okur vurgunun çeviri sözcüğünden çok kelime sırasıyla taşındığını görür ve bu bulgu zamire yeni bir kök anlam yüklemeden öne alınmış nesne ilişkisiyle sınırlı kalır."
+          "movement_refs": [
+            "discovery:claim",
+            "discovery:mechanism",
+            "discovery:reader_payoff",
+            "discovery:containment"
+          ],
+          "paragraph": 1,
+          "anchor": "İlk zamirin fiilden önce gelmesi, daha kulluk eylemi söylenmeden muhatabı öne çıkarıp yönelişi ona özgüler; Türkçedeki “yalnız sana” vurgusunu taşıyan şey cümlenin bu kuruluşudur. Zamirin burada sözcük kökünden gelen bir anlamı yoktur; belirtme durumundaki nesne oluşu da muhatabın bedenen etkilenmesini değil, kulluğun kime yöneldiğini gösterir."
         }
       ]
     },
     {
-      "finding_ref": "micro:pronoun-echo",
+      "finding_ref": "micro:grammatical-refrain",
       "landings": [
         {
-          "movement_refs": ["discovery:claim", "discovery:mechanism", "discovery:reader_payoff", "discovery:containment"],
-          "paragraph": 3,
-          "anchor": "Ayetin yankı birimi bir kök değil, {ar:إِيَّاكَ, tr:iyyāka, gloss:yalnız sana} biçiminin iki yarıda yeniden duyulmasıdır; bu köksüz nesne zamiri {ar:نَعْبُدُ, tr:naʿbudu, gloss:kulluk ederiz} ile {ar:نَسْتَعِينُ, tr:nastaʿīnu, gloss:yardım isteriz} fiillerini aynı hitap çerçevesine bağlar, okura gramerin de yankı kurabildiğini gösterir ve iki ayrı eylemi tek eyleme indirmez."
-        }
-      ]
-    },
-    {
-      "finding_ref": "micro:segmentation-pressure",
-      "landings": [
-        {
-          "movement_refs": ["discovery:claim", "discovery:mechanism", "discovery:reader_payoff", "discovery:containment"],
+          "movement_refs": [
+            "discovery:claim",
+            "discovery:mechanism",
+            "discovery:reader_payoff",
+            "discovery:containment"
+          ],
           "paragraph": 4,
-          "anchor": "İlk zamirin ses ve ayrımlanma çevresindeki varyant baskısı, standart biçimin ayrılmış öne alınmış nesne kuruluşuna ne kadar bağlı olduğunu görünür kılar; karşılaştırma okurun bu kuruluşu fark etmesini sağlar, fakat alternatif ayrımlama ayete seçilmiş rakip bir anlam olarak girmez."
+          "anchor": "Birbirinden farklı köklerin bildirdiği iki eylemin başında aynı köksüz zamir biçimi yinelenir; bu iki cümle arasındaki yankıyı, ortak muhatabı yeniden duyuran dilbilgisel biçim kurar."
         }
       ]
     },
     {
-      "finding_ref": "micro:form-sequence",
+      "finding_ref": "micro:first-pronoun-segmentation",
       "landings": [
         {
-          "movement_refs": ["discovery:claim", "discovery:mechanism", "discovery:reader_payoff", "discovery:containment"],
-          "paragraph": 5,
-          "anchor": "{ar:نَعْبُدُ, tr:naʿbudu, gloss:kulluk ederiz} yalın Form I biçimiyle önce gelir, ardından daha ağır türemiş yapıdaki {ar:نَسْتَعِينُ, tr:nastaʿīnu, gloss:yardım isteriz} gelir; iki fiilin aynı konuşan topluluğa ait olması, hizmetin ardından onun için destek isteme hareketini kurar, fakat biçim farkı tek başına bundan daha geniş bir sonuç taşımaz."
-        }
-      ]
-    },
-    {
-      "finding_ref": "micro:ongoing-service",
-      "landings": [
-        {
-          "movement_refs": ["discovery:claim", "discovery:mechanism", "discovery:reader_payoff", "discovery:containment"],
-          "paragraph": 6,
-          "anchor": "{ar:نَعْبُدُ, tr:naʿbudu, gloss:kulluk ederiz} birinci çoğul imperfect olarak tamamlanmış bir hizmet raporu vermez; konuşanların şimdi ve yeniden gerçekleştirdiği ortak bir eylemi söyler, böylece okur bu sözün tek seferlik geçmiş bildirimi değil, sürdürülebilir bir söz edimi olduğunu duyar."
-        }
-      ]
-    },
-    {
-      "finding_ref": "micro:submissive-service",
-      "landings": [
-        {
-          "movement_refs": ["discovery:claim", "discovery:mechanism", "discovery:reader_payoff", "discovery:containment"],
-          "paragraph": 7,
-          "anchor": "Türkçedeki kulluk sözü burada hafif bir saygı hareketinden daha ağırdır: {ar:نَعْبُدُ, tr:naʿbudu, gloss:kulluk ederiz} hizmet ve teslimiyet basıncı taşır, öne alınmış yalnız-muhatap nesnesi de bu boyun eğen hizmetin yönünü belirler; böylece kelimenin hizmete boyun eğme ağırlığı görünür olurken hukuki kölelik, yol düzleştirme veya kökün uzak alanları bu ayetin içine taşınmaz."
-        }
-      ]
-    },
-    {
-      "finding_ref": "micro:voice-mood-contrast",
-      "landings": [
-        {
-          "movement_refs": ["discovery:claim", "discovery:mechanism", "discovery:reader_payoff", "discovery:containment"],
-          "paragraph": 9,
-          "anchor": "Ses veya kip varyantları konuşanın duruşunu değiştirebilirdi; buna karşılık {ar:نَعْبُدُ, tr:naʿbudu, gloss:kulluk ederiz} burada etkin birinci çoğul bildirim olarak kalır, dolayısıyla alternatifler mevcut biçimin önemini aydınlatan karşılaştırmalar olarak duyulur, ayete seçilmiş ikinci sesler olarak değil."
-        }
-      ]
-    },
-    {
-      "finding_ref": "micro:worship-field-localization",
-      "landings": [
-        {
-          "movement_refs": ["discovery:claim", "discovery:mechanism", "discovery:reader_payoff", "discovery:containment"],
-          "paragraph": 8,
-          "anchor": "Bu kulluk alanı, daha geniş bir ilişki yankısı içinde düşünülebilse de {ar:إِيَّاكَ, tr:iyyāka, gloss:yalnız sana} onu burada olumlu ve tek bir muhataba kapatılmış bir beyan olarak yerelleştirir; okur başka yönelimleri bu ayete taşımadan, kulluğun yönünün yalnız sana sabitlendiğini görür."
-        }
-      ]
-    },
-    {
-      "finding_ref": "micro:two-clause-coordination",
-      "landings": [
-        {
-          "movement_refs": ["discovery:claim", "discovery:mechanism", "discovery:reader_payoff", "discovery:containment"],
-          "paragraph": 10,
-          "anchor": "İki yarıyı bağlayan {ar:وَ, tr:wa, gloss:ve}, hizmet ile yardım istemeyi tek bir fiil zincirine eritmeden iki tam ve muhatabı öne alan cümleyi koordine eder; okur aynı kişiye yönelen iki ayrı eylemi birlikte görür, fakat onları özdeş saymaz."
-        }
-      ]
-    },
-    {
-      "finding_ref": "micro:resumptive-pivot",
-      "landings": [
-        {
-          "movement_refs": ["discovery:claim", "discovery:mechanism", "discovery:reader_payoff", "discovery:containment"],
-          "paragraph": 11,
-          "anchor": "{ar:وَ, tr:wa, gloss:ve} yalnızca ekleme yapmaz; ardından gelen {ar:إِيَّاكَ, tr:iyyāka, gloss:yalnız sana} ikinci yarının yeniden başlamasını sağlar ve ayeti hizmet edilen eylemden istenen desteğe çevirir, böylece ikinci bölüm ilk fiile eklenmiş bir artçı değil, kendi başlangıcı olan ayrı bir yardım yönelimi olur."
-        }
-      ]
-    },
-    {
-      "finding_ref": "micro:surface-join",
-      "landings": [
-        {
-          "movement_refs": ["discovery:claim", "discovery:mechanism", "discovery:reader_payoff", "discovery:containment"],
-          "paragraph": 12,
-          "anchor": "Ses akışındaki birleşme ve ayrımlanma baskısı {ar:وَ, tr:wa, gloss:ve} ile ikinci {ar:إِيَّاكَ, tr:iyyāka, gloss:yalnız sana} arasındaki yüzeyi örtebilir; yine de yerel kuruluş bağlaçtan sonra gelen tekrarlanmış öne alınmış nesnedir, varyant yüzeyi bu gramer eklemini başka bir anlama dönüştürmez."
-        }
-      ]
-    },
-    {
-      "finding_ref": "micro:second-restriction",
-      "landings": [
-        {
-          "movement_refs": ["discovery:claim", "discovery:mechanism", "discovery:reader_payoff", "discovery:containment"],
+          "movement_refs": [
+            "discovery:claim",
+            "discovery:mechanism",
+            "discovery:reader_payoff",
+            "discovery:containment"
+          ],
           "paragraph": 13,
-          "anchor": "İkinci {ar:إِيَّاكَ, tr:iyyāka, gloss:yalnız sana}, yardım isteme cümlesine ilk yarının yalnızlık vurgusunu ödünç aldırmaz; {ar:نَسْتَعِينُ, tr:nastaʿīnu, gloss:yardım isteriz} fiilinin kendi açık nesnesi olarak yardımın kaynağını yeniden yalnızlaştırır, böylece hizmet ve yardım isteme aynı muhataba yönelirken her biri bu yönü kendi cümlesinde kurar."
+          "anchor": "İlk {ar:إِيَّاكَ, tr:iyyâke, gloss:yalnız sana} çevresindeki değerlendirmeler, zamirin nasıl bölümlendiği ve duyulduğu değiştiğinde hitabın kuruluşunun da farklı algılanabileceğini gösterir; burada kullanılan biçimin {ar:نَعْبُدُ, tr:na'budu, gloss:kulluk ederiz} önünde bağımsız nesne olarak durması, muhatabı eylemden ayrı ve önce duyurur. Zamirin ayrı biçimi, bu yüzden anlamın kuruluşuna katılır. İlk zamire ilişkin aktarımın açıklayıcı gücü, ayrıntılı bölümleme tartışmasını yeniden kurmaktan ziyade bağımsız nesne yapısını fark ettirmesindedir."
         }
       ]
     },
     {
-      "finding_ref": "micro:reidentified-addressee",
+      "finding_ref": "micro:service-then-seeking",
       "landings": [
         {
-          "movement_refs": ["discovery:claim", "discovery:mechanism", "discovery:reader_payoff", "discovery:containment"],
+          "movement_refs": [
+            "discovery:claim",
+            "discovery:mechanism",
+            "discovery:reader_payoff",
+            "discovery:containment"
+          ],
+          "paragraph": 6,
+          "anchor": "{ar:نَعْبُدُ, tr:na'budu, gloss:kulluk ederiz} ile {ar:نَسْتَعِينُ, tr:nestaînü, gloss:yardım isteriz} aynı çoğul muzari çerçeveyi paylaşırken farklı işler yapar: ilk fiilin yalın, birinci kalıbı hizmeti bildirir; ardından gelen daha geniş türemiş kalıp, yardım istemeyi ayrıca dile getirir. {ar:وَ, tr:ve, gloss:ve} bu farklı edimleri birbirine bağlayınca, aynı konuşanların sundukları hizmetten aradıkları desteğe geçiş duyulur. Bu söyleyiş sırası, önce kullukla yardımın bedelinin ödendiği veya yardımın ancak sonra başlayacağı sonucunu taşımaz."
+        }
+      ]
+    },
+    {
+      "finding_ref": "micro:renewable-service",
+      "landings": [
+        {
+          "movement_refs": [
+            "discovery:claim",
+            "discovery:mechanism",
+            "discovery:reader_payoff",
+            "discovery:containment"
+          ],
+          "paragraph": 2,
+          "anchor": "Bu sözü söyleyenler, eylemin içinde yer alır: {ar:نَعْبُدُ, tr:na'budu, gloss:kulluk ederiz} ayrıca bir özne adı gerektirmeden “biz”i taşır; muzari biçimi de kulluğu tamamlanmış bir olayın anlatımı olarak kapatmayıp sürdürülmeye ve yenilenmeye açık bir edim olarak sunar. Böylece cümle, konuşanların şu anda dile getirip yeniden üstlenebildikleri bir bağlılık kazanır; bu görünüş, kulluğun kesintisiz gerçekleştiğine dair bir güvence vermez."
+        }
+      ]
+    },
+    {
+      "finding_ref": "micro:submissive-worship",
+      "landings": [
+        {
+          "movement_refs": [
+            "discovery:claim",
+            "discovery:mechanism",
+            "discovery:reader_payoff",
+            "discovery:containment",
+            "activation:0",
+            "activation:1"
+          ],
+          "paragraph": 3,
+          "anchor": "{ar:نَعْبُدُ, tr:na'budu, gloss:kulluk ederiz} sözündeki kulluk, sıradan bir saygı hareketinden daha fazla ağırlık taşır. Tehzîb'in bu kullanımı açıklayan boyun eğmeyle birlikte itaat anlatımı, {ar:إِيَّاكَ, tr:iyyâke, gloss:yalnız sana} hitabıyla belirli bir yöne kavuşur: konuşanlar kendilerini alçaltan, sıradan itaati aşan bir teslimiyet içinde hizmetlerini yalnız bu muhataba yöneltir. Sözlüklerin Tanrı'ya tapınma ve kendini bu yönelişe verme diye açıkladığı dinsel kullanım da aynı hitapla gerçekleşir; kulluk, konuşanların Tanrı'ya dönük adanışını içerir. Bu iki yön birlikte duyulduğunda, âyetin bildirdiği ibadetin içinde hem boyun eğiş hem kendini veriş belirginleşir. Fiilin buradaki anlamı ibadet ederek hizmet etmektir; insanı mülk edinme, zorla köleleştirme veya bir nesneyi işleyip biçimlendirme, bu fiilin anlattığı işler değildir."
+        }
+      ]
+    },
+    {
+      "finding_ref": "micro:active-voice-and-mood",
+      "landings": [
+        {
+          "movement_refs": [
+            "discovery:claim",
+            "discovery:mechanism",
+            "discovery:reader_payoff",
+            "discovery:containment"
+          ],
           "paragraph": 14,
-          "anchor": "Aynı ikinci tekil muhatap yardım fiilinin altında yeniden adlandırılır; okur ikinci eylemin de aynı kişiye yöneldiğini sessiz bir zamir devrinden çıkarmak zorunda kalmaz, fakat bu yeniden belirtme yeni bir muhatap yaratmaz, aynı kişiyi ikinci eylem için tazeler."
+          "anchor": "{ar:نَعْبُدُ, tr:na'budu, gloss:kulluk ederiz} için aktarılan çatı ve kip değerlendirmelerinde edilgenleşme veya son harekenin düşmesi ihtimalleri, işi kimin üstlendiğini ve bildirimin nasıl kurulduğunu düşünmeye açar; âyetteki etkin çoğul muzari ise hizmeti konuşanların kendi edimi olarak bildirir. Bu karşılaştırmada konuşanlar aynı zamanda yapanlardır; burada anılan katkı, belirli bir kıraati veya okuyucuyu yeniden adlandırmaya uzanmayan bu çatı ve kip karşıtlığıdır."
         }
       ]
     },
     {
-      "finding_ref": "micro:second-pronoun-slot",
+      "finding_ref": "micro:positive-exclusive-avowal",
       "landings": [
         {
-          "movement_refs": ["discovery:claim", "discovery:mechanism", "discovery:reader_payoff", "discovery:containment"],
-          "paragraph": 15,
-          "anchor": "İkinci zamir yuvasındaki ses ve ayrımlanma varyantları yüzeyi tartışmalı kılabilir; yerel işlev yine {ar:إِيَّاكَ, tr:iyyāka, gloss:yalnız sana} biçiminin {ar:نَسْتَعِينُ, tr:nastaʿīnu, gloss:yardım isteriz} önünde duran tekrarlanmış nesne olmasıdır, dolayısıyla varyant yeni bir görev veya yeni bir muhatap getirmez."
+          "movement_refs": [
+            "discovery:claim",
+            "discovery:mechanism",
+            "discovery:reader_payoff",
+            "discovery:containment"
+          ],
+          "paragraph": 1,
+          "anchor": "Olumlu “kulluk ederiz” bildirimi bu öne alınmış muhatapla birleşince, yalnız ona yönelmek konuşanların üstlendiği olumlu bir bağlılık sözü olur. Bu olumlu bağlılık, burada söylenen kulluk fiiliyle onun muhatabı arasındaki ilişkiden anlaşılır."
         }
       ]
     },
     {
-      "finding_ref": "micro:form-x-help",
+      "finding_ref": "micro:two-full-clauses",
       "landings": [
         {
-          "movement_refs": ["discovery:claim", "discovery:mechanism", "discovery:reader_payoff", "discovery:containment"],
-          "paragraph": 16,
-          "anchor": "{ar:نَسْتَعِينُ, tr:nastaʿīnu, gloss:yardım isteriz} Form X imperfect olarak konuşanların yardımı yalnızca alan kişiler değil, kendileri için yardım arayan etkin bir topluluk olduğunu söyler; böylece ikinci fiil edilgen bir ihtiyaç bildirimi değil, yöneltilmiş ve süren bir yardım talebi olarak duyulur."
-        }
-      ]
-    },
-    {
-      "finding_ref": "micro:forward-guidance",
-      "landings": [
-        {
-          "movement_refs": ["discovery:claim", "discovery:mechanism", "discovery:reader_payoff", "discovery:containment"],
-          "paragraph": 17,
-          "anchor": "Bu yardım isteğinin nesnesi açık bırakıldığı için söz bir sonuca kapanmaz; yardım talebi, hemen ardından gelen rehberlik ve yol ayrımı sözlerine doğru açılır, okur böylece burada söylenmeyen yardımın sonraki yönlendirme isteğini hazırlayan bir eşik olduğunu görürken sonraki ayetlerin bütün anlamını bu cümleye taşımaz."
-        }
-      ]
-    },
-    {
-      "finding_ref": "micro:marked-help-object",
-      "landings": [
-        {
-          "movement_refs": ["discovery:claim", "discovery:mechanism", "discovery:reader_payoff", "discovery:containment"],
-          "paragraph": 18,
-          "anchor": "Yardım kaynağı da fiilden sonra eklenmiş bir açıklama gibi değil, {ar:إِيَّاكَ, tr:iyyāka, gloss:yalnız sana} ile fiilden önce kurulmuş işaretli bir doğrudan nesne ilişkisi gibi sıkışır; bu nedenle yalnız senden ifadesi kaynağı daha nastaʿīnu söylenmeden belirler, fakat bu işaretli kuruluş yeni bir kök dalı veya rakip bir parse üretmez."
-        }
-      ]
-    },
-    {
-      "finding_ref": "micro:service-help-pair",
-      "landings": [
-        {
-          "movement_refs": ["discovery:claim", "discovery:mechanism", "discovery:reader_payoff", "discovery:containment"],
-          "paragraph": 19,
-          "anchor": "Yardım isteme, hizmetten kopuk ikinci bir dindarlık fiili değildir; {ar:نَعْبُدُ, tr:naʿbudu, gloss:kulluk ederiz} ile {ar:نَسْتَعِينُ, tr:nastaʿīnu, gloss:yardım isteriz} ortak birinci çoğul çerçevede eşlenir, böylece ayet hizmeti kendine yeterli bir iddia olarak bırakmayıp yardım talebiyle birlikte söyler, iki eylemi yine de ayrı tutar."
-        }
-      ]
-    },
-    {
-      "finding_ref": "micro:patience-echo",
-      "landings": [
-        {
-          "movement_refs": ["discovery:claim", "discovery:mechanism", "discovery:reader_payoff", "discovery:containment"],
-          "paragraph": 20,
-          "anchor": "Yardım arayışı, sağlanan daha geniş yankıda sabırla birlikte de duyulabilir; bu ilişki {ar:نَسْتَعِينُ, tr:nastaʿīnu, gloss:yardım isteriz} kelimesinin yardım isteme hareketine bir sabır yankısı ekler, fakat sabır burada açık bir nesne veya ayetin doğrudan konusu değildir."
-        }
-      ]
-    },
-    {
-      "finding_ref": "micro:help-branch",
-      "landings": [
-        {
-          "movement_refs": ["discovery:claim", "discovery:mechanism", "discovery:reader_payoff", "discovery:containment"],
-          "paragraph": 21,
-          "anchor": "{ar:نَسْتَعِينُ, tr:nastaʿīnu, gloss:yardım isteriz} biçimi geniş bir anlam alanından yardım isteme yönünü seçer; Form X kuruluşu, öne alınmış yalnız-muhatap ve hizmetle eşleşme birlikte çalışarak yaş, tekrarlanan savaş, yer adı, yardım verme veya karşılıklı iş birliği gibi başka yönleri bu yerel yüzey anlamının dışında bırakır, böylece tek bir kelimenin bütün sözlük alanı aynı anda etkinleşmez."
-        }
-      ]
-    },
-    {
-      "finding_ref": "micro:aid-vocalization",
-      "landings": [
-        {
-          "movement_refs": ["discovery:claim", "discovery:mechanism", "discovery:reader_payoff", "discovery:containment"],
-          "paragraph": 22,
-          "anchor": "Önek ünlüsü ve uzunluk varyantları kapanış sesini değiştirebilir; yine de {ar:نَسْتَعِينُ, tr:nastaʿīnu, gloss:yardım isteriz} birinci çoğul Form X yardım arayışı olarak kalır, bu yüzden ses etkisi anlam kuruluşunun yerini almaz."
-        }
-      ]
-    },
-    {
-      "finding_ref": "micro:hft-exclusive-service-support",
-      "landings": [
-        {
-          "movement_refs": ["discovery:claim", "discovery:mechanism", "discovery:reader_payoff", "discovery:containment"],
-          "paragraph": 23,
-          "anchor": "Bu temel cümle anlamının üzerinde, atfedilmiş bir bağlantı hizmetteki boyun eğişi aynı muhataptan istenen destekle birleştirerek bağlılığın sürdürülmesini görünür kılar; bu ikinci katman olağan iki cümlelik okumayı güçlendirir ve kelimelerin bütün sözlük ayrıntılarını bağımsız biçimde etkin saymadan yalnız bu temasın izin verdiği kadar konuşur."
+          "movement_refs": [
+            "discovery:claim",
+            "discovery:mechanism",
+            "discovery:reader_payoff"
+          ],
+          "paragraph": 4,
+          "anchor": "{ar:نَعْبُدُ, tr:na'budu, gloss:kulluk ederiz} ilk öne alınmış nesnesiyle tamamlanırken, ikinci zamir {ar:نَسْتَعِينُ, tr:nestaînü, gloss:yardım isteriz} için yeni bir nesne yeri açar; bağlaç böylece her biri kendi muhatabını öne çıkaran iki tam cümleyi birleştirir."
         },
         {
-          "movement_refs": ["activation:0"],
-          "paragraph": 24,
-          "anchor": "{ar:نَعْبُدُ, tr:naʿbudu, gloss:kulluk ederiz} içindeki hizmet, aynı ayetteki {ar:نَسْتَعِينُ, tr:nastaʿīnu, gloss:yardım isteriz} ile temas ettiğinde sıradan bir davranıştan daha ileri, boyun eğerek itaat ve tapınma taşıyan bir bağlılık eylemi olarak görünür; yardım isteme bu eylemin yönünü aynı muhataba sabitler."
-        },
-        {
-          "movement_refs": ["activation:1"],
-          "paragraph": 25,
-          "anchor": "{ar:نَسْتَعِينُ, tr:nastaʿīnu, gloss:yardım isteriz} içindeki yardım ve destek, {ar:نَعْبُدُ, tr:naʿbudu, gloss:kulluk ederiz} ile temas ettiğinde soyut bir ek yardım olmaktan çıkar ve yalnız muhataba yönelmiş hizmetin sürmesini mümkün kılan destek olarak duyulur; bu, hizmet ve destek bağını görünür kılar ama yardımın kesinlikle verilmiş olduğunu söylemez."
+          "movement_refs": [
+            "discovery:containment"
+          ],
+          "paragraph": 4,
+          "anchor": "Bu bağın kendisi bir alışveriş, zorunlu neden-sonuç ilişkisi veya yardımın gecikerek geleceği bir zaman sırası kurmaz."
         }
       ]
     },
     {
-      "finding_ref": "micro:hft-dependent-agency",
+      "finding_ref": "micro:resumptive-hinge",
       "landings": [
         {
-          "movement_refs": ["discovery:claim", "discovery:mechanism", "discovery:reader_payoff", "discovery:containment"],
-          "paragraph": 26,
-          "anchor": "Aynı birincil anlam korunarak atfedilmiş başka bir bağ, hizmet edenlerin kendilerini bağımsız sahipler olarak değil, destek sayesinde etkili olabilen bir topluluk olarak göstermesine izin verir; bu okuma bağlılık içinden eylemi genişletir ve hukuki köleliği ya da özel bedensel kullanımları ayetin doğrudan anlamı yapmaz."
+          "movement_refs": [
+            "discovery:claim"
+          ],
+          "paragraph": 4,
+          "anchor": "İki cümleyi bağlayan {ar:وَ, tr:ve, gloss:ve}, ardından gelen {ar:إِيَّاكَ, tr:iyyâke, gloss:yalnız senden} sayesinde hem bağlama hem yeniden başlama gücü kazanır."
         },
         {
-          "movement_refs": ["activation:0"],
-          "paragraph": 27,
-          "anchor": "{ar:نَعْبُدُ, tr:naʿbudu, gloss:kulluk ederiz} içindeki ilişki, özgür olmayan ve bir başkasının mülkiyetinde bulunan kişinin bağımsız sahiplikten yoksun konumunu çağrıştıran atfedilmiş bir baskıyla {ar:نَسْتَعِينُ, tr:nastaʿīnu, gloss:yardım isteriz} içindeki destek arayışına bağlanır; böylece konuşanların hizmeti kendi başına hükmetmekten değil, yardım ile işleyen bağımlı bir güçten yürür, fakat ayetin hukuki kölelik bildirdiği söylenmez."
-        },
-        {
-          "movement_refs": ["activation:1"],
-          "paragraph": 28,
-          "anchor": "{ar:نَسْتَعِينُ, tr:nastaʿīnu, gloss:yardım isteriz} içindeki yardım eylemi, {ar:نَعْبُدُ, tr:naʿbudu, gloss:kulluk ederiz} içindeki hizmetle buluştuğunda bedensel denge ve güç olgunluğuna ait atfedilmiş ayrıntı, yardım istemeyi bağlı eyleme kapasite kazandıran bir kuvvet olarak renklendirir; kadın ve yük atına özgü sözlük koşulları bu ayete taşınmadan yalnız kapasite ilişkisi korunur."
+          "movement_refs": [
+            "discovery:mechanism",
+            "discovery:reader_payoff",
+            "discovery:containment"
+          ],
+          "paragraph": 4,
+          "anchor": "Bu yüzden “ve”, önceki söze bağlanırken “sen” üzerinden taze bir başlangıç da duyurabilir; dilbilgisel bağlama ile sözün yeniden açılması, aynı birleşmenin birlikte işitilebilen iki yönüdür."
         }
       ]
     },
     {
-      "finding_ref": "micro:hft-honoring-service",
+      "finding_ref": "micro:connective-surface-join",
       "landings": [
         {
-          "movement_refs": ["discovery:claim", "discovery:mechanism", "discovery:reader_payoff", "discovery:containment"],
-          "paragraph": 29,
-          "anchor": "Hizmet ayrıca, atfedilmiş bir başka temasta yalnız aşağı doğru boyun eğme değil, muhatabı saygıdeğer ve yüce tutan bir onurlandırma yüzü kazanır; bu katman da olağan hizmet ve yardım isteme anlamını genişletir, fakat yardımın sonucu veya bütün saygı kullanımları hakkında hüküm vermez."
-        },
-        {
-          "movement_refs": ["activation:0"],
-          "paragraph": 30,
-          "anchor": "{ar:نَعْبُدُ, tr:naʿbudu, gloss:kulluk ederiz} içindeki hizmet edilen kişiyi saygıdeğer ve yüce tutma ayrıntısı, {ar:نَسْتَعِينُ, tr:nastaʿīnu, gloss:yardım isteriz} içindeki destek talebiyle temas eder; böylece hizmet muhatabı onurlandıran, yardım isteme ise bu onurlandırıcı hizmeti kendi kendine yeterli kılmadan sürdüren bir hareket olarak görünür."
-        },
-        {
-          "movement_refs": ["activation:1"],
-          "paragraph": 31,
-          "anchor": "Yardımın destek oluşturma yönü de bu onurlandırıcı hizmeti kendi kendine yeterli bir gösteri olmaktan çıkarır; {ar:نَسْتَعِينُ, tr:nastaʿīnu, gloss:yardım isteriz} ile {ar:نَعْبُدُ, tr:naʿbudu, gloss:kulluk ederiz} aynı muhataba dönük iki hareketi birbirini açıklayan bir bağlılıkta buluşturur, fakat yardımın sonucunu ayete eklemez."
+          "movement_refs": [
+            "discovery:claim",
+            "discovery:mechanism",
+            "discovery:reader_payoff",
+            "discovery:containment"
+          ],
+          "paragraph": 13,
+          "anchor": "İkinci yarının başındaki {ar:وَإِيَّاكَ, tr:ve iyyâke, gloss:ve yalnız senden} ise yazıda bitişik görünürken bağlaç ile zamirin iki ayrı işini bir arada taşır; birleşme çevresindeki farklı okuyuş değerlendirmeleri, önceki cümleyi bağlayan parça ile yeni hitabı açan parça arasındaki sınırı duyurur. Tek yazılı söz böylece hem geriye bağlanır hem yeni bir sınırlamayı başlatır. Birleşme hakkındaki okuyuş bildiriminden çıkarılabilen gözlem, bu işlev ayrımıyla sınırlıdır; belirli bir kaynaşmış biçimin tam telaffuzu bu açıklamanın dışında kalır."
         }
       ]
     },
     {
-      "finding_ref": "micro:hft-watchful-care",
+      "finding_ref": "micro:renewed-help-restriction",
       "landings": [
         {
-          "movement_refs": ["discovery:claim", "discovery:mechanism", "discovery:reader_payoff", "discovery:containment"],
-          "paragraph": 32,
-          "anchor": "Daha keşifsel bir yankı, yardım istemeyi hizmet eden topluluğun dikkatle korunup gözetildiği bir ilişki olarak da açar; bu atfedilmiş ve ihtiyatla taşınan görüntü yardım anlamının yerini almaz, yalnız yardımın üzerine koruyucu dikkat tonu ekler."
-        },
+          "movement_refs": [
+            "discovery:claim",
+            "discovery:mechanism",
+            "discovery:reader_payoff",
+            "discovery:containment"
+          ],
+          "paragraph": 4,
+          "anchor": "İkinci zamirin yardım isteme fiilinden önce yeniden söylenmesi, yardımın kaynağına da ayrıca “yalnız senden” sınırı koyar; bu sınırlama ikinci cümlede açıkça yeniden kurulmuştur."
+        }
+      ]
+    },
+    {
+      "finding_ref": "micro:same-addressee-new-act",
+      "landings": [
         {
-          "movement_refs": ["activation:0"],
-          "paragraph": 33,
-          "anchor": "{ar:نَعْبُدُ, tr:naʿbudu, gloss:kulluk ederiz} içindeki saygı ve hizmet ilişkisi, {ar:نَسْتَعِينُ, tr:nastaʿīnu, gloss:yardım isteriz} ile temas ettiğinde bu keşifsel gözetim imgesinin taşıyıcısı olur; yardım isteyen topluluk, onurlandırdığı muhatabın dikkatinde tutulan bir topluluk olarak duyulur."
-        },
+          "movement_refs": [
+            "discovery:claim",
+            "discovery:mechanism",
+            "discovery:reader_payoff",
+            "discovery:containment"
+          ],
+          "paragraph": 4,
+          "anchor": "İki zamir aynı tekil muhatabı gösterirken bağlı oldukları fiil değişir: kulluk edilen kişi, yardım için başvurulan kişi olarak yeniden anılır. Âyetin iki yarısındaki bu muhatap sürekliliği, aynı kişiye farklı bir edimle dönmeyi görünür kılar."
+        }
+      ]
+    },
+    {
+      "finding_ref": "micro:second-pronoun-variants",
+      "landings": [
         {
-          "movement_refs": ["activation:1"],
-          "paragraph": 34,
-          "anchor": "{ar:نَسْتَعِينُ, tr:nastaʿīnu, gloss:yardım isteriz} için açılan koruyup gözetme ayrıntısı, bir kişiyi göz önünde bulundurarak koruma ve kollama düşüncesini aynı ayetteki hizmet eylemiyle buluşturur; böylece yardım çıplak bir dış kuvvet değil, hizmet edenlerin koruyucu dikkat altında tutulması olarak da hayal edilebilir, fakat nastaʿīnu'nun sözlükte doğrudan gözetmek anlamına geldiği veya yardım anlamının dışlandığı söylenmez."
+          "movement_refs": [
+            "discovery:claim",
+            "discovery:mechanism",
+            "discovery:reader_payoff",
+            "discovery:containment"
+          ],
+          "paragraph": 13,
+          "anchor": "İkinci zamirin kendi ses ve bölümleme değerlendirmeleri ayrıca, {ar:نَسْتَعِينُ, tr:nestaînü, gloss:yardım isteriz} önünde yeniden açılan nesne yerini belirginleştirir; burada yardım talebinin kendine ait bir öne alınmış hitabı bulunduğu duyulur. Bu ikinci yerin katkısı, ilk zamirin bölümleme meselesinden ayrı olarak, hitabın yeni fiil önünde yeniden kurulmasıdır. Bu ikinci yere ilişkin gözlem de yeni nesne yerinin korunmasıyla sınırlıdır; belirli okuyuculara ayrı ses biçimleri isnat edecek ayrıntıyı taşımaz."
+        }
+      ]
+    },
+    {
+      "finding_ref": "micro:actively-seeking-help",
+      "landings": [
+        {
+          "movement_refs": [
+            "discovery:claim",
+            "discovery:mechanism",
+            "discovery:reader_payoff",
+            "discovery:containment",
+            "activation:0",
+            "activation:1"
+          ],
+          "paragraph": 5,
+          "anchor": "{ar:نَسْتَعِينُ, tr:nestaînü, gloss:yardım isteriz} denildiğinde konuşanlar ihtiyaçları için kendileri harekete geçer: fiilin istif‘âl, yani onuncu türetim kalıbı, yardım ilişkisini başkasından yardım isteme eylemi olarak kurar. Sıhâh ve Müfredât'ın anlattığı yardım alanında bir kişi, topluluk veya araç, başkasının işini yapmasına destek olur; burada fiilin önündeki {ar:إِيَّاكَ, tr:iyyâke, gloss:yalnız senden} bu destek için başvurulan muhatabı belirler. Aynı anlam ailesi karşılıklı yardımlaşmayı da kapsar, fakat bu fiilin isteme kalıbı ve karşısındaki muhatap, konuşanları başkasından destek isteyen taraf olarak konumlandırır; böylece bağımlılık da onların yaptıkları bir iş hâlinde dile gelir. Söylenen, yardımın elde edilmiş olması değil, yardım isteme edimidir; yardım verme veya birbirine yardım etme, bu cümlenin fiil karşılığı olmaz."
+        }
+      ]
+    },
+    {
+      "finding_ref": "micro:open-help-request",
+      "landings": [
+        {
+          "movement_refs": [
+            "discovery:claim",
+            "discovery:mechanism",
+            "discovery:reader_payoff",
+            "discovery:containment"
+          ],
+          "paragraph": 6,
+          "anchor": "İkinci {ar:إِيَّاكَ, tr:iyyâke, gloss:yalnız senden} yardımın kimden istendiğini kesinleştirirken, yardımın hangi iş için istendiğini ayrıca belirten bir ifade yoktur; hemen yanındaki kulluk bu isteğe belirgin bir uygulama verir, fakat isteğin kapsamını tüketmez. Böylece kaynak bakımından özgülenmiş, yardımın konusu bakımından açık bir talep duyulur. Bu açıklık, âyetin kendi söz diziminden doğar; iki edimin bağlanması, desteğin mutlaka gerçekleşeceği güvencesini de vermez."
+        }
+      ]
+    },
+    {
+      "finding_ref": "micro:help-source-as-direct-object",
+      "landings": [
+        {
+          "movement_refs": [
+            "discovery:claim",
+            "discovery:mechanism",
+            "discovery:reader_payoff",
+            "discovery:containment",
+            "activation:0",
+            "activation:1"
+          ],
+          "paragraph": 5,
+          "anchor": "Sözlükteki “birinden yardım istemek” kuruluşunda, başkasının bir işi gerçekleştirmesine destek olan kişiye başvurulur; âyette ise bu yardım kaynağı, isteyenlerin karşısında doğrudan nesne olarak öne alınmış “sen”de belirginleşir ve yardım isteme eyleminden önce duyulur. Bu kuruluş, aynı yardım isteme anlamının muhatabı cümlenin başına alan anlatımıdır; farklılığı, başka bir sözlük anlamına geçişten değil, ilişkiye verilen belirginlikten gelir."
+        }
+      ]
+    },
+    {
+      "finding_ref": "micro:aid-paired-with-service",
+      "landings": [
+        {
+          "movement_refs": [
+            "discovery:claim",
+            "discovery:mechanism",
+            "discovery:reader_payoff",
+            "discovery:containment"
+          ],
+          "paragraph": 6,
+          "anchor": "Yardım talebi, aynı hitap içinde kulluk bildiriminin yanına yerleşerek onunla üstlenilen bağlılığın bir parçası olur. Konuşanların aradıkları desteğin sundukları hizmete böyle eşlik etmesi, yardımın başka amaçlarını da açık bırakır ve iki fiil arasındaki bağdan kesin bir gerçekleşme sonucu çıkarmaz."
+        }
+      ]
+    },
+    {
+      "finding_ref": "micro:help-sense-boundary",
+      "landings": [
+        {
+          "movement_refs": [
+            "discovery:claim",
+            "discovery:mechanism",
+            "discovery:reader_payoff",
+            "discovery:containment",
+            "activation:0",
+            "activation:1"
+          ],
+          "paragraph": 7,
+          "anchor": "Yardımın anlam sınırı, {ar:نَسْتَعِينُ, tr:nestaînü, gloss:yardım isteriz} ile {ar:إِيَّاكَ, tr:iyyâke, gloss:yalnız senden} birlikte okunduğunda netleşir: başkasının bir işi yapmasını sağlayan destek, burada öne alınmış muhataptan istenmektedir. Yardım ailesinin başkasından isteme ve karşılıklı yardımlaşma kullanımlarını ayıran şey, bu fiilin isteme kuruluşudur; “sen” de yardım için kime başvurulduğunu belirler, böylece geniş anlam ailesi içinde kelimenin bu cümlede yaptığı iş seçilir. Sözcük kullanımına ilişkin değerlendirme, bu belirli çekimi burada yoğunlaşmış bir kullanım olarak niteler; bu, sayısal bir seyrekliğin kanıtı olarak alınabilecek bir ölçüm değildir. Sözlüklerde aynı kök altında bulunan yaş, yinelenen savaş ve yer adı kullanımları kendi koşullarını taşır; buradaki fiil, önündeki kişiye yönelen yardım isteğini bildirir. Başkasına yardım verme veya karşılıklı yardımlaşmayı fiilin doğrudan karşılığı yapmak da bu yönü değiştirir; buna karşılık, kaynağı ve yerel ilişkisi ayrıca açıklanabilen bir benzetme, yardım isteme anlamına eşlik edebilir."
+        }
+      ]
+    },
+    {
+      "finding_ref": "micro:closing-vocalization",
+      "landings": [
+        {
+          "movement_refs": [
+            "discovery:claim",
+            "discovery:mechanism",
+            "discovery:reader_payoff",
+            "discovery:containment"
+          ],
+          "paragraph": 14,
+          "anchor": "{ar:نَسْتَعِينُ, tr:nestaînü, gloss:yardım isteriz} hakkında aktarılan ön ek ünlüsü ve uzatma farkları ise sözün sonunun nasıl duyulduğunu değiştirirken çoğul öznenin istif‘âl kalıbındaki yardım isteme yönünü korur; sesin değişmesiyle eylemin anlam yönünün sürmesi birlikte fark edilir. Bu ses gözlemi, belirli bir alternatif ünlüyü, uzatma miktarını veya okuyucu silsilesini belirleyecek ayrıntı taşımaz."
+        }
+      ]
+    },
+    {
+      "finding_ref": "micro:service-enabled-by-sought-support",
+      "landings": [
+        {
+          "movement_refs": [
+            "discovery:claim",
+            "discovery:mechanism",
+            "discovery:reader_payoff",
+            "discovery:containment",
+            "activation:0",
+            "activation:1"
+          ],
+          "paragraph": 8,
+          "anchor": "Bu birliktelik, {ar:نَعْبُدُ, tr:na'budu, gloss:kulluk ederiz} sözünün boyun eğen bağlılığı ile {ar:نَسْتَعِينُ, tr:nestaînü, gloss:yardım isteriz} sözünün bir işi yapabilmek için aranan desteğini birbirine yaklaştırır. Sözlüklerin ilkinde anlattığı sıradan itaati aşan teslimiyet, ikinci fiille karşılaşınca, desteğe ihtiyacını dile getirerek üstlenilen bir hizmet hâlinde duyulabilir; {ar:إِيَّاكَ, tr:iyyâke, gloss:yalnız sen} hitabının tekrarı da hem bağlılığı hem onun için aranan desteğin kaynağını aynı muhataba özgüler. Öte yandan yardım sözünün “başkasının işini yapmasına destek olma” anlamı, yanındaki kulluk fiilinde somut bir iş bulur: konuşanlar, söyledikleri bağlılığı sürdürebilmenin yardımını da yalnız bu muhataptan ister. Böyle bakıldığında, yan yana duran iki bildirim arasında yeni bir ilişki seçilir: kulluk taahhüdünün içine, onu yerine getirmek için desteğe duyulan ihtiyaç da girer. Bu, iki edimin birbirini açıklamasından doğan bir okumadır; yardımın konusu kullukla tükenmez, bağlaç yardımın verileceğini vaat etmez ve bağlılık bir bedel karşılığı sunulmaz."
+        }
+      ]
+    },
+    {
+      "finding_ref": "micro:dependent-agency",
+      "landings": [
+        {
+          "movement_refs": [
+            "discovery:claim",
+            "discovery:mechanism",
+            "discovery:reader_payoff",
+            "discovery:containment",
+            "activation:0"
+          ],
+          "paragraph": 9,
+          "anchor": "{ar:نَعْبُدُ, tr:na'budu, gloss:kulluk ederiz} sözünün anlam çevresinde daha keskin bir bağımlılık resmi de bulunur: Mekâyîs ve diğer sözlükler, {ar:العبد, tr:el-abd, gloss:özgür olmayan, sahip olunan kişi} kullanımını özgür kişinin karşıtı, başka birinin mülkiyetinde bulunan insan için kaydeder. Bu bir kişi adıdır; âyetteki fiil ise kulluk etme eylemini söyler. İkisi arasında kurulabilecek sınırlı benzetmeyi, ayrı bir fiil olan {ar:نَسْتَعِينُ, tr:nestaînü, gloss:yardım isteriz} ve önündeki {ar:إِيَّاكَ, tr:iyyâke, gloss:yalnız senden} belirginleştirir: destek için yalnız başkasına yönelen konuşanlar, kendi kendilerine yeterli bir egemenlik iddiasını bırakırken hem hizmet etmenin hem yardım istemenin etkin öznesi olarak kalır. Özgür olmayan kişinin kendisi üzerinde bağımsız tasarruftan yoksun oluşu, burada yalnız bu kendine yeterli olmama yönüyle kulluğa bir benzetme olarak eşlik eder; konuşanlar hakkında hukuki mülkiyet veya alınıp satılabilirlik ileri sürülmez. Bu benzetmeyle, alçalışın ardından dışarıdan bir müdahale beklemek diye duyulabilecek söz, bağlılık içinde iş gören ve desteği de kendisi isteyen insanların sözü olarak genişler. İş görme imkânı, yardım istemenin olağan anlamında, başka birinin desteğiyle eyleyebilme olarak kalır."
+        }
+      ]
+    },
+    {
+      "finding_ref": "micro:honoring-service",
+      "landings": [
+        {
+          "movement_refs": [
+            "discovery:claim",
+            "discovery:mechanism",
+            "discovery:reader_payoff",
+            "discovery:containment",
+            "activation:0",
+            "activation:1",
+            "activation:2"
+          ],
+          "paragraph": 10,
+          "anchor": "Kulluğun muhatap tarafında ne yaptığına bakınca başka bir yön belirir: {ar:نَعْبُدُ, tr:na'budu, gloss:kulluk ederiz} sözünün ailesinde Cemhere ve Tehzîb, {ar:المعبد, tr:el-muabbed, gloss:yüce tutulup hizmet edilen kişi} nitelemesini de kaydeder. Bu niteleme, hizmet edenin hareketini değil, saygı görüp yüce tutulan muhatabı anlatır; âyette {ar:إِيَّاكَ, tr:iyyâke, gloss:yalnız sana} hizmetin bu muhatabını öne çıkarınca, kullukta onun yüceliğini tanıma yönü de görünür olur. Sözlükte saygıdeğer konumun sonucu olarak kişiye hizmet edilmesi, burada yüce tutulan muhataba yönelen kulluğun saygıyı bir edimle göstermesini açıklar. Yanındaki {ar:نَسْتَعِينُ, tr:nestaînü, gloss:yardım isteriz} ise sözlükteki işi yapmaya destek olma anlamıyla bu saygı edimine dokunur: konuşanlar, muhatabın yüceliğini hizmetleriyle tanırken bu hizmeti sürdürecek desteği de arar. Böylece kendini alçaltan kulların duruşuyla birlikte, hizmet edilenin yüceliğinin tanınışı ve bu tanıyışın yardıma açık oluşu duyulur. Bu ilişki bir yorum imkânıdır: etkin kulluk fiili, sözlükteki hizmet gören kişi nitelemesine dönüşmez; yapılan iş muhatabın özündeki yüceliği artırmak değil, onu tanıyıp saygıyla karşılamaktır. Konuşanlar bu saygıyı etkin biçimde gösterir; yanındaki talep, gücü kendilerinden menkul saymadan yardım istediklerini bildirir, yardımın gerçekleştiğini değil."
+        }
+      ]
+    },
+    {
+      "finding_ref": "micro:watchful-care-aid",
+      "landings": [
+        {
+          "movement_refs": [
+            "discovery:claim",
+            "discovery:mechanism",
+            "discovery:reader_payoff",
+            "discovery:containment",
+            "activation:0",
+            "activation:1",
+            "activation:2"
+          ],
+          "paragraph": 12,
+          "anchor": "{ar:نَسْتَعِينُ, tr:nestaînü, gloss:yardım isteriz} için daha ihtiyatlı bir yorum, yardım talebini koruyucu dikkat altında bulunma resmiyle ilişkilendirir. Bu resmin sözlükteki kaynağı yardım fiilinin doğrudan açıklaması değil, göz önünde tutarak korumayı anlatan ayrı bir kullanımdır: Müfredât'taki {ar:فلان بعيني, tr:fulân bi-aynî, gloss:falanca korumam altında} sözü birini koruyup gözetmeyi, Sıhâh'taki benzer kullanım da göz önünde tutmayla birlikte özen göstermeyi anlatır. Yardım isteme sözüyle bu göz ve gözetme kullanımı arasında önerilen dolaylı bağ, fiilin alışılmış türeyişini değiştiren bir açıklama olarak değil, ona eşlik edebilecek bir yorum olarak ele alınabilir. Bu yorumun âyette temas ettiği ayrı söz, {ar:نَعْبُدُ, tr:na'budu, gloss:kulluk ederiz} olur: Cemhere ve Tehzîb'in aynı ailede {ar:المعبد, tr:el-muabbed, gloss:yüce tutulup hizmet edilen kişi} diye anlattığı, yüksek konumu dolayısıyla hizmet gören muhatap, {ar:إِيَّاكَ, tr:iyyâke, gloss:yalnız sen} hitabıyla belirlenen muhatabın saygıyla karşılanmasını görünür kılar; yardım isteğiyle birlikte okununca, ona yönelen bu saygı edimi koruyucu dikkatin içinde sürdürülebilecek bir hizmet olarak düşünülebilir. Burada birine yücelik tanıyarak yönelmek ile birini göz önünde tutup korumak, dikkatle gözetilen bir ilişki noktasında buluşur: saygı muhataba yönelir, koruyucu yardım ise hizmet edenler için istenir. Sözlükte yüksek tutulduğu için hizmet gören kişinin nitelemesi, bu ihtimalde somut bir edime bağlanır; yardım talebinin yanındaki etkin kulluk, koruyucu dikkatin çevreleyebileceği işi verir. Böylece yardım, eklenen bir güç veya araya giren bir müdahale olarak düşünüldüğü kadar, kulluk eden topluluğu göz önünde tutan, koruyup kollayan bir ilgi olarak da hayal edilebilir. Bu ihtimal, yardım istemenin anlamına eşlik eder; fiilin doğrudan karşılığı koruyucu bakış olmaz ve beden organı, gizli gözetleme yahut zarar veren bakış tasviri kurulmaz. Hizmet edilenin nitelemesi etkin fiilin yerini almaz; hizmet ile koruma yönleri de karşılıklı bir yükümlülüğe veya korunmanın kesin güvencesine dönüştürülmez."
+        }
+      ]
+    },
+    {
+      "finding_ref": "micro:plural-speakers-singular-addressee",
+      "landings": [
+        {
+          "movement_refs": [
+            "discovery:claim",
+            "discovery:mechanism",
+            "discovery:reader_payoff",
+            "discovery:containment"
+          ],
+          "paragraph": 2,
+          "anchor": "Ardından gelen {ar:نَسْتَعِينُ, tr:nestaînü, gloss:yardım isteriz} aynı çoğul özneyi korur; iki yerdeki {ar:إِيَّاكَ, tr:iyyâke, gloss:yalnız sen} ise tekil muhataba yönelir, böylece aynı “biz” bir “sen”e hem hizmetini hem ihtiyacını söyler. Yardım isteği de ortak sesle dile gelir; kullukta birlikte konuşanlar, ihtiyaçlarını söylerken bu beraberliği sürdürür. Buradaki çoğulluk sözün sesidir: tek başına okuyan biri de bu “biz”i söyleyebilir; biçim, belirli bir topluluğun üye sayısını, kurumunu veya bütün üyelerinin iç dünyasını belirlemez."
+        }
+      ]
+    },
+    {
+      "finding_ref": "micro:service-and-belonging",
+      "landings": [
+        {
+          "movement_refs": [
+            "discovery:claim",
+            "discovery:mechanism",
+            "discovery:reader_payoff",
+            "discovery:containment",
+            "activation:0",
+            "activation:1"
+          ],
+          "paragraph": 11,
+          "anchor": "{ar:نَعْبُدُ, tr:na'budu, gloss:kulluk ederiz} sözünün ailesinde kulluk etme eylemiyle ait olma konumu da yan yana durur: sözlükler, insanın özgür veya köle oluşundan bağımsız olarak yaratılmışlığı bakımından Tanrı'nın kulu sayılmasını, çoğul adlandırmalarda da ona bağlı topluluğu anlatır. Bunlar kişi ve topluluk adlandırmalarıdır; âyet ise bir işi yapanların fiilini söyler. Ayrı bir eylem bildiren {ar:نَسْتَعِينُ, tr:nestaînü, gloss:yardım isteriz} aynı “biz”le, {ar:إِيَّاكَ, tr:iyyâke, gloss:yalnız senden} üzerinden aynı muhataba yönelince, kulluk etme ile yardım için ona dayanma arasında süreklilik kurulur; bu ilişki, hizmetin kabul edilen bir aitliği dışa vurması olarak da anlaşılmasına imkân verir. Sözlüğün yaratılmışlığa dayandırdığı aitlik, böylece bu konuşanların hizmetine eşlik edebilen bir arka plan olur; bu âyetten tek başına bütün insanlar hakkında yeni bir hüküm çıkarılmış olmaz. Çoğul topluluk kullanımı da yardım isteyen “biz”in kulluk eden “biz”le aynı kalmasında karşılık bulur: ortak bağımlılık, hizmetin paylaşılan bir bağlılığı dile getirmesi ihtimalini açar. Bu okumada birlikte söylenen söz, hem yapılan bir işi hem içinde durulan bir ilişkiyi duyurur. Fiildeki çoğul özne bir topluluk adına çevrilmez; belirli bir kurum, üyelik ölçütü veya dışarıda bırakılan insanlar tanımlanmaz ve bu aitlik hukuki kölelikle özdeşleşmez."
         }
       ]
     }

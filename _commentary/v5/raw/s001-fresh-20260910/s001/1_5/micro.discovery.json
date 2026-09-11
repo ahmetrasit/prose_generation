@@ -6,9 +6,11 @@
   "candidate_decisions": [
     {
       "candidate_id": "cand_8b7e289b140b434dad48",
-      "decision": "accept",
-      "reason": "Supplied word-analysis evidence grounds the boundary-crossing move from preceding third-person praise to direct second-person address through the first fronted pronoun.",
-      "finding_refs": ["micro:address-pivot"],
+      "decision": "narrow",
+      "reason": "The second-person object directly addresses the one served; the prior-praise transition is reported in the support but requires an absent non-focus surface and is excluded from this micro finding.",
+      "finding_refs": [
+        "micro:direct-address"
+      ],
       "branch_exclusions": [],
       "facet_exclusions": [],
       "context_exclusions": [],
@@ -17,8 +19,10 @@
     {
       "candidate_id": "cand_f1331538ba99603f3067",
       "decision": "accept",
-      "reason": "The first detached object pronoun is explicitly fronted before the service verb, so the restriction is a grammatical relation rather than an inferred lexical branch.",
-      "finding_refs": ["micro:fronted-service-restriction"],
+      "reason": "The supplied attachment and fronting evidence support the complete local restriction claim.",
+      "finding_refs": [
+        "micro:exclusive-service"
+      ],
       "branch_exclusions": [],
       "facet_exclusions": [],
       "context_exclusions": [],
@@ -27,8 +31,10 @@
     {
       "candidate_id": "cand_33931ce563559a4a1681",
       "decision": "accept",
-      "reason": "The rootless detached pronoun is repeated across the two coordinated clauses and supplies an independent grammatical echo.",
-      "finding_refs": ["micro:pronoun-echo"],
+      "reason": "Both rootless pronoun occurrences supply the same repeated grammatical frame around distinct verbs.",
+      "finding_refs": [
+        "micro:grammatical-refrain"
+      ],
       "branch_exclusions": [],
       "facet_exclusions": [],
       "context_exclusions": [],
@@ -36,9 +42,11 @@
     },
     {
       "candidate_id": "cand_695098c8d25aec6247dc",
-      "decision": "narrow",
-      "reason": "Variant evidence is retained as contrastive pressure on detached-object segmentation; the bounded finding keeps the supplied local object-before-verb parse and omits no attached branch, facet, context, or obligation.",
-      "finding_refs": ["micro:segmentation-pressure"],
+      "decision": "accept",
+      "reason": "The summary explicitly preserves segmentation and sound pressure while the resolved local join fixes the detached-object parse.",
+      "finding_refs": [
+        "micro:first-pronoun-segmentation"
+      ],
       "branch_exclusions": [],
       "facet_exclusions": [],
       "context_exclusions": [],
@@ -47,8 +55,10 @@
     {
       "candidate_id": "cand_a05aa14a8e07f02bfd7e",
       "decision": "accept",
-      "reason": "The supplied construction explicitly orders the simple Form I service verb before the derived Form X aid-seeking verb.",
-      "finding_refs": ["micro:form-sequence"],
+      "reason": "The complete candidate is the locally attested order of Form I service and Form X seeking with shared plural imperfect agreement.",
+      "finding_refs": [
+        "micro:service-then-seeking"
+      ],
       "branch_exclusions": [],
       "facet_exclusions": [],
       "context_exclusions": [],
@@ -57,8 +67,10 @@
     {
       "candidate_id": "cand_9d5172063bf7d3b891c0",
       "decision": "accept",
-      "reason": "The aligned first-person plural imperfect makes service an ongoing collective act rather than a completed report.",
-      "finding_refs": ["micro:ongoing-service"],
+      "reason": "First-person plural imperfect morphology and the word-topic summary support a collective, renewable declaration.",
+      "finding_refs": [
+        "micro:renewable-service"
+      ],
       "branch_exclusions": [],
       "facet_exclusions": [],
       "context_exclusions": [],
@@ -67,8 +79,10 @@
     {
       "candidate_id": "cand_b68f421d6c04faedf67b",
       "decision": "accept",
-      "reason": "Trusted word analysis retains the bounded service-and-submission pressure of the local root range while explicitly excluding unrelated remote branches.",
-      "finding_refs": ["micro:submissive-service"],
+      "reason": "The worship branch and the exclusive object substantiate service, submission, and devotional orientation without activating the entire root.",
+      "finding_refs": [
+        "micro:submissive-worship"
+      ],
       "branch_exclusions": [],
       "facet_exclusions": [],
       "context_exclusions": [],
@@ -76,9 +90,11 @@
     },
     {
       "candidate_id": "cand_a18e892b823fcee589ce",
-      "decision": "narrow",
-      "reason": "Variant voice and mood are retained only as contrastive evidence for the active first-person plural reading; no alternate voice or mood is admitted as a second local reading.",
-      "finding_refs": ["micro:voice-mood-contrast"],
+      "decision": "accept",
+      "reason": "The provided variant summary explicitly contrasts voice and mood while maintaining the aligned active plural imperfect.",
+      "finding_refs": [
+        "micro:active-voice-and-mood"
+      ],
       "branch_exclusions": [],
       "facet_exclusions": [],
       "context_exclusions": [],
@@ -87,18 +103,43 @@
     {
       "candidate_id": "cand_35619f79e8d5f9ca2f7b",
       "decision": "narrow",
-      "reason": "The recurrence evidence is kept as a localized worship relation-field under the You-alone frame; its other scenes are not imported into this ayah.",
-      "finding_refs": ["micro:worship-field-localization"],
+      "reason": "The local affirmative avowal and exclusive addressee survive; the broader recurrence and contrastive declarations depend on absent external surfaces.",
+      "finding_refs": [
+        "micro:positive-exclusive-avowal"
+      ],
       "branch_exclusions": [],
       "facet_exclusions": [],
-      "context_exclusions": [],
+      "context_exclusions": [
+        {
+          "context_ref": "98:5",
+          "reason": "The source summary cites this context, but no selected context surface or occurrence is supplied in this micro packet; its recurrence or forward-discourse contribution is excluded."
+        },
+        {
+          "context_ref": "109:2",
+          "reason": "The source summary cites this context, but no selected context surface or occurrence is supplied in this micro packet; its recurrence or forward-discourse contribution is excluded."
+        },
+        {
+          "context_ref": "109:3",
+          "reason": "The source summary cites this context, but no selected context surface or occurrence is supplied in this micro packet; its recurrence or forward-discourse contribution is excluded."
+        },
+        {
+          "context_ref": "109:4",
+          "reason": "The source summary cites this context, but no selected context surface or occurrence is supplied in this micro packet; its recurrence or forward-discourse contribution is excluded."
+        },
+        {
+          "context_ref": "109:5",
+          "reason": "The source summary cites this context, but no selected context surface or occurrence is supplied in this micro packet; its recurrence or forward-discourse contribution is excluded."
+        }
+      ],
       "semantic_obligation_exclusions": []
     },
     {
       "candidate_id": "cand_78715c7e998b29f32b62",
       "decision": "accept",
-      "reason": "The connective joins two complete fronted-object verbal clauses, preserving service and aid-seeking as coordinated acts.",
-      "finding_refs": ["micro:two-clause-coordination"],
+      "reason": "The conjunction and repeated object support coordination of two complete restricted clauses.",
+      "finding_refs": [
+        "micro:two-full-clauses"
+      ],
       "branch_exclusions": [],
       "facet_exclusions": [],
       "context_exclusions": [],
@@ -107,8 +148,10 @@
     {
       "candidate_id": "cand_ef767fbd959482d68eef",
       "decision": "accept",
-      "reason": "The particle permits the second clause to restart with a fresh restricted object, producing a real pivot from service rendered to aid requested.",
-      "finding_refs": ["micro:resumptive-pivot"],
+      "reason": "The word evidence licenses both connection and fresh resumption, grounded in the repeated object following the conjunction.",
+      "finding_refs": [
+        "micro:resumptive-hinge"
+      ],
       "branch_exclusions": [],
       "facet_exclusions": [],
       "context_exclusions": [],
@@ -116,9 +159,11 @@
     },
     {
       "candidate_id": "cand_7c9f5ea48a5eac83412f",
-      "decision": "narrow",
-      "reason": "Variant fusion is retained as sound and segmentation pressure at the connective-pronoun boundary, while the aligned coordination and repeated-object parse remains fixed.",
-      "finding_refs": ["micro:surface-join"],
+      "decision": "accept",
+      "reason": "The source reports variant pressure at the connective/pronoun boundary, and the bridge resolves these as separate morphemes in one QAC word.",
+      "finding_refs": [
+        "micro:connective-surface-join"
+      ],
       "branch_exclusions": [],
       "facet_exclusions": [],
       "context_exclusions": [],
@@ -127,8 +172,10 @@
     {
       "candidate_id": "cand_5628c45ec85350235cdd",
       "decision": "accept",
-      "reason": "The second fronted pronoun independently restricts the aid-seeking clause instead of inheriting the first clause's restriction by ellipsis.",
-      "finding_refs": ["micro:second-restriction"],
+      "reason": "The second pronoun has its own governor and repeats the fronted-object restriction.",
+      "finding_refs": [
+        "micro:renewed-help-restriction"
+      ],
       "branch_exclusions": [],
       "facet_exclusions": [],
       "context_exclusions": [],
@@ -137,8 +184,10 @@
     {
       "candidate_id": "cand_7573923f53066ca88bc8",
       "decision": "accept",
-      "reason": "The same second-person addressee is explicitly named again under a new governing verb, so the second clause does not rely on silent reference.",
-      "finding_refs": ["micro:reidentified-addressee"],
+      "reason": "The coreference and parallelism summary supplies a distinct referential claim beyond the presence of exclusivity.",
+      "finding_refs": [
+        "micro:same-addressee-new-act"
+      ],
       "branch_exclusions": [],
       "facet_exclusions": [],
       "context_exclusions": [],
@@ -147,8 +196,10 @@
     {
       "candidate_id": "cand_845d4ed231917d903848",
       "decision": "represented",
-      "reason": "This is an exact semantic duplicate of the accepted rootless-pronoun echo: both identify the repeated rootless detached object form as the binding mechanism for the two verbal acts.",
-      "finding_refs": ["micro:pronoun-echo"],
+      "reason": "The second-slot topic makes exactly the same whole-ayah claim as rootless-refrain: repetition of the detached rootless object form binds the two different verbal acts. Both occurrences and all topic supports are carried by the named finding.",
+      "finding_refs": [
+        "micro:grammatical-refrain"
+      ],
       "branch_exclusions": [],
       "facet_exclusions": [],
       "context_exclusions": [],
@@ -156,9 +207,11 @@
     },
     {
       "candidate_id": "cand_89c8f507254037d02afe",
-      "decision": "narrow",
-      "reason": "Variant pressure is retained only around the second pronoun slot; the local repeated fronted-object function remains the bounded reading.",
-      "finding_refs": ["micro:second-pronoun-slot"],
+      "decision": "accept",
+      "reason": "The supplied summary locates its variant pressure specifically at the renewed object slot.",
+      "finding_refs": [
+        "micro:second-pronoun-variants"
+      ],
       "branch_exclusions": [],
       "facet_exclusions": [],
       "context_exclusions": [],
@@ -167,8 +220,10 @@
     {
       "candidate_id": "cand_b9d93fb23a0069236b25",
       "decision": "accept",
-      "reason": "The Form X imperfect is aligned as active first-person plural seeking of aid, not passive receipt of help.",
-      "finding_refs": ["micro:form-x-help"],
+      "reason": "Form X imperfect plural morphology and the lexical seeking construction support the whole topic.",
+      "finding_refs": [
+        "micro:actively-seeking-help"
+      ],
       "branch_exclusions": [],
       "facet_exclusions": [],
       "context_exclusions": [],
@@ -176,19 +231,32 @@
     },
     {
       "candidate_id": "cand_cfb52e93f1f2be3fc96f",
-      "decision": "accept",
-      "reason": "The open aid request has a supplied forward discourse relation to guidance in 1:6 and the path distinctions in 1:7, without requiring a surah-wide thesis.",
-      "finding_refs": ["micro:forward-guidance"],
+      "decision": "narrow",
+      "reason": "The unspecified purpose of help is visible locally; the proposed next-ayah guidance and subsequent path discrimination require absent macro surfaces.",
+      "finding_refs": [
+        "micro:open-help-request"
+      ],
       "branch_exclusions": [],
       "facet_exclusions": [],
-      "context_exclusions": [],
+      "context_exclusions": [
+        {
+          "context_ref": "1:6",
+          "reason": "The source summary cites this context, but no selected context surface or occurrence is supplied in this micro packet; its recurrence or forward-discourse contribution is excluded."
+        },
+        {
+          "context_ref": "1:7",
+          "reason": "The source summary cites this context, but no selected context surface or occurrence is supplied in this micro packet; its recurrence or forward-discourse contribution is excluded."
+        }
+      ],
       "semantic_obligation_exclusions": []
     },
     {
       "candidate_id": "cand_566eefe2070a363286f8",
-      "decision": "narrow",
-      "reason": "The marked fronted-object relation is retained as compression of the aid-source relation; it is not promoted into a separate lexical branch or alternate parse.",
-      "finding_refs": ["micro:marked-help-object"],
+      "decision": "accept",
+      "reason": "The attachment summary and the branch's supplied help-from construction support the marked local direct-object frame.",
+      "finding_refs": [
+        "micro:help-source-as-direct-object"
+      ],
       "branch_exclusions": [],
       "facet_exclusions": [],
       "context_exclusions": [],
@@ -197,8 +265,10 @@
     {
       "candidate_id": "cand_a4baa4f7a8efb832fb3a",
       "decision": "accept",
-      "reason": "The attachment evidence makes aid-seeking the paired counterpart of the service declaration, not a detached second pious verb.",
-      "finding_refs": ["micro:service-help-pair"],
+      "reason": "The conjunction and word-topic evidence establish the complete local semantic pairing.",
+      "finding_refs": [
+        "micro:aid-paired-with-service"
+      ],
       "branch_exclusions": [],
       "facet_exclusions": [],
       "context_exclusions": [],
@@ -206,19 +276,30 @@
     },
     {
       "candidate_id": "cand_74c28700c71cc62264f8",
-      "decision": "narrow",
-      "reason": "The supplied recurrence is retained as a patience-linked echo of aid-seeking, while patience is explicitly not made an object or explicit content of 1:5.",
-      "finding_refs": ["micro:patience-echo"],
+      "decision": "reject",
+      "reason": "The complete distinctive claim is an aid-and-patience recurrence at 2:45 and 2:153. Neither context surface is supplied, and patience has no local carrier. Both recurrence contacts and their reader payoff are excluded from micro; the source's boundary that patience is not explicit here is retained in this decision.",
+      "finding_refs": [],
       "branch_exclusions": [],
       "facet_exclusions": [],
-      "context_exclusions": [],
+      "context_exclusions": [
+        {
+          "context_ref": "2:45",
+          "reason": "The cited patience-and-aid context has no supplied surface or occurrence and cannot trigger a focus-local reading."
+        },
+        {
+          "context_ref": "2:153",
+          "reason": "The cited patience-and-aid context has no supplied surface or occurrence and cannot trigger a focus-local reading."
+        }
+      ],
       "semantic_obligation_exclusions": []
     },
     {
       "candidate_id": "cand_74e4d9ceeff050130f4c",
-      "decision": "narrow",
-      "reason": "The local Form X construction selects help-seeking within the supplied root range; unrelated age, repeated-war, place-name, giving-aid, and mutual-cooperation senses remain outside the claim.",
-      "finding_refs": ["micro:help-branch"],
+      "decision": "accept",
+      "reason": "The source separates the surface help-seeking sense from other root uses and reports the local form's concentrated profile.",
+      "finding_refs": [
+        "micro:help-sense-boundary"
+      ],
       "branch_exclusions": [],
       "facet_exclusions": [],
       "context_exclusions": [],
@@ -226,9 +307,11 @@
     },
     {
       "candidate_id": "cand_0e5d7964935c0202a39e",
-      "decision": "narrow",
-      "reason": "Prefix-vowel and lengthening variants are retained for their effect on the closing sound, while the aligned Form X aid-seeking sense is unchanged.",
-      "finding_refs": ["micro:aid-vocalization"],
+      "decision": "accept",
+      "reason": "The support reports prefix-vowel and lengthening pressure while preserving the Form X plural seeking sense.",
+      "finding_refs": [
+        "micro:closing-vocalization"
+      ],
       "branch_exclusions": [],
       "facet_exclusions": [],
       "context_exclusions": [],
@@ -237,7 +320,7 @@
     {
       "candidate_id": "cand_bfd3d68cd3d0eb52f2ff",
       "decision": "reject",
-      "reason": "This candidate is a QAC root-occurrence ledger record, not an independent semantic contribution; its provenance remains available through the cited occurrence support and no reader-facing obligation is attached.",
+      "reason": "This ledger-only entry validates the worship root occurrence at QAC 1:5:2:1. It nominates no independent semantic change and therefore does not become a standalone finding. Its occurrence evidence is retained as support for the worship findings; no branch or semantic-obligation IDs are attached.",
       "finding_refs": [],
       "branch_exclusions": [],
       "facet_exclusions": [],
@@ -247,7 +330,7 @@
     {
       "candidate_id": "cand_b7e85043d8efaf24da97",
       "decision": "reject",
-      "reason": "This candidate is a QAC root-occurrence ledger record, not an independent semantic contribution; its provenance remains available through the cited occurrence support and no reader-facing obligation is attached.",
+      "reason": "This ledger-only entry validates the help root occurrence at QAC 1:5:4:1, corresponding to analysis 1:5:5. Root IDs normalize the ordinary and split mappings without activating them. The occurrence supports the aid findings; there is no independent semantic claim to publish and no attached branch or obligation ID.",
       "finding_refs": [],
       "branch_exclusions": [],
       "facet_exclusions": [],
@@ -257,8 +340,10 @@
     {
       "candidate_id": "cand_e8c827d8f3e5a9d6d8a0",
       "decision": "accept",
-      "reason": "The legacy-unbound trace names the focus ayah, exact service and aid word indices, supplied roots, attributed roles, and a repeated-pronoun focus return; it survives as attributed evidence without lexical promotion.",
-      "finding_refs": ["micro:hft-exclusive-service-support"],
+      "reason": "The legacy_unbound HFT nomination has independently supplied focus morphology and lexical branches. The enabling relation is a bounded inference from the paired acts, not a causal entailment of the conjunction.",
+      "finding_refs": [
+        "micro:service-enabled-by-sought-support"
+      ],
       "branch_exclusions": [],
       "facet_exclusions": [],
       "context_exclusions": [],
@@ -266,10 +351,17 @@
     },
     {
       "candidate_id": "cand_dd77e4cddc8666350a84",
-      "decision": "accept",
-      "reason": "The legacy-unbound trace agrees with the supplied focus coordinates and roots and returns through the fronted-object relation, so its dependent-agency reading survives in attributed mode.",
-      "finding_refs": ["micro:hft-dependent-agency"],
-      "branch_exclusions": [],
+      "decision": "narrow",
+      "reason": "Retain the owned-status analogy and active dependent agency, including the shift from abasement plus intervention to speakers who themselves serve and seek support. Exclude B005's caught-up-strength role: its supplied meaning requires bodily age-and-strength maturation in specified constructions. Neither active service nor requesting help independently supplies age, maturation, or a power-to-age relation. Replacing the source's age coordinate with an undertaken task invents the crucial contact, so the nominated completion-by-maturation mechanism fails beyond the retained core.",
+      "finding_refs": [
+        "micro:dependent-agency"
+      ],
+      "branch_exclusions": [
+        {
+          "branch_ref": "root_001064/B005",
+          "reason": "The exact branch is construction-bound bodily maturation, with woman's age/body conditions and an animal's strength catching up with age. The focus supplies active worship and help-seeking but no independent aging, bodily-development, or strength-to-age trigger. Exclude the HFT role that caught-up strength completes dependent agency, and the corresponding maturation-derived component of its after-reading; ordinary sought capacity remains supported by the help verb. The failure is missing semantic contact, not surprising imagery, legacy provenance, or morphological difference by itself."
+        }
+      ],
       "facet_exclusions": [],
       "context_exclusions": [],
       "semantic_obligation_exclusions": []
@@ -277,8 +369,10 @@
     {
       "candidate_id": "cand_c24a239caf9fa01f4908",
       "decision": "accept",
-      "reason": "The legacy-unbound trace names matching focus word indices and roots for honoring service and help, with the exclusive object frame as its contact; it survives as attributed evidence.",
-      "finding_refs": ["micro:hft-honoring-service"],
+      "reason": "The legacy_unbound HFT has a supplied bare recipient-description branch whose service relation explicitly contacts the active verb and fronted object. The local aid verb independently grounds the requested sustaining support.",
+      "finding_refs": [
+        "micro:honoring-service"
+      ],
       "branch_exclusions": [],
       "facet_exclusions": [],
       "context_exclusions": [],
@@ -287,8 +381,10 @@
     {
       "candidate_id": "cand_892164f326ea04190150",
       "decision": "accept",
-      "reason": "The exploratory legacy-unbound trace supplies the focus coordinate, mapped root, attributed watchful-care role, and contact through service; it is retained in attributed exploratory mode with its stated mapping boundary.",
-      "finding_refs": ["micro:hft-watchful-care"],
+      "reason": "The trace is legacy_unbound, but its word indices agree with the supplied QAC words and its split-root mapping is explicitly present. The protective-watchfulness branch is independently supplied. Its local application remains attributed because morphology alone does not establish the eye-root resonance.",
+      "finding_refs": [
+        "micro:watchful-care-aid"
+      ],
       "branch_exclusions": [],
       "facet_exclusions": [],
       "context_exclusions": [],
@@ -297,490 +393,222 @@
   ],
   "findings": [
     {
-      "finding_ref": "micro:address-pivot",
+      "finding_ref": "micro:direct-address",
       "origin_candidate_id": "cand_8b7e289b140b434dad48",
       "represented_candidate_ids": [],
-      "title": "Övgüden doğrudan hitaba geçiş",
-      "claim": "1:5, önceki övgüde hakkında konuşulan ilahî muhatabı doğrudan seslenilen muhataba dönüştürür.",
-      "mechanism": "İlk öne alınmış ikinci tekil nesne zamiri, önceki üçüncü kişi anlatımından ayrılıp aynı muhataba yönelir; böylece ayet açıklamadan hitaba geçer.",
-      "reader_payoff": "Okur ayetin yalnızca bilgi vermediğini, konuşanın muhatabın karşısında söz aldığını görür.",
-      "containment": "Bu bulgu önceki övgünün muhatabını değiştirmez; yalnızca bu ayette söyleyişin doğrudan hitaba döndüğünü söyler.",
+      "title": "direct address",
+      "claim": "The speakers address the recipient of worship as You, placing their declaration in a speaking-to relation.",
+      "mechanism": "The second-person singular object at 1:5:1:1 meets the first-person plural verb at 1:5:2:1: the subject speaks to the person it serves, so the sentence enacts address as it declares worship.",
+      "reader_payoff": "Worship is spoken to its recipient, making the declaration itself relational.",
+      "containment": "Retain direct address. Omit the candidate's historical shift from preceding third-person praise and identification across that praise sequence; those require macro context, absent here.",
       "epistemic": {
         "status": "grounded",
-        "source_trust": ["trusted"],
-        "reason": "Adres değişimi ve birinci zamirin işlevi doğrudan yerel word-analysis destekleriyle kurulmuştur."
+        "source_trust": [
+          "trusted"
+        ],
+        "reason": "The local surface and resolved morphology agree with the supplied semantic and attachment evidence."
       },
-      "support_ids": ["sup_9e3e734cc223ea2203c9", "sup_a5d2db62cadf5c0a3c1b"],
+      "support_ids": [
+        "sup_9e3e734cc223ea2203c9",
+        "sup_a5d2db62cadf5c0a3c1b"
+      ],
       "branch_activations": [],
       "connection_refs": [],
       "context_refs": [],
       "semantic_obligation_refs": []
     },
     {
-      "finding_ref": "micro:fronted-service-restriction",
+      "finding_ref": "micro:exclusive-service",
       "origin_candidate_id": "cand_f1331538ba99603f3067",
       "represented_candidate_ids": [],
-      "title": "Öne alınmış nesneyle hizmetin sınırlandırılması",
-      "claim": "Hizmetin yöneldiği kişi eylemden önce öne alınarak hizmetin yalnız ona ait olduğu kurulur.",
-      "mechanism": "Özne-fiil düzeninden önce gelen iyyāka, naʿbudu fiilinin açık nesnesi olarak nesneyi eylemden önce sınırlar; düz çeviri bu sözdizimsel baskıyı silebilir.",
-      "reader_payoff": "Okur yalnızlık vurgusunun yalnızca çeviri sözcüğü değil, cümlenin kuruluşu tarafından taşındığını fark eder.",
-      "containment": "Bu, zamirin kök anlamı olduğunu veya başka bir ikinci anlamı etkinleştirdiğini söylemez; bulgu öne alma ve nesne ilişkisiyle sınırlıdır.",
+      "title": "exclusive service",
+      "claim": "The first You precedes the service verb and restricts whom the speakers worship.",
+      "mechanism": "The detached object at 1:5:1:1 stands before 1:5:2:1; this marked placement makes the recipient exclusive before the action is named.",
+      "reader_payoff": "You alone is carried by the arrangement of the clause.",
+      "containment": "The pronoun is rootless. Accusative objecthood does not imply that worship physically acts on or changes the addressee.",
       "epistemic": {
         "status": "grounded",
-        "source_trust": ["trusted"],
-        "reason": "Fronted-object attachment and its reader effect are supplied as used local evidence."
+        "source_trust": [
+          "trusted"
+        ],
+        "reason": "The local surface and resolved morphology agree with the supplied semantic and attachment evidence."
       },
-      "support_ids": ["sup_845933c4327c7c4d928c", "sup_a5d2db62cadf5c0a3c1b"],
+      "support_ids": [
+        "sup_845933c4327c7c4d928c",
+        "sup_a5d2db62cadf5c0a3c1b"
+      ],
       "branch_activations": [],
       "connection_refs": [],
       "context_refs": [],
       "semantic_obligation_refs": []
     },
     {
-      "finding_ref": "micro:pronoun-echo",
+      "finding_ref": "micro:grammatical-refrain",
       "origin_candidate_id": "cand_33931ce563559a4a1681",
-      "represented_candidate_ids": ["cand_845d4ed231917d903848"],
-      "title": "Yankı birimi olarak köksüz zamir",
-      "claim": "İki yarının yankı birimi kök değil, iki fiili aynı öne alınmış nesne çerçevesine sokan köksüz zamir biçimidir.",
-      "mechanism": "Aynı detached object-pronoun formu iki ayrı QAC konumunda tekrarlanır; bu tekrar naʿbudu ile nastaʿīnu fiillerini tek fiile indirmeden birbirine bağlar.",
-      "reader_payoff": "Okur tekrarın sözlük kökünde değil, iki eylemi aynı hitap çerçevesine alan gramerde çalıştığını görür.",
-      "containment": "Bu bulgu iki fiilin aynı eylem olduğunu veya ikinci fiilin ilkine eklenti olarak eridiğini söylemez; iki ayrı eylem canlı kalır.",
+      "represented_candidate_ids": [
+        "cand_845d4ed231917d903848"
+      ],
+      "title": "grammatical refrain",
+      "claim": "The ayah repeats a grammatical address-frame across service and aid-seeking.",
+      "mechanism": "The matching detached pronouns at 1:5:1:1 and 1:5:3:2 head clauses with different lexical roots; the repeated form makes their common recipient audible while preserving the two acts.",
+      "reader_payoff": "A shared You binds the two halves without needing a repeated lexical root.",
+      "containment": "The refrain is local to these two clauses; no recurring surah channel is established.",
       "epistemic": {
         "status": "grounded",
-        "source_trust": ["trusted"],
-        "reason": "Her iki supplied word-analysis record aynı rootless detached-pronoun tekrarını bağımsız biçimde destekler."
+        "source_trust": [
+          "trusted"
+        ],
+        "reason": "The local surface and resolved morphology agree with the supplied semantic and attachment evidence."
       },
-      "support_ids": ["sup_6b501c46088e551fc745", "sup_a5d2db62cadf5c0a3c1b", "sup_1f043bb6a4fe11aaa20e"],
+      "support_ids": [
+        "sup_1f043bb6a4fe11aaa20e",
+        "sup_6b501c46088e551fc745",
+        "sup_a5d2db62cadf5c0a3c1b",
+        "sup_a871c53525052aba59dd"
+      ],
       "branch_activations": [],
       "connection_refs": [],
       "context_refs": [],
       "semantic_obligation_refs": []
     },
     {
-      "finding_ref": "micro:segmentation-pressure",
+      "finding_ref": "micro:first-pronoun-segmentation",
       "origin_candidate_id": "cand_695098c8d25aec6247dc",
       "represented_candidate_ids": [],
-      "title": "Ayrımlanma baskısının görünür kıldığı standart biçim",
-      "claim": "Varyant baskısı, standart okumanın ayrılmış ve öne alınmış nesne biçimine ne kadar bağlı olduğunu gösterirken yerel okuma nesnenin fiilden önce gelmesini korur.",
-      "mechanism": "Varyant ve gramer tartışmaları ilk zamirin ses ve ayrımlanma sınırını görünür kılar; packet-aligned parse ise onu fiilden önceki detached object olarak tutar.",
-      "reader_payoff": "Okur standart biçimin rastgele bir düzleştirme olmadığını, cümlenin nesne-önce kuruluşunu koruduğunu fark eder.",
-      "containment": "Alternatif ayrımlamalar karşılaştırmalı baskı olarak kalır; başka bir parse veya başka bir anlam bu ayete seçilmiş olarak eklenmez.",
+      "title": "first pronoun segmentation",
+      "claim": "The first pronoun's reported segmentation alternatives make its detached, fronted object architecture perceptible.",
+      "mechanism": "The supplied variant summary is contrasted with the aligned object before the service verb: changing the pronoun's sound or analysis would alter how the address is heard, while the supplied local form keeps the recipient separate and first.",
+      "reader_payoff": "The pronoun's independent shape does grammatical work.",
+      "containment": "Retain the report as contrastive evidence only; exact variant forms, reciters, and debate arguments are not supplied and must not be invented.",
       "epistemic": {
         "status": "qualified",
-        "source_trust": ["trusted"],
-        "reason": "Varyant desteği kullanılmış olsa da kaynak onu yerel parseyi değiştirmeyen contrastive evidence olarak sınırlar."
+        "source_trust": [
+          "trusted"
+        ],
+        "reason": "The bounded claim uses the supplied word-analysis summary; the local alignment confirms its carrier, but detailed source rows or alternatives are not separately supplied."
       },
-      "support_ids": ["sup_a5d2db62cadf5c0a3c1b", "sup_ca993d4391a1b2c31232"],
+      "support_ids": [
+        "sup_a5d2db62cadf5c0a3c1b",
+        "sup_ca993d4391a1b2c31232"
+      ],
       "branch_activations": [],
       "connection_refs": [],
       "context_refs": [],
       "semantic_obligation_refs": []
     },
     {
-      "finding_ref": "micro:form-sequence",
+      "finding_ref": "micro:service-then-seeking",
       "origin_candidate_id": "cand_a05aa14a8e07f02bfd7e",
       "represented_candidate_ids": [],
-      "title": "Basit hizmetten türemiş yardım arayışına sıra",
-      "claim": "Ayet önce yalın Form I hizmeti söyler, ardından aynı konuşan topluluğun daha ağır Form X yardım arayışını getirir.",
-      "mechanism": "Naʿbudu ile nastaʿīnu aynı birinci çoğul imperfect çerçevesinde bağlanır, fakat ilk fiil Form I, ikincisi Form X olarak farklı bir fiil kuruluşu taşır.",
-      "reader_payoff": "Okur ayetin önce yapılan hizmeti, sonra o hizmetin içinde istenen desteği sıraladığını görür.",
-      "containment": "Fiil biçimi tek başına teolojik sonuç üretmez; bulgu yalnızca iki yerel fiilin sırası ve biçimsel karşıtlığıyla sınırlıdır.",
+      "title": "service then seeking",
+      "claim": "The compact service verb comes first and the more elaborated aid-seeking verb follows, carrying the same speakers from what they render to what they seek.",
+      "mechanism": "The Form I carrier 1:5:2:1 meets the later Form X 1:5:4:1 across 1:5:3:1; morphological asymmetry within matching plural imperfect clauses gives the second act the explicit seeking operation.",
+      "reader_payoff": "Parallel clauses can perform different kinds of action.",
+      "containment": "Order is rhetorical sequence here, not a grammatical proof that worship purchases help or that help arrives only afterward.",
       "epistemic": {
         "status": "grounded",
-        "source_trust": ["trusted"],
-        "reason": "Form I/Form X sırası ve ortak kişi-zaman çerçevesi doğrudan supplied construction evidence ile desteklenmiştir."
+        "source_trust": [
+          "trusted"
+        ],
+        "reason": "The local surface and resolved morphology agree with the supplied semantic and attachment evidence."
       },
-      "support_ids": ["sup_796c6f7954cf104d6b58", "sup_9c387b30058b83f9557a"],
+      "support_ids": [
+        "sup_796c6f7954cf104d6b58",
+        "sup_9c387b30058b83f9557a"
+      ],
       "branch_activations": [],
       "connection_refs": [],
       "context_refs": [],
       "semantic_obligation_refs": []
     },
     {
-      "finding_ref": "micro:ongoing-service",
+      "finding_ref": "micro:renewable-service",
       "origin_candidate_id": "cand_9d5172063bf7d3b891c0",
       "represented_candidate_ids": [],
-      "title": "Yenilenen ortak hizmet",
-      "claim": "Naʿbudu, tamamlanmış bir hizmet raporu değil, konuşan topluluğun şimdi ve yeniden gerçekleştirdiği ortak bir hizmet eylemi kurar.",
-      "mechanism": "Birinci çoğul imperfect ve aktif Form I biçimi, özneyi ayrı bir isimle söylemeden süren eylemi taşır.",
-      "reader_payoff": "Okur ayetin tek seferlik bir geçmiş bildirimi değil, tekrarlanabilir bir söz edimi olduğunu duyar.",
-      "containment": "Sürenlik, eylemin her anda aynı yoğunlukta gerçekleştiğini veya başka bir kipin imkânsız olduğunu iddia etmez.",
+      "title": "renewable service",
+      "claim": "The speakers voice worship as an ongoing and renewable collective act.",
+      "mechanism": "Imperfect 1:5:2:1 carries its own plural subject; the fronted addressee directs that currently voiced commitment, so service is presented as an act the speakers sustain and renew.",
+      "reader_payoff": "The clause commits its speakers, rather than recounting a completed instance.",
+      "containment": "Imperfect presentation does not guarantee unbroken performance or settle every possible temporal interpretation.",
       "epistemic": {
         "status": "grounded",
-        "source_trust": ["trusted"],
-        "reason": "Imperfect indicative and first-person plural agreement are explicitly supplied for the local word."
+        "source_trust": [
+          "trusted"
+        ],
+        "reason": "The local surface and resolved morphology agree with the supplied semantic and attachment evidence."
       },
-      "support_ids": ["sup_7d314956b5adb85a297c", "sup_9c387b30058b83f9557a"],
+      "support_ids": [
+        "sup_7d314956b5adb85a297c",
+        "sup_9c387b30058b83f9557a"
+      ],
       "branch_activations": [],
       "connection_refs": [],
       "context_refs": [],
       "semantic_obligation_refs": []
     },
     {
-      "finding_ref": "micro:submissive-service",
+      "finding_ref": "micro:submissive-worship",
       "origin_candidate_id": "cand_b68f421d6c04faedf67b",
       "represented_candidate_ids": [],
-      "title": "Hizmete boyun eğme ağırlığı",
-      "claim": "Yerel hizmet sözü, sıradan bir saygı hareketinden daha ağır bir kulluk, hizmet ve boyun eğme basıncı taşır.",
-      "mechanism": "ع ب د kök aralığı bu hizmete kulluk ve teslimiyet ağırlığı verir; öne alınmış yalnız-muhatap nesnesi bu ağırlığın yönünü sınırlar, fakat kökün uzak kölelik, yol ve başka dallarını etkinleştirmez.",
-      "reader_payoff": "Okur kulluk sözcüğünün burada hafif bir onurlandırma değil, yönelmiş ve teslimiyet içeren bir hizmet olduğunu fark eder.",
-      "containment": "Bu bulgu hukuki kölelik, yol düzleştirme veya kökün tüm sözlük alanının ayette birlikte etkin olduğu iddiasını dışarıda bırakır.",
-      "epistemic": {
-        "status": "qualified",
-        "source_trust": ["trusted"],
-        "reason": "Word-analysis source explicitly narrows the root range to worshipful service with submission pressure."
-      },
-      "support_ids": ["sup_357a455dd5f2c2e30a3b", "sup_9c387b30058b83f9557a"],
-      "branch_activations": [],
-      "connection_refs": [],
-      "context_refs": [],
-      "semantic_obligation_refs": []
-    },
-    {
-      "finding_ref": "micro:voice-mood-contrast",
-      "origin_candidate_id": "cand_a18e892b823fcee589ce",
-      "represented_candidate_ids": [],
-      "title": "Ses ve kip varyantlarının karşılaştırmalı baskısı",
-      "claim": "Alternatif ses veya kip, konuşanın duruşunu değiştirirdi; packet-aligned biçim ise etkin birinci çoğul bildirim olarak kalır.",
-      "mechanism": "Varyant satırları pasiflik veya apokop baskısını karşılaştırma için açar, yerel çözümleme ise aktif birinci çoğul imperfect indicative biçimini korur.",
-      "reader_payoff": "Okur mevcut söz ediminin konuşan topluluğun etkin beyanı olduğunu, biçim değişseydi duruşun da değişeceğini görür.",
-      "containment": "Alternatif ses ve kipler ayette seçilmiş ikinci okumalar değildir; yalnızca mevcut biçimin semantik önemini görünür kılan karşılaştırmadır.",
-      "epistemic": {
-        "status": "qualified",
-        "source_trust": ["trusted"],
-        "reason": "Variant support is explicitly marked narrowed and does not displace the aligned local morphology."
-      },
-      "support_ids": ["sup_2b933aa13931f2d8068e", "sup_9c387b30058b83f9557a"],
-      "branch_activations": [],
-      "connection_refs": [],
-      "context_refs": [],
-      "semantic_obligation_refs": []
-    },
-    {
-      "finding_ref": "micro:worship-field-localization",
-      "origin_candidate_id": "cand_35619f79e8d5f9ca2f7b",
-      "represented_candidate_ids": [],
-      "title": "Kulluk alanının yalnız-muhatapla yerelleşmesi",
-      "claim": "Daha geniş kulluk ilişki alanı burada olumlu ve tek-muhataplı bir beyan olarak yerelleşir.",
-      "mechanism": "Kulluk fiilinin yerel kök baskısı, öne alınmış ikinci tekil nesnenin yalnızlık kısıtlamasıyla birleşir; böylece başka sahnelerdeki karşıt veya farklı yönelimler bu ayetin içine taşınmaz.",
-      "reader_payoff": "Okur ayetin genel bir kulluk sözünden önce, yönü tek bir muhataba kapatılmış somut bir beyan olduğunu görür.",
-      "containment": "Supplied recurrence scenes yalnızca alanı aydınlatan karşılaştırmalı baskıdır; onların bütün olayları veya ayrı bağlamları 1:5'in açık içeriği yapılmaz.",
-      "epistemic": {
-        "status": "qualified",
-        "source_trust": ["trusted"],
-        "reason": "Recurrence support is explicitly narrowed by local grammar and exclusive object focus."
-      },
-      "support_ids": ["sup_9c387b30058b83f9557a", "sup_c18a7d628a9e68c41081"],
-      "branch_activations": [],
-      "connection_refs": [],
-      "context_refs": [],
-      "semantic_obligation_refs": []
-    },
-    {
-      "finding_ref": "micro:two-clause-coordination",
-      "origin_candidate_id": "cand_78715c7e998b29f32b62",
-      "represented_candidate_ids": [],
-      "title": "İki tam sınırlı cümlenin koordinasyonu",
-      "claim": "Wa, hizmet ve yardım istemeyi tek bir zincir fiile indirmeden iki tam ve muhatabı öne alan cümleyi koordine eder.",
-      "mechanism": "Bağlaçtan sonra ikinci iyyāka'nın yeniden gelmesi, nastaʿīnu için ayrı bir nesne-fiil kuruluşu kurar; bu yapı ilk cümleyi silmeden ikinci cümleyi bağlar.",
-      "reader_payoff": "Okur ayetin iki farklı eylemi aynı muhatapta birleştirdiğini, fakat onları tek eylem saymadığını fark eder.",
-      "containment": "Koordinasyon iki cümlenin eşit semantik içerikte olduğunu veya aralarındaki hareketi ortadan kaldırdığını söylemez.",
+      "title": "submissive worship",
+      "claim": "Worshipful service under You alone carries the weight of willing subordination and devoted obedience.",
+      "mechanism": "The worship verb at 1:5:2:1 meets the exclusive recipient at 1:5:1:1: the ordinary submission facet becomes a definite orientation of the speakers toward the one served.",
+      "reader_payoff": "Worship includes the speakers' yielding posture and commitment.",
+      "containment": "The selected surface meaning is worshipful service. Legal ownership, coercive enslavement, physical processing, and every remote root use are not lexical predicates of this verb.",
       "epistemic": {
         "status": "grounded",
-        "source_trust": ["trusted"],
-        "reason": "Local attachment evidence directly identifies the two parallel fronted-object clauses."
+        "source_trust": [
+          "trusted"
+        ],
+        "reason": "The local surface and resolved morphology agree with the supplied semantic and attachment evidence."
       },
-      "support_ids": ["sup_35069690e716ef2e9be5", "sup_4e0f5a9420347d9bde35"],
-      "branch_activations": [],
-      "connection_refs": [],
-      "context_refs": [],
-      "semantic_obligation_refs": []
-    },
-    {
-      "finding_ref": "micro:resumptive-pivot",
-      "origin_candidate_id": "cand_ef767fbd959482d68eef",
-      "represented_candidate_ids": [],
-      "title": "Hizmetten yardım istemeye yeniden başlama",
-      "claim": "Bağlaç, ayetin hizmet edilen eylemden istenen desteğe dönmesini ve ikinci yarının yeni bir sınırlı cümle olarak başlamasını mümkün kılar.",
-      "mechanism": "Wa, iki clause'u bağlarken ardından gelen tekrar edilmiş nesne zamiri ikinci fiilin kendi başlangıcını ve kendi yalnızlık çerçevesini kurar.",
-      "reader_payoff": "Okur ikinci yarıyı ilk fiile eklenmiş bir artçı değil, hizmetin ardından gelen ayrı bir yardım yönelimi olarak duyar.",
-      "containment": "Bu pivot, ayeti kopuk iki söz haline getirmez; bağlaç ortak muhatap ve koordinasyon bağını korur.",
-      "epistemic": {
-        "status": "grounded",
-        "source_trust": ["trusted"],
-        "reason": "The particle's coordinating or resumptive force and the repeated pronoun are supplied together."
-      },
-      "support_ids": ["sup_4e0f5a9420347d9bde35", "sup_6e7e13e8086c4c9c2d51"],
-      "branch_activations": [],
-      "connection_refs": [],
-      "context_refs": [],
-      "semantic_obligation_refs": []
-    },
-    {
-      "finding_ref": "micro:surface-join",
-      "origin_candidate_id": "cand_7c9f5ea48a5eac83412f",
-      "represented_candidate_ids": [],
-      "title": "Bağlaç ile zamir arasındaki yüzey eklemi",
-      "claim": "Varyantlar wa ile ikinci iyyāka arasındaki ses ve ayrımlanma sınırını görünür kılar; yerel okuma yine bağlaçtan sonra öne alınmış nesne cümlesini korur.",
-      "mechanism": "Yüzey birleşmesi ve ses baskısı, connective-pronoun sınırında duyulur; hizalanmış gramer bu sınırı koordinasyonun ardından gelen tekrar nesnesi olarak işler.",
-      "reader_payoff": "Okur ses akışının gramer eklemini örtebildiğini, fakat eklemin ikinci sınırlı cümlenin kuruluşunda kaldığını fark eder.",
-      "containment": "Varyant yüzeyi alternatif bir semantik parseye dönüştürülmez ve iki cümle arasındaki koordinasyon kaldırılmaz.",
-      "epistemic": {
-        "status": "qualified",
-        "source_trust": ["trusted"],
-        "reason": "The supplied variant evidence is marked narrowed and leaves the aligned surface function intact."
-      },
-      "support_ids": ["sup_4e0f5a9420347d9bde35", "sup_556c8188dde574bcd198"],
-      "branch_activations": [],
-      "connection_refs": [],
-      "context_refs": [],
-      "semantic_obligation_refs": []
-    },
-    {
-      "finding_ref": "micro:second-restriction",
-      "origin_candidate_id": "cand_5628c45ec85350235cdd",
-      "represented_candidate_ids": [],
-      "title": "Yardım istemenin kendi yalnızlık çerçevesi",
-      "claim": "İkinci iyyāka, yardım isteme eylemine ilk cümlenin kısıtlamasını ödünç aldırmaz; yardımın kaynağını kendi başına yalnızlaştırır.",
-      "mechanism": "İkinci zamir nastaʿīnu fiilinin açık nesnesi olarak aynı fronted-object kuruluşunu yeniden kurar.",
-      "reader_payoff": "Okur hizmetin ve yardım istemenin aynı muhataba yöneldiğini, fakat her birinin bu yönü kendi cümlesinde kurduğunu görür.",
-      "containment": "Tekrarlanan kısıtlama iki fiilin tek fiil olduğunu veya yardım istemenin hizmete indirgenebileceğini söylemez.",
-      "epistemic": {
-        "status": "grounded",
-        "source_trust": ["trusted"],
-        "reason": "The second pronoun's independent fronted-object attachment is directly supplied."
-      },
-      "support_ids": ["sup_a871c53525052aba59dd", "sup_b83a37bd600e951d76a9"],
-      "branch_activations": [],
-      "connection_refs": [],
-      "context_refs": [],
-      "semantic_obligation_refs": []
-    },
-    {
-      "finding_ref": "micro:reidentified-addressee",
-      "origin_candidate_id": "cand_7573923f53066ca88bc8",
-      "represented_candidate_ids": [],
-      "title": "Muhatabın ikinci fiil altında yeniden belirtilmesi",
-      "claim": "Aynı ikinci tekil muhatap, yardım isteme fiilinin altında yeniden adlandırılır; ayet ikinci yarıda sessiz bir zamir devrine güvenmez.",
-      "mechanism": "Koordinasyon aynı muhatabı korurken ikinci zamir yeni bir governing verb alır ve referansı yüzeyde yeniden kurar.",
-      "reader_payoff": "Okur ikinci eylemin de aynı kişiye yöneldiğini çıkarım yapmak zorunda kalmadan cümlenin içinde görür.",
-      "containment": "Yeniden belirtme yeni bir muhatap veya yeni bir referans önermemektedir; aynı kişiyi ikinci eylem için tazeler.",
-      "epistemic": {
-        "status": "grounded",
-        "source_trust": ["trusted"],
-        "reason": "Cross-reference and syntax support explicitly identify the same addressee under a new verb."
-      },
-      "support_ids": ["sup_2453191df6112d1e0f5b", "sup_a871c53525052aba59dd"],
-      "branch_activations": [],
-      "connection_refs": [],
-      "context_refs": [],
-      "semantic_obligation_refs": []
-    },
-    {
-      "finding_ref": "micro:second-pronoun-slot",
-      "origin_candidate_id": "cand_89c8f507254037d02afe",
-      "represented_candidate_ids": [],
-      "title": "İkinci zamir yuvasındaki varyant baskısı",
-      "claim": "Ses veya ayrımlanma varyantları ikinci zamir yuvasında baskı oluşturur, fakat yerel işlev yine tekrarlanan öne alınmış nesne olarak kalır.",
-      "mechanism": "Varyant satırları ikinci slotun yüzeyine odaklanırken hizalanmış kanıt zamiri nastaʿīnu fiilinin önündeki tekrar nesnesi olarak korur.",
-      "reader_payoff": "Okur ses değişiminin ikinci cümlenin nesne kurgusunu ortadan kaldırmadığını görür.",
-      "containment": "Varyant baskısı alternatif bir semantik görev veya yeni bir muhatap üretmez.",
-      "epistemic": {
-        "status": "qualified",
-        "source_trust": ["trusted"],
-        "reason": "The support is explicitly narrowed to variant pressure while the local slot remains fixed."
-      },
-      "support_ids": ["sup_90864f71ae16536c1548", "sup_a871c53525052aba59dd"],
-      "branch_activations": [],
-      "connection_refs": [],
-      "context_refs": [],
-      "semantic_obligation_refs": []
-    },
-    {
-      "finding_ref": "micro:form-x-help",
-      "origin_candidate_id": "cand_b9d93fb23a0069236b25",
-      "represented_candidate_ids": [],
-      "title": "Form X ile etkin yardım arayışı",
-      "claim": "Konuşanlar yardımı yalnızca alan kişiler olarak değil, kendileri için yardım arayan etkin bir topluluk olarak konuşur.",
-      "mechanism": "Nastaʿīnu'nun Form X imperfect biçimi, yardımın başkasınca verilmiş sonucunu değil, konuşanların yardım isteme eylemini kurar.",
-      "reader_payoff": "Okur ikinci fiilin edilgen bir ihtiyaç bildirimi değil, yöneltilmiş ve sürdürülen bir yardım talebi olduğunu fark eder.",
-      "containment": "Bu bulgu yardımın mutlaka hemen gerçekleştiğini veya yardımın bütün biçimlerini aynı anda etkinleştirdiğini iddia etmez.",
-      "epistemic": {
-        "status": "grounded",
-        "source_trust": ["trusted"],
-        "reason": "The aligned Form X imperfect and help-seeking construction are directly supplied."
-      },
-      "support_ids": ["sup_4848f68d52f80b9d7d98", "sup_f7fc21a92c2133abd7f1"],
-      "branch_activations": [],
-      "connection_refs": [],
-      "context_refs": [],
-      "semantic_obligation_refs": []
-    },
-    {
-      "finding_ref": "micro:forward-guidance",
-      "origin_candidate_id": "cand_cfb52e93f1f2be3fc96f",
-      "represented_candidate_ids": [],
-      "title": "Açık bırakılan yardım isteğinin rehberliğe açılması",
-      "claim": "Ayet yardımın içeriğini açıkça adlandırmadan bırakır ve bu açık istek, hemen sonraki rehberlik ve yol ayrımı sözlerine doğru açılır.",
-      "mechanism": "Nastaʿīnu'nun belirtilmemiş nesnesi supplied discourse evidence tarafından 1:6'daki rehberlik talebi ve 1:7'deki yol ayrımlarıyla ileriye bağlanır.",
-      "reader_payoff": "Okur yardım istemenin ayet içinde kapalı bir son değil, sonraki yönlendirme talebini hazırlayan açık bir eşik olduğunu görür.",
-      "containment": "Bu yalnızca supplied forward relation'dır; 1:6 ve 1:7'nin bütün anlamını 1:5'e geri taşımaz ve sure tezi kurmaz.",
-      "epistemic": {
-        "status": "grounded",
-        "source_trust": ["trusted"],
-        "reason": "Critical local word-analysis rows supply the forward guidance relation without contradiction in the packet."
-      },
-      "support_ids": ["sup_4848f68d52f80b9d7d98", "sup_f076657d6a4382b08867"],
-      "branch_activations": [],
-      "connection_refs": [],
-      "context_refs": [],
-      "semantic_obligation_refs": []
-    },
-    {
-      "finding_ref": "micro:marked-help-object",
-      "origin_candidate_id": "cand_566eefe2070a363286f8",
-      "represented_candidate_ids": [],
-      "title": "Yardım kaynağının öne alınmış nesnede sıkışması",
-      "claim": "Yardım kaynağı ilişkisi, beklenen yardım-from kuruluşunun yerine değil ama onun üzerinde işleyen işaretli bir doğrudan nesneyle fiilden önce sıkıştırılır.",
-      "mechanism": "Öne alınmış iyyāka, nastaʿīnu fiilinin nesnesi olarak kaynak ilişkisini fiil gelmeden önce kurar ve kaynağı yalnızlaştırır.",
-      "reader_payoff": "Okur yalnızca senden ifadesinin fiilden sonra eklenmiş bir açıklama değil, cümlenin başında kurulmuş bir kaynak bağı olduğunu fark eder.",
-      "containment": "İşaretli kuruluş yeni bir kök dalı veya standart parseye rakip bir cümle üretmez; bulgu yalnızca nesne ve kaynak ilişkisini sınırlar.",
-      "epistemic": {
-        "status": "qualified",
-        "source_trust": ["trusted"],
-        "reason": "The support is narrowed to the marked local frame and explicitly avoids converting it into a different root branch."
-      },
-      "support_ids": ["sup_4848f68d52f80b9d7d98", "sup_f7f69438de3d5cd9511f"],
-      "branch_activations": [],
-      "connection_refs": [],
-      "context_refs": [],
-      "semantic_obligation_refs": []
-    },
-    {
-      "finding_ref": "micro:service-help-pair",
-      "origin_candidate_id": "cand_a4baa4f7a8efb832fb3a",
-      "represented_candidate_ids": [],
-      "title": "Yardım istemenin hizmete eşlenmesi",
-      "claim": "Yardım isteme, hizmetten kopuk ikinci bir dindarlık fiili değil, ilk yarının hizmet eylemine eşlenen karşılığıdır.",
-      "mechanism": "Koordineli attachment ve iki fiilin ortak birinci çoğul çerçevesi, nastaʿīnu'yu naʿbudu ile aynı konuşma hareketinin ikinci yüzü yapar.",
-      "reader_payoff": "Okur ayetin hizmeti kendine yeterli bir iddia olarak bırakmayıp yardım talebiyle birlikte söylediğini görür.",
-      "containment": "Eşleşme iki fiili özdeşleştirmez; hizmet ve yardım isteme ayrı eylemler olarak kalır.",
-      "epistemic": {
-        "status": "grounded",
-        "source_trust": ["trusted"],
-        "reason": "Attachment evidence explicitly pairs aid-seeking with the service-root frame."
-      },
-      "support_ids": ["sup_4848f68d52f80b9d7d98", "sup_a527e66a784e6e37ee8a"],
-      "branch_activations": [],
-      "connection_refs": [],
-      "context_refs": [],
-      "semantic_obligation_refs": []
-    },
-    {
-      "finding_ref": "micro:patience-echo",
-      "origin_candidate_id": "cand_74c28700c71cc62264f8",
-      "represented_candidate_ids": [],
-      "title": "Yardım istemenin sabırla yankılanması",
-      "claim": "Supplied recurrence evidence, yardım isteme alanını sabırla birlikte duyulabilecek bir yankıya açar; fakat sabır 1:5'te açıkça söylenmez.",
-      "mechanism": "Aid-and-patience recurrence rows nastaʿīnu'nun yardım arayışına bir çevresel echo pressure verir, ancak yerel fiilin nesnesi ve grameri sabrı ayetin içine taşımaz.",
-      "reader_payoff": "Okur yardım talebinin yalnızca anlık bir müdahale isteği değil, sabırla birlikte düşünülebilen bir destek arayışı olarak da titreştiğini fark eder.",
-      "containment": "Sabır ayrı bir nesne, açık konu veya bu ayetin bağımsız iddiası değildir; bulgu supplied recurrence echo ile sınırlıdır.",
-      "epistemic": {
-        "status": "qualified",
-        "source_trust": ["trusted"],
-        "reason": "The recurrence support itself limits the relation to an echo and explicitly says patience is not named here."
-      },
-      "support_ids": ["sup_4848f68d52f80b9d7d98", "sup_9206e7e6bd4333ace245"],
-      "branch_activations": [],
-      "connection_refs": [],
-      "context_refs": [],
-      "semantic_obligation_refs": []
-    },
-    {
-      "finding_ref": "micro:help-branch",
-      "origin_candidate_id": "cand_74e4d9ceeff050130f4c",
-      "represented_candidate_ids": [],
-      "title": "Yardım dalının yerel seçimi",
-      "claim": "Yerel Form X kuruluşu, geniş kök aralığından yardım isteme yönünü seçer; yaş, tekrarlanan savaş, yer adı, yardım verme ve karşılıklı iş birliği yönleri bu yüzey anlamına girmez.",
-      "mechanism": "Nastaʿīnu'nun Form X yapısı ve yalnız muhataba yönelen nesne, kök aralığını başkasından yardım isteme kullanımına daraltır.",
-      "reader_payoff": "Okur tek bir kökün bütün sözlük alanının aynı anda çalışmadığını, biçim ve cümlenin burada yardım istemeyi seçtiğini görür.",
-      "containment": "Bu bulgu root_ids üzerinden yeni bir branch activation yapmaz; yalnızca supplied word-analysis narrowing'i korur ve dışarıda kalan dalları yerel anlam saymaz.",
-      "epistemic": {
-        "status": "qualified",
-        "source_trust": ["trusted"],
-        "reason": "The support explicitly marks the help branch as narrowed by the local Form X construction and lists excluded root-range alternatives."
-      },
-      "support_ids": ["sup_25e1615f8d09ac3efcc9", "sup_4848f68d52f80b9d7d98"],
-      "branch_activations": [],
-      "connection_refs": [],
-      "context_refs": [],
-      "semantic_obligation_refs": []
-    },
-    {
-      "finding_ref": "micro:aid-vocalization",
-      "origin_candidate_id": "cand_0e5d7964935c0202a39e",
-      "represented_candidate_ids": [],
-      "title": "Yardım fiilinin kapanış sesindeki varyantlar",
-      "claim": "Önek ünlüsü ve uzunluk varyantları kapanış sesini değiştirir, fakat yerel anlam birinci çoğul Form X yardım arayışı olarak kalır.",
-      "mechanism": "Recitation variant rows sound-shape üzerinde baskı kurar; hizalanmış morphology aynı nastaʿīnu kuruluşunu korur.",
-      "reader_payoff": "Okur sesin değişebilmesiyle anlam kuruluşunun aynı şey olmadığını ve kapanıştaki ses baskısının yardımı isteme eylemini kaldırmadığını görür.",
-      "containment": "Varyantlar yeni bir kip veya yeni bir yardım dalı olarak sunulmaz; bulgu ses etkisiyle sınırlıdır.",
-      "epistemic": {
-        "status": "qualified",
-        "source_trust": ["trusted"],
-        "reason": "The source explicitly narrows the variants to sound while preserving the aligned local sense."
-      },
-      "support_ids": ["sup_4848f68d52f80b9d7d98", "sup_f4430d9b6e5ede2e729c"],
-      "branch_activations": [],
-      "connection_refs": [],
-      "context_refs": [],
-      "semantic_obligation_refs": []
-    },
-    {
-      "finding_ref": "micro:hft-exclusive-service-support",
-      "origin_candidate_id": "cand_e8c827d8f3e5a9d6d8a0",
-      "represented_candidate_ids": [],
-      "title": "Atfedilen bağlılık ve onu sürdüren destek",
-      "claim": "Sağlanan HFT izi, boyun eğerek hizmet edilen eylemi aynı muhataptan istenen destekle birleştirerek bağlılığın sürdürülmesini görünür kılar.",
-      "mechanism": "Naʿbudu taşıyıcısı supplied submissive-service role ile, nastaʿīnu taşıyıcısı supplied help-and-backing role ile temas eder; iki ilişki tekrarlanan öne alınmış nesne üzerinden aynı muhataba döner.",
-      "reader_payoff": "Okur hizmet ve yardım istemeyi iki yan yana dilek olarak değil, yönü aynı muhatapta birleşen bağlılık ve sürdürme hareketi olarak da okuyabilir.",
-      "containment": "Bu, legacy-unbound HFT'nin atfedilen ilişkisidir; B003 ve B001'in bütün sözlük ayrıntılarının bağımsız olarak etkin olduğunu veya iki cümlenin tek cümleye indirgendiğini iddia etmez.",
-      "epistemic": {
-        "status": "qualified",
-        "source_trust": ["legacy_unbound"],
-        "reason": "The exact focus coordinates, roots, attributed roles, and focus-return relation are supplied, but the HFT record is legacy_unbound and is therefore retained only in attributed mode."
-      },
-      "support_ids": ["sup_0184064521ac1dab2926"],
+      "support_ids": [
+        "sup_357a455dd5f2c2e30a3b",
+        "sup_539139bd505c5fe541cf",
+        "sup_9c387b30058b83f9557a"
+      ],
       "branch_activations": [
         {
           "branch_ref": "root_000973/B003",
           "facet_id": "F001",
-          "branch_gloss": "boyun eğerek itaat ve tapınma",
-          "facet_statement": "Eylem, sıradan itaati aşan bir boyun eğme ve alçalma tutumu içerir.",
-          "application_mode": "attributed",
-          "carrier_refs": ["1:5:2:1"],
-          "trigger_refs": ["1:5:4:1"],
-          "focus_return_refs": ["1:5:1:1", "1:5:3:2"],
-          "carrier": "Naʿbudu, konuşanların sürdürdüğü hizmet ve ibadet eylemini taşır.",
-          "independent_trigger": "Nastaʿīnu, aynı muhataptan istenen yardım ve desteği taşır.",
-          "activation": "Atfedilen HFT rolünde yardımın istenmesi, ilk fiildeki boyun eğerek hizmeti yalnız muhataba yönelmiş bir bağlılık eylemi olarak yeniden okur.",
-          "resulting_reading": "Hizmet, yönü yalnız sana çevrilmiş bir bağlılık eylemi olarak; yardım isteme ise bu bağlılığın sürmesi için yine yalnız senden beklenen destek olarak görünür.",
-          "boundary": "Bu atfedilen temas hukuki kölelik veya B003'ün bütün komşu dallarını ayete taşımaz."
+          "branch_gloss": "boyun e\u011ferek itaat ve tap\u0131nma",
+          "facet_statement": "Eylem, s\u0131radan itaati a\u015fan bir boyun e\u011fme ve al\u00e7alma tutumu i\u00e7erir.",
+          "application_mode": "lexical",
+          "carrier_refs": [
+            "1:5:2:1"
+          ],
+          "trigger_refs": [
+            "1:5:1:1"
+          ],
+          "focus_return_refs": [
+            "1:5:2:1"
+          ],
+          "carrier": "The active service verb carries worship with submissive obedience.",
+          "independent_trigger": "The detached exclusive second-person object directs that act to its worshipped recipient.",
+          "activation": "The restricted recipient gives the verb's yielding obedience a concrete relational direction.",
+          "resulting_reading": "The speakers devote worshipful service to You alone.",
+          "boundary": "No human ownership or enslavement is asserted; other branch recipients and physical processing are not activated by this lexical application."
         },
         {
-          "branch_ref": "root_001064/B001",
-          "facet_id": "F001",
-          "branch_gloss": "yardım, destek ve dayanışma",
-          "facet_statement": "Bir kişi, topluluk veya şey, başka birinin işini yapmasına destek olur ya da o işte kullanılabilecek bir destek oluşturur.",
-          "application_mode": "attributed",
-          "carrier_refs": ["1:5:4:1"],
-          "trigger_refs": ["1:5:2:1"],
-          "focus_return_refs": ["1:5:1:1", "1:5:3:2"],
-          "carrier": "Nastaʿīnu, konuşanların kendileri için yardım ve destek aramasını taşır.",
-          "independent_trigger": "Naʿbudu, sürdürülmesi için destek aranan hizmet eylemini taşır.",
-          "activation": "Atfedilen HFT rolünde hizmet eylemi, yardımın neyi mümkün kılacağını belirler; yardım isteme böylece hizmetten kopuk bir ek değil, onun desteklenen tarafı olur.",
-          "resulting_reading": "İstenen destek, soyut bir ek yardım değil, yalnız muhataba yönelmiş hizmetin devamını sağlayan destek olarak görünür.",
-          "boundary": "Bu atfedilen temas yardımın kesin olarak verildiğini veya bütün dayanışma kullanımlarının etkin olduğunu söylemez."
+          "branch_ref": "root_000973/B003",
+          "facet_id": "F002",
+          "branch_gloss": "boyun e\u011ferek itaat ve tap\u0131nma",
+          "facet_statement": "Merkez\u00ee dinsel kullan\u0131m, Tanr\u0131'ya y\u00f6nelen tap\u0131nma ve kendini bu y\u00f6neli\u015fe vermedir.",
+          "application_mode": "lexical",
+          "carrier_refs": [
+            "1:5:2:1"
+          ],
+          "trigger_refs": [
+            "1:5:1:1"
+          ],
+          "focus_return_refs": [
+            "1:5:2:1"
+          ],
+          "carrier": "The active service verb carries worship with submissive obedience.",
+          "independent_trigger": "The detached exclusive second-person object directs that act to its worshipped recipient.",
+          "activation": "The worship address realizes the branch's devotional direction, supported by the core submission facet.",
+          "resulting_reading": "The speakers devote worshipful service to You alone.",
+          "boundary": "No human ownership or enslavement is asserted; other branch recipients and physical processing are not activated by this lexical application."
         }
       ],
       "connection_refs": [],
@@ -788,50 +616,607 @@
       "semantic_obligation_refs": []
     },
     {
-      "finding_ref": "micro:hft-dependent-agency",
-      "origin_candidate_id": "cand_dd77e4cddc8666350a84",
+      "finding_ref": "micro:active-voice-and-mood",
+      "origin_candidate_id": "cand_a18e892b823fcee589ce",
       "represented_candidate_ids": [],
-      "title": "Atfedilen bağımlılık içinden eylem",
-      "claim": "Sağlanan HFT izi, hizmet eden konuşanların kendilerini bağımsız sahipler olarak kurmadan yardım yoluyla etkili olabilen bir topluluk olarak görünmesini sağlar.",
-      "mechanism": "Naʿbudu taşıyıcısındaki atfedilen non-sovereign status ile nastaʿīnu taşıyıcısındaki atfedilen strength-that-has-caught-up teması, eylemi yokluk değil destek içinden işleyen bir agency olarak çerçeveler.",
-      "reader_payoff": "Okur kulluk ile yardım istemenin pasiflik değil, bağımlı bir konumdan sürdürülen eylem kurabildiğini fark eder.",
-      "containment": "Bu, supplied HFT'nin attributed relation'ıdır; yerel fiilin hukuki köleliği veya B005'in kadın ve yük atı bağlamlarını literal ayet anlamı yapmaz.",
+      "title": "active voice and mood",
+      "claim": "Reported voice and mood alternatives expose how the local form places the speakers in active declaration.",
+      "mechanism": "The summary's alternate voice or clipped ending meets the actual active first-person plural imperfect at 1:5:2:1; the contrast makes visible who undertakes service and how it is asserted.",
+      "reader_payoff": "The speaking group remains the acting subject.",
+      "containment": "Only the supplied contrast is retained; no exact alternate reading or reciter attribution is reconstructed.",
       "epistemic": {
         "status": "qualified",
-        "source_trust": ["legacy_unbound"],
-        "reason": "The exact focus coordinates and roots agree with the packet and the trace returns through the shared object frame, but its lexical branch relation remains legacy-unbound attributed evidence."
+        "source_trust": [
+          "trusted"
+        ],
+        "reason": "The bounded claim uses the supplied word-analysis summary; the local alignment confirms its carrier, but detailed source rows or alternatives are not separately supplied."
       },
-      "support_ids": ["sup_6efe02d0ef095431c770"],
+      "support_ids": [
+        "sup_2b933aa13931f2d8068e",
+        "sup_9c387b30058b83f9557a"
+      ],
+      "branch_activations": [],
+      "connection_refs": [],
+      "context_refs": [],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "micro:positive-exclusive-avowal",
+      "origin_candidate_id": "cand_35619f79e8d5f9ca2f7b",
+      "represented_candidate_ids": [],
+      "title": "positive exclusive avowal",
+      "claim": "The worship clause makes a positive exclusive commitment to its addressee.",
+      "mechanism": "The affirmative verb at 1:5:2:1 meets the restrictive fronted object at 1:5:1:1; restriction is enacted within an affirmative act of worship.",
+      "reader_payoff": "Exclusive worship is expressed as a commitment the speakers make.",
+      "containment": "Omit the broad distributional recurrence claim and comparisons with 98:5 and 109:2-5. Their cited summaries are preserved as excluded context, not independently established micro contacts.",
+      "epistemic": {
+        "status": "grounded",
+        "source_trust": [
+          "trusted"
+        ],
+        "reason": "The local surface and resolved morphology agree with the supplied semantic and attachment evidence."
+      },
+      "support_ids": [
+        "sup_9c387b30058b83f9557a",
+        "sup_c18a7d628a9e68c41081"
+      ],
+      "branch_activations": [],
+      "connection_refs": [],
+      "context_refs": [],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "micro:two-full-clauses",
+      "origin_candidate_id": "cand_78715c7e998b29f32b62",
+      "represented_candidate_ids": [],
+      "title": "two full clauses",
+      "claim": "The conjunction joins two independently framed declarations of service and aid-seeking.",
+      "mechanism": "At 1:5:3:1 the connective meets a fresh object at 1:5:3:2 and its own verb at 1:5:4:1; together these renew the structure established by 1:5:1:1 and 1:5:2:1.",
+      "reader_payoff": "The second half has its own object-and-action structure.",
+      "containment": "Coordination alone does not entail causation, a transaction, or temporal delay.",
+      "epistemic": {
+        "status": "grounded",
+        "source_trust": [
+          "trusted"
+        ],
+        "reason": "The local surface and resolved morphology agree with the supplied semantic and attachment evidence."
+      },
+      "support_ids": [
+        "sup_35069690e716ef2e9be5",
+        "sup_4e0f5a9420347d9bde35"
+      ],
+      "branch_activations": [],
+      "connection_refs": [],
+      "context_refs": [],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "micro:resumptive-hinge",
+      "origin_candidate_id": "cand_ef767fbd959482d68eef",
+      "represented_candidate_ids": [],
+      "title": "resumptive hinge",
+      "claim": "The connective lets speech restart at You as the act changes from service offered to support requested.",
+      "mechanism": "The conjunction at 1:5:3:1 connects backward, while the following detached pronoun at 1:5:3:2 opens a full new clause: continuity of address accompanies a fresh request.",
+      "reader_payoff": "The hinge can be heard as both joining and renewing.",
+      "containment": "Resumptive force remains a coexisting supplied analysis; QAC's CONJ label is not recast as an exclusive verdict on discourse force.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": [
+          "trusted"
+        ],
+        "reason": "The bounded claim uses the supplied word-analysis summary; the local alignment confirms its carrier, but detailed source rows or alternatives are not separately supplied."
+      },
+      "support_ids": [
+        "sup_4e0f5a9420347d9bde35",
+        "sup_6e7e13e8086c4c9c2d51"
+      ],
+      "branch_activations": [],
+      "connection_refs": [],
+      "context_refs": [],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "micro:connective-surface-join",
+      "origin_candidate_id": "cand_7c9f5ea48a5eac83412f",
+      "represented_candidate_ids": [],
+      "title": "connective surface join",
+      "claim": "The written join preserves a functional boundary between connection and renewed address.",
+      "mechanism": "The surface word combines 1:5:3:1 with 1:5:3:2; reported fusion variants draw attention to their contact, while the aligned local reading keeps a connective followed by an object pronoun.",
+      "reader_payoff": "One written word can join a previous clause and open the next restriction.",
+      "containment": "No exact fused alternate forms are available; preserve the reported pressure without inventing a recitation.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": [
+          "trusted"
+        ],
+        "reason": "The bounded claim uses the supplied word-analysis summary; the local alignment confirms its carrier, but detailed source rows or alternatives are not separately supplied."
+      },
+      "support_ids": [
+        "sup_4e0f5a9420347d9bde35",
+        "sup_556c8188dde574bcd198"
+      ],
+      "branch_activations": [],
+      "connection_refs": [],
+      "context_refs": [],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "micro:renewed-help-restriction",
+      "origin_candidate_id": "cand_5628c45ec85350235cdd",
+      "represented_candidate_ids": [],
+      "title": "renewed help restriction",
+      "claim": "Aid-seeking receives its own explicit You-alone frame.",
+      "mechanism": "The repeated pronoun at 1:5:3:2 precedes 1:5:4:1 after the conjunction; its relation to a new verb renews exclusivity for the source of support.",
+      "reader_payoff": "The aid request explicitly commits the speakers to the same exclusive source.",
+      "containment": "This is the second clause's restriction, not an inferred restriction borrowed through ellipsis.",
+      "epistemic": {
+        "status": "grounded",
+        "source_trust": [
+          "trusted"
+        ],
+        "reason": "The local surface and resolved morphology agree with the supplied semantic and attachment evidence."
+      },
+      "support_ids": [
+        "sup_a871c53525052aba59dd",
+        "sup_b83a37bd600e951d76a9"
+      ],
+      "branch_activations": [],
+      "connection_refs": [],
+      "context_refs": [],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "micro:same-addressee-new-act",
+      "origin_candidate_id": "cand_7573923f53066ca88bc8",
+      "represented_candidate_ids": [],
+      "title": "same addressee new act",
+      "claim": "The same addressee is named afresh when service gives way to aid-seeking.",
+      "mechanism": "The second-person singular forms at 1:5:1:1 and 1:5:3:2 keep their referent while their governors change from 1:5:2:1 to 1:5:4:1.",
+      "reader_payoff": "The recipient of worship is also the one approached for support.",
+      "containment": "This establishes local referential continuity, not a claim about an external ayah.",
+      "epistemic": {
+        "status": "grounded",
+        "source_trust": [
+          "trusted"
+        ],
+        "reason": "The local surface and resolved morphology agree with the supplied semantic and attachment evidence."
+      },
+      "support_ids": [
+        "sup_2453191df6112d1e0f5b",
+        "sup_a871c53525052aba59dd"
+      ],
+      "branch_activations": [],
+      "connection_refs": [],
+      "context_refs": [],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "micro:second-pronoun-variants",
+      "origin_candidate_id": "cand_89c8f507254037d02afe",
+      "represented_candidate_ids": [],
+      "title": "second pronoun variants",
+      "claim": "The second object remains a fresh fronted address under the reported sound and segmentation pressure.",
+      "mechanism": "The second-slot variant summary meets the resolved pronoun 1:5:3:2 and its following governor 1:5:4:1; their relation preserves the independent address frame as the surface is reconsidered.",
+      "reader_payoff": "Renewed address depends on an identifiable second object slot.",
+      "containment": "Do not reconstruct unattested variant spellings or merge this slot-specific observation with the first pronoun's debate.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": [
+          "trusted"
+        ],
+        "reason": "The bounded claim uses the supplied word-analysis summary; the local alignment confirms its carrier, but detailed source rows or alternatives are not separately supplied."
+      },
+      "support_ids": [
+        "sup_90864f71ae16536c1548",
+        "sup_a871c53525052aba59dd"
+      ],
+      "branch_activations": [],
+      "connection_refs": [],
+      "context_refs": [],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "micro:actively-seeking-help",
+      "origin_candidate_id": "cand_b9d93fb23a0069236b25",
+      "represented_candidate_ids": [],
+      "title": "actively seeking help",
+      "claim": "The speakers actively seek help for themselves from the addressed source.",
+      "mechanism": "Form X at 1:5:4:1 makes the help relation a seeking act; its fronted object at 1:5:3:2 identifies the one approached.",
+      "reader_payoff": "Dependence is itself voiced as an action of the speakers.",
+      "containment": "The clause asserts seeking help, not that help has already arrived or that the speakers are grammatically giving or mutually exchanging aid.",
+      "epistemic": {
+        "status": "grounded",
+        "source_trust": [
+          "trusted"
+        ],
+        "reason": "The local surface and resolved morphology agree with the supplied semantic and attachment evidence."
+      },
+      "support_ids": [
+        "sup_4848f68d52f80b9d7d98",
+        "sup_544d84c6ce670a48d2d6",
+        "sup_f7fc21a92c2133abd7f1"
+      ],
+      "branch_activations": [
+        {
+          "branch_ref": "root_001064/B001",
+          "facet_id": "F001",
+          "branch_gloss": "yard\u0131m, destek ve dayan\u0131\u015fma",
+          "facet_statement": "Bir ki\u015fi, topluluk veya \u015fey, ba\u015fka birinin i\u015fini yapmas\u0131na destek olur ya da o i\u015fte kullan\u0131labilecek bir destek olu\u015fturur.",
+          "application_mode": "lexical",
+          "carrier_refs": [
+            "1:5:4:1"
+          ],
+          "trigger_refs": [
+            "1:5:3:2"
+          ],
+          "focus_return_refs": [
+            "1:5:4:1"
+          ],
+          "carrier": "The Form X verb carries the request for support from another.",
+          "independent_trigger": "Its own fronted person-object explicitly supplies the one from whom support is sought.",
+          "activation": "The person approached is construed as support for the speakers' action.",
+          "resulting_reading": "The speakers actively seek help for themselves from the addressed source.",
+          "boundary": "The exact facet also lists reciprocal help, but this Form X realizes only its requesting arm. Support is sought, not asserted to have been received; no other root branch becomes the surface gloss."
+        },
+        {
+          "branch_ref": "root_001064/B001",
+          "facet_id": "F002",
+          "branch_gloss": "yard\u0131m, destek ve dayan\u0131\u015fma",
+          "facet_statement": "Yap\u0131ya ba\u011fl\u0131 kullan\u0131mlarda ki\u015fi ba\u015fkas\u0131ndan yard\u0131m ister veya taraflar birbirlerine yard\u0131m ederek birlikte hareket eder.",
+          "application_mode": "lexical",
+          "carrier_refs": [
+            "1:5:4:1"
+          ],
+          "trigger_refs": [
+            "1:5:3:2"
+          ],
+          "focus_return_refs": [
+            "1:5:4:1"
+          ],
+          "carrier": "The Form X verb carries the request for support from another.",
+          "independent_trigger": "Its own fronted person-object explicitly supplies the one from whom support is sought.",
+          "activation": "Form X selects the seeking-from-another arm of the facet; the explicit addressee gives that request its source.",
+          "resulting_reading": "The speakers actively seek help for themselves from the addressed source.",
+          "boundary": "The exact facet also lists reciprocal help, but this Form X realizes only its requesting arm. Support is sought, not asserted to have been received; no other root branch becomes the surface gloss."
+        }
+      ],
+      "connection_refs": [],
+      "context_refs": [],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "micro:open-help-request",
+      "origin_candidate_id": "cand_cfb52e93f1f2be3fc96f",
+      "represented_candidate_ids": [],
+      "title": "open help request",
+      "claim": "The clause fixes whom help is sought from while leaving the task for which it is sought open.",
+      "mechanism": "The fronted person-object at 1:5:3:2 specifies the aid source, while 1:5:4:1 carries no explicit local expression naming the requested help's task; coordination with worship supplies a salient application without exhausting the request.",
+      "reader_payoff": "Exclusive source and open scope coexist.",
+      "containment": "Omit the forward linkage to the guidance imperative at 1:6 and path discrimination at 1:7. The packet reports that linkage, but supplies neither context unit for a micro activation.",
+      "epistemic": {
+        "status": "grounded",
+        "source_trust": [
+          "trusted"
+        ],
+        "reason": "The local surface and resolved morphology agree with the supplied semantic and attachment evidence."
+      },
+      "support_ids": [
+        "sup_4848f68d52f80b9d7d98",
+        "sup_f076657d6a4382b08867"
+      ],
+      "branch_activations": [],
+      "connection_refs": [],
+      "context_refs": [],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "micro:help-source-as-direct-object",
+      "origin_candidate_id": "cand_566eefe2070a363286f8",
+      "represented_candidate_ids": [],
+      "title": "help source as direct object",
+      "claim": "The source from whom aid is sought occupies the prominent direct-object slot.",
+      "mechanism": "The lexical help-from relation in the source construction meets the explicit fronted object at 1:5:3:2 before Form X 1:5:4:1; the source relation is concentrated into You at the head of the clause.",
+      "reader_payoff": "The addressee becomes prominent before the help-seeking action is heard.",
+      "containment": "Marked means contrast with the supplied construction, not that the local Arabic is defective or belongs to another lexical branch.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": [
+          "trusted"
+        ],
+        "reason": "The bounded claim uses the supplied word-analysis summary; the local alignment confirms its carrier, but detailed source rows or alternatives are not separately supplied."
+      },
+      "support_ids": [
+        "sup_4848f68d52f80b9d7d98",
+        "sup_544d84c6ce670a48d2d6",
+        "sup_f7f69438de3d5cd9511f"
+      ],
+      "branch_activations": [
+        {
+          "branch_ref": "root_001064/B001",
+          "facet_id": "F001",
+          "branch_gloss": "yard\u0131m, destek ve dayan\u0131\u015fma",
+          "facet_statement": "Bir ki\u015fi, topluluk veya \u015fey, ba\u015fka birinin i\u015fini yapmas\u0131na destek olur ya da o i\u015fte kullan\u0131labilecek bir destek olu\u015fturur.",
+          "application_mode": "lexical",
+          "carrier_refs": [
+            "1:5:4:1"
+          ],
+          "trigger_refs": [
+            "1:5:3:2"
+          ],
+          "focus_return_refs": [
+            "1:5:4:1"
+          ],
+          "carrier": "The Form X verb carries the request for support from another.",
+          "independent_trigger": "Its own fronted person-object explicitly supplies the one from whom support is sought.",
+          "activation": "The person approached is construed as support for the speakers' action.",
+          "resulting_reading": "The source from whom aid is sought occupies the prominent direct-object slot.",
+          "boundary": "The exact facet also lists reciprocal help, but this Form X realizes only its requesting arm. Support is sought, not asserted to have been received; no other root branch becomes the surface gloss."
+        },
+        {
+          "branch_ref": "root_001064/B001",
+          "facet_id": "F002",
+          "branch_gloss": "yard\u0131m, destek ve dayan\u0131\u015fma",
+          "facet_statement": "Yap\u0131ya ba\u011fl\u0131 kullan\u0131mlarda ki\u015fi ba\u015fkas\u0131ndan yard\u0131m ister veya taraflar birbirlerine yard\u0131m ederek birlikte hareket eder.",
+          "application_mode": "lexical",
+          "carrier_refs": [
+            "1:5:4:1"
+          ],
+          "trigger_refs": [
+            "1:5:3:2"
+          ],
+          "focus_return_refs": [
+            "1:5:4:1"
+          ],
+          "carrier": "The Form X verb carries the request for support from another.",
+          "independent_trigger": "Its own fronted person-object explicitly supplies the one from whom support is sought.",
+          "activation": "Form X selects the seeking-from-another arm of the facet; the explicit addressee gives that request its source.",
+          "resulting_reading": "The source from whom aid is sought occupies the prominent direct-object slot.",
+          "boundary": "The exact facet also lists reciprocal help, but this Form X realizes only its requesting arm. Support is sought, not asserted to have been received; no other root branch becomes the surface gloss."
+        }
+      ],
+      "connection_refs": [],
+      "context_refs": [],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "micro:aid-paired-with-service",
+      "origin_candidate_id": "cand_a4baa4f7a8efb832fb3a",
+      "represented_candidate_ids": [],
+      "title": "aid paired with service",
+      "claim": "The act of requesting support accompanies the act of worshipful service as its relational counterpart.",
+      "mechanism": "The aid-seeking verb at 1:5:4:1 is conjoined with service at 1:5:2:1 under repeated address; what the speakers seek is placed beside what they render.",
+      "reader_payoff": "The request belongs to the same commitment as the declaration of worship.",
+      "containment": "The pairing supports help for worship while the verb itself leaves other purposes unspecified; coordination alone supplies no causal guarantee.",
+      "epistemic": {
+        "status": "grounded",
+        "source_trust": [
+          "trusted"
+        ],
+        "reason": "The local surface and resolved morphology agree with the supplied semantic and attachment evidence."
+      },
+      "support_ids": [
+        "sup_4848f68d52f80b9d7d98",
+        "sup_a527e66a784e6e37ee8a"
+      ],
+      "branch_activations": [],
+      "connection_refs": [],
+      "context_refs": [],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "micro:help-sense-boundary",
+      "origin_candidate_id": "cand_74e4d9ceeff050130f4c",
+      "represented_candidate_ids": [],
+      "title": "help sense boundary",
+      "claim": "The local Form X and personal fronted object specify aid sought from another within a wider help family.",
+      "mechanism": "The requesting form at 1:5:4:1 meets the person addressed at 1:5:3:2, selecting the help relation and its seeking direction. The supplied profile also singles out this exact occurrence as concentrated.",
+      "reader_payoff": "The verb's actual job becomes distinguishable from other meanings available under its mapped roots.",
+      "containment": "Giving aid, mutual cooperation, age, repeated war, place names, and other branches are outside the surface gloss. No numerical rarity claim is supplied; concentration remains the profile's qualified observation. This surface boundary does not preclude separately grounded analogical findings.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": [
+          "trusted"
+        ],
+        "reason": "The bounded claim uses the supplied word-analysis summary; the local alignment confirms its carrier, but detailed source rows or alternatives are not separately supplied."
+      },
+      "support_ids": [
+        "sup_25e1615f8d09ac3efcc9",
+        "sup_4848f68d52f80b9d7d98",
+        "sup_544d84c6ce670a48d2d6"
+      ],
+      "branch_activations": [
+        {
+          "branch_ref": "root_001064/B001",
+          "facet_id": "F001",
+          "branch_gloss": "yard\u0131m, destek ve dayan\u0131\u015fma",
+          "facet_statement": "Bir ki\u015fi, topluluk veya \u015fey, ba\u015fka birinin i\u015fini yapmas\u0131na destek olur ya da o i\u015fte kullan\u0131labilecek bir destek olu\u015fturur.",
+          "application_mode": "lexical",
+          "carrier_refs": [
+            "1:5:4:1"
+          ],
+          "trigger_refs": [
+            "1:5:3:2"
+          ],
+          "focus_return_refs": [
+            "1:5:4:1"
+          ],
+          "carrier": "The Form X verb carries the request for support from another.",
+          "independent_trigger": "Its own fronted person-object explicitly supplies the one from whom support is sought.",
+          "activation": "The person approached is construed as support for the speakers' action.",
+          "resulting_reading": "The local Form X and personal fronted object specify aid sought from another within a wider help family.",
+          "boundary": "The exact facet also lists reciprocal help, but this Form X realizes only its requesting arm. Support is sought, not asserted to have been received; no other root branch becomes the surface gloss."
+        },
+        {
+          "branch_ref": "root_001064/B001",
+          "facet_id": "F002",
+          "branch_gloss": "yard\u0131m, destek ve dayan\u0131\u015fma",
+          "facet_statement": "Yap\u0131ya ba\u011fl\u0131 kullan\u0131mlarda ki\u015fi ba\u015fkas\u0131ndan yard\u0131m ister veya taraflar birbirlerine yard\u0131m ederek birlikte hareket eder.",
+          "application_mode": "lexical",
+          "carrier_refs": [
+            "1:5:4:1"
+          ],
+          "trigger_refs": [
+            "1:5:3:2"
+          ],
+          "focus_return_refs": [
+            "1:5:4:1"
+          ],
+          "carrier": "The Form X verb carries the request for support from another.",
+          "independent_trigger": "Its own fronted person-object explicitly supplies the one from whom support is sought.",
+          "activation": "Form X selects the seeking-from-another arm of the facet; the explicit addressee gives that request its source.",
+          "resulting_reading": "The local Form X and personal fronted object specify aid sought from another within a wider help family.",
+          "boundary": "The exact facet also lists reciprocal help, but this Form X realizes only its requesting arm. Support is sought, not asserted to have been received; no other root branch becomes the surface gloss."
+        }
+      ],
+      "connection_refs": [],
+      "context_refs": [],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "micro:closing-vocalization",
+      "origin_candidate_id": "cand_0e5d7964935c0202a39e",
+      "represented_candidate_ids": [],
+      "title": "closing vocalization",
+      "claim": "Reported vocalization and lengthening variants change the closing sound while preserving active plural help-seeking.",
+      "mechanism": "The closing verb's sound-shape is variable in the supplied report, but the aligned 1:5:4:1 remains Form X imperfect first-person plural; sound variation therefore colors the close without introducing a new action.",
+      "reader_payoff": "Audible variation and stable semantic direction can coexist.",
+      "containment": "No exact alternate vowels, lengths, chains, or reciters are supplied for reproduction.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": [
+          "trusted"
+        ],
+        "reason": "The bounded claim uses the supplied word-analysis summary; the local alignment confirms its carrier, but detailed source rows or alternatives are not separately supplied."
+      },
+      "support_ids": [
+        "sup_4848f68d52f80b9d7d98",
+        "sup_f4430d9b6e5ede2e729c"
+      ],
+      "branch_activations": [],
+      "connection_refs": [],
+      "context_refs": [],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "micro:service-enabled-by-sought-support",
+      "origin_candidate_id": "cand_e8c827d8f3e5a9d6d8a0",
+      "represented_candidate_ids": [],
+      "title": "Exclusive allegiance and its requested support",
+      "claim": "The service pledged to You alone is paired with seeking from You alone the backing by which that service can be sustained.",
+      "mechanism": "Submissive worship at 1:5:2:1 supplies the pledged act; help-seeking at 1:5:4:1 supplies requested enabling support. Repeating the fronted object restricts both allegiance and the source on which its performance relies, turning two coordinated statements into an interdependent orientation.",
+      "reader_payoff": "From two parallel declarations, the reader sees that the capacity to sustain the declared service is itself included in the request.",
+      "containment": "Both source-trace roles and the before/after change are retained. This is a local relational inference, not a strict staged reader observation. Help is not confined to worship, and the conjunction does not promise aid or establish an exchange.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": [
+          "legacy_unbound",
+          "trusted"
+        ],
+        "reason": "The legacy_unbound HFT nomination has independently supplied focus morphology and lexical branches. The enabling relation is a bounded inference from the paired acts, not a causal entailment of the conjunction."
+      },
+      "support_ids": [
+        "sup_0184064521ac1dab2926",
+        "sup_539139bd505c5fe541cf",
+        "sup_544d84c6ce670a48d2d6",
+        "sup_a527e66a784e6e37ee8a",
+        "sup_b83a37bd600e951d76a9"
+      ],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000973/B003",
+          "facet_id": "F001",
+          "branch_gloss": "boyun e\u011ferek itaat ve tap\u0131nma",
+          "facet_statement": "Eylem, s\u0131radan itaati a\u015fan bir boyun e\u011fme ve al\u00e7alma tutumu i\u00e7erir.",
+          "application_mode": "intrinsic_cross_root",
+          "carrier_refs": [
+            "1:5:2:1"
+          ],
+          "trigger_refs": [
+            "1:5:4:1",
+            "1:5:1:1"
+          ],
+          "focus_return_refs": [
+            "1:5:2:1"
+          ],
+          "carrier": "Worship carries submissive allegiance.",
+          "independent_trigger": "The coordinated help request and the exclusive recipient qualify how that allegiance is undertaken.",
+          "activation": "The speakers pledge service while explicitly seeking its enabling support.",
+          "resulting_reading": "Submission becomes a commitment sustained in confessed dependence.",
+          "boundary": "Worship remains the primary act; no legal slavery or mechanical causation is implied."
+        },
+        {
+          "branch_ref": "root_001064/B001",
+          "facet_id": "F001",
+          "branch_gloss": "yard\u0131m, destek ve dayan\u0131\u015fma",
+          "facet_statement": "Bir ki\u015fi, topluluk veya \u015fey, ba\u015fka birinin i\u015fini yapmas\u0131na destek olur ya da o i\u015fte kullan\u0131labilecek bir destek olu\u015fturur.",
+          "application_mode": "intrinsic_cross_root",
+          "carrier_refs": [
+            "1:5:4:1"
+          ],
+          "trigger_refs": [
+            "1:5:2:1",
+            "1:5:3:2"
+          ],
+          "focus_return_refs": [
+            "1:5:4:1"
+          ],
+          "carrier": "Help supplies backing for another's action.",
+          "independent_trigger": "The preceding service names an action needing support; the second fronted object restricts the source.",
+          "activation": "The generic support relation acquires a salient local task in the worship just declared.",
+          "resulting_reading": "The request includes the backing needed to carry that allegiance.",
+          "boundary": "Support is requested, not already obtained; the task remains non-exhaustive."
+        }
+      ],
+      "connection_refs": [],
+      "context_refs": [],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "micro:dependent-agency",
+      "origin_candidate_id": "cand_dd77e4cddc8666350a84",
+      "represented_candidate_ids": [],
+      "title": "Dependence with capacity to act",
+      "claim": "The speakers' service can be heard through non-sovereign belonging while both active plural verbs preserve their agency: they undertake service and themselves seek its support.",
+      "mechanism": "The service-root's owned-person image supplies an analogy of acting without sovereign self-possession. The separate exclusive aid request makes dependence locally explicit, while both verbs retain the speakers as active subjects. This contact shifts abasement followed by an external intervention toward dependent persons actively serving and requesting support.",
+      "reader_payoff": "Dependence and action coexist: the speakers who acknowledge that their support comes from another remain the agents of both service and seeking.",
+      "containment": "Retain the HFT's owned-status role and the active-dependent-agency component of its before/after change. The legal owned-person sense is an analogy, not the lexical gloss of the worship verb, and no human saleability is asserted. Exclude the second trace role that a specific bodily maturation image supplies caught-up capacity, its completion mechanism, and that portion of the after-reading. The aid verb supports seeking capacity ordinarily, without making age or maturation part of the ayah.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": [
+          "legacy_unbound",
+          "trusted"
+        ],
+        "reason": "The active verbs and exclusive aid-source relation independently support dependent agency. The owned-status comparison remains an attributed semantic analogy. The other nominated branch lacks an independent trigger for its indispensable age-and-strength relation and is explicitly excluded."
+      },
+      "support_ids": [
+        "sup_357a455dd5f2c2e30a3b",
+        "sup_539139bd505c5fe541cf",
+        "sup_544d84c6ce670a48d2d6",
+        "sup_6efe02d0ef095431c770",
+        "sup_f7fc21a92c2133abd7f1"
+      ],
       "branch_activations": [
         {
           "branch_ref": "root_000973/B001",
           "facet_id": "F001",
-          "branch_gloss": "özgür olmayan, sahip olunan kişi",
-          "facet_statement": "Kişi özgürün karşıtı olarak bir başkasının mülkiyetinde bulunur.",
-          "application_mode": "attributed",
-          "carrier_refs": ["1:5:2:1"],
-          "trigger_refs": ["1:5:4:1"],
-          "focus_return_refs": ["1:5:1:1", "1:5:3:2"],
-          "carrier": "Naʿbudu, konuşanların sürdürdüğü birinci çoğul hizmet eylemini taşır.",
-          "independent_trigger": "Nastaʿīnu, eylem için dışarıdan destek ve güç istemeyi taşır.",
-          "activation": "Atfedilen status relation, hizmet edenleri kendi başına hükmeden değil destekle eyleyebilen bir konumda gösterir.",
-          "resulting_reading": "Konuşanlar hizmet ederken bağımsızlık iddiasını değil, yardım sayesinde işleyen bir bağımlı agency'yi dile getirir.",
-          "boundary": "Bu, kölelik hukukunu veya fiziksel güç olgunluğunun yerel literal anlamını ileri sürmez."
-        },
-        {
-          "branch_ref": "root_001064/B005",
-          "facet_id": "F001",
-          "branch_gloss": "bedensel denge ve güç olgunluğu",
-          "facet_statement": "Yapıya bağlı niteleme, bedenin yaşla birlikte belirli bir denge veya güç olgunluğuna ulaşmasını bildirir.",
-          "application_mode": "attributed",
-          "carrier_refs": ["1:5:4:1"],
-          "trigger_refs": ["1:5:2:1"],
-          "focus_return_refs": ["1:5:1:1", "1:5:3:2"],
-          "carrier": "Nastaʿīnu, konuşanların yardım isteme eylemini taşır.",
-          "independent_trigger": "Naʿbudu, destekle yürütülmesi gereken hizmet eylemini taşır.",
-          "activation": "Atfedilen strength relation, yardım istemeyi dışarıdan gelen rastgele müdahale değil, bağlı eylemi mümkün kılan kapasite olarak çerçeveler.",
-          "resulting_reading": "Hizmet, kendine yeterli bir güç gösterisi değil; yardım ile işlerlik kazanan bağımlı bir eylem olarak görünür.",
-          "boundary": "B005'in özel kadın veya yük atı nitelemeleri bu ayete aktarılmaz; yalnız trace'in atfedilen güç-kapasite rolü korunur."
+          "branch_gloss": "\u00f6zg\u00fcr olmayan, sahip olunan ki\u015fi",
+          "facet_statement": "Ki\u015fi \u00f6zg\u00fcr\u00fcn kar\u015f\u0131t\u0131 olarak bir ba\u015fkas\u0131n\u0131n m\u00fclkiyetinde bulunur.",
+          "application_mode": "analogical",
+          "carrier_refs": [
+            "1:5:2:1"
+          ],
+          "trigger_refs": [
+            "1:5:4:1",
+            "1:5:3:2"
+          ],
+          "focus_return_refs": [
+            "1:5:2:1"
+          ],
+          "carrier": "Worshipful service carries a root-associated image of a person belonging to another rather than possessing sovereign independence.",
+          "independent_trigger": "The same active speakers seek support exclusively from the addressed other.",
+          "activation": "The help request makes non-self-sufficiency explicit while active worship preserves action; the owned-person image supplies the status side of this relation.",
+          "resulting_reading": "Service becomes agency exercised from dependence.",
+          "boundary": "The source facet denotes legal ownership; only its asymmetry of self-possession is analogically related to the speakers. Their legal status and saleability are not stated."
         }
       ],
       "connection_refs": [],
@@ -839,50 +1224,93 @@
       "semantic_obligation_refs": []
     },
     {
-      "finding_ref": "micro:hft-honoring-service",
+      "finding_ref": "micro:honoring-service",
       "origin_candidate_id": "cand_c24a239caf9fa01f4908",
       "represented_candidate_ids": [],
-      "title": "Atfedilen onurlandırıcı hizmet",
-      "claim": "Sağlanan HFT izi, hizmeti yalnızca aşağı doğru boyun eğme değil, muhatabı onurlandıran ve istenen destekle sürdürülen bir ilişki olarak da görünür kılar.",
-      "mechanism": "Naʿbudu taşıyıcısındaki atfedilen saygı ve hizmet görme rolü, nastaʿīnu taşıyıcısındaki yardım ve destek rolüyle temas eder; tekrar edilen nesne bu ilişkinin aynı muhataba döndüğünü gösterir.",
-      "reader_payoff": "Okur hizmetin muhatabı yücelten yüzünü ve bu yüceltmenin konuşanların kendi kendine yeterlik iddiası olmadan yardım istemeyle birlikte durduğunu görür.",
-      "containment": "Bu atfedilen ilişki B006'nın literal bütün kullanım alanlarını veya yardımın gerçekleştiğini iddia etmez; birincil hizmet ve yardım cümleleri korunur.",
+      "title": "Service that honors its recipient",
+      "claim": "Worship's lowering posture also honors and magnifies the one served, while the accompanying aid request keeps this honoring act dependent on support.",
+      "mechanism": "The service-root's honored-and-served person shifts attention from the worshippers' posture to the recipient's recognized dignity. The exclusive fronted recipient makes this relational endpoint local, and the separate help-seeking verb makes the honoring action one for which the speakers seek backing.",
+      "reader_payoff": "From worship seen through the speakers' self-lowering, the reader also sees the high regard rendered to the addressee and the dependence of that rendering.",
+      "containment": "Retain both HFT roles and its before/after shift. B006 describes an honored, served recipient, not a lexical conversion of the active verb into a passive adjective. The act acknowledges dignity; it does not increase the addressee's intrinsic status. Dependence does not erase active honoring.",
       "epistemic": {
         "status": "qualified",
-        "source_trust": ["legacy_unbound"],
-        "reason": "The trace supplies matching focus coordinates, roots, roles, and the exclusive-object contact, but it has legacy-unbound source trust."
+        "source_trust": [
+          "legacy_unbound",
+          "trusted"
+        ],
+        "reason": "The legacy_unbound HFT has a supplied bare recipient-description branch whose service relation explicitly contacts the active verb and fronted object. The local aid verb independently grounds the requested sustaining support."
       },
-      "support_ids": ["sup_64eeab6c23d50584f9b3"],
+      "support_ids": [
+        "sup_539139bd505c5fe541cf",
+        "sup_544d84c6ce670a48d2d6",
+        "sup_64eeab6c23d50584f9b3",
+        "sup_845933c4327c7c4d928c"
+      ],
       "branch_activations": [
         {
           "branch_ref": "root_000973/B006",
           "facet_id": "F001",
-          "branch_gloss": "saygı gösterilip hizmet edilen kişi",
-          "facet_statement": "Kişi çevresindekilerce saygıdeğer ve yüce tutulur.",
-          "application_mode": "attributed",
-          "carrier_refs": ["1:5:2:1"],
-          "trigger_refs": ["1:5:4:1"],
-          "focus_return_refs": ["1:5:1:1", "1:5:3:2"],
-          "carrier": "Naʿbudu, konuşanların muhataba yönelttiği hizmet eylemini taşır.",
-          "independent_trigger": "Nastaʿīnu, aynı muhataptan istenen desteği taşır.",
-          "activation": "Atfedilen honoring role, hizmeti yalnızca konuşanın alçalması değil, hizmet edilen muhatabın yüceltilmesi olarak renklendirir.",
-          "resulting_reading": "Hizmet, muhatabı onurlandıran bir eylem olarak ve bu eylemi sürdürebilmek için yine ondan istenen destekle birlikte görünür.",
-          "boundary": "Bu, B006'nın bütün saygı ve hizmet kullanımlarını veya hizmetin kendi başına başarıldığını söylemez."
+          "branch_gloss": "sayg\u0131 g\u00f6sterilip hizmet edilen ki\u015fi",
+          "facet_statement": "Ki\u015fi \u00e7evresindekilerce sayg\u0131de\u011fer ve y\u00fcce tutulur.",
+          "application_mode": "intrinsic_cross_root",
+          "carrier_refs": [
+            "1:5:2:1"
+          ],
+          "trigger_refs": [
+            "1:5:1:1",
+            "1:5:4:1"
+          ],
+          "focus_return_refs": [
+            "1:5:2:1"
+          ],
+          "carrier": "Service has an honored recipient in the branch's relational description.",
+          "independent_trigger": "The fronted exclusive object identifies the recipient, and the aid request keeps the act of honoring dependent.",
+          "activation": "The active worship relation is viewed from its honored endpoint while the speakers seek support for performing it.",
+          "resulting_reading": "Worship is also the speakers' recognition of the addressee's high regard.",
+          "boundary": "B006 names the recipient's treatment; no active causative sense or increase in intrinsic divine greatness is invented."
+        },
+        {
+          "branch_ref": "root_000973/B006",
+          "facet_id": "F002",
+          "branch_gloss": "sayg\u0131 g\u00f6sterilip hizmet edilen ki\u015fi",
+          "facet_statement": "Bu y\u00fcksek konumun sonucu olarak ki\u015fiye hizmet edilir.",
+          "application_mode": "intrinsic_cross_root",
+          "carrier_refs": [
+            "1:5:2:1"
+          ],
+          "trigger_refs": [
+            "1:5:1:1",
+            "1:5:4:1"
+          ],
+          "focus_return_refs": [
+            "1:5:2:1"
+          ],
+          "carrier": "The respected recipient is served in consequence of being held high.",
+          "independent_trigger": "The exclusive address singles out the one served; help-seeking supplies the speakers' dependence in rendering service.",
+          "activation": "The source's dignity-to-service relation explains why the speakers' act can magnify its recipient without being self-sufficient.",
+          "resulting_reading": "Honoring is enacted through service whose support is sought.",
+          "boundary": "This associated facet accompanies F001 and preserves the source's recipient-oriented relation."
         },
         {
           "branch_ref": "root_001064/B001",
           "facet_id": "F001",
-          "branch_gloss": "yardım, destek ve dayanışma",
-          "facet_statement": "Bir kişi, topluluk veya şey, başka birinin işini yapmasına destek olur ya da o işte kullanılabilecek bir destek oluşturur.",
-          "application_mode": "attributed",
-          "carrier_refs": ["1:5:4:1"],
-          "trigger_refs": ["1:5:2:1"],
-          "focus_return_refs": ["1:5:1:1", "1:5:3:2"],
-          "carrier": "Nastaʿīnu, konuşanların destek isteme eylemini taşır.",
-          "independent_trigger": "Naʿbudu, yardımın destekle sürmesi beklenen hizmet eylemini taşır.",
-          "activation": "Yardım dalı, onurlandırıcı hizmeti kendi kendine yeterli bir gösteri olmaktan çıkarıp destek isteyen bir ilişki olarak tamamlar.",
-          "resulting_reading": "Onurlandırma ve yardım isteme aynı muhataba dönük, birbirini açıklayan iki hareket olarak okunur.",
-          "boundary": "Bu atfedilen temas karşılıklı dayanışmanın tüm biçimlerini veya yardımın sonucunu ayete eklemez."
+          "branch_gloss": "yard\u0131m, destek ve dayan\u0131\u015fma",
+          "facet_statement": "Bir ki\u015fi, topluluk veya \u015fey, ba\u015fka birinin i\u015fini yapmas\u0131na destek olur ya da o i\u015fte kullan\u0131labilecek bir destek olu\u015fturur.",
+          "application_mode": "intrinsic_cross_root",
+          "carrier_refs": [
+            "1:5:4:1"
+          ],
+          "trigger_refs": [
+            "1:5:2:1"
+          ],
+          "focus_return_refs": [
+            "1:5:4:1"
+          ],
+          "carrier": "Help is backing for an action.",
+          "independent_trigger": "Worship names the service through which the recipient is honored.",
+          "activation": "The help request meets the honoring action as its sought support.",
+          "resulting_reading": "The speakers do not claim their honoring act originates in self-sufficient power.",
+          "boundary": "The relation is a local inference and does not promise the request's fulfillment."
         }
       ],
       "connection_refs": [],
@@ -890,50 +1318,192 @@
       "semantic_obligation_refs": []
     },
     {
-      "finding_ref": "micro:hft-watchful-care",
+      "finding_ref": "micro:watchful-care-aid",
       "origin_candidate_id": "cand_892164f326ea04190150",
       "represented_candidate_ids": [],
-      "title": "Atfedilen gözetim altında yardım",
-      "claim": "Keşifsel HFT izi, yardım istemeyi yalnızca dışarıdan eklenecek bir kuvvet olarak değil, hizmet eden topluluğun dikkatle korunup gözetildiği bir yardım imgesi olarak da açar.",
-      "mechanism": "Nastaʿīnu taşıyıcısına bağlanan atfedilen koruyup-gözetme rolü, naʿbudu'daki hizmet ilişkisiyle temas eder ve tekrarlanan nesne üzerinden aynı muhataba döner.",
-      "reader_payoff": "Okur yardımın müdahale kadar dikkat ve koruma altında tutulma biçiminde de hayal edilebildiğini görür.",
-      "containment": "Bu, supplied outlier'ın açıkça exploratory ve non-dominant mapping olarak nitelediği attributed activation'dır; nastaʿīnu'nun sözlükte doğrudan gözetmek demesi veya yardım anlamının yerini gözetimin alması iddia edilmez.",
+      "title": "Help imagined as protective attention",
+      "claim": "The exclusive aid request may be heard as placing the serving community under attentive, preserving care, with their honoring service performed within that attention.",
+      "mechanism": "The packet's explicit non-dominant mapping links the help carrier at 1:5:4:1 to the protective-watchfulness branch. Honoring service at 1:5:2:1 supplies an independent relational act: sustained regard for the addressee meets a source image in which regard for a person protects them. This contact gives requested aid the exploratory form of preserving attention, while the shared address joins the request to the serving community.",
+      "reader_payoff": "From aid imagined as intervention or added force, the reader may also perceive sustained watchful presence around the act of service.",
+      "containment": "The exact HFT watchful-care role, honoring-service role, before/after change, and containment are retained. The QAC root remains the help root; the eye-root link is a supplied non-dominant mapping, not an alternative morphological derivation. Protective attention is an attributed resonance, never the verb's lexical gloss. No anatomical eye, surveillance, harmful gaze, reciprocal obligation, or guarantee of protection is asserted.",
       "epistemic": {
         "status": "exploratory",
-        "source_trust": ["legacy_unbound"],
-        "reason": "The exact focus word index, supplied mapped root, attributed role, and service contact are present, but the HFT payload itself marks the relation exploratory and requires its stated mapping boundary."
+        "source_trust": [
+          "legacy_unbound",
+          "trusted"
+        ],
+        "reason": "The trace is legacy_unbound, but its word indices agree with the supplied QAC words and its split-root mapping is explicitly present. The protective-watchfulness branch is independently supplied. Its local application remains attributed because morphology alone does not establish the eye-root resonance."
       },
-      "support_ids": ["sup_40eb955fe0f9f72f362c"],
+      "support_ids": [
+        "sup_40eb955fe0f9f72f362c",
+        "sup_539139bd505c5fe541cf",
+        "sup_544d84c6ce670a48d2d6",
+        "sup_a527e66a784e6e37ee8a"
+      ],
       "branch_activations": [
-        {
-          "branch_ref": "root_000973/B006",
-          "facet_id": "F001",
-          "branch_gloss": "saygı gösterilip hizmet edilen kişi",
-          "facet_statement": "Kişi çevresindekilerce saygıdeğer ve yüce tutulur.",
-          "application_mode": "attributed",
-          "carrier_refs": ["1:5:2:1"],
-          "trigger_refs": ["1:5:4:1"],
-          "focus_return_refs": ["1:5:1:1", "1:5:3:2"],
-          "carrier": "Naʿbudu, hizmet eden topluluğun ilişki içindeki eylemini taşır.",
-          "independent_trigger": "Nastaʿīnu, yardımın aynı muhataptan istendiğini taşır.",
-          "activation": "Atfedilen honoring-service rolü, koruyucu dikkat imgesinin üzerinde işlediği hizmet ilişkisini sağlar.",
-          "resulting_reading": "Yardım isteyen topluluk, onurlandırdığı muhatabın koruyucu dikkatine açık bir hizmet topluluğu olarak görünür.",
-          "boundary": "B006'nın saygı ve hizmet çekirdeği burada yalnız HFT'nin attributed contact'ı kadar kullanılır; gözetim branch'i bu taşıyıcıdan türetilmez."
-        },
         {
           "branch_ref": "root_001069/B003",
           "facet_id": "F001",
-          "branch_gloss": "koruyup gözetme",
-          "facet_statement": "Bir kişiyi göz önünde bulundurarak korumayı, kollamayı ve gözetmeyi belirtir.",
+          "branch_gloss": "koruyup g\u00f6zetme",
+          "facet_statement": "Bir ki\u015fiyi g\u00f6z \u00f6n\u00fcnde bulundurarak korumay\u0131, kollamay\u0131 ve g\u00f6zetmeyi belirtir.",
           "application_mode": "attributed",
-          "carrier_refs": ["1:5:4:1"],
-          "trigger_refs": ["1:5:2:1"],
-          "focus_return_refs": ["1:5:1:1", "1:5:3:2"],
-          "carrier": "Nastaʿīnu, konuşanların yardım arama ve destek isteme eylemini taşır.",
-          "independent_trigger": "Naʿbudu, bu yardımın ilişkisel olarak yöneldiği hizmet eylemini taşır.",
-          "activation": "Supplied outlier trace, yardım isteme ile hizmet eden topluluğun göz önünde tutulması arasında bir atfedilen temas kurar.",
-          "resulting_reading": "Yardım, hizmetin üzerine eklenen çıplak kuvvet değil, hizmet edenlerin koruyucu dikkat altında tutulması olarak da duyulur.",
-          "boundary": "Bu yalnız trace'in exploratory non-dominant mapping'idir; nastaʿīnu'nun doğrudan gözetim fiili olduğu veya yardım dalının dışlandığı söylenmez."
+          "carrier_refs": [
+            "1:5:4:1"
+          ],
+          "trigger_refs": [
+            "1:5:2:1",
+            "1:5:3:2"
+          ],
+          "focus_return_refs": [
+            "1:5:4:1"
+          ],
+          "carrier": "Ordinary seeking of aid carries, through the supplied split mapping, an attributed image of protective watchfulness.",
+          "independent_trigger": "The honoring act of service and renewed personal address supply the relationship within which care is sought.",
+          "activation": "The service is an ongoing act before its addressed recipient; the mapped protection image makes help imaginable as keeping that serving group in preserving attention.",
+          "resulting_reading": "Aid may take the imagined shape of attentive care surrounding the service.",
+          "boundary": "The map permits review but does not prove lexical activation. This is the exact HFT role, qualified as a possibility; QAC still analyzes the help root."
+        },
+        {
+          "branch_ref": "root_000973/B006",
+          "facet_id": "F001",
+          "branch_gloss": "sayg\u0131 g\u00f6sterilip hizmet edilen ki\u015fi",
+          "facet_statement": "Ki\u015fi \u00e7evresindekilerce sayg\u0131de\u011fer ve y\u00fcce tutulur.",
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "1:5:2:1"
+          ],
+          "trigger_refs": [
+            "1:5:4:1",
+            "1:5:1:1"
+          ],
+          "focus_return_refs": [
+            "1:5:2:1"
+          ],
+          "carrier": "The service-root's recipient description supplies honor and magnification.",
+          "independent_trigger": "The aid request under the same exclusive address is the separate relation in which protective attention is being explored.",
+          "activation": "Honoring the addressee identifies the community's relational act, so the watchful-care possibility returns to an actual act performed here.",
+          "resulting_reading": "The attentive-care image surrounds a community actively honoring its addressee.",
+          "boundary": "The direction of honoring is toward the addressee; protective care is requested toward the speakers. These directions are distinguished, not converted into a contractual reciprocity."
+        },
+        {
+          "branch_ref": "root_000973/B006",
+          "facet_id": "F002",
+          "branch_gloss": "sayg\u0131 g\u00f6sterilip hizmet edilen ki\u015fi",
+          "facet_statement": "Bu y\u00fcksek konumun sonucu olarak ki\u015fiye hizmet edilir.",
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "1:5:2:1"
+          ],
+          "trigger_refs": [
+            "1:5:4:1"
+          ],
+          "focus_return_refs": [
+            "1:5:2:1"
+          ],
+          "carrier": "The honored recipient receives service.",
+          "independent_trigger": "The separate request seeks aid for the speakers acting in that service relation.",
+          "activation": "The actual service verb supplies the activity performed under the attributed protective attention.",
+          "resulting_reading": "Watchful presence concerns sustained service, not a detached visual image.",
+          "boundary": "This associated service facet accompanies the honor core. It does not lexically reparse the active verb as a recipient noun."
+        }
+      ],
+      "connection_refs": [],
+      "context_refs": [],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "micro:plural-speakers-singular-addressee",
+      "origin_candidate_id": null,
+      "represented_candidate_ids": [],
+      "title": "One addressed You and a shared acting We",
+      "claim": "Both acts are spoken by a plural We to the same singular You, making dependence as collective as service.",
+      "mechanism": "First-person plural agreement in 1:5:2:1 and 1:5:4:1 meets second-person singular address in 1:5:1:1 and 1:5:3:2. Repetition preserves this number asymmetry across the change of act: the speaking group serves together and speaks its need together.",
+      "reader_payoff": "The aid request does not retreat into a private I after the collective declaration; the same shared voice occupies both acts.",
+      "containment": "Plural morphology establishes the speaking form, not the historical size, identity, institutional boundaries, or internal unanimity of an actual group. A single reciter can utter this supplied plural voice.",
+      "epistemic": {
+        "status": "grounded",
+        "source_trust": [
+          "trusted"
+        ],
+        "reason": "This is an independently noticed relation among four fully aligned local morphemes, corroborated by the supplied plural-verb and repeated-addressee evidence."
+      },
+      "support_ids": [
+        "sup_2453191df6112d1e0f5b",
+        "sup_539139bd505c5fe541cf",
+        "sup_544d84c6ce670a48d2d6",
+        "sup_7d314956b5adb85a297c"
+      ],
+      "branch_activations": [],
+      "connection_refs": [],
+      "context_refs": [],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "micro:service-and-belonging",
+      "origin_candidate_id": null,
+      "represented_candidate_ids": [],
+      "title": "Performed service and acknowledged belonging",
+      "claim": "The plural declaration of worship may also make the speakers' belonging to the addressed divine recipient perceptible as a shared relation expressed through their service.",
+      "mechanism": "The service root also names a person as belonging to God and, in its plural extension, an affiliated community. The distinct aid-seeking verb addresses the same source with the same plural subject, bringing the act of service into contact with a sustained relation of dependence. Their worship can thus voice an acknowledged belonging, while act and status remain distinct.",
+      "reader_payoff": "The shared declaration is intelligible as expression of a relationship as well as performance of an act.",
+      "containment": "The lexical source predicates belonging on createdness and can extend to every person; this local resonance applies only to the speaking group as presented and does not derive a universal doctrine or an exclusive community membership test from the verb. The focus remains an active verb, not the branch's noun for a servant or community. The relation is distinct from legal ownership.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": [
+          "trusted"
+        ],
+        "reason": "This uncandidate branch has supplied lexical facets and a mapped focus carrier. The second plural act and common addressed source provide an independent relation; applying the nominal belonging field to the active declaration is a bounded inference."
+      },
+      "support_ids": [
+        "sup_2453191df6112d1e0f5b",
+        "sup_357a455dd5f2c2e30a3b",
+        "sup_539139bd505c5fe541cf",
+        "sup_544d84c6ce670a48d2d6"
+      ],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000973/B002",
+          "facet_id": "F001",
+          "branch_gloss": "Tanr\u0131'ya ait say\u0131lan insan veya topluluk",
+          "facet_statement": "Her insan yarat\u0131lm\u0131\u015fl\u0131k ve aitlik bak\u0131m\u0131ndan Tanr\u0131'n\u0131n kulu say\u0131labilir.",
+          "application_mode": "intrinsic_cross_root",
+          "carrier_refs": [
+            "1:5:2:1"
+          ],
+          "trigger_refs": [
+            "1:5:4:1",
+            "1:5:3:2"
+          ],
+          "focus_return_refs": [
+            "1:5:2:1"
+          ],
+          "carrier": "Worshipful service has a root-associated nominal relation of a person belonging to God by createdness.",
+          "independent_trigger": "The separate active plural help request addresses the same source of dependence.",
+          "activation": "Performing service and seeking aid from the same addressed recipient makes belonging a possible relational background to the acts.",
+          "resulting_reading": "The speakers' service can express acknowledged belonging as well as an undertaken deed.",
+          "boundary": "Createdness is the lexical source's ground of belonging, not a new independently proven premise about every person from this ayah. Do not turn the active verb into the noun or legal status."
+        },
+        {
+          "branch_ref": "root_000973/B002",
+          "facet_id": "F002",
+          "branch_gloss": "Tanr\u0131'ya ait say\u0131lan insan veya topluluk",
+          "facet_statement": "\u00c7o\u011ful adland\u0131rma, Tanr\u0131'ya ba\u011fl\u0131 toplulu\u011fu veya onun taraf\u0131nda bulunanlar\u0131 g\u00f6sterebilir.",
+          "application_mode": "intrinsic_cross_root",
+          "carrier_refs": [
+            "1:5:2:1"
+          ],
+          "trigger_refs": [
+            "1:5:4:1",
+            "1:5:3:2"
+          ],
+          "focus_return_refs": [
+            "1:5:2:1"
+          ],
+          "carrier": "The same nominal field can designate an affiliated community.",
+          "independent_trigger": "Plural aid-seeking repeats the plural service subject and the common singular addressee.",
+          "activation": "Shared dependency makes the plural extension relationally relevant: the We performing service is also the We seeking support from its addressed source.",
+          "resulting_reading": "A community-shaped belonging becomes audible through the parallel acts.",
+          "boundary": "This extension accompanies the core belonging facet. It does not identify an institutional group, declare outsiders excluded, or reinterpret verbal agreement as a literal plural noun."
         }
       ],
       "connection_refs": [],
@@ -942,7 +1512,16 @@
     }
   ],
   "friction_notes": [
-    "Dört HFT kaydı legacy_unbound durumundadır; kabul edilen HFT bulguları bağımsız sözlük etkinliği değil, exact focus trace'e dayalı attributed evidence olarak tutulmuştur.",
-    "Paket seçilmiş context unit veya connection kaydı sağlamadığından, focus dışı carrier/trigger üzerinden ek bir micro activation kurulmamıştır."
+    "The evidence boundary was the inline lane packet only. It supplies 29 candidates, 37 branch records, 34 supports, no connection records, and no selected context units. All 29 candidates were decided exactly once; available branch facets were inspected for independent local contact without treating availability as activation.",
+    "All five word-analysis units have accepted bridge links and no unresolved or shared morphemes. Analysis 1:5:3 is the conjunction at QAC 1:5:3:1; analysis 1:5:4 is the second pronoun at QAC 1:5:3:2; analysis 1:5:5 is the help verb at QAC 1:5:4:1. Activations use QAC morpheme refs to avoid the ambiguous three-part namespaces. HFT word indices 2 and 4 agree with QAC words, not the five-entry analysis numbering.",
+    "The packet contains no root_branch_options field, semantic_obligations arrays, or required_branch_facets arrays. The full supplied branch_registry served as the branch index. Semantic obligations were accounted for in substantive claims, mechanisms, containment, and decision reasons; semantic_obligation_refs and semantic_obligation_exclusions remain empty because no exact obligation IDs were supplied.",
+    "Some micro-routed topic summaries depend on absent non-focus surfaces: previous praise and the address pivot, forward guidance and path discrimination, external worship recurrence, and patience-linked aid. Local cores are retained where independently supported, exact supplied external contexts are explicitly excluded where identifiable, and the wholly external patience recurrence is rejected here. These are micro evidence limits, not negative judgments on another lane's findings.",
+    "Variant summaries are citable evidence, but the cited underlying variant rows and alternate forms are not supplied. Their bounded sound, segmentation, voice, and mood observations survive with qualification; no alternate spelling, reciter, or detailed dispute is reconstructed.",
+    "All four HFT nominations were reviewed. Their reader identity is legacy_unbound and their trace is reconstructed, not a strictly staged experiment. Source confidence labels do not rank findings. Three survive completely with appropriate qualification; dependent agency is narrowed because the bodily maturation branch lacks the required independent age-and-strength contact.",
+    "The watchful-care finding depends on the explicit non-dominant help-to-eye root mapping. This mapping provides a candidate carrier, not a competing QAC derivation. The protective-care application is retained only as the attributed HFT possibility, returned through the actual help verb and its relation to honoring service.",
+    "Two independently discovered findings preserve the plural-speaker/singular-addressee relation and the distinction between performed service and shared belonging. Rootless-refrain and rootless-parallelism are exact whole-ayah semantic duplicates and share one finding; the second restriction, repeated referent, and clause structure remain distinct.",
+    "Legal ownership and an honored recipient are source-side statuses or descriptions associated with the service root, not alternate lexical parsings of the active worship verb. Their local applications keep the direction of service and the speakers' agency explicit.",
+    "No independent staged-reader responses, reader-walk payloads, or Layer-1 consideredNotPrimary inventory are supplied in this lane. Their missing contents were not inferred from general instructions or provenance pointers. No surah channel, channel maturity, or surah thesis is established.",
+    "This is the first-turn discovery artifact only. Composition and prose landing maps remain for the requested follow-up. The started monitor event was emitted under v5-s1-astra-micro-1-5; no terminal lifecycle event is part of this turn."
   ]
 }

@@ -7,7 +7,7 @@
     {
       "candidate_id": "cand_d584a6130d5e5d7473c4",
       "decision": "accept",
-      "reason": "The supplied focus evidence gives this docket item a distinct semantic relation and reader payoff; retain its complete bounded claim.",
+      "reason": "The complete topic survives at its supplied semantic scope and qualification; its carrier and local relation are stated in the dedicated finding.",
       "finding_refs": [
         "micro:authority-hierarchy"
       ],
@@ -19,9 +19,9 @@
     {
       "candidate_id": "cand_d096bda5e280690e7233",
       "decision": "accept",
-      "reason": "The supplied focus evidence gives this docket item a distinct semantic relation and reader payoff; retain its complete bounded claim.",
+      "reason": "The complete topic survives at its supplied semantic scope and qualification; its carrier and local relation are stated in the dedicated finding.",
       "finding_refs": [
-        "micro:construct-definiteness"
+        "micro:head-definiteness"
       ],
       "branch_exclusions": [],
       "facet_exclusions": [],
@@ -31,9 +31,9 @@
     {
       "candidate_id": "cand_10e2975e2a43470504da",
       "decision": "accept",
-      "reason": "The supplied focus evidence gives this docket item a distinct semantic relation and reader payoff; retain its complete bounded claim.",
+      "reason": "The complete topic survives at its supplied semantic scope and qualification; its carrier and local relation are stated in the dedicated finding.",
       "finding_refs": [
-        "micro:praise-chain"
+        "micro:genitive-continuation"
       ],
       "branch_exclusions": [],
       "facet_exclusions": [],
@@ -42,22 +42,33 @@
     },
     {
       "candidate_id": "cand_bc7ccb77c27d95f4e829",
-      "decision": "accept",
-      "reason": "The supplied focus evidence gives this docket item a distinct semantic relation and reader payoff; retain its complete bounded claim.",
-      "finding_refs": [
-        "micro:ownership-petition-bridge"
-      ],
+      "decision": "reject",
+      "reason": "The candidate's distinctive claim is the bridge from mercy and dominion to later worship and guidance. Those contacts require absent non-focus occurrences; the isolated title does not establish that sequence. The full forward/intertextual payoff is excluded, not reclassified as a local ownership finding.",
+      "finding_refs": [],
       "branch_exclusions": [],
       "facet_exclusions": [],
-      "context_exclusions": [],
+      "context_exclusions": [
+        {
+          "context_ref": "3:26",
+          "reason": "The source names this ayah, but its surface and activating occurrences are not supplied as micro context; no substantive cross-ayah reading is retained."
+        },
+        {
+          "context_ref": "1:5",
+          "reason": "The source names this ayah, but its surface and activating occurrences are not supplied as micro context; no substantive cross-ayah reading is retained."
+        },
+        {
+          "context_ref": "1:6",
+          "reason": "The source names this ayah, but its surface and activating occurrences are not supplied as micro context; no substantive cross-ayah reading is retained."
+        }
+      ],
       "semantic_obligation_exclusions": []
     },
     {
       "candidate_id": "cand_1d7af88ee1616911f9ff",
       "decision": "accept",
-      "reason": "The supplied focus evidence gives this docket item a distinct semantic relation and reader payoff; retain its complete bounded claim.",
+      "reason": "The complete topic survives at its supplied semantic scope and qualification; its carrier and local relation are stated in the dedicated finding.",
       "finding_refs": [
-        "micro:marked-divine-possessor"
+        "micro:marked-possessor-form"
       ],
       "branch_exclusions": [],
       "facet_exclusions": [],
@@ -67,9 +78,9 @@
     {
       "candidate_id": "cand_e2881ce3aeac695d0ee6",
       "decision": "accept",
-      "reason": "The supplied focus evidence gives this docket item a distinct semantic relation and reader payoff; retain its complete bounded claim.",
+      "reason": "The complete topic survives at its supplied semantic scope and qualification; its carrier and local relation are stated in the dedicated finding.",
       "finding_refs": [
-        "micro:ownership-disposal"
+        "micro:disposal-force"
       ],
       "branch_exclusions": [],
       "facet_exclusions": [],
@@ -79,9 +90,9 @@
     {
       "candidate_id": "cand_38982be08ab072d2bed3",
       "decision": "accept",
-      "reason": "The supplied focus evidence gives this docket item a distinct semantic relation and reader payoff; retain its complete bounded claim.",
+      "reason": "The complete topic survives at its supplied semantic scope and qualification; its carrier and local relation are stated in the dedicated finding.",
       "finding_refs": [
-        "micro:qiraat-authority-range"
+        "micro:reading-field-authority"
       ],
       "branch_exclusions": [],
       "facet_exclusions": [],
@@ -91,9 +102,9 @@
     {
       "candidate_id": "cand_2c15ff8bded81f35718e",
       "decision": "accept",
-      "reason": "The supplied focus evidence gives this docket item a distinct semantic relation and reader payoff; retain its complete bounded claim.",
+      "reason": "The complete topic survives at its supplied semantic scope and qualification; its carrier and local relation are stated in the dedicated finding.",
       "finding_refs": [
-        "micro:sound-head-word"
+        "micro:head-sound"
       ],
       "branch_exclusions": [],
       "facet_exclusions": [],
@@ -103,7 +114,7 @@
     {
       "candidate_id": "cand_730efd9f2f5303871ec2",
       "decision": "accept",
-      "reason": "The supplied focus evidence gives this docket item a distinct semantic relation and reader payoff; retain its complete bounded claim.",
+      "reason": "The complete topic survives at its supplied semantic scope and qualification; its carrier and local relation are stated in the dedicated finding.",
       "finding_refs": [
         "micro:standing-ownership"
       ],
@@ -115,7 +126,7 @@
     {
       "candidate_id": "cand_1f877dfa4ec3fe370653",
       "decision": "accept",
-      "reason": "The supplied focus evidence gives this docket item a distinct semantic relation and reader payoff; retain its complete bounded claim.",
+      "reason": "The complete topic survives at its supplied semantic scope and qualification; its carrier and local relation are stated in the dedicated finding.",
       "finding_refs": [
         "micro:named-day"
       ],
@@ -127,7 +138,7 @@
     {
       "candidate_id": "cand_6d0df9f1bcd7ffaece09",
       "decision": "accept",
-      "reason": "The supplied focus evidence gives this docket item a distinct semantic relation and reader payoff; retain its complete bounded claim.",
+      "reason": "The complete topic survives at its supplied semantic scope and qualification; its carrier and local relation are stated in the dedicated finding.",
       "finding_refs": [
         "micro:elastic-event-time"
       ],
@@ -138,22 +149,43 @@
     },
     {
       "candidate_id": "cand_77edb4e22927fa721fc3",
-      "decision": "accept",
-      "reason": "The supplied focus evidence gives this docket item a distinct semantic relation and reader payoff; retain its complete bounded claim.",
+      "decision": "narrow",
+      "reason": "Retain the local collocation and its eschatological payoff; exclude the cross-ayah demonstration of recurrence because the named surfaces are absent.",
       "finding_refs": [
-        "micro:reckoning-formula"
+        "micro:formula-entry"
       ],
       "branch_exclusions": [],
       "facet_exclusions": [],
-      "context_exclusions": [],
+      "context_exclusions": [
+        {
+          "context_ref": "51:12",
+          "reason": "The source names this ayah, but its surface and activating occurrences are not supplied as micro context; no substantive cross-ayah reading is retained."
+        },
+        {
+          "context_ref": "70:26",
+          "reason": "The source names this ayah, but its surface and activating occurrences are not supplied as micro context; no substantive cross-ayah reading is retained."
+        },
+        {
+          "context_ref": "82:17",
+          "reason": "The source names this ayah, but its surface and activating occurrences are not supplied as micro context; no substantive cross-ayah reading is retained."
+        },
+        {
+          "context_ref": "82:18",
+          "reason": "The source names this ayah, but its surface and activating occurrences are not supplied as micro context; no substantive cross-ayah reading is retained."
+        },
+        {
+          "context_ref": "83:11",
+          "reason": "The source names this ayah, but its surface and activating occurrences are not supplied as micro context; no substantive cross-ayah reading is retained."
+        }
+      ],
       "semantic_obligation_exclusions": []
     },
     {
       "candidate_id": "cand_cb477dad6b63424e0da0",
       "decision": "accept",
-      "reason": "The supplied focus evidence gives this docket item a distinct semantic relation and reader payoff; retain its complete bounded claim.",
+      "reason": "The complete topic survives at its supplied semantic scope and qualification; its carrier and local relation are stated in the dedicated finding.",
       "finding_refs": [
-        "micro:middle-idafa-hinge"
+        "micro:middle-hinge"
       ],
       "branch_exclusions": [],
       "facet_exclusions": [],
@@ -163,7 +195,7 @@
     {
       "candidate_id": "cand_8823bb766dbdf09fc3d9",
       "decision": "accept",
-      "reason": "The supplied focus evidence gives this docket item a distinct semantic relation and reader payoff; retain its complete bounded claim.",
+      "reason": "The complete topic survives at its supplied semantic scope and qualification; its carrier and local relation are stated in the dedicated finding.",
       "finding_refs": [
         "micro:stable-time-noun"
       ],
@@ -175,7 +207,7 @@
     {
       "candidate_id": "cand_1db655de3c463b2220da",
       "decision": "accept",
-      "reason": "The supplied focus evidence gives this docket item a distinct semantic relation and reader payoff; retain its complete bounded claim.",
+      "reason": "The complete topic survives at its supplied semantic scope and qualification; its carrier and local relation are stated in the dedicated finding.",
       "finding_refs": [
         "micro:genitive-case-contrast"
       ],
@@ -186,22 +218,31 @@
     },
     {
       "candidate_id": "cand_e60580c7d8041ce6afdd",
-      "decision": "accept",
-      "reason": "The supplied focus evidence gives this docket item a distinct semantic relation and reader payoff; retain its complete bounded claim.",
+      "decision": "narrow",
+      "reason": "Retain the local scene-making role of Day; exclude the candidate's before/after movement toward later worship and path outcomes.",
       "finding_refs": [
-        "micro:temporal-petition-turn"
+        "micro:local-accountability-scene"
       ],
       "branch_exclusions": [],
       "facet_exclusions": [],
-      "context_exclusions": [],
+      "context_exclusions": [
+        {
+          "context_ref": "1:5",
+          "reason": "The source names this ayah, but its surface and activating occurrences are not supplied as micro context; no substantive cross-ayah reading is retained."
+        },
+        {
+          "context_ref": "1:7",
+          "reason": "The source names this ayah, but its surface and activating occurrences are not supplied as micro context; no substantive cross-ayah reading is retained."
+        }
+      ],
       "semantic_obligation_exclusions": []
     },
     {
       "candidate_id": "cand_267db6728a85591e6977",
       "decision": "accept",
-      "reason": "The supplied focus evidence gives this docket item a distinct semantic relation and reader payoff; retain its complete bounded claim.",
+      "reason": "The complete topic survives at its supplied semantic scope and qualification; its carrier and local relation are stated in the dedicated finding.",
       "finding_refs": [
-        "micro:sound-cadence"
+        "micro:sound-binding"
       ],
       "branch_exclusions": [],
       "facet_exclusions": [],
@@ -211,9 +252,9 @@
     {
       "candidate_id": "cand_bed7dfd1a0af1a64ff96",
       "decision": "accept",
-      "reason": "The supplied focus evidence gives this docket item a distinct semantic relation and reader payoff; retain its complete bounded claim.",
+      "reason": "The complete topic survives at its supplied semantic scope and qualification; its carrier and local relation are stated in the dedicated finding.",
       "finding_refs": [
-        "micro:closure-content"
+        "micro:reckoning-content"
       ],
       "branch_exclusions": [],
       "facet_exclusions": [],
@@ -222,22 +263,39 @@
     },
     {
       "candidate_id": "cand_73cc49fe9b05fcad2f67",
-      "decision": "accept",
-      "reason": "The supplied focus evidence gives this docket item a distinct semantic relation and reader payoff; retain its complete bounded claim.",
+      "decision": "narrow",
+      "reason": "Retain the locally triggered relation between judgment and authoritative order; exclude the cosmic extension and the unsupplied cross-ayah parallels.",
       "finding_refs": [
-        "micro:ordered-way"
+        "micro:ordered-reckoning"
       ],
       "branch_exclusions": [],
       "facet_exclusions": [],
-      "context_exclusions": [],
+      "context_exclusions": [
+        {
+          "context_ref": "9:36",
+          "reason": "The source names this ayah, but its surface and activating occurrences are not supplied as micro context; no substantive cross-ayah reading is retained."
+        },
+        {
+          "context_ref": "12:40",
+          "reason": "The source names this ayah, but its surface and activating occurrences are not supplied as micro context; no substantive cross-ayah reading is retained."
+        },
+        {
+          "context_ref": "30:30",
+          "reason": "The source names this ayah, but its surface and activating occurrences are not supplied as micro context; no substantive cross-ayah reading is retained."
+        },
+        {
+          "context_ref": "98:5",
+          "reason": "The source names this ayah, but its surface and activating occurrences are not supplied as micro context; no substantive cross-ayah reading is retained."
+        }
+      ],
       "semantic_obligation_exclusions": []
     },
     {
       "candidate_id": "cand_da9701c50c4e99cd327d",
       "decision": "accept",
-      "reason": "The supplied focus evidence gives this docket item a distinct semantic relation and reader payoff; retain its complete bounded claim.",
+      "reason": "The complete topic survives at its supplied semantic scope and qualification; its carrier and local relation are stated in the dedicated finding.",
       "finding_refs": [
-        "micro:debt-accounting"
+        "micro:debt-settlement-image"
       ],
       "branch_exclusions": [],
       "facet_exclusions": [],
@@ -247,9 +305,9 @@
     {
       "candidate_id": "cand_f60d772bab6dd2a01454",
       "decision": "accept",
-      "reason": "The supplied focus evidence gives this docket item a distinct semantic relation and reader payoff; retain its complete bounded claim.",
+      "reason": "The complete topic survives at its supplied semantic scope and qualification; its carrier and local relation are stated in the dedicated finding.",
       "finding_refs": [
-        "micro:chain-terminus"
+        "micro:definite-terminus"
       ],
       "branch_exclusions": [],
       "facet_exclusions": [],
@@ -258,22 +316,71 @@
     },
     {
       "candidate_id": "cand_a72fdd098e559cf96684",
-      "decision": "accept",
-      "reason": "The supplied focus evidence gives this docket item a distinct semantic relation and reader payoff; retain its complete bounded claim.",
+      "decision": "narrow",
+      "reason": "Retain the final word's local formula-completing function, distinct from the middle word's initiating role; exclude the external recurrence demonstration.",
       "finding_refs": [
-        "micro:final-formula"
+        "micro:formula-completion"
       ],
       "branch_exclusions": [],
       "facet_exclusions": [],
-      "context_exclusions": [],
+      "context_exclusions": [
+        {
+          "context_ref": "15:35",
+          "reason": "The source names this ayah, but its surface and activating occurrences are not supplied as micro context; no substantive cross-ayah reading is retained."
+        },
+        {
+          "context_ref": "26:82",
+          "reason": "The source names this ayah, but its surface and activating occurrences are not supplied as micro context; no substantive cross-ayah reading is retained."
+        },
+        {
+          "context_ref": "37:20",
+          "reason": "The source names this ayah, but its surface and activating occurrences are not supplied as micro context; no substantive cross-ayah reading is retained."
+        },
+        {
+          "context_ref": "38:78",
+          "reason": "The source names this ayah, but its surface and activating occurrences are not supplied as micro context; no substantive cross-ayah reading is retained."
+        },
+        {
+          "context_ref": "51:12",
+          "reason": "The source names this ayah, but its surface and activating occurrences are not supplied as micro context; no substantive cross-ayah reading is retained."
+        },
+        {
+          "context_ref": "56:56",
+          "reason": "The source names this ayah, but its surface and activating occurrences are not supplied as micro context; no substantive cross-ayah reading is retained."
+        },
+        {
+          "context_ref": "70:26",
+          "reason": "The source names this ayah, but its surface and activating occurrences are not supplied as micro context; no substantive cross-ayah reading is retained."
+        },
+        {
+          "context_ref": "74:46",
+          "reason": "The source names this ayah, but its surface and activating occurrences are not supplied as micro context; no substantive cross-ayah reading is retained."
+        },
+        {
+          "context_ref": "82:15",
+          "reason": "The source names this ayah, but its surface and activating occurrences are not supplied as micro context; no substantive cross-ayah reading is retained."
+        },
+        {
+          "context_ref": "82:17",
+          "reason": "The source names this ayah, but its surface and activating occurrences are not supplied as micro context; no substantive cross-ayah reading is retained."
+        },
+        {
+          "context_ref": "82:18",
+          "reason": "The source names this ayah, but its surface and activating occurrences are not supplied as micro context; no substantive cross-ayah reading is retained."
+        },
+        {
+          "context_ref": "83:11",
+          "reason": "The source names this ayah, but its surface and activating occurrences are not supplied as micro context; no substantive cross-ayah reading is retained."
+        }
+      ],
       "semantic_obligation_exclusions": []
     },
     {
       "candidate_id": "cand_565536b084f1144440c2",
       "decision": "accept",
-      "reason": "The supplied focus evidence gives this docket item a distinct semantic relation and reader payoff; retain its complete bounded claim.",
+      "reason": "The complete topic survives at its supplied semantic scope and qualification; its carrier and local relation are stated in the dedicated finding.",
       "finding_refs": [
-        "micro:parse-layering"
+        "micro:semantic-backflow"
       ],
       "branch_exclusions": [],
       "facet_exclusions": [],
@@ -283,9 +390,9 @@
     {
       "candidate_id": "cand_81a543ae3500e59dd7bc",
       "decision": "accept",
-      "reason": "The supplied focus evidence gives this docket item a distinct semantic relation and reader payoff; retain its complete bounded claim.",
+      "reason": "The complete topic survives at its supplied semantic scope and qualification; its carrier and local relation are stated in the dedicated finding.",
       "finding_refs": [
-        "micro:ownership-over-formula"
+        "micro:owned-formula"
       ],
       "branch_exclusions": [],
       "facet_exclusions": [],
@@ -295,9 +402,9 @@
     {
       "candidate_id": "cand_3aaf3c5b2783c78bce5d",
       "decision": "accept",
-      "reason": "The supplied focus evidence gives this docket item a distinct semantic relation and reader payoff; retain its complete bounded claim.",
+      "reason": "The complete topic survives at its supplied semantic scope and qualification; its carrier and local relation are stated in the dedicated finding.",
       "finding_refs": [
-        "micro:nominal-reckoning-system"
+        "micro:nominal-reckoning"
       ],
       "branch_exclusions": [],
       "facet_exclusions": [],
@@ -307,9 +414,9 @@
     {
       "candidate_id": "cand_31d7d133ce1a3349a29c",
       "decision": "accept",
-      "reason": "The supplied focus evidence gives this docket item a distinct semantic relation and reader payoff; retain its complete bounded claim.",
+      "reason": "The complete topic survives at its supplied semantic scope and qualification; its carrier and local relation are stated in the dedicated finding.",
       "finding_refs": [
-        "micro:polyvalent-reckoning"
+        "micro:binding-accountability"
       ],
       "branch_exclusions": [],
       "facet_exclusions": [],
@@ -318,20 +425,29 @@
     },
     {
       "candidate_id": "cand_d9121b28b3a0313c67ad",
-      "decision": "accept",
-      "reason": "The supplied focus evidence gives this docket item a distinct semantic relation and reader payoff; retain its complete bounded claim.",
+      "decision": "narrow",
+      "reason": "Retain article assimilation, doubled onset, genitive cadence and local nasal closure; exclude the claimed adjacent-Fatiha rhyme comparison because the adjoining endings are absent.",
       "finding_refs": [
-        "micro:final-noun-sound"
+        "micro:audible-definite-ending"
       ],
       "branch_exclusions": [],
       "facet_exclusions": [],
-      "context_exclusions": [],
+      "context_exclusions": [
+        {
+          "context_ref": "1:3",
+          "reason": "The source names this ayah, but its surface and activating occurrences are not supplied as micro context; no substantive cross-ayah reading is retained."
+        },
+        {
+          "context_ref": "1:5",
+          "reason": "The source names this ayah, but its surface and activating occurrences are not supplied as micro context; no substantive cross-ayah reading is retained."
+        }
+      ],
       "semantic_obligation_exclusions": []
     },
     {
       "candidate_id": "cand_3ea7ead20d81d4fd76fb",
       "decision": "reject",
-      "reason": "This QAC focus occurrence is marked ledger_only: it records the supplied م ل ك carrier for provenance and supplies no separate semantic obligation or activation.",
+      "reason": "This is a ledger-only QAC root occurrence, not a semantic reading. Its morphology remains cited as evidence in retained findings, but root membership alone supplies no independent activation or new reader payoff. No attached branch, facet, context or semantic-obligation list is present.",
       "finding_refs": [],
       "branch_exclusions": [],
       "facet_exclusions": [],
@@ -341,7 +457,7 @@
     {
       "candidate_id": "cand_1a5189fd545f17b7f6a7",
       "decision": "reject",
-      "reason": "This QAC focus occurrence is marked ledger_only: it records the supplied ي و م carrier for provenance and supplies no separate semantic obligation or activation.",
+      "reason": "This is a ledger-only QAC root occurrence, not a semantic reading. Its morphology remains cited as evidence in retained findings, but root membership alone supplies no independent activation or new reader payoff. No attached branch, facet, context or semantic-obligation list is present.",
       "finding_refs": [],
       "branch_exclusions": [],
       "facet_exclusions": [],
@@ -351,7 +467,7 @@
     {
       "candidate_id": "cand_eda2018d432ebffbb5bf",
       "decision": "reject",
-      "reason": "This QAC focus occurrence is marked ledger_only: it records the supplied د ي ن carrier for provenance and supplies no separate semantic obligation or activation.",
+      "reason": "This is a ledger-only QAC root occurrence, not a semantic reading. Its morphology remains cited as evidence in retained findings, but root membership alone supplies no independent activation or new reader payoff. No attached branch, facet, context or semantic-obligation list is present.",
       "finding_refs": [],
       "branch_exclusions": [],
       "facet_exclusions": [],
@@ -360,20 +476,26 @@
     },
     {
       "candidate_id": "cand_b6d98f0c83a6743ebe20",
-      "decision": "accept",
-      "reason": "The exact focus coordinate, root, full anchor, changed reading, and supplied branch records agree; retain the legacy_unbound trace as attributed evidence.",
+      "decision": "narrow",
+      "reason": "Retain all three branch roles through kingship F001, event-day F001 and reckoning F001/F002, preserving the before/after movement and ownership containment. Exclude the trace's specifically severe, heavy and prolonged-day implication: that facet is construction-bound and its qualifying idiom is absent.",
       "finding_refs": [
         "micro:sovereign-reckoning-event"
       ],
       "branch_exclusions": [],
-      "facet_exclusions": [],
+      "facet_exclusions": [
+        {
+          "branch_ref": "root_001700/B003",
+          "facet_id": "F002",
+          "reason": "The supplied facet restricts very harsh, heavy and prolonged-day force to particular expressions. The actual singular Day-of-reckoning construct supplies a critical event but not one of those severity expressions; severity is therefore not entailed by this activation."
+        }
+      ],
       "context_exclusions": [],
       "semantic_obligation_exclusions": []
     },
     {
       "candidate_id": "cand_ceeeb8799a41d7f31756",
       "decision": "accept",
-      "reason": "The exact focus coordinate, root, full anchor, changed reading, and supplied branch records agree; retain the legacy_unbound trace as attributed evidence.",
+      "reason": "The complete topic survives at its supplied semantic scope and qualification; its carrier and local relation are stated in the dedicated finding.",
       "finding_refs": [
         "micro:debt-maturity"
       ],
@@ -385,7 +507,7 @@
     {
       "candidate_id": "cand_b6d347cb5abb89b72475",
       "decision": "accept",
-      "reason": "The exact focus coordinate, root, full anchor, changed reading, and supplied branch records agree; retain the legacy_unbound trace as attributed evidence.",
+      "reason": "The complete topic survives at its supplied semantic scope and qualification; its carrier and local relation are stated in the dedicated finding.",
       "finding_refs": [
         "micro:obedience-regime"
       ],
@@ -396,13 +518,29 @@
     },
     {
       "candidate_id": "cand_85368a4b3f75ed141a49",
-      "decision": "accept",
-      "reason": "The exact focus coordinate, root, full anchor, changed reading, and supplied branch records agree; retain the legacy_unbound trace as attributed evidence.",
+      "decision": "narrow",
+      "reason": "Retain the cohesion, mainstay, open-span and customary-order roles with their distinct mechanisms and the before/after shift to sustained operation. Exclude the city role and the resulting civic/institutional specification: the branch's core is physical settlement, whereas obedience to rulers is only an attributed naming explanation and cannot stand in for that core.",
       "finding_refs": [
-        "micro:mainstay-customary-order"
+        "micro:mainstay-of-custom"
       ],
-      "branch_exclusions": [],
-      "facet_exclusions": [],
+      "branch_exclusions": [
+        {
+          "branch_ref": "root_000504/B006",
+          "reason": "Neither the temporal noun nor the ownership/reckoning relation supplies a settlement, habitation or spatial gathering trigger. The trace turns the city's etymological obedience explanation into a civic-order meaning while losing the branch's physical-city core. That failed semantic contact excludes the city and institutional specification, not merely its different surface form."
+        }
+      ],
+      "facet_exclusions": [
+        {
+          "branch_ref": "root_000504/B006",
+          "facet_id": "F001",
+          "reason": "The actual focus has no independent physical-settlement trigger for the city core."
+        },
+        {
+          "branch_ref": "root_000504/B006",
+          "facet_id": "F002",
+          "reason": "The source's naming explanation cannot independently turn ordinary obedience or governance into the city sense when the physical-settlement core is unactivated."
+        }
+      ],
       "context_exclusions": [],
       "semantic_obligation_exclusions": []
     }
@@ -412,71 +550,126 @@
       "finding_ref": "micro:authority-hierarchy",
       "origin_candidate_id": "cand_d584a6130d5e5d7473c4",
       "represented_candidate_ids": [],
-      "title": "head word launches a descending authority hierarchy",
-      "claim": "The phrase builds a descending authority hierarchy from possessor through time to reckoning.",
-      "mechanism": "The genitive head مَٰلِكِ governs يَوْمِ, which in turn governs ٱلدِّينِ, making authority reach the named reckoning order.",
-      "reader_payoff": "The reader sees why the phrase moves from authority to time to reckoning.",
-      "containment": "The hierarchy remains inside the primary possessive relation.",
+      "title": "Ownership scopes the whole chain",
+      "claim": "The possessor at the head governs a Day whose content is reckoning, so ownership reaches the temporal occasion together with its defining process.",
+      "mechanism": "The first construct relation places Day under the possessor; the second places reckoning under Day. Following both dependencies makes the head's authority encompass the specified whole.",
+      "reader_payoff": "The reader can follow authority into time and then into what is settled there.",
+      "containment": "This is the scope of the three local terms, without an imported account of surrounding attributes.",
       "epistemic": {
         "status": "grounded",
         "source_trust": [
           "trusted"
         ],
-        "reason": "The supplied idafa attachments establish the complete required topic."
+        "reason": "The local surface, accepted word alignment and supplied word-topic evidence support this relation."
       },
       "support_ids": [
         "sup_17b1771aa0e4a29e83b1",
-        "sup_613fd4393bdcab97ac78"
+        "sup_39de4f6450273056ca0c",
+        "sup_613fd4393bdcab97ac78",
+        "sup_9689a9db629abd007935",
+        "sup_fd8b5adbbedbb1e0027b"
       ],
-      "branch_activations": [],
+      "branch_activations": [
+        {
+          "branch_ref": "root_001444/B002",
+          "facet_id": "F001",
+          "branch_gloss": "sahiplik ve tasarruf yetkisi",
+          "facet_statement": "Bir kişi, mal veya hak üzerinde sahiplikten doğan elinde bulundurma ve tasarruf yetkisine sahiptir.",
+          "application_mode": "lexical",
+          "carrier_refs": [
+            "1:4:1:1"
+          ],
+          "trigger_refs": [
+            "1:4:2:1",
+            "1:4:3:2"
+          ],
+          "focus_return_refs": [
+            "1:4:1:1"
+          ],
+          "carrier": "The active possessor carries holding and power of disposal.",
+          "independent_trigger": "The governed Day is specified as reckoning by the final noun.",
+          "activation": "A possessor governing the occasion of settlement has disposal over that occasion and its reckoning.",
+          "resulting_reading": "Ownership frames the Day with its reckoning, rather than stopping at an unspecified temporal object.",
+          "boundary": "Possession of the Day is the local relation; transfers of ownership and historical slavery uses are not asserted."
+        }
+      ],
       "connection_refs": [],
       "context_refs": [],
       "semantic_obligation_refs": []
     },
     {
-      "finding_ref": "micro:construct-definiteness",
+      "finding_ref": "micro:head-definiteness",
       "origin_candidate_id": "cand_d096bda5e280690e7233",
       "represented_candidate_ids": [],
-      "title": "construct head governs the Day and receives definiteness",
-      "claim": "The construct head owns a specific Day whose definiteness reaches backward through the chain.",
-      "mechanism": "The article-less مَٰلِكِ heads the chain while definite ٱلدِّينِ supplies the defining edge, making the whole phrase specific.",
-      "reader_payoff": "The Day is heard as identified by construction, not by a visible article on the first word.",
-      "containment": "The construction refines the primary phrase without detaching the Day from its owner.",
+      "title": "A specific object without a head article",
+      "claim": "The article-less possessor title governs a specific Day and receives definiteness through the final definite noun.",
+      "mechanism": "The final article supplies determination to the nested construct: Day is the Day of this reckoning, and the head is its possessor.",
+      "reader_payoff": "A missing visible article on the head does not leave the owner-title indefinite.",
+      "containment": "Definiteness is a constructional relation; it alone does not establish theological exclusivity or forbid every alternative construction.",
       "epistemic": {
         "status": "grounded",
         "source_trust": [
           "trusted"
         ],
-        "reason": "The supplied idafa and definiteness evidence directly establish this relation."
+        "reason": "The local surface, accepted word alignment and supplied word-topic evidence support this relation."
       },
       "support_ids": [
+        "sup_39de4f6450273056ca0c",
         "sup_4bd53eaa2010b4506441",
-        "sup_613fd4393bdcab97ac78"
+        "sup_613fd4393bdcab97ac78",
+        "sup_9689a9db629abd007935",
+        "sup_fd8b5adbbedbb1e0027b"
       ],
-      "branch_activations": [],
+      "branch_activations": [
+        {
+          "branch_ref": "root_001444/B002",
+          "facet_id": "F001",
+          "branch_gloss": "sahiplik ve tasarruf yetkisi",
+          "facet_statement": "Bir kişi, mal veya hak üzerinde sahiplikten doğan elinde bulundurma ve tasarruf yetkisine sahiptir.",
+          "application_mode": "lexical",
+          "carrier_refs": [
+            "1:4:1:1"
+          ],
+          "trigger_refs": [
+            "1:4:2:1",
+            "1:4:3:2"
+          ],
+          "focus_return_refs": [
+            "1:4:1:1"
+          ],
+          "carrier": "The active possessor carries holding and power of disposal.",
+          "independent_trigger": "The governed Day is specified as reckoning by the final noun.",
+          "activation": "A possessor governing the occasion of settlement has disposal over that occasion and its reckoning.",
+          "resulting_reading": "The possessor's disposal is directed at the specifically determined Day of reckoning.",
+          "boundary": "Possession of the Day is the local relation; transfers of ownership and historical slavery uses are not asserted."
+        }
+      ],
       "connection_refs": [],
       "context_refs": [],
       "semantic_obligation_refs": []
     },
     {
-      "finding_ref": "micro:praise-chain",
+      "finding_ref": "micro:genitive-continuation",
       "origin_candidate_id": "cand_10e2975e2a43470504da",
       "represented_candidate_ids": [],
-      "title": "genitive apposition continues the praise chain",
-      "claim": "The genitive head continues the preceding praise chain as a further divine attribute.",
-      "mechanism": "The genitive مَٰلِكِ attaches to the prior divine referent and opens into its following genitives, preserving syntactic continuity.",
-      "reader_payoff": "The reader hears an added description rather than an isolated title.",
-      "containment": "The continuity finding does not add a new clause or replace the ownership claim.",
+      "title": "A title attached to an existing description",
+      "claim": "The head's genitive form functions, in the supplied attachment analysis, as continuation of the divine-description chain.",
+      "mechanism": "The final genitive vowel on the active possessor is compatible with its reported appositional attachment while its own construct governs Day, so the title can continue an existing description and launch a new internal dependency at once.",
+      "reader_payoff": "The ayah's beginning is locally recognizable as a dependent descriptive title.",
+      "containment": "The attachment is retained as supplied grammatical evidence; the absent preceding wording cannot establish a mercy-to-judgment narrative here.",
       "epistemic": {
-        "status": "grounded",
+        "status": "qualified",
         "source_trust": [
           "trusted"
         ],
-        "reason": "The supplied apposition and attachment records establish the continuation."
+        "reason": "The genitive morphology is direct evidence; apposition to the earlier divine referent is explicitly reported by the supplied topic, whose upstream attachment rows are not separately supplied."
       },
       "support_ids": [
+        "sup_39de4f6450273056ca0c",
         "sup_613fd4393bdcab97ac78",
-        "sup_973e971167e834110985"
+        "sup_9689a9db629abd007935",
+        "sup_973e971167e834110985",
+        "sup_fd8b5adbbedbb1e0027b"
       ],
       "branch_activations": [],
       "connection_refs": [],
@@ -484,123 +677,223 @@
       "semantic_obligation_refs": []
     },
     {
-      "finding_ref": "micro:ownership-petition-bridge",
-      "origin_candidate_id": "cand_bc7ccb77c27d95f4e829",
-      "represented_candidate_ids": [],
-      "title": "ownership title bridges earlier attributes and later petition",
-      "claim": "The ownership title hinges from preceding attributes into accountability and later petition.",
-      "mechanism": "Mālik owns the reckoning Day, and the supplied forward bridge places that authority between praise and the coming worship and guidance address.",
-      "reader_payoff": "Praise is felt moving toward a request about how to stand before the owner.",
-      "containment": "The bridge supplements the focus attribute and does not make this ayah itself a petition.",
-      "epistemic": {
-        "status": "grounded",
-        "source_trust": [
-          "trusted"
-        ],
-        "reason": "The packet supplies a distinct forward and backward inter-ayah payoff."
-      },
-      "support_ids": [
-        "sup_459b2375c87d374c5011",
-        "sup_613fd4393bdcab97ac78"
-      ],
-      "branch_activations": [],
-      "connection_refs": [],
-      "context_refs": [],
-      "semantic_obligation_refs": []
-    },
-    {
-      "finding_ref": "micro:marked-divine-possessor",
+      "finding_ref": "micro:marked-possessor-form",
       "origin_candidate_id": "cand_1d7af88ee1616911f9ff",
       "represented_candidate_ids": [],
-      "title": "rare active-possessor form is salient in divine attribute contexts",
-      "claim": "The sparse active-possessor form makes divine ownership salient at this liturgical hinge.",
-      "mechanism": "The active participle مَٰلِكِ is marked by the supplied distribution evidence as an uncommon form tied to divine referents, concentrating attention on a standing attribute.",
-      "reader_payoff": "The title feels deliberate rather than generic.",
-      "containment": "Markedness qualifies the primary title and does not turn rarity into rank.",
+      "title": "A sparse form specifies the owner",
+      "claim": "Within the source-reported distribution, the sparse active-possessor form concentrates the broader ownership root into a divine holder over the Day.",
+      "mechanism": "The visibly active-participial head meets the independently governed temporal object: a reported uncommon form of this broad root is doing the precise work of assigning the reckoning occasion to a possessor.",
+      "reader_payoff": "The reader notices form-level specificity within the broader root's authority vocabulary.",
+      "containment": "Rarity and divine-use salience are attributed to the supplied profile. No frequency, exclusivity of divine usage, external parallel or liturgical transition is inferred.",
       "epistemic": {
-        "status": "grounded",
+        "status": "qualified",
         "source_trust": [
           "trusted"
         ],
-        "reason": "The aligned form and supplied distribution profile give a distinct perceptual payoff."
+        "reason": "Morphology and local complement are supplied; corpus rarity is available only as a qualitative source summary."
       },
       "support_ids": [
+        "sup_39de4f6450273056ca0c",
         "sup_613fd4393bdcab97ac78",
-        "sup_64e74d3a1f4c07c93894"
+        "sup_64e74d3a1f4c07c93894",
+        "sup_9689a9db629abd007935",
+        "sup_fd8b5adbbedbb1e0027b"
       ],
-      "branch_activations": [],
+      "branch_activations": [
+        {
+          "branch_ref": "root_001444/B002",
+          "facet_id": "F001",
+          "branch_gloss": "sahiplik ve tasarruf yetkisi",
+          "facet_statement": "Bir kişi, mal veya hak üzerinde sahiplikten doğan elinde bulundurma ve tasarruf yetkisine sahiptir.",
+          "application_mode": "lexical",
+          "carrier_refs": [
+            "1:4:1:1"
+          ],
+          "trigger_refs": [
+            "1:4:2:1",
+            "1:4:3:2"
+          ],
+          "focus_return_refs": [
+            "1:4:1:1"
+          ],
+          "carrier": "The active possessor carries holding and power of disposal.",
+          "independent_trigger": "The governed Day is specified as reckoning by the final noun.",
+          "activation": "A possessor governing the occasion of settlement has disposal over that occasion and its reckoning.",
+          "resulting_reading": "A specifically formed possessor, rather than an undifferentiated authority term, holds disposal over this Day.",
+          "boundary": "Possession of the Day is the local relation; transfers of ownership and historical slavery uses are not asserted."
+        }
+      ],
       "connection_refs": [],
       "context_refs": [],
       "semantic_obligation_refs": []
     },
     {
-      "finding_ref": "micro:ownership-disposal",
+      "finding_ref": "micro:disposal-force",
       "origin_candidate_id": "cand_e2881ce3aeac695d0ee6",
       "represented_candidate_ids": [],
-      "title": "ownership carries disposal force without importing every root branch",
-      "claim": "Māliki conveys possession as effective disposal authority over the Day within the local possessor relation.",
-      "mechanism": "The active possessor contacts the governed Day; supplied root pressure adds command and disposal while the local boundary excludes unrelated uses.",
-      "reader_payoff": "Ownership is felt as authority over what happens within the Day, not as a thin title.",
-      "containment": "The disposal pressure is bounded to the governed Day and does not activate every root branch.",
-      "epistemic": {
-        "status": "qualified",
-        "source_trust": [
-          "trusted"
-        ],
-        "reason": "The packet supplies this bounded pressure and its explicit boundary."
-      },
-      "support_ids": [
-        "sup_613fd4393bdcab97ac78",
-        "sup_819f8345fb1c0289c479"
-      ],
-      "branch_activations": [],
-      "connection_refs": [],
-      "context_refs": [],
-      "semantic_obligation_refs": []
-    },
-    {
-      "finding_ref": "micro:qiraat-authority-range",
-      "origin_candidate_id": "cand_38982be08ab072d2bed3",
-      "represented_candidate_ids": [],
-      "title": "variant readings expose owner, king, and intensified authority",
-      "claim": "The transmitted reading field holds proprietary possession and kingly authority around the canonical active possessor.",
-      "mechanism": "Variant forms contact the same authority slot as مَٰلِكِ, widening the authority range while the aligned genitive active-participle surface remains the floor.",
-      "reader_payoff": "The reader can hear why possession and sovereignty meet in the phrase.",
-      "containment": "The variants remain qualified contrasts and do not replace or rank the canonical surface.",
-      "epistemic": {
-        "status": "qualified",
-        "source_trust": [
-          "trusted"
-        ],
-        "reason": "Accepted variant evidence broadens the authority range without changing the aligned form."
-      },
-      "support_ids": [
-        "sup_613fd4393bdcab97ac78",
-        "sup_b4185d17d054e7ca7628"
-      ],
-      "branch_activations": [],
-      "connection_refs": [],
-      "context_refs": [],
-      "semantic_obligation_refs": []
-    },
-    {
-      "finding_ref": "micro:sound-head-word",
-      "origin_candidate_id": "cand_2c15ff8bded81f35718e",
-      "represented_candidate_ids": [],
-      "title": "vowel length and sound contour make the head word perceptible",
-      "claim": "The long vowel and contour make the head word perceptible before the chain narrows.",
-      "mechanism": "The supplied vowel-length and orthographic pressure on مَٰلِكِ meets the following genitive sequence, letting ownership register before closure.",
-      "reader_payoff": "The head word establishes its weight before the phrase specifies what it owns.",
-      "containment": "The acoustic effect reinforces the head relation without creating a new lexical meaning.",
+      "title": "Ownership includes effective disposal",
+      "claim": "Owning the Day includes authority to dispose of what is settled there; the title contributes effective control to the reckoning scene.",
+      "mechanism": "The possessive head takes as its object the Day defined by judgment, bringing its lexical disposal force into contact with an occasion of accounting.",
+      "reader_payoff": "Ownership becomes operative authority within the Day's reckoning.",
+      "containment": "Marriage, road-center and messenger-name derivations remain outside this candidate's local ownership claim. Royal resonance can coexist where independently activated.",
       "epistemic": {
         "status": "grounded",
         "source_trust": [
           "trusted"
         ],
-        "reason": "The sound rows supply a distinct perceptual payoff."
+        "reason": "The local surface, accepted word alignment and supplied word-topic evidence support this relation."
       },
       "support_ids": [
+        "sup_39de4f6450273056ca0c",
         "sup_613fd4393bdcab97ac78",
+        "sup_819f8345fb1c0289c479",
+        "sup_9689a9db629abd007935",
+        "sup_fd8b5adbbedbb1e0027b"
+      ],
+      "branch_activations": [
+        {
+          "branch_ref": "root_001444/B002",
+          "facet_id": "F001",
+          "branch_gloss": "sahiplik ve tasarruf yetkisi",
+          "facet_statement": "Bir kişi, mal veya hak üzerinde sahiplikten doğan elinde bulundurma ve tasarruf yetkisine sahiptir.",
+          "application_mode": "lexical",
+          "carrier_refs": [
+            "1:4:1:1"
+          ],
+          "trigger_refs": [
+            "1:4:2:1",
+            "1:4:3:2"
+          ],
+          "focus_return_refs": [
+            "1:4:1:1"
+          ],
+          "carrier": "The active possessor carries holding and power of disposal.",
+          "independent_trigger": "The governed Day is specified as reckoning by the final noun.",
+          "activation": "A possessor governing the occasion of settlement has disposal over that occasion and its reckoning.",
+          "resulting_reading": "The Day and its accounting lie within the possessor's power of disposal.",
+          "boundary": "Possession of the Day is the local relation; transfers of ownership and historical slavery uses are not asserted."
+        },
+        {
+          "branch_ref": "root_001444/B003",
+          "facet_id": "F001",
+          "branch_gloss": "hükümdarlık ve kamusal egemenlik",
+          "facet_statement": "Hükümdar, halk üzerinde emir ve yasak koyarak kamusal yönetim yetkisi kullanır.",
+          "application_mode": "intrinsic_cross_root",
+          "carrier_refs": [
+            "1:4:1:1"
+          ],
+          "trigger_refs": [
+            "1:4:3:2",
+            "1:4:2:1"
+          ],
+          "focus_return_refs": [
+            "1:4:1:1"
+          ],
+          "carrier": "The ownership title has a supplied reading-field contact with kingship and public command.",
+          "independent_trigger": "Reckoning supplies an authoritative judgment affecting those subject to it at the Day.",
+          "activation": "The owner-title's transmitted royal range meets judgment, making authority over a public reckoning perceptible.",
+          "resulting_reading": "The reported dominion range reinforces the command involved in owning an occasion of judgment.",
+          "boundary": "This is the royal contact of the supplied reading field; the aligned surface remains the active possessor. No human territory, enthronement, or unstated universal scope is added."
+        }
+      ],
+      "connection_refs": [],
+      "context_refs": [],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "micro:reading-field-authority",
+      "origin_candidate_id": "cand_38982be08ab072d2bed3",
+      "represented_candidate_ids": [],
+      "title": "Possessor and king in the supplied reading field",
+      "claim": "The supplied variant-reading field places proprietary disposal, royal sovereignty and intensified authority around the active-possessor surface.",
+      "mechanism": "The owner-title's reported reading alternatives meet the Day's judgment: possession describes disposal, kingship describes command, and the reported intensification increases that authority's expressed force.",
+      "reader_payoff": "The reader can distinguish the proprietary and royal contributions while keeping both audible in the reading field.",
+      "containment": "The QAC-aligned form remains the active possessor. Individual transmitters, full variant spellings, canonical classifications and intensifying patterns are not supplied and cannot be invented.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": [
+          "trusted"
+        ],
+        "reason": "The local morphology is direct; variant and intensified authority are attested in the compact topic but not in a full variant apparatus."
+      },
+      "support_ids": [
+        "sup_39de4f6450273056ca0c",
+        "sup_613fd4393bdcab97ac78",
+        "sup_9689a9db629abd007935",
+        "sup_b4185d17d054e7ca7628",
+        "sup_fd8b5adbbedbb1e0027b"
+      ],
+      "branch_activations": [
+        {
+          "branch_ref": "root_001444/B002",
+          "facet_id": "F001",
+          "branch_gloss": "sahiplik ve tasarruf yetkisi",
+          "facet_statement": "Bir kişi, mal veya hak üzerinde sahiplikten doğan elinde bulundurma ve tasarruf yetkisine sahiptir.",
+          "application_mode": "lexical",
+          "carrier_refs": [
+            "1:4:1:1"
+          ],
+          "trigger_refs": [
+            "1:4:2:1",
+            "1:4:3:2"
+          ],
+          "focus_return_refs": [
+            "1:4:1:1"
+          ],
+          "carrier": "The active possessor carries holding and power of disposal.",
+          "independent_trigger": "The governed Day is specified as reckoning by the final noun.",
+          "activation": "A possessor governing the occasion of settlement has disposal over that occasion and its reckoning.",
+          "resulting_reading": "The local long-vowel possessor supplies disposal over the Day.",
+          "boundary": "Possession of the Day is the local relation; transfers of ownership and historical slavery uses are not asserted."
+        },
+        {
+          "branch_ref": "root_001444/B003",
+          "facet_id": "F001",
+          "branch_gloss": "hükümdarlık ve kamusal egemenlik",
+          "facet_statement": "Hükümdar, halk üzerinde emir ve yasak koyarak kamusal yönetim yetkisi kullanır.",
+          "application_mode": "intrinsic_cross_root",
+          "carrier_refs": [
+            "1:4:1:1"
+          ],
+          "trigger_refs": [
+            "1:4:3:2",
+            "1:4:2:1"
+          ],
+          "focus_return_refs": [
+            "1:4:1:1"
+          ],
+          "carrier": "The ownership title has a supplied reading-field contact with kingship and public command.",
+          "independent_trigger": "Reckoning supplies an authoritative judgment affecting those subject to it at the Day.",
+          "activation": "The owner-title's transmitted royal range meets judgment, making authority over a public reckoning perceptible.",
+          "resulting_reading": "The reported kingly alternative makes the public command of the reckoning occasion perceptible.",
+          "boundary": "This is the royal contact of the supplied reading field; the aligned surface remains the active possessor. No human territory, enthronement, or unstated universal scope is added."
+        }
+      ],
+      "connection_refs": [],
+      "context_refs": [],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "micro:head-sound",
+      "origin_candidate_id": "cand_2c15ff8bded81f35718e",
+      "represented_candidate_ids": [],
+      "title": "The ownership vowel is perceptible",
+      "claim": "The head's written long vowel and its movement into the closing genitive make the active-possessor reading visible and audible before the following terms develop its object. The reported imala and madd coloring can vary the head vowel's heard quality or duration while it remains the possessor governing the Day.",
+      "mechanism": "The long-vowel head meets the immediately following genitive Day; the sustained opening and contracted ending articulate the head's entry into a continuous construct phrase. That performance coloring gives the ownership vowel a distinct realization without changing the construct relation.",
+      "reader_payoff": "The reader can connect what is seen and heard in the head to the ownership form it carries.",
+      "containment": "The source additionally reports imala and madd coloring; these remain qualified performance possibilities, without assigning them to every recitation, naming readers or claiming phonetic symbolism proves sovereignty.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": [
+          "trusted"
+        ],
+        "reason": "The supplied surface shows the long vowel; the sound topic gives perceptual contour and performance coloring without recordings or detailed recitation rules."
+      },
+      "support_ids": [
+        "sup_39de4f6450273056ca0c",
+        "sup_613fd4393bdcab97ac78",
+        "sup_9689a9db629abd007935",
+        "sup_fd8b5adbbedbb1e0027b",
         "sup_fee32f29cb2a0b8b041d"
       ],
       "branch_activations": [],
@@ -612,23 +905,49 @@
       "finding_ref": "micro:standing-ownership",
       "origin_candidate_id": "cand_730efd9f2f5303871ec2",
       "represented_candidate_ids": [],
-      "title": "active participle presents standing ownership",
-      "claim": "The active participle presents ownership as a standing attribute.",
-      "mechanism": "The nominal active participle مَٰلِكِ inside the genitive chain supplies an already-standing possessor who governs the Day phrase.",
-      "reader_payoff": "The Day is heard as already under established authority.",
-      "containment": "This form-based refinement keeps the Day's future event horizon recoverable.",
+      "title": "Ownership is presented as an attribute",
+      "claim": "The active participle presents a standing possessor of the reckoning Day, with no finite verb narrating the acquisition of ownership.",
+      "mechanism": "The head names its bearer as possessor while Day is its genitive object; because Day is governed by the noun rather than timing a finite acquisition verb, ownership is presented as a descriptive relation.",
+      "reader_payoff": "The Day specifies what is owned without itself stating when ownership starts.",
+      "containment": "The participle supports an attributive presentation; morphology alone does not prove timelessness or a complete temporal doctrine.",
       "epistemic": {
         "status": "grounded",
         "source_trust": [
           "trusted"
         ],
-        "reason": "The aligned morphology directly establishes standing ownership."
+        "reason": "The local surface, accepted word alignment and supplied word-topic evidence support this relation."
       },
       "support_ids": [
+        "sup_39de4f6450273056ca0c",
         "sup_613fd4393bdcab97ac78",
-        "sup_ed8e8d5c6ff316dd8d8a"
+        "sup_9689a9db629abd007935",
+        "sup_ed8e8d5c6ff316dd8d8a",
+        "sup_fd8b5adbbedbb1e0027b"
       ],
-      "branch_activations": [],
+      "branch_activations": [
+        {
+          "branch_ref": "root_001444/B002",
+          "facet_id": "F001",
+          "branch_gloss": "sahiplik ve tasarruf yetkisi",
+          "facet_statement": "Bir kişi, mal veya hak üzerinde sahiplikten doğan elinde bulundurma ve tasarruf yetkisine sahiptir.",
+          "application_mode": "lexical",
+          "carrier_refs": [
+            "1:4:1:1"
+          ],
+          "trigger_refs": [
+            "1:4:2:1",
+            "1:4:3:2"
+          ],
+          "focus_return_refs": [
+            "1:4:1:1"
+          ],
+          "carrier": "The active possessor carries holding and power of disposal.",
+          "independent_trigger": "The governed Day is specified as reckoning by the final noun.",
+          "activation": "A possessor governing the occasion of settlement has disposal over that occasion and its reckoning.",
+          "resulting_reading": "The title attributes possession of the Day instead of narrating an act of taking possession.",
+          "boundary": "Possession of the Day is the local relation; transfers of ownership and historical slavery uses are not asserted."
+        }
+      ],
       "connection_refs": [],
       "context_refs": [],
       "semantic_obligation_refs": []
@@ -637,23 +956,48 @@
       "finding_ref": "micro:named-day",
       "origin_candidate_id": "cand_1f877dfa4ec3fe370653",
       "represented_candidate_ids": [],
-      "title": "bare construct noun becomes a definite named temporal unit",
-      "claim": "The bare construct noun becomes a specific named Day through the final term's definiteness.",
-      "mechanism": "The article-less يَوْمِ is attached to definite ٱلدِّينِ, so specificity travels through the chain while the singular temporal unit remains intact.",
-      "reader_payoff": "The reader hears a known Day rather than an indefinite date.",
-      "containment": "The construction fixes the primary temporal referent without choosing a different duration.",
+      "title": "Day becomes determinate through reckoning",
+      "claim": "The singular article-less Day becomes a particular named temporal unit through its annexation to the definite reckoning noun.",
+      "mechanism": "Day governs the final noun; the latter's article and content determine the otherwise unarticulated middle term while the head governs that whole.",
+      "reader_payoff": "The reader receives a known reckoning Day through a noun with no visible article of its own.",
+      "containment": "Singularity and determination specify the occasion, not its measured length.",
       "epistemic": {
         "status": "grounded",
         "source_trust": [
           "trusted"
         ],
-        "reason": "The supplied construct analysis establishes definiteness transfer."
+        "reason": "The local surface, accepted word alignment and supplied word-topic evidence support this relation."
       },
       "support_ids": [
+        "sup_39de4f6450273056ca0c",
         "sup_51cf6e466b7c15530bf3",
-        "sup_71e70fb8c4d8f3b6fd87"
+        "sup_71e70fb8c4d8f3b6fd87",
+        "sup_9689a9db629abd007935",
+        "sup_fd8b5adbbedbb1e0027b"
       ],
-      "branch_activations": [],
+      "branch_activations": [
+        {
+          "branch_ref": "root_001700/B002",
+          "facet_id": "F001",
+          "branch_gloss": "herhangi bir zaman dilimi; bağlama göre devir",
+          "facet_statement": "Herhangi bir uzunluktaki zaman süresini belirtir ve bilinen gündüz sınırlarına bağlı değildir.",
+          "application_mode": "intrinsic_cross_root",
+          "carrier_refs": [
+            "1:4:2:1"
+          ],
+          "trigger_refs": [
+            "1:4:3:2"
+          ],
+          "focus_return_refs": [
+            "1:4:2:1"
+          ],
+          "carrier": "Day admits a temporal span whose length is not fixed by daylight boundaries.",
+          "independent_trigger": "The defining reckoning noun specifies what the span is for.",
+          "activation": "Naming the time through its defining reckoning gives it an event-bounded identity without measuring it by sunrise and sunset.",
+          "resulting_reading": "The specified reckoning Day is a determinate temporal span without an asserted daylight measurement.",
+          "boundary": "An unmeasured span is compatible with a particular Day; it does not make all time the direct lexical referent."
+        }
+      ],
       "connection_refs": [],
       "context_refs": [],
       "semantic_obligation_refs": []
@@ -662,73 +1006,215 @@
       "finding_ref": "micro:elastic-event-time",
       "origin_candidate_id": "cand_6d0df9f1bcd7ffaece09",
       "represented_candidate_ids": [],
-      "title": "day carries bounded time and eschatological event scope",
-      "claim": "Yawmī carries bounded time and an event horizon, narrowed by the reckoning construction to the decisive Day.",
-      "mechanism": "The temporal noun meets ٱلدِّينِ, gathering ordinary-day, open-span, and event-day pressure under one definite reckoning frame.",
-      "reader_payoff": "The reader feels both temporal boundary and event weight.",
-      "containment": "Event pressure remains within the primary named-Day reading and does not erase its temporal force.",
+      "title": "A particular Day with event scope",
+      "claim": "Day retains a bounded temporal identity while its contact with reckoning opens an unmeasured span and the decisive event that characterizes it.",
+      "mechanism": "The temporal noun supplies an occasion; the independent reckoning noun supplies what determines that occasion. Their construct permits duration and event-focus together while keeping a specific eschatological Day recoverable.",
+      "reader_payoff": "The reader can understand an identifiable Day without reducing it to a calendar measurement or dissolving it into time in general.",
+      "containment": "The ordinary day sense supplies temporal grounding; sunrise-to-sunset limits are not asserted by this formula. Open span and critical-event readings coexist without ranking.",
       "epistemic": {
         "status": "qualified",
         "source_trust": [
           "trusted"
         ],
-        "reason": "The packet preserves the elastic range and its local narrowing."
+        "reason": "The topic and lexicon support the temporal elasticity; the event interpretation follows from the local reckoning contact."
       },
       "support_ids": [
         "sup_14c1b20570559be207bc",
-        "sup_51cf6e466b7c15530bf3"
+        "sup_39de4f6450273056ca0c",
+        "sup_51cf6e466b7c15530bf3",
+        "sup_9689a9db629abd007935",
+        "sup_fd8b5adbbedbb1e0027b"
       ],
-      "branch_activations": [],
+      "branch_activations": [
+        {
+          "branch_ref": "root_001700/B002",
+          "facet_id": "F001",
+          "branch_gloss": "herhangi bir zaman dilimi; bağlama göre devir",
+          "facet_statement": "Herhangi bir uzunluktaki zaman süresini belirtir ve bilinen gündüz sınırlarına bağlı değildir.",
+          "application_mode": "intrinsic_cross_root",
+          "carrier_refs": [
+            "1:4:2:1"
+          ],
+          "trigger_refs": [
+            "1:4:3:2"
+          ],
+          "focus_return_refs": [
+            "1:4:2:1"
+          ],
+          "carrier": "Day admits a temporal span whose length is not fixed by daylight boundaries.",
+          "independent_trigger": "The defining reckoning noun specifies what the span is for.",
+          "activation": "Naming the time through its defining reckoning gives it an event-bounded identity without measuring it by sunrise and sunset.",
+          "resulting_reading": "The Day is specified by its reckoning while its duration remains unmeasured.",
+          "boundary": "An unmeasured span is compatible with a particular Day; it does not make all time the direct lexical referent."
+        },
+        {
+          "branch_ref": "root_001700/B003",
+          "facet_id": "F001",
+          "branch_gloss": "büyük olayın yaşandığı çetin gün veya olay",
+          "facet_statement": "Gün sözü, büyük bir olay gerçekleştiğinde o kritik zamanı veya gerçekleşen olayı anlatmak üzere aktarılır.",
+          "application_mode": "intrinsic_cross_root",
+          "carrier_refs": [
+            "1:4:2:1"
+          ],
+          "trigger_refs": [
+            "1:4:3:2",
+            "1:4:1:1"
+          ],
+          "focus_return_refs": [
+            "1:4:2:1"
+          ],
+          "carrier": "Day can name the critical occasion through the great event occurring in it.",
+          "independent_trigger": "The final noun supplies judgment and requital under the governing owner.",
+          "activation": "A time named by reckoning concentrates attention on the occurrence that makes that time consequential.",
+          "resulting_reading": "The specific Day is also heard through the decisive reckoning occurring in it.",
+          "boundary": "Only the critical-event core is used; no specified duration, battle, severe-day idiom or plural historical events are inferred."
+        }
+      ],
       "connection_refs": [],
       "context_refs": [],
       "semantic_obligation_refs": []
     },
     {
-      "finding_ref": "micro:reckoning-formula",
+      "finding_ref": "micro:formula-entry",
       "origin_candidate_id": "cand_77edb4e22927fa721fc3",
       "represented_candidate_ids": [],
-      "title": "recurring reckoning formula is activated by the middle word",
-      "claim": "Yawmī activates the recurring Day-of-reckoning formula.",
-      "mechanism": "The middle يَوْمِ contacts ٱلدِّينِ in the supplied collocation, making the temporal word the entry point into the recognized reckoning frame.",
-      "reader_payoff": "The middle word opens an accountable scene rather than a neutral date.",
-      "containment": "Formula recognition deepens the temporal reading and does not replace it with a bare verdict.",
+      "title": "Day opens the reckoning expression",
+      "claim": "The middle temporal noun initiates a recognizable Day-of-reckoning expression whose final term supplies the judicial event.",
+      "mechanism": "Day meets the definite din in the exact collocation recorded under the reckoning branch; that contact gives the middle noun an eschatological event identity.",
+      "reader_payoff": "The reader recognizes the middle word as the entrance to a meaningful formula.",
+      "containment": "Only local formula recognition survives. The enumerated recurrences are provenance in the supplied summary, not independently inspected wider evidence.",
       "epistemic": {
         "status": "grounded",
         "source_trust": [
           "trusted"
         ],
-        "reason": "The supplied recurrence evidence establishes the formulaic activation."
+        "reason": "The local surface, accepted word alignment and supplied word-topic evidence support this relation."
       },
       "support_ids": [
+        "sup_39de4f6450273056ca0c",
         "sup_51cf6e466b7c15530bf3",
-        "sup_8c112abe26320d4b702e"
+        "sup_8c112abe26320d4b702e",
+        "sup_9689a9db629abd007935",
+        "sup_fd8b5adbbedbb1e0027b"
       ],
-      "branch_activations": [],
+      "branch_activations": [
+        {
+          "branch_ref": "root_001700/B003",
+          "facet_id": "F001",
+          "branch_gloss": "büyük olayın yaşandığı çetin gün veya olay",
+          "facet_statement": "Gün sözü, büyük bir olay gerçekleştiğinde o kritik zamanı veya gerçekleşen olayı anlatmak üzere aktarılır.",
+          "application_mode": "intrinsic_cross_root",
+          "carrier_refs": [
+            "1:4:2:1"
+          ],
+          "trigger_refs": [
+            "1:4:3:2",
+            "1:4:1:1"
+          ],
+          "focus_return_refs": [
+            "1:4:2:1"
+          ],
+          "carrier": "Day can name the critical occasion through the great event occurring in it.",
+          "independent_trigger": "The final noun supplies judgment and requital under the governing owner.",
+          "activation": "A time named by reckoning concentrates attention on the occurrence that makes that time consequential.",
+          "resulting_reading": "Day introduces the critical reckoning occasion.",
+          "boundary": "Only the critical-event core is used; no specified duration, battle, severe-day idiom or plural historical events are inferred."
+        },
+        {
+          "branch_ref": "root_000504/B002",
+          "facet_id": "F001",
+          "branch_gloss": "yargılayıp hesap görerek karşılığını verme",
+          "facet_statement": "Bir kişi veya eylem hakkında hükme varıp hesabını görmek.",
+          "application_mode": "lexical",
+          "carrier_refs": [
+            "1:4:3:2"
+          ],
+          "trigger_refs": [
+            "1:4:2:1",
+            "1:4:1:1"
+          ],
+          "focus_return_refs": [
+            "1:4:3:2"
+          ],
+          "carrier": "The final noun carries judgment, accounting and corresponding requital.",
+          "independent_trigger": "Day places that process at an occasion governed by the possessor.",
+          "activation": "The Day and its owner give the final noun a temporal and authoritative setting; the noun in return determines what happens there.",
+          "resulting_reading": "The formula supplies accounting as the Day's content.",
+          "boundary": "Requital includes the outcome of accounting, without making every outcome punishment or importing a financial loan."
+        },
+        {
+          "branch_ref": "root_000504/B002",
+          "facet_id": "F003",
+          "branch_gloss": "yargılayıp hesap görerek karşılığını verme",
+          "facet_statement": "Hüküm, hesap ve karşılığın gerçekleşeceği özel günü adlandırmak.",
+          "application_mode": "lexical",
+          "carrier_refs": [
+            "1:4:3:2"
+          ],
+          "trigger_refs": [
+            "1:4:2:1",
+            "1:4:1:1"
+          ],
+          "focus_return_refs": [
+            "1:4:3:2"
+          ],
+          "carrier": "The final noun carries judgment, accounting and corresponding requital.",
+          "independent_trigger": "Day places that process at an occasion governed by the possessor.",
+          "activation": "The Day and its owner give the final noun a temporal and authoritative setting; the noun in return determines what happens there.",
+          "resulting_reading": "The collocation names the special Day when accounting and requital occur.",
+          "boundary": "Requital includes the outcome of accounting, without making every outcome punishment or importing a financial loan."
+        }
+      ],
       "connection_refs": [],
       "context_refs": [],
       "semantic_obligation_refs": []
     },
     {
-      "finding_ref": "micro:middle-idafa-hinge",
+      "finding_ref": "micro:middle-hinge",
       "origin_candidate_id": "cand_cb477dad6b63424e0da0",
       "represented_candidate_ids": [],
-      "title": "middle noun is governed and governing",
-      "claim": "Yawmī is governed by Māliki and governs dīnī, transmitting ownership into definition and content.",
-      "mechanism": "The middle genitive receives the first attachment and heads the second, so one word joins authority to reckoning.",
-      "reader_payoff": "The temporal word appears as the phrase's working joint rather than a passive date label.",
-      "containment": "The hinge describes the supplied idafa and adds no extra syntactic relation.",
+      "title": "Day receives ownership and governs content",
+      "claim": "Day is simultaneously the possessor's governed complement and the head governing reckoning.",
+      "mechanism": "Its first dependency receives the ownership relation; its second dependency specifies the owned temporal unit through what occurs there.",
+      "reader_payoff": "Time is the grammatical hinge connecting an authority with a reckoning process.",
+      "containment": "The genitive Day is a possessed constituent. Its semantic event-setting does not convert the aligned noun into a separate accusative adverb.",
       "epistemic": {
         "status": "grounded",
         "source_trust": [
           "trusted"
         ],
-        "reason": "The attachment evidence establishes both directions."
+        "reason": "The local surface, accepted word alignment and supplied word-topic evidence support this relation."
       },
       "support_ids": [
+        "sup_39de4f6450273056ca0c",
         "sup_51cf6e466b7c15530bf3",
-        "sup_6de496dddc7dfca67bc2"
+        "sup_6de496dddc7dfca67bc2",
+        "sup_9689a9db629abd007935",
+        "sup_fd8b5adbbedbb1e0027b"
       ],
-      "branch_activations": [],
+      "branch_activations": [
+        {
+          "branch_ref": "root_001700/B002",
+          "facet_id": "F001",
+          "branch_gloss": "herhangi bir zaman dilimi; bağlama göre devir",
+          "facet_statement": "Herhangi bir uzunluktaki zaman süresini belirtir ve bilinen gündüz sınırlarına bağlı değildir.",
+          "application_mode": "intrinsic_cross_root",
+          "carrier_refs": [
+            "1:4:2:1"
+          ],
+          "trigger_refs": [
+            "1:4:3:2"
+          ],
+          "focus_return_refs": [
+            "1:4:2:1"
+          ],
+          "carrier": "Day admits a temporal span whose length is not fixed by daylight boundaries.",
+          "independent_trigger": "The defining reckoning noun specifies what the span is for.",
+          "activation": "Naming the time through its defining reckoning gives it an event-bounded identity without measuring it by sunrise and sunset.",
+          "resulting_reading": "The owned temporal span is internally specified by reckoning.",
+          "boundary": "An unmeasured span is compatible with a particular Day; it does not make all time the direct lexical referent."
+        }
+      ],
       "connection_refs": [],
       "context_refs": [],
       "semantic_obligation_refs": []
@@ -737,20 +1223,23 @@
       "finding_ref": "micro:stable-time-noun",
       "origin_candidate_id": "cand_8823bb766dbdf09fc3d9",
       "represented_candidate_ids": [],
-      "title": "frequent root remains locked to temporal noun use",
-      "claim": "The y-w-m form remains a stable temporal noun here, contributing time rather than agency or action.",
-      "mechanism": "QAC supplies يَوْمِ as a noun with no local verb frame; its nominal carrier meets ownership and reckoning attachments.",
-      "reader_payoff": "The reader knows the middle word's grammatical work before hearing its wider pressures.",
-      "containment": "The temporal noun remains primary while event and span associations stay bounded.",
+      "title": "A temporal noun carries no independent agency",
+      "claim": "The frequent root contributes its stable temporal noun here: Day supplies the time of reckoning while the head carries possession.",
+      "mechanism": "The nominal morphology of Day meets a distinct possessor and a distinct reckoning noun, distributing temporal setting, authority and event content across separate terms.",
+      "reader_payoff": "The reader can locate agency and time without treating the Day itself as an acting or judging subject.",
+      "containment": "Frequency remains a supplied qualitative observation. An event-day resonance changes what the time evokes while preserving its nominal form.",
       "epistemic": {
-        "status": "grounded",
+        "status": "qualified",
         "source_trust": [
           "trusted"
         ],
-        "reason": "The QAC form and contextual profile directly establish this use."
+        "reason": "The time noun is directly aligned; the broad frequency claim is given only as the supplied profile."
       },
       "support_ids": [
+        "sup_39de4f6450273056ca0c",
         "sup_51cf6e466b7c15530bf3",
+        "sup_9689a9db629abd007935",
+        "sup_fd8b5adbbedbb1e0027b",
         "sup_ff4ec64a41acd87c78f8"
       ],
       "branch_activations": [],
@@ -762,21 +1251,24 @@
       "finding_ref": "micro:genitive-case-contrast",
       "origin_candidate_id": "cand_1db655de3c463b2220da",
       "represented_candidate_ids": [],
-      "title": "case variants show how the canonical genitive keeps the chain intact",
-      "claim": "The canonical genitive keeps yawmī inside the possessed chain while variants expose an adverbial direction.",
-      "mechanism": "Genitive marking makes يَوْمِ governed by مَٰلِكِ; the supplied case contrast shows how another ending would redirect the relation toward adverbial time.",
-      "reader_payoff": "The Day belongs to the phrase rather than merely setting its background time.",
-      "containment": "The variant is a contrast; the focus reading remains the genitive construct.",
+      "title": "The Day is a possessed constituent",
+      "claim": "The canonical genitive keeps Day inside the ownership chain, while the supplied accusative contrast would make it more like a time setting.",
+      "mechanism": "Genitive Day depends on the possessor and governs din; the reported adverbial alternative would redistribute that first relation, making the local case ending consequential.",
+      "reader_payoff": "The difference between owning the Day and acting on a day becomes perceptible.",
+      "containment": "The contrast is attributed to the supplied case-variant topic. The aligned syntax is not replaced, and unsupplied variant wording or reciter identities are not reconstructed.",
       "epistemic": {
         "status": "qualified",
         "source_trust": [
           "trusted"
         ],
-        "reason": "The packet preserves the variant field and the controlling canonical parse."
+        "reason": "Direct morphology supports the genitive; the alternative is a compact report rather than a complete variant text."
       },
       "support_ids": [
+        "sup_39de4f6450273056ca0c",
         "sup_51cf6e466b7c15530bf3",
-        "sup_7b30429bf1ce383d9449"
+        "sup_7b30429bf1ce383d9449",
+        "sup_9689a9db629abd007935",
+        "sup_fd8b5adbbedbb1e0027b"
       ],
       "branch_activations": [],
       "connection_refs": [],
@@ -784,299 +1276,826 @@
       "semantic_obligation_refs": []
     },
     {
-      "finding_ref": "micro:temporal-petition-turn",
+      "finding_ref": "micro:local-accountability-scene",
       "origin_candidate_id": "cand_e60580c7d8041ce6afdd",
       "represented_candidate_ids": [],
-      "title": "temporal frame turns praise toward petition",
-      "claim": "The temporal frame turns the praise sequence toward direct petition.",
-      "mechanism": "Yawmī places the reckoning scene inside the attribute chain, changing static praise into a scene that calls for worship and guidance.",
-      "reader_payoff": "The reader feels why the next movement can become an address.",
-      "containment": "The forward pressure supplements the focus meaning and does not import the later request into its wording.",
+      "title": "The temporal object makes accountability a scene",
+      "claim": "The divine possessor's temporal object gives reckoning a specific occasion, turning the ownership title into a scene of accountability.",
+      "mechanism": "Day joins the head's authority to the final noun's accounting, making the attribute concrete as authority over an identifiable reckoning occasion.",
+      "reader_payoff": "The reader sees what this title brings into view locally: an owned occasion of accountability.",
+      "containment": "The proposed turn toward later worship and path outcomes is excluded because those surfaces are absent; no surah progression is claimed.",
       "epistemic": {
         "status": "grounded",
         "source_trust": [
           "trusted"
         ],
-        "reason": "The packet supplies this distinct scene-and-forward effect."
+        "reason": "The local surface, accepted word alignment and supplied word-topic evidence support this relation."
       },
       "support_ids": [
+        "sup_39de4f6450273056ca0c",
         "sup_51cf6e466b7c15530bf3",
-        "sup_76cc63a82aa9c81cef1e"
+        "sup_76cc63a82aa9c81cef1e",
+        "sup_9689a9db629abd007935",
+        "sup_fd8b5adbbedbb1e0027b"
       ],
-      "branch_activations": [],
+      "branch_activations": [
+        {
+          "branch_ref": "root_001700/B003",
+          "facet_id": "F001",
+          "branch_gloss": "büyük olayın yaşandığı çetin gün veya olay",
+          "facet_statement": "Gün sözü, büyük bir olay gerçekleştiğinde o kritik zamanı veya gerçekleşen olayı anlatmak üzere aktarılır.",
+          "application_mode": "intrinsic_cross_root",
+          "carrier_refs": [
+            "1:4:2:1"
+          ],
+          "trigger_refs": [
+            "1:4:3:2",
+            "1:4:1:1"
+          ],
+          "focus_return_refs": [
+            "1:4:2:1"
+          ],
+          "carrier": "Day can name the critical occasion through the great event occurring in it.",
+          "independent_trigger": "The final noun supplies judgment and requital under the governing owner.",
+          "activation": "A time named by reckoning concentrates attention on the occurrence that makes that time consequential.",
+          "resulting_reading": "The temporal frame gives accountability a concrete occasion.",
+          "boundary": "Only the critical-event core is used; no specified duration, battle, severe-day idiom or plural historical events are inferred."
+        }
+      ],
       "connection_refs": [],
       "context_refs": [],
       "semantic_obligation_refs": []
     },
     {
-      "finding_ref": "micro:sound-cadence",
+      "finding_ref": "micro:sound-binding",
       "origin_candidate_id": "cand_267db6728a85591e6977",
       "represented_candidate_ids": [],
-      "title": "sound binds the Day to the final reckoning noun",
-      "claim": "Nasal closure, glide movement, liaison, and genitive cadence bind yawmī and dīnī as one audible formula.",
-      "mechanism": "The ending of يَوْمِ meets the assimilated and nasal onset of ٱلدِّينِ, making the temporal and reckoning terms land together.",
-      "reader_payoff": "The final two words sound like one closed unit.",
-      "containment": "The sound binding mirrors the supplied syntax and does not create a new sense.",
-      "epistemic": {
-        "status": "grounded",
-        "source_trust": [
-          "trusted"
-        ],
-        "reason": "The sound rows identify this audible binding."
-      },
-      "support_ids": [
-        "sup_4bc8ad33cd3cfb1a8928",
-        "sup_51cf6e466b7c15530bf3"
-      ],
-      "branch_activations": [],
-      "connection_refs": [],
-      "context_refs": [],
-      "semantic_obligation_refs": []
-    },
-    {
-      "finding_ref": "micro:closure-content",
-      "origin_candidate_id": "cand_bed7dfd1a0af1a64ff96",
-      "represented_candidate_ids": [],
-      "title": "final term supplies the scene's governing content",
-      "claim": "The final dīnī gives the temporal scene its governing reckoning content.",
-      "mechanism": "The terminal ٱلدِّينِ closes the genitive chain and specifies what يَوْمِ means, sending content back to the first possessive head.",
-      "reader_payoff": "The ayah resolves from authority and time into the order that makes the Day what it is.",
-      "containment": "The content remains the primary Day-of-reckoning relation and is not a narrated action.",
-      "epistemic": {
-        "status": "grounded",
-        "source_trust": [
-          "trusted"
-        ],
-        "reason": "The final-term evidence establishes this closure."
-      },
-      "support_ids": [
-        "sup_5cc9eecb7b90639f6d3d",
-        "sup_fa7492dd0f3b6cc0fcd0"
-      ],
-      "branch_activations": [],
-      "connection_refs": [],
-      "context_refs": [],
-      "semantic_obligation_refs": []
-    },
-    {
-      "finding_ref": "micro:ordered-way",
-      "origin_candidate_id": "cand_73cc49fe9b05fcad2f67",
-      "represented_candidate_ids": [],
-      "title": "dīn as ordered way broadens juridical reckoning",
-      "claim": "Dīnī keeps the selected reckoning sense while opening a bounded ordered-way pressure.",
-      "mechanism": "The judgment-and-requital carrier meets supplied order parallels, broadening the Day into a moral order while the local formula remains reckoning.",
-      "reader_payoff": "Judgment is heard as an ordered moral field rather than an isolated instant.",
-      "containment": "The ordered-way pressure is qualified and does not substitute a general religion label.",
+      "title": "The last two nouns sound connected",
+      "claim": "Glide movement in Day, the joined onset of the final noun, and their genitive cadence make time and reckoning audible as one phrase.",
+      "mechanism": "The middle noun's sound runs into the assimilated definite onset of din; the sequence continues toward the final nasal, audibly supporting the syntactic bond between time and its content.",
+      "reader_payoff": "The listener hears the binding that the construct grammar establishes.",
+      "containment": "This is the supplied perceptual effect in connected reading; pause behavior is distinguished from the pronounced genitive cadence, and no moral meaning is assigned to individual sounds.",
       "epistemic": {
         "status": "qualified",
         "source_trust": [
           "trusted"
         ],
-        "reason": "The packet preserves the order field with the local reckoning boundary."
+        "reason": "The surfaces and sound topic support liaison and cadence; no audio is supplied for quantitative or universal performance claims."
+      },
+      "support_ids": [
+        "sup_39de4f6450273056ca0c",
+        "sup_4bc8ad33cd3cfb1a8928",
+        "sup_51cf6e466b7c15530bf3",
+        "sup_9689a9db629abd007935",
+        "sup_fd8b5adbbedbb1e0027b"
+      ],
+      "branch_activations": [],
+      "connection_refs": [],
+      "context_refs": [],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "micro:reckoning-content",
+      "origin_candidate_id": "cand_bed7dfd1a0af1a64ff96",
+      "represented_candidate_ids": [],
+      "title": "The last word determines the scene",
+      "claim": "The final noun supplies the accounting and requital that make the owned Day the Day it is.",
+      "mechanism": "Authority opens the chain and time receives it, but only the terminal noun identifies the process within that temporal frame; semantic content therefore returns from the governed ending to its governors.",
+      "reader_payoff": "The reader follows the phrase's resolution from authority and time to the system that specifies both relations here.",
+      "containment": "The final noun's semantic determination does not reverse the grammatical dependencies or independently establish a cosmic system.",
+      "epistemic": {
+        "status": "grounded",
+        "source_trust": [
+          "trusted"
+        ],
+        "reason": "The local surface, accepted word alignment and supplied word-topic evidence support this relation."
+      },
+      "support_ids": [
+        "sup_39de4f6450273056ca0c",
+        "sup_5cc9eecb7b90639f6d3d",
+        "sup_9689a9db629abd007935",
+        "sup_fa7492dd0f3b6cc0fcd0",
+        "sup_fd8b5adbbedbb1e0027b"
+      ],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000504/B002",
+          "facet_id": "F001",
+          "branch_gloss": "yargılayıp hesap görerek karşılığını verme",
+          "facet_statement": "Bir kişi veya eylem hakkında hükme varıp hesabını görmek.",
+          "application_mode": "lexical",
+          "carrier_refs": [
+            "1:4:3:2"
+          ],
+          "trigger_refs": [
+            "1:4:2:1",
+            "1:4:1:1"
+          ],
+          "focus_return_refs": [
+            "1:4:3:2"
+          ],
+          "carrier": "The final noun carries judgment, accounting and corresponding requital.",
+          "independent_trigger": "Day places that process at an occasion governed by the possessor.",
+          "activation": "The Day and its owner give the final noun a temporal and authoritative setting; the noun in return determines what happens there.",
+          "resulting_reading": "The Day is characterized by the accounting of persons or actions.",
+          "boundary": "Requital includes the outcome of accounting, without making every outcome punishment or importing a financial loan."
+        },
+        {
+          "branch_ref": "root_000504/B002",
+          "facet_id": "F002",
+          "branch_gloss": "yargılayıp hesap görerek karşılığını verme",
+          "facet_statement": "Hesabın sonucuna göre yapılanın karşılığını vermek.",
+          "application_mode": "lexical",
+          "carrier_refs": [
+            "1:4:3:2"
+          ],
+          "trigger_refs": [
+            "1:4:2:1",
+            "1:4:1:1"
+          ],
+          "focus_return_refs": [
+            "1:4:3:2"
+          ],
+          "carrier": "The final noun carries judgment, accounting and corresponding requital.",
+          "independent_trigger": "Day places that process at an occasion governed by the possessor.",
+          "activation": "The Day and its owner give the final noun a temporal and authoritative setting; the noun in return determines what happens there.",
+          "resulting_reading": "Its content includes the corresponding return resulting from the accounting.",
+          "boundary": "Requital includes the outcome of accounting, without making every outcome punishment or importing a financial loan."
+        }
+      ],
+      "connection_refs": [],
+      "context_refs": [],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "micro:ordered-reckoning",
+      "origin_candidate_id": "cand_73cc49fe9b05fcad2f67",
+      "represented_candidate_ids": [],
+      "title": "Judgment belongs to an authoritative order",
+      "claim": "Local reckoning can also be heard against din's obeyed-rule sense because the Day and its reckoning are governed by a divine possessor.",
+      "mechanism": "The independent owner supplies superior will; din's adherence-to-rules capacity connects the judgment of acts with the authority to which those acts answer.",
+      "reader_payoff": "The reader sees accountability as an ordered relation of allegiance as well as a judicial outcome.",
+      "containment": "This preserves the local reckoning sense. The named cosmic-order parallels and any claim about the organization of the wider cosmos are excluded.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": [
+          "trusted"
+        ],
+        "reason": "The owner and the obeyed-order facets supply a local contact; the source's wider parallels lack supplied context surfaces."
       },
       "support_ids": [
         "sup_01013f3d0430275cbec1",
-        "sup_5cc9eecb7b90639f6d3d"
+        "sup_39de4f6450273056ca0c",
+        "sup_5cc9eecb7b90639f6d3d",
+        "sup_9689a9db629abd007935",
+        "sup_fd8b5adbbedbb1e0027b"
       ],
-      "branch_activations": [],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000504/B001",
+          "facet_id": "F001",
+          "branch_gloss": "boyun eğerek uyma ve buna dayalı inanç düzeni",
+          "facet_statement": "Bir üstün iradesine boyun eğme ve onun buyruğuna uyma.",
+          "application_mode": "intrinsic_cross_root",
+          "carrier_refs": [
+            "1:4:3:2"
+          ],
+          "trigger_refs": [
+            "1:4:1:1"
+          ],
+          "focus_return_refs": [
+            "1:4:3:2"
+          ],
+          "carrier": "Din also carries submission to a superior will, with worship and adherence to a rule-system as its stated extensions.",
+          "independent_trigger": "The divine possessor places the Day's content under an authoritative will.",
+          "activation": "The relation to an owner gives obedience a separate local trigger: the order being reckoned is also an order to which allegiance is owed.",
+          "resulting_reading": "The authoritative reckoning also evokes answerability to a superior will.",
+          "boundary": "The Day of reckoning remains intact. Neither a named code nor an actual worship act or subsequent petition is supplied by the micro surface."
+        },
+        {
+          "branch_ref": "root_000504/B001",
+          "facet_id": "F003",
+          "branch_gloss": "boyun eğerek uyma ve buna dayalı inanç düzeni",
+          "facet_statement": "İnanç yolu ve kurallar bütününün, onlara uyma ve bağlanma ilişkisi açısından adlandırılması.",
+          "application_mode": "intrinsic_cross_root",
+          "carrier_refs": [
+            "1:4:3:2"
+          ],
+          "trigger_refs": [
+            "1:4:1:1"
+          ],
+          "focus_return_refs": [
+            "1:4:3:2"
+          ],
+          "carrier": "Din also carries submission to a superior will, with worship and adherence to a rule-system as its stated extensions.",
+          "independent_trigger": "The divine possessor places the Day's content under an authoritative will.",
+          "activation": "The relation to an owner gives obedience a separate local trigger: the order being reckoned is also an order to which allegiance is owed.",
+          "resulting_reading": "The judgment can be heard as belonging to an obeyed order of rules.",
+          "boundary": "The Day of reckoning remains intact. Neither a named code nor an actual worship act or subsequent petition is supplied by the micro surface."
+        }
+      ],
       "connection_refs": [],
       "context_refs": [],
       "semantic_obligation_refs": []
     },
     {
-      "finding_ref": "micro:debt-accounting",
+      "finding_ref": "micro:debt-settlement-image",
       "origin_candidate_id": "cand_da9701c50c4e99cd327d",
       "represented_candidate_ids": [],
-      "title": "debt-accounting image sharpens abstract judgment",
-      "claim": "Debt-accounting pressure renders judgment as settlement of what is owed while dīnī remains broader than a loan.",
-      "mechanism": "The final carrier meets its Day and possessive head; debt-and-credit pressure supplies due-settlement imagery within the abstract reckoning frame.",
-      "reader_payoff": "The reader feels judgment as accountable settling, not only as an abstract verdict.",
-      "containment": "The financial image is bounded inside the primary reckoning system and is not exclusive.",
+      "title": "Reckoning as settlement of what is owed",
+      "claim": "The reckoning noun's financial-debt relative makes accountability tangible as settlement of an outstanding obligation before its holder.",
+      "mechanism": "The separate possessor-title gives the debt image a holder with disposal; the Day gives that obligation a reckoning occasion. Together they make the financial source image explain the persistence and settlement of what is owed.",
+      "reader_payoff": "The reader can feel why judgment concerns returning what remains due.",
+      "containment": "Din remains the broader reckoning noun. Financial debt is a bounded analogy, preserving its goods-or-money source domain without asserting a literal transaction in the ayah.",
       "epistemic": {
         "status": "qualified",
         "source_trust": [
           "trusted"
         ],
-        "reason": "The packet explicitly supports settlement imagery and preserves the broader noun."
+        "reason": "The candidate expressly retains the debt image; the ownership and Day supply independent local triggers for its analogical application."
       },
       "support_ids": [
+        "sup_39de4f6450273056ca0c",
         "sup_4589d16da66ea5b6fe31",
-        "sup_5cc9eecb7b90639f6d3d"
+        "sup_5cc9eecb7b90639f6d3d",
+        "sup_9689a9db629abd007935",
+        "sup_fd8b5adbbedbb1e0027b"
       ],
-      "branch_activations": [],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000504/B003",
+          "facet_id": "F001",
+          "branch_gloss": "borç alıp verme ve vadeli ödeme ilişkisi",
+          "facet_statement": "Mal veya paranın borç olarak alınması ya da verilmesiyle mali yükümlülük doğması.",
+          "application_mode": "analogical",
+          "carrier_refs": [
+            "1:4:3:2"
+          ],
+          "trigger_refs": [
+            "1:4:1:1",
+            "1:4:2:1"
+          ],
+          "focus_return_refs": [
+            "1:4:3:2"
+          ],
+          "carrier": "The din occurrence is the root contact for the distinct financial-debt image: receiving or giving goods establishes an obligation to return them.",
+          "independent_trigger": "The possessor supplies the holder of a claim and the Day supplies its occasion of settlement.",
+          "activation": "A financial obligation awaiting return supplies an analogy for what remains answerable until the owner's reckoning.",
+          "resulting_reading": "Reckoning is heard as the settlement of an obligation that remains owed to its holder.",
+          "boundary": "The source domain remains a financial liability. The written din is not respelled as dayn; no actual loan, amount, sale, interest or exchange of goods is asserted in the ayah."
+        }
+      ],
       "connection_refs": [],
       "context_refs": [],
       "semantic_obligation_refs": []
     },
     {
-      "finding_ref": "micro:chain-terminus",
+      "finding_ref": "micro:definite-terminus",
       "origin_candidate_id": "cand_f60d772bab6dd2a01454",
       "represented_candidate_ids": [],
-      "title": "final definite genitive closes and defines the chain",
-      "claim": "The final definite genitive closes the construct chain and sends definiteness backward through it.",
-      "mechanism": "Definite, genitive, terminal ٱلدِّينِ completes the head-to-content chain and specifies يَوْمِ and مَٰلِكِ together.",
-      "reader_payoff": "The whole phrase settles into one known referent at its final word.",
-      "containment": "The closure describes the primary construct and adds no new referent.",
+      "title": "The terminal article determines the chain",
+      "claim": "The final definite genitive both closes the construct and sends determination back through Day to the possessor-title.",
+      "mechanism": "The article belongs to the final noun, which is the complement of Day; Day is itself the complement of the head, so determination reaches both article-less governors through their nested attachments.",
+      "reader_payoff": "The reader can see one overt article doing work across all three terms.",
+      "containment": "This grammatical determination does not by itself decide the article's full pragmatic subtype or entail an exclusive claim about every possible possessor.",
       "epistemic": {
         "status": "grounded",
         "source_trust": [
           "trusted"
         ],
-        "reason": "The aligned final-word properties establish the relation."
+        "reason": "The local surface, accepted word alignment and supplied word-topic evidence support this relation."
       },
       "support_ids": [
         "sup_23d201850bbb4c6d14cb",
-        "sup_5cc9eecb7b90639f6d3d"
+        "sup_39de4f6450273056ca0c",
+        "sup_5cc9eecb7b90639f6d3d",
+        "sup_9689a9db629abd007935",
+        "sup_fd8b5adbbedbb1e0027b"
       ],
-      "branch_activations": [],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000504/B002",
+          "facet_id": "F001",
+          "branch_gloss": "yargılayıp hesap görerek karşılığını verme",
+          "facet_statement": "Bir kişi veya eylem hakkında hükme varıp hesabını görmek.",
+          "application_mode": "lexical",
+          "carrier_refs": [
+            "1:4:3:2"
+          ],
+          "trigger_refs": [
+            "1:4:2:1",
+            "1:4:1:1"
+          ],
+          "focus_return_refs": [
+            "1:4:3:2"
+          ],
+          "carrier": "The final noun carries judgment, accounting and corresponding requital.",
+          "independent_trigger": "Day places that process at an occasion governed by the possessor.",
+          "activation": "The Day and its owner give the final noun a temporal and authoritative setting; the noun in return determines what happens there.",
+          "resulting_reading": "The determined terminal noun names the known accounting process.",
+          "boundary": "Requital includes the outcome of accounting, without making every outcome punishment or importing a financial loan."
+        },
+        {
+          "branch_ref": "root_000504/B002",
+          "facet_id": "F003",
+          "branch_gloss": "yargılayıp hesap görerek karşılığını verme",
+          "facet_statement": "Hüküm, hesap ve karşılığın gerçekleşeceği özel günü adlandırmak.",
+          "application_mode": "lexical",
+          "carrier_refs": [
+            "1:4:3:2"
+          ],
+          "trigger_refs": [
+            "1:4:2:1",
+            "1:4:1:1"
+          ],
+          "focus_return_refs": [
+            "1:4:3:2"
+          ],
+          "carrier": "The final noun carries judgment, accounting and corresponding requital.",
+          "independent_trigger": "Day places that process at an occasion governed by the possessor.",
+          "activation": "The Day and its owner give the final noun a temporal and authoritative setting; the noun in return determines what happens there.",
+          "resulting_reading": "That determined process identifies the specific reckoning Day.",
+          "boundary": "Requital includes the outcome of accounting, without making every outcome punishment or importing a financial loan."
+        }
+      ],
       "connection_refs": [],
       "context_refs": [],
       "semantic_obligation_refs": []
     },
     {
-      "finding_ref": "micro:final-formula",
+      "finding_ref": "micro:formula-completion",
       "origin_candidate_id": "cand_a72fdd098e559cf96684",
       "represented_candidate_ids": [],
-      "title": "final word completes the recurring Day formula",
-      "claim": "Dīnī completes the recurring Day formula, making the preceding noun the known reckoning Day.",
-      "mechanism": "The final carrier contacts يَوْمِ in the supplied collocation, fixing the pair as one semantic unit.",
-      "reader_payoff": "The phrase is heard as a settled formula rather than loose time and religion nouns.",
-      "containment": "Formula recognition reinforces the primary relation and does not suppress other bounded pressures.",
+      "title": "Reckoning completes the Day expression",
+      "claim": "The final din turns the preceding temporal noun into the Day-of-reckoning expression by supplying judgment and corresponding requital.",
+      "mechanism": "Where Day contributes the temporal slot, the final noun fills its defining event content; the registered collocation joins them into the named reckoning occasion.",
+      "reader_payoff": "The reader hears exactly what the final word contributes to a familiar formula.",
+      "containment": "Local completion is retained; the enumerated corpus recurrences are excluded as substantive comparisons because their surfaces are not supplied.",
       "epistemic": {
         "status": "grounded",
         "source_trust": [
           "trusted"
         ],
-        "reason": "The supplied formula references establish completion."
+        "reason": "The local surface, accepted word alignment and supplied word-topic evidence support this relation."
       },
       "support_ids": [
         "sup_0bc779fd208db092d121",
-        "sup_5cc9eecb7b90639f6d3d"
+        "sup_39de4f6450273056ca0c",
+        "sup_5cc9eecb7b90639f6d3d",
+        "sup_9689a9db629abd007935",
+        "sup_fd8b5adbbedbb1e0027b"
       ],
-      "branch_activations": [],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000504/B002",
+          "facet_id": "F001",
+          "branch_gloss": "yargılayıp hesap görerek karşılığını verme",
+          "facet_statement": "Bir kişi veya eylem hakkında hükme varıp hesabını görmek.",
+          "application_mode": "lexical",
+          "carrier_refs": [
+            "1:4:3:2"
+          ],
+          "trigger_refs": [
+            "1:4:2:1",
+            "1:4:1:1"
+          ],
+          "focus_return_refs": [
+            "1:4:3:2"
+          ],
+          "carrier": "The final noun carries judgment, accounting and corresponding requital.",
+          "independent_trigger": "Day places that process at an occasion governed by the possessor.",
+          "activation": "The Day and its owner give the final noun a temporal and authoritative setting; the noun in return determines what happens there.",
+          "resulting_reading": "The final word supplies judgment and accounting.",
+          "boundary": "Requital includes the outcome of accounting, without making every outcome punishment or importing a financial loan."
+        },
+        {
+          "branch_ref": "root_000504/B002",
+          "facet_id": "F002",
+          "branch_gloss": "yargılayıp hesap görerek karşılığını verme",
+          "facet_statement": "Hesabın sonucuna göre yapılanın karşılığını vermek.",
+          "application_mode": "lexical",
+          "carrier_refs": [
+            "1:4:3:2"
+          ],
+          "trigger_refs": [
+            "1:4:2:1",
+            "1:4:1:1"
+          ],
+          "focus_return_refs": [
+            "1:4:3:2"
+          ],
+          "carrier": "The final noun carries judgment, accounting and corresponding requital.",
+          "independent_trigger": "Day places that process at an occasion governed by the possessor.",
+          "activation": "The Day and its owner give the final noun a temporal and authoritative setting; the noun in return determines what happens there.",
+          "resulting_reading": "The final word also supplies return according to the account.",
+          "boundary": "Requital includes the outcome of accounting, without making every outcome punishment or importing a financial loan."
+        },
+        {
+          "branch_ref": "root_000504/B002",
+          "facet_id": "F003",
+          "branch_gloss": "yargılayıp hesap görerek karşılığını verme",
+          "facet_statement": "Hüküm, hesap ve karşılığın gerçekleşeceği özel günü adlandırmak.",
+          "application_mode": "lexical",
+          "carrier_refs": [
+            "1:4:3:2"
+          ],
+          "trigger_refs": [
+            "1:4:2:1",
+            "1:4:1:1"
+          ],
+          "focus_return_refs": [
+            "1:4:3:2"
+          ],
+          "carrier": "The final noun carries judgment, accounting and corresponding requital.",
+          "independent_trigger": "Day places that process at an occasion governed by the possessor.",
+          "activation": "The Day and its owner give the final noun a temporal and authoritative setting; the noun in return determines what happens there.",
+          "resulting_reading": "Together with Day, it names the occasion of that accounting and return.",
+          "boundary": "Requital includes the outcome of accounting, without making every outcome punishment or importing a financial loan."
+        }
+      ],
       "connection_refs": [],
       "context_refs": [],
       "semantic_obligation_refs": []
     },
     {
-      "finding_ref": "micro:parse-layering",
+      "finding_ref": "micro:semantic-backflow",
       "origin_candidate_id": "cand_565536b084f1144440c2",
       "represented_candidate_ids": [],
-      "title": "parse and qiraat alternatives layer belonging and characterization",
-      "claim": "The governed parse lets dīnī define the Day semantically while remaining grammatically governed.",
-      "mechanism": "Genitive ٱلدِّينِ is under يَوْمِ, yet its definite content characterizes the whole chain; the supplied parse and variants expose semantic backflow without changing attachment.",
-      "reader_payoff": "The last word can give the Day its identity while grammar places it under the middle word.",
-      "containment": "The local genitive parse remains fixed; characterization is a qualified semantic effect.",
+      "title": "A governed noun characterizes its governor",
+      "claim": "The final noun is grammatically governed by Day while semantically characterizing the Day as reckoning.",
+      "mechanism": "The two directions differ: Day assigns the final noun its genitive dependency, while din supplies the meaning by which Day is identified. This gives belonging and characterization simultaneous roles.",
+      "reader_payoff": "The reader can distinguish grammatical governance from the direction in which meaning becomes specific.",
+      "containment": "The retained candidate already limits the parse alternatives to semantic layering. No alternative case, adjective parse or unsupplied reading is asserted as the aligned syntax.",
       "epistemic": {
         "status": "qualified",
         "source_trust": [
           "trusted"
         ],
-        "reason": "The packet fixes the parse and preserves the layering evidence."
+        "reason": "The local attachment and semantic backflow are supplied; the candidate's broad parse/qiraat heading does not provide a complete alternative analysis."
       },
       "support_ids": [
+        "sup_39de4f6450273056ca0c",
         "sup_5cc9eecb7b90639f6d3d",
-        "sup_c82c2ec94ed066047591"
+        "sup_9689a9db629abd007935",
+        "sup_c82c2ec94ed066047591",
+        "sup_fd8b5adbbedbb1e0027b"
       ],
-      "branch_activations": [],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000504/B002",
+          "facet_id": "F001",
+          "branch_gloss": "yargılayıp hesap görerek karşılığını verme",
+          "facet_statement": "Bir kişi veya eylem hakkında hükme varıp hesabını görmek.",
+          "application_mode": "lexical",
+          "carrier_refs": [
+            "1:4:3:2"
+          ],
+          "trigger_refs": [
+            "1:4:2:1",
+            "1:4:1:1"
+          ],
+          "focus_return_refs": [
+            "1:4:3:2"
+          ],
+          "carrier": "The final noun carries judgment, accounting and corresponding requital.",
+          "independent_trigger": "Day places that process at an occasion governed by the possessor.",
+          "activation": "The Day and its owner give the final noun a temporal and authoritative setting; the noun in return determines what happens there.",
+          "resulting_reading": "The governed accounting noun determines the kind of occasion its governor names.",
+          "boundary": "Requital includes the outcome of accounting, without making every outcome punishment or importing a financial loan."
+        }
+      ],
       "connection_refs": [],
       "context_refs": [],
       "semantic_obligation_refs": []
     },
     {
-      "finding_ref": "micro:ownership-over-formula",
+      "finding_ref": "micro:owned-formula",
       "origin_candidate_id": "cand_81a543ae3500e59dd7bc",
       "represented_candidate_ids": [],
-      "title": "ordinary Day formula is drawn under ownership language",
-      "claim": "The ordinary Day-of-reckoning formula is placed under Māliki's ownership.",
-      "mechanism": "The final two terms form the familiar formula while marked مَٰلِكِ governs it, placing the formula inside the head word's authority.",
-      "reader_payoff": "The ayah names who holds authority over the familiar reckoning event.",
-      "containment": "Sovereignty deepens ownership and does not erase the formula's ordinary meaning.",
-      "epistemic": {
-        "status": "grounded",
-        "source_trust": [
-          "trusted"
-        ],
-        "reason": "The supplied formula and marked-head evidence establish the contact."
-      },
-      "support_ids": [
-        "sup_5cc9eecb7b90639f6d3d",
-        "sup_a72e773b70cd46efe06b"
-      ],
-      "branch_activations": [],
-      "connection_refs": [],
-      "context_refs": [],
-      "semantic_obligation_refs": []
-    },
-    {
-      "finding_ref": "micro:nominal-reckoning-system",
-      "origin_candidate_id": "cand_3aaf3c5b2783c78bce5d",
-      "represented_candidate_ids": [],
-      "title": "definite abstract noun names a system rather than narrating an action",
-      "claim": "The definite abstract dīnī names a standing reckoning system rather than a narrated judging action.",
-      "mechanism": "Definite singular abstract ٱلدِّينِ in final nominal position produces system-like closure instead of a finite event clause.",
-      "reader_payoff": "The Day's content appears as a named order that governs the scene.",
-      "containment": "The nominal system is the form of the primary reckoning content and does not deny judgment within it.",
-      "epistemic": {
-        "status": "grounded",
-        "source_trust": [
-          "trusted"
-        ],
-        "reason": "The supplied QAC and contextual records establish the nominal deployment."
-      },
-      "support_ids": [
-        "sup_5cc9eecb7b90639f6d3d",
-        "sup_807fe6a67fa2a2d47348"
-      ],
-      "branch_activations": [],
-      "connection_refs": [],
-      "context_refs": [],
-      "semantic_obligation_refs": []
-    },
-    {
-      "finding_ref": "micro:polyvalent-reckoning",
-      "origin_candidate_id": "cand_31d7d133ce1a3349a29c",
-      "represented_candidate_ids": [],
-      "title": "judgment remains selected while debt and submission pressure survive",
-      "claim": "The selected judgment-and-requital sense remains the floor while debt, obligation, obedience, and submission pressures remain live.",
-      "mechanism": "The Day-of-reckoning collocation fixes ٱلدِّينِ locally; its supplied semantic range contacts the same phrase and adds binding-order pressure without replacing reckoning.",
-      "reader_payoff": "The Day is heard as both judgment and the binding order whose claims come due.",
-      "containment": "The pressures coexist under the primary frame; none is ranked as exclusive.",
+      "title": "The reckoning formula comes under disposal",
+      "claim": "The familiar Day-of-reckoning unit becomes the object of the possessor-title, placing the whole expression under ownership and authority.",
+      "mechanism": "The Day-din pairing supplies a recognizable event unit; its attachment to the separate head makes this unit something held under disposal rather than a self-standing announcement of a Day.",
+      "reader_payoff": "The reader notices what the added ownership head does to the reckoning formula as a whole.",
+      "containment": "The relative markedness of the root pairing is a source-reported distributional observation, not an independently counted corpus result.",
       "epistemic": {
         "status": "qualified",
         "source_trust": [
           "trusted"
         ],
-        "reason": "The packet explicitly preserves the selected sense and the live pressures."
+        "reason": "The construction directly supports ownership of the formula; comparative pairing markedness is available through a compact source summary."
+      },
+      "support_ids": [
+        "sup_39de4f6450273056ca0c",
+        "sup_5cc9eecb7b90639f6d3d",
+        "sup_9689a9db629abd007935",
+        "sup_a72e773b70cd46efe06b",
+        "sup_fd8b5adbbedbb1e0027b"
+      ],
+      "branch_activations": [
+        {
+          "branch_ref": "root_001444/B002",
+          "facet_id": "F001",
+          "branch_gloss": "sahiplik ve tasarruf yetkisi",
+          "facet_statement": "Bir kişi, mal veya hak üzerinde sahiplikten doğan elinde bulundurma ve tasarruf yetkisine sahiptir.",
+          "application_mode": "lexical",
+          "carrier_refs": [
+            "1:4:1:1"
+          ],
+          "trigger_refs": [
+            "1:4:2:1",
+            "1:4:3:2"
+          ],
+          "focus_return_refs": [
+            "1:4:1:1"
+          ],
+          "carrier": "The active possessor carries holding and power of disposal.",
+          "independent_trigger": "The governed Day is specified as reckoning by the final noun.",
+          "activation": "A possessor governing the occasion of settlement has disposal over that occasion and its reckoning.",
+          "resulting_reading": "The whole reckoning formula is placed under the head's disposal.",
+          "boundary": "Possession of the Day is the local relation; transfers of ownership and historical slavery uses are not asserted."
+        },
+        {
+          "branch_ref": "root_000504/B002",
+          "facet_id": "F001",
+          "branch_gloss": "yargılayıp hesap görerek karşılığını verme",
+          "facet_statement": "Bir kişi veya eylem hakkında hükme varıp hesabını görmek.",
+          "application_mode": "lexical",
+          "carrier_refs": [
+            "1:4:3:2"
+          ],
+          "trigger_refs": [
+            "1:4:2:1",
+            "1:4:1:1"
+          ],
+          "focus_return_refs": [
+            "1:4:3:2"
+          ],
+          "carrier": "The final noun carries judgment, accounting and corresponding requital.",
+          "independent_trigger": "Day places that process at an occasion governed by the possessor.",
+          "activation": "The Day and its owner give the final noun a temporal and authoritative setting; the noun in return determines what happens there.",
+          "resulting_reading": "The formula's accounting takes place within the owned temporal domain.",
+          "boundary": "Requital includes the outcome of accounting, without making every outcome punishment or importing a financial loan."
+        },
+        {
+          "branch_ref": "root_000504/B002",
+          "facet_id": "F003",
+          "branch_gloss": "yargılayıp hesap görerek karşılığını verme",
+          "facet_statement": "Hüküm, hesap ve karşılığın gerçekleşeceği özel günü adlandırmak.",
+          "application_mode": "lexical",
+          "carrier_refs": [
+            "1:4:3:2"
+          ],
+          "trigger_refs": [
+            "1:4:2:1",
+            "1:4:1:1"
+          ],
+          "focus_return_refs": [
+            "1:4:3:2"
+          ],
+          "carrier": "The final noun carries judgment, accounting and corresponding requital.",
+          "independent_trigger": "Day places that process at an occasion governed by the possessor.",
+          "activation": "The Day and its owner give the final noun a temporal and authoritative setting; the noun in return determines what happens there.",
+          "resulting_reading": "The named Day is the occasion brought under that ownership.",
+          "boundary": "Requital includes the outcome of accounting, without making every outcome punishment or importing a financial loan."
+        }
+      ],
+      "connection_refs": [],
+      "context_refs": [],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "micro:nominal-reckoning",
+      "origin_candidate_id": "cand_3aaf3c5b2783c78bce5d",
+      "represented_candidate_ids": [],
+      "title": "A named order of requital closes the phrase",
+      "claim": "The ending is a definite abstract noun naming reckoning as an order of accounting and return.",
+      "mechanism": "Din meets Day as a nominal complement and the head as part of its possessed domain. Its nominal form identifies what the occasion is, rather than narrating a finite sequence of judging.",
+      "reader_payoff": "The reader encounters a standing named reckoning order within the title.",
+      "containment": "Nominal presentation neither denies that judgment occurs nor fixes its duration or detailed procedure.",
+      "epistemic": {
+        "status": "grounded",
+        "source_trust": [
+          "trusted"
+        ],
+        "reason": "The local surface, accepted word alignment and supplied word-topic evidence support this relation."
+      },
+      "support_ids": [
+        "sup_39de4f6450273056ca0c",
+        "sup_5cc9eecb7b90639f6d3d",
+        "sup_807fe6a67fa2a2d47348",
+        "sup_9689a9db629abd007935",
+        "sup_fd8b5adbbedbb1e0027b"
+      ],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000504/B002",
+          "facet_id": "F001",
+          "branch_gloss": "yargılayıp hesap görerek karşılığını verme",
+          "facet_statement": "Bir kişi veya eylem hakkında hükme varıp hesabını görmek.",
+          "application_mode": "lexical",
+          "carrier_refs": [
+            "1:4:3:2"
+          ],
+          "trigger_refs": [
+            "1:4:2:1",
+            "1:4:1:1"
+          ],
+          "focus_return_refs": [
+            "1:4:3:2"
+          ],
+          "carrier": "The final noun carries judgment, accounting and corresponding requital.",
+          "independent_trigger": "Day places that process at an occasion governed by the possessor.",
+          "activation": "The Day and its owner give the final noun a temporal and authoritative setting; the noun in return determines what happens there.",
+          "resulting_reading": "Accounting is named as the Day's defining content.",
+          "boundary": "Requital includes the outcome of accounting, without making every outcome punishment or importing a financial loan."
+        },
+        {
+          "branch_ref": "root_000504/B002",
+          "facet_id": "F002",
+          "branch_gloss": "yargılayıp hesap görerek karşılığını verme",
+          "facet_statement": "Hesabın sonucuna göre yapılanın karşılığını vermek.",
+          "application_mode": "lexical",
+          "carrier_refs": [
+            "1:4:3:2"
+          ],
+          "trigger_refs": [
+            "1:4:2:1",
+            "1:4:1:1"
+          ],
+          "focus_return_refs": [
+            "1:4:3:2"
+          ],
+          "carrier": "The final noun carries judgment, accounting and corresponding requital.",
+          "independent_trigger": "Day places that process at an occasion governed by the possessor.",
+          "activation": "The Day and its owner give the final noun a temporal and authoritative setting; the noun in return determines what happens there.",
+          "resulting_reading": "Corresponding requital belongs within that named content.",
+          "boundary": "Requital includes the outcome of accounting, without making every outcome punishment or importing a financial loan."
+        }
+      ],
+      "connection_refs": [],
+      "context_refs": [],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "micro:binding-accountability",
+      "origin_candidate_id": "cand_31d7d133ce1a3349a29c",
+      "represented_candidate_ids": [],
+      "title": "Judgment, obligation and submission meet",
+      "claim": "The Day of reckoning contains accounting and requital while the owner-title activates debt-like liability, obedience to superior will and the pressure of compulsory answerability.",
+      "mechanism": "Day and reckoning retain the judicial floor. The independent possessor gives the debt image a holder, obedience a superior will, and the subjugation image an authoritative constraint; these contacts make the named reckoning a binding moral relation.",
+      "reader_payoff": "The reader hears why the account involves something owed, an authority to obey and exposure to a judgment one does not control.",
+      "containment": "Financial liability and forced subjection remain distinct source images. The wording does not assert a literal loan, enslavement, a human act of violence, or that willing obedience is itself coercion; none replaces judgment and requital.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": [
+          "trusted"
+        ],
+        "reason": "The topic explicitly retains judgment, debt, obedience and subjugation. Their distinct local contacts are articulated, with debt and coercion qualified as analogical source images."
       },
       "support_ids": [
         "sup_02c8df68324c0e51b0eb",
-        "sup_5cc9eecb7b90639f6d3d"
+        "sup_39de4f6450273056ca0c",
+        "sup_5cc9eecb7b90639f6d3d",
+        "sup_9689a9db629abd007935",
+        "sup_fd8b5adbbedbb1e0027b"
       ],
-      "branch_activations": [],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000504/B002",
+          "facet_id": "F001",
+          "branch_gloss": "yargılayıp hesap görerek karşılığını verme",
+          "facet_statement": "Bir kişi veya eylem hakkında hükme varıp hesabını görmek.",
+          "application_mode": "lexical",
+          "carrier_refs": [
+            "1:4:3:2"
+          ],
+          "trigger_refs": [
+            "1:4:2:1",
+            "1:4:1:1"
+          ],
+          "focus_return_refs": [
+            "1:4:3:2"
+          ],
+          "carrier": "The final noun carries judgment, accounting and corresponding requital.",
+          "independent_trigger": "Day places that process at an occasion governed by the possessor.",
+          "activation": "The Day and its owner give the final noun a temporal and authoritative setting; the noun in return determines what happens there.",
+          "resulting_reading": "The binding relation includes judgment and accounting.",
+          "boundary": "Requital includes the outcome of accounting, without making every outcome punishment or importing a financial loan."
+        },
+        {
+          "branch_ref": "root_000504/B002",
+          "facet_id": "F002",
+          "branch_gloss": "yargılayıp hesap görerek karşılığını verme",
+          "facet_statement": "Hesabın sonucuna göre yapılanın karşılığını vermek.",
+          "application_mode": "lexical",
+          "carrier_refs": [
+            "1:4:3:2"
+          ],
+          "trigger_refs": [
+            "1:4:2:1",
+            "1:4:1:1"
+          ],
+          "focus_return_refs": [
+            "1:4:3:2"
+          ],
+          "carrier": "The final noun carries judgment, accounting and corresponding requital.",
+          "independent_trigger": "Day places that process at an occasion governed by the possessor.",
+          "activation": "The Day and its owner give the final noun a temporal and authoritative setting; the noun in return determines what happens there.",
+          "resulting_reading": "Accounting reaches its corresponding requital.",
+          "boundary": "Requital includes the outcome of accounting, without making every outcome punishment or importing a financial loan."
+        },
+        {
+          "branch_ref": "root_000504/B003",
+          "facet_id": "F001",
+          "branch_gloss": "borç alıp verme ve vadeli ödeme ilişkisi",
+          "facet_statement": "Mal veya paranın borç olarak alınması ya da verilmesiyle mali yükümlülük doğması.",
+          "application_mode": "analogical",
+          "carrier_refs": [
+            "1:4:3:2"
+          ],
+          "trigger_refs": [
+            "1:4:1:1",
+            "1:4:2:1"
+          ],
+          "focus_return_refs": [
+            "1:4:3:2"
+          ],
+          "carrier": "The din occurrence is the root contact for the distinct financial-debt image: receiving or giving goods establishes an obligation to return them.",
+          "independent_trigger": "The possessor supplies the holder of a claim and the Day supplies its occasion of settlement.",
+          "activation": "A financial obligation awaiting return supplies an analogy for what remains answerable until the owner's reckoning.",
+          "resulting_reading": "Liability remains outstanding until settlement under the possessor's authority.",
+          "boundary": "The source domain remains a financial liability. The written din is not respelled as dayn; no actual loan, amount, sale, interest or exchange of goods is asserted in the ayah."
+        },
+        {
+          "branch_ref": "root_000504/B001",
+          "facet_id": "F001",
+          "branch_gloss": "boyun eğerek uyma ve buna dayalı inanç düzeni",
+          "facet_statement": "Bir üstün iradesine boyun eğme ve onun buyruğuna uyma.",
+          "application_mode": "intrinsic_cross_root",
+          "carrier_refs": [
+            "1:4:3:2"
+          ],
+          "trigger_refs": [
+            "1:4:1:1"
+          ],
+          "focus_return_refs": [
+            "1:4:3:2"
+          ],
+          "carrier": "Din also carries submission to a superior will, with worship and adherence to a rule-system as its stated extensions.",
+          "independent_trigger": "The divine possessor places the Day's content under an authoritative will.",
+          "activation": "The relation to an owner gives obedience a separate local trigger: the order being reckoned is also an order to which allegiance is owed.",
+          "resulting_reading": "The one whose acts are reckoned stands in relation to a superior will.",
+          "boundary": "The Day of reckoning remains intact. Neither a named code nor an actual worship act or subsequent petition is supplied by the micro surface."
+        },
+        {
+          "branch_ref": "root_000504/B004",
+          "facet_id": "F001",
+          "branch_gloss": "zorla alçaltıp egemenliği altına alma",
+          "facet_statement": "Birini zor kullanarak alçaltmak ve egemenlik altına almak.",
+          "application_mode": "analogical",
+          "carrier_refs": [
+            "1:4:3:2"
+          ],
+          "trigger_refs": [
+            "1:4:1:1",
+            "1:4:2:1"
+          ],
+          "focus_return_refs": [
+            "1:4:3:2"
+          ],
+          "carrier": "Din's root has a distinct forceful-subjection branch in which a person is lowered under another's control.",
+          "independent_trigger": "The governing possessor controls the very Day on which the account is settled.",
+          "activation": "The lack of control over one's reckoning occasion allows the source image of compelled subjection to color answerability under the owner.",
+          "resulting_reading": "Accountability can be felt as binding exposure to superior authority, alongside the separate possibility of willing obedience.",
+          "boundary": "This transfers the pressure of compulsory subjection as an image; the actual din is not a forceful-subjugation verb, and the ayah supplies no slavery transaction, violence or conquered population."
+        }
+      ],
       "connection_refs": [],
       "context_refs": [],
       "semantic_obligation_refs": []
     },
     {
-      "finding_ref": "micro:final-noun-sound",
+      "finding_ref": "micro:audible-definite-ending",
       "origin_candidate_id": "cand_d9121b28b3a0313c67ad",
       "represented_candidate_ids": [],
-      "title": "assimilation, doubled onset, and nasal rhyme weight the final noun",
-      "claim": "Assimilated article, doubled onset, and nasal rhyme give the final noun audible pressure and closure.",
-      "mechanism": "ٱلدِّينِ assimilates its article into the dental onset and closes with its genitive nasal ending, mirroring the semantic termination of the phrase.",
-      "reader_payoff": "Definiteness, pressure, and closure arrive together at the final word.",
-      "containment": "The sound effect supports the definite-genitive closure and adds no independent lexical claim.",
+      "title": "Definiteness has an audible onset and close",
+      "claim": "The article's assimilation into the doubled onset of din and the final nasal give the terminal definite noun perceptible weight and closure.",
+      "mechanism": "The article and stem meet in the assimilated onset while the joined genitive sequence reaches the final nasal; the sound makes the phrase's definite ending audible.",
+      "reader_payoff": "The reader can hear determination and terminal closure as well as see them in grammar.",
+      "containment": "This retains the local onset, cadence and nasal close. Adjacent-ayah rhyme is excluded without their surfaces; connected genitive pronunciation and pausal ending are not conflated.",
       "epistemic": {
-        "status": "grounded",
+        "status": "qualified",
         "source_trust": [
           "trusted"
         ],
-        "reason": "The supplied phonetic rows establish this effect."
+        "reason": "The supplied spelling and sound topic support the local effect; no adjacent verses or audio are provided."
       },
       "support_ids": [
+        "sup_39de4f6450273056ca0c",
         "sup_5cc9eecb7b90639f6d3d",
-        "sup_af40b71ee4e9ff0f1d18"
+        "sup_9689a9db629abd007935",
+        "sup_af40b71ee4e9ff0f1d18",
+        "sup_fd8b5adbbedbb1e0027b"
       ],
       "branch_activations": [],
       "connection_refs": [],
@@ -1087,20 +2106,24 @@
       "finding_ref": "micro:sovereign-reckoning-event",
       "origin_candidate_id": "cand_b6d98f0c83a6743ebe20",
       "represented_candidate_ids": [],
-      "title": "attributed sovereign authority becomes operative in reckoning",
-      "claim": "The attributed trace stages a sovereign public event in which authority becomes operative as reckoning and recompense.",
-      "mechanism": "Mālik, yawm, and dīn contact public sovereignty, event-day, and judgment facets; the full genitive chain turns possession into authority exercised in a marked reckoning event.",
-      "reader_payoff": "The Day can be perceived as an occasion where sovereignty acts through judgment, not only as a date that someone owns.",
-      "containment": "This attributed application stays inside the recoverable possessive Day-of-reckoning reading and is not independent lexical proof.",
+      "title": "Authority becomes manifest in a reckoning occasion",
+      "claim": "The owned reckoning Day can be heard as a sovereign public event in which command becomes manifest through judgment and corresponding requital.",
+      "mechanism": "The head's royal reading-field supplies governing authority, Day's critical-event capacity supplies the occasion of its manifestation, and din supplies what that event does: accounting followed by return. The contact changes an ownership-of-a-date reading into the staging of authoritative reckoning.",
+      "reader_payoff": "The reader sees authority exercised in the event named by the owned Day.",
+      "containment": "This is a reconstructed legacy HFT model, independently checked against the supplied roots and local syntax. Ownership remains the primary floor. The trace's severe-day language is limited to a consequential critical occasion: the idiom of a very harsh, prolonged day is not present.",
       "epistemic": {
         "status": "qualified",
         "source_trust": [
-          "legacy_unbound"
+          "legacy_unbound",
+          "trusted"
         ],
-        "reason": "The exact focus ayah, word indices, roots, full focus anchor, changed reading, and supplied branch records agree; retain this parseable trace as attributed evidence because its reader identity is legacy_unbound."
+        "reason": "All three trace coordinates and roots agree with QAC. The royal reading field and critical-event core have independent local contacts; legacy provenance remains explicit, and the severe-day specialization fails the actual construction test."
       },
       "support_ids": [
-        "sup_5e5a60a15581f02f2ebd"
+        "sup_39de4f6450273056ca0c",
+        "sup_5e5a60a15581f02f2ebd",
+        "sup_9689a9db629abd007935",
+        "sup_fd8b5adbbedbb1e0027b"
       ],
       "branch_activations": [
         {
@@ -1108,66 +2131,88 @@
           "facet_id": "F001",
           "branch_gloss": "hükümdarlık ve kamusal egemenlik",
           "facet_statement": "Hükümdar, halk üzerinde emir ve yasak koyarak kamusal yönetim yetkisi kullanır.",
-          "application_mode": "attributed",
+          "application_mode": "intrinsic_cross_root",
           "carrier_refs": [
             "1:4:1:1"
           ],
           "trigger_refs": [
-            "1:4:2:1",
-            "1:4:3:2"
+            "1:4:3:2",
+            "1:4:2:1"
           ],
           "focus_return_refs": [
             "1:4:1:1"
           ],
-          "carrier": "The focus occurrence carries the supplied hükümdarlık ve kamusal egemenlik facet.",
-          "independent_trigger": "The other focus words in the genitive chain provide an independent authority, time, or reckoning contact.",
-          "activation": "The hükümdarlık ve kamusal egemenlik facet meets the distinct focus words named in trigger_refs and changes the local reading as stated by the attributed nomination.",
-          "resulting_reading": "The phrase can stage a sovereign event in which authority is exercised as reckoning and recompense.",
-          "boundary": "The primary possessor relation remains intact; no separate political scene is asserted."
+          "carrier": "The ownership title has a supplied reading-field contact with kingship and public command.",
+          "independent_trigger": "Reckoning supplies an authoritative judgment affecting those subject to it at the Day.",
+          "activation": "The owner-title's transmitted royal range meets judgment, making authority over a public reckoning perceptible.",
+          "resulting_reading": "Public command becomes manifest in the Day's reckoning.",
+          "boundary": "This is the royal contact of the supplied reading field; the aligned surface remains the active possessor. No human territory, enthronement, or unstated universal scope is added."
         },
         {
           "branch_ref": "root_001700/B003",
           "facet_id": "F001",
           "branch_gloss": "büyük olayın yaşandığı çetin gün veya olay",
           "facet_statement": "Gün sözü, büyük bir olay gerçekleştiğinde o kritik zamanı veya gerçekleşen olayı anlatmak üzere aktarılır.",
-          "application_mode": "attributed",
+          "application_mode": "intrinsic_cross_root",
           "carrier_refs": [
             "1:4:2:1"
           ],
           "trigger_refs": [
-            "1:4:1:1",
-            "1:4:3:2"
+            "1:4:3:2",
+            "1:4:1:1"
           ],
           "focus_return_refs": [
             "1:4:2:1"
           ],
-          "carrier": "The focus occurrence carries the supplied büyük olayın yaşandığı çetin gün veya olay facet.",
-          "independent_trigger": "The other focus words in the genitive chain provide an independent authority, time, or reckoning contact.",
-          "activation": "The büyük olayın yaşandığı çetin gün veya olay facet meets the distinct focus words named in trigger_refs and changes the local reading as stated by the attributed nomination.",
-          "resulting_reading": "The phrase can stage a sovereign event in which authority is exercised as reckoning and recompense.",
-          "boundary": "The primary possessor relation remains intact; no separate political scene is asserted."
+          "carrier": "Day can name the critical occasion through the great event occurring in it.",
+          "independent_trigger": "The final noun supplies judgment and requital under the governing owner.",
+          "activation": "A time named by reckoning concentrates attention on the occurrence that makes that time consequential.",
+          "resulting_reading": "Time becomes the critical occasion in which authority is exercised.",
+          "boundary": "Only the critical-event core is used; no specified duration, battle, severe-day idiom or plural historical events are inferred."
         },
         {
           "branch_ref": "root_000504/B002",
           "facet_id": "F001",
           "branch_gloss": "yargılayıp hesap görerek karşılığını verme",
           "facet_statement": "Bir kişi veya eylem hakkında hükme varıp hesabını görmek.",
-          "application_mode": "attributed",
+          "application_mode": "lexical",
           "carrier_refs": [
             "1:4:3:2"
           ],
           "trigger_refs": [
-            "1:4:1:1",
-            "1:4:2:1"
+            "1:4:2:1",
+            "1:4:1:1"
           ],
           "focus_return_refs": [
             "1:4:3:2"
           ],
-          "carrier": "The focus occurrence carries the supplied yargılayıp hesap görerek karşılığını verme facet.",
-          "independent_trigger": "The other focus words in the genitive chain provide an independent authority, time, or reckoning contact.",
-          "activation": "The yargılayıp hesap görerek karşılığını verme facet meets the distinct focus words named in trigger_refs and changes the local reading as stated by the attributed nomination.",
-          "resulting_reading": "The phrase can stage a sovereign event in which authority is exercised as reckoning and recompense.",
-          "boundary": "The primary possessor relation remains intact; no separate political scene is asserted."
+          "carrier": "The final noun carries judgment, accounting and corresponding requital.",
+          "independent_trigger": "Day places that process at an occasion governed by the possessor.",
+          "activation": "The Day and its owner give the final noun a temporal and authoritative setting; the noun in return determines what happens there.",
+          "resulting_reading": "The sovereign event judges and accounts for persons or actions.",
+          "boundary": "Requital includes the outcome of accounting, without making every outcome punishment or importing a financial loan."
+        },
+        {
+          "branch_ref": "root_000504/B002",
+          "facet_id": "F002",
+          "branch_gloss": "yargılayıp hesap görerek karşılığını verme",
+          "facet_statement": "Hesabın sonucuna göre yapılanın karşılığını vermek.",
+          "application_mode": "lexical",
+          "carrier_refs": [
+            "1:4:3:2"
+          ],
+          "trigger_refs": [
+            "1:4:2:1",
+            "1:4:1:1"
+          ],
+          "focus_return_refs": [
+            "1:4:3:2"
+          ],
+          "carrier": "The final noun carries judgment, accounting and corresponding requital.",
+          "independent_trigger": "Day places that process at an occasion governed by the possessor.",
+          "activation": "The Day and its owner give the final noun a temporal and authoritative setting; the noun in return determines what happens there.",
+          "resulting_reading": "The event issues in corresponding requital, not merely announcement of authority.",
+          "boundary": "Requital includes the outcome of accounting, without making every outcome punishment or importing a financial loan."
         }
       ],
       "connection_refs": [],
@@ -1178,20 +2223,24 @@
       "finding_ref": "micro:debt-maturity",
       "origin_candidate_id": "cand_ceeeb8799a41d7f31756",
       "represented_candidate_ids": [],
-      "title": "attributed ownership governs liability as it comes due",
-      "claim": "The attributed trace depicts the holder of a deferred liability and of the interval in which it comes due.",
-      "mechanism": "Mālik, yawm, and dīn contact ownership, open-span time, and financial-liability facets; the contact forms a maturity relation between holder, interval, and settlement.",
-      "reader_payoff": "The Day can be felt as the interval at whose end what is owed comes due under its holder's authority.",
-      "containment": "This attributed debt-maturity resonance remains inside the primary phrase and does not reduce dīnī to a loan.",
+      "title": "The holder also governs the time of coming due",
+      "claim": "The Day's possessor can be pictured as holder of deferred liability and of the temporal interval in which that liability comes due.",
+      "mechanism": "Ownership contributes holding and disposal, the financial-debt source image contributes an obligation awaiting repayment, and the open-span Day contributes its interval. Their contact makes maturity answerable to the holder: a religious label or judicial verdict becomes the settlement of what has remained due.",
+      "reader_payoff": "The reader sees that deferred obligation involves both a claim and a time of settlement, each under the possessor.",
+      "containment": "This preserves the Day of reckoning as a moral accounting. The HFT's 'every deferred liability' expresses the model's encompassing picture, not a quantified financial proposition proven by the syntax. Din is not respelled as dayn, and no literal loan or repayment schedule is asserted.",
       "epistemic": {
-        "status": "qualified",
+        "status": "exploratory",
         "source_trust": [
-          "legacy_unbound"
+          "legacy_unbound",
+          "trusted"
         ],
-        "reason": "The exact focus ayah, word indices, roots, full focus anchor, changed reading, and supplied branch records agree; retain this parseable trace as attributed evidence because its reader identity is legacy_unbound."
+        "reason": "The HFT trace roots and coordinates agree with supplied morphology, and the loan branch independently supplies deferment. Its composite maturity model is an analogical inference beyond the primary lexical reading."
       },
       "support_ids": [
-        "sup_9076b32659455b9ab4a1"
+        "sup_39de4f6450273056ca0c",
+        "sup_9076b32659455b9ab4a1",
+        "sup_9689a9db629abd007935",
+        "sup_fd8b5adbbedbb1e0027b"
       ],
       "branch_activations": [
         {
@@ -1199,7 +2248,7 @@
           "facet_id": "F001",
           "branch_gloss": "sahiplik ve tasarruf yetkisi",
           "facet_statement": "Bir kişi, mal veya hak üzerinde sahiplikten doğan elinde bulundurma ve tasarruf yetkisine sahiptir.",
-          "application_mode": "attributed",
+          "application_mode": "lexical",
           "carrier_refs": [
             "1:4:1:1"
           ],
@@ -1210,40 +2259,40 @@
           "focus_return_refs": [
             "1:4:1:1"
           ],
-          "carrier": "The focus occurrence carries the supplied sahiplik ve tasarruf yetkisi facet.",
-          "independent_trigger": "The other focus words in the genitive chain provide an independent authority, time, or reckoning contact.",
-          "activation": "The sahiplik ve tasarruf yetkisi facet meets the distinct focus words named in trigger_refs and changes the local reading as stated by the attributed nomination.",
-          "resulting_reading": "The phrase can depict authority over every deferred liability within the named Day.",
-          "boundary": "The local formula still names a broader reckoning system."
+          "carrier": "The active possessor carries holding and power of disposal.",
+          "independent_trigger": "The governed Day is specified as reckoning by the final noun.",
+          "activation": "A possessor governing the occasion of settlement has disposal over that occasion and its reckoning.",
+          "resulting_reading": "The possessor has disposal over the claim's reckoning occasion.",
+          "boundary": "Possession of the Day is the local relation; transfers of ownership and historical slavery uses are not asserted."
         },
         {
           "branch_ref": "root_001700/B002",
           "facet_id": "F001",
           "branch_gloss": "herhangi bir zaman dilimi; bağlama göre devir",
           "facet_statement": "Herhangi bir uzunluktaki zaman süresini belirtir ve bilinen gündüz sınırlarına bağlı değildir.",
-          "application_mode": "attributed",
+          "application_mode": "intrinsic_cross_root",
           "carrier_refs": [
             "1:4:2:1"
           ],
           "trigger_refs": [
-            "1:4:1:1",
-            "1:4:3:2"
+            "1:4:3:2",
+            "1:4:1:1"
           ],
           "focus_return_refs": [
             "1:4:2:1"
           ],
-          "carrier": "The focus occurrence carries the supplied herhangi bir zaman dilimi; bağlama göre devir facet.",
-          "independent_trigger": "The other focus words in the genitive chain provide an independent authority, time, or reckoning contact.",
-          "activation": "The herhangi bir zaman dilimi; bağlama göre devir facet meets the distinct focus words named in trigger_refs and changes the local reading as stated by the attributed nomination.",
-          "resulting_reading": "The phrase can depict authority over every deferred liability within the named Day.",
-          "boundary": "The local formula still names a broader reckoning system."
+          "carrier": "Day admits an interval whose length is not fixed by daylight.",
+          "independent_trigger": "The distinct debt image in din carries future repayment, while the possessor supplies control over the claim.",
+          "activation": "A deferred liability needs an interval before settlement; the temporal noun makes that interval part of the owner's governed domain.",
+          "resulting_reading": "Within the debt analogy, the owner holds both what is due and the interval in which it comes due.",
+          "boundary": "The interval is an interpretive relation within the analogy. The grammar does not enumerate all liabilities or measure a pre-Day waiting period."
         },
         {
           "branch_ref": "root_000504/B003",
           "facet_id": "F001",
           "branch_gloss": "borç alıp verme ve vadeli ödeme ilişkisi",
           "facet_statement": "Mal veya paranın borç olarak alınması ya da verilmesiyle mali yükümlülük doğması.",
-          "application_mode": "attributed",
+          "application_mode": "analogical",
           "carrier_refs": [
             "1:4:3:2"
           ],
@@ -1254,11 +2303,11 @@
           "focus_return_refs": [
             "1:4:3:2"
           ],
-          "carrier": "The focus occurrence carries the supplied borç alıp verme ve vadeli ödeme ilişkisi facet.",
-          "independent_trigger": "The other focus words in the genitive chain provide an independent authority, time, or reckoning contact.",
-          "activation": "The borç alıp verme ve vadeli ödeme ilişkisi facet meets the distinct focus words named in trigger_refs and changes the local reading as stated by the attributed nomination.",
-          "resulting_reading": "The phrase can depict authority over every deferred liability within the named Day.",
-          "boundary": "The local formula still names a broader reckoning system."
+          "carrier": "The din occurrence is the root contact for the distinct financial-debt image: receiving or giving goods establishes an obligation to return them.",
+          "independent_trigger": "The possessor supplies the holder of a claim and the Day supplies its occasion of settlement.",
+          "activation": "A financial obligation awaiting return supplies an analogy for what remains answerable until the owner's reckoning.",
+          "resulting_reading": "Within the analogy, receiving or giving value leaves liability awaiting settlement before its holder.",
+          "boundary": "The source domain remains a financial liability. The written din is not respelled as dayn; no actual loan, amount, sale, interest or exchange of goods is asserted in the ayah."
         }
       ],
       "connection_refs": [],
@@ -1269,20 +2318,24 @@
       "finding_ref": "micro:obedience-regime",
       "origin_candidate_id": "cand_b6d347cb5abb89b72475",
       "represented_candidate_ids": [],
-      "title": "attributed sovereignty sustains an obedience order over time",
-      "claim": "The attributed trace names sovereignty over a duration constituted by obedience, worship, and followed law.",
-      "mechanism": "Mālik, yawm, and dīn contact public sovereignty, extended duration, and obedience/order facets; their contact turns authority and time into an enacted regime.",
-      "reader_payoff": "The phrase can be perceived as an order lived through repeated allegiance as well as a terminal reckoning.",
-      "containment": "This attributed regime remains alongside the primary Day-of-reckoning reading and does not replace the local formula.",
+      "title": "Sovereignty over the duration of allegiance",
+      "claim": "Alongside authority over the reckoning Day, the phrase can evoke sovereignty over durations constituted by allegiance, worship and adherence to rules.",
+      "mechanism": "Royal authority in the head meets din's superior-will relation; Day supplies an open span that can be heard as the age in which that relation is practiced. Obedience is its core, worship its divine-directed specialization, and followed law its rule-system extension. The resulting picture adds lived governance to terminal judgment.",
+      "reader_payoff": "The reader can perceive the order within which allegiance is lived as belonging to the same authority before whom it is reckoned.",
+      "containment": "The reconstructed HFT 'before' of authority only after present life is a reading-state limitation, not a rejected primary meaning. The future reckoning Day remains intact. No later worship verse, historical legal code or exclusive chronology is imported; 'every duration' is the model's encompassing possibility.",
       "epistemic": {
-        "status": "qualified",
+        "status": "exploratory",
         "source_trust": [
-          "legacy_unbound"
+          "legacy_unbound",
+          "trusted"
         ],
-        "reason": "The exact focus ayah, word indices, roots, full focus anchor, changed reading, and supplied branch records agree; retain this parseable trace as attributed evidence because its reader identity is legacy_unbound."
+        "reason": "The source trace is legacy_unbound but all roots and word coordinates agree with the supplied surface. The local ownership relation activates obedience; the lived-duration model is a further qualified combination, not an alternative dictated by grammar."
       },
       "support_ids": [
-        "sup_ec98c3825f872a39c0a9"
+        "sup_39de4f6450273056ca0c",
+        "sup_9689a9db629abd007935",
+        "sup_ec98c3825f872a39c0a9",
+        "sup_fd8b5adbbedbb1e0027b"
       ],
       "branch_activations": [
         {
@@ -1290,66 +2343,129 @@
           "facet_id": "F001",
           "branch_gloss": "hükümdarlık ve kamusal egemenlik",
           "facet_statement": "Hükümdar, halk üzerinde emir ve yasak koyarak kamusal yönetim yetkisi kullanır.",
-          "application_mode": "attributed",
+          "application_mode": "intrinsic_cross_root",
           "carrier_refs": [
             "1:4:1:1"
           ],
           "trigger_refs": [
-            "1:4:2:1",
-            "1:4:3:2"
+            "1:4:3:2",
+            "1:4:2:1"
           ],
           "focus_return_refs": [
             "1:4:1:1"
           ],
-          "carrier": "The focus occurrence carries the supplied hükümdarlık ve kamusal egemenlik facet.",
-          "independent_trigger": "The other focus words in the genitive chain provide an independent authority, time, or reckoning contact.",
-          "activation": "The hükümdarlık ve kamusal egemenlik facet meets the distinct focus words named in trigger_refs and changes the local reading as stated by the attributed nomination.",
-          "resulting_reading": "The phrase can name an order constituted by sovereignty, duration, obedience, worship, and law.",
-          "boundary": "The attributed regime does not displace the primary possessor of the named Day."
+          "carrier": "The ownership title has a supplied reading-field contact with kingship and public command.",
+          "independent_trigger": "Reckoning supplies an authoritative judgment affecting those subject to it at the Day.",
+          "activation": "The owner-title's transmitted royal range meets judgment, making authority over a public reckoning perceptible.",
+          "resulting_reading": "The title evokes the authority ordering a lived regime.",
+          "boundary": "This is the royal contact of the supplied reading field; the aligned surface remains the active possessor. No human territory, enthronement, or unstated universal scope is added."
         },
         {
           "branch_ref": "root_001700/B002",
           "facet_id": "F001",
           "branch_gloss": "herhangi bir zaman dilimi; bağlama göre devir",
           "facet_statement": "Herhangi bir uzunluktaki zaman süresini belirtir ve bilinen gündüz sınırlarına bağlı değildir.",
-          "application_mode": "attributed",
+          "application_mode": "intrinsic_cross_root",
           "carrier_refs": [
             "1:4:2:1"
           ],
           "trigger_refs": [
-            "1:4:1:1",
-            "1:4:3:2"
+            "1:4:3:2",
+            "1:4:1:1"
           ],
           "focus_return_refs": [
             "1:4:2:1"
           ],
-          "carrier": "The focus occurrence carries the supplied herhangi bir zaman dilimi; bağlama göre devir facet.",
-          "independent_trigger": "The other focus words in the genitive chain provide an independent authority, time, or reckoning contact.",
-          "activation": "The herhangi bir zaman dilimi; bağlama göre devir facet meets the distinct focus words named in trigger_refs and changes the local reading as stated by the attributed nomination.",
-          "resulting_reading": "The phrase can name an order constituted by sovereignty, duration, obedience, worship, and law.",
-          "boundary": "The attributed regime does not displace the primary possessor of the named Day."
+          "carrier": "Day can denote a span of time without a daylight-length limit.",
+          "independent_trigger": "Din's obeyed-order capacity meets the head's authoritative governance.",
+          "activation": "A span characterized by allegiance and rules is a duration within which governance is lived, not only the moment of its final accounting.",
+          "resulting_reading": "The Day can also evoke the duration of an obeyed order under its sovereign.",
+          "boundary": "This additional durative resonance does not erase the specific reckoning Day or assert that the text explicitly identifies an earthly historical period."
+        },
+        {
+          "branch_ref": "root_001700/B002",
+          "facet_id": "F002",
+          "branch_gloss": "herhangi bir zaman dilimi; bağlama göre devir",
+          "facet_statement": "Bağlama göre uzun bir devir veya bir varlığın yaşadığı dönemler anlamına genişleyebilir.",
+          "application_mode": "intrinsic_cross_root",
+          "carrier_refs": [
+            "1:4:2:1"
+          ],
+          "trigger_refs": [
+            "1:4:3:2",
+            "1:4:1:1"
+          ],
+          "focus_return_refs": [
+            "1:4:2:1"
+          ],
+          "carrier": "The span branch can extend to an age or the periods through which something lives.",
+          "independent_trigger": "The final noun offers a practiced order of adherence under the possessor's authority.",
+          "activation": "Hearing the temporal complement through that adhered-to order gives the span the character of a regime's lived duration.",
+          "resulting_reading": "Within the exploratory model, sovereignty extends across the age of an order constituted by obedience.",
+          "boundary": "An age is an interpretive extension, not a dated era, and 'every duration' remains the HFT model's scope rather than an explicit universal quantifier."
         },
         {
           "branch_ref": "root_000504/B001",
           "facet_id": "F001",
           "branch_gloss": "boyun eğerek uyma ve buna dayalı inanç düzeni",
           "facet_statement": "Bir üstün iradesine boyun eğme ve onun buyruğuna uyma.",
-          "application_mode": "attributed",
+          "application_mode": "intrinsic_cross_root",
           "carrier_refs": [
             "1:4:3:2"
           ],
           "trigger_refs": [
-            "1:4:1:1",
-            "1:4:2:1"
+            "1:4:1:1"
           ],
           "focus_return_refs": [
             "1:4:3:2"
           ],
-          "carrier": "The focus occurrence carries the supplied boyun eğerek uyma ve buna dayalı inanç düzeni facet.",
-          "independent_trigger": "The other focus words in the genitive chain provide an independent authority, time, or reckoning contact.",
-          "activation": "The boyun eğerek uyma ve buna dayalı inanç düzeni facet meets the distinct focus words named in trigger_refs and changes the local reading as stated by the attributed nomination.",
-          "resulting_reading": "The phrase can name an order constituted by sovereignty, duration, obedience, worship, and law.",
-          "boundary": "The attributed regime does not displace the primary possessor of the named Day."
+          "carrier": "Din also carries submission to a superior will, with worship and adherence to a rule-system as its stated extensions.",
+          "independent_trigger": "The divine possessor places the Day's content under an authoritative will.",
+          "activation": "The relation to an owner gives obedience a separate local trigger: the order being reckoned is also an order to which allegiance is owed.",
+          "resulting_reading": "The regime rests on yielding to and following superior will.",
+          "boundary": "The Day of reckoning remains intact. Neither a named code nor an actual worship act or subsequent petition is supplied by the micro surface."
+        },
+        {
+          "branch_ref": "root_000504/B001",
+          "facet_id": "F002",
+          "branch_gloss": "boyun eğerek uyma ve buna dayalı inanç düzeni",
+          "facet_statement": "Tanrı söz konusu olduğunda bağlılığın kulluk etme biçimini alması.",
+          "application_mode": "intrinsic_cross_root",
+          "carrier_refs": [
+            "1:4:3:2"
+          ],
+          "trigger_refs": [
+            "1:4:1:1"
+          ],
+          "focus_return_refs": [
+            "1:4:3:2"
+          ],
+          "carrier": "Din also carries submission to a superior will, with worship and adherence to a rule-system as its stated extensions.",
+          "independent_trigger": "The divine possessor places the Day's content under an authoritative will.",
+          "activation": "The relation to an owner gives obedience a separate local trigger: the order being reckoned is also an order to which allegiance is owed.",
+          "resulting_reading": "For the divine possessor, this allegiance can take the form of worship.",
+          "boundary": "The Day of reckoning remains intact. Neither a named code nor an actual worship act or subsequent petition is supplied by the micro surface."
+        },
+        {
+          "branch_ref": "root_000504/B001",
+          "facet_id": "F003",
+          "branch_gloss": "boyun eğerek uyma ve buna dayalı inanç düzeni",
+          "facet_statement": "İnanç yolu ve kurallar bütününün, onlara uyma ve bağlanma ilişkisi açısından adlandırılması.",
+          "application_mode": "intrinsic_cross_root",
+          "carrier_refs": [
+            "1:4:3:2"
+          ],
+          "trigger_refs": [
+            "1:4:1:1"
+          ],
+          "focus_return_refs": [
+            "1:4:3:2"
+          ],
+          "carrier": "Din also carries submission to a superior will, with worship and adherence to a rule-system as its stated extensions.",
+          "independent_trigger": "The divine possessor places the Day's content under an authoritative will.",
+          "activation": "The relation to an owner gives obedience a separate local trigger: the order being reckoned is also an order to which allegiance is owed.",
+          "resulting_reading": "Adherence can constitute a followed way and body of rules across the duration.",
+          "boundary": "The Day of reckoning remains intact. Neither a named code nor an actual worship act or subsequent petition is supplied by the micro surface."
         }
       ],
       "connection_refs": [],
@@ -1357,23 +2473,27 @@
       "semantic_obligation_refs": []
     },
     {
-      "finding_ref": "micro:mainstay-customary-order",
+      "finding_ref": "micro:mainstay-of-custom",
       "origin_candidate_id": "cand_85368a4b3f75ed141a49",
       "represented_candidate_ids": [],
-      "title": "attributed mainstay holds a temporal customary order together",
-      "claim": "The exploratory attributed trace presents Māliki as a mainstay that keeps a temporal, customary, and civic order coherent.",
-      "mechanism": "Mālik, yawm, and dīn contact cohesion, mainstay, duration, habit, and civic-order facets; the contact changes ownership into support that sustains an order.",
-      "reader_payoff": "The phrase can depict an order held together over time, not only authority exercised at a single event.",
-      "containment": "This exploratory attributed extension leaves the primary possessive Day-of-reckoning reading intact and does not assert a literal city or material support.",
+      "title": "The owner as what sustains an accustomed order",
+      "claim": "The owner of the reckoning Day can be pictured as a mainstay that holds an order coherent through time, with din also evoking settled practice and familiar ways of life.",
+      "mechanism": "Cohesion supplies the image of parts holding together; mainstay supplies the distinct supporting element; Day supplies their temporal field; habitual din supplies the recurring practice and accustomed state that persist within it. The contact shifts an exclusively external-ruler picture toward the order's sustained operation under that owner.",
+      "reader_payoff": "The reader can distinguish possessing an order, its holding together, and the condition on which it continues, while seeing how the owner-image can connect them.",
+      "containment": "This reconstructed legacy model is exploratory. The active possessor remains the owner of the reckoning Day; cohesion and the fixed mainstay expressions contribute explicitly analogical roles. Habit does not make final judgment repetitive. The civic/city addition is excluded because physical settlement has no independent focus trigger.",
       "epistemic": {
         "status": "exploratory",
         "source_trust": [
-          "legacy_unbound"
+          "legacy_unbound",
+          "trusted"
         ],
-        "reason": "The exact focus ayah, word indices, roots, full focus anchor, changed reading, and supplied branch records agree; retain this parseable trace as attributed evidence because its reader identity is legacy_unbound."
+        "reason": "All nominated roots and coordinates agree with QAC. The local ordering and temporal relation permit the cohesion/mainstay/custom combination as a qualified image. The lexicon's city core is not supported by that same relation."
       },
       "support_ids": [
-        "sup_247e039079f06dc5170b"
+        "sup_247e039079f06dc5170b",
+        "sup_39de4f6450273056ca0c",
+        "sup_9689a9db629abd007935",
+        "sup_fd8b5adbbedbb1e0027b"
       ],
       "branch_activations": [
         {
@@ -1381,51 +2501,73 @@
           "facet_id": "F001",
           "branch_gloss": "güçlü ve tutarlı biçimde bir arada durma",
           "facet_statement": "Bir şey, parçaları çözülmeden bir arada duracak güç ve iç tutarlılık taşır.",
-          "application_mode": "attributed",
+          "application_mode": "analogical",
           "carrier_refs": [
             "1:4:1:1"
           ],
           "trigger_refs": [
-            "1:4:2:1",
-            "1:4:3:2"
+            "1:4:3:2",
+            "1:4:2:1"
           ],
           "focus_return_refs": [
             "1:4:1:1"
           ],
-          "carrier": "The focus occurrence carries the supplied güçlü ve tutarlı biçimde bir arada durma facet.",
-          "independent_trigger": "The other focus words in the genitive chain provide an independent authority, time, or reckoning contact.",
-          "activation": "The güçlü ve tutarlı biçimde bir arada durma facet meets the distinct focus words named in trigger_refs and changes the local reading as stated by the attributed nomination.",
-          "resulting_reading": "Māliki can be heard as the sustaining support of an order across time.",
-          "boundary": "The city and customary images remain attributed exploratory pressures, not literal place references."
+          "carrier": "The root's cohesion core describes strength that lets parts hold together without dissolution.",
+          "independent_trigger": "The independent final noun supplies an ordered account, and Day supplies the span over which that order stands.",
+          "activation": "When ownership of an ordered reckoning is viewed through cohesion, authority is pictured as keeping the order's parts operative together.",
+          "resulting_reading": "The owner can be imagined as holding a temporal order coherent, adding internal consistency to the picture of control.",
+          "boundary": "This is a cohesion image applied to the relation, not a lexical claim that the active possessor is dough, a wall or an internally compact object; no material or self-control specialization is asserted."
         },
         {
           "branch_ref": "root_001444/B005",
           "facet_id": "F001",
           "branch_gloss": "işi ayakta tutan temel dayanak",
           "facet_statement": "Bir unsur, daha büyük bir işin veya düzenin dayandığı ve onun düzgün işlemesini sağlayan temeldir.",
-          "application_mode": "attributed",
+          "application_mode": "analogical",
           "carrier_refs": [
             "1:4:1:1"
           ],
           "trigger_refs": [
-            "1:4:2:1",
-            "1:4:3:2"
+            "1:4:3:2",
+            "1:4:2:1"
           ],
           "focus_return_refs": [
             "1:4:1:1"
           ],
-          "carrier": "The focus occurrence carries the supplied işi ayakta tutan temel dayanak facet.",
-          "independent_trigger": "The other focus words in the genitive chain provide an independent authority, time, or reckoning contact.",
-          "activation": "The işi ayakta tutan temel dayanak facet meets the distinct focus words named in trigger_refs and changes the local reading as stated by the attributed nomination.",
-          "resulting_reading": "Māliki can be heard as the sustaining support of an order across time.",
-          "boundary": "The city and customary images remain attributed exploratory pressures, not literal place references."
+          "carrier": "The branch's fixed mainstay expressions identify the element upon which an affair or order depends.",
+          "independent_trigger": "The ordered reckoning named by din is grammatically placed, through Day, under the possessor's disposal.",
+          "activation": "The relation of an order to its controlling owner permits the supplied mainstay image to recast control as what enables that order to operate.",
+          "resulting_reading": "The possessor can be pictured as the supporting condition of the reckoning order, as well as its holder.",
+          "boundary": "The source is restricted to mainstay expressions. The actual active-participle malik is not silently changed into milak; only the explicitly stated functional analogy is retained."
+        },
+        {
+          "branch_ref": "root_001444/B005",
+          "facet_id": "F002",
+          "branch_gloss": "işi ayakta tutan temel dayanak",
+          "facet_statement": "Bu dayanak, işin doğruluğunu, sürekliliğini ve tamamlanmasını sağlayan belirleyici koşul olur.",
+          "application_mode": "analogical",
+          "carrier_refs": [
+            "1:4:1:1"
+          ],
+          "trigger_refs": [
+            "1:4:3:2",
+            "1:4:2:1"
+          ],
+          "focus_return_refs": [
+            "1:4:1:1"
+          ],
+          "carrier": "The mainstay source image extends to the condition that keeps an affair sound, continuous and capable of completion.",
+          "independent_trigger": "Day supplies duration and din supplies an accounting order with corresponding settlement.",
+          "activation": "The order's dependence on the possessor can be heard as the condition of its persistence and completion over that duration.",
+          "resulting_reading": "The owner-image adds sustained and completed operation to the idea of commanding a reckoning.",
+          "boundary": "The core mainstay facet is retained alongside this extension. This does not prove a metaphysical doctrine of continuous creation or import the source's heart/body example."
         },
         {
           "branch_ref": "root_001700/B002",
           "facet_id": "F001",
           "branch_gloss": "herhangi bir zaman dilimi; bağlama göre devir",
           "facet_statement": "Herhangi bir uzunluktaki zaman süresini belirtir ve bilinen gündüz sınırlarına bağlı değildir.",
-          "application_mode": "attributed",
+          "application_mode": "intrinsic_cross_root",
           "carrier_refs": [
             "1:4:2:1"
           ],
@@ -1436,18 +2578,18 @@
           "focus_return_refs": [
             "1:4:2:1"
           ],
-          "carrier": "The focus occurrence carries the supplied herhangi bir zaman dilimi; bağlama göre devir facet.",
-          "independent_trigger": "The other focus words in the genitive chain provide an independent authority, time, or reckoning contact.",
-          "activation": "The herhangi bir zaman dilimi; bağlama göre devir facet meets the distinct focus words named in trigger_refs and changes the local reading as stated by the attributed nomination.",
-          "resulting_reading": "Māliki can be heard as the sustaining support of an order across time.",
-          "boundary": "The city and customary images remain attributed exploratory pressures, not literal place references."
+          "carrier": "Day admits an unmeasured temporal span.",
+          "independent_trigger": "The head presents a standing possessor and din's habitual capacity supplies a continued pattern.",
+          "activation": "The temporal complement gives a field across which an owner can maintain the patterned order.",
+          "resulting_reading": "Time becomes the duration of the order's persistence under its sustaining possessor.",
+          "boundary": "This is a bounded resonance within the ownership-of-reckoning floor; it does not turn the primary Day into all history."
         },
         {
           "branch_ref": "root_000504/B005",
           "facet_id": "F001",
           "branch_gloss": "alışılmış davranış ve öteden beri bilinen hal",
           "facet_statement": "Tekrarlanarak yerleşmiş alışkanlık veya sürekli yapılan iş.",
-          "application_mode": "attributed",
+          "application_mode": "intrinsic_cross_root",
           "carrier_refs": [
             "1:4:3:2"
           ],
@@ -1458,18 +2600,18 @@
           "focus_return_refs": [
             "1:4:3:2"
           ],
-          "carrier": "The focus occurrence carries the supplied alışılmış davranış ve öteden beri bilinen hal facet.",
-          "independent_trigger": "The other focus words in the genitive chain provide an independent authority, time, or reckoning contact.",
-          "activation": "The alışılmış davranış ve öteden beri bilinen hal facet meets the distinct focus words named in trigger_refs and changes the local reading as stated by the attributed nomination.",
-          "resulting_reading": "Māliki can be heard as the sustaining support of an order across time.",
-          "boundary": "The city and customary images remain attributed exploratory pressures, not literal place references."
+          "carrier": "Din has a distinct habitual-practice capacity: action settled through repetition.",
+          "independent_trigger": "The standing possessor and an open temporal span supply a maintained relation over time.",
+          "activation": "Hearing habitual practice within that maintained temporal domain gives the order a recurring enactment rather than only an isolated final occasion.",
+          "resulting_reading": "In the exploratory model, what the owner sustains can be heard as customary practice persisting through time.",
+          "boundary": "Repetition belongs to the activated habitual image, not an explicit plural or repetition marker in Day. This does not establish that the final judgment itself repeats."
         },
         {
-          "branch_ref": "root_000504/B006",
-          "facet_id": "F001",
-          "branch_gloss": "kent",
-          "facet_statement": "İnsanların toplu yaşadığı büyük ve düzenli yerleşim olan kent.",
-          "application_mode": "attributed",
+          "branch_ref": "root_000504/B005",
+          "facet_id": "F002",
+          "branch_gloss": "alışılmış davranış ve öteden beri bilinen hal",
+          "facet_statement": "Bir kişi veya topluluk için öteden beri bilinen hal, tutum ve gidiş.",
+          "application_mode": "intrinsic_cross_root",
           "carrier_refs": [
             "1:4:3:2"
           ],
@@ -1480,11 +2622,85 @@
           "focus_return_refs": [
             "1:4:3:2"
           ],
-          "carrier": "The focus occurrence carries the supplied kent facet.",
-          "independent_trigger": "The other focus words in the genitive chain provide an independent authority, time, or reckoning contact.",
-          "activation": "The kent facet meets the distinct focus words named in trigger_refs and changes the local reading as stated by the attributed nomination.",
-          "resulting_reading": "Māliki can be heard as the sustaining support of an order across time.",
-          "boundary": "The city and customary images remain attributed exploratory pressures, not literal place references."
+          "carrier": "The habitual branch extends to a person's or community's long-known condition, manner and course.",
+          "independent_trigger": "The possessor's standing relation governs a temporal domain.",
+          "activation": "A maintained duration allows familiar ways of conduct to become the order pictured under that authority.",
+          "resulting_reading": "The order's continuity includes a customary manner of life, not only repeated individual acts.",
+          "boundary": "The habitual core survives with this extension; no named community, observed custom or concrete institution is supplied."
+        }
+      ],
+      "connection_refs": [],
+      "context_refs": [],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "micro:divinely-marked-occasion",
+      "origin_candidate_id": null,
+      "represented_candidate_ids": [],
+      "title": "The Day's weight comes from whose act defines it",
+      "claim": "The Day of reckoning can also evoke a divinely marked occasion whose importance comes from the authority and consequential acts to which it is related.",
+      "mechanism": "Day's source-attested divine-occasion capacity meets two separate local triggers: the divine possessor and the final accounting/return noun. Their contact adds an act-based ground for the Day's special weight to the existing ownership and event readings.",
+      "reader_payoff": "The reader can perceive why the Day matters through its relation to the one who owns it and the reckoning that defines it.",
+      "containment": "This is an independent exploratory nomination from the available focus branches, not a wider inter-ayah resonance. The supplied branch is restricted to days related to God; here that relation is analogical through the ownership title. No absent plural expression, blessing narrative or remembered historical event is imported.",
+      "epistemic": {
+        "status": "exploratory",
+        "source_trust": [
+          "trusted"
+        ],
+        "reason": "The divine referent and the reckoning content are explicitly supplied locally. Applying the lexicon's divine-occasion image to this differently formed ownership phrase remains a bounded analogy."
+      },
+      "support_ids": [
+        "sup_14c1b20570559be207bc",
+        "sup_39de4f6450273056ca0c",
+        "sup_51cf6e466b7c15530bf3",
+        "sup_613fd4393bdcab97ac78",
+        "sup_9689a9db629abd007935",
+        "sup_fd8b5adbbedbb1e0027b"
+      ],
+      "branch_activations": [
+        {
+          "branch_ref": "root_001700/B004",
+          "facet_id": "F001",
+          "branch_gloss": "Tanrı'nın nimet ve ibret verici işleriyle anılan günler",
+          "facet_statement": "Günler, Tanrı'nın insanlara yönelik etkili ve hatırlanmaya değer işleriyle ilişkilendirilir.",
+          "application_mode": "analogical",
+          "carrier_refs": [
+            "1:4:2:1"
+          ],
+          "trigger_refs": [
+            "1:4:1:1",
+            "1:4:3:2"
+          ],
+          "focus_return_refs": [
+            "1:4:2:1"
+          ],
+          "carrier": "The day branch records days recognized through consequential divine acts; that semantic content is restricted to days related to God.",
+          "independent_trigger": "The supplied analysis identifies the head as divine possessor, while din independently identifies judgment and corresponding requital as the Day's content.",
+          "activation": "The focus relates the Day to divine authority through ownership and specifies the consequential act through reckoning, providing the day-to-divine-act relation needed for a bounded analogy with the branch.",
+          "resulting_reading": "The owned reckoning Day can carry the weight of an occasion recognized through divine action, beyond its bare status as an important date.",
+          "boundary": "The exact plural days-of-God expression is not present. This is a local analogy through the actual divine-ownership relation, not a direct lexical equation, a remembrance command or an imported account of past communities."
+        },
+        {
+          "branch_ref": "root_001700/B004",
+          "facet_id": "F003",
+          "branch_gloss": "Tanrı'nın nimet ve ibret verici işleriyle anılan günler",
+          "facet_statement": "Günlerin Tanrı'ya bağlanması, o günlerde verilen nimetler ve gerçekleşen işler nedeniyle onlara özel değer kazandırır.",
+          "application_mode": "analogical",
+          "carrier_refs": [
+            "1:4:2:1"
+          ],
+          "trigger_refs": [
+            "1:4:1:1",
+            "1:4:3:2"
+          ],
+          "focus_return_refs": [
+            "1:4:2:1"
+          ],
+          "carrier": "The source associates days' relation to God with special value arising from the acts occurring in them.",
+          "independent_trigger": "The owner-title binds the Day to divine authority and the final noun supplies consequential reckoning.",
+          "activation": "The same local relation that assigns possession can, within the source image, make the occasion's importance derive from whose act defines it.",
+          "resulting_reading": "The Day's special weight is heard as relational: its divine ownership and reckoning content make it significant.",
+          "boundary": "No blessing, pardon, particular collective punishment or comparison with another day is asserted. The branch's core day-to-divine-act relation survives with this associated use."
         }
       ],
       "connection_refs": [],
@@ -1493,10 +2709,16 @@
     }
   ],
   "friction_notes": [
-    "The packet has no selected non-focus context units or connection records, so all retained activations are focus-local and no cross-ayah finding is asserted.",
-    "All four HFT records are parseable and coordinate-aligned with the supplied focus surface and branch registry, but their reader identity is legacy_unbound; they are retained as attributed evidence with qualified or exploratory status.",
-    "The focus-word alignment resolves all three analysis units to the supplied QAC morphemes; no unresolved carrier was treated as evidence against a reading.",
-    "The branch registry exposes additional focus branches, but no additional branch was promoted because the packet supplied no independent trigger and changed reading beyond the retained word topics and HFT traces."
+    "The supplied primary floor is 'Hesap gününün sahibidir.' The follow-up composition should use natural Turkish and the supplied Arabic surfaces, preserve all retained mechanisms, and keep owner, particular Day and reckoning recoverable. This discovery file contains no polished commentary prose.",
+    "All three analysis entries are resolved by the accepted word-analysis/QAC bridge; there are no unresolved joins or shared-morpheme collisions. Analysis identities remain separate from QAC occurrence identities.",
+    "The packet supplies 34 candidates, 21 focus branch records, 37 supports, no connection records and no selected non-focus context units. All candidates and all four assigned HFT records were reviewed. The full focus branch surface was inspected beyond the candidate docket; micro:divinely-marked-occasion is an independently nominated branch contact.",
+    "No candidate contains semantic_obligations, required_branch_facets or a root_branch_options field in this packet. Empty obligation arrays therefore preserve the supplied schema without inventing obligation IDs; word-topic claims and each HFT trace role, changed reading and boundary are explicitly accounted for in finding and decision text. The complete branch_registry supplied the branch review surface.",
+    "Several word-topic summaries contain non-focus references despite micro routing. Their absent Arabic surfaces cannot supply new contextual activations. Specific forward, cosmic and recurrence claims were excluded explicitly; profile observations and reported local grammatical attachments remain qualified as source reports. Incidental wider references inside shared word summaries are not blanket authorizations to reuse their other claims.",
+    "The genitive continuation is reported by a supplied attachment topic; the earlier divine-description surface is absent. It is retained as a qualified syntactic attachment, without a mercy-to-accountability narrative.",
+    "The HFT source is a reconstructed trace with legacy_unbound reader identity, not a strict staged response or a verified independent reading session. The dated window and counts for other lanes do not supply their evidence here. No unavailable reader walks, later-context deltas, channel findings or Layer-1 exclusion ledger have been reconstructed.",
+    "No complete recitation apparatus, upstream row texts, quantitative frequency tables or audio is supplied. Variant ranges, intensification, rarity, frequency, imala/madd coloring and perceptual sound effects are limited to their compact source reports and visible morphology.",
+    "The severe-day idiom and city branch fail specific local contacts. The critical-event core survives without the absent severity construction. The city's naming explanation cannot replace its physical settlement core.",
+    "Debt, forceful subjection, cohesion, mainstay and the divinely marked occasion retain their separate source-domain restrictions. Analogical application does not assert that every root-relative word is a lexical synonym of the actual focus form. The exploratory customary-order reading supplies repetition through its source image; singular Day does not itself mark repeated judgment.",
+    "Accepted overlaps are semantically distinct: formula entry and completion, head determination and terminal determination, ownership scope and terminal event content each retain their own contribution. No candidate was marked represented merely because it shares words or morphemes with another."
   ]
 }
-
