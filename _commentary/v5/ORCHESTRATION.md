@@ -34,6 +34,19 @@ ignored by Git, and never commentary evidence.
 All agent launches in this runbook must use the multiagent spawn tool. Do not
 launch V5 agents with `codex exec`, shell scripts, or ad hoc terminal sessions.
 
+## Run-Scoped Model Overrides
+
+The standing V5 model assignments are `gpt-5.6-luna` at `max` reasoning effort
+for scope and invitation agents, and `gpt-5.6-sol` at `max` reasoning effort
+for the CE consolidator/editorial session.
+
+An operator may explicitly supply a model override for a particular run. Treat
+that override as scoped to the named run only; do not rewrite the standing model
+defaults for later V5 work. For the next fresh S1 run requested after
+2026-09-11, use `gpt-6-astra` at `high` reasoning effort for every agent stage:
+scope discovery/composition, CE consolidation/editorial/qualification follow-up,
+and invitation.
+
 ## Operations Monitor
 
 Before preflight, start one operations monitor for this orchestrator and wait
@@ -213,9 +226,10 @@ override is for explicitly exploratory runs, not this production procedure.
 ## 3. Scope Agents
 
 Launch three fresh, independent agents in parallel with the multiagent spawn
-tool, one for each prompt. Every scope agent must be `gpt-6-astra` at `high`
-reasoning effort. Do not substitute another model, lower reasoning effort, or
-launch with `codex exec`.
+tool, one for each prompt. Every scope agent must be `gpt-5.6-luna` at `max`
+reasoning effort unless the operator explicitly supplies a run-scoped model
+override. Do not substitute another model, lower reasoning effort, or launch
+with `codex exec`.
 
 The scope-agent launch message may contain only the prompt path, the instruction
 to follow it, and the start/terminal lifecycle command templates below. Do not
@@ -311,11 +325,12 @@ lifecycle close. Continue the workflow with the files the scope agents produced.
 ## 4. Consolidation
 
 After all three scope prose files exist, close the scope agents. Start one
-fresh `gpt-6-astra` agent at `high` reasoning effort as the consolidator. This
+fresh `gpt-5.6-sol` agent at `max` reasoning effort as the consolidator. This
 model and reasoning setting are mandatory for the consolidation and editorial
-agent: do not substitute another model, do not lower reasoning effort, and do
-not reuse a scope-agent session. Use `_commentary/v5/prompts/canonical.md` as
-the consolidation instruction template. Do not pass the monitor passcode or
+agent unless the operator explicitly supplies a run-scoped model override: do
+not substitute another model, do not lower reasoning effort, and do not reuse a
+scope-agent session. Use `_commentary/v5/prompts/canonical.md` as the
+consolidation instruction template. Do not pass the monitor passcode or
 Firebase details to the consolidator. Use the spawn task name as `--agent-id`;
 do not pass `--attempt`.
 
@@ -368,8 +383,8 @@ python3 _commentary/v5/operations/monitor.py event \
 Launch message:
 
 ```text
-You are the V5 consolidator for <S:A>. You are running as a fresh gpt-6-astra
-high agent.
+You are the V5 consolidator for <S:A>. You are running as a fresh gpt-5.6-sol
+max agent.
 
 Before consolidation, run this lifecycle command:
 python3 _commentary/v5/operations/monitor.py event --run-id <shared-run-id> --orchestrator-id <unique-orchestrator-id> --ayah-ref <S:A> --role canonical --agent-id <spawn-task-name> --status started
@@ -411,8 +426,8 @@ Arabic/transliteration, add QAC IDs, or invent another tag shape.
 
 ## 5. Editorial Follow-Up
 
-Keep the same `gpt-6-astra` high consolidator live for editorial. The editorial
-agent is not a new role or model; it is the same mandatory `gpt-6-astra` high
+Keep the same `gpt-5.6-sol` max consolidator live for editorial. The editorial
+agent is not a new role or model; it is the same mandatory `gpt-5.6-sol` max
 session that wrote the consolidated first-pass prose. Send one follow-up asking
 for the editorial version. The editorial pass may rewrite sentences for
 cadence, clarity, Turkish fluency, removal of English leakage, and better
@@ -511,7 +526,7 @@ directly.
 
 ## 6. Qualification/Image Presentation Follow-Up
 
-Keep the same `gpt-6-astra` high consolidator live after the editorial validator
+Keep the same `gpt-5.6-sol` max consolidator live after the editorial validator
 has passed or completed its permitted repair/rerun cycles. Send this exact
 message verbatim as the final CE writing follow-up:
 
@@ -609,7 +624,7 @@ The command writes
 fresh-agent handoff whose output is
 `_commentary/v5/editorial/<analysis-id>/sNNN/S_A/S_A.invitation.tr.md`.
 
-Start one fresh `gpt-6-astra` high agent with no inherited conversation history.
+Start one fresh `gpt-5.6-luna` max agent with no inherited conversation history.
 Give it only the filled invitation prompt. Do not reuse the consolidator session
 or supply scope prose, scope ledgers, discovery outputs, first-pass prose,
 evidence packets, or project-governance documents. The finished editorial prose
@@ -630,7 +645,7 @@ Launch message:
 
 ```text
 You are the V5 reading-invitation writer for <S:A>. You are running as a fresh
-gpt-6-astra high agent.
+gpt-5.6-luna max agent.
 
 Before writing, run this lifecycle command:
 python3 _commentary/v5/operations/monitor.py event --run-id <shared-run-id> --orchestrator-id <unique-orchestrator-id> --ayah-ref <S:A> --role invitation --agent-id <spawn-task-name> --status started
@@ -690,9 +705,9 @@ it does not interrupt or hold the terminal for active ayat.
 
 When multiple ayat are selected, run the whole V5 workflow for those ayat in
 parallel. Do not finish one ayah end to end before starting the next. Spawn the
-three `gpt-6-astra` high scope agents for each ayah as soon as its prompts
+three `gpt-5.6-luna` max scope agents for each ayah as soon as its prompts
 exist; as each ayah's three scope prose files are ready, spawn that ayah's fresh
-`gpt-6-astra` high consolidator and carry that same consolidator through the
+`gpt-5.6-sol` max consolidator and carry that same consolidator through the
 editorial follow-up and qualification/image presentation follow-up. Each ayah
 remains an independent workflow with its own scope agents, consolidator,
 invitation agent, paths, and Git-visible outputs. As soon as an ayah's CE stage
