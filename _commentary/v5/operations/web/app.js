@@ -312,6 +312,11 @@ function absoluteTime(value) {
   return Number.isNaN(date.getTime()) ? String(value) : date.toLocaleString();
 }
 
+function timestampValue(value) {
+  const timestamp = new Date(value || 0).getTime();
+  return Number.isFinite(timestamp) ? timestamp : 0;
+}
+
 function statusGroup(task) {
   const status = displayStatus(task);
   if (ATTENTION_STATES.has(status)) return "attention";
@@ -509,7 +514,10 @@ function updateFilterOptions(tasks) {
 function orchestratorsForRun() {
   return Object.values(state.snapshot.orchestrators || {})
     .filter((item) => !item.run_id || item.run_id === state.runId)
-    .sort((a, b) => String(a.orchestrator_id).localeCompare(String(b.orchestrator_id)));
+    .sort((a, b) => {
+      const created = timestampValue(b.started_at || b.registered_at) - timestampValue(a.started_at || a.registered_at);
+      return created || String(a.orchestrator_id).localeCompare(String(b.orchestrator_id));
+    });
 }
 
 function renderRuns() {
@@ -536,8 +544,14 @@ function renderControls() {
   }
   for (const orchestrator of orchestrators) {
     const option = document.createElement("option");
+    const createdAt = orchestrator.started_at || orchestrator.registered_at;
     option.value = orchestrator.orchestrator_id;
-    option.textContent = `${orchestrator.orchestrator_id} (${Number(orchestrator.scope_count || 0).toLocaleString()})`;
+    option.textContent = [
+      orchestrator.orchestrator_id,
+      createdAt ? relativeTime(createdAt) : null,
+      `${Number(orchestrator.scope_count || 0).toLocaleString()} ayat`,
+    ].filter(Boolean).join(" / ");
+    option.title = createdAt ? `Created ${absoluteTime(createdAt)}` : "Creation time unavailable";
     elements["orchestrator-select"].append(option);
   }
   if (orchestrators.some((item) => item.orchestrator_id === previous)) {
