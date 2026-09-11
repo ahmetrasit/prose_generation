@@ -66,11 +66,10 @@ recoverable in the same explanation; a latent reading cannot replace it.
 - Preserve concrete images and secondary branches. Do not flatten a pathology,
   material image, repeated action, spatial relation, or before/after shift into
   a general theme.
-- Keep each substantive boundary attached to its interpretation by stating
-  the source, scope, or kind of relation precisely. For example, "a contextual
-  image of protective care" can establish the status of an image positively.
-  Once that distinction is clear, remove a redundant denial of literal meaning
-  while preserving the contextual resonance and its concrete contribution.
+- Keep each boundary attached to the interpretation it limits. Rephrase it
+  positively only when the same restriction remains explicit in the prose.
+  Preserve its precise source distinction, scope, and force; the tone revision
+  authorizes changing its expression, not deleting it or the resonance it bounds.
 - No first-pass sentence is verbatim-immutable. Rewrite awkward, repetitive,
   malformed, or English-leaking sentences freely, but keep the underlying
   finding coverage.
@@ -175,8 +174,9 @@ reference must be visible beside that comment. Confirm that every passage has a
 clear object of attention, a legible change, and either a supported continuation
 or an intelligible cut; that every contextual excursion returns to the focus;
 and that interacting branches remain distinguishable. Read paragraph endings
-together for accumulated disclaimers; where the distinction is already clear,
-let the passage finish on its interpretive contribution. If any retained landing
+together for accumulated disclaimers; rephrase them with equivalent meaning,
+keeping every substantive qualification explicit, and let the passage finish
+on its interpretive contribution where possible. If any retained landing
 is missing, any explanation has been displaced into a recap, any tag syntax is
 damaged, or any inter-ayah comment lacks its visible reference, revise before
 you consider the unit complete.

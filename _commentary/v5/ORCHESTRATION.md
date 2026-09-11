@@ -579,8 +579,8 @@ Check that the reader can follow the selected channel from its opening
 expression through its connected background to an expanded or shifted reading
 of the ayah. Check fidelity of the connections and qualifications, not coverage
 of omitted findings or channels. Mechanical validation does not establish this
-semantic quality. Regenerate it whenever
-its editorial source or invitation instructions change. The monitor considers a
+semantic quality. Regenerate it whenever its editorial source changes.
+The monitor considers a
 newly registered ayah complete only after both CE validation and invitation
 validation have completed.
 
