@@ -1,0 +1,175 @@
+# V5 reading invitation — 114:2
+
+You are a fresh reading-invitation writer. Read the complete editorial prose
+before writing. It is your sole semantic source.
+
+Write two to four paragraphs of fluent, contemporary Turkish that reveal a
+surprising reading by following one or two main channels of resonance in the
+ayah. A channel is a connected background of meanings, images, actions, or
+relations through which the ayah can be heard and understood differently.
+Several editorial findings may together develop one channel. Summarize that
+connected movement and its consequence for the ayah's main meaning, rather
+than compressing findings individually. Give the reading's substance now;
+the invitation comes from understanding it, not from a promise of hidden depth.
+
+Before drafting, read the entire editorial prose and silently select the one
+or two channels with the strongest interpretive consequence and enough
+grounding to explain clearly. Favor channels that expand or shift what the
+ayah says, the relation it establishes, or what is at stake in its action or
+image. One fully developed channel is sufficient; add a second only when it
+offers a distinct consequential reading that can be explained within the
+invitation. No finding, channel, or major shift has an individual coverage
+claim. Unselected material may remain entirely in the full commentary.
+
+A channel may develop through grammar, sound, dialogue, a material process,
+time, imagery, or a conceptual relation. Resonance is not limited to acoustic
+effects, and an unusual image alone does not establish a channel. Use only
+connections the editorial prose actually develops. If it supplies no such
+channel, explain its strongest grounded reading without inventing connections
+or surprise.
+
+Begin inside the ayah's own words, images, actions, or relations and reveal a
+selected distinctive reading in the first paragraph. Keep the plain meaning
+reachable with only the orientation needed to understand the change. Do not
+spend an opening paragraph on routine explanation or front-load context about
+the surah, the ayah's position, or the commentary project.
+
+For each selected channel, begin with the expression that opens it, unfold the
+connected background, and show how the ayah reads or sounds against that
+background. Let a detail lead into the next through an intelligible relation
+or process, so the reader experiences the emerging reading. This is a movement
+of thought, not a mandatory sentence pattern or one paragraph per finding.
+Let the reader identify the expression being interpreted,
+where any nonordinary detail comes from, and what that detail changes in the
+reading. Briefly identify the word-family use, restricted form, collocation, or
+context that supplies an essential added detail, and preserve the concrete
+operation that makes the image work. Keep the ordinary reading and necessary
+qualification clear within this explanation; do not repeat them as a fixed
+formula. Preserve the particular object, process, or relation that makes this
+reading distinctive, and state its interpretive consequence for the ayah as a
+whole. Make intelligible what the familiar reading leaves less visible and
+what the expanded or shifted reading now lets the reader understand. Preserve
+the editorial's force: an exploratory possibility remains possible, while a
+developed shift must not be softened into a decorative association or a
+reassurance that everything means the same thing. A concrete
+account of how something is carried, transformed, lost, or restored must not
+shrink to a general statement about care, guidance, dependence, or goodness.
+Keep the details needed to make the selected channel work; omit side findings
+and shorten routine setup. If a channel cannot be explained faithfully from
+the editorial prose, choose another grounded channel or reading.
+
+When a non-focus ayah supplies a contribution used in the invitation, keep its
+reference from the editorial prose beside that contribution.
+
+Do not turn the invitation into a miniature inventory of the commentary's
+conclusions, or flatten distinct channels into a broad theme to include more
+material. Do not repair, extend, or supplement the editorial prose from memory
+or outside knowledge.
+
+Omit technical apparatus. Retain any qualification, source distinction, live
+alternative, or boundary whose absence would change the force or meaning of a
+chosen reading. Express it naturally beside the image or relation it qualifies.
+Favor positive explanations of the relation between layers: what remains in
+the foreground and what the resonance makes audible in the background. State
+how that background reinforces, expands, or shifts the understanding of the
+main meaning, with the source and degree of certainty clear. Reserve explicit
+exclusions for concrete ambiguities or live counter-evidence that need them.
+Repeated "this is not X" endings make a reading sound withdrawn; express the
+substantive qualification through what the reading does contribute wherever
+possible. Use varied, natural language rather than a repeated "second layer"
+formula, and preserve the force of expansions and shifts.
+Do not name branches, candidates, findings, scopes, evidence categories,
+ledgers, or workflow stages, or label the prose as numbered channels. Do not
+list findings serially.
+
+Use the established `{ar:..., tr:..., gloss:...}` syntax, consistent
+Turkish-readable transliteration, and short ordinary glosses. Keep Arabic
+anchors beside the explanations they ground. Within a paragraph, continue with
+the Turkish meaning where clear; provide the necessary local tag when a later
+paragraph interprets the carrier anew. Do not place Arabic script outside a
+valid tag.
+
+Build transitions within a channel through its shared object, action, or
+relation. If two channels are selected, they may occupy separate paragraphs;
+do not invent a link between them. Do not praise the commentary's quality,
+promise what the reader will find, manufacture suspense, recap at the end, or
+add a call to action. End on an image, relation, action, or tension already
+established by the selected reading.
+
+Before finishing, compare the invitation with the entire editorial prose:
+does the chosen channel reveal a consequential reading, or could the text have
+been written from the ordinary translation and a modest explanation alone?
+When the editorial supports a surprising channel, the latter fails this task.
+Can the reader follow the opening expression into a connected background and
+understand how that background expands or shifts the ayah's main meaning?
+Check the selected connections against their editorial explanation: can the
+reader tell where the nonordinary details come from, with the necessary
+qualifications intact? Repair generic explanation, isolated curiosities, or a
+compressed findings list by developing the selected channel. Do not add
+omitted channels merely for coverage. Do not output this check.
+
+Write only the invitation text to:
+
+`_commentary/v5/editorial/s114-regular-20260911/s114/114_2/114_2.invitation.tr.md`
+
+Do not add a heading, wrapper label, index, ledger, evidence file, or any other
+artifact. Do not modify the editorial prose.
+
+After writing the invitation, run:
+
+```bash
+python3 _commentary/v5/validate_prose.py _commentary/v5/editorial/s114-regular-20260911/s114/114_2/114_2.invitation.tr.md
+```
+
+If validation fails, repair only the reported mechanical file-contract issues
+and rerun it, for at most two repair cycles. Report the final validator result
+in your response.
+
+<editorial_prose>
+Bu kısa ayet, (114:1)'de başlayan sığınma cümlesinin içinde yeni bir ad açar: konuşan {ar:مَلِكِ ٱلنَّاسِ, tr:meliki'n-nâsi, gloss:insanların hükümdarı}na yönelir. {ar:مَلِكِ, tr:meliki, gloss:hükümdar} tamlamanın başıdır; {ar:ٱلنَّاسِ, tr:en-nâsi, gloss:insanların} ise bu hükümdarlığın bağlı olduğu insan alanını verir. `Meliki`nin bu çekimli biçimi, (114:1)'deki sığınma sözünde aynı varlığa eklenen yeni bir ad gibi işitilir. `En-nâsi`nin belirli oluşu da unvanı belirginleştirir: söz herhangi bir hükümdarı değil, adı geçen insan alanının tanınan hükümdarını gösterir.
+
+Türkçedeki tek “hükümdar” sözü, bu adın taşıdığı yönetim işlevini bütünüyle göstermeyebilir. {ar:مَلِكِ, tr:meliki, gloss:hükümdar} insan alanı üzerinde emir ve düzen kuran etkin yetkiyi taşır; sahiplik, elde bulundurma, tasarruf ve hüküm verme çağrışımları bu kamusal görüntünün çevresinde belirir. Okuyuşta {ar:مَالِكِ, tr:mâliki, gloss:sahibi} biçiminin yaklaştırdığı sahiplik vurgusu da aynı insan tamlayanına bağlanır. Böylece `meliki` kamusal hükmü, `mâliki` ise elde bulundurma ve tasarruf yönünü öne çıkararak aynı insan alanını iki farklı açıdan aydınlatır; iki okuyuşun çekim ilişkisi ortak, anlam katkıları ayrıdır. `Meliki`nin tutma ve biçim verme yönü de insanlarla buluşunca düzeni elde tutan ve onu şekillendiren bir kudret görüntüsü açar. Hamur yoğurma işi, bu yönetim görüntüsünü yoğunlaştıran sınırlı bir çağrışım olarak kalır; cümlenin sözlük karşılığı hükümdarlıktır.
+
+Bu unvan, aynı insan tamlayanının çevresinde iki başka adla birlikte duyulur: (114:1)'de {ar:رَبِّ ٱلنَّاسِ, tr:rabbi'n-nâsi, gloss:insanları gözeten}, burada {ar:مَلِكِ ٱلنَّاسِ, tr:meliki'n-nâsi, gloss:insanların hükümdarı}, (114:3)'te ise {ar:إِلَٰهِ ٱلنَّاسِ, tr:ilâhi'n-nâsi, gloss:insanların ilahı}. Değişen, insan sözü değil, insanla kurulan ilişkidir. Bakımın ve yetiştirmenin ardından kamusal düzen, onun ardından kulluğun yöneldiği ilâhî ilişki görünür olur; hükümdarlık bakımın düzene dönüşmesini ve düzenin yönelmiş kulluğa açılmasını düşündüren ara adım gibi belirir. Bu sıralama unvanlar arasında bir ilerleme iması taşır ve her tamlamanın kendi başına tamamlanan bir adlandırma olarak duyulmasına izin verir. Hemen önceki {ar:رَبِّ, tr:rabbi, gloss:besleyip gözeten} sözünün onarma, büyütme ve tamamlama yönü, kamusal yetkiye gelişip olgunlaştıran bir amaç katar; besleme çağrışımı yüzeydeki “hükümdar” anlamına eklenen sınırlı bir derinleşmedir.
+
+{ar:ٱلنَّاسِ, tr:en-nâsi, gloss:insanlar} belirli oluşuyla insan türünü ve onun topluluğunu bütün halinde görünür kılan kolektif bir addır; tek tek kişiler de bu bütünün içinde tutulur. Genitif konumu bu topluluğu hükümdarlığın yöneldiği alan yapar. İnsanlara hep birlikte seslenen ve göklerin ve yerin mülkünü aynı egemenlik içinde anan ifade (7:158), bu kamusal hükmün insan topluluğuna yöneldiğini düşündürür. İnsanların göğüslerinde bulunanı gündeme getiren ifade (29:10) ise aynı alanın görünmeyen iç noktasını açar. İnsan adı topluluğu, türü ve kişiyi aynı anda taşıdığı için yetki dışarıdaki insan kalabalığından tek tek insanın eylem alanına kadar uzanan bir çizgide düşünülebilir.
+
+İnsan alanının bu genişliği, temel “insanlar” karşılığının yanına ilişkisel bir renk de katar. {ar:ٱلنَّاسِ, tr:en-nâsi, gloss:insanlar} yönetilen alanı sosyal olarak mevcut ve algılayan bir insanlık gibi hissettirir; yakınlık ve duyusal fark ediş bu renkte toplanır. Aynı insan alanı, (114:5)'teki göğüslere yönelen fısıltıyla birlikte unutmaya ve bocalamaya açık bir dikkat olarak da duyulabilir. Bu ihtiyatlı çağrışım kelimenin doğrudan karşılığının yerine geçmez. (114:5)'te {ar:ٱلنَّاسِ, tr:en-nâsi, gloss:insanların} sözü {ar:صُدُورِ ٱلنَّاسِ, tr:sudûri'n-nâsi, gloss:insanların göğüsleri} tamlamasında fısıltının hedefini verir; hükümdarın bağlı olduğu dış insan alanı, içine sızılmaya çalışılan iç alana dönüşür.
+
+Bu iki kelimenin bağı okuyuşta da duyulur. {ar:مَلِكِ, tr:meliki, gloss:hükümdar} içindeki genitif ünlüleri ile {ar:ٱلنَّاسِ, tr:en-nâsi, gloss:insanların} sözüne geçerken sıkışan ünsüz akışı, başlığı ve insan alanını tek nefeste birbirine bağlar. `En-nâsi`de vasl sırasında seslerin kaynaşması, güneş harfiyle birleşme, şeddeli n ve uzayan son ses, kapanışı insanlara dönen bir nakarat haline getirir. Bağın sonu insanlarda kaldığı için sesin ağırlığı da yönetilen alana iner; ayet yazıda olduğu kadar okuyuşta da hükümdarı insan topluluğuna bağlayarak kapanır.
+
+## Sığınmanın içindeki yetki
+
+Sığınma sözünün bu ayete taşıdığı katkı, hükümdarlığı insanın içine girdiği ve korunarak tutunduğu bir yetki alanı halinde duyurmaktır. Bu katkı, önündeki {ar:قُلْ, tr:kul, gloss:söyle} ve {ar:أَعُوذُ, tr:eûzü, gloss:sığınırım} kelimelerinden (114:1) doğar: `kul` emri isteği açıkça dile getirilen bir sese çevirir, `eûzü` konuşanın korunağa doğru yönelmesini ve orada tutunmasını taşır. Bu sözlü hareketin ardından gelen {ar:مَلِكِ, tr:meliki, gloss:hükümdarına}, insanların üzerindeki kamusal hükmü sığınmayla girilen bir alan olarak açar. Aynı kelimenin güçlü ve tutarlı biçimde bir arada tutma yönü, bu alanda sığınanı dağılmadan koruyan istikrarı görünür kılar. Önceki {ar:رَبِّ, tr:rabbi, gloss:terbiye edip gözeten} unvanı (114:1) korumaya onarma ve yetiştirme işlevi katar. Böylece makam adı, sığınma eyleminin içinde insanı tutan ilişkiyi de taşır.
+
+Bu korunak aynı zamanda yük taşıyan bir dayanak olarak belirir. {ar:مَلِكِ, tr:meliki, gloss:hükümdar} kelimesinin bir işi veya düzeni ayakta tutan temel dayanak yönü, {ar:قُلْ أَعُوذُ, tr:kul eûzü, gloss:söyle, sığınırım} sözünün taşıdığı eyleme bağlanır (114:1). `Kul`ün dile getirme işinin yanında yük taşıma ve yükseltme hareketini çağrıştıran uzak kullanımı, sığınma sözünü üzerine yük bindirilen ve onu ayağa kaldıran bir hareket gibi düşündürür. Bu çağrışım görüntünün malzemesidir; emrin tarihsel kökenine dair bir iddia taşımaz. Konuşan yalnızca ses çıkarmaz, dayanacağı yere yönelir. Böylece maddi dayanak görüntüsü açık sığınma anlamını güçlendirir ve hükümdarlığı konuşanın yükünü taşıyan ana destek olarak renklendirir.
+
+Bu dayanağın sınırı, açıkça söylenen söz ile içeride tekrarlanan telkinin insan davranışına ulaştığı eşikte belirginleşir. {ar:مَلِكِ, tr:meliki, gloss:hükümdar} kelimesindeki kamusal yetki, {ar:قُلْ, tr:kul, gloss:söyle} ile dışarı çıkan ses ile {ar:يُوَسْوِسُ, tr:yuvasvisu, gloss:içten fısıldar} ile içeride saklı kalan söz arasında bir bağ kurar (114:1, 114:5). {ar:ٱلنَّاسِ, tr:en-nâsi, gloss:insanların} sözü açıkça söyleneni ve fısıltı halinde geleni alan insanı duyurur; duyularla sezme yönü, eylem doğmadan önce içte beliren kaygı verici telkine yer açar. {ar:وَسْوَاسِ, tr:vesvâsi, gloss:vesvese veren fısıltı} bu içte tekrarlanan gizli konuşmayı taşır. {ar:صُدُورِ, tr:sudûri, gloss:göğüslerin} ise fısıltıyı havada dolaşan bir ses olmaktan çıkarıp davranışların çıktığı iç kaynağa yerleştirir (114:5). Kamusal hüküm bu temasla, hangi sesin insana ulaşıp hangi telkinin eyleme dönüşeceği eşiğini kuşatan bir yetki olarak genişler.
+
+Bu eşik, sahiplik ile kişisel eylem alanını aynı soruda buluşturur. {ar:مَلِكِ, tr:meliki, gloss:hükümdar} kelimesindeki elde bulundurma ve tasarruf yetkisi, {ar:ٱلنَّاسِ, tr:en-nâsi, gloss:insanların} kelimesinin belirli soru kuruluşlarında muhatabın kendisini gösterebilen yönüyle karşılaşınca, hüküm topluluktan kendi eyleminin sahibi olan kişiye yaklaşır. Gizli fısıltı kişinin kendi alanında izinsiz bir basınç, {ar:صُدُورِ, tr:sudûri, gloss:göğüslerin} ise eylemlerin pratik sonuç kazandığı kaynak gibi belirir (114:5). `Meliki`nin işi ayakta tutan temel dayanak yönü bu kaynakla birleştiğinde, yetki davranışı ayakta tutan iç taşıyıcı olarak da duyulur. Buradaki sahiplik görüntüsü, insan bedeninin elden çıkarılmasına değil, kişinin kendi eylem alanında hangi yönlendirmenin meşru yetki taşıdığı sorusuna aittir; insanın özneselliği bu sorunun içinde korunur.
+
+İç kaynağın açtığı bir başka katkı, hükümdarlığı parçalanmaya karşı çalışan bir tutarlılık ve dayanak olarak duyurmaktır. {ar:مَلِكِ, tr:meliki, gloss:hükümdar} için parçaları çözülmeden bir arada tutan güçlü ve istikrarlı yapı anlamı, fısıltının insanın içinde oluşturduğu kırılma ihtimaliyle karşılaşınca kişiyi veya topluluğu dağılmadan tutan kuvveti görünür kılar. Bir düzenin düzgün işlemesini sağlayan temel dayanak anlamı bu bütünlüğün üzerinde durduğu taşıyıcıyı ekler; kalbin bedenin işleyişinin dayandığı temel olarak anılması, dayanak görüntüsünü somutlaştırır. Gizli dürtüye karşı sığınmayı isteyen ifade (7:200), bu iç temasın basıncını artırır. İnsanların göğüslerinde işleyen baskı ile sığınma çağrısı (29:10, 114:5) aynı insan alanında buluştuğunda, kamusal hükümdarlık içten parçalanmaya karşı çalışan bir egemenlik gibi renklenir. Bu bağlam, `meliki`nin kamusal anlamını taşıyan temas noktasıdır; iç tutarlılık ve dayanak görüntüsü bu anlamın içinde belirir.
+
+Bu tutarlılığın neye karşı çalıştığını, hareketli tehdit görüntüsü açar. {ar:شَرِّ, tr:şerri, gloss:şerrin} sözü (114:4) alışılmış “kötülük” anlamını taşırken, kesip sarsarak ayıran bir hareketi de çağrıştırır; bu ayrıcı hareket, {ar:مَلِكِ, tr:meliki, gloss:hükümdar} kelimesinin parçaları bir arada tutan yönünün karşısına yerleşir. {ar:وَسْوَاسِ, tr:vesvâsi, gloss:tekrarlanan gizli fısıltı} içeri sızan ve yinelenen rahatsızlığı, {ar:خَنَّاسِ, tr:hannâsi, gloss:geri çekilen} ise etkinin saklanıp geri çekildiği evreyi görünür kılar (114:4). Bu iki hareket birleşince hükümdarlığın tutucu gücü, içeri giren, çekilen ve yeniden beliren bir parçalanma döngüsü karşısında duyulur. Geri çekilme içsel bir salınım olarak da, dışarıdaki etkinin bir taktiği olarak da okunabilir; iki ihtimal de fısıltının kesintili hareketini açık tutar ve hükümdarlığın dağılmayı önleyen istikrarını korur.
+
+Bu okumanın okurda belirme sırası da katkının nasıl geliştiğini gösterir. Söz ilk karşılaşıldığında {ar:مَلِكِ, tr:meliki, gloss:hükümdarına} insanların üzerinde hüküm kuran kamusal bir makamdır. Ardından geri çekilen fısıltı ve göğüsler (114:4, 114:5) açılınca aynı kelime, insanın iç bütünlüğünü ve davranışlarının dayandığı kaynağı koruyan bir dayanak olarak geri döner. İnsanların savrulan bir kalabalık gibi göründüğü ifadeler (99:6, 101:4) belirdiğinde, bu hükmün yönü koruyan tarafı da görünür olur. Böylece kamusal hüküm iç tutarlılığa, oradan yönü sabitleyen çizgiye doğru genişleyen üç ayrı hareket halinde aynı insan alanına bağlanır; her yeni görüntü ilk “hükümdar” anlamının iç ve yönsel sonucunu açar.
+
+## Yönü koruyan merkez
+
+İçerideki dağılma ihtimali, hareketin hangi çizgide tutulacağını sorar. {ar:مَلِكِ, tr:meliki, gloss:hükümdar} kelimesinin yolun veya vadinin orta ve ana kesimini anlatan kullanımı, hareketin içinden geçtiği çizgiyi taşır. Aynı kelimenin hayvanlarda önden bulunup geridekilerin hareketini yönlendiren öncü anlamı, bu çizgiye izlenen bir yön ve takip edilecek bir öncü ekler. İnsanların dağınık halde ortaya çıkmasını anlatan ifadeler (99:6, 101:4) ile geri çekilip savrulan fısıltı (114:4) bu iki kullanımla buluşunca, yönü koruyan düzenin nasıl çalıştığı görünür olur: ana çizgi hareketi toplar, öncü hareketin yönünü belirler. Hayvan öncüsü, insanlara aktarılmış bir sözlük tanımı olarak değil, bu yön ilişkisini açıklayan sınırlı bir benzetme olarak çalışır. {ar:ٱلنَّاسِ, tr:en-nâsi, gloss:insanlar} bu merkezin yöneldiği canlı topluluğu taşırken, hükümdarlık insanların hareketini çizgide tutan merkez ve öncülük olarak da açılır.
+
+Bu yönü koruyan merkez, algının içinde ayrı bir görüntü olarak belirir. {ar:خَنَّاسِ, tr:hannâsi, gloss:geri çekilen} kelimesinin saklanıp geri dönen yıldızlar gibi aralıklı işaretler taşıyan kullanımı (114:4), {ar:مَلِكِ, tr:meliki, gloss:hükümdar} kelimesindeki yolun ana kesimini bu etkilerin çevresinde sabit kalan merkez gibi duyurur. {ar:ٱلنَّاسِ, tr:en-nâsi, gloss:insan} kelimesinin göz bebeğinde görülen küçük insan biçimli yansıma anlamı, bu merkezi bir algı alanının içine yerleştirir. Gizlenip geri dönen işaretler merkezin çevresinde belirip kaybolurken, {ar:وَسْوَاسِ, tr:vesvâsi, gloss:gizli ses} kelimesinin saklı ses görüntüsü etkilenmeyi yalnızca görünen işaretlere bağlamaz (114:4). İnsan aralıklı etkilerin çektiği dikkat içinde sabit bir yön noktası ararken hükümdar kelimesi bu yönü koruyan merkez gibi görünür. Bu görüntünün sınırı da belirgindir: siyasal ilişki korunur, yol ve göz imgeleri yön duygusunu açıklayan keşfedici taşıyıcılar olarak kalır.
+
+## İnsan alanının dolaşımı
+
+Son ayetteki {ar:ٱلْجِنَّةِ وَٱلنَّاسِ, tr:el-cinneti ve'n-nâsi, gloss:gizli varlıklar ve insanlar} ikilisi (114:6), insan alanını görünür ve gizli kutupların karşılaşma yeri olarak açar. {ar:ٱلْجِنَّةِ, tr:el-cinneti, gloss:gizli varlıklar} kelimesinin örtülme ve gizlenme yönü ile gizli varlıklar anlamı, {ar:ٱلنَّاسِ, tr:en-nâsi, gloss:insanlar} sözünün görünür insan tarafını belirginleştirir; iki alan bu karşıtlık içinde yan yana gelir. İnsanlar böylece gizli veya başka insanlardan gelen etkilere açık görünen bir topluluk olarak belirir. Aynı ad, insanların sözün ve telkinin kaynağı olabileceği alanı da taşır. {ar:قُلْ, tr:kul, gloss:söyle} insanlar arasında yayılan açık sözün dış halkasını, {ar:يُوَسْوِسُ, tr:yuvasvisu, gloss:içten fısıldar} ise bu dolaşımın kişinin içinde yeniden söylenmiş halini görünür kılar (114:1, 114:5). {ar:ٱلنَّاسِ, tr:en-nâsi, gloss:kişinin kendisi} kelimesinin belirli kuruluşlarda kişinin kendisini veya seçilmiş yakınını gösterebilmesi, toplulukla içteki kişi arasındaki geçişi kurar. Son ayetteki gizli varlık sözü, kimden geldiği belirsizleşen anonim ve yoğun bir kalabalık görüntüsünü de çağrıştırabilir; bu ihtimalin sınırı, gizli varlıkları insan kalabalığı saymadan sözün toplumsal ortamını görünür kılmasıdır (114:6). Hükümdarlık bu yüzden sözlerin toplumsal dolaşımından içteki telkine kadar uzanan insan alanına yönelir.
+
+Bu dolaşımın eylemle buluştuğu yerde sahiplik, gizli bir pazarlık görüntüsü kurar. {ar:مَلِكِ, tr:meliki, gloss:hükümdar} kelimesindeki elde bulundurma ve tasarruf yetkisi, insanın eylem gücünü kimin eline bıraktığı sorusunu açar. {ar:شَرِّ, tr:şerri, gloss:şerrin} yüzeyinde alışılmış kötülük anlamının yanında satma ve satın alma arasındaki alışverişi çağrıştıran bir hareket duyulur (114:4). Bu alışveriş çağrışımı, kelimenin temel anlamını değiştirerek değil, gizli yönlendirmenin işlemsel biçimini görünür kılar. {ar:وَسْوَاسِ, tr:vesvâsi, gloss:gizli telkin} teklifi açık bir pazara değil, insanın içine yerleştirir; {ar:صُدُورِ, tr:sudûri, gloss:göğüslerin} ise el değiştirdiği düşünülen şeyin eylemlerin çıktığı pratik kaynak olduğunu gösterir (114:5). Fısıltı böylece insanın tasarruf yetkisini gizlice devretmeye çağıran bir pazarlık gibi duyulur; şerrin temel kötülük anlamı ile yabancılaşmış eylem gücünü somutlaştıran bu görüntü aynı anda kalır.
+
+Eylemin kaynağı olarak belirginleşen göğüsler, şimdi maddi bir yaşam kaynağı görüntüsünü açar. {ar:مَلِكِ, tr:meliki, gloss:hükümdar} kelimesinin yolcunun veya topluluğun işlerini sürdüren su kaynağını anlatan kullanımı, {ar:ٱلنَّاسِ, tr:en-nâsi, gloss:insan topluluğu} ile birleşince yaşamı bir arada tutan kaynağın başındaki yetkiyi düşündürür. {ar:صُدُورِ, tr:sudûri, gloss:göğüslerin} kelimesine bağlanan su başından ayrılma hareketi, eylemlerin bir kaynaktan dışarı çıkmasına benzer (114:5). Böylece iki yön birbirini açıklar: topluluk bir kaynağa bağlı yaşar, davranış o kaynaktan dışarıya doğru belirir. Hükümdarlık kolektif hayatın sürdüğü yaşam noktasını elinde tutan bir kuvvet gibi resmedilir; su görüntüsü kamusal hükümdarlık anlamına hayatı taşıyan bir merkez boyutu ekler.
+
+Gizlenme görüntüsünün sığınmayla buluştuğu yerde hükümdarlık, koruyucu bir örtü sağlayan yetki olarak açılır. {ar:مَلِكِ, tr:meliki, gloss:hükümdar} kelimesindeki kamusal yetki, {ar:أَعُوذُ, tr:eûzü, gloss:sığınırım} kelimesinin barınağa tutunma hareketiyle birleşir (114:1). `Meliki`nin güçlü ve tutarlı biçimde bir arada tutma yönü, bu örtünün dağılmayan bir koruma olmasını sağlar. {ar:ٱلْجِنَّةِ, tr:el-cinneti, gloss:gizli varlıklar} kelimesinin örtülme yönü, tehditteki gizlenmenin karşısına meşru bir kalkan ihtimalini koyar (114:6). Tehditte örtülme baskıyı saklar, sığınmada aynı imge savunmayı taşır; sığınan kişi gizlenmenin kendisiyle özdeşleşmeden yetkili bir koruma içinde tutunur. Bu karşıt yönler, “insanların hükümdarı”nın açık kamusal anlamına insanı gizli etkinin karşısında tutan koruyucu bir taraf ekler.
+
+Fâtiha'nın dördüncü ayetindeki {ar:مَٰلِكِ يَوْمِ ٱلدِّينِ, tr:mâliki yevmi'd-dîn, gloss:hesap gününün sahibi} ifadesi (1:4), odak kelimeyle ayrı fakat belirli bir temas kurar. {ar:مَلِكِ, tr:meliki, gloss:hükümdar} kelimesindeki sahiplik ve tasarruf yetkisi, bu ifadede “hesap günü” diye adlandırılan belirli zaman ve yargı alanıyla karşılaşınca, insan üzerindeki hükmün mevcut toplumsal alandan daha geniş bir ufka uzanmasını düşündürür. Bu bağlantı yalnızca ayrı ifadede duyulan sahiplik temasını ve onun zaman-yargı ufkunu taşır; bütün Fâtiha'nın mimarisi ile iki ifadenin aynı dilbilgisel yapı olduğu iddiası bu bağlantının kapsamına girmez. Böylece insanların hükümdarına yönelen sığınma sözü, açık kamusal anlamını korurken yetkinin hesapla ilişkili ufkunu da duyurur.
+
+</editorial_prose>

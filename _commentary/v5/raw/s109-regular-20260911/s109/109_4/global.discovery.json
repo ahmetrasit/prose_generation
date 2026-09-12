@@ -1,0 +1,585 @@
+{
+  "schema_version": "commentary-v5-scope-discovery-v1",
+  "ayah_ref": "109:4",
+  "lane": "global",
+  "coverage_complete": true,
+  "candidate_decisions": [
+    {
+      "candidate_id": "cand_9ae40b84daaff1d0458a",
+      "decision": "narrow",
+      "reason": "Güvenilir cross-run kaydı ve odaktaki iki aynı kök taşıyıcısı, tamamlanmış muhatap eyleminin konuşanın kalıcı kulluk rolüne dönüşmesinin reddedildiğini destekler. B003'ün insan veya sahte tanrısal güce yönelen uzantısı için bağımsız bir tetikleyici bulunmadığından odak çekirdeği ile dinsel uzmanlaşma korunmuş, F003 dışarıda bırakılmıştır.",
+      "finding_refs": ["global:b003-durable-role"],
+      "branch_exclusions": [],
+      "facet_exclusions": [
+        {
+          "branch_ref": "root_000973/B003",
+          "facet_id": "F003",
+          "reason": "Odak ve supplied global bağlantılar boyun eğmenin bir insana veya sahte tanrısal güce yöneldiğini bağımsız olarak göstermiyor."
+        }
+      ],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_f4efbcffd4c4d9a89a28",
+      "decision": "narrow",
+      "reason": "Strong cross-run kaydı, tamamlanmış uygulamanın sık geçişle açılmış bir yol ve devralınan emsal olarak okunmasını doğrudan taşır. Odak burada B005'in yol çekirdeğini destekler; katranlanmış deve ve kaplanmış gemi kaynak varyantları için bağımsız tetik bulunmadığından bu iki facet dışarıda bırakılmıştır.",
+      "finding_refs": ["global:b005-inherited-route"],
+      "branch_exclusions": [],
+      "facet_exclusions": [
+        {
+          "branch_ref": "root_000973/B005",
+          "facet_id": "F002",
+          "reason": "Odak veya global bağlantılar deve kullanımını ve katranlanmış hayvan varyantını taşımıyor."
+        },
+        {
+          "branch_ref": "root_000973/B005",
+          "facet_id": "F003",
+          "reason": "Odak veya global bağlantılar geminin kaplanması varyantını taşımıyor."
+        }
+      ],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_3511f5853464333f5d4f",
+      "decision": "narrow",
+      "reason": "Güvenilir cross-run kaydı, reddedilen kulluk rolünün muhatapların taptıklarına değer ve yücelik aktaracağını açıkça kurar. B006'nın saygı sonucunu taşıyan çekirdek facet korunmuş, kişiye ayrıca hizmet edilmesi yönü için aynı ilişkiyi aşan bağımsız tetik bulunmadığından F002 dışarıda bırakılmıştır.",
+      "finding_refs": ["global:b006-honor-transfer"],
+      "branch_exclusions": [],
+      "facet_exclusions": [
+        {
+          "branch_ref": "root_000973/B006",
+          "facet_id": "F002",
+          "reason": "Supplied evidence nesneye değer ve yücelik aktarımını destekliyor; kişiye hizmet edilmesini ayrı bir etkinleşmiş facet olarak kurmuyor."
+        }
+      ],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_894f6c0eed33f2f6463b",
+      "decision": "narrow",
+      "reason": "Strong cross-run kaydı, ibadet düzenine katılımın konuşanı o düzenin egemenliği altına sokacak bir statü ve sahiplik aktarımı olarak okunmasını destekler. B001 ve B004'ün çekirdek statü eylemleri korunmuş; B001'in alım-satım uzmanlaşması ile B004'ün köle gibi çalıştırma uzantısı için ayrı tetik bulunmadığından ilgili facetler dışarıda bırakılmıştır.",
+      "finding_refs": ["global:status-transfer"],
+      "branch_exclusions": [],
+      "facet_exclusions": [
+        {
+          "branch_ref": "root_000973/B001",
+          "facet_id": "F002",
+          "reason": "Global evidence sahiplik statüsünü taşıyor, hukuki alım-satım ölçütünü ayrıca etkinleştirmiyor."
+        },
+        {
+          "branch_ref": "root_000973/B004",
+          "facet_id": "F002",
+          "reason": "Global evidence boyunduruk ve statü aktarımını taşıyor, köle gibi çalıştırma uzantısını ayrıca etkinleştirmiyor."
+        }
+      ],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_882c81be48816dabe3be",
+      "decision": "reject",
+      "reason": "B009'un gecikmeme veya koşuda biraz hızlanma anlamı, yalnızca isim biçimi ile geçmiş zaman karşıtlığından bağımsız olarak etkinleşmiyor. Güvenilir kaynak kaydı da bu kenarı reject olarak işaretliyor; kip karşıtlığı zamansal bir geçiş için tek başına yeterli tetik değil.",
+      "finding_refs": [],
+      "branch_exclusions": [
+        {
+          "branch_ref": "root_000973/B009",
+          "reason": "Bağımsız taşıyıcı-tetik teması ve değişmiş okuma için yeterli kanıt yok; supplied branch gloss yalnızca belirli söz öbekleriyle sınırlı."
+        }
+      ],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_d72e4a030532f62321b5",
+      "decision": "represented",
+      "reason": "B003 üzerinden geçmiş uygulamanın konuşanın kendilik tanımına dönüşmesinin reddedilmesi, aynı odak taşıyıcıları ve aynı anlamsal ilişkiyle global:b003-durable-role bulgusunda taşınıyor.",
+      "finding_refs": ["global:b003-durable-role"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_faccd64393487a9dee9a",
+      "decision": "represented",
+      "reason": "B005'in tamamlanmış uygulamayı önceden düzleşmiş ve miras alınan bir yol olarak göstermesi, aynı çekirdek facetle global:b005-inherited-route bulgusunda taşınıyor.",
+      "finding_refs": ["global:b005-inherited-route"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_dcb454510a72478a9ad7",
+      "decision": "represented",
+      "reason": "B004'ün konuşanın karşı tarafın düzeni içinde hizmet eden veya köleleştirilmiş bir role geçirilmesini reddeden iddiası, B001 ile birlikte global:status-transfer bulgusunda aynı statü aktarımı olarak taşınıyor.",
+      "finding_refs": ["global:status-transfer"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_05c284d4e84c8a0bda45",
+      "decision": "reject",
+      "reason": "B009 için yerel reader walk da yalnızca kip karşıtlığından hareket ediyor; gecikmeme veya hızlanma facetini taşıyan bağımsız bir kelime, bağlam veya bağlantı bulunmuyor.",
+      "finding_refs": [],
+      "branch_exclusions": [
+        {
+          "branch_ref": "root_000973/B009",
+          "reason": "Kip karşıtlığı, branch'in belirli gecikmeme/hızlanma kollokasyonlarını etkinleştirmiyor."
+        }
+      ],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_a91a65ee3a2c9fee7747",
+      "decision": "narrow",
+      "reason": "Retrospective destek, 109:3 ve 109:5 arasındaki tekrarın ortasında 109:4'ün أَنَا ve tamamlanmış عَبَدتُّمْ ile tersine bir sınama kurduğunu taşır. Basmalanın yumuşatıcı etkisi ve 109:6'daki sonraki yeniden çerçeveleme bu bulguya ait landed context olarak ayrıca doğrulanmadığından dışarıda bırakılmış, merkezî yapısal dönüş global:central-hinge bulgusuna alınmıştır.",
+      "finding_refs": ["global:central-hinge"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [
+        {
+          "context_ref": "109:0",
+          "reason": "Basmalah etkisi support metninde anılıyor, ancak bu global pakette basmalah yüzeyi veya landed occurrence sağlanmıyor."
+        },
+        {
+          "context_ref": "109:6",
+          "reason": "Sonraki dīn yeniden çerçevelemesi ayrı bir retrospective adayda ele alınıyor; bu bulgu yalnızca 109:3-109:5 arasındaki yapısal kesintiyi koruyor."
+        }
+      ],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_8eda01c8d9828fbc1e10",
+      "decision": "represented",
+      "reason": "B003'ün tamamlanmış emsal karşısında sabit bir birinci kişi rolünü reddetmesi, global:b003-durable-role bulgusunda aynı focus branch ve aynı taşıyıcı-tetik ilişkisiyle yer alıyor.",
+      "finding_refs": ["global:b003-durable-role"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_edc2ad107be0f8f2266c",
+      "decision": "represented",
+      "reason": "B005'in düzleşmiş miras yolunu reddetme çekirdeği global:b005-inherited-route bulgusunda korunuyor. Bu adayın supplied reader desteğindeki kayıtsız د ي ن/B005 atfı ayrıca açık bir source qualification olarak bulgunun containment alanında tutuluyor; yeni bir dīn branch glossu icat edilmiyor.",
+      "finding_refs": ["global:b005-inherited-route"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_1270fdd8a00ed01bc531",
+      "decision": "represented",
+      "reason": "B006'nın kulluk rolüyle nesneye değer ve yücelik aktarılması, global:b006-honor-transfer bulgusunda aynı çekirdek onur facetiyle taşınıyor.",
+      "finding_refs": ["global:b006-honor-transfer"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_56eba32ae23b0c3af2f7",
+      "decision": "represented",
+      "reason": "B001'in sahiplik ve egemenlik aktarımı okuması, B004 ile birlikte global:status-transfer bulgusunda aynı odak ilişkisine bağlanıyor.",
+      "finding_refs": ["global:status-transfer"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_b28392321a12c479200b",
+      "decision": "narrow",
+      "reason": "Geniş retrospective destek, 109:5'in dönüşü ile 109:6'nın tamamlanmış eylemi muhataplara ait sürdürülen bir düzene taşımasını, 109:4'ün ise kimlik aktarımını ayrı tutmasını öneriyor. B005 ve B004 için kayıtsız د ي ن branch uzantıları, kayıtlı dal/fokus taşıyıcısı ve kesin context occurrence bulunmadığı için çıkarıldı; yalnızca sınırlı sonraki-order yeniden çerçevelemesi korundu.",
+      "finding_refs": ["global:later-order-reframe"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_3f23587a4e2c859acf03",
+      "decision": "represented",
+      "reason": "HFT reader summary/strongest_changes/0, bağımsız anchor sağlamasa da, global:b003-durable-role içinde taşınan aynı dayanıklı kimlik ile tamamlanmış uygulama ilişkisini aynen tekrar ediyor; ayrı bir HFT bulgusu açılmıyor.",
+      "finding_refs": ["global:b003-durable-role"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_034384e3bbbfcec8e522",
+      "decision": "reject",
+      "reason": "HFT kaydı açılış konuşma buyruğundan kamusal sınır çıkarıyor, fakat assigned record'un anchor_refs ve branch_refs alanları boş, HFT anchor coverage cited count sıfır ve focus'a dönen kesin context occurrence yok. Bu nedenle atfedilmiş özet, global aktivasyon için gerekli taşıyıcı-tetik temasını karşılamıyor.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_395303968e9d5d5cfb23",
+      "decision": "reject",
+      "reason": "HFT kaydının örtme ve ayrışma özeti için odakta kayıtlı bir branch, kesin context koordinatı veya focus return yok. Bu ilişkiler supplied HFT payload'ında atfedilmiş öneri olarak görünür, ancak bağımsız taşıyıcı ve tetik şartını geçmez.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_8f6b3da77b82bd9264a1",
+      "decision": "reject",
+      "reason": "HFT'nin son dīn düzeni özeti focus ayetinde bulunmayan bir kelimeye dayanıyor; assigned record'da exact context word/ayah coordinate ve focus return yok. Kayıtlı bir dīn branch'i veya landed context taşıyıcısı olmadan bu kapsam focus'a geri bağlanamıyor.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_d79b2c21aaf3aa5ed8d7",
+      "decision": "reject",
+      "reason": "HFT özeti sahiplik, onur ve yol dallarını tek bir aggregate öneride birleştiriyor; bunlar için exact carrier/trigger koordinatları yok ve özet tek bir named finding tarafından exact duplicate olarak taşınmıyor. Ayrı ayrı desteklenen çekirdekler zaten kendi bulgularında sınırlandırılmış durumda.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_437b77906e207b78a8de",
+      "decision": "reject",
+      "reason": "HFT what_was_special özeti aynı kökün birçok yönünü ve split-root/context etkilerini topluyor, ancak supplied anchor evidence yok, focus return yok ve tek bir bağımsız semantic relation'a indirgenmiş landed trace bulunmuyor.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_8a5f473085d6d75e7cb3",
+      "decision": "reject",
+      "reason": "HFT remaining_uncertainties/0 bir etkinleşmiş okuma değil, nominal-perfect karşıtlığının kapsamına dair açık bir belirsizlik kaydıdır. Bağımsız taşıyıcı-tetik ve changed reading sunmadığı için bulguya dönüştürülmüyor; belirsizlik friction'da korunuyor.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_c4386a9ad0d7fcef54f9",
+      "decision": "reject",
+      "reason": "HFT remaining_uncertainties/1, sahiplik/sağlamlık/düzleşme/dağılma/duygu dallarının yalnızca üretken benzetme olabileceğini söyler; focus'ta bunları etkinleştiren bağımsız trigger yoktur. Availability activation yerine geçmediğinden retained finding açılmıyor.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_60d12226f65735c8af2a",
+      "decision": "reject",
+      "reason": "HFT remaining_uncertainties/2, dīn için birden çok olası alanı listeliyor; packet'ta bunlara ait kayıtlı branch, exact context carrier veya focus return yok. Sıralanmamış olasılık listesi global aktivasyon kanıtı oluşturmuyor.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_3c880a4eebabe832fe79",
+      "decision": "reject",
+      "reason": "HFT remaining_uncertainties/3, odak yüzeyinde bulunmayan ق و ل eşlemesini bağımsız rising outlier olarak koruyor. Focus'ta bu kökün kelime veya QAC taşıyıcısı bulunmadığından koordinat/root uyuşmuyor ve focus return yok.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    }
+  ],
+  "findings": [
+    {
+      "finding_ref": "global:b003-durable-role",
+      "origin_candidate_id": "cand_9ae40b84daaff1d0458a",
+      "represented_candidate_ids": [
+        "cand_d72e4a030532f62321b5",
+        "cand_8eda01c8d9828fbc1e10",
+        "cand_3f23587a4e2c859acf03"
+      ],
+      "title": "Tamamlanmış uygulama kalıcı kulluk rolüne dönüşmez",
+      "claim": "وَلَا أَنَا عَابِدٌ مَّا عَبَدتُّمْ, konuşanın isim biçimindeki kulluk/tapan rolünü muhatapların tamamlanmış uygulamasından ayırarak onların önceki ibadetinin konuşanın kalıcı kimliğine dönüşmesini reddeder.",
+      "mechanism": "عَابِدٌ biçimi konuşanı bir role yerleştiren isim/etken ortaçtır; عَبَدتُّمْ ise muhataplara ait tamamlanmış eylemi bildirir. أَنَا۠ zamiri ile ikinci çoğul şahıs eki arasındaki açık karşıtlık, 10:104'teki konuşan-muhatap ibadet ayrımı ve 16:35'teki geçmişten devralınan uygulama bağlantısı, aynı kökün iki görünümünü geçmiş emsal ile dayanıklı özdeşlik arasındaki ilişkiye çevirir.",
+      "reader_payoff": "Okur, cümleyi yalnızca bir başka ibadet reddi olarak değil, geçmişteki bir uygulamanın konuşanın kendini tanımladığı kulluk rolüne geçirilmesini sınırlandıran bir söz olarak görür.",
+      "containment": "Bu okuma temel çeviriyi korur: konuşan, muhatapların taptığı şeye tapan değildir. Kip karşıtlığının kalıcı tarihsel kimlik mi yoksa retorik vurgu mu olduğu karara bağlanmaz; B003'ün insan veya sahte tanrısal güce yönelen F003 uzantısı etkinleştirilmez.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": ["legacy_unbound", "trusted"],
+        "reason": "Trusted cross-run kaydı iki focus branch taşıyıcısını açıkça bağlar; legacy reader ve HFT özeti aynı ilişkiyi destekler, ancak bunların bir kısmı unbound ve inferential olduğu için kaynak güveni sonucu niteliklidir."
+      },
+      "support_ids": [
+        "sup_317bd045a85ab52ae973",
+        "sup_7d3c024df24f69dfb044",
+        "sup_293711edc35df1537011",
+        "sup_772bcfcbfcc825a10cfd"
+      ],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000973/B003",
+          "facet_id": "F001",
+          "branch_gloss": "boyun eğerek itaat ve tapınma",
+          "facet_statement": "Eylem, sıradan itaati aşan bir boyun eğme ve alçalma tutumu içerir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["109:4:3:1", "109:4:5:1"],
+          "trigger_refs": [
+            "109:4:2:1",
+            "109:4:5:2",
+            "conn_e58083da5a5dd04cdd31",
+            "conn_c28a813f191e31612cb7"
+          ],
+          "focus_return_refs": ["109:4:3:1", "109:4:5:1"],
+          "carrier": "عَابِدٌ konuşanın boyun eğerek kulluk eden rolünü, عَبَدْتُمْ ise muhatapların tamamlanmış boyun eğme eylemini taşır.",
+          "independent_trigger": "أَنَا۠ ile konuşanın açık öznesi, عَبَدْتُمْ içindeki ikinci çoğul şahıs eki ve 10:104 ile 16:35 bağlantılarında görülen konuşan-muhatap ve devralınmış uygulama ayrımı.",
+          "activation": "Aynı kökün biri kalıcı role, diğeri muhatapların tamamlanmış eylemine bağlanan iki taşıyıcısı, kişi zamirleri ve geçmiş emsal tetikleriyle temas eder; böylece eylem, konuşanın üstlenmesi beklenen kulluk rolüne dönüşmeden önce sınırlandırılır.",
+          "resulting_reading": "Ret, yalnızca mevcut bir davranıştan uzak durma değil, muhatapların tamamlanmış uygulamasının konuşanı aynı boyun eğme rolüne yerleştirmesini reddetme olarak açılır.",
+          "boundary": "Bu çekirdek, konuşanın rolüne ve muhatapların eylemine aittir; kökün bütün sözlük dallarının aynı anda etkin olduğu veya kip karşıtlığının tek tarihsel açıklamasının bulunduğu ileri sürülmez."
+        },
+        {
+          "branch_ref": "root_000973/B003",
+          "facet_id": "F002",
+          "branch_gloss": "boyun eğerek itaat ve tapınma",
+          "facet_statement": "Merkezî dinsel kullanım, Tanrı'ya yönelen tapınma ve kendini bu yönelişe vermedir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["109:4:3:1", "109:4:5:1"],
+          "trigger_refs": [
+            "109:4:4:1",
+            "109:4:2:1",
+            "109:4:5:2",
+            "conn_e58083da5a5dd04cdd31",
+            "conn_da22bd4cb0ff59369922"
+          ],
+          "focus_return_refs": ["109:4:3:1", "109:4:5:1"],
+          "carrier": "عَابِدٌ tapan/kulluk eden isim biçimini, عَبَدْتُمْ ise muhatapların ما ile bağlanan tamamlanmış dinsel yönelişini taşır.",
+          "independent_trigger": "ما bağının rolü bir nesneye yöneltmesi, أَنَا۠ ile muhatap eki arasındaki kişi karşıtlığı ve supplied global bağlantıların konuşanın ibadetini muhatapların ibadetinden ayırması.",
+          "activation": "Dinsel nesne ilişkisi, isim biçimindeki rol ile geçmiş eylemi birbirine bağlar; konuşanın kendini onların ibadet ettiği şeye yönelen kişi olarak tanımlaması böylece ayrı bir kimlik aktarımı sorusuna dönüşür.",
+          "resulting_reading": "Ayetteki dinsel ret, muhatapların ibadetinin konuşanın kendi kulluk yönelişini ve kalıcı tanımını belirleyemeyeceğini görünür kılar.",
+          "boundary": "Bu, odaktaki dinsel ibadet ve rol karşıtlığıdır; B003 F003'teki insana veya sahte güce yönelme uzantısı için bağımsız tetik bulunmamaktadır."
+        }
+      ],
+      "connection_refs": [
+        "conn_e58083da5a5dd04cdd31",
+        "conn_c28a813f191e31612cb7",
+        "conn_da22bd4cb0ff59369922"
+      ],
+      "context_refs": ["10:104", "16:35", "12:40"],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:b005-inherited-route",
+      "origin_candidate_id": "cand_f4efbcffd4c4d9a89a28",
+      "represented_candidate_ids": [
+        "cand_faccd64393487a9dee9a",
+        "cand_edc2ad107be0f8f2266c"
+      ],
+      "title": "Tamamlanmış ibadet önceden açılmış bir yol gibi görünür",
+      "claim": "عَبَدتُّمْ ile bildirilen tamamlanmış uygulama, tekrarlarla geçilebilir hâle gelmiş ve emsal olarak devralınan bir yol görünümü kazanır; عَابِدٌ bu hazır miras yoluna giren kalıcı rolü konuşan için reddeder.",
+      "mechanism": "عَبَدتُّمْ'ün tamamlanmışlık biçimi, عَابِدٌ'ün rol bildiren isim biçimiyle temas eder. 16:35 bağlantısının supplied Arapça yüzeyi ve inherited-practice notu, uygulamanın atalar ve öncekiler üzerinden alınan bir pratik olarak görünmesini; 36:61 bağlantısı ise ibadet ile yolun birlikte kurulmasını sağlar. Bu iki dış tetik, B005'in yol facetini odaktaki geçmiş uygulamaya bağlar.",
+      "reader_payoff": "Okur, reddin yalnızca nesneye ilişkin olmadığını; önceden yürünmüş, alışkanlıkla elverişli hâle gelmiş bir ibadet düzenine ardıl olarak katılmayı da kapsadığını fark eder.",
+      "containment": "Yalnızca B005'in yol çekirdeği taşınır; deve ve gemi varyantları için tetik yoktur. Bir reader desteğinde geçen kayıtsız د ي ن/B005 atfı kayıtlı bir dīn branch'i olarak etkinleştirilmez; bu atıf source qualification olarak kalır ve yerleşik yol benzetmesine yeni gloss eklemez.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": ["legacy_unbound", "trusted"],
+        "reason": "Trusted cross-run kaydı yol ve emsal ilişkisini iki focus taşıyıcısına bağlar; reader walk kayıtları miras yolunu ayrıntılandırır, ancak B005 qualified olduğu ve dīn atfı unresolved kaldığı için kapsam çekirdekle sınırlandırılmıştır."
+      },
+      "support_ids": [
+        "sup_491e704bf128824cda85",
+        "sup_fd68ae434ef412184bb0",
+        "sup_b66e57529390a78040bf"
+      ],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000973/B005",
+          "facet_id": "F001",
+          "branch_gloss": "düzleşmiş yol, katranlanmış deve veya kaplanmış gemi",
+          "facet_statement": "Yol kullanımı, sık geçişle basılıp düzleşmiş ve geçişe elverişli hâle gelmiş yolu niteler.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["109:4:3:1", "109:4:5:1"],
+          "trigger_refs": [
+            "109:4:2:1",
+            "109:4:5:2",
+            "conn_c28a813f191e31612cb7",
+            "conn_4bd2af5c32dad563c270"
+          ],
+          "focus_return_refs": ["109:4:3:1", "109:4:5:1"],
+          "carrier": "عَبَدتُّمْ ile tamamlanmış olarak kaydedilen uygulama, sık tekrarla geçişe elverişli hâle gelen yol facetini taşır; عَابِدٌ bu yola giren rolün adıdır.",
+          "independent_trigger": "Tamamlanmış ikinci çoğul eylem ile rol bildiren isim biçiminin karşıtlığı; 16:35'in miras alınan uygulama bağlantısı ve 36:61'in ibadeti tek bir yol ile birleştiren supplied bağlantısı.",
+          "activation": "Geçmişte yapılmış uygulama, önceden geçilerek açılmış yol görüntüsüyle temas eder; konuşanın reddettiği şey bu görüntüde yalnızca yolun nesnesi değil, o yolda yürüyen kalıcı ardıl rolüdür.",
+          "resulting_reading": "Muhatapların ibadeti alışkanlıkla açılmış bir emsal yol olarak belirir ve konuşan bu hazır yola sonradan giren biri olarak tanımlanmayı reddeder.",
+          "boundary": "B005'in deve ve gemi source-variant facetleri etkin değildir; د ي ن/B005 için kayıtlı branch veya exact context carrier bulunmadığından onun glossu bu aktivasyona eklenmez."
+        }
+      ],
+      "connection_refs": [
+        "conn_c28a813f191e31612cb7",
+        "conn_4bd2af5c32dad563c270"
+      ],
+      "context_refs": ["16:35", "36:61"],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:b006-honor-transfer",
+      "origin_candidate_id": "cand_3511f5853464333f5d4f",
+      "represented_candidate_ids": ["cand_1270fdd8a00ed01bc531"],
+      "title": "Kulluk rolü nesneye değer aktarır",
+      "claim": "Konuşanın onların ibadet ettiği şeye yönelen kulluk rolünü üstlenmesi, o nesneye değer ve yücelik aktaracak bir onay anlamı da taşır; ayet bu onay aktarımını reddeder.",
+      "mechanism": "عَابِدٌ rolü ما عَبَدتُّمْ ile bağlanan bir nesneye yönelir. Bu özne-nesne ilişkisi, B006'nın çevresince saygıdeğer ve yüce tutulan kişi facetini taşıyıcıya bağlar; 21:26 bağlantısının supplied yüzeyi ve honored servant status notu, kulluk ilişkisi ile onur atfı arasındaki bağımsız tetikleyiciyi sağlar.",
+      "reader_payoff": "Ret, ibadet eylemine katılmama yanında, o eylemin nesnesine değerli ve yüce muamelesi yapacak bir tanıma aktarımını da keser.",
+      "containment": "Bu, B006 çekirdeğinin odak ilişkisinden çıkarılan bağlamsal onur etkisidir; B006'nın ayrıca kişiye hizmet edilmesi F002 uzantısı ayrı bir etkinleşmiş okuma olarak tutulmaz. Bağlantı satırında hedef morfolojisi bulunmadığı için dış örnek yalnızca supplied ilişki notu sınırında kullanılır.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": ["legacy_unbound", "trusted"],
+        "reason": "Trusted kayıt sonucu weak olarak derecelendirse de exact focus anchors ile onur aktarımını açıkça kurar; legacy reader support bunu ayrıntılandırır ve çıkarımın bağlamsal niteliği qualified olarak korunur."
+      },
+      "support_ids": ["sup_85d2a115d8b7a9649400", "sup_5e8495c77078da1fddf8"],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000973/B006",
+          "facet_id": "F001",
+          "branch_gloss": "saygı gösterilip hizmet edilen kişi",
+          "facet_statement": "Kişi çevresindekilerce saygıdeğer ve yüce tutulur.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["109:4:3:1", "109:4:5:1"],
+          "trigger_refs": ["109:4:4:1", "109:4:2:1", "conn_a2673cc881fa389ce226"],
+          "focus_return_refs": ["109:4:3:1", "109:4:5:1"],
+          "carrier": "عَابِدٌ, muhatapların yöneldiği nesneye bağlanan kulluk rolünü taşır; bu rolün nesnesi ما عَبَدتُّمْ ile cümle içinde görünür.",
+          "independent_trigger": "ما'nın nesne bağlantısı ve أَنَا۠ ile muhatap eylemi arasındaki rol karşıtlığı; 21:26'nın onurlandırılmış kullar ilişkisini açıkça not eden global bağlantısı.",
+          "activation": "Kulluk eden rol ile onun yöneldiği nesne arasındaki temas, rolün nesneye tanıma ve yüceltme aktarabilmesini görünür kılar; konuşanın ret cümlesi bu olası onay aktarımını da sınırlar.",
+          "resulting_reading": "Ayetteki ret, muhatapların taptığı şeyi yalnızca uygulama dışında bırakmak değil, ona kulluk yoluyla değer kazandıracak bir özne konumunu da üstlenmemektir.",
+          "boundary": "Onur ve değer aktarımı bağlamsal bir sonuçtur; عابد kelimesinin burada tek ve asli glossunun saygıdeğer kişi olduğu veya dış bağlantının hedef morfolojisinin çözümlendiği ileri sürülmez."
+        }
+      ],
+      "connection_refs": ["conn_a2673cc881fa389ce226"],
+      "context_refs": ["21:26"],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:status-transfer",
+      "origin_candidate_id": "cand_894f6c0eed33f2f6463b",
+      "represented_candidate_ids": [
+        "cand_dcb454510a72478a9ad7",
+        "cand_56eba32ae23b0c3af2f7"
+      ],
+      "title": "İbadet ilişkisi statü ve egemenlik aktarımı da kurabilir",
+      "claim": "Muhatapların ibadet düzenine katılmak, konuşanın o düzen içinde sahip olunan veya boyunduruk altına alınan bir role geçirilmesi anlamına da gelebilir; ayet bu statü ve egemenlik aktarımını reddeder.",
+      "mechanism": "عَابِدٌ konuşanı hizmet eden özne rolüne, ما عَبَدتُّمْ ise muhatapların tamamlanmış eylemine ve onun nesnesine bağlar. أَنَا۠ ile ikinci çoğul şahıs eki arasındaki ayrım, bu rol ilişkisinin tersine çevrilerek konuşanın karşı tarafın düzeni tarafından sahiplenilmesi ihtimalini açar. 26:22'nin coerced servitude status-transfer notu ile 20:47 ve 44:18'in coercive control'dan kurtuluş bağlantıları, statü aktarımını bağımsız bağlamsal tetik olarak sınırlar.",
+      "reader_payoff": "Okur, ayetin reddini yalnızca ritüel katılım meselesi olarak değil, bir ibadet düzeninin kişiyi kendi egemenliği altında tanımlaması ihtimaline karşı çizilmiş bir sınır olarak da görür.",
+      "containment": "B001 ve B004'ün çekirdek statü/başkasının boyunduruğu facetleri birlikte taşınır. Bu, odaktaki عابد biçiminin sözlükte doğrudan köle demesi değildir; hukuki alım-satım F002'si, köle gibi çalıştırma F002'si ve başka bütün kök dalları etkinleştirilmemiştir.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": ["legacy_unbound", "trusted"],
+        "reason": "Trusted cross-run finding exact B001/B004 focus anchorsıyla statü ve sahiplik aktarımını kurar; legacy reader kayıtları rol-capture mekanizmasını açıklar, ancak sonuç çok adımlı bağlamsal çıkarım olduğu için qualified tutulur."
+      },
+      "support_ids": [
+        "sup_78e14101cecb6ee27a2d",
+        "sup_2243a767e564277eba4d",
+        "sup_dc09ba3be574261f0ba1"
+      ],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000973/B001",
+          "facet_id": "F001",
+          "branch_gloss": "özgür olmayan, sahip olunan kişi",
+          "facet_statement": "Kişi özgürün karşıtı olarak bir başkasının mülkiyetinde bulunur.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["109:4:3:1", "109:4:5:1"],
+          "trigger_refs": ["109:4:2:1", "109:4:5:2", "conn_7ca420aba686812b1792", "conn_e5db17569ec1010c2481"],
+          "focus_return_refs": ["109:4:3:1", "109:4:5:1"],
+          "carrier": "عَابِدٌ ile kurulan kulluk eden özne rolü, karşı tarafın düzenine katılma hâlinde sahip olunan kişi statüsüne çevrilebilecek bir ilişkiyi taşır.",
+          "independent_trigger": "Açık birinci kişi öznesi ile muhatapların ikinci çoğul eki arasındaki rol ayrımı; 44:18'in God's servants üzerindeki coercive possession/control karşıtlığı ve 20:47'nin coercive control'dan release notu.",
+          "activation": "Özne ile ibadet düzeni arasındaki rol ilişkisi, egemen bir düzenin konuşanı kendisine ait sayması ihtimaliyle temas eder; böylece ret, sahiplik aktarımına karşı bir sınır olarak okunur.",
+          "resulting_reading": "Konuşan, muhatapların ibadet düzenine girerek o düzenin sahip olduğu bir kişi statüsüne geçirilme ihtimalini kabul etmez.",
+          "boundary": "B001 burada hukuki alım-satımın doğrudan adı olarak değil, bağlamsal sahiplik statüsü olarak taşınır; F002 uzmanlaşması etkin değildir."
+        },
+        {
+          "branch_ref": "root_000973/B004",
+          "facet_id": "F001",
+          "branch_gloss": "köleleştirmek veya köle gibi boyunduruk altına almak",
+          "facet_statement": "Eyleyen, başka bir insanı köle edinir veya köle durumuna getirir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["109:4:3:1", "109:4:5:1"],
+          "trigger_refs": ["109:4:2:1", "109:4:5:2", "conn_5c622fcfaaba0924d515", "conn_7ca420aba686812b1792"],
+          "focus_return_refs": ["109:4:3:1", "109:4:5:1"],
+          "carrier": "عَابِدٌ ile bildirilen hizmet eden rolü ve muhatapların tamamlanmış eylemi, karşı tarafın düzenine girmenin boyunduruk altına alınma yönünü açar.",
+          "independent_trigger": "Pronoun asymmetry and the role-to-object relation; 26:22'nin coerced servitude status-transfer notu ile 44:18'in servants üzerindeki possession/control karşıtlığı.",
+          "activation": "Tamamlanmış ibadet düzeni ile konuşanın reddedilen rolü arasındaki temas, bu role girmenin bir kişiyi karşı tarafın egemenliğine sokabileceği bağlamsal sonucunu üretir.",
+          "resulting_reading": "Ret, muhatapların ibadet nesnesine yönelmenin konuşanı o düzen tarafından köleleştirilen veya boyunduruk altına alınan kişi konumuna taşımasını da kapsar.",
+          "boundary": "Bu, odak biçiminin doğrudan köleleştirme fiili olduğu iddiası değildir; B004 F002'nin köle gibi çalıştırma uzantısı ve hukuki ayrıntılar ayrı tetik olmadan dışarıdadır."
+        }
+      ],
+      "connection_refs": [
+        "conn_5c622fcfaaba0924d515",
+        "conn_e5db17569ec1010c2481",
+        "conn_7ca420aba686812b1792"
+      ],
+      "context_refs": ["26:22", "20:47", "44:18"],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:central-hinge",
+      "origin_candidate_id": "cand_a91a65ee3a2c9fee7747",
+      "represented_candidate_ids": [],
+      "title": "Tekrarlanan çerçevenin ortasındaki tersine sınama",
+      "claim": "109:3 ve 109:5'teki aynı muhatap cümleleri arasında duran 109:4, أَنَا۠ ve tamamlanmış عَبَدتُّمْ ile tekrarın içine tersine bir sınama yerleştirir: geçmişte yapılmış uygulama konuşanın kalıcı rolünü tanımlayabilir mi.",
+      "mechanism": "Focus ayetindeki açık birinci kişi zamiri ve perfect fiil, çevresindeki iki özdeş muhatap cümlesinin akışını keser. Retrospective support bu kesintiyi ayetin başka bir paralel ret değil, geçmiş eylem ile dayanıklı kimlik arasındaki ilişkiyi sınayan orta cümle olarak kaydeder.",
+      "reader_payoff": "Merkez ayetin neden tekrarın içinde farklı bir iş gördüğü görünür olur: cümle yalnızca reddi yinelemez, geçmiş uygulamanın konuşanı tanımlama yetkisini sınar.",
+      "containment": "Birincil çeviri korunur ve bu yapısal gözlem herhangi bir tek yorumun üstünlüğünü ilan etmez. Basmalah etkisi ile 109:6'daki sonraki dīn yeniden çerçevelemesi bu bulguya dahil edilmemiştir.",
+      "epistemic": {
+        "status": "exploratory",
+        "source_trust": ["legacy_unbound"],
+        "reason": "Retrospective reader support focus ayetini ve tekrar ilişkisini adlandırır, fakat bu global packet'ta 109:3/109:5 için tam context payload'u yoktur; yapısal sonuç bu nedenle açıkça exploratory tutulur."
+      },
+      "support_ids": ["sup_80801bdd9c958cca466f"],
+      "branch_activations": [],
+      "connection_refs": [],
+      "context_refs": ["109:3", "109:5"],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:later-order-reframe",
+      "origin_candidate_id": "cand_b28392321a12c479200b",
+      "represented_candidate_ids": [],
+      "title": "Sonraki ayet geçmiş eylemi ayrılmış bir düzene çevirir",
+      "claim": "109:5'in muhataplara geri dönüşü ve 109:6'nın son tahsisi, عَبَدتُّمْ ile anılan tamamlanmış ibadeti muhataplara ait sürdürülen bir düzen olarak geriye dönük biçimde çerçeveler; 109:4 ise konuşanın rolünün bu düzene aktarılmasını ayrı tutar.",
+      "mechanism": "Focus'taki geçmiş fiil, 109:5'te aynı muhatap yönelimine geri dönen yapı ve 109:6'daki ayrı tahsisle birlikte okunur. Wide retrospective support bu ardışıklığın basit geçmiş zaman göndergesini düzen/hesap ilişkisine genişlettiğini bildirir; kayıtsız dīn branch atıfları bu mekanizmanın lexical glossu olarak kullanılmaz.",
+      "reader_payoff": "Okur, merkezî reddin çevresindeki kapanışta geçmiş uygulamanın silinmediğini, muhataplara ait bir düzen olarak yerinde bırakılırken konuşanın kimliğine aktarılmadığını görür.",
+      "containment": "Bu bulgu yalnızca bağlamsal yeniden çerçevelemeyi taşır; د ي ن/B005 ve د ي ن/B004 için packet'ta kayıtlı branch veya exact context carrier yoktur, dolayısıyla bunların habit, dominion ya da başka glossları etkin anlam olarak ileri sürülmez.",
+      "epistemic": {
+        "status": "exploratory",
+        "source_trust": ["legacy_unbound"],
+        "reason": "Wide retrospective support 109:5 ve 109:6 ilişkisini açıkça tarif eder, ancak kaynak legacy_unbound'dur ve dīn branch atıfları unresolved olduğu için yalnızca bounded contextual inference korunmuştur."
+      },
+      "support_ids": ["sup_a9b36901a37547adf04d"],
+      "branch_activations": [],
+      "connection_refs": [],
+      "context_refs": ["109:5", "109:6"],
+      "semantic_obligation_refs": []
+    }
+  ],
+  "friction_notes": [
+    "Focus word alignment eksiksizdir: 6/6 word-analysis girdisi çözülmüş, odak yüzeyinin yedi QAC morfemi ve iki ع ب د taşıyıcısı sağlanmıştır. Buna karşılık bu yüzey verisi tek başına ikincil branch aktivasyonunun kanıtı değildir.",
+    "Global packet'ta selected_context_units boş ve lane_context_refs yoktur. Ordered context refs ile global connection hedeflerinin exact Arapça yüzeyleri vardır, fakat connection qualification hedef morfolojisi ve lexical analysis'in sağlanmadığını söyler. Bu nedenle connection'lar yalnızca supplied ilişki notu ve görünür yüzey sınırında kullanılmış, eksik morfoloji icat edilmemiştir.",
+    "HFT kaynağı görünürdür: 10 assigned record, 0 cited anchor ve 0 supplied anchor vardır. Bütün HFT adayları ayrı ayrı karara bağlanmış; yalnızca aynı durable-role ilişkisini tekrar eden summary/strongest_changes/0 exact duplicate olarak temsil edilmiş, diğerleri focus return veya bağımsız taşıyıcı-tetik yokluğu nedeniyle reddedilmiştir.",
+    "cand_edc2ad107be0f8f2266c ve cand_b28392321a12c479200b desteklerinde geçen د ي ن/B005 kayıtsızdır; ayrıca b283 desteğinde geçen B004 dīn uzantısı için de kayıtlı focus branch yoktur. Hiçbir dīn glossu veya facet'i icat edilmemiş; ilk adayda qualification, ikinci adayda bounded structural reframe korunmuştur.",
+    "Uncandidate focus branches B002, B007, B008, B010, B011 ve B012 ile supplied 178 bağlantı gözden geçirilmiştir. Bu dallar için focus veya bağlantı notlarından bağımsız taşıyıcı, tetik, değişmiş okuma ve reader payoff dörtlüsü birlikte çıkmadığından yeni bir finding eklenmemiştir; B005 ve B009'un qualified kenarları candidate kararlarında ayrıca hesaplanmıştır.",
+    "Candidate inventory'de ayrı semantic_obligation_refs tanımlanmamıştır. Bu nedenle kararlar her adayın branch/facet, context ve unresolved-source yükünü reason, exclusion veya ilgili finding containment alanlarında açıkça taşır; sessiz bir obligation düşürülmemiştir."
+  ]
+}

@@ -1,0 +1,205 @@
+# V5 reading invitation — 104:4
+
+You are a fresh reading-invitation writer. Read the complete editorial prose
+before writing. It is your sole semantic source.
+
+Write two to four paragraphs of fluent, contemporary Turkish that reveal a
+surprising reading by following one or two main channels of resonance in the
+ayah. A channel is a connected background of meanings, images, actions, or
+relations through which the ayah can be heard and understood differently.
+Several editorial findings may together develop one channel. Summarize that
+connected movement and its consequence for the ayah's main meaning, rather
+than compressing findings individually. Give the reading's substance now;
+the invitation comes from understanding it, not from a promise of hidden depth.
+
+Before drafting, read the entire editorial prose and silently select the one
+or two channels with the strongest interpretive consequence and enough
+grounding to explain clearly. Favor channels that expand or shift what the
+ayah says, the relation it establishes, or what is at stake in its action or
+image. One fully developed channel is sufficient; add a second only when it
+offers a distinct consequential reading that can be explained within the
+invitation. No finding, channel, or major shift has an individual coverage
+claim. Unselected material may remain entirely in the full commentary.
+
+A channel may develop through grammar, sound, dialogue, a material process,
+time, imagery, or a conceptual relation. Resonance is not limited to acoustic
+effects, and an unusual image alone does not establish a channel. Use only
+connections the editorial prose actually develops. If it supplies no such
+channel, explain its strongest grounded reading without inventing connections
+or surprise.
+
+Begin inside the ayah's own words, images, actions, or relations and reveal a
+selected distinctive reading in the first paragraph. Keep the plain meaning
+reachable with only the orientation needed to understand the change. Do not
+spend an opening paragraph on routine explanation or front-load context about
+the surah, the ayah's position, or the commentary project.
+
+For each selected channel, begin with the expression that opens it, unfold the
+connected background, and show how the ayah reads or sounds against that
+background. Let a detail lead into the next through an intelligible relation
+or process, so the reader experiences the emerging reading. This is a movement
+of thought, not a mandatory sentence pattern or one paragraph per finding.
+Let the reader identify the expression being interpreted,
+where any nonordinary detail comes from, and what that detail changes in the
+reading. Briefly identify the word-family use, restricted form, collocation, or
+context that supplies an essential added detail, and preserve the concrete
+operation that makes the image work. Keep the ordinary reading and necessary
+qualification clear within this explanation; do not repeat them as a fixed
+formula. Preserve the particular object, process, or relation that makes this
+reading distinctive, and state its interpretive consequence for the ayah as a
+whole. Make intelligible what the familiar reading leaves less visible and
+what the expanded or shifted reading now lets the reader understand. Preserve
+the editorial's force: an exploratory possibility remains possible, while a
+developed shift must not be softened into a decorative association or a
+reassurance that everything means the same thing. A concrete
+account of how something is carried, transformed, lost, or restored must not
+shrink to a general statement about care, guidance, dependence, or goodness.
+Keep the details needed to make the selected channel work; omit side findings
+and shorten routine setup. If a channel cannot be explained faithfully from
+the editorial prose, choose another grounded channel or reading.
+
+When a non-focus ayah supplies a contribution used in the invitation, keep its
+reference from the editorial prose beside that contribution.
+
+Do not turn the invitation into a miniature inventory of the commentary's
+conclusions, or flatten distinct channels into a broad theme to include more
+material. Do not repair, extend, or supplement the editorial prose from memory
+or outside knowledge.
+
+Omit technical apparatus. Retain any qualification, source distinction, live
+alternative, or boundary whose absence would change the force or meaning of a
+chosen reading. Express it naturally beside the image or relation it qualifies.
+Favor positive explanations of the relation between layers: what remains in
+the foreground and what the resonance makes audible in the background. State
+how that background reinforces, expands, or shifts the understanding of the
+main meaning, with the source and degree of certainty clear. Reserve explicit
+exclusions for concrete ambiguities or live counter-evidence that need them.
+Repeated "this is not X" endings make a reading sound withdrawn; express the
+substantive qualification through what the reading does contribute wherever
+possible. Use varied, natural language rather than a repeated "second layer"
+formula, and preserve the force of expansions and shifts.
+Do not name branches, candidates, findings, scopes, evidence categories,
+ledgers, or workflow stages, or label the prose as numbered channels. Do not
+list findings serially.
+
+Use the established `{ar:..., tr:..., gloss:...}` syntax, consistent
+Turkish-readable transliteration, and short ordinary glosses. Keep Arabic
+anchors beside the explanations they ground. Within a paragraph, continue with
+the Turkish meaning where clear; provide the necessary local tag when a later
+paragraph interprets the carrier anew. Do not place Arabic script outside a
+valid tag.
+
+Build transitions within a channel through its shared object, action, or
+relation. If two channels are selected, they may occupy separate paragraphs;
+do not invent a link between them. Do not praise the commentary's quality,
+promise what the reader will find, manufacture suspense, recap at the end, or
+add a call to action. End on an image, relation, action, or tension already
+established by the selected reading.
+
+Before finishing, compare the invitation with the entire editorial prose:
+does the chosen channel reveal a consequential reading, or could the text have
+been written from the ordinary translation and a modest explanation alone?
+When the editorial supports a surprising channel, the latter fails this task.
+Can the reader follow the opening expression into a connected background and
+understand how that background expands or shifts the ayah's main meaning?
+Check the selected connections against their editorial explanation: can the
+reader tell where the nonordinary details come from, with the necessary
+qualifications intact? Repair generic explanation, isolated curiosities, or a
+compressed findings list by developing the selected channel. Do not add
+omitted channels merely for coverage. Do not output this check.
+
+Write only the invitation text to:
+
+`_commentary/v5/editorial/s104-regular-20260911/s104/104_4/104_4.invitation.tr.md`
+
+Do not add a heading, wrapper label, index, ledger, evidence file, or any other
+artifact. Do not modify the editorial prose.
+
+After writing the invitation, run:
+
+```bash
+python3 _commentary/v5/validate_prose.py _commentary/v5/editorial/s104-regular-20260911/s104/104_4/104_4.invitation.tr.md
+```
+
+If validation fails, repair only the reported mechanical file-contract issues
+and rerun it, for at most two repair cycles. Report the final validator result
+in your response.
+
+<editorial_prose>
+## Hükmün Dönemeçi
+
+Bu kısa âyet, 104:3'te malının kendisini kalıcı kılacağını sanan kişiye dönerek başlar: {ar:كَلَّا, tr:kellâ, gloss:Hayır}. Cümle başındaki durak ve kelimenin sıkı sesi, sonraki hükümden önce reddi işittirir. Kellâ burada gevşek bir bağlaç gibi akmaz; 104:3'teki iç hesaplamayı kesip dayatılmış bir karara geçişi kurar. Muhatabı durduran bir sakındırma tonu da bu reddin içine yerleşir. Tek kelime gerideki kalıcılık iddiasını geri çevirirken ilerideki kesin ceza cümlesinin kapısını açar; hüküm, reddin yerine geçmeden onun ardından gelir.
+
+Bu kesikten sonra {ar:لَ, tr:le-, gloss:yemin cevabı lâmı} ile {ar:يُنۢبَذَنَّ, tr:leyunbezenne, gloss:kesinlikle atılacaktır} birlikte duyulur. Başındaki lâm, serbest duran bir kuvvetlendirme değil, söylenmemiş bir yeminin cevabını başlatan lâm olarak hükmü çerçeveler. Fiilin sonundaki ağır `-nne` de atılma eylemini baştan sona mühürler. Böylece gelecek zamanda gerçekleşmesi beklenen bir ihtimal değil, yeminle sabitlenmiş bir karar işitilir; yeminin söylenmemiş kısmı metne eklenmeden onun kesinliği taşınır. Kellâ'nın reddi bu lâmın açtığı cümlede dışarıdan uygulanan bir hükme dönüşür. Fiilin ağır bitişindeki ses basıncı da kapanışı destekler; daha ince telaffuz ayrıntıları yeni bir anlam kurmadan bu kesinliği sıkılaştırır.
+
+Hükmün hareketini {ar:يُنۢبَذَنَّ, tr:leyunbezenne, gloss:kesinlikle atılacaktır} fiili kurar. Fiil edilgendir; kişi atan taraf olarak değil, başkasının attığı kişi olarak görünür. Üstelik bu, isimsiz ve rastgele birinin sahneye sokulması değildir. 104:3'te kendi kalıcılığını malıyla hesaplayan kişi, aynı kişi olarak denetleyen konumdan hükme uğrayan konuma taşınır. Fiilin arkasındaki {ar:فِى, tr:fî, gloss:içine} bu atılışı boşluğa savrulma olmaktan çıkarıp belirli bir hedefin içine yöneltir. Önce hareket, sonra varış duyulur. Kişi yalnızca bir yerden uzaklaştırılmaz; adı konmuş bir yere doğru gönderilir. Fî'nin bu cümledeki katkısı hedefe girişi belirlemektir; özel içecek veya yanal çekilme sahneleri bu bağlantıya taşınmaz.
+
+Bu edilgen gelecek biçimin seçimi de sahnenin yönünü belirgin tutar. Etken, çoğul veya ikil özne ihtimalleri başka anlatım yollarını görünür kılabilir; burada ise tek kişi edilgen tutulur. Biçimin bu bağlamda seyrek duyulması, pasifliği sıradan bir anlatım olmaktan çıkarıp 104:3'teki kontrol iddiasının tersine dönüşünü öne alır, yeni bir sözlük anlamı üretmez. Basit fiil kalıbı da kendi kendine çekilme veya başkasına attırma gibi ek bir eylem katmanı açmaz: doğrudan birinin atıldığı görülür. Kellâ ile varış adı arasındaki bu fiil, soyut bir kalıcılık hesabını bedenî ve yönlü bir cezaya çeviren orta eştir.
+
+{ar:فِى, tr:fî, gloss:içine} ile {ar:ٱلْحُطَمَةِ, tr:el-hutame, gloss:Ezici} arasındaki ses akışı, dilbilgisi iki parçayı ayrı tutsa da tek bir içeri giriş hareketi gibi akar. Fî, el-hutame'yi durağan bir konumdan çok içine girişin tamamlayıcısı yapar; cümleye yeni bir fail eklemeden atılmanın güzergâhını tamamlar. Belirli artikel taşıyan ad, fiilden sonra son vuruşu toplar ve belirsiz bir yıkım kuvveti değil, belirli bir varış noktası kurar. El-hutame burada gerçekleşen tek bir ezme eyleminden çok, ezici kimliği adlandıran bir isim gibi çalışır. Cümle sonuna bırakılması, dinleyeni hareketin kendisinden hareketin ulaştığı Ezici ile baş başa bırakır. Adın 104:5'te yeniden sorulacak olması da bu son kelimeyi kapanıştan çok hemen açılacak bir sorunun eşiğine yerleştirir.
+
+El-hutame adının taşıdığı sert veya kuru bir bütünün kırılıp parçalara ayrılması ve geride kuru döküntü bırakması basıncı, burada adın yerleşik Ezici anlamını genişletir. Kırılma sonucundaki döküntü Ezici'nin ürettiği etkiyi görünür kılarken ad, onu meydana getiren kırıcı gücü de taşır. 104:6'da bu adın Allah'a nispet edilen tutuşturulmuş ateşle açıklanması, 104:4'teki hedefe daha sonra açılacak ateş yönünü hazırlar. Böylece 104:4 önce kıran kimliği ve varış noktasıyla duyulur, 104:6'daki açıklama o kimliğin ateşli işleyişini açar. Adın 104:4'teki tehdit dizisinde seyrek ve yoğun kullanımı, onu sıradan bir yer sözcüğünden daha ağır bir hedefe dönüştürür; sesin sert dokusu da bu son basıncı destekler.
+
+## Tutulan Malın Çözülmesi
+
+Atılmanın elden çıkarma yüzü, 70:18'deki {ar:وَجَمَعَ فَأَوْعَىٰ, tr:ve cemea fe ev'â, gloss:topladı ve biriktirdi} sahnesiyle buluştuğunda belirginleşir. 104:2'de {ar:جَمَعَ, tr:cemea, gloss:topladı}, {ar:مَالًا, tr:mâlen, gloss:malı ve serveti} ile {ar:عَدَّدَهُ, tr:addedehû, gloss:onu sayıp döktü} birlikte dağınık olanı toplanmış, sahiplenilmiş ve sayılmış bir bütün hâline getirir. 104:3'teki {ar:يَحْسَبُ أَنَّ مَالَهُ أَخْلَدَهُ, tr:yahsebu enne mâlehu ahledehû, gloss:malı onu kalıcı kılacak sanısı} bu bütünün zihinsel bir süreklilik hesabına bağlandığını gösterir. 70:18'deki toplama ve saklama sahnesi, odaktaki {ar:يُنۢبَذَنَّ, tr:leyunbezenne, gloss:atılacaktır} fiilinin elden çıkarma, gözden çıkarma ve değeri silme yönleriyle temas eder. Toplayan kişi artık tuttuğu şeylerin sahibi olarak değil, başkasının elinden çıkıp bir yana bırakılan, elde tutulmayan bir girdi olarak görünür. Kelimenin kendi anlamına toplama eklenmez; 70:18'deki toplama, 104:4'teki atılmanın kontrolü tersine çevirmesini görünür kılar.
+
+Bu tersine dönüş, {ar:ٱلْحُطَمَةِ, tr:el-hutame, gloss:Ezici} adının kuru veya sert bütünü kırma yüzüyle servetin görüntüsüne de uzanır. Dünya hayatının süsü, serveti ve çoğalması 57:20'de parlak bir bütün kurduktan sonra {ar:حُطَامًا, tr:hutâmen, gloss:kuru döküntü} hâline gelir. Bu temas, dayanıklı sanılan serveti ve o servet çevresinde kurulan kimliği kırılabilir bir malzeme gibi gösterir; 104:2'de sayılan birimler de sonunda kuru parçalara ayrılan bir dünya stoğu olarak görünür. Atılma ile Ezici'nin adı aynı cümlede buluştuğunda kişinin katkısı, kırılma sürecine giren bir girdi olarak görünmesidir; kişi kuru bir nesneye çevrilmeden döküntü, kırma işleminin sonucunu görünür kılar. 104:6'daki Allah'a nispet edilmiş ateş, bu dönüşümü yalnızca ekonomik bir mecaza indirgemeden Ezici'nin ateş ufkuna bağlar. Bu ilişki malı mabut diye adlandırmaz; 57:20'deki zenginlikten döküntüye geçiş, 104:4'ün açık Ezici'ye atılma hükmünü derinleştirir.
+
+Toplanmış bütünün karşısında daha ihtiyatlı bir ters-toplama hareketi belirir. {ar:جَمَعَ, tr:cemea, gloss:dağınık parçaları bir araya getirmek} ile 104:2'de kurulmuş düzen, {ar:يُنۢبَذَنَّ, tr:leyunbezenne, gloss:atılıp bir yana bırakılmak} ve {ar:ٱلْحُطَمَةِ, tr:el-hutame, gloss:sert bütünü kırıp parçalayan Ezici} ile saçılır, kırılır ve küçük kalan parçalara iner. Atılma kelimesinin küçük ve sınırlı bir parça yönü, fiile doğrudan "küçük olmak" anlamı vermeden bu küçülmüş sonucu duyurur. Atılan şey, 104:3'te yeterli olduğu sanılan bir hazırlık düzeninin bölünüp küçülmüş payı gibi hissedilebilir. 104:9'daki başkasına aktarılan destek ve küçük ölçü görüntüsüyle birlikte {ar:فِي عَمَدٍ مُّمَدَّدَةٍ, tr:fî amedin mümadded(e), gloss:uzatılmış direkler içinde} ifadesi çevresinde düşünülen destek düzeni, sonunda düşük sınıra inmiş bir artık bırakır. Bu benzetme, güvenceye dönüştürülen stoğun düzenli envanterden kırılabilir kalıntıya geçişini taşır; gerçek erzak ve ölçü ayrıntıları bu bağlantıya eklenmez.
+
+Atılma fiilinin başka bir kullanım yüzü, atışın bir aktarımı geri dönülmez biçimde bağladığı satış sahnesini de çağrıştırır. {ar:نَبَذَ, tr:nebeze, gloss:atmak ve elden çıkarmak} ile 104:2'deki servet sahibi arasındaki ilişki düşünüldüğünde, edilgen yapı bir zamanlar envanteri elinde tutan kişiyi gönderen olmaktan çıkarıp gönderilen nesneye yaklaştırır. 104:8'deki kapalı ve sert alan görüntüsüyle birleştiğinde sahip, nesne ve kap yer değiştirir; kişi kendi topladığı stok gibi tutulur. Bu bağlantı, 104:2'nin servet alanından doğan sahip-nesne tersine dönüşünü görünür kılar. Satış işlemi veya gerçek bir depo iddiasına dönüşmeden, 104:4'teki temel hareket kişinin Ezici'ye atılması içinde kalır.
+
+104:3'te malın kişiyi kalıcı kılacağı sanısı, {ar:يُنۢبَذَنَّ, tr:leyunbezenne, gloss:kesinlikle atılacaktır} fiilinin ilişkiyi yana çekip açıkça kesen yönleriyle karşılaşınca, öznenin kendisini tutacağını sandığı destekten zorla sökülmesi gibi görünür. 104:8'deki {ar:إِنَّهَا عَلَيْهِم مُّؤْصَدَةٌ, tr:innehâ aleyhim mu'sade, gloss:onların üzerine kapatılmış} kapanması ve 104:9'daki {ar:فِي عَمَدٍ مُّمَدَّدَةٍ, tr:fî amedin mümadded(e), gloss:uzatılmış direkler içinde} destek-uzanma düzeni, kalıcılığı servetten cezanın kapalı koşuluna aktarır. Servet çözülürken özne tutulur; Ezici'nin kıran yüzü bu tutulmayı süren bir yıpranma gibi karşılar. Direklerin zamanı mı yoksa yalnız mekânı mı bildirdiği açık kalır. Bu ilişki, 104:3'teki güvence vaadinin 104:8 ve 104:9'daki kapanma ve yıpranma koşuluna dönüşmesini düşündürür; sahne bu destekten kopuşu gösterir, onu bir antlaşma veya hukukî çatışma olarak sabitlemez.
+
+## Basıncın Geri Dönüşleri
+
+104:1'deki {ar:كُلِّ, tr:külli, gloss:bütün ve kapsamlı} vurgusu içinde {ar:هُمَزَةٍ, tr:hümeze, gloss:dürtüp iten} ve {ar:لُمَزَةٍ, tr:lümeze, gloss:iterek vuran} nitelemeleri, tek bir hareketten çok tekrarlanan küçük itiş ve vuruşlardan oluşan bir davranış örüntüsü kurar. 104:2'deki toplama görüntüsünün parmakların kapanarak avuç içinin çukurunu oluşturması da bu basınca somut bir el biçimi verir. Sıkma, dürtme ve itme, sonunda nesnenin elden bırakılıp ileriye doğru atılmasına dönüşür. Bu vektörler 104:4'teki edilgen atılış ve Ezici'nin sert bütünü kıran anlamıyla temas ettiğinde, 104:1'de başkasına yönelen küçük baskılar failin bütünlüğünü kıran tek bir yer değiştirmeye geri döner. Bu karşılık, toplumsal basıncın bedensel bir yankısı olarak okunabilir; 104:1'in yalnızca failin niteliğini bildiren sade okuması da yerindedir ve pasif fiil 104:4'te gerçek bir fail eklemez.
+
+Atılma kelimesinin ilişkiyi açıkça kesen yüzü, 8:58'deki {ar:فَٱنۢبِذْ إِلَيْهِمْ عَلَىٰ سَوَآءٍ, tr:fenbiz ileyhim alâ sevâ, gloss:karşı tarafa açıkça bildirerek kopar} ifadesindeki sahneyle de görünür olur. 8:58'de kopuş iki tarafa açıkça bildirilir ve örtülü dışlama açık bir reddedişe dönüşür. Bu temas, Ezici'ye atılmayı gizli bir uzaklaştırmanın kesin ve görünür biçimde sona ermesi gibi duyurur. Toplumsal bağın kopuşu fiziksel atılışa eşlik eder; bu bağlantı 104:4'teki hükmü belirli bir hukuk prosedürüne dönüştürmeden, kopuşun açıklığını görünür kılar.
+
+104:1'in bağımlılık yüküyle okunduğunda atılma, yalnız güvenli bir yerden çıkarılmayı değil, kendisini tutan bakım ilişkisinden kopmayı da düşündürür. 104:1'de açılan bağımlılık görüntüsü içinde annesi tarafından bırakılıp başkalarınca bulunabilecek bir çocuk ve sahiplerince gözetilmeyen cılız bir hayvan düşünüldüğünde, atılan özne güven merkezinin dışına düşmüş ama bir alıcı kuvvetin etkisine açık bir varlık hâline gelir. Bu görüntülerin katkısı öznenin türünü belirlemek değil, bakım ilişkisinin kaybını somutlaştırmaktır; kişi çocuk, koyun veya yetim diye tanımlanmaz. Fiziksel atılışın içine bakım ilişkisinin kaybı eklenir; kişi bir yerden çıkarılmış olmanın yanında kendisini taşıyan merkezin dışına bırakılmış gibi görünür.
+
+Başkasının onurunu görmezden gelen küçük baskı ile onu işleyen büyük kuvvet arasındaki temas, 89:17'de yetime değer vermemenin gösterildiği sahne ve 27:18'de büyük gücün küçüğü fark etmeden ezdiği sahneyle genişler. Ezici'nin acımasız sürücü veya çoban kullanımı, 104:1'deki kişinin başkalarını itip inciten davranışının kendisini işleyen kuvvette kaba bir karşılık bulduğunu düşündürür. Bu okumanın katkısı, davranış biçimini cezalandırmadaki kuvvet biçimine yansıyan bir sert muamele olarak göstermesidir; 104:4'ün açık atılma hükmü aynı kalır. 89:17 ve 27:18'deki sahneler bu bağlantıda gerçek bir sürü veya zorunlu bir ahlâk mekanizması kurmadan, küçük sosyal darbeler ile büyük ezme kuvvetini birbirine değdirir.
+
+Toplama hareketinin yoğunlaşıp ilerleyen bir güce dönüşmesi, Ezici'nin ölçeğini de büyütür. 104:2'de dağınık parçaların tek bir hareket içinde toplanması, kırılmayı tek darbeye değil biriken basınca bağlar. {ar:ٱلْحُطَمَةِ, tr:el-hutame, gloss:karşısına çıkanı ezen Ezici} böylece 104:2'deki yoğunlaşmış hareketin tetiklediği bir kalabalık, sürü veya aslan saldırısı gibi hayal edilebilir. Bu fiziksel benzetmenin katkısı, Ezici'nin ilerleyen kütlesini görünür kılmasıdır; 104:4'teki ad gerçek bir hayvana ya da her yerde geçerli genel bir kuvvet yasasına dönüşmez.
+
+El-hutame'nin kıtlık yılına ve insanla malı birlikte çökertecek kuraklığa açılan kullanımı, 104:6'daki tutuşturulmuş ateşin yaz sıcağının en sert noktasıyla buluşunca bu biriken basıncı çevre ölçeğine taşır. Tek bir nesnenin değil, 104:6'da ateşin çevresinde yaşanan ve sahip olunan bütün çevrenin kuruyup bütünlüğünü yitirmesi görüntüsü doğar. Bu mevsimsel genişlemenin katkısı, ateşin yoğunluğunu maddî ve toplumsal alana yaymasıdır; bu bağlantı gerçek bir takvim yılı veya meteorolojik hüküm tayin etmez. Aynı toplama anlamının insanları bir araya getiren yer, gün veya çağrı görüntüsüyle buluşması ise 104:2'nin yakınlaşmasını başka bir sıkışmaya taşır: Ezici'nin bir yüzü, yoğun kalabalığın bastırdığı belirli bir kutsal yapı bölümü veya duvarı gibi görülebilir. Bu mimari görüntü, 104:2'deki kalabalık ve sınırın adın içindeki basıncı görünür kılar; belirli bir tarihî yapı veya hac mekânı tayin etmez.
+
+## Varışın İçinde
+
+Atılmanın hedefinin katkısı, 104:8'deki kapatılmış alan, 25:13'teki daraltılıp bağlanmış yer ve 90:20'deki mühürlenmiş ateş görüntüleriyle birlikte, Ezici'yi varılıp geride bırakılan bir konumdan içeri alan bir koşula genişletmesidir. {ar:فِى, tr:fî, gloss:içine / içinde} ile kurulan geometri, içeri alınanın dağılamadığı ve basıncın içeride tutulduğu bir koşul açar. 25:13 ve 90:20'deki dar ve mühürlü şartlarda sert sürüş ile karşısına çıkanı ezen kütle aynı kapalı uçta birleşebilir. Kapalı ağıl ve mühürlü kapı görüntüleri bu bağlantının taşıdığı koşulu somutlaştırır; Ezici'yi sözlükte ağıl, gerçek sürü veya salt mekanik düzenek diye sabitlemez.
+
+Atılma ile bu hedefin birleşmesi yeni bir zaman kenarı da açar. {ar:يُنۢبَذَنَّ, tr:leyunbezenne, gloss:atılacaktır} basit bir uzaklaştırmayla bitmez; kişi sonunda kaçışın kesildiği ve tutulduğu bir hâle varır. Kapanmanın ezmeyi başlatıp başlatmadığı ya da ezme gerçekleştikten sonra yalnızca kaçışı engellediği belirlenmez. Her iki yönde de açık kalan şey, 104:8'deki kapalı koşula ulaşan kişinin Ezici'nin sert yöneten ve önüne geleni ezen yüzleri tarafından sonrasında da işlenebilmesidir. Fî burada yalnızca "içinde" anlamını vermekle kalmaz; hareketi, tutulmuş bir duruma bağlayan kapalı bir süreç hissi verir.
+
+104:6'daki ateş, 104:7'deki içe erişim ve 104:8'deki kapanma, {ar:فِى ٱلْحُطَمَةِ, tr:fî el-hutame, gloss:Ezici'nin içine} sözünü yalnızca bir varış adresinden içine girilen ve işlemeye devam eden bir hâle doğru genişletir. Ezici'nin burada yer, fail, durum veya işleyen bir süreç oluşuna dair ihtimaller, 104:6, 104:7 ve 104:8'de aynı hedefin çevresinde birlikte taşınır. Atılan kişi, bu genişleyen görüntü içinde somut bir bedene indirgenmeden, 104:4'te açıkça söylenen hedefe giren kişi olarak kalır. İçe erişim 104:7'de ayrıntılanabilir; 104:4 ise bu hareketi ayrıntılı bir beden tasvirine kapatmadan açık bırakır.
+
+## Kırmanın İçeri Uzanması
+
+104:5'teki {ar:وَمَا أَدْرَاكَ مَا ٱلْحُطَمَةُ, tr:ve mâ edrâke mâ el-hutame, gloss:Ezici'nin ne olduğunu sana bildiren soru}, 104:4'ün sonundaki adın işlevini açar: soru, Ezici'nin yalnızca nereye atılındığını değil, orada ne yaptığını da görünür kılmaya hazırlanır. Böylece {ar:لَيُنۢبَذَنَّ, tr:leyunbezenne, gloss:atılıp içine yöneltilmek} kişinin yalnız bir hedefe varmasını değil, 104:5'te işleyişi sorulan bir sürecin içine girmesini de düşündürür. Daha uzak bilgi-işlem görüntüsünün katkısı, Ezici'nin kişiyi içine alan yer oluşunu koruyarak bu adı açıklanacak bir işleyişe açmaktır; 104:4'teki varış noktası bu açıklamanın zemini olarak kalır.
+
+104:7'deki {ar:ٱلَّتِى تَطَّلِعُ عَلَى ٱلْأَفْـِٔدَةِ, tr:elletî tattaliu ale'l-ef'ide, gloss:kalplerin üzerine ulaşan} yön, el-hutame'nin sert bütünü kırma ve öğütme yüzüyle buluştuğunda dış yüzeydeki parçalanma iç hedefe doğru ilerleyen bir sürece dönüşür. 104:7'deki açığa çıkarma ve yükselme çağrışımı, atılan şeyin altına ve içine ulaşan bir yol verir; 83:14 ve 4:56'daki ateş temaslarıyla birlikte ısı kalpte biriken bir iz veya oraya yerleşen bir rahatsızlık gibi hissedilebilir ve temas, deri her yenilendiğinde yeniden sürer. Bu katkı, Ezici'nin etkisini dıştan vurup geçen bir darbeden davranışı düzenleyen iç merkeze kadar uzanan bir işleme taşır. Bunun psikolojik bir merkez mi yoksa ateşin bedensel bir organa ulaşması mı olduğu açık bırakılır; 104:4'ün sade kırma ve atılma anlamı bu içe uzanan görüntüyle birlikte canlı kalır.
+
+Atılma fiilinin elden çıkarma ve gözden uzaklaştırma yönü, 104:6'daki ateşin ışığı ve yanık iziyle, 104:7'deki kalplere doğru yükselen bakışla karşılaşınca yıkıcı bir görünürlüğe açılabilir. Atılan özne süreç içinde daha belirgin hâle gelir; yıkım aynı zamanda gizlenmiş olanı açığa çıkaran bir iz bırakır. Bu katkı, 104:6'daki ateşin fiziksel parlaklığını ve 104:4'teki yer değiştirme anlamını koruyarak, elden çıkarılan kişinin işleyen kuvvet içinde görünür kalmasını sağlar. Ateş ve bakış burada ayrıca ahlâkî bir paradoks tayin etmez; görünürlük, bu özel bağlantının taşıdığı yıkıcı açıklık olarak kalır.
+
+## Ateşin İşlediği Oda
+
+104:6'daki {ar:نَارُ ٱللَّهِ ٱلْمُوقَدَةُ, tr:nâru'llâhi el-mûkade, gloss:Allah'ın tutuşturulmuş ateşi}, Ezici'nin öğütüp tüketen yüzüne etkin bir enerji verir. Yakma, dağlama, yakacak, ocak ve hazır kıvılcım imgeleri, {ar:فِى, tr:fî, gloss:içine doğru} ile hedefe giren malzemenin çalışan bir alana alınmasını düşündürür. 104:2'deki toplama anlamının genişlik ve doluluk taşıyan kap görüntüsü, Ezici'nin tüketmesi ve 104:7'de içe yönelen ısıyla birleşince, malzemenin girdiği kapalı bir pişirme ve sindirme odası belirir. Ateşin katkısı kırmayı görünür bir dönüşüme çevirmektir; kap ve iç işleyiş bu dönüşümü taşır. Pişirme ve sindirme dili, 104:2, 104:6 ve 104:7'deki kap, ateş ve iç işleyişten doğan sınırlı bir benzetmedir; ateş ile mekanik işlemi tek bir düzeneğe bağlamaz.
+
+İşleyen oda görüntüsü, 104:6'daki ateşin yakacağı ve 104:9'daki destek ile başkasına aktarılan artış imgeleriyle süreklilik kazanır. {ar:نَبَذَ, tr:nebeze, gloss:bir kaba bırakmak} yüzü, malzemenin sürece girdiği konumu taşır; 104:6'daki yakacak işlemi sürdürür, 104:9'daki uzatılmış direkler ve destek düzeni öğütücüyü ayakta tutar, aktarılan artış da girdiyi yenileyen bir besleme hissi verir. Bu ilişkilerin katkısı, Ezici'yi tek anlık bir darbeden çok içeri alınanı işlemeye devam eden beslenen bir aygıt gibi duyurmaktır. Süreklilik 104:6 ve 104:9'dan doğan bağlamsal bir benzetme olarak kalır; 104:4'teki cümle kişinin Ezici'ye atıldığını söyler ve devam eden zamanı tek başına gramerle kanıtlamaz.
+
+Bu besleme görüntüsünün en ihtiyatlı ucunda, {ar:لَيُنۢبَذَنَّ, tr:leyunbezenne, gloss:işleyen bir ateş alanına atılmak} fiili özneyi 104:6'daki ateşe beslenen olası bir malzeme gibi de düşündürür. Kişi aynı anda Ezici'ye atılan mağdur ve sürecin üzerinde çalıştığı muhtemel girdi olarak kalabilir. 104:6'daki yakacak ve 104:9'daki yenilenme ile kurulan temasın katkısı, bir besleme döngüsünü görünür kılmaktır; gramer özneyi yakıt olarak tanımlamaz. Mağdur olarak atılma açık anlamı yerinde dururken, tüketen düzenek tarafından işlenen girdi görüntüsü ayrı bir ihtimal olarak canlı kalır.
+
+El-hutame'nin önüne geleni çokça tüketen ve yiyeceği öğütüp sindiren varlık görüntüsü, Ezici'nin yalnızca vuran değil, içine atılan stokun ayrımlarını korumadan tüketen bir işlem gibi görünmesini sağlar. 89:19'daki mirasın ayırt etmeden topluca yenmesini anlatan sahne bu tüketme yönünü tetikler. 104:7'deki yukarı çıkan kusmuk imgesiyle birleştiğinde iki aşamalı bir hareket de belirir: {ar:ٱلْحُطَمَةِ, tr:el-hutame, gloss:önündekini yiyip öğüten Ezici} içeri alır, sonra aldığı şeyi geri yükseltip dışarı çıkarır. Bu iki hareket Ezici'yi tek yönlü bir kırma noktasından, alımın şiddetli bir tersine dönüşe uğradığı tüketici bir sürece doğru genişletir. Kişinin yiyecek, Ezici'nin de gerçek bir sindirim organı olması bu bağlantının kapsamına girmez; 89:19'daki tüketme yönü, kırma ve kapatma okumalarını eritmeden ayrıca kalır.
+
+Atılma kelimesinin hurma veya kuru üzümün su içinde bir kaba bırakılarak içecek hazırlanmasını düşündüren yüzü, 104:9'daki başkasına aktarılan karışık suyla temas eder. Dışarı atma bu kez alıcı bir ortama yerleştirme, su da içine gireni dönüştüren bir madde gibi görünür. Bu temasın katkısı, atılma hareketine alıcı ortamda gerçekleşen dönüşüm boyutunu eklemektir; 104:4'teki odak bu özel içecek sahnesini kuracak maddî ayrıntıyı taşımaz. Daha uzak bir sistem görüntüsünde 104:5 çevresindeki su girdabı, 104:9'daki akışı kesen kanal ve beslenen suyla birleşir; öğütme, kap içine alınan malzemenin çevresinde dönen kapalı ve yeniden beslenen bir değirmen gibi hayal edilebilir. Su, girdap ve hidrolik düzenek bu bağlantıda çevreyi kuran benzetmelerdir; 104:4'ün gerçek içeriğinin yerine geçmez.
+
+## Yıpranmanın Çevresi
+
+104:2'deki yoğunlaşan hareket ve 104:9'daki suyu tutup yönlendiren toprak işleri, {ar:يُنۢبَذَنَّ, tr:leyunbezenne, gloss:atılıp çevreye saçılmak} fiilinin delikten çıkıp çevresine saçılan toprakla ilgili özel adlandırma yüzüyle buluşabilir. Bu temas, toplu kuvveti beslenen bir akışa, sıkıştırılmış ıslak toprağa ve akışı kesen kanala bağlar; Ezici'nin hedefi kurulmuş bir akış arazisinde yer değiştiren artık gibi görünür. Suyu tutan sınır basıncı artırır. 104:2 ve 104:9'dan doğan bu çevre benzetmesi, Ezici'nin sözlük anlamını suya, sete veya toprağa taşımaz; özel adlandırmanın bu yüzü, yalnızca bu bağlantının açtığı görüntü olarak kalır.
+
+El-hutame'nin yaşlanma veya zayıflamayla bedenin çöküp gücünü yitirmesine açılan yüzü, 104:9'daki basınçla kabaran yara ve irin üreten yara imgeleriyle birleştiğinde kırmayı zaman içine yayar. Sert bir darbe, yüzey altında süren şişme ve akıntıya uzanan yıpratıcı bir sürece dönüşür; bütünlük bir anda parçalanmak yerine azar azar aşınır. Bu bağlantının katkısı, Ezici'nin çökertici etkisini bedenin içinden ilerleyen ve gücü tüketen bir değişim olarak görünür kılmaktır. Süre ve tıbbî sıra burada bu benzetmenin sınırında kalır; 104:4'ün grameri onları ayrıca belirlemez.
+
+Son hareket, 104:1'deki davranış örüntüsünün yorgunluk ve keskinliğini yitirme yönünü Ezici'nin acımasız sürücü yüzüyle birleştirir. Sürücünün canlı bedenleri birbirine çarptırarak ve dinlenmeden ileri iterek gücü tüketmesi, 104:4'teki atılmayı bir defalık temastan çıkarıp zorla sürdürülen bir baskı gibi hissettirir. Bu bağlantının katkısı, kırmayı bedenî basınç ve tükenişe uzanan bir hareket olarak duyurmaktır; 104:1'den gelen sürü ve sürücü görüntüsü, Ezici'yi gerçek bir insan veya hayvan bakıcısı olarak tayin etmez. Kişi yine Ezici'ye atılan kişidir, fakat ulaştığı kuvvetin içinde durmaksızın ileri sürülen ve gücünü kaybeden bir bedenin yıpranması da duyulur.
+
+</editorial_prose>

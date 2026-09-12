@@ -1,0 +1,205 @@
+# V5 reading invitation — 110:1
+
+You are a fresh reading-invitation writer. Read the complete editorial prose
+before writing. It is your sole semantic source.
+
+Write two to four paragraphs of fluent, contemporary Turkish that reveal a
+surprising reading by following one or two main channels of resonance in the
+ayah. A channel is a connected background of meanings, images, actions, or
+relations through which the ayah can be heard and understood differently.
+Several editorial findings may together develop one channel. Summarize that
+connected movement and its consequence for the ayah's main meaning, rather
+than compressing findings individually. Give the reading's substance now;
+the invitation comes from understanding it, not from a promise of hidden depth.
+
+Before drafting, read the entire editorial prose and silently select the one
+or two channels with the strongest interpretive consequence and enough
+grounding to explain clearly. Favor channels that expand or shift what the
+ayah says, the relation it establishes, or what is at stake in its action or
+image. One fully developed channel is sufficient; add a second only when it
+offers a distinct consequential reading that can be explained within the
+invitation. No finding, channel, or major shift has an individual coverage
+claim. Unselected material may remain entirely in the full commentary.
+
+A channel may develop through grammar, sound, dialogue, a material process,
+time, imagery, or a conceptual relation. Resonance is not limited to acoustic
+effects, and an unusual image alone does not establish a channel. Use only
+connections the editorial prose actually develops. If it supplies no such
+channel, explain its strongest grounded reading without inventing connections
+or surprise.
+
+Begin inside the ayah's own words, images, actions, or relations and reveal a
+selected distinctive reading in the first paragraph. Keep the plain meaning
+reachable with only the orientation needed to understand the change. Do not
+spend an opening paragraph on routine explanation or front-load context about
+the surah, the ayah's position, or the commentary project.
+
+For each selected channel, begin with the expression that opens it, unfold the
+connected background, and show how the ayah reads or sounds against that
+background. Let a detail lead into the next through an intelligible relation
+or process, so the reader experiences the emerging reading. This is a movement
+of thought, not a mandatory sentence pattern or one paragraph per finding.
+Let the reader identify the expression being interpreted,
+where any nonordinary detail comes from, and what that detail changes in the
+reading. Briefly identify the word-family use, restricted form, collocation, or
+context that supplies an essential added detail, and preserve the concrete
+operation that makes the image work. Keep the ordinary reading and necessary
+qualification clear within this explanation; do not repeat them as a fixed
+formula. Preserve the particular object, process, or relation that makes this
+reading distinctive, and state its interpretive consequence for the ayah as a
+whole. Make intelligible what the familiar reading leaves less visible and
+what the expanded or shifted reading now lets the reader understand. Preserve
+the editorial's force: an exploratory possibility remains possible, while a
+developed shift must not be softened into a decorative association or a
+reassurance that everything means the same thing. A concrete
+account of how something is carried, transformed, lost, or restored must not
+shrink to a general statement about care, guidance, dependence, or goodness.
+Keep the details needed to make the selected channel work; omit side findings
+and shorten routine setup. If a channel cannot be explained faithfully from
+the editorial prose, choose another grounded channel or reading.
+
+When a non-focus ayah supplies a contribution used in the invitation, keep its
+reference from the editorial prose beside that contribution.
+
+Do not turn the invitation into a miniature inventory of the commentary's
+conclusions, or flatten distinct channels into a broad theme to include more
+material. Do not repair, extend, or supplement the editorial prose from memory
+or outside knowledge.
+
+Omit technical apparatus. Retain any qualification, source distinction, live
+alternative, or boundary whose absence would change the force or meaning of a
+chosen reading. Express it naturally beside the image or relation it qualifies.
+Favor positive explanations of the relation between layers: what remains in
+the foreground and what the resonance makes audible in the background. State
+how that background reinforces, expands, or shifts the understanding of the
+main meaning, with the source and degree of certainty clear. Reserve explicit
+exclusions for concrete ambiguities or live counter-evidence that need them.
+Repeated "this is not X" endings make a reading sound withdrawn; express the
+substantive qualification through what the reading does contribute wherever
+possible. Use varied, natural language rather than a repeated "second layer"
+formula, and preserve the force of expansions and shifts.
+Do not name branches, candidates, findings, scopes, evidence categories,
+ledgers, or workflow stages, or label the prose as numbered channels. Do not
+list findings serially.
+
+Use the established `{ar:..., tr:..., gloss:...}` syntax, consistent
+Turkish-readable transliteration, and short ordinary glosses. Keep Arabic
+anchors beside the explanations they ground. Within a paragraph, continue with
+the Turkish meaning where clear; provide the necessary local tag when a later
+paragraph interprets the carrier anew. Do not place Arabic script outside a
+valid tag.
+
+Build transitions within a channel through its shared object, action, or
+relation. If two channels are selected, they may occupy separate paragraphs;
+do not invent a link between them. Do not praise the commentary's quality,
+promise what the reader will find, manufacture suspense, recap at the end, or
+add a call to action. End on an image, relation, action, or tension already
+established by the selected reading.
+
+Before finishing, compare the invitation with the entire editorial prose:
+does the chosen channel reveal a consequential reading, or could the text have
+been written from the ordinary translation and a modest explanation alone?
+When the editorial supports a surprising channel, the latter fails this task.
+Can the reader follow the opening expression into a connected background and
+understand how that background expands or shifts the ayah's main meaning?
+Check the selected connections against their editorial explanation: can the
+reader tell where the nonordinary details come from, with the necessary
+qualifications intact? Repair generic explanation, isolated curiosities, or a
+compressed findings list by developing the selected channel. Do not add
+omitted channels merely for coverage. Do not output this check.
+
+Write only the invitation text to:
+
+`_commentary/v5/editorial/s110-regular-20260911/s110/110_1/110_1.invitation.tr.md`
+
+Do not add a heading, wrapper label, index, ledger, evidence file, or any other
+artifact. Do not modify the editorial prose.
+
+After writing the invitation, run:
+
+```bash
+python3 _commentary/v5/validate_prose.py _commentary/v5/editorial/s110-regular-20260911/s110/110_1/110_1.invitation.tr.md
+```
+
+If validation fails, repair only the reported mechanical file-contract issues
+and rerun it, for at most two repair cycles. Report the final validator result
+in your response.
+
+<editorial_prose>
+## Eşiğin Kuruluşu
+
+Bu âyet belirli bir şartı bildirir: {ar:إِذَا جَآءَ, tr:izâ câe, gloss:geldiğinde} Allah'ın yardımı ve zaferi geldiğinde, bunun ardından bir karşılık gelecektir. {ar:إِذَا, tr:izâ, gloss:ne zaman ki} burada kuşkulu bir ihtimali değil, gerçekleşmesi kesinleşmiş bir geleceği çerçeveler. Cümle bu yüzden sonucu hemen kapatmaz; şartı açar ve (110:3) içindeki tesbih, hamd ve istiğfarı bu gelişin karşılığı olarak hazırlayan bir eşik kurar. Okurun ilk anda tutacağı zemin açıktır: Allah'ın yardımı ve belirli açılış geldiğinde yeni bir cevap zamanı doğar.
+
+Bu eşiği kuran {ar:جَآءَ, tr:câe, gloss:geldi} fiili, yardım ile açılışı durağan adlar olarak bırakmaz; ikisini aynı şart içinde sahneye giren iki geliş olarak gösterir. Fiilin yalın birinci biçimi, bir nesnenin adsız bir fail tarafından getirilmesini değil, olayın kendi varışını öne çıkarır. Ortada nesne bulunmadığı için {ar:نَصْرُ ٱللَّهِ, tr:nasrullâh, gloss:Allah'ın yardımı} ile {ar:ٱلْفَتْحُ, tr:el-feth, gloss:açılış ve zafer} fiile bağlanan iki özne olarak belirir. Tekil eril biçim önce tekil yardımla buluşur, bağlaçtan sonra açılışa genişler; böylece sıra yardımı ve ona eşlik eden açılışı birlikte taşır. Mazi görünüşlü fiil de {ar:إِذَا, tr:izâ, gloss:ne zaman ki} altında geçmiş haberiyle sınırlanmaz: gelecekteki gelişi şimdiden tamamlanmış bir olayın kesinliğiyle sunar.
+
+Fiilin sesinde de bir eşik hissedilir. {ar:جَآءَ, tr:câe, gloss:geldi} içindeki uzun ünlü gelişi uzatır, son hemze hareketi durdurur; dinleyici varışın sınırına kadar gelir ve orada durur. Bu işitsel renk, söz diziminin varış anlamını aşmadan onu kulağa yerleştirir. Aynı {ar:إِذَا جَآءَ, tr:izâ câe, gloss:geldiğinde} kalıbının ölümün gelişi için kullanıldığı (23:99), kalıbın tek başına iyi bir sonuç tayin etmediğini gösterir. Burada kesinleşen şey geliş eşiğidir; iyi sonucun niteliği bu âyetin yardım ve zafer adlarından gelir.
+
+## Gelen İki Özne
+
+{ar:نَصْرُ, tr:nasr, gloss:yardım} üstün gelmeyi mümkün kılan ve bir mevziyi ayakta tutan destek ağırlığını öne çıkarır. Maṣdar oluşu, gelen şeyi bir yardımcı kişiye, kendini aklayan bir şahsa veya duaya cevap veren bir faile değil, bizzat yardımın kendisine dönüştürür. Yardımın haksızlığa uğrayana hakkını geri ulaştıran yönü ve yağmurla rahatlatan rengi bu kelimenin çevresinde duyulabilir. Cümledeki yerel görevi ise kaynağı belirlenmiş yardımın öznesi olmaktır. {ar:نَصْرُ ٱللَّهِ, tr:nasrullâh, gloss:Allah'ın yardımı} tamlaması önce bu kaynağa bağlı tek bir yardımı öne çıkarır; yardımın Allah'ın davasına yönelmiş destek olarak duyulabilen nüansı da bu kaynak ilişkisine eşlik eder.
+
+{ar:ٱللَّهِ, tr:Allâh, gloss:Allah'ın} tamlamanın genitif unsurudur ve yardımı genel bir destek olmaktan çıkarıp belirli bir ilahî kaynağa bağlar. İlâhî adın sıkıştırılmış yüzeyinde el- takısının, hemzenin düşmesinin ve lâmın benzeşmesinin geniş bir ifadeyi tek ve ses ağırlığı taşıyan özel ad içinde topladığı duyulur. Bu yoğunluk, adı açıklama yapan bir unvan gibi değil, yardımın derli toplu kaynağı olarak duyurur; adın çevresinde sığınma ve yüceltme yönleri de sezilebilir. Aktarımda görülen başka bir bağlanış, ilahî adın açılışa bağlanabileceği bir dağılımı canlı tutar. Standart okumada ise genitif ilişki {ar:نَصْرُ ٱللَّهِ, tr:nasrullâh, gloss:Allah'ın yardımı} tamlamasında tamamlanır ve {ar:ٱلْفَتْحُ, tr:el-feth, gloss:açılış ve zafer} bağımsız ikinci özne olarak yerini korur.
+
+{ar:وَ, tr:ve, gloss:ve} bu iki özneyi aynı varış fiili altında tutar. Tamlamanın kapanışından sonra gelmesi, kaynağa bağlı yardım ile bağımsız belirli açılış arasında bir dönemeç kurar: ilk söz birimi tamamlanır, ikinci özne aynı cümlede açılır. Okuyuşta bağlaç, hemzetü'l-vasl ile başlayan {ar:ٱلْفَتْحُ, tr:el-feth, gloss:açılış ve zafer} kelimesine sesçe yaklaşır; kulak iki gelişin ortaklığını alırken iki adın ayrı anlamlarını da korur.
+
+{ar:ٱلْفَتْحُ, tr:el-feth, gloss:açılış ve zafer} açma, engeli kaldırma, erişim sağlama ve kapalı olanı açıklığa çıkarma renklerini taşır. Belirli artikel, herhangi bir açılışı değil, yardımın yanında duran tanınabilir bir açılış ve zaferi gösterir. Kelimenin özne olarak gelmesi de sahneyi belirler: açılış birinin sessizce gerçekleştirdiği veya talep ettiği nesne değil, yardım ile birlikte gelen ikinci geliştir. Nominatif halde {ar:جَآءَ, tr:câe, gloss:geldi} fiiline bağlanan son ad, cümleyi kapatan bu ikinci varış olur. Son boğaz sesi ve -u bitişi, {ar:نَصْرُ, tr:nasr, gloss:yardım} kelimesinin nominatif ritmini yineler; ses iki özneyi eşlerken söz dizimindeki ayrımı korur.
+
+Bu belirli açılış, fetih ve zaferin yanında kapalı bir uyuşmazlığın açıklığa kavuşmasını, bir hükmün sonuçlanmasını ve anahtarın kapalı olana erişmesini de düşündürebilir. Sağlanan kullanımlar açılışı bilinen bir geliş gibi duyurur, fakat onu tek bir dış olaya kapatmaz. Kelime aynı zamanda bir bütünün sonrasını başlatan ilk eylem veya ilk bölüm olarak işitilebilir. Böylece âyetin sonuna yerleşen açılış, şartı tamamlayan bir eşik olur ve (110:3) içindeki tesbih ile bağışlanma isteminin zamanını hazırlar.
+
+Yardım ile açılışın aynı varış fiilinde buluşması, yerel bir hareketi görünür kılar: kaynak-bağlı yardım eşikte belirir ve kapalı alanı geçilebilir bir açıklığa dönüştürür. {ar:جَآءَ, tr:câe, gloss:geldi} varış eşiğini, {ar:نَصْرُ, tr:nasr, gloss:yardım} etkin desteği, {ar:ٱللَّهِ, tr:Allâh, gloss:Allah'ın} kaynağı ve {ar:ٱلْفَتْحُ, tr:el-feth, gloss:açılış ve zafer} açılan alanı aynı sahnede birbirine değdirir. Yardım açılığın gerçekleşmesini mümkün kılan güç, açılış da yardımın erişilebilir bir sonuç kazandığı alan gibi duyulur. Bu yerel resim, olağan ilahî yardım ve zaferin içindeki yardımın eşiğe ulaşıp açıklık üretmesini görünür kılar; su ve belirli tarihsel olay ayrıntıları bu bağlantının kapsamına girmez.
+
+Aynı iki isim adalet yönünde başka bir yerel görüntü kurabilir. {ar:نَصْرُ, tr:nasr, gloss:yardım} haksızlığa uğrayanın hakkının geri gelmesini, {ar:ٱلْفَتْحُ, tr:el-feth, gloss:açılış ve zafer} ise kapalı bir uyuşmazlığın hükümle sonuçlanmasını duyurabilir. {ar:ٱللَّهِ, tr:Allâh, gloss:Allah'ın} adı bu karşılığın otoritesini tarafların üstünde tutan kaynak olur. Destek böylece üstünlüğü sağlayan güç olmanın yanında zararın ardından hakkı yerine getiren bir iyileşme, açılış da geçit olmanın yanında kapanmış bir meselenin karar bulması gibi görünür. Bu adalet yönü, yardım ve zaferin olağan anlamını adaletle genişletir; kaynaklardaki temas belirli bir tarihsel olayı seçmez ve her yardım ya da açılış kullanımının mahkeme olarak okunmasını gerektirmez.
+
+{ar:نَصْرُ, tr:nasr, gloss:yardım} iyilik veya armağan ulaştırma yönüyle duyulduğunda, {ar:ٱلْفَتْحُ, tr:el-feth, gloss:açılış ve zafer} kelimesinin güçlüğü giderip erişim sağlayan yönüyle buluşur. Dışarıdan gelen iyi şey içteki kapanmayı rahatlatarak bilgiye, yönelişe veya imkâna yer açar; böylece yardım alınmış bir iyilik, açılış da o iyiliğin mümkün kıldığı erişim gibi görünür. Âyetin açık vaadi bu temas içinde de Allah'ın yardımı ve zaferin gelişidir.
+
+Daha maddi bir benzetmede yardımın yağmur ve uzak bir su yatağı, açılışın da kaynaktan çıkan su yönleri birbirine yaklaşır. {ar:جَآءَ, tr:câe, gloss:geldi} başka bir yerden su toplanma yerine ulaşan hareket gibi, {ar:نَصْرُ, tr:nasr, gloss:yağmurla rahatlatan yardım} toprağı ferahlatan yağmur ve bir noktaya ulaşan dere kolu gibi, {ar:ٱلْفَتْحُ, tr:el-feth, gloss:kaynaktan çıkan açılış} da toplanmış imkânın bir çıkıştan akması gibi hissedilebilir. Bu su akışı zaferin ferahlığını somutlaştıran bir benzetmedir; benzetmenin kapsamı rahatlatan akıştır ve ayrıntılı bir su düzeni ya da meteoroloji sahnesi kurmaz.
+
+## Görünürlükten İçeriye
+
+İlk âyetteki eşik, (110:2) ile toplumsal bir belirtiye dönüşür. {ar:وَرَأَيْتَ ٱلنَّاسَ يَدْخُلُونَ, tr:ve raeyte'n-nâse yedhulûne, gloss:insanları girerken gördüğünde} ifadesi gelişi insanların oluşturduğu görünür hareket içinde okunabilir kılar. {ar:رَأَيْتَ, tr:raeyte, gloss:gördün} ortaya çıkmış etkinin doğrudan fark edilmesini, {ar:ٱلنَّاسَ, tr:en-nâse, gloss:insanları} arka plandaki kalabalıktan olayın belirtisine dönüşen topluluğu, {ar:أَفْوَاجًا, tr:efvâcen, gloss:bölük bölük} ise tek geçiş yerine tekrarlanan toplu hareketi gösterir. Böylece (110:1) içindeki tekil {ar:جَآءَ, tr:câe, gloss:geldi} ile bildirilen geliş, (110:2) içindeki ardışık insan gruplarında görünür bir biçim kazanır.
+
+Bu görünür biçim, (110:2) içindeki {ar:يَدْخُلُونَ فِى دِينِ ٱللَّهِ, tr:yedhulûne fî dîni'llâh, gloss:Allah'ın dinine girerler} ifadesiyle geçişe dönüşür. {ar:ٱلْفَتْحُ, tr:el-feth, gloss:geniş açıklık} kapalı olanın engelini kaldırır, {ar:يَدْخُلُونَ, tr:yedhulûne, gloss:girerler} bu açıklıktan içeri geçişi, {ar:دِينِ, tr:dîn, gloss:itaat ve bağlılık alanı} ise girilen yeri ortak itaat ve yönelişin alanı olarak açar. {ar:أَفْوَاجًا, tr:efvâcen, gloss:bölükler halinde} bu alanın tek kişilik değil, toplulukların geçebileceği genişlikte olduğunu belirginleştirir. Zafer, böylece kapalı bir alanın ele geçirilmesiyle birlikte daha önce uzak duran insanların ortak bir bağlılık alanına erişebilmesini de görünür kılar; üstünlük anlamı bu geçirgenlik içinde yerinde kalır.
+
+Bu sahne, (110:2) içindeki görünür toplu giriş ile içerideki yöneliş arasındaki açıklığı da görünür kılar. {ar:ٱلْفَتْحُ, tr:el-feth, gloss:güçlüğü gideren açılış} zor bir durumu çözerek erişim sağlama ve anlaşılması güç olanı açıklığa kavuşturma yönüyle, (110:2) içindeki içeriye girişle temas kurar. {ar:رَأَيْتَ, tr:raeyte, gloss:gördün} insanların önünde kendini gösterme ihtimalini açar; {ar:يَدْخُلُونَ, tr:yedhulûne, gloss:içeri girerler} dışarıdan görülen geçiş ile içerideki yönelişi ayıran bir iç ve sır boyutu taşıyabilir. Aynı giriş, içeriye karışan gizli bir bozulma veya yabancı unsur ihtimalini canlı tutar. Buna karşılık {ar:دِينِ, tr:dîn, gloss:inanarak emanet etme ve itaat} için açılan yön, görünür geçişin içten benimsenmiş bir bağlılığa dönüşmesini düşündürür. (110:2) hareketi gösterir; o hareketin her kişi için taşıdığı iç anlam aynı açıklıkta tayin edilmez.
+
+Toplumsal geçişin (110:2) katkısı, yardımın kaynağından kopmadan bir varışa yönelmesini görünür kılmasıdır. {ar:نَصْرُ, tr:nasr, gloss:armağan veya yarar ulaştıran yardım} verilmiş bir iyiliğin hareketini taşır; hemen yanındaki {ar:ٱللَّهِ, tr:Allâh, gloss:Allah'ın} bu yardımın kaynağını adlandırır. Aynı âyetteki {ar:دِينِ ٱللَّهِ, tr:dîni'llâh, gloss:Allah'a ait itaat alanı}, girişin yöneldiği varlığı aynı adla yeniden kurar. Yardım insanlara ulaştığında da sahip olunan bir sermaye gibi değil, yönünü koruyan ve kaynağına dönen bir bağış gibi görünür. Başarı böylece kaynağına yönelişi sürdüren alınmış bir iyilik olarak okunur; standart tamlama ile alternatif bağlanış ihtimali birlikte canlı kalır.
+
+Açılışın toplumsal görüntüsü, hükmün insanlar içinde yaşanabilir ve sorumluluk taşıyan bir biçim kazanmasını gösterir. {ar:نَصْرُ, tr:nasr, gloss:zulme karşı hakkı geri alan yardım} haksızlıktan sonra karşılığı getirir; {ar:ٱلْفَتْحُ, tr:el-feth, gloss:uyuşmazlığı çözüme bağlayan açılış} kapalı noktayı karara bağlar. {ar:يَدْخُلُونَ, tr:yedhulûne, gloss:bir iç düzene girerler} bu çözülmüş düzeni içinde yaşanabilir bir alana taşır, {ar:دِينِ, tr:dîn, gloss:hesap ve karşılık düzeni} onu cevap verme ve hesap verme ilişkileri olan bir alan olarak derinleştirir, {ar:أَفْوَاجًا, tr:efvâcen, gloss:topluluklar} da karara sosyal bir biçim kazandırır. (110:2) içindeki girişten şehir gibi yerleşilebilir bir düzen sezilir; burada doğrudan bir şehir adı kurulmaz. Görünen şey, hükmün insanların yaşadığı ve sorumluluk taşıdığı sosyal biçimidir.
+
+Tekil gelişin topluluklarda tekrarlanması da (110:2) içindeki bu görünür hareketten doğar. {ar:جَآءَ, tr:câe, gloss:tekil geliş} bir olayın tek bir varışını, {ar:أَفْوَاجًا, tr:efvâcen, gloss:gruplar halinde} ise onun peş peşe gelen topluluklarda dalga dalga görünmesini taşır. Sonraki çoğul hareket, (110:1) içindeki gelişi yeni bir olay gibi eklemekten çok onun dağıtılmış görünümünü verir. Bu görüntü grupların aynı iradeyi veya tek bir iç durumu paylaştığını söylemez; tekil gelişin toplumsal tekrarını görünür kılar.
+
+## Açılıştan Sonraki Karşılık
+
+Bu görünür geçişin ardından (110:3), açılışın hangi harekete dönüştüğünü gösterir: zaferin sonucu ibadet ve oluşumun ilk adımına açılır. {ar:ٱلْفَتْحُ, tr:el-feth, gloss:sonrasını başlatan açılış} bir bütünün ilk eylemi gibi duyulur; {ar:فَسَبِّحْ, tr:fesebbih, gloss:öyleyse yücelt} bu başlangıcın açtığı ilk disiplini bildirir. {ar:بِحَمْدِ, tr:bi-hamd, gloss:övülmeye değer sonuca yönelen hamd} açılışı elde edilmiş sonuçla bırakmayıp övgüyü sonucu veren iyiliğe yöneltir. {ar:رَبِّكَ, tr:rabbike, gloss:besleyen ve tamamlayan Rabbin} yetiştirme, onarma ve tamamlama işini açılan sürecin içine taşır. Bu adın beslenme ve büyüme yönü, oluşumun tek anda bitmediğini, gelişerek ilerlediğini sezdirir. Feth, ibadet, hamd, yetiştirme ve büyümenin süreceği bir sonrayı başlatır.
+
+Bu görünür başarının katkısı, sonucun insana aitmiş gibi büyütülmesi ihtimalini açığa çıkarmasıdır. {ar:ٱللَّهِ, tr:Allâh, gloss:Allah'ın} adı başarı için doğru yönü sabitler; {ar:ٱلْفَتْحُ, tr:el-feth, gloss:üstünlüğü dışa vuran açılış} elde edilen üstünlüğü başkalarından yüksek görünmek için sergileme gölgesini açabilir. (110:2) içindeki {ar:رَأَيْتَ, tr:raeyte, gloss:gördün} kamusal görünme sahnesini taşırken, (110:3) içindeki {ar:فَسَبِّحْ, tr:fesebbih, gloss:yüceltip kusurdan arındır} bu görünür sonucu insanın kendini büyütmesinden uzaklaştırır. {ar:بِحَمْدِ, tr:bi-hamd, gloss:iyilik vererek övgü kazandıran hamd} övgüyü nimeti veren kaynağa döndürür; {ar:وَٱسْتَغْفِرْهُ, tr:vestagfirhu, gloss:bağışlanma ve korunma iste} başarıyla ortaya çıkabilecek isnat kusurunu örten bir karşılık olur. Görünür sonuç böylece kaynağına hamd ve bağışlanma yoluyla yeniden yönelir.
+
+Açıklığın katkısı, (110:2) içindeki giriş ile (110:3) içindeki bağışlanma talebi arasında korunması gereken geçirgenliği görünür kılmasıdır. {ar:ٱلْفَتْحُ, tr:el-feth, gloss:geniş ve açık geçit} gerçek girişe izin verirken içeri taşınabilecek zararlara da açık olabilir. {ar:يَدْخُلُونَ, tr:yedhulûne, gloss:gizli bozulma veya gruba karışan unsurun girişi} bu riskin içteki biçimini, {ar:وَٱسْتَغْفِرْهُ, tr:vestagfirhu, gloss:örten ve koruyan bağışlanma} ise açıklığı yönetilebilir kılan koruyucu karşılığı taşır. Koruma, açılmayı geri alan bir kapanma değil, açılmış sınırın sonuçlarına dikkat eden ikinci bir eylemdir. Bu bağlantı, (110:2) girişinden (110:3) içindeki örtme ve koruma istemine uzanan bu ardışık sahnede kalır.
+
+Eşik olayı tek bir anda yaşanırken (110:3) içindeki süreklilik çerçevesine de yerleşir. {ar:جَآءَ, tr:câe, gloss:bir eşikte gerçekleşen varış} bir kere gelen olayı, {ar:ٱلْفَتْحُ, tr:el-feth, gloss:ilerisini başlatan açılış} onun ileriye dönük ilk aşamasını taşır. {ar:رَبِّكَ, tr:rabbike, gloss:kalıcı olarak besleyen Rabbin} yerleşme ve devamlılığı, {ar:كَانَ, tr:kâne, gloss:zaman içinde varlığını sürdüren} zaman içindeki sürmeyi, {ar:تَوَّابًا, tr:tevvâben, gloss:geri dönüşü canlı tutan} ise açılıştan sonra yeniden yönelmeyi duyurur. Böylece açılış belirleyici bir eşik olarak kalırken, olay devam ve dönüşün sürdüğü bir zaman içinde okunur.
+
+Bu ardışık geliş, yardımın ve açılışın toplumsal büyümeye nasıl dağıldığını gösteren bir su sahnesi gibi okunabilir. Yerel iki kelimenin su yankısından farklı olarak (110:2) içindeki {ar:أَفْوَاجًا, tr:efvâcen, gloss:gruplar ve geniş geçit} farklı kolların geniş bir geçitten ilerlemesini, (110:3) içindeki {ar:فَسَبِّحْ, tr:fesebbih, gloss:akıp ilerleyen hareket} yığılma yerine akışı, {ar:رَبِّكَ, tr:rabbike, gloss:yağmur taşıyan ve büyüten Rabbin} de yukarıdan gelen besleyici girdiyi ve aşağıdaki büyümeyi düşündürür. Gruplar burada suyun kendisi değil, dağılımın toplumsal kollarıdır. Böylece açılış, ilahî yardımı sosyal büyümeye ulaştıran, kolları ve çıkışı olan hayat verici bir kanal gibi sezilir. Bu, (110:2) içindeki toplu giriş ile (110:3) içindeki Rabbe yönelişi birleştiren, olağan anlamı koruyan bir benzetmedir.
+
+Görülen başarı (110:2) içindeki doğrudan tanıklıkla sınırlı kalmayıp aktarılabilir bir anlatıya da dönüşebilir. {ar:جَآءَ, tr:câe, gloss:sonradan aktarılabilecek varış} olayın taşıdığı içeriği, {ar:نَصْرُ, tr:nasr, gloss:üstünlüğe ulaştıran yardım} kamusal hafızaya girecek başarıyı sağlar. {ar:رَأَيْتَ, tr:raeyte, gloss:gördün} yüzeyinin daha uzak kullanımı, görülen olayın başkalarına taşınan bir haber veya şiir anlatısı haline gelmesine izin verir. Bu çizgi (110:2) içindeki doğrudan görme anlamını korurken, görmenin olaydan anlatıya uzanabileceği ek alanı açar. Görülen sonuç tanıklardan daha geniş bir hafızaya yayılabilir; grupların aynı iradeye veya aynı iç duruma sahip olduğu sonucu buradan çıkmaz.
+
+Açıklık (110:3) içindeki bağışlanma isteminin ışığında birikmiş bir yaranın boşalması olarak da düşünülebilir. {ar:جَآءَ, tr:câe, gloss:birikmiş maddenin eşiğe gelişi} kelimesinin yarada toplanan şeyi taşıyan yönü, {ar:نَصْرُ, tr:nasr, gloss:zulümden sonra hakkı geri alan yardım} ile toplumsal yaraya, {ar:ٱلْفَتْحُ, tr:el-feth, gloss:kapalı olanı açıp erişim sağlayan açılış} ile içeride tutulmuş olanın dışarı çıkmasına bağlanır. Böylece birikmiş zararın karşılığını alan bir açılma ve rahatlama sahnesi belirir. {ar:وَٱسْتَغْفِرْهُ, tr:vestagfirhu, gloss:yeniden açılmaya karşı örten ve koruyan} rahatlamadan sonra yaranın yeniden açılabileceğini ve bakımın sürdüğünü düşündürür. Bu tıbbi görüntü, olağan yardım ve zaferin içindeki açılma ile sonrasındaki korunma arasındaki açıklayıcı benzetme olarak kalır.
+
+Eşik (110:3) içindeki geri dönüşle birlikte bir kesme ve yön değiştirme gölgesi de taşır. {ar:جَآءَ, tr:câe, gloss:eşiğe ulaşan varış} ile {ar:ٱلْفَتْحُ, tr:el-feth, gloss:yeni süreci başlatan açılış} önceki düzen ile sonraki yöneliş arasında bir dönüş noktası kurar. {ar:تَوَّابًا, tr:tevvâben, gloss:geri dönüşü çağıran} yüz, açılıştan sonra yeniden yönelmeyi taşıdığı için bu dönüşü belirginleştirir. Buradaki kesme, açılış kelimesinin doğrudan sözlük anlamı olarak değil, zaferin gelişi ve açılış içinde eşiğin başka bir yöne geçiş imkânı olarak kalır.
+
+## Uzak Temasların Bıraktığı Renkler
+
+Yardımın hakkı geri alan yönü, (22:60) içinde haksızlığa uğrayana Allah'ın yardım edilmesiyle bağımsız bir dayanak bulur. Açılışın hüküm yönü (34:26) içinde taraflar arasında hak ile açılan kararda, (40:78) içinde hak ile verilen kararda yeniden görünür. Bu temaslar, zaferin içinde hakkın teslim edilmesini ve kapalı bir uyuşmazlığın karar bulmasını duyurur. Bu adalet çizgisi (110:3) içindeki bağışlanma, istiğfar ve dönüş yönüyle buluştuğunda lehine açılmış sonuç kişisel serbestlikte durmaz; kazananı da kendi payını gözden geçirmeye çağıran ahlaki bir karşılık başlatır. Yardım hem hakkı yerine koyan hüküm hem de dönüş gerektiren bir emanet gibi kalır. Bu kaynakların taşıdığı adalet teması belirli bir tarihsel olayı seçmez; yardım ile açılışın başka kullanımlarını da mahkeme anlamına kapatmadan burada sınırlandırır.
+
+{ar:ٱلْفَتْحُ, tr:el-feth, gloss:açılış ve zafer} kelimesinin başlangıç yönü, (57:10) içinde feth öncesi ve sonrası davranışların ayrılmasıyla daha görünür olur. (110:3) içindeki hamd ve istiğfar, açılıştan sonra başlayan ilk karşılığı gösterir. Aynı kaynaklı yardımın {ar:نَصْرُ, tr:nasr, gloss:iyilik veya alınmış armağan} olarak duyulması, hamdin nereye döneceğini açıklar; (3:126) içinde yardımın Allah katından geldiği açıkça söylendiğinde başarı, sahibinin mülkü değil kaynağına hamdi yönelten bir iyilik gibi görünür. İnsan emeği ve tarihsel olayın biçimi bu katmanda yerini korur; değişen, yardımın sahipliğinin kaynağından koparılmamasıdır. Başlangıç yönü de zaferin olağan veya fiziksel anlamı içinde duyulur.
+
+Bu açılışın geçişe dönüşen yüzü, {ar:جَآءَ, tr:câe, gloss:geliş} kelimesinin gelme, varma ve bir şeyi getirip sunma yönlerinin birlikte duyulmasıyla belirir. (110:2) içindeki insanların fiilen içeri girmesi kapalı eşiğe ulaşan hareketi, (61:13) içinde yardım ile açılışın birlikte anılması ortak yönü, (2:214) içinde ağır sarsıntıdan sonra yardımın yakınlaştırılması ise sonradan erişen destek yönünü açar. (48:1) içinde açıkça adlandırılan feth ve (48:27) içinde açılışa yakın güvenli giriş, {ar:ٱلْفَتْحُ, tr:el-feth, gloss:kapalıyı açan açıklık} kelimesini kullanılabilir bir geçit ve kapalı olana erişim sağlayan anahtar gibi duyurur. Aynı {ar:إِذَا جَآءَ, tr:izâ câe, gloss:geldiğinde} kalıbının ölümün gelişi için kullanıldığı (23:99), kalıbın iyi sonucu kendi başına tayin etmediğini hatırlatır. Bu temasların taşıdığı ilişki yardım, açılış ve geçiş arasındaki ortak yöndür; yardımın açılışı zorunlu olarak öncelediği bir sıra kurmaz.
+
+Yardım ve açılışın su gibi yayılan rahatlama olarak duyulması daha ihtiyatlı, benzetmeli bir çizgidir. {ar:جَآءَ, tr:câe, gloss:su toplanma yerine varan geliş} bir havzaya ulaşan hareketi, {ar:نَصْرُ, tr:nasr, gloss:yağmurla ferahlatan yardım} toprağı sulayan yağmuru ve uzaktan gelip su toplama yerine ulaşan yatağı, {ar:ٱلْفَتْحُ, tr:el-feth, gloss:kaynaktan çıkıp akan su} da açılmış bir çıkıştan serbestçe akan suyu düşündürür. (54:11) içinde gök kapılarının yoğun suyla açılması bu üç ayrıntıya bağımsız bir temas verir. (11:40) içindeki emrin ardından gelen sel yalnız uzak bir su olayı paralelidir; o sahnenin başka ayrıntıları bu yerel su görüntüsüne taşınmaz. (110:2) içindeki gruplu girişle birleştiğinde yardım, açılıp ulaşan ve dağılan bir ferahlama gibi görünür; gök, bulut ve grup imgeleri burada benzetmenin taşıdığı hareketi açıklar.
+
+{ar:ٱللَّهِ, tr:Allâh, gloss:Allah'ın} adı yardımın kaynağını ve (110:3) içindeki sonraki ibadet yönelişinin sabit yönünü birlikte taşır. Tesbih, hamd, istiğfar ve dönüş bu adı yalnız olayın kaynağı değil, başarıdan sonra yeniden yönelinen kaynak olarak da görünür kılar. {ar:ٱلْفَتْحُ, tr:el-feth, gloss:sonrasını başlatan açılış} kelimesinin ilk yüceltme sözüne uzanan başlangıç yönü duyulduğunda cümle bir başarı haberinden ibadet çağrısına doğru açılır. Buradaki dilbilgisi ilahî adı yardımın kaynağı olarak gösterir; âyetin yüzeyine doğrudan seslenme veya ant kalıbı eklenmez.
+
+Sonraki iki sahne (110:2, 110:3) ilk âyeti geriye dönük olarak yeniden aydınlatır. (110:2) içindeki insanların gerçekten içeri girmesi {ar:ٱلْفَتْحُ, tr:el-feth, gloss:erişim sağlayan açılış} sözünü geçilebilir bir eşik yapar; (110:3) içindeki hamd, istiğfar ve dönüş aynı açılışı hüküm sonrası sorumluluğu olan bir sonuç, {ar:نَصْرُ, tr:nasr, gloss:alınmış armağan} sözünü de kaynağına dönen bir iyilik olarak gösterir. (34:26) içindeki hak ile açılma hüküm yönünü, (54:11) içindeki suyla açılan gök kapıları akıp dağılan rahatlama yönünü, (48:1) içindeki açıkça adlandırılmış feth de eşiğin açıklığını ayrıca destekler. Böylece geliş ve açılış sonraki girişte geçilebilir bir eşik, sonraki karşılıkta sorumluluk taşıyan ve su benzetmesinde salıverilen bir olay olarak birlikte görünür. Bu geriye dönük okuma tarihsel bir sonucu belirlemek yerine, su çizgisini benzetme ve geliş eşleşmelerini açık uçlu bir hareket olarak korur.
+
+Son bir uzak temas, {ar:ٱلْفَتْحُ, tr:el-feth, gloss:açılma} kelimesini Allah'ın açtığı rahmetin tutulamaz akışıyla buluşturur. Bu temasın katkısı, (35:2) içinde rahmet açıldığında onu tutacak kimsenin bulunmamasıyla, açılışı kaynaktan gelen ve insan tarafından kapatılamayan bir salıverilme yönünde duyurmaktır. Böylece açılışın erişim anlamı korunurken ikinci bir açıklık deneyimi belirir. (35:2)'nin bütün dilbilgisi ve ayrıntıları bu bağlantının kapsamı dışındadır; ilişki, kaynaktan açılan ve tutulamayan bir rahmet akışı olarak ihtimalli bir benzetme sınırında kalır.
+
+</editorial_prose>

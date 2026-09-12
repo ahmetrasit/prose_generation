@@ -1,0 +1,827 @@
+{
+  "schema_version": "commentary-v5-scope-discovery-v1",
+  "ayah_ref": "106:4",
+  "lane": "global",
+  "coverage_complete": true,
+  "candidate_decisions": [
+    {
+      "candidate_id": "cand_3a1bd435d18bb5d26144",
+      "decision": "accept",
+      "reason": "Güvenilir yayın kaydı hem topluluk ölçeğindeki kıtlık dönemi dalını hem de geçim ve tahsis edilmiş gelir dalını destekliyor; odaktaki besleme taşıyıcısı ile bağımsız kıtlık/geçim bağlantıları, tek öğünün ötesine geçen maddi bir değişim kuruyor.",
+      "finding_refs": ["global:provisioned-livelihood"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_87427e5dc12bc8d3e18d",
+      "decision": "reject",
+      "reason": "Ek dalın tutması dalı, eklenmiş bir dalın başka dala kaynaması veya gözde yabancı cismin tutulmasıyla sınırlı. Odaktaki IV. bâb besleme biçimi ve yolculuk bağlamı bu kollokasyon için taşıyıcı ya da bağımsız bir aşı tetikleyicisi sağlamıyor; yayın kaydı da bu okumayı reddedilmiş olarak işaretliyor.",
+      "finding_refs": [],
+      "branch_exclusions": [
+        {
+          "branch_ref": "root_000934/B010",
+          "reason": "Odak biçimi ve supplied route evidence aşı dalının tutması için gerekli eklenmiş dal taşıyıcısını sağlamıyor."
+        }
+      ],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_48c7745537babbf226bc",
+      "decision": "accept",
+      "reason": "Odaktaki besleme taşıyıcısı, supplied seasonal context ve su/ürün bağlantıları, meyvenin olgunlaşıp yenilebilir tat kazanması üzerinden süreçsel besleme okumasını maddi biçimde değiştiriyor.",
+      "finding_refs": ["global:ecological-maturation"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_94f678bc016fb8e5a467",
+      "decision": "accept",
+      "reason": "Güvenilir yayın ve güvenli giriş ile emanet/güven ilişkisini gösteren bağımsız bağlantılar, odak güvenlik taşıyıcısını tekrarlanan hareket için güvenli geçiş ve güvenilir ilişkilere döndürüyor.",
+      "finding_refs": ["global:protected-circulation"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_478daf53d2a85db0d0c3",
+      "decision": "accept",
+      "reason": "Güvenilir aday kaydı, korku-açlık eşleşmesi ve mal, can ve ürünlerdeki açık eksilme bağlantısıyla destekleniyor; korkunun eksilme ve dışa vurma dalları anlamlı bir okuyucu payı üretiyor.",
+      "finding_refs": ["global:visible-depletion"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_f2a3e9bd910a4b60b59d",
+      "decision": "accept",
+      "reason": "Yayın kaydı reddedilmiş bir karşı-kayıt olarak tutuluyor; bu etiket otomatik filtre değil. Okur aktivasyonu ve korkudan güvenliğe geçişi ibadetle birlikte veren bağımsız bağlantı, güvenliğin doğrulama ve kabule alan açması şeklindeki sınırlı ilişkiyi destekliyor.",
+      "finding_refs": ["global:assent-after-security"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_2e0fc4235a2fa90ac4d3",
+      "decision": "represented",
+      "reason": "Beslemenin boş mideyi gidermenin ötesinde geçim ve süreklilik kazanması, global:provisioned-livelihood bulgusundaki aynı besleme taşıyıcısı ve aynı okuyucu değişimiyle tam olarak karşılanıyor.",
+      "finding_refs": ["global:provisioned-livelihood"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_992008860665091f0601",
+      "decision": "represented",
+      "reason": "Yol güvenliği ve güvenli geçiş okuması global:protected-circulation bulgusunda aynı odak güvenlik dalı, yol bağlamı ve okuyucu değişimiyle korunuyor; çözümlenmemiş shelter citation ayrı bir dal olarak yükseltilmiyor.",
+      "finding_refs": ["global:protected-circulation"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_39f4b9773e757e9d8033",
+      "decision": "accept",
+      "reason": "Okur yürüyüşü açlık taşıyıcısını mevsimsel su, ekim ve ürün bağlantılarıyla topluluk ölçeğindeki kırılganlığa bağlıyor; bu, genel geçim bulgusundan ayrı bir ekolojik mekanizma ve okuyucu payı sağlıyor.",
+      "finding_refs": ["global:seasonal-famine"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_03b6c26bf39dbd37726b",
+      "decision": "represented",
+      "reason": "Güvenlikten güvenen kabule geçiş, global:assent-after-security bulgusunda aynı odak dalı, ibadet bağlantısı ve sınırlı okuyucu değişimiyle tam olarak taşınıyor; çözümlenmemiş adlandırma citation ayrı bir dal olarak kullanılmıyor.",
+      "finding_refs": ["global:assent-after-security"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_11add7e733592f53c608",
+      "decision": "accept",
+      "reason": "Açlık ve korkunun aynı cümlede iki eksilme olarak buluşması, supplied communal-loss connection ile hem yapı-bağımlı boşluk hem de bir şeyden alarak azaltma dallarını gerçek bir ilişkide birleştiriyor.",
+      "finding_refs": ["global:paired-depletion"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_a51bb7212c6ba1871290",
+      "decision": "accept",
+      "reason": "Retrospective walk, önceki yolculuk ve Ev/Rab düzeninin son iki fiile geriye dönerek bağlandığını ve besleme ile güvenliği yalıtılmış faydalar olmaktan çıkardığını bildiriyor; ileri yönde sonraki ayet iddiası yapılmıyor.",
+      "finding_refs": ["global:retrospective-closure"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_25f48b57a4f7488bcebb",
+      "decision": "accept",
+      "reason": "Aynı fiil + nesne + min düzeninin iki kez kurulması, açlık ve beklenen zarardan birlikte çıkışı doğrudan odak yüzeyinde gösteriyor; bu, diğer bulgulara indirgenemeyen yapısal bir okuyucu değişimi.",
+      "finding_refs": ["global:coordinated-release"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_e57b17ce63d2fb27fd50",
+      "decision": "narrow",
+      "reason": "Geçim çekirdeği, yolculuk ve rızık bağlantısıyla sınırlandırılmış biçimde korunuyor. Ek dalın tutması branchı için odak biçimi ve route evidence gerekli aşılama taşıyıcısını vermiyor; unresolved attachment citation da ayrı bir branch olarak yükseltilmiyor.",
+      "finding_refs": ["global:travel-assembled-livelihood"],
+      "branch_exclusions": [
+        {
+          "branch_ref": "root_000934/B010",
+          "reason": "Aşı dalının ana dala tutması için gereken eklenmiş dal ve tutunma kollokasyonu supplied focus/context evidence içinde yok."
+        }
+      ],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_2822a64cbd82be5eec02",
+      "decision": "represented",
+      "reason": "Ekolojik olgunlaşma okuması global:ecological-maturation bulgusunda hem odak olgunlaşma dalı hem de supplied winter-rain source image ile landed durumda; iki destek aynı mevsimsel süreçsel değişimi kuruyor.",
+      "finding_refs": ["global:ecological-maturation"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_16ace349e8bc942fc906",
+      "decision": "represented",
+      "reason": "Güvenli geçiş ve güvenilir ilişkiler, global:protected-circulation bulgusunda güvenlik ve korku dallarıyla birlikte korunuyor; çözümlenmemiş attachment citation branch activationa dönüştürülmüyor.",
+      "finding_refs": ["global:protected-circulation"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_878497d17e3f3ec9d010",
+      "decision": "accept",
+      "reason": "Korku taşıyıcısı, açlık ve kayıp bağlantısıyla birlikte kötü sonucu bekleme anlamını, kapasiteyi ve geçimi aşındırabilecek bir tehdit çerçevesine taşıyor. Bu, candidate tarafından supplied B001 dalını koruyan sınırlı bir okuma; ayrı eksiltme dalı onun yerine geçirilmiyor.",
+      "finding_refs": ["global:erosive-fear"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_375697f81f00967dcff7",
+      "decision": "represented",
+      "reason": "Sonraki ayet bulunmaması ve eldeki aktivasyonların önceki devre ile odak paralelliğinden gelmesi, global:retrospective-closure bulgusundaki aynı retrospektif sınır ve kapanış ilişkisiyle tam olarak karşılanıyor.",
+      "finding_refs": ["global:retrospective-closure"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_3d01603451995c929228",
+      "decision": "reject",
+      "reason": "HFT kaydı görünür olsa da anchor_evidence boş; supplied context ayahı, word indexi, root, attributed role ve focus return bulunmadığından carrier/trigger activation testini geçemiyor.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_25d9741a9bab1588e1d2",
+      "decision": "reject",
+      "reason": "Yolculuk ve mevsimsel altyapı özeti exact HFT anchor trace içermiyor; packet içindeki anchored reader walks bu alanı zaten ayrı bulgularla taşıyor, ancak bu unanchored HFT synthesis kendi başına aktifleştirilemiyor.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_ec4d9f0030c5dedde2f2",
+      "decision": "reject",
+      "reason": "İbadet ve lordship özeti exact carrier, independent trigger ve focus return vermiyor; bu nedenle anchored assent findingiyle karıştırılmadan unanchored HFT nomination olarak reddediliyor.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_69ea198463790d7b0a0e",
+      "decision": "reject",
+      "reason": "Joining, covenant ve safe-conduct özeti HFT anchor evidence içermiyor; supplied packetta bunu focusa döndüren exact context coordinate veya attributed role yok.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_d17c4aa32221e7a49621",
+      "decision": "reject",
+      "reason": "House-centered spatial ecology özeti exact HFT carrier ve focus return taşımıyor; packetın supplied context imageı tek başına bu HFT synthesisini aktifleştirmiyor.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_332d1b7537ac9f855ebb",
+      "decision": "reject",
+      "reason": "What-was-special özeti, focus word/QAC occurrence ve independent trigger belirtmeyen unanchored bir sentez; anchored findings tarafından kısmen açıklanması bu kayda kendi activationını kazandırmıyor.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_bd076b5942e9736cb2a1",
+      "decision": "reject",
+      "reason": "Immediate versus infrastructural operation belirsizliğini bildiren HFT kaydı, exact carrier/trigger trace sağlamıyor; bu belirsizlik frictionda korunuyor ve ayrı finding yapılmıyor.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_125827b78f062afd530a",
+      "decision": "reject",
+      "reason": "Covenantal ve hospitality mechanisms özeti historical institutiona bağlanmayan, anchor evidenceı boş bir HFT record; supplied exact trace olmadığı için attributed activation kurulamaz.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_1fb6cca0a8250a426009",
+      "decision": "reject",
+      "reason": "Lordship-to-growth mapping HFT özetinde yalnızca secondary olarak anılıyor ve exact focus-return trace içermiyor; bu nedenle mevcut ecological findings içine HFT adayı olarak eklenmiyor.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_3381fcbf5e9028a187a1",
+      "decision": "reject",
+      "reason": "Grafting, throat release, route correction ve protective-container özeti exact HFT trace içermiyor; graft branchı ayrıca form ve carrier testinde elendi, kalan image-schemalar unanchored kalıyor.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    }
+  ],
+  "findings": [
+    {
+      "finding_ref": "global:provisioned-livelihood",
+      "origin_candidate_id": "cand_3a1bd435d18bb5d26144",
+      "represented_candidate_ids": ["cand_2e0fc4235a2fa90ac4d3"],
+      "title": "Besleme ve geçimin sürekliliği",
+      "claim": "Odak ayetteki besleme, tek bir doyurma anından taşarak yaygın açlık döneminde geçimi sürdüren bir düzen olarak da okunur.",
+      "mechanism": "Odaktaki besleme fiili ve onun alıcıları, açlık taşıyıcısı ile temas eder; bağımsız kıtlıkta besleme ve bollukta provision bağlantıları bu teması topluluk ölçeğinde süreklilik ve geçime taşır. Böylece besleme ilişkisi tek öğün aktarımından geçim sağlayan düzen ilişkisine genişler.",
+      "reader_payoff": "Doyurma eylemi, bir öğünün ötesinde kıtlık karşısında sürdürülebilir geçim olarak görünür.",
+      "containment": "Bu bulgu odaktaki gerçek besleme anlamını korur; her besleme kullanımının ekonomi veya bütün bir geçim sistemi anlamına geldiğini ileri sürmez.",
+      "epistemic": {
+        "status": "grounded",
+        "source_trust": ["legacy_unbound", "trusted"],
+        "reason": "Güvenilir yayın doğrudan güçlü bir kıtlık-geçim ilişkisi verir; legacy reader kaydı aynı değişimi destekler, connection rows ise hedef morfolojisi olmadan yalnızca ilişkiyi sınırlar."
+      },
+      "support_ids": ["sup_bca14450682bc5966aa5", "sup_77b99ae6c65afcf398bc"],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000934/B002",
+          "facet_id": "F001",
+          "branch_gloss": "başkasını beslemek veya beslenmeyi istemek",
+          "facet_statement": "Bir başkasına yiyecek ya da besleyici bir şey vererek onu doyurma.",
+          "application_mode": "intrinsic_cross_root",
+          "carrier_refs": ["106:4:2:1"],
+          "trigger_refs": ["106:4:4:1", "sup_77b99ae6c65afcf398bc"],
+          "focus_return_refs": ["106:4:2:1"],
+          "carrier": "Odaktaki IV. bâb besleme fiili, ekli alıcıları besleme eylemini taşır.",
+          "independent_trigger": "Açlık tümleci ve supplied reader evidence, beslemenin başkasını doyurma yönünü tek seferlik menü bilgisinden ayırır.",
+          "activation": "Besleme fiili açlık sözcüğüyle karşılaşınca alıcıyı doyurma eylemi, topluluğun geçimini sürdüren bir ilişki olarak okunabilir.",
+          "resulting_reading": "Ayet, onları yalnızca doyuran değil, açlık karşısında beslenebilir kılan bir eylem alanı gösterir.",
+          "boundary": "Bu facet besleme eylemidir; geçim ekonomisinin bütün kurumsal ayrıntıları bu facetten çıkarılmaz."
+        },
+        {
+          "branch_ref": "root_000278/B002",
+          "facet_id": "F001",
+          "branch_gloss": "yaygın açlık dönemi",
+          "facet_statement": "Açlığın bir toplulukta yaygın biçimde yaşandığı yıl ya da dönemdir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["106:4:4:1"],
+          "trigger_refs": ["conn_1b3e08ac2b3301e1819d", "sup_bca14450682bc5966aa5"],
+          "focus_return_refs": ["106:4:4:1"],
+          "carrier": "Odaktaki belirsiz isim açlık durumunu adlandırır.",
+          "independent_trigger": "90:14 bağlantısı beslemeyi açıkça bir kıtlık gününde konumlandırır; güvenilir yayın aynı besleme-kıtlık relationunu taşır.",
+          "activation": "Kıtlık günündeki besleme tanıklığı, odaktaki açlığı tek kişinin duyumundan toplulukta yayılan geçim baskısına döndürür.",
+          "resulting_reading": "Açlıktan doyurma, yaygın açlık döneminin sürdürdüğü bir topluluk ihtiyacına cevap olarak görünür.",
+          "boundary": "Ayetin her durumda belirli bir tarihsel açlık yılını bildirdiği iddia edilmiyor; dal burada topluluk ölçeğiyle sınırlı bir rezonanstır."
+        },
+        {
+          "branch_ref": "root_000934/B004",
+          "facet_id": "F001",
+          "branch_gloss": "geçim, bol ikram ve tahsis edilmiş gelir",
+          "facet_statement": "Geçim, kazanç veya gelir bakımından iyi ve elverişli durumda olma.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["106:4:2:1"],
+          "trigger_refs": ["conn_55b3425791f6b51467b2", "conn_139f3913f839544b347a", "sup_bca14450682bc5966aa5"],
+          "focus_return_refs": ["106:4:2:1"],
+          "carrier": "Odaktaki besleme fiili, alıcıların gıdaya kavuşmasını taşır.",
+          "independent_trigger": "16:112 bolluk ve açlık karşıtlığını, 76:8 ise başkasını beslemenin sosyal yönünü açıklar.",
+          "activation": "Bolluk ve sosyal besleme bağlantıları, odaktaki beslemeyi geçim bakımından elverişli bir durumu kuran fiil olarak yeniden aydınlatır.",
+          "resulting_reading": "Besleme, kıtlık dönemine karşı geliri ve toplumsal iyi durumu sürdüren bir düzen kurar.",
+          "boundary": "Bu, supplied bağlantıların kurduğu geçim facetidir; belirli bir ekonomik kurum veya dağıtım tarihi ileri sürülmüyor."
+        }
+      ],
+      "connection_refs": ["conn_1b3e08ac2b3301e1819d", "conn_55b3425791f6b51467b2", "conn_139f3913f839544b347a"],
+      "context_refs": ["106:2", "90:14", "16:112", "76:8"],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:ecological-maturation",
+      "origin_candidate_id": "cand_48c7745537babbf226bc",
+      "represented_candidate_ids": ["cand_2822a64cbd82be5eec02"],
+      "title": "Mevsimsel olgunlaşma ve beslenme",
+      "claim": "Besleme, mevsimsel su ve yetişme koşullarının ürünü olgunlaştırarak yenilebilir hale getirmesi üzerinden bir süreç olarak da görünür.",
+      "mechanism": "Odaktaki besleme taşıyıcısı, meyvenin olgunlaşıp tat kazanması dalıyla temas eder; 106:2'deki supplied winter-rain imageı ve suyun ürün/grain üretimine bağlandığı bağımsız bağlantılar, olgunlaşmayı mevsimsel koşullar ile gıda arasındaki aracı yapar.",
+      "reader_payoff": "Besleme, bitmiş gıdayı teslim etmek kadar, gıdanın yenilebilir hale geldiği olgunlaşma sürecini de görünür kılar.",
+      "containment": "Packet yalnızca meyve/bitki olgunlaşması ile yenilebilir tat kazanımını destekler; her yiyeceğe veya her yağışa genellenmez ve odaktaki besleme anlamını değiştirmez.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": ["legacy_unbound", "trusted"],
+        "reason": "Güvenilir publication exact B005 dalını zayıf grade ile verir; legacy reader water/season chainini ekler. Bağlantı hedef morfolojisi verilmediği için süreçsel okuma nitelikli tutuluyor."
+      },
+      "support_ids": ["sup_43c9dcd0284687ee1cb8", "sup_36bb7a1265cd94fde142"],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000934/B005",
+          "facet_id": "F001",
+          "branch_gloss": "olgunlaşıp tat kazanmak",
+          "facet_statement": "Meyvenin olgunlaşıp yenilebilir ve belirgin bir tat kazanması.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["106:4:2:1"],
+          "trigger_refs": ["106:2", "conn_b3cf6afbee3edc817336", "conn_f97c8d32098f4e85bb3b", "sup_36bb7a1265cd94fde142"],
+          "focus_return_refs": ["106:4:2:1"],
+          "carrier": "Odaktaki besleme fiili, bir topluluğa yenebilir gıdanın ulaşmasını taşır.",
+          "independent_trigger": "Mevsimsel context ile suyun ürün, meyve ve grain üretimine bağlandığı 16:11 ve 80:27 bağlantılarıdır.",
+          "activation": "Mevsimsel su ve ürün oluşumu, besleme fiilinin gıdayı hazır hale getiren olgunlaşma süreciyle temas etmesini sağlar.",
+          "resulting_reading": "Odaktaki besleme, yenilebilir gıdanın olgunlaştırılarak hazır edilmesini de kapsayan bir oluşum süreci olarak belirir.",
+          "boundary": "Facet meyve/bitki olgunlaşmasına bağlıdır; hedef bağlantıların eksik morfolojisi nedeniyle bütün gıda zincirinin ayrıntıları ileri sürülmüyor."
+        },
+        {
+          "branch_ref": "root_000776/B003",
+          "facet_id": "SOURCE_IMAGE",
+          "branch_gloss": "winter rain",
+          "facet_statement": null,
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["106:2"],
+          "trigger_refs": ["106:4:2:1", "conn_2f389ee041d21b095f86", "sup_36bb7a1265cd94fde142"],
+          "focus_return_refs": ["106:4:2:1"],
+          "carrier": "Supplied 106:2 seasonal context, winter-rain source imageını taşır.",
+          "independent_trigger": "Odaktaki besleme taşıyıcısı ve suyun gıda dizisini başlattığını gösteren 80:25 bağlantısıdır.",
+          "activation": "Kış yağmuru context carrierı, besleme fiiline döndüğünde yağışın gıdayı hazırlayan mevsimsel aracı olarak okunur.",
+          "resulting_reading": "Besleme, mevsimsel yağışın üretim ve olgunlaşma yoluyla gıdaya dönüşen etkisini de taşıyabilir.",
+          "boundary": "Bu yalnızca supplied source image ve 106:2 context ref ile sınırlı nitelikli bir aktivasyondur; context morphology veya her mevsime dair genel bir iddia eklenmiyor."
+        }
+      ],
+      "connection_refs": ["conn_b3cf6afbee3edc817336", "conn_f97c8d32098f4e85bb3b", "conn_2f389ee041d21b095f86"],
+      "context_refs": ["106:2", "16:11", "80:25", "80:27"],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:protected-circulation",
+      "origin_candidate_id": "cand_94f678bc016fb8e5a467",
+      "represented_candidate_ids": ["cand_992008860665091f0601", "cand_16ace349e8bc942fc906"],
+      "title": "Güvenli geçiş ve güvenilir ilişkiler",
+      "claim": "Ayetteki güvene kavuşturma, iç huzurla birlikte tekrarlanan hareketi mümkün kılan güvenli geçişi ve güvenilir ilişkileri de kuran bir güvenlik olarak görünür.",
+      "mechanism": "Odaktaki güvenlik fiili, Sacred Mosque'a güven içinde girişi veren 48:27 bağlantısı, emanet ve ihanet sınırını veren 8:27 bağlantısı ve baskı altında korkuyu gösteren 10:83 bağlantısıyla temas eder. Bu temas, güveni yalnızca iç durum değil, yolun ve ilişkilerin güvenilir işlemesini sağlayan koruma alanı yapar.",
+      "reader_payoff": "Güvenlik, korkunun yokluğu kadar, insanların ve güzergâhların tekrar tekrar işleyebildiği güvenilir bir geçiş alanı olarak görünür.",
+      "containment": "Odaktaki sıradan güvene kavuşturma anlamı korunur; belirli tarihsel kurumlar veya çözümlenmemiş shelter/attachment branchları bu bulguya eklenmez.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": ["legacy_unbound", "trusted"],
+        "reason": "Güvenilir publication security relationunu doğrudan verir; reader walks travel, shelter ve reliable relations yönlerini taşır. Target morphology bulunmadığı için dış bağlantılar nitelikli bağlam olarak tutuluyor."
+      },
+      "support_ids": ["sup_6c6691a043fa7e2930f4", "sup_26b7cafe268f4b6064ad", "sup_77012c69d543da296df8"],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000054/B001",
+          "facet_id": "F002",
+          "branch_gloss": "guven ve guvenilirlik",
+          "facet_statement": "Guven verme, birini kendi koruma ve teminat alani icine alma olarak kullanilir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["106:4:5:2"],
+          "trigger_refs": ["conn_30d9b8a308b16fc9bf46", "sup_26b7cafe268f4b6064ad"],
+          "focus_return_refs": ["106:4:5:2"],
+          "carrier": "Odaktaki IV. bâb güvenlik fiili, aynı alıcıları koruma ve emniyet alanına almayı taşır.",
+          "independent_trigger": "48:27, kutsal mescide korkusuz ve güven içinde girişi açıkça sahneleyerek güvenli geçişi somutlaştırır.",
+          "activation": "Güven içinde giriş görüntüsü odaktaki güvenlik fiiline döndüğünde, koruma iç huzurdan dış hareketin güvenliğine uzanır.",
+          "resulting_reading": "Onları korkudan güvene kavuşturmak, güzergâhta güvenli geçiş imkânı vermeyi de görünür kılar.",
+          "boundary": "Bu facet koruma ve teminat alanıdır; Sacred Mosque settingi odak ayetin tarihsel sahnesi olarak ilan edilmiyor."
+        },
+        {
+          "branch_ref": "root_000054/B001",
+          "facet_id": "F003",
+          "branch_gloss": "guven ve guvenilirlik",
+          "facet_statement": "Guvenilirlik, ihanete karsi sadakat, emanet edilen sey ve kendisine guvenilen kisi anlamlarini dogurur.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["106:4:5:2"],
+          "trigger_refs": ["conn_e145238272cffb15ad4a", "sup_77012c69d543da296df8"],
+          "focus_return_refs": ["106:4:5:2"],
+          "carrier": "Odaktaki güvenlik fiili, alıcıların güven içinde tutulmasını taşır.",
+          "independent_trigger": "8:27 emanet ve ihaneti aynı güven ilişkisi içinde karşı karşıya getirir; reader walk bunu tekrarlanan yol ve ilişkilerle birleştirir.",
+          "activation": "Emanet/ihanet sınırı, güvenlik carrierını yalnız korunma halinden güvenilir ilişki düzenine taşır.",
+          "resulting_reading": "Güvenli alan, taşıyıcıların, ilişkilerin ve emanetlerin tekrar edilebilir biçimde güvenilir olmasını sağlayan bir düzen olarak görünür.",
+          "boundary": "Reader walkta geçen attachment citation çözümlenmemiştir; burada yalnız supplied reliability relationu korunuyor."
+        },
+        {
+          "branch_ref": "root_000447/B001",
+          "facet_id": "F001",
+          "branch_gloss": "bir belirtiye dayanarak kötü bir şey bekleme korkusu",
+          "facet_statement": "İstenmeyen bir olayın gerçekleşeceği, bilinen ya da sanılan bir belirtiye dayanılarak beklenir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["106:4:7:1"],
+          "trigger_refs": ["conn_cec46bb7f3d8af0afd1c", "sup_77012c69d543da296df8"],
+          "focus_return_refs": ["106:4:7:1"],
+          "carrier": "Odaktaki korku adı, kötü bir olayın beklenmesiyle oluşan threat-source alanını taşır.",
+          "independent_trigger": "10:83 baskıcı iktidarın korku ürettiği somut durumu verir; reader walk bunu yolculukta beklenen interruption ile ilişkilendirir.",
+          "activation": "Baskı kaynaklı korku, odaktaki güvenliği yalnız kalbin yatışması değil, hareketin kesintiye uğramamasını sağlayan koruma olarak yeniden aydınlatır.",
+          "resulting_reading": "Güven, beklenen yol tehdidinden korunmuş ve ilişkileri işlemeye devam eden bir geçiş alanı olur.",
+          "boundary": "Bu, korkunun beklenen zarar facetidir; odak ayetin belirli bir tarihsel baskı sahnesini anlattığı söylenmiyor."
+        }
+      ],
+      "connection_refs": ["conn_30d9b8a308b16fc9bf46", "conn_e145238272cffb15ad4a", "conn_cec46bb7f3d8af0afd1c"],
+      "context_refs": ["106:2", "106:3", "48:27", "8:27", "10:83"],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:visible-depletion",
+      "origin_candidate_id": "cand_478daf53d2a85db0d0c3",
+      "represented_candidate_ids": [],
+      "title": "Eksilmenin görünür izi",
+      "claim": "Korku, beklenen zararın yanında malı, insanı veya hareket kapasitesini eksilten ve hayatı görünür biçimde daraltan bir baskı olarak da okunabilir.",
+      "mechanism": "Odaktaki korku taşıyıcısı, 2:155'te korku ve açlığın mallar, canlar ve ürünlerdeki eksilmeyle birlikte anılmasıyla temas eder; 74:51'de korkunun kaçışta görünür hale gelmesi, aynı korku alanını dışa vurulan alarm görüntüsüyle tamamlar.",
+      "reader_payoff": "Korku, yalnızca içte beklenen bir tehlike değil, hayatın kaynaklarını ve görünür kapasitesini daraltan bir eksilme baskısı olarak da algılanır.",
+      "containment": "2:155'in kayıp listesi ve 74:51'in alarm görüntüsü bağımsız bağlam kanıtıdır; odak sözcüğünün her kullanımının maddi kayıp veya görünür korku demek olduğu ileri sürülmüyor.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": ["trusted"],
+        "reason": "Trusted publication iki exact branchı birlikte nominates; 2:155 ve 74:51 bağlantıları mekanizmayı destekler, ancak hedef morfolojisi ve focusa dönüş ilişkisi nitelikli tutulmalıdır."
+      },
+      "support_ids": ["sup_3289ff97634d8e3eefc2"],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000447/B004",
+          "facet_id": "F001",
+          "branch_gloss": "bir şeyden alarak eksiltme",
+          "facet_statement": "Bir şeyden bir bölüm alınır ve böylece onun miktarı azaltılır.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["106:4:7:1"],
+          "trigger_refs": ["conn_512f8d5ff1556170f04f", "sup_3289ff97634d8e3eefc2"],
+          "focus_return_refs": ["106:4:7:1"],
+          "carrier": "Odaktaki korku adı, güvenliğin karşısındaki threat-source alanını taşır.",
+          "independent_trigger": "2:155 korku ve açlığı mal, can ve ürünlerdeki eksilme ile aynı deprivation field içinde verir.",
+          "activation": "Kayıpların açıkça sayılması, korku carrierını miktar ve kapasiteden bölüm alan bir baskı görüntüsüyle temas ettirir.",
+          "resulting_reading": "Korkudan güvene geçiş, hayatın mal ve kapasite bakımından aşınmasını durduran bir karşılık olarak da görünür.",
+          "boundary": "Bu branch korku duygusunun kendisini değil, korkunun eşlik ettiği eksiltme ilişkisinin odakta açtığı görüntüyü anlatır."
+        },
+        {
+          "branch_ref": "root_000447/B005",
+          "facet_id": "F001",
+          "branch_gloss": "korkunun kişide dışa vurması",
+          "facet_statement": "Korku, kişide dışarıdan fark edilir biçimde belirir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["106:4:7:1"],
+          "trigger_refs": ["conn_37e930f5e5eacca56b52", "sup_3289ff97634d8e3eefc2"],
+          "focus_return_refs": ["106:4:7:1"],
+          "carrier": "Odaktaki korku adı, korkulan zararın karşısındaki insanî hal alanını taşır.",
+          "independent_trigger": "74:51 korkuyu kaçış hareketinde dışarıdan fark edilir bir alarm olarak sahneler.",
+          "activation": "Görünür kaçış görüntüsü, odaktaki korkuyu iç beklentinin bedensel ve kamusal belirtisine kadar açar.",
+          "resulting_reading": "Güvenlik, korkunun yalnız içte çözülmesi değil, hayatın görünür daralmasının da sona ermesi olarak belirir.",
+          "boundary": "Bu facet görünür korku belirtisiyle sınırlıdır; her korku kullanımında aynı dışa vurumun bulunduğu iddia edilmiyor."
+        }
+      ],
+      "connection_refs": ["conn_512f8d5ff1556170f04f", "conn_37e930f5e5eacca56b52"],
+      "context_refs": ["2:155", "74:51"],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:assent-after-security",
+      "origin_candidate_id": "cand_f2a3e9bd910a4b60b59d",
+      "represented_candidate_ids": ["cand_03b6c26bf39dbd37726b"],
+      "title": "Güvenlikten doğan tanıma ihtimali",
+      "claim": "Güvenliğe kavuşturulan topluluk için güvenlik, onu sağlayan Rabbe yönelen doğrulama ve kabule alan açan bir sonuç olarak da belirebilir.",
+      "mechanism": "Odaktaki güvenlik fiili ordinary securing relationunu korur; 24:55 bağlantısı korkudan emniyete geçişi yerleşmiş ibadetle aynı hareket içinde verir. Bu bağımsız temas, güvenliği onu sağlayan kaynağı tanımaya elverişli bir zemin olarak focusa geri döndürür.",
+      "reader_payoff": "Güvenlik, yalnız korunmuş olma hali değil, güvenen bir yönelişin mümkün hale geldiği tecrübe olarak da görünür.",
+      "containment": "Bu nitelikli bir ilişki ve sonuç okumasıdır; odaktaki IV. bâb fiili inanmaya çevrilmiyor. Publication recordunun reject işareti karşı-kayıt olarak korunuyor ve çözümlenmemiş elevated-name citation branch yapılmıyor.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": ["legacy_unbound", "trusted"],
+        "reason": "Reader support exact security-to-assent route verir; trusted publication aynı öneriyi reject olarak taşır. 24:55 bağlantısı ilişkiyi bağımsızca desteklediği için görünür tutuluyor, fakat form ve anlam özdeşleştirilmiyor."
+      },
+      "support_ids": ["sup_8448ce55847603a8ff1a", "sup_06a7f08d6244d2f7e6b6"],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000054/B002",
+          "facet_id": "F001",
+          "branch_gloss": "dogru sayip kabul etme",
+          "facet_statement": "Temel cekirdek bir haberin, sozun veya hakikatin dogru sayilmasidir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["106:4:5:2"],
+          "trigger_refs": ["conn_135141a65a309fb038ec", "sup_06a7f08d6244d2f7e6b6"],
+          "focus_return_refs": ["106:4:5:2"],
+          "carrier": "Odaktaki güvenlik fiili, aynı topluluğu korkudan çıkarıp güven içinde tutma eylemini taşır.",
+          "independent_trigger": "24:55 korkudan emniyete geçişi, yerleşmiş ibadet ve tek kaynağa yönelişle birlikte verir; reader support bunu güvenlikten tanımaya giden yol olarak kurar.",
+          "activation": "Güvenlik fiili ibadetle birleşen fear-to-security bağlantısına döndüğünde, korunmuş tecrübe güvenilir kaynağı doğrulama ihtimaline alan açar.",
+          "resulting_reading": "Onları güvene kavuşturmak, güven içinde oluşan tanıma ve kabule elverişli bir zemin de kurabilir.",
+          "boundary": "Odak formu belief anlamı olarak yeniden gloss edilmiyor; sonuç ilişkisi nitelikli ve çözümlenmemiş adlandırma branchı dışarıda."
+        }
+      ],
+      "connection_refs": ["conn_135141a65a309fb038ec"],
+      "context_refs": ["24:55"],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:seasonal-famine",
+      "origin_candidate_id": "cand_39f4b9773e757e9d8033",
+      "represented_candidate_ids": [],
+      "title": "Mevsimsel kıtlık ve ekolojik besleme",
+      "claim": "Açlık kelimesi, tek tek bedenlerin duyumundan öte, mevsimlerin ve suya bağlı üretimin topluluk ölçeğinde kırılganlaştırdığı bir açlık dönemini de görünür kılar.",
+      "mechanism": "Odaktaki açlık taşıyıcısı, 106:2'deki seasonal cycle ile ve suyun grain/vegetation üretimine bağlandığı bağımsız bağlantılarla temas eder. Kıtlıkta hunger/fear eşleşmesi ve su-ürün bağlantısı, beslemenin çevresel ve ekonomik kırılganlığı karşılayan yönünü kurar.",
+      "reader_payoff": "Açlık, yalnızca bireysel iştahın yokluğu değil, kötü mevsimlerde su ve ürün akışının kırılmasıyla yayılan bir geçim tehdidi olarak da okunur.",
+      "containment": "Bu branch topluluk ve mevsimsel vulnerability sınırında tutuluyor; supplied connections odaktaki belirli tarihsel sezonu veya tek bir yağış nedenini kanıtlamıyor.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": ["legacy_unbound"],
+        "reason": "Reader walk exact branch and season/water mechanismini öneriyor; supporting target rows target morphology vermediği için ecological chain attributed/nitelikli tutuluyor."
+      },
+      "support_ids": ["sup_7cc117aa539dd3a51abd"],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000278/B002",
+          "facet_id": "F001",
+          "branch_gloss": "yaygın açlık dönemi",
+          "facet_statement": "Açlığın bir toplulukta yaygın biçimde yaşandığı yıl ya da dönemdir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["106:4:4:1"],
+          "trigger_refs": ["sup_7cc117aa539dd3a51abd", "conn_512f8d5ff1556170f04f", "conn_55b3425791f6b51467b2"],
+          "focus_return_refs": ["106:4:4:1"],
+          "carrier": "Odaktaki açlık adı, beslemenin ayırdığı deprivation stateini taşır.",
+          "independent_trigger": "106:2 seasonal cycle, 2:155 communal hunger/fear/loss ve 16:112 provision collapse bağlantılarıdır.",
+          "activation": "Bu bağımsız topluluk ve kıtlık göstergeleri, odaktaki açlığı tekil duyumdan yaygın bir dönem baskısına taşır.",
+          "resulting_reading": "Açlıktan beslemek, dönemsel ve topluluk ölçekli geçim kırılganlığını karşılayan bir eylem olarak görünür.",
+          "boundary": "Ayet belirli bir famine year adıyla sınırlanmıyor; yalnız supplied collective-period facet canlı tutuluyor."
+        },
+        {
+          "branch_ref": "root_000278/B002",
+          "facet_id": "F002",
+          "branch_gloss": "yaygın açlık dönemi",
+          "facet_statement": "Bu dönem, kaynak anlatımında kuraklığın yaşandığı zaman olarak da sınırlandırılır.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["106:4:4:1"],
+          "trigger_refs": ["sup_7cc117aa539dd3a51abd", "conn_db6a834e423e3ac05d52"],
+          "focus_return_refs": ["106:4:4:1"],
+          "carrier": "Odaktaki açlık adı, yaygın hunger-period carrierını taşır.",
+          "independent_trigger": "Reader support winter/summer rain ve drought-pressure bağlantısını, 78:15 ise suyun grain ve vegetation üretimindeki rolünü supplies eder.",
+          "activation": "Su ve ürün arasındaki bağımsız ilişki, kıtlık döneminin çevresel kuraklıkla sınırlandırılabilen tarafını focus açlığına geri taşır.",
+          "resulting_reading": "Açlık, yağış ve üretim koşullarının bozulduğu mevsimsel bir vulnerability dönemi olarak da belirir.",
+          "boundary": "Kuraklık yalnız supplied source-variant olarak kalır; bağlantı hedeflerinde context morphology olmadığı için iklimsel nedensellik kesinleştirilmiyor."
+        }
+      ],
+      "connection_refs": ["conn_512f8d5ff1556170f04f", "conn_55b3425791f6b51467b2", "conn_db6a834e423e3ac05d52"],
+      "context_refs": ["106:2", "2:155", "16:112", "78:15"],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:paired-depletion",
+      "origin_candidate_id": "cand_11add7e733592f53c608",
+      "represented_candidate_ids": [],
+      "title": "İki eksilmeden birlikte çıkış",
+      "claim": "Besleme ve güvenlik, açlığın bedensel boşluğu ile korkunun kapasiteyi azaltan baskısını aynı cümlede karşılayan iki çıkış olarak birlikte okunabilir.",
+      "mechanism": "Odaktaki besleme ve korku taşıyıcıları, aynı alıcı ve min-phrase düzeninin iki yanında yer alır. 2:155'teki communal-loss connection bu paralelliği, açlığın boşluk/inceleme görüntüsü ile korkunun bir şeyden alarak azaltma ilişkisini birbirine değdiren bağımsız tetikleyici olarak kurar.",
+      "reader_payoff": "Ayet, iki ayrı iyiliği art arda saymakla kalmayıp bedensel ve toplumsal eksilmenin iki biçiminden birlikte çıkış görüntüsü verir.",
+      "containment": "Açlık dalı yalnızca supplied paired structure içinde aktarmalı bir görüntü olarak kullanılıyor; literal kap, karın veya özlem kollokasyonu ileri sürülmüyor. Korku dalı da ordinary fear anlamının yerine geçirilmiyor.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": ["legacy_unbound"],
+        "reason": "Legacy reader support exact paired branches and changed readingi verir; 2:155 connection material-loss triggerını sağlar, ancak secondary transfer inferential kalır."
+      },
+      "support_ids": ["sup_d4c63cdfca08fee9f9de"],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000278/B004",
+          "facet_id": "F001",
+          "branch_gloss": "yapıya göre özlem, kap boşluğu ya da karın inceliği",
+          "facet_statement": "Açlık görüntüsü yalnız belirli söz yapıları içinde, yapının belirlediği aktarmalı bir anlama taşınır.",
+          "application_mode": "intrinsic_cross_root",
+          "carrier_refs": ["106:4:4:1"],
+          "trigger_refs": ["106:4:7:1", "sup_d4c63cdfca08fee9f9de"],
+          "focus_return_refs": ["106:4:4:1"],
+          "carrier": "Odaktaki açlık adı, beslemenin ayırdığı bodily deprivation stateini taşır.",
+          "independent_trigger": "Yanındaki korku clauseu ve supplied paired-reading support, aynı cümle yapısında ikinci bir eksilme alanı kurar.",
+          "activation": "Korku ile koordineli yapı, açlık taşıyıcısının burada genel dictionary image değil, görünür boşluk ve incelme yönünde aktarmalı bir sonuç taşımasına izin verir.",
+          "resulting_reading": "Beslemenin karşısındaki açlık, beden ve geçimde hissedilen boşluk olarak daha yoğun görünür.",
+          "boundary": "Branch yalnız bu paired structure için tutuluyor; literal vessel veya longing collocationı iddia edilmiyor."
+        },
+        {
+          "branch_ref": "root_000447/B004",
+          "facet_id": "F001",
+          "branch_gloss": "bir şeyden alarak eksiltme",
+          "facet_statement": "Bir şeyden bir bölüm alınır ve böylece onun miktarı azaltılır.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["106:4:7:1"],
+          "trigger_refs": ["106:4:4:1", "conn_512f8d5ff1556170f04f", "sup_d4c63cdfca08fee9f9de"],
+          "focus_return_refs": ["106:4:7:1"],
+          "carrier": "Odaktaki korku adı, güvenliğin karşısındaki threat-source alanını taşır.",
+          "independent_trigger": "Açlık clauseu ve 2:155'te sayılan mal, can ve ürün kayıpları, korkuyu kapasiteden parça alan bir reduction imageıyla temas ettirir.",
+          "activation": "İki clauseun paralel eksilme yapısı, korku carrierının yalnız beklenen zarar değil, eksilen hareket ve geçim kapasitesi yönünü de açar.",
+          "resulting_reading": "Güvenlik, korkunun yol açtığı kapasite ve kaynak eksilmesinden geri dönüş olarak görünür.",
+          "boundary": "Bu branch fear duygusuyla özdeş değildir; odak formunun her kullanımına genel reduction anlamı verilmiyor."
+        }
+      ],
+      "connection_refs": ["conn_512f8d5ff1556170f04f"],
+      "context_refs": ["2:155"],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:retrospective-closure",
+      "origin_candidate_id": "cand_a51bb7212c6ba1871290",
+      "represented_candidate_ids": ["cand_375697f81f00967dcff7"],
+      "title": "Önceki düzenin geriye dönük kapanışı",
+      "claim": "Son ayet, önceki yolculuk, mevsim, ev ve Rab tasvirlerinin geriye dönük dönüşüyle beslemeyi ve güvenliği yalıtılmış iki faydadan önceki düzenin somut sonucu olarak toplar.",
+      "mechanism": "Retrospective support, önceki attachment ve journey cues ile House-centered lordshipi odaktaki iki causative clausea geri bağlar; 26:79 beslemeyi Rabbin fiili olarak, 24:55 ise güvenliği ibadetle birlikte veren bağımsız wider contexts olarak bu dönüşü destekler.",
+      "reader_payoff": "Son cümle, önceki düzenin iki sonucu olan gıda ve güvenliği aynı kapanışta toplar; ayet tek tek nimetlerden oluşan bir liste olmaktan çıkar.",
+      "containment": "106:4'ten sonra supplied windowda ayet olmadığı için forward surprise veya later correction iddia edilmiyor. Bu yalnızca önceki bağlamın geriye dönük sentezidir ve belirli tarihsel kurumları kanıtlamaz.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": ["legacy_unbound"],
+        "reason": "İki retrospective reader recordu önceki contextin focusa dönüşünü supplies eder; wider connections bu sentezi destekler, fakat later-ayah evidence yoktur."
+      },
+      "support_ids": ["sup_14fdfd8177bf1cb57b09", "sup_c970d53ab33608c33d84"],
+      "branch_activations": [],
+      "connection_refs": ["conn_76da3196cd02b73609c5", "conn_135141a65a309fb038ec"],
+      "context_refs": ["106:2", "106:3", "26:79", "24:55"],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:coordinated-release",
+      "origin_candidate_id": "cand_25f48b57a4f7488bcebb",
+      "represented_candidate_ids": [],
+      "title": "Aynı yapıda iki kurtuluş",
+      "claim": "Ayetin iki yarısı, aynı fiil + nesne + min düzeniyle bedensel açlık ve beklenen zarardan birlikte çıkarılmayı kurar.",
+      "mechanism": "İki causative fiil aynı attached recipientsi alır; ilk min-phrase açlığı, ikinci min-phrase korkuyu ayrılınan threat-source olarak sunar. Bağlaç ve tekrarlanan yapı, besleme ile güvenliği iki unrelated favor değil, aynı topluluğun iki deprivation exitı olarak birbirine bağlar.",
+      "reader_payoff": "Beslenme ve güvenlik aynı ritim içinde birleştiğinde, ayetin maddi ve duygusal rahatlamayı birlikte kurduğu duyulur.",
+      "containment": "Paralellik iki etkinin birlikte koordinasyonunu gösterir; bunların yalnız immediate veya yalnız infrastructural olduğu seçilmiyor.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": ["legacy_unbound"],
+        "reason": "Reader walk exact focus parallelism ve before/after change supplies eder; secondary semantic relation writer inferenceı olarak sınırlandırılmıştır."
+      },
+      "support_ids": ["sup_598b127cf75ad680b14b"],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000934/B002",
+          "facet_id": "F001",
+          "branch_gloss": "başkasını beslemek veya beslenmeyi istemek",
+          "facet_statement": "Bir başkasına yiyecek ya da besleyici bir şey vererek onu doyurma.",
+          "application_mode": "intrinsic_cross_root",
+          "carrier_refs": ["106:4:2:1"],
+          "trigger_refs": ["106:4:4:1", "sup_598b127cf75ad680b14b"],
+          "focus_return_refs": ["106:4:2:1"],
+          "carrier": "Besleme fiili, ekli alıcıları eylemin doğrudan nesnesi yapar.",
+          "independent_trigger": "Aynı cümledeki açlık min-phrase ve onunla eşleşen ikinci causative clauseudur.",
+          "activation": "Açlıkla kurulan min-phrase, besleme carrierının alıcıyı deprivationdan çıkaran eylem yönünü belirginleştirir.",
+          "resulting_reading": "İlk yarı, topluluğu açlık halinden beslenmişliğe geçirir.",
+          "boundary": "Bu activation yalnız focus syntax ve supplied paired evidence ile sınırlıdır; daha geniş economy claimi burada yapılmıyor."
+        },
+        {
+          "branch_ref": "root_000447/B001",
+          "facet_id": "F001",
+          "branch_gloss": "bir belirtiye dayanarak kötü bir şey bekleme korkusu",
+          "facet_statement": "İstenmeyen bir olayın gerçekleşeceği, bilinen ya da sanılan bir belirtiye dayanılarak beklenir.",
+          "application_mode": "intrinsic_cross_root",
+          "carrier_refs": ["106:4:7:1"],
+          "trigger_refs": ["106:4:4:1", "sup_598b127cf75ad680b14b"],
+          "focus_return_refs": ["106:4:7:1"],
+          "carrier": "Korku adı, kötü sonucun beklendiği psychological threat-sourceu taşır.",
+          "independent_trigger": "İlk yarıdaki açlık min-phrase ile birebir paralel causative yapı ve aynı recipientsidir.",
+          "activation": "Besleme tarafının deprivationdan çıkarma hareketi, korku tarafında beklenen zarardan çıkarılma hareketiyle aynı syntactic frame içinde buluşur.",
+          "resulting_reading": "İkinci yarı, topluluğu anticipatory disturbance halinden securityye geçirir.",
+          "boundary": "Parallelism korku dalının ordinary expected-harm meaningini korur; security burada belief veya başka bir branch anlamına çevrilmiyor."
+        }
+      ],
+      "connection_refs": [],
+      "context_refs": [],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:travel-assembled-livelihood",
+      "origin_candidate_id": "cand_e57b17ce63d2fb27fd50",
+      "represented_candidate_ids": [],
+      "title": "Yolculuktan kurulan geçim",
+      "claim": "Besleme, yolculuk kollarının yerel geçime bağlanarak süreklilik kazanması şeklinde de görünür.",
+      "mechanism": "Odaktaki besleme fiili, yol boyunca rızık aramayı ve dünyada hareket ederek provisiona ulaşmayı gösteren 67:15 bağlantısı ile supplied reader walkın journey-to-livelihood relationuna temas eder. Geçim dalının tahsis edilmiş gelir facetı, beslemenin dış kaynakları yerel sürekliliğe bağlayan yönünü taşır.",
+      "reader_payoff": "Besleme, yalnızca hazır yiyeceği vermek değil, hareketin getirdiği kaynakların geçime bağlanması olarak da algılanır.",
+      "containment": "Geçim coreu korunuyor; ek dalın tutması branchı için gerekli aşı collocationı yoktur ve bu nedenle dışarıda tutulur. Unresolved attachment citation ayrı lexical branch olarak kullanılmıyor; belirli tarihsel network iddia edilmiyor.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": ["legacy_unbound"],
+        "reason": "Reader support journey, livelihood ve graft imagesini birlikte verir; travel/provision connection core livelihood relationunu destekler, graft facetı ise carrier testinde kalmaz."
+      },
+      "support_ids": ["sup_1408ae13ce281b45c544"],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000934/B004",
+          "facet_id": "F003",
+          "branch_gloss": "geçim, bol ikram ve tahsis edilmiş gelir",
+          "facet_statement": "Bir kazanç yolu, arazi geliri, vergi payı veya kamu gelirinin birine geçim kaynağı olarak ayrılması.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["106:4:2:1"],
+          "trigger_refs": ["conn_ef3a88a7cf2d0136b716", "sup_1408ae13ce281b45c544"],
+          "focus_return_refs": ["106:4:2:1"],
+          "carrier": "Odaktaki besleme fiili, alıcıların gıdaya kavuşmasını taşıyan provision carrierıdır.",
+          "independent_trigger": "67:15 hareket ederek earth provisionından yemeği açıkça birleştirir; reader support bunu önceki journey legs ve local livelihood ile bağlar.",
+          "activation": "Hareket ve rızık bağlantısı, besleme carrierının kaynakları bir geçim yoluna ve yerel sürekliliğe bağlayan tahsis facetıyla temasını sağlar.",
+          "resulting_reading": "Besleme, yolculuktan gelen kaynakların topluluğun geçim düzenine bağlanmasını da görünür kılar.",
+          "boundary": "B010 graft branchı bu findinge alınmıyor; attachment citation unresolved ve tarihsel kurumlar supplied değil."
+        }
+      ],
+      "connection_refs": ["conn_ef3a88a7cf2d0136b716"],
+      "context_refs": ["106:2", "67:15"],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:erosive-fear",
+      "origin_candidate_id": "cand_878497d17e3f3ec9d010",
+      "represented_candidate_ids": [],
+      "title": "Korkunun aşındırıcı tehdidi",
+      "claim": "Korku kelimesi, kötü sonucu bekleme anlamını korurken bu sonucun malı, insanı veya kapasiteyi eksiltebilecek bir tehdit olarak düşünülmesine izin verir.",
+      "mechanism": "Odaktaki korku taşıyıcısı, 2:155'in korku ve açlığı mal, can ve ürünlerdeki kayıpla aynı çerçevede vermesiyle temas eder. Böylece B001'in beklenen kötü sonuç çekirdeği, ayrı bir eksiltme dalına dönüşmeden, beklenen attrition threatını focusa geri taşır.",
+      "reader_payoff": "Korkunun beklediği zarar, soyut bir alarm olmaktan çıkarak geçim ve hareket kapasitesini aşındırabilecek somut bir tehdit olarak belirir.",
+      "containment": "Bu bulgu supplied B001 fear branchını korur; odak sözcüğünün kendisi 'bir şeyden alarak eksiltme' anlamına çevrilmiyor. Actual B004 reduction branchı ayrı bulgularda ve bu adayın yerine geçirilmeden ele alındı.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": ["legacy_unbound"],
+        "reason": "Legacy support fear-to-attrition arrowını açıkça infer eder; 2:155 connection independent loss triggerıdır, fakat formun B004'e dönüşmediği sınırı korunmalıdır."
+      },
+      "support_ids": ["sup_de1a8cdbd4a19c66580b"],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000447/B001",
+          "facet_id": "F001",
+          "branch_gloss": "bir belirtiye dayanarak kötü bir şey bekleme korkusu",
+          "facet_statement": "İstenmeyen bir olayın gerçekleşeceği, bilinen ya da sanılan bir belirtiye dayanılarak beklenir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["106:4:7:1"],
+          "trigger_refs": ["conn_512f8d5ff1556170f04f", "sup_de1a8cdbd4a19c66580b"],
+          "focus_return_refs": ["106:4:7:1"],
+          "carrier": "Odaktaki korku adı, belirtiye dayalı kötü sonuç beklentisini taşır.",
+          "independent_trigger": "2:155 korkuyu hunger ve açıkça sayılan mal/can/ürün kayıplarıyla birleştirir.",
+          "activation": "Kayıp bağlantısı, korkunun beklediği kötü sonucu geçim ve kapasiteyi aşındıran attrition threatı olarak somutlaştırır.",
+          "resulting_reading": "Korkudan güvene geçiş, yalnız alarmın yatışması değil, beklenen aşınmanın engellenmesi olarak da algılanabilir.",
+          "boundary": "B001'in anticipation coreu korunur; actual taking-away anlamı olan B004 bu activationa eklenmiyor."
+        }
+      ],
+      "connection_refs": ["conn_512f8d5ff1556170f04f"],
+      "context_refs": ["2:155"],
+      "semantic_obligation_refs": []
+    }
+  ],
+  "friction_notes": [
+    "Tüm sekiz word-analysis kaydı QAC bridge içinde çözümlenmiş; focus_word_alignment altında unresolved unit yok.",
+    "Focus Arabic ve context ayah refs sağlanıyor, ancak inter-ayah connection target morphology sağlanmıyor; bu nedenle dış tetikleyicilerdeki semantik sıçramalar qualified tutuldu.",
+    "On HFT recordun tamamı görünür ve incelendi, fakat her birinde anchor_evidence boş. Exact context ayahı, word indexi, root, attributed role ve focus return bulunmadığı için hiçbiri attributed activation testini geçmedi.",
+    "Unanchored HFT özetlerindeki coordinated release, journey infrastructure, worship/lordship, covenant/hospitality, House ecology ve uncertainty payloadları görünür kanıt sınırı içinde tutuldu; exact trace olmadığı için findings olarak sessizce kabul edilmedi.",
+    "ء م ن B002 için trusted publication recordu reject işareti taşıyor. Bu kayıt karşı-kayıt olarak support_ids içinde korundu; reader activation ve 24:55 bağlantısı nedeniyle yalnız qualified assent resonance kabul edildi.",
+    "Reader kaynaklarındaki çözümlenmemiş branch citations (ب ي ت/B001, س م و/B005, ء ل ف/B002, ء ل ف/B005) ayrı lexical branch yapılmadı; ilgili yol, shelter veya naming contextleri yalnız sınır olarak tutuldu.",
+    "root_000776/B003 yalnız nominated winter-rain source image olarak, 106:2 carrier ref ve focus return ile tek bir qualified contextual activationda tutuldu; genel yağış veya context morfolojisi icat edilmedi.",
+    "106:4'ten sonra supplied windowda later ayet yok. Retrospective closure kabul edildi; forward surprise veya sonraki ayetten correction çıkarılmadı.",
+    "Candidate records içinde semantic_obligations dizisi supplied değil; bu nedenle semantic_obligation_refs ve semantic_obligation_exclusions boş bırakıldı, supplied branch ve named HFT payloadlarının her biri karar gerekçesinde ele alındı.",
+    "Full connection surface içinde generic no-fear, belief-only, no-value ve yalnız karşıtlık rows bulundu; bunlardan ayrı reader payoff taşıyan uncandidate activation çıkmadı. Bunlar admitted findingsin sınır kanıtı olarak kaldı."
+  ]
+}

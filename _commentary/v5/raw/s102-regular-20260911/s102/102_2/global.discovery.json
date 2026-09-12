@@ -1,0 +1,651 @@
+{
+  "schema_version": "commentary-v5-scope-discovery-v1",
+  "ayah_ref": "102:2",
+  "lane": "global",
+  "coverage_complete": true,
+  "candidate_decisions": [
+    {
+      "candidate_id": "cand_fd34b4b22e018b2f2687",
+      "decision": "accept",
+      "reason": "Her iki dalın da odak yüzeyinde exact taşıyıcısı var. Güvenilir ve alıntılanabilir yayın, 80:21 ve 80:22 bağlantılarıyla ölüm-gömülme-varış ile sonraki açılma arasındaki bağı destekliyor; geçici eşik ilişkisi bu nedenle nitelikli biçimde korunuyor.",
+      "finding_refs": ["global:threshold-visit"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_99b940dd38d470502335",
+      "decision": "accept",
+      "reason": "root_000654/B001 için exact odak taşıyıcısı mevcut. Güvenilir yayın ve 23:56'nın birikim-rekabet bağlantısı, ziyaret biçiminde yönünden sapmış bir güzergahın mezarlara varışta görünür olması için bağımsız temas sağlar; kaynak zayıf dereceli olduğu için bulgu niteliklidir.",
+      "finding_refs": ["global:bent-course"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_e1405d23f820ca0b0fb3",
+      "decision": "accept",
+      "reason": "root_000654/B002 ile root_001195/B002 odak yüzeyinde exact taşıyıcılara sahip. 22:30 false-speech bağlantısı ve 100:9 gömü-açılma bağlantısı iki ayrı tetikleyici sağlıyor. Yayın kaydı reject dereceli, okuyucu yürüyüşü exploratory olduğu için ilişki exploratory olarak korunuyor; kaynak kararı bulguyu otomatik olarak bastırmıyor.",
+      "finding_refs": ["global:appearance-collapse"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_617e6e8e412d2d5536cc",
+      "decision": "accept",
+      "reason": "root_001195/B002 için exact odak taşıyıcısı mevcut. Güvenilir ve alıntılanabilir destek ile 82:4 ve 100:9 bağlantıları, gömülmenin görünürlüğü kesip sonradan açılmaya bağlanan gizli bir evre olarak okunmasını sağlar.",
+      "finding_refs": ["global:concealment-disclosure"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_34117d6f585eef6d8cac",
+      "decision": "accept",
+      "reason": "root_000654/B007 için exact odak taşıyıcısı mevcut. Güvenilir destek ve 23:56 ile 104:2'nin rekabet-birikim tetikleyicileri, mezarlara yönelen hareketin yalnız nötr bir varış değil yoğun bir sürülme olarak duyulmasını mümkün kılıyor; dalın sınırı genel hız değildir.",
+      "finding_refs": ["global:accelerated-boundary"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_a6d0c02c913c1f45fc10",
+      "decision": "represented",
+      "reason": "B003 ziyaret ve B001 gömü yeri taşıyıcılarıyla kurulan geçici eşik ilişkisi cand_fd34b4b22e018b2f2687 ile exact semantik olarak aynıdır; bu adayın dalı, bağlamı veya yükümlülüğü dışarıda bırakılmadan aynı bulguda yer alır.",
+      "finding_refs": ["global:threshold-visit"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_d6c8fa6d4da918b50aa9",
+      "decision": "accept",
+      "reason": "Üç supplied dalın da odak yüzeyinde exact taşıyıcısı var. Okuyucu yürüyüşü, sapma-yalan-gömü ilişkisini tek bir yön değiştirme ve varış hareketi olarak kuruyor; 23:56, 22:30 ve 15:3 bağlantıları dallara ayrı tetikleyiciler sağlıyor. Kaynakta çözümlenmemiş bağlam dalları bulunduğu için bulgu exploratory tutuluyor.",
+      "finding_refs": ["global:deviation-reaches-graves"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_53ef52680e89ff6f5f82",
+      "decision": "narrow",
+      "reason": "root_001195/B002 exact odak taşıyıcısıyla korunuyor. Nominated root_001040/B002 için packet içinde odak taşıyıcısı yok; bu dal exact activation olarak kurulamaz. Bu nedenle gizli kalmadan sonradan belirginleşmeye uzanan q-b-r çekirdeği tutuluyor, işaret dalı ise açıkça dışarıda bırakılıyor.",
+      "finding_refs": ["global:concealment-marked-witness"],
+      "branch_exclusions": [
+        {
+          "branch_ref": "root_001040/B002",
+          "reason": "Branch registry bu dal için hiçbir focus occurrence vermiyor; nominated kaynak, odak yüzeyine dönen exact bir taşıyıcı sağlamıyor."
+        }
+      ],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_3aed2261a4838699b6d0",
+      "decision": "represented",
+      "reason": "B007'nin rekabet baskısıyla yoğun yol alışına dönüşmesi cand_34117d6f585eef6d8cac ile exact semantik olarak aynıdır; dal korunur ve dışlama yapılmaz.",
+      "finding_refs": ["global:accelerated-boundary"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_ecd6791047aca585ddbb",
+      "decision": "reject",
+      "reason": "root_001525/B011 yalnızca nominated bir dal olarak verilmiş ve packet içinde hiçbir focus occurrence taşımıyor. Legacy retrospective destek, ziyaret biçimine dönen exact bir taşıyıcı sağlamadığı için yerleştirme-konaklama okuması activation eşiğini geçmiyor.",
+      "finding_refs": [],
+      "branch_exclusions": [
+        {
+          "branch_ref": "root_001525/B011",
+          "reason": "Odak yüzeyinde taşıyıcı yok; branch registry bu dalı yalnızca nominated kaynak imgesi olarak veriyor."
+        }
+      ],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_dd9c6b1da7a18d27ead9",
+      "decision": "represented",
+      "reason": "B003 ziyaret taşıyıcısının görünürdeki son durağı geçici bir ziyaret istasyonuna çevirmesi cand_fd34b4b22e018b2f2687 bulgusuyla exact semantik olarak aynıdır; adayın supplied B003 dalı aynı bulguya iner.",
+      "finding_refs": ["global:threshold-visit"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_5cc3aa76966d427e94e3",
+      "decision": "represented",
+      "reason": "root_000654/B001 ile yönünden sapmış güzergahın mezarlarda görünür olması cand_99b940dd38d470502335 ile exact semantik olarak aynıdır; ek reader-walk kaydı aynı bulguya temsil edilir.",
+      "finding_refs": ["global:bent-course"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_e0095de1d43c7775fb62",
+      "decision": "represented",
+      "reason": "root_001195/B002'nin görünürlük kesintisi ve sonraki açılmayla ilişkisi cand_617e6e8e412d2d5536cc ile exact semantik olarak aynıdır; supplied dal ve bağlam aynı bulguya iner.",
+      "finding_refs": ["global:concealment-disclosure"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_f2aee64b6e4b4afe04a2",
+      "decision": "represented",
+      "reason": "Rekabet görünümlerinin gömü gizliliğinde çözülmesi, cand_e1405d23f820ca0b0fb3 bulgusunun aynı B002 taşıyıcıları ve aynı exploratory mekanizmasıdır; bu adayın B002 dalı korunur.",
+      "finding_refs": ["global:appearance-collapse"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_631545d9762ab6b373e4",
+      "decision": "accept",
+      "reason": "root_001195/B002 için exact odak taşıyıcısı mevcut. Retrospective destek, daha sonraki doğrudan görmenin önceki gömü kelimesini geçici saklılık olarak yeniden keskinleştirdiğini bildiriyor; bu zaman yönü, genel concealment bulgusundan ayrı bir reader payoff sağlıyor ve nitelikli tutuluyor.",
+      "finding_refs": ["global:retrospective-direct-witness"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_31538345a98f83c2304a",
+      "decision": "reject",
+      "reason": "HFT kaydı görünür olsa da anchor_refs ve branch_refs boştur; packet HFT kapsamı cited_anchor_count=0 bildiriyor. Exact odak koordinatı, supplied bağlam ayeti, attributed rol ve odağa dönüş teması bulunmadığı için legacy_unbound HFT activation kuralını karşılamıyor.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_923ccf598d150889f32c",
+      "decision": "reject",
+      "reason": "HFT kaydı görünür olsa da anchor_refs ve branch_refs boştur; packet HFT kapsamı cited_anchor_count=0 bildiriyor. Exact odak koordinatı, supplied bağlam ayeti, attributed rol ve odağa dönüş teması bulunmadığı için legacy_unbound HFT activation kuralını karşılamıyor.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_9eb9e05cedb3cb863d82",
+      "decision": "reject",
+      "reason": "HFT kaydı görünür olsa da anchor_refs ve branch_refs boştur; packet HFT kapsamı cited_anchor_count=0 bildiriyor. Exact odak koordinatı, supplied bağlam ayeti, attributed rol ve odağa dönüş teması bulunmadığı için legacy_unbound HFT activation kuralını karşılamıyor.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_29930803069bdb502e19",
+      "decision": "reject",
+      "reason": "HFT kaydı görünür olsa da anchor_refs ve branch_refs boştur; packet HFT kapsamı cited_anchor_count=0 bildiriyor. Exact odak koordinatı, supplied bağlam ayeti, attributed rol ve odağa dönüş teması bulunmadığı için legacy_unbound HFT activation kuralını karşılamıyor.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_f0db61605520d1e66d35",
+      "decision": "reject",
+      "reason": "HFT kaydı görünür olsa da anchor_refs ve branch_refs boştur; packet HFT kapsamı cited_anchor_count=0 bildiriyor. Exact odak koordinatı, supplied bağlam ayeti, attributed rol ve odağa dönüş teması bulunmadığı için legacy_unbound HFT activation kuralını karşılamıyor.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_3b562323b65fd108b9bc",
+      "decision": "reject",
+      "reason": "HFT kaydı görünür olsa da anchor_refs ve branch_refs boştur; packet HFT kapsamı cited_anchor_count=0 bildiriyor. Exact odak koordinatı, supplied bağlam ayeti, attributed rol ve odağa dönüş teması bulunmadığı için legacy_unbound HFT activation kuralını karşılamıyor.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_fd02dd8b824581f55721",
+      "decision": "reject",
+      "reason": "HFT kaydı görünür olsa da anchor_refs ve branch_refs boştur; packet HFT kapsamı cited_anchor_count=0 bildiriyor. Exact odak koordinatı, supplied bağlam ayeti, attributed rol ve odağa dönüş teması bulunmadığı için legacy_unbound HFT activation kuralını karşılamıyor.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_9eca1c350054277a5ddd",
+      "decision": "reject",
+      "reason": "HFT kaydı görünür olsa da anchor_refs ve branch_refs boştur; packet HFT kapsamı cited_anchor_count=0 bildiriyor. Exact odak koordinatı, supplied bağlam ayeti, attributed rol ve odağa dönüş teması bulunmadığı için legacy_unbound HFT activation kuralını karşılamıyor.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_fc4d0ac956b550bb4f69",
+      "decision": "reject",
+      "reason": "HFT kaydı görünür olsa da anchor_refs ve branch_refs boştur; packet HFT kapsamı cited_anchor_count=0 bildiriyor. Exact odak koordinatı, supplied bağlam ayeti, attributed rol ve odağa dönüş teması bulunmadığı için legacy_unbound HFT activation kuralını karşılamıyor.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    }
+  ],
+  "findings": [
+    {
+      "finding_ref": "global:threshold-visit",
+      "origin_candidate_id": "cand_fd34b4b22e018b2f2687",
+      "represented_candidate_ids": ["cand_a6d0c02c913c1f45fc10", "cand_dd9c6b1da7a18d27ead9"],
+      "title": "Mezar ziyareti geçici bir eşik olarak",
+      "claim": "Ziyaret için yanına gitmeyi taşıyan z-w-r dalı ile gömü yerini taşıyan q-b-r dalı birleştiğinde mezar, ulaşılmış bir yer olarak görünürken aynı zamanda daha sonraki açılmaya açık geçici bir eşik haline gelir.",
+      "mechanism": "102:2:2:1'deki ziyaret taşıyıcısı 80:22'nin gömülmeden hemen sonraki diriltme bağlantısıyla temas eder; 102:2:3:2'deki gömü yeri taşıyıcısı 80:21'in ölüm ve gömme bağlantısıyla temas eder. Bu iki temas, ziyaret ile mezarı sabit bir son durak yerine ölüm sınırında duran geçici varış olarak yeniden okutur.",
+      "reader_payoff": "Mezarlara varış, yalnızca ulaşılmış bir yer değil, varışın ötesinde açılmaya devam eden bir geçiş olarak duyulur.",
+      "containment": "Bu ilişki, mezarlık ve ziyaretin literal anlamını koruyan nitelikli bir eşik okumasıdır; gömünün tek başına sonraki aşamayı zorunlu kıldığı ya da ayetin düz anlamını değiştirdiği iddia edilmez.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": ["trusted"],
+        "reason": "Exact odak taşıyıcıları güvenilir ve alıntılanabilir yayınla veriliyor; geçicilik ve sonraki açılma, packet içindeki wider bağlantılardan çıkarılan bir ilişkidir."
+      },
+      "support_ids": ["sup_63f8fc60775d4ce9ef49"],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000654/B003",
+          "facet_id": "F001",
+          "branch_gloss": "birini görmek için yanına gitme",
+          "facet_statement": "Bir kişiyi görmek veya onunla buluşmak için yanına gitme ve ona yönelme.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["102:2:2:1"],
+          "trigger_refs": ["conn_ev_3cf10512fc0aca387036"],
+          "focus_return_refs": ["102:2:2:1"],
+          "carrier": "Ziyaret fiilinin odak yüzeyindeki biçimi, birine yönelerek yanına gitme eylemini taşır.",
+          "independent_trigger": "80:22, 80:21'deki gömülme dizisinin hemen ardından diriltmeyi bildirir.",
+          "activation": "Ziyaret taşıyıcısı ile gömülme sonrasındaki diriltme bağlantısı temas edince, ziyaretin hedefe varışı kapanmış bir yerleşme değil sonraki açılmaya geçen bir varış olarak belirir.",
+          "resulting_reading": "Mezar ziyareti, daha sonraki açılmaya açık geçici bir ziyaret istasyonu olarak okunur.",
+          "boundary": "Ziyaret dalı burada konuk ağırlama veya başka özel uzantıları değil, yanına gitme çekirdeğini taşır; diriltme bağlantısı da bu ayete dışarıdan bağımsız bir inanç hükmü eklemez."
+        },
+        {
+          "branch_ref": "root_001195/B001",
+          "facet_id": "F001",
+          "branch_gloss": "ölüyü gömme, ona gömü yeri sağlama ve gömü yeri",
+          "facet_statement": "Gömüt, ölünün gömüldüğü ve kalacağı yerdir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["102:2:3:2"],
+          "trigger_refs": ["conn_ev_a23c6345bdd7ac0b8ad5"],
+          "focus_return_refs": ["102:2:3:2"],
+          "carrier": "Mezarlar adı, ölünün konulduğu gömü yerini ve bir arada bulunan gömüt alanını taşır.",
+          "independent_trigger": "80:21 ölüm ile gömme eylemini aynı sınırda birleştirir.",
+          "activation": "Gömü yeri taşıyıcısı ölüm ve gömme bağlantısıyla temas edince, ayetteki varışın ölüm sınırındaki bir durak olduğu ve sonraki açılmaya kapandığı değil ona açıldığı görünür.",
+          "resulting_reading": "Gömüt alanı, ziyaretin ulaştığı fakat anlam bakımından sonlandırmadığı bir eşik olur.",
+          "boundary": "Gömü yeri dalı burada gerçek mezarlık alanını korur; ölümden sonrası hakkında bu bağlantının taşıdığı sınırın ötesinde ayrıntı kurulmaz."
+        }
+      ],
+      "connection_refs": ["conn_af662cb788d5b2a64426", "conn_214452762929a993a3b6"],
+      "context_refs": ["80:21", "80:22"],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:bent-course",
+      "origin_candidate_id": "cand_99b940dd38d470502335",
+      "represented_candidate_ids": ["cand_5cc3aa76966d427e94e3"],
+      "title": "Mezarlara ulaşan yön sapması",
+      "claim": "Yönünden ayrılma dalı ziyaret biçimine değdiğinde mezarlara varış, daha önce yönünü kaybetmiş bir güzergahın nereye ulaştığını mekânsal olarak gösterir.",
+      "mechanism": "102:2:2:1'deki ziyaret yüzeyi root_000654/B001'in yönünden sapma çekirdeğini taşır; 23:56'nın 102:1-2 aralığına dönen rekabet-birikim bağlantısı, bu sapmaya bağımsız bir önceki güzergah tetikleyicisi sağlar. Temas, varış yerini önceki yön değişikliğinin görünür sonucu haline getirir.",
+      "reader_payoff": "Mezarlar, yalnızca hayatın sonundaki yer değil, önceki yönelimin haritası gibi görünür.",
+      "containment": "Bu okuma, literal ziyaret ve mezar anlamını içinde tutan bir yön rengidir; bütün rekabetin zorunlu olarak ahlaki sapma olduğu veya ziyaret fiilinin düz anlamını bıraktığı söylenmez.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": ["trusted"],
+        "reason": "Exact dal taşıyıcısı ve güvenilir yayın mevcuttur; yayın derecesi weak ve reciprocal kayıtları discovery nomination olduğu için yön oku nitelikli tutulur."
+      },
+      "support_ids": ["sup_412c864100e34ad603df"],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000654/B001",
+          "facet_id": "F001",
+          "branch_gloss": "yönünden sapma ve yana eğilme",
+          "facet_statement": "Amaçlanan yön, yol veya duruştan yana doğru ayrılma ve başka tarafa dönme.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["102:2:2:1"],
+          "trigger_refs": ["conn_ev_be536f1740121084524d"],
+          "focus_return_refs": ["102:2:2:1"],
+          "carrier": "Ziyaret yüzeyi, yönünden yana ayrılma çekirdeğinin taşıyıcısı olarak fiilin hareketini renklendirir.",
+          "independent_trigger": "23:56, birikimle oyalanan rekabeti 102:1-2 aralığına geri bağlar.",
+          "activation": "Rekabetin sürüklediği yol ile yönünden sapma taşıyıcısı temas edince, mezara varış önceki güzergahın mekânsal sonucunu gösterir.",
+          "resulting_reading": "Ziyaret, yönü daha önce eğrilmiş bir hayat akışının mezarlara ulaşması olarak duyulur.",
+          "boundary": "Dal yön sapması çekirdeğiyle sınırlıdır; yalan, ziyaret veya özel fiziksel eğrilik dalları bu bulguya eklenmez."
+        }
+      ],
+      "connection_refs": ["conn_3ca2bc9c2d81cd74f215"],
+      "context_refs": ["23:56", "102:1"],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:deviation-reaches-graves",
+      "origin_candidate_id": "cand_d6c8fa6d4da918b50aa9",
+      "represented_candidate_ids": [],
+      "title": "Sapma, yalan rengi ve gömü varışı",
+      "claim": "Ziyaret biçimi yönünden sapmış bir güzergahı mezarlara ulaştırırken, doğruluktan ayrılma rengi de bu güzergahın değer ölçüsünü bozulmuş olarak duyurabilir.",
+      "mechanism": "Aynı odak taşıyıcısı 102:2:2:1 için B001 sapma dalı 23:56'nın rekabet tetikleyicisiyle, B002 doğruluktan sapma dalı 22:30'un yalan-söz temasına sahip bağlantısıyla buluşur; 102:2:3:2'deki B001 gömü yeri taşıyıcısı 15:3'ün oyalanma-sonuç bağlantısıyla buluşur. Üç temas, yön değiştirme, yanlış ölçü ve mezar varışını tek bir hareketin farklı semantik temasları olarak kurar.",
+      "reader_payoff": "Mezarlara ulaşma, yalnızca yolun sonunu değil, rekabetin yön verdiği ve doğruluk ölçüsünü kaybeden hareketin nereye vardığını görünür kılar.",
+      "containment": "Okuyucu yürüyüşü, rekabetten sapmaya uzanan yön okunu supplied inference olarak kurar; çözülmemiş context citations bağımsız sözlük dalları sayılmaz. Literal ziyaret ve mezar alanı korunur, rekabetin her durumda yalan olduğu ileri sürülmez.",
+      "epistemic": {
+        "status": "exploratory",
+        "source_trust": ["legacy_unbound"],
+        "reason": "Reader-walk kaydı exact focus branch refs verir, fakat yön okunu kendisi çıkarım olarak adlandırır ve bazı context branch citations kayıtlı değildir."
+      },
+      "support_ids": ["sup_835966ef545ce4b762a2"],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000654/B001",
+          "facet_id": "F001",
+          "branch_gloss": "yönünden sapma ve yana eğilme",
+          "facet_statement": "Amaçlanan yön, yol veya duruştan yana doğru ayrılma ve başka tarafa dönme.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["102:2:2:1"],
+          "trigger_refs": ["conn_ev_be536f1740121084524d"],
+          "focus_return_refs": ["102:2:2:1"],
+          "carrier": "Ziyaret fiili, yönünden ayrılan bir hareketi taşıyabilecek aynı odak yüzeyidir.",
+          "independent_trigger": "23:56'nın rekabet ve birikimle oyalanma bağlantısıdır.",
+          "activation": "Rekabetin sürüklediği yol, yön sapması taşıyıcısıyla temas ederek mezara varışı önceki güzergahın sonucu haline getirir.",
+          "resulting_reading": "Ziyaret, yönü eğrilmiş bir güzergahın mezarlara ulaşması olarak okunur.",
+          "boundary": "Bu aktivasyon yön sapmasını taşır; source walk'ın çözümlenmemiş context dalını bağımsız bir sözlük kaydı olarak sunmaz."
+        },
+        {
+          "branch_ref": "root_000654/B002",
+          "facet_id": "F001",
+          "branch_gloss": "gerçekten sapmış yalan veya batıl nesne",
+          "facet_statement": "Gerçekle uyuşmayan, doğruluktan ayrılmış yalan veya batıl içerik.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["102:2:2:1"],
+          "trigger_refs": ["conn_ev_bf33052c860f03ba8c2e"],
+          "focus_return_refs": ["102:2:2:1"],
+          "carrier": "Ziyaret biçimi, fiilin olağan ziyaret anlamını korurken doğruluktan ayrılma rengine temas eder.",
+          "independent_trigger": "22:30, yalan sözü için aynı anlam alanına dönen exact bir hedef yüzey sağlar.",
+          "activation": "Doğruluktan ayrılmış söz için wider temas, ziyaret taşıyıcısındaki yön sapmasını yanlış değerlendirme rengiyle sınırlar ve hareketin değer ölçüsünü bozulmuş gösterir.",
+          "resulting_reading": "Güzergah, yalnızca yönünü kaybetmiş değil, rekabetin yanlış ölçüsüyle doğruluktan da uzaklaşmış bir akış olarak duyulur.",
+          "boundary": "Bu dalın form üzerindeki baskısı kontrollüdür; ziyaret fiili yalan sözüne çevrilmez ve 22:30 bağlantısının indirect niteliği kesinlik olarak sunulmaz."
+        },
+        {
+          "branch_ref": "root_001195/B001",
+          "facet_id": "F001",
+          "branch_gloss": "ölüyü gömme, ona gömü yeri sağlama ve gömü yeri",
+          "facet_statement": "Gömüt, ölünün gömüldüğü ve kalacağı yerdir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["102:2:3:2"],
+          "trigger_refs": ["conn_ev_905586ee4987a141da77"],
+          "focus_return_refs": ["102:2:3:2"],
+          "carrier": "Mezarlar, yön değiştiren hareketin ulaştığı gerçek gömü alanını taşır.",
+          "independent_trigger": "15:3, oyalanma ve tüketimin sonunda mezar ziyaretini somut eşik olarak geri bağlar.",
+          "activation": "Gömü yeri taşıyıcısı, sapmış ve yanlış ölçülmüş hareketin ulaşacağı somut sınırı gösteren bağımsız endpoint temasını alır.",
+          "resulting_reading": "Mezarlara varış, rekabetin yön verdiği hareketin gerçek gömü sınırında görünür olmasıdır.",
+          "boundary": "Bu dal gömü yerini adlandırır; q-b-r'nin gizlilik, kuş veya anatomik yan dalları bu bulguya eklenmez."
+        }
+      ],
+      "connection_refs": ["conn_3ca2bc9c2d81cd74f215", "conn_e18e7a69a257863753e6", "conn_0393af31af01dc80cae6"],
+      "context_refs": ["23:56", "22:30", "15:3", "102:1"],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:appearance-collapse",
+      "origin_candidate_id": "cand_e1405d23f820ca0b0fb3",
+      "represented_candidate_ids": ["cand_f2aee64b6e4b4afe04a2"],
+      "title": "Rekabet görünümünün gömü eşiğinde çözülmesi",
+      "claim": "Doğruluktan sapmış görünüm ile gizli ve içe gömülü kalma aynı odak cümlesinde temas ettiğinde mezar, rekabetin kurduğu dış görünüşlerin ölçüsünü kaybettiği bir eşik olarak belirir.",
+      "mechanism": "102:2:2:1'deki B002 doğruluktan sapma taşıyıcısı 22:30'un yalan sözü bağlantısıyla, 102:2:3:2'deki B002 gizlilik taşıyıcısı 100:9'un gömülerin açılması ve bilgiye dönüş bağlantısıyla buluşur. Bu iki odak taşıyıcısı, rekabet görünümünü gömü gizliliğinin açığa çıkaracağı bir ölçü kaybı olarak kurar.",
+      "reader_payoff": "Mezar, toplumsal görünüşlerin sürdürdüğü karşılaştırmayı taşıyan bir arka plan değil, o görünüşlerin sakladığı ölçüyü açan bir eşik olarak fark edilir.",
+      "containment": "Bu bulgu exploratory'dir: supplied yayın kaydı bu ilişkiyi reject derecesiyle taşır, reader-walk ise rekabet ile görünüş arasındaki nedensel oku inference olarak kurar. Literal mezar ve ziyaret anlamları korunur; rekabetin her biçimi yalan sayılmaz.",
+      "epistemic": {
+        "status": "exploratory",
+        "source_trust": ["legacy_unbound", "trusted"],
+        "reason": "Güvenilir fakat reject dereceli yayın kaydı, legacy exploratory reader-walk ve exact focus carriers birlikte bulunuyor; bu nedenle ilişki görünür kalıyor, kesinlik iddiasına yükseltilmiyor."
+      },
+      "support_ids": ["sup_b896764839141ba83e08", "sup_e176491aea7ddac39474"],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000654/B002",
+          "facet_id": "F001",
+          "branch_gloss": "gerçekten sapmış yalan veya batıl nesne",
+          "facet_statement": "Gerçekle uyuşmayan, doğruluktan ayrılmış yalan veya batıl içerik.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["102:2:2:1"],
+          "trigger_refs": ["conn_ev_bf33052c860f03ba8c2e"],
+          "focus_return_refs": ["102:2:2:1"],
+          "carrier": "Ziyaret fiili, düz ziyaret anlamını korurken doğruluktan ayrılmış görünüm dalına sınırlı bir temas verir.",
+          "independent_trigger": "22:30'un yalan sözü için supplied exact bağlantısıdır.",
+          "activation": "Yalan sözüne dönen wider temas, rekabet görünümünün doğrulukla arasındaki ayrılığı belirginleştirir; bu ayrılık odaktaki ziyaret hareketini yanlış ölçüye bağlar.",
+          "resulting_reading": "Rekabetin ürettiği görünüş, doğruluktan sapmış bir ölçü olarak gömü eşiğine taşınır.",
+          "boundary": "Formun yerel anlamı ziyaret olarak kalır; B002'nin bütün özel söz kalıpları veya tanrılaştırma uzantıları etkin sayılmaz."
+        },
+        {
+          "branch_ref": "root_001195/B002",
+          "facet_id": "F001",
+          "branch_gloss": "gizli, alçakta veya içe gömülü kalma",
+          "facet_statement": "Bir şeyin belirsiz, gizli, alçalmış veya içe çekilmiş durumda bulunması temel anlam alanını oluşturur.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["102:2:3:2"],
+          "trigger_refs": ["conn_ev_485b145b9cbdcf6d9af8"],
+          "focus_return_refs": ["102:2:3:2"],
+          "carrier": "Mezarlar adı, görünür alandan içe gömülmüş ve belirsiz kalmış bir alanı taşıyabilecek exact odak yüzeyidir.",
+          "independent_trigger": "100:9, gömülerde bulunanın açılmasıyla bilgiyi aynı bağlantıda buluşturur.",
+          "activation": "Gizlilik taşıyıcısı ile gömülerin açılınca bilinir hale gelmesi temas edince, görünüşün sakladığı ölçünün gömü sınırında çözülmesi okunur.",
+          "resulting_reading": "Gömü alanı, rekabet görünümünün geçici olarak saklandığı ve sonra ölçüsünün açıldığı eşik olur.",
+          "boundary": "Bu dal genel gizlilik çekirdeğiyle sınırlıdır; bitki, arazi, doğum ve diğer özel kullanımlar odak cümlesine taşınmaz."
+        }
+      ],
+      "connection_refs": ["conn_e18e7a69a257863753e6", "conn_de76348964b735743ba0"],
+      "context_refs": ["22:30", "100:9"],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:concealment-disclosure",
+      "origin_candidate_id": "cand_617e6e8e412d2d5536cc",
+      "represented_candidate_ids": ["cand_e0095de1d43c7775fb62"],
+      "title": "Gömü gizliliğinden açılmaya",
+      "claim": "Gizli ve içe gömülü kalma dalı mezarlar kelimesine değdiğinde gömülme, görünürlüğü geçici olarak kesen; mezarların açılması ve içindekinin bilinmesiyle yeniden açılan bir evre olarak belirir.",
+      "mechanism": "102:2:3:2'deki B002 taşıyıcısı 82:4'ün mezarların açılması ve 100:9'un mezarlardakinin bilinir hale gelmesi bağlantılarıyla temas eder. Bu bağımsız iki disclosure tetikleyicisi, gömülmeyi silinme değil görünürlükten içe çekilme olarak yeniden okutur.",
+      "reader_payoff": "Mezarın sakladığı şeyin yok olmadığını, daha sonraki bilme ve açılma hareketi için görünürlükten çekildiğini fark ettirir.",
+      "containment": "Bu ilişki q-b-r'nin gizlilik çekirdeğini korur; actual ayet yüzeyinin başka kuş, burun veya özel söz kalıplarını etkinleştirdiği söylenmez. Açılma bağlantıları, burada supplied wider evidence olarak kalır.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": ["trusted"],
+        "reason": "Exact q-b-r carrier, citable trusted publication ve iki exact wider grave-disclosure connection mevcut; sonraki görünürlükten saklılığa geçiş yine nitelikli bir semantik ilişkidir."
+      },
+      "support_ids": ["sup_42466571aa8a5f6a3cf9"],
+      "branch_activations": [
+        {
+          "branch_ref": "root_001195/B002",
+          "facet_id": "F001",
+          "branch_gloss": "gizli, alçakta veya içe gömülü kalma",
+          "facet_statement": "Bir şeyin belirsiz, gizli, alçalmış veya içe çekilmiş durumda bulunması temel anlam alanını oluşturur.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["102:2:3:2"],
+          "trigger_refs": ["conn_ev_bec9141891bd6afa432f", "conn_ev_485b145b9cbdcf6d9af8"],
+          "focus_return_refs": ["102:2:3:2"],
+          "carrier": "Mezarlar, bir şeyin görünürlükten içe çekilip saklı kaldığı alanı taşıyabilir.",
+          "independent_trigger": "82:4 mezarların açılmasını, 100:9 ise mezarlardakinin açılma sırasında bilinmesini bildirir.",
+          "activation": "Gizli kalma taşıyıcısı, mezarın açılması ve içindekinin bilinir olmasıyla temas edince, gömülme görünürlük kesintisi olarak anlam kazanır ve disclosure yönüne bağlanır.",
+          "resulting_reading": "Mezar ziyareti, saklılığın açılmaya kadarki evresine ulaşan bir hareket olarak okunur.",
+          "boundary": "Bu aktivasyon, gizlilik ile disclosure arasındaki ilişkiyi taşır; q-b-r'nin bütün özel kullanımları veya doğrudan bir ölüm-sonrası ayrıntı burada iddia edilmez."
+        }
+      ],
+      "connection_refs": ["conn_8bef495390119daa23bd", "conn_de76348964b735743ba0"],
+      "context_refs": ["82:4", "100:9"],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:concealment-marked-witness",
+      "origin_candidate_id": "cand_53ef52680e89ff6f5f82",
+      "represented_candidate_ids": [],
+      "title": "Gizlilikten belirginleşen tanıklığa",
+      "claim": "Mezarlar için gizli ve içe gömülü kalma çekirdeği, daha sonraki bilme ve görme temasının önünde duran bir saklılık evresi olarak okunabilir.",
+      "mechanism": "102:2:3:2'deki q-b-r B002 taşıyıcısı 100:9'un gömülerin açılmasıyla bilme bağlantısına ve ordered context'teki 102:7 görme dönüşüne temas eder. Bu temas, gömü alanını görünürlüğün askıya alındığı ve daha sonra belirginleşmeye açılan ara evre olarak kurar; marker dalı odakta taşınmadığı için bu finding yalnız q-b-r çekirdeğini taşır.",
+      "reader_payoff": "Gömü, yalnız kapalı bir yer değil, sonraki belirginleşmenin öncesindeki saklılık aralığı olarak duyulur.",
+      "containment": "Bu bulgu, supplied reader-walk inference'ını q-b-r'nin qualified gizlilik çekirdeğiyle sınırlar. root_001040/B002 için focus carrier yoktur; bu nedenle işaretin kendi sözlük dalı veya görmenin exact lexical carrier'ı etkin sayılmaz.",
+      "epistemic": {
+        "status": "exploratory",
+        "source_trust": ["legacy_unbound"],
+        "reason": "Reader-walk q-b-r carrier'ını exact verir, fakat marker ve sight citations kayıtlı branch carrier'ları değildir; temporal disclosure oku bu yüzden exploratory tutulur."
+      },
+      "support_ids": ["sup_d71cbaed0209c395cb7e"],
+      "branch_activations": [
+        {
+          "branch_ref": "root_001195/B002",
+          "facet_id": "F001",
+          "branch_gloss": "gizli, alçakta veya içe gömülü kalma",
+          "facet_statement": "Bir şeyin belirsiz, gizli, alçalmış veya içe çekilmiş durumda bulunması temel anlam alanını oluşturur.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["102:2:3:2"],
+          "trigger_refs": ["conn_ev_485b145b9cbdcf6d9af8", "102:7"],
+          "focus_return_refs": ["102:2:3:2"],
+          "carrier": "Mezarlar, görünürlükten çekilmiş ve içe gömülmüş bir alan olarak saklılık çekirdeğini taşır.",
+          "independent_trigger": "100:9'un mezarların açılmasıyla bilme ilişkisi ve ordered context'teki 102:7'nin görme yönüdür.",
+          "activation": "Saklılık taşıyıcısı daha sonra bilme ve görme yönüne dönen supplied bağlamla temas edince, gömü görünürlüğü erteleyen bir ara evre olarak anlam kazanır.",
+          "resulting_reading": "Gömü alanı, belirginleşmenin öncesinde duran ve açılmaya hazırlanan gizli bir eşik olarak okunur.",
+          "boundary": "Bu activation marker branch'ini veya q-b-r'nin özel bitki, arazi ve doğum kullanımlarını etkinleştirmez; yalnız exact q-b-r carrier'ının qualified gizlilik çekirdeğini taşır."
+        }
+      ],
+      "connection_refs": ["conn_de76348964b735743ba0"],
+      "context_refs": ["100:9", "102:7"],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:retrospective-direct-witness",
+      "origin_candidate_id": "cand_631545d9762ab6b373e4",
+      "represented_candidate_ids": [],
+      "title": "Sonraki doğrudan görmenin önceki gömüyü keskinleştirmesi",
+      "claim": "Daha sonraki doğrudan görme, önceki mezar kelimesindeki gizlilik çekirdeğini geriye dönük olarak belirginleştirir; ziyaret böylece son varıştan önceki geçici saklılık aşaması olarak duyulur.",
+      "mechanism": "102:2:3:2'deki q-b-r B002 taşıyıcısı, reader-walk'in 102:7'deki doğrudan görme dönüşü ve 100:9'un mezarların açılmasıyla bilgiye dönüş bağlantısıyla temas eder. Geç gelen doğrudanlık, önceki gömüyü generic burial olmaktan çıkarıp açılma öncesi saklılık olarak yeniden çerçeveler.",
+      "reader_payoff": "Daha sonra gelen görmenin, daha önce karşılaşılan mezar sözünü geriye dönük olarak değiştiren bir okuma deneyimi olduğu görünür.",
+      "containment": "Bu retrospective inference yalnız packet'teki legacy reader-walk'in bildirdiği zaman yönünü taşır; görme dalı için yeni bir lexicon branch icat edilmez ve literal mezar anlamı korunur.",
+      "epistemic": {
+        "status": "exploratory",
+        "source_trust": ["legacy_unbound"],
+        "reason": "Retrospective destek exact q-b-r dalını ve 102:7 dönüşünü bildiriyor, ancak reader source legacy_unbound ve q-b-r dalı qualified olduğu için bulgu exploratory'dir."
+      },
+      "support_ids": ["sup_cfc2002ce9ff4f36a726"],
+      "branch_activations": [
+        {
+          "branch_ref": "root_001195/B002",
+          "facet_id": "F001",
+          "branch_gloss": "gizli, alçakta veya içe gömülü kalma",
+          "facet_statement": "Bir şeyin belirsiz, gizli, alçalmış veya içe çekilmiş durumda bulunması temel anlam alanını oluşturur.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["102:2:3:2"],
+          "trigger_refs": ["102:7", "conn_ev_485b145b9cbdcf6d9af8"],
+          "focus_return_refs": ["102:2:3:2"],
+          "carrier": "Mezarlar sözü, daha sonra açığa çıkacak olanın önce görünürlükten içe çekilmesini taşır.",
+          "independent_trigger": "102:7'nin doğrudan görme dönüşü ve 100:9'un mezarlardakinin açılınca bilinmesi.",
+          "activation": "Geç gelen doğrudanlık, saklılık taşıyıcısına geriye dönük temas ederek gömü ile açılma arasında bir ara evre kurar.",
+          "resulting_reading": "Önceki mezar ziyareti, sonraki tanıklığa açılan geçici bir saklılık olarak keskinleşir.",
+          "boundary": "Bu finding q-b-r B002'nin gizlilik çekirdeğini taşır; daha sonraki görmenin bütün anlamlarını veya bağımsız bir ölüm hükmünü bu ayete eklemez."
+        }
+      ],
+      "connection_refs": ["conn_de76348964b735743ba0"],
+      "context_refs": ["102:7", "100:9"],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:accelerated-boundary",
+      "origin_candidate_id": "cand_34117d6f585eef6d8cac",
+      "represented_candidate_ids": ["cand_3aed2261a4838699b6d0"],
+      "title": "Rekabetin mezara doğru yoğunlaştırdığı hareket",
+      "claim": "Şiddetli yol alış dalı ziyaret fiiline değdiğinde, rekabetin mezarlara yönelen hareketi nötr bir gezi değil son sınıra doğru yoğunlaşan bir akış olarak duyulur.",
+      "mechanism": "102:2:2:1'deki ziyaret taşıyıcısı root_000654/B007'nin güçlü ve yoğun yol alış facet'iyle buluşur; 23:56 ve 104:2'nin rekabet, biriktirme ve sayma bağlantıları bağımsız baskı sağlar. Bu temas, önceki meşguliyetin ziyaret hareketini yoğunlaştırdığını ve mezar sınırına taşıdığını görünür kılar.",
+      "reader_payoff": "Mezarlara ulaşma hareketinin içinde, birikim yarışının hız ve baskı üreten yönü fark edilir.",
+      "containment": "B007 yalnız güçlü ve yoğun yol alışını taşır; genel hız, kesintisiz sürme, koşu veya belirli araç gibi ek koşullar yüklenmez. Literal ziyaret korunur.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": ["trusted"],
+        "reason": "Exact B007 carrier ve güvenilir publication desteği vardır; B007 sole-attestation niteliğinde ve rekabetten yoğunluğa geçiş ilişkisi contextual inference olduğu için qualified'dır."
+      },
+      "support_ids": ["sup_bafde03b85697830dc2a"],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000654/B007",
+          "facet_id": "F001",
+          "branch_gloss": "şiddetli yol alış",
+          "facet_statement": "Güçlü, yoğun ve şiddetli biçimde yol alma.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["102:2:2:1"],
+          "trigger_refs": ["conn_ev_be536f1740121084524d", "conn_ev_760d99e8c84a44f4255e"],
+          "focus_return_refs": ["102:2:2:1"],
+          "carrier": "Ziyaret fiilinin hareketi, güçlü ve yoğun yol alış facet'i için exact odak taşıyıcısıdır.",
+          "independent_trigger": "23:56'nın birikim rekabeti ile 104:2'nin malı toplama ve sayma görüntüsü.",
+          "activation": "Birikim ve rekabetin baskısı, ziyaret hareketinin yoğun yol alış dalıyla temas ederek varışı son sınıra doğru sürülen bir hareket olarak renklendirir.",
+          "resulting_reading": "Mezarlara ziyaret, rekabetin yoğunlaştırdığı güçlü bir yol alış olarak duyulur.",
+          "boundary": "Dal yalnız yoğun yol alışını taşır; literal formun genel hız, araç veya sürekli koşu bildirdiği iddia edilmez."
+        }
+      ],
+      "connection_refs": ["conn_3ca2bc9c2d81cd74f215", "conn_179df7e485a8ec541d3e"],
+      "context_refs": ["23:56", "104:2", "102:1"],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:death-euphemism",
+      "origin_candidate_id": null,
+      "represented_candidate_ids": [],
+      "title": "Gömü alanına varışın ölüm yönü",
+      "claim": "Gömülme üzerinden ölüm anlamını taşıyan q-b-r dalı, mezarlara varış ifadesine ölümün dolaylı bir eşiğini de ekleyebilir.",
+      "mechanism": "102:2:3:2'deki gömü yeri taşıyıcısı, 80:21'in ölümü ve gömmeyi aynı bağlantıda vermesiyle temas eder. Bu temas, focus phrase içindeki mezarlara varışı yalnız mekânsal bir yer adı olarak değil, gömülme üzerinden ölüm sınırına işaret eden bir ifade olarak yeniden okutur.",
+      "reader_payoff": "Mezarlara ulaşma sözünün, literal mezarlık görüntüsünü korurken ölüm için dolaylı bir söyleyişe açılabildiği fark edilir.",
+      "containment": "Dal qualified ve sole-attested'dir; bu nedenle ilişki exploratory tutulur. Mezarlık anlamı korunur, q-b-r'nin her yalın yer kullanımının ölüm mecazı olduğu veya ayetin ölümden sonraki tüm ayrıntıları söylediği iddia edilmez.",
+      "epistemic": {
+        "status": "exploratory",
+        "source_trust": [],
+        "reason": "Exact focus carrier ve ölüm-gömme hedefi mevcut olsa da branch registry dalı qualified'dır ve onu doğrudan taşıyan ayrı bir support kaydı yoktur."
+      },
+      "support_ids": [],
+      "branch_activations": [
+        {
+          "branch_ref": "root_001195/B005",
+          "facet_id": "F001",
+          "branch_gloss": "gömülme üzerinden ölüm, gizlilik ve ölü hükmünde olma",
+          "facet_statement": "Gömü alanına varma sözü ölümün dolaylı anlatımı olabilir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["102:2:3:2"],
+          "trigger_refs": ["conn_ev_a23c6345bdd7ac0b8ad5"],
+          "focus_return_refs": ["102:2:3:2"],
+          "carrier": "Mezarlar adı, gömü alanına varışı taşıyan exact focus carrier'dır.",
+          "independent_trigger": "80:21'in ölümün ardından gömülmeyi bildiren exact hedef yüzeyidir.",
+          "activation": "Gömü alanı taşıyıcısı ölüm ve gömme bağlantısıyla temas edince, mezarlara varış ölümün dolaylı eşiğine açılır.",
+          "resulting_reading": "Ziyaret, literal mezarlık varışını koruyarak gömülme üzerinden ölüm yönünü de duyurur.",
+          "boundary": "Bu qualified dal gerçek mezarlık anlamının yerine geçirilmez; gizlilik, diriliş, kâfir veya ölüler hükmü uzantıları ayrıca etkinleştirilmez."
+        }
+      ],
+      "connection_refs": ["conn_af662cb788d5b2a64426"],
+      "context_refs": ["80:21"],
+      "semantic_obligation_refs": []
+    }
+  ],
+  "friction_notes": [
+    "HFT packet içindeki dokuz assigned record authoring'e görünür olsa da tamamında anchor_refs ve branch_refs boş, cited_anchor_count sıfırdır. Exact koordinat, attributed rol ve focus return verilmediği için bu kayıtlar ayrı bulguya çevrilmedi; kayıp provenance açıkça reject gerekçelerinde tutuldu.",
+    "root_001040/B002 ve root_001525/B011 nominated dalları için focus occurrence yoktur. İlki cand_53ef52680e89ff6f5f82 içinde açık branch exclusion ile daraltıldı; ikincisi cand_ecd6791047aca585ddbb içinde taşıyıcı yokluğu nedeniyle reddedildi. Diğer uncandidate focus dallarında supplied bağımsız tetikleyici veya form-uyumlu temas bulunmadı; qualified root_001195/B005 ise exact ölüm-gömme bağlantısı nedeniyle null-origin exploratory finding olarak korundu.",
+    "Global reciprocal bağlantılar discovery nomination'dır; source direction label ve prior label karar yerine geçirilmedi. Target morphology çoğu kayıtta supplied olmadığı için bağlantılar yalnız exact hedef yüzeyi ve kayıtlı relation note olarak kullanıldı, zayıf ve no-value kayıtlar bulgu eşiğini tek başına belirlemedi.",
+    "Packet hiçbir candidate için semantic_obligations veya required_branch_facets alanı sağlamıyor. Bu nedenle semantic_obligation_refs ve semantic_obligation_exclusions alanları çıkarım yoluyla doldurulmadı; tümü boş dizi olarak bırakıldı.",
+    "Global packet'te selected_context_units sıfır ve lane_context_refs boştur. Aynı-surah 102:7 dönüşü yalnız ordered_context_refs ve legacy retrospective support üzerinden kullanıldı; onu taşıyan findings qualified veya exploratory sınırla yazıldı."
+  ]
+}

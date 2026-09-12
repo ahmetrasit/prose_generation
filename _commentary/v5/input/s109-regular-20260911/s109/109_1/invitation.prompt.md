@@ -1,0 +1,221 @@
+# V5 reading invitation — 109:1
+
+You are a fresh reading-invitation writer. Read the complete editorial prose
+before writing. It is your sole semantic source.
+
+Write two to four paragraphs of fluent, contemporary Turkish that reveal a
+surprising reading by following one or two main channels of resonance in the
+ayah. A channel is a connected background of meanings, images, actions, or
+relations through which the ayah can be heard and understood differently.
+Several editorial findings may together develop one channel. Summarize that
+connected movement and its consequence for the ayah's main meaning, rather
+than compressing findings individually. Give the reading's substance now;
+the invitation comes from understanding it, not from a promise of hidden depth.
+
+Before drafting, read the entire editorial prose and silently select the one
+or two channels with the strongest interpretive consequence and enough
+grounding to explain clearly. Favor channels that expand or shift what the
+ayah says, the relation it establishes, or what is at stake in its action or
+image. One fully developed channel is sufficient; add a second only when it
+offers a distinct consequential reading that can be explained within the
+invitation. No finding, channel, or major shift has an individual coverage
+claim. Unselected material may remain entirely in the full commentary.
+
+A channel may develop through grammar, sound, dialogue, a material process,
+time, imagery, or a conceptual relation. Resonance is not limited to acoustic
+effects, and an unusual image alone does not establish a channel. Use only
+connections the editorial prose actually develops. If it supplies no such
+channel, explain its strongest grounded reading without inventing connections
+or surprise.
+
+Begin inside the ayah's own words, images, actions, or relations and reveal a
+selected distinctive reading in the first paragraph. Keep the plain meaning
+reachable with only the orientation needed to understand the change. Do not
+spend an opening paragraph on routine explanation or front-load context about
+the surah, the ayah's position, or the commentary project.
+
+For each selected channel, begin with the expression that opens it, unfold the
+connected background, and show how the ayah reads or sounds against that
+background. Let a detail lead into the next through an intelligible relation
+or process, so the reader experiences the emerging reading. This is a movement
+of thought, not a mandatory sentence pattern or one paragraph per finding.
+Let the reader identify the expression being interpreted,
+where any nonordinary detail comes from, and what that detail changes in the
+reading. Briefly identify the word-family use, restricted form, collocation, or
+context that supplies an essential added detail, and preserve the concrete
+operation that makes the image work. Keep the ordinary reading and necessary
+qualification clear within this explanation; do not repeat them as a fixed
+formula. Preserve the particular object, process, or relation that makes this
+reading distinctive, and state its interpretive consequence for the ayah as a
+whole. Make intelligible what the familiar reading leaves less visible and
+what the expanded or shifted reading now lets the reader understand. Preserve
+the editorial's force: an exploratory possibility remains possible, while a
+developed shift must not be softened into a decorative association or a
+reassurance that everything means the same thing. A concrete
+account of how something is carried, transformed, lost, or restored must not
+shrink to a general statement about care, guidance, dependence, or goodness.
+Keep the details needed to make the selected channel work; omit side findings
+and shorten routine setup. If a channel cannot be explained faithfully from
+the editorial prose, choose another grounded channel or reading.
+
+When a non-focus ayah supplies a contribution used in the invitation, keep its
+reference from the editorial prose beside that contribution.
+
+Do not turn the invitation into a miniature inventory of the commentary's
+conclusions, or flatten distinct channels into a broad theme to include more
+material. Do not repair, extend, or supplement the editorial prose from memory
+or outside knowledge.
+
+Omit technical apparatus. Retain any qualification, source distinction, live
+alternative, or boundary whose absence would change the force or meaning of a
+chosen reading. Express it naturally beside the image or relation it qualifies.
+Favor positive explanations of the relation between layers: what remains in
+the foreground and what the resonance makes audible in the background. State
+how that background reinforces, expands, or shifts the understanding of the
+main meaning, with the source and degree of certainty clear. Reserve explicit
+exclusions for concrete ambiguities or live counter-evidence that need them.
+Repeated "this is not X" endings make a reading sound withdrawn; express the
+substantive qualification through what the reading does contribute wherever
+possible. Use varied, natural language rather than a repeated "second layer"
+formula, and preserve the force of expansions and shifts.
+Do not name branches, candidates, findings, scopes, evidence categories,
+ledgers, or workflow stages, or label the prose as numbered channels. Do not
+list findings serially.
+
+Use the established `{ar:..., tr:..., gloss:...}` syntax, consistent
+Turkish-readable transliteration, and short ordinary glosses. Keep Arabic
+anchors beside the explanations they ground. Within a paragraph, continue with
+the Turkish meaning where clear; provide the necessary local tag when a later
+paragraph interprets the carrier anew. Do not place Arabic script outside a
+valid tag.
+
+Build transitions within a channel through its shared object, action, or
+relation. If two channels are selected, they may occupy separate paragraphs;
+do not invent a link between them. Do not praise the commentary's quality,
+promise what the reader will find, manufacture suspense, recap at the end, or
+add a call to action. End on an image, relation, action, or tension already
+established by the selected reading.
+
+Before finishing, compare the invitation with the entire editorial prose:
+does the chosen channel reveal a consequential reading, or could the text have
+been written from the ordinary translation and a modest explanation alone?
+When the editorial supports a surprising channel, the latter fails this task.
+Can the reader follow the opening expression into a connected background and
+understand how that background expands or shifts the ayah's main meaning?
+Check the selected connections against their editorial explanation: can the
+reader tell where the nonordinary details come from, with the necessary
+qualifications intact? Repair generic explanation, isolated curiosities, or a
+compressed findings list by developing the selected channel. Do not add
+omitted channels merely for coverage. Do not output this check.
+
+Write only the invitation text to:
+
+`_commentary/v5/editorial/s109-regular-20260911/s109/109_1/109_1.invitation.tr.md`
+
+Do not add a heading, wrapper label, index, ledger, evidence file, or any other
+artifact. Do not modify the editorial prose.
+
+After writing the invitation, run:
+
+```bash
+python3 _commentary/v5/validate_prose.py _commentary/v5/editorial/s109-regular-20260911/s109/109_1/109_1.invitation.tr.md
+```
+
+If validation fails, repair only the reported mechanical file-contract issues
+and rerun it, for at most two repair cycles. Report the final validator result
+in your response.
+
+<editorial_prose>
+Bu âyet, “De ki: Ey inkâr edenler!” diyerek bir sözü emreder ve sözün yöneleceği topluluğu aynı anda karşıya getirir. {ar:قُلْ, tr:kul, gloss:söyle} burada anlatılan bir olay değil, yerine getirilmesi istenen bir sözdür. Fiilin gizli ikinci tekil öznesi emri taşıyacak kişiyi, ardından gelen hitap ise sözün muhatabını görünür kılar. Böylece konuşanın yükümlülüğü ile muhatabın karşıda durması aynı cümlede ayrışır. Emrin içeriği kısa fiilden sonra açılır; bu bekleyiş, sonraki hitabı ve devam edecek sözü emrin açılan içeriği hâline getirir. Kulün sükûnla kapanan kısa biçimi de uzun çağrı başlamadan önce buyruğu kısa, kesin bir kesişte tutar.
+
+Bu kesilişten sonra gelen {ar:يَٰٓ, tr:yâ, gloss:ey} sözün emredilmesi çerçevesinden doğrudan seslenişe geçişi kurar. Yazı ve tilavette uzayan yâ, kulün kısa kapanışından sonra sesi genişletir ve çağrıyı yakın ya da uzak bir muhataba ulaştıracak alanı açar. Ardından gelen {ar:أَيُّهَا, tr:eyyühâ, gloss:ey} hedefi hemen adlandırmaz; belirli ada ayrılmış biçimsel yeri hazırlar. Seslenen kişi önce dikkati toplar, sonra kime seslendiğini resmî bir hitap kalıbıyla belirler. Ortadaki çiftlenen ses bu bekleyişi işitmede de tutar; seçme ve uyarma, son sınıf adını öne çıkaran tek bir hitap hareketinde birleşir.
+
+Çağrı {ar:ٱلْكَافِرُونَ, tr:el-kâfirûn, gloss:inkâr edenler} adıyla tamamlanır. Belirli artikel, eril çoğul ve merfû biçim, belirsiz bir kalabalık yerine tanınan bir sınıfı doğrudan karşıya getirir. Etkin ortaç yapısı sınıfı bitmiş tek bir olayla değil, sürmekte olan bir örtme ve inkâr tutumuyla niteler. Bu mevcut biçim topluluğu doğrudan karşısına alır; geçmiş zamanlı, dolaylı bir biçim aynı yeri topluluk hakkında konuşulan bir konuya çevirirdi. Bu karşı imkân, mevcut biçimin hitap gücünü belirginleştirir. Adın sonda bulunması ve önceki hitap kalıbına bağlanması, anlamı da sesi de sınıf adında mühürler; tanıdık etkin ortaç burada doğrudan seslenilen bir unvan gibi ağırlık kazanır.
+
+Bu adın sözlükte açtığı örtme hareketi, görünür olması gereken bir şeyi üstünü örterek kapatma görüntüsünü âyete taşır. Başka kullanımlardaki tohumu toprakla örten çiftçi, ışığı karanlıkla kapatan örtü ve görünürlüğü mühürleyen engel bu hareketi somutlaştırır. Âyette bu görüntülerin katkısı, sınıf adındaki örtme ve kabulden kaçınma tavrını elle tutulur kılmaktır; ad tarıma, geceye veya maddî nesneye çevrilmez. Aynı anlam çevresindeki nimetin değerini tanımama yönü, alınmış değerin ve onun gerektirdiği kabulün üzerinin örtülmesini duyurur. Bir günah yükünü giderme yönü ise bu cümlede gerçekleşen bir telafi olarak değil, anlam alanının sınırında kalan ayrı bir imkân olarak tutulur.
+
+
+Bu adın içindeki örtme hareketi, âyetin kendi hitabıyla birleşince ilk yerel görüntüyü kurar. {ar:قُلْ, tr:kul, gloss:söyle} söze dökme gücünü, {ar:ٱلْكَٰفِرُونَ, tr:el-kâfirûn, gloss:inkâr edenler} ise dinî gerçeği reddetme yüzünü taşır. İhtiyatla izlenebilen bu yakınlığın katkısı, emredilmiş sözü örtülü bir hakikat ilişkisini herkesin işiteceği bir açıklığa çıkaran görevlendirilmiş eylem gibi duyurmaktır. Sözün dışarı çıkması burada örtüyü kendiliğinden kaldıran bir işlem değil, örtülmüş ayrımı hitap anında görünür kılan bir açıklıktır; açık “De ki” emri ve sınıf adı yerinde kalırken içteki fark sesli bir olaya dönüşür.
+Bu temasın katkısı, âyetin aynı iki kelimeyi yüz yüze bir sınır konuşmasının başlangıcı gibi duyurmasıdır. {ar:قُلْ, tr:kul, gloss:söyle}ün karşılıklı görüşme ve konuşma alanı, {ar:كَفَرَ, tr:kefere, gloss:bağını reddedip uzaklaşmak} yüzündeki aidiyetten ayrılma hareketine değdiğinde daha ilk cümlede ortaklığın sınırını çizen bir beyan duyulur. Karşı tarafın cevabı henüz verilmez; bu okuma tam bir müzakere değil, iki tarafın aynı söz içinde karşı karşıya gelmesiyle sınırlıdır. Bir başka ihtiyatlı temasta kulün görüş veya inancı benimseyip sesle üstlenme imkânı, el-kâfirûn adındaki dinî reddin karşısında konuşanın hangi konumda durduğunu açığa çıkarır. Söz yalnızca tekrarlanan emir olarak kalmaz, reddin karşısında açıkça üstlenilmiş bir inanç konumunu da duyurur; emrin temel işi yine söylemektir.
+
+Bu temasın katkısı, işaret etme ile örtme çizgilerini birleşik bir görünürlük hareketi olarak duyurmaktır. {ar:قُلْ, tr:kul, gloss:söyle} bir durumu belli eden hareketi, {ar:ٱلْكَافِرُونَ, tr:el-kâfirûn, gloss:inkâr edenler} ise görünürlüğü kapatan hareketi taşır. Böylece konuşma örtüyü ortadan kaldıran bir işlemden çok, örtünün bulunduğu farkı işaretle görünür kılan bir olay gibi açılır. Aynı yerde kuldeki hükmünü söze koyma ihtimali, el-kâfirûn adındaki birini inançsız sayma eylemiyle buluşur; sınıflandırma kişisel bir polemik hükmünden çok, emredilmiş söz içinde devredilmiş bir adlandırma gibi duyulur. Bu katman yeni bir insanî yargı eklemeden adlandırma yetkisinin kaynağını görünür kılar.
+
+Bu kısa biçimsel temasın katkısı, kulün kısa ve azlıkla ilişkilendirilen taşıyıcı gibi durmasını, hemen ardından uzayan yâ karşısında birkaç yük taşıyan bir sözün sıkılığıyla buluşturmaktır. Kısa emir uzun bir tartışmanın içine dağılmaz; sınırı kısa söyleyişle koyar, yâ ise yoğun sözü bir topluluğa ulaştırır. Bu çağrışım emri başka bir fiile çevirmez, söyleme işinin kısa biçimde sıkıştığını hissettirir.
+
+## Sesin Dolaşıma Girmesi
+
+Kamusal dolaşımın katkısı, emredilen sözün dışarı çıkarak sonraki ibadet ayrımlarını duyulacak bir sınıra bağlamasıdır. İbadet ayrımları (109:2, 109:3, 109:4, 109:5), bu cümlenin yalnızca aktarılacak bilgi değil, duyulacak bir sınır olduğunu açar. Ayrı ibadet çağrısı (10:104), açık ve gizli duyuru (71:9) ve herkese yönelen elçilik hitabı (7:158) aynı sözün insanlar arasında dolaşabilen bir bildiriye dönüşme ihtimalini farklı biçimlerde gösterir. Böylece {ar:قُلْ, tr:kul, gloss:söyle} emri, sonraki ayrılığı nötr bir nakil olarak bırakmaz; sınırı sesli, tekrarlanabilir ve ortak işitme alanında dolaşabilir hâle getirir. Bu bağlantı sözün kamusal, tekrarlanabilir ve ortak işitme alanındaki dolaşımını görünür kılar; her sözün kendiliğinden sınırsız etkinlik kazanması sonucu çıkarmaz, temel emir ve ibadet sınırı yerinde kalır.
+
+Kamusal işitme alanının katkısı, emredilmiş sözü söyleyen kişinin dînî konumunu da dışarıya açmasıdır. {ar:قُلْ, tr:kul, gloss:söyle} içindeki söze dökme hareketi bir hükmü dışarı taşır; sözün insanlar arasında dolaşması onu benimsenmiş bir konum hâline getirir. {ar:رَأْي, tr:ray, gloss:görüş} anlamındaki benimseme yüzü, konuşanın bir görüş veya inancı üstlendiğini görünür kılar. Bu temas, sınır cümlelerinde (109:2, 109:3, 109:4, 109:5, 109:6), kamusal hitaplarda (10:104, 7:158) ve dîn ile ibadet bağlarında (39:14, 98:5) ayrı ayrı belirir. Bu yüzden âyetin bildirisi yalnız karşı tarafa yönelen bir ses değil, konuşanın kendi ibadet bağlılığını ve benimsediği dînî görüşü ilan eden bir duruş kazanır.
+
+İbadet karşıtlığıyla bu sesin temasının katkısı, kamusal sözü ayrı kulluk ilişkilerini ilan eden somut bir beyana dönüştürmesidir. 109:2'deki karşıt ibadet eylemleri, {ar:قُلْ, tr:kul, gloss:söyle} emrini ayrı kulluk ilişkilerini ilan eden bir beyana açar; {ar:ٱلْكَافِرُونَ, tr:el-kâfirûn, gloss:inkâr edenler} adı da dinî gerçeği, birliği veya hükmü reddetme ilişkisini bu eylemlerle görünür olan bir sınıflama hâline getirir. {ar:دِينُكُمْ, tr:dînukum, gloss:dininiz} ile {ar:دِينِ, tr:dînî, gloss:dinim} (109:6) iki tarafın kendi itaat ve teslimiyet düzenlerini ayırarak ilk hitabı eylemden tahsise taşır. Bu bağlantı söze ayrı bir beden anatomisi veya sözlükteki her konuşma imgesini eklemeden, 109:1'in açık emrini ibadet ayrımının başlangıcı olarak duyurur.
+
+İbadet ve rütbe temasının katkısı, bu kamusal makam görüntüsünü sınırlı bir toplumsal benzetmeyle etkili bir yönetici sesine yaklaştırmaktır (109:2). {ar:ٱلْكَافِرُونَ, tr:el-kâfirûn, gloss:inkâr edenler} adındaki taçlandırma imgesi muhatapları onurlu veya rakip bir merkezin çevresinde gösterir; ibadet biçimlerindeki onurlandırma ve yüceltme de bu hiyerarşi görüntüsünü tamamlar. Bu bağlantı biçimlerden doğan bir benzetmeyle sınırlıdır: konuşan insan hükümdar değildir ve el-kâfirûn sözcüğü “taçlılar” diye çevrilmez.
+
+Geçit görüntüsünün katkısı, aynı adın dağlar arasındaki geçit imgesini ibadet biçimlerinin yüzeyi bastıran, düzleştiren ve geçilebilir hâle getiren maddî ayrıntısıyla buluşturarak zor bir açıklığı hazırlık sayesinde kullanılabilir bir yola dönüştürmektir (109:2). Geçit ile hazırlanmış yüzey buluşunca hitap somut bir geçiş kazanır. Bu bağlantı coğrafi bir geçit kurmaz, muhatapları araziye veya yolcuya dönüştürmez; 109:2'deki ibadet fiilleri olağan kulluk anlamını koruyarak geçiş benzetmesine temas eder.
+
+Bedenî boyun eğme görüntüsünün katkısı, yönelmiş kulluk ve itaatin (109:2) {ar:ٱلْكَافِرُونَ, tr:el-kâfirûn, gloss:inkâr edenler} adındaki birine eğilerek boyun eğme hareketiyle buluşmasıdır. Sınıf adı böylece ibadetin taşıdığı hizmet yönü içinde görünür ve ayrım hizmet ile beden duruşunun iki yüzünü hissettirir; muhatapların tarihsel davranışı tek bir beden hareketine indirgenmez. Ayrı kapanış bağlantısının (109:6) katkısı ise {ar:قُلْ, tr:kul, gloss:söyle} emrindeki meseleye önem verme alanını, {ar:دِينُكُمْ, tr:dînukum, gloss:dininiz} ile {ar:دِينِ, tr:dînî, gloss:dinim} ifadelerinin her sorumluluğu kendi sahibine bırakmasıyla buluşturmaktır. Böylece sertliği korunmuş, sorumluluğu emen değil sınırlandıran özenli bir söz duyulur; bu bağlantı emir özel bir duyguya ve sınır da hukukî bir prosedüre dönüşmez.
+
+## Örtünün İşlediği Biçimler
+
+Çevre görüntüsünün katkısı, örtme hareketini başka şeyleri görünmez kılan kuşatıcı bir ortam olarak somutlaştırmaktır: {ar:ٱلْكَافِرُونَ, tr:el-kâfirûn, gloss:inkâr edenler} adındaki karanlık, enginlik veya kapatma bu alanı taşır. 109:2'deki ibadet biçimlerinin bir taşıyıcıyı bastıran, düzelten ve geçilebilir hâle getiren fiziksel hazırlığıyla karşılaşınca örtme, hazırlanmış taşıyıcının kuşatıcı ortamdan geçmesini sağlayan koruyucu bir işlev kazanır. Ziftle kaplanmış bir taşıyıcının sulara karşı korunarak ilerlemesi gibi bir görüntü belirir. Bu bağlantı gerçek bir deniz veya tekneyi âyete yerleştirmez; 109:2'deki ibadet ilişkisi olağan hizmet anlamını taşımaya devam eder.
+
+Kılıf görüntüsünün katkısı, {ar:قُلْ, tr:kul, gloss:söyle} açığa çıkmadan önce biçimlenmiş sözü, {ar:ٱلْكَافِرُونَ, tr:el-kâfirûn, gloss:inkâr edenler} ise gelişen şeyi saran çiçek veya meyve kılıfını taşıyarak hitabı açıklanma eşiğinde tutmaktır. Emrin kamusal ve dışa dönük oluşu bu kılıfla temas edince içte biçimlenmiş içerik açıklanma eşiğinde tutulur; hitapta içten dışa çıkışın örtülü bir hareketi görünür. Bu bağlantı muhatapları bitkiye dönüştürmez, emri gizli düşünceye indirgemez ve gerçek bir büyüme olayı kurmaz; kılıf sözün açıklık eşiğinde tutulmasını somutlaştırır.
+
+Tohum ve yüzey-altı hazırlık görüntüsünün ilk katkısı, kılıfı tohumu toprağa yerleştirip üzerini örten çiftçinin işlemiyle genişleterek örtmeyi bir kereye mahsus görünmezlikten çok yüzeyin altında başlayan döngüsel bir hazırlık adımı gibi duyurmaktır. Bu hareket, iki dîn ifadesinin alışılmış ve tekrarlanan pratik yol anlamıyla buluşur (109:6); adlandırılan fark etkin bir zaman boyutu kazanır. Aynı örtülü-tohum görüntüsünün ikinci katkısı, örtmeyi yok etme değil, birbirinden farklı bir pratiğin yüzey altında sürdürülmesi ve geleceği henüz belirlenmemiş bir şeyin tutulması olarak göstermektir. Dîn çifti (109:6) bu örtünün altında işleyen iki ayrı yolu taşır. Bu bağlantı literal çiftçiliği, büyüme sonucunu veya gizli hasadı âyete eklemez; dîn'in anlamı da yalnızca alışkanlığa indirgenmeden dinî tahsis olarak kalır.
+
+Gelişen içerik görüntüsünün katkısı, dîn kelimelerinin hesap ve karşılık alanıyla karşılaşarak kapalı bir meselenin sonucu ortaya çıkmadan önce olgunlaşan sınırlı bir vaka duyurmasıdır (109:6). Dışarıdan gelen dîn karşılığı, örtülmüş olanın cevabını verir ve saklı tutulandan açıklanmaya uzanan bir yay kurar. Ayrı bir toplumsal temasın katkısı, örtme alanını düzenli otorite ve itaat görüntüsüyle buluşturmaktır (109:6); özel nankörlükten örgütlü bir ilişkinin zedelenmesine, faydanın gizlenmesi ile yurttaşlık sadakatinin aynı düzende kırılmasına doğru genişleyen bir temas açılır. Bu iki bağlantı bitkisel bir eşdeğerlik, gerçekleşmiş bir yargılama, tarihsel bir şehir veya belirli bir fayda bildirmez; dîn ifadeleri dinî tahsis anlamını korur.
+
+Değeri gizleyen söz görüntüsünün katkısı, söylenen sözün kime değer verdiği üzerinden örtme hareketini duyurmaktır. {ar:قُلْ, tr:kul, gloss:söyle} gerçek olmayan söz veya yanlış isnat taşıyabilen bir söyleyiş alanı açarken, {ar:ٱلْكَافِرُونَ, tr:el-kâfirûn, gloss:inkâr edenler} alınmış nimetin değerini kabul etmeyerek onu örten ilişkiyi taşır. Sözün kime paye verdiğinin değiştirilmesi, alınmış faydayı görünmez kılan toplumsal aracı gösterir; manipüle edilmiş söz şükrü saklayabilir. Bu bağlantı belirli bir yalanı veya belirli bir nimeti âyete yerleştirmez; dinî reddedişin olağan anlamını koruyarak tanıma ve şükrün örtülebileceği sahneyi açar.
+
+Tanım ve sınır görüntüsünün katkısı, adlandırmayı bir durumu ve aidiyet sınırını kamusal dilde görünür kılan hareket olarak duyurmaktır. {ar:قُلْ, tr:kul, gloss:söyle} bir durumun görünür kılınması, bir şeyin adı veya sınırı olarak kullanılma imkânını taşırken, {ar:ٱلْكَافِرُونَ, tr:el-kâfirûn, gloss:inkâr edenler} belirli bir aidiyet bağını reddedip kendini onun dışında tutma yönünü getirir. Emir sessiz bir işarete kapanmadan toplumsal hâli söyler; kesin ad, hangi ilişkinin içine kimin alınmadığını kamusal dilde belirler. Bu bağlantı ortaya çıkan sınırı biçimsel bir felsefî tanıma, adın teolojik gücünü tüketen mantıksal etikete veya ek bir hükme dönüştürmez.
+
+Hesaplaşma görüntüsünün katkısı, sınır konuşmasını sosyal-finansal bir karşılık ve yükümlülük alanıyla buluşturmaktır. {ar:قُلْ, tr:kul, gloss:söyle} iki taraflı görüşme ve şartları sözle kurma alanını, {ar:دِينُكُمْ, tr:dînukum, gloss:dininiz} ile {ar:دِينِ, tr:dînî, gloss:dinim} ayrı ayrı borç ve alacak hesaplarını, ardından kontrol altına girme ve sahiplik ihtimalini çağrıştırır (109:6). Konuşma önce tarafları ayrı tutan bir uzlaşma zemini, sonra herkesin kendi üzerinde taşıdığı bir yük, ardından da bozulmuş yükümlülüğün esarete sertleşebileceği bir sonuç gibi okunur. Bu bağlantı gerçek pazarlık, kredi, borç veya köleleştirme olayı kurmaz; dîn'in dinî anlamı bu görüntünün içinde temel zemini taşır.
+
+Taşıyıcı görüntüsünün katkısı, sözün hareketli bir içerik olarak insanlar arasında ilerleyip erişimden ayrılmış bir alana ulaşma imkânını duyurmaktır. {ar:قُلْ, tr:kul, gloss:söyle} konuşanın kendi tarafına çektiği ve insanlar arasında dolaşıma soktuğu hareketli içeriği, {ar:ٱلْكَافِرُونَ, tr:el-kâfirûn, gloss:inkâr edenler} ise bu içeriği sıradan erişimden ayıran uzak araziyi taşır. Tekrarlı hizmet biçimleri (109:2), sözü taşıyabilecek fakat yol üzerinde bozulup mahsur kalabilecek bağımsız bir taşıyıcı görüntüsü verir; emirde hareket, sahiplenme, rota ve kesinti ayrıntıları belirir. Bu bağlantı gerçek yolculuk, hayvan, yerleşim, mezar veya yanlış isnat kurmaz; dolaşıma giren sözün doğru ya da yanlış olduğunu belirlemez ve ibadet ilişkisini bozulmuş ilan etmez.
+
+Mekânsal ayrılma görüntüsünün katkısı, toplumsal dolaşımı grupların farklı yönlere dağılmasıyla sözleri yolları ayıran kamusal bir ayrıma dönüştürerek duyurmaktır. {ar:قُلْ, tr:kul, gloss:söyle} insanlar arasında yayılan sözü, {ar:ٱلْكَافِرُونَ, tr:el-kâfirûn, gloss:inkâr edenler} dinî gerçeği reddetme sınıflamasını taşır. Karşıt kulluk (109:2) bu sınıflamaya hareket veren sosyal farkı, grupların farklı yönlere dağılması aynı farkın mekânsal biçimini sağlar. İki dîn düzeni (109:6) bu ayrımı birbirine karışmayan itaat ve teslimiyet güzergâhlarına geri bağlar. Bu bağlantı söylentiyi, gerçek göçü veya taraflardan birini diğerine göre yargılamayı görüntünün içine taşımaz.
+
+## Ayrılığın Zamanı
+
+Zorlama görüntüsünün katkısı, {ar:ٱلْكَافِرُونَ, tr:el-kâfirûn, gloss:inkâr edenler} adını itaat eden birini zorlayarak itaatsizliğe geçirme hareketiyle, yönelmiş kulluk (109:2) ve dîn düzeni (109:6) tarafından gösterilen kurulmuş bağlılıkla karşılaştırmaktır. Zorlama bu bağımsız hizmet ilişkisine değdiğinde mesele yalnızca inkâr değil, hizmetin nesnesini tersine çevirme baskısı olarak görünür. Bu bağlantı zorlayıcı bir fail veya tarihsel olay adlandırmaz; ibadet fiilleri zorlanmış sayılmaz ve iki dîn düzeni arasında üstünlük hükmü kurmaz.
+
+Hızlı telafi görüntüsünün katkısı, {ar:ٱلْكَافِرُونَ, tr:el-kâfirûn, gloss:inkâr edenler} adındaki bir suç yükünü örten veya gideren karşılık görüntüsünü, kısa bekleme ve hafif acele ayrıntısıyla gecikmeden hareket eden zamana bağlamaktır (109:2). Karşılık ile hız birleşince örtme, atıl saklamadan yükü çabucak düşüren bir telafi sırasına dönüşür. Bu bağlantı muhataplara gerçek bir günah, yemin veya kefaret yüklemez; 109:2'deki fiiller kendi olağan eylem ve zamanlarını korur.
+
+Duygusal yankının katkısı, adlandırmayı bağlılığın kaybı karşısında ihtimal hâlindeki bir toplumsal duyguya açmaktır. {ar:قُلْ, tr:kul, gloss:söyle} benimsenmiş bir görüşün dışa konduğu sözü, {ar:ٱلْكَافِرُونَ, tr:el-kâfirûn, gloss:inkâr edenler} birini inançsız diye adlandıran sınırı taşır. Tartışmalı bağlılık çevresindeki gururlu kaçınma ve öfke (109:2), bu adlandırmaya koruyucu kızgınlık ve bağın kaybı karşısında ihtimal hâlindeki bir üzüntü yükleyebilir. Bu ihtimal her muhataba duygu teşhisi koymaz, yeni bir hüküm ölçütü getirmez ve emri yalın bir inanç ismine çevirmez.
+
+Pratik bağlılık görüntüsünün katkısı, ibadet biçimlerini {ar:ٱلْكَافِرُونَ, tr:el-kâfirûn, gloss:inkâr edenler} adının soyut bir etiket değil, devredilemeyen itaat ilişkileri içinde bedenlenen bir bağlılık olarak duyuracak yere bağlamaktır. {ar:أَعْبُدُ, tr:a‘budu, gloss:ibadet ederim} ve {ar:تَعْبُدُونَ, tr:ta‘budûn, gloss:ibadet ediyorsunuz} (109:2) bu görünümü taşır. {ar:قُلْ, tr:kul, gloss:söyle}ün görüş merkezli konumu ile dinî gerçeği reddetme sınıflaması burada somut kulluk eylemiyle temas eder; fark, kimin neye hizmet ettiğinin eylem içinde görünmesidir. Bu bağlantı kul kelimesini ibadet fiiline, el-kâfirûn adını da yeni bir öğretiye çevirmez ve tarihsel saik eklemez.
+
+Aynalanmış rol görüntüsünün katkısı, kişilerin ve ibadet rollerinin tersine çevrildiği kuruluşu (109:3) ilk hitabın karşılıklı fakat çakışmayan rollerinden biri olarak duyurmaktır. {ar:قُلْ, tr:kul, gloss:söyle} ortak söz alanını, {ar:ٱلْكَافِرُونَ, tr:el-kâfirûn, gloss:inkâr edenler} ortak aidiyeti reddeden rolü taşır; aynı ad kapalı bir özden çok ilişkisel bir konum gibi görünür. Bu bağlantı emri aynalanmaya, reddi bir saike veya biçim vurgulu yinelemeyi başka bir işleve indirgemez; her biri yerinde kalır.
+
+Zamana yayılan kalıcılık görüntüsünün katkısı, bir yandaki isimleşmiş duruşu öte yandaki tamamlanmış geçmiş ibadetle karşılaştırarak şimdi söylenen ayrımı daha önce yerleşmiş uygulamaya karşı kalıcılaştırmaktır (109:4). {ar:قُلْ, tr:kul, gloss:söyle} anlık bir sesin ötesinde süreklilik taşıyan ciddi bir tutumu, {ar:ٱلْكَافِرُونَ, tr:el-kâfirûn, gloss:inkâr edenler} ortak aidiyeti sürdürerek reddetmeyi taşıyor gibi duyulur. Bu biçimsel temas resmî yemin, psikolojik saik veya ayrıca kurulmuş tarihsel süre getirmez; yoğun vurgu açıklaması canlı kalır.
+
+Yinelemenin katkısı, yinelenen ibadet kuruluşunun (109:5) devam eden hitabı tarafları birleştirmeden sürdürebilmesini göstermektir. {ar:قُلْ, tr:kul, gloss:söyle} iki taraflı konuşma ve müzakere alanını açarken, {ar:ٱلْكَافِرُونَ, tr:el-kâfirûn, gloss:inkâr edenler} aidiyet bağını kesik tutar. Tekrar konuşmayı kapatmaz; birleşme şartını kapatan sınırı yeniden duyurur. Bu bağlantı gerçek pazarlık, diyaloğun reddi, küçümseme veya yeni bir muhatap kurmaz; biçim yoğun vurgu olarak da okunabilir.
+
+Tahsis görüntüsünün katkısı, ilişkinin sınırlarını daha belirgin biçimde geriye bağlamaktır. {ar:قُلْ, tr:kul, gloss:söyle} ilişki şartlarını tanımlayan sözü, {ar:ٱلْكَافِرُونَ, tr:el-kâfirûn, gloss:inkâr edenler} ortak aidiyetten ayrılma hareketini, {ar:دِينُكُمْ, tr:dînukum, gloss:dininiz} ile {ar:دِينِ, tr:dînî, gloss:dinim} iki ayrı itaat, teslimiyet ve uygulanmış pratik düzeni taşır (109:6). Son çift, emrin başlattığı farkı iki taraflı ve biçimsel olarak ayrılmış bir tahsis gibi geriye bağlar. Bu bağlantı teknik felsefî tanım, hukukî yetki, ceza veya üstünlük iddiası kurmaz; dîn'in anlamı yalnızca alışkanlık olarak tüketilmez.
+
+Hesaplaşma benzetmesinin katkısı, tahsisi her tarafın kendi üzerinde kalan bir karşılık ve sorumluluk kaydı gibi duyurmaktır. {ar:قُلْ, tr:kul, gloss:söyle} şartların söylendiği ve yerleştirildiği bir uzlaşma başlangıcını, {ar:ٱلْكَافِرُونَ, tr:el-kâfirûn, gloss:inkâr edenler} bir tarafın diğerinin aidiyetine emilmesini engelleyen ayrımı taşır. {ar:دِينُكُمْ, tr:dînukum, gloss:dininiz} ile {ar:دِينِ, tr:dînî, gloss:dinim} ayrı hesap, karşılık, borç ve alacak sütunları gibi okunur; her tarafın hesabı kendi üzerinde kalır ve birleştirilemeyen kayıtlar gibi sorumluluk taşır (109:6). Bu bağlantı gerçek para, defter, pazarlık veya belirli bir gelecek yargısı bildirmez; taraflardan birine ahlâkî hüküm de eklemez.
+
+Ayrılmış kayıt görüntüsünün katkısı, emrin yetkisini kişisel mülkiyetten ayırarak alınmış bir sınır gibi duyurmaktır. {ar:قُلْ, tr:kul, gloss:söyle} başkası üzerinde hüküm dayatabilecek komut alanını hizmetin sahiplik yönüyle karşılaştırınca (109:2), ses kişisel mülkiyet değil alınmış bir sınır taşıyor gibi duyulur. {ar:ٱلْكَافِرُونَ, tr:el-kâfirûn, gloss:inkâr edenler} adındaki inançsız sayma alanı da {ar:دِينُكُمْ, tr:dînukum, gloss:dininiz} ile {ar:دِينِ, tr:dînî, gloss:dinim} ifadelerinin boyun eğme ve sahiplik alanıyla birleşerek sınıflandırmayı şahsî tahakkümden çok aktarılmış bir atıf gibi gösterir (109:2, 109:6). Bu görüntü hizmet taşıyıcısına çözümlenmemiş yeni bir anlam yüklemez; bağımsız bir peygamberlik otoritesi teorisi veya sınıflandırmanın ötesinde hüküm kurmaz.
+
+İki yönlü hiyerarşi görüntüsünün katkısı, bağlılığı bedeni alçaltan boyun eğme ile rakip bir otoriteyi taçlandırma hareketlerinin aynı ad içinde buluşmasıyla duyurmaktır. {ar:ٱلْكَافِرُونَ, tr:el-kâfirûn, gloss:inkâr edenler} hem bedeni alçaltan boyun eğme gösterisini hem de rakip bir otoriteyi taçlandırmayı taşır. Kulluk bu duruşa yön veren görünür bağlılığı (109:2), boyun eğme ve sahiplik ise taçlandırmanın hangi otoriteyi kurduğunu gösterir (109:6). Böylece dıştaki teslimiyetin hizmet ettiği merkezi örtebilmesi ve aynı anda onu görünürce kurabilmesi gibi paradoksal bir hiyerarşi açılır; bu bağlantı gerçek taç, hükümdar, rakip, sahiplik veya tarihsel muhatap iddiası kurmaz.
+
+## Muhatabın Adı
+
+Geriye dönük teşhisin katkısı, ilk adı hemen ardından gelen cümlelerle birlikte örtme ile dinî gerçeği reddetme arasındaki ilişkiyi, ibadet ayrılıklarıyla birlikte görünür kılmaktır (109:2, 109:3, 109:4, 109:5). Örtmek bir şeyin üstünü kapatıp onu görünmez bırakmaktır; dinî gerçeği reddetmek ise dinî gerçeği, birliği, hükmü veya peygamberliği inancın karşıtı olarak kabul etmeme hareketidir. Örtü ve işitmeye kapanma görüntüsü (2:19), ayrı ibadet beyanı (10:104), ortak koşmanın reddi (46:6) ve iman ile inkâr ayrımı (64:2) bu yüzlerin temasını açar. Başındaki besmele (109:0) ve tekrarlanan {ar:تَعْبُدُونَ, tr:ta‘budûn, gloss:ibadet ediyorsunuz} fiili (109:2, 109:3, 109:4, 109:5) muhatapları belirsiz bir nüfus değil, belirli bir hizmet ilişkisi içindeki topluluk olarak gösterir. Bu adlandırmada örtme, reddetme ve hizmet birbirini açan ayrı yüzler olarak kalır; yerel hitap korunur.
+
+Muhataplık sınırının katkısı, adlandırmanın muhatabı konuşmanın dışına atmadan belirli bir temas alanı içinde tutmasıdır. Doğrudan seslenişte {ar:ٱلْكَافِرُونَ, tr:el-kâfirûn, gloss:inkâr edenler} birini inançsız diye niteleyen adı taşır; “ey” çağrısı bu nitelemeyi gerçek muhataba yöneltir ve “sizin dîniniz size, benim dînim bana” sınırına kadar konuşmayı sürdürür (109:6). Peygamberlerin bir kısmını kabul edip bir kısmını reddedenlerin inançsız sayılması (4:151) ve insanların iman eden ile inkâr eden olarak ayrılması (64:2), adın hem belirleyici hem iletişimsel niteliğini açar. Bu bağlantıda yerel muhatap belirlenir ve hitabın temas alanında tutulur; adlandırma sınırsız bir mahkûmiyet cümlesine genişlemez.
+
+Nimet örtüsü görüntüsünün katkısı, bu adlandırmayı bilinen bir iyiliğin değerini örtme ihtimaline açmaktır. Nimeti tanıdıkları hâlde onu inkâr edenler (16:83), inkârın yalnızca bilinmeyen bir hakikate karşı çıkmadığını gösterir. Bu temas, muhataba yönelen adlandırmada alınmış değerin üzerini kapatma ve ona karşı şükrü kapatma yüzünü görünür kılar. Nimeti yadsıma, örtme ve dinî gerçeği reddetme aynı adın içinde yan yana duran ayrı hareketlerdir; daha geniş bağlam (16:83) bütünüyle bu âyetin yerine geçmez ve nankörlük adın tek anlamı olmaz.
+
+Ayrılmış bağlılıklar kaydının katkısı, ayrılığı uzlaşma aşamaları değil, tarafların ayrı tutulduğu bir kayıt gibi duyurmaktır. {ar:قُلْ, tr:kul, gloss:söyle} için müzakere etme yüzü iki tarafın konuşup görüşmesini, {ar:كَفَرَ, tr:kefere, gloss:bağını reddedip uzaklaşmak} belirli bir bağdan ayrılmayı ve kendini onun dışında tutmayı bildirir. “Sizin dîniniz size, benim dînim bana” karşılıklılığı (109:6), ataların taptıklarından uzak durma (43:26), yalnızca yaratıcıyı istisna etme (43:27), açık ayrışma (60:4), kıyamet gününde bağların reddi (29:25) ve sahte ilâhların kulluğu reddetmesi (19:82) bu ayrılmayı farklı bağlamlarda görünür kılar. Bu yüzden 109:2, 109:3, 109:4, 109:5 ve 109:6'daki olumsuzlamalar, iki ibadet düzenini ayıran biçimsel bir kayıt gibi işitir; bu bağlantıda karşılıklılık bağlamdan gelir, {ar:قُلْ, tr:kul, gloss:söyle} fiili karşılıklı fiile dönüşmez.
+
+Zamana yayılan teşhisin katkısı, ilk bakışta sabit duran adı 109:2, 109:3, 109:4 ve 109:5'teki ibadet cümleleri ile 109:6'daki son dîn ayrımı geldikçe ilişkisel bir teşhise dönüştürmektir. Dinî gerçeği reddetme yüzü ibadet nesneleri arasındaki karşıtlıkta, inançsız sayma yüzü hitabın kimi adlandırdığında, {ar:قُلْ, tr:kul, gloss:söyle} içindeki konuşma ve görüşme yüzü de “sizin ... benim” karşılıklılığında belirginleşir. Ayrı ibadet beyanı (10:104), ortak koşanların reddi (46:6) ve sınırlı iman iddiasına verilen hüküm (4:151) bu açılımı besler. Sonraki cümleler ilk hitaptaki işi açar; bu bağlantıda kul biçimsel olarak karşılıklı fiile dönüşmez ve adın bütün anlam dalları tek bir sonuca indirgenmez.
+
+Hizmet ve dînî görüş temasının katkısı, bu teşhisi somut bir bağlılık ile benimsenmiş doktrinin kesiştiği yerde tamamlamaktır. Başındaki besmele (109:0) ile tekrar edilen {ar:تَعْبُدُونَ, tr:ta‘budûn, gloss:ibadet ediyorsunuz} fiili (109:2, 109:3, 109:4, 109:5), muhatapları belirli bir hizmet ilişkisi içinde gösterir; aynı işlevsel teşhis ayrı ibadet beyanı ve ortak koşanların reddinde de görünür (10:104, 46:6). Dîn ayrımı (109:6), {ar:قُلْ, tr:kul, gloss:söyle} emrindeki benimsenmiş görüş yüzünü bu bağlılığın dînî ifadesine bağlar; ibadetin yalnız Allah'a özgülenmesi (39:14) bu teması başka bir bağlamda açar. Burada adlandırmak, kişinin hizmette ve dînî görüşte nereye bağlandığını görünür kılmanın iki işidir. Bu bağlantıda müzakere ve uzaklaşma yüzleri korunurken pratik hizmet ile benimsenmiş doktrin birbirine temas eder.
+
+Tanıma ve saklama karşılaşmasının katkısı, dışarıdan gelen dar bir karşılaştırma içinde görünür kabul ile nimetin değerini örten geri çekilme alanını birlikte duyurmaktır. Açık övgü eylemi (1:2) görünür kabulü taşırken, {ar:ٱلْكَافِرُونَ, tr:el-kâfirûn, gloss:inkâr edenler} nimetin değerini örterek tanımayı geri çekme alanını taşır. Övgü ile gizlenen faydanın karşılaşması, hitapta tanımanın açığa çıkarılması ile saklamanın sürdürülmesi arasında yerel bir gerilim kurar; bütün Fâtiha teması buraya taşınmaz. Bakım görüntüsünün katkısı, aynı sınırlı temasta tohumu örten çiftçi ve gelişen şeyi saran kılıf görüntülerini rızıklandıran ve besleyip ortaya çıkaran bakım alanıyla buluşturmaktır (1:2). Örtme ile beslenme yan yana gelince bakım gören bir tarlada henüz görünmeyen içeriği tutan hazırlık hissi doğar. Bu bağlantı gerçek çiftçiyi, tarlayı, meyveyi, hasadı veya büyüme sonucunu bildirmez.
+
+Ses ve hitap çerçevesinin katkısı, bütün bu açılımlar içinde ilk cümleyi emredilmiş bir ses ve doğrudan bir hitap olarak yerinde tutmaktır. {ar:قُلْ, tr:kul, gloss:söyle} sözü dışarı çıkarır ve konuşanın benimsediği dînî görüşü duyulur kılar; {ar:ٱلْكَافِرُونَ, tr:el-kâfirûn, gloss:inkâr edenler} adı ise örtme, reddetme ve bağdan ayrılma yüzleriyle belirli muhatabı karşısında tutar. Hizmet fiilleri (109:2, 109:3, 109:4, 109:5) bu adlandırmayı pratik bağlılığa, dîn tahsisi (109:6) de iki ayrı görüş ve teslimiyet düzenine bağlar. Bu çerçevede söz kamusal bir sınır olarak işitilirken her tarafın dînî sorumluluğu kendi yerinde kalır.
+
+</editorial_prose>

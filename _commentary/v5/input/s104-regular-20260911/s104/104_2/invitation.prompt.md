@@ -1,0 +1,223 @@
+# V5 reading invitation — 104:2
+
+You are a fresh reading-invitation writer. Read the complete editorial prose
+before writing. It is your sole semantic source.
+
+Write two to four paragraphs of fluent, contemporary Turkish that reveal a
+surprising reading by following one or two main channels of resonance in the
+ayah. A channel is a connected background of meanings, images, actions, or
+relations through which the ayah can be heard and understood differently.
+Several editorial findings may together develop one channel. Summarize that
+connected movement and its consequence for the ayah's main meaning, rather
+than compressing findings individually. Give the reading's substance now;
+the invitation comes from understanding it, not from a promise of hidden depth.
+
+Before drafting, read the entire editorial prose and silently select the one
+or two channels with the strongest interpretive consequence and enough
+grounding to explain clearly. Favor channels that expand or shift what the
+ayah says, the relation it establishes, or what is at stake in its action or
+image. One fully developed channel is sufficient; add a second only when it
+offers a distinct consequential reading that can be explained within the
+invitation. No finding, channel, or major shift has an individual coverage
+claim. Unselected material may remain entirely in the full commentary.
+
+A channel may develop through grammar, sound, dialogue, a material process,
+time, imagery, or a conceptual relation. Resonance is not limited to acoustic
+effects, and an unusual image alone does not establish a channel. Use only
+connections the editorial prose actually develops. If it supplies no such
+channel, explain its strongest grounded reading without inventing connections
+or surprise.
+
+Begin inside the ayah's own words, images, actions, or relations and reveal a
+selected distinctive reading in the first paragraph. Keep the plain meaning
+reachable with only the orientation needed to understand the change. Do not
+spend an opening paragraph on routine explanation or front-load context about
+the surah, the ayah's position, or the commentary project.
+
+For each selected channel, begin with the expression that opens it, unfold the
+connected background, and show how the ayah reads or sounds against that
+background. Let a detail lead into the next through an intelligible relation
+or process, so the reader experiences the emerging reading. This is a movement
+of thought, not a mandatory sentence pattern or one paragraph per finding.
+Let the reader identify the expression being interpreted,
+where any nonordinary detail comes from, and what that detail changes in the
+reading. Briefly identify the word-family use, restricted form, collocation, or
+context that supplies an essential added detail, and preserve the concrete
+operation that makes the image work. Keep the ordinary reading and necessary
+qualification clear within this explanation; do not repeat them as a fixed
+formula. Preserve the particular object, process, or relation that makes this
+reading distinctive, and state its interpretive consequence for the ayah as a
+whole. Make intelligible what the familiar reading leaves less visible and
+what the expanded or shifted reading now lets the reader understand. Preserve
+the editorial's force: an exploratory possibility remains possible, while a
+developed shift must not be softened into a decorative association or a
+reassurance that everything means the same thing. A concrete
+account of how something is carried, transformed, lost, or restored must not
+shrink to a general statement about care, guidance, dependence, or goodness.
+Keep the details needed to make the selected channel work; omit side findings
+and shorten routine setup. If a channel cannot be explained faithfully from
+the editorial prose, choose another grounded channel or reading.
+
+When a non-focus ayah supplies a contribution used in the invitation, keep its
+reference from the editorial prose beside that contribution.
+
+Do not turn the invitation into a miniature inventory of the commentary's
+conclusions, or flatten distinct channels into a broad theme to include more
+material. Do not repair, extend, or supplement the editorial prose from memory
+or outside knowledge.
+
+Omit technical apparatus. Retain any qualification, source distinction, live
+alternative, or boundary whose absence would change the force or meaning of a
+chosen reading. Express it naturally beside the image or relation it qualifies.
+Favor positive explanations of the relation between layers: what remains in
+the foreground and what the resonance makes audible in the background. State
+how that background reinforces, expands, or shifts the understanding of the
+main meaning, with the source and degree of certainty clear. Reserve explicit
+exclusions for concrete ambiguities or live counter-evidence that need them.
+Repeated "this is not X" endings make a reading sound withdrawn; express the
+substantive qualification through what the reading does contribute wherever
+possible. Use varied, natural language rather than a repeated "second layer"
+formula, and preserve the force of expansions and shifts.
+Do not name branches, candidates, findings, scopes, evidence categories,
+ledgers, or workflow stages, or label the prose as numbered channels. Do not
+list findings serially.
+
+Use the established `{ar:..., tr:..., gloss:...}` syntax, consistent
+Turkish-readable transliteration, and short ordinary glosses. Keep Arabic
+anchors beside the explanations they ground. Within a paragraph, continue with
+the Turkish meaning where clear; provide the necessary local tag when a later
+paragraph interprets the carrier anew. Do not place Arabic script outside a
+valid tag.
+
+Build transitions within a channel through its shared object, action, or
+relation. If two channels are selected, they may occupy separate paragraphs;
+do not invent a link between them. Do not praise the commentary's quality,
+promise what the reader will find, manufacture suspense, recap at the end, or
+add a call to action. End on an image, relation, action, or tension already
+established by the selected reading.
+
+Before finishing, compare the invitation with the entire editorial prose:
+does the chosen channel reveal a consequential reading, or could the text have
+been written from the ordinary translation and a modest explanation alone?
+When the editorial supports a surprising channel, the latter fails this task.
+Can the reader follow the opening expression into a connected background and
+understand how that background expands or shifts the ayah's main meaning?
+Check the selected connections against their editorial explanation: can the
+reader tell where the nonordinary details come from, with the necessary
+qualifications intact? Repair generic explanation, isolated curiosities, or a
+compressed findings list by developing the selected channel. Do not add
+omitted channels merely for coverage. Do not output this check.
+
+Write only the invitation text to:
+
+`_commentary/v5/editorial/s104-regular-20260911/s104/104_2/104_2.invitation.tr.md`
+
+Do not add a heading, wrapper label, index, ledger, evidence file, or any other
+artifact. Do not modify the editorial prose.
+
+After writing the invitation, run:
+
+```bash
+python3 _commentary/v5/validate_prose.py _commentary/v5/editorial/s104-regular-20260911/s104/104_2/104_2.invitation.tr.md
+```
+
+If validation fails, repair only the reported mechanical file-contract issues
+and rerun it, for at most two repair cycles. Report the final validator result
+in your response.
+
+<editorial_prose>
+## Kişiyi davranışıyla görmek
+
+Bu kısa âyet, önceki âyette işaret edilen kişiyi (104:1) yeni bir ad açarak değil, yaptığı iş üzerinden tanımlar. {ar:ٱلَّذِى, tr:ellezî, gloss:önceki tipi tanımlayan kimse} sözü önceki tanımın aynı kişide sürmesini sağlar. Ardından gelen iki geçmiş fiil, o tanımı soyut bir hüküm olarak bırakmayıp davranışa çevirir. {ar:جَمَعَ, tr:cemeʿa, gloss:topladı} tamamlanmış ilk eylem vuruşudur: dağınık olan {ar:مَالًا, tr:mâlen, gloss:mal ve varlık} bir araya getirilmiştir. {ar:وَ, tr:ve, gloss:ve} bu eylemi bir hâl ya da açıklama cümlesine çevirmeden ikinci fiile bağlar. Özne yeniden yazılmadan gelen {ar:عَدَّدَهُۥ, tr:ʿaddadahū, gloss:onu saydı} aynı kişinin ikinci hareketidir; toplayanla sayan tek bir davranış çizgisinde birleşir. Sonundaki {ar:هُۥ, tr:-hû, gloss:onu} da sayılan şeyi aynı mala geri bağlar. Âyetin açık zemini böylece kurulmuştur: önceki âyette tanımlanan kişi mal toplar ve onu sayar.
+
+## Malın stok hâline gelişi
+
+{ar:جَمَعَ, tr:cemeʿa, gloss:topladı} kelimesi ayrı parçaları birbirine yaklaştıran toplama hareketini taşır. Belirtme durumundaki bağımsız nesne {ar:مَالًا, tr:mâlen, gloss:mal ve varlık} olduğunda bu hareket elde tutulabilen, değer taşıyan maddi varlıkları kendine çeker. Belirsiz oluşu tek bir adı konmuş malı değil, sınırları önceden çizilmemiş bir mal ve değerler sınıfını açar. Okur böylece soyut bir zenginlik başlığından çok, toplanabilir ve yeniden gözden geçirilebilir somut değerler görür. Bu temasın kapsamı elde tutulabilen ekonomik maldır; nesne kendi maddi hedefinde kalır.
+
+İlk fiilin nesnesi olan {ar:مَالًا, tr:mâlen, gloss:mal ve varlık}, son fiilin {ar:هُۥ, tr:-hû, gloss:onu} ekiyle yeniden görünür. Aynı şey önce toplanmış nesne, sonra sayılmış nesne olur; iki eylem tek bir mal yörüngesinde birleşir. Açık bir mal kategorisinin ardından gelen bu zamir, varlığı elde duran bir stok olarak belirginleştirir ve hemen sonraki sahiplik iddiasına geçit açar (104:3). Gramer önce mal ve değerler sınıfını gösterir, sonra birinin elindeki miktara doğru ilerler; sayılan nesne belirsiz bir soyutlama içinde bırakılmaz.
+
+## Sayının ritmi
+
+{ar:وَ, tr:ve, gloss:ve} küçük bir bağlaçtır, fakat iki eylemin birbirine nasıl değdiğini duyurur: toplanan mal aynı nefeste sayılan mala dönüşür. Bu yakınlık, saymayı toplamanın bir niteliği değil, aynı öznenin ikinci ve bağımsız geçmiş fiili olarak kurar. {ar:عَدَّدَهُۥ, tr:ʿaddadahū, gloss:onu saydı} malı birimlerine ayırıp toplamını belirleyen, yeniden yapılabilen yoğun bir işlem gibi duyulur. Servet böylece yalnız biriktirilmiş bir bütün değil, miktarı gözden geçirilebilen sonlu bir toplamdır. Fiilin ikinci kalıbı ve geçmiş biçimi saymanın tekrarlı vuruşunu taşır; âyetin söylemediği geniş bir zaman iddiası bu vuruşa eklenmez. Kelimenin çiftlenen diş sesi de birim birim vuran ritmi işitsel olarak destekler; katkısı, ikinci kalıbın yoğun sayma hareketini duyulur kılmaktır.
+
+Okuma geleneğinde sunulan {ar:جَمَّعَ, tr:cemmaʿa, gloss:yoğunlaştırarak topladı} biçimi toplama vuruşunu daha sıkı duyurur; ana yüzeyin {ar:جَمَعَ, tr:cemeʿa, gloss:topladı} olarak kalması bu yoğunluğu ana fiile eklenen bir karşılaştırma imkânı hâlinde taşır. Benzer bir ses ayrımı {ar:وَعَدَدَهُ, tr:ve adedehû, gloss:ve onu sayı olarak belirledi} okumasında görülür: çiftlenmiş eylem ile daha yalın sayı duyumu birbirinden ayrılır. Ana okuyuşun ikinci kalıptaki fiili bu ihtimali de görünür tutarak kendi tekrarlı sayma işini sürdürür. Sonundaki {ar:هُۥ, tr:-hû, gloss:onu} âyeti yine malın üzerinde kapatır; zamir, toplama ve sayma hattını aynı nesnede mühürler. Bu son ekin sonraki sahiplik ve onun etkisiyle buluşmaya elverişli oluşu (104:3), kapanışı ileriye taşır; sonraki iddia burada kurulan mal döngüsünün üzerine eklenir.
+
+İki fiilin teması önce yoğunlaşmış bir stok görüntüsü kurar. {ar:جَمَعَ, tr:cemeʿa, gloss:topladı} ayrı değerleri tek bir maddi bütün hâline getirir, {ar:مَالًا, tr:mâlen, gloss:mal ve varlık} bu bütünün maddesini verir, {ar:عَدَّدَهُۥ, tr:ʿaddadahū, gloss:onu saydı} da her birimi yeniden görünür kılarak toplamı göz önünde tutar. Maddi değerler burada yalnız sahip olunan şeyler değildir; davranış gibi tek tek işaretlenip sayılan bir bütündür. Bu birleşik görüntünün katkısı, mal sahibi olma cümlesini toplama ve saymadan oluşan bir işlem hâlinde göstermesidir: toplanan mal kontrollü bir stok, sayılan stok da miktarı belirlenmiş bir değerler bütünü olur.
+
+Bu stok görüntüsü gelecekte kullanılabilecek bir yedeğe doğru da açılır. {ar:عَدَّدَهُۥ, tr:ʿaddadahū, gloss:onu saydı} elde bulunan değeri ihtiyaç anında erişilebilir tutan bir envanter gibi görünür; {ar:مَالًا, tr:mâlen, gloss:mal ve varlık} bu yedeğin maddesidir. Saymak toplamı belirlerken malı hazırlanmış bir rezerv olarak düzenleme baskısı da verir. Fiilin yüzeyi saymayı korur; görüntü belirli bir silaha ya da tek bir ihtiyaca bağlanmadan, sayılan miktarın kullanılabilir gereçlere ayrılmış bir stok gibi düşünülmesini sağlar. Gelecek ve dayanıklılık çağrışımı 104:3 ve 104:9'da, uzatılmış rızık görüntüsü ise 74:12'de görünür; verilen imkân ile kapatılarak saklanan yığın böylece birbirinden ayrılır.
+
+Sayma bir kez yapılan miktar tespiti olmaktan çıkıp toplanmış bütünün eksiksizliğini yeniden yoklayan bir güvence ritmine de yaklaşır. {ar:جَمَعَ, tr:cemeʿa, gloss:topladı} parçaları tek bir bütün hâline getirir; {ar:عَدَّدَهُۥ, tr:ʿaddadahū, gloss:onu saydı} bu bütünün dağılmadığını yeniden kontrol eder; {ar:مَالًا, tr:mâlen, gloss:mal ve varlık} yoklanan maddi merkez olarak kalır. Her geri dönüş stokun aynı bütün olarak tutulduğu hissini verir. Bu tekrarın katkısı, sayının bütünlüğü yoklayan bir güvence hareketi oluşturmasıdır; belirli bir takvim, büyüme veya devir iddiası bu bağlantının kapsamına girmez.
+
+Toplanan bütün, {ar:لِّكُلِّ, tr:likulli, gloss:her birine ve tümüne} yüzeyinin kuşatıcı bütünlüğü ve {ar:تَطَّلِعُ عَلَى, tr:tattaliʿu ʿalā, gloss:üzerine çıkar ve açığa çıkar} yüzeyine sağlanan ağzına kadar doluluk imgesiyle birleştiğinde her şeyi tek ölçüye alan, kullanılmamış yer bırakmayacak kadar dolmuş bir durma görüntüsü de verir (104:1, 104:7). {ar:عَدَّدَهُۥ, tr:ʿaddadahū, gloss:onu saydı}nın sayılabilir birimleri bu doluluğu görünür kılar. Bu bağlantının katkısı kapasitenin hissedilmesidir; sayı böylece nihai bir sınıra ulaştığını veya bütün eksikliği giderdiğini ilan eden bir araca dönüşmez.
+
+## Avuçtan topluluğa
+
+Toplama ve sayma çifti dokunsal bir şekil de alır. {ar:جَمَعَ, tr:cemeʿa, gloss:topladı} dağınık parçaların parmakların kapanmasıyla tek elde toplanmasını, {ar:عَدَّدَهُۥ, tr:ʿaddadahū, gloss:onu saydı} ise kapalı avucun aldığı birimleri tek tek elden geçirmeyi düşündürür. {ar:مَالًا, tr:mâlen, gloss:mal ve varlık} elde yakın tutulan, kavranabilir değer olur; servet zihinde avuç avuç tutulan ve sayılan parçalara ayrılır. Birimlendirme burada dokunsal benzetmenin ölçüsüdür; malın elde tutulma biçimini görünür kılar ve bu temasın sınırları içinde kalır.
+
+Toplama ve sayma burada serveti kişiler arasında görünür kılan bir topluluk ölçüsü kurar. Bu katkının zemini, önceki âyetteki {ar:لِّكُلِّ, tr:likulli, gloss:her birine ve tümüne}, {ar:هُمَزَةٍ, tr:humaza, gloss:ayıplayan} ve {ar:لُمَزَةٍ, tr:lumaza, gloss:iterek inciten} ile çizilen sosyal çerçevedir (104:1). {ar:جَمَعَ, tr:cemeʿa, gloss:topladı}nın ayrı şeyleri bir araya getiren yüzü insanlardan oluşan bir topluluğu; {ar:مَالًا, tr:mâlen, gloss:mal ve varlık} ile {ar:عَدَّدَهُۥ, tr:ʿaddadahū, gloss:onu saydı} ise bu topluluk içinde miktarı görünen bir değeri düşündürür. {ar:هُمَزَةٍ, tr:humaza, gloss:ayıplayan} kusur bulmayı sosyal hedefe taşır, {ar:لُمَزَةٍ, tr:lumaza, gloss:iterek inciten} aynı ölçüyü aşağı doğru yönelen bir basınç gibi duyurur. Sayılan servet böylece pay, karşılık ve kişiler arasındaki konumu görünür kılan bir ölçüye yaklaşır; bu sosyal genişleme adı konmuş bir toplantı, ittifak veya kurumsal paylaşım iddiası taşımaz.
+
+Bu sosyal ölçü, toplama hareketine içe ve dışa yönelen bir basınç da verir. {ar:جَمَعَ, tr:cemeʿa, gloss:topladı} değerleri içe doğru sıkıştıran birikimi, {ar:هُمَزَةٍ, tr:humaza, gloss:ayıplayan} için verilen elde sıkma ve bastırma imgesini, {ar:لُمَزَةٍ, tr:lumaza, gloss:iterek inciten} için verilen itme-vurma imgesini birbirine bağlar (104:1). Mal için içe çöken, insanlar için dışarı yönelen hissedilir bir ekonomi basıncı ortaya çıkar; toplanmış mal bu temas içinde basınç altında sıkışmış bir stok gibi de duyulur (104:1, 104:6). Bu bedensel sıra 104:1'deki bastırma, 104:4'teki atılma ve 17:29'da kapalı elin açılmasına karşı kurulan uyarı ile belirginleşir: el tutar, tutuş başkasına basınç olarak döner, sonra tutulan şeyle birlikte sahibi de atılma ihtimaliyle karşılaşır. Toplama fiilinin sözlük işi bu ilişkide toplama olarak kalır; sosyal itme, malın biriktirilmesine bağlanan yönlü ve araştırıcı bir görüntüdür.
+
+## Hesaptan kalıcılık sanısına
+
+Toplama ve sayma, sonraki {ar:يَحْسَبُ, tr:yahsabu, gloss:hesaplar ve sanır} ile buluştuğunda maddi stok zihinsel muhasebeye dönüşür (104:3). {ar:عَدَّدَهُۥ, tr:ʿaddadahū, gloss:onu saydı} görünür bir toplam üretir; hesaplayan zihin bu toplamı kanıtlanmış bir sonuca taşıyabilir. {ar:أَخْلَدَهُ, tr:akhladahu, gloss:onu kalıcı kıldı} sözü sınırlı servete uzun süreli varoluş yükleyen yönü açar. Kayıt doğru olabilirken, kayıtla güvence arasına bir sanı girer: ölçülen miktar hayatı kalıcı kılacakmış gibi görünür. 18:36'daki yok olmayacağı sanılan mülk, 111:2'de sahibine fayda vermeyen mal ve kazanç, 5:36'da azabı satın alamayan bütün yeryüzü serveti bu kalıcılık iddiasını sınırlar. 3:24'teki sayılı günler, aynı sayı dilinin servetten bağımsız bir rahatlama kullanımını gösterir; bu karşılaşma mal hesabının kendi kapsamını korur.
+
+Bu hesap pratik bir yeterlilik düşüncesini varoluşsal bir cevaba kadar uzatabilir. {ar:عَدَّدَهُۥ, tr:ʿaddadahū, gloss:onu saydı} gelecekteki ihtiyaç için ayrılmış miktarı tutar, {ar:يَحْسَبُ, tr:yahsabu, gloss:hesaplar ve yeterli görür} o miktarı yeterli sayar, {ar:أَخْلَدَهُ, tr:akhladahu, gloss:onu kalıcı kıldı} ise çabuk yok olmayan bir devam duygusu verir (104:3). Sıradan ihtiyaç rezervi böylece bağımlılığın yerini dolduracak ve çürüme sınırını örtecekmiş gibi tasarlanır. Bu ilişkinin katkısı, rezervi varoluşsal bir güvence gibi hissettirmesidir; pratik hazırlık burada ölüm veya kesin yeterlilik hakkında ayrı bir hükme dönüşmez.
+
+Saymanın tekrarlı yüzü {ar:مُمَدَّدَةٍ, tr:mumaddadah, gloss:uzatılmış} ile buluştuğunda güvenlik umudu dönemlere ayrılır. Uzayan fakat sınırını koruyan bir vade, sayılı aralıkların tekrar tekrar eklenmesiyle maldan bekleyişe ve geri dönüşe uzanır; zaman miktar gibi yönetilebilir görünür (104:9). Bu hareket sonlu aralıkların yenilenebilirlik hissini verir; niteliksel kalıcılıkla arasındaki sınır korunur. Sayılan nesne mal olarak kalır; {ar:مُمَدَّدَةٍ, tr:mumaddadah, gloss:uzatılmış} burada zamanı doğrudan nesneleştirmeden uzayan vade imgesini açar ve destek ile artış yönlerini de açık bırakır.
+
+## Stoktan yapıya
+
+104:9'daki {ar:عَمَدٍ مُمَدَّدَةٍ, tr:ʿamadin mumaddadah, gloss:uzatılmış sütunlar}, sayılan malın maddi birimlerini kurulacak bir yapının parçaları gibi düşündürür. {ar:جَمَعَ, tr:cemeʿa, gloss:topladı} parçaları eksilmemiş sıkı bir bütün hâline getirir; {ar:عَدَّدَهُۥ, tr:ʿaddadahū, gloss:onu saydı} her birimi yeniden seçilebilir kılar; sütunlar ve uzayan destekler birikime dikey bir şekil verir. Her yeni sayım yapıya eklenen bir parça, uzayan bir çizgi ve sahibinin çevresinde yükselen bir destek çubuğu gibi çalışabilir. Birikimin önlemek istediği kapanma, bu yerel mimari görüntüde bizzat yükselir.
+
+Bu yapı sağlamlıkla birlikte yoğun ve diri bir bütünlük de taşır. {ar:عَمَدٍ, tr:ʿamad, gloss:sütunlar} için sağlanan dolgun ve güçlü genç beden imgesi ile {ar:لِّكُلِّ, tr:likulli, gloss:her birine ve tümüne} için sağlanan kısa, kalın, sıkı yapı imgesi, toplanmış serveti gevşek bir yığın olmaktan çıkarıp parçaları yerinde duran dolgun bir değer gövdesi gibi hissettirir (104:1, 104:9). Bedensel çağrışım malı canlı bir bedene dönüştürmeden, birikmiş bütünün yoğun ve diri biçimini hissettirir.
+
+{ar:جَمَعَ, tr:cemeʿa, gloss:topladı} fiilinin eli boyna yaklaştıran bağlama yönü, {ar:لِّكُلِّ, tr:likulli, gloss:her birine ve tümüne} yüzeyine sağlanan perde veya dikilmiş barınak kullanımıyla aynı sınırlı hacimde buluşur (104:1). Biriktirilmiş malın sınırı bedeni örten esnek bir örtü gibi koruma sağlayabilir; aynı sınır hareketi kısıtlayan bir bağa da dönüşebilir. Korunma ile cezalandırma arasındaki bedensel karşıtlık bu iki yönü birlikte taşır ve toplama hareketine bağlanan kısıt görüntüsü böylece belirginleşir.
+
+Toplama hareketi {ar:أَخْلَدَهُ, tr:akhladahu, gloss:onu kalıcı kıldı} sözündeki kalıcılık ve bedene bağlı kalma yönüyle karşılaştığında, birikmiş nesneler bedeni örten bir yüzey ve seçilmiş noktalarda sabitlenen süsler taşıyan katmanlı bir görünüm verir (104:3). Malın miktarı görünür ve kalıcı bir yüzey gibi hissedilir; bu görüntü yüzey ve süs ayrıntısı olarak kalır, ayrıca adlandırılmış bir beden, giysi veya mücevher sahnesine sabitlenmez. Korunaklı stok ile onu kuranın hareketini daraltan sınır aynı gelişen görüntü içinde karşılaşır.
+
+Bu yapı karar ve yönetim çağrışımını da açar. {ar:جَمَعَ, tr:cemeʿa, gloss:topladı} düşünülmüş dağınık unsurları uygulanabilir bir tutumda birleştirir; {ar:يَحْسَبُ, tr:yahsabu, gloss:hesaplar ve işi gözetir} işi inceleyip yönetme yönünü, {ar:عَمَدٍ مُمَدَّدَةٍ, tr:ʿamadin mumaddadah, gloss:uzatılmış sütunlar} ise güvenilen dayanak veya taşıyıcı kişi yönünü getirir (104:3, 104:9). Toplama böylece yalnız yığın değil, gözetilen bir karar ve yürütülmesi için destek arayan idari bir zincir gibi görünür. Bu katkı, mal toplamanın karar öncesi düşünceleri tek bir düzene bağlama yönünü açar; görüntü gerçek bir makam veya hukuk prosedürüne dönüşmez.
+
+Sayma aynı düzen içinde lojistik bir işleve yaklaşır. {ar:عَدَّدَهُۥ, tr:ʿaddadahū, gloss:onu saydı} rezervi ölçülebilir paylara ayırır; {ar:يَحْسَبُ, tr:yahsabu, gloss:hesaplar ve yeterli görür} yeterlilik vaadini, {ar:مُمَدَّدَةٍ, tr:mumaddadah, gloss:uzatılmış} başkasına yardım eden bağlı artışı veya devamı besleyen çoğalmayı, {ar:لَيُنبَذَنَّ, tr:layunbadhanna, gloss:kesinlikle atılacak} ise en sonunda kalabilecek küçük ve dağınık artığı düşündürür (104:3, 104:4, 104:9). Rezerv ölçülür, yeterli görünür, başka bir devamı besleyecek biçimde ayrılır ve yine de bir artık bırakabilir. Bu lojistik görüntü sayılan malın çevresindeki hazırlık düzenini açar; özneye tedbir sıfatı veya gerçek güvenlik sonucu yüklemeden, rezervin nasıl işletildiğini gösterir.
+
+## Akış ve yetişme
+
+Aynı birikim başka bir bağlamda akışın tutulduğu bir rezerv havuzuna dönüşür. {ar:جَمَعَ, tr:cemeʿa, gloss:topladı} fiilinin ayrı akışları tek bir bütünde tamamlama yönü, {ar:مُمَدَّدَةٍ, tr:mumaddadah, gloss:uzatılmış} yüzeyinin kaynağı kesilmeyen su ve beslenen akış kullanımıyla birleşir (104:9). {ar:عَمَدٍ, tr:ʿamad, gloss:sütunlar} için sağlanan ıslak ve sıkı toprak, dere yatağını kapatan set ve akışı tutan engel kullanımları bu havuza zemin ve bariyer verir. Akışın kabarıp başka suyla beslenmesi ölçülen stokun dinamik seviyesini, {ar:لَيُنبَذَنَّ, tr:layunbadhanna, gloss:kesinlikle atılacak} için sağlanan gevşek veya ihmal edilmiş toprak kalıntısı da toplanıp yeniden biçimlendirilen malzemeyi gösterir (104:4). Servet böylece kaynak, yenilenme, set ve tutulmuş hareket taşıyan birikmiş seviye gibi görünür. Bu temasın getirisi stokun dolaşımını ve yeniden beslenme ihtimalini göstermektir; malın ekonomik kimliği korunur, su ve mühendislik görüntüsü bu bağlantının taşıyıcı benzetmesi olarak kalır.
+
+Başka bir gelişim görüntüsünde {ar:جَمَعَ, tr:cemeʿa, gloss:topladı} çekirdekten yetişen, henüz bilinmeyen bir hurma ağacına açılan kullanımıyla gizli başlangıçtan görünür yükselişe geçer. {ar:تَطَّلِعُ عَلَى, tr:tattaliʿu ʿalā, gloss:üzerine çıkar ve görünür olur} filizin ve bitkinin çıkışını bu yükselişe bağlar; {ar:نَارُ اللَّهِ, tr:nāru llāhi, gloss:Allah'ın ateşi} yüzeyindeki çiçek ve tomurcuk çağrışımı, olağan ateş anlamını koruyarak görüntüyü çiçeklenmeye taşır (104:6, 104:7). {ar:مُؤْصَدَةٌ, tr:muʾsadah, gloss:kapatılmış} için sağlanan kökleri birbirine yakın bitki imgesi yoğun köklü bir standa ulaşır (104:8). Mal toplama sahnesi bu kez canlı bir gelişim yayı kazanır; yetişme görüntüsü ekonomik mal anlamını zenginleştirir, botanik anlamı mal kelimesine aktarmaz.
+
+`Çadır ve direk` görüntüsü bu ölçüye topluluk içinden başka bir biçim verir. {ar:عَدَّدَهُۥ, tr:ʿaddadahū, gloss:onu saydı} sayılabilir karşılıkları ve payları, {ar:يَحْسَبُ, tr:yahsabu, gloss:hesaplar ve sanır} sayılmış meziyetleri, {ar:عَمَدٍ مُمَدَّدَةٍ, tr:ʿamadin mumaddadah, gloss:uzatılmış sütunlar} ise direklerle kurulan hareketli topluluğu çağırır (104:3, 104:9). Maddi toplam bu topluluk içinde pay, puan ve görünür statü olarak pazarlık edilen bir ölçüye dönüşebilir. Akranlar, meziyetler ve direkler sayımın topluluk içindeki görünür karşılığını kurar; bu katkı malı ahlaki meziyete, özneyi çadır sakinine veya çevreyi gerçek bir kabile hiyerarşisine dönüştürmeden sosyal ölçüyü belirginleştirir.
+
+## Atılma ve ateş
+
+Toplama eyleminin sonraki bağlamda tersine dönmesi, elde tutma görüntüsünü sınayan bir hareket getirir. {ar:لَيُنبَذَنَّ, tr:layunbadhanna, gloss:kesinlikle atılacak} yüzeyinin dışarı atılan veya bir kabın içine bırakılan madde yönü, {ar:الْحُطَمَةِ, tr:al-ḥuṭamah, gloss:parçalayıp ezen} yüzeyinin kuru şeyi kırıp ufalayan ve karşısına çıkanı ezen kütle yönüyle buluşur (104:4). Önce malı toplayıp yerleştiren kişi, sonra bırakılan ve başka bir işlem tarafından tüketilen içerik gibi görünür; toplanmış bütün atılma ve parçalanma yönüne taşınır. Toplayanın kendisinin atılması (104:4), sayılmış düzenin onu çevreleyen kapalı yapının yankısı hâline gelmesiyle (104:8, 104:9) geriye doğru da okunabilir. Böylece sonraki bağlam, özne ile eylemin yerini karşılaştırmalı biçimde değiştirir.
+
+{ar:جَمَعَ, tr:cemeʿa, gloss:topladı} parçaları tamamlanmış bir güçte birleştirirken {ar:الْحُطَمَةِ, tr:al-ḥuṭamah, gloss:parçalayıp ezen} dirençli bütünü kırıp ufalayan, karşılaştığını ezen ortak bir kütle gibi görünür (104:4, 104:5). Toplamanın düzenleyici işlemi karanlık bir karşılıkta ezici bir birliğe dönüşür; malın düz anlamı bu görüntünün zemininde kalır. Aynı temas insanları veya güçleri bir yer ya da gün içinde toplama yönüyle mimari ve kalabalık bir kutsal çevre de kurabilir: {ar:الْحُطَمَةِ, tr:al-ḥuṭamah, gloss:parçalayıp ezen} için sağlanan kırık veya kalabalık kutsal alan imgesi sahneye yer, sıkışma ve kırılgan sınır ekler (104:4). Bu kutsal çevre görüntüsü belirli bir hac eylemini, Kâbe'yi veya malın gerçek mekânını belirleyen bir iddia olarak okunmaz.
+
+Sonraki ateş, toplanmış ve sayılmış malzemenin dönüşümünü ayrıntılı bir sıraya yerleştirir. {ar:جَمَعَ, tr:cemeʿa, gloss:topladı} için sağlanan büyük kazan ve kap oluşturma kullanımı, {ar:نَارُ اللَّهِ الْمُوقَدَةُ, tr:nāru llāhi al-mūqadah, gloss:Allah'ın tutuşturduğu ateş} için sağlanan yanan, damgalayan, yakacak ve ocakta tutulan ateş kullanımlarıyla birleşir (104:6). {ar:الْحُطَمَةِ, tr:al-ḥuṭamah, gloss:parçalayıp ezen} tüketen öğütücüye, {ar:الْأَفْئِدَةِ, tr:al-afʾidah, gloss:yürekler} dış ateşten iç ısıya, {ar:الْمُوقَدَةُ, tr:al-mūqadah, gloss:tutuşturulmuş} ise kıvılcıma ve yükselen şiddete geçiş sağlar (104:4, 104:6, 104:7). Malzeme büyük kapta toplanır, yakıt olur, ocağa yerleşir, tutuşur, içten ısınır ve tüketilir. Bu bağlamsal yanma sürecinin katkısı malın toplanmasından tüketilmesine uzanan dönüşümü görünür kılmaktır; toplama ve saymanın açık anlamı zemin olarak kalır.
+
+{ar:مَالًا, tr:mâlen, gloss:mal ve varlık}ın birikmiş varlık, {ar:عَدَّدَهُۥ, tr:ʿaddadahū, gloss:onu saydı}nın geleceğe hazır tutulan birimler yönü ateşin yakacak ve aktif tutuşma anlamlarıyla karşılaştığında, her stok birimi ateşe hazır kapasite gibi görünür. Güvenlik için saklanan şey, beklenen güvenceyi sağlamak yerine onu tüketen süreci besleyen malzemeye dönüşebilir. Zihinsel hesap 104:3'te belirirken dışarıdan tutulacak bilanço, ateş ve içte yanan kalp 104:6 ve 104:7'de görünür; saymanın son durağı böylece değişir. Altın ve gümüşü saklamanın bedende cezaya dönüşmesi de bu karşılaşmayı destekler (9:34, 9:35). Buradaki katkı malı ateşle özdeşleştirmek değil, kabul edilmiş mal ve el imgelerinin sonraki ateşle kurduğu araştırıcı ilişkiyi görünür kılmaktır; ateş için yakıt görüntüsü bu bağlantının sınırları içinde kalır.
+
+Ateşteki {ar:نَارُ اللَّهِ, tr:nāru llāhi, gloss:Allah'ın ateşi} adı, sayılan mala ayrılmış dikkatin karşısına ibadet edilen merkezi çıkaran bir yön açar (104:6). {ar:مَالًا, tr:mâlen, gloss:mal ve varlık} ve {ar:عَدَّدَهُۥ, tr:ʿaddadahū, gloss:onu saydı} ile kurulan tekrar tekrar kontrol ritmi, ilahî adın ve tutuşmanın devreye girmesiyle mal merkezli idareden başka bir merkeze yönelen ayinimsi bir hareket gibi hissedilir (104:6, 104:7). Bu keşifsel karşılaşmanın katkısı dikkatin mal merkezinden başka bir merkeze yönelmesidir; sayım ibadete eşitlenmez, gerçek ritüel veya ilahî adla mal arasında eşdeğerlik doğurmaz.
+
+## Kapanan denetim
+
+Sayma ile sonraki soru arasındaki temas, sayının gücünü ve sınırını birlikte gösterir. {ar:عَدَّدَهُۥ, tr:ʿaddadahū, gloss:onu saydı} birimleri eksiksiz bir envantere çevirir; {ar:وَمَا أَدْرَاكَ مَا الْحُطَمَةُ, tr:wa-mā adrāka mā al-ḥuṭamah, gloss:Hüṭame'nin ne olduğunu sana ne bildirdi} sorusu karşılaşılan şeyi bütünüyle tanımlama ve etkisizleştirme gücünün sınırını açar (104:5). Rakam miktarı kaydedebilir, fakat karşısındaki ezici şeyi bütünüyle bağlayamaz; sayımın kayıt gücü yerinde kalır. Saymanın belirli aralıklarla geri dönen yoğunluğu soru işleviyle buluşunca kayıt ilerliyor gibi görünürken aynı noktaya dönen bir iğ, içe çeken bir girdap veya ikisine açık dairesel bir hareket belirir. Bu hareket benzetmesinin katkısı, sorunun bilgi sınırını döngüsel bir deneyim olarak duyurmaktır; soru yeni bir sözlük anlamına dönüşmez.
+
+{ar:عَدَّدَهُۥ, tr:ʿaddadahū, gloss:onu saydı} fiilinin dışarıdaki ayrı mülkleri denetleyen envanter yüzü, {ar:تَطَّلِعُ عَلَى, tr:tattaliʿu ʿalā, gloss:üzerine çıkar ve açığa çıkar}nın görme ve ifşa yönüyle, {ar:الْأَفْئِدَةِ, tr:al-afʾidah, gloss:yürekler}ın iç merkeze ulaşan yönüyle tersine döner (104:7). Sayan kişinin dışarıdan gördüğü malın ardından onu gören bir bakış belirir; liste kapanırken denetim yüreğin saklı merkezine kadar ilerler. Aynı malın yeniden bakılan arzu nesnesi hâline gelmesiyle kontrol toplamı hesabı kapatmak yerine açar; yürek ısısı bu döngüye iştah verir. Her ulaşılan yeterlilik yeni bir hedefin başlangıcı gibi görünür, tekrar bakış durma sayısını hareketli kılar ve her "yeter" başka bir yeter üretir. Hedefin üstüne taşan bu görüntünün katkısı, hazırlık için konmuş miktarın nasıl yeniden arzunun nesnesi olabildiğini göstermektir; bağlantı somut bir mermi hedefine veya genel bir psikolojik yasaya sabitlenmez.
+
+Bu dışarıdan içeriye dönüş, kapalı bir güvenlik mimarisini de yeniden okutur. {ar:جَمَعَ, tr:cemeʿa, gloss:topladı} değerleri tek bir korunaklı yerde toplar, {ar:مَالًا, tr:mâlen, gloss:mal ve varlık} korunacak içeriği, {ar:عَدَّدَهُۥ, tr:ʿaddadahū, gloss:onu saydı} envanter ve erişim düzenini verir; {ar:مُؤْصَدَةٌ, tr:muʾsadah, gloss:kapatılmış} içi bütünüyle kapanan, serveti taşıyan taş hazne veya kasa gibi görünür (104:8). Güvenlik için kurulan sınır, kurucunun kendisini de içine alarak kasayı hapishaneye çevirir. {ar:عَمَدٍ, tr:ʿamad, gloss:sütunlar} ve {ar:مُمَدَّدَةٍ, tr:mumaddadah, gloss:uzatılmış} bu kapanmayı destekleyen çubuklara ve uzayan engellere dönüştüğünde, her yeni sayım kaçınılmak istenen sınırı biraz daha yükseltir (104:9).
+
+Bazı aktarımlarda {ar:مَالًا, tr:mâlen, gloss:mal ve varlık} için tartışmalı bir örümcek adı çağrışımı da bulunur. Bu çağrışım, {ar:جَمَعَ, tr:cemeʿa, gloss:topladı} fiilinin iplikleri ve dağınık parçaları tek yapıda toplamasıyla, {ar:مُؤْصَدَةٌ, tr:muʾsadah, gloss:kapatılmış} yüzeyinin kapanmış çevresiyle karşılaşınca servet korumasının onu kuranın çevresinde kapanan ağ benzeri canlı bir tuzağa dönüşmesini görünür kılabilir (104:8). Tartışmalı çağrışım malın olağan anlamını taşımadan, bu bağlantının araştırıcı ağ ve tuzak sınırı içinde kalır.
+
+## Daha geniş hesapla karşılaşma
+
+Toplama kelimesinin elleri boyna bağlayan, hareketi engelleyen yönü {ar:مَالًا, tr:mâlen, gloss:mal ve varlık}ın etrafındaki sahipliğe değdiğinde, 70:18'deki toplama ve içine alma hareketiyle yığın sahibini de kendi topladığı şeye bağlayan bir kısıt gibi görünür. 104:1'deki bastırma, 104:4'teki atılma ve 17:29'da kapalı elin açılmasına karşı kurulan uyarı bu bağıntıyı bedensel bir diziye çevirir: el tutar, tutuş başkasına basınç olarak döner, sonra tutulan şeyle birlikte sahibi de atılma ihtimaliyle karşılaşır. Böylece sahiplik, mal sahibine geri dönen bir imge olarak açılır; zincir görüntüsü bu bağlantının bedensel sınırı içinde kalır.
+
+Toplanan parçaların bir araya getirilmesi, 3:9'da insanların kaçınılmaz bir gün için bir araya getirilişiyle karşılaştırıldığında özel mal toplama daha geniş bir toplanma ufkuna yerleşir. Karşılaştırmanın katkısı sahnenin ölçeğini büyütmektir: bireyin kendi malını birleştirmesi, kendi denetiminin dışındaki toplanma ufkunda yeniden görülür. Bu ufuk âyeti doğrudan son gün ifadesine çevirmeden açılır; {ar:جَمَعَ, tr:cemeʿa, gloss:topladı} fiili bu karşılaştırmada da malın bir araya getirilmesini taşır.
+
+{ar:وَعَدَّدَهُۥ, tr:ve ʿaddadahū, gloss:ve onu tekrar tekrar saydı} hareketi 19:94'te her kişiyi tek tek sayan bilgiyle, 10:5'te yılları ve hesabı düzenleyen kozmik ölçüyle, 78:29'da her şeyin kayda geçirilmesiyle yan yana geldiğinde özel mal sayımı daha büyük bir düzen karşısında sınırları olan bir insan hesabı gibi görünür. Saymak burada hâlâ saymaktır; daha geniş düzen onun yerine geçirilmez. 3:24'teki sayılı günler, bu daha büyük ölçünün servet hesabından ayrı bir sayı kullanımına dayandığını hatırlatır.
+
+Son olarak {ar:مَالًا, tr:mâlen, gloss:mal ve varlık} ile {ar:وَعَدَّدَهُۥ, tr:ve ʿaddadahū, gloss:ve onu tekrar tekrar saydı} 102:1'de daha çoğunu biriktirme yarışının açtığı karşılaştırmayla buluştuğunda, özel toplam kişinin gizli hesabı olmaktan çıkıp başkalarına göre büyütülen sosyal bir ölçü gibi de okunabilir. 102:1'in yüzeyi hedefin biçimini açık bırakır; bu bağlantının katkısı kesin bir rakip ilan etmek değil, miktarın karşılaştırma baskısına dönüşme ihtimalini görünür kılmaktır.
+
+</editorial_prose>

@@ -1,0 +1,191 @@
+# V5 reading invitation — 103:1
+
+You are a fresh reading-invitation writer. Read the complete editorial prose
+before writing. It is your sole semantic source.
+
+Write two to four paragraphs of fluent, contemporary Turkish that reveal a
+surprising reading by following one or two main channels of resonance in the
+ayah. A channel is a connected background of meanings, images, actions, or
+relations through which the ayah can be heard and understood differently.
+Several editorial findings may together develop one channel. Summarize that
+connected movement and its consequence for the ayah's main meaning, rather
+than compressing findings individually. Give the reading's substance now;
+the invitation comes from understanding it, not from a promise of hidden depth.
+
+Before drafting, read the entire editorial prose and silently select the one
+or two channels with the strongest interpretive consequence and enough
+grounding to explain clearly. Favor channels that expand or shift what the
+ayah says, the relation it establishes, or what is at stake in its action or
+image. One fully developed channel is sufficient; add a second only when it
+offers a distinct consequential reading that can be explained within the
+invitation. No finding, channel, or major shift has an individual coverage
+claim. Unselected material may remain entirely in the full commentary.
+
+A channel may develop through grammar, sound, dialogue, a material process,
+time, imagery, or a conceptual relation. Resonance is not limited to acoustic
+effects, and an unusual image alone does not establish a channel. Use only
+connections the editorial prose actually develops. If it supplies no such
+channel, explain its strongest grounded reading without inventing connections
+or surprise.
+
+Begin inside the ayah's own words, images, actions, or relations and reveal a
+selected distinctive reading in the first paragraph. Keep the plain meaning
+reachable with only the orientation needed to understand the change. Do not
+spend an opening paragraph on routine explanation or front-load context about
+the surah, the ayah's position, or the commentary project.
+
+For each selected channel, begin with the expression that opens it, unfold the
+connected background, and show how the ayah reads or sounds against that
+background. Let a detail lead into the next through an intelligible relation
+or process, so the reader experiences the emerging reading. This is a movement
+of thought, not a mandatory sentence pattern or one paragraph per finding.
+Let the reader identify the expression being interpreted,
+where any nonordinary detail comes from, and what that detail changes in the
+reading. Briefly identify the word-family use, restricted form, collocation, or
+context that supplies an essential added detail, and preserve the concrete
+operation that makes the image work. Keep the ordinary reading and necessary
+qualification clear within this explanation; do not repeat them as a fixed
+formula. Preserve the particular object, process, or relation that makes this
+reading distinctive, and state its interpretive consequence for the ayah as a
+whole. Make intelligible what the familiar reading leaves less visible and
+what the expanded or shifted reading now lets the reader understand. Preserve
+the editorial's force: an exploratory possibility remains possible, while a
+developed shift must not be softened into a decorative association or a
+reassurance that everything means the same thing. A concrete
+account of how something is carried, transformed, lost, or restored must not
+shrink to a general statement about care, guidance, dependence, or goodness.
+Keep the details needed to make the selected channel work; omit side findings
+and shorten routine setup. If a channel cannot be explained faithfully from
+the editorial prose, choose another grounded channel or reading.
+
+When a non-focus ayah supplies a contribution used in the invitation, keep its
+reference from the editorial prose beside that contribution.
+
+Do not turn the invitation into a miniature inventory of the commentary's
+conclusions, or flatten distinct channels into a broad theme to include more
+material. Do not repair, extend, or supplement the editorial prose from memory
+or outside knowledge.
+
+Omit technical apparatus. Retain any qualification, source distinction, live
+alternative, or boundary whose absence would change the force or meaning of a
+chosen reading. Express it naturally beside the image or relation it qualifies.
+Favor positive explanations of the relation between layers: what remains in
+the foreground and what the resonance makes audible in the background. State
+how that background reinforces, expands, or shifts the understanding of the
+main meaning, with the source and degree of certainty clear. Reserve explicit
+exclusions for concrete ambiguities or live counter-evidence that need them.
+Repeated "this is not X" endings make a reading sound withdrawn; express the
+substantive qualification through what the reading does contribute wherever
+possible. Use varied, natural language rather than a repeated "second layer"
+formula, and preserve the force of expansions and shifts.
+Do not name branches, candidates, findings, scopes, evidence categories,
+ledgers, or workflow stages, or label the prose as numbered channels. Do not
+list findings serially.
+
+Use the established `{ar:..., tr:..., gloss:...}` syntax, consistent
+Turkish-readable transliteration, and short ordinary glosses. Keep Arabic
+anchors beside the explanations they ground. Within a paragraph, continue with
+the Turkish meaning where clear; provide the necessary local tag when a later
+paragraph interprets the carrier anew. Do not place Arabic script outside a
+valid tag.
+
+Build transitions within a channel through its shared object, action, or
+relation. If two channels are selected, they may occupy separate paragraphs;
+do not invent a link between them. Do not praise the commentary's quality,
+promise what the reader will find, manufacture suspense, recap at the end, or
+add a call to action. End on an image, relation, action, or tension already
+established by the selected reading.
+
+Before finishing, compare the invitation with the entire editorial prose:
+does the chosen channel reveal a consequential reading, or could the text have
+been written from the ordinary translation and a modest explanation alone?
+When the editorial supports a surprising channel, the latter fails this task.
+Can the reader follow the opening expression into a connected background and
+understand how that background expands or shifts the ayah's main meaning?
+Check the selected connections against their editorial explanation: can the
+reader tell where the nonordinary details come from, with the necessary
+qualifications intact? Repair generic explanation, isolated curiosities, or a
+compressed findings list by developing the selected channel. Do not add
+omitted channels merely for coverage. Do not output this check.
+
+Write only the invitation text to:
+
+`_commentary/v5/editorial/s103-regular-20260911/s103/103_1/103_1.invitation.tr.md`
+
+Do not add a heading, wrapper label, index, ledger, evidence file, or any other
+artifact. Do not modify the editorial prose.
+
+After writing the invitation, run:
+
+```bash
+python3 _commentary/v5/validate_prose.py _commentary/v5/editorial/s103-regular-20260911/s103/103_1/103_1.invitation.tr.md
+```
+
+If validation fails, repair only the reported mechanical file-contract issues
+and rerun it, for at most two repair cycles. Report the final validator result
+in your response.
+
+<editorial_prose>
+## Yemin Edilen Zaman
+
+Âyetin açık anlamı şudur: Zamana yemin olsun. Başındaki {ar:وَ, tr:wa-, gloss:yemin edatı}, ardından gelen {ar:ٱلْعَصْرِ, tr:el-ʿaṣr, gloss:devir ve vakit} kelimesini yemin çerçevesine alır; ilk ses burada önceki bir söze bağlanan sıradan bir “ve” gibi değil, bir tanık çağrısı gibi iş görür. Yemin etme fiili ayrıca söylenmediği için iki kelime, sıkıştırılmış bir açılışta yemin eylemini birlikte taşır. Cevap hemen gelmez: bu başlangıç, gelecek sözün neyi açıklayacağını bekleten bir nefes aralığı açar. {ar:وَ, tr:wa-, gloss:yemin edatı}nın kendisine bağımlı ön ek olarak {ar:ٱلْعَصْرِ, tr:el-ʿaṣr, gloss:devir ve vakit}a yazıda ve seste yapışması da yemin ilişkisini açıklanmadan önce tek ve sıkı bir birim hâline getirir.
+
+Bu birimin zaman alanını nasıl topladığı, {ar:ٱلْعَصْرِ, tr:el-ʿaṣr, gloss:devir ve vakit} kelimesinin biçiminde görünür. Başındaki “el-” belirli artikeli, tekil oluşu ve soyut isim yapısı birlikte çalışarak herhangi bir anı saymak yerine devir, çağ, vakit veya günün belirli bir geç bölümünü tek bir yemin alanında toplar. Sonundaki çekim, kelimeyi olayın ne zaman olduğunu bildiren bir zarf olmaktan çıkarıp yeminle çağrılan nesne ve tanık konumuna yerleştirir. Bu isim biçimi, sıkma ya da işlem bildiren biçimlerden ayrılarak burada zamanı adlandırır. Bu biçimin taşıdığı açık okuma belirli bir zaman kesitine edilen yemindir; cümle, ikindi namazını veya gecikmiş bir gelişi ayrıca seçmeden zamanın tanıklığını açık ve geri dönülebilir bırakır.
+
+Bu kısa yüzeyin sesi de tanığı yoğunlaştırır. {ar:ٱلْعَصْرِ, tr:el-ʿaṣr, gloss:devir ve vakit} içindeki sıkı ünsüz akışı ve kısa kapanış, sözü genişletmeden bir arada tutan kapalı bir ses etkisi verir; yardımcı ünlülerle değişen telaffuzlar, akışın nasıl gevşeyebileceğini karşılaştırmalı olarak duyurur. Başka bir seslendirmede görülen {ar:وَالْعِصْرِ, tr:wa-l-ʿiṣri, gloss:bağ veya ahit çağrışımı}, küçük bir ses değişiminin bağ ya da ahit yönünü açabildiğini gösterir; alınmış {ar:ٱلْعَصْرِ, tr:el-ʿaṣr, gloss:devir ve vakit} biçiminin zamansal yemin alanı ise yerinde durur. Genişletilmiş, alışılmadık bir ifade zamanın darbelerini açıkça dile getirirken, bu kısa biçim aynı baskı hissini tek bir isimde katlı tutar.
+
+Bu baskı renginin kaynağı, aynı kelime ailesinde sıkma, yağmur üretimi ve döner rüzgâr için görülen kullanımlarda belirir. Zaman, içinde bulunanı bastırıp ondan öz, pay veya sonuç çıkaran; böylece verimi ve verimsizliği görünür kılan bir alan gibi hissedilebilir. Yerel biçim soyut bir zaman adı olarak kaldığı için pres, sıvı ve ürün görüntüsü bu bağlantıda zamanın içinden sonucu görünür kılan yorumlayıcı renklere dönüşür. Yemin edatı tanığı çağırır, belirli tekil isim zamanı bütünlük hâlinde toplar, aileden gelen basınç bu alanı sınayıcı kılar, ses de yoğunluğu işitilir hâle getirir. Sıfat veya açıklama almadan tek başına duran son isim, yemin çerçevesini sınırda asılı bırakır; açılışın bütün ağırlığı tek tanığın üzerinde toplanır.
+
+## Tanıklığın İçinden Geçen İnsan
+
+İsim tek başına askıda kaldığı için okuyucu, bu zaman alanının hangi hayatı görünür kılacağını bekler. 103:3'te iki kez geçen {ar:تَوَاصَوْا۟, tr:tevâsav, gloss:karşılıklı öğütleştiler} ile temas kurulduğunda bekleyiş bir akışa dönüşür: iki öğüt, bir aralığın ötekine eklenmesini ve bir sonraki parçaya geçmesini düşündürür. 103:2'deki kayıp ile 103:3'teki istisna da bu çerçevede yemin dışından getirilmiş iki tablo gibi değil, yeminle açılan zaman içinde ilerleyen bir ilişki gibi duyulur. Değişim ve dönüş, geçen zamanı içinden geçenleri tekrar tekrar açığa çıkaran bir tanık hâline getirir.
+
+Bu tanıklığın insan yüzü 103:2'deki {ar:إِنسَٰنَ, tr:insân, gloss:insan} kelimesiyle belirir. İnsan burada yalnızca kayıp cümlesinin öznesi olarak kalmaz; görme, duyma veya sezme yoluyla fark eden, göz bebeğinde beliren bir suret gibi de düşünülebilir. Böylece zaman dışarıdan olaylara bakan soyut bir seyirci olmaktan çıkar, insan hâlinin içinde belirginleştiği bir alana dönüşür. İnsan eylemlerini kayda geçiren meleklerle ilgili temas (82:10) ve başka bir zamansal yemin (93:1), bu alanı davranışın yönünü görünür kılan bir kayıt gibi açar. Dünya hayatının büyüme, solma ve yok oluş döngüsünü karşılaştıran (57:20) temas ise zaman içinde biriken kaybı ölçülebilir kılar. 45:24'te dehrin helaki kendi başına yapan fail gibi gösterildiğinde buna karşı çıkan söz, zamanı işleyen bağımsız bir özne yerine yorumlayıcı bir tanıklık alanı olarak tutar.
+
+Tanığın gösterdiği şey, yalnızca geçen süre değil, o sürede neyin çıktığıdır. 103:3'teki {ar:عَمِلُوا۟, tr:amilû, gloss:iş yaptılar} ile buluşan ürün veya kazanç yönü, çalışan bir topluluğun malzemeye el vermesini ve emeğin ürüne dönüşmesini düşündürür. Karşılığını alan işçinin geçim payı da bu dönüşe eklenir; 103:2'deki {ar:خُسْرٍ, tr:husr, gloss:kayıp ve eksilme} ise çıktının eksik kalan tarafını yanında tutar. {ar:ٱلْحَقِّ, tr:el-hakk, gloss:hak} bu dönüşe bir ölçü getirir: iş veya ürün, birinin hak ettiği ve borçlu olunan bir paya bağlanır. Yağmur basıncını ve üretken bir döngüyü birlikte düşündüren (78:14, 12:49) temaslar, zamanın hayat içinde ne üretildiğini sınayan bir aralık gibi duyulmasına yardım eder. Bu emek, ücret ve karşılık görüntüsü ayeti genişletir; işçi, sözleşme ve ticari taraflar bu bağlantının bağlamsal ayrıntıları olarak kalır, ayetin açık yüzü ise belirli zamana edilen yemin olarak durur.
+
+Ürün ortaya çıkmadan önce korunarak gelişir. {ar:ٱلصَّٰلِحَٰتِ, tr:sâlihât, gloss:düzgün ve ıslah edici işler} ile yan yana gelen ürün yönü, başağın kılıfı içinde tutulan şeyi görünür kılar. {ar:عَمِلُوا۟, tr:amilû, gloss:iş yaptılar} burada pasif bekleyişten ayrılan niyetli ve yönelmiş çalışmayı taşır; eldeki malzemeye yapılan iş, ürünün oluşmasına katılır. İşin karşılığı ve işçinin geçim payı, yetiştirmenin emeği destekleyen bir dönüşe bağlanır. {ar:ٱلصَّٰلِحَٰتِ, tr:sâlihât, gloss:düzgün ve ıslah edici işler} bozulmanın karşısına sağlamlık, onarma ve eylemin amacına uygun düşme ölçüsünü koyar. Zamanın ürün alanı böylece emek, uygunluk ve korunma içinde gelişen bir verime açılır.
+
+Bu gelişme, zamanın yalnız yaş sayan bir cetvel olmadığını da düşündürür. {ar:ٱلْعَصْرِ, tr:el-ʿaṣr, gloss:devir ve vakit} kelimesinin genç kızın çocukluktan ergenlik eşiğine ulaşmasını anlatan yönü, 103:3'teki iş ve sağlamlıkla buluştuğunda işe yarar bir işleve ulaşma aralığı belirir. {ar:ٱلْحَقِّ, tr:el-hakk, gloss:hak} içindeki görüntü, taşıma veya çiftleşme yaşına varıp beklenen işi kaldırabilecek deveyi; aynı kelimenin başka bir yönü, atın adımını denk tutmasını veya bedenen sertleşmesini hatırlatır. {ar:عَمِلُوا۟, tr:amilû, gloss:iş yaptılar} bu eşiği görünür davranışa ve iş görmeye yatkınlığa bağlar; {ar:ٱلصَّٰلِحَٰتِ, tr:sâlihât, gloss:düzgün ve ıslah edici işler} kapasitenin bozulmadan ve yerli yerinde oluşmasını taşır. Bu gelişme alanı ergenlik eşiğini, hayvanın taşıma yaşını, denk adımı ve sağlam iş görmeyi aynı zaman aralığında canlı tutar; okuma böylece tek bir biyolojik olaya kapanmaz.
+
+Korunmuş ürünün sonraki hâli 103:3'teki {ar:ٱلصَّبْرِ, tr:es-sabr, gloss:sabır} kelimesinin üst, kenar ve sınırla ilgili görüntülerinde açılır. Başağın kılıfı gelişen şeyi ilk aşamada sarar; geniş bir sergi veya sofra yüzeyi, yığın ve dolmuş kenar ise onu tutulabilir bir erzak hâline getirir. Ürün böylece kapalı gelişmeden sınırı görülen bir birikime doğru ilerler. Bu hareket, zamana edilen yeminin yanında duran ürün ve saklama görüntüsünü somutlaştırır.
+
+Ürünün bir başka yüzü, aynı 103:3 bağlamındaki {ar:ٱلصَّبْرِ, tr:es-sabr, gloss:sabır} çevresinde beliren ekşi meyve ve acı ilaç özsuyudur. {ar:ٱلْعَصْرِ, tr:el-ʿaṣr, gloss:devir ve vakit} kelimesinin yalın bir ağaç kullanımıyla birleşen bu temas, yalnız yiyecek veren değil, tadı zor fakat tedavi edici bir özsuyu da çıkaran canlı bir kaynak düşündürür. Ekşi, buruk meyve ve kırmızı çekirdek görüntüsü bu kaynaktan gelen ayrı bir ürünü belirginleştirir; ekşilik ile acılık aynı bitkisel kaynaktan çıkan ürünleri birbirinden ayırır. Burada taşınan ayrıntı ağacın varlığı ve ürün çeşitliliğidir; ağacın türü, görünüşü ve kesin botanik kimliği açık bırakılır.
+
+## Ölçülen Çıktı, Tutulan Pay
+
+Sıkma görüntüsü 103:2'deki eksik ölçü ve kayıpla birleştiğinde, zamanın içinden çıkarılan sonuç ölçülebilen bir basınç ürünü gibi görünür. {ar:ٱلْعَصْرِ, tr:el-ʿaṣr, gloss:devir ve vakit} kelimesinin bastırıp öz çıkaran yönü, {ar:خُسْرٍ, tr:husr, gloss:kayıp ve eksilme} kelimesinin soyut eksilmesini eksik doldurulmuş bir miktara çevirir; 103:3'teki {ar:ٱلصَّبْرِ, tr:es-sabr, gloss:sabır} yığını bu miktara görünür bir kütle verir. {ar:عَمِلُوا۟, tr:amilû, gloss:iş yaptılar} kelimesinin bir aracı veya şeyi işe koşma yönü, basıncın bir işleme sokulmuş malzeme üzerinden gerçekleştiğini düşündürür. Biriktirmenin insanı oyalayıp tükettiğini hatırlatan (102:1) ve tartıyla başarı ile kaybı ayıran (7:8) temaslar, beklenen getiri ile elde edilen miktarı karşılaştırır. Eksik teslim böylece görünür, kayıp da yalnız bir duygu olmaktan çıkıp bastırılmış ve ölçülebilen bir sonuç hâline gelir.
+
+Bu ölçü, değerin dolaşıma girip geri dönmesi olarak da duyulur. {ar:ٱلْعَصْرِ, tr:el-ʿaṣr, gloss:devir ve vakit} kelimesinin elde edilen ürün veya getiri yönü, ortaya konan değerin korunmuş bir değer ya da zararla geri dönmesini bekleyen bir dönüş açar. 103:2'deki {ar:خُسْرٍ, tr:husr, gloss:kayıp ve eksilme} bu değerin kazanca dönüşmeyen tarafını, 103:3'teki {ar:ٱلصَّبْرِ, tr:es-sabr, gloss:sabır} ise sert taşlı zeminde zor çıkarılan dönüşü hissettirir. {ar:ٱلْحَقِّ, tr:el-hakk, gloss:hak} bu dönüşü belirli bir sahibin alacağına bağlar; acı ilaç özsuyu da bu zorluğa hoş olmayan fakat işe yarayabilecek bir tat ekler. {ar:عَمِلُوا۟, tr:amilû, gloss:iş yaptılar} işi insanlar arasındaki alışveriş ve riskle yan yana getirir. Bu ticari ve duyusal görüntü, beklenen dönüşü somutlaştıran bu bağlantının sınırında kalır; ayetin asli adlandırması yine zamandır.
+
+Sıkma alanı kaybın yönünü de belirginleştirir. {ar:ٱلْعَصْرِ, tr:el-ʿaṣr, gloss:devir ve vakit} kelimesinin alıkoyma, geri alma ve elde tutma yönü, bir yararın dolaşıma girmesi gerekirken tutulmasını, geri çevrilmesini veya karşı tarafa ulaşmadan kesilmesini düşündürür. 103:2'deki {ar:خُسْرٍ, tr:husr, gloss:kayıp ve eksilme} bu işlemin azalttığı kalanı gösterir; kısa ölçü görüntüsü beklenen miktardan eksilen parçaya sınır çizer. 103:3'teki {ar:ٱلْحَقِّ, tr:el-hakk, gloss:hak} ise bunun karşısına borçlu olunan ve sahibine ait payı koyar. Zaman, eksik ölçüyü ortaya çıkaran ve birinin hakkına ait olan şeyi geri çağıran bir hesap aralığı gibi düşünülebilir. Bu hesap görüntüsü failini ve olayın ticari ya da hukuki biçimini belirlemeden, eksiklik ile hakkı aynı zaman çerçevesinde görünür kılar.
+
+Ürün, ölçü ve hak arasındaki gerilim, kaybın içinden çıkabilecek iyi sonucu da açık bırakır. Uyarının ardından kurtuluşu düşündüren (10:103), birikmiş ürünün açığa çıkışını gösteren (12:49) ve sonucu tartıyla görünür kılan (7:8) temaslar, {ar:ٱلْعَصْرِ, tr:el-ʿaṣr, gloss:devir ve vakit} kelimesindeki baskıyı birine ulaşan iyiliği, bir kaynaktan çıkan payı veya işlenmiş ürünü açığa çıkaran bir sınama gibi duyurur. Birikim insanı oyalayıp tüketirken, bastırılan süreç neyin gerçekten çıkarıldığını ve neyin karşılıksız kaldığını ayırır. Böylece kayıp tek başına bırakılmaz; değerlendirilebilir bir yarar ve sahibine ulaşan pay ihtimali onun yanında belirir. Bu katkı, zaman kelimesinin asli adlandırmasını korurken kaybın tek sonuç olmasını düzeltir; teknik muhasebe ve ticaret, yalnızca bu bağlantıyı açıklayan bağlamsal görüntüler olarak kalır.
+
+## Aidiyet ve Sığınma
+
+Ölçülen eksik yalnızca maddi bir miktar olarak kalmaz; insan ve toplulukla birleştiğinde sosyal bir süreklilik de kazanır. {ar:ٱلْعَصْرِ, tr:el-ʿaṣr, gloss:devir ve vakit} kelimesinin soy kökü ve köken yönü, 103:2'deki insanla 103:3'teki topluluk arasında bireysel ömrü aşan bir aidiyet zinciri düşündürür. İnsan, görünür varlık olarak gizli veya yabanıl olanın karşısında bu zinciri taşır; {ar:ٱلصَّبْرِ, tr:es-sabr, gloss:sabır} kelimesinin topluluk adı gibi duyulan yönü ona kolektif bir beden verir. Bağlılar arasındaki göreli alt konumla ilgili temas, bu zincirde farklı mevkilerin bulunduğunu gösterir; bu, genel bir değersizlik hükmü değildir. Zamanın tanıklığı böylece köken, topluluk ve bağlılık içinden geçen bir sosyal sürekliliği görünür kılar.
+
+Buna yakın fakat ayrı bir görüntüde {ar:ٱلْعَصْرِ, tr:el-ʿaṣr, gloss:devir ve vakit} soylu kökeni, 103:2'deki insanı yakın bir öz veya yoldaş; {ar:ٱلصَّبْرِ, tr:es-sabr, gloss:sabır} ise miras alınmış bir topluluk veya klan gibi düşündürür. Burada vurgu, bağlılar arasındaki alt konumdan çok, kişinin ortak bir köke ve seçkin bir soya yerleşmesindedir. İnsan kelimesinin yakınlık ve kişinin kendi çevresi görüntüsü bu mirası soyut bir soyağacından yaşanan bir aidiyete taşır; klan, bireyin çevresindeki kalabalığı ve miras alınan duruşu tamamlar. Bu görüntünün katkısı ortak köke yerleşen bir aidiyeti görünür kılmaktır; evrensel üstünlük iddiası taşımadan, köken ve topluluk temel zaman tanıklığının yanında ayrı bir sosyal okuma olarak kalır.
+
+Aidiyetin yanında baskı altında dayanılacak bir yer de belirir. {ar:ٱلْعَصْرِ, tr:el-ʿaṣr, gloss:devir ve vakit} kelimesinin tutunarak sığınma ve kurtuluş arama yönü, 103:3'teki {ar:ءَامَنُوا۟, tr:âmenû, gloss:güvene erdiler} ile buluştuğunda aynı zaman alanında bir güvenlik bölgesi açar. Güven, kalbin emniyet içinde yerleşmesini ve tutunmanın korkuyla savrulan bir kavrayış yerine güvenilen bir dayanak olmasını sağlar. {ar:ٱلصَّبْرِ, tr:es-sabr, gloss:sabır} kelimesinin birinin yanında durma ve kefil olma yönü, sığınağı ilişkiye açar; korunma, bir kişi veya grubun yanında durmasıyla sürer. Karşılıklı iyilik ve sabrı hatırlatan (90:17), uyarı sonrasında kurtuluşu gösteren (10:103) ve kendine yeterlik yolunda alıkoymayı düşündüren (92:8) temaslar bu dayanmayı belirginleştirir. Güvenlik burada dışarıdan hazır bir nesne değil, baskı altında tutunulan ve kaybolmaması için elde tutulan bir imkândır.
+
+Bu sığınma, imanın güven veren ve tasdikle kalbi yatıştıran yönüyle daha dar bir biçimde de açılır. {ar:ٱلْعَصْرِ, tr:el-ʿaṣr, gloss:devir ve vakit} kelimesinin tutunarak kurtuluş arama yönü, güvenilen bir dayanağa bağlanır; {ar:ءَامَنُوا۟, tr:âmenû, gloss:güvene erdiler} bu bağlanmayı ürkek bir kavrayıştan emanet edilmiş bir karara çevirir. Bu ikinci katkı, topluluk içinde yanında durma görüntüsüne iç huzur ve güvenilir karar boyutunu ekler; iki katkı aynı sığınma alanında ayrı hareketler olarak kalır. (90:17, 10:103) ile açılan kurtuluş imgesi burada acı bir ilaç veya tıbbi tedavi önermek için değil, sıkışmış alandan çıkışın niteliğini görünür kılmak için çalışır.
+
+Yemin çerçevesi alıkoyma ve insan görüntüsüyle birleştiğinde daha sert bir tutulma sahnesi de açılır. {ar:ٱلْعَصْرِ, tr:el-ʿaṣr, gloss:devir ve vakit} burada insanı sabitleyen bir zaman aralığı, {ar:وَ, tr:wa-, gloss:yemin edatı} ise sözü bağlayan bir başlangıç gibi duyulur. 103:2'deki {ar:إِنسَٰنَ, tr:insân, gloss:insan} bu tutulmanın bedensel hedefini veren görünen varlık olarak belirir; 103:3'teki {ar:ٱلصَّبْرِ, tr:es-sabr, gloss:sabır} kelimesinin zorla tutma veya ettirilmiş yemin yönü, bedeni yerinde tutma ve konuşmayı dış baskı altında sabitleme görüntüsünü ekler. Bu ihtimal yemin cümlesini gerçekten zorla ettirilmiş bir söz diye hükme bağlamaz; olağan zaman yeminine, tutulmuş beden ve baskı altında sabitlenmiş sözün sınırlı yankısını ekler.
+
+İki kez gelen {ar:تَوَاصَوْا۟, tr:tevâsav, gloss:karşılıklı öğütleştiler}, sığınağı tek kişinin tutunmasından kişiler arasında gidip gelen bir aktarıma çevirir. Zaman ardışık aralıkları, sığınma taşınan güveni, karşılıklı öğüt ise aktarımın iki yönünü sağlar: bir kişi ötekine bağlanır, sonra destek geri döner. Tek yönlü emir yerine iki temas noktasının tekrarlanması, güvenli alanı birlikte kurulan bir dayanışma gibi düşündürür; 90:17, 10:103 ve 92:8'deki öğüt, kurtuluş ve alıkoyma temasları bu hareketi destekler. Tekrarın yalnızca iki görevi güçlendiren bir yapı olarak kalması ihtimali de bu görüntünün yanında açıktır.
+
+Bu karşılıklı aktarım basınçla birleştiğinde, içerideki kuvveti taşıyan bir kap görüntüsü belirir. {ar:ٱلْعَصْرِ, tr:el-ʿaṣr, gloss:devir ve vakit} kelimesinin bastırıp öz çıkaran yönü, {ar:تَوَاصَوْا۟, tr:tevâsav, gloss:karşılıklı öğütleştiler} ile paylaşılmış bir tutulma işlemi gibi duyulur; yük tek kişinin omzunda kalmaz. {ar:ٱلصَّبْرِ, tr:es-sabr, gloss:sabır} kelimesinin içten kendini tutma, şişe veya kuyunun tıpası gibi duyulan yönleri, içerideki şeyin gerilim altında dışarı kaçmasını engelleyen bir sınır verir. Basınç, bu sınır sayesinde taşkınlığa değil verime doğru tutulabilir. Kap görüntüsü, sabrın kuvveti paylaşarak ve sınırda tutarak taşımasını anlatan ihtiyatlı maddi bir benzetme olarak çalışır.
+
+## Salınan ve Savrulan Kuvvet
+
+Tutulan kuvvetin bedendeki karşılığı, bir kerede aşılması zor bir sıkışmanın küçük ve tekrarlanan rahatlamalarla geçmesidir. {ar:ٱلْعَصْرِ, tr:el-ʿaṣr, gloss:devir ve vakit} kelimesinin boğaza takılan lokmayı küçük yudumlarla geçirme yönü, kurumuş dilin ve susuzluğun bedensel darlığını görünür kılar. Acı ilaç özsuyu rahatlamanın hoş olmayan fakat işe yarayabilecek bir araçla gelmesini ekler; 103:3'teki {ar:تَوَاصَوْا۟, tr:tevâsav, gloss:karşılıklı öğütleştiler} ise yudumları tek seferlik bir kurtarıştan kişiler arasında tekrarlanan bir aktarım hâline getirir. {ar:ٱلْحَقِّ, tr:el-hakk, gloss:hak} bu küçük aktarımın gerçeklikle örtüşen sabit içeriğini, {ar:ٱلصَّبْرِ, tr:es-sabr, gloss:sabır} ise panikten kendini alıkoyan temposunu taşır. Böylece sıkışan şey, gerçeklik ve ölçülü dayanma küçük dozlar hâlinde geldikçe geçebilir. Bu bedenî görüntü keşifsel bir benzetmedir; öğüdün kelime anlamını küçük dozlar hâlinde vermek üzere genişletmez.
+
+Basınç birikmiş olanı salıverme biçimi de kazanır. {ar:ٱلْعَصْرِ, tr:el-ʿaṣr, gloss:devir ve vakit} yağmur taşıyan ve yağışını boşaltmaya hazırlanan bulut görüntüsüyle, biriken nemin hayat veren bir yarara dönüşebileceği bir kutup açar. (78:14) yağmur ile basıncın kesiştiği malzeme benzetmesini sağlar; 103:3'teki {ar:ٱلصَّبْرِ, tr:es-sabr, gloss:sabır} ise beyaz ve kat kat bir bulut gibi üst üste biriken kütleyi düşündürür. Birikimden sonra yağmurun boşalması, sıkışmış kuvvetin faydaya salınmasını görünür kılar. Aynı yağmur imgesi, ekinin kılıfları içinde korunması ve büyümenin ardından ani azalma temasıyla (78:14, 10:24) birleştiğinde, baskı alanı ürünü olgunlaşana kadar tutan, sonucunu ise hasada veya kayba açık bırakan koruyucu bir döngü gibi görünür. Bu hava ve büyüme görüntüsü, zaman yeminine gecikmiş verim ve salıveriş duygusu ekleyen sınırlı, keşifsel bir yankıdır; bulut ve büyüme ayrıntıları bu bağlantının içinde kalır.
+
+Bu dört katkı aynı odakta buluştuğunda, her biri kaybın içinden çıkan ayrı bir şeyi taşır. {ar:ٱلْعَصْرِ, tr:el-ʿaṣr, gloss:devir ve vakit} kelimesinin kaydı ve yinelenmesi, bastırılan süreçte ürün ile açığı ayırır. Basınç, birine ulaşan iyiliği veya bir kaynaktan çıkan payı içinden çıkarıp görünür kılar; yağmur imgesi, birikmiş faydanın salınacağı boşluğu açar. Tutunma ve karşılıklı öğüt ise kaybolmaması gereken şeyi ilişki içinde elde tutar. (82:10, 93:1, 78:14, 12:49, 90:17, 10:103) bu temasları desteklerken, biriktirme ve tartı ilişkileri (102:1, 7:8) neyin çıkarıldığı ile neyin karşılıksız tüketildiğini keskinleştirir. Böylece 103:3'teki istisna, açığı inkâr ederek değil, baskı içinden bağlılık ve değerlendirilebilir bir iyi sonuç çıkararak kaybın tek sonuç olmasını düzeltir. Bu katkılar, asli zaman yemini ve her görüntünün kendi kapsamını koruyan yorumlayıcı ilişkilerdir; ticari ölçü ve bulut, kelimenin doğrudan karşılığına dönüşmez.
+
+Basınç yıkıcı bir biçim de alabilir. {ar:ٱلْعَصْرِ, tr:el-ʿaṣr, gloss:devir ve vakit} kelimesinin rüzgârın kaldırdığı, döne döne sütun gibi yükselen toz görüntüsü, ekili büyümeyi vuran ateşli döner rüzgâr sahnesiyle (2:266) yan yana gelir. Kuvvet yetiştirilen şeyi de savurup kaybı görünür kılabilir; çıkarma, salıverme, sığınma ve tutma imgelerinin yanında bu yan basınç, olgunlaşanın korunmasının her zaman sonuçlanmadığını duyurur. Bu yıkıcı katkı, kelimenin biçimini rüzgâr adına genişletmeden, zamana edilen yeminin içinde açılan keşifsel bir ihtimal olarak tamamlanır.
+
+</editorial_prose>

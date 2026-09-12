@@ -1,0 +1,195 @@
+# V5 reading invitation — 102:3
+
+You are a fresh reading-invitation writer. Read the complete editorial prose
+before writing. It is your sole semantic source.
+
+Write two to four paragraphs of fluent, contemporary Turkish that reveal a
+surprising reading by following one or two main channels of resonance in the
+ayah. A channel is a connected background of meanings, images, actions, or
+relations through which the ayah can be heard and understood differently.
+Several editorial findings may together develop one channel. Summarize that
+connected movement and its consequence for the ayah's main meaning, rather
+than compressing findings individually. Give the reading's substance now;
+the invitation comes from understanding it, not from a promise of hidden depth.
+
+Before drafting, read the entire editorial prose and silently select the one
+or two channels with the strongest interpretive consequence and enough
+grounding to explain clearly. Favor channels that expand or shift what the
+ayah says, the relation it establishes, or what is at stake in its action or
+image. One fully developed channel is sufficient; add a second only when it
+offers a distinct consequential reading that can be explained within the
+invitation. No finding, channel, or major shift has an individual coverage
+claim. Unselected material may remain entirely in the full commentary.
+
+A channel may develop through grammar, sound, dialogue, a material process,
+time, imagery, or a conceptual relation. Resonance is not limited to acoustic
+effects, and an unusual image alone does not establish a channel. Use only
+connections the editorial prose actually develops. If it supplies no such
+channel, explain its strongest grounded reading without inventing connections
+or surprise.
+
+Begin inside the ayah's own words, images, actions, or relations and reveal a
+selected distinctive reading in the first paragraph. Keep the plain meaning
+reachable with only the orientation needed to understand the change. Do not
+spend an opening paragraph on routine explanation or front-load context about
+the surah, the ayah's position, or the commentary project.
+
+For each selected channel, begin with the expression that opens it, unfold the
+connected background, and show how the ayah reads or sounds against that
+background. Let a detail lead into the next through an intelligible relation
+or process, so the reader experiences the emerging reading. This is a movement
+of thought, not a mandatory sentence pattern or one paragraph per finding.
+Let the reader identify the expression being interpreted,
+where any nonordinary detail comes from, and what that detail changes in the
+reading. Briefly identify the word-family use, restricted form, collocation, or
+context that supplies an essential added detail, and preserve the concrete
+operation that makes the image work. Keep the ordinary reading and necessary
+qualification clear within this explanation; do not repeat them as a fixed
+formula. Preserve the particular object, process, or relation that makes this
+reading distinctive, and state its interpretive consequence for the ayah as a
+whole. Make intelligible what the familiar reading leaves less visible and
+what the expanded or shifted reading now lets the reader understand. Preserve
+the editorial's force: an exploratory possibility remains possible, while a
+developed shift must not be softened into a decorative association or a
+reassurance that everything means the same thing. A concrete
+account of how something is carried, transformed, lost, or restored must not
+shrink to a general statement about care, guidance, dependence, or goodness.
+Keep the details needed to make the selected channel work; omit side findings
+and shorten routine setup. If a channel cannot be explained faithfully from
+the editorial prose, choose another grounded channel or reading.
+
+When a non-focus ayah supplies a contribution used in the invitation, keep its
+reference from the editorial prose beside that contribution.
+
+Do not turn the invitation into a miniature inventory of the commentary's
+conclusions, or flatten distinct channels into a broad theme to include more
+material. Do not repair, extend, or supplement the editorial prose from memory
+or outside knowledge.
+
+Omit technical apparatus. Retain any qualification, source distinction, live
+alternative, or boundary whose absence would change the force or meaning of a
+chosen reading. Express it naturally beside the image or relation it qualifies.
+Favor positive explanations of the relation between layers: what remains in
+the foreground and what the resonance makes audible in the background. State
+how that background reinforces, expands, or shifts the understanding of the
+main meaning, with the source and degree of certainty clear. Reserve explicit
+exclusions for concrete ambiguities or live counter-evidence that need them.
+Repeated "this is not X" endings make a reading sound withdrawn; express the
+substantive qualification through what the reading does contribute wherever
+possible. Use varied, natural language rather than a repeated "second layer"
+formula, and preserve the force of expansions and shifts.
+Do not name branches, candidates, findings, scopes, evidence categories,
+ledgers, or workflow stages, or label the prose as numbered channels. Do not
+list findings serially.
+
+Use the established `{ar:..., tr:..., gloss:...}` syntax, consistent
+Turkish-readable transliteration, and short ordinary glosses. Keep Arabic
+anchors beside the explanations they ground. Within a paragraph, continue with
+the Turkish meaning where clear; provide the necessary local tag when a later
+paragraph interprets the carrier anew. Do not place Arabic script outside a
+valid tag.
+
+Build transitions within a channel through its shared object, action, or
+relation. If two channels are selected, they may occupy separate paragraphs;
+do not invent a link between them. Do not praise the commentary's quality,
+promise what the reader will find, manufacture suspense, recap at the end, or
+add a call to action. End on an image, relation, action, or tension already
+established by the selected reading.
+
+Before finishing, compare the invitation with the entire editorial prose:
+does the chosen channel reveal a consequential reading, or could the text have
+been written from the ordinary translation and a modest explanation alone?
+When the editorial supports a surprising channel, the latter fails this task.
+Can the reader follow the opening expression into a connected background and
+understand how that background expands or shifts the ayah's main meaning?
+Check the selected connections against their editorial explanation: can the
+reader tell where the nonordinary details come from, with the necessary
+qualifications intact? Repair generic explanation, isolated curiosities, or a
+compressed findings list by developing the selected channel. Do not add
+omitted channels merely for coverage. Do not output this check.
+
+Write only the invitation text to:
+
+`_commentary/v5/editorial/s102-regular-20260911/s102/102_3/102_3.invitation.tr.md`
+
+Do not add a heading, wrapper label, index, ledger, evidence file, or any other
+artifact. Do not modify the editorial prose.
+
+After writing the invitation, run:
+
+```bash
+python3 _commentary/v5/validate_prose.py _commentary/v5/editorial/s102-regular-20260911/s102/102_3/102_3.invitation.tr.md
+```
+
+If validation fails, repair only the reported mechanical file-contract issues
+and rerun it, for at most two repair cycles. Report the final validator result
+in your response.
+
+<editorial_prose>
+## Kesilen Akış
+
+102:2'de kabirlere kadar uzanan ziyaret ve varış hareketi tamamlanırken {ar:كَلَّا, tr:kellâ, gloss:hayır} sözü akışı keser; araya giren {ar:سَوْفَ, tr:sevfe, gloss:ileride} ise {ar:تَعْلَمُونَ, tr:taʿlemûne, gloss:bileceksiniz} fiilini geleceğe taşır. Ayetin doğrudan söylediği söz kısadır: “Hayır! İleride bileceksiniz.” Muhatapların önceki yönelişine yönelen bu uyarı, 102:2'de tamamlanan bir sahnenin ardından ileride gerçekleşecek bir bilme ânına açılır.
+
+{ar:كَلَّا, tr:kellâ, gloss:hayır} Türkçedeki nötr bir “hayır”dan daha sıkı bir iş görür: önceki tutumu caydırır ve hemen ardından gelecek bilme uyarısını kurar. 102:2'deki tamamlanmış görüntüyle arasına bağlaç girmeden ayetin başında durması, sahneden ani bir söylem tutuşuna geçiş yaratır; ayet sınırı bu yüzden uyarının işlevsel eşiği gibi duyulur. Kelimenin kısa ve sıkı sesi de bu eşiği işitir hâle getirir: söz ilk vuruşta kendini tutar ve dikkati geri çevirir. Aynı {ar:كَلَّا, tr:kellâ, gloss:hayır} 102:4'te yeniden aynı uyarı kalıbını açtığında, buradaki kesme tek seferlik kalmaz; sonraki ayete taşınan yinelenmiş bir uyarı basıncı kazanır.
+
+Bu kesmenin zemini, 102:1'de biriken çoğalma ile 102:2'de kabirlere kadar varan hareketin dikkati kendi sürükleyişi içinde taşımasıdır. {ar:كَلَّا, tr:kellâ, gloss:hayır} bu birikimin yönünü değiştirerek dikkati bilmeye çeviren ilk açıklık eşiğini kurar. Bu eşik, bilinecek şeyi şimdiden kapatılmış bir sonuca dönüştürmeden uyarıyı açar; bilmenin neye varacağı biraz sonra anlaşılmak üzere bekler. Kesilen akışın sonucu yeni bir hükmün ilanı değil, birikimin taşıdığı dikkatin “bileceksiniz” sözüne döndürülmesidir.
+
+## Geleceğe Kurulan Eşik
+
+Bu dönüşün zamanını {ar:سَوْفَ, tr:sevfe, gloss:ileride} kurar: kelime, {ar:كَلَّا, tr:kellâ, gloss:hayır} ile {ar:تَعْلَمُونَ, tr:taʿlemûne, gloss:bileceksiniz} arasına yerleşen bağımsız bir zaman vuruşudur. 102:2'de kapanan hareket ile ilerideki bilme arasında ayrı bir eşik açılır. {ar:سَوْفَ, tr:sevfe, gloss:ileride}nin daha hafif ve ileri doğru çekilen akışı, sıkışan uyarıyı açık bir geleceğe uzatır; cümle kapanmak yerine bekletilmiş bir karşılaşmaya doğru açılır. Bu gelecek belirsiz bir tahmin değildir: bilmenin gerçekleşeceği kesinleşir, fakat bilinecek şeyin adı ve kesin zamanı 102:3'te söylenmez. Uyarının basıncı belirli bir tarihten değil, kesinleşmiş ama henüz açılmamış bu ufuktan doğar.
+
+Üç kelimelik dizinin sıkılığı, üç ayrı işin eksilmeden yan yana gelmesinden gelir: {ar:كَلَّا, tr:kellâ, gloss:hayır} durdurur, {ar:سَوْفَ, tr:sevfe, gloss:ileride} kendi gelecek vuruşunu araya koyar, {ar:تَعْلَمُونَ, tr:taʿlemûne, gloss:bileceksiniz} bilme eylemini doğrudan muhataplara yöneltir. Fiilin ikinci erkek çoğul biçimi, 102:2'deki topluluğu ayet sınırından geçirerek aynı topluluğu gelecekteki bilmenin muhatabı yapar; söz genel bir bilgi cümlesi değil, doğrudan hitap edilen bir uyarı olarak duyulur. {ar:تَعْلَمُونَ, tr:taʿlemûne, gloss:bileceksiniz} temel gövde biçiminde, muhatapların bilme durumuna girmesini anlatır; eylem öğretmenin bir başkasına bilgi vermesi etrafında kurulmaz. Fiilin süren biçimi zamanı kendi başına kapatmadığı için, onu yöneten {ar:سَوْفَ, tr:sevfe, gloss:ileride} bu hareketi 102:2'deki tamamlanmış varıştan sonra gerçekleşecek bir bilme varışına iter.
+
+## Bilmenin Açılan Yüzü
+
+{ar:تَعْلَمُونَ, tr:taʿlemûne, gloss:bileceksiniz}nin nesnesiz gelişi, bilmenin kesinliğini nesnenin adından ayırır ve bilinecek şeyi açık bırakır. Okur ileride bir şeyi kavrayacağını bilir; cümlenin kendisi henüz o şeyin adını vermez. Bilmek burada yalnızca bir bilgiyi edinmek değil, onu tanımak ve gerçeğine uygun biçimde kavramak yönünü de taşır. Bu yüzden sözcük, dikkatin şimdiye kadar gözden kaçırdığı bir şeyin ileride seçilebilir bir açıklığa ulaşacağı basıncı duyurur. Bu yerel genişleme, “bileceksiniz” sözünün içinde kalır ve nesnesiz gelecek uyarısının açıklığını artırır.
+
+Bu açık uç, aynı bilme uyarısının yeniden duyulduğu 102:4'te gecikmiş bir açığa çıkış görüntüsü kurar. {ar:كَلَّا, tr:kellâ, gloss:hayır} mevcut tutumu keser, {ar:سَوْفَ, tr:sevfe, gloss:ileride} gelecekteki açıklığı kurar, {ar:تَعْلَمُونَ, tr:taʿlemûne, gloss:bileceksiniz} ise kapalı kalan şeyin ileride görünür hâle geleceği karşılaşmayı bildirir. Bu ihtiyatla dinlenen ilişki, “Bileceksiniz” zeminini genişletir: şimdi direnilen veya örtülü kalan şeyin daha sonra açıklığa kavuşması hissedilir. Bu bağlantının kapsamı, bilinecek nesneyi, kesin tarihi veya dışarıda gerçekleşecek belirli olayı seçmeden açılmanın biçimini görünür kılmaktır.
+
+Bilme kelimesinin bir başka katkısı, bir şeyi başkasından ayırıp tanınır kılan belirgin iz veya işaret yönüdür. Bu yön, 102:2'deki gizli ve aşağıda kalan mezar eşiğinden 102:6'daki doğrudan görmeye ve 102:7'deki karşılaşmaya uzanan hareketle buluştuğunda, gelecekteki bilmeyi geçilen yolun sınırını seçilebilir kılan bir işarete doğru genişletir. 34:6'da kaydedilen tanıma hareketi de belirgin olanın ayırt edilip bilinir hâle gelmesi tarafını ekler. Böylece {ar:تَعْلَمُونَ, tr:taʿlemûne, gloss:bileceksiniz} sözü, mezar eşiği ile görüş arasındaki geçitte yolcunun hangi sınıra geldiğini gösteren bir yön işareti gibi duyulur. Rota resmi, 102:3'teki bilme uyarısına yolun sınırını ve yönünü seçilebilir kılan bir katkı getirir.
+
+Bu rota işareti, 102:6'daki yükseltilmiş bayrak, belirgin dağ, yol belirtisi veya kumaş kenarındaki ayırt edici desen gibi somut görüntülerle kamusal bir taşıyıcı kazanır. 102:2'de eşlik eden dayanak ya da liderlik noktası, bu görünür işaretin insanları döndükleri bir merkeze toplaması ve dönüş yönünü belirlemesi şeklinde duyulabilir. Önce sınırı ayırt eden iz görünür olur, ardından topluluğun yönünü düzenleyen bir odak belirir; {ar:تَعْلَمُونَ, tr:taʿlemûne, gloss:bileceksiniz} böylece yalnızca zihne giren bir önerme değil, geçişte yön veren bir açıklık taşır. Bu örnekler tek bir fiziksel nesne seçmek için değil, tanınır kılan ve yön veren işaret işlemini somutlaştırmak için kullanılır; 102:3'teki nesnesiz bilme yapısı yerinde kalır.
+
+## Görünür Olanın Karşılaşması
+
+İşaretin görünür olma katkısı, 102:6'daki {ar:لَتَرَوُنَّ, tr:latarawunna, gloss:elbette göreceksiniz} görme ve görünür kılma hareketiyle belirginleşir. Tekrarlanan görme, bir şeyin muhataba doğru hazırlanıp gösterildiği izlenimini verir; yükseltilmiş işaret sabit bir belirti olmaktan çıkıp görünür kılan bir olaya dönüşür. 102:7'deki {ar:عَيْنَ, tr:ayn, gloss:göz / pınar} bu hattın bir ucunda, işaretten işaret edilene ve doğrudan göz göze gelinen mevcudiyete geçişi taşır. Ardından 102:7'deki {ar:ٱلْيَقِينِ, tr:el-yakîn, gloss:şüpheyi kaldıran kesin bilgi}, aracılık azaldığında karşılaşılan şeyin artık karıştırılamayacak biçimde sabitlenmesini verir. Bu hareket, gelecekteki bilmeyi gösterilmiş bir karşılaşmaya genişletir: gösterme etkisini 102:6'daki görme taşırken, {ar:تَعْلَمُونَ, tr:taʿlemûne, gloss:bileceksiniz} bilme görevini sürdürür ve gösteren failin kimliğini açık bırakır.
+
+Bu karşılaşmanın kesinlik tarafını, 102:6'daki {ar:لَتَرَوُنَّ, tr:latarawunna, gloss:elbette göreceksiniz} ile {ar:لَتَرَوُنَّهَا, tr:latarawunnahâ, gloss:onu mutlaka göreceksiniz} aynı muhataplara yinelenen bir görme kaydı vererek kurar. 102:7'deki {ar:عَيْنَ, tr:ayn, gloss:göz / pınar} doğrudan teması sıkılaştırır; yine 102:7'deki {ar:ٱلْيَقِينِ, tr:el-yakîn, gloss:şüpheyi kaldıran kesin bilgi} ise bu tanıklığın sonunda şüpheyi kaldırır. Böylece {ar:تَعْلَمُونَ, tr:taʿlemûne, gloss:bileceksiniz}nin vaat ettiği bilme, görülüp yeniden kayda geçen, yüz yüze karşılaşılan ve sabitlenen bir açıklık olarak duyulur. Aynı görme kelimesinin kanaat ve düşünülmüş hüküm yönü bu duyusal çizgiye içeriden bir karşılık verir: algının üzerinde çevrilmiş, sınanmış ve sonunda bir kanaat hâline gelmiş bir kavrayış belirir. Bu düşünülmüş hüküm, 102:6'daki bedensel görme hattını aynı anda açık tutar; 102:3'teki bilme fiili de bu hattın içinde teknik bir tefekkür terimine dönüşmeden iki yönü birlikte taşır.
+
+## Birikimden Açıklığa
+
+Bundan bağımsız bir maddi katkıda, {ar:تَعْلَمُونَ, tr:taʿlemûne, gloss:bileceksiniz}nin bilmek anlamı yerinde kalırken aynı kelime ailesinde deniz veya suyu bol kuyu için kaydedilen bir yankı duyulur. 102:7'de bağımsız olarak gelen {ar:عَيْنَ, tr:ayn, gloss:göz / pınar} bu yankıyı fışkıran bir su gözüne taşır. Böylece soyut “ileride bileceksiniz” sözü, derinlikte tutulmuş bir şeyin basınçla görünür bir kaynağa ulaşması gibi hissedilebilir: bilme, içeride birikenin dışarıya açıldığı akışkan bir eşik kazanır. Bu nitelikli su rezonansında, 102:3'teki fiil bilme yüzeyini korur; maddi yankı 102:7'deki pınarın depolama ile çıkış arasında kurduğu harekete yerleşir.
+
+Su görüntüsünün ikinci ve daha sınırlı genişlemesi, 102:1'deki {ar:ٱلتَّكَاثُرُ, tr:et-tekâsür, gloss:sayıyla çoğalma ve üstünlük yarışı}, 102:6'da taşınıp getirilen su imgesi ve 102:7'de açılan pınarla kurulur. Önce sayısal artış birikmiş miktar gibi toplanır, sonra taşınan şey karşılaşmaya doğru ilerler ve sonunda görünür bir kaynaktan dışarı açılır. Bu hazne resmi, 102:3'teki bilmenin doğrudan sözlük karşılığı olarak değil, 102:1'deki birikme ile 102:6'daki taşıma arasındaki sınırlı analoji olarak çalışır. Yine de bu analoji, ilerideki bilmeyi derinde biriken basıncın 102:7'deki görünür eşiğe ulaşması olarak somutlaştırır; birikme ve taşıma kollarının çözümlenmemiş yönleri bu sınır içinde kalır.
+
+## Dikkatin Perdesi ve Örtü
+
+Su görüntüsünden bağımsız, fakat 102:1'deki aynı birikim sahnesine bağlanan dikkat çizgisi, {ar:أَلْهَىٰ, tr:elhâ, gloss:oyalayıp asıl olandan uzaklaştırır} ile {ar:ٱلتَّكَاثُرُ, tr:et-tekâsür, gloss:sayıyla çoğalma ve üstünlük yarışı}nin birlikte kurduğu perdeyi görünür kılar. Oyun ve hoşlanılan oyalanma dikkati başka bir nesneye kaydırır; sayısal rekabet de bu kaymayı her yeni üstünlük hesabıyla besler. {ar:تَعْلَمُونَ, tr:taʿlemûne, gloss:bileceksiniz}nin getirdiği gelecek açıklığı, bu kendi kendini besleyen dikkat perdesini kıran bir yöneliş gibi duyulur. İhtiyatla kurulan ayrı ama bağlantılı bir okumada, yarışın skoru son ölçü sanıldığında geçici bir başarı metriğine ve henüz verilmemiş bir hükme dönüşür. Bu hüküm ufku bir kazanan ilan etmez; 102:3'teki “bileceksiniz” sözünün açtığı sonuçta, sayının kurduğu ekranın ötesinde bir ayırt etme anı belirir.
+
+Örtülmüş yerde açıklık katkısı, görünürlük düşüncesini 102:2'deki {ar:زُرْتُمُ, tr:zurtum, gloss:ziyaret edip yöneldiniz} ve {ar:ٱلْمَقَابِرَ, tr:el-makābir, gloss:mezarlar} çevresindeki aşağıya yönelmiş, gizlenmiş yüzeyle buluşturur. {ar:تَعْلَمُونَ, tr:taʿlemûne, gloss:bileceksiniz} için kaydedilen bir başka maddi yön, üst dudakta bulunan ve anatomik bir yarık oluşturan görünür açıklıktır. Gizli mezar yüzeyiyle temas ettiğinde bu yarık, gelecekteki bilmeyi örtülmüş yerde okunabilir bir açıklığın açılması gibi düşündürür; 102:6'daki göstererek görünür kılma hareketi de çatlağı bir çizgiden ortaya çıkma olayına taşır. Bu keşifsel uzamsal benzetmenin kapsamı, 102:3'teki sıradan bilme anlamının yanına eklenen bir açıklık görüntüsüdür: yarık ayetin doğrudan nesnesi olarak tayin edilmez ve 102:2'deki mezar imgesinin bu bağlantıdaki katkısı çözümlenmiş bir sonuç olarak alınmaz.
+
+## Tekrarın Zamanı
+
+Tekrar, gelecekteki bilmeye ikinci bir açığa çıkış, derinleşme veya doğrulama duyumu kazandırır. Bunun zemini, {ar:ثُمَّ, tr:summe, gloss:sonra} kelimesinin ardından odak cümlesinin bütünüyle yeniden geldiği 102:4'tür. 102:5'te bilme ifadesinin iki kez kurulması ve {ar:ٱلْيَقِينِ, tr:el-yakîn, gloss:şüpheyi kaldıran kesin bilgi}nin getirdiği ölçü, gelecekteki tanımayı şimdi yaşanabilecek kesinliğe geç kalan bir karşılık gibi de hissettirebilir. Bu malzeme iki ayrı bilgi ânını zorunlu biçimde saydırmaz; aynı uyarının retorik pekiştirmesi ihtimali de canlıdır ve metin bunun ötesinde zorunlu bir ahlaki kronoloji kurmaz. Her iki imkânda da {ar:تَعْلَمُونَ, tr:taʿlemûne, gloss:bileceksiniz}nin 102:3'teki ilk gelecek uyarısı yerinde kalır.
+
+{ar:سَوْفَ, tr:sevfe, gloss:ileride}nin kurduğu zaman ufku, başka bağlamlarda farklı açılmalarla görünür: yakın uyarı kalıplarında aynı bilme sözünün yinelenmesi (78:4, 78:5), bir insanın çabasının ileride görüleceğinin bildirilmesi (53:40), her haberin bir yerleşme noktasına bağlanıp sonra bilineceğinin söylenmesi (6:67), bir haberin bir süre sonra açılacağının duyurulması (38:88) ve sonunda muhatapların bileceklerinin bildirilmesi (43:89) bu ufku somutlaştırır. Bu kullanımlar tek bir süreyi veya her yerde aynı gelecek biçimini dayatmaz. 102:3'teki {ar:تَعْلَمُونَ, tr:taʿlemûne, gloss:bileceksiniz}nin ilk bilmesi de tamamlanmış görmenin kendisi değil, görmeye, belirginleşmeye ve kesinliğe doğru açılan bir basamak gibi görünür; gelecek bilme ile sonraki görme arasında bir süreç duyulur.
+
+## Önceden Duyurulan Hesap
+
+Sonraki bağlamlar bu ilk sözü geriye doğru açıkladığında, {ar:تَعْلَمُونَ, tr:taʿlemûne, gloss:bileceksiniz} daha sonra karşılaşılacak hesabın önceden verilmiş haberi gibi duyulur. 102:8'deki sorgu, 58:6'da unutulan fiillerin yeniden bildirilmesi, 69:18'de hiçbir gizlinin saklı kalmaması ve 18:49'da kaydın küçük büyük hiçbir şeyi atlamaması, geleceği sorumluluktan önce açılan dört ayrı açıklık sahnesine dönüştürür. Bu sahneler, bilme ile sonradan gelecek delil arasına bir sıra yerleştirir: 102:6'da görme, yine 102:6'da dışarı taşıyan raporlama ve 102:8'de sorgulanma gelir; 102:3'teki bilme bu açıklama sürecinin ilk adımı olur. Bu atfedilmiş bildirim, bilme fiilinin kendi işini korur; sonraki açıklıkların haberi olarak çalışırken 102:3'teki fiilin biçimini ettirgen bir “bildirmek” anlamına taşımaz.
+
+Bu ön bildirimin geriye dönük etkisi, tekrar, doğrudan görme ve sorgulamanın birlikte okunmasıyla belirginleşir. 102:4'teki yinelenmiş formül, 102:6 ve 102:7'deki görme, 102:8'deki sorgu ve 18:49'daki eksiksiz kayıt fikri, {ar:تَعْلَمُونَ, tr:taʿlemûne, gloss:bileceksiniz} sözünü sonraki hesabın ön bildirimi olarak geri çağırır. Bu yapı iki kesin aşama şeklinde duyulabileceği gibi tekrarın yoğunlaştırması olarak da kalabilir. Her iki durumda ilk söz delilden önce gelen açıklık adımıdır; 102:6'daki görme, 102:6'daki raporlama ve 102:8'deki sorgulama, bilme kelimesinin yerine geçmeden onun ardından gelir.
+
+Bu ön bildirimin kişisel kanıt katkısı, sonraki bağlamlarda ayrı ayrı görünür hâle gelir: örtünün kaldırılıp görüşün keskinleşmesi (50:22), geçmiş ve ertelenmiş işlerin bildirilmesi (75:13), kişinin kendi benliğinin kendi üzerine delil oluşu (75:14), kaydın küçük büyük hiçbir şeyi atlamaması (18:49), unutulan fiillerin yeniden haber verilmesi (58:6), ellerin ve ayakların konuşması (36:65), işitme, görme ve derinin tanıklığı (41:20), bedenin kendi aleyhine tanıklık etmesi (24:24) ve toplulukların kendi kitaplarına çağrılması (45:28). Bu sahneler, {ar:تَعْلَمُونَ, tr:taʿlemûne, gloss:bileceksiniz}nin bilme çekirdeğini kişinin kendi fiilleriyle karşılaşacağı ve onları inkâr edemeyeceği bir açıklık ufkuna uzatır. Kayıt ve beden tanıklığı bu ufkun sonraki somut taşıyıcılarıdır; 102:3'teki kelime kendi bilme işini korur.
+
+## Tanıklığın Isısı
+
+Bu kanıt düzeni duyusal bir yoğunluk da kazanır: gelecekteki bilme, 102:6'daki görme, 102:7'deki doğrudan temas ve kesinlikle birleştiğinde geri çekilmesi zor bir tanıklık basıncı doğurur. {ar:تَعْلَمُونَ, tr:taʿlemûne, gloss:bileceksiniz}nin 102:6 ve 102:7'de yinelenen görmeyle buluşması, 102:6'daki {ar:جَحِيمَ, tr:cehîm, gloss:yakıcı ateş} imgesinin ısısıyla bilinen şeyi yalnız zihinsel değil, bedensel olarak hissedilen yoğun bir mevcudiyete taşır. 102:7'deki {ar:عَيْنَ, tr:ayn, gloss:göz / pınar} muhatapla bilinen şey arasındaki mesafeyi kaldırır; yine 102:7'deki {ar:ٱلْيَقِينِ, tr:el-yakîn, gloss:şüpheyi kaldıran kesin bilgi} ise doğrudan tanıklığın kuşku bırakmayan sabitliğini verir. Bu ihtiyatlı tanıklık okuması, “bileceksiniz” sözünü şüphe ötesi bir karşılaşma gibi duyurur. Görme bilmenin tanımı olarak değil, 102:6'daki ısının ayrıntısı da sınırlı bir bağlamsal imge olarak bu tanıklık çizgisine katkı verir.
+
+## Sözün Hesaba Dönüşmesi
+
+Bu açıklık, 102:8'de cevap verilmesi gereken bir duruma taşınabilir. {ar:تُسْأَلُونَ, tr:tus'elûne, gloss:sorgulanacaksınız} soru imgesi ile yine 102:8'deki {ar:ٱلنَّعِيمِ, tr:en-naʿîm, gloss:nimet ve rahatlık} kelimesinin yaşanmış iyilik ve refah alanı, gelecekteki açıklığa hem bir muhatap hem de hesabı sorulan somut bir içerik kazandırır. 102:6'daki anlatma ve dışarı taşıma hareketi, bilinen şeyin başkasına aktarılabilir bir söze dönüşmesini düşündürür; 102:8'deki soru bu sözü muhataptan talep eder. Soruyla birlikte gizli olanı çekip çıkarma yönü de belirir: tanıklık muhataptan alınabilir ve nimet, soyut bilgi değil, yararlanılmış bir yaşantı olarak sorunun içeriğini oluşturabilir. Böylece {ar:تَعْلَمُونَ, tr:taʿlemûne, gloss:bileceksiniz}nin açıklığı söze ve hesaba taşınır; sorunun hukuki biçimi ve verilecek cevabın içeriği 102:3'te açık bırakılır. Bu atfedilmiş hesap hareketi, bilme fiilinin 102:3'teki sözlük işini koruyarak çalışır.
+
+Gelecekteki bilmenin başka uyarı bağlamlarında açtığı son katkı, sonuç ortaya çıktığında iddiaların birbirinden ayrılabildiği bir hüküm ufkudur: kimin yalancı olduğu (11:93), kimin apaçık sapkın olduğu (39:39), kimin doğru yol sahibi olduğu (20:135) veya kimin daha zayıf destekli olduğu (67:29, 54:26) belirginleşebilir. Bu temas, {ar:تَعْلَمُونَ, tr:taʿlemûne, gloss:bileceksiniz}nin 102:3'te nesnesi açıkça söylenmeyen bilmesine, rakip iddiaların gerçekle karşılaşınca ayırt edileceği bir sonuç ufku ekler. Bu ufuk bir taraf seçmez ve bilme nesnesini önceden tayin etmez; “Hayır! İleride bileceksiniz” uyarısı, açıklığın sonunda iddiaları birbirinden ayıracak anı açık bırakarak tamamlanır.
+
+</editorial_prose>

@@ -1,0 +1,1183 @@
+{
+  "schema_version": "commentary-v5-scope-discovery-v1",
+  "ayah_ref": "110:2",
+  "lane": "global",
+  "coverage_complete": true,
+  "candidate_decisions": [
+    {
+      "candidate_id": "cand_ec95a81112b7d2c4c77d",
+      "decision": "accept",
+      "reason": "Güvenilir çapraz-çalıştırma kaydı, 110:1'deki açılmanın 110:2'de görülen giriş ve gruplar yoluyla geçilebilir hale geldiğini kuruyor. Beş aday dalın da odak taşıyıcısı mevcut; önceki açılma ve grup-girişi bağlantısı bağımsız tetikleyici sağlıyor.",
+      "finding_refs": [
+        "global:visible-proof"
+      ],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_8defac824c9b5932e72a",
+      "decision": "accept",
+      "reason": "Güvenilir kayıt, giriş eylemini iç içe katılım, boyun eğme ve hesap verebilirlik ile ilişkilendiriyor. د خ ل B008, د ي ن B001/B002/B006 dalları odak taşıyıcısına sahip; 110:3 ve hesaplı düzeni gösteren bağlantılar bağımsız bağlam sağlıyor.",
+      "finding_refs": [
+        "global:ordered-accountable-din"
+      ],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_0bdba24a85c203f19aac",
+      "decision": "accept",
+      "reason": "Görülen dış hareket ile د خ ل kökünün içte kalan yönü ve içten bozan kusur dalı, 110:3'teki bağışlanma emriyle gerçek bir görünürlük sınırı kuruyor. Dalların tümü odakta taşınıyor ve sonraki emir anlamı maddi olarak değiştiriyor.",
+      "finding_refs": [
+        "global:visible-boundary"
+      ],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_a81f9611b0c531b078a2",
+      "decision": "accept",
+      "reason": "ر أ ي B002 ve B005 dalları, kalabalığı görme eylemini değerlendirme ve başkalarının görmesi için sergileme riskiyle ilişkilendiriyor; 110:3'teki hamd buyruğu bağımsız düzeltici tetikleyici. Bu, doğrudan görmeyi değiştiren sınırlı bir etik okumadır.",
+      "finding_refs": [
+        "global:disciplined-seeing"
+      ],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_49f515f42037d63a16c3",
+      "decision": "accept",
+      "reason": "Güvenilir fakat zayıf dereceli kayıt, içte kalan durum ve içten kusur dallarını toplu girişin ardından gelen örtme, onarma ve yetiştirme sorumluluğuyla bağlıyor. 110:3 sonraki bakım tetikleyicisini sağlıyor; iddia kişileri suçlamadan sınırlandırılabiliyor.",
+      "finding_refs": [
+        "global:influx-care"
+      ],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_85a766740afd489b2c30",
+      "decision": "accept",
+      "reason": "Legacy reader kaydı, 110:1'de açılan eşiğin 110:2'de gerçekten geçilip düzenli bir alana katılım haline geldiğini kuruyor. Dört odak kökü ve önceki açılma bağlamı mevcut; kaynak niteliği nedeniyle bulgu nitelikli tutuluyor.",
+      "finding_refs": [
+        "global:ordered-entry"
+      ],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_16a02cb6121f30ee591d",
+      "decision": "represented",
+      "reason": "Aynı dīn girişini boyun eğme, hesap ve düzenli kamusal alan ilişkisi olarak kuruyor; bütün dalları global:ordered-accountable-din bulgusunda ayrı facet aktivasyonlarıyla korunuyor.",
+      "finding_refs": [
+        "global:ordered-accountable-din"
+      ],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_89813ad9fae3766fdb45",
+      "decision": "narrow",
+      "reason": "Grup hareketinin açılmış alanda akış veya sürü gibi okunması, د خ ل B007 ve ف و ج B001/B002 dallarıyla sınırlı biçimde taşınabiliyor. root_004965/B002 için paket dal kaydı, gloss, facet ve odak taşıyıcısı vermiyor; bu nedenle çözümlenmemiş dal dışarıda bırakıldı.",
+      "finding_refs": [
+        "global:flowing-groups"
+      ],
+      "branch_exclusions": [
+        {
+          "branch_ref": "root_004965/B002",
+          "reason": "Branch registry'de unresolved; exact gloss, facet veya odak occurrence supplied değil. HFT/reader adayındaki atıf tek başına bu dalı aktive etmiyor."
+        }
+      ],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_639c25385ee9054b6696",
+      "decision": "represented",
+      "reason": "Kalabalığı görmenin gösteriye dönüşme riskini global:disciplined-seeing bulgusunda aynı B005 taşıyıcısı ve 110:3 düzeltmesiyle eksiksiz taşıyor.",
+      "finding_refs": [
+        "global:disciplined-seeing"
+      ],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_9884d5ff742f1c0ed06c",
+      "decision": "represented",
+      "reason": "Girişin görünmeyen iç durumunu açması ve sonraki onarım ihtiyacı, global:influx-care bulgusundaki B003/B004 aktivasyonlarıyla aynı semantik ilişkidir.",
+      "finding_refs": [
+        "global:influx-care"
+      ],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_498791c0b01f4be274d7",
+      "decision": "represented",
+      "reason": "110:3 sonrasında görünür başarı, saklı iç durum ve gösteriş riskinin birlikte açılması global:visible-hidden-tension bulgusunun taşıdığı aynı bileşik ilişkidir; adayın ayrıca dışlanan dalı veya yükümlülüğü yok.",
+      "finding_refs": [
+        "global:visible-hidden-tension"
+      ],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_e482b744425ba134dda3",
+      "decision": "represented",
+      "reason": "Açılmanın geçilen eşik haline gelmesi, global:ordered-entry bulgusundaki د خ ل B001 aktivasyonuyla aynı semantik ilişkidir.",
+      "finding_refs": [
+        "global:ordered-entry"
+      ],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_872691834cd6edfe6e00",
+      "decision": "represented",
+      "reason": "Görülen girişin iç durumu tüketmemesi, global:visible-boundary bulgusundaki د خ ل B003/B004 ve ر أ ي B001 aktivasyonlarıyla aynı semantik ilişkidir.",
+      "finding_refs": [
+        "global:visible-boundary"
+      ],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_2a66b9662829fb87aa02",
+      "decision": "represented",
+      "reason": "Görme eyleminin kamusal gösteri ve değerlendirme riski taşıması, global:disciplined-seeing bulgusunda doğrudan görme, görüş ve riya dallarıyla eksiksiz korunuyor.",
+      "finding_refs": [
+        "global:disciplined-seeing"
+      ],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_6be2efd6080ab5e04a46",
+      "decision": "represented",
+      "reason": "Dîne girişin düzenli ve hesap verebilir bir yapıya katılım olması, global:ordered-accountable-din bulgusundaki د خ ل B008 ve د ي ن B001 aktivasyonlarıyla aynı semantik ilişkidir.",
+      "finding_refs": [
+        "global:ordered-accountable-din"
+      ],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_ae500a5dd66f53009faf",
+      "decision": "reject",
+      "reason": "Reader kaydı الناس için salınım/hareket dalı ileri sürüyor, fakat paket bu occurrence için root_000059/B001'i insan türü ve insan topluluğu olarak veriyor; hareket anlamında supplied branch yok. Giriş ve gruplar yalnızca genel hareketi gösteriyor, yeni iddiayı bağımsız biçimde aktive etmiyor.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_71d06e58f9778673d461",
+      "decision": "accept",
+      "reason": "Legacy retrospective kayıt, 110:3'ün kamusal görünürlüğü saklı iç durum ve gösteriş riskiyle birlikte yeniden çerçevelediğini söylüyor. Her iki odak taşıyıcısı supplied ve ilişki, ayrı dalları tek bir gerilimde açıklıyor; kaynak statüsü nitelikli tutuluyor.",
+      "finding_refs": [
+        "global:visible-hidden-tension"
+      ],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_0af7e5de3b70ef7216d0",
+      "decision": "reject",
+      "reason": "HFT summary kaydının anchor_refs, branch_refs ve exact focus-return coordinate'i boş; yalnızca önceki açılmanın eşik olduğu sonucunu bildiriyor. Supplied HFT trace bu kayda carrier, independent trigger ve dönüş sağlamıyor.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_d8a6016ccb3af6c7fea5",
+      "decision": "reject",
+      "reason": "HFT summary aidin ve ilahi atfın sahipliği değiştirdiğini söylüyor, fakat exact context ayah, word index, root, attributed role ve focus return vermiyor. Bu nedenle legacy_unbound özet, branch-backed activation eşiğini geçmiyor.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_d95c277ed0b7c4f2f23f",
+      "decision": "reject",
+      "reason": "Cultivation, covering ve return özetinin HFT kaydında hiçbir carrier veya trigger coordinate'i yok; 110:3'ün anlamını supplied focus branch'lerine bağlayan exact trace bulunmuyor. İddia mevcut nitelikli bulgulara ek bir landed activation kurmuyor.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_c901c73f4ffe03382665",
+      "decision": "reject",
+      "reason": "HFT summary görünürlük ve saklı iç durum gerilimini adlandırıyor, ancak anchor_refs ve branch_refs boş; exact HFT contact returning to focus yok. Aynı ilişki branch-backed global:visible-hidden-tension'da bulunduğu için bu unanchored summary ayrıca retained finding kurmuyor.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_b2bf97f95f87def28319",
+      "decision": "reject",
+      "reason": "HFT'nin çoklu mekanizma özeti, açılma, agency, incorporation ve su/büyüme sürekliliklerini tek bir unanchored record'da topluyor. Supplied coordinate, carrier, trigger veya focus-return bulunmadığından bu özet kendi başına global activation kuramaz.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_f4cdbc6cfc99cd715e73",
+      "decision": "reject",
+      "reason": "Açılmanın uzamsal, zafer veya hüküm olarak işleyebileceğine dair HFT uncertainty kaydı, bir carrier veya bağımsız trigger değil alternatif olasılık listesidir; exact focus return ve changed reading verilmemiştir.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_6744646de70ef9e80d73",
+      "decision": "reject",
+      "reason": "Koruyucu örtmenin kime yöneldiği belirsizliği, supplied focus occurrence veya branch facet'e bağlanmıyor. HFT kaydında coordinate bulunmadığı için bu uncertainty ayrı bir finding ya da activation olarak taşınamaz.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_d247b556d9ab14b0768e",
+      "decision": "reject",
+      "reason": "HFT kaydı hidrological, optical ve recurrent-watering okumalarını exploratory diye nitelese de exact branch, carrier, independent trigger ve focus return vermiyor. Availability ve source qualification, landed activation yerine geçmiyor.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    }
+  ],
+  "findings": [
+    {
+      "finding_ref": "global:visible-proof",
+      "origin_candidate_id": "cand_ec95a81112b7d2c4c77d",
+      "represented_candidate_ids": [],
+      "title": "Görülen toplu giriş, açılmanın geçilebilir hale geldiğini görünür kılar",
+      "claim": "Görülen toplu giriş, 110:1'deki açılmanın gerçekten geçilebilir bir eşik oluşturduğunu açar; ölçü ele geçirilen şey değil, o açıklıktan geçen insan topluluklarının hareketidir.",
+      "mechanism": "رَأَيْتَ ile doğrudan tanıklık, يَدْخُلُونَ ile dışarıdan içeri geçiş ve أَفْوَاجًا ile çoğalan gruplar aynı görünür olayda buluşur; ف و ج dalındaki geniş açıklık imgesi, önceki açılmayı trafikle doğrulanan bir geçit olarak yeniden çerçeveler.",
+      "reader_payoff": "110:2, önceki açılmanın ardından gelen bir sayı bildirimi olmaktan çıkar; okuyucu açılmış imkanın içinden geçen ve onu görünür kılan hareketi kavrar.",
+      "containment": "Bu, 110:1'in açılma bağlamıyla kurulan yerel bir global rezonanstır; bir yolun fiziksel olduğunu, açılmanın tek anlamının bu olduğunu veya 78:18'deki ahiret sahnesinin burada tekrarlandığını söylemez.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": [
+          "trusted"
+        ],
+        "reason": "Beş focus branch'i exact occurrence ile supplied; çapraz-çalıştırma desteği trusted olsa da sonuç, branch temaslarının bağlamsal sentezidir ve B012 qualified durumdadır."
+      },
+      "support_ids": [
+        "sup_842f6fab070ab5479afc"
+      ],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000531/B001",
+          "facet_id": "F002",
+          "branch_gloss": "gözle ya da içsel kavrayışla görme",
+          "facet_statement": "Bir şeyi gözün eriştiği yerde doğrudan ve tanık olarak görme.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "110:2:1:2"
+          ],
+          "trigger_refs": [
+            "110:1"
+          ],
+          "focus_return_refs": [
+            "110:2:1:2"
+          ],
+          "carrier": "رَأَيْتَ biçimi, toplu girişin doğrudan tanıklıkla görülen hareketini taşır.",
+          "independent_trigger": "110:1'de bildirilen açılma, görülen girişin önündeki ayrı eşiktir.",
+          "activation": "Önceki açılma ile sonraki doğrudan görme birleşince açılan imkanın sonucu, yalnızca haber verilen bir olay değil, göz önünde gerçekleşen geçiş olur.",
+          "resulting_reading": "Görülen hareket, açılmanın çalıştığına dair kamusal bir belirti haline gelir.",
+          "boundary": "رَأَيْتَ burada fiziksel tanıklığı taşır; zihinsel görüş veya gösteriş dalı bu aktivasyonun sonucu olarak tek başına iddia edilmez."
+        },
+        {
+          "branch_ref": "root_000531/B012",
+          "facet_id": "F003",
+          "branch_gloss": "gösterip görmesini sağlama",
+          "facet_statement": "Verme buyruğu veya bir olay üzerinden sonuç ve bilgi gösterme.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "110:2:1:2"
+          ],
+          "trigger_refs": [
+            "110:2:7:1",
+            "110:1"
+          ],
+          "focus_return_refs": [
+            "110:2:1:2"
+          ],
+          "carrier": "Görme fiili, grupların açıkça görülen sonucunu bilgiye dönüştüren gösterme yönünü taşır.",
+          "independent_trigger": "أَفْوَاجًا ile bildirilen çoğul trafik ve 110:1'deki açılma, görülen sonucun ayrı dayanaklarıdır.",
+          "activation": "Görülen grupların geçişi, önceki açılmanın işe yaradığını olay üzerinden gösterir; böylece görme yalnızca gözün alması değil, sonucun açığa çıkması olur.",
+          "resulting_reading": "Açılmanın ölçüsü, ele geçirilen bir nesne yerine geçişin görünür sonucu olarak belirir.",
+          "boundary": "Bu bağlamsal gösterme, رَأَيْتَ fiilinin yüzeyde ettirgen olduğu iddiası değildir."
+        },
+        {
+          "branch_ref": "root_000464/B001",
+          "facet_id": "F001",
+          "branch_gloss": "içeri girmek veya içeri sokmak",
+          "facet_statement": "Bir kişi ya da şey dışarıdaki bir konum veya durumdan içerideki konum veya duruma geçer.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "110:2:3:1"
+          ],
+          "trigger_refs": [
+            "110:1"
+          ],
+          "focus_return_refs": [
+            "110:2:3:1"
+          ],
+          "carrier": "يَدْخُلُونَ, dışarıdaki konumdan içerideki alana geçişi taşır.",
+          "independent_trigger": "Önceki ayetteki açılma, geçişin önünü açan ayrı olaydır.",
+          "activation": "Açılma ile içeri geçiş birleşince önceki imkanın fiili sınır aşımı olarak gerçekleştiği görülür.",
+          "resulting_reading": "Giriş, soyut bir sonuç etiketi değil, açılmış bir alanın gerçekten geçilmesidir.",
+          "boundary": "Buradaki geçiş, fiziksel bir mekanın zorunlu tercümesi değildir; soyut hedef alanla birlikte okunur."
+        },
+        {
+          "branch_ref": "root_001184/B001",
+          "facet_id": "F003",
+          "branch_gloss": "insan topluluğu",
+          "facet_statement": "Çokluk ve katmerli çokluk biçimleri, birden çok insan topluluğunu ya da çok sayıdaki toplulukları gösterir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "110:2:7:1"
+          ],
+          "trigger_refs": [
+            "110:2:3:1",
+            "13:23"
+          ],
+          "focus_return_refs": [
+            "110:2:7:1"
+          ],
+          "carrier": "أَفْوَاجًا, tekil bir kalabalık yerine birden çok insan topluluğunun geçişini taşır.",
+          "independent_trigger": "يَدْخُلُونَın hareket fiili ve 13:23 bağlantısındaki toplu giriş, çoğul geçişi bağımsız biçimde belirginleştirir.",
+          "activation": "Grupların giriş fiilinin sonunda yer alması, açılmanın tek bir kişinin hareketiyle değil, art arda gelen topluluklarla görünür olduğunu kurar.",
+          "resulting_reading": "Geçilebilirliğin kanıtı, tekil bir örnek değil, tekrarlanan toplu trafiktir.",
+          "boundary": "أَفْوَاجًا burada grup hareketini taşır; grubun ahiret hesabı veya her topluluğun niteliği bu aktivasyondan çıkarılmaz."
+        },
+        {
+          "branch_ref": "root_001184/B002",
+          "facet_id": "F001",
+          "branch_gloss": "iki yükselti arasındaki geniş açıklık",
+          "facet_statement": "Sert topraklı ya da kumlu iki yükselti arasında uzanan geniş açıklıktır.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "110:2:7:1"
+          ],
+          "trigger_refs": [
+            "110:1"
+          ],
+          "focus_return_refs": [
+            "110:2:7:1"
+          ],
+          "carrier": "أَفْوَاجًا, grupların içinden geçtiği geniş açıklık imgesine açılır.",
+          "independent_trigger": "110:1'deki açılma, açıklık facetini harekete geçiren ayrı pericope bağlamıdır.",
+          "activation": "Açılma ile açıklık ve içinden geçen gruplar temas edince olay, ulaşılmaz bir engelin kalkmasından sonra kullanılabilir bir geçit görüntüsü kazanır.",
+          "resulting_reading": "Açılma, geçtiği görülen bir açıklık olarak maddi bir hareket alanı sağlar.",
+          "boundary": "Bu açıklık, ayetin literal coğrafyası veya kesin fiziksel topografyası olarak ileri sürülmez."
+        }
+      ],
+      "connection_refs": [
+        "conn_b4c858a26cef4df736db",
+        "conn_329c379bb3a32f5850b3"
+      ],
+      "context_refs": [
+        "110:1",
+        "13:23"
+      ],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:ordered-accountable-din",
+      "origin_candidate_id": "cand_8defac824c9b5932e72a",
+      "represented_candidate_ids": [
+        "cand_16a02cb6121f30ee591d",
+        "cand_6be2efd6080ab5e04a46"
+      ],
+      "title": "Dîne giriş, düzenli ve hesap verebilir bir alana katılım olarak açılır",
+      "claim": "İnsanların Allah'ın dînine girişi, yalnızca ortak bir kimlik edinimi değil, boyun eğme, birbirine bağlanma ve hesap taşımayan bir kalabalıktan sorumluluk taşıyan düzenli bir alana katılma olarak belirir.",
+      "mechanism": "د خ ل B008'in iç içe geçme ilişkisi, د ي ن B001'in uyma ve kurallar düzeni, B002'nin hesap ve karşılık yönü, B006'nın düzenli kent imgesiyle temas eder; 110:3 ve hesapla ilişkilenen bağlantılar bu iç alanın sorumluluk boyutunu tetikler.",
+      "reader_payoff": "Dîn kelimesi Türkçedeki dar kimlik etiketinden açılır; okuyucu girişin bir yönetime, bağlılığa ve hesaplı ortak düzene katılma hareketi olduğunu görür.",
+      "containment": "Kent dalı gerçek bir şehir, hesap dalı yalnızca son gün veya dîn dalı yalnızca hukuki kurum demek değildir; bunlar, Allah'a nispet edilen düzenin farklı bağlılık ve sorumluluk yüzlerini bağlamsal olarak açar.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": [
+          "legacy_unbound",
+          "trusted"
+        ],
+        "reason": "Trusted cross-run finding exact focus branches ile destekleniyor; legacy reader supports aynı ilişkileri genişletiyor. Sonuç, doğrudan sözlük karşılığı değil, odak ve global bağlantıların nitelikli sentezidir."
+      },
+      "support_ids": [
+        "sup_3731fb333cdabf6c1359",
+        "sup_d1a5d753a862fd1f473a",
+        "sup_c49de88e5fc78b6fd279"
+      ],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000464/B008",
+          "facet_id": "F001",
+          "branch_gloss": "iç içe geçme ve arada kalma",
+          "facet_statement": "Bir parçanın başka parçaların arasına girmesi veya onlarla iç içe birleşmesi temel ilişkidir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "110:2:3:1"
+          ],
+          "trigger_refs": [
+            "110:2:5:1",
+            "110:3"
+          ],
+          "focus_return_refs": [
+            "110:2:3:1"
+          ],
+          "carrier": "يَدْخُلُونَ, parçaların bir alana ve birbirleriyle ilişkili bir bütünün içine girmesini taşır.",
+          "independent_trigger": "دِينِ ve ardından gelen 110:3, girişin ilişkisiz bir mekana değil bağlılık ve sorumluluk alanına yöneldiğini sağlar.",
+          "activation": "İç içe geçme ile dîn alanı temas edince toplu giriş, yalnızca yan yana duran insanların aynı etiketi alması değil, ortak bir düzenin içinde birbirine bağlanması olarak okunur.",
+          "resulting_reading": "Dîne giriş, düzenli bir bütüne katılma hareketidir.",
+          "boundary": "İç içe geçme burada fiziksel parçaların literal birleşmesi veya herkesin aynı iç duruma sahip olduğu iddiası değildir."
+        },
+        {
+          "branch_ref": "root_000504/B001",
+          "facet_id": "F003",
+          "branch_gloss": "boyun eğerek uyma ve buna dayalı inanç düzeni",
+          "facet_statement": "İnanç yolu ve kurallar bütününün, onlara uyma ve bağlanma ilişkisi açısından adlandırılması.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "110:2:5:1"
+          ],
+          "trigger_refs": [
+            "110:2:3:1",
+            "3:83"
+          ],
+          "focus_return_refs": [
+            "110:2:5:1"
+          ],
+          "carrier": "دِينِ, boyun eğme ile kurallar ve inanç yoluna bağlanma düzenini taşır.",
+          "independent_trigger": "Toplulukların giriş fiili ve 3:83 bağlantısındaki genel boyun eğme çerçevesi, dîn'i salt özel ad olmaktan çıkaran ayrı temaslardır.",
+          "activation": "Giriş hareketi, dîn'in uyma ve bağlanma facetine bağlanınca ayet, insanların bir ismi benimsemesinden çok belirli bir düzene dahil olmasını anlatır.",
+          "resulting_reading": "Allah'ın dîni, toplu girişin yöneldiği bağlılık ve kurallar alanıdır.",
+          "boundary": "Bu activation, dîn'i yalnızca kurumsal devlet düzeni veya bütün ayrıntıları bu ayette açıklanmış bir hukuk sistemi olarak belirlemez."
+        },
+        {
+          "branch_ref": "root_000504/B002",
+          "facet_id": "F001",
+          "branch_gloss": "yargılayıp hesap görerek karşılığını verme",
+          "facet_statement": "Bir kişi veya eylem hakkında hükme varıp hesabını görmek.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "110:2:5:1"
+          ],
+          "trigger_refs": [
+            "110:3",
+            "95:7"
+          ],
+          "focus_return_refs": [
+            "110:2:5:1"
+          ],
+          "carrier": "دِينِ, bağlılık düzeninin içinde değerlendirme ve hesap boyutunu da taşıyabilir.",
+          "independent_trigger": "110:3'ün giriş sonrasında yönelttiği eylem ve 95:7'nin dîn'i hesapla ilişkilendiren bağlantısı ayrı hesap tetikleyicileridir.",
+          "activation": "Uyma düzeni hesap facetine temas edince toplu kabul, tamamlanmış bir başarı hükmü değil, sorumluluk ve değerlendirme taşıyan bir katılım olur.",
+          "resulting_reading": "Dîne giren topluluk, bağlı olduğu düzen karşısında hesap taşıyan bir topluluk olarak görünür.",
+          "boundary": "Bu ayetten belirli bir hesap gününün zamanlaması veya her girenin hükmünün sonucu çıkarılmaz."
+        },
+        {
+          "branch_ref": "root_000504/B006",
+          "facet_id": "F001",
+          "branch_gloss": "kent",
+          "facet_statement": "İnsanların toplu yaşadığı büyük ve düzenli yerleşim olan kent.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "110:2:5:1"
+          ],
+          "trigger_refs": [
+            "110:2:3:1",
+            "22:78"
+          ],
+          "focus_return_refs": [
+            "110:2:5:1"
+          ],
+          "carrier": "دِينِ, bağlılık alanını insanların birlikte yaşadığı düzenli bir kamusal alan gibi düşündüren kent facetine açılır.",
+          "independent_trigger": "Çoklu giriş fiili ve 22:78 bağlantısındaki organize ve sorumlu topluluk, düzenli ortak alanı bağımsız biçimde çağırır.",
+          "activation": "Dîn'in kent facetine toplu giriş temas edince ayet, özel iç inançtan daha geniş, birlikte yaşama ve yükümlülük taşıma alanı gösterir.",
+          "resulting_reading": "Allah'ın dîni, toplulukların içinde yer aldığı düzenli bir ortak alan olarak da kavranır.",
+          "boundary": "Kent facetinin işi gerçek bir şehir coğrafyası kurmak değil, dîn'in kamusal düzen boyutunu görünür kılmaktır."
+        }
+      ],
+      "connection_refs": [
+        "conn_e462f8e3383ea7a24b57",
+        "conn_109fd65e27ef8f714699",
+        "conn_0dccbea898239270473d"
+      ],
+      "context_refs": [
+        "110:3",
+        "3:83",
+        "95:7",
+        "22:78"
+      ],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:visible-boundary",
+      "origin_candidate_id": "cand_0bdba24a85c203f19aac",
+      "represented_candidate_ids": [
+        "cand_872691834cd6edfe6e00"
+      ],
+      "title": "Görülen giriş, iç durumu bütünüyle açığa çıkarmaz",
+      "claim": "رَأَيْتَ ile görülen şey insanların dışarıdan gerçekleşen girişidir; د خ ل kökünün içte kalan yönü ve içten bozan kusur dalları, bu görüntünün girenlerin veya görenin iç durumunu tamamlamadığını açar.",
+      "mechanism": "Doğrudan görme dış hareketi taşırken د خ ل B003 saklı iç yönü, B004 içten bozan kusuru taşır; 110:3'teki bağışlanma buyruğu, görünür başarıdan sonra iç sorumluluk ihtimalini bağımsız biçimde devreye sokar.",
+      "reader_payoff": "Kalabalığın göz önündeki girişi, kişilerin iç dünyası hakkında tamamlanmış bir hükme dönüşmez; okuyucu görünür sonuç ile saklı durum arasındaki açıklığı ayetin kendi akışı içinde görür.",
+      "containment": "Bu okuma girenlerin kusurlu olduğunu veya görenin niyetini belirlemez. Bağışlanma emri, görünür hareketin iç durumu tüketmediğini açık tutan bağlamdır.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": [
+          "legacy_unbound",
+          "trusted"
+        ],
+        "reason": "Trusted candidate exact focus carriers ile supplied; legacy walk duplicate aynı değişimi destekliyor. İç durum sonucu değil, görünürlük sınırı nitelikli olarak kuruluyor."
+      },
+      "support_ids": [
+        "sup_bdb6119aa8679f550881",
+        "sup_39056c528104a8dd04bd"
+      ],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000531/B001",
+          "facet_id": "F002",
+          "branch_gloss": "gözle ya da içsel kavrayışla görme",
+          "facet_statement": "Bir şeyi gözün eriştiği yerde doğrudan ve tanık olarak görme.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "110:2:1:2"
+          ],
+          "trigger_refs": [
+            "110:3",
+            "67:27"
+          ],
+          "focus_return_refs": [
+            "110:2:1:2"
+          ],
+          "carrier": "رَأَيْتَ, toplu girişin dışarıdan doğrudan tanıklık edilmesini taşır.",
+          "independent_trigger": "110:3'teki bağışlanma yönelişi ve 67:27 bağlantısındaki görmenin iç güvence vermemesi, gözlenen dış yüz için ayrı sınır kurar.",
+          "activation": "Tanıklık ile sonraki bağışlanma talebi temas edince görülen hareket, iç durum hakkında son söz değil, yalnızca dışarıya açık bir kanıt olur.",
+          "resulting_reading": "Ayet kamusal sonucu gösterirken iç hükmü açık bırakır.",
+          "boundary": "Görme burada şüpheli veya yanlış ilan edilmez; sınır, görmenin kapsamına aittir."
+        },
+        {
+          "branch_ref": "root_000464/B003",
+          "facet_id": "F001",
+          "branch_gloss": "içte kalan yan",
+          "facet_statement": "Bir kişi veya işin dışarıdan görünmeyen iç durumu ve saklı yönü anlatılır.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "110:2:3:1"
+          ],
+          "trigger_refs": [
+            "110:3",
+            "110:2:1:2"
+          ],
+          "focus_return_refs": [
+            "110:2:3:1"
+          ],
+          "carrier": "يَدْخُلُونَ, dışarıdan görünen girişin yanında saklı iç duruma açılan içte kalma ilişkisini taşır.",
+          "independent_trigger": "Görenin gözlemi ve hemen ardından gelen 110:3 bağışlanma emri, dış hareket ile iç durumun ayrı olduğunu tetikler.",
+          "activation": "Giriş fiili, görünür bir hareketi içte kalan yönle buluşturunca ayet, dışarıdan görülen katılımın içeride ne durumda olduğunu tek başına söylemez.",
+          "resulting_reading": "Girişin görünür olması, içeriğin de görünür olduğu anlamına gelmez.",
+          "boundary": "İçte kalan yön burada belirli bir psikolojik veya ahlaki teşhis değildir."
+        },
+        {
+          "branch_ref": "root_000464/B004",
+          "facet_id": "F002",
+          "branch_gloss": "içten bozan kusur",
+          "facet_statement": "İç bozukluk kuşku, hile, aldatma veya gizli düşmanlık olarak davranış ve ilişki alanına uzanır.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "110:2:3:1"
+          ],
+          "trigger_refs": [
+            "110:3",
+            "110:2:1:2"
+          ],
+          "focus_return_refs": [
+            "110:2:3:1"
+          ],
+          "carrier": "يَدْخُلُونَ, dışarıdan görülen girişin ardında saklı kalabilecek içten bozulma ihtimalini taşır.",
+          "independent_trigger": "Bağışlanma talebi, görünen toplu başarının ardından iç sorumluluk ve kusur ihtimalini devreye sokar.",
+          "activation": "Girişin dış yüzü ile kusurun içeride saklı kalması temas edince görülen topluluk, tek bir gözlemle ahlaki olarak tamamlanmış sayılmaz.",
+          "resulting_reading": "Kamusal giriş, içten bozan ihtimali görünür kanıtın sınırında tutar ve sonraki bağışlanma hareketini anlamlı kılar.",
+          "boundary": "Bu facet, her gireni hilekâr veya kusurlu ilan etmez; yalnızca dış görüntünün bu alanı kapatmadığını söyler."
+        }
+      ],
+      "connection_refs": [
+        "conn_8b79537ab7e1544837e8"
+      ],
+      "context_refs": [
+        "110:3",
+        "67:27"
+      ],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:disciplined-seeing",
+      "origin_candidate_id": "cand_a81f9611b0c531b078a2",
+      "represented_candidate_ids": [
+        "cand_639c25385ee9054b6696",
+        "cand_2a66b9662829fb87aa02"
+      ],
+      "title": "Kalabalığı görmek, görmenin ahlaki yönünü de açar",
+      "claim": "Kalabalığı görme eylemi, yalnızca dışarıdaki sonucu fark etmeyi değil, görülen başarı hakkında bir değerlendirme yapmayı ve onu başkalarının önünde kendine mal ederek sergileme riskini de açar; 110:3'ün hamd buyruğu övgünün yönünü Allah'a çevirir.",
+      "mechanism": "ر أ ي B001'in doğrudan görmesi, B002'nin görüşe varma facetine ve B005'in başkaları görsün diye yapma facetine bağlanır; kalabalığın kamusal görünürlüğü bu iki ayrı baskıyı taşır, sonraki hamd emri değerlendirmeyi yeniden yönlendirir.",
+      "reader_payoff": "Okuyucu başarıyı seyretmek ile onu seyirlik bir kişisel gösteriye çevirmek arasındaki farkı, ayetin görme fiilinden sonraki yönlendirmeyle birlikte kavrar.",
+      "containment": "رَأَيْتَ yüzeyde doğrudan görmedir; bu bulgu muhatabın gerçekten riya yaptığını veya bütün kamusal görünürlüğün yanlış olduğunu söylemez. Riya, kalabalık ve sonraki hamd tarafından aktive edilen etik risktir.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": [
+          "legacy_unbound",
+          "trusted"
+        ],
+        "reason": "Trusted finding-6 exact B002/B005 dallarını veriyor; legacy reader supports aynı etik temasın sınırlarını genişletiyor. Riya sonucu değil, bağlamsal risk olarak tutuluyor."
+      },
+      "support_ids": [
+        "sup_b65f087a408e2f9b77b5",
+        "sup_eb84878ecdc324185b0b",
+        "sup_2e5d6cf20e0908e7d67f"
+      ],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000531/B001",
+          "facet_id": "F002",
+          "branch_gloss": "gözle ya da içsel kavrayışla görme",
+          "facet_statement": "Bir şeyi gözün eriştiği yerde doğrudan ve tanık olarak görme.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "110:2:1:2"
+          ],
+          "trigger_refs": [
+            "110:3",
+            "110:2:2:2"
+          ],
+          "focus_return_refs": [
+            "110:2:1:2"
+          ],
+          "carrier": "رَأَيْتَ, kamusal topluluğu doğrudan gören tanıklığı taşır.",
+          "independent_trigger": "ٱلنَّاسَın belirli insan topluluğu oluşu ve 110:3'te gelen hamd emri, görmenin kamusal değerlendirme boyutunu açar.",
+          "activation": "Görme, kalabalık ve hamd yönlendirmesiyle temas edince gözlenen olayın nasıl değerlendirileceği sorusunu da görünür kılar.",
+          "resulting_reading": "Tanıklık, kendi başına sahiplik ilanı değil; doğru yöne çevrilmesi gereken bir değerlendirme anıdır.",
+          "boundary": "Bu aktivasyon görmenin ötesinde bir içsel görüşü zorunlu kılmaz ve muhatabın niyetini hükme bağlamaz."
+        },
+        {
+          "branch_ref": "root_000531/B002",
+          "facet_id": "F001",
+          "branch_gloss": "düşünüp bir görüşe varma",
+          "facet_statement": "Bir konu hakkında zihinde görüş, kanı veya yargı oluşturma.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "110:2:1:2"
+          ],
+          "trigger_refs": [
+            "110:2:2:2",
+            "110:3",
+            "4:142"
+          ],
+          "focus_return_refs": [
+            "110:2:1:2"
+          ],
+          "carrier": "رَأَيْتَ, görülen toplu olay hakkında bir görüş ve değerlendirme oluşturma yönüne açılır.",
+          "independent_trigger": "ٱلنَّاسَın kamusal çoğulluğu ve sonraki hamd buyruğu, görüntünün nasıl okunacağını ayrı bir mesele haline getirir.",
+          "activation": "Kalabalık bir sonuç olarak görüldüğünde, görme eylemi değerlendirmeye temas eder; hamd buyruğu bu değerlendirmeyi insanın kendi başarısı yerine Allah'a yöneltir.",
+          "resulting_reading": "Gören, sonucu okurken övgünün sahibini de doğru yere yerleştirmeye çağrılır.",
+          "boundary": "B002 burada yüzey fiilinin sözlükte yalnızca 'görüş' anlamına geldiğini veya tek bir yargının zorunlu olduğunu söylemez."
+        },
+        {
+          "branch_ref": "root_000531/B005",
+          "facet_id": "F001",
+          "branch_gloss": "başkaları görsün diye yapma",
+          "facet_statement": "Bir davranışı başkaları görsün ve beğensin diye sergileme.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "110:2:1:2"
+          ],
+          "trigger_refs": [
+            "110:3",
+            "110:2:2:2",
+            "107:6"
+          ],
+          "focus_return_refs": [
+            "110:2:1:2"
+          ],
+          "carrier": "رَأَيْتَ, kalabalığın görülmesiyle oluşan kamusal bakış alanını taşır.",
+          "independent_trigger": "Kalabalık insan topluluğu ve 110:3'ün hamd buyruğu, görünür başarının kim adına sergileneceği sorusunu tetikler.",
+          "activation": "Başkalarının önünde görülen başarı, görülen şeyi gören kişinin kendi gösterisine çevirme ihtimaliyle temas eder; hamd emri bu sahiplenme yönünü Allah'a çevirir.",
+          "resulting_reading": "Kalabalık manzarası, övgüyü insana taşıyan gösteri riskini ve onu ilahi hamdle düzeltme gereğini birlikte açar.",
+          "boundary": "Riya burada gerçekleşmiş bir niyet olarak değil, kamusal görünürlüğün açtığı etik ihtimal olarak tutulur."
+        }
+      ],
+      "connection_refs": [
+        "conn_738ccc8ea323d6e2a2ae",
+        "conn_0463e0e1c186a40c0ef7"
+      ],
+      "context_refs": [
+        "110:3",
+        "107:6",
+        "4:142"
+      ],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:influx-care",
+      "origin_candidate_id": "cand_49f515f42037d63a16c3",
+      "represented_candidate_ids": [
+        "cand_9884d5ff742f1c0ed06c"
+      ],
+      "title": "Toplu giriş, iç durumlar için bakım sorumluluğu da doğurur",
+      "claim": "Toplulukların dîne girişi, onların görünmeyen kırılganlıklarını da bu alana taşıyan bir başlangıç olarak okunabilir; bu yüzden sonraki bağışlanma hareketi, kutlamanın yanında örtme, onarma ve yetiştirme sorumluluğunu açar.",
+      "mechanism": "د خ ل B003 saklı iç durumu, B004 içeriden bozan kusuru taşır; toplu giriş bu iç alanı dîn ile buluşturur ve 110:3'teki bağışlanma emri görünür kabulün ardından koruyucu onarım yönünü tetikler.",
+      "reader_payoff": "Kitlelerin girişi bitmiş bir zafer görüntüsü olarak kapanmaz; okuyucu kabulün içinde bakım, örtme ve içten iyileştirme ihtiyacını da görür.",
+      "containment": "Bu, her yeni gireni kusurlu ilan etmez ve 110:2'nin düz anlamını bağışlanmaya indirgemez. Bakım sorumluluğu, supplied weak connection ve 110:3 bağlamıyla sınırlı bir global rezonanstır.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": [
+          "legacy_unbound",
+          "trusted"
+        ],
+        "reason": "Trusted finding-7 exact B003/B004 taşıyıcılarını sağlıyor; destek kaydı weak olarak derecelendirilmiş ve legacy reader aynı onarım mekanizmasını abductive biçimde ifade ediyor."
+      },
+      "support_ids": [
+        "sup_1a4ce1d6be0cbd581d16",
+        "sup_a2d8aeac2476da3129f4"
+      ],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000464/B003",
+          "facet_id": "F001",
+          "branch_gloss": "içte kalan yan",
+          "facet_statement": "Bir kişi veya işin dışarıdan görünmeyen iç durumu ve saklı yönü anlatılır.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "110:2:3:1"
+          ],
+          "trigger_refs": [
+            "110:2:5:1",
+            "110:3",
+            "7:151"
+          ],
+          "focus_return_refs": [
+            "110:2:3:1"
+          ],
+          "carrier": "يَدْخُلُونَ, toplu girişin görünmeyen iç durumları da bir alana taşıyabileceği iç yönü taşır.",
+          "independent_trigger": "دِينِ hedefi ile 110:3'teki bağışlanma emri, iç durumun kabul ve bakım alanına girdiğini tetikler.",
+          "activation": "İçte kalan yön, dîn'e toplu giriş ve bağışlanma hareketiyle temas edince girişin ardından içeride oluşacak durumların da gözetilmesi gerekir.",
+          "resulting_reading": "Toplu kabul, iç dünyaların bakımını gerektiren bir başlangıçtır.",
+          "boundary": "İç durumların nasıl olduğu bu activation ile belirlenmez; yalnızca dış girişin içeriyi de gündeme taşıdığı söylenir."
+        },
+        {
+          "branch_ref": "root_000464/B004",
+          "facet_id": "F002",
+          "branch_gloss": "içten bozan kusur",
+          "facet_statement": "İç bozukluk kuşku, hile, aldatma veya gizli düşmanlık olarak davranış ve ilişki alanına uzanır.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "110:2:3:1"
+          ],
+          "trigger_refs": [
+            "110:3",
+            "110:2:5:1"
+          ],
+          "focus_return_refs": [
+            "110:2:3:1"
+          ],
+          "carrier": "يَدْخُلُونَ, girişin içinde taşınabilecek ve sonradan bakım isteyen içten bozulma ihtimalini taşır.",
+          "independent_trigger": "Bağışlanma ve dîn alanı, toplu girişin yalnızca dışarıdan sayılmayıp içeride de karşılanması gerektiğini tetikler.",
+          "activation": "İçten bozan kusur dalı giriş hareketiyle temas edince topluluğa katılım, koruma ve onarım sorumluluğu taşıyan bir kabul olayına dönüşür.",
+          "resulting_reading": "Kutlama görüntüsünün içinde, girenlerin iç durumlarına karşı örtücü ve onarıcı bir sorumluluk da belirir.",
+          "boundary": "Kusur facetinin aktivasyonu belirli kişilerde gerçek hile bulunduğunu veya topluluğun kabul edilmediğini iddia etmez."
+        }
+      ],
+      "connection_refs": [
+        "conn_d316c1f15de9812b94b5"
+      ],
+      "context_refs": [
+        "110:3",
+        "7:151"
+      ],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:ordered-entry",
+      "origin_candidate_id": "cand_85a766740afd489b2c30",
+      "represented_candidate_ids": [
+        "cand_e482b744425ba134dda3"
+      ],
+      "title": "Açılan eşik, toplu geçişle düzenli bir iç alana dönüşür",
+      "claim": "110:1'deki açılma, 110:2'de insanların gerçekten geçerek Allah'ın dîni olarak adlandırılan iç alana katıldığı bir eşik haline gelir; ayet böylece yalnızca kaç kişinin geldiğini değil, açılmış imkanın toplumsal olarak işgal edilişini gösterir.",
+      "mechanism": "رَأَيْتَ ve رَأَيْتَın gösterme yönü sonucu görünür kılar; يَدْخُلُونَ eşik aşımını, دِينِ bağlılık ve kurallar alanını, أَفْوَاجًا art arda gelen toplulukları taşır. 110:1 ve toplu giriş bağlantıları bu parçaları tek bir traversing-threshold sürecine bağlar.",
+      "reader_payoff": "Okuyucu, فتح ile başlayan açılmayı soyut bir sonuçtan insanların geçişiyle gerçekleşen bir alan değişimine dönüştürür; dîn'e giriş de bu hareketin yöneldiği düzen olarak belirir.",
+      "containment": "Bu eşik fiziksel bir kapı veya dîn'in literal mekan olduğu iddiası değildir; sosyal işgal, dışarıdan görülen giriş ve bağlılık alanı birlikte çalışan nitelikli bir modeldir.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": [
+          "legacy_unbound"
+        ],
+        "reason": "Reader-walk kaynakları legacy_unbound ve citable değil; buna rağmen ilgili beş branch'in exact focus occurrence'ları ve pericope'deki 110:1 bağlamı mevcut."
+      },
+      "support_ids": [
+        "sup_1cb149a23fa886a84dbd",
+        "sup_dfc9d1958f11dd8af9b2"
+      ],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000464/B001",
+          "facet_id": "F001",
+          "branch_gloss": "içeri girmek veya içeri sokmak",
+          "facet_statement": "Bir kişi ya da şey dışarıdaki bir konum veya durumdan içerideki konum veya duruma geçer.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "110:2:3:1"
+          ],
+          "trigger_refs": [
+            "110:1",
+            "110:2:5:1"
+          ],
+          "focus_return_refs": [
+            "110:2:3:1"
+          ],
+          "carrier": "يَدْخُلُونَ, dışarıdaki eşikten dîn olarak adlandırılan iç alana geçişi taşır.",
+          "independent_trigger": "110:1'deki açılma ve دِينِin hedef alanı, girişin ayrı bir eşik ve yön taşıdığını belirler.",
+          "activation": "Açılma, dışarıdan içeri geçiş ve dîn hedefiyle birleşince insanlar önceki imkandan yararlanan hareketli bir topluluk olarak görünür.",
+          "resulting_reading": "Açılmış imkan, toplu geçişle fiilen kullanılan bir eşik olur.",
+          "boundary": "Girişin sosyal ve soyut hedefi korunur; ayete fiziksel kapı sahnesi eklenmez."
+        },
+        {
+          "branch_ref": "root_000504/B001",
+          "facet_id": "F003",
+          "branch_gloss": "boyun eğerek uyma ve buna dayalı inanç düzeni",
+          "facet_statement": "İnanç yolu ve kurallar bütününün, onlara uyma ve bağlanma ilişkisi açısından adlandırılması.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "110:2:5:1"
+          ],
+          "trigger_refs": [
+            "110:2:3:1",
+            "110:1",
+            "89:29"
+          ],
+          "focus_return_refs": [
+            "110:2:5:1"
+          ],
+          "carrier": "دِينِ, girişin yöneldiği bağlılık ve inanç yolu alanını taşır.",
+          "independent_trigger": "يَدْخُلُونَın eşik aşımı ve 110:1'de açılan imkan, bu bağlılık alanının gerçek bir hedef olarak işlediğini tetikler.",
+          "activation": "Giriş fiili dîn'in bağlılık facetine temas edince dîne katılım, yalnızca bir adın benimsenmesi değil, açılmış bir düzene geçiş olur.",
+          "resulting_reading": "Toplu giriş, açılan imkanın dîn alanında toplumsal karşılık bulmasıdır.",
+          "boundary": "Bu activation dîn'in bütün hukuki veya kurumsal ayrıntılarını ayete yüklemez."
+        },
+        {
+          "branch_ref": "root_000531/B001",
+          "facet_id": "F002",
+          "branch_gloss": "gözle ya da içsel kavrayışla görme",
+          "facet_statement": "Bir şeyi gözün eriştiği yerde doğrudan ve tanık olarak görme.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "110:2:1:2"
+          ],
+          "trigger_refs": [
+            "110:1",
+            "110:2:3:1"
+          ],
+          "focus_return_refs": [
+            "110:2:1:2"
+          ],
+          "carrier": "رَأَيْتَ, açılan imkanın sonuçlarını muhatabın göz önünde görmesini taşır.",
+          "independent_trigger": "110:1'deki açılma ile 110:2'deki giriş fiili, görmenin önündeki olay ve hareket tetikleyicileridir.",
+          "activation": "Görme, açılmış eşikten geçen topluluğa döndüğünde önceki açılma, okuyucunun tanık olduğu bir sonuç kazanır.",
+          "resulting_reading": "Açılmanın gerçekleşmesi, görülen toplu geçişte okunabilir hale gelir.",
+          "boundary": "Görme burada doğrudan tanıklıktır; içsel kavrayış veya ostentation dalı bu activation'ın zorunlu sonucu değildir."
+        },
+        {
+          "branch_ref": "root_000531/B012",
+          "facet_id": "F001",
+          "branch_gloss": "gösterip görmesini sağlama",
+          "facet_statement": "Bir şeyi başkasına gösterip onun görmesini sağlama.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "110:2:1:2"
+          ],
+          "trigger_refs": [
+            "110:2:7:1",
+            "110:1"
+          ],
+          "focus_return_refs": [
+            "110:2:1:2"
+          ],
+          "carrier": "Görme fiili, toplu geçişin açılmanın sonucunu görünür kılma yönünü taşır.",
+          "independent_trigger": "أَفْوَاجًاın çoğul hareketi ve 110:1'deki açılma, olay üzerinden gösterilen sonucu sağlar.",
+          "activation": "Görülen gruplar açılmanın ne ürettiğini gösteren sonuç haline gelince tanıklık, geçiş sürecinin kamusal açıklığıyla birleşir.",
+          "resulting_reading": "Açılmış imkan, toplu girişin görünür sonucu olarak kendini gösterir.",
+          "boundary": "Bu bağlamsal gösterme, fiilin yüzey gramerini ettirgen bir yapıya dönüştürmez."
+        },
+        {
+          "branch_ref": "root_001184/B001",
+          "facet_id": "F003",
+          "branch_gloss": "insan topluluğu",
+          "facet_statement": "Çokluk ve katmerli çokluk biçimleri, birden çok insan topluluğunu ya da çok sayıdaki toplulukları gösterir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "110:2:7:1"
+          ],
+          "trigger_refs": [
+            "110:2:3:1",
+            "13:23"
+          ],
+          "focus_return_refs": [
+            "110:2:7:1"
+          ],
+          "carrier": "أَفْوَاجًا, dîne tek tek değil topluluklar halinde geçişi taşır.",
+          "independent_trigger": "Giriş fiili ve 13:23'teki toplu kabul bağlantısı, grupların ardışık sosyal hareketini tetikler.",
+          "activation": "Çoğul gruplar giriş fiiliyle birleşince açılma, tekil bir erişimden çok toplumsal katılımın eşiği olarak görünür.",
+          "resulting_reading": "Açılan alan, toplulukların geçişiyle kamusal olarak doldurulur.",
+          "boundary": "Grupların ardışıklığı, her grubun aynı motivasyona veya aynı iç duruma sahip olduğunu söylemez."
+        }
+      ],
+      "connection_refs": [
+        "conn_b4c858a26cef4df736db",
+        "conn_3a1d89aad0862f0e0b86"
+      ],
+      "context_refs": [
+        "110:1",
+        "13:23",
+        "89:29"
+      ],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:flowing-groups",
+      "origin_candidate_id": "cand_89813ad9fae3766fdb45",
+      "represented_candidate_ids": [],
+      "title": "Gruplar, açılmış alanda art arda ilerleyen akışlar gibi görünür",
+      "claim": "أَفْوَاجًا, د خ ل B007'nin yeniden suya götürülen veya araya katılan sürü imgesi ve ف و ج B002'nin geniş açıklığıyla buluştuğunda, toplu girişi sabit bir kalabalık değil açılmış alanda art arda ilerleyen akışlar olarak hissettirir.",
+      "mechanism": "Grupları bildiren çoğul biçim, su başına yeniden götürülen develer ve iki yükselti arasındaki geniş açıklık facetleriyle temas eder; 110:1'deki açılma ve toplu geliş bağlantısı bu imgeleri hareket modeli içinde birleştirir.",
+      "reader_payoff": "Okuyucu, girişin yalnızca 'çok kişi geldi' anlamını değil, açılmış bir geçitte yönlendirilmesi gereken ardışık hareket dokusunu da kavrar.",
+      "containment": "Bu, insanların literal olarak su veya hayvan olduğu iddiası değildir. root_004965/B002 unresolved olduğu için kullanılmamıştır; 78:18 bağlantısı da bu görüntüyü ahiret sahnesiyle özdeşleştirmek için değil sınırlandırmak için tutulur.",
+      "epistemic": {
+        "status": "exploratory",
+        "source_trust": [
+          "legacy_unbound"
+        ],
+        "reason": "Reader-walk desteği legacy_unbound ve citable değil; üç branch-backed carrier mevcut, ancak su/sürü birleşimi analogical ve bir aday dal unresolved."
+      },
+      "support_ids": [
+        "sup_9f14843076c1c5f25b4c"
+      ],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000464/B007",
+          "facet_id": "F002",
+          "branch_gloss": "develeri yeniden ya da araya katarak sulama",
+          "facet_statement": "Susuz develer henüz içmemiş develerin arasına katılır ve onlarla birlikte içmeleri sağlanır.",
+          "application_mode": "analogical",
+          "carrier_refs": [
+            "110:2:3:1"
+          ],
+          "trigger_refs": [
+            "110:2:7:1",
+            "110:1"
+          ],
+          "focus_return_refs": [
+            "110:2:3:1"
+          ],
+          "carrier": "يَدْخُلُونَ, araya katılarak suya yönlendirilen topluluk hareketine açılan içeri alma ilişkisini taşır.",
+          "independent_trigger": "أَفْوَاجًاın ardışık grupları ve 110:1'deki açılma, bu içeri alma facetini hareketli bir alana bağlar.",
+          "activation": "Gruplar halinde giriş, susuzların bir araya katılıp suya yönlendirilmesiyle temas edince açılmış alana giren bedenlerin yönlendirilmesi gereken akış görüntüsü oluşur.",
+          "resulting_reading": "Toplu giriş, art arda gelen ve bir açıklıkta yön bulan akışlar gibi okunabilir.",
+          "boundary": "Su, deve veya sulama burada literal olay değildir; bu facet yalnızca hareket modelini analogically taşır."
+        },
+        {
+          "branch_ref": "root_001184/B001",
+          "facet_id": "F004",
+          "branch_gloss": "insan topluluğu",
+          "facet_statement": "Belirli bir yinelemeli söz öbeğinde, toplulukların biri ötekinin ardından gelmesi anlatılır.",
+          "application_mode": "analogical",
+          "carrier_refs": [
+            "110:2:7:1"
+          ],
+          "trigger_refs": [
+            "110:2:3:1",
+            "110:1",
+            "22:27"
+          ],
+          "focus_return_refs": [
+            "110:2:7:1"
+          ],
+          "carrier": "أَفْوَاجًا, bir topluluğun ardından başkasının geldiği ardışık grup hareketini taşır.",
+          "independent_trigger": "يَدْخُلُونَın süreklilik taşıyan geniş zaman biçimi ve 110:1'deki açılmış imkan, ardışıklığı tetikler.",
+          "activation": "Grupların ardışık oluşu giriş fiilinin hareketiyle birleşince ayet, tek seferlik yığılma yerine tekrarlanan geçiş süreci gösterir.",
+          "resulting_reading": "Hareket, bir defalık başvuru değil, peş peşe gelen toplulukların akışıdır.",
+          "boundary": "Bu activation grupların temposunu veya sayısını belirlemez."
+        },
+        {
+          "branch_ref": "root_001184/B002",
+          "facet_id": "F001",
+          "branch_gloss": "iki yükselti arasındaki geniş açıklık",
+          "facet_statement": "Sert topraklı ya da kumlu iki yükselti arasında uzanan geniş açıklıktır.",
+          "application_mode": "analogical",
+          "carrier_refs": [
+            "110:2:7:1"
+          ],
+          "trigger_refs": [
+            "110:1",
+            "110:2:3:1"
+          ],
+          "focus_return_refs": [
+            "110:2:7:1"
+          ],
+          "carrier": "أَفْوَاجًا, grupların hareket ettiği geniş ve geçilebilir alanı düşündüren açıklık facetini taşır.",
+          "independent_trigger": "110:1'deki açılma ve يَدْخُلُونَın içeri geçişi, açıklığın kullanılabilir bir geçiş alanı olarak işlemesini tetikler.",
+          "activation": "Açıklık, ardışık girişle temas edince grupların önünde uzanan ve hareketi mümkün kılan alan görüntüsünü sağlar.",
+          "resulting_reading": "Açılmış alan, topluluk akışının içinden geçtiği geniş bir hareket zemini olarak belirir.",
+          "boundary": "Açıklık fiziksel coğrafya olarak sabitlenmez; unresolved branch veya su imgesiyle genişletilmez."
+        }
+      ],
+      "connection_refs": [
+        "conn_70185ee16ba4296c9e4a",
+        "conn_329c379bb3a32f5850b3"
+      ],
+      "context_refs": [
+        "110:1",
+        "22:27"
+      ],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:visible-hidden-tension",
+      "origin_candidate_id": "cand_71d06e58f9778673d461",
+      "represented_candidate_ids": [
+        "cand_498791c0b01f4be274d7"
+      ],
+      "title": "Görünür başarı ile saklı iç durum aynı anda açık kalır",
+      "claim": "110:2'nin görülen toplu girişi, dışarıdan açık bir başarı manzarası kurarken د خ ل B003'ün saklı iç durumu ve ر أ ي B005'in başkaları görsün diye yapma riskiyle birlikte okunabilir; 110:3 bu manzarayı bağışlanma ve Allah'a yönelen hamd ile disipline eder.",
+      "mechanism": "رَأَيْتَın kamusal görmesi, ٱلنَّاسَın görülen çoğulluğu ve يَدْخُلُونَın giriş hareketiyle dış yüzü kurar; د خ ل B003 içte kalan yönü, ر أ ي B005 kamusal gösteri ihtimalini taşır. Sonraki 110:3 iki görünmeyen meseleye, iç kusurun bağışlanmasına ve övgünün sahibine ayrı yön verir.",
+      "reader_payoff": "Okuyucu kalabalığı hem gerçekten görülen toplumsal sonuç hem de iç durumu ve sahiplenme niyeti gözle tamamlanamayan bir sahne olarak kavrar; bu, sonraki emrin neden yalnızca kutlama olmadığını açıklar.",
+      "containment": "Bu bileşik ilişki iç durumun kötü, riya niyetinin gerçekleşmiş veya kalabalığın sahte olduğu hükmünü vermez. Görünür ve saklı, övgü ve bağışlanma yönleri birlikte açık tutulur.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": [
+          "legacy_unbound"
+        ],
+        "reason": "İki legacy retrospective/reader-walk kaydı aynı 110:3 dönüşünü bildiriyor; B003 ve B005 exact focus carriers ile kuruluyor, fakat kaynaklar unbound olduğundan sentez nitelikli."
+      },
+      "support_ids": [
+        "sup_5fe44d3ff109ffed2524",
+        "sup_9535ff2b9bce7c773d53"
+      ],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000464/B003",
+          "facet_id": "F001",
+          "branch_gloss": "içte kalan yan",
+          "facet_statement": "Bir kişi veya işin dışarıdan görünmeyen iç durumu ve saklı yönü anlatılır.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "110:2:3:1"
+          ],
+          "trigger_refs": [
+            "110:3",
+            "110:2:1:2",
+            "67:27"
+          ],
+          "focus_return_refs": [
+            "110:2:3:1"
+          ],
+          "carrier": "يَدْخُلُونَ, görülen girişin içinde saklı kalabilecek iç yönü taşır.",
+          "independent_trigger": "110:3'teki bağışlanma emri, dışarıdan görülen girişin ardından iç durumu yeniden gündeme getirir.",
+          "activation": "Giriş hareketi ile bağışlanma talebi temas edince toplu kabulün görünür yüzü yanında gözle tamamlanamayan iç yüzü de kalır.",
+          "resulting_reading": "Ayet kamusal sonucu gösterir ve iç durumu açık bir alan olarak korur.",
+          "boundary": "İç yüzün belirli içeriği veya kişilerin gerçek niyeti bu activation ile belirlenmez."
+        },
+        {
+          "branch_ref": "root_000531/B005",
+          "facet_id": "F001",
+          "branch_gloss": "başkaları görsün diye yapma",
+          "facet_statement": "Bir davranışı başkaları görsün ve beğensin diye sergileme.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "110:2:1:2"
+          ],
+          "trigger_refs": [
+            "110:3",
+            "110:2:2:2",
+            "107:6"
+          ],
+          "focus_return_refs": [
+            "110:2:1:2"
+          ],
+          "carrier": "رَأَيْتَ, görülen insan kalabalığının kamusal bakış alanını taşır.",
+          "independent_trigger": "ٱلنَّاسَın kamusal çoğulluğu ve 110:3'te hamdin Allah'a yöneltilmesi, görünür sonucu kendine mal etme ihtimalini tetikler.",
+          "activation": "Kamusal başarı manzarası ile başkaları görsün diye yapma facet'i temas edince görme, seyretme kadar sergilemenin de etik alanını açar.",
+          "resulting_reading": "Görülen toplu giriş, övgünün insan tarafında toplanması riskini ve hamdle yeniden yönlendirilmesini birlikte taşır.",
+          "boundary": "B005 burada muhatabın riya yaptığına dair hüküm değil, görünürlükten doğan risk alanıdır."
+        }
+      ],
+      "connection_refs": [
+        "conn_8b79537ab7e1544837e8",
+        "conn_738ccc8ea323d6e2a2ae"
+      ],
+      "context_refs": [
+        "110:3",
+        "67:27",
+        "107:6"
+      ],
+      "semantic_obligation_refs": []
+    }
+  ],
+  "friction_notes": [
+    "Focus word alignment is complete for all 8 word-analysis records; no unresolved focus join was supplied.",
+    "The global lane has no selected_context_units or lane_context_refs. The retained global activations therefore use the declared pericope refs 110:1 and 110:3 plus exact connection target refs, without importing context morphology or standalone context payloads.",
+    "All eight HFT records are visible as required, but their anchor evidence coverage is zero: no supplied HFT record has an exact context ayah, word index, root, attributed role, or focus-return coordinate. They were reviewed and rejected as independent findings rather than hidden.",
+    "root_004965/B002 is explicitly unresolved and was excluded from the narrowed flowing-groups candidate; no gloss, facet, or carrier was invented.",
+    "Legacy reader-walk records are citable false and source_trust legacy_unbound. Their retained findings remain qualified or exploratory; trusted cross-run records do not convert the legacy supports into ranked evidence.",
+    "The connection docket contains both positive nominations and limiting/counter-direction rows. The cited 78:18 connection is retained as a boundary against collapsing grouped entry into an eschatological scene; prior strong/medium labels were not treated as decisions.",
+    "No candidate-specific semantic_obligations array was supplied in the packet. All semantic_obligation_refs and semantic_obligation_exclusions are therefore empty; no obligation was inferred from branch availability.",
+    "No live misconception required an additional explicit negative beyond the boundaries recorded in findings; no ranking or disambiguation was introduced."
+  ]
+}

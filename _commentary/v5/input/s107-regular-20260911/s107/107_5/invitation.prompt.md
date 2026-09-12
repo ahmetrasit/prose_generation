@@ -1,0 +1,195 @@
+# V5 reading invitation — 107:5
+
+You are a fresh reading-invitation writer. Read the complete editorial prose
+before writing. It is your sole semantic source.
+
+Write two to four paragraphs of fluent, contemporary Turkish that reveal a
+surprising reading by following one or two main channels of resonance in the
+ayah. A channel is a connected background of meanings, images, actions, or
+relations through which the ayah can be heard and understood differently.
+Several editorial findings may together develop one channel. Summarize that
+connected movement and its consequence for the ayah's main meaning, rather
+than compressing findings individually. Give the reading's substance now;
+the invitation comes from understanding it, not from a promise of hidden depth.
+
+Before drafting, read the entire editorial prose and silently select the one
+or two channels with the strongest interpretive consequence and enough
+grounding to explain clearly. Favor channels that expand or shift what the
+ayah says, the relation it establishes, or what is at stake in its action or
+image. One fully developed channel is sufficient; add a second only when it
+offers a distinct consequential reading that can be explained within the
+invitation. No finding, channel, or major shift has an individual coverage
+claim. Unselected material may remain entirely in the full commentary.
+
+A channel may develop through grammar, sound, dialogue, a material process,
+time, imagery, or a conceptual relation. Resonance is not limited to acoustic
+effects, and an unusual image alone does not establish a channel. Use only
+connections the editorial prose actually develops. If it supplies no such
+channel, explain its strongest grounded reading without inventing connections
+or surprise.
+
+Begin inside the ayah's own words, images, actions, or relations and reveal a
+selected distinctive reading in the first paragraph. Keep the plain meaning
+reachable with only the orientation needed to understand the change. Do not
+spend an opening paragraph on routine explanation or front-load context about
+the surah, the ayah's position, or the commentary project.
+
+For each selected channel, begin with the expression that opens it, unfold the
+connected background, and show how the ayah reads or sounds against that
+background. Let a detail lead into the next through an intelligible relation
+or process, so the reader experiences the emerging reading. This is a movement
+of thought, not a mandatory sentence pattern or one paragraph per finding.
+Let the reader identify the expression being interpreted,
+where any nonordinary detail comes from, and what that detail changes in the
+reading. Briefly identify the word-family use, restricted form, collocation, or
+context that supplies an essential added detail, and preserve the concrete
+operation that makes the image work. Keep the ordinary reading and necessary
+qualification clear within this explanation; do not repeat them as a fixed
+formula. Preserve the particular object, process, or relation that makes this
+reading distinctive, and state its interpretive consequence for the ayah as a
+whole. Make intelligible what the familiar reading leaves less visible and
+what the expanded or shifted reading now lets the reader understand. Preserve
+the editorial's force: an exploratory possibility remains possible, while a
+developed shift must not be softened into a decorative association or a
+reassurance that everything means the same thing. A concrete
+account of how something is carried, transformed, lost, or restored must not
+shrink to a general statement about care, guidance, dependence, or goodness.
+Keep the details needed to make the selected channel work; omit side findings
+and shorten routine setup. If a channel cannot be explained faithfully from
+the editorial prose, choose another grounded channel or reading.
+
+When a non-focus ayah supplies a contribution used in the invitation, keep its
+reference from the editorial prose beside that contribution.
+
+Do not turn the invitation into a miniature inventory of the commentary's
+conclusions, or flatten distinct channels into a broad theme to include more
+material. Do not repair, extend, or supplement the editorial prose from memory
+or outside knowledge.
+
+Omit technical apparatus. Retain any qualification, source distinction, live
+alternative, or boundary whose absence would change the force or meaning of a
+chosen reading. Express it naturally beside the image or relation it qualifies.
+Favor positive explanations of the relation between layers: what remains in
+the foreground and what the resonance makes audible in the background. State
+how that background reinforces, expands, or shifts the understanding of the
+main meaning, with the source and degree of certainty clear. Reserve explicit
+exclusions for concrete ambiguities or live counter-evidence that need them.
+Repeated "this is not X" endings make a reading sound withdrawn; express the
+substantive qualification through what the reading does contribute wherever
+possible. Use varied, natural language rather than a repeated "second layer"
+formula, and preserve the force of expansions and shifts.
+Do not name branches, candidates, findings, scopes, evidence categories,
+ledgers, or workflow stages, or label the prose as numbered channels. Do not
+list findings serially.
+
+Use the established `{ar:..., tr:..., gloss:...}` syntax, consistent
+Turkish-readable transliteration, and short ordinary glosses. Keep Arabic
+anchors beside the explanations they ground. Within a paragraph, continue with
+the Turkish meaning where clear; provide the necessary local tag when a later
+paragraph interprets the carrier anew. Do not place Arabic script outside a
+valid tag.
+
+Build transitions within a channel through its shared object, action, or
+relation. If two channels are selected, they may occupy separate paragraphs;
+do not invent a link between them. Do not praise the commentary's quality,
+promise what the reader will find, manufacture suspense, recap at the end, or
+add a call to action. End on an image, relation, action, or tension already
+established by the selected reading.
+
+Before finishing, compare the invitation with the entire editorial prose:
+does the chosen channel reveal a consequential reading, or could the text have
+been written from the ordinary translation and a modest explanation alone?
+When the editorial supports a surprising channel, the latter fails this task.
+Can the reader follow the opening expression into a connected background and
+understand how that background expands or shifts the ayah's main meaning?
+Check the selected connections against their editorial explanation: can the
+reader tell where the nonordinary details come from, with the necessary
+qualifications intact? Repair generic explanation, isolated curiosities, or a
+compressed findings list by developing the selected channel. Do not add
+omitted channels merely for coverage. Do not output this check.
+
+Write only the invitation text to:
+
+`_commentary/v5/editorial/s107-regular-20260911/s107/107_5/107_5.invitation.tr.md`
+
+Do not add a heading, wrapper label, index, ledger, evidence file, or any other
+artifact. Do not modify the editorial prose.
+
+After writing the invitation, run:
+
+```bash
+python3 _commentary/v5/validate_prose.py _commentary/v5/editorial/s107-regular-20260911/s107/107_5/107_5.invitation.tr.md
+```
+
+If validation fails, repair only the reported mechanical file-contract issues
+and rerun it, for at most two repair cycles. Report the final validator result
+in your response.
+
+<editorial_prose>
+{ar:ٱلَّذِينَ هُمْ عَن صَلَاتِهِمْ سَاهُونَ, tr:ellezîne hum an salâtihim sâhûn, gloss:namazlarına aldırmayan kimseler} der ki: Onlar namazlarına aldırmayanlardır. {ar:ٱلَّذِينَ, tr:ellezîne, gloss:onlar ki} sözü, 107:4'te adı geçen çoğul topluluğu bu âyete taşır ve şimdi o topluluğun hangi hâlle nitelendiğini bildirir. Böylece önceki âyetteki “namaz kılanlar” adlandırması, 107:5'te onların namazla ilişkisinin nasıl bir hâl aldığıyla tamamlanır. Aynı {ar:ٱلَّذِينَ هُمْ, tr:ellezîne hum, gloss:onlar ki onlar} kalıbının 107:6'da yeniden kurulması, burada teşhis edilen içteki uzaklıkla orada görünen dışa dönük gösterişi aynı topluluğun iki bağlı görünümü olarak yan yana getirir. Yazıda âyet sınırının açtığı kısa bekleyiş, bağlı okuyuşta 107:4'teki cümlenin devamına dönüşür; topluluk ses içinde kesilmeden yeni niteliğine taşınır.
+
+Bu topluluk önce {ar:هُمْ, tr:hum, gloss:onlar} zamiriyle yeniden görünür. Bağımsız duran zamir, hüküm gelmeden önce aktörleri bir durak hâline getirir: önce onlar, sonra onların namazı, en sonunda o namazla ilgili hâl. {ar:هُمْ, tr:hum, gloss:onlar} ile {ar:سَاهُونَ, tr:sâhûn, gloss:aldırmayanlar}ın kurduğu ad cümlesi, tek seferlik bir dalgınlıktan çok bu topluluğa yerleşmiş bir durumu bildirir. Aynı zamir çerçevesinin 107:6'da tekrarlanması, içteki dalgınlık ile dışta sergilenen davranışın aynı özne üzerinde birleştiğini duyurur. Ardından gelen {ar:صَلَاتِهِمْ, tr:salâtihim, gloss:onların namazı} içindeki -him eki bu bağı kapatır: yargılanan özne ile ihmalin yöneldiği uygulama aynı gönderim halkasında buluşur.
+
+Son hükmün alanı, {ar:عَنْ صَلَاتِهِمْ, tr:an salâtihim, gloss:namazları hakkında ve namazlarından uzak} ifadesiyle daha hüküm gelmeden belirlenir. {ar:عَنْ, tr:an, gloss:uzaklık ve ilişki bildiren edat} burada edatlık işini sürdürür; yakınındaki namazla yön ve ilişki kurar. Bu kullanım, onu “inat” anlamı veren bağımsız bir fiil olarak değil, namazla ilişki kuran bir edat olarak tutar. Böylece teşhis, onların kendi namazlarıyla kurduğu ilişki üzerinde toplanır. {ar:صَلَاتِهِمْ, tr:salâtihim, gloss:namazları} hem {ar:عَنْ, tr:an, gloss:uzaklık ve ilişki} tarafından yönetilir hem de sonundaki -him ile o topluluğa ait kılınır. Namaz, onların dışarıdan seyrettikleri bir şey değil, uzaklaşmanın içine alınmış ve sahip olunan bir pratiktir. Tekil mastarın ilişkiyi tek bir namaz pratiğinde yoğunlaştırması ile Türkçede “namazları” diye duyulan çoğul sahipliğin bu bağı farklı namaz, dua ve ibadet görünümlerine yayabilmesi aynı yüzeyde tutulabilir. Edat ile namaz arasındaki nazal kapanışın akışı da iki kelimeyi ses içinde tek bir bağlı ilişki gibi birbirine geçirir.
+
+Namaz kelimesinin bu ilişkisel zemini, aldırmazlığın üç ayrı sonucunu görünür kılar. Başkası için iyilik ve esenlik dileme yönü, {ar:سَاهُونَ, tr:sâhûn, gloss:aldırmayanlar} ile buluştuğunda namazın dışarıya uzanan koruyucu erişiminin kesilişini hissettirir. Bir şeyi yakından izleyip hizasında kalma görüntüsü, {ar:عَنْ, tr:an, gloss:uzaklık ve ilişki} ile aldırmazlığın öndekinin hemen arkasında kalması gereken hizayı gevşetmesini gösterir; bu temas yarışın kendisini adlandırmaz. Ateşin yanında bulunma ve yakıcı baskıya maruz kalma görüntüsü ise uzaklığın çevresinde ihmalin ağırlığını ve tehlike gölgesini duyurur. Her üç katkı da açık “namaza aldırmama” anlamını korur ve ilişkide kaybolan yönü farklı bir ayrıntıyla somutlaştırır.
+
+{ar:صَلَاتِهِمْ, tr:salâtihim, gloss:namazları} ile {ar:سَاهُونَ, tr:sâhûn, gloss:aldırmayanlar} arasındaki uzun sesli yankı, nesne ile hükmü işitmede birbirine bağlar. Son kelime namazdan kopuk bir ek gibi düşmez; {ar:عَنْ صَلَاتِهِمْ, tr:an salâtihim, gloss:namazları hakkında ve namazlarından uzak} çerçevesi teşhisi namaz ilişkisinin kendisinde tutar. {ar:سَاهُونَ, tr:sâhûn, gloss:aldırmayanlar} eril çoğul etken ortaç biçimindedir ve {ar:هُمْ, tr:hum, gloss:onlar}un yüklemi olarak aldırmazlığı topluluğa dağıtılmış bir hâl kılar. Cümlenin akışı “kim, neye ilişkin, hangi hâlde” sırasını tamamlar; son kelimenin uzun sesi, hâli ilişki adlandırıldıktan sonra da işitilmeyi sürdürür. Aynı biçimin (51:11)'de {ar:فِي غَمْرَةٍ, tr:fî gamratin, gloss:bir dalma içinde} çerçevesinde başka bir sahneye yerleşmesi, burada anlamı belirleyen şeyin yön veren edat ve namazla kurulan yerel ilişki olduğunu ihtiyatla gösterir. Başka bir okumada duyulan {ar:لَاهُونَ, tr:lâhûne, gloss:oyalananlar} biçimi sözlük gölgesini değiştirir, fakat aynı çoğul yüklem yerini korur; standart yüzeyin yanında bu karşıt ses de canlı kalır. Son kelimenin namaz alanına bağlanması, aldırmazlığı tutunacak çıkıntılarını yitirmiş düz bir dikkat yüzeyi gibi duyurur.
+
+## Biçim İçeride Nasıl Ayrılır
+
+Âyetin açık anlamı burada sabittir: bir topluluk namazlarıyla ilişkisi bakımından aldırmayanlar diye nitelenir. {ar:صَلَاتِهِمْ, tr:salâtihim, gloss:namazları} düzenli namazın ayakta durma, eğilme ve yere kapanma gibi belirli hareketler içeren biçimini taşırken {ar:سَاهُونَ, tr:sâhûn, gloss:aldırmayanlar} kalbin o uygulamadan dönmesini bildirir; {ar:عَنْ, tr:an, gloss:uzaklık ve ilişki} bu ikisi arasındaki yönü kurar. Bu temas, ritüel hareket ile iç karşılık arasındaki ayrımı görünür kılar: bedenin hareketleri sürerken ibadetin gerektirdiği yön uzaklaşmış olabilir. Bu ayrım, (107:3)'te yoksula yiyecek ulaştırmama ve (107:7)'de küçük yardımı esirgeme davranışlarıyla karşılaştığında, durgunluğu namazın ardından beklenen insani harekete taşır; namazın hareketleri yapılırken ihtiyaç sahibine doğru atılacak adım durabilir. Buradaki bağlantı, düzenli ibadet ile besleme ve yardım hareketinin kesilmesi arasındaki nitelikli bağlamsal temastır; ayetin dilbilgisi bu teması herkes için zorunlu bir sebep hükmüne dönüştürmez.
+
+Bu iç kopuş, kişinin kendi namazını kolayca geçiştirmesiyle başkasının kırılganlığına sert davranması arasındaki asimetriyi açar. {ar:سَاهُونَ, tr:sâhûn, gloss:aldırmazlık halinde olanlar} kelimesinin ihtiyatla duyulan yönü, bir kusurun üzerinden kolayca geçmek ve onu görmezden gelmektir; {ar:صَلَاتِهِمْ, tr:salâtihim, gloss:onların namazı} içindeki sahiplik bu kolaylığı kişinin kendi ibadetine yöneltir. (107:2)'de yetime sertçe davranan el ile birlikte düşünüldüğünde, kişi kendi namazındaki boşluğu hoşgörüyle geçiştirirken yetimin ihtiyacına aynı kolaylığı tanımayan eğri bir yönelim içinde görünür. Bu asimetri, namazın sahipliği ile yetime yönelen davranışın yan yana gelişine dayanan sınırlı bir okumadır; bu bağlantı içinde dikkatin kime kolaylık, kime sertlik tanıdığını görünür kılar.
+
+Yetimle ilgili {ar:يَدُعُّ, tr:yeduʿʿu, gloss:itip kakar} yüzeyindeki iki hareket, namazın dışarıya uzanan iyilik yönü ile bu yönün tersine çevrilmesi arasındaki farkı görünür kılar. (107:2)'deki yakın bağ içinde bu yüzey, tökezleyene “kalk, toparlan” diye seslenme ve onu yeniden ayağa çağırma görüntüsünü taşır. Bu çağrı, {ar:صَلَاتِهِمْ, tr:salâtihim, gloss:namazları} kelimesinin başkası için iyilik, esenlik ve iyi sonuç dileme yönüyle buluştuğunda namazı düşeni geri çağırabilecek onarıcı bir hitap gibi duyurur. Aynı yüzeyin zorla itme ve bedensel savurma görüntüsü, çağrının ters vektörünü açar; merhametli bir sözün doğrultusu bedensel bir itişle bozulabilir. {ar:سَاهُونَ, tr:sâhûn, gloss:aldırmayanlar} içindeki kalp ayrılığı, kime seslenildiği ile kimin uzaklaştırıldığı arasındaki boşluğu taşır. Yetimin bakıcısından koparılmasıyla ilgili görüntü, namazı kendi içinde bakıcısı eksilmiş bir emanet gibi duyurur: sahiplik sürerken onu dikkatle sürdüren iç bakım eksilebilir. Bu bağlantı, yetim kelimesini namazın sözlük anlamına taşımadan, merhamet ile itmenin aynı kişi üzerinde nasıl ayrışabildiğini gösterir.
+
+## Görünen Biçim ve Besleyen Merkez
+
+Bu bedenî sahne, 107:5'teki aldırmama teşhisini ibadetin bedende ve davranışta ne ürettiğini soran bir incelemeye dönüştürür. Bu soruyu 107:1'deki {ar:أَرَءَيْتَ, tr:eraeyte, gloss:gördün mü, bana söyle} taşır; ifadenin başka kullanımlarındaki akciğer ve akciğerdeki rahatsızlık imgesi, görmeyi içteki durumu yoklayan bir bedensel bakışa çevirir. {ar:صَلَاتِهِمْ, tr:salâtihim, gloss:namazları} kelimesinin sırtın orta bölgesi ile kuyruk kökünün iki yanını adlandıran anatomik görüntüsü, bu bakışın namazın bedensel taşıyıcısına yönelmesini sağlar. 107:3'teki {ar:طَعَام, tr:taʿâm, gloss:yiyecek} kelimesinin hayvanın yağlılığı ve yağın tadıyla ilgili görüntüsü, ibadetin canlı bir hâli besleyip beslemediğini sınayan bedensel ölçüyü verir. Aynı âyette {ar:ٱلْمِسْكِينِ, tr:el-miskîn, gloss:yoksul ve muhtaç kişi} için yiyecekten söz edilmesi, 107:6'da ise insanların görmesi için yapılan işin bulunması, namazın bedende ve davranışta ne ürettiğini aynı çevrede sınar. Akciğer, sırt ve yağ görüntüleri bu bağlantıda bedenî teşhis ayrıntıları olarak kalır; olağan namaz anlamının yerini almaz.
+
+Bu görme düzeni, görünür olmakla gerçekten fark etmek arasındaki ayrımı açar. 107:1'deki {ar:أَرَءَيْتَ, tr:eraeyte, gloss:gördün mü, bana söyle} yüzeyinin görünüş ve ayna görüntüsü, {ar:سَاهُونَ, tr:sâhûn, gloss:aldırmayanlar} içindeki dikkat kopuşuyla buluştuğunda, gözün önündeki şeyin kayda geçip geçmediğini yoklar. 107:6'daki {ar:يُرَاءُونَ, tr:yurâûne, gloss:insanlara gösteriş yaparlar} fiilinin başka kullanımlardaki hayızdan sonra görülen sarı-beyaz iz görüntüsü, küçük ama ayırt edici işaretin gözden kaçışını somutlaştırır. Aynı yüzeyin gebeliği memesinde belli olan deve, keçi veya koyunun gizli hâlinin açığa çıkmasıyla ilgili görüntüsü, görünür hâle gelen bir durumun da dikkatsiz bakış tarafından kaydedilmeyebileceğini düşündürür. {ar:سَاهُونَ, tr:sâhûn, gloss:aldırmayanlar} kelimesinin zor seçilen küçük Süha yıldızı görüntüsü ise parlak kamusal görünüşün altında namazın kolayca fark edilmeyen sönük nesne gibi belirmesini duyurur. Sarı-beyaz iz ayırt edici işareti, hayvan görüntüsü gizli hâlin açığa çıkışını, yıldız ise seçilmesi zor küçük odağı taşır; bu üçü âyetin doğrudan konusu olarak değil, görme mevcutken ayırt edici dikkatin yitirilmesine katkı verir.
+
+Bu küçük işaret, 107:5'teki açık anlama geri dönerek hazır bulunan yönelişin dikkat alanında küçülmesini ve etkisini kaybetmesini gösterir. {ar:عَنْ, tr:an, gloss:uzaklık ve ilişki} edatı namazı uzaklığın yöneldiği alan yapar; {ar:سَاهُونَ, tr:sâhûn, gloss:aldırmayanlar} da yön veren uygulamanın bakıştan itilmiş hâlini bildirir. Böylece görünen ibadet ile fark edilen yöneliş arasındaki ayrımda kamusal bakış canlı kalırken sessiz yükümlülükler seçilemez. 107:5'teki aldırmama, bu bağlantıda yalnızca zihinsel bir dağınıklık değil, gözün görünür olanı büyütürken belirleyici ve küçük olanı kaçırdığı bir dikkat biçimi olarak duyulur; yıldız bu görme düzeninin yerel benzetmesidir.
+
+Bu ocak görüntüsü, namazın sıcaklık ve beslenme üreten bir merkez olarak ne taşıdığını görünür kılar. 107:3'teki {ar:ٱلْمِسْكِينِ, tr:el-miskîn, gloss:yoksul ve muhtaç kişi} kelimesinin dinlenme ve rahatlık veren bir nesneyle ilgili görüntüsü, {ar:صَلَاتِهِمْ, tr:salâtihim, gloss:namazları} taşıyıcısıyla buluştuğunda namazı insanın erişebileceği, fakat aldırmazlık yüzünden kullanılmayan tanıdık bir sığınak gibi hissettirir. Namaz yüzeyinin ateşin yakıcı sıcaklığına maruz kalma ve ateşle işlenme görüntüsü bu sığınağa dönüştürücü ısıyı, 107:3'teki {ar:طَعَام, tr:taʿâm, gloss:yiyecek} kelimesinin yiyeceği tatma ve içine alma yönü ise ısının dışarıdan alınan besine dönüşmesini verir. 107:4'teki {ar:ٱلْمُصَلِّينَ, tr:el-musallîn, gloss:namaz kılanlar} diye adlandırılan grup bu merkezde bulunan ibadet biçimini taşır. 107:1'deki {ar:ٱلدِّين, tr:ed-dîn, gloss:itaat ve boyun eğme} yüzeyinin itaat ve teslimiyet görüntüsü namazla temas ettiğinde, ibadet kopuk bir etiket değil, yaşanan bir boyun eğme ilişkisi olarak görünür. {ar:صَلَاتِهِمْ, tr:salâtihim, gloss:namazları} içindeki başkası için iyilik dileme yönü bu sıcaklığın başka birine uzanmasının beklendiği yönü, 107:7'deki {ar:ٱلْمَاعُونَ, tr:el-mâʿûn, gloss:küçük ve elde bulunan ortak yarar} kelimesinin küçük kullanılabilir fayda görüntüsü ise bu iyiliğin dışarıda ölçüleceği somut noktayı verir. Düzenli biçim, itaat, dinlenme ve ortak yarar bu bağlantıda ibadetin canlı bakıma dönüşüp dönüşmediğini sınar; ocak ve yiyecek görüntüleri bu maddi sahnede, açık namaz anlamının çevresinde kalır ve onun sözlük karşılığının yerini almaz.
+
+Bu şehir ve kurum görüntüsü, ibadetin korunaklı bir toplumsal merkez olarak kamusal sonucu olan bir düzen içindeki yerini görünür kılar. 107:1'deki {ar:ٱلدِّين, tr:ed-dîn, gloss:din, itaat ve düzen} kelimesinin düzenli bir otoriteye bağlı şehir görüntüsü, {ar:صَلَاتِهِمْ, tr:salâtihim, gloss:namazları} ile birleşerek ibadeti bu düzenin içine yerleştirir. 107:3'teki {ar:ٱلْمِسْكِينِ, tr:el-miskîn, gloss:yoksul ve muhtaç kişi} yüzeyinin yerleşmiş konum görüntüsü, namazı sabit bir kurum gibi gösterir; yerinde duran bir merkez, amacına dönük dikkati yine de kaybedebilir. Namaz kelimesinin ibadet yeri ve kiliseyle ilgili görüntüsü görünür kutsal biçimi bu merkeze taşır. 107:7'deki {ar:يَمْنَعُونَ, tr:yemneʿûne, gloss:engellerler} kelimesinin erişilemeyen koruyucu güç görüntüsü, güvenliğin iyiliği insanlardan uzak tutan bir sınıra dönüşmesini gösterir. Aynı âyetteki {ar:ٱلْمَاعُونَ, tr:el-mâʿûn, gloss:küçük ve elde bulunan ortak yarar} küçük faydayı merkezin kamusal işlevini sınayan ölçüye dönüştürür. Bu şehir ve kurum görüntüsü, namazın olağan anlamını sosyal sonucu üzerinden genişleten yerel bir ilişkidir.
+
+Bu ev içi görüntü, namazın iyelikle kişiye ait oluşu ile canlı bakımın gündelik hayata açılmasını karşılaştırır. 107:3'teki {ar:ٱلْمِسْكِينِ, tr:el-miskîn, gloss:yoksul ve muhtaç kişi} kelimesinin mesken, ev halkı ve dinlenme görüntüleri, {ar:صَلَاتِهِمْ, tr:salâtihim, gloss:namazları}ndeki iyelikle birleştiğinde namazı kişinin evinde bulunan ama bakımı üstlenilmeyen bir üye gibi duyurur. Dinlenme nesnesi bu ev içi pratiğin huzur vermesi gereken işlevini, yerleşmiş konum ise namazla ilişkinin geçici bir uğrak değil sürekli bir mesken oluşunu gösterir. {ar:سَاهُونَ, tr:sâhûn, gloss:aldırmazlık halinde olanlar} kelimesine bağlanan sundurma veya eşya rafı görüntüsü, dikkatin evin eşiğinde ya da rafta bırakılmış bir demirbaş gibi kalmasını düşündürür. 107:7'deki {ar:ٱلْمَاعُونَ, tr:el-mâʿûn, gloss:küçük ve elde bulunan ortak yarar}ın hazır eşya, ortak kullanım ve konaklama yeriyle ilgili görüntüleri, bu iç sahipliğin dışarıya açılıp açılmadığını sorar: namaz kişiye ait kalırken ortak faydaya dönüşmeyen özel bir mülk gibi tutulabilir. Bu ev görüntüsü, iyelik ile canlı bakım arasındaki farkı görünürleştirir.
+
+## Akışın Kırıldığı Yer
+
+Bu hareket sahnesi, namazın sıcaklık ve dinlenme sağlayan merkez görüntüsünün davranışta harekete dönüşüp dönüşmediğini görünür kılar. 107:3'teki {ar:يَحُضُّ, tr:yehudd, gloss:teşvik eder} kelimesinin itme ve harekete geçirme yönü, ibadetin sonraki davranışa vereceği itkiyi açar. Aynı âyetteki {ar:ٱلْمِسْكِينِ, tr:el-miskîn, gloss:yoksul ve muhtaç kişi} yüzeyinin hareketin kesilmesi görüntüsü, yoksula yönelmesi gereken sosyal hareketin durmasını gösterir; onun geçimi mümkün kılan azık görüntüsü ise namazın ulaşması beklenen istikrarı verir. {ar:طَعَام, tr:taʿâm, gloss:yiyecek} kelimesinin başkasını besleme yönü bu hareketin somut aktarım noktasını kurar. Namazın ayakta durma, eğilme ve yere kapanma biçimi dışarıdan hareketli kalırken {ar:سَاهُونَ, tr:sâhûn, gloss:aldırmazlık halinde olanlar}un durgunluk görüntüsü yardıma varmayan bir geçit oluşturur. İbadet yardım ve beslenmeden önce durur; namazı beslemenin adı yapan bir eşitleme kurmadan, 107:3'teki yoksul ve 107:7'deki küçük yardım ile namaz uyarısı arasındaki nitelikli aktarımı görünür kılar.
+
+Bu at yarışı görüntüsü, namaza görünür biçimde yakın olmakla kendi yönelişini kurup yolu sonuna kadar takip etmek arasındaki farkı gösterir. 107:4'teki {ar:ٱلْمُصَلِّينَ, tr:el-musallîn, gloss:namaz kılanlar} sınıfı, {ar:صَلَاتِهِمْ, tr:salâtihim, gloss:namazları} yüzeyinin ikinci konum görüntüsü ve 107:3'teki {ar:يَحُضُّ, tr:yehudd, gloss:teşvik eder} kelimesinin ağızdan çıkan teşvik görüntüsüyle birleşir. Kişi namaza yakın bir yerde durabilir, fakat kendi yönelişini kurmamış olabilir. 107:3'teki {ar:طَعَام, tr:taʿâm, gloss:yiyecek} kelimesinin atın ağız bölgesi ve koşturulması görüntüsü bu ikinci konuma dışarıdan gelen itkiyi verir; ibadet iç amaçtan çok sosyal bir itmeyle sürdürülebilir. 107:7'deki {ar:ٱلْمَاعُونَ, tr:el-mâʿûn, gloss:küçük ve elde bulunan ortak yarar} kelimesinin uzağa koşma görüntüsü yakınlığı zamansal bir süreklilik sorusuna çevirir. Bu benzetme, namazın olağan anlamını koruyarak, görünür yerde bulunmakla yolu sonuna kadar takip etmek arasındaki farkı belirginleştirir.
+
+Bu pastoral sahne, namazın hayatı ayakta tutan muhtemel bir kaynak olarak hangi akışları taşıdığını görünür kılar. 107:2'deki {ar:يَدُعُّ, tr:yeduʿʿu, gloss:itip kakar} yüzeyinin yazın su taşıyan bitki görüntüsü, {ar:صَلَاتِهِمْ, tr:salâtihim, gloss:namazları} taşıyıcısına ulaşan mevsimsel hayat kaynağını kurar. 107:3'teki {ar:ٱلْمِسْكِينِ, tr:el-miskîn, gloss:yoksul ve muhtaç kişi} içindeki kalmayı mümkün kılan azık, su ve yem ilişkisi süreklilik sonucunu verir. Namazın iri başaklı ve develerin otladığı bitki görüntüsü, 107:4'teki önceki namaz kılanlar sınıfı, su ve azıkla birleştiğinde ibadeti canlı bir manzara içinde besleyebilen muhtemel bir kaynak gibi gösterir. {ar:طَعَام, tr:taʿâm, gloss:yiyecek} kelimesinin hayvanın yağlanması ve besleyici yağ tadıyla ilgili görüntüsü bu zincirin bedenî sonucunu verir; 107:7'deki {ar:ٱلْمَاعُونَ, tr:el-mâʿûn, gloss:küçük ve elde bulunan ortak yarar} kelimesinin akan ve görünen su görüntüsü ise besinin durağan bir nesne değil, kesilebilen bir dolaşım olduğunu duyurur. Aynı {ar:يَدُعُّ, tr:yeduʿʿu, gloss:itip kakar} yüzeyinin keçi veya koyunu çağıran ve azarlayan çığlık görüntüsü, bitkiyi yiyen sürüyü yönlendiren sesi sahneye getirir. 107:7'deki ortak faydanın zor bir yılda dayanıklılık kazanmış gençlik görüntüsü bu pastoral besini insanın dayanmasına bağlar. Bitki, su, yaş ve hayvan görüntüleri, namazın etkisinin canlı hayatı sürdürmeye açılabileceğini duyuran bağlamsal yankılardır.
+
+Bu hazırlık ve kıtlık sahnesi, biçim olarak mevcut kalan namaz ile kullanılabilir bir sonuç üretme emeği arasındaki farkı görünür kılar. 107:2'deki {ar:يَدُعُّ, tr:yeduʿʿu, gloss:itip kakar} kelimesinin yabani tohum, kıtlıkta yenilen siyah tanecik ve ona benzeyen siyah karınca görüntüsü, namazı geniş ve sert bir taş üzerinde işlenen malzemeyle karşılaştırır. {ar:صَلَاتِهِمْ, tr:salâtihim, gloss:namazları} kelimesinin dövülüp ezilen geniş taş görüntüsü, 107:3'teki {ar:طَعَام, tr:taʿâm, gloss:yiyecek}ın tadılıp içe alınması ve yiyeceğin geçimle iyi hâle dönüşmesiyle buluşur. Biçim olarak mevcut kalan namaz, kullanılabilir bir sonuç üretme işini tamamlamayabilir. Yine 107:3'teki {ar:يَحُضُّ, tr:yehudd, gloss:teşvik eder} kelimesinin acı ilaç reçinesi, kaynatılıp hazırlanmış zor madde görüntüsü bu hazırlığa tıbbi bir basınç ekler. 107:1'deki {ar:أَرَءَيْتَ, tr:eraeyte, gloss:gördün mü, bana söyle} ile 107:6'daki {ar:يُرَاءُونَ, tr:yurâûne, gloss:gösteriş yaparlar} yüzeylerinin görünüşle ilgili görüntüleri, işlenen malzemenin yalnızca görünüşünü değil sonucunu da denetler. Taş, acı ilaç, yabani tohum ve kıtlık, namazın olağan anlamı çevresinde aldırmazlığın biçim bulunduğu hâlde hayatı kullanılabilir kılacak emeği tamamlamamasını duyurur.
+
+Bu başla-dur sahnesi, namazla ilişkinin ileri hareketini hangi durakların kestiğini görünür kılar. 107:2'deki {ar:يَدُعُّ, tr:yeduʿʿu, gloss:itip kakar} yüzeyinin dolambaçlı ve yavaş koşu görüntüsü, {ar:سَاهُونَ, tr:sâhûn, gloss:aldırmayanlar} içindeki durgunlukla birleşerek namazla ilişkinin temiz bir ileri hareketini kaybeden güzergâhı kurar. 107:3'teki {ar:ٱلْمِسْكِينِ, tr:el-miskîn, gloss:yoksul ve muhtaç kişi} yüzeyindeki hareket kesilmesi, geçici bir dalgınlıktan yerleşmiş bir durmaya geçişi verir. 107:1'deki {ar:يُكَذِّبُ, tr:yukezzibu, gloss:yalanlar ve asılsız sayar} kelimesinin yabani hayvanın koşup sonra durmasıyla ilgili görüntüsü, görünürde başlayıp tamamlanmayan namaz ilişkisine başla-dur profilini ekler. Aynı yüzeydeki hareketi veya bakımı yavaşlatma yönü, namazın yönünü geciktiren etik bir bekleme olarak duyulur. Sonunda {ar:سَاهُونَ, tr:sâhûn, gloss:aldırmayanlar} kelimesinin hareketsizlik görüntüsü yavaş koşu, geciken bakım, koşup durma ve kesilme temalarını bir durma noktasında toplar; hayvan sahnesi 107:2, 107:3 ve 107:1'deki davranışlarla çalışan yerel bir benzetme olarak kalır.
+
+Bu sıra görüntüsü, sürekliliğin yalnızca yer tutmakla değil ardışık takip ile kurulmasını görünür kılar. {ar:صَلَاتِهِمْ, tr:salâtihim, gloss:namazları}nın önderin hemen ardından gelen ikinci konum görüntüsü, 107:4'teki {ar:ٱلْمُصَلِّينَ, tr:el-musallîn, gloss:namaz kılanlar} sınıfı, 107:1'deki {ar:يُكَذِّبُ, tr:yukezzibu, gloss:yalanlar ve asılsız sayar} yüzeyinin eylemi geciktirmeme görüntüsü, 107:3'teki {ar:طَعَام, tr:taʿâm, gloss:yiyecek}ın sürekli oluşum yönü ve 107:7'deki {ar:ٱلْمَاعُونَ, tr:el-mâʿûn, gloss:küçük ve elde bulunan ortak yarar}ın uzağa koşma görüntüsüyle buluşur. İkinci konum görüntüsü görünür sıradaki yeri, 107:4'teki sınıf topluluğu, eylemi geciktirmeme görüntüsü zamanı, yiyecek yüzeyi biçimlenmenin devamlılığını, uzağa koşma görüntüsü ise geçilmesi gereken mesafeyi verir; yiyecek yüzeyi bu devamlılığı namazın ikinci konumuna dışarıdan bağlar. Namaz bir kez yer tutmakla değil, süreklilik kazanmakla bir sıra hâline gelir. Kişi görünür sırada yer alabilirken içten takip edip etmediği yine sorulur; bu yerel benzetme, namazın olağan anlamını koruyarak eylemle sürdürülmesi gereken yönü açar.
+
+## Görünen Cephe ve İçteki Yön
+
+Bu hesap ve ısı sahnesi, namazla ilişkinin sonuç taşıyan yönünü ve biçim ile iç bağ arasındaki ayrımı görünür kılar. 107:1'deki {ar:ٱلدِّين, tr:ed-dîn, gloss:hesap ve karşılık} kelimesi hesap, hüküm ve karşılık görme görüntüsüyle {ar:صَلَاتِهِمْ, tr:salâtihim, gloss:namazları}na döndüğünde, namazla kurulan uyumsuzluk kendi hesabını verecek bir çelişki gibi görünür. Namaz yüzeyinin ateşin yakıcı sıcaklığına ve ateşle işlenmeye maruz kalma görüntüsü, 107:4'te namaz kılanlara yönelen uyarıyla birleşerek gizli uyumsuzluğu açığa çıkan bir ağırlık ve sınanma hâline getirir. 107:1'deki {ar:يُكَذِّبُ, tr:yukezzibu, gloss:yalanlar ve asılsız sayar} yüzeyinin bir şeyi yanlış diye gösterme görüntüsü, görünen yakınlık ile içteki uzaklık arasına girer; dış görünüş içerideki yönü yanlış bildiren bir beyan gibi durabilir. Bu hesap ve ateş teması, bu bağlantıda namazı cezaya eşitlemeden aldırmazlığın sonuç taşıyan bir ilişki olduğunu genişletir. Aynı temas biçim olarak başlayan namazın süreklilik kazanmamasını da önerir: biçim tekrarlanabilir, fakat talebi sürdüren bağ kopabilir. Sonuç kaybı ve koşup durma görüntüleri, belirli her seferde namazın yokluğunu ilan etmeden bu iç kesintiyi maddi bir başla-dur profiline çevirir.
+
+Bu dış-iç sahnesi, ritüel biçim görünür kalırken onun iç yönünün nasıl sınandığını gösterir. 107:4'teki {ar:ٱلْمُصَلِّينَ, tr:el-musallîn, gloss:namaz kılanlar} ve {ar:صَلَاتِهِمْ, tr:salâtihim, gloss:namazları} yüzeylerindeki tekrar, kurallı tapınma biçimini iki kez görünür kılar; {ar:سَاهُونَ, tr:sâhûn, gloss:aldırmayanlar} ise bu dış üyeliği içeriden ölçen kalp aldırmazlığını getirir. Aynı kişi namaz kılanlar arasında tanınırken kendi namazının iç talebinden uzak olabilir. Namaz yüzeyinin ateşin yakıtı, pişirme ve ısıyla eğriyi düzeltme görüntüsü bu ayrımı daha cesur bir malzeme sahnesine taşır: ısı, kişinin biçimsel yaklaşımını pişirip doğrultabilecek bir dönüşüm imkânı gibi durur; durgunluk, bu ısının altında değişmeden kalmanın resmidir. Bu düzeltici ısı sınırlı keşif derecesine sahip bir imge basıncı olarak kalır; olağan namaz anlamı ile dış-iç ayrımı birlikte korunur.
+
+Bu ortak sahnede her görüntü aldırmazlığın başka bir yüzünü taşır. 107:1'deki {ar:أَرَءَيْتَ, tr:eraeyte, gloss:gördün mü, bana söyle} ifadesinin “bana söyle” ve uyaran soru görüntüsü, {ar:سَاهُونَ, tr:sâhûn, gloss:aldırmayanlar} içindeki gizli durumu incelemeye açar. 107:3'teki {ar:طَعَام, tr:taʿâm, gloss:yiyecek} kelimesinin ayırt etme, değer verme ve karşılık verme görüntüsü, aldırmazlığı cevap vermeyen bir dikkat ve değer kaybı olarak somutlaştırır. 107:1'deki {ar:يُكَذِّبُ, tr:yukezzibu, gloss:yalanlar ve asılsız sayar} yüzeyinin aldatıcı benlik ve dış kabuk görüntüsü, kişinin namaz hâlâ kendisininmiş gibi görünürken ondan içten ayrılabilmesini açıklar. 107:2'deki {ar:يَدُعُّ, tr:yeduʿʿu, gloss:itip kakar} yüzeyinin ihmal ve eksiltme görüntüsü, adı konmuş bir insanî sorumluluğa karşılık vermeyen hâli gösterir. 107:6'daki gösteriş, bu iç durumu görünür davranışla sınar; soru gizli durumu, yiyecek ayırt etme ve karşılık vermeyi, yetim sorumluluğu, seyirci ise kamusal görünürlüğü taşır ve birlikte aldırmazlığı sosyal sonucu olan bir hâle getirir. Bu birleşme olağan “aldırmama” anlamını derinleştirir; aldatıcı benlik veya yetimlik ayetin öznesine doğrudan yüklenmez.
+
+Bu maddi düzenek, görünür ibadetin başkalarının bakışını yakalayan bir işarete ve aynı anda iyiliğe giden yolu kapatan bir yapıya nasıl benzeyebildiğini gösterir. 107:1'deki {ar:أَرَءَيْتَ, tr:eraeyte, gloss:gördün mü, bana söyle} sorusu ile 107:6'daki {ar:يُرَاءُونَ, tr:yurâûne, gloss:gösteriş yaparlar} fiilinin bayrak gibi dikilen görünüş görüntüsü, namazı başkalarının bakışını yakalayan işaret hâline getirir. 107:3'teki {ar:ٱلْمِسْكِينِ, tr:el-miskîn, gloss:yoksul ve muhtaç kişi} yüzeyinin hareketi kesen bıçak görüntüsü bu yakalama düzenine kapanış kuvveti verir. Namaz taşıyıcısının tuzak kurarak yakalama görüntüsü, görünür işaret, bıçak, engel ve gösterişi aynı düzeneğe bağlar; 107:3'teki {ar:طَعَام, tr:taʿâm, gloss:yiyecek} kelimesinin av sağlayan avcı veya araç görüntüsü ise düzeneğin ödülünü, yakalanan dikkati verir. 107:7'deki {ar:يَمْنَعُونَ, tr:yemneʿûne, gloss:engellerler} yüzeyinin kişi ile aradığı şey arasına giren engeli, itibarı yakalamak için kurulan aracın aranan iyiliğe giden yolu da kapatabileceğini gösterir. Namaz böylece sahibini kendi çelişkisinin içinde tutan bir itibar düzeneği gibi hissedilebilir; bu bağlantıdaki tuzak, bıçak ve av aracı görüntüleri ayetlerin kurduğu sınırlı maddi benzetmelerdir.
+
+Bu dikkat aktarımı, görünür ibadetin seyirciye yönelirken kendi küçük ve yön veren işaretini geride bırakmasını gösterir. 107:6'daki {ar:يُرَاءُونَ, tr:yurâûne, gloss:insanlara gösteriş yaparlar} kelimesinin başkalarının önünde görünme görüntüsü, {ar:صَلَاتِهِمْ, tr:salâtihim, gloss:namazları} ve {ar:سَاهُونَ, tr:sâhûn, gloss:aldırmayanlar}ın bıraktığı namaz nesnesiyle kopan dikkati birbirine bağlar. Aynı yüzeyin başkalarına aktarılacak rapor veya kamusal hikâye görüntüsü, namaz kılan kimliğinin namazın kendisinden çok anlatılan bir öyküye dönüşebilmesini düşündürür. {ar:سَاهُونَ, tr:sâhûn, gloss:aldırmayanlar} için beliren Süha yıldızı, bu kamusal parlaklığın altında kalan sönük nesneyi verir. Ritüel görünür kalırken dikkat seyirciye hizmet edebilir; küçük ve yön veren işaret olan namaz bakışın dışına itilebilir. Bu okuma belirli her kişinin tek motivasyonunu genellemez; 107:6'daki kamusal görünme, namazdan uzaklaşmış dikkatin burada görünen bağımsız tetikleyicisidir.
+
+Bu el ve engel görüntüsü, namazın merhametli yönünün küçük yardıma ulaşırken nerede kesildiğini gösterir. {ar:صَلَاتِهِمْ, tr:salâtihim, gloss:namazları} kelimesinin başkası için iyilik, esenlik ve iyi sonuç dileme yönü, {ar:سَاهُونَ, tr:sâhûn, gloss:aldırmayanlar} içindeki kalp ayrılığıyla 107:7'deki {ar:يَمْنَعُونَ, tr:yemneʿûne, gloss:engellerler} ve {ar:ٱلْمَاعُونَ, tr:el-mâʿûn, gloss:küçük ortak yardım} yüzeylerine bağlanır. Vermekten geri duran el görüntüsü içte kesilen merhametin son görünür noktasını, kişi ile aradığı şey arasına giren engel görüntüsü ise namazdan küçük yardıma giden geçişi uzamsal bir duvar gibi keser. Karşılıklı destek ve küçük yardım görüntüsü, bu merhametin ulaşması gereken somut hedefi kurar. Böylece namazın başkasına uzanan yönü yardıma varamayan bir akış, kalp aldırmazlığı ise bu akışın içteki kesintisi gibi görünür. Bu bağlantı, namaz ile yardım arasında herkes için zorunlu bir sebep zinciri kurmaz; 107:7'deki kapalı elin ve engelin yerel katkısını korur.
+
+Bu yerel dikkat düzenine iki dar karşılaştırma iki ayrı katkı getirir. {ar:ٱلدِّين, tr:ed-dîn, gloss:hesap ve karşılık} kelimesinin 1:4'te hesap gününü açıkça taşıyan kullanımı, burada namazdan uzaklığı zaman bakımından belirlenmiş bir yargı ufkunda duyurur ve yerel hesap görüntüsüne belirli bir gün boyutu ekler. Başka bir temas, 1:5'teki {ar:نَعْبُدُ, tr:naʿbudu, gloss:kulluğumuzu sunarız} ve {ar:نَسْتَعِينُ, tr:nestaʿînu, gloss:yardım isteriz} ifadelerindeki birinci çoğul şahısla açıkça ilan edilen ibadet ve yardım bağımlılığını, {ar:صَلَاتِهِمْ, tr:salâtihim, gloss:namazları} ve {ar:سَاهُونَ, tr:sâhûn, gloss:aldırmayanlar} içindeki iyelikli fakat uzaklaşmış pratikle karşılaştırır. Bir yerde kulluk ve yardım doğrudan birlikte söylenirken, burada namaz kişinin “kendi” pratiği olarak durup yönelişini yitirebilir. Bu iki temas 107:5'in odağını koruyarak, biri hesap gününün zaman ufkunu, diğeri açık birinci şahıs kulluk-yardım bağımlılığını dar bir ek katman olarak görünür kılar.
+
+Bu iki daha şaşırtıcı aktarım, görünür ibadetin sırasıyla itibar yakalayan bir düzeneğe ve önderin temposunu izleyen ikinci konuma nasıl taşındığını gösterir. Namaz yüzeyinin yakalamak için kurulan tuzak görüntüsü, {ar:سَاهُونَ, tr:sâhûn, gloss:aldırmayanlar} içindeki kalp ayrılığı, 107:1'deki aldatıcı dış görünüş ve 107:6'daki {ar:يُرَاءُونَ, tr:yurâûne, gloss:gösteriş yaparlar} ile buluşarak namazı itibar yakalarken sahibini kendi çelişkisinin içinde tutan bir düzenek gibi hissettirir. 107:1'deki {ar:يُكَذِّبُ, tr:yukezzibu, gloss:gerçeğe karşı yalan sayar} yüzeyinin aldatıcı dış kabuk görüntüsü düzeneğin görünen yüzünü, 107:6'daki gösteriş ise yakalanan itibarı verir. İkinci aktarımda namaz, yarışta önderin hemen ardındaki ikinci at konumuyla birleşir; kişi görünür bir önderin sosyal temposunu korurken namazın kendi amacına yönelmeyebilir. {ar:سَاهُونَ, tr:sâhûn, gloss:aldırmayanlar} bedensel veya sosyal yakınlığı gerçek yönelişten ayırır, {ar:يُرَاءُونَ, tr:yurâûne, gloss:insanlara gösteriş yaparlar} ise seyirci önünde bu tempoyu koruma nedenini sağlar. Tuzak ve yarış görüntüleri ihtiyatlı, yerel benzetmelerdir; namazı yeniden adlandırmadan dış görünüşün iç yönle çatışmasını belirginleştirir.
+
+Son sahne, öne çıkarılan cephe ile geriye bırakılan küçük fayda arasındaki dikkat filtresini raf, sundurma ve sönük yıldız görüntüleriyle maddileştirir. {ar:سَاهُونَ, tr:sâhûn, gloss:aldırmayanlar} kelimesinin eşyayı insanların önünde görülecek bir cepheye yerleştirme görüntüsü, 107:6'daki başkalarının görmesine dönük davranışla tetiklenir. 107:7'de esirgenen {ar:ٱلْمَاعُونَ, tr:el-mâʿûn, gloss:küçük ve elde bulunan ortak yarar} ise bu cephenin dışında bırakılan küçük ve kullanışlı yardımı gösterir. Namaz kişinin gözünde ve toplum önünde görülecek bir ön yüzeye konulabilirken, küçük ev içi görevler dikkat alanının gerisine düşer. Raf görüntüsü öne yerleştirilen şeyi, sönük yıldız görüntüsü parlak görünüşün altında geri çekileni, maun ise bu geride kalan küçük yardımın kullanışlı ortak değerini taşır. Böylece 107:5'teki “namazlarına aldırmayanlar” teşhisi açık anlamını koruyarak, gören göz ile hareket eden elin aynı kişide birbirinden ayrıldığı bir sahnede tamamlanır; göz seyirciye çevrilirken küçük yardım için el yerinden kalkmaz.
+
+</editorial_prose>

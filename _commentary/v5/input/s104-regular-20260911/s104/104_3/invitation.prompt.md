@@ -1,0 +1,207 @@
+# V5 reading invitation — 104:3
+
+You are a fresh reading-invitation writer. Read the complete editorial prose
+before writing. It is your sole semantic source.
+
+Write two to four paragraphs of fluent, contemporary Turkish that reveal a
+surprising reading by following one or two main channels of resonance in the
+ayah. A channel is a connected background of meanings, images, actions, or
+relations through which the ayah can be heard and understood differently.
+Several editorial findings may together develop one channel. Summarize that
+connected movement and its consequence for the ayah's main meaning, rather
+than compressing findings individually. Give the reading's substance now;
+the invitation comes from understanding it, not from a promise of hidden depth.
+
+Before drafting, read the entire editorial prose and silently select the one
+or two channels with the strongest interpretive consequence and enough
+grounding to explain clearly. Favor channels that expand or shift what the
+ayah says, the relation it establishes, or what is at stake in its action or
+image. One fully developed channel is sufficient; add a second only when it
+offers a distinct consequential reading that can be explained within the
+invitation. No finding, channel, or major shift has an individual coverage
+claim. Unselected material may remain entirely in the full commentary.
+
+A channel may develop through grammar, sound, dialogue, a material process,
+time, imagery, or a conceptual relation. Resonance is not limited to acoustic
+effects, and an unusual image alone does not establish a channel. Use only
+connections the editorial prose actually develops. If it supplies no such
+channel, explain its strongest grounded reading without inventing connections
+or surprise.
+
+Begin inside the ayah's own words, images, actions, or relations and reveal a
+selected distinctive reading in the first paragraph. Keep the plain meaning
+reachable with only the orientation needed to understand the change. Do not
+spend an opening paragraph on routine explanation or front-load context about
+the surah, the ayah's position, or the commentary project.
+
+For each selected channel, begin with the expression that opens it, unfold the
+connected background, and show how the ayah reads or sounds against that
+background. Let a detail lead into the next through an intelligible relation
+or process, so the reader experiences the emerging reading. This is a movement
+of thought, not a mandatory sentence pattern or one paragraph per finding.
+Let the reader identify the expression being interpreted,
+where any nonordinary detail comes from, and what that detail changes in the
+reading. Briefly identify the word-family use, restricted form, collocation, or
+context that supplies an essential added detail, and preserve the concrete
+operation that makes the image work. Keep the ordinary reading and necessary
+qualification clear within this explanation; do not repeat them as a fixed
+formula. Preserve the particular object, process, or relation that makes this
+reading distinctive, and state its interpretive consequence for the ayah as a
+whole. Make intelligible what the familiar reading leaves less visible and
+what the expanded or shifted reading now lets the reader understand. Preserve
+the editorial's force: an exploratory possibility remains possible, while a
+developed shift must not be softened into a decorative association or a
+reassurance that everything means the same thing. A concrete
+account of how something is carried, transformed, lost, or restored must not
+shrink to a general statement about care, guidance, dependence, or goodness.
+Keep the details needed to make the selected channel work; omit side findings
+and shorten routine setup. If a channel cannot be explained faithfully from
+the editorial prose, choose another grounded channel or reading.
+
+When a non-focus ayah supplies a contribution used in the invitation, keep its
+reference from the editorial prose beside that contribution.
+
+Do not turn the invitation into a miniature inventory of the commentary's
+conclusions, or flatten distinct channels into a broad theme to include more
+material. Do not repair, extend, or supplement the editorial prose from memory
+or outside knowledge.
+
+Omit technical apparatus. Retain any qualification, source distinction, live
+alternative, or boundary whose absence would change the force or meaning of a
+chosen reading. Express it naturally beside the image or relation it qualifies.
+Favor positive explanations of the relation between layers: what remains in
+the foreground and what the resonance makes audible in the background. State
+how that background reinforces, expands, or shifts the understanding of the
+main meaning, with the source and degree of certainty clear. Reserve explicit
+exclusions for concrete ambiguities or live counter-evidence that need them.
+Repeated "this is not X" endings make a reading sound withdrawn; express the
+substantive qualification through what the reading does contribute wherever
+possible. Use varied, natural language rather than a repeated "second layer"
+formula, and preserve the force of expansions and shifts.
+Do not name branches, candidates, findings, scopes, evidence categories,
+ledgers, or workflow stages, or label the prose as numbered channels. Do not
+list findings serially.
+
+Use the established `{ar:..., tr:..., gloss:...}` syntax, consistent
+Turkish-readable transliteration, and short ordinary glosses. Keep Arabic
+anchors beside the explanations they ground. Within a paragraph, continue with
+the Turkish meaning where clear; provide the necessary local tag when a later
+paragraph interprets the carrier anew. Do not place Arabic script outside a
+valid tag.
+
+Build transitions within a channel through its shared object, action, or
+relation. If two channels are selected, they may occupy separate paragraphs;
+do not invent a link between them. Do not praise the commentary's quality,
+promise what the reader will find, manufacture suspense, recap at the end, or
+add a call to action. End on an image, relation, action, or tension already
+established by the selected reading.
+
+Before finishing, compare the invitation with the entire editorial prose:
+does the chosen channel reveal a consequential reading, or could the text have
+been written from the ordinary translation and a modest explanation alone?
+When the editorial supports a surprising channel, the latter fails this task.
+Can the reader follow the opening expression into a connected background and
+understand how that background expands or shifts the ayah's main meaning?
+Check the selected connections against their editorial explanation: can the
+reader tell where the nonordinary details come from, with the necessary
+qualifications intact? Repair generic explanation, isolated curiosities, or a
+compressed findings list by developing the selected channel. Do not add
+omitted channels merely for coverage. Do not output this check.
+
+Write only the invitation text to:
+
+`_commentary/v5/editorial/s104-regular-20260911/s104/104_3/104_3.invitation.tr.md`
+
+Do not add a heading, wrapper label, index, ledger, evidence file, or any other
+artifact. Do not modify the editorial prose.
+
+After writing the invitation, run:
+
+```bash
+python3 _commentary/v5/validate_prose.py _commentary/v5/editorial/s104-regular-20260911/s104/104_3/104_3.invitation.tr.md
+```
+
+If validation fails, repair only the reported mechanical file-contract issues
+and rerun it, for at most two repair cycles. Report the final validator result
+in your response.
+
+<editorial_prose>
+## Sanının Cümlesi
+
+Bu kısa âyet, bir insanın kendi zihninde kurduğu hükmü gösterir; hükmün dışarıya nasıl aktarıldığını değil, içeride nasıl kurulduğunu izletir. Önceki âyette malı sayıp biriktiren kişi (104:2) burada yeniden adlandırılmaz; aynı üçüncü tekil eril yapı özneyi sessizce taşır. Böylece dışarıda sürdürülen toplama hareketinden içerideki teşhise geçeriz: {ar:يَحْسَبُ, tr:yaḥsabu, gloss:sanır} sözü, o kişinin malının kendisini ölümsüz kıldığını düşündüğünü bildirir.
+
+Bu fiilin tamamlayanı yalnızca “malı” değildir. {ar:أَنَّ مَالَهُۥٓ أَخْلَدَهُۥ, tr:anna mālahū akhladahū, gloss:malının onu kalıcı kıldığı} bütünüyle sanılan şeydir; cümle böylece tek bir nesneyi değil, kurulmuş bir sebep-sonuç açıklamasını zihnin içine alır. {ar:أَنَّ, tr:anna, gloss:... olduğunu} bu açıklamayı ağır ve kapalı bir bağlı cümle hâline getirir: {ar:مَالَهُۥٓ, tr:mālahū, gloss:malı} içeride özne olur, {ar:أَخْلَدَهُۥ, tr:akhladahū, gloss:onu kalıcı kıldı} da onun yaptığı varsayılan işi bildirir. Bu yapı iddiaya zihnin içinde sağlam bir hüküm sesi verir; o sağlamlık yine {ar:يَحْسَبُ, tr:yaḥsabu, gloss:sanır} fiilinin taşıdığı sanının sınırları içindedir. Âyetin açık zemini budur: Adam, malının kendisini kalıcı kıldığını sanır.
+
+## Sayılan Mal, Uzayan Süre
+
+{ar:يَحْسَبُ, tr:yaḥsabu, gloss:sanır} burada kesin bilgiye ulaşmış bir bilme fiili gibi değil, bir önermeyi kesinleşmeden doğruya yakın görme eylemi gibi çalışır. Aynı kelimenin sayma ve nicelik belirleme baskısı da cümlenin içine girer. Mal, ölümlülük karşısında yeterli bir dayanakmış gibi değerlendirilir; miktar arttıkça güvence de artıyormuş gibi kurulur. Böylece servet, yalnızca sahip olunan bir çokluk olarak kalmaz, sahibinin süresine çevrilen hayali bir hesap girdisine dönüşür.
+
+Bu hesabın önceki âyette (104:2) bir zemini vardır. {ar:جَمَعَ, tr:cemea, gloss:topladı} dağınık parçaları tek bir bütünde toplar; {ar:عَدَّدَهُۥ, tr:adeddehu, gloss:onu saydı} ise bu bütünü tek tek belirleyip yeniden sayılabilir hâle getirir. 104:2'deki tekrarlı sayma hareketi, burada servet ile kalıcılık arasındaki zihinsel geçişe bağlanır. Sayılan şey zamanın kendisi değildir; birikmiş maldır. Fakat {ar:يَحْسَبُ, tr:yaḥsabu, gloss:hesaplar}ın nicelik yüzü, {ar:أَخْلَدَهُۥ, tr:akhladahū, gloss:onu kalıcı kıldı}nın uzun sürme sonucu ile buluştuğunda, daha büyük toplam daha uzun ömür gibi okunur. Sayma burada bir aritmetik işlemi adlandırmaktan çok, miktarı süreklilik deliline çeviren yanlış bir eşitliğin nasıl kurulduğunu gösterir.
+
+Fiillerin zaman ve görünüş farkı bu eşitliği zihinde canlı tutar. Süregiden {ar:يَحْسَبُ, tr:yaḥsabu, gloss:sanır} her defasında bitmişlik taşıyan {ar:أَخْلَدَهُۥ, tr:akhladahū, gloss:onu kalıcı kıldı} sonucunu yeniden hazır bulur; devam eden sanı, tamamlanmış bir güvenceyi durmadan yeniden sahiplenir. 55:5'teki düzenli ölçü ve hesap imgesi, bu sayma yüzünün ölçü ve düzen taşıyabildiğini gösteren ayrı bir bağlam ışığıdır. 18:35'te mülkün yok olmayacağına bağlanan yakın ifade, malın süreklilik hesabının nesnesi hâline gelmesini görünür kılar; 18:40'taki karşı-hesap ise görünür mülkün sürmesinin sahibinin kalıcılığına dönüşmeyeceği sınırını koyar. Sayma, sanıya giden yolu kurar; hükmün kendisi malın kişiyi kalıcı kıldığı sanısı olarak kalır.
+
+## Tek Bir Güvence
+
+{ar:مَالَهُۥٓ, tr:mālahū, gloss:malı} somut ve değer taşıyan sahiplik alanını gösterir. Önceki âyetteki belirsiz mal (104:2), burada belirli ve kişiye ait kılınmış biçimde geri döner; birikmiş dış mal artık “onun malı” diye kişiselleştirilir ve sebep zincirinin merkezine yerleşir. Tekil yapı, birçok imkânı tek bir sahiplik kütlesinde toplar. Adamın zihninde kendisine tek bir güç yüklenen tek bir mal vardır. Kelimenin taşıdığı meyletme ve çekilme rengi de bu sahipliği nitelendirir: kişi mala doğru yönelirken yerel mal anlamı somut sahiplikte kalır.
+
+Sahiplik eki ile son fiilin nesne eki aynı kişiye döner. {ar:مَالَهُۥٓ, tr:mālahū, gloss:malı} içindeki {ar:ـهُ, tr:-hū, gloss:onun} önce malın ona ait olduğunu söyler; {ar:أَخْلَدَهُۥ, tr:akhladahū, gloss:onu kalıcı kıldı} sonundaki aynı ses ise onu malın etkilediği kişiye çevirir. Sahip olan, sahip olduğu şeyin yaptığı varsayılan eylemi alan kişiye dönüşür. {ar:أَنَّ, tr:anna, gloss:... olduğunu} ile {ar:مَالَهُۥٓ, tr:mālahū, gloss:malı} arasındaki burunlu geçiş ve iki kelimenin kapanışındaki {ar:ـهُ, tr:-hū, gloss:onun/onu} sesi bu ilişkiyi kulağa da bağlar. Ağır son gövde ve tekrarlanan kapanış, sahipliğin çevresinde dönen kapalı bir halka duyurur.
+
+Mal, ölümlülük karşısında başka bir desteğe ihtiyaç bırakmayacak kadar yeterli sayılır. {ar:يَحْسَبُ, tr:yaḥsabu, gloss:yeterli sayar} kelimesinin bu yüzü, {ar:مَالَهُۥٓ, tr:mālahū, gloss:sahip olduğu varlık} ile birleşerek serveti kendi kendine yeten bir güç gibi kurar; {ar:أَخْلَدَهُۥ, tr:akhladahū, gloss:onu kalıcı kıldı} da bu varsayılan yeterliği uzun ve kesintisiz sürme sonucuna bağlar. 18:34'teki bahçe sahibinin mal üstünlüğü iddiası, sahip olunan kaynakların kendilik değerini büyüten toplumsal güveni bu okumaya ekler. 111:2'de malın sahibine fayda vermemesi ise aynı mal kategorisinin koruyucu işlevinin çözüldüğü karşı görüntüyü getirir. Böylece güvence iddiası keskinleşir; malın yeterli sayılması bir güç atfı olarak görünür.
+
+Bu yeterlik kişiye atfedilen bir güç olarak kalır. 3:173'teki “yeter” çerçevesi, yeterliğin kime verildiği sorusunu açık tutar; 21:34 ise insan için kalıcılığın kendi imkânlarıyla kurulamayacağı sınırını görünür kılar. Ev sahibi sûrenin giriş besmelesindeki merhamet çerçevesi (S:0) güvenceyi sağlayan kaynağı açık bırakırken, ateşin açıldığı sahne (104:6) servetin değişim ve hüküm karşısında dayanamayacağını gösterecek karşı hareketi hazırlar. Bağlamsal bir yankıda {ar:ٱللَّهِ, tr:Allâhi, gloss:Allah'ın} yüzeyinin ibadet ve mabut çağrışımı (104:6), malın kişinin hesabında nihai güvenceye yükseltilmesine temas eder; servet, ibadetin yöneldiği merciin yerini tutuyormuş gibi görünür. Bu yankı, güvenin mala devredilmiş gibi görünmesini açar; mal burada ilah adı almaz ve ayetin açık cümlesi insanın malına yüklediği güvenceyi anlatmayı sürdürür.
+
+## Kalıcılığın Fiili
+
+{ar:أَخْلَدَهُۥ, tr:akhladahū, gloss:onu kalıcı kıldı} âyetin sonuna yerleşen ve iddianın ağırlığını taşıyan kelimedir. Fiilin ettirgen biçimi, malı sahibinde kalıcı bir durum meydana getiren varsayılan sebep olarak kurar; sonlu bir olayla “mal yaptı ve sonuç oluştu” düşüncesini sahneye koyar. Bu biçim, basitçe kalmayı ya da bir şeyi tekrar tekrar kalıcılaştırmayı anlatan bir şekilden daha belirli bir iş yapar: malın tek bir ettirgen eylemle sonucu gerçekleştirdiği tasarlanır. Böylece kalıcılık soyut bir nitelik olmaktan çıkıp malın güya ürettiği bitmiş bir olay gibi görünür.
+
+Bu kelimenin çevresinde süreklilik, zihinde yerleşme ve geride kalma ağırlıkları da duyulur. 76:19'daki gerçek kalıcılık dili, aynı büyük kelime alanının başka bir bağlamda nasıl işlediğini gösterir; burada ise o alan servet hesabının içine alınmış bir ölümsüzlük vaadine dönüşür. 7:176'da yere yönelip oraya yapışma imgesi bu kelimeye dünyaya tutunma gölgesi verir. Buradaki doğrudan nesne yapısı, {ar:إِلَى, tr:ilā, gloss:-e} içeren {ar:أَخْلَدَ إِلَى, tr:akhlada ilā, gloss:bir şeye yönelip bağlandı} kuruluşunun yönelip bağlanma çağrışımını sınırlı bir karşı gölge olarak tutar. Bağlanma ve tutunma bu gölgede duyulur; cümlenin asıl fiil yönetimi ise malın sonucu meydana getirdiği varsayımında kalır.
+
+Kabul edilmiş okuyuşta {ar:يَحْسَبُ, tr:yaḥsabu, gloss:sanır} kelimesinin orta ünlüsündeki değişiklik ses rengini değiştirir; sessiz harf dokusu ve bütün önermeyi yönetmesi korunur. Okuyuşun rengi başka bir tını kazanırken yanlış hesap çerçevesi yerinde kalır. {ar:أَخْلَدَهُۥ, tr:akhladahū, gloss:onu kalıcı kıldı} sonundaki {ar:ـهُ, tr:-hū, gloss:onu} da {ar:مَالَهُۥٓ, tr:mālahū, gloss:malı} içindeki aynı kişiye döner; malın yaptığı varsayılan iş, sahibinin aldığı iş olur. Cümlenin sonuna yerleşen bu tamamlanmış sebep, sonraki âyetteki {ar:كَلَّا, tr:kallā, gloss:hayır} karşısına bitmiş bir iddia çıkarır (104:4).
+
+## Dayanak ve Bağlılık
+
+Kalıcılık vaadi bir yerde tutunma görüntüsüne açıldığında, servet sahibini taşıyan yerleşik bir dayanak gibi belirir. Kapanışta görünen {ar:عَمَدٍۢ, tr:amed, gloss:dayanak} yüzeyinin bir yere yönelme ve oradan ayrılmadan kalma yankısı (104:9), {ar:أَخْلَدَهُۥ, tr:akhladahū, gloss:onu kalıcı kıldı}nın serveti fail gibi göstermesiyle temas eder. Kişi, malının kendisine yalnızca süre vermediğini, kendisini bir yerde tutacağını düşünür; kalıcılık böylece bağlanmış bir ikamet biçimi olarak görünür. Aynı dayanak yüzeyindeki bir şeye yapışma çağrışımı, taşıyan yerin kişiyi kendine bağlı tutmasını ekler. Bu mekânsal ayrıntı, ayetin doğrudan sebep-sonuç ilişkisine eklenen bir görüntü olarak mal ile kişi arasındaki güvence temasını taşır; fiziksel yapışma ifadesi bu bağlantının sınırında kalır.
+
+Toplanmış malın bedene ilişmiş bir bütün gibi görünmesi, kalıcılığa da o bütünün üzerinde duran bir küpe ya da bilezik niteliği verir. Önceki toplama hareketi (104:2) bu görüntünün zeminidir: {ar:جَمَعَ, tr:cemea, gloss:topladı} dağınık şeyleri saçılmamış bir bütün hâline getirir, {ar:أَخْلَدَهُۥ, tr:akhladahū, gloss:onu kalıcı kıldı} ise devamlılığı o bütünün üzerine tutturulmuş bir süs gibi duyurur. Böylece sahiplik görünür bir bağlılığa dönüşür. İmge, giysi önerisini çözmeden toplanmış bütün ile ona ilişen kalıcılık arasındaki sınırlı temasta kalır; malın yalnızca ağırlık veya miktar değil, sahibinin kimliğine yapışmış bir devamlılık işareti gibi hayal edilmesini sağlar.
+
+## Hesabın Toplumsal Biçimleri
+
+Zihnî hesap, bağlamsal bir başka ışıkta idare edilen bir işe de benzeyebilir. Ortak meseleler toplanır, düşünce tek bir karara bağlanır ve güvenilir bir dayanak uygulamayı taşır. {ar:جَمَعَ, tr:cemea, gloss:topladı}nın mutabakat ve bir araya getirme yüzü (104:2), {ar:يَحْسَبُ, tr:yaḥsabu, gloss:sanır}ın karar üzerinde işleyen hesabıyla buluşur; {ar:عَمَدٍۢ, tr:amed, gloss:dayanak} ise bu uygulamaya sorumluluk taşıyan bir yürütücü ekler (104:9). Böylece sanı, yalnızca içte duran bir kanaat değil, düzenlenmesi ve hesabı verilmesi gereken bir iş gibi görünür. Hareket, belirli bir makam, kurum veya tarihsel yönetim sahnesi taşımadan hesap ile uygulama arasındaki sorumluluk bağında kalır.
+
+Malın sayılan değeri bu idari görüntüden sosyal bir mevkiye doğru genişler. {ar:عَدَّدَهُۥ, tr:adeddehu, gloss:onu saydı}nın karşılaştırma yüzü (104:2), kişinin değerini yalnızca kendi toplamında değil, başkalarıyla birlikte görülen bir sıra içinde hesaplatır. Çadır topluluğu imgesi, miras alınan veya paylaşılan yerin ve görünür sıranın taşıdığı sosyal rütbeyi bu hesaba ekler; servet, kişiye kalıcı bir işaret ve korunmuş bir mevki sağlıyormuş gibi belirir. {ar:كُلِّ, tr:kulli, gloss:her} yüzeyinin yan akrabalık ve miras çağrışımı (104:1), ataların saygınlığını doğrudan bir miras olayının ötesine, aile ağının yan kollarına taşır. Böylece sayılmış değer tek bir kişide değil, ağ içindeki bir topluluğun elinde tutuluyor gibi görünür; bu, belirli bir soy olayını değil, aile ağına yayılan sosyal görünürlüğü taşır.
+
+Yeterli sayılan servet aynı zamanda hazırlanmış bir rezerv gibi düşünülebilir. Envanter, ölçü, takviye ve geriye kalan parçalar bir araya geldiğinde mal, ihtiyaç anında kullanılacak bir destek görüntüsü kazanır. {ar:مُّمَدَّدَةٍۭ, tr:mumeddede, gloss:uzatılmış} yüzeyindeki başkasına ulaşan artış, bir alıcıya veya ihtiyaca uzanan desteği; aynı yüzeyin ölçülü miktar çağrışımı ise kullanılabilir bir porsiyonu düşündürür (104:9). {ar:يُنۢبَذَ, tr:yunbeze, gloss:atılır} yüzeyindeki küçük ve dağınık artık, bu yeterlilik eşiğinin karşısına geriye kalan kalıntıyı koyar (104:4). Böylece sayılmış mal, hazırlık ile artakalan arasında maddi bir destek gibi görünür; imge, erzak listesi veya tarihsel bir ölçü birimi iddiasına uzanmadan bu ayrımda kalır.
+
+Bu sosyal güvence, başkalarının değerini aşağı çekerek korunmaya da elverişli bir görüntü kazanır. {ar:كُلِّ, tr:kulli, gloss:her} ile birlikte {ar:هُمَزَةٍ, tr:humeze, gloss:ayıplayan} ve {ar:لُّمَزَةٍ, tr:lumeze, gloss:kusur arayan} yüzeyleri (104:1) düşünüldüğünde, servet sahibinin kendi sırasını başkalarını sürekli eksilterek sabit tuttuğu ihtimali belirir. Mal, toplumsal itibarı taşıyan kaynak; kalıcılık ise kişiye yapışmış bir nişan gibi görünür. {ar:هُمَزَةٍ, tr:humeze, gloss:ayıplayan} için verilen sıkıştırma ve dürtme imgesi, {ar:يَحْسَبُ, tr:yaḥsabu, gloss:sanır}ın kurduğu konuma dışarıdan gelen basıncı sağlar; {ar:لُّمَزَةٍ, tr:lumeze, gloss:kusur arayan}nın itme yüzü de başkasını dışarı iterken sahibin kendisini yerinden çıkmayacak sanmasını tamamlar.
+
+Bu sosyal görüntü maddi bir tampon benzetmesiyle koyulaşır. {ar:يَحْسَبُ, tr:yaḥsabu, gloss:sanır} kelimesinin başın altına konan küçük deri yastıkla ilişkilendirilen yalıtık yüzü, serveti kişiyi basınçtan koruyan bir dayanak gibi düşündürür; {ar:أَخْلَدَهُۥ, tr:akhladahū, gloss:onu kalıcı kıldı}nın yerinde kalma yankısı bu oturuşu sabitler. Kişi kendisini koruyan yastık üzerinde tutunurken başkasını itebilir; kalıcılık, korunmuş konum ile dışarı aktarılan basınç arasında görünür. Yastık, sıkıştırma ve itme zincirini taşıyan malzeme imgesidir; servetin toplumsal sırasını başkalarını aşağı çekerek koruduğu okuma ise bunun yanında canlı duran temkinli bir sosyal açıklamadır.
+
+## Dışarıdan Kırılan Hesap
+
+Sanı, sonraki ifadelerde bilinmeyen bir şeyin açığa çıkarıldığı bilgi hareketiyle karşılaşınca kapalı bir hesap gibi görünür. {ar:أَدْرَىٰكَ, tr:edrake, gloss:sana bildirdi} bilme ve farkındalık açıklığını, {ar:يَحْسَبُ, tr:yaḥsabu, gloss:sanır}ın kesinleşmemiş önermesine karşı getirir (104:5). {ar:تَطَّلِعُ, tr:tettaliu, gloss:ortaya çıkarır} ise içeride tutulanı görüp dışarıya açan bir hareket izlenimi verir (104:7). Böylece kişinin özel hesabı sınanabilir bir iddia gibi belirir; dışarıdan gelen bilgi, sanıyı sonradan eklenen bir ayrıntıyla süslemekten çok onu sınayan kip olur. Bilgi hareketi odak fiilin yerel “sanır” anlamını korur ve onu açıklanmaya açık bir hüküm hâline getirir.
+
+Bu temas daha şaşırtıcı bir maddi görüntü de doğurur. {ar:أَدْرَىٰكَ, tr:edrake, gloss:sana bildirdi} yüzeyindeki bilme ve dışa akış çağrışımı (104:5), kapalı özel hesabın dışından gelen bol bir boşalma gibi düşünülebilir; içeride sabitlenen ölümsüzlük düşüncesi bu basınçla çatlar. {ar:حُطَمَةُ, tr:hutame, gloss:parçalayan} yüzeyindeki kırma hareketi (104:4, 104:5), hesabı yalnızca düzeltmekten öte parçalayabilecek açıklama gücünü görünür kılar. Akış, bilme fiilinin yerine geçmeyen; açıklamanın dışarıdan gelişini ve yerleşmiş sanıyı açığa çıkaran maddi görüntüdür. Bağlamın doğrudan bilgi açığa çıkarma çizgisi yerinde kalırken, bu iki yön aynı temas içinde canlı kalır.
+
+## İçerideki Ateş
+
+Kalıcılık düşüncesi zihnin dışında bırakılmış geçici bir hesap hatası olarak kalmaz; içte yerleşen bir yönelim gibi de görünür. {ar:أَخْلَدَهُۥ, tr:akhladahū, gloss:onu kalıcı kıldı} kelimesinin düşüncenin akılda sabitlenmesine açılan yüzü, {ar:تَطَّلِعُ, tr:tettaliu, gloss:ortaya çıkarır}nın içeriye yönelen bakışıyla buluşur (104:7). 104:7'de ateşin iç merkeze ulaşması, odaktaki kalıcılık denkleminin nerede tutunduğunu görünür kılar. {ar:ٱلْأَفْـِٔدَةِ, tr:ef'ide, gloss:kalpler}nin içteki tutuşturucu merkez imgesi, servetin dışsal süre değil, içeride korunan bir inanç ısısı sürdürdüğü görüntüsünü açar. {ar:نَارُ, tr:nâru, gloss:ateş}nın insanlar arasında alevlenen öfke ve düşmanlık yüzü (104:6), bu iç ısıyla birleştiğinde sabit sanı çatışmaya yayılan bir hararet gibi hissedilir; ceza ateşinin olağan sahnesi de yerinde kalır.
+
+Bu iç ateşte {ar:عَمَدٍۢ, tr:amed, gloss:dayanak} için verilen öfke çağrışımı da {ar:ٱلْأَفْـِٔدَةِ, tr:ef'ide, gloss:kalpler}nin iç bölgesiyle temas eder (104:9, 104:7). Sanının sabitliği duygusal bir hâl gibi yer tutar; kıvılcım ve öfke, odak fiilin doğrudan çevirisi olarak değil, içeride yerleşmiş güvence düşüncesini görünür kılan aktarılmış imgeler olarak çalışır. {ar:ٱلْمُوقَدَةُ, tr:el-mûkade, gloss:tutuşturulmuş} yüzeyinin hazır kıvılcım ve yoğun alev imgesi (104:6), düşüncenin yalnızca sürmediğini, parlayabilecek bir yoğunluk taşıdığını ekler. Ateşin kalbe ulaşması, yerleşmiş düşüncenin akıbetini gösteren bağlamsal bir tersine çevirmedir; âyetin ilk cümlesindeki zihinsel sanı bu hareket içinde kaybolmaz.
+
+Ateş açığa çıktığında biriktirilmiş malın işlevi de tersine çevrilmiş görünür. {ar:مَالَهُۥٓ, tr:mālahū, gloss:malı}nın edinilmiş varlık alanı, {ar:نَارُ, tr:nâru, gloss:ateş}nın yakıcı ve parlayıcı süreciyle karşılaşınca korunacak bir süre değil, tüketilebilir bir madde gibi belirir (104:6). {ar:أَخْلَدَهُۥ, tr:akhladahū, gloss:onu kalıcı kıldı}nın uzun süre yaşatma ve hâli koruma imgesi, ateşin tüketici eylemi içinde karşıt bir işlev kazanır; malın hayat ürettiği sanısı, başka bir gücü sürdüren yakıta çevrilir. {ar:ٱلْمُوقَدَةُ, tr:el-mûkade, gloss:tutuşturulmuş}nın yakıt ve harlanma yüzü bu dönüşümü yoğunlaştırır. {ar:نَارُ, tr:nâru, gloss:ateş} aynı zamanda aydınlatır; servetin sahte nedenselliğini tüketirken görünür de kılar. Bu hareket, malın güvence işlevinin tüketim ve ifşa karşısında tersine dönmesini görünür kılar; malın yakıt diye adlandırılması veya ilah kılınması gibi doğrudan bir sözlük iddiası üretmez.
+
+## Atılan Dayanak
+
+Taşıyıcı diye düşünülen şeyin kendisi de elden çıkarılabilir bir nesne gibi görünür. {ar:يُنۢبَذَ, tr:yunbeze, gloss:atılır}nın bağımsız atılma hareketi, {ar:يَحْسَبُ, tr:yaḥsabu, gloss:sanır}ın güvenle oturduğunu düşündüğü dayanağa geri döner (104:4); mal, kişiyi taşıyan bir yastık gibi kurulurken aynı yastık dışarı atılan bir nesne hâline gelir. {ar:أَخْلَدَهُۥ, tr:akhladahū, gloss:onu kalıcı kıldı}nın yerinde kalmaya direnç veren yüzü, atılma hareketiyle karşılaşınca kalıcı sanılan öznenin çıkarılabilir olduğunu gösterir.
+
+Bu tersine dönüşte sahip, kendisini özne ve malı araç sayan ilişkisini kaybeder; başkasının elinde taşınan nesneye dönüşür. {ar:حُطَمَةِ, tr:hutame, gloss:parçalayan ateş}nin kuru nesneyi kıran yüzü (104:4, 104:5), destek çekildikten sonraki maddi sonucu tamamlar. Dayanıklı sanılan servet ve onunla güvene oturan kişi aynı elden çıkarılabilirlik alanına çekilebilir; daha dar okumada atılanın yalnızca kişi olması da açık kalır. {ar:مَالَهُۥٓ, tr:mālahū, gloss:malı}nın sahiplik alanı burada korunmuşluk garantisi vermek yerine sınanan ilişkiyi taşır; {ar:يُنۢبَذَ, tr:yunbeze, gloss:atılır} ile {ar:حُطَمَةِ, tr:hutame, gloss:parçalayan} arasındaki geçiş ise bütünlüğünü koruyamayan bir güven nesnesi ortaya çıkarır. Böylece kalıcılık diye kurulan tahmin, atılabilir ve kırılabilir bir nesne gibi işlenir.
+
+## Kapanan Güvence
+
+Korunaklı yer düşüncesi son bir dönüşle sahibini içeride tutan bir mekâna çevrilir. {ar:مُّؤْصَدَةٌۭ, tr:mûsede, gloss:kapatılmış} kapanışın herkesi içeride tutan yüzünü taşır (104:8); {ar:مَالَهُۥٓ, tr:mālahū, gloss:malı}nın güvenle saklanacağı mahzen, sahibinin de çıkamayacağı bir hapishane gibi görünür. {ar:أَخْلَدَهُۥ, tr:akhladahū, gloss:onu kalıcı kıldı}nın bir yere yerleşip ayrılamama yankısı bu kapanışla buluşunca güvenli ikamet özgürce sürmekten zorunlu tutulmaya döner. Destek ve süre bu aşamada kaçışı olmayan kalışın mimarisi ve süresi olarak görünür; aranan istikrar, kalıcılığın karanlık aynasında zorunlu bir tutuluşa dönüşür.
+
+{ar:عَمَدٍۢ, tr:amed, gloss:dayanak}nın yapısal destek yüzü, malın taşıyıcılığını kapatmanın yapısına aktarır (104:9); destek artık zenginliğin verdiği güven değil, hapseden yapıdır. {ar:مُّمَدَّدَةٍۭ, tr:mumeddede, gloss:uzatılmış}nın uzunluk ve uzatılmış zaman yüzü, kalıcılık arzusuna mekânsal bir genişlik verir (104:9). Böylece 104:8'deki kapanma, 104:9'da uzatılmış dayanaklarla çıkışsız bir devamlılığa dönüşür. 6:128'de seçilmiş bir yönelişin zorunlu kalışa dönmesi bu tersine dönüşün sınırını; 90:20'de mühürlü ateş ise kapalı ve kaçışı olmayan tarafını belirginleştirir. Aranan istikrar, bir yere bağlı kalmanın özgür biçimi değil, kalıcılığın karanlık aynasında gerçekleşen zorunlu bir tutuluş olur.
+
+Daha ihtiyatlı, maddi bir analojide {ar:مَالَهُۥٓ, tr:mālahū, gloss:malı} kapalı bir depolama dünyası da kurar. Mal için aktarılan tartışmalı örümcek adı, {ar:مُّؤْصَدَةٌۭ, tr:mûsede, gloss:kapatılmış}nın kapanış işaretiyle buluşunca kişinin kendi güvenlik ağını ördüğü düşünülür (104:8); {ar:أَخْلَدَهُۥ, tr:akhladahū, gloss:onu kalıcı kıldı} için verilen gözsüz, oyuk açan küçük hayvan imgesi ise aynı kapalı yerde görmeden kalma hareketini ekler. Taş bir hazineyi andıran bu mahzen, biriktirilmiş mülkü ağ ören ve oyuk açan bir depolama dünyasına bağlar. Hayvan adı malın tercümesi olarak değil, kayıtlı adlandırmaların çözülmemiş oluşu nedeniyle kapanışın olağan kapatma sahnesine yaslanan çapraz alanlı bir keşifsel görüntü olarak kalır. Kendi ördüğü güvenlik ağıyla kendi açtığı oyuk içinde tutulmak, kalıcılık diye aranan dış sığınağın içeriden kapanmış bir dünyaya dönüşmesidir.
+
+</editorial_prose>

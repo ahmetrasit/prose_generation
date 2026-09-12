@@ -1,0 +1,1349 @@
+{
+  "schema_version": "commentary-v5-scope-discovery-v1",
+  "ayah_ref": "108:3",
+  "lane": "global",
+  "coverage_complete": true,
+  "candidate_decisions": [
+    {
+      "candidate_id": "cand_28217b41cb9110c0f253",
+      "decision": "accept",
+      "reason": "Güvenilir yayımlanmış bulgu, B002 dalını doğrudan 108:3:4'e bağlayarak kesikliğin soyun yanında anılma ve iyi etkiyi de kapsadığını bildiriyor; 94:4 ve 36:12 bağlantıları bağımsız kalıcı-iz tetikleyicileri sağlıyor.",
+      "finding_refs": [
+        "global:public-trace"
+      ],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_66b2fb79723e638104a8",
+      "decision": "accept",
+      "reason": "Güvenilir yayımlanmış bulgu, BTR B004 ile SHN B002'yi odak yüzeyine bağlıyor; akrabalık ve bağ kesilmesi bağlantıları, kin duyandan başlayan uzaklaşmanın kesiklik sonucuyla temasını bağımsızca destekliyor.",
+      "finding_refs": [
+        "global:kinship-self-severance"
+      ],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_14f7d72470abd69b067d",
+      "decision": "accept",
+      "reason": "Güvenilir yayımlanmış bulgu, B001'i tamamlanmadan yarıda kalan hayat veya girişim olarak açıkça taşır; 22:5 ve 11:61 bağlantılarındaki büyüme, gelişme ve yetişme alanı bağımsız karşı-tetikleyicidir.",
+      "finding_refs": [
+        "global:unfinished-trajectory"
+      ],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_56abd03f54a4926d6546",
+      "decision": "accept",
+      "reason": "Güvenilir yayımlanmış bulgu, B002 ve B004'ü açılıştaki akrabalık sürekliliğine karşı okur; 4:1 ve 2:27 bağlantıları soyut süreklilik ile bağın kesilmesi arasındaki ayrı ilişkiyi destekler.",
+      "finding_refs": [
+        "global:relational-continuity-loss"
+      ],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_a6808eaba9c627b32124",
+      "decision": "accept",
+      "reason": "Güvenilir yayımlanmış bulgu, B001 ve B002'yi önceki emredilmiş nahr eyleminin yanında sunusuz ve devam üretmeyen bir son olarak kuruyor; 108:2 ile 39:65 bu kesme-verim karşıtlığına bağımsız zemin veriyor.",
+      "finding_refs": [
+        "global:sterile-cutting"
+      ],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_f1e5964ed97ea3b103de",
+      "decision": "reject",
+      "reason": "İddianın merkezi, belirli hak veya sahiplik tümlecini gerektiren SHN B003 dalıdır. Odak yüzeyindeki شَانِئَكَ bu bağlı yapıyı sağlamıyor ve güvenilir destek kaydı da bu okumayı reject olarak işaretliyor.",
+      "finding_refs": [],
+      "branch_exclusions": [
+        {
+          "branch_ref": "root_000820/B003",
+          "reason": "Hak nesnesi, kabul yapısı veya hükümdar nesnesi bulunmadığı için kolokasyon dalının taşıyıcısı ve bağımsız tetikleyicisi yok."
+        }
+      ],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_e45790278c5463e2f12d",
+      "decision": "accept",
+      "reason": "Okur yürüyüşü, şanıeaka ile al-abtaru arasındaki sonucu ve önceki adlandırma-bolluk çerçevesini birlikte kuruyor; B002 ile B001'in kayıtlı odak taşıyıcıları mevcut, çözülmemiş ek kök atıfları ise bulgu sınırında tutuluyor.",
+      "finding_refs": [
+        "global:public-reversal"
+      ],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_46fad76d753c69e0f561",
+      "decision": "represented",
+      "reason": "Aynı SHN B002 ve BTR B004 taşıyıcılarıyla, tiksinti-uzaklaşma ile akrabalık kesilmesi arasındaki aynı mekanizmayı ve aynı okuyucu sonucunu kuruyor; global:kinship-self-severance bulgusunda eksiksiz taşınıyor.",
+      "finding_refs": [
+        "global:kinship-self-severance"
+      ],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_eaa1a83fcc90e36dced0",
+      "decision": "reject",
+      "reason": "İddianın 'başarısız iddiacı' ve hakkı bırakma yönü SHN B003'ün bağlı kullanımına dayanıyor. Bu kolokasyon odak biçiminde kurulmadığı için BTR B001 tek başına iddia ve elden çıkarma mekanizmasını taşıyamıyor.",
+      "finding_refs": [],
+      "branch_exclusions": [
+        {
+          "branch_ref": "root_000080/B001",
+          "reason": "B001 tamamlanmadan kesilmeyi taşır, fakat başarısız hak iddiası sonucunu tek başına kurmaz."
+        },
+        {
+          "branch_ref": "root_000820/B003",
+          "reason": "Gerekli hak veya sahiplik tümleci bulunmadığı için bu odak yüzeyinde aktifleşmiyor."
+        }
+      ],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_1d163065777b32d619d4",
+      "decision": "accept",
+      "reason": "Okur yürüyüşü, B001'in tamamlanmadan kesilme çekirdeğini 108:2'deki emredilmiş nahr ile karşılaştırıyor; nahr'a ait çözülmemiş ek kök atıfları bağımsız dal diye sunulmadan, bağlamsal tetik olarak sınırlandırılabilir.",
+      "finding_refs": [
+        "global:purposeful-cut-counterpoint"
+      ],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_d3feadaa8f4dd93dbb9e",
+      "decision": "reject",
+      "reason": "Retrospektif kayıt, 108:3'ten sonra ayet bulunmadığını ve yeni bir sonraki-ayet sürprizi çıkmadığını bildiriyor; pozitif bir taşıyıcı, bağımsız tetikleyici veya diğer bulgulardan ayrı değiştirilmiş okuma sunmuyor.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_7347e41edbe75271064c",
+      "decision": "accept",
+      "reason": "Geniş okur yürüyüşü, şanıeaka'nın düşmanlık taşıyıcısı ile al-abtaru'nun sonucu arasındaki dönüşü doğrudan huwa ve belirli yüklem yapısına bağlar; eksik niyet ayrıntısı iddia edilmeyerek sınırlandırılmıştır.",
+      "finding_refs": [
+        "global:syntax-reversal"
+      ],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_814b3db404ae711dde96",
+      "decision": "represented",
+      "reason": "SHN B002'nin tiksintiyle uzaklaşmasını BTR B004'ün bağ kesilmesiyle aynı öz-kopuş mekanizmasında kuruyor; global:kinship-self-severance bulgusu bu çekirdeği ve okuyucu sonucunu eksiksiz içeriyor.",
+      "finding_refs": [
+        "global:kinship-self-severance"
+      ],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_010bde9d4a847b8ebf56",
+      "decision": "accept",
+      "reason": "Geniş okur yürüyüşü B001'i, önceki Rabb yönelimiyle birlikte tamamlanma çizgisinin kesilmesi olarak kuruyor; Rabb'e ilişkin çözülmemiş dal kaydı yeni bir lexicon dalı diye değil, kaynağın nitelediği bağlam olarak korunuyor.",
+      "finding_refs": [
+        "global:unfinished-against-nurture"
+      ],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_4167b7ef4e62362456b6",
+      "decision": "accept",
+      "reason": "Geniş okur yürüyüşü B002'nin anılma ve iyi etki uzantısını açılıştaki adlandırma ve önceki bollukla kapatılan bir çerçeve olarak kuruyor; çözülmemiş yan kökler bu bulgunun taşıyıcısı yapılmıyor.",
+      "finding_refs": [
+        "global:renown-frame"
+      ],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_2c111bf36f7f056d26e2",
+      "decision": "accept",
+      "reason": "Geniş okur yürüyüşü B002'nin ardıl soy çekirdeğini açılıştaki rahim ve akrabalık sürekliliğiyle karşılaştırıyor; bu, anılma kaybından ayrı, bedensel ve toplumsal devam ekseninde bir bulgu sağlıyor.",
+      "finding_refs": [
+        "global:posterity-womb-frame"
+      ],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_0ca96fe96680be1759be",
+      "decision": "reject",
+      "reason": "Retrospektif geniş kayıt sonraki ayet sürprizi bulunmadığını söylüyor; önceki ad, rahim ve Rabb ilişkilerini yeniden yoğunlaştırması ayrı bir taşıyıcı ve değişmiş okuma kurmuyor.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_97030b4bf21f3ca79638",
+      "decision": "reject",
+      "reason": "HFT özeti görünür olsa da anchor_evidence boş; kayıt, ayet, kelime dizini, kök, rol ve odağa dönüş temasını veren kesin bir HFT izi sağlamıyor. Bu nedenle özet, attributed bulguya dönüştürülemiyor.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_98680b7246041c20c653",
+      "decision": "reject",
+      "reason": "HFT kaydı büyüme ve yarıda kalma yönünü özetliyor, fakat anchor_evidence ve focus-return koordinatı sunmuyor; belirtilen HFT rolünü aşmadan doğrulanabilir taşıyıcı-tetikleyici ilişkisi kurulamaz.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_645650a3bb70dfed91fd",
+      "decision": "reject",
+      "reason": "HFT özeti ardıllık, uygulama ve iyi etki alanlarını anıyor, ancak kesin ayet/kelime/kök koordinatı veya odağa dönüş içeren bir iz sağlamıyor; bağımsız bir dal bulgusu yapılamaz.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_a57f237ab77c29219fac",
+      "decision": "reject",
+      "reason": "HFT kaydı nahr ile BTR kesikliğini karşılaştırıyor, fakat exact trace ve odak yüzeyine dönüş koordinatı verilmediği için attributed bağlam kanıtı eşiğini geçmiyor.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_eded0906f8d22bdc9a58",
+      "decision": "reject",
+      "reason": "HFT özeti karşılaşma ve geri çekilme karşıtlığını bildiriyor, ancak hangi ayet kelimesinin hangi kök dalını taşıdığı ve temasın odağa nasıl döndüğü verilmemiş.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_0a2f25ffe7576a71cd72",
+      "decision": "reject",
+      "reason": "HFT'nin what_was_special özeti çoklu okuma iddiasını topluca bildiriyor, fakat anchor_evidence boş ve tek tek taşıyıcı-tetikleyici-fokus dönüşleri yok; surah tezi gibi kabul edilemez.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_14471830002c8cc58bf7",
+      "decision": "reject",
+      "reason": "HFT kaydı nedensel okların okuyucu tarafından kurulduğunu zaten bildiriyor; kesin HFT izi, odak dönüşü ve bağımsız taşıyıcı bulunmadığı için yeni bir bulgu kurmuyor.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_da57f85f3843d1c61d74",
+      "decision": "reject",
+      "reason": "HFT özeti SHN B003 uzlaşma/elden çıkarma okumasının biçimden uzak olduğunu söylüyor; ancak kesin koordinat ve odak dönüşü bulunmadığından, ayrıca bağlı kullanım yüzeyde bulunmadığından tutulamaz.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_206e3771839ac07a0ac0",
+      "decision": "reject",
+      "reason": "HFT özeti takipçi, sıcaklık, hane ve bulut modellerini yalnızca çevresel dallar olarak sıralıyor; anchor_evidence ve kesin odak dönüşü olmadığı için hiçbirini attributed aktivasyon olarak kurmuyor.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_5b9f5663056247aa818d",
+      "decision": "reject",
+      "reason": "HFT özeti biyolojik, itibari, etik, usulî ve ilişkisel devam türlerini birlikte anıyor, fakat bunları odak taşıyıcısına bağlayan kesin trace yok; genel bir özet, ayrı bir semantik bulgu değildir.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    }
+  ],
+  "findings": [
+    {
+      "finding_ref": "global:public-trace",
+      "origin_candidate_id": "cand_28217b41cb9110c0f253",
+      "represented_candidate_ids": [],
+      "title": "Kesiklik kalıcı iz ve iyi etkiyi de kapsar",
+      "claim": "Al-abtaru, kin duyanı soyun yanında toplumdaki anılma ve iyi etkinin devamından da kesilmiş biri olarak gösterir.",
+      "mechanism": "Odaktaki al-abtaru taşıyıcısı, 94:4'te yükseltilmiş anılma ve 36:12'de kaydedilen izler olarak verilen bağımsız kalıcılık alanıyla temas eder; böylece kesiklik, soy çizgisinin yanı sıra adın ve hayırlı etkinin sonrasına da uygulanır.",
+      "reader_payoff": "Son hüküm yalnızca bir neslin yokluğu değil, düşmanlığın geride bırakacağı kamusal etkinin de kesilmesi olarak görünür.",
+      "containment": "Bu okuma odaktaki 'sana kin duyan kesik olandır' zeminini korur ve belirli bir tarihî kişinin anısının gerçekten silindiğini ileri sürmez. 3:144 bağlantısı, bunu muhatabın kişisel biyolojik sürekliliği iddiasına dönüştürmeyi sınırlar.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": [
+          "trusted"
+        ],
+        "reason": "Güvenilir yayımlanmış bulgu B002'yi odak kelimesine açıkça bağlıyor; bağlantı hedeflerinin hedef morfolojisi verilmediği için kalıcı-iz tetikleyicileri nitelikli bağlam kanıtı olarak kullanılıyor."
+      },
+      "support_ids": [
+        "sup_f5be63106369e5411373"
+      ],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000080/B002",
+          "facet_id": "F001",
+          "branch_gloss": "soyu veya iyi etkisi kesilmis olma",
+          "facet_statement": "Soyun veya ardil neslin bulunmamasi dalin temel kullanimidir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "108:3:4:2"
+          ],
+          "trigger_refs": [
+            "94:4",
+            "36:12"
+          ],
+          "focus_return_refs": [
+            "108:3:4:2"
+          ],
+          "carrier": "Al-abtaru yüzeyi, kişiye yüklenen soy veya devam kesikliğini taşır.",
+          "independent_trigger": "94:4 yükseltilmiş anılmayı, 36:12 ise kaydedilen izleri kalıcılık alanı olarak sunan iki bağımsız bağlantı kaydıdır.",
+          "activation": "Odaktaki kesiklik taşıyıcısı, dış bağlamdaki anılma ve kaydedilmiş iz alanıyla temas ederek B002'nin soy dışındaki devam boyutunu açar.",
+          "resulting_reading": "Kin duyan kişi, iyi etkisi ve hatırlanabilir izi sürmeyen kişi olarak da hükmün içine girer.",
+          "boundary": "Bu aktivasyon, odak kişisinin anısının fiilen silindiğini veya B002 dışındaki kesme dallarının etkin olduğunu söylemez."
+        },
+        {
+          "branch_ref": "root_000080/B002",
+          "facet_id": "F002",
+          "branch_gloss": "soyu veya iyi etkisi kesilmis olma",
+          "facet_statement": "Kisinin anilma izi ya da hayirla bagli etkisi kesilmis sayilabilir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "108:3:4:2"
+          ],
+          "trigger_refs": [
+            "94:4",
+            "36:12"
+          ],
+          "focus_return_refs": [
+            "108:3:4:2"
+          ],
+          "carrier": "Al-abtaru yüzeyi, kişinin ardından kalan anılma ve iyi etkiyi kesilmiş gösterir.",
+          "independent_trigger": "94:4 ve 36:12, yükseltilmiş anılma ile kaydedilmiş eser/iz alanlarını bağımsız kalıcılık tetikleri olarak sağlar.",
+          "activation": "Kesiklik, dış bağlamın kalıcı anılma ve iz kavramlarıyla temas ettiğinde sosyal ve etkisel devamın sona ermesine dönüşür.",
+          "resulting_reading": "Hater, yalnızca soyu kesik değil, adı ve hayırlı etkisi devam etmeyen kişidir.",
+          "boundary": "Bu uzantı biyolojik soy ile kamusal izi birbirine indirgemez; bağlantıların morfolojik ayrıntıları packet dışında tamamlanmaz."
+        }
+      ],
+      "connection_refs": [
+        "conn_ed1f5e34f5224282bf5a",
+        "conn_c99d01f42af5a49da0c2",
+        "conn_45d4d1de5c5b1a97b12c"
+      ],
+      "context_refs": [
+        "94:4",
+        "36:12",
+        "3:144"
+      ],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:kinship-self-severance",
+      "origin_candidate_id": "cand_66b2fb79723e638104a8",
+      "represented_candidate_ids": [
+        "cand_46fad76d753c69e0f561",
+        "cand_814b3db404ae711dde96"
+      ],
+      "title": "Tiksinti ilişkiden öz-kopuşa döner",
+      "claim": "Şani'aka, tiksintiyle ilişkiden uzaklaşan haterın kendi hareketiyle akrabalık ve merhamet bağından kesilmiş hale gelmesini de görünür kılar.",
+      "mechanism": "Odaktaki SHN B002 tiksinti ve uzaklaşma taşıyıcısı, 26:214'teki yakın akrabalık alanı ve 2:27'deki bağları kesme uyarısıyla temas eder; BTR B004 bu uzaklaşmanın ilişkiyi kesen failde sonuçlandığını taşır ve huwa sonucu haterın üzerine sabitler.",
+      "reader_payoff": "Kesiklik dışarıdan verilmiş tekil bir damga olmaktan çıkarak, haterın kendi geri çekilmesinin onu bağ alanının dışında bırakması olarak da okunur.",
+      "containment": "Bu okuma, sıradan 'hater kesik olandır' hükmünü korur ve bütün düşmanlıkların geri döndürülemez olduğunu söylemez. 41:34 bağlantısı, iyi davranışla düşmanlığın yakınlığa dönüşebileceğini karşı sınır olarak görünür tutar; açılıştaki rahim dalları ise burada ayrı bir lexicon aktivasyonu diye genişletilmez.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": [
+          "legacy_unbound",
+          "trusted"
+        ],
+        "reason": "Güvenilir yayımlanmış bulgu ve iki legacy okur yürüyüşü aynı odak dallarını taşır; geri çekilme ile bağ kesilmesi arasındaki nedensel yön okuyucu çıkarımıdır ve hedef bağlantı morfolojisi eksikliğiyle nitelendirilmiştir."
+      },
+      "support_ids": [
+        "sup_343bf6c8bea4f51399ef",
+        "sup_c72a1696566c2a751736",
+        "sup_51cc7e3f1498703652ae"
+      ],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000820/B002",
+          "facet_id": "F001",
+          "branch_gloss": "tiksinip uzak durma",
+          "facet_statement": "Pis veya kirletici sayılan bir şey karşısında güçlü bir tiksinti duyulur.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "108:3:2:1"
+          ],
+          "trigger_refs": [
+            "26:214",
+            "2:27"
+          ],
+          "focus_return_refs": [
+            "108:3:2:1"
+          ],
+          "carrier": "Şani'aka yüzeyi, bir kişiye veya şeye karşı tiksinti duyan kişiyi taşır.",
+          "independent_trigger": "26:214 yakın akrabalığı, 2:27 ise Allah'ın birleştirilmesini emrettiği bağları verir; bu iki bağ kaydı tiksintinin ilişki alanına temasını sağlar.",
+          "activation": "Tiksinti taşıyıcısı, bağların korunması ve kesilmesiyle ilgili bağımsız alanla buluştuğunda uzak durma, ilişkiden çekilme hareketi olarak okunur.",
+          "resulting_reading": "Hater, ilişkiyi kirletici veya katlanılmaz bulup ondan uzaklaşan kişi olarak görünür.",
+          "boundary": "Bu dal, odak biçiminde belirli bir nesnenin fiziksel olarak pis olduğunu veya açılıştaki rahim dallarının bağımsızca etkin olduğunu kanıtlamaz."
+        },
+        {
+          "branch_ref": "root_000820/B002",
+          "facet_id": "F002",
+          "branch_gloss": "tiksinip uzak durma",
+          "facet_statement": "Tiksinti, kişiyi pislikten veya iğrenç bulduğu şeyden uzak durmaya yöneltir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "108:3:2:1"
+          ],
+          "trigger_refs": [
+            "26:214",
+            "2:27"
+          ],
+          "focus_return_refs": [
+            "108:3:2:1"
+          ],
+          "carrier": "Şani'aka yüzeyi, tiksintinin kişiyi yöneldiği şeyden uzaklaştırdığı hareketi taşır.",
+          "independent_trigger": "Akrabalık alanı ile birleştirilmiş bağları koparmama uyarısı, uzaklaşmanın ilişkisel sonucunu bağımsızca sınırlar.",
+          "activation": "Uzak durma facet'i, BTR B004'ün bağ koparma taşıyıcısıyla temas ederek duygudan ilişkisel sonuca geçen bir yön oluşturur.",
+          "resulting_reading": "Kendi uzaklaşması, haterın bağın dışında kalmasının işleyen hareketi olarak belirir.",
+          "boundary": "Bu, ayetin her tür uzaklığı akrabalık kopuşu saydığını veya belirli tarihî ilişkiyi teşhis ettiğini ileri sürmez."
+        },
+        {
+          "branch_ref": "root_000080/B004",
+          "facet_id": "F001",
+          "branch_gloss": "akrabalik bagini koparma",
+          "facet_statement": "Akrabalik bagi kesilip koparilan iliski olarak gorulur.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "108:3:4:2"
+          ],
+          "trigger_refs": [
+            "26:214",
+            "2:27"
+          ],
+          "focus_return_refs": [
+            "108:3:4:2"
+          ],
+          "carrier": "Al-abtaru yüzeyi, kesikliği akrabalık bağının kopmasıyla ilişkilendiren sonucu taşır.",
+          "independent_trigger": "Yakın akrabalık adresi ve birleştirilmiş bağların kesilmesini kınayan ayet, akrabalığı bağımsız ilişki alanı olarak sağlar.",
+          "activation": "BTR B004 taşıyıcısı, SHN B002'nin uzaklaşma hareketiyle temas ederek kesikliği ilişkinin kopması şeklinde somutlaştırır.",
+          "resulting_reading": "Hater, akrabalık bağı kopmuş ilişkinin içinde değil, o bağın dışında nitelenir.",
+          "boundary": "Bu sonuç soyun biyolojik olarak bulunmamasıyla özdeşleştirilmez ve BTR B002'nin bütün uzantılarını zorunlu kılmaz."
+        },
+        {
+          "branch_ref": "root_000080/B004",
+          "facet_id": "F002",
+          "branch_gloss": "akrabalik bagini koparma",
+          "facet_statement": "Kisi, bu bagi koparan fail oldugu icin nitelendirilir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "108:3:4:2"
+          ],
+          "trigger_refs": [
+            "26:214",
+            "2:27"
+          ],
+          "focus_return_refs": [
+            "108:3:4:2"
+          ],
+          "carrier": "Al-abtaru yüzeyi, kişiyi bağ kopuşunun faili olarak niteleyebilme yönünü taşır.",
+          "independent_trigger": "2:27'de bağ kesilmesi doğrudan ilişki eylemi olarak, 26:214'te akrabalık doğrudan muhatap alanı olarak verilir.",
+          "activation": "Fail facet'i, şaniaka'nın uzaklaşma taşıyıcısıyla buluştuğunda kesiklik sonucunu haterın kendi ilişkisel konumuna döndürür.",
+          "resulting_reading": "Kopukluk, yalnızca haterın başına gelen durum değil, onun geri çekilmesiyle kurulan öz-kopuş olarak görünür.",
+          "boundary": "Bu ilişkisel nedensellik okuyucu çıkarımıdır; ayet tek başına belirli bir koparma eylemini anlatan geçmiş olay sunmaz."
+        }
+      ],
+      "connection_refs": [
+        "conn_e1bc5f08d2654c6de5bb",
+        "conn_322bcff8f724b23afce6",
+        "conn_4ace8870ab3098c67daa"
+      ],
+      "context_refs": [
+        "26:214",
+        "2:27",
+        "41:34"
+      ],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:unfinished-trajectory",
+      "origin_candidate_id": "cand_14f7d72470abd69b067d",
+      "represented_candidate_ids": [],
+      "title": "Kesiklik tamamlanmadan kalan bir süreçtir",
+      "claim": "Al-abtaru, haterın hayatını, girişimini veya iz bırakma sürecini olgunlaşmadan kesilmiş bir çizgi olarak da gösterir.",
+      "mechanism": "Odaktaki BTR B001 fiziksel tamamlanmadan kesilme taşıyıcısıdır; 22:5'teki gestasyon-büyüme-meyve verme ve 11:61'deki yerleşme-yetiştirme karşıtlıkları, bu kesilme çekirdeğini gelişme sürecine dönen bağımsız tetikler olarak açar.",
+      "reader_payoff": "Okur, al-abtaru'yu yalnızca belirli bir şeyden mahrum kalma değil, olgunlaşma noktasına varamayan bir süreç olarak görebilir.",
+      "containment": "Bu süreç okuması sıradan kesiklik hükmünü taşır ve belirli bir kişinin hayatı ya da projesi hakkında tarihî teşhis yapmaz. Gelişme bağlantılarının hedef morfolojisi packet'te bulunmadığı için ilişki nitelikli kalır.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": [
+          "trusted"
+        ],
+        "reason": "Güvenilir destek B001'in tamamlanmadan yarıda kalma iddiasını doğrudan verir; büyüme ve yetişme bağlantıları bağımsız tetikleyici olarak mevcut olsa da hedef morfolojisi sağlanmamıştır."
+      },
+      "support_ids": [
+        "sup_1887127517078c0ef6f1"
+      ],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000080/B001",
+          "facet_id": "F001",
+          "branch_gloss": "tamamlanmadan kesip koparma",
+          "facet_statement": "Bir seyin tam olmadan kesilmesi veya kesme isleminin kokten ayirma sonucuna varmasi esastir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "108:3:4:2"
+          ],
+          "trigger_refs": [
+            "22:5",
+            "11:61"
+          ],
+          "focus_return_refs": [
+            "108:3:4:2"
+          ],
+          "carrier": "Al-abtaru yüzeyi, tamamlanmaya varmadan kesilip koparılma çekirdeğini taşır.",
+          "independent_trigger": "22:5 gestasyon, büyüme ve meyve vermeyi; 11:61 ise yerleşme ve yetiştirmeyi ayrı gelişme alanları olarak sağlar.",
+          "activation": "Tamamlanmadan kesilme taşıyıcısı, gelişme ve meyve verme süreçleriyle temas ettiğinde fiziksel kesme imgesi tamamlanmamış bir hayat veya girişime yönelir.",
+          "resulting_reading": "Haterın çizgisi, olgunlaşma ve sonuç verme aşamasına varmadan kesilen bir süreç olarak görünür.",
+          "boundary": "Bu aktivasyon, bütün kesiklik anlamlarının süreç okumasına indirgenmesini veya hedef ayetlerin ayrıntılı morfolojik çözümlemesini iddia etmez."
+        }
+      ],
+      "connection_refs": [
+        "conn_a35276df136b2210e6f1",
+        "conn_ccf7f9723c8ed0915839"
+      ],
+      "context_refs": [
+        "22:5",
+        "11:61"
+      ],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:relational-continuity-loss",
+      "origin_candidate_id": "cand_56abd03f54a4926d6546",
+      "represented_candidate_ids": [],
+      "title": "Kesiklik üretken ve ilişkisel sürekliliği kapatır",
+      "claim": "Al-abtaru, haterı açılışta kurulmuş üretken akrabalık alanının ve ilişkisel sürekliliğin dışında kalan kişi olarak da kurar.",
+      "mechanism": "BTR B002'nin soy ve devam kesikliği ile BTR B004'ün akrabalık bağını koparma alanı, 4:1'deki yaratıcı-akrabalık çerçevesi ve 2:27'deki birleştirilmiş bağların kesilmesiyle temas eder; iki dal birlikte yalnız sayısal soy değil, ilişki üreten devam alanını değiştirir.",
+      "reader_payoff": "Soyu kesik ifadesi, aile sayısına kapanmayan; üretken, ilişkisel ve kuşaklar arası bir devam alanının yitimi olarak yoğunlaşır.",
+      "containment": "Bu bulgu, kin duyanın ilişkisel süreklilikten kesik görünmesini taşır ve açılıştaki bütün rahim/merhamet dallarını odakta zorunlu hale getirmez. 3:144 bağlantısı, sürekliliği muhatabın kişisel ölümsüzlüğü olarak okumaya karşı sınırdır.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": [
+          "trusted"
+        ],
+        "reason": "Güvenilir yayımlanmış bulgu iki odak dalını aynı ilişkisel süreklilik iddiasında birleştiriyor; akrabalık bağlantıları hedef morfolojisi eksik olduğu için bağlamsal destek olarak kalıyor."
+      },
+      "support_ids": [
+        "sup_477112b6790932d5de25"
+      ],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000080/B002",
+          "facet_id": "F001",
+          "branch_gloss": "soyu veya iyi etkisi kesilmis olma",
+          "facet_statement": "Soyun veya ardil neslin bulunmamasi dalin temel kullanimidir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "108:3:4:2"
+          ],
+          "trigger_refs": [
+            "4:1",
+            "2:27"
+          ],
+          "focus_return_refs": [
+            "108:3:4:2"
+          ],
+          "carrier": "Al-abtaru yüzeyi, ardıl soyun ve devamın bulunmamasını taşıyabilir.",
+          "independent_trigger": "4:1 yaratılış ve akrabalık yayılımını, 2:27 ise birleştirilmiş bağların koparılmasını bağımsız ilişki alanları olarak verir.",
+          "activation": "Soy kesikliği taşıyıcısı, üretken akrabalık ve bağların kesilmesiyle temas ederek devamın ilişkisel boyutunu açar.",
+          "resulting_reading": "Hater, yalnızca ardılı olmayan değil, üretken bir bağ alanında devamı kesilmiş kişi olarak görünür.",
+          "boundary": "Bu aktivasyon soy, anılma ve iyi etki uzantılarını tek bir zorunlu sonuçta birleştirmez."
+        },
+        {
+          "branch_ref": "root_000080/B002",
+          "facet_id": "F002",
+          "branch_gloss": "soyu veya iyi etkisi kesilmis olma",
+          "facet_statement": "Kisinin anilma izi ya da hayirla bagli etkisi kesilmis sayilabilir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "108:3:4:2"
+          ],
+          "trigger_refs": [
+            "4:1",
+            "2:27"
+          ],
+          "focus_return_refs": [
+            "108:3:4:2"
+          ],
+          "carrier": "Al-abtaru yüzeyi, kişiden sonra kalan iyi etkinin de kesilmesini taşır.",
+          "independent_trigger": "Akrabalık yayılımı ile bağların kopması, soyun toplumsal ve ilişkisel etkiden ayrı düşünülemeyeceği bir karşı alan sağlar.",
+          "activation": "İyi etki uzantısı, üretken bağların kurulması ve koparılmasıyla temas ettiğinde süreklilik yalnızca biyolojik ardıllığa kapanmaz.",
+          "resulting_reading": "Kesiklik, haterın ilişki kurma ve iyi sonuç bırakma imkanlarının birlikte sönümlenmesi olarak da okunur.",
+          "boundary": "İyi etki hakkında belirli tarihî sonuç veya bağlantı hedeflerinin tam sözlük çözümlemesi ileri sürülmez."
+        },
+        {
+          "branch_ref": "root_000080/B004",
+          "facet_id": "F001",
+          "branch_gloss": "akrabalik bagini koparma",
+          "facet_statement": "Akrabalik bagi kesilip koparilan iliski olarak gorulur.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "108:3:4:2"
+          ],
+          "trigger_refs": [
+            "4:1",
+            "2:27"
+          ],
+          "focus_return_refs": [
+            "108:3:4:2"
+          ],
+          "carrier": "Al-abtaru yüzeyi, kesikliği akrabalık ilişkisinin kopması olarak taşıyabilir.",
+          "independent_trigger": "4:1'deki akrabalık alanı ve 2:27'deki bağ kesilmesi, BTR B004 için bağımsız ilişki tetikleridir.",
+          "activation": "Akrabalık kesilmesi taşıyıcısı, soy ve devam kesikliğiyle yan yana geldiğinde ilişkisel sürekliliğin yitimi görünür olur.",
+          "resulting_reading": "Hater, üretken akrabalık bağının devamını kesen ilişki durumunda belirir.",
+          "boundary": "Bu, haterın kesin olarak belirli bir akrabayı kestiğini veya her soy yokluğunun kasıtlı koparma olduğunu söylemez."
+        },
+        {
+          "branch_ref": "root_000080/B004",
+          "facet_id": "F002",
+          "branch_gloss": "akrabalik bagini koparma",
+          "facet_statement": "Kisi, bu bagi koparan fail oldugu icin nitelendirilir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "108:3:4:2"
+          ],
+          "trigger_refs": [
+            "4:1",
+            "2:27"
+          ],
+          "focus_return_refs": [
+            "108:3:4:2"
+          ],
+          "carrier": "Al-abtaru yüzeyi, kişiyi bağ kopuşunun faili olarak niteleyen yönü taşır.",
+          "independent_trigger": "Bağların korunması ve kesilmesi hakkındaki iki dış bağlam, faillik yönünü taşıyan bağımsız ilişki alanıdır.",
+          "activation": "Fail facet'i BTR B002'nin devam kaybıyla temas ettiğinde kesiklik, ilişkisel üretkenliğin dışına düşme işlemi olarak kurulur.",
+          "resulting_reading": "Hater, devamın yalnızca yokluğu değil, bağı koparan fail konumuyla da nitelenir.",
+          "boundary": "Nedensel fail okuması bağlamsal çıkarımdır; odak cümlesi tek başına olay anlatısı vermez."
+        }
+      ],
+      "connection_refs": [
+        "conn_886d1893292f047bafd8",
+        "conn_322bcff8f724b23afce6",
+        "conn_45d4d1de5c5b1a97b12c"
+      ],
+      "context_refs": [
+        "4:1",
+        "2:27",
+        "3:144"
+      ],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:sterile-cutting",
+      "origin_candidate_id": "cand_a6808eaba9c627b32124",
+      "represented_candidate_ids": [],
+      "title": "Kesme imgesi sunusuz bir sona karşıtlık kurar",
+      "claim": "Al-abtaru, önceki emredilmiş nahr eyleğinin yanında, tamamlanmadan kesilen ve iyi bir devam üretmeyen hater sonunu görünür kılar.",
+      "mechanism": "BTR B001'in erken kesilme taşıyıcısı ile BTR B002'nin iyi etkinin kesilmesi, 108:2'deki Rabb'e yöneltilmiş nahr bağlamına ve 39:65'teki boşa çıkan amel karşılığına temas eder; amaçlı ritüel kesim ile verimsiz kopuş arasında anlam farkı oluşur.",
+      "reader_payoff": "Son kelime, yalnızca kesilmişliği değil, kesilmenin neye hizmet ettiği ve ne ürettiği bakımından kısır bir sonu da düşündürür.",
+      "containment": "Bu bulgu nahr ile btr'nin sözlükte aynı eylem olduğunu söylemez; önceki eylem bağlamı B001/B002'nin kesme ve verim alanını tetikler. Birincil 'hater kesik olandır' hükmü korunur.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": [
+          "trusted"
+        ],
+        "reason": "Güvenilir bulgu iki BTR dalını doğrudan odak yüzeyine bağlar; 108:2 ve 39:65 bağımsız bağlam tetikleri olarak mevcut, fakat hedef morfolojisi verilmemiştir."
+      },
+      "support_ids": [
+        "sup_40893951d129353ae495"
+      ],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000080/B001",
+          "facet_id": "F001",
+          "branch_gloss": "tamamlanmadan kesip koparma",
+          "facet_statement": "Bir seyin tam olmadan kesilmesi veya kesme isleminin kokten ayirma sonucuna varmasi esastir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "108:3:4:2"
+          ],
+          "trigger_refs": [
+            "108:2",
+            "39:65"
+          ],
+          "focus_return_refs": [
+            "108:3:4:2"
+          ],
+          "carrier": "Al-abtaru yüzeyi, tamamlanmadan kesilen şeyi ve erken kopuşu taşır.",
+          "independent_trigger": "108:2'deki emredilmiş nahr ve 39:65'teki boşa çıkan amel, amaçlı kesim ile sonuçsuz iş için bağımsız karşı alan sağlar.",
+          "activation": "Erken kesilme taşıyıcısı, nahrın emredilmiş amacı ve boşa çıkan iş karşılıklarıyla temas ettiğinde kesmenin verimsiz yönünü görünür kılar.",
+          "resulting_reading": "Haterın sonu, ritüel bir sunu gibi devam üretmeyen, tamamlanmadan kopmuş bir kesim olarak belirir.",
+          "boundary": "Bu, nahrın odakta sözlük dalı olarak etkin olduğunu veya haterın belirli bir ritüel eylem yaptığını iddia etmez."
+        },
+        {
+          "branch_ref": "root_000080/B002",
+          "facet_id": "F001",
+          "branch_gloss": "soyu veya iyi etkisi kesilmis olma",
+          "facet_statement": "Soyun veya ardil neslin bulunmamasi dalin temel kullanimidir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "108:3:4:2"
+          ],
+          "trigger_refs": [
+            "108:2",
+            "39:65"
+          ],
+          "focus_return_refs": [
+            "108:3:4:2"
+          ],
+          "carrier": "Al-abtaru yüzeyi, devamın ve ardıl sonucun kesilmesini taşır.",
+          "independent_trigger": "Nahr bağlamı ile boşa çıkan amel, kesilmenin ardından devam veya sonuç üretme beklentisini bağımsızca kurar.",
+          "activation": "B002'nin devam kesilmesi, amaçlı sunu ve boşa çıkan iş karşılıklarıyla temas ederek iyi sonuçsuzluk alanını açar.",
+          "resulting_reading": "Hater, soy ve iyi devamı kesilmiş, ardında sunu veya hayır etkisi bırakmayan kişidir.",
+          "boundary": "İyi etki kaybı burada nahrın tek anlamı yapılmaz; bağlantı, karşıtlık için bağlam tetikleyicisidir."
+        },
+        {
+          "branch_ref": "root_000080/B002",
+          "facet_id": "F002",
+          "branch_gloss": "soyu veya iyi etkisi kesilmis olma",
+          "facet_statement": "Kisinin anilma izi ya da hayirla bagli etkisi kesilmis sayilabilir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "108:3:4:2"
+          ],
+          "trigger_refs": [
+            "108:2",
+            "39:65"
+          ],
+          "focus_return_refs": [
+            "108:3:4:2"
+          ],
+          "carrier": "Al-abtaru yüzeyi, kişinin ardından kalan iyi etkinin kesilmesi yönünü taşır.",
+          "independent_trigger": "Önceki emredilmiş eylem ve boşa çıkan amel, yapılan şeyin sonuç ve iz üretmesi beklentisini sağlar.",
+          "activation": "İyi etki facet'i, verimli sunu ile boşa çıkan iş arasındaki dış karşıtlığa değdiğinde hater sonunu kısır bir son olarak açıklar.",
+          "resulting_reading": "Kesiklik, iyi bir devam veya hatırlanır sonuç üretmeyen bir son haline gelir.",
+          "boundary": "Bu, odaktaki kişiye belirli bir amel veya tarihî sonuç isnat etmez."
+        }
+      ],
+      "connection_refs": [
+        "conn_2f7122d557801f8a0562"
+      ],
+      "context_refs": [
+        "108:2",
+        "39:65"
+      ],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:public-reversal",
+      "origin_candidate_id": "cand_e45790278c5463e2f12d",
+      "represented_candidate_ids": [],
+      "title": "Düşmanın hedeflediği eksiklik kendisine döner",
+      "claim": "Önceki adlandırma ve bolluk alanında, haterın muhatabı küçültme girişimi al-abtaru ile haterın kendi devam izinin kesilmesine döner.",
+      "mechanism": "Şani'aka B001 düşmanlık ilişkisini, al-abtaru B002 kamusal iz ve devam kesikliğini taşır; 108:0 ve 108:1'deki ad ve bolluk bağlamı bunları bağımsızca tetikler, huwa ile belirli yüklem sonucu haterın üzerine geri verir.",
+      "reader_payoff": "Son ayet, serbest duran bir hakaret değil, kamusal silme girişiminin kaynağına dönen bir hüküm olarak okunabilir.",
+      "containment": "Okur yürüyüşündeki س م و ve ك ث ر atıfları kayıtlı focus dalları değildir; burada yalnızca kaynak metnin adlandırma ve bolluk bağlamı kullanılır. Haterın tam olarak neyi hedeflediği icat edilmez ve birincil hüküm yerinde kalır.",
+      "epistemic": {
+        "status": "exploratory",
+        "source_trust": [
+          "legacy_unbound"
+        ],
+        "reason": "Okur kaydı odak taşıyıcıları ve tersine dönüş mekanizmasını verir, fakat kaynak legacy_unbound'dur; ad ve bolluk bağlamlarının kelime düzeyi join'i packet'te bulunmadığı için okuma keşifseldir."
+      },
+      "support_ids": [
+        "sup_a0adf0bf23dc3936e7ea"
+      ],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000820/B001",
+          "facet_id": "F001",
+          "branch_gloss": "nefret edip uzak durma",
+          "facet_statement": "Bir kişi veya şeye karşı güçlü bir sevgisizlik ve nefret duyulur.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "108:3:2:1"
+          ],
+          "trigger_refs": [
+            "108:0",
+            "108:1",
+            "68:52"
+          ],
+          "focus_return_refs": [
+            "108:3:2:1"
+          ],
+          "carrier": "Şani'aka yüzeyi, muhataba yönelmiş nefret ve düşmanlık taşıyan kişiyi taşır.",
+          "independent_trigger": "Kaynak okur kaydı 108:0-1'deki adlandırma ve bolluk çerçevesini, 68:52 bağlantısı da evrensel anılma karşılığını bağımsız kamusal alan olarak sunar.",
+          "activation": "Hater taşıyıcısı, ad ve bollukla kurulan kamusal alana değdiğinde düşmanlığın muhatabı küçültme yönelimi görünür olur.",
+          "resulting_reading": "Haterın düşmanlığı, başkasının adını ve etkisini azaltmaya çalışan bir yönelim olarak belirir; sonuç ise ona döner.",
+          "boundary": "Bu aktivasyon düşmanlığın kesin niyetini veya kayıt dışı س م و ve ك ث ر dallarını odakta etkinleştirmez."
+        },
+        {
+          "branch_ref": "root_000080/B002",
+          "facet_id": "F001",
+          "branch_gloss": "soyu veya iyi etkisi kesilmis olma",
+          "facet_statement": "Soyun veya ardil neslin bulunmamasi dalin temel kullanimidir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "108:3:4:2"
+          ],
+          "trigger_refs": [
+            "108:0",
+            "108:1",
+            "68:52"
+          ],
+          "focus_return_refs": [
+            "108:3:4:2"
+          ],
+          "carrier": "Al-abtaru yüzeyi, kamusal devam ve ardıl izden kesilmiş olma sonucunu taşır.",
+          "independent_trigger": "Adın yükseltilmesi, bolluk ve evrensel anılma olarak verilen dış çerçeve, devamın kamusal yüzünü tetikler.",
+          "activation": "BTR B002 taşıyıcısı, haterın düşmanlık yönelimiyle ve önceki kamusal devam alanıyla temas ederek sonucu haterın üzerine çevirir.",
+          "resulting_reading": "Muhatabı silmeye çalışan haterın kendi adı ve etkisi devamdan kesilir.",
+          "boundary": "Bu, tarihî bir kişinin kamusal izinin fiilen yok olduğunu veya adlandırma/bolluk köklerinin lexicon dalı olarak çözüldüğünü söylemez."
+        },
+        {
+          "branch_ref": "root_000080/B002",
+          "facet_id": "F002",
+          "branch_gloss": "soyu veya iyi etkisi kesilmis olma",
+          "facet_statement": "Kisinin anilma izi ya da hayirla bagli etkisi kesilmis sayilabilir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "108:3:4:2"
+          ],
+          "trigger_refs": [
+            "108:0",
+            "108:1",
+            "68:52"
+          ],
+          "focus_return_refs": [
+            "108:3:4:2"
+          ],
+          "carrier": "Al-abtaru yüzeyi, kişinin ardından kalacak ad ve iyi etkinin kesilmesi yönünü taşır.",
+          "independent_trigger": "Önceki kamusal ad-bolluk çerçevesi ve 68:52'deki evrensel anılma karşılığı, iyi etkinin devamına bağımsız temas sağlar.",
+          "activation": "İz kesilmesi facet'i hater taşıyıcısıyla aynı hüküm içinde buluştuğunda düşmanlığın sonucu kendi kaynağına döner.",
+          "resulting_reading": "Hater, muhatabın etkisini kısmaya çalışırken kendi iyi izinin ve kalıcı anılmasının kesildiği kişi olarak görünür.",
+          "boundary": "Hüküm burada bütün kamusal hafızaya dair ampirik sonuç veya tek bir tarihî olay iddiası değildir."
+        }
+      ],
+      "connection_refs": [
+        "conn_0a1329fef20303af3d59"
+      ],
+      "context_refs": [
+        "108:0",
+        "108:1",
+        "68:52"
+      ],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:syntax-reversal",
+      "origin_candidate_id": "cand_7347e41edbe75271064c",
+      "represented_candidate_ids": [],
+      "title": "هو hükmü sonucu hater'a döndürür",
+      "claim": "Huwa ile kurulan ayırıcı yapı ve belirli yüklem, kesiklik sonucunun muhataba değil haterın kendisine ait olduğunu sabitler; düşmanlıkla başlayan eksiltme haterın devam kaybı olarak geri döner.",
+      "mechanism": "Şani'aka B001 düşmanlık ilişkisini, al-abtaru B002 sonuç alanını taşır; odaktaki bağımsız huwa predikasyonu haterın kendisini yüklemin taşıyıcısı yapar ve 108:1'deki bolluk bağlamı ile 10:65'te onurun Allah'a ait oluşu bu dönüşü geniş bağlamda tetikler.",
+      "reader_payoff": "Okur, hükmün yalnızca 'hater kesiktir' dediğini değil, cümlenin sonucu düşmanlığın kaynağına nasıl iade ettiğini de görebilir.",
+      "containment": "Bu bulgu, haterın hangi özel mahrumiyeti hedeflediğini söylemez ve hedefin onurunu ayrıntılı bir teolojik doktrine dönüştürmez. Huwa'nın odak içi sözdizimsel işi ile dış bağlamın keşifsel katkısı ayrı tutulur.",
+      "epistemic": {
+        "status": "exploratory",
+        "source_trust": [
+          "legacy_unbound"
+        ],
+        "reason": "Geniş okur kaydı sözdizimsel dönüşü açıkça nominasyon olarak verir; 10:65 bağlantısı hedef morfolojisi olmadan yalnızca destekleyici bağlamdır ve kaynak legacy_unbound'dur."
+      },
+      "support_ids": [
+        "sup_489d98d289d815c9fd17"
+      ],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000820/B001",
+          "facet_id": "F001",
+          "branch_gloss": "nefret edip uzak durma",
+          "facet_statement": "Bir kişi veya şeye karşı güçlü bir sevgisizlik ve nefret duyulur.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "108:3:2:1"
+          ],
+          "trigger_refs": [
+            "108:1",
+            "10:65"
+          ],
+          "focus_return_refs": [
+            "108:3:2:1"
+          ],
+          "carrier": "Şani'aka yüzeyi, muhataba yönelmiş nefret ilişkisini taşıyan kişiyi adlandırır.",
+          "independent_trigger": "108:1'deki önceki bolluk bağlamı ve 10:65'te düşmanca söz karşısında onurun Allah'a ait oluşu, düşmanlığın statü iddiasından ayrı değerlendirilmesini sağlar.",
+          "activation": "Düşmanlık taşıyıcısı, dış bağlamdaki onur ve bolluk sınırıyla buluşurken odak içi huwa sonucu haterın üzerine iade eden yapıya bağlanır.",
+          "resulting_reading": "Haterın yönelimi, muhatabın değerini belirleyen söz değil, kendi aleyhine dönen düşmanlık olarak görünür.",
+          "boundary": "Bu aktivasyon, haterın gerçekten belirli bir söz söylediğini veya B003'ün hak bırakma kolokasyonunu taşıdığını ileri sürmez."
+        },
+        {
+          "branch_ref": "root_000080/B002",
+          "facet_id": "F001",
+          "branch_gloss": "soyu veya iyi etkisi kesilmis olma",
+          "facet_statement": "Soyun veya ardil neslin bulunmamasi dalin temel kullanimidir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "108:3:4:2"
+          ],
+          "trigger_refs": [
+            "108:1",
+            "10:65"
+          ],
+          "focus_return_refs": [
+            "108:3:4:2"
+          ],
+          "carrier": "Al-abtaru yüzeyi, haterın devamdan kesildiği sonucu taşır.",
+          "independent_trigger": "Önceki bolluk ve onurun Allah'a ait oluşu, devam ve değer alanının haterın düşmanca sözüne bırakılmadığı bağımsız çerçeveyi sağlar.",
+          "activation": "BTR B002 taşıyıcısı, odak içi huwa'nın sabitlediği hater öznesiyle buluştuğunda kesiklik sonucunu hedefte değil kaynakta toplar.",
+          "resulting_reading": "Kesik kalan, muhatabın değeri değil, düşmanlık taşıyan kişinin kendi devam çizgisidir.",
+          "boundary": "Bu, B002'nin yalnızca kamusal anılma anlamına indirgenmesi veya dış bağlantıdaki onur ifadesinin odak sözdizimiyle özdeşleştirilmesi değildir."
+        },
+        {
+          "branch_ref": "root_000080/B002",
+          "facet_id": "F002",
+          "branch_gloss": "soyu veya iyi etkisi kesilmis olma",
+          "facet_statement": "Kisinin anilma izi ya da hayirla bagli etkisi kesilmis sayilabilir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "108:3:4:2"
+          ],
+          "trigger_refs": [
+            "108:1",
+            "10:65"
+          ],
+          "focus_return_refs": [
+            "108:3:4:2"
+          ],
+          "carrier": "Al-abtaru yüzeyi, haterın iyi etkisinin ve ardından kalacak izinin kesilmesi yönünü taşır.",
+          "independent_trigger": "Onuru haterın sözünden ayıran 10:65 bağlantısı, al-abtaru'nun sonucu düşmanlık kaynağına döndürme temasını bağımsızca açar.",
+          "activation": "İyi etki kesilmesi, odak içindeki ayırıcı zamirin verdiği fail-sonuç sabitlemesiyle temas ederek düşmanlığın kendi taşıyıcısını tükettiği bir okuma kurar.",
+          "resulting_reading": "Haterın sözü muhatabın onurunu kesmez; haterın iyi izi ve devamı kesik görünür.",
+          "boundary": "Bu, onur hakkında kapsamlı bir doktrin veya tarihî kamusal sonuç iddiası değildir."
+        }
+      ],
+      "connection_refs": [
+        "conn_2575c5c0697e6a006d72"
+      ],
+      "context_refs": [
+        "108:1",
+        "10:65"
+      ],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:unfinished-against-nurture",
+      "origin_candidate_id": "cand_010bde9d4a847b8ebf56",
+      "represented_candidate_ids": [],
+      "title": "Yetiştiren çizgiye karşı yarıda kesilen çizgi",
+      "claim": "Al-abtaru, haterın çizgisini önceki Rabb yönelimiyle yan yana duran, tamamlanmaya varmadan kesilmiş bir süreç olarak da kurar.",
+      "mechanism": "BTR B001'in odak taşıyıcısı tamamlanmadan kesilmeyi taşır; kaynak okur kaydı 108:2'deki Rabb yönelimini yetiştirme ve tamamlama karşı alanı olarak, 22:5 ise büyüme ve meyve vermeyi bağımsız tetik olarak verir.",
+      "reader_payoff": "Kesiklik durağan bir eksiklikten çok, ilerleyen bir yetişme çizgisinin yarıda kopması olarak algılanır.",
+      "containment": "Rabb'e ilişkin dal packet'te kayıtlı olmadığı için burada yeni bir Rabb lexicon dalı etkinleştirilmez; yalnızca kaynak okurun verdiği önceki yönelim bağlamı kullanılır. Bu okuma diğer devam ve kesme okumalarını dışlamaz.",
+      "epistemic": {
+        "status": "exploratory",
+        "source_trust": [
+          "legacy_unbound"
+        ],
+        "reason": "Okur yürüyüşü B001 ve süreç karşıtlığını verir, fakat Rabb atfı çözülmemiştir; 22:5 dış tetikleyici olsa da hedef morfolojisi bulunmadığı için bulgu keşifseldir."
+      },
+      "support_ids": [
+        "sup_c1beb039e97bdec71987"
+      ],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000080/B001",
+          "facet_id": "F001",
+          "branch_gloss": "tamamlanmadan kesip koparma",
+          "facet_statement": "Bir seyin tam olmadan kesilmesi veya kesme isleminin kokten ayirma sonucuna varmasi esastir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "108:3:4:2"
+          ],
+          "trigger_refs": [
+            "108:2",
+            "22:5"
+          ],
+          "focus_return_refs": [
+            "108:3:4:2"
+          ],
+          "carrier": "Al-abtaru yüzeyi, bir şeyin tam olmadan kesilmesini taşıyan süreç imgesidir.",
+          "independent_trigger": "Kaynak okur kaydı 108:2'deki Rabb yönelimini yetiştirme ve tamamlama karşı alanı diye, 22:5'i ise gestasyon ve meyve verme süreci diye sunar.",
+          "activation": "Erken kesilme taşıyıcısı, yetiştirme ve büyüme karşı alanlarıyla temas ederek iki farklı süreç yönünü aynı odakta görünür kılar.",
+          "resulting_reading": "Haterın yolu, Rabb yönelimindeki taşıyıcı gelişmenin karşısında tamamlanmadan kopan bir çizgi olarak belirir.",
+          "boundary": "Rabb'in kayıt dışı B002 dalı veya belirli bir kişinin gelişim hikâyesi bu aktivasyonla icat edilmez."
+        }
+      ],
+      "connection_refs": [
+        "conn_a35276df136b2210e6f1"
+      ],
+      "context_refs": [
+        "108:2",
+        "22:5"
+      ],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:purposeful-cut-counterpoint",
+      "origin_candidate_id": "cand_1d163065777b32d619d4",
+      "represented_candidate_ids": [],
+      "title": "Amaçlı kesim ile verimsiz kesim karşıtlığı",
+      "claim": "Al-abtaru'nun tamamlanmadan kesilme imgesi, önceki emredilmiş nahrın amaçlı kesimi yanında devam ve sunu üretmeyen bir kesim olarak da görünür.",
+      "mechanism": "BTR B001 odak taşıyıcısı erken kopuşu taşır; 108:2'deki emredilmiş nahr ve 39:65'teki boşa çıkan iş, kesmenin amaç ve sonuç bakımından iki ayrı yönünü bağımsızca tetikler.",
+      "reader_payoff": "Son kelime, kesmenin kendisinden çok, kesilmiş şeyin bir amaca ulaşıp ulaşmadığı ve geride sonuç bırakıp bırakmadığı sorusunu açar.",
+      "containment": "Nahr, ṣalāh veya başka çözülmemiş kök dalları odak kelimesinin lexicon dalları olarak sunulmaz; yalnızca reader-walk kaydındaki önceki bağlam ve dış karşılık kullanılır. Birincil hüküm ve diğer canlı kesiklik okumaları korunur.",
+      "epistemic": {
+        "status": "exploratory",
+        "source_trust": [
+          "legacy_unbound"
+        ],
+        "reason": "Okur yürüyüşü B001 ile nahr karşıtlığını kuruyor; nahr atıfları çözülmemiş, dış bağlantının morfolojisi yok ve okur kaydı legacy_unbound olduğu için ilişki keşifseldir."
+      },
+      "support_ids": [
+        "sup_909c95c777a69d12f399"
+      ],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000080/B001",
+          "facet_id": "F001",
+          "branch_gloss": "tamamlanmadan kesip koparma",
+          "facet_statement": "Bir seyin tam olmadan kesilmesi veya kesme isleminin kokten ayirma sonucuna varmasi esastir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "108:3:4:2"
+          ],
+          "trigger_refs": [
+            "108:2",
+            "39:65"
+          ],
+          "focus_return_refs": [
+            "108:3:4:2"
+          ],
+          "carrier": "Al-abtaru yüzeyi, tamamlanmadan koparılan ve kesilme ile sonuçlanan şeyi taşır.",
+          "independent_trigger": "108:2'deki emredilmiş nahr amaçlı eylem alanını, 39:65 ise boşa çıkan amelin sonuçsuzluk alanını sağlar.",
+          "activation": "Erken kesilme taşıyıcısı bu iki bağımsız alanla temas ettiğinde odaktaki son, amaçlı sunuya karşı verimsiz kesim olarak görünür.",
+          "resulting_reading": "Haterın kesikliği, sunuya ve devamlı sonuca ulaşmayan bir anti-sunu kesimi olarak belirir.",
+          "boundary": "Bu, nahrın literal anlamını al-abtaru'ya taşımak veya haterın ibadet karşıtı özel bir eylemini iddia etmek değildir."
+        }
+      ],
+      "connection_refs": [
+        "conn_2f7122d557801f8a0562"
+      ],
+      "context_refs": [
+        "108:2",
+        "39:65"
+      ],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:renown-frame",
+      "origin_candidate_id": "cand_4167b7ef4e62362456b6",
+      "represented_candidate_ids": [],
+      "title": "Adlandırma ve bollukla açılan çerçeve kapanır",
+      "claim": "BTR B002'nin anılma uzantısı, açılıştaki adlandırma ve önceki bollukla kurulan kalıcı çerçevenin sonunda haterın izinin kesilmesini görünür kılar.",
+      "mechanism": "Al-abtaru'nun B002 taşıyıcısı 108:0'daki adlandırma ve 108:1'deki bolluk bağlamıyla, ayrıca 94:4'teki yükseltilmiş anılma karşılığıyla temas eder; son yüklem, düşmanlığın devam eden etkisini bu kamusal çerçeve içinde keser.",
+      "reader_payoff": "Ayet, yalnızca bir kişiye verilen sonuç hükmü değil, başta açılan ad ve bolluk alanının sonunda hangi izin kalacağını belirleyen bir kapanış olarak okunur.",
+      "containment": "س م و, ك ث ر ve çözülmemiş BTR B008 atıfları ayrı lexicon aktivasyonları yapılmadan kaynak okurun bağlam açıklaması olarak tutulur. Kamusal anılmanın tamamı hakkında ampirik veya tek tarihî kişi iddiası kurulmaz.",
+      "epistemic": {
+        "status": "exploratory",
+        "source_trust": [
+          "legacy_unbound"
+        ],
+        "reason": "Okur kaydı B002'yi adlandırma ve bollukla ilişkilendiriyor; focus join'i B002 için mevcut olsa da yan kök dalları ve bağlantı hedef morfolojisi eksik olduğu için bulgu keşifseldir."
+      },
+      "support_ids": [
+        "sup_f4397a76a7f84ead7863"
+      ],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000080/B002",
+          "facet_id": "F001",
+          "branch_gloss": "soyu veya iyi etkisi kesilmis olma",
+          "facet_statement": "Soyun veya ardil neslin bulunmamasi dalin temel kullanimidir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "108:3:4:2"
+          ],
+          "trigger_refs": [
+            "108:0",
+            "108:1",
+            "94:4"
+          ],
+          "focus_return_refs": [
+            "108:3:4:2"
+          ],
+          "carrier": "Al-abtaru yüzeyi, bir kişinin ardından gelen devamın kesilmesi alanını taşır.",
+          "independent_trigger": "Kaynak okurun 108:0-1 için verdiği adlandırma-bolluk çerçevesi ve 94:4'teki yükseltilmiş anılma, kalıcı kamusal devam için bağımsız tetiklerdir.",
+          "activation": "Soy ve ardıl devam taşıyıcısı, adlandırma ve bollukla açılan çerçeveye değdiğinde son ayetin kapanış işlevi görünür olur.",
+          "resulting_reading": "Hater, başta kurulan ad ve bolluk alanının içinde devamı kesilen kişi olarak belirir.",
+          "boundary": "Bu aktivasyon, açılış köklerinin packet'te kayıtlı olmayan bütün dallarını veya yalnızca biyolojik soyu zorunlu kılmaz."
+        },
+        {
+          "branch_ref": "root_000080/B002",
+          "facet_id": "F002",
+          "branch_gloss": "soyu veya iyi etkisi kesilmis olma",
+          "facet_statement": "Kisinin anilma izi ya da hayirla bagli etkisi kesilmis sayilabilir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "108:3:4:2"
+          ],
+          "trigger_refs": [
+            "108:0",
+            "108:1",
+            "94:4"
+          ],
+          "focus_return_refs": [
+            "108:3:4:2"
+          ],
+          "carrier": "Al-abtaru yüzeyi, adın ve iyi etkinin ardından kalacak izinin kesilmesini taşır.",
+          "independent_trigger": "Adlandırma, bolluk ve yükseltilmiş anılma, iyi etkinin kalıcı bir çerçeve içinde sürmesi beklentisini sağlar.",
+          "activation": "İyi etki kesilmesi, açılışın adlandırma ve bolluk çerçevesiyle temas ettiğinde son kelimenin kamusal iz üzerinde kapanmasına dönüşür.",
+          "resulting_reading": "Kalıcı çerçeve haterın iyi izini sürdürmez; kesiklik, düşmanlığın devam eden etkisini kapatır.",
+          "boundary": "Bu, belirli bir anılma tarihçesi veya çözülmemiş س م و/ك ث ر dallarının odak kelimesinde etkin olduğu iddiası değildir."
+        }
+      ],
+      "connection_refs": [
+        "conn_ed1f5e34f5224282bf5a"
+      ],
+      "context_refs": [
+        "108:0",
+        "108:1",
+        "94:4"
+      ],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:posterity-womb-frame",
+      "origin_candidate_id": "cand_2c111bf36f7f056d26e2",
+      "represented_candidate_ids": [],
+      "title": "Soyun kesilmesi bedensel ve toplumsal devamı kapatır",
+      "claim": "BTR B002'nin ardıl soy facet'i, açılıştaki rahim ve akrabalık alanının karşısında hem bedensel üretimin hem de toplumsal ardıllığın kesilmesini görünür kılar.",
+      "mechanism": "Al-abtaru'nun soy kesikliği taşıyıcısı 108:0'daki rahim/akrabalık çerçevesi ve 4:1'deki insanî çoğalma alanıyla temas eder; bu temas soy kaybını yalnız sayı değil, bedensel ve toplumsal devamın kapanması olarak değiştirir.",
+      "reader_payoff": "Soyu kesik ifadesi, açılışta kurulmuş üretkenlik ve bağ alanının son kelimede nasıl kapandığını gösterir.",
+      "containment": "Kaynak okur kaydı odakta açık bir çocuk veya aile ismi bulunmadığını belirtiyor; bu nedenle rahim ilişkisi çıkarımsal bağlamdır. 3:144 bağlantısı, biyolojik devamı muhatabın kişisel ölümsüzlüğü saymayı sınırlar.",
+      "epistemic": {
+        "status": "exploratory",
+        "source_trust": [
+          "legacy_unbound"
+        ],
+        "reason": "Okur kaydı B002 ile açılıştaki rahim/akrabalık alanını ilişkilendiriyor; odak yüzeyinde çocuk veya aile taşıyıcısı yok ve bağlantı morfolojisi eksik olduğundan okuma keşifseldir."
+      },
+      "support_ids": [
+        "sup_2371cb5d2fcea4aeb285"
+      ],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000080/B002",
+          "facet_id": "F001",
+          "branch_gloss": "soyu veya iyi etkisi kesilmis olma",
+          "facet_statement": "Soyun veya ardil neslin bulunmamasi dalin temel kullanimidir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "108:3:4:2"
+          ],
+          "trigger_refs": [
+            "108:0",
+            "4:1"
+          ],
+          "focus_return_refs": [
+            "108:3:4:2"
+          ],
+          "carrier": "Al-abtaru yüzeyi, ardıl soyun bulunmamasını taşıyan kişisel yüklemdir.",
+          "independent_trigger": "Kaynak okurun 108:0'daki rahim ve akrabalık bağlamı ile 4:1'deki eşler, erkekler ve kadınlarla çoğalma çerçevesi, bedensel devamı bağımsızca tetikler.",
+          "activation": "Soy yokluğu taşıyıcısı, rahim ve çoğalma alanıyla temas ettiğinde ardıllık hem bedensel üretim hem de toplumdaki devam olarak görünür.",
+          "resulting_reading": "Hater, üretken bir doğum ve akrabalık zincirinin dışında kalan kişi olarak belirir.",
+          "boundary": "Packet'te odak için açık çocuk/aile ismi bulunmadığı için bu ilişki çıkarımsaldır; biyolojik ve toplumsal devam tek bir zorunlu anlam yapılmaz."
+        }
+      ],
+      "connection_refs": [
+        "conn_886d1893292f047bafd8",
+        "conn_45d4d1de5c5b1a97b12c"
+      ],
+      "context_refs": [
+        "108:0",
+        "4:1",
+        "3:144"
+      ],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:hostility-conduct-boundary",
+      "origin_candidate_id": null,
+      "represented_candidate_ids": [],
+      "title": "Kin düşmanlık için davranış sınırı kurar",
+      "claim": "Şani'aka'nın nefret ilişkisi, daha geniş kullanım alanında düşmanlığın adaletsizliği veya taşkınlığı meşrulaştırmadığı bir davranış sınırı içinde görünür.",
+      "mechanism": "Odaktaki SHN B001 nefret taşıyıcısı, 5:8'de adaletle ve 5:2'de kutsal sınırlar içinde düşmanlığın taşkınlığa dönüşmemesiyle birlikte verilen bağımsız kullanımlarla temas eder; böylece hater adı, kendi düşmanlığını ahlaki ölçü sayan bir makam vermez.",
+      "reader_payoff": "Hater sözcüğü yalnız duyguyu değil, düşmanlığın kendi başına haklılık üretmediği bir sınırı da çağrıştırır.",
+      "containment": "Bu bağlantı odak haterının belirli bir adaletsizlik yaptığını söylemez; yalnızca daha geniş kullanımların nefretin davranış üzerindeki sınırını gösterir. Bu, hükmü ahlaki bir tarihî teşhise dönüştürmez.",
+      "epistemic": {
+        "status": "exploratory",
+        "source_trust": [],
+        "reason": "5:8 ve 5:2 bağlantı notları nefret ile adalet/taşkınlık sınırını doğrudan nomine ediyor; hedef morfolojisi verilmediği ve satırlar karar değil keşif nominasyonu olduğu için kaynak trust etiketi yoktur."
+      },
+      "support_ids": [],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000820/B001",
+          "facet_id": "F001",
+          "branch_gloss": "nefret edip uzak durma",
+          "facet_statement": "Bir kişi veya şeye karşı güçlü bir sevgisizlik ve nefret duyulur.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "108:3:2:1"
+          ],
+          "trigger_refs": [
+            "5:8",
+            "5:2"
+          ],
+          "focus_return_refs": [
+            "108:3:2:1"
+          ],
+          "carrier": "Şani'aka yüzeyi, bir kişiye yönelmiş güçlü nefret ve uzak durma ilişkisini taşır.",
+          "independent_trigger": "5:8 nefret kullanımını adaletle, 5:2 ise kutsal sınırlar içinde taşkınlığa dönüşmeme uyarısıyla birlikte verir.",
+          "activation": "Nefret taşıyıcısı, bu iki bağımsız davranış sınırıyla temas ettiğinde düşmanlık, kendi başına adalet ölçüsü olmayan bir ilişki olarak görünür.",
+          "resulting_reading": "Haterın düşmanlığı, muhataba karşı bir hüküm verme yetkisi değil, davranışla sınırlandırılması gereken bir yönelimdir.",
+          "boundary": "Bu aktivasyon, odak haterının 5:2 veya 5:8'deki belirli olaya katıldığını ya da suç işlediğini iddia etmez."
+        }
+      ],
+      "connection_refs": [
+        "conn_3acc0aef588fa25721d2",
+        "conn_526982cd498dcef74364"
+      ],
+      "context_refs": [
+        "5:8",
+        "5:2"
+      ],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:honor-not-haters",
+      "origin_candidate_id": null,
+      "represented_candidate_ids": [],
+      "title": "Onurun kaynağı haterın sözü değildir",
+      "claim": "Düşmanca sözün onuru belirlemediği daha geniş çerçeve, odaktaki kesiklik hükmünü haterın muhatabın değerini azaltma yetkisinden mahrum kalması olarak da açar.",
+      "mechanism": "Şani'aka B001 düşmanlık taşıyıcısı ve al-abtaru B002 devam kesikliği, 10:65'te onurun bütünüyle Allah'a ait oluşuyla verilen bağımsız karşılıkla temas eder; odaktaki huwa sonucu haterın üzerine sabitlerken bu bağlantı değer kaynağını haterın sözünden ayırır.",
+      "reader_payoff": "Ayet, düşmanla onur yarışına girmekten çok, düşmanlığın değer tayin etme gücünü kaybettiği bir sonuç hükmü olarak okunabilir.",
+      "containment": "Bu bulgu SHN B003'ün hak kabul edip elden çıkarma kolokasyonunu etkinleştirmez; yalnız B001 düşmanlık ve B002 kesiklik taşıyıcılarıyla 10:65'in onur sınırını kullanır. Muhatabın değeri hakkında odak dışı ayrıntılı doktrin kurulmaz.",
+      "epistemic": {
+        "status": "exploratory",
+        "source_trust": [],
+        "reason": "10:65 bağlantı notu düşmanca söz ile Allah'a ait onur arasındaki karşılığı doğrudan nomine eder; hedef morfolojisi ve trust etiketi yoktur, bu yüzden okuma keşifseldir."
+      },
+      "support_ids": [],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000820/B001",
+          "facet_id": "F001",
+          "branch_gloss": "nefret edip uzak durma",
+          "facet_statement": "Bir kişi veya şeye karşı güçlü bir sevgisizlik ve nefret duyulur.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "108:3:2:1"
+          ],
+          "trigger_refs": [
+            "10:65"
+          ],
+          "focus_return_refs": [
+            "108:3:2:1"
+          ],
+          "carrier": "Şani'aka yüzeyi, muhatabın değerine yönelen düşmanlık taşıyıcısını taşır.",
+          "independent_trigger": "10:65 düşmanca sözün karşısında onurun bütünüyle Allah'a ait olduğunu bağımsız çerçeve olarak verir.",
+          "activation": "Düşmanlık taşıyıcısı, onurun haterın sözünden ayrıldığı bağlamla temas ettiğinde haterın yönelimi değer belirleyen bir makam olmaktan çıkar.",
+          "resulting_reading": "Hater muhatabı küçültmeye çalışsa bile onun sözü onuru kurmaz; haterın kendi düşmanlığı hükmün konusu olarak kalır.",
+          "boundary": "Bu, haterın belirli bir söz söylediğini veya bağlantı ayetinin bütün morfolojik içeriğinin odakta etkin olduğunu iddia etmez."
+        },
+        {
+          "branch_ref": "root_000080/B002",
+          "facet_id": "F001",
+          "branch_gloss": "soyu veya iyi etkisi kesilmis olma",
+          "facet_statement": "Soyun veya ardil neslin bulunmamasi dalin temel kullanimidir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "108:3:4:2"
+          ],
+          "trigger_refs": [
+            "10:65"
+          ],
+          "focus_return_refs": [
+            "108:3:4:2"
+          ],
+          "carrier": "Al-abtaru yüzeyi, devamı kesilen kişiyi ve haterın kendi sonuç alanını taşır.",
+          "independent_trigger": "10:65'te onurun Allah'a ait oluşu, değer alanını haterın düşmanlığından bağımsızlaştıran ayrı tetiktir.",
+          "activation": "BTR B002'nin kesiklik sonucu, huwa ile haterın üzerine sabitlenirken onur kaynağının haterdan uzakta oluşuyla birleşir.",
+          "resulting_reading": "Kesiklik, muhatabın değerinin azalması değil, haterın kendi devam ve etki alanının yitimi olarak görünür.",
+          "boundary": "Bu, B002'yi yalnız onur alanına indirmez ve Allah'a ait onur ifadesini odak ayetin tam söz dizimiyle özdeşleştirmez."
+        }
+      ],
+      "connection_refs": [
+        "conn_2575c5c0697e6a006d72"
+      ],
+      "context_refs": [
+        "10:65"
+      ],
+      "semantic_obligation_refs": []
+    }
+  ],
+  "friction_notes": [
+    "Packet'te 27 adayın tamamı ve 27 destek kaydı görünür; aday nesnelerinde ayrı semantic_obligations alanı sağlanmadığı için semantic_obligation_refs tüm kararlarda boş bırakıldı.",
+    "Global bağlam listesinde 108:0, 108:1 ve 108:2 referansları bulunuyor, ancak selected_context_units boş; bu nedenle önceki sure içi bağlam kullanan bulgular kelime düzeyi yeni carrier gibi değil, kaynak okur kaydının nitelikli bağlam tetikleri olarak işlendi.",
+    "144 bağlantının hedef ayet metni sağlanıyor, fakat hedef morfolojisi ve sözlük çözümlemesi sağlanmıyor. Kullanılan bağlantılar yalnızca notlarının doğrudan belirttiği bağımsız tetik veya karşı-sınır işleviyle kullanıldı; geniş ve no-value bağlantılar yeni bulgu üretmedi.",
+    "On HFT assigned record'ın tamamı açıkça incelendi. Hepsinde anchor_evidence boş olduğu için kesin koordinat, kök, rol ve odağa dönüş izi kurulamadı; kayıtlar görünür tutuldu fakat attributed bulguya dönüştürülmedi.",
+    "BTR B003, BTR B005, BTR B006 ve SHN B004 için packet'te bağımsız tetikleyiciyle kurulmuş bir aktivasyon yok. SHN B003 ise form-uyumsuz bağlı kullanım nedeniyle cand_f1e5964ed97ea3b103de ve cand_eaa1a83fcc90e36dced0 adaylarında açıkça dışlandı; kullanılmayan dallar örtük negatif envanter olarak genişletilmedi.",
+    "Retrospektif kayıtlar 108:3'ten sonra sonraki ayet sürprizi bulunmadığını bildiriyor; bu yüzden global bulgular önceki veya daha geniş tetiklerle sınırlı tutuldu."
+  ]
+}

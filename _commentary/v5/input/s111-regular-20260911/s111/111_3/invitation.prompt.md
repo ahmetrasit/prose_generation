@@ -1,0 +1,183 @@
+# V5 reading invitation — 111:3
+
+You are a fresh reading-invitation writer. Read the complete editorial prose
+before writing. It is your sole semantic source.
+
+Write two to four paragraphs of fluent, contemporary Turkish that reveal a
+surprising reading by following one or two main channels of resonance in the
+ayah. A channel is a connected background of meanings, images, actions, or
+relations through which the ayah can be heard and understood differently.
+Several editorial findings may together develop one channel. Summarize that
+connected movement and its consequence for the ayah's main meaning, rather
+than compressing findings individually. Give the reading's substance now;
+the invitation comes from understanding it, not from a promise of hidden depth.
+
+Before drafting, read the entire editorial prose and silently select the one
+or two channels with the strongest interpretive consequence and enough
+grounding to explain clearly. Favor channels that expand or shift what the
+ayah says, the relation it establishes, or what is at stake in its action or
+image. One fully developed channel is sufficient; add a second only when it
+offers a distinct consequential reading that can be explained within the
+invitation. No finding, channel, or major shift has an individual coverage
+claim. Unselected material may remain entirely in the full commentary.
+
+A channel may develop through grammar, sound, dialogue, a material process,
+time, imagery, or a conceptual relation. Resonance is not limited to acoustic
+effects, and an unusual image alone does not establish a channel. Use only
+connections the editorial prose actually develops. If it supplies no such
+channel, explain its strongest grounded reading without inventing connections
+or surprise.
+
+Begin inside the ayah's own words, images, actions, or relations and reveal a
+selected distinctive reading in the first paragraph. Keep the plain meaning
+reachable with only the orientation needed to understand the change. Do not
+spend an opening paragraph on routine explanation or front-load context about
+the surah, the ayah's position, or the commentary project.
+
+For each selected channel, begin with the expression that opens it, unfold the
+connected background, and show how the ayah reads or sounds against that
+background. Let a detail lead into the next through an intelligible relation
+or process, so the reader experiences the emerging reading. This is a movement
+of thought, not a mandatory sentence pattern or one paragraph per finding.
+Let the reader identify the expression being interpreted,
+where any nonordinary detail comes from, and what that detail changes in the
+reading. Briefly identify the word-family use, restricted form, collocation, or
+context that supplies an essential added detail, and preserve the concrete
+operation that makes the image work. Keep the ordinary reading and necessary
+qualification clear within this explanation; do not repeat them as a fixed
+formula. Preserve the particular object, process, or relation that makes this
+reading distinctive, and state its interpretive consequence for the ayah as a
+whole. Make intelligible what the familiar reading leaves less visible and
+what the expanded or shifted reading now lets the reader understand. Preserve
+the editorial's force: an exploratory possibility remains possible, while a
+developed shift must not be softened into a decorative association or a
+reassurance that everything means the same thing. A concrete
+account of how something is carried, transformed, lost, or restored must not
+shrink to a general statement about care, guidance, dependence, or goodness.
+Keep the details needed to make the selected channel work; omit side findings
+and shorten routine setup. If a channel cannot be explained faithfully from
+the editorial prose, choose another grounded channel or reading.
+
+When a non-focus ayah supplies a contribution used in the invitation, keep its
+reference from the editorial prose beside that contribution.
+
+Do not turn the invitation into a miniature inventory of the commentary's
+conclusions, or flatten distinct channels into a broad theme to include more
+material. Do not repair, extend, or supplement the editorial prose from memory
+or outside knowledge.
+
+Omit technical apparatus. Retain any qualification, source distinction, live
+alternative, or boundary whose absence would change the force or meaning of a
+chosen reading. Express it naturally beside the image or relation it qualifies.
+Favor positive explanations of the relation between layers: what remains in
+the foreground and what the resonance makes audible in the background. State
+how that background reinforces, expands, or shifts the understanding of the
+main meaning, with the source and degree of certainty clear. Reserve explicit
+exclusions for concrete ambiguities or live counter-evidence that need them.
+Repeated "this is not X" endings make a reading sound withdrawn; express the
+substantive qualification through what the reading does contribute wherever
+possible. Use varied, natural language rather than a repeated "second layer"
+formula, and preserve the force of expansions and shifts.
+Do not name branches, candidates, findings, scopes, evidence categories,
+ledgers, or workflow stages, or label the prose as numbered channels. Do not
+list findings serially.
+
+Use the established `{ar:..., tr:..., gloss:...}` syntax, consistent
+Turkish-readable transliteration, and short ordinary glosses. Keep Arabic
+anchors beside the explanations they ground. Within a paragraph, continue with
+the Turkish meaning where clear; provide the necessary local tag when a later
+paragraph interprets the carrier anew. Do not place Arabic script outside a
+valid tag.
+
+Build transitions within a channel through its shared object, action, or
+relation. If two channels are selected, they may occupy separate paragraphs;
+do not invent a link between them. Do not praise the commentary's quality,
+promise what the reader will find, manufacture suspense, recap at the end, or
+add a call to action. End on an image, relation, action, or tension already
+established by the selected reading.
+
+Before finishing, compare the invitation with the entire editorial prose:
+does the chosen channel reveal a consequential reading, or could the text have
+been written from the ordinary translation and a modest explanation alone?
+When the editorial supports a surprising channel, the latter fails this task.
+Can the reader follow the opening expression into a connected background and
+understand how that background expands or shifts the ayah's main meaning?
+Check the selected connections against their editorial explanation: can the
+reader tell where the nonordinary details come from, with the necessary
+qualifications intact? Repair generic explanation, isolated curiosities, or a
+compressed findings list by developing the selected channel. Do not add
+omitted channels merely for coverage. Do not output this check.
+
+Write only the invitation text to:
+
+`_commentary/v5/editorial/s111-regular-20260911/s111/111_3/111_3.invitation.tr.md`
+
+Do not add a heading, wrapper label, index, ledger, evidence file, or any other
+artifact. Do not modify the editorial prose.
+
+After writing the invitation, run:
+
+```bash
+python3 _commentary/v5/validate_prose.py _commentary/v5/editorial/s111-regular-20260911/s111/111_3/111_3.invitation.tr.md
+```
+
+If validation fails, repair only the reported mechanical file-contract issues
+and rerun it, for at most two repair cycles. Report the final validator result
+in your response.
+
+<editorial_prose>
+## Ateşe Açılan Hüküm
+
+Bu âyet, 111:1'de adı ve durumu tanıtılan erkeğin alevi olan bir ateşe gireceğini ve onun yakıcı etkisini yaşayacağını bildirir. `{ar:سَيَصْلَىٰ, tr:sayaṣlā, gloss:ateşe girecek ve yanacak}` fiili, kendisine eklenen gelecek zaman işaretiyle cümleyi ateş adından önce başlatır; hüküm uzak bir ihtimal gibi değil, gerçekleşmesi beklenen bir yanma olarak açılır. Üçüncü tekil eril çekimde ayrıca adlandırılmış bir özne bulunmaması, 111:1'de tanıtılan erkeği yeni bir ad vermeden bu ateş karşılaşmasının kişisi olarak taşır. `{ar:مَآ أَغْنَىٰ عَنْهُ مَالُهُۥ وَمَا كَسَبَ, tr:mā aghnā ʿanhu māluhu wa mā kasaba, gloss:malı ve kazancı ona yetmedi}` denerek koruyucu olacağı düşünülen kaynakların başarısızlığı bildirildikten sonra gelen bağlaçsız cümle, 111:2'deki mahrumiyet bildiriminin ardından doğrudan ateşe döner. 111:4'te görünen `{ar:حَمَّالَةَ ٱلْحَطَبِ, tr:ḥammālata al-ḥaṭabi, gloss:odun taşıyan}` da bu ateşi aynı maddi sahnenin devamına açar. Fiilin ıslıklı başlangıcı ve vurgulu ṣ sesi, ateş adından önce sürtünme ve ağırlık duyurur; ses, hükmün sert dönüşüne eşlik eder.
+
+Bu eylemin aldığı nesne `{ar:نَارًا, tr:nāran, gloss:ateş}` mansup ve belirsizdir. Doğrudan nesne oluşu, ateşi yanma eyleminin hemen temas ettiği şey olarak öne çıkarır; tanwīn ise ateşin hangi nitelikle belirleneceğini ardından gelecek tamlamaya kadar açık tutar. `{ar:نَارًا, tr:nāran, gloss:ateş}` ile kurulan bu doğrudan temas, `{ar:سَيَصْلَىٰ, tr:sayaṣlā, gloss:ateşe girecek ve yakıcı şiddetine uğrayacak}` fiilindeki ateşe maruz kalma yönünü cümlenin önüne getirir; fiilin dua, güzel anma, esirgeme ve iyilik dileme yönleri bu temasın karşıt arka planını oluşturur. Yanma fiili ile ateş adının kısa çifti, büyük ve cezalandırıcı ateş tasvirlerini hatırlatan bir kuruluş oluşturur (88:4, 87:12); ateş böylece uzakta duran bir dekor değil, hükmün doğrudan temas ettiği ceza sahnesidir. Ateşin ışık ve parlaklıkla ilişkili yüzü de bu sahnede tüketici ateşi görünür kılan bir yüzey olarak açılır.
+
+Ardından gelen `{ar:ذَاتَ, tr:dhāta, gloss:sahip olan}` kelimesi, ateşin nasıl bir ateş olduğunu kuran menteşedir. Dişil mansup biçimi `{ar:نَارًا, tr:nāran, gloss:ateş}` ile uyum kurar; geriye doğru ateşi nitelerken ileriye doğru `{ar:لَهَبٍۢ, tr:lahabin, gloss:alev}` tamlamasının başını açar. `{ar:لَهَبٍۢ, tr:lahabin, gloss:alev}` tamlayan biçimiyle ateşin sahip olduğu içeriği verir; ateşi tekrar etmez, onun yükselen ve görülen yanış karakterini belirler. Bu yüzden alev, ateşe sonradan iliştirilmiş bir süs değil, burada hangi ateşle karşılaşıldığını belirleyen niteliktir. Belirsiz tekil kütle adı alevi sayılmış alev dilleri halinde değil, ateşin niteliksel yanış hali olarak sunar. `{ar:ذَاتَ, tr:dhāta, gloss:sahip olan}` kelimesinin geriye ve ileriye bakan bu iki yönü, uzun a sesindeki ayrı vuruşla işitilir; açık a seslerinin kadansı da nesne ile onu belirleyen nitelemeyi aynı ateş hareketi içinde tutar. Cümlenin sonundaki tanwīn, önceki belirsiz ateş nesnesine karşılık verir; akıcı ve nefesli ses dokusu yükselip patlayan bir alev kapanışı oluşturur. Aynı sahiplik kuruluşunun yakacak üzerinden göründüğü yapı (85:5), burada sahip olunan şeyin alev olmasıyla ateşin niteliğini başka bir yönde belirginleştirir. 111:1'de kişi adlandırmasına eşlik eden nadir `{ar:لَهَبٍۢ, tr:lahabin, gloss:alev}` kelimesi burada ateşin gerçek ve görünür niteliğine döner; 77:31'deki alev sahnesiyle kurulan yankı bu basıncı artırır, fakat 111:3'ün kendi gramerini yönetmez.
+
+Bu açık dilbilgisi zemini üzerinde, kelimelerin birbirine değen anlamları ihtiyatlı bir ek okuma olarak kişiyi hareketli ve görünür alevin sıcaklığına doğrudan maruz kalan biri şeklinde gösterir. `{ar:سَيَصْلَىٰ, tr:sayaṣlā, gloss:ateşe girip yanında kalmak}` fiilinin ateşe giriş, ateşin içinde kalma ve onun şiddetini çekme yönleri, `{ar:نَارًا, tr:nāran, gloss:ışık veren ve hareketli yanan ateş}` kelimesinin dinamik ateş çekirdeğiyle buluşur. `{ar:لَهَبٍۢ, tr:lahabin, gloss:ateşten yükselen alev}` bu ortamı görünür, yükselen ve yakıcı bir yanış olarak tamamlar. Fiilin kabul edilen etkilenmişlik ve yoğunluk yönü de kişiyi eylemi yöneten taraftan çok ateş eyleminin üzerinde gerçekleştiği taraf olarak öne çıkar; düz “ateşte yanacaktır” hükmü böylece bedene yönelen doğrudan bir temas kazanır. Bu görüntünün sınırı, ateşin kişiye yönelen doğrudan sıcaklığıdır; başka maddi işlem ya da soyut sıkıntı yönü bu bağlantının kapsamına girmez.
+
+Aynı ateş cümlesinde kişi, yanmanın bıraktığı iz ve yükselen görünürlük içinde seçilebilir hale gelen biri olarak da görünür. `{ar:لَهَبٍۢ, tr:lahabin, gloss:alev}` kelimesinin ışığının yükselip güçlü biçimde parlaması, `{ar:نَارًا, tr:nāran, gloss:yanan ateş}` kelimesinin hareketli ateş ortamıyla buluşunca ceza olayını uzaktan da fark edilir kılar. Alev kelimesiyle parlak biçimde yükselen tozun ve alev-benzeri duman görünüşünün duyulabilmesi, ateşin etkisini yukarı çıkan ve saklı kalmayan bir olay olarak genişletir; toz ve duman burada ateşin yükselen görünürlüğünü taşıyan görüntüler olarak kalır. `{ar:نَارًا, tr:nāran, gloss:ateş}` kelimesinin hayvan üzerinde yakılarak oluşturulan damga yönü, ısının kişi üzerinde ayırt edici bir iz bıraktığı ihtiyatlı bir görsel uzantı açar. Yanan ateş ve yükselen alev, olayın yerini ve kişiyi yol üzerindeki belirgin bir işaret gibi açığa çıkarır; bu bağın katkısı görünürlüktür ve yol, kule veya seyirciye açılan ayrı bir sahne kurmaz.
+
+Bu görünürlükten sonra ateşin bedende ne yaptığına bakıldığında, ateş ihtiyatlı bir ısı okuması olarak yalnızca çevrede duran bir yer değil, üzerine uygulanan ve malzemeyi değiştiren bir süreç şeklinde duyulur. `{ar:سَيَصْلَىٰ, tr:sayaṣlā, gloss:ateşle işleyip yakmak}` fiilinin ateşle çalışma yönü, `{ar:لَهَبٍۢ, tr:lahabin, gloss:görünür ve yakıcı alev}` ile temas edince ateşi kişi üzerinde ilerleyen bir işlem haline getirir. Ateş yakıtı ve ateşte pişirme kullanımı, alevin malzeme üzerinde çalışma katkısını; ısıyla bir değneği yumuşatıp doğrultma yönü ise biçim verme katkısını taşır. Kişi, ısının üzerinde çalıştığı ve etkisini bıraktığı maruz kalan malzeme gibi görünür. Pişirme ve değneği doğrultma yönleri, 111:3'te ayrı olaylar değil, bu ısı işleminin çalışma ve biçim verme tarafları olarak katkıda bulunur. `{ar:لَهَبٍۢ, tr:lahabin, gloss:alev ve susuzlukla ilişkili yanış}` kelimesinin susuzluk çekirdeği ile `{ar:نَارًا, tr:nāran, gloss:ateş}` kelimesinin yakıcı sıcaklığı buluştuğunda, dışarıdan görülen alev içeriden hissedilen sürekli bir ısıya dönüşür; kızgın zemin yönü bu bağlantıya katılmaz. Ateşin bırakmayan etkisi, ateşe atılma ve yanmış bedenin yeniden oluşturulmasıyla birlikte duyulduğu sahneler (74:28, 104:4, 4:56), gelecek yanmayı yalnızca bir yere varıştan çıkarıp kişiyi kuşatan, başlayan ve yinelenen bir işleme taşır. Olağan ateş karşılaşması bu süreçte yerini korur; ateşin çalışma ve biçim verme yönleri de bu ihtiyatlı sürecin nasıl işlediğini görünür kılar.
+
+## Adın Ateşe Dönüşü
+
+111:1'de `{ar:أَبِى لَهَبٍۢ, tr:abī lahabin, gloss:alev lakabıyla anılan baba}` adı, iki yandaki `{ar:تَبَّ, tr:tabba, gloss:kayıp ve yıkım}` tekrarıyla çevrelenmişti. Şimdi `{ar:نَارًا, tr:nāran, gloss:gerçek yanan ateş}` ile `{ar:لَهَبٍۢ, tr:lahabin, gloss:görünür alev}` yeniden buluşunca, kişiye ait alev nitelemesi onun kaybının gerçekleştiği ortamda maddi bir görüntüye dönüşür. Bu temas, önceki adlandırmayı ateşin üzerinde görünür kılan bir ilişki açar; ad ile ortam arasında nedensel özdeşlik kurmadan, aynı yüzeyin yalnızca bir kelime yankısı olarak kalan okuması da canlı tutulur. Açılıştaki `{ar:يَدَآ, tr:yadā, gloss:etkin eller}` güç, sahiplik, yetki ve bir işi yürütme duygusunu taşırken, tekrarlanan `{ar:تَبَّ, tr:tabba, gloss:kesip koparma, kayıp ve yıkım}` bu gücün kurduğu düzenin bozulmasını bildirir. Odaktaki `{ar:سَيَصْلَىٰ, tr:sayaṣlā, gloss:zorunlu ateş teması}` ise eski faili ısının üzerinde işlem yaptığı malzemeye çeviren bir karşılık açar; elin güç sahibi olmaktan ateş karşısında etkilenen tarafa dönüşmesi, 111:1'deki fail duygusunu 111:3'teki maruz kalma ile karşılaştırır. 111:2'deki `{ar:مَالُهُۥ, tr:māluhu, gloss:birikmiş servet}` ve `{ar:كَسَبَ, tr:kasaba, gloss:etkin kazanç}` ateşe karşı bir aralık sağlayabilecek kaynaklar gibi görünürken başarısızlıkları, `{ar:سَيَصْلَىٰ, tr:sayaṣlā, gloss:ateşle doğrudan karşılaşmak}` ile `{ar:نَارًا, tr:nāran, gloss:yaklaşılan ateş}` arasında yalıtıcı bir mesafe bırakmaz.
+
+Bu ateş karşılaşmasının içinde karşıt bir ses alanı da açık kalır. `{ar:سَيَصْلَىٰ, tr:sayaṣlā, gloss:ateşe girmek}` fiilinin duyurduğu ses, yükümlü tapınmanın ayakta durma, eğilme, yakarış ve yüceltme yönleriyle; başkası için iyilik dileme, güzel anma ve esirgeme anlamlarıyla temas eder. 111:2'deki `{ar:مَآ أَغْنَىٰ عَنْهُ مَالُهُۥ وَمَا كَسَبَ, tr:mā aghnā ʿanhu māluhu wa mā kasaba, gloss:malı ve kazancı yetmedi}` cümlesinin ezgi ve ses yönü bu olumlu söz alanını da duyururken, odaktaki ateş onun karşısında zorunlu temas olarak belirir. Basmala'daki rahmet açılışı (111:0, 1:3), ateşin haber verme veya ısınma yararı sağladığı sahne (27:7) ve büyük ateşte yanma bildirimi (87:12) yan yana geldiğinde, yarar sağlayan ve esenlik taşıyan yönden cezalandıran ateşe geçen bir karşıtlık görünür. Bu karşıtlık fiziksel ateşi ve ceza hükmünü taşır; dua ve rahmet yönü ateşin yerine geçmeden, iyilik dileği ve esenliği ateşte karşılaşmanın karşıt kutbu olarak canlı tutar.
+
+## Ateşin Hazırlanması
+
+111:4'teki `{ar:وَٱمْرَأَتُهُۥ حَمَّالَةَ ٱلْحَطَبِ, tr:wa-imraʾatuhu ḥammālata al-ḥaṭabi, gloss:odun taşıyan eşi}` ifadesi, ateşe süreklilik kazandıran girdiyi gösterir. `{ar:حَطَبِ, tr:ḥaṭabi, gloss:toplanmış odun ve yakıt}` ateşin yanıcı maddesini, `{ar:حَمَّالَةَ, tr:ḥammālata, gloss:tekrar tekrar yük taşıyan}` ise bu maddenin dışarıya taşınarak yanışı sürdürmesi yönünü verir. Bu iki katkı 111:3'teki `{ar:سَيَصْلَىٰ, tr:sayaṣlā, gloss:ateşle karşılaşmak}` fiili ile `{ar:لَهَبٍۢ, tr:lahabin, gloss:yükselen alev}` kelimesine değdiğinde, ateş girdisi bulunan ve yanışı sürdürülen bir yanma düzeni olarak görünür. Bu, 111:3 ile 111:4'teki görüntülerin yalnızca yan yana duran ceza tasvirleri olarak kalabileceği ihtimalini de saklı tutan bağlamsal bir genişlemedir. Yakıtın adı, insan ve taş gibi maddi girdiler ve sönse de yeniden büyüyen alev, ateşin sürekliliğini üç ayrı yönden belirginleştirir (85:5, 66:6, 17:97). 111:5'teki `{ar:حَبْلٌۭ مِّن مَّسَدٍۭ, tr:ḥablun min masadin, gloss:uzanıp bağlayan ip ve bükülmüş malzeme}` aynı maddi çevreyi bitki, sarmaşık ve kapsül meyvesine açar; 111:3'teki `{ar:نَارًا, tr:nāran, gloss:yanan ateş}` ile `{ar:لَهَبٍۢ, tr:lahabin, gloss:alev}` buluştuğunda dal üzerinde açan çiçek ve çiçeklenme görüntüsü belirir. Burada ḥabl ve masad büyüyen yapıyı, ḥammala ve ḥatab toplanan girdiyi, ateş ise bu çevrimin tüketici ucunu görünür kılar. 111:2'deki kazanç yönünün işlenebilir yağ özüyle buluşması, 111:4'teki odun ve iri başaklı yem bitkisi ayrıntısıyla bir tedarik ekonomisi kurar; bu bağın kapsamı ateşin maddi beslenmesidir, hayvan sürüsü veya hastalık anlatısına taşınmaz.
+
+Bu tedarik, 111:1'deki yıkımın ve 111:4 ile 111:5'teki malzeme hareketlerinin birbirine eklenmesiyle bir işlem dizisine dönüşür. Önceki `{ar:تَبَّتْ يَدَآ أَبِى لَهَبٍۢ وَتَبَّ, tr:tabbat yadā abī lahabin wa tabb, gloss:ellerin tekrarlı yıkımı ve helâki}` içindeki kesip koparma, ezme, düzenleme ve süreklilik kazanma hareketi, `{ar:سَيَصْلَىٰ, tr:sayaṣlā, gloss:ateşle işleyip yakmak}` fiilinin ateşte maddelerin dövüldüğü geniş taş yüzeyi ayrıntısıyla temas eder. Bu temas içinde `{ar:يَدَآ, tr:yadā, gloss:tutucu eller}` işi yapan organı, 111:5'teki `{ar:مَّسَدٍۭ, tr:masadin, gloss:sıkı ve bükülmüş malzeme}` darbe ve demir mil gibi dönme altında sıkılaşan maddeyi verir; ateşin yanında kesen, ezen ve döndüren bir düzenek belirir. 111:4'teki `{ar:حَطَبِ, tr:ḥaṭabi, gloss:yakıt}` sonraki yakıt aşamasını, 111:5'teki `{ar:مَّسَدٍۭ, tr:masadin, gloss:bükülmüş bağ}` ise akışın sonunda bağın sıkılaşmasını gösterir. 111:2'deki `{ar:مَآ أَغْنَىٰ, tr:mā aghnā, gloss:yetmek ve yerine geçmek}` kaynakların iş görmesini, `{ar:كَسَبَ, tr:kasaba, gloss:kazanmak ve işlenmiş yağ özü}` işlenebilir maddeyi, 111:5'teki `{ar:مَّسَدٍۭ, tr:masadin, gloss:ghee veya bal için deri kap}` ise saklama aşamasını görünür kılar. Böylece ateşin işi sırayla kesme ve ezme, yakıtı hazırlama, malzemeyi sıkılaştırma ve değeri saklanan maddeden işlenmiş maddeye çevirme yönleriyle açılır; bu bağın sonucu para oduna, besin de tek bir gerçek yemek veya yemek borusu sahnesine dönüşmez.
+
+## Boyun, Bağ ve Beden
+
+111:5'teki `{ar:فِي جِيدِهَا حَبْلٌۭ مِّن مَّسَدٍۭ, tr:fī jīdihā ḥablun min masadin, gloss:boynunda bükülmüş malzemeden ip}` ifadesi, ateş çevresindeki maddi süreci beden üzerinde belirginleştirir. `{ar:جِيدِهَا, tr:jīdihā, gloss:boynun önü}` denetim ve yönlendirme noktasını, `{ar:حَبْلٌۭ, tr:ḥablun, gloss:bağ ve iç kordon}` ise damar, sinir ve eklem gibi iç bağlantıları verir. 111:3'teki `{ar:سَيَصْلَىٰ, tr:sayaṣlā, gloss:yakıcı etkiye uğramak}` içindeki sırtın orta bölgesi ve kuyruk dibinin iki yanı ayrıntısı, 111:5'teki `{ar:مَّسَدٍۭ, tr:masadin, gloss:bükülmüş sıkı ip}` ile dışarıdan kavranan malzemeye bağlanır; 111:1'deki `{ar:يَدَآ, tr:yadā, gloss:el}` de bu düzeneğin eyleyen organını ekler. Böylece jīd bedeni yönlendirme noktasında toplar, ḥabl iç bağlantıyı, masad dış tutuşu, sayaṣlā ise ateşin bu bedene yönelen etkisini taşır; iki ayrı beden tek bir özneye dönüştürülmez.
+
+İp ve boyun, 111:5'te görünür bir süs ve beden düzeni olarak da açılır. `{ar:حَبْلٌۭ, tr:ḥablun, gloss:ip ve kolye süsü}` boyunda taşınan takıyı, `{ar:مَّسَدٍۭ, tr:masadin, gloss:saçın düzenlenişi}` saçın biçimlendirilmesini düşündürür. 111:2'deki `{ar:مَآ أَغْنَىٰ, tr:mā aghnā, gloss:kocası veya güzelliğiyle bağımsızlaşan kadın}` ifadesi, `{ar:لَهَبٍۢ, tr:lahabin, gloss:çarpıcı güzel kişi veya çok kıllı erkek}` görünümü, `{ar:نَارًا, tr:nāran, gloss:ürkme ve uzaklaşma}` hareketi ve 111:1'deki `{ar:يَدَآ, tr:yadā, gloss:el biçimli genişlik}` ile buluştuğunda, boyun-ip görüntüsü gerçek beden yerini ve kadın özneyi koruyan görünür bir düzenek halinde belirir. Güzellik, saç ve takı yönleri boyundaki ipin fiziksel yerini zenginleştirirken ceza ateşi bu görünürlük içinde kalır.
+
+Bu beden görüntüsünde taşıma ile içe doğru uzanan bir kordon arasında da ihtiyatlı bir hareket belirir. `{ar:حَبْلٌۭ, tr:ḥablun, gloss:uzanan bağ}` kelimesinin rahimde uzayan bağ yönü, 111:4'teki `{ar:حَمَّالَةَ, tr:ḥammālata, gloss:içe doğru taşıyan kadın}` biçiminin taşıma anlamı ve `{ar:وَٱمْرَأَتُهُۥ, tr:wa-imraʾatuhu, gloss:kişisi ve kadını}` ifadesinin insan ve kadın yönleriyle temas eder. 111:3'teki ateşin olağan ceza anlamı korunurken, 111:5'teki sırt ve kuyruk dibine bağlanan malzemeyle taşıma, gebelik ve doğum eşiği arasında bir beden hareketi açılır; erkek özneye gebelik isnat edilmez. 111:1'deki `{ar:أَبِى, tr:abī, gloss:baba ve yetiştiren ebeveyn}` kelimesi, 111:4'teki eş ve kadın ilişkisiyle, dışarıdan taşınan yük ve belirsiz soy yönleriyle buluştuğunda aile, aidiyet ve yetiştirme alanını görünür kılar. Bu bağ, soyun kesin bir olgu olarak sabitlenmesini gerektirmeden canlı kalır. `{ar:حَبْلٌۭ, tr:ḥablun, gloss:soy ve adlandırma bağı}` kelimesinin kişi adlarına ve el-Hubla'dan türeyen adlandırma alanına, `{ar:لَهَبٍۢ, tr:lahabin, gloss:alevle ilişkili kişi, topluluk ve yer adları}` kelimesinin de adlara ve yerlere uzanan yönüyle birlikte, 111:1'deki lakap ateşin görünür niteliği içinde yeniden duyulur. Ateş bu ilişkide bir kimlik işareti gibi görünür; kelime özel ada dönüşmeden aidiyet ve adlandırma okuması olarak kalır.
+
+## Bağlanan Hareket
+
+111:5'teki boyun bağı, ateş karşılaşmasına bir yakalanma ve kaçışın daralması hareketi ekler. `{ar:سَيَصْلَىٰ, tr:sayaṣlā, gloss:ateşe zorunlu giriş}` fiilinin kapan ve yakalanma yönü, `{ar:حَبْلٌۭ, tr:ḥablun, gloss:bağlayan ve yakalayan ip}` ile `{ar:مَّسَدٍۭ, tr:masadin, gloss:dayanıklı ve sıkı bükülmüş malzeme}` tarafından somutlaştırılır. `{ar:جِيدِهَا, tr:jīdihā, gloss:boynun önündeki denetim noktası}` bedeni sabitler; tutulma ve zincire bağlanma sahneleri (69:30, 69:32), pusu ve daraltılmış mekân tasvirleri (78:21, 25:13) ateşe girecek kişinin hareket alanı kısıtlanmış olarak tasavvur edilmesine izin verir. 111:2'deki `{ar:كَسَبَ, tr:kasaba, gloss:avcının veya yırtıcı hayvanın av kazancı}` yönü ve 111:1'deki `{ar:يَدَآ, tr:yadā, gloss:bedensel el}` de bu yakalama alanına katılır. `{ar:نَارًا, tr:nāran, gloss:ateşten ürküp uzaklaşma}` içindeki geri çekilme dürtüsü, zorunlu ateş temasıyla çatışırken boyun bağı geri çekilmeyi tutan karşı kuvvet olarak görünür. Bu düzende 111:5'teki kadın özneye ait ip, 111:3'teki erkeği sürükleyen bir araca dönüşmez; kadın ve erkek, iki ayrı özne olarak kalır.
+
+Aynı kelimeler, olumlu bağın zorlayıcı bağa çevrilmesi ihtimalini de açık bırakır. `{ar:سَيَصْلَىٰ, tr:sayaṣlā, gloss:ibadet, yakarış ve ateşe girme}` alanındaki yüceltme ve başkası için iyilik dileme, `{ar:حَبْلٌۭ, tr:ḥablun, gloss:güvenlik ve bağlayıcı ilişki}` kelimesinin yararlı bağ yönüyle temas eder. `{ar:مَّسَدٍۭ, tr:masadin, gloss:bükülerek sıkılaşmış ip}` ile boyunda zorlayıcı bir bağa dönüldüğünde, olumlu ilişki ateş dünyasına mecburi bağ şeklinde tersine çevrilmiş olarak duyulur. Bu ihtiyatlı hareket, “yanacak” temel anlamını değiştirmeden, ateşle temasın aynı zamanda kaçışı kısıtlayan bir bağ içinde yaşandığını gösterir.
+
+Bu bağ ve ısı, 111:1'deki yıkımın zayıflık ve kuruluk yönleriyle de temas eder. `{ar:تَبَّتْ يَدَآ أَبِى لَهَبٍۢ وَتَبَّ, tr:tabbat yadā abī lahabin wa tabb, gloss:ellerin yıkımı, yaşlılık ve helâk}` içindeki zayıflık, yaşlılık ve sırtta yara ayrıntıları, `{ar:حَبْلٌۭ, tr:ḥablun, gloss:iç kapasite ve beden kordonu}` ile ağırlık ve şişme baskısına bağlanır. 111:4'teki `{ar:حَطَبِ, tr:ḥaṭabi, gloss:kuru odun}` kuruyup zayıflayan maddeyi, `{ar:لَهَبٍۢ, tr:lahabin, gloss:alev ve susuzluk sıcaklığı}` içeriden hissedilen yakıcı baskıyı, 111:5'teki `{ar:مَّسَدٍۭ, tr:masadin, gloss:sıkı ve kompakt biçim}` de basınç altında yoğunlaşan malzemeyi görünür kılar. Ateş bu temaslarda zayıflayan ve kuruyan maddeyi basınç altında sonuca taşıyan bir süreç gibi genişler; bedenin kırılganlığı görünür olurken belirli bir tıbbi teşhis ileri sürülmez.
+
+## Dışarı Vuran Ateş
+
+111:4'teki `{ar:حَمَّالَةَ ٱلْحَطَبِ, tr:ḥammālata al-ḥaṭabi, gloss:odun ve yük taşıyan}` ifadesi, odun taşıma hareketini zarar verici sözü bir yerden başka bir yere taşıma görüntüsüne açar. `{ar:حَطَبِ, tr:ḥaṭabi, gloss:toplanan odun ve laf taşıma}` sosyal ateşe yakıtı, `{ar:حَمَّالَةَ, tr:ḥammālata, gloss:dışarıya yük taşıma}` ise sözün dolaşımını verir. `{ar:نَارًا, tr:nāran, gloss:yanan ateş ve topluluklar arasındaki kin}` bu dolaşımın topluluklar arasında düşmanlık ve savaş olarak yanmasını, `{ar:لَهَبٍۢ, tr:lahabin, gloss:yükselen alev}` ise gerilimin görünür yanma noktasına çıkmasını sağlar. Savaş ateşi, günah yüklü gizli konuşma ve saldırgan söz bu sosyal ateşin farklı beslenme biçimlerini gösterir (5:64, 58:8, 104:6). 111:4'teki gerçek odun ve 111:3'teki gerçek alev korunurken, bu özel taşıma bağlantısı zararlı sözün sosyal ateşi beslemesini görünür kılar.
+
+Bu sosyal ateş, görünür alevin dışarı vuran parıltısıyla başka bir biçim kazanır. `{ar:نَارًا, tr:nāran, gloss:ışık veren ve iz bırakan ateş}` kelimesi ateşle yapılan damga yönünü, `{ar:لَهَبٍۢ, tr:lahabin, gloss:yüksek ve güçlü parlayan alev}` ise yükselen ışığı sağlar; topluluklar arasındaki düşmanlık bu maddi ve görsel ateşe ilişkisel yönünü verir. Zarar verici söz böylece yakıt alan, parlayan ve çevresine yayılan bir ateş işlemi gibi görünür; bedene iz koyan ateş, topluluklar arasındaki kin ve yükselen alev sosyal parıltının maddi, ilişkisel ve görsel yüzlerini açar. Bu damga yönü, ateşin bedene uygulanan işaret olarak göründüğü sahneyle (9:35), savaş ateşi ve kinli söz sahneleriyle (5:64, 58:8) birlikte yoğunlaşır. Damga, bu bağlantıda görünürlüğü açıklar; ateşin hayvan üzerinde kullanılan özel anlamı kişiye kelimesi kelimesine taşınmaz. 111:4'teki dolaşan yükün 111:3'teki alevi beslemesi, ayetler arasındaki taşıma bağını kurar.
+
+## Hareket ve Durak
+
+111:2'deki mal ve kazanç cümlesinin yetirme ve yerine geçme yönü, ateşe giden hareketin başlangıç koşulunu kurar. `{ar:مَآ أَغْنَىٰ, tr:mā aghnā, gloss:yetmek ve yerine geçmek}` kaynakların koruma sağlayamamasını, `{ar:نَارًا, tr:nāran, gloss:uzaktan seçilen ateş ve yol işareti}` uzak bir hedefin görünürleşmesini, `{ar:لَهَبٍۢ, tr:lahabin, gloss:alev}` ise bu hedefi seçilebilir kılan işareti verir. 111:5'teki `{ar:حَبْلٌۭ, tr:ḥablun, gloss:uzanmış kum sırtı, Habal adlı yer veya yarış durağı}` görüntüsüyle başarısız kaynaklardan ateşe, ateşten işaretlenmiş bir durak ve başlangıç konumuna ilerleyen bir sıra açılır. Bu sıra, 111:1, 111:2, 111:4 ve 111:5 arasında kurulan nitelikli mekân düzenidir; belirli bir coğrafyayı tayin etmez. `{ar:تَبَّ, tr:tabba, gloss:düzene giren ve süreklilik kazanan hareket}` süreklilik duygusunu, `{ar:سَيَصْلَىٰ, tr:sayaṣlā, gloss:ilerleyerek ateşe girmek}` içindeki bir atın hemen ardındaki ikinci at ayrıntısı ilerlemeyi, `{ar:لَهَبٍۢ, tr:lahabin, gloss:çok şiddetli ve coşkun koşu}` dörtnala imgesini, 111:1'deki `{ar:يَدَآ, tr:yadā, gloss:ellerin önünde}` ise önden çekilen yönü verir. Bu katkılar alevin içine doğru hareketi hızlandırır; burada açılan bağlantı gerçek bir yarış veya at anlatısı değil, ateşe yönelen hareket görüntüsüdür.
+
+Âyet tek başına gösterildiğinde önce doğrudan yanma ve alevli ateş görünür. 111:4'teki odun taşıma görüntüsü geldiğinde odak ateşi yakıtı hazırlanıp sürdürülen bir işleme, 111:5'teki boyun bağı ve bükülmüş malzeme göründüğünde ise hareketi kısıtlanmış bir yakalanma düzenine geriye dönük olarak yerleşir. Bu iki bağlam, 111:3'teki fiziksel ceza anlamını genişletir; onu tek bir gerçek sahneye kapatmadan ateşin nasıl sürdürüldüğünü ve nasıl bir bağ içinde yaşandığını görünür kılar. Rahmet ve esenlik yönü de karşıt kutup olarak canlı kalır (111:0, 1:3, 27:7); ateş, kişinin karşılaşacağı kesin sonuç olarak dururken sonraki görüntüler onun etkisinin biçimini değiştirir.
+
+</editorial_prose>

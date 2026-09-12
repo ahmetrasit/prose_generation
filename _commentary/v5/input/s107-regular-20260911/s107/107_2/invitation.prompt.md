@@ -1,0 +1,213 @@
+# V5 reading invitation — 107:2
+
+You are a fresh reading-invitation writer. Read the complete editorial prose
+before writing. It is your sole semantic source.
+
+Write two to four paragraphs of fluent, contemporary Turkish that reveal a
+surprising reading by following one or two main channels of resonance in the
+ayah. A channel is a connected background of meanings, images, actions, or
+relations through which the ayah can be heard and understood differently.
+Several editorial findings may together develop one channel. Summarize that
+connected movement and its consequence for the ayah's main meaning, rather
+than compressing findings individually. Give the reading's substance now;
+the invitation comes from understanding it, not from a promise of hidden depth.
+
+Before drafting, read the entire editorial prose and silently select the one
+or two channels with the strongest interpretive consequence and enough
+grounding to explain clearly. Favor channels that expand or shift what the
+ayah says, the relation it establishes, or what is at stake in its action or
+image. One fully developed channel is sufficient; add a second only when it
+offers a distinct consequential reading that can be explained within the
+invitation. No finding, channel, or major shift has an individual coverage
+claim. Unselected material may remain entirely in the full commentary.
+
+A channel may develop through grammar, sound, dialogue, a material process,
+time, imagery, or a conceptual relation. Resonance is not limited to acoustic
+effects, and an unusual image alone does not establish a channel. Use only
+connections the editorial prose actually develops. If it supplies no such
+channel, explain its strongest grounded reading without inventing connections
+or surprise.
+
+Begin inside the ayah's own words, images, actions, or relations and reveal a
+selected distinctive reading in the first paragraph. Keep the plain meaning
+reachable with only the orientation needed to understand the change. Do not
+spend an opening paragraph on routine explanation or front-load context about
+the surah, the ayah's position, or the commentary project.
+
+For each selected channel, begin with the expression that opens it, unfold the
+connected background, and show how the ayah reads or sounds against that
+background. Let a detail lead into the next through an intelligible relation
+or process, so the reader experiences the emerging reading. This is a movement
+of thought, not a mandatory sentence pattern or one paragraph per finding.
+Let the reader identify the expression being interpreted,
+where any nonordinary detail comes from, and what that detail changes in the
+reading. Briefly identify the word-family use, restricted form, collocation, or
+context that supplies an essential added detail, and preserve the concrete
+operation that makes the image work. Keep the ordinary reading and necessary
+qualification clear within this explanation; do not repeat them as a fixed
+formula. Preserve the particular object, process, or relation that makes this
+reading distinctive, and state its interpretive consequence for the ayah as a
+whole. Make intelligible what the familiar reading leaves less visible and
+what the expanded or shifted reading now lets the reader understand. Preserve
+the editorial's force: an exploratory possibility remains possible, while a
+developed shift must not be softened into a decorative association or a
+reassurance that everything means the same thing. A concrete
+account of how something is carried, transformed, lost, or restored must not
+shrink to a general statement about care, guidance, dependence, or goodness.
+Keep the details needed to make the selected channel work; omit side findings
+and shorten routine setup. If a channel cannot be explained faithfully from
+the editorial prose, choose another grounded channel or reading.
+
+When a non-focus ayah supplies a contribution used in the invitation, keep its
+reference from the editorial prose beside that contribution.
+
+Do not turn the invitation into a miniature inventory of the commentary's
+conclusions, or flatten distinct channels into a broad theme to include more
+material. Do not repair, extend, or supplement the editorial prose from memory
+or outside knowledge.
+
+Omit technical apparatus. Retain any qualification, source distinction, live
+alternative, or boundary whose absence would change the force or meaning of a
+chosen reading. Express it naturally beside the image or relation it qualifies.
+Favor positive explanations of the relation between layers: what remains in
+the foreground and what the resonance makes audible in the background. State
+how that background reinforces, expands, or shifts the understanding of the
+main meaning, with the source and degree of certainty clear. Reserve explicit
+exclusions for concrete ambiguities or live counter-evidence that need them.
+Repeated "this is not X" endings make a reading sound withdrawn; express the
+substantive qualification through what the reading does contribute wherever
+possible. Use varied, natural language rather than a repeated "second layer"
+formula, and preserve the force of expansions and shifts.
+Do not name branches, candidates, findings, scopes, evidence categories,
+ledgers, or workflow stages, or label the prose as numbered channels. Do not
+list findings serially.
+
+Use the established `{ar:..., tr:..., gloss:...}` syntax, consistent
+Turkish-readable transliteration, and short ordinary glosses. Keep Arabic
+anchors beside the explanations they ground. Within a paragraph, continue with
+the Turkish meaning where clear; provide the necessary local tag when a later
+paragraph interprets the carrier anew. Do not place Arabic script outside a
+valid tag.
+
+Build transitions within a channel through its shared object, action, or
+relation. If two channels are selected, they may occupy separate paragraphs;
+do not invent a link between them. Do not praise the commentary's quality,
+promise what the reader will find, manufacture suspense, recap at the end, or
+add a call to action. End on an image, relation, action, or tension already
+established by the selected reading.
+
+Before finishing, compare the invitation with the entire editorial prose:
+does the chosen channel reveal a consequential reading, or could the text have
+been written from the ordinary translation and a modest explanation alone?
+When the editorial supports a surprising channel, the latter fails this task.
+Can the reader follow the opening expression into a connected background and
+understand how that background expands or shifts the ayah's main meaning?
+Check the selected connections against their editorial explanation: can the
+reader tell where the nonordinary details come from, with the necessary
+qualifications intact? Repair generic explanation, isolated curiosities, or a
+compressed findings list by developing the selected channel. Do not add
+omitted channels merely for coverage. Do not output this check.
+
+Write only the invitation text to:
+
+`_commentary/v5/editorial/s107-regular-20260911/s107/107_2/107_2.invitation.tr.md`
+
+Do not add a heading, wrapper label, index, ledger, evidence file, or any other
+artifact. Do not modify the editorial prose.
+
+After writing the invitation, run:
+
+```bash
+python3 _commentary/v5/validate_prose.py _commentary/v5/editorial/s107-regular-20260911/s107/107_2/107_2.invitation.tr.md
+```
+
+If validation fails, repair only the reported mechanical file-contract issues
+and rerun it, for at most two repair cycles. Report the final validator result
+in your response.
+
+<editorial_prose>
+## Soru Cevabını Buluyor
+
+Bu kısa ayet, (107:1) sorusunda gösterilen kişiyi yaptığı işle tanıtır: {ar:فَذَٰلِكَ ٱلَّذِى يَدُعُّ ٱلْيَتِيمَ, tr:fe-zâlike'llezî yeduʿʿu'l-yetîme, gloss:işte yetimi itip kakan odur}. {ar:فَ, tr:fa-, gloss:ardından} önceki inkârı burada görülebilen bir davranışa bağlar; soru soyut bir hükümde asılı kalmaz, fiil ile nesnenin kurduğu sahnede cevabını bulur. Aynı bağlayıcı, hem kimin gösterildiğini açıklar hem de önceki reddin açığa çıkardığı sonucu başlatır. Böylece (107:1)'deki sorunun basıncı (107:2)'deki yerel fiil-nesne sahnesine taşınır; ayet sınırı bu ardışık konuşma ilişkisini kendi içinde sürdürür. {ar:فَذَٰلِكَ, tr:fe-zâlike, gloss:işte odur} birleşmesinde geçiş ile işaret tek bir açılış hareketinde duyulur; iki parçanın yan yana gelmesi yeni bir sözlük anlamı üretmeden, sorudan tanımlamaya geçişi görünür kılar.
+
+{ar:ذَٰلِكَ, tr:zâlike, gloss:şu/odur} belirginleşmiş kişiyi dinleyenin önüne getirir ve yaptığı işin değerlendirme bakımından uzağa düşürdüğünü duyurur. Buradaki uzaklık fiziksel bir mesafe değildir; kişi tanınırken olumlu değerlendirme alanının uzağında tutulur. {ar:ٱلَّذِى, tr:ellezî, gloss:ki o} ise ardından gelen fiil-nesne grubunu geçici bir haber olmaktan çıkarıp bu kişinin ayırt edici davranışı hâline getirir. İlişkinin cümlede yüklem ya da sıfat gibi açıklanabilmesi anlamı dağıtmaz; her iki okumada da gösterilen kişi, yetime yönelen eylemle tanımlanır. (107:1)'deki aynı ilgi biçimi, inkâr eden kişi ile (107:2)'de yetimi iten kişiyi bir gönderim çizgisinde buluşturur; yine de (107:1)'deki sözün bütün ayrıntıları yeniden kurulmadan, soru belirli bir muameleyle cevaplanır.
+
+Bu bağın içinde özne ve nesne yönü de açıktır. {ar:يَدُعُّ, tr:yeduʿʿu, gloss:itip kakan} fiilinin üçüncü tekil erkek öznesi gösterilen kişide kalır; {ar:ٱلْيَتِيمَ, tr:el-yetîme, gloss:yetimi} ise bu kuvvetin doğrudan ulaştığı nesnedir. Böylece fail ile maruz kalan arasındaki yön, dışarıdan eklenmiş bir ahlaki açıklama olarak değil, cümlenin kuruluşunda görünür. Fiil-nesne cümlesi kişinin davranışını tanımlamayı sürdürür; tanım, bütün inkârcılar hakkında sınırsız bir kimlik hükmüne değil, (107:2)'deki bu yerel eyleme bağlıdır. Ayetin açık sözü önceki soruyu eyleme çevirir: kim olduğu, yetime ne yaptığı gösterilerek belirginleşir.
+
+## İtmenin Biçimi
+
+{ar:يَدُعُّ, tr:yeduʿʿu, gloss:itip kakan} burada bir varlığı bulunduğu yerden fiziksel güçle iten etkin fiildir. Etkin geniş zaman görünümü, tek bir ana ait görüntüden çok gösterilen kişinin davranış tarzını öne çıkarır; cümle bunun kaç kez tekrarlandığını ölçmez, fakat kişiyi böyle bir eylemle tanınan fail olarak kurar. Geçişli yapı kuvveti failden yetime doğru taşır. (107:1)'deki inkâr, (107:2)'deki bağlayıcı ve fiil-nesne sahnesiyle gözle görülür bedensel uzaklaştırmaya dönüşür: içteki reddin başka bir beden üzerindeki hareketi görünür olur.
+
+Bu fiilin ikizleşmiş boğaz sesi, nesnenin adı gelmeden itmenin basıncını işittirir; böylece biçim, yerel anlam ve ses aynı noktada yoğunlaşır. Ses kuvveti destekler, anlamı tek başına belirlemez. İtilenin edilgen kaldığı başka bir kullanımın karşısında burada iten failin etkinliği belirgindir ve sorumluluk kuvveti uygulayan kişide tutulur. İkiz biçim, benzer sesli çağırma alanıyla karışmayı da sınırlar: bu ayetin yüzeyinde yetim çağrılmaya değil itilmeye maruz kalır. Böylece fiilin biçimi, anlamı, sesi ve başka bir yerde yeniden karşılaşması ayetin basınç noktasını birlikte kurar. Bedensel itme, (107:3)'teki besleme cümlesine doğru sınırlı bir bakım reddi köprüsü açar; fiilin kendi anlamı itmek olarak sürerken, bakım akışının tersine çevrilmesi görünür hâle gelir.
+
+Aynı özne-nesne çerçevesinde duyulan kabul edilmiş yakın biçim {ar:يَدَعُ, tr:yedaʿu, gloss:terk eder}, itmenin yanına bırakma ve terk etme yönünü açar. Bu daha hafif olay ihtimali, ayetin görünen biçimindeki kaba uzaklaştırmayı genişleten bir karşı yankıdır; onun yerine başka bir sahne koymaz. Varyantın terk etme yönü, terk edilmemenin vurgulandığı (93:3) ile yan yana geldiğinde korunması gereken kişinin bırakılma ihtimalini daha belirgin kılar. Terk yankısı yalnız bu varyanta bağlıdır; görünen biçim bedensel itme olarak sürer ve (93:3)'teki sahne (107:2)'ye ikinci bir olay olarak taşınmaz.
+
+## Yetimin Açıkta Kalması
+
+{ar:ٱلْيَتِيمَ, tr:el-yetîme, gloss:yetimi} belirli tekil biçimiyle belirli bir çocuğu doğrudan sahneye getirirken, aynı adlandırmanın tanınabilir bir kırılganlar sınıfına açılmasına da izin verir. Nesne hâli, çocuğu uzak bir konu değil, itme kuvvetinin doğrudan ulaştığı kişi yapar. Fiilin nesneden önce gelmesiyle önce kuvvet duyulur, sonra zarar görenin adı cümlenin sonunda ağırlık kazanır; bu kapanış (107:3)'te muhtaç kişiye açılan uca geçişi hazırlar. Tek bir çocuk ile bütün tanınabilir sınıf aynı belirli adlandırmada birlikte kalır; biri ötekine indirgenmez.
+
+Yetim sözü, babasını ergenlikten önce yitirmiş ve bu yüzden korunmaya muhtaç çocuğun durumunu taşır. Önceden kopmuş koruyucu bağ, doğrudan bu kişiye yönelen itmeyle buluşunca eylem bir ikinci kopuş gibi duyulur: korumadan çıkmış kişi yeniden dışarı sürülür. Şiddet fiili burada bakım ve koruma beklentisini tersine çevirir; kırılgan kişiyi adlandıran söz, kuvvetin alıcısı olur. Belirli isim biçimi yetimliği geçici bir etiket gibi değil, devam eden bir açıkta kalmışlık durumu gibi duyurur; bundan ayrıca ölçülmüş bir süre çıkarılmaz. Kelimenin tek başına veya eşine az rastlanan bir varlığı düşündüren yan basıncı, bu bireysel ağırlığı artırır: yetim sözü genel bir “eşsiz” karşılığına çevrilmez; yalnız bu fiil-nesne temasında yalnızlığı yoğunlaştırır.
+
+(93:6)'daki barındırma ile (93:9)'daki yetime karşı uyarı, korunma ve bakımın açtığı yönü verir; (107:2)'deki itme bu yönün tersine giden yerel karşı görüntüyü kurar. (90:15)'te sıkıntı içindeki kişiye yardım etme imgesi, yalnızlığı geçmişteki kayıpla sınırlamayarak şimdiki refakat ve yardım eksikliğini de görünür kılar. Bu temas, çocuğun ilk kaybını bu failin meydana getirdiğini veya (93:6), (93:9) ve (90:15)'teki kişilerin (107:2)'deki faille aynı olduğunu söylemez. (4:10)'da yetim malına haksızca uzanılması ile (4:127)'de yetimlere adalet sorusunun açılması, bedensel itmenin koruyucu çevreye ve hak edilmiş korunmaya erişimi kesen bir toplumsal kenar da taşıyabileceğini düşündürür. Bu hak alanıyla kurulan temas, (107:2)'deki itişi mal gaspıyla özdeşleştirmez; (107:7)'deki yardım engeli de bu fiilin sözlük anlamı değil, başka bir bağlamın görüntüsüdür. Görünen şey, koruyucusuz çocuğun çevreden dışarı itilmesidir.
+
+Yetim kelimesinin başka bir kullanımında yavaşlama ve gecikme basıncı da açılır. (6:152)'de yetim hakkının olgunluk çağına kadar gözetilmesi, bakımın belirli bir zaman içinde sürdürülmesi gerektiğini hatırlatır; (89:17)'de yetime değer vermeme, (93:8)'de onu gözetme ve (107:3), (107:5), (107:7)'de görülen sonraki ihmaller bu sürekliliği farklı uçlardan aydınlatır. Böylece (107:2)'deki çocuk yalnızca bir zamanlar ebeveyn kaybetmiş biri olarak değil, koruma ve rızık çevresinde dışarıda tutuldukça yalnızlığı devam ettirilen biri olarak görünür. Bu tablo, bütün hayat hikâyesini tek bir faile bağlayan bir hüküm kurmadan, bakımın gecikmesiyle açıkta kalmanın sürmesini gösteren sınırlı bir okumadır.
+
+## Bakımın Yönü
+
+Bu karşılaşma, (107:2)'deki fiziksel itmenin korunmasız kişiye ulaşması gereken bakım akışını tersine çevirmiş gibi duyulmasını sağlar. Yetimin adı cümlenin sonunda kaldığında, (107:3)'teki bakım sorusu için somut bir alıcı zaten görünürdür. {ar:يَحُضُّ, tr:yaḥuḍḍu, gloss:teşvik eder} başkasını beslemeye ve ihtiyaca yönelmeye çağıran bir hareket taşır; {ar:طَعَامِ, tr:taʿâmi, gloss:yiyecek} yiyecek ve besleme alanını, {ar:ٱلْمِسْكِينِ, tr:el-miskîn, gloss:muhtaç} ise yoksulluk ve ezilmişlik içindeki kişiyi öne çıkarır. Bu bağımsız yönlendirme, {ar:يَدُعُّ, tr:yeduʿʿu, gloss:itip kakan} fiilinin fiziksel kuvvetiyle ve {ar:ٱلْيَتِيمَ, tr:el-yetîme, gloss:yetimi} nesnesiyle temas ettiğinde, yetimin bedenini dışarı süren hareketin ona ulaşması gereken bakım akışını da tersine çevirdiği hissedilir. Bu bağlantının katkısı, tek bir kabalık görüntüsünün korunmasız kişiye yönelmesi gereken yiyecek ve geçim yolunu kesen bir bakım kırılması olarak duyulmasıdır; (107:2)'deki fiil fiziksel itme olarak kalır. Bu ilişki (107:2, 107:3) arasındaki bağlamda kalır.
+
+Bu bakım yönü, buyurucu gücün nereye gönderildiği sorusunu açar. {ar:يَحُضُّ, tr:yaḥuḍḍu, gloss:teşvik eder} bakım lehine yöneltici enerjiyi, {ar:يَدُعُّ, tr:yeduʿʿu, gloss:itip kakan} ise aynı enerji alanının bedensel itmeye çevrilmesini taşır. Açılıştaki {ar:أَرَءَيْتَ, tr:ara'ayta, gloss:gördün mü} dikkati eyleme yönelten soruyla, (107:3)'teki bakım çağrısı ve (107:7)'deki engelleme birlikte düşünüldüğünde, güç bir yerde harekete geçirirken başka bir yerde geçişi kapatabilir. {ar:يُكَذِّبُ, tr:yukadhdhibu, gloss:yalanlayan} yüzeyindeki yükümlülük ve teşvik basıncı, {ar:يَمْنَعُونَ, tr:yemneʿûne, gloss:engellerler} yüzeyindeki erişime karşı koyuşla yan yana gelir. {ar:دِّينِ, tr:d-dîn, gloss:hesap ve karşılık}in hâkimiyet ve mülkiyet çağrışımı ile {ar:طَعَامِ, tr:taʿâmi, gloss:yiyecek}in boğazı kavrayan, yutmayı güçleştiren görüntüsü, itilen bedeni geçiş ve direnç ilişkileri içine yerleştirir. Bu ayrı kelimeler, dışlamanın nasıl sertleştiğini farklı yönlerden gösterir: {ar:يَدُعُّ, tr:yeduʿʿu, gloss:itip kakan} fiziksel itme olarak kalır; boğma, tahakküm veya engelleme bu fiilin yeni sözlük karşılıkları değildir.
+
+Bu karşılaşma, normalde doluluğa hazırlayan hareketin ihtiyaç sahibini kaynak ve yiyecekten uzaklaştıran karşı yöne çevrilmesini görünür kılar. {ar:يَدُعُّ, tr:yeduʿʿu, gloss:itip kakan} yüzeyine eşlik eden kap sallanarak içeriğin yerleşmesi ve kullanılabilir hacmin dolması görüntüsü, (76:8)'de yetime yiyecek ulaştırma imgesiyle buluşur. (76:8)'in rızık ve iyi hâl alanı, (59:7)'deki dağıtım ve dolaşım ilkesiyle birlikte düşünüldüğünde, içeride güvenceye alınan doluluğun bağımlı kişiyi dışarıda bırakması görünür olur. (89:18) ve (69:34)'te başkasını yiyeceğe yöneltme ve yiyeceği ulaştırma temasları da aynı yönü tersinden aydınlatır: beslenmeye götürmesi gereken hareket, korunmasız kişiyi gıdadan uzaklaştırır. Kap ve yiyecek hedefi bu bağlamsal görüntünün katkısıdır; (107:2)'de odak fiil itme olarak kalır, fakat kaynak akışının ihtiyaç sahibine karşı çevrilmiş gibi görünmesini sağlar.
+
+Bu kap görüntüsünün katkısı, kaynakların içeride tutulması ile zayıf hak sahibinin dışarıda bırakılmasını aynı akış içinde görünür kılmasıdır. {ar:ٱلْيَتِيمَ, tr:el-yetîme, gloss:yetimi} zayıf bir hak sahibini, {ar:طَعَامِ, tr:taʿâmi, gloss:yiyecek} geçim içeriğini, {ar:مَاعُونَ, tr:mâʿûn, gloss:yardım} içeride kalan kaynağın önündeki bariyeri, {ar:يَمْنَعُونَ, tr:yemneʿûne, gloss:engellerler} ise yardımın dışarı akışını kesen hareketi taşır. (107:3)'te neyin biriktirildiği ve kimin bekletildiği, (107:7)'de kaynağın hak sahibine geçmesinin nasıl kapandığı bu kap benzetmesinin iki ucunu verir. Zayıf talep sahibini yerinden eden kuvvet ile içeride kalan malzeme aynı paketleme mantığında buluşur; kıtlık, elde kalanı sıkıştıran sosyal alanın yeniden düzenlenmesi gibi görünür. Benzetmenin sınırı, {ar:يَدُعُّ, tr:yeduʿʿu, gloss:itip kakan} fiiline “doldurmak” anlamı eklememesidir; somutlaştırdığı şey, dışarı itilen kişinin kaynakların dolu tutulduğu yerden nasıl uzak kaldığıdır.
+
+## Yaşamın Önünde Bir İtme
+
+Bu karşılaşmanın katkısı, fiziksel itmenin insanın beslenip kalabilmesi için gereken maddi çevrenin önünde işlendiğini duyurmaktır. {ar:يَدُعُّ, tr:yeduʿʿu, gloss:itip kakan} yüzeyinde açılan yazın su tutan ve sığırların yediği belirli bitki imgesi, {ar:يَحُضُّ, tr:yaḥuḍḍu, gloss:teşvik eder} ile (107:3)'teki besin sahnesinden aldığı temasla, itilmiş kişiyi su ve otla sürdürülen bir hayatın önüne çıkarır. {ar:ٱلْمِسْكِينِ, tr:el-miskîn, gloss:muhtaç} taşıyıcısındaki yerleşmeyi mümkün kılan kalıcı tedarik, {ar:مُصَلِّينَ, tr:muṣallîna, gloss:namaz kılanlar} ve {ar:صَلَاتِ, tr:ṣalâti, gloss:namaz} yüzeylerinde açılan ṣilyān bitkisi, {ar:طَعَامِ, tr:taʿâmi, gloss:yiyecek} içindeki hayvan semizliği ve yağlı tat, {ar:مَاعُونَ, tr:mâʿûn, gloss:yardım} üzerindeki akıp görünür olan su çağrışımı bu manzarayı yoğunlaştırır. (107:4), (107:5) ve (107:7)'nin yüzeyleriyle temas eden bu su, bitki, hayvan ve tedarik çevresi, şiddetin insanın ayakta kalması için gereken şartların önünde işlendiğini gösterir. Bu çağrışımlar maddi hayatın şartlarını açar; dua biçimleri botanik kelimelere, itme de su ya da besleme fiiline dönüşmez ve maddi hayatın önünde duran fiziksel hareket olarak kalır.
+
+Bu görüntü, geçimin kıtlık ve emek baskısı altında nasıl üretildiğini ve kime ulaştırılacağını aynı anda görünür kılar. {ar:يَدُعُّ, tr:yeduʿʿu, gloss:itip kakan} üzerinde taşınan yabani bitki tohumu çağrışımı, {ar:يَحُضُّ, tr:yaḥuḍḍu, gloss:teşvik eder}in bir şeye yöneltmesi ve (107:3)'teki yiyecek sahnesiyle buluşunca, toplanıp acil yiyeceğe çevrilmesi gereken bir tohum alanı açar. {ar:مُصَلِّينَ, tr:muṣallîna, gloss:namaz kılanlar} ve {ar:صَلَاتِ, tr:ṣalâti, gloss:namaz} üzerinden gelen dövme ve öğütme taşı, {ar:طَعَامِ, tr:taʿâmi, gloss:yiyecek}in yiyeceği alma ve geçim alanıyla birleşir. Böylece yetim, besinin ortaya çıkması için gereken emek ile o besinin kime verileceği arasındaki kesişimde görünür; geçim baskı altında üretilirken paylaşım da sınanır. Tohum ve öğütme sahnesi bağlamsal bir benzetme olarak kalır; {ar:يَدُعُّ, tr:yeduʿʿu, gloss:itip kakan} burada toplamaya veya dövmeye başlamaz.
+
+Bu maddi çevre, çağrı ve mevsimsel dayanıklılık görüntüsüyle hareket kazanır. {ar:يَدُعُّ, tr:yeduʿʿu, gloss:itip kakan} yüzeyindeki hayvanı seslenerek sürüye çağırma ve davranışını yönlendirme alanı hareketin yönünü, {ar:ٱلْمِسْكِينِ, tr:el-miskîn, gloss:muhtaç} taşıyıcısındaki kalıcı tedarik sürekliliği, {ar:مُصَلِّينَ, tr:muṣallîna, gloss:namaz kılanlar} ile {ar:صَلَاتِ, tr:ṣalâti, gloss:namaz}ta açılan bitkisel çevre yaşamın maddi zeminini ve {ar:يَمْنَعُونَ, tr:yemneʿûne, gloss:engellerler} üzerinde taşınan zor yıla dayanıklı gençlik imgesi direnç fikrini taşır. Bu imgeler, (107:3)'teki teşvik, (107:4)'ün veyl yüzeyi, (107:5)'in hareketi ve (107:7)'nin engeliyle temas eder. Yetimin itilişi böylece hareket, besin ve dayanıklılığın örgütlendiği bir çevrenin karşısında durur. Hayvanı yönlendiren çağrı, bitki ve genç direnç bu ayetin olağan tercümesi değildir; bunlar fiziksel itmenin hangi hayat şartlarının önünde belirdiğini gösteren bağlamsal görüntülerdir.
+
+## Kesilen Devam
+
+Bu hayvansal çevrenin katkısı, beklenen ürün ve bakımın yarıda kalması üzerinden (107:3)'teki besin ihtiyacını aydınlatmaktır. {ar:أَرَءَيْتَ, tr:ara'ayta, gloss:gördün mü} ile {ar:يُرَآءُونَ, tr:yurâʾûne, gloss:gösteriş yaparlar} yüzeylerinde açılan hayvanlarda görünür gebelik imgesi, {ar:طَعَامِ, tr:taʿâmi, gloss:yiyecek}in olgunlaşma ve tat kazanma alanı ve {ar:يُكَذِّبُ, tr:yukadhdhibu, gloss:yalanlayan}ın başarısız süt beklentisi çağrışımıyla (107:3)'teki besin ihtiyacına bağlanır. İnsan çocuğunun babasını ergenlikten önce yitirmesi ise bu hayvansal döngülerden ayrı bir taşıyıcıdır: beklenen ana-baba korumasının yokluğunu adlandırır. Hayvan, gebelik ve süt alanları burada uzak bir bağlamsal yankı olarak korunması gereken çocuğun bakım beklentisini aydınlatır; yetim sözü insan çocuğu için kurduğu anlamı korur ve (107:2)'ye hayvan anatomisi eklenmez.
+
+İtme, hareketi yavaşlatıp sonunda durduran bir çizgide de okunabilir; bu bağlantının katkısı, dışarı itilen bedenin toparlanma ve ilerleme imkânını kaybedebileceği sonucu görünür kılmasıdır. {ar:يَدُعُّ, tr:yeduʿʿu, gloss:itip kakan} üzerindeki kıvrılarak yavaş koşma alanı, {ar:أَرَءَيْتَ, tr:ara'ayta, gloss:gördün mü}nin hareketi görünür kılan dikkati, (107:3)'teki geçimi ve (107:5)'teki durağanlığıyla buluşur. {ar:ٱلْمِسْكِينِ, tr:el-miskîn, gloss:muhtaç}in taşıdığı durma, {ar:يُكَذِّبُ, tr:yukadhdhibu, gloss:yalanlayan} üzerinde açılan koşan hayvanın birden durması, {ar:سَاهُونَ, tr:sâhûne, gloss:gafiller}un hareketsizlik alanı ve {ar:ٱلْيَتِيمَ, tr:el-yetîme, gloss:yetimi} için açılan yavaşlama-gecikme basıncı bu sonucu farklı açılardan taşır. Fiil yine fiziksel itmedir; durma ve durağanlık görüntüleri, (107:1), (107:3) ve (107:5)'in bağlamında itmenin sonunda belirebilecek sonuç olarak kalır.
+
+Bu zaman çizgisi zararı tek bir darbeye sıkıştırmaz. {ar:يُكَذِّبُ, tr:yukadhdhibu, gloss:yalanlayan} yüzeyindeki bir yükümlülüğü taşıma ya da bozma çağrışımı, yetimin devam etmesi beklenen bakımına temas eder. Başlangıçta sürmesi beklenen süt döngüsünün boşa çıkması, koşan hayvanın kesilen hareketi ve {ar:ٱلْيَتِيمَ, tr:el-yetîme, gloss:yetimi} için taşınan gecikme, (107:1)'in hesap ve karşılık çerçevesinde beklenen seyrin bozulmasını görünür kılar. Böylece anlık bedensel zorlama, kaynakların yönünün çevrildiği ve bakımın ertelendiği süreğen bir açıkta bırakılma ânına doğru genişler. Bu genişleme, farklı sahnelerin farklı faillerini tek bir hayat hikâyesinde birleştirmeden, itme eyleminin yol açtığı devam kaybını düşünmeye açan bağlamsal bir okumadır.
+
+## Çağrının Tersine Dönüşü
+
+Bu karşı hareketin katkısı, tökezleyeni ayağa çağıran ses ile yetimi dışarı iten kuvvet arasındaki yön farkını görünür kılmasıdır. {ar:يَدُعُّ, tr:yeduʿʿu, gloss:itip kakan} yüzeyindeki bu çağrı, (90:17)'de merhamet ve iyiliğin birbirine bağlanmasıyla ve {ar:فَوَيْلٌۭ, tr:fa-veyl, gloss:veyl} yüzeyindeki uyarı çığlığıyla temas eder. {ar:مُصَلِّينَ, tr:muṣallîna, gloss:namaz kılanlar} ve {ar:صَلَاتِ, tr:ṣalâti, gloss:namaz} çevresinde açılan dua, övgü ve merhamet; {ar:سَاهُونَ, tr:sâhûne, gloss:gafiller} çevresinde açılan kusura kolaylık gösterme alanı, aynı korunmasız kişi için itmenin karşısına kaldırmayı ve yumuşak davranmayı koyar. Yetimin eksik desteğiyle karşılaşan ayağa kaldırma imgesi, fiziksel kuvvetin onarım fırsatını kaçıran yönünü somutlaştırır. Onarım çağrısı (90:17)'nin bağlamından gelen karşılaştırmalı bir görüntü olarak kalır; (107:2)'nin yüzeyinde gerçek bir iyileşme çağrısı bulunmaz ve bu çağrı kesin özdeşlikten çok kaçırılmış bir toparlanma imkânı gösterir.
+
+Bu karşıtlığın katkısı, yaklaşmaya ve eşlik bulmaya çağıran yönün dışarı itmeyle tersine dönmesini görünür kılmasıdır. Çağrı alanı, hayvanı sesle sürüye katma veya davranışını yönlendirme ve tökezleyene kalkmasını söyleme işlevlerini birlikte taşır. İlişkiye çekilmesi, eşlik bulması gereken kişi burada dışarı itilir; yaklaşmaya çağıran yönün tersine dönmesi yalnızlığı derinleştirir. {ar:فَوَيْلٌۭ, tr:fa-veyl, gloss:veyl}in nitelikli çığlığı bu iki işitsel hareketle karşılaşınca, bedeni dışarı süren kuvvetin karşısında toparlayan bir ses duyulur. Küçük çocuklar ve bir erkeğin bakımına bağlı küçükler bu alanda yönlendirilen bağımlılar gibi görünür; bu, insan yetimin hayvana çevrildiği anlamına gelmez, fakat hareket ettirilebilir bir birime indirgenme basıncı hissedilir ve bu basınç yetişkin aile üyelerine ya da bütün haneye yayılmaz. Yönlendirme imgesi, korunmasız kişiye uygulanan zorlayıcı sevki görünür kılan bir benzetmedir. Fiilin yüzeyi çağırma fiiline dönüşmez; çağrı alanlarının uzaklaştırıcı eyleme karşı yön göstermesi, (107:2)'deki kuvvetin nereye gittiğini değişik bir açıdan açar.
+
+## Görünür Ritüel, Kaçan Dikkat
+
+Bu imge kümesi, fiziksel itmenin ardında iç kayıtsızlığın nasıl belirebildiğini ve bakış ile dikkat arasındaki farkı görünür kılar. {ar:طَعَامِ, tr:taʿâmi, gloss:yiyecek} kelimesinin besin yanında değer verme ve karşılık verme basıncı, {ar:يُكَذِّبُ, tr:yukadhdhibu, gloss:yalanlayan}ın reddeden ve kendini aldatan yönü, {ar:رَءَيْ, tr:ra'ay, gloss:bakış/gösterme}ın dikkat çağrısı ve {ar:سَاهُونَ, tr:sâhûne, gloss:gafiller}un kalp dalgınlığı bu görüntüyü farklı yönlerden taşır. {ar:ٱلْيَتِيمَ, tr:el-yetîme, gloss:yetimi} için açılan ihmal ve gerekeni eksik yapma alanı, açıkça soru soran veya kendini gösteren kişinin sorumluluğa fiilen sırt çevirebilmesiyle buluşur. Yetim adı gaflet diye yeniden tanımlanmaz; açılan şey, (107:1), (107:3) ve (107:5)'in temasında dikkat talebi ile korunmasız kişiye yönelen davranış arasındaki ahlaki psikolojidir.
+
+Bu karşılaşmanın katkısı, görünür ritüel ile yetime karşı fiilî dikkatin aynı yöne bakmayabileceğini göstermesidir. {ar:رَءَيْ, tr:ra'ay, gloss:bakış/gösterme} ve {ar:يُرَآءُونَ, tr:yurâʾûne, gloss:gösteriş yaparlar} başkalarının önünde sergilenmeyi, {ar:مُصَلِّينَ, tr:muṣallîna, gloss:namaz kılanlar} ve {ar:صَلَاتِ, tr:ṣalâti, gloss:namaz} görünür ritüeli, {ar:يُكَذِّبُ, tr:yukadhdhibu, gloss:yalanlayan} hakikate karşı reddi, {ar:سَاهُونَ, tr:sâhûne, gloss:gafiller} ise dikkatin içten çekilmesini taşır. Bu yüzeyler (107:1), (107:4), (107:5) ve (107:6)'da buluştuğunda, ritüel biçim ile yetime karşı fiilî dikkat arasındaki ayrım belirginleşir. Buradaki okuma namazı otomatik olarak yalanlamaz ve bütün sahnelerdeki kişileri zorunlu olarak tek kişi yapmaz; görünür ibadetin toplumsal karşılığını eylem üzerinden sınar.
+
+Bu karşılaştırmanın katkısı, (107:5)'teki kalp dalgınlığı ve (4:142)'de isteksizce namaza kalkıp insanlara görünme görüntüsünden geriye doğru (107:2)'deki bakım kaçırılmasına bir ışık düşürmesidir. Yetim çocuğun doğrudan nesne olduğu (107:2)'deki bakım eksikliği, (107:5)'te ve (4:142)'de ritüel görünürlük içinde belirginleşen dikkat eksikliğinin önceki yüzü gibi okunabilir. Bu karşılaştırma iki sahneyi zorunlu bir sebep-sonuç zinciri ya da aynı fail iddiasıyla birleştirmez; (107:5)'teki görünürlük, (107:2)'deki muamelenin nasıl bir dikkat sorunu taşıdığını aydınlatan sınırlı bir bağlantı olarak kalır.
+
+Bu dar eşdizim imgesi, erişim ile önlemenin aynı gramer içinde nasıl buluşabildiğini görünür kılar. {ar:يَحُضُّ, tr:yaḥuḍḍu, gloss:teşvik eder}in kendisi için artış arama alanı, {ar:رَءَيْ, tr:ra'ay, gloss:bakış/gösterme} ve {ar:يُرَآءُونَ, tr:yurâʾûne, gloss:gösteriş yaparlar} yüzeylerinde taşınan bedensel iz ve görünürlük alanıyla buluşur. {ar:يَمْنَعُونَ, tr:yemneʿûne, gloss:engellerler} içindeki iffetli reddetme yönü, önlemenin her durumda zulüm değil, bazen bir sınırı koruma olabileceğini hatırlatır. {ar:ٱلْيَتِيمَ, tr:el-yetîme, gloss:yetimi} için kaydedilen, evlilikle sona erip ermediği tartışmalı dar dişil kullanım ihtimali ise bu eril tekil yüzeyle sınırlı bir eşdizim imgesi kurar. Bu ihtimal yetimin tercümesi değildir; ortaklaşan şey erişim ve önleme grameridir ve (107:1), (107:3), (107:6) ve (107:7)'nin farklı yönleri içinde kalır.
+
+## Beden, Hak ve Görünürlük
+
+İtme, gizli bir tutumun kamuya açık ve incelenebilir bir izi gibi görünür. {ar:يَدُعُّ, tr:yeduʿʿu, gloss:itip kakan}ın gözlenebilir kuvveti ve {ar:ٱلْيَتِيمَ, tr:el-yetîme, gloss:yetimi}nin korunmasızlığı, {ar:أَرَءَيْتَ, tr:ara'ayta, gloss:gördün mü}nin bakışı, {ar:يُكَذِّبُ, tr:yukadhdhibu, gloss:yalanlayan}ın tutumsal reddi ve {ar:دِّينِ, tr:d-dîn, gloss:hesap ve karşılık}in hesap fikriyle temas eder. Böylece (107:1)'deki soru, kişiyi yalnızca iç dünyası hakkında söylenmiş bir iddiayla değil, (107:2)'de korunmasız birine nasıl davrandığıyla görünür kılar. Bu davranış bağlılığın incelenebilir bir kaydı olarak okunabilir; tek bir itme, gizli inancın bütün kanıtlarının yerine geçmez. Ayetin sade zulüm bildirimi bu genişlemenin içinde açıkça kalır.
+
+Bu görünür davranış, hak iddiasının beden üzerinde nasıl kapatılabildiğini düşündürür. {ar:يُكَذِّبُ, tr:yukadhdhibu, gloss:yalanlayan} ve {ar:دِّينِ, tr:d-dîn, gloss:hesap ve karşılık} yüzeylerinde açılan hak, aidiyet, borç ve yükümlülük alanı, {ar:ٱلْيَتِيمَ, tr:el-yetîme, gloss:yetimi} için hakkı savunacak koruyucudan yoksun kalmış bir taşıyıcı kurar. Ardından {ar:يَدُعُّ, tr:yeduʿʿu, gloss:itip kakan} reddedilmiş iddianın beden üzerinde uygulanmasına, {ar:يُكَذِّبُ, tr:yukadhdhibu, gloss:yalanlayan} sözle kapatılmasına, {ar:دِّينِ, tr:d-dîn, gloss:hesap ve karşılık} ise bakım veya mülkiyeti yükümlülük olarak tanımamaya bağlanır. Böylece (107:2)'deki itme yalnız bedene değil, çocuğun ayakta durma ve kendisi için hak talep etme imkânına karşı da bir icra gibi görünür. Bu hak-borç ilişkisi, (107:1)'den gelen bağlamsal bir genişleme olarak, odak kelimeye yeni bir sözlük tanımı eklemeden kalır.
+
+(4:10) ve (4:127)'nin yetim hakkı ve adalet alanı, bu toplumsal dışlama kenarını daha önce açılan koruma görüntüsüne bağlar. Bu fiziksel uzaklaştırma, hakkın sahibi ile onu koruması gereken çevre arasına mesafe koyan bir davranış olarak görünür; bu bağlantı (4:10)'daki mal gaspını adlandırmaz. Aynı itme, (107:6)'daki seçilmiş görünürlükle birleştiğinde kimin ortak bakışta kalacağını da düzenleyen bir hareket gibi okunabilir. {ar:أَرَءَيْتَ, tr:ara'ayta, gloss:gördün mü} dikkat çerçevesini, {ar:يُرَآءُونَ, tr:yurâʾûne, gloss:gösteriş yaparlar} ise başkalarının önünde dolaşan cilalı görünüşü taşır. Eşlikçisiz tekil yetim kolayca ortak görüşten çıkarılabilir; gösteriş yapan kişi ise kendi görünüşünü sahnenin merkezinde tutar. Bu, itmenin kesin saikini belirlemez; yalnızca itilmiş kişinin mekândan çıkarılırken tanıkların önündeki hikâyesinin de düzenlenebileceğini gösteren nitelikli bir görüntüdür.
+
+## Yardımın Kapanan Yolu
+
+Bu karşılaşmanın katkısı, fiziksel itmeyle başlayan sınırın el ve kaynak düzeyinde nasıl kapanabildiğini görünür kılmasıdır. Son ayetteki yardımın kesilmesi, bu bedensel sınırı el ve kaynak üzerinden daha belirgin hâle getirir. {ar:يَدُعُّ, tr:yeduʿʿu, gloss:itip kakan}ın bedenle ilk sınır koyan hareketi ve {ar:ٱلْيَتِيمَ, tr:el-yetîme, gloss:yetimi}nin koruyucusuz bağımlı konumu, {ar:يَمْنَعُونَ, tr:yemneʿûne, gloss:engellerler} ile {ar:مَاعُونَ, tr:mâʿûn, gloss:yardım}un (107:7)'deki yardım ve geçiş alanıyla birleşir. Veren elin geri çekilmesi ve kişi ile aranan şey arasına konan bariyer, desteğin savunmasız kişiye ulaşmamasını görünür kılar. Beden, el ve kaynak aynı yönde kapanır; ayrı fiiller birbirine karışmadan, yardımın akışının kesildiği bir sınır düzeni oluşturur. Yardım ve engel imgeleri (107:7)'nin bağlamında kalır; {ar:يَدُعُّ, tr:yeduʿʿu, gloss:itip kakan} fiili yardım etmek ya da bariyer koymak anlamına geçmez.
+
+Bu tersine dönüşün katkısı, koruma sağlayabilecek gücün korunmasız kişi aleyhine çevrildiğinde yardım yolunu nasıl kapattığını görünür kılmasıdır. Koruma tersine döndüğünde yetim, toplumsal bir koruyucu tarafından ikinci kez yetim bırakılmış gibi görünür. {ar:ٱلْيَتِيمَ, tr:el-yetîme, gloss:yetimi} koruyucu ilişkisinin yokluğunu, {ar:يَمْنَعُونَ, tr:yemneʿûne, gloss:engellerler} gücün yardım yönünü kesmesini, {ar:مَاعُونَ, tr:mâʿûn, gloss:yardım} ise hem geçişi sağlayan destek hem de savunma gibi düşünülen gücü taşır. {ar:يَدُعُّ, tr:yeduʿʿu, gloss:itip kakan} ile açılan kuvvet, korunmasız kişiye siper olabilecek kapasiteyi ona karşı çevirir; güvenlik kurabilecek güç, geçilmez bir sınır hâline gelir. Yardımın alternatif alıcı olarak belirginleşmesi, bu gücün korunana yönelmek yerine kaynağı kapattığını gösterir. Bu tersine dönüş (107:7)'nin bağlamsal ilişkisi içinde kalır; savunma gücü, yardım ve bariyer ayrı yüzeyler olarak dururken ayetin sade itme sahnesi korunur.
+
+Bu uzak benzetmenin katkısı, dışarı itmenin yetimin besleyici bir topluluğa katılmasını nasıl engelleyebildiğini ve izolasyonu nasıl koruyabildiğini somutlaştırmaktır. {ar:يَدُعُّ, tr:yeduʿʿu, gloss:itip kakan}ın birleşmeyi önleyen itme kuvveti, {ar:ٱلْيَتِيمَ, tr:el-yetîme, gloss:yetimi}nin eşlikçisiz tek başınalığı ve {ar:طَعَامِ, tr:taʿâmi, gloss:yiyecek}in besleyici bir gövdeye eklemlenme alanı (107:3)'te buluşur. Dışarı itme, sürdürücü çevreye katılmayı engelleyen maddi bir aşı reddi gibi düşünüldüğünde, izolasyonun nasıl korunduğu somutlaşır. Bu alanlar arası benzetmenin sınırı açıktır: beslenme, yiyecek veya itme kelimeleri aşılamaya çevrilmez; fiziksel itme, kişinin kaynak ve koruma çevresinden uzaklaştırıldığı sahnenin içinde kalır.
+
+</editorial_prose>

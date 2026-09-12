@@ -1,0 +1,417 @@
+{
+  "schema_version": "commentary-v5-scope-discovery-v1",
+  "ayah_ref": "101:2",
+  "lane": "global",
+  "coverage_complete": true,
+  "candidate_decisions": [
+    {
+      "candidate_id": "cand_ef3a9ec975305317031c",
+      "decision": "accept",
+      "reason": "The trusted cross-run finding is anchored to 101:2:2, and its checking effect is independently activated by the repeated focus event and the supplied named-event question parallels.",
+      "finding_refs": ["global:repeated-question-check"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_e616e3f5793200f77c11",
+      "decision": "accept",
+      "reason": "The trusted cross-run finding is anchored to 101:2:2, and the supplied host-surah and wider event scenes provide independent transformation triggers for its physical-impact reading.",
+      "finding_refs": ["global:impact-through-effects"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_67291cfe4d743ad31ff3",
+      "decision": "accept",
+      "reason": "The trusted publication supplies the pre-outcome allocation claim, and later heavy/light outcomes plus the supplied weighing parallel provide an independent trigger; the lots-to-weighing relation is retained as explicitly analogical.",
+      "finding_refs": ["global:allocation-before-ruling"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_7246c7ef50cf334db084",
+      "decision": "reject",
+      "reason": "The supplied publication marks this spatial reading as reject, and no independent wider trigger returns through the focus word strongly enough to activate the open-road or courtyard branch; the legacy nomination remains an unsupported analogy.",
+      "finding_refs": [],
+      "branch_exclusions": [
+        {
+          "branch_ref": "root_001219/B010",
+          "reason": "No independent global carrier-trigger relation establishes the open-road or courtyard facet here."
+        }
+      ],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_ec7f2a776d17c7837561",
+      "decision": "reject",
+      "reason": "This is a same-surah composite reader-b record rather than a wider global activation. Its B001 and B004 components are independently handled by exact global findings, while its B010 component fails the independent-trigger test; retaining the composite would mix scope and duplicate distinct findings.",
+      "finding_refs": [],
+      "branch_exclusions": [
+        {
+          "branch_ref": "root_001219/B001",
+          "reason": "The composite record supplies only host-surah context for this branch, not a distinct global finding."
+        },
+        {
+          "branch_ref": "root_001219/B004",
+          "reason": "The composite record supplies only host-surah context for this branch, not a distinct global finding."
+        },
+        {
+          "branch_ref": "root_001219/B010",
+          "reason": "The spatial component has no independent global trigger and is only an unsupported analogy."
+        }
+      ],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_e278e59208ce41d82587",
+      "decision": "reject",
+      "reason": "The retrospective record is confined to later host-surah outcomes and supplies no wider global trigger or focus-return relation in this lane.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_c31aa9a89a4b4f1d36c5",
+      "decision": "represented",
+      "reason": "This wide-reader record is an exact semantic duplicate of the repeated-question checking finding; its legacy source changes qualification but adds no distinct branch, facet, context, or obligation.",
+      "finding_refs": ["global:repeated-question-check"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_c0488ef2c4197cbfdd22",
+      "decision": "represented",
+      "reason": "This wide-reader record is an exact semantic duplicate of the impact-through-effects finding; its legacy source adds corroboration without a distinct branch or semantic obligation.",
+      "finding_refs": ["global:impact-through-effects"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_f666f294e3cf760c8d26",
+      "decision": "represented",
+      "reason": "This wide-reader record is an exact semantic duplicate of the pre-allocation finding; its legacy source preserves the same lots-versus-weighing qualification and no additional facet or obligation.",
+      "finding_refs": ["global:allocation-before-ruling"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_a8cde0c9a19e8868857d",
+      "decision": "narrow",
+      "reason": "Retain the B001 retrospective scene-answer relation: the question's answer becomes legible through the effects shown in 101:4-5. Omit the support's separate B004 allocation transition and its 101:6-7 context from this bounded finding.",
+      "finding_refs": ["global:answer-through-scenes"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [
+        {
+          "context_ref": "101:6",
+          "reason": "This context belongs to the separately reviewed B004 allocation transition, which is outside the retained B001 scene mechanism."
+        },
+        {
+          "context_ref": "101:7",
+          "reason": "This context belongs to the separately reviewed B004 allocation transition, which is outside the retained B001 scene mechanism."
+        }
+      ],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_958206a65bcc94a8d6f3",
+      "decision": "represented",
+      "reason": "The unanchored HFT summary is an exact duplicate of the grounded repeated-question checking finding and contributes no branch, context, or obligation that the finding omits; it is preserved there as legacy-qualified support rather than as an independent activation.",
+      "finding_refs": ["global:repeated-question-check"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_b159f30590d9ba5552c0",
+      "decision": "reject",
+      "reason": "The HFT summary has no supplied exact context ayah, word index, root, attributed role, or focus-return trace; its unanchored claim cannot independently activate the wider transformation reading.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_b466b37ec8219e2af736",
+      "decision": "reject",
+      "reason": "The HFT summary proposes a stripping-and-residual-weight image but supplies no exact carrier, trigger, root, or focus-return trace; the visible summary alone cannot activate it.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_fc29cb60032c42c97ae4",
+      "decision": "reject",
+      "reason": "The HFT summary combines allocation and protective-warning claims without an exact focus-return trace or supplied carrier coordinates, so neither attributed activation can be retained from this record alone.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_4d91d29dd816a9ff6546",
+      "decision": "reject",
+      "reason": "This HFT item is a meta-summary of coexisting mechanisms, not one independently traceable semantic relation; it supplies no exact HFT carrier, trigger, or focus return.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_ed48e880dcde5f9d256a",
+      "decision": "reject",
+      "reason": "This HFT item records an unresolved alternative between iconic knocks and emphatic framing rather than an activated reading, and it supplies no exact trace for independent review.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_2af8dab81c04bee4573a",
+      "decision": "reject",
+      "reason": "This HFT item explicitly leaves place, container, and generative branches as possible undertones or reader-supplied analogies; no exact carrier-trigger-focus-return trace activates any of them.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_fb04cb2080e65f2f39d9",
+      "decision": "reject",
+      "reason": "The split-root torrent model has no supplied focus carrier or returning contact, and the HFT payload itself marks the mapping as exploratory.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_133679f4296ba6c96a4e",
+      "decision": "reject",
+      "reason": "The proposed protection effect is attached to حامية, which is absent from the supplied focus surface; the HFT role therefore lacks a compatible carrier and focus return.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    }
+  ],
+  "findings": [
+    {
+      "finding_ref": "global:repeated-question-check",
+      "origin_candidate_id": "cand_ef3a9ec975305317031c",
+      "represented_candidate_ids": [
+        "cand_c31aa9a89a4b4f1d36c5",
+        "cand_958206a65bcc94a8d6f3"
+      ],
+      "title": "Tekrarlanan adın zihni yeniden uyarması",
+      "claim": "101:2'deki soru, önceki adlandırmayı yalnızca açıklığa kavuşturmaz; adlandırılan olayı zihinde yeniden vuran bir uyarı temasına çevirir.",
+      "mechanism": "Focus taşıyıcısı ٱلْقَارِعَةُ, soru edatı مَا, önceki 101:1 tekrarı ve 69:2 ile 69:4'teki sağlanan adlandırılmış-olay paralelleriyle temas eder; bu temas B006'nın uyarma ve kınamayla caydırma yüzünü, erken bir tanımı kesen ikinci vuruş olarak etkinleştirir.",
+      "reader_payoff": "Okur, soruyu boş bir sözlük sorusu olarak değil, olayın adını yeniden duyurarak kesin hükmü erteleyen bir uyarı hareketi olarak görür.",
+      "containment": "Birincil okuma olan sarsıcı felaket sorusu korunur. Buradaki uyarı ve kınama ilişkisi bağlamsal bir yankıdır; sözcüğün doğrudan sözlü azar anlamına geldiği ya da hedef ayetlerin aynı sözlük anlamını taşıdığı ileri sürülmez. Hedef morfolojisi sağlanmadığından paraleller biçimsel tetikleyici olarak tutulur.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": ["legacy_unbound", "trusted"],
+        "reason": "Odak QAC taşıyıcısı ve kabul edilmiş dal kaydı sağlanmıştır; çekirdek iddia güvenilir yayında bulunur, ancak geniş paralellerin hedef morfolojisi yoktur ve ek reader/HFT desteği legacy_unbound olarak nitelendirilir."
+      },
+      "support_ids": [
+        "sup_b242b7936a9fd1769a59",
+        "sup_b7b6dc6ef55606b81058",
+        "sup_5a54f956840c0685fcd2"
+      ],
+      "branch_activations": [
+        {
+          "branch_ref": "root_001219/B006",
+          "facet_id": "F003",
+          "branch_gloss": "öğütle yola gelmek; durdurmak veya azarlamak",
+          "facet_statement": "Sertçe azarlama ve kınama, muhatabı yanlış davranıştan caydırmaya yönelir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["101:2:2:2"],
+          "trigger_refs": [
+            "101:1",
+            "69:2",
+            "69:4",
+            "conn_c4738fce56b3817a92c6",
+            "conn_12932f5a6437a022d4a4"
+          ],
+          "focus_return_refs": ["101:2:2:2"],
+          "carrier": "ٱلْقَارِعَةُ, odağın sarsıcı olay adını taşıyan biçimidir; bu taşıyıcı uyarıcı bir vuruş imgesine açılır.",
+          "independent_trigger": "101:1'deki ad tekrarı ile 69:2 ve 69:4'te sağlanan adlandırılmış-olay soru ve tekrarları, aynı olay adının tanımı kapatmadan yeniden öne çıkmasını sağlar; hedef ayetlerin Arapça yüzeyi vardır, hedef morfolojisi yoktur.",
+          "activation": "Önceki adlandırma ve soru yapısı, odak taşıyıcısının uyarma/kınama facetine temas eder; böylece ikinci soru, yerleşmiş bir tanımı kesip muhatabın anlayışına yeniden vuran bir kontrol hareketi olarak okunur.",
+          "resulting_reading": "مَا ٱلْقَارِعَةُ, sarsıcı felaketin ne olduğunu sorarken, olayın adını zihinde yeniden vuran ve ölçüsünü açık bırakan bir uyarı sorusuna dönüşür.",
+          "boundary": "Bu, bağlamsal bir uyarı ve denetleme yankısıdır; odak sözcüğünün burada doğrudan sözlü azar olduğu veya hedef paralellerin aynı dalı sözlük düzeyinde taşıdığı iddia edilmez."
+        }
+      ],
+      "connection_refs": [
+        "conn_c4738fce56b3817a92c6",
+        "conn_12932f5a6437a022d4a4"
+      ],
+      "context_refs": ["101:1", "69:2", "69:4"],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:impact-through-effects",
+      "origin_candidate_id": "cand_e616e3f5793200f77c11",
+      "represented_candidate_ids": ["cand_c0488ef2c4197cbfdd22"],
+      "title": "Dönüşümler olayın cevabını görünür kılar",
+      "claim": "Adlandırılan felaket, anlamını soyut bir eşdeğerden çok insan ve madde üzerindeki dönüşümlerle görünür kılar.",
+      "mechanism": "Focus taşıyıcısı ٱلْقَارِعَةُ, 101:4-5'teki insan ve dağ dönüşümleriyle, ayrıca 22:2 ve 56:5-6'da sağlanan insanın sarsılması ve dağın parçalanıp dağılması sahneleriyle temas eder; B001'in fiziksel vuruş/çarpma çekirdeği böylece olayın etkilerini taşıyan bir işleyişe dönüşür.",
+      "reader_payoff": "Okur, sorunun cevabını yeni bir eşanlamlıda değil, felaketin insan düzenini ve sağlam görünen maddeyi nasıl dönüştürdüğünde görmeye başlar.",
+      "containment": "Birincil sarsıcı felaket anlamı yerinde kalır. Geniş ayetler etki paralelleridir; odak sözcüğünün sıradan bir nesneye vurma anlamına indirgenmesi veya hedef ifadelerin sözlükçe özdeş sayılması ileri sürülmez. Hedef morfolojisi sağlanmadığı için bağlantılar yalnızca sağlanan Arapça yüzeyi ve açık sahne notları kadar kullanılır.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": ["legacy_unbound", "trusted"],
+        "reason": "Odak taşıyıcısı, B001 çekirdeği ve güvenilir cross-run desteği sağlanmıştır; sahnelerin odak başlığının etkileri olarak birleştirilmesi yorumlayıcıdır ve reader desteğinin bir bölümü legacy_unbound'dır."
+      },
+      "support_ids": [
+        "sup_0b1cba7300050f055e0d",
+        "sup_b8edd04360dbb94d8495"
+      ],
+      "branch_activations": [
+        {
+          "branch_ref": "root_001219/B001",
+          "facet_id": "F001",
+          "branch_gloss": "bir şeye vurmak veya çarpmak",
+          "facet_statement": "Bir nesne başka bir nesneye vurulur veya çarptırılır; kapı çalma ve hayvana vurma bu çekirdeğin uygulamalarıdır.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["101:2:2:2"],
+          "trigger_refs": [
+            "101:4",
+            "101:5",
+            "22:2",
+            "56:5",
+            "56:6",
+            "conn_a7a8e9482b19e41c0b60",
+            "conn_f16dd1428bfda7fccf2c",
+            "conn_c2af09bbcc7ea9c38953"
+          ],
+          "focus_return_refs": ["101:2:2:2"],
+          "carrier": "ٱلْقَارِعَةُ, odağın sarsan olay başlığıdır; B001 bu başlığın vuruş ve çarpma çekirdeğini taşır.",
+          "independent_trigger": "101:4-5'te sağlanan insan ve dağ dönüşümleri ile 22:2 ve 56:5-6'da sağlanan insanın sarsılması, dağın parçalanması ve dağılmış madde sahneleri, bağımsız etki görüntüleri kurar.",
+          "activation": "Bu ayrı dönüşüm sahneleri sonuç olarak okunduğunda, fiziksel etki çekirdeği odak başlığını soyut bir ad olmaktan çıkarıp insan ve madde üzerinde işleyen bir kuvvet olarak duyurur.",
+          "resulting_reading": "Soru, sarsıcı felaketin ne olduğunu onun insanları dağıtan ve sağlam görünen maddeyi çözen etkileri üzerinden görünür kılmaya açılır.",
+          "boundary": "Hedef sahneler etki bakımından paraleldir; odak sözcüğü burada sıradan bir fiziksel darbe değildir ve hedef ifadeler aynı sözlük dalının doğrudan örnekleri olarak sunulmaz."
+        }
+      ],
+      "connection_refs": [
+        "conn_a7a8e9482b19e41c0b60",
+        "conn_f16dd1428bfda7fccf2c",
+        "conn_c2af09bbcc7ea9c38953"
+      ],
+      "context_refs": ["101:4", "101:5", "22:2", "56:5", "56:6"],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:allocation-before-ruling",
+      "origin_candidate_id": "cand_67291cfe4d743ad31ff3",
+      "represented_candidate_ids": ["cand_f666f294e3cf760c8d26"],
+      "title": "Hükümden önce açık kalan pay",
+      "claim": "Soru, sonuçların ağır veya hafif diye ayrılmasından önce hükmü açık tutan bir paylaştırma eşiği de kurar.",
+      "mechanism": "Focus taşıyıcısı ٱلْقَارِعَةُ, 101:6-7'deki ağır ve hafif sonuçların öncesindeki belirsizlikle ve 83:3'te sağlanan tartma/değerlendirme diliyle temas eder; B004'ün kura ve paylaştırma çekirdeği, henüz sonucu düşmemiş bir seçme anını analogik olarak görünür kılar.",
+      "reader_payoff": "Okur, sorunun yalnızca olayın büyüklüğünü sormadığını, sonuçların henüz dağıtılmadığı bir karar eşiğini de açık tuttuğunu fark eder.",
+      "containment": "Felaket sorusu birincil zemindir. Sonraki tartma, kura çekmeyle özdeşleştirilmez; B004 burada gerçek bir kura olayı iddiası olarak değil, hükümden önce payın belirsiz kalmasını anlatan analogik bir kontur olarak tutulur. 83:3 bağlantısının karşı yöndeki no-value kaydı da bu sınırlamayla birlikte görünürdür.",
+      "epistemic": {
+        "status": "exploratory",
+        "source_trust": ["legacy_unbound", "trusted"],
+        "reason": "Odak dalı ve ağır/hafif sonuçlara ilişkin güvenilir aday desteği vardır; kura ile tartma arasındaki ilişki açıkça analogiktir, yayın derecesi zayıftır ve desteklerin bir bölümü legacy_unbound'dır."
+      },
+      "support_ids": [
+        "sup_cd6e23a248649b116508",
+        "sup_34570b13dadd4d27ffbf"
+      ],
+      "branch_activations": [
+        {
+          "branch_ref": "root_001219/B004",
+          "facet_id": "F001",
+          "branch_gloss": "kura çekmek ve kurayla paylaştırmak",
+          "facet_statement": "Birden çok kişi veya ortak, seçim ya da bölüşüm sonucunu tarafsız biçimde belirlemek için kura çeker.",
+          "application_mode": "analogical",
+          "carrier_refs": ["101:2:2:2"],
+          "trigger_refs": [
+            "101:6",
+            "101:7",
+            "83:3",
+            "conn_4c18c03f6dca12ad0f32"
+          ],
+          "focus_return_refs": ["101:2:2:2"],
+          "carrier": "ٱلْقَارِعَةُ, sonucu henüz açıklanmamış sarsıcı olayın adıdır; B004 bu adın seçim ve payın düşmesi eşiği yönünü taşır.",
+          "independent_trigger": "101:6-7'de sağlanan ağır ve hafif sonuçların ayrımı ile 83:3'te sağlanan açık tartma/değerlendirme dili, sonucun öncesinde bir değerlendirme ve dağıtım çerçevesi kurar.",
+          "activation": "Sonuçları farklılaşmış tartma sahnesi, soru içinde henüz belirlenmemiş payı B004'ün kura/paylaştırma çekirdeğiyle analogik olarak buluşturur; böylece soru hükümden önceki eşik hareketini de taşır.",
+          "resulting_reading": "Soru, sarsıcı olayın ne olduğunu sorarken, sonucu henüz kişilere düşmemiş bir seçme ve paylaştırma eşiğini açık bırakır.",
+          "boundary": "Tartma ile literal kura eşitlenmez; bu aktivasyon, B004'ü yalnızca sonuçtan önceki analogik paylaştırma belirsizliği kadar taşır."
+        }
+      ],
+      "connection_refs": ["conn_4c18c03f6dca12ad0f32"],
+      "context_refs": ["101:6", "101:7", "83:3"],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:answer-through-scenes",
+      "origin_candidate_id": "cand_a8cde0c9a19e8868857d",
+      "represented_candidate_ids": [],
+      "title": "Sorunun cevabının sahnelerle açılması",
+      "claim": "Soru, cevabını bir eşanlamlıyla kapatmak yerine sonraki sahnelerin etkileriyle açılacak bir anlam hareketi kurar.",
+      "mechanism": "101:3'teki bilme çerçevesi ve 101:4-5'te sağlanan insan ile dağ dönüşümleri, focus taşıyıcısı ٱلْقَارِعَةُ ile B001'in etki çekirdeğini buluşturur; okurun görevi tanım aramaktan olayın etkilerini izlemeye döner.",
+      "reader_payoff": "Okur, sorunun cevabının boşlukta bırakılmadığını, sonraki somut sahnelerde gerçekleşen etkiler aracılığıyla verildiğini görür.",
+      "containment": "Birincil sarsıcı felaket sorusu korunur ve sonraki sahneler odak sözcüğünün sözlük tanımı sayılmaz. Kaynakta ayrıca belirtilen 101:6-7 allocation geçişi bu bounded finding'e alınmamıştır; o hareket B004 bulgusunda tutulur.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": ["legacy_unbound"],
+        "reason": "Retrospective reader kaydı 101:3-5 arasındaki before/after hareketini açıkça bildirir; kayıt legacy_unbound'dır ve bu nedenle yalnızca sağlanan odak taşıyıcısı ile host-surah refleri sınırında tutulur."
+      },
+      "support_ids": ["sup_4d32f03561595a8cad9c"],
+      "branch_activations": [
+        {
+          "branch_ref": "root_001219/B001",
+          "facet_id": "F001",
+          "branch_gloss": "bir şeye vurmak veya çarpmak",
+          "facet_statement": "Bir nesne başka bir nesneye vurulur veya çarptırılır; kapı çalma ve hayvana vurma bu çekirdeğin uygulamalarıdır.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["101:2:2:2"],
+          "trigger_refs": ["101:3", "101:4", "101:5"],
+          "focus_return_refs": ["101:2:2:2"],
+          "carrier": "ٱلْقَارِعَةُ, odakta sorulan sarsıcı olayın adıdır; B001 bu adın sonuç üreten etki yönünü taşır.",
+          "independent_trigger": "101:3'teki bilme çerçevesi ile 101:4-5'teki insan ve dağ dönüşümleri, tanım yerine izlenebilir etkiler sağlayan bağımsız host-surah tetikleyicileridir.",
+          "activation": "Bilme çerçevesi sonraki sahneleri cevabın taşıyıcısı olarak açar; bu sahnelerin dönüşümü odak başlığının B001 etki çekirdeğine dönerek soruyu izlenebilir bir olay hareketine çevirir.",
+          "resulting_reading": "ما القارعةُ, cevabı tek bir sözlük karşılığında kapatılmayan ve etkilerinin sahnelenmesiyle açılan sarsıcı olay sorusu olarak kalır.",
+          "boundary": "Bu bulgu, sonraki sahnelerin odak adını etkileriyle açtığını söyler; 101:6-7'deki ayrı paylaştırma okumasını ve herhangi bir literal nesne-nesne darbesini iddia etmez."
+        }
+      ],
+      "connection_refs": [],
+      "context_refs": ["101:3", "101:4", "101:5"],
+      "semantic_obligation_refs": []
+    }
+  ],
+  "friction_notes": [
+    "HFT packetında dokuz legacy_unbound özet kaydı görünür, ancak sıfır sağlanmış anchor occurrence ile exact HFT carrier/trigger/focus-return trace içerir; bu kayıtlar bağımsız dal aktivasyonu olarak kullanılamadı.",
+    "Connection kayıtları hedef Arapçasını sağlıyor, hedef morfolojisini sağlamıyor; bağlantı temelli bulgular bu nedenle qualified veya analogical tutuldu ve hedef yön etiketleri karar yerine geçirilmedi.",
+    "Seçilmiş context-unit projection sağlanmadı; retrospective kaydın kullandığı host-surah refleri yalnızca destek metni ilgili sahneleri açıkça adlandırdığı ve aktivasyon trigger'larına indiği yerde kullanıldı.",
+    "226 bağlantı satırının tamamının incelenmesinden sonra B006 biçimsel soru, B001 dönüşüm ve B004 değerlendirme ailelerinin dışında ayrı bir focus-return taşıyan candidate-free aktivasyon bulunmadı."
+  ]
+}

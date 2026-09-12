@@ -1,0 +1,361 @@
+{
+  "schema_version": "commentary-v5-scope-landing-ledger-v1",
+  "ayah_ref": "111:2",
+  "lane": "global",
+  "findings": [
+    {
+      "finding_ref": "global:substitution",
+      "landings": [
+        {
+          "movement_refs": [
+            "discovery:claim",
+            "discovery:mechanism",
+            "discovery:reader_payoff"
+          ],
+          "paragraph": 3,
+          "anchor": "Burada {ar:أَغْنَىٰ عَنْهُ, tr:ağnâ anhu, gloss:ona yeterli olup yerine geçmek} yalnızca “yardım etmedi” demekle kalmaz: kişinin önüne geçip onun yerini tutabilecek bir şeyi sınar ve bu imkânı kapatır."
+        },
+        {
+          "movement_refs": [
+            "discovery:containment"
+          ],
+          "paragraph": 3,
+          "anchor": "Bu genişleme, her mal veya kazanç kullanımını otomatik olarak bir vekil imgesine çevirmeden, bu cümlenin kişiye yönelen `عَنْهُ` ilişkisiyle sınırlı kalır."
+        },
+        {
+          "movement_refs": [
+            "activation:0",
+            "activation:1",
+            "activation:2",
+            "connection:conn_f7178fd03b6204452338",
+            "connection:conn_0a400c92fef7902531e0",
+            "connection:conn_aeb3724cf0f22c46375d",
+            "context:92:11",
+            "context:69:28",
+            "context:15:84"
+          ],
+          "paragraph": 3,
+          "anchor": "92:11'de malın sahibine yarar sağlayamaması, {ar:أَغْنَىٰ, tr:ağnâ, gloss:başkasının yerini tutacak kadar yeterli olmak} kelimesindeki yerine geçme imgesini; 69:28'de kişisel malın, 15:84'te ise edinilmiş şeylerin sonuç karşısında yetersiz kalması, {ar:مَالُهُۥ وَمَا كَسَبَ, tr:mâluhu ve mâ kesebe, gloss:onun malı ve kazandığı şey} ikilisinin aynı koruma sınamasına girmesini görünür kılar."
+        }
+      ]
+    },
+    {
+      "finding_ref": "global:household-protection",
+      "landings": [
+        {
+          "movement_refs": [
+            "discovery:claim",
+            "discovery:mechanism",
+            "discovery:reader_payoff",
+            "discovery:containment"
+          ],
+          "paragraph": 4,
+          "anchor": "Böylece evlilik bağı, `ağnâ`nın doğrudan karşılığı haline gelmeden, cümlenin başarısız yeterlik alanına giren bir koruma beklentisi olarak belirir."
+        },
+        {
+          "movement_refs": [
+            "activation:0"
+          ],
+          "paragraph": 4,
+          "anchor": "{ar:وَٱمْرَأَتُهُ, tr:ve-mraetuhu, gloss:eşi} sözü 111:4'te yük taşıyan bir eş görüntüsü getirir; 24:32'de evlilik, yoksulluk içindeki kişiye ulaşan yeterlik ve destekle birlikte anılır."
+        },
+        {
+          "movement_refs": [
+            "activation:1"
+          ],
+          "paragraph": 4,
+          "anchor": "66:10'daki evli hane örneği ise yakınlığın belirleyici sonuç karşısında koruma sağlayamadığını gösterir; bu temas, sonraki eş görüntüsünü malın yerine geçmesi beklenen hane desteğiyle buluşturur."
+        },
+        {
+          "movement_refs": [
+            "connection:conn_af5a9777d73257b71a23",
+            "connection:conn_b791e24f1252e285e2c7",
+            "context:111:4",
+            "context:24:32",
+            "context:66:10"
+          ],
+          "paragraph": 4,
+          "anchor": "Bu sınama hane ilişkisine de uzanabilir."
+        }
+      ]
+    },
+    {
+      "finding_ref": "global:resource-fuel",
+      "landings": [
+        {
+          "movement_refs": [
+            "discovery:claim",
+            "discovery:mechanism",
+            "discovery:reader_payoff"
+          ],
+          "paragraph": 5,
+          "anchor": "Malın ve kazancın başarısızlığı, sonraki ateş sahnesiyle maddi bir tersine dönüş kazanır."
+        },
+        {
+          "movement_refs": [
+            "discovery:containment"
+          ],
+          "paragraph": 5,
+          "anchor": "Bu bağ, kaynak anlamını silmez; yalnızca beklenen yararın nasıl ters yöne çevrildiğini gösteren nitelikli bir bağlamsal okumadır."
+        },
+        {
+          "movement_refs": [
+            "activation:0",
+            "activation:1",
+            "context:111:3",
+            "context:111:4"
+          ],
+          "paragraph": 5,
+          "anchor": "111:3'te ateşle karşılaşma, 111:4'te taşınan odun aynı sıralamada belirir; böylece {ar:مَالُهُۥ وَمَا كَسَبَ, tr:mâluhu ve mâ kesebe, gloss:onun malı ve elde ettiği kazanç} önce koruma sağlaması beklenen kaynak, ardından gelen yıkıcı düzenin girdisi olarak duyulur."
+        }
+      ]
+    },
+    {
+      "finding_ref": "global:earned-circulation",
+      "landings": [
+        {
+          "movement_refs": [
+            "discovery:claim",
+            "discovery:mechanism",
+            "discovery:reader_payoff"
+          ],
+          "paragraph": 6,
+          "anchor": "Sonraki {ar:كَسَبَ, tr:kesebe, gloss:arayıp elde etmek} fiilinin nesnesini açık bırakan `mâ`, kazancı yalnızca kapalı bir bilanço kalemi olarak değil, bir eylemin dışarı taşan sonucu olarak da düşündürür."
+        },
+        {
+          "movement_refs": [
+            "discovery:containment"
+          ],
+          "paragraph": 6,
+          "anchor": "Yine de odak cümlede açık bir iki nesneli “başkasına kazandırma” yapısı bulunmadığı için bu genişleme doğrudan gramer değil, bağlamın açtığı keşifsel bir uzantıdır."
+        },
+        {
+          "movement_refs": [
+            "activation:0"
+          ],
+          "paragraph": 6,
+          "anchor": "111:4'te başka bir taşıyıcının yükü, 6:3'te gizli ve açık edinimlerin bilinmesi, 7:39'da kazanılan şeyin tadılan sonuca bağlanması ve 2:81'de edinilmiş kötülüğün sahibini kuşatması, bu sonucun kişisel stoktan daha geniş bir etki zincirine ulaşmasını sağlar."
+        },
+        {
+          "movement_refs": [
+            "activation:1",
+            "connection:conn_2a35d4d6914f0a486e6f",
+            "connection:conn_27b3b30a1f95176ecab8",
+            "connection:conn_b692a201073db5db7f43",
+            "context:111:4",
+            "context:6:3",
+            "context:7:39",
+            "context:2:81"
+          ],
+          "paragraph": 6,
+          "anchor": "Bu temaslar, kazanç kelimesinin kendi edinme anlamını korurken, başkasının taşıdığı bir yükte veya dışarı çıkan bir etkide de okunabilen bir sonuç alanı açar."
+        }
+      ]
+    },
+    {
+      "finding_ref": "global:resource-economy",
+      "landings": [
+        {
+          "movement_refs": [
+            "discovery:claim",
+            "discovery:mechanism",
+            "discovery:reader_payoff"
+          ],
+          "paragraph": 7,
+          "anchor": "Mal ve kazanımın birlikte anılması, `ağnâ`nın maddi bolluk ve ihtiyaçtan bağımsızlık yönünü de duyurur."
+        },
+        {
+          "movement_refs": [
+            "discovery:containment"
+          ],
+          "paragraph": 7,
+          "anchor": "Bu geniş okuma, `ağnâ`yı her yerde aynı anlama sabitlemez; bu ayetteki mülkiyet ve edinimle kurulan koruma temasına bağlı, ihtiyatlı bir ikinci katman olarak kalır."
+        },
+        {
+          "movement_refs": [
+            "activation:0",
+            "activation:1"
+          ],
+          "paragraph": 7,
+          "anchor": "92:8'de kendine yeterlik ile elde tutma arasındaki bağ, burada “çok mala sahip olma”nın yanı sıra “kimseye ihtiyaç duymama” tavrını da kişiye dönük başarısız koruma ilişkisine bağlar; böylece mal, ihtiyaçsızlık ve elde etme etkinliği tek bir güvenlik düzeninin parçaları olarak görünür."
+        },
+        {
+          "movement_refs": [
+            "activation:2"
+          ],
+          "paragraph": 7,
+          "anchor": "92:11'deki açık yerine geçme sınaması, {ar:أَغْنَىٰ, tr:ağnâ, gloss:ihtiyacı karşılayıp yerini tutmak} kelimesinin ilişkisel yönünü malın ve kazancın üzerine yeniden getirir."
+        },
+        {
+          "movement_refs": [
+            "activation:3"
+          ],
+          "paragraph": 7,
+          "anchor": "104:3'te malın kalıcılık sağlayacağı sanısı, {ar:مَالُهُۥ, tr:mâluhu, gloss:değer taşıyan varlık} için güvenlik beklentisini somutlaştırır; bu ayetin olumsuzlaması ise o beklentinin kişiyi korumadığını gösterir."
+        },
+        {
+          "movement_refs": [
+            "activation:4",
+            "connection:conn_8518ad4100c2f95d8c72",
+            "connection:conn_f7178fd03b6204452338",
+            "connection:conn_2297d06ea9f6462e4cf7",
+            "connection:conn_aeb3724cf0f22c46375d",
+            "context:92:8",
+            "context:92:11",
+            "context:104:3",
+            "context:15:84"
+          ],
+          "paragraph": 7,
+          "anchor": "15:84'te kazanılmış şeylerin sonuç karşısında yetersiz kalması, {ar:كَسَبَ, tr:kesebe, gloss:yarar arayıp elde etmek} fiilini aynı mülkiyet düzeninin üretici tarafı olarak tamamlar."
+        }
+      ]
+    },
+    {
+      "finding_ref": "global:combustible-sequence",
+      "landings": [
+        {
+          "movement_refs": [
+            "discovery:claim",
+            "discovery:mechanism",
+            "discovery:reader_payoff"
+          ],
+          "paragraph": 5,
+          "anchor": "Odun taşıyıcısı ile ateş kullanımı, odak ayetteki mal ve kazanımın önüne bağımsız maddi tetikleyiciler koyarak kaynak çiftini yakıt sahnesine bağlar."
+        },
+        {
+          "movement_refs": [
+            "discovery:containment"
+          ],
+          "paragraph": 5,
+          "anchor": "Burada malın kelimesi kelimesine odun olduğu söylenmez; odun ve ateş, mal ile kazancın koruyucu sermaye olmaktan çıkıp yıkıcı sonuca bağlanmasını görünür kılar."
+        },
+        {
+          "movement_refs": [
+            "activation:0",
+            "activation:1"
+          ],
+          "paragraph": 5,
+          "anchor": "Bu maddi sahnenin ayrıntısı da önemlidir: 111:4'te {ar:ٱلْحَطَبِ, tr:el-hatab, gloss:toplanmış odun ve yakacak} toplanıp taşınan yakıtı, 111:3'te {ar:سَيَصْلَىٰ, tr:se-yaslâ, gloss:ateşle işleyen ve ateşe giren kullanım} yakma, ateşle temas ve ateşte düzeltme imgesini taşır."
+        },
+        {
+          "movement_refs": [
+            "activation:2",
+            "activation:3",
+            "context:111:3",
+            "context:111:4"
+          ],
+          "paragraph": 5,
+          "anchor": "Bu iki sonraki görüntü, {ar:مَالُهُۥ, tr:mâluhu, gloss:sahip olunan değer} ile {ar:كَسَبَ, tr:kesebe, gloss:aranıp elde edilen yarar} kelimelerinin beklenen fayda yönünü birlikte çevirir: elde edilen şey ateşin ve odunun kurduğu sonuca girdi sağlayabilir."
+        }
+      ]
+    },
+    {
+      "finding_ref": "global:agency-circulation",
+      "landings": [
+        {
+          "movement_refs": [
+            "discovery:claim",
+            "discovery:mechanism",
+            "discovery:reader_payoff"
+          ],
+          "paragraph": 8,
+          "anchor": "Bu düzenin bir başka yüzü, kazancın daha önceki ellere bağlanmasıdır."
+        },
+        {
+          "movement_refs": [
+            "discovery:containment"
+          ],
+          "paragraph": 8,
+          "anchor": "Başkasına kazandırma yönü burada bu sonuç zincirine benzetme yoluyla eklenir; odak fiilinin grameri, elleri doğrudan özne yapmadığı ve açık iki nesneli yapı kurmadığı için okuma, eylemin etkisinin taşıyıcılar üzerinden sürmesine dair ihtiyatlı bir bağlamsal genişleme olarak kalır."
+        },
+        {
+          "movement_refs": [
+            "activation:0"
+          ],
+          "paragraph": 8,
+          "anchor": "111:1'deki {ar:يَدَا, tr:yedâ, gloss:kişinin elleri ve eylemleri} yalnızca beden parçası değil, kişinin yaptığı işlerin taşıyıcısı olarak belirir; ardından gelen `كَسَبَ`, bu eylemlerin sonucunu adlandırır ve 111:4'teki taşıma görüntüsü sonucu başka birinin yükünde görünür kılar."
+        },
+        {
+          "movement_refs": [
+            "activation:1"
+          ],
+          "paragraph": 8,
+          "anchor": "Bu el-eylem bağlantısı, `كَسَبَ`nin kendisi için yarar arayıp elde etme anlamını korur: 6:3 edinimleri açık ve gizli seyriyle, 7:39 kazanılan şeyleri tadılan sonuçla, 2:81 ise edinilmiş kötülüğü sahibini kuşatan sonuçla ilişkilendirir."
+        },
+        {
+          "movement_refs": [
+            "activation:2",
+            "connection:conn_2a35d4d6914f0a486e6f",
+            "connection:conn_27b3b30a1f95176ecab8",
+            "connection:conn_b692a201073db5db7f43",
+            "context:111:1",
+            "context:111:4",
+            "context:6:3",
+            "context:7:39",
+            "context:2:81"
+          ],
+          "paragraph": 8,
+          "anchor": "Böylece ayet, özel mal hesabının yanında, ellerin başlattığı ve başkasının taşıdığı eylem ağını da düşündürür; bu, sade anlamı genişletir."
+        }
+      ]
+    },
+    {
+      "finding_ref": "global:dwelling-security",
+      "landings": [
+        {
+          "movement_refs": [
+            "discovery:claim",
+            "discovery:mechanism",
+            "discovery:reader_payoff",
+            "discovery:containment"
+          ],
+          "paragraph": 9,
+          "anchor": "Bu, yerleşme anlamının doğrudan çeviri karşılığı değil, hareket ve yerleşim karşıtlığından çıkan keşifsel bir okumadır; sade “yarar sağlamadı” hükmü aynen ayakta kalır."
+        },
+        {
+          "movement_refs": [
+            "activation:0",
+            "activation:1",
+            "connection:conn_cd1e36e15d98ededd007",
+            "connection:conn_2297d06ea9f6462e4cf7",
+            "context:111:4",
+            "context:111:5",
+            "context:11:68",
+            "context:104:3"
+          ],
+          "paragraph": 9,
+          "anchor": "111:4-5'teki taşıma, hareket ve boyna bağlanan ip görüntüleri, 11:68'de silinmiş yerleşim karşısında “orada yaşamış olma” çağrışımı ve 104:3'te malın kalıcılık sağlayacağı sanısı birlikte düşünüldüğünde, sahip olunan şeyin kişiyi güvenli bir yerde tutamaması görünür olur."
+        }
+      ]
+    },
+    {
+      "finding_ref": "global:firewood-retrospect",
+      "landings": [
+        {
+          "movement_refs": [
+            "discovery:claim",
+            "discovery:mechanism",
+            "discovery:reader_payoff"
+          ],
+          "paragraph": 10,
+          "anchor": "Sonradan belirginleşen odun görüntüsü, kazanç sözünü başka bir yönden somutlaştırır."
+        },
+        {
+          "movement_refs": [
+            "discovery:containment"
+          ],
+          "paragraph": 10,
+          "anchor": "Bu geriye dönük bağ, kazancın kelimesi kelimesine odun olduğunu söylemez; fiziksel yakacak, başkasına taşıtılan sonucun taşıyıcısı olarak kalır ve bu nitelikli görüntü sade anlamın yanına eklenir."
+        },
+        {
+          "movement_refs": [
+            "activation:0",
+            "context:111:4"
+          ],
+          "paragraph": 10,
+          "anchor": "111:4'teki {ar:ٱلْحَطَبِ, tr:el-hatab, gloss:toplanmış odun ve yakacak}, {ar:مَا كَسَبَ, tr:mâ kesebe, gloss:onun elde ettiği şey} ifadesinin açık bıraktığı sonucu, başka birinin taşıdığı maddi bir yük olarak geri getirir; böylece kazanılmış şey, sahibinin eyleminden kopmadan dolaşıma konmuş bir etki gibi okunur."
+        }
+      ]
+    }
+  ]
+}
