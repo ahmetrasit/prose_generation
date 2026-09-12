@@ -899,6 +899,10 @@ def _stage_state(
         state["status"] = event_status
         return state
 
+    if stage == "invitation" and artifact_is_current("invitation"):
+        state["status"] = "completed"
+        return state
+
     if event_status == "completed":
         required_artifact = (
             stage if stage in (*LANES, "invitation") else "editorial"
@@ -938,8 +942,7 @@ def _stage_state(
             state["status"] = "ready"
     elif stage == "invitation":
         if "invitation" in artifacts:
-            # Only a terminal invitation event attests that validation passed.
-            state["status"] = "active"
+            state["status"] = "completed"
         elif "invitation_prompt" in artifacts:
             state["status"] = "ready"
     return state

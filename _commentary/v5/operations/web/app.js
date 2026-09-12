@@ -270,9 +270,21 @@ function isStalled(task) {
 }
 
 function displayStatus(task) {
-  if (["failed", "attention"].includes(task.status)) return task.status;
-  if (task.status === "active" && isStalled(task)) return "stalled";
-  return task.status || "pending";
+  const status = effectiveStatus(task);
+  if (["failed", "attention"].includes(status)) return status;
+  if (status === "active" && isStalled(task)) return "stalled";
+  return status;
+}
+
+function effectiveStatus(task) {
+  const status = task.status || "pending";
+  if (
+    !ATTENTION_STATES.has(status)
+    && (task.artifact_kinds || []).includes("invitation")
+  ) {
+    return "completed";
+  }
+  return status;
 }
 
 function currentStep(task) {
@@ -281,8 +293,9 @@ function currentStep(task) {
   const failed = Object.entries(task.stages || {})
     .find(([, value]) => ATTENTION_STATES.has(value.status));
   if (failed) return STAGE_NAMES[failed[0]] || failed[0];
-  if (task.status === "awaiting_validation") return "Validation";
-  if (task.status === "completed") return "Done";
+  const status = effectiveStatus(task);
+  if (status === "awaiting_validation") return "Validation";
+  if (status === "completed") return "Done";
   const ready = Object.entries(task.stages || {}).find(([, value]) => value.status === "ready");
   return ready ? STAGE_NAMES[ready[0]] || ready[0] : "Not started";
 }
@@ -384,7 +397,7 @@ function sortedTasks(tasks) {
 function updateMetrics(tasks) {
   const active = tasks.filter((task) => statusGroup(task) === "active");
   const attention = tasks.filter((task) => statusGroup(task) === "attention");
-  const completed = tasks.filter((task) => task.status === "completed");
+  const completed = tasks.filter((task) => effectiveStatus(task) === "completed");
   const agents = new Set(active.flatMap(agentsForTask));
   const reruns = tasks.filter((task) => attemptCount(task) > 1).length;
   elements["metric-total"].textContent = tasks.length.toLocaleString();
