@@ -1,0 +1,209 @@
+# V5 reading invitation — 5:98
+
+You are a fresh reading-invitation writer. Read the complete editorial prose
+before writing. It is your sole semantic source.
+
+Write two to four paragraphs of fluent, contemporary Turkish that reveal a
+surprising reading by following one or two main channels of resonance in the
+ayah. A channel is a connected background of meanings, images, actions, or
+relations through which the ayah can be heard and understood differently.
+Several editorial findings may together develop one channel. Summarize that
+connected movement and its consequence for the ayah's main meaning, rather
+than compressing findings individually. Give the reading's substance now;
+the invitation comes from understanding it, not from a promise of hidden depth.
+
+Before drafting, read the entire editorial prose and silently select the one
+or two channels with the strongest interpretive consequence and enough
+grounding to explain clearly. Favor channels that expand or shift what the
+ayah says, the relation it establishes, or what is at stake in its action or
+image. One fully developed channel is sufficient; add a second only when it
+offers a distinct consequential reading that can be explained within the
+invitation. No finding, channel, or major shift has an individual coverage
+claim. Unselected material may remain entirely in the full commentary.
+
+A channel may develop through grammar, sound, dialogue, a material process,
+time, imagery, or a conceptual relation. Resonance is not limited to acoustic
+effects, and an unusual image alone does not establish a channel. Use only
+connections the editorial prose actually develops. If it supplies no such
+channel, explain its strongest grounded reading without inventing connections
+or surprise.
+
+Begin inside the ayah's own words, images, actions, or relations and reveal a
+selected distinctive reading in the first paragraph. Keep the plain meaning
+reachable with only the orientation needed to understand the change. Do not
+spend an opening paragraph on routine explanation or front-load context about
+the surah, the ayah's position, or the commentary project.
+
+For each selected channel, begin with the expression that opens it, unfold the
+connected background, and show how the ayah reads or sounds against that
+background. Let a detail lead into the next through an intelligible relation
+or process, so the reader experiences the emerging reading. This is a movement
+of thought, not a mandatory sentence pattern or one paragraph per finding.
+Let the reader identify the expression being interpreted,
+where any nonordinary detail comes from, and what that detail changes in the
+reading. Briefly identify the word-family use, restricted form, collocation, or
+context that supplies an essential added detail, and preserve the concrete
+operation that makes the image work. Keep the ordinary reading and necessary
+qualification clear within this explanation; do not repeat them as a fixed
+formula. Preserve the particular object, process, or relation that makes this
+reading distinctive, and state its interpretive consequence for the ayah as a
+whole. Make intelligible what the familiar reading leaves less visible and
+what the expanded or shifted reading now lets the reader understand. Preserve
+the editorial's force: an exploratory possibility remains possible, while a
+developed shift must not be softened into a decorative association or a
+reassurance that everything means the same thing. A concrete
+account of how something is carried, transformed, lost, or restored must not
+shrink to a general statement about care, guidance, dependence, or goodness.
+Keep the details needed to make the selected channel work; omit side findings
+and shorten routine setup. If a channel cannot be explained faithfully from
+the editorial prose, choose another grounded channel or reading.
+
+When a non-focus ayah supplies a contribution used in the invitation, keep its
+reference from the editorial prose beside that contribution.
+
+Do not turn the invitation into a miniature inventory of the commentary's
+conclusions, or flatten distinct channels into a broad theme to include more
+material. Do not repair, extend, or supplement the editorial prose from memory
+or outside knowledge.
+
+Omit technical apparatus. Retain any qualification, source distinction, live
+alternative, or boundary whose absence would change the force or meaning of a
+chosen reading. Express it naturally beside the image or relation it qualifies.
+Favor positive explanations of the relation between layers: what remains in
+the foreground and what the resonance makes audible in the background. State
+how that background reinforces, expands, or shifts the understanding of the
+main meaning, with the source and degree of certainty clear. Reserve explicit
+exclusions for concrete ambiguities or live counter-evidence that need them.
+Repeated "this is not X" endings make a reading sound withdrawn; express the
+substantive qualification through what the reading does contribute wherever
+possible. Use varied, natural language rather than a repeated "second layer"
+formula, and preserve the force of expansions and shifts.
+Do not name branches, candidates, findings, scopes, evidence categories,
+ledgers, or workflow stages, or label the prose as numbered channels. Do not
+list findings serially.
+
+Use the established `{ar:..., tr:..., gloss:...}` syntax, consistent
+Turkish-readable transliteration, and short ordinary glosses. Keep Arabic
+anchors beside the explanations they ground. Within a paragraph, continue with
+the Turkish meaning where clear; provide the necessary local tag when a later
+paragraph interprets the carrier anew. Do not place Arabic script outside a
+valid tag.
+
+Build transitions within a channel through its shared object, action, or
+relation. If two channels are selected, they may occupy separate paragraphs;
+do not invent a link between them. Do not praise the commentary's quality,
+promise what the reader will find, manufacture suspense, recap at the end, or
+add a call to action. End on an image, relation, action, or tension already
+established by the selected reading.
+
+Before finishing, compare the invitation with the entire editorial prose:
+does the chosen channel reveal a consequential reading, or could the text have
+been written from the ordinary translation and a modest explanation alone?
+When the editorial supports a surprising channel, the latter fails this task.
+Can the reader follow the opening expression into a connected background and
+understand how that background expands or shifts the ayah's main meaning?
+Check the selected connections against their editorial explanation: can the
+reader tell where the nonordinary details come from, with the necessary
+qualifications intact? Repair generic explanation, isolated curiosities, or a
+compressed findings list by developing the selected channel. Do not add
+omitted channels merely for coverage. Do not output this check.
+
+Write only the invitation text to:
+
+`_commentary/v5/editorial/s005-p07-with-fatiha/s005/5_98/5_98.invitation.tr.md`
+
+Do not add a heading, wrapper label, index, ledger, evidence file, or any other
+artifact. Do not modify the editorial prose.
+
+After writing the invitation, run:
+
+```bash
+python3 _commentary/v5/validate_prose.py _commentary/v5/editorial/s005-p07-with-fatiha/s005/5_98/5_98.invitation.tr.md
+```
+
+If validation fails, repair only the reported mechanical file-contract issues
+and rerun it, for at most two repair cycles. Report the final validator result
+in your response.
+
+<editorial_prose>
+Bu âyetin açık cümlesi bir topluluğa yönelmiş bilgi buyruğudur: Allah'ın cezası ağırdır; Allah çok bağışlayıcıdır, merhametlidir. {ar:ٱعْلَمُوٓا۟, tr:iʿlamū, gloss:bilin} sözü ikinci çoğul kişiye yönelir ve dinleyenlerin gerçeği kendilerinin bilmesini ister. (5:97)'de {ar:لِتَعْلَمُوا, tr:li-taʿlamū, gloss:bilesiniz diye} ile amaç olarak açılan bilme, burada doğrudan yerine getirilmesi istenen işe dönüşür. Bu bilme, yalnızca bir bilgi edinmekten çok gerçeği tanıyıp ayırt eden bir kavrayıştır; aşağıda gelecek şiddet ve merhamet tasvirlerini birlikte seçik tutar. Buradaki bilme, işaret etme veya öğretme eylemine değil, topluluğun gerçeği kavrayıp ayırmasına yönelir. Emir tek bir nesneye değil, {ar:أَنَّ, tr:anna, gloss:gerçek şu ki} ile başlayan iki tam bilgi cümlesine açılır: ağır ceza da merhamet de aynı buyruğun içinde bilinecek gerçeklerdir.
+
+İlk {ar:أَنَّ, tr:anna, gloss:gerçek şu ki} gelişi ilk bilinecek içeriği sabitler. Ardından gelen {ar:ٱللَّهَ, tr:allāha, gloss:Allah'ı} bu belirtecin yönettiği özne olarak önermenin içine yerleşir; Allah adı burada bağımsız bir açılış değil, şiddetli ceza yükleminin bağlandığı açık isimdir. Bu özel adın tapınma ve huşu alanı cümleye sınırlı bir arka plan rengi verir; kelime burada genel bir “ilah” adı gibi genişlemeden, bilinecek niteliğin sahibi olarak kalır. İkinci {ar:أَنَّ, tr:anna, gloss:gerçek şu ki} aynı biçimi geri getirerek ilk parçanın tek başına bırakılmadığını duyurur.
+
+İkinci cümlede {ar:ٱللَّهَ, tr:allāha, gloss:Allah'ı} adının yeniden söylenmesi, şiddet ile merhameti aynı adlandırılmış özneye yükler. Böylece ağır ceza, ayrı bir olaydan çok adı belirlenmiş özneye ait bir nitelik olarak kurulur; merhamet de aynı adın taşıdığı ikinci yüklem alanında açılır. Allah adının tapınma ve huşu arka planı merhamet cümlesinde de sürer, fakat cümledeki işi yine merhamet yüklemlerinin öznesi olmaktır. İki kutbun aynı ada dönmesi, onları tek bir ortalama niteliğe eritmeden aynı öznenin iki ayrı işleyişi olarak açık tutar.
+
+Şiddet tarafında {ar:شَدِيدُ, tr:shadīdu, gloss:şiddetli} sözü tek başına duran bir sertlik değildir; yapıyla birlikte {ar:ٱلْعِقَابِ, tr:al-ʿiqābi, gloss:ceza} kelimesine bağlanır. Belirli yapan {ar:ٱلْ, tr:al-, gloss:belirlilik tanımlığı} ve tamlamanın kuruluşu, sözü belirli ve yönetilen bir ceza alanına yerleştirir. Bu yüzden cümle dağınık bir sertlikten değil, şiddetin bağlandığı belirli bir karşılıktan söz eder. (5:2)'de tanınan şiddet formülü burada merhamet formülünün hemen önünde yer alarak iki kutuplu yapının ilk tarafını kurar. {ar:شَدِيدُ, tr:shadīdu, gloss:şiddetli}nin bağlama, sıkılaştırma ve sağlamlaştırma yönü bu cezaya gevşeklik bırakmayan bir basınç verir; {ar:ٱلْعِقَابِ, tr:al-ʿiqābi, gloss:ceza} da topukta izleyen, eylemin ardından gelen sonuç duyumunu cümleye taşır.
+
+İlk önerme tamamlanınca {ar:وَ, tr:wa, gloss:ve} gelir ve cümleyi kesmeden ikinci {ar:أَنَّ, tr:anna, gloss:gerçek şu ki} önüne geçer. Bu küçük bağ, şiddeti tek başına bırakılmış bir sonuca, merhameti de sonradan eklenmiş bir teselliye dönüştürmeden iki tam gerçeği aynı bilme emrinde tutar. İkinci belirteç ilk cümlenin omurgasını aynalar, fakat alanı genişletir: aynı öznenin ardından {ar:غَفُورٌۭ, tr:ghafūrun, gloss:çok bağışlayan} ile {ar:رَّحِيمٌۭ, tr:raḥīmun, gloss:merhamet eden} birlikte gelir. İkinci {ar:ٱللَّهَ, tr:allāha, gloss:Allah'ı}nın ilkindeki belirtme durumunu tekrarlaması da iki bilgi cümlesine aynı biçimsel omurgayı verir. İki merhamet sözü tek bir bulanık iyilikte birleşmez; aynı özneyi iki ayrı yüklem olarak niteler.
+
+Bu iki yüklemin sesi de kendi işini yapar. {ar:غَفُورٌۭ, tr:ghafūrun, gloss:çok bağışlayan}ın tanvîni ve ardından gelen {ar:رَّحِيمٌۭ, tr:raḥīmun, gloss:merhamet eden}in birleşik başlangıcı, merhamet tarafını ses bakımından birbirine ekler. Tanvînli ve serbest duran bağışlama yüklemi, bağlı şiddet tamlamasından farklı bir birikim alanı açar; yerleşik {ar:غَفُورٌۭ رَّحِيمٌۭ, tr:ghafūrun raḥīmun, gloss:çok bağışlayan, merhamet eden} çifti de ağır cezanın karşısına tam bir merhamet kapanışı koyar. Bağışlamanın örtme ve koruma yönü burada sınırlı biçimde duyulur. Son {ar:رَّحِيمٌۭ, tr:raḥīmun, gloss:merhamet eden} kelimesi gramer bakımından ikinci yüklemdir; kelime sırasındaki son yeri ve birleşmiş sesi, şiddet korunurken âyetin merhamet üzerinde dinlenmesini sağlar. Bu sözün yüreği yumuşatan, acıyan, esirgeyen ve iyilik eden alanı, döl yatağını kuşatan bir bakım imgesini de sıfata ekler; bu imge ilahî sıfatın yerine geçmeden onu sarıp sürdüren bir doku olarak kalır.
+
+Bu açık yapı, ağır karşılığın nasıl duyulduğunu da yoğunlaştırır. {ar:ٱعْلَمُوٓا۟, tr:iʿlamū, gloss:bilin} buyruğu {ar:شَدِيدُ ٱلْعِقَابِ, tr:shadīdu l-ʿiqābi, gloss:şiddetli ceza} ile buluştuğunda, bilme eylemi ceza ile davranış arasındaki bağın kavranmasına açılır. {ar:شَدِيدُ, tr:shadīdu, gloss:şiddetli}nin bir düğümü ve bağlantıyı sıkılaştıran yönü, {ar:ٱلْعِقَابِ, tr:al-ʿiqābi, gloss:ceza}nın eylemden sonra gelen kötü karşılık yönüyle temas eder. Böylece uyarı, davranışın ardından boşluk bırakmayan bir takip sonucunu da düşündürür; ceza, fiilin sonuna uzanan zamansal bir kuyruk kazanır. Bu bağlantı, kelimelerin yerel temasından doğan ve âyetin zorunlu tek açıklamasını oluşturmayan sınırlı bir okumadır; sonuç tarafı burada suçun ardından gelen karşılıkla sınırlı kalır.
+
+Aynı kelime örgüsü ters yönde işleyen bir hareket de açar. {ar:غَفُورٌۭ, tr:ghafūrun, gloss:çok bağışlayan}nın bağışlama yönü, az önce belirlenen {ar:ٱلْعِقَابِ, tr:al-ʿiqābi, gloss:ceza} etkisini örter ve kişiyi onun ulaşmasından koruyan bir işlem gibi duyulur. Bağımsız tetikleyici cezanın kendisidir: sonuç önce görünür, bağışlama onu örter. Ardından {ar:رَّحِيمٌۭ, tr:raḥīmun, gloss:merhamet eden} bu korunmuş kişiye acıma, esirgeme ve iyilik etme yönünde etkin bir bakım ekler. Bu örtme maddi bir nesneye değil, bağışlamanın koruyucu işine aittir; merhamet ise karşılıklı insan merhameti veya ayrı bir yakarış kalıbı olarak değil, bu kişiye yönelen etkin bakım olarak duyulur. Cümle, koruyucu salıvermeyi ve korunan kişiye yönelen bakımı, açık ağır karşılığın yanında canlı tutar.
+
+Bu iki hareketi yeniden söylenen Allah adı bir arada taşır. İkinci {ar:أَنَّ ٱللَّهَ, tr:anna llāha, gloss:gerçek şu ki Allah} cümlesi ve onun iki merhamet yüklemi, cezalandırıcı karşılığın ardından gelen koruyucu salıvermeyi aynı tapınılan öznenin işlemi olarak görünür kılar. {ar:ٱلْعِقَابِ, tr:al-ʿiqābi, gloss:ceza}nın suçtan sonra verilen karşılık yönü cezalandırıcı işlemi korur; {ar:غَفُورٌۭ, tr:ghafūrun, gloss:çok bağışlayan} ve {ar:رَّحِيمٌۭ, tr:raḥīmun, gloss:merhamet eden} ise örtme ile etkin bakımı birbirinden ayırarak aynı özneye bağlar. Bu birleşme bir seslenme veya yemin kalıbı açmadan, iki ayrı işlemin tek adlandırılmış özne altında birlikte okunmasını sağlar.
+
+## Sınırın İki Yüzü
+
+Şiddet ve merhamet yan yana geldiğinde, yakın bağlamdaki yetki sınırı da görünür hale gelir. (5:87)'de {ar:تُحَرِّمُوا۟, tr:tuḥarrimū, gloss:kendi kendine yasak koyma} kişisel kısıtlamayla izin alanını daraltır; {ar:أَحَلَّ, tr:aḥalla, gloss:serbest bırakmak} ise yetkili biçimde açık bırakılan iyiyi gösterir. {ar:تَعْتَدُوا۟, tr:taʿtadū, gloss:sınırı aşmak} ile {ar:مُعْتَدِينَ, tr:muʿtadīn, gloss:sınırı aşanlar} bu izin tarafının taşkınlığa dönüşmemesi için çizginin öte yönünü belirler. Bu kelimeler {ar:شَدِيدُ, tr:shadīdu, gloss:bağlayıp sağlamlaştırma}nun sıkılaştırıcı yüzüyle buluşunca ağır karşılık, özel dindarlıkla yeni yasaklar icat etmeye değil, atanmış çizgiyi sağlam tutmaya bağlanır.
+
+Bu temas, (5:87)'deki {ar:ٱلْعِقَابِ, tr:al-ʿiqābi, gloss:suçtan sonra verilen kötü karşılık}nı yaptırımın ölçüsünü konmuş çizginin ihlaline bağlayan bir karşılık olarak belirginleştirir; azami çileye uymama bu bağın ölçüsü haline gelmez. {ar:غَفُورٌ, tr:ghafūrun, gloss:çok bağışlayan} yüzü de {ar:أَحَلَّ, tr:aḥalla, gloss:serbest bırakmak} ile açılan helâl iyiyi erişilebilir bırakırken korumayı yetkili düzen içinde tutar. Böylece sonuç korkusu her şeyi daha fazla kısıtlama çağrısına değil, gereksiz öz-yoksunluk ile izin verilen alanı taşırma arasındaki iki yönlü ölçüye bağlanır. (5:87)'nin bu sınır rolleri bağlama atfedilmiş ihtiyatlı bir yankıdır; 5:98'deki şiddetli ceza ve bağışlama yüklemleri kendi yerinde kalır.
+
+## Örtmenin Onarıma Dönüşmesi
+
+Bağışlamanın koruyucu yüzü (5:89, 5:95)'teki somut örneklerle başka bir yoğunluk kazanır. {ar:غَفُورٌ, tr:ghafūrun, gloss:çok bağışlayan} ile {ar:رَّحِيمٌ, tr:raḥīmun, gloss:merhamet eden}, (5:89)'daki {ar:كَفَّارَةٌ, tr:kaffāratun, gloss:telafi} ve (5:95)'teki {ar:عَفَا, tr:ʿafā, gloss:bağışlamak} ile temas eder. Örtme burada görünmez bir cezanın kaldırılmasıyla sınırlı kalmaz; zararı kapatan, ilişkiyi onaran ve geçmiş yükümlülüğü kapatabilen bir koruma biçimi kazanır. Bağışlama ve merhamet sıfatları bu örneklerle açıklanır, fakat örneklerin somut usulleri onların yerine geçmez.
+
+Bu onarımın yönü (5:89)'daki somut dizi içinde ihtiyaç sahibi kişiye doğru ilerler ve her adım farklı bir ihtiyaca dokunur. {ar:إِطْعَامُ, tr:iṭʿāmu, gloss:yiyecek sağlama} ile {ar:إِطْعَامُهُمْ, tr:iṭʿāmuhum, gloss:başkasını doyurma} telafiyi başka birinin beslenmesine bağlar; {ar:كِسْوَتُهُمْ, tr:kiswatuhum, gloss:giydirme ve örtme} bedensel ve sosyal açıklığı örter; {ar:تَحْرِيرُ, tr:taḥrīru, gloss:bağdan özgürleştirme} ise bağlı bir yükün devamını keserek kişiyi serbest bırakır. Böylece (5:89)'daki {ar:رَّحِيمٌ, tr:raḥīmun, gloss:merhamet eden} sözü başkasının durumunu dışarıdan iyileştiren etkin esirgemeye doğru genişler; {ar:كَفَّارَةٌ, tr:kaffāratun, gloss:telafi} de bu koruyucu bağışlamanın hesap verilebilir bir uygulamasını görünür kılar.
+
+(5:95)'teki {ar:عَفَا, tr:ʿafā, gloss:bağışlamak} eylemi, önceki yükümlülüğü sonsuz bir borç olarak sürdürmeyen kapanışı ekler. Böylece (5:89)'un telafi ve somut ihtiyaç dizisi ile (5:95)'in geçmişi bırakma hareketi birlikte okunduğunda, koruyucu merhamet hem maddi onarım hem de kapanan sorumluluk olarak duyulur. Bu iki bağlam, odaktaki sıfatların yakın örneklerle açıklanan yüzlerini verir; her telafi usulü bu örneklerin kendi bağlamında kalır ve ilahî fiilin eksiksiz tarifi ya da bütün bağışlamaların zorunlu çizelgesi haline gelmez.
+
+## Kapanan Hesap, Açılan Dönüş
+
+(5:95) aynı onarımın zamana yayılan başka bir yüzünü açar. Önce {ar:مُتَعَمِّدًا, tr:mutaʿammidan, gloss:kasıtlı olarak} ifadesi karşılığın eşiğini niyete yerleştirir; ardından {ar:فَجَزَاءٌ, tr:fa-jazāʾun, gloss:karşılık} yapılan fiile cevap veren sonucu getirir. {ar:مِثْلُ, tr:mithlu, gloss:denk karşılık} bu cevaba ölçü ve karşılıklılık katar, {ar:يَذُوقَ, tr:yadhūqa, gloss:sonucu yaşayarak tatmak} yaptırımın yalnızca ilan edilmediğini failin onu deneyimlediğini gösterir. {ar:وَبَالَ أَمْرِهِ, tr:wabāla amrihi, gloss:işinin ağır sonucu} bu deneyimin taşınan ağırlığını görünür kılar. Bu sırada {ar:شَدِيدُ, tr:shadīdu, gloss:şiddetli} sabit bir tehditten çok, kasıtlı fiile bağlanan karşılığın yoğunluğunu taşır; {ar:ٱلْعِقَابِ, tr:al-ʿiqābi, gloss:sonuç} da eylemden sonra ulaşılan olaylaşmış sonuç olarak duyulur.
+
+(5:95)'te ağır sonuç yaşandıktan sonra {ar:عَفَا, tr:ʿafā, gloss:geçmiş yükü bırakıp bağışlamak} önceki hesabı kapatır. Bu kapanışın ardından {ar:عَادَ, tr:ʿāda, gloss:geri dönmek ve yinelemek} eylemin yeniden ortaya çıkmasıyla kapatılmış geçmişi kasıtlı dönüşten ayırır; {ar:فَيَنتَقِمُ, tr:fa-yantaqimu, gloss:yeniden karşılık vermek} ve {ar:ٱنتِقَامٍ, tr:intiqām, gloss:yenilenen karşılık} dönüşten sonra sonucu yeniden bağlayan takibi kurar. Böylece ağır taraf ile bağışlama birbirini iptal etmeden, bağlanan fiil, yaşanan yük, kapanan geçmiş ve yeniden açılan eylem boyunca farklı anlarda işler hale gelir. Bu zamanlı hesap düzeni (5:95)'in kendi sırasına ait nitelikli bir okumadır; 5:98'in ceza ve merhamet anlamlarını korur, bütün ilahî sonuçların aynı zamanlamayla işlemesini veya her hukuk örneğinin aynı çizelgeyi izlemesini ileri sürmez.
+
+## Korunan Düzen
+
+Hesabın kapanıp yeniden açılabilen bu hareketi, (5:97)'de ortak hayatı taşıyan korunan düzende başka bir temas bulur. {ar:ٱلْعِقَابِ, tr:al-ʿiqābi, gloss:suçtan sonra verilen kötü karşılık} ile {ar:غَفُورٌ, tr:ghafūrun, gloss:çok bağışlayan}, (5:97)'deki iki {ar:الْحَرَامَ, tr:al-ḥarām, gloss:korunan kutsallık} kullanımıyla karşılaşınca, odaktaki çift işaretlenmiş ve korunan bir kamusal sınır içinde görünür olur. Cezalandırıcı yüz bu sınırın güvenilirliğini sürdürür; bağışlayıcı yüz, zarar görmüş düzenin yeniden ayakta kalmasına açılır. {ar:قِيَامًا, tr:qiyāman, gloss:ayakta tutan dayanak} yalnızca düzenin varlığını değil, hasardan sonra da ayakta tutulmasını duyurur. {ar:الْقَلَائِدَ, tr:al-qalāʾid, gloss:görünür boyun işaretleri} ise korunan statüyü kamusal alanda okunur kılan işaret olarak bu bakımın uygulanabilirliğini artırır.
+
+Bu korunan alanın amacı bilgiyle de ifade edilir. (5:97)'deki {ar:لِتَعْلَمُوا, tr:li-taʿlamū, gloss:bilesiniz diye}, {ar:يَعْلَمُ, tr:yaʿlamu, gloss:bilir} ve {ar:عَلِيمٌ, tr:ʿalīmun, gloss:her şeyi bilen} ifadeleri, düzenin nasıl ayakta tutulduğunun kavranmasını hedefe bağlar. İnsanların korunan düzeni bilmesi ile ilahî bilginin kapsamı ayrı düzeylerde kalır; 5:98'deki bilme buyruğu bu kamusal sınırın nasıl işlediğini anlamaya açılır. Burada ceza sınırın güvenilirliğini, bağışlama ise düzenin onarılabilirliğini taşır; (5:97)'nin temasından kurumsal yaptırımın tek biçimi veya korunan her kurum için otomatik af teorisi çıkmaz.
+
+## Bilginin Ölçüsü
+
+Kamusal bir sınırın bilgiyle birlikte anılması, bilme ile açıklama kararını aynı şey haline getirmez. (5:99, 5:101)'de {ar:تُبْدُونَ, tr:tubdūna, gloss:açığa vurursunuz} ile {ar:تُبْدَ, tr:tubda, gloss:açığa çıkarılır} bilinen şeyin görünürlüğe geçmesini anlatır; açığa çıkma, bilinenin o anda var olması değil, görünürlüğünün değişmesidir. {ar:تَسْأَلُوا۟, tr:tasʾalūna, gloss:sorup zorlamak} eylemi soruyu, zarar doğurabilecek ifşayı zorlayabilecek bir hareket olarak belirginleştirir. (5:101)'deki {ar:عَفَا, tr:ʿafā, gloss:bağışlamak} ise bu ihtimalden sonra daha ileri gitmemenin koruyucu tercih olarak duyulmasını sağlar. Böylece bilme buyruğu gerçeği kavrama gücünü korurken, her şeyi zorla açığa çıkarma buyruğuna dönüşmez.
+
+Bu bağlamın (5:99, 5:101) içindeki hareket, {ar:ٱعْلَمُوا۟, tr:iʿlamū, gloss:bilme ve gerçeğini kavrama} buyruğuna bilginin ardından gelen görünürlük ölçüsünü ekler. {ar:تَكْتُمُونَ, tr:taktumūna, gloss:gizler ve örtersiniz} fiili insan gözünden saklı kalan şeyin de bilgi alanı içinde yer aldığını gösterir; {ar:غَفُورٌ, tr:ghafūrun, gloss:çok bağışlayan} tam bilgi içinde seçilmiş bir örtme ve koruma olarak okunabilir. Böylece merhamet bilgisizlikten doğan bir boşluk değil, açıklananı ve gizleneni kuşatan bilinçli bir işlemdir. Bu bağ, insan bilgisi ile ilahî bilgiyi aynı düzeye getirmeden, gizli olanı otomatik bağışlanmış ve her soruyu zararlı sayan bir hüküm üretmeden odaktaki bilme emrini biliş olarak tutar.
+
+## Görünmeyen Sınama
+
+Önceki av sınaması, (5:94)'te bilme ile ağır karşılık arasına failin görünmeyen tutumunu yerleştiren yerel bir eşik açar. {ar:لِيَعْلَمَ, tr:li-yaʿlama, gloss:bilmesi} ile {ar:يَخَافُهُ, tr:yakhāfuhu, gloss:ondan korkar} ve {ar:بِالْغَيْبِ, tr:bil-ghayb, gloss:görünmeyenden} ifadeleri, bilmenin hemen görünmeyen iç sorumluluğu da okuyabildiğini gösteren bir sınama ölçütü kurar. Bunun ardından {ar:اعْتَدَى, tr:iʿtadā, gloss:sınırı aştı} eylemi ve {ar:عَذَابٌ أَلِيمٌ, tr:ʿadhābun alīmun, gloss:acı veren azap} ifadesi gelir; böylece odaktaki {ar:ٱلْعِقَابِ, tr:al-ʿiqābi, gloss:ceza} sınamanın açığa çıkardığı sınır ihlaline cevap veren sonuç olarak duyulur. Bu temas, uyarıyı failden bağımsız soyut bir tehditten davranışla belirginleşen bir sorumluluk alanına taşır; (5:94)'ün korku sınaması ise 5:98'in bütün anlamını tüketmeyen sınırlı bir yankı olarak kalır.
+
+## Daha Geniş Bir Ufuk
+
+Fâtiha'dan eklenen (1:2) teması, bilme buyruğunun kavrayacağı alanı genişletir. {ar:الْعَالَمِينَ, tr:al-ʿālamīn, gloss:âlemler ve yaratılmışlar} kelimesi, aynı anlam ailesinden gelen ölçekle, 5:98'deki iki ilahî niteliğin kopuk bir ikili değil, geniş yaratılmışlar alanı içinde kavranabileceğini düşündürür. Burada {ar:ٱعْلَمُوا۟, tr:iʿlamū, gloss:bilme ve gerçeğini kavrama} hâlâ bilme emridir; dış kelime onun gramerini değiştirmez. Bu, (1:2)'ye bağlı keşifsel bir ölçek katkısıdır ve Fâtiha'nın bütünü için ayrıca bir kozmolojik tez kurmaz.
+
+(1:4)'teki {ar:مَالِكِ, tr:māliki, gloss:sahibi ve hükmeden}, {ar:يَوْمِ, tr:yawmi, gloss:gün} ve {ar:الدِّينِ, tr:ad-dīn, gloss:hesap ve karşılık} ifadeleri aynı geniş çerçeveye hesap ufku ekler. Bu ufuk, {ar:ٱلْعِقَابِ, tr:al-ʿiqābi, gloss:sonuç} kelimesinin sonuç yüzünü yakın hukuk örneğindeki anlık tepkinin ötesine, sonunda hesabı görülecek bir davranış akışına taşır. Yerel ağır karşılık böylece korunarak daha uzun bir zaman ufkunda da işitilebilir. Bu nitelikli temas yalnızca sonuç yüzünü genişletir; 5:98'deki her ayrıntıyı uhrevî hale getirmez ve son yargının usulünü belirlemez.
+
+(1:5)'teki {ar:نَعْبُدُ, tr:naʿbudu, gloss:ibadet ederiz} ve {ar:نَسْتَعِينُ, tr:nastaʿīnu, gloss:yardım isteriz} eylemleri, 5:98'de adı geçen {ar:اللَّهِ, tr:Allāh, gloss:ilahî özne}ni yalnızca iki sıfatın adı değil, ibadet ve dayanmanın yöneldiği etkin kaynak olarak duyurur. {ar:نَعْبُدُ, tr:naʿbudu, gloss:ibadet ederiz}nın tapınılan varlık yönü, değerlendirme ve merhametin genel bir ilah kavramına değil, adı belirlenmiş ibadet edilen kaynağa ait olduğunu açıklar; {ar:نَسْتَعِينُ, tr:nastaʿīnu, gloss:yardım isteriz} ise bu kaynağa güvenme ilişkisini ekler. Bu dış temas (1:5)'teki ibadet ve yardım isteme ilişkisiyle sınırlıdır; 5:98'i dua cümlesine çevirmeden, emrin ve iki yüklemin önündeki özneyi ilişkisel olarak canlandırır.
+
+## Dönüş İçin Açık Kalan Sınır
+
+Şiddetli karşılık ile koruyucu merhametin birlikte durması, geri dönüş ihtimalini hesaba katan bir sınır olarak da duyulur. (5:74)'te dönüş ve istiğfar geri dönme kapısını açar; (5:118)'de cezalandırma ile bağışlama aynı ilahî hitapta koşullu olarak yan yana durur; (18:58)'de ertelenmiş akıbet, rahmetin yanında sonucu silmeden bekler. {ar:ٱلْعِقَابِ, tr:al-ʿiqābi, gloss:ceza} ihlalin sonucunu işler halde tutarken, {ar:غَفُورٌۭ رَّحِيمٌۭ, tr:ghafūrun raḥīmun, gloss:çok bağışlayan, merhamet eden} geri dönene yer açan koruyucu ve etkin bakım yönünü taşır. Üç sahnenin birlikte katkısı, uyarı ile merhameti birbirine karşı uçlar olmaktan çıkarıp sınırı koruyan ve dönüş yolunu açık tutan iki işleyiş halinde göstermesidir.
+
+Bu üç sahnenin ortak katkısı bir vaka için peşin sonuç tayin etmek değil, 5:98'deki iki kapasiteyi aynı sorumluluk sınırında birlikte düşünmeye imkân vermektir. (5:118)'deki koşullu hüküm, (18:58)'deki ertelenmiş sonuç ve (5:74)'teki dönüş, odaktaki cezayı gevşetmeden geri dönüş imkânını açık bırakır. Bu nedenle bağlantı, hangi cevabın hangi gizli vakaya uygulanacağını belirleyen bir hükme dönüşmeden, 5:98'in sıradan şiddetli ceza ve bağışlama yüklemlerini yerinde tutan nitelikli bir genişleme olarak kalır.
+
+## Hüküm Kimin Bilgisinde?
+
+İnsan bilgisinin sınırı ile ilahî hükmün kapsamı arasındaki ayrım (5:109)'da elçilerin kendi bilgi sınırını söyleyip gaybı bilen mercii göstermesiyle kurulur. Bu ayrım, {ar:ٱعْلَمُوٓا۟, tr:iʿlamū, gloss:bilin} buyruğunun katkısını belirler: topluluk şiddetli karşılık ile koruyucu bağışlamanın gerçek imkânlarını kavrar, tek tek vakaların hangi sonuca gireceğini ise bilen ve gözeten ilahî merciye bırakır. Böylece bilme emri ilahî hükmün yerine geçen bir sahiplik değil, kendi sınırını bilen bir kavrayış olarak genişler.
+
+Bu sınırın sürekliliği (5:109, 5:117)'deki {ar:ٱلرَّقِيبَ, tr:al-Raqīb, gloss:gözetip izleyen} sözüyle görünür olur: yaratılmış tanıklık sona erdiğinde ilahî gözetim sürer. (5:118)'deki {ar:عِبَادُكَ, tr:ʿibāduka, gloss:kulların} sözü, cezalandırılacak ve bağışlanacak kişileri aynı ilahî yetki alanında tutar; {ar:تُعَذِّبْهُمْ, tr:tuʿadhibhum, gloss:onları cezalandırırsan} gerçek cezalandırma imkânını, {ar:غَفُورٌۭ, tr:ghafūrun, gloss:çok bağışlayan} ise bunun yanında gerçek koruma imkânını görünür kılar. Son ayrımı {ar:ٱلْحَكِيمُ, tr:al-ḥakīm, gloss:hikmet sahibi} sözü taşır: hangi vakanın hangi sonuca gireceği bilen hükümde kalır. Bu okuma (5:109, 5:117, 5:118)'in kapanış sahnesine bağlıdır; adı geçen tanıklardan bütün insan vakaları için yeni bir hüküm veya yeni bir sözlük anlamı çıkarmaz.
+
+## Bilgiden Sonra
+
+Bilme ile ceza arasındaki son temas, bilginin önce güvene, sonra sorumluluğa dönüşen iki aşamasını görünür kılar. (5:113)'te istenen işaretin {ar:تَطْمَئِنَّ قُلُوبُنَا, tr:taṭmaʾinna qulūbunā, gloss:kalplerimiz yatışsın} ile anlatılması, kanıtın kalpte yerleşen güven ve açıklık doğurduğunu gösterir. Bu istek 5:98'deki {ar:ٱعْلَمُوٓا۟, tr:iʿlamū, gloss:bilin} buyruğuna döndüğünde bilmenin olumlu kazanımı, sonraki tutumun değerlendirileceği zemin olarak korunur.
+
+(5:115)'teki {ar:بَعْدُ, tr:baʿdu, gloss:sonra} bu açıklıktan sonraki aşamayı belirler. {ar:يَكْفُرْ, tr:yakfur, gloss:gerçeği örter} bilme ve güvenin ardından bilinen gerçeği kasıtlı olarak kapatma rolünde gelir; {ar:أُعَذِّبُهُ عَذَابًا, tr:uʿadhdhibuhu ʿadhāban, gloss:onu ağır bir azapla cezalandırırım} ifadesi bu sonraki tutumu odaktaki {ar:شَدِيدُ ٱلْعِقَابِ, tr:shadīdu l-ʿiqābi, gloss:cezası ağır} ile buluşturur. Böylece {ar:ٱلْعِقَابِ, tr:al-ʿiqābi, gloss:cezai karşılık} bilgiden önceki belirsizliğe değil, bilinen gerçeğe karşı bilinçli sonraki davranışa bağlanan bir eşik gibi duyulur. Bu temas (5:113, 5:115)'teki sahnelere bağlı nitelikli bir kanıt-hesap verebilirliği okumasıdır; bilme arayışını suçlayan genel bir hüküm kurmaz ve bilgisizliği bütün durumlar için mazeret ilan etmez. (5:115)'teki “sonra”, açıklığın sorumluluğa dönüştüğü bu sıralamayı odaktaki bilme buyruğuna geri bağlar.
+
+</editorial_prose>

@@ -1,0 +1,413 @@
+{
+  "schema_version": "commentary-v5-scope-discovery-v1",
+  "ayah_ref": "5:39",
+  "lane": "macro",
+  "coverage_complete": true,
+  "candidate_decisions": [
+    {
+      "candidate_id": "cand_ff7e78f475f457950cd6",
+      "decision": "narrow",
+      "reason": "The temporal-gate core has complete exact anchors in the declared pericope and changes the reading by separating the focus's after-wrongdoing frame from the neighboring before-apprehension frame. The supplied root_000189/B003 call-to-return branch is incompatible with the focus's intransitive human and recipient-directed divine forms, so that branch is explicitly excluded; the remaining branches are landed, with unresolved context branches attributed and unglossed.",
+      "finding_refs": ["macro:distinct-temporal-gates"],
+      "branch_exclusions": [
+        {"branch_ref": "root_000189/B003", "reason": "Its explicit boundary restricts it to asking another person to return, whereas the focus forms denote the person's own return and God's turning toward him."}
+      ],
+      "facet_exclusions": [
+        {"branch_ref": "root_000189/B003", "facet_id": "F001", "reason": "The call-to-return facet is incompatible with the focus's actual intransitive and recipient-directed forms."},
+        {"branch_ref": "root_000189/B003", "facet_id": "F002", "reason": "The source-variant call/offer facet is likewise not carried by the focus forms."}
+      ],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_27c98dd844768ece7670",
+      "decision": "narrow",
+      "reason": "The ransom-versus-agency core has complete exact anchors in the declared pericope and supplies a distinct contrast between transferred value and the person's own return-and-repair. The supplied root_000189/B003 call-to-return branch is incompatible with the focus's intransitive human and recipient-directed divine forms, so that branch is explicitly excluded; the remaining branches are landed, with unresolved source branches retained as attributed evidence.",
+      "finding_refs": ["macro:no-substitute-for-changed-agency"],
+      "branch_exclusions": [
+        {"branch_ref": "root_000189/B003", "reason": "Its explicit boundary restricts it to asking another person to return, whereas the focus forms denote the person's own return and God's turning toward him."}
+      ],
+      "facet_exclusions": [
+        {"branch_ref": "root_000189/B003", "facet_id": "F001", "reason": "The call-to-return facet is incompatible with the focus's actual intransitive and recipient-directed forms."},
+        {"branch_ref": "root_000189/B003", "facet_id": "F002", "reason": "The source-variant call/offer facet is likewise not carried by the focus forms."}
+      ],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_bbf666a94c6b7439e525",
+      "decision": "narrow",
+      "reason": "The post-sanction core has exact focus and immediately preceding sanction anchors, and it changes the reading by placing personal return and repair after an interruption of harmful agency. The supplied root_000189/B003 call-to-return branch is incompatible with the focus's intransitive human and recipient-directed divine forms, so that branch is explicitly excluded; the medium-strength nomination remains bounded and all remaining branches are landed with unresolved branches attributed.",
+      "finding_refs": ["macro:severance-and-reintegration"],
+      "branch_exclusions": [
+        {"branch_ref": "root_000189/B003", "reason": "Its explicit boundary restricts it to asking another person to return, whereas the focus forms denote the person's own return and God's turning toward him."}
+      ],
+      "facet_exclusions": [
+        {"branch_ref": "root_000189/B003", "facet_id": "F001", "reason": "The call-to-return facet is incompatible with the focus's actual intransitive and recipient-directed forms."},
+        {"branch_ref": "root_000189/B003", "facet_id": "F002", "reason": "The source-variant call/offer facet is likewise not carried by the focus forms."}
+      ],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    }
+  ],
+  "findings": [
+    {
+      "finding_ref": "macro:distinct-temporal-gates",
+      "origin_candidate_id": "cand_ff7e78f475f457950cd6",
+      "represented_candidate_ids": [],
+      "title": "Two temporal frames for return",
+      "claim": "Within the declared pericope, 5:39 places divine turning after a person's wrongdoing and repair, while the near-repeated formulation in 5:34 places repentance before human apprehension; the two passages therefore distinguish the divine-response relation from the enforcement horizon.",
+      "mechanism": "The focus carrier بَعْدِ marks the sequence after the wrong, and the 5:34 context carries قَبْلِ together with gaining power over the offenders. Their repeated repentance-and-forgiveness frame connects the passages while their opposed temporal markers preserve different clocks.",
+      "reader_payoff": "The focus's 'after' becomes a meaningful temporal boundary rather than a generic sequence word: divine response is read alongside, but not collapsed into, the earlier before-apprehension exception.",
+      "containment": "This is a bounded pericope comparison. It does not create a universal rule about penalties, erase the distinct legal settings, or make 5:34 and 5:39 interchangeable.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": ["legacy_unbound"],
+        "reason": "The exact Arabic anchors and focus coordinates are supplied, but the reconstructed HFT record has a legacy-unbound reader identity and its context morphology remains attributed."
+      },
+      "support_ids": ["sup_1828c298c98ad70046e8"],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000131/B002",
+          "facet_id": "F001",
+          "branch_gloss": "sonra gelme",
+          "facet_statement": "Cekirdek anlam once olmanin karsiti olan sonralik ve ardindan gelmedir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["5:39:4:1"],
+          "trigger_refs": ["5:34:5"],
+          "focus_return_refs": ["5:39:4:1"],
+          "carrier": "The focus's بَعْدِ marks the repentance-and-repair sequence as occurring after the wrongdoing.",
+          "independent_trigger": "The neighboring 5:34 formulation marks repentance with قَبْلِ, before the community gains power over the offenders.",
+          "activation": "The focus's after-marker meets the context's before-marker and makes the two temporal relations visible as distinct.",
+          "resulting_reading": "The focus promises a divine response after wrongdoing and repair, while the neighboring exception remains tied to the earlier human enforcement horizon.",
+          "boundary": "The comparison does not turn the focus's after-marker into a general penalty rule or remove the separate offense and legal setting of 5:34."
+        },
+        {
+          "branch_ref": "root_000189/B001",
+          "facet_id": "F001",
+          "branch_gloss": "yanlistan Tanri'ya donus",
+          "facet_statement": "Cekirdek, yanlis eylemden geri donup Tanri'ya yonelmedir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["5:39:2:1"],
+          "trigger_refs": ["5:34:3"],
+          "focus_return_refs": ["5:39:2:1"],
+          "carrier": "The focus carries the person's completed return from wrongdoing toward God.",
+          "independent_trigger": "The preceding 5:34 context repeats a person's return in a legally marked exception.",
+          "activation": "The repeated human-return carrier meets the opposed temporal marker and makes the two return settings comparable without making them identical.",
+          "resulting_reading": "The focus's personal return remains available after wrongdoing and repair even as the neighboring passage marks an earlier human deadline.",
+          "boundary": "This focus branch describes the person's return; it does not by itself establish God's acceptance or a universal legal rule."
+        },
+        {
+          "branch_ref": "root_000189/B002",
+          "facet_id": "F001",
+          "branch_gloss": "Tanri'nin donusu kabul etmesi",
+          "facet_statement": "Cekirdek, Tanri'nin kulun donusunu kabul etmesi ve ona bagislayici bicimde yonelmesidir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["5:39:9:1"],
+          "trigger_refs": ["5:34:12"],
+          "focus_return_refs": ["5:39:9:1"],
+          "carrier": "The focus carries God's turning toward the person who returns and repairs.",
+          "independent_trigger": "The 5:34 exception closes with a divine forgiving attribute after its own temporal condition.",
+          "activation": "The divine-response carrier meets the repeated pericope close and links the two temporal formulations without collapsing their conditions.",
+          "resulting_reading": "The focus's later divine response and the earlier exception's divine forgiveness belong to one responsive frame while remaining differently timed.",
+          "boundary": "The comparison does not specify every condition of divine acceptance or convert the two passages into one legal rule."
+        },
+        {
+          "branch_ref": "root_001198/B002",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": ["5:34:5"],
+          "trigger_refs": ["5:34:7"],
+          "focus_return_refs": ["5:39:4:1"],
+          "carrier": "The context's before-marker carries a precedence relation.",
+          "independent_trigger": "The same context specifies gaining effective power over the offenders as the event relative to which the precedence is measured.",
+          "activation": "The attributed precedence trace contacts the focus's after-marker and defines the earlier clock as a human apprehension deadline.",
+          "resulting_reading": "The focus's promise is not reduced to the timing of human capture; it is read against a separately marked enforcement horizon.",
+          "boundary": "No independent lexicon branch gloss or facet is supplied for this HFT citation, so only its exact attributed role is retained."
+        },
+        {
+          "branch_ref": "root_001205/B003",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": ["5:34:7"],
+          "trigger_refs": ["5:34:5"],
+          "focus_return_refs": ["5:39:4:1"],
+          "carrier": "The context's gaining-effective-power phrase identifies the human enforcement event.",
+          "independent_trigger": "The context's before-marker attaches that event to a prior deadline.",
+          "activation": "The two context coordinates specify what the before/after contrast is about and return that temporal distinction through the focus's بَعْدِ.",
+          "resulting_reading": "Human power to apprehend offenders and divine turning toward a repaired person remain distinct temporal questions.",
+          "boundary": "No independent lexicon branch gloss or facet is supplied; the activation remains a qualified HFT attribution and does not generalize the enforcement relation."
+        },
+        {
+          "branch_ref": "root_001096/B002",
+          "facet_id": "F002",
+          "branch_gloss": "suçu bağışlayıp cezadan koruma",
+          "facet_statement": "Bağışlamanın sonucu, suç işleyeni cezanın ona ulaşmasından korumaktır.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["5:39:13:1"],
+          "trigger_refs": ["5:34:12"],
+          "focus_return_refs": ["5:39:13:1"],
+          "carrier": "The focus's intensive forgiving predicate names divine protection from the consequence of the wrong.",
+          "independent_trigger": "The preceding exception closes with the same forgiving attribute after its separate before-apprehension condition.",
+          "activation": "The repeated forgiving close joins the two temporal formulations while the distinct conditions keep their legal settings separate.",
+          "resulting_reading": "The focus's after-wrongdoing promise shares a protective divine close with the earlier exception without erasing the difference between their temporal conditions.",
+          "boundary": "The connection does not specify every condition of forgiveness or settle a legal consequence beyond the supplied pericope relation."
+        }
+      ],
+      "connection_refs": ["conn_c79a569a284d71c17d67"],
+      "context_refs": ["5:34"],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "macro:no-substitute-for-changed-agency",
+      "origin_candidate_id": "cand_27c98dd844768ece7670",
+      "represented_candidate_ids": [],
+      "title": "Return cannot be purchased from outside",
+      "claim": "The pericope contrasts the rejected offer of all earthly wealth as a substitute in 5:36 with 5:39's route of personal return followed by repair: transferred value may belong to repair, but it cannot replace the wrongdoer's changed agency.",
+      "mechanism": "The context carries an attempted ransom and refused acceptance, while the focus carries the person's return and the causative act of putting right. These are different agents and different operations, so the focus's relation cannot be supplied by an external asset alone.",
+      "reader_payoff": "The focus's repentance-and-repair sequence becomes a change in the responsible person, not merely a transaction large enough to offset the wrong.",
+      "containment": "The contrast is bounded by the supplied ransom scene and the focus's wording. It does not deny material restitution within earthly repair or turn the eschatological scene into a universal rule for every remedy.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": ["legacy_unbound"],
+        "reason": "The exact Arabic anchors and focus coordinates are supplied, while the reconstructed HFT source is legacy-unbound and context morphology is unavailable; the agency contrast is therefore retained with explicit scope limits."
+      },
+      "support_ids": ["sup_64788ee23cfa96b30c24"],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000189/B001",
+          "facet_id": "F001",
+          "branch_gloss": "yanlistan Tanri'ya donus",
+          "facet_statement": "Cekirdek, yanlis eylemden geri donup Tanri'ya yonelmedir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["5:39:2:1"],
+          "trigger_refs": ["5:36:20"],
+          "focus_return_refs": ["5:39:2:1"],
+          "carrier": "The focus carries the wrongdoer's own return from the wrong toward God.",
+          "independent_trigger": "The preceding context marks the offered substitute as refused.",
+          "activation": "The refused external substitute meets the person's own return and exposes the change of agent between the two routes.",
+          "resulting_reading": "The focus connects release with the responsible person's return-and-repair rather than with an outside payment standing in for that person.",
+          "boundary": "This branch describes personal return; it does not deny material restitution as part of repair or specify every condition of acceptance."
+        },
+        {
+          "branch_ref": "root_000189/B002",
+          "facet_id": "F001",
+          "branch_gloss": "Tanri'nin donusu kabul etmesi",
+          "facet_statement": "Cekirdek, Tanri'nin kulun donusunu kabul etmesi ve ona bagislayici bicimde yonelmesidir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["5:39:9:1"],
+          "trigger_refs": ["5:36:20"],
+          "focus_return_refs": ["5:39:9:1"],
+          "carrier": "The focus carries God's accepting turn toward the person who returns and repairs.",
+          "independent_trigger": "The context's maximal external substitute is explicitly refused.",
+          "activation": "The divine acceptance carrier meets the refusal of a transferable substitute and preserves the focus's personal relation as the operative route.",
+          "resulting_reading": "The focus describes a response to the returning person, not an acceptance purchased by an asset offered from outside.",
+          "boundary": "The comparison does not make every external payment invalid or define the full theology of divine acceptance."
+        },
+        {
+          "branch_ref": "root_000876/B001",
+          "facet_id": "F001",
+          "branch_gloss": "iyi ve düzgün olma; düzeltme",
+          "facet_statement": "Kişi, iş veya şey bozukluğun ve kötülüğün karşıtı olan iyi, düzgün ve yararlı bir durumda bulunur.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["5:39:6:2"],
+          "trigger_refs": ["5:36:20"],
+          "focus_return_refs": ["5:39:6:2"],
+          "carrier": "The focus requires the person to reach a good and right state after the wrongdoing.",
+          "independent_trigger": "The context presents an external value offered in place of the person and refused.",
+          "activation": "The repaired state is attached to the responsible person rather than to the rejected asset.",
+          "resulting_reading": "Repair is a change in the condition of the wrongdoer and the damaged situation, not a value-neutral exchange.",
+          "boundary": "This core state claim does not specify the legal form or extent of repair."
+        },
+        {
+          "branch_ref": "root_000876/B001",
+          "facet_id": "F002",
+          "branch_gloss": "iyi ve düzgün olma; düzeltme",
+          "facet_statement": "Bir şey kendiliğinden iyi ve düzgün duruma gelebilir ya da bir etken bozukluğu gidererek onu bu duruma getirebilir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["5:39:6:2"],
+          "trigger_refs": ["5:36:20"],
+          "focus_return_refs": ["5:39:6:2"],
+          "carrier": "The focus's causative repair verb depicts an agent removing the damage and making the situation right.",
+          "independent_trigger": "The context's refused acceptance blocks the model in which an external substitute performs the needed change.",
+          "activation": "The active repair operation supplies what a transferred asset cannot do by itself.",
+          "resulting_reading": "The focus requires corrective action by the person, while external value can at most participate in a wider repair.",
+          "boundary": "The activation does not claim that every form of restitution is irrelevant; it distinguishes restitution from substitution for changed agency."
+        },
+        {
+          "branch_ref": "root_001136/B001",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": ["5:36:13"],
+          "trigger_refs": ["5:39:6:2"],
+          "focus_return_refs": ["5:39:6:2"],
+          "carrier": "The context's ransom operation offers one thing as a substitute for another.",
+          "independent_trigger": "The focus places a repair action on the person who committed the wrong.",
+          "activation": "The attributed substitution operation meets the focus's active repair and makes their different agents explicit.",
+          "resulting_reading": "An offered asset cannot perform the person's return and corrective action in his place.",
+          "boundary": "No independent lexicon gloss or facet is supplied for this context branch; the exact HFT role is retained without expanding it."
+        },
+        {
+          "branch_ref": "root_001198/B004",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": ["5:36:20"],
+          "trigger_refs": ["5:39:2:1", "5:39:6:2"],
+          "focus_return_refs": ["5:39:2:1", "5:39:6:2"],
+          "carrier": "The context explicitly marks the offered substitute as refused.",
+          "independent_trigger": "The focus joins personal return to corrective repair.",
+          "activation": "Refused acceptance contacts the focus's person-centered route and blocks a transactional replacement of agency.",
+          "resulting_reading": "The rejected value and the accepted return-and-repair route remain materially different ways of addressing wrongdoing.",
+          "boundary": "No independent lexicon gloss or facet is supplied; this does not establish a general theory of acceptance or compensation."
+        }
+      ],
+      "connection_refs": ["conn_75a03404952cbc4ae39a"],
+      "context_refs": ["5:36"],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "macro:severance-and-reintegration",
+      "origin_candidate_id": "cand_bbf666a94c6b7439e525",
+      "represented_candidate_ids": [],
+      "title": "A post-sanction horizon",
+      "claim": "The immediately preceding theft ruling joins severance, acquired action, and public restraint, while 5:39 turns to personal return and repair; the focus therefore adds a distinct post-sanction horizon in which harmful agency is interrupted and a repaired relation becomes possible under divine regard.",
+      "mechanism": "5:38 carries cutting, acquired action, and deterrent restraint; 5:39 carries return, repair, and divine turning toward the repaired person. Their adjacency preserves two nonidentical responses to wrongdoing rather than making the focus a simple reversal of the sanction.",
+      "reader_payoff": "The focus can be read as a new relational stage after the penalty passage: the harmful act has been interrupted, yet the person who returns and repairs is addressed by a different relation.",
+      "containment": "The packet supports possible reintegration under divine response, not automatic social or legal reinstatement. The finding does not soften, reverse, or adjudicate the preceding sanction and does not generalize beyond this pericope.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": ["legacy_unbound"],
+        "reason": "The exact 5:38 and 5:39 Arabic anchors and HFT coordinates are supplied, but the HFT reader identity is legacy-unbound and the nomination is medium-strength; the relational extension is kept explicitly bounded."
+      },
+      "support_ids": ["sup_a58996ac9b68d519aa8f"],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000876/B002",
+          "facet_id": "F001",
+          "branch_gloss": "barışma ve uzlaşma",
+          "facet_statement": "Birbirinden uzaklaşmış veya çatışmış insanlar arasındaki olumsuz ilişki giderilir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["5:39:6:2"],
+          "trigger_refs": ["5:38:3"],
+          "focus_return_refs": ["5:39:6:2"],
+          "carrier": "The focus's repair action carries the removal of a damaged or estranged relation.",
+          "independent_trigger": "The preceding ruling carries a cutting operation that interrupts the harmful agent's action.",
+          "activation": "The repair carrier meets the prior severance and makes a possible relational re-entry visible after interruption.",
+          "resulting_reading": "The focus adds a post-sanction possibility of repaired relation without treating that possibility as automatic reinstatement.",
+          "boundary": "The branch supports removal of estrangement as a contextual image; the packet does not establish social or legal restoration."
+        },
+        {
+          "branch_ref": "root_000189/B001",
+          "facet_id": "F001",
+          "branch_gloss": "yanlistan Tanri'ya donus",
+          "facet_statement": "Cekirdek, yanlis eylemden geri donup Tanri'ya yonelmedir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["5:39:2:1"],
+          "trigger_refs": ["5:38:3", "5:38:8"],
+          "focus_return_refs": ["5:39:2:1"],
+          "carrier": "The focus carries the person's return from the wrong toward God.",
+          "independent_trigger": "The preceding context marks bodily severance and public restraint as responses to the harmful act.",
+          "activation": "The personal-return carrier meets the sanction sequence and prevents interruption from being the only relation supplied by the pericope.",
+          "resulting_reading": "The focus adds a possible return toward God after harmful agency has been restrained.",
+          "boundary": "This branch describes personal return; human reinstatement is not asserted and the preceding sanction is not erased."
+        },
+        {
+          "branch_ref": "root_000189/B002",
+          "facet_id": "F001",
+          "branch_gloss": "Tanri'nin donusu kabul etmesi",
+          "facet_statement": "Cekirdek, Tanri'nin kulun donusunu kabul etmesi ve ona bagislayici bicimde yonelmesidir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["5:39:9:1"],
+          "trigger_refs": ["5:38:3", "5:38:8"],
+          "focus_return_refs": ["5:39:9:1"],
+          "carrier": "The focus carries God's accepting turn toward the person who returns and repairs.",
+          "independent_trigger": "The preceding context marks bodily severance and public restraint as responses to the harmful act.",
+          "activation": "The divine-acceptance carrier meets the sanction sequence and supplies a relation that follows interruption without reversing it.",
+          "resulting_reading": "The focus adds a possible divine response to the repaired person after harmful agency has been restrained.",
+          "boundary": "The packet supports divine response, not automatic social or legal restoration, and does not claim that sanction has no consequence."
+        },
+        {
+          "branch_ref": "root_001240/B001",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": ["5:38:3"],
+          "trigger_refs": ["5:39:6:2"],
+          "focus_return_refs": ["5:39:6:2"],
+          "carrier": "The preceding ruling carries severance as the immediate interruption of the harmful action.",
+          "independent_trigger": "The focus carries repair after the wrong.",
+          "activation": "The attributed severance operation supplies the contrast against which later repair becomes visible.",
+          "resulting_reading": "The focus is a post-interruption relation rather than a simple continuation of the harmful act.",
+          "boundary": "No independent lexicon gloss or facet is supplied; the trace does not decide the legal meaning or extent of the severance."
+        },
+        {
+          "branch_ref": "root_001240/B007",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": ["5:38:3"],
+          "trigger_refs": ["5:39:6:2", "5:39:10:1"],
+          "focus_return_refs": ["5:39:6:2", "5:39:10:1"],
+          "carrier": "The context's cutting operation can be read, within the supplied trace, as an interruption of connection as well as bodily action.",
+          "independent_trigger": "The focus joins repair with divine turning toward the person.",
+          "activation": "The attributed connection-cutting role meets the focus's repair-and-return relation and opens a bounded relational image.",
+          "resulting_reading": "The focus makes possible a repaired relation after an interruption that may be understood at both bodily and relational levels.",
+          "boundary": "The relational extension is explicitly possible and attributed; no social or legal reinstatement is claimed."
+        },
+        {
+          "branch_ref": "root_001296/B001",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": ["5:38:7"],
+          "trigger_refs": ["5:39:5:1", "5:39:6:2"],
+          "focus_return_refs": ["5:39:5:1", "5:39:6:2"],
+          "carrier": "The preceding ruling ties the response to an act that was acquired or enacted by the offender.",
+          "independent_trigger": "The focus names the person's own wrongdoing and subsequent corrective action.",
+          "activation": "The enacted-action carrier meets the focus's personally owned wrong and repair, grounding the contrast in agency rather than inherited status.",
+          "resulting_reading": "The post-sanction horizon concerns what the person did and then changes, not a permanent identity assigned apart from the act.",
+          "boundary": "No independent lexicon gloss or facet is supplied; the trace does not erase responsibility for the act or define a general status rule."
+        },
+        {
+          "branch_ref": "root_001554/B003",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": ["5:38:8"],
+          "trigger_refs": ["5:39:9:1"],
+          "focus_return_refs": ["5:39:9:1"],
+          "carrier": "The preceding penalty carries a public restraining function distinct from the private act.",
+          "independent_trigger": "The focus turns toward the repaired person with a divine response.",
+          "activation": "Public restraint meets personal return and shows that the focus introduces a different function after deterrence.",
+          "resulting_reading": "Deterrence and personal repair occupy separate positions in the pericope's response to wrongdoing.",
+          "boundary": "No independent lexicon gloss or facet is supplied; the trace does not claim that deterrence is removed or that repair cancels every consequence."
+        }
+      ],
+      "connection_refs": ["conn_76eb312e507fed4dccfa"],
+      "context_refs": ["5:38"],
+      "semantic_obligation_refs": []
+    }
+  ],
+  "friction_notes": [
+    "The three assigned HFT records are visible and their anchors are complete, but the reader identity is legacy_unbound; their macro claims are therefore qualified, and unresolved source branches remain attributed rather than lexically glossed.",
+    "The context projection supplies exact Arabic and root/word coordinates but no target morphology for non-focus ayat. Activation fields use only those supplied coordinates and keep HFT segmentation attributed.",
+    "All 13 connection nominations were reviewed. Only the direct 5:34, 5:36, and 5:38 relations are landed in retained findings; the other nominations add no independent branch-grounded changed reading in this packet.",
+    "Phase 1 quarantined external ayat 1:2-1:7. Phase 2 found no external overlay: 1:3's repeated الرَّحِيمِ restates the native/pericope رَّحِيمٌ close, while the remaining external ayat supply thematic or branch availability without a focus-returning changed reading. The host basmala 5:0 was treated as ordinary macro context.",
+    "Available focus branches without candidate links were inspected; none has an independent macro trigger and changed reading beyond the three retained HFT records, so availability was not promoted to activation.",
+    "No staged reader responses, reader walks, cross-run publication, or channel-subchannel records are present in this packet; no reading was inferred from those absent sources.",
+    "Focus word alignment resolves all 17/17 analysis units. No named semantic_obligations or required_branch_facets are supplied, so the corresponding exclusion arrays remain empty.",
+    "Density audit: must_integrate topics named in the macro packet 0; admitted candidates 3; distinct macro resonances 3; authored prose landings 0 pending composition handoff; shared landings none."
+  ]
+}

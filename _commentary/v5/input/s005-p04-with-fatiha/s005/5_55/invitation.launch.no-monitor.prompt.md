@@ -1,0 +1,205 @@
+You are the V5 reading-invitation writer for 5:55. You are running as a fresh gpt-5.6-luna max agent.
+
+Read and follow this generated invitation prompt exactly. It is your sole semantic source. Write only the requested invitation artifact, run the validator named in the prompt, repair only mechanical validator failures up to the allowed limit, then report the final validator result here. Do not use external lifecycle, pause, dashboard, Firebase, event, or registration commands.
+
+# V5 reading invitation — 5:55
+
+You are a fresh reading-invitation writer. Read the complete editorial prose
+before writing. It is your sole semantic source.
+
+Write two to four paragraphs of fluent, contemporary Turkish that reveal a
+surprising reading by following one or two main channels of resonance in the
+ayah. A channel is a connected background of meanings, images, actions, or
+relations through which the ayah can be heard and understood differently.
+Several editorial findings may together develop one channel. Summarize that
+connected movement and its consequence for the ayah's main meaning, rather
+than compressing findings individually. Give the reading's substance now;
+the invitation comes from understanding it, not from a promise of hidden depth.
+
+Before drafting, read the entire editorial prose and silently select the one
+or two channels with the strongest interpretive consequence and enough
+grounding to explain clearly. Favor channels that expand or shift what the
+ayah says, the relation it establishes, or what is at stake in its action or
+image. One fully developed channel is sufficient; add a second only when it
+offers a distinct consequential reading that can be explained within the
+invitation. No finding, channel, or major shift has an individual coverage
+claim. Unselected material may remain entirely in the full commentary.
+
+A channel may develop through grammar, sound, dialogue, a material process,
+time, imagery, or a conceptual relation. Resonance is not limited to acoustic
+effects, and an unusual image alone does not establish a channel. Use only
+connections the editorial prose actually develops. If it supplies no such
+channel, explain its strongest grounded reading without inventing connections
+or surprise.
+
+Begin inside the ayah's own words, images, actions, or relations and reveal a
+selected distinctive reading in the first paragraph. Keep the plain meaning
+reachable with only the orientation needed to understand the change. Do not
+spend an opening paragraph on routine explanation or front-load context about
+the surah, the ayah's position, or the commentary project.
+
+For each selected channel, begin with the expression that opens it, unfold the
+connected background, and show how the ayah reads or sounds against that
+background. Let a detail lead into the next through an intelligible relation
+or process, so the reader experiences the emerging reading. This is a movement
+of thought, not a mandatory sentence pattern or one paragraph per finding.
+Let the reader identify the expression being interpreted,
+where any nonordinary detail comes from, and what that detail changes in the
+reading. Briefly identify the word-family use, restricted form, collocation, or
+context that supplies an essential added detail, and preserve the concrete
+operation that makes the image work. Keep the ordinary reading and necessary
+qualification clear within this explanation; do not repeat them as a fixed
+formula. Preserve the particular object, process, or relation that makes this
+reading distinctive, and state its interpretive consequence for the ayah as a
+whole. Make intelligible what the familiar reading leaves less visible and
+what the expanded or shifted reading now lets the reader understand. Preserve
+the editorial's force: an exploratory possibility remains possible, while a
+developed shift must not be softened into a decorative association or a
+reassurance that everything means the same thing. A concrete
+account of how something is carried, transformed, lost, or restored must not
+shrink to a general statement about care, guidance, dependence, or goodness.
+Keep the details needed to make the selected channel work; omit side findings
+and shorten routine setup. If a channel cannot be explained faithfully from
+the editorial prose, choose another grounded channel or reading.
+
+When a non-focus ayah supplies a contribution used in the invitation, keep its
+reference from the editorial prose beside that contribution.
+
+Do not turn the invitation into a miniature inventory of the commentary's
+conclusions, or flatten distinct channels into a broad theme to include more
+material. Do not repair, extend, or supplement the editorial prose from memory
+or outside knowledge.
+
+Omit technical apparatus. Retain any qualification, source distinction, live
+alternative, or boundary whose absence would change the force or meaning of a
+chosen reading. Express it naturally beside the image or relation it qualifies.
+Favor positive explanations of the relation between layers: what remains in
+the foreground and what the resonance makes audible in the background. State
+how that background reinforces, expands, or shifts the understanding of the
+main meaning, with the source and degree of certainty clear. Reserve explicit
+exclusions for concrete ambiguities or live counter-evidence that need them.
+Repeated "this is not X" endings make a reading sound withdrawn; express the
+substantive qualification through what the reading does contribute wherever
+possible. Use varied, natural language rather than a repeated "second layer"
+formula, and preserve the force of expansions and shifts.
+Do not name branches, candidates, findings, scopes, evidence categories,
+ledgers, or workflow stages, or label the prose as numbered channels. Do not
+list findings serially.
+
+Use the established `{ar:..., tr:..., gloss:...}` syntax, consistent
+Turkish-readable transliteration, and short ordinary glosses. Keep Arabic
+anchors beside the explanations they ground. Within a paragraph, continue with
+the Turkish meaning where clear; provide the necessary local tag when a later
+paragraph interprets the carrier anew. Do not place Arabic script outside a
+valid tag.
+
+Build transitions within a channel through its shared object, action, or
+relation. If two channels are selected, they may occupy separate paragraphs;
+do not invent a link between them. Do not praise the commentary's quality,
+promise what the reader will find, manufacture suspense, recap at the end, or
+add a call to action. End on an image, relation, action, or tension already
+established by the selected reading.
+
+Before finishing, compare the invitation with the entire editorial prose:
+does the chosen channel reveal a consequential reading, or could the text have
+been written from the ordinary translation and a modest explanation alone?
+When the editorial supports a surprising channel, the latter fails this task.
+Can the reader follow the opening expression into a connected background and
+understand how that background expands or shifts the ayah's main meaning?
+Check the selected connections against their editorial explanation: can the
+reader tell where the nonordinary details come from, with the necessary
+qualifications intact? Repair generic explanation, isolated curiosities, or a
+compressed findings list by developing the selected channel. Do not add
+omitted channels merely for coverage. Do not output this check.
+
+Write only the invitation text to:
+
+`_commentary/v5/editorial/s005-p04-with-fatiha/s005/5_55/5_55.invitation.tr.md`
+
+Do not add a heading, wrapper label, index, ledger, evidence file, or any other
+artifact. Do not modify the editorial prose.
+
+After writing the invitation, run:
+
+```bash
+python3 _commentary/v5/validate_prose.py _commentary/v5/editorial/s005-p04-with-fatiha/s005/5_55/5_55.invitation.tr.md
+```
+
+If validation fails, repair only the reported mechanical file-contract issues
+and rerun it, for at most two repair cycles. Report the final validator result
+in your response.
+
+<editorial_prose>
+Bu âyet, muhatapların koruyucu yakını ve destekçisi olarak yalnız Allah’ı, O’nun elçisini ve iman edenleri gösterir. İman edenler de namazı sürdüren, zekâtı veren ve rükû hâlinde bulunan kimseler olarak tanımlanır. Cümle böylece soyut bir aidiyet adından çok, ibadet, verme ve boyun eğiş içinde görünen bir koruyucu bağlılık kurar.
+
+## Bağlılığın Sınırı
+
+Yakındaki yanlış ittifak baskısının ardından gelen {ar:إِنَّمَا, tr:innamā, gloss:ancak}, hükmü daraltan olumlu bir sınır çizer (5:51, 5:52, 5:53, 5:54). Bu birleşik söz, yalnız hemen arkasındaki ilk ada değil, ardından bağlanan dizinin tamamına uzanır: Allah, elçi ve iman edenler aynı sınırlanmış velayet tanımının içinde sıralanır. Böylece cümle, muhatapların kime ait bir koruyucu yakınlık içinde durduğunu belirler. Burunlu kapanışının hemen {ar:وَلِيُّكُمُ, tr:waliyyukumu, gloss:sizin veliniz} kelimesine yaslanması, bu sınırı doğrudan “sizin veliniz” ilişkisine bağlar. Waliyyukumu’nun tekil oluşu ile sonundaki çoğul muhatap eki, üç adı birbirinden kopuk ittifaklar halinde bırakmadan muhataplara bağlanan tek bir ilişki alanında toplar. “Velî” burada yalnız duygusal bir dostluğu değil, yakında duran, destek veren ve gerektiğinde bir sorumluluğu üstlenen koruyucu bağlılığı taşır. Kelimenin çiftleşen merkez sesi, liste açılmadan önce bu sıkı yakınlığı kısa ve yoğun bir ses gövdesinde tutar.
+
+Sınır çizildikten sonra cümle, bu alanın kaynağını başa yerleştirir. Yalın biçimde gelen {ar:ٱللَّهُ, tr:allāhu, gloss:Allah}, bağlılığın ilk kaynağıdır. Allah adı çevresinde tapınma ve sığınma çağrışımları taşırken, bu cümledeki işi kaynağı gösteren özel ad olarak belirginleşir. Adın akışkan ses dokusu, elçi adına geçmeden önce başlangıcı ağırlaştırır. İlk {ar:وَ, tr:wa, gloss:ve}, elçiyi aynı sınırlamanın içine ekler ve listenin mimarisini taşır. Kısa bağlanışın akışı kesmeden {ar:رَسُولُهُۥ, tr:rasūluhū, gloss:O’nun elçisi} kelimesine geçmesi, yeni bir cümle değil aynı sıralamanın devamını işittirir. Rasūluhū, Allah’la karşı karşıya duran bağımsız bir güç olarak değil, aynı olumlu velî düzeninin ikinci halkası olarak belirir. Sonundaki -hū eki elçiyi Allah’a bağlar; gönderilmişlik, kaynaktan kopuk bir hareket değil, O’na bağlı bir elçilik olarak kurulur. Elçi kelimesinin gönderme, haber taşıma ve yetkilendirilmiş ulaştırma yönleri burada sabit bir aracı rolünde toplanır. Rasūluhūnun ortak son sesleri de kaynağı ve taşıyıcıyı işitsel bir çift halinde yan yana getirir.
+
+İkinci {ar:وَ, tr:wa, gloss:ve}, iman eden topluluğu aynı velî yüklemine ekleyerek listenin kapsamını korur. İlk {ar:ٱلَّذِينَ, tr:alladhīna, gloss:onlar ki}, üçüncü üyeyi belirsiz bir kitle olarak değil, niteliği birazdan açılacak bir topluluk olarak sunar. Ardından gelen {ar:ءَامَنُوا۟, tr:āmanū, gloss:iman ettiler}, genel bir etiketin ötesinde, velî ilişkisine alınan grubun ölçütünü verir. Fiilin tamamlanmış ve geçişsiz oluşu, nesnesi ayrıca belirtilmeden güvene erişmiş bir topluluğu gösterir; bu yerleşmiş güven, arkasından gelen süreklilik taşıyan işlere zemin hazırlar. Âmene’nin güvenme, emin olma ve kendisine emanet edilene sadık kalma yönleri, iman edenleri güvenilmiş bir ilişkiye girmiş topluluk olarak renklendirir. İkinci {ar:ٱلَّذِينَ, tr:alladhīna, gloss:onlar ki} aynı grubu yeniden gösterir; ardından gelen fiiller yeni bir kimliği değil, ilk grubun uygulama biçimini açıklar. Göreli çerçevenin tekrarı, iki bitmemiş fiili yan yana taşıyan ritmik bir hazırlık vuruşu kurar.
+
+## Uygulamayla Beliren Kimlik
+
+İman edenlerin güvene erişmiş kimliği, şimdi iki süreklilik taşıyan fiille görünür hale gelir. İlk iş {ar:يُقِيمُونَ, tr:yuqīmūna, gloss:namazı ayakta tutarlar} ile anlatılır. Dördüncü bâbdaki bitmemiş zaman ve çoğul özne, namazı bir defalık bir hareket değil, topluluğun sürekli sürdürdüğü bir ayakta tutma işi olarak kurar. Kelimenin dik durma, bir şeyi ayakta tutma ve gözetme yönleri namaz nesnesine bağlandığında, ibadet düzeninin korunup yaşatılması görüntüsünü açar; bu genişlik namaz çerçevesinde belirginleşir. Başındaki qāf kesintisi ve sonundaki -ūna, ayakta tutma hareketine sert ve sağlam bir işitsel yüz verir. Ardından gelen {ar:ٱلصَّلَوٰةَ, tr:aṣ-ṣalāta, gloss:namazı}, biraz sonra zekât ve rükû ile tamamlanacak velî topluluğunun uygulama profilindeki ilk unsur gibi duyulur. Belirli ve mansup oluşu onu fiilin doğrudan nesnesi yapar: sürdürülen şey, bilinen ve korunmuş namaz pratiğidir. Salât kelimesinin bağlantı kurma ve disiplinli biçimde izleme yönleri, yuqīmūna ile temas ettiğinde yerleşmiş namaz düzeni içinde yapılandırılmış bir bağa dönüşür. Güneş harfiyle birleşen belirli artikel ve uzayan yüzey de namazı cümlede tek parça, bilinen bir uygulama gibi işittirir.
+
+Namazdan verilen paya geçişi kuran {ar:وَ, tr:wa, gloss:ve}, iki fiili koordineli iki hareket halinde taşır. Bağlaç, zekâtı aynı topluluk niteliğine eşlik eden parça olarak duyurur; iki iş birlikte görünür ve aralarında zorunlu bir zaman sırası kurulmaz. Hafif geçişi ve iki fiildeki çoğul ritmin dengesi, eylemleri paralel bir akışta taşır. Ardından gelen {ar:يُؤْتُونَ, tr:yuʾtūna, gloss:zekâtı verirler}, kaynaktan alınan ilişkiye topluluğun cevabını ekler: velî bağı dışarıya yönelen bir verme hareketinde görünür olur. Dördüncü bâbdaki bu fiil, belirli zekât nesnesini doğrudan yönetir ve vermeyi bir şeyi ulaştırmaya sebep olan süreğen bir eylem haline getirir. Gelme, ulaştırma ve getirip sunma yönleri, zekâtın bir yere veya alıcıya varacak biçimde yönlendirilmiş bir teslim olduğunu duyurur; alıcı cümlede adlandırılmasa da hareketin hedefi korunur. Kelimenin ortasındaki hemze, bu ulaştırılmış verme hareketine ses üzerinde küçük bir durak verir.
+
+Bu verişin nesnesi olan {ar:ٱلزَّكَوٰةَ, tr:az-zakāta, gloss:zekâtı}, belirli ve mansup biçimiyle bilinen, teslim edilen payı sabitler. Namaz, zekât ve rükû böylece bir buyruk dizisinin parçaları olarak kalmayıp velî topluluğunun görünür kimliğini kurar. Zekâtın arınma ve büyüme yönleri, maddi aktarım ile topluluğu temizleyen, düzgünleştiren ve bereketi artıran sonucu aynı sözcükte birbirine değdirir. Başındaki keskin z sesi, bu arınma ve artış çiftine kısa ve belirgin bir işitsel doku verir.
+
+Son {ar:وَ, tr:wa, gloss:ve}, verilen zekâtın gerçekleştiği hâl bağlantısını açar. Rükû önceki eyleme eşlik eden hâl olarak gelirken, topluluğun ek bir niteliği olma gücünü de korur. {ar:هُمْ, tr:hum, gloss:onlar} zamiri, namazı sürdüren ve zekâtı verenlerin baştaki iman edenlerle aynı grup olduğunu yeniden öne çıkarır. Fiillerin içindeki çoğul özne, bu ayrı zamirle son yüklemden hemen önce merkezlenir. “Wa-hum”un yumuşak ses alışverişi, kapanış hâlini önceki uygulamanın üzerine oturan bir devam olarak bağlar; hum’un burunlu köprüsü özne ile son yüklem arasında işitsel bir menteşe kurar. {ar:رَٰكِعُونَ, tr:rākiʿūna, gloss:rükû hâlindedirler}, namaz-zekât-rükû dizisinin topluluğun velî kimliğini kapatan işaretidir. Çoğul etkin ortaç, cümlenin son yüklemi olurken içinde bulunulan hâli de anlatır; rükû topluluğun o andaki niteliğidir. Kelime bedenen öne ve aşağı eğilmeyi, kendini alçaltarak boyun eğmeyi birlikte taşır. Son vuruşu ve -ūna uzantısı, çoğul topluluğu tek bir bedensel hâlde toplayan fizikî ve toplu bir kadansla cümleyi kapatır.
+
+## Kelimelerin Birbirine Açtığı Görüntüler
+
+Açık anlamın kurduğu liste artık önümüzdeyken, kelimelerin birbirine değmesi yeni ayrıntılar açar. {ar:وَلِيُّكُمُ, tr:waliyyukumu, gloss:sizin veliniz} yakın durup destek olma anlamının yanında bir işi üstlenme ve başkasının durumunu gözetme yönüyle de duyulur. Bu yön, {ar:إِنَّمَا, tr:innamā, gloss:ancak} ile ve ilk sıradaki {ar:ٱللَّهُ, tr:allāhu, gloss:Allah} ile buluştuğunda yakınlığı işleyen bir sorumluluk hareketi olarak derinleşir. {ar:رَسُولُهُۥ, tr:rasūluhū, gloss:O’nun elçisi} kaynaktan topluluğa haber taşıyan halka görünümünü kazanır. {ar:ءَامَنُوا۟, tr:āmanū, gloss:iman ettiler} ise bildirilen şeyi doğru sayıp kabul ederek ilişkiye giren ve ona sadık kalan topluluğu gösterir. Bu temaslar, Allah’ı kaynak, elçiyi aktarım halkası ve iman edenleri ilişkiyi yaşayan topluluk olarak yan yana getirir. Düz sıralama, kaynağı, taşıyıcısı ve topluluk içindeki gerçekleşmesi ayırt edilebilen, birbirine bitişik bir velayet alanı olarak genişler; bu görüntü âyetin açık koruyucu listesini derinleştirir.
+
+Kaynak ve taşıyıcı arasındaki ilişki, uygulama cümlesinde bakım ve aktarım hareketine dönüşür. {ar:يُقِيمُونَ, tr:yuqīmūna, gloss:namazı ayakta tutarlar} kelimesinin sürekli gözetme ve bir işi yaşatma yönü, ikinci {ar:ٱلَّذِينَ, tr:alladhīna, gloss:onlar ki} ile açılan kimlik filtresine değdiğinde namazı topluluğun süreklilik taşıyan sorumluluğu halinde gösterir. {ar:ٱلصَّلَوٰةَ, tr:aṣ-ṣalāta, gloss:namazı}, ayakta durma, eğilme ve yere kapanma bölümleri olan kurallı ibadeti, bu bakım hareketinin koruduğu belirli biçim olarak görünür kılar. {ar:يُؤْتُونَ, tr:yuʾtūna, gloss:zekâtı verirler} kelimesinin getirip sunma yönü, {ar:ٱلزَّكَوٰةَ, tr:az-zakāta, gloss:zekâtı} nesnesine bağlanınca aidiyeti dışarıya ulaşan somut bir aktarıma çevirir. Zekâtın büyüyüp artma yönü teslim edilen payı üretken bir aktarım, arınıp düzgünleşme yönü ise topluluğun durumunu sınayan bir ölçü olarak gösterir. Böylece ibadet ve maddi bakım, iman edenler tanımının nasıl görünür hale geldiğini açıklar.
+
+Bu iki eylemin bedensel çizgisi kapanıştaki rükûda birleşir. {ar:يُقِيمُونَ, tr:yuqīmūna, gloss:namazı ayakta tutarlar} ayakta kalma ve dik durma kutbunu açarken, {ar:رَٰكِعُونَ, tr:rākiʿūna, gloss:rükû hâlindedirler} öne ve aşağı doğru bükülen kutbu getirir. Başın aşağı inmesi, ayakta tutmanın karşıtı olduğu kadar ona cevap veren bağlı bir hareket gibi görünür. Rükûnun kendini alçaltarak boyun eğme yönü, ayakta tutma kapasitesini tevazu tarafından düzenlenen bir ibadet hâline getirir. {ar:يُؤْتُونَ, tr:yuʾtūna, gloss:zekâtı verirler} ve belirli zekât nesnesi bu eğilmiş hâlin içine yerleştiğinde, verme boyun eğmiş bedenin içinden gerçekleşen maddi eylem olarak görünür. Namazı ayakta tutma, değeri dışarı ulaştırma ve bu kapasiteyi eğilmiş bir hâlde taşıma, ibadet, verme ve rükû ayrıntılarını tevazu ile aynı bedensel düzende birbirine bağlar.
+
+## Veren Elin Hayata Dönüşü
+
+Bu bedensel düzenden sonra dikkat, {ar:يُؤْتُونَ, tr:yuʾtūna, gloss:verirler} fiilinin alıcıya doğru yönelen hareketine döner. Fiil bir şeyi vermeyi ve getirip sunmayı bildirir; bu rezonansın katkısı, verilen payın hayatı koruyan bir istikamete yönelmesini görünür kılmaktır. 5:27’de sunu ile yaklaşma, kabul gören bir aktarım ve korunmuş bir tutumun birlikte ilerlediği sahneyi sağlar (5:27). 5:28’de öldürmek için uzanan el, dışarıya doğru hareketin zarar üreten yönünü; başka birine yönelen beden eli ise bu yönün ahlaki sorumluluğunu görünür kılar (5:28). 5:32’de tek bir canı yaşatmanın bütün insanlığı yaşatacak ölçüye açılması, aktarımı hayatı koruyan bir sınıra bağlar (5:32). Bu üç katkı {ar:يُؤْتُونَ, tr:yuʾtūna, gloss:zekâtı ulaştırırlar} fiiline döndüğünde, {ar:ٱلزَّكَوٰةَ, tr:az-zakāta, gloss:zekâtı} zararlı bir uzanıştan korunmuş ve hayatı gözeten desteğe yönelen aktarım olarak görünür. Zekâtın kurumsal pay anlamı yerinde kalırken arınıp düzgünleşme yönü bu aktarımın ahlaki temizliğini duyurur. Cümlenin sonunda {ar:وَهُمْ رَٰكِعُونَ, tr:wa-hum rākiʿūna, gloss:boyun eğmiş halde} gelmesi, vermeyi bedensel alçalışın içine yerleştirir; destek, kendini yükselten bir güçten çok başkasına yönelen korunmuş bir sorumluluk kazanır. Böylece 5:27’deki sunuş aktarımın karşılık bulan yönünü, 5:28’deki el hayatı tehdit eden yönü, 5:32’deki yaşatma ölçüsü ise hayatı koruyan sınırı belirler. Bu bağlamsal okuma, âyetin koruyucu ilişki ve ibadet-verme tanımının alıcıya dönük ahlaki yönünü görünür kılar.
+
+## Ulaşan ve Çoğalan Destek
+
+Bu ikinci maddi görüntünün katkısı, desteğin ulaşma, akışı yönlendirme ve sonunda çoğalma biçimlerini birlikte görünür kılmasıdır. {ar:وَلِيُّكُمُ, tr:waliyyukumu, gloss:koruyucu dostunuz} yakın durup destek olma anlamının yanında, önceki yağmuru izleyen yağmuru adlandıran kullanımıyla da duyulur. 5:32’de hayatın yeniden canlanması, 5:48’de suya ulaşan bir yolun görünmesi ve 5:52’de suyun bir açıklıktan çıkması, bu yağmur ve akış görüntüsüne ayrı katkılar verir: ilki hayatı yeniler, ikincisi suya erişim sağlar, üçüncüsü akışa çıkış verir (5:32, 5:48, 5:52). Bu katkılar waliyyukumu’ya döndüğünde koruyucu destek, ihtiyaca doğru gelen bir ikmal gibi görünür. Ardından {ar:يُؤْتُونَ, tr:yuʾtūna, gloss:verirler} fiilinin olağan verme yönü, su için açılan, suyun akacağı yolu kolaylaştıran ve akışı belirli bir yöne çeviren kanal ayrıntısıyla temas eder. Verme, besleyici akışı alıcıya doğru yönlendiren hareket olarak genişler. {ar:ٱلزَّكَوٰةَ, tr:az-zakāta, gloss:zekâtı} kurumsal pay anlamını korurken büyüme ve artma yönünü de duyurur; yön verilmiş akış bu kelimede görünür bir ürün ve çoğalma bulur. Böylece destek ulaşır, aktarım kanala girer ve hayat çoğalır; koruyucu ilişki, veren hareket ve zekâtın verimli sonucu birbirini açıklayan bir ikmal devresinde buluşur. Su, kanal ve verim sahneleriyle destek, verme ve zekât arasında kurulan bu ilişki uzak ama somuttur ve keşifsel bir benzetme olarak kalır; âyetin Allah’ı, elçiyi ve ibadet ederek veren inananları koruyucu bağ olarak gösteren açık anlamı kendi yerinde durur.
+
+## Emanetin Yerinde Tutulması
+
+Maddi akıştan şimdi sözün ve emanetin korunması sorusuna geçilir. {ar:وَلِيُّكُمُ, tr:waliyyukumu, gloss:koruyup destekleyen yakın} olağan koruyucu yakınlığı taşırken bir işi veya başkasının durumunu üstlenme yönüyle de duyulur. 5:41’de sözlerin kendi yolundan bükülüp uzaklaştırılması sadık aktarımın karşılaştığı somut bozulma biçimini verir; kelimelerin olması gereken yer ise emaneti doğru konumunda tutma çizgisini görünür kılar (5:41). 5:44’te Kitap’ın korunması, emaneti gözeten topluluk sorumluluğunu; Kitap’ın önünde tanıklık edilmesi ise bu sorumluluğun kamusal hesap verebilirliğini açar (5:44). 5:48’de Kitap’a bağlı gözetim, önceki koruma ve tanıklık işlevlerini {ar:رَسُولُهُۥ, tr:rasūluhū, gloss:O’nun elçisi}nin aktarım rolü çevresinde toplar (5:48). Her sahne bu görüntüye ayrı bir iş verir: 5:41 bozulma tehlikesini, 5:44 korunacak ve önünde durulacak emaneti, 5:48 ise aktarımı sürdüren gözetimli hattı belirginleştirir.
+
+Bu üç katkı birleştiğinde Elçi, olağan yetkili haber taşıyıcısı olarak kaynak ile topluluk arasında emanetin dolaştığı halkayı kurar. {ar:يُقِيمُونَ ٱلصَّلَوٰةَ, tr:yuqīmūna aṣ-ṣalāta, gloss:namazı sürdürürler} olağan ritüel ve kulluk anlamını taşırken devam eden koruma, tanıklık ve gözetim sorumluluklarıyla birleştiğinde topluluğun halkasını etkin koruma olarak gösterir. Böylece üçlü, Elçi’nin emaneti taşıdığı, inananların onu namazla yaşattığı ve velayet ilişkisinin emaneti yerinde tutma sorumluluğunu adlandırdığı bir emanet zinciri gibi görünür. Elçi ile inananlar güveni taşıyan ve onu uygulama içinde koruyan birbirine bağlı emanetçiler olarak belirir; namaz ve zekâtı verme hükümleri bu bağlılığın nasıl sürdüğünü gösterir. Bu sorumluluk ve aktarım görüntüsü bağlama atfedilen nitelikli bir okumadır. Waliyyukumu’nun koruyucu ve destekleyici olağan anlamı, namazın ibadet oluşu ve verilen çevrenin sınırları birlikte korunur; görüntü bu bağlamsal ufukta kalır.
+
+Bu bağlam içinde üçlü, Elçi’nin emaneti taşıdığı, inananların onu namazla yaşattığı ve velayet ilişkisinin emaneti yerinde tutma sorumluluğunu adlandırdığı bir emanet zinciri gibi görünür. Elçi ile inananlar güveni taşıyan ve onu uygulama içinde koruyan birbirine bağlı emanetçiler olarak belirir; {ar:يُقِيمُونَ الصَّلَاةَ, tr:yuqīmūna aṣ-ṣalāta, gloss:namazı sürdürürler} ve zekâtı verme hükümleri bu bağlılığın nasıl sürdüğünü gösterir. Sorumluluk ve aktarım görüntüsü bağlama atfedilen nitelikli bir okumadır. Waliyyukumu’nun koruyucu ve destekleyici olağan anlamı, namazın ibadet oluşu ve verilen çevrenin sınırları birlikte korunur; bu temaslar kendi bağlamsal ufkunda kalır.
+
+## Yollar İçinde Kurulan Topluluk
+
+Bu okumanın katkısı, farklı yolların bulunduğu bir zeminde topluluğun kendisini sürekli yaptığı pratiklerle görünür kılmasıdır. Atanmış yollar, açık güzergâhlar, çoğul topluluklar, sınanma, ortak dönüş ve hayra doğru yarışma birlikte görünür (5:48). Bu çoğulluk zemini {ar:يُقِيمُونَ ٱلصَّلَاةَ, tr:yuqīmūna aṣ-ṣalāta, gloss:namazı sürdürürler} fiilinin olağan ibadet pratiğine değdiğinde, sürekli gözetilip yaşatılan görevi belirginleştirir. 5:48’de suya açılan görünür giriş, farklı yolların her birini bu pratiğin sağlayabileceği somut bir imkâna açılan kapı gibi düşündürür; açıkça işaretlenmiş ve yürünebilir yol, topluluğun yalnız bir adla değil bir güzergâh üzerindeki etkinliğiyle görünmesini sağlar. Aynı bağlamdaki kolektif birim, inananları çoğul insan düzeni içinde canlı bir topluluk olarak gösterir. Tek yöne birleşme ihtimalinin gerçekleşmeden bırakılması, yolları tek biçime indirmeden ortak aidiyeti düşünmeye izin verir.
+
+Bu zeminde {ar:وَيُؤْتُونَ الزَّكَاةَ, tr:wa-yuʾtūna az-zakāta, gloss:zekâtı verirler} olağan zekâtı alıcıya ulaştırma yükümlülüğünü taşır; (5:48)’deki ortak hayra doğru yarış, bu verme hareketine somut bir aktarım yönü verir. Aynı {ar:الزَّكَاةَ, tr:az-zakāta, gloss:zekâtı} kelimesi kurumsal ödemeyi korurken büyüyüp artma yönüyle çoğul toplulukları hayra doğru ilerleten üretken etkiyi duyurur. Böylece namaz topluluğun süreklilik taşıyan görevini, zekât ise ortak hayra ulaşan dışa dönük aktarımı görünür kılar. Farklı yollar, sınanma ve ortak dönüş bu iki pratiğin üzerinde topluluğu sürekli yaptığı görevlerle belirginleştirir; hayra doğru yarış da dışarıya yönelen zekâtı ortak yarara doğru hareket eden dinamik bir çizgiye bağlar (5:48). İman edenlerin olağan kimliği ve adlandırılmış pratikler bu görüntünün zeminidir; davranışlar kimliğin görünen yüzünü açıklar, 5:48 ise bu yüzü bütün iman tanımının yerine koymadan belirginleştirir.
+
+## Değerin Akış Yönü
+
+Yollar içindeki hareketten sonra soru, yakınlığın değeri hangi tarafa akıttığıdır. Bu okumanın katkısı, koruyucu ilişkinin maddi yönünü akışın yönü üzerinden görünür kılmasıdır. {ar:وَلِيُّكُمُ, tr:waliyyukumu, gloss:koruyup destekleyen yakın} yanında durup destekleme ilişkisini taşır. 5:42’de malın bozuk kazançla içe çekilip tüketilmesi, desteğin karşıtındaki içe kapanan akışı; 5:44’te emanet edilen işaretlerin satış değerine çevrilmesi ve bu dönüşümden küçük bir getiri alınması, güvenin fiyatlandırılıp tüketilmesini gösterir (5:42, 5:44). 5:54’te karşılıksız nimetin kabul edilmesi ise satın alınmamış geçimin olumlu kaynağını açar (5:54). Alınan kazancın bozuk veya haksız oluşu, içe çeken tüketimin niteliğini belirler; düşük satış getirisi de emanetin özel kazanca çevrilmesindeki orantısızlığı görünür kılar.
+
+Bu yönler {ar:وَيُؤْتُونَ الزَّكَاةَ, tr:wa-yuʾtūna az-zakāta, gloss:zekâtı verirler} ifadesine döndüğünde, olağan zekât aktarımı dışarıya açılır. {ar:ٱلزَّكَوٰةَ, tr:az-zakāta, gloss:zekâtı} kurumsal pay olmayı sürdürürken arınıp düzgünleşme yönüyle bozuk kazanç ve emanet işaretlerinin satışı karşısında kirlenmiş değer akışını düzelten bir yüz kazanır. Zekât bu bağlamsal görüntüde maddi bir muhasebe gibi görünür: destek verme yoluyla dışarı akar, sömürücü yakınlık ise güveni tüketim veya satış için içeri çeker. Karşılıksız nimet, dışa doğru dağıtan hareketin olumlu kaynağını ve yeniden paylaşıma açılan karşı akışı sağlar. Bu bağlantı, zekâtın olağan kurumsal anlamını ve âyetin hukukî malzemesinin genişliğini koruyan bağlamsal bir yankıdır.
+
+## Eğilen ve Direnen Beden
+
+Maddi aktarım görüntüsünün ardından aynı âyetin kapanışındaki rükû yeniden öne çıkar. Bu okumanın katkısı, rükûdaki alçalışın hem iç bağlılığı hem de dış baskı karşısındaki duruşu taşıyabilen ölçülü bir beden dili olarak görünmesidir. Rükû eden topluluk doğrudan okumada ibadet içindeki alçalışı bildirir. Bu bedensel hâl, 5:54’teki karşılıklı sevgi, inananlara yumuşaklık, inkârcılara karşı güç ve zorluk altında çaba ayrıntılarıyla temas eder (5:54). {ar:يُقِيمُونَ ٱلصَّلَاةَ, tr:yuqīmūna aṣ-ṣalāta, gloss:namazı sürdürürler} olağan ibadet sürekliliğini taşırken ayağa kalkma ve dik durma yönüyle çaba harcama görüntüsüne değinir. {ar:رَاكِعُونَ, tr:rākiʿūna, gloss:rükû edenler} olağan rükû ibadetini korurken kendini alçaltarak boyun eğme yönünü öne çıkarır; bu toplumsal portreyle buluştuğunda farklı muhataplara göre ayarlanan bir alçalışı anlatır. {ar:وَلِيُّكُمُ, tr:waliyyukumu, gloss:koruyup destekleyen yakın} olağan destekleyici yakınlığını sürdürür; karşılıklı sevgi ve inananlara yumuşaklık iç bağın, inkârcılara karşı güç ve çaba ise dış baskı karşısındaki sağlamlığın yönünü belirler. Yumuşaklık içe yönelen yakınlığı, sağlamlık karşıt baskı karşısındaki direnci, çaba ise bu iki yönün bedel ödeyen bir pratikle birlikte durduğunu gösterir. Böylece 5:54’ün bu âyetle kurduğu bağlamsal nitelendirme, rükûnun ritüel ve alçakgönüllü anlamını kendi yerinde tutarak onun ilişkisel ölçüsünü görünür kılar.
+
+## Sonuçtan Önce Kurulan Bağ
+
+Âyetin doğrudan beyanının bu okumaya katkısı zamansaldır: bağlılık, sonuç elverişli hale gelmeden önce sürdürülen ve kimlik kuran bir adanmışlık olarak görünür. Bu, talihin değişmesinden korkarak kurulan güvence arayışının karşısında pratiğiyle kendini belli eden istikrarlı bir yöneliştir. {ar:وَلِيُّكُمُ, tr:waliyyukumu, gloss:koruyup destekleyen yakın} olağan yanında durup destek olma ilişkisini korur. 5:51’de {ar:أَوْلِيَاءَ, tr:awliyāʾ, gloss:karşılıklı yakınlık ve destek} biçimindeki ittifaklar sosyal kimlik kuran alternatif bağlılıkları görünür kılar; bu, odaktaki velayetin karşılaştırma zeminidir (5:51). 5:52’de kalbi hastalıklı kişinin kötü dönüş veya yenilgi korkusu, sonucu bekleyen güvencesiz yakınlığın beslediği güvence arayışını açar (5:52). 5:53’te ilan edilmiş bağlılığın ardından amellerin çökmesi, sözün yanında sürdürülen pratiğin neden gerekli olduğunu gösterir (5:53). Bu üç ayrıntı, 5:55’teki velayet ilişkisine ayrı ayrı dokunarak kararlı yönelişin sonucundan önce nasıl tanındığını açıklar.
+
+5:56’da aynı üçlü çevresinde etkin biçimde toplanan grup, inananlar topluluğunu yaşanan bir hizalanma olarak görünür kılar. {ar:يَتَوَلَّ, tr:yatawallā, gloss:yanında yer alıp destekler} biçiminin tekrarı, önceki başarısız amellerin karşısında 5:55’te adlandırılan bağlılığı etkin katılım olarak sürdürür (5:56). Ardından gelen üstün gelme, bu kararlı yönelimin sonradan görünen meyvesi olarak yerleşir. Böylece (5:51) rakip destek biçimleriyle karşılaştırma zeminini, (5:52) kalp hastalığı ve kötü dönüş korkusuyla güvencesiz yakınlık zeminini, (5:53) çöken amellerle pratik kanıtının karşıtını, (5:56) ise bağlılıktan sonra gelen sonucu sağlar. Bağlamın bu okuması doğru velayet ilişkisini ve iman edenlerin olağan tanımını taşır; 5:51’deki komşu uyarının sınırları kendi yerinde kalır ve sonraki üstün gelme bağlılığın nedeni değil, ardından gelen meyve olarak anlaşılır.
+
+## Ardışık Hareket
+
+Bağlılığın sonuçtan önce sürdürüldüğü görüntünün yanından, aynı kelimelerin açtığı hareket sırasına geçilir. Bu ikinci görüntünün katkısı, listedeki unsurları birbiri ardınca ilerleyen bir aktarım ve izleme düzeninde görünür kılmasıdır. {ar:وَلِيُّكُمُ, tr:waliyyukumu, gloss:koruyup destekleyen yakın} olağan destekleyici yakınlığı korurken süreklilik taşıyan ardışıklık yönüyle 5:46’daki önceki izi izleme, 5:48’deki güzergâhı takip etme ve hayra doğru yarışma, 5:56’daki etkin devamla temas eder (5:46, 5:48, 5:56). 5:46’daki önceki izin izlenmesi, sıraya geçmişten korunmuş bir yol kazandırır. Aynı bağlamdaki ikinci izlenmiş katkı 5:48’deki güzergâh takibiyle birleşir; bu iki ayrıntı tek bir kimlikte eritilmeden katmanlı bir süreklilik bırakır. Bu işlemler birlikte, emanetin elden ele ilerleyen bir bağlılık içinde tutulduğu sırayı kurar.
+
+{ar:وَرَسُولُهُ, tr:wa-rasūluhū, gloss:Elçisi} olağan mesaj taşıyıcısı olarak kalır; gönderme veya serbest bırakma yönü önceki iz ve sonraki devamla buluştuğunda Elçi dizinin hareket eden ön taşıyıcısı gibi görünür. {ar:يُقِيمُونَ الصَّلَاةَ, tr:yuqīmūna aṣ-ṣalāta, gloss:namazı sürdürürler} ibadet anlamını korur. 5:48’deki yarışta öndekinin hemen arkasındaki ikincinin onu izlemesi ve ortak güzergâhta o ardışık yerini alması, namazı yakın ve düzenli bir izleme konumunda düşündüren iki ayrı ayrıntı sunar (5:48). Böylece namaz ibadet olarak kalırken ona ileriye dönük bir hareket de eşlik eder. Güzergâhı veya bağlılığı izleme, ardışıklığın doğru ya da yanlış bir yöne sahip olabileceğini gösterir; hayra doğru yarış ise bu diziyi yararlı bir hedefe çevirir (5:48). 5:56’da üçlünün destek içinde etkin biçimde devam etmesi, görüntüyü açıklanan beyanın sonrasına taşır; gönderilmiş figürün yeniden görünmesi aktarımın listenin sonunda kesilmediğini düşündürür (5:56). Bu ikinci görüntü keşifsel ve bağlamsaldır. Elçi’nin taşıyıcılığı, namazın ibadet oluşu ve velayetin destekleyici anlamı yerinde durur; ardışıklık bunların yanında, sağlanan bağlamın kurduğu yerel bir sıra olarak kalır.
+
+</editorial_prose>

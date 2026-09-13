@@ -1,0 +1,197 @@
+# V5 reading invitation — 5:2
+
+You are a fresh reading-invitation writer. Read the complete editorial prose
+before writing. It is your sole semantic source.
+
+Write two to four paragraphs of fluent, contemporary Turkish that reveal a
+surprising reading by following one or two main channels of resonance in the
+ayah. A channel is a connected background of meanings, images, actions, or
+relations through which the ayah can be heard and understood differently.
+Several editorial findings may together develop one channel. Summarize that
+connected movement and its consequence for the ayah's main meaning, rather
+than compressing findings individually. Give the reading's substance now;
+the invitation comes from understanding it, not from a promise of hidden depth.
+
+Before drafting, read the entire editorial prose and silently select the one
+or two channels with the strongest interpretive consequence and enough
+grounding to explain clearly. Favor channels that expand or shift what the
+ayah says, the relation it establishes, or what is at stake in its action or
+image. One fully developed channel is sufficient; add a second only when it
+offers a distinct consequential reading that can be explained within the
+invitation. No finding, channel, or major shift has an individual coverage
+claim. Unselected material may remain entirely in the full commentary.
+
+A channel may develop through grammar, sound, dialogue, a material process,
+time, imagery, or a conceptual relation. Resonance is not limited to acoustic
+effects, and an unusual image alone does not establish a channel. Use only
+connections the editorial prose actually develops. If it supplies no such
+channel, explain its strongest grounded reading without inventing connections
+or surprise.
+
+Begin inside the ayah's own words, images, actions, or relations and reveal a
+selected distinctive reading in the first paragraph. Keep the plain meaning
+reachable with only the orientation needed to understand the change. Do not
+spend an opening paragraph on routine explanation or front-load context about
+the surah, the ayah's position, or the commentary project.
+
+For each selected channel, begin with the expression that opens it, unfold the
+connected background, and show how the ayah reads or sounds against that
+background. Let a detail lead into the next through an intelligible relation
+or process, so the reader experiences the emerging reading. This is a movement
+of thought, not a mandatory sentence pattern or one paragraph per finding.
+Let the reader identify the expression being interpreted,
+where any nonordinary detail comes from, and what that detail changes in the
+reading. Briefly identify the word-family use, restricted form, collocation, or
+context that supplies an essential added detail, and preserve the concrete
+operation that makes the image work. Keep the ordinary reading and necessary
+qualification clear within this explanation; do not repeat them as a fixed
+formula. Preserve the particular object, process, or relation that makes this
+reading distinctive, and state its interpretive consequence for the ayah as a
+whole. Make intelligible what the familiar reading leaves less visible and
+what the expanded or shifted reading now lets the reader understand. Preserve
+the editorial's force: an exploratory possibility remains possible, while a
+developed shift must not be softened into a decorative association or a
+reassurance that everything means the same thing. A concrete
+account of how something is carried, transformed, lost, or restored must not
+shrink to a general statement about care, guidance, dependence, or goodness.
+Keep the details needed to make the selected channel work; omit side findings
+and shorten routine setup. If a channel cannot be explained faithfully from
+the editorial prose, choose another grounded channel or reading.
+
+When a non-focus ayah supplies a contribution used in the invitation, keep its
+reference from the editorial prose beside that contribution.
+
+Do not turn the invitation into a miniature inventory of the commentary's
+conclusions, or flatten distinct channels into a broad theme to include more
+material. Do not repair, extend, or supplement the editorial prose from memory
+or outside knowledge.
+
+Omit technical apparatus. Retain any qualification, source distinction, live
+alternative, or boundary whose absence would change the force or meaning of a
+chosen reading. Express it naturally beside the image or relation it qualifies.
+Favor positive explanations of the relation between layers: what remains in
+the foreground and what the resonance makes audible in the background. State
+how that background reinforces, expands, or shifts the understanding of the
+main meaning, with the source and degree of certainty clear. Reserve explicit
+exclusions for concrete ambiguities or live counter-evidence that need them.
+Repeated "this is not X" endings make a reading sound withdrawn; express the
+substantive qualification through what the reading does contribute wherever
+possible. Use varied, natural language rather than a repeated "second layer"
+formula, and preserve the force of expansions and shifts.
+Do not name branches, candidates, findings, scopes, evidence categories,
+ledgers, or workflow stages, or label the prose as numbered channels. Do not
+list findings serially.
+
+Use the established `{ar:..., tr:..., gloss:...}` syntax, consistent
+Turkish-readable transliteration, and short ordinary glosses. Keep Arabic
+anchors beside the explanations they ground. Within a paragraph, continue with
+the Turkish meaning where clear; provide the necessary local tag when a later
+paragraph interprets the carrier anew. Do not place Arabic script outside a
+valid tag.
+
+Build transitions within a channel through its shared object, action, or
+relation. If two channels are selected, they may occupy separate paragraphs;
+do not invent a link between them. Do not praise the commentary's quality,
+promise what the reader will find, manufacture suspense, recap at the end, or
+add a call to action. End on an image, relation, action, or tension already
+established by the selected reading.
+
+Before finishing, compare the invitation with the entire editorial prose:
+does the chosen channel reveal a consequential reading, or could the text have
+been written from the ordinary translation and a modest explanation alone?
+When the editorial supports a surprising channel, the latter fails this task.
+Can the reader follow the opening expression into a connected background and
+understand how that background expands or shifts the ayah's main meaning?
+Check the selected connections against their editorial explanation: can the
+reader tell where the nonordinary details come from, with the necessary
+qualifications intact? Repair generic explanation, isolated curiosities, or a
+compressed findings list by developing the selected channel. Do not add
+omitted channels merely for coverage. Do not output this check.
+
+Write only the invitation text to:
+
+`_commentary/v5/editorial/s005-p01-with-fatiha/s005/5_2/5_2.invitation.tr.md`
+
+Do not add a heading, wrapper label, index, ledger, evidence file, or any other
+artifact. Do not modify the editorial prose.
+
+After writing the invitation, run:
+
+```bash
+python3 _commentary/v5/validate_prose.py _commentary/v5/editorial/s005-p01-with-fatiha/s005/5_2/5_2.invitation.tr.md
+```
+
+If validation fails, repair only the reported mechanical file-contract issues
+and rerun it, for at most two repair cycles. Report the final validator result
+in your response.
+
+<editorial_prose>
+## Muhatap ve Korunanlar
+
+Âyetin ilk hareketi, koruma hükmünü kimin taşıyacağını belirler. {ar:يَا أَيُّهَا, tr:yā ayyuhā, gloss:ey inananlar} seslenişi topluluğa yönelir; içindeki {ar:أَيُّهَا, tr:ayyuhā, gloss:ey} biçimi, çağrı ile arkasından gelen {ar:ٱلَّذِينَ, tr:alladhīna, gloss:kimseler ki} cümleciğini birbirine bağlar. Böylece duyuru havada kalmaz, dikkat bekleyen canlı bir muhataba ulaşır. {ar:ٱلَّذِينَ, tr:alladhīna, gloss:kimseler ki} ile {ar:ءَامَنُوا۟, tr:āmanū, gloss:inandılar} birlikte, bu muhatapları isimsiz bir kitle değil, iman ve güvenle tanımlanan belirli bir topluluk olarak kurar.
+
+Bu topluluğa yönelen ilk iş, korunanı ihlalden ayırmaktır. İlk {ar:لَا, tr:lā, gloss:etmeyin} hemen ardından gelen {ar:تُحِلُّوا۟, tr:tuḥillū, gloss:serbest kılmayın} ile birleşir. Bir şeyi izinli hâle getirme eylemi burada durdurulur; {ar:شَعَٰٓئِرَ, tr:shaʿāʾir, gloss:Allah'ın işaretleri} sözü de ayırt edici belirtileri ve ibadetin görünür yüzünü bu koruma altında toplar. {ar:ٱللَّهِ, tr:Allāh, gloss:Allah'ın} tamlayanlığı, işaretleri nötr bir geleneğin göstergeleri olmaktan çıkarıp Allah'a ait ve bu aidiyet içinde korunmuş göstergeler hâline getirir. İlk {ar:وَ, tr:wa, gloss:ve} bu yasak yükünü listedeki yeni öğeye taşır.
+
+Yasak aynı kalırken korunan şeyin niteliği değişir. Yenilenen {ar:لَا, tr:lā, gloss:etmeyin}, fiili her defasında yeniden kurmadan {ar:ٱلشَّهْرَ, tr:ash-shahr, gloss:kutsal ay} üzerine de ayrı bir koruma yerleştirir. Ay, herkesçe tanınan bir takvim birimi olarak zamanı kamusal biçimde görünür kılar; {ar:ٱلْحَرَامَ, tr:al-ḥarām, gloss:çiğnenmesi yasak} onun dokunulmaz bırakılmış zaman niteliğini belirler. Sonraki {ar:وَ, tr:wa, gloss:ve} aynı yapıyı {ar:ٱلْهَدْىَ, tr:al-hady, gloss:kutsal yere gönderilen sunu} üzerine taşır. Yasak fiili tekrar edilmese de hady kendi korunmuş yerini alır; yönlendirme ve sunma alanı, kutsal hedefe ayrılmış somut bir adakta toplanır. Buradaki hady soyut bir hidayet değil, kutsal hedefe gönderilmiş ve ayrılmış bir sunudur.
+
+Bir sonraki {ar:وَ, tr:wa, gloss:ve} sunuyu, onun üzerinde okunan işarete bağlar: {ar:ٱلْقَلَٰٓئِدَ, tr:al-qalāʾid, gloss:boyna takılan adanmışlık işaretleri}. Önündeki {ar:لَا, tr:lā, gloss:etmeyin}, gerdanlığı hady ile birlikte anılan sıradan bir ayrıntı olmaktan çıkarır ve ona bağımsız bir korunmuş statü verir. Adanmış sununun ayrılmışlığı böylece herkesin görebileceği bir belirtiye dönüşür; hayvanın statüsü bedeninin üzerinde okunur.
+
+Bu işaret, boyun çevresinde bükülüp dolanan bir biçim duygusuyla korunmuş statünün bedende nasıl taşındığını da gösterir. Yakın bağlamdaki {ar:ٱلْمُنْخَنِقَةُ, tr:al-munḫaniqa, gloss:boynu kuşatan boğucu halka} boynu saran bağımsız bir beden görüntüsü verir ve gerdanlığın taşınan şeklini elle tutulur kılar. (5:3)'teki gıda ve kurbanlık sınırları bu görüntüyü aynı yerel kutsallık çerçevesine bağlar. Gerdanlık böylece korunmayı nesnenin üzerinde okunur kılar; bu biçimsel katkı, işareti adanmış hayvanı tanıtan boyun çevresindeki belirti içinde tutar ve her türlü kolye veya süs anlamına genişletmez.
+
+İşaretlerin, zamanın, hadyin ve gerdanlığın aynı koruma hareketinde buluşması, yasağı tek tek nesnelerden daha geniş bir kamusal sınır olarak duyurur. {ar:شَعَائِر, tr:shaʿāʾir, gloss:ayırt edici belirti ve kutsal ziyaret uygulamaları} ile Beyt'e yönelen hareketin (2:158)'de yan yana gelişi, işaretleri kutsal ziyarete yaklaşmanın kamusal belirtileri olarak görünür kılar. Ev, haram ay, hady ve gerdanlıkların (5:97)'de yeniden birlikte kurulması da {ar:حَرَام, tr:ḥarām, gloss:korunan yer ve kullanım çevresi} çevresinde işleyen sürdürücü bir kamu düzeni gösterir. Sınır böylece kullanımı ve çevresi tanınan bir alana dönüşür; yaklaşan kişi ve adanmış hayvan başkalarının müdahalesinden önce tanınabilir. Bu işaretlerin burada taşıdığı işlev kutsal ziyaretin görünür düzenini kurar; savaşta ortak çağrı veya kendiliğinden belirli bir hukukî sonuç bağlantının bu özel kapsamına girmez.
+
+Görünürlük, başkalarının davranışını sınırlayan ilişkisel bir sorumluluk da düşündürür. {ar:قَلَائِد, tr:qalāʾid, gloss:birine iş veya sorumluluk yükleme} kelimenin bir işin kişinin üzerine alınmasını ya da kişiye yüklenmesini anlatan yüzünü açar. (5:1)'deki {ar:أَوْفُوا بِٱلْعُقُودِ, tr:awfū bil-ʿuqūd, gloss:akitleri eksiksiz yerine getirin} emri ve (5:7)'deki {ar:مِيثَٰقَهُ وَاثَقَكُم, tr:mīthāqahu wāthaqakum, gloss:sağlamlaştırılmış misak} bu işareti yerine getirilmesi gereken bir bağın dışarıdan görünen taşıyıcısı olarak renklendirir; Ev, haram ay, hady ve gerdanlık birlikteliği de (5:97)'de aynı kamusal çerçeveyi sürdürür. Gerdanlığın bu ilişkisel yüzü, işaretlenmiş olana karşı davranışın sınırını biçimsel anlamıyla birlikte belirler; katkı, her gözlemci için kendiliğinden belirlenmiş bir hukukî borç hükmü kurmaz.
+
+Korunanların yönü nesnelerden insanlara geçtiğinde, {ar:وَلَآ, tr:wa-lā, gloss:ve etmeyin} bu değişimi duyurur. Son {ar:لَا, tr:lā, gloss:etmeyin}, önceki koruma kuvvetini {ar:ءَآمِّينَ, tr:āmmīn, gloss:Kutsal Ev'e yönelenler} topluluğuna taşır. Yolda olan insanlar kendi korunmuş hedefi olan canlı muhataplardır. {ar:ءَآمِّينَ, tr:āmmīn, gloss:amaçlayıp yönelenler} belirli bir merkeze doğru amaçlı hareketi kurar; bu yöneliş {ar:ٱلْبَيْتَ, tr:al-bayt, gloss:Kutsal Ev} ve {ar:ٱلْحَرَامِ, tr:al-ḥarām, gloss:çiğnenmesi yasak} ile buluştuğunda koruma, kutsal mekânda duranlardan oraya yaklaşanlara doğru genişler. Yönün odağı Beyt'e doğru belirlenmiş hedeftir. {ar:ٱلْبَيْتَ, tr:al-bayt, gloss:barınak ve dönüş yeri} varış, sığınak ve dönüş hedefini kurar; {ar:ٱلْحَرَامِ, tr:al-ḥarām, gloss:korunan ve dokunulmaz alan} zaman için duyulan dokunulmazlığı varış mekânının niteliğine taşır.
+
+Bu yönelişi niyet tamamlar. {ar:يَبْتَغُونَ, tr:yabtaghūn, gloss:arıyor ve istiyorlar} biçimi hareketi etkin bir arayış olarak kurar; aranan iki şeyi birbirine karıştırmadan {ar:فَضْلًا, tr:faḍlan, gloss:lütuf} ile {ar:رِضْوَانًا, tr:riḍwānan, gloss:hoşnutluk ve kabul} yan yana getirir. {ar:فَضْلًا, tr:faḍlan, gloss:lütuf} belirsiz bırakıldığı için nimetin kapsamını önceden kapatmaz; {ar:مِّن, tr:min, gloss:-den} edatı ve {ar:رَّبِّهِمْ, tr:rabbihim, gloss:Rablerinden} arayışı kendilerini gözeten Rablerinden gelen ilahî lütuf alanına bağlar. Bu açıklık, arayışın kaynağını ve bakımını Rabbe bağlar; onu ticari veya sınırsız bir kazanım vaadi olarak kurmaz. {ar:وَ, tr:wa, gloss:ve} iki amacı birlikte tutar; {ar:رِضْوَانًا, tr:riḍwānan, gloss:ilahî hoşnutluk} sıradan bir memnuniyet değil, aranılan kabul ufkudur. (5:3)'teki {ar:رَضِيَ, tr:raḍiya, gloss:hoşnut oldu ve kabul etti} bu kabulün verilmiş biçimini gösterir; insanın araması ile Allah'ın kabul etmesi aynı anlam alanında buluşurken arayış ile verilmiş kabul arasındaki yön farkı korunur.
+
+Yaklaşan kişinin hareketi, görünür işaret ile ayrılmış sunu arasındaki ilişkiyi işler hâle getirir. {ar:شَعَٰٓئِرَ, tr:shaʿāʾir, gloss:görünür işaretler} yaklaşmayı okunur kılar; {ar:ٱلْهَدْىَ, tr:al-hady, gloss:adanmış sunu} kutsal hedefe ayrılmış varlığı yolda taşır; {ar:ٱلْقَلَٰٓئِدَ, tr:al-qalāʾid, gloss:boyun işareti} bu ayrılmışlığı dışarıdan bildirir. Bu üç işlem birleştiğinde korunan statü, yalnızca sununun üzerinde kalmaz, yol boyunca başkalarının okuyabileceği bir güven işaretine dönüşür. Aynı anda {ar:ءَآمِّينَ, tr:āmmīn, gloss:amaçlayıp yönelenler} hareketin taşıyıcısını, {ar:ٱلْبَيْتَ, tr:al-bayt, gloss:varış ve dönüş yeri} de yöneldiği hedefi belirler. Böylece sabit Ev ile ona doğru ilerleyen yol arasında, kırılgan yolcuyu ve adanmış taşıyıcıyı ziyaret sınırı içinde tutan bir düzen kurulur.
+
+Yolun korunması, sonraki hareket dizisinde eşiğin nasıl geçileceği sorusunu açar. {ar:آمِّينَ, tr:āmmīn, gloss:seçilmiş hedefe yönelmek} (5:21)'de kutsal yere girme, geri dönmeme ve sırtını dönmeme buyruğundaki güzergâhla; {ar:الْبَيْت, tr:al-bayt, gloss:barınak ve mesken} (5:23)'te kapıdan giriş ve güven ilişkisiyle temas eder. İlk iki sahne, hedefe yönelmenin yalnızca varış değil, giriş ve güven üzerinden tamamlandığını gösterir.
+
+(5:24)'te oturup kalma, korkunun hareketi dışlayıp donmaya çevirdiği karşıt yolu gösterir; (5:26)'da yenilenen yasak ve dolaşma, reddedilen girişin uzayan sonucunu görünür kılar. {ar:صَدّ, tr:ṣadd, gloss:işten men edip yönünü çevirmek} bu eşikteki alıkoyma hareketini adlandırır; {ar:حَرَام, tr:ḥarām, gloss:sınırları ve çevresi korunan mekân} korunan çevreyi, {ar:تَعَاوَنُوا, tr:taʿāwanū, gloss:ortak yardım ve dayanışma} ise bu sınırın birlikte geçilmesi için gereken kapasiteyi belirginleştirir. Bu bağlantı, ayet dizisinin ayrı askerî koşullarını kendi bağlamında tutarak 5:2'nin yaklaşmayı koruyan hareketine sınırlı bir eşik imgesi ekler.
+
+{ar:رَّبِّهِمْ, tr:rabbihim, gloss:onların Rabbi} sözü Fâtiha'nın (1:2) ayetindeki {ar:رَبِّ ٱلْعَٰلَمِينَ, tr:rabbil-ʿālamīn, gloss:âlemlerin Rabbi} ile yan yana duyulduğunda, lütuf ve hoşnutluk arayışını daha geniş bir bakım ufkuna açar. Yolcuları gözeten Rab, yalnız bu kafilenin yerel koruyucusu olarak değil, bütün âlemleri yetiştirip tamamlayan Rab olarak da duyulabilir. Bu temasın odak için katkısı, Rab adının bakım alanını genişletmesidir; Fâtiha'nın bütün teması 5:2'ye taşınmadan ve zorunlu bir tarihsel sahiplik ayrıntısı kurulmadan bu bakım ufku korunur.
+
+Hadydeki yön duygusu Fâtiha'nın (1:6) ayetindeki {ar:ٱهْدِنَا, tr:ihdinā, gloss:bizi yönelt ve doğruya ulaştır} buyruğuyla belirginleşir. {ar:ٱلْهَدْىَ, tr:al-hady, gloss:kutsal hedefe gönderilen sunu} burada yine kutsal hedefe yakınlık amacıyla ayrılıp gönderilen hayvan, mal veya eşya niteliğindeki somut armağanı korur; {ar:ٱهْدِنَا, tr:ihdinā, gloss:bizi yönelt ve doğruya ulaştır} bu gönderilmişliğe istikamet ekler. Sunu böylece varacağı hedefe doğru yönelmiş bir armağan olarak görülür. İhdinā'nın katkısı, hadyi yöneltme fiiline dönüştürmeden onun hedefe giden istikametini görünür kılmasıdır; sununun kurban ve gönderilme niteliği yerinde kalır.
+
+## Serbestlikten Sonra
+
+Koruma düzeni kurulduktan sonra ayetin ritmi, korunmuş durumun ne zaman değişeceğini sorar. {ar:وَإِذَا, tr:wa-idhā, gloss:ve ne zaman} yeni kesiti açar; {ar:إِذَا, tr:idhā, gloss:ne zaman} tek başına sürekli bir ruhsat kurmaz, onu izleyen {ar:حَلَلْتُمْ, tr:ḥalaltum, gloss:serbest hâle çıktığınızda} şartına bağlanır. Muhataplar korunan durumdan çıktığında {ar:فَ, tr:fa, gloss:böylece} değişimin sonucunu {ar:ٱصْطَادُوا۟, tr:iṣṭādū, gloss:avlanın} emrine bağlar. Bu emir, şart gerçekleştiğinde açılan yetkiyi bildirir ve zorunlu avlanma yüklemez. Ardındaki {ar:وَ, tr:wa, gloss:ve} ve yeni {ar:لَا, tr:lā, gloss:olmasın} ise serbestlik statüsüyle birlikte ahlaki freni de görünür tutar.
+
+{ar:حَلَلْتُمْ, tr:ḥalaltum, gloss:yasağın kalkıp izinli duruma gelmesi} sözü, bir düğümün çözülmesi ve sıkı tutulmuş bir durumun yetkili biçimde gevşemesi görüntüsünü taşır. Önceki {ar:ٱلْحَرَامَ, tr:al-ḥarām, gloss:korunmuş ve dokunulmaz alan} ile sonraki av emri arasındaki ilişki, koruma döneminin sona erişini görünür kılar; bu çözülme korunan niteliğin silinmesi anlamını taşımaz. (5:1)'deki akit ve ilk izin çerçevesi, (5:4)'te avın salıverilme sonrasındaki düzeni, (5:5)'te izinli yiyeceklerin sınırı ve (5:7)'de misak ile sakınma çağrısı bu geçişe yakın bir hukukî hareket kazandırır. (5:7)'deki {ar:مِيثَٰقَهُ وَاثَقَكُم, tr:mīthāqahu wāthaqakum, gloss:sağlamlaştırılmış misak} tekil kısıtlar gevşerken daha kalıcı bir bağın sürdüğünü hatırlatır. Bu bağlam, odaktaki serbestleşmenin anlamını özel durumun zaman ve statü değişimiyle sınırlar; bütün serbest kılma kullanımlarına tek bir anlam yüklemez.
+
+Serbestleşince açılan av hareketi de eğitilmiş bir denetim zinciri içinde görünür. {ar:حَلَلْتُمْ فَٱصْطَادُوا, tr:ḥalaltum faṣṭādū, gloss:serbestleşince avlanın} dizisi statü değişimiyle arayıp ele geçirmeyi aynı geçişte buluşturur; (5:4)'teki {ar:مَا عَلَّمْتُم مِّنَ ٱلْجَوَارِحِ, tr:mā ʿallamtum mina l-jawāriḥ, gloss:öğrettiğiniz av hayvanları} ham gücün öğretilmiş beceriye çevrildiğini gösterir. {ar:فَكُلُوا۟ مِمَّآ أَمْسَكْنَ عَلَيْكُمْ, tr:fa-kulū mimmā amsakna ʿalaykum, gloss:sizin için tuttuklarından yiyin} tutma ve elde tutma anını, kovalamadan kullanılabilir hâle gelmeye kadar uzanan denetim noktasını görünür kılar. {ar:وَٱذْكُرُوا۟ ٱسْمَ ٱللَّهِ عَلَيْهِ, tr:udhkurū isma llāhi ʿalayhi, gloss:üzerinde Allah'ın adını anın} ise başarıyı yalnız ele geçirme olarak bırakmaz, onu anma ve sorumlulukla birlikte kurar. (5:4)'ün yiyeceği ayrıca düzenleyen bir ayet olarak okunabilmesi, bu bağlantının kapsamını belirler: burada av izninin kesin ayrıntısı değil, izinli hareketi eğitilmiş ve denetlenmiş bir edinim biçimiyle renklendiren yakın aktarım öne çıkar.
+
+## Kin ve Sınır
+
+Serbestliğin ardından ayet, önceki alıkoymanın doğurabileceği kinin eyleme dönüşme noktasını açar. {ar:وَلَا, tr:wa-lā, gloss:ve etmeyin} ardından gelen {ar:يَجْرِمَنَّكُمْ, tr:yajriman-nakum, gloss:sizi suça sürüklemesin} bir duygunun muhatapları suçlu bir sonuca itmesine izin vermez. Duygunun adı {ar:شَنَـَٔانُ, tr:shanāʾān, gloss:yoğun kin}dir; hafif bir hoşnutsuzluk değil, eylemi itebilecek güçlü bir düşmanlık basıncıdır. {ar:قَوْمٍ, tr:qawmin, gloss:bir topluluk} bu basıncı tek kişilik soyut bir kusurdan çıkarıp birlikte duran bir topluluğa bağlar. {ar:أَن, tr:an, gloss:çünkü} ve {ar:صَدُّوكُمْ, tr:ṣaddūkum, gloss:sizi alıkoydular} yaşanmış engellemenin sebebini görünür kılar; {ar:عَنِ, tr:ʿani, gloss:-den} ayrılma yönünü, {ar:ٱلْمَسْجِدِ, tr:al-masjid, gloss:secde edilen ibadet yeri} ise uzak bırakılan somut mekânı belirler. {ar:ٱلْحَرَامِ, tr:al-ḥarām, gloss:dokunulmaz} bu mescidi korunan kutsal yer niteliğinde tutar. İkinci {ar:أَن, tr:an, gloss:diye} içteki duygudan dıştaki sonuca geçişi {ar:تَعْتَدُوا۟, tr:taʿtadū, gloss:sınırı aşasınız} ile adlandırır: yaşanmış mağduriyetin tanınması, karşılığın başkasının hakkına taşan bir eyleme dönüşmesini engelleyen ölçüye bağlanır.
+
+Duygu ile eylem arasındaki mesafe, (5:11)'de uzanan ellerin durdurulmasıyla bedensel bir görünüm kazanır. {ar:يَبْسُطُوا إِلَيْكُمْ أَيْدِيَهُمْ, tr:yabsuṭū ilaykum aydiyahum, gloss:ellerini size doğru uzatmaları} soyut saldırı ihtimalini gözle görülür bir uzanışa çevirir; {ar:فَكَفَّ أَيْدِيَهُمْ عَنكُمْ, tr:fa-kaffa aydiyahum ʿankum, gloss:ellerini sizden geri tutması} bu uzanışın hedefe varmasını kesen durdurmayı gösterir. {ar:أَيْدِيَهُمْ, tr:aydiyahum, gloss:bedensel elleri} sınır aşımının hangi araç üzerinden gerçeğe dönüşebileceğini belirginleştirir. Düşmanlık karşısında adaletin (5:8) ve niyet edilmiş saldırının durdurulmasının (5:11) yan yana gelişi, elin uzanışını karşılığın bedensel eşiği olarak görünür kılar. 5:11'deki aktörler kendi bağlamında kalır; 5:2'deki uyarı ise bu görüntüyü her sınır aşımını el hareketine indirmeden kullanır.
+
+{ar:يَجْرِمَنَّكُمْ, tr:yajriman-nakum, gloss:kesip ayırma} fiili bir şeyi bütününden koparıp ayrılan sonucu alma görüntüsünü duyurabilir. Aynı yüzeyin {ar:يَجْرِمَنَّكُمْ, tr:yajriman-nakum, gloss:birini sonuca sürükleyip sonucu ona yükleme} yönü ise birini öfke veya davranış gibi bir sonuca itip sonucu onun üzerine bırakır. {ar:شَنَـَٔانُ, tr:shanāʾān, gloss:nefret edip uzak durma} bu iki hareketin önündeki duygusal basıncı taşır. Nefretin toplumsal engelleyici etkisi (5:91) ile kutsal karşılaşmadaki düşmanca coşku, sükûnet ve sakınma arasındaki karşıtlık (48:26), eski engelin yeni bir ihlal üretme ihtimalini görünür kılar. Koparılan parça ile faile dönen sonuç farklı yönler taşır; ayetin hukukî uyarısı, kin tarafından üretilen eylemin sorumluluğunu eyleyende tutar. Bu temas, belirli bir topluluk hakkında ayrıca hukukî hüküm kurma alanı açmaz.
+
+Kinle sınırlandırılan sonuç, bedensel karşılıktan değerlendirme ve tanıklık ölçüsüne kadar uzanır. (5:8), {ar:يَجْرِمَنَّكُمْ شَنَآنُ قَوْمٍ, tr:yajriman-nakum shanāʾānu qawmin, gloss:bir topluluğa duyulan nefret sizi sürüklemesin} yapısını yeniden kurar ve bu kez sonucu adalet ölçüsünden sapma olarak gösterir. {ar:وَٱتَّقُوا۟, tr:wa-ttaqū, gloss:koruyucu sakınma içine girin} yanlış davranış ile kişi arasına bir koruma koyar; {ar:بِٱلْقِسْطِ, tr:bil-qisṭ, gloss:düz ve dengeli adalet ölçüsü} nefretin eğmemesi gereken teraziyi kurar. {ar:تَعْدِلُوا ٱعْدِلُوا, tr:taʿdilū iʿdilū, gloss:adaleti koruyun ve adil davranın} nefretin karşısına olumlu adalet eylemini koyar; {ar:أَقْرَبُ لِلتَّقْوَى, tr:aqrabu li-t-taqwā, gloss:sakınmaya daha yakın} bu eylemi koruyucu tutuma yaklaştırır. Böylece (5:8)'deki paralel öğüt, düşmanlığı adaletle çevreleyen yakın bir bağlam kurarak 5:2'deki misilleme uyarısının ölçüsünü genişletir.
+
+Bu kin ve engellenme çizgisi, uzun süreli bir toplumsal sonuca da bağlanabilir. (5:13)'te sözleşmenin bozulmasıyla başlayan dizi, cezanın kaldırılması, kusurun silinmesi ve kusurdan lütufla dönülmesi imkânını da taşır; (5:14)'te ortak payın unutulması, kışkırtma, sertleşen dış düşmanlık ve içeride yerleşen itici duygu art arda gelir. Böylece bir ihlal sükûnet ve bağışlama ile soğurulabileceği gibi örgütlenmiş düşmanlık olarak da sürdürülebilir. {ar:تَعَاوَنُوا, tr:taʿāwanū, gloss:yardım, destek ve dayanışma} bu uzun sonucu kesebilecek ya da ortaklaştırabilecek mekanizma olarak yeniden görünür. Bu bağlam 5:2'ye doğrudan bir sözlük karşılığı eklemez; kin ile yardımlaşma buyruğu arasında, toplumsal yaralanmanın nasıl sürdürüleceğini veya yatıştırılacağını gösterir.
+
+## Yardımın Yönü
+
+Kin kaynaklı eylemin sınırı çizildikten sonra ayet, ortak gücün hangi zeminde kullanılacağını söyler. Yeni {ar:وَ, tr:wa, gloss:ve} ile gelen {ar:تَعَاوَنُوا۟, tr:taʿāwanū, gloss:birbirinize yardım edin} karşılıklılık bildirir; yardım tek taraflı bir iyilik değil, tarafların birlikte taşıdığı örgülü bir dayanışma olur. Ardındaki {ar:عَلَى, tr:ʿalā, gloss:üzerine} bu dayanışmanın zeminini belirler. {ar:ٱلْبِرِّ, tr:al-birr, gloss:iyilik ve doğruluk} doğru ve iyi olma alanını kurar; {ar:وَ, tr:wa, gloss:ve} ile ona bağlanan {ar:ٱلتَّقْوَىٰ, tr:at-taqwā, gloss:sakınma bilinci} ise zarar ile korunacak şey arasına önlem koyan koruyucu alanı ekler. Dışa dönük iyilik ile içteki sakınma, aynı karşılıklı yardım eyleminde birlikte tutulur.
+
+Bu iki zemin, yardımlaşmanın nasıl işlediğini elle tutulur bir imgeyle derinleştirir. {ar:الْبِرِّ, tr:al-birr, gloss:denizin karşıtı olan açık kara} kelimesinin açtığı açık arazi, ortak gücün üzerinde iyiliğin yürüyebileceği bir taban düşündürür; {ar:التَّقْوَى, tr:at-taqwā, gloss:zarar ile korunacak şey arasına engel koyma} ise bu taban üzerinde bir tampon ve ara katman kurar. Açık zemin ile koruyucu ara katmanın birlikte çalışması, iyiliği yalnızca amaç değil, zararı durduran bir düzen hâline getirir. İyilik ve sakınmanın günah ve saldırganlıkla karşılaştırılması (58:9), birbirini koruyanların iyiliği örgütleyip kötülüğü sınırlaması (9:71), {ar:تَعَاوَنُوا, tr:taʿāwanū, gloss:ortak destek ve dayanışma} fiilinin ortak kapasiteyi bu koruyucu yöne çevirebileceğini gösterir. Açık arazi burada bir zemin imgesi olarak çalışır; savaş sahnesi ise bu bağlantıda yalnızca sınanmış kapasitenin iyiliğe çevrilişini anlatan mecaz kaynağıdır.
+
+Kin ile yardımlaşmanın ayet içindeki sırası, üretilen sonucun yönünün değişebileceğini de gösterir. {ar:يَجْرِمَنَّكُمْ, tr:yajriman-nakum, gloss:sonuca sürükleyip sonucu faile yükleme} kırgınlığın bir davranış ve sorumluluk üretme okunu taşırken, {ar:تَعَاوَنُوا, tr:taʿāwanū, gloss:yardım, destek ve dayanışma} ortak desteği bu okun yönünü değiştirebilecek bir kapasite olarak belirir. İyilik ve sakınmayı günah ve saldırganlıktan ayıran karşıtlık (58:9), kin kaynaklı davranışın zarar yerine iyiliğe ve sakınmaya doğru çevrilebileceği yolu açar. Buradaki katkı, nefretin yeni bir ihlal üretebilmesinin yanında ortak desteğin o sonucu başka bir yöne çevirebilme imkânını göstermesidir; imkânın açılması, sonucun zorunlu olarak değişeceği anlamına gelmez.
+
+Fâtiha'nın (1:5) ayetindeki {ar:وَإِيَّاكَ نَسْتَعِينُ, tr:wa-iyyāka nastaʿīn, gloss:Senden yardım isteriz} duası, insanî dayanışmaya başka yönden gelen ilahî yardımı ekler. {ar:وَتَعَاوَنُوا, tr:wa-taʿāwanū, gloss:birbirinize yardım edin} buyruğundaki biçim, tarafların birlikte hareket ettiği karşılıklı desteği kurar; Fâtiha'daki yardım isteme ise yukarıya yönelen başvuruyu taşır. İki yardımın yönleri böylece birbirini açıklar: biri insanlar arasındaki karşılıklı desteği, diğeri Allah'a yönelen başvuruyu taşır. Günaha ortak olma sınırı bu karşılaştırmanın içinde de yerini korur.
+
+Olumlu yardım çiftinden sonra gelen {ar:وَ, tr:wa, gloss:ve} aynı ortak kapasiteyi ters hedefler karşısında sınırlar. {ar:لَا, tr:lā, gloss:yardımlaşmayın} ve yinelenen {ar:تَعَاوَنُوا۟, tr:taʿāwanū, gloss:yardımlaşın} yardımlaşmanın kendisini değil, yöneldiği alanı sınırlar; yinelenen {ar:عَلَى, tr:ʿalā, gloss:üzerine} olumlu ve olumsuz hedefleri aynı sözdizimsel zeminde karşılaştırır. Bu kez {ar:ٱلْإِثْمِ, tr:al-ithm, gloss:günah} ile {ar:وَ, tr:wa, gloss:ve} birlikte gelen {ar:ٱلْعُدْوَانِ, tr:al-ʿudwān, gloss:saldırganlık}, ortak desteğin yönelmemesi gereken iki alanı kurar. {ar:ٱلْإِثْمِ, tr:al-ithm, gloss:ahlaki yük} kişiyi iyilikten ve karşılıktan geri bırakan kusurun ağırlığını taşır; burada gecikme zamanın akışı değil, ahlaki yükün iyiye ilerlemeyi kesmesidir. {ar:ٱلْعُدْوَانِ, tr:al-ʿudwān, gloss:saldırganlık} ise daha önceki {ar:تَعْتَدُوا۟, tr:taʿtadū, gloss:haddi aşasınız} fiilinin isimleşmiş, birlikte sürdürülen sınır aşımı alanını gösterir. Böylece {ar:ٱلْبِرِّ, tr:al-birr, gloss:iyilik ve doğruluk} ile {ar:ٱلتَّقْوَىٰ, tr:at-taqwā, gloss:sakınma bilinci} ortak kapasiteyi iyiliğin zemininde tutarken, {ar:ٱلْإِثْمِ, tr:al-ithm, gloss:ahlaki yük} ile {ar:ٱلْعُدْوَانِ, tr:al-ʿudwān, gloss:saldırganlık} aynı kapasitenin ahlaki yük ve sınır aşımı üreten yönünü sınırlar.
+
+{ar:ٱلْإِثْمِ, tr:al-ithm, gloss:iyilikten geri bırakan ahlaki yanlış} kelimesinin (5:3)'te gereklilik içindeki istisna çerçevesinde, burada ise yardımlaşmanın sınırı içinde görünmesi iki farklı durumu yan yana getirir. (5:3)'teki kolaylaştırma kendi zorunluluk çerçevesinde kalır; 5:2'deki ortaklaşa günah yasağına genel bir istisna taşımaz. Böylece kolaylaştırılan bir durum bile günah sınırını ortadan kaldırmaz ve yardımın iyiye yönelen zemini korunur.
+
+Olumsuz yardımlaşma yasağı, ortak ağların yalnızca eylemleri değil, tutumları da taşıyıp çoğaltabileceğini düşündüren keşfî bir görüntü açar. {ar:تَعَاوَنُوا, tr:taʿāwanū, gloss:ortak destek ve dayanışma} bir grubun temas ağını kurar; {ar:عَدْوَان, tr:ʿudwān, gloss:hastalığın bulaşması} taşıyıcı bir canlıdan diğerine geçen bulaşma imgesini, {ar:شَنَآن, tr:shanāʾān, gloss:güçlü nefret ve uzak durma} ise bu ağda taşınan duygusal yükü verir. Kışkırtmadan dış düşmanlığa ve içeride yerleşen itici duyguya ilerleyen dizi (5:14), bir toplumsal tutumun aktarılıp yerleşebileceğini gösterir. Uyarı böylece tek bir saldırı fiiline kapanmadan, yaralanmış düşmanlığın grup içinde taşıyıcı hâle gelmesini önleyen bir dikkati de içerir. Bu ağ görüntüsü toplumsal aktarımı açıklayan bir mecazdır; tıbbî iddia olarak kullanılmaz ve {ar:ٱلْعُدْوَانِ, tr:al-ʿudwān, gloss:saldırganlık} kelimesinin ayetteki hukukî anlamını değiştirmez. (5:14)'teki kışkırtma aktarımı başlatır, dış düşmanlık onu görünür kılar, içsel itici duygu ise içeride yerleşen karşılığını tamamlar.
+
+Son bağlaç, toplumsal düzenlemeyi doğrudan Allah'a karşı sorumluluğa çevirir. {ar:وَ, tr:wa, gloss:ve} ile gelen {ar:ٱتَّقُوا۟, tr:ittaqū, gloss:sakının ve korunun}, yardımlaşmanın içindeki koruyucu {ar:ٱلتَّقْوَىٰ, tr:at-taqwā, gloss:sakınma bilinci} alanını muhatapların eylemine bağlar. {ar:ٱللَّهَ, tr:Allāha, gloss:Allah'ı} bu sakınmanın yöneldiği doğrudan nesnedir; hemen ardından {ar:ٱللَّهُ, tr:Allāhu, gloss:Allah} hükmün öznesi olarak belirir ve sorumluluğu belirsiz bir korku olmaktan çıkarır. {ar:إِنَّ, tr:inna, gloss:şüphesiz} gerekçeyi kesinleştirir; {ar:شَدِيدُ, tr:shadīd, gloss:şiddetli} bildirilen karşılığın niteliğini, {ar:ٱلْعِقَابِ, tr:al-ʿiqāb, gloss:ceza ve karşılık} ise hesap alanını adlandırır. Ceza ayrıntılandırılmadan, davranışın Allah'ın bildirdiği ciddi karşılıkla birlikte düşünülmesi istenir.
+
+</editorial_prose>

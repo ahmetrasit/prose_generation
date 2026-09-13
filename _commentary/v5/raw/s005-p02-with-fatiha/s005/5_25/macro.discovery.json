@@ -1,0 +1,616 @@
+{
+  "schema_version": "commentary-v5-scope-discovery-v1",
+  "ayah_ref": "5:25",
+  "lane": "macro",
+  "coverage_complete": true,
+  "candidate_decisions": [
+    {
+      "candidate_id": "cand_4c20642ec1319f58c545",
+      "decision": "narrow",
+      "reason": "Güvenilir kanal adayının ayırma, ayrılıp kopma, arayı bağlayan ilişki ve topluluk birliğinin dağılması çekirdekleri odak yüzeyindeki ٱفْرُقْ, iki بَيْنَ ve ٱلْقَوْمِ ile bağımsız temas kuruyor. root_001148/B005 ise ayrılmış topluluk bildiren yalın ad dalıdır; odakta bu dalı taşıyabilecek isim değil, ayırma emri olan ٱفْرُقْ bulunduğu için kapsamlı aday korunamıyor.",
+      "finding_refs": ["macro:separation-into-distinct-parties"],
+      "branch_exclusions": [
+        {
+          "branch_ref": "root_001148/B005",
+          "reason": "Dalın packet tanımı ayırma eylemini değil, daha büyük bütünden ayrılmış insan veya hayvan topluluğunu adlandırıyor. Odaktaki tek ilgili occurrence, bu nominal anlamı taşıyan bir isim değil, 5:25:9:2'deki emir fiilidir; bu nedenle dal için geçerli bir carrier yok."
+        }
+      ],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_5c20ebe19da54466f246",
+      "decision": "accept",
+      "reason": "HFT trace içindeki dört branch ref'in tamamı 5:17, 5:20, 5:23, 5:24 ve odak occurrence'larıyla koordinat olarak uyuşuyor. Lexicon kaydı bulunmayan context branch'leri bağımsız sözlük anlamı olarak değil, tam koordinatlı ve odağa dönen attributed contextual evidence olarak korunuyor; delegated agency değişimi ve alternatif statü-okuması bulguda birlikte tutuluyor.",
+      "finding_refs": ["macro:delegated-agency-collapse"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_563169c82550197ae71f",
+      "decision": "accept",
+      "reason": "Her branch ref HFT activation trace'te ayrı bir giriş, çıkış, kapı, ayırt etme veya iki taraflı aralık rolüyle veriliyor; 5:22, 5:23 ve 5:25 anchor'ları packet içinde eksiksiz. Unresolved context branch'leri, exact source coordinates ve odak dönüşü bulunduğu için attributed olarak tutuluyor.",
+      "finding_refs": ["macro:threshold-reversal"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_058955a9c31210afce24",
+      "decision": "accept",
+      "reason": "5:25 ile 5:26 arasındaki HFT trace, istenen ayırmayı sonraki ayetteki erişim yasağı, dolaşma ve aynı fasiq etiketiyle somutlaştırıyor. Tüm branch ref'ler trace'te mevcut; unresolved prohibition dalı exact context coordinate ile attributed tutuluyor, orta güven ve ceza-okuması alternatifi bulguda açık bırakılıyor.",
+      "finding_refs": ["macro:finite-access-boundary"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_3c70b04de5ad58088302",
+      "decision": "accept",
+      "reason": "5:23'teki iki kişi ve giriş eylemi, 5:24'teki oturma ve 5:25'teki kendim-kardeşim çerçevesi HFT trace'te birbirine bağlanıyor. Tüm branch ref'ler exact focus/context coordinates ile landed; unresolved context branch'leri lexicon gloss'u icat edilmeden attributed, taşınabilir iki kişilik birim iddiası ise tarihsel özdeşleştirme yapılmadan korunuyor.",
+      "finding_refs": ["macro:dyadic-covenant-cell"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_0bae12b23b0e1b885272",
+      "decision": "accept",
+      "reason": "5:21'de giriş, 5:22'de çıkış şartı, 5:25'te fasiq topluluk ve 5:26'da erişim engeli aynı HFT trace içinde exact coordinates ile dönüyor. Unresolved context branch'leri attributed olarak, taze hurmanın kabuktan çıkması dalı ise packet'teki exact focus gloss/facet ile exploratory ve etimolojik eşitleme yapılmadan tutuluyor.",
+      "finding_refs": ["macro:shell-land-container"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    }
+  ],
+  "findings": [
+    {
+      "finding_ref": "macro:separation-into-distinct-parties",
+      "origin_candidate_id": "cand_4c20642ec1319f58c545",
+      "represented_candidate_ids": [],
+      "title": "Separation into distinct parties",
+      "claim": "Musa'nın duası, kendisi ve kardeşiyle sınır ihlaliyle nitelenen topluluk arasındaki ilişkinin görünür bir toplumsal sınıra dönüştürülmesini ister; böylece ayrılık, yalnız uzaklık değil, tarafların ayrı hale gelmesidir.",
+      "mechanism": "Odaktaki ٱفْرُقْ emri, 5:22 ve 5:24'te görülen giriş reddi ve yerinde kalma karşısında iki بَيْنَ tamamlayıcısıyla buluşur. Bir بَيْنَ taraflar arasındaki kopmayı, diğeri bu kopmanın hâlâ bir ilişki aralığı üzerinde gerçekleştiğini taşır; ٱلْقَوْمِ ile ٱلْفَٰسِقِينَ ise ayrılacak kolektifi belirginleştirir.",
+      "reader_payoff": "Okur, duayı belirsiz bir uzaklaşma dileği olarak değil, birbirine karışmış bir topluluk ilişkisinin sınırını belirleme talebi olarak görür; bağın kesilmesi ve ayrı bir topluluk hâline gelme yönleri birlikte duyulur.",
+      "containment": "Bu bulgu, ayetin olağan anlamındaki Musa ve kardeşinin fasiq halktan ayrılması talebini taşır. Kalıcı kişilerarası düşmanlık, her türlü bağın yok edilmesi veya ayrılmış topluluk anlamını taşıyan nominal B005 dalı ileri sürülmüyor.",
+      "epistemic": {
+        "status": "grounded",
+        "source_trust": ["trusted"],
+        "reason": "Kanal nomination'ı trusted olarak verilmiş ve dört retained branch focus occurrence ile doğrudan landed; tek çıkarılan dal form bakımından focus carrier'a uymuyor."
+      },
+      "support_ids": [
+        "sup_011e3ef830c5ffcb127d",
+        "sup_073cf657eeb6538417a0",
+        "sup_0d669f0b87f9d40832a6",
+        "sup_4866b616d8e94915d50c",
+        "sup_ba0fe353c9e01a53fb31"
+      ],
+      "branch_activations": [
+        {
+          "branch_ref": "root_001148/B001",
+          "facet_id": "F001",
+          "branch_gloss": "ayırt edip birbirinden ayırma",
+          "facet_statement": "İki şey arasındaki ayrımı görünür veya anlaşılır kılıp birini ötekinden ayırma.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["5:25:9:2"],
+          "trigger_refs": ["5:22:9", "5:24:16"],
+          "focus_return_refs": ["5:25:9:2"],
+          "carrier": "ٱفْرُقْ, iki tarafı birbirinden ayırt edip ayırma emrini taşır.",
+          "independent_trigger": "5:22'de topluluk girişi karşı tarafın çıkışına bağlar; 5:24'te ise topluluk eylemi Musa ve Rabbine bırakıp oturduğunu bildirir.",
+          "activation": "Bu iki bağlam, ٱفْرُقْ emrindeki ayırmayı soyut bir ayrım değil, ortak hareketten ayrışmış tarafları görünür kılan bir işlem hâline getirir.",
+          "resulting_reading": "Dua, Musa ve kardeşiyle fasiq topluluk arasındaki ayrımın açıkça kurulmasını ister.",
+          "boundary": "Ayrımın hangi nihai toplumsal veya tarihsel biçimde gerçekleştiği ve kişiler arası düşmanlığın kalıcı olup olmadığı söylenmiyor."
+        },
+        {
+          "branch_ref": "root_000170/B001",
+          "facet_id": "F001",
+          "branch_gloss": "ayrılıp kopma",
+          "facet_statement": "Çekirdek anlam ayrılma, kopma ve tarafların birbirinden ayrı hale gelmesidir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["5:25:10:1"],
+          "trigger_refs": ["5:24:16"],
+          "focus_return_refs": ["5:25:10:1"],
+          "carrier": "بَيْنَنَا, Musa ve kardeşinin bulunduğu tarafla diğer taraf arasındaki aralığı taşır.",
+          "independent_trigger": "5:24:16'daki قَٰعِدُونَ, topluluğun ortak eylemden çekilip yerinde kalmasını bildirir.",
+          "activation": "İkinci tarafın oturup eylemden çekilmesi, بَيْنَنَا içindeki aralığı karşılıklı ayrışma ve kopma olarak belirginleştirir.",
+          "resulting_reading": "İstenen sınır, daha önce ortak görünmesi beklenen topluluk içindeki fiilî ayrılığı görünür kılar.",
+          "boundary": "Bu, iki tarafın ayrışmasını taşır; aralığı bağımsız bir mekân veya mutlak kopuş ilanına dönüştürmez."
+        },
+        {
+          "branch_ref": "root_000170/B003",
+          "facet_id": "F001",
+          "branch_gloss": "arayı bağlayan ilişki",
+          "facet_statement": "Çekirdek anlam taraflar arasında bulunan bağ ve bağlantıdır.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["5:25:10:1", "5:25:11:2"],
+          "trigger_refs": ["5:25:8:2", "5:25:12:2"],
+          "focus_return_refs": ["5:25:10:1", "5:25:11:2"],
+          "carrier": "İki بَيْنَ, tarafları birbirine göre konumlandıran ve aralarında bir bağ/ilişki bulunduğunu gösteren çerçeveyi taşır.",
+          "independent_trigger": "أَخِى kardeşlik bağını, ٱلْقَوْمِ ise karşı taraftaki topluluk ilişkisini adlandırır.",
+          "activation": "Tarafları belirleyen bu iki farklı ilişki sözü, بَيْنَ çerçevesinin kesilecek bir bağlantı aralığı üzerinde kurulduğunu gösterir.",
+          "resulting_reading": "Ayırma talebi, var olmayan bir ilişkiyi yoktan kurmak yerine mevcut toplumsal bağın sınırını açığa çıkarır.",
+          "boundary": "Bağın niteliği ve gelecekte sürüp sürmeyeceği belirlenmiyor; yalnızca ayrımın bir ilişkisel alan üzerinde istendiği görülüyor."
+        },
+        {
+          "branch_ref": "root_001148/B002",
+          "facet_id": "F003",
+          "branch_gloss": "parçalara ayırıp dağıtma",
+          "facet_statement": "Topluluğun, ortak sözün, inanç birliğinin veya eşler arasındaki bağın dağılması.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["5:25:9:2"],
+          "trigger_refs": ["5:25:12:2"],
+          "focus_return_refs": ["5:25:9:2"],
+          "carrier": "ٱفْرُقْ, ayrılma emrini taşırken bütünü parçalara ayırma yönünü de açar.",
+          "independent_trigger": "ٱلْقَوْمِ, ayırma talebinin tek tek kişilerden önce bir topluluk bütünüyle ilişkilendiğini gösterir.",
+          "activation": "Topluluk adıyla birleşen emir, ayrılığı iki kişi arasındaki basit mesafeden, ortak birliğin dağılması ve taraflara ayrılması sonucuna genişletir.",
+          "resulting_reading": "Musa, kendisi ve kardeşi için ayrılmış bir taraf; fasiq halk için de ondan ayrılmış bir taraf ister.",
+          "boundary": "Bu dağıtma yönü ayetin olağan ayırma talebini derinleştirir; topluluğun fiilen kaç parçaya ayrıldığı belirtilmiyor."
+        }
+      ],
+      "connection_refs": [
+        "conn_3f364a1124ed0a8f2d4d",
+        "conn_71611ffadab616128be3"
+      ],
+      "context_refs": ["5:22", "5:24"],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "macro:delegated-agency-collapse",
+      "origin_candidate_id": "cand_5c20ebe19da54466f246",
+      "represented_candidate_ids": [],
+      "title": "Delegated agency collapses",
+      "claim": "Musa'nın sınırı, genel bir çaresizlikten çok, topluluğa verilmiş kamusal hareket kapasitesinin reddedilmesinden sonra sorumluluk alanının kendisi ve kardeşiyle daralması olarak okunabilir.",
+      "mechanism": "5:17'de mutlak mülk ve tasarruf Allah'a aitken, 5:20'de topluluğa hükümdarlık statüsü verilir; 5:23 girişle birlikte güvenerek eylemeyi, 5:24 ise eylemi Musa ve Rabbine bırakıp oturmayı gösterir. Odaktaki أَمْلِكُ bu karşıtlıkla temas ettiğinde, kontrol sözü yalnız güçsüzlüğü değil, kullanılmayan veya reddedilen yetkinin ardından kalan hesap verebilir alanı belirtir.",
+      "reader_payoff": "Okur, 'kendim ve kardeşimden başkasına gücüm yetmiyor' sözünde yalnız içe kapanmış bir yakınlar listesi değil, topluluğun reddettiği ortak eylemden sonra açıkça sınırlandırılmış bir yetki alanı görür.",
+      "containment": "Bu, HFT'nin bağlamsal agency çıkarımıdır; 5:20'deki hükümdarlığın statü mü yoksa fiilî kapasite mi taşıdığı ayrıca açık kalır. Odak ayetinin Allah'tan ayrılık talebi olan olağan anlamı korunur.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": ["legacy_unbound"],
+        "reason": "Trace anchor'ları ve source word indices packet içinde eksiksiz, fakat okuyucu kimliği legacy_unbound ve context target morphology supplied değil; bu nedenle güçlü trace bağımsız doğrulanmış lexicon sonucu olarak değil attributed contextual evidence olarak sunuluyor."
+      },
+      "support_ids": ["sup_e776058418d2e67ed444"],
+      "branch_activations": [
+        {
+          "branch_ref": "root_001444/B003",
+          "facet_id": "F003",
+          "branch_gloss": "hükümdarlık ve kamusal egemenlik",
+          "facet_statement": "İlahi bağlamda bütün varlık üzerindeki mutlak ve kalıcı egemenlik anlatılır.",
+          "application_mode": "attributed",
+          "carrier_refs": ["5:17:13", "5:17:30"],
+          "trigger_refs": ["5:25:5:1"],
+          "focus_return_refs": ["5:25:5:1"],
+          "carrier": "5:17'deki يَمْلِكُ ve مُلْكُ, Allah'ın bütün varlık üzerindeki kapsamlı egemenlik ölçeğini taşır.",
+          "independent_trigger": "Odaktaki أَمْلِكُ, aynı kontrol alanını birinci tekil kişi için sınırlı biçimde gündeme getirir.",
+          "activation": "Kapsamlı ilahi egemenlik ile Musa'nın sınırlı أَمْلِكُ sözü yan yana geldiğinde, odaktaki sınırın mutlak egemenliği reddetmediği; insanın elindeki uygulama alanını ölçtüğü görülür.",
+          "resulting_reading": "Musa'nın 'sahip olduğum/yönetebildiğim alan' sözü, kapsamlı ilahi mülkün karşısında insan sorumluluğunun dar çevresini işaret eder.",
+          "boundary": "Bu temas, Musa'nın ilahi egemenlik iddiasında bulunduğunu veya kendi alanının Allah'ın alanına eşit olduğunu söylemez."
+        },
+        {
+          "branch_ref": "root_001444/B003",
+          "facet_id": "F004",
+          "branch_gloss": "hükümdarlık ve kamusal egemenlik",
+          "facet_statement": "Bir topluluk bir kişiyi başına geçirerek onu hükümdar konumuna getirir.",
+          "application_mode": "attributed",
+          "carrier_refs": ["5:20:15"],
+          "trigger_refs": ["5:25:5:1", "5:25:12:2"],
+          "focus_return_refs": ["5:25:5:1"],
+          "carrier": "5:20'deki مُّلُوكًا, topluluğa verilmiş hükümdarlık statüsünü taşır.",
+          "independent_trigger": "Odaktaki أَمْلِكُ ve ٱلْقَوْمِ, bu statünün sahibi görünen topluluğun sonraki reddiyle birlikte yeniden okunmasını sağlar.",
+          "activation": "Kendisine hükümdarlık statüsü verilmiş topluluğun giriş emrine karşı çıkması, odaktaki sınırlamayı topluluğun kapasitesinin hiç bulunmaması değil, ortak kapasitenin kullanılmaması olarak renklendirir.",
+          "resulting_reading": "Musa'nın yetki alanı, hükümdar sayılan topluluğun eylemden çekilmesiyle kendisi ve kardeşi çevresine daralır.",
+          "boundary": "Statü ile fiilî uygulama kapasitesi özdeşleştirilmiyor; HFT'nin statü-without-capacity alternatifi canlı kalıyor."
+        },
+        {
+          "branch_ref": "root_001681/B002",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": ["5:23:18"],
+          "trigger_refs": ["5:25:5:1"],
+          "focus_return_refs": ["5:25:5:1"],
+          "carrier": "5:23'teki تَوَكَّلُوا۟, güvenerek eyleme geçme biçimini taşır.",
+          "independent_trigger": "Odaktaki أَمْلِكُ, hangi eylem alanının Musa'nın doğrudan sorumluluğunda kaldığını sınırlar.",
+          "activation": "Güvene dayanarak girişmeye çağıran bağlam, أَمْلِكُ sözündeki sınırı eylemsizlik ruhsatı değil, kalan sorumluluk alanının açık hesabı olarak renklendirir.",
+          "resulting_reading": "Musa'nın sınırlı alanı, ortak eylem imkânının bulunmadığı bir boşluk değil, güven ve eylem çağrısının reddedilmesinden sonra geriye kalan hesap alanıdır.",
+          "boundary": "Musa'nın kişisel kontrolünün ne kadar geniş olduğu veya topluluğun tüm eylem gücünü kaybettiği iddia edilmiyor."
+        },
+        {
+          "branch_ref": "root_001244/B002",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": ["5:24:16"],
+          "trigger_refs": ["5:25:5:1"],
+          "focus_return_refs": ["5:25:5:1"],
+          "carrier": "5:24'teki قَٰعِدُونَ, topluluğun eylemden geri çekilip oturmasını taşır.",
+          "independent_trigger": "Odaktaki أَمْلِكُ, bu geri çekilmenin ardından Musa'nın elinde kalan sınırlı alanı adlandırır.",
+          "activation": "Oturma ve eylemi başkasına bırakma, أَمْلِكُ ifadesini soyut bir yetersizlikten, ortak yetkinin fiilen terk edilmesi karşısında sınır çizme cümlesine dönüştürür.",
+          "resulting_reading": "Kendim ve kardeşim ifadesi, reddedilmiş kolektif hareketin ardından Musa'nın hâlâ üstlenebildiği en küçük sorumluluk çevresini görünür kılar.",
+          "boundary": "Bu, topluluğun niyetini veya her ferdin aynı ölçüde sorumsuz olduğunu hükme bağlamaz."
+        },
+        {
+          "branch_ref": "root_001444/B002",
+          "facet_id": "F001",
+          "branch_gloss": "sahiplik ve tasarruf yetkisi",
+          "facet_statement": "Bir kişi, mal veya hak üzerinde sahiplikten doğan elinde bulundurma ve tasarruf yetkisine sahiptir.",
+          "application_mode": "attributed",
+          "carrier_refs": ["5:25:5:1"],
+          "trigger_refs": ["5:24:16"],
+          "focus_return_refs": ["5:25:5:1"],
+          "carrier": "أَمْلِكُ, birinci tekil kişi için elinde bulundurma ve tasarruf edebilme alanını taşır.",
+          "independent_trigger": "قَٰعِدُونَ, topluluğun kendisine verilen ortak eylem alanını kullanmadığını bildirir.",
+          "activation": "Bu karşılaşma, Musa'nın أَمْلِكُ sözüne 'her şeyi yönetemiyorum' düzeyinin ötesinde, kimin üzerinde fiilî tasarruf ve sorumluluk kaldığını belirleyen bir sınır kazandırır.",
+          "resulting_reading": "Tasarruf alanı topluluk adına genişletilemez; konuşan kişi onu kendisi ve kardeşiyle sınırlı olarak bildirir.",
+          "boundary": "Bu dalın özel sahiplik çekirdeği, Allah'ın mutlak egemenliği veya halk üzerindeki hükümdarlıkla özdeşleştirilmiyor."
+        }
+      ],
+      "connection_refs": [
+        "conn_23fb7343509cd9be52d2",
+        "conn_4030e1333f0efa729d49",
+        "conn_1a58bea756eff28d4ae8",
+        "conn_71611ffadab616128be3"
+      ],
+      "context_refs": ["5:17", "5:20", "5:23", "5:24"],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "macro:threshold-reversal",
+      "origin_candidate_id": "cand_563169c82550197ae71f",
+      "represented_candidate_ids": [],
+      "title": "Threshold reversal",
+      "claim": "Perikopta girişin önüne konan dış şartların ardından odak, asıl eşiği topluluğun içindeki taraf ayrımına taşır: mesele artık karşı tarafın çıkmasını beklemekten çok, hangi tarafın itaate cevap verdiğidir.",
+      "mechanism": "5:22'de giriş eylemi başkalarının çıkışına bağlanır; 5:23'te kapı, içinden geçilecek somut eşik olarak belirir; 5:25'te ٱفْرُقْ iki بَيْنَ ile birlikte çalışır. Böylece context'teki giriş-çıkış ve kapı görüntüleri, odaktaki ayırma emriyle dış engelden içsel taraf sınırına döner.",
+      "reader_payoff": "Okur, Musa'nın duasındaki ayırmayı yalnızca sorun çıkaran grubun uzağa gitmesi olarak değil, karşılıklılığın ve itaate cevap vermenin belirlediği bir eşik düzeni olarak da görür.",
+      "containment": "Bu, HFT'nin spatial staging yerine threshold reversal çıkarımıdır; tekrarlanan giriş-çıkış dilinin yalnızca anlatı sahnelemesi olabileceği açık kalır. Ayetin olağan ayrılık ve ayırma talebi korunur.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": ["legacy_unbound"],
+        "reason": "HFT trace 5:22, 5:23 ve 5:25 anchor'larını ve source word indices'lerini eksiksiz veriyor; context lexical identities ve morphology bağımsız olarak supplied değil, bu yüzden ilişki attributed ve qualified tutuluyor."
+      },
+      "support_ids": ["sup_dbb6c036067d72b17c07"],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000464/B001",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": ["5:22:9", "5:22:17"],
+          "trigger_refs": ["5:25:9:2", "5:25:10:1"],
+          "focus_return_refs": ["5:25:9:2"],
+          "carrier": "5:22'deki نَّدْخُلَ ve دَٰخِلُونَ, topluluğun giriş eylemini taşır.",
+          "independent_trigger": "Odaktaki ٱفْرُقْ ve بَيْنَنَا, girişin hangi taraflar için mümkün ve anlamlı olduğunu sorar.",
+          "activation": "Giriş eylemi odaktaki iki taraflı çerçeveyle buluştuğunda, eşiğin yalnız mekâna girmek değil, ayrılmış taraflardan biri olarak cevap vermek olduğu okunabilir.",
+          "resulting_reading": "Odak, dış koşula bağlanmış girişin ardından içerideki taraf sınırını belirler.",
+          "boundary": "Girişin yalnızca ahlaki veya sembolik bir eşik olduğu kesinleştirilmiyor; literal mekân okuması birlikte kalır."
+        },
+        {
+          "branch_ref": "root_000400/B001",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": ["5:22:11", "5:22:14"],
+          "trigger_refs": ["5:25:9:2", "5:25:10:1"],
+          "focus_return_refs": ["5:25:9:2"],
+          "carrier": "5:22'deki iki يَخْرُجُوا۟, karşı tarafın dışarı çıkmasını girişten önce istenen şart hâline getirir.",
+          "independent_trigger": "Odaktaki ٱفْرُقْ, tarafların birbirinden ayrılmasını doğrudan talep eder.",
+          "activation": "Başkalarının çıkmasını bekleyen şart, odaktaki ayırma emriyle temas ettiğinde, geciken eşiğin dışarıdaki grubun hareketinden iç tarafların konumuna taşındığı görülür.",
+          "resulting_reading": "Musa'nın talebi, karşı tarafın çıkışını bekleyen koşullu modeli içerideki ayrımın kurulmasıyla yeniden çerçeveler.",
+          "boundary": "Karşı tarafın gerçek hareketinin değersiz veya gereksiz olduğu söylenmiyor; yalnız odak ayetin eşiği yeniden konumlandırdığı çıkarılıyor."
+        },
+        {
+          "branch_ref": "root_000163/B001",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": ["5:23:11"],
+          "trigger_refs": ["5:25:9:2", "5:25:10:1"],
+          "focus_return_refs": ["5:25:9:2"],
+          "carrier": "5:23'teki ٱلْبَابَ, geçilmesi gereken somut kapı/eşiği taşır.",
+          "independent_trigger": "Odaktaki ٱفْرُقْ ve iki بَيْنَ, kapıdan geçmenin ötesinde tarafları belirleyen bir sınır çizer.",
+          "activation": "Kapı görüntüsü, odaktaki taraf çerçevesiyle birleştiğinde, cevap verenle geri duran arasındaki ayrımın da bir eşik gibi işlediğini görünür kılar.",
+          "resulting_reading": "Ayetteki 'aralarını ayır' talebi, topluluğun hangi tarafta durduğunu belirleyen içsel bir geçiş çizgisi olarak da duyulur.",
+          "boundary": "Kapı ile ahlaki taraf arasında sözlükte doğrudan özdeşlik kurulmaz; bu, exact context trace'e dayanan attributed bir bağlantıdır."
+        },
+        {
+          "branch_ref": "root_001148/B001",
+          "facet_id": "F001",
+          "branch_gloss": "ayırt edip birbirinden ayırma",
+          "facet_statement": "İki şey arasındaki ayrımı görünür veya anlaşılır kılıp birini ötekinden ayırma.",
+          "application_mode": "attributed",
+          "carrier_refs": ["5:25:9:2"],
+          "trigger_refs": ["5:22:11", "5:23:11"],
+          "focus_return_refs": ["5:25:9:2"],
+          "carrier": "ٱفْرُقْ, ayırma ve ayırt etme emrini taşır.",
+          "independent_trigger": "5:22'deki çıkış şartı ve 5:23'teki kapı, önceki eşiğin nasıl kurulduğunu gösterir.",
+          "activation": "Bu dış eşik görüntüleri ٱفْرُقْ ile buluşarak ayırmanın yalnız fiziksel mesafe değil, hangi tarafın cevap verdiğini ayırt eden bir işlem olmasını sağlar.",
+          "resulting_reading": "Odak, dışarıdaki sakinlerin hareketinden içerideki tarafların belirlenmesine geçen eşiği kurar.",
+          "boundary": "Bu ayrım, topluluk üyeleri hakkında nihai hüküm veya tarihsel sonuç bildirmez."
+        },
+        {
+          "branch_ref": "root_000170/B002",
+          "facet_id": "F001",
+          "branch_gloss": "arada olma",
+          "facet_statement": "Çekirdek anlam iki veya daha çok taraf arasındaki orta, aralık ve iç konumdur.",
+          "application_mode": "attributed",
+          "carrier_refs": ["5:25:10:1", "5:25:11:2"],
+          "trigger_refs": ["5:23:11", "5:25:9:2"],
+          "focus_return_refs": ["5:25:10:1", "5:25:11:2"],
+          "carrier": "بَيْنَنَا ve بَيْنَ, iki taraf arasında kurulan aralık ve iç konumu taşır.",
+          "independent_trigger": "Kapı ve ayırma emri, bu aralığın yalnız bir yer tarifi değil, geçişin taraflarını belirleyen bir interval olduğunu açar.",
+          "activation": "İki taraflı بَيْنَ çerçevesi, kapıdan geçişin kimler arasında gerçekleştiğini belirleyerek eşiği görünür bir iç aralığa dönüştürür.",
+          "resulting_reading": "Asıl eşik, dış grubun çıkışından sonra açılacak kapıdan önce, 'biz' ile fasiq topluluk arasındaki belirlenmiş aralıkta görünür.",
+          "boundary": "Aralık dalı ayrılık eyleminin kendisiyle özdeşleştirilmiyor; konumsal çerçeve ve ondan çıkan HFT çıkarımı birlikte tutuluyor."
+        }
+      ],
+      "connection_refs": [
+        "conn_3f364a1124ed0a8f2d4d",
+        "conn_1a58bea756eff28d4ae8"
+      ],
+      "context_refs": ["5:22", "5:23"],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "macro:finite-access-boundary",
+      "origin_candidate_id": "cand_058955a9c31210afce24",
+      "represented_candidate_ids": [],
+      "title": "Finite access boundary",
+      "claim": "Odaktaki ayırma talebinin hemen sonraki karşılığı, fasiq topluluğu için süreli bir erişim sınırı ve dolaşma sonucudur; bu karşılık, talebi açıkça kalıcı kişilerarası nefrete çevirmeden sınırlandırır.",
+      "mechanism": "5:25'teki ٱفْرُقْ ve ٱلْفَٰسِقِينَ, 5:26'daki مُحَرَّمَةٌ, kırk yıl ve aynı fasiq adlandırmasıyla buluşur. Ayırma isteği böylece sonraki ayette bir yere erişimin engellenmesi ve ölçülmüş bir süre içinde dolaşma düzeniyle somutlaşır.",
+      "reader_payoff": "Okur, duanın hemen ardından gelen cevabı yalnız soyut bir ayrılık hükmü olarak değil, belirli bir topluluğun mekâna erişimini sınırlayan ve sonucu zamanla ölçen bir uygulama olarak görür.",
+      "containment": "Bu, HFT'nin sonraki ayeti bir implementation olarak okuyan qualified çıkarımıdır. Kırk yıllık yasağın yalnız ceza olması ve koruyucu/iyileştirici bir ara oluşturmaması canlı alternatiftir; kişiler arası nihai ilişki açıklanmıyor.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": ["legacy_unbound"],
+        "reason": "5:25 ve 5:26 anchor'ları ile tüm trace coordinates supplied; source reader legacy_unbound ve HFT confidence medium olduğu için bulgu qualified olarak kalıyor."
+      },
+      "support_ids": ["sup_3795f9989528d407b26a"],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000313/B001",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": ["5:26:3"],
+          "trigger_refs": ["5:25:9:2"],
+          "focus_return_refs": ["5:25:9:2"],
+          "carrier": "5:26'daki مُحَرَّمَةٌ, erişimin yasaklanıp engellenmesini taşır.",
+          "independent_trigger": "Odaktaki ٱفْرُقْ, iki tarafın arasına konması istenen sınırı bildirir.",
+          "activation": "Sonraki ayetin engelleme biçimi, odaktaki ayırma talebine fiziksel erişim üzerinden uygulanan bir sınır kazandırır.",
+          "resulting_reading": "Ayırma isteği, en azından bir uygulama düzeyinde, belirli bir yere girişin kapatılmasıyla karşılık bulur.",
+          "boundary": "Bu attributed branch için bağımsız sözlük gloss'u veya yasağın tam hukuki kapsamı packet'te kurulmamıştır."
+        },
+        {
+          "branch_ref": "root_001156/B002",
+          "facet_id": "F001",
+          "branch_gloss": "taze hurmanın kabuğundan çıkması",
+          "facet_statement": "Taze hurma tanesi, kendisini saran kabuğun içinden dışarı çıkar.",
+          "application_mode": "attributed",
+          "carrier_refs": ["5:26:14"],
+          "trigger_refs": ["5:25:13:2", "5:25:9:2"],
+          "focus_return_refs": ["5:25:13:2"],
+          "carrier": "5:26'da tekrarlanan ٱلْفَٰسِقِينَ, aynı fasiq topluluğunu taşır; bu form için packet'teki kabuktan çıkış dalı focus'ta tanımlıdır.",
+          "independent_trigger": "Odaktaki ٱلْفَٰسِقِينَ ile ٱفْرُقْ, fasiq olarak nitelenen topluluk ile istenen ayırmayı aynı yüzeye bağlar.",
+          "activation": "Tekrarlanan fasiq etiketi, kabuktan dışarı çıkış imgesiyle buluşarak sonraki erişim sınırını, bir topluluğun bulunduğu kapsayıcı düzenden çıkması ve dışarıda kalması olarak renklendirir.",
+          "resulting_reading": "Ayırma, topluluğun sınır ihlaliyle nitelenen bir kapsama düzeninden çıkışı ve ardından bir başka kapsama alanına alınmaması imgesini de taşır.",
+          "boundary": "Bu, formun sözlük anlamının zorunlu sonucu veya fasiq kelimesinin hurma anlamına gelmesi değildir; attributed bir material analogy'dir."
+        },
+        {
+          "branch_ref": "root_001148/B002",
+          "facet_id": "F003",
+          "branch_gloss": "parçalara ayırıp dağıtma",
+          "facet_statement": "Topluluğun, ortak sözün, inanç birliğinin veya eşler arasındaki bağın dağılması.",
+          "application_mode": "attributed",
+          "carrier_refs": ["5:25:9:2"],
+          "trigger_refs": ["5:26:3"],
+          "focus_return_refs": ["5:25:9:2"],
+          "carrier": "ٱفْرُقْ, topluluk birliğini parçalara ayırma yönünü taşır.",
+          "independent_trigger": "5:26'daki مُحَرَّمَةٌ, topluluktan erişim ve mekân düzeyinde ayrıştırılmış bir sonuç bildirir.",
+          "activation": "Dağıtma dalı ile erişim yasağı buluştuğunda, odaktaki dua sonraki ayette birliğin veya ortak mekân ilişkisinin bölünmüş bir düzene dönüşmesi olarak okunabilir.",
+          "resulting_reading": "Ayırma, bir sonraki ayette fasiq topluluğu belirli bir yer ve süre düzeninden dışarıda bırakan parçalanmış bir toplumsal konuma dönüşür.",
+          "boundary": "Bu okuma, yasağın rehabilitasyon amacı taşıdığını veya topluluğun bütün sosyal ilişkilerinin sona erdiğini söylemez."
+        }
+      ],
+      "connection_refs": ["conn_5bb9576d254ce591c8ab"],
+      "context_refs": ["5:26"],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "macro:dyadic-covenant-cell",
+      "origin_candidate_id": "cand_3c70b04de5ad58088302",
+      "represented_candidate_ids": [],
+      "title": "Dyadic covenant cell",
+      "claim": "Büyük topluluk eylemden çekilirken 'kendim ve kardeşim' ifadesi, itaat ve eylem kapasitesini taşıyabilen, bağla tutulmuş en küçük iki kişilik birim olarak da görünür.",
+      "mechanism": "5:23'te رَجُلَانِ ile girişe ve güvene çağırılan iki kişi, 5:24'teki قَٰعِدُونَ topluluğunun karşı kutbunu oluşturur. Odaktaki أَخِى kardeşliği bir bağ olarak, iki بَيْنَ ise bu birimin diğer topluluktan ayrılmış ilişkisel sınırını taşır.",
+      "reader_payoff": "Okur, Musa'nın istisna cümlesindeki iki kişiyi yalnız geriye kalan iki birey olarak değil, ortak hareketin en küçük taşıyıcısı ve sınırlandırılmış bir bağlılık hücresi olarak da duyabilir.",
+      "containment": "Bu exploratory structural echo, odaktaki kendim-kardeşim çiftini 5:23'teki iki adamla tarihsel olarak özdeşleştirmiyor. Bağlama halkası ve iki taraflı ilişki imgesi korunuyor; daha büyük bir kurum veya kalıcı sözleşme iddia edilmiyor.",
+      "epistemic": {
+        "status": "exploratory",
+        "source_trust": ["legacy_unbound"],
+        "reason": "HFT outlier exact 5:23, 5:24 ve 5:25 anchors'larına dönüyor, fakat reader identity legacy_unbound ve context branch registry'si unresolved; bu nedenle yapısal echo olarak exploratory kalıyor."
+      },
+      "support_ids": ["sup_c7ffccecb1b1b00b465f"],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000546/B002",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": ["5:23:2"],
+          "trigger_refs": ["5:25:8:2"],
+          "focus_return_refs": ["5:25:8:2"],
+          "carrier": "5:23'teki رَجُلَانِ, tek bir kişi değil iki kişilik konuşan ve eyleyen birimi taşır.",
+          "independent_trigger": "Odaktaki أَخِى, Musa'nın yanında kalan kişiyi belirli bir kardeşlik bağıyla tanımlar.",
+          "activation": "İki kişilik context unit ile kardeşlik occurrence'ı birleştiğinde, odaktaki istisna yalnız sayısal küçülme değil, bağlı bir ikili olarak görünür.",
+          "resulting_reading": "Kendim ve kardeşim, ortak eylem yükünü taşıyabilecek minimal bir insan birimi şeklinde okunabilir.",
+          "boundary": "Bu branch için bağımsız lexicon gloss'u packet'te yok; iki kişinin 5:23'teki kişiler olduğu ileri sürülmüyor."
+        },
+        {
+          "branch_ref": "root_000464/B001",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": ["5:23:9", "5:23:13"],
+          "trigger_refs": ["5:25:7:1", "5:25:8:2"],
+          "focus_return_refs": ["5:25:8:2"],
+          "carrier": "5:23'teki iki د خ ل occurrence'ı, cevap veren çiftin girişe dönük eylem posture'unu taşır.",
+          "independent_trigger": "Odaktaki نَفْسِى ve أَخِى, bu eylem kapasitesinin kimlerle sınırlı olduğunu bildirir.",
+          "activation": "Girişe yönelen iki kişilik eylem, kendim-kardeşim istisnasıyla buluşunca çift, yalnız ayrılmış kişiler değil, hareket edebilen küçük bir birim olarak belirir.",
+          "resulting_reading": "Odaktaki çift, geniş kolektifin yerine geçen bir hükümranlık değil, giriş ve itaat eylemini sürdürebilen dar bir ortaklık olarak okunur.",
+          "boundary": "Bu attributed trace, çiftin bütün topluluğun kurumsal temsilcisi olduğunu söylemez."
+        },
+        {
+          "branch_ref": "root_001244/B002",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": ["5:24:16"],
+          "trigger_refs": ["5:25:8:2"],
+          "focus_return_refs": ["5:25:8:2"],
+          "carrier": "5:24'teki قَٰعِدُونَ, büyük topluluğun eylemden çekilip oturmasını taşır.",
+          "independent_trigger": "Odaktaki أَخِى, oturan topluluğa karşı hâlâ bağlı ve eyleyebilir bir ikiliyi belirleyen occurrence'tır.",
+          "activation": "Oturma ile kardeşlik bağının karşılaşması, iki kişilik birimin değerini yalnız yalnızlıkla değil, kolektif hareketsizliğin içindeki eylem imkânıyla açıklar.",
+          "resulting_reading": "Kardeşle birlikte kalan alan, geniş topluluk hareketsiz kaldığında itaatin taşınabildiği en küçük çevre olarak görünür.",
+          "boundary": "Oturmanın her birey için aynı içsel durumu gösterdiği veya bu ikilinin tarihsel olarak belirli kişiler olduğu söylenmiyor."
+        },
+        {
+          "branch_ref": "root_000020/B002",
+          "facet_id": "F002",
+          "branch_gloss": "bağlama halkası veya gözetilen bağ",
+          "facet_statement": "Soyut uzantı, korunup gözetilmesi gereken ilişkiyi, hakkı veya karşılıklı yükümlülüğü belirtir.",
+          "application_mode": "attributed",
+          "carrier_refs": ["5:25:8:2"],
+          "trigger_refs": ["5:23:2", "5:24:16"],
+          "focus_return_refs": ["5:25:8:2"],
+          "carrier": "أَخِى, kardeş adının yanında korunup gözetilen soyut bir bağ imgesini taşır.",
+          "independent_trigger": "5:23'teki iki kişilik eylem ve 5:24'teki büyük grubun oturması, bu bağın eylem ile hareketsizlik arasındaki karşıtlıkta işlediğini gösterir.",
+          "activation": "Kardeşlik occurrence'ı, aktif küçük çift ile hareketsiz büyük grup arasındaki ilişkiyi tutan bir tether gibi duyulur; bağ, ayırma talebinin içinde de korunmuş bir bağlantı bırakır.",
+          "resulting_reading": "Musa'nın yanında kalan kardeş, yalnız aile üyesi değil, sınırlı eylem ve sorumluluğu birbirine bağlayan kişi olarak görünür.",
+          "boundary": "Fiziksel hayvan bağlama anlamı aktarılmıyor; soyut bağ imgesi de kalıcı bir hukukî sözleşme iddiasına genişletilmiyor."
+        },
+        {
+          "branch_ref": "root_000170/B003",
+          "facet_id": "F001",
+          "branch_gloss": "arayı bağlayan ilişki",
+          "facet_statement": "Çekirdek anlam taraflar arasında bulunan bağ ve bağlantıdır.",
+          "application_mode": "attributed",
+          "carrier_refs": ["5:25:10:1", "5:25:11:2"],
+          "trigger_refs": ["5:23:2"],
+          "focus_return_refs": ["5:25:10:1", "5:25:11:2"],
+          "carrier": "İki بَيْنَ, küçük ikili ile daha büyük topluluk arasındaki ilişkisel sınırı taşır.",
+          "independent_trigger": "5:23'teki رَجُلَانِ, iki kişilik eylem birimi için bağımsız context anchor'ıdır.",
+          "activation": "İki kişilik birimin context'te eyleme yönelmesi, odaktaki بَيْنَ çerçevesini yalnız mesafe değil, ikiliyi topluluğa bağlayan ve sonra ayıran ilişki olarak görünür kılar.",
+          "resulting_reading": "Kendim ve kardeşim, topluluğun dışında başıboş iki kişi değil, kendi bağlılık çizgisi bulunan minimal bir taraf olarak okunabilir.",
+          "boundary": "Bu bağlantı, tarihsel iki kişi arasında özdeşlik veya bağımsız bir siyasal kurum anlamına gelmez."
+        }
+      ],
+      "connection_refs": [
+        "conn_1a58bea756eff28d4ae8",
+        "conn_71611ffadab616128be3"
+      ],
+      "context_refs": ["5:23", "5:24"],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "macro:shell-land-container",
+      "origin_candidate_id": "cand_0bae12b23b0e1b885272",
+      "represented_candidate_ids": [],
+      "title": "Shell and land containers",
+      "claim": "Exploratory olarak, fasiq topluluğun sınırdan çıkışı ile toprağa girişinin engellenmesi, bir kapsayıcıdan çıkanın başka bir kapsayıcıya alınmaması şeklinde yankılanır.",
+      "mechanism": "5:21'de toprağa giriş emri, 5:22'de başkalarının çıkışını bekleyen giriş şartı ve 5:26'da toprağa erişimin engellenmesi aynı hareket alanını kurar. Odaktaki ٱلْفَٰسِقِينَ için packet'te verilen taze hurmanın kabuğundan çıkış dalı, bu giriş-çıkış dizisine maddi bir kapsayıcı imgesi ekler.",
+      "reader_payoff": "Okur, ayetin fasiq topluluğu yalnızca ahlaken nitelenmiş bir grup olarak değil, giriş ve dışarıda bırakılma hareketleriyle çizilen bir sınır düzeni içinde de görür.",
+      "containment": "Bu, kabuk, ahit ve toprak arasında etimolojik eşitlik kurmayan exploratory bir material analogy'dir. Fasiq kelimesinin olağan sınırdan çıkma/itaatten sapma yönü korunur; yasağın niyeti veya topluluğun ahlaki özü bundan türetilmez.",
+      "epistemic": {
+        "status": "exploratory",
+        "source_trust": ["legacy_unbound"],
+        "reason": "HFT outlier 5:21, 5:22, 5:25 ve 5:26'yı exact coordinates ile bağlıyor, ancak context branch kayıtları legacy_unbound ve unresolved; focus shell-exit facet'i mevcut olsa da sonuç yalnız exploratory analogy olarak kalıyor."
+      },
+      "support_ids": ["sup_3e7020c65bb65969e3f2"],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000464/B001",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": ["5:21:2"],
+          "trigger_refs": ["5:25:9:2"],
+          "focus_return_refs": ["5:25:13:2"],
+          "carrier": "5:21'deki ٱدْخُلُوا۟, toprağın kapsayıcı alanına giriş emrini taşır.",
+          "independent_trigger": "Odaktaki ٱفْرُقْ ve ٱلْفَٰسِقِينَ, kimlerin hangi tarafta bulunacağını belirleyen sınır isteğini verir.",
+          "activation": "Toprağa giriş emri odaktaki sınır isteğiyle buluştuğunda, kapsayıcı alana alınmanın toplulukların konumuna bağlı olduğu görülür.",
+          "resulting_reading": "Fasiq topluluk için sonraki dışarıda bırakılma, daha önce emredilmiş girişin karşıt mekânsal sonucu olarak okunabilir.",
+          "boundary": "Bu attributed branch, girişin yalnız mecaz olduğunu veya ahlaki hükmün fiziksel erişimle özdeş olduğunu kanıtlamaz."
+        },
+        {
+          "branch_ref": "root_000400/B001",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": ["5:22:11", "5:22:14"],
+          "trigger_refs": ["5:25:9:2", "5:25:13:2"],
+          "focus_return_refs": ["5:25:13:2"],
+          "carrier": "5:22'deki iki يَخْرُجُوا۟, başkalarının kapsayıcı toprak alanından çıkmasını giriş ön şartı yapan hareketi taşır.",
+          "independent_trigger": "Odaktaki ٱلْفَٰسِقِينَ ve ٱفْرُقْ, topluluklar arasındaki çıkış ve ayırma yönünü döndürür.",
+          "activation": "Başkasının çıkışını bekleyen giriş şartı, odaktaki fasiq grubun sınırdan çıkışı ve ayrıştırılmasıyla aynı kapsayıcı hareket dizisine bağlanır.",
+          "resulting_reading": "Fasiq topluluk, hem başkasının çıkmasını şart koşan hem de sonunda kendisi erişim dışına çıkan sınır düzeninin içinde görünür.",
+          "boundary": "Bu, kişilerin veya grupların literal olarak aynı kapsayıcıdan çıktığını kanıtlamaz; HFT'nin attributed sequence okumasıdır."
+        },
+        {
+          "branch_ref": "root_001156/B002",
+          "facet_id": "F001",
+          "branch_gloss": "taze hurmanın kabuğundan çıkması",
+          "facet_statement": "Taze hurma tanesi, kendisini saran kabuğun içinden dışarı çıkar.",
+          "application_mode": "attributed",
+          "carrier_refs": ["5:25:13:2"],
+          "trigger_refs": ["5:22:11", "5:26:3"],
+          "focus_return_refs": ["5:25:13:2"],
+          "carrier": "ٱلْفَٰسِقِينَ, packet'teki focus branch'iyle, saran kabuktan dışarı çıkan taze hurma tanesi imgesini taşıyabilir.",
+          "independent_trigger": "5:22'deki çıkış hareketi ve 5:26'daki erişim yasağı, dışarı çıkma ile içeri alınmama karşıtlığını kurar.",
+          "activation": "Focus'taki shell-exit facet'i, context'teki çıkış ve yasaklama hareketleriyle temas ederek fasiq grubun sınırdan dışarı taşması ve toprak kapsayıcısından ayrılması imgesini üretir.",
+          "resulting_reading": "Ayet, exploratorily, sınırı aşmış bir topluluğun bir kapsayıcıdan çıkıp başka bir kapsayıcıya erişemediği bir hareket olarak da duyulur.",
+          "boundary": "Bu, fasiq kelimesinin zorunlu tek anlamı değildir; kabuk imgesi ahit veya toprağın sözlük karşılığı olarak ileri sürülmüyor."
+        },
+        {
+          "branch_ref": "root_000313/B001",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": ["5:26:3"],
+          "trigger_refs": ["5:25:13:2"],
+          "focus_return_refs": ["5:25:13:2"],
+          "carrier": "5:26'daki مُحَرَّمَةٌ, toprağa erişimin önlenmesi ve kapsayıcıya girişin kapatılması sonucunu taşır.",
+          "independent_trigger": "Odaktaki ٱلْفَٰسِقِينَ, dışarı çıkış imgesiyle ilişkilendirilen aynı topluluk tanımını verir.",
+          "activation": "Engelleme carrier'ı, shell-exit focus branch'iyle buluştuğunda, bir sınırın dışına çıkan grubun toprak alanına dönüşünün kapatıldığı karşılıklı container hareketini tamamlar.",
+          "resulting_reading": "Fasiq topluluğun ayırılması, yalnız toplumsal mesafe değil, giriş hakkının kapanmasıyla belirlenen bir dışarıda kalma düzeni olarak görünür.",
+          "boundary": "Yasağın tam hukuki, cezai veya koruyucu amacı packet'te bu branch için kurulmamıştır."
+        }
+      ],
+      "connection_refs": [
+        "conn_1650a7b331a75e7b27cd",
+        "conn_3f364a1124ed0a8f2d4d",
+        "conn_5bb9576d254ce591c8ab"
+      ],
+      "context_refs": ["5:21", "5:22", "5:26"],
+      "semantic_obligation_refs": []
+    }
+  ],
+  "friction_notes": []
+}

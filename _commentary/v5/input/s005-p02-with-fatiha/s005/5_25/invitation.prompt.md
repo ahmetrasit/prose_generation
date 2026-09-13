@@ -1,0 +1,175 @@
+# V5 reading invitation — 5:25
+
+You are a fresh reading-invitation writer. Read the complete editorial prose
+before writing. It is your sole semantic source.
+
+Write two to four paragraphs of fluent, contemporary Turkish that reveal a
+surprising reading by following one or two main channels of resonance in the
+ayah. A channel is a connected background of meanings, images, actions, or
+relations through which the ayah can be heard and understood differently.
+Several editorial findings may together develop one channel. Summarize that
+connected movement and its consequence for the ayah's main meaning, rather
+than compressing findings individually. Give the reading's substance now;
+the invitation comes from understanding it, not from a promise of hidden depth.
+
+Before drafting, read the entire editorial prose and silently select the one
+or two channels with the strongest interpretive consequence and enough
+grounding to explain clearly. Favor channels that expand or shift what the
+ayah says, the relation it establishes, or what is at stake in its action or
+image. One fully developed channel is sufficient; add a second only when it
+offers a distinct consequential reading that can be explained within the
+invitation. No finding, channel, or major shift has an individual coverage
+claim. Unselected material may remain entirely in the full commentary.
+
+A channel may develop through grammar, sound, dialogue, a material process,
+time, imagery, or a conceptual relation. Resonance is not limited to acoustic
+effects, and an unusual image alone does not establish a channel. Use only
+connections the editorial prose actually develops. If it supplies no such
+channel, explain its strongest grounded reading without inventing connections
+or surprise.
+
+Begin inside the ayah's own words, images, actions, or relations and reveal a
+selected distinctive reading in the first paragraph. Keep the plain meaning
+reachable with only the orientation needed to understand the change. Do not
+spend an opening paragraph on routine explanation or front-load context about
+the surah, the ayah's position, or the commentary project.
+
+For each selected channel, begin with the expression that opens it, unfold the
+connected background, and show how the ayah reads or sounds against that
+background. Let a detail lead into the next through an intelligible relation
+or process, so the reader experiences the emerging reading. This is a movement
+of thought, not a mandatory sentence pattern or one paragraph per finding.
+Let the reader identify the expression being interpreted,
+where any nonordinary detail comes from, and what that detail changes in the
+reading. Briefly identify the word-family use, restricted form, collocation, or
+context that supplies an essential added detail, and preserve the concrete
+operation that makes the image work. Keep the ordinary reading and necessary
+qualification clear within this explanation; do not repeat them as a fixed
+formula. Preserve the particular object, process, or relation that makes this
+reading distinctive, and state its interpretive consequence for the ayah as a
+whole. Make intelligible what the familiar reading leaves less visible and
+what the expanded or shifted reading now lets the reader understand. Preserve
+the editorial's force: an exploratory possibility remains possible, while a
+developed shift must not be softened into a decorative association or a
+reassurance that everything means the same thing. A concrete
+account of how something is carried, transformed, lost, or restored must not
+shrink to a general statement about care, guidance, dependence, or goodness.
+Keep the details needed to make the selected channel work; omit side findings
+and shorten routine setup. If a channel cannot be explained faithfully from
+the editorial prose, choose another grounded channel or reading.
+
+When a non-focus ayah supplies a contribution used in the invitation, keep its
+reference from the editorial prose beside that contribution.
+
+Do not turn the invitation into a miniature inventory of the commentary's
+conclusions, or flatten distinct channels into a broad theme to include more
+material. Do not repair, extend, or supplement the editorial prose from memory
+or outside knowledge.
+
+Omit technical apparatus. Retain any qualification, source distinction, live
+alternative, or boundary whose absence would change the force or meaning of a
+chosen reading. Express it naturally beside the image or relation it qualifies.
+Favor positive explanations of the relation between layers: what remains in
+the foreground and what the resonance makes audible in the background. State
+how that background reinforces, expands, or shifts the understanding of the
+main meaning, with the source and degree of certainty clear. Reserve explicit
+exclusions for concrete ambiguities or live counter-evidence that need them.
+Repeated "this is not X" endings make a reading sound withdrawn; express the
+substantive qualification through what the reading does contribute wherever
+possible. Use varied, natural language rather than a repeated "second layer"
+formula, and preserve the force of expansions and shifts.
+Do not name branches, candidates, findings, scopes, evidence categories,
+ledgers, or workflow stages, or label the prose as numbered channels. Do not
+list findings serially.
+
+Use the established `{ar:..., tr:..., gloss:...}` syntax, consistent
+Turkish-readable transliteration, and short ordinary glosses. Keep Arabic
+anchors beside the explanations they ground. Within a paragraph, continue with
+the Turkish meaning where clear; provide the necessary local tag when a later
+paragraph interprets the carrier anew. Do not place Arabic script outside a
+valid tag.
+
+Build transitions within a channel through its shared object, action, or
+relation. If two channels are selected, they may occupy separate paragraphs;
+do not invent a link between them. Do not praise the commentary's quality,
+promise what the reader will find, manufacture suspense, recap at the end, or
+add a call to action. End on an image, relation, action, or tension already
+established by the selected reading.
+
+Before finishing, compare the invitation with the entire editorial prose:
+does the chosen channel reveal a consequential reading, or could the text have
+been written from the ordinary translation and a modest explanation alone?
+When the editorial supports a surprising channel, the latter fails this task.
+Can the reader follow the opening expression into a connected background and
+understand how that background expands or shifts the ayah's main meaning?
+Check the selected connections against their editorial explanation: can the
+reader tell where the nonordinary details come from, with the necessary
+qualifications intact? Repair generic explanation, isolated curiosities, or a
+compressed findings list by developing the selected channel. Do not add
+omitted channels merely for coverage. Do not output this check.
+
+Write only the invitation text to:
+
+`_commentary/v5/editorial/s005-p02-with-fatiha/s005/5_25/5_25.invitation.tr.md`
+
+Do not add a heading, wrapper label, index, ledger, evidence file, or any other
+artifact. Do not modify the editorial prose.
+
+After writing the invitation, run:
+
+```bash
+python3 _commentary/v5/validate_prose.py _commentary/v5/editorial/s005-p02-with-fatiha/s005/5_25/5_25.invitation.tr.md
+```
+
+If validation fails, repair only the reported mechanical file-contract issues
+and rerun it, for at most two repair cycles. Report the final validator result
+in your response.
+
+<editorial_prose>
+Bu ayet, Musa'nın kendisiyle kardeşinin dışındaki topluluk üzerinde o anda tasarruf edemediğini bildirdiği ve yoldan çıkan halkla aralarına bir ayrım konmasını Rabbinden istediği kısa bir duadır: “Musa dedi ki: Rabbim! Kendimden ve kardeşimden başkasına gücüm yetmiyor. Bizimle yoldan çıkan halkın arasını ayır.”
+
+## Sözün İçinden Dua
+
+Başlangıçtaki {ar:قَالَ, tr:qāla, gloss:dedi} fiili bu cümleyi tamamlanmış bir söz olarak açar. 5:24'teki çoğul ret sözünün ardından Musa'nın tekil konuşmacı olarak öne çıkması, ortak karşı duruştan onun kendi ağzıyla yaptığı itirafa geçişi görünür kılar. Aynı {ar:قَالَ, tr:qāla, gloss:dedi} fiili, hemen arkasındaki {ar:رَبِّ, tr:rabbī, gloss:Rabbim} hitabıyla birlikte burada geniş bir konuşma anlatısından doğrudan seslenişe ve yakarışa geçer. 5:20, 5:22, 5:23, 5:24 ve 5:26 boyunca uzanan iddia, ret ve karşılıklar zinciri bu müdahaleyi gerilimden sonra gelen kişisel söz olarak aydınlatır; bu pasajın katkısı bütün söylem düzenini açıklamak değil, o gerilim içindeki konuşmacı değişimini duyurmaktır.
+
+{ar:رَبِّ, tr:rabbī, gloss:Rabbim} kısa ve iyelikli biçimiyle muhatabı ilk kelimede kişiselleştirir. Cümle kuruluşunda açılan başka bir okuma, bu sözü doğrudan hitaptan bildirme tonuna yaklaştırabilir; bu ihtimal canlı kalırken ayetin yerel akışı “Rabbim” diye sesleniş üzerine kurulur. {ar:رَبّ, tr:rabb, gloss:Rab} adının yetiştiren ve onaran yönü, Musa'nın {ar:أَمْلِكُ, tr:amliku, gloss:gücüm yetiyor/tasarruf ediyorum} ile açıkladığı sınıra karşı başvurduğu sürdürücü otoriteyi duyurur. Böylece kısa hitap yeni bir sözlük anlamı eklemekten çok, yetersizlikten sonra yardım ve düzenleme talebini yoğunlaştırır. 5:24'te ikinci kişi iyeliğiyle anılan Rabbin burada birinci kişi iyeliğiyle “Rabbim” oluşu da aynı muhataba yönelen ilişkinin içtenleşmesidir.
+
+Bu içten başvurunun içeriğini vurgulu {ar:إِنِّي, tr:innī, gloss:şüphesiz ben} taşır. Birinci tekil eki, sınır beyanını Musa'nın kendi ağzından kurulmuş açık bir tanıklık yapar. 5:12'deki güvence ve 5:24'teki retle birlikte düşünüldüğünde aynı vurgu burada övünç değil, elde kalan alanı dürüstçe bildiren açıklık olarak duyulur. Böylece {ar:قَالَ, tr:qāla, gloss:dedi} ile açılan alıntı, topluluğun hep birlikte karşı durduğu sahneden Musa'nın içeriden konuştuğu duaya döner.
+
+## Elde Kalan Alan
+
+Şimdi duanın neden bir isteğe dönüştüğünü cümlenin ortasındaki {ar:لَا, tr:lā, gloss:değil/yok} ve şimdiki zamanlı {ar:أَمْلِكُ, tr:amliku, gloss:gücüm yetiyor/tasarruf ediyorum} açıklar. Musa önce neyi elinde tutup yönetemediğini söyler, ardından {ar:رَبِّ, tr:rabbī, gloss:Rabbim}den ayırmasını ister. {ar:لَا, tr:lā, gloss:değil} o anda süren kontrol yokluğunu bildirir; bu nedenle sınır şimdiki duruma aittir, gelecekte hiçbir eylemin mümkün olmayacağı gibi bir hüküm kurmaz. Sonra gelen {ar:إِلَّا, tr:illā, gloss:ancak/…den başka} olumsuzluğu kapatmak yerine nesne grubunu geciktirir; dar alan ancak {ar:نَفْسِي, tr:nafsī, gloss:kendim} ve {ar:أَخِي, tr:akhī, gloss:kardeşim} söylendiğinde tamamlanır. Cümlenin kuvveti, mutlak çaresizlikte değil, mevcut durum için çizilmiş sıkı istisna alanındadır.
+
+{ar:أَمْلِكُ, tr:amliku, gloss:elimde tutup tasarruf edebilirim} sahip olup yönlendirme ve bir kişi üzerinde tasarruf edebilme basıncını taşır. {ar:لَا, tr:lā, gloss:değil} ile {ar:إِلَّا, tr:illā, gloss:ancak} bu kapasiteyi Musa'nın kendisi ve kardeşiyle sınırlanan bir tasarruf alanı olarak gösterir; okuyucunun gördüğü şey genel hükümranlık değil, o andaki kişisel sorumluluk çevresidir. Bu sözün taşıdığı sahiplik tonu insanlara sahip olma veya kamusal egemenlik iddiasına açılmaz. 5:17 ve 5:18'de reddedilen insanî güç dili, bu sınırlı çevrenin ilahî egemenliğin yerine geçmeyen ölçüsünü belirginleştirir.
+
+Bu kişisel sınır, yakın bağlamdaki eylem seçenekleriyle ortak kapasitenin nasıl daraldığını gösterir. 5:17'deki {ar:يَمْلِكُ, tr:yemliku, gloss:mutlak olarak hükmeder} ve {ar:مُلْكُ, tr:mulk, gloss:egemenlik} bütün varlık üzerindeki kapsamlı hâkimiyeti adlandırırken, odaktaki {ar:أَمْلِكُ, tr:amliku, gloss:tasarruf edebilirim} aynı kontrol fikrini bir insanın sınırlı uygulama alanına indirir. 5:20'deki {ar:مُّلُوكًا, tr:mulūkan, gloss:hükümdarlar} topluluğa verilmiş kamusal statüyü ve kullanılabilecek ortak imkânı gösterir; bu statü fiilî kapasitenin kendisi olarak okunmaz. 5:23'teki {ar:تَوَكَّلُوا۟, tr:tawakkalū, gloss:güvenerek eyleyin} çağrısı karşılık bulmaz, 5:24'te topluluğun eylemi Musa'ya ve Allah'a bırakarak geri durması görünür olur. Bu akış içinde “gücüm yetmiyor” sözü, ortak eylem kullanılmadıktan sonra açıkça hesap verilebilen alanın Musa ile kardeşine daralması olarak duyulur. Bu daralma topluluğun her ferdini aynı ölçüde sorumsuz ilan etmez; 5:20'deki statü ile fiilî kapasite arasındaki ayrım korunur.
+
+Bu dar alanın ilk kişisi {ar:نَفْسِي, tr:nafsī, gloss:kendim}dir: kelime burada soyut bir benlik listesini değil, hayat taşıyan ve bizzat sorumluluk alabilen tekil kişiyi gösterir. Nefes, hayat ve öz çevresindeki çağrışım, {ar:أَمْلِكُ, tr:amliku, gloss:tasarruf edebilirim} fiilinin nesne konumunda Musa'nın somut kişisine bağlanır; iştahın veya iç dünyanın bütün dalları açılmaz. {ar:وَ, tr:wa, gloss:ve} bu ilk iyelikli nesneyi ikinci üyeye, {ar:أَخِي, tr:akhī, gloss:kardeşim}ne bağlar. Kardeşlik, yoldaşlık ve bağ çevresindeki çağrışım hissedilse de gönderge belirli bir kardeşte kalır. İki tekil iyelikli isimdeki “benim”ler, biraz sonra {ar:بَيْنَنَا, tr:baynanā, gloss:aramızda}daki çoğul iyelikte Musa ile kardeşinden oluşan iki kişilik “biz”e dönüşür. Bazı okuyuşlarda son “-ī” sesinin belirginleşmesi de {ar:نَفْسِي, tr:nafsī, gloss:kendim} ile {ar:أَخِي, tr:akhī, gloss:kardeşim}ni işitsel olarak eşleştirir; bu kadans göndergeleri değiştirmez.
+
+Bu iki kişilik alan, farklı temaslarda sorumluluğun kişilere ve iki taraf arasındaki ilişkiye nasıl bağlandığını gösterir. 5:105'te kişinin kendi nefsiyle yoldan sapan topluluk karşı karşıya gelir; 28:34'te Musa ile Harun'un ortaklığı açıkça kurulur; 20:94'te ayrılığa yönelen benzer bir talep duyulur. Bu ayetler odaktaki çifti başka bir sahneyle özdeşleştirmeden, iki ismin taşıdığı kişisel ve ortak sorumluluk çizgisini belirginleştirir. 5:23'teki {ar:رَجُلَانِ, tr:rajulāni, gloss:iki adam}, birlikte konuşup eylemeye çağrılan en küçük birimi kurarken 5:24'teki {ar:قَٰعِدُونَ, tr:qāʿidūn, gloss:oturup geri duranlar} geniş topluluğun bu eylemden çekildiğini gösterir. Odaktaki {ar:أَخِي, tr:akhī, gloss:kardeşim} bu iki kişilik görüntüyü bağlı bir çift olarak duyurur; {ar:بَيْنَنَا, tr:baynanā, gloss:aramızda} da çiftin hem kendi bağını hem topluluğa göre yerini taşır. Bu temas, ortak eylemi sürdürebilen küçük tarafı görünür kılar; 5:23'teki iki adamla tarihsel özdeşlik veya siyasal ve hukukî bir kurum önerisi taşımaz.
+
+## İki Tarafın Arası
+
+İki kişilik sınır söylendikten sonra talebe geçişi {ar:فَ, tr:fa, gloss:öyleyse} kurar. Bu bağlaç, Musa'nın insanî kontrol alanını açıkladıktan sonra buyruğu insanlara değil {ar:رَبِّ, tr:rabbī, gloss:Rabbim} hitabına yönelen {ar:ٱفْرُقْ, tr:ufruq, gloss:ayır} isteğine çevirir. Böylece yetersizlik, ayırma talebinin nedenini hazırlar. {ar:فَافْرُقْ, tr:fa-ufruq, gloss:öyleyse ayır} biçiminde bağlaçla emir tek ses akışında birleşir ve dua karşılık bekleyen bir rica vuruşu kazanır. İkinci tekil emir, ayrımı Musa'nın uyguladığı bir sonuç değil Rabbinden beklediği karar ve eylem olarak kurar; fiilin uygulama biçimi ayette açık bırakılır.
+
+{ar:ٱفْرُقْ, tr:ufruq, gloss:ayırt edip birbirinden ayır} olağan anlamıyla iki şeyi ayırır ve tarafları görünür kılar. İki {ar:بَيْنَ, tr:bayna, gloss:arasında} tamamlayıcısıyla birleşince istenen şey belirsiz bir uzaklık değil, kimin hangi tarafta bulunduğunu belirleyen ilişkisel bir sınır olur. Fiilin çizgi, tehlike ve korunma yönündeki basıncı, {ar:الْفَاسِقِينَ, tr:al-fāsiqīn, gloss:yoldan çıkanlar} teşhisiyle temas ederek bu sınıra bir korunma hattı katkısı yapar. Bu hattın desteklenen biçimi, fiziksel bir duvarın ayrıntılandırıldığı veya buyruğun yalnızca korkuya dayandığı bir sahne değil, korunmayı sezdiren ilişkisel sınırdır. Ayırt etme ve hükme götüren yön, tarafların görünürlüğünü artırır; belirli bir ölçüt veya başka bir nesne bu ayete eklenmez. Fiilin yalın ve yoğunluk veren okuyuşları arasındaki kıraat farkı sesi değiştirebilir, fakat iki okuyuşta da dua hedefi iki taraf arasındaki ayrımdır.
+
+Bu sınırın ilk tarafını {ar:بَيْنَنَا, tr:baynanā, gloss:aramızda} kurar. 5:24'teki kamusal karşı duruş, burada Musa ile kardeşinin “biz” tarafı arasındaki belirlenmiş aralığa dönüşür. {ar:بَيْنَنَا, tr:baynanā, gloss:aramızda}daki açıklık ve aralık yönü {ar:ٱفْرُقْ, tr:ufruq, gloss:ayır} emriyle birleşince kimin nerede durduğu görünür hale gelir. İkinci {ar:بَيْنَ, tr:bayna, gloss:arasında} geliş, karşı tarafı {ar:الْقَوْمِ, tr:al-qawm, gloss:bilinen halk} ile adlandırır; araya giren {ar:وَ, tr:wa, gloss:ve} bu iki tamamlayıcıyı aynı ayırma emrinin iki yönü yapar. Tekrar ve ölçüsel karşılık, tarafların niteliklerini eşitlemeden iki taraflı tek bir çerçeve kurar. {ar:بَيْنَنَا, tr:baynanā, gloss:aramızda} ve {ar:بَيْنَ, tr:bayna, gloss:arasında} çevresindeki açıklık yankısı 5:14, 5:15, 5:17 ve 5:19'da duyulan topluluk ayrımıyla desteklenir; bu temasın katkısı yerel sınırın açıklığını artırmaktır.
+
+{ar:الْقَوْمِ, tr:al-qawm, gloss:bilinen halk} belirli artikel ve genitif hâliyle ayırma isteğinin karşı tarafını somutlaştırır. Biçimi tekil olsa da birçok kişiyi tanınabilir bir topluluk gövdesinde toplar. “Kavm”in ortak duruş ve ortak tutum çevresindeki çağrışımı bu gövdeyi birlikte duran bir sosyal yapı gibi duyurur; temel topluluk göndergesi böylece korunur. Son niteleme olan {ar:الْفَاسِقِينَ, tr:al-fāsiqīn, gloss:yoldan çıkanlar}, artikel ve çoğul biçimiyle bu ada bağlanan belirli bir teşhis getirir. Cümle kuruluşunda son kelimeyi toplulukla doğrudan özdeşleştiren başka bir okuma da bir imkân olarak kalır; iki kuruluş arasında seçim yapılmadan teşhisin belirli karşı tarafa yöneldiği anlaşılır. Belirli etkin ortaç çoğulu, tek bir hareketten çok bu niteliği taşıyan tanınmış bir sınıfı işaret eder; son konumu ve kapanış sesi de duayı 5:26'daki ilahî hüküm alanına açar. Bu sınıf ifadesinin tarihsel süresini veya her ferdin bütün davranışlarını ayet ayrıca belirlemez.
+
+Bu son teşhis, olağan anlamını koruyarak biçime bağlı bir maddi görüntüye açılır. {ar:الْفَاسِقِينَ, tr:al-fāsiqīn, gloss:yoldan çıkanlar} açık anlamıyla sınırı aşmış ve itaatten çıkmış halkı niteler. Aynı biçime ilişkin dar bir kullanımda taze hurma tanesinin kendisini saran kabuktan dışarı çıkması görüntüsü bulunur. 5:1'deki bağlayıcı akit, 5:7'deki işitip itaat etme güvencesi ve 5:13'teki kurulmuş bağın bozulmasıyla yan yana gelince, yoldan çıkma sözü tutulduğu çerçevenin içinden taşma gibi yoğunlaşır. {ar:الْقَوْمِ, tr:al-qawm, gloss:halk}ın belirli sosyal gövdesi bu görüntüyü taşır: düzenin içindeki topluluk, onu tutan sınırın dışına taşmış görünür. Kabuktan çıkma görüntüsü, olağan “yoldan çıkma” anlamını taşıyan sözcüğe bu bağlamın eklediği nitelikli katkıdır; kabuk ayrıntısı kelimenin doğrudan Türkçe karşılığı ve topluluğun bütün yapısını açıklayan bir model olarak kullanılmaz.
+
+## Eşik, Yer ve Süre
+
+Kabuktan dışarı taşan bu görüntü, 5:22 ve 5:23'teki giriş-çıkış hareketiyle karşılaşınca eşiğin katkısını görünür kılar. 5:22'deki {ar:نَّدْخُلَ, tr:nadkhula, gloss:içeri girelim} ve {ar:دَٰخِلُونَ, tr:dākhilūn, gloss:içeri girenler} giriş eylemini, iki kez geçen {ar:يَخْرُجُوا۟, tr:yakhrujū, gloss:çıksınlar} ise başkalarının dışarı çıkmasını girişten önceki şartı taşır. 5:23'teki {ar:ٱلْبَابَ, tr:al-bāb, gloss:kapı} bu hareketin somut eşiğidir. Bu kelimeler {ar:ٱفْرُقْ, tr:ufruq, gloss:ayır} ve iki {ar:بَيْنَ, tr:bayna, gloss:arasında} ile buluştuğunda eşik yalnız bir yere giriş olmaktan çıkar; hangi tarafın çağrıya cevap verdiği ve hangi tarafın geri durduğu görünür olur. Dış grubun hareketini bekleyen gecikme, içerideki tarafların konumunu belirleyen sınıra dönüşür. Böylece fiziksel kapı eşiği ile cevap veren ve geri duran tarafların ilişkisel görüntüsü yan yana çalışır; kapı, ahlâkî tarafın sözlük karşılığına çevrilmeden bu dönüşümü taşır.
+
+Bu eşik, 5:26'da yer ve süreyle ölçülen bir erişim sınırına dönüşür. 5:25'teki {ar:ٱفْرُقْ, tr:ufruq, gloss:ayır} ile yeniden anılan {ar:الْفَاسِقِينَ, tr:al-fāsiqīn, gloss:sınırı aşanlar}, 5:26'daki {ar:مُحَرَّمَةٌ, tr:muḥarramah, gloss:erişimi yasaklanmış} toprak, kırk yıl ve dolaşma sonucuyla karşılaşır. {ar:مُحَرَّمَةٌ, tr:muḥarramah, gloss:erişimi kapatan yasak} iki taraf arasına konan sınırı, belirli bir yere girişin kapanması olarak görünür kılar. Böylece Musa'nın talebi mekâna erişim ve hareket süresi içinde hissedilir hale gelir; 5:26'daki karşılık isteği bu iki ölçüyü somutlaştırır. Kırk yılın ceza, koruyucu ara veya iyileştirici süre olarak taşıdığı niyet bu temasla açıkça belirlenmez; kişilerarası ve toplumsal bağların bütünüyle sona ermesi de bu erişim sonucunun kapsamı değildir.
+
+Erişim ve zaman sınırının içinde, ondan ayrı bir maddi kapsayıcı görüntüsü de belirir. 5:21'deki {ar:ٱدْخُلُوا۟, tr:udkhulū, gloss:içeri girin} toprağı içine girilecek bir alan yapar; 5:22'deki {ar:يَخْرُجُوا۟, tr:yakhrujū, gloss:çıksınlar} başkalarının bu alandan çıkmasını şart koşar; 5:26'daki {ar:مُحَرَّمَةٌ, tr:muḥarramah, gloss:erişimi kapatan yasak} dönüşü kapatır. Kabuktan çıkan tanenin görüntüsü bu hareket dizisine eklenince, bir kapsayıcıdan çıkan topluluğun başka bir kapsayıcıya alınmaması gibi bir hareket belirir. Bu maddi katkı, {ar:الْفَاسِقِينَ, tr:al-fāsiqīn, gloss:sınırdan çıkanlar} sözünü giriş, çıkış ve dışarıda kalma hareketleriyle çizilen bir sınır düzeni içinde görünür kılar. Kabuk, ahit ve toprak arasındaki ilişki burada sözlük eşitliği değil, bağlamın kurduğu ihtiyatlı bir benzetmedir; kabuk ayrıntısı toprağın veya ahdin anlamı yerine geçmez, yasağın niyeti ve topluluğun ahlâkî özü de bu görüntüden türetilmez.
+
+Bu kez görüntü bir kapsayıcının içinden değil, tasarrufun kuşatıldığı daha geniş çerçeveden gelir. {ar:أَمْلِكُ, tr:amliku, gloss:tasarruf edebilmek} kelimesinin yerel sahiplik ve tasarruf alanı 5:120'de görünen kuşatıcı hâkimiyet çerçevesiyle birlikte düşünüldüğünde, Musa'nın sınırlı eylemi daha büyük bir bütünün içindeki ölçüsü belirlenmiş bir işlem gibi görünür. Bu temas, duadaki insanî ayrımın daha geniş bir düzen içindeki yerini gösterir; 5:120'nin bütün anlamı veya bağımsız bir egemenlik öğretisi bu ayete taşınmaz. Böylece {ar:أَمْلِكُ, tr:amliku, gloss:tasarruf edebilmek} sözündeki dar alanın kuşatıldığı çerçeve belirginleşir.
+
+Ayrımın son ölçüsü, bu kopuş ve erişim görüntülerinin içinde adalettir. 5:8'de bir topluluğa duyulan hoşnutsuzluğun adaleti bozmasına izin verilmez; hakkaniyet ve adil hüküm vurgusu, 5:14'te açıkça adlandırılan düşmanlık ve nefret ihtimaliyle birlikte duyulur. Bu bağlamda {ar:ٱفْرُقْ, tr:ufruq, gloss:ayır}, kişisel nefretin adı olmaktan çok iki taraf arasındaki sınırı adalet ölçüsünü koruyarak görünür kılan bir talep olarak açılır. {ar:بَيْنَنَا, tr:baynanā, gloss:aramızda} ile {ar:بَيْنَ الْقَوْمِ, tr:bayna al-qawm, gloss:halk arasında} çerçevesi, halkı suçsuz ilan etmeden ve Musa'nın bütün yetkisini yok saymadan, kimin hangi alanda karşılık vereceğini {ar:رَبِّ, tr:rabbī, gloss:Rabbim}den isteme biçimini taşır. Kardeşle işleyen bağ bu ayrım içinde korunur; fiilî sınırın biçimi ve sonraki hükmün bütün niyeti açık bırakılır. Böylece talep, adaleti kaybetmeden tarafların sorumluluğunu görünür kılan bir sınırda tamamlanır.
+
+</editorial_prose>

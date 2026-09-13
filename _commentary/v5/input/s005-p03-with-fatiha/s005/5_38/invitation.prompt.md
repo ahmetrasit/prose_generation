@@ -1,0 +1,205 @@
+# V5 reading invitation — 5:38
+
+You are a fresh reading-invitation writer. Read the complete editorial prose
+before writing. It is your sole semantic source.
+
+Write two to four paragraphs of fluent, contemporary Turkish that reveal a
+surprising reading by following one or two main channels of resonance in the
+ayah. A channel is a connected background of meanings, images, actions, or
+relations through which the ayah can be heard and understood differently.
+Several editorial findings may together develop one channel. Summarize that
+connected movement and its consequence for the ayah's main meaning, rather
+than compressing findings individually. Give the reading's substance now;
+the invitation comes from understanding it, not from a promise of hidden depth.
+
+Before drafting, read the entire editorial prose and silently select the one
+or two channels with the strongest interpretive consequence and enough
+grounding to explain clearly. Favor channels that expand or shift what the
+ayah says, the relation it establishes, or what is at stake in its action or
+image. One fully developed channel is sufficient; add a second only when it
+offers a distinct consequential reading that can be explained within the
+invitation. No finding, channel, or major shift has an individual coverage
+claim. Unselected material may remain entirely in the full commentary.
+
+A channel may develop through grammar, sound, dialogue, a material process,
+time, imagery, or a conceptual relation. Resonance is not limited to acoustic
+effects, and an unusual image alone does not establish a channel. Use only
+connections the editorial prose actually develops. If it supplies no such
+channel, explain its strongest grounded reading without inventing connections
+or surprise.
+
+Begin inside the ayah's own words, images, actions, or relations and reveal a
+selected distinctive reading in the first paragraph. Keep the plain meaning
+reachable with only the orientation needed to understand the change. Do not
+spend an opening paragraph on routine explanation or front-load context about
+the surah, the ayah's position, or the commentary project.
+
+For each selected channel, begin with the expression that opens it, unfold the
+connected background, and show how the ayah reads or sounds against that
+background. Let a detail lead into the next through an intelligible relation
+or process, so the reader experiences the emerging reading. This is a movement
+of thought, not a mandatory sentence pattern or one paragraph per finding.
+Let the reader identify the expression being interpreted,
+where any nonordinary detail comes from, and what that detail changes in the
+reading. Briefly identify the word-family use, restricted form, collocation, or
+context that supplies an essential added detail, and preserve the concrete
+operation that makes the image work. Keep the ordinary reading and necessary
+qualification clear within this explanation; do not repeat them as a fixed
+formula. Preserve the particular object, process, or relation that makes this
+reading distinctive, and state its interpretive consequence for the ayah as a
+whole. Make intelligible what the familiar reading leaves less visible and
+what the expanded or shifted reading now lets the reader understand. Preserve
+the editorial's force: an exploratory possibility remains possible, while a
+developed shift must not be softened into a decorative association or a
+reassurance that everything means the same thing. A concrete
+account of how something is carried, transformed, lost, or restored must not
+shrink to a general statement about care, guidance, dependence, or goodness.
+Keep the details needed to make the selected channel work; omit side findings
+and shorten routine setup. If a channel cannot be explained faithfully from
+the editorial prose, choose another grounded channel or reading.
+
+When a non-focus ayah supplies a contribution used in the invitation, keep its
+reference from the editorial prose beside that contribution.
+
+Do not turn the invitation into a miniature inventory of the commentary's
+conclusions, or flatten distinct channels into a broad theme to include more
+material. Do not repair, extend, or supplement the editorial prose from memory
+or outside knowledge.
+
+Omit technical apparatus. Retain any qualification, source distinction, live
+alternative, or boundary whose absence would change the force or meaning of a
+chosen reading. Express it naturally beside the image or relation it qualifies.
+Favor positive explanations of the relation between layers: what remains in
+the foreground and what the resonance makes audible in the background. State
+how that background reinforces, expands, or shifts the understanding of the
+main meaning, with the source and degree of certainty clear. Reserve explicit
+exclusions for concrete ambiguities or live counter-evidence that need them.
+Repeated "this is not X" endings make a reading sound withdrawn; express the
+substantive qualification through what the reading does contribute wherever
+possible. Use varied, natural language rather than a repeated "second layer"
+formula, and preserve the force of expansions and shifts.
+Do not name branches, candidates, findings, scopes, evidence categories,
+ledgers, or workflow stages, or label the prose as numbered channels. Do not
+list findings serially.
+
+Use the established `{ar:..., tr:..., gloss:...}` syntax, consistent
+Turkish-readable transliteration, and short ordinary glosses. Keep Arabic
+anchors beside the explanations they ground. Within a paragraph, continue with
+the Turkish meaning where clear; provide the necessary local tag when a later
+paragraph interprets the carrier anew. Do not place Arabic script outside a
+valid tag.
+
+Build transitions within a channel through its shared object, action, or
+relation. If two channels are selected, they may occupy separate paragraphs;
+do not invent a link between them. Do not praise the commentary's quality,
+promise what the reader will find, manufacture suspense, recap at the end, or
+add a call to action. End on an image, relation, action, or tension already
+established by the selected reading.
+
+Before finishing, compare the invitation with the entire editorial prose:
+does the chosen channel reveal a consequential reading, or could the text have
+been written from the ordinary translation and a modest explanation alone?
+When the editorial supports a surprising channel, the latter fails this task.
+Can the reader follow the opening expression into a connected background and
+understand how that background expands or shifts the ayah's main meaning?
+Check the selected connections against their editorial explanation: can the
+reader tell where the nonordinary details come from, with the necessary
+qualifications intact? Repair generic explanation, isolated curiosities, or a
+compressed findings list by developing the selected channel. Do not add
+omitted channels merely for coverage. Do not output this check.
+
+Write only the invitation text to:
+
+`_commentary/v5/editorial/s005-p03-with-fatiha/s005/5_38/5_38.invitation.tr.md`
+
+Do not add a heading, wrapper label, index, ledger, evidence file, or any other
+artifact. Do not modify the editorial prose.
+
+After writing the invitation, run:
+
+```bash
+python3 _commentary/v5/validate_prose.py _commentary/v5/editorial/s005-p03-with-fatiha/s005/5_38/5_38.invitation.tr.md
+```
+
+If validation fails, repair only the reported mechanical file-contract issues
+and rerun it, for at most two repair cycles. Report the final validator result
+in your response.
+
+<editorial_prose>
+Bu âyet, {ar:ٱلسَّارِقُ وَٱلسَّارِقَةُ, tr:es-sârik ve's-sârika, gloss:hırsızlık yapan erkek ve kadın} birlikte anarak hükmün iki failini gösterir. Ardından {ar:فَٱقْطَعُوا۟, tr:fe-iktau, gloss:öyleyse kesip ayırın} emri gelir ve {ar:أَيْدِيَهُمَا, tr:eydiyehumâ, gloss:ikisinin ellerini} doğrudan nesne yapar. Bu kesme, {ar:جَزَآءًۢ, tr:cezâen, gloss:karşılık ve ceza} olarak onların {ar:كَسَبَا, tr:kesebâ, gloss:ikisi kazandı} diye adlandırılan edinimine bağlanır; {ar:نَكَٰلًۭا, tr:nekâlen, gloss:caydırıcı ibret cezası} ise işlemin başkalarını da benzer davranıştan geri çeviren yönünü açar. Kaynak {ar:مِّنَ ٱللَّهِ, tr:mine Allâhi, gloss:Allah'tan} diye gösterilir ve âyet Allah'ı güçlü, hikmet sahibi bir hüküm veren olarak duyuran bir kapanışa ulaşır.
+
+İlk hareket, hükmün akışa nasıl girdiğini gösterir. Başlangıçtaki {ar:وَ, tr:wa, gloss:ardından} önceki sırayı taşırken yeni hüküm biriminin sınırını da çizer. İsme bitiştiği {ar:وَٱلسَّارِقُ, tr:ve's-sâriku, gloss:ve hırsızlık yapan erkek} biçiminde bağlayıcı ile fail adı tek bir ses hamlesi oluşturur; anlatım böylece doğrudan hukuki hitaba döner. Âyet kopuk bir ek gibi açılmaz, kendi hüküm çerçevesini kuran yeni bir başlangıç yapar.
+
+Âyet önce emri değil, hükmün kime yöneldiğini görünür kılar. {ar:ٱلسَّارِقُ, tr:es-sâriku, gloss:hırsızlık yapan erkek} belirli, tekil eril fail biçimiyle eylemi yapan sınıfı öne alır. Bu biçim çoğul ve başka kalıplardan ayrılarak tek bir belirli fail profili kurar. Hırsızlık adı, başkasının korunan malına gizlice yönelip onu sahiplenme görüntüsünü taşır; hemen ardından gelen hüküm bu görüntüyü geniş bir suç anlatısına yaymadan belirli hukuki kategori içinde toplar.
+
+Bu adlandırmanın ikinci üyesi, ilkinden kopmadan kendi biçimiyle görünür olur. İki adın arasındaki {ar:وَ, tr:wa, gloss:ve} ikinci adı ilkine sıkı bir geçişle ekler; {ar:ٱلسَّارِقُ, tr:es-sâriku, gloss:hırsızlık yapan erkek} ile {ar:ٱلسَّارِقَةُ, tr:es-sârikatu, gloss:hırsızlık yapan kadın} aynı hukuki başlık altında, aynı sözdizimsel düzlemde duran eşit bir çift kurar. Dişil fail biçimi, eril faildeki hırsızlık alanını korurken ikinci özneyi ayrı ve açık kılar: tekil, dişil ve merfu etkin ortaç oluşu onu çoğul, yoğunlaştırılmış veya nesne konumundaki biçimlerden ayırır. Aynı kelime ailesinin iki kez duyulması, biraz sonra ellerdeki iki kişilik iyelik ve edinim fiilindeki ikili çekimle tamamlanacak zinciri hazırlar; sonraki çoğul emir de bu iki üyeli çifte dönen tekrarlı bir hukuki nakarat duygusu kurar.
+
+İsimlerle belirlenen çift, {ar:فَ, tr:fe, gloss:öyleyse ve bunun üzerine} parçacığıyla doğrudan sonuca geçirilir. Bu geçiş, "kimler?" sorusundan "ne yapılacak?" sorusuna döner; {ar:فَٱقْطَعُوا۟, tr:fe-iktau, gloss:öyleyse kesip ayırın} tek bir akıcı ses birimi gibi adlandırılan çifti emrin eşiğine taşır ve önceki sınıflandırmayı emrin dayandığı sonuç zemini olarak işletir. Buyruğun çoğul ikinci kişi biçimi, açıkça adlandırılmayan uygulayıcıları muhatap alır; iki fail ise biraz sonra çoğul el adı ve ikili iyelikle emrin nesnesi olarak birlikte tutulur.
+
+{ar:ٱقْطَعُوٓا۟, tr:iktau, gloss:kesin} doğrudan nesneye yönelen birinci bâb emir biçimidir. Bir bütünü bozup parçayı ayıran kesme eylemini kurar ve onu soyut bir hedefte bırakmadan ellere bağlar. Böylece fiilin kesin bir sonuca bağlama basıncı insan bedenindeki belirli bir nesneyle somutlaşır; seçilen bu biçim daha yoğun veya başka kesme kalıplarını karşılaştırma sınırında bırakır. {ar:أَيْدِيَهُمَا, tr:eydiyehumâ, gloss:ikisinin ellerini} emrin doğrudan nesnesi olarak önce bedensel elleri gösterir. Çoğul el adı ile iki kişilik iyelik eki birlikte çalışır: eller iki fail arasında ayrı ayrı dağıtılır, erkek ve kadın fail ise sayı bakımından tek bir çift olarak korunur. El nesnesinin emirden hemen sonra ve gerekçeden önce gelmesi, kesme eyleminden onun nedenine geçen cümlenin menteşesidir. El aynı zamanda işi yapan aracı ve bir işi yapabilme kapasitesini duyurabilecek alanı açar. Metin burada elleri çoğul olarak adlandırır; sağ el veya yemin eli yönündeki daha dar çağrışım bu kapsamı değiştirmeden bir karşılaştırma sınırında kalır.
+
+## Karşılığın Yönü
+
+El nesnesinden sonra gelen {ar:جَزَآءًۢ, tr:cezâen, gloss:karşılık ve ceza}, kesme emrine işlemin niteliğini ve amacını verir. Belirsiz mansup mastar biçimi, karşılığı sabit bir nesne adı gibi değil, yapılan işlemin işlevi olarak sunar. Kelimenin iyiliğe ya da kötülüğe denk cevap verme alanı geniştir; fakat hırsızlık, kesme, edinim ve yaptırımın aynı cümledeki çevresi burada olumsuz hukuki karşılığı belirginleştirir. Somut kesme böylece belirli bir fiile dönen karşılık olarak görünür.
+
+{ar:بِمَا, tr:bimâ, gloss:ne kazandılarsa onun yüzünden} bu karşılığı onu doğuran edinime bağlayan kısa köprüdür. Baştaki harf-i cer neden ilişkisini kurar; ilgi unsuru ise iki failin ne kazandığını henüz açık bırakır. Cümle {ar:كَسَبَا, tr:kesebâ, gloss:ikisi kazandı} fiiline ulaştığında açık uç kapanır. Yazılı yüzeyde tek bir akış gibi duran bu yapı, hem neden sorusunu cevaplar hem de karşılığın göndergesini tamamlanan eyleme bağlar.
+
+{ar:كَسَبَا, tr:kesebâ, gloss:ikisi kazandı} ikili geçmiş biçimiyle hesabı geriye doğru kapatır: edinim tamamlanmıştır ve bu edinim hem erkeğe hem kadına yüklenmiştir. Fiilin sonundaki uzun ikili çekim, iki failin eyleyiciliğini sesin sonuna kadar taşır; karşılık iki isimden birini dışarıda bırakmaz. "Kazanmak" ve "elde etmek" kendi başına nötr bir yarar alanı açabilirken, önceki hırsızlık adı ve sonraki ceza sözü bu fiili burada hukuka aykırı edinim olarak belirler. Geçmişte tamamlanan bu hesap, ardından gelen caydırma ile gelecekteki davranışa doğru çevrilir.
+
+Bu geleceğe dönük hareketi {ar:نَكَٰلًۭا, tr:nekâlen, gloss:caydırıcı ibret cezası} kurar: kelime, işlemi gören veya duyan başkalarının benzer davranıştan geri duracağı görünür ibret işlevini öne çıkarır. Caydırma, soyut bir uyarıdan çok korkuyla geri çekilmeyi ve hareketin durmasını duyurur; hükmün dışa dönük etkisi burada belirginleşir. Böylece {ar:جَزَآءًۢ, tr:cezâen, gloss:karşılık ve ceza} tamamlanan fiile dönen cevabı, {ar:نَكَٰلًۭا, tr:nekâlen, gloss:caydırıcı ibret cezası} ise benzer fiilin gelecekte yinelenmesini önleyen yönü taşır.
+
+## Kaynaktan Hikmete
+
+{ar:مِّنَ, tr:mine, gloss:-den ve kaynağından} ile ilahî adın birleştiği yerde cümle, karşılığın işlevinden onun kaynağına geçer. {ar:مِّنَ ٱللَّهِ, tr:mine Allâhi, gloss:Allah'tan} caydırma gerekçesini adı açıkça verilen ilahî kaynağa bağlar. Harf-i cer bu kaynağı önce caydırma sözüne, sonra bütün hüküm çerçevesine kadar uzanabilecek bir bağlantı içinde duyurur; hangi genişlikte okunsa da Allah'tan gelen kaynaklık sabit kalır. {ar:ٱللَّهِ, tr:Allâhi, gloss:Allah'tan} burada mecrur kaynak adıdır. İbadet ve nihai otorite çağrışımı eşlik ederken cümledeki yerel işi kaynağı göstermektir; bu yapı cezayı ilahî bir sorumluluk çerçevesine yerleştirir ve biraz sonra gelecek merfu Allah adına biçimsel zemin hazırlar.
+
+Kaynak ifadesinden sonraki {ar:وَ, tr:wa, gloss:ve ve bununla birlikte} hem önceki bölümü kapanışa bağlar hem de yeni bir ad cümlesi başlatır. Allah adı zamirle kısaltılmak yerine yeniden söylenir: {ar:وَٱللَّهُ, tr:wa Allâhu, gloss:ve Allah} kaynak tamlamasından özne cümlesine duyulur bir kopma olmadan taşınır. Böylece hukuki gerekçeden ilahî sıfatlar cümlesine geçilir; son söz gevşekçe eklenmiş bir niteleme değil, kendi nominal kuruluşu olan yeni bir cümle hareketidir.
+
+Merfu {ar:ٱللَّهُ, tr:Allâhu, gloss:Allah} adı, iki merfu belirsiz sıfatı birlikte yöneten aynı ilahî özne olur. Cümlenin dikkati faillerden ellere ve cezaya uğradıktan sonra yeniden bu özneye döner; kaynak konumundaki otorite ile sıfatların öznesi aynı göndergede tutulur. Kapanışın ilk katkısı {ar:عَزِيزٌ, tr:azîzun, gloss:güçlü ve erişilmez} ile gelir: yenilmezlik, erişilmezlik, onur ve kalıcı kudret basıncı, ilahî kaynağın hükmü yerine getirebilecek gücünü duyurur. İkinci katkıyı {ar:حَكِيمٌۭ, tr:hakîmun, gloss:hikmet sahibi ve doğru hüküm veren} getirir; bu tam yüklem bilerek hükmetme, düzenleme ve dizginleme alanını açar. İki sıfatın belirsiz ve tenvinli biçimleri biçimsel bir çift kurar, anlamlarını eritmez: güç önce gelir, hikmet bu gücü yönetilmiş bir hüküm ve ölçü içinde duyurur. Son ses ve dilbilgisi durağı hikmettir; ilahî kapanış hukuki anlamı bu yargı çerçevesinde tamamlar.
+
+## Elin Geri Dönen İzi
+
+Şimdi cümlenin bedensel eylem ile gerekçeyi nasıl birbirine bağladığı daha açık görünür. {ar:ٱقْطَعُوٓا۟, tr:iktau, gloss:kesin} emriyle {ar:أَيْدِيَهُمَا, tr:eydiyehumâ, gloss:ikisinin ellerini} nesnesinin {ar:جَزَآءًۢ, tr:cezâen, gloss:karşılık ve ceza}, {ar:كَسَبَا, tr:kesebâ, gloss:ikisi kazandı} ve {ar:نَكَٰلًۭا, tr:nekâlen, gloss:caydırıcı ibret cezası} ile buluşması, bedensel kesmeyi yapılan işe denk düşen ve başkalarına ibret veren bir ceza olarak görünür kılar. Kesme fiilinin bir bütünlüğü bozup ayıran olağan anlamı ellere uygulanır; karşılık sözü bu işlemi tamamlanan edinime bağlar, edinim sözü hırsızlıkla ilişkili fiili görünür kılar, caydırma sözü de görülen sonucun kamusal yönünü ekler. Düz bedensel hüküm böylece neden ve sonuçlarıyla daha belirginleşir.
+
+Aynı kelimeler el, edinme ve karşılık arasında bir sorumluluk aynası kurar. {ar:أَيْدِيَهُمَا, tr:eydiyehumâ, gloss:ikisinin ellerini} kişinin işi yaptığı araç, {ar:كَسَبَا, tr:kesebâ, gloss:ikisi kazandı} tamamlanan edinim, {ar:جَزَآءًۢ, tr:cezâen, gloss:karşılık ve ceza} ise o işe dönen sonuç olur. El bu yankıda yalnızca bir organ değil, kişinin kendi yaptığı işin ve doğurduğu sorumluluğun yüklendiği kanaldır; insan bedenindeki el nesnesi olarak kalması, bu aracı imgeyi somut sınırında tutar. {ar:ٱقْطَعُوٓا۟, tr:iktau, gloss:kesin} de aynalamayı maddi bir ayırma hareketinde görünür hale getirir.
+
+Elin bir işi yapabilme kapasitesini duyurması, aynı bedensel emre işlevsel bir sonuç ekler. {ar:ٱقْطَعُوٓا۟, tr:iktau, gloss:kesin} yeniden alma eylemini yürütecek gücün kesilmesi gibi de sezilir; böylece somut işlem gelecekteki erişimi sınırlayan bir etki taşır. {ar:أَيْدِيَهُمَا, tr:eydiyehumâ, gloss:ikisinin ellerini} üzerindeki güç ve yeterlik basıncı operasyonel yetiyi görünür kılar, {ar:نَكَٰلًۭا, tr:nekâlen, gloss:caydırıcı ibret cezası} ile duyulan bağ ve köstek imgesi de bu kapasite kesintisini tekrarın durmasına bağlar. İşlevsel sonuç, bedensel kesmenin etkisini gelecekteki hareket alanına kadar taşır.
+
+Bu el ve erişim çizgisi, daha ihtiyatlı bir kelime yankısında gizli sahiplenme görüntüsünü de açabilir. {ar:ٱلسَّارِقُ, tr:es-sâriku, gloss:hırsızlık yapan erkek} ve {ar:ٱلسَّارِقَةُ, tr:es-sârikatu, gloss:hırsızlık yapan kadın} gizlice sıyrılıp sahiplenmeye yönelen kişiyi taşır; {ar:ٱقْطَعُوٓا۟, tr:iktau, gloss:kesin} bu gizli hareketle sonraki sahiplik arasındaki bağı kesen bir eylem gibi görünür. {ar:أَيْدِيَهُمَا, tr:eydiyehumâ, gloss:ikisinin ellerini} elinde bulundurma, sahiplik ve denetim alanına değerek alma eyleminin ulaştığı kontrol noktasını gösterir; {ar:نَكَٰلًۭا, tr:nekâlen, gloss:caydırıcı ibret cezası} bağlayıp hareketi engelleyen köstek imgesiyle bu erişimin yeniden işlemesini durdurur. Bu ihtiyatlı görüntü, ayetin bedensel emrinin içinde işleyen sınırlı bir yankı olarak kalır.
+
+Daha uzaktaki biçimsel yankı, {ar:جَزَآءًۢ, tr:cezâen, gloss:karşılık ve ceza} kelimesinin karşılık anlamını korurken kesim ve hasat vaktine ulaşmış bir şeyin kesilmesini de kısa süreliğine duyurur. Saç, yün veya bitkinin kırkılıp ayrılması; ekin, ağaç ya da koyunun kesim vaktine varması, edinilmiş işin karşılığının olgunlaşıp sonuç anına ulaşmasını düşündürür. {ar:ٱقْطَعُوٓا۟, tr:iktau, gloss:kesin} ayetin somut kesme temasını, {ar:كَسَبَا, tr:kesebâ, gloss:ikisi kazandı} ise arayıp elde edilen ve karşılığı dönen işi bu kısa resme bağlar. Bu uzak çağrışım, bedensel kesme ve hukuki karşılık anlamının çevresinde kalır.
+
+## Yakın Sahnelerin Sınırı
+
+Yakın sahneler, 5:38'deki bedensel hükme iki belirgin katkı getirir: 5:31 görünür örnek niteliğini, 5:33 ise fiil ile karşılık arasındaki hukuki çerçeveyi öne çıkarır. 5:31'deki {ar:مِثْلَ هَٰذَا, tr:misle hâzâ, gloss:bunun gibi bir örnek} kendi sahnesinde bir davranışı görünür örnek haline getirir; bu örnek oluşturma biçimi, 5:38'deki {ar:نَكَٰلًۭا, tr:nekâlen, gloss:ibretlik caydırıcı ceza} sözünün cezayı başkalarının görebileceği bir uyarı olarak duyurmasını sağlar (5:31). 5:33'teki {ar:جَزَاءُ ٱلَّذِينَ, tr:cezâu'llezîne, gloss:kimselerin karşılığı} da fiil ile karşılık arasındaki çerçeveyi sürdürür (5:33). Bu iki katkı birleştiğinde 5:38'deki kesme, bedensel kapsamı belirli, belirli fiile bağlanan ve başkalarına caydırıcı uyarı taşıyan bir karşılık olarak somutlaşır.
+
+5:33'teki farklı bedensel yaptırımlar, 5:38'deki kesmenin biçimini görünür kılan bir karşılaştırma alanı açar. {ar:يُصَلَّبُوا۟, tr:yusallebû, gloss:asılarak öldürülmeleri} asma veya bağlama yoluyla gerçekleşen kendi bedensel yaptırım görüntüsünü taşır; {ar:تُقَطَّعَ أَيْدِيهِمْ وَأَرْجُلُهُمْ, tr:tuqattaʿa eydîhim ve erculuhum, gloss:ellerinin ve ayaklarının kesilmesi} ise aynı kesme işlemini başka uzuvlar ve başka bir düzen içinde yineler (5:33). Bu iki görüntünün ayrımı korunurken, odaktaki {ar:ٱقْطَعُوا۟, tr:iktaʿû, gloss:kesip ayırın} ile 5:33'teki {ar:تُقَطَّعَ, tr:tuqattaʿa, gloss:kesilip ayrılmaları} arasındaki temas 5:38'deki eylemin genel bir zarar sözü değil, nesnesi belirlenmiş fiziksel ayırma olduğunu gösterir (5:33).
+
+5:33'ün aynı yaptırım sahnesinde her ayrıntı başka bir katkı getirir: {ar:خِلَٰفٍ, tr:hılâf, gloss:karşıt yönlerde} eller ve ayakların karşıt taraflarda düzenlenmesini, {ar:يُنفَوْا۟ مِنَ ٱلْأَرْضِ, tr:yunfev min el-ard, gloss:yerden uzaklaştırılmaları} hareketi yerinden çıkararak engellemeyi, {ar:خِزْيٌۭ فِى ٱلدُّنْيَا, tr:hızyun fi'd-dünyâ, gloss:dünyada bir utanç ve teşhir} ise cezanın dünyadaki görünürlüğünü öne çıkarır (5:33). Bu uzaklaştırma imgesi, 5:38'deki kesmeyi bir kapasiteyi önceki işleyiş yerinden çıkaran bedensel sınırlama olarak duyurur; odakta açılan katkı, bölgesel sürgün düzeni değil, kesintinin hareket üzerindeki sonucudur. 5:33'teki {ar:أَيْدِيهِمْ, tr:eydîhim, gloss:elleri} sözü 5:38'deki ellerle anatomik bağı kurar; ayakların ayrıca söylenmesi ve karşıt yönlerin düzenlenmesi ise odaktaki yalnız ellere ait beden konfigürasyonunu görünür kılar (5:33).
+
+Bu ayrıntılar, 5:33'ün taşıdığı daha geniş suç çerçevesiyle birlikte 5:38'in sınırını da aydınlatır. {ar:يُحَارِبُونَ, tr:yuhâribûn, gloss:savaşan veya çatışanlar} düşmanlık ve tehdit sahnesini, {ar:فَسَادًا فِى ٱلْأَرْضِ, tr:fesâden fi'l-ard, gloss:yeryüzünde bozulma} ise toplumsal düzene yayılan zararı adlandırır (5:33). Bu geniş arka planın karşısında 5:38'in {ar:ٱلسَّارِقُ وَٱلسَّارِقَةُ, tr:es-sârik ve's-sârika, gloss:hırsızlık yapan erkek ve kadın} kendi fail çerçevesini, {ar:أَرْجُلُهُم, tr:erculuhum, gloss:ayakları} gibi ikinci bir uzuv yerine {ar:أَيْدِيَهُمَا, tr:eydiyehumâ, gloss:ikisinin ellerini} tek başına nesne yaparak belirler (5:33). Karşılaştırmanın katkısı, karşılık, uzuv, yön ve görünürlüğün farklı suç çerçevelerinde ayrı ayrı kuruluşunu göstermesidir; 5:33'ün düzeni 5:38'in hırsızlık ve eller kapsamını kendi sınırları içinde tutar.
+
+Elin zarar verecek biçimde uzanabilmesi, 5:28'deki başka bir el sahnesinin 5:38'e getirdiği katkıdır. {ar:بَسَطْتَ إِلَيَّ يَدَكَ, tr:basatta ileyye yedeke, gloss:elini bana doğru uzattın} elin dışarı doğru açılıp uzanışını gösterir; aynı sahnedeki {ar:لِتَقْتُلَنِي, tr:li-taqtulanî, gloss:beni öldürmen için} ve {ar:لِأَقْتُلَكَ, tr:li-aqtulaka, gloss:seni öldürmem için} sözleri bu uzanışa bağımsız bir zarar hedefi verir (5:28). İki kişinin elleri karşıt niyetlerle anılır: biri elini uzatır, diğeri bu uzanışı reddeder (5:28). 5:38'deki ikil iyelik ise elleri iki failin kendi yaptığı işe bağlar. Bu temas, kesmeyi bedensel emri koruyan ve zarara doğru uzatılabilen, hatta öldürmeye varabilen bir erişimin kesintisi olarak duyurur; 5:28'in el ve öldürme sahnesi kendi bağlamında kalırken 5:38'de açılan katkı, elin zararlı kapasitesidir.
+
+## Sınırın Etrafındaki Zaman
+
+5:38'deki caydırıcı sınır, 5:34'ün açtığı yakalanma öncesi dönüş zamanı ile birlikte okununca kişinin bundan sonra ne olabileceğine dair bir ufuk kazanır. 5:34'teki {ar:تَابُوا۟, tr:tâbû, gloss:döndüler} ile {ar:أَن تَقْدِرُوا۟ عَلَيْهِمْ, tr:en taqdirû aleyhim, gloss:onları ele geçirmeye gücünüz yetmeden} ifadesi, güç yetirme ve yakalama eşiğinden önce gerçekleşebilen dönüşü görünür kılar (5:34). {ar:نَكَٰلًۭا, tr:nekâlen, gloss:cezalandırılanı ve başkalarını caydıran ibretlik ceza} bu zamanın içinde ciddi bir sınır olarak durur; aynı sınır, kişiyi yalnızca "hırsız" adıyla bütün geleceği kapanmış bir durumda dondurmayan bir çerçeve içinde görünür.
+
+Bu zaman ufku 5:39'da suçtan sonra açılan dönüş ve onarma hareketiyle genişler. {ar:فَمَن تَابَ, tr:femen tâbe, gloss:kim dönerse} dönüşü, {ar:وَأَصْلَحَ, tr:ve aslaha, gloss:durumunu düzeltti} sözü ise yalnızca pişmanlığı değil fiilî onarmayı adlandırır (5:39). {ar:غَفُورٌ, tr:ğafûr, gloss:örten ve bağışlayan} yanlışın etkisi altında kapanıp kalmayan bir ufuk açar; {ar:رَّحِيمٌ, tr:rahîm, gloss:merhamet eden} onarma ve bağışlanmayı merhamete uzanan bir sonla tamamlar (5:39). Bu katkı 5:38'deki yaptırımın usulünü değiştiren bir af düzeni kurmaz; bedensel sınırı koruyarak geleceğe ve yeniden kabul imkânına uzanan zaman yayını gösterir (5:38, 5:39).
+
+## İsmin Hükme Girmesi
+
+Bu defa iki fail adının katkısı, suç kategorisini doğrudan hükme geçmeden önce doğruluk ve adaletle belirlenmesi gereken bir statü olarak duyurmaktır. {ar:ٱلسَّارِقُ, tr:es-sâriku, gloss:hırsızlık yapan erkek} ile {ar:ٱلسَّارِقَةُ, tr:es-sârikatu, gloss:hırsızlık yapan kadın} emrin yöneldiği kategoriyi gösterir. 5:41'de yalan ve sözün doğru yönünden saptırılması, 5:42'de bağlayıcı hüküm ve adalet, 5:44'te bilgiye dayalı şahitlik, 5:48'de arzunun yönelimi, 5:50'de ise bilgisizlik ihtimali bu adlandırmanın çevresine geldiğinde, isnat ile emrin uygulanması arasındaki bilgiye dayalı ara adım görünür olur (5:41, 5:42, 5:44, 5:48, 5:50). Çarpıtılmış aktarımlar, kişisel istek ve bilgisizlik, hüküm ve şahitlik karşısında sınanan statünün hangi koşullarda karara dönüşeceğini aydınlatır.
+
+Bu katkıların her biri statünün karara nasıl yaklaştığını gösterir. 5:41'de sözün bozulması ve doğru yönünden oynatılması, hukuki sözün yerinden bükülmesine karşı doğruluk sınırını kurar (5:41). 5:42'de insanlar arasındaki uyuşmazlığı bağlayıcı kararla sonuçlandıran hüküm, suç isnadını anlık bir iddiadan kararla tamamlanan bir yargı eylemine taşır; bu hareket {ar:حَكِيمٌۭ, tr:hakîmun, gloss:hikmet sahibi ve doğru hüküm veren} kapanışın düzenleme ve hükmetme katkısıyla buluşur (5:42). 5:44'te bilgiyle ilişkilenen şahitlik, yalan ve çarpıtma karşısında statüyü delil alanına geri taşır; 5:42'deki adalet, uygulamayı eşitlik gözeten bir karara yöneltir (5:42, 5:44). 5:48'de arzu, statünün kişisel eğilimle bükülmemesi gereken ölçüyü; 5:50'de bilgisizlik, hükmün bilgilendirilmiş bir çerçevede tutulması gereğini açar (5:48, 5:50). Bu temaslar hukuki kategorinin sınanma ve hükme bağlanma yolunu görünür kılar; 5:38'in emrinde bu yolun bütün ayrıntılarını veren bağımsız bir ispat usulü bulunmaz.
+
+## Ölçü ve Söz
+
+Karşılık fikrinin 5:45'ten aldığı katkı, bedensel sonucu ölçü ve hüküm içinde görülen bir hukuki dönüş olarak duyurmaktır. 5:45'te can, beden parçaları, yara, yaraya denk sonuç, bağış olarak vazgeçme ve hüküm aynı dizide buluşur; {ar:جَزَآءًۢ, tr:cezâen, gloss:karşılık} ile {ar:فَٱقْطَعُوا۟, tr:fe-iktau, gloss:öyleyse kesip ayırın} birlikte duyulduğunda odaktaki bedensel sonuç görünür kalır, karşılık da niteliğine göre ölçülen bir dönüş olarak belirir (5:45). Böylece kazanılmış neden ile sonuç arasındaki ilişki, başıboş bir güçten çok karar altında tutulan bir uygulama şeklinde okunur. 5:45'in yara eşleşmesi, bağış olarak vazgeçme ihtimali ve hükmü burada hırsızlık hükmünün usulüne çevrilmez; bu yakınlık yalnızca odaktaki karşılığın ölçü ve karar çerçevesini belirginleştirir (5:45).
+
+Aynı 5:45 yakınlığının ikinci katkısı, el ile kazanma arasında maddi bir devre kurmasıdır. {ar:أَيْدِيَهُمَا, tr:eydiyehumâ, gloss:ikisinin ellerini} ile {ar:كَسَبَا, tr:kesebâ, gloss:ikisi kazandı} bedensel incinme, iş gören uzuv, elde etme ve denk sonuç dizisine değdiğinde, el doğrudan adlandırılan beden nesnesi olmayı sürdürürken eylemi edinmiş sorumlu araç gibi görünür; yara da bu işleyen araca dönen bir sonuç aynası olur (5:45). {ar:كَسَبَا, tr:kesebâ, gloss:ikisi kazandı} fiilinin tamamlanmış edinim yönü, kazancın bedenin iş gören üyeleri aracılığıyla edinildiğini görünür kılar. Bu ilişki maddi araç ile sonuç arasındadır; 5:45'teki denk karşılık formülü ve bağış imkânı 5:38'in hüküm usulüne taşınmadan, elin doğrudan nesne oluşu korunur (5:45).
+
+Elin maddi araç-sonuç devresi tamamlandıktan sonra, aynı kelime alanının ayrı bir katkısı maldan söze yönelen işitsel harekettir. {ar:ٱلسَّارِقُ, tr:es-sâriku, gloss:hırsızlık yapan erkek} ve {ar:ٱلسَّارِقَةُ, tr:es-sârikatu, gloss:hırsızlık yapan kadın} adları, mal almaktan ayrı bir söz alma biçimiyle duyulabilir. 5:41'de tekrarlı işitme, yalan, yerinden oynatılmış sözler ve anlam taşıyan ifadeler yan yana geldiğinde, gizlice dinlenen hukuki sözün alınması, saptırılması ve eyleme çevrilmesi görünür olur (5:41). Maddi alma imgesine eklenen bu işitsel alma, {ar:ٱقْطَعُوٓا۟, tr:iktau, gloss:kesin} emrinin kesintiye uğratıcı gücünü bozulmuş sözü taşıyan kanala kadar uzanan bir yankı halinde duyurur.
+
+5:41'de işitmenin güç kazanıp kabule ve itaate dönüşmesi, sözün sessizce alındıktan sonra eyleme taşınan bir kanala dönüşmesini gösterir (5:41). İşitilen malzemenin yalanla bozulması, alınan sözün bozulmuş içerik halinde dolaşmasına; anlam taşıyan sözlerin yerinden edilerek seçici biçimde kullanılması da bu almanın nesnesi ile eyleme giden yolun belirginleşmesine katkı verir (5:41). Bu hareketin kapsamı, 5:41'deki hukuki sözün gizlice edinilip bükülmesidir: maddi hırsızlık adını ve bedensel cezayı söz suçuna çevirmeden, aynı kelime alanının işitsel yönünü açar. Böylece bu bağlantı, her işitme eylemi hakkında genel bir hüküm değil, bozulmuş sözün gizli edinim yoluyla eyleme taşınmasına dair sınırlı bir görüntü sunar (5:41).
+
+</editorial_prose>

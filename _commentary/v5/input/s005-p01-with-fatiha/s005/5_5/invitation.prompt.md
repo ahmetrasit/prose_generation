@@ -1,0 +1,199 @@
+# V5 reading invitation — 5:5
+
+You are a fresh reading-invitation writer. Read the complete editorial prose
+before writing. It is your sole semantic source.
+
+Write two to four paragraphs of fluent, contemporary Turkish that reveal a
+surprising reading by following one or two main channels of resonance in the
+ayah. A channel is a connected background of meanings, images, actions, or
+relations through which the ayah can be heard and understood differently.
+Several editorial findings may together develop one channel. Summarize that
+connected movement and its consequence for the ayah's main meaning, rather
+than compressing findings individually. Give the reading's substance now;
+the invitation comes from understanding it, not from a promise of hidden depth.
+
+Before drafting, read the entire editorial prose and silently select the one
+or two channels with the strongest interpretive consequence and enough
+grounding to explain clearly. Favor channels that expand or shift what the
+ayah says, the relation it establishes, or what is at stake in its action or
+image. One fully developed channel is sufficient; add a second only when it
+offers a distinct consequential reading that can be explained within the
+invitation. No finding, channel, or major shift has an individual coverage
+claim. Unselected material may remain entirely in the full commentary.
+
+A channel may develop through grammar, sound, dialogue, a material process,
+time, imagery, or a conceptual relation. Resonance is not limited to acoustic
+effects, and an unusual image alone does not establish a channel. Use only
+connections the editorial prose actually develops. If it supplies no such
+channel, explain its strongest grounded reading without inventing connections
+or surprise.
+
+Begin inside the ayah's own words, images, actions, or relations and reveal a
+selected distinctive reading in the first paragraph. Keep the plain meaning
+reachable with only the orientation needed to understand the change. Do not
+spend an opening paragraph on routine explanation or front-load context about
+the surah, the ayah's position, or the commentary project.
+
+For each selected channel, begin with the expression that opens it, unfold the
+connected background, and show how the ayah reads or sounds against that
+background. Let a detail lead into the next through an intelligible relation
+or process, so the reader experiences the emerging reading. This is a movement
+of thought, not a mandatory sentence pattern or one paragraph per finding.
+Let the reader identify the expression being interpreted,
+where any nonordinary detail comes from, and what that detail changes in the
+reading. Briefly identify the word-family use, restricted form, collocation, or
+context that supplies an essential added detail, and preserve the concrete
+operation that makes the image work. Keep the ordinary reading and necessary
+qualification clear within this explanation; do not repeat them as a fixed
+formula. Preserve the particular object, process, or relation that makes this
+reading distinctive, and state its interpretive consequence for the ayah as a
+whole. Make intelligible what the familiar reading leaves less visible and
+what the expanded or shifted reading now lets the reader understand. Preserve
+the editorial's force: an exploratory possibility remains possible, while a
+developed shift must not be softened into a decorative association or a
+reassurance that everything means the same thing. A concrete
+account of how something is carried, transformed, lost, or restored must not
+shrink to a general statement about care, guidance, dependence, or goodness.
+Keep the details needed to make the selected channel work; omit side findings
+and shorten routine setup. If a channel cannot be explained faithfully from
+the editorial prose, choose another grounded channel or reading.
+
+When a non-focus ayah supplies a contribution used in the invitation, keep its
+reference from the editorial prose beside that contribution.
+
+Do not turn the invitation into a miniature inventory of the commentary's
+conclusions, or flatten distinct channels into a broad theme to include more
+material. Do not repair, extend, or supplement the editorial prose from memory
+or outside knowledge.
+
+Omit technical apparatus. Retain any qualification, source distinction, live
+alternative, or boundary whose absence would change the force or meaning of a
+chosen reading. Express it naturally beside the image or relation it qualifies.
+Favor positive explanations of the relation between layers: what remains in
+the foreground and what the resonance makes audible in the background. State
+how that background reinforces, expands, or shifts the understanding of the
+main meaning, with the source and degree of certainty clear. Reserve explicit
+exclusions for concrete ambiguities or live counter-evidence that need them.
+Repeated "this is not X" endings make a reading sound withdrawn; express the
+substantive qualification through what the reading does contribute wherever
+possible. Use varied, natural language rather than a repeated "second layer"
+formula, and preserve the force of expansions and shifts.
+Do not name branches, candidates, findings, scopes, evidence categories,
+ledgers, or workflow stages, or label the prose as numbered channels. Do not
+list findings serially.
+
+Use the established `{ar:..., tr:..., gloss:...}` syntax, consistent
+Turkish-readable transliteration, and short ordinary glosses. Keep Arabic
+anchors beside the explanations they ground. Within a paragraph, continue with
+the Turkish meaning where clear; provide the necessary local tag when a later
+paragraph interprets the carrier anew. Do not place Arabic script outside a
+valid tag.
+
+Build transitions within a channel through its shared object, action, or
+relation. If two channels are selected, they may occupy separate paragraphs;
+do not invent a link between them. Do not praise the commentary's quality,
+promise what the reader will find, manufacture suspense, recap at the end, or
+add a call to action. End on an image, relation, action, or tension already
+established by the selected reading.
+
+Before finishing, compare the invitation with the entire editorial prose:
+does the chosen channel reveal a consequential reading, or could the text have
+been written from the ordinary translation and a modest explanation alone?
+When the editorial supports a surprising channel, the latter fails this task.
+Can the reader follow the opening expression into a connected background and
+understand how that background expands or shifts the ayah's main meaning?
+Check the selected connections against their editorial explanation: can the
+reader tell where the nonordinary details come from, with the necessary
+qualifications intact? Repair generic explanation, isolated curiosities, or a
+compressed findings list by developing the selected channel. Do not add
+omitted channels merely for coverage. Do not output this check.
+
+Write only the invitation text to:
+
+`_commentary/v5/editorial/s005-p01-with-fatiha/s005/5_5/5_5.invitation.tr.md`
+
+Do not add a heading, wrapper label, index, ledger, evidence file, or any other
+artifact. Do not modify the editorial prose.
+
+After writing the invitation, run:
+
+```bash
+python3 _commentary/v5/validate_prose.py _commentary/v5/editorial/s005-p01-with-fatiha/s005/5_5/5_5.invitation.tr.md
+```
+
+If validation fails, repair only the reported mechanical file-contract issues
+and rerun it, for at most two repair cycles. Report the final validator result
+in your response.
+
+<editorial_prose>
+## Hükmün Şimdiki Eşiği
+
+Bu ayet, belirli bir günde iyi ve temiz yiyeceklerin helal kılınmasını, kendilerine Kitap verilmiş kimselerin yiyeceğiyle müminlerin yiyeceği arasındaki karşılıklı izni ve belirli şartlarla evliliği aynı hukukî ufukta kurar. Sonunda da iman reddedildiğinde yapılan işin boşa çıkacağını ve kişinin ahirette kaybedenler arasında yer alacağını bildirir. Başta öne alınan {ar:الْيَوْمَ, tr:el-yevme, gloss:bugün}, bu hükümleri kopuk maddeler gibi değil, aynı şimdiki yürürlüğe koyma zamanı içinde duyurur. Böylece izin, ilişki ve sonuç aynı somut zaman eşiğinde görünür; bu zaman çerçevesi ayetin kendi kuruluşuyla sınırlıdır.
+
+Bu eşiği açan {ar:أُحِلَّ, tr:uhille, gloss:helal kılındı} fiili edilgendir: hükmü uygulayan faili geri plana alır, helalliğin tamamlanmış etkisini öne çıkarır. Kelime, bağlı olanı çözme ve yasağı kaldırma hareketini de duyurabildiği için helallik, başıboş bir gevşeme değil, yetkili biçimde kaldırılmış bir kısıt olarak belirir. Hemen ardından gelen {ar:لَكُمْ, tr:leküm, gloss:size}, daha sonra özne olarak belirginleşen {ar:الطَّيِّبَاتُ, tr:et-tayyibât, gloss:iyi ve temiz olanlar} sözünden önce yararlanıcıları sahneye alır: okuyucu neyin izinli olduğunu öğrenmeden önce hükmün kime yöneldiğini görür. Gecikmiş ve belirli çoğul özne et-tayyibât, helalliği sınırsız iştaha değil, niteliği belirlenmiş iyi, temiz ve elverişli şeyler sınıfına bağlar. Ardındaki {ar:وَ, tr:ve, gloss:ve} ile {ar:طَعَامُ, tr:taâm, gloss:yiyecek} aynı izin çerçevesini somut besin alanına taşır.
+
+{ar:طَعَامُ, tr:taâm, gloss:yiyecek} burada soyut bir madde adı olarak bırakılmaz; tamlama içinde, kimliği biraz sonra açıklanacak Kitap alıcılarının yiyeceği olarak hukukî bir ilişkiye bağlanır. {ar:الَّذِينَ, tr:ellezîne, gloss:kimseler ki} nispet zamiri bu grubu hemen kapatmaz, kimliğini sonraki edilgen açıklamaya kadar açık tutar. {ar:أُوتُوا, tr:ûtû, gloss:kendilerine verildi} biçimi, bu kimseleri kitabı kendi kendine üretenler olarak değil, kendilerine verilmiş bir mirası taşıyan alıcılar olarak gösterir. Belirli {ar:الْكِتَابَ, tr:el-kitâb, gloss:yazılı Kitap} bu kimliği yazılı ve norm taşıyan bir metne sabitler. Aynı verilmiş olma biçiminin evlilik bölümünde yeniden duyulması ayet içi bir süreklilik kurar; oradaki {ar:مِن قَبْلِكُمْ, tr:min kabliküm, gloss:sizden önce} ifadesi bu ortak biçimi ilişki ve zaman bakımından daraltır.
+
+## Sofranın Karşılıklı Açılması
+
+Yiyecek cümlesinin ikinci yüzünde belirsiz isim-yüklem kuruluşu olan {ar:حِلّ, tr:hill, gloss:helal ve izinli}, yiyeceğin muhataplar için kurulmuş bir helallik statüsünü sunar. İlk {ar:لَكُمْ, tr:leküm, gloss:size} bu statünün ilk yararlanıcılarını belirler. Ardından gelen {ar:وَ, tr:ve, gloss:ve}, ikinci yiyecek cümlesini aynı isim-yüklem kalıbının hukukî eşi olarak bağlar; karşılıklılık cümlelerin koordinasyonuyla görünür hâle gelir. {ar:طَعَامُكُمْ, tr:taâmüküm, gloss:sizin yiyeceğiniz} iyelik ekiyle yiyeceği yeniden muhataplara bağlar ve yönü çevirir: onların yiyeceği size, sizin yiyeceğiniz onlara açılır. İkinci {ar:حِلّ, tr:hill, gloss:helal ve izinli} iki yönü tam olarak eşler. Evlilik cümlesine gelindiğinde bu ayna, ödeme ve davranış şartlarıyla başka bir hukukî kuruluşa dönüşür. {ar:لَهُمْ, tr:lehum, gloss:onlara} yararı açıkça karşı tarafa yöneltir; kapanıştaki {ar:هُمْ, tr:hum, gloss:onlar} da iki ayrı gönderimi korur. Sofradaki geçiş böylece iki topluluğu birbirine eritmeden karşılıklı olur.
+
+Bu sözdizimsel ayna, {ar:حِلّ, tr:hill, gloss:izinli ve çözülmüş} yüzeyinin bağlı bir kısıtı çözme çağrışımıyla birleşince yiyeceği iki topluluk arasında kontrollü bir geçit gibi duyurur. Önceki bir yasağın bir bölümünün kaldırılmasıyla kurulan 3:50 bağı, bu geçidin seçilmiş bir kısıtın yetkili biçimde gevşemesiyle açıldığını belirginleştirir. {ar:أُحِلَّ, tr:uhille, gloss:izinli kılındı} ile {ar:طَعَامُكُمْ, tr:taâmüküm, gloss:sizin yiyeceğiniz} buluştuğunda geçit, birinin yiyeceğinin diğerinin sofrasına ulaşabildiği somut bir alışverişe dönüşür. 4:24'te ödeme, iffet ve gizli erişimi dışlayan koşullarla kurulan yakın hukukî paralel, bu açıklığın sınırlarla birlikte işlediğini gösterir. Böylece yeme ve besin anlamı korunurken hukukî izin, toplumsal karşılıklılıkta somutlaşır; geçidin sınırlarını da ayetin kendi şartları taşır.
+
+Karşılıklı sofranın ardından gelen {ar:وَ, tr:ve, gloss:ve}, zaman ve helallik ufkunu koruyarak dikkati evliliğe çevirir. Yiyecek cümlesindeki ayna burada ödeme, korunmuşluk ve davranış şartlarıyla yeni bir hukukî kuruluş kazanır. Belirli dişil çoğul edilgen ortaç {ar:الْمُحْصَنَاتِ, tr:el-muhsanât, gloss:korunmuş ve iffetli kadınlar}, uygun kadınları adlandırılmış ve korunmuş-iffetli bir sınıf olarak kurar; edilgen biçim korunan statüyü öne çıkarır. İlk {ar:مِنَ, tr:min, gloss:den}, bu sınıfı {ar:الْمُؤْمِنَاتِ, tr:el-mü'minât, gloss:iman eden kadınlar} grubuna bağlar. Mümin kadınlar burada korunmuş sınıfın bütününü tüketen bir ad değil, onun içindeki ilk kaynak yuvasıdır. El-mü'minâtın etken kabul ve güven anlamı, bu kaynağı imanla etkin biçimde bağlanan bir topluluk olarak duyurur.
+
+İkinci {ar:وَ, tr:ve, gloss:ve} ilk grubu kaldırmaz; aynı korunmuşluk ölçüsü altında kitap alıcıları kadınları için paralel bir kaynak yuvası açar. Tekrarlanan {ar:الْمُحْصَنَاتِ, tr:el-muhsanât, gloss:korunmuş ve iffetli kadınlar}, iki topluluğu birleştirmeden paylaşılan iffet standardını görünür kılar. İkinci {ar:مِنَ, tr:min, gloss:den} bu ayrı kaynağı ilkine eritmez. {ar:الَّذِينَ, tr:ellezîne, gloss:kimseler ki} burada da kimliği basit bir topluluk adına bırakmaz, onu sonraki verilmişlik cümlesine bağlar; {ar:أُوتُوا, tr:ûtû, gloss:kendilerine verildi} biçimi yiyecek cümlesindeki alıcı kimliğine yankı verir. Belirli {ar:الْكِتَابَ, tr:el-kitâb, gloss:Kitap} norm taşıyan yazılı dayanağı gösterir; önündeki {ar:مِنْ, tr:min, gloss:den ve itibaren} ile {ar:قَبْلِكُمْ, tr:kabliküm, gloss:sizden önce}, bu kaynağı bugünkü muhataplara göre zamansal bir önceliğe yerleştirir. Kitap verilmişlik burada korunmuş sınıfın tamlama içindeki kaynağını belirler; iznin somutlaşmasını da {ar:إِذَا, tr:izâ, gloss:ne zaman ve eğer} ile başlayan ödeme ve davranış şartları taşır.
+
+Koşulun içindeki eylem yönü de değişir. {ar:آتَيْتُمُوهُنَّ, tr:âteytümûhenne, gloss:onlara verdiniz} ikinci şahıs çoğul muhatapları veren, kadınları verilen hakkın alıcısı yapar. Daha önce kendilerine Kitap verilen alıcılar şimdi başkasının hakkını yerine getirmekle yükümlü etkin failler olarak görünür. {ar:أُجُورَهُنَّ, tr:ücûruhenne, gloss:onların karşılıkları} doğrudan kadınlara ait bir hakkı belirler; iş veya anlaşma karşılığı anlam alanı burada evlilikte kadına verilmesi gereken karşılık olarak somutlaşır. Bu karşılık kadını satın alınan bir şeye indirmeden, kurulmuş ilişkinin hesabı verilebilir yükümlülüğünü somutlaştırır. Ödemenin ardından gelen {ar:مُحْصِنِينَ, tr:muhsinîn, gloss:koruyup iffetli tutanlar}, korunmuşluğu yalnız eş seçiminin niteliği olarak değil, ödeme yapanların etkin koruyucu ve iffetli tutumu olarak da kurar.
+
+Evlilik imgesinin katkısı, açılmış erişimi tanınmış, karşılığı verilmiş ve korunmuş bir iç çevreye dönüştürmesidir. {ar:الْمُحْصَنَاتِ, tr:el-muhsanât, gloss:korunmuş ve iffetli kadınlar} sözü bu çevrenin maddî görüntüsünü taşır: içeriye erişimi kesen sağlam bir sınır, içeride olanı dış tehlikeden korur. {ar:أُجُورَهُنَّ, tr:ücûruhenne, gloss:onların karşılıkları} bu sınırın girişini tanınmış bir yükümlülükle kurar; kadınlara ait hak açıkça verildiğinde ilişki hesabı verilebilir bir biçim kazanır. Aynı yüzey, yasak cinsel ilişkiden uzak durarak bedeni koruma davranışını da açar. Eşler istisnasıyla belirginleşen cinsel korunma (23:5), iç çevrenin fiilî sadakatle sürdürüldüğünü gösterir. Ödeme, açık evlilik, iffet ve gizli erişimi dışlayan yakın hukukî paralel (4:24), bu koruma ilişkisinin hukukî biçimini keskinleştirir.
+
+Korunan çevrenin dışı iki ayrı hareketle çizilir. {ar:غَيْرَ, tr:gayra, gloss:başka ve dışında}, olumlu evlilik tavrını hâl çerçevesinin içinde sınırlandırır; izin belirlenmiş bir kümenin içindedir ve dışarıda kalan biçimler ayrıca adlandırılır. Dışlama biçimlerinin 5:1 ve 5:3'teki kullanımlarıyla kurulan bağ, 5:5'teki seçilmiş hukukî istisnanın biçimini belirginleştirir; dışlama sözüne başka kullanımlardan ayrıca bir imge taşınmaz. {ar:مُسَافِحِينَ, tr:müsâfihîn, gloss:saçıp savuranlar}, sıvının bulunduğu yerden dışarı dökülmesi imgesini taşır; {ar:مُحْصِنِينَ, tr:muhsinîn, gloss:korunmuş ve iffetli davrananlar} ile karşı karşıya geldiğinde bedenî erişimin korunmuş bağın dışına saçılması görünür olur. Aynı biçim geçerli evlilik bağı olmaksızın cinsel ilişkiyi de adlandırır. Ardındaki {ar:وَ, tr:ve, gloss:ve}, bunu ilk yasağa eklenen ayrı bir yol olarak bağlar. {ar:لَا, tr:lâ, gloss:olmaz ve edinilmez} yeni bir olumsuz yapı açar; {ar:مُتَّخِذِي, tr:müttehizîn, gloss:edinenler} gizli ilişkiyi rastlantısal temas değil, failin iradî seçişi olarak kurar. {ar:أَخْدَانٍ, tr:ahdân, gloss:gizli mahrem dostlar} da genel arkadaşlık alanını değil, gizli ve cinsel yakınlık taşıyan mahrem ortaklığı daraltır. Ayetin sınırı böylece dağınık bedenî saçılmayı ve saklı alternatif bağlılığı iki ayrı ihlal biçimi olarak tutar.
+
+## Hukukun Kapıları
+
+Bu iki sınırın taşıdığı ayrım, hukukî alanın nasıl açıldığını daha belirgin kılar. {ar:أُحِلَّ, tr:uhille, gloss:helal kılındı} ve {ar:حِلّ, tr:hill, gloss:izinli ve çözülmüş} biçimleri, önceden bağlı bir kısıttan ayrılıp izinli duruma geçmeyi duyurur. Bağlayıcı yapıyı taşıyan {ar:الْعُقُود, tr:el-ukûd, gloss:akitler} ve eksiksiz tamamlamayı isteyen {ar:أَوْفُوا, tr:evfû, gloss:yerine getirin} emri (5:1), bu ayrılmanın sağlam bir söz içinde gerçekleştiğini gösterir. Korunması gereken hak, ahit ve saygı ufku {ar:حُرُم, tr:hurum, gloss:dokunulmaz sınırlar} ile (5:2), sağlam söz ufku da {ar:مِيثَاق, tr:mîsâk, gloss:sağlam ahit} ile (5:7) açılır. Bu yakın bağlamlar, 5:5'teki yiyecek ve evlilik izinlerini sözleşmelerin, dokunulmazlıkların ve ahdin bulunduğu alanda açılan kapılar gibi duyurur. Kapının katkısı, geçişi mümkün kılarken hukukî çevrenin tamamını da taşımasıdır.
+
+Kapının zamanını açılıştaki {ar:الْيَوْمَ, tr:el-yevme, gloss:bugün} belirler. Yiyecek sınırının hemen önce çizildiği ve günün tamamlanma diliyle anıldığı 5:3, bugün sözünü sıradan bir tarihten izinlerin tamamlanmış bir hukukî olay içinde belirginleştiği kritik âna taşır. Bu bağlantı günü kıyamet zamanına genişletmeden, izin ile tamamlanmış yükümlülüğün aynı eşikte buluştuğunu gösterir. Tekrarlı giriş çağrısı ve kapı imgesi (5:23), açık imkân ile fiilî geçişi iki ayrı adım olarak kurar; eşiğin açıklığı tek başına girişin tamamlanması değildir. Uzun süreli yasak (5:26), reddedilen açıklığın kalıcı bir kapanmaya dönüşebileceği karşılığını verir. Böylece bugün, zaten verilmiş bir izin tarihinin yanında kullanılmayı bekleyen ve reddedildiğinde sertleşen bir geçiş penceresi olarak duyulur.
+
+Kapıdan geçen şeyin niteliği, {ar:الطَّيِّبَاتُ, tr:et-tayyibât, gloss:iyi ve temiz olanlar} sözünün yiyecek ile evliliği iki hoşluk ve iştah alanı olarak yan yana getiren yankısında belirginleşir. Ortak nokta bu iki alanın sözdizimini özdeşleştirmek değil, ikisinin de hukukî bir biçim kazanmasıdır: önce yenilebilir iyilik, sonra korunmuş birliktelik düzenlenir. İyi şeylerin yasaklar ve yüklerin kaldırılmasıyla yan yana geldiği 7:157, iyi olanı arzu edilen her şeyden ayıran seçici bir ölçü kazandırır. Eğitim ve tutma hareketleri (5:4) bu ölçüyü pratik kullanıma taşır. {ar:عَلَّمْتُمْ, tr:allemtüm, gloss:öğrettikleriniz} ayırt etme bilgisini, {ar:أَمْسَكْنَ, tr:emsakne, gloss:tuttular} ise yakalananı elde tutup aktarımı yönetmeyi görünür kılar. Böylece {ar:طَعَام, tr:taâm, gloss:yiyecek}, sınıflandırılmış yiyecek olmanın yanında bilgi, ölçü ve kontrollü kullanım içinde kabul edilen bir yiyecek olarak duyulur.
+
+Bu ölçü, temiz temas sorusuna da uzanır. İyi olanı temiz ve uygun olandan ayıran {ar:الطَّيِّبَات, tr:et-tayyibât, gloss:iyi ve elverişli olanlar}, beden temizliği ve giderilen pislikle birlikte okunduğunda temas öncesi arınma yönünde yoğunlaşır (5:6). Su bulunmadığında arınmayı mümkün kılan {ar:صَعِيدًا طَيِّبًا, tr:saîden tayyiben, gloss:temiz ve uygun toprak} uygun bir aracı gösterir. {ar:فَاطَّهَّرُوا, tr:fettahherû, gloss:temizlenin} temas öncesi temizlenme hareketini, {ar:فَتَيَمَّمُوا, tr:feteyemmemû, gloss:temiz zemine yönelin} ise zorunlu koşullarda uygun zemine yönelerek arınmanın sürmesini taşır. Bu bağlantının katkısı, 5:5'teki yiyecek ve evlilik hükmüne temiz temasın uygunluk boyutunu eklemektir; arınma ayininin kendisi 5:6'nın kendi alanında kalır. Aynı ölçü topluluklar arası davranışta düşmanlıkla sınanır: {ar:شَنَآن, tr:şeneân, gloss:düşmanlık} karşılıklı davranışı eğebilecek basıncı, {ar:تَعْدِلُوا, tr:ta'dilû, gloss:adil ölçüyü koruyun} ise bu basınç altında ölçüyü korumayı taşır (5:8). Açılmanın niteliği, duygusal bir erimeden çok düşmanlık altında bile adaleti bozmayan somut bir geçiş ölçüsüyle belirir.
+
+## Verilmiş Olanın Sorumluluğu
+
+{ar:أُوتُوا الْكِتَابَ, tr:ûtû el-kitâb, gloss:Kendilerine Kitap verilenler} ayette önce olağan bir topluluk tanımıdır: yazılı bir vahiy mirasına sahip olanlar. Bununla birlikte {ar:الْإِيمَانِ, tr:el-îmân, gloss:iman ve doğrulayıcı kabul} sözü, bir haberi doğru saymayı, bildirilen yola girmeyi ve ona bağlanmayı da taşır. Kitap sahipleri içinden inananları ortak bir sorumluluk alanında görünür kılan 3:199, grup adının yalnızca miras alınmış bir etiket olarak değil, kabul ve hesap verebilirlik içeren etkin bir aidiyet olarak duyulmasını sağlar. Bu etkin aidiyet, toplulukların olağan adlarını korur ve onları ortak bir sorumluluk alanında yan yana tutar; aralarında bir değer sıralaması kurmaz. Verilme fiili ile yeniden duyulan {ar:الْكِتَابِ, tr:el-kitâb, gloss:yazılı metin} birlikte düşünüldüğünde alınan şey yalnızca kimlik işareti değil, taşınan bir içeriktir.
+
+Bu içeriğin taşınması, sağlam ahit, bağın çözülmesi ve gizleme hareketleriyle sınanır. Sağlam ahit (5:12) alınmış olanı sorumlu sadakatle bağlar; bağın çözülmesi ve ihmal edilmesi (5:13), sahip olmakla korumak arasındaki farkı açar. İçeriğin başkalarının görmesine veya ona ulaşmasına kapatılması da (5:15), alınmış olanın görünürlük kazanmasını ayrıca sadakatle taşınmasına ve açılmasına bağlar; verilmişlik bu bağlantıda tek başına görünürlük üretmez. Böylece 5:5'teki Kitap verilmişliği, ahde bağlı biçimde taşınması gereken bir emanet olarak genişler. Aynı {ar:الْكِتَابِ, tr:el-kitâb, gloss:Kitap}, ışıkla birlikte anıldığında ve hakikate yönlendiren yolları açtığında (5:15, 5:16), arşivde duran bir nesneden izlenebilir bir rehberliğe doğru ilerler. Bu rehberlik, 5:5'teki topluluk tanımının yazılı içeriğini koruyarak yiyecek ve evlilik alanındaki karşılaşmaya görünürlük, yön ve sorumluluk boyutu ekler.
+
+Verilme hareketinin başka bir yankısı, önce verilen armağanla ardından gerçekleşmesi istenen giriş arasındaki sırada belirir (5:20, 5:21). {ar:أُوتُوا, tr:ûtû, gloss:verildi} bir armağanın alıcıya ulaşmasını anlatır; önce verilen nimet, ardından girilmesi ve sahiplenilmesi istenen belirlenmiş bir yer gelir. Bu sıra, armağanın istenen eylemden önce gelebileceğini ve tamamlanmış sahipliğin içeriye girişle uygulamaya ihtiyaç duyduğunu gösterir. Böylece 5:5'teki Kitap verilmişliği, alınmış bir kimliğin yanında taşınması ve yaşanması gereken bir emanet olarak da duyulur. Arazi ile Kitap aynı şey değildir; iki bağlamın ortaklaştırdığı yapı, verilmiş olandan sonra girişin, kabulün ve eylemin hâlâ gerekli olmasıdır. Yazılı içerik ışıkla görünür, yön verir ve bölünmüş bir toplumsal alanda barışa doğru yürünebilen yollar açar.
+
+## Sınırın Maddî Görüntüleri
+
+Korunmuşluk, sonraki bağlamda daha yoğun bir sınır yönetimi resmi kazanır. Zorlayıcı tahakküm, tartışmalı giriş ve meşru kapı imgeleri (5:22, 5:23) birlikte iç alanın sınırını, geçişin biçimini ve korumanın yükümlülükle kurulmasını görünür kılar. Bu bağlantıda bir iç alana sahip olmak onu gerçekten korumaya eşit değildir. Kapı imgesi geçerli girişi zorla aşmadan veya gizlice dolanmadan ayırır; korunmuş iç alanın geçerliliği böylece girişin biçimine, yükümlülüğe ve kişilerin iradesine bağlanır. Bu, {ar:الْمُحْصَنَاتِ, tr:el-muhsanât, gloss:korunmuşlar} yüzeyindeki çevreleyen sağlam engel görüntüsünü basit bir cinsel kapanmadan, girişin ve failiyetin sıralandığı bir sınır yönetimine genişletir. Ayetin açık evlilik, ödeme ve iffet yüzeyi bu görüntünün zeminidir; sonraki anlatı, korumanın erişim boyutunu belirginleştirir.
+
+Aynı sınırın diğer tarafında {ar:مُسَافِحِينَ, tr:müsâfihîn, gloss:akıtan ve saçanlar} sıvının dışarı dökülmesi imgesiyle arzunun sürdürücü bir kanal olmadan saçılmasını düşündürür. Sürekli akış ve yatağını toprağın içinden açan nehir imgeleri (5:12) bu maddî görüntüye bağımsız bir karşılık verir. Akışın değeri yalnızca durdurulmasında değil, kalıcı bir yatağa yönelmesindedir. Böylece korunmuş ilişki arzuyu yok eden bir kapalılık olarak değil, onu hayat taşıyan ve sürdürülebilir bir yola yönlendiren bir kanal olarak da duyulur. Nehir modelinin bu bağlantıdaki katkısı, 5:5'in cinsel hükmüne ek bir hukukî açıklama getirmekten ziyade korunma ile saçılma arasındaki farkı, tutulma ile yönlendirilmiş akış arasındaki maddî karşıtlıkla görünür kılmaktır.
+
+Yiyecek ve evlilik cümlelerinin yan yana durmasından açılan daha uzak tarımsal benzetme, farklı toplumsal kökenlerin yapısını koruyarak hukukî bir birleşmeye kabul edilme biçimine maddî bir tutunma görüntüsü ekler. {ar:طَعَامُ, tr:taâm, gloss:yiyecek} yüzeyinin bu keşifsel yankısında başka bir ağaçtan eklenen dalın ana dala birleşip tutması belirir; {ar:الْمُحْصَنَاتِ, tr:el-muhsanât, gloss:korunmuş durum} bu imgeye değdiğinde birleşme kökenleri silen biçimsiz bir erime değil, korunan bir yapıya tutunma olarak görünür. Bu keşifsel analojinin alanı bu bağlantıyla sınırlıdır: ayetin yiyecek ve evlilik anlamları yerinde dururken, iki alanın hukukî biçim içinde yan yana gelişini maddî olarak resmeder.
+
+Tutunma imgesinin yanında daha uzak bir maddî yankı belirir. {ar:أُحِلَّ, tr:uhille, gloss:helal kılındı} nesneye eklenerek görünüşü süsleyen bir takı veya süs parçasını, {ar:الطَّيِّبَاتُ, tr:et-tayyibât, gloss:iyi ve içe sinenler} ise içten razı olmayı ve baskısız katılımı duyurabilir. Bu iki ayrıntının katkısı, serbest bırakılmış sofra ve hukukî birlikteliğin görünür bir toplumsal iyilik olarak güzelleşmesini gönüllü katılım şartıyla birlikte düşündürmesidir. Biçim bakımından uzak bu çağrışım, bu bağlantıda hukukî ilişkinin güzelliğinin zorlamasız rızayla tamamlanabileceğini görünür kılar; helallik hükmünün ölçüsünü değiştirmez.
+
+Tutunmayı mümkün kılan onarım imgesinin katkısı, açıkça tanınan karşılığı kırılmış bir bağı yeniden birleştirip yeni kurulmuş birliği ayakta tutan yapısal destek olarak duyurmasıdır. {ar:أُجُورَهُنَّ, tr:ücûruhenne, gloss:onların karşılıkları} yüzeyinin maddî yankısında kırılmış bir kemiği veya eli birleştirip yeniden kaynatma süreci duyulur; {ar:الْمُحْصَنَاتِ, tr:el-muhsanât, gloss:korunaklı ve korunmuşlar} ile buluştuğunda kadınların hakkı yeni kurulmuş birliği bir arada tutan yapısal destek gibi görünür. Aynı koruyucu çevre, {ar:مُسَافِحِينَ, tr:müsâfihîn, gloss:sıvıyı döküp akıtanlar} ile karşılaştığında saçılmaya karşı dayanıklı bir sınır kurar; saçılma biçimi de ödeme hakkına değdiğinde hakkın kırılgan bağı yerinde tutan destek rolü belirginleşir. Bu onarım ve dayanıklılık görüntüsü, olağan ödeme ve evlilik şartının içindeki yükümlülüğü elle tutulur kılar.
+
+## Günlük Açıklıktan Değer Hesabına
+
+Yiyeceğin bu somut geçim yüzü, Fatiha'daki {ar:رَبِّ الْعَالَمِينَ, tr:Rabbi'l-âlemîn, gloss:âlemlerin Rabbi ve sürdürücüsü} ifadesinin açtığı sahiplik, bakım ve geçimi sürdürme ufkuna bağlanır. 5:5'teki {ar:طَعَام, tr:taâm, gloss:yiyecek}, bu bağımsız geçim çağrısıyla buluştuğunda hukukî izin yüzünü koruyarak açılmış insan ilişkisi içinde dağıtılan bir geçim ve ikram olarak da duyulur. Bu temas Rabb'in âlemlerle birlikte anıldığı 1:2'deki sürdürücü ufukta kalır; yiyeceğin ikinci katmanı geçim, kazanç ve elverişli rızık alanına eklenir.
+
+Bu açıklığın karşısında ayetin son hareketi koşullu bir hesap açar. Önceki izin ve yükümlülükleri bağlayan {ar:وَ, tr:ve, gloss:ve}, son uyarıyı kopuk bir vaaz değil, aynı hukukî akışın dönüm noktası yapar. {ar:مَنْ, tr:men, gloss:kim} yiyecek ve evlilikte adı geçen grupları aşarak koşulun öznesini genelleştirir. Cezmli {ar:يَكْفُرْ, tr:yekfür, gloss:inkâr ederse} fiili tetikleyiciyi kurar; hemen yanındaki {ar:بِ, tr:bi, gloss:-e karşı} harf-i cerri reddedişin yönünü belirler ve {ar:الْإِيمَانِ, tr:el-îmân, gloss:iman düzeni} onu ayetin bildiği kabul ve bağlanma çerçevesine yönelmiş inkâr olarak sınırlar. Sonuç bağlacı {ar:فَ, tr:fe, gloss:böylece} koşul ile hüküm arasına mesafe bırakmaz. {ar:قَدْ, tr:kad, gloss:gerçekten ve artık} ile tamamlanmış geçmiş fiil {ar:حَبِطَ, tr:habita, gloss:boşa çıktı ve etkisini yitirdi} birleşince şart gerçekleştiğinde amelin çöküşü gerçekleşmiş bir hüküm gibi duyulur.
+
+Bu çöküşün öznesi ve zamanı cümlenin devamında belirginleşir. {ar:حَبِطَ, tr:habita, gloss:bozulup verimini yitirdi} amelin iman reddinden sonra değerini içeriden yitiren, verimsizleşen bir iş olarak çökmesini gösterir; bu bağlantıda kayıp, dışarıdan silinen bir kayıt biçiminde değil, işin iç veriminin kaybı biçiminde görünür. İyelikli tekil {ar:عَمَلُهُ, tr:ameluhu, gloss:onun ameli} çöküşü koşula giren kişinin kendi eylem toplamına bağlar. İkinci {ar:وَ, tr:ve, gloss:ve} bu iş kaybını kişinin sonraki sınıflandırmasına taşır; açık özne {ar:هُوَ, tr:huve, gloss:o} iş çöktükten sonra kişiyi yeniden sahneye alır. {ar:فِي, tr:fî, gloss:içinde} onu {ar:الْآخِرَةِ, tr:el-âhire, gloss:ahiret} alanının içine yerleştirir. Açılıştaki el-yevme ile kapanıştaki el-âhire arasında ayetin kendi zaman ekseninden okunan bir parantez kurulur: bugünkü izinlerin sorumluluğu sonraki alanda sonuçlanır. Sonuçtan sonra gelen {ar:مِنَ, tr:min, gloss:arasından}, kişiyi geçici bir kayıp yaşayan biri olarak bırakmaz; {ar:الْخَاسِرِينَ, tr:el-hâsirîn, gloss:kaybedenler} ticarette anaparadan veya beklenen kazançtan yitirme imgesini ahiretteki kimliğe dönüştürür.
+
+Bu değer kaybı, inkâr ile amellerin sonuçsuz kalmasını birlikte anan 9:17 ile yankılanır. Hemen ardından gelen iman, salih amel, bağışlanma ve büyük karşılık cümlesi (5:9), eylemin değerinin karşılık bulabildiği bir ufuk açar. {ar:أُجُورَهُنَّ, tr:ücûruhenne, gloss:onların karşılıkları} iş veya anlaşma karşılığında dönen yarar anlamıyla {ar:أَجْرٌ عَظِيمٌ, tr:ecrün azîm, gloss:büyük karşılık} sözüne temas eder; evlilikte kadına borçlanan karşılık ile ahiretteki büyük karşılık ayrı alanlarda kalsa da ikisi de karşılık ve sorumluluk dilinde duyulur. {ar:عَمِلُوا, tr:amilû, gloss:bilerek yaptılar} eylem alanını, {ar:وَعَدَ, tr:veade, gloss:vaat etti} beklenen olumlu dönüşü açar. Böylece uyarı, izinlerin arkasına iliştirilmiş soyut bir tehdidin ötesinde, yapılan işin karşılık veya kayıp bakımından değer kazandığı bir hesaba dönüşür.
+
+Bu hesapta patolojik şişme imgesinin katkısı, büyüklük görüntüsü ile gerçek verim arasındaki ayrımı görünür kılmasıdır. {ar:حَبِطَ, tr:habita, gloss:boşa düşüp şişerek hastalanmak} yüzeyinin özel maddî görüntüsünde hayvanın kendisine dokunan otu fazla yiyip karnının şişmesiyle hastalanması duyulur. Kötü olanın çokluğu ile iyi olanın eşit olmayacağını belirginleştiren 5:100, bu patolojik şişmeyi bağımsız bir temasla keskinleştirir. Görünüşte büyüyen bir emek böylece kalıcı ürün vermeyen bir şişkinlik gibi hissedilebilir; okuyucu eylemin yalnızca gerçekleşip gerçekleşmediğini değil, besleyici ve değer taşıyan bir sonuç üretip üretmediğini de sınar. {ar:طَعَام, tr:taâm, gloss:yenilen besin} ile {ar:حَبِطَ, tr:habita, gloss:şişip verimini yitirmek} karşılaşması, çok veya zararlı alımın beslemek yerine karnı şişirmesini görünür kılar. {ar:عَمَلُهُ, tr:ameluhu, gloss:bilerek yapılan işi} ile birleştiğinde bu görüntü, işin nicelikçe kabarıp gerçek verimden yoksun kalmasına taşınır. Bu analojik hayvanî görüntü, bu bağlantıda işin boşa çıkması hükmünün içindeki verim kaybını maddîleştirir.
+
+İşin yönü, Fatiha'nın {ar:الصِّرَاطَ الْمُسْتَقِيم, tr:sırâtü'l-müstakîm, gloss:dosdoğru yol} ifadesiyle bir başka açı kazanır. {ar:عَمَل, tr:amel, gloss:iş ve eylem} olağan eylem anlamını korurken işlek yol kullanımıyla yürünmüş ve işler kılınmış bir güzergâh gibi de duyulur; yapılan işin tek bir hareket değil, doğru yönde sürdürülen bir hareket olduğu hayal edilebilir. {ar:الْخَاسِرِينَ, tr:el-hâsirîn, gloss:kaybedenler} ticari eksilme anlamını korurken dosdoğru yönden sapıp iyiliklerini yitirerek yıkıma düşme kullanımına temas eder. Bu iki yön Fatiha'nın dosdoğru yol ile ondan ayrılma karşıtlığından gelir (1:6, 1:7). Bu bağlantı, 5:5'in iman ve amel uyarısını kelimesi kelimesine bir yol cümlesine çevirmeden, kaybın yönünü ve eylemin işlerlik kazanma şartını belirginleştiren sınırlı bir imge ekler.
+
+Bu yön duygusu, ayetin kendi fiilî kapanışına geri döner: {ar:عَمَلُهُ, tr:ameluhu, gloss:onun ameli} iman reddiyle verimini yitirir; {ar:فِي, tr:fî, gloss:içinde} ile {ar:الْآخِرَةِ, tr:el-âhire, gloss:ahiret} alanına yerleşen kişi, {ar:الْخَاسِرِينَ, tr:el-hâsirîn, gloss:kaybedenler} sınıfında anılır. Açılmış alanın son ölçüsü, onu taşıyan eylemin yönü ve o eylemin değerini nerede kaybettiğidir.
+
+</editorial_prose>

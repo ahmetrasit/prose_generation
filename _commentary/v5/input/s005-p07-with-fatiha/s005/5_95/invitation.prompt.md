@@ -1,0 +1,189 @@
+# V5 reading invitation — 5:95
+
+You are a fresh reading-invitation writer. Read the complete editorial prose
+before writing. It is your sole semantic source.
+
+Write two to four paragraphs of fluent, contemporary Turkish that reveal a
+surprising reading by following one or two main channels of resonance in the
+ayah. A channel is a connected background of meanings, images, actions, or
+relations through which the ayah can be heard and understood differently.
+Several editorial findings may together develop one channel. Summarize that
+connected movement and its consequence for the ayah's main meaning, rather
+than compressing findings individually. Give the reading's substance now;
+the invitation comes from understanding it, not from a promise of hidden depth.
+
+Before drafting, read the entire editorial prose and silently select the one
+or two channels with the strongest interpretive consequence and enough
+grounding to explain clearly. Favor channels that expand or shift what the
+ayah says, the relation it establishes, or what is at stake in its action or
+image. One fully developed channel is sufficient; add a second only when it
+offers a distinct consequential reading that can be explained within the
+invitation. No finding, channel, or major shift has an individual coverage
+claim. Unselected material may remain entirely in the full commentary.
+
+A channel may develop through grammar, sound, dialogue, a material process,
+time, imagery, or a conceptual relation. Resonance is not limited to acoustic
+effects, and an unusual image alone does not establish a channel. Use only
+connections the editorial prose actually develops. If it supplies no such
+channel, explain its strongest grounded reading without inventing connections
+or surprise.
+
+Begin inside the ayah's own words, images, actions, or relations and reveal a
+selected distinctive reading in the first paragraph. Keep the plain meaning
+reachable with only the orientation needed to understand the change. Do not
+spend an opening paragraph on routine explanation or front-load context about
+the surah, the ayah's position, or the commentary project.
+
+For each selected channel, begin with the expression that opens it, unfold the
+connected background, and show how the ayah reads or sounds against that
+background. Let a detail lead into the next through an intelligible relation
+or process, so the reader experiences the emerging reading. This is a movement
+of thought, not a mandatory sentence pattern or one paragraph per finding.
+Let the reader identify the expression being interpreted,
+where any nonordinary detail comes from, and what that detail changes in the
+reading. Briefly identify the word-family use, restricted form, collocation, or
+context that supplies an essential added detail, and preserve the concrete
+operation that makes the image work. Keep the ordinary reading and necessary
+qualification clear within this explanation; do not repeat them as a fixed
+formula. Preserve the particular object, process, or relation that makes this
+reading distinctive, and state its interpretive consequence for the ayah as a
+whole. Make intelligible what the familiar reading leaves less visible and
+what the expanded or shifted reading now lets the reader understand. Preserve
+the editorial's force: an exploratory possibility remains possible, while a
+developed shift must not be softened into a decorative association or a
+reassurance that everything means the same thing. A concrete
+account of how something is carried, transformed, lost, or restored must not
+shrink to a general statement about care, guidance, dependence, or goodness.
+Keep the details needed to make the selected channel work; omit side findings
+and shorten routine setup. If a channel cannot be explained faithfully from
+the editorial prose, choose another grounded channel or reading.
+
+When a non-focus ayah supplies a contribution used in the invitation, keep its
+reference from the editorial prose beside that contribution.
+
+Do not turn the invitation into a miniature inventory of the commentary's
+conclusions, or flatten distinct channels into a broad theme to include more
+material. Do not repair, extend, or supplement the editorial prose from memory
+or outside knowledge.
+
+Omit technical apparatus. Retain any qualification, source distinction, live
+alternative, or boundary whose absence would change the force or meaning of a
+chosen reading. Express it naturally beside the image or relation it qualifies.
+Favor positive explanations of the relation between layers: what remains in
+the foreground and what the resonance makes audible in the background. State
+how that background reinforces, expands, or shifts the understanding of the
+main meaning, with the source and degree of certainty clear. Reserve explicit
+exclusions for concrete ambiguities or live counter-evidence that need them.
+Repeated "this is not X" endings make a reading sound withdrawn; express the
+substantive qualification through what the reading does contribute wherever
+possible. Use varied, natural language rather than a repeated "second layer"
+formula, and preserve the force of expansions and shifts.
+Do not name branches, candidates, findings, scopes, evidence categories,
+ledgers, or workflow stages, or label the prose as numbered channels. Do not
+list findings serially.
+
+Use the established `{ar:..., tr:..., gloss:...}` syntax, consistent
+Turkish-readable transliteration, and short ordinary glosses. Keep Arabic
+anchors beside the explanations they ground. Within a paragraph, continue with
+the Turkish meaning where clear; provide the necessary local tag when a later
+paragraph interprets the carrier anew. Do not place Arabic script outside a
+valid tag.
+
+Build transitions within a channel through its shared object, action, or
+relation. If two channels are selected, they may occupy separate paragraphs;
+do not invent a link between them. Do not praise the commentary's quality,
+promise what the reader will find, manufacture suspense, recap at the end, or
+add a call to action. End on an image, relation, action, or tension already
+established by the selected reading.
+
+Before finishing, compare the invitation with the entire editorial prose:
+does the chosen channel reveal a consequential reading, or could the text have
+been written from the ordinary translation and a modest explanation alone?
+When the editorial supports a surprising channel, the latter fails this task.
+Can the reader follow the opening expression into a connected background and
+understand how that background expands or shifts the ayah's main meaning?
+Check the selected connections against their editorial explanation: can the
+reader tell where the nonordinary details come from, with the necessary
+qualifications intact? Repair generic explanation, isolated curiosities, or a
+compressed findings list by developing the selected channel. Do not add
+omitted channels merely for coverage. Do not output this check.
+
+Write only the invitation text to:
+
+`_commentary/v5/editorial/s005-p07-with-fatiha/s005/5_95/5_95.invitation.tr.md`
+
+Do not add a heading, wrapper label, index, ledger, evidence file, or any other
+artifact. Do not modify the editorial prose.
+
+After writing the invitation, run:
+
+```bash
+python3 _commentary/v5/validate_prose.py _commentary/v5/editorial/s005-p07-with-fatiha/s005/5_95/5_95.invitation.tr.md
+```
+
+If validation fails, repair only the reported mechanical file-contract issues
+and rerun it, for at most two repair cycles. Report the final validator result
+in your response.
+
+<editorial_prose>
+## Korunan Sınır
+
+5:95'in açık yüzünde, ihramlı müminlere avı öldürmeme buyruğu vardır. Buyruğun başındaki {ar:يَا, tr:yā, gloss:ey} ile {ar:أَيُّهَا, tr:ayyuhā, gloss:dikkat çeken seslenme}, sözü uzaktaki bir öğüt olmaktan çıkarıp işitilmesi gereken kamusal bir çağrıya yükseltir. Ardından gelen {ar:ٱلَّذِينَ, tr:alladhīna, gloss:inananlar} ve {ar:ءَامَنُوا۟, tr:āmanū, gloss:iman edenler}, sorumluluğun belirli bir iman topluluğuna verildiğini gösterir. {ar:ءَامَنُوا۟, tr:āmanū, gloss:iman edenler} fiilinin farklı okunuş ihtimalleri açık kalsa da bu topluluk çerçevesi hukuki sorumluluğun muhatabını belirler. {ar:لَا, tr:lā, gloss:yasaklama} doğrudan {ar:تَقْتُلُوا۟, tr:taqtulū, gloss:öldürmeyin} fiiline yaslanır; eylemi gerçekleşmeden durduran sınır böylece çizilir. {ar:ٱلصَّيْدَ, tr:aṣ-ṣayda, gloss:av} soyut bir zararı değil, peşine düşülüp ele geçirilebilen somut canlıyı gösterir. Onu izleyen {ar:وَ, tr:wa, gloss:durum bağlayan bağlaç}, yasağı {ar:أَنتُمْ, tr:antum, gloss:siz} diye anılan muhatapların {ar:حُرُمٌ, tr:ḥurum, gloss:ihramlı kısıtlı hâl} içindeki durumuna bağlar. Bu temas av üzerindeki ele geçirme kudretinin geçici olarak askıya alınmasını ve korunması gereken hakkın gözetilmesini görünür kılar. Bağlantı av eylemiyle ve ihramın geçici sınırı içindedir.
+
+Bu geçici geri çekilmenin nasıl sınandığını (5:94)'teki sahne somutlaştırır: av ele ulaşacak kadar yakındır, el ve mızrak erişimi mümkün kılar, insan gözü bulunmasa bile önceden duyulan bir korku içsel bir fren kurar. Buradaki geri duruş, elde etme gücü varken mümkün olanı kendi seçimiyle bırakmaya dayanan bir öz-denetimdir. Bu sınamanın kırılma noktası 5:95'te tamamlanmış öldürme olarak belirir; {ar:مُّتَعَمِّدًا, tr:mutaʿammidan, gloss:kasten} sözü eylemi dalgınlıktan ayırıp bilinçli seçime bağlar. Bu yerel temas, ayetin hukuki karşılığını erişim altında işleyen öz-denetimin bozulmasına verilen cevap olarak duyurur.
+
+Bu seçimin gerçekleşmiş hâline geçişi yasağın hemen arkasındaki {ar:وَ, tr:wa, gloss:bağlayan bağlaç} sağlar. İlk vakayı açan {ar:مَن, tr:man, gloss:her kim}, fiili tek bir kişinin sorumluluğuna bağlar. {ar:قَتَلَهُۥ, tr:qatalahu, gloss:onu öldürdü} tamamlanmış eylemi ve nesne zamiriyle daha önce adı geçen avı yeniden önümüze getirir; {ar:مِنكُم, tr:minkum, gloss:sizden} failin hitap edilen topluluğun içinden olduğunu belirtir. {ar:مُّتَعَمِّدًا, tr:mutaʿammidan, gloss:kasten} niyet boyutunu bu gerçekleşmiş eylemin üzerine yerleştirir. Ardından gelen {ar:فَ, tr:fa, gloss:hemen ardından}, karşılığın bu bilinçli ihlalin doğrudan sonucu olduğunu gösterir. Yasaktaki {ar:تَقْتُلُوا۟, tr:taqtulū, gloss:öldürmeyin} ile gerçekleşmiş {ar:قَتَلَهُۥ, tr:qatalahu, gloss:onu öldürdü} ve ölçüye taşınan {ar:قَتَلَ, tr:qatala, gloss:öldürdü} aynı öldürme kelime ailesini farklı aşamalarda görünür kılar: durdurulacak fiil, meydana gelmiş kayıp ve o kayba cevap veren düzen.
+
+Bu düzenin başına yerleşen {ar:جَزَآءٌۭ, tr:jazāʾun, gloss:karşılık} sözü kaybın yerini tutacak telafiyi açar ve karşılığı ikinci bir öldürmenin yönünden onarımın yönüne taşır. İ‘rab ve bağlanma ihtimalleri açık kalsa da {ar:مِّثْلُ, tr:mithlu, gloss:benzer ve denk olan}, karşılığın öldürülen ava göre kurulmuş benzer ve denk bir eşdeğer taşıdığını belirtir. Ardından gelen {ar:مَا, tr:mā, gloss:şey ki} ölçüyü fiilen öldürülen şeye bağlar; {ar:مِنَ, tr:mina, gloss:-den} ise seçimin {ar:ٱلنَّعَمِ, tr:an-naʿami, gloss:evcil hayvanlar} sınıfına uzandığını gösterir. Vahşi avın karşısına yerleştirilen evcil ve kurbanlık hayvan, kaybı belirlenmiş bir canlı karşılığıyla onarılabilir hale getirir; telafi başka bir canlıyı ortadan kaldırma eylemine değil, belirlenmiş karşılıkla onarıma bağlanır. {ar:جَزَآءٌۭ, tr:jazāʾun, gloss:telafi} ile {ar:مِّثْلُ, tr:mithlu, gloss:denklik} arasındaki ilişki, ihlal ile karşılık arasında gerçek kayba uygun bir denklik kurar; bu uygunluk mekanik bir bire bir sayıma bağlanmaz. Sayı ve kategoriye dair açık kalan ayrıntılar bu sınırlı anlamın içinde kalır.
+
+Bu uygunluk failin kendi tahminine bırakılmaz. {ar:يَحْكُمُ, tr:yaḥkumu, gloss:hüküm verir} fiili, eşdeğerin bağlayıcı bir değerlendirmeyle belirlenmesini sağlar; {ar:بِهِۦ, tr:bihi, gloss:onunla} zamiri daha önce açılan karşılık düzenine döner. {ar:ذَوَا, tr:dhawā, gloss:iki kişi} ikili biçimi kararı iki değerlendiriciye verir; {ar:عَدْلٍ, tr:ʿadlin, gloss:adalet} onların hakkı gözeten ve ölçüyü güvenilir biçimde tartan kişiler olmasını ister. İkinci {ar:مِّنكُمْ, tr:minkum, gloss:sizden} bu değerlendirmeyi aynı topluluk içindeki kamusal sorumluluğa bağlar. Kararla seçilen {ar:هَدْيًا, tr:hadyan, gloss:kutsal sunu}, {ar:بَالِغَ, tr:bāligha, gloss:ulaşan} niteliğiyle yola çıkarılmış ve hedefe varması gereken bir sunuyu anlatır. Hedef {ar:ٱلْكَعْبَةِ, tr:al-kaʿbati, gloss:Kâbe} olduğunda hesaplanmış değer ortak bir kutsal merkeze yönelir; özel bir kayıp, başkalarının tanıyabileceği ritüel bir aktarımla topluluk önünde onarıma taşınır.
+
+Bu varıştan sonra gelen ilk {ar:أَوْ, tr:aw, gloss:ya da} telafiyi iki başka taşıyıcıya açar. {ar:كَفَّارَةٌ, tr:kaffāratun, gloss:telafi} ihlalin yükünü gideren işlemi adlandırır; {ar:طَعَامُ, tr:ṭaʿāmu, gloss:yiyecek} bu işlemi yoksulları besleyen somut bir paylaşıma çevirir. {ar:مَسَٰكِينَ, tr:masākīna, gloss:yoksullar}, karşılığın failin elinde tutulan bir maldan geçim imkânı daralmış kişilere ulaşan bir paya dönüşmesini sağlar. İkinci {ar:أَوْ, tr:aw, gloss:ya da} bu toplumsal taşıyıcıdan {ar:صِيَامًا, tr:ṣiyāman, gloss:oruç} seçeneğine geçer. {ar:عَدْلُ, tr:ʿadlu, gloss:denk ölçü} orucun az önce kurulmuş denklik hesabıyla ölçüldüğünü bildirir; {ar:ذَٰلِكَ, tr:dhālika, gloss:işte bu} işaret zamiri bu geri dönüşü açıkça kurar. Böylece onarım kutsal merkeze gönderilen sunudan yoksulun sofrasına, oradan failin kendi bedeninde yaşanan bırakmaya uzanır. Taşıyıcılar değişirken ölçülü karşılık fikri korunur; sunu, yoksulu doyurma ve oruç aynı maddi biçimi paylaşmaz ve aralarında sabit bir sayısal dönüşüm kurulmaz.
+
+{ar:لِّيَذُوقَ, tr:liyadhūqa, gloss:tadıp yaşasın} bu düzenin fail tarafından yaşanmasını ve karşılığın onun üzerinde hissedilmesini amaçlar. Onun {ar:وَبَالَ, tr:wabāla, gloss:ağır sonuç} ile teması, hukuki düzenle bildirilen ihlalin karşılığını kişinin üzerinde hissedilen yıpratıcı bir sonuca dönüştürür. Bu bedensel temas hukuki seçeneklerin işleyişine hissedilirlik kazandırır; kurban, doyurma ve oruç yolları kendi hukuki yerlerinde kalır. Buradaki bedensel duyum hukuki sonucun hissedilirliğini anlatır, tıbbi bir teşhis kurmaz. Başka bir kefaret düzeninde, bağlayıcı sözün bozulmasına karşılık (5:89) mal, başkasını besleme, özgürlüğü iade etme ve oruç farklı taşıyıcılar olarak yan yana gelir. Bu karşılaştırma, 5:95'teki telafinin ortam değişse bile yük giderme işlevini koruduğunu gösterir: maddi değer sosyal refaha, serbest bırakmaya ya da bedenin disiplinine yöneltilebilir. (5:89)'un miktar ve kapasite hükümleri bu âyete taşınmadan, onarımın farklı taşıyıcılarda işleyebilmesi görünür olur.
+
+## Ölçünün Toplumsal Şekli
+
+5:95'teki ölçülmüş karşılık, başka kullanımlarla buluşarak toplumsal biçim kazanır. {ar:يَحْكُمُ, tr:yaḥkumu, gloss:hüküm verir} fiili (5:8)'de düşmanlık şartı altındaki adalet hükmüyle buluşur ve buradaki değerlendirmeye bağlayıcı bir nitelik kazandırır. {ar:عَدْلٍ, tr:ʿadlin, gloss:adalet ve denklik} (5:45)'te zarara karşı ölçülü karşılık ile bağışlamanın kefarete dönüşmesi arasında görünür olur; burada hakkı gözeten ölçüyü onarıma bağlar. {ar:مُّتَعَمِّدًا, tr:mutaʿammidan, gloss:bilerek yapılan} (2:197)'de ihramlı av sorumluluğunun kurban, doyurma veya oruçla karşılanmasıyla kesişir ve telafinin seçilmiş ihlalin niteliğine bağlandığını aydınlatır. {ar:مِّثْلُ, tr:mithlu, gloss:benzerlik ve denklik} (2:196)'da yerine ulaştırılan kurbanın yanı sıra düzenlenmiş oruç, sadaka ve kurban seçeneklerine dokunur; burada telafi araçlarının farklı taşıyıcılar üzerinden kurulabildiğini gösterir. Bu temaslar, 5:95'in kendi av yasağı ve hüküm düzeni içinde, farklı telafi araçları arasında sınırlı bir hukuki uygunluğu görünür kılar.
+
+Denklik, karşılığın fiile ve nesneye uyan niteliğini tartan bir ölçüdür; çokluk tek başına uygunluk ölçüsü sayılmaz. {ar:مِثْلُ, tr:mithlu, gloss:benzerlik ve denklik} ile {ar:عَدْلٍ, tr:ʿadlin, gloss:hakkı gözeten ölçü} arasındaki ilişki, denklik iddiasını bu nitelik üzerinden kurar. (5:100)'de kötünün çokluğu iyinin değerine eşitlenmez; bu karşıtlık bolluğun uygun olmayan bir şeyi uygun karşılığa çeviremeyeceğini ve iyi niteliğin karşılığın değer bakımından yerini bulmasını gerektirdiğini gösterir. Bu yüzden {ar:يَحْكُمُ, tr:yaḥkumu, gloss:bağlayıcı kararla belirler} fiiliyle anılan iki adil değerlendirici sayı yanında denklik iddiasının niteliğini de tartar. (5:100)'ün iyi ile kötü arasındaki ahlaki ayrımı kendi bağlamında koruyarak, 5:95'teki eşdeğerlik için nitelik duyarlı bir ölçü açar.
+
+İki değerlendiriciyle kurulan karar, onarımı başkalarının görebileceği ve sorgulayabileceği bir biçime taşır. {ar:ذَوَا عَدْل, tr:dhawā ʿadl, gloss:adalet sahibi iki kişi} ifadesi, tanıklık içinde yeniden anıldığı (5:106)'da kamusal güvenilirlik boyutunu açar. {ar:هَدْيًا, tr:hadyan, gloss:kutsal hedefe gönderilen sunu} ve {ar:الكَعْبَة, tr:al-kaʿba, gloss:belirli kutsal yapı} birlikte, bu değerlendirmeden çıkan değerin ortak bir merkeze yöneldiğini gösterir. Kâbe ve ona bağlı işaretlerin insanlar için destek ve geçim düzeni olarak anıldığı (5:97), sununun sessiz bir özel bedelden insanları ayakta tutan ortak bir merkeze geçişini aydınlatır. (5:106)'daki hazır tanıklar ve iki kişinin eşleştirilmesi güvenceyi görünür kılar; (5:107)'de gizli kusurun ortaya çıkarılması bu güvenceyi sonradan denetlenebilir, (5:108)'de yeminlerin geri çevrilebilmesi ilk beyanı düzeltilebilir kılar. Bu bağlantı 5:95'teki hükmün görünür, denetlenebilir ve topluluk içinde düzeltilebilir tarafını belirginleştirir; (5:106)'nın ayrı tanıklık kuralları bu ayetin hukuk düzenine aktarılmaz.
+
+Kuralın alanı, geçici ihram durumu ile kara avına ilişkin yetkili düzenleme içinde belirginleşir. {ar:حُرُمٌ, tr:ḥurum, gloss:özel kısıtlı ibadet hâli} ziyaret ibadetinin geçici hâlini bildirir; bu, kalıcı bir hayvan niteliği değil, ibadet süresince taşınan kısıtlı durumdur. İnsanların kendilerine helal olanı kendiliklerinden yasaklamamaları (5:87)'de hatırlatılır; bu, 5:95'teki yasağın insanın çoğalttığı bir tabu yerine adı konmuş bir hüküm olduğunu aydınlatır. Deniz avının serbest bırakılması ve kara alanının ayrı tutulması (5:96), {ar:ٱلصَّيْد, tr:aṣ-ṣayd, gloss:av} kelimesinin burada bütün hayvanlara değil kara avına yöneldiğini gösterir. {ar:مَا دُمْتُمْ حُرُمًا, tr:mā dumtum ḥuruman, gloss:ihramlı kaldığınız sürece} ifadesi sürenin geçici olduğunu açıklar. İnsanların salıverilmiş hayvanlara kendi anlamını yükleyerek uydurma sınıflar oluşturması (5:103)'te reddedilir. Bu bağlantı hayvanın özünde kirli veya sürekli kutsal oluşuna değil; ihramda kara avına ve yetkili düzenlemenin çizdiği geçici sınıra dayanır.
+
+## Hareketin İçeride Durması
+
+Bu açık hukuk düzeni içinde {ar:صِيَام, tr:ṣiyām, gloss:oruç} olağan anlamıyla yeme içmeyi isteyerek bırakmadır. Daha önce tanınan {ar:ٱلصَّيْد, tr:aṣ-ṣayd, gloss:kaçanı arayıp ele geçirme} ile yan yana geldiğinde iki hareket birbirini görünür kılar: av dışarıya doğru uzanan, el ve mızrakla erişen bir arayıştır; oruç ise aynı iradeyi bedenin içinde durdurulmuş bir sükûnete çevirir. Erişim ve araçların anıldığı (5:94) ile yolculuk ve hareket çevresinin açıldığı (5:96) bu karşıtlığı keskinleştirir. {ar:يَذُوقَ, tr:yadhūqa, gloss:bizzat yaşayarak tanımak} bu durmayı failin bedeninde hissedilen bir temas haline getirir. Bu bağlantı orucun hukuki ölçüsünü kendi yerinde tutar ve avın dışa yönelen hareketinin beden içinde durdurulmasına dair yerel bir yankı kurar.
+
+Tekrarlanan {ar:قَتَلَ, tr:qatala, gloss:öldürdü} fiilleri öncelikle hayvanın hayatını almayı bildirir. Bununla birlikte, odak âyetten hemen önceki içki yasağının bulunduğu (5:90) bağlam, {ar:الخمر, tr:al-khamr, gloss:sertliği bulunan içki} üzerinden öldürme alanına biçimce uzak, ayrı bir kullanım gölgesi açar. {ar:قَتْل, tr:qatl, gloss:sertliği gidererek etkisizleştirme} için duyulan bu görüntü, içkiye su katıp sertliğini giderme işlemi üzerinden, ele geçirilmesi güç avın direncinin de denetlenebilir bir mülke çevrildiğini duyurur. Böylece öldürme asli hayat alma anlamını korurken güç kullanımı ve tahakkümün bir görüntüsünü daha taşır. Bu temas, bu görüntüyü avın canlı ve direnen nesne üzerindeki ele geçirme yönüyle sınırlar; 5:95'teki ölçü ve avın sözlük anlamı kendi yerinde kalır.
+
+Bu direncin failde bıraktığı sonuç, {ar:لِّيَذُوقَ, tr:liyadhūqa, gloss:bizzat tadıp yaşasın} ile {ar:وَبَالَ, tr:wabāla, gloss:ağır ve zararlı sonuç} arasındaki temasta deneyime dönüşür. Yasağın sonucunun bizzat yaşandığı sahne (7:22), tatmayı ortaya çıkan sonucu kişinin kendisinin sınaması olarak belirginleştirir. Kişinin kendi işinin ağır sonucuyla karşılaştığı sahne (59:15) ise {ar:وَبَالَ, tr:wabāla, gloss:kişinin işinden doğan ağır sonuç} sözünü failin üzerine basan yıpratıcı bir yük haline getirir. Bu iki bağımsız temas, 5:95'teki tatma ve vebali aynı deneyimsel sonuç çizgisinde buluşturur; bu çizgi başka kök kullanımlarını kendiliğinden ceza anlamına taşımaz. Hukuki seçenekler kurban, yoksulu doyurma ve oruç olarak kendi yerinde kalır.
+
+## Yönelen Sunu ve Hesap Ufku
+
+Fâtiha'nın hesap gününün sahibini anan ifadesi (1:4), 5:95'in bağışlama ile yenilenen karşılık arasındaki kapanışına geleceğe dönük bir hesap ufku ekler. {ar:مَالِكِ يَوْمِ الدِّينِ, tr:māliki yawmi ad-dīn, gloss:hesap gününün sahibi} bu ufku taşır; {ar:عَفَا, tr:ʿafā, gloss:bağışladı} geçmişte olanı bırakma yönünü, {ar:يَنتَقِمُ, tr:yantaqimu, gloss:cezalandırarak karşılık verir} ise geri dönüşten sonra yönelen cevabı taşır. Gün ve hesap anlamı bu iki zamanı nihai değerlendirme ufkunda yan yana getirir; bu temas 5:95'in yerel hukuk mantığına geleceğe açık bir sorumluluk ufku ekler, âyetin bütününü tek başına eskatolojik bir açıklamaya taşımaz.
+
+Fâtiha'nın dosdoğru yola iletilme talebi (1:6), 5:95'te Kâbe'ye ulaştırılan {ar:هَدْيًا, tr:hadyan, gloss:kutsal yere yöneltilen sunu} için yönelişin ikinci bir katmanını açar. Hidayet ve dosdoğru yolun olağan anlamı yolu göstermek ve izlenecek doğrultuyu bildirmektir; adak da Kâbe'ye varan ritüel hareketinin yanında rehberli bir yöneliş gibi duyulur. Fâtiha'daki nimet verilenlerin yolu ifadesi (1:7), hedefe giden doğrultunun seçilmiş bir tutum olduğunu hatırlatır: {ar:صِرَاطَ الَّذِينَ أَنْعَمْتَ عَلَيْهِمْ, tr:ṣirāṭ al-ladhīna anʿamta ʿalayhim, gloss:nimet verilenlerin yolu}. Bu temas, {ar:هَدْيًا, tr:hadyan, gloss:kutsal sunu} kelimesinin hukuki adak işlevini koruyarak ona ikinci bir yön duygusu kazandırır. Bağlantı, yeni bir güzergâh kurmadan mevcut Kâbe yönelişini rehberlik imgesiyle birlikte duyurur.
+
+Fâtiha'daki nimet verilenleri anan ifade (1:7), odak âyetteki {ar:ٱلنَّعَمِ, tr:an-naʿami, gloss:evcil hayvanlar} kelimesine dar bir kök temasıyla dokunur. 5:95'in somut anlamında bu kelime, öldürülen ava denk karşılık olarak sunulan evcil hayvan sınıfıdır. Nimet bağlantısı aynı malzemeyi hem sahip olunan bir mülk hem de alınmış bir iyiliğin onarıma geri yönlendirildiği bir değer olarak duyurur. Bu keşifsel katman bütün hayvanları soyut bir nimete yaymaz; iki adil kişinin denklik hükmü ve sununun hukuki işlevi yerinde kalır.
+
+Başındaki besmele, yani {ar:الرَّحْمَٰنِ الرَّحِيمِ, tr:ar-Raḥmān ar-Raḥīm, gloss:merhameti kuşatan ve esirgeyen} (5:0), âyetin geçmişte kalanı bağışlayan kapanışına koruyucu bir merhamet çerçevesi verir. Bu çerçeve {ar:عَفَا, tr:ʿafā, gloss:bağışlayıp silmek} sözünü prosedürel bir iptalden çok, geçmiş yükü merhametle bırakma olarak duyurur; hemen ardından gelen dönüş ve karşılık uyarısı bu bırakmanın sınırını taşır. Besmele bu ilişkisel tonu belirginleştirir; bu bağlantı 5:95'in kefaretine veya hukuk kuralına yeni bir unsur eklemez.
+
+## Geçmiş ile Dönüş Arasında
+
+Karşılığın ardından gelen {ar:وَبَالَ, tr:wabāla, gloss:ağır sonuç}, {ar:أَمْرِهِۦ, tr:amrihi, gloss:işi ve sorumluluğu} ile birleşerek yükün failin kendi işi üzerinde kaldığını gösterir. Sonra {ar:عَفَا, tr:ʿafā, gloss:bağışlayıp silmek} fiilinin öznesi {ar:ٱللَّهُ, tr:Allāhu, gloss:Allah} olur; bağışlamayı insan hakemlerin kararından ayıran ilahi özne burada görünür. {ar:عَمَّا, tr:ʿammā, gloss:-den ve şeyden} bağışlamanın kapsamını, {ar:سَلَفَ, tr:salafa, gloss:geçmişte kalan} ise zaman bakımından geride bırakılan fiili belirler. Bu iki kelimeyle birlikte bağışlama önceki vakayı geçmişte bırakılan bir yük olarak kapatır ve gerçek bir sıfırlama sağlar. Onları izleyen {ar:وَ, tr:wa, gloss:bağlayan bağlaç}, merhametle sonraki dönüş uyarısını aynı zaman düzeninin iki tarafı olarak yan yana getirir.
+
+İkinci şart cümlesindeki {ar:مَنْ, tr:man, gloss:kim}, ilk vakayı açan {ar:مَن, tr:man, gloss:her kim} ile aynı genel biçim alanını taşırken bu kez {ar:عَادَ, tr:ʿāda, gloss:geri dönüp yeniden yaptı} fiiliyle yeni bir sorumluluk dosyası açar. Bağışlanmış sınırın ardından aynı yasağa yönelen kişi, {ar:فَيَنتَقِمُ, tr:fa-yantaqimu, gloss:ardından cezalandırarak karşılık verir} cümlesiyle doğrudan ilahi karşılığa bağlanır. İlk vakada iki insanın denklik hükmüyle açılan ayrıntılı telafi düzeni, burada eylemin yenilenmesiyle ilahi karşılığın icra edildiği aşamaya taşınır. {ar:مِنْهُ, tr:minhu, gloss:ondan} zamiri karşılığın geri dönen failin kendisine yöneldiğini sabitler. Aynı {ar:ٱللَّهُ, tr:Allāhu, gloss:Allah} adı önce bağışlayan, şimdi karşılık veren merciyi bir arada tutar.
+
+Kapanışta {ar:وَ, tr:wa, gloss:sonucu bağlayan bağlaç} vakayı ilahi sıfatların açıklamasına taşır. {ar:عَزِيزٌ, tr:ʿazīzun, gloss:güçlü ve yenilmez} karşılık verme kapasitesini taşıyan korunmuş otoriteyi gösterir. {ar:ذُو, tr:dhū, gloss:sahibi olan} tekil biçimi, önceki {ar:ذَوَا, tr:dhawā, gloss:iki kişi} ikilisinden ayrılarak nihai sahipliği {ar:ٱللَّهُ, tr:Allāhu, gloss:Allah}'a verir. {ar:ٱنتِقَامٍ, tr:intiqāmin, gloss:cezalandırıcı karşılık} isim halinde yer alırken {ar:يَنتَقِمُ, tr:yantaqimu, gloss:cezalandırarak karşılık verir} fiiliyle birleşir ve dönüş sonrası yaptırımı kalıcı bir ilahi nitelik olarak duyurur.
+
+Bu geçmiş-dönüş eşiği dört sahnede farklı bir yüz kazanır: geçip giden olana bağışlama ile dönüş sınırını (8:38) gösterir; geçmiş olanı bırakmayı geri dönüşten (2:275) ayırır; kötülükten sonra bağışlanma isteğini ısrar etmeyişiyle (3:135) birlikte verir; ilahi karşılığın sonuç olarak gelişini (43:25) öne çıkarır. Bu katkılar 5:95'teki geçmişi bırakma ile yenilenen eylem arasındaki ayrımı farklı yönlerden aydınlatır. {ar:سَلَفَ, tr:salafa, gloss:önce gelip geçmişte kalan} burada zaman bakımından önceki tarafa, {ar:عَفَا, tr:ʿafā, gloss:iz bırakmadan bağışlamak} bağışlanarak geride bırakılan vakaya, {ar:عَادَ, tr:ʿāda, gloss:yeniden yönelmek} ise tekrara açık yeni eyleme bağlanır. Bu ayrım, bu geçmiş-dönüş bağlantısında önceki vakayı kapatır; bağışlama bütün tarihsel hafızanın silinmesi iddiasını taşımaz. {ar:عَادَ, tr:ʿāda, gloss:yeniden yönelmek} tekrar ilişkisini görünür kılar ve zorunlu bir psikolojik teşhis kurmaz. {ar:يَنتَقِمُ, tr:yantaqimu, gloss:cezalandırarak karşılık vermek} yenilenen ihlale yönelen sonuç olarak duyulur; duygusal bir öç alma iddiası bu bağlantının kapsamına girmez.
+
+## Açıklama Sonrası Hesap
+
+Daha sonraki açıklama sahneleri, bu eşik belirginleştikten sonra karşılığın açıklanmış, görülebilir ve değerlendirilebilir bir sorumluluk içinde nasıl duyulduğunu açar. Yükümlü kılan buyruğun içeriği ile insan tanığının çekilmesinden sonra süren gözetim ve bekleyiş (5:117), {ar:أَمْرِهِۦ, tr:amrihi, gloss:işi ve sorumluluğu} sözünü sıradan bir mesele olmanın yanında yetkili bir buyrukla ilişkilendirir. Yenilenen eylem böylece insanların görüsünü aşan bir hesap verebilirlik içine yerleşir. İstenen nimetin verilmesinden sonra acı azabın geldiği (5:115) sahnesi, {ar:عَادَ, tr:ʿāda, gloss:sonradan yeniden yönelmek} için açıklama ve sınırın ardından gelen yeniden yöneliş tarafını görünür kılar; {ar:يَنتَقِمُ, tr:yantaqimu, gloss:cezalandırarak karşılık verir} ve {ar:ٱنتِقَامٍ, tr:intiqāmin, gloss:cezalandırıcı karşılık} için bu açıklamadan sonra ağırlaşan karşılığı taşır. Bu sıra, 5:95'e yeni bir hukuk kuralı eklemekten çok sonradan aydınlanan sorumluluk eşiğini görünür kılar.
+
+Bağışlama, kudret ve hikmetin birlikte anıldığı (5:118) sahne, 5:95'teki iki yönü aynı anda açık tutar. {ar:عَفَا, tr:ʿafā, gloss:bağışlayıp silmek} geçmişte kalan taraf için gerçek bir salıverme olarak kalır; {ar:عَزِيزٌ, tr:ʿazīzun, gloss:güçlü ve yenilmez} karşılık verme kapasitesini, {ar:يَحْكُمُ, tr:yaḥkumu, gloss:doğruyu ayırarak hükmetmek} ise güç yetkisini hikmetle doğruyu ayıran bir muhakemeye bağlar. Acı azap (5:115) ile hikmet (5:118), {ar:يَنتَقِمُ, tr:yantaqimu, gloss:cezalandırarak karşılık vermek} ve {ar:ٱنتِقَامٍ, tr:intiqāmin, gloss:cezalandırıcı karşılık} taşıyıcılarını birlikte niteler: bu karşılık cezalandırıcı gücünü korur, farklı durumları tek biçimli bir tepkiye sıkıştırmadan hikmetle ölçülen bir yetki içinde işler.
+
+</editorial_prose>

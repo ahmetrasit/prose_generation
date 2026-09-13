@@ -1,0 +1,193 @@
+# V5 reading invitation — 5:15
+
+You are a fresh reading-invitation writer. Read the complete editorial prose
+before writing. It is your sole semantic source.
+
+Write two to four paragraphs of fluent, contemporary Turkish that reveal a
+surprising reading by following one or two main channels of resonance in the
+ayah. A channel is a connected background of meanings, images, actions, or
+relations through which the ayah can be heard and understood differently.
+Several editorial findings may together develop one channel. Summarize that
+connected movement and its consequence for the ayah's main meaning, rather
+than compressing findings individually. Give the reading's substance now;
+the invitation comes from understanding it, not from a promise of hidden depth.
+
+Before drafting, read the entire editorial prose and silently select the one
+or two channels with the strongest interpretive consequence and enough
+grounding to explain clearly. Favor channels that expand or shift what the
+ayah says, the relation it establishes, or what is at stake in its action or
+image. One fully developed channel is sufficient; add a second only when it
+offers a distinct consequential reading that can be explained within the
+invitation. No finding, channel, or major shift has an individual coverage
+claim. Unselected material may remain entirely in the full commentary.
+
+A channel may develop through grammar, sound, dialogue, a material process,
+time, imagery, or a conceptual relation. Resonance is not limited to acoustic
+effects, and an unusual image alone does not establish a channel. Use only
+connections the editorial prose actually develops. If it supplies no such
+channel, explain its strongest grounded reading without inventing connections
+or surprise.
+
+Begin inside the ayah's own words, images, actions, or relations and reveal a
+selected distinctive reading in the first paragraph. Keep the plain meaning
+reachable with only the orientation needed to understand the change. Do not
+spend an opening paragraph on routine explanation or front-load context about
+the surah, the ayah's position, or the commentary project.
+
+For each selected channel, begin with the expression that opens it, unfold the
+connected background, and show how the ayah reads or sounds against that
+background. Let a detail lead into the next through an intelligible relation
+or process, so the reader experiences the emerging reading. This is a movement
+of thought, not a mandatory sentence pattern or one paragraph per finding.
+Let the reader identify the expression being interpreted,
+where any nonordinary detail comes from, and what that detail changes in the
+reading. Briefly identify the word-family use, restricted form, collocation, or
+context that supplies an essential added detail, and preserve the concrete
+operation that makes the image work. Keep the ordinary reading and necessary
+qualification clear within this explanation; do not repeat them as a fixed
+formula. Preserve the particular object, process, or relation that makes this
+reading distinctive, and state its interpretive consequence for the ayah as a
+whole. Make intelligible what the familiar reading leaves less visible and
+what the expanded or shifted reading now lets the reader understand. Preserve
+the editorial's force: an exploratory possibility remains possible, while a
+developed shift must not be softened into a decorative association or a
+reassurance that everything means the same thing. A concrete
+account of how something is carried, transformed, lost, or restored must not
+shrink to a general statement about care, guidance, dependence, or goodness.
+Keep the details needed to make the selected channel work; omit side findings
+and shorten routine setup. If a channel cannot be explained faithfully from
+the editorial prose, choose another grounded channel or reading.
+
+When a non-focus ayah supplies a contribution used in the invitation, keep its
+reference from the editorial prose beside that contribution.
+
+Do not turn the invitation into a miniature inventory of the commentary's
+conclusions, or flatten distinct channels into a broad theme to include more
+material. Do not repair, extend, or supplement the editorial prose from memory
+or outside knowledge.
+
+Omit technical apparatus. Retain any qualification, source distinction, live
+alternative, or boundary whose absence would change the force or meaning of a
+chosen reading. Express it naturally beside the image or relation it qualifies.
+Favor positive explanations of the relation between layers: what remains in
+the foreground and what the resonance makes audible in the background. State
+how that background reinforces, expands, or shifts the understanding of the
+main meaning, with the source and degree of certainty clear. Reserve explicit
+exclusions for concrete ambiguities or live counter-evidence that need them.
+Repeated "this is not X" endings make a reading sound withdrawn; express the
+substantive qualification through what the reading does contribute wherever
+possible. Use varied, natural language rather than a repeated "second layer"
+formula, and preserve the force of expansions and shifts.
+Do not name branches, candidates, findings, scopes, evidence categories,
+ledgers, or workflow stages, or label the prose as numbered channels. Do not
+list findings serially.
+
+Use the established `{ar:..., tr:..., gloss:...}` syntax, consistent
+Turkish-readable transliteration, and short ordinary glosses. Keep Arabic
+anchors beside the explanations they ground. Within a paragraph, continue with
+the Turkish meaning where clear; provide the necessary local tag when a later
+paragraph interprets the carrier anew. Do not place Arabic script outside a
+valid tag.
+
+Build transitions within a channel through its shared object, action, or
+relation. If two channels are selected, they may occupy separate paragraphs;
+do not invent a link between them. Do not praise the commentary's quality,
+promise what the reader will find, manufacture suspense, recap at the end, or
+add a call to action. End on an image, relation, action, or tension already
+established by the selected reading.
+
+Before finishing, compare the invitation with the entire editorial prose:
+does the chosen channel reveal a consequential reading, or could the text have
+been written from the ordinary translation and a modest explanation alone?
+When the editorial supports a surprising channel, the latter fails this task.
+Can the reader follow the opening expression into a connected background and
+understand how that background expands or shifts the ayah's main meaning?
+Check the selected connections against their editorial explanation: can the
+reader tell where the nonordinary details come from, with the necessary
+qualifications intact? Repair generic explanation, isolated curiosities, or a
+compressed findings list by developing the selected channel. Do not add
+omitted channels merely for coverage. Do not output this check.
+
+Write only the invitation text to:
+
+`_commentary/v5/editorial/s005-p02-with-fatiha/s005/5_15/5_15.invitation.tr.md`
+
+Do not add a heading, wrapper label, index, ledger, evidence file, or any other
+artifact. Do not modify the editorial prose.
+
+After writing the invitation, run:
+
+```bash
+python3 _commentary/v5/validate_prose.py _commentary/v5/editorial/s005-p02-with-fatiha/s005/5_15/5_15.invitation.tr.md
+```
+
+If validation fails, repair only the reported mechanical file-contract issues
+and rerun it, for at most two repair cycles. Report the final validator result
+in your response.
+
+<editorial_prose>
+## Hitap ve Varış
+
+Bu ayet önce bir topluluğa uzaktan bakmaz; o topluluğun karşısında konuşur: “Ey Kitap Ehli!” {ar:يَٰٓ, tr:yā, gloss:ey} sözü, ardından gelen geliş, açıklama ve gizleme fiillerini bir anlatıdan önce kurulmuş doğrudan bir hitaba dönüştürür. {ar:أَهْلَ, tr:ahla, gloss:Kitap halkı} ile {ar:ٱلْكِتَٰبِ, tr:al-kitābi, gloss:Kitap} arasındaki tamlama, muhatapları belirli bir Kitap'la ilişkisi olanlar diye adlandırır; bu ilişki sorumluluğu görünür kılar, topluluktaki her kişinin iç durumunu tek biçime indirmez. Ayetin açık sahnesinde, Kitap'tan gizledikleri birçok şeyi onlara açıklayan ve birçoğundan geçen elçi gelir; ardından Allah'tan bir nur ve apaçık bir Kitap'ın geldiği bildirilir.
+
+Bu doğrudan hitap bir varış cümlesine dönüşür. İlk gelişin olmuş bitmişliği {ar:قَدْ, tr:qad, gloss:gerçekten} ile mühürlenir: elçinin gelişi beklenen bir ihtimal değil, gerçekleşmiş bir olaydır ve bu kesinlik ilk geliş cümlesinin sınırında kalır. {ar:جَآءَكُمْ, tr:jāʾakum, gloss:size geldi} tamamlanmış geliş fiilini ikinci şahıs çoğul ekiyle doğrudan bu muhataplara yöneltir; “size” alıcıyı belirler, ayetin kendi içinde ayrıca bir mekân tarifi kurmaz. Öznenin {ar:رَسُولُنَا, tr:rasūlunā, gloss:elçimiz} diye belirlenmesi, belirsiz bir haber taşıyıcısının değil, göndereniyle tanımlanmış bir elçinin geldiğini gösterir. Ayet burada elçinin yetkisini ve taşıyıcı rolünü kurar; onun hayatına ilişkin başka ayrıntılar vermez.
+
+Elçi gelirken yaptığı iş de cümlenin biçiminde görünür. {ar:يُبَيِّنُ, tr:yubayyinu, gloss:açıklıyor} II. bâbın muzari biçimidir; kastedileni açığa çıkaran ve anlaşılır kılan ettirgen bir açıklığı sürmekte olan eylem gibi kurar. Böylece geliş ile açıklama kopuk iki olay değil, elçinin gelirken gerçekleştirdiği görevin iki yönüdür. Bu görev {ar:لَكُمْ, tr:lakum, gloss:size} ile doğrudan muhataplara verilir: açıklama soyut bir gösteri değil, seslenilen topluluğa ulaşan bir müdahaledir. Bu yöneliş, açıklamanın değerini herkes için otomatik olarak aynı sonuca bağlamadan kime ulaştığını belirginleştirir.
+
+## Açıklamanın Ölçüsü
+
+Açıklamanın ölçüsü, gizli bütünün içinden seçilmiş büyük bir payı görünür kılmasıdır. {ar:كَثِيرًا, tr:kathīran, gloss:birçok şey} geniş bir çokluğu duyurur; miktarın belirsiz bırakılması, kapsamı açık tutarken tam bir liste yerine büyük bir payı öne çıkarır. {ar:مِمَّا, tr:mimmā, gloss:...den olan} bu payı gizlenen malzemenin içinden seçer: elçi gizli bütünün içinden birçok şeyi görünür kılar. {ar:كُنْتُمْ, tr:kuntum, gloss:siz ... idiniz} ile {ar:تُخْفُونَ, tr:tukhfūna, gloss:gizliyorsunuz} birleştiğinde gizleme geçmişte yerleşmiş bir uygulama olarak çerçevelenir ve sorumluluk doğrudan ikinci şahıs çoğul muhataplarda tutulur. {ar:تُخْفُونَ, tr:tukhfūna, gloss:gizleyip görünmez kılıyorsunuz} etken IV. bâb biçimi, bir şeyin kendiliğinden kaybolmasını değil, üzerinin örtülerek bilinmesinin engellenmesini anlatır; bu biçimin ses yakınlığı buraya korku anlamı taşımaz. Geçmişe yerleşmiş bu etkin saklama çerçevesi, ayetin dışına taşan sınırsız bir tarih kurmadan muhatapların eylemini görünür kılar.
+
+Gizlenen malzemenin kaynağını {ar:مِنَ, tr:mina, gloss:-den} edatı belirler: içerik, yine {ar:ٱلْكِتَٰبِ, tr:al-kitābi, gloss:Kitap} diye adlandırılan yetkili kaydın içinden gelir. İlk Kitap görünümü muhatapların kimliğini kurarken bu ikinci görünüm saklanan malzemenin kaynağını belirtir. Aynı ad aynı yazılı alanı gösterir, fakat iki yerde farklı bir iş görür; kimlikten gizli kaynağa uzanan çizgi ayetin kendi metinsel ilişkisiyle sınırlı kalır ve daha geniş bir metin tarihi hükmüne dönüşmez.
+
+Geçme, açıklamaya merhamet ve ölçü payı katar. Açıklama ile geçme arasındaki {ar:وَ, tr:wa, gloss:ve} iki eylemden birini seçtirmez; aynı elçi eyleminde görünür kılma ile ölçülü geri çekilmeyi yan yana tutar. {ar:يَعْفُوا۟, tr:yaʿfū, gloss:geçip bağışlıyor} açıklananın ardından bir miktarın üzerinden geçip bırakmayı, hak edilmiş karşılığın uygulanmaması yönünü de taşır. Bu yüzden elçinin görevi görünür kılmanın yanında merhametli bir geri çekilme payı kazanır; bu pay, bütün meseleler için eksiksiz bir af listesi değil, açıklamanın alanını ölçen bir harekettir. {ar:عَن, tr:ʿan, gloss:üzerinden geçerek} geçişin alanını tamamlar ve fiili belirli bir malzemenin üzerinden geçmeye bağlar. İkinci {ar:كَثِيرٍ, tr:kathīrin, gloss:birçok şey} de büyük, fakat adı konmamış bir miktardır: ilk “birçok” gizli malzemenin içinden açıklanan payı, ikinci “birçok” açıklamanın dışında bırakılan geniş payı gösterir.
+
+Bu üç hareket birlikte, gizli bir bütünden gerekli görülen payı açan ve kalan paya ölçülü bir geçiş uygulayan seçici açıklık görüntüsü kurar. {ar:يُبَيِّنُ, tr:yubayyinu, gloss:açıklığa çıkarır} görünür kılma işini, {ar:تُخْفُونَ, tr:tukhfūna, gloss:etkin biçimde gizliyorsunuz} bu işin karşısındaki örtmeyi, {ar:يَعْفُوا۟, tr:yaʿfū, gloss:geçip bağışlar} ise açıklamanın yanında bırakılan payı taşır. {ar:مِمَّا, tr:mimmā, gloss:gizlenenler içinden} seçme yönü ile iki {ar:كَثِيرًا, tr:kathīran, gloss:çok miktar} arasındaki ayrım, ilk payı görünür ve ikinci payı geçilmiş kılar; böylece açıklama hem kapsamını hem de sınırını birlikte bildirir. Gizli kalan pay bu hareket içinde hükümsüzleşmez, açıklanan pay da bütün gizli malzemenin envanteri haline gelmez. Ayetin “açıklamak ve birçoğundan geçmek” anlamı, görünürlük ile geri çekilmenin bu birlikte işleyişinde ölçüsünü bulur.
+
+## İki Gelişin Bağı
+
+İki geliş arasındaki ayrım, açıklamanın taşıyıcısı ile ulaşan armağanları iki adımda görünür kılar. İlk gelişin ardından gelen ikinci {ar:قَدْ, tr:qad, gloss:gerçekten} yeni ve bağımsız bir cümle açar; bu cümlenin tamamlanmış gerçekliği Allah'tan gelen iki armağandır. Tekrar edilen {ar:جَاءَكُمْ, tr:jāʾakum, gloss:size geldi} aynı muhatap ekini korur, fakat geleni değiştirir: önce elçi, şimdi ışık ve Kitap. İkinci gelişin önündeki {ar:مِّنَ, tr:mina, gloss:-den} kaynağı armağanlardan önce duyurur; kaynak {ar:ٱللَّهِ, tr:Allāh, gloss:Allah} olarak tamamlandığında ışık ve Kitap adı belirlenmiş Allah'tan gelen iki armağan gibi görünür.
+
+İkinci armağanın ilk katkısı, {ar:نُورٌ, tr:nūrun, gloss:ışık} ile görmeyi mümkün kılan aydınlığı getirmesidir. Bu aydınlık bir önceki cümledeki gizlemeyle temas edince, ikinci gelişi saklı kalmış olanın görünürleşmesine açar. Işıkla Kitap'ı bağlayan ikinci {ar:وَ, tr:wa, gloss:ve}, iki hediyeyi ayrı ayrı adlandırılmış halde birlikte tutar ve Kitap'ın ışığın ne yaptığını açıklayabilmesini sağlar. Son armağan {ar:كِتَابٌ, tr:kitābun, gloss:bir Kitap} belirsiz nominatif biçimiyle şimdi sunulan yazılı kayıttır. Önceki belirli Kitap görünümlerinin kimlik ve kaynak görevlerinden ayrılır; cümlenin sonundaki {ar:مُّبِينٌ, tr:mubīnun, gloss:açık ve açıklayıcı} etkin ortaç ise bu kaydın hem görünür hem de açıklık sağlayan niteliğini bildirerek baştaki {ar:يُبَيِّنُ, tr:yubayyinu, gloss:açıklığa kavuşturur} fiiline geri döner. Bu ayette açıklık ailesinin görev yapan yönü görünür ve anlaşılır kılmadır.
+
+İki kez gelen {ar:جَآءَكُمْ, tr:jāʾakum, gloss:size geldi} biçimi, gönderen adına içerik taşıyan elçiden görülebilen ve okunabilen kayda geçen iki aşamalı bir teslim görüntüsü kurar. {ar:رَسُولُنَا, tr:rasūlunā, gloss:elçimiz} bu içerik taşıyıcısını, {ar:نُورٌ, tr:nūrun, gloss:görmeyi sağlayan ışık} ile {ar:كِتَابٌ, tr:kitābun, gloss:yazılı metin} ise açıklamanın görünür ve okunabilir biçimini temsil eder. Elçi, ışık ve Kitap ayrı adlar ve rollerle gelen üç unsurdur. Bu ayetin kendi içindeki ilk düzlemde ışık görmeyi sağlayan aydınlıktır; yol işareti görüntüsü ilerleyen bağlamlarda açılacaktır.
+
+Kitap adının ayetteki üç görünümü, teslimin hangi kayıttan hangi biçime geçtiğini sıralar: {ar:ٱلْكِتَٰبِ, tr:al-kitābi, gloss:Kitap} muhatabın bağlı olduğu belirli kaydı; ikinci {ar:ٱلْكِتَٰبِ, tr:al-kitābi, gloss:Kitap} içinden gizlenen malzemenin kaynağını; {ar:كِتَٰبٌ, tr:kitābun, gloss:yazıyla kurulmuş Kitap} ise şimdi gelen ve açıklamayı tutulabilir, aktarılabilir hale getiren kaydı gösterir. Bu sıralama, {ar:يُبَيِّنُ, tr:yubayyinu, gloss:açıklar} ile {ar:مُّبِينٌ, tr:mubīnun, gloss:açıklayıcıdır} arasındaki açıklığı birbirine yığılmış ya da yerinden kaymış parçaları ayıran bir işleme dönüştürür. Kitap adının bağlı bir bütün kuran yönüyle düşünüldüğünde aynı açıklık, ayrıştırılmış parçaları anlamlı bir kayıt içinde yeniden ilişkilendirir; {ar:تُخْفُونَ, tr:tukhfūna, gloss:saklı tutuyorsunuz} biçiminin sakladığı şey yeniden bilinebilir bir nesne haline gelir. Bu ayrıştırma ve yeniden bağlama görüntüsü ayetin kelimeler arasındaki ilişkisiyle sınırlı kalır; dış dünyada tarihsel bir redaksiyon süreci varsaymaz.
+
+## Açıklığın Onardığı Yer
+
+Bu açıklığın onarıcı katkısı, sözlerin yerlerinden saptırıldığı sahnede somutlaşır (5:13): {ar:يُحَرِّفُونَ الْكَلِمَ عَن مَّوَاضِعِهِ, tr:yuharrifūna al-kalima ʿan mawāḍiʿihi, gloss:sözleri yerlerinden saptırıyorlar}. {ar:الْكَلِمَ, tr:al-kalim, gloss:anlamlı söz veya ifade} anlam taşıyan sözü; {ar:مَوَاضِعِهِ, tr:mawāḍiʿihi, gloss:ait olduğu yerler} sözün bağlam içindeki yerini öne çıkarır. 5:15'te {ar:تُخْفُونَ, tr:tukhfūna, gloss:gizliyorsunuz} ile saklı tutulan içerik, {ar:يُبَيِّنُ, tr:yubayyinu, gloss:açıklıyor} ve {ar:مُّبِينٌ, tr:mubīnun, gloss:apaçık kılıyor} ile görünür, kullanılabilir ve ait olduğu ilişki içinde okunabilir hale gelir (5:13). Böylece açıklama kelime ile onun yeri arasındaki zedelenmiş bağa cevap verir; birçoğunu açıklarken birçoğundan geçme hareketi bu onarımın ölçüsünü korur.
+
+Bu ayırma gücü, aynı gerilimin sözlerin yerlerinden kaydırılmasıyla yeniden görünür olduğu 4:46'da ve seçici söz alma-saklama düzeninin öne çıktığı 5:41'de iki dönüş kazanır. {ar:يُبَيِّنُ, tr:yubayyinu, gloss:anlamı ayrıştırarak açıklar} ile {ar:مُّبِينٌ, tr:mubīnun, gloss:ayrımları görünür kılar} anlam sınırlarını geri çizen bir onarım gibi duyulur: birbirine karışan ilişkiler önce ayrılır, sonra okunabilir bir bütün içinde yerini bulur (4:46, 5:41). Bu bağlantının ayrışma yönü anlamların ve kayıtların ilişkisine aittir; insanlar arasındaki kopuşu buyuran bir hüküm kurmaz (4:46, 5:41).
+
+5:16'da açılan hareket, 5:15'teki ikinci gelişi görülebilen bilgiden yürünebilir bir yola taşır (5:16). {ar:يَهْدِي, tr:yahdī, gloss:yol gösterir} fiili yola veya hakikate yumuşakça yöneltmeyi; {ar:سُبُلَ السَّلَامِ, tr:subula al-salām, gloss:esenlik yolları} uzanarak kat edilen güzergâhları öne çıkarır (5:16). {ar:يُخْرِجُ, tr:yukhriju, gloss:dışarı çıkarır} karanlıktan çıkışı, {ar:سَوَاءَ السَّبِيلِ, tr:sawāʾa al-sabīl, gloss:yolun dengeli doğrultusu} dengeli hattı, {ar:صِرَاطٍ مُّسْتَقِيمٍ, tr:ṣirāṭin mustaqīm, gloss:dosdoğru yol} sapmadan ilerleyen rotayı kurar (5:16). Bu işlemler birleştiğinde {ar:نُورٌ, tr:nūrun, gloss:aydınlık ve ışık} yönü seçilebilir kılan, yol üzerinde uzaktan görülen bir işaret veya yükselti görüntüsü kazanır; {ar:مُّبِينٌ, tr:mubīnun, gloss:görünür ve anlaşılır} bu rotayı okunabilir, {ar:كِتَابٌ, tr:kitābun, gloss:yazılı metin} ise kayıtlı ve aktarılabilir kılar (5:16). Bu bağlantı ışığı fiziksel bir levhaya, ateşe veya tek zorunlu istikamete sabitlemeden, gelen Kitap'ı görünür bilgi ile yürünebilir yön arasında buluşturur (5:16).
+
+Bu rota görüntüsü, ışık, Kitap, karanlıklardan çıkış ve görünür yolun birlikte anıldığı yerde genişler (14:1); iyi söze ve övülen dosdoğru yola yönelme aynı işaret duygusunu başka bir bağlamda açar (22:24). Dosdoğru yola yönelişin ayrıca anılması, ışığın yön verme tarafını belirginleştirir (37:118). {ar:نُورٌ, tr:nūrun, gloss:yol üzerinde yön bulduran ışık} bu bağlamlarda kitabın içeriğini aydınlatan parlaklığın yanında, kitabın ve yolun nerede durduğunu gösteren bir belirti olur; {ar:مُّبِينٌ, tr:mubīnun, gloss:açıklayıcı} ise kitabı başvurulabilir bir kılavuz gibi okunabilir kılar (14:1, 22:24, 37:118). Böylece 5:15'teki armağanlar görünür bilgi ile yürünebilir yön arasında buluşur (5:16). Bu bağın kapsamı yönü görünür kılan bir işarettir; ışığı fiziksel bir nesneye veya tek zorunlu istikamete, yön göstermeyi de otomatik bir karşılığa dönüştürmez (14:1, 22:24, 37:118).
+
+Kaynak ile yöneliş arasındaki karşılıklılık, Fâtiha'nın dua dilinde belirginleşir (1:5). 5:15'teki {ar:اللَّهِ, tr:Allāh, gloss:tapınılan varlık} adı, “Yalnız Sana taparız” ve “Yalnız Senden yardım isteriz” diye yönelen {ar:إِيَّاكَ نَعْبُدُ, tr:iyyāka naʿbudu, gloss:yalnız Sana taparız} ile {ar:وَإِيَّاكَ نَسْتَعِينُ, tr:wa iyyāka nastaʿīn, gloss:Yalnız Senden yardım isteriz} ifadeleriyle buluşur (1:5). Böylece Allah armağanların başlangıç noktası olmanın yanında ibadet ve yardım güveni içinde yönelinen merci olarak duyulur. Okur ışık ve Kitap'ı adı verilmiş bir kaynaktan gelen, ibadet eden ve yardım isteyen topluluğa ulaşan cevap gibi işitebilir. 5:15'in Allah'tan ışık ve Kitap geldiğini söyleyen açık anlamı bu ilişkide yerinde kalır; bağlantı, ayeti Fâtiha'nın çevirisine taşımadan kaynak ile yönelişi karşı karşıya getirir (1:5).
+
+İstenen yol, aynı ışığı ayırt edilen bir yön ölçütüne dönüştürür (1:6, 1:7). {ar:نُورٌ, tr:nūrun, gloss:yol gösteren belirgin işaret} hidayet ve dosdoğru yol isteğiyle, nimet verilenler ile gazaba uğrayanlar ve sapmışlar arasındaki karşıtlığa değdiğinde gelen armağan, üzerinde gösterilmeyi ve kalmayı istenen güzergâhın görünür cevabı gibi duyulur (1:6, 1:7). Bu dua bağlantısı yolu ibadet, yardım, talep ve karşıt istikametler ufkuna yerleştirir; 5:15'teki açık ışık ve Kitap hareketine istenen yönü ekler (1:6, 1:7). Buradaki katkı, {ar:نُورٌ, tr:nūrun, gloss:ışık} kelimesinin yol ayırt eden işaret işleviyle sınırlıdır; dışarıdaki yol kelimeleri bu ayetin doğrudan sözlük karşılığı haline gelmez. Ev sahibi ayetin ışık ve apaçık Kitap'ı Allah'tan gelen armağan olarak sunan açık hareketi böylece yerinde kalırken, ışığın istenen yolda nasıl karşılanacağı sorusu açılır (1:6, 1:7).
+
+Seçici açıklamanın ölçüsü, kitabın bir bölümünün gösterilip çoğunun gizli bırakıldığı sahnede somutlaşır (6:91); Kitap'ın açıklıkla anılması bu ölçüyü başka bir yönden destekler (12:1), açıklıkla birlikte affın hatırlatılması ise onu ilişkiler alanına taşır (2:109). Olası ayrıntıların sorulmasının yükü ile açıklanıp geçilebilecek olanın yan yana durması aynı çizgiyi belirginleştirir (5:101). {ar:تُخْفُونَ, tr:tukhfūna, gloss:etkin saklama} örtülen malzemeyi, {ar:يُبَيِّنُ, tr:yubayyinu, gloss:kastedileni açığa çıkarır} onarılacak açıklık payını, {ar:يَعْفُوا۟ عَن كَثِيرٍ, tr:yaʿfū ʿan kathīr, gloss:birçoğunu geçer} ise sonuçları ölçülü bırakan hareketi taşır (6:91, 12:1, 2:109, 5:101). Bu bağlamların ortak katkısı, açıklananı gerekli olanı onaran bir pay olarak göstermektir; kalan payın değeri hakkında ayrıca bir hüküm kurmazlar.
+
+İki gelişin iletişim katkısı, kesintiden sonra yeniden ulaşan haberin aralığı kapatmasıdır (5:19). 5:15'te iki kez kurulan geliş çizgisi, 5:19'da gelişin yeniden anılmasıyla bir sessizlikten sonra yeniden kurulan iletişime bağlanır (5:19). {ar:رَسُولٌ, tr:rasūlun, gloss:haber taşıyıcısı} sözü müjdeci ve uyarıcı karşıtlığı içinde gönderenden alıcıya içerik taşıyan bağı öne çıkarır; {ar:فَتْرَةٍ, tr:fatra, gloss:ara veya iletişim kesintisi} ise gelişleri bu aralığı kapatan adımlar gibi çerçeveler (5:19). Haber ulaştığında “bize ne bir müjdeci ne de bir uyarıcı geldi” itirazının önü kapanır; 5:15'teki açıklama böylece kesintiye uğramış iletimin yeniden kurulması olarak hissedilir (5:19). Bu bağlantının sonucu iletişimsel hesabın görünürleşmesidir; ayet burada ayrıca kesin bir hukukî sonuç kurmaz (5:19).
+
+## Eşik ve Sınır
+
+Görünen yolun katkısı, onu karar ve geçiş gerektiren bir eşiğe dönüştürmesidir. Hedefin belirlenmesi ve hedefin arkasına dönme ihtimali eşiğin yönünü kurar (5:21); içeri girişin koşula bağlanması beklemeyi somutlaştırır (5:22); {ar:الْبَابَ, tr:al-bāb, gloss:kapı} ve tekrarlanan giriş ifadeleri yolu geçişi olan bir kapıya dönüştürür (5:23). “Burada oturacağız” tavrı {ar:قَاعِدُونَ, tr:qāʿidūn, gloss:oturanlar} ile hareketsiz kalmayı da bir cevap biçimi yapar (5:24); kırk yıllık dolaşma, görünür rotanın varış için eylem istediğini tamamlar (5:26). {ar:مُّبِينٌ, tr:mubīnun, gloss:belirginleşmiş ve açık} hedefi ve girişi belirsizlikten çıkarır; {ar:كِتَابٌ, tr:kitābun, gloss:bağlayıcı biçimde belirleyen Kitap} gidilecek yeri belirleyen bir kayıt, {ar:نُورٌ, tr:nūrun, gloss:yol üzerinde görülen işaret} de girişin önündeki görünür belirti gibi duyulur (5:21, 5:22, 5:23, 5:24, 5:26). Böylece ışık ve açıklık, atanmış rotayı geçilebilir bir eşik olarak kurar; dinleyen bu eşikte geri dönebilir, oturabilir veya dolaşmayı sürdürebilir (5:21, 5:22, 5:24, 5:26). Bu bağlantının kapsamı 5:15'teki görünür yol ile sonraki sahnelerdeki cevap arasındaki ilişkidir; sonraki olayların tamamını önceden anlatan veya bütün okurları aynı karşılığa bağlayan bir hüküm kurmaz (5:21, 5:22, 5:23, 5:24, 5:26).
+
+Bu eşikte geçme, açıklanmamış alana onarımın gelişebileceği korunaklı bir oda katkısı yapar (5:13). 5:13'teki bağışlama ve yüz çevirme ile buluşan geçip bırakma, gizli malzemenin tamamını zorla açmak yerine açıklamanın büyümesine yer verir (5:13). Gözlem ve unutma bağlamıyla duyulan {ar:يَنقُصُونَ, tr:yanquṣūn, gloss:büyüyüp çoğalma veya bir ölçüde başkasını aşma} yüzü, geride bırakılan alanın zaman içinde gelişebileceği ihtimalini açar (5:13). {ar:كَثِيرًا, tr:kathīran, gloss:çokluk ve sayıca artma} açıklanan ve geçilen malzemenin büyük bir pay olduğunu korur. Bu büyüme görüntüsü {ar:يَعْفُوا۟, tr:yaʿfū, gloss:affetmek veya üzerinden geçmek} fiilinin doğrudan çevirisi değil, bağışlamanın geçiş ve alan bırakma yönüyle kurulan ihtiyatlı bir okumadır; gizlemenin kendisine genel bir yarar hükmü vermez (5:13).
+
+Bu ölçülü geçişin normatif katkısı, gerekli bütünü korurken gereksiz yükü bırakabilmesidir (5:1, 5:6). {ar:كِتَٰبِ, tr:kitāb, gloss:bağlayıcı kitap ve norm} ile bu ayetteki {ar:كِتَٰبٌ, tr:kitābun, gloss:kitap ve hüküm} birlikte düşünüldüğünde gelen Kitap yalnız bilgi kaydı değil, yürürlükte olan bir norm olarak da okunabilir (5:1, 5:6). Bağlama, serbest bırakma ve eksiksiz yerine getirme çağrısı (5:1), daraltmadan arınmaya ve nimeti tamamlamaya geçişle (5:6) birleşir; geçme böylece gerekli bütünlüğü koruyarak yükü ölçen bir bırakma hareketi haline gelir. {ar:يَعْفُوا۟, tr:yaʿfū, gloss:geçer ve bağışlar} kelimesinin zahmetsizce elde edilen bir artığı verme veya bir alacaktan vazgeçme yönü bu serbest bırakmayla temas eder: gerekli norm korunurken fazlalık bırakılabilir (5:1, 5:6). Bu bağlantı afvı maddi artığa, her yükün otomatik azalmasına veya her eksikliğin kendiliğinden tamamlanmasına dönüştürmez; 5:6'daki arınma amacı, açıklığın cezalandırıcı yükü çoğaltmadan temizleyip tamamlayabileceği ihtimalini taşır (5:6).
+
+## Düzeltmenin Ölçüsü
+
+Açıklığın ilişkiler alanındaki katkısı, sahte yapışmaları ayırıp sınırları doğru adlandırarak yeniden düzenleme ihtimalidir. 5:14'te düşmanlığın tarafların arasına yerleşmesi ile 5:25'te iki taraf arasında açıkça ayrım istenmesi, {ar:بَيْنَ, tr:bayna, gloss:arayı bağlayan ilişki} sözünü hem bağın hem de aralığın adı olarak öne çıkarır (5:14, 5:25). {ar:يُبَيِّنُ, tr:yubayyinu, gloss:açıklar} biçiminin ayrılma yönü sahte bir bitişikliği keser; {ar:كِتَابٌ, tr:kitābun, gloss:bir şeyi bağlı bütünde birleştiren kayıt} yönü ayrılan parçaları sağlam bir ilişki içinde yeniden bağlama ihtimalini taşır. 5:14'te araya giren düşmanlık ilişkinin doğal bağı değil, açıklıkla yeri adlandırılabilecek bir engel gibi görünür; 5:25'teki {ar:بَيْنَ, tr:bayna, gloss:arada olma} ise ayrımı yalnız koparmak değil, taraflar arasındaki yeri doğru belirlemek olarak duyurur (5:14, 5:25). Bu bağlantının kapsamı ilişki sınırlarını ve anlam düzenini görünür kılmaktır; her bağı çözme veya her ilişkiyi yeniden kurma hükmü taşımaz (5:14, 5:25).
+
+Adalet, açıklığın onarımını sınırlandıran ölçüyü belirler (5:8). Grup öfkesinin hükmü eğip bükmesine izin vermeyen adalet, kaymış bir kaydı düzeltirken yeni bir cezalandırma eğriliği üretilmemesini gerektirir (5:8). {ar:يُبَيِّنُ, tr:yubayyinu, gloss:doğru anlamı açıkça ortaya koyar} ve {ar:مُّبِينٌ, tr:mubīnun, gloss:anlaşılır kılar} 5:13'teki yönünden saptırılmış sözle, {ar:تُخْفُونَ, tr:tukhfūna, gloss:etkin biçimde gizler} ile saklanan içerikle buluşur; elçinin açıklaması bu malzemeyi adalet ölçüsü içinde yeniden okunabilir kılar (5:8, 5:13). 5:13'teki bağışlayıp geri çekilme, {ar:يَعْفُوا۟, tr:yaʿfū, gloss:geçer ve bağışlar} ile birleşerek düzeltmenin intikamcı bir açığa çıkarma haline gelmesini önleyen geri çekilme payını getirir (5:13). 5:14'te unutulan hatırlatmanın etkin düşmanlığa ve toplumsal çatışmaya dönüşmesi, teşhirin düzeltmeyi karşılıklı kine çevirebileceğini düşündürür (5:14). Bu nedenle doğruyu açmak kışkırtmayı çoğaltmadan, geçme ve bağışlamayla dengelenen bir onarım olarak kalır; bu bağlamın sınırı muhataplara kesin bir toplumsal hüküm veya her düzeltmenin kendiliğinden uzlaşma doğurduğu sonucu yüklememesidir (5:8, 5:13, 5:14).
+
+{ar:يَعْفُوا۟, tr:yaʿfū, gloss:geçer ve bağışlar} için cezanın uygulanmaması çekirdeğinin yanında, kötülüğün geri dönmesini kesen bir uzaklaştırma ve karşı tarafa esenlik alanı açan bir katkı da duyulur. 5:13'teki geri çekilme, 3:159'da ilişkiyi onaran yumuşaklık ve 2:109'da açıklık gerilimi içindeki afv, geçmeyi düzeltmeden sonra karşı tarafa yönelen zararı büyütmeyen bir hareket olarak genişletir (5:13, 3:159, 2:109). Böylece afv ceza kaydını bırakmanın yanında kötülüğün yeniden dolaşıma girmesini uzak tutan bir alan açar. Bu bağlantı tam barış veya zorunlu uzlaşma ilan etmeden, 5:15'teki birçoğundan geçme anlamının ilişkileri koruyan yönünü görünür kılar (5:13, 3:159, 2:109).
+
+Aynı {ar:يَعْفُوا۟, tr:yaʿfū, gloss:geçer ve bağışlar} çok şeyin geçilmesine zararlı izlerin azalması yönünü de ekleyebilir. Kabul edilen dönüş, kötülüklerin bağışlanması ve zararlı izlerin kaldırılmasının birlikte anılması (42:25), 5:15'teki geçmeye açıklamadan sonra görünür zararın sürmesini azaltan bir sonuç kazandırır. Geçmek böylece yalnız yaptırımdan vazgeçmek değil, geride kalıcı ve zararlı bir işaret bırakmayan bir aşınmaya yer açmak gibi okunabilir; bu aşınma yeni bir başlangıca alan açar (42:25). Bu bağlantı 5:15'teki kelimeyi fiziksel silinmeye çevirmeden, bağışlama ile kalıcı zararı azaltma ihtimalini birlikte taşır (42:25).
+
+</editorial_prose>

@@ -1,0 +1,197 @@
+# V5 reading invitation — 5:72
+
+You are a fresh reading-invitation writer. Read the complete editorial prose
+before writing. It is your sole semantic source.
+
+Write two to four paragraphs of fluent, contemporary Turkish that reveal a
+surprising reading by following one or two main channels of resonance in the
+ayah. A channel is a connected background of meanings, images, actions, or
+relations through which the ayah can be heard and understood differently.
+Several editorial findings may together develop one channel. Summarize that
+connected movement and its consequence for the ayah's main meaning, rather
+than compressing findings individually. Give the reading's substance now;
+the invitation comes from understanding it, not from a promise of hidden depth.
+
+Before drafting, read the entire editorial prose and silently select the one
+or two channels with the strongest interpretive consequence and enough
+grounding to explain clearly. Favor channels that expand or shift what the
+ayah says, the relation it establishes, or what is at stake in its action or
+image. One fully developed channel is sufficient; add a second only when it
+offers a distinct consequential reading that can be explained within the
+invitation. No finding, channel, or major shift has an individual coverage
+claim. Unselected material may remain entirely in the full commentary.
+
+A channel may develop through grammar, sound, dialogue, a material process,
+time, imagery, or a conceptual relation. Resonance is not limited to acoustic
+effects, and an unusual image alone does not establish a channel. Use only
+connections the editorial prose actually develops. If it supplies no such
+channel, explain its strongest grounded reading without inventing connections
+or surprise.
+
+Begin inside the ayah's own words, images, actions, or relations and reveal a
+selected distinctive reading in the first paragraph. Keep the plain meaning
+reachable with only the orientation needed to understand the change. Do not
+spend an opening paragraph on routine explanation or front-load context about
+the surah, the ayah's position, or the commentary project.
+
+For each selected channel, begin with the expression that opens it, unfold the
+connected background, and show how the ayah reads or sounds against that
+background. Let a detail lead into the next through an intelligible relation
+or process, so the reader experiences the emerging reading. This is a movement
+of thought, not a mandatory sentence pattern or one paragraph per finding.
+Let the reader identify the expression being interpreted,
+where any nonordinary detail comes from, and what that detail changes in the
+reading. Briefly identify the word-family use, restricted form, collocation, or
+context that supplies an essential added detail, and preserve the concrete
+operation that makes the image work. Keep the ordinary reading and necessary
+qualification clear within this explanation; do not repeat them as a fixed
+formula. Preserve the particular object, process, or relation that makes this
+reading distinctive, and state its interpretive consequence for the ayah as a
+whole. Make intelligible what the familiar reading leaves less visible and
+what the expanded or shifted reading now lets the reader understand. Preserve
+the editorial's force: an exploratory possibility remains possible, while a
+developed shift must not be softened into a decorative association or a
+reassurance that everything means the same thing. A concrete
+account of how something is carried, transformed, lost, or restored must not
+shrink to a general statement about care, guidance, dependence, or goodness.
+Keep the details needed to make the selected channel work; omit side findings
+and shorten routine setup. If a channel cannot be explained faithfully from
+the editorial prose, choose another grounded channel or reading.
+
+When a non-focus ayah supplies a contribution used in the invitation, keep its
+reference from the editorial prose beside that contribution.
+
+Do not turn the invitation into a miniature inventory of the commentary's
+conclusions, or flatten distinct channels into a broad theme to include more
+material. Do not repair, extend, or supplement the editorial prose from memory
+or outside knowledge.
+
+Omit technical apparatus. Retain any qualification, source distinction, live
+alternative, or boundary whose absence would change the force or meaning of a
+chosen reading. Express it naturally beside the image or relation it qualifies.
+Favor positive explanations of the relation between layers: what remains in
+the foreground and what the resonance makes audible in the background. State
+how that background reinforces, expands, or shifts the understanding of the
+main meaning, with the source and degree of certainty clear. Reserve explicit
+exclusions for concrete ambiguities or live counter-evidence that need them.
+Repeated "this is not X" endings make a reading sound withdrawn; express the
+substantive qualification through what the reading does contribute wherever
+possible. Use varied, natural language rather than a repeated "second layer"
+formula, and preserve the force of expansions and shifts.
+Do not name branches, candidates, findings, scopes, evidence categories,
+ledgers, or workflow stages, or label the prose as numbered channels. Do not
+list findings serially.
+
+Use the established `{ar:..., tr:..., gloss:...}` syntax, consistent
+Turkish-readable transliteration, and short ordinary glosses. Keep Arabic
+anchors beside the explanations they ground. Within a paragraph, continue with
+the Turkish meaning where clear; provide the necessary local tag when a later
+paragraph interprets the carrier anew. Do not place Arabic script outside a
+valid tag.
+
+Build transitions within a channel through its shared object, action, or
+relation. If two channels are selected, they may occupy separate paragraphs;
+do not invent a link between them. Do not praise the commentary's quality,
+promise what the reader will find, manufacture suspense, recap at the end, or
+add a call to action. End on an image, relation, action, or tension already
+established by the selected reading.
+
+Before finishing, compare the invitation with the entire editorial prose:
+does the chosen channel reveal a consequential reading, or could the text have
+been written from the ordinary translation and a modest explanation alone?
+When the editorial supports a surprising channel, the latter fails this task.
+Can the reader follow the opening expression into a connected background and
+understand how that background expands or shifts the ayah's main meaning?
+Check the selected connections against their editorial explanation: can the
+reader tell where the nonordinary details come from, with the necessary
+qualifications intact? Repair generic explanation, isolated curiosities, or a
+compressed findings list by developing the selected channel. Do not add
+omitted channels merely for coverage. Do not output this check.
+
+Write only the invitation text to:
+
+`_commentary/v5/editorial/s005-p06-with-fatiha/s005/5_72/5_72.invitation.tr.md`
+
+Do not add a heading, wrapper label, index, ledger, evidence file, or any other
+artifact. Do not modify the editorial prose.
+
+After writing the invitation, run:
+
+```bash
+python3 _commentary/v5/validate_prose.py _commentary/v5/editorial/s005-p06-with-fatiha/s005/5_72/5_72.invitation.tr.md
+```
+
+If validation fails, repair only the reported mechanical file-contract issues
+and rerun it, for at most two repair cycles. Report the final validator result
+in your response.
+
+<editorial_prose>
+Bu âyet önce bir sözü hükme bağlar: {ar:كَفَرَ, tr:kefera, gloss:inkâr etti} diyerek {ar:ٱللَّهَ, tr:Allah, gloss:Allah'ı} {ar:ٱلْمَسِيحُ, tr:el-Mesîhu, gloss:Mesih}, yani {ar:ٱبْنُ, tr:ibnu, gloss:oğlu} {ar:مَرْيَمَ, tr:Meryem, gloss:Meryem} diyenlerin inkâr ettiğini bildirir. Ardından söz Mesih'in kendi ağzına geçer: {ar:يَا, tr:yâ, gloss:ey} ile {ar:بَنِي, tr:benî, gloss:soy çocukları} {ar:إِسْرَٰٓءِيلَ, tr:İsrâîl, gloss:İsrâil} topluluğuna seslenir, onları kendisinin de onların da Rabbi olan Allah'a kulluğa çağırır. Son cümlede ise Allah'a ortak koşmanın sonucu art arda gelir: Cennet'ten yoksun bırakılma, ateşin onun barınağı olması ve haksızlık edenler için hiçbir yardımcı bulunmaması.
+
+## Sözü Hükme Bağlayan Giriş
+
+Başlangıçtaki {ar:لَ, tr:la, gloss:vurgulama lâmı} ile {ar:قَدْ, tr:qad, gloss:kesinlik edatı} birlikte hükmü öne alır; okuyucu önce alıntıyı değil, o alıntı hakkında verilmiş kararı duyar. Aynı vurgu daha sonra {ar:فَ, tr:fe, gloss:böylece} ile birleşen ikinci {ar:قَدْ, tr:qad, gloss:kesinlik edatı} içinde karşılığını bulur. Böylece âyetin başı ile sonucu aynı kesinlik çizgisinde birbirine bağlanır. {ar:كَفَرَ, tr:kefera, gloss:inkâr etti} tekil ve tamamlanmış biçimiyle doğrudan bir hüküm verir; yargıyı belirsiz bir kanaat olarak bırakmaz. Bu fiilin örtme, gizleme, nankörlük ve inkâr alanları, aktarılacak sözün zihinde duran bir düşünce olarak değil, hakikati örten bir yöneliş olarak duyulmasını sağlar. Mesih hakkındaki iddiaların çevresinde 5:17 ve 5:73 ayetlerinde yeniden duyulan aynı fiil, 5:72'deki dinî hükmün bu örtme basıncını belirginleştirir.
+
+{ar:ٱلَّذِينَ, tr:ellezîne, gloss:kimseler ki} sözü topluluğu soyuyla ya da adıyla değil, hemen ardından gelen {ar:قَالُوا۟, tr:qâlû, gloss:dediler} cümlesiyle tanımlar. {ar:قَالُوا۟, tr:qâlû, gloss:dediler} çoğul biçimi, iddiayı tek bir kişinin ağzına bırakmayıp toplulukça sahiplenilmiş bir söz hâline getirir; kelimenin olağan söylemek ve konuşmak anlamı burada ortaklaşa üstlenilmiş bir görüşe kadar açılır. Ardından gelen {ar:إِنَّ, tr:inne, gloss:şüphesiz} bu sözün kararlı bir iddia olarak kurulduğunu gösterir. Böylece âyet, kimin sorumlu tutulduğunu ve hangi kesin sözün hükme konu olduğunu aynı yapının içinde açık eder.
+
+5:61'deki giriş ve çıkış dizisi, insanın karşılaşmaya içte taşıdığı hâliyle geldiğini ve dışarı çıkarken bu hâli geride bırakmadığını gösterir; içeri giriş, saklanan şeylerin Allah tarafından bilindiği bir sahneye açılır. 5:72'de {ar:كَفَرَ, tr:kefera, gloss:inkâr etti} bu taşınan yönelişi kimlik sözü içinde görünür kılar. 5:65'te iman etmek ve kendini korumaya almak, kusurların örtülmesiyle nimet bahçelerine girişe hazırlanır; aynı örtme alanı 5:72'de gerçeği örten fail, 5:65'te ise ilâhî örtüyle giderilen kusur yönünde işler. Örtülen şeyin ve örtme eyleminin faili, kişinin içeriye ya da dışarıya yönelişini belirler; bu ayrım 5:72'deki inkâr hükmünün yönünü keskinleştirir.
+
+İç alıntının ağırlığı, {ar:إِنَّ, tr:inne, gloss:şüphesiz} ile açılan önermede toplanır: {ar:ٱللَّهَ, tr:Allah, gloss:Allah'ı} adı önerilen kimlik denkleminin konusudur, {ar:هُوَ, tr:huve, gloss:O} ise iki belirli unsur arasında gevşek bir yan yana geliş yerine doğrudan bir eşitleme kurar. {ar:ٱلْمَسِيحُ, tr:el-Mesîhu, gloss:Mesih} bu denklemin yüklem tarafında belirir. Zamirin küçük biçimi, iddianın neyi Allah'a eşitlediğini belirginleştirir; alıntılanan sözün kesinliği de böylece tam olarak hedefini bulur.
+
+Bu denklemin içindeki {ar:ٱبْنُ, tr:ibnu, gloss:oğlu} gündelik oğul ve soy bağı anlamını taşır. Bağlı olduğu kelime ailesi yapma, kurma ve oluşum hatlarını da taşır; isim tamlaması bu çağrışımı insanî soy ilişkisi içinde toplar. {ar:مَرْيَمَ, tr:Meryem, gloss:Meryem} özel adı bu ilişkiye adı verilmiş bir anne çıpası sağlar; unvan soyut bir niteliğe değil, belirli bir anneyle kurulan doğrudan bağa dayanır. Böylece “Meryem'in oğlu” düz okuması korunur ve adlandırmanın içine yerleşen insanî köken vurgusu, ilahlaştırma iddiasının karşısında belirginleşir.
+
+Bu insanî soy bağı 5:75 ayetinde başka somut ilişkilerle çevrelenir. {ar:أُمُّهُۥ, tr:ummuhû, gloss:annesi} sözü taşıyan ve yetiştiren anne görüntüsünü getirir; {ar:رَسُولٌ, tr:rasûl, gloss:elçi} ve {ar:ٱلرُّسُلُ, tr:er-rusul, gloss:elçiler} Mesih'i elçilerin ardışık aktarımı içine yerleştirir; {ar:خَلَتْ, tr:halet, gloss:geçip gitti} ise önceki elçilerin geçip gitmesiyle bu zincire zamansal bir sınır koyar. Böylece oğul adlandırması soy, annelik, elçilik ve geçip gitme görüntülerinin oluşturduğu bedensel bir ardışıklık içinde duyulur.
+
+## Adın Hitaba Dönüşmesi
+
+İlk söz ile karşı-söz arasındaki dönüşü {ar:وَ, tr:wa, gloss:ve} açar. Bu bağlaç, 5:17, 5:46, 5:75, 5:78, 5:110, 5:112, 5:114 ve 5:116 ayetlerindeki benzer geçişlerle birlikte duyulduğunda Meryem-oğlu adlandırmasını daha geniş bir söz akışı içine yerleştirir; 5:72'deki temel “ve” işlevi ise önceki iddiayı sonraki cevaba bağlayan yeni bir anlatı birimi açar. Ardından {ar:قَالَ, tr:qâle, gloss:dedi} gelir. Önceki {ar:قَالُوا۟, tr:qâlû, gloss:dediler} çoğulluğuna karşı bu tekil, tamamlanmış fiil tek bir konuşan sesi öne çıkarır. Söz, Mesih'in cevabıyla karşılaşan canlı bir karşı-söze dönüşür.
+
+{ar:ٱلْمَسِيحُ, tr:el-Mesîhu, gloss:Mesih} ikinci kez söylendiğinde unvan korunur, fakat cümledeki görevi değişir: önce iddia edilen kimliğin yüklem tarafındayken şimdi {ar:قَالَ, tr:qâle, gloss:dedi} fiilinin konuşan öznesidir. Belirlilikteki süreklilik aynı kişiyi izlemeyi sağlar, görev değişikliği ise iddia ile cevap arasındaki farkı görünür kılar. Mesih adının silme, mesh etme ve dokunup geçme çağrışımlarını taşıyan kelime ailesi bu hitapta arka planda bir sözlüksel katkı sunabilir; {ar:قَالَ, tr:qâle, gloss:dedi} ile açılan itaatkâr tanıklıkta unvan onurunu korurken Allah'a bağlı konuşanın sözüne yerleşir. Bu sözlüksel katkı, unvanın olağan adlandırma işleviyle birlikte işler.
+
+{ar:يَا, tr:yâ, gloss:ey} ile başlayan sesleniş, Mesih'in düzeltmesini soyut bir açıklamadan belirli bir topluluğa yöneltilmiş buyruk hâline getirir. {ar:بَنِي, tr:benî, gloss:soy çocukları} çoğul tamlama biçimiyle tek tek kişileri ortak bir muhataplıkta toplar. Aynı kelime ailesinin çocukluk, yapı, oluşum ve soy bağını taşıyan yönü, {ar:إِسْرَٰٓءِيلَ, tr:İsrâîl, gloss:İsrâil} özel adıyla birleşerek topluluğu belirli bir soy ve ahit ilişkisi içinde çerçeveler. 5:12, 5:32, 5:70 ve 5:72 ayetlerinde yeniden duyulan bu hitap, 5:72'de de yerel “İsrâiloğulları” anlamını korur. {ar:ٱبْنُ, tr:ibnu, gloss:oğlu} ile {ar:بَنِي, tr:benî, gloss:soy çocukları} arasındaki ayet içi yankı, bireysel oğul adlandırmasını toplu soy adlandırmasıyla karşılaştırır; iki taraf da aynı insanî ilişki dilinin içinde görünür.
+
+Bu topluluğa yönelen emir {ar:ٱعْبُدُوا۟, tr:u'budû, gloss:kulluk edin} ile açık ve çoğul biçimde söylenir. Kelimenin hizmet, kulluk ve tapınma alanı burada doğrudan bir eylem buyruğuna dönüşür; Mesih önceki sözün yanlışlığını bildirirken yerine getirilecek yönelişi de gösterir. 5:117 ayetindeki tanıklık bu buyruğu yine Mesih'in sözü içinde duyurur. Hemen ardından gelen {ar:ٱللَّهَ, tr:Allah, gloss:Allah'ı} bu eylemin nesnesidir: Âyetin başında yanlış kimlik denkleminin konusu olan aynı ilahî ad, burada kulluğun yöneldiği yere yerleşir. Adın kendisi değişmez; onu çevreleyen sözdizimsel ilişki düzelir.
+
+{ar:رَبِّى, tr:rabbî, gloss:Rabbim} ile {ar:رَبَّكُمْ, tr:rabbekum, gloss:Rabbiniz} bu emrin konuşanla muhataplar arasında ortak bir bağlılık kurduğunu açık eder. Birinci tekil iyelik eki, Mesih'in “Rabbim” diyerek kendisini de bu ilişkinin içine yerleştirdiğini gösterir; çoğul muhatap eki ise tek bir Rabbin toplulukla kurduğu ortak ilişkiyi görünür kılar. İki ifade arasındaki {ar:وَ, tr:wa, gloss:ve}, paralel tamlamaları tek bir yönetime bağlar. Rabb kelime ailesinin sahip olma, besleyip büyütme, sürdürme ve yönetme alanı burada genişçe hissedilir; “Rabbim ve Rabbiniz”in açık tamlama anlamı da bu alanı belirli bir bağlılıkta toplar. 3:51, 5:117, 19:36 ve 43:64 ayetlerindeki benzer peygamberane itiraflar bu ortak Rablik sözünü destekleyen bağlamlar olarak duyulur.
+
+Bu ortak Rablik, 5:75 ve 5:76 ayetlerinde soyut bir unvan tartışmasını maddi bağımlılık ölçüsüne taşır. {ar:يَأْكُلَانِ, tr:ye'kulâni, gloss:ikisi de yer} Mesih ile annesinin beslenen bedenler olduğunu gösterir; {ar:ٱلطَّعَامَ, tr:et-ta'âm, gloss:yemek} yeme eylemini alınan bir nesneye bağlar. Buna karşılık {ar:يَمْلِكُ, tr:yemliku, gloss:sahip olup yönetmek} zarar ve yarar üzerinde bağımsız tasarruf ölçüsünü kurar; {ar:ضَرًّا, tr:darran, gloss:zarar} ve {ar:نَفْعًا, tr:nef'an, gloss:yarar} bu ölçünün iki yönünü adlandırır. Elçilik, beslenme, geçicilik ve sınırlı tasarruf aynı bağımlılık sahnesinde buluşur. 5:17 ayetinde Mesih, annesi ve yeryüzündeki herkes üzerinde Allah'ın dilediğini yok etme, yaratma ve sahip olma kudretinin sorulması da bu yaratılmış kırılganlığı daha geniş bir çerçevede görünür kılar; 5:72'deki kimlik iddiası yaratılmışlık ve sınırlı kudret karşısında yeniden okunur.
+
+(61:6)'da Mesih'in İsrailoğullarına Allah'ın elçisi olarak hitap etmesi, 5:72'deki doğrudan seslenişi bir elçilik görevi içinde duyurur. (4:172)'de Mesih'in Allah'a kul olmaktan çekinmemesi ise aynı kişiyi ilâhî özneye dönüştüren iddianın karşısına açık bir kulluk statüsü koyar. Böylece “Rabbim ve Rabbiniz” sözü, hem topluluğa gönderilmiş bir elçinin çağrısı hem Allah'a bağlı bir kulun ortak kulluk daveti olarak belirir. Bu tamamlayıcı bağ, (61:6) ve (4:172) ayetlerindeki hitap ve kulluk hareketleriyle sınırlı bir tamamlayıcı okuma sunar.
+
+(5:0)'daki besmele içinde geçen {ar:ٱللَّهِ, tr:Allah, gloss:Allah'ın adı} ile 5:72'de tekrar edilen Allah adı yan yana geldiğinde, kulluk çağrısı başlangıçta adlandırılmış aynı ilahî merkeze yerel bir dönüş kazanır. Bu temasın katkısı, âyetteki üçüncü kişi anlatımında aynı özel adın yeniden görünmesini belirginleştirmektir; 5:72'deki anlatım böylece dua ya da yemin kalıbı değil, kulluk çağrısının cümlesi olarak kalır. 1:2 ayetindeki {ar:رَبِّ ٱلْعَٰلَمِينَ, tr:rabbil-'âlemîn, gloss:bütün âlemlerin Rabbi} ifadesi, {ar:رَبِّى, tr:rabbî, gloss:Rabbim} ve {ar:رَبُّكُمْ, tr:rabbukum, gloss:Rabbiniz} sözünü ortak ve evrensel bir yönetim ilişkisi içinde duyurur; yakın hitabın sınırını kaldırmadan Rabb sözünün kapsamını genişletir. 1:5 ayetindeki {ar:إِيَّاكَ نَعْبُدُ, tr:iyyâke na'budu, gloss:yalnız Sana kulluk ederiz} ise {ar:ٱعْبُدُوا۟, tr:u'budû, gloss:kulluk edin} emrinin Allah'a yönelen ve pay bırakmayan kulluk boyutunu görünür kılar. Böylece emir birinci çoğul şahıs sözüne çevrilmeden, yöneldiği ilahî nesne bakımından keskinleşir.
+
+## İddianın Söz İçinde Taşınması
+
+5:64 ayetinde Allah hakkında ileri sürülen sözün eli bağlayan, sonra eli açan karşıt görüntülerle karşılanması, sözün yetkeyi daraltıp genişletebilen bir eylem gibi duyulmasına katkı verir. El, orada uzuv olmanın ötesinde sıkışmış ve yeniden açılmış imkânın taşıyıcısıdır. 5:72'de çoğul {ar:قَالُوا۟, tr:qâlû, gloss:dediler} ile tekil {ar:قَالَ, tr:qâle, gloss:dedi} yan yana geldiğinde, sözün konumları daraltıp düzelten bir hareketi görünür olur. Mesih'in {ar:رَبِّى, tr:rabbî, gloss:Rabbim} ve {ar:رَبَّكُمْ, tr:rabbekum, gloss:Rabbiniz} demesi, denklemi ortak kulluk ve bağımlılık eksenine çeker. Bu geçiş, 5:64 ayetindeki yanlış söz ile karşı-söz arasındaki açık karşıtlığın 5:72'ye yaptığı sınırlı katkıyı gösterir; 5:72'nin hükmü bu yankı içinde doğrudan anlamını korur.
+
+{ar:قَالُوا۟, tr:qâlû, gloss:dediler} kelimesinin olağan söz ve görüş benimseme anlamı, 5:72'deki toplu iddianın niteliğini de açar: bir topluluk yalnız ses üretmez, bir konumu sahiplenir. 5:73 ayetindeki {ar:ثَالِثُ ثَلَاثَةٍ, tr:sâlisu selâsetin, gloss:üçün üçüncüsü} ifadesi üçlü bütün içindeki sayılmış parçayı görünür kılar, {ar:إِلَٰهٌ وَاحِدٌ, tr:ilâhun vâhid, gloss:tek ilah} ise bu sayılmış yapı karşısında bölünmemiş birliği kurar. Bu iki söz 5:72'deki {ar:يُشْرِكْ, tr:yuşrik, gloss:ortak koşarsa} uyarısına değdiğinde, ortaklık sayısal bölünmeyi, tek ilah ise onun karşısındaki bütünlüğü duyurur. 5:72 ile 5:73 arasındaki yakın temas, {ar:قَالُوا۟, tr:qâlû, gloss:dediler} biçiminin söz ile görüş benimseme arasındaki hareketini görünür kılar; “dediler” ve görüş benimseme anlamı âyetin içinde yaşamaya devam eder.
+
+## Şartın Kurduğu Eşik
+
+Buyruğun hemen ardından gelen {ar:إِنَّهُ, tr:innehû, gloss:şüphesiz bu} kısa ve kaynaşmış biçimi, sözü belirli topluluktan herkesi bağlayan bir ilkeye taşır. Buradaki zamir yeni bir kişi getirmekten çok, ardından gelecek meseleyi kuvvetle tanıtır. {ar:مَنْ, tr:men, gloss:kim} koşul zamiri bu ilkeyi tek bir tarihsel topluluğa kapatmaz; fiili yapan her kişiyi kendi sorumluluğuyla karşı karşıya getirir. Sonra {ar:يُشْرِكْ, tr:yuşrik, gloss:ortak koşarsa} gelir. Bu fiilin etkin biçimi, ortaklığın kendiliğinden oluşmuş bir karışıklık değil, öznenin bir şeyi ortak kılması olduğunu duyurur. Yanındaki {ar:بِ, tr:bi, gloss:ile} ve ardından gelen {ar:ٱللَّهِ, tr:Allah, gloss:Allah} bu ilişkinin tarafını belirler: paylaştırılmaya çalışılan bağ doğrudan Allah'la kurulur. 4:48 ve 4:116 ayetlerindeki ortak koşma formülleri bu ilişkinin bağlam yankısını taşır.
+
+6:148 ayetinde ortak koşanların tercihlerini Allah'ın dilemesine bağlayan mazeret sözü, {ar:يُشْرِكْ, tr:yuşrik, gloss:ortak koşarsa} fiilindeki sorumluluk gerilimini görünür kılar. Böylece fiil, 5:72'de yalnız bir inanç sınıflaması değil, tercihin sorumluluğunu dışarıya taşıyan bir söz eylemi olarak da duyulur. 22:31 ayetinde ortak koşma, gökten düşme, kuşların kapması ve rüzgârın uzak yere savurması görüntülerini art arda getirerek yön ve tutunma ekseninin kaybını yoğunlaştırır. 5:72'deki yanlış ortaklık ilişkiyi, 6:148'deki mazeret sözü sorumluluktan uzaklaşmayı, 22:31'deki düşüş görüntüleri ise tutunma ekseninin kaybını öne çıkarır; bu üç bağlam birlikte sorumluluktan uzaklaşmanın farklı görünümlerini gösterir.
+
+Şartın cevabını {ar:فَ, tr:fe, gloss:böylece} açar ve ikinci {ar:قَدْ, tr:qad, gloss:kesinlik edatı} sonucu kurulmuş bir hüküm olarak sıkılaştırır. {ar:حَرَّمَ, tr:harrama, gloss:haram kıldı} etkin ve şeddeli biçimiyle dışlamayı uygulanan bir yasaklama olarak kurar. {ar:ٱللَّهُ, tr:Allah, gloss:Allah} bu fiilin açık öznesidir; sonuç belirli bir ilahî tasarruf olarak görünür. {ar:عَلَيْهِ, tr:aleyhi, gloss:ona karşı} tekil zamirle hükmü {ar:مَنْ, tr:men, gloss:kim} ile açılan her failin üzerine yöneltir. Edat-zamir ilişkisi burada yakına yönelen etkisini dışlama sonucuna taşır. Böylece ortak koşma ile Cennet'ten yoksun bırakılma arasında doğrudan bir şart-cevap bağı kurulur.
+
+{ar:ٱلْجَنَّةَ, tr:el-cenne, gloss:Cennet} belirli isim biçimiyle yoksun bırakılan nimeti açıkça gösterir. Kelimenin örtme, gizlenme ve çevrili bahçe alanı, {ar:حَرَّمَ, tr:harrama, gloss:haram kıldı} fiilinin erişimi kesen hareketiyle buluşunca korunan bir alanın kapısının kapanması görüntüsünü kurar. 5:12 ayetindeki nimet bahçeleri bu alanın nimet yönünü, 5:65 ayetindeki vaat bahçeleri vaat yönünü duyurur; 5:72'de aynı bahçe alanı mahrumiyet yüzüyle belirir. 5:74 ayetinde hemen ardından gelen {ar:يَتُوبُونَ, tr:yetûbûne, gloss:dönüyorlar} çağrısı, {ar:رَحِيمٌ, tr:rahîm, gloss:merhamet eden} ve {ar:يَغْفِرْ, tr:yağfir, gloss:örter ve bağışlar} sözleriyle dönüş ve bağışlanma imkânını bu hükmün yanına yerleştirir. Bu dönüş yolu 5:72'deki Cennet'ten yoksun bırakma hükmünü ciddiyetiyle korur ve mahrumiyetin hemen sonrasındaki belirli bağlamda cevaplanabilir bir yörünge açar.
+
+## Yer Değiştiren Sığınak
+
+Cennet'in ardından gelen {ar:وَ, tr:wa, gloss:ve} bağlacı iki sonucu aynı hükmün birlikte işleyen basamakları hâline getirir. {ar:مَأْوَىٰهُ, tr:me'vâhu, gloss:barınağı} kişiye atanmış dönüş, sığınma ve ikamet yerini kurar; sondaki iyelik eki bu barınağın doğrudan o kişiye ait son durak olduğunu belirginleştirir. Ardından {ar:ٱلنَّارُ, tr:en-nâr, gloss:ateş} gelir ve bu barınağın maddesini ve niteliğini ateş olarak açıklar. Belirli isim biçimi ateşi herhangi bir ateş olarak dağıtmaz; Cennet'ten yoksun bırakılmanın ardından belirlenmiş son durak olarak kurar. 3:151 ve 3:162 ayetlerinde ateşe sığınak denmesi, 32:20 ayetinde ateşin doğrudan sığınak diye kurulmasıyla birlikte bu ters yerleşim daha elle tutulur hâle gelir: korunaklı bir bahçeden çıkarılan kişi başka bir barınak yerine, ateşin atanmış sığınağına yönelir.
+
+Bu yer değiştirme görüntüsünde {ar:ٱلْجَنَّةَ, tr:el-cenne, gloss:Cennet} örtülü ve koruyucu bahçe işlevini, {ar:مَأْوَىٰهُ, tr:me'vâhu, gloss:barınağı} yönelinen ve kişiye atanmış yeri, {ar:ٱلنَّارُ, tr:en-nâr, gloss:ateş} ise bu yerin yanan sonucunu kurar. Ateş kelimesinin ısı, ışık ve açığa çıkma çağrışımları arka planda duyulabilir; 5:72'deki belirleyici katkısı ceza ateşidir. 5:64 ayetinde ateşin insanlar tarafından yeniden yakılması ve Allah tarafından söndürülmesi bu kelimeye toplumsal bir yankı ekler: savaş ve düşmanlık, insanlar arasındaki bozulmuş ilişkinin ateş suretindeki görünümü olur; tekrarlı tutuşturma, kışkırtıcı söz ve ittifakların ürettiği sosyal sıcaklığı düşündürür. Bu toplumsal görüntü, 5:72'deki cezalandırıcı ateş anlamına eklenen sınırlı bir yankı olarak kalır.
+
+Bahçe-ateş karşıtlığı, 5:82, 5:83 ve 5:85 ayetlerinde sözün farklı karşılıklarını art arda gösteren bir hareket görüntüsü kazanır. 5:82 ayetinde {ar:أَقْرَبَهُم, tr:akrabuhum, gloss:onlara daha yakın} ve {ar:مَوَدَّةً, tr:meveddeten, gloss:sevgi} yakınlığın zihinsel kabulü aşan duygusal yönünü açar; {ar:لَا يَسْتَكْبِرُونَ, tr:lâ yestekbirûne, gloss:büyüklük taslamıyorlar} alımlamanın kendini yüceltmeyen duruşunu tamamlar. 5:83 ayetinde {ar:يَسْمَعُونَ, tr:yesme'ûne, gloss:işitiyorlar} sözü ilk alımlama olarak getirir, {ar:عَرَفُوا, tr:arafû, gloss:tanıdılar} işitmenin tanımaya dönüşmesini gösterir; ardından {ar:آمَنَّا, tr:âmen nâ, gloss:inandık} açık kabule geçişi bildirir. 5:85 ayetinde {ar:فَأَثَابَهُمُ, tr:fe-esâbehumu, gloss:karşılığını verdi} bu kabulün karşılığını, {ar:جَنَّاتٍ, tr:cennât, gloss:ağaçlı bahçeler} ise olumlu sonucun bahçe görüntüsünü kurar. Bu üç ayetteki sıra, 5:72'deki {ar:قَالُوا۟, tr:qâlû, gloss:dediler} sözünü topluluğa yapıştırılmış tek bir etiket olarak değil, işitme, tanıma, sevgiyle yaklaşma, alçakgönüllü kabul, iman ve karşılık arasında farklı tepkilere açılan bir söz kalıbı olarak duyurur. 5:72'nin hükmü bu karşılaştırmada yerini korur; aynı söz kalıbının farklı cevaplara açılabildiği de böylece görünür olur.
+
+Bu karşılıkların maddi yörüngesi de belirgindir. 5:83 ayetinde {ar:ٱلدَّمْعِ, tr:ed-dem', gloss:gözyaşı} alımlayıcı cevabı sıvı bir biçime, {ar:تَفِيضُ, tr:tefîdu, gloss:taşıyor ve taşıp akıyor} gözyaşını sınırı aşan bir akışa dönüştürür. 5:85 ayetinde {ar:تَجْرِي, tr:tecrî, gloss:akıyor} bahçeyi durağan bir sonuç olmaktan çıkarıp akan bir mekâna çevirir; {ar:جَنَّة, tr:cenne, gloss:ağaçlı bahçe} ve {ar:جَنَّاتٍ, tr:cennât, gloss:ağaçlı bahçeler} bahçe alanını, {ar:أَنْهَارٍ, tr:enhâr, gloss:nehirler} ise bu alanın altındaki sürekli akışı kurar. Böylece 5:72'deki ateş kapanan uç, taşan gözyaşı ve nehirler ise başka bir cevabın akarak bahçeye varan karşı-yörüngesi gibi duyulur. Bu, 5:83 ve 5:85 ayetlerinin belirli bağlamından doğan sınırlı bir imgedir: gözyaşı ile nehirler 5:72'deki bahçe ve ateşin sözlük karşılıklarını değil, bu iki ayette açılan akış görüntüsünü taşır.
+
+## Yardımın Kapanan Yeri
+
+Son cümle {ar:وَ, tr:wa, gloss:ve} ile ateşten sonra yardımın da kapanışa katıldığını gösterir: {ar:مَا, tr:mâ, gloss:hiçbir} olumsuzluğu yardımdaki azlığı değil bütün imkânın yokluğunu bildirir. {ar:لِ, tr:li, gloss:için} edatı beklenen desteğin kime yönelmesi gerektiğini açar; {ar:ٱلظَّٰلِمِينَ, tr:zâlimîn, gloss:haksızlık edenler} ise tek bir anı değil bu eylemle nitelenen fail sınıfını belirler. Kelimenin haksızlık, yerinden etme ve karanlık alanı {ar:يُشْرِكْ, tr:yuşrik, gloss:ortak koşarsa} fiilinin ilişkiyi yanlış yere koyan hareketiyle buluştuğunda, zulüm burada belirli bir ilişkisel yer değiştirme olarak duyulur. Bu anlam 5:72'deki ortak koşma ve onun sonucu içindeki fail sınıfına bağlanır.
+
+{ar:مِنْ, tr:min, gloss:-den} bu olumsuzluğu “hiçbir yerden” sınırına kadar sıkılaştırır; yardım alanından tek bir destek biçimi bile dışarıda kalmaz. {ar:أَنصَارٍ, tr:ensâr, gloss:yardımcılar} belirsiz çoğul biçimiyle yardım edenleri, kurtarıcıları, destekçileri ve üstünlük sağlayacak müttefikleri kapsayan bir alan açar. Böylece Cennet'ten dışlanma ve ateşe yerleşme sonrasında insanî ya da başka bir destekle onarılacak bir çıkışın bulunmadığı bildirilir. 2:270 ve 3:192 ayetlerindeki yardımcı yokluğu formülleri bu kapanışı destekler; Mesih'in sözleri çevresinde duyulan yardım alanı da son basamağın kurtarılma imkânını neden bütünüyle kapattığını belirginleştirir.
+
+Yardımın bu kapanışı 5:79 ayetinde başka bir sorumluluk biçimiyle somutlaşır. Orada {ar:فَعَلُوهُ, tr:fa'alûhu, gloss:onları yaptılar} ve {ar:يَفْعَلُونَ, tr:yef'alûne, gloss:yapıyorlardı} biçimleri tek bir sürçmeden çok yinelenen bir uygulamayı gösterir; {ar:نَكَرُوا, tr:nekerû, gloss:çirkin buldular} düzeltilmesi gereken davranışı, {ar:يَنْهَوْنَ, tr:yenhevne, gloss:alıkoyuyorlar} ise bu yanlışı sürerken kesen müdahaleyi adlandırır. Bu zaman farkı, {ar:أَنصَارٍ, tr:ensâr, gloss:yardımcılar} sözünün hem sonradan kurtaranları hem haksızlık yerleşmeden önce onu durduran desteği çağrıştırmasını sağlar. 5:72'nin “yardımcı yok” hükmü son aşamadaki sonucu belirler; 5:79 ayetindeki toplumsal başarısızlık sahnesi ise yardımın zamanında düzeltici bir karşılık olabileceğini görünür kılar.
+
+</editorial_prose>

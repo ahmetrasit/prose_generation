@@ -1,0 +1,183 @@
+# V5 reading invitation — 5:34
+
+You are a fresh reading-invitation writer. Read the complete editorial prose
+before writing. It is your sole semantic source.
+
+Write two to four paragraphs of fluent, contemporary Turkish that reveal a
+surprising reading by following one or two main channels of resonance in the
+ayah. A channel is a connected background of meanings, images, actions, or
+relations through which the ayah can be heard and understood differently.
+Several editorial findings may together develop one channel. Summarize that
+connected movement and its consequence for the ayah's main meaning, rather
+than compressing findings individually. Give the reading's substance now;
+the invitation comes from understanding it, not from a promise of hidden depth.
+
+Before drafting, read the entire editorial prose and silently select the one
+or two channels with the strongest interpretive consequence and enough
+grounding to explain clearly. Favor channels that expand or shift what the
+ayah says, the relation it establishes, or what is at stake in its action or
+image. One fully developed channel is sufficient; add a second only when it
+offers a distinct consequential reading that can be explained within the
+invitation. No finding, channel, or major shift has an individual coverage
+claim. Unselected material may remain entirely in the full commentary.
+
+A channel may develop through grammar, sound, dialogue, a material process,
+time, imagery, or a conceptual relation. Resonance is not limited to acoustic
+effects, and an unusual image alone does not establish a channel. Use only
+connections the editorial prose actually develops. If it supplies no such
+channel, explain its strongest grounded reading without inventing connections
+or surprise.
+
+Begin inside the ayah's own words, images, actions, or relations and reveal a
+selected distinctive reading in the first paragraph. Keep the plain meaning
+reachable with only the orientation needed to understand the change. Do not
+spend an opening paragraph on routine explanation or front-load context about
+the surah, the ayah's position, or the commentary project.
+
+For each selected channel, begin with the expression that opens it, unfold the
+connected background, and show how the ayah reads or sounds against that
+background. Let a detail lead into the next through an intelligible relation
+or process, so the reader experiences the emerging reading. This is a movement
+of thought, not a mandatory sentence pattern or one paragraph per finding.
+Let the reader identify the expression being interpreted,
+where any nonordinary detail comes from, and what that detail changes in the
+reading. Briefly identify the word-family use, restricted form, collocation, or
+context that supplies an essential added detail, and preserve the concrete
+operation that makes the image work. Keep the ordinary reading and necessary
+qualification clear within this explanation; do not repeat them as a fixed
+formula. Preserve the particular object, process, or relation that makes this
+reading distinctive, and state its interpretive consequence for the ayah as a
+whole. Make intelligible what the familiar reading leaves less visible and
+what the expanded or shifted reading now lets the reader understand. Preserve
+the editorial's force: an exploratory possibility remains possible, while a
+developed shift must not be softened into a decorative association or a
+reassurance that everything means the same thing. A concrete
+account of how something is carried, transformed, lost, or restored must not
+shrink to a general statement about care, guidance, dependence, or goodness.
+Keep the details needed to make the selected channel work; omit side findings
+and shorten routine setup. If a channel cannot be explained faithfully from
+the editorial prose, choose another grounded channel or reading.
+
+When a non-focus ayah supplies a contribution used in the invitation, keep its
+reference from the editorial prose beside that contribution.
+
+Do not turn the invitation into a miniature inventory of the commentary's
+conclusions, or flatten distinct channels into a broad theme to include more
+material. Do not repair, extend, or supplement the editorial prose from memory
+or outside knowledge.
+
+Omit technical apparatus. Retain any qualification, source distinction, live
+alternative, or boundary whose absence would change the force or meaning of a
+chosen reading. Express it naturally beside the image or relation it qualifies.
+Favor positive explanations of the relation between layers: what remains in
+the foreground and what the resonance makes audible in the background. State
+how that background reinforces, expands, or shifts the understanding of the
+main meaning, with the source and degree of certainty clear. Reserve explicit
+exclusions for concrete ambiguities or live counter-evidence that need them.
+Repeated "this is not X" endings make a reading sound withdrawn; express the
+substantive qualification through what the reading does contribute wherever
+possible. Use varied, natural language rather than a repeated "second layer"
+formula, and preserve the force of expansions and shifts.
+Do not name branches, candidates, findings, scopes, evidence categories,
+ledgers, or workflow stages, or label the prose as numbered channels. Do not
+list findings serially.
+
+Use the established `{ar:..., tr:..., gloss:...}` syntax, consistent
+Turkish-readable transliteration, and short ordinary glosses. Keep Arabic
+anchors beside the explanations they ground. Within a paragraph, continue with
+the Turkish meaning where clear; provide the necessary local tag when a later
+paragraph interprets the carrier anew. Do not place Arabic script outside a
+valid tag.
+
+Build transitions within a channel through its shared object, action, or
+relation. If two channels are selected, they may occupy separate paragraphs;
+do not invent a link between them. Do not praise the commentary's quality,
+promise what the reader will find, manufacture suspense, recap at the end, or
+add a call to action. End on an image, relation, action, or tension already
+established by the selected reading.
+
+Before finishing, compare the invitation with the entire editorial prose:
+does the chosen channel reveal a consequential reading, or could the text have
+been written from the ordinary translation and a modest explanation alone?
+When the editorial supports a surprising channel, the latter fails this task.
+Can the reader follow the opening expression into a connected background and
+understand how that background expands or shifts the ayah's main meaning?
+Check the selected connections against their editorial explanation: can the
+reader tell where the nonordinary details come from, with the necessary
+qualifications intact? Repair generic explanation, isolated curiosities, or a
+compressed findings list by developing the selected channel. Do not add
+omitted channels merely for coverage. Do not output this check.
+
+Write only the invitation text to:
+
+`_commentary/v5/editorial/s005-p03-with-fatiha/s005/5_34/5_34.invitation.tr.md`
+
+Do not add a heading, wrapper label, index, ledger, evidence file, or any other
+artifact. Do not modify the editorial prose.
+
+After writing the invitation, run:
+
+```bash
+python3 _commentary/v5/validate_prose.py _commentary/v5/editorial/s005-p03-with-fatiha/s005/5_34/5_34.invitation.tr.md
+```
+
+If validation fails, repair only the reported mechanical file-contract issues
+and rerun it, for at most two repair cycles. Report the final validator result
+in your response.
+
+<editorial_prose>
+Bu âyet, önceki ağır hükmün (5:33) içinden belirli bir istisna açar: onlar üzerinde güç kazanılmadan önce tövbe edenler bu hükmün dışında tutulur; hemen ardından Allah'ın çok bağışlayıcı ve merhametli olduğu bilinmesi istenir. `{ar:إِلَّا, tr:illā, gloss:ancak}` önceki cümleye bağlı bir ayrı tutma kurar. Kendi başına kök anlamı taşımayan bu edat, önceki hüküm ile hemen ardından gelen insan sınıfı arasındaki ilişkiyle çalışır. Sesçe kendisine bağlanan `{ar:ٱلَّذِينَ, tr:alladhīna, gloss:onlar ki}` de bu sınıfı istisnanın içine doğrudan yerleştirir. Bu yüzden sonda gelen bağışlama ve merhamet, olaydan kopuk bir teselli değil, belirli bir şartın ardından bilinmesi gereken ilahî karşılık olarak duyulur.
+
+`{ar:ٱلَّذِينَ, tr:alladhīna, gloss:onlar ki}` önce söylenir; `{ar:مِن, tr:min, gloss:-den/-dan}` ile başlayan zaman sınırı sonra gelir. Kişiler önce görünür, süre sınırı onların eylemini niteler. Bu belirli çoğul ilgi zamiri, önceki hükümdeki suçluları soyut bir suç türü olarak değil, belirli insanlar olarak yeniden çağırır. Kimi ayırdığı ise `{ar:تَابُوا۟, tr:tābū, gloss:tövbe ettiler}` gelince tamamlanır; sınıfın adı, onu tanımlayan tamamlanmış dönüşten ayrı durmaz.
+
+`{ar:تَابُوا۟, tr:tābū, gloss:tövbe ettiler}` tamamlanmış bir dönüşü bildirir. Bu dönüş, insanın onlar üzerinde güç kazanacağı zamandan önce gerçekleşmiş bir eylem olarak şartı yerine getirir; yalnızca içte kalmış bir niyet gibi bırakılmaz. Fiilin açık bir nesne almaması yönü açık tutar ve metne söylenmemiş bir hedef ya da ettirgenlik eklemez. Çoğul ek, tamamlanmış hareketi ilgi zamirinin bütün sınıfına dağıtır: tek tek kişilerin ortaklaşa taşıdığı bir değişiklik görünür. Böylece tövbe, istisnayı doğuran somut hareket olur; şartın sınırı da bu belirli eylemin zamanına bağlanır.
+
+`{ar:مِن, tr:min, gloss:-den/-dan}` burada kaynak bildiren temel kuvvetini zamana taşır ve `{ar:مِن قَبْلِ, tr:min qabli, gloss:önceden}` ifadesiyle tövbeyi yetkinin gerçekleşeceği noktanın önceki tarafına yerleştirir. Edatın `{ar:تَابُوا۟, tr:tābū, gloss:tövbe ettiler}` fiiline bağlanması, zaman sınırının bilme emrini değil dönüşü nitelediğini gösterir. `Min`den `{ar:قَبْلِ, tr:qabli, gloss:önce}`ye geçişteki ses değişimi de bu eşiği işitilebilir biçimde sıkılaştırır. Qabli'nin zaman, yer, sıra veya düzey bakımından sonrakinin önünde bulunmayı bildiren sözlük alanı, burada ihtiyatla bir karşılaşma baskısı doğurur; taşıdığı açık anlam zamansal önceliktir.
+
+`{ar:تَابُوا۟, tr:tābū, gloss:tövbe ettiler}` ile `{ar:تَقْدِرُوا۟, tr:taqdirū, gloss:güç yetirmeniz}` arasındaki ses akışı, dönüşten yetki baskısına doğru ilerleyen cümleyi duyurur. `{ar:قَبْلِ, tr:qabli, gloss:önce}` tek bir önce noktasını kurar; `{ar:أَن, tr:an, gloss:-mesi}` bu noktanın tamamlayıcısı olan güç olayını getirir. Böylece gevşek bir ahlak şartı değil, muhatapların belirli bir güce erişeceği somut eşik belirir. Taqdirū bu eşikte bir işi gerçekleştirmeye elveren yerleşik güç ve yetkinliği taşırken, sahip olma, egemen olma ve dilediğini gerçekleştirebilme görünümünü de açar. İnsan gücü cümlenin hukukî aracı olarak kalır; âyetin dikkati biraz sonra bu gücün üstünde konuşulan ilahî niteliklere döner.
+
+Bu kapasitenin hem sınırı hem hedefi `{ar:عَلَيْهِمْ, tr:ʿalayhim, gloss:onların üzerine}` ile belirlenir. `{ar:قَبْلِ, tr:qabli, gloss:önce}` ile alayhim arasındaki ilişki, gücün soyut bir kudret değil, bilinen insanlar üzerinde gerçekleşecek yönelmiş erişim olduğunu gösterir. Fiilin ikinci çoğul ve geleceğe yönelen yapısı, istisna penceresinin muhataplar fiilî gücü kazandığında kapanacağını bildirir: sınır, yalnız suçun geçmişte işlenmesine göre değil, daha sonra o kişilerin üzerine güç gelmesine göre belirlenir. Ardından gelen `{ar:فَ, tr:fa, gloss:öyleyse}` bu eşiği bir bilgi görevine bağlar. Cümle insanların ne yapabileceğinden, bu yapabilme gücünün hangi idrak içinde tutulacağına geçer.
+
+`{ar:ٱعْلَمُوٓا۟, tr:iʿlamū, gloss:bilin}` çoğul emir olarak muhatapları cezalandırma konumundan bilme konumuna geçirir. Önündeki istisna ve güç eşiği, bu emri az önce kurulan sınırın zorunlu idraki haline getirir. Bilme kalıbı hukukî talimatın içinde sonucu bildirir: merhamet, uzakta duran bir yakarış olarak değil, bu somut durumda bilinmesi gereken ilahî nitelik olarak gelir. Bilmek burada zihinde veri bulundurmanın yanında, istisnayı ayırt eden belirgin ve yol gösterici işareti kaydetme yönünü de taşıyabilir. `{ar:إِلَّا, tr:illā, gloss:ancak}` ile açılan sınır ve `{ar:تَقْدِرُوا۟, tr:taqdirū, gloss:güç yetirmeniz}` ile belirlenen eşik bu işareti görünür kılar; bu yerel imge, emrin olağan bilme anlamına eklenir.
+
+`{ar:أَنَّ, tr:anna, gloss:şu gerçeği ki}` bilme emrinin içeriğini açar; `{ar:ٱللَّهَ, tr:Allāha, gloss:Allah'ı}` da son iki yüklemin aynı içerik cümlesindeki öznesini belirler. Bilme görevi böylece insan topluluğuna veya ceza düzenine değil, Allah'ın bu olayda nasıl nitelendirildiğine yönelir. Özel ad, tövbe ile bağışlama ve merhameti tek bir belirli özneye bağlar; son nitelikler bu istisnaya karşılık veren ilahî cevap olarak yerleşir. Adın kulluğun yöneldiği varlık ve sığınılan özne yönündeki rengi, bu kişisel belirginliği destekler; bu çağrışım özel adı genel bir tanrı adına çevirmeden yerel anlamını derinleştirir.
+
+`{ar:غَفُورٌۭ, tr:ghafūrun, gloss:çok bağışlayıcı}` içerik cümlesinde ileri sürülen bir nitelik olarak işler. İşlenmiş suçu bağışlama ile suç işleyeni cezanın kendisine ulaşmasından koruma hareketlerini birlikte taşır. Önceki güç ve istisna sınırı bu koruyucu örtü yönünü harekete geçirir. Kelimenin yoğun ve yerleşik nitelik bildiren kalıbı, bağışlamayı süreklilik taşıyan ilahî vasıf olarak kurar; belirsiz ve yalın yüklem oluşu da bu vasfı içerik cümlesinin içinde doğrular. Ardından bağlaçsız gelen `{ar:رَّحِيمٌۭ, tr:raḥīmun, gloss:merhametli}` ile birlikte bağışlama ve merhamet, bilinmesi istenen hükmün iki bağlı fakat ayrı hareketi olur.
+
+`{ar:رَّحِيمٌۭ, tr:raḥīmun, gloss:merhametli}` faʿīl kalıbıyla örtmenin ardından yerleşik, devamlı ve içten bir merhamet niteliği getirir. İki kalıp önce koruyan bağışlamayı, sonra kalıcı merhameti duyurur; her biri ötekinin anlamını taşırken kendi hareketini korur. Rahîm'in cümlede son sıraya yerleşmesi, sert güç eşiğinden sonra sesi bu devamlı merhamette bırakır. Kelime, merhamet anlamının yanında yavrunun oluşup geliştiği ve taşındığı koruyucu bir iç kap imgesini de ihtiyatla hatırlatabilir. Önceki `{ar:غَفُورٌۭ, tr:ghafūrun, gloss:çok bağışlayıcı}` niteliğinin örtüsü bu görüntüyü açar; bu imge merhametin koruyucu yönüyle sınırlı kalır, gerçek bir organ işleyişi veya soy bağı iddiasına uzanmaz.
+
+Bu noktada `{ar:ٱعْلَمُوٓا۟, tr:iʿlamū, gloss:bilin}` emrinin açtığı işaret, `{ar:غَفُورٌۭ, tr:ghafūrun, gloss:çok bağışlayıcı}` ve `{ar:رَّحِيمٌۭ, tr:raḥīmun, gloss:merhametli}` nitelikleriyle birlikte insan gücünün nasıl tutulacağını gösterir. `{ar:تَقْدِرُوا۟, tr:taqdirū, gloss:güç yetirmeniz}` muhatapların gerçekleştirme ve egemen olma kapasitesini korur; bağışlayıcı nitelik bu gücün karşısında korumayı, merhamet niteliği ise süreklilik taşıyan iyilik ve esirgemeyi açar. Böylece bilme görevi, insanî denetimi kendi kendine yeten bir tahakküm olarak değil, ilahî koruma ve merhamet ufku içinde sınırı görülen bir güç olarak kavratır. Hukukî yetki cümlede yerini korur; iki ilahî nitelik de tek bir sıfata indirgenmeden birlikte işler.
+
+## Dönüşün Vakti
+
+Şimdi bu zaman eşiği, yakın anlatıdaki gecikmiş pişmanlıkla (5:31) karşılaşınca belirginleşir. 5:31'deki öldürme, ne yapılacağını bilememe, bedeni görünürlük arkasına yerleştirme ve sonunda pişmanlık dizisi, `{ar:أَعْجَزْتُ, tr:aʿjaztu, gloss:yapamadım}` sözünün başarısızlık tepkisiyle `{ar:نَادِمِينَ, tr:nādimīn, gloss:pişman olanlar}` hâlini aynı zararın sonrasına yerleştirir. Odaktaki `{ar:تَابُوا۟, tr:tābū, gloss:tövbe ettiler}` ise bu geç tepkinin yanında gönüllü, tamamlanmış ve zamanında bir yön değişikliği açar. Bu fiil dönüşe çağırma yönündeki bir yankıyı da duyurabilir; âyetteki biçim tamamlanmış dönüşü bildirerek bu yankının kapsamını sınırlar. Böylece `{ar:قَبْلِ, tr:qabli, gloss:önce}` yalnız takvimsel sıralamayı değil, zorlayıcı kapanıştan önce hâlâ değişebilen karar aralığını öne çıkarır. Bu yakın bağ, 5:31'deki pişmanlığın ileride başka bir dönüşe dönüşme ihtimalini açık bırakırken, tek başına bu pişmanlığın 5:34'ün zaman koşulunu kurmadığını gösterir.
+
+Bir önceki yaptırım cümlesi (5:33), bu zamanı bedensel bir karşılıkla da gerer. 5:33'teki `{ar:تُقَطَّعُوٓا۟, tr:tuqattaʿū, gloss:kesilip ayrılır}` bedenlere yönelen zorlayıcı kesmeyi taşır. Odaktaki `{ar:تَابُوا۟, tr:tābū, gloss:tövbe ettiler}` bu temasla zararlı çizgiden gönüllü ayrılma hareketini de duyurabilir; `{ar:تَقْدِرُوا۟, tr:taqdirū, gloss:güç yetirmeniz}` ise güç kazanmanın yanında daraltan ve kapanmaya yaklaşan bir eşik gibi görünür. Böylece aynı sırada iki ayrı ayrılma belirir: biri kişinin zorlayıcı kapanış gelmeden önce çizgiden dönmesi, diğeri bedenlere uygulanan yaptırımın kesmesi. Bu temasın katkısı, dönüşün cezai zincire ulaşmadan önce yön değiştirebilmesidir. Fiilin açık zamanı ve biçimi korunur; görüntü, kesmenin doğrudan sözlük karşılığına ya da fiziksel bir yakalama sahnesine değil, gönüllü ayrılmanın ihtiyatlı bağlamsal resmine hizmet eder.
+
+`{ar:قَبْلِ, tr:qabli, gloss:önce}` 5:27 ve 5:36'daki kabul karşıtlığıyla buluştuğunda zamanı hâlâ alımlanmaya açık bir pencere gibi hissettirir. 5:27'de `{ar:فَتُقُبِّلَ, tr:fetuqubbila, gloss:kabul edildi}` sununun uygun bulunup benimsenmesini, 5:36'da `{ar:مَا تُقُبِّلَ, tr:mā tuqubbila, gloss:kabul edilmedi}` ise en geniş telafinin geri çevrilmesini bildirir; `{ar:لِيَفْتَدُوا۟, tr:li-yaftadū, gloss:fidyeyle kurtulmaya çalışırlar}` sonradan bedel ödeyerek sonucu geri alma girişimini taşır. Bu karşılaşma, erken dönüşü ilişkinin değişebildiği bir aralık, geç ödemeyi ise kapanmış eşiği satın alamayan bir çaba olarak düşündürür. Aynı kökün zaman ve uygun bulup benimseme kullanımlarından çıkan bu pencere ihtiyatlı bir bağlam imgesidir: 5:34'ü bir ödeme kuralına dönüştürmez, her dönüşü de otomatik kabul edilmiş saymaz. 35:45'te sonucun belirli bir vadeye bırakılması, 39:54'te dönüşün sonuç gelmeden önceye bağlanması, 40:84 ve 40:85'te ise sonuç görüldükten sonraki geç dönüşün sınırı, `qabli`nin sıradan önce anlamını koruyarak bu eşiği farklı yönlerden görünür kılar.
+
+Dönüşün zamanı, dönüşün içeriğini de açar. 5:39'daki `{ar:تَابَ, tr:tāba, gloss:döndü}` ve `{ar:يَتُوبُ, tr:yatūbu, gloss:dönüşü kabul eder}` biçimleri insanın yönelişi ile Allah'ın karşılık veren dönüşünü aynı onarım hareketinde buluşturur; `{ar:بَعْدِ, tr:baʿdi, gloss:sonra}` dönüşü yanlışın sonrasına yerleştirir, `{ar:أَصْلَحَ, tr:asleha, gloss:onarım yaptı}` ise gözlenebilir bir düzeltme içeriği ekler. 5:34'teki `{ar:قَبْلِ, tr:qabli, gloss:önce}` yanlışın öncesini değil, insanî kontrolün öncesini gösteren ayrı zaman kesitidir. Bu iki eksen yan yana geldiğinde istisna, işlenmiş yanlışın ardından onarıma yönelen dönüşün, güç kazanımı henüz gerçekleşmeden etkili olabileceği sıra olarak okunur. Bu nedenle 5:39'un açık onarımı, 5:34'teki kontrol öncesi eşiği niteleyen ihtiyatlı bir paralel olarak yer alır; 5:34'ün kendi hükmü ve zamanı korunur. 5:39'da yeniden görünen `{ar:غَفُورٌۭ, tr:ghafūrun, gloss:çok bağışlayıcı}` ve `{ar:رَّحِيمٌۭ, tr:raḥīmun, gloss:merhametli}` nitelikleri, bağışlamayı onarımla, merhameti de onarıma alan açan etkin iyilikle birlikte duyurur.
+
+Aynı onarım teması (5:39), dönüşün ilişkiyi yeniden işler ve sürdürülebilir kılabildiği daha maddi bir görüntü açabilir. `{ar:تَابُوا۟, tr:tābū, gloss:tövbe ettiler}` fiilinin taşıdığı dönüş alanı, bozulan bir şeyi yeniden düzenleme yönüyle `{ar:أَصْلَحَ, tr:asleha, gloss:onarım yaptı}` hareketine dokunur. Bu temas, zorlayıcı güç kapanmadan önce tövbeyi cezai çizgiden geri çekilen bir iç yönelişin yanı sıra ilişkiyi yeniden kurulabilir kılan ara eşik olarak düşündürür. Buradaki düzenlenme, fiilin doğrudan sözlük karşılığı olarak değil, 5:39'un onarım temasına bağlı, biçimden uzak ama maddi bir analoji olarak taşınır; açık tövbe anlamı yerinde kalır.
+
+Yakın sırada bulunan 5:35, bu yeniden yönelişin sonraki hareketini gösterir. Odaktaki `{ar:تَابُوا۟, tr:tābū, gloss:tövbe ettiler}` dönüşü, 5:35'te hemen ardından gelen `{ar:وَجَاهِدُوا۟, tr:ve-câhidû, gloss:çaba gösterin}` emrindeki emeğe, `{ar:سَبِيلِهِۦ, tr:sabīlihi, gloss:onun yolu}`ndaki sürdürülen yöne ve `{ar:تُفْلِحُونَ, tr:tufliḥūn, gloss:başarıya erişirsiniz}` sözündeki ileriye dönük iyi sonuca bağlanır. Tövbe burada bu çabanın ardından kurulacak hareketin başlangıç kapısıdır; çaba değişimin devam eden maliyetini, yol kalıcı yönünü, başarı ise geleceğe açılan umudu taşır. Böylece istisna yalnız cezadan kurtulma anı olarak değil, emek ve yön isteyen yapıcı bir hareket alanına açılan eşik olarak duyulur. Bu yakın sıralama ihtiyatlı bir bağlam çıkarımıdır: 5:35'in muhatapları kendi bağlamındaki kişiler olarak yerinde durur, gelecekteki başarı umudu da 5:35'in ileriye dönük sonucu olarak kalır.
+
+Daha uzak dönüş paralelleri de (24:5, 2:160, 7:153, 4:16, 9:104, 25:70, 4:146) bu toplumsal yönü ayrı ayrı görünür kılar. `{ar:تَابُوا۟, tr:tābū, gloss:tövbe ettiler}` yanlış eylemden geri dönüp Allah'a yönelme çekirdeğini korurken bu temaslarda açıklama, iyilik, verme, güven ve yeniden katılım yönlerine açılır. Dönüş böylece yalnız içsel bir duygu değil, bozulmuş ilişkiye dışarıdan karşılık verebilen onarım ve yeniden kurma eylemlerine yönelebilen bir hareket gibi görünür. Bu paraleller, 5:34'teki her dönüşün bütün bu eylemleri şart koşan ayrıntılı bir hedef biçimi kurmaz; dönüşün toplumsal sonuç doğurabilen yönünü sınırlı biçimde görünür kılar. Açık anlam olan yanlış eylemden geri dönüp Allah'a yönelme burada korunur.
+
+## Gücün İçinde Merhamet
+
+5:31'deki bedensel örtme görüntüsü, ghafūrunun bağışlamada koruduğu hedefi görünür kılar. `{ar:غَفُورٌۭ, tr:ghafūrun, gloss:çok bağışlayıcı}` 5:31'deki `{ar:وُرِىَ, tr:ūrīya, gloss:görünürlük arkasına yerleştirildi}` eylemi ve `{ar:سَوْءَة, tr:sawʾe, gloss:açığa çıkmış utanç}` sözcüğüyle buluşur. Oradaki görüntü, zarar sonrasında görünür hale gelen bedenin saklanmaya çalışılmasıdır. Odaktaki bağışlayıcı nitelik ise işlenmiş suçu bağışlama ve dönüşen kişiyi cezanın etkisine karşı koruma yönlerini taşır. Böylece örtü imgesi, bağışlamanın hedefini suçun gerçeğinden cezanın ulaşacağı kişiye çeviren yönü belirginleştirir. Bu temas 5:31'in bütünü için bir açıklama değil, örtünün hedefi ve yönüyle sınırlı keşifsel bir karşılaştırmadır.
+
+`{ar:غَفُورٌۭ, tr:ghafūrun, gloss:çok bağışlayıcı}` 9:5'te dönüşten sonra yolun serbest bırakılmasıyla, 2:192'de çatışmanın bağışlamayla sona ermesiyle, 2:178 ve 5:45'te misillemeden bağış ve onarıma geçişle, 5:13 ve 9:3'te ise ihlal sonrasında bağışlama veya dönüşle birlikte okunur. Bu farklı sahneler aynı katkıyı adım adım açar: bağışlama, failin iç durumuyla sınırlı kalmayıp çatışmanın sürdürülüp bırakılacağını değiştiren bir korumaya dönüşür. Odak âyetinin önce yakalanma koşulu yerinde dururken, bu koruma kamusal sonuç doğurabilecek bir yön kazanır. Paralellerin kapsamı 5:34 için ayrıntılı bir hukuk formülü kurmak değil, çatışma eyleminin yönünü bağış ve onarıma çevirebilen sınırlı hareketi görünür kılmaktır; bütün çatışmaların kendiliğinden sona erdiği sonucu bu bağlantının dışında kalır.
+
+Merhamet kelimesi bu korumayı hayatın yönüne de bağlayabilir. 5:32'de `{ar:قَتَلَ, tr:qatala, gloss:öldürdü}` tek bir hayatın alınmasını, `{ar:أَحْيَاهَا, tr:ahyāhā, gloss:onu yaşattı}` ise tek bir hayatın korunmasını bütün insanların ölçeğinde karşılaştırır. Odaktaki `{ar:قَبْلِ, tr:qabli, gloss:önce}` ile `{ar:رَّحِيمٌۭ, tr:raḥīmun, gloss:merhametli}` bu karşıtlığa bağlandığında, istisna ağır yaptırım çizgisi içinde hayat lehine yön değiştirebilecek bir açıklık gibi görünür. Qatala yıkıcı sürecin beden alanına yönelen tarafını, ahyāhā hayatı koruyan olumlu sonucu, rahîm ise bu sonucu mümkün kılmaya yönelen etkin esirgemeyi taşır. Qabli burada hayatı alan zorlayıcı sürecin kapanışa ulaşmasından önceki ayrı zaman kesitidir. Bu, 5:32'nin açık hayat-ölüm karşıtlığından çıkan ihtiyatlı bir bağlamsal okumadır; hayatı koruyan bu yön, istisnanın tek hukukî işlevi olarak sabitlenmez ve her yaptırım sonucunu kendiliğinden kaldıran bir kurala dönüşmez.
+
+İnsanların onlar üzerinde güç kazanması da daha geniş bir yetki ufku içinde anlaşılır. `{ar:تَقْدِرُوا۟, tr:taqdirū, gloss:güç yetirmeniz}` bir işi gerçekleştirmeye elveren kapasiteyi taşırken, sahip olma, egemen olma ve dilediğini yapabilme görünümünü de açar. 5:40'taki `{ar:مُلْكُ, tr:mulk, gloss:egemenlik ve hükümranlık}` bu gücü kuşatan ilahî egemenliği; `{ar:يَغْفِرُ, tr:yaghfiru, gloss:bağışlar}` ve `{ar:قَدِيرٌۭ, tr:qadīr, gloss:her şeye gücü yeten}` ise bağışlama ile sınırsız kudretin ilahî özneye ait olduğunu bildirir. 5:120'de göklerin, yerin ve içindekilerin tek mülkiyet altında toplanması da aynı çerçeveyi genişletir. Böylece 5:34'teki insan gücü gerçek, kapsamı belirlenmiş ve daha geniş ilahî egemenlik içinde işleyen bir yetki olarak görünür; insanın güç yetirme anlamı korunurken bu temas ilahî mülkiyet ufkunun bütününü tüketmez.
+
+Bu güç, 5:42'deki insanlar arasında hüküm verme, bilgi ve hakkaniyet bağlamına taşındığında kamusal sorumluluk da kazanır. `{ar:تَقْدِرُوا۟, tr:taqdirū, gloss:güç yetirmeniz}` kararın uygulanmasına elveren gücü ve egemenlik görünümünü taşırken, `{ar:ٱعْلَمُوٓا۟, tr:iʿlamū, gloss:bilin}` nesneyi veya kişiyi başkalarından ayırıp tanınır kılan belirgin işareti öne çıkarır. İkisi birlikte, çoğul güç eşiğini özel bir failin intikam yetkisinden, bilgiyi ve hakkaniyeti taşıması gereken hesap verebilir bir karar eşiğine doğru açar. Çoğul hitabın genel topluluğa yöneliyor olabileceği ve belirli bir makam adının verilmediği ihtimali canlıdır; hüküm ve hakkaniyet için kelimelere ayrıca sözlük anlamı eklenmez.
+
+Rahîm'in koruyucu iç kap imgesi, toplumsal bir yeniden giriş düşüncesine de uzanır. `{ar:رَّحِيمٌۭ, tr:raḥīmun, gloss:merhametli}` kelimesinin döl yatağı anlamında hatırlattığı dişi bedenindeki kap, yavrunun oluşup geliştiği ve taşındığı bir korunma alanıdır. 5:31'deki kardeşliğin yeniden kurulması, 5:55'teki yakınlık ve 60:7'de eski düşmanlık sonrasında dostluğa açılan ilişki bu bedensel imgeyi toplumsal bağa taşır. Merhamet böylece yalnız cezanın yumuşaması değil, şiddetle kopmuş bağın yeniden kurulabilir hale gelmesi olarak duyulur. Bu temas, merhametin koruyucu yeniden giriş yönünü bedensel bir taşıyıcıyla kuran analojik bir okumadır; kapsamı gerçek bir organ işleyişi veya resmî topluluk üyeliği düzenine uzanmaz.
+
+Son olarak `{ar:ٱللَّهَ, tr:Allāha, gloss:Allah'ı}` adı Fatiha'daki `{ar:نَعْبُدُ, tr:naʿbudu, gloss:kulluk ederiz}` sözüyle (1:5) buluştuğunda, bu adın kulluğun yöneldiği ilahî varlık tarafını görünür kılar. 5:34'te Allah bağışlayıcı ve merhametli niteliklerin öznesidir; Fatiha'daki kulluk eylemi ise aynı özel adı tapınılan varlık olarak duyuran bağımsız teması verir. Böylece âyetin sonundaki merhamet, yalnız hukukî bir hükmün üstündeki sıfat değil, kulluğun yöneldiği özneyle kurulan ilişki içinde de algılanır. Bu uzak temas 5:34'ü bir ibadet emrine dönüştürmeden, Allah adının özel ad niteliğini ve tapınılan varlık yönünü birlikte duyurur.
+
+</editorial_prose>

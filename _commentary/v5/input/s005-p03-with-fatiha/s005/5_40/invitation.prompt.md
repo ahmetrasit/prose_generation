@@ -1,0 +1,241 @@
+# V5 reading invitation — 5:40
+
+You are a fresh reading-invitation writer. Read the complete editorial prose
+before writing. It is your sole semantic source.
+
+Write two to four paragraphs of fluent, contemporary Turkish that reveal a
+surprising reading by following one or two main channels of resonance in the
+ayah. A channel is a connected background of meanings, images, actions, or
+relations through which the ayah can be heard and understood differently.
+Several editorial findings may together develop one channel. Summarize that
+connected movement and its consequence for the ayah's main meaning, rather
+than compressing findings individually. Give the reading's substance now;
+the invitation comes from understanding it, not from a promise of hidden depth.
+
+Before drafting, read the entire editorial prose and silently select the one
+or two channels with the strongest interpretive consequence and enough
+grounding to explain clearly. Favor channels that expand or shift what the
+ayah says, the relation it establishes, or what is at stake in its action or
+image. One fully developed channel is sufficient; add a second only when it
+offers a distinct consequential reading that can be explained within the
+invitation. No finding, channel, or major shift has an individual coverage
+claim. Unselected material may remain entirely in the full commentary.
+
+A channel may develop through grammar, sound, dialogue, a material process,
+time, imagery, or a conceptual relation. Resonance is not limited to acoustic
+effects, and an unusual image alone does not establish a channel. Use only
+connections the editorial prose actually develops. If it supplies no such
+channel, explain its strongest grounded reading without inventing connections
+or surprise.
+
+Begin inside the ayah's own words, images, actions, or relations and reveal a
+selected distinctive reading in the first paragraph. Keep the plain meaning
+reachable with only the orientation needed to understand the change. Do not
+spend an opening paragraph on routine explanation or front-load context about
+the surah, the ayah's position, or the commentary project.
+
+For each selected channel, begin with the expression that opens it, unfold the
+connected background, and show how the ayah reads or sounds against that
+background. Let a detail lead into the next through an intelligible relation
+or process, so the reader experiences the emerging reading. This is a movement
+of thought, not a mandatory sentence pattern or one paragraph per finding.
+Let the reader identify the expression being interpreted,
+where any nonordinary detail comes from, and what that detail changes in the
+reading. Briefly identify the word-family use, restricted form, collocation, or
+context that supplies an essential added detail, and preserve the concrete
+operation that makes the image work. Keep the ordinary reading and necessary
+qualification clear within this explanation; do not repeat them as a fixed
+formula. Preserve the particular object, process, or relation that makes this
+reading distinctive, and state its interpretive consequence for the ayah as a
+whole. Make intelligible what the familiar reading leaves less visible and
+what the expanded or shifted reading now lets the reader understand. Preserve
+the editorial's force: an exploratory possibility remains possible, while a
+developed shift must not be softened into a decorative association or a
+reassurance that everything means the same thing. A concrete
+account of how something is carried, transformed, lost, or restored must not
+shrink to a general statement about care, guidance, dependence, or goodness.
+Keep the details needed to make the selected channel work; omit side findings
+and shorten routine setup. If a channel cannot be explained faithfully from
+the editorial prose, choose another grounded channel or reading.
+
+When a non-focus ayah supplies a contribution used in the invitation, keep its
+reference from the editorial prose beside that contribution.
+
+Do not turn the invitation into a miniature inventory of the commentary's
+conclusions, or flatten distinct channels into a broad theme to include more
+material. Do not repair, extend, or supplement the editorial prose from memory
+or outside knowledge.
+
+Omit technical apparatus. Retain any qualification, source distinction, live
+alternative, or boundary whose absence would change the force or meaning of a
+chosen reading. Express it naturally beside the image or relation it qualifies.
+Favor positive explanations of the relation between layers: what remains in
+the foreground and what the resonance makes audible in the background. State
+how that background reinforces, expands, or shifts the understanding of the
+main meaning, with the source and degree of certainty clear. Reserve explicit
+exclusions for concrete ambiguities or live counter-evidence that need them.
+Repeated "this is not X" endings make a reading sound withdrawn; express the
+substantive qualification through what the reading does contribute wherever
+possible. Use varied, natural language rather than a repeated "second layer"
+formula, and preserve the force of expansions and shifts.
+Do not name branches, candidates, findings, scopes, evidence categories,
+ledgers, or workflow stages, or label the prose as numbered channels. Do not
+list findings serially.
+
+Use the established `{ar:..., tr:..., gloss:...}` syntax, consistent
+Turkish-readable transliteration, and short ordinary glosses. Keep Arabic
+anchors beside the explanations they ground. Within a paragraph, continue with
+the Turkish meaning where clear; provide the necessary local tag when a later
+paragraph interprets the carrier anew. Do not place Arabic script outside a
+valid tag.
+
+Build transitions within a channel through its shared object, action, or
+relation. If two channels are selected, they may occupy separate paragraphs;
+do not invent a link between them. Do not praise the commentary's quality,
+promise what the reader will find, manufacture suspense, recap at the end, or
+add a call to action. End on an image, relation, action, or tension already
+established by the selected reading.
+
+Before finishing, compare the invitation with the entire editorial prose:
+does the chosen channel reveal a consequential reading, or could the text have
+been written from the ordinary translation and a modest explanation alone?
+When the editorial supports a surprising channel, the latter fails this task.
+Can the reader follow the opening expression into a connected background and
+understand how that background expands or shifts the ayah's main meaning?
+Check the selected connections against their editorial explanation: can the
+reader tell where the nonordinary details come from, with the necessary
+qualifications intact? Repair generic explanation, isolated curiosities, or a
+compressed findings list by developing the selected channel. Do not add
+omitted channels merely for coverage. Do not output this check.
+
+Write only the invitation text to:
+
+`_commentary/v5/editorial/s005-p03-with-fatiha/s005/5_40/5_40.invitation.tr.md`
+
+Do not add a heading, wrapper label, index, ledger, evidence file, or any other
+artifact. Do not modify the editorial prose.
+
+After writing the invitation, run:
+
+```bash
+python3 _commentary/v5/validate_prose.py _commentary/v5/editorial/s005-p03-with-fatiha/s005/5_40/5_40.invitation.tr.md
+```
+
+If validation fails, repair only the reported mechanical file-contract issues
+and rerun it, for at most two repair cycles. Report the final validator result
+in your response.
+
+<editorial_prose>
+Bu âyet, göklerin ve yerin egemenliğinin Allah'a ait olduğunu muhatabın önüne koyar: O dilediğine azap eder, dilediğini bağışlar; Allah her şeye gücü yetendir. Ceza ile bağışlama, aynı ilahî öznenin yönleri farklı iki tasarrufu olarak yan yana gelir. Son kudret cümlesi de bu iki fiili, bütün şeylere erişen yetkinin içinde tutar.
+
+## Hükmün karşıya konması
+
+Açılıştaki {ar:أَلَمْ, tr:a-lem, gloss:biliyor musun} biçimi soru görünüşü taşısa da muhatabı yeni bilgi toplamaya değil, karşısındaki hükmü tanımaya yöneltir. Soru ile olumsuzluk sıkı biçimde birleşir ve bilinen bir gerçeği karşıya koyar; böylece ayetin açtığı soru, hükmün kendisini tanıma hareketine dönüşür. Hemen ardından gelen {ar:تَعْلَمْ, tr:taʿlam, gloss:bilmek ve gerçeğini kavramak} fiili, bu açılış parçacığına bağlı ikinci şahıs cezmli fiil olarak kurulur. Bilmek burada serbestçe aktarılan bir haber olmaktan çıkar; gökler, yer, azap, bağışlama ve kudret hakkındaki bütün içerik muhatabın tanıması gereken hüküm halinde birleşir.
+
+Bu bilmenin içeriğini {ar:أَنَّ, tr:enne, gloss:şu gerçeği} bağlar. Arkasından gelen egemenlik, azap ve bağışlama sözleri dağınık izlenimler değil, tanınması istenen olgusal bir bütün olarak duyulur. Bu cümledeki {ar:ٱللَّهَ, tr:Allâhe, gloss:Allah} adı bilinecek önermenin ilahî öznesini adlandırır. Adın {ar:أَنَّ, tr:enne, gloss:şu gerçeği} tarafından mansup kılınması, onu bağımsız bir başlangıçtan çok önermenin öznesi yapar; sahiplik, azap, bağışlama ve dileme fiilleri aynı adlandırılmış özneye bağlanır. Allah adının tapınma ve sığınma çağrışımı da bu özne adlandırmasının çevresinde egemenliğe yöneliş duygusu oluşturur.
+
+Sahipliğin yönü daha {ar:مُلْكُ, tr:mülkü, gloss:egemenlik} söylenmeden önce {ar:لَهُۥ, tr:lehû, gloss:O'na ait} ifadesiyle Allah'a çevrilir. Öne alınan bu ifade, egemenliğin kime ait olduğunu baştan bildirir ve sonraki tamlama ile fiillerin dayanağını hazırlar. Ardından gelen mülk, bu sahiplik ifadesinin tamlama başı olarak gökleri ve yeri yönetilen alana bağlar.
+
+## Gökten yere kurulan alan
+
+{ar:مُلْكُ, tr:mülkü, gloss:egemenlik} kelimesi burada elde tutulan malın ötesinde hükmetme, emir verme ve kamusal yönetim yetkisini taşır. Gökler ve yerle kurulan tamlama, bu aktif yönetim basıncını ilahî egemenliğin tamamına yayar; kelimenin anlamı kişisel mal sahipliğini aşarak yönetilen alanı kurar, ayrı bir siyasal sahne iddiasına uzanmaz. Ayetin seçtiği tekil biçim bütün alanı tek bir egemenlikte toplar. Başka yerlerde duyulabilecek çoğul baskısı ve aynı kalıbın diğer kullanımları, bu yerel biçimin duyurduğu birliği gölgelememelidir.
+
+Bu tamlamanın yüksek kutbunu {ar:ٱلسَّمَٰوَٰتِ, tr:es-semâvâti, gloss:gökler} kurar. Kelime, mülkün mecrur alanında bağımsız bir özne değil, yönetilen kozmik alanın yükselmiş ve katmanlı üst tarafıdır; tanımlı çoğul oluşu yüksekliği çoğaltarak egemenliğin tek bir noktaya kapanmadığını hissettirir. Aradaki {ar:وَ, tr:ve, gloss:ve} bağlacı göklerle {ar:ٱلْأَرْضِ, tr:el-ardi, gloss:yeryüzü}ni aynı tamlamada tutar. Böylece üst ile alt iki ayrı hüküm olarak ayrılmaz, tek bir yönetilen bütün halinde birleşir. Yeryüzünün tanımlı tekil biçimi de göklerin yüksekliğine karşı, üzerinde yaşanan ve aşağıda bulunan zemini getirerek kozmik alanın alt kutbunu tamamlar.
+
+Göklerle yer birlikte kurulduğunda egemenlik, boşlukta duran bir sahiplikten üstten alta tamamlanmış bir yönetim alanına dönüşür. {ar:مُلْكُ, tr:mülkü, gloss:egemenlik} kelimesi olağan hükümranlık anlamıyla kalırken, parçaları çözülmeden bir arada tutan güçlü ve iç tutarlı bir dayanak yönü de ceza, koruyucu bağışlama ve kapanıştaki kudretin yan yana gelişiyle ilişkisel olarak duyulur. Azap ve bağışlama böylece aynı alanı taşıyan, fakat yönleri birbirine karışmayan iki egemenlik işlemi gibi görünür. Kapanıştaki {ar:قَدِيرٌۭ, tr:Kadîr, gloss:gücü yeten} de işi gerçekleştirmeye elveren kalıcı yetkinliği getirerek bu iki işlemi kapsamlı bir kudret içinde tutar. Aynı sûrenin 5:120. ayetinde gökler, yer, egemenlik ve her şeye yeten kudretin birlikte anılması bu birleşime güçlü bir metinsel yankı verir. Buradaki biçim çözümlemesi bu ayet için verilmediğinden, yankı mülkün sözlük tanımı olarak değil, nitelikli bir bağlamsal genişleme olarak kalır.
+
+Kudretin erişim yönünü {ar:عَلَىٰ, tr:alâ, gloss:üzerinde} edatı belirler: Kudret bir şeyin yanında değil, onun üzerinde kurulur. Ardından gelen {ar:كُلِّ, tr:kulli, gloss:her} ve tamlamasındaki {ar:شَىْءٍۢ, tr:şey, gloss:şey}, kapsamı toplu bir etiketten çıkarıp her bir varlığa, işe veya meseleye dağıtır; evrensel alanda dışarıda kalan tekil bir parça düşünülmez. Son sözün {ar:قَدِيرٌۭ, tr:Kadîr, gloss:gücü yeten} oluşu, sahip olma, hükmetme ve dilediğini gerçekleştirebilme gücünü bu eksiksiz kapsamla buluşturur. Azap ve bağışlama böylece bütün alana erişen uygulanabilir bir yetkinin icraları halinde duyulur.
+
+## Aynı iradenin iki yönü
+
+Bu egemenlik alanının ardından gelen {ar:يُعَذِّبُ, tr:yuʿadhdhibu, gloss:azap eder} fiili, yoğunlaştıran kalıbıyla azabı güçlü ve etkili bir eylem olarak kurar. Kelimenin açtığı mahrumiyet basıncında tatlı olanın elden alınmasıyla acının belirginleştiği bir görüntü de duyulur; azap bu yüzden sıradan bir ceza adından daha yoğun, tadı kesen bir mahrumiyet gibi hissedilebilir. Bu görüntü, ayetin ön plandaki ağır acı verme ve cezalandırma anlamının içinde belirir.
+
+Azap fiilinin ilk etkin yüklem olarak gelmesi, cezalandırmayı egemenliğin ilk uygulaması yapar. Arkasındaki {ar:مَن, tr:men, gloss:kim} cümlesi azabın canlı alıcısı için açık bir yer bırakır: kişi dilbilgisel olarak vardır, fakat adı verilmez. İlk {ar:يَشَآءُ, tr:yeşâü, gloss:diler} fiili bu açıklığı ilahî dilemeyle tamamlar ve muhatabı önceden adlandırılmamış alıcıyı irade çerçevesinde görmeye yöneltir. Geniş zaman biçimi dileme yetkisini canlı tutar; ileride yinelenecek aynı fiille ve sondaki şey kelimesiyle ses bakımından buluşsa da fiil olarak görevini korur.
+
+Azap cümlesinin ardından gelen ikinci {ar:وَ, tr:ve, gloss:ve}, bağışlamayı azabın sonucu veya sebebi kılmadan aynı özne altındaki karşıt yön olarak yanına alır. {ar:يَغْفِرُ, tr:yaghfiru, gloss:bağışlar} fiili temel bağışlama anlamını taşırken bir şeyi örterek dış etkiden koruma veya görünmez kılma hareketini de açar. Bu hareket, hemen arkasındaki {ar:لِ, tr:li, gloss:için} edatının yarar yönüyle birleşince bağışlamayı cezalandırıcı etkinin dışına alan koruyucu bir yöneliş olarak duyurur. İkinci {ar:مَن, tr:men, gloss:kim} bu kez edatın yönettiği yararlanıcı konumunu açar; iki alıcı adsız kalır, fakat azabın doğrudan nesne ilişkisi ile bağışlamanın birinin yararına yönelen ilişkisi birbirinden ayrılır.
+
+Son {ar:يَشَآءُ, tr:yeşâü, gloss:diler} ilk dileme fiilini yineler ve azap ile bağışlamayı aynı irade alanına bağlar. İki sonuç arasındaki karşıtlık korunur; bağışlamanın sona bırakılması onlardan birini hükmen üstün kılmaz. Bu iki fiil birlikte duyulduğunda, azap kelimesinin birini bir işten alıkoyan, sınır koyan ve uzaklaştıran yönü cezalandırmanın ağır acısını belirginleştirir; bağışlama kelimesinin cezalandırıcı etkinin dışına alan örtü yönü ise korunmayı görünür kılar. Böylece sınır ve örtü resmi, azapta yoğun acı ve cezalandırmayı, bağışlamada suçu örterek korumayı somutlaştırır. Bu ilişki fiili özel bir kullanıma, örneğin sütten kesmeye, taşımadan onun bağlamdaki azap anlamını korur.
+
+## Kudretin kapanışı
+
+İkinci dileme cümlesinden sonra gelen {ar:وَ, tr:ve, gloss:ve}, önceki iki fiili bırakmadan yeni bir isim cümlesine geçirir. Kapanış böylece üç eşdeğer fiilin sıralanması olarak değil, azap ve bağışlamayı temellendiren yeni bir önerme olarak duyulur. Yeniden gelen {ar:ٱللَّهُ, tr:Allâhu, gloss:Allah} adı bu kez kudret yüklemesinin açık öznesidir. İlk bölümdeki mansup {ar:ٱللَّهَ, tr:Allâhe, gloss:Allah} ile kapanıştaki merfu Allah arasındaki durum değişimi aynı ilahî adı yeniden kurar; kudret başıboş bir kuvvet olarak kalmaz, yönelinebilen ve sığınılabilen adlandırılmış özneye bağlanır.
+
+Kapanışın “her şey üzerinde gücü yeten” biçimini {ar:عَلَىٰ, tr:alâ, gloss:üzerinde} ile başlayan yapı tamamlar. {ar:كُلِّ, tr:kulli, gloss:her} kelimesi bu kez de {ar:شَىْءٍۢ, tr:şey, gloss:şey} kelimesini tamlamasına alarak kapsamı tek tek varlıklara dağıtır. Şey kelimesi, iki kez duyulan {ar:يَشَآءُ, tr:yeşâü, gloss:diler} ile aynı ses alanına döner; dileme ile şey arasında bir yankı açılır, fakat isim olarak kalır. {ar:قَدِيرٌۭ, tr:Kadîr, gloss:gücü yeten} ise Allah adının yüklemidir, yakınındaki mecrur şey kelimesinin sıfatı değildir. Bu sözdizimi, bütün egemenlik, dileme, azap, bağışlama ve her şey kapsamını tek bir kudret niteliğinde toplar.
+
+Dileme fiillerinin tekrarı, sondaki şey ve kudret sıfatıyla buluştuğunda iki tasarrufun gelişigüzel değil, bir düzen içinde düşünülebileceği temasını açar. {ar:قَدِيرٌۭ, tr:Kadîr, gloss:gücü yeten} kelimesinin ölçüye, erişilen sınıra, tasarlamaya ve hazırlamaya açılan yönü, azap ve bağışlamayı yerli yerince düzenlenmiş işlemler gibi renklendirir. Önceki {ar:مُلْكُ, tr:mülkü, gloss:egemenlik} kelimesinin büyük düzeni ayakta tutan dayanak yüzüyle birleştiğinde kudret ham kuvvetten çok bu işlemleri taşıyan düşünülmüş bir yönetim olarak duyulur. Bu ölçü soyut bir düzenleme basıncıdır; dilemenin vakti, miktarı veya şartı bu temasla belirlenmez ve görünmeyen bir planın ayrıntıları açılmaz.
+
+## Yakın akışın eşikleri
+
+5:27, 5:28, 5:29, 5:30, 5:31, 5:32, 5:33, 5:34, 5:35, 5:36, 5:37, 5:38 ve 5:39'daki yakın akış, ayetin düz anlamını değiştirmeden ceza ve bağışlamanın hangi süreçlerin yanında görünürleştiğini gösterir. Özellikle 5:34'teki {ar:قَبْلِ, tr:qabla, gloss:önce}, tövbenin insanın yakalama gücüne erişmesinden önceki zamanı; {ar:تَقْدِرُوا, tr:taqdirū, gloss:gücü yetmek} ise sınırı insanın fiilî kapasitesiyle çizilen eşiği öne çıkarır. Bu iki sınırın yanına odaktaki {ar:قَدِيرٌ, tr:Kadîr, gloss:gerçekleştirmeye veya egemen olmaya elveren güç} geldiğinde ilahî kudret ile insanın yakalama kapasitesi aynı süreçte görünür, fakat birbirine karışmaz. Böylece (5:34)'teki zaman ve insan gücü düzeni, 5:40'ın kapanışındaki kudret cümlesine yakınlık kurar.
+
+5:38'deki {ar:نَكَالًا, tr:nakālan, gloss:geleceğe dönük caydırıcı ceza}, cezanın yalnızca alıcıya acı vermediğini, başkalarını da gelecekte sakındıran bir işlev taşıdığını gösterir. Bu ayrı ceza görüntüsü, odaktaki yoğunlaştırılmış {ar:يُعَذِّبُ, tr:yuʿadhdhibu, gloss:ağır acı çektirmek ve cezalandırmak} fiiliyle buluşunca azap tarafı somut bir cezalandırma ve caydırma alanı kazanır. Böylece (5:38)'deki hüküm, odaktaki azap fiiline yakın bir temas olarak cezanın ileriye dönük işlevini de duyurur.
+
+Ardından 5:39'da {ar:أَصْلَحَ, tr:aṣlaḥa, gloss:bozulmuş olanı düzeltmek}, tövbenin onarımla tamamlandığını; {ar:غَفُورٌ, tr:ghafūr, gloss:koruyarak bağışlayan} ise bunun ardından gelen koruyucu bağışlamayı görünür kılar. Bu sıra, odaktaki {ar:يَغْفِرُ, tr:yaghfiru, gloss:suçu bağışlayıp cezadan korumak} fiilini onarımdan sonra cezaya karşı koruyan bir merhamet hareketi olarak duyurur. Böylece (5:34)'teki eşik, (5:38)'deki caydırma ve (5:39)'daki onarım-bağışlama sırası, odak ayetindeki iki fiilin yakın akış içindeki temas noktaları olur. Bu ayetlerin her biri kendi hukukî koşulunu korur; birlikte, ilahî iradenin bütünü olarak değil, 5:40'ı hukuk hükümlerine indirgemeden çerçeveleyen nitelikli bir bağlam sağlar.
+
+## Yerin açtığı örtü
+
+Kozmik alanın aşağı kutbuna döndüğümüzde, odaktaki {ar:أَرْضِ, tr:arḍ, gloss:gök karşısındaki yeryüzü} kelimesi önce göklerin karşısındaki aşağı, üzerinde yaşanan yer anlamını taşır. 5:31'deki {ar:يَبْحَثُ, tr:yabḥathu, gloss:araştırmak ve toprağı açmak} fiili toprağı bir şeyi ortaya çıkaran ve pratik bir karşılık öğreten maddî ortama dönüştürür. Böylece yeryüzü egemenlik alanının edilgen yarısı olarak kalmayıp öğrenmenin zemini olarak da görünür. 5:31'de toprağı açıp karşılık bulduran bu araştırma, odak ayetindeki yer kelimesine dönen bağımsız tetikleyicidir; kelimenin yeryüzü anlamı bu maddî temas içinde korunur.
+
+5:31'deki sahnede {ar:يُوَارِي, tr:yuwārī, gloss:örtünün arkasına yerleştirerek gizlemek} fiilinin iki kez tekrarlanması, {ar:سَوْءَةَ, tr:sawʾa, gloss:açıkta kalan mahrem veya incinebilir şey} ile açığa çıkmış olanı örtünün ardına koyma hareketini birleştirir. Odaktaki {ar:يَغْفِرُ, tr:yaghfiru, gloss:koruyucu biçimde örtüp bağışlamak} bu somut örtme görüntüsüyle temas ettiğinde, bağışlamanın cezadan koruyan yönü maddî bir imge kazanır. İki ayrı yerleştirme, örtmeyi tek seferlik bir görüntü olmaktan çıkarır. Toprağın öğrettiği şey açıkta kalanı koruyacak biçimde örtmektir; bu benzetme, bağışlamanın koruyucu sonucunu görünür kılarken sahnedeki örtme eylemini kendi maddî bağlamında tutar.
+
+Bu koruyucu örtü, surenin otomatik girişindeki (S:0) {ar:الرَّحْمَٰنِ الرَّحِيمِ, tr:ar-Raḥmāni ar-Raḥīm, gloss:merhameti kuşatan ve esirgeyen} çift adla başka bir çerçeveye kavuşur. Bu bağımsız açılış, odaktaki {ar:يَغْفِرُ, tr:yaghfiru, gloss:suçu bağışlayıp cezadan korumak} fiilinin koruyucu merhamet içinde duyulmasını sağlar: Bağışlama, cezanın kaldırılmasının yanında merhametin yerel bir işi olarak görünür. Bu temas iki kökün eş anlamlılığına veya bağışlamanın şartına uzanmaz; sure girişinin merhamet tonu, odaktaki eylemin koruyucu sonucuna döner.
+
+## Merhamet ve karşılık ufku
+
+Fātiha'daki (1:4) {ar:مَالِكِ يَوْمِ الدِّينِ, tr:Māliki yawmi d-dīn, gloss:karşılık gününün sahibi} ifadesi, odaktaki {ar:مُلْكُ, tr:mülkü, gloss:sahiplik ve kozmik egemenlik alanı} ile aynı kökten gelen ayrı bir sahiplik temasını açar. “Göklerin ve yerin egemenliği”nin olağan anlamı yerinde dururken sahiplik ve tasarruf yönü, {ar:يَوْمِ الدِّينِ, tr:yawmi d-dīn, gloss:karşılık ve hüküm günü} ile belirli bir zaman ufku kazanır: İlâhî yönetim kozmik alanın yanı sıra karşılığın verildiği güne de uzanır. (1:4)'teki açık sahiplik ve hüküm günü teması odaktaki kelimeye sınırlı bir bağlamsal yankı olarak döner; Māliki ile mülkü biçimleri aynılaştırılmaz.
+
+Fātiha'daki (1:5) {ar:إِيَّاكَ نَعْبُدُ, tr:iyyāka naʿbudu, gloss:yalnız sana kulluk ederiz} cümlesi de ayette iki kez adlandırılan {ar:ٱللَّهَ, tr:Allâhe, gloss:Allah} ve {ar:ٱللَّهُ, tr:Allâhu, gloss:Allah}ı tapınılan özne olarak karşılar. (1:5)'teki kulluk eylemi bu ilişkinin bağımsız tetikleyicisidir; adlandırılmış özneye yönelen ibadet, onun sığınılan ve tapınılan varlık konumunu görünür kılar. 5:40'ın üçüncü kişi anlatımı, göklerin ve yerin egemenliği ile azap ve bağışlama hükmünü korur. Fātiha'nın doğrudan hitabı bu dilbilgisine taşınmadan, hükümlerin yöneldiği adın ibadet ilişkisindeki yeri belirginleşir.
+
+## Sorumluluğun dönüşmeyen ağırlığı
+
+Bu egemenlik ve iki tasarruf çerçevesi, (5:29), (5:36) ve (5:45)'teki üç ayrı hukukî olayla daha somut bir dönüşüm alanı kazanır. 5:29'da suçun taşıyanına dönüp onda yerleşmesi, kusuru sahibine dönen ve hesabı ağırlaşan bir yük gibi gösterir. 5:36'da bütün malın fidye olarak sunulması bile cezadan salıverilmeye yetmez; maddî büyüklük tek başına geçerli bir ahlaki karşılığa dönüşmez. 5:45'te ise haklı bir karşılıktan gönüllü olarak vazgeçme, kefarete açılan farklı bir dönüşüm biçimi olarak belirir.
+
+Bu üç olay, ayetin egemenlik, cezalandırma ve koruyucu örtme taşıyıcılarıyla buluşunca sorumluluğu her ikameyi kabul eden değiş tokuş edilebilir bir nesne olmaktan çıkarır. {ar:مُلْكُ, tr:mülkü, gloss:hükümdarlık ve kamusal egemenlik} hangi dönüşümün geçerli sayılacağına hükmeden yönetici otoriteyi taşır; {ar:يُعَذِّبُ, tr:yuʿadhdhibu, gloss:ağır acı verme ve cezalandırma} herhangi bir bedelle iptal edilemeyen uygulanabilir ceza tarafını, {ar:يَغْفِرُ, tr:yaghfiru, gloss:suçu bağışlayıp cezadan koruma} ise 5:45'teki haklı vazgeçiş ve kefaretle temas eden yetkilendirilmiş örtme sonucunu görünür kılar. Böylece (5:36)'daki bütün malı vermekle (5:45)'teki haklı vazgeçiş aynı ahlaki güce sahip görünmez; her olay kendi hukukî işlevini korur ve ortaklık verilen örneklerden çıkan nitelikli bir ilişkisel sonuç olarak kalır. Bağışlamanın bu kefaret görüntüsü, her bağışlamayı kefaretle özdeşleştirmeden sorumluluğun dönüşmeyen ağırlığını belirginleştirir.
+
+## Açığa çıkan ve giderilen durum
+
+5:41'deki sınama ve arındırma bağlamı, ceza ile bağışlamayı sonradan verilen iki hüküm olmanın yanında, durumu açığa çıkaran veya gideren işlemlerin yanında duran kasıtlı egemen tasarruflar olarak da duyurur. Ayetin tekrarlanan {ar:يَشَآءُ, tr:yeşâü, gloss:dilemek ve irade etmek} ifadeleri, her bir durumu taşıyan {ar:شَىْءٍۢ, tr:şey, gloss:şey} dili ve kudret kapanışıyla temas eder. 5:41'de gizli bir niteliğin sınama altında görünür hale gelmesi, yetkin bir irade altında durumun açığa çıkarıldığı bir süreç imgesi kurar. {ar:يَغْفِرُ, tr:yaghfiru, gloss:koruyucu biçimde örtme} kelimesinin dış etkiden koruyan örtme yönü, arındırma ile buluştuğunda kirli bir durumun giderilmesini ve bağışlamanın koruyucu sonucuna uzanan bir süreç şeklini düşündürür. Bu temas, 5:41'deki sınama ve arındırmanın odak fiillerinin kesin iç aşaması olduğu sonucunu gerektirmez.
+
+Bu süreçte {ar:مُلْكُ, tr:mülkü, gloss:sahiplik ve tasarruf yetkisi} kişi, mal veya hak üzerindeki elde bulundurma ve tasarruf yetkisini taşır. 5:41'de Allah'a karşı kullanılabilecek tek bir şeyin bile karşı kaynak olamamasıyla buluştuğunda, açığa çıkarma veya örtme işleminin başka bir sahiplik tarafından geçersiz kılınamayacağı görülür. {ar:شَىْءٍۢ, tr:şey, gloss:şey} ve {ar:قَدِيرٌ, tr:Kadîr, gloss:etmeye gücü yeten} bu kuşatıcı kapsamın karşısında rakip bir nesne bırakmaz. Arındırmanın kirletici hali giderme yönü, koruyucu bağışlama ile temas ederek insanın iç ahlakına uzanan bir temizleme boyutu düşündürür. 5:41'deki sınır, bu boyutu komşu bir sonuç olarak açık tutar; süreç imgesi azap veya bağışlamanın kesin iç aşaması, karşı sahipliği yok eden genel bir teori ya da bağışlamanın yeni sözlük çevirisi olarak kurulmaz.
+
+## Emanet edilen yetki
+
+Ayetin mutlak egemenliği, insanın koruma, tanıklık, gözetme ve hükmetme eylemlerini kaynağı ilahî olan sorumlu bir emanet ilişkisi içinde etkin tutabilir. {ar:مُلْكُ, tr:mülkü, gloss:hükümdarlık ve kamusal egemenlik} bütün varlık üzerindeki kalıcı egemenlik yüzüyle (5:44) ve (5:48)'deki bu eylemlere temas ettiğinde yetkinin sahibiyle hesap verebilir bir bağ görünür olur. Aynı kökün daha büyük bir düzenin dayandığı ve düzgün işlemesini sağlayan temel anlamı, emanet edilmiş görevi özel mülkiyetten çok o düzeni ayakta tutan bir hizmet olarak düşündürür. İnsan böylece gerçekten iş gören bir koruyucu ve yargılayıcı konumda kalırken kaynak sahipliği ilahî kalır.
+
+(5:44)'te emanet, faal bir koruma olarak duyulduğunda başkasının mülkü içinde verilen muhafaza hizmetine dönüşür. Aynı ayetteki tanıklar, koruyucu makamı alanın sahibine karşı tanıklık eden sorumlu bir görev olarak belirginleştirir. (5:48)'deki gözetim ve şahitlik, kaynak egemenliği ile atanmış hükmü birbirine bağlar; hüküm verme de kaynağına karşı sorumlu kılınmış bir yetki olarak görünür. Bu bağlamın kapsamı, genel bir kurum tanımı veya bütün bir hukuk sistemi kurmadan emanet edilen yetkinin ilahî kaynaktan kopmadan gerçek bir insan hizmeti olarak işlemesidir.
+
+## Farklılığın yürünebilir yönü
+
+Bu emanet zincirinden sonra (5:48)'deki farklı yollar, ayette tekrarlanan irade ve kudretle birlikte yeni bir yön açar. {ar:يَشَآءُ, tr:yeşâü, gloss:dilemek ve irade etmek} taşıyıcısı, {ar:قَدِيرٌ, tr:Kadîr, gloss:gerçekleştirmeye elveren güç} ve bütünlüğü bildiren çerçeveyle sınama temasına girdiğinde farklı karşılıklar amaçlı bir tecrübe alanı içinde görünür. Tek bir topluluk oluşturmanın mümkün olduğuna işaret eden karşı olasılık, çoğulluğun zorunlu bir yetersizlikten doğmadığını gösterir; birlik imkânı ile çoğulluk birbirine üstün kılınmaz. {ar:قَدِيرٌ, tr:Kadîr, gloss:yerleşik güç ve yetkinlik} burada farklı yolların kapasiteyle kurulmuş amaçlı bir düzen olabileceğini açıklar, fakat her tarihsel farkı bununla açıklamaz.
+
+(5:48)'de her topluluğa kendi alanının bütünüyle verilmesi, {ar:كُلِّ, tr:kulli, gloss:bütün ve tüm} kelimesinin hiçbir parçayı veya topluluk bireyini dışarıda bırakmayan yüzüyle temas eder. Ayrı bir normatif yola girme imgesi farklılığı atanmış ve yürünebilir bir güzergâh haline getirir; yolun görünür ve geçilebilir kılınması da onu keyfî bir kapalılık olmaktan çıkarıp tanınabilir bir yönle buluşturur. Sınama, irade ve kudretle birleşerek her farklı alanın içindeki davranışı açığa çıkaran zemin olur. Aynı sınama imgesinin (5:48)'de ayrı bir anlatım hattından yeniden belirmesi, önceki sınamanın davranışı görünür kılan ilişkisini bağımsız biçimde güçlendirir; burada açılan şey yeni bir sözlük anlamı değil, aynı bağın ikinci bir bağlamsal görünümüdür.
+
+Bu yürünebilir yolların önündeki ileriye dönük yarış, sınanmış farklılığı zorunlu aynılıktan uzaklaştırır ve cevabın hareket edeceği bir yön verir. Yarışın yönünü belirleyen iyi, farklılığın kendi başına amaç olmadığını, davranışın yapıcı bir iyiliğe doğru değerlendirildiğini gösterir. (5:48)'in farklı yolları, sınama ve iyilik yönüyle amaçlı çoğulluk okumasını destekler; ayet farklılıkların her birini açıklama iddiası taşımadan ayrı yolları kendi bağlamında tutar. Bu bağın kapsamı belirli bir toplumsal şemaya uzanmaz; tekrarlanan irade, ceza ve kudretin olağan anlamı içinde görünür bir amaç ihtimalini açar.
+
+## Taşıyana dönen sonuç
+
+Aynı ceza ve kudret taşıyıcıları (5:49)'da hedefe ulaşan, bölünmüş ve artakalan paylarla buluştuğunda, odaktaki azap fiili dışarıdan uygulanan hüküm niteliğini koruyarak belirli bir taşıyana ölçülü biçimde ulaşan sonuç görünümü kazanır. {ar:يُعَذِّبُ, tr:yuʿadhdhibu, gloss:ağır acı verme ve cezalandırma} fiili cezalandırmayı taşır; (5:49)'daki hedefe varma sonucu taşıyana yöneltir, yük görüntüsü onun ağırlığını hissettirir, bölünmüş ve artakalan pay ise sonucun paylaştırılmış niteliğini açar. Bu katkılar birlikte fiilden sonuca doğru kontrollü bir çizgi kurar ve okurun cezanın hedefini, ağırlığını ve payını izlemesini sağlar.
+
+Bu çizgide {ar:قَدِيرٌ, tr:Kadîr, gloss:gücü yeten} ifadesinin ölçü ve erişilen sınır yüzü, sonucu belirsiz bir bütün değil, hedef ve ölçü tarafından yönetilen bir pay gibi duyurur; miktar belirlenmez. (5:49)'daki yeniden bilmeye çağrı, açılıştaki {ar:تَعْلَمْ, tr:taʿlam, gloss:bilmek ve gerçeğini kavramak} ile ceza fiiline temas ederek hükme yaklaşımı kopuk bir kuvvetten yeniden tanımaya doğru çevirir. Sonucun belirli taşıyana ulaşıp orada yerleşmesi yaptırımın yönünü ve son noktasını görünür kılar; aynı ulaşma görüntüsünün taşıyana yorucu bir yük bindirmesi, sonucu üzerinde taşınan ağırlık olarak hissettirir. Günahın veya eylemin artakalan ucunun geri dönmesi yönündeki ok nitelikli bir çıkarımdır; bu çizgi her cezanın içeriden fiil tarafından üretildiğini söylemeden, bölünmüş payı da sayısal bir dağılıma dönüştürmeden tamamlanır.
+
+## Korkunun güç hesabı
+
+Ayetin egemenlik iddiası, (5:52)'de korkuyla okunan dünyevî güç değişimlerini de yeniden konumlandırabilir. {ar:مُلْكُ, tr:mülkü, gloss:hükümdarlık ve kamusal egemenlik} bütün varlık üzerindeki kalıcı egemenlik yüzüyle iç hastalık, acele, dolaşan dönüş, açılma ve yetki şartlarına temas ettiğinde yenilgi, açılma ve komut, kaybolmayan tek bir egemenlik içindeki geçici haller gibi görünür. {ar:قَدِيرٌ, tr:Kadîr, gloss:etkili kapasite} ifadesi bu dönüşlerin içinden geçebilen gerçekleştirme kudretini taşır; değişen dizi bu kuşatıcı kapasite içinde kalır ve herhangi bir dünyevî sonucu önceden bildirmez.
+
+(5:52)'de iç açıklığın sönmesi, korkunun yanlış güç hesabına dönüşen iç durumunu gösterir. Acele, sonuç belli olmadan korkulan dönüşe doğru erken hareketi başlatır; bu tepki egemen kudretin içinde gerçekleşen bir hareket olarak görünür ve her acele davranış hakkında hüküm kurulmaz. Dolaşım ve el değiştiren siyasal şartlar, görünürdeki güç sahibini değiştirirken kapsamlı yetkinin kaynağının sabit kaldığını düşündürür. Tersine dönüş ve yenilgi, mağlubiyetin durumun nihai sahibi olmadığını açar. Beklenen açılma aynı kapsamlı otorite içinde yönetilen bir çözülme olarak görünür; saklı güç hesabını açığa çıkarır ve korkulan dünyevî dönüşün sınırlarını belirginleştirir. Yetki ise karar verici kaynağı korkulan ittifakın üstünde duran kuşatıcı egemenlikte bırakır. Bu beş şartın ortaklığı, korku içindeki güç değişimini ayetin sabit çerçevesinde okuyan sınırlı bir bağdır; belirli siyasal aktörler hakkında genel bir teori kurmaz ve sonucu öngörmez.
+
+## Değiştirmenin ardından gelen armağan
+
+İrade ve kudretin (5:54)'te başarısız failin değiştirilmesi, karşılıklı sevgi, armağan ve genişleyen iyilik imgeleriyle buluşması, ceza ile bağışlama ikilisinin yanına üretici bir lütuf biçimi de getirir. Bu temas, iradeyi yalnızca cezalandırma ile bağışlama arasında seçim yapan bir güç olarak bırakmaz; yeni bir faili, karşılıklı bir bağı ve karşılıktan fazla iyiliği ortaya çıkarabilen bir kapasite olarak gösterir. (5:54)'teki armağan, iki fiilin yanında duran nitelikli ve bağlamsal bir genişlemedir; bu bağlamda bağışlamayla özdeşleşmeden üretici lütuf yönünü açar.
+
+Tekrarlanan {ar:يَشَآءُ, tr:yeşâü, gloss:dilemek ve irade etmek} taşıyıcısı, başarısız fail ve sonraki armağan imgeleriyle buluştuğunda iradenin yeni bir faillik üretmeye veya yenilemeye açık bir devamlılık kurabildiğini gösterir. İlâhî dilemenin (5:54)'te armağanı dağıtan biçimde yeniden görünmesi, ceza ve bağışlamayı yöneten aynı iradenin üretici bir hediye de verebildiğini düşündürür. {ar:قَدِيرٌ, tr:Kadîr, gloss:sahip olmaya, egemen olmaya ve dilediğini gerçekleştirmeye elveren güç} değiştirme, karşılıklı sevgi, armağan, genişlik ve bilme imgeleriyle birleşerek faili yeniden kurup karşılıktan fazla verebilen etkili kapasiteyi taşır; sonraki topluluk ve armağan odak ayetine eklenen bağlamsal unsurlardır.
+
+(5:54)'teki sapma veya başarısızlık, yeni failin ortaya çıkmasına vesile olan koşul gibi görünür; bu özel temas başarısızlığı her durumda böyle bir sonuca bağlamaz. İyilikten soyulma görüntüsü, üretici kudretin cevap verdiği iyilik kaybı boşluğunu görünür kılar. Karşılıklı sevgi ve kalbe bağlanma, değiştirmeyi basit bir ikame olmaktan çıkarıp yeni topluluğu karşılıklı bağlılık içinden kurar. Armağanın karşılığa denk olmayan fazlalığı, ceza ile bağışlama arasındaki basit alışverişin ötesinde üçüncü bir tarz açar; fazlalığın miktarı söylenmez. Fazlalığın iyilik veren armağan olarak belirginleşmesi ve ilahî kapsamın genişlemesi, üretici lütfu bilen ve egemen bir iradenin dağıttığı hayır olarak gösterir. Armağanla birlikte açığa çıkan bilme, odaktaki {ar:تَعْلَمْ, tr:taʿlam, gloss:bilmek ve gerçeğini kavramak} talebiyle temas ederek genişleyen hediyeyi kör bir bolluk değil, bilen bir egemenlik içindeki armağan olarak gösterir. Bu bağlamsal üçüncü kip, ayetin ceza ve bağışlama çiftini kendi şartları içinde bırakır.
+
+## Göklerin görünür yüzü
+
+Şimdi ayetin başındaki bilme talebine ve göklerin anılışına dönüldüğünde, kozmik alan egemenliğin tanınmasını sağlayan görünür bir işaret olarak duyulma ihtimali açar. {ar:تَعْلَمْ, tr:taʿlam, gloss:bilmek ve gerçeğini kavramak} fiilinin ayırt edici ve yol gösterici işaret yönü, gökler taşıyıcısı ve (5:44)'teki açıkça görünen işaretle temas edince açılıştaki soruyu önümüzde duran bir belirti aracılığıyla egemenliği tanıma çağrısına çevirir. {ar:ٱلسَّمَٰوَٰتِ, tr:es-semâvâti, gloss:gökler} kelimesi olağan yüksek gök ve örtü anlamını koruyarak egemenliğin normalde alanı olan görünür yüzey gibi duyulur. Bu uzak analoji, gökler kelimesini olağan çevirisinde tutarken bilme talebinin göklerin önümüzde duran yüzünde nasıl somutlaşabileceğini gösterir.
+
+(5:44)'teki açık işaret bu öneriyi soyut bir benzetme olmaktan çıkaran bağlamsal tetikleyicidir; aynı yerdeki tanıklık, görünen işareti süs olmaktan çıkarıp şahitlik taşıyan bir belirti haline getirir. Gökler böylece ayetin bilinmesini istediği egemenliğe tanıklık edebilen görünür bir yüz olarak düşünülebilir. Fiziksel iz imgesi, bir nesne veya hayvan üzerinde onu tanıtan ve başkalarından ayıran işaretten analojik olarak göğe yönelir. Bu geçiş keşifseldir; fiziksel iz gökler kelimesinin olağan anlamına ek bir sözlük karşılığı olarak değil, tanıklık taşıyan görünür bir yüzü duyuran ilişki olarak işler. Ayetin düz okuması bu görünür yüzle birlikte yerinde kalır: göklerin ve yerin egemenliği, azap ve bağışlama Allah'ın kudreti altında bildirilmeye devam eder.
+
+</editorial_prose>

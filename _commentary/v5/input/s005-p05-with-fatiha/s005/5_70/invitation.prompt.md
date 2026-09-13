@@ -1,0 +1,173 @@
+# V5 reading invitation — 5:70
+
+You are a fresh reading-invitation writer. Read the complete editorial prose
+before writing. It is your sole semantic source.
+
+Write two to four paragraphs of fluent, contemporary Turkish that reveal a
+surprising reading by following one or two main channels of resonance in the
+ayah. A channel is a connected background of meanings, images, actions, or
+relations through which the ayah can be heard and understood differently.
+Several editorial findings may together develop one channel. Summarize that
+connected movement and its consequence for the ayah's main meaning, rather
+than compressing findings individually. Give the reading's substance now;
+the invitation comes from understanding it, not from a promise of hidden depth.
+
+Before drafting, read the entire editorial prose and silently select the one
+or two channels with the strongest interpretive consequence and enough
+grounding to explain clearly. Favor channels that expand or shift what the
+ayah says, the relation it establishes, or what is at stake in its action or
+image. One fully developed channel is sufficient; add a second only when it
+offers a distinct consequential reading that can be explained within the
+invitation. No finding, channel, or major shift has an individual coverage
+claim. Unselected material may remain entirely in the full commentary.
+
+A channel may develop through grammar, sound, dialogue, a material process,
+time, imagery, or a conceptual relation. Resonance is not limited to acoustic
+effects, and an unusual image alone does not establish a channel. Use only
+connections the editorial prose actually develops. If it supplies no such
+channel, explain its strongest grounded reading without inventing connections
+or surprise.
+
+Begin inside the ayah's own words, images, actions, or relations and reveal a
+selected distinctive reading in the first paragraph. Keep the plain meaning
+reachable with only the orientation needed to understand the change. Do not
+spend an opening paragraph on routine explanation or front-load context about
+the surah, the ayah's position, or the commentary project.
+
+For each selected channel, begin with the expression that opens it, unfold the
+connected background, and show how the ayah reads or sounds against that
+background. Let a detail lead into the next through an intelligible relation
+or process, so the reader experiences the emerging reading. This is a movement
+of thought, not a mandatory sentence pattern or one paragraph per finding.
+Let the reader identify the expression being interpreted,
+where any nonordinary detail comes from, and what that detail changes in the
+reading. Briefly identify the word-family use, restricted form, collocation, or
+context that supplies an essential added detail, and preserve the concrete
+operation that makes the image work. Keep the ordinary reading and necessary
+qualification clear within this explanation; do not repeat them as a fixed
+formula. Preserve the particular object, process, or relation that makes this
+reading distinctive, and state its interpretive consequence for the ayah as a
+whole. Make intelligible what the familiar reading leaves less visible and
+what the expanded or shifted reading now lets the reader understand. Preserve
+the editorial's force: an exploratory possibility remains possible, while a
+developed shift must not be softened into a decorative association or a
+reassurance that everything means the same thing. A concrete
+account of how something is carried, transformed, lost, or restored must not
+shrink to a general statement about care, guidance, dependence, or goodness.
+Keep the details needed to make the selected channel work; omit side findings
+and shorten routine setup. If a channel cannot be explained faithfully from
+the editorial prose, choose another grounded channel or reading.
+
+When a non-focus ayah supplies a contribution used in the invitation, keep its
+reference from the editorial prose beside that contribution.
+
+Do not turn the invitation into a miniature inventory of the commentary's
+conclusions, or flatten distinct channels into a broad theme to include more
+material. Do not repair, extend, or supplement the editorial prose from memory
+or outside knowledge.
+
+Omit technical apparatus. Retain any qualification, source distinction, live
+alternative, or boundary whose absence would change the force or meaning of a
+chosen reading. Express it naturally beside the image or relation it qualifies.
+Favor positive explanations of the relation between layers: what remains in
+the foreground and what the resonance makes audible in the background. State
+how that background reinforces, expands, or shifts the understanding of the
+main meaning, with the source and degree of certainty clear. Reserve explicit
+exclusions for concrete ambiguities or live counter-evidence that need them.
+Repeated "this is not X" endings make a reading sound withdrawn; express the
+substantive qualification through what the reading does contribute wherever
+possible. Use varied, natural language rather than a repeated "second layer"
+formula, and preserve the force of expansions and shifts.
+Do not name branches, candidates, findings, scopes, evidence categories,
+ledgers, or workflow stages, or label the prose as numbered channels. Do not
+list findings serially.
+
+Use the established `{ar:..., tr:..., gloss:...}` syntax, consistent
+Turkish-readable transliteration, and short ordinary glosses. Keep Arabic
+anchors beside the explanations they ground. Within a paragraph, continue with
+the Turkish meaning where clear; provide the necessary local tag when a later
+paragraph interprets the carrier anew. Do not place Arabic script outside a
+valid tag.
+
+Build transitions within a channel through its shared object, action, or
+relation. If two channels are selected, they may occupy separate paragraphs;
+do not invent a link between them. Do not praise the commentary's quality,
+promise what the reader will find, manufacture suspense, recap at the end, or
+add a call to action. End on an image, relation, action, or tension already
+established by the selected reading.
+
+Before finishing, compare the invitation with the entire editorial prose:
+does the chosen channel reveal a consequential reading, or could the text have
+been written from the ordinary translation and a modest explanation alone?
+When the editorial supports a surprising channel, the latter fails this task.
+Can the reader follow the opening expression into a connected background and
+understand how that background expands or shifts the ayah's main meaning?
+Check the selected connections against their editorial explanation: can the
+reader tell where the nonordinary details come from, with the necessary
+qualifications intact? Repair generic explanation, isolated curiosities, or a
+compressed findings list by developing the selected channel. Do not add
+omitted channels merely for coverage. Do not output this check.
+
+Write only the invitation text to:
+
+`_commentary/v5/editorial/s005-p05-with-fatiha/s005/5_70/5_70.invitation.tr.md`
+
+Do not add a heading, wrapper label, index, ledger, evidence file, or any other
+artifact. Do not modify the editorial prose.
+
+After writing the invitation, run:
+
+```bash
+python3 _commentary/v5/validate_prose.py _commentary/v5/editorial/s005-p05-with-fatiha/s005/5_70/5_70.invitation.tr.md
+```
+
+If validation fails, repair only the reported mechanical file-contract issues
+and rerun it, for at most two repair cycles. Report the final validator result
+in your response.
+
+<editorial_prose>
+Bu âyet, İsrailoğullarından alınmış kesin bir sözün üzerine elçilerin gönderildiğini ve her gelişte topluluğun aynı sert karşılıkla bölündüğünü anlatır: bir kesim elçiyi veya getirdiğini yalanlar, başka bir kesim de elçiyi öldürür. Açılıştaki `{ar:لَ, tr:la, gloss:kuşkusuz}` ve `{ar:قَدْ, tr:qad, gloss:gerçekten}`, geçmiş zamanlı `{ar:أَخَذْنَا, tr:ahaznâ, gloss:aldık}` fiilini gerçekleşmiş bir iş olarak öne çıkarır. `{ar:مِيثَٰقَ, tr:mîthâqa, gloss:sözleşme}` tekil bir sözleşmedir; geleceğe bırakılmış bir ihtimal değil, sonraki gönderimin üzerine yerleştiği kurulmuş bir bağdır. Ahaznâ fiilinin doğrudan nesnesi olan bu sözleşme, ilahî denetim alanına alınmış sıkı bir ilişki hissi verir. `{ar:بَنِىٓ, tr:benî, gloss:soy çocukları}` ile `{ar:إِسْرَٰٓءِيلَ, tr:İsrâîl, gloss:İsrailoğulları}` ise sözün yöneldiği kişileri adı belirlenmiş bir soy topluluğu olarak sabitler.
+
+Bu sözden elçi gönderimine geçişi ilk `{ar:وَ, tr:ve, gloss:ve}` kurar: sözün alınması ile `{ar:أَرْسَلْنَآ, tr:erselnâ, gloss:gönderdik}` aynı ilahî öznenin birbirine bağlı iki işi olarak sürer. `{ar:إِلَيْهِمْ, tr:ileyhim, gloss:onlara}` yönelme tümleci elçileri önceki soy topluluğuna bağlar; alıcı, gönderim boyunca gözden kaybolmaz. `{ar:رُسُلًا, tr:rusulan, gloss:elçiler}` belirsiz çoğulu kapalı bir sayı vermek yerine açık bir elçi havuzu kurar. Böylece `{ar:مِيثَٰقَ, tr:mîthâqa, gloss:sözleşme}` ile `{ar:أَرْسَلْنَآ, tr:erselnâ, gloss:gönderdik}` yan yana geldiğinde söz, elçi gönderimini taşıyan işletilmiş bir bağ gibi duyulur; belirli topluluğa yöneltilen taşıyıcılar, daha önce kurulmuş ilişkinin içinden hareket eder.
+
+Bu karşılaşmanın ilk katkısı, elçilerin tek tek gelişleriyle beraberinde taşıdığı içeriği ve bu içeriğin alıcıda karşılandığı eşiği görünür kılmasıdır. Elçi havuzu, `{ar:كُلَّمَا, tr:kullamā, gloss:ne zaman ... olsa}` ile tek tek karşılaşmalara açılır. `{ar:جَاءَهُمْ, tr:câehüm, gloss:onlara geldi}` tamamlanmış varışı anlatırken zamir aynı topluluğa döner; belirsiz tekil `{ar:رَسُولٌ, tr:resûlün, gloss:bir elçi}` ise çokça gönderilmiş elçilerin her defasında birer karşılaşma halinde görünmesini sağlar. `{ar:بِ, tr:bi, gloss:ile}` harfi gelişi yalnızca birinin görünmesi olmaktan çıkarıp beraberinde taşınan bir içerikle buluşma haline getirir. Ardından gelen `{ar:مَا, tr:mâ, gloss:şey}` geniş bir içerik alanı açar; bu alan, hemen sonraki istemeyişle belirli bir sınır kazanır. `{ar:لَا, tr:lā, gloss:-mez}` ile olumsuzlanan `{ar:تَهْوَىٰٓ, tr:tehvâ, gloss:ister}` çatışmayı dış eylemlerden önce, gelen içerik ile alıcıların iç yönelimi arasındaki uyuşmazlıkta başlatır. Tehvâ'nın yönlü basıncı istemeyişi nötr bir ilgisizlikten daha yoğun kılar; bu bağlantıda yön, fiziksel düşmeye değil yerel sevgi ve istek alanına aittir. Fiilin öznesi olan `{ar:أَنفُسُهُمْ, tr:enfüsühüm, gloss:kendi benlikleri}` bu yönelimi onların iç düşünce, niyet ve ayırt etme alanına bağlar.
+
+Bu iç eşik, aynı gelişin iki dış karşılığa ayrılmasını hazırlar. İlk `{ar:فَرِيقًا, tr:ferîkan, gloss:bir kesim}` öne alınarak topluluğun bir payı görünür kılınır; `{ar:كَذَّبُوا۟, tr:kezzebû, gloss:yalanladılar}` yoğunlaştırılmış geçmiş biçimiyle bu payın elçiyi veya getirdiğini doğruluk bakımından yanlış sayan, tamamlanmış bir hükme bağlanan reddini anlatır. Aradaki `{ar:وَ, tr:ve, gloss:ve}` yalanlama ile öldürmeyi aynı düzen içinde tutar. İkinci `{ar:فَرِيقًا, tr:ferîkan, gloss:öteki kesim}` ilk biçimi yineleyerek topluluğu karşılaştırılabilir iki muameleye böler; `{ar:يَقْتُلُونَ, tr:yaktulûne, gloss:öldürüyorlar}` ise doğruluk hükmünden taşıyıcının yaşamını sona erdiren doğrudan bedensel eyleme geçer. Son fiilin geniş zamanlı biçimi şiddeti kapanmış yalanlamanın karşısında hâlâ hareket halinde bırakır. Böylece hoşlanılmayan geliş, alıcı eşiğinde yalan hükmüne veya ölümcül karşılığa dağılan bir kabul düzeni içinde görünür. 2:87'deki benzer geliş, arzuya uymayan mesaj, inkâr ve öldürme dizisi bu bağımsız teması destekler; odak âyetteki iki pay ile geliş karşısındaki tercih arasındaki bağ belirginleşir (2:87).
+
+## Gelişin Taşıdığı İçerik
+
+İlk yerel genişleme, elçinin gelişine içeriği hedefe ulaştıran bir ileti yönü kazandırır. 5:67'deki `{ar:بَلِّغْ, tr:balligh, gloss:ulaştır}` fiili bir yere, kişiye veya ulaşılması gereken uca erişme yönünü taşır; bu yön odaktaki `{ar:رَسُولٌ, tr:resûlün, gloss:elçi}` ile buluştuğunda elçinin gelişi, mesajın varacağı uçla birlikte düşünülür (5:67). Aynı ayetteki `{ar:بَلَّغْ, tr:ballagha, gloss:ulaştırdı}` ve `{ar:رِسَالَتَهُۥ, tr:risâletuhu, gloss:mesajını}`, gönderilen şeyin bir gönderenden alıcıya taşınan ileti olduğunu açar; taşıyıcı ile haber aynı karşılaşmada korunur (5:67). Odaktaki `{ar:أَرْسَلْنَآ, tr:erselnâ, gloss:gönderdik}` fiilinin tutulduğu yerden çıkarıp ileri yöneltme yönü, yine 5:67'deki `{ar:أُنزِلَ, tr:unzila, gloss:indirilen}` biçimiyle birleşince, yukarıdan gelen içeriğin elçi aracılığıyla alıcıya ulaşan bir hatta girdiğini gösterir (5:67). `{ar:رُسُلًا, tr:rusulan, gloss:elçiler}` çoğulu da `{ar:كُلَّمَا, tr:kullamā, gloss:ne zaman ... olsa}` çerçevesi içinde art arda gelen ayrı aktarım birimlerini görünür kılar (5:67). Böylece odaktaki gönderme ve geliş, yalnızca yola çıkarma değil, içeriği hedefe ulaştıran taşıyıcılıktır. Bu bağlantı, 5:67 ile odak arasındaki yerel ileti hattıyla sınırlıdır; elçinin taşıyıcılığını aydınlatır, daha geniş bir iniş veya sûrenin bütünü hakkında hüküm kurmaz.
+
+İkinci yerel genişleme, odaktaki `{ar:أَخَذْنَا, tr:ahaznâ, gloss:aldık}` fiilinin alma yönünü ilişkileri kurma biçimi olarak duyurur. 5:57'deki `{ar:تَتَّخِذُوا۟, tr:tettehizû, gloss:edinmeyin}` ve `{ar:ٱتَّخَذُوا۟, tr:ittehazû, gloss:edindiler}` ile 5:58'deki `{ar:ٱتَّخَذُوهَا, tr:ittehazûhâ, gloss:onu edindiler}`, din, namaz ve dostluk ilişkilerini kişinin kendisi için edinmesi yönünü taşır (5:57, 5:58). Bu temas, odaktaki söz almayı aynı anlam çevresinde, ilişkileri kendi kullanımına göre kuran edimlerden ayrılan bağlayıcı bir ilişki olarak belirginleştirir: söz yalnızca söylenmiş değil, denetim altında tutulmuş ve karşılaşmaları taşıyan bir bağdır. Böylece almak, bir ilişkiyi üstlenmek ile onu kendi tercihine göre edinmek arasındaki farkı duyurur. Bu temas, iki fiilin ilişki kurma yönleriyle sınırlıdır; odaktaki sözün bağlayıcılığını maddi edinme gibi özel kullanımlara taşımadan görünür kılar.
+
+Üçüncü genişleme, odaktaki `{ar:جَاءَهُمْ, tr:câehüm, gloss:onlara geldi}` ile `{ar:بِمَا, tr:bimâ, gloss:getirdiği içerikle}` birlikteliğinde gelişin taşınan bir halin eşiği olduğunu açar. 5:61'deki `{ar:جَاءُوكُمْ, tr:câûkum, gloss:size geldiler}` yaklaşmayı kimin kime geldiğiyle birlikte düşündürür; `{ar:دَّخَلُوا۟, tr:dehalû, gloss:girdiler}` ile `{ar:بِٱلْكُفْرِ, tr:bil-kufri, gloss:inkârla}` yan yana geldiğinde geçişin beraberinde taşınan bir durum bulunduğu görünür (5:61). `{ar:خَرَجُوا۟, tr:haracû, gloss:çıktılar}` bu durumun dışarı çıkışla kendiliğinden değişmediğini, geliş eşiğinin yalnızca yaklaşma değil taşınan halin geçiş boyunca sürmesi olduğunu tamamlar (5:61). `{ar:يَكْتُمُونَ, tr:yektumûne, gloss:gizliyorlar}` ile açıkça söylenen `{ar:ءَامَنَّا, tr:âmennâ, gloss:inandık}` arasındaki gerilim, alıcıda görünen söz ile içeride taşınan halin ayrılabileceğini gösterir (5:61). Böylece odaktaki elçi gelişi, içeriğin alıcıya ulaştığı ve alıcının kendi görünür ya da saklı durumuyla karşılaştığı bir karşılama eşiği olarak derinleşir. Bu bağlantının katkısı, gelişin alıcıya içerikle birlikte taşınan hali de gösteren bir eşik olduğunu açmasıdır; 5:61'deki gizleme, bu özel karşılaştırmanın kendi bağlamı içinde kalır.
+
+## Karşılığın Dışa Taşması
+
+Tekrarlanan geliş çerçevesi, odaktaki karşılığı toplumsal çatışmanın hareketli ucuna bağlar. 5:64'teki `{ar:كُلَّمَآ, tr:kullamā, gloss:ne zaman ... olsa}` ile `{ar:أَوْقَدُوا۟, tr:avkadû, gloss:tutuşturdular}` fiilinin kurduğu savaş ateşi, her ateşleyişte yeniden açılan bir karşılık devresi gösterir (5:64). Bu tekrar biçimi, odaktaki her elçi gelişini yalanlama ve öldürmenin yeniden ortaya çıkabildiği bir çatışma örüntüsü içinde duyurur. `{ar:حَرْبِ, tr:harb, gloss:savaş}` bu teması toplumsal bir alana taşır ve odaktaki `{ar:يَقْتُلُونَ, tr:yaktulûne, gloss:öldürüyorlar}` fiilinin bedensel sonucunu ortak bir gerilim içinde görünür kılar (5:64). `{ar:أَطْفَأَهَا, tr:atfeehâ, gloss:onu söndürdü}` ise insanların tutuşturduğu ateşe dışarıdan gelen bir kesilme ve denetim imkânı ekler (5:64). Bu bağlantının katkısı, tekrarın çatışma alanında öldürme eylemine nasıl bağlandığını göstermesidir; savaş ateşi (5:64) kendi bağlamını korur ve bu yakınlık odak âyetin öldürmesine karşılıklı savaş ya da başka bir öldürme türü eklemez.
+
+Çatışma ihtimaliyle yan yana duran başka bir katkı, sözün ve iletinin ayakta tutulmasıdır. Odaktaki `{ar:مِيثَٰقَ, tr:mîthâqa, gloss:sözleşme}` sağlam ve dayanıklı bir bağ olarak, `{ar:رُسُلًا, tr:rusulan, gloss:elçiler}` ise gönderenden alıcıya içerik taşıyan kişiler olarak görünür. 5:66'daki `{ar:أَقَامُوا۟, tr:akâmû, gloss:ayakta tuttular}` sözü ayakta tutma yönünü, 5:67'deki `{ar:يَعْصِمُكَ, tr:yaʿsimuke, gloss:seni korur}` ise taşıyıcının içeriği hedefine ulaştıracak kadar korunmasını açar (5:66, 5:67). Aynı 5:67'deki `{ar:بَلِّغْ, tr:balligh, gloss:ulaştır}` ve `{ar:رِسَالَتَهُۥ, tr:risâletuhu, gloss:mesajını}` ile `{ar:أُنزِلَ, tr:unzila, gloss:indirilen}`, sözün alıcılar arasında ayakta tutulması ve yukarıdan gelen içeriğin insan taşıyıcıya girmesi yönlerini aynı destek yapısında buluşturur (5:67). Böylece mîthâq, gönderimi ve iletinin hedefe ulaşmasını taşıyan dayanıklı bir yapı olarak duyulur. Bu katkı, sözün fiziksel bir iplikte değil, iletiyi ayakta tutan bağın niteliğinde dayanıklılık kazandığını gösterir (5:66, 5:67).
+
+## İçteki Eşik
+
+Bu bağlantının katkısı, dışarıdaki yalanlama veya öldürmeden önce alıcı kanallarının daralabileceğini görünür kılmasıdır. Odaktaki `{ar:تَهْوَىٰٓ, tr:tehvâ, gloss:sevgi ve isteğe yönelme}` ve `{ar:أَنفُسُهُمْ, tr:enfüsühüm, gloss:iç düşünce ve niyet alanı}`, 5:71'deki `{ar:حَسِبُوا۟, tr:hasibû, gloss:sandılar}` ile birlikte düşünüldüğünde, sınamanın gelmeyeceği beklentisinin içteki karşılığı belirir (5:71). `{ar:فِتْنَةٌ, tr:fitne, gloss:sınama}` gelenin topluluğun taşıdığı durumu açığa çıkaran bir yoklama gibi işlemesini, iki kez gelen `{ar:عَمُوا۟, tr:amû, gloss:körleştiler}` görsel kapanmayı, iki kez gelen `{ar:صَمُّوا۟, tr:sammû, gloss:sağırlaştılar}` ise mesajın işitilmesini dışarıda bırakan kapanmayı kurar (5:71). Aradaki `{ar:ثُمَّ تَابَ, tr:sümme tâbe, gloss:sonra döndü}` dönüş imkânını korur; 5:71'in sırası kapanmanın açılabildiğini ve ardından yeniden kurulabildiğini gösterir (5:71). Bu temas, istenmeyen gelişin alıcıda görme ve işitme kanallarını daraltan bir eşik oluşturabileceğini düşündürür; kapanmayı her durumda seçilmiş bir savunma veya kalıcı bir kayıp olarak sabitlemez.
+
+Bu toplumsal bağlantı, içteki karşılama eşiğinin çevresinde düzeltme işlemediğinde yıkıcı karşılıkların nasıl büyüyebileceğini gösterir. 5:63'te bilgili önderlerin zararlı sözü durdurmaması, 5:79'da insanların birbirlerini kötülükten alıkoymaması, odaktaki `{ar:تَهْوَىٰٓ, tr:tehvâ, gloss:benliğin içten yönelmesi}`, `{ar:فَرِيقًا, tr:ferîkan, gloss:ayrılan pay}` ve `{ar:يَقْتُلُونَ, tr:yaktulûne, gloss:yaşamı sona erdirme}` çevresinde bağımsız bir düzeltme eksikliği görüntüsü kurar (5:63, 5:79). İçten yönelme bu iki alıkoyma noktasının yokluğuyla buluştuğunda, hoşlanmama düzeltme görmeden genişleyip yıkıcı karşılıklara ulaşan bir akış basıncı kazanır. Böyle bakıldığında yalanlama ile öldürme yalnızca iki ayrı kişinin iki tepkisi olarak kalmaz; zararlı söz ve iş durdurulmadığında toplumsal frenleri aşabilen iki uç haline gelir. 5:63 ve 5:79'un kendi topluluk suçlamaları bu karşılaştırmanın içinde canlı kalır; bu bağ, onları 5:70'in tek ve zorunlu nedeni ilan etmeden, karşılama kapısının çevresinde düzeltme işlemediğinde neyin büyüyebileceğini gösterir (5:63, 5:79).
+
+Bu bağlantı, hoşlanmamanın anlık bir hükümden devralınan bir yöne dönüşebileceğini gösterir. Frenin bulunmadığı bu toplumsal çevre, arzunun zaman içinde nasıl taşınabileceği sorusunu açar. Odaktaki `{ar:تَهْوَىٰٓ, tr:tehvâ, gloss:sevgi ve isteğe yönelme}` ve `{ar:أَنفُسُهُمْ, tr:enfüsühüm, gloss:iç düşünce ve ayırt etme alanı}`, 5:77'deki çoğul arzuların peşinden gitme, sapma, başkalarını saptırma ve yol konumlarıyla buluştuğunda, hoşlanmama yalnız o anda verilmiş bir hüküm olmaktan çıkar (5:77). Önceki arzuların izlenmesi, bir topluluğun isteğinin sonraki alıcının elçiyi karşılayışını biçimlendiren devralınmış bir iz bırakabileceğini düşündürür; sapma ve başkalarını saptırma sırası da tek bir dürtüyü kişilere yayılan, kendini yeniden üreten bir sonuç zincirine çevirir (5:77). Böylece `{ar:تَهْوَىٰٓ, tr:tehvâ, gloss:sevgi ve isteğe yönelme}`, yeni gelişleri süzebilen devamlı bir alım güzergâhının iç yönelimi olarak okunur. Bu bağlantıdaki yön devralınan istektir; fiziksel düşme ve bütün toplumsal sapmayı açıklama iddiası bu ilişkinin kapsamına girmez.
+
+Bu bağlantı, alıcı benliğin yalnızca kendisine geleni süzen bir yüzey olmadığını gösterir. Odaktaki `{ar:أَرْسَلْنَآ, tr:erselnâ, gloss:ileri yönelttik}` elçiyi dışarıdan alıcıya sevk eder, `{ar:جَاءَهُمْ, tr:câehüm, gloss:kendilerine ulaşan geliş}` bu hareketin varışını, `{ar:أَنفُسُهُمْ, tr:enfüsühüm, gloss:iç değerlendiren benlik}` ise karşılaşma karşısındaki seçimi taşır. 5:80'de aynı benliğin kendi önüne bir şey gönderdiğini anlatan dil devreye girince, dışarıdan gelen ile içeriden geleceğe sevk edilen şey arasında iki yönlü bir düzen belirir (5:80). Benlik, geleni tartan ölçüt olmanın yanında, seçtiği sonucu önceden ileri gönderen fail gibi görünür; `{ar:تَهْوَىٰٓ, tr:tehvâ, gloss:sevgi ve isteğe yönelme}`nın içten yönelimi böylece aktif bir iradeye dönüşür. 5:80'deki amelleri öne gönderme anlamı bu simetriyi odaktaki elçi gönderimi ve gelişe verilen karşılıkla sınırlı biçimde açar; açık âyet karşılıkları yerinde kalır (5:80).
+
+## Açılabilen Karşılık
+
+İçteki tercih yalnız kapanma yönünde işlemez; başka bir geliş, aynı eşiği açılma hareketine çevirebilir. Odaktaki `{ar:تَهْوَىٰٓ, tr:tehvâ, gloss:benliğin sevgi ve isteğe yönelmesi}` ve iki `{ar:فَرِيقًا, tr:ferîkan, gloss:birbirinden ayrılan pay}`, 5:83 ve 5:84'teki başka bir alım sırasıyla temas ettiğinde, gelişe açık bir karşılık görünür (5:83, 5:84). Önce işitme gelir; gelen içerik susturulmak yerine anlaşılmaya açılır (5:83). Ardından tanıma, fark edilen hakikat izini yalan sayma hükmünden ayırır; gözyaşının kolay ve bol akışı, işitme ile tanımadan sonra bedenin dışarıya açılmasını görünür kılar (5:83). Tanıklara eşlik ederek yazılma isteği, bu iç kabulü gizli bir kanaat olmaktan çıkarıp ortaklaşa görünen bir aidiyet adımına taşır (5:83). Böylece iki `{ar:فَرِيقًا, tr:ferîkan, gloss:ayrılan pay}` aynı gelişin alıcı topluluk içinde yalanlama ve öldürme yönüne olduğu kadar tanıma, yazılma ve giriş yönüne de ayrılabileceğini gösterir.
+
+5:84'te hakikatin gelişi, odaktaki reddedilen gelişle aynı varış ilişkisine döner; gelen şey alıcıda kabul ve umut da doğurabilir (5:84). Rabb'in topluluğuna girme umudu, arzuyu ortadan kaldırmaz; onu geliş karşısında veto olmaktan çıkarıp aidiyete yönelen bir istemeye çevirir (5:84). İçeri girme görüntüsü, alımın taşıyıcıyı ortadan kaldırarak kapanması yanında hakikatin içine ve onu taşıyan topluluğa yerleşme yönünü de açık tutar. Bu karşı yol, 5:83 ve 5:84'ün işitme, tanıma, gözyaşı, yazılma, umut ve topluluk akışını kendi içinde koruyan sınırlı bir karşılaştırmadır; olumlu sıra 5:70'teki iki yıkıcı karşılığın yerine geçirilmez (5:83, 5:84).
+
+## Taşıyıcı ve İçerik
+
+Elçinin gelişini bir ileti eşiği yapan şey, taşıyıcının getirdiği içerikle aynı şey olarak erimemesidir. Odaktaki `{ar:رَسُولٌ, tr:resûlün, gloss:haber taşıyan elçi}` ile `{ar:بِمَا, tr:bimâ, gloss:getirdiği içerikle}` yan yana geldiğinde, gönderenden alıcıya uzanan bağın iki unsuru ayrışır; `{ar:أَرْسَلْنَآ, tr:erselnâ, gloss:gönderdik}` bu bağı başlatan dış sevki, `{ar:يَقْتُلُونَ, tr:yaktulûne, gloss:canını alarak öldürürler}` ise taşıyıcıya yönelen bedensel kopuşu görünür kılar. 5:72'de elçinin kimliği, kendi bildirisinin konuşulması ve ortaklaştırma söylemi bu sınırı tersinden aydınlatır: taşıyıcıyı aşkın bir referansla özdeşleştirmek, onu taşıdığı haberin yerine koyarak iletiyi kapatabilir (5:72). Bu, elçiyi yalnızca küçümseme ya da öldürme karşılığının yanına, taşıyıcıyı içerikten koparan ihtiyatlı bir karşılık açar.
+
+5:75'te elçilerin yalnızca elçi olarak sınıflandırılması, önceki elçilerin geçip gitmesi ve elçinin yemek yiyen, bedensel ihtiyaçları olan yaratılmış kişi olarak anılması bu ayrımı somutlaştırır (5:75). Taşıyıcının bedeni ile taşıdığı söz aynı varış içinde buluşur; beden, mesajın insana ulaşmasını mümkün kılan taşıyıcı rolünü, söz ise taşınan içeriği korur. Bu nedenle açık öldürme bedenî taşıyıcıyı ortadan kaldıran bir kopuş olarak kalırken, taşıyıcıyı getirdiği içerikten ayırıp onun yerine koyacak kadar yüceltmek bedeni korusa bile mesajın geliş yönünü görünmez kılabilir (5:72, 5:75). Bu analojik sınır, 5:72 ve 5:75'in kendi ayrıntıları içinde kalır: elçiyi ve getirdiği şeyi birlikte, fakat ayrı tutmanın alıcı için neden belirleyici olduğunu gösterir; açık âyetteki iki karşılığı veya belirli bir topluluk hakkında ek tarihsel hükmü değiştirmez (5:72, 5:75).
+
+</editorial_prose>

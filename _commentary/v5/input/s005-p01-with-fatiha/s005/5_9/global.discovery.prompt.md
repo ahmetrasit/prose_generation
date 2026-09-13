@@ -5,8 +5,7 @@ the first of two planned turns for this lane. Decide what the supplied evidence
 supports and persist the requested discovery JSON. Do not write polished commentary prose.
 
 Write exactly one JSON object to `_commentary/v5/raw/s005-p01-with-fatiha/s005/5_9/global.discovery.json` and modify nothing
-else, except for any required monitor lifecycle event command supplied by the
-orchestrator. Remain available for a follow-up composition turn, but make this
+else. Remain available for a follow-up composition turn, but make this
 artifact self-contained so a replacement agent can continue if the session is
 lost.
 

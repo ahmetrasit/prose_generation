@@ -1,0 +1,645 @@
+{
+  "schema_version": "commentary-v5-scope-discovery-v1",
+  "ayah_ref": "5:58",
+  "lane": "macro",
+  "coverage_complete": true,
+  "candidate_decisions": [
+    {
+      "candidate_id": "cand_b2c522ea34230974b172",
+      "decision": "accept",
+      "reason": "5:57 odakta aynı alma-alay-oyun dizisini din bağlamına, 5:59 ise inanç ve indirilene yöneltilen hoşnutsuzluğa bağlar; 5:58'in çağrı ve namaz taşıyıcılarına dönen bu temas, alayı kamusal aidiyeti değersizleştiren bir işlem olarak değiştirir. Tüm sekiz dal kaydı için odak dönüşü veya tam koordinatlı bağlam taşıyıcısı mevcut; iki çözülmemiş bağlam dalı atıflı tutuluyor.",
+      "finding_refs": [
+        "macro:affiliation-boundary"
+      ],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_8a674edc83b92c49e3ed",
+      "decision": "accept",
+      "reason": "5:64'te bağlanmış eller ile açılmış ellerin terslenmesi, 5:66 ve 5:68'deki aynı kökten kurma ve ayağa kaldırma kullanımları ve odaktaki akıl/topluluk sözcükleri, öz-denetim bağını kuran bağımsız temaslar sağlar. Altı dal kaydı odak veya tam koordinatlı bağlama döner; çözülmemiş dallar atıflı tutuluyor.",
+      "finding_refs": [
+        "macro:restraint-reversal"
+      ],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_16be77c2273de293f204",
+      "decision": "accept",
+      "reason": "5:58'deki namaz-alay-oyun yüzeyleri ile 5:64'teki ateş yakma ve söndürme dizisi arasında taşıyıcı, bağımsız tetikleyici ve maddi benzetme sonucu bulunuyor; kaynak bu benzetmenin kapsamını açıkça sınırlandırıyor. Üç odak dalı ve iki bağlam dalı ayrı ayrı izlenebiliyor.",
+      "finding_refs": [
+        "macro:thermal-neutralization"
+      ],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    }
+  ],
+  "findings": [
+    {
+      "finding_ref": "macro:affiliation-boundary",
+      "origin_candidate_id": "cand_b2c522ea34230974b172",
+      "represented_candidate_ids": [],
+      "title": "Kamusal aidiyetin alayla değersizleştirilmesi",
+      "claim": "5:57-5:59 bağlamı, namaz çağrısına yönelen alayı yalnızca ritüel sesle eğlenme olarak değil, itaat ve topluluk bağlılığını görünür kılan bir pratiğin kamusal değerini düşürme biçimi olarak da okunur.",
+      "mechanism": "Odaktaki yüksek sesli çağrı belirli ibadete yönelir. 5:57 aynı alma-alay-oyun kuruluşunu din ve bağlılıkla birlikte kurar; 5:59 da inanç ve indirilmiş olana yöneltilen hoşnutsuzluğu adlandırır. Bu temas, çağrının itaat ve aidiyeti görünür kılan pratiğe dönüşmesini ve alayın bu görünürlüğü sosyal olarak değersizleştirmesini sağlar.",
+      "reader_payoff": "Okur, çağrının küçümsenmesini özel bir ritüel sesine yönelmiş dağınık tepki olarak değil, görünür bir bağlılığın kamusal değerini düşüren bir işlem olarak kavrar.",
+      "containment": "Bu okuma alayın mutlaka bilinçli bir sosyal strateji olduğunu kesinleştirmez; packet içindeki dağınık küçümseme ihtimalini açık bırakır. Odaktaki çağrı, namaz, alay ve oyun anlamları korunur; sosyal sınır işlevi bağlamdan çıkarılan bir nitelendirme olarak kalır.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": [
+          "legacy_unbound"
+        ],
+        "reason": "Ayet yüzeyleri ile odak ve bağlam koordinatları tamdır; fakat HFT'nin kök, dal ve rol ayrıntıları legacy_unbound olarak sunulmuştur. Sosyal aidiyet işlevi bu verilerden yapılan, alternatifini açık bırakan bir çıkarımdır."
+      },
+      "support_ids": [
+        "sup_b7516a79ca5a8cb07b86"
+      ],
+      "branch_activations": [
+        {
+          "branch_ref": "root_001487/B001",
+          "facet_id": "F001",
+          "branch_gloss": "yüksek sesle seslenme ve çağırma",
+          "facet_statement": "Bir muhataba sesi yükselterek seslenme ve onu çağırma eylemidir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "5:58:2:1"
+          ],
+          "trigger_refs": [
+            "5:57:8",
+            "5:59:5"
+          ],
+          "focus_return_refs": [
+            "5:58:2:1"
+          ],
+          "carrier": "5:58:2:1'deki yüksek sesli çağrı, ibadete yönelen ve kamusal olarak duyulan taşıyıcıdır.",
+          "independent_trigger": "5:57:8'deki itaat ve teslimiyet alanı ile 5:59:5'teki yöneltilmiş hoşnutsuzluk, çağrının sosyal aidiyet işareti olarak okunmasını sağlar.",
+          "activation": "Kamusal çağrı, itaat ve inanç çevresinde kurulan yerel bağlamla temas edince yalnızca bir seslenme olmaktan çıkar; görünür bir bağlılığı duyuran pratik olarak alayın hedefi haline gelir.",
+          "resulting_reading": "Namaza çağrı, bağlılığı kamusal biçimde duyuran bir hareket olarak görünür ve alay, bu bağlılığın sosyal görünürlüğünü değersizleştiren bir karşılık kazanır.",
+          "boundary": "Çağrının her alımlanışını bilinçli bir dışlama planı olarak kesinleştirmez; bu dalın taşıdığı şey yüksek sesli çağrı ve onun bağlam içindeki görünürlüğüdür."
+        },
+        {
+          "branch_ref": "root_000879/B003",
+          "facet_id": "F001",
+          "branch_gloss": "ayakta durma, eğilme ve yere kapanma bölümleri olan kurallı tapınma",
+          "facet_statement": "Kuralları belirlenmiş tapınma, ayakta durma, eğilme, yere kapanma, dilek ve yüceltme bölümlerini içerir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "5:58:4:2"
+          ],
+          "trigger_refs": [
+            "5:57:5",
+            "5:57:7",
+            "5:57:9",
+            "5:57:10"
+          ],
+          "focus_return_refs": [
+            "5:58:4:2"
+          ],
+          "carrier": "5:58:4:2'deki namaz, bölümleri ve kuralları bulunan belirli tapınma eylemidir.",
+          "independent_trigger": "5:57:5, 5:57:7, 5:57:9 ve 5:57:10 aynı alma, alay ve oyun kuruluşunu dinin üzerine uygular.",
+          "activation": "Belirli ibadet taşıyıcısı, hemen önce dinin alay ve oyun konusu yapılmasıyla birleşince, çağrının kurallı bir tapınmaya giriş olduğunu ve küçümsemenin bu bağlılık pratiğine yöneldiğini görünür kılar.",
+          "resulting_reading": "Çağrıya verilen alay, ritüelin biçimine yönelik rastgele bir tepki değil, itaat olarak yaşanan belirli ibadetin görünür icrasını değersizleştiren bir işlem olarak açılır.",
+          "boundary": "Kurallı tapınmanın anlamını korur; sosyal aidiyet işlevi 5:57-5:59 bağlamından gelen bir genişlemedir ve ibadetin tek anlamı olarak sunulmaz."
+        },
+        {
+          "branch_ref": "root_000018/B010",
+          "facet_id": "F001",
+          "branch_gloss": "kendisi için edinip kazanma",
+          "facet_statement": "Bir şeyi kendisi için edinip kendine ait hale getirmeyi anlatır.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "5:58:5:1"
+          ],
+          "trigger_refs": [
+            "5:57:5",
+            "5:57:7"
+          ],
+          "focus_return_refs": [
+            "5:58:5:1"
+          ],
+          "carrier": "5:58:5:1'deki alma kuruluşu, önündeki namazı kendileri için başka bir role alıp dönüştüren eylem olarak taşınır.",
+          "independent_trigger": "5:57:5 ve 5:57:7'de aynı alma kuruluşunun din, alay ve oyunla birlikte yinelenmesi, bir şeyi kendine göre edinme ve yeniden adlandırma temasını sağlar.",
+          "activation": "Alma kuruluşu, bağlamdaki yinelenen alay ve oyunla temas edince nesneyi edinme çekirdeği, namazı kendi küçültücü çerçevelerine alma ve rolünü yeniden kurma hareketini açıklar.",
+          "resulting_reading": "Onlar namazı yalnızca dışarıdan gözlenen bir ibadet olarak karşılamaz; onu kendi alay ve oyun çerçevelerine alarak kamusal anlamını dönüştürür.",
+          "boundary": "Dalın taşıdığı edinme ve kendine alma çekirdeği korunur; bu bağlamda para kazanma veya başka türemiş kullanımlar ileri sürülmez."
+        },
+        {
+          "branch_ref": "root_000504/B001",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "5:57:8"
+          ],
+          "trigger_refs": [
+            "5:58:2:1",
+            "5:58:4:2"
+          ],
+          "focus_return_refs": [
+            "5:58:2:1",
+            "5:58:4:2"
+          ],
+          "carrier": "5:57:8'deki din, HFT rolünün itaat ve teslimiyet olarak belirlediği bağlılık taşıyıcısıdır.",
+          "independent_trigger": "5:58:2:1'deki kamusal çağrı ve 5:58:4:2'deki belirli ibadet, bu bağlılığın görünür pratiğe dönüşmesini sağlar.",
+          "activation": "Bağlamda itaat ve teslimiyet olarak atfedilen din, odaktaki çağrı ve namazla temas edince alayın hedefinin yalnızca ses değil, o sesin ilan ettiği bağlılık olduğu ortaya çıkar.",
+          "resulting_reading": "Namaz çağrısına yönelen küçümseme, itaat ilişkisinin kamusal taşıyıcısını değersizleştiren bir karşılık olarak belirir.",
+          "boundary": "Dalın bağımsız sözlük kaydı packet içinde çözülmemiştir; yalnızca HFT'nin tam koordinatlı, atıflı rolü kullanılır ve yeni bir dal açıklaması icat edilmez."
+        },
+        {
+          "branch_ref": "root_001587/B001",
+          "facet_id": "F001",
+          "branch_gloss": "alay etme; gizli şakayla küçümseme",
+          "facet_statement": "Bir kimseyi küçümseyerek alaya alma veya gülünç duruma düşürme eylemidir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "5:58:6:1"
+          ],
+          "trigger_refs": [
+            "5:57:9",
+            "5:59:5"
+          ],
+          "focus_return_refs": [
+            "5:58:6:1"
+          ],
+          "carrier": "5:58:6:1'deki alay, namaz çağrısına yöneltilen küçümseme eylemini taşır.",
+          "independent_trigger": "5:57:9'daki aynı alay sözcüğü ve 5:59:5'teki yöneltilmiş hoşnutsuzluk, küçümsemenin çevresini genişletir.",
+          "activation": "Aynı alay sözcüğü önce dinle, sonra çağrıyla birleşince, odaktaki eylem tekil bir şaka olmaktan çıkar ve bağlılığın kamusal görünümünü hedefleyen küçümseme olarak okunur.",
+          "resulting_reading": "Alay, namaz çağrısının ciddiyetini düşüren belirgin bir eylem ve bağlılığı sosyal olarak küçük düşüren bir işlem halini alır.",
+          "boundary": "Dalın gerçek alay ve küçümseme çekirdeği korunur; alaya karşılık verme veya başka bağımsız dallar bu etkinliğe eklenmez."
+        },
+        {
+          "branch_ref": "root_001358/B001",
+          "facet_id": "F001",
+          "branch_gloss": "oyun; ciddi bir amaç gütmeyen eğlenceli davranış",
+          "facet_statement": "Ciddi bir amaca yönelmeyen eğlenceli veya şakacı davranışta bulunma çekirdeği vardır.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "5:58:7:2"
+          ],
+          "trigger_refs": [
+            "5:57:10"
+          ],
+          "focus_return_refs": [
+            "5:58:7:2"
+          ],
+          "carrier": "5:58:7:2'deki oyun, namaz çağrısına ciddi bir amaç taşımayan davranış niteliği verir.",
+          "independent_trigger": "5:57:10'daki aynı oyun sözcüğü, dinin daha önce aynı biçimde ciddiyetsizleştirildiğini gösterir.",
+          "activation": "Oyun sözcüğünün yinelenmesi, odaktaki davranışın anlık bir eğlence olarak değil, din ve namazın anlamını ciddiyetsiz bir çerçeveye taşıyan tekrarlı bir yeniden kodlama olarak okunmasını sağlar.",
+          "resulting_reading": "Namaz çağrısının oyuna çevrilmesi, ibadetin kamusal amacını düşüren ve onu geçersiz bir eğlence çerçevesine alan davranış olarak görünür.",
+          "boundary": "Oyun dalının ciddi amaçtan yoksun davranış çekirdeği korunur; sıcaklık görüntüsü ve öteki eşsesli kullanımlar bu temasa katılmaz."
+        },
+        {
+          "branch_ref": "root_001684/B004",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "5:57:18"
+          ],
+          "trigger_refs": [
+            "5:58:2:1",
+            "5:58:4:2"
+          ],
+          "focus_return_refs": [
+            "5:58:2:1",
+            "5:58:4:2"
+          ],
+          "carrier": "5:57:18'deki sevgi, destek ve ittifak alanı, alayın içinde gerçekleştiği sosyal sınırı taşır.",
+          "independent_trigger": "Odaktaki kamusal çağrı ve belirli ibadet, bu ittifak sınırının görünür bir bağlılık pratiğine bağlanmasını sağlar.",
+          "activation": "Destek ve ittifak olarak atfedilen sosyal sınır, çağrı ve namazın görünür bağlılığıyla temas edince alayın bu bağlılığın kimlerce kamusal olarak taşınabileceğini sınayan bir işlem gibi okunmasına izin verir.",
+          "resulting_reading": "Alay, ibadetin anlamını küçültmenin yanında o ibadetin kamusal aidiyetini sosyal olarak maliyetli kılan bir sınır hareketi olarak belirir.",
+          "boundary": "Dalın bağımsız sözlük ayrıntısı packet içinde çözülmemiştir; ittifak işlevi yalnızca HFT'nin atıflı rolü içinde tutulur."
+        },
+        {
+          "branch_ref": "root_001545/B001",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "5:59:5"
+          ],
+          "trigger_refs": [
+            "5:58:6:1",
+            "5:58:7:2"
+          ],
+          "focus_return_refs": [
+            "5:58:6:1",
+            "5:58:7:2"
+          ],
+          "carrier": "5:59:5'teki kınama ve kusur bulma, HFT'nin inanca yönelmiş hoşnutsuzluk rolünü taşır.",
+          "independent_trigger": "5:58:6:1'deki alay ve 5:58:7:2'deki oyun, bu hoşnutsuzluğun çağrıya yönelen küçümseme biçimindeki odak dönüşünü sağlar.",
+          "activation": "İnanca yöneltilen hoşnutsuzluk, odaktaki alay ve oyunla temas edince çağrının küçümsenmesi inançtan kopuk bir ses tepkisi olarak değil, inançla görünür olan bağlılığa yönelmiş bir işlem olarak açılır.",
+          "resulting_reading": "5:59'daki hoşnutsuzluk, 5:58'deki alayın hedefini inanç ve bağlılık çevresine geri bağlar.",
+          "boundary": "Dalın bağımsız sözlük kaydı packet içinde çözülmemiştir; HFT'nin atıflı kınama rolü dışına taşılmaz."
+        }
+      ],
+      "connection_refs": [
+        "conn_b5878cd26707ee79c743",
+        "conn_af8fd0ccaa27c1789edf"
+      ],
+      "context_refs": [
+        "5:57",
+        "5:59"
+      ],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "macro:restraint-reversal",
+      "origin_candidate_id": "cand_8a674edc83b92c49e3ed",
+      "represented_candidate_ids": [],
+      "title": "Kısıtın yer değiştirmesi",
+      "claim": "5:64, 5:66 ve 5:68 bağlamı, odaktaki aklı kullanmama teşhisini kişinin kendisini doğru bir uygulamaya bağlayamaması ve ardından kısıtı verene yüklemesi görüntüsüyle genişletir; odaktaki alay ve oyun bu terslenmiş ilişkinin davranışsal belirtisi haline gelir.",
+      "mechanism": "Odaktaki akıl fiili için sağlanan deve ayağını bağlama dalı, kendini tutma görüntüsünü taşır; topluluk sözcüğü de bir işe kararlılıkla girişme ve düzgünlük dallarıyla birleşir. 5:64 ellerin bağlanmasını ve açılmasını doğrudan karşılaştırır; 5:66 ve 5:68 aynı kökten gelen kurma ve doğruluk kullanımlarıyla received order'ın ayağa kaldırılmasını gösterir. Bu temas, öz-denetimden kaçınmanın kısıtı ilahi verene yansıtması şeklinde bir okuma üretir.",
+      "reader_payoff": "Okur, aklı kullanmama teşhisini yalnızca zihinsel eksiklik olarak değil, kişiyi doğru bir eylemde tutacak bağı kuramama ve sonra engeli verene yükleme görüntüsü olarak da kavrar.",
+      "containment": "Bu çıkarım, 5:64'teki el polemiğinin 5:58'in dilbilgisel açıklaması olduğunu söylemez; iki bölüm arasındaki bağımsızlık ihtimali açıktır. Bağlama, doğruluk ve kurma görüntüleri odaktaki düz anlamı taşır ve onu yerinden etmez.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": [
+          "legacy_unbound"
+        ],
+        "reason": "Odak dalları packet içinde ayrıntılı, bağlam taşıyıcıları ise tam koordinatlı Arapça yüzey ve atıflı HFT rolleriyle verilmiştir. Kısıtın terslenmiş konumu, bu temasların birleşiminden çıkarılır; HFT ayrıca komşu metinlerin bağımsız kalabileceğini belirtir."
+      },
+      "support_ids": [
+        "sup_e5c33a12a6235f160864"
+      ],
+      "branch_activations": [
+        {
+          "branch_ref": "root_001036/B002",
+          "facet_id": "F001",
+          "branch_gloss": "devenin ön ayağını büküp bağlayarak tutma",
+          "facet_statement": "Devenin ön ayağını büküp bir bağla hareketini sınırlayacak biçimde tutturur.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "5:58:12:1"
+          ],
+          "trigger_refs": [
+            "5:64:5",
+            "5:64:6"
+          ],
+          "focus_return_refs": [
+            "5:58:12:1"
+          ],
+          "carrier": "5:58:12:1'deki akıl fiili, sağlanan bağlama görüntüsüyle kendini tutma ve hareketi denetleme yönüne açılır.",
+          "independent_trigger": "5:64:5-6'da elin bağlı oluşu ve ellerin bağlanması, kısıtın somut taşıyıcısını sağlar.",
+          "activation": "Odaktaki akıl sözcüğünün bağlama dalı, bağlanmış eller görüntüsüyle temas edince düşünme yetisinin yokluğu, kişiyi davranışta tutacak bir bağı kuramama görüntüsünü de taşır.",
+          "resulting_reading": "Onların aklı kullanmaması, doğru pratiği taşıyacak öz-denetim bağını kuramayan bir topluluk görüntüsü verir.",
+          "boundary": "Bağlama dalı packet'te deve ayağı ve saç bağlama kullanımlarıyla tanıklanır; burada bunlar yalnızca öz-denetimi açıklayan maddi bir görüntü olarak kullanılır, insanlar deve sayılmaz."
+        },
+        {
+          "branch_ref": "root_001273/B003",
+          "facet_id": "F001",
+          "branch_gloss": "bir işe kararlılıkla girişme",
+          "facet_statement": "Kişi belirli bir işe kesin niyetle yönelir, işi üstlenir ve ona girişir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "5:58:10:1"
+          ],
+          "trigger_refs": [
+            "5:66:3",
+            "5:68:8"
+          ],
+          "focus_return_refs": [
+            "5:58:10:1"
+          ],
+          "carrier": "5:58:10:1'deki topluluk sözcüğü, belirli bir işi üstlenme ve ona girişme görüntüsünü de taşıyabilir.",
+          "independent_trigger": "5:66:3 ve 5:68:8'de received order'ın kurulup ayağa kaldırılması belirli bir işe kararlılıkla girişme yönünü sağlar.",
+          "activation": "Topluluk sözcüğü, metinleri kurma ve üstlenme eylemleriyle temas edince topluluğun adı yalnızca bir insan kümesini değil, bir işi taşıyıp uygulamaya koyması beklenen bir gövdeyi de gösterir.",
+          "resulting_reading": "Alay eden topluluk, kendisinden beklenen işi üstlenip ayakta tutmak yerine çağrıyı oyuna çeviren bir topluluk olarak belirir.",
+          "boundary": "Dal belirli bir işe girişme kalıbıyla sınırlıdır; fiziksel ayağa kalkma veya başka qwm dalları bu aktivasyona eklenmez."
+        },
+        {
+          "branch_ref": "root_001102/B006",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "5:64:5",
+            "5:64:6"
+          ],
+          "trigger_refs": [
+            "5:58:12:1",
+            "5:58:10:1"
+          ],
+          "focus_return_refs": [
+            "5:58:12:1",
+            "5:58:10:1"
+          ],
+          "carrier": "5:64:5-6'daki uzvu bağlayan halka ve bağ görüntüsü, kısıtın dışarıdan görünen taşıyıcısıdır.",
+          "independent_trigger": "5:58:12:1'deki akıl fiili ile 5:58:10:1'deki topluluk sözcüğü, bu kısıtın insan grubunun davranışına dönmesini sağlar.",
+          "activation": "Dışarıdan görülen bağ, odaktaki akıl ve toplulukla temas edince kısıtın kaynağı ve yeri sorusunu açar: grup kendisini tutacak bağı kurmazken engel verene yüklenir.",
+          "resulting_reading": "Bağlanmış el görüntüsü, odaktaki akılsızlık tanısının ters çevrilmiş bir kısıt aktarımıyla okunmasına katkı verir.",
+          "boundary": "Dalın bağımsız kök ve sözlük ayrıntısı packet içinde çözülmemiştir; yalnızca HFT'nin tam koordinatlı, atıflı uzuv-bağlama rolü kullanılır."
+        },
+        {
+          "branch_ref": "root_000116/B004",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "5:64:13"
+          ],
+          "trigger_refs": [
+            "5:58:12:1",
+            "5:58:10:1"
+          ],
+          "focus_return_refs": [
+            "5:58:12:1",
+            "5:58:10:1"
+          ],
+          "carrier": "5:64:13'teki açılmış eller, bağlanmış el iddiasını tersine çeviren açıklık ve verme taşıyıcısıdır.",
+          "independent_trigger": "Odaktaki akıl ve topluluk sözcükleri, bu açıklık karşıtlığını davranışta kendini tutma ve işe girişme sorusuna bağlar.",
+          "activation": "Açılmış eller, odaktaki öz-denetim bağının yokluğuyla temas edince kısıtın verende değil, uygulamayı üstlenmeyen toplulukta aranabileceğini gösteren açık bir karşı kutup kurar.",
+          "resulting_reading": "İlahi verene atfedilen kısıt, odaktaki grubun kendi uygulama bağını kuramamasıyla karşı karşıya geldiğinde yer değiştirmiş görünür.",
+          "boundary": "Dalın bağımsız sözlük kaydı packet içinde çözülmemiştir; açılmış el ve verme karşıtlığı yalnız HFT'nin atıflı rolü içinde tutulur."
+        },
+        {
+          "branch_ref": "root_001273/B003",
+          "facet_id": "F001",
+          "branch_gloss": "bir işe kararlılıkla girişme",
+          "facet_statement": "Kişi belirli bir işe kesin niyetle yönelir, işi üstlenir ve ona girişir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "5:66:3"
+          ],
+          "trigger_refs": [
+            "5:58:10:1"
+          ],
+          "focus_return_refs": [
+            "5:58:10:1"
+          ],
+          "carrier": "5:66:3'teki received order'ı ayağa kaldırma, belirli bir işi üstlenip girişme eylemini taşır.",
+          "independent_trigger": "5:58:10:1'deki topluluk sözcüğü, bu işi taşıması beklenen grubun odak teşhisine geri döner.",
+          "activation": "Kurma ve üstlenme eylemi, odaktaki toplulukla temas edince aklı kullanmayanların eksikliği yalnız düşüncede değil, kendilerine verilen işi ayakta tutmama biçiminde de görünür.",
+          "resulting_reading": "Bağlamdaki olumlu kurma eylemi, odaktaki grubun çağrıyı oyuna çevirirken üstlenmesi gereken uygulamadan uzaklaştığını görünür kılar.",
+          "boundary": "Bu aktivasyon belirli bir işi üstlenme dalına bağlıdır; received order'ın bütün yorumlarını veya başka eylem dallarını kapsamaz."
+        },
+        {
+          "branch_ref": "root_001273/B008",
+          "facet_id": "F002",
+          "branch_gloss": "düzgünlük, denge ve doğru yoldan sapmama",
+          "facet_statement": "Doğru yolda kalma, doğru inanç düzeni ve adil söz, düzgünlük çekirdeğinin davranış ve değer alanına uzanmasıdır.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "5:68:8",
+            "5:68:29"
+          ],
+          "trigger_refs": [
+            "5:58:10:1",
+            "5:58:12:1"
+          ],
+          "focus_return_refs": [
+            "5:58:10:1",
+            "5:58:12:1"
+          ],
+          "carrier": "5:68:8 ve 5:68:29'daki kurma ve topluluk yüzeyi, doğru inanç düzeninde durma ve doğru yoldan sapmama yönünü taşır.",
+          "independent_trigger": "5:58:10:1'deki topluluk ve 5:58:12:1'deki akıl, düzgünlük ve doğru yolda kalma görüntüsünü odak grubunun teşhisine bağlar.",
+          "activation": "Doğru düzende durma ve metni ayakta tutma görüntüsü, odaktaki akıl kullanmayan toplulukla temas edince çağrının alay ve oyunla yeniden çerçevelenmesini doğru yolda duramama karşıtlığı içinde gösterir.",
+          "resulting_reading": "Odaktaki grup, verili düzeni ayakta tutan düzgün bir topluluk olarak değil, çağrıyı ciddiyetsizleştirerek doğru uygulama çizgisinden sapan bir topluluk olarak görünür.",
+          "boundary": "Bu dalın doğru yolda kalma ve düzgünlük yüzü kullanılır; geçim, fiyat, bedensel duruş ve başka qwm dalları ileri sürülmez."
+        }
+      ],
+      "connection_refs": [
+        "conn_8790819aa85315e5ce67",
+        "conn_5ba0a977eb574df5b861",
+        "conn_a0735b14b83e1209ab03"
+      ],
+      "context_refs": [
+        "5:64",
+        "5:66",
+        "5:68"
+      ],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "macro:thermal-neutralization",
+      "origin_candidate_id": "cand_16be77c2273de293f204",
+      "represented_candidate_ids": [],
+      "title": "Talep gücünün ısıl olarak etkisizleştirilmesi",
+      "claim": "5:64'teki ateş yakma ve söndürme dizisi, odaktaki namaz, alay ve oyunun çevresinde keşifsel bir ısıl benzetme kurar: çağrının taşıdığı talep gücü, uyuşturan soğuk ve kararsız bir sıcaklık görüntüsüyle etkisizleştirilmeye çalışılır.",
+      "mechanism": "Namaz yüzeyinde ateşin şiddetine uğrama, alay yüzeyinde şiddetli soğuğa çarpılma ve oyun yüzeyinde sıcak havadaki ipliksi görüntü için packet'te ayrı odak dalları bulunur. 5:64'te ateşin yakılması ve söndürülmesi bu dallara bağımsız bir yoğunluk ve etkisizleştirme dizisi sağlar. Temas, odaktaki alay ve oyunu çağrının pratik talebini söndüren maddi bir benzetme olarak değiştirir.",
+      "reader_payoff": "Okur, alay ve oyunun ciddiyeti azaltmasını yalnız toplumsal küçümseme olarak değil, çağrının harekete geçirici gücünü ısıyı söndürür gibi nötralize eden bir görüntü olarak da görür.",
+      "containment": "Bu keşifsel bir maddi benzetmedir; namaz, alay veya oyun burada gerçek sıcaklık adları yapılmaz. Soğuk dalındaki z/r biçim tartışması ve sıcaklık görüntüsünün serapla özdeşliği açık kalır; ana alay ve oyun okuması korunur.",
+      "epistemic": {
+        "status": "exploratory",
+        "source_trust": [
+          "legacy_unbound"
+        ],
+        "reason": "Üç odak taşıyıcısı ve 5:64'teki ateş dizisi packet içinde tam yüzey koordinatlarıyla bulunur; ancak iki bağlam dalı çözülmemiş, HFT kaynağı legacy_unbound ve öneri açıkça peripheral bir benzetmedir. Bu nedenle ısıl sonuç exploratory olarak korunur."
+      },
+      "support_ids": [
+        "sup_1c394ac53cc59e043a5b"
+      ],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000880/B003",
+          "facet_id": "F003",
+          "branch_gloss": "ateşin veya benzer bir sıkıntının şiddetine uğramak; birini ateşe sokmak",
+          "facet_statement": "Ateşe benzetilen ağır bir işin veya kötülüğün sıkıntısını çekmektir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "5:58:4:2"
+          ],
+          "trigger_refs": [
+            "5:64:35",
+            "5:64:38"
+          ],
+          "focus_return_refs": [
+            "5:58:4:2"
+          ],
+          "carrier": "5:58:4:2'deki namaz, ateşin veya ateşe benzetilen ağır bir sıkıntının şiddetine uğrama dalıyla talep ve yük yoğunluğu görüntüsüne açılır.",
+          "independent_trigger": "5:64:35'te ateşin yakılması ve 5:64:38'de söndürülmesi, yoğunluğun üretilip ardından nötralize edildiği ayrı diziyi sağlar.",
+          "activation": "Namazın ateşe benzetilen ağır sıkıntı dalı, yakma ve söndürme döngüsüyle temas edince çağrının taşıdığı yük ve talep, alay tarafından söndürülebilen bir yoğunluk gibi görünür.",
+          "resulting_reading": "Namaz çağrısının talep gücü, alay ve oyunun etkisizleştirmeye çalıştığı ısıl bir yoğunluk olarak keşifsel biçimde belirir.",
+          "boundary": "Bu, ağır sıkıntıyı ateşle ilişkilendiren bir benzetmedir; namazın sıcaklık anlamına geldiğini veya 5:64'ün doğrudan dilbilgisel açıklama sunduğunu ileri sürmez."
+        },
+        {
+          "branch_ref": "root_001587/B003",
+          "facet_id": "F001",
+          "branch_gloss": "şiddetli soğuğa uğrama veya soğuktan ölme",
+          "facet_statement": "Bir kimse soğuğun şiddetine uğrar ve bundan ağır biçimde etkilenir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "5:58:6:1"
+          ],
+          "trigger_refs": [
+            "5:64:35",
+            "5:64:38"
+          ],
+          "focus_return_refs": [
+            "5:58:6:1"
+          ],
+          "carrier": "5:58:6:1'deki alay, HFT'nin şiddetli soğuğun kişiye ulaşıp onu ağır etkilemesi olarak sunduğu dalı taşır.",
+          "independent_trigger": "5:64:35-38'deki ateşin yakılıp söndürülmesi, alay için ateş yoğunluğuna karşı uyuşturucu bir karşılık görüntüsü sağlar.",
+          "activation": "Alay eylemi, ateş yoğunluğunun söndürülmesiyle temas edince çağrının talebine karşılık veren uyuşturucu soğuk gibi, pratik gücü kıran bir hareket olarak okunur.",
+          "resulting_reading": "Alay, çağrının talep ettiği ciddiyeti soğukla karşılaşmış gibi uyuşturan ve etkisini kıran bir güç olarak görünür.",
+          "boundary": "Dalın anlamı şiddetli soğuğun kişiye etkisiyle sınırlıdır; biçimin z veya r sesine bağlanması packet'te tartışmalı olduğu için biçimsel kesinlik ileri sürülmez."
+        },
+        {
+          "branch_ref": "root_001358/B004",
+          "facet_id": "F002",
+          "branch_gloss": "sıcakta görülen ipliksi hava titreşimi; serapla özdeşliği tartışmalı",
+          "facet_statement": "Görünüş, havada uzanan ipliklere veya gökten aşağı inen ince çizgilere benzetilir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "5:58:7:2"
+          ],
+          "trigger_refs": [
+            "5:64:35",
+            "5:64:38"
+          ],
+          "focus_return_refs": [
+            "5:58:7:2"
+          ],
+          "carrier": "5:58:7:2'deki oyun, sıcak havada iplik gibi görünen ve kararlı bir nesne vermeyen görüntü dalıyla temas eder.",
+          "independent_trigger": "5:64:35-38'deki ateş yoğunluğunun yakılıp söndürülmesi, bu kararsız görüntüye belirgin bir yoğunluk ve dağılma yönü verir.",
+          "activation": "Oyun dalının ipliksi ve kararsız görünüşü, ateşin söndürülmesiyle temas edince alayın çağrıya yönelttiği oyunu sabit bir karşılık üretmeyen, talep gücünü görüntüye dağıtan bir işlem olarak açıklar.",
+          "resulting_reading": "Oyun, çağrının talebini gerçek bir karşılık vermeden sıcak havadaki ipliksi titreşim gibi dağıtan bir etkisizleştirme biçimi olarak görünür.",
+          "boundary": "İpliksi sıcaklık görüntüsü kullanılır; serapla eşitliği tartışmalı kalır ve oyun sözcüğünün gerçek sıcaklık adı olduğu ileri sürülmez."
+        },
+        {
+          "branch_ref": "root_001672/B001",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "5:64:35"
+          ],
+          "trigger_refs": [
+            "5:58:4:2",
+            "5:58:6:1",
+            "5:58:7:2"
+          ],
+          "focus_return_refs": [
+            "5:58:4:2",
+            "5:58:6:1",
+            "5:58:7:2"
+          ],
+          "carrier": "5:64:35'teki ateş yakma, HFT'nin yoğunluğu üreten bağlam taşıyıcısıdır.",
+          "independent_trigger": "Odaktaki namaz, alay ve oyun dalları, bu ateş yoğunluğunun çağrıya yönelen talep ve karşılık ilişkisine dönmesini sağlar.",
+          "activation": "Ateşi üretme görüntüsü, odaktaki üç taşıyıcıyla temas edince çağrının talep gücünü önce yoğunlaşan, sonra hedef alınan bir kuvvet olarak kurar.",
+          "resulting_reading": "Alay ve oyun, yoğunluğu üreten bir çağrı kuvvetine karşı yapılan etkisizleştirme hareketi olarak okunabilir.",
+          "boundary": "Dalın bağımsız sözlük ve kök ayrıntısı packet içinde çözülmemiştir; yalnızca HFT'nin ateş yakma rolü atıflı kanıt olarak kullanılır."
+        },
+        {
+          "branch_ref": "root_000938/B001",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "5:64:38"
+          ],
+          "trigger_refs": [
+            "5:58:4:2",
+            "5:58:6:1",
+            "5:58:7:2"
+          ],
+          "focus_return_refs": [
+            "5:58:4:2",
+            "5:58:6:1",
+            "5:58:7:2"
+          ],
+          "carrier": "5:64:38'deki ateş söndürme, HFT'nin yoğunluğu nötralize eden bağlam taşıyıcısıdır.",
+          "independent_trigger": "Odaktaki namazın talep gücü, alayın küçümsemesi ve oyunun kararsızlaştırması, söndürme görüntüsünün odak dönüşünü sağlar.",
+          "activation": "Ateşi söndürme görüntüsü, odaktaki üç taşıyıcıyla birleşince alay ve oyunun çağrının pratik gücünü etkisizleştirme işlevini maddi bir sonuca bağlar.",
+          "resulting_reading": "Çağrının talep gücü, alay ve oyun tarafından ateş gibi söndürülen bir yoğunluk olarak keşifsel biçimde belirir.",
+          "boundary": "Dalın bağımsız sözlük kaydı packet içinde çözülmemiştir; söndürme yalnızca HFT'nin atıflı rolü olarak tutulur ve namazın gerçek ısıya indirgenmesi yapılmaz."
+        }
+      ],
+      "connection_refs": [
+        "conn_8790819aa85315e5ce67"
+      ],
+      "context_refs": [
+        "5:64"
+      ],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "macro:fatiha-path-overlay",
+      "origin_candidate_id": null,
+      "represented_candidate_ids": [],
+      "title": "Doğru yolda duramayan topluluk için dış temas",
+      "claim": "Eklenen 1:6 ve 1:7 ayetleri, odaktaki topluluk ve akıl sözcüklerine iki ayrı ama birleşen bir dış temas verir: doğru yolda durma ile kendini bağlayamayan ve sonunda şaşan bir topluluk görüntüsü.",
+      "mechanism": "1:6:3'teki doğru yolda olma ifadesi odaktaki topluluk sözcüğünün düzgünlük ve doğru yoldan sapmama dalına döner. 1:7:9'daki şaşmış ve sahipsiz varlık görüntüsü, odaktaki akıl sözcüğünün bağlama dalına bağımsız bir temas sağlar. Böylece 5:58'in aklı kullanmama teşhisi, eklenen iki tekil ayetin yol ve bağ görüntüleriyle somutlaşır.",
+      "reader_payoff": "Okur, topluluğun aklı kullanmamasını yalnız bilgi eksikliği olarak değil, doğru çizgide durmayı ve hareketini tutacak bağı korumayı başaramayan bir yön kaybı olarak da algılar.",
+      "containment": "Bu, yalnız 1:6 ve 1:7'deki iki açık bağın 5:58'e etkisidir; bütün Fātiḥa'nın temasını veya odaktaki insanları gerçek hayvanlar olarak ilan etmez. Odaktaki topluluk ve akıl teşhisi korunur; yol ve bağ görüntüsü onu dışarıdan derinleştirir.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": [],
+        "reason": "1:6:3 ve 1:7:9 bağlam oluşumları, seçilmiş dış ayetlerde kök ve kelime konumlarıyla verilir; focus dalının ayrıntısı packet içinde tamdır. Dış bağlamda tam morfoloji ve bağımsız sözlük kaydı bulunmadığından overlay qualified tutulmuştur."
+      },
+      "support_ids": [],
+      "branch_activations": [
+        {
+          "branch_ref": "root_001273/B008",
+          "facet_id": "F002",
+          "branch_gloss": "düzgünlük, denge ve doğru yoldan sapmama",
+          "facet_statement": "Doğru yolda kalma, doğru inanç düzeni ve adil söz, düzgünlük çekirdeğinin davranış ve değer alanına uzanmasıdır.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "5:58:10:1"
+          ],
+          "trigger_refs": [
+            "1:6:3"
+          ],
+          "focus_return_refs": [
+            "5:58:10:1"
+          ],
+          "carrier": "5:58:10:1'deki topluluk sözcüğü, düzgünlük ve doğru yolda kalma dalıyla odak taşıyıcısı olur.",
+          "independent_trigger": "1:6:3'teki doğru yol ifadesi aynı q-w-m kök alanının doğru yolda durma yüzünü açıkça getirir.",
+          "activation": "Dış ayetteki doğru yol, odaktaki topluluk sözcüğünün düzgünlük dalıyla temas edince topluluk adı, doğru bir çizgide durması beklenen bir gövde görüntüsünü de taşır.",
+          "resulting_reading": "5:58'deki topluluk, çağrıyı alay ve oyuna çevirirken doğru yolda duramayan bir topluluk olarak dış temasla yeniden görünür.",
+          "boundary": "Bu yalnız 1:6:3'ün tekil tetiklemesidir; Fātiḥa'nın bütün yol örgüsü odak ayete taşınmaz ve topluluk sözcüğünün düz anlamı korunur."
+        },
+        {
+          "branch_ref": "root_001036/B002",
+          "facet_id": "F001",
+          "branch_gloss": "devenin ön ayağını büküp bağlayarak tutma",
+          "facet_statement": "Devenin ön ayağını büküp bir bağla hareketini sınırlayacak biçimde tutturur.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "5:58:12:1"
+          ],
+          "trigger_refs": [
+            "1:7:9"
+          ],
+          "focus_return_refs": [
+            "5:58:12:1"
+          ],
+          "carrier": "5:58:12:1'deki akıl fiili, hareketi bir bağla tutma ve denetleme dalıyla odak taşıyıcısı olur.",
+          "independent_trigger": "1:7:9'daki şaşmış ve sahipsiz varlık görüntüsü, bağını ve yönünü kaybetmiş hareketi somutlaştırır.",
+          "activation": "Şaşmış ve sahipsiz varlık görüntüsü, odaktaki bağlama dalıyla temas edince aklı kullanmama teşhisi, yönü tutacak ve hareketi dağılmaktan koruyacak bir bağın yokluğu üzerinden algılanır.",
+          "resulting_reading": "Topluluğun aklı kullanmaması, doğru hareketi sürdürecek bağdan kopmuş ve yön kaybına açık bir durum olarak dış temasla belirginleşir.",
+          "boundary": "Odaktaki dalın maddi bağlama görüntüsü kullanılır; insanlar hayvanlarla özdeşleştirilmez, 1:7'nin bütün şaşma ve kaybolma alanı aktarılmaz."
+        }
+      ],
+      "connection_refs": [],
+      "context_refs": [
+        "1:6",
+        "1:7"
+      ],
+      "semantic_obligation_refs": []
+    }
+  ],
+  "friction_notes": [
+    "Üç HFT kaydı için kaynak güven etiketi yalnızca legacy_unbound'dır. Ayet yüzeyleri ve koordinatlar tam olsa da bağlam dallarının bağımsız sözlük ayrıntısı verilmemiştir; bu dallar null gloss ve facet ile, attributed kipinde tutulmuştur.",
+    "Host basmala 5:0 ve 5:57-5:71 yerel bağlamı eklenen Fātiḥa ayetlerinden ayrı değerlendirildi. 1:2-1:5 için odakla yeni ve maddi bir temas bulunmadı; 1:6 ve 1:7'nin doğru yol ve bağ görüntüleri tek bir qualified dış bulgu olarak korundu. Dış bağlamda kök oluşumları ve kısa dal görüntüleri vardır, tam morfoloji ve sözlük ayrıntısı yoktur.",
+    "focus_word_alignment içinde çözülmemiş birim bulunmuyor. Macro packet içinde ayrıca adlandırılmış must_integrate semantic obligation kaydı bulunmadığı için obligation exclusions dizileri boştur.",
+    "14 bağlantı kaydının tamamı incelendi; yalnız 5:57, 5:59, 5:64, 5:66 ve 5:68 için bulguların mekanizmasına doğrudan katkı veren bağlantılar landed edildi. Diğer bağlantılar mevcut bağlamı sürdürdü veya yeni bir değişmiş okuma sağlamadı.",
+    "Kaynakların canlı alternatifleri korunmuştur: ilk bulguda dağınık küçümseme, ikinci bulguda el polemiği ile odak bilişinin bağımsız kalması, üçüncü bulguda ısıl dalların yalnız maddi benzetme olması ve dış bulguda bağ ile yol görüntülerinin yalnız yerel temas olarak kalması açık sınırlarla yazıldı.",
+    "Density audit: supplied must_integrate topics=0; admitted candidates=3; distinct resonances=4; prose landings=0 (composition follow-up); shared landings=0."
+  ]
+}

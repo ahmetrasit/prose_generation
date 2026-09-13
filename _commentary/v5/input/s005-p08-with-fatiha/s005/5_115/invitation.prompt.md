@@ -1,0 +1,209 @@
+# V5 reading invitation — 5:115
+
+You are a fresh reading-invitation writer. Read the complete editorial prose
+before writing. It is your sole semantic source.
+
+Write two to four paragraphs of fluent, contemporary Turkish that reveal a
+surprising reading by following one or two main channels of resonance in the
+ayah. A channel is a connected background of meanings, images, actions, or
+relations through which the ayah can be heard and understood differently.
+Several editorial findings may together develop one channel. Summarize that
+connected movement and its consequence for the ayah's main meaning, rather
+than compressing findings individually. Give the reading's substance now;
+the invitation comes from understanding it, not from a promise of hidden depth.
+
+Before drafting, read the entire editorial prose and silently select the one
+or two channels with the strongest interpretive consequence and enough
+grounding to explain clearly. Favor channels that expand or shift what the
+ayah says, the relation it establishes, or what is at stake in its action or
+image. One fully developed channel is sufficient; add a second only when it
+offers a distinct consequential reading that can be explained within the
+invitation. No finding, channel, or major shift has an individual coverage
+claim. Unselected material may remain entirely in the full commentary.
+
+A channel may develop through grammar, sound, dialogue, a material process,
+time, imagery, or a conceptual relation. Resonance is not limited to acoustic
+effects, and an unusual image alone does not establish a channel. Use only
+connections the editorial prose actually develops. If it supplies no such
+channel, explain its strongest grounded reading without inventing connections
+or surprise.
+
+Begin inside the ayah's own words, images, actions, or relations and reveal a
+selected distinctive reading in the first paragraph. Keep the plain meaning
+reachable with only the orientation needed to understand the change. Do not
+spend an opening paragraph on routine explanation or front-load context about
+the surah, the ayah's position, or the commentary project.
+
+For each selected channel, begin with the expression that opens it, unfold the
+connected background, and show how the ayah reads or sounds against that
+background. Let a detail lead into the next through an intelligible relation
+or process, so the reader experiences the emerging reading. This is a movement
+of thought, not a mandatory sentence pattern or one paragraph per finding.
+Let the reader identify the expression being interpreted,
+where any nonordinary detail comes from, and what that detail changes in the
+reading. Briefly identify the word-family use, restricted form, collocation, or
+context that supplies an essential added detail, and preserve the concrete
+operation that makes the image work. Keep the ordinary reading and necessary
+qualification clear within this explanation; do not repeat them as a fixed
+formula. Preserve the particular object, process, or relation that makes this
+reading distinctive, and state its interpretive consequence for the ayah as a
+whole. Make intelligible what the familiar reading leaves less visible and
+what the expanded or shifted reading now lets the reader understand. Preserve
+the editorial's force: an exploratory possibility remains possible, while a
+developed shift must not be softened into a decorative association or a
+reassurance that everything means the same thing. A concrete
+account of how something is carried, transformed, lost, or restored must not
+shrink to a general statement about care, guidance, dependence, or goodness.
+Keep the details needed to make the selected channel work; omit side findings
+and shorten routine setup. If a channel cannot be explained faithfully from
+the editorial prose, choose another grounded channel or reading.
+
+When a non-focus ayah supplies a contribution used in the invitation, keep its
+reference from the editorial prose beside that contribution.
+
+Do not turn the invitation into a miniature inventory of the commentary's
+conclusions, or flatten distinct channels into a broad theme to include more
+material. Do not repair, extend, or supplement the editorial prose from memory
+or outside knowledge.
+
+Omit technical apparatus. Retain any qualification, source distinction, live
+alternative, or boundary whose absence would change the force or meaning of a
+chosen reading. Express it naturally beside the image or relation it qualifies.
+Favor positive explanations of the relation between layers: what remains in
+the foreground and what the resonance makes audible in the background. State
+how that background reinforces, expands, or shifts the understanding of the
+main meaning, with the source and degree of certainty clear. Reserve explicit
+exclusions for concrete ambiguities or live counter-evidence that need them.
+Repeated "this is not X" endings make a reading sound withdrawn; express the
+substantive qualification through what the reading does contribute wherever
+possible. Use varied, natural language rather than a repeated "second layer"
+formula, and preserve the force of expansions and shifts.
+Do not name branches, candidates, findings, scopes, evidence categories,
+ledgers, or workflow stages, or label the prose as numbered channels. Do not
+list findings serially.
+
+Use the established `{ar:..., tr:..., gloss:...}` syntax, consistent
+Turkish-readable transliteration, and short ordinary glosses. Keep Arabic
+anchors beside the explanations they ground. Within a paragraph, continue with
+the Turkish meaning where clear; provide the necessary local tag when a later
+paragraph interprets the carrier anew. Do not place Arabic script outside a
+valid tag.
+
+Build transitions within a channel through its shared object, action, or
+relation. If two channels are selected, they may occupy separate paragraphs;
+do not invent a link between them. Do not praise the commentary's quality,
+promise what the reader will find, manufacture suspense, recap at the end, or
+add a call to action. End on an image, relation, action, or tension already
+established by the selected reading.
+
+Before finishing, compare the invitation with the entire editorial prose:
+does the chosen channel reveal a consequential reading, or could the text have
+been written from the ordinary translation and a modest explanation alone?
+When the editorial supports a surprising channel, the latter fails this task.
+Can the reader follow the opening expression into a connected background and
+understand how that background expands or shifts the ayah's main meaning?
+Check the selected connections against their editorial explanation: can the
+reader tell where the nonordinary details come from, with the necessary
+qualifications intact? Repair generic explanation, isolated curiosities, or a
+compressed findings list by developing the selected channel. Do not add
+omitted channels merely for coverage. Do not output this check.
+
+Write only the invitation text to:
+
+`_commentary/v5/editorial/s005-p08-with-fatiha/s005/5_115/5_115.invitation.tr.md`
+
+Do not add a heading, wrapper label, index, ledger, evidence file, or any other
+artifact. Do not modify the editorial prose.
+
+After writing the invitation, run:
+
+```bash
+python3 _commentary/v5/validate_prose.py _commentary/v5/editorial/s005-p08-with-fatiha/s005/5_115/5_115.invitation.tr.md
+```
+
+If validation fails, repair only the reported mechanical file-contract issues
+and rerun it, for at most two repair cycles. Report the final validator result
+in your response.
+
+<editorial_prose>
+Bu âyetin açık sözü iki hareketi art arda bağlar: Allah, kendilerinin istediği sofrayı üzerlerine indireceğini bildirir; ardından, içlerinden kim onu aldıktan sonra inkâr ederse onu cezalandıracağını söyler. Cezanın ölçüsü de âlemlerden hiç kimseye verilmemiş bir azap olarak gösterilir. İlk bakışta görülen yapı, vaat edilen bir nimetin ardından gelen koşullu uyarıdır: sofra birlikte alınır, hesap ise şartı gerçekleştiren kişiye bağlanır.
+
+## Sözün kurulması
+
+Başlangıçtaki {ar:قَالَ, tr:qāla, gloss:söyledi} fiili, açık özne olan {ar:ٱللَّهُ, tr:Allāhu, gloss:Allah} ile bütün cümleyi tek bir doğrudan ilahî sözün içine alır. 5:114'teki insan istemi, bu tamamlanmış söyleme fiiliyle Allah'ın yürürlükteki cevabına dönüşür; sofra yalnızca talep edilen bir nesne olmaktan çıkar, verilmesi ve ardından hesabı görülmesi bildirilen şeye dönüşür. 5:12, 5:110 ve 5:116'daki ilahî konuşma dönüşleriyle temas eden {ar:قَالَ, tr:qāla, gloss:söyledi}, bu cevabı sözün açıkça dışa vurulduğu bir yetki çerçevesine yerleştirir. {ar:ٱللَّهُ, tr:Allāhu, gloss:Allah} adı burada önce konuşanın açık adıdır; 5:12, 5:110 ve 5:116 bağlamlarındaki ilahlık, ibadet ve sığınma çevresinden gelen hafif renk de bu özneye eşlik eder. Bu yüzden sofra cevabı yetkili bir ihsan ve hesap bildirimi olarak duyulur.
+
+İlk {ar:إِنِّي, tr:innī, gloss:kuşkusuz Ben}, vurgu parçacığıyla birinci şahıs ekini birleştirir ve {ar:مُنَزِّلُهَا, tr:munazziluhā, gloss:onu indirecek olan} ile kurulan vaadi sıradan bir gelecek notundan ciddi bir ilahî taahhüde çevirir. Sonuç bölümünde yeniden görünen {ar:إِنِّي, tr:innī, gloss:kuşkusuz Ben}, ceza adlandırılmadan önce aynı konuşmacının kararlı bildirimini öne çıkarır. İki birinci şahıs vurgusu, verme ile hesabı aynı sözün paralel taahhütleri halinde birlikte tutar; armağan ve cezalandırma birbirine eşitlenmeden aynı ilahî bildirimin içinde karşılık bulur.
+
+## Sofranın gönderilmesi
+
+{ar:مُنَزِّلُهَا, tr:munazziluhā, gloss:onu indirecek olan} şeddeli Form II ism-i fâilidir. Bu biçim basit bir aşağı hareketten çok, failin sofrayı alıcılara ulaştırdığı sebepli ve yöneltilmiş bir gönderme kurar; sofra böylece ilahî olarak teslim edilen bir pay ve rızık olayı haline gelir. İçindeki dişil dönüş eki, önceki istekte adlandırılan {ar:مَائِدَةً, tr:māʾidatan, gloss:sofra}ya döner ve vaadin nesnesini belirli tutar. 5:114'teki {ar:أَنزِلْ, tr:anzil, gloss:indir} emriyle aynı indirme yüzeyinin buluşması, insan talebini ilahî bildirime çevirir. 22:16'da indirilip insanlara görünür kılınan ayrı işaret sahnesi de bu fiile, inişin insanlara ulaşan bir gösterim olabileceği yönünü verir; 5:115'teki sofra bu temasla alınmış bir delil olarak belirginleşir, 22:16'daki olay kendi yerini korur.
+
+Önceki istemdeki {ar:عَلَيْنَا, tr:ʿalaynā, gloss:üzerimize, bize} ilişkisi, 5:115'te {ar:عَلَيْكُمْ, tr:ʿalaykum, gloss:üzerinize, size} ile dua edenlerin sözünden doğrudan muhataplara yönelir. Aynı muhataplar biraz sonra {ar:مِنكُمْ, tr:minkum, gloss:sizden, aranızdan} ile mümkün inkârın kaynağını oluşturur: herkes birlikte alıcıdır, şart gerçekleştiğinde hedef ise o topluluk içindeki kişidir. Böylece üzerlerine ulaştırılan sofra belirsiz bir teslimden bu muhataplara varan bir olay olarak kurulur; edatların ilişkisi, inişin fiziksel tarzından önce alıcıyı ve kişisel sorumluluk alanını görünür kılar.
+
+Vaat cümlesinin hemen ardından gelen ilk {ar:فَ, tr:fa, gloss:ardından}, hediyeyi kopuk bir bilgi olarak bırakmayıp koşulun sahnesine geçirir. İkinci {ar:فَ, tr:fa, gloss:ardından} ise {ar:مَنْ, tr:man, gloss:her kim} ile açılan şartı sonuca bağlar. Bu iki küçük bağlayıcının eşleşmesi, indirme vaadinden koşula, koşuldan cezaya uzanan üç basamaklı akışı duyurur; ayetin kendi vaat-şart-sonuç düzeni böylece cümle içinde izlenebilir hale gelir.
+
+## Koşulun eşiği
+
+{ar:مَنْ, tr:man, gloss:her kim} koşul öznesini açık bırakır; suçlu önceden seçilmez. Onu izleyen Form I ve dilek kipindeki {ar:يَكْفُرْ, tr:yakfur, gloss:inkâr ederse}, olmuş bitmiş bir rapor yerine sofranın gelişinden sonra gerçekleşebilecek doğrudan bir reddediş kurar. {ar:بَعْدُ, tr:baʿdu, gloss:bundan sonra} eylemin zamanını, {ar:مِنكُمْ, tr:minkum, gloss:sizden, aranızdan} ise failin alıcılar arasındaki kaynağını belirler. Eylem-zaman-kaynak sırası geniş ihtimali sıkılaştırır; kişi adı vermeden, sorumluluğu sofrayı alanlar arasındaki şartlı eyleme yerleştirir.
+
+{ar:يَكْفُرْ, tr:yakfur, gloss:inkâr ederse} olağan yüzünde dinî gerçeği reddetmeyi taşır. Fiilin örtme ve kapatma yönü, şimdi görünür biçimde ulaştırılmış {ar:مُنَزِّلُهَا, tr:munazziluhā, gloss:onu indirecek olan} bir armağanla temas ettiğinde alınan nimetin değerini örten nankörlük rengi kazanır. Reddediş böylece bağışın ters yüz edilmiş sonucu gibi duyulur; örtme imgesi görünür hediyeye yönelen ahlâkî bir renk olarak kalır. Fiilin nesnesiz bırakılması, reddedilen şeyi bu temasın açık alanında tutar; sofra ile işaret arasındaki bağ, ilahî bildirimin ve dinî hakikatin reddediliş yönünü ayrı ayrı taşıyabilir.
+
+Kısa {ar:بَعْدُ, tr:baʿdu, gloss:bundan sonra} kelimesi, 5:115'te zamanı sofranın tesliminden sonra geçilen eşik olarak sıkıştırır. 5:12'de nimetten sonra gelen ahit uyarısı ve inkâr sırası bu sonralığa, teslimden sonra başlayan sorumluluk vurgusunu verir. Kaynağı bağımsız olarak doğrulanması sınırlı, atıflı bir ek okumada aynı eşik, ilahî bir lütuf ya da bildirinin insanlara ulaştırılmasından sonra reddin sorumluluğa dönüşmesi şeklinde görünür: {ar:مُنَزِّلُهَا, tr:munazziluhā, gloss:onu indirecek olan} teslimi, {ar:يَكْفُرْ, tr:yakfur, gloss:inkâr ederse} ile bildirilen dinî reddi ve {ar:بَعْدُ, tr:baʿdu, gloss:bundan sonra} ile kurulan sonralığı, {ar:أُعَذِّبُهُ, tr:uʿadhdhibuhū, gloss:ona azap ederim} ile cezaya bağlar. Bu atıf, 5:115'in teslim-sonrası sorumluluk eşiğinde kalır; cezanın tarzı ve kapsamı için ayrı bir hukuk hükmü kurmaz.
+
+## Cezanın yoğunlaşması
+
+İkinci {ar:فَ, tr:fa, gloss:ardından} ile gelen ikinci {ar:إِنِّي, tr:innī, gloss:kuşkusuz Ben}, inkâr şartını aynı konuşmacının açık sonucuna taşır. {ar:أُعَذِّبُهُ, tr:uʿadhdhibuhū, gloss:ona azap ederim} şeddeli Form II fiili, birinci şahıs failini bitişik üçüncü şahıs nesne ekiyle birleştirir. Ceza genel bir etiket olarak değil, koşulu yerine getiren kişiye yönelen etkin ve yoğun bir ilahî eylem olarak söylenir; -hu eki hedefi yeniden belirginleştirir, cezanın fiziksel biçimi ise bu yapı içinde açık bırakılır. Fiilin {ar:يَكْفُرْ, tr:yakfur, gloss:inkâr ederse} ile kurulan şartın ardından gelmesi, reddediş ile yaptırım arasındaki yapısal cevabı görünür kılar.
+
+İlk cezalandırma fiilinin hemen ardından gelen {ar:عَذَابًا, tr:ʿadhāban, gloss:bir azap}, eş köklü mef'ûl-i mutlak olarak fiilin ölçüsünü yine ceza adıyla kalınlaştırır. Son tekrarlanan {ar:أُعَذِّبُهُ, tr:uʿadhdhibuhū, gloss:ona azap ederim} ile birlikte fiil-isim-fiil biçiminde üç vuruşlu bir alt çerçeve kurulur: ilk fiil tehdidi başlatır, isim onu yoğunlaştırır, son fiil tehdidi yeniden sabitler. Belirsiz biçimdeki {ar:عَذَابًا, tr:ʿadhāban, gloss:bir azap}, ölçüyü ilk anda açık bırakır; ardından gelen {ar:لَا, tr:lā, gloss:yok} bu açıklığı emsalsiz bir kıyasa yöneltir. Aynı yoğun fiil biçiminin ilk tehditte ve son karşılaştırmada korunması, fiili kıyasın ölçü birimi haline getirir.
+
+## Emsalsizliğin ölçüsü
+
+{ar:لَا, tr:lā, gloss:yok} ile başlayan niteleme, önce söylenmiş cezayı ortadan kaldırmadan yoğunlaştırılmış azaptan onun karşılaştırılabilir bir benzerinin bulunmadığı alana geçer. Olumsuzluk altındaki tekrarlı {ar:أُعَذِّبُهُ, tr:uʿadhdhibuhū, gloss:ona azap ederim}, kapanmış tek bir geçmiş olay değil, genel bir kıyas cümlesi işletir. Onun nesnesi olan {ar:أَحَدًا, tr:aḥadan, gloss:hiç kimseyi} belirsiz tekil biçimiyle kıyası en küçük mümkün emsale kadar genişletir; olumsuzlukla birleştiğinde “hiç kimse” kapsamını tamamlar ve karşılaştırılan tarafı açıkça adlandırır. {ar:عَذَابًا, tr:ʿadhāban, gloss:bir azap} ile {ar:أَحَدًا, tr:aḥadan, gloss:hiç kimseyi} arasındaki -an ses akışı da ceza adını evrensel kapanışa bağlar; ritim, gramerin kurduğu kıyası duyulur hale getirir.
+
+İlk {ar:مِنكُمْ, tr:minkum, gloss:sizden, aranızdan} ile son {ar:مِنَ ٱلْعَٰلَمِينَ, tr:mina al-ʿālamīna, gloss:âlemlerden} aynı edatın iki ayrı işlevini yan yana getirir: ilki muhataplar içinden mümkün faili, ikincisi bütün âlemler içinden emsali tarar. Böylece yerel sorumluluk alanı ile evrensel karşılaştırma alanı, biri failin kaynağını diğeri kıyasın çevresini gösteren iki ayrı ölçü olarak ayrışır. Belirli eril çoğul olan {ar:ٱلْعَٰلَمِينَ, tr:al-ʿālamīna, gloss:âlemler}, tek ve düz bir kütle yerine adlandırılmış ve farklılaşmış topluluklar ya da âlemler hissi verir. Sözcük her alanın ayrıntısını açmadan, cezanın emsalsizliğini yaratılmış dünyanın adı verilmiş bütün alanlarında ölçer. 5:20'deki aynı “âlemlerden hiç kimse” ölçeğinin benzersiz armağan için açılıp 5:115'te benzersiz ceza için ters yönde dönmesi, bu kıyasa sûreiçi bir yankı verir.
+
+Bu kıyasın daha keşifsel ve bağımsız doğrulaması sınırlı bir ek renginde {ar:عَذَابًا, tr:ʿadhāban, gloss:bir azap}, {ar:أَحَدًا, tr:aḥadan, gloss:hiç kimseyi} ve {ar:ٱلْعَٰلَمِينَ, tr:al-ʿālamīna, gloss:âlemler} birlikte düşünüldüğünde cezayı dünyalar arasında ayırt edici bir işaret gibi hissettirebilir. Bu izlenim, 5:115'teki “emsali yok” kıyasının ayırt edici etkisiyle sınırlıdır; burada kozmolojik bir açıklama, gerçek bir damga veya cezanın uygulanma biçimi hakkında yeni bir ayrıntı açılmaz.
+
+## Sofranın işaret oluşu
+
+Koşulun nesnesini ve sorumluluk eşiğini anlamak için 5:111, 5:112, 5:113 ve 5:114'teki isteme ve tanıklık akışına dönülebilir. 5:111'deki şahitlik beyanı talebi, olayın başkalarına aktarılacak bir söz olmasını; 5:112'deki indirme isteği, nesnenin özellikle talep edilmiş olmasını kurar. 5:113'teki yeme sofranın gerçekten alınacağını, kalplerin yatışması beklenen güvenceyi, doğru sözün bilinmesi ve tanıklık arzusu ise gerçekleşen olayın doğrulanabilirliğini öne çıkarır. Yiyecek taşıyan masa veya tepsi olarak düşünülen {ar:مَائِدَةً, tr:māʾidatan, gloss:sofra}, 5:112'deki isteme ve 5:113'teki yeme beklentisiyle yalnızca gösterilen bir nesne olmaktan çıkar; konuğun yararlanacağı hazırlanmış yiyecek, yol azığı ve ağırlama payı gibi alınabilir bir ilahî sunuma dönüşür. Bu katkılar birlikte, sofrayı aktarılmış bir haberden göz önünde gerçekleşmesi beklenen bir işarete taşır.
+
+5:114'te sofranın {ar:ءَايَة, tr:āyah, gloss:işaret} diye adlandırılması, 5:115'teki koşula belirli bir işaretin delil yükünü getirir. Aynı 5:114 bağlamında {ar:رِزْق, tr:rizq, gloss:rızık} olarak verilen pay, bu işaretin paylaştırılmış ilahî verme niteliğini ekler. Bu iki katkı {ar:يَكْفُرْ, tr:yakfur, gloss:inkâr ederse} ile buluştuğunda reddediş, alınan nimetin değerini örtme ve şükrü yerine getirmeme rengi kazanır. Okurun önünde böylece 5:112'de istenen, 5:113'te amaçları sayılan ve 5:114'te işaret ile rızık olarak adlandırılan sofranın gerçekleşmesinden sonra doğan sorumluluk belirir. Bu bağlamsal genişleme nitelikli bir okumadır; birincil indirme ve koşullu ceza akışı zemin olarak kalır, taleplerin bağlayıcı bir sözleşmeye dönüştüğü ayrı bir sonuç kurulmaz.
+
+## Sınamaya dönüşen nimet
+
+5:88'de helal ve temiz rızık yenebilir bir pay ve paylaştırılmış ilahî armağan olarak görünür. 5:94'te ele ve mızrağa erişen av, erişilebilirliğin kendisini sınamaya ve ardından acı cezaya bağlar. 5:88 sunulan payı, 5:94 paya ve erişime eşlik eden sınamayı görünür kılar; bu iki ayrı katkı 5:115'teki sofraya değdiğinde {ar:مُنَزِّلُهَا, tr:munazziluhā, gloss:onu indirecek olan} ile ulaştırılan sunum, alıcının delille sınandığı daha görünür ve sorumluluk yüklü bir teslim anına dönüşür. {ar:بَعْدُ, tr:baʿdu, gloss:bundan sonra}, {ar:يَكْفُرْ, tr:yakfur, gloss:inkâr ederse} ve {ar:أُعَذِّبُهُ, tr:uʿadhdhibuhū, gloss:ona azap ederim} bu sırayı 5:115'in kendi koşullu akışına taşır: nimet alınır, ardından işaretin reddi hesabı ağırlaştırır. Bu bağlantı 5:88 ve 5:94'ün temaslarından çıkan, kesinliği sınırlı bir okumadır; 5:94'ün yaygın bir uyarı kalıbı olabilmesi ve kendi hukukî bağlamı, 5:115'teki sofra olayının sınırını belirler.
+
+## Örtmenin yön değiştirmesi
+
+5:89 ve 5:95 yiyeceği ihlalin üzerini örten maddi onarım olarak gösterir. 5:89'da yemin ihlaline karşı insanları doyurma veya giydirme, 5:95'te ihramda av öldürmenin karşılığını verme ve yoksulları besleme yolları açılır; her iki bağlam da beslemeyi önceki kusurun telafisine dönük somut işlem haline getirir. 5:115'in sofrasıyla temas ettiğinde aynı yiyecek çevresi yön değiştirir: konuğa hazırlanmış yiyecek, yol azığı veya ağırlama payı gibi duyulan {ar:مُنَزِّلُهَا, tr:munazziluhā, gloss:onu indirecek olan} tesliminin ardından {ar:يَكْفُرْ, tr:yakfur, gloss:inkâr ederse}, alınmış işaretin değerini kapatan karşı bir hareket olarak belirir. Böylece 5:89 ve 5:95'teki yiyecek onarımı, 5:115'te alınan işaretin reddedilişiyle karşıt bir örtme görüntüsünü aydınlatır; {ar:أُعَذِّبُهُ, tr:uʿadhdhibuhū, gloss:ona azap ederim} sonucu ayetin şartına bağlar. Olağan dinî inkâr anlamı korunur; keffaret ve konuk payı bu temasın görüntüsüdür, fiilin sözlük anlamı değildir.
+
+## İstenen açıklığın ardından
+
+5:101'de sorular, saklı olanın açığa çıkması ve indirilen şey sırasında açıklanma ile yeni bir yükün eşiğini açar. 5:102'de daha önceki bir topluluğun dişil bir nesneyi isteyip ardından onu inkâr etmesi, talep ile başarısızlık arasındaki sırayı görünür kılar. Bu iki ayrı bağlam, 5:115'teki {ar:مُنَزِّلُهَا, tr:munazziluhā, gloss:onu indirecek olan} teslimi, {ar:بَعْدُ, tr:baʿdu, gloss:bundan sonra} ile teslimden sonraki zamanı ve {ar:يَكْفُرْ, tr:yakfur, gloss:inkâr ederse} ile istenmiş açıklığın ardından gelen reddi birbirine değdirir. Böylece koşul, kanıt gelmeden önceki bir itirazdan çok gönüllü olarak istenen açıklığın gerçekleşmesinden sonra doğan sorumluluk olarak duyulur. Bu, 5:101 ve 5:102'nin sağladığı nitelikli bir tekrar ilişkisidir: o anlatıların kişileri 5:115'in muhataplarıyla özdeşleştirilmez, iki anlatı tek bir tarihsel olaya birleştirilmez; {ar:بَعْدُ, tr:baʿdu, gloss:bundan sonra} ise burada yalnızca teslim-sonrası zamanı belirler.
+
+## İşaretin yeniden adlandırılması
+
+5:110'da görünür kanıtlar ortaya konur; 5:114'te istenen sofra {ar:ءَايَة, tr:āyah, gloss:işaret} diye adlandırılır. 5:110'da bu kanıtların “açık sihir” diye etiketlenmesi, görünür olay ile onun ilahî delil değerini iki ayrı düzleme ayırır: olay görülür, anlamı başka bir adla kapatılır. Bu temas 5:115'teki {ar:يَكْفُرْ, tr:yakfur, gloss:inkâr ederse} fiiline etkin bir örtme biçimi kazandırır; küfür, 5:114'te işaret diye istenen şeyin anlamını 5:110'daki sihir adıyla yeniden kodlamak olarak da işitilebilir. Birincil dinî gerçeği reddetme anlamı bu açıklık içinde korunur. Bu nitelikli temasın sınırı da buradadır: 5:115'teki inkârın mutlaka “sihir” kelimesiyle ifade edildiği söylenmez; görünen olayın ilahî anlamını etkisizleştirme ihtimali canlı kalır.
+
+## Sözün değerlendirilmesi
+
+İşaretin adlandırılmasından bağımsız başka bir bağlamsal pencerede, {ar:قَالَ, tr:qāla, gloss:söyledi} fiili sözlerin değerlendirildiği bir ufka açılır. 5:109'da gün, toplanma ve elçilerin sorgulanmasıyla hesaplaşma sahnesi kurulur; 5:116'daki art arda ilahî hitaplar söz çerçevesini uzatır; 5:119'da {ar:صِدْق, tr:ṣidq, gloss:doğruluk} fayda veren ölçüt olarak görünür. Bu komşuluklarda 5:115'teki {ar:قَالَ, tr:qāla, gloss:söyledi} ve {ar:ٱللَّهُ, tr:Allāhu, gloss:Allah}, tarihsel cevabın açık konuşmacısını korurken sözlerin ve tanıklığın değerlendirme dosyasına giren sesli ifadeler gibi yeniden duyulmasına izin verir. Bu pencere, 5:115'in tarihsel cevap niteliğini taşır ve aynı zamanda vaadi ile tehdidi sonuçların gözden geçirildiği bir konuşma çevresinde işittirir; 5:109, 5:116 ve 5:119'daki sahneler sözün ahirette gerçekten tekrarlandığını kanıtlamaz.
+
+## Hükmün yetkisi
+
+Bu değerlendirme ufku tehdidin sahibini ve kapsamını sınırlar. 5:117'de kulluk ve tanıklık, 5:118'de ceza ile bağışlama karşıtlığı, 5:120'de ise bütün mülkün Allah'a ait oluşu görünür; üç bağlam da kararı insanın sınıflandırmasından Allah'ın hüküm alanına taşır. 5:118'de ceza altında anılan kullar, cezalandırılan kişiyi bu ilahî karar alanında tutar. 5:115'te tekrarlanan {ar:أُعَذِّبُهُ, tr:uʿadhdhibuhū, gloss:ona azap ederim} ve {ar:عَذَابًا, tr:ʿadhāban, gloss:bir azap}, ağır acı verme ve cezalandırma çekirdeğini korur; 5:118'deki bağışlama aynı alanın karşı kutbunu, 5:120'deki mülk ise hüküm yetkisinin kaynağını gösterir. Bu çerçeve, koşullu tehdidi Allah'ın hükmünde tutar; onu herkes için otomatik bir kadere veya insanın kendi adına dağıtabileceği bir hukuk düzenine çevirmeden gücünü korur. 5:118'deki sözün başka bir topluluğa yönelik olabilme ihtimali açıkken, 5:115'in “kim inkâr ederse” şartı kendi kişi ve eylem alanında kalır.
+
+## Hoşluktan azaba
+
+5:113'teki yeme ve 5:114'teki rızık ile ikram çevresinde, kaynakta ayrı bir kullanım olarak verilen {ar:عَذْب, tr:ʿadhb, gloss:tatlı ve hoş} yönü duyulur: yiyecek ya da içeceğin damakta hoş, tatlı ve kolay tüketilir oluşu. Bu iki bağlam sofranın hoşluk kutbunu hazırlar; 5:115'in tekrarlanan ceza yüzeyi onunla buluştuğunda verilen sofra ile ağır acı arasında duyusal bir terslik açılır. Okur nimetin değerinin örtülmesiyle hoşluktan azaba dönen karşı yüzü izler. {ar:عَذَابًا, tr:ʿadhāban, gloss:bir azap} cezalandırma yönünü, {ar:عَذْب, tr:ʿadhb, gloss:tatlı ve hoş} ise hoşluk yönünü taşır; aralarındaki temas bir sözlük birleşmesi değil, iki yönün kurduğu keşifsel karşıtlıktır. Bu karşıtlık olağan cezayı koruyarak sofranın tersleyici kuvvetini görünür kılar.
+
+## Yerleşme ve yeniden kapanma
+
+Sofra sahnesi bu kez yiyeceğin tadından değil, hareket ile yerleşme arasındaki karşıtlıktan okunabilir. 5:112'deki masa veya sofra, bağımsız bir sözlük hükmü olarak değil, hareket, eğim ve tedirginlik çağrışımı taşıyan bir temas noktasıdır; 5:113'te kalplerin yatışmasının istenmesi bu hareketin sakinleşeceği bir yerleşme hedefi kurar. Böylece 5:112 sofranın hareket kutbunu, 5:113 kalbin ulaşması beklenen sükûneti sağlar. Şeddeli {ar:مُنَزِّلُهَا, tr:munazziluhā, gloss:onu indirecek olan} fiilinin bir şeyi uygun yerine koyma yönü, sofrayı tereddütlü alıcıyı sabitleyen bir işaret gibi renklendirir. Ardından {ar:يَكْفُرْ, tr:yakfur, gloss:inkâr ederse} fiilinin örtme ve kapatma yönü, önceki açıklığı yeniden kapatan ve istikrarı bozan ters hareket olarak duyulur. Bu bağlantı, yerleşme ile yeniden kapanma arasındaki görüntüde kalır; masa için literal sallantı, küfür için fiziksel hareket ve birincil akış için yer değiştirme anlamı açmaz. Birincil indirme ve koşullu ceza bu uzak renkle birlikte yerini korur.
+
+## İşaretli rota
+
+Son karşılaştırma alanı olan {ar:ٱلْعَٰلَمِينَ, tr:al-ʿālamīna, gloss:âlemler}, 5:115'in açık anlamında yaratılmışlar bütünü ve azabın hüküm çevresidir. Bilgi ve işaret alanıyla temas ettiğinde sözcük, bu bütünü bilinebilir ve işaretlerle belirginleşmiş alanlar olarak da sınırlı biçimde renklendirebilir. Fatiha 1:6'da istenen {ar:الصِّرَاطَ الْمُسْتَقِيمَ, tr:aṣ-ṣirāṭ al-mustaqīm, gloss:dosdoğru yol} ile yan yana geldiğinde, 5:115'teki “âlemlerden hiç kimse” kıyası soyut bir toplamın yanında yönün okunabildiği, işaretlerin rota gösterdiği bir alanı da duyurur. Böylece 1:6'daki yol istemi, 5:115'teki âlemler sözünün işaretlerin yön verdiği yaratılmış bir çevreye açılan dar bir rengini görünür kılar. Bağlantı, 5:115'in yaratılmışlar bütünü ve ceza anlamını koruyarak yalnızca 1:6'daki dosdoğru yolun yön gösteren niteliğini bu kıyasa taşır; Fatiha'nın bütün yol görüntüsü ve âlemlerin literal yol işaretleri bu temasın dışında kalır, tehdit de ceza olarak kalır. Cümlenin sonu, geniş kıyas alanında yönün işaretlerle okunabildiği ihtimali açık bırakarak tamamlanır.
+
+</editorial_prose>

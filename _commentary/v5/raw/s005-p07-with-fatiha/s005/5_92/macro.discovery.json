@@ -1,0 +1,1529 @@
+{
+  "schema_version": "commentary-v5-scope-discovery-v1",
+  "ayah_ref": "5:92",
+  "lane": "macro",
+  "coverage_complete": true,
+  "candidate_decisions": [
+    {
+      "candidate_id": "cand_700feac5476b675e0aca",
+      "decision": "accept",
+      "reason": "5:87, 5:90 ve 5:91in sağladığı yasaklama, sınır, aklı örten içki ve dikkati saptırma izleri, odaktaki 5:92:5:2 taşıyıcısına bağımsız biçimde dönüyor; HFT rol zinciri açık bir bağlam mekanizması ve değişmiş okuma veriyor.",
+      "finding_refs": [
+        "macro:targeted-guardrails"
+      ],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_0c09b01e185cc198b3e3",
+      "decision": "accept",
+      "reason": "5:93teki tekrarlar, ثم ile aşamalandırma ve üçlü korunma düzeni 5:92nin iki itaat yüzeyine bağımsız bir zaman ve süreklilik tetikleyicisi sağlıyor; HFT izi odak dönüşünü eksiksiz veriyor.",
+      "finding_refs": [
+        "macro:iterated-response"
+      ],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_e84e2265ace9af602978",
+      "decision": "accept",
+      "reason": "5:94te erişilebilir avın sınama işlevi ve 5:95te Kâbeye ulaşması gereken sunu, odaktaki root_000151/B001 dalına iki somut varış ve sonuç bağlantısı veriyor; alternatif olarak hukukî erişim ile iletişim ayrı kalabilir ve bu sınır korunuyor.",
+      "finding_refs": [
+        "macro:reach-discloses-response"
+      ],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_791e76bfea50bf604ee4",
+      "decision": "accept",
+      "reason": "5:100deki temiz-kötü ayrımı ve 5:101deki soru ile zamanlı açığa çıkma izleri, odaktaki root_000170/B005 taşıyıcısına bağımsız temas kuruyor; HFT kaydı alternatif olarak 5:101i ayrı bir soru düzeni saymayı da görünür bırakıyor.",
+      "finding_refs": [
+        "macro:actionable-bounded-clarity"
+      ],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_079cf575ff03efd3bf38",
+      "decision": "accept",
+      "reason": "5:103te uydurma ve Allah adına yalan, 5:104te indirilene ve elçiye çağrı ile ataların yeterli sayılması odaktaki root_000563/B002 taşıyıcısına açık kaynak ve ikame teması veriyor; HFTnin alternatif sınırı da korunabilir.",
+      "finding_refs": [
+        "macro:authority-reassignment"
+      ],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_865c642777af5403dba2",
+      "decision": "accept",
+      "reason": "5:92deki على رسولنا ile 5:105teki عليكم أنفسكم biçimsel ve anlamsal olarak ayrı görev alanları kuruyor; sapma, hidayet, dönüş ve yapılan iş izleri bu teması odak bildirimine geri bağlıyor.",
+      "finding_refs": [
+        "macro:distributed-recipient-liability"
+      ],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_899949d057f336c13439",
+      "decision": "accept",
+      "reason": "5:106-108deki şahitlik, gizlememe, ihlalin bulunması, düzeltici şahitlik, yeminin geri çevrilmesi ve işitme zinciri odaktaki البلاغ ve المبين taşıyıcılarına somut bir denetim mekanizmasıyla dönüyor; orta güven ve hukukî alan sınırı açıkça korunuyor.",
+      "finding_refs": [
+        "macro:auditable-conveyance"
+      ],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    }
+  ],
+  "findings": [
+    {
+      "finding_ref": "macro:targeted-guardrails",
+      "origin_candidate_id": "cand_700feac5476b675e0aca",
+      "represented_candidate_ids": [],
+      "title": "İtaati koruyan ölçülü sakınma",
+      "claim": "5:92deki nesnesiz sakınma buyruğu, yakın bağlamdaki kendiliğinden yasak koyma, sınırı aşma, aklı örten içki ve dikkati saptırma zinciriyle birlikte, itaati mümkün kılan dikkat ve pratiği koruyan ölçülü bir uyanıklık olarak belirginleşir.",
+      "mechanism": "The immediate context first prohibits self-imposed prohibition of wholesome permissions and boundary-crossing, then identifies an intoxicant-driven chain that covers judgment, creates social hostility, and diverts people from remembrance and prayer. Focus caution is thus calibrated vigilance against concrete blockers of obedient attention, not free-floating scrupulosity or indiscriminate renunciation.",
+      "reader_payoff": "Sakınma sözü, belirsiz bir korku çağrısından çıkarak aklı, ilişkileri, zikri ve namazı itaate açık tutan somut bir koruma işi olarak görünür.",
+      "containment": "Birincil itaat ve sakınma buyruğu korunur. Yakın ayetler bu buyruğa ölçülü bir sınır ve somut engeller kazandırır; daha geniş bir genel uyarı ihtimali dışlanmaz.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": [
+          "legacy_unbound"
+        ],
+        "reason": "Kaynak HFT kimliği legacy_unbound; odak dalları packet içinde mevcut, bağlam dalları ise çözülmemiş kayıtlar olduğu için bağlamsal roller attributed ve alternatif sınırlar görünür tutuldu."
+      },
+      "support_ids": [
+        "sup_edcb6c0500e8e4829489"
+      ],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000301/B001",
+          "facet_id": "F001",
+          "branch_gloss": "uyanıkça sakınma",
+          "facet_statement": "Korkulan bir şeye karşı uyanık davranarak ondan sakınma ve korunma yönelimi taşır.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "5:92:5:2"
+          ],
+          "trigger_refs": [
+            "5:87:5"
+          ],
+          "focus_return_refs": [
+            "5:92:5:2"
+          ],
+          "carrier": "5:92:5:2 odak yüzeyi; dalın uyanıkça sakınma anlamı HFT rolünde Alert protection is the focus mechanism that the nearby hazards specify.",
+          "independent_trigger": "Bağımsız tetikleyici 5:87:5 konumundaki bağlam temasına dayanır; HFT rolü: Prohibition supplies the rejected overcorrection: obedience must not manufacture bans.",
+          "activation": "Alert protection is the focus mechanism that the nearby hazards specify. Bu ayrı taşıyıcı ve tetikleyici, odak ayetindeki yüzeyle temas ederek bulgunun değişmiş okumasını kurar.",
+          "resulting_reading": "Guard the faculties and practices through which obedience remains possible, without confusing vigilance with self-made deprivation; the warning targets forces that cover judgment, fracture relations, and redirect attention."
+        },
+        {
+          "branch_ref": "root_000313/B001",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "5:87:5"
+          ],
+          "trigger_refs": [
+            "5:92:5:2"
+          ],
+          "focus_return_refs": [
+            "5:92:5:2"
+          ],
+          "carrier": "HFT izinin 5:87 ayetindeki 5:87:5 konumu; kayıtlı rolü: Prohibition supplies the rejected overcorrection: obedience must not manufacture bans.",
+          "independent_trigger": "Bağımsız tetikleyici odaktaki 5:92:5:2 dönüşüdür; bu odak teması, bağlam rolünün sorumluluk alanını belirler.",
+          "activation": "Prohibition supplies the rejected overcorrection: obedience must not manufacture bans. Bu ayrı taşıyıcı ve tetikleyici, odak ayetindeki yüzeyle temas ederek bulgunun değişmiş okumasını kurar.",
+          "resulting_reading": "Guard the faculties and practices through which obedience remains possible, without confusing vigilance with self-made deprivation; the warning targets forces that cover judgment, fracture relations, and redirect attention."
+        },
+        {
+          "branch_ref": "root_000993/B001",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "5:87:12",
+            "5:87:17"
+          ],
+          "trigger_refs": [
+            "5:92:5:2"
+          ],
+          "focus_return_refs": [
+            "5:92:5:2"
+          ],
+          "carrier": "HFT izinin 5:87 ayetindeki 5:87:12, 5:87:17 konumu; kayıtlı rolü: Crossing a limit supplies the opposite error, so vigilance holds a calibrated boundary.",
+          "independent_trigger": "Bağımsız tetikleyici odaktaki 5:92:5:2 dönüşüdür; bu odak teması, bağlam rolünün sorumluluk alanını belirler.",
+          "activation": "Crossing a limit supplies the opposite error, so vigilance holds a calibrated boundary. Bu ayrı taşıyıcı ve tetikleyici, odak ayetindeki yüzeyle temas ederek bulgunun değişmiş okumasını kurar.",
+          "resulting_reading": "Guard the faculties and practices through which obedience remains possible, without confusing vigilance with self-made deprivation; the warning targets forces that cover judgment, fracture relations, and redirect attention."
+        },
+        {
+          "branch_ref": "root_000438/B002",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "5:90:5"
+          ],
+          "trigger_refs": [
+            "5:92:5:2"
+          ],
+          "focus_return_refs": [
+            "5:92:5:2"
+          ],
+          "carrier": "HFT izinin 5:90 ayetindeki 5:90:5 konumu; kayıtlı rolü: A drink that covers the intellect supplies a material impairment of attentive response.",
+          "independent_trigger": "Bağımsız tetikleyici odaktaki 5:92:5:2 dönüşüdür; bu odak teması, bağlam rolünün sorumluluk alanını belirler.",
+          "activation": "A drink that covers the intellect supplies a material impairment of attentive response. Bu ayrı taşıyıcı ve tetikleyici, odak ayetindeki yüzeyle temas ederek bulgunun değişmiş okumasını kurar.",
+          "resulting_reading": "Guard the faculties and practices through which obedience remains possible, without confusing vigilance with self-made deprivation; the warning targets forces that cover judgment, fracture relations, and redirect attention."
+        },
+        {
+          "branch_ref": "root_000848/B001",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "5:91:12"
+          ],
+          "trigger_refs": [
+            "5:92:5:2"
+          ],
+          "focus_return_refs": [
+            "5:92:5:2"
+          ],
+          "carrier": "HFT izinin 5:91 ayetindeki 5:91:12 konumu; kayıtlı rolü: Diversion and turning away expose the blocker as a directional force against reception.",
+          "independent_trigger": "Bağımsız tetikleyici odaktaki 5:92:5:2 dönüşüdür; bu odak teması, bağlam rolünün sorumluluk alanını belirler.",
+          "activation": "Diversion and turning away expose the blocker as a directional force against reception. Bu ayrı taşıyıcı ve tetikleyici, odak ayetindeki yüzeyle temas ederek bulgunun değişmiş okumasını kurar.",
+          "resulting_reading": "Guard the faculties and practices through which obedience remains possible, without confusing vigilance with self-made deprivation; the warning targets forces that cover judgment, fracture relations, and redirect attention."
+        },
+        {
+          "branch_ref": "root_000516/B003",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "5:91:14"
+          ],
+          "trigger_refs": [
+            "5:92:5:2"
+          ],
+          "focus_return_refs": [
+            "5:92:5:2"
+          ],
+          "carrier": "HFT izinin 5:91 ayetindeki 5:91:14 konumu; kayıtlı rolü: Keeping something present against forgetting names the attention that diversion interrupts.",
+          "independent_trigger": "Bağımsız tetikleyici odaktaki 5:92:5:2 dönüşüdür; bu odak teması, bağlam rolünün sorumluluk alanını belirler.",
+          "activation": "Keeping something present against forgetting names the attention that diversion interrupts. Bu ayrı taşıyıcı ve tetikleyici, odak ayetindeki yüzeyle temas ederek bulgunun değişmiş okumasını kurar.",
+          "resulting_reading": "Guard the faculties and practices through which obedience remains possible, without confusing vigilance with self-made deprivation; the warning targets forces that cover judgment, fracture relations, and redirect attention."
+        },
+        {
+          "branch_ref": "root_000879/B003",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "5:91:17"
+          ],
+          "trigger_refs": [
+            "5:92:5:2"
+          ],
+          "focus_return_refs": [
+            "5:92:5:2"
+          ],
+          "carrier": "HFT izinin 5:91 ayetindeki 5:91:17 konumu; kayıtlı rolü: Specified worship supplies the recurrent practice from which the blocker turns people.",
+          "independent_trigger": "Bağımsız tetikleyici odaktaki 5:92:5:2 dönüşüdür; bu odak teması, bağlam rolünün sorumluluk alanını belirler.",
+          "activation": "Specified worship supplies the recurrent practice from which the blocker turns people. Bu ayrı taşıyıcı ve tetikleyici, odak ayetindeki yüzeyle temas ederek bulgunun değişmiş okumasını kurar.",
+          "resulting_reading": "Guard the faculties and practices through which obedience remains possible, without confusing vigilance with self-made deprivation; the warning targets forces that cover judgment, fracture relations, and redirect attention."
+        },
+        {
+          "branch_ref": "root_001560/B002",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "5:91:20"
+          ],
+          "trigger_refs": [
+            "5:92:5:2"
+          ],
+          "focus_return_refs": [
+            "5:92:5:2"
+          ],
+          "carrier": "HFT izinin 5:91 ayetindeki 5:91:20 konumu; kayıtlı rolü: Reaching an endpoint gives the preceding question the force of a demanded cessation immediately before the focus commands.",
+          "independent_trigger": "Bağımsız tetikleyici odaktaki 5:92:5:2 dönüşüdür; bu odak teması, bağlam rolünün sorumluluk alanını belirler.",
+          "activation": "Reaching an endpoint gives the preceding question the force of a demanded cessation immediately before the focus commands. Bu ayrı taşıyıcı ve tetikleyici, odak ayetindeki yüzeyle temas ederek bulgunun değişmiş okumasını kurar.",
+          "resulting_reading": "Guard the faculties and practices through which obedience remains possible, without confusing vigilance with self-made deprivation; the warning targets forces that cover judgment, fracture relations, and redirect attention."
+        }
+      ],
+      "connection_refs": [
+        "conn_b5fa2aa4468c38536883",
+        "conn_02371d7a538fbdd57c7b",
+        "conn_3be761ce6d0e49d4670f"
+      ],
+      "context_refs": [
+        "5:87",
+        "5:90",
+        "5:91"
+      ],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "macro:iterated-response",
+      "origin_candidate_id": "cand_0c09b01e185cc198b3e3",
+      "represented_candidate_ids": [],
+      "title": "Yenilenen itaat karşılığı",
+      "claim": "5:92de iki kez kurulan itaat emri, 5:93te iman, eylem, korunma ve iyilik aşamalarında yenilenen bir karşılık düzeni olarak okunabilir; sakınma bu düzeni sürdüren bakım hareketidir.",
+      "mechanism": "The next ayah repeats belief, intentional action, and protective self-placement in a staged sequence, then culminates in doing what is good. This temporal recurrence turns the doubled focus imperative from mere emphasis into a maintainable practice that must be renewed across changing situations.",
+      "reader_payoff": "Tek seferlik bir buyruğun yanında, itaati zaman içinde yeniden kuran ve eylemle olgunlaştıran bir ritim fark edilir.",
+      "containment": "İki itaat buyruğunun birincil emredici anlamı yerinde kalır. 5:93, emrin zorunlu olarak yalnızca bir anı değil, yenilenen bir karşılık pratiğini de taşıyabileceğini gösterir; 5:93ün kendi şartları ayrıca korunur.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": [
+          "legacy_unbound"
+        ],
+        "reason": "Kaynak HFT kimliği legacy_unbound; odak dalları packet içinde mevcut, bağlam dalları ise çözülmemiş kayıtlar olduğu için bağlamsal roller attributed ve alternatif sınırlar görünür tutuldu."
+      },
+      "support_ids": [
+        "sup_caf24403ffaef4fa9413"
+      ],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000956/B002",
+          "facet_id": "F001",
+          "branch_gloss": "taraflar arasında uyum gösterme",
+          "facet_statement": "Bir taraf başka bir tarafla uyum gösterir, ona uygun düşer veya onu takip eder.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "5:92:1:2",
+            "5:92:3:2"
+          ],
+          "trigger_refs": [
+            "5:93:4",
+            "5:93:13",
+            "5:93:18"
+          ],
+          "focus_return_refs": [
+            "5:92:1:2",
+            "5:92:3:2"
+          ],
+          "carrier": "5:92:1:2, 5:92:3:2 odak yüzeyi; dalın taraflar arasında uyum gösterme anlamı HFT rolünde Responsive agreement supplies the focus disposition that the later sequence repeatedly renews.",
+          "independent_trigger": "Bağımsız tetikleyici 5:93:4, 5:93:13, 5:93:18 konumundaki bağlam temasına dayanır; HFT rolü: Repeated heart-settling assent supplies recurrent inner orientation rather than a one-time declaration.",
+          "activation": "Responsive agreement supplies the focus disposition that the later sequence repeatedly renews. Bu ayrı taşıyıcı ve tetikleyici, odak ayetindeki yüzeyle temas ederek bulgunun değişmiş okumasını kurar.",
+          "resulting_reading": "Obedience is a renewable sequence of assent, action, self-protection, and better action; vigilance is the maintenance operation that keeps response from decaying."
+        },
+        {
+          "branch_ref": "root_000054/B002",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "5:93:4",
+            "5:93:13",
+            "5:93:18"
+          ],
+          "trigger_refs": [
+            "5:92:1:2",
+            "5:92:3:2"
+          ],
+          "focus_return_refs": [
+            "5:92:1:2",
+            "5:92:3:2"
+          ],
+          "carrier": "HFT izinin 5:93 ayetindeki 5:93:4, 5:93:13, 5:93:18 konumu; kayıtlı rolü: Repeated heart-settling assent supplies recurrent inner orientation rather than a one-time declaration.",
+          "independent_trigger": "Bağımsız tetikleyici odaktaki 5:92:1:2, 5:92:3:2 dönüşüdür; bu odak teması, bağlam rolünün sorumluluk alanını belirler.",
+          "activation": "Repeated heart-settling assent supplies recurrent inner orientation rather than a one-time declaration. Bu ayrı taşıyıcı ve tetikleyici, odak ayetindeki yüzeyle temas ederek bulgunun değişmiş okumasını kurar.",
+          "resulting_reading": "Obedience is a renewable sequence of assent, action, self-protection, and better action; vigilance is the maintenance operation that keeps response from decaying."
+        },
+        {
+          "branch_ref": "root_001046/B001",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "5:93:5",
+            "5:93:14"
+          ],
+          "trigger_refs": [
+            "5:92:1:2",
+            "5:92:3:2"
+          ],
+          "focus_return_refs": [
+            "5:92:1:2",
+            "5:92:3:2"
+          ],
+          "carrier": "HFT izinin 5:93 ayetindeki 5:93:5, 5:93:14 konumu; kayıtlı rolü: Intended action turns assent into enacted response.",
+          "independent_trigger": "Bağımsız tetikleyici odaktaki 5:92:1:2, 5:92:3:2 dönüşüdür; bu odak teması, bağlam rolünün sorumluluk alanını belirler.",
+          "activation": "Intended action turns assent into enacted response. Bu ayrı taşıyıcı ve tetikleyici, odak ayetindeki yüzeyle temas ederek bulgunun değişmiş okumasını kurar.",
+          "resulting_reading": "Obedience is a renewable sequence of assent, action, self-protection, and better action; vigilance is the maintenance operation that keeps response from decaying."
+        },
+        {
+          "branch_ref": "root_000876/B001",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "5:93:6",
+            "5:93:15"
+          ],
+          "trigger_refs": [
+            "5:92:1:2",
+            "5:92:3:2"
+          ],
+          "focus_return_refs": [
+            "5:92:1:2",
+            "5:92:3:2"
+          ],
+          "carrier": "HFT izinin 5:93 ayetindeki 5:93:6, 5:93:15 konumu; kayıtlı rolü: Soundness opposed to corruption gives the repeated action its reparative direction.",
+          "independent_trigger": "Bağımsız tetikleyici odaktaki 5:92:1:2, 5:92:3:2 dönüşüdür; bu odak teması, bağlam rolünün sorumluluk alanını belirler.",
+          "activation": "Soundness opposed to corruption gives the repeated action its reparative direction. Bu ayrı taşıyıcı ve tetikleyici, odak ayetindeki yüzeyle temas ederek bulgunun değişmiş okumasını kurar.",
+          "resulting_reading": "Obedience is a renewable sequence of assent, action, self-protection, and better action; vigilance is the maintenance operation that keeps response from decaying."
+        },
+        {
+          "branch_ref": "root_001677/B002",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "5:93:12",
+            "5:93:17",
+            "5:93:20"
+          ],
+          "trigger_refs": [
+            "5:92:1:2",
+            "5:92:3:2"
+          ],
+          "focus_return_refs": [
+            "5:92:1:2",
+            "5:92:3:2"
+          ],
+          "carrier": "HFT izinin 5:93 ayetindeki 5:93:12, 5:93:17, 5:93:20 konumu; kayıtlı rolü: Repeatedly placing oneself in protection operationalizes the focus warning as maintained discipline.",
+          "independent_trigger": "Bağımsız tetikleyici odaktaki 5:92:1:2, 5:92:3:2 dönüşüdür; bu odak teması, bağlam rolünün sorumluluk alanını belirler.",
+          "activation": "Repeatedly placing oneself in protection operationalizes the focus warning as maintained discipline. Bu ayrı taşıyıcı ve tetikleyici, odak ayetindeki yüzeyle temas ederek bulgunun değişmiş okumasını kurar.",
+          "resulting_reading": "Obedience is a renewable sequence of assent, action, self-protection, and better action; vigilance is the maintenance operation that keeps response from decaying."
+        },
+        {
+          "branch_ref": "root_000323/B002",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "5:93:21",
+            "5:93:24"
+          ],
+          "trigger_refs": [
+            "5:92:1:2",
+            "5:92:3:2"
+          ],
+          "focus_return_refs": [
+            "5:92:1:2",
+            "5:92:3:2"
+          ],
+          "carrier": "HFT izinin 5:93 ayetindeki 5:93:21, 5:93:24 konumu; kayıtlı rolü: Doing the good supplies the sequence's outward culmination.",
+          "independent_trigger": "Bağımsız tetikleyici odaktaki 5:92:1:2, 5:92:3:2 dönüşüdür; bu odak teması, bağlam rolünün sorumluluk alanını belirler.",
+          "activation": "Doing the good supplies the sequence's outward culmination. Bu ayrı taşıyıcı ve tetikleyici, odak ayetindeki yüzeyle temas ederek bulgunun değişmiş okumasını kurar.",
+          "resulting_reading": "Obedience is a renewable sequence of assent, action, self-protection, and better action; vigilance is the maintenance operation that keeps response from decaying."
+        }
+      ],
+      "connection_refs": [
+        "conn_43cde9424f638cdea99d"
+      ],
+      "context_refs": [
+        "5:93"
+      ],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "macro:reach-discloses-response",
+      "origin_candidate_id": "cand_e84e2265ace9af602978",
+      "represented_candidate_ids": [],
+      "title": "Ulaşan bildirim ve açığa çıkan karşılık",
+      "claim": "5:92deki البلاغ, yalnızca sözün aktarılmış olması değil, yönlendirmenin eyleme açık bir erişim sınırına varması olarak belirginleşir; 5:94-95te erişilen av ve hedefe ulaştırılan sunu, bu varışın karşılığın yönünü açığa çıkarabildiğini gösterir.",
+      "mechanism": "The hunt test brings an object within reach of hands and spears so that restraint toward the unseen can become observable, while the compensating offering must itself reach a designated endpoint. These spatial events activate focus balagh as an accountability threshold: when a directive or object arrives within actionable reach, response discloses the recipient's orientation.",
+      "reader_payoff": "Bildirim tamamlandığında sorumluluğun ve muhatabın yönelişinin görünür hale geldiği bir eşik sezilir.",
+      "containment": "Elçinin açık bildirim görevi ve birincil البلاغ anlamı korunur. Av ve sunu düzeni, iletişimi hukukî erişimle özdeşleştirmez; yalnızca erişilebilirlik, sınır ve karşılığın açığa çıkması yönünde bağlamsal bir yankı sağlar.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": [
+          "legacy_unbound"
+        ],
+        "reason": "Kaynak HFT kimliği legacy_unbound; odak dalları packet içinde mevcut, bağlam dalları ise çözülmemiş kayıtlar olduğu için bağlamsal roller attributed ve alternatif sınırlar görünür tutuldu."
+      },
+      "support_ids": [
+        "sup_9611bbd933c478421a37"
+      ],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000151/B001",
+          "facet_id": "F001",
+          "branch_gloss": "bir yere, şeye veya son sınıra ulaşma; bağlama göre yaklaşma ya da olgunluğa erme",
+          "facet_statement": "Bir yere veya şeye erişip varma temel anlamdır.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "5:92:12:2"
+          ],
+          "trigger_refs": [
+            "5:94:4"
+          ],
+          "focus_return_refs": [
+            "5:92:12:2"
+          ],
+          "carrier": "5:92:12:2 odak yüzeyi; dalın bir yere, şeye veya son sınıra ulaşma; bağlama göre yaklaşma ya da olgunluğa erme anlamı HFT rolünde Reaching an endpoint supplies the focus threshold whose practical force the hunt sequence activates.",
+          "independent_trigger": "Bağımsız tetikleyici 5:94:4 konumundaki bağlam temasına dayanır; HFT rolü: A test that makes a condition appear supplies the disclosure function of the reachable prey.",
+          "activation": "Reaching an endpoint supplies the focus threshold whose practical force the hunt sequence activates. Bu ayrı taşıyıcı ve tetikleyici, odak ayetindeki yüzeyle temas ederek bulgunun değişmiş okumasını kurar.",
+          "resulting_reading": "Balagh is arrival within actionable reach: once the directive reaches its endpoint clearly, the audience's restraint or withdrawal can disclose its orientation, even when the ultimate audit is unseen."
+        },
+        {
+          "branch_ref": "root_000153/B002",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "5:94:4"
+          ],
+          "trigger_refs": [
+            "5:92:12:2"
+          ],
+          "focus_return_refs": [
+            "5:92:12:2"
+          ],
+          "carrier": "HFT izinin 5:94 ayetindeki 5:94:4 konumu; kayıtlı rolü: A test that makes a condition appear supplies the disclosure function of the reachable prey.",
+          "independent_trigger": "Bağımsız tetikleyici odaktaki 5:92:12:2 dönüşüdür; bu odak teması, bağlam rolünün sorumluluk alanını belirler.",
+          "activation": "A test that makes a condition appear supplies the disclosure function of the reachable prey. Bu ayrı taşıyıcı ve tetikleyici, odak ayetindeki yüzeyle temas ederek bulgunun değişmiş okumasını kurar.",
+          "resulting_reading": "Balagh is arrival within actionable reach: once the directive reaches its endpoint clearly, the audience's restraint or withdrawal can disclose its orientation, even when the ultimate audit is unseen."
+        },
+        {
+          "branch_ref": "root_001572/B001",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "5:94:9"
+          ],
+          "trigger_refs": [
+            "5:92:12:2"
+          ],
+          "focus_return_refs": [
+            "5:92:12:2"
+          ],
+          "carrier": "HFT izinin 5:94 ayetindeki 5:94:9 konumu; kayıtlı rolü: Attainment and contact place the tested object within practical reach.",
+          "independent_trigger": "Bağımsız tetikleyici odaktaki 5:92:12:2 dönüşüdür; bu odak teması, bağlam rolünün sorumluluk alanını belirler.",
+          "activation": "Attainment and contact place the tested object within practical reach. Bu ayrı taşıyıcı ve tetikleyici, odak ayetindeki yüzeyle temas ederek bulgunun değişmiş okumasını kurar.",
+          "resulting_reading": "Balagh is arrival within actionable reach: once the directive reaches its endpoint clearly, the audience's restraint or withdrawal can disclose its orientation, even when the ultimate audit is unseen."
+        },
+        {
+          "branch_ref": "root_001040/B001",
+          "facet_id": "F001",
+          "branch_gloss": "bilme ve gerçeğini kavrama",
+          "facet_statement": "Bir şeyi bilme, tanıma ve gerçeğine uygun biçimde kavrama durumu bilgisizliğin karşıtıdır.",
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "5:94:12"
+          ],
+          "trigger_refs": [
+            "5:92:12:2"
+          ],
+          "focus_return_refs": [
+            "5:92:12:2"
+          ],
+          "carrier": "HFT izinin 5:94 ayetindeki 5:94:12 konumu; kayıtlı rolü: A state becoming known links enacted restraint to disclosure.",
+          "independent_trigger": "Bağımsız tetikleyici odaktaki 5:92:12:2 dönüşüdür; bu odak teması, bağlam rolünün sorumluluk alanını belirler.",
+          "activation": "A state becoming known links enacted restraint to disclosure. Bu ayrı taşıyıcı ve tetikleyici, odak ayetindeki yüzeyle temas ederek bulgunun değişmiş okumasını kurar.",
+          "resulting_reading": "Balagh is arrival within actionable reach: once the directive reaches its endpoint clearly, the audience's restraint or withdrawal can disclose its orientation, even when the ultimate audit is unseen."
+        },
+        {
+          "branch_ref": "root_000447/B001",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "5:94:15"
+          ],
+          "trigger_refs": [
+            "5:92:12:2"
+          ],
+          "focus_return_refs": [
+            "5:92:12:2"
+          ],
+          "carrier": "HFT izinin 5:94 ayetindeki 5:94:15 konumu; kayıtlı rolü: Anticipatory fear supplies restraint before an unseen consequence.",
+          "independent_trigger": "Bağımsız tetikleyici odaktaki 5:92:12:2 dönüşüdür; bu odak teması, bağlam rolünün sorumluluk alanını belirler.",
+          "activation": "Anticipatory fear supplies restraint before an unseen consequence. Bu ayrı taşıyıcı ve tetikleyici, odak ayetindeki yüzeyle temas ederek bulgunun değişmiş okumasını kurar.",
+          "resulting_reading": "Balagh is arrival within actionable reach: once the directive reaches its endpoint clearly, the audience's restraint or withdrawal can disclose its orientation, even when the ultimate audit is unseen."
+        },
+        {
+          "branch_ref": "root_001117/B001",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "5:94:16"
+          ],
+          "trigger_refs": [
+            "5:92:12:2"
+          ],
+          "focus_return_refs": [
+            "5:92:12:2"
+          ],
+          "carrier": "HFT izinin 5:94 ayetindeki 5:94:16 konumu; kayıtlı rolü: What is hidden from sight makes the restraint a test of orientation rather than reaction to surveillance.",
+          "independent_trigger": "Bağımsız tetikleyici odaktaki 5:92:12:2 dönüşüdür; bu odak teması, bağlam rolünün sorumluluk alanını belirler.",
+          "activation": "What is hidden from sight makes the restraint a test of orientation rather than reaction to surveillance. Bu ayrı taşıyıcı ve tetikleyici, odak ayetindeki yüzeyle temas ederek bulgunun değişmiş okumasını kurar.",
+          "resulting_reading": "Balagh is arrival within actionable reach: once the directive reaches its endpoint clearly, the audience's restraint or withdrawal can disclose its orientation, even when the ultimate audit is unseen."
+        },
+        {
+          "branch_ref": "root_000151/B001",
+          "facet_id": "F001",
+          "branch_gloss": "bir yere, şeye veya son sınıra ulaşma; bağlama göre yaklaşma ya da olgunluğa erme",
+          "facet_statement": "Bir yere veya şeye erişip varma temel anlamdır.",
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "5:95:25"
+          ],
+          "trigger_refs": [
+            "5:92:12:2"
+          ],
+          "focus_return_refs": [
+            "5:92:12:2"
+          ],
+          "carrier": "HFT izinin 5:95 ayetindeki 5:95:25 konumu; kayıtlı rolü: The offering's required arrival at the Kaaba supplies a concrete endpoint for valid completion.",
+          "independent_trigger": "Bağımsız tetikleyici odaktaki 5:92:12:2 dönüşüdür; bu odak teması, bağlam rolünün sorumluluk alanını belirler.",
+          "activation": "The offering's required arrival at the Kaaba supplies a concrete endpoint for valid completion. Bu ayrı taşıyıcı ve tetikleyici, odak ayetindeki yüzeyle temas ederek bulgunun değişmiş okumasını kurar.",
+          "resulting_reading": "Balagh is arrival within actionable reach: once the directive reaches its endpoint clearly, the audience's restraint or withdrawal can disclose its orientation, even when the ultimate audit is unseen."
+        }
+      ],
+      "connection_refs": [
+        "conn_9363c04492970bf4cf6f",
+        "conn_1332f8a2b0e339dd3ab9"
+      ],
+      "context_refs": [
+        "5:94",
+        "5:95"
+      ],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "macro:actionable-bounded-clarity",
+      "origin_candidate_id": "cand_791e76bfea50bf604ee4",
+      "represented_candidate_ids": [],
+      "title": "Eyleme açık ve zamanla sınırlı açıklık",
+      "claim": "5:92deki mubin bildirim, her şeyi sınırsızca açığa çıkarma değil, doğru ayrımı kuracak ölçüde ve yetkili zamanda görünür kılma işlevi kazanır.",
+      "mechanism": "The instruction to distinguish the impure from the wholesome makes clarity discriminative, while the following prohibition on questions whose answers would distress and its restriction of disclosure to the time of revelation make clarity temporally bounded. Mubin therefore need not mean exhaustive exposure of everything; it can mean enough manifest distinction, delivered at the right time, for responsible action.",
+      "reader_payoff": "Açıklığın yalnız bilgi çoğaltmak değil, temiz ile kötü olanı ayırarak sorumlu eyleme imkân vermek ve gereksiz ifşayı sınırlamak olduğu seçilir.",
+      "containment": "Açıkça bildirme görevi korunur. 5:100-101 bu açıklığı ayırt edici ve zamana bağlı bir kullanım olarak renklendirir; 5:101in soru ve ifşa düzeni mubinin tanımına zorunlu olarak indirgenmez.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": [
+          "legacy_unbound"
+        ],
+        "reason": "Kaynak HFT kimliği legacy_unbound; odak dalları packet içinde mevcut, bağlam dalları ise çözülmemiş kayıtlar olduğu için bağlamsal roller attributed ve alternatif sınırlar görünür tutuldu."
+      },
+      "support_ids": [
+        "sup_91f3bf0733e59b27353d"
+      ],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000170/B005",
+          "facet_id": "F001",
+          "branch_gloss": "anlamı açıkça ortaya koyma",
+          "facet_statement": "Çekirdek anlam, kastedilen anlamı açığa çıkarıp anlaşılır kılmadır.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "5:92:13:2"
+          ],
+          "trigger_refs": [
+            "5:100:3"
+          ],
+          "focus_return_refs": [
+            "5:92:13:2"
+          ],
+          "carrier": "5:92:13:2 odak yüzeyi; dalın anlamı açıkça ortaya koyma anlamı HFT rolünde Exposition by speech or sign is the focus clarity whose scope the context qualifies.",
+          "independent_trigger": "Bağımsız tetikleyici 5:100:3 konumundaki bağlam temasına dayanır; HFT rolü: Denied equivalence makes clarity perform a distinction rather than merely add information.",
+          "activation": "Exposition by speech or sign is the focus clarity whose scope the context qualifies. Bu ayrı taşıyıcı ve tetikleyici, odak ayetindeki yüzeyle temas ederek bulgunun değişmiş okumasını kurar.",
+          "resulting_reading": "Clear conveyance gives the distinctions needed for response in their authorized time; it is actionable and inspectable without promising exhaustive or demand-driven exposure."
+        },
+        {
+          "branch_ref": "root_000766/B001",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "5:100:3"
+          ],
+          "trigger_refs": [
+            "5:92:13:2"
+          ],
+          "focus_return_refs": [
+            "5:92:13:2"
+          ],
+          "carrier": "HFT izinin 5:100 ayetindeki 5:100:3 konumu; kayıtlı rolü: Denied equivalence makes clarity perform a distinction rather than merely add information.",
+          "independent_trigger": "Bağımsız tetikleyici odaktaki 5:92:13:2 dönüşüdür; bu odak teması, bağlam rolünün sorumluluk alanını belirler.",
+          "activation": "Denied equivalence makes clarity perform a distinction rather than merely add information. Bu ayrı taşıyıcı ve tetikleyici, odak ayetindeki yüzeyle temas ederek bulgunun değişmiş okumasını kurar.",
+          "resulting_reading": "Clear conveyance gives the distinctions needed for response in their authorized time; it is actionable and inspectable without promising exhaustive or demand-driven exposure."
+        },
+        {
+          "branch_ref": "root_000386/B001",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "5:100:4",
+            "5:100:9"
+          ],
+          "trigger_refs": [
+            "5:92:13:2"
+          ],
+          "focus_return_refs": [
+            "5:92:13:2"
+          ],
+          "carrier": "HFT izinin 5:100 ayetindeki 5:100:4, 5:100:9 konumu; kayıtlı rolü: Inferiority opposed to wholesomeness supplies one side of the actionable distinction.",
+          "independent_trigger": "Bağımsız tetikleyici odaktaki 5:92:13:2 dönüşüdür; bu odak teması, bağlam rolünün sorumluluk alanını belirler.",
+          "activation": "Inferiority opposed to wholesomeness supplies one side of the actionable distinction. Bu ayrı taşıyıcı ve tetikleyici, odak ayetindeki yüzeyle temas ederek bulgunun değişmiş okumasını kurar.",
+          "resulting_reading": "Clear conveyance gives the distinctions needed for response in their authorized time; it is actionable and inspectable without promising exhaustive or demand-driven exposure."
+        },
+        {
+          "branch_ref": "root_000961/B001",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "5:100:5"
+          ],
+          "trigger_refs": [
+            "5:92:13:2"
+          ],
+          "focus_return_refs": [
+            "5:92:13:2"
+          ],
+          "carrier": "HFT izinin 5:100 ayetindeki 5:100:5 konumu; kayıtlı rolü: Wholesomeness opposed to impurity supplies the other side of the actionable distinction.",
+          "independent_trigger": "Bağımsız tetikleyici odaktaki 5:92:13:2 dönüşüdür; bu odak teması, bağlam rolünün sorumluluk alanını belirler.",
+          "activation": "Wholesomeness opposed to impurity supplies the other side of the actionable distinction. Bu ayrı taşıyıcı ve tetikleyici, odak ayetindeki yüzeyle temas ederek bulgunun değişmiş okumasını kurar.",
+          "resulting_reading": "Clear conveyance gives the distinctions needed for response in their authorized time; it is actionable and inspectable without promising exhaustive or demand-driven exposure."
+        },
+        {
+          "branch_ref": "root_000661/B001",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "5:101:5",
+            "5:101:13"
+          ],
+          "trigger_refs": [
+            "5:92:13:2"
+          ],
+          "focus_return_refs": [
+            "5:92:13:2"
+          ],
+          "carrier": "HFT izinin 5:101 ayetindeki 5:101:5, 5:101:13 konumu; kayıtlı rolü: Demanding disclosure supplies the pressure toward unnecessary total exposure.",
+          "independent_trigger": "Bağımsız tetikleyici odaktaki 5:92:13:2 dönüşüdür; bu odak teması, bağlam rolünün sorumluluk alanını belirler.",
+          "activation": "Demanding disclosure supplies the pressure toward unnecessary total exposure. Bu ayrı taşıyıcı ve tetikleyici, odak ayetindeki yüzeyle temas ederek bulgunun değişmiş okumasını kurar.",
+          "resulting_reading": "Clear conveyance gives the distinctions needed for response in their authorized time; it is actionable and inspectable without promising exhaustive or demand-driven exposure."
+        },
+        {
+          "branch_ref": "root_000097/B001",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "5:101:9",
+            "5:101:18"
+          ],
+          "trigger_refs": [
+            "5:92:13:2"
+          ],
+          "focus_return_refs": [
+            "5:92:13:2"
+          ],
+          "carrier": "HFT izinin 5:101 ayetindeki 5:101:9, 5:101:18 konumu; kayıtlı rolü: Emergence into view supplies the disclosure whose timing and usefulness are being constrained.",
+          "independent_trigger": "Bağımsız tetikleyici odaktaki 5:92:13:2 dönüşüdür; bu odak teması, bağlam rolünün sorumluluk alanını belirler.",
+          "activation": "Emergence into view supplies the disclosure whose timing and usefulness are being constrained. Bu ayrı taşıyıcı ve tetikleyici, odak ayetindeki yüzeyle temas ederek bulgunun değişmiş okumasını kurar.",
+          "resulting_reading": "Clear conveyance gives the distinctions needed for response in their authorized time; it is actionable and inspectable without promising exhaustive or demand-driven exposure."
+        },
+        {
+          "branch_ref": "root_000382/B001",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "5:101:15"
+          ],
+          "trigger_refs": [
+            "5:92:13:2"
+          ],
+          "focus_return_refs": [
+            "5:92:13:2"
+          ],
+          "carrier": "HFT izinin 5:101 ayetindeki 5:101:15 konumu; kayıtlı rolü: A proper time supplies the temporal boundary on manifestation.",
+          "independent_trigger": "Bağımsız tetikleyici odaktaki 5:92:13:2 dönüşüdür; bu odak teması, bağlam rolünün sorumluluk alanını belirler.",
+          "activation": "A proper time supplies the temporal boundary on manifestation. Bu ayrı taşıyıcı ve tetikleyici, odak ayetindeki yüzeyle temas ederek bulgunun değişmiş okumasını kurar.",
+          "resulting_reading": "Clear conveyance gives the distinctions needed for response in their authorized time; it is actionable and inspectable without promising exhaustive or demand-driven exposure."
+        },
+        {
+          "branch_ref": "root_001492/B002",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "5:101:16"
+          ],
+          "trigger_refs": [
+            "5:92:13:2"
+          ],
+          "focus_return_refs": [
+            "5:92:13:2"
+          ],
+          "carrier": "HFT izinin 5:101 ayetindeki 5:101:16 konumu; kayıtlı rolü: Delivery of revelation supplies the authorized occasion for needed disclosure.",
+          "independent_trigger": "Bağımsız tetikleyici odaktaki 5:92:13:2 dönüşüdür; bu odak teması, bağlam rolünün sorumluluk alanını belirler.",
+          "activation": "Delivery of revelation supplies the authorized occasion for needed disclosure. Bu ayrı taşıyıcı ve tetikleyici, odak ayetindeki yüzeyle temas ederek bulgunun değişmiş okumasını kurar.",
+          "resulting_reading": "Clear conveyance gives the distinctions needed for response in their authorized time; it is actionable and inspectable without promising exhaustive or demand-driven exposure."
+        }
+      ],
+      "connection_refs": [
+        "conn_149321b3e5d72f197c1f",
+        "conn_9219bd8ce42fcaddaf69"
+      ],
+      "context_refs": [
+        "5:100",
+        "5:101"
+      ],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "macro:authority-reassignment",
+      "origin_candidate_id": "cand_079cf575ff03efd3bf38",
+      "represented_candidate_ids": [],
+      "title": "Normatif kaynağın denetlenmesi",
+      "claim": "5:92de Allah ve elçiye yöneltilen çift itaat, 5:103-104te ilahî kaynağa yanlış söz isnat edilmesi ve vahiy ile elçi çağrısının atalar mirasıyla değiştirilmesi karşısında, bir normun kaynağını denetleyen bir yöneliş olarak açılır.",
+      "mechanism": "Fabricated livestock rules are described as invented falsehood attributed to God, and the next scene answers a call to what God sent down and to the messenger with ancestral sufficiency despite absent knowledge and guidance. The doubled focus obedience becomes a source-authentication protocol: turning away is not neutral noncompliance but reassignment of normative authority to fabricated or inherited substitutes.",
+      "reader_payoff": "Yüz çevirmenin yalnızca emre uymamak değil, yetkili kaynağın yerine uydurulmuş veya miras alınmış bir yeterlilik koymak olabileceği görünür olur.",
+      "containment": "Allah ve elçiye itaatin birincil çağrısı korunur. 5:103-104 belirli uydurma gelenekleri ve ataya dayanmayı kaynak denetimi yönünde aydınlatır; her yüz çevirme vakası için tek açıklama iddiası kurulmaz.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": [
+          "legacy_unbound"
+        ],
+        "reason": "Kaynak HFT kimliği legacy_unbound; odak dalları packet içinde mevcut, bağlam dalları ise çözülmemiş kayıtlar olduğu için bağlamsal roller attributed ve alternatif sınırlar görünür tutuldu."
+      },
+      "support_ids": [
+        "sup_318e4180771d1a6dc18e"
+      ],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000563/B002",
+          "facet_id": "F001",
+          "branch_gloss": "haber taşıyıcısı veya taşınan haber",
+          "facet_statement": "Çekirdek, bir gönderenden bir alıcıya içerik taşıyan ileti bağını kurar.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "5:92:4:2",
+            "5:92:11:1"
+          ],
+          "trigger_refs": [
+            "5:103:15"
+          ],
+          "focus_return_refs": [
+            "5:92:4:2",
+            "5:92:11:1"
+          ],
+          "carrier": "5:92:4:2, 5:92:11:1 odak yüzeyi; dalın haber taşıyıcısı veya taşınan haber anlamı HFT rolünde The authorized message carrier supplies the source against which substitute norms are tested.",
+          "independent_trigger": "Bağımsız tetikleyici 5:103:15 konumundaki bağlam temasına dayanır; HFT rolü: Invented falsehood supplies the production mechanism of unauthorized norms.",
+          "activation": "The authorized message carrier supplies the source against which substitute norms are tested. Bu ayrı taşıyıcı ve tetikleyici, odak ayetindeki yüzeyle temas ederek bulgunun değişmiş okumasını kurar.",
+          "resulting_reading": "Verify where a norm comes from: obedience keeps divine source and messenger relay aligned, while turning away often works by installing fabricated restrictions or inherited sufficiency in their place."
+        },
+        {
+          "branch_ref": "root_001150/B003",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "5:103:15"
+          ],
+          "trigger_refs": [
+            "5:92:4:2",
+            "5:92:11:1"
+          ],
+          "focus_return_refs": [
+            "5:92:4:2",
+            "5:92:11:1"
+          ],
+          "carrier": "HFT izinin 5:103 ayetindeki 5:103:15 konumu; kayıtlı rolü: Invented falsehood supplies the production mechanism of unauthorized norms.",
+          "independent_trigger": "Bağımsız tetikleyici odaktaki 5:92:4:2, 5:92:11:1 dönüşüdür; bu odak teması, bağlam rolünün sorumluluk alanını belirler.",
+          "activation": "Invented falsehood supplies the production mechanism of unauthorized norms. Bu ayrı taşıyıcı ve tetikleyici, odak ayetindeki yüzeyle temas ederek bulgunun değişmiş okumasını kurar.",
+          "resulting_reading": "Verify where a norm comes from: obedience keeps divine source and messenger relay aligned, while turning away often works by installing fabricated restrictions or inherited sufficiency in their place."
+        },
+        {
+          "branch_ref": "root_001290/B001",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "5:103:18"
+          ],
+          "trigger_refs": [
+            "5:92:4:2",
+            "5:92:11:1"
+          ],
+          "focus_return_refs": [
+            "5:92:4:2",
+            "5:92:11:1"
+          ],
+          "carrier": "HFT izinin 5:103 ayetindeki 5:103:18 konumu; kayıtlı rolü: Opposition to truth marks the fabricated attribution as a source failure.",
+          "independent_trigger": "Bağımsız tetikleyici odaktaki 5:92:4:2, 5:92:11:1 dönüşüdür; bu odak teması, bağlam rolünün sorumluluk alanını belirler.",
+          "activation": "Opposition to truth marks the fabricated attribution as a source failure. Bu ayrı taşıyıcı ve tetikleyici, odak ayetindeki yüzeyle temas ederek bulgunun değişmiş okumasını kurar.",
+          "resulting_reading": "Verify where a norm comes from: obedience keeps divine source and messenger relay aligned, while turning away often works by installing fabricated restrictions or inherited sufficiency in their place."
+        },
+        {
+          "branch_ref": "root_001036/B001",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "5:103:21"
+          ],
+          "trigger_refs": [
+            "5:92:4:2",
+            "5:92:11:1"
+          ],
+          "focus_return_refs": [
+            "5:92:4:2",
+            "5:92:11:1"
+          ],
+          "carrier": "HFT izinin 5:103 ayetindeki 5:103:21 konumu; kayıtlı rolü: Reason that restrains ignorance supplies the missing audit faculty.",
+          "independent_trigger": "Bağımsız tetikleyici odaktaki 5:92:4:2, 5:92:11:1 dönüşüdür; bu odak teması, bağlam rolünün sorumluluk alanını belirler.",
+          "activation": "Reason that restrains ignorance supplies the missing audit faculty. Bu ayrı taşıyıcı ve tetikleyici, odak ayetindeki yüzeyle temas ederek bulgunun değişmiş okumasını kurar.",
+          "resulting_reading": "Verify where a norm comes from: obedience keeps divine source and messenger relay aligned, while turning away often works by installing fabricated restrictions or inherited sufficiency in their place."
+        },
+        {
+          "branch_ref": "root_001492/B002",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "5:104:7"
+          ],
+          "trigger_refs": [
+            "5:92:4:2",
+            "5:92:11:1"
+          ],
+          "focus_return_refs": [
+            "5:92:4:2",
+            "5:92:11:1"
+          ],
+          "carrier": "HFT izinin 5:104 ayetindeki 5:104:7 konumu; kayıtlı rolü: What is sent down and delivered supplies the authorized originating content.",
+          "independent_trigger": "Bağımsız tetikleyici odaktaki 5:92:4:2, 5:92:11:1 dönüşüdür; bu odak teması, bağlam rolünün sorumluluk alanını belirler.",
+          "activation": "What is sent down and delivered supplies the authorized originating content. Bu ayrı taşıyıcı ve tetikleyici, odak ayetindeki yüzeyle temas ederek bulgunun değişmiş okumasını kurar.",
+          "resulting_reading": "Verify where a norm comes from: obedience keeps divine source and messenger relay aligned, while turning away often works by installing fabricated restrictions or inherited sufficiency in their place."
+        },
+        {
+          "branch_ref": "root_000563/B002",
+          "facet_id": "F001",
+          "branch_gloss": "haber taşıyıcısı veya taşınan haber",
+          "facet_statement": "Çekirdek, bir gönderenden bir alıcıya içerik taşıyan ileti bağını kurar.",
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "5:104:10"
+          ],
+          "trigger_refs": [
+            "5:92:4:2",
+            "5:92:11:1"
+          ],
+          "focus_return_refs": [
+            "5:92:4:2",
+            "5:92:11:1"
+          ],
+          "carrier": "HFT izinin 5:104 ayetindeki 5:104:10 konumu; kayıtlı rolü: The messenger supplies the authorized relay paired with what God sent down.",
+          "independent_trigger": "Bağımsız tetikleyici odaktaki 5:92:4:2, 5:92:11:1 dönüşüdür; bu odak teması, bağlam rolünün sorumluluk alanını belirler.",
+          "activation": "The messenger supplies the authorized relay paired with what God sent down. Bu ayrı taşıyıcı ve tetikleyici, odak ayetindeki yüzeyle temas ederek bulgunun değişmiş okumasını kurar.",
+          "resulting_reading": "Verify where a norm comes from: obedience keeps divine source and messenger relay aligned, while turning away often works by installing fabricated restrictions or inherited sufficiency in their place."
+        },
+        {
+          "branch_ref": "root_000318/B003",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "5:104:12"
+          ],
+          "trigger_refs": [
+            "5:92:4:2",
+            "5:92:11:1"
+          ],
+          "focus_return_refs": [
+            "5:92:4:2",
+            "5:92:11:1"
+          ],
+          "carrier": "HFT izinin 5:104 ayetindeki 5:104:12 konumu; kayıtlı rolü: Claimed sufficiency closes inquiry and makes inherited practice function as a substitute authority.",
+          "independent_trigger": "Bağımsız tetikleyici odaktaki 5:92:4:2, 5:92:11:1 dönüşüdür; bu odak teması, bağlam rolünün sorumluluk alanını belirler.",
+          "activation": "Claimed sufficiency closes inquiry and makes inherited practice function as a substitute authority. Bu ayrı taşıyıcı ve tetikleyici, odak ayetindeki yüzeyle temas ederek bulgunun değişmiş okumasını kurar.",
+          "resulting_reading": "Verify where a norm comes from: obedience keeps divine source and messenger relay aligned, while turning away often works by installing fabricated restrictions or inherited sufficiency in their place."
+        },
+        {
+          "branch_ref": "root_000007/B001",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "5:104:16",
+            "5:104:19"
+          ],
+          "trigger_refs": [
+            "5:92:4:2",
+            "5:92:11:1"
+          ],
+          "focus_return_refs": [
+            "5:92:4:2",
+            "5:92:11:1"
+          ],
+          "carrier": "HFT izinin 5:104 ayetindeki 5:104:16, 5:104:19 konumu; kayıtlı rolü: Ancestral parentage supplies the transmission line preferred over the messenger.",
+          "independent_trigger": "Bağımsız tetikleyici odaktaki 5:92:4:2, 5:92:11:1 dönüşüdür; bu odak teması, bağlam rolünün sorumluluk alanını belirler.",
+          "activation": "Ancestral parentage supplies the transmission line preferred over the messenger. Bu ayrı taşıyıcı ve tetikleyici, odak ayetindeki yüzeyle temas ederek bulgunun değişmiş okumasını kurar.",
+          "resulting_reading": "Verify where a norm comes from: obedience keeps divine source and messenger relay aligned, while turning away often works by installing fabricated restrictions or inherited sufficiency in their place."
+        },
+        {
+          "branch_ref": "root_001040/B001",
+          "facet_id": "F001",
+          "branch_gloss": "bilme ve gerçeğini kavrama",
+          "facet_statement": "Bir şeyi bilme, tanıma ve gerçeğine uygun biçimde kavrama durumu bilgisizliğin karşıtıdır.",
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "5:104:21"
+          ],
+          "trigger_refs": [
+            "5:92:4:2",
+            "5:92:11:1"
+          ],
+          "focus_return_refs": [
+            "5:92:4:2",
+            "5:92:11:1"
+          ],
+          "carrier": "HFT izinin 5:104 ayetindeki 5:104:21 konumu; kayıtlı rolü: Absent disclosed knowledge invalidates ancestry as a sufficient epistemic warrant.",
+          "independent_trigger": "Bağımsız tetikleyici odaktaki 5:92:4:2, 5:92:11:1 dönüşüdür; bu odak teması, bağlam rolünün sorumluluk alanını belirler.",
+          "activation": "Absent disclosed knowledge invalidates ancestry as a sufficient epistemic warrant. Bu ayrı taşıyıcı ve tetikleyici, odak ayetindeki yüzeyle temas ederek bulgunun değişmiş okumasını kurar.",
+          "resulting_reading": "Verify where a norm comes from: obedience keeps divine source and messenger relay aligned, while turning away often works by installing fabricated restrictions or inherited sufficiency in their place."
+        },
+        {
+          "branch_ref": "root_001583/B001",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "5:104:24"
+          ],
+          "trigger_refs": [
+            "5:92:4:2",
+            "5:92:11:1"
+          ],
+          "focus_return_refs": [
+            "5:92:4:2",
+            "5:92:11:1"
+          ],
+          "carrier": "HFT izinin 5:104 ayetindeki 5:104:24 konumu; kayıtlı rolü: Gentle direction toward the true path supplies the absent directional warrant.",
+          "independent_trigger": "Bağımsız tetikleyici odaktaki 5:92:4:2, 5:92:11:1 dönüşüdür; bu odak teması, bağlam rolünün sorumluluk alanını belirler.",
+          "activation": "Gentle direction toward the true path supplies the absent directional warrant. Bu ayrı taşıyıcı ve tetikleyici, odak ayetindeki yüzeyle temas ederek bulgunun değişmiş okumasını kurar.",
+          "resulting_reading": "Verify where a norm comes from: obedience keeps divine source and messenger relay aligned, while turning away often works by installing fabricated restrictions or inherited sufficiency in their place."
+        }
+      ],
+      "connection_refs": [
+        "conn_d80e43c25b9226112e5b",
+        "conn_ced1bc78dd4e97dda23c"
+      ],
+      "context_refs": [
+        "5:103",
+        "5:104"
+      ],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "macro:distributed-recipient-liability",
+      "origin_candidate_id": "cand_865c642777af5403dba2",
+      "represented_candidate_ids": [],
+      "title": "Görevlerin dağıtılmış sınırı",
+      "claim": "5:92de bildirim görevinin elçiye yüklenmesi, 5:105te kişinin kendi nefsine yöneltilen sorumluluk ve ortak dönüşle karşılaşınca, elçinin aktarımı ile muhatabın kendi karşılığını birbirine devretmeyen dağıtılmış bir görev düzeni kurar.",
+      "mechanism": "The focus places clear conveyance 'upon Our messenger'; 5:105 places the recipients' own selves 'upon you,' denies transfer of harm from another's straying when they are guided, and sends all back for a report of deeds. The mirrored assignments make responsibility distributive rather than contagious: the messenger must relay, each recipient must tend the self, and final reporting belongs at return.",
+      "reader_payoff": "Elçinin vazifesiyle muhatabın kendi yönelişinin aynı hesapta erimediği, fakat ortak dönüşte birlikte değerlendirildiği fark edilir.",
+      "containment": "Elçinin açık bildirim görevi ve 5:105in kişisel sorumluluk çağrısı ayrı ayrı korunur. Bu paralellik sorumluluğun dağılımını aydınlatır; 5:105teki ifadelerin yalnızca bilinçli bir yankı olarak anlaşılması zorunlu tutulmaz.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": [
+          "legacy_unbound"
+        ],
+        "reason": "Kaynak HFT kimliği legacy_unbound; odak dalları packet içinde mevcut, bağlam dalları ise çözülmemiş kayıtlar olduğu için bağlamsal roller attributed ve alternatif sınırlar görünür tutuldu."
+      },
+      "support_ids": [
+        "sup_66ccd702a2eb047028b1"
+      ],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000151/B002",
+          "facet_id": "F001",
+          "branch_gloss": "bir şeyi, özellikle iletiyi, hedefine ulaştırma",
+          "facet_statement": "Bir nesnenin veya içeriğin hedefe erişmesini sağlama temel işlemdir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "5:92:12:2"
+          ],
+          "trigger_refs": [
+            "5:105:5"
+          ],
+          "focus_return_refs": [
+            "5:92:12:2"
+          ],
+          "carrier": "5:92:12:2 odak yüzeyi; dalın bir şeyi, özellikle iletiyi, hedefine ulaştırma anlamı HFT rolünde Message delivery supplies the task explicitly placed upon the messenger.",
+          "independent_trigger": "Bağımsız tetikleyici 5:105:5 konumundaki bağlam temasına dayanır; HFT rolü: The self as the thing's own identity supplies the recipient's assigned field of responsibility.",
+          "activation": "Message delivery supplies the task explicitly placed upon the messenger. Bu ayrı taşıyıcı ve tetikleyici, odak ayetindeki yüzeyle temas ederek bulgunun değişmiş okumasını kurar.",
+          "resulting_reading": "The limit positively allocates work: faithful transfer belongs to the messenger, self-tending response belongs to each hearer, and neither can absorb the other's task before the common return."
+        },
+        {
+          "branch_ref": "root_001533/B012",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "5:105:5"
+          ],
+          "trigger_refs": [
+            "5:92:12:2"
+          ],
+          "focus_return_refs": [
+            "5:92:12:2"
+          ],
+          "carrier": "HFT izinin 5:105 ayetindeki 5:105:5 konumu; kayıtlı rolü: The self as the thing's own identity supplies the recipient's assigned field of responsibility.",
+          "independent_trigger": "Bağımsız tetikleyici odaktaki 5:92:12:2 dönüşüdür; bu odak teması, bağlam rolünün sorumluluk alanını belirler.",
+          "activation": "The self as the thing's own identity supplies the recipient's assigned field of responsibility. Bu ayrı taşıyıcı ve tetikleyici, odak ayetindeki yüzeyle temas ederek bulgunun değişmiş okumasını kurar.",
+          "resulting_reading": "The limit positively allocates work: faithful transfer belongs to the messenger, self-tending response belongs to each hearer, and neither can absorb the other's task before the common return."
+        },
+        {
+          "branch_ref": "root_000913/B001",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "5:105:9"
+          ],
+          "trigger_refs": [
+            "5:92:12:2"
+          ],
+          "focus_return_refs": [
+            "5:92:12:2"
+          ],
+          "carrier": "HFT izinin 5:105 ayetindeki 5:105:9 konumu; kayıtlı rolü: Another's departure from direction supplies the outcome that is not automatically transferred.",
+          "independent_trigger": "Bağımsız tetikleyici odaktaki 5:92:12:2 dönüşüdür; bu odak teması, bağlam rolünün sorumluluk alanını belirler.",
+          "activation": "Another's departure from direction supplies the outcome that is not automatically transferred. Bu ayrı taşıyıcı ve tetikleyici, odak ayetindeki yüzeyle temas ederek bulgunun değişmiş okumasını kurar.",
+          "resulting_reading": "The limit positively allocates work: faithful transfer belongs to the messenger, self-tending response belongs to each hearer, and neither can absorb the other's task before the common return."
+        },
+        {
+          "branch_ref": "root_001583/B001",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "5:105:11"
+          ],
+          "trigger_refs": [
+            "5:92:12:2"
+          ],
+          "focus_return_refs": [
+            "5:92:12:2"
+          ],
+          "carrier": "HFT izinin 5:105 ayetindeki 5:105:11 konumu; kayıtlı rolü: Direction toward the true path supplies the condition under which another's straying does not injure.",
+          "independent_trigger": "Bağımsız tetikleyici odaktaki 5:92:12:2 dönüşüdür; bu odak teması, bağlam rolünün sorumluluk alanını belirler.",
+          "activation": "Direction toward the true path supplies the condition under which another's straying does not injure. Bu ayrı taşıyıcı ve tetikleyici, odak ayetindeki yüzeyle temas ederek bulgunun değişmiş okumasını kurar.",
+          "resulting_reading": "The limit positively allocates work: faithful transfer belongs to the messenger, self-tending response belongs to each hearer, and neither can absorb the other's task before the common return."
+        },
+        {
+          "branch_ref": "root_000544/B001",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "5:105:14"
+          ],
+          "trigger_refs": [
+            "5:92:12:2"
+          ],
+          "focus_return_refs": [
+            "5:92:12:2"
+          ],
+          "carrier": "HFT izinin 5:105 ayetindeki 5:105:14 konumu; kayıtlı rolü: Return supplies the common endpoint at which distributed responsibilities are gathered for audit.",
+          "independent_trigger": "Bağımsız tetikleyici odaktaki 5:92:12:2 dönüşüdür; bu odak teması, bağlam rolünün sorumluluk alanını belirler.",
+          "activation": "Return supplies the common endpoint at which distributed responsibilities are gathered for audit. Bu ayrı taşıyıcı ve tetikleyici, odak ayetindeki yüzeyle temas ederek bulgunun değişmiş okumasını kurar.",
+          "resulting_reading": "The limit positively allocates work: faithful transfer belongs to the messenger, self-tending response belongs to each hearer, and neither can absorb the other's task before the common return."
+        },
+        {
+          "branch_ref": "root_001464/B002",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "5:105:16"
+          ],
+          "trigger_refs": [
+            "5:92:12:2"
+          ],
+          "focus_return_refs": [
+            "5:92:12:2"
+          ],
+          "carrier": "HFT izinin 5:105 ayetindeki 5:105:16 konumu; kayıtlı rolü: A delivered report supplies the final disclosure of what recipients did.",
+          "independent_trigger": "Bağımsız tetikleyici odaktaki 5:92:12:2 dönüşüdür; bu odak teması, bağlam rolünün sorumluluk alanını belirler.",
+          "activation": "A delivered report supplies the final disclosure of what recipients did. Bu ayrı taşıyıcı ve tetikleyici, odak ayetindeki yüzeyle temas ederek bulgunun değişmiş okumasını kurar.",
+          "resulting_reading": "The limit positively allocates work: faithful transfer belongs to the messenger, self-tending response belongs to each hearer, and neither can absorb the other's task before the common return."
+        },
+        {
+          "branch_ref": "root_001046/B001",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "5:105:19"
+          ],
+          "trigger_refs": [
+            "5:92:12:2"
+          ],
+          "focus_return_refs": [
+            "5:92:12:2"
+          ],
+          "carrier": "HFT izinin 5:105 ayetindeki 5:105:19 konumu; kayıtlı rolü: Intentional deeds identify what the final report concerns.",
+          "independent_trigger": "Bağımsız tetikleyici odaktaki 5:92:12:2 dönüşüdür; bu odak teması, bağlam rolünün sorumluluk alanını belirler.",
+          "activation": "Intentional deeds identify what the final report concerns. Bu ayrı taşıyıcı ve tetikleyici, odak ayetindeki yüzeyle temas ederek bulgunun değişmiş okumasını kurar.",
+          "resulting_reading": "The limit positively allocates work: faithful transfer belongs to the messenger, self-tending response belongs to each hearer, and neither can absorb the other's task before the common return."
+        }
+      ],
+      "connection_refs": [
+        "conn_907a09d53a9ebb8668bc"
+      ],
+      "context_refs": [
+        "5:105"
+      ],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "macro:auditable-conveyance",
+      "origin_candidate_id": "cand_899949d057f336c13439",
+      "represented_candidate_ids": [],
+      "title": "Denetlenebilir aktarım",
+      "claim": "5:92deki açık bildirim, 5:106-108deki şahitlik ve yemin zinciriyle temas ettiğinde, içeriğin gizlenmeden ve bozulmadan ulaştırılması, denetlenmeye açık tutulması ve anlayan bir muhatara erişmesi yönünde genişler.",
+      "mechanism": "The testament procedure builds a custody chain for consequential speech: witnessed declaration, oath, prohibition of concealment, discovery of hidden breach, replacement testimony, presentation on its proper face, possible return of oaths, and commanded listening. This activates clear conveyance as fidelity that can be audited, challenged, and received, not merely fluent speech.",
+      "reader_payoff": "Açıklığın yalnızca anlaşılır söz değil, saklamaya dirençli, geri sınanabilir ve alıcının işitmesini de gerektiren bir aktarım düzeni olduğu sezilir.",
+      "containment": "Odaktaki açık bildirme ve elçinin sınırlı görevi korunur. Şahitlik usulü iletişim göreviyle özdeşleştirilmez; 5:106daki bağlantı kaydının düşük ve karşıt yönlü değerlendirmesi, bu okumanın hukukî alandan yapılan nitelikli bir analoji olarak kalmasını gerektirir.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": [
+          "legacy_unbound"
+        ],
+        "reason": "Kaynak HFT kimliği legacy_unbound; odak dalları packet içinde mevcut, bağlam dalları ise çözülmemiş kayıtlar olduğu için bağlamsal roller attributed ve alternatif sınırlar görünür tutuldu."
+      },
+      "support_ids": [
+        "sup_a976a62c78c2dc45100f"
+      ],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000151/B002",
+          "facet_id": "F001",
+          "branch_gloss": "bir şeyi, özellikle iletiyi, hedefine ulaştırma",
+          "facet_statement": "Bir nesnenin veya içeriğin hedefe erişmesini sağlama temel işlemdir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "5:92:12:2"
+          ],
+          "trigger_refs": [
+            "5:106:4",
+            "5:106:46"
+          ],
+          "focus_return_refs": [
+            "5:92:12:2",
+            "5:92:13:2"
+          ],
+          "carrier": "5:92:12:2 odak yüzeyi; dalın bir şeyi, özellikle iletiyi, hedefine ulaştırma anlamı HFT rolünde Delivery of a message supplies the transmission event that the legal procedure analogically stress-tests.",
+          "independent_trigger": "Bağımsız tetikleyici 5:106:4, 5:106:46 konumundaki bağlam temasına dayanır; HFT rolü: Declaration grounded in knowledge supplies an accountable speech act.",
+          "activation": "Delivery of a message supplies the transmission event that the legal procedure analogically stress-tests. Bu ayrı taşıyıcı ve tetikleyici, odak ayetindeki yüzeyle temas ederek bulgunun değişmiş okumasını kurar.",
+          "resulting_reading": "Clear conveyance is an integrity-preserving relay: content must arrive without concealment or distortion, remain open to verification, and meet a hearer capable of understanding and compliance."
+        },
+        {
+          "branch_ref": "root_000170/B005",
+          "facet_id": "F001",
+          "branch_gloss": "anlamı açıkça ortaya koyma",
+          "facet_statement": "Çekirdek anlam, kastedilen anlamı açığa çıkarıp anlaşılır kılmadır.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "5:92:13:2"
+          ],
+          "trigger_refs": [
+            "5:106:4",
+            "5:106:46"
+          ],
+          "focus_return_refs": [
+            "5:92:12:2",
+            "5:92:13:2"
+          ],
+          "carrier": "5:92:13:2 odak yüzeyi; dalın anlamı açıkça ortaya koyma anlamı HFT rolünde Making meaning known by speech or sign supplies the clarity that must remain inspectable.",
+          "independent_trigger": "Bağımsız tetikleyici 5:106:4, 5:106:46 konumundaki bağlam temasına dayanır; HFT rolü: Declaration grounded in knowledge supplies an accountable speech act.",
+          "activation": "Making meaning known by speech or sign supplies the clarity that must remain inspectable. Bu ayrı taşıyıcı ve tetikleyici, odak ayetindeki yüzeyle temas ederek bulgunun değişmiş okumasını kurar.",
+          "resulting_reading": "Clear conveyance is an integrity-preserving relay: content must arrive without concealment or distortion, remain open to verification, and meet a hearer capable of understanding and compliance."
+        },
+        {
+          "branch_ref": "root_000822/B002",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "5:106:4",
+            "5:106:46"
+          ],
+          "trigger_refs": [
+            "5:92:12:2",
+            "5:92:13:2"
+          ],
+          "focus_return_refs": [
+            "5:92:12:2",
+            "5:92:13:2"
+          ],
+          "carrier": "HFT izinin 5:106 ayetindeki 5:106:4, 5:106:46 konumu; kayıtlı rolü: Declaration grounded in knowledge supplies an accountable speech act.",
+          "independent_trigger": "Bağımsız tetikleyici odaktaki 5:92:12:2, 5:92:13:2 dönüşüdür; bu odak teması, bağlam rolünün sorumluluk alanını belirler.",
+          "activation": "Declaration grounded in knowledge supplies an accountable speech act. Bu ayrı taşıyıcı ve tetikleyici, odak ayetindeki yüzeyle temas ederek bulgunun değişmiş okumasını kurar.",
+          "resulting_reading": "Clear conveyance is an integrity-preserving relay: content must arrive without concealment or distortion, remain open to verification, and meet a hearer capable of understanding and compliance."
+        },
+        {
+          "branch_ref": "root_001284/B001",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "5:106:45"
+          ],
+          "trigger_refs": [
+            "5:92:12:2",
+            "5:92:13:2"
+          ],
+          "focus_return_refs": [
+            "5:92:12:2",
+            "5:92:13:2"
+          ],
+          "carrier": "HFT izinin 5:106 ayetindeki 5:106:45 konumu; kayıtlı rolü: Concealment names the principal integrity failure in transmission.",
+          "independent_trigger": "Bağımsız tetikleyici odaktaki 5:92:12:2, 5:92:13:2 dönüşüdür; bu odak teması, bağlam rolünün sorumluluk alanını belirler.",
+          "activation": "Concealment names the principal integrity failure in transmission. Bu ayrı taşıyıcı ve tetikleyici, odak ayetindeki yüzeyle temas ederek bulgunun değişmiş okumasını kurar.",
+          "resulting_reading": "Clear conveyance is an integrity-preserving relay: content must arrive without concealment or distortion, remain open to verification, and meet a hearer capable of understanding and compliance."
+        },
+        {
+          "branch_ref": "root_000982/B001",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "5:107:2"
+          ],
+          "trigger_refs": [
+            "5:92:12:2",
+            "5:92:13:2"
+          ],
+          "focus_return_refs": [
+            "5:92:12:2",
+            "5:92:13:2"
+          ],
+          "carrier": "HFT izinin 5:107 ayetindeki 5:107:2 konumu; kayıtlı rolü: Discovery of what was hidden supplies an audit trigger.",
+          "independent_trigger": "Bağımsız tetikleyici odaktaki 5:92:12:2, 5:92:13:2 dönüşüdür; bu odak teması, bağlam rolünün sorumluluk alanını belirler.",
+          "activation": "Discovery of what was hidden supplies an audit trigger. Bu ayrı taşıyıcı ve tetikleyici, odak ayetindeki yüzeyle temas ederek bulgunun değişmiş okumasını kurar.",
+          "resulting_reading": "Clear conveyance is an integrity-preserving relay: content must arrive without concealment or distortion, remain open to verification, and meet a hearer capable of understanding and compliance."
+        },
+        {
+          "branch_ref": "root_000347/B005",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "5:107:5",
+            "5:107:12",
+            "5:107:18"
+          ],
+          "trigger_refs": [
+            "5:92:12:2",
+            "5:92:13:2"
+          ],
+          "focus_return_refs": [
+            "5:92:12:2",
+            "5:92:13:2"
+          ],
+          "carrier": "HFT izinin 5:107 ayetindeki 5:107:5, 5:107:12, 5:107:18 konumu; kayıtlı rolü: Establishing and exposing the right supplies the corrective purpose of replacement testimony.",
+          "independent_trigger": "Bağımsız tetikleyici odaktaki 5:92:12:2, 5:92:13:2 dönüşüdür; bu odak teması, bağlam rolünün sorumluluk alanını belirler.",
+          "activation": "Establishing and exposing the right supplies the corrective purpose of replacement testimony. Bu ayrı taşıyıcı ve tetikleyici, odak ayetindeki yüzeyle temas ederek bulgunun değişmiş okumasını kurar.",
+          "resulting_reading": "Clear conveyance is an integrity-preserving relay: content must arrive without concealment or distortion, remain open to verification, and meet a hearer capable of understanding and compliance."
+        },
+        {
+          "branch_ref": "root_001630/B008",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "5:108:7"
+          ],
+          "trigger_refs": [
+            "5:92:12:2",
+            "5:92:13:2"
+          ],
+          "focus_return_refs": [
+            "5:92:12:2",
+            "5:92:13:2"
+          ],
+          "carrier": "HFT izinin 5:108 ayetindeki 5:108:7 konumu; kayıtlı rolü: The proper face or sound aspect of a matter supplies fidelity of presentation.",
+          "independent_trigger": "Bağımsız tetikleyici odaktaki 5:92:12:2, 5:92:13:2 dönüşüdür; bu odak teması, bağlam rolünün sorumluluk alanını belirler.",
+          "activation": "The proper face or sound aspect of a matter supplies fidelity of presentation. Bu ayrı taşıyıcı ve tetikleyici, odak ayetindeki yüzeyle temas ederek bulgunun değişmiş okumasını kurar.",
+          "resulting_reading": "Clear conveyance is an integrity-preserving relay: content must arrive without concealment or distortion, remain open to verification, and meet a hearer capable of understanding and compliance."
+        },
+        {
+          "branch_ref": "root_000555/B003",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "5:108:11"
+          ],
+          "trigger_refs": [
+            "5:92:12:2",
+            "5:92:13:2"
+          ],
+          "focus_return_refs": [
+            "5:92:12:2",
+            "5:92:13:2"
+          ],
+          "carrier": "HFT izinin 5:108 ayetindeki 5:108:11 konumu; kayıtlı rolü: Rejection or return of a defective claim supplies a procedural check against false acceptance.",
+          "independent_trigger": "Bağımsız tetikleyici odaktaki 5:92:12:2, 5:92:13:2 dönüşüdür; bu odak teması, bağlam rolünün sorumluluk alanını belirler.",
+          "activation": "Rejection or return of a defective claim supplies a procedural check against false acceptance. Bu ayrı taşıyıcı ve tetikleyici, odak ayetindeki yüzeyle temas ederek bulgunun değişmiş okumasını kurar.",
+          "resulting_reading": "Clear conveyance is an integrity-preserving relay: content must arrive without concealment or distortion, remain open to verification, and meet a hearer capable of understanding and compliance."
+        },
+        {
+          "branch_ref": "root_000741/B003",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "5:108:17"
+          ],
+          "trigger_refs": [
+            "5:92:12:2",
+            "5:92:13:2"
+          ],
+          "focus_return_refs": [
+            "5:92:12:2",
+            "5:92:13:2"
+          ],
+          "carrier": "HFT izinin 5:108 ayetindeki 5:108:17 konumu; kayıtlı rolü: Hearing as understanding and compliance supplies the recipient-side completion of transmission.",
+          "independent_trigger": "Bağımsız tetikleyici odaktaki 5:92:12:2, 5:92:13:2 dönüşüdür; bu odak teması, bağlam rolünün sorumluluk alanını belirler.",
+          "activation": "Hearing as understanding and compliance supplies the recipient-side completion of transmission. Bu ayrı taşıyıcı ve tetikleyici, odak ayetindeki yüzeyle temas ederek bulgunun değişmiş okumasını kurar.",
+          "resulting_reading": "Clear conveyance is an integrity-preserving relay: content must arrive without concealment or distortion, remain open to verification, and meet a hearer capable of understanding and compliance."
+        }
+      ],
+      "connection_refs": [
+        "conn_2a7e527358e8fd19b47a",
+        "conn_43cecb1f7cb8a50f26ac",
+        "conn_bf2733484c4e0f12264d"
+      ],
+      "context_refs": [
+        "5:106",
+        "5:107",
+        "5:108"
+      ],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "macro:fatiha-worship-response",
+      "origin_candidate_id": null,
+      "represented_candidate_ids": [],
+      "title": "Kulluğun açtığı gönüllü itaat yönü",
+      "claim": "Fâtiha 1:5teki yalnız Allaha kulluk ve yalnız Ondan yardım isteme, 5:92de iki kez emredilen itaati gönüllü bir yöneliş ve yardım arayan kulluk cevabı olarak derinleştirir.",
+      "mechanism": "5:92:1:2 ve 5:92:3:2deki طوع taşıyıcısı, 1:5:2deki kulluk ve 1:5:4teki yardım isteme ile temas eder; bu dış overlay itaati yalnız bir emrin duyulması değil, Allaha yönelen bir karşılık olarak görünür kılar.",
+      "reader_payoff": "İlk itaat buyruğunun ilişki yönü, Fâtiha duasındaki kulluk ve yardım isteme diliyle daha elle tutulur hale gelir.",
+      "containment": "5:92nin Allaha ve elçiye itaat buyruğu aynen korunur. 1:5 yalnızca odaktaki itaat yüzeyinin Allaha yönelen iç karşılığını aydınlatır; elçiye ilişkin özel görevi veya bütün Fâtiha mimarisini 5:92ye taşımaz.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": [],
+        "reason": "1:5in dış ayet yüzeyi ve odaktaki kabul edilmiş طوع dalı packet içinde supplied; aralarındaki anlam ilişkisi yerel bir overlay olarak yazarlı bir yorumdur ve kapsamı sınırlandırılmıştır."
+      },
+      "support_ids": [],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000956/B001",
+          "facet_id": "F001",
+          "branch_gloss": "zorlanmadan boyun eğme ve kolay yönlenme",
+          "facet_statement": "Bir taraf zorlamanın tersine isteyerek ya da direnç göstermeden başka bir yöneltmeye uyar.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "5:92:1:2",
+            "5:92:3:2"
+          ],
+          "trigger_refs": [
+            "1:5:2",
+            "1:5:4"
+          ],
+          "focus_return_refs": [
+            "5:92:1:2",
+            "5:92:3:2"
+          ],
+          "carrier": "Odaktaki iki أطيعوا yüzeyi, zorlamaya karşı isteyerek uyma ve kolay yönlenme anlamını taşır.",
+          "independent_trigger": "1:5:2deki نَعْبُدُ ve 1:5:4teki نَسْتَعِينُ, yalnız Allaha yönelen kulluk ve yardım isteme hareketini sağlar.",
+          "activation": "Fâtiha duasının tekil yönelişi, odaktaki çoğul itaat buyruğuna ayrı bir iç cevap ve yardım ilişkisi kazandırır.",
+          "resulting_reading": "İtaat, Allaha yönelen kulluk ve yardım isteme içinde gönüllü bir karşılık olarak belirginleşir; elçiye itaat bu yönelişin iletilmiş buyruğa açılan yüzüdür.",
+          "boundary": "Birincil itaat emri korunur; overlay yalnız 1:5teki kulluk ve yardım temasını odaktaki طوع yüzeyine bağlar ve Fâtiha dışındaki genel temaları taşımaz."
+        }
+      ],
+      "connection_refs": [],
+      "context_refs": [
+        "1:5"
+      ],
+      "semantic_obligation_refs": []
+    }
+  ],
+  "friction_notes": [
+    "HFT okuyucu kimliği legacy_unbound ve bağlam dallarının tamamı registry: unresolved olduğundan bu dallar için gloss veya facet üretilmedi; rolleri attributed olarak korundu.",
+    "Fâtiha overlayi yalnız 1:5te odaktaki طوع yüzeyiyle somut temas kuran bounded finding olarak tutuldu; dış ayetlerin genel temasları yerel bulguların yerine geçirilmedi."
+  ]
+}

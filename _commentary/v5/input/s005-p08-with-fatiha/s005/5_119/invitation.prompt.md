@@ -1,0 +1,207 @@
+# V5 reading invitation — 5:119
+
+You are a fresh reading-invitation writer. Read the complete editorial prose
+before writing. It is your sole semantic source.
+
+Write two to four paragraphs of fluent, contemporary Turkish that reveal a
+surprising reading by following one or two main channels of resonance in the
+ayah. A channel is a connected background of meanings, images, actions, or
+relations through which the ayah can be heard and understood differently.
+Several editorial findings may together develop one channel. Summarize that
+connected movement and its consequence for the ayah's main meaning, rather
+than compressing findings individually. Give the reading's substance now;
+the invitation comes from understanding it, not from a promise of hidden depth.
+
+Before drafting, read the entire editorial prose and silently select the one
+or two channels with the strongest interpretive consequence and enough
+grounding to explain clearly. Favor channels that expand or shift what the
+ayah says, the relation it establishes, or what is at stake in its action or
+image. One fully developed channel is sufficient; add a second only when it
+offers a distinct consequential reading that can be explained within the
+invitation. No finding, channel, or major shift has an individual coverage
+claim. Unselected material may remain entirely in the full commentary.
+
+A channel may develop through grammar, sound, dialogue, a material process,
+time, imagery, or a conceptual relation. Resonance is not limited to acoustic
+effects, and an unusual image alone does not establish a channel. Use only
+connections the editorial prose actually develops. If it supplies no such
+channel, explain its strongest grounded reading without inventing connections
+or surprise.
+
+Begin inside the ayah's own words, images, actions, or relations and reveal a
+selected distinctive reading in the first paragraph. Keep the plain meaning
+reachable with only the orientation needed to understand the change. Do not
+spend an opening paragraph on routine explanation or front-load context about
+the surah, the ayah's position, or the commentary project.
+
+For each selected channel, begin with the expression that opens it, unfold the
+connected background, and show how the ayah reads or sounds against that
+background. Let a detail lead into the next through an intelligible relation
+or process, so the reader experiences the emerging reading. This is a movement
+of thought, not a mandatory sentence pattern or one paragraph per finding.
+Let the reader identify the expression being interpreted,
+where any nonordinary detail comes from, and what that detail changes in the
+reading. Briefly identify the word-family use, restricted form, collocation, or
+context that supplies an essential added detail, and preserve the concrete
+operation that makes the image work. Keep the ordinary reading and necessary
+qualification clear within this explanation; do not repeat them as a fixed
+formula. Preserve the particular object, process, or relation that makes this
+reading distinctive, and state its interpretive consequence for the ayah as a
+whole. Make intelligible what the familiar reading leaves less visible and
+what the expanded or shifted reading now lets the reader understand. Preserve
+the editorial's force: an exploratory possibility remains possible, while a
+developed shift must not be softened into a decorative association or a
+reassurance that everything means the same thing. A concrete
+account of how something is carried, transformed, lost, or restored must not
+shrink to a general statement about care, guidance, dependence, or goodness.
+Keep the details needed to make the selected channel work; omit side findings
+and shorten routine setup. If a channel cannot be explained faithfully from
+the editorial prose, choose another grounded channel or reading.
+
+When a non-focus ayah supplies a contribution used in the invitation, keep its
+reference from the editorial prose beside that contribution.
+
+Do not turn the invitation into a miniature inventory of the commentary's
+conclusions, or flatten distinct channels into a broad theme to include more
+material. Do not repair, extend, or supplement the editorial prose from memory
+or outside knowledge.
+
+Omit technical apparatus. Retain any qualification, source distinction, live
+alternative, or boundary whose absence would change the force or meaning of a
+chosen reading. Express it naturally beside the image or relation it qualifies.
+Favor positive explanations of the relation between layers: what remains in
+the foreground and what the resonance makes audible in the background. State
+how that background reinforces, expands, or shifts the understanding of the
+main meaning, with the source and degree of certainty clear. Reserve explicit
+exclusions for concrete ambiguities or live counter-evidence that need them.
+Repeated "this is not X" endings make a reading sound withdrawn; express the
+substantive qualification through what the reading does contribute wherever
+possible. Use varied, natural language rather than a repeated "second layer"
+formula, and preserve the force of expansions and shifts.
+Do not name branches, candidates, findings, scopes, evidence categories,
+ledgers, or workflow stages, or label the prose as numbered channels. Do not
+list findings serially.
+
+Use the established `{ar:..., tr:..., gloss:...}` syntax, consistent
+Turkish-readable transliteration, and short ordinary glosses. Keep Arabic
+anchors beside the explanations they ground. Within a paragraph, continue with
+the Turkish meaning where clear; provide the necessary local tag when a later
+paragraph interprets the carrier anew. Do not place Arabic script outside a
+valid tag.
+
+Build transitions within a channel through its shared object, action, or
+relation. If two channels are selected, they may occupy separate paragraphs;
+do not invent a link between them. Do not praise the commentary's quality,
+promise what the reader will find, manufacture suspense, recap at the end, or
+add a call to action. End on an image, relation, action, or tension already
+established by the selected reading.
+
+Before finishing, compare the invitation with the entire editorial prose:
+does the chosen channel reveal a consequential reading, or could the text have
+been written from the ordinary translation and a modest explanation alone?
+When the editorial supports a surprising channel, the latter fails this task.
+Can the reader follow the opening expression into a connected background and
+understand how that background expands or shifts the ayah's main meaning?
+Check the selected connections against their editorial explanation: can the
+reader tell where the nonordinary details come from, with the necessary
+qualifications intact? Repair generic explanation, isolated curiosities, or a
+compressed findings list by developing the selected channel. Do not add
+omitted channels merely for coverage. Do not output this check.
+
+Write only the invitation text to:
+
+`_commentary/v5/editorial/s005-p08-with-fatiha/s005/5_119/5_119.invitation.tr.md`
+
+Do not add a heading, wrapper label, index, ledger, evidence file, or any other
+artifact. Do not modify the editorial prose.
+
+After writing the invitation, run:
+
+```bash
+python3 _commentary/v5/validate_prose.py _commentary/v5/editorial/s005-p08-with-fatiha/s005/5_119/5_119.invitation.tr.md
+```
+
+If validation fails, repair only the reported mechanical file-contract issues
+and rerun it, for at most two repair cycles. Report the final validator result
+in your response.
+
+<editorial_prose>
+Bu ayet, hükmün açıklandığı anda doğruluğun neye dönüştüğünü gösterir: Allah doğrulara, doğruluklarının yarar verdiği günü bildirir; onlar için altlarından ırmaklar akan bahçeler vardır ve orada sonsuza dek kalırlar. Allah onlardan hoşnut olmuş, onlar da O'ndan hoşnut olmuşlardır. Son söz, bütün bu karşılığı büyük başarı diye adlandırır.
+
+## Hükmün Açıldığı Gün
+
+Sözün ilk fiili {ar:قَالَ, tr:qāla, gloss:diyecek} ile gelir. Bu açılış, önceki sahnede açık kalan hüküm sorusuna (5:118) verilen cevabı öne çıkarır. Biçimi geçmiş zaman görünümünde olsa da anlatıdaki gelecekteki cevabı gerçekleşmiş bir söz gibi duyurur; beklenen hüküm ihtimal olarak beklemez, söylenmiş ve kesinleşmiş bir cevap halinde gelir.
+
+Bu sözü söyleyen {ar:ٱللَّهُ, tr:Allah, gloss:Allah} adıyla belirlenir. Adın söz fiilinden sonra ve gün bildiren kelimeden önce gelişi, önce hükmün sahibini sabitler, ardından hükmün zamanını açar. {ar:هَٰذَا, tr:hādhā, gloss:bu} işareti cevabı yakınlaştırır: talep, cevap ve hüküm arasında soyut bir ilke değil, muhatapların önünde belirlenen somut bir karşılaşma vardır.
+
+{ar:يَوْمُ, tr:yawmu, gloss:gün} sözü bu karşılaşmanın zamanını kurar. Biçimi onu yalnız fiile eklenmiş bir zaman zarfı olmaktan çıkarıp "bu, ... günüdür" diye kurulan hükmün adı haline getirir; yarar ve sonraki karşılıklar bu güne bağlanır. Yakın sahnede elçilerin toplanıp sorgulanması (5:109), ardından ceza ve bağışlama ihtimallerinin açık bırakılması (5:118), günün kritik bir hüküm zamanı olduğunu duyurur. 23:111'de sabırla kazanılan karşılık, 32:28'de hüküm gününün öne çekilmesi ve 32:29'da aynı günün artık yarar sağlamayan bir eşik olarak çizilmesi bu vurguyu farklı yönlerden sınar. Bu temaslar günün takvimini değil, doğruluğun belirleyici anda karşılık bulduğu eşiği aydınlatır; günün ne zaman başlayacağı bu bağlantının kapsamı dışında kalır.
+
+Bu karar anında {ar:يَنفَعُ, tr:yenfeu, gloss:fayda verir} fiili yararın niteliğini açıklar. Yarar, maddi kazancın ötesinde, kişiyi zarardan uzaklaştırıp iyi sonuca ulaştıran etkili karşılıktır. Fiilin yöneldiği topluluk {ar:ٱلصَّٰدِقِينَ, tr:sâdıkîn, gloss:doğrular} ile çoğul olarak gösterilir; sonuç tek bir örneğe değil, doğrulukla nitelenen topluluğa bağlanır. Bu ayette yarar, doğrulara açılan ve hüküm gününde etkisini gösteren sonuçtur; kapsamı bu belirli karşılıkla sınırlıdır, genel bir talih veya her durumda işleyen dünyevi kural olarak sunulmaz.
+
+Yararın taşıyıcısı ise {ar:صِدْقُهُمْ, tr:sıdkuhum, gloss:doğrulukları}dır. Cümle, yararın doğruların kendilerinden çok onların doğruluğundan doğduğunu söyler; sondaki zamir bu niteliği aynı topluluğa bağlar. Sıdkın sözün gerçekle, kişinin iç yönelişiyle ve davranışıyla uyuşan yüzleri burada birlikte duyulur. Verilen sözün tutulması ve eylemle doğrulanması, doğruluğu yalnız içte duran bir sıfat olmaktan çıkarıp o gün yarar üreten görünür bir bütünlük haline getirir. Söz, iç yöneliş ve eylem aynı doğrulukta buluşur; bu bütünlük hüküm gününde yarar olarak görünür ve bahçe vaadinin nasıl gerçekleştiğini aydınlatır. Buradaki bağ, bahçe vaadinin yerine geçen yeni bir hüküm değil, ayetin kendi cümlesinde kurulan sonuç ilişkisidir.
+
+Ardından gelen {ar:لَهُمْ, tr:lehum, gloss:onlar için} ifadesi karşılığın kime tahsis edildiğini bahçelerden önce bildirir. Soyut yarar belirli doğruların payına dönüşür; bu erken yerleşim, sonraki nimetin muhatabını baştan açık eder. Buradaki tahsis, ayrıntılı bir mülkiyet kuralı kurmaktan çok, hükmün doğrular lehine işlediğini ve bahçelerin bu topluluğa sunulan karşılık olduğunu belirtir.
+
+## Bahçenin Altındaki Akış
+
+{ar:جَنَّٰتٌ, tr:jannātun, gloss:bahçeler} çoğul biçimi, doğruluğun karşılığını tek bir paya değil, yaşanabilir birden çok bahçe çevresine açar. Kelimenin olağan bahçe anlamı, ağaçlarla kaplı bu yaşam çevresini kurar; ayrıntılı niteliği hemen ardından gelen akış cümlesi belirler. Sağlanan diğer kullanım yüzlerinde görülen örtme, hayatın korunmasını; tehlikeye karşı siper olan donanım ise güvenlik ve korunaklılığı öne çıkarır. Bu üç katkı, koruma, sınır, dokunulmazlık ve geçim temalarını taşıyan yakın bağlamla (5:96, 5:97) birleştiğinde, iyiliğin korunarak sürdüğü bir yaşam alanını görünür kılar. Bu bağlantıda bahçe hukuki bir kutsal alanla özdeşleşmez; öne çıkan nitelik, yaşamı koruyan çevredir.
+
+Bahçenin canlılığını {ar:تَجْرِى, tr:tajrī, gloss:akar} fiili gösterir. Ödül durağan bir görüntü olarak kalmaz; içinde sürekli hareket eden bir nimet vardır. Fiilin bahçelere bağlanması, akışı vaat edilen mekânda işleyen bir süreklilik olarak kurar. {ar:مِن, tr:min, gloss:-den} edatı akışın çıkış yönünü belirler. Bu bağ, suyu ayrı ya da sonradan eklenmiş bir unsur değil, bu yaşam çevresinin düzeni içinde başlayan hareket olarak gösterir.
+
+Bu yönü {ar:تَحْتِهَا, tr:taḥtihā, gloss:altlarından} ifadesi somutlaştırır. Akış bahçelerin altındaki zemine, ağaçların örttüğü kök bölgesine yerleşir; zamirin bahçelere dönüşü, akışı bu mekânın içine yerleştirir. {ar:ٱلْأَنْهَٰرُ, tr:el-enhâr, gloss:ırmaklar} kelimesinin çoğulu, bahçeyi besleyen birden çok taşıyıcı ve belirgin yataklar resmi açar; akış cümlesindeki özne oluşu zenginliği doğrudan su yollarına bağlar. Böylece bahçenin altındaki akış, süs değil, nimet alanının canlılığını ve devamını taşıyan somut düzendir.
+
+Bu düzen, rızkın nasıl bir biçim aldığı sorusunu açar. 5:114'te topluluk {ar:أَنزِلْ, tr:enzil, gloss:indir} diyerek {ar:مَائِدَةً, tr:mâide, gloss:sofra}yı {ar:ٱلسَّمَآءِ, tr:es-semâ, gloss:gök}ten aşağıya gelen, hem besleyen hem de doğrulanmaya konu olan sınırlı bir nesne olarak ister. Bu üç ayrıntı rızkın üstten tek seferlik teslim yüzünü kurar. 5:119'da ise {ar:تَحْتِهَا, tr:taḥtihā, gloss:altlarından} konumu ile {ar:تَجْرِى, tr:tajrī, gloss:akar} fiili ve {ar:ٱلْأَنْهَٰرُ, tr:el-enhâr, gloss:ırmaklar} çoğulu, aşağıda süreklilik taşıyan hareket yüzünü birlikte kurar. Yukarıdan inen tekil teslim ile aşağıda süren akış yan yana geldiğinde rızık, bir kez sunulan nesneden yaşam çevresinde dolaşan devamlı geçim düzenine doğru genişler. Bu karşılaştırma, 5:114'teki sofrayı ırmakların fiziksel kaynağına dönüştürmez; iki ayet arasındaki bağ rızık imgesinin yönü ve süresindedir.
+
+Bu uzamsal değişimin yanında 5:113 ve 5:114'teki istekler, rızık imgesine doğrulama, kalp güveni, tanıklık, işaret ve besleyici pay katkılarını birlikte getirir. Topluluk {ar:صَدَقْتَنَا, tr:sadaktenâ, gloss:bize doğru söylediğini} diyerek sözün doğru çıktığını görmek, {ar:تَطْمَئِنَّ قُلُوبُنَا, tr:tatmainne kulûbunâ, gloss:kalplerimiz yatışsın} diyerek güven kazanmak ve {ar:ٱلشَّٰهِدِينَ, tr:eş-şâhidîn, gloss:şahitler} arasında bulunmak ister. Ardından {ar:وَءَايَةً, tr:ve âyeten, gloss:bir işaret} görünür işareti, {ar:وَٱرْزُقْنَا, tr:verzuknâ, gloss:bize rızık ver} ise besleyici payı taşır. Odaktaki {ar:يَنفَعُ, tr:yenfeu, gloss:fayda verir} fiili bu beklentilerin hükümdeki olumlu karşılığını doğrudan {ar:ٱلصَّٰدِقِينَ, tr:sâdıkîn, gloss:doğrular}ın {ar:صِدْقُهُمْ, tr:sıdkuhum, gloss:doğrulukları}na bağlar. Dışarıdan beklenen doğrulama ve rızık, burada doğruluğun kendi içinde taşıdığı yarar ile bahçe ve akış düzeninde karşılık bulur. {ar:مَائِدَةً, tr:mâide, gloss:sofra} bu hareket içinde hem besleyen nesne hem de doğrulanması beklenen işaret olarak iki ayrı rolünü korur. Bu özel bağlantı sofrayı yararla özdeşleştirmez; dış kanıt ihtiyacını da her bağlam için kaldırmaz.
+
+Akışın bahçe altında kurulması, ödülün yalnız yüzeyde görünen bir resim olmadığını açar. {ar:جَنَّٰتٌ, tr:jannātun, gloss:bahçeler} yaşam çevresini, {ar:تَحْتِهَا, tr:taḥtihā, gloss:altlarından} ile kurulan mekânsal temas ise bu çevrenin altında ilerleyen kök besleyici taşıyıcıyı görünür kılar. Su, bahçenin altında ilerleyerek yaşanabilirliğin sürmesine katkıda bulunur. Bu somut resimde bahçenin çevre, akışın da onu besleyen devamlılık taşıyıcısı olması birlikte görünür.
+
+## Kalıcılık Ve Yerleşme
+
+Suyun canlı hareketi, insanın o çevredeki duruşuna geçer. {ar:خَٰلِدِينَ, tr:hâlidîn, gloss:kalıcı olarak kalanlar} sözü bahçeden yararlanmanın geçici bir konaklama olmadığını bildirir; çoğul biçim bu kalıcılığı doğrular topluluğuna bağlar. {ar:فِيهَا, tr:fîhâ, gloss:orada} ise kalmanın soyut bir bekleyiş değil, bahçelerin içinde yaşanan bir ikamet olduğunu gösterir. İç-mekân ifadesi ödül ile yerleşme arasındaki bağı kurar ve zamirin bahçelere dönmesi ikamet yerini bu ayetin kurduğu alanla sınırlar.
+
+Bu ikametin zamanını {ar:أَبَدًا, tr:ebeden, gloss:sonsuza dek} tamamlar. Ölçülmüş bir dönem değil, sonu ve tükenişi bulunmayan bir zaman ufku açılır. {ar:خَٰلِدِينَ, tr:hâlidîn, gloss:kalıcı olarak kalanlar} ile {ar:أَبَدًا, tr:ebeden, gloss:sonsuza dek} birlikte düşünüldüğünde sonsuzluk yalnız uzayan bir takvim değildir; akışla beslenen, sakinlerinin ayrılmadan içinde kaldığı güvenli bir yerleşikliktir. Akış hayatın devamını, bitişsiz zaman da bu hayatın kesintiye uğramamasını taşır.
+
+Bu yerleşiklik, sonucu bildirilen nimet ile onun açıklanmamış ayrıntıları arasındaki sınırı da gösterir. 5:109'daki {ar:ٱلْغُيُوبِ, tr:el-guyûb, gloss:görünmeyen alanlar} duyulara kapalı alanı, {ar:جَنَّٰتٌ, tr:jannātun, gloss:bahçeler} ise ağaçlarla örtülü ve yaşanabilir çevreyi kurar. Örtme yüzü bu iki kelimeyle temas ettiğinde bahçe, hüküm sahnesinde sonucu bildirilen fakat bütün ayrıntıları açılmayan bir nimet çevresi gibi sezilir. Bu özel temas bahçeyi görünmeyen alanın kendisi olarak adlandırmaz; açıklık, sonucu bilinen ve ayrıntısı örtülü bir yaşam çevresi yönündedir.
+
+## Doğruluğun Sınandığı Alan
+
+Bahçe ve akışla kurulan karşılığın doğruluk zemini, önce cevap verme ve hakka uygun konuşma ölçülerinde belirir. Konuşma dizisinde elçiler kendilerine hangi cevabın verildiği sorusuyla karşılaşır (5:109); {ar:أُجِبْتُمْ, tr:ucibtüm, gloss:size ne cevap verildi} ifadesi cevap alma yönünü kurarak 5:119'daki {ar:ٱلصَّٰدِقِينَ, tr:sâdıkîn, gloss:doğrular} için hesap verme zeminini açar. İsa'nın kendisine ait olmayan sözü üstlenmemesi ve hakka uygunluk sınırı (5:116), {ar:بِحَقٍّ, tr:bi-hakk, gloss:hakka ve gerçeğe uygun} ifadesinde odaktaki doğruluğun söz yüzünü belirler. Böylece doğruluk gerçeğe uygun söz olma anlamını korur; aynı zamanda kişinin bilgi ve söyleme yetkisi içinde kalması görünür olur.
+
+Bu sınır bilgi ile tanıklığın ayrıldığı yerde belirginleşir. 5:116'daki {ar:عَلِمْتَهُۥ, tr:alimtehû, gloss:onu bildin}, {ar:تَعْلَمُ, tr:ta'lemu, gloss:biliyorsun} ve {ar:أَعْلَمُ, tr:a'lemu, gloss:bilmiyorum} biçimleri ilahi bilgi ile kişinin kendi bilgisini ayırır; {ar:بِحَقٍّ, tr:bi-hakk, gloss:hakka ve gerçeğe uygun} bu ayrım içinde doğru sözün hakka uygun kurulmasını sağlar. 5:109'daki {ar:ٱلْغُيُوبِ, tr:el-guyûb, gloss:görünmeyen alanlar} sınırı bu doğruluğun alanını belirler: söz bilinen içinde kurulur, bilinmeyen doldurulmaz. 5:117'deki tanıklık ve gözetim rolleri bu ölçünün zaman ve kapsamını tamamlar. {ar:شَهِيدًا, tr:şehîden, gloss:gözleyerek şahit olan} insanın bulunduğu döneme ait tanıklığı, {ar:شَهِيدٌ, tr:şehîd, gloss:her şeye şahit olan} onu aşan kuşatıcı şahitliği, {ar:ٱلرَّقِيبُ, tr:er-Rakîb, gloss:sürekli gözeten} ise insan tanıklığının bittiği yerde süren ilahi gözetimi taşır. {ar:تَوَفَّيْتَنِي, tr:teveffeytenî, gloss:canımı aldığında} ifadesi tanığın hazır bulunduğu dönemi kapatan eşiği belirler. Bu okuma 5:119'daki doğruluğu erişilebilir bilgi, söyleme hakkı ve gözlenen dönem içinde tutar; 5:116 ve 5:117'deki sahne, İsa'nın kendi sorgusuna verilen cevap olarak da açık kalırken, bu bağlantı ayrıca verilmemiş bir konuşma teorisine veya ölüm sonrası ayrıntıya çevrilmez.
+
+Doğruluğun sözden eyleme geçişi, yemin ve onarım bağlamında (5:89) bedensel ve toplumsal bir biçim alır. Boş ve hesaba katılmayan söz, bağlayıcı yeminden ayrılır; yemin bozulduğunda on kişiyi doyurma, giydirme veya bir boynu özgürleştirme yolları açılır. Doyurma ve giydirme bedenin, özgür bırakma kişinin, yemini koruma emri ise ilişkinin onarımına katkı verir. Bu hareket, {ar:صِدْقُهُمْ, tr:sıdkuhum, gloss:doğrulukları} için açılan sözün gerçekleştirilmesi yüzünü {ar:يَنفَعُ, tr:yenfeu, gloss:fayda verir}in olumlu sonucu ile buluşturur: tutulan söz somut yarar doğurur. Bu bağlantı odaktaki doğruluğu 5:89'un yemin hükmüne indirgemez; yemin kefaretinin kendi anlamı korunur.
+
+Aynı bütünlük, görünür beyan ile gizli tercih arasındaki sınamada (5:94, 5:99) sınanır. 5:94'te ele ve mızrağa ulaşabilecek av kolayca erişilen fırsatı, korku ve gizli niyet ise insan gözetimi olmadan verilen kararın ağırlığını taşır. 5:99'daki açığa çıkarılan ile saklanan ayrımı, beyan ile iç tercih arasındaki gerilimi tamamlar. {ar:ٱلصَّٰدِقِينَ, tr:sâdıkîn, gloss:doğrular} ve {ar:صِدْقُهُمْ, tr:sıdkuhum, gloss:doğrulukları} bu temas içinde seyirciler önündeki doğru cümlenin ötesinde, kimse görmezken seçimin beyanla uyuştuğu bölünmez bütünlüğü düşündürür. Avlanma düzeninin olağan hükmü korunur; bu bağlantıda odaktaki doğruluğun gerçek fırsat karşısında da aynı kalması öne çıkar.
+
+Doğruluk ilk izlenimle de kapanmaz. Bilgiye dayalı tanıklık başlangıç ölçüsünü, gizli durumun açığa çıkarılması keşif boyutunu, ilk tanıklara karşı başka tanıkların getirilmesi düzeltme imkânını, doğru tarafın belirlenmesi hüküm yönünü, reddedilen iddianın yeminlerle yeniden değerlendirilmesi ise gözden geçirme halkasını kurar (5:106, 5:107, 5:108). Bu halkalar {ar:ٱلصَّٰدِقِينَ, tr:sâdıkîn, gloss:doğrular}ın doğruluğunu kanıt ortaya çıktığında da gerçekle uyuşan bir uygunluk olarak belirginleştirir. Bu özel temas hukuki inceleme ile ahiret karşılığını aynılaştırmaz; ikisi, beyanın denetim altında sınanmasına ayrı işlevlerle temas eder.
+
+Ortak bir son sahne içinde bireysel karşılığın sınırını 5:105'teki sorumluluk uyarısı gösterir. Kişinin sapmasının doğru yolda olanı kendiliğinden zarara uğratmaması, herkesin dönüşünün ve toplanmasının Allah'a ait olması, yapılanların bildirilmesi ve kişinin kendi yaptığıyla karşılaşması bu sınırı kurar. Bu yüzden {ar:يَنفَعُ, tr:yenfeu, gloss:fayda verir} ile {ar:صِدْقُهُمْ, tr:sıdkuhum, gloss:doğrulukları} arasındaki sonuç kişiye ait bir karşılık olarak kalır: bahçeler ve karşılıklı hoşnutluk toplu bir son görünümü kursa da kimin doğruluğunun yarar doğurduğu karışmaz. Bu özel bağlantıda başkasının sapması bu payı başka birine taşımaz; ölçü 5:105'in sorumluluk uyarısından çıkar ve bağımsız bir doktrine genişletilmez.
+
+## Hoşnutluğun İki Yönü
+
+Bahçelerdeki kalışın ardından {ar:رَّضِىَ, tr:radıya, gloss:hoşnut oldu} fiili karşılığın ilahi kabulünü görünür kılar. Geçmiş zaman biçimi bu hoşnutluğu gerçekleşmiş ve tamamlanmış bir kabul olarak sunar; doğruların yalnızca bir ödül almadığını, ilahi değerlendirmede kabul edildiğini gösterir. Fiilin faili ikinci {ar:ٱللَّهُ, tr:Allah, gloss:Allah} adıyla açıkça belirlenir. İlk sözün sahibi ile sonraki hoşnutluk hükmünün faili aynı addır; kabul, hükmü veren öznenin değerlendirmesi olarak karşılığın içine yerleşir.
+
+Kabulün yönünü {ar:عَنْهُمْ, tr:anhum, gloss:onlardan} ifadesi belirler: hoşnutluk doğrular topluluğuna yönelir ve bahçe, kalıcılık, kabul aynı muhataplarda birleşir. İlk {ar:وَ, tr:ve, gloss:ve} bahçeleri ilahi hoşnutlukla aynı karşılık akışına bağlar. Ardından gelen ikinci {ar:وَ, tr:ve, gloss:ve}, Allah'ın onlardan hoşnut oluşu ile onların hoşnut oluşunu aynı cümle içinde karşılıklı bir düzene yerleştirir; böylece bağlayıcıların her biri kabul dizisinde ayrı bir bağlantı kurar.
+
+Bu ikinci yönde {ar:رَضُوا۟, tr:radû, gloss:hoşnut oldular} fiili doğruların gerçekleşmiş memnuniyetini, {ar:عَنْهُ, tr:anhu, gloss:O'ndan} ise bu memnuniyetin kaynağını gösterir. Onların hoşnutluğu yalnız nimetle yetinmek değil, Allah'a yönelen razı oluş ve belirli bir kabul ilişkisidir. İki fiilin yönelimi, ödülü yalnız sunulan ve alınan bir şey olmaktan çıkararak iki tarafın kabulüyle tamamlanan bir varış hali olarak duyurur. Bu özel bağlantı ilahi ve insanî hoşnutluğu aynı ölçüde veya aynı fail biçiminde işletmez; ayetin kurduğu iki yönlü ilişki yetki ve kapsam ayrımıyla açık kalır.
+
+5:118 ve 5:120'deki hüküm dili, bu hoşnutluğun karşılıkta nasıl sonuç doğuran bir kabul olduğunu açıklar. Cezalandırma ve bağışlama seçenekleri (5:118), {ar:تُعَذِّبْهُمْ, tr:tuazzibhum, gloss:onları cezalandırırsan} ve {ar:تَغْفِرْ لَهُمْ, tr:tağfir lehum, gloss:onları bağışlarsan} ifadeleriyle iki yönlü bir açıklık bırakır. {ar:ٱلْحَكِيمُ, tr:el-Hakîm, gloss:uygun hüküm veren hikmet sahibi} adı hükmün uygunluğunu, {ar:ٱلْعَزِيزُ, tr:el-Azîz, gloss:yürürlüğe koyabilecek üstün güç sahibi} adı ise hükmün yürürlüğe konabilir yetkisini taşır. Egemenlik ve etkin güç (5:120), {ar:مُلْكُ, tr:mülk, gloss:egemenlik alanı} ve {ar:قَدِيرٌ, tr:kadîr, gloss:etkin güç sahibi} ile bu kabulün sonuç doğuran ve yürürlüğe konan yönünü destekler. Bu bağlantıda hoşnutluk her bağlamda teknik bir hukuk terimi değildir; 5:118 ve 5:120 arasındaki hüküm çerçevesinde ceza ve bağışlama açıklığından sonra kurulan ilişki olarak kalır.
+
+Kulluk ilişkisi de bu kabulün yönünü belirginleştirir. 5:117'deki ibadet buyruğu, {ar:ٱعْبُدُوا۟, tr:u'budû, gloss:ibadet edin} ile {ar:ٱللَّهُ, tr:Allah, gloss:Allah} adını kendisine yönelinip ibadet edilen varlık olarak kurar. Bu yüzden 5:119'daki hoşnutluk, daha önce emredilmiş kulluk ilişkisinin olumlu kapanışı gibi görünür. Bu bağlantı Allah adının etimolojisini veya ayrıca verilmemiş başka bir ilah tasavvurunu ileri sürmez; ibadet buyruğu ile odaktaki konuşan ve hoşnut olan özne arasındaki ilişkiyle sınırlıdır.
+
+Doğruluk ile hoşnutluk birlikte duyulduğunda, doğru beyan kabul edilen bir bütünlüğe ulaşan söz olarak görünür; sonuç yalnızca kayda geçirilmiş doğru cümleyle sınırlı kalmaz. Sorgulama ve tanıklık çizgisi (5:116, 5:117, 5:118), mülkün Allah'a ait oluşuyla kapanan hüküm çerçevesiyle (5:120) birleşince bu bütünlüğü kurar. Doğruluğun Allah'ın hoşnutluğuna bağlanması (59:8), doğru sözlülerin doğruluklarından sorulması (33:24), doğrularla beraber olma çağrısı (9:119) ve Allah'ın müminlerden hoşnutluğu (48:18) bu bağı farklı bağlamlarda genişletir. Bu paraleller bu ayetin tek açıklaması sayılmaz; her biri gerçeğe uygun söz anlamını koruyarak güvenilir kabul ve beraberlik yönünü açar.
+
+Hoşnutluğun yerleşik bir beraberlik yönü, önce davrananlar ve onların izinden gidenler (9:100) ile Rablerinden hoşnut olan ve O'nun da kendilerinden hoşnut olduğu kimseler (98:8) üzerinden görünür. Allah'a ve elçisine karşı duranlarla sevgi ve kabul bağının kurulmaması (58:22) ise bu ilişkinin yön sınırını belirler. Böylece hoşnutluk içsel bir memnuniyetin ötesine geçip bahçe ve başarıyla birlikte anılan bir beraberlik niteliği kazanır. Bu özel bağlantıda ilahi ve insanî hoşnutluğun ölçüleri birbirine eşitlenmeden, ayetin karşılıklı kabulü kalıcı hayatın işleyişine bağlanır.
+
+## Büyük Başarıya Varış
+
+Sonuç cümlesi {ar:ذَٰلِكَ, tr:dhālika, gloss:işte budur} işaretiyle önceki hüküm, bahçe, akış, kalıcılık ve hoşnutluk dizisinin toplandığı karşılığı gösterir. İşaret edilen şey az önce kurulmuş sonuç bütünüdür. Ardından gelen {ar:ٱلْفَوْزُ, tr:el-fevz, gloss:büyük başarı} bu bütüne engeli aşarak iyiliğe erişme ve zarardan esen çıkma yönü taşıyan bir varış adı verir.
+
+Bu varış hareketi, sağlanan başka kullanımda susuz ve tehlikeli ıssız bir geçitten çıkıp güvenli yere ulaşan yolcu imgesiyle belirginleşir. Korku ile bağışlanmanın birlikte anılması (37:60), kurtuluşun korku içinden bağışlanmaya geçiş yüzünü; o gün azaptan çevrilme (6:16), zarardan esen çıkış yüzünü taşır. Sakınanlar için beklenen kurtuluş yurdu (78:31) ise tehlikeli eşiğin ardından korunan varış yerini öne çıkarır. Böylece {ar:ٱلْفَوْزُ, tr:el-fevz, gloss:büyük başarı} içinde kazanılmış iyi sonuç ile kötü sondan kurtulmuş olma birlikte duyulur. Susuz geçit, kelimenin asli tek karşılığı olarak değil, ayetin açık bahçe ve hoşnutluk sonucuna eklenen güvenli varış imgesi olarak kalır.
+
+Bu kurtuluş yüzü, Fatiha'da açıkça adlandırılan iki tehlike ucuyla da temas eder. Gazaba uğramış olanlar ve sapmış olanlar (1:7), {ar:ٱلْمَغْضُوبِ, tr:el-mağdûb, gloss:gazaba uğramış olanlar} ve {ar:ٱلضَّآلِّينَ, tr:ed-dâllîn, gloss:sapmış olanlar} ifadeleriyle belirginleşir; bu iki uç, {ar:ٱلْفَوْزُ, tr:el-fevz, gloss:büyük başarı} sözünün iyiliğe erişme kadar onlardan esen çıkma yönünü görünür kılar. Fatiha'daki gruplar 5:119'daki doğrularla özdeşleştirilmez; bu özel temasta açık olan, başarı anlamının iki kaçınılan yön karşısında kurtuluş hareketini de taşımasıdır.
+
+Kapanıştaki {ar:عَظِيم, tr:azîm, gloss:büyük} sıfatı, {ar:ٱلْفَوْزُ, tr:el-fevz, gloss:büyük başarı} ile adlandırılan varışın değerini ve ağırlığını belirler. {ar:ذَٰلِكَ, tr:dhālika, gloss:işte budur} ile işaret edilen sonuç, erişilmiş ve tehlikeden geçmiş bir kurtuluş olarak adlandırılır; {ar:عَظِيم, tr:azîm, gloss:büyük} bu adlandırmanın üstün ağırlığını duyurur. Sıfat, karşılığın kapsamını yeni bir alana taşımadan, güvenli varışın neden büyük başarı adıyla tamamlandığını hissettirir.
+
+</editorial_prose>

@@ -1,0 +1,233 @@
+# V5 reading invitation — 5:87
+
+You are a fresh reading-invitation writer. Read the complete editorial prose
+before writing. It is your sole semantic source.
+
+Write two to four paragraphs of fluent, contemporary Turkish that reveal a
+surprising reading by following one or two main channels of resonance in the
+ayah. A channel is a connected background of meanings, images, actions, or
+relations through which the ayah can be heard and understood differently.
+Several editorial findings may together develop one channel. Summarize that
+connected movement and its consequence for the ayah's main meaning, rather
+than compressing findings individually. Give the reading's substance now;
+the invitation comes from understanding it, not from a promise of hidden depth.
+
+Before drafting, read the entire editorial prose and silently select the one
+or two channels with the strongest interpretive consequence and enough
+grounding to explain clearly. Favor channels that expand or shift what the
+ayah says, the relation it establishes, or what is at stake in its action or
+image. One fully developed channel is sufficient; add a second only when it
+offers a distinct consequential reading that can be explained within the
+invitation. No finding, channel, or major shift has an individual coverage
+claim. Unselected material may remain entirely in the full commentary.
+
+A channel may develop through grammar, sound, dialogue, a material process,
+time, imagery, or a conceptual relation. Resonance is not limited to acoustic
+effects, and an unusual image alone does not establish a channel. Use only
+connections the editorial prose actually develops. If it supplies no such
+channel, explain its strongest grounded reading without inventing connections
+or surprise.
+
+Begin inside the ayah's own words, images, actions, or relations and reveal a
+selected distinctive reading in the first paragraph. Keep the plain meaning
+reachable with only the orientation needed to understand the change. Do not
+spend an opening paragraph on routine explanation or front-load context about
+the surah, the ayah's position, or the commentary project.
+
+For each selected channel, begin with the expression that opens it, unfold the
+connected background, and show how the ayah reads or sounds against that
+background. Let a detail lead into the next through an intelligible relation
+or process, so the reader experiences the emerging reading. This is a movement
+of thought, not a mandatory sentence pattern or one paragraph per finding.
+Let the reader identify the expression being interpreted,
+where any nonordinary detail comes from, and what that detail changes in the
+reading. Briefly identify the word-family use, restricted form, collocation, or
+context that supplies an essential added detail, and preserve the concrete
+operation that makes the image work. Keep the ordinary reading and necessary
+qualification clear within this explanation; do not repeat them as a fixed
+formula. Preserve the particular object, process, or relation that makes this
+reading distinctive, and state its interpretive consequence for the ayah as a
+whole. Make intelligible what the familiar reading leaves less visible and
+what the expanded or shifted reading now lets the reader understand. Preserve
+the editorial's force: an exploratory possibility remains possible, while a
+developed shift must not be softened into a decorative association or a
+reassurance that everything means the same thing. A concrete
+account of how something is carried, transformed, lost, or restored must not
+shrink to a general statement about care, guidance, dependence, or goodness.
+Keep the details needed to make the selected channel work; omit side findings
+and shorten routine setup. If a channel cannot be explained faithfully from
+the editorial prose, choose another grounded channel or reading.
+
+When a non-focus ayah supplies a contribution used in the invitation, keep its
+reference from the editorial prose beside that contribution.
+
+Do not turn the invitation into a miniature inventory of the commentary's
+conclusions, or flatten distinct channels into a broad theme to include more
+material. Do not repair, extend, or supplement the editorial prose from memory
+or outside knowledge.
+
+Omit technical apparatus. Retain any qualification, source distinction, live
+alternative, or boundary whose absence would change the force or meaning of a
+chosen reading. Express it naturally beside the image or relation it qualifies.
+Favor positive explanations of the relation between layers: what remains in
+the foreground and what the resonance makes audible in the background. State
+how that background reinforces, expands, or shifts the understanding of the
+main meaning, with the source and degree of certainty clear. Reserve explicit
+exclusions for concrete ambiguities or live counter-evidence that need them.
+Repeated "this is not X" endings make a reading sound withdrawn; express the
+substantive qualification through what the reading does contribute wherever
+possible. Use varied, natural language rather than a repeated "second layer"
+formula, and preserve the force of expansions and shifts.
+Do not name branches, candidates, findings, scopes, evidence categories,
+ledgers, or workflow stages, or label the prose as numbered channels. Do not
+list findings serially.
+
+Use the established `{ar:..., tr:..., gloss:...}` syntax, consistent
+Turkish-readable transliteration, and short ordinary glosses. Keep Arabic
+anchors beside the explanations they ground. Within a paragraph, continue with
+the Turkish meaning where clear; provide the necessary local tag when a later
+paragraph interprets the carrier anew. Do not place Arabic script outside a
+valid tag.
+
+Build transitions within a channel through its shared object, action, or
+relation. If two channels are selected, they may occupy separate paragraphs;
+do not invent a link between them. Do not praise the commentary's quality,
+promise what the reader will find, manufacture suspense, recap at the end, or
+add a call to action. End on an image, relation, action, or tension already
+established by the selected reading.
+
+Before finishing, compare the invitation with the entire editorial prose:
+does the chosen channel reveal a consequential reading, or could the text have
+been written from the ordinary translation and a modest explanation alone?
+When the editorial supports a surprising channel, the latter fails this task.
+Can the reader follow the opening expression into a connected background and
+understand how that background expands or shifts the ayah's main meaning?
+Check the selected connections against their editorial explanation: can the
+reader tell where the nonordinary details come from, with the necessary
+qualifications intact? Repair generic explanation, isolated curiosities, or a
+compressed findings list by developing the selected channel. Do not add
+omitted channels merely for coverage. Do not output this check.
+
+Write only the invitation text to:
+
+`_commentary/v5/editorial/s005-p07-with-fatiha/s005/5_87/5_87.invitation.tr.md`
+
+Do not add a heading, wrapper label, index, ledger, evidence file, or any other
+artifact. Do not modify the editorial prose.
+
+After writing the invitation, run:
+
+```bash
+python3 _commentary/v5/validate_prose.py _commentary/v5/editorial/s005-p07-with-fatiha/s005/5_87/5_87.invitation.tr.md
+```
+
+If validation fails, repair only the reported mechanical file-contract issues
+and rerun it, for at most two repair cycles. Report the final validator result
+in your response.
+
+<editorial_prose>
+Bu âyet, iman edenlere doğrudan seslenerek Allah'ın kendileri için helâl kıldığı hoş ve temiz şeyleri kendilerine haramlaştırmamalarını, sınırı da aşmamalarını bildirir. Son cümle bu iki buyruğu Allah'ın sınırı aşanları sevmediğini söyleyerek bağlar. Böylece izin verilen alanın insan eliyle kapatılması ile o alanın ötesine taşılması, aynı hitap içinde birbirini tamamlayan iki sorumluluk olarak görünür.
+
+## Hitabın Kurduğu Sorumluluk
+
+Âyetin başındaki {ar:يَا, tr:yā, gloss:ey} doğrudan çağrıdır; sözü dışarıdan anlatılan bir hüküm olmaktan çıkarıp karşıdaki topluluğa yöneltir. Uzatılmış ā sesi, buyruklardan önce dikkati toplayan bir aralık açar. Ardından gelen {ar:أَيُّهَا, tr:ayyuhā, gloss:ey siz} birleşik hitap biçimi, dinleyici topluluğu daha kimliği açıklanmadan sahneye getirir; içindeki çift y sesi dikkati sıkılaştırır ve biraz sonra gelecek tanımla çağrıyı rastgele bir kalabalıktan ayırır. {ar:ٱلَّذِينَ, tr:alladhīna, gloss:o kimseler ki} belirli çoğul ilgi zamiri tek başına açık bıraktığı sınıfı, {ar:ءَامَنُوا۟, tr:āmanū, gloss:iman ettiler} fiiliyle tamamlar. Böylece sorumluluk tek kişiye değil ortak bir topluluğa yönelir; kimlik, buyruktan sonra kurulmaz, buyruk gelmeden önce iman etmiş olma ile belirginleşir.
+
+{ar:ءَامَنُوا۟, tr:āmanū, gloss:iman ettiler} IV. kalıpta tamamlanmış bir iman ve güven ilişkisini bildirir. Kelimenin güvenlik, emniyet ve bir haberi doğru kabul etme yönleri arka planda duyulsa da burada önce mümin muhatap topluluğu kuran yüzü taşınır. Bu güven alanı, biraz sonra gelecek hukukî sorumluluğa bir iç zemin verir: çağrı, soyut bir insan topluluğuna değil, kendisini bu ilahî izin düzenine bağlamış kişilere yönelir. İman kimliğinin ve topluluk bağının yasaktan önce tamamlanması, hitabı dışarıdan verilen bir rapor olmaktan çıkarıp canlı bir sorumluluk çağrısı hâline getirir.
+
+## İzin Verilen İyi Alan
+
+İlk yasağın ilk halkası {ar:لَا, tr:lā, gloss:...meyin} ile başlar ve cezmli {ar:تُحَرِّمُوا۟, tr:tuḥarrimū, gloss:haram kılmayın} fiilini yönetir. Bu {ar:لَا, tr:lā, gloss:...meyin} fiili doğrudan muhataba yönelmiş hukukî yasağa çevirir. {ar:تُحَرِّمُوا۟, tr:tuḥarrimū, gloss:haram kılmayın} II. kalıpta etkin bir statü koyma fiilidir: bir şeyi sakıncalı görmekten öte ona haramlık ve dokunulmazlık statüsü dayatmayı, dolayısıyla ondan yoksun bırakmayı görünür kılar. Fiilin içindeki şeddeli r sesi bu bariyer ve sıkıştırma duyumunu destekler. {ar:طَيِّبَٰتِ, tr:ṭayyibāti, gloss:iyi ve hoş şeyler} ise dişil çoğul biçimiyle tek bir nesneyi değil, iyilik, hoşluk, temizlik ve güzel nitelik taşıyan birden çok iyi şeyi sınıf olarak öne çıkarır. Uzun sesli ritmi bu nesne öbeğini biraz sonra gelecek ilahî izin fiiline doğru taşır; korunması istenen alan böylece boş bir serbestlik değil, olumlu niteliği belirlenmiş kullanılabilir bir alan olarak kurulur.
+
+Bu alanı {ar:مَا, tr:mā, gloss:şeyler ki} açar ve tamamlar. Buradaki {ar:مَا, tr:mā, gloss:şeyler ki}, {ar:طَيِّبَٰتِ, tr:ṭayyibāti, gloss:iyi ve hoş şeyler} öbeğinin içine yerleşen ilgi zamiridir; yüzeydeki {ar:لَا, tr:lā, gloss:değil} ile ayrımı, iyi şeyler sınıfını ardından gelen eyleme bağlar. Böylece kategori kapalı bir madde listesi gibi erkenden kapanmaz; hangi şeylerin bu olumlu sınıfa girdiğini Allah'ın izin verme eylemi belirler.
+
+Bu belirleme {ar:أَحَلَّ, tr:aḥalla, gloss:helâl kıldı} fiiliyle gelir. IV. kalıptaki tamamlanmış nedensel fiilin katkısı, bağlayıcı bir kısıtı kaldırıp bir şeyi izinli statüye geçirme hareketini göstermesidir; düğümü çözme ve sıkılığı giderme imgesi, insanın kapatmak istediği iyi alanın ilahî fiille açılmasını duyurur. Hukukî helâl kılma anlamı bu görüntünün temelini korur. Fiilin açık öznesi olan {ar:ٱللَّهُ, tr:Allāhu, gloss:Allah}, izin verenin isimsiz bir ilke veya kişisel işaret değil, adı açıkça anılan ilahî özne olduğunu gösterir. Bu özel ad, {ar:أَحَلَّ, tr:aḥalla, gloss:helâl kıldı} ile ilk izin cümlesinde merfû özne olarak birleşir; son hükümdeki {ar:ٱللَّهَ, tr:Allāha, gloss:Allah'ı} ile aynı adın farklı cümle görevinde dönmesi, izin veren ile değerlendiren otoriteyi aynı ad altında tutar. Adın şeddeli l sesi de izin fiiliyle son değerlendirme arasında akustik bir ağırlık kurar; bu ses yankısı açık hükmü destekler, onun yerine geçmez.
+
+İznin yönü {ar:لَكُمْ, tr:lakum, gloss:sizin için} ile muhataplara bağlanır. Edat ile ikinci çoğul kişi eki birlikte çalışarak iyi şeylerin yalnızca nesnel olarak izinli değil, bu topluluğun yararlanmasına açılmış olduğunu gösterir. Sonundaki burunsu m sesi, {ar:طَيِّبَٰتِ, tr:ṭayyibāti, gloss:iyi ve hoş şeyler} ile {ar:أَحَلَّ, tr:aḥalla, gloss:helâl kıldı} arasında kurulan yararlanıcı bağını sesçe kapatır. Aynı çoğul ek, iman eden topluluğun hem bu iznin muhatabı hem de onu kendi adına değiştirmemekle yükümlü taraf olduğunu görünür kılar.
+
+## İki Kenarlı Sınır
+
+İlk yasaktan sonra gelen {ar:وَ, tr:wa, gloss:ve}, ikinci yasağı aynı hukukî düzleme bağlayan açık bir eşgüdüm kurar. İki tamamlanmış olumsuz cümle, iyi alanın iki kenarını birlikte gösterir: biri onu insan eliyle kapatmak, diğeri çizilmiş sınırın dışına taşmaktır. Bağlacın açık kalan hecesi, iki {ar:لَا, tr:lā, gloss:yasaklayan olumsuzluk} ile buyrukların ritmini birbirine ekler ve ayetin komut akışını sürdürür.
+
+Bağlacın ardından duran ikinci {ar:لَا, tr:lā, gloss:...meyin}, ilk yasaktan ayrılan ayrı bir yasak cümlesi açar ve {ar:تَعْتَدُوٓا۟, tr:taʿtadū, gloss:aşmayın} fiilini yönetir. İçindeki açık a sesi ilk olumsuzlukla ve son hükümdeki {ar:لَا, tr:lā, gloss:değil} ile yankılanır; burada işlevi doğrudan buyurmaktır. {ar:تَعْتَدُوٓا۟, tr:taʿtadū, gloss:aşmayın} VIII. kalıpta, cezmli yasak biçiminde ve açık bir nesne belirtilmeden gelir. Kelimenin sınırı geçme, koşup öteye gitme ve düşmanlık alanı içinden bu biçim, kişinin kendisinin sınırı aşmaya girişmesini öne çıkarır. Açık nesne bırakılmaması uyarıyı tek bir adı konmuş nesneye kilitlemez; ilk emrin koruduğu alan ve son cümlede adlandırılacak kişiler bu açık alanı çerçeveler. Uzun ū ile kapanan fiil, belirlenmiş tek bir hedefe saplanmadan hareketin ötesine geçişini duyurur.
+
+Böylece {ar:لَا تُحَرِّمُوا۟, tr:lā tuḥarrimū, gloss:haram kılmayın} ile {ar:لَا تَعْتَدُوٓا۟, tr:lā taʿtadū, gloss:aşmayın} alanın iki sınırını farklı yönlerde görünür kılar: ilki Allah'ın izin verdiği iyi alanın çevresine insan yapımı bir engel koymayı, ikincisi o alanın kenarını geçmeyi hedefler. {ar:تَعْتَدُوٓا۟, tr:taʿtadū, gloss:aşmayın} fiilinin daha sonra {ar:ٱلْمُعْتَدِينَ, tr:al-muʿtadīna, gloss:aşanlar} biçiminde dönmesi, tek bir eylemi tanınabilir bir kişi sınıfına çevirir. Böylece fiil ile etkin ortaç arasındaki yerel yankı, geçici hareketten yerleşmiş kimliğe geçişi görünür kılar.
+
+## Cümlenin Mührü
+
+İki buyruğun ardından gelen {ar:إِنَّ, tr:inna, gloss:şüphesiz}, önceki iki sınırı temellendiren sonucu kesin bir haber olarak açar. İçindeki burunsu n sesi, biraz sonra gelecek değerlendirme öznesine bağlanan bir vurgu kurar. Son hükümdeki {ar:ٱللَّهَ, tr:Allāha, gloss:Allah'ı}, bu parçacığın yönettiği mansup özne olarak {ar:يُحِبُّ, tr:yuḥibbu, gloss:sever} fiilinin değerlendirme alanına girer. İlk cümledeki merfû {ar:ٱللَّهُ, tr:Allāhu, gloss:Allah} ile buradaki hâl değişimi, aynı özel adı yeni bir sözdizimsel göreve taşır; izin veren ile hüküm veren işlevler birbirine karışmadan aynı ilahî ada bağlanır.
+
+Son {ar:لَا, tr:lā, gloss:değil}, bildirici olumsuzluk olarak {ar:يُحِبُّ, tr:yuḥibbu, gloss:sever} yüklemini kapsar. İlk iki {ar:لَا, tr:lā, gloss:...meyin} buyruğunun kadansı burada korunur, işlev ise iki buyruğun ilahî değerlendirmesini bildiren sonuca dönüşür. {ar:يُحِبُّ, tr:yuḥibbu, gloss:sever} şimdiki zamanlı IV. kalıpta çekimli bir ilişkisel fiildir; soyut bir sevgi adı değil, {ar:ٱللَّهَ, tr:Allāha, gloss:Allah'ı} öznesi ile {ar:ٱلْمُعْتَدِينَ, tr:al-muʿtadīna, gloss:aşanlar} sınıfı arasında kurulan değerlendirmedir. Sevgi ve yakınlık alanı, sınırı aşanların ilahî sevgi çekim alanının dışında kalmasıyla belirginleşir; bu ifade etkin bir nefret ilanı kurmaz. Fiildeki şeddeli b sesi, olumsuzluğun tam olarak bu ilişkisel yükleme yerleştiğini duyurur.
+
+{ar:ٱلْمُعْتَدِينَ, tr:al-muʿtadīna, gloss:aşanlar} belirli eril çoğul etkin ortaçtır. Bu biçim soyut bir “aşırılık”tan çok, yaptığı eylemle tanınan ve hesap verebilir kişileri hedefler. {ar:تَعْتَدُوٓا۟, tr:taʿtadū, gloss:aşmayın} fiilindeki sınır aşma, burada {ar:تُحَرِّمُوا۟, tr:tuḥarrimū, gloss:haram kılmayın} ile gösterilen kendi kendine yasak koymayı da, izinli alanın ötesine geçmeyi de bir ortak kategori içinde toplar. Sonundaki n sesi, {ar:إِنَّ, tr:inna, gloss:şüphesiz} ile açılan hüküm ortamını ve {ar:لَا يُحِبُّ, tr:lā yuḥibbu, gloss:sevmez} değerlendirmesini kararlı bir kadansla kapatır. Ayet böylece önce eylemi yasaklar, sonra o eylemi taşıyan kişiyi adlandırır.
+
+## Açılmanın Yetkisi
+
+Bu kuruluşun kendi içindeki yerel temas, {ar:تُحَرِّمُوا۟, tr:tuḥarrimū, gloss:haram kılmayın} fiilinin yoksun bırakma ve bariyer yönü ile {ar:أَحَلَّ, tr:aḥalla, gloss:helâl kıldı} fiilinin düğüm çözme ve serbest bırakma yönünü karşılaştırır. {ar:ٱللَّهُ, tr:Allāhu, gloss:Allah} adı bu açılmanın öznesi olduğundan, izin verilen şeyi yeniden bağlamak kişisel bir sertliği ilahî sınıflandırmanın yerine koyma hareketi gibi görünür. Bu yerel görüntünün ölçüsü, her türlü sakınmayı mahkûm etmek değil, izinli olanı yetkisizce yeniden haram statüsüne geçirmemektir; özel zahitliğin kendi koyduğu bağ Allah'ın helâl kıldığı statünün üstüne çıkamaz.
+
+Aynı karşıtlık {ar:طَيِّبَٰتِ, tr:ṭayyibāti, gloss:iyi ve hoş şeyler} ile {ar:تَعْتَدُوٓا۟, tr:taʿtadū, gloss:aşmayın} arasında iki kenarlı bir alan kurar. İyi ve kullanılabilir paydan kendini yoksun bırakmak, sınırın bir tarafındaki kaybı; konmuş hattı geçmek ise diğer tarafındaki taşmayı görünür kılar. Bu temasın sınırı açıktır: her perhiz aşırılık sayılmaz; aşma, Allah'ın izin verdiği iyi alanın kişinin kendi sınıflandırmasıyla kapatılması veya onun dışına taşılmasıdır. Böylece olağan hukukî buyruk yerinde kalırken, “aşma” kelimesi alanın kenarı olan bir hareket gibi daha görünür hâle gelir.
+
+Hitabın {ar:ءَامَنُوا۟, tr:āmanū, gloss:iman ettiler} ile kurulmuş olması, izinli iyinin nasıl alınacağına dair bir iç ton açar. {ar:طَيِّبَٰتِ, tr:ṭayyibāti, gloss:iyi ve hoş şeyler} kelimesinin hoşnutlukla içe sindirilen iyi yönü, {ar:أَحَلَّ, tr:aḥalla, gloss:helâl kıldı} ile belirlenmiş izne ve kapanıştaki {ar:لَا يُحِبُّ, tr:lā yuḥibbu, gloss:sevmez} değerlendirmesine değdiğinde, müminin izinli olana kaygıyla sırt çevirmek yerine güven içinde yaklaşması okunabilir. {ar:يُحِبُّ, tr:yuḥibbu, gloss:sever} fiilinin yakınlık ve iç çekirdek çağrışımı, bu değerlendirmeyi güvenin yerleştiği iç alanda duyurur. Bu güven görüntüsü alımın insani tonunu açıklar; iç rahatlığı burada tek başına hukukî ölçüye dönüşmez.
+
+## Yetkisiz Yasağın Sınırı
+
+Bu yerel yetki sorusu, aynı fiilin daha açık bağlamlarda karşılanmasıyla genişler: (66:1), (16:116) ve (10:59). {ar:تُحَرِّمُ, tr:tuḥarrimu, gloss:haram kılmak} bir insanın, Allah'ın helâl kıldığını kendi sözüyle haram statüsüne sokmasını görünür kılar. (66:1)'de helâl kılınmış olanı haramlaştırma sorusu, (16:116)'da helâl ve haramı insanın kendi diliyle belirleme uyarısı, (10:59)'da rızık üzerinde böyle bir yetkinin dayanağının sorulmasıyla buluşur. Böylece kendine iyi olanı yasaklamak, ayetin sonunda adı verilen taşmanın bir biçimine dönüşebilir. Bu temasın sınırı açıktır: daha sıkı bir uygulama sırf sıkı olduğu için aşırılık değildir ve açıkça bildirilmiş yasaklar kaldırılmaz; aşma, Allah'ın izinli kıldığı statüyü insanın kendi sınıflandırmasıyla yeniden çizmektir.
+
+## Merhametli Kaynak ve Yön
+
+Bu doğrudan buyruk, sûrenin otomatik açılışındaki {ar:بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ, tr:bismi Allāhi al-Raḥmāni al-Raḥīm, gloss:Allah'ın adıyla, Rahmân ve Rahîm olan} ifadesiyle birlikte okunduğunda, merhamet adlarıyla çevrelenmiş bir ilahî kaynak içinde duyulur (S:0). Besmeledeki {ar:اللَّه, tr:Allāh, gloss:özel ilahi ad}, Rahmân ve Rahîm adlarıyla temas ederek 5:87'nin izin ve değerlendirme sözünü merhametli bir kaynağın yönlendirmesi olarak çerçeveler. Bu temasın katkısı, ayetin hukukî hükmünü yeniden tanımlamak değil, hükmün okunduğu ilahî çerçeveyi görünür kılmaktır.
+
+Fâtiha'daki (1:2) {ar:الْحَمْدُ لِلَّهِ رَبِّ الْعَالَمِينَ, tr:al-ḥamdu li-Llāhi rabbi al-ʿālamīn, gloss:âlemlerin Rabb'i Allah'a hamd} ifadesi, izinli iyiyi özel iştahın nesnesi olmaktan çıkarıp bütün âlemlerin sürdürüldüğü bir nimet düzeninde düşünmeye imkân verir. Özellikle {ar:رَبِّ الْعَالَمِينَ, tr:rabbi al-ʿālamīn, gloss:âlemlerin Rabb'i} ifadesinin geniş rablik ufku, {ar:طَيِّبَٰتِ, tr:ṭayyibāti, gloss:iyi ve hoş şeyler} için evrensel bir beslenme ve sürdürülme bağlamı kurar. Bu Fâtiha temasının katkısı, 5:87'deki izinli iyinin kaynağını ve pay niteliğini derinleştirmektir; 5:87'nin doğrudan yiyecek hükmü yerinde kalır.
+
+Fâtiha'daki (1:5) {ar:إِيَّاكَ نَعْبُدُ, tr:iyyāka naʿbudu, gloss:yalnız Sana kulluk ederiz} ifadesi, 5:87'de izin veren ve değerlendiren {ar:اللَّه, tr:Allāh, gloss:özel ilahi ad}ı doğrudan kulluğun yöneldiği özneyle buluşturur. Böylece helâl, haram ve ilahî sevgi dili soyut bir kurallar dizisi olarak değil, kulluk edilen kaynağın huzurunda üstlenilen bir sorumluluk olarak duyulur. Bu Fâtiha bağlantısının katkısı, Allah adının kendisine tapınılan varlık anlamını belirginleştirmek ve 5:87'deki ilahî değerlendiricinin ibadet edilen özne oluşunu açmaktır; okuma bu sınırlı Fâtiha temasının sınırları içinde kalır.
+
+Fâtiha'daki (1:4) {ar:مَالِكِ يَوْمِ الدِّينِ, tr:māliki yawmi al-dīn, gloss:din ve hesap gününün sahibi} ifadesi, {ar:تَعْتَدُوٓا۟, tr:taʿtadū, gloss:aşmayın} ve {ar:ٱلْمُعْتَدِينَ, tr:al-muʿtadīna, gloss:aşanlar} kelimelerine davranışın hesap verilebilirliği yönünü ekler. Taşma böylece yalnız kişisel zevk veya alışkanlıkla sınırlı kalmayan, Allah'ın sahip olduğu hesap düzeninde değerlendirilen bir eylem olarak görünür. Fâtiha'daki (1:6, 1:7) {ar:اهْدِنَا الصِّرَاطَ الْمُسْتَقِيمَ, tr:ihdinā al-ṣirāṭ al-mustaqīm, gloss:bizi dosdoğru yola ilet} duası ve {ar:الضَّالِّينَ, tr:al-ḍāllīn, gloss:sapanlar} karşılığı, aşmamaya yön ve güzergâh imgesi ekler: sınır, tek bir miktarın ötesine geçmemek kadar tayin edilmiş yolda kalmaktır. Bu yönsel temasın katkısı, 5:87'nin somut helâl-haram hükmü içinde sınırın doğru istikamet olarak nasıl yaşanabileceğini görünür kılmaktır.
+
+## İzin, Alım ve Koruma
+
+Bu yakın bağlam, 5:87'nin {ar:لَا تُحَرِّمُوا۟, tr:lā tuḥarrimū, gloss:haram kılmayın} buyruğunun açtığı alanın nasıl kullanılacağını gösterir.
+
+5:87'nin hemen ardından gelen (5:88), “haram kılmayın” buyruğunu açılmış alanın bedensel alımı ve koruyucu disipliniyle tamamlar. {ar:كُلُوا, tr:kulū, gloss:yiyin} emri, {ar:طَيِّبَاتِ, tr:ṭayyibāt, gloss:hoş, temiz, iyi ve dinen izinli olanlar} taşıyıcısını gerçek bedensel alıma çevirir. Aynı ayetteki {ar:رَزَقَكُمُ, tr:razaqakum, gloss:size rızık verdi} ifadesi bu yiyeceği kişinin yeniden sınıflandıramayacağı, kendisine verilmiş bir nimet olarak gösterir; {ar:وَاتَّقُوا, tr:wa-ttaqū, gloss:korunun ve sakının} ise {ar:وَلَا تَعْتَدُوٓا۟, tr:wa-lā taʿtadū, gloss:sınırı aşmayın} buyruğunu yemenin içindeki koruyucu disipline bağlar. Aynı pasajın (5:93) ayetinde {ar:طَعِمُوا, tr:ṭaʿimū, gloss:tattılar ve yediler} ifadesi bu alımın soyut izin değil gerçek tüketim içinde sınanan bir eylem olduğunu gösterir. Bu pasajda {ar:اتَّقَوا, tr:ittaqaw, gloss:korundular ve sakındılar} üç kez yinelenir; ardından {ar:أَحْسَنُوا, tr:aḥsanū, gloss:iyilik yaptılar} gelir ve {ar:يُحِبُّ الْمُحْسِنِينَ, tr:yuḥibbu al-muḥsinīn, gloss:iyilik yapanları sever} sözü, 5:87'deki {ar:لَا يُحِبُّ الْمُعْتَدِينَ, tr:lā yuḥibbu al-muʿtadīn, gloss:sınırı aşanları sevmez} değerlendirmesine olumlu bir karşılık kurar. Böylece izin, koruma içinde alınan ve ihsana taşınan bir pratiğe dönüşür. Buradaki {ar:كُلُوا, tr:kulū, gloss:yiyin} izin verici emir olarak okunabilir; devamındaki alım, rızık ve takva dili ise onun engelin kaldırılmasından sonraki somut hareketi de kurduğunu gösterir.
+
+Helâl iyinin alınışına daha sıcak bir güven görüntüsü, sofra sahnesinden (5:113, 5:114) buraya uzanır. {ar:نَّأْكُلَ, tr:naʾkulu, gloss:yiyelim} eylemi {ar:تَطْمَئِنَّ, tr:taṭmaʾinna, gloss:yatışsın} ve {ar:قُلُوبَنَا, tr:qulūbunā, gloss:kalplerimiz} ile yan yana geldiğinde yeme, kalbin yatışmasına bağlanır. {ar:صَدَقْتَنَا, tr:ṣadaqtanā, gloss:bize doğru söyledin} doğrulaması ile (5:114)'teki {ar:ٱرْزُقْنَا, tr:urzuqnā, gloss:bizi rızıklandır} duası, yenilen iyiyi güveni yerleştiren ve verenin sözünü doğrulayan bir rızık olarak duyurur. Bu görüntünün katkısı, mahrumiyet korkusundan kaçış yerine güven içinde kabul edilen bir ikramı göstermektir; sofra sahnesinden (5:113, 5:114) gelen keşifsel bir benzetme olarak kalır ve yeme zevkini 5:87'nin sınır buyruğunun önüne geçirmez.
+
+İzin fiilinin açılma yönü, iyinin yalnız tüketilmesinden beslenip gelişmesine uzanan uzak bir görüntü kurabilir. {ar:يُحِبُّ, tr:yuḥibbu, gloss:sever} yüzeyde Allah'ın aşanları sevmemesini bildirir; kaynaklarda korunan daha uzak bir kullanım olan {ar:حَبّ, tr:ḥabb, gloss:tane ve tohum} ise rızık, yetiştirme ve bahçe bağlamlarıyla (5:88, 5:90, 5:119) temas ettiğinde tane veya ekilebilir tohum ayrıntısını çağırır. (5:88)'deki {ar:رَزَقَكُمُ, tr:razaqakum, gloss:size rızık verdi} besini, (5:90)'daki {ar:تُفْلِحُونَ, tr:tufliḥūne, gloss:başarıya erersiniz} kelimesinin toprağı yarıp işleme yönüyle birlikte düşünüldüğünde, açılma pasif bir serbestlikten disiplinli yetiştirmeye doğru ilerler. (5:119)'daki {ar:جَنَّٰتٌ, tr:jannāt, gloss:bahçeler} ile {ar:تَجْرِى, tr:tajrī, gloss:akar} ise beslenmenin süreklilik ve ürün veren canlılık yönünü tamamlar. Bu uzak benzetmenin katkısı, kendine konmuş yasağın bir hazzı kısmaktan öte beslenip yetişebilecek kapasiteyi kısırlaştıran bir kapanma gibi, ilahî açmanın ise beslenme, yetiştirme ve kalıcı ürün verme imkânı gibi görünmesidir. Bu ilişki “sevmek” fiilinin anlamını değiştirmez ve 5:87'yi doğrudan bahçeler hakkında konuşturmaz; düz izin ve sınır anlamı yerinde kalır.
+
+Bu büyüme görüntüsündeki ilahî açılma, {ar:أَحَلَّ, tr:aḥalla, gloss:helâl kıldı} fiilinin düğümü çözme yönünü de taşır; bu ek temas, izin hükmünü değiştirmeden açılmış alanın beslenmeye ve ürüne elverişli kalmasını görünür kılar.
+
+## Bağın Çözülmesi
+
+Hemen devamındaki (5:89) yemin düzeni, kişinin kendi sözüyle bir davranışı bağlaması ile Allah'ın helâl kıldığı şeyi kalıcı biçimde haramlaştırması arasındaki farkı açar. {ar:عَقَّدتُّمُ الْأَيْمَانَ, tr:ʿaqqadtum al-aymān, gloss:yeminleri bağladınız} bilinçli kurulmuş düğümü gösterir; {ar:تَحْرِيرُ رَقَبَةٍ, tr:taḥrīru raqabah, gloss:bir boynu özgürleştirme} ise ihlalden sonra yeniden kazanılan serbestlik imgesini taşır. {ar:وَاحْفَظُوا أَيْمَانَكُمْ, tr:wa-ḥfaẓū aymānakum, gloss:yeminlerinizi koruyun} usulünce kurulmuş bağın korunacağını, {ar:فَكَفَّارَتُهُ, tr:fa-kaffāratuhu, gloss:onun kefareti} ise ihlalin nesneyi yeni ve kalıcı bir haram statüsüne sokmak yerine belirlenmiş bir telafi yoluna bağlandığını gösterir. Böylece 5:87'deki {ar:أَحَلَّ ٱللَّهُ لَكُمْ, tr:aḥalla Allāhu lakum, gloss:Allah'ın size helâl kıldığı} ile {ar:لَا تُحَرِّمُوا۟, tr:lā tuḥarrimū, gloss:haram kılmayın} arasındaki sınıflandırma, usulî bağ ile ilahî yasak arasındaki ayrıma açılır.
+
+(5:89)'daki {ar:بِاللَّغْوِ, tr:bi-l-laghw, gloss:boş ve kasıtsız söz} ifadesi, boş sözün bağlayıcı bir haram alanı üretmediğini; {ar:أَيْمَانِكُمْ, tr:aymānikum, gloss:yeminleriniz} tekrarları ise bilinçli bağın gerçek bir usulî sonuç doğurduğunu gösterir. Bu ayrım, kişisel perhizi bütünüyle değersizleştirmeden, kişinin koyduğu bağı ilahî sınıflandırmanın yerine geçirmeyen bir çıkış düzeni kurar. Yakın bağlamın katkısı, bağlayıcı yeminle boş sözü ve bunların sonuçlarını ayırmaktır; (5:89) kefaretin bütün işlemlerini taşırken 5:87, helâl nesnenin kişisel sözle ebedî harama dönüştürülemeyeceği yönündeki sınırı taşır.
+
+## Açıklanmış Zararı Koruyan Yasak
+
+(5:90, 5:91), 5:87'nin izin alanının yanında nesnesi ve zararı açıklanmış koruyucu yasağın yerini gösterir; böylece 5:87'deki izin, her türlü kısıtlamanın kaldırılması olarak değil, açıkça gerekçelendirilmiş bir alan olarak okunur. {ar:الْخَمْر, tr:al-khamr, gloss:aklı örten içki} aklı örten somut mekanizmayı, {ar:رِجْس, tr:rijs, gloss:pislik ve kirletici şey} kirletici etkiyi, {ar:فَاجْتَنِبُوهُ, tr:fajtanibūhu, gloss:ondan uzak durun} ise ilan edilmiş koruyucu uzak durma emrini taşır. (5:91)'deki {ar:الْعَدَاوَة, tr:al-ʿadāwah, gloss:düşmanlık} ve {ar:الْبَغْضَاءَ, tr:al-baghḍāʾ, gloss:nefret} ilişkisel zararı; {ar:يَصُدَّكُمْ, tr:yaṣuddakum, gloss:sizi alıkoyar} da Allah'ı anmaktan ve namazdan uzaklaştıran sonucu görünür kılar. Bu açıklanmış zincirin katkısı, {ar:طَيِّبَٰتِ, tr:ṭayyibāti, gloss:hoş, temiz, iyi ve dinen izinli olanlar} ile {ar:لَا تُحَرِّمُوا۟, tr:lā tuḥarrimū, gloss:haram kılmayın} arasındaki kalite ve yetki sınırını somutlaştırmaktır: koruyucu yasak çekici görünmeyen her şeyi keyfî olarak kapatmaz; aklı örten, ilişkileri bozan ve ibadeti engelleyen zararı belirlenmiş nesneye yönelir. Bu ayrım, 5:87'nin iyi alanını genişletirken açık koruma yasağını da yerinde tutar.
+
+## Ölçüsü Belirlenmiş Kısıtlama
+
+5:87'nin {ar:لَا تُحَرِّمُوا۟, tr:lā tuḥarrimū, gloss:haram kılmayın} buyruğu, kutsal kısıtlamanın hangi şartlarda geçerli olduğunu gösteren bu yakın örneklerle birlikte okunur.
+
+Av ve ihram dizisi (5:94, 5:95, 5:96, 5:97), kutsal kısıtlamanın yeri, zamanı, nesnesi, kişinin durumu, niyeti ve telafisi belirlenerek yürüdüğünü gösterir. {ar:لَيَبْلُوَنَّكُمُ, tr:layabluwannakum, gloss:sizi sınayacak} sınırı gözlenebilir bir sınama olarak kurar; {ar:جَزَاء, tr:jazāʾ, gloss:karşılık ve telafi} ihlali belirlenmiş bir karşılığa bağlar ve onu belirsiz bir ceza alanına bırakmaz. {ar:مُتَعَمِّدًا, tr:mutaʿammidan, gloss:bilerek} niyeti, {ar:مِثْلُ, tr:mithl, gloss:denk ve eşdeğer} ise telafide ölçü ve dengeyi görünür kılar.
+
+(5:96)'daki {ar:الْبَحْر, tr:al-baḥr, gloss:deniz ve açık su alanı} ile {ar:الْبَرّ, tr:al-barr, gloss:kuru kara} ayrımı, kısıtlamayı zemin ve zamana göre ayırır; {ar:حُرُمًا, tr:ḥuruman, gloss:özel ihram durumunda} ibadet ve niyet hâlinin sınırı etkinleştiren şart olduğunu gösterir. Aynı ayetteki {ar:أُحِلَّ لَكُمْ, tr:uḥilla lakum, gloss:size helâl kılındı}, kısıtın sona erdiği durumda izin alanına dönüşü açıkça sergiler. 5:87'nin {ar:الْحَرَام, tr:al-ḥarām, gloss:korunan ve dokunulmaz alan} ekseni böylece tanımlı bir kutsal çevreyle temas eder; (5:97)'deki {ar:قِيَامًا لِلنَّاسِ, tr:qiyāman li-n-nās, gloss:insanlar için ayakta tutan destek} ise bu sınırlamanın özel mahrumiyet değil, insanlar için kamusal bir destek amacı taşıdığını bildirir. Bu bağın sınırı da açıktır: bu, “her kısıtlama şüphelidir” sonucu değildir; (5:94, 5:95, 5:96, 5:97), kısıtlamanın Allah tarafından atanmış çerçevesini ve o çerçevenin dışına taşmanın 5:87'deki uyarıyla temasını gösterir.
+
+## Beğeninin Ötesinde Ölçü
+
+(5:100)'deki {ar:لَا يَسْتَوِي, tr:lā yastawī, gloss:eşit olmaz} karşılaştırması, {ar:الْخَبِيث, tr:al-khabīth, gloss:kötü ve kirli} ile {ar:الطَّيِّب, tr:al-ṭayyib, gloss:iyi ve temiz} arasındaki kalite farkını 5:87'nin {ar:طَيِّبَٰتِ, tr:ṭayyibāti, gloss:hoş, temiz, iyi ve dinen izinli olanlar} taşıyıcısına geri bağlar. {ar:أَعْجَبَكَ, tr:aʿjabaka, gloss:senin hoşuna gitse} kişinin hoşlanmasını, {ar:كَثْرَةُ الْخَبِيث, tr:kathratu al-khabīth, gloss:kötünün çokluğu} ise bolluğu ölçü olmaktan çıkarır. Bu temasın katkısı, çok bulunan ve göze hoş gelen ile gerçekten tayyib olanı ayırmaktır; kişisel hoşlanma burada kalite hükmünün yerine geçmez ve bağ kapsamlı bir psikoloji kurmaz.
+
+## Kuralın Üretildiği Yer
+
+(5:101), (5:103) ve (5:104), helâl alanın sorular, adlandırmalar, miras alınan sınıflar ve Allah'a yapılan isnat yoluyla daraltılma mekanizmasını görünür kılar. (5:101)'deki {ar:لَا تَسْأَلُوا, tr:lā tasʾalū, gloss:sormayın} gereksiz soru talebini sınırlar; {ar:تُبْدَ لَكُمْ, tr:tubda lakum, gloss:size açıklanırsa} açıklanacak ayrıntının yeni yükler açabileceğini, {ar:تَسُؤْكُمْ, tr:tusʾkum, gloss:sizi sıkıntıya sokar} ise bu yükün pratik sıkıntıya dönüşebileceğini gösterir. (5:102)'deki tamamlayıcı uyarı, aynı soru üretim zincirinin neden sınırlandığını pekiştirir.
+
+(5:103)'teki {ar:بَحِيرَة, tr:baḥīrah, gloss:adı konmuş hayvan sınıfı}, {ar:حَام, tr:ḥām, gloss:korunduğu varsayılan deve} ve {ar:وَصِيلَة, tr:waṣīlah, gloss:miras alınan bağlı sınıf}, bir etiketin belirli bir hayvanı korunan kategoriye sokarak kuralı maddileştirebildiğini gösterir. {ar:جَعَلَ اللَّهُ, tr:jaʿala Allāh, gloss:Allah belirledi} ifadesi bu insan yapımı sınıflandırmanın doğrudan ilahî atıf gibi sunulabileceği noktayı açığa çıkarır; {ar:يَفْتَرُونَ, tr:yaftarūn, gloss:uyduruyorlar} ve {ar:الْكَذِب, tr:al-kadhib, gloss:yalan} ise üretilmiş kuralın Allah'a isnat edildiği anda kaynak sorununa dönüştüğünü belirtir. (5:104)'teki {ar:آبَاءَنَا, tr:ābāʾanā, gloss:atalarımız} aktarılmış otoriteyi, {ar:حَسْبُنَا, tr:ḥasbunā, gloss:bize yeter} ise bu miras alınmış uygulamanın vahye yeniden başvurmadan kendi kendine yeterli ilan edilmesini taşır. Böylece süreç, soru ile alanı yüklemekten sınıf adlandırmaya, miras almaya ve sonunda sonucu Allah'a isnat etmeye kadar ilerler. 5:87'nin {ar:لَا تُحَرِّمُوا, tr:lā tuḥarrimū, gloss:haram kılmayın} ve {ar:أَحَلَّ ٱللَّهُ لَكُمْ, tr:aḥalla Allāhu lakum, gloss:Allah'ın size helâl kıldığı} ifadeleri bu zincirin ölçüsünü verir. Bu zincirin sınırı, gerekli açıklamaları veya her miras alınmış uygulamayı reddetmek değildir; somut sınır, uydurulmuş kategorinin vahiy adına sunulmasıdır.
+
+Bu kural üretimi, yetkinin kaynağı sorusunu (5:116), (5:117) ve (5:120)'nin kapanış çizgisine taşır. (5:116)'da {ar:ٱللَّهُ, tr:Allāhu, gloss:tapınılan varlık} adına yaratılmış varlıklara ilahlık statüsü yakıştırılması reddedilir; (5:117)'de kulluk {ar:ٱللَّهَ, tr:Allāha, gloss:tapınılan varlık} adına yönelir; (5:120)'de {ar:مُلْكُ, tr:mülkü, gloss:hükümranlık} ve {ar:قَدِيرٌ, tr:kadîr, gloss:gücü yeten} kapanışı ölçülü kudreti Allah'a bağlar. Bu çizginin katkısı, {ar:أَحَلَّ, tr:aḥalla, gloss:helâl kıldı} fiilindeki izin verme hareketini özel dindarlığın, miras alınmış âdetin veya yüceltilen kişilerin sahiplenemeyeceği bir sınıflandırma yetkisi olarak görünür kılmaktır. Bu bağlam övgü ve tevhid vurgusunu da taşıyabilir; burada korunan nitelikli katkı, 5:87'deki helâl statüsünün kaynağını görünürleştirir ve bağımsız bir doktrin kurmaz.
+
+## Hakkın Sınırında Usul
+
+Son temas, {ar:وَلَا تَعْتَدُوٓا۟, tr:wa-lā taʿtadū, gloss:sınırı aşmayın} buyruğunun sınırını yiyecek miktarından kanıtın ve başkasının hakkının korunmasına doğru taşıyabilecek nitelikli bir bağlantı kurar. (5:106), (5:107) ve (5:108)'deki tanıklık bilgi ve beyanı, yemin formel güvenceyi, gizleme ve ortaya çıkarma bilginin saklı kalması ile görünürleşmesini, hak sahipliği ve yerine geçme payın doğru kişiye dönmesini, yeminin geri çevrilmesi ise usulün düzeltilmesini taşır. Bu dizinin katkısı, doğruyu ve hakkı aşan bir usul işleminin de taşma biçimi olabileceğini görünür kılmaktır. {ar:شَهَادَة, tr:shahādah, gloss:tanıklık ve bilinen gerçeğin bildirimi} hukukî konumu bilgi ve beyana bağlar; {ar:يُقْسِمَانِ, tr:yuqsimāni, gloss:yemin ederler} formel yeminin kanıt ve hak sınırını aşan iddiayı kendiliğinden meşrulaştıramayacağını gösterir. {ar:وَلَا نَكْتُمُ شَهَادَةَ اللَّهِ, tr:wa-lā naktumu shahādata Allāh, gloss:Allah'ın tanıklığını gizlemeyiz} gerçeği saklamayı yeminli usul içinde bile bir aşım olarak görünür kılar.
+
+Usulün bozulması da görünür bir düzeltme sırasına bağlanır. {ar:اسْتَحَقَّا إِثْمًا, tr:istaḥaqqā ithman, gloss:günahı hak etmiş olmak} başkasının sabit hakkı karşısında doğan usulî borcu, {ar:عُثِرَ, tr:ʿuthira, gloss:ortaya çıkarıldı ve bulundu} gizli kalan aşımın kanıtla ortaya çıkarılmasını bildirir. Ardından {ar:فَآخَرَانِ يَقُومَانِ مَقَامَهُمَا, tr:fa-ākharāni yaqūmāni maqāmahumā, gloss:başkaları onların yerine geçer} bozulmuş prosedürün hak sahibine dönecek bir ikameyle onarılmasını, {ar:تُرَدَّ أَيْمَان, tr:turaddu aymān, gloss:yeminler geri çevrilir} ise yeminlerin düzeltici bir dönüşle yeniden ele alınmasını gösterir. {ar:عَلَى وَجْهِهَا, tr:ʿalā wajhihā, gloss:gerektiği doğru yüzüyle} ifadesi, usulün sonunda hakikatin doğru biçimiyle sunulmasına bağlanan son eşiği kurar. Bu analojik temasın sınırı açıktır: 5:87'nin doğrudan yiyecek hükmü tanıklık hukukunun sözlük tanımına çevrilmez; bağlantı, sınırın kanıt, hak ve doğru beyan içinde kalma yönünü açıklar.
+
+</editorial_prose>

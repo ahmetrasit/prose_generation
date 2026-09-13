@@ -1,0 +1,183 @@
+# V5 reading invitation — 5:108
+
+You are a fresh reading-invitation writer. Read the complete editorial prose
+before writing. It is your sole semantic source.
+
+Write two to four paragraphs of fluent, contemporary Turkish that reveal a
+surprising reading by following one or two main channels of resonance in the
+ayah. A channel is a connected background of meanings, images, actions, or
+relations through which the ayah can be heard and understood differently.
+Several editorial findings may together develop one channel. Summarize that
+connected movement and its consequence for the ayah's main meaning, rather
+than compressing findings individually. Give the reading's substance now;
+the invitation comes from understanding it, not from a promise of hidden depth.
+
+Before drafting, read the entire editorial prose and silently select the one
+or two channels with the strongest interpretive consequence and enough
+grounding to explain clearly. Favor channels that expand or shift what the
+ayah says, the relation it establishes, or what is at stake in its action or
+image. One fully developed channel is sufficient; add a second only when it
+offers a distinct consequential reading that can be explained within the
+invitation. No finding, channel, or major shift has an individual coverage
+claim. Unselected material may remain entirely in the full commentary.
+
+A channel may develop through grammar, sound, dialogue, a material process,
+time, imagery, or a conceptual relation. Resonance is not limited to acoustic
+effects, and an unusual image alone does not establish a channel. Use only
+connections the editorial prose actually develops. If it supplies no such
+channel, explain its strongest grounded reading without inventing connections
+or surprise.
+
+Begin inside the ayah's own words, images, actions, or relations and reveal a
+selected distinctive reading in the first paragraph. Keep the plain meaning
+reachable with only the orientation needed to understand the change. Do not
+spend an opening paragraph on routine explanation or front-load context about
+the surah, the ayah's position, or the commentary project.
+
+For each selected channel, begin with the expression that opens it, unfold the
+connected background, and show how the ayah reads or sounds against that
+background. Let a detail lead into the next through an intelligible relation
+or process, so the reader experiences the emerging reading. This is a movement
+of thought, not a mandatory sentence pattern or one paragraph per finding.
+Let the reader identify the expression being interpreted,
+where any nonordinary detail comes from, and what that detail changes in the
+reading. Briefly identify the word-family use, restricted form, collocation, or
+context that supplies an essential added detail, and preserve the concrete
+operation that makes the image work. Keep the ordinary reading and necessary
+qualification clear within this explanation; do not repeat them as a fixed
+formula. Preserve the particular object, process, or relation that makes this
+reading distinctive, and state its interpretive consequence for the ayah as a
+whole. Make intelligible what the familiar reading leaves less visible and
+what the expanded or shifted reading now lets the reader understand. Preserve
+the editorial's force: an exploratory possibility remains possible, while a
+developed shift must not be softened into a decorative association or a
+reassurance that everything means the same thing. A concrete
+account of how something is carried, transformed, lost, or restored must not
+shrink to a general statement about care, guidance, dependence, or goodness.
+Keep the details needed to make the selected channel work; omit side findings
+and shorten routine setup. If a channel cannot be explained faithfully from
+the editorial prose, choose another grounded channel or reading.
+
+When a non-focus ayah supplies a contribution used in the invitation, keep its
+reference from the editorial prose beside that contribution.
+
+Do not turn the invitation into a miniature inventory of the commentary's
+conclusions, or flatten distinct channels into a broad theme to include more
+material. Do not repair, extend, or supplement the editorial prose from memory
+or outside knowledge.
+
+Omit technical apparatus. Retain any qualification, source distinction, live
+alternative, or boundary whose absence would change the force or meaning of a
+chosen reading. Express it naturally beside the image or relation it qualifies.
+Favor positive explanations of the relation between layers: what remains in
+the foreground and what the resonance makes audible in the background. State
+how that background reinforces, expands, or shifts the understanding of the
+main meaning, with the source and degree of certainty clear. Reserve explicit
+exclusions for concrete ambiguities or live counter-evidence that need them.
+Repeated "this is not X" endings make a reading sound withdrawn; express the
+substantive qualification through what the reading does contribute wherever
+possible. Use varied, natural language rather than a repeated "second layer"
+formula, and preserve the force of expansions and shifts.
+Do not name branches, candidates, findings, scopes, evidence categories,
+ledgers, or workflow stages, or label the prose as numbered channels. Do not
+list findings serially.
+
+Use the established `{ar:..., tr:..., gloss:...}` syntax, consistent
+Turkish-readable transliteration, and short ordinary glosses. Keep Arabic
+anchors beside the explanations they ground. Within a paragraph, continue with
+the Turkish meaning where clear; provide the necessary local tag when a later
+paragraph interprets the carrier anew. Do not place Arabic script outside a
+valid tag.
+
+Build transitions within a channel through its shared object, action, or
+relation. If two channels are selected, they may occupy separate paragraphs;
+do not invent a link between them. Do not praise the commentary's quality,
+promise what the reader will find, manufacture suspense, recap at the end, or
+add a call to action. End on an image, relation, action, or tension already
+established by the selected reading.
+
+Before finishing, compare the invitation with the entire editorial prose:
+does the chosen channel reveal a consequential reading, or could the text have
+been written from the ordinary translation and a modest explanation alone?
+When the editorial supports a surprising channel, the latter fails this task.
+Can the reader follow the opening expression into a connected background and
+understand how that background expands or shifts the ayah's main meaning?
+Check the selected connections against their editorial explanation: can the
+reader tell where the nonordinary details come from, with the necessary
+qualifications intact? Repair generic explanation, isolated curiosities, or a
+compressed findings list by developing the selected channel. Do not add
+omitted channels merely for coverage. Do not output this check.
+
+Write only the invitation text to:
+
+`_commentary/v5/editorial/s005-p07-with-fatiha/s005/5_108/5_108.invitation.tr.md`
+
+Do not add a heading, wrapper label, index, ledger, evidence file, or any other
+artifact. Do not modify the editorial prose.
+
+After writing the invitation, run:
+
+```bash
+python3 _commentary/v5/validate_prose.py _commentary/v5/editorial/s005-p07-with-fatiha/s005/5_108/5_108.invitation.tr.md
+```
+
+If validation fails, repair only the reported mechanical file-contract issues
+and rerun it, for at most two repair cycles. Report the final validator result
+in your response.
+
+<editorial_prose>
+Bu ayet, önceki karşı-yemin usulünü yeniden önüne getirir: tanıklık gerektiği biçimde getirilmeli, ilk yeminlerden sonra başka yeminlerin geri çevrilmesi ihtimali hesaba katılmalıdır. Ardından Allah'a karşı sakınma ve dinleme buyruğu gelir; kapanışta Allah'ın yoldan çıkan topluluğa rehberlik etmeyeceği bildirilir. {ar:ذَٰلِكَ, tr:dhālika, gloss:önceki karşı-yemin usulünü gösteren şu} yakınındaki tek bir söze değil, önceki karşı-yemin düzeninin bütününe dönerek onu şimdi değerlendirilen nesne haline getirir. {ar:أَدْنَىٰٓ, tr:adnā, gloss:daha yakın veya daha uygun} bu düzeni, tanıklığın gereken biçimde sunulması ile sonraki yeminlerin doğuracağı geri çevirme ihtimalinin hesaba katılması olmak üzere iki sonuca daha yakın ve elverişli yol olarak ölçer; usulün uygunluğunu gösterir, gerçekleşecek sonucu tek başına garanti eden bir hüküm kurmaz. İlk {ar:أَن, tr:an, gloss:-mesi için / -mesi} bu usulü önce tanıklığın getirilmesine bağlar ve dikkati soyut bir niyetten gerçekleşmesi beklenen ilk adıma taşır.
+
+İlk bağlanan sonuçta {ar:يَأْتُوا۟, tr:yaʾtū, gloss:getirsinler veya ortaya koysunlar} sıradan gelme anlamını tanıklığın görünür biçimde ortaya konmasına yöneltir; tanıklık bu fiili tetiklediğinde okur yalnızca bir varış değil, delilin getirilmesini bekler. Ardındaki {ar:بِ, tr:bi, gloss:ile / getirerek} harf-i ceri gelme fiilini tanıklıkla hem araç hem içerik bakımından bağlar: tanıklık usulün içine taşınan şeydir, edat bu taşıma ilişkisini kurar ve tanıklığın niteliğini kendi başına belirlemez. {ar:ٱلشَّهَٰدَةِ, tr:eş-şehâde, gloss:tanıklık} belirli masdar olarak herhangi bir şahitliği değil, hesaba çekilebilir belirli tanıklığı adlandırır; hukuki içerik böylece soyut bir sözden incelenebilir bir beyana dönüşür.
+
+Bu beyanın nasıl görünmesi gerektiğini {ar:عَلَىٰ, tr:ʿalā, gloss:üzerine / gerektiği biçimde} açar: tanıklık yalnız sunulmuş bir içerik olarak kalmaz, üzerinde durulacak ölçü ve uygunluk içinde belirir. {ar:وَجْهِهَآ, tr:wajhihā, gloss:onun yüzü veya uygun biçimi} tanıklığa sözün ya da işin doğru ve amaçlanan yönünü verir; yüz imgesi hukuki çekirdeğin içinde sunumun yerli yerinde bir biçim kazanmasını görünür kılar. {ar:أَوْ, tr:aw, gloss:veya} bundan sonra iki güzergâhı yan yana açık tutar: tanıklığı usulünce getirmek ve geri dönüş ihtimalini hesaba katan bir korkuyla doğruluğa yönelmek. {ar:يَخَافُوا۟, tr:yakhāfū, gloss:korkarlar} korkuyu bu geri dönüş ihtimaline bağlayarak karşı-yeminin doğurabileceği sonucu önceden görme yolunu açar. İkinci {ar:أَن, tr:an, gloss:-mesi için / -mesi} bu korkunun içeriğini belirler; korku, yeminlerin geri çevrilmesi ihtimaline yönelmiş bir beklentidir. {ar:تُرَدَّ, tr:turadda, gloss:geri çevrilir veya iade edilir} edilgen biçimiyle daha önce kurulmuş sözün geri çevrilmesini fail adı vermeden işleyen bir hukuki süreç gibi gösterir; sonuç belirgindir, failin kimliği açık bırakılır.
+
+Failin gizli tutulduğu bu süreçte {ar:أَيْمَٰنٌۢ, tr:eymān, gloss:yeminler} belirsiz biçimde geldiği için sonradan ortaya çıkabilecek karşı-yeminleri belirli bir kişiye bağlamaz. {ar:بَعْدَ, tr:baʿda, gloss:sonra} ilk yeminlerden sonraki maruz kalma aralığını yerleştirir; {ar:أَيْمَٰنِهِمْ, tr:eymānihim, gloss:onların yeminleri} ise iyelikli ve belirli biçimiyle daha önce sahiplenilmiş asıl yeminleri sonradan gelen belirsiz yeminlerden ayırır. Böylece okur, geri dönüşü doğuran sıralamayı sözlerin önce ve sonra kurulması içinde izler.
+
+Bu sıralama tamamlanınca ilk {ar:وَ, tr:wa, gloss:ve / bunun ardından} prosedürden buyruğa geçişi başlatır. {ar:ٱتَّقُوا۟, tr:ittaqū, gloss:sakının, kendinizi koruyun} dönüşlü korunma anlamıyla kişiyi kendisini Allah karşısında sakınmaya yöneltir; {ar:ٱللَّهَ, tr:Allāha, gloss:Allah'ı} bu sakınmanın nesnesidir. İkinci {ar:وَ, tr:wa, gloss:ve / bunun ardından} sakınmayı dinleme buyruğuyla eşler ve nesnesiz {ar:ٱسْمَعُوا۟, tr:ismeʿū, gloss:dinleyin} açık bir içerik göstermeden alımlayıcı dikkati ve itaate yönelişi çağırır. Son {ar:وَ, tr:wa, gloss:ve / bunun ardından} iki buyruğu değerlendirme cümlesine taşır; bağlaç tek başına yeni bir sebep kurmadan usulün ve emrin ilahi hükümle karşılandığını gösterir. Tekrar nominatif özne olan {ar:ٱللَّهُ, tr:Allāhu, gloss:Allah} önceki nesne rolünden ayrılıp son yargının kaynağı olur. {ar:لَا, tr:lā, gloss:-mez / asla} geniş zaman fiilini süreklilik taşıyan kategorik bir olumsuzlukla sınırlar; {ar:يَهْدِي, tr:yahdī, gloss:yol gösterir / doğruya yöneltir} geçişli yapısıyla yönlendirmenin belirli bir topluluğa ulaştırılmasını konu eder. {ar:ٱلْقَوْمَ, tr:al-qawma, gloss:topluluk / kavim} hükmü bireysel bir kusurdan grup düzeyine taşır, {ar:ٱلْفَاسِقِينَ, tr:el-fâsıkîn, gloss:sınırı aşanlar / itaatten çıkanlar} ise etkin ortaç biçimiyle anlık bir yanlıştan çok süreklileşmiş sınır ihlali tutumunu adlandırır.
+
+## Tanıklığın Yüzü
+
+Şimdi tanıklığın neden belirli bir yüz ve uygunluk içinde istenmiş olabileceği açılır. {ar:ٱلشَّهَٰدَةِ, tr:eş-şehâde, gloss:tanıklık} 2:283'te tanıklığı gizlememe ve gizlemenin günah sayılmasıyla yan yana geldiğinde görünür ve hesap verilebilir bir cevap olarak belirginleşir. 2:282'de borcun yazılması, adaletin korunması, tanıkların çağrılması ve şüphenin azaltılması için kurulan güvence düzeni, tanıklığın doğru içeriğinin doğru usulle kurulmasına katkı verir. 5:99'daki {ar:تُبْدُونَ, tr:tubdūne, gloss:açığa vuruyorsunuz} açığa çıkarma hareketi ile {ar:تَكْتُمُونَ, tr:taktumūne, gloss:gizliyorsunuz} gizleme hareketi bu görünürlüğü iki karşı yön halinde belirler. {ar:وَجْهِهَآ, tr:wajhihā, gloss:onun doğru yüzü veya yönü} bu hareketlerin odakla buluştuğu yerde, kabul edilebilir dış biçim ile o biçimin taşıdığı açıklığı birlikte taşıyan sözün yönünü gösterir. Tanıklığın doğru yüzü böylece bilgiyi saklı bir hesabın arkasında bırakmayan usulü görünür kılar; bu okuma biçim ve açıklık kazanma sınırında kalır, her açıklamayı bütün ayrıntılarıyla eksiksiz sayan bir iddiaya dönüşmez.
+
+Bu görünürlük kurulduktan sonra aynı kelimelerin taşıdığı daha somut hareket izlenebilir. {ar:يَأْتُوا۟, tr:yaʾtū, gloss:getmek, ulaşmak} hedefe ulaşma yönüyle tanıklığa temas eder ve delilin okurun önüne ulaştırılmasını düşündürür. {ar:ٱلشَّهَٰدَةِ, tr:eş-şehâde, gloss:bilgiye dayalı tanıklık} bilinen bir şeyi kesin haber veya açıklama olarak bildirme yönünü açar; getirme hareketi bu bilgiyi içte tutmayıp teslim edilebilir beyana çevirir. {ar:وَجْهِهَآ, tr:wajhihā, gloss:sözün veya işin doğru yönü ve ona uygun düzenleme} ise amaçlanan yönü ve görüşün yerli yerinde düzenlenmesini görünür kılar. Delilin ulaşması, bilginin beyana dönüşmesi ve sunumun içerikle uyumlu biçim alması birlikte duyulduğunda ayet, tanıklığın yalnız söylenmesini değil, taşıdığı gerçekle uyumlu bir yüz içinde görünür kılınmasını da düşündürür; bu tamamlayıcı yankı olağan hukuki tanıklığı daha belirgin hale getirir.
+
+Bu yüzün yanında daha ihtiyatlı bir imge alanı da açılır. Buradaki dört ayrıntı tanıklığın ortaya çıkışına farklı nitelikler verir. {ar:أَدْنَىٰٓ, tr:adnā, gloss:dişi hayvanda doğumun yaklaşması} doğum zamanının yaklaşmasını ve doğuma yakın durumu çağrıştırır; tanıklığın getirilmesiyle temas ettiğinde delilin görünürleşmesinden önceki eşiği imgesel olarak duyurur. {ar:يَأْتُوا۟, tr:yaʾtū, gloss:gelişip bol ürün vermek} ekinin veya hurmanın gelişip verimin artması yönünü taşır; tanıklıkla buluştuğunda getirilen sözün toplumsal bir sonuç üretmesini imgeleyebilir. {ar:ٱلشَّهَٰدَةِ, tr:eş-şehâde, gloss:doğum ve erginlik belirtisi} doğum veya erginlik sırasında beliren bedensel madde, akıntı ya da izi çağrıştırır; getirme hareketiyle birleşince tanıklığı görünür bir belirti gibi düşündürür. {ar:وَجْهِهَآ, tr:wajhihā, gloss:doğumda ellerin veya ön ayakların önce çıkması} yavrunun doğumda ellerinin veya ön ayaklarının önce görünmesini öne çıkarır; tanıklıkla temasında sözün önce görünen ve öne çıkan yönünü canlandırır. Yaklaşan eşik, artan verim, beliren belirti ve önce görünen yön tanıklığın ortaya çıkışına ayrı ayrı ışık düşürür; bu bedensel ve üretken görüntüler hukuki masdarın olağan anlamına eşlik eden keşifsel bir yankı olarak kalır.
+
+## Geri Dönen Yemin
+
+Tanıklığın görünen yüzünden sonra, o yüzü taşıyan sözün ne kadar sürdüğü sorusu öne çıkar. {ar:أَيْمَٰنٌۢ, tr:eymān, gloss:yeminler} 5:89'da boş sözden ayrılan, sorumluluk taşıyan bir söz güvencesi alanına yerleşir. {ar:ٱللَّغْوِ, tr:lağv, gloss:hesaba katılmayan boş söz} bu ayrımı görünür kılarken, {ar:عَقَّدتُّمُ, tr:akkadtum, gloss:bağladığınız} yeminin taahhüdü bağlayıp onaylama eşiğine ulaştırdığını gösterir. {ar:ٱحْفَظُوا۟ أَيْمَٰنَكُمْ, tr:ihfazû eymânekum, gloss:yeminlerinizi koruyun} buyruğu da sözün etkisinin ilk söylenişte bitmediğini, geri çevrilme ihtimali içinde korunmuş bir kayıt olarak sürdüğünü duyurur. {ar:أَدْنَىٰٓ, tr:adnā, gloss:daha yakın veya daha uygun} kelimesinin 4:3'te daha uygun ve daha adil seçeneğe yönelten önleyici gerekçede görünmesi, 5:108'deki usulü sonradan düzeltilecek bir sözden önce doğru biçime yaklaştıran daha güvenli bir seçim olarak düşündürür. Bu temas, 5:89'un kişisel yeminleri ile 5:108'in mahkeme tanıklığı bağlamı olarak okunması ihtimalini birlikte taşır; sonraki yeminler böylece peş peşe söylenen iki iddiadan daha fazlası, denetlenebilir ve emanet edilmiş sözler olarak duyulur.
+
+Bu yemin yükü farklı ayetlerde farklı yönlerden sınanır. 2:282'de adaletli kayıt, tanıkların çağrılması ve şüphenin azaltılması; 2:283'te tanıklığın gizlenmemesi, sözün görünür ve hesap verilebilir bir kayıt olmasını destekler. 24:9'da karşı-yeminin son halkasının Allah'ın gazabını çağıran bir güvenceyle tamamlanması, geri dönüş ihtimalini tanıklığı gerçekten sınayan bir usul olarak keskinleştirir. 2:225'te boş veya kasıtsız söz ile kalbin gerçekten bağlandığı sorumlu yemin arasındaki ayrım, bağlanan sözün hesaba katıldığını gösterir. 58:16'da yeminlerin siper ve engel olarak kullanılabilmesi, yeminin doğruluğu kendiliğinden güvenceye alan bir araç olarak her duruma taşınamayacağını hatırlatır. Bu bağların her biri 5:108'deki yemin yüküne ayrı bir yön verir: kayıt ve gizlememe görünürlüğü, karşı-yemin sınamayı, sorumlu yemin sözün ağırlığını, siper örneği ise bu ağırlığın kullanımındaki sınırı açar. Böylece her bağ kendi bağlamını korurken ayetin açık geri çevrilme korkusu da yerinde kalır.
+
+Geri dönüş ihtimali, 5:106 ve 5:107'deki sıra içinde somut bir inceleme döngüsüne dönüşür. İki tanık Allah adına yemin eder; 5:107'deki ikinci yemin aynı söz güvencesi alanına girer. {ar:ٱرْتَبْتُمْ, tr:irtabtum, gloss:kuşkuya düştünüz} tereddüdün yeminli incelemeyi başlatan eşiğini gösterir. {ar:عُثِرَ, tr:uthira, gloss:bulunduğu ortaya çıkarsa} diye anlatılan gizli kusur ortaya çıktığında ilk tanıklık çiftinin kaydı yeniden açılır. Hak iddiasındaki {ar:أَحَقُّ, tr:ahaqqu, gloss:daha layık} sözü bu yeni aşamada karşı tanıklığın önceki yeminin kesinliğini karşılaştırmalı biçimde sarsabileceğini bildirir. Yeni çiftin {ar:يَقُومَانِ مَقَامَهُمَا, tr:yekūmāni makāmahumā, gloss:ikisi onların yerine geçer} denmesiyle öncekinin yeri ve işlevi alınır; ardından {ar:شَهَٰدَتُنَا أَحَقُّ مِنْ شَهَٰدَتِهِمَا, tr:şehâdetunā ahakku min şehâdetihimā, gloss:bizim tanıklığımız onlarınkinden daha layıktır} sözü, bu karşılaşmayı bildiğini ortaya koyup hak konusunda söz söyleyen yeni tanıkların iddiası olarak somutlaştırır. Kuşku kapıyı açar, gizli kusurun bulunması kaydı yeniden açar, karşılaştırma önceki kesinliği sarsar ve yerine geçen çift işlemi sürdürür. Böylece “sonra başka yeminler” ifadesi belirsiz bir tekrar değil, ilk tanıklığı karşı tanıklıkla yeniden tartan bir usul hareketi olarak görünür; okuma 5:106 ve 5:107'nin bağlamıyla sınırlıdır.
+
+Bu yeniden açılabilen kayıt, {ar:يَخَافُوا۟, tr:yakhāfū, gloss:korkarlar} fiilinin iki yönünü birlikte duyurur. Bir yönde korku, bilinen veya sanılan bir belirtiye dayanarak istenmeyen sonucu önceden beklemektir; karşı-yeminin geri dönüş ihtimali bu beklentiyi tanığın ilk beyanını daha dikkatli kurmasına bağlar. Diğer yönde aynı fiil korku, ürküntü ve kaçınma eğilimidir; geri dönme ihtimali hukuki prosedüre davranışsal bir caydırıcılık ekler. {ar:تُرَدَّ, tr:turadda, gloss:geri çevrilir} nesnenin, sözün veya iddianın olumsuz değerlendirme sonucunda kabul edilmemesini; ayrıca bir sözün yanlış sayılıp reddedilmesini düşündürür. Bu yankı hukuki akışın içine doğrulukla ilgili bir dikkat yerleştirir; edilgenliğin fail belirsizliği ve geri dönüşün bağlama bağlı sonucu korunur.
+
+Geri dönüşün zaman ve hareket tarafı da aynı kayıt üzerinde belirir. {ar:تُرَدَّ, tr:turadda, gloss:geri çevrilir} ilk gerçekleşmeden sonra yeniden olmayı ve iki yön veya yer arasında tekrar tekrar gidip gelmeyi düşündürebilir; sonradan tekrarlanan yeminler bu hareketi tetiklediğinde karşılaşma tekil bir işlemden çok ileri geri sınanan bir süreç gibi görünür. {ar:بَعْدَ, tr:baʿda, gloss:sonra gelme} bu hareketin gerçekten sonraya yerleşmesini güçlendirir. {ar:أَيْمَٰنٌۢ, tr:eymān, gloss:yeminler} bir yandan iddia veya davranışı güvenceye bağlayan ant içme eylemini, öte yandan bu eylemden doğan bağlayıcı sözü duyurur. Böylece sonralık hareketin zamanını, tekrar geri dönüşün ritmini, yemin ise bu hareket içinde yeniden sınanan söz güvencesini taşır; yinelenme ve iki taraflılık hukuki çekirdeğin üzerinde işleyen ek imgeler olarak kalır.
+
+## Sakınma ve Dinleme
+
+Sözün geri dönmesi korkusu kişide nasıl bir karşılık bulacaksa, ayet bunu yeniden buyruğun diline taşır. {ar:ٱتَّقُوا۟, tr:ittaqū, gloss:sakının, kendinizi koruyun} korkulan geri dönüş ile kişi arasına koruyucu bir tutum koyar; bu tutum korku duygusuyla sınırlı kalmadan yanlış davranıştan kendini koruma yönünü de taşır. Önceki sakınma buyruğunun ardından gelen {ar:ٱسْمَعُوا۟, tr:ismeʿū, gloss:dinleyin} anlamayı, sözü kabul etmeyi ve ona uygun davranmayı içeren bir dinleme olarak duyulur; nesnesiz oluşu, bu kabul ve itaat yönünü belirli bir nesne icat etmeden açık bırakır. 5:92'deki {ar:ٱحْذَرُوا۟, tr:ihzerū, gloss:sakının / tedbir alın} uyarısı korkulan zarar ile kişi arasına koruyucu bir önlem koyma anlamını bu sakınmaya taşır; aynı ayetteki {ar:أَطِيعُوا۟, tr:atīʿū, gloss:itaat edin} sözü dinlemeyi sesi işitmenin ötesine, anlayıp kabul ederek gereğini yapmaya uzatır. 2:104'te kamusal hitabın düzeltilmesiyle yan yana gelen işitme ve 64:16'da dinleme ile itaatle birlikte anılan sakınma, 5:108'in iki emrini tanıklık usulüne içeriden katılma çağrısı olarak açar.
+
+Bu açılımın yönünü 2:93'teki {ar:سَمِعْنَا وَعَصَيْنَا, tr:semiʿnā ve ʿaṣaynā, gloss:duyduk ve isyan ettik} sözü belirler: işitme ile itaat aynı hareketin iki ayrı eşiğidir. Bu karşı örnek, {ar:ٱسْمَعُوا۟, tr:ismeʿū, gloss:dinleyin} emrindeki anlama ve kabule yönelişi korurken, itaat sonucunun ayrıca gerçekleştiğini gösterir; {ar:ٱتَّقُوا۟, tr:ittaqū, gloss:sakının} buyruğu da burada geri dönüş ve davranış alanındaki koruyucu tavrıyla kalır. 2:104'teki düzeltici işitme çağrısı, 64:16'daki sakınma ile işitme ve itaatin birlikteliği, 2:93'teki işitip isyan etme karşıtlığı farklı yönlerden aynı kapanış emrine döner. Birlikte açtıkları katkı, bilgiyi alan, ölçüyü anlayan ve ona göre kendini korumaya yönelen; fakat işitme ile itaati birbirine eşitlemeyen bir katılımdır.
+
+Aynı buyrukların yanında duran topluluk adı, korunmanın toplumsal ölçeğini düşündürür. 5:97'deki {ar:قِيَٰمًا لِّلنَّاسِ, tr:qiyāmen linnās, gloss:insanları ayakta tutan dayanak} varlığı ve düzeni sürdüren temel desteği sağlar. Bu yapısal destek, {ar:ٱتَّقُوا۟, tr:ittaqū, gloss:sakının} buyruğunda zarar ile korunacak şey arasına yerleşen koruyucu katmana dönüşür. {ar:ٱلْقَوْمَ, tr:al-qawma, gloss:topluluk / kavim} sözlük yönüyle kadınlardan ayrı düşünülen erkekler topluluğunu ve ona bağlı yakın çevreyi gösterebilir; 5:97'deki dayanakla temas ettiğinde korunacak toplumsal gövdeyi somutlaştırır, bu sözlük yönü tek başına bir cinsiyet hükmü kurmaz. {ar:ٱلْفَاسِقِينَ, tr:el-fâsıkîn, gloss:sınırı aşanlar / itaatten çıkanlar} taze hurma tanesinin kendisini saran kabuktan dışarı çıkmasını anlatan somut bir kullanımı da çağrıştırır; bu görüntü toplumsal gövdenin sınırını yaran hareketi verir. Dayanak yapıyı, sakınma koruyucu katmanı, topluluk korunacak gövdeyi, kabuktan çıkış ise sınırın delinmesini görünür kılar. {ar:يَهْدِي, tr:yahdī, gloss:yol gösterir / doğruya yöneltir} fiilinin doğru yönü ince biçimde gösterme yönü bu çıkışı rehberlik hükmüyle buluşturur. Bu sosyal-maddi imge keşifsel bir katkı olarak kalır; hurmanın kabuktan çıkışı, insanın ahlaki statüsünün botanik tanımı değil, sınırdan çıkışın somut görüntüsüdür.
+
+## Bilginin Sınırı
+
+Tanıklığın yüzü görünür olduktan sonra başka bir soru belirir: Tanık gerçekten neyi görmüş ve neyi biliyordur? {ar:ٱلشَّهَٰدَةِ, tr:eş-şehâde, gloss:hazır bulunup görmeye dayalı tanıklık} 5:109'da elçilerin kendilerine ne cevap verildiği sorulduğunda “bizim bilgimiz yok” demesiyle karşılaştığında, tanıklığa hazır bulunma ve gerçekten görülmüş olma çekirdeğini verir. Bu cevap, bilen ile ileri sürülen arasına bir sınır koyar; tanıklık da iddianın kapsamını tanığın bilme yetkisiyle birlikte taşır. Aynı ayette gizli olanın Allah'a bırakılması, bu bilme sınırını tamamlar ve tanıklığı tanığın eriştiği bilinen alana bağlı bir cevap olarak belirler.
+
+5:117 bu hazır bulunma çekirdeğini zamana taşır. {ar:مَا دُمْتُ فِيهِمْ, tr:mā dumtu fīhim, gloss:aralarında bulunduğum sürece} tanıklığı tanığın topluluğun içinde bulunduğu dönemle sınırlar; {ar:ٱلشَّهَٰدَةِ, tr:eş-şehâde, gloss:hazır bulunup görmeye dayalı tanıklık} bu zaman sınırına döndüğünde doğru cevap gerçekten hazır bulunulan süreyi korur. {ar:تَوَفَّيْتَنِى, tr:tawaffaytanī, gloss:beni aldığında} tanıklığın sona erdiği eşiği belirler; kişi artık hazır bulunmadığı dönem hakkında kendi deneyimine dayanan bir sahiplik kuramaz. Ardından {ar:ٱلرَّقِيبَ, tr:er-Raqīb, gloss:gözetip koruyan ve gözetleyen} olarak süren gözetim, tanığın yokluğundan sonraki denetimi onun doğrudan görmesinden ayırır. Böylece görülmüş alan, bilinen içerik ve hazır bulunulan zaman tanıklığın sınırlarını birlikte kurar; 5:109 ve 5:117'nin ilahi bilgi ve gözetim sahnesi korunur, bu temas yerel hukuk kuralına doğrudan yeni bir şart ekleyen hükme dönüşmez.
+
+Yakın usulün bir sonraki sorusu, doğru sözün daha sonra ne doğurduğudur. {ar:أَدْنَىٰٓ, tr:adnā, gloss:yakın, küçük veya ilk olan} karşılaştırmasının 5:119'da doğru söz sahiplerinin ve doğruluklarının yarar gördüğü daha uzak sonuçla temas etmesi, “daha uygun” ölçüsünü o anda işleyen denetimden ilerideki karşılığa doğru uzatır. {ar:ٱلشَّهَٰدَةِ, tr:eş-şehâde, gloss:bilgiye dayalı tanıklık} doğru sözü yalnız o anda kabul edilen bildirim olmaktan çıkarıp sahibinin doğruluğuyla değer kazanan beyan olarak duyurur. 5:119'da geçen {ar:يَنفَعُ, tr:yanfaʿu, gloss:yarar sağlar} sonucu bu yakın usulle buluştuğunda, doğru davranışın söz sahibine dönen karşılığını görünür kılar. {ar:ٱلصَّٰدِقِينَ, tr:es-sâdıkīn, gloss:doğru söz sahipleri} ve {ar:صِدْقُهُمْ, tr:ṣidquhum, gloss:onların doğruluğu} bu karşılığı sözün sahibindeki doğruluk niteliğine bağlar. Böylece adnā yakın denetim ölçüsünü, yanfaʿu daha sonraki yararı, sâdıkîn ve sıdquhum ise bu yararı taşıyan doğruluk niteliğini açar; 5:119'un sonraki gün ve doğruluk ödülü dili kendi sahnesini koruyarak yerel usule yalnız bu ikinci ufku düşündüren bir temas olarak döner.
+
+## Yönün Sınırı
+
+Son cümlede Allah'ın özne oluşu, tanıklık ve emirlerden sonra kişinin yönelişiyle başkasının sapması arasındaki sorumluluk sınırını çizer. {ar:يَهْدِي, tr:yahdī, gloss:doğru yolu gösterir ve doğruya yöneltir} 5:105'teki {ar:ضَلَّ, tr:ḍalla, gloss:saptı} ve {ar:ٱهْتَدَيْتُمْ, tr:ihtadaytum, gloss:doğru yolu buldunuz} karşıtlığıyla temas edince, gösterilen doğru yönü kabul edip ona ulaşma sürecini de taşır. 5:105'in başkasının sapmasının doğru yolu bulan kişiye zarar vermediğini söyleyen bağlamı, 5:108'deki rehberlik etmeyişini kişinin kendi yönelişinden sorumlu olduğu bir sınır olarak çerçeveler. Allah'ın fail oluşu bu çerçevede yerini korur; 5:105'in sorumluluk vurgusu tanıklık usulünün bütün ayrıntılarına değil, kişinin kendi yönelişine ışık tutar.
+
+Bu yön sınırı, 3:86'da tanıklık ve açık delillerden sonra reddedişle birlikte görünen rehberlikten uzak kalma çerçevesiyle; 9:80 ve 63:6'da yinelenen “Allah fâsık topluluğu yönlendirmez” kapanışlarıyla belirginleşir. {ar:ٱلْفَاسِقِينَ, tr:el-fâsıkîn, gloss:itaat sınırından çıkanlar} burada bağlayıcı buyruğa ve itaate bağlı sınırdan çıkma hareketini adlandırır. 3:86'daki tanıklık sonrası reddediş bu çıkışın tanıklıkla ilişkisini, 9:80 ve 63:6'daki tekrar ise aynı fâsık kapanışının yön sınırı oluşturmasını görünür kılar. Bu hareket tanıklık düzenine karşı alınan konumu ahlaki bir yön kaybıyla buluşturur; ayetin olağan hükmü, Allah'ın fâsıklara rehberlik etmeyeceğini bildiren açık söz olarak yerinde kalır. Geniş yankı, önceki emirlere ve tanıklık düzenine katılmayan topluluğun doğru yoldan uzaklaşmasını bu yön sınırı içinde görünür kılar.
+
+Fâtiha'nın doğru yol istemi ve dosdoğru yol nitelemesi (1:6), sapmışlar karşıtlığı (1:7) ile birlikte düşünüldüğünde bu kapanışın yönü daha somut bir çizgi kazanır. {ar:ٱهْدِنَا, tr:ihdinā, gloss:bizi ilet} sözü, {ar:يَهْدِي, tr:yahdī, gloss:doğru yola iletir} fiiline doğru yönü göstermek, açıklamak ve ona ulaştırmak boyutunu ekler. {ar:ٱلْمُسْتَقِيمَ, tr:el-mustaqīm, gloss:dosdoğru} nitelemesi fasıklık karşısındaki düz çizgiyi düzgünlük, denge, doğru inanç düzeni ve adil sözle dolu bir yolda kalma olarak belirginleştirir. {ar:ٱلضَّآلِّينَ, tr:ed-dāllīn, gloss:sapanlar} ise {ar:ٱلْفَاسِقِينَ, tr:el-fâsıkîn, gloss:yoldan çıkanlar} için bağlayıcı buyruğa ve itaate bağlı sınırdan çıkışın yakın bir karşılığını sunar. Bu temasın kaynağı yalnız 1:6 ve 1:7'deki doğru yol istemi, düzgün yol ve sapmışlar karşıtlığıdır; böylece Fâtiha'nın diğer dua ve övgü cümleleri bu ayetin sahnesine taşınmadan, rehberlik istenen ve üzerinde kalınan bir yol, fasıklık da o yoldan çıkış olarak duyulur.
+
+</editorial_prose>

@@ -1,0 +1,181 @@
+You are the V5 reading-invitation writer for 5:57. You are running as a fresh gpt-5.6-luna max agent.
+
+Read and follow this generated invitation prompt exactly. It is your sole semantic source. Write only the requested invitation artifact, run the validator named in the prompt, repair only mechanical validator failures up to the allowed limit, then report the final validator result here. Do not use external lifecycle, pause, dashboard, Firebase, event, or registration commands.
+
+# V5 reading invitation — 5:57
+
+You are a fresh reading-invitation writer. Read the complete editorial prose
+before writing. It is your sole semantic source.
+
+Write two to four paragraphs of fluent, contemporary Turkish that reveal a
+surprising reading by following one or two main channels of resonance in the
+ayah. A channel is a connected background of meanings, images, actions, or
+relations through which the ayah can be heard and understood differently.
+Several editorial findings may together develop one channel. Summarize that
+connected movement and its consequence for the ayah's main meaning, rather
+than compressing findings individually. Give the reading's substance now;
+the invitation comes from understanding it, not from a promise of hidden depth.
+
+Before drafting, read the entire editorial prose and silently select the one
+or two channels with the strongest interpretive consequence and enough
+grounding to explain clearly. Favor channels that expand or shift what the
+ayah says, the relation it establishes, or what is at stake in its action or
+image. One fully developed channel is sufficient; add a second only when it
+offers a distinct consequential reading that can be explained within the
+invitation. No finding, channel, or major shift has an individual coverage
+claim. Unselected material may remain entirely in the full commentary.
+
+A channel may develop through grammar, sound, dialogue, a material process,
+time, imagery, or a conceptual relation. Resonance is not limited to acoustic
+effects, and an unusual image alone does not establish a channel. Use only
+connections the editorial prose actually develops. If it supplies no such
+channel, explain its strongest grounded reading without inventing connections
+or surprise.
+
+Begin inside the ayah's own words, images, actions, or relations and reveal a
+selected distinctive reading in the first paragraph. Keep the plain meaning
+reachable with only the orientation needed to understand the change. Do not
+spend an opening paragraph on routine explanation or front-load context about
+the surah, the ayah's position, or the commentary project.
+
+For each selected channel, begin with the expression that opens it, unfold the
+connected background, and show how the ayah reads or sounds against that
+background. Let a detail lead into the next through an intelligible relation
+or process, so the reader experiences the emerging reading. This is a movement
+of thought, not a mandatory sentence pattern or one paragraph per finding.
+Let the reader identify the expression being interpreted,
+where any nonordinary detail comes from, and what that detail changes in the
+reading. Briefly identify the word-family use, restricted form, collocation, or
+context that supplies an essential added detail, and preserve the concrete
+operation that makes the image work. Keep the ordinary reading and necessary
+qualification clear within this explanation; do not repeat them as a fixed
+formula. Preserve the particular object, process, or relation that makes this
+reading distinctive, and state its interpretive consequence for the ayah as a
+whole. Make intelligible what the familiar reading leaves less visible and
+what the expanded or shifted reading now lets the reader understand. Preserve
+the editorial's force: an exploratory possibility remains possible, while a
+developed shift must not be softened into a decorative association or a
+reassurance that everything means the same thing. A concrete
+account of how something is carried, transformed, lost, or restored must not
+shrink to a general statement about care, guidance, dependence, or goodness.
+Keep the details needed to make the selected channel work; omit side findings
+and shorten routine setup. If a channel cannot be explained faithfully from
+the editorial prose, choose another grounded channel or reading.
+
+When a non-focus ayah supplies a contribution used in the invitation, keep its
+reference from the editorial prose beside that contribution.
+
+Do not turn the invitation into a miniature inventory of the commentary's
+conclusions, or flatten distinct channels into a broad theme to include more
+material. Do not repair, extend, or supplement the editorial prose from memory
+or outside knowledge.
+
+Omit technical apparatus. Retain any qualification, source distinction, live
+alternative, or boundary whose absence would change the force or meaning of a
+chosen reading. Express it naturally beside the image or relation it qualifies.
+Favor positive explanations of the relation between layers: what remains in
+the foreground and what the resonance makes audible in the background. State
+how that background reinforces, expands, or shifts the understanding of the
+main meaning, with the source and degree of certainty clear. Reserve explicit
+exclusions for concrete ambiguities or live counter-evidence that need them.
+Repeated "this is not X" endings make a reading sound withdrawn; express the
+substantive qualification through what the reading does contribute wherever
+possible. Use varied, natural language rather than a repeated "second layer"
+formula, and preserve the force of expansions and shifts.
+Do not name branches, candidates, findings, scopes, evidence categories,
+ledgers, or workflow stages, or label the prose as numbered channels. Do not
+list findings serially.
+
+Use the established `{ar:..., tr:..., gloss:...}` syntax, consistent
+Turkish-readable transliteration, and short ordinary glosses. Keep Arabic
+anchors beside the explanations they ground. Within a paragraph, continue with
+the Turkish meaning where clear; provide the necessary local tag when a later
+paragraph interprets the carrier anew. Do not place Arabic script outside a
+valid tag.
+
+Build transitions within a channel through its shared object, action, or
+relation. If two channels are selected, they may occupy separate paragraphs;
+do not invent a link between them. Do not praise the commentary's quality,
+promise what the reader will find, manufacture suspense, recap at the end, or
+add a call to action. End on an image, relation, action, or tension already
+established by the selected reading.
+
+Before finishing, compare the invitation with the entire editorial prose:
+does the chosen channel reveal a consequential reading, or could the text have
+been written from the ordinary translation and a modest explanation alone?
+When the editorial supports a surprising channel, the latter fails this task.
+Can the reader follow the opening expression into a connected background and
+understand how that background expands or shifts the ayah's main meaning?
+Check the selected connections against their editorial explanation: can the
+reader tell where the nonordinary details come from, with the necessary
+qualifications intact? Repair generic explanation, isolated curiosities, or a
+compressed findings list by developing the selected channel. Do not add
+omitted channels merely for coverage. Do not output this check.
+
+Write only the invitation text to:
+
+`_commentary/v5/editorial/s005-p05-with-fatiha/s005/5_57/5_57.invitation.tr.md`
+
+Do not add a heading, wrapper label, index, ledger, evidence file, or any other
+artifact. Do not modify the editorial prose.
+
+After writing the invitation, run:
+
+```bash
+python3 _commentary/v5/validate_prose.py _commentary/v5/editorial/s005-p05-with-fatiha/s005/5_57/5_57.invitation.tr.md
+```
+
+If validation fails, repair only the reported mechanical file-contract issues
+and rerun it, for at most two repair cycles. Report the final validator result
+in your response.
+
+<editorial_prose>
+## Hitap, Edinme ve Güven
+
+Bu âyet, inananlara, dinlerini alay ve oyun konusu yapanları, kendilerine daha önce Kitap verilmiş olanlar arasından bu tutumla nitelenenleri ve inkâr edenleri koruyucu dostlar edinmemelerini, ardından Allah'a karşı sakınmalarını söyler. Önce insanlarla kurulacak ilişkinin sınırını çizer, sonra korunmanın yönünü Allah'a çevirir ve buyruğu iman kimliğinin bir sınaması olarak kapatır. Başlangıçtaki {ar:يَا, tr:yâ, gloss:ey} doğrudan bir hukukî hitap açar; kural uzaktan verilmiş bir öğüt gibi değil, muhataba yöneltilmiş bir yükümlülük gibi duyulur. {ar:أَيُّهَا, tr:eyyühâ, gloss:ey} çağrıyı uzatıp dinleyiciyi hazırlar, ardından gelen nitelemeyle kimin çağrıldığını belirginleştirir. Tekrarlanan {ar:ٱلَّذِينَ, tr:ellezîne, gloss:-enler} yapısı toplulukları çıplak adlarla değil, yaptıkları veya kendilerine verilen şeyle tanımlar. İlk {ar:ءَامَنُوا۟, tr:âmenû, gloss:inandılar} fiilinin tamamlanmış biçimi, yasağın öncesinde muhatapları imana ve güvene girmiş kişiler olarak yerleştirir; hitap yalnızca bir aidiyet etiketine değil, içine girilmiş bir güven hâline yönelir.
+
+Bu kimlik hitabının hemen ardından gelen {ar:لَا, tr:lâ, gloss:edinmeyin}, sözü kısa ve keskin bir dönüşle hukuka çevirir. Bu edat yalnızca ilk adı geçen kişileri değil, cümlenin sonunda açıklanacak rolü de kapsayan bütün edinme kuruluşunu yönetir. {ar:تَتَّخِذُوا۟, tr:tettehizû, gloss:edinmeyin} biçimi, muhatapların söz konusu kişileri kendi tercihleriyle kendilerine edinmesini anlatır; burada birlikte yaşamanın kaçınılmazlığı değil, seçilmiş bir bağlılık kurma eylemi görünür olur. Fiilin iki nesneli kuruluşu, meselenin sıradan temasla bitmediğini gösterir: tarif edilen kişilere sonunda {ar:أَوْلِيَآءَ, tr:evliyâe, gloss:koruyucu dostlar} rolünü vermek söz konusudur. İkinci {ar:ٱلَّذِينَ, tr:ellezîne, gloss:-enler} yeni bir özne açmaz; edinilmesi yasaklanan ilk nesneyi gösterir ve onu ardından gelen davranış cümlesiyle tanımlar. Onların {ar:ٱتَّخَذُوا۟, tr:ittehazû, gloss:edindiler} fiili, dîni belirli bir hâle yerleştirmiş tamamlanmış bir tasarrufu sunar. Aynı biçim ailesinin karşılaşması, bir tarafın dîni bir statüye sokmasını öteki tarafın da o kişileri bir role sokmasıyla yüz yüze getirir; önceki edinme işi, muhatapların başlamaması gereken edinme işine ayna tutar.
+
+Edinilen şeyin ağırlığı, {ar:دِينَكُمْ, tr:dîneküm, gloss:dininizi} kelimesinde belirginleşir. İkinci çoğul kişi eki, alayın uzak ve soyut bir fikirle değil, muhatapların ortak dinî düzeniyle temas ettiğini gösterir. Dîn burada boyun eğerek sürdürülen inanç ve yaşayış düzenidir; borç, hesap, itaat ve hayatı biçimlendiren bu ağırlık, küçültmeye uğrayan şeyin kapsamını görünür kılar. {ar:هُزُوًۭا, tr:huzuven, gloss:alay} dînin adı değil, bu düzenin uğradığı küçültücü sonucu adlandırır; tamamlanmış edinme fiili onu ciddiyeti boşaltılmış bir alay durumuna sokar. Yanındaki {ar:لَعِبًۭا, tr:leiben, gloss:eğlence} ciddi bir amaca yönelmeyen, sonuçları askıya alan oyun hâlini getirir. Aradaki {ar:وَ, tr:ve, gloss:ve}, alay ile oyunu tek bir belirsiz söze eritmez; iki ayrı küçültme biçimini aynı kuruluşta eşitçe yan yana tutar. İki kelimenin aynı tamamlayıcı konumda dengeli gelişi kısa, iki vuruşlu bir tamamlanma duygusu verir. {ar:هُزُوًۭا, tr:huzuven, gloss:alay} için kaydedilen hemzeli ses biçimleri ve {ar:لَعِبًۭا, tr:leiben, gloss:eğlence} ile duyulan sesli harf farkı anlamı değiştirmez, fakat tilavetteki yüzey baskısını ve ritmi belirginleştirir. Oyun anlamı dînin taşıdığı hesap ve sorumluluk düzeniyle karşılaştığında, hayatı yöneten yükümlülüğün sonuçlarını hafifleten amaçsız bir tavır görünür olur. Alay böylece geçici bir gülüşten dinî düzene verilmiş bir statüye, dîn de yalnız bir etiketten ciddiyeti korunması, terk edilmesi veya aşırılığa uğratılması mümkün bütün yaşama düzenine dönüşür.
+
+Bu kişiler önce {ar:مِّنَ, tr:mine, gloss:-den} edatıyla tanımlanır. Bu edat, onların kimler arasından belirlendiğini ve açıklamanın hangi gruba uzandığını aynı anda duyurur. Onu yöneten sonraki {ar:ٱلَّذِينَ, tr:ellezîne, gloss:-enler} cümlesi, grubu burada başlattıkları yeni bir eylemle değil, kendilerine ulaşmış Kitap'la tanımlar. {ar:أُوتُوا۟, tr:ûtû, gloss:kendilerine verildi} edilgen geçmiş biçimi, kendi başarılarını değil, kendilerine verilmiş Kitap statüsünü öne çıkarır. Uzun niteleme böylece tanınabilir bir vahiy alıcısı kategorisi kurar ve bu kategoriyi, dîni alaya alma davranışının değerlendirildiği role yerleştirir. {ar:ٱلْكِتَٰبَ, tr:el-kitâbe, gloss:Kitap} dînle aynı tanım içinde yer alarak yazıya geçmiş, hüküm taşıyan ve bağlayıcı düzen kuran bir otoriteyi görünür kılar. Belirli bir nesne olarak tanınan Kitap, kendisine sahip olduğu söylenenlerin dîni hafife almasını daha keskin bir karşıtlık hâline getirir; açıklama bu cümlede Kitap'ın bu yazılı ve hüküm taşıyan çekirdeğine dayanır.
+
+Ardından gelen ikinci {ar:مِن, tr:min, gloss:önce}, ilk edatın kaynak belirleme işini tekrarlamaz; {ar:قَبْلِكُمْ, tr:kabliküm, gloss:sizden önce} ile birleşerek zaman sırası kurar. Önceki Kitap alıcıları doğrudan bu muhatapların öncesine yerleştirilir; geçmiş, bugünkü bağlılık seçiminin ölçüldüğü bir karşılaştırma noktası olur. {ar:قَبْلِكُمْ, tr:kabliküm, gloss:sizden önce} öncelik ve karşı karşıya durma basıncını da hafifçe duyurabilir, fakat cümlenin açık zemini zamansal “sizden önce” ilişkisidir. Önceki toplulukların hatırası yasağın içine alınır; daha önce gelmiş olmaları, dîni hafife aldıkları rolde yetki kazanmaları anlamına gelmez. Bu nitelemenin ardından gelen {ar:وَ, tr:ve, gloss:ve}, {ar:ٱلْكُفَّارَ, tr:el-küffâre, gloss:inkâr edenler} sözünü iki kapsam yoluna açık bırakır: söz önceki Kitap nitelemesine bağlanabilir veya inkâr edenler daha geniş bir yasaklı nesne olarak ayrıca duyulabilir. Yüzeydeki belirtme biçimi mevcut cümle kuruluşunu korurken bu iki grup haritasını birlikte taşır. {ar:ٱلْكُفَّارَ, tr:el-küffâre, gloss:inkâr edenler} sıradan bir çoğul etiketinden daha serttir; örtme, inkâr ve nankörlüğü süreklilik kazanmış bir kimlik olarak öne çıkarır. Bu yoğunluk kendi kategorisi içinde kalır ve iki kapsam yolundan birini fazladan hükme dönüştürmez.
+
+Uzun niteleme bittikten sonra gelen {ar:أَوْلِيَآءَ, tr:evliyâe, gloss:koruyucu dostlar}, iki nesneli yapının gecikmiş ikinci tümlecidir; yasağın verilecek rolünü en sonda açıklar. Bu rol, dîni hafife alan ve inkârla nitelenen kişileri yakınlık ve koruyuculuk ilişkisinin karşı tarafına yerleştirir. {ar:أَوْلِيَآءَ, tr:evliyâe, gloss:koruyucu dostlar} aralıksız yakınlığı, korumayı, himayeyi ve bir işi üstlenip yürütme yetkisini aynı yerde toplar. Böylece yakınlık yalnız yanında durmak değil, güvenin ve yönün hangi elde toplanacağını belirleyen biçimlendirici bir rol hâline gelir. Uyarının hedefi, bu rolü kuran yakınlıktır; sıradan tanışıklık bu cümlede kendiliğinden aynı kapsamı kazanmaz.
+
+Bu rol açıklandıktan sonra yeni cümleyi açan ikinci {ar:وَ, tr:ve, gloss:ve}, önceki nesneleri çoğaltmaz; yasaktan olumlu bir korunma buyruğuna geçer. {ar:ٱتَّقُوا۟, tr:itteḳû, gloss:sakının} emri, muhatapların başkalarını kendilerine edinme yönündeki seçimi bırakırken Allah'a dönük bir korunma kurmasını ister. Emir oluşu, kapanışta doğrudan yapılması istenen eylemi belirginleştirir. Kelimenin zarar ile kişi arasına koruyucu bir engel koyma ve öz-koruma yönü, toplumsal bağlılık tehlikesiyle kişi arasına bilinçli bir sınır yerleştirir. Açık nesne olan {ar:ٱللَّهَ, tr:Allâhe, gloss:Allah'a}, uzun insan grupları listesinden sonra korunmanın yönünü belirli bir ilahî merkeze bağlar ve koruyucu rolün yetkisini orada toplar. İlâhî ad özel ad olarak kalırken ibadet ve huşu basıncını da taşır; korunma güvenlik ile tapınılan varlığa yönelişi aynı harekette birleştirir.
+
+Kapanışı açan {ar:إِن, tr:in, gloss:eğer}, bütün buyruğu bir kimlik sınamasına bağlar. {ar:كُنتُم, tr:kuntum, gloss:iseniz} muhatapları bir oluş ve bulunduğu yerde durma hâlinin içine yerleştirir; “mümin” yüklemi gelmeden önce bu hâli şartın konusu yapar. Başlangıçtaki tamamlanmış {ar:ءَامَنُوا۟, tr:âmenû, gloss:inandılar} ile sondaki {ar:مُّؤْمِنِينَ, tr:mü'minîn, gloss:inananlar} arasındaki dönüş, ilk iman bildirimini şimdi yerine getirilmesi gereken bir sorumluluk olarak geri getirir. Son kelimenin etkin ortaç biçimi bir kez inanmış olmayı değil, şart altında süren bir mümin hâlini yüklem yapar. İlk iman sözü güven ve emniyet alanını açmışken, {ar:ٱتَّقُوا۟, tr:itteḳû, gloss:sakının} bu güveni koruyan eyleme dönüşür. Yanlış koruyucu bağlılık böylece topluluğun güvenini hangi merkeze yerleştirdiği sorusunu doğurur; iman korkuya indirgenmeden, güvenin yönünü koruyan bir sınırla yaşanır.
+
+Bu rolün nasıl kurulduğu, önce {ar:تَتَّخِذُوا۟, tr:tettehizû, gloss:edinmeyin} fiiliyle görünür olur. Fiilin birini veya bir şeyi bilerek kendi alanına alma yönü, {ar:أَوْلِيَآءَ, tr:evliyâe, gloss:koruyucu dostlar} kelimesinin biçimlendirici yakınlığıyla birleşince, söz konusu kişileri topluluğun yönünü etkileyen bir yere yerleştirme ihtimalini açar. Edinme eylemi burada yakınlığı bir role dönüştüren harekettir; bu bağlantının ağırlığı, rolün yön verici tarafında toplanır.
+
+Bu role giren şeyin neyi değiştirebileceğini {ar:دِينَكُمْ, tr:dîneküm, gloss:dininizi} kelimesinin bağlayıcı düzeni, {ar:لَعِبًۭا, tr:leiben, gloss:eğlence} kelimesinin ciddi amacı askıya alan yönü ve {ar:أَوْلِيَآءَ, tr:evliyâe, gloss:koruyucu dostlar} kelimesinin üstlenip yönetme tarafı birlikte gösterir. Dîn düzeniyle oyun yönü karşılaşınca, amaçsız bir tavrın dinî düzeni içeriden şekillendirme ihtimali görünür olur; evliyâdaki yönetme tarafı bu ihtimali norm koyan bir konuma bağlar. Bu üçlü temas, oyunun her kullanımına yayılmadan, bu rolü dîni amaçsızlığa çevirenlere vermeme sonucunu taşır.
+
+Aynı kelime kuruluşu, bu kez iki tarafın edinme hareketini karşılaştırır. {ar:تَتَّخِذُوا۟, tr:tettehizû, gloss:edinmeyin} ile {ar:ٱتَّخَذُوا۟, tr:ittehazû, gloss:edindiler} karşı karşıya geldiğinde, onların dîni küçültücü bir statüye sokması ile muhatapların onları biçimlendirici bir yakınlık rolüne alıp almaması aynı eksende görünür. İki fiilin biçim ailesi bir kontrol ve sahiplenme zinciri kurar; geçmişte tamamlanmış tasarruf ile şimdi kurulması istenmeyen seçim yine de birbirinden ayrıdır. {ar:هُزُوًۭا, tr:huzuven, gloss:alay} dîne verilen küçültücü statüyü, {ar:أَوْلِيَآءَ, tr:evliyâe, gloss:koruyucu dostlar} ise bu statünün içeride yön verici hâle gelebileceği yakınlığı taşır. Böylece dışarıdaki küçümsemenin içeride biçimlendirici bir etkiye dönüşmesini kesen sınır görünür olur; bağlantı, alay ve koruyucu yakınlığın bu karşılaşmasına aittir.
+
+İmanla korunma arasındaki temas da bu sınırı içeriden aydınlatır. {ar:ءَامَنُوا۟, tr:âmenû, gloss:inandılar} kelimesinin iman ve güven yönü, {ar:ٱتَّقُوا۟, tr:itteḳû, gloss:sakının} kelimesinin koruyucu eylemiyle karşılaştığında, bağlılık sınırı yerleşmiş güvenin Allah'a yöneltilmiş bir uygulaması olarak okunur. Koruma yönünün zarar ile kişi arasına engel koyması, iman kimliği etrafında somut bir koruyucu sınır resmi verir. Son {ar:مُّؤْمِنِينَ, tr:mü'minîn, gloss:inananlar} kelimesi bu sınırın tek seferlik bir korku tepkisi değil, süren mümin hâlini koruyan bir yöneliş olduğunu duyurur. Buyruğun Allah'a dönük yönü sabit kalır; iman, korkunun adı değil, güvenin hangi yakınlık ve otorite çevresinde sürdürüleceğini belirleyen canlı bir hâl olur.
+
+## Uyarının Yakın Sahneleri
+
+Bu iç sınır, aynı kelimelerin yakındaki bir sahnede yeniden buluşmasıyla görünür bir biçim kazanır. Odak âyetteki {ar:لَعِبًۭا, tr:leiben, gloss:eğlence} ve {ar:هُزُوًۭا, tr:huzuven, gloss:alay} kelimeleri 5:58'de tekrarlandığında, dinî düzeni küçültme uyarısını çağrı ile namazın kurduğu somut sahneye taşır (5:58). {ar:نَادَيْتُمْ, tr:nâdeytum, gloss:çağırdığınızda} biçimi namaza yönelen işitilebilir çağrıyı getirir; çağrının sesinin yükselmesi, işitenlerin önünde kamusal bir işareti belirginleştirir ve insanları düzenli ibadet için bir araya getiren topluluk hareketini duyurur (5:58). {ar:الصَّلَوٰةِ, tr:salâti, gloss:namaz} bu hareketin bağlayıcı ve düzenli ibadet olduğunu belirler; böylece alayın zayıflattığı uygulama düzeni görünür hâle gelir (5:58). Kapanıştaki {ar:يَعْقِلُونَ, tr:ya‘qilûn, gloss:akletmiyorlar} akla bilgi biriktirmenin yanında cehaleti ve çirkin davranışı durduran bir tutuş kazandırır (5:58). Çağrının kamusal işareti, namazın düzeni ve aklın durdurucu tutuşu birlikte, alay ve oyunu zararsız bir şakadan çağrının yönünü koruyacak ölçünün çözülmesine taşır (5:58). Bu yerel örnek, dînin bütün anlamını namaza veya oyunun bütün kullanımlarını çağrıya taşımaz; açıklamanın sınırı 5:58'deki tekrar ile çağrı-namaz karşılaşmasıdır (5:58).
+
+Yakınlığın hareketi topluluğun eşiğinde de sınanır. {ar:أَوْلِيَاءَ, tr:evliyâe, gloss:yakın durup destek olanlar} sözü sevgi, yardım veya bağlılıkla birinin yanında durmayı ve arada ayırıcı unsur bulunmayan bitişik bir yakınlığı taşır. 5:61'de iman ettiklerini söyleyenlerin ardından gelen {ar:دَّخَلُوا۟, tr:dehalû, gloss:içeri girdiler} ifadesi bu yakınlığa topluluğun iç tarafına geçen bir eşik hareketi kazandırır (5:61). Aynı âyetteki {ar:خَرَجُوا۟, tr:haracû, gloss:dışarı çıktılar} hareketin dışarıya dönüşünü tamamlar; yakınlık içeri girip dışarı çıkabilen bir geçiş biçimi alır (5:61). Ardından gelen {ar:يَكْتُمُونَ, tr:yektumûn, gloss:gizledikleri}, bu geçiş boyunca taşınan iç yönelimin görünür sözün gerisinde saklanabileceğini gösterir (5:61). Giriş, çıkış ve gizleme birlikte, 5:57'deki evliyâ yakınlığını yüksek güven alanından topluluğun sınırları boyunca taşınabilen gizli bir bağlılık riskine açar (5:61). Bu bağlantı 5:61'deki üçlü harekete aittir; her girişe, yakınlığa veya iman sözüne genellenmez (5:61).
+
+Eşikte kurulan bu yakınlık görüntüsünün karşısına korunmanın yönü çıkar. {ar:ٱتَّقُوا۟, tr:itteḳû, gloss:sakının} emri zarar ile korunacak şey arasına bir araç veya engel koyar; {ar:أَوْلِيَاءَ, tr:evliyâe, gloss:yakın durup destek olanlar} ise sevgi, yardım ve bağlılık bağıyla yanında durmayı getirir. 5:67'deki {ar:بَلِّغْ, tr:bellığ, gloss:tebliğ et} emriyle birlikte gelen {ar:يَعْصِمُكَ, tr:ya‘sımuke, gloss:seni korur} ifadesi, insanlardan gelebilecek zararı önleyen ilahî tutuşu mesajı açıkça bildirme işiyle birleştirir (5:67). Bu birleşme, sosyal baskı altında tebliğin bozulmadan sürmesini sağlayan koruyucu alanı gösterir; güven, insan patronlarının himayesinde değil, Allah'ın koruyucu tutuşunda toplanır (5:67). Destek bağı böylece koruyucu ayrımla Allah'a yönlenir. Bu açıklama 5:67'de elçinin tebliğine bağlıdır; buradan insan ilişkilerinin tümünü zararlı himaye veya bütün müminler için dünyasal güvence sayan bir kapsam çıkmaz (5:67).
+
+Edinme fiillerinin açtığı emanet sorusu, 5:70'teki {ar:أَخَذْنَا مِيثَٰقَ, tr:ehaznâ mîsâka, gloss:bir ahit aldık} ifadesiyle bağlayıcı bir ahit sahnesine temas eder (5:70). Aynı sahnede elçilerin hoşlanılmayan mesajla karşılaşması, emanet edilen yönün her zaman hoş karşılanan bir sözle korunmadığını duyurur (5:70). {ar:تَتَّخِذُوا۟, tr:tettehizû, gloss:edinmeyin} bir şeyi kendi denetim alanına alma yönünü, {ar:ٱتَّخَذُوا۟, tr:ittehazû, gloss:edindiler} onu kendisi için edinip kendine ait kılma yönünü taşır. {ar:دِينَكُمْ, tr:dîneküm, gloss:dininizi} bu alma hareketinin nesnesini boyun eğilerek sürdürülen inanç ve kurallar bütünü yapar; {ar:أَوْلِيَآءَ, tr:evliyâe, gloss:koruyucu dostlar} ise bir işin veya başkasının durumunun sorumluluğunu üstlenip onu yürütme tarafını ekler. Bu üç katkı bir araya geldiğinde, topluluğun dinî düzeninin kimlerin eline bırakıldığı sorusu doğar; mesele sosyal yakınlıktan emanet edilen yönün korunmasına ilerler (5:70). Dîni alaya alanları bu düzeni biçimlendiren, taşıyan veya yöneten kişiler olarak yetkilendirmemenin önemi buradan görünür olur. 5:57 bir makam adı vermediği için bağlantı resmî atama sonucuna dönüşmez; yine de âyetin alay edenler ve inkârcılarla ilişkileri düzenleyen açık uyarısını taşır.
+
+Fâtiha'daki {ar:مَالِكِ يَوْمِ الدِّينِ, tr:mâliki yevmid-dîn, gloss:din gününün sahibi} ifadesi (1:4), odak âyetteki {ar:دِينَكُمْ, tr:dîneküm, gloss:dininizi} kelimesine hüküm ve karşılık ufku ekler. Dîn kelimesinin yevm ile yan yana gelmesi, inanç ve itaat düzenini hesabın ve karşılığın gerçekleşeceği özel günle ilişkilendirir (1:4). Bu temas, 5:57'de alaya alınan düzenin sonunda hüküm ve karşılıkla yüzleşecek bir düzen olarak duyulmasını sağlar (1:4). Bağlantı doğrudan Fâtiha'daki ifadeye aittir (1:4); odak âyette dîn, muhatapların boyun eğerek sürdürdüğü inanç ve yaşayış düzeni olmayı sürdürür.
+
+## İlişkinin Toplumsal Yönü
+
+Koruyucu yakınlığın işi üstlenip yön verme tarafı, belirli sahnelerde maddî sonuçlara bağlanır. Dinî otoritelerin kötülüğü engelleme görevinin aksaması, üstlenilen işin sınır koyma ve yön verme sorumluluğunu görünür kılar (5:63). Tekrar tekrar yakılan ateş, bu sorumluluğun çatışmayı başlatan maddî görüntüsünü verir; savaş ve düşmanlık ateşin toplumsal çıktısını belirginleştirir (5:64). Yeryüzüne yayılan bozulma, çatışmanın tek bir kavgada kalmadığını, düzenin çözülmesine uzandığını gösterir (5:64). Bu ayrıntılar birlikte, {ar:أَوْلِيَآءَ, tr:evliyâe, gloss:koruyucu dostlar} kelimesindeki yönetme yönünü, kötülüğün engellenmediği ve çatışmanın maddî sonuçlar ürettiği bir düzene açar.
+
+Engellememenin karşılıklı hâle gelmesi, kötülüğün topluluk içinde birbirini besleyen bir yayılıma dönüşmesini gösterir. Karşılıklı suskunluk ve birbirini engellememe görüntüsü belirir (5:79); yanında yer alma ve bu devreye katılma somutlaşır (5:80); bağlılığın bilerek edinilmesi yeniden adlandırılır (5:81). Bu bilerek edinme, ilişkinin rastlantı değil, kişinin kendisi için kurduğu bir tercih olduğunu belirginleştirir (5:81). {ar:أَوْلِيَآءَ, tr:evliyâe, gloss:koruyucu dostlar} kelimesinin tekrarı bu zinciri 5:57'deki uyarıya bağlar (5:81). Engellenmeyen kötülük (5:63), savaş ateşinin tekrar tekrar yakılması (5:64), karşılıklı suskunluk (5:79) ve bilerek kurulan bağlılık (5:80, 5:81) art arda geldiğinde, alay ve oyunu taşıyan kişilerle kurulan ilişkinin kötülüğü tolere edip çatışmayı sürdüren bir yönetim dayanışmasına dönüşebileceği görünür. Her bir ayrıntı bu toplumsal sonucu başka bir yönden kurar: suskunluk engeli kaldırır, yanında yer alma çatışma devresine katılmayı gösterir, bilerek edinme ise tercihi belirginleştirir. Bu okuma, bu açık bağlantılardaki yönetici dayanışmayla sınırlıdır; gündelik yakınlıkların tümünü yöneticilik sayan genel bir siyasal hükme dönüşmez.
+
+İlişkinin yön verme tarafı, çatışma görüntüsünden farklı bir hareketle de açılır. {ar:دِينَكُمْ, tr:dîneküm, gloss:dininizi} boyun eğerek uyulan inanç ve buyruk düzenini, {ar:أَوْلِيَآءَ, tr:evliyâe, gloss:koruyucu dostlar} ise yüzü veya dikkati bir şeye çevirme ve ona yönelme tarafını hatırlatır. Bu iki kelimenin teması, dinî itaatin yönünü bir bağlılık örüntüsünün belirleyebileceği uyarısını doğurur. Sabit hakikat, yönelişin dayanacağı zemini kurar; peşinden gitme tekrarlanan hareketi, hevese bağlanma istikrarsız kılavuzu, liderler ve izleyenler üzerindeki tekrar eden sapma bu hareketin toplumsal sonucunu, uzun ve yürünebilir yol ise yönelişi ortak bir istikamete dönüştüren görüntüyü verir (5:77). Bir topluluğun peşinden gitmek böylece tek seferlik etkilenmeden tekrarlanan yönelişe geçer (5:77). Sapmanın liderler ve izleyenler üzerinde tekrar tekrar görünmesi kılavuzun ve amacın kaybedilebileceğini somutlaştırır (5:77); uzun ve yürünebilir yol imgesi bu kaybı düşünsel bir hatadan topluluğun birlikte ilerlediği istikamete taşır (5:77). 5:57'deki uyarı bu bağlantıyla ibadet ve itaatin yönünü hangi örüntünün belirlediği sorusunu açar (5:77). Açıklama 5:77'deki yön ilişkisine bağlıdır; 5:57'nin doğrudan sözlük kuruluşunu değiştirmez ve sıradan sevgi bağlarını kendiliğinden bu yönelişle birleştirmez.
+
+Yakınlığın bir başka yüzü, sevgi, dostluk, inanç veya yardım bağıyla birinin yanında yer almaktır. Bu yüz, yasağın topluluk adlarından önce yakınlığın davranış ve yön verici bağlılıkla birleşme biçimine baktığını gösterir. Aynı büyük topluluk içinde kitabı ayakta tutan davranışa sahip ayrı bir bölümün anılması ve ölçülülüğün öne çıkması, geniş bir adın içeride farklı örnekler taşıyabildiğini gösterir (5:66). İnananlara yakınlık, sevgi ve şefkatin olumlu biçimde adlandırılması, ilişkinin mesafesinin tek başına belirleyici olmadığını somutlaştırır (5:82). Vahyi ayırt ederek tanıma ve tanınan hakikate yönelme, alay etmenin karşısına açık bir kabul biçimi koyar (5:83). Bu üç ayrıntı birlikte, 5:57'deki sınırı davranışa ve yön veren bağlılığa bağlar: yakınlık sevgi ve kabul ile olumlu bir biçim alabilir, alay ve oyunu dinin yönünü belirleyen bir role taşımak ise ayrı bir ilişki kurar. Olumlu örnekler her duygusal bağı veya her ittifakı kendiliğinden onaylayan genel bir ölçü vermez; bu bağlantıda gösterdikleri şey, yasaklanan bağın davranış ve yönle belirlenmesidir.
+
+</editorial_prose>

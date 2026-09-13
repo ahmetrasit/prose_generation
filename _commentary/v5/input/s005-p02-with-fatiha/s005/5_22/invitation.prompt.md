@@ -1,0 +1,189 @@
+# V5 reading invitation — 5:22
+
+You are a fresh reading-invitation writer. Read the complete editorial prose
+before writing. It is your sole semantic source.
+
+Write two to four paragraphs of fluent, contemporary Turkish that reveal a
+surprising reading by following one or two main channels of resonance in the
+ayah. A channel is a connected background of meanings, images, actions, or
+relations through which the ayah can be heard and understood differently.
+Several editorial findings may together develop one channel. Summarize that
+connected movement and its consequence for the ayah's main meaning, rather
+than compressing findings individually. Give the reading's substance now;
+the invitation comes from understanding it, not from a promise of hidden depth.
+
+Before drafting, read the entire editorial prose and silently select the one
+or two channels with the strongest interpretive consequence and enough
+grounding to explain clearly. Favor channels that expand or shift what the
+ayah says, the relation it establishes, or what is at stake in its action or
+image. One fully developed channel is sufficient; add a second only when it
+offers a distinct consequential reading that can be explained within the
+invitation. No finding, channel, or major shift has an individual coverage
+claim. Unselected material may remain entirely in the full commentary.
+
+A channel may develop through grammar, sound, dialogue, a material process,
+time, imagery, or a conceptual relation. Resonance is not limited to acoustic
+effects, and an unusual image alone does not establish a channel. Use only
+connections the editorial prose actually develops. If it supplies no such
+channel, explain its strongest grounded reading without inventing connections
+or surprise.
+
+Begin inside the ayah's own words, images, actions, or relations and reveal a
+selected distinctive reading in the first paragraph. Keep the plain meaning
+reachable with only the orientation needed to understand the change. Do not
+spend an opening paragraph on routine explanation or front-load context about
+the surah, the ayah's position, or the commentary project.
+
+For each selected channel, begin with the expression that opens it, unfold the
+connected background, and show how the ayah reads or sounds against that
+background. Let a detail lead into the next through an intelligible relation
+or process, so the reader experiences the emerging reading. This is a movement
+of thought, not a mandatory sentence pattern or one paragraph per finding.
+Let the reader identify the expression being interpreted,
+where any nonordinary detail comes from, and what that detail changes in the
+reading. Briefly identify the word-family use, restricted form, collocation, or
+context that supplies an essential added detail, and preserve the concrete
+operation that makes the image work. Keep the ordinary reading and necessary
+qualification clear within this explanation; do not repeat them as a fixed
+formula. Preserve the particular object, process, or relation that makes this
+reading distinctive, and state its interpretive consequence for the ayah as a
+whole. Make intelligible what the familiar reading leaves less visible and
+what the expanded or shifted reading now lets the reader understand. Preserve
+the editorial's force: an exploratory possibility remains possible, while a
+developed shift must not be softened into a decorative association or a
+reassurance that everything means the same thing. A concrete
+account of how something is carried, transformed, lost, or restored must not
+shrink to a general statement about care, guidance, dependence, or goodness.
+Keep the details needed to make the selected channel work; omit side findings
+and shorten routine setup. If a channel cannot be explained faithfully from
+the editorial prose, choose another grounded channel or reading.
+
+When a non-focus ayah supplies a contribution used in the invitation, keep its
+reference from the editorial prose beside that contribution.
+
+Do not turn the invitation into a miniature inventory of the commentary's
+conclusions, or flatten distinct channels into a broad theme to include more
+material. Do not repair, extend, or supplement the editorial prose from memory
+or outside knowledge.
+
+Omit technical apparatus. Retain any qualification, source distinction, live
+alternative, or boundary whose absence would change the force or meaning of a
+chosen reading. Express it naturally beside the image or relation it qualifies.
+Favor positive explanations of the relation between layers: what remains in
+the foreground and what the resonance makes audible in the background. State
+how that background reinforces, expands, or shifts the understanding of the
+main meaning, with the source and degree of certainty clear. Reserve explicit
+exclusions for concrete ambiguities or live counter-evidence that need them.
+Repeated "this is not X" endings make a reading sound withdrawn; express the
+substantive qualification through what the reading does contribute wherever
+possible. Use varied, natural language rather than a repeated "second layer"
+formula, and preserve the force of expansions and shifts.
+Do not name branches, candidates, findings, scopes, evidence categories,
+ledgers, or workflow stages, or label the prose as numbered channels. Do not
+list findings serially.
+
+Use the established `{ar:..., tr:..., gloss:...}` syntax, consistent
+Turkish-readable transliteration, and short ordinary glosses. Keep Arabic
+anchors beside the explanations they ground. Within a paragraph, continue with
+the Turkish meaning where clear; provide the necessary local tag when a later
+paragraph interprets the carrier anew. Do not place Arabic script outside a
+valid tag.
+
+Build transitions within a channel through its shared object, action, or
+relation. If two channels are selected, they may occupy separate paragraphs;
+do not invent a link between them. Do not praise the commentary's quality,
+promise what the reader will find, manufacture suspense, recap at the end, or
+add a call to action. End on an image, relation, action, or tension already
+established by the selected reading.
+
+Before finishing, compare the invitation with the entire editorial prose:
+does the chosen channel reveal a consequential reading, or could the text have
+been written from the ordinary translation and a modest explanation alone?
+When the editorial supports a surprising channel, the latter fails this task.
+Can the reader follow the opening expression into a connected background and
+understand how that background expands or shifts the ayah's main meaning?
+Check the selected connections against their editorial explanation: can the
+reader tell where the nonordinary details come from, with the necessary
+qualifications intact? Repair generic explanation, isolated curiosities, or a
+compressed findings list by developing the selected channel. Do not add
+omitted channels merely for coverage. Do not output this check.
+
+Write only the invitation text to:
+
+`_commentary/v5/editorial/s005-p02-with-fatiha/s005/5_22/5_22.invitation.tr.md`
+
+Do not add a heading, wrapper label, index, ledger, evidence file, or any other
+artifact. Do not modify the editorial prose.
+
+After writing the invitation, run:
+
+```bash
+python3 _commentary/v5/validate_prose.py _commentary/v5/editorial/s005-p02-with-fatiha/s005/5_22/5_22.invitation.tr.md
+```
+
+If validation fails, repair only the reported mechanical file-contract issues
+and rerun it, for at most two repair cycles. Report the final validator result
+in your response.
+
+<editorial_prose>
+Bu âyette topluluk Musa’ya doğrudan cevap verir: Orada zorba bir halk vardır; onlar oradan çıkıncaya kadar biz oraya kesinlikle girmeyeceğiz. Eğer oradan çıkarlarsa, o zaman gireceğiz. Söylenen, engelin bildirilmesiyle bitmez. Topluluk giriş kararını önce başkalarının çıkışına bağlar, sonra aynı çıkışı “eğer” ile yeniden kurup kendi girişini o şartın cevabı yapar. Âyet böylece zorba bir halkın bulunduğu yere girmeyi reddeden ve bu kararı açık bir şartla erteleyen toplu bir cevap kurar.
+
+## Sözün Muhatabı
+
+Açılıştaki {ar:قَالُوا۟, tr:qālū, gloss:dediler}, tamamlanmış üçüncü çoğul söz fiilidir. Engelin bildirilmesi, girmeme kararı, çıkış şartı ve giriş vaadi bu tek toplu sözün içine yerleşir; cümle aynı topluluğun tamamlanmış cevabı olarak duyulur. Cevabın önündeki {ar:يَٰ, tr:yā, gloss:ey}, Musa’nın adı gelmeden önce sözü yüz yüze bir hitaba çevirir. Böylece bu söz uzaktan verilmiş bir coğrafya bilgisi değil, belirli bir muhataba yöneltilmiş cevaptır. {ar:مُوسَىٰٓ, tr:mūsā, gloss:Musa} hitabın hedefini sabitler ve şikâyetin kime yöneldiğini açıkça gösterir.
+
+İlk {ar:إِنَّ, tr:inna, gloss:şüphesiz}, toprağın içindeki topluluk hakkındaki sözü biçimsel bir kesinlik tonuyla öne çıkarır. Ardından gelen {ar:فِيهَا, tr:fīhā, gloss:orada, onun içinde}, toprağı cümlenin başına alınmış kapsayıcı bir yer olarak kurar: topluluk onun içindedir ve sonraki hareketler aynı yere göre anlam kazanır. Bu iç-konumdan sonra gelen belirsiz {ar:قَوْمًۭا, tr:qawman, gloss:bir topluluk}, tek tek kişilerden önce orada duran bir insan topluluğu gösterir. {ar:جَبَّارِينَ, tr:jabbārīna, gloss:zorbalar, zorlayıcılar} ise yoğun çoğul biçimiyle bu topluluğu yalnız güçlü değil, insanî baskı taşıyan bir engel olarak niteler. Bu sahnede kelime, yerel olarak zorlayıcı insan topluluğunu belirginleştirir; başka kullanımlardaki özel unvan, fiziksel boy veya ilahî ad yönleri bu sıfatın burada kurduğu anlamın sınırında kalır.
+
+İlk cümlenin sonundaki {ar:وَ, tr:wa, gloss:ve}, engel raporunu konuşanların kendi reddine bağlar; iki tam iddia yan yana gelir ve aralarına ayrıca bir sebep hükmü yerleştirilmez. Hemen sonraki ilk {ar:إِنَّا, tr:innā, gloss:biz gerçekten}, vurguyu dışarıdaki halktan konuşanlara geçirir ve “biz”i reddin dilbilgisel merkezi yapar. Bu vurgu, kararın gerekçesini ayrıca kanıtlamak yerine özneyi ve onun reddettiği hareketi öne çıkarır. {ar:لَن, tr:lan, gloss:gelecekte asla}, {ar:نَّدْخُلَهَا, tr:nadkhulahā, gloss:oraya girmemiz} fiilini yöneterek girmeme kararını gelecek yönelimli ve kesin bir ret halinde kurar. Reddedilen herhangi bir hareket değil, belirli toprağa doğru eşik geçişidir; bu ilk kesinlik de sonraki şartın gerçekleşeceği veya gerçekleşmeyeceği konusunda tek başına bir hüküm vermez.
+
+Hemen ardından gelen {ar:حَتَّىٰ, tr:ḥattā, gloss:-inceye kadar}, bu kesin görünen reddi bir sonlandırma şartına bağlar: ret, sakinlerin çıkışına kadar sürer. {ar:يَخْرُجُوا۟, tr:yakhrujū, gloss:çıksınlar}, onların bulundukları yerden dışarı çıkmasını adlandırır; yalın fiil, çıkışı konuşanların zorla yaptırdığı bir eylemden ziyade sakinlerin gerçekleştirmesi gereken hareket olarak gösterir. İlk {ar:مِنْهَا, tr:minhā, gloss:oradan, onun içinden}, çıkışın kaynağını başka bir yere değil, bizzat aynı topraktan ayrılmaya bağlar. Önceki {ar:فِيهَا, tr:fīhā, gloss:orada, onun içinde} ile bu kaynak öbeği yan yana geldiğinde bütün hareketler tek bir mekânda tutulur.
+
+Bu öbeğin ardından gelen ilk {ar:فَ, tr:fa, gloss:ardından}, “çıkıncaya kadar” sınırını açık bir koşul çerçevesine taşır. {ar:إِنْ, tr:in, gloss:eğer}, tekrarlanan çıkışı beklenen bir zaman olmaktan çıkarıp varsayımsal bir ihtimal yapar; taviz “çıkacakları zaman” diye değil, “eğer çıkarlarsa” diye duyulur. Altındaki ikinci {ar:يَخْرُجُوا۟, tr:yakhrujū, gloss:çıkarlarsa}, ilk çıkış olayını bu yeni koşulun öncülü olarak tekrarlar; aynı hareket önceki sınırı sona erdirirken sonraki giriş vaadinin de başlangıcı olur. İkinci {ar:مِنْهَا, tr:minhā, gloss:oradan, onun içinden}, koşulu yine aynı toprağa bağlar. Son {ar:فَ, tr:fa, gloss:o zaman}, çıkış öncülünü cevaba taşır; cevabın içindeki son {ar:إِنَّا, tr:innā, gloss:biz gerçekten}, {ar:دَٰخِلُونَ, tr:dākhilūna, gloss:girenler} ile birlikte konuşanların gelecekteki rolünü vurgular. Bu biçim gerçekleşmiş bir girişi değil, başka grubun önceki çıkışına bağlı olarak ertelenmiş bir “girenler” kimliğini kurar.
+
+## Eşiğin İçinde Kurulan Şart
+
+Böylece {ar:نَّدْخُلَهَا, tr:nadkhulahā, gloss:oraya girmemiz} ve {ar:دَٰخِلُونَ, tr:dākhilūna, gloss:girenler} içeri geçişi taşırken, iki kez gelen {ar:يَخْرُجُوا۟, tr:yakhrujū, gloss:çıksınlar} ile {ar:مِنْهَا, tr:minhā, gloss:oradan, onun içinden} dışarı çıkışı aynı şart düzenine yerleştirir. {ar:حَتَّىٰ, tr:ḥattā, gloss:-inceye kadar} ve {ar:إِنْ, tr:in, gloss:eğer} altında bu hareketler karşılaşınca toprak, bir grubun çıkışıyla boşalan ve ancak ondan sonra öteki grubun girebildiği tekil bir iç alan gibi görünür. Çıkış, girişe eşlik eden bir hareket değil, onu mümkün kılan önkoşuldur. Kimin bu topluluğu çıkaracağı ve sonrasında ne olacağı ise cümlenin bu mekânsal düzenine eklenmez. {ar:جَبَّارِينَ, tr:jabbārīna, gloss:zorbalar, zorlayıcılar} da giriş ile çıkış arasındaki bu önceliğe değdiğinde yalnızca büyük görünen insanları değil, konuşanların hareket alanını daha baştan bastıran zorlayıcı bir doluluğu duyurur.
+
+Koşulların bu dağılımı, topluluğun bir mesele üzerinde görüşürken kendi hareketine şart koyduğu bir konuşma görünümü verir. Bu görünümün taşıyıcısı, {ar:قَالُوا۟, tr:qālū, gloss:topluca söylediler} ile başlayan sözün {ar:حَتَّىٰ, tr:ḥattā, gloss:-inceye kadar}, {ar:إِنْ, tr:in, gloss:eğer} ve son cevap {ar:فَ, tr:fa, gloss:o zaman} ile örülmesidir. Konuşanlar düz bir ret yerine kendi hareketlerini erteler ve hangi şart altında hareket edeceklerini sözle bildirir. {ar:نَّدْخُلَهَا, tr:nadkhulahā, gloss:oraya girmek} ile {ar:دَٰخِلُونَ, tr:dākhilūna, gloss:girenler}, kendi adımlarını bağımsız bir başlangıç olmaktan çıkarıp karşı tarafın çıkışından sonraya bırakır; tekrarlanan {ar:يَخْرُجُوا۟, tr:yakhrujū, gloss:dışarı çıkmak} ve {ar:مِنْهَا, tr:minhā, gloss:oradan} ise ilk risk taşıyan hareketi sakinlere yükler. Bu, ayetin söz içindeki şart teklifini görünür kılar; karşı tarafın bu şartı kabul ettiği veya gerçek bir anlaşmanın kurulduğu konusunda hüküm vermez.
+
+Bu kelimeler birlikte, konuşanların karşısındaki halkı tek bir kişinin gücünden daha geniş, çevresini kuşatan zorlayıcı bir alan olarak duyurur. {ar:قَوْمًۭا, tr:qawman, gloss:bir topluluk} kelimesinin başka bir kullanımında kadınlardan ayrı düşünülen erkekler topluluğunu ve onun yakın çevresini taşıyan daha dar bir çekirdek bulunur; buradaki {ar:جَبَّارِينَ, tr:jabbārīna, gloss:zorbalar, zorlayıcılar} sıfatı ve iki kez kurulan {ar:إِنَّا, tr:innā, gloss:biz gerçekten} bu çekirdeği konuşanların karşısındaki kurumsal görünümlü çevreye doğru açar. Bu bağlantı bu ayetteki insanî ve yerel engel üzerinde çalışır. Aynı buluşmada {ar:جَبَّارِينَ, tr:jabbārīna, gloss:zorla bastıranlar} baskıyı tek bir kişinin eyleminden, karşı topluluğun varlığıyla hissedilen çevresel bir zorlamaya genişletir; onarıcı ayrıntı 28:19’daki, istemeyeni zorlayan kullanım ise 26:130’daki ayrı temasla açılır.
+
+## Girişin Yönü Değişirken
+
+Buradaki giriş kararının faili ve şartı, 5:12’deki farklı bir giriş düzeniyle karşılaşınca belirginleşir. 5:12’de şartlara bağlı antlaşma karşılığında Allah’ın topluluğu bahçelere alacağını bildiren {ar:لَأُدْخِلَنَّكُمْ, tr:la-udkhilannakum, gloss:sizi mutlaka içeri alacağım}, odaktaki {ar:نَّدْخُلَهَا, tr:nadkhulahā, gloss:oraya girmemiz} ve {ar:دَٰخِلُونَ, tr:dākhilūna, gloss:girenler} ile aynı içeri geçme alanına dokunur. 5:12’de giriş, ilahî failin yönettiği vaat edilmiş bir sonuçtur; 5:22’de ise konuşanların kendi koyduğu bir önşarttır. İki ayetteki bahçe ve toprak sahneleri ayrı kalırken, karşılaştırma girişin kimin eylemiyle ve hangi karşılıktan sonra gerçekleşeceğini görünür kılar.
+
+5:16’daki {ar:مُّسْتَقِيمٍ, tr:mustaqīmin, gloss:dosdoğru} biçimi, odaktaki topluluğa yönü ve dengesi ölçülen bir grup ayrıntısı kazandırır. Bu temasla {ar:قَوْمًۭا, tr:qawman, gloss:bir topluluk} içeride duran insanlar olarak kalır; onların doğru yönde durup durmadığı da aynı kelime alanının açtığı ek bir görünüm olur. 5:16’daki {ar:يُخْرِجُهُم, tr:yukhrijuhum, gloss:onları çıkarır}, bir etkenin insanları karanlıklardan dışarı çıkarmasını taşır. Odaktaki {ar:يَخْرُجُوا۟, tr:yakhrujū, gloss:çıksınlar} ise sakinleri kendi dışarı hareketlerinin öznesi yapar ve bu hareketi başkalarının girişinden önce şart koşar. İki fail düzeni böylece ayrılır: 5:16’da insanlar rehberlikle çıkarılır, 5:22’de onların çıkışı başkasının girişi için beklenir. 5:16’daki rehberlik bu nedenle 5:22’deki çıkışın faili olarak değil, farklı bir çıkarma düzeninin karşılığı olarak kalır.
+
+Bu fail farkı, 17:80, 9:13 ve 9:81’deki ayrı temaslarla üç yönden aydınlanır. 17:80’de giriş ve çıkış birlikte anılarak yönün iki ucu görünür; 9:13’te düşman bir topluluk karşısında korku sorgulanarak korkunun eylem üzerindeki payı açılır; 9:81’de geride kalıp oturmak direniş biçimi kazanarak beklemenin bedensel sonucunu gösterir. Bu katkılar birleşince 5:22’deki “gireriz” sözü soyut bir isteksizlikten çıkar, rakibin ayrılışını bekleyen somut bir zamanlama kuralı olarak keskinleşir. 17:80, 9:13 ve 9:81’deki örüntüler 5:22’nin durumuna ölçülü karşılaştırmalar olarak kalır ve odaktaki sahneye başka gelişmeler taşımaz.
+
+5:21’deki {ar:ٱدْخُلُوا۟, tr:udkhulū, gloss:girin} buyruğu aynı giriş alanını canlı bir ileri hareket olarak kurar: {ar:ٱلْمُقَدَّسَةَ, tr:al-muqaddasah, gloss:kutsal} belirlenmiş hedefi, {ar:كَتَبَ, tr:kataba, gloss:yazıp tahsis etti} o hedefe verilmiş yönü, {ar:وَلَا تَرْتَدُّوا۟, tr:wa-lā tartaddū, gloss:geri dönmeyin} de geri dönmeme uyarısını taşır. Bu ileri yön, 5:22’deki {ar:نَّدْخُلَهَا, tr:nadkhulahā, gloss:oraya girmemiz} ve {ar:دَٰخِلُونَ, tr:dākhilūna, gloss:girenler} ile karşılaşınca giriş kendi başına yapılan ilk adım olmaktan çıkar, sakinlerin çıkışına bağlı sonraki sonuç haline gelir. 5:21’deki {ar:كَتَبَ, tr:kataba, gloss:yazıp tahsis etti} ile kurulan atanmış yön, 5:22’de beklemeyi basit bir taktik zamanlama değil, verilmiş bir güzergâhın askıya alınması gibi duyurur. 5:21’deki geri dönmeme uyarısı, 5:22’de girişten kaçınma ile çıkışı bekleme aynı eşikte görünce bekleyişe önceki konuma kapanan bir geri yön basıncı verir; {ar:أَدْبَارِكُمْ, tr:adbārikum, gloss:arkalarınız} ile somutlaşan arka yön, bedenin eşikte geri tutulduğu bir çekilme görünümünü yaklaştırır. Bu temas geri dönüşün gerçekleştiğini bildirmekten çok, bekleyişin geri yöne çekilme ihtimalini görünür kılar; 5:22’nin şartlı reddi yerinde durur.
+
+## Kapının Önünde Kalan Sıra
+
+Bu önceki ileri hareketin karşısında 5:23, {ar:ٱدْخُلُوا۟, tr:udkhulū, gloss:girin} emriyle {ar:ٱلْبَابَ, tr:al-bāb, gloss:kapı} üzerinden somut bir ilk eşik kurar. 5:23’teki {ar:فَإِذَا دَخَلْتُمُوهُ, tr:fa-idhā dakhaltumūhu, gloss:ona girdiğinizde} ifadesinden sonra {ar:غَٰلِبُونَ, tr:ghālibūna, gloss:üstün gelenler} gelir; 5:23’teki {ar:فَتَوَكَّلُوا۟, tr:fa-tawakkalū, gloss:dayanıp güvenin} ve {ar:مُّؤْمِنِينَ, tr:mu'minīna, gloss:iman edenler} de sonuç henüz görünür olmadan eyleme açılan bir duruş kurar. 5:22 ise aynı hareket alanını ters sıraya dizer: önce sakinlerin çıkışı, sonra giriş. Fark böylece yalnızca cesaret farkı değildir; ilk adım ile beklenen sonuç arasındaki sıra değişmiştir. 5:23’teki kapıdan giriş ilk hareketken, odaktaki {ar:نَّدْخُلَهَا, tr:nadkhulahā, gloss:oraya girmemiz} ve {ar:دَٰخِلُونَ, tr:dākhilūna, gloss:girenler} girişin başarı doğurmasını beklemek yerine başarı saydıkları boşluğu önceden ister. 5:23’teki {ar:غَٰلِبُونَ, tr:ghālibūna, gloss:üstün gelenler} girişten sonra beliren pratik sonucu taşır; 5:22’deki {ar:يَخْرُجُوا۟, tr:yakhrujū, gloss:çıksınlar} ise o sonucun alanını girişten önce gerekli kılar. Boşaltılmış alan böylece geçişin sonucu olmaktan çıkıp geçişin ön şartı gibi işlevlenir. Bu karşılaştırmanın kapsamı, 5:22’nin şartlı reddi ile 5:23’ün ters sıra düzenidir; çıkışın galibiyetin kesin sebebi olduğunu belirleyen ek bir hüküm taşımaz.
+
+5:23’teki {ar:يَخَافُونَ, tr:yakhāfūna, gloss:korkarlar}, {ar:فَتَوَكَّلُوا۟, tr:fa-tawakkalū, gloss:dayanıp güvenin} ve {ar:مُّؤْمِنِينَ, tr:mu'minīna, gloss:iman edenler} korku, dayanma ve iç güveni aynı eylem sahnesinde toplar. Bu taşıyıcılar 5:22’deki {ar:جَبَّارِينَ, tr:jabbārīna, gloss:zorba ve ezici kişiler} ile buluşunca sakinler, yalnızca güçlü oldukları için değil, konuşanların eylem alanını dolduran beklenen zarar olarak da görünür. Korku böylece dışarıda duran bir güç odağına biçim verir; 5:22’nin olağan zemini, yani orada zorba insanların bulunması, bu yeni görünümün içinde canlı kalır. Bu okumada 5:23’te korkan kişilerin kimden korktuğu ve korkunun konuşanlara nasıl dağıldığı açık bir soru olarak kalır; kelime tek bir kanıtlanmış korku nesnesine kilitlenmez.
+
+## Alanı Tutan Güç
+
+5:22’deki zorlayıcı halk imgesi, verilen iki ayrı temasla iki farklı işlem üzerinden derinleşir. 28:19’da {ar:جَبَّار, tr:jabbār, gloss:zorlayıcı veya onarıcı güç} ile {ar:مُصْلِح, tr:muṣliḥ, gloss:düzeltici} yan yana gelir ve kırılmış kemiğin parçalarını onarıp yeniden kaynatma gibi somut bir yeniden bütünleme görüntüsü açar. 26:130’daki {ar:جَبَّارِينَ, tr:jabbārīna, gloss:şiddetle zorlayanlar} ise istemeyen kişiyi güç veya baskıyla eyleme yöneltme ayrıntısını taşır. İlk temas gücü yeniden bütünleyen bir işlem olarak, ikincisi gücü hâkimiyet kuran bir zorlama olarak görünür; 5:22’deki korku sahnesi bu iki temasın kesiştiği yerde gücün onarımdan hâkimiyete daralarak yaşanabileceğini düşündürür. Bu bağlantı, 5:22’deki zorba halk anlamını koruyan nitelikli fakat kesin olmayan bir bağlamsal okumadır.
+
+Onarımın iki aşaması, 5:23’teki {ar:ٱلْبَابَ, tr:al-bāb, gloss:kapı} ve 5:22’deki içeri-dışarı hareketleriyle birleşince maddi bir analojiye dönüşür. Önce kırılmış kemiğin parçalarının birbirine getirilip yeniden kaynaması görünür; ardından tahta veya çubukların kırığın üzerine bağlanarak parçaları yerinde tuttuğu atel görüntüsü gelir. 5:22’deki {ar:نَّدْخُلَهَا, tr:nadkhulahā, gloss:oraya girmemiz} ve {ar:دَٰخِلُونَ, tr:dākhilūna, gloss:girenler} içeri geçme sınırını taşırken, 5:23’teki kapı kapalı alan içindeki tekil geçiş ağzını somutlaştırır. Bu işlemler birlikte okunduğunda sakinler, alanın iç yapısını sabitleyen ve bu yüzden çıkarılması gereken bir bağ gibi hayal edilebilir; onların çıkması yalnız gücün çekilmesi değil, kırılmış geçişin yeniden açılması gibi görünür. Bu analoji sakinleri fiziksel yapının gerçek parçaları olarak tanımlamaz; atel ve onarım ayrıntıları, {ar:جَبَّارِينَ, tr:jabbārīna, gloss:zorba ve ezici kişiler} için sözlükçe çeviri değil, 5:22 ile 5:23’teki kapı ve giriş-çıkış ilişkisinin açtığı sınırlı bir uzamsal okumadır.
+
+## Şartın Oturmaya Dönüşmesi
+
+5:22’deki “çıkarlarsa gireriz” biçiminin açık bıraktığı gelecek yolu, 5:24’te başka bir sertlik kazanır. 5:24’teki {ar:أَبَدًا, tr:abadan, gloss:ebediyen}, beklemeyi sonu belirsiz bir zamana uzatır; 5:24’teki {ar:مَا دَامُوا۟ فِيهَا, tr:mā dāmū fīhā, gloss:orada kaldıkları sürece}, sakinlerin içeride kalmasını eylemsizliği sürdüren dış koşul olarak tutar. {ar:فَٱذْهَبْ, tr:fa-dhhab, gloss:git} ile ileri hareket Musa ve Rabbine yönelir, {ar:فَقَٰتِلَا, tr:fa-qātilā, gloss:savaşın} ile maliyetli karşılaşma da başkasına bırakılır. Sonunda {ar:قَٰعِدُونَ, tr:qāʿidūna, gloss:oturanlar}, girişi başkasının çıkışına bağlayan planı konuşanların kendi yerlerinde kalmasına ve kendilerini eylemden muaf tutan bedensel bir duruşa çevirir. Böylece 5:22’nin koşulu bir gelecek yolu bırakırken, 5:24’te aynı yapı kalıcı bir katılmamaya doğru sertleşir. Bu karşılaştırma 5:22’deki ilk koşulu baştan samimiyetsiz ilan etmez; sertleşen sonuç 5:24’te belirginleşir.
+
+İstenen çıkış, 5:25 ve 5:26’da konuşanların kendi topluluğuna dönen bir sınır düzeni kurar. 5:22’deki {ar:يَخْرُجُوا۟, tr:yakhrujū, gloss:çıksınlar}, sakinlerin çıkışını onların girişine açılacak yol olarak kurmuştu; 5:25’te {ar:فَٱفْرُقْ, tr:fa-fruq, gloss:ayır} bu ayrımı iki taraf arasındaki sosyal sınıra taşır, 5:26’da {ar:مُحَرَّمَةٌ, tr:muḥarramah, gloss:erişimi yasaklanmış} toprak konuşanlara kapanır. 5:25’teki {ar:ٱلْفَٰسِقِينَ, tr:al-fāsiqīn, gloss:sınırı aşanlar}, sınırın dışına taşma veya dışarıda tutulma yankısını; 5:26’daki {ar:يَتِيهُونَ, tr:yatīhūna, gloss:şaşkın dolaşırlar} ise içeriden mahrum bırakılmış bir grubun yönsüz kalışını açar. 5:22’deki {ar:قَوْمًا, tr:qawman, gloss:bir topluluk} için kaydedilen dar topluluk çekirdeği de sözcüğe zorla yüklenmeden, topluluk sınırının taraf değiştirebildiğini düşündürür: odakta dışarı çıkması istenen grup varken, 5:25 ve 5:26’da dışarıda kalan taraf konuşanların kendisi olur. 5:25 ve 5:26’daki bu dönüş, 5:22’nin mekânsal şartını sosyal ve ahlaki bir sınır olasılığıyla genişletir; niyetin bilinçli bir retorik tasarımı ve iki grubun birebir özdeşliği burada tayin edilmez.
+
+## Sözün Bedene Değdiği Yer
+
+Eylem alanının eşik önünde tutulması, açılıştaki {ar:قَالُوا۟, tr:qālū, gloss:dediler} fiiline uzak ve deneysel bir eşleme de kazandırabilir. Alışılmış söz söyleme anlamının yanında, korku veya öfkeden titreme yönü 5:23’teki {ar:يَخَافُونَ, tr:yakhāfūna, gloss:korkarlar} tarafından bağımsız olarak tetiklenir. Çoklu şartların art arda kurulması, cümleyi sakin bir raporun yanı sıra korkunun bedende belirdiği bir ses hareketi gibi duyurur: dil ilerlerken beden eşikte kalır, söz sürekli yer değiştirirken geçiş tamamlanmaz. Tekrarlar böylece yalnız mantıksal şartlar olarak değil, eşiği geçemeyen bedenin söz içindeki sallanması olarak da işitilebilir. Olağan {ar:قَالُوا۟, tr:qālū, gloss:dediler} söz söyleme anlamı zeminde kalır; titreme çağrışımı biçimden uzak ve keşifseldir, konuşanların gerçekten titrediğini bildirmez. Bu okumanın dayanağı 5:23’te korkunun açıkça adlandırılması ile 5:22’de girişin ertelendiği hareket dizisinin yan yana gelmesidir.
+
+## Şarta Dönüşen Bağlılık
+
+Bu temas, 5:22’deki şartı önceki bağlılık dilinin karşısına yerleşen bir teklif gibi duyurur. {ar:قَالُوا۟, tr:qālū, gloss:dediler} burada yalnızca haber verme değil, iki tarafın bir mesele üzerinde görüşüp şart teklif etmesi yönünü açar. 5:1’deki {ar:أَوْفُوا۟, tr:awfū, gloss:eksiksiz yerine getirin}, yükümlülükleri tamamıyla taşıma yönünü; 5:1’deki {ar:بِٱلْعُقُودِ, tr:bi-l-ʿuqūd, gloss:bağlayıcı sözleşmeler} ise bağlama ve onaylama yönünü görünür kılar. 5:22’deki ertelenmiş giriş bu bağlılığı, dış şart gerçekleşene kadar askıya alan yeni bir madde gibi işleyebilir. 5:7’deki {ar:مِيثَٰقَهُ, tr:mīthāqahu, gloss:sağlam ahit} önceki bağı; 5:7’deki {ar:سَمِعْنَا, tr:samiʿnā, gloss:işittik ve anladık} işitmeyi anlayıp uymaya, {ar:أَطَعْنَا, tr:aṭaʿnā, gloss:itaat ettik} ise teslimiyet ve itaate doğru genişletir. Bu kelimelerle karşılaşan 5:22’nin toplu cevabı, uyumu giriş için güvenlik şartına bağlayan bir yeniden yorum gibi görünür: eylem anlaşılmış buyruğun hemen ardından değil, başkasının hareketinden sonra gelecektir.
+
+5:13’teki {ar:نَقْضِهِم مِّيثَٰقَهُمْ, tr:naqḍihim mīthāqahum, gloss:ahitlerini bozmaları}, bağlanmış olanı çözme örüntüsünü bu teklifin yanına getirir. Böylece 5:1, 5:7 ve 5:13’ün yükümlülüğü tamamlama, ahdi hatırlama ve ardından ahdin çözülmesi yönleri, 5:22’de güvenliği başkasının hareketine bağlayan bir karşı-formül ihtimalini görünür kılar. Topluluk korkusunu açıklamakla kalmayıp girişi hangi şartlara bağlayacağını sözle teklif ediyor gibi görünür. Bu bağlantının kapsamı, kesin bir ahit bozma hükmü vermek değil, önceki bağlılık ve itaat çizgisinin nasıl yeniden yorumlandığını göstermektir; aynı söz askerî ve taktik bir istisna olarak da ileri sürülmüş olabilir. Bağlılığın hangi noktada eyleme dönüşeceği sorusu bu nedenle açık kalır.
+
+</editorial_prose>

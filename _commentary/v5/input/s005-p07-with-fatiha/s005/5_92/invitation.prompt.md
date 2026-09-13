@@ -1,0 +1,199 @@
+# V5 reading invitation — 5:92
+
+You are a fresh reading-invitation writer. Read the complete editorial prose
+before writing. It is your sole semantic source.
+
+Write two to four paragraphs of fluent, contemporary Turkish that reveal a
+surprising reading by following one or two main channels of resonance in the
+ayah. A channel is a connected background of meanings, images, actions, or
+relations through which the ayah can be heard and understood differently.
+Several editorial findings may together develop one channel. Summarize that
+connected movement and its consequence for the ayah's main meaning, rather
+than compressing findings individually. Give the reading's substance now;
+the invitation comes from understanding it, not from a promise of hidden depth.
+
+Before drafting, read the entire editorial prose and silently select the one
+or two channels with the strongest interpretive consequence and enough
+grounding to explain clearly. Favor channels that expand or shift what the
+ayah says, the relation it establishes, or what is at stake in its action or
+image. One fully developed channel is sufficient; add a second only when it
+offers a distinct consequential reading that can be explained within the
+invitation. No finding, channel, or major shift has an individual coverage
+claim. Unselected material may remain entirely in the full commentary.
+
+A channel may develop through grammar, sound, dialogue, a material process,
+time, imagery, or a conceptual relation. Resonance is not limited to acoustic
+effects, and an unusual image alone does not establish a channel. Use only
+connections the editorial prose actually develops. If it supplies no such
+channel, explain its strongest grounded reading without inventing connections
+or surprise.
+
+Begin inside the ayah's own words, images, actions, or relations and reveal a
+selected distinctive reading in the first paragraph. Keep the plain meaning
+reachable with only the orientation needed to understand the change. Do not
+spend an opening paragraph on routine explanation or front-load context about
+the surah, the ayah's position, or the commentary project.
+
+For each selected channel, begin with the expression that opens it, unfold the
+connected background, and show how the ayah reads or sounds against that
+background. Let a detail lead into the next through an intelligible relation
+or process, so the reader experiences the emerging reading. This is a movement
+of thought, not a mandatory sentence pattern or one paragraph per finding.
+Let the reader identify the expression being interpreted,
+where any nonordinary detail comes from, and what that detail changes in the
+reading. Briefly identify the word-family use, restricted form, collocation, or
+context that supplies an essential added detail, and preserve the concrete
+operation that makes the image work. Keep the ordinary reading and necessary
+qualification clear within this explanation; do not repeat them as a fixed
+formula. Preserve the particular object, process, or relation that makes this
+reading distinctive, and state its interpretive consequence for the ayah as a
+whole. Make intelligible what the familiar reading leaves less visible and
+what the expanded or shifted reading now lets the reader understand. Preserve
+the editorial's force: an exploratory possibility remains possible, while a
+developed shift must not be softened into a decorative association or a
+reassurance that everything means the same thing. A concrete
+account of how something is carried, transformed, lost, or restored must not
+shrink to a general statement about care, guidance, dependence, or goodness.
+Keep the details needed to make the selected channel work; omit side findings
+and shorten routine setup. If a channel cannot be explained faithfully from
+the editorial prose, choose another grounded channel or reading.
+
+When a non-focus ayah supplies a contribution used in the invitation, keep its
+reference from the editorial prose beside that contribution.
+
+Do not turn the invitation into a miniature inventory of the commentary's
+conclusions, or flatten distinct channels into a broad theme to include more
+material. Do not repair, extend, or supplement the editorial prose from memory
+or outside knowledge.
+
+Omit technical apparatus. Retain any qualification, source distinction, live
+alternative, or boundary whose absence would change the force or meaning of a
+chosen reading. Express it naturally beside the image or relation it qualifies.
+Favor positive explanations of the relation between layers: what remains in
+the foreground and what the resonance makes audible in the background. State
+how that background reinforces, expands, or shifts the understanding of the
+main meaning, with the source and degree of certainty clear. Reserve explicit
+exclusions for concrete ambiguities or live counter-evidence that need them.
+Repeated "this is not X" endings make a reading sound withdrawn; express the
+substantive qualification through what the reading does contribute wherever
+possible. Use varied, natural language rather than a repeated "second layer"
+formula, and preserve the force of expansions and shifts.
+Do not name branches, candidates, findings, scopes, evidence categories,
+ledgers, or workflow stages, or label the prose as numbered channels. Do not
+list findings serially.
+
+Use the established `{ar:..., tr:..., gloss:...}` syntax, consistent
+Turkish-readable transliteration, and short ordinary glosses. Keep Arabic
+anchors beside the explanations they ground. Within a paragraph, continue with
+the Turkish meaning where clear; provide the necessary local tag when a later
+paragraph interprets the carrier anew. Do not place Arabic script outside a
+valid tag.
+
+Build transitions within a channel through its shared object, action, or
+relation. If two channels are selected, they may occupy separate paragraphs;
+do not invent a link between them. Do not praise the commentary's quality,
+promise what the reader will find, manufacture suspense, recap at the end, or
+add a call to action. End on an image, relation, action, or tension already
+established by the selected reading.
+
+Before finishing, compare the invitation with the entire editorial prose:
+does the chosen channel reveal a consequential reading, or could the text have
+been written from the ordinary translation and a modest explanation alone?
+When the editorial supports a surprising channel, the latter fails this task.
+Can the reader follow the opening expression into a connected background and
+understand how that background expands or shifts the ayah's main meaning?
+Check the selected connections against their editorial explanation: can the
+reader tell where the nonordinary details come from, with the necessary
+qualifications intact? Repair generic explanation, isolated curiosities, or a
+compressed findings list by developing the selected channel. Do not add
+omitted channels merely for coverage. Do not output this check.
+
+Write only the invitation text to:
+
+`_commentary/v5/editorial/s005-p07-with-fatiha/s005/5_92/5_92.invitation.tr.md`
+
+Do not add a heading, wrapper label, index, ledger, evidence file, or any other
+artifact. Do not modify the editorial prose.
+
+After writing the invitation, run:
+
+```bash
+python3 _commentary/v5/validate_prose.py _commentary/v5/editorial/s005-p07-with-fatiha/s005/5_92/5_92.invitation.tr.md
+```
+
+If validation fails, repair only the reported mechanical file-contract issues
+and rerun it, for at most two repair cycles. Report the final validator result
+in your response.
+
+<editorial_prose>
+Bu âyet, Allah'a ve elçiye itaat etmeyi, sakınmayı ve yüz çevirme halinde elçimize düşen işin yalnızca açık bildirim olduğunu söyler: {ar:أَطِيعُوا۟, tr:aṭīʿū, gloss:itaat edin} iki kez tekrarlanır; biri {ar:ٱللَّهَ, tr:allāha, gloss:Allah'a}, diğeri {ar:ٱلرَّسُولَ, tr:ar-rasūla, gloss:elçiye} yönelir. Ardından {ar:ٱحْذَرُوا۟, tr:iḥdharū, gloss:sakının} gelir; son bölümde {ar:تَوَلَّيْتُمْ, tr:tawallaytum, gloss:yüz çevirirseniz} denilen durumda {ar:رَسُولِنَا, tr:rasūlinā, gloss:elçimize} düşen görev {ar:ٱلْبَلَٰغُ ٱلْمُبِينُ, tr:al-balāgh al-mubīn, gloss:açıkça ulaştırılan bildirim} olarak adlandırılır. Âyetin düz anlamı, muhatabın yönelişi ile elçinin iletim görevini aynı sorumlulukta eritmeden yan yana getirir.
+
+## Buyruğun Yönü
+
+Başındaki {ar:وَ, tr:wa, gloss:ve}, yeni bir konu açmaktan çok, hemen önceki vazgeçme eşiğinin içinden devam eder. 5:91'de Allah'ı anmaktan ve namazdan alıkoyan şey karşısında sorulan “artık vazgeçer misiniz?” sorusu, burada itaati ve sakınmayı taşıyan olumlu bir komut akışına dönüşür. İlk {ar:أَطِيعُوا۟, tr:aṭīʿū, gloss:isteyerek uyun} doğrudan {ar:ٱللَّهَ, tr:allāha, gloss:Allah'a} nesnesini alır; çoğul biçim, muhatapların birlikte yönelmesini ister. Fiilin zorla sürüklenmekten ziyade emre isteyerek uyma ve yönelmeyi taşıyan basıncı, buyruğu dışarıdan bir uyum görüntüsünden ibaret bırakmaz; içten karşılık verme imkânını, emri yerine getirecek gücü ve içte işi kolaylaştıran yumuşamayı da düşündürür. {ar:ٱللَّهَ, tr:allāha, gloss:Allah'a} burada genel bir “tanrı” tür adı değil, yönelimin bağlandığı özel ilahî addır.
+
+İlk doğrudan nesnenin ardından gelen {ar:وَ, tr:wa, gloss:ve}, ikinci {ar:أَطِيعُوا۟, tr:aṭīʿū, gloss:isteyerek uyun} fiilini yeni ve tam bir emir olarak açar. Böylece {ar:ٱلرَّسُولَ, tr:ar-rasūla, gloss:elçiyi} ilk fiile eklenmiş ikinci bir nesne değil, aynı komut örgüsünde ayrı bir yönelişin muhatabı olur. Belirli artikel, genel bir elçi türünden ziyade bilinen elçiyi gösterir; “elçi” sözcüğünde gönderen ile alıcı arasında haber taşıyan kişi de duyulur. Bu taşıyıcı anlamı, görev cümlesinde {ar:رَسُولِنَا, tr:rasūlinā, gloss:elçimize} biçiminde geri döner: kamusal olarak anılan elçi, gönderene ait bir görev taşıyıcısı olarak belirginleşir. İki itaat buyruğu Allah'a ve elçiye yönelen iki ayrı istikameti birlikte kurar.
+
+Üçüncü {ar:وَ, tr:wa, gloss:ve}, {ar:ٱحْذَرُوا۟, tr:iḥdharū, gloss:sakının} emrini önceki iki buyrukla aynı düzeye bağlar. Sakınma, kurulan itaat yönünü koruyan ortak komutun parçasıdır. Fiil açık bir nesne almadan bırakıldığı için tek adı konmuş bir tehlikeye kapanmaz; emirleri alıp sürdürme hâlinin tamamına yayılan bir uyanıklık ister. Buradaki sakınma, tehlike karşısında önceden hazır bulunma ve yönelişi kollama hareketidir. Böylece iki itaat emrinin yanına, bu yönelimin dağılmasını sezerek çalışan üçüncü bir dikkat yerleşir.
+
+Üç doğrudan emirden sonra gelen {ar:فَ, tr:fa, gloss:böylece}, cümlenin hareketini koşullu bir sonuç çerçevesine çevirir ve daha sonra gelecek cevabı önceden duyurur. {ar:إِنْ, tr:in, gloss:eğer} ile açılan şart, {ar:تَوَلَّيْتُمْ, tr:tawallaytum, gloss:yüz çevirirseniz} fiilinde tamamlanmış bir çoğul eyleme bağlanır. Fiil nesnesini söylemediği için kopuşu tek bir nesneyle sınırlamaz; bir topluluğun dinleme ve uyma bağını kesip dönmesini kurar. Sözcüğün yakınlık, yanında olma ve bağlılık alanı arka planda hissedilirken biçimi ve şart cümlesi burada dönüp uzaklaşma anlamını belirginleştirir; yüzü ve dikkati kurulan yönelimden geri çeviren ters hareket de görünür. Bu dönüş, hemen ardından gelen bilme buyruğuyla elçinin ve muhatabın sorumluluk sınırını öğrenmeyi gerektiren bir dönüm noktasına taşınır.
+
+İkinci {ar:فَ, tr:fa, gloss:böylece} şartın cevabını başlatır: yüz çevirirseniz, o halde bilin. {ar:ٱعْلَمُوا۟, tr:iʿlamū, gloss:bilin}, yüz çevirme ihtimalinin ardından gelen doğrudan bir kavrayış çağrısıdır. Bilmek, muhatabın elçinin görevini yeniden anlamasını sağlayan zihinsel güncelleme olarak çalışır; uyarının ağırlığını belirsiz bir korkuya değil, açık bir sorumluluk bilgisine bağlar. {ar:أَنَّمَا, tr:annamā, gloss:yalnızca} bu bilginin içeriğini sınırlar: başlangıçtaki üç görev, Allah'a itaat, elçiye itaat ve sakınma, elçinin tarafında tek bir tanımlı sorumlulukla karşılanacaktır.
+
+Bu tanımlı görev {ar:عَلَىٰ, tr:ʿalā, gloss:üzerine} ile başlatılır; yapı önce yükü kimin taşıdığını, sonra işin adını söyler. Mekânsal “üzerinde” baskısı burada bir yükümlülük olarak elçinin üzerine yerleşir. Daha önce kamusal biçimde anılan kişi, {ar:رَسُولِنَا, tr:rasūlinā, gloss:elçimize} içinde gönderence sahiplenilen ve bu yükü taşıyan kişidir. “Elçimiz” denmesi görevi onunla ilişkilendirir; muhatabın vereceği karşılık da bu taşıyıcıya devredilmez.
+
+## Ulaşan Sözün Sınırı
+
+Taşıyıcı öne alındıktan sonra gelen {ar:ٱلْبَلَٰغُ, tr:al-balāghu, gloss:hedefe ulaşan bildirim}, içeriğin gönderenden alıcıya aktarılıp hedefe varmasını adlandırır. Bu isim, elçiye yüklenen belirli iştir: mesajı ulaştırmak ve görev için yeterli bir aktarımı gerçekleştirmek. Ulaşma katmanı, muhatabın kabulünü yönetme sorumluluğunu alıcıya ait karşılık alanında bırakır. Elçinin gönderilmiş ve haber taşıyan yönü ile bu ulaştırma işi aynı akışta buluşur.
+
+{ar:ٱلْمُبِينُ, tr:al-mubīnu, gloss:açıkça ortaya koyan}, {ar:ٱلْبَلَٰغُ, tr:al-balāghu, gloss:açıkça bildirme} sözcüğünü niteleyen etken ortaçtır; açıklık, ulaştırma işinin niteliğidir. İki belirli isimden oluşan son ifade, bildirimi anlamı belirsizlikten çıkarıp seçilebilir kılacak şekilde mühürler. Ayetin kelime örgüsünde {ar:رَسُولِنَا, tr:rasūlinā, gloss:elçimize} taşıyıcıyı, {ar:ٱلْبَلَٰغُ, tr:al-balāghu, gloss:hedefe varan bildirim} aktarımın hedefe ulaşmasını, {ar:ٱلْمُبِينُ, tr:al-mubīnu, gloss:anlamı açıkça ortaya koyan} ise neyin ulaştığının ayırt edilebilirliğini taşır; {ar:ٱعْلَمُوا۟, tr:iʿlamū, gloss:bilin} emri de bu görev ayrımını muhatabın kavraması gereken sonuç olarak bildirir. Böylece açıklık, alıcının karşılığını kendi alanında bırakarak sorumlu bir karşılığı mümkün kılan görünürlük olarak çalışır.
+
+Sakınmanın koruduğu alan, yakın ayetlerde önce sınırın, ardından aklın, ilişkilerin, zikrin ve ibadetin itaate açık tutulması olarak belirir. 5:87'de {ar:لَا تُحَرِّمُوا۟ طَيِّبَٰتِ مَآ أَحَلَّ ٱللَّهُ, tr:lā tuḥarrimū ṭayyibāti mā aḥalla Allāhu, gloss:Allah'ın helal kıldığı iyi şeyleri haram saymayın} iyi ve helal olanı kendiliğinden yasaklama ile {ar:وَلَا تَعْتَدُوا۟, tr:wa lā taʿtadū, gloss:sınırı aşmayın} sınırı aşmayı aynı sınır alanında buluşturur. 5:90'da {ar:ٱلْخَمْرُ, tr:al-khamr, gloss:aklı örten içki} akla yönelen maddi bozulmayı görünür kılar; 5:91'de {ar:وَيَصُدَّكُمْ, tr:wa yaṣuddakum, gloss:sizi alıkoyup yönünüzü çevirir} bu bozulmanın Allah'ı anmaktan ve namazdan uzaklaştıran sonucunu açar: {ar:عَن ذِكْرِ ٱللَّهِ وَعَنِ ٱلصَّلَوٰةِ, tr:ʿan dhikri Allāhi wa ʿaniṣ-ṣalāti, gloss:Allah'ı anmaktan ve namazdan}. 5:91'deki {ar:فَهَلْ أَنتُم مُّنتَهُونَ, tr:fa-hal antum muntahūn, gloss:artık vazgeçer misiniz} sorusu bu zinciri vazgeçme eşiğinde toplar. Böylece sakınma, itaate açık tutulan alanı koruyan ölçülü bir dikkat olarak çalışır; yakın ayetler onun hangi engeller karşısında devreye girdiğini gösterirken daha genel uyarı alanı da açık kalır.
+
+İtaat fiilinin isteyerek uyma ve kolay yönelme basıncı, 5:93'te zaman içinde sürdürülen bir karşılık olarak açılır. {ar:ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ, tr:āmanū wa ʿamilū aṣ-ṣāliḥāt, gloss:iman edip iyi işler yaptılar} iman ile eylemi birlikte kurar; {ar:ٱتَّقَوا۟, tr:ittaqaw, gloss:korunarak sakındılar} üç kez yinelenir, aralara {ar:ثُمَّ, tr:thumma, gloss:sonra} girer ve sonunda {ar:وَأَحْسَنُوا۟, tr:wa aḥsanū, gloss:iyilik yaptılar} gelir. Böylece odaktaki emir tek anlık bir uyumdan, değişen durumlarda yeniden kurulan iman, eylem, korunma ve iyilik hareketine doğru genişler. Fâtiha'nın 1:5'teki {ar:إِيَّاكَ نَعْبُدُ, tr:iyyāka naʿbudu, gloss:Yalnız Sana kulluk ederiz} ve {ar:وَإِيَّاكَ نَسْتَعِينُ, tr:wa iyyāka nastaʿīn, gloss:Yalnız Senden yardım isteriz} ise Allah'a yönelen itaatin gönüllü kulluk ve yardım isteme iç yüzünü duyurur. Bu ayrı dua yönelişi, 5:92'deki iki itaat buyruğunu koruyarak yalnız Allah'a yönelen ilk buyruğun iç hareketini aydınlatır.
+
+İtaatin ardından gelen ulaştırma fikrindeki varış, 5:94 ve 5:95'te maddi erişim sahneleriyle daha görünür hâle gelir. 5:94'te {ar:لَيَبْلُوَنَّكُمُ ٱللَّهُ, tr:la-yabluwannakum Allāhu, gloss:Allah sizi sınayacak} denilen sınama, avın {ar:تَنَالُهُۥٓ أَيْدِيكُمْ وَرِمَاحُكُمْ, tr:tanāluhu aydīkum wa rimāḥukum, gloss:elleriniz ve mızraklarınız ona erişir} biçiminde ele girebilmesiyle pratik bir eşiğe dönüşür; {ar:لِيَعْلَمَ ٱللَّهُ, tr:li-yaʿlama Allāhu, gloss:Allah bilsin diye} erişilmiş sınırdaki tutumu, {ar:بِٱلْغَيْبِ, tr:bil-ghayb, gloss:görünmeyene karşı} ise gözetimden önceki yönelişi açığa çıkarır. 5:95'te {ar:هَدْيًا بَٰلِغَ ٱلْكَعْبَةِ, tr:hadyan bāligha al-Kaʿba, gloss:Kâbe'ye ulaşan sunu} belirlenmiş hedefe varmayı şart koşar. Avın ellere ve mızraklara erişmesiyle sununun Kâbe'ye ulaşması birlikte düşünüldüğünde, bildirimin tamamlanması soyut bir seslenişten ziyade karşılığın sorumluluğunu görünür kılan bir varış eşiği gibi duyulur. İki varış alanı ayrı tutulduğunda, “varma” fiilinin bir kaynaktan hedefe geçişi nasıl taşıdığı görünürleşir; iletişim ile hukukî erişim aynılaştırılmaz.
+
+## Açıklığın Ölçüsü
+
+{ar:ٱلْمُبِينُ, tr:al-mubīnu, gloss:anlamı açıkça ortaya koyan}, bilgi miktarından önce eylem için ayırt etmeye yarayan bir açıklığı taşır. 5:100'de {ar:لَا يَسْتَوِي ٱلْخَبِيثُ وَٱلطَّيِّبُ, tr:lā yastawī al-khabīthu waṭ-ṭayyib, gloss:kötü ile iyi bir olmaz} ayrımı bu belirginliği görünür kılar. 5:101'de {ar:لَا تَسْأَلُوا۟ عَنْ أَشْيَاءَ, tr:lā tasʾalū ʿan ashyāʾ, gloss:şeyleri sormayın} gereksiz tam ifşa talebini sınırlar; {ar:إِن تُبْدَ لَكُمْ, tr:in tubda lakum, gloss:size açığa çıkarılırsa} açığa çıkmanın sonuçlarını, {ar:حِينَ يُنَزَّلُ ٱلْقُرْءَانُ, tr:ḥīna yunazzalu al-qurʾān, gloss:Kur'an indirilirken} ise açıklığın yetkili zamanını belirler. Böylece açık bildirim, sorumlu bir karşılık için yeterli ve ayırt edici bir netlik olarak duyulur; açıklığın zamanı ve kapsamı da bu netliğin parçasıdır.
+
+İkinci itaat emrinin taşıdığı elçi ilişkisi ve ardından gelen {ar:ٱعْلَمُوا۟, tr:iʿlamū, gloss:bilin} emri, kaynağın nasıl sınanacağı sorusunu açar. 5:103'te {ar:يَفْتَرُونَ عَلَى ٱللَّهِ ٱلْكَذِبَ, tr:yaftarūna ʿalā Allāhi al-kadhib, gloss:Allah'a yalan uydururlar} uydurmayı norm üretme yolu, {ar:لَا يَعْقِلُونَ, tr:lā yaʿqilūn, gloss:akletmezler} ise bu isnadı sınayacak aklın yokluğu olarak gösterir. 5:104'te {ar:مَآ أَنزَلَ ٱللَّهُ وَإِلَى ٱلرَّسُولِ, tr:mā anzala Allāhu wa ilā ar-rasūli, gloss:Allah'ın indirdiğine ve elçiye} yetkili kaynak ile elçi aktarımını birlikte çağırırken, {ar:حَسْبُنَا مَا وَجَدْنَا عَلَيْهِ ءَابَاءَنَا, tr:ḥasbunā mā wajadnā ʿalayhi ābāʾanā, gloss:atalarımızı üzerinde bulduğumuz bize yeter} miras alınanı yeterli sayar. {ar:لَا يَعْلَمُونَ شَيْئًا وَلَا يَهْتَدُونَ, tr:lā yaʿlamūna shayʾan wa lā yahtadūn, gloss:hiçbir şey bilmez ve doğru yolu bulmazlar} bu ikamenin bilgi ve yön duygusundan yoksunluğunu görünür kılar. Bu bağlamda yüz çevirme, uydurulmuş veya yalnızca devralınmış bir yeterliliğin yetkili kaynağın yerine geçirilmesi olarak da belirir; ayetin şartı bu tek görünüme indirgenmeden daha geniş kalır.
+
+5:105, görevlerin birbirine devredilmediği sınırı açık bir karşılaştırmayla gösterir: {ar:عَلَىٰ رَسُولِنَا ٱلْبَلَٰغُ ٱلْمُبِينُ, tr:ʿalā rasūlinā al-balāgh al-mubīn, gloss:elçimize düşen açık bildirimdir} ile {ar:عَلَيْكُمْ أَنفُسَكُمْ, tr:ʿalaykum anfusakum, gloss:kendi nefisleriniz size düşer} yan yana gelir. {ar:مَن ضَلَّ, tr:man ḍalla, gloss:sapan kimse} ile {ar:إِذَا ٱهْتَدَيْتُمْ, tr:idhā ihtadaytum, gloss:doğru yolu bulduğunuzda} başkasının sapmasını kişinin kendi hidayetinden ayırır; {ar:إِلَى ٱللَّهِ مَرْجِعُكُمْ جَمِيعًا, tr:ilā Allāhi marjiʿukum jamīʿan, gloss:hepinizin dönüşü Allah'adır} ortak son durağı, {ar:فَيُنَبِّئُكُم بِمَا كُنتُمْ تَعْمَلُونَ, tr:fa-yunabbiʾukum bimā kuntum taʿmalūn, gloss:yaptıklarınızı size bildirecek} ise ayrılmış sorumlulukların yapılan işlerle birlikte açıklanacağını bildirir. Elçinin sadık aktarımı, her muhatabın kendi nefsini gözetmesi ve ortak dönüşteki hesap aynı düzen içinde buluşur; her biri kendi taşıdığı işi sürdürür.
+
+Denetlenebilir bir sözün korunup doğrulanması, 5:106, 5:107 ve 5:108'deki vasiyet tanıklığı düzeninde görünür. {ar:شَهَٰدَةُ بَيْنِكُمْ, tr:shahādat baynikum, gloss:aranızdaki tanıklık} ve yemin, sonuç doğuran sözün tanıklar arasında tutulmasını ister; {ar:وَلَا نَكْتُمُ شَهَٰدَةَ ٱللَّهِ, tr:wa lā naktumu shahādat Allāh, gloss:Allah'ın tanıklığını gizlemeyiz} gizlememe şartıyla aktarımın bütünlüğünü korur. 5:107'de {ar:فَإِنْ عُثِرَ, tr:fa-in ʿuthira, gloss:gizli ihlal bulunursa} gizlenmiş kusuru açığa çıkararak denetim kapısını açar ve {ar:لَشَهَٰدَتُنَا أَحَقُّ, tr:la-shahādatunā aḥaqqu, gloss:bizim tanıklığımız daha haklıdır} sözüyle doğruluğu yeniden kurar. 5:108'de sözün {ar:عَلَىٰ وَجْهِهَا, tr:ʿalā wajhihā, gloss:kendi doğru yüzü üzere} sunulması doğru yüzü görünür kılar; yeminlerin {ar:أَن تُرَدَّ أَيْمَٰنٌۢ بَعْدَ أَيْمَٰنِهِمْ, tr:an turadda aymānun baʿda aymānihim, gloss:yeminlerin başka yeminlerle geri çevrilmesi} ihtimali beyanın yeniden sınanabileceği alanı, {ar:وَٱسْمَعُوا۟, tr:wa ismaʿū, gloss:işitin ve anlayarak karşılık verin} çağrısı ise alıcının işitip anlayarak karşılık vermesini taşır. Bu adımlar, tanıklığın hukukî usulünü kendi bağlamında tutarken, açık sözün gizlenmeye dirençli, doğrulanabilir, gerektiğinde düzeltilen ve anlayan bir muhataba ulaşan aktarım olarak odaktaki bildirimi nasıl aydınlattığını gösterir.
+
+## Alıcının Karşılığı
+
+Elçinin işi ile alıcının cevabını ayıran sorumluluk açıklığı, daha geniş paralellerde farklı katkılarla belirir. 64:12 aynı itaat, yüz çevirme ve açık bildirim düzenini açar; 24:54 bu düzeni elçinin yükü ile dinleyenin yüküne ayırır. 7:79 elçinin iletimi tamamlayıp reddedilişten ayrılmasını, 10:72 yüz çevirmenin elçinin hizmetini boşa çıkarmadığını görünür kılar; 88:22 ise elçinin zorlayıcı bir denetim sahibi olmadığını sınır olarak korur. Böylece {ar:تَوَلَّيْتُمْ, tr:tawallaytum, gloss:yüz çevirirseniz} ile {ar:ٱلْبَلَٰغُ, tr:al-balāghu, gloss:iletiyi hedefine ulaştırma} arasındaki ayrım, elçinin yaptığı iş ile alıcının verdiği cevabın farklı kişilere ait olduğu bir sorumluluk açıklığı olarak kalır.
+
+İnsan geri dönerken iki yön birlikte duyulur: muhatabın yönelişi değişir, ilahî destek ekseni sürer. Odaktaki {ar:تَوَلَّيْتُمْ, tr:tawallaytum, gloss:yüz çevirirseniz} 8:40'ta Allah'ın mevla ve yardımcı oluşuyla birlikte düşünüldüğünde, yöneliş değişirken koruyucu yakınlığın sürdüğü görünür. Bu bağ, 8:40'ın destek temasını odaktaki kopuşun yanına getirir; insanın seçimini koruyucu ilişkinin tek sonucu hâline getirmeden genişletir.
+
+Dışarıdan üretilen uyum ile içten seçilmiş karşılık arasındaki ayrım 43:54'teki karşılaştırmayla görünür olur. Odaktaki {ar:أَطِيعُوا۟, tr:aṭīʿū, gloss:emre uyun} buyruğu, bir topluluğun hafifletilip ardından itaat etmesiyle yan yana gelince itaat görünüşünün nasıl oluşturulduğu ayırt edilebilir. Bu bağlantı, 43:54'teki karşılaştırmayı kendi muhataplarında tutar; odaktaki buyruk için uyumun hangi ilişki içinde üretildiğinin de hesaba katılabileceğini düşündürür.
+
+Katılamama ile imkân bulunduğu halde seçilmiş dönüş arasındaki eşik 48:17'de belirir: kör, topal ve hasta olanlar ayrı tutulur, ardından itaat ile yüz çevirme karşılaştırılır. Bu sahne, {ar:أَطِيعُوا۟, tr:aṭīʿū, gloss:itaat edin} buyruğundaki yapabilme ve elverişli koşul baskısını {ar:تَوَلَّيْتُمْ, tr:tawallaytum, gloss:yüz çevirirseniz} sözündeki ayrı cevap yönünden ayırır. (48:17) katılamama ile seçilmiş dönüşü aynı sorumluluk saymayan bir eşik açar; bu bağlantı odaktaki şartı aydınlatırken muhataplara özel bir yetersizlik yüklemez.
+
+Yakın ilişkiler içinde beliren yön saptırıcı düşmanlık ihtimali, nesnesiz {ar:ٱحْذَرُوا۟, tr:iḥdharū, gloss:karşıdakini dikkatli olmaya çağıran sakınma} buyruğunun ilişkiyi koruyan sınır alanını 64:14'te görünür kılar. Bu bağ, sakınmayı korkuyu büyüten bir tepki olmaktan çıkarıp yakın bağların yönü bozduğu yerde çalışan uyanıklık olarak genişletir; odaktaki bağlantıya belirli bir aile veya kişi eklemez.
+
+Ortak yönün çekişmeyle dağılmasını önleyen birlik hareketi, iki {ar:أَطِيعُوا۟, tr:aṭīʿū, gloss:ortak buyruğa uyun} biçiminin 8:46'da çekişmeyi bırakma ve sabırla dayanma temasıyla buluşmasıyla görünür olur. Aynı bağlamda {ar:ٱحْذَرُوا۟, tr:iḥdharū, gloss:tehlikeye karşı hazır bulunun} ortak gücü dağıtan çekişmeye karşı koruyucu bir hazırlık kazanır. Bu bağ, 8:46'daki ortak yönü açar; belirli bir kurum, olay veya fiilî çekişme tayin etmeden odaktaki buyrukların ortak hareketi de koruyabildiğini düşündürür.
+
+İnsan geri çekilse de ilahî yeterliğin eksilmemesi, yüz çevirmenin 57:24'te cimrilik ve Allah'ın hiçbir şeye muhtaç olmayışıyla karşılaştırılmasıyla görünür olur. {ar:تَوَلَّيْتُمْ, tr:tawallaytum, gloss:dinleme ve uyma bağını kesen yüz çevirme} burada şart cümlesinin insan tarafındaki kaybını taşırken ilahî bağımsızlığı ondan ayrı bir eksen olarak görünür kılar. Bu bağ, 57:24'teki karşılaştırmayla sınırlıdır; ayetin bütün hükümleri bu kısa ilişkiye taşınmaz.
+
+Görünür iletim ile alıcının görünür veya gizli karşılığı arasındaki ayrım 5:99 ve 5:109'da keskinleşir. 5:99'da açığa çıkan karşılık, muhatabın cevabının görünen yüzünü taşır; elçinin aktarımı ile alıcının cevabı böylece ayrı yüzler olarak belirir. Odaktaki {ar:ٱلْبَلَٰغُ, tr:al-balāghu, gloss:iletiyi hedefe ulaştıran bildirim} ile {ar:رَسُولَ, tr:rasūla, gloss:gönderen ile alıcı arasında haber taşıyan elçi} bir arada düşünüldüğünde açıkça yapılan bildirim ile alıcının sonraki karşılığı ayrışır. 5:109'da elçilerin bir araya gelip sorgulanması, taşıyıcının kendi aktarımını aşan bir hesap ortamına çağrıldığını gösterir; alınan cevap da elçinin görevi ile muhatabın ne cevap verdiğini iki ayrı hesap noktası yapar.
+
+Elçiye ait görünür aktarımın yanında alıcının gizli karşılığı için ayrı bir alan açılır. Odaktaki {ar:رَسُولَ, tr:rasūla, gloss:gönderen ile alıcı arasında haber taşıyan elçi} ve {ar:رَسُولِنَا, tr:rasūlinā, gloss:elçimiz} görünür aktarımı taşır; {ar:ٱعْلَمُوا۟, tr:iʿlamū, gloss:bilin ve gerçeğini kavrayın} 5:99 ve 5:109'da açık, gizli ve elçiye ait bilgi alanlarının ayrılmasıyla birlikte duyulduğunda, bilme çağrısı elçinin aktarım sınırı ile ilahî bilgi alanını birbirinden seçer. 5:109'da gizli kalan yanıt, elçinin açık aktarımının ötesindeki görünmeyen karşılık alanını; 5:99'da saklı tutulan içerik ise muhatabın içte kalan tepkisini görünür bildirimin ayrı kutbu olarak düşündürür. Bu bağlantı, elçinin aktarımı, alıcının görünür veya gizli cevabı ve ilahî bilgiyi üç ayrı alan olarak sezdirir; belirli gizli niyetler için bağımsız bir sözlük hükmü kurmaz.
+
+Açık işaretlerin görünür kalması, alıcının onları başka türlü adlandırabilmesi ve hakikati örtebilmesi, 5:110'da görünürlük ile kabulün ayrılabildiğini gösterir. Odaktaki {ar:ٱلْمُبِينُ, tr:al-mubīnu, gloss:görünür ve anlaşılır hale getiren açıklık} şeyin gizlilikten çıkıp seçilebilir olmasını taşır; bu görünürlük iç kabulü kendiliğinden üretmez. Açık bildirim bu bağlantıda güçlü bir sunum olarak kalır ve alıcının karşılığına yer bırakır. Bu bağlantı açıklığı fiziksel ışıkla veya her reddedişi açıklayan genel bir yasayla özdeşleştirmeden, (5:110)'un odaktaki açıkça bildirme anlamını derinleştirir.
+
+Bir gösterimin alıcıda eşik oluşturması, 5:112 ve 5:113'te ayrı katkılarla belirir; bu hareket 5:115'te cevabın sorumluluk alanına uzanır. İki {ar:أَطِيعُوا۟, tr:aṭīʿū, gloss:itaat edin} biçimi gönüllü uyma anlamını korurken, 5:112'de istenen ve gönderilen sofra dışarıdan gelen gösterimin alıcıya ulaşan yüzünü belirginleştirir ve bu gösterim karşısında cevabın gerçekleşebilmesi için bir kapasite ve elverişli koşul sorusu düşündürür. Bu talep {ar:ٱلْبَلَٰغُ, tr:al-balāghu, gloss:hedefe ulaştırılan bildirim} ile buluştuğunda, iletimin ardından beklenen karşılık görünür bir hedef kazanır. 5:113'te kalbin yatışması ise gösterimi yalnız dışarıdan görülen bir kanıt olmaktan çıkarıp içeride hazırlanan ve sükûnet kazanan karşılığa taşır. {ar:ٱعْلَمُوا۟, tr:iʿlamū, gloss:bilerek gerçeği kavrayın} ile {ar:ٱلْمُبِينُ, tr:al-mubīnu, gloss:açık ve seçilebilir kılınan} birlikte düşünüldüğünde, alıcıdan yalnızca görmesi değil, gerçeğe uygun kavraması da beklenir.
+
+Bu kavrayışın doğrulama yüzü, 5:113'te gelen gösterimin doğru sözle eşleştirilmesini gerektiren bir karşılığa dönüşür; açık bildirim bilgi vermenin ötesinde sözün doğruluğunun sınandığı eşiğe ulaşır. Tanıklık, bildirimin rapor olarak duyulmasından gözlem ve şahitliğe geçişini taşır; {ar:رَسُولِنَا, tr:rasūlinā, gloss:elçimiz} ve {ar:ٱلْبَلَٰغُ ٱلْمُبِينُ, tr:al-balāgh al-mubīn, gloss:açıkça ulaştırılan bildirim} alıcıyı duyduğu sözün tanıklık edilebilir karşılığına yaklaştırır. 5:115'te teslimden sonra hakikati örtmek, açıklık karşısında yüz çevirme ihtimalini ağırlaştırır: açıklık cevabı ortadan kaldırmaz, fakat cevabı daha hesaplanabilir kılar. (5:112, 5:113, 5:115) birlikte, gösterimin alıcıya imkân ve güven verirken sonrasındaki cevabı da belirgin bir sorumluluk alanına taşıdığını düşündürür.
+
+5:116 ve 5:117, paralel itaat buyruğunda ortak ilahî kaynakla ona bağlı elçi makamını birlikte görünür kılar. {ar:ٱللَّهَ, tr:allāha, gloss:Allah'a yönelen ibadet ve kaynak adı} 5:116'da elçinin veya annesinin ilah edinilmesi iddiasının reddiyle birlikte düşünüldüğünde, ibadet ve kaynak yönünü elçi makamından ayrı tutar. 5:117'de yalnızca kendisine emredileni söyleyen elçi, kaynaktan gelen buyruğu aktaran görevli olarak belirir. Odaktaki {ar:رَسُولَ, tr:rasūla, gloss:mesajı taşıyan elçi} ve {ar:ٱلْبَلَٰغُ, tr:al-balāghu, gloss:emredileni hedefe ulaştıran bildirim}, elçiye yönelen itaatin kendi sözünü üreten bağımsız bir otoriteye değil, ilahî kaynaktan ulaştırılan içeriğe bağlandığını duyurur.
+
+5:117'de elçiden sonra süren gözetim, insanî tanıklığın zaman sınırlı, ilahî gözetimin ise devam eden bir alan olduğunu açar. Elçinin topluluk içindeki şahitliği bulunduğu dönemle sınırlı bir insanî tanıklıktır; topluluktan alınması, aktarım makamının zaman sınırını belirginleştirirken ilahî gözetim devam eder. Boyun eğerek ibadet etmenin yönü Allah'ta kalır, elçiye itaat ise onun taşıdığı buyruğun kabulü olarak bu ibadet yönüne bağlanır. Böylece kaynak, aktarım, ibadet, tanıklık ve gözetim aynı ilişkide farklı görevler olarak yer alır; kaynak ve gözetim elçi makamına devredilmez. (5:116, 5:117) bu dağılımla odaktaki iki buyruğu aydınlatır.
+
+Sözün hedefe ulaşıp hedefte seçilebilir hâle gelmesi, 5:110'daki açık işaretlerle temas eden uzak bir ileti benzetmesini açar. {ar:ٱلْبَلَٰغُ, tr:al-balāghu, gloss:hedefe veya son sınıra erişip varan bildirim} sözün hedefe ulaşmasını, {ar:ٱلْمُبِينُ, tr:al-mubīnu, gloss:görünür ve anlaşılır hale gelen} hedefte seçilebilir olmasını taşır; açık işaretlerin alıcı tarafından reddedilip başka türlü adlandırılabilmesi, görünürlük ile kabulün ayrıldığı bu resmi geri çağırır. Bu uzak ve yalnızca benzetme olarak kalan bağlantıda iki {ar:أَطِيعُوا۟, tr:aṭīʿū, gloss:itaat edin} buyruğu havaya uzanıp hedefe varan, alıcıda görünürleşen bir söz işareti gibi duyulabilir; {ar:تَوَلَّيْتُمْ, tr:tawallaytum, gloss:yüz çevirirseniz} de alıcıdaki kesinti olarak görünür. Bu ek görüntü, {ar:أَطِيعُوا۟, tr:aṭīʿū, gloss:itaat edin} kelimesinin itaat ve boyun eğme anlamını yerinden etmez; fiziksel yayılma iddiası kurmadan, (5:110) ile temas eden sınırlı uzamsal analoji olarak kalır.
+
+</editorial_prose>

@@ -1,0 +1,329 @@
+{
+  "schema_version": "commentary-v5-scope-discovery-v1",
+  "ayah_ref": "5:78",
+  "lane": "macro",
+  "coverage_complete": true,
+  "candidate_decisions": [
+    {
+      "candidate_id": "cand_e55e390489131ac1fcda",
+      "decision": "accept",
+      "reason": "The supplied legacy_unbound trace has exact focus and context coordinates, a stated changed reading, and a complete three-branch nomination. The resolved branches can be retained as attributed facets, while the unresolved contextual branch remains explicitly attributed without an invented gloss or facet.",
+      "finding_refs": [
+        "macro:warning-effigy-deterrent"
+      ],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    }
+  ],
+  "findings": [
+    {
+      "finding_ref": "macro:warning-effigy-deterrent",
+      "origin_candidate_id": "cand_e55e390489131ac1fcda",
+      "represented_candidate_ids": [],
+      "title": "Uyarı işareti olarak dışlama",
+      "claim": "Keşifsel olarak, olağan tamamlanmış dışlama hükmünü taşıyan لُعِنَ, Davud ve İsa'nın diliyle aktarılan sözü, 5:79'da birbirini kötülükten alıkoymayan topluluk karşısında aynı taşkınlığa yönelenleri uzak tutan kamusal bir uyarı işareti gibi de görünür kılar.",
+      "mechanism": "Focus lʿn taşıyıcısı 5:78:1:1, dikilmiş insan biçimli tarla korkuluğunun nesne ve ürkütme facet'lerine; l-s-n taşıyıcısı 5:78:8:1, topluluk dili ile söz ve haber üretiminin facet'lerine temas eder. 5:79:3'teki karşılıklı alıkoyma başarısızlığı, çözülmemiş dal için ayrı tetikleyici olarak kalır; bu temas, peygamberî dildeki dışlamayı atıflı bir caydırıcı uyarı imgesine dönüştürür.",
+      "reader_payoff": "Okur, mahkûm edilenlerin kelimenin tam anlamıyla korkuluk sayılmadığını koruyarak, peygamberî sözün kamusal uyarı işlevindeki ek hareketi görebilir.",
+      "containment": "Asıl tamamlanmış lanet ve dışlama hükmü korunur. Bu keşifsel ve legacy_unbound kaynağa atıflı okuma, mahkûm edilenleri gerçek korkuluklarla özdeşleştirmez; ن ه ي için gloss veya facet icat etmez ve 5:79'un ötesinde genel bir toplum teorisi kurmaz.",
+      "epistemic": {
+        "status": "exploratory",
+        "source_trust": [
+          "legacy_unbound"
+        ],
+        "reason": "Exact HFT anchors and branch roles are supplied, but the branch nominations are legacy_unbound and the contextual branch has no resolved registry gloss or facet."
+      },
+      "support_ids": [
+        "sup_a3ec744761b6a86e6ed0"
+      ],
+      "branch_activations": [
+        {
+          "branch_ref": "root_001359/B005",
+          "facet_id": "F001",
+          "branch_gloss": "insan biçimli tarla korkuluğu",
+          "facet_statement": "Nesne ekili alanın içine dikilir ve insanı andıran bir görünüşe sahiptir.",
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "5:78:1:1"
+          ],
+          "trigger_refs": [
+            "5:79:3"
+          ],
+          "focus_return_refs": [
+            "5:78:1:1"
+          ],
+          "carrier": "لُعِنَ ile taşınan dışlama ve onun focus'taki lanet formu",
+          "independent_trigger": "5:79:3'teki birbirini kötülükten alıkoymama başarısızlığı",
+          "activation": "Dışlamanın taşıyıcısı, toplumsal uyarı için dikilmiş bir insan biçimli nesne imgesine atıflı olarak bağlanır.",
+          "resulting_reading": "Sözlü dışlama, ihlal alanına yönelenleri görünür biçimde uzak tutan bir işaret gibi duyulur.",
+          "boundary": "İmge, mahkûm edilen kişilerin gerçek nesneler olduğunu söylemez; yalnızca uyarı işlevini görünür kılar."
+        },
+        {
+          "branch_ref": "root_001359/B005",
+          "facet_id": "F002",
+          "branch_gloss": "insan biçimli tarla korkuluğu",
+          "facet_statement": "İşlevi yaban hayvanlarını ve kuşları ürkütüp ekinden uzak tutmaktır.",
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "5:78:1:1"
+          ],
+          "trigger_refs": [
+            "5:79:3"
+          ],
+          "focus_return_refs": [
+            "5:78:1:1"
+          ],
+          "carrier": "لُعِنَ ile taşınan dışlama ve onun focus'taki lanet formu",
+          "independent_trigger": "5:79:3'teki karşılıklı caydırmanın yokluğu",
+          "activation": "Lanet dili, yanlış davranış alanından uzak tutan bir ürkütme ve caydırma işleviyle atıflı biçimde birleşir.",
+          "resulting_reading": "Focus, yalnızca geçmişteki dışlamayı değil, aynı taşkınlığa karşı kamusal bir uzaklaştırma uyarısını da taşır.",
+          "boundary": "Bu, korkuluk dalının atıflı işlevsel uzantısıdır; focus hükmünü tarımsal bir nesneye indirgemez."
+        },
+        {
+          "branch_ref": "root_001355/B006",
+          "facet_id": "F001",
+          "branch_gloss": "bir topluluğun dili ve konuşması",
+          "facet_statement": "Bir topluluğun kullandığı dil sistemi ve o sistemle gerçekleşen konuşmadır.",
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "5:78:8:1"
+          ],
+          "trigger_refs": [
+            "5:79:3"
+          ],
+          "focus_return_refs": [
+            "5:78:8:1"
+          ],
+          "carrier": "عَلَىٰ لِسَانِ ile belirtilen Davud ve İsa'nın dili",
+          "independent_trigger": "5:79:3'te topluluk içi karşılıklı uyarının işlememesi",
+          "activation": "Topluluk dili, dikilmiş uyarı imgesinin sözlü ve aktarılabilir taşıyıcısı olarak atıflı biçimde devreye girer.",
+          "resulting_reading": "Uyarı, tekil bir iç tepki olmaktan çıkıp peygamberî dil üzerinden topluluğa ulaşan bir söz olur.",
+          "boundary": "Atıf, focus'taki açık peygamberî dil ile sınırlıdır; daha geniş bir dil veya kurum teorisi kurulmaz."
+        },
+        {
+          "branch_ref": "root_001355/B006",
+          "facet_id": "F002",
+          "branch_gloss": "bir topluluğun dili ve konuşması",
+          "facet_statement": "Konuşma ürününden hareketle söz, sözcük, haber veya ileti anlamına uzanır.",
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "5:78:8:1"
+          ],
+          "trigger_refs": [
+            "5:79:3"
+          ],
+          "focus_return_refs": [
+            "5:78:8:1"
+          ],
+          "carrier": "لِسَانِ ile taşınan söz ve rapor",
+          "independent_trigger": "5:79:3'te uyarının karşılıklı sözle yerine getirilememesi",
+          "activation": "Dil taşıyıcısı, korkutucu işaretin söz, haber ve ileti olarak aktarılmasını sağlar.",
+          "resulting_reading": "Dışlama hükmü, aynı transgresyonu yeniden üretmemeye çağıran iletilebilir bir uyarı olarak duyulur.",
+          "boundary": "Bu ileti uzantısı atıflıdır; focus'taki peygamberî sözün yerine yeni bir konuşmacı veya içerik konmaz."
+        },
+        {
+          "branch_ref": "root_001560/B001",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "5:79:3"
+          ],
+          "trigger_refs": [
+            "5:78:1:1",
+            "5:78:8:1"
+          ],
+          "focus_return_refs": [
+            "5:78:1:1",
+            "5:78:8:1"
+          ],
+          "carrier": "5:79:3'te atıflı olarak izlenen ن ه ي ve karşılıklı alıkoyma alanı",
+          "independent_trigger": "Focus'taki لُعِنَ ve عَلَىٰ لِسَانِ taşıyıcılarının kamusal uyarı potansiyeli",
+          "activation": "Çözülmemiş bağ, uyarı işaretinin doldurduğu toplumsal boşluğu atıflı biçimde tanımlar.",
+          "resulting_reading": "Karşılıklı caydırma yokluğu, peygamberî uyarının neden kamusal bir mesafe koyma işlevi kazanabileceğini açıklar.",
+          "boundary": "Kök, gloss ve facet çözülmemiştir; yalnızca packet'teki exact 5:79:3 koordinatı ve atıflı rol korunur."
+        }
+      ],
+      "connection_refs": [
+        "conn_e1d5f3a99b398e5d6416"
+      ],
+      "context_refs": [
+        "5:79"
+      ],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "macro:transgression-as-enmity",
+      "origin_candidate_id": null,
+      "represented_candidate_ids": [],
+      "title": "Sınır aşımının düşmanlık yüzü",
+      "claim": "5:82'deki عَدَاوَةً ile gelen yoğun düşmanlık, 5:78'deki يَعْتَدُونَ fiilinin sınır aşmayı bildiren olağan anlamı yanında kişiler arası karşıtlık olarak da duyulmasını sağlar.",
+      "mechanism": "Focus ع د و taşıyıcısı 5:78:17:1, aynı kökün 5:82:4'teki açık düşmanlık occurrence'ı ile temas eder. 5:82'nin yoğunluk karşılaştırması, focus'taki taşkınlığı soyut sınır ihlalinden kişiler arasındaki düşmanlık ilişkisine doğru daraltır.",
+      "reader_payoff": "Okur, sınır aşmanın yalnızca norm ihlali değil, ilişkileri düşmanlığa çeviren görünür bir toplumsal sonuç olarak da işlediğini izleyebilir.",
+      "containment": "Olağan sınır aşma anlamı korunur. Bu resonance yalnızca 5:82'deki explicit düşmanlık occurrence'ına bağlıdır; bütün grupları veya bütün ع د و kullanımlarını aynılaştırmaz.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": [],
+        "reason": "The focus branch, exact focus return, exact same-root context occurrence, and local connection are supplied; the context projection does not supply full target morphology or an independent support label."
+      },
+      "support_ids": [],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000993/B003",
+          "facet_id": "F001",
+          "branch_gloss": "düşmanlık ve düşman",
+          "facet_statement": "Kişiler arasında dostluğun karşıtı olan düşmanlık ve karşıtlık ilişkisi.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "5:78:17:1"
+          ],
+          "trigger_refs": [
+            "5:82:4"
+          ],
+          "focus_return_refs": [
+            "5:78:17:1"
+          ],
+          "carrier": "يَعْتَدُونَ ile taşınan ع د و kökü",
+          "independent_trigger": "5:82:4'teki عَدَاوَةً ve onun yoğun düşmanlık bağlamı",
+          "activation": "Aynı kökün context occurrence'ı, focus'taki taşkınlığı kişiler arası karşıtlık facet'iyle sınırlar.",
+          "resulting_reading": "Transgresyon, toplumsal yakınlığı bozan düşmanlık ilişkisi olarak da görünür.",
+          "boundary": "5:82'nin yerel karşılaştırma bağlamıyla sınırlıdır; focus'un tarihsel muhataplarına yeni bir kimlik yüklemez."
+        }
+      ],
+      "connection_refs": [
+        "conn_4608441b5e512302fbdf"
+      ],
+      "context_refs": [
+        "5:82"
+      ],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "macro:exclusion-with-return-open",
+      "origin_candidate_id": null,
+      "represented_candidate_ids": [],
+      "title": "Dışlamanın yanında açık dönüş",
+      "claim": "5:74'teki tövbe ve bağışlanma çağrısı, 5:78'deki tamamlanmış dışlama hükmünü, karşı gelme ve taşkınlığın ardından dönüş ihtimali hâlâ açık bir ahlaki dizi içinde görünür kılar.",
+      "mechanism": "Focus ل ع ن taşıyıcısı 5:78:1:1, dışlama branch'inin F002 facet'iyle 5:74:2'deki tövbe ve 5:74:5'teki bağışlanma occurrence'larına bağlanır. Yerel bağlantı, çevredeki yanlışlıkların yanında tövbe ve bağışlanmayı da açıkça konumlandırır; böylece tamamlanmış hüküm, dönüş imkânını silmeyen bir sıra içinde okunur.",
+      "reader_payoff": "Okur, 5:78'in ağır hükmünü yumuşatmadan, aynı perikop içindeki tövbe ve bağışlanmanın geleceğe dönük bir dönüş kapısı açtığını görebilir.",
+      "containment": "Bu okuma tarihsel hükmü iptal etmez ve her lanet veya dışlamanın otomatik olarak geri alınabilir olduğunu söylemez. Bağlantı yalnızca 5:74'ün yerel tövbe ve bağışlanma çağrısına dayanır.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": [],
+        "reason": "The exact focus carrier and exact 5:74 repentance and forgiveness occurrences are supplied with a local connection; no separate support trust label accompanies the lean context projection."
+      },
+      "support_ids": [],
+      "branch_activations": [
+        {
+          "branch_ref": "root_001359/B001",
+          "facet_id": "F001",
+          "branch_gloss": "öfkeyle iyilikten uzaklaştırıp dışlama",
+          "facet_statement": "Temel işlem, birini öfkeyle iyilik alanından uzaklaştırıp dışarıda bırakmaktır.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "5:78:1:1"
+          ],
+          "trigger_refs": [
+            "5:74:2",
+            "5:74:5"
+          ],
+          "focus_return_refs": [
+            "5:78:1:1"
+          ],
+          "carrier": "لُعِنَ ile ifade edilen focus dışlaması",
+          "independent_trigger": "5:74:2'deki tövbe ve 5:74:5'teki bağışlanma occurrence'ları",
+          "activation": "Dışlamanın iyilik alanından uzaklaştırma yönü, hemen ardından tövbe ve bağışlanmanın anılmasıyla geri dönüş imkânına karşı okunur.",
+          "resulting_reading": "Hüküm, kapatılmış bir geçmiş kararı olarak kalırken ahlaki sıra dönüş için açık bir yön de taşır.",
+          "boundary": "Dönüş çerçevesi 5:74'teki explicit çağrıyla sınırlıdır; focus'taki tarihsel dışlama yeniden yazılmaz."
+        }
+      ],
+      "connection_refs": [
+        "conn_3b5035dbbf1022b2b617"
+      ],
+      "context_refs": [
+        "5:74"
+      ],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "macro:external-straight-path-boundary",
+      "origin_candidate_id": null,
+      "represented_candidate_ids": [],
+      "title": "Karşı gelmenin istenen doğru yol sınırı",
+      "claim": "Eklenen 1:6-1:7 ayetlerinin 'bizi dosdoğru yola ilet' isteği ve sapanlardan ayrılan yol sınırı, 5:78'deki karşı gelme ve hakkı aşmayı, yerel hükmün yanına eklenen belirli bir yönelme ölçütünden sapma olarak duyurur.",
+      "mechanism": "Focus ع ص ي taşıyıcısı 5:78:15:1, 1:6:1'deki hidayet isteği, 1:6:3'teki doğru oluş ve 1:7:9'daki sapma occurrence'ıyla; focus ع د و taşıyıcısı 5:78:17:1 ise 1:6:2'deki yol, 1:6:3'teki doğruluk ve 1:7:9'daki sapma occurrence'ıyla temas eder. Bu dış bağlantı, native uyarıyı bütün Fātiḥa'ya yaymadan, istenen yol karşısında yön kaybı olarak belirli bir delta ekler.",
+      "reader_payoff": "Okur, karşı gelme ve sınır aşmayı yalnızca geçmişteki ihlal etiketleri olarak değil, istenen doğru yola göre yön kaybı olarak da takip edebilir.",
+      "containment": "Focus'un İsrailoğulları hakkındaki tarihsel cümlesi korunur; Fātiḥa yalnızca 1:6-1:7'deki istenen doğru yol ve sapma sınırı için kullanılır. 5:77'nin yol uyarısı dış bağlantıyı destekler, fakat bütün dua veya sure sistemi focus'a taşınmaz.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": [],
+        "reason": "Exact focus and added-ayah occurrence references and branch cues are supplied; the added context is lean and has no separate support trust label, so the overlay remains qualified."
+      },
+      "support_ids": [],
+      "branch_activations": [
+        {
+          "branch_ref": "root_001022/B001",
+          "facet_id": "F001",
+          "branch_gloss": "buyruğa uymayıp söz dinlemekten çıkma",
+          "facet_statement": "Bir kimse, buyruğuna uyması gereken kişinin sözünü tutmaz, ona karşı gelir ve beklenen boyun eğmeden çıkar.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "5:78:15:1"
+          ],
+          "trigger_refs": [
+            "1:6:1",
+            "1:6:3",
+            "1:7:9"
+          ],
+          "focus_return_refs": [
+            "5:78:15:1"
+          ],
+          "carrier": "عَصَوا۟ ile ifade edilen buyruğa karşı gelme",
+          "independent_trigger": "1:6:1 ve 1:6:3'te istenen hidayet ve doğru yol ile 1:7:9'daki sapma",
+          "activation": "Karşı gelme, dua içinde talep edilen doğru yönün dışına çıkma olarak dış bağlamla sınırlandırılır.",
+          "resulting_reading": "İhlal, söz dinlememenin yanında yön tayinini reddeden bir sapma olarak da okunur.",
+          "boundary": "Dış bağlantı yalnızca 1:6-1:7'nin yol talebi ve sapma karşıtlığına dayanır; yeni bir muhatap veya hüküm eklemez."
+        },
+        {
+          "branch_ref": "root_000993/B001",
+          "facet_id": "F001",
+          "branch_gloss": "hakkı aşan saldırganlık",
+          "facet_statement": "Uyulması gereken sınırı veya başkasının hakkını aşarak açıkça haksızlık etme.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "5:78:17:1"
+          ],
+          "trigger_refs": [
+            "1:6:2",
+            "1:6:3",
+            "1:7:9"
+          ],
+          "focus_return_refs": [
+            "5:78:17:1"
+          ],
+          "carrier": "يَعْتَدُونَ ile ifade edilen hakkı ve sınırı aşma",
+          "independent_trigger": "1:6:2'de yol, 1:6:3'te doğruluk ve 1:7:9'da sapma karşıtlığı",
+          "activation": "Sınır aşma, talep edilen dosdoğru yolun normatif sınırını ihlal eden saldırganlık olarak dış bağlamla rezonansa girer.",
+          "resulting_reading": "Focus'taki taşkınlık, istenen doğru yolun dışında kalan açık bir haksızlık yönelimi olarak belirginleşir.",
+          "boundary": "Bu, 1:6-1:7'deki belirli yol karşıtlığıyla sınırlı bir overlay'dir; bütün ع د و kullanımlarına veya bütün dış gruplara genellenmez."
+        }
+      ],
+      "connection_refs": [],
+      "context_refs": [
+        "1:6",
+        "1:7"
+      ],
+      "semantic_obligation_refs": []
+    }
+  ],
+  "friction_notes": [
+    "focus_word_alignment eksiksizdir: 19/19 kelime çözülmüş ve unresolved analiz birimi yoktur.",
+    "Tek supplied candidate bir kez kabul edilmiştir. Exact HFT trace üç branch ref'in tamamını korur; resolved facet'ler legacy_unbound kaynağa atıflıdır, root_001560/B001 ise gloss ve facet olmadan çözülmemiş kalır.",
+    "HFT anchor scope complete ve 5:78 ile 5:79 için exact Arabic sağlanmıştır; ancak target morphology ve contextual branch için bağımsız lexicon kanıtı yoktur. Bu nedenle warning-effigy bulgusu exploratory ve atıflıdır.",
+    "Native context review 5:74 dönüş çerçevesini ve 5:82 düşmanlık temasını tuttu; diğer supplied bağlantılar çevredeki inkâr, uyarı, elçilik, sonuç ve alıcı müminler dizisini distinct bir carrier-trigger değişikliği olmadan sürdürür.",
+    "Host prefatory basmala ile eklenen 1:2-1:5 ayetleri gözden geçirildi, fakat focus-local bir carrier-trigger delta sağlamadı. Eklenen 1:6-1:7 yalnızca belirli straight-path overlay'i için tutuldu; bütün dua veya sure çapında bir okuma sayılmadı.",
+    "Packet'te candidate-specific semantic_obligations veya required_branch_facets sağlanmamıştır."
+  ]
+}

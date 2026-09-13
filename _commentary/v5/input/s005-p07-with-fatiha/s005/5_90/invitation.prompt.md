@@ -1,0 +1,239 @@
+# V5 reading invitation — 5:90
+
+You are a fresh reading-invitation writer. Read the complete editorial prose
+before writing. It is your sole semantic source.
+
+Write two to four paragraphs of fluent, contemporary Turkish that reveal a
+surprising reading by following one or two main channels of resonance in the
+ayah. A channel is a connected background of meanings, images, actions, or
+relations through which the ayah can be heard and understood differently.
+Several editorial findings may together develop one channel. Summarize that
+connected movement and its consequence for the ayah's main meaning, rather
+than compressing findings individually. Give the reading's substance now;
+the invitation comes from understanding it, not from a promise of hidden depth.
+
+Before drafting, read the entire editorial prose and silently select the one
+or two channels with the strongest interpretive consequence and enough
+grounding to explain clearly. Favor channels that expand or shift what the
+ayah says, the relation it establishes, or what is at stake in its action or
+image. One fully developed channel is sufficient; add a second only when it
+offers a distinct consequential reading that can be explained within the
+invitation. No finding, channel, or major shift has an individual coverage
+claim. Unselected material may remain entirely in the full commentary.
+
+A channel may develop through grammar, sound, dialogue, a material process,
+time, imagery, or a conceptual relation. Resonance is not limited to acoustic
+effects, and an unusual image alone does not establish a channel. Use only
+connections the editorial prose actually develops. If it supplies no such
+channel, explain its strongest grounded reading without inventing connections
+or surprise.
+
+Begin inside the ayah's own words, images, actions, or relations and reveal a
+selected distinctive reading in the first paragraph. Keep the plain meaning
+reachable with only the orientation needed to understand the change. Do not
+spend an opening paragraph on routine explanation or front-load context about
+the surah, the ayah's position, or the commentary project.
+
+For each selected channel, begin with the expression that opens it, unfold the
+connected background, and show how the ayah reads or sounds against that
+background. Let a detail lead into the next through an intelligible relation
+or process, so the reader experiences the emerging reading. This is a movement
+of thought, not a mandatory sentence pattern or one paragraph per finding.
+Let the reader identify the expression being interpreted,
+where any nonordinary detail comes from, and what that detail changes in the
+reading. Briefly identify the word-family use, restricted form, collocation, or
+context that supplies an essential added detail, and preserve the concrete
+operation that makes the image work. Keep the ordinary reading and necessary
+qualification clear within this explanation; do not repeat them as a fixed
+formula. Preserve the particular object, process, or relation that makes this
+reading distinctive, and state its interpretive consequence for the ayah as a
+whole. Make intelligible what the familiar reading leaves less visible and
+what the expanded or shifted reading now lets the reader understand. Preserve
+the editorial's force: an exploratory possibility remains possible, while a
+developed shift must not be softened into a decorative association or a
+reassurance that everything means the same thing. A concrete
+account of how something is carried, transformed, lost, or restored must not
+shrink to a general statement about care, guidance, dependence, or goodness.
+Keep the details needed to make the selected channel work; omit side findings
+and shorten routine setup. If a channel cannot be explained faithfully from
+the editorial prose, choose another grounded channel or reading.
+
+When a non-focus ayah supplies a contribution used in the invitation, keep its
+reference from the editorial prose beside that contribution.
+
+Do not turn the invitation into a miniature inventory of the commentary's
+conclusions, or flatten distinct channels into a broad theme to include more
+material. Do not repair, extend, or supplement the editorial prose from memory
+or outside knowledge.
+
+Omit technical apparatus. Retain any qualification, source distinction, live
+alternative, or boundary whose absence would change the force or meaning of a
+chosen reading. Express it naturally beside the image or relation it qualifies.
+Favor positive explanations of the relation between layers: what remains in
+the foreground and what the resonance makes audible in the background. State
+how that background reinforces, expands, or shifts the understanding of the
+main meaning, with the source and degree of certainty clear. Reserve explicit
+exclusions for concrete ambiguities or live counter-evidence that need them.
+Repeated "this is not X" endings make a reading sound withdrawn; express the
+substantive qualification through what the reading does contribute wherever
+possible. Use varied, natural language rather than a repeated "second layer"
+formula, and preserve the force of expansions and shifts.
+Do not name branches, candidates, findings, scopes, evidence categories,
+ledgers, or workflow stages, or label the prose as numbered channels. Do not
+list findings serially.
+
+Use the established `{ar:..., tr:..., gloss:...}` syntax, consistent
+Turkish-readable transliteration, and short ordinary glosses. Keep Arabic
+anchors beside the explanations they ground. Within a paragraph, continue with
+the Turkish meaning where clear; provide the necessary local tag when a later
+paragraph interprets the carrier anew. Do not place Arabic script outside a
+valid tag.
+
+Build transitions within a channel through its shared object, action, or
+relation. If two channels are selected, they may occupy separate paragraphs;
+do not invent a link between them. Do not praise the commentary's quality,
+promise what the reader will find, manufacture suspense, recap at the end, or
+add a call to action. End on an image, relation, action, or tension already
+established by the selected reading.
+
+Before finishing, compare the invitation with the entire editorial prose:
+does the chosen channel reveal a consequential reading, or could the text have
+been written from the ordinary translation and a modest explanation alone?
+When the editorial supports a surprising channel, the latter fails this task.
+Can the reader follow the opening expression into a connected background and
+understand how that background expands or shifts the ayah's main meaning?
+Check the selected connections against their editorial explanation: can the
+reader tell where the nonordinary details come from, with the necessary
+qualifications intact? Repair generic explanation, isolated curiosities, or a
+compressed findings list by developing the selected channel. Do not add
+omitted channels merely for coverage. Do not output this check.
+
+Write only the invitation text to:
+
+`_commentary/v5/editorial/s005-p07-with-fatiha/s005/5_90/5_90.invitation.tr.md`
+
+Do not add a heading, wrapper label, index, ledger, evidence file, or any other
+artifact. Do not modify the editorial prose.
+
+After writing the invitation, run:
+
+```bash
+python3 _commentary/v5/validate_prose.py _commentary/v5/editorial/s005-p07-with-fatiha/s005/5_90/5_90.invitation.tr.md
+```
+
+If validation fails, repair only the reported mechanical file-contract issues
+and rerun it, for at most two repair cycles. Report the final validator result
+in your response.
+
+<editorial_prose>
+5:90, iman edenlere doğrudan seslenerek {ar:ٱلْخَمْرُ, tr:el-hamru, gloss:sarhoş edici içki}, {ar:ٱلْمَيْسِرُ, tr:el-meysiru, gloss:kumar}, dikili tapınma veya adak taşları ve {ar:ٱلْأَزْلَٰمُ, tr:el-ezlâmu, gloss:fal okları} konusunda açık bir yön verir. Bu dört ad, {ar:رِجْسٌ, tr:ricsun, gloss:pis ve tiksindirici şey} olarak nitelenir; ardından onlardan uzak durmaları ve böylece kurtuluşa ermeyi ummaları istenir. Ayetin olağan hükmü burada belirlenir; kelimelerin açtığı başka görüntüler onun nasıl işlediğini daha belirgin kılar.
+
+## Dikkatin Toplanması
+
+Çağrı, yasaklanan şeyleri söylemeden önce {ar:يَا, tr:yâ, gloss:doğrudan çağrı} ve {ar:أَيُّهَا, tr:eyyühe, gloss:dikkat çağrısı} ile muhatabı huzura alır ve dikkati üzerinde tutar. Ardından {ar:الَّذِينَ, tr:ellezîne, gloss:kimseler ki} bu sesi belirli bir topluluğa yöneltir; {ar:آمَنُوا, tr:âmenû, gloss:iman etmiş olanlar} ise bu topluluğun daha önce kurulmuş güven kimliğini taşır. Böylece ayet, hükme geçmeden önce muhatabı çağrı içinde toplar, seslendiği topluluğu belirler ve ardından davranışa yönelir.
+
+{ar:آمَنُوا, tr:âmenû, gloss:iman edip güvenenler} fiilinin bitmiş oluşu, güveni buyruğun önünde kurulmuş zemin olarak duyurur. Aynı topluluk, {ar:لَعَلَّكُمْ, tr:lealleküm, gloss:umulur ki siz} ve {ar:تُفْلِحُونَ, tr:tuflihûne, gloss:kurtuluşa erersiniz} ile ayetin sonundaki umuda taşınır. Bu geçiş, kabulün içteki onaydan kaçınma yolunda yaşanması beklenen aidiyete uzandığını gösterir.
+
+{ar:إِنَّمَا, tr:innemâ, gloss:ancak ve yalnızca} ilk belirli adın önünde hükmün sınırını çizer. Dört ad önce ayrı ayrı duyulur, sonra tekil bir nominal yüklemde toplanır. Böylece her kategori kendi göndergesini korurken aynı nitelendirmeye girer. Sözün düzeni çağrıdan kimliğe, sınırlanmış hükümden kaynağa, oradan buyruğa ve umulan sonuca ilerler; ayet, dinleyiciyi dikkat, teşhis, yön değiştirme ve umut boyunca taşıyan bir hareket kurar.
+
+## Listenin İç Hareketi
+
+Listenin ilk adı {ar:ٱلْخَمْرُ, tr:el-hamru, gloss:sarhoş edici içki}dir. Bu başlangıç, algının bozulduğu kutbu öne alır. Sözcüğün örtme ve gizleme basıncı, bir şeyi üstüne veya önüne engel getirerek görünmez ya da korunaklı kılma ayrıntısını taşır. Komşu {ar:ٱلْمَيْسِرُ, tr:el-meysiru, gloss:kumar ve kolay kazanç} ve biraz sonra gelecek tekil {ar:رِجْسٌ, tr:ricsun, gloss:pislik hükmü}, bu basıncı aklın üstüne kapanan sarhoş edici etkiye yöneltir. Buradaki görüntü, her türlü örtüyü değil, ayetteki bilinen içki kategorisinin algıyı örten yönünü keskinleştirir.
+
+İlk {ar:وَ, tr:ve, gloss:ve} bağlacı {ar:ٱلْمَيْسِرُ, tr:el-meysiru, gloss:kumar}ı, içkiyle aynı {ar:رِجْسٌ, tr:ricsun, gloss:pislik hükmü} altında duran eşit bir kategori olarak aynı hüküm zincirine yerleştirir. Kelimenin taşıdığı kolaylık, güç ve çetin olanın karşıtı olma ayrıntısı, {ar:عَمَلِ, tr:ameli, gloss:iş ve eylem} ile {ar:تُفْلِحُونَ, tr:tuflihûne, gloss:kurtuluşa erersiniz} tarafından görünür kılınır. Kumar bu temas içinde emeği aşarak çabuk sonuca ulaştıran çekici bir kestirme gibi görünür.
+
+Bu kolaylık, {ar:ٱلْمَيْسِرُ, tr:el-meysiru, gloss:kumar ve paylaştırmalı talih oyunu} ile {ar:ٱلْأَزْلَٰمُ, tr:el-ezlâmu, gloss:fal okları} ve ortak {ar:رِجْسٌ, tr:ricsun, gloss:birleştirici pislik hükmü} buluştuğunda somutlaşır: kazanç, kura ile paylaştırılan bir düzeneğe bağlanır. Bu görüntünün kapsamı, maysir ile ezlâm arasındaki yerel paylaştırma ilişkisidir; genel oyun kategorisini veya kelimenin bütün kolaylık çağrışımlarını hükme taşımaz. İçki ile kumar birbirine indirgenmeden, algı ile kestirme kazancı aynı hukuki ve anlamsal alanda buluşturan bir çift olarak kalır.
+
+İkinci bağlaç, iştah ve kazanç alanından kamusal bir otorite nesnesine geçerek {ar:ٱلْأَنصَابُ, tr:el-ensâbu, gloss:dikili tapınma taşları}nı listeye katar. Belirli çoğul biçim, çevresinde tapınılan, adak kesilen veya dinsel tören yürütülen taşı tek bir örneğe kapanmayan tanınmış bir kategori olarak kurar. {ar:ٱلْأَزْلَٰمُ, tr:el-ezlâmu, gloss:fal okları} ve ardından gelen {ar:رِجْسٌ, tr:ricsun, gloss:pislik hükmü}, bu geniş dikilme alanını ayetin dört öğelik topluluğuna bağlar. 5:89 ve 5:97'deki kurban ve yetkilendirilmiş sunu sahneleriyle kurulan yankı da taşı hukukî ve ritüel bir otorite olarak belirginleştirir; bu yankı, sözcüğün 5:90'daki yerel işlevini yoğunlaştırır.
+
+Son {ar:وَ, tr:ve, gloss:ve} ile {ar:ٱلْأَزْلَٰمُ, tr:el-ezlâmu, gloss:fal okları} dördüncü adı getirir. Yüklem bu son adı da duyulana kadar bekler; her kategori ayrı ayrı işitildikten sonra tekil {ar:رِجْسٌ, tr:ricsun, gloss:birleştirici pislik hükmü} altında toplanır. Kesilip hazırlanmış ve düzeltilmiş araçlar oluşu, payı ve kararı dışarıdaki kura düzenine teslim eden somut bir karar aracını görünür kılar. Son sıradaki bu ad, hükümden hemen önce iradenin kişinin kendi yönelişinden çekilip işarete bırakılması hareketini sıkıştırır. Bu sıkışma, fal aracı anlamının yanında işleyen yerel biçimsel etkidir.
+
+## Hükümden Eyleme
+
+Listenin ardından gelen {ar:رِجْسٌ, tr:ricsun, gloss:pis ve tiksindirici şey} tekil ve belirsiz bir yüklem olarak dört adı birden niteler. Olağan anlamda bu dört uygulamanın temizliğe aykırı ve tiksindirici niteliğini bildirir. Aynı sözcüğün işin öğelerini birbirine karıştırıp ayırt edilemez hâle getiren kullanımı ise {ar:عَمَلِ, tr:ameli, gloss:iş ve eylem} ile {ar:فَٱجْتَنِبُوهُ, tr:fe'ctenibûhu, gloss:ondan uzak durun} arasındaki temasta açılır. Rics burada hüküm adını korurken, yargıyı ve yönü birbirine dolandıran pratik sonucu da duyurur.
+
+Dört adın ayrı göndergeleri, yüklemin tekil oluşuyla ortak bir kaçınma alanında toplanır. {ar:هُ, tr:hu, gloss:onu} zamiri dört isme tek tek dönmeden tekil {ar:رِجْسٌ, tr:ricsun, gloss:kaçınılacak nitelik}e bağlanır; gramer böylece farklı kategorileri özdeşleştirmeden ortak niteliği kurar. {ar:مِنْ, tr:min, gloss:-den ve kaynağı bildiren edat} bu alanı {ar:عَمَلِ ٱلشَّيْطَٰنِ, tr:ameli eş-şeytâni, gloss:şeytanın işi} tamlamasına bağlar. Bu yerel edat ilişkisinin katkısı kaynak bağını teşhis etmektir; ayrıca kurulmuş bir nedensellik teorisi taşımaz.
+
+{ar:عَمَلِ, tr:ameli, gloss:iş ve eylem} adı bilerek yürütülen bir iş çerçevesi açar. {ar:آمَنُوا, tr:âmenû, gloss:güvenmiş topluluk} ile belirli {ar:ٱلشَّيْطَٰنِ, tr:eş-şeytâni, gloss:şeytan} adı arasında buluştuğunda, insanların yürüttüğü alan düşmana atfedilen üretilmiş bir iş olarak da çerçevelenir. Dört öğe böylece adlandırılmış bir kaynağın işlettiği örüntü içinde görünür; insanın sorumluluğu bu atıfla yerinde kalır. Tamlamanın taşıdığı niyet ve amaç basıncı işin kasıtlı duyulmasına izin verir, zorlama veya cebir sonucunu ise açık bırakır.
+
+{ar:ٱلشَّيْطَٰنِ, tr:eş-şeytâni, gloss:uzaklaştıran ve karşı koyan güç} adı, iş tamlamasıyla {ar:فَٱجْتَنِبُوهُ, tr:fe'ctenibûhu, gloss:ondan uzak durun} buyruğu arasında yön kurar. Güven ve yargıdan ayıran, ilişkiyi eğrilten bir uzaklık belirir. Sonuç edatı {ar:فَ, tr:fe, gloss:böylece} teşhisi hemen sonraki emre bağlar; Form VIII çoğul buyruğu topluluğu bu tekil kaçınılacak alandan etkin biçimde uzaklaştırır. Sözcüğün ayrılma, yanında durmama ve sona erdirme kuvveti aynı harekette birleşir.
+
+Kaçınmanın ardından {ar:لَعَلَّكُمْ, tr:lealleküm, gloss:umulur ki siz} ve {ar:تُفْلِحُونَ, tr:tuflihûne, gloss:kurtuluşa erersiniz} gelir. Çoğul zamir aynı topluluğu korur; bitmemiş fiil başarıyı elde edilmiş bir sonuç değil, buyruğun izlenmesiyle açık kalan bir umut ve gelecek olarak bırakır. Fiilin olağan başarı ve kurtuluş anlamı, yarıp açıklık açma basıncıyla da temas eder. Kumarın hazır kazancı ile etkin uzaklaşma karşılaştığında başarı, şansın düşürdüğü bir ödülden çok açılarak ulaşılan bir rota gibi duyulur. Bu yerel görüntüde uzak durmak, zararlı dolaşıklığı ayırıp toprağı işlemeye hazırlayan ilk hareket olarak görünür; tarıma ilişkin çağrışım fiilin doğrudan sözlük karşılığı değil, bu bağlantıya özgü bir uzantıdır.
+
+## İşleyen Düzenek
+
+Bu hareketler birbirine bağlandığında her ad kendi katkısıyla görünür: {ar:ٱلْخَمْرُ, tr:el-hamru, gloss:sarhoş edici içki} algıyı örten yüzeyi kurar; {ar:ٱلْمَيْسِرُ, tr:el-meysiru, gloss:kumar} kolay açılan kazancı kura ile paylaştırır. {ar:ٱلْأَنصَابُ, tr:el-ensâbu, gloss:dikili tapınma taşları} otoritenin sabitlendiği maddi odağı, {ar:ٱلْأَزْلَٰمُ, tr:el-ezlâmu, gloss:fal okları} ise kararı dışarıya bırakan işareti taşır. {ar:عَمَلِ, tr:ameli, gloss:işletilen eylem} bu araçların insanlar tarafından çalıştırılmasını, {ar:ٱلشَّيْطَٰنِ, tr:eş-şeytâni, gloss:uzaklaştıran kaynak} da sağlam ilişkiden uzaklaşan yönü gösterir.
+
+Bu işlemler buluştuğunda {ar:رِجْسٌ, tr:ricsun, gloss:pislik ve karışıklık}, dört adın ortak sıfatı olmanın yanında düzenin ürettiği birbirine dolanmış sonucu da taşır. Failin karar gücü önce kolay girişin ve örtünün altında belirsizleşir, sonra kamusal bir nesneye sabitlenir ve dışarıdaki işarete bırakılır. Böylece dört ayrı uygulama aynı işleyişte birbirini açıklar; her biri kendi göndergesini korurken ortak sonucu görünür kılar. {ar:فَٱجْتَنِبُوهُ, tr:fe'ctenibûhu, gloss:ondan uzak durun} buyruğu bu bağlantıda ortak işleyişten çekilmeye yönelir; tek tek olağan nesneler ve olağan hüküm bu ilişkisel görüntü içinde yerini korur.
+
+Bu işleyiş bir başka açıdan, önce gerçekliği örten, sonra dikili işaretler, ölçüler ve oklarla onu çözeceğini ileri süren bir ölçüm aygıtı gibi belirir. {ar:ٱلْخَمْرُ, tr:el-hamru, gloss:örtücü içki} kapatma basıncını taşırken, {ar:ٱلْأَنصَابُ, tr:el-ensâbu, gloss:sabit dikili işaret} topluluğun yerini veya bir bölgenin sınırını bildiren sabit başvuru noktasına dönüşür. {ar:ٱلْأَزْلَٰمُ, tr:el-ezlâmu, gloss:karar aracı} dışarıdan sonuç çıkarma iddiasını ekler. Dikili nesne bu görüntüde köken, dönüş noktası veya ölçü gibi davranır. Bu işlev, 5:90'daki tapınma taşı anlamının yanında duran yerel bir görüntü olarak kalır.
+
+Ölçümün görünen sinyali, alanı çözmek yerine daha da karıştıran bir çıktı üretir. {ar:عَمَلِ, tr:ameli, gloss:aletleri işletme} işaret ve okların insanlar tarafından çalıştırıldığını, yanlış yönelmenin pasif bir kazadan çok yürütülen bir uygulama olduğunu gösterir. {ar:رِجْسٌ, tr:ricsun, gloss:üretilen karışıklık} bu uygulamanın çıktısını taşır. Bu özel ilişki, örtülü bir alanı sabit işaret ve kura ile ölçmeye çalışırken kendi sinyalini bulandıran düzeneğe aittir; bu, her iş veya her alet için genel bir aldatıcılık hükmü değildir.
+
+Bu düzende kullanıcı ile araç arasındaki ilişkinin tersine dönmesi görünür olur. {ar:ٱلْخَمْرُ, tr:el-hamru, gloss:sarhoş edici içki}nin yakalanmış ve uzak bir varlığı düşündüren dalı, {ar:عَمَلِ, tr:ameli, gloss:işletme} ile {ar:فَٱجْتَنِبُوهُ, tr:fe'ctenibûhu, gloss:yanından ayrılın} buyruğuyla temas edince kişiyi düzeneği kullanan ve aynı anda onun tarafından tutulup yanında sürüklenebilen biri olarak gösterir. {ar:ٱلشَّيْطَٰنِ, tr:eş-şeytâni, gloss:uzun bağ gibi yönlendiren kaynak}nın uzun ve sıkı bükülmüş kuyu ipi çağrışımı bu hareketi bağlar. {ar:عَمَلِ, tr:ameli, gloss:kullanıcının işletilen eylemi} fail ilişkisini tersine çevirir: kişi sistemi işletirken sistem tarafından işletiliyor gibi duyulur. Bu bağlantı, insan sorumluluğunu koruyan bir imge olarak işler; ayete gerçek bir ip, kuyu veya köleleştirme terimi eklemez. Buyruktaki uzaklaşma, bir hayvanı ya da tutsağı yanında götürme dalıyla birleştiğinde, görünürdeki kullanıcının da yönlendirildiğini sezdirir.
+
+Son yerel görüntü, {ar:رِجْسٌ, tr:ricsun, gloss:kuyuya indirilen ve sinyal veren taş}i kuyuya iple bırakılan, çamuru karıştıran ve çıkardığı sesle derinlik hakkında işaret veren taş işlevinde gösterir. {ar:ٱلْخَمْرُ, tr:el-hamru, gloss:gerçeği örten içki} hedefi gizleyen kapağı, {ar:ٱلْأَنصَابُ, tr:el-ensâbu, gloss:dış ölçü veren dikili işaret} dış başvuru noktasını taşır. Bu üç katkı birlikte, bozulmuş alanın içinden ölçüm yapmaya çalışan bir aygıtı kurar. Taşın çamuru kaldırması, açıklık arayan ölçümün kendi alanını daha da bulandırmasıdır; çıkardığı sesi bilgi sanan düzenek gizli derinliği ölçüp kesin sonuç döndürdüğünü varsayar. Bu taş işlevi, kelimenin doğrudan anlamı değil, kelimelerin birbirine açtığı yerel görüntüdür; olağan pislik hükmü ve tapınma taşı göndergesi yerinde kalır.
+
+## İşareti Cevaba Zorlamak
+
+Kuyudaki taşın açtığı soru, gizli olanı işaret zoruyla kullanılabilir cevaba dönüştürme isteğini görünür kılar. {ar:وَٱلْأَزْلَٰمُ, tr:vel-ezlâmu, gloss:fal okları} bu bağlantıda tarihsel karar aracının yanında, belirsizliği eyleme dönük bir sonuca zorlayan bir düzenek gibi görünür. 5:101'deki {ar:لَا تَسْأَلُوا۟, tr:lâ tes'elû, gloss:sormayın}, {ar:إِن تُبْدَ لَكُمْ, tr:in tübde leküm, gloss:size açığa çıkarılırsa} ve {ar:تَسُؤْكُمْ, tr:tesû'küm, gloss:sizi sıkıntıya düşürür} ifadeleriyle buluşunca, gizliyi açığa çıkarma isteğinin kendine zarar veren bir kapanma üretebildiğini gösterir. Kuyudaki taşın katkısı burada da belirir: müdahale alanı berraklaştırmak yerine çalkalar.
+
+5:109'daki cevap verme sahnesi, bu işaret temasına cevabın sınırını koruyan disiplinli bir karşılık ekler. İşaretin belirli bir sonuç istemesi, içeriği uyduran bir kehanet kapanışının karşısına bu disiplinli karşılığı çıkarır. Bilgi sözleri ve {ar:عَلَّٰمُ ٱلْغُيُوبِ, tr:allâmü'l-guyûb, gloss:gaybı bilen} ifadesindeki gözden saklı alan, işaretin sahip olunmayan bilgiyi temsil etme iddiasını görünür kılar. 5:101 ve 5:109 arasındaki bu bağ, fal oklarının reddini elde edilemeyecek bilgiden zorla kesinlik üretme girişimine kadar genişletir; bu bağlantıda gizli cevabın içeriği açıklanmaz ve sorular hakkında daha genel bir hüküm bu iki sahnenin yerine geçirilmez.
+
+## Yakın Çevredeki Ayrım
+
+İşaretin kesinlik iddiasından sonra 5:87 ve 5:88'deki yakın çevreye dönünce, uzaklaşmanın neyi koruduğu belirginleşir. 5:87'de {ar:لَا تُحَرِّمُوا, tr:lâ tuharrimû, gloss:haramlaştırmayın} uyarısı, {ar:أَحَلَّ, tr:aḥalla, gloss:izinli kıldı} fiili ve {ar:طَيِّبَات, tr:ṭayyibât, gloss:iyi ve temiz şeyler} olumlu alanı ile aşırı yasaklamanın sınırını çizer. 5:88'deki {ar:ٱتَّقُوا, tr:ittakû, gloss:sakının ve korunun} helal ve temiz rızkı bilinçle alma yönünü ekler. Bu çerçevede {ar:فَٱجْتَنِبُوهُ, tr:fe'ctenibûhu, gloss:ondan uzak durun} buyruğu, belirlenmiş bir alandan bilinçle geri çekilerek helal ve temiz rızkı koruyan bir hareket olarak işler; bu okuma genel bir mahrumiyet alanına genişlemez.
+
+5:87, 5:88, 5:89 ve 5:91'deki sıralı sahneler bu uzaklığın hareketini farklı ölçeklerde açar: izinli ve iyi olan belirir, temiz rızık korunur, yemin bağları onarılır, ardından insanlar arasına düşmanlık ve engelleme girer. Bu sıra, ayetin kolay açılan, örten ve karıştıran pratiğini daha geniş bir sürece bağlayan sınırlı bir yankı sunar; bu bağın kapsamı 5:90'ın bütün ayrıntılarını önceden kodlayan bir şemaya uzanmaz. Uzaklaşma emrinin uzamsal kuvveti de burada anlaşılır: kolay görünen başlangıcı sonunda düşmanlık ve engellemeye varan bir alana girmemeyi seçer.
+
+5:91'de {ar:بَيْنَكُم, tr:beyneküm, gloss:aranızdaki alan} içine giren süreç {ar:عَدَاوَة, tr:adâve, gloss:düşmanlık} ile iki uç arasındaki bağı bozan bir ara mesafe kurar. {ar:ٱجْتِنَاب, tr:ictinâb, gloss:yanında durmayıp uzaklaşma} bu sosyal aralığı kapatacak karşı hareket olarak belirir. Aynı ayetteki {ar:يَصُدُّكُم, tr:yesuddu-küm, gloss:sizi alıkoyar} sözü, yasaklanan alanın {ar:ذِكْر, tr:zikr, gloss:hatırlama}dan ve {ar:الصَّلَاة, tr:salât, gloss:namaz}dan uzaklaştırdığını gösterir. {ar:شَيْطَان, tr:şeytan, gloss:uzaklaştıran karşıt güç}ın adı bu düşmanca doğrultuyu taşırken, {ar:عِبَادَة, tr:ibâdet, gloss:ibadet}i sürdüren bağ onun karşısında görünür. {ar:بَغْضَاء, tr:bağdâ, gloss:nefret ve itme} düşmanlığı duygusal itmeye dönüştürür; 5:91'deki {ar:فَهَلْ أَنْتُمْ مُنْتَهُونَ, tr:fehel entüm müntehûn, gloss:artık vazgeçiyor musunuz} sorusu bu zincirin fiilen kesilmesini ister. Böylece 5:90 ve 5:91 arasındaki temas, uzaklaşmayı ilişkiyi ve ibadeti bölen süreci durduran karşı hareket olarak açıklar.
+
+## Boşalan Alanın Onarılması
+
+Uzaklaşmanın açtığı alan, 5:89'daki yemin onarımında somut bir karşılık bulur. {ar:حُرِّرَتْ, tr:hurrirat, gloss:özgür bırakıldı} serbest bırakmayı, {ar:إِطْعَام, tr:iṭ‘âm, gloss:doyurma} ihtiyaca yönelen payı, {ar:عَقَّدْتُم, tr:aḳḳadtüm, gloss:bağladığınız} yerine getirilmesi gereken yükümlülüğü, {ar:كَفَّارَة, tr:keffâre, gloss:örterek onaran karşılık} ise kusuru örterek onaran telafiyi taşır. Kumarın ve ritüelleştirilmiş paylaşımın boşalttığı alan, ölçülü yardım, başkasını gözeten dağıtım ve bağlayıcı sorumlulukla onarılabilir.
+
+5:89'daki {ar:عَدْل, tr:adl, gloss:adil ve ölçülü olma} orta ve adil ölçüyü, {ar:ٱلْمَيْسِرُ, tr:el-meysiru, gloss:paylaştırmalı talih oyunu} ise deveyi kesip parçalarını okların belirlediği paylara bölme işlemini taşır. {ar:ٱلْأَنصَابُ, tr:el-ensâbu, gloss:adak kesme taşları}nın üzerinde hayvan kesilmesi veya kan dökülmesi, bu rastlantısal paylaştırmanın ritüel çekimini görünür kılar. Böylece adak ve talih payı, ölçülü yardım ve telafi yönüyle karşıt bir dağıtım düzeninde anlaşılır; bu karşılaştırmanın kapsamı 5:89'un yemin sürecidir.
+
+## Yönü Değişen İş
+
+5:93'teki açıklama, {ar:رِجْس, tr:rics, gloss:pis ve kirletici şey} ile {ar:عَمَل, tr:amel, gloss:bilerek yapılan iş}in yönü değişebilen bir örüntü içindeki işlevini açar. {ar:طَعِمُوا, tr:ṭa‘imû, gloss:tattılar} geçmişteki tadımı taşır; önceki tüketim tek başına kişiye kalıcı bir suç kimliği vermez. Odaktaki rics ve amel, şimdi sürdürülen, insanın bilerek ortaya koyduğu ve değiştirebildiği yönü açıklar.
+
+5:93'teki {ar:صَلَح, tr:ṣaluḥa, gloss:sound ve bozulmamış olma} bu kirlenmenin karşısına canlı bir sağlamlık koyar. {ar:عَمِلُوا الصَّالِحَات, tr:amilû's-sâliḥât, gloss:iyi işleri yaptılar} tekrarları aynı eylem yüzünü iyiye çevirir; {ar:ٱتَّقَوْا, tr:itteḳav, gloss:sakındılar ve kendilerini korudular} ise değişimin tek seferlik bir söz değil, korunarak sürdürülen bir yön olduğunu gösterir. Böylece 5:93'ün geçmiş tadım ile mevcut davranış yörüngesi arasındaki ayrımı, geriye dönük bir mühür yerine devam eden yönelişi öne çıkarır; geçmişi bütünüyle silen bir izin üretmez.
+
+Dikili işaretin bu okumadaki ölçüsü biçiminden çok işlevinde belirir. 5:97'de {ar:الْبَيْت الْحَرَام, tr:el-beytü'l-harâm, gloss:korunan kutsal ev} ve korunan alan, görünür bir merkezin yetkilendirilmiş düzen içinde nasıl iş gördüğünü gösterir. {ar:الْقَلَائِد, tr:el-ḳalâid, gloss:işaretli boyunluklar} başka bir görünür işaretin koruyucu işlevini açar; {ar:قِيَامًا لِلنَّاس, tr:ḳıyâmen li'n-nâs, gloss:insanların düzenini ayakta tutan destek} ise işaretin insanların geçimini ve düzenini destekleyebileceği alanı gösterir. Buna karşılık {ar:نَصَب, tr:naṣab, gloss:dikme ve yükseltme} sıradan nesneyi herkesin önünde otoriteye yükseltme görüntüsünü, {ar:هَدْي, tr:hedy, gloss:kutsal alana yöneltilen sunu} da hayvanın veya kanın hangi düzene hizmet ettiğini belirleyen yönlendirilmiş sunuyu taşır. 5:90'daki tapınma veya adak taşı bu karşılaştırmada kendi göndergesini korur; bu karşılaştırmadaki ayırt edici ölçü işaretin yetkisi, yönü ve insanlara sağladığı işlevidir.
+
+## Görünüşle Ölçülen Başarı
+
+5:100'de görünür kazanç ile iyi sonuç arasındaki fark keskinleşir. {ar:خَبِيث, tr:ḫabîs, gloss:kötü ve değersiz} alanı, 5:90'daki {ar:رِجْسٌ, tr:ricsun, gloss:pis ve kirletici hüküm}ün karşısına niteliği koyar. {ar:أَعْجَبَكَ, tr:a‘cabeke, gloss:hoşuna gitmesi} görünüşün algıyı sürükleyebildiğini, {ar:كَثْرَة, tr:keṯre, gloss:çokluk} sayısal artışın iyi hükmünü yönetemeyeceğini gösterir. 5:100'deki {ar:ٱتَّقُوا, tr:ittakû, gloss:sakının ve korunun} özdenetimi bu ayrımı korur. {ar:ٱلْمَيْسِرُ, tr:el-meysiru, gloss:kumar ve maddi bolluk}nın kolay servet ve bolluk yüzü, görünür zenginliğin kalite yerine geçen bir kanıt sayılamayacağını gösterir; {ar:تُفْلِحُونَ, tr:tuflihûne, gloss:kurtuluşa erersiniz} için miktar tek başına yeterli değildir.
+
+Başarı sözcüğü aynı bağlamda daha uzak bir polemik görüntüyle karşılaşır. Satıcı veya alıcıya çekici gösterilen alışveriş yüzeyi, talih oyununu kazanç ürünü gibi sunan maysirle buluşunca, süslü görünüşün başarı diye pazarlanması sezilir. 5:100'deki güzellik ve çokluk ile 5:119'daki hakikat karşıtlığı bu teması bağımsız olarak açar. {ar:تُفْلِحُونَ, tr:tuflihûne, gloss:kurtuluşa erersiniz} vaadi böylece çekici fakat sahte sonucu satan uygulamalardan başarı sözcüğünü geri alan bir karşı-ölçü gibi duyulur. Bu bağlantının kapsamı satış anlamını doğrudan kurmaya değil, pazarlama görüntüsünü olağan kurtuluş umudunun çevresinde duran uzak bir yankı olarak duyurmaya uzanır.
+
+Başarının daha uzun ölçüsü 5:119 ve 5:120'de belirir. 5:119'da fayda, hakikat, süreklilik ve zafer; 5:120'de göklerin, yerin ve içindekilerin hükümranlığı ile etkin kudret aynı ufka gelir. {ar:ٱلْمَيْسِرُ, tr:el-meysiru, gloss:kolay kazanç}nın geçici serveti ile {ar:وَٱلْأَزْلَٰمُ, tr:vel-ezlâmu, gloss:karar işaretleri}nın simüle ettiği denetim bu ölçünün karşısında kalır. Falah, hemen ele geçirilen bir ödülden çok, doğru olanın sürmesi, gerçekten fayda vermesi ve gerçek eyleme gücü altında kurtuluşa ulaşması olarak duyulur. 5:119 ve 5:120, olağan başarı vaadinin ufkunu nitelendirir; bağlamın ötesinde daha genel bir uhrevî okuma için alan açık kalır.
+
+## Akıl ve Devralınan Otorite
+
+İçkinin aklı örten yüzü 5:103'teki {ar:يَعْقِلُونَ, tr:ya‘ḳilûne, gloss:anlayıp sakınırlar} taşıyıcısıyla karşılaşınca belirginleşir. {ar:خَمْر, tr:hamr, gloss:sarhoş edici içki} için sağlanan örtme, içeri girip etkileme, iki şeyin birbirine karışması ve mayalanarak olgunlaşma ayrıntıları; içkinin üretilmesi, bedene ulaşması ve zihinsel açıklığı kaplaması şeklinde bir süreç kurar. {ar:رِجْس, tr:rics, gloss:pislik ve karışıklık} işin öğelerini ayırt edilemez hâle getiren yüzüyle örtülmüş aklın açık seçimi nasıl bozduğunu gösterir. 5:103'teki anlayıp sakınma, bu bulanıklığın karşısında çalışan düzeltici ve dizginleyici yüzü gösterir; bu bağlantı içkinin olağan göndergesini koruyarak işleyişini açıklar.
+
+5:103 ve 5:104 çevresi aynı zamanda dikili otoritenin nasıl üretildiğini gösterir. {ar:جَعَلَ, tr:ceale, gloss:kategori olarak koydu} insanların sıradan canlıları sınıflara yerleştirip onlara kurumsal biçim verebildiğini, {ar:يَفْتَرُونَ, tr:yeftarûne, gloss:uydurup isnat ederler} ise bu sınıflandırmaya asılsız bir kutsallık yüklenebildiğini taşır. {ar:آبَاءَنَا, tr:âbâenâ, gloss:atalarımız} ve {ar:وَجَدْنَا, tr:vecednâ, gloss:bulduk ve devraldık} ifadeleri, eski bir uygulamanın sırf miras alınmış olduğu için yetki kazanmasını sorgular; rehberliğin yokluğu, devralınmış otoritenin bilgi yerine geçtiğini açığa çıkarır.
+
+{ar:عَمَل, tr:amel, gloss:bilerek yapılan iş} burada özel tüketimin yanında yanlış bir kategoriyi kurup kullanma işini de taşır; {ar:نَصَب, tr:naṣab, gloss:dikme ve yükseltme} ise onu herkesin önünde belirgin bir otoriteye yükseltir. {ar:ٱلشَّيْطَان, tr:eş-şeytân, gloss:doğrultudan uzaklaştıran güç}ın tersine çeviren yönü, 5:103'teki uydurma isnat ve 5:104'teki rehberlik yokluğuyla somutlaşır; {ar:عَقْل, tr:aḳl, gloss:dizginleyen anlayış} da bu miras alınmış iddianın bastırdığı düzeltici gücü gösterir. Bu bağlantının kapsamı 5:103 ve 5:104'teki uydurma hayvan kategorileri ile miras alınmış savunusudur; geleneğin varlığı kendi başına hidayet kanıtı sayılmaz.
+
+## Görünür ve Düzeltilebilir Karar
+
+Fal oklarının rastgele paylaştırdığı sonuç ve ricsin iç içe geçmiş belirsizliği, 5:106, 5:107 ve 5:108'deki tanıklık ve düzeltme dizisiyle karşılaşınca kararın sorumluluğunu görünür kılar. {ar:شَهَادَة, tr:şehâde, gloss:isimli tanıklık} anonim bir işaretin yerine kaynağı belli bir söz koyar. {ar:عَدْل, tr:adl, gloss:adalet ve ölçü} kanıtın adil biçimde değerlendirilmesini, {ar:قَسَم, tr:kasem, gloss:yeminle üstlenilen sorumluluk} ise sözü sunan kişinin hesabını taşır. {ar:رَيْب, tr:rayb, gloss:açıkça kabul edilen kuşku} belirsizliği gizlemek yerine adlandırır; {ar:عَثَر, tr:aser, gloss:yanlışı araştırıp bulma} incelemeyi ve hatayı ortaya çıkarma hareketini açar.
+
+5:107'deki {ar:حَقّ, tr:haḳḳ, gloss:doğruluk ve gerçek} yanlış hesabı düzeltir; 5:108'deki {ar:رَدّ, tr:radd, gloss:geri çevirme ve yerine koyma} yanlış sonucu geri çevirip yenisini kurma imkânı verir. {ar:سَمْع, tr:sem‘, gloss:işitip kabul etme} ve tanıklık süreci, kararın alınabilir ve uygulanabilir bir karşılığa dönüşmesini sağlar. Böylece maysirin anonim lotu ve ricsin kendi kendini açıklamayan karışıklığı karşısında adı, sözü, yemini, adaleti ve düzeltme imkânı görünen bir karar yolu belirir. Bu karşılaştırmanın katkısı isimli kanıt, araştırma, düzeltme ve işiterek uyma temasını canlı tutmaktır; kapsamı 5:90'a bütünüyle şeffaf bir prosedür hükmü yüklemeye uzanmaz.
+
+## Sofranın Karşılığı
+
+Dağıtım sorusu 5:112, 5:113 ve 5:114'te başka bir maddi merkez etrafında görünür. {ar:مَائِدَةً, tr:mâide, gloss:ortak sofra} sahnesinin katkısı, içki ve kumarın bozduğu tüketim ve paylaşımın karşısına ortak yemeği, yatışan kalpleri, doğrulanabilir sözü ve paylaştırılmış rızkı koymaktır. 5:112 gökten bir sofra talebini; 5:113 {ar:أَن نَّأْكُلَ, tr:en ne'küle, gloss:yiyelim} yemeği ve kalplerin yatışmasını, {ar:قَدْ صَدَقْتَنَا, tr:ḳad sadaḳtenâ, gloss:bize doğru söylediğini} ise dışarıdan alınan tahmin yerine sorumlu ve doğrulanabilir sözü taşır. 5:114'teki {ar:وَٱرْزُقْنَا, tr:verzuḳnâ, gloss:bizi rızıklandır} ortak, sınırları belirli ve hesap verebilir armağan modelini tamamlar.
+
+Bu sahne {ar:ٱلْمَيْسِرُ, tr:el-meysiru, gloss:paylaştırmalı talih oyunu}nun deveyi kesip parçaları oklarla belirlenen paylara dağıtma hareketiyle karşılaşınca, şansa bırakılan parçalama ile ortak bir maddi merkezde toplanan rızık arasında yapısal bir karşıtlık kurar. {ar:ٱلْخَمْرُ, tr:el-hamru, gloss:aklı örten içki} ortak beslenme ve kalplerin yatışmasının karşısında tüketimi bozan düzenin parçası olarak görünür; kumar payı rastlantıya bırakan düzeni taşır. Korunma koşulu, sofranın katkısını {ar:فَٱجْتَنِبُوهُ, tr:fe'ctenibûhu, gloss:ondan uzak durun} buyruğuyla birlikte paylaşılan rızıkta toplar; böylece sofra görüntüsü sınırsız hazdan ayrışır. Bu karşılaştırmanın kapsamı 5:112, 5:113 ve 5:114'teki bağımsız sahneler arasındaki yapısal temastır; odak kelimelerine yeni bir sözlük karşılığı vermez.
+
+## Berrak Alımlama
+
+İçkinin örtme kuvveti, 4:43'teki sarhoşken namaza yaklaşmama ve ne söylendiği anlaşılana kadar bekleme koşuluyla temas ederek, kaçınmanın alımlamayı ve sorumlu sözü koruyan yüzünü açar. {ar:ٱلْخَمْرُ, tr:el-hamru, gloss:aklı örten içki} burada gerçek içki göndergesini korur; zihnin söyleneni kavrayamadığı durumda ibadete yaklaşmama sahnesi bu ek işlevi görünür kılar. Bu 4:43 teması, 5:90'daki olağan yasağın yanında duran ek bir işlevdir; buyruğun tek gerekçesi olarak kurulmaz.
+
+Son ölçü 2:219'daki zarar ve fayda tartısında belirir. {ar:ٱلْخَمْرُ, tr:el-hamru, gloss:sarhoş edici içki} ile {ar:ٱلْمَيْسِرُ, tr:el-meysiru, gloss:kumar} burada görünür fayda iddialarını daha ağır bir zararın önüne geçiremeyen bir muhakemeyle karşılaşır. Bu temasın katkısı, içki ile kumarın olası faydasını tanıyan tartının son hükmünü faydanın cazibesine bırakmadığını göstermektir. Aynı temas, 5:90'ın 2:219'u alıntıladığını veya bu tartıyı diğer iki odağa yaydığını ileri sürmez. Uzak durma buyruğu bu karşılaşmada, adı konmuş uygulamalardan ayrılmanın yanı sıra çekici görünen kazancı sonuçlarıyla birlikte ölçen bir yön olarak tamamlanır.
+
+</editorial_prose>

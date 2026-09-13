@@ -1,0 +1,976 @@
+{
+  "schema_version": "commentary-v5-scope-discovery-v1",
+  "ayah_ref": "5:106",
+  "lane": "global",
+  "coverage_complete": true,
+  "candidate_decisions": [
+    {
+      "candidate_id": "cand_72e4282376ee649076fc",
+      "decision": "accept",
+      "reason": "Güvenilir yayımlanmış bulgu, odak yüzeyindeki vasiyet, iki ve denklik taşıyıcılarını aynı gelecek aktarımı ilişkisine bağlar; üç aday dalın her biri bağımsız odak sözcüğüyle yere basar.",
+      "finding_refs": ["global:will-bridge"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_26ebe35f9fe8ec55ba4a",
+      "decision": "narrow",
+      "reason": "Güvenilir bulgunun bedel, alışveriş ve akrabalık baskısını reddeden çekirdeği korunur. k-t-m B002 dalı ise yalnız deve, bulut veya yaydan beklenen özgül sesin çıkmamasına bağlıdır; odak yapısında saklanan nesne tanıklıktır ve ses taşıyıcısı yoktur.",
+      "finding_refs": ["global:price-kinship-integrity"],
+      "branch_exclusions": [
+        {
+          "branch_ref": "root_001284/B002",
+          "reason": "Dalın açık sınırı genel susma veya söz saklamaya genişlemeyi dışlar; supplied focus carrier نَكْتُمُ شهادةَ الله tanıklığı gizleme yapısıdır ve deve, bulut ya da yay için beklenen ses tetikleyicisi packet'te yoktur."
+        }
+      ],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_610747e26c90cd2871b4",
+      "decision": "accept",
+      "reason": "Legacy reader walk, seyahat, ölüm ve alıkoyma sözcüklerinin odaktaki hazır bulunma dalıyla temasını açıkça kurar; bunlar aynı ayette ayrı taşıyıcılar ve bağımsız tetikleyiciler olarak mevcuttur.",
+      "finding_refs": ["global:travel-reconstructed-presence"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_2783fa21c04b8e236615",
+      "decision": "represented",
+      "reason": "Vasiyetin ayrılan hayatın iradesini sonraki alıcılara bağlaması, global:will-bridge bulgusunun w-s-y taşıyıcısıyla eksiksiz biçimde taşınan aynı semantik ilişkidir.",
+      "finding_refs": ["global:will-bridge"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_bdea84abb04e9b3dc2f2",
+      "decision": "represented",
+      "reason": "Bedel ve akrabalık baskılarının tanıklığı susturma ihtimali, global:price-kinship-integrity bulgusunun alışveriş, fiyat ve akrabalık taşıyıcılarıyla eksiksiz biçimde taşınan aynı ilişkidir.",
+      "finding_refs": ["global:price-kinship-integrity"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_93b9dbc96fd1dc51e360",
+      "decision": "accept",
+      "reason": "Retrospective reader walk, odak ayetteki tanıklık ve yemin düzenine 5:107-108'deki keşif, yerine tanık koyma ve olası yemin dönüşünü bağımsız sonraki tetikleyiciler olarak bağlar; sonuç kesinleştirilmeden usulün düzeltilebilirliği görünür olur.",
+      "finding_refs": ["global:containment-correction-loop"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_b0b42cbe45e2763b6f82",
+      "decision": "accept",
+      "reason": "Geniş reader walk, odaktaki تَحْبِسُونَهُمَا taşıyıcısını namaz sonrası, şüphe ve yemin sırasıyla gerçek bir kontrollü aralık olarak ilişkilendirir. Dal sözlüğünde yalnız aday imge bulunduğu için bulgu nitelikli tutulur.",
+      "finding_refs": ["global:held-testimony-interval"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_b0ad24e0e9835ab40f4f",
+      "decision": "reject",
+      "reason": "Reader walk yalnız packet dışında bırakılmış 5:120 işaretine dayanır; supplied evidence içinde bu ayetin yüzeyi, bağımsız tetikleyicisi veya odağa dönüşü bulunmadığı için global aktivasyon kurulamaz.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_a3d1ec5dd2910dfb22a1",
+      "decision": "reject",
+      "reason": "HFT özeti, dışarıdan olanların sınırının mezhepsel, topluluksal veya durumsal olup olmadığını sorar; fakat anchor evidence, sözcük izi, kök dalı ve odağa dönen bir HFT trace sağlamaz.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_caad7af0d9d237993e29",
+      "decision": "reject",
+      "reason": "HFT özeti 5:108'deki yeminin dönüşünün iki olası açıklamasını açık bırakır, ancak exact HFT trace ve odağa dönen carrier/trigger vermediği için ayrı bir global bulgu olarak yere basmaz.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_9c4886c55c41061c70d2",
+      "decision": "reject",
+      "reason": "Allah'ın tanıklığı ifadesi için sahiplik, yetkilendirme ve kutsal hesap verebilirlik seçeneklerini sıralayan HFT özeti, bunlardan herhangi birini odak taşıyıcısı ve bağımsız tetikleyiciyle etkinleştirmez.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_e01ff5af3d99f83a6bb9",
+      "decision": "represented",
+      "reason": "İki tanığın düzeltme döngüsünde değiştirilebilir usul konumlarına dönüşmesi, global:containment-correction-loop bulgusunun discovery ve substitute-witness ilişkisiyle aynı semantik iddiadır.",
+      "finding_refs": ["global:containment-correction-loop"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_7af80a6fe6596e7c337c",
+      "decision": "represented",
+      "reason": "Yeminin korunmuş fakat olası dönüşe açık bir delil bağı olması, global:containment-correction-loop bulgusunun düzeltme ve olası yemin dönüşü ilişkisiyle aynı semantik iddiadır.",
+      "finding_refs": ["global:containment-correction-loop"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_c8d3da393fe7e1a71e5b",
+      "decision": "reject",
+      "reason": "HFT özeti gizlemenin sistemsel başarısızlık ve tanıklığın doğru yüzüne iade edilmesi sonucunu ileri sürer; supplied kayıtta exact anchor, focus return ve bu tamamlanmış sonucu taşıyan trace yoktur.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_c3e1bfce16e74ecb5911",
+      "decision": "represented",
+      "reason": "Ölüm döşeği aktarımının sınırlı insan delegasyonu olması, exact HFT trace'i ve divine-witness sınırıyla global:bounded-human-witness bulgusunun aynı semantik iddiasıdır.",
+      "finding_refs": ["global:bounded-human-witness"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_81663f94a337448e8137",
+      "decision": "reject",
+      "reason": "HFT 'what was special' özeti bütün perikopu ve 5:109-119 aralığını tek bir geniş tez halinde toplar; tek bir carrier, bağımsız trigger ve sınırlı bir global değişim kurmadığı için ayrı bulgu olamaz.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_20d5674eb93317c2f621",
+      "decision": "accept",
+      "reason": "Exact HFT trace 5:106, 5:109 ve 5:117 yüzeylerini, verilen word index'lerini ve odağa dönen witness/death/knowledge/watch ilişkisini birlikte adlandırır. Lexiconu bulunmayan context branch'leri gloss icat edilmeden attributed olarak korunur.",
+      "finding_refs": ["global:bounded-human-witness"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_90a3b68ee4f60bf80f3d",
+      "decision": "accept",
+      "reason": "Exact HFT trace 5:100, 5:106 ve 5:119 yüzeylerini fiyat, eşdeğerlik, kötü/iyi, yarar ve doğruluk ilişkisiyle birleştirir. Çözümlenmemiş context branch'leri attributed modda, alternatifin canlılığı korunarak tutulur.",
+      "finding_refs": ["global:truth-value-regime"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    }
+  ],
+  "findings": [
+    {
+      "finding_ref": "global:will-bridge",
+      "origin_candidate_id": "cand_72e4282376ee649076fc",
+      "represented_candidate_ids": ["cand_2783fa21c04b8e236615"],
+      "title": "Vasiyetin tanıklarla geleceğe bağlanması",
+      "claim": "Vasiyet sözü, ölümün yaklaştığı anda ayrılan kişinin iradesini iki ve denklik bildiren tanık düzeniyle sonraki hak sahiplerine bağlayan bir aktarım kurar.",
+      "mechanism": "Odaktaki vasiyet taşıyıcısı bir iradenin başka birine bağlanmasını, iki sayısı taşıyıcısı çift tanık yapısını, denklik taşıyıcısı ise bu ikilinin aynı ölçüde tutulmasını kurar. Ölüm ve vasiyet bağlamındaki 2:180 ile yazılı ve şahitli düzeni gösteren 2:282 bu bağın yalnız özel bir kişi ilişkisi değil, denetlenebilir bir aktarım biçimi olarak okunmasını sağlar.",
+      "reader_payoff": "Okur, vasiyeti yalnızca geride bırakılmış bir söz olarak değil, ayrılan kişiden sonraki kişilere tanıklar üzerinden geçen bağlı bir irade olarak görür.",
+      "containment": "Bu bulgu, supplied bağlantı ve tanıklık yüzeyini taşır; mirasın bütün hukukî ayrıntılarını veya sonraki alıcıların kimliğini packet'in ötesinde belirlemez.",
+      "epistemic": {
+        "status": "grounded",
+        "source_trust": ["trusted"],
+        "reason": "Citable cross-run publication exact focus anchors and three focus branch references supplies; connection rows only add bounded contextual corroboration."
+      },
+      "support_ids": ["sup_188e7929645dc79c2244"],
+      "branch_activations": [
+        {
+          "branch_ref": "root_001656/B001",
+          "facet_id": "F001",
+          "branch_gloss": "bir şeyi başka şeyle bağlama veya bitişik sürdürme",
+          "facet_statement": "Bir şeyin başka bir şeye bağlanması veya onunla bitişik hale gelmesi.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["5:106:11:2"],
+          "trigger_refs": ["5:106:12:1", "5:106:14:1", "2:180", "2:282"],
+          "focus_return_refs": ["5:106:11:2"],
+          "carrier": "ٱلْوَصِيَّةِ, birinin ölümden sonra uygulanacak iradesini başkasına bağlayan vasiyet yüzeyi.",
+          "independent_trigger": "İki tanığın ve denklik ilişkisinin aynı odak yapısında kurulması; 2:180 ve 2:282'de ölüm, vasiyet ve tanık düzeninin birlikte görünmesi.",
+          "activation": "Bağlama çekirdeği, vasiyetin ayrılan kişide kapanmayıp tanıklar aracılığıyla sonraki alıcılara taşınan bir ilişki olmasını açıklar.",
+          "resulting_reading": "Vasiyet, tanıklıkla geleceğe ulaştırılan bağlı bir irade haline gelir.",
+          "boundary": "Bağlantı görüntüsü, vasiyetin bütün miras paylarını veya tek bir tarihsel olayı açıklamaz."
+        },
+        {
+          "branch_ref": "root_000208/B001",
+          "facet_id": "F001",
+          "branch_gloss": "iki olma, ikiye çıkarma veya ikili oluşturma",
+          "facet_statement": "İki sayısını ve birlikte bulunan iki öğeden oluşan birliği bildirir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["5:106:12:1"],
+          "trigger_refs": ["5:106:11:2", "5:106:14:1", "2:180", "2:282"],
+          "focus_return_refs": ["5:106:12:1"],
+          "carrier": "ٱثْنَانِ, tanıklığın tek bir ses değil iki kişi olarak kurulması.",
+          "independent_trigger": "Vasiyet taşıyıcısının geleceğe bağlanması ve عَدْلٍ taşıyıcısının iki kişiyi aynı ölçüde tutması.",
+          "activation": "İki sayısı, vasiyetin sonraki aktarımını iki ayrı tanığın ortak taşımasına çevirir.",
+          "resulting_reading": "Aktarımın geleceğe geçişi, tek bir kişinin iddiası yerine kurulmuş bir ikiliyle görünür olur.",
+          "boundary": "Burada yalnız sayı ve ikili tanık düzeni vardır; dalın ikişerli dağılım ve doğum kullanımları etkin değildir."
+        },
+        {
+          "branch_ref": "root_000991/B002",
+          "facet_id": "F001",
+          "branch_gloss": "eşlik ve denklik",
+          "facet_statement": "İki varlık arasında eşlik, benzerlik veya denklik ilişkisi kurulması anlamın çekirdeğidir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["5:106:14:1"],
+          "trigger_refs": ["5:106:12:1", "5:106:11:2", "2:180", "2:282"],
+          "focus_return_refs": ["5:106:14:1"],
+          "carrier": "عَدْلٍ, iki tanığın eşlik ve denklik niteliği.",
+          "independent_trigger": "ٱثْنَانِ ile kurulan ikili ve vasiyetin bir kişiden sonraki kişilere bağlanması.",
+          "activation": "Denklik dalı, iki tanığı yalnızca sayısal bir çift değil aynı düzeyde tutulmuş bir taşıyıcı olarak kurar.",
+          "resulting_reading": "Vasiyetin geleceğe geçişi, iki tanığın birbirinin yerine geçebilmesi değil, birlikte denk bir tanıklık taşıması olarak belirginleşir.",
+          "boundary": "Bu activation genel denklik ilişkisidir; hükümde hak gözeten عَدْل dalı ayrı bir global bulgu olarak korunur."
+        }
+      ],
+      "connection_refs": ["conn_dc8276cb26bf37aa75b0", "conn_b5fa162580bf109e78b8"],
+      "context_refs": ["2:180", "2:282"],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:price-kinship-integrity",
+      "origin_candidate_id": "cand_26ebe35f9fe8ec55ba4a",
+      "represented_candidate_ids": ["cand_bdea84abb04e9b3dc2f2"],
+      "title": "Bedel ve akrabalık karşısında tanıklık",
+      "claim": "Yemin, tanıklık sözünü bedel karşılığında değiştirme ve yakınlık lehine eğme ihtimalini aynı reddediş içinde bağlar.",
+      "mechanism": "Alışveriş taşıyıcısı tanıklıkla bir bedel arasında değiş tokuş ihtimalini, fiyat taşıyıcısı bu bedeli ölçülebilir karşılık olarak, akrabalık taşıyıcısı ise piyasa dışı yakınlık baskısını gösterir. 3:77'de yemin ve küçük bedel, 6:152'de akrabalık karşısında adil söz aynı ilişkiyi dışarıdan sınar.",
+      "reader_payoff": "Okur, 'bedel' sözcüğünün yalnız para değil, tanıklığı yöneltebilecek herhangi bir karşılık düzeni olarak çalıştığını ve akrabalığın da bu düzenin dışında kalmadığını görür.",
+      "containment": "Çekirdek bulgu alışveriş, fiyat ve akrabalık taşıyıcılarıyla sınırlıdır. k-t-m B002'nin nesneye bağlı ses dalı bu bulguya dahil edilmemiştir; genel tanıklık gizleme dalı ayrı tutulur.",
+      "epistemic": {
+        "status": "grounded",
+        "source_trust": ["trusted"],
+        "reason": "Citable cross-run publication exact anchors the exchange, price, kinship and concealment surface; the retained finding preserves only the three compatible focus branches."
+      },
+      "support_ids": ["sup_2bc62ae3bb975ab538b6"],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000792/B001",
+          "facet_id": "F001",
+          "branch_gloss": "bedel karşılığında alıp satma",
+          "facet_statement": "Bedelli değişimde bir malı edinme ve elden çıkarma yönlerinin ikisini de kapsar.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["5:106:37:1"],
+          "trigger_refs": ["5:106:39:1", "5:106:43:1", "3:77", "6:152"],
+          "focus_return_refs": ["5:106:37:1"],
+          "carrier": "نَشْتَرِى, tanıklıkla bir karşılık arasında bedelli değişim ihtimalini taşıyan alışveriş fiili.",
+          "independent_trigger": "ثَمَنًا ile fiyat ve قُرْبَىٰ ile akrabalık, ayrıca 3:77 ve 6:152'de yeminli sözün karşılık ve yakınlık karşısında sınanması.",
+          "activation": "Alışveriş çekirdeği, tanıklığı değiştirmeyi soyut bir ayartı değil, sözün bir karşılıkla el değiştirmesi olarak görünür kılar.",
+          "resulting_reading": "Yemin, tanıklığın bedelli bir değişime sokulmasını reddeder.",
+          "boundary": "Bu, tanıklığın fiilen satıldığını iddia etmez; ayetin yemin içinde reddettiği değişim ihtimalini açıklar."
+        },
+        {
+          "branch_ref": "root_000206/B001",
+          "facet_id": "F001",
+          "branch_gloss": "satış karşılığı ve değer",
+          "facet_statement": "Satışta satıcının satılan şey karşılığında aldığı karşılığı belirtir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["5:106:39:1"],
+          "trigger_refs": ["5:106:37:1", "5:106:43:1", "3:77", "6:152"],
+          "focus_return_refs": ["5:106:39:1"],
+          "carrier": "ثَمَنًا, tanıklık karşılığında alınabilecek bedel.",
+          "independent_trigger": "نَشْتَرِى fiilinin değişim yapısı ve 3:77'de yeminle küçük bedelin aynı cümlede karşı karşıya gelmesi.",
+          "activation": "Fiyat, tanıklığın değerini dünyadaki bir ödeme ile ölçme girişimini ayetin yeminli reddine temas ettirir.",
+          "resulting_reading": "Tanıklık, bedel karşılığına indirgenemeyen bir söz olarak kalır.",
+          "boundary": "Genel değer rejimi ve ahlaki kaliteyle ilgili daha geniş HFT bulgusu burada seçilmez; bu activation bedel karşılığıyla sınırlıdır."
+        },
+        {
+          "branch_ref": "root_001212/B003",
+          "facet_id": "F001",
+          "branch_gloss": "akrabalık ve yakın akraba",
+          "facet_statement": "Kişiler anne veya baba yönünden soy bağıyla birbirine bağlıdır ve bu bağın derecesine göre yakın akraba sayılır.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["5:106:43:1"],
+          "trigger_refs": ["5:106:39:1", "5:106:37:1", "3:77", "6:152"],
+          "focus_return_refs": ["5:106:43:1"],
+          "carrier": "قُرْبَىٰ, tanıklığı etkileyebilecek soy ve aile yakınlığı.",
+          "independent_trigger": "Bedel taşıyıcısıyla birlikte gelen مقابل edici değer ve 6:152'de yakın akrabaya rağmen adil söz buyruğu.",
+          "activation": "Akrabalık, tanıklığı para dışı bir iyilik karşılığına çevirme baskısını görünür kılar.",
+          "resulting_reading": "Yemin, tanıklığın yakınlık nedeniyle başka bir karşılığa çevrilmesini de kapsayacak biçimde bağlayıcı olur.",
+          "boundary": "Buradaki yakınlık soy ve aile bağıdır; komşuluk, makam veya genel mekansal yakınlık değildir."
+        }
+      ],
+      "connection_refs": ["conn_33cd8fda14e65660ec34", "conn_60b257a4c7f194750c0d"],
+      "context_refs": ["3:77", "6:152"],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:travel-reconstructed-presence",
+      "origin_candidate_id": "cand_610747e26c90cd2871b4",
+      "represented_candidate_ids": [],
+      "title": "Seyahatte hazır bulunmanın yeniden kurulması",
+      "claim": "Seyahat, tanıklığın olağan topluluk içindeki hazır bulunma zeminini yerinden çıkarır; ayetin iki tanığı alıkoyup yemin ettirmesi bu zemin için hesap verebilir bir yer yeniden kurar.",
+      "mechanism": "Hazır bulunup görme dalı, tanıklığı yalnız söylenen bir söz olmaktan önce olay yanında bulunmaya bağlar. Yeryüzünde yolculuk, ölüm ve iki kişiyi tutma taşıyıcıları bu hazır bulunmayı dağıtan koşulları aynı ayette verir; 4:94 ve 4:101 seyahatte doğrulama ve ibadet usulünün uyarlanmasını ekler.",
+      "reader_payoff": "Okur, seyahat şartını arka plan bilgisi olarak değil, hazır bulunma kaybolduğunda tanıklığın nasıl yeniden güvenceye alındığını açıklayan bir baskı olarak görür.",
+      "containment": "Bulgu, ayetin seyahat senaryosundaki hazır bulunma ilişkisini açıklar. Her seyahat hükmünü veya toplumsal tanıklığın bütün biçimlerini genellemez.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": ["legacy_unbound"],
+        "reason": "Reader-walk support is legacy-unbound, while the focus carrier and travel, death, prayer, and holding occurrences are explicitly supplied; connection targets lack target morphology."
+      },
+      "support_ids": ["sup_7c39fea7c06202a9483e"],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000822/B001",
+          "facet_id": "F001",
+          "branch_gloss": "hazır bulunup görme",
+          "facet_statement": "Bir olayın ya da yerin yanında hazır bulunma ve onu doğrudan görme çekirdeği vardır.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["5:106:4:1", "5:106:46:1"],
+          "trigger_refs": ["5:106:22:1", "5:106:9:2", "5:106:28:1", "4:94", "4:101"],
+          "focus_return_refs": ["5:106:4:1", "5:106:46:1"],
+          "carrier": "شَهَٰدَةُ ve شَهَٰدَةَ, olay yanında bulunup görülen bilgiyi tanıklık yüzeyine taşıyan iki odak kullanımı.",
+          "independent_trigger": "ضَرَبْتُمْ فِى الْأَرْضِ seyahati, الْمَوْت ölümü ve تَحْبِسُونَهُمَا alıkoyması; 4:94'te seyahatte doğrulama, 4:101'de seyahatte namaz usulünün değişmesi.",
+          "activation": "Seyahat hazır bulunma koşulunu kırınca, ayetin tutma ve yemin sırası tanıklık için yeniden denetlenebilir bir hazır bulunma sahası kurar.",
+          "resulting_reading": "Tanıklık, seyahatte kaybolan ortak hazır bulunmanın yerine hesap verebilir bir usul koyar.",
+          "boundary": "Hazır bulunma dalının sözlü tanıklıkla bütün anlamları değil, seyahat ve ölüm senaryosundaki doğrudan deneyim yüzü etkinleşir."
+        }
+      ],
+      "connection_refs": ["conn_ad5a6132cc9993438e13", "conn_83c6c6e8f150702cbc71"],
+      "context_refs": ["4:94", "4:101"],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:containment-correction-loop",
+      "origin_candidate_id": "cand_93b9dbc96fd1dc51e360",
+      "represented_candidate_ids": ["cand_e01ff5af3d99f83a6bb9", "cand_7af80a6fe6596e7c337c"],
+      "title": "Tanıklığın düzeltilebilir usul oluşu",
+      "claim": "5:107-108'deki keşif ve yerine tanık koyma hareketi, 5:106'daki yeminli tanıklığı kapanmış bir beyan değil, bozulma görüldüğünde yeniden sınanabilen bir usul olarak açar.",
+      "mechanism": "Odaktaki bilgiye dayalı tanıklık taşıyıcısı, 5:107-108'in supplied retrospective reading'inde ilk beyanın bozulmasının fark edilmesi, başka tanıkların devreye girmesi ve yemin düzeninin olası biçimde geri dönmesiyle temas eder. Böylece alıkoyma tanıklığı sabitleyen geçici bir kap olurken, sonraki ayetler bu kabın düzeltmeye kapalı olmadığını gösterir.",
+      "reader_payoff": "Okur, ayetin tanıklığı yalnızca o anda verilen bir söz olarak değil, hata veya gizleme açığa çıktığında değiştirilebilir görevlere ve yeniden sınamaya açılan bir işlem olarak görür.",
+      "containment": "Reader walk açıkça discovery ve substitute witnesses'i, olası oath reversal'ı söyler. Bu bulgu düzeltme imkânını taşır; yeminin mutlaka geri çevrildiğini veya sonucun tamamlandığını iddia etmez.",
+      "epistemic": {
+        "status": "exploratory",
+        "source_trust": ["legacy_unbound"],
+        "reason": "Retrospective reader-walk evidence names the focus ayah and the later 5:107-108 relation, but the supplied record is not an independently citable morphology bundle."
+      },
+      "support_ids": ["sup_ecba9d021d2cf4350da7"],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000822/B002",
+          "facet_id": "F001",
+          "branch_gloss": "bilgiye dayalı tanıklık",
+          "facet_statement": "Merkezde bilinen bir şeyi kesin haber veya açıklama olarak bildirme vardır.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["5:106:46:1"],
+          "trigger_refs": ["5:107", "5:108"],
+          "focus_return_refs": ["5:106:46:1"],
+          "carrier": "شَهَٰدَةَ, açıklanabilecek ve sonradan denetlenebilecek tanıklık içeriği.",
+          "independent_trigger": "5:107-108 reader-walk evidence'inde bozulmanın keşfi, yerine tanık koyma ve yemin düzeninin olası dönüşü.",
+          "activation": "Daha sonraki düzeltme hareketi, odaktaki tanıklığın bilgiye dayalı bir beyan olarak yeniden açılabildiğini gösterir.",
+          "resulting_reading": "Tanıklık, ilk beyanla bitmeyen bir düzeltme döngüsünün taşıyıcısı olur.",
+          "boundary": "5:107-108'in her hukukî ayrıntısı veya kesin oath reversal sonucu bu activation'a dahil değildir."
+        }
+      ],
+      "connection_refs": [],
+      "context_refs": ["5:107", "5:108"],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:held-testimony-interval",
+      "origin_candidate_id": "cand_b0b42cbe45e2763b6f82",
+      "represented_candidate_ids": [],
+      "title": "Tanıklığı tutan aralık",
+      "claim": "Alıkoyma fiili, namaz sonrası ile yemin arasına tanıklığın dağılmasını önleyen geçici bir usul aralığı yerleştirir.",
+      "mechanism": "تَحْبِسُونَهُمَا taşıyıcısı, iki kişiyi bırakmama ve hareketten alıkoyma imgesini taşır. Aynı ayette namaz sonrası zaman işareti, şüphe koşulu ve hemen ardından gelen yemin bulunur; bu temas, alıkoymayı tanıklığın korunup yeminle sabitlenmesine yarayan kontrollü süre olarak etkinleştirir.",
+      "reader_payoff": "Okur, namaz sonrası alıkoymayı yalnız fiziksel bir bekletme değil, tanıklığın para, yakınlık ve dağılma baskılarından ayrıldığı hesap verebilir bir aralık olarak görür.",
+      "containment": "Dalın packet kaydı yalnız aday bir semantik imge sunar; bu nedenle genel hapis, ceza veya kalıcı kapatma anlamı ileri sürülmez.",
+      "epistemic": {
+        "status": "exploratory",
+        "source_trust": ["legacy_unbound"],
+        "reason": "Wide reader-walk evidence supplies the local carrier and its prayer/doubt/oath contacts, while the branch registry marks the h-b-s record as nominated without an independent lexicon identity."
+      },
+      "support_ids": ["sup_56a33f3569fca3208b3f"],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000288/B001",
+          "facet_id": "SOURCE_IMAGE",
+          "branch_gloss": "restraining and holding back",
+          "facet_statement": "restraining and holding back",
+          "application_mode": "intrinsic_cross_root",
+          "carrier_refs": ["5:106:28:1"],
+          "trigger_refs": ["5:106:31:2", "5:106:35:1", "5:106:32:2"],
+          "focus_return_refs": ["5:106:28:1"],
+          "carrier": "تَحْبِسُونَهُمَا, iki tanığın hareketini ve bırakılmasını geçici olarak kısıtlayan odak fiili.",
+          "independent_trigger": "الصلاة sonrası zaman işareti, إنِ ارْتَبْتُمْ şüphe koşulu ve ardından gelen يُقْسِمَانِ yemin işlemi.",
+          "activation": "Tutma imgesi, zaman ve yemin taşıyıcılarıyla temas ederek tanıklığı sözün verileceği ana kadar kontrollü bir aralıkta toplar.",
+          "resulting_reading": "Alıkoyma, tanıklığın korunması için geçici usulsel containment olarak görünür.",
+          "boundary": "Bu, dalın hayvan yemi veya genel hapis kullanımlarını ve nihai hüküm verilmesini kapsamaz."
+        }
+      ],
+      "connection_refs": [],
+      "context_refs": [],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:bounded-human-witness",
+      "origin_candidate_id": "cand_20d5674eb93317c2f621",
+      "represented_candidate_ids": ["cand_c3e1bfce16e74ecb5911"],
+      "title": "İnsan tanıklığının sınırı",
+      "claim": "Ölüm döşeğindeki tanıklık, kapsamlı ilahi bilginin yerine geçen sınırsız bir bakış değil, insanın hazır bulunduğu zaman ve mekânla çevrili bir delegasyon olarak görünür.",
+      "mechanism": "5:106'daki iki şahadet yüzeyi insan tanıklığını kurar; 5:109'da elçilerin gizli olana dair kapsamlı bilgi iddiasından çekilmesi, 5:117'de ise İsa'nın tanıklığının yanında bulunduğu süreyle sınırlandırılıp ölümünden sonra ilahi gözetimin anılması bu taşıyıcıya bağımsız bir zaman-mekân sınırı verir. Ölüm, insan tanığının ufkunu kapatırken aktarım ihtiyacını görünür kılar.",
+      "reader_payoff": "Okur, tanıklık düzeninin ilahi gözetimi insanla ikame etmediğini; insan tanığının sınırlı deneyimini daha geniş bir bilgi ve gözetim ufku içinde devrettiğini fark eder.",
+      "containment": "Bu, exact HFT trace'in attributed contextual evidence'idir. İlahi sıfatların bütün teolojik ayrıntılarını veya bu prosedürün tek ve zorunlu amacı olduğunu belirlemez; eskatolojik bağıntının da canlı kaldığını açık bırakır.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": ["legacy_unbound"],
+        "reason": "The HFT record supplies exact Arabic anchors, word indices and an explicit before/after delta, but several context branch identities and target morphology remain unresolved."
+      },
+      "support_ids": ["sup_b69c1e6a96d27bc59db8"],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000584/B002",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": ["5:117:23"],
+          "trigger_refs": ["5:117", "5:117:15", "5:117:20", "5:106:4:1"],
+          "focus_return_refs": ["5:106:4:1"],
+          "carrier": "5:117 word index 23'teki supplied HFT watch/guard role.",
+          "independent_trigger": "Aynı trace'te insan tanıklığının presence ile sınırlandırılması ve ruhun alınmasından sonra süren gözetim karşıtlığı.",
+          "activation": "Guard/watch rolü, insan tanığının zamanla kesilen alanına karşı süreklilik taşıyan bir gözetim ufku kurar.",
+          "resulting_reading": "Odak tanıklığı, kendisini aşan bir gözetim içinde sınırlı bir insan aktarımı olarak belirir.",
+          "boundary": "Branch registry bu dal için bağımsız lexicon glossu vermediği için ayrı bir dal anlamı icat edilmez."
+        },
+        {
+          "branch_ref": "root_000822/B001",
+          "facet_id": "F001",
+          "branch_gloss": "hazır bulunup görme",
+          "facet_statement": "Bir olayın ya da yerin yanında hazır bulunma ve onu doğrudan görme çekirdeği vardır.",
+          "application_mode": "attributed",
+          "carrier_refs": ["5:106:4:1", "5:106:46:1", "5:117:15", "5:117:29"],
+          "trigger_refs": ["5:109", "5:117", "5:109:10", "5:109:15", "5:117:20", "5:117:23"],
+          "focus_return_refs": ["5:106:4:1", "5:106:46:1"],
+          "carrier": "Odaktaki iki شهادة yüzeyi ve 5:117'de presence ile witnessing'in birlikte anıldığı supplied HFT taşıyıcıları.",
+          "independent_trigger": "5:109'da gizli bilgi karşısında insan bilgisinin sınırı; 5:117'de witnessing while present ve sonrasında ilahi watch karşıtlığı.",
+          "activation": "Hazır bulunma çekirdeği, insan tanıklığını sürekli ve kapsamlı bilgiyle özdeşleştirmeden onun sınırını görünür kılar.",
+          "resulting_reading": "İki tanığın tanıklığı, daha geniş gözetim içinde zaman ve mekânla sınırlı bir hazır bulunma aktarımıdır.",
+          "boundary": "Bu activation hazır bulunma/görme yüzünü taşır; bilgiye dayalı tanıklığın bütün hukukî uzantılarını ayrıca seçmez."
+        },
+        {
+          "branch_ref": "root_001040/B001",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": ["5:109:10", "5:109:14"],
+          "trigger_refs": ["5:109", "5:109:15", "5:106:4:1"],
+          "focus_return_refs": ["5:106:4:1"],
+          "carrier": "5:109 word indices 10 and 14 için supplied HFT knowledge/disclosure role.",
+          "independent_trigger": "5:109'da elçilerin kapsamlı bilgiye sahip olmadığını söyleyip gizli şeyleri bilen mercie dönmesi.",
+          "activation": "Bilgi rolü, odaktaki insan tanıklığının gözlenen ve aktarılabilenle sınırlı olduğunu gösteren ayrı bağdır.",
+          "resulting_reading": "Tanıklık, gizli olanın tamamını kuşatan bilgi değil, insana açılan gözlem aktarımıdır.",
+          "boundary": "No independent lexicon branch record is supplied; only the attributed HFT role survives."
+        },
+        {
+          "branch_ref": "root_001117/B001",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": ["5:109:15"],
+          "trigger_refs": ["5:109", "5:109:10", "5:106:4:1"],
+          "focus_return_refs": ["5:106:4:1"],
+          "carrier": "5:109 word index 15 için supplied HFT hidden-domain role.",
+          "independent_trigger": "Aynı ayette gizli şeylerin kapsamlı bilgisinin insan elçilerinin cevabından ayrılması.",
+          "activation": "Gizli alan rolü, hazır bulunmanın doğal olarak sınırlı kaldığı bilgi sınırını odak tanıklığına geri bağlar.",
+          "resulting_reading": "İnsan tanığı, görüp hazır bulunduğu alanın ötesindeki gizli bilgiyle ölçülmez.",
+          "boundary": "No independent lexicon gloss or facet is invented for the unresolved branch."
+        },
+        {
+          "branch_ref": "root_001454/B001",
+          "facet_id": "F001",
+          "branch_gloss": "yaşamın ve canlı gücünün sona ermesi",
+          "facet_statement": "Canlıdaki güç ve yaşam sona erer; bu durum yaşamın karşıtıdır.",
+          "application_mode": "attributed",
+          "carrier_refs": ["5:106:9:2", "5:106:27:2"],
+          "trigger_refs": ["5:117", "5:117:20", "5:106:4:1"],
+          "focus_return_refs": ["5:106:9:2", "5:106:27:2"],
+          "carrier": "Odaktaki iki الموت yüzeyi, insan tanıklığının ölümün gelişiyle kesildiği eşik.",
+          "independent_trigger": "5:117 word index 20'de ruhun alınmasının, witnessing while present sonrasındaki zamansal handoff olarak supplied trace edilmesi.",
+          "activation": "Ölüm çekirdeği, tanıklığın yalnız hazır bulunan insanın yaşam ufkunda sürdüğünü ve devrin neden gerektiğini açıklar.",
+          "resulting_reading": "Ölüm, tanıklığı silen boşluk değil, insan gözleminin daha geniş gözetim ufkuna devredildiği sınırdır.",
+          "boundary": "Ölüm dalının diğer türemiş kullanımları veya ölümün bütün metafizik açıklamaları bu activation'a dahil değildir."
+        },
+        {
+          "branch_ref": "root_001669/B002",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": ["5:117:20"],
+          "trigger_refs": ["5:117", "5:117:15", "5:106:9:2"],
+          "focus_return_refs": ["5:106:9:2"],
+          "carrier": "5:117 word index 20 için supplied HFT taking-the-soul role.",
+          "independent_trigger": "Focus'taki ölüm taşıyıcısı ve 5:117'de witnessing'in presence sonrasında başka bir gözetimle anılması.",
+          "activation": "Taking role, insan tanığının zaman ufkunun kapandığı anda sorumluluk aktarımını görünür kılar.",
+          "resulting_reading": "Tanıklık görevi, ölümle birlikte insan gözleminden daha sürekli bir gözetim bağlamına geçer.",
+          "boundary": "Branch registry unresolved olduğu için bu role yeni bir lexicon glossu eklenmez."
+        }
+      ],
+      "connection_refs": [],
+      "context_refs": ["5:109", "5:117"],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:truth-value-regime",
+      "origin_candidate_id": "cand_90a3b68ee4f60bf80f3d",
+      "represented_candidate_ids": [],
+      "title": "Tanıklığın değer ölçüsü",
+      "claim": "Odaktaki tanıklık, fiyat ve akrabalık karşılığında değiştirilemeyecek bir söz olarak, kötü ile iyinin çokluk karşısında eşit tutulmadığı ve doğruluğun sonunda yarar taşıdığı bir değer ölçüsüne yerleşir.",
+      "mechanism": "5:106'da değişim ve fiyat taşıyıcıları tanıklığın hemen karşılığını kurar. 5:100, kötünün çokluğunun iyiyi eşitlemediğini; 5:119 ise doğruluğun son hesap gününde yarar taşıdığını supplied exact Arabic ile gösterir. Bu iki dış tetikleyici, odaktaki bedel reddini yalnız cazip ödeme değil, yanlış değer eşitlemesi olarak yeniden çerçeveler.",
+      "reader_payoff": "Okur, tanıklığın değerini anlık fiyatla ölçmenin neden ayetin ahlaki yapısına sığmadığını ve doğruluğun değeri başka bir zaman ufkunda taşıdığını görür.",
+      "containment": "HFT kaydı bu bağlantıyı medium confidence ve reader inference olarak sunar; 5:100 ve 5:119'un yalnız ahlaki resonance olması ihtimali canlıdır. Bu bulgu fiyat reddini koruyarak bu alternatif çerçeveyi ekler.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": ["legacy_unbound"],
+        "reason": "Exact HFT anchors and activation trace are supplied, but context morphology is not supplied and the reader inference explicitly preserves a moral-resonance alternative."
+      },
+      "support_ids": ["sup_d6c8ba07bf49e3d4f54a"],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000206/B001",
+          "facet_id": "F001",
+          "branch_gloss": "satış karşılığı ve değer",
+          "facet_statement": "Satışta satıcının satılan şey karşılığında aldığı karşılığı belirtir.",
+          "application_mode": "attributed",
+          "carrier_refs": ["5:106:39:1"],
+          "trigger_refs": ["5:106:37:1", "5:100", "5:119"],
+          "focus_return_refs": ["5:106:39:1"],
+          "carrier": "ثَمَنًا, tanıklık için önerilebilecek ölçülebilir karşılık.",
+          "independent_trigger": "5:100'de kötü ve iyinin eşitlenmemesi, 5:119'da doğruluğun son yararı; bunların odaktaki fiyat taşıyıcısına dönen HFT trace'i.",
+          "activation": "Değer dalı, anlık bedeli tanıklığın bütün ölçüsü olmaktan çıkaran daha geniş bir değer karşıtlığıyla temas eder.",
+          "resulting_reading": "Tanıklığın değeri, fiyatın sunduğu kısa karşılıktan farklı bir ölçüde okunur.",
+          "boundary": "Dalın sayı olarak sekiz anlamı ve fiyatın bütün ekonomik kullanımları etkin değildir."
+        },
+        {
+          "branch_ref": "root_000792/B001",
+          "facet_id": "F001",
+          "branch_gloss": "bedel karşılığında alıp satma",
+          "facet_statement": "Bedelli değişimde bir malı edinme ve elden çıkarma yönlerinin ikisini de kapsar.",
+          "application_mode": "attributed",
+          "carrier_refs": ["5:106:37:1"],
+          "trigger_refs": ["5:106:39:1", "5:100", "5:119"],
+          "focus_return_refs": ["5:106:37:1"],
+          "carrier": "نَشْتَرِى, tanıklığı bir karşılıkla değiştirme fiili.",
+          "independent_trigger": "5:100'ün eşdeğerlik reddi ve 5:119'un doğruluk yararı, HFT trace'te bu değişim fiiline bağlanan ayrı context rolesidir.",
+          "activation": "Alışveriş çekirdeği, tanıklık ile bedel arasındaki değişimi iki farklı değer rejiminin karşılaşması haline getirir.",
+          "resulting_reading": "Yemin, tanıklığı hemen alınabilir bir şey olarak kuran değişim mantığını daha uzun erimli doğruluk değeriyle karşı karşıya getirir.",
+          "boundary": "Bu, doğruluk değerinin zorunlu olarak yalnız eskatolojik bir okumaya indirgenmesini gerektirmez."
+        },
+        {
+          "branch_ref": "root_001212/B003",
+          "facet_id": "F001",
+          "branch_gloss": "akrabalık ve yakın akraba",
+          "facet_statement": "Kişiler anne veya baba yönünden soy bağıyla birbirine bağlıdır ve bu bağın derecesine göre yakın akraba sayılır.",
+          "application_mode": "attributed",
+          "carrier_refs": ["5:106:43:1"],
+          "trigger_refs": ["5:106:39:1", "5:100", "5:119"],
+          "focus_return_refs": ["5:106:43:1"],
+          "carrier": "قُرْبَىٰ, tanıklığı fiyat dışı yakınlık üzerinden etkileyebilecek karşılık.",
+          "independent_trigger": "HFT trace'teki bedel ve akrabalık taşıyıcılarıyla temas eden 5:100 eşdeğerlik reddi ve 5:119 doğruluk yararı.",
+          "activation": "Akrabalık, tanıklığın değerini yakınlığın yararıyla değiştirme ihtimalini, dış context'in iyi/kötü ve yarar ölçüsüyle karşılaştırır.",
+          "resulting_reading": "Yakınlığın taşıdığı fayda, doğruluğun taşıdığı değerle otomatik olarak eşitlenemez.",
+          "boundary": "Bu, bütün akrabalık ilişkilerini veya 5:119'un cennet tasvirini odak ayetin doğrudan konusu yapmaz."
+        },
+        {
+          "branch_ref": "root_000766/B001",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": ["5:100:3"],
+          "trigger_refs": ["5:100", "5:100:4", "5:100:5", "5:106:39:1"],
+          "focus_return_refs": ["5:106:39:1"],
+          "carrier": "5:100 word index 3 için supplied HFT equality role.",
+          "independent_trigger": "5:100'de kötü ile iyinin eşit olmadığına dair açık karşılaştırma ve bunun odaktaki fiyat taşıyıcısına dönmesi.",
+          "activation": "Eşdeğerlik rolü, fiyatın tanıklıkla eşitlenebilir bir karşılık olduğu varsayımını sınar.",
+          "resulting_reading": "Anlık bedel tanıklığın hakiki değerine denk sayılmaz.",
+          "boundary": "No independent lexicon branch record or target morphology is supplied; only the HFT-attributed role is retained."
+        },
+        {
+          "branch_ref": "root_000386/B001",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": ["5:100:4", "5:100:9"],
+          "trigger_refs": ["5:100", "5:100:3", "5:100:5", "5:106:39:1"],
+          "focus_return_refs": ["5:106:39:1"],
+          "carrier": "5:100 word indices 4 and 9 için supplied HFT badness/abundance role.",
+          "independent_trigger": "Kötünün çokluğunun iyiyi eşitlemediğini söyleyen 5:100 karşıtlığı.",
+          "activation": "Kötülük ve çokluk rolü, niceliğin veya çekiciliğin bozuk bir karşılığı meşru kılamayacağını fiyat taşıyıcısına geri taşır.",
+          "resulting_reading": "Çok veya cazip bir bedel, tanıklığı doğru değere dönüştürmez.",
+          "boundary": "Unresolved branch için kaynak glossu veya facet statement eklenmez."
+        },
+        {
+          "branch_ref": "root_000961/B001",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": ["5:100:5"],
+          "trigger_refs": ["5:100", "5:100:4", "5:100:3", "5:106:39:1"],
+          "focus_return_refs": ["5:106:39:1"],
+          "carrier": "5:100 word index 5 için supplied HFT goodness role.",
+          "independent_trigger": "5:100'de iyi olanın kötü olanla eşitlenmemesi ve bunun doğruluk değerine bağlanan HFT reading'i.",
+          "activation": "İyilik rolü, tanıklığın yalnız bedel karşılığı değil nitelik bakımından da ayrılan bir söz olduğunu gösterir.",
+          "resulting_reading": "Doğru tanıklık, bedelin miktarından bağımsız bir nitelik ölçüsü kazanır.",
+          "boundary": "No independent lexicon branch gloss or facet is supplied for this context root."
+        },
+        {
+          "branch_ref": "root_001536/B001",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": ["5:119:5"],
+          "trigger_refs": ["5:119", "5:119:6", "5:106:39:1"],
+          "focus_return_refs": ["5:106:39:1"],
+          "carrier": "5:119 word index 5 için supplied HFT benefit role.",
+          "independent_trigger": "5:119'da yararın doğruluk taşıyanlara bağlanması.",
+          "activation": "Sonuç yararı rolü, odaktaki bedel reddini kısa vadeli kayıp-kazanç hesabından çıkaran ayrı bir dönüş noktası sağlar.",
+          "resulting_reading": "Tanıklığın doğru değerinin karşılığı, hemen alınan bedel değil, doğruluğun taşıdığı nihai yarar olarak görünür.",
+          "boundary": "Bu, 5:119'un bütün ödül tasvirini 5:106'ya doğrudan taşımak değildir."
+        },
+        {
+          "branch_ref": "root_000852/B001",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": ["5:119:6", "5:119:7"],
+          "trigger_refs": ["5:119", "5:119:5", "5:106:39:1"],
+          "focus_return_refs": ["5:106:39:1"],
+          "carrier": "5:119 word indices 6 and 7 için supplied HFT truth role.",
+          "independent_trigger": "5:119'da truthful persons ve truth'un faydası arasındaki açık ilişki.",
+          "activation": "Doğruluk rolü, tanıklık sözünün değerini fiyat ve yakınlıkla değil truth taşıyıcısıyla yeniden ölçer.",
+          "resulting_reading": "Yeminli tanıklığın korunması, doğruluğun sonraki yararını mümkün kılan değer yönü olarak belirir.",
+          "boundary": "Context branch unresolved olduğu için HFT role dışına taşan bir doğruluk tanımı yapılmaz."
+        }
+      ],
+      "connection_refs": [],
+      "context_refs": ["5:100", "5:119"],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:justice-bearing-testimony",
+      "origin_candidate_id": null,
+      "represented_candidate_ids": [],
+      "title": "Denkliğin adalet taşıyan yüzü",
+      "claim": "Odaktaki عَدْلٍ, genel denklikle birlikte, tanığın hüküm ve davranışta hakkı gözeten güvenilir kişi olmasını da açar; bu güvenilirlik yakın akrabalık ve karşıtlık karşısında korunur.",
+      "mechanism": "Focus word's B001 core and person facet carry justice-bearing testimony. 4:135 self, parents and near kin karşısında testimony; 5:8 hostility despite justice; 6:152 kinship despite fair speech supply independent wider triggers. Böylece focus'taki 'adil' kişi yalnız eşitlenmiş bir çift değil, çıkar baskısı altında hakkı gözeten tanık olarak okunur.",
+      "reader_payoff": "Okur, iki tanığın denk olmasının yalnız birbirine eşit olması değil, yakınlık veya düşmanlığın sözü eğemediği bir adalet niteliği taşıması ihtimalini görür.",
+      "containment": "Bu bulgu B001 hükümde hak gözetme ve güvenilirlik dalına aittir; B002 genel denklik bulgusunu silmez ve bağlantı kayıtlarının target morphology eksikliği nedeniyle tam hukukî kapsam iddia etmez.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": [],
+        "reason": "The connection register supplies exact target Arabic and direct authored relation notes, but target morphology is explicitly absent and prior labels are not decisions."
+      },
+      "support_ids": [],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000991/B001",
+          "facet_id": "F001",
+          "branch_gloss": "hükümde hak gözetme ve güvenilir doğruluk",
+          "facet_statement": "Hükümde hakkı gözetme, haksızlığın karşısında durma ve payları eşit ölçüyle dağıtma anlamın çekirdeğidir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["5:106:14:1"],
+          "trigger_refs": ["4:135", "5:8", "6:152"],
+          "focus_return_refs": ["5:106:14:1"],
+          "carrier": "عَدْلٍ, iki tanığın hakkı gözeten ve çıkar baskısında bozulmayan niteliği.",
+          "independent_trigger": "4:135'te self/parents/near kin karşısında justice-bearing testimony; 5:8'de hostility despite justice; 6:152'de kinship rağmen fair speech.",
+          "activation": "Wider justice passages, focus'taki adalet sözcüğünü iki kişinin sayısal denklik sınırından çıkarıp tanığın hakkı koruma işlevine geri bağlar.",
+          "resulting_reading": "Tanıkların adilliği, yakınlık ve karşıtlık karşısında doğru sözü koruyan bir davranış niteliği olarak görünür.",
+          "boundary": "Bu, odaktaki tanıkların belirli bir hukuk makamını veya bütün adalet hükümlerini taşıdığı anlamına gelmez."
+        },
+        {
+          "branch_ref": "root_000991/B001",
+          "facet_id": "F002",
+          "branch_gloss": "hükümde hak gözetme ve güvenilir doğruluk",
+          "facet_statement": "Bir kişi için kullanıldığında sözü, hükmü ve tanıklığı güvenilir bulunan düzgün kimseyi niteler.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["5:106:14:1"],
+          "trigger_refs": ["4:135", "5:8", "6:152"],
+          "focus_return_refs": ["5:106:14:1"],
+          "carrier": "عَدْلٍ, tanıkların sözüne güvenilirlik veren kişi niteliği.",
+          "independent_trigger": "Wider supplied passages, testimony'yi self, parents, near kin, hostility ve kinship altında sınar.",
+          "activation": "Kişi facet'i, odaktaki 'iki adaletli kişi' ifadesini soyut eşitlikten, sözü çıkar karşısında güvenilir kalan tanık kişiliğine taşır.",
+          "resulting_reading": "İki tanık, yalnız iki kişi olarak değil, güvenilir tanıklık taşıyan iki kişi olarak görünür.",
+          "boundary": "Person facet'i genel ahlaki övgüye genişletilmez; yalnız tanıklık ve hakkı gözetme temasında tutulur."
+        }
+      ],
+      "connection_refs": ["conn_6d43997b515907f84933", "conn_bff2a9f23e4cf731061c", "conn_60b257a4c7f194750c0d"],
+      "context_refs": ["4:135", "5:8", "6:152"],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:knowledge-bounded-testimony",
+      "origin_candidate_id": null,
+      "represented_candidate_ids": [],
+      "title": "Bilgiyle sınırlanan tanıklık",
+      "claim": "Odaktaki شهادة, tanığın bildiği şeyi kesin biçimde bildirmesine açılır; bilginin dışındaki gayb, tanıklığın kendi iddiası olarak sahiplenilmez.",
+      "mechanism": "شَهَادَة taşıyıcısının bilgiye dayalı tanıklık dalı, 12:81'de 'bildiğimiz kadarına tanık olduk' ve gaybı koruyamadıklarını söyleyen tanıklarla, 17:36'da bilinmeyenin peşine düşmeme sınırıyla temas eder. Bu dış tetikleyiciler, odaktaki yeminli sözün gözlenmiş ve bilinen içerikle sınırlı bir bilgi işlemi olduğunu değiştirir.",
+      "reader_payoff": "Okur, tanıklığın her şeyi bilme iddiası değil, bilinen içeriği sorumlulukla dışa vurma biçimi olduğunu görür.",
+      "containment": "Bu bulgu bilgiye dayalı tanıklık dalını taşır; 5:109-117'nin insan-ilahi bilgi karşıtlığını tekrar ederek tek bir teolojik açıklama seçmez.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": [],
+        "reason": "Exact target Arabic and direct connection notes are supplied, but target morphology is absent and the register's prior labels remain nominations."
+      },
+      "support_ids": [],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000822/B002",
+          "facet_id": "F001",
+          "branch_gloss": "bilgiye dayalı tanıklık",
+          "facet_statement": "Merkezde bilinen bir şeyi kesin haber veya açıklama olarak bildirme vardır.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["5:106:4:1", "5:106:46:1"],
+          "trigger_refs": ["12:81", "17:36", "5:106:35:1"],
+          "focus_return_refs": ["5:106:4:1", "5:106:46:1"],
+          "carrier": "İki شهادة yüzeyi, bilinen olayın tanık sözü olarak dışa vurulması.",
+          "independent_trigger": "12:81'de tanıklığın bilinenle sınırlandırılması ve gaybın korunamaması; 17:36'da bilinmeyen şeyin izlenmemesi.",
+          "activation": "Bilgi sınırı, odaktaki tanıklık sözünü gözlem ve bilinirlikten taşan bir iddia olmaktan korur.",
+          "resulting_reading": "Yemin, bilinen tanıklığı güvenceye alır; bilinmeyen alanı tanığın kendi bilgisi gibi sunmaz.",
+          "boundary": "Focus'taki Allah'a nispetin bütün sahiplik veya ilahi bilgi anlamlarını bu activation üzerinden tekleştirmez."
+        }
+      ],
+      "connection_refs": ["conn_230a27e59d3e0c8876b5", "conn_fd704b8cdf04c5b7f4e5"],
+      "context_refs": ["12:81", "17:36"],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:counter-oath-procedure",
+      "origin_candidate_id": null,
+      "represented_candidate_ids": [],
+      "title": "Şüphede karşılıklı yemin usulü",
+      "claim": "Odaktaki يُقْسِمَانِ, şüphe doğduğunda tanıklığı tek başına bırakmayan, yeminleri karşılıklı ve hesap verebilir bir sınamaya dönüştüren bir usul ilişkisine açılır.",
+      "mechanism": "Q-s-m B004, bir iddia için yemin etmeyi ve karşılıklı yeminleşmeyi taşır. 24:6-9'da yeminli tanıklık, tekrar edilen yemin ve karşı-yemin sıraları exact target Arabic ile görünür; focus'taki إِنِ ارْتَبْتُمْ şüphe koşulu bu prosedürel temas için bağımsız odak tetikleyicisidir.",
+      "reader_payoff": "Okur, yemini yalnızca duygusal bir ant değil, şüphe altında iddiayı iki taraflı hesap verebilirliğe sokan bir işlem olarak görür.",
+      "containment": "24:6-9 farklı bir hukukî sahnedir; burada yalnız yemin ve tanıklığı karşılıklı sınama mekanizması taşınır, o sahnenin kişi ve yaptırımları odak ayete aktarılmaz.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": [],
+        "reason": "Four exact target Arabic passages and direct connection notes supply the procedural parallel, while target morphology and connection prior labels cannot establish a focus-direction verdict alone."
+      },
+      "support_ids": [],
+      "branch_activations": [
+        {
+          "branch_ref": "root_001226/B004",
+          "facet_id": "F001",
+          "branch_gloss": "yemin etme ve öldürme davasında paylaştırılan yeminler",
+          "facet_statement": "Bir iddia veya söz için yemin etmeyi ve karşılıklı yeminleşmeyi bildirir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["5:106:32:2"],
+          "trigger_refs": ["5:106:35:1", "24:6", "24:7", "24:8", "24:9"],
+          "focus_return_refs": ["5:106:32:2"],
+          "carrier": "يُقْسِمَانِ, iki kişinin şüphe şartında Allah adına yemin etmesi.",
+          "independent_trigger": "24:6-9'da tanıklık, ardışık yemin ve karşı-yeminle uyuşmazlığın usul içinde sınanması.",
+          "activation": "Karşılıklı yemin dalı, odaktaki iki tanığın yemininin şüphe karşısında tek yönlü bir söz değil, kontrol edilebilir bir prosedür olduğunu gösterir.",
+          "resulting_reading": "Şüphe, yeminle kapanan bir belirsizlik değil, karşılıklı yemin düzeniyle yönetilen bir sınama olur.",
+          "boundary": "Q-s-m dalının öldürme davasındaki özel paylaştırma kullanımı burada etkinleştirilmez; yalnız çekirdek karşılıklı yemin yüzü taşınır."
+        }
+      ],
+      "connection_refs": ["conn_e3d5f2ca3c79b9b92206", "conn_eb98484225aa64a4e5cc", "conn_89c422d5ef52baabfeb9", "conn_9dbb5e3469292804ea2b"],
+      "context_refs": ["24:6", "24:7", "24:8", "24:9"],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:oath-covenant-accountability",
+      "origin_candidate_id": null,
+      "represented_candidate_ids": [],
+      "title": "Yeminin sözleşme olarak hesap verebilirliği",
+      "claim": "Odaktaki Allah adına yemin, tanıklık anını aşarak yerine getirilmesi, bozulduğunda sorgulanması ve güvence altına alınması gereken bir bağ olarak da okunur.",
+      "mechanism": "يُقْسِمَانِ taşıyıcısının yemin çekirdeği, 16:91'de teyit edilmiş yemin ve ilahi kefil, 16:92'de yeminle aldatıcı dönüş, 17:34'te sorgulanabilir covenant ve 23:8/70:32'de trust-covenant guarding ile temas eder. Bu wider triggers, focus'taki yemini yalnız o anda söylenen formülden geleceğe uzanan sorumluluk ilişkisine çevirir.",
+      "reader_payoff": "Okur, yemin cümlesinin tanıklığı anlık olarak mühürlemekle kalmayıp ileride hesabı sorulabilecek bir emanet bağı kurduğunu görür.",
+      "containment": "Bu bulgu counter-oath prosedüründen ayrıdır ve yemin dalının covenant/accountability yüzünü taşır. Odağın sonraki ayetlerde mutlaka aynı olay örgüsünü sürdürdüğünü ileri sürmez.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": [],
+        "reason": "Supplied target Arabic gives direct covenant and oath contacts; connection rows are nominations and target morphology is not supplied."
+      },
+      "support_ids": [],
+      "branch_activations": [
+        {
+          "branch_ref": "root_001226/B004",
+          "facet_id": "F001",
+          "branch_gloss": "yemin etme ve öldürme davasında paylaştırılan yeminler",
+          "facet_statement": "Bir iddia veya söz için yemin etmeyi ve karşılıklı yeminleşmeyi bildirir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["5:106:32:2"],
+          "trigger_refs": ["16:91", "16:92", "17:34", "23:8", "70:32"],
+          "focus_return_refs": ["5:106:32:2"],
+          "carrier": "يُقْسِمَانِ, Allah adıyla tanıklığı bağlayan yemin fiili.",
+          "independent_trigger": "Wider passages'ta teyit edilmiş yeminlerin fulfillment, questioning, guarding ve deceptive reversal bağlamlarına bağlanması.",
+          "activation": "Yemin çekirdeği, odaktaki tanıklığı gelecekte tutulması ve hesabı verilmesi gereken bir emanetle temas ettirir.",
+          "resulting_reading": "Tanıklık sözü, anlık beyanın ötesinde bozulması sorgulanabilir bir covenant bağı taşır.",
+          "boundary": "Bu, bütün covenant öğretisini veya belirli bir kefaret hükmünü odak ayete taşımaz."
+        }
+      ],
+      "connection_refs": ["conn_3c768d4aa6319921306b", "conn_c911877a326ec7e1f27f", "conn_1b87c2554fd9747ea078", "conn_549119c853bacb49a015", "conn_e3e235a205de6c9d4985"],
+      "context_refs": ["16:91", "16:92", "17:34", "23:8", "70:32"],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:active-concealment",
+      "origin_candidate_id": null,
+      "represented_candidate_ids": [],
+      "title": "Tanıklığı gizlemenin etkin eylem oluşu",
+      "claim": "نَكْتُمُ شَهَادَةَ اللهِ yapısı, tanıklığın görünmez kalmasını değil, bilinen bir sözün açıklanmasını etkin olarak engelleyen bir gizleme eylemini öne çıkarır.",
+      "mechanism": "K-t-m B001, bilgi veya tanıklığı açıklamadan saklama çekirdeğini taşır; focus'taki nesne doğrudan شهادة'dir. 3:187'de açıklanması gereken bilgi ile küçük bedel, 5:44'te korunmuş kitap ve şahitlik, 2:140 ve 2:283'te tanıklığı gizlememe bağlantıları bu eylemi bağımsız wider triggers olarak geri getirir.",
+      "reader_payoff": "Okur, ayetin 'gizlemeyeceğiz' sözünü soyut bir ahlak cümlesi değil, tanıklığı görünürlükten alıkoyan belirli bir işlem olarak görür.",
+      "containment": "Bu bulgu k-t-m B001'in genel gizleme ve tanıklık nesneli yüzüdür. Beklenen sesi çıkarmama B002 dalı, form sınırı nedeniyle bu bulguya katılmaz.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": [],
+        "reason": "Exact target Arabic and direct connection notes supply repeated disclosure/concealment contacts; target morphology is explicitly unavailable."
+      },
+      "support_ids": [],
+      "branch_activations": [
+        {
+          "branch_ref": "root_001284/B001",
+          "facet_id": "F001",
+          "branch_gloss": "gizleyip açıklamamak",
+          "facet_statement": "Temel işlem, bir şeyin veya bilginin açıklanmasını engelleyerek onu gizli tutmaktır.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["5:106:45:1"],
+          "trigger_refs": ["5:106:46:1", "3:187", "5:44", "2:140", "2:283"],
+          "focus_return_refs": ["5:106:45:1"],
+          "carrier": "نَكْتُمُ, شهادةَ اللهِ nesnesini açıklamaktan alıkoyan focus fiili.",
+          "independent_trigger": "3:187, 5:44, 2:140 ve 2:283'te tanıklık veya emanet bilgisinin açıklanması, korunması ve gizlenmemesiyle kurulan wider relations.",
+          "activation": "Gizleme dalı, focus'taki tanıklığın saklanan bir sır değil, açıklama yükümlülüğü bulunan bilinen içerik olduğunu wider disclosure contacts ile belirginleştirir.",
+          "resulting_reading": "Yemin, tanıklığı dışarıda tutan etkin gizleme eyleminin karşısına açık ve hesap verebilir beyanı koyar.",
+          "boundary": "Bu, saklanan her şeyin aynı ahlaki hükmü taşıdığını veya ilgili wider ayetlerin tek bir hukuk düzeni oluşturduğunu iddia etmez."
+        }
+      ],
+      "connection_refs": ["conn_5f1607bcf1936a97bdbd", "conn_5c741afa78c6f34422d1", "conn_e0107850b1754b4c8f1e", "conn_a8e55cfdd0f41c3d6ac6"],
+      "context_refs": ["3:187", "5:44", "2:140", "2:283"],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:posthumous-instruction",
+      "origin_candidate_id": null,
+      "represented_candidate_ids": [],
+      "title": "Vasiyetin ölüm sonrası talimat yüzü",
+      "claim": "وَصِيَّةِ, bağ kuran bir irade olmanın yanında, ölümden sonra başkaları tarafından yürütülecek açık bir talimat olarak da görünür; bu talimat sonraki mal ve sorumluluk aktarımından önce yer alır.",
+      "mechanism": "W-s-y B002 core, başkasına bırakılan iş talimatını; F002 ise ölümden sonra uygulanacak isteği taşır. 2:180-182 ölüm ve vasiyetin korunması/düzeltilmesi, 4:11-12 ise vasiyet ve borcun sonraki estate distribution'dan önce gelmesiyle bu iki facet'i focus carrier'a geri bağlar.",
+      "reader_payoff": "Okur, vasiyeti yalnız geçmişteki bir niyetin izi değil, ölümden sonra yerine getirilmesi beklenen ve aktarım sırasını etkileyen bir talimat olarak da okur.",
+      "containment": "Bu bulgu B002 talimat ve ölüm sonrası specialization'ı taşır; miras paylarının ayrıntılarını, vasiyetin geçerlilik şartlarını veya bütün fıkhî sonuçları belirlemez.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": [],
+        "reason": "Exact target Arabic is supplied for death, will, repair and estate-order connections; target morphology is absent, so the global relation remains qualified."
+      },
+      "support_ids": [],
+      "branch_activations": [
+        {
+          "branch_ref": "root_001656/B002",
+          "facet_id": "F001",
+          "branch_gloss": "başkasına bırakılan iş talimatı",
+          "facet_statement": "Bir işin yapılması için başkasına bırakılan talimat veya istek.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["5:106:11:2"],
+          "trigger_refs": ["2:180", "2:181", "4:11", "4:12"],
+          "focus_return_refs": ["5:106:11:2"],
+          "carrier": "ٱلْوَصِيَّةِ, başkasına bırakılan ve ölümle birlikte yürürlüğe girecek istek.",
+          "independent_trigger": "2:180-181'de ölümle gelen vasiyet ve sonradan değiştirme sorumluluğu; 4:11-12'de vasiyet/borç sonrasındaki estate order.",
+          "activation": "Talimat çekirdeği, focus'taki vasiyeti başkasının yürüteceği, sonradan değiştirildiğinde sorumluluk doğuran bir aktarım olarak belirginleştirir.",
+          "resulting_reading": "Vasiyet, ölümden sonra uygulanmak üzere emanet edilen bir iş talimatıdır.",
+          "boundary": "Talimat facet'i, vasiyeti otomatik olarak bütün mal dağılımının kendisi yapmaz."
+        },
+        {
+          "branch_ref": "root_001656/B002",
+          "facet_id": "F002",
+          "branch_gloss": "başkasına bırakılan iş talimatı",
+          "facet_statement": "Ölümden sonra uygulanacak istek, dalın özel bir kullanımıdır.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["5:106:11:2"],
+          "trigger_refs": ["2:180", "2:181", "4:11", "4:12"],
+          "focus_return_refs": ["5:106:11:2"],
+          "carrier": "ٱلْوَصِيَّةِ, ölüm sonrasına bırakılan talimat yüzeyi.",
+          "independent_trigger": "Wider ayetlerde ölüm öncesi vasiyetin dinlenmesi, değiştirilmesi ve inheritance distribution'dan önce sayılması.",
+          "activation": "Ölüm sonrası specialization, focus'taki zaman bağını yalnız niyetin söylenme anına değil, sonraki uygulama ufkuna uzatır.",
+          "resulting_reading": "Vasiyet, ayrılan kişiden sonra sürdürülecek talimat olarak zamansal bir devamlılık taşır.",
+          "boundary": "Bu temporal extension, vasiyetin her zaman aynı hukukî sonuca ulaştığını veya bütün alıcıların aynı olduğunu söylemez."
+        }
+      ],
+      "connection_refs": ["conn_dc8276cb26bf37aa75b0", "conn_f9452751e15d19cdb10e", "conn_110a7d61671be904e945", "conn_bfe2a501edd4b8977c29"],
+      "context_refs": ["2:180", "2:181", "4:11", "4:12"],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:record-backed-testimony",
+      "origin_candidate_id": null,
+      "represented_candidate_ids": [],
+      "title": "Kayıtla güçlenen tanıklık",
+      "claim": "Odaktaki tanıklık, şüphe altında sözün kayda geçirilmesi, tanıklarla desteklenmesi ve emanetin gizlenmemesiyle birlikte düşünüldüğünde özel bir iddia değil, geri çağrılabilir bir sorumluluk kaydı olarak görünür.",
+      "mechanism": "Ş-h-d B002, bilinen şeyi kesin bildirme ve tanık konumunu taşır. 2:282'de yazma, iki tanık, hatırlatma ve şüpheyi azaltma; 2:283'te seyahat, emanet ve tanıklığı gizlememe aynı carrier'a dönen bağımsız bağlantılardır. Focus'taki şüphe koşulu ve yemin, bu kayıt mekanizmasının sözlü biçimini verir.",
+      "reader_payoff": "Okur, tanıklığın yalnız kişinin o anda söylediği söz olmadığını; kaydedilen, tanıklarla tutulan ve emanet gibi korunması gereken bir bilgi olduğunu görür.",
+      "containment": "Connection target morphology supplied değildir; bulgu, 2:282-283'ün prosedürel paralelini taşır ve odak ayetin kendi yazılı kayıt içerdiğini ileri sürmez.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": [],
+        "reason": "The packet supplies exact target Arabic and direct connection notes for writing, witnesses, travel, pledge and non-concealment, but target morphology remains absent."
+      },
+      "support_ids": [],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000822/B002",
+          "facet_id": "F001",
+          "branch_gloss": "bilgiye dayalı tanıklık",
+          "facet_statement": "Merkezde bilinen bir şeyi kesin haber veya açıklama olarak bildirme vardır.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["5:106:4:1", "5:106:46:1"],
+          "trigger_refs": ["2:282", "2:283", "5:106:35:1", "5:106:45:1"],
+          "focus_return_refs": ["5:106:4:1", "5:106:46:1"],
+          "carrier": "شَهَٰدَةُ ve شَهَٰدَةَ, bilinen olayın tanık sözü olarak açıklanması.",
+          "independent_trigger": "2:282'de yazılı, iki tanıklı ve şüpheyi azaltan kayıt; 2:283'te seyahat, emanet ve tanıklığı gizlememe düzeni.",
+          "activation": "Kayıt ve emanet bağları, odaktaki tanıklığı özel bir iddia olmaktan çıkarıp başkasının hakkını taşıyan denetlenebilir bilgiye dönüştürür.",
+          "resulting_reading": "Yeminli tanıklık, sözün kaybolmaması ve emanetin korunması için kurulan kayıt düzeninin sözlü düğümüdür.",
+          "boundary": "Focus ayetinde yazı veya rehin doğrudan bulunmaz; bunlar yalnız supplied wider procedural parallels olarak kalır."
+        }
+      ],
+      "connection_refs": ["conn_b5fa162580bf109e78b8", "conn_a8e55cfdd0f41c3d6ac6"],
+      "context_refs": ["2:282", "2:283"],
+      "semantic_obligation_refs": []
+    }
+  ],
+  "friction_notes": [
+    "focus_word_alignment 58/58 resolved; no unresolved analysis unit suppressed a reading.",
+    "The narrowed price/kinship candidate carries an explicit exclusion for root_001284/B002 because its packet boundary requires a named natural sound and the focus carrier is testimony concealment.",
+    "HFT context branches root_000584/B002, root_001040/B001, root_001117/B001, root_001669/B002, root_000766/B001, root_000386/B001, root_000961/B001, root_001536/B001 and root_000852/B001 remain visible only as attributed roles; no unresolved gloss or facet was invented.",
+    "Unanchored HFT uncertainty summaries were rejected where focus return or exact trace was missing. The 5:120 wide reader pointer was also outside the supplied evidence boundary.",
+    "Connection findings remain qualified because the packet supplies target Arabic and relation notes but explicitly withholds target morphology; connection prior labels were not treated as decisions."
+  ]
+}

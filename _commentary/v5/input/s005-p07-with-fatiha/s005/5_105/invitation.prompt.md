@@ -1,0 +1,213 @@
+# V5 reading invitation — 5:105
+
+You are a fresh reading-invitation writer. Read the complete editorial prose
+before writing. It is your sole semantic source.
+
+Write two to four paragraphs of fluent, contemporary Turkish that reveal a
+surprising reading by following one or two main channels of resonance in the
+ayah. A channel is a connected background of meanings, images, actions, or
+relations through which the ayah can be heard and understood differently.
+Several editorial findings may together develop one channel. Summarize that
+connected movement and its consequence for the ayah's main meaning, rather
+than compressing findings individually. Give the reading's substance now;
+the invitation comes from understanding it, not from a promise of hidden depth.
+
+Before drafting, read the entire editorial prose and silently select the one
+or two channels with the strongest interpretive consequence and enough
+grounding to explain clearly. Favor channels that expand or shift what the
+ayah says, the relation it establishes, or what is at stake in its action or
+image. One fully developed channel is sufficient; add a second only when it
+offers a distinct consequential reading that can be explained within the
+invitation. No finding, channel, or major shift has an individual coverage
+claim. Unselected material may remain entirely in the full commentary.
+
+A channel may develop through grammar, sound, dialogue, a material process,
+time, imagery, or a conceptual relation. Resonance is not limited to acoustic
+effects, and an unusual image alone does not establish a channel. Use only
+connections the editorial prose actually develops. If it supplies no such
+channel, explain its strongest grounded reading without inventing connections
+or surprise.
+
+Begin inside the ayah's own words, images, actions, or relations and reveal a
+selected distinctive reading in the first paragraph. Keep the plain meaning
+reachable with only the orientation needed to understand the change. Do not
+spend an opening paragraph on routine explanation or front-load context about
+the surah, the ayah's position, or the commentary project.
+
+For each selected channel, begin with the expression that opens it, unfold the
+connected background, and show how the ayah reads or sounds against that
+background. Let a detail lead into the next through an intelligible relation
+or process, so the reader experiences the emerging reading. This is a movement
+of thought, not a mandatory sentence pattern or one paragraph per finding.
+Let the reader identify the expression being interpreted,
+where any nonordinary detail comes from, and what that detail changes in the
+reading. Briefly identify the word-family use, restricted form, collocation, or
+context that supplies an essential added detail, and preserve the concrete
+operation that makes the image work. Keep the ordinary reading and necessary
+qualification clear within this explanation; do not repeat them as a fixed
+formula. Preserve the particular object, process, or relation that makes this
+reading distinctive, and state its interpretive consequence for the ayah as a
+whole. Make intelligible what the familiar reading leaves less visible and
+what the expanded or shifted reading now lets the reader understand. Preserve
+the editorial's force: an exploratory possibility remains possible, while a
+developed shift must not be softened into a decorative association or a
+reassurance that everything means the same thing. A concrete
+account of how something is carried, transformed, lost, or restored must not
+shrink to a general statement about care, guidance, dependence, or goodness.
+Keep the details needed to make the selected channel work; omit side findings
+and shorten routine setup. If a channel cannot be explained faithfully from
+the editorial prose, choose another grounded channel or reading.
+
+When a non-focus ayah supplies a contribution used in the invitation, keep its
+reference from the editorial prose beside that contribution.
+
+Do not turn the invitation into a miniature inventory of the commentary's
+conclusions, or flatten distinct channels into a broad theme to include more
+material. Do not repair, extend, or supplement the editorial prose from memory
+or outside knowledge.
+
+Omit technical apparatus. Retain any qualification, source distinction, live
+alternative, or boundary whose absence would change the force or meaning of a
+chosen reading. Express it naturally beside the image or relation it qualifies.
+Favor positive explanations of the relation between layers: what remains in
+the foreground and what the resonance makes audible in the background. State
+how that background reinforces, expands, or shifts the understanding of the
+main meaning, with the source and degree of certainty clear. Reserve explicit
+exclusions for concrete ambiguities or live counter-evidence that need them.
+Repeated "this is not X" endings make a reading sound withdrawn; express the
+substantive qualification through what the reading does contribute wherever
+possible. Use varied, natural language rather than a repeated "second layer"
+formula, and preserve the force of expansions and shifts.
+Do not name branches, candidates, findings, scopes, evidence categories,
+ledgers, or workflow stages, or label the prose as numbered channels. Do not
+list findings serially.
+
+Use the established `{ar:..., tr:..., gloss:...}` syntax, consistent
+Turkish-readable transliteration, and short ordinary glosses. Keep Arabic
+anchors beside the explanations they ground. Within a paragraph, continue with
+the Turkish meaning where clear; provide the necessary local tag when a later
+paragraph interprets the carrier anew. Do not place Arabic script outside a
+valid tag.
+
+Build transitions within a channel through its shared object, action, or
+relation. If two channels are selected, they may occupy separate paragraphs;
+do not invent a link between them. Do not praise the commentary's quality,
+promise what the reader will find, manufacture suspense, recap at the end, or
+add a call to action. End on an image, relation, action, or tension already
+established by the selected reading.
+
+Before finishing, compare the invitation with the entire editorial prose:
+does the chosen channel reveal a consequential reading, or could the text have
+been written from the ordinary translation and a modest explanation alone?
+When the editorial supports a surprising channel, the latter fails this task.
+Can the reader follow the opening expression into a connected background and
+understand how that background expands or shifts the ayah's main meaning?
+Check the selected connections against their editorial explanation: can the
+reader tell where the nonordinary details come from, with the necessary
+qualifications intact? Repair generic explanation, isolated curiosities, or a
+compressed findings list by developing the selected channel. Do not add
+omitted channels merely for coverage. Do not output this check.
+
+Write only the invitation text to:
+
+`_commentary/v5/editorial/s005-p07-with-fatiha/s005/5_105/5_105.invitation.tr.md`
+
+Do not add a heading, wrapper label, index, ledger, evidence file, or any other
+artifact. Do not modify the editorial prose.
+
+After writing the invitation, run:
+
+```bash
+python3 _commentary/v5/validate_prose.py _commentary/v5/editorial/s005-p07-with-fatiha/s005/5_105/5_105.invitation.tr.md
+```
+
+If validation fails, repair only the reported mechanical file-contract issues
+and rerun it, for at most two repair cycles. Report the final validator result
+in your response.
+
+<editorial_prose>
+## Kendi yönünü taşımak
+
+Bu âyet, inananlara sorumluluğu önce kendilerine verir: kendi benliklerini gözetmeleri ve doğru yolda kaldıkları sürece başkasının sapmasının kendilerine zarar vermeyeceğini bilmeleri istenir. Ardından herkesin Allah'a döneceği, yapılan işlerin de bu dönüşte kendilerine bildirileceği söylenir. Cümlenin hareketi böylece kişisel yönelişten ortak dönüşe, oradan da kişiye ulaşan açıklanmaya ilerler.
+
+Hitap, buyruk başlamadan önce muhatabı doğrudan karşısına alır. {ar:يَٰٓ, tr:yā, gloss:ey} uzatılmış bir seslenişle kişiyi sorumluluk alanına çağırır; âyet kendisine yönelen bir ses olarak duyulur. {ar:أَيُّهَا, tr:ayyuhā, gloss:ey} bu sesi belirli bir topluluğa sabitler. Arkasından gelen {ar:ٱلَّذِينَ, tr:alladhīna, gloss:inananlar}, hemen sonraki {ar:ءَامَنُوا۟, tr:āmanū, gloss:inandılar} eylemiyle kurulan topluluğu gösterir ve hitabın gramer temelini oluşturur.
+
+{ar:ءَامَنُوا۟, tr:āmanū, gloss:inandılar} kelimesinin IV. biçimi, buyruğun önüne yerleşmiş tamamlanmış bir inanma kimliği kurar: muhataplar önce inanmış kimseler olarak belirlenir, sonra sorumluluk çağrısını alır. Kelime, hemen ardından gelen zarar cümlesiyle temas ettiğinde güven ve emniyet rengini de taşır. Bu renk, güvene yaslanan bir topluluğun çağrıldığını hissettirir ve sorumluluk sözünün içine bir korunma duygusu katar.
+
+Bu sorumluluğun yükünü {ar:عَلَيْكُمْ, tr:ʿalaykum, gloss:üzerinize} sözü taşır. Sözcük, konum bildiren yönünü sorumluluğun muhatapların üzerine konmasına dönüştürür; hemen arkasındaki {ar:أَنفُسَكُمْ, tr:anfusakum, gloss:kendiniz} ise yükün alanını, onların kendi benliklerini gösterir. {ar:أَنفُسَكُمْ, tr:anfusakum, gloss:kendiniz} belirtme hâlindeki nesne olduğu için buyruk önce muhatapların kendi öz alanında işler. {ar:عَلَيْكُمْ, tr:ʿalaykum, gloss:üzerinize} içindeki ikinci kişi eki de zarar, yöneliş, dönüş, bildirim ve eylem boyunca aynı muhatapları taşır; ekin görevi cümleden cümleye değişirken sorumluluğun taşıyıcısı sabit kalır.
+
+{ar:أَنفُسَكُمْ, tr:anfusakum, gloss:kendiniz} kelimesi benlik, can, soluk ve yaşayan kişi çağrışımlarını birlikte duyurur. Bu alan, ikinci kişi eki ve belirtme hâliyle yaşayan ahlaki kişiliğe bağlanır; bedene hayat veren ve ayrıldığında ölümü getiren canı taşıyan kişi, buyruğun hemen önündeki emanet alanında görünür. Bu görüntü sorumluluğu yaşayan bireyin hemen önüne yerleştirir. Kelimenin başka bir açılımı aynı benliği sağlam, dayanıklı ve cömert bir yaradılış olarak somutlaştırır; bu da yükü taşıyabilen ve kendi doğrultusunu koruyabilen kişi ayrıntısını ekler. Her iki görüntü, genel benlik ve kişisel sorumluluk anlamını bu bağlamda derinleştiren belirli yorum yüzleridir.
+
+Bu nesne kuruluşunun yanında aktarılan bir okuyuş, kelimeyi adlandırma hâline yaklaştırarak bildirim yönünde canlı bir ihtimal açar. Nesne okuması sorumluluğun nereye yüklendiğini görünür kılarken, bu karşı okuma yükün nasıl duyurulduğuna dair başka bir ses bırakır. Böylece buyruk kuvveti aydınlanır; iki yerel çözümleme birbirini ortadan kaldırmadan aynı cümlede tutulur.
+
+## Zararın şartı
+
+Zarar cümlesi, muhataba yönelen somut eksilmenin nasıl engellendiğini gösterir. {ar:لَا, tr:lā, gloss:-mez} bu zararı cümle içinde durdurur; {ar:يَضُرُّكُم, tr:yaḍurrukum, gloss:size zarar verir} ise ikizlenmiş, biçimce ağır yapısıyla engellenen zarar görüntüsünü duyulur tutar. Fiilin biçimindeki ağırlık, ardından gelecek şartın da neden gerekli olduğunu hazırlar. Aktarılmış alternatif okuyuş bu zarar temasına başka bir ses katar; iki okuyuşun da canlı kalması, cümledeki karşı okumanın sınırını korur.
+
+Zararın kaynağı {ar:مَّن, tr:man, gloss:kimse} ile açılır ve ardından gelen eylemle tanımlanan herkesi kapsar. {ar:ضَلَّ, tr:ḍalla, gloss:saptı} yalın ve tamamlanmış bir fiil olarak tek bir yanlış ayrıntıyı değil, yönünü yitirmiş bir durumu gösterir. Önünde açık bir yol tümleci bulunmadığı için sonraki yöneliş, bu kayıp doğrultuyu karşılayan ayrı bir hareket gibi görünür. Bu ilk yerel kullanımda sapmanın katkısı, yön kaybının kendisini görünür kılmaktır.
+
+Bu yön kaybını gerçekleşmiş bir yöneliş şartı karşılar. {ar:إِذَا, tr:idhā, gloss:-dığınızda} yönelişin devreye girdiği zamanı ve durumu gösterir. Ardındaki {ar:ٱهْتَدَيْتُمْ, tr:ihtadaytum, gloss:doğru yolu bulduğunuzda} VIII. biçim, gösterilen yönü kabul edip ona ulaşmayı ve onu sürdürmeyi anlatan bir edinim kurar. {ar:ضَلَّ, tr:ḍalla, gloss:saptı} ile {ar:ٱهْتَدَيْتُمْ, tr:ihtadaytum, gloss:doğru yolu bulduğunuzda} yan yana geldiğinde biri doğrultudan ayrılmayı, diğeri doğrultuyu bulup izlemeyi taşır. Korunmanın katkısı burada belirginleşir: başkasının sapmasına dair genel bir uyarı, kişinin kendi yönünü gerçekten bulup sürdürmesi şartına bağlanır.
+
+Bu temas, âyetin kişisel sorumluluk sözünü keskinleştirir. {ar:أَنفُسَكُمْ, tr:anfusakum, gloss:kendiniz} hesabın kişinin kendi öz alanında kurulduğunu, {ar:عَلَيْكُمْ, tr:ʿalaykum, gloss:üzerinize} bu yükün gerçekten onun üzerine konduğunu gösterir. {ar:يَضُرُّكُم, tr:yaḍurrukum, gloss:size zarar verir} ise eksilmenin muhataba yöneldiğini duyurur; {ar:مَّن ضَلَّ, tr:man ḍalla, gloss:sapan kimse} ile {ar:ٱهْتَدَيْتُمْ, tr:ihtadaytum, gloss:doğru yolu bulduğunuzda} arasındaki şart, başkasının sapmasının yönünü koruyan kişinin hesabından eksilmeyeceğini açıklar. Kişi kendi yönünü taşır ve başkasının seçimini kendi hesabına devretmez; sorumluluk ile başkasının iradesi bu sınırda birbirine bağlanır.
+
+Yöneliş şartı cümlenin sonuna doğru bir hedef kazanır. {ar:إِلَى, tr:ilā, gloss:-e doğru} dönüş isminden önce öne çıkarılarak söyleyişi ilahî hedefe çevirir; öz-sorumluluk kendi kendine yeterli bir kapanışta kalmaz, bir dönüş ufkuna açılır. {ar:ٱللَّهِ, tr:llāhi, gloss:Allah'a} adı bu yönün hedefidir. Dönüş belirsiz bir sona değil, adı verilmiş bir makama bağlanır; bu ad hedef konumunda tapınma, sığınma ve huşu çağrışımlarını da çevresine toplar.
+
+{ar:مَرْجِعُكُمْ, tr:marjiʿukum, gloss:dönüşünüz} dönüşü bir fiil gibi geçip giden olay olmaktan çıkarır ve ikinci kişi ekiyle onu doğrudan bu muhatapların dönüşü yapar. Cümle, {ar:مَّن ضَلَّ, tr:man ḍalla, gloss:sapan kimse} ile sapanı ve yönünü bulanı kısa süreliğine ayırır; ardından {ar:جَمِيعًا, tr:jamīʿan, gloss:hepiniz olarak} bütün alanı yeniden toplar. {ar:جَمِيعًا, tr:jamīʿan, gloss:hepiniz olarak} ortak dönüşü eksiksiz ve birlikte duyururken kişisel sorumluluğu da korur; herkes aynı son sahnede kendi hesabıyla yer alır.
+
+Dönüşten bildirime geçişi {ar:فَ, tr:fa, gloss:böylece} kurar. Bu küçük bağ, Allah'a dönmeyi son cümledeki bildirimin sonucu ve eşiği haline getirir. {ar:يُنَبِّئُكُم, tr:yunabbiʾukum, gloss:size bildirecek} II. biçimiyle etkin ve ağırlıklı bir bilgi aktarımıdır; dönüşten sonra görünmeyen amelleri aynı muhataplara ulaştırır. Başlangıçta çağrılan topluluk, son bildirimde yine kendisine yöneltilmiş sözle karşılaşır.
+
+Bildirim fiilini içeriğe bağlayan {ar:بِ, tr:bi, gloss:ile}, haberin açıklanacak bir içeriğe sahip olduğunu duyurur. {ar:مَا, tr:mā, gloss:neyi} bu içeriği açık tutar. {ar:كُنتُمْ, tr:kuntum, gloss:olduğunuz} geçmiş bir çerçeve kurar; {ar:تَعْمَلُونَ, tr:taʿmalūna, gloss:yaptığınız} ise bu çerçeveyi zaman içinde sürdürülen, bilinçli olarak ortaya konan işlerle doldurur. Hesabın konusu böylece yaşayan ve eyleyen kişilerin geniş davranış alanıdır. Son kelimenin yine {ar:تَعْمَلُونَ, tr:taʿmalūna, gloss:yaptığınız} olması, başlangıçtaki kendi benliklerinize yönelen buyruğu sonunda sizin ortaya koyduğunuz işlere bağlar. Bu kullanım amaçlı iş ve davranışta kalır; ücret, kullanım, araç veya beden parçası gibi başka alanlara taşınmaz.
+
+Dönüş ve bildirim birlikte düşünüldüğünde {ar:ضَلَّ, tr:ḍalla, gloss:saptı} kelimesi yön kaybının ötesinde bir görünme biçimi de kazandırır: kişi veya şey gözden uzak düşer, sahibi ya da yeri bilinemez, sonra ilahî dönüşte açıklanır. Bu görüntüyü açan temas, {ar:مَرْجِعُكُمْ, tr:marjiʿukum, gloss:dönüşünüz} ile {ar:يُنَبِّئُكُم, tr:yunabbiʾukum, gloss:size bildirecek} kelimelerinin dönüşten sonra haber getirmesidir. Böylece insan görüşünden saklı kalan durum için sonradan erişilen bir bildirim ufku belirir. Bağlantı, sıvıda erime, gömülme veya kanın yerde kalması gibi özel kullanım alanlarının sınırında, kaybolmuş olana açıklanma imkânı verir.
+
+## Sorumluluğun yakın ölçüsü
+
+Bu dönüş hedefi, âyetin okunuşundan önce yer alan {ar:بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ, tr:bismillāhi'r-raḥmāni'r-raḥīm, gloss:Rahman ve Rahim Allah'ın adıyla} ifadesiyle (5:0) merhamet adları içinde duyulur. Dönüş ve bildirim aynı ilahî ada yönelirken, bu yakın çerçeve hesabın sorumluluk taşıyan ve merhamete açık bir ufukta gerçekleştiğini hissettirir. Merhamet, hesap verilebilirliği kaldıran başka bir hüküm getirmez; hesabın yöneldiği adın niteliğini derinleştirir.
+
+Hemen önceki uyarılar, kendi benliğine sahip çıkmayı ölçülü bir davranış alanına yerleştirir. (5:87)'de ölçü, iyi olanı haram saymama ve aşırılığa taşmama şeklinde kurulur: {ar:لا تُحَرِّمُوا طَيِّبَاتِ, tr:lā tuḥarrimū ṭayyibāt, gloss:iyi şeyleri haram kılmayın} ve {ar:وَلَا تَعْتَدُوا, tr:wa lā taʿtadū, gloss:aşırıya geçmeyin}. (5:88)'de helal ve hoş olanı alırken korunma çağrısı bu ölçüyü tamamlar. Bu bağlamda {ar:أَنفُسَكُمْ, tr:anfusakum, gloss:kendiniz} insanın bütün varlığını izin, hoşluk, korunma ve taşkınlık ayrımının içine yerleştirir. Kişi kendi davranışını taşır; izin verilmiş nimeti koruma ve başkasının hatasını kendi hesabına almama, kişisel sorumluluğun iki ayrı sınırı olarak görünür. Yakın bağlam bu ölçüyü aydınlatır; hukuk ayrıntıları bu bağlantının kapsamını belirlemez.
+
+Yönünü bulma şartı, mesajın ulaştırılmasıyla ilgili sorumluluk sınırını da açıklığa kavuşturur. Elçinin görevi (5:92, 5:99) mesajı açıkça ulaştırma noktasında belirir: {ar:ٱلرَّسُولَ, tr:er-resūl, gloss:elçi} taşıyıcıyı, {ar:ٱلْبَلَٰغُ, tr:el-balāgh, gloss:ulaştırma} ise mesajın muhataba varmasını gösterir; {ar:ٱلْبَلَٰغُ, tr:el-balāgh, gloss:ulaştırma} sözünün yinelenmesi bu aktarım sınırını pekiştirir. Elçi mesajın ulaştırılmasından sorumludur, muhatabın cevabı ise muhatabın kendi alanında kalır. Bu yüzden başkasının cevabını zorlayamamak, mesajı alma ve gerçekten yönelme görevini ortadan kaldırmaz; {ar:إِذَا ٱهْتَدَيْتُمْ, tr:idhā ihtadaytum, gloss:doğru yola yöneldiğinizde} ifadesi bu yönelişi sorumluluk eşiği olarak duyurur.
+
+Bu eşik, 5:104'teki miras alınmış yeterlilik iddiasıyla karşılaşınca daha belirgin hale gelir. {ar:حَسْبُنَا مَا وَجَدْنَا عَلَيْهِ ءَابَاءَنَا, tr:ḥasbunā mā wajadnā ʿalayhi ābāʾanā, gloss:atalarımızı üzerinde bulduğumuz bize yeter} sözü ataların bulduğu yolu hüküm için yeterli sayar; hemen ardından onların bilmediği ve doğru yolu bulmadığı sorulur. Bu karşıtlık {ar:أَنفُسَكُمْ, tr:anfusakum, gloss:kendiniz} emrini mirasın hazır yeterliliği karşısında kişinin bizzat üstlendiği yöneliş olarak görünür kılar. Aile ve gelenek tarihsel miras olarak yerinde dururken, miras bugünkü insanın kendi rehberliğini ve cevap verme yükümlülüğünü tamamlayan bir vekil haline gelmez. Odaktaki {ar:ٱهْتَدَيْتُمْ, tr:ihtadaytum, gloss:doğru yolu bulduğunuzda} kabul edilip sürdürülen doğru yönü ölçüye getirir. 5:104'teki {ar:وَلَا يَهْتَدُونَ, tr:wa lā yahtadūn, gloss:doğru yolu bulmuyorlar} ifadesi bu ölçünün karşıt yüzünü açıkça gösterir.
+
+Rehberliğin devam eden bir gidiş olarak duyulması (5:93) da aynı eylem alanında kurulur. İman, {ar:ٱتَّقَوا, tr:ittaqaw, gloss:korundular} ve {ar:عَمِلُوا ٱلصَّٰلِحَٰتِ, tr:ʿamilū aṣ-ṣāliḥāt, gloss:iyi işleri yaptılar} ifadelerinin yinelenmesiyle korunma, onarıcı iş ve güzellik içinde sürdürülür. Bu dizi, {ar:إِذَا ٱهْتَدَيْتُمْ, tr:idhā ihtadaytum, gloss:doğru yola yöneldiğinizde} şartını tek seferlik bir belge olmaktan çıkarıp izlenen bir tutum gibi renklendirir. Odaktaki {ar:تَعْمَلُونَ, tr:taʿmalūna, gloss:yaptığınız} da rehberliğin davranışta görünen tarafını bu devamlılığa bağlar. Tekrar, niteliği güçlendiren bir vurgu olarak da duyulabilir; her iki ihtimalde de yöneliş eylemden kopmaz.
+
+Bu eylem alanı, sınanma ve ayırt etme ölçüsünü taşır (5:94, 5:100). Gizli sınamanın ardından gelen {ar:فَمَنِ ٱعْتَدَىٰ, tr:famaniʿtadā, gloss:kim taşarsa} ifadesi, {ar:فَٱتَّقُوا ٱللَّهَ, tr:fattaqū llāha, gloss:Allah'a karşı korunun} çağrısıyla buluşur. {ar:تَعْمَلُونَ, tr:taʿmalūna, gloss:yaptığınız} kişinin bilerek ortaya koyduğu işleri bu ölçünün önüne getirir. Niyetli taşma ile çokluk karşısında bile iyi ve kötüyü ayırt etme, başkasının sapması karşısında kişinin kendi davranışını hangi sınırda taşıdığını açıklar; rehberlik böylece ölçülü ve sorumlu eylem içinde görünür.
+
+Yönelişe hedefe doğru taşınan bir hareket kazandıran sunu görüntüsü, aynı bölümde 5:95 ve 5:97'de belirir. {ar:هَدْيًا, tr:hadyan, gloss:kutsal yere gönderilen sunu} kutsal bir hedefe doğru ayrılıp gönderilen nesneyi getirir. 5:95'teki {ar:هَدْيًا بَٰلِغَ ٱلْكَعْبَةِ, tr:hadyan bāligha al-kaʿba, gloss:Kâbe'ye ulaşan sunu} sunuyu ve hedefi aynı güzergâhta birleştirir; {ar:بَٰلِغَ, tr:bāligh, gloss:ulaşan} belirli bir hedefe varma yönünü öne çıkarır. 5:97'de yeniden görünen {ar:ٱلْهَدْىَ, tr:al-hady, gloss:kutsal sunu} bu hareketi aynı bağlamda canlı tutar. Bu işlemler, {ar:ٱهْتَدَيْتُمْ, tr:ihtadaytum, gloss:doğru yolu bulduğunuzda} kelimesindeki yönelişi hedefe doğru sevk edilen bir hareket gibi duyurur; {ar:مَرْجِعُكُمْ, tr:marjiʿukum, gloss:dönüşünüz} de hareketin son yönünü Allah'a dönüş olarak belirler. Sunu görüntüsünün katkısı bu hedefli güzergâhtır; odaktaki ahlaki rehberlik kendi anlam alanında kalır.
+
+Yol görüntüsüne destekli bir ilerleme duygusu veren bağ, Fâtiha'nın yardım ve yönlendirilme duasından gelir (1:5, 1:6). {ar:نَسْتَعِينُ, tr:nastaʿīn, gloss:yardım isteriz} yardım arayan kişiyi, {ar:ٱهْدِنَا, tr:ihdinā, gloss:bizi doğru yola ilet} ise yön gösterilmesini isteyen kişiyi sahneye getirir. Bu iki istekle karşılaşan {ar:ٱهْتَدَيْتُمْ, tr:ihtadaytum, gloss:doğru yolu bulduğunuzda} kelimesinin uzak bir yüzü, güçsüz kişinin iki kişiye dayanarak yürüdüğü bir görüntü açar. Görüntünün katkısı, kişisel yönelişi destekten yararlanan canlı bir ilerleme olarak duyurmaktır; yardım, kişinin yolu bizzat yürümesini korur. Fiziksel zayıflık ayrıntısı bu benzetmenin sınırıdır ve odak âyetinin genel muhatap durumuna dönüşmez.
+
+Fâtiha'nın dosdoğru yol ve sapanlar karşıtlığı, yönelişi izlenen bir doğrultu olarak belirginleştirir (1:6, 1:7). {ar:ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ, tr:aṣ-ṣirāṭ al-mustaqīm, gloss:dosdoğru yol} hedefi ve izlenecek doğrultuyu kurar; {ar:ٱلضَّآلِّينَ, tr:aḍ-ḍāllīn, gloss:sapanlar} bu doğrultudan ayrılanları gösterir. Odaktaki {ar:ٱهْتَدَيْتُمْ, tr:ihtadaytum, gloss:doğru yolu bulduğunuzda} ile {ar:ضَلَّ, tr:ḍalla, gloss:saptı} bu karşıtlıkla buluşunca rehberlik sürdürülen bir gidiş, sapma da o gidişin dışına çıkış olarak duyulur. {ar:ضَلَّ, tr:ḍalla, gloss:saptı} kelimesinin başka bir yüzü, sahibinden kopmuş ve sahibinin yeri bilinmeyen kayıp hayvan görüntüsünü ekler. Bu görüntünün katkısı, sapmayı yön veren kaynak ve hedeften kopuş olarak somutlaştırmaktır; Fâtiha bağlamı odaktaki kişisel yöneliş hükmünü taşımaya devam eder.
+
+Dönüşün sonucu 5:96 ve 5:98'deki yakın bağlamla daha geniş bir sınır kazanır. {ar:إِلَيْهِ تُحْشَرُونَ, tr:ilayhi tuḥsharūn, gloss:O'na toplanırsınız} sözü (5:96) düzenlenmiş sınırların Allah'a doğru toplanma ile tamamlandığını gösterir. Ceza ile bağışlanmanın yan yana gelişi (5:98), {ar:مَرْجِعُكُمْ, tr:marjiʿukum, gloss:dönüşünüz} kelimesine hem sonuç hem merhamet ufku verir. Dönüş, kişinin işlerinin sonuç ve bağışlanma ile karşılaşacağı bir eşik gibi duyulur; hangi sonucun kime nasıl uygulanacağı bu bağlamdan çıkarılmaz.
+
+Fâtiha 1:2'deki {ar:ٱلْحَمْدُ لِلَّهِ رَبِّ ٱلْعَٰلَمِينَ, tr:al-ḥamdu lillāhi rabbi al-ʿālamīn, gloss:âlemlerin Rabbi Allah'a hamd} ifadesi (1:2), odaktaki {ar:ٱللَّهِ, tr:llāhi, gloss:Allah'a} adını âlemlerin Rabbi olarak genişleyen bir kaynağa bağlar. Dönüşün hedefi böylece yalnız odak topluluğuna kapalı kalmayan evrensel bir ufuk kazanır. Rablik ve âlemler, Allah adının yeni bir sözlük karşılığı değil, (1:2) bağlamının dönüş hedefine getirdiği kapsam genişliğidir.
+
+Fâtiha 1:4'teki {ar:مَٰلِكِ يَوْمِ ٱلدِّينِ, tr:māliki yawmi ad-dīn, gloss:hesap gününün sahibi} sözleri (1:4), {ar:مَرْجِعُكُمْ, tr:marjiʿukum, gloss:dönüşünüz} ile {ar:يُنَبِّئُكُم, tr:yunabbiʾukum, gloss:size bildirecek} fiilini aynı hesaplaşma ufkunda buluşturur. Dönüş Allah'a varış olarak kalırken bildirim, yapılan işlerin açıklanacağı hesap gününe eşlik eden haber niteliği kazanır. {ar:يُنَبِّئُكُم, tr:yunabbiʾukum, gloss:size bildirecek} bu dış bağlamla karşılaşınca yapılanların haberini hesaplaşmaya taşır; bu bağlantının katkısı belirli hesap ufkudur ve kapsamı burada tamamlanır.
+
+Fâtiha 1:5'te {ar:إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ, tr:iyyāka naʿbudu wa iyyāka nastaʿīn, gloss:Yalnız Sana kulluk eder ve yalnız Senden yardım isteriz} denmesi (1:5), {ar:ٱللَّهِ, tr:llāhi, gloss:Allah'a} adını kulluk edilen ve yardım istenen kaynakla ilişkilendirir. Dönüş böylece yalnız uzak bir son değil, şimdiden kulluk ve yardım isteme ile kurulan bir yöneliş gibi duyulur. Fâtiha'nın cümlesi odak âyetinin yerine geçmez; dönüş hedefinin yaşanan bir bağlılık taşıdığını açar.
+
+Kendi hesabını üstlenme buyruğu, tanıklık düzeniyle karşılaştığında başkasının hakkına dokunan doğruluğu da içine alır (5:106, 5:107, 5:108). {ar:أَنفُسَكُمْ, tr:anfusakum, gloss:kendiniz} kişinin bütün benliğini gösterdiği için tanıklık borcunu kişinin kendi hesabına dahil eder. 5:106'daki {ar:شَهَٰدَةُ, tr:shahāda, gloss:tanıklık} bilen kişinin doğru beyanda bulunmasını toplumsal ama kişisel bir eylem olarak öne çıkarır. {ar:وَلَا نَكْتُمُ شَهَٰدَةَ ٱللَّهِ, tr:wa lā naktumu shahādata llāh, gloss:Allah'ın tanıklığını gizlemeyiz} sözü, kişinin kendi gizlemesiyle başkasının hakkını etkileyebileceğini somutlaştırır. Böylece kişisel sorumluluk, kamusal doğruluğu dışarıda bırakmadan çalışır.
+
+Bu tanıklık, 5:107'de gizlenmiş kusurun bulunup düzeltme sürecine girmesiyle ilerler. {ar:عُثِرَ, tr:ʿuthira, gloss:ortaya çıkarıldı} sözü gizli bozulmayı görünür kılar; tekrarlanan {ar:ٱسْتَحَقَّ, tr:istaḥaqqa, gloss:hakkı hak etti} ve {ar:أَحَقُّ, tr:aḥaqq, gloss:daha haklı} sözleri yerine geçen tanıklığın hakkı yeniden görünür kılmasını ve bozulmuş hesabı onarmasını anlatır. 5:108'de tanıklığın dinlenmesi ve kendi yüzüyle gelmesi, {ar:يُنَبِّئُكُم, tr:yunabbiʾukum, gloss:size bildirecek} bildirimini daha önce doğru taşınmış kamusal bir kayıt gibi renklendirir. Odaktaki {ar:تَعْمَلُونَ, tr:taʿmalūna, gloss:yaptığınız} da tanıklık vermeyi veya onu gizlemeyi sonradan bildirilecek işler arasına alır. Tanıklık, gizleme, ortaya çıkarma, hak ve dinleme zinciri böylece odaktaki işlerin bildirilmesiyle birleşir; bu pasajın katkısı tanıklık düzeninin odak âyetteki iş ve bildirim ilişkisini somutlaştırmasıdır, hukuk düzeninin bütün ayrıntıları bu bağlantının kapsamını aşar.
+
+{ar:أَنفُسَكُمْ, tr:anfusakum, gloss:kendiniz} kelimesinin daha keşifsel bir yüzü, kişinin kendisini başkasının sonucuna dağıtılan bir pay gibi görmemesi çizgisini somutlaştırır (5:90, 5:91). 5:90'daki {ar:ٱلْمَيْسِر, tr:al-maysir, gloss:bahis oyunu} bu nadir yüzün bağımsız tetikleyicisidir ve eski bahis oyunundaki pay oku görüntüsünü getirir. {ar:لَا يَضُرُّكُم, tr:lā yaḍurrukum, gloss:size zarar veremez} ifadesi, başkasının galibiyeti, kaybı veya sapmasıyla dağıtılan zararın odaktaki kişiye devredilmediği sınırı kurar. 5:91'de bahis düşmanlık ve alıkoyma doğuran bir düzenek içinde yeniden göründüğünde, pay görüntüsü özel oyundan toplumsal husumet ve dikkatin yoldan alıkonulmasına doğru genişler. Bahis bağlamının katkısı bu pay benzetmesini tetiklemektir; odaktaki âyet ise kendi sorumluluğunu başkasının sonucuna dağıtmama çizgisini taşır.
+
+## Ortak dönüşün içeriği
+
+Ortak dönüşün katkısı, cevapların görünür olduğu bir inceleme sahnesi açmasıdır (5:109). Elçilerin toplanıp kendilerine ne cevap verildiğinin sorulması, ayrı kişileri ortak bir sorgu önünde bir araya getirir. {ar:جَمِيعًا, tr:jamīʿan, gloss:hepiniz olarak} bu sahnede bütünlüğü kurarken kişileri kendi cevaplarından ayırmaz. Odaktaki {ar:يُنَبِّئُكُم, tr:yunabbiʾukum, gloss:size bildirecek} fiili de ortak sorguda muhataba ulaşan haberin açığa çıkmasını düşündürür; bildirim, kişinin kendi durumuna cevap vermesini beraberinde getirir.
+
+Bu ortak sahneye kişisel sonuç boyutunu 5:119 getirir. Doğruların doğruluklarından yarar görmesi, eylemin sonucunu sahibine geri bağlar; doğruluk kişinin yaptığı işlerle uyumlu ve kendisine dönen bir karşılık olarak görünür. {ar:مَرْجِعُكُمْ, tr:marjiʿukum, gloss:dönüşünüz} ile açılan ortaklık böylece herkesin kendi cevabı ve kendi eylemiyle görünür olduğu bir hesaplaşmaya ulaşır. Ortak son, kişisel hesabı koruyan bir bütünlük olarak belirir.
+
+Bu ortak sahne aynı zamanda sorumluluğun erişim sınırını çizer (5:116). İnsan kendi içinde bulunanı bilebilir; Allah insanın içini ve insanın bilmediğini kuşatır. {ar:أَنفُسَكُمْ, tr:anfusakum, gloss:kendiniz} burada düşünce, niyet ve ayırt etme gücüne kadar uzanan insanî sorumluluk alanını taşır. {ar:يُنَبِّئُكُم, tr:yunabbiʾukum, gloss:size bildirecek} bildirimi bu alanın ötesindeki kapsamlı açıklamayı nihai bilene bağlar. Böylece odaktaki kişisel hesap, insanın gerçekten erişebildiği iç ve eylem alanında köklenir.
+
+Bu erişim sınırı, insanın başkalarının içinde bulunduğu sürece şahit olması ve ayrılıştan sonra ilahî gözetimin sürmesiyle zaman bakımından da görünür hale gelir (5:117). İnsan aynı sahnede bulunduğu sürece gözlem ve eylem alanını taşır; aralarından alındığında veya öldüğünde bu tanıklık zamanı sona erer. Sonraki yönelişi yönetme görevi insanın erişim alanının dışında kalır, kapsamlı ve devam eden gözetim Allah'a ait olur. Âyetin kişisel sorumluluk buyruğu böylece sadık tanıklık ve gerçek erişim alanındaki görevi korur; bu bağ, tam bir hukuk teorisi kurmadan insanî sınırı belirler.
+
+## Yön bulmakla rahatlamak
+
+Rehberlik hissi, son bir karşılaştırmada kendi ölçüsünü bulur. Miras alınmış yeterliliğin sesi 5:104'te {ar:حَسْبُنَا, tr:ḥasbunā, gloss:bize yeter} sözüyle duyulur; kalplerin yatışmasını istemek ise 5:113'te {ar:تَطْمَئِنَّ قُلُوبُنَا, tr:taṭmaʾinna qulūbunā, gloss:kalplerimiz yatışsın} ifadesinde görünür. Yatışma kanıtla gelen yönelişe eşlik edebilir; yalnızca huzur verdiği için doğru sanılan bir kanaat de üretebilir.
+
+Bu iki bağlamla karşılaştığında {ar:ٱهْتَدَيْتُمْ, tr:ihtadaytum, gloss:doğru yolu bulduğunuzda} kelimesi biçim bakımından uzak, keşif niteliğinde bir sallama görüntüsü de çağrıştırır: çocuğu uyutmak için hafifçe hareket ettirmek gibi. Bu, rehberlik fiilinin doğrudan sözlük karşılığı değil, elde edilmiş yöneliş ile yatıştırılmış güven arasındaki farkı sınayan bir ihtimaldir. Kişi miras aldığı yeterliliği veya kalbinin rahatlığını hemen sapma saymadan, bu rahatlığın gerçekten yön bulma ile aynı olup olmadığını kendi sorumluluğu içinde yoklar. Böylece âyetin yönünü bulmuş olma anlamı korunur; rahatlık, ona eşlik edebilen fakat onun yerine geçmeyen bir ölçü olarak yerinde kalır.
+
+</editorial_prose>

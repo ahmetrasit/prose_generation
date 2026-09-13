@@ -1,0 +1,185 @@
+# V5 reading invitation — 5:36
+
+You are a fresh reading-invitation writer. Read the complete editorial prose
+before writing. It is your sole semantic source.
+
+Write two to four paragraphs of fluent, contemporary Turkish that reveal a
+surprising reading by following one or two main channels of resonance in the
+ayah. A channel is a connected background of meanings, images, actions, or
+relations through which the ayah can be heard and understood differently.
+Several editorial findings may together develop one channel. Summarize that
+connected movement and its consequence for the ayah's main meaning, rather
+than compressing findings individually. Give the reading's substance now;
+the invitation comes from understanding it, not from a promise of hidden depth.
+
+Before drafting, read the entire editorial prose and silently select the one
+or two channels with the strongest interpretive consequence and enough
+grounding to explain clearly. Favor channels that expand or shift what the
+ayah says, the relation it establishes, or what is at stake in its action or
+image. One fully developed channel is sufficient; add a second only when it
+offers a distinct consequential reading that can be explained within the
+invitation. No finding, channel, or major shift has an individual coverage
+claim. Unselected material may remain entirely in the full commentary.
+
+A channel may develop through grammar, sound, dialogue, a material process,
+time, imagery, or a conceptual relation. Resonance is not limited to acoustic
+effects, and an unusual image alone does not establish a channel. Use only
+connections the editorial prose actually develops. If it supplies no such
+channel, explain its strongest grounded reading without inventing connections
+or surprise.
+
+Begin inside the ayah's own words, images, actions, or relations and reveal a
+selected distinctive reading in the first paragraph. Keep the plain meaning
+reachable with only the orientation needed to understand the change. Do not
+spend an opening paragraph on routine explanation or front-load context about
+the surah, the ayah's position, or the commentary project.
+
+For each selected channel, begin with the expression that opens it, unfold the
+connected background, and show how the ayah reads or sounds against that
+background. Let a detail lead into the next through an intelligible relation
+or process, so the reader experiences the emerging reading. This is a movement
+of thought, not a mandatory sentence pattern or one paragraph per finding.
+Let the reader identify the expression being interpreted,
+where any nonordinary detail comes from, and what that detail changes in the
+reading. Briefly identify the word-family use, restricted form, collocation, or
+context that supplies an essential added detail, and preserve the concrete
+operation that makes the image work. Keep the ordinary reading and necessary
+qualification clear within this explanation; do not repeat them as a fixed
+formula. Preserve the particular object, process, or relation that makes this
+reading distinctive, and state its interpretive consequence for the ayah as a
+whole. Make intelligible what the familiar reading leaves less visible and
+what the expanded or shifted reading now lets the reader understand. Preserve
+the editorial's force: an exploratory possibility remains possible, while a
+developed shift must not be softened into a decorative association or a
+reassurance that everything means the same thing. A concrete
+account of how something is carried, transformed, lost, or restored must not
+shrink to a general statement about care, guidance, dependence, or goodness.
+Keep the details needed to make the selected channel work; omit side findings
+and shorten routine setup. If a channel cannot be explained faithfully from
+the editorial prose, choose another grounded channel or reading.
+
+When a non-focus ayah supplies a contribution used in the invitation, keep its
+reference from the editorial prose beside that contribution.
+
+Do not turn the invitation into a miniature inventory of the commentary's
+conclusions, or flatten distinct channels into a broad theme to include more
+material. Do not repair, extend, or supplement the editorial prose from memory
+or outside knowledge.
+
+Omit technical apparatus. Retain any qualification, source distinction, live
+alternative, or boundary whose absence would change the force or meaning of a
+chosen reading. Express it naturally beside the image or relation it qualifies.
+Favor positive explanations of the relation between layers: what remains in
+the foreground and what the resonance makes audible in the background. State
+how that background reinforces, expands, or shifts the understanding of the
+main meaning, with the source and degree of certainty clear. Reserve explicit
+exclusions for concrete ambiguities or live counter-evidence that need them.
+Repeated "this is not X" endings make a reading sound withdrawn; express the
+substantive qualification through what the reading does contribute wherever
+possible. Use varied, natural language rather than a repeated "second layer"
+formula, and preserve the force of expansions and shifts.
+Do not name branches, candidates, findings, scopes, evidence categories,
+ledgers, or workflow stages, or label the prose as numbered channels. Do not
+list findings serially.
+
+Use the established `{ar:..., tr:..., gloss:...}` syntax, consistent
+Turkish-readable transliteration, and short ordinary glosses. Keep Arabic
+anchors beside the explanations they ground. Within a paragraph, continue with
+the Turkish meaning where clear; provide the necessary local tag when a later
+paragraph interprets the carrier anew. Do not place Arabic script outside a
+valid tag.
+
+Build transitions within a channel through its shared object, action, or
+relation. If two channels are selected, they may occupy separate paragraphs;
+do not invent a link between them. Do not praise the commentary's quality,
+promise what the reader will find, manufacture suspense, recap at the end, or
+add a call to action. End on an image, relation, action, or tension already
+established by the selected reading.
+
+Before finishing, compare the invitation with the entire editorial prose:
+does the chosen channel reveal a consequential reading, or could the text have
+been written from the ordinary translation and a modest explanation alone?
+When the editorial supports a surprising channel, the latter fails this task.
+Can the reader follow the opening expression into a connected background and
+understand how that background expands or shifts the ayah's main meaning?
+Check the selected connections against their editorial explanation: can the
+reader tell where the nonordinary details come from, with the necessary
+qualifications intact? Repair generic explanation, isolated curiosities, or a
+compressed findings list by developing the selected channel. Do not add
+omitted channels merely for coverage. Do not output this check.
+
+Write only the invitation text to:
+
+`_commentary/v5/editorial/s005-p03-with-fatiha/s005/5_36/5_36.invitation.tr.md`
+
+Do not add a heading, wrapper label, index, ledger, evidence file, or any other
+artifact. Do not modify the editorial prose.
+
+After writing the invitation, run:
+
+```bash
+python3 _commentary/v5/validate_prose.py _commentary/v5/editorial/s005-p03-with-fatiha/s005/5_36/5_36.invitation.tr.md
+```
+
+If validation fails, repair only the reported mechanical file-contract issues
+and rerun it, for at most two repair cycles. Report the final validator result
+in your response.
+
+<editorial_prose>
+## Hükümden Varsayıma
+
+Âyet önce hükmü bildirir: inkâr edenler ellerinde bütün yeryüzü ve onun tam dengi bulunsa, bunu kıyamet gününün azabından kurtulmak için bütünüyle sunsalar bile teklifleri kabul edilmeyecek, onların payına acı veren bir azap düşecektir. Varsayımsal servet sahnesi bu kesin bildirimin içine sonradan alınır. {ar:إِنَّ, tr:inna, gloss:şüphesiz} cümleyi daha başta kesinlik çerçevesine yerleştirir. {ar:ٱلَّذِينَ, tr:alladhīna, gloss:o kimseler ki} ardından gelen fiilin tanımladığı hüküm öznesini kurar; {ar:كَفَرُوا۟, tr:kafarū, gloss:inkâr ettiler} bu topluluğu yerleşmiş ve ortak bir inkâr hali içinde bildirir. Kelimenin örtme ve nankörlük çağrışımı, nesnesiz mazi-etken biçimin sınırları içinde hakikati örten sorumluluk yönünü duyurur; bu yerel biçim günahı örten bir kefaret eylemini bildirmez. Kesik ses örgüsü de bu kapanmışlığı, (5:35)'teki doğrudan hitaptan hüküm altındaki bir topluluğa geçişin oluşturduğu sert eşikle birleştirir. Okur daha servet tasavvuruna girmeden, tekil bir olaydan çok bir grup hakkında verilmiş kesin bir bildirimle karşılaşır.
+
+Bu sabit bildirim şimdi {ar:لَوْ, tr:law, gloss:eğer} ile gerçekleşmemiş bir öncüle açılır. Yeryüzünün tamamı ve onun dengi, hükmün sınadığı imkânsız teklifin gerçekleşmemiş içeriğini kurar; varsayımın bu içeriği mümkün bir servet planından çok hükmün sınadığı teklifin parçası olarak taşınır. {ar:أَنَّ, tr:anna, gloss:şüphesiz ki} sahiplik cümlesini {ar:لَوْ, tr:law, gloss:eğer} çerçevesine bağlar ve sahipliği varsayımın içindeki içerik olarak tutar. Yakın tınıları cümleyi sesçe birbirine bağlarken görevleri ayrıdır: {ar:إِنَّ, tr:inna, gloss:şüphesiz} hükmün kesinliğini, {ar:أَنَّ, tr:anna, gloss:şüphesiz ki} ise varsayıma alınan cümleyi taşır. {ar:لَ, tr:la, gloss:onlara ait olsaydı} sahiplik bağını nesne büyümeden önce öne çıkarır; {ar:هُمْ, tr:hum, gloss:onlar} bu hayalî serveti başta tanımlanan aynı inkârcı topluluğa bağlar. Daha sonra duyulacak {ar:لَهُمْ, tr:lahum, gloss:onlarındır} bu ilk sahiplik işaretini tersine çevirecektir.
+
+Varsayımın alanını ilk {ar:مَّا, tr:mā, gloss:yeryüzünde ne varsa} açar. Bu kelime, yeryüzünde bulunan her şeyi kapsayan en geniş maddi alanı açar; ardından gelen {ar:فِى, tr:fī, gloss:içinde} yeryüzünü toplam sahipliğin kabı yapar. {ar:ٱلْأَرْضِ, tr:al-arḍi, gloss:yeryüzü} tekil ve belirli biçimiyle bilinen maddi alanı, tek bir arazi parçasına indirgenmeyen kapsamıyla adlandırır. Teklif böylece dışarıda parça bırakmayan bir bütün olarak yönelir. Bu maddi ölçek (3:91)'deki altınla fidye karşılaştırmasına, (5:17) ve (5:32)'de açılan daha geniş egemenlik ve ölçü yankılarına değerek insanın tasarlayabileceği maddi tavana kadar büyür. Bu varsayımın katkısı, servetin olağan değerini hesaplamadan fidye düşüncesini en geniş maddi alana taşımaktır; sahne gerçek bir pazar işlemi iddiası kurmaz. Aşağıda duran bu bütün, âyetin ilerleyen kısmındaki diriliş ve ayağa kalkış gününün ölçeğiyle karşılaştırılmaya hazırlanır.
+
+Bu alanın eksiksizliğini {ar:جَمِيعًۭا, tr:jamīʿan, gloss:hepsi birden} belirler. Mansup hâl bildiren bu kelime, dağınık imkânları tamamlanmış tek bir fidye kitlesi halinde toplar: ilk toplam yeryüzünü son maddi sınır gibi kurar; az sonra gelen ikinci karşılık, bu sınırın da teklifin sonu olmadığını gösterir. Aynı toplamlık dili (2:29)'daki kuşatıcı anlatımla ve (5:48)'deki insanların birlikte dönüşüyle yankılanabilir; bu âyette bu ortak yüzey, ilahî genişlik veya insan topluluğu anlamını taşımak yerine fidye düşüncesinin beyhudeliğini maddi bütünlük üzerinden görünür kılar. (5:32)'deki {ar:جَمِيعًا, tr:jamīʿan, gloss:hepsini, eksiksizce} tek bir hayatın korunmasını bütün insanlarla ölçer; buradaki kullanım ise malın bütününü hayatın ve insanlığın bütünüyle özdeşleştirmeden maddi tamlığı ayrı bir ölçü olarak kurar.
+
+İlk toplamın üzerine {ar:وَ, tr:wa, gloss:ve} ile ikinci miktar bağlanır. Bu bağlaç yeni bir liste maddesi eklemekten çok, bütün yeryüzü toplamı ile başka bir imkânsız bütünü aynı fidye sahnesinde birlikte tutar. {ar:مِثْلَهُۥ, tr:mithlahu, gloss:onun tam dengi} az önce tamamlanan toplamı ikinci miktarın ölçüsü yaparak iki eşit bütünü kurar; bu cümledeki yerel işlevi belirsiz bir fazlalığı değil, tam denkliği bildirmektir. Daha geniş bir benzerlik veya örneklik çağrışımı başka yerlerde duyulabilse de bu bağlantıda ikinci miktarın katkısı ilk toplamın eksiksiz karşılığını kurmakla sınırlıdır. {ar:مَعَهُۥ, tr:maʿahu, gloss:onunla birlikte} bu karşılığın aynı anda hazır bulunduğunu bildirir. İkinci dünya büyüklüğündeki varlık, ilk toplamla birlikte duran tek bir fidye stoğu olarak sahneye girer; bu bağlantıdaki birlikte oluş, sonradan ödenecek bir taksit düzeni kurmaz. {ar:مِثْلَهُۥ, tr:mithlahu, gloss:onun tam dengi} ile {ar:مَعَهُۥ, tr:maʿahu, gloss:onunla birlikte} içindeki yinelenen ek sesi de devasa servet cümlesini amaca geçmeden önce birbirine mühürler.
+
+Niceliğin ne için toplandığını {ar:لِ, tr:li, gloss:için} açar. Biriktirilen her şey, {ar:يَفْتَدُوا۟, tr:yaftadū, gloss:kendilerini fidye ederek kurtarsınlar} fiilinin gösterdiği tek işleme yönelir; servet bir gösteri olarak değil, çıkış satın alması beklenen bir bedel olarak kurulur. Fiilin kendine dönüşlü Form VIII biçimi, aynı kişileri hem bedeli sunan hem de kurtarılmak istenen taraf yapar. Üstelik {ar:لَوْ, tr:law, gloss:eğer} içindeki bu fiil gerçekleşmiş bir eylem değil, gerçekleşmemiş varsayım içinde niyetlenen bir kurtuluş girişimidir. Araç, bedel ve uzaklaşılmak istenen kaynak aynı sözdiziminde görünür. Bu kendine-fidye biçimi, (3:91)'deki fidyenin beyhudeliğini belirginleştirir; (5:37)'deki ateşten çıkma arzusu da aynı kaçış baskısını daha sonra açacaktır. Biçimin işaretli oluşu, genel bir kurtuluş dileğinden çok kişinin kendi yerine bir bedel koyarak kendisini çıkarmaya yönelmesini duyurur.
+
+Bu bedelin aracı {ar:بِهِۦ, tr:bihi, gloss:onunla} ile tekilleşir. Yeryüzünün tamamı ve onun tam dengi, birleşik bir teklif olarak tekil zamirin taşıdığı ödeme aracına dönüşür. Ardından gelen {ar:مِنْ, tr:min, gloss:-den} bu aracın yönünü kazanç toplamaya değil, uzaklaşılmak istenen azaptan çıkmaya bağlar; fiilin çevresinde eylem, bedel ve çıkış kaynağı birlikte haritalanır. {ar:عَذَابِ, tr:ʿadhābi, gloss:azabın} uzaklaşılmak istenen cezayı adlandırır. {ar:يَوْمِ, tr:yawmi, gloss:günü} ile {ar:ٱلْقِيَٰمَةِ, tr:al-qiyāmati, gloss:kıyamet} tek bir tamlama oluşturarak bu azabı bilinen hesap dönemine bağlar. {ar:ٱلْقِيَٰمَةِ, tr:al-qiyāmati, gloss:kıyamet} ölülerin diriltildiği, insanların açığa çıkıp hesap için ayağa kaldırıldığı günü adlandırır. Örtme ile başlayan inkâr, bu ayağa kalkışta örtülmüş olanın görünür hale gelmesiyle karşıt bir hareket kazanır. Azap kelimesinin başka bağlamlarda duyurabileceği çağrışımlar bulunsa da {ar:مِنْ, tr:min, gloss:-den} ile kurulan kaçış çerçevesi burada acı ve işkence yönünü belirginleştirir; bu yön (5:18), (5:33), (5:37), (5:40), (5:41) ve (5:118)'deki ceza sözleriyle çevrelenir.
+
+Dört unsur aynı fidye sahnesini adım adım kurar. {ar:ٱلْأَرْضِ, tr:al-arḍi, gloss:yeryüzü} bilinen maddi alanı açar; {ar:جَمِيعًۭا, tr:jamīʿan, gloss:tamamı ve eksiksiz bütün} bu alanı hiçbir parçası dışarıda kalmayan tek bir toplamda kapatır. {ar:مِثْلَهُۥ, tr:mithlahu, gloss:onun tam dengi} kapanan toplamı ikinci kez aynı ölçüde kurar; {ar:بِهِۦ, tr:bihi, gloss:onunla} bu iki toplamı tek bir bedel gibi taşıyan ödeme aracına bağlar. Cümlenin ilerleyen kabul fiili bu devasa aracı bir değerlendirme eşiğine getirir. Miktarın büyüklüğü kendi başına kabul edilmiş kurtuluş üretmez; görünen uyumsuzluk birikmiş mal ile kabul edilmiş kurtuluş arasındadır. Buradaki bütünlük yeryüzü toplamına aittir; başka bağlamlarda duyulabilecek beden veya insan topluluğu uzantıları bu özel maddi bağlantının kapsamına girmez. Bu birleşim, mal varlığının sorumluluğu devredip devredemeyeceğini sınayan sınırlı bir örnek açar ve olağan fidye sahnesini yerinde tutar.
+
+## Kabulün Eşiği
+
+Kabul eşiğinin işleyişini (5:27)'de yan yana duran iki sunu görünür kılar: biri kabul edilir, diğeri edilmez. {ar:إِنَّمَا يَتَقَبَّلُ ٱللَّهُ مِنَ ٱلْمُتَّقِينَ, tr:innamā yataqabbalullāhu mina'l-muttaqīn, gloss:Allah ancak sakınanlardan kabul eder} sözü, kabulün nesnenin ölçeğiyle sınırlı kalmayıp sunanın niteliğiyle de ilişkilendirilebildiğini gösterir. Aynı âyetteki {ar:قَرَّبَا قُرْبَانًا, tr:qarrabā qurbānan, gloss:bir sunuyu yaklaştırdılar} sunuyu Allah'a yöneltilen bir yaklaşma amacıyla birlikte gösterir. {ar:مِنَ ٱلْمُتَّقِينَ, tr:mina'l-muttaqīn, gloss:sakınanlardan} sunanın kendisini koruyan duruşunu öne çıkarırken, 5:36'da daha sonra gelecek {ar:مِنْهُمْ, tr:minhum, gloss:onlardan} reddedilen kaynağı doğrudan inkârcılara bağlar. Bu temasın katkısı, kabulün bütün sebeplerini tüketen bir yasa kurmak değil, 5:36'daki kaynak ve ret ilişkisini keskinleştirmektir: nesnenin büyüklüğü sunanın taşıdığı koşulu tek başına onaran ölçü olarak görünmez.
+
+Bu eşiğin zaman boyutunu yakın bağlamdaki iki hareket görünür kılar. (5:34)'te {ar:قَبْلِ أَن تَقْدِرُوا۟ عَلَيْهِمْ, tr:qabla an taqdirū ʿalayhim, gloss:onlara güç yetirmeden önce} ifadesi yakalanmadan önceki dönüşe bir öncelik alanı açar. (5:35)'teki {ar:ٱتَّقُوا۟, tr:ittaqū, gloss:sakının, korunup gözetin} buyruğu ile {ar:سَبِيلِهِۦ, tr:sabīlihī, gloss:O'nun yolu} arayışı, önceden yürütülen ve kat edilen bir korunma güzergâhı kurar. 5:36'daki {ar:يَفْتَدُوا۟, tr:yaftadū, gloss:kendilerini fidye ederek kurtarsınlar} ise daha sonraki hesap anında bir nesne uzatarak çıkış arar. Bu karşılaşma, yaşanan yöneliş ile hüküm geldiğinde sunulan malı iki ayrı kurtuluş hareketi olarak görünür kılar. Bu bağlantıda (5:34) ve (5:35)'in katkısı basit bir son tarih formülü kurmak değil, eylemin nesneden önce gelmesine ışık tutmaktır.
+
+Fâtiha'daki sınırlı temaslar günü ve yardımın yönünü iki ayrı katkıyla belirginleştirir. (1:4)'teki {ar:مَٰلِكِ يَوْمِ ٱلدِّينِ, tr:māliki yawmid-dīn, gloss:din gününün sahibi}, 5:36'nın {ar:يَوْمِ ٱلْقِيَٰمَةِ, tr:yawmi'l-qiyāmah, gloss:kıyamet günü} ifadesine günün ilahî sahiplik ve karşılık görme çerçevesini ekler. Gün böylece kronolojik zamanın yanı sıra teklifin hükme bağlandığı değerlendirme anı olarak duyulur; Fâtiha'daki din günü ifadesi bu bağlantıda kıyamet kelimesinin yerini almaz. (1:5)'teki {ar:إِيَّاكَ نَسْتَعِينُ, tr:iyyāka nastaʿīn, gloss:yalnız Senden yardım isteriz} içinde {ar:نَسْتَعِينُ, tr:nastaʿīn, gloss:yardım isteriz} fiili, 5:36'nın {ar:يَفْتَدُوا۟, tr:yaftadū, gloss:kendilerini fidye ederek kurtarsınlar} fiilinin yanına nesne sunma hareketi yerine hitap edilen Rab'den yardım istemeyi koyarak yardım ilişkisinin yönünü gösterir. Birinde kişi kendisi için bir bedel sağlar, diğerinde yardım muhataptan istenir; bu iki eylemin ayrı kalması 5:36'daki öz-fidyenin yönünü açıklığa kavuşturur.
+
+(1:6)'daki {ar:ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ, tr:es-sirāṭal-mustaqīm, gloss:dosdoğru yol} talebi, kıyametteki duruştan önce yaşanan yönelişi görünür kılar. 5:36'nın {ar:ٱلْقِيَٰمَةِ, tr:al-qiyāmati, gloss:kıyamet} taşıdığı diriliş ve hesap anlamı korunurken, dosdoğru yol o duruşun öncesine yerleşen bir güzergâh olarak belirir. Bu bağlantının katkısı, geç vakitte sunulan nesne ile önceden şekillenen yol arasındaki farkı somutlaştırmaktır; kıyamet kelimesine dışarıdan yeni bir sözlük karşılığı yüklenmez.
+
+Reddedilen bedelin açamadığı geçişi, (5:37)'deki ateş sahnesi üç ardışık ayrıntıyla görünür kılar: {ar:يُرِيدُونَ أَن يَخْرُجُوا۟ مِنَ ٱلنَّارِ, tr:yurīdūna an yakhrujū mina'n-nār, gloss:ateşten çıkmak isterler} geçiş arzusunu, hemen ardından gelen {ar:وَمَا هُم بِخَٰرِجِينَ, tr:wa mā hum bi-khārijīn, gloss:çıkamayacaklar} sözü geçişin kapanışını, {ar:مُّقِيمٌ, tr:muqīm, gloss:orada kalan, kalıcı} ifadesi de azabın yerleşik durumunu taşır. 5:36'daki {ar:عَذَابِ, tr:ʿadhābi, gloss:azabın} bu bağlantıda iki yönde duyulur: dışarıya açılmayan ve çıkışı alıkoyan yerleşik bir sonuç olarak, aynı zamanda acı veren bir hüküm olarak. Alıkoyma boyutu acı boyutunu yerinden etmez. Bunun yanında (5:39)'daki {ar:تَابَ مِنۢ بَعْدِ ظُلْمِهِۦ وَأَصْلَحَ, tr:tāba min baʿdi ẓulmihī wa aṣlaḥa, gloss:zulmünden sonra tövbe etti ve ıslah etti} cümlesi, nesne sunmak yerine davranışın değişmesini ve ıslahı ayrı bir dönüş yolu olarak gösterir. Bu temasın kapsamı 5:36'daki grup için bir şart koymak değil, kişinin yerine konan servet ile yön değiştiren eylem arasındaki farkı açıklamaktır.
+
+## Karşılığın Ulaşamadığı Yer
+
+(5:40)'taki hükümranlık ifadesi, 5:36'nın yeryüzü ve miktar imgesine yetki çerçevesi ekler. {ar:مُلْكُ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ, tr:mulku's-samāwāti wa'l-arḍ, gloss:göklerin ve yerin hükümranlığı} ifadesi, 5:36'da devredilebilir bir alan gibi düşünülen yeryüzünün hükmeden makam tarafından zaten kuşatıldığını hatırlatır. {ar:يَفْتَدُوا۟, tr:yaftadū, gloss:kendilerini fidye ederek kurtarsınlar} fiilindeki yerine bedel koyma hareketi, zaten yönetilen şeyi yönetene vererek kurtuluş satın alma düşüncesine bir yetki sınırı getirir. {ar:عَذَابِ, tr:ʿadhābi, gloss:azabın} de (5:40)'taki {ar:يُعَذِّبُهُۥ, tr:yuʿadhdhibuhū, gloss:ona azap verir} fiiliyle karşılaşınca cezanın takdirini elinde tutan makamı görünür kılar. Bu bağlantının kapsamı, eksiksiz miktarın karşısında duran bağlamsal hükümranlık baskısını göstermektir; 5:36'nın fidye sözdizimi bu temasla bir mülkiyet hukuku işlemine çevrilmez.
+
+(5:31)'deki kuzgun anlatısı, 5:36'nın yeryüzü imgesine örtme ve gizleme yönünde sınırlı bir keşifsel yankı verir. {ar:يُوَٰرِيَ, tr:yuwārī, gloss:örtüp gizler} hareketi toprağın, yani {ar:ٱلْأَرْضِ, tr:al-arḍi, gloss:yeryüzü} adının zemin anlamıyla buluşur; açığa çıkmış olanı maddi bir örtüyle kapatma arzusu böylece sahneye yaklaşır. 5:36'daki {ar:كَفَرُوا۟, tr:kafarū, gloss:inkâr ettiler} hâlâ inkâr eden topluluğu adlandırır; (5:31)'deki örtme hareketinin bu bağlantıya katkısı, malın büyütülmüş bir örtü gibi sonuç üstünü kapatmaya yönelmesini düşündürmektir. Bu yerel bağlantı, bu fiili doğrudan "gömmek" anlamına taşımaz. {ar:مِثْلَهُۥ, tr:mithlahu, gloss:onun tam dengi} de miktar bakımından tam eşitlik görevini korur; kuzgundan öğrenilen örtme usulünün büyütülmüş tekrarı gibi duyulması yalnız bu imgesel bağı taşır ve kelimenin anlamını örnek veya ceza sözcüğüne dönüştürmez. Böylece yeryüzü büyüse de açıkta kalan sorumluluğun maddi bir örtüyle gömülemeyeceği görünür olur.
+
+(5:38)'deki kazanılmış fiile bağlı ceza, 5:36'daki bedelin sonuçtan kopamama yönünü görünür kılar. {ar:بِمَا كَسَبَا, tr:bimā kasabā, gloss:kendi kazandıkları şey sebebiyle} ifadesi sonucu kişilerin edindiği fiile bağlar; {ar:كَسَبَا, tr:kasabā, gloss:kazandılar, elde ettiler} bu bağı failin kendi kazanımı üzerinde tutar. 5:36'daki {ar:يَفْتَدُوا۟, tr:yaftadū, gloss:kendilerini fidye ederek kurtarsınlar} sonradan bir bedelle kendini ayırmaya çalışsa da sunulan mal, kişinin kendi fiiline bağlı akıbeti yerinden eden ayrı bir nesne haline gelemez. {ar:مِثْلَهُۥ, tr:mithlahu, gloss:onun tam dengi} ile (5:38)'deki {ar:نَكَالًا, tr:nakālan, gloss:caydırıcı ibret cezası} buluştuğunda, eşdeğer bedelin sonucu başkalarına görünen bir ibret olma niteliğinden ayıramadığını düşündüren ek bir baskı oluşur. Bu bağlantı, 5:38'deki hukuki olayı yeniden kurmadan ve örnek olma yönünü 5:36'daki kelimenin doğrudan karşılığına çevirmeden, kazanılmış fiil ile caydırıcı sonuç arasındaki bağ üzerinden bedelin failin eylemiyle bağlı akıbeti çözemediğini açıklar.
+
+Yargı ve değiş tokuş dili, (5:42) ve (5:44)'te 5:36'daki bedel imgesine ekonomik bir karşılaştırma alanı açar. (5:42)'de {ar:ٱلسُّحْتِ, tr:es-suḥt, gloss:haksız kazanç} ile işaretlenen kazanç, {ar:فَٱحْكُم, tr:faḥkum, gloss:hükmet} ve {ar:بِٱلْقِسْطِ, tr:bi'l-qisṭ, gloss:adaletle} içinde hüküm ilişkisine girer. (5:44)'te {ar:وَلَا تَشْتَرُوا۟ بِـَٔايَٰتِى ثَمَنًۭا قَلِيلًۭا, tr:wa lā tashtarū bi-āyātī thamanan qalīlan, gloss:ayetlerimi küçük bir bedelle değiş tokuş etmeyin} sözü ilahî işaretleri küçük bir karşılıkla değiş tokuş etme baskısını görünür kılar. İlk temas kazancı adaletli hüküm ilişkisine yerleştirir; ikinci temas ilahî işaretlerin küçük bir karşılıkla değiş tokuş edilmesi baskısını görünür kılar. Bu iki bağımsız temas 5:36'daki {ar:يَفْتَدُوا۟, tr:yaftadū, gloss:bedel vererek kurtulmaya çalışmak} taşıyıcısına döndüğünde, iki yeryüzü küçük bedelin büyütülmüş karşılığı gibi görünür; {ar:تُقُبِّلَ, tr:tuqubbila, gloss:uygun bulunup kabul edilmek} hükmü de kabulün satın alınabilirliğini sınayan uç noktayı kurar. Böylece bedel büyüdükçe hükmün bir karşılığa çevrilemediği düşüncesi güçlenir. Bu, (5:42) ve (5:44)'ün açtığı ihtiyatlı yankı olarak kalır; bağlantı âyeti tek bir hukuk kuralına kapatmaz.
+
+(5:45)'teki karşılık ve bağışlama düzeni, 5:36'daki transfer yönünün tersini gösterir. Âyet önce cana canı, göze gözü ve diğer yaraları kendi dengiyle karşılaştırarak hakkın ölçüsünü kurar; ardından {ar:فَمَن تَصَدَّقَ بِهِۦ, tr:faman taṣaddaqa bihī, gloss:kim onu bağışlayıp bırakırsa} geçerli bir karşılıktan vazgeçmeyi ayrı bir eylem olarak açar ve {ar:فَهُوَ كَفَّارَةٌۭ لَّهُۥ, tr:fahuwa kaffāratun lahū, gloss:onun için örtücü bir telafidir} sonucunu buna bağlar. 5:36'daki {ar:كَفَرُوا۟, tr:kafarū, gloss:inkâr ettiler} ise yalın mazi-etken biçimiyle inkâr durumunu bildirir; bu yerel biçim günah yükünü doğrudan örten bir keffaret eylemi olarak çalışmaz. Bununla birlikte kelimenin günah yükünü örtüp giderme yönü, {ar:يَفْتَدُوا۟, tr:yaftadū, gloss:kendilerini fidye ederek kurtarsınlar} ile {ar:تُقُبِّلَ, tr:tuqubbila, gloss:uygun bulunup kabul edilmek} arasındaki başarısız bedel girişiminde karşılaştırmalı bir yankı olarak duyulur. Servetin ikinci bir kefaret örtüsü olarak işlemesi bu yerel bağlantının kapsamına girmez; belirleyici olan mülkiyetin büyüklüğü değil, kabul ilişkisidir. 5:36'da kişi kendi malını kendisini korumak için ortaya koyarken, 5:45'te hakkına sahip olan kişi geçerli karşılıktan vazgeçer. Bu bağlantı 5:45'in sonucunu 5:36'daki inkârcılar için otomatik bir bağışlanma formülüne çevirmeden, iki transfer yönü arasındaki ayrım üzerinden örtme ve bırakma hareketlerini birbirinden ayırır.
+
+Yeryüzünün iki katı, açıkça yinelenen bir sahne olarak (39:47)'de de görünür: {ar:مَا فِى ٱلْأَرْضِ جَمِيعًۭا وَمِثْلَهُۥ مَعَهُۥ, tr:mā fi'l-arḍi jamīʿan wa mithlahu maʿahu, gloss:yeryüzünün tamamı ve onun bir katı} ile {ar:لَٱفْتَدَوْا۟, tr:laftadū, gloss:kurtulmak için bedel vermek} aynı kıyamet sahnesinde yeniden kurulur. Bu tekrar, 5:36'daki kabul eşiğinin açtığı anlamı genişletir: aşırı niceliği tekil bir sayı gösterisinden çok, kurtuluşu satın almaya çalışıp hükmün sonucunu değiştiremeyen tanınabilir bir sahne olarak duyurur. Bağlantının dayanağı yeryüzü, denklik, fidye ve kıyamet düzeninin açık tekrarlarıdır; bu tekrar düzeni aynı zamanda bağlantının kapsamını belirler. İki âyetin bütün kelime biçimleri için ayrıca bir anlam hükmü kurulmaz. 5:36'daki fidye ve kabul hareketi, bu tekrarla birlikte miktarın değil, kurtuluş işleminin sınırını daha belirgin taşır.
+
+Toplamlığın nesnesi (5:48)'de değişir ve bu değişim 5:36'daki mal ile kişi arasındaki ayrımı görünür kılar. {ar:مَرْجِعُكُمْ, tr:marjiʿukum, gloss:dönüşünüz} insanların Allah'a dönüşünü bildirir ve hemen ardından {ar:جَمِيعًا, tr:jamīʿan, gloss:hep birlikte} gelir. 5:36'da {ar:ٱلْأَرْضِ, tr:al-arḍi, gloss:yeryüzü} ile {ar:يَفْتَدُوا۟, tr:yaftadū, gloss:bedel vererek kurtulmaya çalışmak} malı kişilerin yerine koyan bir toplam kurarken, (5:48)'deki dönüş dili hesap verecek insanları birlikte toplar. Aynı tamlık baskısı burada yeryüzündeki her şeyi yığmanın hüküm önüne dönen kişilerin yerini tutmadığını görünür kılar. Bu bağlantı, her {ar:جَمِيعًا, tr:jamīʿan, gloss:hep birlikte} kullanımına ayrıca tasarlanmış bir anlam yüklemez; kapsamı maddi malların toplamı ile insanların birlikte dönüşü arasındaki bu somut karşılaşmadır.
+
+## Kabul Edilmeyen Teklif
+
+Uzun varsayım, iki dünya büyüklüğündeki bedel ve bu karşılaştırmalar kurulduktan sonra cümle kısa cevabına döner. Başta her şeyi açan {ar:مَّا, tr:mā, gloss:yeryüzünde ne varsa} ile aynı sesli son {ar:مَا, tr:mā, gloss:değil} karşılaşır: ilk kelime toplam alanı açmış, ikincisi kabul kapısını kapatmıştır. {ar:تُقُبِّلَ, tr:tuqubbila, gloss:kabul edildi} Form II mazi-edilgen biçimiyle teklifin kabul edilmediğini bildirir. Edilgenlik kabul eden veya reddeden faili cümlede adlandırmadan sonucu bir fiyat değerlendirmesinden daha kesin bir hüküm olarak öne çıkarır; teklifin kaynağı ise biraz sonra {ar:مِنْهُمْ, tr:minhum, gloss:onlardan} ile belirginleşecektir. Aynı kelimede karşılayıp alma, uygun bulma ve yüz çevirme yönleri duyulabilir; bu cümlede {ar:مَا, tr:mā, gloss:değil} seçimi, fiziksel yüz çevirmeden sunulan şeyin uygun bulunmaması yönünü öne çıkarır. Fiilin çiftlenen orta sessizleri de olumsuzluk altında kabulün sıkıca kapanan sesini taşır. Etken bir biçim kabul eden failin eylemini öne çıkarabilirdi; seçilen edilgen biçim odağı reddedilen teklif üzerinde bırakır.
+
+Bu reddin kaynağı {ar:مِنْهُمْ, tr:minhum, gloss:onlardan} ile teklif sahiplerine döner. Aynı {ar:مِنْ, tr:min, gloss:-den} edatı cümlenin başında azaptan uzaklaşma yönünü kurmuş, şimdi ekli biçimde hareketi inkârcıların sunduğu kaynağa geri bağlamıştır. Bu dönüş, teklifin doğrudan bu topluluktan geldiğini ve kabul eşiğini geçemediğini görünür kılar; sınır ödeme miktarından çok kaynak ile kabul ilişkisinde belirir. Ardından gelen {ar:وَ, tr:wa, gloss:ve} çöken varsayımdan gerçek ve ilan edilmiş duruma geçişi başlatır; bu cümledeki işlevi yeni bir mal eklemekten çok bu geçişi kurmaktır. Sonucun sahibi {ar:لَهُمْ, tr:lahum, gloss:onlarındır} ile cezadan önce öne alınır. Başlangıçta {ar:لَ, tr:la, gloss:onlara ait olsaydı} ile onlara ait olduğu varsayılan servet, şimdi aynı sahiplik dili içinde gerçek sonuç olarak geri döner.
+
+Sonucun içeriği {ar:عَذَابٌ, tr:ʿadhābun, gloss:bir azap} ile en sona bırakılır. Bu kelime, öne alınmış sahiplik öbeğinden sonra gelen gecikmiş, merfu ve belirsiz özne olarak payın ne olduğunu açar. Önceki {ar:عَذَابِ, tr:ʿadhābi, gloss:azabın} tamlamasında belirli kıyamet gününe bağlanan azaptan farklı olarak burada belirli bir Gün zincirine bağlı olmayan, daha geniş ve açık uçlu bir sonuç alanı kurar. Bu sonucun alıkoyma yönü başarısız çıkışta, acı yönü ise son sıfatta belirginleşir; iki yön birlikte, erişilemeyen çıkışı ve yaşanan cezayı aynı sahnede tutar.
+
+Bu cezayı {ar:أَلِيمٌۭ, tr:alīmun, gloss:acı verici} niteler. Faʿīl kalıbı acı veren ve acısı çekilen kuvveti birlikte duyurabilse de yerel dilbilgisi onu azabı niteleyen sıfat olarak tutar. İki belirsiz merfu sonluğun tenvinli sesi, fidye için toplanmış kapalı bütünlüğü şimdi acı veren sonuçla mühürler. Ayetin son kelimesi, kabul edilmeyen bedelin yerine geçen hükmü mevcut bir azap olarak belirler ve onu acı taşıyan, acı yaşatan bir sonuç olarak kulağa bırakır.
+
+</editorial_prose>

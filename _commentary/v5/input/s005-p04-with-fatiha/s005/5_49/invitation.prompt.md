@@ -1,0 +1,185 @@
+# V5 reading invitation — 5:49
+
+You are a fresh reading-invitation writer. Read the complete editorial prose
+before writing. It is your sole semantic source.
+
+Write two to four paragraphs of fluent, contemporary Turkish that reveal a
+surprising reading by following one or two main channels of resonance in the
+ayah. A channel is a connected background of meanings, images, actions, or
+relations through which the ayah can be heard and understood differently.
+Several editorial findings may together develop one channel. Summarize that
+connected movement and its consequence for the ayah's main meaning, rather
+than compressing findings individually. Give the reading's substance now;
+the invitation comes from understanding it, not from a promise of hidden depth.
+
+Before drafting, read the entire editorial prose and silently select the one
+or two channels with the strongest interpretive consequence and enough
+grounding to explain clearly. Favor channels that expand or shift what the
+ayah says, the relation it establishes, or what is at stake in its action or
+image. One fully developed channel is sufficient; add a second only when it
+offers a distinct consequential reading that can be explained within the
+invitation. No finding, channel, or major shift has an individual coverage
+claim. Unselected material may remain entirely in the full commentary.
+
+A channel may develop through grammar, sound, dialogue, a material process,
+time, imagery, or a conceptual relation. Resonance is not limited to acoustic
+effects, and an unusual image alone does not establish a channel. Use only
+connections the editorial prose actually develops. If it supplies no such
+channel, explain its strongest grounded reading without inventing connections
+or surprise.
+
+Begin inside the ayah's own words, images, actions, or relations and reveal a
+selected distinctive reading in the first paragraph. Keep the plain meaning
+reachable with only the orientation needed to understand the change. Do not
+spend an opening paragraph on routine explanation or front-load context about
+the surah, the ayah's position, or the commentary project.
+
+For each selected channel, begin with the expression that opens it, unfold the
+connected background, and show how the ayah reads or sounds against that
+background. Let a detail lead into the next through an intelligible relation
+or process, so the reader experiences the emerging reading. This is a movement
+of thought, not a mandatory sentence pattern or one paragraph per finding.
+Let the reader identify the expression being interpreted,
+where any nonordinary detail comes from, and what that detail changes in the
+reading. Briefly identify the word-family use, restricted form, collocation, or
+context that supplies an essential added detail, and preserve the concrete
+operation that makes the image work. Keep the ordinary reading and necessary
+qualification clear within this explanation; do not repeat them as a fixed
+formula. Preserve the particular object, process, or relation that makes this
+reading distinctive, and state its interpretive consequence for the ayah as a
+whole. Make intelligible what the familiar reading leaves less visible and
+what the expanded or shifted reading now lets the reader understand. Preserve
+the editorial's force: an exploratory possibility remains possible, while a
+developed shift must not be softened into a decorative association or a
+reassurance that everything means the same thing. A concrete
+account of how something is carried, transformed, lost, or restored must not
+shrink to a general statement about care, guidance, dependence, or goodness.
+Keep the details needed to make the selected channel work; omit side findings
+and shorten routine setup. If a channel cannot be explained faithfully from
+the editorial prose, choose another grounded channel or reading.
+
+When a non-focus ayah supplies a contribution used in the invitation, keep its
+reference from the editorial prose beside that contribution.
+
+Do not turn the invitation into a miniature inventory of the commentary's
+conclusions, or flatten distinct channels into a broad theme to include more
+material. Do not repair, extend, or supplement the editorial prose from memory
+or outside knowledge.
+
+Omit technical apparatus. Retain any qualification, source distinction, live
+alternative, or boundary whose absence would change the force or meaning of a
+chosen reading. Express it naturally beside the image or relation it qualifies.
+Favor positive explanations of the relation between layers: what remains in
+the foreground and what the resonance makes audible in the background. State
+how that background reinforces, expands, or shifts the understanding of the
+main meaning, with the source and degree of certainty clear. Reserve explicit
+exclusions for concrete ambiguities or live counter-evidence that need them.
+Repeated "this is not X" endings make a reading sound withdrawn; express the
+substantive qualification through what the reading does contribute wherever
+possible. Use varied, natural language rather than a repeated "second layer"
+formula, and preserve the force of expansions and shifts.
+Do not name branches, candidates, findings, scopes, evidence categories,
+ledgers, or workflow stages, or label the prose as numbered channels. Do not
+list findings serially.
+
+Use the established `{ar:..., tr:..., gloss:...}` syntax, consistent
+Turkish-readable transliteration, and short ordinary glosses. Keep Arabic
+anchors beside the explanations they ground. Within a paragraph, continue with
+the Turkish meaning where clear; provide the necessary local tag when a later
+paragraph interprets the carrier anew. Do not place Arabic script outside a
+valid tag.
+
+Build transitions within a channel through its shared object, action, or
+relation. If two channels are selected, they may occupy separate paragraphs;
+do not invent a link between them. Do not praise the commentary's quality,
+promise what the reader will find, manufacture suspense, recap at the end, or
+add a call to action. End on an image, relation, action, or tension already
+established by the selected reading.
+
+Before finishing, compare the invitation with the entire editorial prose:
+does the chosen channel reveal a consequential reading, or could the text have
+been written from the ordinary translation and a modest explanation alone?
+When the editorial supports a surprising channel, the latter fails this task.
+Can the reader follow the opening expression into a connected background and
+understand how that background expands or shifts the ayah's main meaning?
+Check the selected connections against their editorial explanation: can the
+reader tell where the nonordinary details come from, with the necessary
+qualifications intact? Repair generic explanation, isolated curiosities, or a
+compressed findings list by developing the selected channel. Do not add
+omitted channels merely for coverage. Do not output this check.
+
+Write only the invitation text to:
+
+`_commentary/v5/editorial/s005-p04-with-fatiha/s005/5_49/5_49.invitation.tr.md`
+
+Do not add a heading, wrapper label, index, ledger, evidence file, or any other
+artifact. Do not modify the editorial prose.
+
+After writing the invitation, run:
+
+```bash
+python3 _commentary/v5/validate_prose.py _commentary/v5/editorial/s005-p04-with-fatiha/s005/5_49/5_49.invitation.tr.md
+```
+
+If validation fails, repair only the reported mechanical file-contract issues
+and rerun it, for at most two repair cycles. Report the final validator result
+in your response.
+
+<editorial_prose>
+Ayetin açık sahnesi şudur: taraflar arasındaki uyuşmazlıkta Allah'ın indirdiğiyle hüküm verilecek, onların arzularının peşinden gidilmeyecek ve vahyedilenin bir bölümünden uzaklaştırma girişimine karşı dikkatli olunacaktır. Yüz çevirirlerse Allah'ın kendi günahları sebebiyle onlara bir sıkıntı vermeyi dilediği bilinecek; son cümle bu özel karşılaşmadan insanlara açılacak ve insanların çoğunun yoldan çıktığını bildirecektir.
+
+## Hükmün Alanı
+
+Bu sahne ayet içinde kendiliğinden başlamaz. Başındaki {ar:وَ, tr:wa, gloss:ve}, (5:48)'deki hukukî hitabı taşır; böylece bu ayet kopuk bir öğüt değil, aynı yükümlülüğün devamı olarak duyulur. Hemen ardından gelen {ar:أَنِ, tr:ani, gloss:-mesini}, alt cümleyi önceki söz edimine bağlar ve “hükmet” emrini yeni bir konu değil, taşınan talimatın fiilî karşılığı hâline getirir. Bu parçacığın dammeli okuyuşunda duyulan “wa-anu” sesi de bağlayıcı akışı öne çıkarır; ses ayrımı, emrin bu yakın sözdizimindeki işlevi içinde kalır. {ar:ٱحْكُم, tr:uḥkum, gloss:hükmet} emri, (5:48)'deki yargı dilini uygulanabilir bir göreve çevirir: şimdi hükmet. {ar:ٱحْكُم بَيْنَهُم, tr:uḥkum baynahum, gloss:aralarında hükmet} kalıbının (5:42, 5:48, 5:49)'da yinelenmesi, yargı sahnelerini aynı çağrı altında toplar; arabuluculuk teklifinden bağlayıcı karara doğru artan bir aciliyet hissi bu yakın tekrarın içinden doğar.
+
+{ar:ٱحْكُم, tr:uḥkum, gloss:hükmet} karar veren hâkim ve hakem ağırlığı taşıyan bir işi bildirir. Doğrudan nesnesi açık bırakılan emir, {ar:بَيْنَهُم, tr:baynahum, gloss:aralarında} ile icra sahasını bulur: karar soyut bir ilke olarak değil, tarafların arasında uygulanır. {ar:بَيْنَهُم, tr:baynahum, gloss:aralarında} içindeki tekil aralık bildiren {ar:بَيْنَ, tr:bayna, gloss:arasında} ile çoğul “onlar” eki, tek bir karar alanını birçok tarafın arasına açar. Kelime hem fizikî bir ara bölgeyi hem de ayrımı mümkün kılan sosyal açıklığı duyurur. Bu alanın ileride {ar:بَعْضِ, tr:baʿḍi, gloss:bir kısmı} ile seçilmiş bir parçaya daralması, ayetin uyuşmazlık sahnesinden sınırlı bir kesite doğru ilerleyen mekânsal hareketini hazırlamaya başlar. Tarafların arasında hükmetmek, kararın onların tercihine bırakılması anlamına gelmez.
+
+Hükmün dayanağı {ar:بِ, tr:bi, gloss:ile} edatıyla belirtilir: {ar:بِمَآ أَنزَلَ ٱللَّهُ, tr:bi-mā anzala llāhu, gloss:Allah'ın indirdiğiyle}. Buradaki {ar:بِ, tr:bi, gloss:ile}, vahyi yalnız hükmün konusu değil, hükmetmenin vasıtası ve ölçütü yapar. Ayetin ilerleyen kısmında yeniden görünen aynı küçük biçim, ilk kullanımda hükmün temelini, ikinci kullanımda ise sonucun ilişkilendirildiği vasıtayı göstererek ölçüden karşılığa uzanan bir çizgi kurar. {ar:مَآ, tr:mā, gloss:şey ki}, “Allah'ın indirdiği her ne ise” diyerek içeriği tek bir dava dosyasına kapatmaz; belirli hüküm ile vahyin bütünü arasında açık bir alan bırakır. Bu açıklık, hüküm ölçütünün Allah'ın indirdiği şey olarak geniş kalmasını sağlar.
+
+{ar:أَنزَلَ, tr:anzala, gloss:indirdi} dördüncü kalıptaki tamamlanmış fiildir: vahiy tartışma sırasında üretilen bir öneri değil, Allah tarafından zaten ulaştırılmış bir ölçüdür. İndirme, bir yere yerleştirme, ulaştırma ve teslim edilmiş bir pay sağlama çağrışımları bu geçmiş biçim üzerinde toplanır; hüküm veren kişi hazır bulunan ölçüyü uygular. Fiilin açık öznesi {ar:ٱللَّهُ, tr:Allāhu, gloss:Allah} adıdır. Bu ad, vahyin kaynağını ve hüküm alanındaki ilahî yetki merkezini görünür kılar; aynı zamanda ibadet ve haşyet ufkunu taşır, fakat gramerdeki göndereni değiştirmez. Ayette Allah'ın adı üç kez görünür: ölçünün kaynağı, peygambere ulaştırılan içeriğin göndericisi ve en sonunda karşılığın iradesinin sahibi olarak.
+
+Bu indirilmiş ölçü, farklı toplulukların yollarını kendi yerinde tutan korunmuş bir emanet düzeni olarak duyulur. (5:44)'teki {ar:ٱسْتُحْفِظُوا۟, tr:ustuhfiẓû, gloss:korumaları kendilerine emanet edildi} gözetim ve emanet görüntüsü, {ar:ٱللَّهُ, tr:Allāhu, gloss:Allah} tarafından indirileni özel mülk değil korunması gereken bir yükümlülük hâline getirir. (5:48)'deki {ar:مُهَيْمِنًا, tr:muheyminen, gloss:gözetip denetleyen}, mevcut hükmün önceki vahiy karşısında denetleyici bir sorumluluk taşıdığını hatırlatır. Aynı ayetteki {ar:شِرْعَةًۭ, tr:şirʿaten, gloss:suya açılan yol ve verilmiş yöntem} ve {ar:مِنْهَاجًۭا, tr:minhācen, gloss:açık güzergâh}, farklı topluluklara verilmiş yolların kendi yerlerinde izlenebilir kalabileceğini açar. Bu imgeler birlikte, sadakati yolları tek biçime sıkıştırmak yerine verilmiş ölçüyü yerinden oynatmadan taşımak olarak derinleştirir; bu bağlantıdan ayrıca bütün yolları düzenleyen bir hukuk teorisi çıkarılmaz. (5:81)'deki benzer toplumsal teşhis de Allah adının hüküm ve vahiy çerçevesindeki yankısını destekler; bu bağlantı ortak hukukî çerçevenin sınırları içinde kalır.
+
+İlk emri sürdüren {ar:وَ, tr:wa, gloss:ve}, hüküm verme ile ona karşı çalışabilecek hareketi aynı yükümlülük içinde birleştirir. {ar:لَا, tr:lā, gloss:uyma}, şimdi ve doğrudan yerine getirilecek yasağı kurar. Yasak altındaki meczum geniş zaman fiili {ar:تَتَّبِعْ, tr:tattabiʿ, gloss:peşinden git}, geçmişte kalmış bir hatayı değil peygambere yöneltilen canlı eylemi gösterir. Yazı ve tilavetteki ikizleşme, peşinden gitme hareketini sıkılaştırır; kelime fizikî olarak arkasından yürüme, zihnen izleme ve sonunda tâbi olma anlamlarını aynı yönde toplar. Böylece onların arzularına uymamak, başka bir ölçütün arkasına düşmeme görevi olarak belirginleşir.
+
+Bu başka ölçüt {ar:أَهْوَاءَهُمْ, tr:ahwā'ahum, gloss:onların arzuları}dır. {ar:أَهْوَاءَ, tr:ahwāʾ, gloss:arzular} kırık çoğul biçimi tek bir rakip tercihten çok dağınık ve değişken çekimleri, sonundaki {ar:هُمْ, tr:hum, gloss:onların} eki ise bu çekimleri belirli kişilere ait kılar. Yakın gramer istek ve tercih anlamını öne çıkarırken hava gibi savrulma ve aşağı düşme çağrışımı bu anlamı renklendirir. {ar:أَهْوَاءَهُمْ, tr:ahwā'ahum, gloss:onların arzuları} ile {ar:أَنزَلَ, tr:anzala, gloss:indirdi} yan yana geldiğinde iki yönlü bir hareket duyulur: vahiy yukarıdan indirilir, arzu ölçüyü aşağı doğru çeker. Bu yön görüntüsü ayetin kendi kelime temasına aittir; ayetin dışına taşan bir kozmoloji iddiası kurmaz. (5:48)'deki aynı uyarı ile (2:120, 2:145, 4:135, 6:56, 5:77)'deki benzer yasaklar, {ar:تَتَّبِعْ, tr:tattabiʿ, gloss:peşinden git} fiilinin burada sırf katılmaktan daha yoğun bir teslimiyet hareketi taşıdığını hatırlatır. {ar:أَنزَلَ, tr:anzala, gloss:indirdi}, {ar:أَهْوَاءَهُمْ, tr:ahwā'ahum, gloss:onların arzuları} ve ilerideki {ar:يُصِيبَهُم, tr:yuṣībahum, gloss:onlara isabet ettirmesi} birlikte düşünüldüğünde ayetin hareketi indirilmiş ölçüden aşağı çeken eğilime, oradan belirli bir hedefe erişen sonuca uzanır.
+
+Arzunun hükme karşı işi son talebin dile getirilmesinden önce başlayabilir. Kardeşini öldürme anlatısındaki benlik, yasak işi kendisi için kolaylaştıran bir ön harekete yönelir (5:30); bu bağlantı, {ar:أَهْوَاءَهُمْ, tr:ahwā'ahum, gloss:onların arzuları} kelimesindeki içsel yönelişle buluştuğunda isteğin yanlış seçeneği çekici ve uygulanabilir hâle getiren bir yumuşatma hareketini görünür kılar. Aynı anlatı yalnız içsel failin hareketini açıklayan bir okuma olarak da kalabilir; odak ayetle kurulan daha geniş bağlantı bu ihtimali açık tutar. Buna karşı {ar:ٱحْكُم, tr:uḥkum, gloss:hükmet} kelimesinin zapt ve dizginleme çağrışımı gelir: hayvanın denetimsiz ilerlemesini sınırlayan gem gibi hüküm, kolaylaştırılmış seçeneğin önünde karşı kuvvet olur. Ayetin açık buyruğu bu somut yüzle birlikte, arzunun yönünü daha başında sınırlayan bir işlem olarak duyulur.
+
+Arzu, yakın bağlamda bir topluluğu kendini korumaya yönelten ittifak baskısına da dönüşür. (5:51)'deki {ar:أَوْلِيَآءَ, tr:awliyāʾ, gloss:yakın durup destek olanlar} ve karşılıklı bağlılık dili, {ar:أَهْوَاءَهُمْ, tr:ahwā'ahum, gloss:onların arzuları} etrafında hükme yön verebilecek bir destek ağı düşündürür. Aynı yerdeki {ar:بَعْضُهُمْ, tr:baʿḍuhum, gloss:onların bir kısmı} tekrarı ve parçaların birbirini tutması, baskının hem bir blok hem de seçilmiş bir dilim biçimi kazanmasına izin verir. (5:52)'deki {ar:مَرَضٌۭ, tr:maraḍ, gloss:iç zayıflık}, {ar:دَآئِرَةٌۭ, tr:dāʾira, gloss:dönüp gelecek talih değişimi} ve {ar:أَسَرُّوا۟, tr:asarrū, gloss:içlerinde gizlediler} ifadeleri bu tercihi güçsüz bir konumun telafisi, korkulan talih dönüşüne karşı güvence arayışı ve açık iddia yerine gizli bağlılık olarak renklendirir. Bu okuma, ittifak ve talih dönüşü korkusunun odaktaki uyarıyla temasından doğar; aktörlerin özdeşliği ve her arzunun bu biçimde işlemesi bu bağlantının kapsamı dışındadır.
+
+## Baskının Yaklaşması
+
+Bu emir, hüküm ve direnme buyruğunun ölçüsünü baskıya karşı faal uyanıklıkla tamamlar: {ar:وَٱحْذَرْهُمْ, tr:iḥdharhum, gloss:onlardan sakın}, üçüncü talimatı kurar. Buradaki {ar:هُمْ, tr:hum, gloss:onlardan} eki, {ar:بَيْنَهُم, tr:baynahum, gloss:aralarında} ve {ar:أَهْوَاءَهُمْ, tr:ahwā'ahum, gloss:onların arzuları} içindeki aynı çoğul gruba döner; dikkat soyut bir yanlışa değil, uyuşmazlığın tarafı olan kişilere yönelir. {ar:ٱحْذَرْ, tr:iḥdhar, gloss:sakın}, arzuyu reddetmenin ardından baskının hamlesini gözeten faal bir korunma emridir. Hemen arkasındaki {ar:أَن, tr:an, gloss:-mesinler diye}, sakınılacak içeriği geleceğe ve ihtimale bağlar. {ar:يَفْتِنُوكَ, tr:yaftinūka, gloss:seni saptırmaları}, çoğul “onlar” failini tekil “seni” nesnesine bağlar; birçok kişinin bir kişiyi yönünden çevirmeye çalışması ihtimal olarak korunur.
+
+{ar:يَفْتِنُوكَ, tr:yaftinūka, gloss:seni saptırmaları} olağan anlamıyla saptırma ve sınama hareketini taşır; ateşte eriterek niteliği ortaya çıkarma çağrışımı sınamanın açığa çıkarıcı yönünü, baştan çıkarma ve bölme çağrışımları ise baskının saptırıcı ve ayırıcı yönünü somutlaştırır. Sürtünmeli ve kesintili ses dizisi de hamlenin sertliğini duyurur. (5:41)'de Allah'ın birini sınaması ilahî sınamanın durumu açığa çıkaran yönünü, bu ayette insanların peygamberi saptırmaya çalışması ise vahiyden uzaklaştıran insan baskısını gösterir. (5:48)'deki {ar:يَبْلُوَ, tr:yeblū, gloss:sınayarak durumu açığa çıkarır} ile ayetteki {ar:يَفْتِنُوكَ, tr:yaftinūka, gloss:seni saptırmaları} arasındaki temas, toplulukların kendilerine verileni nasıl taşıdığını açığa çıkaran sınamayla, hükmü taşıyan kişiyi yerinden oynatmaya çalışan baskıyı iki ayrı sınama olarak birlikte görmeyi sağlar. Her ikisinin ölçü noktası Allah'ın indirdiğidir.
+
+Bu uyanıklık, hükmün ölçüsünü insan korkusundan ayırır ve baskı hamlesini fark etme yetisi kazandırır. (5:44)'teki {ar:فَلَا تَخْشَوْا۟, tr:fe-lā tahshaw, gloss:insanlardan korkmayın} ve {ar:وَٱخْشَوْنِ, tr:wa-khshawni, gloss:benden korkun} karşıtlığı, insanlara verilen korku yetkisiyle tehlikeye karşı dikkat arasında ayrım kurar. (5:54)'teki {ar:يَخَافُ, tr:yakhāfu, gloss:korkar}, beklenen zarardan ürkmeyi; {ar:لَوْمَةَ لَائِمٍۢ, tr:lawmata lāʾim, gloss:kınayanın kınaması} ise sosyal kınanma baskısını gösterir. Bunlar {ar:ٱحْذَرْهُمْ, tr:iḥdharhum, gloss:onlardan sakın} ile buluştuğunda sakınma, sosyal korkuyu hükmün ölçüsü yapmadan ölçüyü yerinden oynatacak hamleyi izleme biçimini alır. Farklı muhatap ve tehlikeler arasındaki ayrım bu uyanıklığın içinde korunur.
+
+Fitnenin yönü {ar:عَنۢ, tr:ʿan, gloss:-den uzaklaştırarak} edatıyla belirlenir: hareket Allah'ın indirdiğinden uzağa doğrudur; edat ayrılmanın kaynağını gösterir ve bu bağlantı içinde yeni bir hedef belirlemez. Ardından gelen ilk {ar:بَعْضِ, tr:baʿḍi, gloss:bir kısmı}, tehdidi vahyin içinden seçilmiş bir bölüme yöneltilen kısmi uzaklaştırma girişimi olarak çerçeveler; bu bağlantı tam kopuş hükmü kurmaz. {ar:مَآ أَنزَلَ ٱللَّهُ إِلَيْكَ, tr:mā anzala llāhu ilayka, gloss:Allah'ın sana indirdiği şey} ifadesindeki ikinci {ar:مَآ, tr:mā, gloss:şey ki}, ilk hüküm ölçütünü yeniden açar; ikinci {ar:أَنزَلَ, tr:anzala, gloss:indirdi} tamamlanmış gönderme eylemini, ikinci {ar:ٱللَّهُ, tr:Allāhu, gloss:Allah} aynı ilahî kaynağı korur. {ar:إِلَيْكَ, tr:ilayka, gloss:sana} yönü peygambere daraltır: söz konusu olan, Allah'ın ona ulaştırdığı ve bu hitapta korunması gereken içeriktir. Böylece ayetin iki yanında iki vahiy çıpası kurulur; ilki hüküm ölçüsünü, ikincisi o ölçüden uzaklaştırılmak istenen malzemeyi adlandırır.
+
+Seçilmiş parçanın baskı içindeki işleyişi, (5:41)'deki yerinden oynatma ve alma, (5:42)'deki hüküm merciine başvurma ve (5:43)'teki hükümden sonra dönme görüntülerinin birbirine eklenmesiyle belirginleşir. (5:41)'de {ar:يُحَرِّفُونَ, tr:yuḥarrifūna, gloss:sözleri saptırırlar} kelimenin yerinden oynatılmasını, {ar:مَوَاضِعِهِۦ, tr:mawāḍiʿihi, gloss:yerleri} ise şeyin ait olduğu konumu taşır; odaktaki {ar:يَفْتِنُوكَ, tr:yaftinūka, gloss:seni saptırmaları} ile birleştiğinde saptırma, ölçüyü yerinden oynatma hareketi olarak da görünür. Aynı ayetteki {ar:فَخُذُوهُ, tr:fakhudhūhu, gloss:onu alın} alma eylemiyle {ar:بَعْضِ, tr:baʿḍi, gloss:bir kısmı} buluşunca, aranan hükmün bütünden seçilip alınan bir dilim gibi kurulabileceği duyulur. (5:42)'de hüküm merciine başvurma, (5:43)'te ise mevcut hükümden sonra dönme sahnesi vardır. Bu sahneler ayetle buluştuğunda baskı, hükmün bütününü açıkça reddetmekten önce uyumlu görünen bir parçayı seçilmiş bir forumdan çıkarma girişimi olarak okunabilir. Bu sahnelerin aktörleri bu bağlantı içinde özdeşleştirilmez; ayetin açık zemini yine Allah'ın indirdiğiyle hükmetme çağrısıdır.
+
+{ar:بَعْضِ, tr:baʿḍi, gloss:bir kısmı} seçimin ahlâkî ölçüsünü, yani bütün içinden alınan payı taşır. Vahyin bir bölümünden uzaklaştırma ile sonuç cümlesinde günahlardan bir bölümünün karşılık bulması, aynı biçimin ayetin iki ucunda cevaplaşmasına imkân verir: kısmi uzaklaştırma, kısmi bir karşılıkla yankılanır. Bu iki kullanım tam bir oran vermez; her iki hareketin de bütün yerine seçilmiş bir kesitle kurulduğunu gösterir. Bağlı bulunduğu sözlük kullanımında sivrisineğin küçüklüğü ve ısırarak verdiği zarar görüntüsü de bu kelimeye temas eder. (5:41)'deki yerinden saptırma sahnesiyle birleştiğinde çok küçük bir parça bile orantısız biçimde can yakabilir; küçük bir yerinden oynatma etkisiz bir kırıntı olarak kalmaz. Sivrisinek imgesi, küçük parçanın etkisini somutlaştıran keşifsel bir madde benzetmesidir; {ar:بَعْضِ, tr:baʿḍi, gloss:bir kısmı}nın olağan parça anlamını devralmaz ve bu yerel temasla sınırlı kalır.
+
+## Dönüşten Bilgiye
+
+Uyarı tamamlandığında ayet koşula döner. {ar:فَ, tr:fa, gloss:öyleyse}, sakınma emrinden karşı tarafın tavrına göre yapılacak değerlendirmeye geçişi kurar; {ar:إِن, tr:in, gloss:eğer}, yüz çevirmeyi açık bir ihtimal olarak tutar ve eylemi peşinen olmuş bitmiş saymaz. {ar:تَوَلَّوْا۟, tr:tawallaw, gloss:yüz çevirirlerse} tamamlanmış çoğul fiille eylemi “onlar”a verir. Kelime fizikî olarak dönüp uzaklaşmayı, bir bağın yönünü tersine çevirmeyi ve bir işi üstlenmeyi aynı sözlük alanında tutar; bu cümlede yakın anlam yüz çevirmedir. İkizleşmiş ses, koşuldaki kopuşu kararlı duyurur. (5:43)'teki hükümden sonra dönme sahnesi, (5:42)'deki {ar:أَعْرِضْ, tr:aʿriḍ, gloss:yüz çevirip uzaklaş} ve {ar:تُعْرِضْ, tr:tuʿriḍ, gloss:uzaklaşırsan} biçimleriyle birlikte düşünüldüğünde sonuç alınmadığında forumu zorla sürdürmeme ihtimalini ayetin koşuluna taşır; bu bağlantı yalnız bu sonuca ulaşılmayan sahne için geçerlidir ve her durumda zorunlu bir çekilme kuralı kurmaz.
+
+Koşulun cevabını açan ikinci {ar:فَ, tr:fa, gloss:öyleyse}, dışarıdaki reddi muhatabın iç bilgisine çevirir: {ar:فَٱعْلَمْ, tr:faʿlam, gloss:öyleyse bil}. {ar:ٱعْلَمْ, tr:ʿlam, gloss:bil} yalın emirdir; doğrudan bir isim nesnesi almaz, bilmenin içeriğini ardından gelen {ar:أَنَّمَا, tr:annamā, gloss:ancak ... olduğunu} cümlesi sağlar. Böylece yüz çevirme karşısında ilk görev ilahî niyeti kavramaktır; yeni bir tartışmayı zorlamak bu bağlantının dışındadır. (5:41)'de başkasının akıbeti üzerinde sahiplik reddedilir; (5:42)'de karşı tarafın çekilmesinin zarar vermediği söylenir; (5:50)'de {ar:ٱلْجَاهِلِيَّةِ, tr:al-jāhiliyya, gloss:bilgisiz ve kararsız hüküm} ile {ar:يُوقِنُونَ, tr:yūqinūna, gloss:kesin olarak bilirler} karşılaştırılır. Bu bağlamlar {ar:تَوَلَّوْا۟, tr:tawallaw, gloss:yüz çevirirlerse} sonrasında hâkimin rolünü sınırlar: hüküm sadakatle verilir, karşı tarafın kabulü hâkimin mülkü değildir; kabul bitince peşinden gitmek yerine neyin açığa çıktığını bilmek gerekir. {ar:فَٱعْلَمْ, tr:faʿlam, gloss:öyleyse bil} kalıbı, (5:92)'deki benzer şarttan bilgiye geçişi de hatırlatır.
+
+{ar:أَنَّمَا, tr:annamā, gloss:ancak ... olduğunu} bilmenin içeriğini sınırlı ve belirli tutar. Bitişik tek parçacık olarak “ancak ... olduğunu” diye okunabilir; {ar:أَنَّ مَا, tr:anna mā, gloss:... olan şeyi} diye ayrıştırıldığında ise “... olan şeyi” yapısı öne çıkar. Bu iki biçimsel seçenek, sonraki cümlenin Allah'ın niyetini bildirdiği gerçeğini birlikte korur. Böylece anlam tek bir dilbilgisel karara zorlanmadan, yüz çevirmenin ardından gelen açıklamaya bağlanır. Konu insanın ne yaptığından Allah'ın neyi murat ettiğine döner. {ar:يُرِيدُ, tr:yurīdu, gloss:murad eder} geniş zaman biçiminde etkin bir isteme, amaç edinme ve hedefe yönelme hareketi taşır; irade cümlede çalışan bir tasarruf olarak görünür. Bu fiilin öznesi üçüncü {ar:ٱللَّهُ, tr:Allāhu, gloss:Allah} adıdır. Böylece kaynak, peygambere ulaştırma ve karşılık iradesi aynı ilahî fail altında bağlanır.
+
+İlahî istemenin neye yöneldiğini ikinci {ar:أَن, tr:an, gloss:-mesini} açar: {ar:أَن يُصِيبَهُم, tr:an yuṣībahum, gloss:onlara isabet ettirmesi}. {ar:يُصِيبَهُم, tr:yuṣībahum, gloss:onlara isabet ettirmesi} hedefe vurma, bir yere erişme ve doğru noktaya denk gelme alanlarını taşır. Çoğul “onları” eki hedefi önceki gruba bağlar; fiil, gerçekleşmiş bir anlatıdan çok ilahî iradenin nesnel içeriği olarak gelir. Vurgulu başlangıcı ve keskin son sesi, niyetin belirli kişilere değen bir temas hâline gelmesini duyurur. Hemen sonraki ikinci {ar:بِ, tr:bi, gloss:ile}, ilk {ar:بِمَآ, tr:bi-mā, gloss:... ile} kullanımını yankılar; bu kez hükmün ölçüsünü değil, sonucun vasıtasını ve sebebini gösterir. Günahların bir bölümü bu karşılığın ilişkilendirildiği malzemedir; böylece ayetin küçük sözdizimsel köprüsü ölçüden sonuca uzanır.
+
+Sonuç cümlesindeki ikinci {ar:بَعْضِ, tr:baʿḍi, gloss:bir kısmı}, ilk parçayı yeniden çağırır; {ar:ذُنُوبِهِمْ, tr:dhunūbihim, gloss:onların günahları} ise günahların içinden seçilmiş, onların fiillerinden oluşan belirli bir alanı gösterir. {ar:ذُنُوب, tr:dhunūb, gloss:günahlar} çoğuldur; {ar:بَعْضِ, tr:baʿḍi, gloss:bir kısmı} bu çoğul alan içinden bir bölümü seçer ve karşılığı ölçülü tutar. Sonundaki {ar:هِمْ, tr:him, gloss:onların} eki sorumluluğu sahiplerine geri bağlar; günahlar yüz çeviren grubun kendi fiilleridir. {ar:بِذُنُوبِهِمْ, tr:bi-dhunūbihim, gloss:onların günahları sebebiyle} kalıbı isabeti keyfî bir çarpma olmaktan çıkarıp fiillerle ilişkilendirilmiş bir sonuç olarak duyurur. {ar:ذُنُوبِهِمْ, tr:dhunūbihim, gloss:onların günahları} kelimesindeki kuyruk, arka uç ve yük taşıyan son parça çağrışımı, {ar:يُصِيبَهُم, tr:yuṣībahum, gloss:onlara isabet ettirmesi} ile birleştiğinde fiillerin ardından gelen maddî bir iz görüntüsü verir. Bu görüntü koşullu ve parçalı cümlenin sınırları içinde kalır. Yüz çevirenlerin ardından gelen hedefli temas, daha önce {ar:ٱعْلَمْ, tr:ʿlam, gloss:bil} ile açılan kavrayış görevini somutlaştırır; isabet fiili seçici ilahî erişim görüntülerini hatırlatabilir ve bu hatırlatma aynı sınırlı cümleyle çevrelenir.
+
+Bu ölçülü karşılık, hükmün ölçüyü koruyan bir işlem olduğunu açıkça duyurur. (5:39)'daki bozulma sonrasındaki tövbe ve ıslah, {ar:ٱحْكُم, tr:uḥkum, gloss:hükmet} ile ikinci {ar:بَعْضِ, tr:baʿḍi, gloss:bir kısmı} buluştuğunda ihlal içinden düzeltme ihtimalini hatırlatır. (5:42)'de taraflar arasında adaletle hükmetme çağrısı, aynı emri istenen parçayı seçmekten ayıran dengeli ölçüyü taşır. (5:45)'te cana can ve yaralara yaralarla eşdeğer karşılık verilmesi, karşılığın sınırlı ve ölçülü bir uygulama niteliğini gösterir. Bu bağlar, Allah'ın indirdiğiyle hükmetme ve günahlardan bir bölüme bağlanan sonuç bildirimini genişletir; ikinci {ar:بَعْضِ, tr:baʿḍi, gloss:bir kısmı}nın hangi alt kümeyi gösterdiğini adlandırmaz, fakat karşılığın ölçüsünü korur.
+
+## Sınırın Dışında
+
+Son {ar:وَ, tr:wa, gloss:ve}, koşullu özel sahneden insan topluluğuna açılan kapanışı başlatır. {ar:إِنَّ, tr:inna, gloss:şüphesiz}, ardından gelen isim cümlesini pekiştirir; önceki koşul ihtimalli bir durum açarken şimdi genel teşhis vurgulu bir beyan olarak kurulur. {ar:كَثِيرًا, tr:kathīran, gloss:çok}, geniş bir insan çokluğunu öne alır; hemen arkasındaki {ar:مِنَ, tr:min, gloss:-den}, bu kesimin insan bütününün bir bölümü olduğunu gösteren kapsam ölçüsüdür. {ar:ٱلنَّاسِ, tr:an-nās, gloss:insanlar} belirli artikel taşıyan toplu insan adıdır; önceki “onlar” zamirlerini daha geniş bir insan kitlesine açar, {ar:مِنَ, tr:min, gloss:-den} ise yüklemi insanlığın tamamı yerine bu geniş kesime bağlar. Ayetin sosyal ölçeği burada genişler; özel grubun sorumluluğu korunurken aynı sapma riskinin insanlarda yaygın bir örüntü olabileceği görülür. {ar:كَثِيرًا, tr:kathīran, gloss:çok} (5:81)'deki benzer toplumsal teşhisle ve ayetin yakın hukukî teşhisleriyle yankılanır; insan adının taşıdığı toplumsallıkla unutkanlık arasındaki gerilim de bu ölçülü genişlemede duyulur.
+
+Yüklemin önündeki {ar:لَ, tr:la, gloss:kesinlikle}, {ar:فَٰسِقُونَ, tr:fāsiqūn, gloss:sınır dışına çıkanlar} sözünü {ar:إِنَّ, tr:inna, gloss:şüphesiz} ile birlikte iki kez pekiştirir: {ar:إِنَّ ... لَفَٰسِقُونَ, tr:inna ... la-fāsiqūn, gloss:şüphesiz ... kesinlikle sınır dışına çıkanlardır}. Lâmın yükleme bitişmesi yüzeydeki sesi sıkıştırır; sonundaki çoğul “-ūn” sesi de teşhise kararlı bir kapanış ritmi verir. {ar:فَٰسِقُونَ, tr:fāsiqūn, gloss:sınır dışına çıkanlar} tek bir anlık hatayı değil, tanınabilir bir toplumsal durumu adlandıran çoğul etkin ortaçtır; inkârcılar, zalimler ve fâsıklar diye ilerleyen hukukî teşhis zincirinde (5:47)'deki aynı yüklemi geri çağırarak son halkayı yoğunlaştırır. Taze hurma tanesinin kabuğundan dışarı çıkması, ahlâkî itaatsizliği kendisini tutması gereken sınırdan taşma gibi resmeden bağlı bir sözlük görüntüsüdür. Odaktaki {ar:ٱحْكُم, tr:uḥkum, gloss:hükmet} alanı zapt eder, {ar:بَعْضِ, tr:baʿḍi, gloss:bir kısmı} seçilmiş parçayı ölçer, {ar:فَٰسِقُونَ, tr:fāsiqūn, gloss:sınır dışına çıkanlar} ise o düzenin dışına taşan statüyü adlandırır. Bu hurma-kabuk görüntüsü, sınırdan taşma hareketini canlılaştıran yerel bir temas olarak kalır; son yüklem karşılığın ayrıntısını sürdürmekten ziyade insanların çoğunda görülen sınır aşma hâlini vurgulayarak kapanır.
+
+</editorial_prose>

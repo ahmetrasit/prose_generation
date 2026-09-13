@@ -1,0 +1,211 @@
+# V5 reading invitation — 5:54
+
+You are a fresh reading-invitation writer. Read the complete editorial prose
+before writing. It is your sole semantic source.
+
+Write two to four paragraphs of fluent, contemporary Turkish that reveal a
+surprising reading by following one or two main channels of resonance in the
+ayah. A channel is a connected background of meanings, images, actions, or
+relations through which the ayah can be heard and understood differently.
+Several editorial findings may together develop one channel. Summarize that
+connected movement and its consequence for the ayah's main meaning, rather
+than compressing findings individually. Give the reading's substance now;
+the invitation comes from understanding it, not from a promise of hidden depth.
+
+Before drafting, read the entire editorial prose and silently select the one
+or two channels with the strongest interpretive consequence and enough
+grounding to explain clearly. Favor channels that expand or shift what the
+ayah says, the relation it establishes, or what is at stake in its action or
+image. One fully developed channel is sufficient; add a second only when it
+offers a distinct consequential reading that can be explained within the
+invitation. No finding, channel, or major shift has an individual coverage
+claim. Unselected material may remain entirely in the full commentary.
+
+A channel may develop through grammar, sound, dialogue, a material process,
+time, imagery, or a conceptual relation. Resonance is not limited to acoustic
+effects, and an unusual image alone does not establish a channel. Use only
+connections the editorial prose actually develops. If it supplies no such
+channel, explain its strongest grounded reading without inventing connections
+or surprise.
+
+Begin inside the ayah's own words, images, actions, or relations and reveal a
+selected distinctive reading in the first paragraph. Keep the plain meaning
+reachable with only the orientation needed to understand the change. Do not
+spend an opening paragraph on routine explanation or front-load context about
+the surah, the ayah's position, or the commentary project.
+
+For each selected channel, begin with the expression that opens it, unfold the
+connected background, and show how the ayah reads or sounds against that
+background. Let a detail lead into the next through an intelligible relation
+or process, so the reader experiences the emerging reading. This is a movement
+of thought, not a mandatory sentence pattern or one paragraph per finding.
+Let the reader identify the expression being interpreted,
+where any nonordinary detail comes from, and what that detail changes in the
+reading. Briefly identify the word-family use, restricted form, collocation, or
+context that supplies an essential added detail, and preserve the concrete
+operation that makes the image work. Keep the ordinary reading and necessary
+qualification clear within this explanation; do not repeat them as a fixed
+formula. Preserve the particular object, process, or relation that makes this
+reading distinctive, and state its interpretive consequence for the ayah as a
+whole. Make intelligible what the familiar reading leaves less visible and
+what the expanded or shifted reading now lets the reader understand. Preserve
+the editorial's force: an exploratory possibility remains possible, while a
+developed shift must not be softened into a decorative association or a
+reassurance that everything means the same thing. A concrete
+account of how something is carried, transformed, lost, or restored must not
+shrink to a general statement about care, guidance, dependence, or goodness.
+Keep the details needed to make the selected channel work; omit side findings
+and shorten routine setup. If a channel cannot be explained faithfully from
+the editorial prose, choose another grounded channel or reading.
+
+When a non-focus ayah supplies a contribution used in the invitation, keep its
+reference from the editorial prose beside that contribution.
+
+Do not turn the invitation into a miniature inventory of the commentary's
+conclusions, or flatten distinct channels into a broad theme to include more
+material. Do not repair, extend, or supplement the editorial prose from memory
+or outside knowledge.
+
+Omit technical apparatus. Retain any qualification, source distinction, live
+alternative, or boundary whose absence would change the force or meaning of a
+chosen reading. Express it naturally beside the image or relation it qualifies.
+Favor positive explanations of the relation between layers: what remains in
+the foreground and what the resonance makes audible in the background. State
+how that background reinforces, expands, or shifts the understanding of the
+main meaning, with the source and degree of certainty clear. Reserve explicit
+exclusions for concrete ambiguities or live counter-evidence that need them.
+Repeated "this is not X" endings make a reading sound withdrawn; express the
+substantive qualification through what the reading does contribute wherever
+possible. Use varied, natural language rather than a repeated "second layer"
+formula, and preserve the force of expansions and shifts.
+Do not name branches, candidates, findings, scopes, evidence categories,
+ledgers, or workflow stages, or label the prose as numbered channels. Do not
+list findings serially.
+
+Use the established `{ar:..., tr:..., gloss:...}` syntax, consistent
+Turkish-readable transliteration, and short ordinary glosses. Keep Arabic
+anchors beside the explanations they ground. Within a paragraph, continue with
+the Turkish meaning where clear; provide the necessary local tag when a later
+paragraph interprets the carrier anew. Do not place Arabic script outside a
+valid tag.
+
+Build transitions within a channel through its shared object, action, or
+relation. If two channels are selected, they may occupy separate paragraphs;
+do not invent a link between them. Do not praise the commentary's quality,
+promise what the reader will find, manufacture suspense, recap at the end, or
+add a call to action. End on an image, relation, action, or tension already
+established by the selected reading.
+
+Before finishing, compare the invitation with the entire editorial prose:
+does the chosen channel reveal a consequential reading, or could the text have
+been written from the ordinary translation and a modest explanation alone?
+When the editorial supports a surprising channel, the latter fails this task.
+Can the reader follow the opening expression into a connected background and
+understand how that background expands or shifts the ayah's main meaning?
+Check the selected connections against their editorial explanation: can the
+reader tell where the nonordinary details come from, with the necessary
+qualifications intact? Repair generic explanation, isolated curiosities, or a
+compressed findings list by developing the selected channel. Do not add
+omitted channels merely for coverage. Do not output this check.
+
+Write only the invitation text to:
+
+`_commentary/v5/editorial/s005-p04-with-fatiha/s005/5_54/5_54.invitation.tr.md`
+
+Do not add a heading, wrapper label, index, ledger, evidence file, or any other
+artifact. Do not modify the editorial prose.
+
+After writing the invitation, run:
+
+```bash
+python3 _commentary/v5/validate_prose.py _commentary/v5/editorial/s005-p04-with-fatiha/s005/5_54/5_54.invitation.tr.md
+```
+
+If validation fails, repair only the reported mechanical file-contract issues
+and rerun it, for at most two repair cycles. Report the final validator result
+in your response.
+
+<editorial_prose>
+5:54, iman edenlere yöneltilen bir uyarıyla birlikte bir topluluğun nasıl ortaya çıkacağını gösterir: İçlerinden biri dinî bağından dönerse Allah başka bir topluluk getirir. Allah bu topluluğu sever, topluluk da Allah'ı sever; müminlere karşı yumuşak, inkârcılara karşı sağlam, Allah'ın yolunda çaba gösteren ve kınayanın kınamasından etkilenmeyen kimselerdir. Âyet sonrasında bu nitelikleri Allah'ın lütfu olarak adlandırır; lütuf dilediğine verilir ve Allah geniş imkân sahibi ve bilendir.
+
+## Hitabın İçinden Açılan Uyarı
+
+Âyet uzakta duran bir topluluk hakkında kurulmuş bir anlatı olarak başlamaz. {ar:يَا, tr:ya, gloss:ey} doğrudan seslenir; {ar:أَيُّهَا, tr:ayyuha, gloss:ey} bu seslenişi uzatıp dinlemesi gereken sınıfı öne çıkarır. {ar:ٱلَّذِينَ, tr:alladhina, gloss:iman edenler} hitabı belirli bir iman niteliği taşıyanlara bağlar ve {ar:ءَامَنُوا۟, tr:amanu, gloss:inandılar} onları tamamlanmış bir iman iddiasıyla adlandırır. Bu adlandırma onların şimdiki yerini bildirirken hemen arkasındaki dönüş ihtimali, bu bağın korunarak sürdürülmesini de sorunun içine alır. Uyarı böylece iman hitabının içindeki muhataplara yönelir.
+
+{ar:مَن, tr:man, gloss:kim} dönecek kişiye önceden verilmiş bir ad koymadan ihtimali açık tutar. {ar:مِنكُمْ, tr:minkum, gloss:sizden} bu ihtimali konuşulan topluluğun içinden çıkarır. Tehlike başkasına aktarılmaz; belirli bir alt grup da ilan edilmez. Bu iki unsur, ayeti bir topluluğu toptan mahkûm eden bir bildiri olmaktan çıkarıp kendi içindeki bağlılığı canlı tutan bir uyarı hâline getirir. İman eden adı yalnızca söylenmiş bir etiket olarak kalmaz; onu taşıyan bağın devamı sınanmaya açılır.
+
+Bu sınamanın yönünü {ar:يَرْتَدَّ, tr:yartadda, gloss:geri dönmek} belirler. VIII. kalıptaki bu biçim, kişinin benimsediği bir bağdan yönünü geri çevirmesini taşır; yanındaki {ar:عَن, tr:an, gloss:-den uzaklaşarak} hareketin o bağdan uzağa aktığını gösterir. {ar:دِينِهِۦ, tr:dinihi, gloss:kendi dini} ise terk edilen şeyi kişiselleştirir: söz genel bir fikir değiştirme değil, kişinin kendisine ait saydığı dinî bağdan ayrılma üzerindedir. Bu iyelik, din kelimesinin burada bağlılık bildiren yerel anlamını öne çıkarır; hesap ve karşılık ufku bu anlamı genişletebilir.
+
+Yakın bağlam, bu bağlılığın yalnızca söylenen bir ad olmadığını açar. 5:41'de {ar:قَالُوا آمَنَّا بِأَفْوَاهِهِمْ وَلَمْ تُؤْمِن قُلُوبُهُمْ, tr:qalu amanna bi-afwahihim wa lam tu'min qulubuhum, gloss:ağızlarıyla inandık deyip kalpleri inanmayanlar} sözü, ağızdan çıkan iddia ile kalbin kabulü arasındaki ayrımı görünür kılar. Böylece {ar:ٱلَّذِينَ, tr:alladhina, gloss:iman edenler} ve {ar:ءَامَنُوا۟, tr:amanu, gloss:inanıp güvenenler} içten güvenilir bir kabulü düşündürebilir; bu, herkesin iç dünyasının eksiksiz okunduğunu ileri süren bir ölçü değil, söz ile kalp arasındaki somut ayrımdır. 5:43 ve 5:49'da hüküm karşısında yüz çevirme, 5:51'de ise başka koruyuculara yönelme belirir. {ar:يَتَوَلَّ اللَّهَ وَرَسُولَهُ وَالَّذِينَ آمَنُوا, tr:yatawalla Allaha wa rasulahu wa alladhina amanu, gloss:Allah'ı elçisini ve iman edenleri koruyucu taraf edinmek} ile {ar:بَعْضُهُمْ أَوْلِيَاءُ بَعْضٍ, tr:ba'duhum awliya'u ba'd, gloss:bazıları bazılarının koruyucularıdır} görüntüsü, geri dönmeyi soyut bir düşünce değişiminden kişinin hangi yakınlık ve himaye bağına yerleştiğini değiştiren yaşanmış bir geçişe doğru genişletir. Çekirdek anlam dinî bağdan dönüştür; yakın bağlam bu dönüşün aidiyet ve taraf seçimiyle nasıl görünür hâle geldiğini açıklar.
+
+Geri çekilmenin karşısına ayetin cevabı yerleşir. {ar:فَ, tr:fa, gloss:böylece} şartı karşılığına bağlar; bir kişinin çekilmesi topluluk işinin boşlukta kalacağı bir sonuç olarak bırakılmaz. {ar:سَوْفَ, tr:sawfa, gloss:ileride} karşılığı geleceğe uzatır ve kesinliği koruyan bir zaman ufku açar. Takvim verilmez. Açık özne olan {ar:ٱللَّهُ, tr:Allahu, gloss:Allah} yeni topluluğun ortaya çıkışını mevcut grubun kendini korumasına değil ilahî girişime bağlar. {ar:يَأْتِى, tr:yati, gloss:gelmek ve ulaştırmak} topluluğu sahneye getiren geliş hareketini taşır; aynı anlam ailesindeki verme biçimi ileride {ar:يُؤْتِيهِ, tr:yutihi, gloss:onu verir} ile duyulacak olsa da burada geliş ve getiriş öndedir. {ar:بِ, tr:bi, gloss:ile ve sağlayarak} getirilen topluluğu bu ilahî eylemin içinde sağlanan unsur olarak bağlar. {ar:قَوْمٍۢ, tr:qawmin, gloss:bir topluluk} belirsizdir; kimlikleri soy veya tarih adıyla değil, sevgi, yumuşaklık, sağlamlık, emek ve korkusuzlukla açılır.
+
+47:38'deki {ar:يَسْتَبْدِلْ قَوْمًا غَيْرَكُمْ, tr:yastabdil qawman ghayrakum, gloss:sizin yerinize başka bir topluluk getirir} ifadesi, geri dönüşün ardından başka bir topluluğun getirilebileceği hareketi somutlaştırır. 5:53, 5:55 ve 5:56'nın yakın sıralanışı da çöken işler, koruyucu bağlılık ve ardından gelen topluluk sonucunu aynı zeminde buluşturur. Böylece {ar:يَرْتَدَّ, tr:yartadda, gloss:bağlılıktan geri dönmek} bir boşluk açan hareket, {ar:يَأْتِى, tr:yati, gloss:getirerek gelmek} karşı yönden gelen hareket, {ar:قَوْمٍۢ, tr:qawmin, gloss:getirilen topluluk} ise öncekinin taşıdığı işlevi üstlenen beden gibi duyulur. Topluluk görevi sahipsiz kalmaz; gelen grubun kimliği, geliş yeri ve zamanı ise açık bırakılır. Bu sınırlı bağ, her geri çekilmenin aynı tarihî biçimde sonuçlanacağını belirlemez.
+
+Belirsiz bırakılan {ar:قَوْمٍۢ, tr:qawmin, gloss:bir topluluk} daha keşif niteliğindeki bir dışarıdan akış görüntüsüne açılır. {ar:يَأْتِى, tr:yati, gloss:gelmek} ile bu topluluk yan yana geldiğinde, yağmurunu başka bir bölgede almış bir selin yeni bir yatağa dışarıdan akması ve topluluğa yabancı insanların mevcut sınıra girmesi birlikte hayal edilebilir. Sel imgesi gelişin dışarıdan gelen tarafını, yabancı insanların imgesi ise sosyal sınırın aşılmasını taşır. Akış, yeni kapasitenin gelişini ve {ar:قَوْمٍۢ, tr:qawmin, gloss:topluluk} kelimesinin öncekinin yerini ve işlevini üstlenen yenilenmiş bir beden olarak duyulmasını görünür kılar; bu maddi benzetme fiziksel bir selin yönünü veya demografik bir geleceği bildirmez. Düz ilahî ikame vaadi korunurken gelişin resmi yenilenmenin nasıl hissedilebileceğini genişletir.
+
+Bu karşı-hareketin neden gerekli göründüğü 5:52'deki acele sahnesiyle belirginleşir. {ar:فِي قُلُوبِهِم مَّرَضٌ, tr:fi qulubihim marad, gloss:kalplerinde hastalık} iç zaafın yönelişi zayıflattığını; {ar:يُسَارِعُونَ فِيهِمْ, tr:yusari'una fihim, gloss:onlara doğru acele ettiklerini} korkunun bağlılığı hızlandırdığını gösterir. {ar:نَخْشَىٰ أَن تُصِيبَنَا دَائِرَةٌ, tr:nakhsha an tusibana da'ira, gloss:başımıza bir dönüş felaketi gelmesinden korkuyoruz} tersine dönme ve kayıp hesabını, {ar:أَسَرُّوا فِي أَنفُسِهِمْ, tr:asarru fi anfusihim, gloss:içlerinde gizledikleri} ise bu hesabın saklı tarafını açar. Buna karşılık 5:54'ün {ar:ءَامَنُوا۟, tr:amanu, gloss:inanıp güvenenler} adı ile {ar:لَا يَخَافُونَ لَوْمَةَ لَائِمٍۢ, tr:la yakhafuna lawmata laimin, gloss:kınayanın kınamasından korkmazlar} cümlesi güven ve korkusuzluk profili kurar. {ar:يَأْتِيَ اللَّهُ بِالْفَتْحِ, tr:ya'tiya Allahu bil-fath, gloss:Allah'ın bir açılış getirmesi} korku hesabını dışarıdan tersine çevirecek bir ufuk verir; ayetteki {ar:يَأْتِى, tr:yati, gloss:gelmek} de aceleyle güvenli görünen tarafa koşmak yerine korunmuş bir varış gibi duyulur. Bu bağlamsal karşıtlık istikrarı korkuya, güveni iç zaafa karşı yerleştirir; önceki kişilerin kararlarını tek bir saikle açıklamadan yeni topluluğun gelişi güvene dayalı bir karşı-hareket olarak görünür.
+
+## Topluluğun Kurulduğu İlişkiler
+
+Yeni topluluğun kimliği bir etnik adla değil, ilişki biçimleriyle açılır. {ar:يُحِبُّهُمْ, tr:yuhibbuhum, gloss:onları sever} topluluğun profilini Allah'ın sevgisiyle başlatır; bu sevgi onların davranışlarından önce gelen kurucu yakınlıktır. {ar:وَ, tr:wa, gloss:ve} iki sevgi yönünü aynı ilişkide bağlar. {ar:يُحِبُّونَهُۥٓ, tr:yuhibbunahu, gloss:onu severler} çoğul topluluğun Allah'a dönen karşılığını kurar. İki geçişli fiilin karşılıklı düzeni, ilahî başlangıç ile insanî cevabı buluşturur; sonraki duruş ve çabanın çıplak zorlamadan değil bu bağlılıktan beslendiği duyulur.
+
+Bu karşılıklı sevgi topluluğun iki ayrı ilişki yönünü biçimlendirir. {ar:أَذِلَّةٍ, tr:adhillatin, gloss:alçak gönüllü ve yumuşak} burada düşürülme veya yenilgi değil, belirli kişilere karşı isteyerek yumuşama anlamını öne çıkarır. İlk {ar:عَلَىٰ, tr:ala, gloss:-e karşı yönelerek} bu yumuşaklığın bir hedefe yöneldiğini gösterir; {ar:ٱلْمُؤْمِنِينَ, tr:al-muminina, gloss:inananlar} açılıştaki iman adını geri getirerek hedefi belirler. Aynı toplulukta {ar:أَعِزَّةٍ, tr:aizzatin, gloss:güçlü ve saygın} sağlam ve onurlu bir dış yüz açar. İkinci {ar:عَلَىٰ, tr:ala, gloss:-e karşı yönelerek} aynı yönelme eksenini tekrarlar; sıfat ve hedef değişince ilişki dirençli bir değer kazanır. {ar:ٱلْكَٰفِرِينَ, tr:al-kafirina, gloss:inkâr edenler} hedefi etnik bir adla değil, hakikati örten ve reddeden tutumla belirler. Sevginin iç yakınlığı ile karşıt tutuma karşı sağlamlık, aynı bağlılığın iki ayarlanmış yüzü olur.
+
+3:31'deki {ar:تُحِبُّونَ ٱللَّهَ فَٱتَّبِعُونِى يُحْبِبْكُمُ ٱللَّهُ, tr:tuhibbuna Allaha fattabi'uni yuhbibkum Allah, gloss:Allah'ı seviyorsanız bana uyun Allah da sizi sevsin} sözü sevgiyi izlemeye ve bağlılıkla yürümeye bağlar. 48:29'daki {ar:رُحَمَاءُ بَيْنَهُمْ, tr:ruhama baynahum, gloss:aralarında merhametli} ve {ar:أَشِدَّاءُ عَلَى الْكُفَّارِ, tr:ashidda ala al-kuffar, gloss:inkârcılara karşı güçlü} ifadeleri sevginin bu bağlılık içinde aldığı iki toplumsal yönü görünür kılar. {ar:أَذِلَّةٍ, tr:adhillatin, gloss:gönüllü yumuşaklık} sevgiyi inananlara karşı güvenli yakınlığa ve sertlikten vazgeçmeye taşır; {ar:أَعِزَّةٍ, tr:aizzatin, gloss:sağlamlık ve saygınlık} karşıtlığın hedefi belirdiğinde sınırı koruyan dayanıklılığı taşır. İlki sevgiyi yönelmiş bir takibe, ikincisi ilişkiye göre ayarlanan yumuşaklık ve sağlamlığa açar. Aynı anlam ailesindeki güçlendirme kullanımları, odaktaki sıfatı doğrudan bir güç verme fiiline çevirmeden bu dayanıklılık görüntüsünü besler.
+
+Sevgi, topluluk içindeki yakınlıktan 5:42'deki {ar:فَاحْكُم بَيْنَهُم بِالْقِسْطِ, tr:fahkum baynahum bil-qist, gloss:aralarında adaletle hükmet} buyruğu ve {ar:إِنَّ اللَّهَ يُحِبُّ الْمُقْسِطِينَ, tr:inna Allaha yuhibbul muqsitin, gloss:Allah adaletli davrananları sever} sözüyle taraflar arasında hakkı ulaştıran kamusal bir davranış alanına taşınır. Böylece {ar:يُحِبُّهُمْ, tr:yuhibbuhum, gloss:onları sever} ve {ar:يُحِبُّونَهُۥٓ, tr:yuhibbunahu, gloss:onu severler} iç yakınlık anlamını korurken baskı altındaki adil davranışta görünür bir karşılık kazanır. 5:42 ile 5:54 arasındaki bağ, sevginin davranışa değen yüzünü açar ve karşılıklılığını korur.
+
+9:24'teki {ar:أَحَبَّ إِلَيْكُم مِّنَ ٱللَّهِ وَرَسُولِهِۦ وَجِهَادٍۢ فِى سَبِيلِهِۦ, tr:ahabba ilaykum min Allahi wa rasulihi wa jihadin fi sabilihi, gloss:Allah'tan elçisinden ve O'nun yolundaki çabadan daha sevgili} karşılaştırması, sevgiyi bir tercih ölçüsü hâline getirir. Aile, servet, ticaret ve güvenlik listesi, kişinin neyi daha çok sevdiğinin bağlılığını hangi yöne taşıdığını sınayan bir alan açar. Dünyevî sevgi alanı yerinde dururken, Allah'a, elçiye ve O'nun yolundaki çabaya üstün tutulup tutulmadığı anlaşılır. 9:24 seçim yönünü; 9:71 ve 8:72, aynı sevginin koruyucu topluluk bedenini verir. 9:71'deki {ar:أَوْلِيَآءُ بَعْضٍ, tr:awliya'u ba'd, gloss:birbirinin koruyucuları} ve 8:72'deki {ar:بَعْضُهُمْ أَوْلِيَاءُ بَعْضٍۢ, tr:ba'duhum awliya'u ba'd, gloss:birbirlerinin koruyucuları} ifadelerinde bu ilişki belirir. Koruma, yardım, barındırma ve ortak iyiliği üstlenme, sevginin topluluk içindeki eylemli bedenini kurar.
+
+Bu ilişkinin toplumsal adı 5:56'da belirginleşir. {ar:حِزْبَ اللَّهِ, tr:hizba Allahi, gloss:Allah'ın tarafında toplanmış topluluk} sözü, 5:54'te kimliği açık bırakılan {ar:قَوْمٍۢ, tr:qawmin, gloss:getirilen topluluk} adını ortak bir bağlılık çevresinde toplanmış işlevsel bir fırka görüntüsüne genişletir. {ar:يَتَوَلَّ اللَّهَ وَرَسُولَهُ وَالَّذِينَ آمَنُوا, tr:yatawalla Allaha wa rasulahu wa alladhina amanu, gloss:Allah'ı elçisini ve iman edenleri koruyucu taraf edinmek} bu bağlılığı yanında yer alma ve destek olma hareketi olarak kurar. {ar:الْغَالِبُونَ, tr:al-ghalibun, gloss:üstün gelenler} gücü tek başına duran bir kudret olmaktan çıkarıp birlikte hareket eden bedenin karşı koyup üstün gelebilen kapasitesine bağlar. 5:52'deki {ar:الْفَتْحِ, tr:al-fath, gloss:açılış ve üstünlük} görüntüsü de gelişin etkili ortak güç için açılmış imkânını çerçeveler. Bu ilişki, üstünlüğün topluluğun aldığı görev ve ortak bağlılık içinde görünmesini sağlar. Kapsamı belirli bir askerî sahneye veya tarihî bir grubun adına kadar genişlemeden, ayetin ikame vaadindeki işlevsel kimliği açıklar.
+
+Sağlamlığın hedefi belirli olduğu için ölçüsü de ilişkiden doğar. {ar:أَعِزَّةٍ عَلَى ٱلْكَٰفِرِينَ, tr:aizzatin ala al-kafirina, gloss:inkârcılara karşı sağlam} nitelemesi sınır bilen bir direnç taşır. 60:8'deki {ar:أَن تَبَرُّوهُمْ وَتُقْسِطُوا إِلَيْهِمْ, tr:an tabarruhum wa tuqsitu ilayhim, gloss:onlara iyilik etmeniz ve adalet göstermeniz} ve 4:135'teki {ar:قَوَّامِينَ بِٱلْقِسْطِ, tr:qawwamina bil-qist, gloss:adaleti ayakta tutanlar} ifadeleri, sağlamlığın adaletle birlikte yönlendiğini gösterir. Odaktaki sıfat, aynı anlam ailesindeki geçişli güçlendirme biçimini doğrudan fiil hükmüne çevirmeden dayanıklılık imgesini taşır. Bu yüzden sağlamlık, hedefi ve adalet ölçüsü belirlenmiş bir duruş olarak kalır; bütün dış ilişkileri tek tek sınıflandıran bir sertlik ölçüsüne dönüşmez.
+
+## Yolun Üzerinde Süren Çaba
+
+Topluluğun bağlılığı bir işe dönüşür. {ar:يُجَٰهِدُونَ, tr:yujahiduna, gloss:çaba gösterirler} güçlüğe rağmen insanî kapasiteyi kullanmayı ve işi sürdürmeyi anlatan üçüncü kalıp biçimindedir. Adı verilmiş bir insan hedefi bulunmadığı için çabanın yönü hemen ardından gelen alanla açıklanır. {ar:فِى, tr:fi, gloss:içinde} bu emeği bir alanın içine yerleştirir. {ar:سَبِيلِ, tr:sabili, gloss:yol} uzanan ve üzerinde ilerlenen bir güzergâh açar; {ar:ٱللَّهِ, tr:Allahu, gloss:Allah'ın} bu yolun sahibini ve kaynağını belirler. İnsan gücü bu tekil yol içinde amaç ve yön kazanarak sürdürülen işe dönüşür. Ardındaki {ar:وَ, tr:wa, gloss:ve} çabayı toplumsal korkunun reddiyle yan yana koyar; olumsuzlanan korku, bütün korku biçimleri değil kınamanın toplumsal baskısıdır.
+
+5:48'deki {ar:لِّيَبْلُوَكُمْ فِي مَا آتَاكُمْ, tr:li-yabluwakum fima atakum, gloss:size verilende sizi sınamak için} ifadesi yolu alınan farklılıkların gerçek bir durumda sınandığı bir alan yapar. {ar:فَاسْتَبِقُوا الْخَيْرَاتِ, tr:fastabiqul khayrat, gloss:hayır işlerinde yarışın} ileriye doğru hareketi ve iyiliğe yönelen çabayı belirler. Bu yarışın nesnesi toplulukların insan değeri değil, yolun yönünü eylemle görünür kılan iyiliktir. {ar:شِرْعَةً وَمِنْهَاجًا, tr:shir'atan wa minhajan, gloss:belirlenmiş yol ve açık yöntem} farklı sorumluluklar içinde alınan ve üzerinde yürünmesi gereken güzergâhı tamamlar. Allah'ın yolu belirli bir yön taşıyan somut bir ilerleme alanı olarak duyulur; farklı yollar iyiye doğru hareket ve sorumlulukla birlikte düşünülür.
+
+5:35'teki {ar:ٱتَّقُوا۟ ٱللَّهَ وَٱبْتَغُوٓا۟ إِلَيْهِ ٱلْوَسِيلَةَ وَجَٰهِدُوا۟ فِى سَبِيلِهِۦ, tr:ittaqu Allaha wabtaghu ilayhi al-wasila wa jahidu fi sabilihi, gloss:Allah'a karşı korunun O'na ulaşma yolunu arayın ve O'nun yolunda çaba gösterin} sıralanışı yolu korunma, yakınlaşma yolunu arama ve gücü harcayarak ilerleme hareketleriyle çevreler. {ar:لَعَلَّكُمْ تُفْلِحُونَ, tr:la'allakum tuflihun, gloss:başarıya ulaşmanız umulur} çabanın ufkuna umut edilen bir sonuç koyar. 2:218'deki {ar:يَرْجُونَ رَحْمَتَ ٱللَّهِ, tr:yarjuna rahmata Allahi, gloss:Allah'ın rahmetini umarlar} sözü de emeği yakınlık ve rahmet ufkuna bağlar. Yol yalnız üzerinde kuvvet harcanan bir zemin değil, korunarak aranan ve umutla yürünülen bir güzergâh olur.
+
+Çabanın sözden ayrılan kalıcı yüzü hemen önceki 5:53'te belirir. Oradaki {ar:أَقْسَمُوا بِاللَّهِ جَهْدَ أَيْمَانِهِمْ, tr:aqsamu billahi jahda aymanihim, gloss:yeminlerinin bütün gücüyle Allah'a yemin ettiler} sözü bağlılığın bütün güvence gücüyle dile getirildiğini; {ar:حَبِطَتْ أَعْمَالُهُمْ, tr:habitat a'maluhum, gloss:işleri boşa çıktı} hükmü ise görünen sözün pratik iş çöktüğünde taşıyıcısız kalabildiğini gösterir. 5:54'teki {ar:يُجَٰهِدُونَ, tr:yujahiduna, gloss:güçlerini harcayarak çaba gösterirler} bu karşıtlığın ardından ayakta kalan işi görünür kılar: topluluk yalnız ilanıyla değil, Allah'ın yolunda sürdürdüğü emekle tanınır. {ar:أَعْمَالُهُمْ, tr:a'maluhum, gloss:onların işleri} davranışın sınandığı yüzeyi hatırlatır. Yakın karşılaştırma çabayı sözün yerine koymaz ve her önceki işi başarısız ilan etmez; söz ile eylem arasındaki farkı belirginleştirir.
+
+Yol üzerindeki emek, Fâtiha'dan gelen daha ihtiyatlı bir yankıda kendi kendine yeterli bir güç gösterisi olarak kapanmaz. {ar:يُجَٰهِدُونَ فِي سَبِيلِ اللَّهِ, tr:yujahiduna fi sabili Allahi, gloss:Allah'ın yolunda çaba gösterirler} ile Fâtiha'daki {ar:وَإِيَّاكَ نَسْتَعِينُ, tr:wa iyyaka nasta'in, gloss:yalnız Senden yardım isteriz} (1:5) buluştuğunda, sürdürülen gerçek emek yardım aranarak taşınan bir çaba olarak duyulur. Çaba etkinliğini korur; yardım istemek onu edilgenliğe çevirmez. Yol üzerindeki beden gücünü ortaya koyarken o gücün taşınması için Allah'a yönelir.
+
+Çabanın karşısındaki korku, cümlenin nesnesiyle belirli bir toplumsal baskıya bağlanır. {ar:لَا, tr:la, gloss:değil ve yok} olumsuzlamayı hemen ardından gelen nesneye bağlar. {ar:يَخَافُونَ, tr:yakhafuna, gloss:korkarlar} bilinen veya sanılan bir işaretten kötü sonuç beklemenin baskısını taşır. {ar:لَوْمَةَ, tr:lawmata, gloss:tek bir kınama} bu baskıyı tek bir kınama eylemine kadar somutlaştırır; {ar:لَآئِمٍۢ, tr:laimin, gloss:kınayan herhangi biri} onu tek bir rakibe kapatmadan kınama üreten herkese açar. Topluluk kınayanların varlığını görür; kınamanın yön verici gücü davranışı belirlemez. Buradaki {ar:وَ, tr:wa, gloss:ve} çaba ile korkusuzluğu aynı portrede birleştirir.
+
+5:44 bu korkusuzluğa korunacak bir emanet ve hesap verecek bir özne kazandırır. {ar:اسْتُحْفِظُوا مِن كِتَابِ اللَّهِ, tr:ustuhfizu min kitabi Allahi, gloss:Allah'ın kitabını korumakla görevlendirildiler} dizisi, kınamaya direnmenin korunması gereken bir ölçüyü elde tutmak anlamını açar. {ar:فَلَا تَخْشَوُا النَّاسَ وَاخْشَوْنِ, tr:fa-la takhshawun nasa wakhshawni, gloss:insanlardan korkmayın benden korkun} korkunun yönünü insanlardan Allah'a çevirir; sosyal baskı etkisini kaybederken hürmet ve hesap verme sürer. {ar:لَا تَشْتَرُوا بِآيَاتِي ثَمَنًا قَلِيلًا, tr:la tashtaru bi-ayati thamanan qalila, gloss:ayetlerimi az bir bedelle satın almayın} normun küçük bir itibar veya çıkar karşılığında satılmasına karşı sınır çizer. {ar:وَكَانُوا عَلَيْهِ شُهَدَاءَ, tr:wa kanu alayhi shuhada, gloss:onun üzerinde şahitlerdi} kamusal tanıklığı ekler. {ar:لَوْمَةَ لَائِمٍ, tr:lawmata laimin, gloss:kınayanın kınaması} sosyal baskıyı somut bir girişim olarak belirler; topluluk bu baskıya dayanırken koruduğu şeyden sorumlu kalır. Bu görev görüntüsü emanetin korunmasını açıklar, herkese verilmiş resmî bir makam kurmaz.
+
+Korkunun yönü 5:28'deki {ar:إِنِّىٓ أَخَافُ ٱللَّهَ, tr:inni akhafu Allaha, gloss:Allah'tan korkarım} sözü ve {ar:لِتَقْتُلَنِى ... لِأَقْتُلَكَ, tr:li-taqtulani li-aqtuluka, gloss:beni öldürmen ve seni öldürmem} karşılaşmasıyla daha da ayrılır. Orada zarar doğuran eyleme karşılık vermeyi reddeden kişi Allah korkusunu korur. 33:39'daki {ar:وَلَا يَخْشَوْنَ أَحَدًا إِلَّا ٱللَّهَ, tr:wa la yakhshawna ahadan illa Allaha, gloss:Allah'tan başka kimseden korkmazlar} ifadesi insan kınamasının belirleyici olmaktan çıkıp Allah'a yönelik sorumluluğun kalmasını destekler. Aynı anlam ailesindeki güç harcama, 5:54'teki {ar:يُجَٰهِدُونَ, tr:yujahiduna, gloss:güçlerini harcayarak çaba gösterirler} fiilinin insan baskısına göre yön değiştirmeyen emek olarak anlaşılmasına yardım eder. Korkusuzluk hissizleşme değil, korkunun doğru merciye yönelmesi ve kınamanın yönetici olmaktan çıkmasıdır.
+
+Kınamanın baskısı daha ihtiyatlı bir zaman yankısında ağırlaşan bir gecikme olarak da duyulabilir. {ar:لَوْمَةَ, tr:lawmata, gloss:kınama} olağan kınama anlamını korurken bekletme ve işi ağırlaştırma basıncına değen bir gölge taşır. {ar:يُجَٰهِدُونَ, tr:yujahiduna, gloss:çaba gösterirler} süren kapasiteyi; {ar:قَوْمٍۢ, tr:qawmin, gloss:topluluk} boşalan işi üstlenen bedeni verir. Bu iki katkı buluştuğunda kınama, çalışmanın yeniden başlaması için gecikme satın alamaz; halef topluluk askıda kalan işi sürdürür. Bu bağlantı, düşünme ve beklemenin tümünü kapsamına almaz ve özel bir çalışma takvimi vermez. Kınamadan korkmama, işin toplumsal baskı altında durdurulmaması şeklinde yeni bir zaman ayrıntısı kazanır.
+
+## Yumuşaklığın Bedene ve Maddeye İnişi
+
+İnananlara karşı yumuşaklığın 5:55'teki katkısı, Allah ve elçisiyle kurulan koruyucu ilişkiyi ibadet ve hizmet hareketleriyle görünür bir hizmet düzenine taşır. {ar:وَلِيُّكُمُ, tr:waliyyukumu, gloss:sizin koruyucunuz} yakın durup destek olma alanını açar. {ar:يُقِيمُونَ الصَّلَاةَ, tr:yuqimuna as-salata, gloss:namazı ayakta tutarlar} sürdürülen ibadeti; {ar:يُؤْتُونَ الزَّكَاةَ, tr:yu'tuna az-zakata, gloss:zekâtı verirler} değeri bir alıcıya ulaştıran aktarımı; {ar:وَهُمْ رَاكِعُونَ, tr:wa hum raki'un, gloss:onlar rükû ederken} ise bedensel eğilmeyi gösterir. Odaktaki {ar:أَذِلَّةٍ عَلَى الْمُؤْمِنِينَ, tr:adhillatin ala al-muminina, gloss:müminlere karşı gönüllü yumuşaklık} bu sahnelerle birleştiğinde aşağılanma değil, güvenilir ilişki içinde seçilmiş hizmet olarak duyulur. {ar:يُؤْتِيهِ, tr:yutihi, gloss:bir alıcıya vermek} ile 5:55'teki verme fiili aynı biçim değildir; bu bağ, ilahî bağışın toplulukta başkasına ulaşan karşılığını düşündürür, fakat her verme hareketini aynılaştırmaz. Namazın sürekliliği ortak disiplini, zekâtın dışa yönelmesi maddi bakımı, rükû ise bu hizmetin tevazu içindeki bedenini görünür kılar.
+
+Bu yatay yumuşaklığın dikey dayanağı, aynı ihtiyatlı Fâtiha yankısında {ar:إِيَّاكَ نَعْبُدُ, tr:iyyaka na'budu, gloss:yalnız Sana kulluk ederiz} (1:5) sözüyle belirginleşir. İnananlara yönelen {ar:أَذِلَّةٍ, tr:adhillatin, gloss:gönüllü yumuşaklık} sosyal hedefini korur; kulluk sözü bu yumuşaklığın Allah'a seçilmiş bir yönelişle beslendiğini açıklar. Alçakgönüllülük böylece horlanmaya veya yalnızca ritüele indirgenmeden, ibadetle beslenen ve insanlara doğru uygulanan bir tavır olarak görünür; müminlere dönük ilişki ile Allah'a dönük kulluk yönü birbirini açıklar.
+
+Bu ilişkisel kutupluluk, başka bir keşif niteliğindeki maddi yük taşıma benzetmesiyle yoğunlaşır. {ar:أَذِلَّةٍ, tr:adhillatin, gloss:yumuşak ve uyumlu} yönlendirmeye elverişli yüzü ve darbeyi emen bir kazık imgesini; {ar:أَعِزَّةٍ, tr:aizzatin, gloss:sağlam ve güçlü} sıkılaşmış zeminin direncini; {ar:يُجَٰهِدُونَ, tr:yujahiduna, gloss:çaba gösterirler} ise sert arazide ilerleyen ve yük alan işi getirir. {ar:ٱلْمُؤْمِنِينَ, tr:al-muminina, gloss:inananlar} ile temas eden yumuşaklık, içeride sürtünmeyi azaltan ve birlikte hareket etmeyi kolaylaştıran bir yüz gibi hissedilir. Çaba dış yük olduğunda yumuşak iç yapı darbeyi emip hemen kırılmayı iletmez; sağlam dış yüz basınç altında dağılmayan bir sınır kurar. Bu maddi benzetme, bu bağlantıda sosyal duruşun taşıma ve direnme işlemlerini görünür kılar.
+
+Sevginin ve gelişin başka bir buluşması, keşif niteliğindeki bir üretim görüntüsü açar. {ar:يُحِبُّهُمْ, tr:yuhibbuhum, gloss:onları sever} ile {ar:يُحِبُّونَهُۥٓ, tr:yuhibbunahu, gloss:onu severler} içindeki karşılıklı bağlılık, aynı anlam ailesinin tohum ve çekirdek çağrışımıyla kendini yenileyen bir başlangıç gibi hayal edilebilir. {ar:يَأْتِى, tr:yati, gloss:gelmek} yeni kapasitenin gelişini ürün vermeye; {ar:سَبِيلِ, tr:sabili, gloss:yol} uzanan yolu başak taşıyan bir hatta; {ar:فَضْلُ, tr:fadlu, gloss:lütuf ve fazlalık} ise hasattan sonra kalan artıya değdirir. Bu sıralama sevgiyi geliş ve emekle büyüyen bir çalışma düzeni gibi duyurur; onu çıplak bir değiş tokuş olarak bırakmaz. Bu maddi resim, bu bağlantıda yol anlamını tarla anlamıyla değiştirmez; niceliksel bir bolluk vaadi kurmadan sevginin eylemle beslendiğinde yenilenme ve artı kapasite üretebilen bir çekirdek gibi duyulmasını sağlar.
+
+## Lütfun Kapanışı
+
+Âyetin {ar:ذَٰلِكَ, tr:dhalika, gloss:işte o} sözü sevgi, iki yönlü toplumsal duruş, Allah yolunda çaba ve kınama karşısındaki kararlılığı tek bir portrede toplar; arkasındaki cümle bu portreyi kaynaklandırır. {ar:فَضْلُ, tr:fadlu, gloss:lütuf ve ihtiyaç fazlası iyilik} sıralanan nitelikleri topluluğun kendisinin kazandığı bir mülk değil, Allah'ın yükümlülük dışı iyiliği olarak yeniden adlandırır. {ar:ٱللَّهُ, tr:Allahu, gloss:Allah'ın} lütfun kaynağını ve sahipliğini açıklar. {ar:يُؤْتِيهِ, tr:yutihi, gloss:onu verir} lütfu bir alıcıya etkin biçimde ulaştırılan armağan hâline getirir. İlk geliş fiiliyle akraba bir ses taşısa da ayrı bir verme biçimidir. İkinci {ar:مَن, tr:man, gloss:her kimi} alıcının kimliğini açık bırakır; lütuf ile dileme arasındaki ilişkiyi koruyarak mümkün alıcıyı belirli bir kimlikle sınırlamaz. {ar:يَشَآءُ, tr:yasha'u, gloss:diler ve belirler} dağıtımın ilahî irade içinde gerçekleştiğini bildirir. Görünen erdemler korunur; bu niteliklerin otomatik veya miras yoluyla edinilmiş bir mülk sayılmaması lütfun çerçevesinde kalır.
+
+Bu lütuf, mevcut bir grubun elinde tuttuğu kıt bir ayrıcalık değil, Allah'ın tasarrufunda dağıtılan bir bağıştır. 3:73'teki {ar:إِنَّ ٱلْفَضْلَ بِيَدِ ٱللَّهِ يُؤْتِيهِ مَن يَشَآءُ, tr:inna al-fadla bi-yadi Allahi yu'tihi man yasha, gloss:lütuf Allah'ın elindedir ve dilediğine verir} sözü dağıtımın Allah'ın tasarrufunda kaldığını; 57:29'daki {ar:أَلَّا يَقْدِرُونَ عَلَىٰ شَىْءٍۢ مِّن فَضْلِ ٱللَّهِ, tr:alla yaqdiruna ala shayin min fadli Allahi, gloss:Allah'ın lütfundan hiçbir şeye güç yetirememeleri} karşıtlığı ise bu lütfun insan darlığına sığmadığını gösterir. 5:36'daki {ar:لِيَفْتَدُوا۟ بِهِۦ ... مَا تُقُبِّلَ مِنْهُمْ, tr:li-yaftadu bihi ma tuqabbila minhum, gloss:onunla fidye vermeye çalışmaları ve onlardan kabul edilmemesi} maddi bedelin kabulü satın alamadığını; 5:40'taki {ar:مُلْكُ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ, tr:mulku as-samawati wal-ard, gloss:göklerin ve yerin hükümranlığı} ile dileme ve kudret dili ise dağıtımın egemenlik içinde kaldığını açıklar. Böylece lütuf satın alınamayan ve bir grubun mirasına çevrilemeyen bir bağış olarak görünür; ayetin saydığı sevgi, yumuşaklık, sağlamlık ve çaba nitelikleri yerinde kalır.
+
+Fâtiha ile kurulan daha ihtiyatlı bağlantıda kapanıştaki genişlik, Fâtiha'nın {ar:رَبِّ الْعَالَمِينَ, tr:rabbi al-alamin, gloss:bütün âlemlerin Rabbi} hitabıyla daha somut bir ufuk kazanır (1:2). {ar:ٱلْعَالَمِينَ, tr:al-alamin, gloss:âlemler ve bütün yaratılmışlar} bütün yaratılmış düzeni taşıyan bir kapsam açar; insan gücünün veya bir kabın alabileceği miktarın genişliğini anlatan bu alan, ilahî sıfatta dar bir kapasiteye indirgenmeden {ar:وَٰسِعٌ, tr:wasiun, gloss:geniş ve kuşatıcı} olarak duyulur. Aynı söz {ar:عَلِيمٌ, tr:alimun, gloss:çok iyi bilen} ile buluştuğunda ilahî bilme yalnız yakın topluluğa değil bütün yaratılmış düzene ulaşan bir ufuk kazanır. Bilgi âlemler kelimesine dönüştürülmez ve ayrıntılı bir kozmoloji kurulmaz; Fâtiha yankısı Allah'ın lütfunun geniş ve bilen bir kaynaktan geldiğini belirginleştirir.
+
+Fâtiha'daki {ar:مَالِكِ يَوْمِ الدِّينِ, tr:maliki yawmi d-din, gloss:hesap gününün sahibi} sözü (1:4) {ar:دِينِهِۦ, tr:dinihi, gloss:kendi dini} kelimesine başka bir zaman ufku ekler. Din burada önce benimsenmiş dinî bağdır; aynı anlam ailesinin gün, hüküm ve karşılık ilişkisiyle duyulması, bu bağdan dönmeyi yalnız şimdiki aidiyet değişimi değil, gelecekte hesabı bulunan bir kopuş olarak genişletir. Bu yankı din kelimesini yalnız eskatolojik hüküm anlamına kapatmaz; ayetin yerel bağlılık anlatısı ile hesap verilebilirlik ufkunu aynı kelimede yan yana tutar.
+
+Fâtiha ile kurulan daha ihtiyatlı bağlantıda yol da yönü istenen bir güzergâhla karşılaşır (1:5, 1:6). {ar:يُجَٰهِدُونَ فِي سَبِيلِ ٱللَّهِ, tr:yujahiduna fi sabili Allahi, gloss:Allah'ın yolunda çaba gösterirler} ile {ar:اهْدِنَا الصِّرَاطَ الْمُسْتَقِيمَ, tr:ihdina as-sirata al-mustaqim, gloss:bizi dosdoğru yola ilet} buluştuğunda, {ar:سَبِيلِ, tr:sabili, gloss:yol} yalnız iş yapılan bir alan değil, yönü aranan ve üzerinde ilerlenen bir yol olarak duyulur. Yolun fiziksel uzanışı ile doğruluğa, iyiliğe ve kurtuluşa götüren dinî yol anlamı birlikte çalışır. Ayet Fâtiha'nın tekrarı hâline gelmez; kendi Allah yolunda çaba bağını korur.
+
+Bu yol görüntüsü {ar:قَوْمٍۢ, tr:qawmin, gloss:getirilmiş topluluk} ile {ar:الْمُسْتَقِيمَ, tr:al-mustaqim, gloss:düz ve dengeli} arasındaki anlam akrabalığına da dokunur. Getirilen topluluk yalnız ortaya çıkan bir kitle değil, dengeli ve dosdoğru bir davranış çizgisinde duran bir cemaat gibi hissedilebilir. Bu, topluluk adının yerine fiziksel bir duruş koymaz ve eksiksiz bir ahlak profili ilan etmez; rehberlik ve yol görüntüsünün açtığı sınırlı bir doğruluk ve süreklilik niteliğidir.
+
+Son olarak Fâtiha'daki {ar:صِرَاطَ الَّذِينَ أَنْعَمْتَ عَلَيْهِمْ, tr:sirata alladhina an'amta alayhim, gloss:nimet verdiklerinin yolu} sözü (1:7) {ar:فَضْلُ ٱللَّهِ, tr:fadlu Allahi, gloss:Allah'ın lütfu} ile buluşur. Lütuf burada topluluğun sevgi, sağlamlık ve çabasında görünür olmadan önce alınmış bir ilahî bağış olarak duyulur; sonraki eylem bu bağışı geçersiz kılmaz, onu görünür hâle getirir. Böylece alan ve eyleyen topluluk arasındaki ilişki aynı anda taşınır: bu bağlantıda Allah'ın getirdiği topluluğun tarihî adı açılmaz; topluluk sevgiyle başlayan, yol üzerinde çalışan ve genişliği dar bir sahipliğe sığmayan bir lütufla karşılaşır. Cümlenin sonundaki {ar:وَ, tr:wa, gloss:ve} yeni bir nitelik cümlesi açar; {ar:ٱللَّهُ, tr:Allahu, gloss:Allah} artık topluluğun değil kapanışta verilen iki hükmün öznesidir. {ar:وَٰسِعٌ, tr:wasiun, gloss:geniş ve kuşatıcı} topluluğun çekilmesinin ilahî imkânı tüketmediğini; {ar:عَلِيمٌ, tr:alimun, gloss:çok iyi bilen} ise bu genişliğin kör bir dağıtım olmadığını bildirir. Lütuf geniştir ve onu kime ulaştıracağını bilen bir iradeyle verilir.
+
+</editorial_prose>

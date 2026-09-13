@@ -1,0 +1,693 @@
+{
+  "schema_version": "commentary-v5-scope-discovery-v1",
+  "ayah_ref": "5:21",
+  "lane": "global",
+  "coverage_complete": true,
+  "candidate_decisions": [
+    {
+      "candidate_id": "cand_ecd478b8e405d8b0ce4c",
+      "decision": "accept",
+      "reason": "Güvenilir çapraz-koşu yayını, 5:21 yüzeyindeki dört hareket ve sonuç taşıyıcısını açıkça bağlar. Giriş ile geri dönüş karşıtlığı, yönelişin ve kaybın ilişkisini değiştiren maddi bir okuma üretir.",
+      "finding_refs": ["global:reversal-cascade"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_6cee91b44f9c5f356dc3",
+      "decision": "accept",
+      "reason": "Güvenilir çapraz-koşu desteği, kutsal yer dalını 5:21:4:2 üzerinde citable biçimde sabitler. Giriş buyruğu ve daha geniş kutsal-mekân teması, sıfatı arınmış veya bereketli bir hedef olarak duyurur.",
+      "finding_refs": ["global:prepared-sacred-place"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_8663063fe0ceeb3c086b",
+      "decision": "represented",
+      "reason": "Girişe karşı geri dönüş ve kaybın geri çekilmeden üremesi, global:reversal-cascade bulgusunun aynı focus yüzeyine dönen çekirdeğidir. Bulguda adayın iki branch_ref'i ve recursive-loss nüansı korunmuştur.",
+      "finding_refs": ["global:reversal-cascade"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_817826bc5247aadfce07",
+      "decision": "represented",
+      "reason": "Kutsal toprağın arınma için hazırlanmış yer olarak duyulması, global:prepared-sacred-place bulgusundaki aynı root_001206/B002 çekirdeğiyle örtüşür; girişle karşılık bulma açıklaması da korunmuştur.",
+      "finding_refs": ["global:prepared-sacred-place"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_56028e218707d4a46265",
+      "decision": "reject",
+      "reason": "5:120 retrospektifi ordered_context_refs veya exact surface evidence içinde bulunmuyor. Aday yalnızca odağı işaret ediyor; bağımsız taşıyıcı, trigger ve focus return vermediği için bu okuma packet sınırı içinde kurulamaz.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [
+        {
+          "context_ref": "5:120",
+          "reason": "Destek metninde anılıyor, fakat packet'te doğrulanabilir context unit veya exact Arabic olarak sağlanmıyor."
+        }
+      ],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_140c8d5f4288faf8acba",
+      "decision": "represented",
+      "reason": "Geniş bağlam okuyuşunun root_000555/B001 üzerinden kurduğu yön testi, global:reversal-cascade bulgusunun aynısıdır. Bulguda 5:20, 5:22-5:24 ve 5:26 trigger'ları landed durumdadır.",
+      "finding_refs": ["global:reversal-cascade"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_1b64e27ab8820dde062c",
+      "decision": "accept",
+      "reason": "5:26 ordered context içinde yer alıyor ve retrospective reader walk, odak ayetindeki geri dönüşü yönsüz dolaşmayla ilişkilendiriyor. Bu, yön değişiminin kayba mekânsal ve zamansal biçim vermesi bakımından ayrı bir payoff'tur.",
+      "finding_refs": ["global:retreat-to-wandering"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_825d54bf4e4346cbe90b",
+      "decision": "reject",
+      "reason": "remaining_uncertainties/0 unanchored HFT özeti olarak focus/context occurrence, bağımsız trigger, branch veya focus return sağlamaz. İki arınma ihtimali anchored global:purified-just-order bulgusunun containment'ında tutulur; kayıt ayrı aktivasyon değildir.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_09a04ce634260c961c14",
+      "decision": "reject",
+      "reason": "remaining_uncertainties/1 yalnızca cross-form standing ihtimalini bildirir; exact HFT trace'te taşıyıcı, bağımsız trigger ve focus return yoktur. Koşullu standing niteliği global:standing-collective bulgusunun sınırında tutulur.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_a504ae12c5e546a819eb",
+      "decision": "reject",
+      "reason": "remaining_uncertainties/2 alternate mapped-root outlier'larını analogical ve exploratory sayar, ancak focus/context occurrence, root-coordinate trace veya focus return sunmaz. Gerekli carrier-trigger edge packet'te kurulmamıştır.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_0a7ad40b6795c257ba62",
+      "decision": "reject",
+      "reason": "remaining_uncertainties/3 koşulsuz hediye karşı-okumasını bildirir, fakat anchorsız bir HFT özetidir. Alternatif global:covenantal-commission containment'ında canlı tutulur; kendi başına carrier-trigger ilişkisi oluşturmaz.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_2bf2c6e74499026b347d",
+      "decision": "represented",
+      "reason": "strongest_changes/0, exact trace'i bulunan ctx_covenantal_commission adayının yazıdan yükümlülük taşıyan komisyona dönüşen aynı okumasını tekrarlar.",
+      "finding_refs": ["global:covenantal-commission"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_9598e9a50844e7628e7d",
+      "decision": "represented",
+      "reason": "strongest_changes/1, 5:22-23'te girişin güvenli varış değil koşul değiştiren eylem olarak görünmesini söyler. Bu içerik global:reversal-cascade içinde aynı focus-return ve 5:22-5:26 trigger'larıyla landed'dır.",
+      "finding_refs": ["global:reversal-cascade"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_31172661a9edf5e44738",
+      "decision": "represented",
+      "reason": "strongest_changes/2'nin standing, sitting ve separation üzerinden kolektif kimliği kuran iddiası, exact HFT trace'li global:standing-collective bulgusuyla aynıdır.",
+      "finding_refs": ["global:standing-collective"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_580d80083de0d12669cd",
+      "decision": "represented",
+      "reason": "strongest_changes/3'ün kutsal hedefi ölçülü ve yönsüz dolaşmaya çeviren aftermath iddiası, 5:26 retrospektifini taşıyan global:retreat-to-wandering bulgusunun aynı sonucudur.",
+      "finding_refs": ["global:retreat-to-wandering"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_dd9cd543619eebe92cf3",
+      "decision": "reject",
+      "reason": "what_was_special, anchored olmayan reversal cascade ile alternate mapped-root outlier'larını tek sentezde birleştirir. Reversal çekirdeği başka exact/citable adaylarda landed; outlier kısmında coordinate, branch ve focus return yoktur. Kayıt bütünü exact duplicate değildir.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_3e49e65c0b7f0208cb48",
+      "decision": "accept",
+      "reason": "Exact HFT trace, 5:1, 5:7 ve 5:21 anchor ayetlerini, source word indices'i ve focus dönüşünü birlikte verir. Focus'taki yazma ve girme, akitleri tamamlama ve misak trigger'larıyla temas ederek covenantal-commission okuması üretir.",
+      "finding_refs": ["global:covenantal-commission"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_c9406a5c247277c894bc",
+      "decision": "accept",
+      "reason": "Exact HFT trace, 5:6 ve 5:8'deki arınma, standing, adalet ve hakkaniyet rollerini 5:21 kutsal yer ve giriş yüzeyine geri döndürür. Supplied ve unresolved branch'ler landed; locative kutsallığı silmeden enacted communal order okuması kurulur.",
+      "finding_refs": ["global:purified-just-order"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_38dd942d21c9777d60f7",
+      "decision": "accept",
+      "reason": "Exact HFT trace, 5:21 qawm taşıyıcısını 5:8 standing, 5:24 sitting ve 5:25 separation ile aynı attributed relation içinde bağlar. Vocative, duruşla sınanan kolektif kimlik olarak görünür; noun-to-verb iddiası kurulmaz.",
+      "finding_refs": ["global:standing-collective"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    }
+  ],
+  "findings": [
+    {
+      "finding_ref": "global:reversal-cascade",
+      "origin_candidate_id": "cand_ecd478b8e405d8b0ce4c",
+      "represented_candidate_ids": [
+        "cand_8663063fe0ceeb3c086b",
+        "cand_140c8d5f4288faf8acba",
+        "cand_9598e9a50844e7628e7d"
+      ],
+      "title": "Giriş buyruğu ile geri dönüşün yön karşıtlığı",
+      "claim": "5:21'de içeri girme buyruğu, geri dönme, arkayı dönüp uzaklaşma ve yönü tersine çevirme imgeleriyle karşı karşıya gelir; yöneliş iki kez sınanır ve kayıp, yalnızca hedefe ulaşamama değil, geri çekilerek kendi hareketinden doğan eksilme olarak görünür. 5:20 ve 5:22-5:26 context'i, bu girişi güvenli varıştan koşulu değişen ve verilen imkânı hedefinden çevirince yönsüzleşen bir harekete açar.",
+      "mechanism": "5:21:2:1'deki ٱدْخُلُوا۟ ileri yönlü trigger olarak 5:21:10:1'deki تَرْتَدُّوا۟ geri dönüşü, 5:21:12:1'deki أَدْبَارِكُمْ arka yönünü, 5:21:13:2'deki تَنقَلِبُوا۟ yön değişimini ve 5:21:14:1'deki خَٰسِرِينَ eksilmeyi bağlar. 3:149 connection'ı aynı dönüş-kayıp düzeninin exact target surface'ini verir; 5:22-5:24 ve 5:26 reader/context kayıtları varış koşulunu değiştirip dolaşmaya açılan sonucu taşır.",
+      "reader_payoff": "Okur, arkanızı dönmeyin sözünü tek bir coğrafi yasak olarak tutarken geri dönüşün kaybı üreten bir yön işlemi olduğunu ve kaybın hareketin biçim değiştirmiş sonucu olarak okunabildiğini görür.",
+      "containment": "Bu okuma gerçek ve yönlü giriş komutunu kaldırmaz. أَدْبَارِكُمْ burada savaş yenilgisi dalını zorunlu kılmaz; خَٰسِرِينَ genel eksilme dalında tutulur. 5:20 ve 5:22-5:26 supplied reader/context evidence'tir; bütün sûra çapında bir sistem iddia edilmez.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": ["legacy_unbound", "trusted"],
+        "reason": "Dört focus branch'i trusted cross-run publicationda citable biçimde vardır. Reader-walk ve HFT summary kayıtları aynı değişimi genişletir, ancak legacy_unbound oldukları ve context morphology tam sağlanmadığı için birleşik bulgu qualified'dır."
+      },
+      "support_ids": [
+        "sup_fbe99ee456dcfed8f1d9",
+        "sup_00874faca7adf32e99ab",
+        "sup_9339e2b23b1230b3e3be",
+        "sup_c3d235f5a911cdb6f66e"
+      ],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000555/B001",
+          "facet_id": "F001",
+          "branch_gloss": "geri dönme veya geri döndürme",
+          "facet_statement": "Hareketin temel yönü, bir varlığın daha önce bulunduğu yere veya duruma geri gelmesidir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["5:21:10:1"],
+          "trigger_refs": ["5:21:2:1", "3:149", "conn_3cc30f1658f825fbbc86", "5:20", "5:22", "5:23", "5:24", "5:26"],
+          "focus_return_refs": ["5:21:10:1"],
+          "carrier": "5:21:10:1'deki تَرْتَدُّوا۟ yüzeyi daha önceki yere veya duruma geri gelme hareketini taşır.",
+          "independent_trigger": "5:21:2:1 giriş buyruğu ileri yönü kurar; 3:149 exact target'ı ve 5:20, 5:22-5:24, 5:26 context kayıtları bu yönün geri çevrilmesiyle oluşan sonucu tetikler.",
+          "activation": "İleri yön ile geri dönüş carrier'ı temas edince yasak, hareketin durması değil önceki yöne çevrilmesi olarak okunur; kayıp bu dönüşün hareket içindeki sonucu olur.",
+          "resulting_reading": "Geri dönmek, verilen yönelişi kendi içinde geri alan ve kaybı üreten bir hareket olarak görünür.",
+          "boundary": "Bu, تَرْتَدُّوا۟ biçiminin her bağlamda bütün anlamlarını taşıdığı veya fiziksel girişin yerine başka bir anlam geçtiği iddiası değildir."
+        },
+        {
+          "branch_ref": "root_000458/B001",
+          "facet_id": "F001",
+          "branch_gloss": "arka taraf",
+          "facet_statement": "Bir nesnenin önünün karşısında bulunan arka bölümü veya arka yönü belirtir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["5:21:12:1"],
+          "trigger_refs": ["5:21:2:1", "3:149", "conn_3cc30f1658f825fbbc86"],
+          "focus_return_refs": ["5:21:12:1"],
+          "carrier": "5:21:12:1'deki أَدْبَارِكُمْ yüzeyi önün karşısındaki arka yönü bedensel bir eksen olarak taşır.",
+          "independent_trigger": "Giriş buyruğu ve 3:149'teki arka tarafa dönüş paraleli, arka yönü sabit konumdan hareketin çevrildiği karşı yöne taşır.",
+          "activation": "Arka yön carrier'ı girişin hedef doğrultusuyla temas ederek geri'yi soyut başarısızlık değil bedende görülen yön değişimi yapar.",
+          "resulting_reading": "Kayıp, sırtın hedefe dönmesiyle görünürleşen yön kaybının devamı olur.",
+          "boundary": "Duymazdan gelme, yok etme veya savaş yenilgisi uzantıları bu activation tarafından kurulmaz."
+        },
+        {
+          "branch_ref": "root_000458/B003",
+          "facet_id": "F001",
+          "branch_gloss": "sırtını dönüp uzaklaşma",
+          "facet_statement": "Bir şeye yönelmeyi bırakıp sırtını dönerek ondan uzaklaşmayı belirtir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["5:21:12:1"],
+          "trigger_refs": ["5:21:2:1", "3:149", "conn_3cc30f1658f825fbbc86"],
+          "focus_return_refs": ["5:21:12:1"],
+          "carrier": "أَدْبَارِكُمْ yüzeyi, arkayı adlandırmanın yanında yönelmeyi bırakıp sırt çevirerek uzaklaşmayı taşır.",
+          "independent_trigger": "ٱدْخُلُوا۟ giriş buyruğu karşı yönü verir; 3:149 geri dönme ile خَٰسِرِينَ sonucunu aynı target yüzeyinde birleştirir.",
+          "activation": "Hedefe yönelme ile sırt çevirip uzaklaşma aynı eksene yerleşince yasak, duraklamadan ziyade yönün etkin biçimde bırakılması olur.",
+          "resulting_reading": "Girişin karşıtı, hareketsizlikten çok hedefle bağı kesen aktif geri çekilmedir.",
+          "boundary": "Savaşta kaçış ve yenilgi burada dalın sınırıdır; ayete zorunlu kılınmaz."
+        },
+        {
+          "branch_ref": "root_001248/B004",
+          "facet_id": "F001",
+          "branch_gloss": "çevirmek ve yönünü değiştirmek",
+          "facet_statement": "Bir nesneyi yüzünden başka yüze çevirmek, ters çevirmek veya altüst etmektir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["5:21:13:2"],
+          "trigger_refs": ["5:21:2:1", "3:149", "conn_3cc30f1658f825fbbc86"],
+          "focus_return_refs": ["5:21:13:2"],
+          "carrier": "5:21:13:2'deki تَنقَلِبُوا۟ yüzeyi yüzün veya yönün başka yöne ve ters duruma çevrilmesini taşır.",
+          "independent_trigger": "Girişin ileri doğrultusu ve 3:149'teki dönüş-kayıp düzeni bu çevrilmeyi sonuç olarak tetikler.",
+          "activation": "Giriş ile geri çekilme karşıtlığı, تَنقَلِبُوا۟ carrier'ını basit dönüşten sonucu tersine çeviren harekete taşır.",
+          "resulting_reading": "Yönü çevirmek, eylemin sonucunu da tersine çeviren bir dönüş haline gelir.",
+          "boundary": "Yürek, öz, kuyu veya akıbet dalları bu focus yüzeyiyle etkinleştirilmemiştir."
+        },
+        {
+          "branch_ref": "root_000409/B001",
+          "facet_id": "F001",
+          "branch_gloss": "eksilme ve değer yitimi",
+          "facet_statement": "Bir şey, sahip olduğu miktarın, bütünlüğün veya değerin bir bölümünü yitirir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["5:21:14:1"],
+          "trigger_refs": ["5:21:13:2", "3:149", "conn_3cc30f1658f825fbbc86", "5:26"],
+          "focus_return_refs": ["5:21:14:1"],
+          "carrier": "5:21:14:1'deki خَٰسِرِينَ yüzeyi miktar, bütünlük veya değer bakımından eksilmeyi taşır.",
+          "independent_trigger": "فَ sonuç bağlayıcısı, reversal carrier'ı, 3:149'teki kayıp ve 5:26 retrospective'i eksilmeyi hareket zincirine bağlar.",
+          "activation": "Yön değişimi ile kayıp aynı sonuç zincirinde buluşunca genel eksilme geri çevrilen hareketin sonucu olur.",
+          "resulting_reading": "Kayıp, geri çekilmenin ardından gelen dışsal bir durum değil, yönelişin tersine çevrilmesiyle büyüyen eksilmedir.",
+          "boundary": "Branch yalnız genel eksilmeyi taşır; ticaret, ölçüde hile veya ayrı bir ruhsal yıkım dalı çıkarılmaz."
+        }
+      ],
+      "connection_refs": ["conn_3cc30f1658f825fbbc86"],
+      "context_refs": ["3:149", "5:20", "5:22", "5:23", "5:24", "5:26"],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:prepared-sacred-place",
+      "origin_candidate_id": "cand_6cee91b44f9c5f356dc3",
+      "represented_candidate_ids": ["cand_817826bc5247aadfce07"],
+      "title": "Kutsal toprağın arınmaya hazırlanmış hedef oluşu",
+      "claim": "ٱلْمُقَدَّسَةَ ile nitelenen toprak, ayrılmış bir yer olmanın yanında arınmış veya bereketli sayılan, girişin yöneldiği hazırlanmış bir hedef olarak da duyulur; yazılmış pay girişle karşılık bulacak bir arınma yönelimi kazanır.",
+      "mechanism": "5:21:4:2 kutsal yer taşıyıcısı, 5:21:2:1 giriş buyruğuyla somut hedefe bağlanır. 79:16 connection'ının exact sacred-place yüzeyi dalın mekânsal çekirdeğini genişletir; citable finding ve reader walk hazırlanmış arınma yeri okumasını destekler.",
+      "reader_payoff": "Okur, kutsal sıfatının yalnızca haritada ayrılmış bölgeyi belirtmediğini; girişin arınmış veya bereketli diye tanınan yere doğru gerçekleştiğini görür.",
+      "containment": "Bu bulgu kutsallığı yalnızca içsel ahlak kuralına çevirmez ve yerin locative anlamını kaldırmaz. 79:16 yalnız mekânsal paraleldir; target morphology packet'te yoktur ve ondan ilave hüküm çıkarılmaz.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": ["legacy_unbound", "trusted"],
+        "reason": "qds B002 ve focus anchor trusted citable kayıtta açıktır; prepared-purification ve responsive-entry ayrıntısı legacy_unbound reader walk'tan gelir. Connection hedefi exact surface verir, target morphology vermez."
+      },
+      "support_ids": ["sup_3165ad71907fca84a7c2", "sup_b0e0465cd8d72e518b83"],
+      "branch_activations": [
+        {
+          "branch_ref": "root_001206/B002",
+          "facet_id": "F001",
+          "branch_gloss": "arınmış veya bereketli sayılan yer",
+          "facet_statement": "Arınmış veya bereketli diye nitelenen toprak ve yer.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["5:21:4:2"],
+          "trigger_refs": ["5:21:2:1", "79:16", "conn_16828da129dbede3d1b7"],
+          "focus_return_refs": ["5:21:4:2"],
+          "carrier": "5:21:4:2'deki مُقَدَّسَةَ sıfatı toprağı arınmış veya bereketli sayılan yer olarak taşır.",
+          "independent_trigger": "Giriş buyruğu sıfatı gidilecek hedefe bağlar; 79:16 ve conn_16828da129dbede3d1b7 exact sacred-place yüzeyi aynı yer niteliğini çağırır.",
+          "activation": "Kutsallık taşıyıcısı girişin yöneldiği toprakla temas edince yer, ayrılmış olmanın yanında arınmış veya bereketli bir varış olarak görünür.",
+          "resulting_reading": "Kutsal toprak, arınma için hazırlanmış bir hedef olarak da okunur.",
+          "boundary": "Bu branch yerin niteliğini taşır; girenlerin otomatik arınmış olduğu veya sıfatın yalnızca dinî yol olduğu iddia edilmez."
+        }
+      ],
+      "connection_refs": ["conn_16828da129dbede3d1b7"],
+      "context_refs": ["79:16"],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:retreat-to-wandering",
+      "origin_candidate_id": "cand_1b64e27ab8820dde062c",
+      "represented_candidate_ids": ["cand_580d80083de0d12669cd"],
+      "title": "Geri dönüşün yönsüz dolaşmaya açılması",
+      "claim": "5:21'deki geri dönüş yasağı, 5:26 retrospektifinin açtığı okumada, yönlendirilmiş girişi yalnızca durdurmaz; onu izsiz ve yönsüz dolaşmaya çevirir. Kayıp böylece mekânsal ve zamansal bir hareket biçimi kazanır.",
+      "mechanism": "5:21:10:1'deki تَرْتَدُّوا۟ geri dönüş carrier'ı, ordered context'teki 5:26 trigger'ıyla temas eder. Retrospective reader record, daha sonraki aftermath'ı hedefe yönelen hareket ile trackless motion arasındaki değişmiş sonuç ilişkisi olarak adlandırır.",
+      "reader_payoff": "Okur, kaybı soyut bir hüküm olarak bırakmaz; geri çevrilen yönün sonrasında nereye gidileceğinin belirsizleştiğini, kaybın dolaşma hâline yayıldığını görür.",
+      "containment": "5:26 legacy reader/context trigger'ıdır; exact Arabic veya morphology packet'te sağlanmadığı için ayrıntıları yeniden kurulmaz. تَرْتَدُّوا۟ kelimesine doğrudan dolaşma sözlük anlamı yüklenmez ve sûra çapında tekrar eden sistem iddia edilmez.",
+      "epistemic": {
+        "status": "exploratory",
+        "source_trust": ["legacy_unbound"],
+        "reason": "5:26 ordered context'te bulunur ve iki legacy_unbound retrospective kayıt aynı yön değişimi sonucunu verir; exact context surface ve bağımsız kelime analizi yoktur."
+      },
+      "support_ids": ["sup_2fe157a45e571ec7be35", "sup_3af751e3ff24c9afe54a"],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000555/B001",
+          "facet_id": "F001",
+          "branch_gloss": "geri dönme veya geri döndürme",
+          "facet_statement": "Hareketin temel yönü, bir varlığın daha önce bulunduğu yere veya duruma geri gelmesidir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["5:21:10:1"],
+          "trigger_refs": ["5:26"],
+          "focus_return_refs": ["5:21:10:1"],
+          "carrier": "5:21:10:1'deki تَرْتَدُّوا۟ yüzeyi önceki yöne veya duruma geri gelme hareketini taşır.",
+          "independent_trigger": "5:26 ordered context'te daha sonraki aftermath olarak verilen bağımsız trigger'dır; retrospective reader record bunu yönsüz dolaşma sonucu olarak adlandırır.",
+          "activation": "Önceki yöne dönüş carrier'ı trackless-motion trigger'ıyla temas edince geri dönüşün yön duygusunu dağıtan sonucu görünürleşir.",
+          "resulting_reading": "Geri çevrilmiş giriş, yönsüz dolaşma ve uzayan kayıp hâline dönüşür.",
+          "boundary": "Bu attributed reading 5:26'nın packet'te verilmeyen ayrıntılarını tamamlamaz ve تَرْتَدُّوا۟ carrier'ına dolaşma anlamını lexically zorunlu kılmaz."
+        }
+      ],
+      "connection_refs": [],
+      "context_refs": ["5:26"],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:covenantal-commission",
+      "origin_candidate_id": "cand_3e49e65c0b7f0208cb48",
+      "represented_candidate_ids": ["cand_2bf2c6e74499026b347d"],
+      "title": "İlâhî yazının sözleşmesel komisyona açılması",
+      "claim": "كَتَبَ ile bildirilen ilahî yazı, yerin kendilerine ayrılmış bir pay olduğunu söylemenin yanında, girişle yerine getirilecek bağlayıcı bir komisyon olarak da duyulur; verilen pay ile ona karşılık gelen yükümlülük aynı işlemde görünür.",
+      "mechanism": "5:21:6:1'deki كَتَبَ ve 5:21:2:1'deki ٱدْخُلُوا۟ focus taşıyıcıları, HFT trace'in 5:1 dördüncü kelimedeki tamamlama, beşinci kelimedeki bağlı yükümlülük ve 5:7 beşinci/yedinci kelimelerdeki covenant rollerine döner. Bu context carrier'ları yazıyı salt metinden girişle cevaplanacak bağlayıcı belirlemeye taşır.",
+      "reader_payoff": "Okur, Allah'ın size yazdığı ifadesindeki yazının sessiz bir mülkiyet başlığı gibi durmadığını; giriş eylemiyle karşılık bekleyen bir tahsis olarak da işlediğini fark eder.",
+      "containment": "Yazılmış payın hediye veya koşulsuz tahsis olma ihtimali ortadan kaldırılmaz; HFT live alternative, yükümlülüğün sonradan eklenen cevap olabileceğini korur. Unresolved context root'lara branch gloss veya lexicon facet eklenmez; commission attributed HFT inference'tır.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": ["legacy_unbound"],
+        "reason": "HFT trace üç exact anchor ayeti, source word indices'i, focus dönüşlerini ve changed_reading'i verir. Focus ktb/dkh facet'leri supplied olsa da üç context branch registry'de unresolved'dur; source legacy_unbound'dur."
+      },
+      "support_ids": ["sup_6084aee5a3fdb9b50d26", "sup_cec56f42736692132d98", "sup_b4da8ac35d5a6ae4b4e0"],
+      "branch_activations": [
+        {
+          "branch_ref": "root_001283/B003",
+          "facet_id": "F001",
+          "branch_gloss": "bağlayıcı olarak hükme bağlama ve belirleme",
+          "facet_statement": "Bir işi yapılması gereken bağlayıcı bir yükümlülük olarak belirlemek temel değerlerden biridir.",
+          "application_mode": "attributed",
+          "carrier_refs": ["5:21:6:1"],
+          "trigger_refs": ["5:1", "5:7", "hft_928f16935fae2fbcc375"],
+          "focus_return_refs": ["5:21:6:1"],
+          "carrier": "5:21:6:1'deki كَتَبَ focus arazisini bağlayıcı olarak belirleme yönünde taşır.",
+          "independent_trigger": "HFT trace'in 5:1'deki akitleri tamamlama/bağlama ve 5:7'deki misak ile işitip itaat etme kayıtları yazılı tahsisin yükümlülük yönünü tetikler.",
+          "activation": "Focus yazısı covenant context'lerinin bağlayıcı yönüyle temas edince, yazmak girişle yerine gelecek bir hükme bağlama olarak görünür.",
+          "resulting_reading": "Allah'ın yazması, payı ve o paya karşılık gelen görevi birlikte belirleyen bir komisyondur.",
+          "boundary": "Salt yazı yazma, kaderin bütün ayrıntıları veya bağımsız hukuk sistemi bu activation ile ileri sürülmez."
+        },
+        {
+          "branch_ref": "root_000464/B001",
+          "facet_id": "F001",
+          "branch_gloss": "içeri girmek veya içeri sokmak",
+          "facet_statement": "Bir kişi ya da şey dışarıdaki bir konum veya durumdan içerideki konum veya duruma geçer.",
+          "application_mode": "attributed",
+          "carrier_refs": ["5:21:2:1"],
+          "trigger_refs": ["5:1", "5:7", "hft_928f16935fae2fbcc375"],
+          "focus_return_refs": ["5:21:2:1"],
+          "carrier": "5:21:2:1'deki ٱدْخُلُوا۟ dışarıdaki konumdan içerideki toprağa geçişi taşır.",
+          "independent_trigger": "5:1 ve 5:7 context'lerindeki tamamlanma ve covenantal itaat, geçişi yazılmış belirlemenin yerine getirilme eylemi olarak tetikler.",
+          "activation": "İçeri geçme carrier'ı cevap bekleyen sözleşme ve misak yapısıyla temas ederek girişin tahsise fiilî cevap olduğunu görünür kılar.",
+          "resulting_reading": "Komisyonun insan tarafı, yazılmış paya doğru gerçek bir içeri geçişle karşılık bulur.",
+          "boundary": "Girişin mekânsal hareket oluşu korunur; gizli iç yüz veya içten bozukluk dalları etkin değildir."
+        },
+        {
+          "branch_ref": "root_001669/B001",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": ["5:1"],
+          "trigger_refs": ["5:21:6:1", "hft_928f16935fae2fbcc375"],
+          "focus_return_refs": ["5:21:6:1"],
+          "carrier": "HFT trace'in 5:1 source_ref ve dördüncü kelime indisi tamamlanma ve eksiksiz yerine getirme rolünü taşır.",
+          "independent_trigger": "Focus'taki كَتَبَ yüzeyi bu tamamlanmayı yazılmış belirlemenin fiilî cevabı olarak geri çağırır.",
+          "activation": "Context'teki tamamlanma rolü focus yazısına dönünce girişin sözel onay değil tamamlanmış karşılık olarak anlaşılmasını sağlar.",
+          "resulting_reading": "Yazılmış tahsis, tamamlanmış bir cevap bekleyen eylem ilişkisi içinde görünür.",
+          "boundary": "Root registry unresolved olduğu için branch gloss, facet veya bağımsız lexicon anlamı uydurulmaz."
+        },
+        {
+          "branch_ref": "root_001034/B002",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": ["5:1"],
+          "trigger_refs": ["5:21:6:1", "hft_928f16935fae2fbcc375"],
+          "focus_return_refs": ["5:21:6:1"],
+          "carrier": "HFT trace'in 5:1 source_ref ve beşinci kelime indisi sağlam biçimde bağlanmış yükümlülük rolünü taşır.",
+          "independent_trigger": "Focus'taki ilahî yazma ve size tahsis etme ilişkisi, bağlı yükümlülük rolünün döndüğü yüzeydir.",
+          "activation": "Bağlı obligation carrier'ı focus yazısıyla temas edince size ifadesi pasif sahiplikten çok bağlayıcı karşılık ilişkisi içinde okunur.",
+          "resulting_reading": "Tahsis, onu alan topluluğu cevap vermeye bağlayan bir ilişki olarak görünür.",
+          "boundary": "Unresolved branch için özgül gloss, hukukî ayrıntı veya HFT rolünü aşan teori kurulmaz."
+        },
+        {
+          "branch_ref": "root_001623/B004",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": ["5:7"],
+          "trigger_refs": ["5:21:6:1", "hft_928f16935fae2fbcc375"],
+          "focus_return_refs": ["5:21:6:1"],
+          "carrier": "HFT trace'in 5:7 source_ref ve beşinci/yedinci kelime indisleri teyit edilmiş covenant ile işitip itaat etme rolünü taşır.",
+          "independent_trigger": "Focus'taki كَتَبَ ve لَكُمْ ilişkisi, teyit edilmiş bağlılık rolüne dönen contact'tır.",
+          "activation": "Covenant carrier'ı yazılmış tahsisle temas edince ilahî belirleme ile insanın yerine getiren hareketi aynı işlemde duyulur.",
+          "resulting_reading": "Yazı, covenantal çağrı ile ona cevap veren girişin birlikte kurduğu komisyon olarak görünür.",
+          "boundary": "Root unresolved olduğundan branch gloss veya facet icat edilmez; koşulsuz hediye alternatifi canlı kalır."
+        }
+      ],
+      "connection_refs": [],
+      "context_refs": ["5:1", "5:7"],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:purified-just-order",
+      "origin_candidate_id": "cand_c9406a5c247277c894bc",
+      "represented_candidate_ids": [],
+      "title": "Kutsal hedefin arınmış ve adil topluluk düzenine açılması",
+      "claim": "Kutsal toprağa girmek, yerin kutsal oluşunu korurken, arınmışlık, sorumlu duruş, hakkaniyet ve adaletin birlikte sürdürüldüğü bir topluluk düzenine girmek ve onu taşımak olarak da görünür.",
+      "mechanism": "5:21:4:2 kutsallık ve 5:21:2:1 içeri geçiş taşıyıcıları, HFT trace'teki 5:6 pratik arınma ile 5:8 sürekli gözetim, hakkaniyet ve adalet rollerine temas eder. Bu context carrier'ları kutsal sıfatını yalnız konuma bırakmayıp girenlerin sürdürdüğü düzen olarak renklendirir.",
+      "reader_payoff": "Okur, kutsal yerin girişten önce hazır duran mekân olduğunu görmeye devam ederken, giriş buyruğunun bu niteliği topluluk hayatında yaşatacak düzenle temas ettiğini fark eder.",
+      "containment": "HFT live alternative, مُقَدَّسَةَ sıfatının tamamen locative kalmasıdır ve dışlanmaz. Unresolved context root'lara gloss veya facet verilmez; packet bu ayetten tam bir ahlâk programı veya sûra çapında sistem çıkarmaz.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": ["legacy_unbound"],
+        "reason": "HFT trace exact anchor Arabic, source ayetleri ve focus dönüşlerini verir; üç context root registry'de unresolved ve sonuç reader_inference olarak yazılmıştır. Locative uncertainty görünür tutulur."
+      },
+      "support_ids": ["sup_7fb8084096d00767e9b8", "sup_37c0c3b6395dc8005852"],
+      "branch_activations": [
+        {
+          "branch_ref": "root_001206/B001",
+          "facet_id": "F001",
+          "branch_gloss": "arınma, arıtma ve eksiklikten uzak sayma",
+          "facet_statement": "Bir varlığın arı olması veya arı duruma gelmesi.",
+          "application_mode": "attributed",
+          "carrier_refs": ["5:21:4:2"],
+          "trigger_refs": ["5:6", "5:8", "hft_9e4958fa2fe9a94baf64"],
+          "focus_return_refs": ["5:21:4:2"],
+          "carrier": "5:21:4:2'deki مُقَدَّسَةَ kutsallığı arınmış ve arı duruma gelmiş olma yönünde taşır.",
+          "independent_trigger": "5:6'nın pratik arınma ve 5:8'in adalet taşıyan topluluk rolleri focus niteliğinin enacted yönünü tetikler.",
+          "activation": "Yerin kutsallığı üretilen arınma durumunu gösteren context carrier'larıyla temas edince girişin arınmış bir düzene katılma yönü görünürleşir.",
+          "resulting_reading": "Kutsallık, mekân etiketi yanında arınma niteliğiyle taşınan düzenin zemini olur.",
+          "boundary": "Yerin kutsallığı ortadan kaldırılmaz; bereketli yer veya başka qds dalları eklenmez."
+        },
+        {
+          "branch_ref": "root_000464/B003",
+          "facet_id": "F001",
+          "branch_gloss": "içte kalan yan",
+          "facet_statement": "Bir kişi veya işin dışarıdan görünmeyen iç durumu ve saklı yönü anlatılır.",
+          "application_mode": "attributed",
+          "carrier_refs": ["5:21:2:1"],
+          "trigger_refs": ["5:6", "5:8", "hft_9e4958fa2fe9a94baf64"],
+          "focus_return_refs": ["5:21:2:1"],
+          "carrier": "5:21:2:1'deki ٱدْخُلُوا۟ dışarıdan içeriye geçişin yanında içte kalan bir düzene dahil olma yönünü taşır.",
+          "independent_trigger": "5:6'nın hazırlayıcı arınması ve 5:8'in topluluğu adaletle ayakta tutması entry carrier'ının iç düzen yönünü tetikler.",
+          "activation": "İçeri geçme yüzeyi pratik arınma ve adaletle tanımlanan order'a temas edince giriş salt koordinat değiştirmekten iç düzene katılmaya açılır.",
+          "resulting_reading": "Giriş, kutsal mekânın içsel düzenine katılmayı ve onu sürdürmeyi de görünür kılar.",
+          "boundary": "Gizli kusur veya aldatma anlamı taşımaz; focus'un mekânsal anlamı silinmez."
+        },
+        {
+          "branch_ref": "root_000953/B003",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": ["5:6"],
+          "trigger_refs": ["5:21:4:2", "hft_9e4958fa2fe9a94baf64"],
+          "focus_return_refs": ["5:21:4:2"],
+          "carrier": "HFT trace'in 5:6 source_ref ve 21/56 kelime indisleri hazır olmayan durumdan pratik arınmayla geçiş rolünü taşır.",
+          "independent_trigger": "Focus'taki مُقَدَّسَةَ bu arınma geçişinin döndüğü kutsallık yüzeyidir.",
+          "activation": "Pratik arınma carrier'ı kutsal yer sıfatına dönünce kutsallık giren topluluğun hazırlık ve dönüşümüyle ilişkilenir.",
+          "resulting_reading": "Kutsal hedef, arınmanın gerçekleştiği ve sürdürüldüğü bir geçiş düzeni olarak da duyulur.",
+          "boundary": "Root registry unresolved olduğu için özgül gloss veya facet verilmez; HFT attributed rolü korunur."
+        },
+        {
+          "branch_ref": "root_000991/B001",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": ["5:8"],
+          "trigger_refs": ["5:21:4:2", "hft_9e4958fa2fe9a94baf64"],
+          "focus_return_refs": ["5:21:4:2"],
+          "carrier": "HFT trace'in 5:8 source_ref ve 15/16 kelime indisleri adaletli davranışı enacted toplumsal pratik olarak taşır.",
+          "independent_trigger": "Focus'taki kutsal yer, 5:8 adalet carrier'ının döndüğü mekânsal ve communal contact'tır.",
+          "activation": "Adalet rolü kutsal yerle temas edince giriş, düzeni davranışla sürdürme yönü kazanır.",
+          "resulting_reading": "Kutsal mekânın anlamı adil davranışla taşınan topluluk düzenine genişler.",
+          "boundary": "Unresolved trace ayetin bütün hukukî veya ahlakî ayrıntılarını belirlemez; gloss ve facet icat edilmez."
+        },
+        {
+          "branch_ref": "root_001224/B001",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": ["5:8"],
+          "trigger_refs": ["5:21:4:2", "hft_9e4958fa2fe9a94baf64"],
+          "focus_return_refs": ["5:21:4:2"],
+          "carrier": "HFT trace'in 5:8 source_ref ve 8. kelime indisi, topluluğun koruduğu hakkaniyet rolünü taşır.",
+          "independent_trigger": "Focus kutsallığı, hakkaniyetin korunacağı düzen için focus-return yüzeyidir.",
+          "activation": "Hakkaniyet carrier'ı kutsal yerle temas edince sacred order uygun davranış ve ölçüyle ayakta tutulan yön kazanır.",
+          "resulting_reading": "Giriş, arınmışlığın yanında hakkaniyetli ortak yaşamın içine girmeye de açılır.",
+          "boundary": "Root unresolved olduğundan bu ilişki attributed HFT evidence olarak kalır; hukuk terimi icat edilmez."
+        },
+        {
+          "branch_ref": "root_001273/B004",
+          "facet_id": "F001",
+          "branch_gloss": "sürekli gözetip yönetme",
+          "facet_statement": "Sorumlu kişi ya da güç, bir işi veya topluluğu sürekli gözetir, korur ve yönetir.",
+          "application_mode": "attributed",
+          "carrier_refs": ["5:8"],
+          "trigger_refs": ["5:21:4:2", "5:21:2:1", "hft_9e4958fa2fe9a94baf64"],
+          "focus_return_refs": ["5:21:1:2"],
+          "carrier": "HFT trace'in 5:8 source_ref ve 5/12 kelime indisleri sürekli gözetim ve sorumlu yönetim rolünü taşır; bu rol focus'taki قَوْمِ yüzeyine döner.",
+          "independent_trigger": "5:21 halk hitabı ve kutsal hedef, gözetim ve korumanın üzerinde gerçekleşeceği communal focus'u sağlar.",
+          "activation": "Sürekli yönetim carrier'ı halk hitabına dönünce kutsal düzene giriş bir topluluğun düzeni korumasını ve ayakta tutmasını içerir.",
+          "resulting_reading": "Kutsal düzen, içine girilen ve sorumlu biçimde sürdürülen topluluk düzenidir.",
+          "boundary": "Bu branch salt fiziksel duruş veya işe girişme değildir; qawm'in sıradan communal anlamı iptal edilmez."
+        }
+      ],
+      "connection_refs": [],
+      "context_refs": ["5:6", "5:8"],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:standing-collective",
+      "origin_candidate_id": "cand_38dd942d21c9777d60f7",
+      "represented_candidate_ids": ["cand_31172661a9edf5e44738"],
+      "title": "Hitabın duruşla kurulan kolektif kimliği",
+      "claim": "يَا قَوْمِ hitabı, sabit bir topluluğa yöneltilmiş söz olmanın yanında, kararlılıkla yükselen ve sorumlulukla ayakta duran bir kolektif çağrısı olarak da açılır; 5:24'teki oturup kalma ve 5:25'teki ayrılma, bu kolektifliğin duruşla değişebildiğini gösterir.",
+      "mechanism": "5:21:1:2'deki قَوْمِ focus taşıyıcısı, HFT trace'te aynı yüzeydeki rising-with-resolve rolü ve 5:8 sustained guardianship ile temas eder. 5:24'ün 16. kelime indisindeki sitting ve 5:25'in 9. kelime indisindeki separation rolleri, standing identity'nin karşıt davranışla çözülmesini focus'a döndürür.",
+      "reader_payoff": "Okur, halkım hitabını hazır bir grup adından fazlası olarak, buyruğu birlikte üstlenecek ve düzeni birlikte ayakta tutacak bir topluluk çağrısı olarak duyar; oturup kalmanın ortaklığı parçalayabildiğini görür.",
+      "containment": "قَوْمِ kelimesi fiile çevrilmez; qawm'in sıradan hitap ve insan topluluğu anlamı canlıdır. Standing, sitting ve separation ilişkisi HFT attributed inference'ıdır; ayetten sûra çapında kolektif sistem çıkarılmaz.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": ["legacy_unbound"],
+        "reason": "HFT exact focus/context Arabic ve source word indices ile rol zincirini verir; qwm focus branches supplied, qʿd ve frq context branches unresolved'dur. Collective identity sonucu HFT reader inference olduğu için qualified'dır."
+      },
+      "support_ids": ["sup_1a840ccfaff0eedd3a72", "sup_7d610c092da29cae79e4", "sup_6382deef1ebccdfec3fb"],
+      "branch_activations": [
+        {
+          "branch_ref": "root_001273/B001",
+          "facet_id": "F001",
+          "branch_gloss": "erkekler topluluğu ve yakın çevresi",
+          "facet_statement": "Temel gönderge, kadınlardan ayrı düşünülen erkekler topluluğudur.",
+          "application_mode": "attributed",
+          "carrier_refs": ["5:21:1:2"],
+          "trigger_refs": ["5:8", "5:24", "5:25", "hft_b9d5e7e392484dd2fd6a"],
+          "focus_return_refs": ["5:21:1:2"],
+          "carrier": "5:21:1:2'deki قَوْمِ Musa'nın doğrudan seslendiği insan topluluğunu taşır.",
+          "independent_trigger": "5:8 standing ile 5:24-5:25 sitting ve separation context rolleri, topluluk adının davranışla sınanan communal yönünü tetikler.",
+          "activation": "Topluluk taşıyıcısı farklı duruş rollerine temas edince hitap, ortak eylemi üstlenecek grubun çağrısı olarak görünür.",
+          "resulting_reading": "Halkım sözü, buyruğu birlikte taşıması beklenen kolektif özne kurar.",
+          "boundary": "Branch'in erkekler topluluğu sınırı korunur; qawm'in bütün insanlığı kapsadığı ileri sürülmez."
+        },
+        {
+          "branch_ref": "root_001273/B003",
+          "facet_id": "F001",
+          "branch_gloss": "bir işe kararlılıkla girişme",
+          "facet_statement": "Kişi belirli bir işe kesin niyetle yönelir, işi üstlenir ve ona girişir.",
+          "application_mode": "attributed",
+          "carrier_refs": ["5:21:1:2"],
+          "trigger_refs": ["5:21:2:1", "5:24", "hft_b9d5e7e392484dd2fd6a"],
+          "focus_return_refs": ["5:21:1:2"],
+          "carrier": "HFT trace'teki 5:21 birinci kelime rolü, قَوْمِ hitabında kararlılıkla işe girişen topluluk yönünü taşır.",
+          "independent_trigger": "5:21:2:1 giriş buyruğu bu üstlenmenin somut işini; 5:24 sitting rolü karşıtını verir.",
+          "activation": "Topluluk adı giriş buyruğunun işiyle temas edince birlikte üstlenme kapasitesi görünür; sitting bu kapasitenin kullanılmamasını somutlaştırır.",
+          "resulting_reading": "Kolektif kimlik belirli bir işi kararlılıkla üstlenme hareketi içinde çağrılır.",
+          "boundary": "Bu branch fiziksel ayağa kalkmayı tek başına anlatmaz; cross-form contact korunur."
+        },
+        {
+          "branch_ref": "root_001273/B004",
+          "facet_id": "F001",
+          "branch_gloss": "sürekli gözetip yönetme",
+          "facet_statement": "Sorumlu kişi ya da güç, bir işi veya topluluğu sürekli gözetir, korur ve yönetir.",
+          "application_mode": "attributed",
+          "carrier_refs": ["5:8"],
+          "trigger_refs": ["5:21:1:2", "hft_b9d5e7e392484dd2fd6a"],
+          "focus_return_refs": ["5:21:1:2"],
+          "carrier": "HFT trace'in 5:8 source_ref ve 5/12 kelime indisleri sürekli gözetip yönetme rolünü taşır ve focus'taki قَوْمِ hitabına döner.",
+          "independent_trigger": "5:21:1:2'deki açık insan topluluğu, 5:8 guardianship rolünün döndüğü focus contact'tır.",
+          "activation": "Sorumlu yönetim carrier'ı halk hitabına dönünce kolektiflik düzeni korumak ve sürdürmekle tanımlanır.",
+          "resulting_reading": "Hitap, kutsal hedefe yönelecek ve ortak düzeni ayakta tutacak sorumlu topluluk çağrısıdır.",
+          "boundary": "Bu branch salt fiziksel duruş veya işe girişme değildir; focus hitabının sıradan anlamı korunur."
+        },
+        {
+          "branch_ref": "root_001244/B002",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": ["5:24"],
+          "trigger_refs": ["5:21:1:2", "hft_b9d5e7e392484dd2fd6a"],
+          "focus_return_refs": ["5:21:1:2"],
+          "carrier": "HFT trace'in 5:24 source_ref ve 16. kelime indisi eyleme katılmama biçimindeki sitting rolünü taşır.",
+          "independent_trigger": "5:21:1:2 qawm hitabı, oturup kalmanın karşıtlık kurduğu communal focus'tur.",
+          "activation": "Sitting carrier'ı topluluk adına geri döndüğünde collective identity'nin buyruğa yönelmekle canlı kaldığı görülür.",
+          "resulting_reading": "Oturup kalmak, çağrılan ortak duruşun dışında kalmaktır.",
+          "boundary": "Root unresolved olduğu için sitting branch'i için gloss veya facet icat edilmez."
+        },
+        {
+          "branch_ref": "root_001148/B001",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": ["5:25"],
+          "trigger_refs": ["5:21:1:2", "hft_b9d5e7e392484dd2fd6a"],
+          "focus_return_refs": ["5:21:1:2"],
+          "carrier": "HFT trace'in 5:25 source_ref ve 9. kelime indisi karşıt grupları ayırma rolünü taşır.",
+          "independent_trigger": "5:21:1:2 hitabı separation sonucunun böldüğü collective focus'tur.",
+          "activation": "Ayrılma carrier'ı qawm hitabına dönünce ortak kimlik sabit etiket değil, yöneliş ve sorumlulukla korunan ilişki olarak görünür.",
+          "resulting_reading": "Buyruğa birlikte yönelmeme, hitabın kurduğu ortaklığı ayıran sonuca açılır.",
+          "boundary": "Root unresolved olduğu için separation'ın sosyal veya hukukî ayrıntıları kurulmaz."
+        }
+      ],
+      "connection_refs": [],
+      "context_refs": ["5:8", "5:24", "5:25"],
+      "semantic_obligation_refs": []
+    }
+  ],
+  "friction_notes": [
+    "Candidate inventory içinde semantic_obligations alanı sağlanmadı; semantic_obligation_refs ve semantic_obligation_exclusions boş bırakıldı, obligation icat edilmedi.",
+    "Exact HFT trace'i bulunmayan unanchored reader-summary kayıtları carrier-trigger-focus-return şartını karşılamadığı için ayrı bulgu yapılmadı; ilgili canlı alternatifler anchored bulguların containment'ında görünür tutuldu.",
+    "HFT exact Arabic ve source word indices sağlıyor, fakat target morphology ile sekiz context root kaydının lexicon branch/facet'i packet'te yok. Bu branch'ler attributed, unresolved alanlar null ve status qualified olarak korundu.",
+    "5:120 destek metninde geçiyor, fakat packet'in context ayetleri ve exact surface evidence sınırında sağlanmıyor; bu retrospektif reddedildi.",
+    "Connection registry hedef Arabic'ini verirken hedef morphology sağlamıyor. Kullanılan connection'lar yalnız exact supplied surface ve ilişki notunun izin verdiği ölçüde trigger olarak kullanıldı.",
+    "Focus word alignment 17/17 resolved ve unresolved analysis unit yok. Branch availability tek başına yeni global activation'a çevrilmedi."
+  ]
+}

@@ -1,0 +1,761 @@
+{
+  "schema_version": "commentary-v5-scope-discovery-v1",
+  "ayah_ref": "5:65",
+  "lane": "macro",
+  "coverage_complete": true,
+  "candidate_decisions": [
+    {
+      "candidate_id": "cand_5466e89a13145b6267ef",
+      "decision": "accept",
+      "reason": "sup_74a0869ce30c839f98bf içindeki HFT izi 5:61:4, 5:61:6, 5:61:7, 5:61:10 ve 5:61:16 bağlam taşıyıcılarını; 5:65:5:1, 5:65:7:2 ve 5:65:10:3 odak dönüşlerini tam koordinatlarla verir. Önceki ayetteki değişmeden taşınan içerik ile odak ayetindeki örtme ve giriş arasında maddi bir tersine dönüş kuruluyor; çözülmemiş dallar koordinat uyumu nedeniyle atıflı bağlamsal kanıt olarak korunuyor.",
+      "finding_refs": [
+        "macro:threshold-content-reversal"
+      ],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_98445de07fd5c3c1a2a3",
+      "decision": "accept",
+      "reason": "sup_cbb541fae7f5dfffda7b içindeki HFT izi 5:65, 5:66 ve 5:68 yüzeylerinde aidiyet, kitap, uygulama, beslenme ve ölçülülük temaslarını ayrı koordinatlarla bağlar. 5:66'nın metni ayağa kaldırma şartı ile 5:68'in ayakta durma koşulu, 5:65'in vaadini yalnız kitap sahibi olma varsayımından çıkarıp uygulanan aidiyet ve beslenme düzenine bağlayan belirgin bir delta oluşturuyor; çözülmemiş dallar tam bağlam koordinatlarıyla atıflı olarak korunuyor.",
+      "finding_refs": [
+        "macro:enacted-text-habitation"
+      ],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_16bc007516b1d5e5bb58",
+      "decision": "accept",
+      "reason": "sup_123808e8c0baf5990608 içindeki HFT izi 5:70:3, 5:70:17, 5:70:19, 5:71:4, 5:71:5, 5:71:6, 5:71:12 ve 5:71:13 bağlam temaslarını 5:65:5:1 ve 5:65:6:2 odak şartlarına bağlıyor. Ahit, istenmeyen elçiler karşısındaki tekrar eden reddetme ve 5:71'de iki kez dönen görme-işitme kapanması, inanç ve sakınmayı tek seferlik değil süreklilik isteyen bir alımlama olarak değiştiren gerçek bir bağlam delta'sı veriyor; çözülmemiş dallar koordinatları uyuştuğu için atıflı olarak korunuyor.",
+      "finding_refs": [
+        "macro:durable-guard-against-relapse"
+      ],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    }
+  ],
+  "findings": [
+    {
+      "finding_ref": "macro:threshold-content-reversal",
+      "origin_candidate_id": "cand_5466e89a13145b6267ef",
+      "represented_candidate_ids": [],
+      "title": "İçeriğin eşiği değiştirmesi",
+      "claim": "5:61'de söylenen inanç, küfür içeriğiyle içeri girip aynı içerikle çıkış ve içtekinin gizlenmesiyle sınanırken, 5:65'in inanç, yükü giderme ve içeri alma dizisi aynı eşiği dönüştürülmüş içerikle kurar.",
+      "mechanism": "5:61'deki kabul, giriş, küfür, çıkış ve gizleme temasları odak ayetindeki kabul, örtme ve giriş temaslarına bağlanır. Böylece örtme ile bahçeye giriş ayrı vaatler olarak kalırken, odak ayetindeki örtme girişten önce taşınan içeriği etkisizleştiren ve varış yerini değiştiren koşullu bir dönüşüm olarak okunur.",
+      "reader_payoff": "Okur, 5:65'in vaadinde yalnızca iki ardışık sonuç değil, önceki karşılaşmada değişmeden taşınan içeriğin onarılmasıyla açılan farklı bir geçiş eşiği görür.",
+      "containment": "5:65'in düz koşullu vaadi korunur. 5:61'in yalnızca samimiyet sınaması olarak okunması canlı bir alternatiftir; içerikteki ve eşikteki tersine dönüş çıkarımı atıflı bağlamsal kanıt sınırında tutulur.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": [
+          "legacy_unbound"
+        ],
+        "reason": "Destek kaydı exact ayet yüzeylerini ve HFT koordinatlarını sağlıyor; kaynak kimliği legacy_unbound olduğu ve bazı bağlam dalları bağımsız sözlük kaydı taşımadığı için ilişki nitelikli, fakat koordinatları uyumlu atıflı kanıt olarak görünür tutuldu."
+      },
+      "support_ids": [
+        "sup_74a0869ce30c839f98bf"
+      ],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000054/B002",
+          "facet_id": "F001",
+          "branch_gloss": "dogru sayip kabul etme",
+          "facet_statement": "Temel cekirdek bir haberin, sozun veya hakikatin dogru sayilmasidir.",
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "5:61:4"
+          ],
+          "trigger_refs": [
+            "5:65:6:2"
+          ],
+          "focus_return_refs": [
+            "5:65:5:1"
+          ],
+          "carrier": "5:61:4'teki ءامنَ yüzeyi, söylenen kabulü taşır.",
+          "independent_trigger": "5:65:6:2'deki sakınma, kabul iddiasını etkili kılacak ayrı koşuldur.",
+          "activation": "Önceki ayetin söylenen kabulü, odak ayetindeki sakınma ile temas edince yalnızca söz olarak kalmayan bir şartın parçası haline gelir.",
+          "resulting_reading": "Odak ayetindeki inanç, önceki ayetteki değişmeden taşınan iddiaya karşı, sakınmayla birlikte sonucu değiştiren kabul olarak belirir.",
+          "boundary": "Bu temas kabulün güvenlik veya dua anlamına taşınmasını değil, HFT'nin verdiği bağlamda doğrulama ve etkili kabul ilişkisini taşır."
+        },
+        {
+          "branch_ref": "root_000464/B001",
+          "facet_id": "F001",
+          "branch_gloss": "içeri girmek veya içeri sokmak",
+          "facet_statement": "Bir kişi ya da şey dışarıdaki bir konum veya durumdan içerideki konum veya duruma geçer.",
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "5:61:6"
+          ],
+          "trigger_refs": [
+            "5:65:7:2"
+          ],
+          "focus_return_refs": [
+            "5:65:10:3"
+          ],
+          "carrier": "5:61:6'daki giriş yüzeyi, HFT izinin verdiği önceki eşik hareketini taşır.",
+          "independent_trigger": "5:65:7:2'deki yükü giderme işlemi, odak ayetinde girişten önceki içerik değişimini sağlar.",
+          "activation": "Önceki giriş, odak ayetindeki örtme ile temas ederek aynı eşiğin değişmeden geçilmediği bir dönüşüm çizgisi kurar.",
+          "resulting_reading": "5:65'teki içeri alma, önceki karşılaşmanın eşiğini tekrarlayan bir giriş değil, değiştirilmiş içerikle tamamlanan bir geçiş olarak görünür.",
+          "boundary": "Bu branch için bağımsız sözlük glossu veya facet iddiası kurulmaz; ilişki yalnız supplied HFT rolü ve tam yüzey koordinatlarıyla atıflıdır."
+        },
+        {
+          "branch_ref": "root_001307/B003",
+          "facet_id": "F001",
+          "branch_gloss": "dinî gerçeği reddetme",
+          "facet_statement": "İnancın karşıtı olarak dinî gerçeği, birliği, dinî hükmü veya peygamberliği reddetme.",
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "5:61:7"
+          ],
+          "trigger_refs": [
+            "5:65:7:2"
+          ],
+          "focus_return_refs": [
+            "5:65:7:2"
+          ],
+          "carrier": "5:61:7'deki küfür yüzeyi, karşılaşma boyunca taşınan hakikat reddini taşır.",
+          "independent_trigger": "5:65:7:2'deki aynı kök alanının yükü gideren örtme kullanımıdır.",
+          "activation": "Önceki ayette taşınan reddetme, odak ayetindeki örtme ile aynı yüzey alanında karşılaşır; kök alanı bu kez yükün giderilmesi yönünde çalışır.",
+          "resulting_reading": "Odak ayetindeki örtme, yalnızca soyut bir bağış sonucu değil, önceki ayetteki reddetme yükünün etkisini kaldıran bir işlem olarak okunur.",
+          "boundary": "Reddetme dalı odak ayetindeki fiilin tek sözlük karşılığı ilan edilmiyor; bağlamsal karşıtlık, odak fiilinin verilen örtme facet'iyle sınırlı tutuluyor."
+        },
+        {
+          "branch_ref": "root_000400/B001",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "5:61:10"
+          ],
+          "trigger_refs": [
+            "5:65:10:3"
+          ],
+          "focus_return_refs": [
+            "5:65:10:3"
+          ],
+          "carrier": "5:61:10'daki çıkış yüzeyi, başarısız karşılaşmayı dışarıya dönüşle tamamlayan HFT temasını taşır.",
+          "independent_trigger": "5:65:10:3'teki odak girişi, aynı eşik dizisini farklı bir varışla karşılar.",
+          "activation": "Dışarı çıkışın önceki ayetteki tamamlayıcı hareketi, odak ayetindeki bahçeye girişle karşılaşınca eşik hareketinin yönü değişir.",
+          "resulting_reading": "Odak girişinin anlamı, önceki ayetteki çıkışla birlikte düşünüldüğünde içeride hiçbir dönüşüm olmadan dönüp çıkmanın karşısında yer alan yeni bir varış olur.",
+          "boundary": "Bu unresolved dal için sözlük kimliği veya bağımsız facet ileri sürülmüyor; taşıyıcı ve karşıt eşik ilişkisi HFT'ye atfediliyor."
+        },
+        {
+          "branch_ref": "root_001284/B001",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "5:61:16"
+          ],
+          "trigger_refs": [
+            "5:65:5:1"
+          ],
+          "focus_return_refs": [
+            "5:65:7:2"
+          ],
+          "carrier": "5:61:16'daki gizleme yüzeyi, söylenen kabul ile içeride kalan yük arasındaki ayrımı taşır.",
+          "independent_trigger": "5:65:5:1'deki odak kabulü ve onu izleyen 5:65:7:2 örtmesi, içeriğin görünür sonucunu değiştirir.",
+          "activation": "İçtekinin gizlendiği önceki sahne, odak ayetindeki kabul ve yük giderme temasına değerek söz ile taşınan içerik arasındaki ayrımı görünür kılar.",
+          "resulting_reading": "Odak ayetindeki şart, yalnız söylenen inancı değil, örtme ile etkisi giderilen içeriği de kapsayan bir geçiş hazırlığı olarak belirir.",
+          "boundary": "Gizleme dalı için bağımsız lexicon glossu kurulmaz; ilişki, supplied HFT rolünün odak dönüşüne bağlanmasıyla sınırlıdır."
+        },
+        {
+          "branch_ref": "root_000054/B002",
+          "facet_id": "F001",
+          "branch_gloss": "dogru sayip kabul etme",
+          "facet_statement": "Temel cekirdek bir haberin, sozun veya hakikatin dogru sayilmasidir.",
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "5:65:5:1"
+          ],
+          "trigger_refs": [
+            "5:61:4"
+          ],
+          "focus_return_refs": [
+            "5:65:5:1"
+          ],
+          "carrier": "5:65:5:1'deki inanç yüzeyi, hakikati doğru kabul etme çekirdeğini taşır.",
+          "independent_trigger": "5:61:4'teki söylenen kabulün içerideki küfürle birlikte taşınmasıdır.",
+          "activation": "Önceki kabul iddiası odak yüzeyindeki inançla karşılaştırıldığında, odak ayetindeki kabulün sonucu değiştiren koşul oluşu belirginleşir.",
+          "resulting_reading": "Odak inancı, yalnızca önceki sözün tekrarı değil, içerik ve varışın değişmesine bağlanan etkili kabul olarak duyulur.",
+          "boundary": "F001 doğrulama ve kabul alanında tutulur; güvenlik, dua cevabı veya başka bir kök dalı bu aktivasyona eklenmez."
+        },
+        {
+          "branch_ref": "root_001307/B009",
+          "facet_id": "F001",
+          "branch_gloss": "günah yükünü giderme",
+          "facet_statement": "Günahın yükünü örten veya silen karşılık ya da işlem.",
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "5:65:7:2"
+          ],
+          "trigger_refs": [
+            "5:61:7"
+          ],
+          "focus_return_refs": [
+            "5:65:7:2"
+          ],
+          "carrier": "5:65:7:2'deki örtme fiili, günah yükünü örten veya silen işlemi taşır.",
+          "independent_trigger": "5:61:7'deki küfür, önceki karşılaşmada taşınan reddetme içeriğini sağlar.",
+          "activation": "Aynı kök alanındaki önceki reddetme ile odak örtmesi temas edince, odak fiili taşınan yükün etkisini kaldıran işlem olarak belirginleşir.",
+          "resulting_reading": "Kötülüklerin örtülmesi, girişten önce içeriğin durumunu değiştiren faal bir giderme olarak duyulur.",
+          "boundary": "F001'in bağışlama ve yük giderme çekirdeği korunur; yemin kefareti gibi özel yapılar bu aktivasyona taşınmaz."
+        },
+        {
+          "branch_ref": "root_000464/B001",
+          "facet_id": "F002",
+          "branch_gloss": "içeri girmek veya içeri sokmak",
+          "facet_statement": "Ettirgen kullanım, başka bir kişi ya da şeyin içeriye geçmesini sağlamayı bildirir.",
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "5:65:10:3"
+          ],
+          "trigger_refs": [
+            "5:61:6"
+          ],
+          "focus_return_refs": [
+            "5:65:10:3"
+          ],
+          "carrier": "5:65:10:3'teki içeri alma yüzeyi, kişileri bahçeye geçiren odak girişini taşır.",
+          "independent_trigger": "5:61:6'daki önceki giriş, küfür içeriğiyle tamamlanan başarısız eşiği sağlar.",
+          "activation": "Önceki giriş odak girişine temas edince, aynı hareketin birinde değişmeden taşıma, diğerinde değiştirilmiş içerikle varış ürettiği görülür.",
+          "resulting_reading": "Bahçeye koyma, önceki başarısız geçişin tekrarı değil, içeriği dönüştürülmüş bir kabul eşiğinin tamamlanması olarak okunur.",
+          "boundary": "Bu dalın glossu ve facet'i packet'te çözülmediği için null bırakıldı; sonuç yalnız exact HFT temasına atfediliyor."
+        }
+      ],
+      "connection_refs": [
+        "conn_343e8de8acbbfcfa165f"
+      ],
+      "context_refs": [
+        "5:61"
+      ],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "macro:enacted-text-habitation",
+      "origin_candidate_id": "cand_98445de07fd5c3c1a2a3",
+      "represented_candidate_ids": [],
+      "title": "Uygulanan metnin yaşanan düzene dönüşmesi",
+      "claim": "5:65'teki 'Kitap halkı' adı yalnız hazır bir kimlik olarak değil, kitabın ve indirilen hükmün ayağa kaldırılmasıyla sınanan bir aidiyet olarak açılır; bu şart, kötülüklerin örtülmesi ve nimet bahçelerine giriş vaadini yaşanan bir beslenme düzeniyle ilişkilendirir.",
+      "mechanism": "5:66'daki metinleri ayağa kaldırma teması yukarıdan ve aşağıdan beslenme ve mutedil bir toplulukla birlikte verilir; 5:68 aynı topluluk adını metinleri kurma şartıyla sınırlar. Bu iki bağlam taşıyıcısı, odak ayetindeki أهل, كتاب ve نعيم yüzeylerine dönerek aidiyeti sahiplikten uygulamaya, nimeti de yalnız soyut bir sıfattan yaşanan sonuca doğru kalınlaştırır.",
+      "reader_payoff": "Okur, vaadin 'kitaba sahip olanlara ek bir ödül' biçiminde düzleşmediğini; metnin ayağa kaldırılmasıyla aidiyetin işlerlik kazandığı, beslenme ve ölçülülüğün bu işleyişi görünür kıldığı bir düzen gördüğünü fark eder.",
+      "containment": "5:65'in koşullu örtme ve bahçeye giriş vaadi korunur. 5:66'daki beslenme bağlamı kendi yakın sonucunu taşır; onu bahçelerle özdeşleştirmek yerine, odak vaadine yaşanan bir düzen görüntüsü veren atıflı bağlam olarak tutarım.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": [
+          "legacy_unbound"
+        ],
+        "reason": "HFT desteği 5:65, 5:66 ve 5:68'in exact yüzeylerini ve açık rollerini sağlıyor; kaynak legacy_unbound ve bağlam dallarının çoğu bağımsız lexicon kaydı olmadan geldiği için çıkarım nitelikli tutuldu."
+      },
+      "support_ids": [
+        "sup_cbb541fae7f5dfffda7b"
+      ],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000064/B003",
+          "facet_id": "F001",
+          "branch_gloss": "uygun ve layık olmak",
+          "facet_statement": "Temel anlam, bir kişi veya şeyin belli bir işe uygun ve yaraşır olmasıdır.",
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "5:65:3:1"
+          ],
+          "trigger_refs": [
+            "5:68:3"
+          ],
+          "focus_return_refs": [
+            "5:65:3:1"
+          ],
+          "carrier": "5:65:3:1'deki أهل yüzeyi, bir topluluğa bağlı kişileri ve uygunluk ilişkisini taşır.",
+          "independent_trigger": "5:68:3'teki kitap yüzeyi, bu aidiyetin metni ayağa kaldırma şartıyla sınandığı ayrı zemindir.",
+          "activation": "Topluluk adı, metni kurma şartıyla temas edince aidiyetin yalnız adlandırma değil, bir göreve uygun hale gelme ilişkisi de kurduğu görünür olur.",
+          "resulting_reading": "'Kitap halkı' ifadesi, hazır bir ayrıcalıktan çok, kitabın gereğini yerine getirmeyle anlam kazanan bir uygunluk çevresi olarak okunur.",
+          "boundary": "F001 uygunluk ve yaraşırlık çekirdeğinde tutulur; tartışmalı hak ediş veya koşulsuz ayrıcalık iddiası eklenmez."
+        },
+        {
+          "branch_ref": "root_001283/B003",
+          "facet_id": "F001",
+          "branch_gloss": "bağlayıcı olarak hükme bağlama ve belirleme",
+          "facet_statement": "Bir işi yapılması gereken bağlayıcı bir yükümlülük olarak belirlemek temel değerlerden biridir.",
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "5:65:4:2"
+          ],
+          "trigger_refs": [
+            "5:66:3"
+          ],
+          "focus_return_refs": [
+            "5:65:4:2"
+          ],
+          "carrier": "5:65:4:2'deki kitap yüzeyi, bağlayıcı bir belirleme ve hüküm alanını taşır.",
+          "independent_trigger": "5:66:3'teki metni ayağa kaldırma hareketi, kitabın sahip olunan nesneden uygulanacak yükümlülüğe dönüştüğü ayrı temastır.",
+          "activation": "Kitap yüzeyi, ayağa kaldırma fiiliyle temas edince yazılı bir nesne olmanın ötesinde yürürlüğe konacak bağlayıcı belirleme olarak görünür.",
+          "resulting_reading": "Odak vaadinin koşulu, kitapla ilişkiyi sahiplikten hükmü uygulamaya geçiren bir eylem olarak taşır.",
+          "boundary": "Salt yazma veya metne sahip olma anlamı ileri sürülmüyor; F001'in bağlayıcı belirleme facet'i ve supplied context ilişkisi korunuyor."
+        },
+        {
+          "branch_ref": "root_001525/B001",
+          "facet_id": "F001",
+          "branch_gloss": "iyi yaşam durumu ve başkasına ulaştırılan iyilik",
+          "facet_statement": "Rahatlık, geçim genişliği ve iyi oluşla belirlenen elverişli yaşam durumu.",
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "5:65:12:2"
+          ],
+          "trigger_refs": [
+            "5:66:11",
+            "5:66:13",
+            "5:66:15"
+          ],
+          "focus_return_refs": [
+            "5:65:12:2"
+          ],
+          "carrier": "5:65:12:2'deki nimet yüzeyi, rahatlık ve elverişli iyi oluşla belirlenen hayat durumunu taşır.",
+          "independent_trigger": "5:66:11, 5:66:13 ve 5:66:15'teki yeme ve üst-alt yönleri, beslenmenin somut alanını kurar.",
+          "activation": "Odak nimetinin iyi yaşam alanı, üstten ve alttan beslenme temasına değince bahçelerin iyiliği soyut bir övgü olmaktan çıkıp beslenmiş bir varışın niteliği kazanır.",
+          "resulting_reading": "Nimet bahçeleri, uygulanan metnin açtığı yaşanabilir ve besleyici düzenin odak ayetindeki tamamlanmış biçimi olarak duyulur.",
+          "boundary": "F001 rahatlık ve iyi yaşam durumunda tutulur; 5:66'nın dünyevi beslenmesi 5:65'in bahçe vaadiyle özdeşleştirilmez."
+        },
+        {
+          "branch_ref": "root_001273/B003",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "5:66:3"
+          ],
+          "trigger_refs": [
+            "5:65:4:2"
+          ],
+          "focus_return_refs": [
+            "5:65:4:2"
+          ],
+          "carrier": "5:66:3'teki ayağa kaldırma yüzeyi, HFT izinde bir işe kararlılıkla yönelip onu sürdürme hareketini taşır.",
+          "independent_trigger": "5:65:4:2'deki kitap, bu kararlılığın yöneldiği bağlayıcı metni sağlar.",
+          "activation": "Metni ayağa kaldırma hareketi odak kitabına dönünce, kitapla aidiyetin sahip olunan bir nesne değil sürdürülen uygulama olduğu görünür olur.",
+          "resulting_reading": "Odak ayetindeki şart, metnin elde bulunmasını değil onunla ayağa kalkmayı gerektiren bir aidiyet olarak kalınlaşır.",
+          "boundary": "Dal için bağımsız gloss veya facet verilmez; HFT'nin 'rising with resolve' rolü atıflı bağlamsal kanıt olarak korunur."
+        },
+        {
+          "branch_ref": "root_001492/B002",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "5:66:7"
+          ],
+          "trigger_refs": [
+            "5:65:4:2"
+          ],
+          "focus_return_refs": [
+            "5:65:4:2"
+          ],
+          "carrier": "5:66:7'deki indirilen yüzeyi, HFT izinde topluluğun uygulamaya koyacağı yukarıdan gelen metin temasını taşır.",
+          "independent_trigger": "5:65:4:2'deki kitap, indirilen ve bağlayıcı hale gelen metnin odak taşıyıcısıdır.",
+          "activation": "İndirilen metin, odak kitabıyla temas edince aidiyetin yalnız geçmişten devralınan bir ad değil, alınmış bir hükmü uygulama ilişkisi olduğu belirir.",
+          "resulting_reading": "Odak şartı, metnin kaynağı ve bağlayıcılığı ile birlikte yürütülen bir uygulama olarak okunur.",
+          "boundary": "Bu dalın bağımsız lexical kimliği ve facet'i packet'te yoktur; yorum HFT'nin açık rolüyle sınırlıdır."
+        },
+        {
+          "branch_ref": "root_000043/B003",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "5:66:11"
+          ],
+          "trigger_refs": [
+            "5:65:12:2"
+          ],
+          "focus_return_refs": [
+            "5:65:12:2"
+          ],
+          "carrier": "5:66:11'deki yeme yüzeyi, HFT izinde başarılı uygulamanın sürdürülen geçim olarak görünmesini taşır.",
+          "independent_trigger": "5:65:12:2'deki nimet, bu geçim temasının döndüğü odak iyi yaşam yüzeyidir.",
+          "activation": "Yeme eylemi nimet yüzeyine döndüğünde, metnin ayağa kaldırılmasıyla anılan sonuç beslenebilir bir hayat düzeni olarak görünür.",
+          "resulting_reading": "Nimet bahçelerine giriş vaadi, uygulamanın ürettiği iyi oluş ve beslenme görüntüsüyle maddi bir doku kazanır.",
+          "boundary": "Bağımsız branch glossu veya facet'i ileri sürülmez; 5:66'daki yeme rolü 5:65'in vaadine atıflı bağlam olarak bağlanır."
+        },
+        {
+          "branch_ref": "root_001188/B001",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "5:66:13"
+          ],
+          "trigger_refs": [
+            "5:65:12:2"
+          ],
+          "focus_return_refs": [
+            "5:65:12:2"
+          ],
+          "carrier": "5:66:13'teki üst yön yüzeyi, HFT izinde beslenme alanının yukarı tarafını taşır.",
+          "independent_trigger": "5:65:12:2'deki nimet, yönlü beslenmenin iyi yaşam sonucuna dönen odak yüzeyidir.",
+          "activation": "Üst yönün beslenme alanına katkısı nimet yüzeyine döndüğünde, iyi oluşun tek noktadan gelen soyut bir vaat değil çevrelenmiş bir tedarik düzeni olduğu görülür.",
+          "resulting_reading": "Odak bahçelerinin nimeti, yukarıdan gelen payı bulunan kuşatılmış bir beslenme düzeniyle birlikte duyulur.",
+          "boundary": "Bu unresolved dal için sözlük glossu veya facet'i kurulmaz; üst yön görüntüsü yalnız HFT rolü kadar taşınır."
+        },
+        {
+          "branch_ref": "root_000177/B001",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "5:66:15"
+          ],
+          "trigger_refs": [
+            "5:65:12:2"
+          ],
+          "focus_return_refs": [
+            "5:65:12:2"
+          ],
+          "carrier": "5:66:15'teki alt yön yüzeyi, HFT izinde beslenme alanını aşağı taraftan kapatan teması taşır.",
+          "independent_trigger": "5:65:12:2'deki nimet, bu çevrelenmiş tedarik alanının odak iyi yaşam sonucudur.",
+          "activation": "Alt yönün katkısı nimet yüzeyine döndüğünde, uygulanan metnin sonucu yukarı ve aşağıdan çevrelenen bir geçim alanı olarak belirir.",
+          "resulting_reading": "Nimet bahçeleri, yalnız varılacak bir mekân değil, beslenmenin bütün yönleriyle çevrelenen iyi yaşam vaadi olarak duyulur.",
+          "boundary": "Bağımsız branch tanımı ve facet'i yoktur; aşağı yön görüntüsü HFT'nin atıflı rolüyle sınırlıdır."
+        },
+        {
+          "branch_ref": "root_001230/B003",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "5:66:19"
+          ],
+          "trigger_refs": [
+            "5:65:3:1"
+          ],
+          "focus_return_refs": [
+            "5:65:3:1"
+          ],
+          "carrier": "5:66:19'daki ölçülülük yüzeyi, HFT izinde daha geniş topluluk içinden oluşan dengeli toplumsal biçimi taşır.",
+          "independent_trigger": "5:65:3:1'deki أهل, bu toplumsal biçimin döndüğü odak aidiyet çevresidir.",
+          "activation": "Ölçülülük yüzeyi أهل aidiyetine dönünce, uygulanan metnin sonucu bütün topluluğa tek biçimde yayılmayan dengeli bir oluşum olarak görünür.",
+          "resulting_reading": "Odak vaadi, topluluk içindeki uygulama farklarını ve içinden çıkan ölçülü kesimi hesaba katan bir düzen içinde duyulur.",
+          "boundary": "Bu branch için bağımsız gloss veya facet iddiası yoktur; ölçülülük çıkarımı yalnız HFT rolüne ve 5:65 aidiyet dönüşüne atfedilir."
+        },
+        {
+          "branch_ref": "root_000064/B001",
+          "facet_id": "F001",
+          "branch_gloss": "yakın çevre ve bağlı topluluk",
+          "facet_statement": "Temel anlam, bir kişiyle en yakın ilişki içinde bulunan insan çevresidir.",
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "5:68:2"
+          ],
+          "trigger_refs": [
+            "5:65:4:2"
+          ],
+          "focus_return_refs": [
+            "5:65:3:1"
+          ],
+          "carrier": "5:68:2'deki أهل الكتاب hitabı, bağlı topluluğu yeniden adlandıran yüzeyi taşır.",
+          "independent_trigger": "5:65:4:2'deki kitap, bu topluluğu tanımlayan ortak bağlılık nesnesidir.",
+          "activation": "Bağlı topluluk adı odak kitabına dönünce, 5:65'teki muhatap çevresi yalnız toplumsal etiket değil kitapla ilişki içinde sınanan yakın çevre olarak belirir.",
+          "resulting_reading": "Vaadin muhatabı soyut bir insan topluluğu değil, kitabıyla bağı uygulama üzerinden ölçülen belirli bir aidiyet çevresidir.",
+          "boundary": "F001 yakın çevre ve bağlı toplulukla sınırlıdır; أهل kelimesi uygunluk facet'iyle özdeşleştirilmez."
+        },
+        {
+          "branch_ref": "root_001283/B003",
+          "facet_id": "F001",
+          "branch_gloss": "bağlayıcı olarak hükme bağlama ve belirleme",
+          "facet_statement": "Bir işi yapılması gereken bağlayıcı bir yükümlülük olarak belirlemek temel değerlerden biridir.",
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "5:68:3"
+          ],
+          "trigger_refs": [
+            "5:65:3:1"
+          ],
+          "focus_return_refs": [
+            "5:65:4:2"
+          ],
+          "carrier": "5:68:3'teki kitap yüzeyi, aynı bağlayıcı metni yeniden öne çıkarır.",
+          "independent_trigger": "5:65:3:1'deki أهل, kitabın muhatap topluluğunu ve uygulama yükümlülüğünün taşıyıcısını sağlar.",
+          "activation": "Aynı kitap yüzeyi muhatap topluluğuna döndüğünde, metni kurma talebinin odak ayetindeki aidiyet şartını açıklayan bağlayıcı hüküm olduğu görünür olur.",
+          "resulting_reading": "Kitap halkı adı, metni ayağa kaldırma sorumluluğuyla birlikte işleyen bir aidiyet olarak odak vaadine bağlanır.",
+          "boundary": "F001 yükümlülük belirleme alanında tutulur; sonraki ayetin bütün hükümleri 5:65'e taşınmaz."
+        }
+      ],
+      "connection_refs": [
+        "conn_c110d0637586af33e0bf",
+        "conn_2c6457e62278e8d50dc4"
+      ],
+      "context_refs": [
+        "5:66",
+        "5:68"
+      ],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "macro:external-favor-overlay",
+      "origin_candidate_id": null,
+      "represented_candidate_ids": [],
+      "title": "Nimetin verilmiş iyilik olarak açılması",
+      "claim": "Eklenen 1:7'deki أَنْعَمْتَ yüzeyi, 5:65'teki ٱلنَّعِيمِ vaadine iyi oluşun yanında muhataba ulaştırılan bir iyilik ve ihsan olarak duyulmasını ekler.",
+      "mechanism": "1:7:3'teki ن ع م taşıyıcısı, 5:65:12:2'deki aynı kök yüzeyine bağımsız bir dış bağlam tetikleyicisi olarak döner. Odak dalının F002 facet'i bu teması, bahçelerdeki iyi yaşamı kişiye ulaştırılan bir iyilik olarak somutlaştıracak şekilde taşır.",
+      "reader_payoff": "Odak bahçelerinin nimeti, yalnız elverişli bir hayat durumu değil, muhataba verilmiş ve ulaştırılmış iyilik olarak da görünür; bu ek görüntü düz bahçe vaadini koruyarak onu belirginleştirir.",
+      "containment": "Bu ek temas 1:7'yi 5:65'in tanımı veya bütün bahçe vaadinin tek açıklaması yapmaz. 1:7 ile 5:65 arasındaki somut kök teması, yalnız nimet dalının verilmiş iyilik facet'ini açar.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": [],
+        "reason": "Ek ayetin exact yüzeyi ve odak QAC teması packet'te mevcut; ek bağlam için ayrı bir trust etiketi veya tam hedef morfolojisi verilmediğinden bu, sınırları açık bir overlay çıkarımıdır."
+      },
+      "support_ids": [],
+      "branch_activations": [
+        {
+          "branch_ref": "root_001525/B001",
+          "facet_id": "F002",
+          "branch_gloss": "iyi yaşam durumu ve başkasına ulaştırılan iyilik",
+          "facet_statement": "Birine verilen bağış, yapılan iyilik veya yararın o kişiye ulaştırılması.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "5:65:12:2"
+          ],
+          "trigger_refs": [
+            "1:7:3"
+          ],
+          "focus_return_refs": [
+            "5:65:12:2"
+          ],
+          "carrier": "5:65:12:2'deki nimet yüzeyi, elverişli hayat ve iyilik alanını taşır.",
+          "independent_trigger": "1:7:3'teki أَنْعَمْتَ yüzeyi, iyiliğin muhataba verilmiş olmasını açıkça kurar.",
+          "activation": "Verilmiş iyilik teması odak nimetinin yüzeyine dönünce, bahçelerdeki iyi oluş kişinin ulaştığı bir ihsan olarak da belirir.",
+          "resulting_reading": "Nimet bahçeleri, iyi yaşam durumunu koruyarak, aynı zamanda muhataba ulaştırılan verilmiş iyiliğin mekânı olarak okunur.",
+          "boundary": "F002 verilmiş iyilik facet'iyle sınırlıdır; dış ayet 5:65'in koşulunu veya bahçelerin bütün anlamını tek başına belirlemez."
+        }
+      ],
+      "connection_refs": [],
+      "context_refs": [
+        "1:7"
+      ],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "macro:durable-guard-against-relapse",
+      "origin_candidate_id": "cand_16bc007516b1d5e5bb58",
+      "represented_candidate_ids": [],
+      "title": "Tekrar eden kapanmaya karşı dayanıklı sakınma",
+      "claim": "5:65'teki inanç ve sakınma, 5:70'te ahdin tekrar tekrar sınanması ve 5:71'de reddetme sonrasında görme ile işitmenin yeniden kapanması karşısında, bir defalık kabulden çok süreklilik isteyen güvenilir alımlama olarak belirir.",
+      "mechanism": "5:70'teki ahit, istenmeyen elçiler geldiğinde yalanlama veya öldürme biçiminde tekrar eden karşılıklarla sınanır; 5:71'de sınanma, iki kez yinelenen körleşme ve sağırlaşma ile bir dönüşten sonra bile geri döner. Odak inancı ve sakınması bu döngüye bağlandığında, sakınma güveni ve vahye açıklığı koruyan devamlı bir önlem olarak çalışır.",
+      "reader_payoff": "Okur, koşuldaki sakınmayı yalnız korkudan kaçınma değil, hoşlanılmayan bildirim karşısında alımlamayı ve dönüşten sonra yeniden kapanmamayı sürdüren bir koruma olarak görür.",
+      "containment": "5:65'in inanç ve sakınma koşulu korunur. 5:70-71 dizisi yalnız kolektif tarih olarak okunabilir; bu dizinin odak şartının iç mekanizmasına dönüşmesi HFT'nin atıflı bağlamsal çıkarımıdır ve bireysel kesin hüküm olarak sunulmaz.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": [
+          "legacy_unbound"
+        ],
+        "reason": "Destek kaydı exact 5:70 ve 5:71 yüzeylerini, tekrar desenini ve odak dönüşlerini veriyor; HFT kaynağı legacy_unbound ve güven derecesi orta olduğu için ilişki nitelikli tutuldu, ancak koordinatlar ve temaslar korunuyor."
+      },
+      "support_ids": [
+        "sup_123808e8c0baf5990608"
+      ],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000054/B002",
+          "facet_id": "F001",
+          "branch_gloss": "dogru sayip kabul etme",
+          "facet_statement": "Temel cekirdek bir haberin, sozun veya hakikatin dogru sayilmasidir.",
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "5:65:5:1"
+          ],
+          "trigger_refs": [
+            "5:70:3"
+          ],
+          "focus_return_refs": [
+            "5:65:5:1"
+          ],
+          "carrier": "5:65:5:1'deki inanç yüzeyi, hakikati doğru sayıp kabul etme çekirdeğini taşır.",
+          "independent_trigger": "5:70:3'teki ahit, kabulün sonraki karşılıklarla tekrar tekrar sınandığı dayanıklı ilişkiyi kurar.",
+          "activation": "Odak kabulü ahdin tekrarlanan sınanmasına değince, inanç bir başlangıç beyanı değil, hoşlanılmayan karşılaşmalarda da süren güvenilir kabul olarak belirir.",
+          "resulting_reading": "Koşuldaki inanç, ahit tarihinin açığa çıkardığı süreklilik yükünü taşır.",
+          "boundary": "F001 kabul ve doğrulama alanında tutulur; ahit dalının bütün ayrıntıları inanç kelimesinin sözlük glossu ilan edilmez."
+        },
+        {
+          "branch_ref": "root_001677/B002",
+          "facet_id": "F001",
+          "branch_gloss": "korkulan şeyden ya da yanlış davranıştan kendini koruma",
+          "facet_statement": "Kişi, korkulan ya da zarar verecek şey ile kendi arasına koruyucu bir önlem koyar.",
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "5:65:6:2"
+          ],
+          "trigger_refs": [
+            "5:71:4"
+          ],
+          "focus_return_refs": [
+            "5:65:6:2"
+          ],
+          "carrier": "5:65:6:2'deki sakınma yüzeyi, kişi ile zararlı sonuç arasına koruyucu bir önlem koymayı taşır.",
+          "independent_trigger": "5:71:4'teki sınanma, bu koruyucu tutumun altında açığa çıkan baskıyı kurar.",
+          "activation": "Sınanma teması sakınma yüzeyine dönünce, sakınma bir soyut erdem adı değil, alımlamanın kapanmaya karşı korunmasını sağlayan işlevli bir önlem olur.",
+          "resulting_reading": "Odak sakınması, inancın tekrar eden sınavlar boyunca duyarlı kalmasını koruyan devamlı bir tutum olarak okunur.",
+          "boundary": "F001 öz-koruma ve sakınma alanındadır; işlenmiş yanlıştan dönme veya genel iyi amel bu aktivasyona eklenmez."
+        },
+        {
+          "branch_ref": "root_001623/B004",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "5:70:3"
+          ],
+          "trigger_refs": [
+            "5:65:5:1",
+            "5:65:6:2"
+          ],
+          "focus_return_refs": [
+            "5:65:5:1",
+            "5:65:6:2"
+          ],
+          "carrier": "5:70:3'teki ahit yüzeyi, HFT izinde sonraki karşılıklarla tekrar tekrar sınanan dayanıklı ilişkiyi taşır.",
+          "independent_trigger": "5:65:5:1 ve 5:65:6:2'deki inanç-sakınma çifti, bu ilişkinin odak ayetindeki koruyucu şartıdır.",
+          "activation": "Dayanıklı ahit, odak şartındaki kabul ve korunma ikilisine dönünce, şartın tek anlık bir tercih değil ilişkide sınanan bir devamlılık olduğu görünür olur.",
+          "resulting_reading": "İnanç ve sakınma, süreklilik isteyen bir ahit karşılığını taşıyan canlı alımlama olarak duyulur.",
+          "boundary": "Bağımsız branch glossu veya facet'i yoktur; ahdin dayanıklılığı ve odak dönüşü HFT rolüne atfedilir."
+        },
+        {
+          "branch_ref": "root_001290/B001",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "5:70:17"
+          ],
+          "trigger_refs": [
+            "5:65:5:1"
+          ],
+          "focus_return_refs": [
+            "5:65:5:1"
+          ],
+          "carrier": "5:70:17'deki yalanlama yüzeyi, istenmeyen elçi karşısındaki tekrarlanan reddetme karşılığını taşır.",
+          "independent_trigger": "5:65:5:1'deki kabul, reddetme karşılığını önlemesi gereken odak tutumudur.",
+          "activation": "Reddetme yüzeyi odak kabulüne döndüğünde, inanç hoşa giden bildirimle sınırlı olmayan ve hoşlanılmayan karşılıkta da korunması gereken alımlama olarak belirir.",
+          "resulting_reading": "Koşul, yalnız kabul edilen söze değil, nefsin istemediği bildirim karşısında da süren kabul kapasitesine bağlanır.",
+          "boundary": "Bu unresolved dal için bağımsız sözlük glossu kurulmaz; yalanlama rolü yalnız supplied HFT bağlamında kullanılır."
+        },
+        {
+          "branch_ref": "root_001200/B001",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "5:70:19"
+          ],
+          "trigger_refs": [
+            "5:65:6:2"
+          ],
+          "focus_return_refs": [
+            "5:65:6:2"
+          ],
+          "carrier": "5:70:19'daki öldürme yüzeyi, hoşlanılmayan elçiye verilen yoğunlaştırılmış reddetme karşılığını taşır.",
+          "independent_trigger": "5:65:6:2'deki sakınma, reddetmenin bu şiddetli sonucuyla kişi arasına koruyucu sınır koyar.",
+          "activation": "Şiddetli reddetme karşılığı sakınma yüzeyine dönünce, sakınma yalnız iç duygu değil, tepkinin yıkıcı sonuca ilerlemesini kesen koruma olarak görünür.",
+          "resulting_reading": "Odak sakınması, kabulü korurken reddetmenin yoğunlaşmasını da önleyen bir alımlama disiplini taşır.",
+          "boundary": "Bu dalın lexical kimliği packet'te çözülmemiştir; öldürme temasının odak şartına dönüşü HFT'nin rolüyle sınırlıdır."
+        },
+        {
+          "branch_ref": "root_001128/B001",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "5:71:4"
+          ],
+          "trigger_refs": [
+            "5:65:6:2"
+          ],
+          "focus_return_refs": [
+            "5:65:6:2"
+          ],
+          "carrier": "5:71:4'teki sınanma yüzeyi, alımlamanın baskı altında açığa çıktığı HFT temasını taşır.",
+          "independent_trigger": "5:65:6:2'deki sakınma, sınanmanın kişiyi yanlış davranışa taşımasına karşı koruyucu önlemdir.",
+          "activation": "Sınanma yüzeyi sakınmaya döndüğünde, odak şartı baskı yokken söylenen bir tutum olmaktan çıkar ve baskı sırasında koruyan bir işleyiş kazanır.",
+          "resulting_reading": "Sakınma, tecrübe edilmemiş bir korku değil sınama altında alımlamayı koruyan hazır bir sınır olarak duyulur.",
+          "boundary": "Dal için bağımsız gloss ve facet ileri sürülmüyor; sınanma rolü exact HFT koordinatına atfediliyor."
+        },
+        {
+          "branch_ref": "root_001049/B002",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "5:71:5",
+            "5:71:12"
+          ],
+          "trigger_refs": [
+            "5:71:8",
+            "5:65:6:2"
+          ],
+          "focus_return_refs": [
+            "5:65:6:2"
+          ],
+          "carrier": "5:71:5 ve 5:71:12'deki iki körleşme yüzeyi, HFT izinde dönüşün iki yanında tekrarlanan algı kapanmasını taşır.",
+          "independent_trigger": "5:71:8'deki dönüş ve 5:65:6:2'deki koruyucu sakınma, kapanmanın yeniden oluşmasına karşı ayrı temaslardır.",
+          "activation": "İki kez yinelenen körleşme, dönüşten sonra bile kapanmanın geri dönebildiğini gösterir; sakınma bu tekrarın önünde koruyucu bir temas olarak odak ayetine döner.",
+          "resulting_reading": "Koşuldaki sakınma, yalnız ilk sapmayı değil, iyileşme sonrasında yeniden körleşmeyi de önlemeye çalışan dayanıklı açıklık olarak okunur.",
+          "boundary": "Bu unresolved dal için bağımsız gloss veya facet yoktur; tekrar ve dönüş ilişkisi HFT'nin atıflı rolüyle sınırlıdır."
+        },
+        {
+          "branch_ref": "root_000884/B001",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "5:71:6",
+            "5:71:13"
+          ],
+          "trigger_refs": [
+            "5:71:8",
+            "5:65:6:2"
+          ],
+          "focus_return_refs": [
+            "5:65:6:2"
+          ],
+          "carrier": "5:71:6 ve 5:71:13'teki iki sağırlaşma yüzeyi, HFT izinde körleşmeye eşlik eden tekrar eden işitme kapanmasını taşır.",
+          "independent_trigger": "5:71:8'deki dönüş ve 5:65:6:2'deki sakınma, mesajı duymaya kapatılmama yönünde ayrı temaslardır.",
+          "activation": "İşitme kapanmasının körleşmeyle birlikte iki kez dönmesi, sakınmanın yalnız davranışı değil bildirime açıklığı da koruması gerektiğini görünür kılar.",
+          "resulting_reading": "İnanç ve sakınma, hoşlanılmayan bildirim karşısında kulağı ve yönelişi kapanmaktan koruyan devamlı alımlama olarak duyulur.",
+          "boundary": "Bu dalın sözlük glossu ve facet'i packet'te yoktur; sağırlaşma döngüsü yalnız exact HFT izinin izin verdiği ölçüde kullanılır."
+        }
+      ],
+      "connection_refs": [
+        "conn_17786668f37708c8e0a1",
+        "conn_3314a491954f8f58e661"
+      ],
+      "context_refs": [
+        "5:70",
+        "5:71"
+      ],
+      "semantic_obligation_refs": []
+    }
+  ],
+  "friction_notes": [
+    "Üç adayın tamamı legacy_unbound HFT kaynağından geliyor. Exact ayet yüzeyleri ve odak dönüşleri mevcut olduğu için kayıtlar dışlanmadı; kaynak niteliği, özellikle bağımsız sözlük kaydı olmayan dallarda, aktivasyonları atıflı bağlamsal kanıt olarak sınırlıyor.",
+    "Bağlam üyeleri için hedef morfolojisi ve çözülmemiş dalların bağımsız branch descriptor'ları packet'te sunulmadı. Bu dallarda gloss ve facet alanları null bırakıldı; HFT'nin koordinatlı rolleri korunarak yeni sözlük anlamı icat edilmedi.",
+    "Eklenen 1:2-1:7 ayetleri ilk bağlam değerlendirmesinden ayrı incelendi. Yalnız 1:7:3 ile 5:65:12:2 arasındaki n ع م teması, F002 verilmiş iyilik facet'ini açan belirli bir delta sağladı; diğer ek ayetler için odakla dönen maddi bir aktivasyon bulunmadı."
+  ]
+}

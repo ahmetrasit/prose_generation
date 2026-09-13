@@ -1,0 +1,447 @@
+{
+  "schema_version": "commentary-v5-scope-discovery-v1",
+  "ayah_ref": "5:94",
+  "lane": "global",
+  "coverage_complete": true,
+  "candidate_decisions": [
+    {
+      "candidate_id": "cand_993afea4fef7cf4680b3",
+      "decision": "accept",
+      "reason": "Dört focus taşıyıcısı ve güçlü yayımlanmış destek, erişilebilir avın görünmeyen sakınmayı görünür kılan sınama ilişkisini birlikte kuruyor.",
+      "finding_refs": ["global:near-access-exposes-restraint"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_8c350211a7acdd058546",
+      "decision": "narrow",
+      "reason": "Elin güç ve yeterlik dalı mızrakla genişleyen eylem kapasitesini destekler; koruyucu ot/deve dalı ise kendi form sınırı nedeniyle dışarıda bırakılır.",
+      "finding_refs": ["global:agency-extends-through-spear"],
+      "branch_exclusions": [
+        {
+          "branch_ref": "root_000597/B003",
+          "reason": "Bu dalın koruma anlamı yalnızca ot ve deve bağlamlarındaki tüketilmeyi önleyen nitelikle sınırlıdır; mızrağa veya genel silah kullanımına taşınamaz."
+        }
+      ],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_df076bd1f3d896a7ed79",
+      "decision": "represented",
+      "reason": "Aynı yakınlık, görünmeyen sakınma ve sınama ilişkisi daha güçlü yayımlanmış bulgu altında tam olarak temsil ediliyor.",
+      "finding_refs": ["global:near-access-exposes-restraint"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_59dba9d3408a63519390",
+      "decision": "reject",
+      "reason": "Mızrak uzantısı iddiası, adayın tek dalı olan ot/deveye özgü koruma dalıyla uyumsuzdur; bu dal silah kapasitesi taşımaz.",
+      "finding_refs": [],
+      "branch_exclusions": [
+        {
+          "branch_ref": "root_000597/B003",
+          "reason": "Dalın sözlük sınırı ot ve deve kollokasyonlarındaki tüketilmeyi önleyen niteliği aşmaz."
+        }
+      ],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_f2d23efda88131a70a08",
+      "decision": "reject",
+      "reason": "Retrospektif okuma bu packet içinde odak taşıyıcısına dönen bağımsız bir bağlantı veya destekle ankrajlanmıyor.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_69503c17658c02b817b4",
+      "decision": "represented",
+      "reason": "Yakınlık, gayb ve sınama ilişkisi aynı dallarıyla ana yakınlık bulgusunda tam olarak temsil ediliyor.",
+      "finding_refs": ["global:near-access-exposes-restraint"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_4c744496c606f28c58ba",
+      "decision": "reject",
+      "reason": "Sonuçların ölçülmesi iddiası yalnızca ankrajlanmamış retrospektif HFT özetinde kalıyor.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_a934ef19d76f8b92a804",
+      "decision": "reject",
+      "reason": "Bodily ve teknolojik uzantı ayrımı için adayın destek kaydında ankraj veya bağımsız dal aktivasyonu bulunmuyor.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_4781dd1dd26a13e41137",
+      "decision": "reject",
+      "reason": "5:101-103 guardrail okuması ankrajlanmamış bir HFT sentezi; kutsal av sınırı exact connection kayıtlarıyla ayrı ve daha dar kuruluyor.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_73a1cd15367a7c4ce87f",
+      "decision": "reject",
+      "reason": "Manifestation yönü exact activation trace içeren ayrı adayda destekleniyor; bu ankrajlanmamış özet tek başına korunmuyor.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_ca4da41334de9afbaf25",
+      "decision": "reject",
+      "reason": "Hukukî bağlam özeti ankrajlanmamış; kutsal sınırın dar okuması 5:1-5:4 bağlantı kayıtlarıyla ayrı bir bulguda tutuluyor.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_b2da442bd4506a370385",
+      "decision": "reject",
+      "reason": "Genel knowledge/disclosure sentezi ankrajlanmamış; aynı yön exact HFT trace'li manifestation adayında sınırlandırılarak temsil ediliyor.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_b16636ff649845e93011",
+      "decision": "reject",
+      "reason": "Witness/table sentezi bağımsız ankraj taşımıyor; provision ve sonradan gelen sorumluluk ilişkisi exact trace'li adayda korunuyor.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_33cff10130c50c54008b",
+      "decision": "reject",
+      "reason": "Dört-perikopeyi tek genel teze bağlayan özetin ilgili yüzeyleri ayrı exact kayıtlarla sınırlı biçimde doğrulanıyor, fakat bu birleşik kayıt ankrajlanmıyor.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_4a404c239545e8a2ba56",
+      "decision": "accept",
+      "reason": "5:94, 5:97, 5:99 ve 5:109 koordinatlarını focus dönüşleriyle birleştiren exact activation trace, bilmenin eksik bilgi edinmesi yerine gizli yönelişi görünürleştirme okumasını taşıyor.",
+      "finding_refs": ["global:manifestation-not-acquired-knowledge"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_afee84f4831cc73fa9e0",
+      "decision": "accept",
+      "reason": "5:112-115 provision dizisi ile 5:94 erişim yüzeyi exact trace içinde birleşiyor; verilen erişimin ihlali kanıt altında ağırlaşan sorumluluk olarak nitelendiriliyor.",
+      "finding_refs": ["global:provision-heightens-liability"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_a8f88e9a57f7660aadd0",
+      "decision": "accept",
+      "reason": "5:94'teki insanî erişim ve 5:120'deki egemenlik/güç kapanışı exact trace ile bağlanıyor; erişim kapasiteyi gösteriyor, izin hakkını değil.",
+      "finding_refs": ["global:human-reach-under-dominion"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    }
+  ],
+  "findings": [
+    {
+      "finding_ref": "global:near-access-exposes-restraint",
+      "origin_candidate_id": "cand_993afea4fef7cf4680b3",
+      "represented_candidate_ids": ["cand_df076bd1f3d896a7ed79", "cand_69503c17658c02b817b4"],
+      "title": "Yakın erişim görünmeyen sakınmayı açığa çıkarır",
+      "claim": "Erişilebilir av, görünmeyen Allah korkusunun izin sınırında davranışa dönüşüp dönüşmediğini görünür kılan bir sınama düzeni kurar.",
+      "mechanism": "Sınama dalı gerçek niteliği açığa çıkarır; av dalı kaçabilen avı ele geçirmeyi, erişim dalı elde edilebilir kılmayı, gayb dalı görünmeyen iç yönelişi taşır. Eller ve mızraklar erişimi kolaylaştırdıkça avı almama davranışı gizli sakınmayı görünür kılar.",
+      "reader_payoff": "Okur, sınamayı kıtlık değil izin verilmiş yakınlık karşısında ortaya çıkan düşük sürtünmeli bir tercih olarak görür.",
+      "containment": "Okuma yakınlık, görünmeyen sakınma ve odaktaki sınamayla sınırlıdır; bütün av hukukunu veya genel bir psikoloji teorisini iddia etmez.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": ["trusted"],
+        "reason": "Yayımlanmış destek güçlüdür; global connection kayıtlarında hedef morfolojisi eksiktir ve iç yöneliş sonucu nitelikli bir çıkarım olarak kalır."
+      },
+      "support_ids": ["sup_7b023e776590ba3d13ba"],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000153/B002",
+          "facet_id": "F001",
+          "branch_gloss": "deneyerek sınama ve gerçek niteliği ortaya çıkarma",
+          "facet_statement": "Kişi veya şey, gerçek durumu anlaşılmak üzere deneyime ve sınamaya tabi tutulur.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["5:94:4:2"],
+          "trigger_refs": ["5:94:8:2", "5:94:16:3"],
+          "focus_return_refs": ["5:94:4:2"],
+          "carrier": "لَيَبْلُوَنَّكُمُ, gerçek durumu sınama içinde açığa çıkaran taşıyıcıdır.",
+          "independent_trigger": "Kaçabilen av ve görünmeyen korku taşıyıcıları, sınamanın hangi iç niteliği açığa çıkaracağını bağımsızlaştırır.",
+          "activation": "Sınama taşıyıcısı avın erişilebilirliği ve görünmeyen korkuyla temas edince, davranış gizli sakınmanın gözlenebilir sınırı olur.",
+          "resulting_reading": "Ayetteki test, yakın fırsat karşısında gerçek bağlılığı açığa çıkaran bir düzenek olarak okunur.",
+          "boundary": "Bu aktivasyon bütün sınama kullanımlarını veya av hükmünün tüm ayrıntılarını açmaz."
+        },
+        {
+          "branch_ref": "root_000896/B001",
+          "facet_id": "F001",
+          "branch_gloss": "kaçabilen avı arayıp ele geçirme",
+          "facet_statement": "Temel eylem, kaçabilen ya da ele geçirilmesi güç bir avı arayıp sonunda elde etmektir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["5:94:8:2"],
+          "trigger_refs": ["5:94:4:2", "5:94:16:3"],
+          "focus_return_refs": ["5:94:8:2"],
+          "carrier": "مِنَ الصَّيْدِ, kaçabilen ve ele geçirilebilen avı taşır.",
+          "independent_trigger": "Sınama fiili ile görünmeyen korku, avın yalnız nesne değil davranışı açığa çıkaran fırsat olduğunu gösterir.",
+          "activation": "Av taşıyıcısı sınama ve gayb temasına değince, avın yakınlığı sakınmanın gerçekliğini denetleyen bir imkân kazanır.",
+          "resulting_reading": "Av, alınabilir oluşuyla insanın kendini sınırlayıp sınırlamadığını görünür kılan nesnedir.",
+          "boundary": "F005'teki kutsal durum ve yenilebilirlik ayrıntıları bu aktivasyonda ayrıca hukukî kapsam olarak seçilmez."
+        },
+        {
+          "branch_ref": "root_001117/B001",
+          "facet_id": "F001",
+          "branch_gloss": "gözden, duyudan ya da bilgiden uzak kalma",
+          "facet_statement": "Bir şey gözle görülmez, duyuyla algılanmaz veya insan tarafından bilinmez durumda kalır.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["5:94:16:3"],
+          "trigger_refs": ["5:94:4:2", "5:94:8:2"],
+          "focus_return_refs": ["5:94:16:3"],
+          "carrier": "بِالْغَيْبِ, insan gözleminden ve bilgisinden uzak iç yönelişi taşır.",
+          "independent_trigger": "Sınama ve erişilebilir av, görünmeyen niteliğin davranış üzerinden okunabileceği dış koşulu sağlar.",
+          "activation": "Gayb taşıyıcısı yakın av fırsatıyla temas edince, görünmeyen korku doğrudan iddia edilmek yerine seçimde belirir.",
+          "resulting_reading": "Allah korkusu, avı almama fiili içinde görünür hale gelen iç yöneliştir.",
+          "boundary": "Gayb dalı burada metafizik alanın bütün uzantılarını veya kişinin her bilinmeyenini açıklamaz."
+        },
+        {
+          "branch_ref": "root_001572/B002",
+          "facet_id": "F002",
+          "branch_gloss": "bir şeyi başkasına verip onun elde etmesini sağlama",
+          "facet_statement": "Verme sonucunda alıcının o şeyi elde etmesi sağlanır.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["5:94:9:1"],
+          "trigger_refs": ["5:94:4:2", "5:94:8:2"],
+          "focus_return_refs": ["5:94:9:1"],
+          "carrier": "تَنَالُهُ, avın insanın erişimine ve elde edişine bırakılmış yakınlığını taşır.",
+          "independent_trigger": "Sınama fiili ile avın ele geçirilebilirliği, erişimin izin sınırında bir fırsat olarak kurulduğunu gösterir.",
+          "activation": "Elde edilebilir kılma taşıyıcısı sınama ve avla temas edince, kolay erişim sakınmanın üzerinde çalıştığı somut koşula dönüşür.",
+          "resulting_reading": "Yakınlık, insanın kapasitesini değil o kapasite karşısındaki sınır koyma davranışını sınayan bir verilmiş imkândır.",
+          "boundary": "Bu, ayetin avı mutlaka ilahî mülk olarak verdiğini veya genel bir bağış teorisi kurduğunu iddia etmez."
+        }
+      ],
+      "connection_refs": ["conn_eb7a89e6ff75b0a512a5", "conn_bebf11e62bbdac94073d", "conn_0f9c4e9a85f91267637d"],
+      "context_refs": ["7:163", "22:37", "36:11"],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:agency-extends-through-spear",
+      "origin_candidate_id": "cand_8c350211a7acdd058546",
+      "represented_candidate_ids": [],
+      "title": "Mızrak erişimi eylem kapasitesini uzatır",
+      "claim": "El, doğrudan güç ve yeterlik taşıyıcısı olarak mızrağın uzattığı erişimle birleşir; sınama yalnız çıplak dokunuşu değil araçla genişleyen eylem gücünü de yönetir.",
+      "mechanism": "يَد dalı elde bulunma ve güç kapasitesini taşır; 8:17 connection'ı projectile agency için ayrı bir temas sağlar. Bu temas mızrağı kendi sözlük dalına çevirmeden, odaktaki erişimin doğrudan elin ötesine uzandığını görünür kılar.",
+      "reader_payoff": "Okur, sakınma sınırını yalnız bedensel temas değil, insanın fiilen ulaştırabildiği araçlı kapasite olarak da algılar.",
+      "containment": "Mızrak burada güç dalının bağlamsal uzantısıdır; root_000597/B003'ün ot/deveye özgü koruma anlamı ve bütün silah teorileri bu bulguya dahil değildir.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": ["trusted"],
+        "reason": "Yayımlanmış destek el ve mızrak ilişkisini taşır; 8:17 bağlantısı paraleldir ve mızrak için bağımsız bir sözlük dalı seçmez."
+      },
+      "support_ids": ["sup_d7e8cc99992e1e58a01c"],
+      "branch_activations": [
+        {
+          "branch_ref": "root_001693/B002",
+          "facet_id": "F001",
+          "branch_gloss": "güç, yeterlik ve güçlendirme",
+          "facet_statement": "Çekirdek anlam, güç ve bir işi yapabilme yeterliğidir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["5:94:10:1"],
+          "trigger_refs": ["conn_28cb92dc446f5d3fdea7"],
+          "focus_return_refs": ["5:94:10:1"],
+          "carrier": "أَيْدِيكُمْ, elde bulunan güç ve işi yapabilme yeterliğini taşır.",
+          "independent_trigger": "8:17 connection'ı atılan projectile ile insanî fail arasındaki eylem temasını verir.",
+          "activation": "Elin yeterlik taşıyıcısı projectile agency ile temas edince, odaktaki mızrak erişimi doğrudan gücün araçla uzaması olarak belirir.",
+          "resulting_reading": "Erişim, sakınma sorumluluğunun araçla genişleyen insan kapasitesini de kapsar.",
+          "boundary": "Bu, mızrağın root_000597/B003 koruma dalına ait olduğunu veya her araçlı eylemin aynı anlamı taşıdığını söylemez."
+        }
+      ],
+      "connection_refs": ["conn_28cb92dc446f5d3fdea7"],
+      "context_refs": ["8:17"],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:manifestation-not-acquired-knowledge",
+      "origin_candidate_id": "cand_4a404c239545e8a2ba56",
+      "represented_candidate_ids": [],
+      "title": "Bilme eksik bilgi edinmek değil görünürleştirmektir",
+      "claim": "لِيَعْلَمَ Allah'ın daha önce bilmediği bir bilgiyi edinmesini değil, gizli yönelişin davranış içinde ayırt edici biçimde görünür ve tarihsel olarak tanınır olmasını ifade eder.",
+      "mechanism": "5:97 kapsamlı bilgiyi, 5:99 insanların açığa vurduğu ve gizlediği şeylerle ilahî bilmeyi yan yana koyar; 5:109 yaratılmışların bilgisi ile gayb bilgisi arasındaki farkı yineler. Bu temaslar, testin bilgi açığı doldurmasından çok gizli bağlılığa bir ayırt edici işaret vermesine yönelir.",
+      "reader_payoff": "Okur, testin ilahî bilgiyi tamamlamadığını; gizli korkunun hüküm ve tarih içinde okunabilir bir davranış işaretine dönüştüğünü seçebilir.",
+      "containment": "Bu, manifestation yönünü güçlü fakat HFT'ye atfedilmiş tutar; bunun fail, topluluk, hüküm veya deneyim bilgisi için kime yönelik olduğu ayrıca belirlenmez.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": ["legacy_unbound"],
+        "reason": "Exact HFT activation trace supplied ayah, word, root, role ve focus dönüşlerini içerir; sözlük dalları çözümlenmemiş olan temaslar atıflı kalır."
+      },
+      "support_ids": ["sup_a1e4e9a8e94b30192e78"],
+      "branch_activations": [
+        {"branch_ref":"root_001040/B002","facet_id":"F001","branch_gloss":"ayırt edici ve yol gösterici işaret","facet_statement":"Bir nesneyi veya kişiyi başkalarından ayırıp tanınır kılan belirgin iz ya da işaret çekirdeği oluşturur.","application_mode":"attributed","carrier_refs":["5:94:12:2"],"trigger_refs":["5:97:13","5:99:9"],"focus_return_refs":["5:94:12:2"],"carrier":"5:94:12:2'de HFT'nin atfettiği ayırt edici işaret, bilme clause'unun görünürleştirici yönünü taşır.","independent_trigger":"5:97:13 ve 5:99:9, ilahî bilmenin kapsamını ve insanların açığa vurma/gizleme karşıtlığını verir.","activation":"İşaret taşıyıcısı kapsamlı bilme ve disclosure karşıtlığıyla temas edince bilme, eksik bilgi edinimi değil ayırt edici bir görünürleşme olarak okunur.","resulting_reading":"Test, gizli yönelişe davranış içinde tanınabilir bir işaret kazandırır.","boundary":"Atıflı trace dışında işaret dalının bayrak, savaş veya zaman uzantıları açılmaz."},
+        {"branch_ref":"root_001117/B001","facet_id":"F001","branch_gloss":"gözden, duyudan ya da bilgiden uzak kalma","facet_statement":"Bir şey gözle görülmez, duyuyla algılanmaz veya insan tarafından bilinmez durumda kalır.","application_mode":"attributed","carrier_refs":["5:94:16:3"],"trigger_refs":["5:99:11","5:109:15"],"focus_return_refs":["5:94:16:3"],"carrier":"5:94:16:3'te HFT'nin atfettiği gayb, gözlerden saklı iç durumu taşır.","independent_trigger":"5:99:11 ve 5:109:15, gizlemenin ve gaybın ilahî bilgi karşısında görünmezlik üretmediğini verir.","activation":"Gizli durum taşıyıcısı disclosure ve hidden-things temasına değince test, görünmeyen yönelişi açığa çıkaran bir temas kazanır.","resulting_reading":"Korku, görünür öncesi bir iç yöneliş olarak kalırken conduct içinde işaretlenebilir hale gelir.","boundary":"Atıflı trace, gayb dalının bütün metafizik veya epistemik uzantılarını seçmez."},
+        {"branch_ref":"root_001040/B001","facet_id":"F001","branch_gloss":"bilme ve gerçeğini kavrama","facet_statement":"Bir şeyi bilme, tanıma ve gerçeğine uygun biçimde kavrama durumu bilgisizliğin karşıtıdır.","application_mode":"attributed","carrier_refs":["5:97:13","5:97:16","5:97:27"],"trigger_refs":["5:94:12:2","5:109:10"],"focus_return_refs":["5:94:12:2"],"carrier":"5:97:13,16,27'de HFT'nin atfettiği bilme, kapsamlı ilahî kavrayışı taşır.","independent_trigger":"5:94:12:2'deki işaret ve 5:109:10'daki yaratılmışların bilgi sınırı, bilmenin yönünü sınar.","activation":"Kapsamlı bilme taşıyıcısı focus clause ve yaratılmışların sınırlı bilgisiyle temas edince testin ilahî bilgi açığı kapatmadığı görünür.","resulting_reading":"Bilme, gizli tutulan şeyi sonradan öğrenmekten çok onun anlamlı biçimde ortaya çıkmasını adlandırır.","boundary":"Atıflı temas öğretme, öğrenme veya rekabetçi bilme uzantılarını açmaz."},
+        {"branch_ref":"root_000097/B001","facet_id":null,"branch_gloss":null,"facet_statement":null,"application_mode":"attributed","carrier_refs":["5:99:9"],"trigger_refs":["5:94:12:2","5:94:16:3"],"focus_return_refs":["5:94:12:2"],"carrier":"5:99:9'da HFT'nin atfettiği açığa çıkma yüzeyi, conduct'un dışa dönük kutbunu taşır; dal kaydı çözülmemiştir.","independent_trigger":"Odaktaki işaret ve gayb taşıyıcıları, açığa çıkmanın daha önce gizli olan yönelişle ilişkisini verir.","activation":"Açığa çıkma taşıyıcısı işaret ve gayb temasına değince gizli korkunun dış davranışta okunabilir hale gelişi görünür.","resulting_reading":"Test, iç yönelişi açığa çıkan bir conduct işaretine dönüştürür.","boundary":"Çözülmemiş dala sözlük glossu veya bağımsız bir görünürlük teorisi eklenmez."},
+        {"branch_ref":"root_001284/B001","facet_id":null,"branch_gloss":null,"facet_statement":null,"application_mode":"attributed","carrier_refs":["5:99:11"],"trigger_refs":["5:94:12:2","5:94:16:3"],"focus_return_refs":["5:94:12:2"],"carrier":"5:99:11'de HFT'nin atfettiği gizleme, iç kutbun saklı kalmasını taşır; dal kaydı çözülmemiştir.","independent_trigger":"Odaktaki işaret ve gayb, saklanan yönelişin insan gözünden uzak olsa da testin konusu olmasını sağlar.","activation":"Gizleme taşıyıcısı görünür işaret ve gaybla temas edince ilahî bilmenin gizli olanı edinmeye bağlı olmadığı belirir.","resulting_reading":"Açığa çıkma ile gizleme aynı tarihsel davranışın iki kutbu olarak tutulur.","boundary":"Çözülmemiş dala örtme için bağımsız gloss, günah veya ceza sonucu eklenmez."},
+        {"branch_ref":"root_001040/B001","facet_id":"F001","branch_gloss":"bilme ve gerçeğini kavrama","facet_statement":"Bir şeyi bilme, tanıma ve gerçeğine uygun biçimde kavrama durumu bilgisizliğin karşıtıdır.","application_mode":"attributed","carrier_refs":["5:109:10","5:109:14"],"trigger_refs":["5:97:13","5:99:9"],"focus_return_refs":["5:94:12:2"],"carrier":"5:109:10,14'te HFT'nin atfettiği bilme karşıtlığı, yaratılmışların sınırlı bilgisi ile ilahî bilgiyi ayırır.","independent_trigger":"5:97 ve 5:99'daki kapsamlı bilme ile disclosure/gizleme temaları, focus clause'un yönünü belirler.","activation":"Bilme karşıtlığı disclosure kayıtlarına değince, testin amacı ilahî bilgisizlik varsayımından ayrılır.","resulting_reading":"Test, bilinenin conduct içinde belirginleşmesini sağlar; ilahî bilgiye yeni veri eklemez.","boundary":"Atıflı kayıt yaratılmışların bütün bilgi durumlarını veya kıyamet sahnesini odakta yeniden kurmaz."},
+        {"branch_ref":"root_001117/B001","facet_id":"F001","branch_gloss":"gözden, duyudan ya da bilgiden uzak kalma","facet_statement":"Bir şey gözle görülmez, duyuyla algılanmaz veya insan tarafından bilinmez durumda kalır.","application_mode":"attributed","carrier_refs":["5:109:15"],"trigger_refs":["5:94:16:3","5:99:11"],"focus_return_refs":["5:94:16:3"],"carrier":"5:109:15'te HFT'nin atfettiği gizli şeyler, gözlemden uzak statüyü taşır.","independent_trigger":"Focus gaybı ve 5:99 gizlemesi, gizli statünün bilmeye engel olmadığını verir.","activation":"Gizli şeyler taşıyıcısı focus gaybıyla temas edince görünmezlik, ilahî bilgi için bir eksiklik değil conduct'un henüz açığa çıkmamış kutbu olur.","resulting_reading":"Gizli bağlılık, test sayesinde görünür ve ayırt edilebilir bir karşılığa dönüşebilir.","boundary":"Atıflı temas hidden-things alanının bütün kapsamını veya belirli bir yargı merciini seçmez."}
+      ],
+      "connection_refs": [],
+      "context_refs": ["5:97", "5:99", "5:109"],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:provision-heightens-liability",
+      "origin_candidate_id": "cand_afee84f4831cc73fa9e0",
+      "represented_candidate_ids": [],
+      "title": "Verilen erişim sorumluluğu ağırlaştırır",
+      "claim": "Yakına getirilen provision hem lütuf hem kanıt olabilir; erişim, sadakati yerleştirmesi beklenen bir verilmiş imkâna dönüştüğü için sonradan gelen ihlal reddedilmiş iyilik ağırlığı taşır.",
+      "mechanism": "5:112-115 table dizisi yiyeceği indirme, kalpleri yatıştırma, doğruluğu bilme ve şahitlik için tangible provision olarak kurar; inişten sonra inkâr exceptional punishment getirir. Bu exact sequence, 5:94'teki erişilebilir avın yalnız temptation değil evidence-bearing favor olarak okunmasına temas eder.",
+      "reader_payoff": "Okur, erişimi nötr bir fırsat değil güveni ve sorumluluğu artıran verilmiş bir yakınlık olarak duyabilir.",
+      "containment": "HFT trace bu paraleli güçlü fakat atıflı bırakır; table'ın olağanüstü sign statüsünün hunting hükmüne hukukî olarak aynen aktarıldığı iddia edilmez.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": ["legacy_unbound"],
+        "reason": "Provision, reassurance, verification ve post-provision consequence exact trace ile koordinatlıdır; odakla hukukî transfer reader inference olarak kalır."
+      },
+      "support_ids": ["sup_130c7e69054a65a94310"],
+      "branch_activations": [
+        {"branch_ref":"root_001572/B001","facet_id":"F001","branch_gloss":"bir şeye ulaşıp onu elde etme","facet_statement":"Kişi bir şeye ulaşır ve onu elde eder.","application_mode":"attributed","carrier_refs":["5:94:9:1"],"trigger_refs":["5:94:10:1","5:113:6"],"focus_return_refs":["5:94:9:1"],"carrier":"5:94:9:1'de HFT'nin atfettiği attainment, odaktaki somut yakınlığı taşır.","independent_trigger":"Elin favor olarak atfedilmesi ve table provision'ın ulaştırılması, elde edişin yalnız temptation olmadığını açar.","activation":"Elde etme taşıyıcısı provision ve favor temasına değince odaktaki yakınlık, verilen erişim olarak da duyulur.","resulting_reading":"Avın ulaşılabilirliği, sorumluluğu artıran tangible favor ihtimalini taşır.","boundary":"Bu temas erişimi otomatik mülkiyet veya kesin ilahî bağış hükmüne çevirmez."},
+        {"branch_ref":"root_001693/B003","facet_id":"F001","branch_gloss":"karşılıksız iyilik ve bağış","facet_statement":"Çekirdek, başkasına sağlanan iyilik ve yarardır.","application_mode":"attributed","carrier_refs":["5:94:10:1"],"trigger_refs":["5:94:9:1","5:114:19"],"focus_return_refs":["5:94:10:1"],"carrier":"5:94:10:1'de HFT'nin atfettiği el, received favor ihtimalini taşır.","independent_trigger":"Attainment ve 5:114 provision, erişimin yarar olarak verilmesi temasını sağlar.","activation":"Favor taşıyıcısı elde etme ve provision ile temas edince erişim, yalnız dış tehdit değil verilmiş iyilik olarak görünür.","resulting_reading":"İhlal, verilmiş imkânın kanıt taşıyan iyiliğine karşı gerçekleşen reddediş olarak ağırlaşabilir.","boundary":"Atıflı favor dalı satışsız verme veya her erişimin bağış olduğu iddiasını açmaz."},
+        {"branch_ref":"root_001492/B002","facet_id":null,"branch_gloss":null,"facet_statement":null,"application_mode":"attributed","carrier_refs":["5:112:11"],"trigger_refs":["5:115:4","5:94:9:1"],"focus_return_refs":["5:94:9:1"],"carrier":"5:112:11'de HFT'nin atfettiği aşağıya indirme, provision'ın erişime getirilmesini taşır; dal kaydı çözülmemiştir.","independent_trigger":"5:115:4'teki gerçekleşmiş indirme ve odaktaki attainment, istenen şeyin erişilebilir hale gelişini verir.","activation":"İndirme taşıyıcısı odaktaki elde edişle temas edince uzak provision ile yakın av aynı maddî erişim ekseninde buluşur.","resulting_reading":"Yakına getirilen şey, yalnız sınav nesnesi değil, sorumluluk doğuran bir verilen olabilir.","boundary":"Çözülmemiş dala indirme için bağımsız gloss veya hukuki sonuç eklenmez."},
+        {"branch_ref":"root_001459/B004","facet_id":null,"branch_gloss":null,"facet_statement":null,"application_mode":"attributed","carrier_refs":["5:112:13"],"trigger_refs":["5:113:6","5:114:19"],"focus_return_refs":["5:94:9:1"],"carrier":"5:112:13'te HFT'nin atfettiği food-bearing table, provision ile sign'ın tangible taşıyıcısını kurar; dal kaydı çözülmemiştir.","independent_trigger":"Kalbin yatışması ve apportioned provision, tangible nesnenin trust ve responsibility ile bağını verir.","activation":"Table taşıyıcısı reassurance ve provision ile temas edince maddî erişim içsel güveni doğrulayan bir araca dönüşür.","resulting_reading":"Erişilebilirlik, davranışı gözleyen ve sorumluluğu artıran bir tangible temas kazanır.","boundary":"Çözülmemiş dala masa, yemek veya sign için bağımsız sözlük kapsamı eklenmez."},
+        {"branch_ref":"root_000948/B001","facet_id":null,"branch_gloss":null,"facet_statement":null,"application_mode":"attributed","carrier_refs":["5:113:6"],"trigger_refs":["5:113:7","5:94:10:1"],"focus_return_refs":["5:94:10:1"],"carrier":"5:113:6'da HFT'nin atfettiği settled reassurance, provision'ın beklenen iç değişimini taşır; dal kaydı çözülmemiştir.","independent_trigger":"Kalp ve odaktaki el/favor temasları, erişimin iç güven ve sakınma ile ilişkisini verir.","activation":"Yatışma taşıyıcısı provision ve received favor ile temas edince tangible access, güveni yerleştirmesi beklenen bir kanıt olarak belirir.","resulting_reading":"Verilen yakınlık sadakatin içte yerleşmesi için bir sınama zemini olur.","boundary":"Çözülmemiş dala huzur için bağımsız gloss veya zorunlu iman sonucu eklenmez."},
+        {"branch_ref":"root_001248/B001","facet_id":null,"branch_gloss":null,"facet_statement":null,"application_mode":"attributed","carrier_refs":["5:113:7"],"trigger_refs":["5:113:6","5:113:8"],"focus_return_refs":["5:94:10:1"],"carrier":"5:113:7'de HFT'nin atfettiği heart, provision'ın iç yöneldiği merkezi taşır; dal kaydı çözülmemiştir.","independent_trigger":"Kalbin yatışması ve disclosure yoluyla bilme, tangible provision'ın evidentiary amacını verir.","activation":"Heart taşıyıcısı reassurance ve knowledge ile temas edince erişim, iç bağlılığı görünürleştiren bir karşılık bekler.","resulting_reading":"Maddî erişim, gizli sadakatin conduct içinde sınandığı iç merkezle bağlanır.","boundary":"Çözülmemiş dala kalp için bağımsız psikolojik veya teolojik sonuç eklenmez."},
+        {"branch_ref":"root_001040/B001","facet_id":"F001","branch_gloss":"bilme ve gerçeğini kavrama","facet_statement":"Bir şeyi bilme, tanıma ve gerçeğine uygun biçimde kavrama durumu bilgisizliğin karşıtıdır.","application_mode":"attributed","carrier_refs":["5:113:8"],"trigger_refs":["5:113:11","5:94:12:2"],"focus_return_refs":["5:94:12:2"],"carrier":"5:113:8'de HFT'nin atfettiği bilme, provision'ın doğrulamaya dönüşmesini taşır.","independent_trigger":"Doğrulama ve odaktaki ayırt edici işaret, tangible erişimin conduct'a evidentiary ağırlık verdiğini gösterir.","activation":"Bilme taşıyıcısı doğrulama ve işaretle temas edince verilen şey, yalnız tüketim değil hakikati görünür kılan bir kanıt olur.","resulting_reading":"Erişimden sonraki ihlal, bilgi ve kanıt oluşmuşken gerçekleştiği için daha hesaplıdır.","boundary":"Bu temas her maddî nimetin zorunlu bilgi ürettiğini veya odakta table anlatısının hukukî olarak tekrarlandığını iddia etmez."},
+        {"branch_ref":"root_000852/B004","facet_id":null,"branch_gloss":null,"facet_statement":null,"application_mode":"attributed","carrier_refs":["5:113:11"],"trigger_refs":["5:113:8","5:114:22"],"focus_return_refs":["5:94:9:1"],"carrier":"5:113:11'de HFT'nin atfettiği verification, promise ile gerçekleşen provision arasındaki doğruluğu taşır; dal kaydı çözülmemiştir.","independent_trigger":"Bilme ve provision'ın verili oluşu, doğrulamanın tangible erişimden sonra geldiğini kurar.","activation":"Verification taşıyıcısı knowledge ve provision ile temas edince maddî erişim sorumluluk için kanıt eşiği olur.","resulting_reading":"İhlal, kanıtsız bir varsayıma değil gerçekleşmiş bir erişim ve doğrulamaya karşı konumlanır.","boundary":"Çözülmemiş dala doğrulama için bağımsız sözlük glossu veya belirli bir yargı sonucu eklenmez."},
+        {"branch_ref":"root_000560/B001","facet_id":null,"branch_gloss":null,"facet_statement":null,"application_mode":"attributed","carrier_refs":["5:114:19","5:114:22"],"trigger_refs":["5:94:9:1","5:115:4"],"focus_return_refs":["5:94:9:1"],"carrier":"5:114:19,22'de HFT'nin atfettiği apportioned gift, provision'ın received favor karakterini taşır; dal kaydı çözülmemiştir.","independent_trigger":"Odaktaki attainment ve 5:115'te gerçekleşmiş indirme, gift'in erişimden sonra sorumluluk doğurduğu ekseni sağlar.","activation":"Apportioned gift taşıyıcısı erişim ve actual delivery ile temas edince yakınlık reddedilebilecek bir favor olarak görünür.","resulting_reading":"Verilen erişim, ihlal halinde nankörlük ağırlığı taşıyabilecek bir kanıt zemini kurar.","boundary":"Çözülmemiş dala rızık veya bağış için bağımsız gloss ve hukukî transfer eklenmez."},
+        {"branch_ref":"root_001492/B002","facet_id":null,"branch_gloss":null,"facet_statement":null,"application_mode":"attributed","carrier_refs":["5:115:4"],"trigger_refs":["5:112:11","5:114:19"],"focus_return_refs":["5:94:9:1"],"carrier":"5:115:4'te HFT'nin atfettiği actual delivery, istenen provision'ın artık verilmiş olduğunu taşır; dal kaydı çözülmemiştir.","independent_trigger":"5:112'deki request ve 5:114'teki gift, delivery'nin öncesi ve anlam çerçevesini verir.","activation":"Gerçekleşmiş teslim taşıyıcısı request ve gift ile temas edince erişimden sonraki inkârın yeni kanıt altında gerçekleştiği görünür.","resulting_reading":"Erişim gerçekleştiğinde sorumluluk, yalnız fırsatın varlığı değil verilmiş favorın reddi olarak ağırlaşır.","boundary":"Çözülmemiş dala teslim için bağımsız sözlük veya odak hükmünü değiştiren sonuç eklenmez."},
+        {"branch_ref":"root_001307/B004","facet_id":null,"branch_gloss":null,"facet_statement":null,"application_mode":"attributed","carrier_refs":["5:115:7"],"trigger_refs":["5:115:8","5:94:16:3"],"focus_return_refs":["5:94:16:3"],"carrier":"5:115:7'de HFT'nin atfettiği benefit'i örtme, provision'dan sonraki karşılığı taşır; dal kaydı çözülmemiştir.","independent_trigger":"After marker ve odaktaki gayb, teslimden sonra gerçekleşen örtmenin bilinçli bir karşılık olarak okunmasını sağlar.","activation":"Post-provision concealment taşıyıcısı gayb ve after ile temas edince sonradan gelen ihlal yeni kanıt karşısında belirir.","resulting_reading":"Erişimden sonra örtme veya inkâr, erişim öncesi belirsizlikten daha ağır bir conduct olarak duyulur.","boundary":"Çözülmemiş dala küfür, örtme veya belirli ceza için bağımsız gloss eklenmez."},
+        {"branch_ref":"root_000131/B002","facet_id":"F001","branch_gloss":"sonra gelme","facet_statement":"Cekirdek anlam once olmanin karsiti olan sonralik ve ardindan gelmedir.","application_mode":"attributed","carrier_refs":["5:115:8"],"trigger_refs":["5:115:7","5:94:22:1"],"focus_return_refs":["5:94:22:1"],"carrier":"5:115:8'de HFT'nin atfettiği after, provision ve response arasındaki sonralık sınırını taşır.","independent_trigger":"Post-provision concealment ve focus'taki painful consequence, sonradan gelen ihlalin ağırlığını verir.","activation":"After taşıyıcısı örtme ve ceza ile temas edince erişimden sonraki breach ayrı bir sorumluluk eşiği kazanır.","resulting_reading":"İhlal, verilen erişimden sonra geldiği için kanıt sonrası bir karşılık olarak görünür.","boundary":"Bu aktivasyon sonralık dalının özel hukukî formül veya tarihsel hüküm uzantılarını açmaz."},
+        {"branch_ref":"root_000994/B005","facet_id":"F001","branch_gloss":"ağır acı çektirme ve cezalandırma","facet_statement":"Bir kişiye ağır acı verilir veya ağır bir ceza uygulanır.","application_mode":"attributed","carrier_refs":["5:115:11","5:115:12","5:115:14"],"trigger_refs":["5:115:8","5:94:22:1"],"focus_return_refs":["5:94:22:1"],"carrier":"5:115:11,12,14'te HFT'nin atfettiği punitive pain, delivery sonrası inkârın heightened consequence'ını taşır.","independent_trigger":"After marker ve focus'taki painful consequence, punishment'ın erişim/ihlal sırasına bağlandığını gösterir.","activation":"Punitive consequence taşıyıcısı after ve focus cezasıyla temas edince tangible provision sonrası breach ağırlaşmış sonuçla görünür.","resulting_reading":"Verilmiş favorın kanıtından sonra gelen reddediş, sıradan bir temptation failure'dan daha ağır sorumluluk olarak okunabilir.","boundary":"F001'in genel acı/ceza çekirdeği korunur; özel ceza miktarı veya table episode'un hukukî aktarımı iddia edilmez."}
+      ],
+      "connection_refs": [],
+      "context_refs": ["5:112", "5:113", "5:114", "5:115"],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:human-reach-under-dominion",
+      "origin_candidate_id": "cand_a8f88e9a57f7660aadd0",
+      "represented_candidate_ids": [],
+      "title": "İnsan erişimi ilahî egemenliğin altındadır",
+      "claim": "Elin yerel denetimi ve mızrağın uzattığı erişim kapasiteyi kanıtlar, fakat izin veya mülkiyet hakkı üretmez; ikisi de her şeyi kapsayan ilahî egemenliğin altında kalır.",
+      "mechanism": "5:120 göklerin, yerin ve içindekilerin mülkünü ve her şeye gücü yetmeyi kapanış olarak verir. Bu universal dominion, 5:94'teki gerçek insanî erişimi geçersiz kılmaz; onu türemiş kapasiteye indirger.",
+      "reader_payoff": "Okur, erişilebilir olmayı sahip olunabilir veya alınabilir olmakla özdeşleştirmeden, kapasite ile yetki arasındaki farkı görür.",
+      "containment": "HFT çıkarımı orta güvenlidir; 5:120 genel egemenlik bildirir ve el/mızrağı özel olarak yeniden kodladığı kesinleştirilmez.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": ["legacy_unbound"],
+        "reason": "Exact trace focus attainment/hand ile 5:120 dominion/power kayıtlarını bağlar; özel hukukî sonuç reader inference olarak kalır."
+      },
+      "support_ids": ["sup_972cfedd94c8b751ce25"],
+      "branch_activations": [
+        {"branch_ref":"root_001572/B001","facet_id":"F001","branch_gloss":"bir şeye ulaşıp onu elde etme","facet_statement":"Kişi bir şeye ulaşır ve onu elde eder.","application_mode":"attributed","carrier_refs":["5:94:9:1"],"trigger_refs":["5:94:10:1","5:120:2"],"focus_return_refs":["5:94:9:1"],"carrier":"5:94:9:1'de HFT'nin atfettiği attainment, insanın ulaşma kapasitesini taşır.","independent_trigger":"5:120:2'deki sovereign dominion, insanın elde edişini daha geniş mülk alanına yerleştirir.","activation":"Elde etme taşıyıcısı ilahî mülkle temas edince ulaşma, kendi başına entitlement değil türemiş kapasite olur.","resulting_reading":"Avı elde edebilmek, onu alma iznini kendiliğinden kurmaz.","boundary":"Bu, insanın her elde edişini geçersiz saymaz veya bütün mülkiyet ilişkilerini açıklamaz."},
+        {"branch_ref":"root_001693/B004","facet_id":"F001","branch_gloss":"elinde bulunma, sahiplik ve denetim","facet_statement":"Bir şeyin kişiye ait olması ve onun elinde tutulması çekirdek anlamdır.","application_mode":"attributed","carrier_refs":["5:94:10:1"],"trigger_refs":["5:94:9:1","5:120:2"],"focus_return_refs":["5:94:10:1"],"carrier":"5:94:10:1'de HFT'nin atfettiği hand possession, yerel denetim ve elde tutmayı taşır.","independent_trigger":"5:120:2'nin encompassing ownership'i, eldeki yerel denetimin nihai kaynak olmadığını verir.","activation":"Yerel possession taşıyıcısı ilahî dominion ile temas edince insan eli gerçek fakat alt düzey bir control olarak görünür.","resulting_reading":"Elin kontrolü kapasiteyi gösterir; sınırın kaynağı veya izin hakkı değildir.","boundary":"Atıflı dal, odaktaki eli tüm özel hukukî sahiplik türlerine genişletmez."},
+        {"branch_ref":"root_001444/B003","facet_id":null,"branch_gloss":null,"facet_statement":null,"application_mode":"attributed","carrier_refs":["5:120:2"],"trigger_refs":["5:94:9:1","5:120:10"],"focus_return_refs":["5:94:9:1"],"carrier":"5:120:2'de HFT'nin atfettiği sovereign dominion, bütün mülkün ilahî kapsamını taşır; dal kaydı çözülmemiştir.","independent_trigger":"Odaktaki attainment ve 5:120'deki every-thing/power temasları, insanî erişimin hiyerarşik yerini verir.","activation":"Egemenlik taşıyıcısı insanın erişimiyle temas edince fiziksel reach nihai sahiplik iddiasından ayrılır.","resulting_reading":"İnsan eli ve mızrağı, daha büyük bir mülk ve izin düzeni içinde çalışan araçlardır.","boundary":"Çözülmemiş dala egemenlik için bağımsız gloss veya bütün hukuk sistemi eklenmez."},
+        {"branch_ref":"root_000831/B001","facet_id":null,"branch_gloss":null,"facet_statement":null,"application_mode":"attributed","carrier_refs":["5:120:10"],"trigger_refs":["5:120:2","5:120:11"],"focus_return_refs":["5:94:9:1"],"carrier":"5:120:10'da HFT'nin atfettiği every thing, nesne ve kapasitenin kapsama dahil oluşunu taşır; dal kaydı çözülmemiştir.","independent_trigger":"Sovereign dominion ve effective power, av ile insan araçlarının aynı ilahî kapsam içinde bulunduğunu verir.","activation":"Kapsam taşıyıcısı dominion ve power ile temas edince erişilebilir av da insan gücü de daha büyük bir yetki alanına bağlanır.","resulting_reading":"Reach, kendisini doğrulayan bağımsız bir hak değil kapsanmış bir kapasitedir.","boundary":"Çözülmemiş dala şey kavramı için bağımsız sözlük veya özel av sonucu eklenmez."},
+        {"branch_ref":"root_001205/B003","facet_id":null,"branch_gloss":null,"facet_statement":null,"application_mode":"attributed","carrier_refs":["5:120:11"],"trigger_refs":["5:120:2","5:94:10:1"],"focus_return_refs":["5:94:10:1"],"carrier":"5:120:11'de HFT'nin atfettiği effective power, her şeye ulaşan nihai kudret temasını taşır; dal kaydı çözülmemiştir.","independent_trigger":"Sovereign dominion ve odaktaki hand capacity, insan gücünün türemiş bir biçimde okunmasını sağlar.","activation":"Kudret taşıyıcısı insan eliyle temas edince fiziksel reach ilahî gücün rakibi değil, sınırlandırılmış bir kapasitesi olarak görünür.","resulting_reading":"Elde etme imkânı sınırı aşma yetkisine dönüşmez.","boundary":"Çözülmemiş dala kudret için bağımsız gloss, kader öğretisi veya kapsamlı egemenlik sonucu eklenmez."}
+      ],
+      "connection_refs": [],
+      "context_refs": ["5:120"],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:sacred-boundary-for-reachable-game",
+      "origin_candidate_id": null,
+      "represented_candidate_ids": [],
+      "title": "Yakın av kutsal sınır içinde belirlenir",
+      "claim": "Ulaşılabilir avın sınırı, kutsal durum ve transgression yasağıyla birlikte okunur: erişilebilirlik tek başına izin anlamına gelmez.",
+      "mechanism": "5:1-5:4 bağlantıları sacred state, release sonrası hunting ve transgression sınırlarını 5:94'teki av taşıyıcısına geri bağlar. Av dalı kaçabilen avın elde edilmesini, sınama dalı ise sınır içinde davranışın açığa çıkmasını taşır.",
+      "reader_payoff": "Okur, ellerin ve mızrakların erişimini serbest bir entitlement değil, kutsal bağlamda denetlenen bir affordance olarak ayırt eder.",
+      "containment": "Bağlantılar legal boundary için güçlü paraleldir fakat target morphology packet içinde verilmemiştir; bütün 5:1-5:4 hukukunu odak ayetine taşımak amaçlanmaz.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": [],
+        "reason": "Bulgu yalnızca packet connection registry'sindeki reciprocal/derived bağlantılara dayanır; target morfolojisi yoktur."
+      },
+      "support_ids": [],
+      "branch_activations": [
+        {"branch_ref":"root_000896/B001","facet_id":"F005","branch_gloss":"kaçabilen avı arayıp ele geçirme","facet_statement":"Kurallara bağlı özel kullanım, sahipli olmayan ve kaçabilen hayvanın belirli biçimde ele geçirilmesiyle sınırlıdır; kimi bağlamlarda eti yenebilen hayvan şartı da vardır.","application_mode":"contextual_resonance","carrier_refs":["5:94:8:2"],"trigger_refs":["conn_b853407c8c691c39a241","conn_9c294b823821f135ed1e","conn_7a59766a8767159a1917","conn_da51967d6b7614cfc505"],"focus_return_refs":["5:94:8:2"],"carrier":"الصَّيْدِ, kaçabilen avın elde edilmesi yüzeyini taşır.","independent_trigger":"5:1-5:4 connections sacred state, release ve transgression sınırlarını açıklar.","activation":"Av taşıyıcısı kutsal hukuk bağlantılarıyla temas edince elde edilebilirlik izin sınırına bağlı bir özel kullanım kazanır.","resulting_reading":"Yakın av, kutsal durum içinde sınanan ve sınır aşımına dönüşebilen bir affordance'tır.","boundary":"F005'in kendi hayvan/yenilebilirlik koşulları korunur; connection'lar bundan daha geniş av tanımı üretmez."},
+        {"branch_ref":"root_000153/B002","facet_id":"F001","branch_gloss":"deneyerek sınama ve gerçek niteliği ortaya çıkarma","facet_statement":"Kişi veya şey, gerçek durumu anlaşılmak üzere deneyime ve sınamaya tabi tutulur.","application_mode":"contextual_resonance","carrier_refs":["5:94:4:2"],"trigger_refs":["conn_b853407c8c691c39a241","conn_9c294b823821f135ed1e","conn_7a59766a8767159a1917","conn_da51967d6b7614cfc505"],"focus_return_refs":["5:94:4:2"],"carrier":"لَيَبْلُوَنَّكُمُ, kutsal sınır içindeki davranışın gerçek niteliğini açığa çıkaran sınamadır.","independent_trigger":"5:1-5:4 connections, av kısıtını ve transgression eşiğini ayrı hukukî tetikleyiciler olarak döndürür.","activation":"Sınama taşıyıcısı sacred boundary ile temas edince odak ayeti erişimi değil sınır içinde seçilen davranışı ölçer.","resulting_reading":"Erişim, kutsal durumun izin çerçevesinde sadakati açığa çıkaran bir testtir.","boundary":"Bu temas bütün kutsal durum hükümlerini veya target ayetlerin her ayrıntısını odakta varsaymaz."}
+      ],
+      "connection_refs": ["conn_b853407c8c691c39a241", "conn_9c294b823821f135ed1e", "conn_7a59766a8767159a1917", "conn_da51967d6b7614cfc505"],
+      "context_refs": ["5:1", "5:2", "5:3", "5:4"],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:consequence-after-defined-limit",
+      "origin_candidate_id": null,
+      "represented_candidate_ids": [],
+      "title": "Tanımlı sınırdan sonraki sonuç ağırlaşır",
+      "claim": "Odaktaki sonra ve acı verici azap, belirlenmiş bir sınır aşıldıktan sonra gelen yaptırımın ihlal öncesi belirsizlikten farklı ve daha hesaplı olduğunu gösterir.",
+      "mechanism": "2:178 ve 2:194 connections transgression, bounded response ve taqwa temaslarını odaktaki after marker ve consequence taşıyıcılarına geri bağlar. Sonuç, erişim veya sınır tanımlandıktan sonraki fiile bağlanır.",
+      "reader_payoff": "Okur, acı verici sonucun soyut tehdit değil, sınırın görünür kılınmasından sonra gelen breach'e bağlanan bir sonuç olduğunu fark eder.",
+      "containment": "Bu global parallel, 2:178 ve 2:194'ün bütün ceza veya savaş bağlamını 5:94'e taşımaz; target morphology packet'te yoktur.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": [],
+        "reason": "Connection registry tekrarlanan consequence formülünü destekler, fakat hedef ayetlerin morfolojik dökümü packet'te bulunmaz."
+      },
+      "support_ids": [],
+      "branch_activations": [
+        {"branch_ref":"root_000131/B002","facet_id":"F001","branch_gloss":"sonra gelme","facet_statement":"Cekirdek anlam once olmanin karsiti olan sonralik ve ardindan gelmedir.","application_mode":"contextual_resonance","carrier_refs":["5:94:19:1"],"trigger_refs":["conn_c5fd5c15079cecd35224","conn_cbee2ade2c786e4a5f2c"],"focus_return_refs":["5:94:19:1"],"carrier":"بَعْدَ ذَٰلِكَ, ihlal ve sonuç arasındaki sonralık sırasını taşır.","independent_trigger":"2:178 ve 2:194 connections sınırlandırılmış karşılık ve transgression sonrasını verir.","activation":"After taşıyıcısı bounded response ile temas edince odaktaki azap, sınırın öncesine değil sonrasındaki fiile bağlanır.","resulting_reading":"Sorumluluk, belirlenmiş sınırdan sonra gelen ihlal ile keskinleşir.","boundary":"Bu, target ayetlerin özel yaptırımını veya after dalının bütün kullanımlarını odakta yeniden kurmaz."},
+        {"branch_ref":"root_000994/B005","facet_id":"F001","branch_gloss":"ağır acı çektirme ve cezalandırma","facet_statement":"Bir kişiye ağır acı verilir veya ağır bir ceza uygulanır.","application_mode":"contextual_resonance","carrier_refs":["5:94:22:1"],"trigger_refs":["conn_c5fd5c15079cecd35224","conn_cbee2ade2c786e4a5f2c"],"focus_return_refs":["5:94:22:1"],"carrier":"عَذَابٌ أَلِيمٌ, ağır acı ve cezalandırılmış sonuç yüzeyini taşır.","independent_trigger":"2:178 ve 2:194 connections consequence'ı transgression ve bounded limit sonrasına bağlar.","activation":"Ceza taşıyıcısı after ve transgression parallel'leriyle temas edince sonuç, tanımsız bir tehdit değil sınır aşımının ardılı olur.","resulting_reading":"Acı verici sonuç, görünür kılınmış sınırdan sonra gelen ihlalin hesaplı karşılığı olarak duyulur.","boundary":"Connection paraleli belirli ceza miktarı, fail veya hukukî prosedür tayin etmez."}
+      ],
+      "connection_refs": ["conn_c5fd5c15079cecd35224", "conn_cbee2ade2c786e4a5f2c"],
+      "context_refs": ["2:178", "2:194"],
+      "semantic_obligation_refs": []
+    }
+  ],
+  "friction_notes": [
+    "HFT kaynakları legacy_unbound durumunda olduğu için exact coordinate ve focus dönüşü bulunan katkılar attributed olarak tutuldu; çözülmemiş dallara gloss veya facet uydurulmadı.",
+    "Global connection hedeflerinde target morphology sağlanmıyor; bu nedenle kutsal sınır, repeated consequence ve wider resonance bulguları qualified bırakıldı.",
+    "Ankrajlanmamış HFT özetleri ve retrospektif/legal sentezler görünür tutuldu fakat tek başına discovery finding'e yükseltilmedi.",
+    "root_000597/B003 yalnızca ot/deveye özgü koruma formuyla sınırlı olduğundan mızrak kapasitesi iddiasından çıkarıldı."
+  ]
+}

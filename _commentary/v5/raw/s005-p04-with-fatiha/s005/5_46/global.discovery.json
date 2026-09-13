@@ -1,0 +1,635 @@
+{
+  "schema_version": "commentary-v5-scope-discovery-v1",
+  "ayah_ref": "5:46",
+  "lane": "global",
+  "coverage_complete": true,
+  "candidate_decisions": [
+    {
+      "candidate_id": "cand_369e87abd151e1dd81c2",
+      "decision": "accept",
+      "reason": "Citable cross-run finding has exact focus anchors and four supplied branches; the direct 57:27, 3:3, and 4:66 connections provide independent wider triggers, so the bounded succession relation survives with qualification.",
+      "finding_refs": ["global:succession-trace-confirmation"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_746340c0a4b5d140779d",
+      "decision": "represented",
+      "reason": "İz üzerinde ilerleme, önceki vahyi doğrulama ve öğütle devam etme çekirdeği global:succession-trace-confirmation bulgusundaki aynı semantik harekettir; adayın bütün dalları bu bulguda korunur.",
+      "finding_refs": ["global:succession-trace-confirmation"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_6b9297c4833b3db1bb59",
+      "decision": "reject",
+      "reason": "5:120'ye dayanan geriye dönük özet, 5:46'ya dönen bir taşıyıcı, bağımsız tetik ve değişmiş bir okuma vermiyor; bu nedenle global bulgu eşiğini geçmiyor.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [
+        {"context_ref": "5:120", "reason": "Bağlam yalnızca genel bir son özet olarak anılıyor; odak yüzeyine inen bağımsız bir temas yok."}
+      ],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_86759c82709b2a6fc192",
+      "decision": "represented",
+      "reason": "İzleri takip ederek vahiyde devam etme ve yolu genişletme çekirdeği global:succession-trace-confirmation bulgusundaki aynı ardıllık ilişkisini taşır; q-f-w dalı ve odak dönüşü orada korunur.",
+      "finding_refs": ["global:succession-trace-confirmation"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_e232a3336a5291dac20a",
+      "decision": "reject",
+      "reason": "5:120'ye dayanan geniş bağlam özeti, 5:46'nın belirli bir kelimesiyle buluşan bağımsız bir tetik ve maddi anlam değişimi göstermiyor.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [
+        {"context_ref": "5:120", "reason": "Anılan son ayet genel kapsam bildiriyor; taşıyıcı, tetik ve odak dönüşü sağlanmıyor."}
+      ],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_85bd3300479a8e95b131",
+      "decision": "reject",
+      "reason": "5:45'teki s-d-q bağışlama sorusu bir belirsizlik kaydı olarak kalıyor; exact HFT trace, dal, taşıyıcı, tetik ve odağa dönüş ilişkisi supplied değil.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [
+        {"context_ref": "5:45", "reason": "Bu ayet yalnızca açık uçlu bir soru olarak anılıyor; focus carrier ve bağımsız tetik bağlanmıyor."}
+      ],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_2485dabef1b83576c96c",
+      "decision": "reject",
+      "reason": "Nur-nar karşıtlığına ilişkin soru, exact HFT trace ve bağımsız focus return vermiyor; ayrı trace-backed ışık bulgusu bu kaydın belirsizliğini aday olarak taşımıyor.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_1d8c83551ba5441038e6",
+      "decision": "reject",
+      "reason": "5:48 yolları hakkındaki soru, exact context Arabic, HFT kelime koordinatı, branch carrier ve odağa dönen temas sağlamıyor.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [
+        {"context_ref": "5:48", "reason": "Ayete gönderme var, fakat bu kayıtta taşıyıcıyı ve bağımsız tetikleyiciyi doğrulayan yüzey veya koordinat yok."}
+      ],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_a4b6d287736273595b2a",
+      "decision": "reject",
+      "reason": "th-w-r ayrışmasına ilişkin soru, supplied branch, exact carrier, independent trigger veya focus return içermiyor; malzeme benzetmesi sınırını aşan bir okuma kurulamaz.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_5232d88766fb4833d851",
+      "decision": "reject",
+      "reason": "Confirmation-custody özeti legacy-unbound bir sentez olarak görünür, fakat exact HFT trace, supplied word/root role ve focus'a dönen bağımsız temas içermez.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_0633f97e5e89225306b0",
+      "decision": "reject",
+      "reason": "Guidance-light relay özeti exact carrier, context coordinate, branch ve focus return olmadan verilmiştir; supplied bağlantılar bu adayın daha güçlü relay iddiasını doğrudan kurmuyor.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_2066edf933fc0fc3b5aa",
+      "decision": "reject",
+      "reason": "5:48'deki farklı yollar özeti exact HFT trace, word/root role ve focus surface return olmadan kalıyor; global değişmiş okuma için yeterli bağ kurulmamış.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [
+        {"context_ref": "5:48", "reason": "Anılan yol ayrımı için bu kayıtta exact carrier ve bağımsız tetik koordinatı bulunmuyor."}
+      ],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_0a51b47a0a844798cdfc",
+      "decision": "reject",
+      "reason": "Qisas ve tasaddaqa dizisine ilişkin özet, exact context anchor veya HFT activation trace taşımıyor; 5:46'nın musaddiqan yüzeyine dönen bağımsız temas gösterilmiyor.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_0247fab0491830bc483a",
+      "decision": "reject",
+      "reason": "Odak köklerinin farklı ayetlerdeki tekrarlarına ilişkin genel özet, exact carrier-trigger trace ve tekil değişmiş okuma vermiyor; ayrı bağlantı bulguları bu sentezi otomatik olarak doğrulamıyor.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_1378f30edef3ac6897ef",
+      "decision": "accept",
+      "reason": "Exact HFT trace 5:27 kabul ilişkisini ve 5:46 mawiza-muttaqin koordinatlarını sağlıyor; unresolved q-b-l dalı attributed olarak korunuyor ve üç nominated dalın tamamı aktivasyonlara iniyor.",
+      "finding_refs": ["global:acceptance-reception-loop"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_1d278f546f787a24b9e5",
+      "decision": "accept",
+      "reason": "Exact HFT trace 5:29 ve 5:37 nar coordinates ile focus nur-mawiza yüzeyini birleştiriyor; n-w-r'nin ışık ve ateş dalları ile w-ʿ-ẓ dalı değişmiş okuma içinde ayrı ayrı iniyor.",
+      "finding_refs": ["global:light-under-terminal-hazard"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_8d05501247c2519ad2aa",
+      "decision": "accept",
+      "reason": "Exact HFT trace 5:28 ve 5:38 hand coordinates ile focus doubled yadayhi yüzeyini bağlıyor; unresolved k-s-b dalı attributed olarak korunuyor ve outlier exploratory statüde sınırlandırılıyor.",
+      "finding_refs": ["global:accountable-foreground"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    }
+  ],
+  "findings": [
+    {
+      "finding_ref": "global:succession-trace-confirmation",
+      "origin_candidate_id": "cand_369e87abd151e1dd81c2",
+      "represented_candidate_ids": [
+        "cand_746340c0a4b5d140779d",
+        "cand_86759c82709b2a6fc192"
+      ],
+      "title": "İz üzerinde ilerleyen doğrulama",
+      "claim": "5:46'daki ardıllık, önceki vahyin geride kalan izleri üzerinde ilerleyen ve onu doğrulayarak yeni bir halka oluşturan bir devam ilişkisi olarak görünür; son öğüt bu devamı alıcının korunmasına yöneltir.",
+      "mechanism": "Odaktaki qaffayna ve athar yüzeyleri 57:27'nin aynı ardıllık ve iz ilişkisiyle buluşur; iki musaddiqan 3:3'teki Tevrat-İncil doğrulama düzeniyle, mawiza ise 4:66'daki öğüdün tutarlılığa yönelen sonucu ile temas eder. Bu ayrı temaslar birleşerek zinciri yalnız kronolojik sıra olmaktan çıkarıp iz, doğrulama ve alıcıya yönelen öğüt ilişkisine dönüştürür.",
+      "reader_payoff": "İncil'in gelişi, önceki vahiyden kopuk bir ek olarak değil, izden yön alan, doğrulayan ve öğütle işlev kazanan bir devam hareketi olarak görünür.",
+      "containment": "Bu okuma 5:46'nın İsa'nın gönderilmesi, İncil'in Tevrat'ı doğrulaması ve huda, nur, mawiza ile muttaqin düzenini korur. 57:27, 3:3 ve 4:66 bağlantıları wider trigger olarak zincirin sınırını çizer; bütün sonraki metin tarihi veya tek bir yorum sonucu ileri sürülmez.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": ["legacy_unbound", "trusted"],
+        "reason": "Odak dalları ve hedef ayetlerin bağlantı yüzeyleri supplied; cross-run kaydının grade'i weak ve bağlantı hedeflerinde tam morfolojik çözümleme bulunmadığı için zincir ilişkisi nitelikli tutuldu."
+      },
+      "support_ids": [
+        "sup_81fad8f73e349c8980a5",
+        "sup_b3ba1775b42d29101b55"
+      ],
+      "branch_activations": [
+        {
+          "branch_ref": "root_001247/B001",
+          "facet_id": "F001",
+          "branch_gloss": "ardından gitme ve izleme",
+          "facet_statement": "Temel ilişki, bir şeyin kendinden önce gelen şeyi izlemesidir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["5:46:1:2"],
+          "trigger_refs": ["57:27", "conn_ev_9898721de7a76d0c95f8"],
+          "focus_return_refs": ["5:46:1:2"],
+          "carrier": "5:46'daki qaffayna, önce gelenlerin izleri üzerinde ilerleyen ardıllığı taşır.",
+          "independent_trigger": "57:27'nin aynı elçiler, izler, İsa ve İncil dizisini açıkça bir araya getiren hedef yüzeyi.",
+          "activation": "Aynı ardıllık eyleminin daha geniş ayette aynı iz ilişkisiyle yinelenmesi, odaktaki gönderme hareketini sıradan bir sıra bilgisinden izlenebilir vahiy devamına taşır.",
+          "resulting_reading": "Ardıllık, öncekinin ardından giderek onun bıraktığı yönü taşıyan bir ilerleme olarak okunur.",
+          "boundary": "Aktivasyon peygamberler arası ardıllık ve iz ilişkisiyle sınırlıdır; bütün tarihsel aktarım biçimleri bu dala yüklenmez."
+        },
+        {
+          "branch_ref": "root_000011/B003",
+          "facet_id": "F001",
+          "branch_gloss": "geride kalan belirti veya iz",
+          "facet_statement": "Geçmiş bir varlık ya da olaydan geriye bir belirti kalır.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["5:46:3:1"],
+          "trigger_refs": ["57:27", "conn_ev_9898721de7a76d0c95f8"],
+          "focus_return_refs": ["5:46:3:1"],
+          "carrier": "5:46'daki athar, önceki topluluğun geride bıraktığı izleri taşır.",
+          "independent_trigger": "57:27'de aynı athar ifadesiyle elçilerin önceki izler üzerinde sıralanması.",
+          "activation": "Hedef ayetteki tekrar, athar'ı yalnız geçmişe ait bir kalıntı olmaktan çıkarıp sonraki gönderilişi yönlendiren görünür bir iz haline getirir.",
+          "resulting_reading": "Önceki vahyin izi, sonraki vahiy hareketinin üzerinde ilerlediği canlı bir yön yüzeyi olur.",
+          "boundary": "İz dalı geride kalan belirtiyi taşır; izinden gitme eylemi ayrı q-f-w aktivasyonunda tutulur."
+        },
+        {
+          "branch_ref": "root_000852/B004",
+          "facet_id": "F001",
+          "branch_gloss": "sözü veya beklentiyi doğrulayıp gerçekleştirme",
+          "facet_statement": "Bir söz, beklenti veya iddia gerçekleşme, eylem ya da onayla doğru çıkarılır.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["5:46:7:1", "5:46:18:2"],
+          "trigger_refs": ["3:3", "conn_ev_a3f3b55e947b84b8b70f"],
+          "focus_return_refs": ["5:46:7:1", "5:46:18:2"],
+          "carrier": "5:46'nın iki musaddiqan'ı, İsa ve İncil'in önceki vahye yönelen etkin doğrulamasını taşır.",
+          "independent_trigger": "3:3'ün kitabın öncekini doğrulaması ve Tevrat ile İncil'i aynı vahiy dizisinde adlandırması.",
+          "activation": "Aynı doğrulama ilişkisi daha geniş vahiy formülünde tekrarlandığında, odaktaki iki musaddiqan aynı zincirin hem taşıyıcısına hem de verilen kitaba uygulanan etkin onay olarak birlikte görünür.",
+          "resulting_reading": "Doğrulama, önceki bildiriyi yalnız tanımak değil, onun yönünü sonraki vahiy içinde gerçekleştiren bir devam eylemidir.",
+          "boundary": "Dal doğrulama ve onay ilişkisiyle sınırlıdır; bağımsız bir tarihsel metin bütünlüğü hükmü kurulmaz."
+        },
+        {
+          "branch_ref": "root_001663/B001",
+          "facet_id": "F001",
+          "branch_gloss": "sakındırıcı öğüt ve öğütten ders alma",
+          "facet_statement": "Birine iyiyi ve davranışlarının sonuçlarını hatırlatıp onun yararını gözeten öğüt verme eylemidir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["5:46:25:2"],
+          "trigger_refs": ["4:66", "conn_ev_3675255186021206dd21"],
+          "focus_return_refs": ["5:46:25:2"],
+          "carrier": "5:46'nın mawiza'sı, alıcının yararını gözeten sakındırıcı öğüdü taşır.",
+          "independent_trigger": "4:66'nın kendilerine öğütlenen şeyi yerine getirmenin iyilik ve sağlamlaştırma doğurduğunu bildiren hedef yüzeyi.",
+          "activation": "Öğüdün uygulanmasıyla sağlamlaşma arasındaki wider temas, son mawiza'yı zincirin belgesel devamına eklenen alıcı yönlü işlev olarak belirginleştirir.",
+          "resulting_reading": "Vahiy zinciri, iz ve doğrulama üzerinden ilerlerken alıcıyı koruyucu bir eyleme çağıran öğütle işlev kazanır.",
+          "boundary": "Buradaki öğüt, odak ayetinin son işlev zincirinde kalır; bütün uyarı ve korkutma kullanımları bu aktivasyona taşınmaz."
+        }
+      ],
+      "connection_refs": [
+        "conn_3d2aaa03a1ad5cec29a4",
+        "conn_5c3f6090684c7ae7086c",
+        "conn_1524a8bbf26e4bc52b88"
+      ],
+      "context_refs": ["57:27", "3:3", "4:66"],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:guidance-light-route",
+      "origin_candidate_id": null,
+      "represented_candidate_ids": [],
+      "title": "Hidayet ile ışığın yol işlevi",
+      "claim": "İncil'in içindeki huda ile nur, daha geniş vahiy dilinde insanı karanlıktan çıkarıp dosdoğru yola taşıyan işler olarak da görünür; 5:46'nın iki huda kullanımı bu yönelişi içeriğin niteliği ile alıcıya dönük işlev arasında açar.",
+      "mechanism": "Odaktaki huda, doğru yönü gösterme dalıyla ve nur, ışık dalıyla taşınır. 5:16'nın supplied hedef yüzeyi, ilahi yöneltmeyi karanlıklardan nura ve dosdoğru yola gidiş olarak birlikte kurar. Bu temas, 5:46'daki içerik çiftini statik niteliklerden işleyen bir yol ilişkisine çevirir.",
+      "reader_payoff": "Huda ve nur birlikte görüldüğünde İncil'in içeriği yalnız aydınlatan bir bilgi değil, alıcıyı yönlendiren ve yürüyüşe sokan bir yol işlevi kazanır.",
+      "containment": "Okuma 5:46'nın İncil içinde huda ve nur bulunduğu, sonunda huda ile mawiza'nın muttaqin için verildiği yüzeyi korur. 5:16 yalnızca yön ve ışık işlevini wider trigger olarak açar; odaktaki her h-d-y veya n-w-r dalı etkin sayılmaz.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": ["legacy_unbound"],
+        "reason": "5:16 bağlantısının hedef Arapçası supplied ve focus return yüzeyleri exact; HFT önerisi legacy-unbound olduğundan ve hedef morfolojisi ayrıca verilmediğinden işlevsel okuma niteliklidir."
+      },
+      "support_ids": ["sup_c920a6aebb4b7250f3b2"],
+      "branch_activations": [
+        {
+          "branch_ref": "root_001583/B001",
+          "facet_id": "F001",
+          "branch_gloss": "doğru yolu gösterme ve doğruya yönelme",
+          "facet_statement": "Doğru yönü, yolu veya gerçeği incelikle göstermek, açıklamak ve tanıtmaktır.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["5:46:16:1", "5:46:24:2"],
+          "trigger_refs": ["5:16", "conn_ev_c7d86302875a94842b13"],
+          "focus_return_refs": ["5:46:16:1", "5:46:24:2"],
+          "carrier": "5:46'nın ilk ve son huda'sı doğru yönü gösterme ve bu yönü alıcıya taşıma yüzeyini taşır.",
+          "independent_trigger": "5:16'nın supplied yüzeyinde rehberliğin karanlıklardan çıkarıp dosdoğru yola yöneltmesi.",
+          "activation": "Wider yönlendirme sahnesi, odaktaki huda'yı yalnız içeriğin adı olmaktan çıkarıp kitabın alıcı üzerinde gerçekleştirdiği yön verme işiyle temas ettirir.",
+          "resulting_reading": "Huda, İncil'in içinde bulunan bir nitelik olarak başlayıp alıcıyı dosdoğru yola yönelten bir işlev olarak açılır.",
+          "boundary": "Bu aktivasyon doğru yön gösterme çekirdeğindedir; armağan, sığınmacı veya başka h-d-y dalları ileri sürülmez."
+        },
+        {
+          "branch_ref": "root_001564/B001",
+          "facet_id": "F001",
+          "branch_gloss": "ışık ve aydınlatma",
+          "facet_statement": "Görmeyi sağlayan aydınlık ve ışık, dalın ad çekirdeğini oluşturur.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["5:46:17:2"],
+          "trigger_refs": ["5:16", "conn_ev_c7d86302875a94842b13"],
+          "focus_return_refs": ["5:46:17:2"],
+          "carrier": "5:46'daki nur, İncil'in içinde görmeyi ve açıklığı sağlayan ışık yüzeyini taşır.",
+          "independent_trigger": "5:16'nın aynı nura doğru çıkarma ve dosdoğru yola yöneltme ilişkisini kuran supplied yüzeyi.",
+          "activation": "Nur'un daha geniş ayette yönlendirme eylemiyle birlikte görünmesi, odaktaki ışığı huda'nın yürüyüşe sokan işlevine bağlar.",
+          "resulting_reading": "Nur, huda ile birlikte alıcının önünü açan ve yol üzerinde ilerlemeyi mümkün kılan görünürlük olur.",
+          "boundary": "Işık dalı burada aydınlatma çekirdeğinde kalır; ateş, damga ve yol işareti dalları bu bulguya eklenmez."
+        }
+      ],
+      "connection_refs": ["conn_8f00f34d7dfe6ddc4cee"],
+      "context_refs": ["5:16"],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:confirmation-custody",
+      "origin_candidate_id": null,
+      "represented_candidate_ids": [],
+      "title": "Doğrulamanın yaşanan bağlılıkla sınanması",
+      "claim": "Musaddiqan'ın doğrulama eylemi, Tevrat ve İncil'in ayakta tutulmasının istendiği daha geniş sahne içinde, doğruluğu vahyin taşıyıcısının onu yaşatmasıyla görünür kılan bir ilişkiye açılır.",
+      "mechanism": "Focus'taki iki musaddiqan, önceki bildiriyi destekleyip doğru çıkarma dalını taşır. 5:66 ve 5:68'in supplied yüzeyleri Tevrat ve İncil'i ayakta tutmayı somut muhataplık şartı olarak kurar. Bu temas, doğrulamayı yalnız ifade edilen bir uygunluk değil, vahye bağlı bir taşıma ve uygulama ilişkisi haline getirir.",
+      "reader_payoff": "Doğrulama sözcüğü, önceki vahyi tanıyan bir cümleden, onun sorumluluğunu taşıyan ve yaşatan bir ilişkiye doğru derinleşir.",
+      "containment": "Bu okuma 5:46'nın İsa ile İncil'in Tevrat'ı doğrulamasını korur ve 5:66-5:68'in ayakta tutma şartıyla sınırlıdır. Metinlerin bozulma tarihi veya bütün hukukî sonuçlar hakkında supplied olmayan bir hüküm kurulmaz.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": ["legacy_unbound"],
+        "reason": "Odak musaddiqan yüzeyi exact ve 5:66 ile 5:68 hedef Arapçaları supplied; bu sonuç bağlantı notlarından türetilen writer inference olduğu için nitelikli tutuldu."
+      },
+      "support_ids": ["sup_ef054b1bab26f30f05d1"],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000852/B004",
+          "facet_id": "F001",
+          "branch_gloss": "sözü veya beklentiyi doğrulayıp gerçekleştirme",
+          "facet_statement": "Bir söz, beklenti veya iddia gerçekleşme, eylem ya da onayla doğru çıkarılır.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["5:46:7:1", "5:46:18:2"],
+          "trigger_refs": ["5:66", "conn_ev_90a3c0ed3a0eb4ff4f22", "5:68", "conn_ev_5d46a3dcb533884bc0de"],
+          "focus_return_refs": ["5:46:7:1", "5:46:18:2"],
+          "carrier": "5:46'nın iki musaddiqan'ı önceki vahyi doğrulayan etkin ilişkiyi taşır.",
+          "independent_trigger": "5:66 ve 5:68'in Tevrat ile İncil'i ayakta tutmayı muhataplardan isteyen supplied hedef yüzeyleri.",
+          "activation": "Bir kitabın doğrulanması ile onun ayakta tutulması aynı wider vahiy ilişkisine bağlandığında, odaktaki musaddiqan doğruluğu uygulama içinde gerçekleşen bir onay olarak görünür.",
+          "resulting_reading": "Doğrulama, önceki bildiriyi eylemle destekleyip gerçekleşmiş kılan bir taşıma sorumluluğuna açılır.",
+          "boundary": "Bu çekirdek aktivasyon, doğrulama ile uygulama temasını taşır; metinsel bozulma veya tarihsel muhafaza iddiası taşımaz."
+        },
+        {
+          "branch_ref": "root_000852/B004",
+          "facet_id": "F004",
+          "branch_gloss": "sözü veya beklentiyi doğrulayıp gerçekleştirme",
+          "facet_statement": "Bir sözün doğruluğunu kabul etmek veya önceki bir bildiriyi desteklemek onay yoluyla doğrulamadır.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["5:46:7:1", "5:46:18:2"],
+          "trigger_refs": ["5:66", "conn_ev_90a3c0ed3a0eb4ff4f22", "5:68", "conn_ev_5d46a3dcb533884bc0de"],
+          "focus_return_refs": ["5:46:7:1", "5:46:18:2"],
+          "carrier": "Odaktaki musaddiqan, önceki Tevrat bildirisine yönelen destekleyici onay rolünü taşır.",
+          "independent_trigger": "5:66 ve 5:68'de önceki vahiylerin ayakta tutulmasının açıkça istenmesi.",
+          "activation": "Ayakta tutma çağrısı, önceki bildiriyi destekleyen onayın metinler arası bir tanım değil, muhatabın bağlılığıyla sürdürülen bir ilişki olduğunu görünür kılar.",
+          "resulting_reading": "Musaddiqan, önceki bildiriyi kabul edip destekleyen vahiy ile onu taşıyan muhatap arasındaki bağlılığı birlikte duyurur.",
+          "boundary": "F004 burada destekleyici onayın uzantısıdır ve F001 çekirdeğiyle birlikte tutulur; daha geniş emanet veya muhafaza iddiaları eklenmez."
+        }
+      ],
+      "connection_refs": [
+        "conn_07a85459f3b75ad65f37",
+        "conn_ebee36ee0bbe1623baea"
+      ],
+      "context_refs": ["5:66", "5:68"],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:acceptance-reception-loop",
+      "origin_candidate_id": "cand_1378f30edef3ac6897ef",
+      "represented_candidate_ids": [],
+      "title": "Öğüdün kabul ve korunma döngüsü",
+      "claim": "5:27'de kabul edilen ve geri çevrilen sunu üzerinden belirginleşen ilişki, 5:46'nın mawiza ve muttaqin çiftinde öğüdün koruyucu bir alıcı tutumuna bağlandığı bir kabul döngüsünü görünür kılar.",
+      "mechanism": "5:27'nin kabul ilişkisini taşıyan q-b-l bağlamı, focus mawiza'sı ve muttaqin'iyle HFT trace içinde temas eder. Focus'taki öğüt alıcının yararını gözeten sakındırma dalını, muttaqin ise kişinin zarar verenden kendisi ile arasına önlem koyduğu dalı taşır. Bu temas, alıcı adını sabit bir sınıf olmaktan çıkarıp öğüdü alarak korunma yönünde işleyen bir posture dönüştürür.",
+      "reader_payoff": "Son alıcı ifadesi, yalnız kime hitap edildiğini bildiren bir etiket değil, öğüdü alıp kendisini korumaya çeviren canlı bir ilişki olarak hissedilir.",
+      "containment": "5:46'nın İncil'i huda, nur ve mawiza taşıyan, muttaqin'e yönelen bir kitap olarak söylemesi bütünüyle korunur. Q-b-l dalı için bağımsız lexicon descriptor supplied olmadığından bu temas attributed kalır; muttaqin'in yalnız ahlaki karakter adı olduğu canlı karşı okuma olarak açık bırakılır.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": ["legacy_unbound"],
+        "reason": "Exact HFT trace 5:27 word indices, focus mawiza/muttaqin coordinates and supplied Arabic are available; q-b-l registry unresolved and reception loop is explicitly an attributed inference."
+      },
+      "support_ids": ["sup_7d9590511cafbe28bd42"],
+      "branch_activations": [
+        {
+          "branch_ref": "root_001663/B001",
+          "facet_id": "F001",
+          "branch_gloss": "sakındırıcı öğüt ve öğütten ders alma",
+          "facet_statement": "Birine iyiyi ve davranışlarının sonuçlarını hatırlatıp onun yararını gözeten öğüt verme eylemidir.",
+          "application_mode": "attributed",
+          "carrier_refs": ["5:46:25:2"],
+          "trigger_refs": ["5:27", "5:27:10", "5:27:14", "5:27:21"],
+          "focus_return_refs": ["5:46:25:2"],
+          "carrier": "5:46'daki mawiza, alıcının yararını gözeten öğüt ve sakındırma işini taşır.",
+          "independent_trigger": "5:27'deki kabul ve geri çevirme karşıtlığını taşıyan supplied sunu sahnesi.",
+          "activation": "Kabulün alıcıya yönelen sonucu ile mawiza'nın alıcının yararını gözeten yapısı HFT trace içinde buluşur; öğüt, alınabilir hale gelen bir yönlendirme olarak görünür.",
+          "resulting_reading": "Öğüt, kendisini koruyacak alıcıda karşılık bulan ve korunmayı yeniden besleyen bir hareket olur.",
+          "boundary": "Öğüt dalının focus çekirdeği korunur; HFT'nin alıcı ilişkisi attributed olup bağımsız q-b-l glossu veya facet'i ileri sürülmez."
+        },
+        {
+          "branch_ref": "root_001677/B002",
+          "facet_id": "F001",
+          "branch_gloss": "korkulan şeyden ya da yanlış davranıştan kendini koruma",
+          "facet_statement": "Kişi, korkulan ya da zarar verecek şey ile kendi arasına koruyucu bir önlem koyar.",
+          "application_mode": "attributed",
+          "carrier_refs": ["5:46:26:3"],
+          "trigger_refs": ["5:27", "5:27:10", "5:27:14", "5:27:21"],
+          "focus_return_refs": ["5:46:26:3"],
+          "carrier": "5:46'nın lil-muttaqin'i, kendisini korkulan veya zarar verici sonuçtan koruyan alıcıyı taşır.",
+          "independent_trigger": "5:27'nin kabulü muttaqin ile ilişkilendiren supplied kabul yüzeyi.",
+          "activation": "Kabulün belirli bir koruyucu tutumla ilişkilendirilmesi, focus alıcısının yalnız grup adı değil, kendisi ile zarar arasında önlem koyan etkin bir tutum olduğunu açar.",
+          "resulting_reading": "Muttaqin, öğüdü alıp kendisini sakınmaya çeviren koruyucu alıcı konumunda görünür.",
+          "boundary": "Bu aktivasyon öz-koruma çekirdeğinde kalır; genel nesne koruması ve hayvan ölçüsü dalları taşınmaz."
+        },
+        {
+          "branch_ref": "root_001198/B004",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": ["5:27", "5:27:10", "5:27:14", "5:27:21"],
+          "trigger_refs": ["5:46:25:2", "5:46:26:3"],
+          "focus_return_refs": ["5:46:25:2", "5:46:26:3"],
+          "carrier": "5:27'de kabul edilen ve geri çevrilen sunuyu ayıran kabul ilişkisi.",
+          "independent_trigger": "5:46'nın mawiza ve lil-muttaqin yüzeylerinin öğüdü belirli bir alıcı tutumuna bağlaması.",
+          "activation": "Kabul karşıtlığı, focus'taki öğüt ve öz-koruma yüzeyleriyle temas ettiğinde alıcının açıklığı HFT trace içinde anlam değişikliğinin taşıyıcısı olur.",
+          "resulting_reading": "Kabul, öğüdün alınabilirliği ve korunma yönünde dönüşebilmesiyle birlikte duyulur.",
+          "boundary": "Registry unresolved olduğu için branch glossu veya facet kurulmaz; yalnız exact HFT koordinatlarının izin verdiği attributed bağ korunur."
+        },
+        {
+          "branch_ref": "root_001677/B002",
+          "facet_id": "F001",
+          "branch_gloss": "korkulan şeyden ya da yanlış davranıştan kendini koruma",
+          "facet_statement": "Kişi, korkulan ya da zarar verecek şey ile kendi arasına koruyucu bir önlem koyar.",
+          "application_mode": "attributed",
+          "carrier_refs": ["5:27", "5:27:24"],
+          "trigger_refs": ["5:27", "5:27:10", "5:27:14", "5:27:21"],
+          "focus_return_refs": ["5:46:26:3"],
+          "carrier": "5:27'de kabulün koşuluyla ilişkilendirilen aynı self-protective designation.",
+          "independent_trigger": "5:27'nin q-b-l kabul sahnesi ve bunun 5:46'nın lil-muttaqin'iyle HFT içinde eşleştirilmesi.",
+          "activation": "Aynı koruyucu adlandırmanın kabulün koşulu olarak context içinde görünmesi, focus alıcısındaki öz-koruma anlamını kabul ve öğüt döngüsüne geri bağlar.",
+          "resulting_reading": "Korunma tutumu, öğüdün kabulünü mümkün kılan ve kabulden sonra yeniden güçlenen bir eşik olarak görünür.",
+          "boundary": "Bu, HFT'nin supplied coordinate ve role sınırında attributed bir geri dönüşdür; kabulün tek açıklaması olarak seçilmez."
+        }
+      ],
+      "connection_refs": [],
+      "context_refs": ["5:27"],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:light-under-terminal-hazard",
+      "origin_candidate_id": "cand_1d278f546f787a24b9e5",
+      "represented_candidate_ids": [],
+      "title": "Işığın sonlu tehlike karşısındaki yönü",
+      "claim": "5:46'daki nur, daha önce açılan ateş bağlamının karşısında, görünen tehlikeyi davranışla karşılayan koruyucu bir yön tayini haline gelir; mawiza görüleni sakınmaya çevirir.",
+      "mechanism": "Focus nur ışık ve aydınlatma dalını, mawiza ise sakındırıcı öğüt dalını taşır. 5:29 ve 5:37'deki nar kayıtları yanan ateşi önce tehlike, sonra içine girildiğinde çıkışı bulunmayan bir sonuç olarak kurar. Bu ayrı context carriers focus ışık ve öğüt yüzeylerine döndüğünde nur genel açıklıktan tehlike altında rota görünürlüğüne, mawiza da bunu koruyucu eyleme çeviren işleve geçer.",
+      "reader_payoff": "Işık burada yalnız berraklık değil, ateşin ulaşılamaz çıkışsızlığını önceden görüp korunma yönünü seçmeyi sağlayan görünürlük olarak hissedilir.",
+      "containment": "5:46'nın İncil'de huda ve nur bulunduğunu, sonunda mawiza'nın muttaqin'e yöneldiğini koruyan ikincil bir ilişkidir. Focus nur'un yalnız epistemik kaldığı canlı seçenek açıktır; ateş karşıtlığı HFT trace'in 5:29 ve 5:37 sınırında tutulur.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": ["legacy_unbound"],
+        "reason": "Exact HFT trace focus nur-mawiza ve 5:29/5:37 word indices ile supplied Arabic'yi birleştiriyor; preventive direction writer inference olarak kaldığı için sonuç nitelikli."
+      },
+      "support_ids": ["sup_7e250365428c2f8c55ff"],
+      "branch_activations": [
+        {
+          "branch_ref": "root_001564/B001",
+          "facet_id": "F001",
+          "branch_gloss": "ışık ve aydınlatma",
+          "facet_statement": "Görmeyi sağlayan aydınlık ve ışık, dalın ad çekirdeğini oluşturur.",
+          "application_mode": "attributed",
+          "carrier_refs": ["5:46:17:2"],
+          "trigger_refs": ["5:29", "5:29:10", "5:37", "5:37:5"],
+          "focus_return_refs": ["5:46:17:2"],
+          "carrier": "5:46'daki nur, görmeyi ve aydınlanmayı sağlayan ışık taşıyıcısıdır.",
+          "independent_trigger": "5:29 ve 5:37'de yanan nar'ın tehlike ve çıkışsız sonuç olarak supplied sahnesi.",
+          "activation": "Ateşin bağlamı ışığa karşı bağımsız bir tehlike yüzeyi verdiğinde, nur odakta genel berraklık değil, zararı önceden görmeye yarayan aydınlatma olarak çalışır.",
+          "resulting_reading": "Nur, sonlu tehlike karşısında koruyucu güzergâhı görünür kılan ışık olur.",
+          "boundary": "Aydınlatma çekirdeği korunur; ateş dalı bu aktivasyonda tetik olarak kalır ve nur ateş anlamına çevrilmez."
+        },
+        {
+          "branch_ref": "root_001663/B001",
+          "facet_id": "F002",
+          "branch_gloss": "sakındırıcı öğüt ve öğütten ders alma",
+          "facet_statement": "Öğüt, kişiyi yanlışından döndürmek ve içten etkilemek için caydırıcı uyarı, sakındırma veya korkutma gücü taşıyabilir.",
+          "application_mode": "attributed",
+          "carrier_refs": ["5:46:25:2"],
+          "trigger_refs": ["5:29", "5:29:10", "5:37", "5:37:5"],
+          "focus_return_refs": ["5:46:25:2"],
+          "carrier": "Focus mawiza, görülen zararı önceden dikkate aldıran koruyucu öğüt taşıyıcısıdır.",
+          "independent_trigger": "5:29 ve 5:37'nin ateşi ağır ve çıkışı olmayan sonuç olarak supplied biçimde göstermesi.",
+          "activation": "Terminal hazard ile öğüt aynı focus yüzeyinde buluştuğunda, mawiza görünür tehlikeyi sakınma ve yanlış eylemden dönme gücüne çevirir.",
+          "resulting_reading": "Öğüt, ışığın açtığı görünürlüğü koruyucu eyleme dönüştüren caydırıcı bir hareket olur.",
+          "boundary": "F002'nin caydırıcı uzantısı burada supplied trace ile sınırlıdır; yalnız korku üretmek veya her uyarı kullanımını kapsamak ileri sürülmez."
+        },
+        {
+          "branch_ref": "root_001564/B002",
+          "facet_id": "F001",
+          "branch_gloss": "yanan ateş ve ateşle yapılan hayvan damgası",
+          "facet_statement": "Işık veren ve hızlı, kararsız hareket gösteren yanan ateş temel anlamdır.",
+          "application_mode": "attributed",
+          "carrier_refs": ["5:29", "5:29:10"],
+          "trigger_refs": ["5:46:17:2", "5:46:25:2"],
+          "focus_return_refs": ["5:46:17:2", "5:46:25:2"],
+          "carrier": "5:29'daki nar, yanan ateş ve onun taşıdığı zarar yüzeyidir.",
+          "independent_trigger": "5:46'nın nur ve mawiza çiftinin ışıkla görme ve öğütle sakınma ilişkisi.",
+          "activation": "Focus ışığı ve öğüdü, context ateşinin zarar verici sonucuyla karşılaştığında, odak ayetindeki aydınlık koruyucu yön olarak anlam kazanır.",
+          "resulting_reading": "Ateş dalı ışığın karşısına konan somut tehlike eşiğini sağlar.",
+          "boundary": "Ateş burada yanan ateş çekirdeğidir; damga ve diğer n-w-r dalları etkinleştirilmez."
+        },
+        {
+          "branch_ref": "root_001564/B002",
+          "facet_id": "F001",
+          "branch_gloss": "yanan ateş ve ateşle yapılan hayvan damgası",
+          "facet_statement": "Işık veren ve hızlı, kararsız hareket gösteren yanan ateş temel anlamdır.",
+          "application_mode": "attributed",
+          "carrier_refs": ["5:37", "5:37:5"],
+          "trigger_refs": ["5:46:17:2", "5:46:25:2"],
+          "focus_return_refs": ["5:46:17:2", "5:46:25:2"],
+          "carrier": "5:37'deki nar, içine girildiğinde çıkış bulunmayan kuşatıcı ateş sonucudur.",
+          "independent_trigger": "5:46'nın nur ve mawiza'sının tehlikeyi önceden görüp korunmaya yönelen focus ilişkisi.",
+          "activation": "Çıkışsız ateş sonucu, focus ışığının ve öğüdünün neden koruyucu bir yön tayinine dönüştüğünü belirginleştirir.",
+          "resulting_reading": "Ateş, ışığın önceden görülmesi ve öğüdün sakındırması gereken son eşiği görünür kılar.",
+          "boundary": "Bu bağ 5:37'nin supplied sonuç sahnesiyle sınırlıdır; focus nur'u ateş olarak okumaz."
+        }
+      ],
+      "connection_refs": [],
+      "context_refs": ["5:29", "5:37"],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:accountable-foreground",
+      "origin_candidate_id": "cand_8d05501247c2519ad2aa",
+      "represented_candidate_ids": [],
+      "title": "Önceki vahyin sorumlu önalanı",
+      "claim": "5:46'nın iki bayna yadayhi kuruluşu, önceki Tevrat'ı zaman bakımından önceki içerik olarak korurken, onu taşıyıcının eylem alanına konan sorumlu bir önalan olarak da duyurabilir.",
+      "mechanism": "Focus'taki iki yadayhi, önünde veya hemen öncesinde bulunma dalını taşır. 5:28'de uzatılan ve geri tutulan eller, 5:38'de ele ve elde edinilen sonuca bağlanan eylem ile sorumluluk yüzeyleri olur. Bu literal ve juridical hand temasları, önceki Tevrat'ı confirmation'ın taşıyıcının ne yaptığıyla ilişkilenen bir foreground olarak yeniden açar.",
+      "reader_payoff": "Bayna yadayhi yalnızca kronolojik bir öncelik bildirmeyi sürdürürken, okur aynı önalanın vahyi taşıyan kişinin yaptığı iş için hesap verebilir bir temas yüzeyi olduğunu da görür.",
+      "containment": "Bu surprising secondary resonance, odaktaki sıradan bayna yadayhi idiomunu ve Tevrat'ın önceki konumunu korur. Literal ve juridical hand kullanımları 5:28 ve 5:38 supplied coordinates ile sınırlıdır; confirmation'ın bütün hukukî anlamları veya tek bir sonuç seçilmez.",
+      "epistemic": {
+        "status": "exploratory",
+        "source_trust": ["legacy_unbound"],
+        "reason": "Exact HFT trace focus doubled yadayhi ile 5:28 ve 5:38 word indices, root roles ve supplied Arabic'yi veriyor; literal ve juridical hand temasından çıkan foreground sonucu HFT'de exploratory olarak işaretli."
+      },
+      "support_ids": ["sup_3d297ec10565f2cf76ac"],
+      "branch_activations": [
+        {
+          "branch_ref": "root_001693/B008",
+          "facet_id": "F001",
+          "branch_gloss": "önünde ya da hemen öncesinde",
+          "facet_statement": "Bir şeyin ön tarafında veya karşısında bulunma temel mekansal anlamdır.",
+          "application_mode": "attributed",
+          "carrier_refs": ["5:46:10:1", "5:46:21:1"],
+          "trigger_refs": ["5:28", "5:28:4", "5:28:9", "5:38", "5:38:4", "5:38:7"],
+          "focus_return_refs": ["5:46:10:1", "5:46:21:1"],
+          "carrier": "5:46'nın iki bayna yadayhi kuruluşu, önceki Tevrat'ı önünde bulunan içerik olarak taşır.",
+          "independent_trigger": "5:28 ve 5:38'de ellerin eylem ve sonuçla ilişkilendirilen supplied yüzeyleri.",
+          "activation": "Eylemden sorumlu ellerin context yüzeyi, focus'taki önalanı yalnız sıralama değil, eylemin önünde duran ve eylemle sınanan içerik olarak geri döndürür.",
+          "resulting_reading": "Önceki Tevrat, doğrulama ilişkisinin önünde duran ve taşıyıcının eylemine yön veren bir foreground olarak görünür.",
+          "boundary": "B008'in önünde bulunma çekirdeği korunur; zaman uzantısı ve diğer ydy collocation dalları bu activation'a eklenmez."
+        },
+        {
+          "branch_ref": "root_001693/B001",
+          "facet_id": "F001",
+          "branch_gloss": "el ve elin uğradığı bedensel durumlar",
+          "facet_statement": "Temel gönderim, insan bedenindeki el organıdır.",
+          "application_mode": "attributed",
+          "carrier_refs": ["5:28", "5:28:4", "5:28:9"],
+          "trigger_refs": ["5:46:10:1", "5:46:21:1"],
+          "focus_return_refs": ["5:46:10:1", "5:46:21:1"],
+          "carrier": "5:28'de uzatılan ve öldürme için geri tutulan eller, el organının eylem yüzeyidir.",
+          "independent_trigger": "5:46'nın iki yadayhi ile Tevrat'ın bir taşıyıcının önünde bulunan içerik olarak kurulması.",
+          "activation": "Ellerin uzatılması veya geri tutulması, focus'taki öncelik ilişkisinin eylem alanına bağlanmasını sağlar.",
+          "resulting_reading": "Önceki vahiy, onu taşıyanın elini nasıl kullandığıyla temas eden bir önalan kazanır.",
+          "boundary": "Bedensel el dalı 5:28'in supplied eylemiyle sınırlıdır; güç, sahiplik ve başka el kullanımları ileri sürülmez."
+        },
+        {
+          "branch_ref": "root_001693/B009",
+          "facet_id": "F001",
+          "branch_gloss": "kişinin kendi yaptığı iş ve doğurduğu sorumluluk",
+          "facet_statement": "Kişinin kendi yaptığı işin doğrudan ona yüklenmesi çekirdek anlamdır.",
+          "application_mode": "attributed",
+          "carrier_refs": ["5:38", "5:38:4"],
+          "trigger_refs": ["5:46:10:1", "5:46:21:1"],
+          "focus_return_refs": ["5:46:10:1", "5:46:21:1"],
+          "carrier": "5:38'de ellerin yapılan işe bağlanması, eylemin doğrudan failine yüklenmesi yüzeyini taşır.",
+          "independent_trigger": "Focus bayna yadayhi'nin önceki Tevrat'ı taşıyıcının önünde tutan supplied kuruluşu.",
+          "activation": "Sorumluluk dalı, önünde duran önceki vahyin doğrulama için hazır bir içerik olmanın yanında failin yaptığı iş ile ilişkili bir sınama alanı olduğunu açar.",
+          "resulting_reading": "Doğrulama, önünde bulunan vahye karşı taşıyıcının eylemini sorumluluk alanına sokan bir ilişki olarak da duyulur.",
+          "boundary": "Sorumluluk dalı yalnız supplied hand-contact ve focus return ile tutulur; genel günah, hüküm veya fail teorisi kurulmaz."
+        },
+        {
+          "branch_ref": "root_001296/B001",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": ["5:38", "5:38:7"],
+          "trigger_refs": ["5:46:10:1", "5:46:21:1"],
+          "focus_return_refs": ["5:46:10:1", "5:46:21:1"],
+          "carrier": "5:38'de elde edinilen sonuca bağlanan k-s-b coordinate'i.",
+          "independent_trigger": "Focus'taki yadayhi'nin öncelik ve eylem alanına açılan supplied bağlantısı.",
+          "activation": "Elde edinilen sonuç için supplied coordinate, HFT trace içinde ellerin eylemini sonuçla bağlayan attributed tetik olarak focus'un sorumlu önalanına döner.",
+          "resulting_reading": "Önceki vahiy ile yapılan iş arasındaki temas, eylemin doğurduğu sonuç üzerinden de sorumluluk kazanır.",
+          "boundary": "Registry unresolved olduğu için k-s-b için gloss veya facet ileri sürülmez; yalnız exact HFT role ve coordinate korunur."
+        }
+      ],
+      "connection_refs": [],
+      "context_refs": ["5:28", "5:38"],
+      "semantic_obligation_refs": []
+    }
+  ],
+  "friction_notes": [
+    "Global packetta selected context projections yok; wider bağlantılar exact hedef Arapçası veya exact HFT coordinates üzerinden kullanıldı.",
+    "Bağlantı kayıtlarının hedef morfolojisi verilmediği için onlardan türeyen huda-nur ve confirmation-custody bulguları qualified olarak tutuldu; HFT trace kayıtları attributed mode ile sınırlandı.",
+    "Exact carrier-trigger trace taşımayan legacy-unbound özet ve soru kayıtları, görünürlükleri korunarak ayrı semantik bulguya dönüştürülmedi.",
+    "Unresolved root_001198/B004 ve root_001296/B001 için gloss veya facet icat edilmedi; yalnız HFT'nin supplied coordinate, role ve focus return ilişkisi korundu."
+  ]
+}

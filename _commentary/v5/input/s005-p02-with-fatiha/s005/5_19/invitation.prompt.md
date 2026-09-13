@@ -1,0 +1,179 @@
+# V5 reading invitation — 5:19
+
+You are a fresh reading-invitation writer. Read the complete editorial prose
+before writing. It is your sole semantic source.
+
+Write two to four paragraphs of fluent, contemporary Turkish that reveal a
+surprising reading by following one or two main channels of resonance in the
+ayah. A channel is a connected background of meanings, images, actions, or
+relations through which the ayah can be heard and understood differently.
+Several editorial findings may together develop one channel. Summarize that
+connected movement and its consequence for the ayah's main meaning, rather
+than compressing findings individually. Give the reading's substance now;
+the invitation comes from understanding it, not from a promise of hidden depth.
+
+Before drafting, read the entire editorial prose and silently select the one
+or two channels with the strongest interpretive consequence and enough
+grounding to explain clearly. Favor channels that expand or shift what the
+ayah says, the relation it establishes, or what is at stake in its action or
+image. One fully developed channel is sufficient; add a second only when it
+offers a distinct consequential reading that can be explained within the
+invitation. No finding, channel, or major shift has an individual coverage
+claim. Unselected material may remain entirely in the full commentary.
+
+A channel may develop through grammar, sound, dialogue, a material process,
+time, imagery, or a conceptual relation. Resonance is not limited to acoustic
+effects, and an unusual image alone does not establish a channel. Use only
+connections the editorial prose actually develops. If it supplies no such
+channel, explain its strongest grounded reading without inventing connections
+or surprise.
+
+Begin inside the ayah's own words, images, actions, or relations and reveal a
+selected distinctive reading in the first paragraph. Keep the plain meaning
+reachable with only the orientation needed to understand the change. Do not
+spend an opening paragraph on routine explanation or front-load context about
+the surah, the ayah's position, or the commentary project.
+
+For each selected channel, begin with the expression that opens it, unfold the
+connected background, and show how the ayah reads or sounds against that
+background. Let a detail lead into the next through an intelligible relation
+or process, so the reader experiences the emerging reading. This is a movement
+of thought, not a mandatory sentence pattern or one paragraph per finding.
+Let the reader identify the expression being interpreted,
+where any nonordinary detail comes from, and what that detail changes in the
+reading. Briefly identify the word-family use, restricted form, collocation, or
+context that supplies an essential added detail, and preserve the concrete
+operation that makes the image work. Keep the ordinary reading and necessary
+qualification clear within this explanation; do not repeat them as a fixed
+formula. Preserve the particular object, process, or relation that makes this
+reading distinctive, and state its interpretive consequence for the ayah as a
+whole. Make intelligible what the familiar reading leaves less visible and
+what the expanded or shifted reading now lets the reader understand. Preserve
+the editorial's force: an exploratory possibility remains possible, while a
+developed shift must not be softened into a decorative association or a
+reassurance that everything means the same thing. A concrete
+account of how something is carried, transformed, lost, or restored must not
+shrink to a general statement about care, guidance, dependence, or goodness.
+Keep the details needed to make the selected channel work; omit side findings
+and shorten routine setup. If a channel cannot be explained faithfully from
+the editorial prose, choose another grounded channel or reading.
+
+When a non-focus ayah supplies a contribution used in the invitation, keep its
+reference from the editorial prose beside that contribution.
+
+Do not turn the invitation into a miniature inventory of the commentary's
+conclusions, or flatten distinct channels into a broad theme to include more
+material. Do not repair, extend, or supplement the editorial prose from memory
+or outside knowledge.
+
+Omit technical apparatus. Retain any qualification, source distinction, live
+alternative, or boundary whose absence would change the force or meaning of a
+chosen reading. Express it naturally beside the image or relation it qualifies.
+Favor positive explanations of the relation between layers: what remains in
+the foreground and what the resonance makes audible in the background. State
+how that background reinforces, expands, or shifts the understanding of the
+main meaning, with the source and degree of certainty clear. Reserve explicit
+exclusions for concrete ambiguities or live counter-evidence that need them.
+Repeated "this is not X" endings make a reading sound withdrawn; express the
+substantive qualification through what the reading does contribute wherever
+possible. Use varied, natural language rather than a repeated "second layer"
+formula, and preserve the force of expansions and shifts.
+Do not name branches, candidates, findings, scopes, evidence categories,
+ledgers, or workflow stages, or label the prose as numbered channels. Do not
+list findings serially.
+
+Use the established `{ar:..., tr:..., gloss:...}` syntax, consistent
+Turkish-readable transliteration, and short ordinary glosses. Keep Arabic
+anchors beside the explanations they ground. Within a paragraph, continue with
+the Turkish meaning where clear; provide the necessary local tag when a later
+paragraph interprets the carrier anew. Do not place Arabic script outside a
+valid tag.
+
+Build transitions within a channel through its shared object, action, or
+relation. If two channels are selected, they may occupy separate paragraphs;
+do not invent a link between them. Do not praise the commentary's quality,
+promise what the reader will find, manufacture suspense, recap at the end, or
+add a call to action. End on an image, relation, action, or tension already
+established by the selected reading.
+
+Before finishing, compare the invitation with the entire editorial prose:
+does the chosen channel reveal a consequential reading, or could the text have
+been written from the ordinary translation and a modest explanation alone?
+When the editorial supports a surprising channel, the latter fails this task.
+Can the reader follow the opening expression into a connected background and
+understand how that background expands or shifts the ayah's main meaning?
+Check the selected connections against their editorial explanation: can the
+reader tell where the nonordinary details come from, with the necessary
+qualifications intact? Repair generic explanation, isolated curiosities, or a
+compressed findings list by developing the selected channel. Do not add
+omitted channels merely for coverage. Do not output this check.
+
+Write only the invitation text to:
+
+`_commentary/v5/editorial/s005-p02-with-fatiha/s005/5_19/5_19.invitation.tr.md`
+
+Do not add a heading, wrapper label, index, ledger, evidence file, or any other
+artifact. Do not modify the editorial prose.
+
+After writing the invitation, run:
+
+```bash
+python3 _commentary/v5/validate_prose.py _commentary/v5/editorial/s005-p02-with-fatiha/s005/5_19/5_19.invitation.tr.md
+```
+
+If validation fails, repair only the reported mechanical file-contract issues
+and rerun it, for at most two repair cycles. Report the final validator result
+in your response.
+
+<editorial_prose>
+## Hitabın Kuruluşu
+
+Bu âyet, Kitap ehline doğrudan seslenir: elçiler arasında bir dönem varken kendilerine açıklayan elçi gelmiştir. Böylece "bize ne bir müjdeci ne de bir uyarıcı geldi" denilebilecek söz daha kurulmadan karşılanır; ardından aynı gelişin hem müjdeciyi hem uyarıcıyı taşıdığı ve Allah'ın her şeye gücü yettiği bildirilir.
+
+İlk seslenişte {ar:يَا, tr:yā, gloss:ey}, iddiaya geçmeden önce çağrıyı kurar. Uzatılmış sesleniş, tilavette dikkati toplar ve tamlamayı kendisinden sonra gelen muhataba yöneltir. {ar:أَهْلَ, tr:ehl, gloss:bağlı topluluk}, sıradan bir dinleyici kitlesini değil bir aidiyet çevresini adlandırır; tekil tamlama başı burada toplu bir sınıfı taşır ve geliş cümlesinin öznesi değil, seslenilen öğedir. {ar:الـ, tr:al, gloss:belirli tanımlık} ile {ar:الْكِتَابِ, tr:el-kitâb, gloss:yazılı kitap} birleştiğinde çağrı, herhangi bir okuyucuya değil kitaba bağlı belirli bir topluluğa yönelir. Belirli tanımlık, kitabı açıklama ve elçilik görevinin temas ettiği belirli yazılı alan olarak öne çıkar; kayıt olma yönüyle hüküm taşıyabilen yönü aynı tamlamada açık kalır.
+
+Bu muhatabın önüne konan olay {ar:قَدْ, tr:qad, gloss:gerçekten ve kesinlikle} ile kesinleşir. Qad, tamamlanmış gelişi bildiren fiilin önünde durarak sözü beklenen bir ihtimalden gerçekleşmiş bir olaya çevirir. {ar:جَاءَكُمْ, tr:jāʾakum, gloss:size geldi} içindeki ikinci çoğul kişi eki, seslenilen topluluğu aynı cümlenin içine taşır: geliş onların önüne ve onların payına gelmiştir. Fiilin tamamlanmış oluşu varışın olgu niteliğini, içindeki hemze de ses akışında varışa denk gelen belirgin kesilmeyi duyurur. Ardındaki {ar:رَسُولُنَا, tr:resûlunâ, gloss:elçimiz}, bu gelişi soyut bir görev adına indirgemez. Resûl, gönderilmiş bir mesajı ulaştıran somut kişidir; sondaki nâ eki de elçiyi gönderenle ilişkisi içinde belirler. Böylece ilk cümledeki geliş, açıklama işini bu muhataplara taşıyan belirli bir elçinin gerçekleşmiş varışı olur.
+
+## Aranın İçinde Açılan Açıklık
+
+Gelişin zamanı {ar:عَلَى, tr:ʿalā, gloss:üzerinde ve sırasında} ile "elçiler arasındaki dönem üzerinde" kurulur. {ar:فَتْرَةٍ, tr:fetretin, gloss:elçiler arasındaki dönem}, belirsiz dişil tekil bir isimdir; sınırları olan tek bir aralık sunar. {ar:مِنَ, tr:mina, gloss:-den ve arasından} bu aralığı sahiplik yoluyla değil, elçilerden ayrılan bir zaman olarak belirler. {ar:الرُّسُلِ, tr:er-rusul, gloss:elçiler} çoğul ve tamlayan konumundadır; bu sayede tekil resûl ile elçiler sınıfı aynı gönderme ailesi içinde buluşur. Akışta rusulün daha sıkı duyulan okuyuşu hecelerin ağırlığını değiştirebilir; çoğulluk ve tamlayan görevi aynı biçimde taşınır. Minin genizden gelen sesi sonraki elçiler öbeğine bağlanarak aralığın neyin arasına yerleştiğini işitsel olarak da kapatır.
+
+Fetretin açık anlamı elçiler arasındaki kronolojik aralıktır. Bunun yanında kelimenin anlam alanında duyulan soğuma, zayıflama ve durulma yönü, aralığa bir nitelik kazandırır; ses dokusu da duraklama ve akışın incelmesi hissini çağrıştırır. İsim olarak tekil oluşu bu hissi dağınık bir boşlukta bırakmayıp belirli bir dönemde toplar. Böylece fetret, açıklığın yeniden kurulacağı bir eşik gibi duyulabilir. Bu ek nitelik kronolojik zaman çerçevesini korur; daha geniş bir tarih düzeni bu bağlantının kapsamına girmez.
+
+Bu eşiğe dokunan fiil {ar:يُبَيِّنُ, tr:yubeyyinu, gloss:anlamı açıkça ortaya koyuyor}dır. Yubeyyinu, anlamı görünür ve anlaşılır kılma işini taşır; geçişli olduğu halde açıklanan nesneyi adıyla sınırlamaz, böylece açıklama alanını açık tutar. Fiilin biçimi açıklığa çıkarma görevini kurar; benzer sesli bir "arasında" ifadesinden ayrılan yerel işlevi budur. Hemen ardından gelen {ar:لَكُمْ, tr:lekum, gloss:sizin için}, lâm ile ikinci çoğul kişi ekini birleştirerek açıklamayı doğrudan muhatabın yararına ve muhataba yöneltilmiş bir iş olarak kurar.
+
+Yubeyyinu'nun açıklama hareketi, önceki açıklama sahnesiyle birlikte dört katkıda görünür olur (5:15). Oradaki {ar:ٱلْكِتَٰبِ, tr:el-kitâb, gloss:yazılı kitap} açıklamanın malzemesini, {ar:تُخْفُونَ, tr:tuhfûne, gloss:gizlediğiniz} örtülü kalan tarafı, {ar:نُورٌ, tr:nûrun, gloss:ışık} görünür olanın yol buldurucu yönünü kurar; aynı bağlamdaki {ar:وَيَعْفُوا عَنْ كَثِيرٍ, tr:ve ya'fû an kesîrin, gloss:çoğunun üzerinden geçer} ise açmanın ölçüsünü, bazı şeylerin üzerinden geçerek işlediğini gösterir (5:15). Bu dört katkı birlikte, yubeyyinu'yu örtülü anlamı anlaşılır kılan ve görünür olanı aydınlık bir yöne bağlayan bir açıklık hareketi olarak duyurur. Bu bağlantı bütün gizliyi aynı anda ortaya çıkaran bir yayım olarak kurulmaz; ayetin söylediği elçinin size açıklama yapması bu işleyişin içinde canlı kalır ve açıklanan şeyin tam kapsamı açık bırakılır.
+
+Bu açıklığın temas ettiği zemin, yakın bağlamdaki aktarım kırılmalarıyla ağırlaşır. {ar:نَقْضِهِمْ, tr:nakdihim, gloss:ahitlerini bozma} sağlam duran bağlı çerçevedeki ilk çözülmeyi, {ar:يُحَرِّفُونَ ٱلْكَلِمَ عَنْ مَّوَاضِعِهِ, tr:yuharrifûne'l-kelime an mevâdıihî, gloss:sözleri yerlerinden kaydırma} ise sözlerin kendi yerlerinden uzaklaştırılmasıyla anlam akışının saptırılmasını gösterir (5:13). Bu iki görüntü, aktarım kırılmasını hem bağlı çerçevenin çözülmesi hem de sözlerin yerinden kayması olarak görünür kılar. Ardından alınmış payın bakımının aksaması gibi bir unutma belirir; aynı unutmanın ikinci toplulukta yeniden görünmesi, kaybı tek seferlik eksiklikten tekrarlanan ve parçalı bir korunma kusuruna çevirir (5:13, 5:14). Bu zeminde {ar:يُبَيِّنُ, tr:yubeyyinu, gloss:anlamı açıkça ortaya koyuyor}, gücünü yitirmiş aktarım ortamına dokunan bir onarım hareketi gibi duyulur. Bu onarım görüntüsünün hangi malzemeyi ne ölçüde geri getirdiği açık bırakılır; görüntü açıklama fiilinin olağan anlamına eklenen bir kapsam olarak kalır.
+
+## Mazeret ve Karşılığı
+
+Açıklamanın ardından gelebilecek söz, {ar:أَنْ, tr:en, gloss:-meniz için} ile amaç yapısına alınır. {ar:تَقُولُوا, tr:tekûlû, gloss:demeyesiniz}, ikinci çoğul kişiyi varsayımsal konuşmacı yapar; dile getirilecek olan yalnızca bir ses değil, benimsenmiş bir konumdur. Bu biçim, mazereti daha söylenmeden sahneye koyar. Yakın iddia-cevap akışında önce "Allah Mesih'tir" diye bir konum ileri sürülüp soruyla sınanmış, sonra "biz Allah'ın oğulları ve sevdikleriyiz" denilerek ayrıcalıklı bir aidiyet kurulmuştu (5:17, 5:18). Günahın anılması bu aidiyeti kişisel sorumlulukla kesmiş, Allah'a dönüş ufku da uyarının varacağı yeri açmıştı (5:18). Bu yüzden tekûlû, yakın bağlamda basit bir bilgi eksikliğinden ziyade yeni bir kendini ayrı tutma iddiasının kurulma anını duyurur. Bu bağlantı sözün arkasındaki her niyetin kapsamını belirlemez; o kapsam açık bırakılır.
+
+Bu varsayımsal sözün içi {ar:مَا, tr:mâ, gloss:gelmedi ve değil} ile açılır. Mâ, ardından gelen tamamlanmış geliş fiilini olumsuz kapsamına alarak "bize gelmedi" iddiasını kurar. {ar:جَاءَنَا, tr:jāʾanā, gloss:bize geldi}, açılıştaki jāʾakumun geliş sesini korurken bağlı zamiri sizden bize çevirir. Böylece önce muhataba gelen geliş, alıntılanan sözün içinde topluluğun kendi tarafından reddedilir; tamamlanmış fiil de bu reddi geçmişe dönük bir yokluk bildirimi halinde tutar. İkinci {ar:مِنْ, tr:min, gloss:-den ve hiç}, olumsuzluğu herhangi bir taşıyıcıya kadar genişletir ve beşîrin tamlayanını yöneterek "hiçbir" vurgusunu sıkılaştırır. Geniz sesi sonraki müjdeci unvanına bağlanır ve yokluğu ritim içinde yoğunlaştırır.
+
+İlk reddin ikinci göreve geçişi {ar:وَ, tr:ve, gloss:ve} ile başlar; {ar:لَا, tr:lâ, gloss:ne ve değil}, ikinci görevi de aynı yokluk bildirimi içine alarak cümleyi tamamlar: "hiçbir müjdeci ve hiçbir uyarıcı da gelmedi." Lâ, olumsuzluğu {ar:نَذِيرٍ, tr:nezîrin, gloss:uyarıcı} üzerine koordineli biçimde taşır; nezîrin de minin yönettiği tamlayan olarak yapıyı tamamlar. {ar:بَشِيرٍ, tr:beşîrin, gloss:müjdeci} sevindirici haberi, nezîr ise tehlikeyi bildirerek sakınmaya çağıran uyarıyı taşır; iki görev aynı yapı içinde birlikte görünür, işlevleri ayrı kalır. Nezîr burada ciddi bir sorumluluk uyandıran uyarıcı unvanıdır; biçimi, uyarma eylemini adlandıran başka bir türevden ayrılarak bu görev adını kurar. Bu bağlantıda nezîr adak yükümlülüğü veya yara bedeli alanına açılmaz. İki tanvinli son, reddedilen görev çiftini aynı ritim içinde bağlar.
+
+Bu görev unvanlarının taşıdığı karşılaşma, 5:18'deki insan vurgusuyla da renklenir. {ar:بَشَرٌ, tr:beşerun, gloss:insan} insanı, {ar:بَشِيرٍ, tr:beşîrin, gloss:müjdeci} reddedilen müjdeci görevini, {ar:بَشِيرٌ, tr:beşîrun, gloss:müjdeci} ise gerçekleşmiş gelişteki müjdeci görevini aynı anlam ailesinin sesinde yaklaştırır (5:18). Beşîr kendi olağan işini, sevindirici haber getirmeyi sürdürür; bu yakınlık müjdeyi soyut bir görev adı olarak bırakmayıp insan yüzü ve bedeni olan bir elçi aracılığıyla ulaşan bir karşılaşma gibi duyurur. Müjde böylece bilgi vermenin yanında alıcının yüzünü değiştiren bir sevinç etkisi kazanır. İnsan beşer, müjdeci beşîr olarak ayrı adlandırılır; ses yakınlığı bu ayrımı koruyarak iki görevi tek kelimeye dönüştürmez. {ar:رَسُولُنَا, tr:resûlunâ, gloss:elçimiz} ile {ar:الرُّسُلِ, tr:er-rusul, gloss:elçiler} arasındaki bağ da bu haberin gönderenden alıcıya bir kişi aracılığıyla ulaştığını açık tutar.
+
+Reddin sonucu {ar:فَ, tr:fe, gloss:öyleyse ve bunun üzerine} ile açılır. Fe, önceki sözün karşılığını başlatan sonuç bağlacıdır; mazeretin ardından gerçekleşmiş gelişi, yanındaki ikinci {ar:قَدْ, tr:qad, gloss:gerçekten ve kesinlikle} ile yeniden doğrulanmış bir olgu halinde tutar. Sonraki {ar:جَاءَكُمْ, tr:jāʾakum, gloss:size geldi}, açılıştaki geliş biçimini aynen yineler; ikinci çoğul kişi eki aynı topluluğa döner ve böylece jāʾa sesi iddia, inkâr ve karşı-iddia boyunca ilerler. Ortadaki jāʾanā yönü sözü topluluğun içine çevirirken son jāʾakum onu yeniden muhataba açar. Üç geliş görünümü, elçilerin arasındaki zayıflamanın içinde kesinti ve ardından açıklamanın yeniden başlaması duygusunu bu tekrar örgüsüyle taşır.
+
+Olumlu cümlede {ar:بَشِيرٌ, tr:beşîrun, gloss:müjdeci} ve {ar:نَذِيرٌ, tr:nezîrun, gloss:uyarıcı} nominatif biçimde gelir. Önceki beşîrin ve nezîrin, olumsuz minin altında tamlayan ve tanvinliyken, bu kez beşîrun ile nezîrun gelişin iki koordineli öznesi olarak hazır ve mevcut durur. Faʿîl kalıbı her iki görevi sabit bir elçilik niteliği halinde paketler. Aradaki {ar:وَ, tr:ve, gloss:ve}, iki rolü ayrı tutarak aynı gelişte birlikte görünmelerini sağlar; bir yüz sevinç açar, diğer yüz dikkat uyandırır. Böylece ayetin açık bildirimi, açıklama yapan elçinin gerçekten gelmiş ve iki görevle karşılaşılabilir olmuş olması olarak yerinde durur.
+
+Fetretin soğuma ve zayıflama yönü bu olumlu çiftle buluştuğunda, aralık gevşemeden sonra yeniden gerilen bir hitap eşiği gibi görünür. {ar:الرُّسُلِ, tr:er-rusul, gloss:elçiler} çoğulu tek elçinin gelişini peş peşe gelen ayrı elçi toplulukları içindeki yeniden başlayan bir halka olarak düşünmeye kapı açar; aynı ayetteki jāʾakum tekrarları da bu durak ve yeniden başlama duygusunu taşır. Hemen sonraki hatırlama ve harekete çağrı sahnesi (5:20, 5:21), bekleyen topluluğa yeniden bir eylem alanı açan bu devamlılık izlenimini besler. Bu bağlantı fetreti elçilerin kronolojik aralığı olarak korur; söz konusu görüntü tarihsel elçi sayısı ya da grup grup geliş düzeni hakkında bilgi vermez.
+
+## Kitabın Karşılığı
+
+{ar:يَٰٓأَهْلَ ٱلْكِتَٰبِ, tr:yâ ehle'l-kitâb, gloss:ey kitap halkı} hitabının kitapla kurduğu aidiyet, sonraki Musa anlatısında yaşanan bir karşılığa doğru açılır. {ar:كَتَبَ ٱللَّهُ لَكُمْ, tr:ketebe'llâhu lekum, gloss:Allah'ın sizin için hükme bağladığı}, yazılı olanı yapılması gereken bağlayıcı bir belirlemeye genişletir (5:21). Ardından {ar:ٱدْخُلُوا, tr:udhulû, gloss:girin} emri, kitaba bağlılığı bir eşiği geçme hareketine çevirir; {ar:وَلَا تَرْتَدُّوا, tr:ve lâ terteddû, gloss:geri dönmeyin} ileriye yönelen cevabın tersine çevrilmesine karşı duran yönü kurar (5:21). Sonraki sahnede {ar:قَاعِدُونَ, tr:kâ'idûn, gloss:oturup eylemsiz kalanlar}, emri işitmiş topluluğun hareketi bedenle durdurmasını gösterir (5:24). Bu zincir, odaktaki kitabı elde duran kaydın yanında karşılığı verilmesi beklenen bir hüküm alanı olarak duyurur: ketebe'llâhu bağlayıcı belirlemeyi, udhulû eşiği geçmeyi, ve lâ terteddû ileriye yönelen cevabın tersine çevrilmesine karşı duran yönü, kâ'idûn ise bu buyruğun bedensel olarak durdurulmasını taşır. Bu sonraki sahne, odaktaki açıklama ve aidiyet hitabına nitelikli bir devam getirir; 5:21 ve 5:24 bağlantısı Musa'nın giriş buyruğunu 5:19'un kendi cümlesine taşımaz.
+
+Bu bedensel duruş, fetretin açtığı aralık duygusunu alıcı tarafta başka bir biçime çevirir. {ar:فَتْرَةٍ, tr:fetretin, gloss:elçiler arasındaki dönem} hâlâ elçilerin bulunmadığı kronolojik dönemdir. Buna karşılık sonraki topluluğun {ar:أَبَدًا, tr:ebeden, gloss:sonsuzca} sözü reddi sonsuza uzatılmış bir askıya alma gibi kurar, {ar:مَا دَامُوا فِيهَا, tr:mâ dâmû fîhâ, gloss:onlar orada kaldığı sürece} ise duraklamayı sürdürülen bir koşula bağlar (5:24). İşitilmiş buyruğun ardından {ar:هَٰهُنَا قَاعِدُونَ, tr:hâhunâ kâ'idûn, gloss:burada oturuyoruz} denmesi, ulaşmış hitabın alıcı tarafında bedensel eylemsizliğe dönüşmesini görünür kılar (5:24). {ar:أَرْبَعِينَ سَنَةً, tr:erbaîne seneten, gloss:kırk yıl} sayısı, sonsuz diye tasarlanan reddi ölçülmüş bir gecikmeye dönüştürür (5:26). Elçiler arasındaki ara ile ulaştırılmış sözden sonra oluşan ara iki ayrı olayı taşır: fetret gönderimler arasındaki dönemi, 5:24 ve 5:26'daki görüntüler ise karşılaşmadan sonra hareketin durmasını gösterir. Birlikte okunduklarında fetretin zaman anlamı yerinde kalır; fetretin soğuma yönü ile uzayan suskunluğun alıcı tarafta duran beden imgesi ayrı katkılar olarak görünür. Bu bağlantı fetreti reddeden topluluğun meydana getirdiği bir dönem olarak kurmaz.
+
+Fetretin açtığı dönem için ayrı bir benzetme, başparmak ile işaret parmağı arasındaki ölçülebilir açıklıktır. Bu görüntüde {ar:فَتْرَةٍ, tr:fetretin, gloss:elçiler arasındaki dönem} zaman aralığını taşır; {ar:يُبَيِّنُ, tr:yubeyyinu, gloss:anlamı açıkça ortaya koyuyor} açıklığın içindekini görünür kılma hareketini, {ar:قَدِيرٌ, tr:kadîrun, gloss:gücü yeten} ise erişme ve gerçekleştirme sınırını düşündürür. Açıklık benzetmesi dönemin sınırlarını elle tutulur hale getirir; zaman anlamına eklenen bir görüntü olarak çalışır ve onun yerine geçmez.
+
+## Kudretin Kapsamı
+
+Son bölümdeki {ar:وَ, tr:ve, gloss:ve} yeni bir isim cümlesi açar ve yerel çürütmeden daha geniş bir ilkeye geçer. {ar:اللَّهُ, tr:Allâhu, gloss:Allah} cümlenin konusu olarak elçi gönderme yetkisinin sahibini görünür kılar. İkinci {ar:عَلَى, tr:ʿalā, gloss:üzerinde ve egemen}, ilk alânın fetret zamanı üzerinde kurduğu çerçeveyi bu kez egemenlik yönünde değiştirir. {ar:كُلِّ, tr:kulli, gloss:her ve bütün}, alânın yönettiği tamlayan olarak bütün kapsamını kurar; {ar:شَيْءٍ, tr:şey'in, gloss:şey ve varlık} ise tekil ve belirsiz yapısıyla her bir varlığı ve irade edilen her sonucu kapsama getirir. Kulli'nin burada kurduğu yerel işlev bütünü kuşatmaktır; aynı ses dizisinin yemek buyruğu olan kullanımı bu bağlantının dışında kalır. Bu edatlı kapsamdan sonra gelen {ar:قَدِيرٌ, tr:kadîrun, gloss:gücü yeten}, isim cümlesinin yüklemi olarak kudreti işi gerçekleştirmeye elveren yerleşik bir nitelik halinde bildirir; bu nitelik geçici bir başarıyla sınırlı değildir. Sonundaki tenvin, iki elçilik unvanının ritmini evrensel kudret cümlesine bağlayan kapanış sesini kurar.
+
+Bu kapanış, 5:17'de {ar:مُلْكُ, tr:mülkü, gloss:egemenlik}, {ar:يَخْلُقُ, tr:yahluk, gloss:yaratır} ve {ar:شَاءَ, tr:şâe, gloss:diler} ile açılan her şeyi kuşatan alanın ardından yeniden duyulur. 5:19'daki {ar:وَٱللَّهُ عَلَىٰ كُلِّ شَيْءٍ قَدِيرٌ, tr:ve'llâhu alâ kulli şey'in kadîr, gloss:Allah her şeye gücü yetendir} ifadesi, elçinin gelişinden sonra aynı kudreti yeniden kurar; kesintiyi Allah'ın hüküm ve yaratma alanı içinde yeniden hitap kurulabilen bir yetki alanına bağlayan yankı da burada duyulur (5:17, 5:19). Geniş bağlamda gökler, yer ve içindekilerin mülkü anılırken aynı kapsamlı kudret cümlesinin sûre sonundaki dönüşü de bu yankıyı sürdürür (5:120). Bu tekrar, genel kudret bildirimini bağımsız anlamında tutarken elçi gönderimini aynı kudretin içinde gerçekleşen bir imkan ve yetki olarak görünür kılar; elçinin gelişi kudret cümlesinin dilbilgisel sebebi olarak kurulmaz.
+
+</editorial_prose>

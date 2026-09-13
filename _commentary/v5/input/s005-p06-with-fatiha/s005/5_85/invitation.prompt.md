@@ -1,0 +1,187 @@
+# V5 reading invitation — 5:85
+
+You are a fresh reading-invitation writer. Read the complete editorial prose
+before writing. It is your sole semantic source.
+
+Write two to four paragraphs of fluent, contemporary Turkish that reveal a
+surprising reading by following one or two main channels of resonance in the
+ayah. A channel is a connected background of meanings, images, actions, or
+relations through which the ayah can be heard and understood differently.
+Several editorial findings may together develop one channel. Summarize that
+connected movement and its consequence for the ayah's main meaning, rather
+than compressing findings individually. Give the reading's substance now;
+the invitation comes from understanding it, not from a promise of hidden depth.
+
+Before drafting, read the entire editorial prose and silently select the one
+or two channels with the strongest interpretive consequence and enough
+grounding to explain clearly. Favor channels that expand or shift what the
+ayah says, the relation it establishes, or what is at stake in its action or
+image. One fully developed channel is sufficient; add a second only when it
+offers a distinct consequential reading that can be explained within the
+invitation. No finding, channel, or major shift has an individual coverage
+claim. Unselected material may remain entirely in the full commentary.
+
+A channel may develop through grammar, sound, dialogue, a material process,
+time, imagery, or a conceptual relation. Resonance is not limited to acoustic
+effects, and an unusual image alone does not establish a channel. Use only
+connections the editorial prose actually develops. If it supplies no such
+channel, explain its strongest grounded reading without inventing connections
+or surprise.
+
+Begin inside the ayah's own words, images, actions, or relations and reveal a
+selected distinctive reading in the first paragraph. Keep the plain meaning
+reachable with only the orientation needed to understand the change. Do not
+spend an opening paragraph on routine explanation or front-load context about
+the surah, the ayah's position, or the commentary project.
+
+For each selected channel, begin with the expression that opens it, unfold the
+connected background, and show how the ayah reads or sounds against that
+background. Let a detail lead into the next through an intelligible relation
+or process, so the reader experiences the emerging reading. This is a movement
+of thought, not a mandatory sentence pattern or one paragraph per finding.
+Let the reader identify the expression being interpreted,
+where any nonordinary detail comes from, and what that detail changes in the
+reading. Briefly identify the word-family use, restricted form, collocation, or
+context that supplies an essential added detail, and preserve the concrete
+operation that makes the image work. Keep the ordinary reading and necessary
+qualification clear within this explanation; do not repeat them as a fixed
+formula. Preserve the particular object, process, or relation that makes this
+reading distinctive, and state its interpretive consequence for the ayah as a
+whole. Make intelligible what the familiar reading leaves less visible and
+what the expanded or shifted reading now lets the reader understand. Preserve
+the editorial's force: an exploratory possibility remains possible, while a
+developed shift must not be softened into a decorative association or a
+reassurance that everything means the same thing. A concrete
+account of how something is carried, transformed, lost, or restored must not
+shrink to a general statement about care, guidance, dependence, or goodness.
+Keep the details needed to make the selected channel work; omit side findings
+and shorten routine setup. If a channel cannot be explained faithfully from
+the editorial prose, choose another grounded channel or reading.
+
+When a non-focus ayah supplies a contribution used in the invitation, keep its
+reference from the editorial prose beside that contribution.
+
+Do not turn the invitation into a miniature inventory of the commentary's
+conclusions, or flatten distinct channels into a broad theme to include more
+material. Do not repair, extend, or supplement the editorial prose from memory
+or outside knowledge.
+
+Omit technical apparatus. Retain any qualification, source distinction, live
+alternative, or boundary whose absence would change the force or meaning of a
+chosen reading. Express it naturally beside the image or relation it qualifies.
+Favor positive explanations of the relation between layers: what remains in
+the foreground and what the resonance makes audible in the background. State
+how that background reinforces, expands, or shifts the understanding of the
+main meaning, with the source and degree of certainty clear. Reserve explicit
+exclusions for concrete ambiguities or live counter-evidence that need them.
+Repeated "this is not X" endings make a reading sound withdrawn; express the
+substantive qualification through what the reading does contribute wherever
+possible. Use varied, natural language rather than a repeated "second layer"
+formula, and preserve the force of expansions and shifts.
+Do not name branches, candidates, findings, scopes, evidence categories,
+ledgers, or workflow stages, or label the prose as numbered channels. Do not
+list findings serially.
+
+Use the established `{ar:..., tr:..., gloss:...}` syntax, consistent
+Turkish-readable transliteration, and short ordinary glosses. Keep Arabic
+anchors beside the explanations they ground. Within a paragraph, continue with
+the Turkish meaning where clear; provide the necessary local tag when a later
+paragraph interprets the carrier anew. Do not place Arabic script outside a
+valid tag.
+
+Build transitions within a channel through its shared object, action, or
+relation. If two channels are selected, they may occupy separate paragraphs;
+do not invent a link between them. Do not praise the commentary's quality,
+promise what the reader will find, manufacture suspense, recap at the end, or
+add a call to action. End on an image, relation, action, or tension already
+established by the selected reading.
+
+Before finishing, compare the invitation with the entire editorial prose:
+does the chosen channel reveal a consequential reading, or could the text have
+been written from the ordinary translation and a modest explanation alone?
+When the editorial supports a surprising channel, the latter fails this task.
+Can the reader follow the opening expression into a connected background and
+understand how that background expands or shifts the ayah's main meaning?
+Check the selected connections against their editorial explanation: can the
+reader tell where the nonordinary details come from, with the necessary
+qualifications intact? Repair generic explanation, isolated curiosities, or a
+compressed findings list by developing the selected channel. Do not add
+omitted channels merely for coverage. Do not output this check.
+
+Write only the invitation text to:
+
+`_commentary/v5/editorial/s005-p06-with-fatiha/s005/5_85/5_85.invitation.tr.md`
+
+Do not add a heading, wrapper label, index, ledger, evidence file, or any other
+artifact. Do not modify the editorial prose.
+
+After writing the invitation, run:
+
+```bash
+python3 _commentary/v5/validate_prose.py _commentary/v5/editorial/s005-p06-with-fatiha/s005/5_85/5_85.invitation.tr.md
+```
+
+If validation fails, repair only the reported mechanical file-contract issues
+and rerun it, for at most two repair cycles. Report the final validator result
+in your response.
+
+<editorial_prose>
+Bu âyet, 5:84’teki içeri alınma umudunun ardından Allah’ın onları söyledikleri karşılığında altlarından ırmaklar akan bahçelerle ödüllendirdiğini, orada sürekli kalacaklarını ve bu ödülün iyilik yapanların karşılığı olduğunu bildirir. {ar:فَأَثَٰبَهُمُ, tr:fe-esâbehum, gloss:onları ödüllendirdi} {ar:ٱللَّهُ, tr:Allah, gloss:Allah} ödülün gerçekleşmiş eylemini, {ar:بِمَا قَالُوا۟, tr:bimâ kâlû, gloss:söyledikleri sebebiyle} dayanağını, {ar:جَنَّٰتٍۢ, tr:cennât, gloss:bahçeler} ödülün yerini, {ar:تَجْرِى مِن تَحْتِهَا ٱلْأَنْهَٰرُ, tr:tecrî min tahtihâ el-enhâr, gloss:altlarından ırmaklar akan} ise bu yerin nasıl yaşanır olduğunu gösterir. {ar:خَٰلِدِينَ فِيهَا, tr:hâlidîn fîhâ, gloss:içinde sürekli kalacaklar} kalıcı ikameti, {ar:وَذَٰلِكَ جَزَآءُ ٱلْمُحْسِنِينَ, tr:ve zâlike cezâu’l-muhsinîn, gloss:işte iyilik yapanların karşılığı} da bütün sahneye verilen hükmü bildirir.
+
+## Ödülün Cümleye Yerleşmesi
+
+Başındaki {ar:فَ, tr:fe, gloss:sonuç olarak} önceki söz ile ödül arasındaki eşiği tek bir sesle açar. Sıralama “ardından” diye duyulurken, sözün ulaştığı sonuç da neden ile karşılık arasındaki bağı kurar: söz söylenmiş, karşılık gelmiştir. Uzun ödül fiilinden hemen önce gelmesi, önceki arzuyu hızla kapatıp sonucu öne çıkaran yerel bir ritim yaratır. Ardından gelen {ar:أَثَٰبَهُمُ, tr:esâbehum, gloss:onları ödüllendirdi} tamamlanmış IV. bâb fiili, bitişik zamirle ödülün alıcılarını, {ar:جَنَّٰتٍۢ, tr:cennât, gloss:bahçeler} ile de verilen şeyi aynı eylem içinde buluşturur. Kimlerin ödüllendirildiği ve ne aldıkları böylece tek bir fiil çerçevesinde görünür olur.
+
+{ar:أَثَٰبَهُمُ, tr:esâbehum, gloss:onları ödüllendirdi} fiili karşılığı bir sahibine yönelen sonuç olarak duyurmaya da açıktır. Bu âyette bahçeler, söylenen söz ve son cümledeki {ar:ٱلْمُحْسِنِينَ, tr:el-muhsinîn, gloss:iyilik yapanlar} bu yönelişi olumlu karşılıkta toplar. Bahçeler somut ödül olarak kalırken, yapılan işe uygun biçimde sahibine dönen bir cevap niteliği kazanır. Bu dönüş, bu bağlamdaki karşılık hareketiyle sınırlı kalır; bitişik zamir de önceki sözün sahiplerini ilahî ödülün alıcıları olarak görünür tutar.
+
+Ödülün faili {ar:ٱللَّهُ, tr:Allah, gloss:Allah} adıyla açıkça duyulur. Sonuç, doğrudan gerçekleştirilen ilahî bir eylem olarak belirir. Failin, ödülün dayanağını açıklayan sebep yapısından önce gelmesi dikkati düzenler: önce kimin ödüllendirdiği, sonra bu eylemin onların sözüne nasıl bağlandığı anlaşılır. Önceki seslenişin yöneldiği varlık burada ödülü uygulayan fail olarak görünür; bu adlandırma, özel adın tartışmalı türeyişlerini yerel sahneye taşımaz.
+
+{ar:بِمَا, tr:bimâ, gloss:söyledikleri sebebiyle} sebep edatını açık ilgi zamiriyle birleştirerek onların sözünü ödülün dayanağı yapar. Bu yapının bahçelerden önce gelmesi, bahçeleri kurulmuş bir gerekçenin cevabı olarak konumlandırır. İlgi zamiri önceki uzun bildirimi yeniden söylemeden toplar; böylece ödül yalnızca bir sesin çıkmasına değil, o sözün taşıdığı içeriğe bağlanır.
+
+Bu sebep yapısının içindeki {ar:قَالُوا۟, tr:kâlû, gloss:söylediler} tamamlanmış çoğul bir söz eylemidir. Aynı topluluğu korur, uzun ifadeyi kısa bir sebep içinde sıkıştırır ve söylenmiş olanı ödül cümlesine taşır. Söyleme eylemi ne söylendiğine göre farklı sonuçlara açılabilir; burada bahçe ödülüne ulaşır. Kelimenin temel işi sözü sesli olarak dışa çıkarmaktır. Sebep bağı ile tamamlanmış ödül fiili bu sesi sonuç doğuran bir davranışa çevirir; söylenmiş olmanın kendisi ise içten önemseme hakkında tek başına hüküm vermez.
+
+Ödülün içeriği olan {ar:جَنَّٰتٍۢ, tr:cennât, gloss:bahçeler}, belirsiz çoğul biçimiyle tek bir adı konmuş yer değil, birden çok geniş bahçe alanı açar ve tamamlanmış fiilin açık nesnesi olur. Sözün sebep olarak anılmasının hemen ardından gelmesi, bahçe-ırmak görüntüsünü kopuk bir arka plan olmaktan çıkarır. Bahçe kelimesindeki ağaçlarla örtülü, korunaklı zemin yönü, biraz sonra gelen alt ve iç ilişkileriyle yaşanabilir bir çevreye doğru gelişir. Bu bağlantı somut ve yaşanabilir bahçe çevresinde kalır; korunaklılık da bu yerel görüntüyü derinleştirir.
+
+Bahçenin içindeki hareketi {ar:تَجْرِى, tr:tecrî, gloss:akar} geçişsiz fiili kurar. Ödül verilmiş ve tamamlanmışken, bu fiilin geniş zaman-şimdiki görünüşü bahçenin içindeki akışın sürdüğünü bildirir. Su kendi güzergâhı boyunca ilerleyen canlı bir hareket kazanır; biraz sonra ortaya çıkacak ırmaklar bu hareketin taşıyıcısı olur. Böylece önce suyun yolu görünür, ardından bahçe, karşılık ve kalış kelimeleri bu akışa devamlı yarar ve geçim niteliği kazandırır.
+
+Akışın kaynağı {ar:مِن, tr:min, gloss:-den} edatıyla, yönü {ar:تَحْتِهَا, tr:tahtihâ, gloss:altlarından} ifadesiyle kurulur. {ar:مِن, tr:min, gloss:-den} başlangıç noktasını seçerek suyu bahçelerin altındaki alana bağlar. Dişil zamir bahçelere döner ve alt konumu somutlaştırır. Irmaklar henüz adlandırılmadan önce okur, bahçenin altındaki destek katmanını ve oradan hareket edecek taşıyıcıları görür. Buradaki “alt”, suyun kaynak yönünü belirleyen somut bir konumdur; bu bağlantı değer hiyerarşisi kurmadan işler.
+
+Sonra {ar:ٱلْأَنْهَٰرُ, tr:el-enhâr, gloss:ırmaklar} belirli çoğul adıyla cümlenin gecikmiş öznesi olarak görünür. Belirlilik, genel bir su görüntüsünü tanınabilir ırmaklara çevirir; çoğul biçim de tek bir akış çizgisi yerine birden çok su yatağı açar. Akış fiilinin sürmekte olan hareketi, alt kaynak ilişkisi ve öznenin sonradan gelişi birlikte, bahçeyi kaynakları, kanalları ve akışı olan somut bir çevreye dönüştürür. Irmaklar hareketi taşıyan unsurlar haline gelir; suyun açık veya genişlemiş yataklar içinde ilerlemesi, bahçe ödülünü yaşanabilir bir alana doğru genişletir.
+
+Bu çevrenin iç tarafını {ar:فِيهَا, tr:fîhâ, gloss:içinde} belirler. Zamir bahçelere döndüğü için kalıcılığı soyut bir zaman ifadesi olarak bırakmaz; onu belirli bir ödül mekânındaki ikamete yerleştirir. Alt kaynak, akan ırmaklar ve içeride kalış aynı bahçe gönderiminde birleşir: tedarik aşağıdan gelir, yaşam içeride sürer. Böylece ödül, kaynağı ve iç sınırı bulunan yaşanabilir bir çevre olarak kavranır.
+
+Bu çevrede bakış {ar:خَٰلِدِينَ, tr:hâlidîn, gloss:sürekli kalanlar} kelimesinde bahçelerden ödülü alan insanlara döner. Eril çoğul etkin ortaç biçimi, bahçelerin veya ırmakların değil, ödüllendirilenlerin içinde bulunduğu süreklilik halini bildirir. {ar:فِيهَا, tr:fîhâ, gloss:içinde} ile birleşen kelime hem belirli bir yerde kalmayı hem de zaman boyunca sürmeyi taşır. Süreklilik farklı sonuç alanlarına bağlanabilecek açık bir zaman yönüdür; burada bahçe ve ödül onun olumlu yönünü belirler. Cümlenin sırası yerden akışa, akıştan ırmaklara ve nihayet orada kalan insanlara ilerler. Bu kullanım, burada bahçede yerleşmiş insan yaşamını anlatan yerel süreklilikle sınırlıdır.
+
+Bahçe, kaynak, akış ve kalış görüntüsü {ar:وَ, tr:ve, gloss:ve} bağlacıyla yeni bir eşiğe gelir. Bu bağ yeni bir bahçe özelliği eklemek yerine, az önce görülen sahneyi değerlendiren nominal bir cümle açar. Ardından gelen {ar:ذَٰلِكَ, tr:zâlike, gloss:işte bu} tekil gösterme sözü çoğul bahçeleri, ırmakları ve kalıcı kalışı tek bir geriye dönük gönderme konusu yapar. Somut ödül ayrıntılarını koruyarak onları bir hüküm altında toplar.
+
+Bu hükmün adı {ar:جَزَآءُ, tr:cezâ, gloss:karşılık} ile konur. Kelime yapılan işe uygun biçimde dönen cevabı taşır ve tamlama başı olarak bütün bahçe-ırmak-kalış sahnesini adlandırır. Karşılık alanı ödül ve ceza yönlerine açıkken, burada onu olumlu kutupta belirleyen {ar:ٱلْمُحْسِنِينَ, tr:el-muhsinîn, gloss:iyilik yapanlar} tamlamasıdır. Son kelimenin belirli çoğul etkin ortaç biçimi, iyiliği sabit bir nitelik değil, yapılmış ve başkasına ulaşan eylem olarak gösterir. Bağlamdaki sözleşme, sevgi, uygulama ve ödül ilişkileri bu eylem sınıfını somutlaştırır; böylece kapanış, önceki sözün sahiplerini daha genel bir iyilik yapanlar sınıfına açarken eylem ile cevabı aynı yerde buluşturur.
+
+Bu kelimeler birlikte duyulduğunda, {ar:أَثَٰبَهُمُ, tr:esâbehum, gloss:onları ödüllendirdi} sonucu sahibine yöneltir, {ar:بِمَا, tr:bimâ, gloss:söyledikleri sebebiyle} ile {ar:قَالُوا۟, tr:kâlû, gloss:söylediler} bu dönüşün sözle kurulan dayanağını görünür kılar, {ar:جَزَآءُ, tr:cezâ, gloss:karşılık} onu yapılan işe uygun cevap olarak adlandırır ve {ar:ٱلْمُحْسِنِينَ, tr:el-muhsinîn, gloss:iyilik yapanlar} bu cevabın eylem niteliğini belirler. Bahçeler, ırmaklar ve orada kalış açık ödül sahnesi olarak yerinde dururken, karşılık gelip biten bir pay olmaktan çıkar. Tamamlanmış ödüllendirme fiili ile {ar:خَٰلِدِينَ, tr:hâlidîn, gloss:sürekli kalanlar} kelimesinin süresi buluştuğunda, alıcısına hayat ve geçim içinde ulaşmayı sürdüren bir çevre gibi duyulur.
+
+Bu temas, {ar:قَالُوا۟, tr:kâlû, gloss:söylediler} kelimesinin önce sesi dışarı çıkarmasını, {ar:بِمَا, tr:bimâ, gloss:söyledikleri sebebiyle} ile bu sesi ödülün dayanağına bağlamasını ve {ar:ٱلْمُحْسِنِينَ, tr:el-muhsinîn, gloss:iyilik yapanlar} ile konuşmaya sorumluluk taşıyan bir eylem ağırlığı vermesini sağlar. Söz böylece içten önem taşıyan bir bağlılık görüntüsü kazanabilir ve pratik bir sonuç doğurabilir. Bu bağlantının sınırı, her sözü kendiliğinden iyilik saymaması ve ödülü gerçekleştiren failin Allah olarak kalmasıdır. Açık hüküm, söylenen söz karşılığında verilen bahçelerdir; bu okuma o sözün davranış olarak taşıdığı ağırlığı görünür kılar.
+
+## Sözün Kabulü
+
+5:83 ve 5:84’teki iki istek, bu bahçeli karşılığa toplumsal bir yön kazandırır. Önce {ar:فَٱكْتُبْنَا, tr:fektubnâ, gloss:bizi yaz} adların kayda geçirilmesini, {ar:ٱلشَّٰهِدِينَ, tr:eş-şâhidîn, gloss:şahitler} bu kaydın başkalarının önünde tanınmasını ister (5:83). Ardından {ar:يُدْخِلَنَا, tr:yudhilenâ, gloss:bizi içeri alsın} kabul hareketini, {ar:ٱلْقَوْمِ, tr:el-qavm, gloss:topluluğu} bu kabulün insanlardan oluşan ortaklığını, {ar:ٱلصَّٰلِحِينَ, tr:es-sâlihîn, gloss:salih olanları} da ortaklığın sağlam niteliğini kurar (5:84). 5:85’teki bahçeler bu istenen kabulün gerçekleştiği yer gibi belirir; {ar:ٱلْمُحْسِنِينَ, tr:el-muhsinîn, gloss:iyilik yapanlar} verilen yeri olumlu eylem sınıfıyla tanımlar. Böylece bireysel bahçe ödülü korunurken, adları tanınmış, şahitlik edilmiş ve iyi eylemle nitelenmiş bir topluluğa kabul edilme yönü de görünür olur.
+
+Bu kabulün süresi, {ar:خَٰلِدِينَ فِيهَا, tr:hâlidîn fîhâ, gloss:içinde sürekli kalacaklar} ifadesinde başka bir sonuçla karşılaştırılarak duyulur. Karşı kutupta (5:80) önce {ar:يَتَوَلَّوْنَ, tr:yetevellevne, gloss:yönelip bağlanırlar} bir yöneliş kurar; {ar:مَا قَدَّمَتْ لَهُمْ أَنفُسُهُمْ, tr:mâ kaddemet lehum enfusuhum, gloss:benliklerinin önceden gönderdiği şey} bu yönelişin davranışla önceden gönderilmiş sonucunu, {ar:سَخِطَ ٱللَّهُ عَلَيْهِمْ, tr:sahitallâhu aleyhim, gloss:Allah onlara öfkelendi} ulaşılan koşulu, {ar:خَٰلِدُونَ فِى ٱلْعَذَابِ, tr:hâlidûne fi’l-azâb, gloss:azap içinde kalıcılar} da o koşul içinde kalışı adlandırır. Bu sıra, {ar:خَٰلِدِينَ, tr:hâlidîn, gloss:sürekli kalanlar} kelimesindeki kalmayı yalnız uzun bir zaman olarak değil, içine girilen koşula yerleşmiş bir ilişki olarak açar. 5:85’te bahçe ve iyilik, aynı ilişkiye olumlu yön verir; temel kalıcılık anlamı yerini korurken, mekân ve durumla bağı belirginleşir.
+
+Bu kalıcı çevre, 5:83’teki bedensel taşmayla ihtiyatlı bir yankı kurar. {ar:تَرَىٰٓ أَعْيُنَهُمْ تَفِيضُ مِنَ ٱلدَّمْعِ, tr:terâ a’yunuhum tefîdu mine’d-dem’, gloss:gözlerinin yaşla taştığını görürsün} hakikati tanımaktan taşan gözyaşlarını gösterir. Önce bedende gerçekleşen küçük ölçekli su hareketi, 5:85’te {ar:تَجْرِى, tr:tecrî, gloss:akar} ve {ar:ٱلْأَنْهَٰرُ, tr:el-enhâr, gloss:ırmaklar} ile bahçelerin altında akan, içinde yaşanan kalıcı bir çevreye doğru büyütülür gibi duyulabilir. {ar:جَزَآءُ, tr:cezâ, gloss:karşılık} kelimesinin bir şeyin başka bir şeyin yerini tutarak ihtiyacı karşılamaya açılan yönü, nehirli bahçeyi önceki gözyaşlarının süreklilik kazanmış karşılığı gibi hissettirebilir. Bu ihtiyatlı imge su hareketini bedenden yaşanan çevreye doğru ölçeklendirir; bağlantının sınırı maddi bir dönüşüm değil, hareketin ölçeği ile ödülün karşılık oluşu arasındaki ilişkidir. Dikkat böylece yeniden 5:85’in bahçe ödülüne döner.
+
+Fâtiha’daki {ar:مَٰلِكِ يَوْمِ ٱلدِّينِ, tr:mâliki yevmi’d-dîn, gloss:hesap ve karşılık gününün sahibi} ifadesi (1:4), {ar:جَزَآءُ, tr:cezâ, gloss:karşılık} kelimesindeki eyleme uygun dönüşü hesap ve hüküm ufkuna yerleştirir. Bu temas, 5:85’teki olumlu ödülü yalnız betimlenen bir yarar olarak değil, karşılığın verildiği bir değerlendirme düzeni içinde de duyurur. Böylece yerel bahçe hükmüne hesap ufku eklenir; Fâtiha’nın bütünü bu âyete taşınmadığı gibi 5:85’in kendi cümlesinde ayrıca bir gün ifadesi de kurulmaz.
+
+Fâtiha’daki {ar:أَنْعَمْتَ عَلَيْهِمْ, tr:en’amte aleyhim, gloss:kendilerine nimet verdiklerin} ifadesi (1:7), {ar:ٱلْمُحْسِنِينَ, tr:el-muhsinîn, gloss:iyilik yapanlar} sınıfını alınan bir iyilikle yan yana getirir. İyilik etme, bazı kullanımlarda denk karşılığı aşan bir güzellik ve lütuf yönü taşıyabildiği için, 5:85’teki ödül eyleme verilen karşılık olarak kalırken verilmiş nimet yönüne de açılabilir. Bu nedenle burada eyleme uygun karşılık ile karşılıktan geniş lütuf yan yana duyulur; iyi eyleyenler nimet verilen herkesle aynı sınıf sayılmaz ve bahçelerin açık ödül oluşu korunur.
+
+Söylenen sözün neden ağırlık kazandığı, (5:61), (5:83) ve (5:84) arasındaki hareket izlendiğinde daha açık hale gelir. (5:61)’de dışarıdan söylenen {ar:آمَنَّا, tr:âmennâ, gloss:inandık} ile içeride saklanan durumu ayırarak ses ile içeriğin arasına bir sınır koyar; sesin duyulması, içeriğin doğrulanmasıyla aynı şey olarak kurulmaz. (5:83)’te {ar:سَمِعُوا۟, tr:semi’û, gloss:işittiler} ile başlayan sıra, {ar:تَفِيضُ, tr:tefîdu, gloss:taşar} ve {ar:ٱلدَّمْعِ, tr:ed-dem’, gloss:gözyaşı} ile işitilenin iradeyi aşan bedensel etkisini gösterir. Ardından {ar:عَرَفُوا۟, tr:arefû, gloss:tanıdılar} sözü {ar:ٱلْحَقِّ, tr:el-hakk, gloss:hakikat} ile buluşur; içerik böylece yalnız işitilmiş değil, ayırt edilip tanınmış ve söze dönüşmeye hazırlanmış görünür, gözyaşı da bu tanımanın bedende taşan işareti olur. Sözün ağırlığı bu okumada yalnız sesinden değil, işitme, bedensel tepki ve tanıma sırasından doğar.
+
+Bu tanıma, (5:83)’te {ar:فَٱكْتُبْنَا, tr:fektubnâ, gloss:bizi yaz} ile kayda, {ar:ٱلشَّٰهِدِينَ, tr:eş-şâhidîn, gloss:şahitler} ile tanıklığa bağlanır. (5:84)’te {ar:يُدْخِلَنَا, tr:yudhilenâ, gloss:bizi içeri alsın} bir yere kabul edilmeyi, {ar:ٱلْقَوْمِ ٱلصَّٰلِحِينَ, tr:el-qavmi’s-sâlihîn, gloss:salih topluluğu} bu kabulün topluluğunu, {ar:نَطْمَعُ, tr:natma’u, gloss:umarız} ise geleceğe dönük bekleyişi kurar. 5:85’te {ar:قَالُوا۟, tr:kâlû, gloss:söylediler} bu işitme, bedensel taşma, tanıma, tanıklık ve giriş umudu zincirinin sesle dışa çıkan ucudur. Söz, bu sırayla bedende karşılık bulmuş, içeriği tanınmış ve başkalarının önünde üstlenilmiş bir bağlılığın sesi olarak da okunabilir. Kayıt ve kabulün açtığı aidiyet görüntüsü hesap verebilirlik düzeyinde kalır; bunu ayrıca resmî bir hukuk tescili veya her sözün içtenliği hakkında genel bir hüküm haline getirmeden, sonucu yine Allah’ın verdiği bahçeli karşılığa bağlar.
+
+Karşılığın yönü yalnız olumlu kutupta görünmez. (5:60)’taki {ar:مَثُوبَةً, tr:mesûbeten, gloss:karşılık} kelimesinin {ar:سُوٓءٍ, tr:sû’, gloss:kötülük} ile anılması, dönüşün eylemin niteliğine göre yön değiştirebildiğini gösterir. (5:64)’te {ar:لُعِنُوا۟, tr:luinû, gloss:lanetlendiler} ifadesinin {ar:بِمَا قَالُوا۟, tr:bimâ kâlû, gloss:söyledikleri sebebiyle} yapısına bağlanması, sözün dışlanma gibi ağır bir sonuca ulaşabildiğini açar. Buna karşılık 5:85’te {ar:قَالُوا۟, tr:kâlû, gloss:söylediler} ile {ar:جَزَآءُ, tr:cezâ, gloss:karşılık} yan yana gelir ve bahçeyi söylenen tanımanın niteliğine uygun olumlu cevap olarak duyurur. Kötülük burada açıkça anılan karşı kutup olarak kalır; bu bağlantı karşılığın ahlaki yönünü görünür kılar, fakat sonuçları tek bir metafizik yasaya indirgemez ve ilahî bahçe ödülünü yerinden etmez.
+
+## Akışın Geçime Dönüşmesi
+
+Bahçenin altındaki akışın geçim yönü, (5:64) ve (5:66)’daki açılma ve yön ilişkileriyle somutlaşır. (5:64)’te {ar:مَبْسُوطَتَانِ, tr:mabsûtetâni, gloss:açılmış iki el} yayılma ve verme hareketini açar; {ar:مَغْلُولَةٌ, tr:mağlûletün, gloss:bağlanmış} el bu hareketin karşısına kısıtlanmışlığı koyar; {ar:يُنفِقُ, tr:yunfik, gloss:dışarı verir} ise bu açılmayı payın dışarı çıkması ve kaynakların dolaşıma girmesi olarak hareket haline getirir. (5:66)’da {ar:لَأَكَلُوا۟, tr:le-ekelû, gloss:yiyip tüketirler} payı tüketilebilir geçim olarak gösterir ve {ar:فَوْقِهِمْ, tr:fevkihim, gloss:üstlerinden} ile {ar:تَحْتَ أَرْجُلِهِمْ, tr:tahta erculihim, gloss:ayaklarının altından} bu geçimin üstten ve alttan erişilen yönlerini kurar. Böylece üst ve alt yönleriyle çevrelenmiş beslenme alanı, aşağıdan gelen akışı yalnız bir altlık değil, yaşama erişen bir kanal olarak düşünmeye izin verir.
+
+Bu yönler 5:85’in kendi kelimelerine döndüğünde, {ar:تَحْتِهَا, tr:tahtihâ, gloss:altlarından} bahçenin altında duran kaynak konumunu görünür kılar; {ar:تَجْرِى, tr:tecrî, gloss:akar} bu bağlantı içinde süren yararı hareket halinde gösterir; {ar:ٱلْأَنْهَٰرُ, tr:el-enhâr, gloss:ırmaklar} da bu yararı taşıyan açık su yollarını kurar. Irmak adı, suyun açılmış veya genişlemiş bir yatak içinde ilerlediğini düşündürür; bahçe böylece dekor olmaktan çıkıp erişilebilir bir yaşam altyapısı kazanır. {ar:خَٰلِدِينَ فِيهَا, tr:hâlidîn fîhâ, gloss:içinde sürekli kalacaklar} bu altyapıyı geçici bir manzara olarak bırakmaz, içeride yaşanan ve zaman boyunca süren bir çevreye bağlar. Bu somut akışın sınırı, (5:83)’teki gözyaşlarından nehre maddi bir dönüşüm çıkarmak değildir; burada görünür olan, bu âyetteki bahçe, kaynak, hareket ve kalış temaslarının 5:85’te kurduğu yerel geçim görüntüsüdür.
+
+</editorial_prose>

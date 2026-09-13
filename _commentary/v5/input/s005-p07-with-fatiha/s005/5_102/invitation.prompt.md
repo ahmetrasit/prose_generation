@@ -1,0 +1,183 @@
+# V5 reading invitation — 5:102
+
+You are a fresh reading-invitation writer. Read the complete editorial prose
+before writing. It is your sole semantic source.
+
+Write two to four paragraphs of fluent, contemporary Turkish that reveal a
+surprising reading by following one or two main channels of resonance in the
+ayah. A channel is a connected background of meanings, images, actions, or
+relations through which the ayah can be heard and understood differently.
+Several editorial findings may together develop one channel. Summarize that
+connected movement and its consequence for the ayah's main meaning, rather
+than compressing findings individually. Give the reading's substance now;
+the invitation comes from understanding it, not from a promise of hidden depth.
+
+Before drafting, read the entire editorial prose and silently select the one
+or two channels with the strongest interpretive consequence and enough
+grounding to explain clearly. Favor channels that expand or shift what the
+ayah says, the relation it establishes, or what is at stake in its action or
+image. One fully developed channel is sufficient; add a second only when it
+offers a distinct consequential reading that can be explained within the
+invitation. No finding, channel, or major shift has an individual coverage
+claim. Unselected material may remain entirely in the full commentary.
+
+A channel may develop through grammar, sound, dialogue, a material process,
+time, imagery, or a conceptual relation. Resonance is not limited to acoustic
+effects, and an unusual image alone does not establish a channel. Use only
+connections the editorial prose actually develops. If it supplies no such
+channel, explain its strongest grounded reading without inventing connections
+or surprise.
+
+Begin inside the ayah's own words, images, actions, or relations and reveal a
+selected distinctive reading in the first paragraph. Keep the plain meaning
+reachable with only the orientation needed to understand the change. Do not
+spend an opening paragraph on routine explanation or front-load context about
+the surah, the ayah's position, or the commentary project.
+
+For each selected channel, begin with the expression that opens it, unfold the
+connected background, and show how the ayah reads or sounds against that
+background. Let a detail lead into the next through an intelligible relation
+or process, so the reader experiences the emerging reading. This is a movement
+of thought, not a mandatory sentence pattern or one paragraph per finding.
+Let the reader identify the expression being interpreted,
+where any nonordinary detail comes from, and what that detail changes in the
+reading. Briefly identify the word-family use, restricted form, collocation, or
+context that supplies an essential added detail, and preserve the concrete
+operation that makes the image work. Keep the ordinary reading and necessary
+qualification clear within this explanation; do not repeat them as a fixed
+formula. Preserve the particular object, process, or relation that makes this
+reading distinctive, and state its interpretive consequence for the ayah as a
+whole. Make intelligible what the familiar reading leaves less visible and
+what the expanded or shifted reading now lets the reader understand. Preserve
+the editorial's force: an exploratory possibility remains possible, while a
+developed shift must not be softened into a decorative association or a
+reassurance that everything means the same thing. A concrete
+account of how something is carried, transformed, lost, or restored must not
+shrink to a general statement about care, guidance, dependence, or goodness.
+Keep the details needed to make the selected channel work; omit side findings
+and shorten routine setup. If a channel cannot be explained faithfully from
+the editorial prose, choose another grounded channel or reading.
+
+When a non-focus ayah supplies a contribution used in the invitation, keep its
+reference from the editorial prose beside that contribution.
+
+Do not turn the invitation into a miniature inventory of the commentary's
+conclusions, or flatten distinct channels into a broad theme to include more
+material. Do not repair, extend, or supplement the editorial prose from memory
+or outside knowledge.
+
+Omit technical apparatus. Retain any qualification, source distinction, live
+alternative, or boundary whose absence would change the force or meaning of a
+chosen reading. Express it naturally beside the image or relation it qualifies.
+Favor positive explanations of the relation between layers: what remains in
+the foreground and what the resonance makes audible in the background. State
+how that background reinforces, expands, or shifts the understanding of the
+main meaning, with the source and degree of certainty clear. Reserve explicit
+exclusions for concrete ambiguities or live counter-evidence that need them.
+Repeated "this is not X" endings make a reading sound withdrawn; express the
+substantive qualification through what the reading does contribute wherever
+possible. Use varied, natural language rather than a repeated "second layer"
+formula, and preserve the force of expansions and shifts.
+Do not name branches, candidates, findings, scopes, evidence categories,
+ledgers, or workflow stages, or label the prose as numbered channels. Do not
+list findings serially.
+
+Use the established `{ar:..., tr:..., gloss:...}` syntax, consistent
+Turkish-readable transliteration, and short ordinary glosses. Keep Arabic
+anchors beside the explanations they ground. Within a paragraph, continue with
+the Turkish meaning where clear; provide the necessary local tag when a later
+paragraph interprets the carrier anew. Do not place Arabic script outside a
+valid tag.
+
+Build transitions within a channel through its shared object, action, or
+relation. If two channels are selected, they may occupy separate paragraphs;
+do not invent a link between them. Do not praise the commentary's quality,
+promise what the reader will find, manufacture suspense, recap at the end, or
+add a call to action. End on an image, relation, action, or tension already
+established by the selected reading.
+
+Before finishing, compare the invitation with the entire editorial prose:
+does the chosen channel reveal a consequential reading, or could the text have
+been written from the ordinary translation and a modest explanation alone?
+When the editorial supports a surprising channel, the latter fails this task.
+Can the reader follow the opening expression into a connected background and
+understand how that background expands or shifts the ayah's main meaning?
+Check the selected connections against their editorial explanation: can the
+reader tell where the nonordinary details come from, with the necessary
+qualifications intact? Repair generic explanation, isolated curiosities, or a
+compressed findings list by developing the selected channel. Do not add
+omitted channels merely for coverage. Do not output this check.
+
+Write only the invitation text to:
+
+`_commentary/v5/editorial/s005-p07-with-fatiha/s005/5_102/5_102.invitation.tr.md`
+
+Do not add a heading, wrapper label, index, ledger, evidence file, or any other
+artifact. Do not modify the editorial prose.
+
+After writing the invitation, run:
+
+```bash
+python3 _commentary/v5/validate_prose.py _commentary/v5/editorial/s005-p07-with-fatiha/s005/5_102/5_102.invitation.tr.md
+```
+
+If validation fails, repair only the reported mechanical file-contract issues
+and rerun it, for at most two repair cycles. Report the final validator result
+in your response.
+
+<editorial_prose>
+Bu âyetin açık cümlesi şudur: Sizden önce bir topluluk bir şeyi sormuş veya istemiş, sonra da o şeyle bağlantılı olarak inkâr edenler hâline gelmiştir. {ar:قَدْ, tr:qad, gloss:kesinlik bildiren parçacık} gerçekleşmiş olayı öne alır; {ar:سَأَلَهَا, tr:saʾalahā, gloss:onu istemek veya sormak} doğrudan bir nesneye yönelen sorma veya isteme eylemini taşır. Biçimce tekil olan {ar:قَوْمٌۭ, tr:qawmun, gloss:bir topluluk} topluluk öznesidir. {ar:مِّن قَبْلِكُمْ, tr:min qablikum, gloss:sizden önce} zamanı muhatapların öncesine yerleştirir; {ar:ثُمَّ, tr:thumma, gloss:sonra} isteme ile sonucu sıraya koyar. {ar:أَصْبَحُوا۟, tr:aṣbaḥū, gloss:bir hale geldiler} yeni bir hâle girişi, {ar:بِهَا, tr:bihā, gloss:onunla veya onun üzerinden} sorulan şey ile bu hâl arasındaki bağı, {ar:كَٰفِرِينَ, tr:kāfirīna, gloss:inkâr edenler} ise topluluğun vardığı dinî reddi bildirir. Sorulan şeyin adı cümlede açık bırakılır; âyet nesnenin kimliğinden önce olayın sırasını ve sonucunu görünür kılar.
+
+Bu sıranın geçmişe ait bir emsal olduğunu açılıştaki {ar:قَدْ, tr:qad, gloss:kesinlik bildiren parçacık} kesinleştirir. Geçmiş zamanlı {ar:سَأَلَهَا, tr:saʾalahā, gloss:onu istemek veya sormak}, 5:101'de muhataplara yönelen canlı soru yasağının ardından tamamlanmış bir topluluk olayını gösterir: mümkün bir eylem, olmuş bir olay olarak karşıya çıkar. {ar:قَدْ, tr:qad, gloss:kesinlik bildiren parçacık} ile {ar:سَأَلَهَا, tr:saʾalahā, gloss:onu istemek veya sormak} birlikte 5:12'deki geçmiş topluluk uyarısının çerçevesine seslenir; 5:12 burada geçmiş uyarı biçiminin kaynağı olurken 5:102 kendi anonim topluluğunu anlatır. İsteme ile son {ar:كَٰفِرِينَ, tr:kāfirīna, gloss:inkâr edenler} arasında aynı nesne hattının sürmesi, sormayı ardından bir sonuç gelebilen başlangıç olarak duyurur. Böylece önceki âyetin ihtimale açık yasağı, burada gerçekleşmiş bir geçmiş emsalin içinde yerini bulur.
+
+İstenen şeyin cümledeki konumu bu başlangıcı daha da belirginleştirir. {ar:سَأَلَهَا, tr:saʾalahā, gloss:onu istemek veya sormak} tek bir fiil-nesne birimi gibi çalışır; topluluk yalnızca bir konu hakkında konuşmaz, doğrudan istenen veya sorulan şeyin kendisine yönelir. Ardındaki {ar:ثُمَّ, tr:thumma, gloss:sonra} bu birimi sonuçtan önceye yerleştirir ve inkârın istemeyle eşzamanlı değil, onun ardından gelen bir gelişme olduğunu duyurur; aradaki sürenin uzunluğu ile dönüşümün tek sebebi cümlede açık tutulur. Fiilin içindeki doğrudan nesne eki, istenen şeyi sonraki ilişkinin merkezinde tutar. İlk {ar:هَا, tr:hā, gloss:onu} ile {ar:بِهَا, tr:bihā, gloss:onunla veya onun üzerinden} içindeki aynı dişil gönderim, adı açık kalan talep nesnesini isteme anından sonuç raporuna taşır. Fiilin içindeki hemze de desteklenen kıraat varyasyonlarında işitsel bir baskı noktası oluşturur; okur isteme fiilini belirgin bir vuruşla duyar ve bu ses etkisi fiil-nesne bağını aynı yerde tutar.
+
+İstemenin taşıyıcısı da sonuç cümlesinde değişmez. {ar:قَوْمٌۭ, tr:qawmun, gloss:bir topluluk} biçimce tekil bir topluluk adıyla başlar; {ar:أَصْبَحُوا۟, tr:aṣbaḥū, gloss:bir hale geldiler} içindeki çoğul çekim, aynı aktörü hâle girişin taşıyıcı üyelerine açar. Yeni bir fail ortaya çıkmadan istemeden sonuca uzanan ortak eyleyenlik böylece izlenebilir. Belirsiz {ar:قَوْمٌۭ, tr:qawmun, gloss:bir topluluk} adı faili özel bir isimle sınırlamaz; geçmiş emsal taşınabilir hâle gelir ve uyarının uygulama alanı her topluluğa aynı hükmü yükleyecek biçimde kapanmaz. {ar:قَوْمٌۭ, tr:qawmun, gloss:bir topluluk} ile {ar:مِّن قَبْلِكُمْ, tr:min qablikum, gloss:sizden önce} birleştiğinde muhataplardan önceki anonim topluluk formülü kurulur. Kelimenin bağlı olduğu anlam alanı, ayakta duran ve ortak bir gövde gibi sürdüren insan topluluğu imgesini de duyurur; bu imge fiziksel bir duruş sahnesi kurmadan ortak istemeyi ve ortak sonucu görünür kılar.
+
+Bu topluluk adı, 5:87, 5:89, 5:103 ve 5:104 çevresinde farklı sorumluluk ve sonuç karşılaşmalarına açık bir özne alanı kurar; 5:102'deki topluluk bu karşılaşmalardan tek biriyle sınırlandırılmaz. {ar:مِّن, tr:min, gloss:-den veya -dan} zaman içindeki kaynağı kurarken {ar:بِهَا, tr:bihā, gloss:onunla veya onun üzerinden} hâle girişteki araç veya sebep bağını taşır. Böylece iki edatın ayrı katkıları birlikte duyulur: biri önce oluşun kaynağını, diğeri sonucu bağlayan ilişkiyi kurar. {ar:مِّن قَبْلِكُمْ, tr:min qablikum, gloss:sizden önce} geçmişi soyut bir öncelik olmaktan çıkarıp muhatapların zamanına bağlar. {ar:قَبْلِكُمْ, tr:qablikum, gloss:sizden önce} yerel biçimiyle önce oluşu taşırken, kelimenin karşıda durma ve kabul alanı geçmiş örneği muhatabın önüne koyan bir yüzey basıncı açar. İçindeki {ar:كُمْ, tr:-kum, gloss:siz} eki üçüncü şahıs geçmişini ikinci şahıs muhatapların ölçüsüne bağlar. {ar:قَوْمٌۭ, tr:qawmun, gloss:bir topluluk} ile {ar:مِّن قَبْلِكُمْ, tr:min qablikum, gloss:sizden önce} arasındaki desteklenen nazal bağlanma da topluluk ile zaman kaynağını tek bir ses akışında birbirine ekler; okuyuş bu gramer görevlerini koruyarak ilerler.
+
+Zaman ifadesi, isteme ile sonuç arasındaki beklemeyi duyurur. {ar:مِّن قَبْلِكُمْ, tr:min qablikum, gloss:sizden önce} topluluğu geriye yerleştirir; {ar:ثُمَّ, tr:thumma, gloss:sonra} bu yerleştirmeden sonra sonuca geçiş için bir ara vuruş açar. Şeddeli sesi bu gecikmeye işitsel bir ağırlık verir. Ardından {ar:أَصْبَحُوا۟, tr:aṣbaḥū, gloss:bir hale geldiler} ilk sonuç fiili olarak topluluğun içine girdiği hâli gösterir. {ar:كَٰفِرِينَ, tr:kāfirīna, gloss:inkâr edenler} bu hâli dinî reddetme olarak adlandırır. {ar:أَصْبَحُوا۟, tr:aṣbaḥū, gloss:bir hale geldiler} kelimesinin geceden sonraki ilk ışık ve günün başlangıcına açılan anlam alanı, {ar:كَٰفِرِينَ, tr:kāfirīna, gloss:inkâr edenler} sözünün hakikati örtme ve reddetme yönüyle temas edince, bir açılma beklentisi ile inkâr hâli aynı sonuç dizisinde gerilim kazanır. Bu açıklayıcı görüntü, 5:102'nin fiil-yüklem ilişkisini koruyarak sonuç hâlinin ağırlığını artırır; burada kurulan görüntü gerçek bir sabah sahnesi değil, hâle giriş ile örtme arasındaki karşıtlıktır.
+
+Sonuç fiilinin biçimi ve sesi bu dönüşü daha da görünür kılar. {ar:أَصْبَحُوا۟, tr:aṣbaḥū, gloss:bir hale geldiler} içindeki çoğul işareti önceki {ar:قَوْمٌۭ, tr:qawmun, gloss:bir topluluk} öznesine döner; kelimenin ses dokusu da yüklem henüz gelmeden bir hâle varılacağını sezdirir. Bu hâle varma çizgisi, 5:89'daki söz sorumluluğu ve 5:101'deki açığa çıkma sahnesiyle yankı kurar; bu iki bağlam 5:102'nin kendi geçmiş emsalini çevreler. Aynı sonucu taşıyan {ar:بِهَا, tr:bihā, gloss:onunla veya onun üzerinden} önceki {ar:سَأَلَهَا, tr:saʾalahā, gloss:onu istemek veya sormak} içindeki nesneye geri döner. Bâ edatı burada bir yer bildiriminden çok araç veya sebep bağını açar; iki yön birlikte duyulur. Dişil gönderim ile bâ edatının tek yüzeyde birleşmesi, hem neye dönüldüğünü hem ilişkinin nasıl kurulduğunu sıkıştırır. {ar:بِهَا, tr:bihā, gloss:onunla veya onun üzerinden} kelimesinin hâle giriş ile son hüküm arasına yerleşmesi, mekanizmayı hükümden önce duyurur.
+
+Bu geri dönüş, son hükmün nasıl biriktiğini de açıklar. {ar:سَأَلَهَا, tr:saʾalahā, gloss:onu istemek veya sormak} ile {ar:بِهَا, tr:bihā, gloss:onunla veya onun üzerinden} arasındaki tekrar, istenen nesneyi sonuca giden etkin ilişkinin içinde tutar. Eril çoğul uyumu {ar:كَٰفِرِينَ, tr:kāfirīna, gloss:inkâr edenler} hükmünü {ar:بِهَا, tr:bihā, gloss:onunla veya onun üzerinden} zamirinden ayırıp {ar:أَصْبَحُوا۟, tr:aṣbaḥū, gloss:bir hale geldiler} ile süren topluluğa yükler; sonuç istenen nesneye değil insanlara aittir. Etkin ortaç oluşu, topluluğun sonradan içine girdiği ve sürdürdüğü hâli adlandırır. Aynı kelime reddetmenin yanında, açığa çıkan veya değeri sezilen şeyi tanımayı örten bir basınç da taşır. Cümle sonundaki ünsüz dokusu bu kapanışı ağırlaştırır; ses gözlemi burada yeni bir ses kuralı iddiası taşımaz. Topluluk hükmünün farklı sonuçlarla yankılanması (5:87, 5:103, 5:104), sonu bireysel bir etiketten çok ortak bir sonuç hâline getirir. {ar:قَبْلِكُمْ, tr:qablikum, gloss:sizden önce} içindeki ikinci şahıs zaman çapası ise muhatabı bu geçmiş sonucun karşısında tutar; tarihsel mesafe uyarının sorumluluk yönünü açık bırakır.
+
+## Nesnenin Açtığı Görüntüler
+
+İstenen nesne, aynı ayet içinde topluluğun sonradan girdiği inkâr hâlinin sınav ve odağı gibi de görünür. {ar:سَأَلَهَا, tr:saʾalahā, gloss:onu istemek veya sormak} taşıdığı isteme, {ar:بِهَا, tr:bihā, gloss:onunla veya onun üzerinden} içindeki geri dönen zamirle buluştuğunda talep edilen şey, sonucun yöneldiği temas noktası hâline gelir. {ar:أَصْبَحُوا۟, tr:aṣbaḥū, gloss:bir hale geldiler} bir duruma geçişi, {ar:ثُمَّ, tr:thumma, gloss:sonra} istemeden sonraya bırakır; inkâr böylece hazır bir etiket değil, ardından girilen hâl olarak belirir. {ar:كَٰفِرِينَ, tr:kāfirīna, gloss:inkâr edenler} dinî reddi taşırken {ar:بِهَا, tr:bihā, gloss:onunla veya onun üzerinden} son hükmü isteme nesnesine bağlar. Kelime yüzeyine bağlı bu okuma, talebi sonuçla birleştirir; zamirin nesnesi adı konmuş tek bir şeye kapatılmadan ihtimal olarak kalır.
+
+İsteme ile inkâr, aynı zincirde sosyal olarak yinelenebilir bir diziye de dönüşebilir. {ar:قَوْمٌۭ, tr:qawmun, gloss:bir topluluk} ortak insan topluluğunu, {ar:أَصْبَحُوا۟, tr:aṣbaḥū, gloss:bir hale geldiler} içindeki çoğul çekim isteme ile sonucun ortak taşıyıcılarını gösterir. {ar:مِّن, tr:min, gloss:-den veya -dan} tarafından yönetilen {ar:قَبْلِكُمْ, tr:qablikum, gloss:sizden önce} bu topluluğu mevcut muhatapların öncülü yapar. {ar:ثُمَّ, tr:thumma, gloss:sonra} gecikmeli ardışıklığı, {ar:أَصْبَحُوا۟, tr:aṣbaḥū, gloss:bir hale geldiler} ortak hâle geçişi, {ar:كَٰفِرِينَ, tr:kāfirīna, gloss:inkâr edenler} ise topluluğa yüklenen dinî reddi taşır. {ar:بِهَا, tr:bihā, gloss:onunla veya onun üzerinden} bu ortak reddi önceki nesneye bağlar. Böylece tekil tarih olayı, isteme ile inkârın ortak bir davranış yolunda katılaşabileceği bir emsale dönüşür; tarihsel kimlik, cinsiyet ve sonuç süresi bu ihtimalin dışında bırakılmadan açık kalır.
+
+İsteme fiilinin başka bir yüzeyi, aranan bir faydaya yönelişi sezdirir. {ar:سَأَلَهَا, tr:saʾalahā, gloss:onu istemek veya sormak} doğrudan {ar:هَا, tr:hā, gloss:onu} nesne ekiyle bir değere veya yarara ulaşma arayışını taşıyabilir. {ar:كَٰفِرِينَ, tr:kāfirīna, gloss:inkâr edenler} reddetme ve örtme yönüyle, {ar:بِهَا, tr:bihā, gloss:onunla veya onun üzerinden} üzerinden aynı nesnenin değerini tanımayı kapatan bir karşılıkla temas eder. Aranan fayda ile o faydayı tanımayı örten tavır arasındaki paradoks burada belirir. Bu bağlantı nesnenin nimet kimliğini ve sonucu nankörlük olarak kesinleştirmez; talebin fayda arayışı ile inkârın değeri örtme yönü ayrı bir keşif ihtimali olarak kalır.
+
+## Açıklığın Açılıp Kapanması
+
+Talep edilen açıklık, verildiğinde ilişkiyi ağırlaştırabilecek bir malzeme olarak 4:153 ve 2:108'deki iki ayrı talep-sonuç sahnesiyle görünür olur. 4:153'te gökten bir kitap ve Musa'dan daha büyüğünü isteme, açık delillerin ardından sapmayla karşılaşır; 2:108'de Musa'ya yöneltilen önceki soru, imanın inkâra çevrilebildiği bir sonuca bağlanır. Bu sahneler {ar:سَأَلَهَا, tr:saʾalahā, gloss:onu istemek veya sormak} içindeki doğrudan nesneye geri döndüğünde, istenen açıklık verildiğinde onunla kurulan ilişkinin de sınandığı anlaşılır. Böylece 5:102'deki kısa sıra, görünür hâle gelen şeyin sonraki karşılığa yük taşıyabildiğini duyurur.
+
+İstenen açıklık, kelimelerin birlikte kurduğu görüntüde önce görünürleşir, sonra tanınması örtülür. {ar:أَصْبَحُوا۟, tr:aṣbaḥū, gloss:bir hale geldiler} yerel olarak topluluğun bir hâle girdiğini bildirirken geceden sonraki ilk ışık ve günün başlangıcı alanını da duyurur. 17:59'da işaretlerin görünür kılınması ve eski toplulukların onlara haksızlık etmesi, 6:7'de elle dokunulan yazılı açıklığın bile sihir diye reddedilmesi bu açılma yönünü bağımsız biçimde tetikler. Bunun ardından {ar:كَٰفِرِينَ, tr:kāfirīna, gloss:inkâr edenler} yerel dinî reddetme anlamıyla birlikte bir şeyi örterek görünmez veya örtülü kılma görüntüsüne temas eder. 6:109'da işaret talebinin iman garantisi taşımaması ve 2:108'de istemenin inkârla sonuçlanabilmesi, görünür olanı kapatan hareketi geri çağırır. Bu bağlantıda {ar:أَصْبَحُوا۟, tr:aṣbaḥū, gloss:bir hale geldiler} sabah olayını, {ar:كَٰفِرِينَ, tr:kāfirīna, gloss:inkâr edenler} fiziksel örtüyü adlandırmaz; yerel hâle giriş ve dinî reddetme anlamları açıklık-kapanış gerilimini taşır. {ar:هَا, tr:hā, gloss:onu} zamiri de nesneyi adı konmadan bu hareket boyunca izletir.
+
+Soruyla aranan ayrımlar, insan eliyle kurulan ve miras alınan bir düzene dönüşebilir. {ar:سَأَلَهَا, tr:saʾalahā, gloss:onu istemek veya sormak} kelimesinin nesneye yönelen isteme kapasitesi 5:87'deki {ar:تُحَرِّمُ, tr:tuḥarrimu, gloss:yasaklamak} ile {ar:أَحَلَّ, tr:aḥalla, gloss:serbest bıraktı} karşılaşınca açılır: bir yön serbest bırakılmış olanı daraltır, diğer yön ilahî ruhsatın sınırını hatırlatır. {ar:قَوْمٌۭ, tr:qawmun, gloss:bir topluluk} biçiminin erkekler topluluğunu adlandıran temel kullanımı, odaktaki grubu ortak bir kural tavrının taşıyıcısı olarak görünür kılar. 5:103'te {ar:كَفَرُوا۟, tr:kafarū, gloss:inkâr ettiler} fiilinin {ar:يَفْتَرُونَ, tr:yafterūn, gloss:uyduruyorlar} ve {ar:ٱلْكَذِبَ, tr:al-kadhib, gloss:yalan} ile yan yana gelişi, {ar:كَٰفِرِينَ, tr:kāfirīna, gloss:inkâr edenler} sözünü uydurulmuş kategorileri koruyan dinî reddetme yönünde genişletir. 5:104'te {ar:حَسْبُنَا, tr:ḥasbunā, gloss:bize yeter} yeni indirilene yönelmek yerine elde bulunmuş olanı yeter sayar; {ar:ءَابَآءَنَآ, tr:ābāʾanā, gloss:atalarımız} bu yeterlilik iddiasını kuşaktan kuşağa taşıyan kanalı gösterir. Soruyla aranan ayrımlar böylece ilahî izin alanını örten ortak ve miras alınmış bir norma dönüşebilir. Bu bağ 5:87, 5:103 ve 5:104'ün açık ifadeleriyle sınırlı bir üretim ve miras bağlamı sağlar; 5:102'deki dönüşümün tek sebebini belirlemez.
+
+Sözün açtığı yükün karşısında onarım ve şükre uzanan bir yol da görünür. {ar:سَأَلَهَا, tr:saʾalahā, gloss:onu istemek veya sormak} 5:89'daki söz sorumluluğuyla buluşur: {ar:عَقَّدتُّمُ, tr:ʿaqqadtum, gloss:bağlayarak söz verdiniz} ve {ar:حَلَفْتُمْ, tr:ḥalaftum, gloss:yemin ettiniz} bağlayıcı sözü kurar, ardından {ar:كَفَّٰرَة, tr:kaffāra, gloss:günah yükünü gideren karşılık} yükü örten somut bir onarım getirir. Âyetin {ar:تَشْكُرُونَ, tr:tashkurūn, gloss:şükredersiniz} kapanışı bu onarımı nimeti tanımaya açar. 5:102'deki {ar:كَٰفِرِينَ, tr:kāfirīna, gloss:inkâr edenler} ise soruyla açılan şeyi açıklanan gerçeği reddederek kapatan yöne taşır. Böylece sonuç doğuran konuşma için biri yükü onarıp şükre, diğeri açılan şeyi örten inkâra uzanan iki yön görünür. 5:89'un kefaret ve onarım düzeni odak biçiminin anlamına aktarılmaz; bu temas, aynı söz ailesinin açtığı ölçülü karşılaştırma olarak istemeyi sonuç doğuran bir konuşma eylemi şeklinde derinleştirir.
+
+Soru, gizli olanı açıklığa çeken bir baskı gibi de çalışabilir. 5:99'da {ar:بَلَٰغُ, tr:balāgh, gloss:iletme} elçinin görevini iletmekle sınırlar; {ar:تُبْدُونَ, tr:tubdūna, gloss:açığa vurduklarınız} ve {ar:تَكْتُمُونَ, tr:taktumūna, gloss:gizledikleriniz} görünür olanla gizli kalan arasındaki eşiği kurar. 5:101'de {ar:تَسْـَٔلُ, tr:tasʾalu, gloss:sorarsınız} iki kez tekrarlanır; karşısında {ar:تُبْدَ, tr:tubdaʾ, gloss:görünür hale gelir} iki kez belirir ve {ar:تَسُؤْ, tr:tasuʾ, gloss:sizi üzer} açığa çıkan cevabın ağır karşılanabileceğini bildirir. Bu tekrar, odaktaki doğrudan nesneli {ar:سَأَلَهَا, tr:saʾalahā, gloss:onu istemek veya sormak} ile buluştuğunda soruyu gizli olanı görünür kılan bir harekete dönüştürür. {ar:سَأَلَهَا, tr:saʾalahā, gloss:onu istemek veya sormak} ve {ar:بِهَا, tr:bihā, gloss:onunla veya onun üzerinden} içindeki aynı dişil nesne, açığa çıkan şeyin ardından yönelinen temas noktası olarak kalır; {ar:كَٰفِرِينَ, tr:kāfirīna, gloss:inkâr edenler} zinciri dinî reddetmeyle kapatır. Bu bağlantı 5:99'un iletme-gizleme sınırı ile 5:101'in soru-görünürlük-sıkıntı sahnesine aittir; aynı bağlamın daha dar bir okuması yük getirici merak uyarısını da canlı tutar.
+
+Gizli olanın dışarı çekilme hareketi, daha maddi bir işlem olarak da belirir. 5:94'te {ar:يَبْلُوَنَّكُمُ, tr:yablūnakum, gloss:sizi sınar} bir temasın kişiyi ortaya çıkaran sınama yönünü, {ar:تَنَالُهُ, tr:tanāluhu, gloss:ona erişirsiniz} el ve mızrakların bir şeye erişilecek yere ulaşmasını, {ar:بِالْغَيْبِ, tr:bil-ghayb, gloss:görünmeyen alanda} ise başlangıçtaki gizli alanı taşır. Önce sınama kişiyi açığa çıkarır, sonra erişim gizli olanı ulaşılabilir kılar, ardından 5:101'deki {ar:تُبْدَ, tr:tubdaʾ, gloss:görünür hale gelir} tekrarları bu hareketi görünürlük eşiğine taşır. {ar:سَأَلَهَا, tr:saʾalahā, gloss:onu istemek veya sormak} kelimesinin desteklenen başka bir kullanım alanı, bağlı veya kapalı bulunduğu yerden bir nesneyi çekerek ayırıp çıkarmayı düşündürür. Soru bu yüzden gizli olanı dışarı alan bir basınç gibi hissedilebilir; açığa çıkan şey de {ar:كَٰفِرِينَ, tr:kāfirīna, gloss:inkâr edenler} içindeki örtme görüntüsüyle yeniden kapatılabilir. Bu maddi görüntünün kaynağı ve sınırı 5:94'ün sınama, erişme ve görünmeyen alan sahnesi ile 5:101'in iki açığa çıkma örneğidir. Çekip çıkarma, 5:102'nin topluluk-soru-inkâr cümlesine eşlik eden bir benzetmedir; {ar:سَأَلَهَا, tr:saʾalahā, gloss:onu istemek veya sormak} kelimesinin tek harfî anlamına dönüşmez.
+
+Topluluk için bir yön ve ortak duruş görüntüsü de eklenebilir. Fâtiha 1:6'daki {ar:مُسْتَقِيمَ, tr:müstakîm, gloss:dosdoğru} kelimesi, odaktaki {ar:قَوْمٌۭ, tr:qawmun, gloss:bir topluluk} için yönü ve ortak duruşu bulunan bir insan gövdesi fikrini açar. Aynı kelime ailesinin bu ayrı kullanımı, topluluğun inkârını yalnızca bir cevabı reddetme değil, doğru çizgiden ortakça sapabilen bir dönüş olarak renklendirir. Bu bağlantının kaynağı yalnızca Fâtiha 1:6'daki dosdoğru yol ifadesi ile {ar:قَوْمٌۭ, tr:qawmun, gloss:bir topluluk} arasındaki kelime ailesi ilişkisidir; görüntü Fâtiha'nın diğer ayetlerine yayılmaz. Topluluk anlamı yerinde kalırken düz-çizgide-durma görüntüsü, 1:6'nın yüzeyine bağlı ayrı bir ihtimal olarak canlı kalır.
+
+## Cevabın Ardından
+
+Cevap verilmiş talep, suçlama noktası olarak değil, sonraki karşılığın sorumluluğunu görünür kılan bir eşik olarak belirir. 5:101'de sorulan şeyin açığa çıkıp ağırlaşabilmesi, 5:103'te insanların uydurduğu ayrımların korunması ve 5:104'te gelen düzeltme yerine atalara dayanılması, istenen açıklığın farklı karşılanışlarını gösterir. Buna karşılık 20:36'da Musa'nın isteği verilir ve 25:16'da istenen şey bir vaat içinde yer alır; 2:108 ve 4:153'te istemenin ardından inkâr veya sapma gelebilir. Bu karşıt yönler, {ar:سَأَلَهَا, tr:saʾalahā, gloss:onu istemek veya sormak} fiilini boş bir meraktan daha geniş bir isteme ilişkisi olarak duyurur. Ağırlık istemenin kendisinden çok, istenen şey verildikten sonra verilen ikinci cevaba geçer; zamirin nesnesi belirli bir kitap, sofra veya başka bir şeyle sabitlenmeden cevapla karşılaşıldığında doğan yükümlülüğü taşır.
+
+Bu cevap taşıyan ilişki hemen sonraki sofra anlatısında somut bir sıra kazanır. Başlangıçta {ar:سَأَلَهَا, tr:saʾalahā, gloss:onu istemek veya sormak} bir muhataptan bir şeyi isteme hareketidir; 5:112'de topluluğun gökten bir sofra istemesi bu hareketin maddi karşılığını verir. 5:113'te yeme, kalplerin yatışması, doğruluğun bilinmesi ve tanıklık etme amaçları art arda sıralanır. Böylece istenen nesne yalnızca fayda sağlayan bir şey olarak değil, güveni yatıştıran, doğrulamayı mümkün kılan ve tanıklığa dayanak olan bir işaret olarak görünür. 5:114'te sofra için gökten inme ve rızık dileği, istemeyi işaret arayışından teslim alınan cevaba taşır; dua, odaktaki isteme ile veriliş arasındaki dönüşü kurar. Aynı sahnedeki sofra, odaktaki belirsiz nesne ilişkisine yiyecek taşıyan somut bir görünüm kazandırır ve cevabın neden yeni bir sorumluluk doğurabildiğini görünür kılar.
+
+Verilişten sonra gelen uyarı, bu dizinin yönünü değiştirir. 5:115'te inkâr ihtimalinin açıkça bildirilmesi, odaktaki {ar:كَٰفِرِينَ, tr:kāfirīna, gloss:inkâr edenler} sözünün cevaptan sonra gelen somut bir karşılıkla temasını tamamlar. İstekten amaca, duadan inişe ve rızıktan verilişe uzanan sıra, cevabın ardından yükün neden ağırlaştığını adım adım gösterir. 5:112, 5:113, 5:114 ve 5:115 arasındaki sahne odaktaki zamirin doğrudan sofra olduğunu çözmez; bu bağlantı, nesnenin kimliğini belirlemekten çok talebin verilmiş bir cevapla karşılaşınca nasıl sorumluluk ürettiğini açıklar. Böylece odaktaki geçmiş topluluk uyarısının mekanizması, sonraki dört ayetin isteme-işaret-güvence-veriliş-inkâr hareketinde somut bir karşılık bulur.
+
+İsteme, cevabın içeriği kadar açıklamanın zamanına da bağlanabilir. {ar:سَأَلَهَا, tr:saʾalahā, gloss:onu istemek veya sormak} içindeki sorma eylemi, 18:70'te açıklama gelene kadar soru sormamayı isteyen ve 18:76'da tekrar sorunun yol arkadaşlığını sona erdirdiğini gösteren anlatı yüzeyleriyle buluşur. 18:70'te beklemek açıklamanın sırasını korur; 18:76'da aynı soru düzeninin tekrarı ilişkiyi değiştirir. Bu iki sonuç, 5:102'deki istemeyi cevaptan kopuk bir merak olmaktan çıkarıp açıklığın ne zaman verileceğiyle birlikte işleyen bir eylem olarak duyurur. Sormak burada cevabı zorlayan bir hızdan çok, açıklığın zamanına bağlı bir hareket olarak görünür; 18:70 ve 18:76'nın sahnesi 5:102'nin tarihsel uyarısını doğrudan açıklamadan bu sırayı aydınlatır.
+
+Aynı {ar:سَأَلَهَا, tr:saʾalahā, gloss:onu istemek veya sormak} eylemi 75:6'da hesap gününün ne zaman olduğunu soran kişinin sorusuyla başka bir yöne açılır. Adını verdiği hesapla karşılaşmayı hazırlayan soru, hükmün zamanını öne sürerek onunla yüzleşmeyi geciktiren bir tavra dönüşebilir. Sorma böylece bilgi arayışının yanında hükümle temasın zamanını erteleme biçimini de görünür kılar. Bu bağlantı her soruyu kaçış olarak yorumlamaz ve odaktaki {ar:قَوْمٌۭ, tr:qawmun, gloss:bir topluluk} topluluğu 75:6'daki kişiyle özdeşleştirmez; 75:6'nın katkısı soru ile hüküm arasındaki ilişkinin erteleme yönünü açmakla sınırlıdır.
+
+Bunun karşısında 93:10'da soru soranı azarlamama buyruğu, {ar:سَأَلَهَا, tr:saʾalahā, gloss:onu istemek veya sormak} eyleminin korunmuş bir muhataplık alanına da açılabildiğini gösterir. Soruyu karşılayan cevap soranı koruyabilir; bu temas 5:102'deki uyarıyı sormanın kendisine değil, önceki topluluğun sormadan sonra girdiği {ar:كَٰفِرِينَ, tr:kāfirīna, gloss:inkâr edenler} hâline bağlar. Soru açıklığa, beklemeye, gecikmeye veya korunmuş bir karşılaşmaya açılabilen bir eylem olarak kalırken 5:102'nin geçmiş emsali, o eylemden sonra girilen inkâr hâlini görünür kılar.
+
+</editorial_prose>

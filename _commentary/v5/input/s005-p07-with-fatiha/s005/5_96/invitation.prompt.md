@@ -1,0 +1,197 @@
+# V5 reading invitation — 5:96
+
+You are a fresh reading-invitation writer. Read the complete editorial prose
+before writing. It is your sole semantic source.
+
+Write two to four paragraphs of fluent, contemporary Turkish that reveal a
+surprising reading by following one or two main channels of resonance in the
+ayah. A channel is a connected background of meanings, images, actions, or
+relations through which the ayah can be heard and understood differently.
+Several editorial findings may together develop one channel. Summarize that
+connected movement and its consequence for the ayah's main meaning, rather
+than compressing findings individually. Give the reading's substance now;
+the invitation comes from understanding it, not from a promise of hidden depth.
+
+Before drafting, read the entire editorial prose and silently select the one
+or two channels with the strongest interpretive consequence and enough
+grounding to explain clearly. Favor channels that expand or shift what the
+ayah says, the relation it establishes, or what is at stake in its action or
+image. One fully developed channel is sufficient; add a second only when it
+offers a distinct consequential reading that can be explained within the
+invitation. No finding, channel, or major shift has an individual coverage
+claim. Unselected material may remain entirely in the full commentary.
+
+A channel may develop through grammar, sound, dialogue, a material process,
+time, imagery, or a conceptual relation. Resonance is not limited to acoustic
+effects, and an unusual image alone does not establish a channel. Use only
+connections the editorial prose actually develops. If it supplies no such
+channel, explain its strongest grounded reading without inventing connections
+or surprise.
+
+Begin inside the ayah's own words, images, actions, or relations and reveal a
+selected distinctive reading in the first paragraph. Keep the plain meaning
+reachable with only the orientation needed to understand the change. Do not
+spend an opening paragraph on routine explanation or front-load context about
+the surah, the ayah's position, or the commentary project.
+
+For each selected channel, begin with the expression that opens it, unfold the
+connected background, and show how the ayah reads or sounds against that
+background. Let a detail lead into the next through an intelligible relation
+or process, so the reader experiences the emerging reading. This is a movement
+of thought, not a mandatory sentence pattern or one paragraph per finding.
+Let the reader identify the expression being interpreted,
+where any nonordinary detail comes from, and what that detail changes in the
+reading. Briefly identify the word-family use, restricted form, collocation, or
+context that supplies an essential added detail, and preserve the concrete
+operation that makes the image work. Keep the ordinary reading and necessary
+qualification clear within this explanation; do not repeat them as a fixed
+formula. Preserve the particular object, process, or relation that makes this
+reading distinctive, and state its interpretive consequence for the ayah as a
+whole. Make intelligible what the familiar reading leaves less visible and
+what the expanded or shifted reading now lets the reader understand. Preserve
+the editorial's force: an exploratory possibility remains possible, while a
+developed shift must not be softened into a decorative association or a
+reassurance that everything means the same thing. A concrete
+account of how something is carried, transformed, lost, or restored must not
+shrink to a general statement about care, guidance, dependence, or goodness.
+Keep the details needed to make the selected channel work; omit side findings
+and shorten routine setup. If a channel cannot be explained faithfully from
+the editorial prose, choose another grounded channel or reading.
+
+When a non-focus ayah supplies a contribution used in the invitation, keep its
+reference from the editorial prose beside that contribution.
+
+Do not turn the invitation into a miniature inventory of the commentary's
+conclusions, or flatten distinct channels into a broad theme to include more
+material. Do not repair, extend, or supplement the editorial prose from memory
+or outside knowledge.
+
+Omit technical apparatus. Retain any qualification, source distinction, live
+alternative, or boundary whose absence would change the force or meaning of a
+chosen reading. Express it naturally beside the image or relation it qualifies.
+Favor positive explanations of the relation between layers: what remains in
+the foreground and what the resonance makes audible in the background. State
+how that background reinforces, expands, or shifts the understanding of the
+main meaning, with the source and degree of certainty clear. Reserve explicit
+exclusions for concrete ambiguities or live counter-evidence that need them.
+Repeated "this is not X" endings make a reading sound withdrawn; express the
+substantive qualification through what the reading does contribute wherever
+possible. Use varied, natural language rather than a repeated "second layer"
+formula, and preserve the force of expansions and shifts.
+Do not name branches, candidates, findings, scopes, evidence categories,
+ledgers, or workflow stages, or label the prose as numbered channels. Do not
+list findings serially.
+
+Use the established `{ar:..., tr:..., gloss:...}` syntax, consistent
+Turkish-readable transliteration, and short ordinary glosses. Keep Arabic
+anchors beside the explanations they ground. Within a paragraph, continue with
+the Turkish meaning where clear; provide the necessary local tag when a later
+paragraph interprets the carrier anew. Do not place Arabic script outside a
+valid tag.
+
+Build transitions within a channel through its shared object, action, or
+relation. If two channels are selected, they may occupy separate paragraphs;
+do not invent a link between them. Do not praise the commentary's quality,
+promise what the reader will find, manufacture suspense, recap at the end, or
+add a call to action. End on an image, relation, action, or tension already
+established by the selected reading.
+
+Before finishing, compare the invitation with the entire editorial prose:
+does the chosen channel reveal a consequential reading, or could the text have
+been written from the ordinary translation and a modest explanation alone?
+When the editorial supports a surprising channel, the latter fails this task.
+Can the reader follow the opening expression into a connected background and
+understand how that background expands or shifts the ayah's main meaning?
+Check the selected connections against their editorial explanation: can the
+reader tell where the nonordinary details come from, with the necessary
+qualifications intact? Repair generic explanation, isolated curiosities, or a
+compressed findings list by developing the selected channel. Do not add
+omitted channels merely for coverage. Do not output this check.
+
+Write only the invitation text to:
+
+`_commentary/v5/editorial/s005-p07-with-fatiha/s005/5_96/5_96.invitation.tr.md`
+
+Do not add a heading, wrapper label, index, ledger, evidence file, or any other
+artifact. Do not modify the editorial prose.
+
+After writing the invitation, run:
+
+```bash
+python3 _commentary/v5/validate_prose.py _commentary/v5/editorial/s005-p07-with-fatiha/s005/5_96/5_96.invitation.tr.md
+```
+
+If validation fails, repair only the reported mechanical file-contract issues
+and rerun it, for at most two repair cycles. Report the final validator result
+in your response.
+
+<editorial_prose>
+Bu ayet, ihramlı muhataplara deniz avını ve onun yiyeceğini helal kılar; bu imkânı hem doğrudan muhataplara hem de yolcu topluluğuna yarar olarak açarken, kara avını ihramlı kalınan süre boyunca haram tutar. Sonra sakınmaya çağırır ve herkesin Allah'a doğru toplanacağını bildirir. Böylece aynı cümle, deniz ve kara alanlarını, yararlanma ve yükümlülük yönlerini, açık bırakılan kaynak ile korunan alanı birbirinden ayırır.
+
+Başlangıçtaki {ar:أُحِلَّ, tr:uḥilla, gloss:helal kılındı}, hükmün dikkatini bir failin eyleminden çok açılan imkâna yöneltir. Bu edilgenlik, doğrudan bir izin alanı kurar. Kaydedilen okuma ve yazım varyantları da bu temel açılmayı korurken ses akışını değiştirir. {ar:صَيْدُ الْبَحْرِ, tr:ṣaydu l-baḥri, gloss:deniz avı} içindeki av tamlaması, hemen ardından gelen {ar:حُرِّمَ, tr:ḥurrima, gloss:haram kılındı} ile birlikte okunduğunda, bir yerde çözülüp başka bir yerde sıkılan hukuki düğüm görüntüsünü taşır; burada korunan şey, izin statüsünün nasıl kurulduğudur.
+
+Tekrar edilen {ar:صَيْدُ, tr:ṣayd, gloss:av}, iki farklı alanda aynı takip ve yakalama eylemini birbirine bağlar. {ar:الْبَحْرِ, tr:al-baḥr, gloss:deniz} belirli ve geniş su kaynağını, {ar:الْبَرِّ, tr:al-barr, gloss:kara} ise karşıdaki fiziksel kara alanını adlandırır. Bu ses ve kök yakınlığı, eylemi ortak tutarak hükmün alan değişiminde statü değiştirdiğini gösterir. Kara adı bu bağlantıda ahlaki iyilikten önce açık araziyi taşır; iyilik ve doğruluk yankısı daha sonraki çağrışım katmanında belirir.
+
+İkinci edilgen özne olan {ar:وَ, tr:wa, gloss:ve} {ar:طَعَامُهُۥ, tr:ṭaʿāmuhu, gloss:onun yiyeceği}, deniz kaynağının yalnızca yakalanan nesne olarak değil, yenilebilir ve sürdürücü bir destek olarak da katkı verdiğini gösterir. Zamirin avın kaynağına dönüşü ve varyantlardaki bitişiklik, bu yiyecek alanının denizle bağını korur. Uzun sesler, avdan yiyeceğe geçişi yumuşatır; ardından gelen {ar:مَتَاعًا, tr:matāʿan, gloss:yarar} ise yararı elde tutulur bir geçim ve kullanım desteği olarak somutlaştırır. Bu kelime burada mülkiyet devrinden çok yararlanılabilirliği taşır; bağlantı yeme ve besin çekirdeğinde kalır, beslemekten konuşmaya ya da başka bir destek dalına genişlemez.
+
+Bu diziliş, yararı iki ayrı alıcıya ulaştıran bir dağıtım düzeni kurar. İlk {ar:لَكُمْ, tr:lakum, gloss:sizin için} doğrudan muhatapları, ikinci lâm ise {ar:لِ, tr:li, gloss:için} {ar:لِلسَّيَّارَةِ, tr:li-s-sayyāra, gloss:yolcular için} hareket hâlindeki yolcu topluluğunu gösterir. {ar:السَّيَّارَةِ, tr:as-sayyāra, gloss:yolcu topluluğu} içindeki topluluk anlamı, yol ve kervan görüntüsünü öne çıkarır; {ar:مَتَاعًا, tr:matāʿan, gloss:yarar} ile birlikte bu görüntü taşınabilir bir ihtiyaç desteğine dönüşür. İki grup ortak bir yararı paylaşır, fakat ayrı alıcı konumlarını korur; lâmın yöneltmesi erişimi bildirir, mülkiyet devrini değil.
+
+Karşıtlık bağlacı olan {ar:وَ, tr:wa, gloss:ve}, açılmış deniz tarafının karşısına yeni bir statü koyar. {ar:أُحِلَّ, tr:uḥilla, gloss:helal kılındı} ile {ar:حُرِّمَ, tr:ḥurrima, gloss:haram kılındı} arasındaki edilgen ve yoğunlaştırılmış biçim, iki hükmü de aynı ilahi düzenleme düzleminde gösterir; {ar:عَلَيْكُمْ, tr:ʿalaykum, gloss:sizin üzerinize} ise yükümlülüğü baştaki yarardan yararlanan aynı muhatapların üzerine yerleştirir. Böylece ses akışı, açılmadan kapanmaya döner ve yararlanma ile sorumluluğu tek muhatap üzerinde birleştirir.
+
+Tekrarlanan yapı {ar:صَيْدُ الْبَرِّ, tr:ṣaydu l-barri, gloss:kara avı}, aynı av eyleminin alanla birlikte koruma statüsü kazandığını gösterir. Denizde açılan kaynak görüntüsünün karşısında kara, ihram süresince gözetilen ve sınırı belirlenen fiziksel alan olarak belirir. Sert kapanan sesler bu koruma çizgisini duyurur; bu bağlantıda al-barrın taşıdığı ana anlam arazi ve av yasağıdır, iyi ve doğru anlamı ise daha sonraki yakın çağrışımda açılır.
+
+Koşul kuruluşu olan {ar:مَا, tr:mā, gloss:sürece} {ar:دُمْتُمْ, tr:dumtum, gloss:kaldınız} {ar:حُرُمًا, tr:ḥuruman, gloss:ihramlılar}, yasağın çalışma süresini ihram hâlinin devamına bağlar. {ar:مَا, tr:mā, gloss:sürece} burada zaman koşulunu kurar; soru veya olumsuzluk yönündeki kaydedilmiş imkânlar, bu yerel cümlede seçilen süre işlevinin önüne geçmez. {ar:دُمْتُمْ, tr:dumtum, gloss:kaldınız} yalın fiil biçimiyle devamlılığı, {ar:حُرُمًا, tr:ḥuruman, gloss:ihramlılar} ise çoğul ve ritüel statüde bulunan kişileri taşır. Bu bağlantı {ar:حُرُمًا, tr:ḥuruman, gloss:ihramlılar}yı soyut bir kutsal alan adı olarak değil, süreyle sınırlı bir kişi hâli olarak okur; başka kutsallık dalları bu yerel hükme eklenmez.
+
+Emir bağlacı olan {ar:وَ, tr:wa, gloss:ve}, bu süresi belirlenmiş sınırı davranışsal bir karşılığa bağlar. {ar:ٱتَّقُوا۟, tr:ittaqū, gloss:sakının}, ilahi sınır karşısında sakınarak ve kendini koruyarak hareket etmeyi emreder; {ar:ٱللَّهَ, tr:Allāha, gloss:Allah} doğrudan nesne olarak bu korunmanın yönünü belirler. Buradaki hareket fiziksel topallık ya da ölçü anlamına değil, hüküm karşısında bilinçli özdenetime aittir.
+
+Emirdeki {ar:ٱللَّهَ, tr:Allāha, gloss:Allah} ve onu açıklayan {ar:ٱلَّذِىٓ, tr:alladhī, gloss:o ki}, yükümlülüğün hedefini ve bu hedefin fiilleriyle tanınmasını birlikte kurar. Özel ad benzersiz ilahi odağı, ilgi cümlesi ise daha önce anılan toplanma ve hüküm bağlamını taşıyan faili belirtir. Böylece hedef, eylemden sonra eklenen genel bir ad olarak değil, hükmü veren ve karşılığında toplama yetkisine sahip olan olarak belirir.
+
+Son geçişteki {ar:إِلَيْهِ, tr:ilayhi, gloss:Ona}, yönelişin hedefini öne alır; edilgen çoğul {ar:تُحْشَرُونَ, tr:tuḥsharūn, gloss:toplanacaksınız} ise dağınık muhatapların bir hedefe doğru zorunlu biçimde toplanmasını bildirir. Yolcunun dışa doğru hareketi burada tersine çevrilerek ilahi merkeze yönelir; kapanış sesi hesap ve karşılaşma ufkunu açar. Bu cümle, fiili genel bir ceza adı olarak değil, hedefi belirli bir toplama ve hesap karşılaşması olarak kullanır.
+
+## Birlikte kurulan yerel görüntüler
+
+İlk yerel görüntü, izin, yasak ve süreyi aynı hukuki harita üzerinde buluşturur. {ar:أُحِلَّ, tr:uḥilla, gloss:helal kılındı} deniz tarafında bir düğümü açar; {ar:حُرِّمَ, tr:ḥurrima, gloss:haram kılındı} kara tarafında onu sıkılaştırır; tekrar edilen {ar:صَيْدُ, tr:ṣayd, gloss:av} aynı av eylemini iki alanda taşır; {ar:حُرُمًا, tr:ḥuruman, gloss:ihramlılar} ve {ar:دُمْتُمْ, tr:dumtum, gloss:kaldınız} ise bu ayrımı ihramlı kişinin devam eden hâline bağlar. Bu ihtiyatlı yankı, kaynak alanı ile korunan alanı, açık izin ile süreli yükümlülüğü aynı anda görünür tutar.
+
+İkinci görüntü, denizi geniş ve üretken bir kaynak, {ar:طَعَامُهُۥ, tr:ṭaʿāmuhu, gloss:onun yiyeceği} ile bu kaynaktan çıkan yiyeceği, {ar:مَتَاعًا, tr:matāʿan, gloss:yarar} ile de elde tutulur desteği olarak düzenler. İlk {ar:لَكُمْ, tr:lakum, gloss:sizin için} doğrudan muhatapların, {ar:لِلسَّيَّارَةِ, tr:li-s-sayyāra, gloss:yolcular için} ise hareket hâlindeki yolcuların bu destekten pay aldığını gösterir. Bu, daha düşük kesinlikle taşınan fakat nitelikli bir yakınlıktır: deniz yiyeceği, yolcunun hareketini sürdüren taşınabilir bir ihtiyaç devresini düşündürür; bu bağlantı mülkiyet ya da başka bir rızık dalı kurmaz.
+
+Üçüncü görüntü, güzergâhı hareket ile hedef arasındaki dönüş üzerinden kurar. {ar:السَّيَّارَةِ, tr:as-sayyāra, gloss:yolcu topluluğu} dışa doğru ilerleyen topluluğu, {ar:ٱتَّقُوا۟, tr:ittaqū, gloss:sakının} sınırın yanında koruyucu mesafeyi, {ar:إِلَيْهِ, tr:ilayhi, gloss:Ona} ve {ar:تُحْشَرُونَ, tr:tuḥsharūn, gloss:toplanacaksınız} ise sonunda tek bir ilahi hedefe doğru toplanmayı taşır. Bu güzergâh, deniz ve kara anlamlarını ortadan kaldırmadan onları kaynak, sınır ve dönüş sırasına yerleştirir.
+
+## Yakın çevrede ölçü
+
+Bu yakın bağlam, verilen izni iki uçtan koruyan ölçüyü görünür kılar (5:87). İzin verilen iyi ve yararlı rızk, kişinin kendine yasak koyması ile sınırı aşan davranışın arasında yer alır. 5:96'daki {ar:أُحِلَّ, tr:uḥilla, gloss:helal kılındı} ve {ar:حُرِّمَ, tr:ḥurrima, gloss:haram kılındı} da benzer biçimde yararlanma ile korunmayı ayırır; {ar:حُرُمًا, tr:ḥuruman, gloss:ihramlılar} açılan imkânın ihram süresindeki özel kapsamını belirler. Bu temas bütün kısıtların kaldırılmasını değil, bu ayetteki deniz ve kara hükmünün ölçülü kapsamını taşır.
+
+Bu atfedilmiş bağlam, kara avı yasağını fırsat ve özdenetim karşısında görünür kılar (5:94, 5:95). 5:94'te avın ellere ve mızraklara erişmesi, görünmeyen veya gizli fırsatın somut biçimini verir; korku ve sakınma ise kişinin bu erişim karşısındaki fail oluşunu belirler. 5:95'te kasıtlı av ile kazara av arasındaki ayrım, aynı kara eyleminin niyete göre farklı karşılıklar doğurduğunu gösterir. Böylece 5:96'da denizden alınan yiyeceğin açıklığı, karada bilinçle geri durma yükümlülüğüyle yan yana okunur.
+
+Bu sınırlı ve atfedilmiş bağlam, telafiyi av eyleminin maddi ve kişisel karşılıklarını düzenleyen bir devre olarak gösterir (5:95). Denk bir değer, korunan merkeze ulaşan bir sunu, yoksulu doyurma ve kişinin bedensel olarak sonuçla yüzleşmesi aynı orantılılık çizgisinde birleşir. Bu görüntü {ar:مَتَاعًا, tr:matāʿan, gloss:yarar} ile yiyecek anlamını birbirine yaklaştırır: yararın miktarı ve biçimi rastgele değil, ölçülü bir karşılıkla ilişkilidir. Bu bağlantı deniz yiyeceğini ceza statüsüne sokmaz ve her rızkı telafi saymaz; telafi, 5:95'teki kasıtlı kara avının belirli karşılığı olarak kalır.
+
+Bu nitelikli bağlam, deniz-kara ayrımını hac kurumlarının kamusal destek düzeniyle çevreler (5:97). Ev, insanların dayanacağı merkez olarak; kamusal destek, kutsal zaman, sunu ve görünür işaretler ise bu merkezin toplumsal ve ritüel altyapısı olarak belirir. 5:96'daki yolcu topluluğu ve taşınabilir yarar, böylece yalnız bireysel tüketimi değil, yol üzerinde sürdürülen ortak desteği de çağrıştırır. Bu bağlantı 5:96'ya hac kurumlarının bütün ayrıntılarını yüklemeden, iznin kamusal-ritüel bir düzen içinde iş gördüğünü gösterir.
+
+## Yetki ve devamlılık
+
+Bu karşılaştırma, izin veren ilahi yetki ile insanın sonradan ürettiği tabu arasındaki ayrımı görünür kılar (5:103). {ar:بَحِيرَة, tr:baḥīra, gloss:işaretli hayvan} insan eliyle işaretlenmiş bir hayvan sınıfını, {ar:ٱلْبَحْرِ, tr:al-baḥr, gloss:deniz} ise su alanını adlandırır; kök yakınlığı bu iki yüzeyi yan yana getirirken, başka bir hayvan sınıfı üreme ve koruma amacıyla ayrıştırılmış bir pratiği taşır. {ar:يَفْتَرُونَ, tr:yaftarūn, gloss:uyduruyorlar}, bu insan üretimi yetkilendirmenin uydurma niteliğini açığa çıkarır. Bu bağlantı deniz adını hayvan sınıfına dönüştürmez ve her geleneği geçersiz ilan etmez; ilahi izin ile insan tabusunun farklı kaynaklarını ayırır.
+
+Bu temas, yolculukta taşınan maddi destek ile hukuki devamlılığı aynı taşınabilir düzenek üzerinde gösterir (5:106). Yolculuk, şahitlik ve vasiyetin korunması, yolcunun yalnız yiyeceğe değil, söz ve emanet düzenine de ihtiyaç duyduğunu açar; eklenen yükümlülükler bu desteği hukuki bir çerçeveye yerleştirir. Bu keşifsel bağlantı, 5:106'nın vasiyet usulü ya da miras hukukunu 5:96'ya eklemez; yolcuya açılan yararın devamlılık ve güvence boyutunu taşır.
+
+## Dönüş ve sorumluluk
+
+Bu iki bağlam, dağınık insan hareketinin ilahi hedef önünde yeniden toplanması ve sorgulanması görüntüsünü güçlendirir (5:105, 5:109). 5:105'te dönüş, ayrılmış insanların yeniden bir araya gelmesini ve yapılanların bildirilmesini taşır; 5:109'da toplanma, elçilerin sorguya çekileceği bir hesap sahnesine geçer. 5:96'nın {ar:تُحْشَرُونَ, tr:tuḥsharūn, gloss:toplanacaksınız} fiili bu iki hareketi tek bir hedefe bağlar. Bu bağ, odak fiiline tek başına bildirim, sorgulama veya bütünüyle âhiret öğretisi yüklemeden, hesap ufkunu belirginleştirir.
+
+Bu orta düzeydeki bağlamsal paralel, {ar:مَا دُمْتُمْ, tr:mā dumtum, gloss:kaldığınız sürece} kuruluşundaki süre fikrini hazır bulunma ve gözlem sınırıyla buluşturur (5:117). 5:117'de süre, İsa'nın insanlar arasındaki varlığı ve gözetimiyle ölçülür; hayatın sona ermesiyle bu gözetim konumu kapanır. 5:96'da ise aynı süre mantığı ihram statüsünün devamına bağlanır. Paralel, ihramı hazır bulunmayla özdeşleştirmeden, statülerin belirli bir zaman aralığında geçerli olması fikrini taşır; ölüm sahnesi bu ayete aktarılmaz.
+
+## Fâtiha ile açılan çağrışımlar
+
+Bu yakın çağrışım, deniz kaynağını Allah'ın bütün âlemlere yayılan rabliğinin küçük ve somut bir rızık işareti olarak gösterir (1:2). {ar:طَعَامُهُۥ, tr:ṭaʿāmuhu, gloss:onun yiyeceği} hayatı sürdüren yiyeceği, {ar:مَتَاعًا, tr:matāʿan, gloss:yarar} ise bu desteğin elde tutulur yararını taşır; geniş rubûbiyet ufku, 5:96'nın belirli izin ve yasak alanına kaynaklık eden bir zemin sağlar. Bu bağlantı yeni bir hukuk hükmü üretmez ve her yiyeceği kendiliğinden helal saymaz; yerel deniz, kara ve ihram sınırları korunur.
+
+Bu eşleşme, 5:96'nın sonundaki toplanmayı Fâtiha'nın hesap ve karşılık günü ufkuna yerleştirir (1:4). {ar:تُحْشَرُونَ, tr:tuḥsharūn, gloss:toplanacaksınız} geleceğe dönük toplama hareketini, {ar:ٱتَّقُوا۟, tr:ittaqū, gloss:sakının} ise o karşılaşmaya şimdiden verilen sakınma cevabını taşır. Buradaki ilişki, ayetin izin ve yasak içeriğini eritmeden sorumluluk ufkunu açar; içerik genel bir hesap öğretisine dönüşmez.
+
+Bu çağrışım, sakınma emrini Allah'a kulluk ve O'ndan yardım isteme ilişkisine bağlar (1:5). {ar:ٱتَّقُوا۟, tr:ittaqū, gloss:sakının} böylece yalnız hukuki sınırda geri durma değil, ibadet edilen ve yardımına yönelinen Allah karşısında sorumluluk alma yönü kazanır. Bu bağlantı ayeti bir dua cümlesine çevirmeden, hükme uymanın kulluk ilişkisi içindeki yönünü belirginleştirir.
+
+Bu iki ayetle kurulan ses ve anlam yakınlığı, doğru yola yönelen hareket görüntüsünü açar (1:6, 1:7). {ar:الْبَرِّ, tr:al-barr, gloss:kara} fiziksel kara alanını taşırken iyilik ve doğruluk yankısını, {ar:السَّيَّارَةِ, tr:as-sayyāra, gloss:yolcu topluluğu} ise yön arayan ve ilerleyen topluluğu taşır; ikisi birlikte izin, sınır ve hedef arasında yön duygusu kurar. Bu bağlantı kara alanını doğrudan sıratla, yolcu topluluğunu da belirli gruplarla özdeşleştirmez; yalnızca hareketin bir istikamete bağlanmasını görünür kılar.
+
+## Rızkın sorumluluğu
+
+Bu uzak ve keşifsel karşılaşma, denizden gelen yiyeceği taşınan ve sunulan rızık görüntüleriyle Allah önündeki sorumluluğa bağlar (5:112, 5:113, 5:114). 5:112'de havarilerin gökten bir sofra istemesi, yiyeceğin taşınan bir güvence olarak tasarlanmasını sağlar; 5:113'te istek, kalbin yatışması, doğrulama ve tanıklıkla birlikte ilerler; 5:114'te sofra hem bayram ve işaret hem de verilen rızık olarak sunulur. Bu dizilim, sıradan yiyecek ile talep edilen kanıt ve güvenceyi aynı sahnede buluştururken aralarındaki farkı korur.
+
+Bu aykırı fakat verimli bağlantının sınırı, sofra talebini 5:96'daki izin ve yasağın yerine koymamaktır. Buradaki katkı, {ar:طَعَامُهُۥ, tr:ṭaʿāmuhu, gloss:onun yiyeceği} ve {ar:مَتَاعًا, tr:matāʿan, gloss:yarar} üzerinden alınan rızkın güvence, kullanım ve karşılık boyutlarını birlikte duyurmaktır; sofra sahnesi 5:96'ya yeni bir hüküm eklemez. Böylece deniz rızkı, {ar:ٱتَّقُوا۟, tr:ittaqū, gloss:sakının} emrinden ayrılmayan ve Allah önündeki sorumluluk içinde kullanılan bir yarar olarak açıkta kalır.
+
+</editorial_prose>

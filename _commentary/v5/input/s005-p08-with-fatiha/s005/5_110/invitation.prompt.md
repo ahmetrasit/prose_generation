@@ -1,0 +1,211 @@
+# V5 reading invitation — 5:110
+
+You are a fresh reading-invitation writer. Read the complete editorial prose
+before writing. It is your sole semantic source.
+
+Write two to four paragraphs of fluent, contemporary Turkish that reveal a
+surprising reading by following one or two main channels of resonance in the
+ayah. A channel is a connected background of meanings, images, actions, or
+relations through which the ayah can be heard and understood differently.
+Several editorial findings may together develop one channel. Summarize that
+connected movement and its consequence for the ayah's main meaning, rather
+than compressing findings individually. Give the reading's substance now;
+the invitation comes from understanding it, not from a promise of hidden depth.
+
+Before drafting, read the entire editorial prose and silently select the one
+or two channels with the strongest interpretive consequence and enough
+grounding to explain clearly. Favor channels that expand or shift what the
+ayah says, the relation it establishes, or what is at stake in its action or
+image. One fully developed channel is sufficient; add a second only when it
+offers a distinct consequential reading that can be explained within the
+invitation. No finding, channel, or major shift has an individual coverage
+claim. Unselected material may remain entirely in the full commentary.
+
+A channel may develop through grammar, sound, dialogue, a material process,
+time, imagery, or a conceptual relation. Resonance is not limited to acoustic
+effects, and an unusual image alone does not establish a channel. Use only
+connections the editorial prose actually develops. If it supplies no such
+channel, explain its strongest grounded reading without inventing connections
+or surprise.
+
+Begin inside the ayah's own words, images, actions, or relations and reveal a
+selected distinctive reading in the first paragraph. Keep the plain meaning
+reachable with only the orientation needed to understand the change. Do not
+spend an opening paragraph on routine explanation or front-load context about
+the surah, the ayah's position, or the commentary project.
+
+For each selected channel, begin with the expression that opens it, unfold the
+connected background, and show how the ayah reads or sounds against that
+background. Let a detail lead into the next through an intelligible relation
+or process, so the reader experiences the emerging reading. This is a movement
+of thought, not a mandatory sentence pattern or one paragraph per finding.
+Let the reader identify the expression being interpreted,
+where any nonordinary detail comes from, and what that detail changes in the
+reading. Briefly identify the word-family use, restricted form, collocation, or
+context that supplies an essential added detail, and preserve the concrete
+operation that makes the image work. Keep the ordinary reading and necessary
+qualification clear within this explanation; do not repeat them as a fixed
+formula. Preserve the particular object, process, or relation that makes this
+reading distinctive, and state its interpretive consequence for the ayah as a
+whole. Make intelligible what the familiar reading leaves less visible and
+what the expanded or shifted reading now lets the reader understand. Preserve
+the editorial's force: an exploratory possibility remains possible, while a
+developed shift must not be softened into a decorative association or a
+reassurance that everything means the same thing. A concrete
+account of how something is carried, transformed, lost, or restored must not
+shrink to a general statement about care, guidance, dependence, or goodness.
+Keep the details needed to make the selected channel work; omit side findings
+and shorten routine setup. If a channel cannot be explained faithfully from
+the editorial prose, choose another grounded channel or reading.
+
+When a non-focus ayah supplies a contribution used in the invitation, keep its
+reference from the editorial prose beside that contribution.
+
+Do not turn the invitation into a miniature inventory of the commentary's
+conclusions, or flatten distinct channels into a broad theme to include more
+material. Do not repair, extend, or supplement the editorial prose from memory
+or outside knowledge.
+
+Omit technical apparatus. Retain any qualification, source distinction, live
+alternative, or boundary whose absence would change the force or meaning of a
+chosen reading. Express it naturally beside the image or relation it qualifies.
+Favor positive explanations of the relation between layers: what remains in
+the foreground and what the resonance makes audible in the background. State
+how that background reinforces, expands, or shifts the understanding of the
+main meaning, with the source and degree of certainty clear. Reserve explicit
+exclusions for concrete ambiguities or live counter-evidence that need them.
+Repeated "this is not X" endings make a reading sound withdrawn; express the
+substantive qualification through what the reading does contribute wherever
+possible. Use varied, natural language rather than a repeated "second layer"
+formula, and preserve the force of expansions and shifts.
+Do not name branches, candidates, findings, scopes, evidence categories,
+ledgers, or workflow stages, or label the prose as numbered channels. Do not
+list findings serially.
+
+Use the established `{ar:..., tr:..., gloss:...}` syntax, consistent
+Turkish-readable transliteration, and short ordinary glosses. Keep Arabic
+anchors beside the explanations they ground. Within a paragraph, continue with
+the Turkish meaning where clear; provide the necessary local tag when a later
+paragraph interprets the carrier anew. Do not place Arabic script outside a
+valid tag.
+
+Build transitions within a channel through its shared object, action, or
+relation. If two channels are selected, they may occupy separate paragraphs;
+do not invent a link between them. Do not praise the commentary's quality,
+promise what the reader will find, manufacture suspense, recap at the end, or
+add a call to action. End on an image, relation, action, or tension already
+established by the selected reading.
+
+Before finishing, compare the invitation with the entire editorial prose:
+does the chosen channel reveal a consequential reading, or could the text have
+been written from the ordinary translation and a modest explanation alone?
+When the editorial supports a surprising channel, the latter fails this task.
+Can the reader follow the opening expression into a connected background and
+understand how that background expands or shifts the ayah's main meaning?
+Check the selected connections against their editorial explanation: can the
+reader tell where the nonordinary details come from, with the necessary
+qualifications intact? Repair generic explanation, isolated curiosities, or a
+compressed findings list by developing the selected channel. Do not add
+omitted channels merely for coverage. Do not output this check.
+
+Write only the invitation text to:
+
+`_commentary/v5/editorial/s005-p08-with-fatiha/s005/5_110/5_110.invitation.tr.md`
+
+Do not add a heading, wrapper label, index, ledger, evidence file, or any other
+artifact. Do not modify the editorial prose.
+
+After writing the invitation, run:
+
+```bash
+python3 _commentary/v5/validate_prose.py _commentary/v5/editorial/s005-p08-with-fatiha/s005/5_110/5_110.invitation.tr.md
+```
+
+If validation fails, repair only the reported mechanical file-contract issues
+and rerun it, for at most two repair cycles. Report the final validator result
+in your response.
+
+<editorial_prose>
+Allah'ın Meryem oğlu İsa'ya yönelttiği hatırlatma, nimeti önce bir ilişki olarak kurar. {ar:وَإِذْ, tr:wa-idh, gloss:ve o sırada} zaman çerçevesini açar; {ar:قَالَ, tr:qāla, gloss:dedi} ilahî sözün sahibini görünür kılar. Ardından {ar:يَٰ, tr:yā, gloss:ey} ile doğrudan seslenilir ve {ar:عِيسَى, tr:ʿīsā, gloss:İsa}, {ar:ٱبْنَ, tr:ibna, gloss:oğlu} ve {ar:مَرْيَمَ, tr:Maryama, gloss:Meryem} ile belirlenir. Hatırlama, İsa'nın yaptığı işlerin yanı sıra Allah'ın ona ve annesine verdiği nimetin nasıl açıldığını izletir.
+
+## Nimetin iki alıcısı
+
+Bu açılmanın ilk düğümü nimetin yönüdür. {ar:نِعْمَتِى, tr:niʿmatī, gloss:nimetim} Allah'a ait bir iyiliği bildirir; {ar:عَلَيْكَ, tr:ʿalayka, gloss:sana yönelik} edat ve ikinci tekil kişi zamiriyle nimet önce İsa'ya yönelir. {ar:وَ, tr:wa, gloss:ve} ile aynı yöneliş annesine doğru genişler. Ardından yinelenen {ar:عَلَىٰ, tr:ʿalā, gloss:üzerine} Meryem'i kendi alıcı çerçevesinde tutar. Türkçede tek bir “sana ve annene” akışında silinebilecek bu ayrım, Arapçada iki ayrı edat bağlantısıyla duyulur: nimet İsa üzerine de Meryem üzerine de konur.
+
+{ar:وَٰلِدَتِكَ, tr:wālidatika, gloss:annen} dişil doğuranı ve ikinci tekil kişiye ait oluşu birlikte taşır. “Anne” sözü daha geniş bir akrabalık alanı açabilirken bu biçim belirli doğum vereni İsa'nın yanına yerleştirir; tekil yüzey, İsa ile annesini iki ayrı nimet alıcısı olarak tutar. Ses ve okuyuş çevresinde anne sözünü iki ebeveyn olarak yeniden kuran canlı bir seçenek bulunabilir; mevcut biçim ise doğum vereni tekil olarak belirler. Buradaki {ar:وَ, tr:wa, gloss:ve}, Meryem'i İsa'nın yanına ekleyen eşgüdümdür. Böylece annelik bağı, aynı nimeti alan iki kişiden biri olarak kendi belirginliğini korur.
+
+Nimetin alıcıları belirlendikten sonra {ar:إِذْ, tr:idh, gloss:o sırada} hatırlamayı ayrı zaman sahnelerine açar. Yinelenen bu bağlaç, güçlendirmeyi, konuşmayı, öğretimi, biçim vermeyi, iyileştirmeyi, ölüleri çıkarmayı ve korumayı tek bir ana sıkıştırmadan kaydın farklı girişleri haline getirir. {ar:ٱذْكُرْ, tr:udhkur, gloss:hatırla} ise gözden uzaklaşmış olanı yeniden bilince getiren doğrudan bir emirdir; ikinci tekil oluşu, bu hatırlamanın genel bir topluluk buyruğundan önce İsa'ya yöneldiğini gösterir. 5:106'da tanıklığın tutulması ve düzeltilmesi, 5:109'da elçilerin toplanıp cevap vermesi, burada hatırlanan fiillerin sonradan dinleyiciler önünde yeniden kurulabilen bir kayıt olarak işitilmesini sağlar. Bu iki bağlam, 5:110'daki sahnelerin kendi sırasını koruyarak tanıklık ve cevap çerçevesine açılır.
+
+## Güçten söze
+
+İlk zaman sahnesinde Allah, {ar:أَيَّدتُّكَ, tr:ayyadtuka, gloss:seni güçlendirdim} diyerek desteği doğrudan İsa'ya yöneltir. Birinci tekil özne ve ikinci tekil nesne, tamamlanmış eylemi Allah'ın işi yapar. İkinci kalıbın yoğunluğu ve şeddeli ses, güçlendirilmiş bir kapasite duyurur. Bu kapasitenin kaynağı nimetin vericisinde kalır ve İsa'da görev içinde işleyen bir imkân olarak belirir. Yakın bir başka okuyuş biçimi ses ve kalıp ayrıntısında ayrı bir ihtimali açık tutar; her iki ihtimalde de fiilin İsa'ya yönelen destek hareketi görünür.
+
+Bu desteğin niteliği {ar:بِ, tr:bi-, gloss:ile / aracılığıyla} edatıyla bağlanan {ar:رُوحِ, tr:rūḥi, gloss:ruh} ve {ar:ٱلْقُدُسِ, tr:al-qudus, gloss:kutsallık} tamlamasında belirir. Ruh, olağan anlamıyla birlikte bedene canlılık veren iç varlık ve soluğa yakın bir canlılık çağrışımı taşır. Kutsallık adı ruhu arılık ve eksiklikten uzaklık niteliğiyle belirler; tamlama desteğin niteliğini aydınlatırken ruhun mahiyetini ayrıntılandırma alanını açık bırakır. Bu adlandırma İsa'nın görev ve vahiy çevresindeki desteği kurar. Aynı {ar:رُوحِ, tr:rūḥi, gloss:ruh} sözcüğü ileride çamur biçimine yönelen üflemeyle yan yana geldiğinde, destek ile canlandırma arasındaki soluk yankısını güçlendirir; bu yankı iki sahneyi aynı varlık veya olayda birleştirmek yerine aralarındaki benzer sesi duyurur. 8:62'de Allah'ın verilmiş yardımı anması da desteğin kaynağını Allah'ta tutar; 5:110'daki yerel eylem bu kaynaklık içinde kendi sahnesini korur.
+
+Güçlendirme sözde hareket kazanır. {ar:تُكَلِّمُ, tr:tukallimu, gloss:konuşursun} ikinci tekil, ikinci kalıp ve bitmemiş fiil olarak İsa'nın insanlara yönelen, sürmekte olan anlaşılır konuşmasını bildirir. Böylece tamamlanmış destek, geçmişte kalmış bir olay olarak kapanmaz; konuşma görevinin içinde işleyen bir imkâna dönüşür. Sözcüğün uzak sözlük yankısında yara açan veya kesen bir hareketin bulunması, konuşmanın temas eden ve iz bırakan tarafını duyurabilir; bu yankı konuşmayı fiziksel yaraya çevirmeden sözün keskinliğini genişletir. 5:117'deki {ar:أَمَرْتَنِى, tr:amartanī, gloss:bana emrettin} ifadesi bu söz görevini buyrukla sınırlar: konuşma anlam taşıyan bir aktarım ve görevle belirlenmiş bir hitap olarak kalır.
+
+Konuşmanın alıcısı {ar:ٱلنَّاسَ, tr:an-nāsa, gloss:insanları} belirli çoğul nesnedir. Bu belirleme, sözü insanlara yönelmiş kamusal bir iş olarak kurar. İnsanlık adının unutma çağrışımı, hatırlama buyruğunun karşısında konuşmayı dağılmaya karşı bir kayıt gibi duyurur; insan adı bu bağlamda hem muhatapları hem unutma ihtimalini birlikte taşır. {ar:فِى, tr:fī, gloss:içinde / -de} konuşmayı hem bir yerde hem bir hayat evresinde kuşatır. Bu edatın yönettiği {ar:ٱلْمَهْدِ, tr:al-mahdi, gloss:beşik}, bebeğin uyumasına ayrılmış somut yerdir. Hazırlanmış ve yerleşilmiş zemin çağrışımı, normalde söz beklenmeyen bu yerde anlaşılır konuşmanın açığa çıkmasını görünür kılar.
+
+Bu yer ve zaman çerçevesi {ar:وَ, tr:wa, gloss:ve} ile {ar:كَهْلًا, tr:kahlan, gloss:olgun erkeklikte} evresine uzanır. Belirtme durumundaki bu kelime, gençlik sonrasındaki olgun erkekliği ve saça ak düşebilecek bir hayat durağını taşır. Konuşmanın İsa'nın hayatındaki ikinci evresini belirler; yaş sınırı ve olgunlukla kazanılan otorite ilişkisi bu evrenin çevresinde açık kalır. Beşik ile olgunluk, aynı iletişim çizgisinin iki ucudur ve iki evrenin farklı niteliği korunur. 5:111'de İsa'nın insanlar arasında bulunduğu sürece tanıklık etmesi, beşikte açılan konuşmanın hayat boyunca süren bir muhataplık çizgisine bağlanmasını sağlar.
+
+Konuşmanın taşıdığı imkân, yeni bir {ar:إِذْ, tr:idh, gloss:o sırada} ile öğretim sahnesine geçer. {ar:عَلَّمْتُكَ, tr:ʿallamtuka, gloss:sana öğrettim} birinci tekil özneyle Allah'ı doğrudan öğretmen, ikinci tekil nesneyle İsa'yı öğretilen kişi yapar. İkinci kalıp, bilginin İsa'da öğretim yoluyla oluştuğunu duyurur. Bilme, tanıma ve gerçeğe uygun kavrama alanı işaretleri ayırt edilebilir kılan bir hazırlığa dönüşür. Öğretme fiilinin başka kullanımlarındaki yeti oluşturma yankısı, öğretmenin bir varlıkta kapasite kurma yönünü aydınlatır; bu ayette ise peygamberî öğretim bağlamı belirleyicidir.
+
+Öğretimin nesneleri {ar:ٱلْكِتَٰبَ, tr:al-kitāba, gloss:kitap}, {ar:ٱلْحِكْمَةَ, tr:al-ḥikmata, gloss:hikmet}, {ar:ٱلتَّوْرَىٰةَ, tr:at-tawrāta, gloss:Tevrat} ve {ar:ٱلْإِنجِيلَ, tr:al-injīla, gloss:İncil} olarak art arda gelir. Her biri belirtme durumunda doğrudan nesnedir; aralarındaki {ar:وَ, tr:wa, gloss:ve} bağlaçları aynı öğretmene yeni bir bilgi nesnesi ekleyerek birikimli bir dizi kurar. {ar:ٱلْكِتَٰبَ, tr:al-kitāba, gloss:kitap} yazıya geçirilmiş, bağlanmış ve aktarımın kalıcı yüzünü taşıyan belirli kitaptır. {ar:ٱلْحِكْمَةَ, tr:al-ḥikmata, gloss:hikmet} bilgiyi doğruyu ayırarak ölçülü hükme dönüştüren bir kavrayıştır. Uzak alıkoyma yankısı, dağınık olanı dizginleyip yerli yerine koyan disiplin duygusunu ekler; ilerideki {ar:كَفَفْتُ, tr:kafaftu, gloss:alıkoydum} fiiliyle birlikte öğretimin bilgi kadar sınır ve ölçü de kazandırdığı duyulur.
+
+Tevrat ve İncil, aynı öğretim aktarımında duran belirli ve adlandırılmış vahiy nesneleridir. Tevrat hukuk ve öğretim gücünü taşır, dizide İncil'den önce gelir; İncil müjde vahyi kimliğiyle listenin son nesnesidir. Sıra, ilişkili iki kitabı özdeşleştirmeden yan yana tutar. Arapça cümledeki okuyuş farkları adların sesini hafifçe değiştirebilir, gönderdikleri kitapları değiştirmez. Son {ar:وَ, tr:wa, gloss:ve} öğretim dizisini yeni eylem alanına bağlar. 5:92'deki açık bildirme, 5:99'daki açıklama ve gizleme karşıtlığı, 5:111'deki ruhla desteklenen tanıklık ve 5:117'deki emirle sınırlı bildirişim, bu bilginin kaynağı aşmadan taşınan bir emanet gibi işitilmesine katkı verir.
+
+## Biçimden canlılığa
+
+Öğretimden sonra {ar:وَ, tr:wa, gloss:ve} ve {ar:إِذْ, tr:idh, gloss:o sırada} yeniden görünür; kayıt bu kez çamurdan kuş biçimine yönelir. {ar:تَخْلُقُ, tr:takhluqu, gloss:biçim verirsin / yaratırsın} ikinci tekil, birinci kalıp ve bitmemiş fiildir. Yapma, biçimlendirme ve var etme anlamlarını birlikte taşır; çamur ve izin, bu yapmayı maddi bir taşıyıcı üzerindeki sınırlı eylem olarak belirler. Yaratma ile imal etme arasındaki gerilim, sürecin önce ölçüsü ve sınırı belirlenen yapma aşamasını öne çıkarır. Böylece bu ayetin çamur, biçim, üfleme ve kuş sırası içinde ölçü verme hazırlığı duyulur.
+
+Bu yapmanın kaynağı {ar:مِنَ, tr:mina, gloss:den / -den} edatıyla açık bırakılır. Ardından gelen {ar:ٱلطِّينِ, tr:al-ṭīni, gloss:çamur}, su ile toprağın karışımından oluşan belirli maddi zemindir. Çamur, biçim verilecek taşıyıcı ve çamurdan yaratılış çağrışımının somut yüzüdür; bu çağrışım Âdem'in yaratılış alanına uzanırken odakta malzeme olarak çamur önde kalır. 3:49'daki çamur, biçim ve nefes işareti, 32:9'daki biçimlendirilmiş surete ruh verilmesi ve 38:71'deki yaratılış teması, bu malzemeden canlılığa doğru ilerleyen hareketi aydınlatır. Bu temaslar 5:110'daki dizinin kapsamını bu sahnelerle sınırlı biçimde genişletir; ayet böylece genel bir üretim kuralına dönüştürülmeden kendi maddi sürecini korur.
+
+Çamurun aldığı görünüş {ar:كَ, tr:ka-, gloss:gibi} benzetme edatıyla belirlenir. {ar:هَيْـَٔةِ, tr:hayʾati, gloss:biçim} tamlayan durumunda, {ar:ٱلطَّيْرِ, tr:al-ṭayri, gloss:kuş} ile “kuş biçimi”ni kurar. Kāf, model ile ortaya çıkan şey arasındaki mesafeyi açık tutar; yapılan şey kuş modeliyle düzenlenmiş bir biçimdir. Hayʾa dış çizginin yanı sıra görünüşü, durumu ve işe hazır hale getirilmiş düzeni taşır. Hemze sesi biçimin sınırında kısa bir durak hissi verebilir; hemzenin hafifletildiği okuyuşta akış değişir ve tamlamanın göndergesi aynı kalır. Bazı okuyuşlarda kuş adının etkin ortaç biçimine yaklaşan bir ses farkı duyulabilir; bu alternatif de kuş modelinin göndergesini korur.
+
+Belirli {ar:ٱلطَّيْرِ, tr:al-ṭayri, gloss:kuş}, biçimin modelini verir; kanatlı canlı ve havada ilerleme alanını açar. Uğur veya kuş deseni gibi uzak özel kullanımlar bu bağlamda ikincil kalır. Model kurulduktan sonra ilk {ar:بِ, tr:bi-, gloss:ile / aracılığıyla} ve {ar:إِذْنِى, tr:idhnī, gloss:benim iznim} gelir. Bu bağ, biçim vermeyi Allah'ın birinci tekil sahiplik ve yetkilendirme sözüne yerleştirir; izin çamurdan seçilebilir biçime geçişin yetki koşulu olarak belirir.
+
+Biçimden canlılığa geçişi iki {ar:فَ, tr:fa-, gloss:böylece / ardından} bağlacı sıraya dönüştürür. Önce {ar:تَنفُخُ, tr:tanfukhu, gloss:üflersin} gelir: İsa havayı veya soluğu hazırlanmış hedefe yöneltir. Bu fiil, havanın belirlenmiş şeye gönderilmesini ve soluğun bir eyleyici eliyle yön kazanmasını öne çıkarır. Hedefi gösteren {ar:فِيهَا, tr:fīhā, gloss:ona / içine} içindeki dişil zamir, hemen önceki {ar:هَيْـَٔةِ, tr:hayʾati, gloss:biçim}e döner. Sonuç adı olan kuş bir sonraki adımda belireceği için soluk hazırlanmış biçimin içine yönelir. İlk fa maddi biçimden yöneltilmiş soluğa, ikinci fa soluğun ardından gelen oluşa geçirir.
+
+Bu oluş {ar:تَكُونُ, tr:takūnu, gloss:olur} ile bildirilir. Üçüncü dişil tekil bitmemiş biçim, önceki dişil biçimle uyum kurarak hazırlanmış şeyin gerçekleşmiş sonuca dönüşmesini gösterir. Eril çekimli başka bir okuyuş, oluşun öznesini başka yönde duyurabilecek canlı bir ihtimaldir; mevcut uyumlu okuyuş ise biçimden sonuca geçişte dişil uyumu öne çıkarır. Sonuç {ar:طَيْرًا, tr:ṭayran, gloss:bir kuş} ile belirsiz belirtme durumunda yüklem olur: belirli modelden ayrışan, oluşmuş, kanatlı ve havada ilerleyebilen bir canlı belirir. Belirli modelden belirsiz sonuca geçiş, benzetilen biçim ile gerçekleşmiş kuş arasındaki mesafeyi korur.
+
+Sonucun ardından ikinci {ar:بِ, tr:bi-, gloss:ile / aracılığıyla} ve {ar:إِذْنِى, tr:idhnī, gloss:benim iznim} gelir. İzin bu kez oluşmuş kuşa geçişi de yetkilendirir; tekrar, kaynaklığı biçim verme anından canlı sonuca kadar taşır. Bu aşamalı hareket 5:112, 5:113, 5:114 ve 5:115'teki sofra sahnesiyle birlikte okunduğunda, işaret talebi, Allah'ın indirmesi, tanıklık ve uyarı maddeden görünür sonuca ilerleyen bir sıra olarak duyulur. Çamurdan biçime, biçimden nefese ve nefesten oluşa uzanan yapı, gözlemlenebilir işaretin oluşumunu güçlendirir; üretimin teknik ayrıntısı ve bağımsız bir fizik kuralı bu bağlantının dışında açık kalır.
+
+Bu sırada iki ayrı hazırlanmış zemin kendi işlevini taşır. {ar:ٱلْمَهْدِ, tr:al-mahdi, gloss:beşik}, beklenmeyen konuşma için hazırlanmış yerdir; {ar:ٱلطِّينِ, tr:al-ṭīni, gloss:çamur} ve {ar:هَيْـَٔةِ, tr:hayʾati, gloss:biçim} canlı hareketten önce düzenlenmiş maddi zemini kurar. Beşik konuşmaya yer açar, biçimlenmiş çamur kuşun canlılığının taşıyıcısı olur; hazırlığın bu iki işlevi böylece ayırt edilir. {ar:رُوحِ, tr:rūḥi, gloss:ruh}, konuşma, üfleme, olma ve ölüleri çıkarma sahneleri birlikte izlendiğinde, bu ayetin kendi içinde desteklenmiş kapasiteden dışa söze, yöneltilmiş nefesten gerçekleşen canlılığa ve kapalı hayattan dışarı çıkarılmaya uzanan bir akış duyulur. Bu sentez sahnelerin sırasını yoğunlaştırır; maddi olayların mekanizması ise açık bırakılır.
+
+## Hastalıktan hayatın açılmasına
+
+Kuşun oluşmasından sonra {ar:وَ, tr:wa, gloss:ve} yeni bir eylem alanı açar. {ar:تُبْرِئُ, tr:tubriʾu, gloss:iyileştirirsin} dördüncü kalıp ve bitmemiş ikinci tekil fiil olarak hastalığa uğramış olanı durumundan kurtarma hareketini bildirir. Kökün aklanma ve temizlenmeyle uzak akrabalığı, fiziksel iyileşme içinde hastalığın kişiden ayrılması imgesini güçlendirir. İlk nesne {ar:ٱلْأَكْمَهَ, tr:al-akmaha, gloss:doğuştan kör} genel körlükten daha özel olarak doğuştan görme yetisinden yoksun kişiyi seçer. {ar:وَ, tr:wa, gloss:ve} ile eklenen {ar:ٱلْأَبْرَصَ, tr:al-abraṣa, gloss:alacalı} aynı fiilin ikinci nesnesidir; insanın geri kalan renginden ayrılan beyazlaşmayı ve bu niteliği taşıyan hastayı görünür kılar.
+
+İki nesnenin aynı {ar:تُبْرِئُ, tr:tubriʾu, gloss:iyileştirirsin} fiili altında buluşması, içteki görme kapanması ile dışta belirginleşen beyaz lekeyi tek bir iyileştirme hareketinin iki yüzü yapar. Doğuştan körlük, uzak yönünü bulamama ve şaşırma sonucunu çağrıştırabilir; bu yankı görme kaybının mümkün etkisini duyurur ve sahneyi iyileştirme temasında tutar. Alacalının çevresinden ayrılan beyaz yüzeyi, görünür bir işaret ve yüzeyde ışık oynaması gibi ikinci bir görüntü katmanı açabilir. Hastalık ve onu taşıyan kişi anlamı bu görüntü içinde korunur; üçüncü {ar:بِإِذْنِى, tr:bi-idhnī, gloss:iznimle} bu iki nadir ve görünür bedensel durumu aynı yetkilendirme çerçevesinde tutar.
+
+İyileştirme hareketinden sonra {ar:وَ, tr:wa, gloss:ve} ile yeni {ar:إِذْ, tr:idh, gloss:o sırada} gelir ve {ar:تُخْرِجُ, tr:tukhriju, gloss:çıkarırsın} fiili açılır. Dördüncü kalıp, eyleyiciliği İsa'ya başka bir varlığı bulunduğu yerden dışarı çıkaran konumda verir. Çıkarma, görünür hale getirme ve kapalı durumdan dışarı açma aynı çekirdekte birleşir. Hedef {ar:ٱلْمَوْتَىٰ, tr:al-mawtā, gloss:ölüler} belirli çoğul nesne olarak hayatın sona erdiği koşulu taşır. Bu koşul, sona ermiş hayatın dışarı getirilmesi yönündeki eylemi öne çıkarır. Fiziksel ve ruhsal ölüm çağrışımları birlikte açık kalır.
+
+Dördüncü ve son {ar:بِإِذْنِى, tr:bi-idhnī, gloss:iznimle} ölüleri çıkarma fiilinin arkasında yer alır. İzin nakaratı çamurdan kuşa, iki hastalıktan iyileşmeye ve ölümden çıkarılmaya kadar ilerler; eylemleri aşama aşama yetkilendirilmiş hareketler olarak birbirine bağlar. Bu son tekrarın ardından {ar:وَ, tr:wa, gloss:ve} Allah'ın doğrudan yaptığı korumaya geçişi hazırlar. Böylece canlılık akışı, açılan kapasitenin gerektiğinde geri tutulmasıyla tamamlanır.
+
+## Açılan gücün sınırı
+
+Allah'ın doğrudan eylemine dönüş {ar:إِذْ, tr:idh, gloss:o sırada} ile yeni bir zaman çerçevesi kazanır: {ar:كَفَفْتُ, tr:kafaftu, gloss:alıkoydum}. Birinci tekil, birinci kalıp ve bitmiş fiil, alıkoymayı Allah'ın tamamlanmış koruyucu eylemi yapar. Önceki fiiller İsa'nın başka bir varlığı iyileştirmesi veya çıkarması olarak ilerlerken burada ilahî özne kendisi tutar ve geri çevirir. Kökün ellerle kavrayıp alıkoyma imgesi, korumayı yönelmiş bir elin hareketi gibi somutlaştırır. {ar:عَنكَ, tr:ʿanka, gloss:senden} ayrılma edatı ve ikinci tekil zamir, korumanın merkezini İsa yapar: İsrailoğulları İsa'dan uzak tutulur.
+
+Uzak tutulan topluluk {ar:بَنِىٓ, tr:banī, gloss:oğulları} ve onun izafet tamamlayanı {ar:إِسْرَٰٓءِيلَ, tr:isrāʾīla, gloss:İsrail} ile belirlenir. Banī çoğul soy ve ortak çocuklar anlamını taşır; izafet bu soyun İsrail'e bağlandığını gösterir. Farklı okuyuşlarda adın uzunluğu veya hemze sesi değişirken gönderge İsrail olarak kalır. Topluluk aynı ayette hem İsa'dan uzak tutulan nesne hem de İsa'nın kendilerine açık delillerle geldiği muhatap çevresidir. {ar:ٱبْنَ, tr:ibna, gloss:oğlu} ve {ar:مَرْيَمَ, tr:Maryama, gloss:Meryem} ile kurulan “Meryem oğlu” kimliği burada da önemini korur: İsa baba adıyla değil belirli annesiyle sabitlenir. {ar:عِيسَى, tr:ʿīsā, gloss:İsa} adı Arapça cümleye ses bakımından uyum sağlasa da göndergesini ve kimliğini korur.
+
+Bu koruma, daha önce açılan eyleyicilik çizgisini geri tutma yönünde tamamlar. {ar:أَيَّدتُّكَ, tr:ayyadtuka, gloss:seni güçlendirdim} bahşedilmiş kapasiteyi, {ar:عَلَّمْتُكَ, tr:ʿallamtuka, gloss:sana öğrettim} kapasitenin bilgiyle kavranmasını, dört kez yinelenen {ar:بِإِذْنِى, tr:bi-idhnī, gloss:iznimle} sonuçlara geçişin yetkilendirilmesini, {ar:كَفَفْتُ, tr:kafaftu, gloss:alıkoydum} ise aynı elçiye yönelen koruyucu geri tutmayı taşır. Her işlem kendi işlevini koruyarak bu sırayı tamamlar. 5:87'deki yasaklama, serbest bırakma ve sınırı aşma karşılaşmaları, 5:110'daki izin tekrarına kapalı, açılmış ve aşılmış sınırların yakın yankısını verir. Böylece 5:87'nin sınır çerçevesi, izin kelimesine bu ayetin olağanüstü eylemlerinin yetkilendirilmesiyle sınırlı bir hukukî yankı kazandırır. 5:94'te ulaşılabilir durumdaki avın sınanması kapasitenin deneme alanına çıkmasını, alıkoyma ise bu kapasitenin elçiden uzak tutulabilmesini düşündürür.
+
+Ölüleri çıkarma eylemi hayatın daha geniş emanet ve gözetim çevresine dokunur. {ar:تَوَفَّيْتَنِى, tr:tawaffaytanī, gloss:beni aldığında} İsa'nın sınırlı varlığının sona ermesini, {ar:ٱلرَّقِيبَ, tr:al-raqīb, gloss:gözeten} onun yokluğundan sonra süren gözetimi taşır. {ar:مُلْكُ, tr:mulku, gloss:egemenlik} gökler, yer ve içindekiler üzerindeki sahiplik çerçevesini, {ar:قَدِيرٌ, tr:qadīr, gloss:gücü yeten} her şey üzerindeki gerçekleştirme kapasitesini bildirir. 5:117 ve 5:120'deki kaynaklık ve gözetim sahneleri, {ar:بِإِذْنِى, tr:bi-idhnī, gloss:iznimle} ile yetkilendirilmiş yerel hayat açılmasını Allah'ın devam eden hayat gözetimi içinde duyurur. Bu bağlamda {ar:تُخْرِجُ, tr:tukhriju, gloss:çıkarırsın} ve {ar:ٱلْمَوْتَىٰ, tr:al-mawtā, gloss:ölüler} yerel eylemin kapsamını, Allah'ın kudret ve egemenliği de onun kaynağını ve sınırını açıklar. 5:117 ve 5:120'deki sonraki sahneler kendi zaman çerçevelerinde kalır; 5:110'daki eylem bu kaynaklık bağı içinde okunur.
+
+## Açıklığın karşısında söz
+
+Koruma sahnesinin ardından {ar:إِذْ, tr:idh, gloss:o sırada} İsa'nın topluluğa gelişini ve bu gelişin aldığı cevabı aynı hatırlama kaydına yerleştirir. {ar:جِئْتَهُم, tr:jiʾtahum, gloss:onlara geldin} ikinci tekil şahıs ve üçüncü çoğul nesne ekleriyle İsa'nın belirli bir topluluğa yöneldiği tamamlanmış buluşmayı bildirir. Gelişi taşıyan {ar:بِ, tr:bi-, gloss:ile / aracılığıyla} edatı bu buluşmayı {ar:ٱلْبَيِّنَٰتِ, tr:al-bayyināti, gloss:açık deliller} ile birlikte sunar. Belirli çoğul biçim, birden fazla açık delili bilinen bir küme halinde getirir; delilin ayıran ve belirginleştiren yönü gerçeği seçilebilir kılar. Açıklık alanı sonradan {ar:مُبِينٌ, tr:mubīnun, gloss:apaçık / açıklayıcı} kelimesinde geri döner: bayyināt delilleri, mubīn ise sonradan verilen hükmü niteler.
+
+Delillerle gelişin hemen ardından {ar:فَ, tr:fa-, gloss:böylece / ardından} gelir ve cevap gecikmeden {ar:قَالَ, tr:qāla, gloss:dedi} fiiliyle açılır. Ayetin başındaki ilahî {ar:قَالَ, tr:qāla, gloss:dedi} ile sonundaki insan sözü aynı fiili paylaşır; konuşan ve konuşmanın yönü ayrıdır. {ar:ٱلَّذِينَ, tr:alladhīna, gloss:kimseler ki} önce bir ilgi grubu kurar. {ar:كَفَرُوا۟, tr:kafarū, gloss:inkâr ettiler} bu grubu reddedenlerle sınırlar; çoğul ve bitmiş biçim reddedişi tamamlanmış bir eylem olarak bildirir. Örtme imgesi, açık olanın üzerine kapanan karşı hareketi duyurur. {ar:مِنْهُمْ, tr:minhum, gloss:onlardan} “onlardan bir kısmı” diyerek hükmü topluluk içindeki belirli bir alt kümeye bağlar. Böylece açık deliller karşısında konuşan grubun cevabı öne çıkar.
+
+Bu grubun cümlesi {ar:إِنْ, tr:in, gloss:değil / -se} ile başlayıp {ar:إِلَّا, tr:illā, gloss:ancak / -den başka} ile tamamlanan sınırlı yapıya sahiptir: “Bu, ancak büyüdür.” {ar:هَٰذَا, tr:hādhā, gloss:bu} yakın işaret zamiri, çok sayıdaki delili ve onların taşıdığı eylemleri tek bir “bu” işaretinde toplar. Böylece karşılarında duran farklı işaretler tek bakışta adlandırılabilir bir nesneye indirgenir. İn ile illâ, cümleyi tek bir adlandırmayla sınırlar. {ar:سِحْرٌ, tr:siḥrun, gloss:büyü} belirsiz yalın hâlde yüklemdir; açık deliller aldatma ve algıyı saptırma adıyla yeniden çerçevelenir. Bu adlandırma delillerin görünürlüğünü değil, alımlanışını değiştirir. Şafak ve akciğer-soluk yönündeki uzak sözlük yankıları önceki açıklık, ışık ve nefes görüntülerini ters yönde çağrıştırır; burada büyü suçlamasına fizyolojik bir açıklama yüklemez.
+
+Yüzeyde suçlama, olay veya eylem adı olan {ar:سِحْرٌ, tr:siḥrun, gloss:büyü} biçiminde durur. Canlı bir okuyuş seçeneğinde {ar:سَاحِرٌ, tr:sāḥir, gloss:büyücü} biçimi suçlamayı eylemden kişiye taşır; böylece sözün hedefi değişirken mevcut biçimin olay adı korunur. {ar:مُبِينٌ, tr:mubīnun, gloss:apaçık / açıklayıcı} ise bu belirsiz yüklemi sıfat olarak niteler. Etken ortaç hem görünür olmayı hem görünür kılmayı taşıdığı için {ar:ٱلْبَيِّنَٰتِ, tr:al-bayyināti, gloss:açık deliller} ile “apaçık büyü” aynı açıklık alanında karşı karşıya gelir. 3:49'daki iyileştirme işareti ve 61:6'da açık delillerin büyü diye yeniden adlandırılması, bu karşılaşmanın iki ayrı bağlamsal dönüşünü gösterir. Açıklık yerinde kalır, ona verilen ad değişir.
+
+Bu değişimin alımlama tarafı 5:112, 5:113, 5:114 ve 5:115'teki sofra sahnesiyle birlikte belirginleşir. {ar:تَطْمَئِنَّ قُلُوبُنَا, tr:taṭmaʾinna qulūbunā, gloss:kalplerimiz yatışsın} işaretin iç güven doğuran yüzünü, {ar:صَدَقْتَنَا, tr:ṣadaqtanā, gloss:bize doğru söylediğin anlaşılsın} doğrulama isteğini, {ar:ٱلشَّٰهِدِينَ, tr:al-shāhidīn, gloss:tanıklardan olalım} ise görülmüş olana tanıklık etme arzusunu açar. 5:115'te işaretin ardından gelen uyarı, görünür kanıttan sonra cevabın sorumluluğunu ağırlaştırır. Bu üç alımlama biçimi, 5:110'daki açık delil ile büyü etiketinin karşılaşmasını somutlaştırır: biri iç güveni, biri doğrulamayı, biri tanıklığı öne çıkarır. Bu bağlantı reddedenlerin iç niyeti veya iki olayın zaman bakımından özdeşliği hakkında hüküm vermez.
+
+Nimetin İsa ve annesine ayrı ayrı yönelmesi, kaynaklık sorusuna da zemin hazırlar. 5:116 ve 5:117'de sorulan {ar:إِلَٰهَيْنِ مِن دُونِ ٱللَّهِ, tr:ilāhayni min dūni Allāh, gloss:Allah'tan başka iki ilah} ifadesi, iki alıcıyı Allah'ın yerine kaynak yapma teklifini görünür kılar. {ar:ٱللَّهُ, tr:Allāh, gloss:Allah} bu ayette nimetin vericisi ve eylemlerin kaynağıdır. 5:116'daki {ar:أُمِّيَ, tr:ummī, gloss:annem} ve odaktaki {ar:وَٰلِدَتِكَ, tr:wālidatika, gloss:annen}, Meryem'le kurulan anne ilişkisini farklı söz yüzeylerinde korur. 5:117'deki {ar:ٱعْبُدُوا۟ ٱللَّهَ, tr:uʿbudū Allāh, gloss:Allah'a kulluk edin} yönelişi, kulluğu yeniden Allah'a bağlar. Böylece annelik onuru, nimetin iki alıcısı ile kaynağın ayrımını koruyan bir çerçevede duyulur; alıcıların Allah'tan ayrı ilahlar olarak konumlandırılması bu çerçevenin dışındadır.
+
+Son bağ, 5:110'daki {ar:نِعْمَتِى, tr:niʿmatī, gloss:nimetim} ile Fatiha (1:7)'deki {ar:أَنْعَمْتَ عَلَيْهِمْ, tr:anʿamta ʿalayhim, gloss:kendilerine nimet verdiğin} arasındaki ortak nimet alanında açılır. Fatiha'nın doğru yol üzerinde nimet verilenler ufku, burada İsa ve annesine ulaşan nimeti kendi alıcıları ve kendi kaynaklık düzeni içinde somut bir örnek gibi duyurur. Bu temasın kapsamı, yerel nimetin dua dilindeki aranan nimet ufkuna açılmasıyla sınırlıdır; Fatiha'nın tamamını İsa kıssasına taşımadan ve nimet verilenlerin kapsamını belirlemeden işler. Nimet, kendi alıcılarını koruyarak dua içinde aranan yolun somut bir iyiliği olarak yeniden duyulur.
+
+</editorial_prose>

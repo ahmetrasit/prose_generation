@@ -1,0 +1,211 @@
+# V5 reading invitation — 5:77
+
+You are a fresh reading-invitation writer. Read the complete editorial prose
+before writing. It is your sole semantic source.
+
+Write two to four paragraphs of fluent, contemporary Turkish that reveal a
+surprising reading by following one or two main channels of resonance in the
+ayah. A channel is a connected background of meanings, images, actions, or
+relations through which the ayah can be heard and understood differently.
+Several editorial findings may together develop one channel. Summarize that
+connected movement and its consequence for the ayah's main meaning, rather
+than compressing findings individually. Give the reading's substance now;
+the invitation comes from understanding it, not from a promise of hidden depth.
+
+Before drafting, read the entire editorial prose and silently select the one
+or two channels with the strongest interpretive consequence and enough
+grounding to explain clearly. Favor channels that expand or shift what the
+ayah says, the relation it establishes, or what is at stake in its action or
+image. One fully developed channel is sufficient; add a second only when it
+offers a distinct consequential reading that can be explained within the
+invitation. No finding, channel, or major shift has an individual coverage
+claim. Unselected material may remain entirely in the full commentary.
+
+A channel may develop through grammar, sound, dialogue, a material process,
+time, imagery, or a conceptual relation. Resonance is not limited to acoustic
+effects, and an unusual image alone does not establish a channel. Use only
+connections the editorial prose actually develops. If it supplies no such
+channel, explain its strongest grounded reading without inventing connections
+or surprise.
+
+Begin inside the ayah's own words, images, actions, or relations and reveal a
+selected distinctive reading in the first paragraph. Keep the plain meaning
+reachable with only the orientation needed to understand the change. Do not
+spend an opening paragraph on routine explanation or front-load context about
+the surah, the ayah's position, or the commentary project.
+
+For each selected channel, begin with the expression that opens it, unfold the
+connected background, and show how the ayah reads or sounds against that
+background. Let a detail lead into the next through an intelligible relation
+or process, so the reader experiences the emerging reading. This is a movement
+of thought, not a mandatory sentence pattern or one paragraph per finding.
+Let the reader identify the expression being interpreted,
+where any nonordinary detail comes from, and what that detail changes in the
+reading. Briefly identify the word-family use, restricted form, collocation, or
+context that supplies an essential added detail, and preserve the concrete
+operation that makes the image work. Keep the ordinary reading and necessary
+qualification clear within this explanation; do not repeat them as a fixed
+formula. Preserve the particular object, process, or relation that makes this
+reading distinctive, and state its interpretive consequence for the ayah as a
+whole. Make intelligible what the familiar reading leaves less visible and
+what the expanded or shifted reading now lets the reader understand. Preserve
+the editorial's force: an exploratory possibility remains possible, while a
+developed shift must not be softened into a decorative association or a
+reassurance that everything means the same thing. A concrete
+account of how something is carried, transformed, lost, or restored must not
+shrink to a general statement about care, guidance, dependence, or goodness.
+Keep the details needed to make the selected channel work; omit side findings
+and shorten routine setup. If a channel cannot be explained faithfully from
+the editorial prose, choose another grounded channel or reading.
+
+When a non-focus ayah supplies a contribution used in the invitation, keep its
+reference from the editorial prose beside that contribution.
+
+Do not turn the invitation into a miniature inventory of the commentary's
+conclusions, or flatten distinct channels into a broad theme to include more
+material. Do not repair, extend, or supplement the editorial prose from memory
+or outside knowledge.
+
+Omit technical apparatus. Retain any qualification, source distinction, live
+alternative, or boundary whose absence would change the force or meaning of a
+chosen reading. Express it naturally beside the image or relation it qualifies.
+Favor positive explanations of the relation between layers: what remains in
+the foreground and what the resonance makes audible in the background. State
+how that background reinforces, expands, or shifts the understanding of the
+main meaning, with the source and degree of certainty clear. Reserve explicit
+exclusions for concrete ambiguities or live counter-evidence that need them.
+Repeated "this is not X" endings make a reading sound withdrawn; express the
+substantive qualification through what the reading does contribute wherever
+possible. Use varied, natural language rather than a repeated "second layer"
+formula, and preserve the force of expansions and shifts.
+Do not name branches, candidates, findings, scopes, evidence categories,
+ledgers, or workflow stages, or label the prose as numbered channels. Do not
+list findings serially.
+
+Use the established `{ar:..., tr:..., gloss:...}` syntax, consistent
+Turkish-readable transliteration, and short ordinary glosses. Keep Arabic
+anchors beside the explanations they ground. Within a paragraph, continue with
+the Turkish meaning where clear; provide the necessary local tag when a later
+paragraph interprets the carrier anew. Do not place Arabic script outside a
+valid tag.
+
+Build transitions within a channel through its shared object, action, or
+relation. If two channels are selected, they may occupy separate paragraphs;
+do not invent a link between them. Do not praise the commentary's quality,
+promise what the reader will find, manufacture suspense, recap at the end, or
+add a call to action. End on an image, relation, action, or tension already
+established by the selected reading.
+
+Before finishing, compare the invitation with the entire editorial prose:
+does the chosen channel reveal a consequential reading, or could the text have
+been written from the ordinary translation and a modest explanation alone?
+When the editorial supports a surprising channel, the latter fails this task.
+Can the reader follow the opening expression into a connected background and
+understand how that background expands or shifts the ayah's main meaning?
+Check the selected connections against their editorial explanation: can the
+reader tell where the nonordinary details come from, with the necessary
+qualifications intact? Repair generic explanation, isolated curiosities, or a
+compressed findings list by developing the selected channel. Do not add
+omitted channels merely for coverage. Do not output this check.
+
+Write only the invitation text to:
+
+`_commentary/v5/editorial/s005-p06-with-fatiha/s005/5_77/5_77.invitation.tr.md`
+
+Do not add a heading, wrapper label, index, ledger, evidence file, or any other
+artifact. Do not modify the editorial prose.
+
+After writing the invitation, run:
+
+```bash
+python3 _commentary/v5/validate_prose.py _commentary/v5/editorial/s005-p06-with-fatiha/s005/5_77/5_77.invitation.tr.md
+```
+
+If validation fails, repair only the reported mechanical file-contract issues
+and rerun it, for at most two repair cycles. Report the final validator result
+in your response.
+
+<editorial_prose>
+## Buyruğun Çerçevesi
+
+Bu âyet, Kitap Ehli'ne yöneltilmiş iki parçalı bir uyarıyı tek bir buyrukta toplar: dinlerinde hak ölçüsünün dışına taşmamaları ve daha önce sapmış, birçoklarını saptırmış, ardından yolun dengeli kısmından ayrılmış bir topluluğun arzularını izlememeleri istenir. İlk söz olan {ar:قُلْ, tr:qul, gloss:söyle}, ikinci tekil emir biçimiyle bu sözün peygamber aracılığıyla ulaştırılan bir buyruk olduğunu kurar. {ar:يَا, tr:yā, gloss:ey} hitabı yetkiyi açıklamadan önce duyurur; uzayan {ar:يَا أَهْلَ الْكِتَابِ, tr:yā ahla al-kitāb, gloss:Ey Kitap Ehli} çağrısından sonra gelen kısa {ar:لَا, tr:lā, gloss:sakın} ise sesi doğrudan yasağa çevirir. Böylece {ar:قُلْ, tr:qul, gloss:söyle} bütün sözün iletilmiş çerçevesini kurarken, iki yasak aynı muhatap üzerinde art arda belirir.
+
+{ar:أَهْلَ, tr:ahla, gloss:ehli} sözü, {ar:يَا, tr:yā, gloss:ey} sonrasındaki hitap tamamlayıcısıdır; {ar:الْكِتَابِ, tr:al-kitāb, gloss:kitap} ise tamlamanın ikinci unsurudur ve topluluğu kitabın belirlediğini gösterir. {ar:أَهْلَ الْكِتَابِ, tr:ahla al-kitāb, gloss:Kitap Ehli} ifadesinde kitap, topluluğun aidiyetini kuran yazılı vahiy ve bağlayıcı düzen olarak öne çıkar. {ar:الْكِتَابِ, tr:al-kitāb, gloss:kitap} kelimesinin yazmayı ve parçaları bir araya getirip dikerek birleştirmeyi hatırlatan sözlük alanı, kitabın bağlayıcı aidiyet kurma işlevini yoğunlaştırır. Sonraki buyruklar ve tarihsel gerekçe, başka bir muhataba kaymadan bu topluluğa bağlı kalır.
+
+## Hak Ölçüsünün İçinde
+
+İlk yasak {ar:لَا, tr:lā, gloss:sakın} ile kurulur; ardından gelen {ar:تَغْلُوا, tr:taghlū, gloss:taşkınlık etmeyin} fiili cezmedilmiş bir nehiy olarak doğrudan “taşkınlık etmeyin” buyruğunu taşır. {ar:فِي, tr:fī, gloss:içinde} ile kurulan {ar:فِي دِينِكُمْ, tr:fī dīnikum, gloss:dininizde} alanı, sınır aşımının dışarıdaki soyut bir kusurda değil, muhatapların dinî yaşayışında gerçekleştiğini gösterir. {ar:دِينِكُمْ, tr:dīnikum, gloss:dininizde} içindeki ikinci çoğul iyelik, hitabı aynı toplulukta tutar. Burada {ar:دِينِكُمْ, tr:dīnikum, gloss:dininizde}nin canlı anlamı üstün bir iradeye boyun eğme, onun buyruğuna dayanan inanç ve itaat düzenidir; kulluk bu düzenin özel bir görünümüdür.
+
+{ar:تَغْلُوا, tr:taghlū, gloss:taşkınlık etmeyin} fiilinin ardından gelen {ar:غَيْرَ الْحَقِّ, tr:ghayra al-ḥaqq, gloss:hak dışında} ifadesi, yasağın hangi sınırın aşılmaması gerektiğini belirler. {ar:غَيْرَ, tr:ghayra, gloss:başka veya dışında}nın mansup biçimi, taşkınlığın tarzını ve ölçüsünü bildirir; ifade böylece dinî hareketin hakikat ölçüsüyle ilişkisini sınırlar. {ar:الْحَقِّ, tr:al-ḥaqq, gloss:hakikat ve doğru} belirli ve tanınan gerçekliği, gerçeğe uygunluğu ve bağlayıcı hakkı öne çıkarır. Dinî yoğunluk, bilinen hakikat ve gerçeklik standardı içinde tutulur.
+
+{ar:تَغْلُوا, tr:taghlū, gloss:taşkınlık etmeyin} kelimesinin fiyatın aşırı yükselmesi, zincire vurma ve bir şeyi gizlice alma yönündeki başka kullanımları da bu sınırın maddi biçimlerini duyurur. {ar:فِي دِينِكُمْ, tr:fī dīnikum, gloss:dininizde} bunları dinî alana yerleştirince üç ayrı hareket belirir: fiyatın yükselmesi değerin kabarmasını, zincir görüntüsü hareketin bağlayıcı bir hâl almasını, gizlice alma ise hakkın geri çekilmesini duyurur. Bu üç maddi yüz, hakkı zedeleyen dinî taşkınlığın basıncını somutlaştırır; bağlantının kapsamı bu niteliklerle sınırlıdır. Fiilin ağır ünsüz dokusu, biraz sonra gelecek {ar:تَتَّبِعُوا, tr:tattabiʿū, gloss:izlemeyin} fiilinin sıkı dokusuyla birlikte iki yasağı işitsel olarak öne çıkarır.
+
+Sınır fikri 5:73'teki {ar:يَنتَهُوا, tr:yantahū, gloss:son versinler} ile 5:79'daki {ar:يَتَنَاهَوْنَ, tr:yatanāhawna, gloss:birbirlerini sakındırsınlar} hareketlerinde iki ayrı durma biçimi kazanır: ilki erişilen son noktayı, ikincisi insanların birbirini durdurmasını gösterir. Bu karşılaşma, {ar:تَغْلُوا, tr:taghlū, gloss:taşkınlık etmeyin} fiilini ortak bir eşiği zorlayan ve onun ötesine geçmemesi gereken bir basınç olarak duyurur. Kelimenin çevresindeki kaynayan sıcaklık taşan harareti, okun eriştiği uzak menzil ise ölçülü aralığın dışına fırlayan erişimi maddileştirir. Bu iki görüntü, odaktaki yasağın durdurduğu basıncın nasıl oluştuğunu gösterir; bağlantı ortak eşik ve durma hareketiyle sınırlı kalır.
+
+5:64'teki artış ve sınırı geçme hareketi ile 5:66'da dinî düzenin ayağa kaldırılıp iki uç arasında dengede tutulması, aynı alımlama alanının iki yönünü görünür kılar. Alınan hakikat, 5:64'teki tepki gibi ölçüsüz biçimde büyütülebilir; 5:66'daki kuruluş ise onu düzgün ve orta ölçülü bir düzene yerleştirir. Böylece {ar:غُلُوّ, tr:ghulūw, gloss:hak dışı aşırılık} yalnız miktarın çokluğuna değil, hakikatin yaşanırken şişirilip sınırın ötesine taşınmasına da bağlanır. Bu karşılaştırma, odaktaki buyruğun hakikati yaşama biçimine getirdiği ölçüyü aydınlatır; 5:64 ve 5:66 ile odak arasındaki ilişki ortak ölçü düzeyinde kalır.
+
+{ar:دِينِكُمْ, tr:dīnikum, gloss:dininizde} kelimesinin borç, hesap, yargı, gelenek ve otoriteyi hatırlatan geniş alanı da {ar:غَيْرَ الْحَقِّ, tr:ghayra al-ḥaqq, gloss:hak dışında} ile temas ettiğinde sınırlı bir sorumluluk yankısı açar: taşkınlık, ödenmesi gereken borcu, verilen hükmü veya uyulması gereken buyruğu bozuyor gibi duyulur. Bu yankı dinî düzenin bağlayıcılığını ve sorumluluk ağırlığını artırır. Odak âyetin açık sözü belirli bir hesap gününü değil, dinî düzen içindeki ölçüyü belirler.
+
+## Arzunun İzlediği Yol
+
+İkinci yasak, ilkini kesen yeni bir konu değil, onun yönünü sürdüren {ar:وَلَا, tr:wa-lā, gloss:ve sakın} bağlacıdır. İki {ar:لَا, tr:lā, gloss:sakın} aynı hitap içinde iki vuruş kurar: önce dinî alanda taşmamak, sonra bu ölçüyü terk ettiren arzuların peşine düşmemek. {ar:تَتَّبِعُوا, tr:tattabiʿū, gloss:izlemeyin} fiili doğrudan {ar:أَهْوَاءَ, tr:ahwāʾa, gloss:arzular} nesnesini yönetir. Bu yapı, arzuyu içte duran bir duygu olmaktan çıkarıp fiilin adım adım izlediği etkin bir yöneliş haline getirir. Fiilin çift ünsüzlü yapısı söyleyişi ağırlaştırır; hemzeli {ar:أَهْوَاءَ, tr:ahwāʾa, gloss:arzular} içindeki kırılma da takip edilen yönün düz ve kolay bir akış olmadığını duyurur.
+
+Buradaki {ar:تَتَّبِعُوا, tr:tattabiʿū, gloss:izlemeyin}, aranan şeyi zaman aralıklarında birbirini izleyen adımlarla araştıran süreklilikli bir takip eylemidir; bu bağlantının ölçüsü ani etkilenme veya hızla yetişme değil, iz sürmenin adım adım kurulmasıdır. {ar:أَهْوَاءَ, tr:ahwāʾa, gloss:arzular} benliğin sevgiye, isteğe ve haz verene içten yönelmesidir. Aynı kelime alanındaki aşağı doğru düşme ve hızlı, sert ilerleme yüzleri bu yönelişe ikinci bir hareket kazandırır: arzu, dengeli yolun altına çeken ve kişiyi ileri doğru sürükleyen bir eğilim gibi duyulur. Bu bağlantının kapsamı iç isteğin yönelişidir; fiziksel düşme-yükselme, hava, şaşkınlık ve ölüm-yas görüntüleri bu sahneye eklenmez.
+
+Bu tercih, ayetin sonundaki yol ölçüsüne doğru ilerler. {ar:سَوَاءِ, tr:sawāʾi, gloss:orta ve dengeli} iki yan arasındaki dengeli ve yansız merkezi, {ar:السَّبِيلِ, tr:al-sabīl, gloss:yol} ise bir amaca götüren üzerinde yürünebilir güzergâhı kurar. Böylece üç sapma hareketi aynı hattın terk edilişini aşamalı biçimde gösterir: topluluk önce kendi yönünü kaybeder, sonra başkalarının yönünü bozar, ardından yeniden kendi yolundan ayrılır. Yol dili burada fiziksel nesne kaybını değil, doğru yön ve amacın yitirilmesini görünür kılar. Bu yerel kullanımın maddi işlemi bir yolcu, hayvan veya malı ayırıp aşağı salmak değil; dengeli güzergâhtan ayrılan yön ve amaçtır.
+
+Son {ar:وَضَلُّوا, tr:wa-ḍallū, gloss:ve saptılar} fiili geçişsizdir; onu izleyen {ar:عَنْ, tr:ʿan, gloss:-den uzak} öbeği, eylemin doğrudan bir nesneye değil, bırakılan ölçüye yöneldiğini gösterir. {ar:عَنْ, tr:ʿan, gloss:-den uzak} böylece son sapma ile {ar:سَوَاءِ السَّبِيلِ, tr:sawāʾi al-sabīl, gloss:yolun orta ve dengeli kısmı} arasında menteşe olur. {ar:سَوَاءِ, tr:sawāʾi, gloss:orta ve dengeli} burada iki nesnenin eşitliğini değil, iki kenar arasında kalan yürünebilir orta alanı bildirir; belirli {ar:السَّبِيلِ, tr:al-sabīl, gloss:yol} ise herhangi bir yolu değil, tanımlı bir yol standardını gösterir. {ar:السَّبِيلِ, tr:al-sabīl, gloss:yol} kelimesinin serilme veya dökülme yönündeki yan çağrışımı, hattın açılmış ve üzerinde yürünebilir yüzünü maddileştirir; temel yol anlamı bu maddi açıklık içinde korunur. {ar:عَنْ, tr:ʿan, gloss:-den uzak} edatının burundan kapanan sesi {ar:سَوَاءِ, tr:sawāʾi, gloss:orta ve dengeli}na yaslanırken, son öbeğin akıcı dokusu ve artikelin idğamı tilavette sapma baskısından tanımlı yolun çözücü kapanışına geçiş sağlar.
+
+Bu tamlama, ilk yasağın ölçüsünü de tamamlar. {ar:دِينِكُمْ, tr:dīnikum, gloss:dininizde}nin boyun eğme ve itaat düzeni, {ar:تَغْلُوا, tr:taghlū, gloss:taşkınlık etmeyin} ile birlikte yaşanan ve bağlayıcı bir alan olarak belirir. {ar:غَيْرَ, tr:ghayra, gloss:başka veya dışında}nın dışta bırakma ilişkisi {ar:الْحَقِّ, tr:al-ḥaqq, gloss:hakikat ve doğru}nun gerçeğe uygun ve sağlam ölçüsüyle buluşur; {ar:سَوَاءِ, tr:sawāʾi, gloss:orta ve dengeli} ile {ar:السَّبِيلِ, tr:al-sabīl, gloss:yol} ise bu ölçüyü üzerinde ilerlenen bir hatta görünür kılar. Böylece dinî itaat, hakikat ve yürünebilir yol standardının dışına taşımama buyruğu olarak keskinleşir.
+
+## Topluluğun Üç Hareketi
+
+{ar:أَهْوَاءَ, tr:ahwāʾa, gloss:arzular} kelimesinin hemen ardından gelen {ar:قَوْمٍ, tr:qawmin, gloss:bir topluluğun}, izlenen yönelişleri belirli bir topluluğun tercihlerine bağlar. Buradaki temel gönderim, kadınlardan ayrı düşünülen erkekler topluluğu ve yakın insan çevresinde tutulur. Aynı {ar:قَوْمٍ, tr:qawmin, gloss:bir topluluğun} hem arzuların sahibi hem de ardından gelen sapma tarihinin öznesidir. Kelimenin tenvinli ve belirsiz bırakılmış oluşu kaynak topluluğun adını, {ar:كَثِيرًا, tr:kathīran, gloss:çoklarını} ise etkilenenlerin sayısını açık uçlu tutar; bu açıklık uyarıyı genelleştirir, belirli bir topluluk adı veya sayı yüklemez.
+
+Topluluğun ardından gelen {ar:قَدْ, tr:qad, gloss:gerçekten} ile geçmiş zamanlı {ar:ضَلُّوا, tr:ḍallū, gloss:saptılar}, sapmayı ihtimal değil, gerçekleşmiş bir geçmiş olarak kurar. {ar:قَدْ, tr:qad, gloss:gerçekten} adı verilen topluluk ile onun kanıtlanmış sapması arasında menteşe olur. {ar:مِنْ قَبْلُ, tr:min qablu, gloss:önceden} ise bu geçmişi şimdiki hitaptan önceye yerleştirir ve ilk sapmayı sonraki toplumsal etkiden zaman bakımından ayırır. {ar:قَبْلُ, tr:qablu, gloss:önce} kelimesinin birincil işi zaman önceliğidir; yüzün döndüğü yönü ve kıbleyi hatırlatan yankısı bu önceliğe örtük bir yön duygusu ekler. Kurulan sahne, geçmişte kurulmuş bir önceliğin ve yön kaybının devralınmasıdır.
+
+Ardından gelen {ar:وَأَضَلُّوا, tr:wa-aḍallū, gloss:ve saptırdılar}, ilk {ar:ضَلُّوا, tr:ḍallū, gloss:saptılar} fiiline başkalarını yoldan çıkaran geçişli bir eylem ekler. {ar:كَثِيرًا, tr:kathīran, gloss:çoklarını} bu fiilin doğrudan nesnesi olarak okunduğunda, söz yalnızca “çok saptırdılar” demekle kalmaz; saptırılan birçok kişiyi görünür kılar. Çokluk böylece sıradan bolluktan, başkalarının yönünü bozmanın ahlaki sonucunu taşıyan bir etkiye dönüşür. {ar:أَضَلُّوا, tr:aḍallū, gloss:saptırdılar} biçiminin bir şeyi kaybettirme veya yerini şaşırtma gölgesi burada insanların yönlerini yitirmesine bağlanır.
+
+Üç {ar:وَ, tr:wa, gloss:ve} bağlacı olayları art arda eklenen hareketler halinde duyurur: önce kendi yönünü kaybetme, sonra bunu başkalarına taşıma, ardından yeniden kendi yolundan ayrılma. Ortadaki {ar:وَأَضَلُّوا, tr:wa-aḍallū, gloss:ve saptırdılar} iki {ar:ضَلُّوا, tr:ḍallū, gloss:saptılar} görünüşünün arasında durduğu için kamusal zarar dizinin merkezine yerleşir; çift lâm da bu tırmanışı ilk ve son sapmaya bağlar. {ar:قَدْ, tr:qad, gloss:gerçekten}nın qaf-dal başlangıcının keskinliği, {ar:مِنْ قَبْلُ, tr:min qablu, gloss:önceden} ifadesindeki burundan kapanan sesle birlikte kurulmuş geçmişin sıkı bir ses çerçevesini verir.
+
+Üçüncü çoğul {ar:ضَلُّوا, tr:ḍallū, gloss:saptılar} biçimi, yüzeyde tek bir topluluk adı bulunsa da sorumluluğu ortak özneye dağıtır. Aynı kökün süreğen görünüşü olan {ar:يَضِلُّونَ, tr:yadillūna, gloss:sapıyorlar} ise sapmanın topluluk içinde sürmesini adlandıran ayrı bir biçimsel imkân açar; 5:78, 5:79 ve 5:80'de görülen devam eden toplumsal tablo bu zaman farkını görünür kılar. Böylece geçmişte kurulmuş sapma, başkalarına yayılan etki ve topluluk içinde süren yön kaybı birbirine karışmadan aynı uyarının çevresinde okunur.
+
+## Arzunun Aktarıma Dönüşmesi
+
+{ar:تَتَّبِعُوا, tr:tattabiʿū, gloss:izlemeyin} ile {ar:أَهْوَاءَ, tr:ahwāʾa, gloss:arzular} arasındaki ilişki, arzuyu yalnızca kişisel zevk değil, düzeltici sözü alıp almamayı belirleyen bir alımlama yolu olarak da gösterir. 5:70'te arzunun mesajlar arasında seçici davranıp elçiyi yanlış sayması, düzeltici içeriği daha girişte durduran ilk eşiği kurar. 5:71'de sınanmadıkları halde yanlışa kapılmaları, düzeltilmeye ihtiyaç olmadığını varsaymayı bu filtrenin ara adımı haline getirir. Aynı iki sahnedeki tekrarlanan körlük, istenmeyen içeriğin görülmemesini; tekrarlanan işitmeme, kapanmanın sözü duymama yönünü sürdürür. Bu nedenle 5:70 ve 5:71, odaktaki takip yasağını başkasının zevkine kapılmama uyarısından, kendini düzelten sözü girişte eleyen bir tercih düzenine doğru genişletir. Bu genişlemenin kapsamı odaktaki arzu-takip ilişkisiyle sınırlıdır; aynı kelimenin diğer kullanımları bu filtreye taşınmaz.
+
+Filtre topluluk içinde korunduğunda, üçlü sapma dizisi bir aktarım hareketi kazanır. Bu hareketin başındaki eksik fren 5:63'te yöneticilerin engellememesiyle görünür olur. 5:78'de itaatten ayrılma ve sınırı geçme, durdurulmayan davranışın içeriğini belirler. 5:79'da karşılıklı uyarının kesilmesi ve bırakılması gereken davranışın bırakılması, grubun kendi içindeki ikinci fren kaybını açığa çıkarır. 5:80'de destekleyici bağlılık yanlış davranışı çevrede tutup yayabilecek ilişki bağını sağlar. Böylece {ar:قَوْمٍ, tr:qawmin, gloss:bir topluluğun} ile {ar:كَثِيرًا, tr:kathīran, gloss:çoklarını}nın açtığı alan, yalnızca sözle ikna edilmeyi değil, ihlali durdurmayan ilişkiler içinde genişleyen bir norm aktarımını da taşır. Bu bağın kapsamı zorunlu bir geri besleme devresi değil, 5:63, 5:78, 5:79 ve 5:80'in odaktaki topluluk ve çokluk ifadelerine bağlı olarak aktarımın farklı aşamalarını aydınlatmasıdır.
+
+## Gerçeklik Sınavı
+
+Dinî yüceltme iddiası, 5:75'te beden ve kudret üzerinden somut bir sınamaya açılır. {ar:يَأْكُلَانِ, tr:yaʾkulāni, gloss:ikisi yer} gösterimi görünürde yüceltilen iki varlığın yaratılmış bedenin ihtiyacından bağımsız olmadığını gösterir. Aynı âyetteki {ar:يَنظُرِ, tr:yanẓur, gloss:baksın} sorusu göze görünen bedeni incelemeye ve iddianın dayanağını yoklamaya çağırır; {ar:نُبَيِّنُ, tr:nubayyin, gloss:açıklarız} ifadesi de görünen işaretlerin anlamını açığa çıkarma hareketini kurar. Bunun ardından gelen {ar:يُؤْفَكُونَ, tr:yuʾfakūna, gloss:tersine çevriliyorlar} sorusu, delil görünürken hükmün ters yöne çevrilebilmesini teşhis eder.
+
+5:76'daki {ar:أَتَعْبُدُونَ, tr:ataʿbudūna, gloss:ibadet mi ediyorsunuz} sorusu, boyun eğmenin gerçek muhatabını doğrudan gündeme getirir. {ar:ضَرًّا, tr:ḍarran, gloss:zarar} olumsuz kapasiteyi, {ar:نَفْعًا, tr:nafʿan, gloss:yarar} olumlu kapasiteyi ayrı ayrı ölçer; birlikte, zarar ve yarar üzerinde sahiplik veya etkin denetimi olmayan bir varlığın ibadet muhatabı oluşunu sınar. 5:75'te yeme, görme ve açıklama üzerinden bağımlılık görünür olurken 5:76'da ibadetin muhatabı ile fiilî kudret arasındaki fark açığa çıkar. Bu iki sahne, {ar:دِينِكُمْ, tr:dīnikum, gloss:dininizde} ve {ar:غَيْرَ الْحَقِّ, tr:ghayra al-ḥaqq, gloss:hak dışında} arasındaki sınırı pratik bir gerçeklik testine bağlar: doğruluk, yalnızca bir aidiyet adı olarak değil, görünen ihtiyaç ve güç soruları karşısında dayanabilen bir düzen olarak işitilir. Bağlantı, 5:75 ve 5:76'daki açık beden ve kudret örneklerinin taşıdığı pratik ölçüyle sınırlıdır.
+
+## Kabulün Açtığı Eşik
+
+Odaktaki arzunun kurduğu seçici kapanmanın karşısında, 5:82'de {ar:لَا يَسْتَكْبِرُونَ, tr:lā yastakbirūna, gloss:kibirlenmezler} kendini büyütmeyen bir kabul eşiği açar. Bu eşikte {ar:يَسْمَعُونَ, tr:yasmaʿūna, gloss:işitirler} fiili hakikate kulak vermeyi ilk alımlama adımı yapar. 5:83'te gözlerden akan bol yaşın {ar:تَفِيضُ, tr:tafīḍu, gloss:akar} fiiliyle görünür olması, işitilen sözün içeride yoğunlaşıp dışa doğru akan bir duyguya dönüşmesini somutlaştırır. Ardından {ar:عَرَفُوا, tr:ʿarafū, gloss:tanıdılar} fiili, duyulan sözün zihinde seçilip tanınmasına geçer. 5:82 ve 5:83'ün bu ardışıklığı, tercihle kapanan alımlamanın karşısına kibirsiz işitme, içten etkilenme ve tanıma hareketini koyar.
+
+5:83'te tanınan şey {ar:الْحَقِّ, tr:al-ḥaqq, gloss:hakikat ve doğru} olarak adlandırılınca duygu doğruluk ölçüsüne bağlanır. Sonraki {ar:فَاكْتُبْنَا, tr:faktubnā, gloss:bizi yaz} talebi, kişinin adının yazılarak tanıklık edenler arasına alınmasını somutlaştırır. {ar:الشَّاهِدِينَ, tr:al-shāhidīna, gloss:tanıklık edenler} ifadesi yeni beraberliğin açık bir şahitlik konumu olduğunu gösterir. 5:84'teki {ar:قَوْمٍ, tr:qawmin, gloss:bir topluluğun} bu kez hakikati kabul edenlerin içinde aranan alternatif beraberliği adlandırır; {ar:الصَّالِحِينَ, tr:al-ṣāliḥīna, gloss:iyilik ve doğruluk üzere olanlar} arasında sayılma, bu beraberliğe sağlamlık ve düzgünlük şartı getirir. 5:83 ve 5:84'teki yazılma, tanıklık ve salih topluluk sırası, {ar:الْكِتَابِ, tr:al-kitāb, gloss:kitap} ile açılan yazılı aidiyet yüzüne temas eder; odaktaki topluluk ile bu sonraki kabul topluluğunu ayrı tutar.
+
+## Hesabın Ufku
+
+{ar:دِينِكُمْ, tr:dīnikum, gloss:dininizde} kelimesinin sorumluluk taşıyan düzen yüzü, 1:4'teki {ar:مَالِكِ يَوْمِ الدِّينِ, tr:māliki yawmi al-dīn, gloss:din gününün sahibi} ifadesiyle daha uzak bir hesap ufkuna açılır. Bu ifade sahipliği ve belirlenmiş hesap gününü birlikte kurar. Aynı bağlamdaki {ar:الدِّينِ, tr:al-dīn, gloss:hesap ve karşılık düzeni}, bir kişi veya eylem hakkında hükme varıp hesabını görme boyutunu öne çıkarır. Böylece dinî alan sonuçları ve karşılığı bulunan, hesabı verilebilir bir düzen olarak ağırlaşır; 1:4'teki sahiplik ve gün sınırı, odaktaki {ar:دِينِكُمْ, tr:dīnikum, gloss:dininizde} için sınırlı bir sorumluluk yankısıdır. Bu ek anlamın sınırı da buradadır: 5:77'nin açık sözü belirli bir günü değil, dinî aşırılığın ölçüsünü bildirir; 1:4'ün hesap ufku bu söze sorumluluk ağırlığı ekler.
+
+## Yolun Doğru Hattı
+
+{ar:السَّبِيلِ, tr:al-sabīl, gloss:yol} kelimesinin odaktaki olağan anlamı, üzerinde ilerlenen ve amaca ulaştıran belirli güzergâhtır. 1:6'daki {ar:الصِّرَاطَ الْمُسْتَقِيمَ, tr:al-ṣirāṭa al-mustaqīma, gloss:dosdoğru yol} ile 1:7'deki sapmışlardan ayrışma, {ar:سَوَاءِ السَّبِيلِ, tr:sawāʾi al-sabīl, gloss:yolun orta ve dengeli kısmı}, {ar:ضَلُّوا, tr:ḍallū, gloss:saptılar} ve {ar:غَيْرَ, tr:ghayra, gloss:başka veya dışında} ifadelerinin açtığı yol gerilimine temas eder. Bu karşılaşma, yol dilini rotadan ayrılmanın teşhisinden doğru hatta yönelme arzusuna doğru genişletir. Odak âyet topluluğun nasıl ayrıldığını gösterirken, 1:6 ve 1:7 istenen doğru yön ile ondan ayrılanlar arasındaki farkı aydınlatır. Bu temas, 5:77'deki topluluğu 1:6 ve 1:7'deki kategorilerden ayrı tutarak {ar:السَّبِيلِ, tr:al-sabīl, gloss:yol} kelimesinin doğruluğa, iyiliğe ve kurtuluşa götüren özel yönünü belirginleştirir.
+
+## Sözün Yükü
+
+Emir ile çokluk arasında ses ve biçim düzeyinde bir yankı da kurulur. {ar:قُلْ, tr:qul, gloss:söyle} yüzeyinin azlık ve küçüklükle ilişkilendirilen çağrışımı, {ar:كَثِيرًا, tr:kathīran, gloss:çoklarını} ile karşılaşınca kısa bir müdahaleyi büyümüş sapmanın karşısına yerleştirir. Aynı söyleyiş yük kaldırma, yükselme ve yüklenerek yola koyulma yönünde bir hareketi hatırlatır; kısa söz, büyüyen sürecin üzerine yük alan bir buyruk gibi duyulur. {ar:كَثِيرًا, tr:kathīran, gloss:çoklarını}nın yalın miktar anlamı ile tekil emir arasındaki karşılaşma, bir yanda kısa ve tek söz, diğer yanda yığılmış çokluk etkisi kurar. Bu ses katmanı {ar:قُلْ, tr:qul, gloss:söyle}nin emir oluşunu korur; azlık, yük, yükselme ve yola koyulma çağrışımları buyruğun üstüne eklenen işitsel harekettir.
+
+Bu işitsel hareket, {ar:ضَلُّوا, tr:ḍallū, gloss:saptılar} ile {ar:وَأَضَلُّوا, tr:wa-aḍallū, gloss:ve saptırdılar} biçimlerindeki çift lâmın keskinliğiyle karşılaşır. Böylece kısa sözün büyüyen süreci durdurmaya yönelen bir müdahale olduğu hissedilir. Bu ilişkinin sınırı, maddi kap, titreme ya da salt yükseklik görüntüsüne; gözden kaybolma, nesne veya hayvan kaybı ve unutma anlatısına uzanmaz. Bağlamda açılan kayıp, yön ve amaçtır.
+
+## Görüşün Örtüldüğü Yol
+
+Kapanıştaki {ar:السَّبِيل, tr:al-sabīl, gloss:yol} öncelikle doğru güzergâhı taşır. Aynı kelimenin başka bir sözlük kullanımı, gözün üzerinde görüşü örten kırmızı damarlı ağsı bir perde hastalığının maddi görüntüsünü getirir ve yolun algıda örtülmesini somutlaştırır. {ar:سَوَاءِ السَّبِيلِ, tr:sawāʾi al-sabīl, gloss:yolun orta ve dengeli kısmı} içindeki {ar:سَوَاءِ, tr:sawāʾi, gloss:orta ve dengeli} ise bir yapının eğrilikten kurtulup düzgün ve tam hale gelmesini hatırlatır. Böylece yol güzergâhı, görüşü örten perde ve düzgünleşmiş yapı üç ayrı katkı olarak art arda kurulur.
+
+Bu üç görüntü 5:71'deki tekrarlanan körlükle yan yana geldiğinde, dengeli hattın algıda kapanması okunur. Aynı karşılaştırmanın açılma yüzünü 5:83'teki gören göz verir; tanımadan taşan gözyaşı ise tanınan hakikatin dışa doğru akan maddi izini gösterir. Bu birleşim yolun fiziksel durumunu değil, mevcut dengeli hattın görüşten örtülüp tanınmayla yeniden seçilmesini anlatır. Gözyaşasının işlevi hatayı silmek değil, tanımanın dışa taşan izini göstermektir; bu imge de herkes için zorunlu bir psikolojik teşhis kurmaz. 5:71 ve 5:83'ün birlikte açtığı fark, dengeli yolun algıda kapanması ile tanınma anında yeniden görünür hale gelmesi arasındaki maddi karşılaştırmadır.
+
+</editorial_prose>

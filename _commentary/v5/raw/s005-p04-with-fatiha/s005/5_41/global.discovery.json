@@ -1,0 +1,723 @@
+{
+  "schema_version": "commentary-v5-scope-discovery-v1",
+  "ayah_ref": "5:41",
+  "lane": "global",
+  "coverage_complete": true,
+  "candidate_decisions": [
+    {
+      "candidate_id": "cand_b2b8e92066eacee91c64",
+      "decision": "narrow",
+      "reason": "Ağız ve iç merkez ilişkisi odak taşıyıcıları ve 49:14 bağlantısıyla temelleniyor; ancak smʿ B011 yalnızca kötü haberin duyulup konuşana ulaşmaması dileğine bağlı ve odaktaki sammāʿūn bu kalıbı taşımıyor.",
+      "finding_refs": ["global:mouth-heart-threshold"],
+      "branch_exclusions": [{"branch_ref": "root_000741/B011", "reason": "5:41:20:1 ve 5:41:22:1 yoğun dinleyenleri niteler; B011 için gerekli kötü haber dileği kalıbı yok."}],
+      "facet_exclusions": [
+        {"branch_ref": "root_000741/B011", "facet_id": "F001", "reason": "Odaktaki yalan ve başka topluluk için dinleme, kötü haberin işitilmesi anlamını taşımıyor."},
+        {"branch_ref": "root_000741/B011", "facet_id": "F002", "reason": "Haberin konuşana ulaşmaması dileği için gerekli sabit kalıp odak yüzeyinde yok."}
+      ],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_db08e0ca3dfb65609387",
+      "decision": "accept",
+      "reason": "Tahrif, konum ve sınama dalları ayrı odak taşıyıcılarıyla ve birbirini açıklayan seçme-kaydırma-sınama ilişkisiyle etkinleşiyor; 4:46 ve 5:13 bağlantıları bu düzeni genişletiyor.",
+      "finding_refs": ["global:selective-judgment-assay"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_f5cf41899ebafeaeaec4",
+      "decision": "accept",
+      "reason": "Arınma dalı 5:41:57:1'de taşınıyor; ağız, kalp, dinleme ve sözün kaydırılması ile 41:5'teki örtülü kalp-kapalı kulak karşılığı, arınmanın iletişim güzergâhını yeniden bağlayan işlevini destekliyor.",
+      "finding_refs": ["global:purification-route"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_9b63ac15b68c7b9128c2",
+      "decision": "accept",
+      "reason": "Ağız taşıyıcısı iki yoğun dinleme biçiminin yalan ve gelmemiş topluluğa yönelimi arasında sosyal aktarım noktası olarak etkinleşiyor; 41:26'daki dinlemeyi bastırma talebi bu mekanizmaya geniş temas sağlıyor.",
+      "finding_refs": ["global:speech-relay"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_0fe46f89721ba90e48ef",
+      "decision": "accept",
+      "reason": "Fitna dalı, hüküm verilince alma ve verilmeyince sakınma tepkilerini üreten iki koşullu düzenekle doğrudan sınama anlamı kazanıyor.",
+      "finding_refs": ["global:selective-assay"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_871a3f8a8e8f24555446",
+      "decision": "accept",
+      "reason": "Retrospektif kayıt, 5:42'deki haram kazanç yiyicileriyle 5:41'de yalan için yinelenen dinlemeyi ve 5:44'teki güvenilir koruma karşılığını aynı aktarım arızasının iki yönü olarak bağlıyor.",
+      "finding_refs": ["global:intake-economy"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_e7835e2cda4a8350f594",
+      "decision": "accept",
+      "reason": "İki sammāʿūn taşıyıcısı B001'in yoğun dinleme çekirdeğiyle ve yalan ile gelmemiş topluluk için dinleme yönleriyle birleşiyor; 5:42 ve 5:44 bu alıcının dış talep taşıyan aracı niteliğini görünür kılıyor.",
+      "finding_refs": ["global:hearing-relay"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_83f472a3c53028bad9b0",
+      "decision": "represented",
+      "reason": "Kalbin arınmamasını kopuk güzergâh olarak okuyan aday, aynı taşıyıcıyı ve değişmiş anlamı global:purification-route bulgusunda eksiksiz taşıyor.",
+      "finding_refs": ["global:purification-route"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_b2f0354f2755b3349b5a",
+      "decision": "reject",
+      "reason": "5:120 bağlantısı packet içinde no value; adayın sabit ayete dönen belirli taşıyıcısı, bağımsız tetikleyicisi ve değişmiş okuması yok.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [{"context_ref": "5:120", "reason": "Mevcut bağlantı no value ve odak yüzeyine dönen bağımsız taşıyıcı göstermiyor."}],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_3ff6ae1b9b7640ee1df1",
+      "decision": "reject",
+      "reason": "Yara-correspondence modelinin mümkün olabileceğini söyleyen bu kayıt, odak veya bağlam oluşumu, dal, bağımsız tetikleyici ve okuyucu getirisi vermiyor; gerçek outlier izi ayrı adayda inceleniyor.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_038920910c754c39ca52",
+      "decision": "reject",
+      "reason": "İlahi istemenin önceki tercihlerle nedensel ilişkisini çözmediğini bildiren özet, odakta taşıyıcıya veya bağımsız tetikleyiciye bağlanmıyor ve değişmiş okuma kurmuyor.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_caca05c4dfc42308e831",
+      "decision": "reject",
+      "reason": "Burial ve enacted-purity outlierlarının keşifsel tutulması bir sınır notu; kendisi belirli taşıyıcı, tetikleyici ve okuyucuya yeni anlam veren aktivasyon sunmuyor.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_61c19e7cd13b3a04b28e",
+      "decision": "accept",
+      "reason": "İki sammāʿūn taşıyıcısı ve 5:42'deki çifte dinleme-yeme eşleştirmesi, legacy_unbound statüsünde keşifsel bir alım ekonomisi okuması kuruyor.",
+      "finding_refs": ["global:illicit-intake"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_d5a7ecf72f3f3f45e507",
+      "decision": "accept",
+      "reason": "Tahrif taşıyıcısı pasif teslim alınan hüküm ve al-sakın koşullarıyla temas ediyor; 5:13 aynı kelime-konum-kalp kaydırmasını daha geniş sure içi emanet ve yargı yüzeyine bağlıyor.",
+      "finding_refs": ["global:adjudicative-custody"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_395bfe49c00a4c5c90ed",
+      "decision": "accept",
+      "reason": "Fitna taşıyıcısı odaktaki koşullu hüküm seçimiyle sınama anlamı kazanıyor; 5:49 tekrarı seçici yargı baskısı için ayrı tetikleyici sağlıyor.",
+      "finding_refs": ["global:fitna-pressure"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_b6b7489e81a58fecc666",
+      "decision": "accept",
+      "reason": "Odaktaki süreklilik bildiren hızlanma, 5:52'deki aynı acele yankısıyla birleşiyor; siyasi riskten korunma okuması legacy_unbound keşifsel bağlamında tutuluyor.",
+      "finding_refs": ["global:rush-hedging"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_af0c1a3c141729bb5e17",
+      "decision": "reject",
+      "reason": "Relay, appetite, custody, correspondence, provenance, adjudication ve hedging listesini genel bir özet halinde tekrar ediyor; belirli taşıyıcı ve yeni bağımsız okuma sunmuyor.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_ded3dfe86ad75315c18c",
+      "decision": "accept",
+      "reason": "HFT izi 5:31 ve 5:41 exact yüzeylerini, odak koordinatlarını, kökleri, rolleri ve odağa dönüşü veriyor. Üç kayıtlı dal exact facet ile, root_001642/B005 ise gloss ve facet uydurmadan attributed modda taşınabiliyor.",
+      "finding_refs": ["global:concealment-burial"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    }
+  ],
+  "findings": [
+    {
+      "finding_ref": "global:mouth-heart-threshold",
+      "origin_candidate_id": "cand_b2b8e92066eacee91c64",
+      "represented_candidate_ids": [],
+      "title": "Ağızdan çıkan söz ile iç kabulün ayrılması",
+      "claim": "Ağızla söylenen iman iddiası, kalbin onu içten doğrulamasından ayrıldığında söz toplumsal olarak dolaşır; ayet bu dolaşımın iç kabul üretmediğini görünür kılar.",
+      "mechanism": "5:41:13:2'deki afwah taşıyıcısı sözü bedensel bir çıkış olarak kurar; 5:41:16:1 ve 5:41:58:1'deki qulub taşıyıcıları iç kavrayış merkezini kurar. 49:14'ün ağızda kalan iman iddiası ile imanın kalbe girişi arasındaki karşılığı bu iki odak kutbunu genişletir.",
+      "reader_payoff": "Okuyucu, ilk grubun sözünü yalnızca bir inanç cümlesi değil, dışarı verilen ve iç merkeze ulaşması ayrıca gereken bir aktarım olarak görür.",
+      "containment": "Bu okuma ayetin ağız ve kalp karşıtlığını genişletir; her sözlü iman ifadesi hakkında ayet dışı bir hüküm kurmaz.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": ["trusted"],
+        "reason": "Citable cross-run finding exact odak taşıyıcılarını veriyor ve 49:14 aynı ayrımı doğrudan karşılıyor; smʿ B011 form uyumsuzluğu nedeniyle dışarıda bırakıldı."
+      },
+      "support_ids": ["sup_b5ac95a6d381219c1378"],
+      "branch_activations": [
+        {
+          "branch_ref": "root_001190/B001",
+          "facet_id": "F001",
+          "branch_gloss": "ağız ve ağız ağıza konuşma",
+          "facet_statement": "İnsan ağzını ve ağız adının temel kuruluşunu, tekil ve çoğul söz biçimleriyle karşılar.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["5:41:13:2"],
+          "trigger_refs": ["5:41:12:1", "49:14"],
+          "focus_return_refs": ["5:41:13:2"],
+          "carrier": "İnsan ağzı ve sözün dışarı açıldığı organik açıklık.",
+          "independent_trigger": "5:41:12:1'deki tamamlanmış iman iddiası bir söz edimi olarak gelir; 49:14 bu dış iddia ile kalbe giriş arasındaki ayrımı verir.",
+          "activation": "Ağız taşıyıcısı iman iddiasının dışarı verilen yüzünü, kalp taşıyıcısı ise iç doğrulama noktasını kurar; geniş bağlantı bu temasın alıcıya ulaşma ilişkisi olduğunu açar.",
+          "resulting_reading": "İman sözü, iç kabul gerçekleşmeden dolaşabilen bir dış aktarım olarak okunur.",
+          "boundary": "Ağız dalının organ ve doğrudan konuşma alanı korunur; bütün konuşmalar veya bütün iman iddiaları hakkında genelleme yapılmaz."
+        },
+        {
+          "branch_ref": "root_001248/B001",
+          "facet_id": "F002",
+          "branch_gloss": "yürek ve iç merkez",
+          "facet_statement": "Aynı sözcük iç kavrayış, akıl ve anlama gücü için kullanılabilir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["5:41:16:1", "5:41:58:1"],
+          "trigger_refs": ["5:41:13:2", "49:14"],
+          "focus_return_refs": ["5:41:16:1", "5:41:58:1"],
+          "carrier": "Yürek, sözün iç kavrayış ve anlama merkezine dönüştüğü merkezdir.",
+          "independent_trigger": "Ağız taşıyıcısının dış söz üretmesi ve 49:14'ün imanın kalbe girişini ayrı bir aşama olarak vermesi.",
+          "activation": "Kalp, ağızdan çıkan iddianın doğrulandığı iç kavrayış alanı olarak devreye girer; iki yüzey arasındaki temas dış söz ile iç kabul arasındaki açıklığı görünür kılar.",
+          "resulting_reading": "Kalbin inanmaması, sözün alıcı merkeze varmadan toplumsal dolaşımda kalması şeklinde görünür.",
+          "boundary": "İç merkez ilişkisi korunur; ayet kalbin bütün bilgi ve duygu işlevlerini açıklamaz."
+        }
+      ],
+      "connection_refs": ["conn_eb108645a7aead01392e"],
+      "context_refs": ["49:14"],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:selective-judgment-assay",
+      "origin_candidate_id": "cand_db08e0ca3dfb65609387",
+      "represented_candidate_ids": [],
+      "title": "Seçici hüküm kapısı",
+      "claim": "Sözü yerinden kaydırıp ardından verilen hükme yalnızca istenen yönde karşılık vermek, hükmü bir bilgi olarak almaktan çıkarıp karşısındaki kişileri açığa çıkaran bir sınama haline getirir.",
+      "mechanism": "5:41:27:1'deki tahrif taşıyıcısı 5:41:31:1'deki konum taşıyıcısıyla temas eder. 5:41:34:1 ve 5:41:39:1'de pasif verilen hüküm çerçevesi, 5:41:36:2'deki alma ve 5:41:40:2'deki sakınma buyruklarıyla seçici alım protokolüne dönüşür; 4:46 ve 5:13 aynı söz-konum-yargı düzenini genişletir.",
+      "reader_payoff": "Okuyucu, al ve sakın tepkilerinin hükmün içeriğini değil, hüküm karşısındaki seçici alıcılığı teşhis ettiğini fark eder.",
+      "containment": "Bu, ayetin tahrif ve sınama ilişkisini açıklayan bir genişlemedir; her olumsuz hükmün yanlış veya her hükmün yalnızca test olduğu söylenmez.",
+      "epistemic": {
+        "status": "grounded",
+        "source_trust": ["trusted"],
+        "reason": "Üç dalın exact focus taşıyıcıları citable yayın desteğiyle geliyor; 4:46 ve 5:13 aynı kelime-konum ve kalp-yargı mekanizmasını bağımsız biçimde karşılıyor."
+      },
+      "support_ids": ["sup_e2b61d7cfc6e75d1ac50"],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000310/B003",
+          "facet_id": "F003",
+          "branch_gloss": "yönünden sapma, saptırma, anlam bozma veya eğik kesme",
+          "facet_statement": "Sözü yerinden ya da anlamından uzaklaştırarak değiştirme ve bozmadır.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["5:41:27:1"],
+          "trigger_refs": ["5:41:31:1", "4:46"],
+          "focus_return_refs": ["5:41:27:1"],
+          "carrier": "Sözü yönünden ve yerinden uzaklaştırarak değiştirme.",
+          "independent_trigger": "5:41:31:1'de sözlere ait konumların kurulması ve 4:46'da kelimelerin konumlarından kaydırılmasıyla işitme-itaat karşıtlığının verilmesi.",
+          "activation": "Tahrif fiili konum adıyla temas ettiğinde değişikliğin rastgele değil, kurulmuş bir yer düzenine yöneldiğini gösterir.",
+          "resulting_reading": "Sözün kaydırılması, seçilecek hükmün alıcı lehine yeniden konumlandırılması olarak belirginleşir.",
+          "boundary": "Harf ucu eğikliği veya genel fiziksel sapma dalları bu aktivasyona taşınmaz."
+        },
+        {
+          "branch_ref": "root_001657/B001",
+          "facet_id": "F002",
+          "branch_gloss": "bir şeyi indirip yerine koyma; konduğu yer",
+          "facet_statement": "Eylem alanından nesnenin konduğu yer veya konum adı gelişir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["5:41:31:1"],
+          "trigger_refs": ["5:41:27:1", "5:13"],
+          "focus_return_refs": ["5:41:31:1"],
+          "carrier": "Sözlerin konduğu yerler ve belirlenmiş konum.",
+          "independent_trigger": "5:41:27:1'deki tahrif ve 5:13'teki broken covenant, hardened hearts ve aynı kelime-konum kaydırması.",
+          "activation": "Konum taşıyıcısı, tahrifin sözü kendi anlam veya bağlam yerinden çıkarma işlemi olduğunu görünür kılar; 5:13 bu ilişkinin sure içinde tekrarlanan bir emanet ihlali olduğunu açar.",
+          "resulting_reading": "Sözün yeri, adil alım konumundan seçici kararın kapısına dönüştürülür.",
+          "boundary": "Konum dalının fiziksel yerleştirme kullanımları bu söz-yargı bağlamına taşınmaz."
+        },
+        {
+          "branch_ref": "root_001128/B001",
+          "facet_id": "F001",
+          "branch_gloss": "sınayarak niteliğini ortaya çıkarma",
+          "facet_statement": "Sınama, denenen kimsenin ya da şeyin gerçek durumunu ve niteliğini görünür kılar.",
+          "application_mode": "intrinsic_cross_root",
+          "carrier_refs": ["5:41:44:1"],
+          "trigger_refs": ["5:41:34:1", "5:41:36:2", "5:41:39:1", "5:41:40:2"],
+          "focus_return_refs": ["5:41:44:1"],
+          "carrier": "Fitna, deneneni açığa çıkaran sınama işlemi.",
+          "independent_trigger": "Pasif verilen hüküm ile verilmeyince sakınma buyruğunun yan yana kurulması ve alıcının iki durumda farklı davranmaya çağrılması.",
+          "activation": "Seçici alım protokolü fitna taşıyıcısının gerçek niteliği açığa çıkaran sınama anlamıyla temas eder.",
+          "resulting_reading": "Sınama, hükmü değiştiren bir araç değil, hüküm karşısındaki seçimin niteliğini açığa çıkaran bir işlemdir.",
+          "boundary": "Fitna dalının ateşte maden eritme özel facet'i ve genel sıkıntı alanı eklenmez."
+        }
+      ],
+      "connection_refs": ["conn_67f719062bfedbf27832", "conn_d4a66eca42a32e4e32fa"],
+      "context_refs": ["4:46", "5:13"],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:purification-route",
+      "origin_candidate_id": "cand_f5cf41899ebafeaeaec4",
+      "represented_candidate_ids": ["cand_83f472a3c53028bad9b0"],
+      "title": "Arınmanın yeniden bağladığı güzergâh",
+      "claim": "Kalbin davranışsal arınması, ağızdan çıkan sözün iç kabule, işitmenin anlamaya ve hükmün eyleme bağlandığı bir güzergâhı yeniden işler hale getirir; ayette arınmanın kesilmesi bu hattın kopukluğunu görünür kılar.",
+      "mechanism": "5:41:57:1'deki yuṭahhira davranışsal arınma dalını getirir. Bu taşıyıcı 5:41:13:2'deki ağız, 5:41:16:1 ve 5:41:58:1'deki kalp, 5:41:20:1'deki dinleme ve 5:41:27:1'deki söz kaydırma yüzeyleriyle temas eder; 41:5'te örtülü kalp, kapalı kulak ve engel aynı alıcı güzergâhını genişletir.",
+      "reader_payoff": "Okuyucu, kalpleri temizlememe ifadesini soyut bir durumdan çok sözün içe ve eyleme bağlanmasını sağlayan işlevin kesilmesi olarak algılar.",
+      "containment": "Bu okuma davranışsal arınmayı iletişim ilişkisine bağlar; maddi yıkanmayı veya ayet dışındaki bütün kalp durumlarını dahil etmez.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": ["legacy_unbound", "trusted"],
+        "reason": "Trusted candidate exact arınma anchorını veriyor; represented reader-walk support aynı kopuk güzergâhı genişletiyor. 41:5 alıcı engelini doğruluyor, reader-walk katkısı legacy_unbound kalıyor."
+      },
+      "support_ids": ["sup_14106f77440713455f37", "sup_b2b3382834fd4777fc21"],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000953/B005",
+          "facet_id": "F001",
+          "branch_gloss": "kötüden uzaklaşıp davranışını arındırma",
+          "facet_statement": "Kişi kınanacak, kötü ve yasak davranışlardan kendini uzak tutar.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["5:41:57:1"],
+          "trigger_refs": ["5:41:13:2", "5:41:16:1", "5:41:20:1", "5:41:27:1", "41:5"],
+          "focus_return_refs": ["5:41:57:1"],
+          "carrier": "Kötü ve kınanacak davranışlardan uzaklaşıp davranışı arındırma.",
+          "independent_trigger": "Ağızdan çıkan iddia, inanmayan kalp, yalan için dinleme ve sözün kaydırılması; 41:5'te kalp örtüsü ve kulak önündeki engel.",
+          "activation": "Arınma taşıyıcısı, odaktaki söz-alıcı-eylem hattını koparan davranışlarla ve 41:5'teki alıcı engeliyle temas eder.",
+          "resulting_reading": "Arınmanın yokluğu, sözün ağızdan kalbe ve davranışa geçişini kesen bozuk bir güzergâh olarak görünür.",
+          "boundary": "Dalın suyla yıkanma, temizleyici araç ve kutsal yapıyı temizleme dalları bu davranışsal ilişkiye dahil edilmez."
+        }
+      ],
+      "connection_refs": ["conn_a83a032ff1c9163fa650"],
+      "context_refs": ["41:5"],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:speech-relay",
+      "origin_candidate_id": "cand_9b63ac15b68c7b9128c2",
+      "represented_candidate_ids": [],
+      "title": "Sözün sosyal aktarım ağzı",
+      "claim": "Ağız taşıyıcısı, sözün dışarı açıldığı bir aktarım noktası olarak, yalanı işiten ve gelmemiş bir topluluğa taşıyan sosyal düzenekle birleşir; söz dolaşır, iç kabul ise ayrı bir eşik olarak kalır.",
+      "mechanism": "5:41:13:2'deki ağız dalının doğrudan konuşma yönü, 5:41:20:1 ve 5:41:22:1'deki iki sammāʿūn ile 5:41:25:3'te yalan ve 5:41:28:2'de gelmemiş topluluk için dinleme yönelimiyle temas eder. 41:26'da Kur'an'ı dinlememe ve sesini bastırma talebi bu aktarımın geniş karşılığını verir.",
+      "reader_payoff": "Okuyucu, iki kez yinelenen dinlemeyi pasif işitme değil, içe ulaştırmak yerine dış talebe ileten sosyal aktarım olarak görür.",
+      "containment": "Bu, odaktaki ağız ve dinleme düzenini sosyal aktarım imgesiyle genişletir; her söz dolaşımını veya her dinlemeyi bozuk aktarım saymaz.",
+      "epistemic": {
+        "status": "exploratory",
+        "source_trust": ["legacy_unbound"],
+        "reason": "Reader-walk exact focus branch ve surface ilişkisini adlandırıyor; 41:26 dışarıdan dinleme-bastırma karşılığı veriyor, kaynak legacy_unbound."
+      },
+      "support_ids": ["sup_6fdd7c5f3bc0855ab834"],
+      "branch_activations": [
+        {
+          "branch_ref": "root_001190/B001",
+          "facet_id": "F002",
+          "branch_gloss": "ağız ve ağız ağıza konuşma",
+          "facet_statement": "Belirli söz öbeğinde bir kişiyle ağız ağıza ve doğrudan konuşmayı anlatır.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["5:41:13:2"],
+          "trigger_refs": ["5:41:20:1", "5:41:22:1", "5:41:25:3", "5:41:28:2", "41:26"],
+          "focus_return_refs": ["5:41:13:2"],
+          "carrier": "Ağız ağıza ve doğrudan söz alışverişi; burada sözün dışarı açıldığı ağız yüzeyi.",
+          "independent_trigger": "İki yoğun dinleme taşıyıcısının yalan ve gelmemiş başka topluluğa yönelmesi; 41:26'da dinlemeyi bastırmaya yönelik düzenli talep.",
+          "activation": "Ağız taşıyıcısı, sözün yalnızca içsel durum değil alıcılar arasında yönlendirilen bir çıktı olduğunu dinleme hedefleriyle birlikte görünür kılar.",
+          "resulting_reading": "Ayetin sahnesi, hakikatin içe yerleşmesinden önce sözün sosyal kanallarda dolaştırılabildiği bir aktarım düzeni olarak belirginleşir.",
+          "boundary": "Ağız dalının yeme, koku, açıklık ve genişlik kullanımları bu sosyal söz ilişkisine taşınmaz."
+        }
+      ],
+      "connection_refs": ["conn_71b2cb719ff5f6a7eb8a"],
+      "context_refs": ["41:26"],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:selective-assay",
+      "origin_candidate_id": "cand_0fe46f89721ba90e48ef",
+      "represented_candidate_ids": [],
+      "title": "Kararın alıcıyı sınaması",
+      "claim": "Bir hüküm verilince onu almak, verilmezse ondan sakınmak üzere kurulan seçici tepki, hükmün alıcıyı açığa çıkaran bir sınama olarak çalışmasını görünür kılar.",
+      "mechanism": "5:41:44:1'deki fitna, pasif alım biçimleri 5:41:34:1 ve 5:41:39:1 ile 5:41:36:2'deki alma ve 5:41:40:2'deki sakınma buyruklarını bağlar. 47:16'da işitmenin kalbe ulaşmadan kalması seçici kabulün geniş karşılığını verir.",
+      "reader_payoff": "Okuyucu, ayetteki karar seçiminin hükmü ölçmekten çok hüküm karşısındaki alıcının niteliğini açığa çıkardığını fark eder.",
+      "containment": "Bu okuma koşullu al-sakın düzenini korur; herhangi bir hükmün kendiliğinden yanlış olduğunu veya fitnanın yalnızca bu mekanizma olduğunu söylemez.",
+      "epistemic": {
+        "status": "exploratory",
+        "source_trust": ["legacy_unbound"],
+        "reason": "Reader-walk fitna dalını ve odak koşullarını bağlar; 47:16 dinleme ve kalp kapanması karşılığını verir, iki kaynak legacy_unbound nomination düzeyindedir."
+      },
+      "support_ids": ["sup_fc763563bdf437d7a496"],
+      "branch_activations": [
+        {
+          "branch_ref": "root_001128/B001",
+          "facet_id": "F001",
+          "branch_gloss": "sınayarak niteliğini ortaya çıkarma",
+          "facet_statement": "Sınama, denenen kimsenin ya da şeyin gerçek durumunu ve niteliğini görünür kılar.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["5:41:44:1"],
+          "trigger_refs": ["5:41:34:1", "5:41:36:2", "5:41:39:1", "5:41:40:2", "47:16"],
+          "focus_return_refs": ["5:41:44:1"],
+          "carrier": "Denenen kişinin veya şeyin niteliğini görünür kılan sınama.",
+          "independent_trigger": "Verilen hükme göre alma, verilmeyince sakınma ve 47:16'da dinlemenin kalbe ulaşmadan nominal kalması.",
+          "activation": "Koşullu alım protokolü fitna dalının açığa çıkarma işleviyle temas eder; tepki düzeni alıcının içerikle değil kendi tercihiyle ölçüldüğünü gösterir.",
+          "resulting_reading": "Karar, alınacak bir sonuçtan çok onu isteyenlerin alım biçimini açığa çıkaran bir assay haline gelir.",
+          "boundary": "Ateşte maden eritme ve genel sıkıntı dalları bu bağlamsal alım ilişkisine taşınmaz."
+        }
+      ],
+      "connection_refs": ["conn_5bfc583c3a0ea5eaab68"],
+      "context_refs": ["47:16"],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:intake-economy",
+      "origin_candidate_id": "cand_871a3f8a8e8f24555446",
+      "represented_candidate_ids": [],
+      "title": "Dinlemenin alım ekonomisine dönüşmesi",
+      "claim": "5:42'de haram kazancı yiyenlerle yan yana gelen iki kez dinleyen figürü, yalanı işitmenin bir bilgi alışverişinden çok bir alım ekonomisi gibi çalıştığını görünür kılar; 5:44'teki güvenilir koruma bunun karşı yönünü açar.",
+      "mechanism": "5:41:20:1 ve 5:41:22:1'de yinelenen sammāʿūn yoğun dinleme biçimini taşır; 5:41:25:3 yalan yöneliminin içeriğini, 5:42 ve 5:44 retrospective context ise haram kazanç ve güvenilir koruma karşılıklarını sağlar.",
+      "reader_payoff": "Okuyucu, sözün bozulmasını yalnızca anlam değişikliği değil, neyin içeri alınacağına ilişkin iştah ve güven düzeni olarak da algılar.",
+      "containment": "Bu, 5:42 ve 5:44'ten gelen legacy_unbound retrospective bağlantıdır; dinlemenin literal olarak yemek veya her emanet ilişkisinin aynı şey olduğu ileri sürülmez.",
+      "epistemic": {
+        "status": "exploratory",
+        "source_trust": ["legacy_unbound"],
+        "reason": "Retrospective reader-walk support 5:42 ve 5:44 temasını açıkça kaydeder; odak sammāʿūn taşıyıcıları packet içinde doğrulanır, ekonomi imgesi legacy_unbound kalır."
+      },
+      "support_ids": ["sup_ecba9d021d2cf4350da7"],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000741/B001",
+          "facet_id": "F003",
+          "branch_gloss": "duymak ve dikkatle dinlemek",
+          "facet_statement": "Bazı kalıplar dinlemeye çağrı bildirir veya çokça dinleyen kişiyi niteler.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["5:41:20:1", "5:41:22:1"],
+          "trigger_refs": ["5:41:25:3", "5:42", "5:44"],
+          "focus_return_refs": ["5:41:20:1", "5:41:22:1"],
+          "carrier": "Çokça dinleyen kişiyi niteleyen yoğun işitme biçimi.",
+          "independent_trigger": "Yalan için dinleme, 5:42'deki haram kazanç yiyicileri ve 5:44'teki güvenilir koruma karşılığı.",
+          "activation": "İki kez yinelenen dinleme, bağlamdaki alım ve emanet karşılıklarıyla temas ederek iletişimi bir alıcı ekonomisi gibi kurar.",
+          "resulting_reading": "Dinleme, hakikate açılan nötr bir kapıdan çok seçilerek alınan içeriğin ekonomik düzenine dönüşür.",
+          "boundary": "İşitme dalının kulak organı ve literal yeme anlamı bu bulguya dahil değildir."
+        }
+      ],
+      "connection_refs": [],
+      "context_refs": ["5:42", "5:44"],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:hearing-relay",
+      "origin_candidate_id": "cand_e7835e2cda4a8350f594",
+      "represented_candidate_ids": [],
+      "title": "Kulağın dış talep için röleye dönüşmesi",
+      "claim": "Odaktaki iki yoğun dinleme, yalanı ve gelmemiş bir topluluğun talebini iç kabul yerine dışarı taşıyan bir aracı işlevi kazanır; dinleyen kişi alıcıdan çok aktarım noktası olarak görünür.",
+      "mechanism": "5:41:20:1 ve 5:41:22:1'deki sammāʿūn, 5:41:25:3'te yalan ve 5:41:28:2'de gelmemiş topluluk için dinleme ile yönlendirilir. 5:42'nin haram kazanç eşleşmesi ve 5:44'ün güvenilir koruma karşılığı bu alıcının kanalını genişletir.",
+      "reader_payoff": "Okuyucu, aynı kelimenin iki tekrarını miktar değil, dış taleplerin dolaşıma sokulduğu iki aşamalı aktarım olarak görür.",
+      "containment": "Bu, reader-walk wide kaydının legacy_unbound bağlamsal yorumudur; her dinleme dış talep aktarımı değildir ve ayet daha geniş bir sosyolojik hükme indirgenmez.",
+      "epistemic": {
+        "status": "exploratory",
+        "source_trust": ["legacy_unbound"],
+        "reason": "Wide reader-walk support exact focus branchini ve 5:42/5:44 temasını veriyor; aktarım ve dış talep ilişkisi legacy_unbound."
+      },
+      "support_ids": ["sup_91b04c1010e745af0893"],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000741/B001",
+          "facet_id": "F003",
+          "branch_gloss": "duymak ve dikkatle dinlemek",
+          "facet_statement": "Bazı kalıplar dinlemeye çağrı bildirir veya çokça dinleyen kişiyi niteler.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["5:41:20:1", "5:41:22:1"],
+          "trigger_refs": ["5:41:25:3", "5:41:28:2", "5:42", "5:44"],
+          "focus_return_refs": ["5:41:20:1", "5:41:22:1"],
+          "carrier": "Çokça dinleyen kişiyi niteleyen işitme dalı.",
+          "independent_trigger": "Yalan ve gelmemiş başka topluluk için iki yönlü dinleme; 5:42'de haram kazanç ve 5:44'te güvenilir koruma karşılıkları.",
+          "activation": "Dinleme taşıyıcısı, içe kabul yerine başka bir grubun talebini ileten yönlendirilmiş alıcı olarak tetikleyicilerle temas eder.",
+          "resulting_reading": "Kulak, hakikati alan son durak yerine dış talebi taşıyan sosyal röle gibi görünür.",
+          "boundary": "B003'ün anlama ve itaate uzanan dalı burada ayrı etkin dal olarak ilan edilmez; B001'in yoğun dinleme facet'i korunur."
+        }
+      ],
+      "connection_refs": [],
+      "context_refs": ["5:42", "5:44"],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:illicit-intake",
+      "origin_candidate_id": "cand_61c19e7cd13b3a04b28e",
+      "represented_candidate_ids": [],
+      "title": "Çifte dinlemenin haram alımı",
+      "claim": "5:42'deki çifte yeme karşılığı, 5:41'de iki kez gelen dinlemeyi yalanın içeriğini seçerek alan bir haram alım ekonomisi olarak görünür kılar.",
+      "mechanism": "5:41:20:1 ve 5:41:22:1'deki iki sammāʿūn, 5:41:25:3'te yalan için dinlemeyle birleşir; 5:42 bu çift dinleme yapısına çift tüketim karşılığını sağlayan bağlamsal tetikleyicidir.",
+      "reader_payoff": "Okuyucu, dinlemeyi yalnızca ses almak değil, hangi içeriğin içeri sokulacağını seçen maddi bir iştah düzeni olarak fark eder.",
+      "containment": "Bu HFT summary claim exploratory ve legacy_unbound düzeyindedir; dinleme ile yemenin literal olarak aynı eylem olduğu söylenmez.",
+      "epistemic": {
+        "status": "exploratory",
+        "source_trust": ["legacy_unbound"],
+        "reason": "HFT özeti 5:42'deki pairing'i doğrudan kaydeder; odaktaki iki sammāʿūn yüzey taşıyıcısı packet içinde mevcut, intake ilişkisi reader-supplied bağlamdır."
+      },
+      "support_ids": ["sup_3c82028bb3e6d209ce0c"],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000741/B001",
+          "facet_id": "F003",
+          "branch_gloss": "duymak ve dikkatle dinlemek",
+          "facet_statement": "Bazı kalıplar dinlemeye çağrı bildirir veya çokça dinleyen kişiyi niteler.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["5:41:20:1", "5:41:22:1"],
+          "trigger_refs": ["5:41:25:3", "5:42"],
+          "focus_return_refs": ["5:41:20:1", "5:41:22:1"],
+          "carrier": "Çokça dinleyen kişiyi niteleyen yoğun dinleme.",
+          "independent_trigger": "Yalan için dinleme ve 5:42'deki çifte yeme karşılığı.",
+          "activation": "İki dinleme taşıyıcısı, iki tüketim karşılığıyla temas ederek seçici işitmenin bir alım ve tüketim düzeni olarak okunmasını sağlar.",
+          "resulting_reading": "Yalanı dinlemek, onu yalnızca duymak değil, seçerek içeri almak gibi görünür.",
+          "boundary": "Bu bağlamsal alım imgesi literal yeme veya bütün işitme biçimleri hakkında bir iddia değildir."
+        }
+      ],
+      "connection_refs": [],
+      "context_refs": ["5:42"],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:adjudicative-custody",
+      "origin_candidate_id": "cand_d5a7ecf72f3f3f45e507",
+      "represented_candidate_ids": [],
+      "title": "Tahrifin emanet ve hüküm işlemi",
+      "claim": "Sözleri yerlerinden kaydırmak, onları emanet gibi korumak yerine istenen sonuca göre dağıtan bir hüküm ve custody işlemi olarak görünür; tahrif outcome-driven bir forum arayışına dönüşür.",
+      "mechanism": "5:41:27:1'deki tahrif, 5:41:34:1'de pasif teslim alınan hüküm ve 5:41:36:2 ile 5:41:40:2'deki seçici al-sakın tepkileriyle temas eder. 5:13 kırılmış ahit, sertleşmiş kalpler ve kelimelerin konumlarından kaydırılmasını aynı sure içi emanet-yargı alanına bağlar.",
+      "reader_payoff": "Okuyucu, tahrifi tek seferlik anlam hatası değil, hangi hükmün dolaşıma sokulacağını yöneten bir custody düzeni olarak görür.",
+      "containment": "Bu, tahrifin odaktaki seçici hüküm düzeniyle keşifsel bağlantısıdır; her tahrif veya her hukuki süreç için forum arayışı sonucu çıkarılmaz.",
+      "epistemic": {
+        "status": "exploratory",
+        "source_trust": ["legacy_unbound"],
+        "reason": "HFT summary exact tahrif taşıyıcısını ve odak koşullarını bağlıyor; 5:13 aynı söz-konum-kalp alanını veriyor, custody ve forum dili legacy_unbound çıkarımı."
+      },
+      "support_ids": ["sup_792ce5e536aee156738f"],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000310/B003",
+          "facet_id": "F003",
+          "branch_gloss": "yönünden sapma, saptırma, anlam bozma veya eğik kesme",
+          "facet_statement": "Sözü yerinden ya da anlamından uzaklaştırarak değiştirme ve bozmadır.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["5:41:27:1"],
+          "trigger_refs": ["5:41:34:1", "5:41:36:2", "5:41:40:2", "5:13"],
+          "focus_return_refs": ["5:41:27:1"],
+          "carrier": "Sözü yerinden veya anlamından uzaklaştırarak bozma.",
+          "independent_trigger": "Pasif hüküm alma çerçevesi, buna göre alıp sakınma buyrukları ve 5:13'teki kırılmış ahit ile aynı kelime-konum ilişkisi.",
+          "activation": "Tahrif, hükmün kime ve hangi sonuç için teslim edileceğini seçen bir custody mekanizmasıyla temas eder.",
+          "resulting_reading": "Metin kaydırma, sonuç seçildikten sonra uygun hükmü arayan bir yargı düzeni olarak belirginleşir.",
+          "boundary": "Tahrif dalının genel fiziksel sapma ve kalem ucu facet'leri bu emanet-hüküm ilişkisine taşınmaz."
+        }
+      ],
+      "connection_refs": ["conn_d4a66eca42a32e4e32fa"],
+      "context_refs": ["5:13"],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:fitna-pressure",
+      "origin_candidate_id": "cand_395bfe49c00a4c5c90ed",
+      "represented_candidate_ids": [],
+      "title": "Fitnenin hüküm üzerindeki seçici baskısı",
+      "claim": "Fitna, 5:41'deki al-sakın düzeni ve 5:49'daki aynı yargı baskısının dönüşüyle, kalabalık bir belirsizlikten çok hükme verilen seçici tepkiyi açığa çıkaran yakın bir mekanizma olarak görünür.",
+      "mechanism": "5:41:44:1'de fitna, 5:41:34:1 ve 5:41:39:1'de verilen-verilmeyen hüküm ayrımı ile 5:41:36:2 ve 5:41:40:2'deki iki karşıt buyrukla bağlanır; 5:49 bu seçici baskının perikope içindeki yankısını tetikler.",
+      "reader_payoff": "Okuyucu, sınanmayı soyut bir başına gelme değil, hüküm seçme anında açığa çıkan baskı ve tercih düzeni olarak algılar.",
+      "containment": "Bu, HFT summary tarafından önerilen yakın mekanizma okumasıdır; fitna kullanımlarının tümü veya ilahi istemenin nedenselliği hakkında sonuç vermez.",
+      "epistemic": {
+        "status": "exploratory",
+        "source_trust": ["legacy_unbound"],
+        "reason": "HFT summary 5:49 tekrarını açıkça adlandırıyor; odak koşulları exact yüzeyle eşleşiyor, proximate mechanism ifadesi legacy_unbound."
+      },
+      "support_ids": ["sup_777b164ab31bd87ccb91"],
+      "branch_activations": [
+        {
+          "branch_ref": "root_001128/B001",
+          "facet_id": "F001",
+          "branch_gloss": "sınayarak niteliğini ortaya çıkarma",
+          "facet_statement": "Sınama, denenen kimsenin ya da şeyin gerçek durumunu ve niteliğini görünür kılar.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["5:41:44:1"],
+          "trigger_refs": ["5:41:34:1", "5:41:36:2", "5:41:39:1", "5:41:40:2", "5:49"],
+          "focus_return_refs": ["5:41:44:1"],
+          "carrier": "Denenenin gerçek niteliğini görünür kılan sınama.",
+          "independent_trigger": "Verilene göre alma veya verilmeyene karşı sakınma tepkisi ve 5:49'da tekrarlanan hüküm baskısı.",
+          "activation": "Fitna taşıyıcısı sonraki yargı yankısıyla birlikte karar anındaki seçici basıncı açığa çıkarma işlevi kazanır.",
+          "resulting_reading": "Hüküm, dışarıdan seçilecek nesneden çok alıcının tercihini ortaya çıkaran bir sınama basıncıdır.",
+          "boundary": "Bu aktivasyon ilahi istemenin nedensel açıklamasını çözmez ve fitna dalının diğer ateş veya sıkıntı kullanımlarını kapsamaz."
+        }
+      ],
+      "connection_refs": [],
+      "context_refs": ["5:49"],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:rush-hedging",
+      "origin_candidate_id": "cand_b6b7489e81a58fecc666",
+      "represented_candidate_ids": [],
+      "title": "Acele etmenin riskten korunma yüzü",
+      "claim": "Odaktaki inkâra doğru sürekli hızlanma, 5:52'deki kesin yankıyla birleştiğinde, hastalıklı kalbin hakikate bağlanmak yerine siyasi riski önceden güvenceye alma hesabı gibi görünür.",
+      "mechanism": "5:41:6:1'deki yusāriʿūna hızlanma taşıyıcısı 5:41:16:1'deki inanmayan kalple birlikte okunur; 5:52 aynı acele hareketini bağlamsal tetikleyici olarak geri getirir ve HFT kaydı bunu risk-hedging olarak adlandırır.",
+      "reader_payoff": "Okuyucu, aceleyi yalnızca hareket hızı değil, kalbin bir sonucu güvenceye almak için erkenden saf tutması olarak hisseder.",
+      "containment": "Bu, exact rush echo ve diseased-heart bağlantısına dayanan keşifsel okumadır; odak kişilerine yönelik tek motivasyonu veya 5:52'nin bütün anlamını bu imgeye indirgemez.",
+      "epistemic": {
+        "status": "exploratory",
+        "source_trust": ["legacy_unbound"],
+        "reason": "HFT summary 5:52'deki exact rush echo'yu bildiriyor; odak hızlanma ve kalp taşıyıcıları mevcut, risk-hedging açıklaması legacy_unbound."
+      },
+      "support_ids": ["sup_fb232a07815dbfc72811"],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000698/B001",
+          "facet_id": "F001",
+          "branch_gloss": "hızlı olma ve hızlanma",
+          "facet_statement": "Temel karşıtlık yavaşlık ile hız arasındadır ve hem cisimlere hem eylemlere uygulanır.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["5:41:6:1"],
+          "trigger_refs": ["5:41:16:1", "5:52"],
+          "focus_return_refs": ["5:41:6:1"],
+          "carrier": "Yavaşlığın karşıtı olan hızlanma ve sürekli acele hareketi.",
+          "independent_trigger": "İnanmayan kalp taşıyıcısı ve 5:52'deki aynı acele yankısı.",
+          "activation": "Hızlanma, kalbin iç yönelimi ve daha sonraki acele örneğiyle temas edince hareketten çok önceden konum alma işlevi kazanır.",
+          "resulting_reading": "İnkâra koşmak, hastalıklı iç durumun siyasi risk karşısında erkenden güvence arayan hareketi olarak belirginleşir.",
+          "boundary": "Risk hesabı HFT'nin keşifsel bağlamına aittir; hız dalının diğer özel kullanımları ve bütün aktörlerin niyetleri bu bulguya dahil değildir."
+        }
+      ],
+      "connection_refs": [],
+      "context_refs": ["5:52"],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:concealment-burial",
+      "origin_candidate_id": "cand_ded3dfe86ad75315c18c",
+      "represented_candidate_ids": [],
+      "title": "Örtünün yara izini gömmesi",
+      "claim": "Keşifsel olarak, odaktaki örtmeye koşuş ve yaralı kelimeleri yerlerinden çıkarma ilişkisi 5:31'de görünür bir beden izinin örtülmesiyle temas eder; zarar verici iz tanıklık edebileceği yerden çekilip gömülen ikincil bir görüntüye dönüşür.",
+      "mechanism": "HFT trace 5:41:8:2'deki kfr taşıyıcısını örtme hareketi, 5:41:28:2'deki klm yara dalını zarar verici izin kaynağı, 5:41:31:1'deki mawāḍiʿ taşıyıcısını izin konumu ve 5:31:9 ile 5:31:20'deki çözülmemiş wry dalını görünür izi örtme yöntemi olarak bağlıyor. HFT before/after çifti, ayrı duran küfür ve tahrifi bu burial image içinde birlikte okutuyor.",
+      "reader_payoff": "Okuyucu, kelimelerin yerlerinden kaydırılmasını yalnızca anlam konumu değişikliği değil, zarar verici bir izin tanıklık edeceği yerden kaldırılması olarak da sezebilir.",
+      "containment": "Bu, exact Arabic yüzeyi ve HFT-attributed trace üzerine kurulu cross-domain activationdır; odak ayetin literal cinayet anlattığı veya kelimelerin gerçekten beden yarası olduğu söylenmez.",
+      "epistemic": {
+        "status": "exploratory",
+        "source_trust": ["legacy_unbound"],
+        "reason": "5:31 ve 5:41 exact Arabic anchors ile HFT activation trace mevcut; üç dalın facet'leri kopyalanabiliyor. root_001642/B005 için lexicon descriptor yok, bu nedenle gloss ve facet null bırakıldı."
+      },
+      "support_ids": ["sup_b764dbda2a195eccaf16"],
+      "branch_activations": [
+        {
+          "branch_ref": "root_001307/B001",
+          "facet_id": "F001",
+          "branch_gloss": "örtmek, kapatmak",
+          "facet_statement": "Bir nesnenin üstünü kapatarak onu görünmez veya örtülü duruma getirme işlemi.",
+          "application_mode": "attributed",
+          "carrier_refs": ["5:41:8:2"],
+          "trigger_refs": ["5:41:28:2", "5:41:31:1", "5:31"],
+          "focus_return_refs": ["5:41:8:2"],
+          "carrier": "Bir şeyin üstünü kapatarak görünmez kılma.",
+          "independent_trigger": "Yara olarak okunan kelime izi, onun yerinden çıkarıldığı konum ve 5:31'deki görünür beden izini örtme yöntemi.",
+          "activation": "Örtme taşıyıcısı, tahrif edilmiş kelimenin tanıklık edebileceği konumdan çekilmesi ve 5:31'deki iz örtme eylemiyle temas eder.",
+          "resulting_reading": "İnkâra doğru koşan örtme, tahrifin ortaya çıkarabileceği izi görünmez kılan motive edici hareket olarak belirginleşir.",
+          "boundary": "Fiziksel örtme dalı attributed HFT image olarak kullanılır; dinî inkâr veya literal gömme sonucu eklenmez."
+        },
+        {
+          "branch_ref": "root_001316/B003",
+          "facet_id": "F001",
+          "branch_gloss": "yaralama ve yara",
+          "facet_statement": "Temel anlam bedende açılmış yara ve yaralanmadır.",
+          "application_mode": "attributed",
+          "carrier_refs": ["5:41:28:2"],
+          "trigger_refs": ["5:41:8:2", "5:41:27:1", "5:41:31:1", "5:31"],
+          "focus_return_refs": ["5:41:28:2"],
+          "carrier": "Bedende açılmış yara ve yaralanma.",
+          "independent_trigger": "HFT'nin söz yüzeyini zarar verici iz olarak atfetmesi; odaktaki örtme, tahrif ve konum taşıyıcıları ile 5:31'deki gizlenen beden izi.",
+          "activation": "Kayıtlı yara dalı, al-kalim yüzeyine eklenen attributed iz görüntüsü olarak diğer odak taşıyıcılarıyla temas eder.",
+          "resulting_reading": "Tahrif edilen kelime, saklanmak istenen zarar verici bir iz gibi algılanır.",
+          "boundary": "Konuşma ve anlamlı söz dalları silinmez; yara ilişkisi yalnızca HFT'nin attributed cross-domain activationı olarak tutulur."
+        },
+        {
+          "branch_ref": "root_001657/B001",
+          "facet_id": "F002",
+          "branch_gloss": "bir şeyi indirip yerine koyma; konduğu yer",
+          "facet_statement": "Eylem alanından nesnenin konduğu yer veya konum adı gelişir.",
+          "application_mode": "attributed",
+          "carrier_refs": ["5:41:31:1"],
+          "trigger_refs": ["5:41:27:1", "5:41:28:2", "5:31"],
+          "focus_return_refs": ["5:41:31:1"],
+          "carrier": "Bir şeyin konduğu yer ve belirlenmiş konum.",
+          "independent_trigger": "Sözün tahrif edilmesi, attributed yara izi ve 5:31'de izin görünürlükten kaldırıldığı yer.",
+          "activation": "Konum taşıyıcısı, okunabilir izin yerinden alınarak başka yere çekilmesi ilişkisini kurar.",
+          "resulting_reading": "Yerinden kaydırma, sözü doğru konumdan çıkarıp izin tanıklığını kesen burial işleminin mekânı olarak görünür.",
+          "boundary": "Kayıtlı dalın fiziksel yerleştirme çekirdeği korunur; sosyal düşüklük ve başka placement facet'leri eklenmez."
+        },
+        {
+          "branch_ref": "root_001642/B005",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": ["5:31:9", "5:31:20"],
+          "trigger_refs": ["5:41:8:2", "5:41:28:2", "5:41:31:1"],
+          "focus_return_refs": ["5:41:8:2", "5:41:28:2", "5:41:31:1"],
+          "carrier": "HFT'nin 5:31'deki iki form için atfettiği, görünür bir izi görünürlükten geriye alma ilişkisi.",
+          "independent_trigger": "Odaktaki örtme, yara olarak atfedilen kelime ve assigned position taşıyıcıları.",
+          "activation": "Bağımsız lexicon branch descriptorı bulunmayan bu kayıt, exact HFT trace'in belirttiği 5:31 koordinatları ile odağa dönen üç taşıyıcı arasındaki attributed temas olarak tutulur.",
+          "resulting_reading": "5:31'deki gizleme yöntemi, odaktaki zarar verici izin ortadan kaldırıldığı ikincil burial yöntemini taşır.",
+          "boundary": "Bu dal için gloss, facet veya doğrulanmış sözlük kimliği ileri sürülmez; ilişki HFT attribution sınırında kalır."
+        }
+      ],
+      "connection_refs": [],
+      "context_refs": ["5:31"],
+      "semantic_obligation_refs": []
+    }
+  ],
+  "friction_notes": [
+    "focus_word_alignment packet içinde 79/79 kelimeyi çözüyor; unresolved analiz birimi kalmadı.",
+    "selected_context_units boş; 5:42, 5:44, 5:49 ve 5:52 temasları reader-walk/HFT support kayıtlarından, 41:5, 41:26, 47:16, 49:14 ve 5:13 temasları packet içindeki exact target connection kayıtlarından geliyor. Bu nedenle legacy_unbound bağlamsal bulgular exploratory tutuldu.",
+    "root_001642/B005 için bağımsız lexicon branch descriptorı yok; global:concealment-burial içindeki branch activation gloss, facet ve facet_statement alanları null ve application_mode attributed.",
+    "cand_b2b8e92066eacee91c64 içindeki root_000741/B011, sammāʿūn taşıyıcısının kötü haber dileği kalıbıyla uyuşmaması nedeniyle açık branch ve facet exclusions ile daraltıldı.",
+    "HFT'nin sekiz unanchored reader-summary kaydından dört strongest-change kaydı odak taşıyıcısı ve perikope tetikleyicisiyle retained edildi; üç remaining-uncertainty ve bir what-was-special özetinin gerçek carrier/trigger dönüşü olmadığı için rejected edildi.",
+    "Docket readiness packet içinde blocked/docket_ready false; bu durum görünür HFT kayıtlarını bastırmadı, yalnızca kaynak güveni ve authoring qualification alanlarında korundu."
+  ]
+}

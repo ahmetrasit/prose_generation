@@ -1,0 +1,195 @@
+# V5 reading invitation — 5:62
+
+You are a fresh reading-invitation writer. Read the complete editorial prose
+before writing. It is your sole semantic source.
+
+Write two to four paragraphs of fluent, contemporary Turkish that reveal a
+surprising reading by following one or two main channels of resonance in the
+ayah. A channel is a connected background of meanings, images, actions, or
+relations through which the ayah can be heard and understood differently.
+Several editorial findings may together develop one channel. Summarize that
+connected movement and its consequence for the ayah's main meaning, rather
+than compressing findings individually. Give the reading's substance now;
+the invitation comes from understanding it, not from a promise of hidden depth.
+
+Before drafting, read the entire editorial prose and silently select the one
+or two channels with the strongest interpretive consequence and enough
+grounding to explain clearly. Favor channels that expand or shift what the
+ayah says, the relation it establishes, or what is at stake in its action or
+image. One fully developed channel is sufficient; add a second only when it
+offers a distinct consequential reading that can be explained within the
+invitation. No finding, channel, or major shift has an individual coverage
+claim. Unselected material may remain entirely in the full commentary.
+
+A channel may develop through grammar, sound, dialogue, a material process,
+time, imagery, or a conceptual relation. Resonance is not limited to acoustic
+effects, and an unusual image alone does not establish a channel. Use only
+connections the editorial prose actually develops. If it supplies no such
+channel, explain its strongest grounded reading without inventing connections
+or surprise.
+
+Begin inside the ayah's own words, images, actions, or relations and reveal a
+selected distinctive reading in the first paragraph. Keep the plain meaning
+reachable with only the orientation needed to understand the change. Do not
+spend an opening paragraph on routine explanation or front-load context about
+the surah, the ayah's position, or the commentary project.
+
+For each selected channel, begin with the expression that opens it, unfold the
+connected background, and show how the ayah reads or sounds against that
+background. Let a detail lead into the next through an intelligible relation
+or process, so the reader experiences the emerging reading. This is a movement
+of thought, not a mandatory sentence pattern or one paragraph per finding.
+Let the reader identify the expression being interpreted,
+where any nonordinary detail comes from, and what that detail changes in the
+reading. Briefly identify the word-family use, restricted form, collocation, or
+context that supplies an essential added detail, and preserve the concrete
+operation that makes the image work. Keep the ordinary reading and necessary
+qualification clear within this explanation; do not repeat them as a fixed
+formula. Preserve the particular object, process, or relation that makes this
+reading distinctive, and state its interpretive consequence for the ayah as a
+whole. Make intelligible what the familiar reading leaves less visible and
+what the expanded or shifted reading now lets the reader understand. Preserve
+the editorial's force: an exploratory possibility remains possible, while a
+developed shift must not be softened into a decorative association or a
+reassurance that everything means the same thing. A concrete
+account of how something is carried, transformed, lost, or restored must not
+shrink to a general statement about care, guidance, dependence, or goodness.
+Keep the details needed to make the selected channel work; omit side findings
+and shorten routine setup. If a channel cannot be explained faithfully from
+the editorial prose, choose another grounded channel or reading.
+
+When a non-focus ayah supplies a contribution used in the invitation, keep its
+reference from the editorial prose beside that contribution.
+
+Do not turn the invitation into a miniature inventory of the commentary's
+conclusions, or flatten distinct channels into a broad theme to include more
+material. Do not repair, extend, or supplement the editorial prose from memory
+or outside knowledge.
+
+Omit technical apparatus. Retain any qualification, source distinction, live
+alternative, or boundary whose absence would change the force or meaning of a
+chosen reading. Express it naturally beside the image or relation it qualifies.
+Favor positive explanations of the relation between layers: what remains in
+the foreground and what the resonance makes audible in the background. State
+how that background reinforces, expands, or shifts the understanding of the
+main meaning, with the source and degree of certainty clear. Reserve explicit
+exclusions for concrete ambiguities or live counter-evidence that need them.
+Repeated "this is not X" endings make a reading sound withdrawn; express the
+substantive qualification through what the reading does contribute wherever
+possible. Use varied, natural language rather than a repeated "second layer"
+formula, and preserve the force of expansions and shifts.
+Do not name branches, candidates, findings, scopes, evidence categories,
+ledgers, or workflow stages, or label the prose as numbered channels. Do not
+list findings serially.
+
+Use the established `{ar:..., tr:..., gloss:...}` syntax, consistent
+Turkish-readable transliteration, and short ordinary glosses. Keep Arabic
+anchors beside the explanations they ground. Within a paragraph, continue with
+the Turkish meaning where clear; provide the necessary local tag when a later
+paragraph interprets the carrier anew. Do not place Arabic script outside a
+valid tag.
+
+Build transitions within a channel through its shared object, action, or
+relation. If two channels are selected, they may occupy separate paragraphs;
+do not invent a link between them. Do not praise the commentary's quality,
+promise what the reader will find, manufacture suspense, recap at the end, or
+add a call to action. End on an image, relation, action, or tension already
+established by the selected reading.
+
+Before finishing, compare the invitation with the entire editorial prose:
+does the chosen channel reveal a consequential reading, or could the text have
+been written from the ordinary translation and a modest explanation alone?
+When the editorial supports a surprising channel, the latter fails this task.
+Can the reader follow the opening expression into a connected background and
+understand how that background expands or shifts the ayah's main meaning?
+Check the selected connections against their editorial explanation: can the
+reader tell where the nonordinary details come from, with the necessary
+qualifications intact? Repair generic explanation, isolated curiosities, or a
+compressed findings list by developing the selected channel. Do not add
+omitted channels merely for coverage. Do not output this check.
+
+Write only the invitation text to:
+
+`_commentary/v5/editorial/s005-p05-with-fatiha/s005/5_62/5_62.invitation.tr.md`
+
+Do not add a heading, wrapper label, index, ledger, evidence file, or any other
+artifact. Do not modify the editorial prose.
+
+After writing the invitation, run:
+
+```bash
+python3 _commentary/v5/validate_prose.py _commentary/v5/editorial/s005-p05-with-fatiha/s005/5_62/5_62.invitation.tr.md
+```
+
+If validation fails, repair only the reported mechanical file-contract issues
+and rerun it, for at most two repair cycles. Report the final validator result
+in your response.
+
+<editorial_prose>
+## Görülen sahne
+
+5:61'de açılan sahnenin devamında {ar:وَ, tr:wa, gloss:bağlayıcı ve} sözü aynı topluluğu göz önünde tutar. Ardından gelen {ar:تَرَىٰ, tr:tarā, gloss:görüyorsun} fiili muhatabı etkin bir tanık yapar: {ar:كَثِيرًا, tr:kathīran, gloss:çokça} {ar:مِّنْهُمْ, tr:minhum, gloss:onlardan} denilen büyükçe bir kesitin {ar:يُسَارِعُونَ, tr:yusāriʿūna, gloss:hızla koşuyorlar} fiiliyle günahın, sınır aşan saldırganlığın ve haram kazancı tüketmenin içine hızla yöneldiğini görürsün. Sonra {ar:لَ, tr:la, gloss:vurgu edatı} ile açılan {ar:بِئْسَ, tr:biʾsa, gloss:formel kınama fiili} ve onu tamamlayan {ar:مَا, tr:mā, gloss:ne ve ki; kınanan içerik} gelir: {ar:كَانُوا۟, tr:kānū, gloss:olageldiler} ve {ar:يَعْمَلُونَ, tr:yaʿmalūna, gloss:yapıyorlar ve işliyorlar} diye adlandırılan işler kınanır. Ayetin bakışı, davranışta görünür olan kısmı açar; hüküm de bu göz önündeki işe yönelir.
+
+{ar:تَرَىٰ, tr:tarā, gloss:görüyorsun} ikinci tekil şahıs muzari biçimiyle tanıklığı sürmekte olan bir bakış olarak kurar. {ar:كَثِيرًا, tr:kathīran, gloss:çokça} onun nesnesidir; {ar:يُسَارِعُونَ, tr:yusāriʿūna, gloss:hızla koşuyorlar} ise bu nesneyi duran bir topluluk olmaktan çıkarıp davranan bir topluluk hâline getirir. Böylece 5:61'deki {ar:دَّخَلُوا۟, tr:daḫalū, gloss:içeri girdiler} ile başlayan, {ar:بِٱلْكُفْرِ, tr:bi'l-kufr, gloss:inkâr ile} örtülen, {ar:خَرَجُوا۟, tr:ḫarajū, gloss:dışarı çıktılar} ile dışarı taşan ve {ar:يَكْتُمُونَ, tr:yaktumūna, gloss:gizliyorlar} ile saklanan dizinin davranışta süren izi görünür olur. İç hâle ilişkin çıkarım, yapılan işin gösterdiği süreklilikle sınırlıdır. Görme sözü bakmanın yanında tanıma ve ayırt etme yönünü de açar; 5:52 ve 5:80'deki benzer görme başlangıçları bu tanıklığın farklı tutumları görünür kılan bir çerçeve olduğunu düşündürür. 5:42'de yalanı dinleme, haram kazanç ve aralarında adaletle hükmetme bağlamı görmeyi davranışı ayırt eden bir değerlendirmeye taşır. Pasife yaklaşan kıraat biçimi sahneyi "gösterilmiş" diye duyurabilir; etken biçim ise muhatabın doğrudan tanıklığını taşır ve görülen davranışın nesnesini korur.
+
+{ar:كَثِيرًا, tr:kathīran, gloss:çokça} özel bir kişiyi değil, grubun içinde yaygınlaşmış bir ölçeği gösterir. Biçimi tekil bir nicelik adı olsa da ardından gelen çoğul {ar:يُسَارِعُونَ, tr:yusāriʿūna, gloss:hızla koşuyorlar} çok sayının ortak bir hareket içinde görünmesini sağlar. Hemen yanındaki {ar:مِّنْهُمْ, tr:minhum, gloss:onlardan} ise zamir ekiyle 5:61'deki grubu taşır, min edatıyla bu büyük kesiti o grubun içinden seçer. Üstelik nicelikten sonra ve hareket fiilinden önce gelmesi, önce kimin görüldüğünü sınırlar, sonra ne yaptığını bildirir. Bu nedenle hüküm geniş bir alt topluluğa yönelir. 5:64 ve 5:80'deki "onların içinde çokları" çerçevesi de aynı ölçülü çokluk kullanımını destekler.
+
+Bu geniş topluluk içinde tepkilerin ayrışabildiği, 5:80, 5:82 ve 5:83'te farklı biçimlerde görünür. 5:80'de bağlılık ilişkileri, 5:82'de yakınlıkların ayırt edilmesi, 5:83'te gözyaşının taşması ve hakkı tanıma gibi karşılıklarla yan yana gelir. Bu ayrıntılar, {ar:كَثِيرًا, tr:kathīran, gloss:çokça} sözünün davranışla belirlenen büyük fakat sınırlı bir kesiti adlandırdığını duyurur. 5:62'nin tanıklığı da bu çerçevede muhatabın önünde tekrarlanan işi kaydeder ve farklı tepki kümelerini ayırt etmeye elverişli bir bakış kurar.
+
+## Hızın içi
+
+{ar:يُسَارِعُونَ, tr:yusāriʿūna, gloss:hızla koşuyorlar} çoğul muzari cümlecik olarak sahneye hareket ve süreklilik verir. Basit hız anlamı korunurken üçüncü kalıp, yarışır gibi karşılıklı bir ivme hissi uyandırır; daha yalın hız vurgusunu taşıyan kıraat biçimi bu işitsel rengi değiştirir. Fiilin orta vuruşundaki uzama, gizli duruştan açık toplumsal ivmeye geçişi ritim yoluyla sezdirir. Böylece ses, görünürleşen hareketin işitsel eşliğini verir ve topluluğu birbirini hızlandıran bir akış içinde duyurur. Sûredeki 5:41, 5:52 ve 5:62 başlangıçları, hızlanmayı farklı kusur alanlarında tanılayıcı bir çerçeveye yerleştirir; bu ayette yönü hemen ardından gelen ahlaki alan belirler.
+
+Bu yönü {ar:فِى, tr:fī, gloss:içinde ve içine} edatı açıklar. Hareket, {ar:ٱلْإِثْمِ, tr:al-ithm, gloss:günah} alanının içine yerleşir; kısa edat fiili ilk suçlama ile sıkı biçimde bağlar ve sıralanan maddeleri aynı yönetim altında tutar. {ar:ٱلْإِثْمِ, tr:al-ithm, gloss:günah} olağan anlamıyla kötü eylemin adıdır. Aynı kelimenin ağırlık, geride kalma ve kişiyi iyilikten uzaklaştırma yönü hız fiiline temas edince, hızla girdikleri alanın insanı iyiye yetiştiren değil iyilikten geri bırakan bir alan olduğu görünür. 3:114 ve 21:90'da iyiliğe yönelen hızın değeriyle karşılaştırıldığında, 5:62'de temponun ahlaki değerini hedefi belirler. Günah burada hem kötü eylemin adı hem de iyiliğe erişimi geciktiren yön olarak duyulur.
+
+Listenin ilk iki adı aynı {ar:فِى, tr:fī, gloss:içinde ve içine} kapsamı altında belirir. {ar:وَ, tr:wa, gloss:bağlayıcı ve} önce {ar:ٱلْعُدْوَٰنِ, tr:al-ʿudwān, gloss:sınır aşan saldırganlık} kelimesini {ar:ٱلْإِثْمِ, tr:al-ithm, gloss:günah} ile eşler. İki belirli mastar biri içteki ahlaki ihlali, diğeri dışarı taşan sınır ve hak aşımını adlandıran tanınabilir bir çift oluşturur. Belirlilik, hızın içine girdiği ortak ahlaki alanı sınırlar. {ar:ٱلْعُدْوَٰنِ, tr:al-ʿudwān, gloss:sınır aşan saldırganlık} aynı yönetim içinde günahla eşleşen ihlal kategorisi olarak çalışır. 5:2'de yasaklanan bu çift, 2:85, 2:190 ve 58:8, 58:9'daki paralel bağlamlarla birlikte 5:62'de artık göz önünde yapılan davranışın adı olarak duyulur. Kök alanındaki geçme, düşmanlık ve aşırılık saldırganlığı dışa dönük kılar; kıraatlerdeki ünlü değişimi ses ağırlığını etkileyebilir, kategori ve yerel kapsamı korur.
+
+İkinci {ar:وَ, tr:wa, gloss:bağlayıcı ve} ilk iki soyut suçlamayı eritmeden {ar:أَكْلِهِمُ, tr:aklihim, gloss:onların tüketmesi} ifadesini ekler. İki bağlaç listeyi işitilebilir üç basamağa dönüştürür: önce günah, sonra dışa taşan sınır ihlali, ardından elle tutulur bir tüketim. 3:114 ve 3:133'te iyiliğe ve bağışlanmaya yönelen hız, 5:52'de dış çevreye meyil gösteren topluluk görüntüsü ve 5:62'de suç alanına giren hareket birlikte düşünüldüğünde, okur iyilikten geri bırakan gecikmeden sınır aşımına, oradan tüketici kazanç hareketine ilerleyen bir yön zinciri izleyebilir. Okuma yürüyüşünün kurduğu bu sıra, iki bağlamın sunduğu nitelikli bir karşılaştırmadır ve her durumda zorunlu bir nedensellik iddiası taşımaz.
+
+## Tüketimin somut yüzü
+
+{ar:أَكْلِهِمُ, tr:aklihim, gloss:onların tüketmesi} bir mastar yapısı olarak grubu sahiplik ekiyle eylemin faili konumuna taşır ve belirli nesneyi yönetir. İki soyut suçlamadan sonra fail, fiil ve nesne aynı ifadede buluşur; okur belirsiz bir bozulmadan çok, belirli bir şeyi tüketen belirli bir topluluk görür. Olağan yeme ve tüketme anlamı, bu nesneyle birlikte hakka aykırı mal edinme ve başkasının payını ele geçirme yönünü açar. 5:42, 5:62 ve 5:63'teki kümelenme, yalanı dinleme, haram kazancı tüketme ve bunu sınırlamama bağlamlarını aynı pratik çevresinde buluşturur; bu bağlamlar 5:62'deki tüketimi belirli nesnesi olan haram kazanca bağlayan yerel sınırı korur.
+
+Bu nesne {ar:ٱلسُّحْتَ, tr:al-suḥt, gloss:yok edici haram kazanç} kelimesiyle adlandırılır. Belirli artikel, nesneyi adı belirli bir haram kazanç olarak sabitler. Terimin 5:42, 5:62 ve 5:63'te yoğunlaşması, 20:61'deki kökten sıyırma ve yok etme yankısıyla birlikte listenin son maddesine özel bir ağırlık verir. 5:61'de örtülü kalan bozulma ve tamamlanmamışlık, burada yüzü sıyrılan, kökünden sökülen ve geriye pay bırakmayan bir kazanç görüntüsüne değdirilir. Bu mecazi görüntü, tüketilen kazancın kendi kaynağını aşındırdığını düşündürür. Kıraatlerdeki ses ve okuma ağırlığı değişse bile {ar:ٱلسُّحْتَ, tr:al-suḥt, gloss:yok edici haram kazanç} ifadesinin belirli nesnesi olarak kalır.
+
+Bu somut tüketim, başka ayetlerdeki mal hareketleriyle karşılaştırılınca tek tarafa kapanan bir edinim olarak belirginleşir. 5:64'teki {ar:يَدَاهُ مَبْسُوطَتَانِ, tr:yadāhu mabsūṭatāni, gloss:iki eli açık} ifadesi açık kapasiteyi, {ar:يُنفِقُ, tr:yunfiqu, gloss:harcar ve dışarı verir} fiili servetin dışarı akışını gösterir. 5:66'daki {ar:لَأَكَلُوا۟ مِن فَوْقِهِمْ وَمِن تَحْتِ أَرْجُلِهِمْ, tr:la-akalū min fawqihim wa min taḥti arjulihim, gloss:üstlerinden ve ayaklarının altından yerlerdi} ise üstten ve alttan ulaşan sürdürücü rızık görüntüsünü açar; {ar:مُّقْتَصِدَةٌ, tr:muqtaṣidah, gloss:ölçülü} sözü bu akışın dengeli tutulduğunu hatırlatır. 4:29'daki karşılıklı rıza, 2:188'deki haksız edinim, 9:34'te biriktirip harcamama ve 89:19'da mirası bütünüyle yeme gibi ayrı bağlamlar, malın topluma dönen dolaşımı ile tek tarafta toplanmasını karşılaştırır (5:64, 5:66, 4:29, 2:188, 9:34, 89:19). Bu ayrıntılar, {ar:أَكْلِهِمُ, tr:aklihim, gloss:onların tüketmesi} ile {ar:ٱلسُّحْتَ, tr:al-suḥt, gloss:yok edici haram kazanç} birleşimini açık dolaşımdan kaynak çeken ve payı tek tarafta tüketen bir edinim olarak görünür kılar. 5:64'ün devamında bozulmanın düşmanlık ve fesat arayışına taşınması, 5:66'nın karşı-olgusal rızık sahnesiyle yan yana durur; odaktaki hareket bu iki karşıt yön arasında daha belirginleşir. Bu ekonomik karşılaştırma, 5:62'deki tüketim eyleminin yönünü açıklamakla sınırlı kalır.
+
+5:66'daki çevresel geçim görüntüsü Fâtiha'daki {ar:رَبِّ ٱلْعَٰلَمِينَ, tr:rabbi'l-ʿālamīn, gloss:âlemlerin Rabbi} hitabıyla yan yana geldiğinde, rızkın kaynağı ve kapsamı adlandırılmış bir ufuk kazanır (1:2, 5:66). Üstten ve ayakların altından gelen pay, kendisini sürdüren daha geniş düzen içinde alınan geçim olarak duyulur. Bunun karşısında {ar:أَكْلِهِمُ, tr:aklihim, gloss:onların tüketmesi} ile {ar:ٱلسُّحْتَ, tr:al-suḥt, gloss:yok edici haram kazanç} birleşimi, kaynağı ve topluma dönen akışı gözetmeyen bir alım biçimi gibi belirir. Bu yankı, 5:66'nın pay ve geçim anlamını koruyan sınırlı bir kaynak karşılaştırmasıdır; odağın içe kapanan alımını, kaynağı ve kapsamı adlandırılmış bir geçim akışının karşısında daha görünür kılar.
+
+Daha önce kurulan içe çeken tüketim görüntüsü, 5:64'teki {ar:أَوْقَدُوا۟ نَارًا لِّلْحَرْبِ, tr:awqadū nāra li'l-ḥarb, gloss:savaş için ateş yaktılar} yüzeyinde beslenen bir ateş hareketiyle temas eder (5:64). Ateşin yakılması, {ar:أَكْلِهِمُ, tr:aklihim, gloss:onların tüketmesi} fiilinin içe alma yönüne yıkıcı bir süreci besleme payı ekler; {ar:ٱلسُّحْتَ, tr:al-suḥt, gloss:yok edici haram kazanç} kelimesindeki giderme yönü bu beslenmenin kendi dayanağını aşındırdığını düşündürür. Ardından gelen {ar:أَطْفَأَهَا ٱللَّهُ, tr:aṭfaʾahā Allāh, gloss:Allah onu söndürdü} hareketi, aynı görüntüye karşı bir kesilme imkânı ekler. Böylece bu yakın bağlam, odaktaki tüketimi yakıtlanma ve kesilme hareketleriyle buluşturur; haram kazancın sözlük anlamı bu benzetmede yakıta dönüşmez.
+
+Daha uzak bir karşılaştırmada, günah ve sınır aşımının ardından gelen ateş görüntüsü içinde 58:8'de ateşin odunu tüketmesi, {ar:أَكْلِهِمُ, tr:aklihim, gloss:onların tüketmesi} fiilinin besleyerek sürdürme yönünü çağrıştırır (58:8). Bu ayrıntı, haram tüketimi alınan malı tüketme hareketinin yanında kendi devamını sağlayan düzeni yakıt gibi harcayan bir yanma olarak da düşündürür. Benzetme bu bağlantının sınırında kalır: yeme fiilinin sözlük anlamı ateşle değiştirilmez, 5:62'ye belirli bir ateş hükmü eklenmez; odak anlamı haram kazancın tüketilmesidir.
+
+## Büyüyen ve görünür kalan pratik
+
+5:64 ve 5:68'de yinelenen {ar:وَلَيَزِيدَنَّ كَثِيرًا مِّنْهُمْ طُغْيَانًا وَكُفْرًا, tr:wa-layazīdanna kathīran minhum ṭughyānan wa-kufran, gloss:onların birçoğunu taşkınlık ve inkârda artırır} dizisi, vahiy karşısında tepkinin bazı kişilerde büyüyebildiğini gösterir (5:64, 5:68). 5:62'nin {ar:يُسَارِعُونَ, tr:yusāriʿūna, gloss:hızla koşuyorlar} fiili bu bağlamda sabit bir hızdan çok, karşılaştığı girdiye cevap verdikçe çıktısı büyüyen kolektif bir hareket niteliği kazanır. {ar:ٱلْعُدْوَٰنِ, tr:al-ʿudwān, gloss:sınır aşan saldırganlık} bu büyümenin bir hakkı veya sınırı geçen taşkınlık olduğunu belirginleştirir. 5:64'ün devamındaki düşmanlık ve fesat arayışı bu yönü sürdürürken, 5:68 vahyi gözetme ve bağlı kalma ihtimalini açık bırakır. Bu ilişki, iki bağlamın birlikte sunduğu nitelikli bir karşılaştırma kapsamında kalır.
+
+Hızlı davranışın sürmesi, onu durdurması beklenen çevrenin tutumuyla da ilişkilendirilebilir. 5:62'de doğrudan suçlanan günah ve haram kazanç, hemen sonraki 5:63'te {ar:لَوْلَا يَنْهَىٰهُمُ ٱلرَّبَّٰنِيُّونَ وَٱلْأَحْبَارُ, tr:lawlā yanhāhum ar-rabbāniyyūn wa-l-aḥbār, gloss:rabbani bilginler ve bilginler neden menetmiyor} sorusuyla yetkili kişilerin engelleme görevine bağlanır (5:63). Böylece yanlışın sürmesine izin veren kurumsal bir ihmal görünür. 5:79'daki tekrarlanan durdurmama görüntüsü bu ihmali daha geniş bir toplumsal yeniden üretim olarak düşündürür (5:79): frenlenmeyen iş yeniden yapılır, yapılan pratik yerleşir ve çevrenin ihmali failin hızına eklenir. Bu çerçeve, 5:63'teki yetkili makamların sorumluluğunu 5:79'daki toplumsal yeniden üretimden ayrı tutar; anlamı, bu iki bağlamın durdurmama ve süreklilik rollerine dayanır. {ar:كَانُوا۟, tr:kānū, gloss:olageldiler} ile {ar:يَعْمَلُونَ, tr:yaʿmalūna, gloss:yapıyorlar ve işliyorlar} birleşimi bu süreklilik katkısını taşır.
+
+Bu dışarıdan görülen pratik ile içeriden düzeltme arasındaki asimetri 5:71'deki iki tekrar üzerinden belirginleşir. {ar:فَعَمُوا۟ وَصَمُّوا۟, tr:fa-ʿamū wa-ṣammū, gloss:körleştiler ve sağırlaştılar} ifadesi düzeltici görme ve işitmenin kapanmasını, ardından gelen {ar:وَٱللَّهُ بَصِيرٌۢ بِمَا يَعْمَلُونَ, tr:wa-Allāhu baṣīrun bimā yaʿmalūn, gloss:Allah yaptıklarını görür} ise yapılan işin ilahî bakışta açık kalmasını kurar (5:71). 5:62'deki {ar:تَرَىٰ, tr:tarā, gloss:görüyorsun} ve son {ar:يَعْمَلُونَ, tr:yaʿmalūna, gloss:yapıyorlar ve işliyorlar} bu karşıtlıkla temas ettiğinde, kınamanın soyut bir hâle değil dışarıdan izlenebilen işe yöneldiği anlaşılır. Burada kapanan kanal düzeltici görme ve işitmedir; yapılan iş ise ilahî bakışta açık kalır.
+
+{ar:كَثِيرًا, tr:kathīran, gloss:çokça} ile {ar:يُسَارِعُونَ, tr:yusāriʿūna, gloss:hızla koşuyorlar} yan yana geldiğinde çokluk topluluk ölçeğini, hız ise karşılıklı ivmeyi taşır. 5:48'de iyiliklerde yarışma yönü açıkça kurulduğu için, aynı çokluk ve hızın 5:62'de kötü hedefe bağlanması insanların birbirini yanlış yönde hızlandırdığı bir topluluk görüntüsüne izin verir (5:48, 5:62). Bu katman, sayının ve hızın bu yan yana gelişinde kurulan yerel yarış hissiyle sınırlıdır.
+
+Benzer biçimde {ar:ٱلْعُدْوَٰنِ, tr:al-ʿudwān, gloss:sınır aşan saldırganlık} bağlılık ağları içinde taşınan bir davranış olarak da düşünülebilir. 5:80'deki ilişki biçimleri, hız ve sınır aşımının kişiler arasındaki temaslar boyunca yayılmasını analojik olarak düşündürür (5:80); ortaya çıkan görüntü, saldırganlığın bağlılıklar içinde çoğalmasıdır. Bu benzetmenin kapsamı 5:80'in ilişkisel zeminidir: hastalık aktarımı imgesi yalnız yayılma biçimini aydınlatır, {ar:ٱلْعُدْوَٰنِ, tr:al-ʿudwān, gloss:sınır aşan saldırganlık} ise 5:62'deki sınır aşımı anlamını taşımaya devam eder.
+
+## Yol ve ölçü
+
+Günah ve saldırganlık listesinin yönü Fâtiha'daki {ar:ٱهْدِنَا, tr:ihdinā, gloss:bizi yönelt} duası ve {ar:ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ, tr:aṣ-ṣirāṭ al-mustaqīm, gloss:dosdoğru yol} ifadesiyle karşılaştırıldığında başka bir açıklık kazanır (1:6). {ar:ٱلْإِثْمِ, tr:al-ithm, gloss:günah} iyiliğe ve iyi sonuca yetişmeyi geciktiren bir eylem yönü, {ar:ٱلْعُدْوَٰنِ, tr:al-ʿudwān, gloss:sınır aşan saldırganlık} ise uyulması gereken rotayı veya başkasının hakkını aşan bir yön olarak duyulur. 1:7'deki {ar:وَلَا ٱلضَّالِّينَ, tr:wa-lā aḍ-ḍāllīn, gloss:sapanlar değil} ve {ar:غَيْرِ ٱلْمَغْضُوبِ عَلَيْهِمْ وَلَا ٱلضَّالِّينَ, tr:ghayri'l-maghḍūbi ʿalayhim wa laḍ-ḍāllīn, gloss:öfkeye uğrayanların ve sapanların yolu değil} ayrımı, istenen istikametin öfkeye ve sapmaya açılan yollardan ayrıldığını gösterir (1:7). Bu yankı Fâtiha'daki belirli yol ve sapma ifadeleriyle sınırlıdır; odak kelimeleri kendi yerel anlamlarını korurken günahı iyiye yönelmeyi kesen gecikme, saldırganlığı da normatif sınırı aşan hareket olarak daha yönlü duyurur.
+
+Günah alanının yönlü oluşu, 42:37'de günah sayılan işten sakınma ve bağışlanma çevresinde duran karşı hareketle belirginleşir (42:37). Oradaki sakınma, {ar:ٱلْإِثْمِ, tr:al-ithm, gloss:günah} sözünü aynı ahlaki alana girme ile ondan geri durmayı karşılaştıran bir bağlam içine yerleştirir. 5:62 böylece hızla içine girilen bir alanı gösterir ve onun karşısında geri durma imkânını açık bırakır.
+
+6:120'de günahı edinme ile yapılanın karşılığını görme yüzeylerinin ardışıklığı, bu eylemin sahibine dönen bir sonuç ufkunu düşündürür (6:120). Bu sonuç ufku, odaktaki kınamayı eylem ile sonuç arasındaki değerlendirmeye açar; ceza biçimi ve zaman sırası bu bağlantının kapsamı dışında kalır.
+
+## Kınamanın cümlesi
+
+Listenin sonunda gelen {ar:لَ, tr:la, gloss:vurgu edatı} ile {ar:بِئْسَ, tr:biʾsa, gloss:formel kınama fiili}, sözün akışını sayımdan hükme çevirir. Vurgu parçacığı son somut suçlamadan hemen sonra kınamayı duyurur; {ar:بِئْسَ, tr:biʾsa, gloss:formel kınama fiili} yerleşik bir formülle kurulmuş mahkûmiyeti getirir. İçindeki hemze kıraatte ses basıncı meydana getirir; yumuşatılmış söyleyiş akışı kolaylaştırırken kınamanın işlevi korunur. Fiilin kötülük, bedbahtlık ve şiddet alanı hükme ağır bir renk verir. 5:63, 5:79 ve 5:80'deki benzer kınama kalıpları bu kapanışı sûre içinde tanınan bir formül olarak duyurur (5:63, 5:79, 5:80); 5:62'de formülün önüne yerleşen üç madde, kınamanın somut içeriğini sağlar.
+
+{ar:مَا, tr:mā, gloss:ne ve ki; kınanan içerik} bu kınama fiilinin neye yöneldiğini açıklar. Onu ilgi zamiri gibi duyan okuyucu kınanan şeyin önceki işler olduğunu, mastarlaşan okuma ise bu işleri yapmanın adlaştırıldığını izler. İki dilbilgisel yol farklı bir vurgu açsa da ikisi de kınamanın kapsamını önceki üç davranışta tutar: {ar:مَا, tr:mā, gloss:ne ve ki; kınanan içerik} günahı, sınır aşımını ve haram kazanç tüketimini "yaptıkları şey" olarak birlikte hükme bağlar. Böylece genel kınama somut listeyi silmeden, ayrıntılı davranışı değerlendirme cümlesine taşır.
+
+{ar:كَانُوا۟, tr:kānū, gloss:olageldiler} yardımcı fiili, 5:61'deki alışılmış örtülülükten 5:62'nin alışılmış yapmasına uzanan bir süreklilik çerçevesi kurar (5:61). Ardından gelen muzari {ar:يَعْمَلُونَ, tr:yaʿmalūna, gloss:yapıyorlar ve işliyorlar} tek seferde tamamlanmış bir hareketi değil, geçmişte yerleşmiş ve sürmüş bir pratiği gösterir. Yardımcı fiilin son eylem kelimesine kadar beklemesi kapanış yükünü sona bırakır; son söz gelince hüküm bütün liste üzerinde kapanır. Çoğul biçimler başlangıçta görülen aynı topluluğu korur. Bu süreklilik, geçmişin ayetin dilbilgisel olarak taşıdığı yerleşmişlik ölçüsünü verir.
+
+{ar:يَعْمَلُونَ, tr:yaʿmalūna, gloss:yapıyorlar ve işliyorlar} geniş bir yapma ve ortaya koyma fiili olarak önceki ayrıntıları hesap verilebilir bir eylemde toplar. 5:63'teki daha belirli işleme ve 5:79'daki genel davranma kapanışlarıyla karşılaştırıldığında, 5:62'deki fiil üçlü listenin tamamını taşır (5:63, 5:79). Fiilin bilinçli iş ve insanlar arası işlem alanı, tüketimin ilişkileri zedeleyen bir alışveriş olarak düşünülmesine izin verir; bu işlem çağrışımı, tüketimle kurulan özel temasın içinde kalır ve gizli niyetlerin bütünü hakkında hüküm kurmaz. {ar:تَرَىٰ, tr:tarā, gloss:görüyorsun} ile açılan tanıklık, {ar:يَعْمَلُونَ, tr:yaʿmalūna, gloss:yapıyorlar ve işliyorlar} ile kapanan sorumlu yapmaya bağlanır: ayet, görülen davranışı sürmüş bir pratik olarak adlandırır ve onu hükmün önüne getirir.
+
+Son kınama Fâtiha'daki {ar:مَالِكِ يَوْمِ الدِّينِ, tr:Māliki yawmi d-dīn, gloss:karşılık gününün sahibi} ifadesiyle yan yana okunduğunda, yapılan işin değerlendirilebilir bir karşılık ufkuna yerleştiği duyulur (1:4). {ar:بِئْسَ, tr:biʾsa, gloss:formel kınama fiili} somut davranışa yönelen hükmü taşır; Fâtiha yankısı bu hükmü, kınanan {ar:يَعْمَلُونَ, tr:yaʿmalūna, gloss:yapıyorlar ve işliyorlar} işlerin değerlendirme önüne çıktığı bir ufukta duyurur. Bu karşılık ufku, ayetin kınamasını somut işten koparmadan onun hesap verilebilir niteliğini canlı tutar; belirli cezanın biçimi ve zamanı bu bağlantının kapsamı dışında kalır.
+
+</editorial_prose>

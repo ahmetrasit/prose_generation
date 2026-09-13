@@ -191,8 +191,7 @@ to a reader without requiring the reader to consult a ledger.
 
 ## Output
 
-Write exactly one nonempty prose file and modify nothing else, except for any
-required monitor lifecycle event command supplied by the orchestrator:
+Write exactly one nonempty prose file and modify nothing else:
 
 - prose: `_commentary/v5/raw/s005-p01-with-fatiha/s005/5_4/5_4.prose.tr.md`
 

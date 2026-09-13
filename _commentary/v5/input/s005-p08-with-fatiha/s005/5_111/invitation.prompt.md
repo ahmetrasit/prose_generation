@@ -1,0 +1,189 @@
+# V5 reading invitation — 5:111
+
+You are a fresh reading-invitation writer. Read the complete editorial prose
+before writing. It is your sole semantic source.
+
+Write two to four paragraphs of fluent, contemporary Turkish that reveal a
+surprising reading by following one or two main channels of resonance in the
+ayah. A channel is a connected background of meanings, images, actions, or
+relations through which the ayah can be heard and understood differently.
+Several editorial findings may together develop one channel. Summarize that
+connected movement and its consequence for the ayah's main meaning, rather
+than compressing findings individually. Give the reading's substance now;
+the invitation comes from understanding it, not from a promise of hidden depth.
+
+Before drafting, read the entire editorial prose and silently select the one
+or two channels with the strongest interpretive consequence and enough
+grounding to explain clearly. Favor channels that expand or shift what the
+ayah says, the relation it establishes, or what is at stake in its action or
+image. One fully developed channel is sufficient; add a second only when it
+offers a distinct consequential reading that can be explained within the
+invitation. No finding, channel, or major shift has an individual coverage
+claim. Unselected material may remain entirely in the full commentary.
+
+A channel may develop through grammar, sound, dialogue, a material process,
+time, imagery, or a conceptual relation. Resonance is not limited to acoustic
+effects, and an unusual image alone does not establish a channel. Use only
+connections the editorial prose actually develops. If it supplies no such
+channel, explain its strongest grounded reading without inventing connections
+or surprise.
+
+Begin inside the ayah's own words, images, actions, or relations and reveal a
+selected distinctive reading in the first paragraph. Keep the plain meaning
+reachable with only the orientation needed to understand the change. Do not
+spend an opening paragraph on routine explanation or front-load context about
+the surah, the ayah's position, or the commentary project.
+
+For each selected channel, begin with the expression that opens it, unfold the
+connected background, and show how the ayah reads or sounds against that
+background. Let a detail lead into the next through an intelligible relation
+or process, so the reader experiences the emerging reading. This is a movement
+of thought, not a mandatory sentence pattern or one paragraph per finding.
+Let the reader identify the expression being interpreted,
+where any nonordinary detail comes from, and what that detail changes in the
+reading. Briefly identify the word-family use, restricted form, collocation, or
+context that supplies an essential added detail, and preserve the concrete
+operation that makes the image work. Keep the ordinary reading and necessary
+qualification clear within this explanation; do not repeat them as a fixed
+formula. Preserve the particular object, process, or relation that makes this
+reading distinctive, and state its interpretive consequence for the ayah as a
+whole. Make intelligible what the familiar reading leaves less visible and
+what the expanded or shifted reading now lets the reader understand. Preserve
+the editorial's force: an exploratory possibility remains possible, while a
+developed shift must not be softened into a decorative association or a
+reassurance that everything means the same thing. A concrete
+account of how something is carried, transformed, lost, or restored must not
+shrink to a general statement about care, guidance, dependence, or goodness.
+Keep the details needed to make the selected channel work; omit side findings
+and shorten routine setup. If a channel cannot be explained faithfully from
+the editorial prose, choose another grounded channel or reading.
+
+When a non-focus ayah supplies a contribution used in the invitation, keep its
+reference from the editorial prose beside that contribution.
+
+Do not turn the invitation into a miniature inventory of the commentary's
+conclusions, or flatten distinct channels into a broad theme to include more
+material. Do not repair, extend, or supplement the editorial prose from memory
+or outside knowledge.
+
+Omit technical apparatus. Retain any qualification, source distinction, live
+alternative, or boundary whose absence would change the force or meaning of a
+chosen reading. Express it naturally beside the image or relation it qualifies.
+Favor positive explanations of the relation between layers: what remains in
+the foreground and what the resonance makes audible in the background. State
+how that background reinforces, expands, or shifts the understanding of the
+main meaning, with the source and degree of certainty clear. Reserve explicit
+exclusions for concrete ambiguities or live counter-evidence that need them.
+Repeated "this is not X" endings make a reading sound withdrawn; express the
+substantive qualification through what the reading does contribute wherever
+possible. Use varied, natural language rather than a repeated "second layer"
+formula, and preserve the force of expansions and shifts.
+Do not name branches, candidates, findings, scopes, evidence categories,
+ledgers, or workflow stages, or label the prose as numbered channels. Do not
+list findings serially.
+
+Use the established `{ar:..., tr:..., gloss:...}` syntax, consistent
+Turkish-readable transliteration, and short ordinary glosses. Keep Arabic
+anchors beside the explanations they ground. Within a paragraph, continue with
+the Turkish meaning where clear; provide the necessary local tag when a later
+paragraph interprets the carrier anew. Do not place Arabic script outside a
+valid tag.
+
+Build transitions within a channel through its shared object, action, or
+relation. If two channels are selected, they may occupy separate paragraphs;
+do not invent a link between them. Do not praise the commentary's quality,
+promise what the reader will find, manufacture suspense, recap at the end, or
+add a call to action. End on an image, relation, action, or tension already
+established by the selected reading.
+
+Before finishing, compare the invitation with the entire editorial prose:
+does the chosen channel reveal a consequential reading, or could the text have
+been written from the ordinary translation and a modest explanation alone?
+When the editorial supports a surprising channel, the latter fails this task.
+Can the reader follow the opening expression into a connected background and
+understand how that background expands or shifts the ayah's main meaning?
+Check the selected connections against their editorial explanation: can the
+reader tell where the nonordinary details come from, with the necessary
+qualifications intact? Repair generic explanation, isolated curiosities, or a
+compressed findings list by developing the selected channel. Do not add
+omitted channels merely for coverage. Do not output this check.
+
+Write only the invitation text to:
+
+`_commentary/v5/editorial/s005-p08-with-fatiha/s005/5_111/5_111.invitation.tr.md`
+
+Do not add a heading, wrapper label, index, ledger, evidence file, or any other
+artifact. Do not modify the editorial prose.
+
+After writing the invitation, run:
+
+```bash
+python3 _commentary/v5/validate_prose.py _commentary/v5/editorial/s005-p08-with-fatiha/s005/5_111/5_111.invitation.tr.md
+```
+
+If validation fails, repair only the reported mechanical file-contract issues
+and rerun it, for at most two repair cycles. Report the final validator result
+in your response.
+
+<editorial_prose>
+Bu âyetin sahnesi açıktır: Allah havârîlere kendisine ve elçisine inanmalarını bildirir; havârîler de "inandık, bizim teslim olanlar olduğumuza tanık ol" diye karşılık verir. Başındaki {ar:وَإِذْ, tr:wa-idh, gloss:ve o zaman}, bu sözü önceki hatırlanan sahnenin ardından getirir. Âyet böylece kopuk bir rapor değil, süren bir hatırlamanın içindeki yeni dönüş olarak açılır. İçindeki {ar:إِذْ, tr:idh, gloss:o zaman} ise olayı geçmişte tamamlanmış bir bildirim olarak çerçeveler. Okur şimdi verilmekte olan yeni bir talimatla değil, hatırlanan ilahî lütuf içindeki bir iletişimle karşılaşır; bu zaman çerçevesi olayların ayrıntılı bir kronolojisini kendiliğinden kurmaz.
+
+Bu hatırlamanın fiili {ar:أَوْحَيْتُ, tr:awḥaytu, gloss:vahyettim} birinci tekil geçmiş biçimindedir. İlâhî konuşan tamamlanmış iletişim eylemini kendi sözüyle öne alır. Fiilin burada açık bir nesne almaması mesajı belirsiz bırakmaz; sonraki yapı, bildirimin içeriğini açmak için bu yeri hazırlar. {ar:إِلَى, tr:ilā, gloss:-e doğru} iletişime belirli bir yön ve varış noktası verir: bildirim tanımlı bir alıcı topluluğa doğru ilerler. Ardından gelen {ar:أَنْ, tr:an, gloss:ki}, neyin bildirildiğini açarak {ar:ءَامِنُوا۟, tr:āminū, gloss:iman edin} buyruğunu bu iletişimin açık içeriği yapar. Böylece saklı aktarım, inanma talimatı olarak duyulur; burada kanıtlanmayan başka bir mesaj eklenmez.
+
+Bu yönelişin alıcısı {ar:ٱلْحَوَارِيِّۦنَ, tr:al-ḥawāriyyīn, gloss:havârîler}, belirli çoğul bir insan topluluğudur. İsa ile havârîlerin birlikte anıldığı yakın söyleyişler, onları İsa çevresinde tanınan bir grup olarak sahneye yerleştirir. Aynı topluluk önce bildirimin alıcısı, sonra kendi sesiyle cevap veren kolektif olur. Havârîler sözüne eşlik eden ihtiyatlı kelime ailesi rengi de bu alıcı rolüyle temas eder: temizlenmiş beraberlik ve uyumlu karşılık basıncı, topluluğu sıradan bir takipçi adından daha dokulu duyurur. Bu renk, havârîler adının burada taşıdığı alıcı ve cevap veren topluluk dokusunu artırır; maddî-bedensel ya da cennetle ilgili kullanımlar bu âyetteki anlamın kapsamına girmez.
+
+Bildirim içeriğini taşıyan {ar:ءَامِنُوا۟, tr:āminū, gloss:iman edin}, ikinci çoğula yönelmiş emir kipidir. İlâhî iletişim böylece belirsiz bir bilgi aktarımı olarak kalmaz; havârîlerden inanma ve güvenme cevabı bekleyen bir buyruk olur. Fiilin ardından gelen {ar:بِى, tr:bī, gloss:bana} ve {ar:بِرَسُولِى, tr:bi-rasūlī, gloss:elçime}, aynı inanma fiilinin bā ile yönetilen iki tamamlayıcısıdır. Güvenin yönleri adlarıyla belirir: ilâhî konuşana ve onun elçisine. İki bā, tek emrin içinde iki ayrı ilişkiyi taşır.
+
+İlk tamamlayıcı olan {ar:بِى, tr:bī, gloss:bana}, ilâhî birinci tekil konuşanı elçi anılmadan önce inanmanın adı konmuş zemini yapar. Söz dizimindeki sıra konuşanı öne çıkarır; Allah ile elçiyi tek bir özneye indirmez. Aradaki {ar:وَ, tr:wa, gloss:ve}, ilk bā öbeğini ikinci bā öbeğine bağlar ve iki tamamlayıcının ayrı yerini korur. İkinci bânın yeniden kurulması, elçiyi aynı inanma buyruğunun kendi tamamlayıcısı olarak belirginleştirir. Elçiye inanma böylece sonradan gevşekçe eklenmiş bir isim değil, fiilin dengeli biçimde yöneldiği ikinci ad olur.
+
+Bu ikinci öbeğin taşıyıcısı {ar:رَسُولِى, tr:rasūlī, gloss:elçim}, birinci tekil iyelik ve tekil tamlama ile ilâhî konuşanın gönderdiği belirli elçiyi gösterir. Elçi, gönderenle bağı kurulmuş tekil bir taşıyıcı olarak görünür. Sözcüğün ihtiyatlı sözlük rengi, gönderen ile taşınan içerik arasındaki mesaj taşıma yönünü duyurur: elçiye inanmak, gönderenden gelen görevi kabul eden aracılı bir güvene açılır. Bu renk olağan elçi anlamını genişletir; elçinin burada taşıdığı görevden bağımsız bir mesaj nesnesi kurmaz. Elçi tamamlayıcısının ardından gelen {ar:ٱشْهَدْ, tr:ishhad, gloss:şahit ol} isteği, bu ilişkinin tanıklığa açılan yerel adımını hazırlar.
+
+İlâhî emrin ardından {ar:قَالُوآا۟, tr:qālū, gloss:dediler} gelir ve sözün sahibi değişir. Üçüncü çoğul geçmiş biçimi havârîlerin ortak sesini sahneye getirir; cevap, alınmış buyruğun iç bağını sürdürerek içteki iletişimi dışarı taşır. Aynı fiil, gizli iletişimden işitilebilir ortak bildirime geçişi görünür kılar. Yakın İsa söyleyişlerinde inkâr, tanıklık, kabul ve yeni konuşma sahneleri arasındaki söz sırasına yerleşen bu cevap, devam eden alışverişin bir dönüşü gibi duyulur. Burada görünen hareket, havârîlerin kendi ağzında tamamlanan bu cevapla sınırlıdır; eksik konuşma turları yeniden kurulmaz.
+
+Havârîlerin söylediği {ar:ءَامَنَّا, tr:āmannā, gloss:inandık}, emirdeki inanma biçimini birinci çoğul geçmişle geri getirir. Önceki {ar:بِى, tr:bī, gloss:bana} ve {ar:بِرَسُولِى, tr:bi-rasūlī, gloss:elçime} tamamlayıcıları yeniden söylenmez, fakat kısa cevap içinde geri çağrılır. Bu, kuru bir tekrar değil, ikinci çoğula yönelmiş buyruğun birinci çoğul topluluk tarafından alınmış ve söze dökülmüş karşılığıdır. Cevabın arkasındaki {ar:وَ, tr:wa, gloss:ve}, bildirimi kapatmak yerine onu tanıklık isteğine taşır. Böylece inandık sözü, önceki iki ilişkiyi koruyarak açıklanacak kimlik cümlesine geçiş sağlar.
+
+Bu geçişin öte yanında bulunan {ar:ٱشْهَدْ, tr:ishhad, gloss:şahit ol}, çoğul alıcıların emri dinlemesinden tekil bir muhataptan tanıklık istemesine geçirir. Emir tekildir, fakat muhatap açık bırakılır; bu açıklık canlı hitap ihtimallerini çözmeden havârîlerin kendi durumlarını görünür kılma isteğini öne çıkarır. {ar:بِأَنَّنَا, tr:bi-annānā, gloss:şüphesiz biz}, bu fiilden sonra tek bir isim değil, öznesi ve yüklemi bulunan bütün bir önerme getirir. İçindeki bā, tanıklığı havârîlerin teslim olmuş olma durumuna bağlar; tanıklığın içeriği açıkça kurulur ve yapı bir suçlama yönüne kaymaz. {ar:أَنَّنَا, tr:annānā, gloss:şüphesiz biz} ise çoğul birinci şahıs zamirini görünür tutar: tanıklık edilmesi istenen özne belirsiz bir kalabalık değil, kendisini bilinçli biçimde biz diye sunan topluluktur. Bu yapı ayrıca bir yemin eklemez ve açık muhatabı belirlemez.
+
+Son yüklem {ar:مُسْلِمُونَ, tr:muslimūna, gloss:teslim olanlarız}, geçmişte yapılmış tek bir işten çok sürmekte olan bir kimliği bildiren eril çoğul etkin ortaçtır. Havârîler, inanmış olduklarını söylemenin ardından kendilerini teslim olanlar olarak tanımlar. İnanma ile teslimiyet ayrı biçimlerdir; emirden tamamlanmış cevaba, oradan sürekli kimlik bildirimine doğru bir hareket oluşur. Kelimenin ihtiyatlı kök rengi, teslim olmuş kimliğe güvenlik, esenlik ve bütünlük basıncı ekler. Bu renk selamlaşmaya, güvenli bir mekâna veya başka bir yan kullanıma dönüşmez. Uzun çoğul kapanışın sesi de son kimliği sürdürülen ve yerleşen bir topluluk yüklemiyle bitirir; bu ritim, kelimenin olağan kimlik anlamına eşlik eder.
+
+## Cevabın Tanıklığa Açılması
+
+Bu yerel hareketin katkısı, alınmış ilahî sözün içteki bildirimden tanığın önünde ortak bir taahhüde nasıl çıktığını görünür kılmasıdır. {ar:أَوْحَيْتُ, tr:awḥaytu, gloss:vahyettim} kelimesinin gizli ve bilgi taşıyan iletişim yönü, bağımsız tetikleyici olarak gelen {ar:ءَامِنُوا۟, tr:āminū, gloss:iman edin} buyruğuyla buluşur; gizli iletim buyruğun iç başlangıcı gibi duyulur. Ardından {ar:ءَامَنَّا, tr:āmannā, gloss:inandık} içindeki doğru sayıp kabul etme yönü, {ar:قَالُوآا۟, tr:qālū, gloss:dediler} fiilinin sesli söz eylemine değerek havârîlerin sahip çıktığı ortak bildirime dönüşür. {ar:ٱشْهَدْ, tr:ishhad, gloss:şahit ol} bu dışa çıkan cevabı tanıklığa ve bilinerek açıklanmaya açar; {ar:أَنَّنَا, tr:annānā, gloss:şüphesiz biz} ile {ar:مُسْلِمُونَ, tr:muslimūna, gloss:teslim olanlarız} topluluğun kendi durumunu tanık önünde açık bir önerme haline getirir. Okur böylece alınmış bir sözün sesli bir taahhüde dönüşmesini izler. Bu ilişki bu âyetteki vahiy, inanma, şahitlik ve teslimiyet anlamlarını birlikte derinleştirir; her ilahî bildirimi zorunlu bir kamusal sona bağlayan genel bir teori kurmaz.
+
+Bu yerel görüntünün katkısı, alınan sözün elçi üzerinden havârîlerin ortak cevabına ve tanıklık önünde sahiplenilmiş bir kimliğe dönüşmesini göstermesidir. {ar:ٱلْحَوَارِيِّۦنَ, tr:al-ḥawāriyyīn, gloss:havârîler} kelimesinin içtenlikle destekleyen kimse yönü, ayrı taşıyıcı olan {ar:رَسُولِى, tr:rasūlī, gloss:elçim} ile buluşur. Havârîler böylece aldıkları elçinin yanında duran ve alınan sözü cevapla taşıyan katılımcı bir topluluk gibi renklenir; olağan alıcı rolü, bu destek ilişkisiyle cevap verebilen bir topluluk rolüne açılır. Topluluğun ortaklaşa sürdürdüğü söz alışverişini {ar:قَالُوآا۟, tr:qālū, gloss:dediler} açar. Elçiyle taşınan içerik havârîlerin cevabıyla dışarı çıkar; {ar:ٱشْهَدْ, tr:ishhad, gloss:şahit ol} isteği bu cevabı hazır bulunup gören bir tanığın önüne koyar ve {ar:مُسْلِمُونَ, tr:muslimūna, gloss:teslim olanlarız} sahiplenilmiş dönüşü tamamlar. Elçi, buyruğun kaynağı değil taşınan içeriğin taşıyıcısı olarak kalır; bu bağlantı yeni bir mesaj veya bağımsız bir kurum kurmadan, cevap ve tanıklıkla görünür hale gelen iletişim döngüsünü açıklar.
+
+Daha düşük kesinlikli, keşifsel ve aktarılmış bu görüntünün katkısı, beyanın taşıdığı sorumluluk ağırlığını hissettirmesidir. {ar:قَالُوآا۟, tr:qālū, gloss:dediler} ile söylenen cevap, {ar:ءَامَنَّا, tr:āmannā, gloss:inandık} ile {ar:مُسْلِمُونَ, tr:muslimūna, gloss:teslim olanlarız} arasında kurulan bağlılık sırasına değen uzak ve bölünmüş kök benzetmesiyle, bir taahhüdün ağırlığını üstlenen, yükselip yola koyulan bir topluluk görüntüsüne açılır. Bu görüntü, beyanın sorumluluk tarafını öne çıkarır. Düşük kesinlikli kök benzetmesi qālūnun olağan "dediler" anlamına eşlik eder; gerçek bir yük taşıma veya fiziksel taşıma iddiası bu bağlantının kapsamı değildir.
+
+En keşifsel ve daha düşük kesinlikli aktarılmış görüntünün katkısı, gizli iletişimi toplulukta kalan bir iz, tanıklığı da o izi okunabilir kılan bir işaret gibi düşündürmesidir. {ar:أَوْحَيْتُ, tr:awḥaytu, gloss:vahyettim} ile başlayan gizli iletişim kalıcı bir iz olarak, {ar:ٱشْهَدْ, tr:ishhad, gloss:şahit ol} ile gelen açıklama ise o izi görünür kılan bir kanıt işareti olarak duyulur. İki unsurun teması, sözün bir yüzeye yazılması veya kazınması yönünde bir imge açar; havârîlerin tanıklığı bu izi okunabilir kılar. Bu analoji yazı, kitap ya da fiziksel bir yüzey kurmaz; şahitliği yıldız veya zaman işaretine çevirmeden, bilgiye dayalı tanıklığa sınırlı bir kalıcılık ve görünürlük nüansı ekler.
+
+## Cevabın Yakın Çerçevesi
+
+Bu yakın çerçevenin katkısı, geçmişte söylenmiş 5:111 cevabını, geçmiş niteliğini koruyarak ilahî tanıklık önünde sorumluluk taşıyan ve ileride yeniden sorulabilen bir karşılık olarak duyurmaktır. Elçilerin hangi karşılığı aldıkları sorulduğunda, ardından gelen {ar:قَالُوا۟, tr:qālū, gloss:söylediler} cevap sözünü sahneye çıkarır (5:109). Aynı âyetteki {ar:يَجْمَعُ, tr:yajmaʿu, gloss:toplar}, elçilerin bir araya getirildiği toplu sahneyi kurar; bu sahne 5:111'deki havârî cevabını tek tek iç seslerden çok ortaklaşa duyulan bir karşılık olarak okumayı destekler. {ar:أُجِبْ, tr:ujibtu, gloss:karşılık verildi} cevap alma eylemini belirginleştirir ve qālū sözünü yöneltilmiş bir soruya bağlar. {ar:ٱلْغُيُوبِ, tr:al-ghuyūb, gloss:görünmeyenler} ise tanıklığı insan gözünün önündeki olgularla sınırlı olmayan ilahî bilgi alanına taşır. Bu bağ, 5:111'deki {ar:ٱشْهَدْ, tr:ishhad, gloss:şahit ol} çağrısını sözün sorumluluğunu görünür kılan bir temas noktasına genişletir; kesin bir arşiv kaydı iddiası bu bağlantının kapsamı dışındadır.
+
+Bu toplu tanıklık sahnesinin katkısı, cevabın taşıyıcısını kaynağıyla birlikte görünür kılmasıdır. {ar:ٱلرُّسُلَ, tr:al-rusul, gloss:elçiler} sözü, 5:111'deki {ar:رَسُولِى, tr:rasūlī, gloss:elçim} ile aynı taşıyıcılık sorusuna dokunur (5:109). Rasūlî, haber taşıyıcısı veya taşınan haber yönünü gönderene bağlı bir taşıyıcılıkta tutar. Cevap verenlerin görevlendirilmiş iletişim içindeki yeri böylece belirginleşir; 5:111'de inanma buyruğunun elçiye yönelen ikinci tamamlayıcısı bu çerçevede kendi yerini korur.
+
+Bu kaynak-alıcı ilişkisinin katkısı, 5:111'deki "inandık" sözünü güçlendirilmiş ve öğretilmiş bir bildirim ilişkisinin karşılığı olarak duyurmaktır. İlâhî konuşanın {ar:أَوْحَيْتُ, tr:awḥaytu, gloss:vahyettim} fiili, seçilmiş kula yönelen bildirim olarak güçlendirme, söz söyleme ve öğretme hatırlatmalarıyla yan yana gelir. {ar:أَيَّدتُّكَ, tr:ayyadtuka, gloss:seni güçlendirdim} fiili bildirimi ilahî destekle temas ettirir; {ar:عَلَّمْتُكَ, tr:ʿallamtuka, gloss:sana öğrettim} ise bildirimin öğretilmiş ve taşınmış bir bilgi düzeni içinde karşılandığını düşündürür (5:110). {ar:تُكَلِّمُ, tr:tukallimu, gloss:konuşursun} fiilinin beşikte ve yetişkinlikte söz söyleme imkânını anımsatması, havârîlerin "inandık" sözünü duyulur ve muhataplı bir cevap olarak somutlaştırır. Aynı âyetteki {ar:ٱلْحَوَارِيِّۦنَ, tr:al-ḥawāriyyīn, gloss:havârîler}, bildirimin muhataplarını peygamberin yanında destek ilişkisi içinde şekillenmiş yakın topluluk olarak gösterir (5:110). Bu temaslar 5:111'deki kabulü güçlendirilmiş tebliğ ve öğretim ilişkisinin sözel karşılığına doğru genişletir; havârîlere İsa'nın işaretleri veya bağımsız bir yetki taşıyan başka bir rol vermez.
+
+Bu bağlam temasının katkısı, "inandık" sözünü tanık önünde sahiplenilen, elle tutulur bir karşılık arayan ve kalplerde güven isteyen bağlılık olarak derinleştirmesidir. {ar:ءَامِنُوا۟, tr:āminū, gloss:iman edin} ve {ar:ءَامَنَّا, tr:āmannā, gloss:inandık} biçimleri, 5:112'deki {ar:مُّؤْمِنِينَ, tr:muʾminīn, gloss:inananlar} topluluk kimliğiyle sürer. 5:113'teki {ar:شَّٰهِدِينَ, tr:shāhidīn, gloss:tanıklar}, {ar:ٱشْهَدْ, tr:ishhad, gloss:şahit ol} çağrısındaki kabul beyanını başkalarınca değerlendirilebilen açık bir söz olarak tutar (5:112, 5:113). {ar:يَسْتَطِيعُ, tr:yastaṭīʿu, gloss:gücü yetmek} fiili kabul ve tanıklığın gerçekleşme şartlarını hesaba katan imkân sorusunu açar. {ar:يُنَزِّلَ, tr:yunazzila, gloss:indirmek} ile {ar:مَآئِدَةًۭ, tr:māʾidatan, gloss:sofra}, bağlılığı dışsal, elle tutulur ve birlikte paylaşılabilir bir karşılık arayan sahneye bağlar. {ar:تَطْمَئِنَّ, tr:taṭmaʾinna, gloss:yatışsın} ile {ar:قُلُوبُنَا, tr:qulūbunā, gloss:kalplerimiz}, bu karşılığın amacını ortak bir iç huzurunda toplar. {ar:صَدَقْتَنَا, tr:ṣadaqtanā, gloss:bize doğru söyledin} ise peygambere yönelen doğrulama talebini tanıklıkla birleştirir (5:112, 5:113). Böylece 5:111'deki "inandık" sözü, tanık önünde sahiplenilen ve kalplerde güven arayan bağlılığa genişler; sofranın maddî olarak gerçekleşmesi bu bağlantının ayrıca açık kalan sonucudur.
+
+Bu genişlemenin katkısı, tanıklığı insanın o andaki hazır bulunuşundan ilahî huzurda tamamlanan bir açıklık ve doğruluk ölçüsüne taşımaktır. İsa'nın kendisi için tanıklık oluşunu bildiren sözler, 5:111'deki {ar:ٱشْهَدْ, tr:ishhad, gloss:şahit ol} buyruğuna temas eder (5:117). Aynı bağlamdaki {ar:شَهِيدًا, tr:shahīdan, gloss:tanık} kişinin tanıklık konumunu, {ar:شَهِيدٌ, tr:shahīdun, gloss:tanık} ilahî tanığın kapsayıcılığını duyurur. {ar:تَوَفَّيْتَنِى, tr:tawaffaytanī, gloss:beni vefat ettirdin}, insan hayatının sona erişini insan tanıklığının sınırı olarak öne çıkar; {ar:الرَّقِيبَ, tr:al-raqīb, gloss:gözeten}, görünür beyanın ötesine uzanan sürekli gözetimi hissettirir (5:117). 5:119'daki {ar:الصَّادِقِينَ, tr:al-ṣādiqīn, gloss:doğru sözlüler} ve {ar:صِدْقُهُمْ, tr:ṣidquhum, gloss:doğrulukları}, tanıklığın doğruluk ölçüsünü görünür kılar. {ar:يَنفَعُ, tr:yanfaʿu, gloss:fayda verir} ise doğruluğun hesap günündeki sonucunu, sözün nihai faydasını açar (5:119). İlâhî tanıklığın kapsayıcılığı, 5:111'deki insan tanığının yerini almaz; insanın erişiminin ötesinde tamamlanan nihai sınırı görünür kılar.
+
+Bu bağlam temasının katkısı, son yüklemdeki teslimiyeti tanıklıkta söylenen kimlikten ibadet ve itaatte yaşanan yönelişe doğru açmasıdır. {ar:مُسْلِمُونَ, tr:muslimūna, gloss:teslim olanlarız}, buyruğa boyun eğip onu kabul etme anlamını korur; 5:117'deki {ar:ٱعْبُدُوا۟, tr:ʿbudū, gloss:ibadet edin} buyruğuyla temas ettiğinde, tanıklıkta dile gelen kabulün ibadet ve itaatte somutlaşan yönünü açar (5:117). Havârîlerin "biz teslim olanlarız" sözü böylece söylenen bir kimlik ile yaşanan yönelişi birlikte taşır. Bu bağlantı insanın bütün fiillerinin eksiksiz biçimde kayda geçtiğini bildirmez; teslimiyet, tanıklık ve itaat ayrı hareketler olarak yerlerini korur.
+
+## Tanıklığın Genişleyen Yüzleri
+
+Bu üç bağlamsal temasın katkısı, 5:111'deki iletişim akışını gizli bildirimden alıcı topluluğun iman sözüne, oradan tanığın önünde duran cevaba kadar izlenebilir kılmasıdır (3:52, 3:53, 3:81). Havârîlerin iman edip tanıklık istemesi (3:52), 5:111'deki topluluğu ilahî hitabı ortak beyanla taşıyan destekçiler olarak duyurur. Gönderilene inanma, elçinin izinden gitme ve tanıklık isteme birlikte görünür (3:53); bu temas, {ar:ءَامِنُوا۟, tr:āminū, gloss:iman edin} ile {ar:ءَامَنَّا, tr:āmannā, gloss:inandık} kabulünü göndereninden ve elçisinden kopuk bir kanaat olmaktan çıkarıp alınmış içeriğe verilen cevaba doğru genişletir. Doğrulanan elçiye inanma, destekleme ve tanıklık emri de aynı söyleyiş içinde tutulur (3:81); {ar:ٱشْهَدْ, tr:ishhad, gloss:şahit ol}, konuşulan inancı bilinebilir ve açıkça beyan edilmiş bir bağlılık olarak yerleştirir. Bu yankı 5:111'in olağan vahiy, topluluk, iman ve tanıklık anlamlarını korur; kapsamı, her ilahî bildirime zorunlu bir kamusal son yüklemek değildir.
+
+Bu yankının katkısı, havârîlerin cevap vermeden önce ilahî bildirimi alan belirli topluluk olduğunu görünür kılmasıdır. {ar:أَوْحَيْتُ, tr:awḥaytu, gloss:vahyettim} kelimesi, peygamber olmayan bir insan alıcıya yönelen ilahî iletişim örneğiyle temas eder (20:38). Havârîler böylece yalnızca sonradan cevap verenler değil, önce kendilerine yöneltilmiş belirli bildirimin alıcıları olarak görünür. 20:38'deki koruyucu ortam kendi sahnesinde kalır; bu bağlantı havârîlere peygamberlik vermez ve gizli iletişimi bütün örneklerine yayılan tek bir biçime dönüştürmez. 5:111'de emrin önce belirli alıcıya ulaşmasını, sonra onların cevabına dönüşmesini bu sınır içinde daha seçilebilir kılar.
+
+Bu el değiştirme imgesinin katkısı, "teslim olanlar" kimliğine yönünü bir sahibine ve hükmüne emanet etme boyutu eklemesidir. {ar:مُسْلِمُونَ, tr:muslimūna, gloss:teslim olanlarız} bir şeyi başka birinin eline ve denetimine geçecek biçimde verme yönünü taşır. Odaktaki emir-cevap dizisi ve elçinin izinden gitme bu yönü tetikler (3:53); havârîlerin topluluk kimliği, kendi yönünü mesajın sahibine emanet eden bir bağlılık gibi duyulur. Aynı kelimenin bir işi Allah'ın hüküm ve yönetimine bırakma yönü, iman iddiası ile sonradan gelen "teslim olduk" ifadesinin ayrıştırılmasında belirginleşir (49:14). Son yüklem böylece yalnız bir grup adı değil, yönünü ilahî hükme bırakmış olmanın süreklilik taşıyan adı olarak da okunabilir. Bu imge, olağan topluluk bildirimini ve insan iradesini koruyarak teslimiyet, tanıklık ve itaati birbirine eşitlemez; kapsamı bütün kullanımlara yayılan tek bir formül değildir.
+
+Bu iki temasın katkısı, iman sözünün taşınmış bir buyruğa ve görünmeyen karşısında açığa çıkan davranışa bağlanarak yerleşmiş bir güven gibi duyulmasıdır (5:92, 5:94). 5:92'de Allah'a ve elçiye itaat ile elçinin açık tebliği birlikte görünür. Bu açık tebliğ, odaktaki {ar:وَبِرَسُولِى, tr:wa-bi-rasūlī, gloss:elçime} ile tekrarlanan iman biçimine değdiğinde, elçiye bağlanan ikinci tamamlayıcı taşınmış ve cevap bekleyen bir içerik olarak belirir. Aynı sahnedeki boyun eğme, sözlü imanı teslim alınan yük karşısında yönünü belli eden bağlılığa doğru genişletir. 5:94'te gözden gizli olanla sınanma, {ar:ءَامِنُوا۟, tr:āminū, gloss:iman edin} ve {ar:ءَامَنَّا, tr:āmannā, gloss:inandık} taşıyıcısına geri dönerek bağlılığın görünmeyen karşısındaki cevapta açığa çıkabilecek bir durum olduğunu düşündürür. Kabul böylece cevap ve eylem içinde görünür hale gelen yerleşmiş güven olarak da duyulur. Bu temasların kapsamı, her inanma fiilini tek bir davranışla kanıtlayan evrensel bir kural kurmaz.
+
+Bu usul temasının katkısı, "biz teslim olanlarız" beyanını kırılgan insanî tanıklık süreçleri karşısında korunmak üzere tanığa bırakılmış bir emanet gibi duyurmasıdır. Tanıklığın sunulması ve onu gizleme tehlikesi bir usul sahnesi kurar (5:106); doğruluğa uygunluk ölçütü iki tanıklık arasında çekişmeli hale gelir (5:107); bir yeminin ardından başka yeminlerin geri dönmesi ihtimali ise insanî sürecin tersine çevrilebilir tarafını gösterir (5:108). Bilinen şeyi kesin haber veya açıklama olarak bildirme yönünü taşıyan {ar:ٱشْهَدْ, tr:ishhad, gloss:şahit ol}, bu çerçeveye değdiğinde havârîlerin sözünü bilinerek ortaya konmuş bir beyan olarak tutar. Yeminlerin tanıklığı güvenceye alma aracı olması, tekil tanık isteğini karşılıklı insan yeminlerinin yarışından daha üst bir emanet yerine bırakılmış söz gibi duyurur. Tanıklığı gizlemenin günah ve usul bozukluğu oluşu, teslimiyet beyanını saklanmaya karşı korunmuş bir kayıt imgesine yaklaştırır. Söz böylece gizleme, karşı-yemin, doğruluk çekişmesi ve geri dönüş karşısında korunmak üzere tanığa bırakılır. Bu bağ, 5:106, 5:107 ve 5:108'deki usulü bütünüyle 5:111'e taşımadan, formel bir hukuk hükmü kurmaksızın olağan şahitlik istemi ile teslim olmuş kimliği derinleştirir.
+
+Bu karşılaştırmanın katkısı, teslim olmuş kimliği kabul edilmiş buyruğa göre yönelen davranış olarak görünür kılmasıdır (2:131, 43:69). İlâhî buyruğa hemen "Müslüman oldum" cevabının verilmesi, 5:111'deki inanma emri ile son kimlik cümlesi arasında yaşayan bir itaat ilişkisi kurar (2:131); {ar:مُسْلِمُونَ, tr:muslimūna, gloss:teslim olanlarız}, kabul edilmiş yönelişin sürekliliğini taşır. İman ile Müslüman kimliğinin yan yana tutulup ayrı ifadeler olarak korunması da son yüklemdeki ayrımı belirginleştirir (43:69). Odaktaki topluluk kimliği ve yönünü Allah'a bırakma imgesi bu davranış boyutuyla birlikte kalır; bağlantı, itaat boyutunu bütün kullanımlara yayılan genel bir hukukî formüle dönüştürmez.
+
+Bu son temasın katkısı, "biz teslim olanlarız" beyanına hazır bulunan ve gören bir tanığın önünde karşılaşma boyutu eklemesidir. {ar:ٱشْهَدْ, tr:ishhad, gloss:şahit ol} kelimesinin olayın yanında hazır bulunup onu doğrudan görme çekirdeği, ilahî-insanî tanıklık sahnesiyle temas eder (7:172). Havârîler kimliklerini yalnızca bir cümle olarak onaylatmak değil, hazır bulunan ve gören bir tanığın önüne koymak isterler. Bu karşılaşma nüansı bilgiye dayalı tanıklık anlamını korur; 7:172'deki sahne kendi bütünlüğü içinde kalır. Böylece "biz teslim olanlarız" sözü, tanığın önünde görülür kılınmış bir kimlik olarak tamamlanır.
+
+</editorial_prose>

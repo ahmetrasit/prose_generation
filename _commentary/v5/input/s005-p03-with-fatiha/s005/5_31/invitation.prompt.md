@@ -1,0 +1,247 @@
+# V5 reading invitation — 5:31
+
+You are a fresh reading-invitation writer. Read the complete editorial prose
+before writing. It is your sole semantic source.
+
+Write two to four paragraphs of fluent, contemporary Turkish that reveal a
+surprising reading by following one or two main channels of resonance in the
+ayah. A channel is a connected background of meanings, images, actions, or
+relations through which the ayah can be heard and understood differently.
+Several editorial findings may together develop one channel. Summarize that
+connected movement and its consequence for the ayah's main meaning, rather
+than compressing findings individually. Give the reading's substance now;
+the invitation comes from understanding it, not from a promise of hidden depth.
+
+Before drafting, read the entire editorial prose and silently select the one
+or two channels with the strongest interpretive consequence and enough
+grounding to explain clearly. Favor channels that expand or shift what the
+ayah says, the relation it establishes, or what is at stake in its action or
+image. One fully developed channel is sufficient; add a second only when it
+offers a distinct consequential reading that can be explained within the
+invitation. No finding, channel, or major shift has an individual coverage
+claim. Unselected material may remain entirely in the full commentary.
+
+A channel may develop through grammar, sound, dialogue, a material process,
+time, imagery, or a conceptual relation. Resonance is not limited to acoustic
+effects, and an unusual image alone does not establish a channel. Use only
+connections the editorial prose actually develops. If it supplies no such
+channel, explain its strongest grounded reading without inventing connections
+or surprise.
+
+Begin inside the ayah's own words, images, actions, or relations and reveal a
+selected distinctive reading in the first paragraph. Keep the plain meaning
+reachable with only the orientation needed to understand the change. Do not
+spend an opening paragraph on routine explanation or front-load context about
+the surah, the ayah's position, or the commentary project.
+
+For each selected channel, begin with the expression that opens it, unfold the
+connected background, and show how the ayah reads or sounds against that
+background. Let a detail lead into the next through an intelligible relation
+or process, so the reader experiences the emerging reading. This is a movement
+of thought, not a mandatory sentence pattern or one paragraph per finding.
+Let the reader identify the expression being interpreted,
+where any nonordinary detail comes from, and what that detail changes in the
+reading. Briefly identify the word-family use, restricted form, collocation, or
+context that supplies an essential added detail, and preserve the concrete
+operation that makes the image work. Keep the ordinary reading and necessary
+qualification clear within this explanation; do not repeat them as a fixed
+formula. Preserve the particular object, process, or relation that makes this
+reading distinctive, and state its interpretive consequence for the ayah as a
+whole. Make intelligible what the familiar reading leaves less visible and
+what the expanded or shifted reading now lets the reader understand. Preserve
+the editorial's force: an exploratory possibility remains possible, while a
+developed shift must not be softened into a decorative association or a
+reassurance that everything means the same thing. A concrete
+account of how something is carried, transformed, lost, or restored must not
+shrink to a general statement about care, guidance, dependence, or goodness.
+Keep the details needed to make the selected channel work; omit side findings
+and shorten routine setup. If a channel cannot be explained faithfully from
+the editorial prose, choose another grounded channel or reading.
+
+When a non-focus ayah supplies a contribution used in the invitation, keep its
+reference from the editorial prose beside that contribution.
+
+Do not turn the invitation into a miniature inventory of the commentary's
+conclusions, or flatten distinct channels into a broad theme to include more
+material. Do not repair, extend, or supplement the editorial prose from memory
+or outside knowledge.
+
+Omit technical apparatus. Retain any qualification, source distinction, live
+alternative, or boundary whose absence would change the force or meaning of a
+chosen reading. Express it naturally beside the image or relation it qualifies.
+Favor positive explanations of the relation between layers: what remains in
+the foreground and what the resonance makes audible in the background. State
+how that background reinforces, expands, or shifts the understanding of the
+main meaning, with the source and degree of certainty clear. Reserve explicit
+exclusions for concrete ambiguities or live counter-evidence that need them.
+Repeated "this is not X" endings make a reading sound withdrawn; express the
+substantive qualification through what the reading does contribute wherever
+possible. Use varied, natural language rather than a repeated "second layer"
+formula, and preserve the force of expansions and shifts.
+Do not name branches, candidates, findings, scopes, evidence categories,
+ledgers, or workflow stages, or label the prose as numbered channels. Do not
+list findings serially.
+
+Use the established `{ar:..., tr:..., gloss:...}` syntax, consistent
+Turkish-readable transliteration, and short ordinary glosses. Keep Arabic
+anchors beside the explanations they ground. Within a paragraph, continue with
+the Turkish meaning where clear; provide the necessary local tag when a later
+paragraph interprets the carrier anew. Do not place Arabic script outside a
+valid tag.
+
+Build transitions within a channel through its shared object, action, or
+relation. If two channels are selected, they may occupy separate paragraphs;
+do not invent a link between them. Do not praise the commentary's quality,
+promise what the reader will find, manufacture suspense, recap at the end, or
+add a call to action. End on an image, relation, action, or tension already
+established by the selected reading.
+
+Before finishing, compare the invitation with the entire editorial prose:
+does the chosen channel reveal a consequential reading, or could the text have
+been written from the ordinary translation and a modest explanation alone?
+When the editorial supports a surprising channel, the latter fails this task.
+Can the reader follow the opening expression into a connected background and
+understand how that background expands or shifts the ayah's main meaning?
+Check the selected connections against their editorial explanation: can the
+reader tell where the nonordinary details come from, with the necessary
+qualifications intact? Repair generic explanation, isolated curiosities, or a
+compressed findings list by developing the selected channel. Do not add
+omitted channels merely for coverage. Do not output this check.
+
+Write only the invitation text to:
+
+`_commentary/v5/editorial/s005-p03-with-fatiha/s005/5_31/5_31.invitation.tr.md`
+
+Do not add a heading, wrapper label, index, ledger, evidence file, or any other
+artifact. Do not modify the editorial prose.
+
+After writing the invitation, run:
+
+```bash
+python3 _commentary/v5/validate_prose.py _commentary/v5/editorial/s005-p03-with-fatiha/s005/5_31/5_31.invitation.tr.md
+```
+
+If validation fails, repair only the reported mechanical file-contract issues
+and rerun it, for at most two repair cycles. Report the final validator result
+in your response.
+
+<editorial_prose>
+5:30'da öldürme sahnesi tamamlandığında 5:31, hemen ardından gelen sonucu görünür kılar: Allah bir karga gönderir; karga toprağı eşeler ve adamın kardeşinin bedenini nasıl örteceğini görmesini sağlar. Adam, önündeki bu hareketi kendi işi için ölçü alarak "Yazıklar olsun bana! Şu karga gibi olup kardeşimin cesedini örtmekten bile aciz miyim?" diye sorar ve pişman olanlar arasına girer. Ayet böylece gömme işini, öğrenme ile geç kalmış pişmanlığı aynı hareket içinde açıkta tutar.
+
+{ar:فَ, tr:fa, gloss:ardından} biçimi ayeti yeni bir özneyle kopuk biçimde başlatmaz; 5:30'daki öldürme eylemini 5:31'deki gönderme, gösterme, dileme ve bir duruma girme adımlarına bağlar. Bu tek harfli ön ek fiile kaynaşırken ayet sınırını da akışın içine alır. Ardışıklığı belirginleştirir, nedenselliği bütünüyle kapatmadan açık tutar: cinayetin ardından gelen şey, önceki eylemin sonuç zincirinde beliren ilahî gönderme ve insan tepkisidir.
+
+## Gönderilen Canlı
+
+{ar:بَعَثَ, tr:baʿatha, gloss:gönderdi} fiili anlatıyı 5:30'daki içe dönük ahlaki çöküşten göz önünde gerçekleşen bir gösterime taşır. Geçmiş zaman biçimi gönderme işini tamamlanmış bir ilahî karşılık gibi başlatır; gönderilme, henüz ders diye adlandırılmadan önce belirli bir ihtiyaç ve hedef için harekete geçirilen somut bir canlıyı sahneye çıkarır. Fiilin işaretsiz üçüncü tekil oluşu da öznenin adını bekletir; hemen ardından yalın durumda gelen {ar:ٱللَّهُ, tr:allāhu, gloss:Allah} adı bu faili belirsiz bir güç olmaktan çıkarıp doğrudan Allah olarak sabitler. Allah adı fiil ile karga nesnesinin arasına yerleşerek müdahaleyi açık bir fail ilişkisi halinde çerçeveler. 5:31'deki bu gönderme, 5:12, 5:27, 16:68, 27:18 ve 27:20'deki gönderme kullanımlarıyla aynı söz alanına temas eder; karganın ortaya çıkışı böylece rastlantısal bir hayvan davranışı değil, önceki öldürmenin ardından kurulmuş belirli bir karşılık olarak görünür. Allah adı ile pişmanlık ifadesinin 5:31 ve 5:52'de yan yana duyulması da dışarıdan gelen müdahale ile içeride kalan sonucun aynı anlatı alanında buluştuğunu hatırlatır.
+
+{ar:غُرَابًا, tr:ghurāban, gloss:bir karga} sözcüğü belirtme durumuyla gönderme fiilinin doğrudan nesnesidir; karga, uzak bir simge olmadan önce Allah'ın gönderdiği gerçek ve somut canlıdır. İlk anılışın belirsiz oluşu, henüz tanınmamış bir varlığın bütün öğretim yükünü taşımasına izin verir. Karga adının bağlı olduğu anlam alanındaki yabancılık, uzaklık, batı ya da güneşin batışı yankısı, beklenmedik öğretmenin dışarıdan gelen niteliğini güçlendirir; bu yankı 5:31'deki gerçek hayvan anlamına eşlik eden sınırlı bir çağrışımdır. Gırtlaksı ghayn ile sondaki b sesi kelimeye pürüzlü ve sert bir ses dokusu verir. Bu adın Kur'an'daki hayvan adı olarak burada tekil kalması, sahnedeki canlıyı sıradan bir örnekten çok bu ayette kurulmuş özel bir model haline getirir.
+
+Önce belirsiz biçimde görünen bu canlı, hemen sonra {ar:هَٰذَا, tr:hādhā, gloss:şu} işaretiyle konuşanın gözünün önündeki modele dönüşür. Kısa işaret biçimi cinsiyet ve yakınlık bilgisini taşır; hemen ardından gelen belirli karga adıyla kilitlenerek soyut bir benzetmeyi eldeki hayvana sabitler. {ar:ٱلْغُرَابِ, tr:al-ghurābi, gloss:karganın} içindeki belirlik daha önce tanıtılan ghurāban'ı yeniden işaretler. Ghurāban'dan al-ghurābi'ye uzanan yay, yeni bir nesne bulmaktan tanınan bir hareketi yinelemeye geçişi kurar. Karga belirli hale geldikten sonra bile adının taşıdığı yabancılık yankısını korur; yerel tekrar, ilk karşılaşmayı tanıyıp izlenebilir bir örnek olarak geri çağırmanın biçimi olur. Adlandırılmış karga, konuşanın taklit etmeye çalıştığı örtme fiilinden hemen önce model sözünü kapatır.
+
+## Toprağın İçindeki Hareket
+
+{ar:يَبْحَثُ, tr:yabḥathu, gloss:toprağı eşeleyerek arar} fiili soyut bir soruşturmayı değil, aranılanı bulmak ya da açığa çıkarmak için toprağın fiziksel olarak eşelenmesini anlatır. Bu fiilin Kur'an'da bu ayette tekil kalan görünümü, araştırma ile kazıyı aynı hareket çekirdeğinde buluşturur; soruşturma, fiziksel kazı ve sahnenin kuruluşu tek noktada görünür. Başındaki ya, hareketi karganın göz önünde sürdürdüğü bir eylem olarak tutar. Süren fiil cümlesi kargayı hem hareketin taşıyıcısı hem de sahneyi niteleyen unsur yapar; devam eden kazı, öğretim cümlesinden önce gösterimin kendisini kurar ve 5:30'daki içsel anlatımın yerini görünür bir işe bırakır. Kelimenin ba-ha-th ses sürtünmesi de toprağı eşelemenin hışırtılı dokusuna yaklaşır. Buradaki arama, bağlamın kurduğu fiziksel arama hareketine katkı verir; bilgi edinme ya da atasözüne dayalı başka anlamlar bu sahneye ancak bu hareketle ilişkileri ölçüsünde yaklaşır.
+
+{ar:فِي, tr:fī, gloss:içinde} edatı bu hareketi yalnız toprağa yönelmiş bir işaret olarak bırakmaz, gömme işini toprağın içine yerleştirir. Eylem, edat öbeği ve {ar:ٱلْأَرْضِ, tr:al-arḍi, gloss:toprak} arasındaki bağlanış, toprağın içine alınan bir beden görüntüsü kurar; al-arḍi, yer bildiren fī edatının yönettiği tamlayan durumunda görünür. Okur böylece gömmenin toprağa doğru gerçekleşen bir sonuçtan çok toprağın içinde tamamlanan somut bir kapatma olduğunu görür. Edatın okunuş akışında fiili toprak tamlamasına bağlayan işlevi açıktır; bağlanış biçiminde öbeğin karganın eylemine uzanabilecek bir açıklığı da bulunur ve bu açıklık 5:32'deki bağlam temasını tamamen kapatmaz. Her iki ihtimalin ortak zemini, eylemin toprağın kapsama alanı içinde gerçekleşmesidir.
+
+{ar:ٱلْأَرْضِ, tr:al-arḍi, gloss:toprak} belirli tekil biçimiyle bilinen gömme zeminini adlandırır. Cümle, kardeşin açıkta kalan bedenini ayrıntılandırmadan önce bu maddi tabakayı tanıtır; toprak burada manzara dekoru değil, aşağıda bulunan ve bedenin içine alınacağı yerdir. Karganın toprağı açması ile adamın bedeni görünürlükten kaldırma ihtiyacı birleştiğinde, açma hareketi örtme bilgisini taşıyan bir karşıt öğretime dönüşür: karga toprağı açığa çıkararak aranılanı gösterir, bu açığa çıkış da adamın örtmesi gereken bedeni toprağın ardına alma yolunu görünür kılar. Karganın yaptığı fiziksel hareket literal zemini korur, adam için taşıdığı ders ise bu hareketin ardından görünür hale gelir. Karga burada sessiz bir canlı örneği olarak çalışır; 5:31 dışındaki bağlar aynı sahneyi değil bu görüntünün belirli katkılarını taşır ve pişmanlık karganın hareketinden doğrudan değil, adamın sonraki sözü ile durumundan okunur.
+
+Bu öğretimin amacı {ar:لِيُرِيَهُۥ, tr:li-yurīhi, gloss:ona göstermesi için} yapısında açıkça yön kazanır. Li-ta'lîl edatı gönderme olayını amaçlı bir harekete çevirir; yurī ile ona bağlanan zamir, örtülen bedeni değil bu işi öğrenen adamı gösterinin alıcısı yapar. Gönderilen canlı, belirli bir alıcının görmesi ve anlaması için hareket eder. {ar:كَيْفَ, tr:kayfa, gloss:nasıl} sorusu burada bağımsız bir bilgi talebi olarak kalmaz; gösterme fiilinin içine gömülmüş bir tarz sorusu ve uygulanabilir talimat haline gelir. Soru ile yöntem anlamlarını aynı anda taşır: adam yalnız ne yapacağını değil, bunu hangi hareket dizisiyle yapacağını görür. 7:27'deki iki izleyiciye açılan gösterme formülü 5:31'de tek bir failin önündeki tekil gösteriye daralır. 7:20, 7:21, 7:22, 7:23, 7:24, 7:25 ve 7:26'daki açığa çıkma ve utanma hattına temas eden bu yapı, burada çıplaklığı görünür kılmak yerine örtme yolunu göstererek yön değiştirir.
+
+## Bedenin Örtülmesi
+
+{ar:يُوَٰرِى, tr:yuwārī, gloss:örter} fiili bedeni bir örtünün arkasına ya da altına yerleştiren somut bir görünürlükten kaldırma işlemi kurar. Bu anlam, ahlaki onarım hükmünden önce gelir ve karganın gösterdiği şeyin toprağın ardına alma yöntemi olduğunu açık tutar. Üçüncü şahıs sürerlik biçimi, insan aynı fiili kendi sözüyle yinelemeden önce kargayı etkin örnek olarak tutar. Fiilin uzun ünlüleri, gırtlaksı sawʾata seslenişinden önce akışı ağırlaştıran bir duyum verir; örtme ve geride bırakma alanındaki seyrek biçimi de sahnedeki tekil işlemi belirginleştirir. Bu ilk örtme cümlesi, 7:26'daki ve 5:31'de adamın doğrudan sözündeki birinci şahıs örtme biçimleriyle yanıtlanır. Biçimsel ve sesli süreklilik örtme eylemini farklı kişilere taşır; eylemin kendisi ise bu ayette bedeni görünürlükten kaldıran literal işlem olarak kalır.
+
+{ar:سَوْءَةَ, tr:sawʾata, gloss:örtülmesi gereken beden} bu örtme fiilinin doğrudan nesnesidir. Kelime, örtülmesi beklenen mahrem bedensel alanı adlandırırken burada öldürülmüş kişiye ait zamirle örtülmesi gereken ceset haline gelir. Aynı anlam alanının Kur'an'daki belirgin örtme-beden çifti 5:31 ile 7:20, 7:21, 7:22, 7:23, 7:24, 7:25 ve 7:26'da, özellikle 7:20, 7:21 ve 7:22'de yeniden görünür. Bu somut biçim, daha bol kullanılan başka suç ve kötülük biçimleri karşısında seyrek kalır; sawʾata aynı anda cesedi, ayıp duygusunu ve kötülüğün göz önündeki sonucunu canlı tutar. Âdem anlatısına değen çok anlamlılık ile tamlayan ilişkisi burada tek bir noktada buluşur: ayıp ve beden alanı soyut bir sözlük ailesi olarak değil, bu adamın kardeşine ait ve şimdi örtülmesi gereken beden olarak belirir.
+
+{ar:أَخِيهِ, tr:akhīhi, gloss:kardeşinin} sözcüğü cesedi adsız bir nesne olmaktan çıkarır. Kardeşlik bağı cinayetle koparılan ilişkiyi ayet sınırından geçirir; iyelik eki kardeşi ilişki içinde bilinen kişi olarak sabitler, kurbanı konuşanın kendi tarafına bağlı tutar ve örtme işine ilişkisel bir yükümlülük yükler. 5:30'daki anlatıdaki akhīhi, 5:31'de adamın ağzındaki akhī ile yankılanır; üçüncü şahısla anlatılan kardeş, doğrudan sözde birinci şahıs kardeşe dönüşür. Gömme böylece yalnız bir bedeni gizleme işi olmaktan çıkarak bozulan kardeşlik bağının karşısında yapılması gereken gecikmiş bir sorumluluk olarak görünür.
+
+7:22'de açığa çıkan beden, 7:26'da onu örten giysi ve 16:59'da başka bir bağlamda görünür olanı gizleme yönü, 5:31'deki odağa dışarıdan temas eder. Bu üç bağ toprağı açma, bedeni örtme ve görünürlüğü kaldırma hareketlerini aynı açıklık alanında buluşturur. {ar:يُوَٰرِى, tr:yuwārī, gloss:örter} burada nesneyi görünürlükten çekme işini, {ar:سَوْءَةَ, tr:sawʾata, gloss:örtülmesi gereken beden} ise çekilen şeyin bedensel alanını taşır. Dış bağlantılar somut gömme sahnesinin görünürlük eksenini genişletir; 5:31'deki toprağın, bedenin ve karganın literal düzeni ise bu bağlantıların her birinde kendi sınırını korur.
+
+## Görünen Dersten Sözlü Çığlığa
+
+Karganın hareketi görüldükten sonra anlatı {ar:قَالَ, tr:qāla, gloss:dedi} fiiliyle doğrudan konuşmaya döner. Qaf sesinin sert açılışı bu dönüşe keskin bir başlangıç verir. Qāla, katilin içindeki fark edişi dışarı çıkarır; konuşma eylemi içerik henüz açılmadan tamamlanmış olur ve ardından gelen söz, olayın dışından eklenmiş bir açıklama değil, karga dersinin doğurduğu ilk birinci şahıs tepkidir. Fiil görsel dersten sesli yakarışa, anlatıdan doğrudan söze geçişi kurar. Kardeşler anlatısındaki söz çizgisini ve surenin sonraki konuşmalarını da bir çerçeve içinde tutar. 11:72'deki yaşama şaşkınlığı ile ölüm dehşetini yan yana getiren sesleniş alanı düşünüldüğünde, burada da karganın basit hareketi insanın kendi durumunu birden seslendirmesine yol açar.
+
+{ar:يَا, tr:yā, gloss:ey} sesleniş edatı bu doğrudan sözü bir kanıt ya da tartışma ile değil, uzayan bir çığlıkla açar. Uzun yā, sesletim ve durak sonları kişisel yıkımı hem işitsel hem dilbilgisel hale getirir. Ardından gelen {ar:وَيْلَتَىٰ, tr:waylatā, gloss:yazıklar olsun bana} yakarışında tā merbūṭa ile elif, felaketin konuşana ait olduğunu duyurur; yā'nın muhataba yönelen çağrısı kendi yıkımına döner. Waylatā durakta h sesiyle uzayan bir ağıt gibi işitilir, yakarışın seslenilen nesnesine dönüşür ve genel bir üzüntüyü sahiplenilmiş bir yıkım duygusuna çevirir. 11:72'deki Sara'nın zayıflık ve şaşkınlık sahnesiyle, 36:52'deki diriliş çığlığıyla aynı ses alanına giren bu kelime, kargadan öğrenilen yöntemden sonra düşüncenin hesaplaşmaya değil yakınmaya dönüştüğünü görünür kılar.
+
+Bu çığlığın hemen ardından gelen {ar:أَعَجَزْتُ, tr:aʿajaztu, gloss:aciz kaldım mı} sorusu, adamın yetersizliğini kendi kendisine yöneltir. Bu fiil kök alanının Kur'an'daki tek geçmiş zaman görünümü olarak 5:31'de tekil bir biçim kazanır; başlangıç hemzesi yakarışı öz-suçlama içinde durdurur, soru hemzesi de yetersizliği kişinin kendine sorduğu retorik bir soruya çevirir. Soru bilgi araştırmaktan çok göz önündeki örneği izleyememeyi kınar: karga basit bir toprağı eşeleme hareketiyle bir yol göstermişken insan o bakım işine güç yetirememiştir. Biçim, retorik kınama ile seyrek geçmiş zamanın tamamlanmış başarısızlık olayını aynı yerde tutar; kıraatle duyulan ünlü değişkesi de olayı bir zayıflık durumuna yaklaştırır. 11:72'deki şaşkınlık ve güçsüzlük yankısı bu sorunun araştırmadan kınamaya dönüşen tonunu destekler.
+
+{ar:أَنْ, tr:an, gloss:olmak üzere} tamamlayıcı edatı bu yetersizliği hemen gerçekleşmiş bir olgudan, ulaşılması istenen bir olma durumunun içeriğine bağlar. An, sonraki fiili başarısız ihtimalin ve mastarlaşmış tamamlayıcının içine alır; genizsi n sesi de bağlacı olma fiiline işitsel olarak bağlar. Böylece soru "yapamadım" demekle kapanmaz; kişinin olması gereken ya da olmayı dilediği biçime ulaşamamasını da açar. Bu tamamlayıcı yapı içinde gerçekleşmemişlik korunur ve öz-suçlamanın ardından imkânsız kalmış bir dönüşüm arzusu belirir.
+
+{ar:أَكُونَ, tr:akūna, gloss:olayım} birinci şahıs dilek-şart biçimiyle karga gibi olmayı istenen fakat henüz gerçekleşmemiş bir öz dönüşüm olarak işaretler. Olma fiili, kargayı yalnız yapılacak işin örneği olmaktan çıkarıp insanın kendisini ölçtüğü kapasiteye dönüştürür; taklit tek seferlik bir hareket değil, kişinin kendisini başka türlü kurma isteği gibi görünür. Akūna, {ar:مِثْلَ, tr:mithla, gloss:gibi} karşılaştırmasını yüklem olarak alır ve 5:31'deki olma arzusunu 5:116'daki karşılaştırma alanına değen biçimsel bir yankıyla birlikte taşır. 5:29'daki mahvolmaya dönüşle 5:31'de kargaya benzemeye dönüşün aynı olma alanında duyulması, eylemin kişiyi hangi duruma soktuğu sorusunu keskinleştirir. An bağlacının altında kalan akūna, dönüşümü gerçekleşmiş bir sonuç olarak değil, konuşanın arzu ettiği olma durumu olarak taşır; bu gerçekleşmemişlik, taklit görüntüsünün sınırını belirler.
+
+## Kargayı Ölçü Almak
+
+{ar:مِثْلَ, tr:mithla, gloss:gibi} akūna'nın belirtme durumundaki yüklemidir; iki şey arasında doğrudan karşılaştırma ve denklik ilişkisi kurar. Bağlı olduğu örnekleme alanı olayı bir mathal, yani başkasının önünde gerçekleşen ve ölçü alınabilen bir örnek olarak çerçeveler. 5:36 ve 5:95'te yeniden duyulan karşılaştırma ve denklik söylemi bu kelimeye daha geniş bir yankı verirken 5:31'deki somut anlamı belirler: karşılaştırmanın ölçüsü tek bir kargadır. Tekil ad, ölçüyü kargalar sınıfına yaymak yerine adamın hemen önündeki bu hayvanın yaptığı işe bağlar ve kendisini o işe göre sınamasını sağlar. Benzetme böylece soyut bir benzerlik olmaktan çıkar, izlenmesi gereken bir prosedürün adı olur.
+
+Bu ölçü, önceki belirli işaret ve karga adıyla birlikte çalışır. {ar:هَٰذَا, tr:hādhā, gloss:şu} görünen modeli yakınlaştırır; {ar:ٱلْغُرَابِ, tr:al-ghurābi, gloss:karganın} ilk belirsiz anılışı tanınmış bir örneğe çevirir; mithla ise adam ile o tek karga arasındaki doğrudan karşılaştırmayı kurar. Karga, insanın bütün varlığıyla özdeşleşeceği bir kimlik değil, önünde gerçekleşen bir eylemin uygulanabilir biçimidir. Karşılaştırma bu nedenle hem basit bir işe yetememe ölçüsünü hem de o işi örnekten izleyerek yapma imkânını taşır.
+
+Konuşanın istediği örtme eyleminde bu ilişki fiilen hareket kazanır. {ar:فَأُوَٰرِىَ, tr:fa-uwāriya, gloss:öylece örteyim} içindeki fa, eşgüdüm ile sonucu aynı akışta birleştirir; kargaya benzemek hemen ardından istenen kardeşi örtme işine bağlanır. Fa ön eki sonucu fiile kaynaştırır ve benzetmenin yalnız sözde kalmasına izin vermez. Sonuç bildiren bu bağ, karganın modeli ile konuşanın dileğini aynı cümle içinde karşılaştırır: görülen hareketin karşılığı adamın yapmak istediği örtmedir.
+
+Fa-uwāriya'nın örtme fiili kişi değişimini de görünür kılar. Karganın üçüncü şahısla yaptığı yuwārī, birinci şahıs ön ekiyle konuşanın kendi üzerine aldığı bir eyleme dönüşür. Gözlenen üçüncü şahıs hareketi başarısız fakat istenen birinci şahıs arzusuna aktarılır; seyrek dördüncü bâb biçimi bu kişi kaymasını belirginleştirirken yuwārī ile anlam sürekliliğini korur. Fark hem kişi ekindedir hem de işin henüz gerçekleşmiş değil, istenmiş oluşundadır. Model ile taklitçi, aynı örtme alanını paylaşırken aynı konumda değildir.
+
+Sözün içindeki ikinci {ar:سَوْءَةَ, tr:sawʾata, gloss:örtülmesi gereken beden} bu aktarımı nesnesine bağlar. Sawʾata akhī tamlaması örtülecek şeyi yeniden kişiselleştirir; kelimenin bağlı olduğu beden, ayıp ve yanlış alanı konuşanın ağzında tekrar örtme fiiliyle eşleşir. İkinci kullanım, görsel dersten yakarışa geçişi çerçeveler ve iki sawʾata ifadesi konuşmanın çevresine bir beden ve ayıp parantezi çizer. Ceset, ayıp ve yanlış bu tekrar içinde yan yana kalır; saklama arzusu ile suçun adı arasında kapanmayan bir bağ oluşur.
+
+{ar:أَخِى, tr:akhī, gloss:kardeşimi} biçimi de akhīhi'deki üçüncü şahıs yakınlığını konuşanın birinci şahıs sahiplenmesine çevirir. İyelik eki, öldürülen kişiyi "benim kardeşim" diye sesli biçimde kendi ilişkisi içinde tutar; kardeşlik bağı cinayetten sonra da canlı kalır. Kıraat biçimindeki akhiyā, birinci şahıs yā'sını işitilebilir ve açık hale getirir. Saklanmak istenen şey yalnız bir ceset olarak kalmaz; konuşanın hâlâ kendisine ait saydığı tek ve ilişkisel kardeş olur.
+
+Bu kelimeler birlikte okunduğunda işlem basamakları birbirini açıklar: {ar:بَعَثَ, tr:baʿatha, gloss:gönderdi} bir canlıyı belirli bir ihtiyaç için yollar; {ar:يَبْحَثُ, tr:yabḥathu, gloss:toprağı eşeleyerek arar} toprağı fiziksel olarak karıştırır; {ar:لِيُرِيَهُۥ, tr:li-yurīhi, gloss:ona göstermesi için} bu eylemi belirli bir alıcıya yöneltilmiş gösteriye çevirir; {ar:كَيْفَ, tr:kayfa, gloss:nasıl} hareketi yönteme dönüştürür; {ar:يُوَٰرِى, tr:yuwārī, gloss:örter} görünür bedeni saklama işlemini tamamlar. Allah'ın gönderdiği canlı aracılığıyla gizli gömme bilgisi görünür, adamın yineleyebileceği bir sıraya dönüşür. Her kelimenin olağan anlamı bu bileşim içinde korunur; karganın sessiz hareketi bu anlamları konuşma yoluyla değil, uygulanabilir bir işlem olarak birleştirir.
+
+Aynı bileşim yetersizlik sorusunda ikinci bir yüz kazanır: {ar:أَعَجَزْتُ, tr:aʿajaztu, gloss:aciz kaldım mı} yetersizliği, {ar:مِثْلَ, tr:mithla, gloss:gibi} karga ile insan arasındaki karşılaştırmayı kapasite ölçüsüne çevirir; fa-uwāriya ise bu ölçüyü kardeşi örtme isteğine bağlar. Karganın siyah tüylü gerçek bir kuş olarak önünde durması, benzetmeyi soyut bir özdeşlikten çıkarır. Adamın sorusu bu yüzden hem pratik hem ahlaki bir yetersizliği açığa çıkarır: gözünün önündeki disiplinli hareketi kendi işine dönüştürememiştir. Bu karşılaştırmanın sınırı karganın kimliğine bürünmek değil, gösterilmiş işlemi izleme gereğini görünür kılmaktır.
+
+Örtme fiili ile beden ve kardeşlik arasındaki son temas da burada belirir. {ar:يُوَٰرِى, tr:yuwārī, gloss:örter} bedeni gözden çeker; {ar:سَوْءَةَ, tr:sawʾata, gloss:örtülmesi gereken beden} örtülmesi beklenen mahrem bedeni adlandırır; {ar:أَخِيهِ, tr:akhīhi, gloss:kardeşinin} bu bedeni ihlal edilmiş bir kardeşlik içinde tanınan kişiye bağlar. Beden görüşten çekilirken ilişki silinmez. Ardından gelen {ar:ٱلنَّٰدِمِينَ, tr:al-nādimīn, gloss:pişman olanlar} dış örtü bedeni gözden çekerken önceki eylemin iç izini görünür tutar. Bu yerel bağ, kardeşin bedeninin örtülmesi ve adamın pişman olması şeklindeki anlatıyı taşırken görünür kapatma ile geride kalan ihlali aynı anda okunur kılar.
+
+## Pişmanlığın Duruma Dönüşmesi
+
+Konuşmanın çığlığı anlatıcının sesine {ar:فَأَصْبَحَ, tr:fa-aṣbaḥa, gloss:ve oldu} yapısıyla geri bağlanır. Son fa gömülü konuşma çerçevesini kapatır, kişisel yakarışı yeniden anlatıcının bildirdiği sonuca çevirir; üçüncü fa da öldürme, gönderme, dileme ve olma adımlarından oluşan iç sonuç zincirini tamamlar. Fa burada ardışıklıkla birlikte nedensellik ihtimalini açık tutar: sözün duygusal patlamasından sonra bir durum belirir. Aṣbaḥa'nın geçmiş zaman biçimi tamamlanmış bir duruma girişi, dördüncü bâbda başlangıçlı olma değerini ve ayet sonundaki kapanışı birlikte taşır.
+
+{ar:فَأَصْبَحَ, tr:fa-aṣbaḥa, gloss:ve oldu} ile {ar:ٱلنَّٰدِمِينَ, tr:al-nādimīn, gloss:pişman olanlar} yan yana geldiğinde sonuç yalnızca anlık bir pişmanlık sözü olmaz; kişi süren ve tanınan bir pişmanlar sınıfına girer. Aṣbaḥa'nın 5:30'da ve 5:52'de benzer son durumlarla duyulması, 5:30'daki kapanışı 5:31'de değişmiş bir son sınıfla yineler. Örtme görüntülerinin ardından aṣbaḥa'nın taşıdığı biçimsel yankı, örtünün ardından ışığa çıkış gibi bir geçiş duygusu verir; bu imge burada fiilin bir duruma gelme hareketine eşlik eder. Kayıp ile pişmanlık arasındaki sınır 5:30 ve 5:31'de böylece belirginleşir.
+
+{ar:مِنَ, tr:mina, gloss:arasından} edatı bu son durumu kaynak ve üyelik ilişkisi içinde sınırlar. Min al- yapısı 5:30'daki kayıp formülünü tekrarlar; pişmanlık yalnızca içeride beliren bir duygu değil, dahil olunan bilinen bir topluluk durumudur. Edat, son durumun kaynağı ile o durum içindeki parçalı üyeliği aynı anda açık tutar ve fa-aṣbaḥa'nın kapanış yüklemini tamamlar. Ortak min al- üyelik biçimi kaybı pişmanlığa bağlarken sonu tekil bir duygu patlamasından sınıfa girişe dönüştürür.
+
+{ar:ٱلنَّٰدِمِينَ, tr:al-nādimīn, gloss:pişman olanlar} etken ortaç ve belirli çoğul biçimiyle süren bir taşıyıcı durum kurar. Sondaki uzun -īn sesi bu sınıfa yankılı bir kapanış verir; az görünen pişmanlık alanı 5:31'de ve 5:52'de belirginleşir. Kelime çok geç fark edilen pişmanlığı, olma ve sabah fiilleriyle kurulan formül içinde taşır; 5:30'daki ilk kayıp sonucundan 5:31'deki pişmanlık sınıfına dönen anlatı, iki ayetin sonundaki paralel çoğul durumlarla kaybın pişmanlık ürettiğini görünür kılar. Ayetin sonunda mühürlenen şey öldürme eyleminin kendisi değil, o eylemden sonra taşınan kimliktir.
+
+## Gücün Yönü
+
+Adamın "aciz miyim" sorusu geçmişteki gücün nasıl kullanıldığına da geri döner. 5:28'deki {ar:بَسَطْتَ إِلَيَّ يَدَكَ, tr:basatta ilayya yadaka, gloss:elini bana uzattın} ifadesi eli öldürmeye yönelen ileri bir hareket olarak gösterir; aynı sahnedeki {ar:يَدِيَ, tr:yadī, gloss:elim} ve {ar:يَدَكَ, tr:yadaka, gloss:elin} biçimleri bedensel aracın mevcut olduğunu, belirleyici farkın o aracın hangi işe bağlandığını duyurur. 5:28'deki {ar:قَتْلَ أَخِيهِ, tr:qatla akhīhi, gloss:kardeşini öldürme} tamamlanmış öldürme işi, 5:31'deki bakım ve örtme yetersizliğiyle karşılaşır. Karganın toprağa dönük hareketi, daha önce yıkıcı yönde çevrilmiş mevcut bedensel gücün şimdi uygulanması gereken işe nasıl bağlanacağını gösteren görünür ölçüdür; karşılaştırmanın katkısı insan dışı bir güç aktarmak değil, eylemin yönünü görünür kılmaktır.
+
+5:30'daki {ar:فَطَوَّعَتْ لَهُۥ نَفْسُهُۥ, tr:fa-ṭawwaʿat lahu nafsuhu, gloss:benliği onu buna yatkınlaştırdı} ifadesi şiddetin failin içinden kolaylaştırıldığını, {ar:نَفْسُهُۥ, tr:nafsuhu, gloss:benliği} ise bu iç kolaylaşmayı taşıdığını söyler. 5:31'de {ar:يَبْحَثُ, tr:yabḥathu, gloss:toprağı eşeleyerek arar} aynı bedensel kapasitenin bu kez toprağı açan bir işe yönelmesini gösterir; {ar:أَعَجَزْتُ, tr:aʿajaztu, gloss:aciz kaldım mı} sorusu karganın gösterdiği bakım işine yetememeyi adlandırır. İki temas noktası 5:28'deki el ve öldürme hattı ile 5:30'daki nefs ve tamamlanmış öldürmedir. Bu bağlantı psikolojik teşhisten çok, bedensel aracın eksikliğinden ziyade eylemin yönünün değiştirilememesini görünür kılar.
+
+## Örtmenin Değişen Yönleri
+
+Örtme görüntüsü, temas ettiği nesne ve doğurduğu sonuca göre farklı bir ahlaki yön kazanır. 5:34'teki koruyucu bağ, {ar:يُوَٰرِى, tr:yuwārī, gloss:örter} fiilini bedenin görünürlüğünü güvenlik için kaldıran bir işlem olarak geri çağırır; aynı bağdaki {ar:سَوْءَةَ, tr:sawʾata, gloss:örtülmesi gereken beden} ifadesi örtülmesi beklenen bedensel alanı koruma nesnesi olarak somutlaştırır. Dıştan koruyan kaplama imgesi bu koruma yönünü bir katmanla genişletir; bu imge, yuwārī ile sawʾata'nın 5:31'deki sözlük anlamını değil, onların kurduğu koruma görüntüsünü taşır. 5:36, örtme temasını hakikatin görünmez kılınmasına; 5:39, bozulmuş olanın onarılmasına; 5:41, arınma ve temizlenmeye yöneltir. 5:34, 5:36, 5:39 ve 5:41 birlikte okunduğunda, aynı örtme hareketinin nesne ve sonuç değiştikçe koruma, gizleme, onarma ve temizlenme doğrultularına açıldığı görülür. Bu doğrultular 5:31'deki karga sahnesinin zorunlu devamı olarak değil, örtme görüntüsünün ayrı bağlamlarda kazandığı katkılar olarak okunur.
+
+Bu nedenle 7:22, 7:26 ve 16:59'daki görünür olanı örtme temasından 5:34, 5:36, 5:39 ve 5:41'deki sonuçlara geçerken korunan çekirdek görünür olanı örtme hareketidir; değişen, bu hareketin temas ettiği nesne ve doğurduğu sonuçtur. 5:31'de beden toprağın ardına alınır; dış bağlantılar bu kapatma hareketinin güvenlik, hakikatin gizlenmesi, onarım ya da temizlik doğrultularına nasıl açıldığını gösterir. Her yön kendi bağlamına bağlıdır; 5:31'deki karganın fiziksel gömme işi bu bağlamsal sonuçlardan ayrı, kendi literal katkısıyla okunur.
+
+## Sessiz Bir Gösterim
+
+5:31'deki gönderme ve görme yapıları 5:32'deki {ar:رُسُلُ, tr:rusul, gloss:elçiler} ve {ar:بَيِّنَٰتِ, tr:bayyināt, gloss:açık işaretler} ile temas ettiğinde, karganın katkısı sözlü bir haberden çok yapılmış bir hareket olarak belirginleşir. {ar:فَبَعَثَ, tr:fe-baʿase, gloss:gönderdi} kargayı belirli bir ihtiyaç ve hedef için yöneltir; {ar:لِيُرِيَهُۥ, tr:li-yurīhi, gloss:ona göstermesi için} karganın eylemi üzerinden failin görmesini ve anlamasını sağlayan nedensel gösterme fiilidir. 5:32'deki elçiler mesaj taşıyan bir gönderilme örüntüsünü, bayyināt ise anlamı görünür kılan açıklığı hatırlatır. Karganın prosedürü bu iki yüzeye sessiz ve analojik bir karşılık verir: toprağı eşeleyerek örtme işini görünür kılar. Karga burada peygamber, vahiy taşıyıcısı ya da teknik bir elçi rolü üstlenmez; konuşmadan canlı bir örnek üzerinden anlaşılmayı mümkün kılan sessiz gösterim olarak kalır.
+
+## Tekil Bedenden Genel Ölçüye
+
+Kardeşin belirli bedeni üzerinde kurulan karşılaştırma 5:29 ve 5:32'de hayatın daha geniş değerine açılır. {ar:تَبُوٓأَ, tr:tebūe, gloss:bir yükü üstlenip onunla dönmek} iki yükün karşılıklı bir ilişki içinde yerleşmesini ve kişinin yaptığı şeyle birlikte dönmesini taşır. 5:31'deki {ar:مِثْلَ, tr:mithla, gloss:gibi} bu ilişkiyle temas ettiğinde tekil kaybı ölçülebilir bir karşılaştırmaya açar. 5:32'deki {ar:نَفْسًا, tr:nafsen, gloss:bir can} korunacak tek tek yaşayan birimleri, {ar:أَحْيَا, tr:aḥyā, gloss:hayat verdi ve korudu} ise hayatı korunan bir iyilik olarak tutar. Örtülmeye çalışılan kardeş bedeni böylece soyut bir nesne değil, her insan hayatının tekil görünümü gibi okunabilir; bir kişinin başına gelen olayın daha geniş hayat değerine açılması 5:32'deki tek can ile bütün insanlar arasındaki açık bağlantıda gerçekleşir.
+
+Bu açılımın kapsamı 5:32'deki tek can ile bütün insanlar arasındaki hayat koruma bağlantısıdır; 5:31'i tek başına bir hukuk cümlesi, matematiksel özdeşlik ya da doğrudan kısas sonucu olarak kurmaz. Karşılaştırmanın somut sınırı 5:32'de bir canın öldürülmesi ve hayatının korunmasının bütün insanlara açılmasıdır. 5:31'deki kardeşlik tek ve ilişkisel kalır; okuma arkadaşlığa ya da başka aile dallarına genişlemez. {ar:مِنْ أَجْلِ ذَٰلِكَ, tr:min ecli zālike, gloss:işte bunun üzerine} 5:31'deki somut kardeş kaybını sonraki hükmün nedensel eşiği olarak bağlar; {ar:كَتَبْنَا, tr:ketebnā, gloss:bağlayıcı hüküm koyduk} bu bağlamda bağımsız bir sözlük dalı değil, 5:32'nin kamusal norm kuran yüzeyidir. Özel pişmanlık böylece daha geniş hayat koruma normunun anlatısal öncesinde yer alır; gömme işi hayatı geri verme ya da failin hayatı onarma eylemine dönüşmez.
+
+## Toprağın Taşıdığı Sonuç
+
+{ar:ٱلْأَرْضِ, tr:al-arḍi, gloss:toprak} 5:31'de bedenin örtüldüğü literal yer olarak kalırken 5:32 ve 5:33'te hayat, öldürme ve bozulma sonuçlarının sahası olarak daha geniş bir ahlaki alan kazanır. Karganın toprağı açan hareketi, aynı zeminin insan eylemlerinin sonuçlarını taşıdığı sonraki bağlamla buluşur. {ar:يَبْحَثُ, tr:yabḥathu, gloss:toprağı eşeleyerek arar} toprağı aktif biçimde karıştırır; 5:33'teki {ar:فَسَادًا, tr:fesāden, gloss:bozulma} ise bu zeminde düzenin bozulduğu kamusal alanı bağlamsal olarak duyurur. Toprağın katkısı burada literal zemini ve sonuçların sahasını taşımaktır: gömme bedeni yerelleştirir, şiddetin etkisini yerelleştirmez. Bu bağda toprak aktör ya da tanık rolü almaz; yeryüzünün literal anlamı, ayetlerin ardışık temasından doğan ahlaki alanla birlikte açık kalır.
+
+## Sınırı Görünen Karşılık
+
+5:31'deki görünür karşılaştırma, 5:33 ve 5:38'de eylemin karşılığını bedene ve yere bağlayan sınırlı sonuçlarla yan yana gelir. {ar:جَزَاءً, tr:cezāen, gloss:bir karşılık olarak} yapılan iş ile görülebilir sonucu arasında belirlenmiş bir dönüş kurar. 5:33'teki {ar:يُصَلَّبُوا, tr:yuṣallabū, gloss:asılsınlar} bedenin bağlanarak öldürülmesini kamusal bir uygulama, 5:33 ve 5:38'deki {ar:تُقَطَّعَ, tr:tuqaṭṭaʿa, gloss:kesilsin} bedenin belirli bir bölümünün ayrılmasını gösterir. 5:33'teki {ar:يُنفَوْا, tr:yunfew, gloss:uzaklaştırılsınlar} sonucu kişiyi bozulmuş alandan çıkarmaya, 5:38'deki {ar:نَكَالًا, tr:nekālen, gloss:ibretlik caydırma} ise belirlenmiş sonucu başkalarının sakınacağı kamusal uyarıya bağlar. Bu kelimeler eylemin toplumsal olarak okunabildiği, sınırı belirlenmiş bir beden ve mekân işareti sunar.
+
+Bu karşılaştırma 5:33 ve 5:38'de beden ve mekân üzerinde görünür hale gelen kamusal karşılık alanında kalır. 5:31'deki karga sahnesi bu imgeleri çarmıha germe, kesme, sürgün ya da doğrudan yaptırım buyruğu olarak taşımaz; karga da cezalandırılan taraf değildir. Bedenin ve yerin sonuç taşıyan birer işaret haline gelmesi, karganın örtme hareketinin asli işini gölgelemeyen sınırlı bir karşılaştırma olarak kalır.
+
+## Pişmanlık ve Onarım Arasındaki Aralık
+
+5:30'daki {ar:أَصْبَحَ, tr:aṣbaḥa, gloss:bir duruma geldi} failin öldürme sonrasında {ar:خَٰسِرِينَ, tr:ḫāsirīn, gloss:kaybedenler} durumuna girişini bildirir; 5:31'deki aynı durum fiili onu {ar:ٱلنَّٰدِمِينَ, tr:al-nādimīn, gloss:pişman olanlar} arasına taşır. Pişmanlık bu iki durum arasında, kaybın ardından girilen ayrı bir hal olarak belirir. 5:39'daki {ar:أَصْلَحَ, tr:aṣlaḥa, gloss:onardı} ve ona eşlik eden {ar:تَابَ, tr:tāba, gloss:döndü} dili, bozulan durumu onarmanın bu halden sonra ayrıca kurulması gereken bir hareket olduğunu gösterir. Dış bedenin örtülmesi bu iç ve sonraki onarım hareketlerini kendiliğinden tamamlamaz; bu yüzden bedenin kapatılmasıyla bağışlanma, telafi ve hukuki kapanış ayrı düzlemlerde kalır.
+
+Bu içte kalan artık, 26:157'de zararlı eylemden sonra beliren pişmanlıkla ve 34:33'te sonuç görünür hale geldiğinde açığa çıkan gizli pişmanlıkla birlikte düşünülebilir. 26:157'deki temas zararlı eylemden sonra kalan pişmanlığı, 34:33'teki temas ise sonuç görünür olduğunda açığa çıkan gizli pişmanlığı öne çıkarır. Bu iki temas eylem ile sonradan kalan pişmanlık arasındaki bağı belirginleştirir; 5:31'deki sahneyle aynı olay örgüsünü kurmaz ve buradaki pişmanlığı tamamlanmış bir onarım hükmüne taşımaz. Beden toprağın ardında görünmez olurken eylemin iç sonucu görünürlükten aynı biçimde çekilmez; ayetin kapanışındaki pişmanlar sınıfı bu farkı taşır.
+
+## İzlenebilir Bir İşlem
+
+5:31'deki {ar:مِثْلَ, tr:mithla, gloss:gibi} kargayı ölçü yapan doğrudan karşılaştırmayı kurarken 5:46 ve 5:48'deki temaslar örneğe uygun davranma ve buyruk doğrultusunda hareket etme alanını açar. {ar:لِيُرِيَهُۥ, tr:li-yurīhi, gloss:ona göstermesi için} 5:46'daki gösterip görmesini sağlama yönüyle birlikte düşünüldüğünde, önünde gerçekleşen hareketin izlenebilir bir uygulama olarak kavranması güçlenir. 5:48'deki aynı karşılaştırma yüzeyi, bir örneğin izinden gitme ya da buyruğu yerine getirme biçimini hatırlatır. Bu bağlar karganın 5:31'deki katkısını örneklenebilir bir hareket düzeyinde tutar; adamın kazandığı şey karganın kimliği değil, gösterilmiş örtme işleminin uygulanabilir biçimidir.
+
+Fakat uygulanabilir bir işlem ile hayatı ölçen denklik ayrı düzlemlerde çalışır. 5:45'teki bağ, yaşayan ruh-benlik ifadesi ile hayat karşılığı ölçüsünü yan yana getirerek normatif ölçü alanını açar. {ar:يُوَٰرِى, tr:yuwārī, gloss:örter} görünür bir bedeni örtünün ya da toprağın ardına alma işini, {ar:مِثْلَ, tr:mithla, gloss:gibi} ise karga ile insan arasındaki benzerlik ve denklik ilişkisini taşır. Hayatın hayat karşılığıyla ölçülmesi, bu iki görüntünün yanına yaşamın yerine geçmeyen ayrı bir normatif düzlem ekler. Bu yapısal temas kelimeleri eş anlamlı kılmaz ve 5:31'deki örtme eylemini yaşamı geri verme ya da kısas hükmüyle eşitlemez. Örtülen bedenin görünürlükten çekilmesi ile hayatın karşılığını ölçen hüküm arasındaki aralık burada korunur.
+
+</editorial_prose>

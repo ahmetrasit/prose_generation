@@ -1,0 +1,189 @@
+# V5 reading invitation — 5:120
+
+You are a fresh reading-invitation writer. Read the complete editorial prose
+before writing. It is your sole semantic source.
+
+Write two to four paragraphs of fluent, contemporary Turkish that reveal a
+surprising reading by following one or two main channels of resonance in the
+ayah. A channel is a connected background of meanings, images, actions, or
+relations through which the ayah can be heard and understood differently.
+Several editorial findings may together develop one channel. Summarize that
+connected movement and its consequence for the ayah's main meaning, rather
+than compressing findings individually. Give the reading's substance now;
+the invitation comes from understanding it, not from a promise of hidden depth.
+
+Before drafting, read the entire editorial prose and silently select the one
+or two channels with the strongest interpretive consequence and enough
+grounding to explain clearly. Favor channels that expand or shift what the
+ayah says, the relation it establishes, or what is at stake in its action or
+image. One fully developed channel is sufficient; add a second only when it
+offers a distinct consequential reading that can be explained within the
+invitation. No finding, channel, or major shift has an individual coverage
+claim. Unselected material may remain entirely in the full commentary.
+
+A channel may develop through grammar, sound, dialogue, a material process,
+time, imagery, or a conceptual relation. Resonance is not limited to acoustic
+effects, and an unusual image alone does not establish a channel. Use only
+connections the editorial prose actually develops. If it supplies no such
+channel, explain its strongest grounded reading without inventing connections
+or surprise.
+
+Begin inside the ayah's own words, images, actions, or relations and reveal a
+selected distinctive reading in the first paragraph. Keep the plain meaning
+reachable with only the orientation needed to understand the change. Do not
+spend an opening paragraph on routine explanation or front-load context about
+the surah, the ayah's position, or the commentary project.
+
+For each selected channel, begin with the expression that opens it, unfold the
+connected background, and show how the ayah reads or sounds against that
+background. Let a detail lead into the next through an intelligible relation
+or process, so the reader experiences the emerging reading. This is a movement
+of thought, not a mandatory sentence pattern or one paragraph per finding.
+Let the reader identify the expression being interpreted,
+where any nonordinary detail comes from, and what that detail changes in the
+reading. Briefly identify the word-family use, restricted form, collocation, or
+context that supplies an essential added detail, and preserve the concrete
+operation that makes the image work. Keep the ordinary reading and necessary
+qualification clear within this explanation; do not repeat them as a fixed
+formula. Preserve the particular object, process, or relation that makes this
+reading distinctive, and state its interpretive consequence for the ayah as a
+whole. Make intelligible what the familiar reading leaves less visible and
+what the expanded or shifted reading now lets the reader understand. Preserve
+the editorial's force: an exploratory possibility remains possible, while a
+developed shift must not be softened into a decorative association or a
+reassurance that everything means the same thing. A concrete
+account of how something is carried, transformed, lost, or restored must not
+shrink to a general statement about care, guidance, dependence, or goodness.
+Keep the details needed to make the selected channel work; omit side findings
+and shorten routine setup. If a channel cannot be explained faithfully from
+the editorial prose, choose another grounded channel or reading.
+
+When a non-focus ayah supplies a contribution used in the invitation, keep its
+reference from the editorial prose beside that contribution.
+
+Do not turn the invitation into a miniature inventory of the commentary's
+conclusions, or flatten distinct channels into a broad theme to include more
+material. Do not repair, extend, or supplement the editorial prose from memory
+or outside knowledge.
+
+Omit technical apparatus. Retain any qualification, source distinction, live
+alternative, or boundary whose absence would change the force or meaning of a
+chosen reading. Express it naturally beside the image or relation it qualifies.
+Favor positive explanations of the relation between layers: what remains in
+the foreground and what the resonance makes audible in the background. State
+how that background reinforces, expands, or shifts the understanding of the
+main meaning, with the source and degree of certainty clear. Reserve explicit
+exclusions for concrete ambiguities or live counter-evidence that need them.
+Repeated "this is not X" endings make a reading sound withdrawn; express the
+substantive qualification through what the reading does contribute wherever
+possible. Use varied, natural language rather than a repeated "second layer"
+formula, and preserve the force of expansions and shifts.
+Do not name branches, candidates, findings, scopes, evidence categories,
+ledgers, or workflow stages, or label the prose as numbered channels. Do not
+list findings serially.
+
+Use the established `{ar:..., tr:..., gloss:...}` syntax, consistent
+Turkish-readable transliteration, and short ordinary glosses. Keep Arabic
+anchors beside the explanations they ground. Within a paragraph, continue with
+the Turkish meaning where clear; provide the necessary local tag when a later
+paragraph interprets the carrier anew. Do not place Arabic script outside a
+valid tag.
+
+Build transitions within a channel through its shared object, action, or
+relation. If two channels are selected, they may occupy separate paragraphs;
+do not invent a link between them. Do not praise the commentary's quality,
+promise what the reader will find, manufacture suspense, recap at the end, or
+add a call to action. End on an image, relation, action, or tension already
+established by the selected reading.
+
+Before finishing, compare the invitation with the entire editorial prose:
+does the chosen channel reveal a consequential reading, or could the text have
+been written from the ordinary translation and a modest explanation alone?
+When the editorial supports a surprising channel, the latter fails this task.
+Can the reader follow the opening expression into a connected background and
+understand how that background expands or shifts the ayah's main meaning?
+Check the selected connections against their editorial explanation: can the
+reader tell where the nonordinary details come from, with the necessary
+qualifications intact? Repair generic explanation, isolated curiosities, or a
+compressed findings list by developing the selected channel. Do not add
+omitted channels merely for coverage. Do not output this check.
+
+Write only the invitation text to:
+
+`_commentary/v5/editorial/s005-p08-with-fatiha/s005/5_120/5_120.invitation.tr.md`
+
+Do not add a heading, wrapper label, index, ledger, evidence file, or any other
+artifact. Do not modify the editorial prose.
+
+After writing the invitation, run:
+
+```bash
+python3 _commentary/v5/validate_prose.py _commentary/v5/editorial/s005-p08-with-fatiha/s005/5_120/5_120.invitation.tr.md
+```
+
+If validation fails, repair only the reported mechanical file-contract issues
+and rerun it, for at most two repair cycles. Report the final validator result
+in your response.
+
+<editorial_prose>
+Bu âyet önce bütün kozmik alanı sahibine bağlayan sabit bir isim cümlesi, ardından aynı özneyi etkin kudretle bildiren ikinci bir cümle kurar. {ar:لِلَّهِ, tr:li-llāhi, gloss:Allah'ındır} diyerek göklerin, yerin ve bunların içindekilerin egemenliğini Allah'a verir; sonra {ar:وَهُوَ, tr:wa huwa, gloss:ve O} ile yine aynı ilahî özneye döner ve onun {ar:عَلَىٰ كُلِّ شَىْءٍۢ قَدِيرٌۢ, tr:ʿalā kulli shayʾin qadīr, gloss:her şey üzerinde gücü yeter} olduğunu söyler. İlk cümlede sahiplik ve egemenlik, ikincide bu alan üzerinde işleyen kudret görünür; âyetin açık hükmü, göklerin, yerin ve içindekilerin Allah'a ait olduğu ve O'nun her şeye gücünün yettiğidir.
+
+## Alanın Kuruluşu
+
+İlk öbekteki {ar:لِ, tr:li, gloss:-e ait} aitlik edatı, {ar:ٱللَّهِ, tr:Allāhi, gloss:Allah} adıyla birleşip {ar:مُلْكُ, tr:mulku, gloss:mülk/egemenlik} kelimesinden önce gelir. Böylece sahiplik bağı gökler ve yer daha adlandırılmadan kurulur; öne alınmış {ar:لِلَّهِ, tr:li-llāhi, gloss:Allah'ındır} ifadesi kozmik alanı ilk anda belirli sahibine bağlar. Allah adının aitlik ve egemenlik çerçevesindeki olağan gönderimi, ibadet edilen ve kendisine sığınılan ilahî ada doğru ihtiyatlı bir bağımlılık rengi taşır; bu, açık bir ibadet buyruğundan çok sahiplik ilişkisinin duyurduğu bir tondur. Adın benzeşmiş lâm kümesi, aitlik edatıyla ve ardından gelen {ar:مُلْكُ, tr:mulku, gloss:mülk/egemenlik} ile bağı sesçe sıkıştırır; ilk öbek bu yüzden kopuk adlar yerine tek bir sahiplik yüzeyi gibi akar.
+
+{ar:مُلْكُ, tr:mulku, gloss:mülk/egemenlik} olağan mülk ve egemenlik anlamıyla bir tamlama içinde hem sahibine hem de yönettiği alana bağlanır. Sahiplik çekirdeği, hükümdarlık ve düzenleyici denetim yönüyle statik bir mülkiyeti işleyen yetki alanına doğru renklenir; kelime hangi alanın Allah'a ait olduğunu da beraberinde taşır. Göklerden yere, oradan içindekilere ve sonunda kudret bildirimine uzanan sıra, sahipliği cümle ilerledikçe genişleyen bir egemenlik hareketi içinde duyurur. Bu tamlama içindeki okunuşta bildirilen küçük ses varyantının katkısı ses yüzeyindedir; egemenlik görevi sürer ve varyant başka bir egemenlik öznesi ya da çoğul bir yapı üretmez.
+
+{ar:ٱلسَّمَٰوَٰتِ, tr:as-samāwāti, gloss:gökler} belirli çoğul biçimiyle egemenliğin yukarı kutbunu açar. Gökler olağan anlamını korurken yükselen ve örten bir üst alan basıncı taşır; belirli oluşu tek bir belirsiz gökyüzü yerine bilinen kozmik alanı çağırır. Güneş harfiyle gerçekleşen benzeşme, tamlama ilişkisi ve ardından gelen {ar:وَ, tr:wa, gloss:ve} ile birleşerek üst alanı kesintisiz bir okuma yüzeyi halinde içeri alır. Dişil çoğul biçimi de ilerideki {ar:فِيهِنَّ, tr:fīhinna, gloss:onların içinde} zamirindeki dişil çoğul uyumu için yakın dilbilgisel dayanak olur.
+
+Ardından gelen {ar:وَ, tr:wa, gloss:ve}, {ar:ٱلْأَرْضِ, tr:al-arḍi, gloss:yer} kelimesine göklerle eşit bir dilbilgisel sıra verir ve ikisini aynı {ar:مُلْكُ, tr:mulku, gloss:mülk/egemenlik} yönetimi altında tutar. Belirli tekil {ar:ٱلْأَرْضِ, tr:al-arḍi, gloss:yer}, göklerin karşısındaki aşağı kutbu; aşağıda yayılan, üzerinde yaşanan ve maddî bir dayanak oluşturan yeri görünür kılar. Vurgulu ünsüz, yükseltilmiş gökler öbeğinden sonra bu alt kutba sınırlı bir işitsel ağırlık verir. {ar:وَ, tr:wa, gloss:ve} iki alanı birbirine sesçe bağlar; üst-alt çiftinin kapsamı ise gökler ile yerin birlikte ve aynı egemenlik altında anılmasından doğar. Bu eşleşme önceki egemenlik bildirimleriyle de yerel bir yankı kurar (5:17, 5:18, 5:40); burada etkinleşen anlam, göklerin üst ve yerin alt kutbu olduğu bu yerel bağlantıyla sınırlıdır.
+
+Bu üst-alt alan kurulduktan sonra ikinci {ar:وَ, tr:wa, gloss:ve} bakışı sınırların içine çevirir. Önceki bir egemenlik ifadesinde öne çıkan "arasında" ilişkisinden farklı olarak burada içeride bulunma dili açılır (5:17); sahiplik yalnız göklerin ve yerin adına değil, onların içinde bulunanlara da uzanır. {ar:مَا, tr:mā, gloss:ne varsa/şeyler} burada soru veya olumsuzluk değil, ardından gelen {ar:فِيهِنَّ, tr:fīhinna, gloss:onların içinde} öbeğiyle açıklanan bir ilgi zamiridir. Varlıklar, süreçler ve durumlar tek tek sıralanmadan içerik sınıfına girer; bu içerik, adlandırılmış gök-yer alanının içiyle çevrelenir.
+
+{ar:فِيهِنَّ, tr:fīhinna, gloss:onların içinde} içindeki {ar:فِي, tr:fī, gloss:içinde} edatı içerikleri çevreleyen alanla ilişkilendirir; sondaki dişil çoğul ek en yakın olarak göklere uyar. Gökler-yer çifti daha geniş çevreyi sezdirir, ancak metnin verdiği uyum zamirin öncülünün bütünüyle mi yoksa en yakın unsurla mı sınırlı olduğunu açıkça tayin etmez. "İçinde" ilişkisi basit bir konum bilgisini adlandırılmış çevrenin içinde var olan içerik izlenimine doğru genişletir; ilişki bu yerel içsellik rengiyle kalır. Sonundaki genizli kapanış da uyum ve ilgi bağlantısını sıkı bir işitsel bitişle tamamlar; içeride tutulan şeyler hissini destekler.
+
+Bu içerik alanından sonra gelen {ar:وَ, tr:wa, gloss:ve}, {ar:هُوَ, tr:huwa, gloss:O} ve {ar:قَدِيرٌۢ, tr:qadīr, gloss:gücü yeten} ikinci bir isim cümlesi açar. Geçiş Allah'a ait olandan Allah'ın yapabildiğine dönerken ilk cümleyle bağlı kalır; {ar:هُوَ, tr:huwa, gloss:O} önceki mülk öbeğine eklenmiş bir niteleme değil, kendi özne-yüklem ilişkisi olan ayrık tekil öznedir. Yakın bağlamdaki insan ve sonuç dilinin (5:119) ardından bu zamirin yeniden Allah'a bağlanması, baştaki gönderimi sürdürürken taze ve resmî bir kudret bildirimine eşlik eden bir duraklama hissi verir.
+
+{ar:عَلَىٰ, tr:ʿalā, gloss:üzerinde} edatı olağan "üzerinde" ilişkisini korur; {ar:كُلِّ شَىْءٍۢ, tr:kulli shayʾin, gloss:her şey} ile buluştuğunda fiziksel bir yerden çok kudretin nesne alanı üzerinde uzanan yetki rengini taşır. Edat bu öbeği {ar:قَدِيرٌۢ, tr:qadīr, gloss:gücü yeten} yüklemi gelmeden önce yönetir. Okuyucu önce yetkinin alanını, sonra o alan üzerinde işleyen gücü duyar; güç böylece soyut bir sahiplikten alanı kaplayan bir yetkiye doğru genişler.
+
+{ar:كُلِّ, tr:kulli, gloss:her/bütün} izafet içinde olağan "her, bütün" kapsamını taşır ve belirsiz tekil {ar:شَىْءٍۢ, tr:shayʾin, gloss:şey} ile birleşince kudreti belirsiz bir toplamda bırakmaz, o alan içindeki her birime dağıtır. İçindeki ikiz lâmın sıkı sesi bu kuşatıcılığı işitsel olarak yoğunlaştırır. {ar:شَىْءٍۢ, tr:shayʾin, gloss:şey} kelimesinin belirsiz tekil oluşu, tenvinli açık biçimi ve {ar:كُلِّ, tr:kulli, gloss:her/bütün} ile genitif bağı, önceden adlandırılmamış her tekil birimi nesne alanına açar. Hemze, evrensel alanı birbirinden seçilen küçük birimler halinde duyuran sınırlı bir duraklama etkisi verebilir; bütün böylece üyelerini koruyan bir toplam olarak duyulur.
+
+Bu {ar:كُلِّ شَىْءٍۢ, tr:kulli shayʾin, gloss:her şey} öbeği kapanıştaki kudret dilini 5:17, 5:19 ve 5:40'ta dönen ifadelerle, {ar:شَىْءٍۢ, tr:shayʾin, gloss:şey} ise 5:17, 5:19, 5:40 ve 5:117'deki toplamlık diliyle yerel olarak hatırlatır. Kapsam tek tek varlıklara kadar somutlaşır; odak cümlesi bu geniş alanı kurar ve sûredeki her "şey" kullanımının işlevini aynılaştırmaz.
+
+Son yüklem olan {ar:قَدِيرٌۢ, tr:qadīr, gloss:gücü yeten}, {ar:هُوَ, tr:huwa, gloss:O} zamirinin nominatif etkin yüklemi olarak bağımsız kudret cümlesini tamamlar; {ar:كُلِّ شَىْءٍۢ, tr:kulli shayʾin, gloss:her şey} öbeğine eklenmiş bir sıfat değildir. Kapsam açıldıktan sonra ayakta duran bir nitelik gibi iner ve cümleyi kalıcı bir kudret bildirimine mühürler. Kelimenin ölçme ve belirleme yönündeki çağrışımı, bu nitelikli biçim ve evrensel nesne alanıyla buluşunca kudreti yalnız ham kuvvet değil, yerli yerine oturan bir güç gibi renklendirir. Son kelimenin geniş alandan sonra gelen sert ve kararlı ses yüzeyi de bu kapanışı destekler; ölçü rengi burada belirli bir miktar, hüküm veya zaman çizelgesi değil, kudretin yerli yerine oturan niteliğidir.
+
+## Kudretin İşleyişi
+
+Birinci yerel katkı, sahipliği canlı bir yetki sahası olarak duyurmaktır. {ar:ٱللَّهِ, tr:Allāhi, gloss:Allah} adının ibadet edilen varlığa işaret eden yönü, öne alınmış {ar:لِ, tr:li, gloss:-e ait} aitliği ve {ar:مُلْكُ, tr:mulku, gloss:mülk/egemenlik} adıyla karşılaşınca sahipliği herhangi bir unvana değil ilahî ada bağlayan ihtiyatlı bir renk verir. {ar:مُلْكُ, tr:mulku, gloss:mülk/egemenlik} kelimesinin kamusal egemenlik yönü, {ar:ٱلسَّمَٰوَٰتِ, tr:as-samāwāti, gloss:gökler} ile {ar:ٱلْأَرْضِ, tr:al-arḍi, gloss:yer} tarafından kurulan tam üst-alt alanla birleşir; {ar:كُلِّ, tr:kulli, gloss:her/bütün} dışarıda parça bırakmayan kapsamı, {ar:شَىْءٍۢ, tr:shayʾin, gloss:şey} tek tek birimleri, {ar:قَدِيرٌۢ, tr:qadīr, gloss:gücü yeten} ise sahip olma, yönetme ve gerçekleştirme gücünü aynı sahada tutar. Bu yerel temas ana mülkiyet ve kudret anlamını etkin yetki olarak derinleştirir; etkisi bu cümlenin üst-alt alanı ve onun içeriğiyle sınırlıdır.
+
+İkinci yerel katkı, aynı alanı bütünü dağılmadan bir arada tutan bir düzen olarak görünür kılmaktır. {ar:مُلْكُ, tr:mulku, gloss:mülk/egemenlik} daha büyük düzenin dayandığı temel yönüyle, {ar:كُلِّ, tr:kulli, gloss:her/bütün} eksiksiz kapsamıyla ve {ar:شَىْءٍۢ, tr:shayʾin, gloss:şey} farklılaşmış birimleri koruyan tekilliğiyle buluşur. {ar:قَدِيرٌۢ, tr:qadīr, gloss:gücü yeten} kelimesinin ölçüp biçme, erişilen sınıra uyma ve düzenleme yönü bu parçalarla temas edince kudret, her bir şeye uygun düşen ölçülülüğü taşıyan bir tertip gibi duyulur. Bu nitelikli izlenim olağan egemenlik ve kudretin içine yerleşir; burada somut bir ölçme olayı, hazırlama süreci veya gizli plan anlatısı kurulmaz.
+
+Kudretin bu ölçülü rengi, daha uzak bir bağlamda 5:89 ve 5:95'teki iki ayrı karşılık düzeniyle temas eder. 5:89'daki {ar:أَوْسَطِ, tr:evsat, gloss:orta ölçü} ailenin rızkını orta ve dengeli bir miktara bağlar. 5:95'te {ar:فَجَزَاءٌۭ, tr:fe-cezā, gloss:karşılık} yapılan fiile karşılığı, {ar:مِثْلَ, tr:misil, gloss:benzer veya eşdeğer} kayıpla yerine konan şey arasındaki benzerliği, {ar:يَحْكُمُ, tr:yahkumu, gloss:hükmeder} değerlendirmeyi ve {ar:عَدْلٍ, tr:adl, gloss:denklik} adil oranı görünür kılar. Bu ayrı tetikleyiciler bir araya geldiğinde, kelimenin miktar, sınır, karşılaştırma ve hazırlama yönleri ihlâl ile karşılık ve kayıp ile telafi arasında uygun oranı bulabilen bir yeterlik olarak duyulur; {ar:مُلْكُ, tr:mulku, gloss:mülk/egemenlik} de bu telafinin uygulanacağı yetki alanını tutar. Bu bağlantı 5:89'un somut aile rızkı ve 5:95'in eşdeğer karşılık sahnesinden gelen nitelikli bir okumadır; odak âyetteki her şeye yeten kudret anlamı bu ölçülü katkıyla birlikte korunur.
+
+Bu yetki alanı, yakınındaki hüküm sahnesine döndüğünde somut bir karar gerilimi kazanır. 5:118'deki {ar:عِبَادُكَ, tr:ʿibāduka, gloss:kulların} sözü insanları Allah'a bağlılık içinde tutar; {ar:تُعَذِّبْهُمْ, tr:tuʿazzibhum, gloss:onlara azap edersen} ve {ar:تَغْفِرْ لَهُمْ, tr:taghfir lahum, gloss:onları bağışlarsan} ifadeleri aynı egemen kapasitenin azap ve bağışlama yönlerini açar. {ar:مُلْكُ, tr:mulku, gloss:mülk/egemenlik} sahiplik ve tasarrufu, {ar:قَدِيرٌۢ, tr:qadīr, gloss:gücü yeten} bu iki ihtimalin yürürlüğe konabilir oluşunu taşır. Aynı ayetteki {ar:حَكِيمُ, tr:hakīmu, gloss:hikmet sahibi} gücün doğru yere yerleşmesini, {ar:عَزِيزُ, tr:ʿazīzu, gloss:üstün ve güçlü} ise güç ve onurla birlikte hükmü yürüten tarafı belirginleştirir. Bu temas iki ihtimali birlikte açıkta tutar; insanların yönetimine dair ayrı bir sonuç kurmadan âyetin egemenlik ve kudret alanını genişletir.
+
+5:119'daki sonuç dili aynı çerçeveyi başka bir yöne açar. Kulların bağlılığı içinde {ar:عَزِيزُ, tr:ʿazīzu, gloss:üstün ve güçlü} yürütücü gücü, {ar:حَكِيمُ, tr:hakīmu, gloss:hikmet sahibi} hükmün yerli yerine oturmasını taşır. {ar:يَنفَعُ, tr:yenfaʿu, gloss:fayda verir} sonucu salt kuvvetten ayırır; {ar:صِدْقُ, tr:sıdqu, gloss:doğruluk} söz ve eylemdeki doğruluğu, {ar:خَٰلِدِينَ, tr:hālidīn, gloss:kalıcı olarak kalanlar} gücün sonucu sürdürmesini, {ar:رَّضِىَ, tr:raḍiye, gloss:hoşnut oldu} Allah ile kullar arasındaki karşılıklı hoşnutluğu, {ar:ٱلْفَوْزُ, tr:el-fevzu, gloss:kurtuluş ve erişilen iyilik} de tamamlanmış iyi sonucu adlandırır. Böylece {ar:قَدِيرٌۢ, tr:qadīr, gloss:gücü yeten} gerçekleşmiş ve sürdürülen bilgece bir sonuca taşıyan kapasite gibi duyulur; 5:119 bağlamı, kapanışın genel bir övgü olarak okunabilen yüzünü koruyarak bu sonucu ekler.
+
+## Yakın Sahnelerde Kudret
+
+Kudretin gerçek bir işi mümkün kılan yönü, 5:110'da İsa'nın izinle anlatılan fiillerinde belirginleşir. {ar:مُلْكُ, tr:mulku, gloss:mülk/egemenlik} sahiplik ve tasarruf çekirdeğiyle bir başkasına sınırlı kullanım bırakılabilen yetkiyle temas eder; dört kez tekrarlanan {ar:بِإِذْنِى, tr:bi-iznī, gloss:iznimle} bu fiillerin kaynağını ve sınırını aynı anda gösterir. {ar:تَخْلُقُ, tr:taḫluqu, gloss:oluşturursun} çamurdan kuş biçimi vermeyi gerçek bir iş olarak anlatır; kuş biçimlendirme, üfleme, körü ve alacalıyı iyileştirme ve ölüleri çıkarma fiillerinin her biri izinle bağlanır. {ar:قَدِيرٌۢ, tr:qadīr, gloss:gücü yeten} gerçekleştirmeyi mümkün kılan yerleşik kapasiteyi, {ar:شَىْءٍۢ, tr:shayʾin, gloss:şey} ise bu etkilerin de girdiği her-şey alanını taşır. Böylece aracının etkisi korunur ve onu mümkün kılan üstün yetki aynı anda görünür.
+
+Bu fiillerin açtığı imkân sorusu, 5:112'deki {ar:يَسْتَطِيعُ, tr:yestaṭīʿu, gloss:yapabilir mi} ile doğrudan duyulur; havarilerin {ar:مَائِدَةً, tr:māʾidatan, gloss:sofra} istemesi soruyu belirli bir nesneye bağlar. 5:116'daki {ar:إِلَٰهَيْنِ, tr:ilāheyn, gloss:iki ilâh} karşıtlığı izinle etkili olan fiil ile bağımsız ilâhlık unvanını ayırır. İsa'nın {ar:رَبِّى وَرَبَّكُمْ, tr:rabbī ve rabbekum, gloss:benim Rabbim ve sizin Rabbiniz} sözü bu ortak bağlılığı açıkça kurar (5:117); {ar:عِبَادُكَ, tr:ʿibāduka, gloss:kulların} sözü de kulluk bağını aynı egemenlik alanında somutlaştırır (5:118). İzin, yaratıcı görünümlü fiillerin gerçekliğini taşırken aracıyı kuşatan sahiplik ve kudret alanını da belirler; bu ilişki aktarılan fiiller ve izin çerçevesinde kalır.
+
+Tanıklık sahnesi bu etkinliğe bir zaman sınırı ekler. İsa'nın {ar:شَهِيدًا, tr:shahīdan, gloss:şahit} oluşu, aralarında bulunduğu süreyle sınırlı bir insan tanıklığıdır; {ar:تَوَفَّيْتَنِى, tr:tawaffaytanī, gloss:beni aldığında} bu tanıklığın sona erdiği noktayı gösterir. Ardından {ar:ٱلرَّقِيبَ, tr:er-raqīb, gloss:gözetici} Allah'ın gözetiminin tanığın çekilmesiyle sürmesini bildirir (5:117). Aynı ayetteki {ar:كُلِّ شَىْءٍ, tr:kulli shayʾin, gloss:her şey} alanı hem tanıklığın nesnesi hem de 5:120'deki kudretin üzerinde işlediği alan olarak kalır (5:117). {ar:مُلْكُ, tr:mulku, gloss:mülk/egemenlik} bu alan üzerindeki kalıcı yetkiyi, {ar:قَدِيرٌۢ, tr:qadīr, gloss:gücü yeten} gözetimin eylem tarafını tamamlayan kapasiteyi taşır. Böylece son sıfat soyut yetenekten etkili tasarrufa doğru genişleyebilir; cümlelerin art arda gelen övgüler olarak okunabilen yüzü de canlı kalır.
+
+Sofra talebinin (5:112) somut nesnesi, aynı kelimeleri maddî bir benzetmeye doğru taşıyan kapıyı açar. Daha uzak ve biçime bağlı bir kullanımda {ar:مُلْكُ, tr:mulku, gloss:mülk/egemenlik} yolcunun veya topluluğun işlerini sürdürmesini sağlayan su kaynağını, hayatı taşıyan bir dayanak gibi düşündürür. {ar:ٱلسَّمَٰوَٰتِ, tr:as-samāwāti, gloss:gökler} üstte yükselen ve örten alanı, {ar:ٱلْأَرْضِ, tr:al-arḍi, gloss:yer} aşağıda geleni alan yumuşak ve verimli toprağı belirler. {ar:قَدِيرٌۢ, tr:qadīr, gloss:gücü yeten} kelimesinin pişirme kabına açılan biçimsel kullanımı da gelen kapasiteyi hazırlayan ve paylaştıran kap imgesini ekler. Bu uzak bağlantı, odak âyetin egemenlik ve kudret anlamına temas eden maddi bir sahne olarak işler.
+
+Bu imgeyi 5:114'teki {ar:أَنزِلْ عَلَيْنَا, tr:enzil aleynā, gloss:üzerimize indir} üstten alta aktarımı ve {ar:ٱرْزُقْنَا, tr:urzuqnā, gloss:bizi rızıklandır} besleme, yarar ve armağan isteği hareket ettirir. Rızkın paylara ayrılarak verilmesi, sahiplik alanını dağıtım işlemiyle tamamlar; sofra üzerine konan yiyecek, maddi hareketi belirli bir nesne ve kullanılabilir hayat sahnesine bağlar (5:112, 5:114). Üstteki kaynak, verimli toprak, su, kap, sofra ve paylaştırılmış yiyecek birlikte düşünüldüğünde gök-yer çifti, kaynağın aşağıya inip hayata dönüşmesini anlatan bir süreç resmi kazanır. Bu resim, odak âyetin doğrudan egemenlik ve kudret bildirimini koruyan, sofra ve rızık anlatısının tetiklediği uzak bir benzetme olarak kalır.
+
+5:97'de insan düzenini ayakta tutan dayanak ve kapsam bilgisi, 5:120'deki kozmik egemenlik ve etkin kapasiteyle başka bir ölçekte buluşur. {ar:جَعَلَ, tr:ceale, gloss:kurdu} bir şeyi belirli bir amaçla yerleştirir; {ar:قِيَامًا, tr:qiyāman, gloss:ayakta tutan dayanak} kurulan şeyin düzeni taşıyan ve sürdüren işlevini öne çıkarır. Aynı ayetteki {ar:ٱلسَّمَٰوَٰتِ, tr:as-samāwāti, gloss:gökler} ve {ar:ٱلْأَرْضِ, tr:al-arḍi, gloss:yer} üst-alt alanı, {ar:بِكُلِّ شَىْءٍ, tr:bi-kulli shayʾin, gloss:her şey} tek tek varlıkları, {ar:يَعْلَمُ, tr:yaʿlamu, gloss:bilir} ise bunların bilinen bir alan içinde tutulduğunu gösterir (5:97). Bu kelimeler 5:120'deki {ar:مُلْكُ, tr:mulku, gloss:mülk/egemenlik} ve {ar:قَدِيرٌۢ, tr:qadīr, gloss:gücü yeten} ile temas edince, insanlara ait düzeni ayakta tutan dayanak daha geniş bir kozmik taşıyıcının içinde görünür.
+
+Bu ölçek değişimi, insan düzeninin dayanak niteliğini koruyarak onu daha büyük bir çerçeveye yerleştirir. {ar:قِيَامًا, tr:qiyāman, gloss:ayakta tutan dayanak} kelimesinin koruyucu ve sürdürücü işlevi bütün alanı taşıyan kapasiteye doğru genişler; {ar:كُلِّ شَىْءٍ, tr:kulli shayʾin, gloss:her şey} hem tek tek varlıkları hem bütünü aynı anda tutar. {ar:مُلْكُ, tr:mulku, gloss:mülk/egemenlik} böylece yalnız sahip olunan yeri değil, {ar:جَعَلَ, tr:ceale, gloss:kurdu} ve {ar:قِيَامًا, tr:qiyāman, gloss:ayakta tutan dayanak} ile görünür olan düzenin ana dayanağını da hissettirir. Bu bağlantı 5:97'den gelen nitelikli bir okumadır; yakın tekrarın formül olarak kalma ihtimali açıkken, odak âyetin egemenlik ve kudret anlamı korunur.
+
+## Alandan Harekete
+
+Şimdi aynı alan, durağan bir sahiplik listesi yanında yönü olan hareketlerin gerçekleştiği bir güzergâh gibi görülebilir. Önce 5:114'teki {ar:أَنزِلْ عَلَيْنَا, tr:enzil aleynā, gloss:üzerimize indir} üstten alta yönü belirir: {ar:ٱلسَّمَٰوَٰتِ, tr:as-samāwāti, gloss:gökler} üst noktayı, {ar:ٱلْأَرْضِ, tr:al-arḍi, gloss:yer} aşağıda ulaşılan ve üzerinde yaşanan kutbu verir. Sonra 5:119'daki {ar:تَجْرِي, tr:tecrī, gloss:akar} ile {ar:ٱلْأَنْهَٰرُ, tr:el-enhār, gloss:nehirler} akışın sürekliliğini, 5:109'daki {ar:يَجْمَعُ ٱللَّهُ, tr:yecmeu'llāh, gloss:Allah toplar} dağınık kişi ve sözlerin bir merkezde toplanmasını, 5:105'teki {ar:مَرْجِعُكُمْ, tr:merciʿukum, gloss:dönüşünüz} ise hareketin geri dönüş bacağını kurar. Bu dört işlem, gök ile yer arasında inen, akan, toplanan ve geri dönen bir yön dizisi oluşturur; {ar:قَدِيرٌۢ, tr:qadīr, gloss:gücü yeten} bu hareketlerin gerçekleşebilir ve yönetilebilir kapasitesini, {ar:مُلْكُ, tr:mulku, gloss:mülk/egemenlik} onları barındıran alanı taşır.
+
+{ar:مُلْكُ, tr:mulku, gloss:mülk/egemenlik} kelimesinin belirli bir biçime bağlı başka kullanımında yolun veya vadinin orta ya da ana kesimini anlatan bir yön bulunabilir. Bu kullanım, çevirinin doğrudan verdiği anlamdan ayrı bir benzetme düzeyinde, gök, yer, akış, toplanma ve dönüşü tek bir ana güzergâh üzerinde düşünmeye yarar. Yol resmi böylece odak âyetin egemenlik ve her şeye yeten kudret bildirimini yerinden etmeden yalnızca o alanın içindeki yönleri görünür kılar.
+
+</editorial_prose>

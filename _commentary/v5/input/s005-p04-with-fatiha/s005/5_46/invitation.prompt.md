@@ -1,0 +1,197 @@
+# V5 reading invitation — 5:46
+
+You are a fresh reading-invitation writer. Read the complete editorial prose
+before writing. It is your sole semantic source.
+
+Write two to four paragraphs of fluent, contemporary Turkish that reveal a
+surprising reading by following one or two main channels of resonance in the
+ayah. A channel is a connected background of meanings, images, actions, or
+relations through which the ayah can be heard and understood differently.
+Several editorial findings may together develop one channel. Summarize that
+connected movement and its consequence for the ayah's main meaning, rather
+than compressing findings individually. Give the reading's substance now;
+the invitation comes from understanding it, not from a promise of hidden depth.
+
+Before drafting, read the entire editorial prose and silently select the one
+or two channels with the strongest interpretive consequence and enough
+grounding to explain clearly. Favor channels that expand or shift what the
+ayah says, the relation it establishes, or what is at stake in its action or
+image. One fully developed channel is sufficient; add a second only when it
+offers a distinct consequential reading that can be explained within the
+invitation. No finding, channel, or major shift has an individual coverage
+claim. Unselected material may remain entirely in the full commentary.
+
+A channel may develop through grammar, sound, dialogue, a material process,
+time, imagery, or a conceptual relation. Resonance is not limited to acoustic
+effects, and an unusual image alone does not establish a channel. Use only
+connections the editorial prose actually develops. If it supplies no such
+channel, explain its strongest grounded reading without inventing connections
+or surprise.
+
+Begin inside the ayah's own words, images, actions, or relations and reveal a
+selected distinctive reading in the first paragraph. Keep the plain meaning
+reachable with only the orientation needed to understand the change. Do not
+spend an opening paragraph on routine explanation or front-load context about
+the surah, the ayah's position, or the commentary project.
+
+For each selected channel, begin with the expression that opens it, unfold the
+connected background, and show how the ayah reads or sounds against that
+background. Let a detail lead into the next through an intelligible relation
+or process, so the reader experiences the emerging reading. This is a movement
+of thought, not a mandatory sentence pattern or one paragraph per finding.
+Let the reader identify the expression being interpreted,
+where any nonordinary detail comes from, and what that detail changes in the
+reading. Briefly identify the word-family use, restricted form, collocation, or
+context that supplies an essential added detail, and preserve the concrete
+operation that makes the image work. Keep the ordinary reading and necessary
+qualification clear within this explanation; do not repeat them as a fixed
+formula. Preserve the particular object, process, or relation that makes this
+reading distinctive, and state its interpretive consequence for the ayah as a
+whole. Make intelligible what the familiar reading leaves less visible and
+what the expanded or shifted reading now lets the reader understand. Preserve
+the editorial's force: an exploratory possibility remains possible, while a
+developed shift must not be softened into a decorative association or a
+reassurance that everything means the same thing. A concrete
+account of how something is carried, transformed, lost, or restored must not
+shrink to a general statement about care, guidance, dependence, or goodness.
+Keep the details needed to make the selected channel work; omit side findings
+and shorten routine setup. If a channel cannot be explained faithfully from
+the editorial prose, choose another grounded channel or reading.
+
+When a non-focus ayah supplies a contribution used in the invitation, keep its
+reference from the editorial prose beside that contribution.
+
+Do not turn the invitation into a miniature inventory of the commentary's
+conclusions, or flatten distinct channels into a broad theme to include more
+material. Do not repair, extend, or supplement the editorial prose from memory
+or outside knowledge.
+
+Omit technical apparatus. Retain any qualification, source distinction, live
+alternative, or boundary whose absence would change the force or meaning of a
+chosen reading. Express it naturally beside the image or relation it qualifies.
+Favor positive explanations of the relation between layers: what remains in
+the foreground and what the resonance makes audible in the background. State
+how that background reinforces, expands, or shifts the understanding of the
+main meaning, with the source and degree of certainty clear. Reserve explicit
+exclusions for concrete ambiguities or live counter-evidence that need them.
+Repeated "this is not X" endings make a reading sound withdrawn; express the
+substantive qualification through what the reading does contribute wherever
+possible. Use varied, natural language rather than a repeated "second layer"
+formula, and preserve the force of expansions and shifts.
+Do not name branches, candidates, findings, scopes, evidence categories,
+ledgers, or workflow stages, or label the prose as numbered channels. Do not
+list findings serially.
+
+Use the established `{ar:..., tr:..., gloss:...}` syntax, consistent
+Turkish-readable transliteration, and short ordinary glosses. Keep Arabic
+anchors beside the explanations they ground. Within a paragraph, continue with
+the Turkish meaning where clear; provide the necessary local tag when a later
+paragraph interprets the carrier anew. Do not place Arabic script outside a
+valid tag.
+
+Build transitions within a channel through its shared object, action, or
+relation. If two channels are selected, they may occupy separate paragraphs;
+do not invent a link between them. Do not praise the commentary's quality,
+promise what the reader will find, manufacture suspense, recap at the end, or
+add a call to action. End on an image, relation, action, or tension already
+established by the selected reading.
+
+Before finishing, compare the invitation with the entire editorial prose:
+does the chosen channel reveal a consequential reading, or could the text have
+been written from the ordinary translation and a modest explanation alone?
+When the editorial supports a surprising channel, the latter fails this task.
+Can the reader follow the opening expression into a connected background and
+understand how that background expands or shifts the ayah's main meaning?
+Check the selected connections against their editorial explanation: can the
+reader tell where the nonordinary details come from, with the necessary
+qualifications intact? Repair generic explanation, isolated curiosities, or a
+compressed findings list by developing the selected channel. Do not add
+omitted channels merely for coverage. Do not output this check.
+
+Write only the invitation text to:
+
+`_commentary/v5/editorial/s005-p04-with-fatiha/s005/5_46/5_46.invitation.tr.md`
+
+Do not add a heading, wrapper label, index, ledger, evidence file, or any other
+artifact. Do not modify the editorial prose.
+
+After writing the invitation, run:
+
+```bash
+python3 _commentary/v5/validate_prose.py _commentary/v5/editorial/s005-p04-with-fatiha/s005/5_46/5_46.invitation.tr.md
+```
+
+If validation fails, repair only the reported mechanical file-contract issues
+and rerun it, for at most two repair cycles. Report the final validator result
+in your response.
+
+<editorial_prose>
+Âyet, Allah'ın önceki peygamberlerin ardından Meryem oğlu İsa'yı getirdiğini, İsa'nın önündeki Tevrat'ı doğruladığını ve kendisine İncil'i verdiğini söyler. İncil'in içinde hidayet ve nur vardır; o da önündeki Tevrat'ı doğrular ve sakınanlar için hidayet ile öğüt taşır. Cümle, önce bir peygamberin gelişini, ardından ona verilen kitabın içeriğini ve bu içeriğin muhatabına dönük işini göstererek ilerler.
+
+Başlangıçtaki {ar:وَ, tr:wa, gloss:devam bağlacı}, önceki anlatının içinden yeni bir ilahî eylem aşamasına geçer; İsa'nın gelişi süren vahiy dizisinin yeni halkası olarak duyulur. {ar:وَقَفَّيْنَا, tr:qaffaynā, gloss:ardından gönderdik} fiilinin tamamlanmış II. kalıp biçimi, bu ardıllığı ilahî failin kurduğu bir düzene bağlar. Ardından gelen {ar:عَلَىٰٓ, tr:ʿalā, gloss:üzerine} ile {ar:ءَاثَٰرِهِم, tr:āthārihim, gloss:onların izleri} birleşince sonraki, zaman sırasındaki yerini alırken öncekinin üzerine yerleştirilen ve onun bıraktığı yüzeyde ilerleyen kişi olarak görünür. {ar:ءَاثَٰرِهِم, tr:āthārihim, gloss:birikmiş izleri} içindeki çoğul ve onlara aitlik bildiren ek de tek bir geçmiş örneği yerine önceki kişilerin biriktirdiği izleri ve devredilmiş yolu öne çıkarır.
+
+Bu ardıllıkta İsa'nın nasıl yer aldığı, {ar:بِعِيسَى, tr:bi-ʿĪsā, gloss:İsa aracılığıyla} ifadesindeki bi ile belirlenir: bi, ilahî eylemin İsa aracılığıyla gerçekleştiğini kurar ve onu bu eylemin içindeki belirlenmiş kişi olarak gösterir. {ar:ٱبْنِ, tr:ibn, gloss:oğlu} kelimesi tamlama içinde bağlı kalır; {ar:مَرْيَمَ, tr:Maryam, gloss:Meryem} onu tamamlayarak İsa'nın kimliğini annesinin adıyla belirler. Bu yerel adlandırma, kimlik sözünü tamamlar; adın kökeni üzerine başka çağrışımlar bu belirli adlandırma işlevine dâhil değildir. Ardından gelen {ar:مُصَدِّقًا, tr:muṣaddiqan, gloss:doğrulayan} belirtme durumundaki etken ortaçtır; İsa'yı ardıllık sahnesinde doğrulama yapan etkin bir hâlle gösterir. {ar:لِّمَا, tr:li-mā, gloss:önündekini} de bu doğrulamanın genel bir onaydan çok İsa'nın önüne yerleştirilmiş belirli bir içeriğe yöneldiğini bildirir.
+
+Bu belirli içerik, {ar:بَيْنَ يَدَيْهِ, tr:bayna yadayhi, gloss:önünde duran} kuruluşuyla görünür hâle gelir. İlk {ar:بَيْنَ, tr:bayna, gloss:arasındaki alan}, ikili el yapısıyla doğrulayanla önceki vahiy arasındaki belirlenmiş ön ilişkisini kurar. {ar:يَدَيْهِ, tr:yadayhi, gloss:onun iki eli} bu deyim içinde erişilebilir bir ön alan açar; Tevrat, İsa'nın karşısında duran içerik olarak görünür ve ellerin maddî sahiplik yüzü bu kuruluşun önüne geçmez. {ar:مِنَ, tr:mina, gloss:açıklayan edat} bu öncelik alanını adı verilen {ar:ٱلتَّوْرَىٰةِ, tr:at-tawrāti, gloss:Tevrat} ile açıklar; hangi kapsamın bu bağa dâhil edildiğine dair daha geniş dilsel açıklığı bütünüyle kapatmadan yerel işlevi belirginleştirir. Tevrat, ilk doğrulamanın sabit nesnesi ve biraz sonra dönecek ikinci doğrulamanın da aynı vahiy eksenidir.
+
+## İncil'e Geçiş
+
+Yeni {ar:وَ, tr:wa, gloss:ve bağlacı}, İsa'nın ardıllık içindeki yerini İncil'in ona verilmesiyle birbirinden koparmadan iki ilahî işi art arda bağlar. {ar:ءَاتَيْنَٰهُ, tr:ātaynāhu, gloss:ona verdik} fiili vereni, verme eylemini ve alıcıyı tek bir tamamlanmış biçimde bir araya getirir. {ar:ٱلْإِنجِيلَ, tr:al-Injīla, gloss:İncil} bu fiilin doğrudan nesnesidir; kitap adı önce kurulur, onun taşıdığı içerik ve yaptığı iş sonra açılır. Böylece İncil, sonradan beliren adsız bir metin değil, İsa'ya ulaştırılmış bir armağan olarak cümlenin içine yerleşir.
+
+Bu kitabın içi, {ar:فِيهِ, tr:fīhi, gloss:onun içinde} ile açılır. İlk {ar:هُدًى, tr:hudan, gloss:yol gösterme}, kitabın içinde bulunan ve hedefi henüz adıyla koymadan yön taşıyan içeriktir; durağan bir bilgi yığını yerine bir hedefe doğru sevk imkânı verir. Aynı içerik cümlesindeki {ar:وَ, tr:wa, gloss:ve bağlacı}, hidayeti {ar:نُورٌۭ, tr:nūrun, gloss:ışık} ile yan yana koyar ve iki eşit içeriği birbirine indirgemeden bir arada tutar. Nur, hidayetin başka adı olarak kalmayıp görmeyi ve kanıtı mümkün kılan görünürlük boyutunu ekler. Böylece aydınlık, kitabın yönünü algılanabilir kılar; bu ilk içeriğin katkısı, ileride açılacak ateş sahnesindeki tehlike ışığıyla aynı yüzey değildir.
+
+Verilmiş kitap, içindeki hidayet ve nurla birlikte düşünüldüğünde, bu iki içeriği belirlenmiş bir yöne ulaştıran bir taşıma yüzeyi gibi görünür. {ar:ءَاتَيْنَٰهُ, tr:ātaynāhu, gloss:ona ulaştırdık} içindeki ulaştırma hareketi, {ar:فِيهِ, tr:fīhi, gloss:onun içinde} ile kurulan taşıyıcı alan ve {ar:هُدًى وَنُورٌۭ, tr:hudan wa-nūrun, gloss:yol gösterme ve ışık} ile adlandırılan içerikle temas eder. Suyun akacağı yolu kolaylaştırıp akışı belirli bir yöne çeviren kanal görüntüsü, kitabın içindeki yön ve görünürlüğün İsa'ya verilmiş armağan içinde taşınmasını sezdirir. Bu benzetme, ataynāhu fiilinin sözlük anlamına yeni bir karşılık vermek için değil, verilen kitapla onun içindeki içerik arasındaki aktarımı görünür kılmak için çalışır; armağan ve içerik ilişkisini genişletir.
+
+İçerik açıklandıktan sonra yinelenen {ar:مُصَدِّقًا, tr:muṣaddiqan, gloss:doğrulayan}, etkin doğrulama rolünü İsa'dan İncil'e doğru genişletir. Bu ikinci kullanımın hâl, bağlama ve amaç yönleri birlikte düşünülebilse de kişi ile mesajın aynı önceki vahiy metnini doğruladığı ilişki yerinde kalır. İkinci {ar:لِّمَا, tr:li-mā, gloss:önündekini} ilk çerçevenin nesne kapsamını yeniden kurar: doğrulayan değişirken doğrulamanın yöneldiği belirli içerik değişmez. İkinci {ar:بَيْنَ, tr:bayna, gloss:arasındaki alan}, aynı önündeki deyimini kitap için yeniden inşa eder; ikinci {ar:يَدَيْهِ, tr:yadayhi, gloss:onun iki eli}, önceki peygamberi hatırlatan zamir baskısını korurken yeni kitap çerçevesinin de ilerlemesine izin verir. İkinci {ar:مِنَ, tr:mina, gloss:açıklayan edat} aynı açıklayıcı bağı getirir ve ikinci {ar:ٱلتَّوْرَىٰةِ, tr:at-tawrāti, gloss:Tevrat}, İsa'nın da İncil'in de doğrulamasının yöneldiği sabit eksen olarak kalır. Aynı Tevrat'a dönen bu iki doğrulama, ardıllığı iki ayrı kaynağın kopuşundan çok birbirini sürdüren iki etkin eylem olarak duyurur.
+
+İkinci doğrulamadan sonra gelen {ar:وَ, tr:wa, gloss:işleve dönen bağlaç}, vahiy metinleri arasındaki ilişkiden kitabın bir muhatap için gerçekleştirdiği işlere geçer. İkinci {ar:هُدًى, tr:hudan, gloss:yol gösterme}, İncil'in içinde duran içerik olmanın yanında son zincirde sakınan muhataba doğru yönelen işlevdir. Aynı kelime önce içeride bulunan yönü, sonra o yönün bir kişiye ulaşmasını taşır. Ardından gelen {ar:وَ, tr:wa, gloss:eşleyen bağlaç}, hidayeti {ar:مَوْعِظَةًۭ, tr:mawʿiẓatan, gloss:öğüt} ile muhataba dönük iki eşit işlev olarak eşler. Belirtme durumundaki bu öğüt, zarar gelmeden önce kişiyi uyaran ve yararını gözeten düzeltici bir söz olarak hidayete eşlik eder; yalın biçimin daha bağımsız bir ses verebilmesi canlı bir biçim karşılaştırması olarak kalır.
+
+Kapanıştaki {ar:لِّلْمُتَّقِينَ, tr:li-l-muttaqīna, gloss:sakınanlar için} içindeki lām, son zincirin alıcısını belirler. VIII. kalıp ortaç, kendisini yanlış ve zarardan koruyan belirli bir muhatabı cümlenin sonuna getirir. Lâmın hidayete, öğüde veya ikisine birden bağlanma kapsamı açık kalırken, bu muhatabın işlevi belirgindir: kişi ile korkulan ya da yanlış olan şey arasına koruyucu bir tutum koyar. Kitap bu noktada yön gösteren, görünür kılan, önceden uyaran ve kendini koruma tavrına ulaşan bir düzen olarak duyulur; fiziksel bir yolculuk sahnesi kurulmaz.
+
+Bu dört işlev birbirine değerek ayetin içindeki hareketi kurar. {ar:هُدًى, tr:hudan, gloss:yol gösterme} önce doğru yönü incelikle gösterir. {ar:نُورٌۭ, tr:nūrun, gloss:görmeyi sağlayan ışık} bu yönü algılanabilir kılar; yol artık yalnız gösterilen değil, görülebilen bir doğrultudur. Bunun üzerine {ar:مَوْعِظَةًۭ, tr:mawʿiẓatan, gloss:sakındırıcı öğüt} iyiyi ve davranışların sonuçlarını hatırlatıp görülen zarardan önce düzeltici adımı açar. {ar:لِّلْمُتَّقِينَ, tr:li-l-muttaqīna, gloss:kendini koruyanlar için} ise bu uyarıyı alıp kişiyle zarar arasına önlem koyan muhatabı belirler. Böylece yön görünürlükle, görünürlük öğütle, öğüt de öz-koruyucu bir alıcıyla tamamlanır; hidayet muhatabın ilerleyişini düzenleyen bir harekete, öğüt ise ışığın açtığı görüşü koruyucu eyleme dönüştürür. Bu birleşim, İncil'in içindeki hidayet ve nur ile sonundaki hidayet ve öğüt bağını derinleştirir; öğüt burada ceza ilanı değil, yanlış eylemden önce geri dönmeyi mümkün kılan güçtür.
+
+Başlangıçtaki iz ve sonradan gelen doğrulama bu işleve geri bağlanır. {ar:قَفَّيْنَا, tr:qaffaynā, gloss:ardından izlettik} içindeki ardından gitme anlamı, {ar:ءَاثَٰرِهِم, tr:āthārihim, gloss:öncekilerin izleri} tarafından açılan önceki yol ile temas eder; İsa önceki izleri takip eden ilahî ardıllık dizisine yerleşir. Aynı iz yüzeyi, birikmiş ve devredilmiş yolun kılavuzluğunu taşır. İki {ar:مُصَدِّقًا, tr:muṣaddiqan, gloss:doğrulayan} geçişi de {ar:لِّمَا ... مِنَ ٱلتَّوْرَىٰةِ, tr:li-mā ... mina at-tawrāti, gloss:Tevrat'a yönelen kapsam} ile birleşince doğrulama, söylenmiş bir onaydan ardıllık içinde gerçekleşen bir aktarıma dönüşür. İsa önceki izler üzerine yerleştirilir, İncil aynı hattı doğrulayarak sürdürür; Tevrat'ın önceki konumu bu hareketin içinde korunur.
+
+## Yakın Çevrede İz ve Emanet
+
+5:41 ve 5:44'teki sözler, bu iz ilişkisini yerleşim ve emanet sorusuyla karşılaştırır. 5:41'deki {ar:يُحَرِّفُونَ, tr:yuharrifūna, gloss:eğriltirler}, bir sözün yerleşiminden sonra yana çevrilmesini; {ar:مَوَاضِعِهِ, tr:mawāḍiʿihi, gloss:yerlerini} ise onun bağlı olduğu konumları görünür kılar. 5:46'daki {ar:ءَاثَٰرِهِم, tr:āthārihim, gloss:izleri} bu yüzeylerle buluştuğunda doğrulama, elde kalan belirtinin doğru yerleşimle ilişkisini gözeten bir işlem olarak renklenir. 5:44'teki {ar:ٱسْتُحْفِظُوا, tr:ustuhfiẓū, gloss:korumaları istendi}, emanet edilen kitabı gözetme görevini; {ar:شُهَدَآءَ, tr:shuhadāʾ, gloss:tanıkları} ise bu görevi bilgiye dayalı kamusal tanıklıkla bağlar. İkinci {ar:مُصَدِّقًا, tr:muṣaddiqan, gloss:doğrulayan} ile temas eden bu roller, sürekliliği geçmişi kabul etmekten korunmuş malzemeye karşı sorumluluk taşıyan doğrulamaya doğru genişletir.
+
+5:41 ve 5:44'ün bu karşılaşması (5:41, 5:44), 5:46'daki doğrulamayı eğriltilmiş veya yerinden ayrılmış bir sözün ardındaki izi fark edip onu emanet ve tanıklık altında yeniden ilişkilendiren bir işlem olarak duyurur. Böylece 5:46'nın doğrulama dili, çevresindeki yer değiştirme ve koruma sözleriyle birlikte anlam kazanır. Bu özel bağlantı iz, emanet ve tanıklık arasındaki ilişkiyi kendi yakın kapsamı içinde tutar; kaybolmuş bir metnin bütünüyle yeniden kurulması ve Tevrat'ı koruma görevinin İsa ile İncil'e aynı biçimde yüklenmesi bu ilişkinin kapsamına girmez.
+
+Tevrat için daha önce (5:44) kurulan {ar:فِيهَا هُدًى وَنُورٌ, tr:fīhā hudan wa-nūrun, gloss:içinde hidayet ve nur vardır} çifti, 5:46'da İncil için {ar:فِيهِ هُدًى وَنُورٌۭ, tr:fīhi hudan wa-nūrun, gloss:içinde hidayet ve nur vardır} biçiminde yeniden duyulur. Bu tekrar, İncil'deki hidayeti önceki vahiydeki yön gösterme işlevinin yeni taşıyıcısı, nuru da aynı işlevi görünür kılan aydınlık olarak açar. Tevrat tarafında hükmü bildiren {ar:يَحْكُمُ, tr:yahkumu, gloss:hükmeder} ve 5:47'de İncil halkına yönelen {ar:وَلْيَحْكُمْ, tr:wal-yahkum, gloss:hükmetsin} ifadesi, bu hidayet-nur çiftini karar alanına taşır. Yön gösteren ve görünür kılan içerik, insanlarla ilgili somut hükmün dayanağı olarak işler; hidayet ve nur kitap hakkında soyut bir övgü olmaktan çıkıp uygulamaya ulaşan vahiy işlevi kazanır. Bu bağ, iki kitabın bütün içeriğini özdeşleştirmez; 5:44'teki tekrar ile 5:47'deki hüküm dili arasındaki ilişkiyi görünür kılar.
+
+## Bağlı Farklılık
+
+İki kez kurulan {ar:لِّمَا بَيْنَ يَدَيْهِ, tr:li-mā bayna yadayhi, gloss:önünde bulunan şeye} ifadesi, önceki vahyi doğrulayan taşıyıcının önünde duran içeriği kurar. Bu öncelik ilişkisi 5:48'in devamındaki {ar:مُهَيْمِنًا, tr:muheyminen, gloss:gözetip denetleyen} ile karşılaşınca gözetim ve değerlendirme sorumluluğu; {ar:شِرْعَةً, tr:shirʿatan, gloss:ayrılan yol} ile karşılaşınca her topluluğa ayrılan kaynak ve yol imkânı; {ar:مِنْهَاجًا, tr:minhājan, gloss:açık güzergâh} ile karşılaşınca ayırt edilebilir ve izlenebilir güzergâh görünür olur. Aynı 5:48 devamındaki {ar:فَاسْتَبِقُوا الْخَيْرَاتِ, tr:fastabiqū al-khayrāt, gloss:hayırları geçmeye çalışın} çağrısı bu yolları edilgen miraslar olmaktan çıkarıp iyi eylemde sınanan hareketlere dönüştürür. Öncekiyle bağ korunurken her aktarım kendi yolu, gözetimi ve pratik sınamasıyla belirir; bu özel karşılaşma, yolların aynı içeriği taşıması ya da birbirinden kopması hakkında ayrıca bir hüküm vermez.
+
+Bu bağlı fakat farklılaşmış devam, 57:27, 3:3 ve 4:66'daki temaslarla başka bir açıdan da görünür. 57:27'deki {ar:فَقَفَّيْنَا, tr:qaffaynā, gloss:ardından gönderme ve izleme}, aynı elçiler, izler, İsa ve İncil dizisiyle buluştuğunda 5:46'daki göndermeyi sıradan bir sıra bilgisinden izlenebilir bir vahiy devamına taşır. Oradaki {ar:آثَارِهِمْ, tr:āthārihim, gloss:geride kalan izler}, geçmiş bir topluluk ya da olaydan kalan belirtiyi taşırken sonraki gönderilişi yönlendiren görünür bir yüzey olur; izinden gitme eylemi qaffaynā'nın ardıllık hareketinde kalır. 3:3'te kitabın öncekini doğrulaması ve Tevrat ile İncil'in aynı vahiy dizisinde anılması, 5:46'daki iki {ar:مُصَدِّقًا, tr:muṣaddiqan, gloss:doğrulayan} yüzeyini taşıyıcıya ve verilen kitaba uygulanan etkin onay olarak açar. 4:66'da {ar:مَوْعِظَةً, tr:mawʿiẓatan, gloss:sakındırıcı öğüt} içeren sözü yerine getirmenin iyilik ve sağlamlaşma doğurması da son öğüdün alıcıyı koruyucu eyleme yönelten işlevini belirginleştirir. Bu üç temas birlikte, 5:46'nın ardıllığını izden yön alan, doğrulayarak yeni bir halka oluşturan ve öğütle alıcının korunmasına yönelen bir devam ilişkisi kurar; bu yorum 57:27, 3:3 ve 4:66'da açılan özel temasların içinde kalır.
+
+## Karşılık ve Feragat
+
+Yakın bağın başka bir yüzü 5:45'te belirir. Bu âyet, yaralanmaya karşılık gelen bedensel eşleşmeyi {ar:قِصَاصٌ, tr:qiṣāṣun, gloss:denk karşılık} ile kurar, hak edilen karşılıktan gönüllü vazgeçmeyi ise {ar:تَصَدَّقَ, tr:taṣaddaqa, gloss:hakkından bağışladı} ile açar. Bu iki hareket, 5:46'daki iz ve ardıllık sözlerine bağımsız bir hukukî karşılaştırma zemini verir. {ar:مُصَدِّقًا, tr:muṣaddiqan, gloss:önceki bildiriyi doğrulayan}, önceki bildiriyi destekleme anlamıyla gönüllü bırakışa temas ettiğinde doğrulamaya bağışlayıcı bir gerçekleşme imkânı kazandırır. {ar:وَقَفَّيْنَا, tr:qaffaynā, gloss:ardından getirdik} ve {ar:ءَاثَٰرِهِم, tr:āthārihim, gloss:izleri}, {ar:قِصَاصٌ, tr:qiṣāṣun, gloss:denk karşılık} ile karşılaşınca önceki hukukî kuralın izini taşıyan ardıllığı görünür kılar; {ar:تَصَدَّقَ, tr:taṣaddaqa, gloss:hakkından bağışladı} bu iz üzerinde aynı karşılığı kopyalamadan gönüllü bir fazlalık açar. Süreklilik böylece bazen eşleşen karşılığı taşımakla, bazen de o karşılığı aşan bir feragatle tamamlanabilecek bir hareket olarak duyulur.
+
+5:45'in açtığı bu bağ, doğrulamanın bir kuralı bağışlayıcı biçimde gerçekleştirebilme ihtimalini görünür kılar ve bu ihtimal 5:45 ile 5:46 arasındaki özel karşılaştırmanın içinde kalır. {ar:تَصَدَّقَ, tr:taṣaddaqa, gloss:hakkından bağışladı} fiili {ar:مُصَدِّقًا, tr:muṣaddiqan, gloss:doğrulayan} kelimesinin doğrudan sözlük karşılığı değildir; İncil'in bütün işlevi de hukukî bağışlamaya indirgenmez.
+
+5:41'deki yer değiştirme sahnesi, iz sözünün maddî hareket yüzünü açar. {ar:يُحَرِّفُونَ, tr:yuharrifūna, gloss:eğriltirler} ve {ar:مَوَاضِعِهِ, tr:mawāḍiʿihi, gloss:yerlerini}, bir sözün yerinden oynatılmasıyla onun bağlı olduğu yeri birlikte görünür kılar. Bu sahne, {ar:ءَاثَٰرِهِم, tr:āthārihim, gloss:izleri} kelimesinin bir şeyi bulunduğu durumdan kaldırıp yeniden harekete geçiren maddî çağrışımıyla buluştuğunda iz, sabit bir ayak izi olmaktan çıkıp yerleşimiyle karşılaştırılabilen ve yeniden incelenebilir hâle gelen bir hareket noktası olarak görünür. {ar:وَقَفَّيْنَا, tr:qaffaynā, gloss:ardından getirdik} bu hareketi önceki izin ardından gitme ilişkisine geri bağlar. Böylece 5:41'deki yer değiştirme ile 5:46'daki ardıllık arasında, yerinden ayrılmış olanı yeniden görünür kılan bir inceleme imkânı belirir. Bu maddî görüntü 5:41'in açtığı özel benzetme içinde kalır; metni yeniden kurma iddiası taşımaz ve {ar:ءَاثَٰرِهِم, tr:āthārihim, gloss:izleri} kelimesinin olağan anlamını korur.
+
+## Yola Çıkan Hidayet
+
+5:16'daki karanlıklardan nura ve dosdoğru yola çıkaran yöneltme, İncil'deki hidayet ve nurun alıcıya dönük hareketini somut bir doğrultuya taşır. İlk ve son {ar:هُدًى, tr:hudan, gloss:doğru yolu gösterme}, doğru yönü ve yolu gösterme çekirdeğini taşır; bu sahneyle buluştuğunda hidayet, İncil'in niteliği olmaktan başlayıp alıcıyı açık bir doğrultuya yönelten işleve genişler. {ar:نُورٌۭ, tr:nūrun, gloss:ışık ve aydınlatma} görmeyi sağlayan aydınlık çekirdeğini korur; 5:16'daki nura çıkarma ile dosdoğru yola yöneltme arasındaki bağ, bu aydınlığı yönün önünü açan görünürlük hâline getirir. Okur için İncil'in içeriği böylece yalnız aydınlatan bir bilgi değil, yönlendiren ve yürüyüşe sokan bir işlev olarak belirir. Bu özel temas hidayetin yön gösterme, nurun aydınlatma yüzünde kalır; ateş, damga ve yol işareti gibi başka çağrışımlar bu ilişkiye katılmaz.
+
+5:66 ve 5:68'deki ayakta tutma çağrısı, 5:46'daki doğrulamayı vahyi yaşatan bir sorumluluk ilişkisine açar. Tevrat ile İncil'i ayakta tutmanın muhataplardan istenmesi, {ar:مُصَدِّقًا, tr:muṣaddiqan, gloss:önceki bildiriyi destekleyen onay} sözünü doğruluğu ifade edilen bir uygunluktan sürdürülen bir ilişkiye doğru genişletir. Önceki vahyi kabul edip destekleyen vahiy ile onu taşıyan muhatap arasındaki bağlılık, doğrulamanın eylem içinde görünmesini sağlar. Okur 5:46'daki doğrulamayı böylece önceki vahyi tanıyan bir cümleden onun sorumluluğunu taşıyan ve onu yaşatan bir ilişkiye doğru derinleşen hareket olarak duyar. Bu özel temas 5:66 ve 5:68'deki ayakta tutma çağrısının kapsamında kalır; metinlerin bozulma tarihi veya bütün hukukî sonuçlar bu bağlantının konusu değildir.
+
+5:27'deki kabul edilen ve geri çevrilen sunu karşıtlığı, 5:46'nın öğüt ile alıcı arasındaki ilişkiyi canlı bir kabul eşiği olarak duyurur. {ar:مَوْعِظَةًۭ, tr:mawʿiẓatan, gloss:öğüt ve ders alma}, alıcının yararını gözeten, iyiyi ve davranışlarının sonuçlarını hatırlatan öğüt işini taşır. {ar:لِّلْمُتَّقِينَ, tr:li-l-muttaqīna, gloss:zarardan kendini koruyanlara} ise kendisiyle korkulan şey arasına koruyucu önlem koyan kişiyi belirler. 5:27'deki {ar:فَتُقُبِّلَ, tr:fatuqubbila, gloss:kabul edildi} ve {ar:وَلَمْ يُتَقَبَّلْ, tr:wa-lam yutaqabbal, gloss:kabul edilmedi} yüzeyleri bu iki taşıyıcıyla buluştuğunda öğüt alınabilir bir yönlendirmeye, alıcı da onu kendisini sakınmaya çeviren koruyucu bir konuma dönüşür. Kabul, öğüdün yarar gözeten hareketini alıcının öz-korumasına bağlar; son ifade böylece yalnız bir grup adı değil, öğütle korunma arasında işleyen canlı bir ilişki olur. Bu bağlantı 5:27'deki açık kabul-ret sahnesinin sınırları içinde kalır; genel nesne koruması ve hayvan ölçüsü anlamları bu özel temasa katılmaz, kabul de burada tek açıklama hâline getirilmez.
+
+## Işığın Önceden Gördüğü Zarar
+
+5:29 ve 5:37'deki ateş sahneleri, nurun zararı önceden görmeye yarayan aydınlatma katkısını açar. 5:29'daki yanan ateş ile 5:37'de içine girildiğinde çıkışı bulunmayan kuşatıcı ateş, {ar:نُورٌۭ, tr:nūrun, gloss:görmeyi sağlayan ışık} yüzeyinin karşısına iki ayrı zarar eşiği koyar. Işık, bu eşikleri görünür kılarak genel berraklıktan korunma yönünü seçmeye yardım eden aydınlığa dönüşür. Aynı iki sahne {ar:مَوْعِظَةًۭ, tr:mawʿiẓatan, gloss:sakındırıcı öğüt} için görülen zararı önceden dikkate aldıran ve yanlış eylemden döndüren bir güç açar; mawʿiẓa ışığın açtığı görüşü koruyucu eyleme çevirir. 5:29'un yanan ateşi somut zarar eşiğini, 5:37'nin çıkışı olmayan ateşi ise gecikmiş ve kuşatıcı sonucu görünür kılar. Bu özel temas ışığın ateş yüzeyiyle değil, ateş karşısında işe yarayan öngörü yüzüyle çalışır; öğüt de bu görünürlüğü sakınmaya dönüştüren caydırıcı harekettir. Genişleme 5:29 ve 5:37'deki açık ateş sahnelerinin sınırları içinde kalır.
+
+## Önündeki Vahiy ve Eylem
+
+{ar:بَيْنَ يَدَيْهِ, tr:bayna yadayhi, gloss:önünde veya hemen öncesinde} kuruluşu, 5:28 ve 5:38'deki el ve eylem yüzeyleriyle buluşunca Tevrat'ı taşıyıcının eylem alanında duran sorumlu bir önalan olarak da duyurur. 5:28'de uzatılan, sonra öldürmek için geri tutulan {ar:يَدِيَ, tr:yadiya, gloss:el}, önündeki vahyi taşıyan kişinin elini nasıl kullandığıyla sınayan bir alan açar. 5:38'deki {ar:أَيْدِيَهُمَا, tr:aydīhimā, gloss:elleri} ile {ar:كَسَبَا, tr:kasabā, gloss:elde ettikleri sonuç} yan yana geldiğinde yapılan işin doğrudan failine yüklenmesi ve eylemin sonuçla ilişkilendirilmesi görünür olur. Bu iki sahne, doğrulamayı önünde duran vahye karşı taşıyıcının eylemini sorumluluk alanına sokan bir ilişki olarak genişletir.
+
+Bu 5:28 ve 5:38 bağlantısı, önceki vahiy ile yapılan iş arasındaki teması eylemin doğurduğu sonuç üzerinden görünür kılar. Bedensel el ile ellerin sonuca bağlanması, odaktaki bayna yadayhi ifadesine geri döner; böylece olağan mekânsal ve zamansal öncelik korunurken Tevrat da taşıyıcının eylem alanında duran sorumlu bir önalan olarak duyulur. Bu yankı yalnızca 5:28 ve 5:38'deki iki el sahnesinin açtığı ilişki içinde kalır; doğrulamanın bütün hukukî anlamları, genel bir günah veya fail teorisi ve tek bir sonuç yorumu bu bağlantıya yüklenmez.
+
+Fâtiha'nın 1:6'daki {ar:ٱهْدِنَا ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ, tr:ihdinā aṣ-ṣirāṭ al-mustaqīm, gloss:bizi dosdoğru yola ilet} dileği, 5:46'nın son hidayet sözündeki yön ve hedef yüzünü görünür kılar. Âyetteki son {ar:هُدًى, tr:hudan, gloss:hidayet}, bu temas içinde kitapta duran bir nitelik olarak kalırken muhatabın üzerinde ilerleyebileceği açık bir doğrultuya yönelmesine yardım eden işlev de kazanır. Bu özel yankı 1:6'daki dosdoğru yol dileğinin açtığı yönle sınırlıdır; Fâtiha'nın bütün yol dizisi İncil'e taşınmaz ve iki ifade özdeşleştirilmez. Böylece 5:46'nın sonundaki hidayet, sakınan muhataba ulaşan öğütle birlikte okuyucunun önünde izlenebilir bir yöne açılan yardım olarak tamamlanır.
+
+</editorial_prose>

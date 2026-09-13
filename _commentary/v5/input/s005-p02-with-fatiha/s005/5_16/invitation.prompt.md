@@ -1,0 +1,207 @@
+# V5 reading invitation — 5:16
+
+You are a fresh reading-invitation writer. Read the complete editorial prose
+before writing. It is your sole semantic source.
+
+Write two to four paragraphs of fluent, contemporary Turkish that reveal a
+surprising reading by following one or two main channels of resonance in the
+ayah. A channel is a connected background of meanings, images, actions, or
+relations through which the ayah can be heard and understood differently.
+Several editorial findings may together develop one channel. Summarize that
+connected movement and its consequence for the ayah's main meaning, rather
+than compressing findings individually. Give the reading's substance now;
+the invitation comes from understanding it, not from a promise of hidden depth.
+
+Before drafting, read the entire editorial prose and silently select the one
+or two channels with the strongest interpretive consequence and enough
+grounding to explain clearly. Favor channels that expand or shift what the
+ayah says, the relation it establishes, or what is at stake in its action or
+image. One fully developed channel is sufficient; add a second only when it
+offers a distinct consequential reading that can be explained within the
+invitation. No finding, channel, or major shift has an individual coverage
+claim. Unselected material may remain entirely in the full commentary.
+
+A channel may develop through grammar, sound, dialogue, a material process,
+time, imagery, or a conceptual relation. Resonance is not limited to acoustic
+effects, and an unusual image alone does not establish a channel. Use only
+connections the editorial prose actually develops. If it supplies no such
+channel, explain its strongest grounded reading without inventing connections
+or surprise.
+
+Begin inside the ayah's own words, images, actions, or relations and reveal a
+selected distinctive reading in the first paragraph. Keep the plain meaning
+reachable with only the orientation needed to understand the change. Do not
+spend an opening paragraph on routine explanation or front-load context about
+the surah, the ayah's position, or the commentary project.
+
+For each selected channel, begin with the expression that opens it, unfold the
+connected background, and show how the ayah reads or sounds against that
+background. Let a detail lead into the next through an intelligible relation
+or process, so the reader experiences the emerging reading. This is a movement
+of thought, not a mandatory sentence pattern or one paragraph per finding.
+Let the reader identify the expression being interpreted,
+where any nonordinary detail comes from, and what that detail changes in the
+reading. Briefly identify the word-family use, restricted form, collocation, or
+context that supplies an essential added detail, and preserve the concrete
+operation that makes the image work. Keep the ordinary reading and necessary
+qualification clear within this explanation; do not repeat them as a fixed
+formula. Preserve the particular object, process, or relation that makes this
+reading distinctive, and state its interpretive consequence for the ayah as a
+whole. Make intelligible what the familiar reading leaves less visible and
+what the expanded or shifted reading now lets the reader understand. Preserve
+the editorial's force: an exploratory possibility remains possible, while a
+developed shift must not be softened into a decorative association or a
+reassurance that everything means the same thing. A concrete
+account of how something is carried, transformed, lost, or restored must not
+shrink to a general statement about care, guidance, dependence, or goodness.
+Keep the details needed to make the selected channel work; omit side findings
+and shorten routine setup. If a channel cannot be explained faithfully from
+the editorial prose, choose another grounded channel or reading.
+
+When a non-focus ayah supplies a contribution used in the invitation, keep its
+reference from the editorial prose beside that contribution.
+
+Do not turn the invitation into a miniature inventory of the commentary's
+conclusions, or flatten distinct channels into a broad theme to include more
+material. Do not repair, extend, or supplement the editorial prose from memory
+or outside knowledge.
+
+Omit technical apparatus. Retain any qualification, source distinction, live
+alternative, or boundary whose absence would change the force or meaning of a
+chosen reading. Express it naturally beside the image or relation it qualifies.
+Favor positive explanations of the relation between layers: what remains in
+the foreground and what the resonance makes audible in the background. State
+how that background reinforces, expands, or shifts the understanding of the
+main meaning, with the source and degree of certainty clear. Reserve explicit
+exclusions for concrete ambiguities or live counter-evidence that need them.
+Repeated "this is not X" endings make a reading sound withdrawn; express the
+substantive qualification through what the reading does contribute wherever
+possible. Use varied, natural language rather than a repeated "second layer"
+formula, and preserve the force of expansions and shifts.
+Do not name branches, candidates, findings, scopes, evidence categories,
+ledgers, or workflow stages, or label the prose as numbered channels. Do not
+list findings serially.
+
+Use the established `{ar:..., tr:..., gloss:...}` syntax, consistent
+Turkish-readable transliteration, and short ordinary glosses. Keep Arabic
+anchors beside the explanations they ground. Within a paragraph, continue with
+the Turkish meaning where clear; provide the necessary local tag when a later
+paragraph interprets the carrier anew. Do not place Arabic script outside a
+valid tag.
+
+Build transitions within a channel through its shared object, action, or
+relation. If two channels are selected, they may occupy separate paragraphs;
+do not invent a link between them. Do not praise the commentary's quality,
+promise what the reader will find, manufacture suspense, recap at the end, or
+add a call to action. End on an image, relation, action, or tension already
+established by the selected reading.
+
+Before finishing, compare the invitation with the entire editorial prose:
+does the chosen channel reveal a consequential reading, or could the text have
+been written from the ordinary translation and a modest explanation alone?
+When the editorial supports a surprising channel, the latter fails this task.
+Can the reader follow the opening expression into a connected background and
+understand how that background expands or shifts the ayah's main meaning?
+Check the selected connections against their editorial explanation: can the
+reader tell where the nonordinary details come from, with the necessary
+qualifications intact? Repair generic explanation, isolated curiosities, or a
+compressed findings list by developing the selected channel. Do not add
+omitted channels merely for coverage. Do not output this check.
+
+Write only the invitation text to:
+
+`_commentary/v5/editorial/s005-p02-with-fatiha/s005/5_16/5_16.invitation.tr.md`
+
+Do not add a heading, wrapper label, index, ledger, evidence file, or any other
+artifact. Do not modify the editorial prose.
+
+After writing the invitation, run:
+
+```bash
+python3 _commentary/v5/validate_prose.py _commentary/v5/editorial/s005-p02-with-fatiha/s005/5_16/5_16.invitation.tr.md
+```
+
+If validation fails, repair only the reported mechanical file-contract issues
+and rerun it, for at most two repair cycles. Report the final validator result
+in your response.
+
+<editorial_prose>
+Bu âyet önce Allah’tan gelen ışığı ve açık kitabı öne çıkarır. Ardından Allah’ın bu vahiy aracılığıyla, O’nun hoşnutluğunun ardınca gidenleri esenlik yollarına yönelttiğini; izniyle onları karanlıklardan ışığa çıkardığını ve sonunda dosdoğru bir yola ilettiğini bildirir. Cümlenin hareketi tek bir sonuç cümlesine sıkışmaz: önce kimlerin bu ilahî yönelişe dahil olduğu ve neyi izlediği belirir, sonra karanlıktan çıkış gerçekleşir, en sonunda da yolun niteliği sabitlenir.
+
+## Cümlenin Kurduğu Hareket
+
+İlk olarak kimin yöneltildiğine bakalım. `{ar:مَنِ, tr:mani, gloss:kimseleri / kim}` sözü, rehberliğin isimsiz bir kalabalığa değil, dilbilgisel olarak belirlenmiş bir sınıfa yöneldiğini açar. Bu sınıfı tanımlayan hareket `{ar:ٱتَّبَعَ, tr:ittabaʿa, gloss:ardınca gitti}` fiilidir: kişiler Allah’ın `{ar:رِضْوَانَهُ, tr:riḍwānahu, gloss:hoşnutluğu}`nun ardınca gider. Fiilin yakın takip bildiren biçimi, kişileri pasifçe sürüklenen alıcılar olarak değil, hoşnutluğu bilinçli biçimde izleyen kimseler olarak gösterir. Hoşnutluk da belirsiz bir dindarlık hâli değil, doğrudan aranan ilahî onaydır; sondaki kişi eki onu rehberlik eden ve çıkaran aynı ilahî özneye bağlar. Aynı sûrede 5:48, 5:49 ve 5:77’de arzuların peşinden gitmeye yöneltilen uyarılarla karşılaştırıldığında, buradaki takip ölçüsünü belirleyen şeyin ilahî hoşnutluk olduğu daha görünür olur. Kıraatteki sesli değişim bu hoşnutluğun, kişi ekinin ve sözdizimindeki koşulun yerini korur; değişen tilavet dokusudur.
+
+Bu kişilerin yöneldiği alan `{ar:سُبُلَ, tr:subula, gloss:yolları}` ile `{ar:ٱلسَّلَٰمِ, tr:al-salāmi, gloss:esenlik}` tamlamasında açılır. `{ar:سُبُلَ, tr:subula, gloss:yolları}` çoğul hâliyle birden çok yürünebilir güzergâhı ve bir amaca ulaştıran vesileyi taşır; kıraatteki ses sıkışması bu çoğulluğun sözdizimsel görevini değiştirmez. `{ar:ٱلسَّلَٰمِ, tr:al-salāmi, gloss:esenlik}` bu yolların niteliğini verir: dış ve iç bozukluktan, kusurdan ve zarardan uzak, güvenliği ve bütünlüğü koruyan bir sağlamlık. Böylece 10:25’teki esenlik yurdu gibi bir varış dilinden önce, burada yürünebilir güzergâhların niteliği öne çıkar. Belirli biçimi Esenlik veren ilahî ada hafif bir yankı açabilir; tamlamadaki görevi ise yolları niteleyen tamlayan olarak kalır.
+
+Ardından cümle, bu yönelişin hangi araçla ve kimin tarafından gerçekleştiğini gösterir. İlk rehberlik fiili `{ar:يَهْدِي, tr:yahdī, gloss:yol gösterir}` ile birlikte gelen `{ar:بِهِ, tr:bihi, gloss:onunla}` zamiri geriye, 5:15’te sunulan vahyedilmiş ışık ve kitaba döner. Böylece ışığın biraz sonra görülecek hedef biçimi, bu zamirin ilk gönderimi hâline gelmez; önceki açıklık ve kitap, rehberliğin işlediği araç olarak öne çıkar. Zamirin fiille açık özne arasına alınması da önce aracın, ardından öznenin duyulmasını sağlar. `{ar:اللَّهُ, tr:Allāhu, gloss:Allah}` adı burada açık özne olarak rehberliği, çıkarmayı ve yeniden rehberliği birlikte yönetir; adın ibadet ve huşu alanını çağrıştırması bu özne görevini değiştirmeden cümleye eşlik eder.
+
+Bu özne ve araç belirlendikten sonra orta fiil hareketin kuvvetli vuruşunu verir: `{ar:يُخْرِجُهُمْ, tr:yukhrijuhum, gloss:onları çıkarır}`. Bu fiil, ilahî etkenin grubu bir yerden veya hâlden dışarı çıkarmasını kurar; bağlama göre taşıdığı elde etme veya yetiştirme yönleri arasında burada grubun karanlıklardan çıkarılması öne çıkar. Süreklilik taşıyan biçimi, ilk rehberliğin ardından gelen bu çıkarma eylemini kapanıştaki yeniden rehberlikle aynı dizinin içine alır. 2:257 ve 14:1’de tanınan karanlıklardan ışığa çıkarma kalıbı burada, hoşnutluğun ardınca gidenlerle sınırlı yerel şartı içinde işler. Mali ödeme, renk örüntüsü veya yara gibi özelleşmiş kullanımlar bu bağlantının kapsamı dışındadır; fiilin buradaki etkenli çıkarma anlamı bir etkenin başka bir şeyi dışarı çıkarmasına dayanır.
+
+## Karanlıktan Işığa
+
+Çıkışın başlangıç noktası `{ar:مِنَ, tr:mina, gloss:-den / içinden}` edatıyla belirlenir. Bu edat, 5:15’teki vahiy kaynağı ilişkisini şimdi çıkarma kaynağına çevirir; `{ar:ٱلظُّلُمَاتِ, tr:al-ẓulumāti, gloss:karanlıklar}` geride bırakılan açık kaynak konumunu alır. Karanlıkların belirli ve çoğul biçimi kıraat boyunca ağır bir başlangıç alanı gibi duyulur; 5:15’teki gizlenme ve örtülme tasvirine karşılık gelen bu ses, çıkışın bırakılan tarafını yoğunlaştırır. Görsel kapalılığa yanlışlık, yerinden olma ve yönü bozulmuşluk baskısı eşlik eder. Bu baskı belirli nesne, yer veya canlılarda uygun zamanın, konumun ya da şartın bozulmasıyla oluşan somut bir engellenme; kişilerin payına erişememesi ve bir şeye ulaşmanın önlenmesi gibi ayrıntılarla açılır.
+
+Yerel edatlar hareketin yönünü açıkça sabitler. `{ar:مِنَ, tr:mina, gloss:-den / içinden}` karanlıkları kaynak, `{ar:إِلَى, tr:ilā, gloss:-e / -a doğru}` ise ışığı hedef yapar. Böylece grup karanlıklardan alınarak ışığa taşınır ve cümle kesin bir yön çizgisi kurar. Karanlıkların belirli çoğulluğu, biraz sonra gelen ışığın belirli tekilliğiyle karşılaşır: dağınık ve yoğun başlangıç, algılanabilir tek bir uçta toplanır. Karanlık-ışık kalıbının başka yön kuruluşları bu özel edat ilişkisini değiştirmez.
+
+Bu uç, 5:15’te armağan olarak haber verilen `{ar:نُور, tr:nūr, gloss:ışık}` sözcüğünün burada `{ar:ٱلنُّورِ, tr:al-nūri, gloss:ışık}` biçiminde belirli bir hedefe dönüşmesiyle görünür olur. İlk `{ar:إِلَى, tr:ilā, gloss:-e / -a doğru}` ışığı çıkarılmanın yöneldiği varış noktası yapar; `{ar:ٱلنُّورِ, tr:al-nūri, gloss:ışık}` da aktarımın dilbilgisel son noktasını ve nerede biteceğini bildirir. Bu tekil ışık, çoğul karanlıkların karşısında yön bulmayı mümkün kılan birleşik bir açıklık hâline gelir. Işığın açıkça seçilen veya belirgin biçimde ortaya çıkan şey çağrışımı ihtimal düzeyinde eşlik edebilir; bu bağlantının taşıdığı anlam ışık ve aydınlatmadır, ateş, çiçek ya da yol işareti yönleri ayrı kullanım alanlarında kalır.
+
+Çıkışın hemen yanında bulunan `{ar:بِ, tr:bi, gloss:ile / sayesinde}` harfi, `{ar:إِذْنِهِ, tr:idhnihi, gloss:izni}` sözünü fiile bağlayarak izni çıkarma eylemini etkinleştiren şart hâline getirir. Çevresindeki küçük ses durağı, karanlıktan çıkarma ile son yönlendirme arasındaki menteşeyi işitsel olarak belirginleştirir. Bu yerel izin çıkarmayı yetkilendirir ve ardından gelen rehberliğe bir renk verir; bütün diziyi tek başına yetkilendiren sınırsız bir formül kurmaz. İfade burada bir işin birinin bilgisi ya da buyruğuyla yapılmasını anlatan onay ve yetkilendirmeye açılır; genel bilgi edinme veya bildirme anlamı ayrı bir kullanım alanında kalır. Sondaki üçüncü tekil kişi eki, izni rehberlik eden ve çıkaran aynı ilahî özneye bağlar. İzin ifadesinin işitme ve kulak verme alanıyla akrabalığı, yetkilendirmeye dikkatle dinlenmiş bir kabul basıncı katar; anlatılan, ilahî dikkatin içindeki izindir. Bu kullanım, rehberliğin ve çıkarmanın izinle gerçekleştiği örnekleri 2:213, 14:1 ve aynı sûrede 5:110’da duyulan biçimleriyle birlikte hatırlatır.
+
+## Yolun Sonunda Diklik
+
+İlk rehberlikten sonra gelen `{ar:وَ, tr:wa, gloss:ve}` yeni ve eşgüdümlü bir ilahî eylem açar; tekrarlanan iki bağlaç, rehberlik, çıkarma ve yeniden rehberlikten oluşan üçlü hareketi işitsel olarak bölümlere ayırır. Kapanıştaki `{ar:يَهْدِيهِمْ, tr:yahdīhim, gloss:onları iletir}` fiili açılıştaki rehberlik köküne dönerek çıkarılan topluluğu yeniden yönlendirir. Başlangıçta tekil bir sınıf olarak açılan `{ar:مَنِ, tr:mani, gloss:kimseleri / kim}` daha sonra çoğul zamirlerle taşınır; çıkarılanlar ile yeniden yönlendirilenler aynı topluluktur. Son fiil hem alıcıyı hem de yöneldiği yolu cümlenin içinde yönetir. İkinci `{ar:إِلَى, tr:ilā, gloss:-e / -a doğru}` ışıkta biten aktarımı son yola varan rehberlikle aynı yön çizgisine bağlar. Böylece son cümle yolu tarif etmenin ötesinde, aynı kişileri yolun kendisine doğru iletir.
+
+İki rehberlik fiili çıkarmayı iki yandan kuşatır. 5:15’teki açıklık, ışık ve kitap burada yön bulmanın aracına ve yürünebilir rehberliğe dönüşür. `{ar:يَهْدِي, tr:yahdī, gloss:yol gösterir}` yolu ve gerçeği gösteren, yönü tanıtan hareketi başlatır; `{ar:يَهْدِيهِمْ, tr:yahdīhim, gloss:onları iletir}` aynı yönü belirlenmiş topluluğun güzergâhına kadar sürdürür. Bu iki fiil birlikte okunduğunda önderlik ile sakin, ölçülü ve dengeli ilerleyiş aynı harekette buluşur. Sakinlik, rehberliğin yürüyüşe kattığı tavırdır; 5:51’deki reddedilmiş rehberlik karşıtlığı bu olumlu çerçevenin yerel sınırını hatırlatır. 5:16’daki yönlendirme, önceki ışık ve kitabın aracılığıyla süren bir hareket olarak belirir.
+
+Son hedef `{ar:صِرَاطٍ, tr:ṣirāṭin, gloss:yol}` yalnız dar bir işaret değil, baştan sona kat edilebilen geniş bir güzergâhtır. Çoğul yolların ardından gelen belirsiz tekil biçim, birçok yaklaşımın çoğulluğunu silmeden onları tek bir bahşedilmiş hatta toplar; Fâtiha’daki 1:6’da belirli biçimde istenen dosdoğru yol ile arasındaki biçim farkı, bu cümledeki yerel kuruluşu görünür kılar. Kıraatlerde bu kelimenin ses dokusu değişebilse de yerel yol anlamı ve varış yönü değişmez. `{ar:مُّسْتَقِيمٍ, tr:mustaqīmin, gloss:dosdoğru / dik duran}` sözcüğü hâl ve belirlilik uyumuyla doğruluğu başka bir şeye değil tam olarak bu yola bağlar. İki sözcüğün `-in` ile kapanan tenvinleri, güzergâhı ve niteliğini aynı ses bağı içinde birleştirir. Dosdoğruluk burada anlık bir yön değil, korunmuş ve sürdürülen bir diklik; fiziksel veya davranışsal çizgiyi dengede tutup sapmamaya devam etme niteliğidir. Aynı biçim ayakta tutan dayanak ve geçim temeli çağrışımını da açabilir; bu ayrı dal gözetim eyleğine veya beden boyuna taşınmadan, destekleyici bir zemin düşüncesi olarak sınırlı kalır.
+
+Bu düzen, rehberliği bilgi aktarımından daha hareketli bir ilişki olarak duyurur. `{ar:ٱتَّبَعَ, tr:ittabaʿa, gloss:ardınca gitti}` ardından gitmeyi ve yolu benimsemeyi, yakın takipte sürdürülen bir yöneliş olarak görünür kılar; geride kalmış birine yetişme, adım adım araştırma veya bir hakkı isteme bu yerel takipte devreye girmez. `{ar:رِضْوَانَهُ, tr:riḍwānahu, gloss:hoşnutluğu}` bu takibin ölçütüdür. Yakınlıkta hoşnutluğu ve yoğun hoşnutluğu adlandıran biçimlerin basıncı duyulabilir; yoğunluk kaynaklar arasında bir anlam ayrıntısı olarak kalır. Hoşnut olup uygun bulma, yarışta üstün gelme, özel ad, aynı biçimdeki buyruk, sevme veya güvence verme yönleri ise bu bağlantının kapsamı dışındadır. `{ar:يَهْدِي, tr:yahdī, gloss:yol gösterir}` burada doğru yolu bildirme ve ona yöneltme hareketini taşır; sıradan bir armağan ya da yalnızca yolun kendisi olarak okunması bu bağlantıya ait değildir.
+
+Çoğul esenlik yolları, farklı şartlarda işleyen güvenlik ve uzlaşma pratiklerini ortak bir hatta toplayan bir güzergâh olarak hissedilebilir; bu çeşitlilik kapanıştaki dengeli ve sürdürülebilir tek yolda ortaklaşır. `{ar:سُبُلَ, tr:subula, gloss:yolları}` burada yol ve amaca ulaştıran vesile anlamını taşır; yolcu, mal ayırma veya aşağı salma gibi ayrı kullanımlar bu bağlantının kapsamı dışındadır. `{ar:ٱلسَّلَٰمِ, tr:al-salāmi, gloss:esenlik}` gerçek esenliği, kusurdan ve zarardan uzaklığı verir; selamlama, dinî boyun eğme, ticari işlem veya nesne adı yönleri bu tamlamanın sınırında kalır. Çatışmanın eşiğindeki yerel bağlamda (5:2, 5:8, 5:13, 5:14) aynı kelime toplumsal ve siyasal barışı, karşılıklı uzlaşmayı da duyurabilir; bu ikinci renk, burada kurulan güzergâh anlamından ayrı tutulur. Bu ayetteki yolların çoğulluğu her bağlamdaki yolu olumlu ilan etmez veya yolları birbirine eşitlemez; sınır, bu özel esenlik güzergâhına aittir.
+
+## Açıklığın Yeniden Kurulması
+
+5:13 ve 5:15’in yakınlığı, karanlıktan ışığa çıkışı yolu seçilebilir kılan seçici bir onarım olarak görünür kılar. 5:13’te sözün yerinden saptırılması, unutulan pay ve uygun konumdan uzaklaştırma çizgisi bu onarımın karanlık tarafını açıklar. `{ar:يُحَرِّفُونَ, tr:yuḥarrifūna, gloss:saptırırlar}` içeriği yönü bozulduğu için doğru okunamaz hâle gelen bir karanlıkla ilişkilendirir; `{ar:مَّوَاضِعِهِ, tr:mawāḍiʿihi, gloss:yerleri}` yer vurgusuyla kendi konumundan oynatılmış bir payı belirginleştirir; `{ar:نَسُوا۟, tr:nasū, gloss:unuttular}` ise aydınlanmayı geçmişi silmekten çok gerekli payı yeniden işler hâle getirme yönüne açar. 5:15’teki `{ar:تُخْفُونَ, tr:tukhfūna, gloss:gizliyorsunuz}` gizleme, odaktaki `{ar:يُخْرِجُهُمْ, tr:yukhrijuhum, gloss:onları çıkarır}` fiiline örtünün kaldırılması ayrıntısını ekler. Böylece `{ar:ٱلظُّلُمَاتِ, tr:al-ẓulumāti, gloss:karanlıklar}` saklanan, yerinden oynatılan veya unutulan içeriğe erişimi engelleyen katmanları taşır; bu okuma karanlığı yalnız genel düzensizlikle sınırlamaz.
+
+Bu onarımın ışık tarafında 5:15’teki ışık ve açıklama bulunur. Elçinin `{ar:يُبَيِّنُ, tr:yubayyinu, gloss:açıklar}` fiili saklı içeriği anlaşılır kılan işlemi, yazının `{ar:مُّبِينٌ, tr:mubīn, gloss:açık}` niteliği ise bu açıklığın yazılı taşıyıcısını verir. `{ar:يَعْفُوا۟, tr:yaʿfū, gloss:bağışlıyor/örtüyor}` bağışlama ve üzerinden geçme vurgusuyla yol için gereken ölçüyü korur; `{ar:كِتَٰبٌ, tr:kitāb, gloss:yazılı kitap}` yazılı düzenin farklı görünümlerini bu ölçüye bağlar. Bu unsurlar birlikte, karanlıktan çıkışı algının aydınlanmasının yanında metinsel düzenin yeniden okunabilir hâle gelmesi olarak duyurur. 5:15’teki `{ar:نُورٌ, tr:nūr, gloss:ışık}` odaktaki `{ar:ٱلنُّورِ, tr:al-nūri, gloss:ışık}` hedefine döner; temel aydınlık anlamı korunurken hangi yöne bakılacağını seçilebilir kılan bir işaret ihtiyatla belirginleşir. Bu yakınlık, karanlık-ışık hareketini seçici açıklık olarak derinleştirir; yerel çıkarma, ilahî özne, hoşnutluk şartı ve dosdoğru yol sınırı bu bağlantının içinde korunur.
+
+Hoşnutluğun ardınca gidenlerin kimliği 5:18’in yakınlığıyla eylem üzerinden keskinleşir. Oradaki `{ar:أَبْنَٰٓؤُا۟, tr:abnāʾ, gloss:evlatlar}` ve `{ar:أَحِبَّٰٓؤُهُۥ, tr:aḥibbāʾuhu, gloss:sevdikleri}` sözleri köken ve kalbe bağlı sevgi iddialarını taşır; 5:16’daki takip ise bir miras yakınlığından önce gerçekleşen yönelişi görünür kılar. `{ar:يُعَذِّبُكُم, tr:yuʿadhdhibukum, gloss:size azap eder}` ve `{ar:ذُنُوبِكُم, tr:dhunūbikum, gloss:suçlarınız}` hesap verebilirlik ile eylem boyutunu, `{ar:خَلَقَ, tr:khalaqa, gloss:yarattı}` ve `{ar:بَشَرٌ, tr:bashar, gloss:insan}` ortak yaratılmışlık zeminini, `{ar:يَغْفِرُ, tr:yaghfiru, gloss:bağışlar}` ise merhamet imkânını ekler. Bu soy, sevgi, ceza, suç, yaratılmışlık ve bağışlanma çizgisi, odaktaki hoşnutluk ve izleyiş ilişkisini davranış alanında aydınlatır. Bu temas 5:18’in 5:16’ya getirdiği davranış çerçevesiyle sınırlıdır; tek açıklama veya soy hakkında ayrı bir hüküm kurmaz.
+
+5:19 bu açıklığın zaman içindeki aktarımını görünür kılar. `{ar:جَآءَكُمْ, tr:jāʾakum, gloss:size geldi}` gelişinin tekrarı, rehberlik ve ışığın bir aradan sonra yeniden ulaşılabilir oluşunu somutlaştırır. `{ar:رَسُولُنَا, tr:rasūlunā, gloss:elçimiz}` ışığın içsel bir hâlin yanında ulaştırılan bir yön olduğunu açar; `{ar:يُبَيِّنُ, tr:yubayyinu, gloss:açıklar}` fiili bu gelişi haberin gelmesinden anlaşılır bir yönün yeniden kurulmasına taşır. `{ar:فَتْرَةٍ, tr:fatra, gloss:ara}` gerçek bir zaman aralığı verir; `{ar:بَشِيرٌ, tr:bashīr, gloss:müjdeci}` açılma hissini, `{ar:نَذِيرٌ, tr:nadhīr, gloss:uyarıcı}` ise dikkat kuran yönü ekler. Böylece 5:16’daki hazır ve görünür yolun niteliği korunurken, kesintiden sonra temasın yeniden çalışması belirginleşir.
+
+## Eşiğe Gelen Cevap
+
+5:21, 5:22, 5:23 ve 5:24’teki hareket, yönlendirilmiş kişilerin önüne somut bir eşik koyar. 5:21, 5:22 ve 5:23’te yinelenen `{ar:ٱدْخُلُوا۟, tr:udkhulū, gloss:girin}` emri, 5:23’teki `{ar:ٱدْخُلُوا۟ عَلَيْهِمُ ٱلْبَابَ, tr:udkhulū ʿalayhim al-bāb, gloss:kapıdan üzerlerine girin}` ifadesiyle fiilen geçilebilen bir açıklık kurar. 5:22’deki `{ar:يَخْرُجُوا۟, tr:yakhrujū, gloss:çıksınlar}` çıkma sözü, odaktaki `{ar:يُخْرِجُهُمْ, tr:yukhrijuhum, gloss:onları çıkarır}` ile buluşarak dışarı çıkarılmanın ardından bir giriş kararı geldiğini gösterir. İlahi çıkarma özne olarak kalır; rehberliğin açtığı yön, karşılık verilmesi gereken bir geçişe dönüşür.
+
+Bu eşikte yön tersine çevrilebilir. 5:21’deki `{ar:تَرْتَدُّوا۟, tr:tartaddū, gloss:geri dönmeyin}` uyarısı ve `{ar:أَدْبَارِكُمْ, tr:adbār, gloss:sırtlarınız}` sözü, dosdoğru yola yönelmenin bedensel bir dönüklük ve sırt çevirmeyle bozulduğunu duyurur. `{ar:تَنقَلِبُوا۟, tr:tanqalibū, gloss:dönersiniz}` sonucu, eşikten dönmenin yalnız güzergâhı değil, hareketin varacağı sonucu da değiştirdiğini gösterir. 5:23’teki `{ar:تَوَكَّلُوا۟, tr:tawakkalū, gloss:güvenin}` çağrısı, kapıdan girişe güveni ve dayanmayı eşlik ettirir; 5:24’teki `{ar:قَٰعِدُونَ, tr:qāʿidūn, gloss:oturup kalanlar}` ise geçici tereddüdü yönlendirmeye karşı kalıcı bir oturmaya çevirir. Bu oturup kalma, `{ar:ٱتَّبَعَ, tr:ittabaʿa, gloss:ardınca gitti}` ile kurulan ardından gitme hareketinin karşısına yerleşir: çıkarılmadan sonra cevap veren bir geçiş ile yerinde kalan bir direnç ayrılır.
+
+5:21, 5:23 ve 5:24’teki kapı ve oturup kalma görüntüsü, odaktaki karanlık, çıkarma ve rehberlik fiillerine daha uzak ama açıklayıcı bir yankı verir. `{ar:يُخْرِجُهُمْ, tr:yukhrijuhum, gloss:onları çıkarır}` ile iki `{ar:يَهْدِي, tr:yahdī, gloss:yol gösterir}` vuruşu, kapalı bir bütünlüğün çıkışı engelleyen direncini çözerek bir açıklık açma görüntüsüne temas eder. Kapı bu kuşatmayı geçişi mümkün kılan somut açıklığa dönüştürür; oturup kalanlar da karşısında duran kapanmayı görünür kılar. Bu bağlantının sınırı, rehberliği “yıkmak” diye yeniden adlandırmamasıdır: odaktaki rehberlik ve çıkarma anlamı yalnızca yolu kapatan direncin çözülmesi ölçüsünde genişler.
+
+5:12’deki `{ar:سَوَآءَ ٱلسَّبِيلِ, tr:sawāʾ al-sabīl, gloss:doğru yol}` ifadesi, bu eşiğe sapma ihtimalinin bulunduğu bir güzergâh alanı ekler. Antlaşma çizgisindeki sapma ihtimali, 5:16’daki yollar ve dosdoğru yol ile karşılaşınca rehberliği kaybın mümkün olduğu bir alanda yönü koruyan hareket olarak belirginleştirir. `{ar:سُبُلَ, tr:subula, gloss:yolları}` burada yürünebilir ve rehberlikle yeniden yönlenebilir güzergâhlar gibi duyulur. Bu temasın katkısı, dosdoğru yönün sapma ihtimali açıkken nasıl korunduğunu göstermektir; bağlantı odağı 5:16’dan antlaşma hükmüne, 5:12’yi de odaktaki yolun yerine taşımaz.
+
+## Talep Edilen Yol
+
+Fâtiha’daki `{ar:ٱهْدِنَا, tr:ihdinā, gloss:bizi ilet}` talebi, 5:16’da Allah’ın `{ar:يَهْدِي, tr:yahdī, gloss:yol gösterir}` yöneltmesiyle karşılaşınca rehberliği yalnızca verilen bir yön değil, sürekli aranan bir ilişki olarak genişletir. 1:6’daki `{ar:ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ, tr:al-ṣirāṭ al-mustaqīm, gloss:dosdoğru yol}` talebi ile 5:16’daki `{ar:صِرَاطٍ, tr:ṣirāṭin, gloss:yol}` ve `{ar:مُّسْتَقِيمٍ, tr:mustaqīmin, gloss:dosdoğru}` kapanışı, aynı yolu verilen bilgi ile yeniden talep edilen yürüyüş yönü arasında birleştirir. Böylece aynı yön bir yanda ilahî olarak verilir, öte yanda insan tarafından istenir; bu karşılaşma bildirici cümleyi buyruğa dönüştürmez ve yeni bir yol eklemez.
+
+Fâtiha’nın `{ar:صِرَٰطَ ٱلَّذِينَ, tr:ṣirāṭ al-ladhīna, gloss:o kimselerin yolu}` ifadesi, dosdoğru yolu yolcuların niteliği ve yönelişlerinin sonucu içinde görmeye yardım eder. `{ar:أَنْعَمْتَ, tr:anʿamta, gloss:nimet verdiklerin}` nimet verilenlerin, `{ar:ٱلْمَغْضُوبِ, tr:al-maghdūb, gloss:öfkeye uğrayanlar}` öfkeye uğrayanların ve `{ar:ٱلضَّآلِّينَ, tr:al-ḍāllīn, gloss:sapanlar}` sapanların ayrımı, 5:16’daki yolu salt geometrik bir düz çizgi olmaktan çıkarıp kimin nasıl ilerlediğiyle tanınan sonuçlu bir yön hâline getirir. Bu ayrımın katkısı, dosdoğru güzergâhın yolcuların hareketinden ve varacağı sonuçlardan bağımsız olmadığını göstermektir. İsimler 5:16’daki kişilerle özdeşleştirilmez ve tarihsel bir eşitlik kurulmaz; 1:7’nin yol profili, odaktaki güzergâhı kimlikleri eşitlemeden, yolcuların yönelişi ve vardıkları sonuçlarla tanınan ilişkisel bir yön olarak tamamlar.
+
+`{ar:مُّسْتَقِيمٍ, tr:mustaqīmin, gloss:düzgün, dengeli ve sapmayan}` niteliği bu yürüyüşün varışta bitmediğini de hissettirir. Karşılığı olan düzgünlük ve denge, fiziksel veya davranışsal çizginin korunmasını, doğru yolda kalmayı ve geri dönüşten sakınmayı görünür kılar. 5:21’deki “geri dönmeyin” buyruğu bu sürdürülmüş istikamete nitelikli bir yankı verir. Bu bağlamda sıfatın katkısı, varılan yolun çizgisini koruyan sebatı, dosdoğru yolun olağan anlamının yanında sınırlı bir bağlamsal katman olarak belirginleştirmektir.
+
+## Yaklaşmanın Ayrı Görüntüleri
+
+Rehberlik 5:2’nin kutsal hedefe yaklaşan korunaklı kafile sahnesiyle renklenebilir. Odaktaki `{ar:يَهْدِيهِمْ, tr:yahdīhim, gloss:onları iletir}` fiili, hedefi belli ve çevresi korunan bir güzergâhta ilerleten önderlik gibi duyulur. 5:2’deki `{ar:هَدْيًا, tr:hadyan, gloss:kutsal yere adanan sunu}` işaretlenmiş ve bilinçli biçimde hedefe gönderilen bir yaklaşma görüntüsü açar. Boyunda görünen işaret korunmuş statüyü, sığınak ve kutsal çevre hareketin kaybolmadan kabul alanına ulaşmasını, `{ar:رِضْوَانٍ, tr:riḍwān, gloss:hoşnutluk}` ise bu yaklaşmanın aradığı ilahî kabul ufkunu belirler. Bu 5:2 görüntüsü, odaktaki fiillerin olağan yönlendirme işlevini koruyarak soyut yönü işaretli, amaçlı ve korunaklı bir varışla renklendirir; fiilleri dilbilgisel olarak “sunu”ya dönüştürmez.
+
+5:2’deki aynı temasın daha özel bir benzetmesinde, odaktaki iki rehberlik fiili takipçiyi kutsal hedefe doğru nazikçe taşınan bir sunu gibi gösterebilir. Burada `{ar:هَدْيًا, tr:hadyan, gloss:kutsal hedefe gönderilen sunu}` takipçinin yönlendirilmiş bir teslim oluşunu, görünür işaret korunma statüsünü, kasıtlı hareket ise teslimin bilinçli biçimde hedefe yapılmasını öne çıkarır. Sığınak bu teslimin kaybolmadan kabul için ulaştığı karşılayıcı merkezi, `{ar:رِضْوَانٍ, tr:riḍwān, gloss:aranan hoşnutluk}` yönelişin kabul ufkunu belirler. Bu özel sunu görüntüsü maddi bir sahne kazandırır ve genel korunaklı yaklaşma görüntüsüne ek bir ayrıntı olarak kalır; rehberlik fiilleriyle kurban sunusunu özdeşleştiren bir okuma kurmaz.
+
+Çoğul yolların bir başka rengi 5:6’daki şartlara duyarlı arınma düzeninde görünür. `{ar:سُبُلَ, tr:subula, gloss:birden çok yol ve vesile}` farklı şartlara göre suyu, silmeyi veya temiz toprağı devreye sokan yollar gibi duyulur; odaktaki `{ar:يُخْرِجُ, tr:yukhrij, gloss:bir hâlden dışarı çıkarır}` ise kişiyi kuşatan kirlilik hâlinden dışarı çıkaran etkenli hareketi görünür kılar. Akan su yapışan kiri gidererek ilk temizleme yolunu açar, elin geçirilip izin silinmesi daha hafif bir işlem sunar, şartlar elvermediğinde temiz toprağın yüzü ikinci malzeme olarak devreye girer. Her işlem kirliliğin kaldırılması, ferahlık ve tamamlanmış arınma ortak varışında birleşir. Bu hukukî sahne, odaktaki sıradan yol ve çıkarma anlamlarına farklı şartlara uyarlanan bir görüntü ekler; onları bu sahnedeki özel işlemlerle özdeşleştirmez.
+
+## İznin İlişki Hâli
+
+`{ar:بِإِذْنِهِ, tr:bi-iznihi, gloss:O’nun izniyle}` ifadesi olağan onay ve yetkilendirme anlamını korurken, izin vermenin daha uzun bir ilişki hâli olarak duyulmasına da izin verir: sözün işitilmesi, benimsenmesi, belirli bir işi yapmaya yetki verilmesi, işin yerine getirilmesi ve zaman içinde sağlam tutulması. İzinle açılan yollar böylece yürünmesi gereken bir yön kazanır. 5:1’deki eksiksiz yerine getirme ve bağlayıcı yükümlülük vurgusu, alınan iznin işi tamamlayıp ilişkiyi sürdürme yönünü düşündürür. 5:7’deki sağlamlaştırılmış ahit, işitmenin anlayışa ve uyuma, ardından gönüllü itaate dönüşmesini görünür kılar. Sağlamlaştırılmış olanın daha sonra çözülmesi, yolun bozulmasını ahdin ve alınmış sorumluluğun çözülmesi olarak resmeder; 5:12 ve 5:13’ün sapma, yerinden oynama ve unutma çizgileri bu hareketi tamamlar. Bu kavramsal genişleme, komşu yükümlülükleri iznin dilbilgisel anlamına katmaz; odaktaki yetkilendirme anlamının çevresinde kalan bir alım, uygulama ve koruma ilişkisi kurar.
+
+Esenlik yolları çatışmanın eşiğinde okunduğunda, `{ar:ٱلسَّلَٰمِ, tr:al-salāmi, gloss:barış ve karşılıklı uzlaşma}` kelimesi savaşın karşıtı olan barış ve karşılıklı uzlaşma durumunu adlandıran başka bir yerel hareket açar. Bu hareket, düşmanlığı saldırıya ve kalıcı husumete varmadan başka bir hatta çeviren ilk güzergâhı kurar. Başlangıçtaki nefret sınır aşımı ve haksızlıkla saldırı eşiğine gelir; karşılıklı yardımlaşma ve iyiliğin genişleyen yönüyle cevaplandığında tepki savunmaya kapanmak yerine işbirliğine doğru seçilmiş bir yön kazanır. `{ar:مُّسْتَقِيمٍ, tr:mustaqīmin, gloss:dosdoğru ve sürekli gözetilen}` bu güzergâhta işi ve topluluğu sürekli gözeterek koruyan, sorumluluğu sürdüren bir yönetim niteliği düşündürebilir. Düz denge, nefretin gölgesinde bile hükmün ve davranışın eşitlikten ayrılmamasını ölçer; öfke birikmeden cezalandırmayı bırakmak, suçu silmek ve incelikle yüz çevirmek misillemenin akışını keser. Barış kurulamadığında ortaya çıkan düşmanlık kalıcı bir sonuç, ondan yayılan duygusal tiksinme ise nefretin içteki devamı olur. 5:2’deki ilk gerilim, 5:8’deki adil ölçü, 5:13’teki bağışlayıcı dönüş ve 5:14’teki düşmanlık bu yerel barış güzergâhını birlikte görünür kılar. Bu renk, odaktaki esenlik anlamını koruyan sınırlı bir toplumsal bağlamdır; genel bir siyasî programa dönüşmez.
+
+Son hareket, `{ar:صِرَاطٍ, tr:ṣirāṭin, gloss:geçilen yol}` kelimesine maddi bir geçiş basıncı katar. Yolun dışarıda yürünür güzergâh anlamı korunurken, neyin içeri alınacağını, neyin tutulacağını ve geçişin nasıl güvenli bir tamamlanmaya ulaşacağını düzenleyen geçirgen bir eşik olarak da düşünülebilir. Geçişte gözden kaybolma ve özellikle yiyeceğin yutulması, yolu maddi bir içeri alma hareketi olarak görünür kılar. 5:1’deki serbest bırakma açılımları bir giriş kapısı açar; 5:3’teki yasak kapıyı kapatır ve içeri alınacak malzemeye sınır koyar; 5:4 ve 5:5 çevresindeki tutma, yeme ve ortak yiyeceği paylaşma, bu denetimli alımı birlikte yaşanan bir alana taşır. Böylece odaktaki yol, olağan anlamını koruyarak kapıları ve şartları olan, içeri alma ile güvenli tamamlanmayı birlikte düzenleyen bir geçiş hâline gelir.
+
+</editorial_prose>
