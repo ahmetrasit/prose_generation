@@ -1,0 +1,266 @@
+{
+  "schema_version": "commentary-v5-scope-discovery-v1",
+  "ayah_ref": "19:1",
+  "lane": "global",
+  "coverage_complete": true,
+  "candidate_decisions": [
+    {
+      "candidate_id": "cand_596cb339dee1df318e2a",
+      "decision": "reject",
+      "reason": "The only supplied support is an unanchored legacy reader summary. It supplies no carrier, independent trigger, context coordinate, or focus-returning HFT trace for a sign-speech-gesture-book sequence, so the inference is not grounded in the packet for the global lane.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_b6bffacaa9bc0f8d8158",
+      "decision": "narrow",
+      "reason": "The focus floor supplies recited letter-names and visibly separated letter forms, supporting a bounded formal reading. The supplied claim about repeated naming language across context is not anchored by a context occurrence or exact HFT trace and is omitted; no branch, facet, context ref, or semantic obligation was supplied for a further exclusion.",
+      "finding_refs": [
+        "global:named-visible-form"
+      ],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_c161151fcdc544a839fb",
+      "decision": "reject",
+      "reason": "The unanchored summary supplies no focus or context coordinate and no exact HFT trace for immediate remembrance, a hidden call, or an oral-mnemonic and veiled-address mechanism. Recitation alone does not provide the independent trigger and focus return required for this global reading.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_76149fc7e6f4096f033d",
+      "decision": "accept",
+      "reason": "The exact focus surface is one isolated, rootless stem, and the supplied formal evidence supports segmentation, pronounceability, visible marking, and adjacency as a bounded formal reading without inventing a root or selecting one decoding. The wider supplied isolated-opening comparisons provide a concrete global trigger; the finding remains qualified because the HFT source is legacy_unbound and target morphology is absent.",
+      "finding_refs": [
+        "global:formal-threshold"
+      ],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_cb1d42bfb9c6d0622c51",
+      "decision": "accept",
+      "reason": "The packet directly supports this as a first-class lexical boundary: the focus has no lexical root or lemma, and the supplied record states that no lexical expansion or referent is determined. It is retained as a qualified limitation that bounds the formal findings, not as a lexical activation.",
+      "finding_refs": [
+        "global:lexical-boundary"
+      ],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_ded04497a879df03e442",
+      "decision": "reject",
+      "reason": "This record states uncertainty about how several proposed models relate to one another rather than supplying a changed semantic reading. It has no independent carrier, trigger, or focus return, so complementary or independent contextual projections cannot be admitted as a global finding.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_d586619c86cc4d478db2",
+      "decision": "reject",
+      "reason": "The supplied record explicitly identifies the textual-germination model as an analogy whose causal direction is reader-supplied. With no independent trigger, carrier contact, or focus return, it fails the activation and grounding requirements for this lane.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_22b7e9c09337241b1eac",
+      "decision": "reject",
+      "reason": "The unrecognized HFT field contains only a boolean payload and no semantic proposition, carrier coordinate, independent trigger, or focus-returning trace. Its incomplete anchor scope prevents it from supporting a retained global reading.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_4c31a3fc63b76739b6a0",
+      "decision": "represented",
+      "reason": "The baseline model's before/after formal-threshold change is an exact semantic duplicate of the accepted formal-threshold finding. Its supplied support is included there, and it has no branch, facet, context, or semantic obligation that would require separate accounting.",
+      "finding_refs": [
+        "global:formal-threshold"
+      ],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    }
+  ],
+  "findings": [
+    {
+      "finding_ref": "global:named-visible-form",
+      "origin_candidate_id": "cand_b6bffacaa9bc0f8d8158",
+      "represented_candidate_ids": [],
+      "title": "Named and visible letter units",
+      "claim": "The opening presents its five units as recited names and visibly separated marks, so its first intelligibility can be formal before it is lexical.",
+      "mechanism": "The focus floor names Kaf, Ha, Ya, Ayn, and Sad while the focus surface supplies one isolated, rootless form; the supplied isolated-opening parallels return through that same formal relation and make the marked units perceptible without supplying a word meaning.",
+      "reader_payoff": "The reader can attend to naming, separation, and recitation as meaning-bearing form without assigning the sequence a referent.",
+      "containment": "The bounded core retains the named and visible letter surface. It does not claim repeated naming language in an un supplied context, a decoded expansion, shared-letter semantics, or target morphology.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": [
+          "legacy_unbound"
+        ],
+        "reason": "The focus surface and primary floor ground the named and visible form, while the candidate's repeated-context assertion is unanchored and the comparative target morphology is not supplied."
+      },
+      "support_ids": [
+        "sup_87ce01ae665b38ea378c",
+        "sup_f97da0497d3f1c71d8b5"
+      ],
+      "branch_activations": [],
+      "connection_refs": [
+        "conn_5c58785b8f72b78e34c9",
+        "conn_a39003d893022b54c8f9",
+        "conn_a119a3f1932c35a83124",
+        "conn_ab114da725694be1fff7",
+        "conn_4848cf5482b54ca630f2",
+        "conn_6b6fd82a3bfbb8408d70",
+        "conn_de5dd1c3e249b548e04f"
+      ],
+      "context_refs": [
+        "20:1",
+        "42:2",
+        "7:1",
+        "36:1",
+        "38:1",
+        "50:1",
+        "68:1"
+      ],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:formal-threshold",
+      "origin_candidate_id": "cand_76149fc7e6f4096f033d",
+      "represented_candidate_ids": [
+        "cand_4c31a3fc63b76739b6a0"
+      ],
+      "title": "A formal threshold before discourse",
+      "claim": "The rootless opener establishes a formal threshold before discourse: articulated units are foregrounded while lexical decoding remains suspended.",
+      "mechanism": "The focus surface contains one isolated INL stem with empty lemma and root, and its five segmented letter forms interrupt ordinary word processing. The wider supplied set of isolated-letter openings provides the independent formal trigger, while the baseline record changes the reading from an unreadable or empty opener to a deliberate threshold that presents units before discourse.",
+      "reader_payoff": "The opener becomes readable as a deliberate act of articulation and attention even while its lexical referent remains open.",
+      "containment": "This does not select a single decoding, assign a referent, infer shared meanings from individual letters, supply target morphology, or turn the formal family into a surah-wide thesis.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": [
+          "legacy_unbound"
+        ],
+        "reason": "The exact focus morphology and formal surface are supplied, but the baseline and comparative records are legacy_unbound, target morphology is absent, and the global extension is limited to the supplied formal relation."
+      },
+      "support_ids": [
+        "sup_f97da0497d3f1c71d8b5",
+        "sup_e903b0c35f42506de778"
+      ],
+      "branch_activations": [],
+      "connection_refs": [
+        "conn_5c58785b8f72b78e34c9",
+        "conn_a39003d893022b54c8f9",
+        "conn_2ed893cf3ad0a863cc6a",
+        "conn_4f1719ca17b0d407b274",
+        "conn_9897f1e1eea43976316c",
+        "conn_0397e095956246df7ad7",
+        "conn_590ab53fff697eca6fb2",
+        "conn_a119a3f1932c35a83124",
+        "conn_4b4c1bbc09fd408c5244",
+        "conn_ab114da725694be1fff7",
+        "conn_e7394f0bb8321b78ae08",
+        "conn_872079bb6937234d93d3",
+        "conn_e412b6546928a039c452",
+        "conn_965db12658124d2c6ab4",
+        "conn_b2d6d72214ebc427f1f2",
+        "conn_b4dbe4d5c8384a62f276",
+        "conn_64f9e13cd978c9646085",
+        "conn_b646e6fd088040714f5e",
+        "conn_dcc07b4793cbd7d8f525",
+        "conn_9f813cac774a5d9869a2",
+        "conn_53c5572ad6736dca6b98",
+        "conn_131e3107c1934355e0fe",
+        "conn_4c8a27a3f49b4b288409",
+        "conn_6929ece0dba1a7fbfa48",
+        "conn_9a858567490f5814d21f",
+        "conn_d80af8778a09d0f3ffec",
+        "conn_4848cf5482b54ca630f2",
+        "conn_6b6fd82a3bfbb8408d70",
+        "conn_de5dd1c3e249b548e04f"
+      ],
+      "context_refs": [
+        "20:1",
+        "42:2",
+        "40:1",
+        "41:1",
+        "42:1",
+        "43:1",
+        "44:1",
+        "7:1",
+        "26:1",
+        "36:1",
+        "45:1",
+        "46:1",
+        "28:1",
+        "29:1",
+        "2:1",
+        "30:1",
+        "31:1",
+        "32:1",
+        "3:1",
+        "10:1",
+        "11:1",
+        "12:1",
+        "13:1",
+        "14:1",
+        "15:1",
+        "27:1",
+        "38:1",
+        "50:1",
+        "68:1"
+      ],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:lexical-boundary",
+      "origin_candidate_id": "cand_cb1d42bfb9c6d0622c51",
+      "represented_candidate_ids": [],
+      "title": "Lexical expansion remains undetermined",
+      "claim": "The five-letter form remains without a supplied lexical expansion or referent.",
+      "mechanism": "The exact focus stem has no lemma or lexical root, and the packet supplies no lexical branch or determined referent; that rootlessness keeps the formal threshold from being converted into a selected word sense.",
+      "reader_payoff": "The reader can preserve the opener's formal force without mistaking a proposed expansion for what the packet establishes.",
+      "containment": "This records the evidence boundary rather than claiming that no interpretation could ever be offered. It does not negate recitation, visible marking, or the wider formal relation.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": [
+          "legacy_unbound"
+        ],
+        "reason": "The focus surface directly supplies the empty lemma and root, while the lexical-uncertainty statement comes from a legacy_unbound HFT record with no independent branch registry."
+      },
+      "support_ids": [
+        "sup_7ce388c7db06448f5eaf"
+      ],
+      "branch_activations": [],
+      "connection_refs": [],
+      "context_refs": [],
+      "semantic_obligation_refs": []
+    }
+  ],
+  "friction_notes": [
+    "All nine assigned records are legacy_unbound; the packet supplies zero anchor evidence and no exact HFT activation trace naming a supplied context ayah, word index, root, attributed role, and focus return.",
+    "The focus word alignment is resolved, but branch_registry is empty and no lexical branch or facet activation is available; the retained findings therefore remain formal or boundary-limited and invent no branch glosses.",
+    "selected_context_units is empty and every cited connection lacks target morphology; the wider reading uses only the supplied Arabic and explicit isolated-opening relation. The 81 no-value rows and two reciprocal-only negative rows yielded no additional global activation.",
+    "The sign-speech-gesture-book, mnemonic and hidden-call, complementary-model, and textual-germination proposals remain ungrounded or explicitly reader-supplied; no ranking or disambiguation was applied."
+  ]
+}

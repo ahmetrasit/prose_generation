@@ -1,0 +1,491 @@
+{
+  "schema_version": "commentary-v5-scope-discovery-v1",
+  "ayah_ref": "19:30",
+  "lane": "global",
+  "coverage_complete": true,
+  "candidate_decisions": [
+    {
+      "candidate_id": "cand_79d0d8ad91ff61d9c423",
+      "decision": "narrow",
+      "reason": "Güvenilir çapraz-çalışma desteği kitap verilmesi, mevcut kişiye makam verilmesi, Tanrı'ya yönelen kulluk ve peygamberlik görevi ilişkilerini taşır. root_000973/B001 dalı ise insan mülkiyeti ve hukuki kölelik ister; sağlanan yüzey ve bağlantılar ilahî/yaratılmış bağlılığı gösterir, insan tarafından sahip olunmayı veya alınıp satılmayı göstermez.",
+      "finding_refs": [
+        "global:servant-commission"
+      ],
+      "branch_exclusions": [
+        {
+          "branch_ref": "root_000973/B001",
+          "reason": "Sağlanan kanıt Tanrı'ya bağlı kulluk ve yaratılmışlık ilişkisini destekler; bu dalın gerektirdiği insanlar arası mülkiyet ve hukuki kölelik ilişkisini kurmaz."
+        }
+      ],
+      "facet_exclusions": [
+        {
+          "branch_ref": "root_000973/B001",
+          "facet_id": "F001",
+          "reason": "Odak bağlamında kişinin başka bir insanın mülkiyetinde bulunduğunu gösteren bağımsız bir tetikleyici yoktur."
+        },
+        {
+          "branch_ref": "root_000973/B001",
+          "facet_id": "F002",
+          "reason": "Sağlanan bağlantılar alım satıma konu olma şeklindeki hukuki ölçütü karşılamaz."
+        }
+      ],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_d63c4e524132842cb256",
+      "decision": "reject",
+      "reason": "sup_91f47ca63f80ff472822 yalnızca legacy_unbound bir HFT özeti sunar: anchor_refs ve branch_refs boştur, kesin HFT izinde bir taşıyıcı, bağımsız tetikleyici ve odağa dönüş koordinatı sağlanmaz. Mary'nin susması ve işareti hakkında bu paket sınırında etkinleştirilebilir bir global ilişki kurulamaz.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_bef3f5fb5e72061258f6",
+      "decision": "reject",
+      "reason": "sup_8dc83267a3d5254ecf54 legacy_unbound ve anchorsızdır; soy bağı sınırı iddiası için ne bir odak taşıyıcısı, ne bir branch_ref, ne de bağımsız bir global tetikleyici ile odağa dönüş izi verilmiştir.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_c6cdefe9f2f47529bcd9",
+      "decision": "reject",
+      "reason": "sup_2d6edad8a465f60c7325 legacy_unbound bir sentezdir; focus-trace içinde kesin taşıyıcı ve dönüş koordinatı yoktur. Kusursuz zaman, yetkilendirme ve hayat ufku iddiası bu packet'te bağımsız bir global aktivasyon olarak doğrulanamaz.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_3dc8c5aeac7a657b5046",
+      "decision": "reject",
+      "reason": "sup_34368ebe2f3433851d90 yalnızca anchorsız legacy_unbound bir anti-silme sentezidir; kitap veya sözün odağa bağlanan branch taşıyıcısı, bağımsız tetikleyicisi ve kesin HFT teması sağlanmamıştır.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_ee4c754d1ebc7c1070b3",
+      "decision": "reject",
+      "reason": "sup_11a2a0edb90f77881070 legacy_unbound bir okuyucu özeti ve çoklu sentezdir; packet'te bu reply/ilişki/charter iddiasını belirli bir odak taşıyıcısına ve bağımsız tetikleyiciye bağlayan HFT koordinatları yoktur.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_706adea711b3b255674c",
+      "decision": "reject",
+      "reason": "sup_ccc36128373b37ac9957 bir etkinleştirilmiş okuma değil, perfective biçimlerin nasıl anlaşılacağına dair açık bir belirsizliktir; anchor, branch ve odağa dönen kesin iz bulunmadığı için global finding üretmez.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_be98b17fd1f43e5623eb",
+      "decision": "reject",
+      "reason": "sup_c3d7d122424f594f7d21 anti-silme mekanizmasının yerini soran legacy_unbound bir belirsizlik kaydıdır; belirli bir taşıyıcı, bağımsız tetikleyici veya focus-return ref sağlanmadığından anlam ilişkisi kurulamaz.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_030d2f6f1e874d9bfa57",
+      "decision": "reject",
+      "reason": "sup_2f944c6ce6b9f3700130 yalnızca manumission ve su imgesi analojisinin kapsamını sorar; anchorsız ve branch'siz HFT kaydı, bu analojiyi odak yüzeyine döndüren bağımsız bir global mekanizma sunmaz.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    }
+  ],
+  "findings": [
+    {
+      "finding_ref": "global:servant-commission",
+      "origin_candidate_id": "cand_79d0d8ad91ff61d9c423",
+      "represented_candidate_ids": [],
+      "title": "Kulluk içinde verilen kitap ve makam",
+      "claim": "Konuşanın ilk kimliği Allah'a bağlı kul oluşudur; kitap kendisine verilmiş, nebilik ise var olan kişiye atanmış bir makam olarak bu bağlılığın içinde belirir.",
+      "mechanism": "Odaktaki kul taşıyıcısı statüyü, verme fiili alıcıya geçen kitabı, yapma fiili mevcut kişinin değişen görevini, nebi adı da Tanrı'dan insanlara uzanan elçilik bağını kurar. Sağlanan geniş bağlantılar bu diziyi ilahî bağış ve peygamberlik örüntüsü olarak yeniden temas ettirir.",
+      "reader_payoff": "Olağanüstü kitap ve görev, kişinin kendi kaynağı olduğunu değil, bağlı bir kişi olarak aldığı ve taşıdığı bir konumu görünür kılar; bu da peygamberlik makamının kulluk zemininden ayrılmadığını sezdirir.",
+      "containment": "Bu bulgu, ayetin açıkça söylediği Allah'ın kulu olma, kitabın verilmesi ve peygamber yapılma ilişkisini korur. İnsanlar arası hukuki kölelik iddiasını ve bütün kök kullanımlarının aynı anda etkin olduğunu ileri sürmez; bağlantı hedeflerinin morfolojik çözümü packet'te verilmediği için geniş temas niteliklidir.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": [
+          "trusted"
+        ],
+        "reason": "Odak taşıyıcıları ve güvenilir çapraz-çalışma desteği doğrudan sağlanmıştır; bağlantı hedeflerinde tam morfoloji bulunmadığı için global uzantı kaynakta belirtilen ilişki düzeyiyle sınırlıdır."
+      },
+      "support_ids": [
+        "sup_cb7da82c7b83212f7af5"
+      ],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000009/B002",
+          "facet_id": "F001",
+          "branch_gloss": "vermek; getirip sunmak",
+          "facet_statement": "Bir şey bir alıcıya verilir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "19:30:5:1"
+          ],
+          "trigger_refs": [
+            "conn_632e8b76815c23e2f80d"
+          ],
+          "focus_return_refs": [
+            "19:30:5:1"
+          ],
+          "carrier": "ءَاتَىٰنِيَ taşıyıcısı, birinci tekil alıcıyı ve kendisine geçen kitap nesnesini birlikte kurar.",
+          "independent_trigger": "57:26 bağlantısının sağlanan notu kitap ile peygamberliği peygamberler silsilesi içinde ilahî bağışlar olarak birlikte kurar.",
+          "activation": "Geniş peygamberlik örneğindeki kitap-peygamberlik bağışı, odaktaki kitabı yalnız mevcut bir nesne değil, alıcıya yöneltilmiş bir verilme ilişkisi olarak temas ettirir.",
+          "resulting_reading": "Kitap, peygamberlik makamından önce kul olan kişiye verilmiş bir ilahî emanet olarak belirir.",
+          "boundary": "Bu temas verme ve getirip sunma çekirdeğiyle sınırlıdır; kökün gelme, su yolu, vergi veya başka kullanımlarını etkinleştirmez."
+        },
+        {
+          "branch_ref": "root_000248/B002",
+          "facet_id": "F001",
+          "branch_gloss": "birini veya şeyi belirli bir duruma getirme",
+          "facet_statement": "Var olan bir katılımcının durumunu, niteliğini veya konumunu değiştiren ettirici işlemi bildirir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "19:30:7:2"
+          ],
+          "trigger_refs": [
+            "conn_6e9fcec38f3d286caea1"
+          ],
+          "focus_return_refs": [
+            "19:30:7:2"
+          ],
+          "carrier": "جَعَلَنِي taşıyıcısı, konuşanın varlığını koruyarak onun görev ve konumunda bir değişiklik bildirir.",
+          "independent_trigger": "26:21 bağlantısının sağlanan notu Musa'nın ilahî bir bağışla elçi kılınmasını odaktaki verilmiş role paralel gösterir.",
+          "activation": "Mevcut bir kişiyi elçilik konumuna getiren geniş örnek, odaktaki جعل fiilinin yoktan yaratma değil atanmış görev değişimi olarak okunmasını güçlendirir.",
+          "resulting_reading": "Peygamberlik, zaten var olan kul kişiye verilmiş bir makam değişikliğidir; kul kimliğinin yerine geçen bağımsız bir öz değildir.",
+          "boundary": "Bu aktivasyon mevcut katılımcının durum değişimini taşır; yoktan yaratma, salt adlandırma veya başka جعل kalıplarını bu bulguya katmaz."
+        },
+        {
+          "branch_ref": "root_000973/B003",
+          "facet_id": "F001",
+          "branch_gloss": "boyun eğerek itaat ve tapınma",
+          "facet_statement": "Eylem, sıradan itaati aşan bir boyun eğme ve alçalma tutumu içerir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "19:30:3:1"
+          ],
+          "trigger_refs": [
+            "conn_9b7dcd713056358486e5"
+          ],
+          "focus_return_refs": [
+            "19:30:3:1"
+          ],
+          "carrier": "عَبْدُ taşıyıcısı, Allah adıyla kurulan bağlılık içinde konuşanın kul konumunu adlandırır.",
+          "independent_trigger": "43:59 bağlantısının sağlanan metin ve notu İsa'yı Allah'ın lütfettiği kul olarak açıkça karşılaştırır.",
+          "activation": "Aynı kişinin kul olarak adlandırıldığı geniş temas, odaktaki benlik bildirimini makamdan önce gelen boyun eğmiş bağlılık olarak belirginleştirir.",
+          "resulting_reading": "Kitap ve peygamberlik, boyun eğen kul kimliğini aşan bir yükseliş değil, onun içinde taşınan görevler olarak görünür.",
+          "boundary": "Bu dalın kulluk ve boyun eğme çekirdeği taşınır; hukuki kölelik statüsü bu aktivasyona dahil edilmez."
+        },
+        {
+          "branch_ref": "root_000973/B003",
+          "facet_id": "F002",
+          "branch_gloss": "boyun eğerek itaat ve tapınma",
+          "facet_statement": "Merkezî dinsel kullanım, Tanrı'ya yönelen tapınma ve kendini bu yönelişe vermedir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "19:30:3:1"
+          ],
+          "trigger_refs": [
+            "conn_4669bccbbf0a8e43dbde"
+          ],
+          "focus_return_refs": [
+            "19:30:3:1"
+          ],
+          "carrier": "عَبْدُ ٱللَّهِ yapısı, bağlılığın yöneldiği varlığı açıkça Allah olarak belirler.",
+          "independent_trigger": "5:72 bağlantısının sağlanan metin ve notu İsa'nın Allah'ı kendi Rabbi ve onların Rabbi olarak gösterip O'na tapınmaya çağırdığını bildirir.",
+          "activation": "Allah'a yönelen tapınma eylemi, odaktaki kul adını yalnız statü değil, yönü belirlenmiş dinsel bağlılık olarak da açar.",
+          "resulting_reading": "Konuşanın makamı Allah'a yönelen kulluk içinde anlaşılır; görevlendirme bu yöneliği kesmez.",
+          "boundary": "Bu temas Tanrı'ya yönelen tapınma yönünü taşır; odak cümlesine başka kişilere veya sahte güçlere yönelen kullanımları eklemez."
+        },
+        {
+          "branch_ref": "root_001464/B003",
+          "facet_id": "F001",
+          "branch_gloss": "Tanrı'dan haber veren elçi",
+          "facet_statement": "Tanrı'dan gelen haberleri insanlara bildiren yetkili bir elçi söz konusudur.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "19:30:8:1"
+          ],
+          "trigger_refs": [
+            "conn_6ad3f193fb014e380d4c"
+          ],
+          "focus_return_refs": [
+            "19:30:8:1"
+          ],
+          "carrier": "نَبِيًّا taşıyıcısı, Tanrı'dan gelen haberleri insanlara ulaştıran peygamber makamını adlandırır.",
+          "independent_trigger": "19:51 bağlantısının sağlanan notu Musa'yı Kitap içinde elçi ve peygamber olarak sunar.",
+          "activation": "Aynı suredeki elçi-peygamber eşleşmesi, odaktaki nebi adını yalnız unvan değil, ilahî haberin insanlara taşındığı yetkili görev olarak temas ettirir.",
+          "resulting_reading": "Peygamber yapılmak, Allah'a ait kulun insanlar ile ilahî haber arasında elçilik görevi almasıdır.",
+          "boundary": "Bu aktivasyon gerçek ilahî elçilik dalıyla sınırlıdır; sıradan haber veren veya sahte iddia sahibini kapsamaz."
+        },
+        {
+          "branch_ref": "root_001464/B003",
+          "facet_id": "F002",
+          "branch_gloss": "Tanrı'dan haber veren elçi",
+          "facet_statement": "Görev, Tanrı ile akıl sahibi insanlar arasında kutsal bir elçilik bağı kurar.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "19:30:8:1"
+          ],
+          "trigger_refs": [
+            "conn_6ad3f193fb014e380d4c"
+          ],
+          "focus_return_refs": [
+            "19:30:8:1"
+          ],
+          "carrier": "نَبِيًّا taşıyıcısı, kişisel bir sıfatın ötesinde Tanrı ile insanlar arasında kurulan elçilik görevini taşır.",
+          "independent_trigger": "19:51 bağlantısındaki sağlanan elçi-peygamber örneği aynı görevin kutsal iletişim bağını görünür kılar.",
+          "activation": "Geniş örnek, odaktaki peygamberlik atamasını konuşanın kişisel yükselişi değil, kaynağı Allah olan bir elçilik ilişkisi olarak açıklar.",
+          "resulting_reading": "Nebilik makamı, kul kimliği korunarak Tanrı ile insanlar arasında kurulan bir görev bağıdır.",
+          "boundary": "Bu, makamın ilahî kaynaklı elçilik yönüdür; peygamberlikten bağımsız haber veya tüm peygamberlik kullanımları ileri sürülmez."
+        }
+      ],
+      "connection_refs": [
+        "conn_632e8b76815c23e2f80d",
+        "conn_6e9fcec38f3d286caea1",
+        "conn_9b7dcd713056358486e5",
+        "conn_4669bccbbf0a8e43dbde",
+        "conn_6ad3f193fb014e380d4c"
+      ],
+      "context_refs": [
+        "57:26",
+        "26:21",
+        "43:59",
+        "5:72",
+        "19:51"
+      ],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:created-belonging",
+      "origin_candidate_id": null,
+      "represented_candidate_ids": [],
+      "title": "Yaratılmışlık bakımından Allah'a ait kul",
+      "claim": "Allah'ın kulu sözü, konuşanın makamlarından önce yaratılmışlık ve Allah'a aitlik bakımından bütün insanlarla paylaştığı konumu da açar.",
+      "mechanism": "Odaktaki عَبْدُ taşıyıcısı, 19:93 bağlantısında göklerdeki ve yerdeki her varlığın Rahman'a kul olarak gelmesiyle temas eder; tekil kul adı böylece evrensel yaratılmışlık ve aitlik çerçevesine yerleşir.",
+      "reader_payoff": "Kitap ve peygamberlik olağanüstü atamalar olarak kalırken, bunları taşıyan kişinin önce yaratılmış bir bağlılık içinde bulunduğu daha geniş biçimde fark edilir.",
+      "containment": "Bu aktivasyon root_000973/B002 dalındaki yaratılmışlık ve nispet anlamıyla sınırlıdır; hukuki kölelik, etkin tapınma veya surah çapında bir tez ileri sürmez.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": [],
+        "reason": "19:93 bağlantısı ve hedef Arapça sağlanmıştır; bağlantı hedefinin morfolojik ve sözlüksel çözümü ayrıca verilmediği için temas, bağlantının açıkça belirttiği kul ilişkisiyle sınırlandırılmıştır."
+      },
+      "support_ids": [],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000973/B002",
+          "facet_id": "F001",
+          "branch_gloss": "Tanrı'ya ait sayılan insan veya topluluk",
+          "facet_statement": "Her insan yaratılmışlık ve aitlik bakımından Tanrı'nın kulu sayılabilir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "19:30:3:1"
+          ],
+          "trigger_refs": [
+            "conn_49d757ed429a69500fae"
+          ],
+          "focus_return_refs": [
+            "19:30:3:1"
+          ],
+          "carrier": "عَبْدُ ٱللَّهِ yapısı, tekil konuşanın Allah'a nispet edilen kul konumunu taşır.",
+          "independent_trigger": "19:93 bağlantısının sağlanan notu her varlığın Rahman'a kul olarak geldiğini bildirir.",
+          "activation": "Her varlığa uzanan kul nispeti, odaktaki tekil Allah kulu sözünü yaratılmışlık bakımından daha geniş bir bağlılık sınıfının örneği olarak açar.",
+          "resulting_reading": "Konuşanın özel kitabı ve makamı, bütün yaratılmışların Allah'a ait sayıldığı zeminde taşınır.",
+          "boundary": "Bu dal kişinin Tanrı'ya nispet edilen konumunu taşır; insanlar arası hukuki sahiplik veya tapınma eylemini bu dalın anlamı olarak kurmaz."
+        }
+      ],
+      "connection_refs": [
+        "conn_49d757ed429a69500fae"
+      ],
+      "context_refs": [
+        "19:93"
+      ],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:book-record",
+      "origin_candidate_id": null,
+      "represented_candidate_ids": [],
+      "title": "Kitabın yazılı kayıt olarak açılması",
+      "claim": "Odaktaki verilen kitap, aynı surede peygamberlerin Kitap içinde anıldığı yazılı metin ve kayıt işlevini de görünür kılar.",
+      "mechanism": "ٱلْكِتَٰبَ taşıyıcısı, 19:41'de İbrahim'in Kitap içinde anılmasıyla temas eder; verilen nesne böylece yalnız elde edilen bir kitap değil, peygamberlik kimliklerini taşıyan yazılı bir metin olarak okunur.",
+      "reader_payoff": "Kitap verilmesi, bir kişiye bilgi nesnesi teslim edilmesinden daha fazlasını, peygamberlik kimliğinin yazılı bir hafıza içinde yer bulmasını da düşündürür.",
+      "containment": "Yazılı metin ve kitap ürünü dalı korunur; bu temas kitabın her yerde yalnız kayıt anlamına geldiğini söylemez ve 19:41 hedefinin morfolojisini packet'te bulunmayan ayrıntılarla genişletmez.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": [],
+        "reason": "19:41 bağlantısı Kitap içinde anma ilişkisini açıkça nominates eder ve hedef Arapça sağlanır; hedef morfoloji verilmediği için yazılı kayıt uzantısı nitelikli tutulmuştur."
+      },
+      "support_ids": [],
+      "branch_activations": [
+        {
+          "branch_ref": "root_001283/B002",
+          "facet_id": "F001",
+          "branch_gloss": "yazma ve yazılı metin",
+          "facet_statement": "Temel işlem, harfleri yazıyla düzenleyip bir metin oluşturmak veya var olan metni kopyalamaktır.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "19:30:6:2"
+          ],
+          "trigger_refs": [
+            "conn_f037af000c2c015e42f9"
+          ],
+          "focus_return_refs": [
+            "19:30:6:2"
+          ],
+          "carrier": "ٱلْكِتَٰبَ taşıyıcısı, verilen somut kitabı ve onun yazılı metin niteliğini taşır.",
+          "independent_trigger": "19:41 bağlantısının sağlanan notu İbrahim'in Kitap içindeki sunumunu odaktaki alınmış Kitap ile karşılaştırır.",
+          "activation": "Aynı suredeki Kitap içi anma, odaktaki kitap adını yazılı metin alanına geri bağlar ve verilmiş nesnenin kayıt taşıma işlevini açar.",
+          "resulting_reading": "Verilen kitap, peygamberlik bilgisinin yazıyla kurulup korunabildiği metin zeminini de taşır.",
+          "boundary": "Bu, yazılı metin alanındaki çekirdek temastır; kitabın bağlayıcı hüküm, sicil veya özgürleşme sözleşmesi anlamlarını etkinleştirmez."
+        },
+        {
+          "branch_ref": "root_001283/B002",
+          "facet_id": "F002",
+          "branch_gloss": "yazma ve yazılı metin",
+          "facet_statement": "İşlemin ürünü, yazılmış metin veya üzerinde bu metnin bulunduğu sayfa ya da kitaptır.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "19:30:6:2"
+          ],
+          "trigger_refs": [
+            "conn_f037af000c2c015e42f9"
+          ],
+          "focus_return_refs": [
+            "19:30:6:2"
+          ],
+          "carrier": "ٱلْكِتَٰبَ taşıyıcısı, üzerinde yazılı içerik bulunan kitap ürününü adlandırır.",
+          "independent_trigger": "19:41 bağlantısındaki Kitap içinde anma ilişkisi, yazılı ürünün peygamber adlarını taşıyan yüzünü sağlar.",
+          "activation": "Yazılı ürün yüzü ile Kitap içinde anılan peygamberler buluştuğunda, odaktaki nesne kayıt taşıyan bir metin olarak somutlaşır.",
+          "resulting_reading": "Kitabın verilmesi, konuşanın peygamberlik kimliğinin yazılı bir kayıt içinde taşınmasını da görünür kılar.",
+          "boundary": "Bu uzantı yazılmış kitap ürününe aittir; hedefte bulunmayan bir metin içeriği veya yazgı hükmü uydurmaz."
+        }
+      ],
+      "connection_refs": [
+        "conn_f037af000c2c015e42f9"
+      ],
+      "context_refs": [
+        "19:41"
+      ],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:prophetic-designation",
+      "origin_candidate_id": null,
+      "represented_candidate_ids": [],
+      "title": "Nebi adının kamusal belirlenişi",
+      "claim": "جَعَلَنِي نَبِيًّا ifadesi, peygamberlik makamına atanmayı korurken, kişiyi bu ad ve nitelikle belirleyen kamusal bir adlandırma yönünü de açar.",
+      "mechanism": "Odaktaki جَعَلَنِي taşıyıcısı, 19:49'da aynı surede peygamberlerin جعل ile anılması ve bağlantı notunun bunu adlandırma olarak sunmasıyla temas eder; durum değişikliği okumasına sözle belirlenme yönü eklenir.",
+      "reader_payoff": "Made me a prophet ifadesi yalnızca içsel bir makam değişimini değil, konuşanın insanlar önünde peygamber olarak tanınmasını sağlayan adlandırma hareketini de düşündürür.",
+      "containment": "Kaynakça nitelenmiş adlandırma facet'i, odaktaki temel atanma okumasının yanına gelir; fiilin her kullanımını söyleme anlamına çevirmez ve hedef morfolojisi sağlanmadığı için bu temas niteliklidir.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": [],
+        "reason": "19:49 bağlantısının sağlanan notu peygamber olarak adlandırma ilişkisini açıkça nominates eder ve aynı yüzey yapısını gösterir; hedef morfoloji ayrıca verilmediği için kaynak varyantı olarak tutulmuştur."
+      },
+      "support_ids": [],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000248/B003",
+          "facet_id": "F001",
+          "branch_gloss": "öyle adlandırma ya da öyle olduğunu söyleme; başka yorumda öyle kılma",
+          "facet_statement": "Bir varlığı belli bir adla veya nitelikle anmayı ve onun öyle olduğunu söylemeyi bildirir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "19:30:7:2"
+          ],
+          "trigger_refs": [
+            "conn_e88520b6bc5184238c45"
+          ],
+          "focus_return_refs": [
+            "19:30:7:2"
+          ],
+          "carrier": "جَعَلَنِي taşıyıcısı, konuşanın kendisine yüklenen نَبِيًّا niteliğiyle belirlenmesini kurar.",
+          "independent_trigger": "19:49 bağlantısının sağlanan notu İbrahim ve soyunun peygamber olarak adlandırılmasını yakın bir örnek olarak verir.",
+          "activation": "Aynı suredeki peygamber adıyla belirleme teması, odaktaki جعل fiilinin atanma yanında kişiyi bu nitelikle kamuya tanıtma yönünü de görünür kılar.",
+          "resulting_reading": "Konuşanın peygamberliği, atanmış bir makam olmanın yanında adlandırılarak tanınan bir kimlik olarak da belirir.",
+          "boundary": "Bu, kaynak varyantındaki adlandırma temasını taşır; temel mevcut kişiyi peygamber makamına getirme okumasını kaldırmaz ve جعل kökünün diğer dallarını etkinleştirmez."
+        }
+      ],
+      "connection_refs": [
+        "conn_e88520b6bc5184238c45"
+      ],
+      "context_refs": [
+        "19:49"
+      ],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:news-bearing",
+      "origin_candidate_id": null,
+      "represented_candidate_ids": [],
+      "title": "Nebilikte haber taşıma yönü",
+      "claim": "نَبِيًّا adı, ilahî elçilik makamını korurken, insanlara bilgi taşıyan ve haber bildiren bir görev yönünü de görünür kılar.",
+      "mechanism": "Odaktaki نَبِيًّا taşıyıcısı, 3:49 bağlantısının sağlanan Arapça yüzeyindeki İsa'nın insanlara bilgi bildirmesiyle temas eder; peygamberlik adı haber taşıyan elçilik işlevine geri döner.",
+      "reader_payoff": "Peygamber unvanı, yalnızca bir makam etiketi değil, insanlara ulaştırılan anlamlı haberin taşıyıcısı olarak da anlaşılır.",
+      "containment": "Bu, bilgi taşıyan haber dalının çekirdek temasını araştırıcı ve nitelikli bir bulgu olarak korur; odaktaki nebi adını sıradan haber kelimesine indirgemez. 3:49 kaydı missing_ayah_suggestion olarak yalnız Arapça yüzey sağladığından hedef morfolojisi ve sözlüksel çözümü genişletilmemiştir.",
+      "epistemic": {
+        "status": "exploratory",
+        "source_trust": [],
+        "reason": "3:49 bağlantısı missing_ayah_suggestion rolündedir; sağlanan hedef Arapça bilgi bildirme temasını görünür kılar, fakat hedef morfoloji ve sözlüksel çözüm ayrıca sağlanmadığı için bu aktivasyon keşifsel tutulmuştur."
+      },
+      "support_ids": [],
+      "branch_activations": [
+        {
+          "branch_ref": "root_001464/B002",
+          "facet_id": "F001",
+          "branch_gloss": "bilgi taşıyan haber",
+          "facet_statement": "Bir olay veya durum hakkında başkasına ulaşan bilgi içerikli haber söz konusudur.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "19:30:8:1"
+          ],
+          "trigger_refs": [
+            "conn_852c1b1e08ed6f7a9f78"
+          ],
+          "focus_return_refs": [
+            "19:30:8:1"
+          ],
+          "carrier": "نَبِيًّا taşıyıcısı, insanlara ulaşan ilahî haber ve elçilik makamını adlandırır.",
+          "independent_trigger": "3:49 bağlantısının sağlanan Arapça yüzeyinde İsa'nın insanlara yedikleri ve evlerinde sakladıkları hakkında bilgi bildirdiği ifade edilir.",
+          "activation": "Aynı İsa anlatısındaki bilgi ulaştırma eylemi, odaktaki nebi adının haber taşıyan yönünü açar ve elçiliğin insanlara ulaşan içeriğini belirginleştirir.",
+          "resulting_reading": "Peygamber yapılma, ilahî kaynaktan gelen anlamlı haberi insanlara ulaştıran bir görev kazanma olarak da görünür.",
+          "boundary": "Bu, haber taşıma yönünü peygamberlik makamına bağlayan keşifsel bir temastır; nebi adını sıradan haberle özdeşleştirmez ve hedefin eksik morfolojisini tamamlamaz."
+        }
+      ],
+      "connection_refs": [
+        "conn_852c1b1e08ed6f7a9f78"
+      ],
+      "context_refs": [
+        "3:49"
+      ],
+      "semantic_obligation_refs": []
+    }
+  ],
+  "friction_notes": [
+    "Sekiz legacy_unbound HFT özeti görünür tutuldu, ancak hiçbirinde anchor_refs, branch_refs veya kesin trace koordinatları bulunmadığı için kendi temaları aleyhine kanıt sayılmadan reddedildi.",
+    "Bağlantı hedeflerinde tam Arapça ve ilişki notları sağlanırken hedef morfolojisi ve sözlüksel çözüm sağlanmamıştır; bağlantı temelli bulgular bu nedenle nitelikli, 3:49 missing_ayah_suggestion teması ise keşifsel tutuldu.",
+    "Güvenilir adayın root_000973/B001 dalı hukuki insan mülkiyeti gerektirir. Sağlanan global temaslar yaratılmışlık bakımından Tanrı'ya aitlik ve Tanrı'ya yönelen kulluğu desteklediği için hukuki dal ve iki facet'i açıkça dışarıda bırakıldı."
+  ]
+}

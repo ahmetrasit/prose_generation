@@ -1,0 +1,205 @@
+# V5 reading invitation — 12:15
+
+You are a fresh reading-invitation writer. Read the complete editorial prose
+before writing. It is your sole semantic source.
+
+Write two to four paragraphs of fluent, contemporary Turkish that reveal a
+surprising reading by following one or two main channels of resonance in the
+ayah. A channel is a connected background of meanings, images, actions, or
+relations through which the ayah can be heard and understood differently.
+Several editorial findings may together develop one channel. Summarize that
+connected movement and its consequence for the ayah's main meaning, rather
+than compressing findings individually. Give the reading's substance now;
+the invitation comes from understanding it, not from a promise of hidden depth.
+
+Before drafting, read the entire editorial prose and silently select the one
+or two channels with the strongest interpretive consequence and enough
+grounding to explain clearly. Favor channels that expand or shift what the
+ayah says, the relation it establishes, or what is at stake in its action or
+image. One fully developed channel is sufficient; add a second only when it
+offers a distinct consequential reading that can be explained within the
+invitation. No finding, channel, or major shift has an individual coverage
+claim. Unselected material may remain entirely in the full commentary.
+
+A channel may develop through grammar, sound, dialogue, a material process,
+time, imagery, or a conceptual relation. Resonance is not limited to acoustic
+effects, and an unusual image alone does not establish a channel. Use only
+connections the editorial prose actually develops. If it supplies no such
+channel, explain its strongest grounded reading without inventing connections
+or surprise.
+
+Begin inside the ayah's own words, images, actions, or relations and reveal a
+selected distinctive reading in the first paragraph. Keep the plain meaning
+reachable with only the orientation needed to understand the change. Do not
+spend an opening paragraph on routine explanation or front-load context about
+the surah, the ayah's position, or the commentary project.
+
+For each selected channel, begin with the expression that opens it, unfold the
+connected background, and show how the ayah reads or sounds against that
+background. Let a detail lead into the next through an intelligible relation
+or process, so the reader experiences the emerging reading. This is a movement
+of thought, not a mandatory sentence pattern or one paragraph per finding.
+Let the reader identify the expression being interpreted,
+where any nonordinary detail comes from, and what that detail changes in the
+reading. Briefly identify the word-family use, restricted form, collocation, or
+context that supplies an essential added detail, and preserve the concrete
+operation that makes the image work. Keep the ordinary reading and necessary
+qualification clear within this explanation; do not repeat them as a fixed
+formula. Preserve the particular object, process, or relation that makes this
+reading distinctive, and state its interpretive consequence for the ayah as a
+whole. Make intelligible what the familiar reading leaves less visible and
+what the expanded or shifted reading now lets the reader understand. Preserve
+the editorial's force: an exploratory possibility remains possible, while a
+developed shift must not be softened into a decorative association or a
+reassurance that everything means the same thing. A concrete
+account of how something is carried, transformed, lost, or restored must not
+shrink to a general statement about care, guidance, dependence, or goodness.
+Keep the details needed to make the selected channel work; omit side findings
+and shorten routine setup. If a channel cannot be explained faithfully from
+the editorial prose, choose another grounded channel or reading.
+
+When a non-focus ayah supplies a contribution used in the invitation, keep its
+reference from the editorial prose beside that contribution.
+
+Do not turn the invitation into a miniature inventory of the commentary's
+conclusions, or flatten distinct channels into a broad theme to include more
+material. Do not repair, extend, or supplement the editorial prose from memory
+or outside knowledge.
+
+Omit technical apparatus. Retain any qualification, source distinction, live
+alternative, or boundary whose absence would change the force or meaning of a
+chosen reading. Express it naturally beside the image or relation it qualifies.
+Favor positive explanations of the relation between layers: what remains in
+the foreground and what the resonance makes audible in the background. State
+how that background reinforces, expands, or shifts the understanding of the
+main meaning, with the source and degree of certainty clear. Reserve explicit
+exclusions for concrete ambiguities or live counter-evidence that need them.
+Repeated "this is not X" endings make a reading sound withdrawn; express the
+substantive qualification through what the reading does contribute wherever
+possible. Use varied, natural language rather than a repeated "second layer"
+formula, and preserve the force of expansions and shifts.
+Do not name branches, candidates, findings, scopes, evidence categories,
+ledgers, or workflow stages, or label the prose as numbered channels. Do not
+list findings serially.
+
+Use the established `{ar:..., tr:..., gloss:...}` syntax, consistent
+Turkish-readable transliteration, and short ordinary glosses. Keep Arabic
+anchors beside the explanations they ground. Within a paragraph, continue with
+the Turkish meaning where clear; provide the necessary local tag when a later
+paragraph interprets the carrier anew. Do not place Arabic script outside a
+valid tag.
+
+Build transitions within a channel through its shared object, action, or
+relation. If two channels are selected, they may occupy separate paragraphs;
+do not invent a link between them. Do not praise the commentary's quality,
+promise what the reader will find, manufacture suspense, recap at the end, or
+add a call to action. End on an image, relation, action, or tension already
+established by the selected reading.
+
+Before finishing, compare the invitation with the entire editorial prose:
+does the chosen channel reveal a consequential reading, or could the text have
+been written from the ordinary translation and a modest explanation alone?
+When the editorial supports a surprising channel, the latter fails this task.
+Can the reader follow the opening expression into a connected background and
+understand how that background expands or shifts the ayah's main meaning?
+Check the selected connections against their editorial explanation: can the
+reader tell where the nonordinary details come from, with the necessary
+qualifications intact? Repair generic explanation, isolated curiosities, or a
+compressed findings list by developing the selected channel. Do not add
+omitted channels merely for coverage. Do not output this check.
+
+Write only the invitation text to:
+
+`_commentary/v5/editorial/s012-p01-with-fatiha/s012/12_15/12_15.invitation.tr.md`
+
+Do not add a heading, wrapper label, index, ledger, evidence file, or any other
+artifact. Do not modify the editorial prose.
+
+After writing the invitation, run:
+
+```bash
+python3 _commentary/v5/validate_prose.py _commentary/v5/editorial/s012-p01-with-fatiha/s012/12_15/12_15.invitation.tr.md
+```
+
+If validation fails, repair only the reported mechanical file-contract issues
+and rerun it, for at most two repair cycles. Report the final validator result
+in your response.
+
+<editorial_prose>
+## İnsanların Taşıdığı Kişi
+
+Bu âyet, kardeşlerin Yusuf'u yanlarına alıp götürdüğü, onu nereye koyacaklarını kesinleştirdiği ve sonunda kuyunun gizli derinliğine yerleştirdiği sahneyi kurar. Tam insan planı tamamlanmış görünürken Allah Yusuf'a yönelen gizli bir bildirim açar. Böylece aynı cümlede Yusuf'un görünür alandan çıkarılması ile onun kardeşlerin ulaşamadığı bir bilgiye kavuşması yan yana gelir; götürme ve kuyuya koyma, ayetin açık zemini olarak bütün ağırlığını korur.
+
+{ar:فَلَمَّا, tr:fa-lammā, gloss:derken ve -dığında} önceki gönderme ve koruma teklifinin (12:12) gerçekleşmiş yeni sahneye bağlandığını gösterir. İçindeki {ar:لَمَّا, tr:lammā, gloss:-dığında} burada yalnızca zamanı bildiren bir bağlaç gibi işlemez; götürme ve yerleştirme tamamlandığı anda ilâhî cevabın açıldığı eşiği daraltır. Konuşma ile fiil arasındaki boşluk küçülür, insan kararıyla vahiy aynı hareketin hemen ardışık iki yüzü hâline gelir. Bu zaman bağı, dışarıdan bir tarih veya kardeşlerin iç niyeti hakkında ayrıntı getirmeden teklifin fiile dönüştüğü ânı öne çıkarır.
+
+{ar:ذَهَبُوا۟ بِهِۦ, tr:dhahabū bihi, gloss:onu götürdüler} kardeşlerin yalnızca yola çıktığını değil, Yusuf'u yanlarına alarak bulunduğu yerden uzaklaştırdığını bildirir. {ar:بِهِۦ, tr:bihi, gloss:onu} bağı Yusuf'u adı yeniden söylenmeden bu gidişin taşınan kişisi yapar. Ardından gelen {ar:وَ, tr:wa, gloss:ve}, götürme ile kesin kararı tek bir tamamlanmış insan eylemi içinde birleştirir. {ar:أَجْمَعُوا۟, tr:ajmaʿū, gloss:kesin karara vardılar} düşünceyi ortak ve sağlam bir tutuma bağlar; {ar:أَنْ, tr:an, gloss:-mek üzere} bu tutumu {ar:يَجْعَلُوهُ, tr:yajʿalūhu, gloss:onu yerleştirsinler} fiiline bağlayan kısa bir karar-icra köprüsüdür. Böylece düşünce uygulanabilir bir yerleştirme planına geçer; kelimeler kararın sonucunu açık ederken her kardeşin iç konuşmasını ayrıca kurmaz.
+
+{ar:فِي, tr:fī, gloss:içinde} Yusuf'u {ar:غَيَابَتِ الْجُبِّ, tr:ghayābati l-jubb, gloss:kuyunun gizli derinliği} yapısının içine alır. {ar:الْجُبِّ, tr:al-jubb, gloss:kaplanmamış derin kuyu} belirli artikel ile soyut bir boşluğu değil, belirli ve ham bir kuyuyu gösterir. {ar:غَيَابَتِ, tr:ghayābati, gloss:gözden uzak ve içine gireni gizleyen çukur yer} ise kuyu çevresine göre alçak, içine gireni görüşten çeken bir girintiyi belirginleştirir. Saklanma bu yüzden hem kuyunun içine fiziksel olarak yerleşmeyi hem de olağan aile görüşünden çekilmeyi taşır; iki katmanın zemini somut mekândır.
+
+Kuyunun belirli bir hedef olarak seçilmesi, önceki çıkarma seçeneklerini de görünür kılar. 12:9'da {ar:ٱقْتُلُوا۟, tr:uqtulū, gloss:öldürme ve cana kıyma} hayatı ortadan kaldıran sert ihtimali, {ar:ٱطْرَحُوهُ, tr:iṭraḥūhu, gloss:atıp uzaklaştırma} ise Yusuf'u bir kenara bırakma hareketini açar. 12:10'daki {ar:أَلْقُوهُ, tr:alqūhu, gloss:karşılaşılacağı yere atma} bu uzaklaştırmayı onu karşılayabilecek bir yerin içine yönlendirir. 12:15'teki yerleştirme, bu tasarıları belirli bir hedefte toplar: doğrudan ölüm seçeneği geri çekilirken sert çıkarma niyeti canlıyı mekân içinde görünmez kılma biçimine çevrilir. Kuyu böylece yalnızca bir son durak değil, Yusuf'u aile alanından çıkaran somut bir eşik olur. Ölümün gerçekleşmesi, bulunmanın kesinleşmesi ve kuyunun taşıdığı bütün gizli anlamların aynı anda etkinleşmesi bu cümlenin kapsamına girmez; burada açıkça kurulan şey, amaçlı yerleştirmedir.
+
+İnsanların götürme ve karar bloğundan sonra {ar:وَأَوْحَيْنَا, tr:wa-awḥaynā, gloss:ve vahyettik} yeni bir ilâhî eylem alanı açar. Birinci çoğul özneyle tamamlanan bu fiil, kuyu içindeki gizlenmeyi bilgiye kapalı bir son olarak bırakmaz; Yusuf'a ulaşan ayrı bir iletişim başlatır. {ar:إِلَيْهِ, tr:ilayhi, gloss:ona} yönelişi, önceki {ar:بِهِۦ, tr:bihi, gloss:onu} zamiriyle taşınan aynı Yusuf'u bu kez vahyin alıcısı yapar. Kişi değişmez, fakat cümledeki konumu değişir: kardeşlerin taşıdığı kişi, kendisine yönelen sözün muhatabına dönüşür. İlâhî eylem burada kardeşlerin amacı olarak değil, onların insan planından sonra sahneye giren ayrı bir güvence olarak belirir.
+
+Gelecek ufku da belirli bir biçimle kuruludur. {ar:لَ, tr:la, gloss:kesinlikle} vurgusu ile ağır nûnla güçlendirilmiş {ar:تُنَبِّئَنَّهُمْ, tr:tunabbiʾannahum, gloss:onlara mutlaka bildireceksin} biçimi, Yusuf'un kardeşlerine ileride anlam taşıyan bir haber vereceğini ilâhî vaat olarak açar. Bu gelecek zaman henüz gerçekleşmemiş bildirimi kendi zaman sınırı içinde tutar. {ar:بِ, tr:bi, gloss:hakkında} harfi haberin belirli bir mesele hakkında bilgilendirme olduğunu gösterir. {ar:أَمْرِهِمْ, tr:amrihim, gloss:onların işi, konusu ve hâli} kardeşlerin yaptığı işi onların sahip olduğu tekil bir mesele olarak adlandırır; burada emir veya yönetim anlamı öne çıkmaz. {ar:هَذَا, tr:hādhā, gloss:bu} bu meseleyi yakınlaştırır ve haberin bütün kardeşlik tarihine değil, bu belirli eyleme bağlandığını sabitler.
+
+Son bağlaç olan {ar:وَ, tr:wa, gloss:ve} ile açıkça getirilen {ar:هُمْ, tr:hum, gloss:onlar}, aynı kardeşleri hem bu işin sahipleri hem de fark etmeyenler olarak cümlenin iki tarafında tutar. {ar:لَا, tr:lā, gloss:...mez} ile şimdiki zamanlı {ar:يَشْعُرُونَ, tr:yashʿurūn, gloss:fark ederler} birleşince fark etmeme, geçmişte bitmiş tek bir yanılgı değil, vahyin ulaştığı anda da süren bir durum olur. Fiilin açık bir nesne almadan kapanması, onların gizli karşılığı bütünüyle algılayamadığı geniş bir boşluk bırakır; ayet bu boşluğun hangi ayrıntılara uzandığını ayrıca belirlemez. Vaat, kardeşlerin habersizliği eşliğinde gerilim kazanır.
+
+## Saklanan Yere Ulaşan Bilgi
+
+Bu kelimeler birlikte dinlendiğinde kuyunun fiziksel gizliliğini koruyan, fakat onu tek başına bırakmayan bir okuma açılır. {ar:غَيَابَتِ, tr:ghayābati, gloss:gizli girinti} ile {ar:فِي, tr:fī, gloss:içinde} içine gireni gözden saklayan alçak bir yer resmi kurar. Bağımsız ilâhî eylem olan {ar:أَوْحَيْنَا, tr:awḥaynā, gloss:gizlice ilettik} ise bu kapalı yerde Yusuf'a ulaşan bir bilgi yolu açar. Kardeşler onu görünürlükten çıkarırken bilgi Yusuf'a ulaşır ve onların dışında kalır. Bu temas, gizlenmeyi yalnızca bir bedenin saklanması olmaktan çıkarıp aynı sahnede işleyen asimetrik bir bilme düzeni olarak derinleştirir; kuyunun fiziksel girintisi yerinde durur, vahyin bilgi boyutu kuyunun kendisine yüklenmez.
+
+{ar:الْجُبِّ, tr:al-jubb, gloss:kuyu} kelimesinin kaplanmamış ve derin kuyuya ait somut çekirdeği, ham duvarların ve aşağıya kapanan bir boşluğun ayrıntısını öne çıkarır. Bu ayrıntı, {ar:ذَهَبُوا۟ بِهِۦ, tr:dhahabū bihi, gloss:onu götürdüler} ile {ar:يَجْعَلُوهُ فِي, tr:yajʿalūhu fī, gloss:onu içine yerleştirmeleri} yan yana geldiğinde Yusuf'un olağan görüş alanından kesilip ayrıldığı kapalı mekân hissini kuvvetlendirir. Kuyu öncelikle kuyudur; ona eşlik eden kesilme, bağdan ayırma ve aşağıda tutma çağrışımı bu somut yerin sahnedeki etkisini genişletir. Yusuf'un gerçek bir kök olduğu veya fiziksel bir kesilmenin gerçekleştiği sonucu bu çağrışımın kapsamı dışındadır.
+
+Karar ile gelecek haberin buluşması, gizli planı ileride anlatılabilir bir olay çekirdeğine dönüştürür. {ar:أَجْمَعُوا۟, tr:ajmaʿū, gloss:ortak ve kesin bir tutum aldılar} düşünceyi bir işe ilişkin kararda toplar; {ar:أَنْ, tr:an, gloss:-mek üzere} ile başlayan yerleştirme bu ortak tutumu belirli bir fiile bağlar. Ardından {ar:تُنَبِّئَنَّهُمْ, tr:tunabbiʾannahum, gloss:onlara haber vereceksin} şimdiki eylemi gelecekte kardeşlerin karşısına çıkacak bilgiye bağlar. {ar:أَمْرِهِمْ هَذَا, tr:amrihim hādhā, gloss:bu işleri} haberin soyut bir suçlama değil, birlikte yürütülen bu somut iş hakkında olacağını daraltır. Plan böylece kendi anlatı malzemesini içinde taşıyan bir vaka gibi görünür; Yusuf'un ileride hangi sözleri kullanacağı ve bildirimin tam zamanı bu âyette açık bırakılır.
+
+Gidiş, yerleştirme ve gelecek haber arasında kopuşu sürdüren bir çizgi de belirir. {ar:ذَهَبُوا۟ بِهِۦ, tr:dhahabū bihi, gloss:onu götürdüler} Yusuf'un bulunduğu yerden uzaklaştırılmasını, {ar:فِي غَيَابَتِ الْجُبِّ, tr:fī ghayābati l-jubb, gloss:kuyunun gizli derinliğine} ise bu kopuşun görünmeyen yeni konumunu kurar. Kuyuya yerleştirilen kişi aile çevresinden çıkarılmış, dışarıdan görünmeyen bir iç alana alınmıştır. Gelecekteki haber bu kopuşu anlatının kapanışı olmaktan çıkarıp ileride anlamlandırılacak bir olay hâline getirir. Fiziksel uzaklaşma gerçektir; devamlılık, bu âyetin vaat ettiği bildirimin açtığı yorum ufkunda belirir.
+
+Daha dar bir keşifsel çağrışım, iki farklı zamanlı fark etmeme hâlini aynı ufukta tutar. {ar:أَوْحَيْنَا, tr:awḥaynā, gloss:gizlice ilettik} Yusuf'un o anda kardeşlerden saklı bir bilgiye erişmesini, {ar:وَهُمْ لَا يَشْعُرُونَ, tr:wa-hum lā yashʿurūn, gloss:onlar farkında değilken} kardeşlerin bu kanalı algılayamamasını gösterir. {ar:تُنَبِّئَنَّهُمْ, tr:tunabbiʾannahum, gloss:onlara haber vereceksin} ise ileride onlara ulaşacak bir bildirim ufku açar. Şimdiki gizli iletişim ile gelecekteki açıklama aynı çizgide duyulur; iki iletişimin biçimi ve gelecekte kardeşlerin yaşayacağı idrak bu âyetin söylediği sınır içinde kalır.
+
+Bir başka, daha uzak benzetme kuyunun gizlediği olayı toprağın altında kalmış bir kök imgesiyle yan yana getirir. {ar:غَيَابَتِ الْجُبِّ, tr:ghayābati l-jubb, gloss:kuyunun gizli derinliği} görünmeyen ve aşağıda saklı kalanı, {ar:الْجُبِّ, tr:al-jubb, gloss:kuyu} ise bağından ayıran ve içine alan bir kesilme hareketini çağrıştırabilir. Gelecek haber bu gömülü olayı fiziksel olarak yüzeye çıkarmak şeklinde değil, bilgi olarak geri dönmesi şeklinde görünür kılar. Yusuf burada kök değildir; bu benzetme kesin bir kurtuluşu, fiziksel çıkışı veya kopuşun bütün sonuçlarını açıklamaz. Saklanma ile sonradan açığa çıkma arasındaki maddi süreklilik sezgisini haber vaadine bağlar.
+
+## Kararı Toplayan Sosyal Alan
+
+Kardeşlerin kesinliği kendiliğinden oluşmuş bir birlik görüntüsü değildir. 12:9'da öldürme ile uzağa atma seçenekleri açılır, 12:10'da ölüm yerine kuyuya atma belirli bir araç olarak öne çıkar. {ar:أَجْمَعُوا۟, tr:ajmaʿū, gloss:düşünüp kesin bir tutuma bağlandılar} bu seçenekleri ortak bir kararda toplar. Böylece 12:15'teki kuyu, öncesi ve sonrası olan bir uzlaşının somut aygıtına dönüşür: doğrudan ölüm seçeneği geri çekilir, sert çıkarma kuvveti ise kuyuda başka bir biçimde sürer. Her kardeşin iç düşüncesi veya özel niyeti bu ortak karardan ayrıca çıkarılamaz.
+
+Bu ortaklık, grubun kendisini nasıl gördüğüyle de temas eder. 12:8 ve 12:14'te tekrarlanan {ar:عُصْبَةٌ, tr:ʿuṣba, gloss:birbirini kuşatan topluluk}, kardeşlerin birbirine dayanan ve birbirini destekleyen bir topluluk öz-imgesi kurar. {ar:أَجْمَعُوا۟, tr:ajmaʿū, gloss:aynı işte birleşip destek oldular} bu öz-imgeyi tek bir plan üzerinde fiile geçirir. Yusuf'un aile alanından çıkarılması, grubun kendi beraberliğini görünür kılan dışlayıcı eylem gibi duyulur. {ar:الْجُبِّ, tr:al-jubb, gloss:kuyu} kelimesinin yanında beliren kökten kesip ayırma çağrışımı bu sosyal görüntüyü güçlendirir; bu mecaz kuyunun gerçek anlamını genişletir, fakat onu yalnızca güç anlamına dönüştürmez ve bütün kardeşlere aynı güdüyü yüklemez.
+
+Kuyunun bir başka yüzü, kapatılmış son nokta ile dışarıya açılan aktarım eşiğini aynı yerde tutar. 12:10'daki atma, Yusuf'u bulup alabilecek yolcuların geçişiyle birlikte anılır. Aşağıya bırakılan kişi ile yukarıdan gelebilecek alıcı aynı maddi boşlukta buluşabilir; kuyu böylece Yusuf'u aile çevresinden başka bir dolaşım alanına geçirebilecek geçici bir bekleme yerine benzer. 12:19'da {ar:فَأَرْسَلُوا۟ وَارِدَهُمْ فَأَدْلَىٰ دَلْوَهُۥ, tr:fa-arsalū wāridahum fa-adlā dalwah, gloss:su taşıyıcılarını gönderip kovasını indirdiler} denmesi, çıkarma hareketini görünür kılar. Bu sonraki temas 12:15'teki gizlenmeyi planın kesin sonu olmaktan çıkaran bir arayüz olarak düşündürür; yolcuların 12:15'te geldiği veya aktarımın o anda tamamlandığı söylenmez.
+
+## Gizli Olayın Habere Dönüşmesi
+
+Kuyuda saklanan olay, daha baştan okunabilir bir işaret ve anlatılabilir bir vaka olarak çerçevelenir. 12:1'deki {ar:آيَاتٌ, tr:āyāt, gloss:işaretler} ve açıklık dili, gizli kalan bir olayın dışarıdaki muhatap için görünür bir iz kazanabileceği yönü açar. 12:3'teki {ar:نَقُصُّ, tr:naquṣṣu, gloss:ardışık biçimde anlatıyoruz} ve {ar:قَصَصِ, tr:qaṣaṣ, gloss:kıssa ve anlatı} sözleri bu izin sırayla taşınan bir anlatı yoluna dönüşmesini sağlar. 12:15'teki bildirme vaadi bu yola eklenir: kardeşlerin bilgisi dışında kalan eylem, okuyucu için açıklanabilecek bir olay malzemesi olur. Her gizli olayın kendiliğinden işaret sayılması veya başlangıçtaki çerçevenin eksiksiz bir anlatı kuramı vermesi bu bağlantının kapsamı değildir; fiziksel saklanma ile anlatıda görünürleşme aynı olayın iki ayrı yönü olarak kalır.
+
+12:5'te Yusuf'un gördüğünü kardeşlerine anlatmaması için konan sınır, 12:15'teki vurgulu gelecek haberle karşılaşınca sözün dönüş yolunu açar. Önce susturulmak istenen anlatı, daha sonra aynı kişiler hakkında verilecek bir habere dönüşür. {ar:تُنَبِّئَنَّهُمْ, tr:tunabbiʾannahum, gloss:onlara bilgi taşıyan haber vereceksin} yalnız ileride konuşulacağını değil, kardeşlerin kendi tepkisinin de anlatılabilir bir olay olarak geri döneceğini düşündürür. {ar:أَمْرِهِمْ, tr:amrihim, gloss:onların işi ve hâli} bu dönüşün nesnesini belirler: hikâyeyi denetlemek için kurulan düzen, ileride anlatılacak malzemeyi bizzat üretir. Haber boşluktan çıkmaz; önceki yasak, aldatma ve düzenleme içinden doğar. Sonraki sözün tam biçimi ve söyleyiş zamanı yine açık bırakılır.
+
+Bu bağlantı, {ar:أَجْمَعُوا۟, tr:ajmaʿū, gloss:işlerini kesinleştirdiler} fiilinin başka bir görünümüyle de belirginleşir. 12:102'de {ar:أَجْمَعُوا۟ أَمْرَهُمْ, tr:ajmaʿū amrahum, gloss:işlerini kesinleştirdiler} ifadesi, kardeşlerin gizli kararını sonradan anılabilir bir olay olarak tutar. 12:15'teki ortak karar böylece yalnız o anın kapalı eylemi değil, daha sonra haber verilebilecek belirli bir iş olur. Bu kesinlik, onların bütün niyetlerini açığa çıkarmadan kararın bir iş üzerinde toplandığını ve işin hatırlanabilir kaldığını gösterir.
+
+{ar:غَيَابَتِ الْجُبِّ, tr:ghayābati l-jubb, gloss:kuyunun gizli derinliği} içindeki gözden ve bilgiden uzaklık, 12:102'deki {ar:ذَٰلِكَ مِنْ أَنۢبَآءِ الْغَيْبِ, tr:dhālika min anbāʾi l-ghayb, gloss:bu görünmeyen haberlerdendir} ifadesiyle yan yana geldiğinde yeni bir katman kazanır. Fiziksel saklanma yalnızca kaybolma olarak kalmaz; vahiy yoluyla bilgide korunmuş gizli bir olaya dönüşür. Kuyu belirli, alçak ve içine gireni saklayan bir yer olarak kalırken vahiy onun açtığı bilme imkânını tamamlar. Her gizlilik bu yolla otomatik olarak işaret sayılmaz.
+
+İletişimin yönü {ar:أَوْحَيْنَا إِلَيْهِ, tr:awḥaynā ilayhi, gloss:ona gizli bildirimde bulunduk} ifadesinde kuruludur. Bu, Tanrı'dan vahyin yöneldiği kula uzanan Form IV bir bildirimdir. 12:102'deki {ar:نُوحِيهِ إِلَيْكَ, tr:nūḥīhi ilayka, gloss:onunla sana vahyediyoruz} ifadesi de aynı tür bilinirliğin sıradan bir gözlemden değil, belirli bir alıcıya yöneltilmiş vahiyden geldiğini gösterir. Böylece Yusuf'un ileride taşıyacağı bilgi sahnenin dışında sonradan eklenmiş bir açıklama gibi değil, kuyuya yerleştirilme anında ona ulaştırılan gizli güvence içinde tutulur. Bu ifade, kapsamlı bir peygamberlik görevinin ayrıntılarını veya bildirimin sonraki tam lafzını 12:15'e taşımaz.
+
+Gelecekteki haberin anlamı 12:89 ve 12:90'da somut bir karşılaşma biçimine kavuşur. {ar:تُنَبِّئَنَّهُمْ, tr:tunabbiʾannahum, gloss:onlara haber vereceksin} içindeki haber taşıma yönü, 12:89'daki {ar:هَلْ عَلِمْتُم مَّا فَعَلْتُم بِيُوسُفَ, tr:hal ʿalimtum mā faʿaltum bi-Yūsuf, gloss:Yusuf'a ne yaptığınızı bildiniz mi} sorusunda kardeşlerin kendi fiillerini duymaya başlamasıyla belirir. 12:90'da Yusuf'un kimliğini açıklaması, sözü taşıyan kişinin planın hedefi olan Yusuf olduğunu görünür kılar. 12:58'de kardeşlerin Yusuf'un karşısına gelişi de kişi hareketinin yönünü tersine çeviren bağımsız bir temas oluşturur: daha önce götürülen Yusuf, sonra karşısında duran ve konuşan kişidir.
+
+Bu sahneler birlikte düşünüldüğünde tanıma ile anlatma yetkisinin yönü değişir. Kardeşler önce Yusuf'u kendi planlarının nesnesi olarak görünmez kılar; gelecek vaat içinde Yusuf, onların kendi işini kendilerine bildirecek anlatıcıya dönüşür. 12:58'de onu tanımamaları, 12:89'da yapılan işin soruya çevrilmesi ve 12:90'da kimliğin onun ağzından açılması, 12:15'teki fark etmeme ile haber vaadini aynı anlatı değişiminde buluşturur. Haber anlamı korunurken sözün bir yerden alıcıya ulaşması gibi ikincil bir hareket izi duyulur. Yusuf'un o anda tanındığı veya sonraki karşılaşmanın tek mümkün gerçekleşme olduğu bu vaadin söylediği şey değildir.
+
+## Emanet Edilen Erişimin Tersine Dönmesi
+
+Yusuf'un götürülmesi, önceki güvence sözlerinden bağımsız bir gidiş değildir. 12:11'deki {ar:تَأْمَنَّا, tr:taʾmannā, gloss:bize güven} sözü, babadan istenen iznin güven zeminini kurar. {ar:نَاصِحُونَ, tr:nāṣiḥūn, gloss:iyi niyetli olduklarını söyleyenler} kardeşlerin kendilerini koruyucu ve samimi gösteren iddiasını taşır. 12:12'de {ar:أَرْسِلْ, tr:arsil, gloss:gönder} ve {ar:حَٰفِظُونَ, tr:ḥāfiẓūn, gloss:koruyup gözetenler} Yusuf'un onların bakımına bırakılmasını ve bu bakımın açıkça üstlenilmesini anlatır. 12:13'teki {ar:غَٰفِلُونَ, tr:ghāfilūn, gloss:farkında olmama ve gaflet} babanın öngördüğü korunmasızlık aralığını açar. 12:15'teki {ar:ذَهَبُوا۟, tr:dhahabū, gloss:gitme ve uzaklaşma} bu erişimin sonucudur: koruma için verilen hareket alanı saklamaya çevrilir.
+
+Bu dönüşüm fiziksel gidişi ortadan kaldırmaz; ona emanet ilişkisi içindeki başka bir sonuç ekler. Güven ve iyi niyet dili Yusuf'un kardeşlere teslim edilmesini mümkün kılan kapıdır. Gönderme ve koruma vaadi bakım düzenini kurar; gerçek gidiş bu düzeni yerine getirmek yerine Yusuf'u görünmez bir yere götürür. Hareket bu yüzden hem bir noktadan başka bir noktaya geçiş hem de koruma diye sunulan erişimin tersine çevrilmesi olarak okunabilir. Önceki sözlerin sıradan bir ikna olarak mı, bilinçli bir kandırma olarak mı işlediği ve her kardeşin niyeti 12:11-13'te ayrı ayrı belirtilmez.
+
+Gidiş fiili daha sonra başka bir anlatı yüzeyinde yeniden belirir. 12:13'te babanın kaygısı kardeşlerin Yusuf'la birlikte uzaklaşması ihtimali üzerine kuruludur; 12:15'te bu hareket gerçekleşir; 12:17'de ise {ar:نَسْتَبِقُ, tr:nastabiqu, gloss:yarışıyoruz} sözü ve Yusuf'u geride bırakma anlatısı aynı gidişi başka bir amaçla açıklar. {ar:ذَهَبُوا۟, tr:dhahabū, gloss:gitme ve uzaklaşma} beklenen hareketi, gerçek götürmeyi ve sonradan anlatılan mazereti aynı çekirdek üzerinde taşır. Yarışma, gerçek götürmeye dikkat dağıtıcı bir amaç yazılmasına imkân verir; kimin gittiği ve kimin geride kaldığı yokluğu açıklayan yeni hesabın eksenine yerleşir. Fiziksel gidiş gerçektir; tekrarın bilinçli bir kamuflaj olduğu kesinleştirilmeden aynı hareketin sonradan yeniden yazıldığı duyulur.
+
+Bu yeniden yazılmış hesabın duyusal yüzeyi de vardır. 12:16'daki gece ve ağlama görme alanını daraltırken sesi ve etkilenmişliği öne çıkaran bir sahne kurar. 12:18'deki kanlı {ar:قَمِيصِ, tr:qamīṣ, gloss:gömlek} başkasının önüne getirilebilen maddi sergi olur; {ar:كَذِبٍ, tr:kaḏib, gloss:yalan ve aldatma} bu serginin taşıdığı anlatı koşulunu belirler. {ar:تَصِفُ, tr:taṣifu, gloss:olayı tarif edip sunma} sözü de gömlekle birlikte neyin görüldüğünü ve nasıl anlaşılması gerektiğini sözle sabitlemeye çalışan bir anlatım düzeni kurar. Gece, ağlama, gömlek, yalan ve tarif; başkalarının neyi görüp hangi sonuca bağlayacağını düzenleyen bir yüzey meydana getirir.
+
+Bu görünür duyusal yüzeyin karşısında {ar:أَوْحَيْنَا, tr:awḥaynā, gloss:gizlice iletme} ile kurulan saklı iletişim bulunur. Kardeşler başkalarının görüp duyacağı belirtileri biçimlendirirken kendilerini aşan karşı-tanığı fark edemezler. {ar:وَهُمْ لَا يَشْعُرُونَ, tr:wa-hum lā yashʿurūn, gloss:onlar farkında değilken} bu ironiyi taşır: sundukları delil yüzeyi görünür, fakat Yusuf'a ulaşan bildirim onların algısının dışında kalır. Bu okuma gömleği gerçekten konuşan bir varlığa dönüştürmez; gözyaşlarının içtenliği hakkında hüküm kurmaz ve her duyusal ayrıntıya bağımsız bir sözlük anlamı yüklemez. Saklı bildirim, görünür hesabın karşısında başka bir tanıklık yolu olarak kalır.
+
+{ar:أَمْرِهِمْ, tr:amrihim, gloss:onların işi ve hâli} bu hesabın altında önceden biçimlenmiş belirli bir olayı tutar. 12:18'deki {ar:سَوَّلَتْ, tr:sawwalat, gloss:işi kendine güzel gösterdi} sözü, bir eylemin insanın içinde kabul edilebilir ve güzel görünür hâle gelmesini anlatır. {ar:أَنفُسُكُمْ, tr:anfusukum, gloss:kendilik ve iç benlik} bu biçimlendirmenin gerçekleştiği iç alanı gösterir. Kardeşlerin işi önce içeride kendilerine sunulan bir kabul biçimi kazanır, sonra dışarıda gömlek ve sözle tarif edilen bir hikâyeye dönüşür. Gelecekteki {ar:تُنَبِّئَنَّهُمْ, tr:tunabbiʾannahum, gloss:onlara haber vereceksin} bu içte biçimlenen işi doğrudan adlandıracak karşı-sözü taşır; kardeşlerin bütün güdüleri {ar:أَمْرِهِمْ, tr:amrihim, gloss:işleri} kelimesine sığdırılmaz.
+
+Gömlek bu maddi yüzeyde yalanın görünür taşıyıcısı gibi düzenlenir. Onun seyirciye sunulan hâli ile Yusuf'un ileride söyleyeceği söz, aynı olay hakkında iki ayrı kanıt biçimi oluşturur. {ar:قَمِيصِ, tr:qamīṣ, gloss:gömlek} maddi nesne olarak kalırken {ar:كَذِبٍ, tr:kaḏib, gloss:aldatıcı anlatı} onun düzenlenmiş görünüşünün katıldığı hesabı belirtir. Gelecek haber bu hesabı adlandıracak kişisel karşı-sözü hazırlar; gömlek görünüş yoluyla bir yalanı sahneler, Yusuf'un sözü onu teşhis edecek karşı-delil olur. Metnin dilbilgisi gömleği gerçek anlamda konuşan bir yalancı yapmaz; haberin tam şekli ve sonraki söyleyiş biçimi 12:15'te belirlenmez.
+
+## Yerleştirmenin Gizli Geleceği
+
+Son bir karşılaştırma, yerleştirme fiilinin geleceğe dönük ufkunu açar. {ar:يَجْعَلُوهُ فِي غَيَابَتِ الْجُبِّ, tr:yajʿalūhu fī ghayābati l-jubb, gloss:onu kuyunun gizli derinliğine koymaları} 12:15'te kardeşlerin zarar verici ve görünmez kılmaya dönük planını açıkça taşır. 28:7'de tehdit altındaki çocuğun gizli yönlendirmeyle taşınması, geri döndürüleceğinin bildirilmesi ve ileride başka bir göreve getirileceğinin vaat edilmesiyle yan yana geldiğinde, tehlikeli bir yere yerleştirmenin geleceği bütünüyle kapatmayan bir yönü de duyulur. Bu paralel, Yusuf'un kuyudaki somut ve zararlı durumunu koruyarak yer değiştirme eylemine görünmeyen bir gelecek doğrultusu ekler. Yusuf'u Musa ile özdeşleştirmez, kardeşlerin fiilini hayırlı bir yönlendirmeye çevirmez, geri dönüşü veya görevlendirmeyi 12:15'in açık lafzı saymaz. Kuyuda saklanan Yusuf'a aynı anda ulaşan vahiy ile henüz gerçekleşmemiş haber vaadi, zarar verici yerleştirmeyi anlatının son sözü olmaktan çıkaran sınırlı geleceği burada görünür kılar.
+
+</editorial_prose>

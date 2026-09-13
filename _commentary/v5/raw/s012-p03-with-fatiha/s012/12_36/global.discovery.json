@@ -1,0 +1,519 @@
+{
+  "schema_version": "commentary-v5-scope-discovery-v1",
+  "ayah_ref": "12:36",
+  "lane": "global",
+  "coverage_complete": true,
+  "candidate_decisions": [
+    {
+      "candidate_id": "cand_73e1f725ba2b5d033a42",
+      "decision": "accept",
+      "reason": "Güvenilir yayımlanmış kanıt, odak ayetteki sekiz yüzey taşıyıcısını tam olarak bağlıyor; iki düşteki işlenmiş içecek ile baş üstünde açıkta kalan ekmek düzeni, sonuçtan önce denetim ve savunmasızlık ilişkisini birlikte kuruyor. Sekiz dalın tamamı korunmuştur.",
+      "finding_refs": ["global:control-exposure"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_1b51876bb072438a346e",
+      "decision": "accept",
+      "reason": "Güvenilir yayımlanmış kanıt, 12:36:9'daki sıkma dalını 12:36:22-23'teki yorum bildirme isteğiyle ilişkilendiriyor. Fiziksel sıkma ile sıkışmış işaretten sonuca ulaşma arasındaki sınırlı benzetme, ayrı bir okuyucu kazanımı taşıyor.",
+      "finding_refs": ["global:interpretive-extraction"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_4e0ae96ccdf59cd9af08",
+      "decision": "represented",
+      "reason": "İki düş yükünün biri işlenen içecek, diğeri baş üstünde açıkta kalan ekmek olarak karşıtlaşması ve bunun denetim-maruz kalma ilişkisi kurması global:control-exposure bulgusunda aynı anlamla taşınmıştır; adayın tek dalı ve başka bir yükümlülüğü dışarıda bırakılmamıştır.",
+      "finding_refs": ["global:control-exposure"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_b9d36905b641d9e084dc",
+      "decision": "accept",
+      "reason": "Odaktaki المحسنين taşıyıcısı, yorum isteğiyle gerçek bir çapraz-kök teması kuruyor: Yusuf'un iyi iş yapan biri olarak görülmesi, ondan tevil istenmesinin güven zeminini açıklıyor. Aynı nitelemenin 12:78'de yeniden görünmesi bu ilişkiyi daha geniş bağlamda destekliyor.",
+      "finding_refs": ["global:goodness-as-trust"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_0a4f69a3c5dbf580f43d",
+      "decision": "accept",
+      "reason": "Retrospektif kayıt, odaktaki iki düş yükünün 12:41'de hizmet ve infaz sonuçlarına bağlandığını bildiriyor. Kayıt kelime düzeyi bakımından legacy_unbound olduğu için sonuç ilişkisi korunmuş fakat nitelikli bağlamsal bulgu olarak tutulmuştur.",
+      "finding_refs": ["global:retrospective-outcomes"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_37101f3a2cebcf99af10",
+      "decision": "represented",
+      "reason": "Sıkma eyleminin gizli bir sonucu dışarı çıkarma ve yorum talebini bu işlemle ilişkilendirme iddiası global:interpretive-extraction bulgusunda aynı anlamla taşınmıştır; adayın sıkma dalı korunmuştur.",
+      "finding_refs": ["global:interpretive-extraction"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_cf07ceea058d2d38fa8f",
+      "decision": "accept",
+      "reason": "Retrospektif kayıt, 12:49'daki yağış ve rahatlama yılı içinde odaktaki sıkma görüntüsünün yeniden işleğe kavuştuğunu bildiriyor. Bu, sıkma taşıyıcısına dönen ayrı bir perikope bağlamı değişimidir; kaynak güveni nedeniyle keşifsel olarak sınırlandırılmıştır.",
+      "finding_refs": ["global:retrospective-recovery"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_8742ed0f0881e1f055bf",
+      "decision": "reject",
+      "reason": "HFT projection'ı legacy_unbound ve hft_1432c77a46e6a2c99418 için odakla temas eden kesin bağlam koordinatı, kök, atfedilmiş rol veya focus return sunmuyor. Özetin yorumun yönetim gücüne ilişkin çıkarımı, packet-licensed bir activation trace olarak taşınamaz.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_89c7d6b8b9ffaa84cae0",
+      "decision": "reject",
+      "reason": "HFT projection'ı legacy_unbound ve hft_eb3f7946abf67edaadb6 için R-W-Y, F-W-T, pıhtılaşma ve bölünmüş gövde atıflarını odak yüzeyine bağlayan kesin taşıyıcı, bağlam koordinatı veya focus return vermiyor. Formdan uzak adaylar bu koşulda atfedilmiş bulguya dönüşemez.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_292fdc04489de638813a",
+      "decision": "reject",
+      "reason": "HFT projection'ı legacy_unbound ve hft_893452fb452b06837c03 için makroekonomik geri-etkinleştirme iddiasını odak kelimesine döndüren kesin trace, kök ve rol vermiyor. Kişisel düş sonuçlarıyla geniş ekonomik okuma arasındaki ayrım packet içinde atfedilmiş bir activation olarak doğrulanamıyor.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_f61426bf9ec4722269c5",
+      "decision": "reject",
+      "reason": "HFT projection'ı legacy_unbound ve hft_002b99b9d6612c5673de için hizmete dönüş ve kamusal infaz özetini ayet, kelime ve kök düzeyinde focus return ile taşımıyor. Benzer bağlamlı retrospektif kayıt ayrı bir bulguda bulunsa da bu HFT kaydı kendi eksik trace'i nedeniyle atfedilmiş kanıt olarak tutulamaz.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_e24933a9e8e291a0ecbd",
+      "decision": "reject",
+      "reason": "HFT projection'ı legacy_unbound ve hft_ef0b02e67f31716745a9 için önceden bildirilen pay ve kurumlar arası gecikmiş rapor okumasını odak kelimesine bağlayan kesin koordinat, kök, rol veya focus return sunmuyor.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_fc568cb49694ce708d17",
+      "decision": "reject",
+      "reason": "HFT projection'ı legacy_unbound ve hft_43275845c2d77ba2b44f için sıkma, yiyecek, yeme ve koruma dizisini odak taşıyıcılarına bağlayan kesin trace veya focus return vermiyor. Geniş ulusal döngü iddiası stated HFT role'u aşıyor.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_48f7894625ab46e49dad",
+      "decision": "reject",
+      "reason": "HFT projection'ı legacy_unbound ve hft_653f72bbb5a6c675f117 için yorumun idari okumasını forecast, stores ve yetkiyle odak yüzeyine bağlayan kesin context coordinate, root, role veya focus return sunmuyor.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_8499ff9b44e1993da5f3",
+      "decision": "reject",
+      "reason": "HFT projection'ı legacy_unbound ve hft_3654b611a04d57ffb160 için المحسنين algısının sonraki sadakat ve emanet ilişkilerine dönüşünü odakla buluşturan kesin trace veya focus return vermiyor. Bu geniş doğrulama, stated HFT role dışında kalıyor.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_15b399d02ea3f0dbb53c",
+      "decision": "reject",
+      "reason": "HFT projection'ı legacy_unbound ve hft_18d082cde420d71e8846 için çoklu latent köprüler listesini tek tek odak taşıyıcılarına, bağımsız tetikleyicilere ve focus return'lere ayırmıyor. Özet, bir surah thesis'i olarak da, attributed activation olarak da tutulamaz.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    }
+  ],
+  "findings": [
+    {
+      "finding_ref": "global:control-exposure",
+      "origin_candidate_id": "cand_73e1f725ba2b5d033a42",
+      "represented_candidate_ids": ["cand_4e0ae96ccdf59cd9af08"],
+      "title": "İki düşte denetim ve maruz kalma düzeni",
+      "claim": "İki düş, sonuçları söylenmeden önce birinde içeceğin etkin biçimde işlenip denetim altında tutulduğu, diğerinde ekmeğin baş üstünde taşınıp kuşlara açık bırakıldığı karşıt bir malzeme düzeni kurar.",
+      "mechanism": "12:36:8:1 ve 12:36:14:1'deki düş taşıyıcısı, 12:36:9:1'deki sıkma ile 12:36:15:1'deki taşıma eylemlerini aynı anlatı çerçevesinde birleştirir; şarap, ekmek, baş üstü ve kuşların yemeği bu iki işlemin biri kontrollü, diğeri açıkta kalan yönlerini birbirine karşı görünür kılar.",
+      "reader_payoff": "Okur, yorum açıklanmadan önce iki rüyanın yalnızca iki nesne göstermediğini, bir nesneyle işlem kurma ile bir yükü korumasız biçimde üzerinde taşıma arasındaki farkı sahnelediğini görür.",
+      "containment": "Bu karşıtlık iki rüyayı önceden iyi ve kötü diye hükme bağlamaz; yalnızca maddi düzenlerinin biri üzerinde işlem, diğerinde maruz kalma ilişkisi kurduğunu söyler.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": ["trusted"],
+        "reason": "Güvenilir yayımlanmış kayıt bütün yüzey taşıyıcılarını ve dalları açıkça bağlıyor; buna karşılık bazı sözlük dalları qualified durumda ve denetim-maruz kalma birleştirmesi sınırlı bir çapraz-kök çıkarımı olarak kalıyor."
+      },
+      "support_ids": ["sup_81fda2be6492d25e7087"],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000043/B001",
+          "facet_id": "F001",
+          "branch_gloss": "yeme, yiyecek ve yeme rolleri",
+          "facet_statement": "Çekirdek anlam, yiyeceği tüketme eylemidir.",
+          "application_mode": "intrinsic_cross_root",
+          "carrier_refs": ["12:36:19:1"],
+          "trigger_refs": ["12:36:20:2"],
+          "focus_return_refs": ["12:36:19:1"],
+          "carrier": "تَأْكُلُ, ekmekten tüketme eylemini taşır.",
+          "independent_trigger": "12:36:20:2'deki belirli kuş topluluğu, tüketme eyleminin karşısındaki canlı gücünü verir.",
+          "activation": "Yeme fiili kuşlarla birleştiğinde ekmeği taşıyan kişinin denetiminden çıkıp dışarıdaki tüketici güce açık kalan bir sahne kurar.",
+          "resulting_reading": "İkinci düşteki yiyecek, yalnız taşınan bir nesne değil, başkasının tüketimine açılmış bir pay olarak görünür.",
+          "boundary": "Bu dal kuşlara atfedilen uğur veya kader anlamını ve ekmeğin sonucuna ilişkin bağımsız bir hükmü taşımaz."
+        },
+        {
+          "branch_ref": "root_000357/B001",
+          "facet_id": "F001",
+          "branch_gloss": "bir yükü kaldırıp götürme veya üstlenme",
+          "facet_statement": "Bir nesne kaldırılır, bir taşıyıcının üzerinde tutulur ve gerektiğinde başka yere götürülür.",
+          "application_mode": "intrinsic_cross_root",
+          "carrier_refs": ["12:36:15:1"],
+          "trigger_refs": ["12:36:16:1", "12:36:17:1"],
+          "focus_return_refs": ["12:36:15:1"],
+          "carrier": "أَحْمِلُ, ekmeği bir taşıyıcının üzerinde tutup taşımayı taşır.",
+          "independent_trigger": "12:36:16:1'deki üst konumu ve 12:36:17:1'deki baş, yükün korunaksız taşıyıcısını belirler.",
+          "activation": "Taşıma eylemi üst ve başla birleşerek ekmeği kişinin kontrol ettiği bir kapta değil, dışarıdan erişilebilen beden üstünde konumlandırır.",
+          "resulting_reading": "İkinci düşte yük taşımak, aynı anda yükü açıkta bırakma biçimine dönüşür.",
+          "boundary": "Burada taşımanın soyut suç veya görev yüküne genişletilmesi ve başın önderlik anlamına çekilmesi ileri sürülmez."
+        },
+        {
+          "branch_ref": "root_000388/B001",
+          "facet_id": "F001",
+          "branch_gloss": "ekmek ve ekmek yapımı",
+          "facet_statement": "Pişirilmiş ve yenilen ekmek, dalın ürün bildiren temel yönüdür.",
+          "application_mode": "intrinsic_cross_root",
+          "carrier_refs": ["12:36:18:1"],
+          "trigger_refs": ["12:36:19:1", "12:36:20:2"],
+          "focus_return_refs": ["12:36:18:1"],
+          "carrier": "خُبْزًا, yenilebilir ekmek ürününü taşır.",
+          "independent_trigger": "Ekmek, 12:36:19:1'deki yeme ve 12:36:20:2'deki kuşlarla birlikte verilir.",
+          "activation": "Ürün anlamı, onu tüketen kuşların ekmekten pay almasıyla korunaksızca dağılan bir yiyecek görünümüne dönüşür.",
+          "resulting_reading": "Ekmek burada yalnız elde bulunan yiyecek değil, baş üstünde açıkta kalan ve başkasının eriştiği bir rızık yüküdür.",
+          "boundary": "Ekmek kökünün fırıncılık, ekmek yapımı veya insanlara ekmek yedirme uzantıları bu düşte ayrıca etkin sayılmaz."
+        },
+        {
+          "branch_ref": "root_000438/B002",
+          "facet_id": "F001",
+          "branch_gloss": "sarhoş eden içki ve olgunlaşması",
+          "facet_statement": "İçilince aklı etkileyip sarhoşluk veren bilinen içkidir.",
+          "application_mode": "intrinsic_cross_root",
+          "carrier_refs": ["12:36:10:1"],
+          "trigger_refs": ["12:36:9:1"],
+          "focus_return_refs": ["12:36:10:1"],
+          "carrier": "خَمْرًا, işlenmiş ve içilebilir içeceği taşır.",
+          "independent_trigger": "12:36:9:1'deki etkin sıkma, içeceği bir işlemin sonucu olarak verir.",
+          "activation": "İçki adı, sıkma eyleminin doğrudan ürünü olarak yer aldığında malzeme üzerinde yapılan işlem ile işlemden çıkan ürün arasındaki denetimli zinciri kurar.",
+          "resulting_reading": "İlk düşte içecek, bir dış gücün tüketimine bırakılmış yiyecekten farklı olarak etkin bir üretim işleminin kontrol edilen ürünü görünümündedir.",
+          "boundary": "Bu taşıyıcıdaki sıradan örtme anlamı ve içkinin ahlaki hükmü bu bulgunun parçası değildir."
+        },
+        {
+          "branch_ref": "root_000529/B001",
+          "facet_id": "F001",
+          "branch_gloss": "baş ve en üst bölüm",
+          "facet_statement": "İnsanın veya başka bir varlığın başını ve bir şeyin en üst bölümünü belirtir.",
+          "application_mode": "intrinsic_cross_root",
+          "carrier_refs": ["12:36:17:1"],
+          "trigger_refs": ["12:36:16:1", "12:36:20:2"],
+          "focus_return_refs": ["12:36:17:1"],
+          "carrier": "رَأْسِي, yükün insan başı üzerindeki taşıyıcısını taşır.",
+          "independent_trigger": "12:36:16:1'deki فوق ve 12:36:20:2'deki kuşlar başı erişilebilir bir üst yüzey yapar.",
+          "activation": "Baş, üstte bulunma ve kuşların erişimiyle birlikte koruma sağlayan bir kap değil, yükün açığa çıktığı beden bölümü olarak belirir.",
+          "resulting_reading": "Baş üstünde bulunmak, yüksekliğin yanında korunaksızlığın da maddi yerini gösterir.",
+          "boundary": "Başın önderlik, kılıç kabzası veya başa vurma uzantıları bu uzamsal ilişkiden çıkarılmaz."
+        },
+        {
+          "branch_ref": "root_000531/B003",
+          "facet_id": "F001",
+          "branch_gloss": "uykuda görülen düş",
+          "facet_statement": "Uyku sırasında görülen düş veya görüntü.",
+          "application_mode": "intrinsic_cross_root",
+          "carrier_refs": ["12:36:8:1", "12:36:14:1"],
+          "trigger_refs": ["12:36:9:1", "12:36:15:1"],
+          "focus_return_refs": ["12:36:8:1", "12:36:14:1"],
+          "carrier": "أَرَىٰنِي biçimleri, iki anlatıyı uyku sırasında görülen kişisel düşler olarak taşır.",
+          "independent_trigger": "İlk düşte sıkma, ikinci düşte taşıma ve kuşların yemeği olmak üzere iki ayrı maddi sahne kurulmuştur.",
+          "activation": "Düş taşıyıcısı iki malzeme düzenini aynı çerçeveye alarak aralarındaki işlem ve maruz kalma farkının sonuçtan önce görünmesini sağlar.",
+          "resulting_reading": "İki rüya, aynı türden bir anlatı kabı içinde iki farklı güvenlik ilişkisini sahneler.",
+          "boundary": "Düş dalı tek başına sonraki yorumların doğruluğunu veya iki kişinin akıbetini belirlemez."
+        },
+        {
+          "branch_ref": "root_000962/B001",
+          "facet_id": "F001",
+          "branch_gloss": "kanatlı canlı ve uçuş",
+          "facet_statement": "Kanatlı canlı ve onun havada ilerleme hareketi dalın ortak çekirdeğidir.",
+          "application_mode": "intrinsic_cross_root",
+          "carrier_refs": ["12:36:20:2"],
+          "trigger_refs": ["12:36:19:1", "12:36:17:1"],
+          "focus_return_refs": ["12:36:20:2"],
+          "carrier": "ٱلطَّيْرُ, ekmekten yiyen belirli kuş topluluğunu taşır.",
+          "independent_trigger": "12:36:19:1'deki tüketme fiili kuşu yalnız uçan canlı değil, yiyeceğe erişen güç olarak etkinleştirir.",
+          "activation": "Kuşlar, baş üstündeki ekmeğe dışarıdan erişerek ikinci düşteki yükün taşıyıcısına ait denetimden çıktığını gösterir.",
+          "resulting_reading": "Uçuşla ilişkili canlı, bu sahnede rızkın dışarıdan tüketilmesine açılan hareketli karşılığı olur.",
+          "boundary": "Kuş dalı uğur, kötü talih veya başka bir sabit kader anlamı olarak kullanılmaz."
+        },
+        {
+          "branch_ref": "root_001188/B001",
+          "facet_id": "F001",
+          "branch_gloss": "üstte bulunma",
+          "facet_statement": "Bir nesneye ya da konuma göre altın karşıtı olan üst tarafta bulunma ilişkisi.",
+          "application_mode": "intrinsic_cross_root",
+          "carrier_refs": ["12:36:16:1"],
+          "trigger_refs": ["12:36:17:1", "12:36:20:2"],
+          "focus_return_refs": ["12:36:16:1"],
+          "carrier": "فَوْقَ, ekmeğin başın üst tarafındaki konumunu taşır.",
+          "independent_trigger": "Baş ve kuşların erişimi, üst konumu somut bir açıklık ilişkisine bağlar.",
+          "activation": "Üstte bulunma, baş ile kuşların hareket alanı arasında ekmeği açıkta bırakan dikey düzeni kurar.",
+          "resulting_reading": "Yükseklik, bu rüyada güvenli üstünlükten çok dışarıdan erişilebilir bir açıklık olarak hissedilir.",
+          "boundary": "Değer, egemenlik veya nicelik bakımından üstünlük bu uzamsal dalın sonucu değildir."
+        }
+      ],
+      "connection_refs": [],
+      "context_refs": [],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:interpretive-extraction",
+      "origin_candidate_id": "cand_1b51876bb072438a346e",
+      "represented_candidate_ids": ["cand_37101f3a2cebcf99af10"],
+      "title": "Sıkmadan yoruma açılan sonuç",
+      "claim": "Rüyadaki sıkma eylemi, talep edilen tevilin sıkışmış bir görüntüden onun varacağı sonucu dışarı çıkarma işine benzetilmesine izin verir.",
+      "mechanism": "12:36:9:1'deki bastırıp sıvı çıkarma taşıyıcısı, 12:36:22:1'deki bildirme buyruğu ve 12:36:23:2'deki tevil nesnesiyle temas eder; maddi işlem ile yorum talebi, içerideki sonucu görünür kılma yönünde birleşir.",
+      "reader_payoff": "Okur, tevil isteğinin yalnızca soyut bir açıklama talebi olmadığını, görüntünün taşıdığı kapalı sonucu açığa çıkarma hareketi olarak da duyulduğunu görür.",
+      "containment": "Bu benzetme tevil kelimesini sıkma eylemine çevirmez; şarap sıkma rüyanın açık içeriği olarak kalırken, fiziksel çıkarma işlemi yorum talebine yerel bir açıklık kazandırır.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": ["trusted"],
+        "reason": "Güvenilir yayın dalı ve odak taşıyıcısını veriyor, fakat yayın kendi derecesini weak olarak bildiriyor; bu nedenle ilişki doğrudan sözlük anlamı değil, sınırlandırılmış analojik çıkarımdır."
+      },
+      "support_ids": ["sup_1d847d16f2ebf93f21c7"],
+      "branch_activations": [
+        {
+          "branch_ref": "root_001019/B002",
+          "facet_id": "F001",
+          "branch_gloss": "sıkarak sıvısını çıkarma",
+          "facet_statement": "Çekirdek işlem, bir şeyi bastırıp sıkarak içindeki sıvıyı dışarı çıkarmaktır.",
+          "application_mode": "analogical",
+          "carrier_refs": ["12:36:9:1"],
+          "trigger_refs": ["12:36:22:1", "12:36:23:2"],
+          "focus_return_refs": ["12:36:9:1"],
+          "carrier": "أَعْصِرُ, bir şeyi bastırıp içindeki sıvıyı çıkarma işlemini taşır.",
+          "independent_trigger": "نَبِّئْنَا بِتَأْوِيلِهِ, görünen düş görüntüsünün varacağı anlamın bildirilmesini ister.",
+          "activation": "Sıkma taşıyıcısı ile tevil isteği, bir şeyin içinde bulunan fakat henüz görünür olmayan sonucu işlem yoluyla dışarı çıkarma yönünde temas eder.",
+          "resulting_reading": "Sıkma görüntüsü, Yusuf'tan istenen yorumun sıkışık bir işaretin sonucunu belirginleştirmesi için yerel bir maddi model sunar.",
+          "boundary": "Sıkma dalına yorum yapma sözlük anlamı yüklenmez; ilişki, iki odak ifadesi arasındaki analojik okuyucu çıkarımıdır."
+        }
+      ],
+      "connection_refs": [],
+      "context_refs": [],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:goodness-as-trust",
+      "origin_candidate_id": "cand_b9d36905b641d9e084dc",
+      "represented_candidate_ids": [],
+      "title": "İyilik görülmesinden doğan yorum güveni",
+      "claim": "Mahpusların Yusuf'u iyilik yapanlar sınıfında görmesi, tevil isteğini yalnızca bilgi isteme olarak değil, görülen iyi eyleme dayalı bir güven talebi olarak kurar.",
+      "mechanism": "12:36:27:2'deki iyilik yapan kişi taşıyıcısı, 12:36:22:1'deki bildirme buyruğu ve 12:36:23:2'deki yorum nesnesiyle temas eder; 12:78 bağlantısında aynı değerlendirme sözünün yeniden kullanılması, bu tanınmanın Yusuf'tan yardım isteme ilişkisine döndüğünü gösterir.",
+      "reader_payoff": "Okur, son cümledeki ahlaki nitelemenin süsleyici bir övgü değil, iki kişinin neden yorum yetkisini Yusuf'a yönelttiğini açıklayan bir güven zemini olduğunu kavrar.",
+      "containment": "İyilik nitelemesi tek başına Yusuf'un yorumunun doğruluğunu kanıtlamaz; burada isteğin dayandığı gözlenmiş karakteri ve daha sonraki yardım talebindeki sürekliliği görünür kılar.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": ["legacy_unbound"],
+        "reason": "Reader-walk kaydı çapraz-kök çıkarımını açıkça kuruyor ve odak dalı supplied; kaynak legacy_unbound olduğu için 12:78 bağlantısı nitelikli destek olarak tutuluyor."
+      },
+      "support_ids": ["sup_c80f14e72ce7e4684315"],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000323/B002",
+          "facet_id": "F001",
+          "branch_gloss": "bir şeyi güzelleştirme, işi iyi yapma veya başkasına iyilik etme",
+          "facet_statement": "Kötü davranmanın karşısında yer alan iyi ve güzel eylem, dalın ortak eylemsel çekirdeğidir.",
+          "application_mode": "intrinsic_cross_root",
+          "carrier_refs": ["12:36:27:2"],
+          "trigger_refs": ["12:36:22:1", "12:36:23:2", "12:78", "conn_62a592926c90acc0abca"],
+          "focus_return_refs": ["12:36:27:2"],
+          "carrier": "ٱلْمُحْسِنِينَ, iyi ve güzel eylemle tanınan kişileri taşır.",
+          "independent_trigger": "Yorumun bildirilmesi isteği ve 12:78'de aynı iyilik nitelemesinin Yusuf'tan başka bir yardım istenirken yeniden kullanılması.",
+          "activation": "İyi eylem olarak görülen Yusuf, tevil talebinin muhatabı olur; sonraki tekrar bu değerlendirmenin yardım isteme dilinde yeniden işletildiğini gösterir.",
+          "resulting_reading": "Tevil, mahpusların soyut bir uzmanlığa değil, davranışıyla güven vermiş bir kişiye yönelttiği sonuç talebi olarak belirir.",
+          "boundary": "Bu bulgu iyilik dalını yorumun ilahi doğrulamasına dönüştürmez ve 12:78'i odak ayetin doğrudan söyleyişi olarak sunmaz."
+        }
+      ],
+      "connection_refs": ["conn_62a592926c90acc0abca"],
+      "context_refs": ["12:78"],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:retrospective-outcomes",
+      "origin_candidate_id": "cand_0a4f69a3c5dbf580f43d",
+      "represented_candidate_ids": [],
+      "title": "Düş yüklerinin sonraki sonuçlara açılması",
+      "claim": "12:41'e dönen retrospektif okuma, odaktaki iki kişisel düş yükünü biri hizmete, diğeri kamusal infaza açılan iki ayrı sonuca bağlar.",
+      "mechanism": "12:36:8:1 ve 12:36:14:1'deki iki düş taşıyıcısı, 12:41 bağlamını bildiren reader-walk kaydıyla yeniden temas eder; böylece ilk düşteki işlenmiş içecek ve ikinci düşteki baş üstünde açık ekmek, sonraki yorumda farklı toplumsal sonuçlar kazanır.",
+      "reader_payoff": "Okur, rüya nesnelerinin yalnızca sembolik bir iyi-kötü karşıtlığı kurmadığını, sonraki ayette iki ayrı hizmet ve infaz hareketine açılan kişisel sonuç yükleri taşıdığını görür.",
+      "containment": "Bu retrospektif bağ, düş dalının kendi başına sonucu önceden bildirdiğini söylemez; 12:41'in sonradan yaptığı eşlemeyi, iki düş sahibinin kişisel akıbetlerini koruyarak kaydeder.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": ["legacy_unbound"],
+        "reason": "Kayıt 12:41 dönüşünü ve hizmet-infaz ayrımını açıkça bildiriyor, ancak reader identity legacy_unbound ve exact word-level context trace packet'te bulunmuyor."
+      },
+      "support_ids": ["sup_63b259f165c36ae44656"],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000531/B003",
+          "facet_id": "F001",
+          "branch_gloss": "uykuda görülen düş",
+          "facet_statement": "Uyku sırasında görülen düş veya görüntü.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["12:36:8:1", "12:36:14:1"],
+          "trigger_refs": ["12:41", "sup_63b259f165c36ae44656"],
+          "focus_return_refs": ["12:36:8:1", "12:36:14:1"],
+          "carrier": "İki أَرَىٰنِي formu, iki mahpusun kendi gördüğü düşleri taşır.",
+          "independent_trigger": "sup_63b259f165c36ae44656, 12:41'in iki düş yükünü hizmet ve infaz sonuçlarına bağladığını bildirir.",
+          "activation": "Sonraki bağlam, odaktaki kişisel düş görüntülerine dönerek onları iki farklı toplumsal role ve akıbete açar.",
+          "resulting_reading": "İlk düşteki kontrollü içecek hizmete, ikinci düşteki açıkta kalan ekmek ve kuşların yemeği kamusal infaz sonucuna bağlanan ayrı yollar kazanır.",
+          "boundary": "Bu atıf rüyaların ortak bir kader hükmü olduğunu veya düş kökünün sonucu sözlükten zorunlu olarak çıkardığını iddia etmez."
+        }
+      ],
+      "connection_refs": [],
+      "context_refs": ["12:41"],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:retrospective-recovery",
+      "origin_candidate_id": "cand_cf07ceea058d2d38fa8f",
+      "represented_candidate_ids": [],
+      "title": "Sıkmanın daha geniş üretim ve rahatlama işlemine dönüşü",
+      "claim": "12:49'a dönen retrospektif kayıt, odaktaki sıkma görüntüsünü yağış ve rahatlama yılı içinde üretim ve ekonomik toparlanma dizisinin son işlemi olarak yeniden görünür kılar.",
+      "mechanism": "12:36:9:1'deki mekanik sıkma taşıyıcısı, sup_9be8832958cc72e4bcbf kaydının 12:49'daki dönüşüyle temas eder; aynı işlem, mahpusun kişisel düş görüntüsünden daha geniş bir üretim ve rahatlama bağlamına taşınır.",
+      "reader_payoff": "Okur, sıkma görüntüsünün yalnızca kapalı bir düş hareketi olmadığını, daha sonra birikmiş ürünün rahatlama dönemine geçişini tamamlayan somut işlem olarak da okunabildiğini görür.",
+      "containment": "Yağış ve rahatlama burada bağlamsal tetikleyicidir; عصر dalına yağmur anlamı eklenmez ve rüyanın ulusal ekonomik sonucu önceden haber verdiği ileri sürülmez.",
+      "epistemic": {
+        "status": "exploratory",
+        "source_trust": ["legacy_unbound"],
+        "reason": "Retrospektif kaynak 12:49 dönüşünü açıkça kuruyor, fakat exact context morphology ve reader identity packet'te bağımsız biçimde sağlanmıyor; bu nedenle ilişki keşifsel kalıyor."
+      },
+      "support_ids": ["sup_9be8832958cc72e4bcbf"],
+      "branch_activations": [
+        {
+          "branch_ref": "root_001019/B002",
+          "facet_id": "F001",
+          "branch_gloss": "sıkarak sıvısını çıkarma",
+          "facet_statement": "Çekirdek işlem, bir şeyi bastırıp sıkarak içindeki sıvıyı dışarı çıkarmaktır.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["12:36:9:1"],
+          "trigger_refs": ["12:49", "sup_9be8832958cc72e4bcbf"],
+          "focus_return_refs": ["12:36:9:1"],
+          "carrier": "أَعْصِرُ, bir şeyi bastırıp içindeki sıvıyı çıkarma işlemini taşır.",
+          "independent_trigger": "sup_9be8832958cc72e4bcbf, 12:49'un yağış ve rahatlama yılı içinde sıkma işlemine döndüğünü bildirir.",
+          "activation": "Aynı mekanik işlem daha sonraki bağlamda kişisel düş görüntüsünü aşan üretim ve rahatlama dizisinin kapanış hareketiyle temas eder.",
+          "resulting_reading": "Sıkma, içerideki sıvıyı çıkaran işlem olmanın yanında birikmiş üretimi rahatlama dönemine aktaran geçiş olarak da görünür.",
+          "boundary": "Bu bağlantı عصر dalının yağmur, sığınma veya geri alma anlamlarını etkinleştirmez; ayrıca rüya ile makro sonuç arasında zorunlu kehanet ilişkisi kurmaz."
+        }
+      ],
+      "connection_refs": [],
+      "context_refs": ["12:49"],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:dream-to-interpretation-trajectory",
+      "origin_candidate_id": null,
+      "represented_candidate_ids": [],
+      "title": "Düşten sonuca ve teville buluşmaya uzanan geniş bağlam",
+      "claim": "12:4 ve 12:100 bağlantıları odaktaki iki düş bildirimini daha geniş bir düşten olaya uzanma çizgisine yerleştirirken, 12:6 ve 12:101 bağlantıları تَأْوِيل isteğini Yusuf'un yorum öğretisi ve sonraki yorum yetkisiyle temas ettirir.",
+      "mechanism": "root_000531/B003 dalının 12:36:8:1 ve 12:36:14:1 taşıyıcıları 12:4 ve 12:100 bağlantılarıyla, root_000067/B002 dalının 12:36:23:2 taşıyıcısı ise 12:6 ve 12:101 bağlantılarıyla geri buluşur; geniş bağlam, görülen biçim ile varacağı sonuç arasındaki ilişkiyi ve tevilin sonuca döndürme işini odak talebine geri taşır.",
+      "reader_payoff": "Okur, iki mahpusun sözlerinin yalnızca o andaki düş anlatıları olmadığını, görülen biçimin sonraki gerçekleşmeye ve yorum yoluyla gerçek anlama açıldığı bir anlatı çevresinde durduğunu kavrar; iki kişisel düş yine kendi özgül yüklerini korur.",
+      "containment": "Bu, ayetin kendi sahnesine eklenen nitelikli bir geniş bağlamdır; bütün düşlerin aynı sonuca vardığını veya odak ayetin bir surah thesis'i olduğunu söylemez. Connection satırları hedef Arapçayı sağlasa da hedef morfolojisini bağımsız olarak sağlamaz.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": [],
+        "reason": "Bağlantı kayıtları somut wider triggers ve odak dönüşleri sağlıyor, ancak source trust alanı vermiyor ve target morphology eksikliği qualification gerektiriyor."
+      },
+      "support_ids": [],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000531/B003",
+          "facet_id": "F001",
+          "branch_gloss": "uykuda görülen düş",
+          "facet_statement": "Uyku sırasında görülen düş veya görüntü.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["12:36:8:1", "12:36:14:1"],
+          "trigger_refs": ["12:4", "12:100", "conn_7cba77f25f907696de13", "conn_07e8e4a7e94989d2a57c"],
+          "focus_return_refs": ["12:36:8:1", "12:36:14:1"],
+          "carrier": "أَرَىٰنِي biçimleri, uykuda görülen iki kişisel düşü taşır.",
+          "independent_trigger": "12:4 bağlantısı Yusuf'un ilk düşünü, 12:100 bağlantısı ise düş gerçekleşmesinin daha sonra açıkça adlandırılmasını verir.",
+          "activation": "Bu iki wider trigger, odaktaki düş taşıyıcılarına dönerek görülen sahnenin sonraki olaya açılabilen bir anlatı biçimi olduğunu görünür kılar.",
+          "resulting_reading": "Mahpusların rüyaları, yalnız kapalı imgeler olarak değil, sonradan olay ve yorum bekleyen düş bildirimleri olarak da duyulur.",
+          "boundary": "Bağlantı, iki mahpusun rüyalarının Yusuf'un ilk rüyasıyla aynı sonuca sahip olduğunu veya tüm düşleri tek bir modele indirdiğini söylemez."
+        },
+        {
+          "branch_ref": "root_000067/B002",
+          "facet_id": "F002",
+          "branch_gloss": "sonuca dönme ve varma",
+          "facet_statement": "Bir sözün sonucunu ya da varacağı anlamı açıklamak, geri döndürme çekirdeğinin yorum alanındaki uzantısıdır.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["12:36:23:2"],
+          "trigger_refs": ["12:6", "12:101", "conn_e084f9c163a97b0849eb", "conn_cc2cdd2d0ba044bd942d"],
+          "focus_return_refs": ["12:36:23:2"],
+          "carrier": "تَأْوِيلِهِ, düş görüntüsünü onun varacağı sonuca veya gerçek anlamına döndürme işini taşır.",
+          "independent_trigger": "12:6 bağlantısı tevil öğretimini Yusuf'un rüya nimetiyle, 12:101 bağlantısı ise bu öğretinin sonraki güvenilir yorumcu konumuyla birleştiğini bildirir.",
+          "activation": "Geniş bağlamdaki tevil öğretisi, odakta istenen açıklamayı yalnız anlık bir cevap değil, görüntüyü sonucuna döndüren yorum işlemi olarak yeniden çerçeveler.",
+          "resulting_reading": "Mahpusların isteği, düş biçiminin arkasındaki varışa ulaşma ve onu bildirme talebi olarak daha belirgin hale gelir.",
+          "boundary": "Bu branch activation yönetim, yağmur, akrabalık veya başka aynı kök dallarını tevil kelimesine taşımaz; yorum öğretisinin geniş bağlam temasını korur."
+        }
+      ],
+      "connection_refs": [
+        "conn_7cba77f25f907696de13",
+        "conn_e084f9c163a97b0849eb",
+        "conn_07e8e4a7e94989d2a57c",
+        "conn_cc2cdd2d0ba044bd942d"
+      ],
+      "context_refs": ["12:4", "12:6", "12:100", "12:101"],
+      "semantic_obligation_refs": []
+    }
+  ],
+  "friction_notes": [
+    "focus_word_alignment 30/30 kelimeyi çözüyor; odak kelime-kök eşlemesinde unresolved birim bulunmuyor.",
+    "Dokuz HFT kaydı legacy_unbound projection olarak görünür durumda, fakat hiçbirinde kesin context coordinate, root, attributed role ve focus return içeren exact HFT trace sağlanmamış; bu nedenle attributed activation tutulmadı.",
+    "Connection kayıtları wider ayet Arapçasını veriyor ancak hedef morfolojisini ve bağımsız sözlük çözümlemesini vermiyor; bu kayıtlarla kurulan uncandidate global bulgu qualified tutuldu.",
+    "12:41 ve 12:49 retrospektif kayıtları ayet düzeyinde adlandırılmış fakat exact context word trace içermiyor; ilgili focus taşıyıcıları korunarak sonuçlar qualified veya exploratory statüde bırakıldı.",
+    "Fatiha ayetleri external_ayat_refs ve ordered_context_refs içinde listeleniyor, fakat packet'te odakla dönen bir Fatiha support, connection veya selected context unit bulunmuyor; bu yüzden Fatiha activation'ı çıkarılmadı.",
+    "Packet'te semantic_obligations alanı bulunmadığı için tüm semantic_obligation_refs ve semantic_obligation_exclusions dizileri boş bırakıldı."
+  ]
+}

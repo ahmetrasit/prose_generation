@@ -27,6 +27,16 @@ genuinely additional detail. Organize paragraphs by the relation being
 developed, allowing several outline members to share a paragraph while keeping
 each contribution recoverable.
 
+Organize the revised prose under readerly thematic subsections in the v5 final
+prose style. Let the number of subsections be determined by the surah's actual
+themes, movements, images, and turns in attention; do not target a fixed
+count. Headings should name the movement the reader is entering, not the
+workflow stage or evidence category. Avoid generic headings such as
+"Başlangıç", "Kapanış", "Âyetlerin akışı", "Postlude", or "Özet" unless the
+heading is made specific to the concrete movement being developed. Use
+subsections to make the reader's path through the commentary legible, not to
+inventory the outline.
+
 In the prelude, replace announcements about what will be explored or explained
 with the concrete image or question itself. Keep the larger connection open
 without giving its completed payoff or narrating the schedule of the reading.

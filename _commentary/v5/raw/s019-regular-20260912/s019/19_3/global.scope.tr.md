@@ -1,0 +1,13 @@
+Âyet, geçmişteki bir anı açar: Zekeriya Rabbine seslenmiş ve bunu gizlice yapmıştır. {ar:نَادَىٰ, tr:nādā, gloss:seslendi} fiili ile {ar:نِدَآءً, tr:nidāʾan, gloss:çağrı} aynı yönelişi önce eylem, sonra çağrı olayı olarak kurar. {ar:رَبَّهُۥ, tr:rabbahu, gloss:Rabbine} sözü bu yönelişin kişisel ve doğrudan muhatabını belirler.
+
+Bu ilişki, {ar:خَفِيًّا, tr:khafiyyan, gloss:gizlice} kelimesinin görünürlükten ve başkalarının bilgisinden uzak kalma anlamını, {ar:نَادَىٰ, tr:nādā, gloss:seslendi} ve {ar:نِدَآءً, tr:nidāʾan, gloss:çağrı} kelimelerinin bir muhataba yöneltilen çağrı anlamıyla buluşturur. Gizli kalma çekirdeği çağrıya bağlandığında, {ar:خَفِيًّا, tr:khafiyyan, gloss:gizlice} bir şeyi görünürlükten ve bilgiden uzak tutan niteliğiyle çağrının özel biçimini taşırken, {ar:نَادَىٰ, tr:nādā, gloss:seslendi} ve {ar:نِدَآءً, tr:nidāʾan, gloss:çağrı} bir muhataba yöneltilen yüksek, açık ve duyulur çağrı kapasitesini gizli nitelik altında tutar. 7:55'te Rabb'e alçakgönüllü ve gizli çağrı buyruğu, 13:10'da ise gizli sözle açık sözün Allah katında birlikte görülmesi, bu iki kelimenin temasını somutlaştırır.
+
+Bu temas, 19:3'teki gizli çağrıyı kamusal ses yüksekliğine dayanmadan muhatabına ulaşan bir yakarış olarak belirginleştirir. Gizlilik böylece çağrının kesilmesi değil, kamusal gösteriden çekilip doğrudan muhataba yönelmesi olarak görünür.
+
+Bu okuma fiziksel sesin ne kadar uzağa yayıldığını, çevredeki insanların çağrıyı işitip işitmediğini veya başka bir şeyi saklayan geçişli bir eylemi ileri sürmez; korunan ilişki, gizli niteliğin yöneltilmiş çağrıyla birleşmesidir.
+
+Bunun yanında, {ar:رَبَّهُۥ, tr:rabbahu, gloss:Rabbine} adı, doğrudan muhatap olmanın yanında gözetileni eksik durumdan tamamlanmış duruma doğru adım adım yetiştiren bir bakım ilişkisine açılır. Bu yüzden Rabbine yöneltilen gizli çağrı, sağlanan paralellerde bir isteğin karşılık bulup çocuğun armağan edilmesine uzanan hareketin başlangıcı olarak da okunur.
+
+Kişisel Rabb taşıyıcısı, çağrı ile sonraki karşılık arasında gözetim ve tamamlama temasını kurar; gizli söz, bakım altında ilerleyen bir talep hareketine bağlanır. 21:89'da Zekeriya'nın Rabbinden bir mirasçı istemesi, 21:90'da bu çağrıya cevap verilerek Yahya'nın armağan edilmesi ve 3:39'da Yahya'nın dua sırasında ilan edilmesi, bu temasın üç ayrı bağlamdaki dayanaklarını verir.
+
+Bu bağlantılar, gizli çağrıyı yalnızca sessiz bir hitap olarak değil, Rabb'in bakımında karşılığa doğru taşınan bir talep hareketinin başlangıcı olarak görünür kılar. Bu ikinci okuma, 19:3'ün kendi cümlesinin isteğin içeriğini, cevabı, çocuğu veya zamanını söylediğini ileri sürmez; başka ayetlerdeki çağrı-istek-cevap paralelinin açtığı nitelikli bir genişletme olarak kalır.

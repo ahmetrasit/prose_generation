@@ -1021,10 +1021,12 @@ def load_v12_focus_trace_hermetic(surah: int, ayah: int) -> tuple:
 # ---------------------------------------------------------------------------
 
 _WALK_H1_RE = re.compile(r"^#\s+(.*)$")
-# Accepts em dash, en dash, plain hyphen, or colon as the ref/title separator.
-# S011, S049, S084's reader_a walk files use a plain hyphen; the original
-# em-dash-only pattern silently treated every ayah in those files as absent.
-_WALK_H2_RE = re.compile(r"^##\s+(\d+:\d+)\s*(?:[—–-]|:)\s*(.*)$")
+# The corpus uses punctuation separators (dash, colon, or pipe), a bare space
+# before the Arabic surface, and ref-only headings. Keep the title optional so
+# every observed form resolves to the same ayah block.
+_WALK_H2_RE = re.compile(
+    r"^##\s+(\d+:\d+)(?:(?:\s*[—–|:-]\s*|\s+)(.*))?$"
+)
 _WALK_H3_RE = re.compile(r"^###\s+(.*)$")
 
 

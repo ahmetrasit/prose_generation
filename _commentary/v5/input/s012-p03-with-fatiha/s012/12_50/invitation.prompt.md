@@ -1,0 +1,193 @@
+# V5 reading invitation — 12:50
+
+You are a fresh reading-invitation writer. Read the complete editorial prose
+before writing. It is your sole semantic source.
+
+Write two to four paragraphs of fluent, contemporary Turkish that reveal a
+surprising reading by following one or two main channels of resonance in the
+ayah. A channel is a connected background of meanings, images, actions, or
+relations through which the ayah can be heard and understood differently.
+Several editorial findings may together develop one channel. Summarize that
+connected movement and its consequence for the ayah's main meaning, rather
+than compressing findings individually. Give the reading's substance now;
+the invitation comes from understanding it, not from a promise of hidden depth.
+
+Before drafting, read the entire editorial prose and silently select the one
+or two channels with the strongest interpretive consequence and enough
+grounding to explain clearly. Favor channels that expand or shift what the
+ayah says, the relation it establishes, or what is at stake in its action or
+image. One fully developed channel is sufficient; add a second only when it
+offers a distinct consequential reading that can be explained within the
+invitation. No finding, channel, or major shift has an individual coverage
+claim. Unselected material may remain entirely in the full commentary.
+
+A channel may develop through grammar, sound, dialogue, a material process,
+time, imagery, or a conceptual relation. Resonance is not limited to acoustic
+effects, and an unusual image alone does not establish a channel. Use only
+connections the editorial prose actually develops. If it supplies no such
+channel, explain its strongest grounded reading without inventing connections
+or surprise.
+
+Begin inside the ayah's own words, images, actions, or relations and reveal a
+selected distinctive reading in the first paragraph. Keep the plain meaning
+reachable with only the orientation needed to understand the change. Do not
+spend an opening paragraph on routine explanation or front-load context about
+the surah, the ayah's position, or the commentary project.
+
+For each selected channel, begin with the expression that opens it, unfold the
+connected background, and show how the ayah reads or sounds against that
+background. Let a detail lead into the next through an intelligible relation
+or process, so the reader experiences the emerging reading. This is a movement
+of thought, not a mandatory sentence pattern or one paragraph per finding.
+Let the reader identify the expression being interpreted,
+where any nonordinary detail comes from, and what that detail changes in the
+reading. Briefly identify the word-family use, restricted form, collocation, or
+context that supplies an essential added detail, and preserve the concrete
+operation that makes the image work. Keep the ordinary reading and necessary
+qualification clear within this explanation; do not repeat them as a fixed
+formula. Preserve the particular object, process, or relation that makes this
+reading distinctive, and state its interpretive consequence for the ayah as a
+whole. Make intelligible what the familiar reading leaves less visible and
+what the expanded or shifted reading now lets the reader understand. Preserve
+the editorial's force: an exploratory possibility remains possible, while a
+developed shift must not be softened into a decorative association or a
+reassurance that everything means the same thing. A concrete
+account of how something is carried, transformed, lost, or restored must not
+shrink to a general statement about care, guidance, dependence, or goodness.
+Keep the details needed to make the selected channel work; omit side findings
+and shorten routine setup. If a channel cannot be explained faithfully from
+the editorial prose, choose another grounded channel or reading.
+
+When a non-focus ayah supplies a contribution used in the invitation, keep its
+reference from the editorial prose beside that contribution.
+
+Do not turn the invitation into a miniature inventory of the commentary's
+conclusions, or flatten distinct channels into a broad theme to include more
+material. Do not repair, extend, or supplement the editorial prose from memory
+or outside knowledge.
+
+Omit technical apparatus. Retain any qualification, source distinction, live
+alternative, or boundary whose absence would change the force or meaning of a
+chosen reading. Express it naturally beside the image or relation it qualifies.
+Favor positive explanations of the relation between layers: what remains in
+the foreground and what the resonance makes audible in the background. State
+how that background reinforces, expands, or shifts the understanding of the
+main meaning, with the source and degree of certainty clear. Reserve explicit
+exclusions for concrete ambiguities or live counter-evidence that need them.
+Repeated "this is not X" endings make a reading sound withdrawn; express the
+substantive qualification through what the reading does contribute wherever
+possible. Use varied, natural language rather than a repeated "second layer"
+formula, and preserve the force of expansions and shifts.
+Do not name branches, candidates, findings, scopes, evidence categories,
+ledgers, or workflow stages, or label the prose as numbered channels. Do not
+list findings serially.
+
+Use the established `{ar:..., tr:..., gloss:...}` syntax, consistent
+Turkish-readable transliteration, and short ordinary glosses. Keep Arabic
+anchors beside the explanations they ground. Within a paragraph, continue with
+the Turkish meaning where clear; provide the necessary local tag when a later
+paragraph interprets the carrier anew. Do not place Arabic script outside a
+valid tag.
+
+Build transitions within a channel through its shared object, action, or
+relation. If two channels are selected, they may occupy separate paragraphs;
+do not invent a link between them. Do not praise the commentary's quality,
+promise what the reader will find, manufacture suspense, recap at the end, or
+add a call to action. End on an image, relation, action, or tension already
+established by the selected reading.
+
+Before finishing, compare the invitation with the entire editorial prose:
+does the chosen channel reveal a consequential reading, or could the text have
+been written from the ordinary translation and a modest explanation alone?
+When the editorial supports a surprising channel, the latter fails this task.
+Can the reader follow the opening expression into a connected background and
+understand how that background expands or shifts the ayah's main meaning?
+Check the selected connections against their editorial explanation: can the
+reader tell where the nonordinary details come from, with the necessary
+qualifications intact? Repair generic explanation, isolated curiosities, or a
+compressed findings list by developing the selected channel. Do not add
+omitted channels merely for coverage. Do not output this check.
+
+Write only the invitation text to:
+
+`_commentary/v5/editorial/s012-p03-with-fatiha/s012/12_50/12_50.invitation.tr.md`
+
+Do not add a heading, wrapper label, index, ledger, evidence file, or any other
+artifact. Do not modify the editorial prose.
+
+After writing the invitation, run:
+
+```bash
+python3 _commentary/v5/validate_prose.py _commentary/v5/editorial/s012-p03-with-fatiha/s012/12_50/12_50.invitation.tr.md
+```
+
+If validation fails, repair only the reported mechanical file-contract issues
+and rerun it, for at most two repair cycles. Report the final validator result
+in your response.
+
+<editorial_prose>
+## Çağrının Yönü
+
+Kral Yusuf'u huzuruna getirtmek ister; elçi Yusuf'a ulaştığında Yusuf hemen gitmez. Elçiyi geri çevirir, kraldan ellerini kesen kadınların durumunu soruşturmasını ister ve kendi Rabbinin onların gizli düzenini bildiğini söyler. Ayet, çağrıdan varışa, varıştan geri dönüşe ve geri dönüşten açıklığa doğru ilerleyen bir sahne kurar.
+
+Cümlenin başındaki {ar:وَ, tr:ve, gloss:ve}, önceki bekleyişin ardından yeni uygulamayı açar (12:49). İlk {ar:قَالَ, tr:qāla, gloss:dedi}, kralın sözünü tamamlanmış ve sınırları belirli bir doğrudan konuşma olarak kurar; ardından gelen emir, söyleyişin resmî bir buyruk olarak işlediğini gösterir. Belirli tekil {ar:ٱلْمَلِكُ, tr:el-meliku, gloss:kral}, konuşanı bilinen makam sahibi yapar. Rüyayı gören kralın şimdi bir kişiyi harekete geçiren hükümdara dönüşmesi (12:43), sözü sıradan bir konuşmadan icra edilecek karara taşır.
+
+Bu karar {ar:ٱئْتُونِى, tr:i'tûnî, gloss:bana getirin} ile eyleme bağlanır. Çoğul muhataplı emir, işi yapacak görevlileri; birinci tekil kişi eki, kralı varış noktası olarak aynı yüzeyde gösterir. Yusuf taşınacak kişi, görevliler de onu kralın huzuruna ulaştıracak kişiler olur. Kelime yalın bir gelme isteğinden daha belirli bir getirme düzeni kurar; kesik başlangıcı ve uzayan sesi de dileği değil hemen uygulanacak buyruğu duyurur. Ona gönderme yapan {ar:بِهِۦ, tr:bihî, gloss:onu}, Yusuf'u adı yeniden söylenmeden emrin nesnesi halinde tutar ve önceki hikâyeyi yeni çağrının içine çeker.
+
+Buyruğun icrası ilk {ar:فَ, tr:fa, gloss:derken/sonra} ile görünür: kararın ardından hareket gelir. {ar:لَمَّا, tr:lammā, gloss:...-ince}, elçinin ulaşmasını arka planda kalan bir bilgi değil, Yusuf'un cevabını başlatan eşik yapar. {ar:جَآءَهُ, tr:jā'ahu, gloss:ona ulaştı} tamamlanmış bir teması anlatır; hareket eden elçi, kendisine ulaşılan kişi Yusuf'tur. Belirli insan görevlisi olan {ar:ٱلرَّسُولُ, tr:er-rasūlu, gloss:elçi}, kral adına haber taşıyan saray elçisidir. Bu görev iki insan makamı arasında söz götürüp getiren bir ileti kanalı kurar. Böylece Yusuf'un krala teslim edilmesini bekleyen düz hareket, onunla temas kurulması noktasında yeni bir yöne açılır.
+
+Tam bu temasta ikinci {ar:قَالَ, tr:qāla, gloss:dedi} gelir. Kraldakiyle aynı tamamlanmış biçim, iki konuşmaya biçimsel bir eşlik verir; fakat bu kez öznesi ayrıca yinelenmeden Yusuf'a döner ve ayetin uzun doğrudan sözünü yönetir. Aynı söyleyiş kalıbı, kralın çağrısını yürürlüğe koyan sözden Yusuf'un çağrı yolunu geri çeviren, soruşturma isteyen ve bilgiye dayanan karşı-sözüne geçer. Yusuf'un cevabı basit bir karşılık değil, saray buyruğunun önüne bir işlem sırası koyan sözlü müdahaledir.
+
+Bu müdahalenin ilk kelimesi {ar:ٱرْجِعْ, tr:irji', gloss:dön}dür. Yalın ikinci tekil emir, elçiyi geri hareketin faili yapar. Geri dönmek, Yusuf'a doğru açılmış güzergâhı geldiği yetki kaynağına yeniden yöneltir. Emrin gırtlaktan kesilerek kapanan sesi, ileri giden görevin bir anda durup yön değiştirmesini duyurur; muhatap yine elçidir. Hemen ardından gelen {ar:إِلَىٰ, tr:ilā, gloss:-e doğru}, dönüşün hedefini belirler. {ar:رَبِّكَ, tr:rabbika, gloss:efendin}deki ikinci tekil kişi eki, elçinin bağlı bulunduğu insanî efendiyi gösterir; burada sahiplik ve yönetme basıncı kralın makamında toplanır. Yusuf'un daha önce bir efendiye ulaştırılacak aracı sözünü yeniden işleyen bu hitap, dönüş yolunun hangi makama varacağını açık eder (12:42).
+
+Dönüş emrinin hemen arkasındaki ikinci {ar:فَ, tr:fa, gloss:ve sonra}, iki işi tek bir prosedürde bağlar: elçi önce dönecek, sonra soracaktır. {ar:سْـَٔلْهُ, tr:is'alhu, gloss:ona sor}, ikinci tekil emirle elçiyi, üçüncü tekil kişi ekiyle sorunun muhatabını belirler. Kısa ve sıkı sesi, doğrudan iletilecek resmî talebi duyurur. Yusuf elçiye konuşur; elçi krala soracaktır. İlk kraliyet emri böylece aynı ileti kanalı içinde kaynağına dönen bir hesap sorusuna dönüşür.
+
+## Sorunun Görünür Yüzü
+
+İç soru {ar:مَا, tr:mā, gloss:ne} ile başlar ve {ar:بَالُ, tr:bālu, gloss:durum/iş} ile merkez kazanır. “Ne”, bütün durum öbeğinin üzerine yayılır. Nadir görülen bu isim, fiille anlatılan tek bir olayı değil, halin, işin, kaygının ve açıklanması gereken meselenin kendisini soruya taşır. Önce ortada bir mesele vardır, sonra bu meselenin kime ait olduğu ve hangi eylemle tanındığı açıklanır. Önceki saray konuşmalarıyla bilinen olayın (12:31, 12:51) burada cevaplanması gereken bir dosya olarak geri gelmesi, sorunun kapsamını görünür kılar.
+
+Bu bağlantı, geri dönüşü geçmişte kalan olayın yeniden görülmesi olarak açar: Yusuf'u zorlayan ilk karşılaşma ve ardından gelen hapis (12:23, 12:33), kadınların daha sonra tanıklık ederek itirafta bulunması (12:51) ve kralın huzuruna kabulden önce açıklığın tamamlanması (12:54) aynı çizgide buluşur. Yusuf'un çıkışı böylece yer değiştirmeyi, yetkili makam önünde dosyanın yeniden açılması ve kamusal olarak aydınlatılması şartına bağlar.
+
+Sorunun belirlediği topluluk {ar:ٱلنِّسْوَةِ, tr:en-nisve, gloss:kadınlar topluluğu}dur. Belirli çoğul biçim, herhangi bir kadın kalabalığını değil, saray çevresinde sınırları çizilmiş bilinen grubu gösterir. Ardındaki {ar:ٱلَّٰتِى, tr:elletî, gloss:ki onlar}, topluluk adını ona bağlanan eyleme geçirir; “kimler?” sorusu “hangi eylemle tanınanlar?” sorusuna dönüşür. Göreli kelimenin yumuşak bitişi bu bağı akıcı tutar, fakat bağladığı eylemin sertliğini örtmez. Okuyuş farklılıkları ses dokusunu etkileyebilse de gönderme aynı kadınlar topluluğunda kalır. Soyut mesele, belirli grup ve ardından gelen delil cümlesiyle daralarak görünür bir kanı noktasına ulaşır.
+
+Bu kelime dizisinin maddi katkısı, soyut meseleyi yaralanabilir bir bedende kayıtlı olaya çevirmesidir. {ar:قَطَّعْنَ, tr:qaṭṭa'na, gloss:kesip parçaladılar} dişil çoğul faille eylemi kadınlara, tamamlanmış geçmiş zamanla soruşturmayı gerçekleşmiş bir olayın hesabına bağlar. Kalıbın yoğunlaştırdığı kesme, küçük bir dokunuştan çok bütünlüğü bozan, şiddetli veya tekrarlı bir koparmayı duyurur; çiftleşmiş ses de bu baskıyı işitsel olarak sertleştirir. Nesne olan {ar:أَيْدِيَهُنَّ, tr:eydîhinne, gloss:elleri}, “onların elleri” diyerek hem yaralanan organı hem de sahiplerini aynı yüzeyde gösterir. Daha önce sarayda ortaya çıkan aynı el-kesme görüntüsü (12:31) burada şaşkınlık anısından resmî soruşturmanın deliline dönüşür. Bu belirli yara, başka kesme cezalarıyla karışmadan sorunun sınırını çizen somut olay olarak kalır.
+
+Bu bedensel kayıt aynı zamanda eylem kapasitesini görünür kılar. Göreli cümle eller üzerinde kapanır: mesele, topluluk ve kesme eyleminden sonra gözle görülen bir ize varır. Eller olayın izlenebilir maddi dayanağı olarak soruşturmayı taşır; bu iz, kadınların niyetine ilişkin hükmü açık bırakırken cevaplandırılması gereken sorunun zeminini sağlamlaştırır.
+
+Son cümle {ar:إِنَّ, tr:inna, gloss:şüphesiz} ile yeni bir vurgu alanı açar. Yusuf'un sözü soruşturma emrinden, gizli mesele hakkında kesinlik taşıyan bilgi cümlesine geçer. {ar:رَبِّي, tr:rabbî, gloss:Rabbim}, birinci tekil kişi ekiyle bilgiyi soyut bir “bilinir” sözü olmaktan çıkarır; Yusuf'un bağlılık ve tanıklık noktasını gösterir. Daha önce kadınların düzeninden korunmak için Rabbine yönelen çağrı (12:33) burada gizli olanın bilgisine bağlanır. Başta kişiyi taşıma işini tamamlayan {ar:بِهِۦ, tr:bihî, gloss:onu} bir şeyi getirme düzenine bağlanırken, sondaki {ar:بِ, tr:bi, gloss:-i/-ile} bilme sıfatını bilinen meseleye bağlar: bilgi şimdi bir kişiye değil, kadınların belirli düzenine yönelir.
+
+Bu düzen {ar:كَيْدِهِنَّ, tr:kaydihinne, gloss:onların gizli düzeni} ile adlandırılır. Dişil çoğul iyelik, düzeni bu kadınlara ait kılar; kelimenin taşıdığı dolaylılık, önceden kurulmuşluk ve emekle işlenmişlik basıncı, bunun rastlantı diye geçiştirilemeyecek bir hesap olduğunu gösterir. “Kadınların durumu nedir?” sorusu görünür yarayı, onun ardındaki stratejiyi ve kamusal açıklama ihtiyacını aynı hatta toplar. Önceki zorlayıcı karşılaşma ve gizli düzen basıncıyla (12:23, 12:33) temas eden bu ad, soruşturmanın belirli nesnesini keskinleştirir. Kelimedeki kısalıp kesilen ses, düzeni sıkıştırılmış ve kapalı bir nesne gibi tutar; hemen ardından gelen bilgi cümlesi için yer açar. Bu bağlantının kapsamı, kadınların belirli düzenini soruşturulabilir bir nesne olarak kurar.
+
+{ar:عَلِيمٌ, tr:alîmun, gloss:her şeyi bilen}, vurgulu yapının yüklemi olarak cümleyi kapatır. Tanvinli isim biçimi geçici bir haberden çok süreklilik taşıyan, gerçeği kavrayan bir bilme niteliği duyurur. Uzun ünlü ve nazal kapanış, kadınların gizli düzeni hakkındaki bilgiyi işitsel bir mühürle sonlandırır. Bilme ile ayırt edici işaret ve yolu gösteren belirti basıncı aynı kelimede buluştuğunda, ellerdeki görünür yara gizli düzene götüren bir iz gibi okunabilir. Bu işaret ufku maddi yaradan gizli düzene uzanır; ayrıntıların tamamı soruşturmanın ilerleyen açıklığına bırakılır.
+
+Bu yerel bağlantı, çağrının taşıdığı nesneyi değiştirir: kralın {ar:ٱئْتُونِى, tr:i'tûnî, gloss:bana getirin} sözüyle Yusuf'un bedenini huzura taşıyan ileri hareket, {ar:جَآءَهُ, tr:jā'ahu, gloss:ona ulaştı} ve {ar:ٱلرَّسُولُ, tr:er-rasūlu, gloss:elçi} üzerinden Yusuf'a kadar gelir. Yusuf'un {ar:قَالَ, tr:qāla, gloss:dedi} sözüyle başlayan {ar:ٱرْجِعْ, tr:irji', gloss:dön} ise aynı taşıyıcıyı kaynağına geri yollar. Çağrının gerçekliği ve varışın bedensel niteliği korunur; sözlü dönüş bunların önüne, Yusuf'un sorusunu iki makam arasında taşıyan bir ileti hareketi ekler. Bu yerel görünüm özgürlüğü yalnız yer değiştirme olmaktan çıkarıp açıklıktan sonra gerçekleşecek kamusal bir varışa bağlar.
+
+Bu bağlantının katkısı, soruyu görünür bir izden kamusal incelemeye uzanan bir işlem olarak kurmasıdır. {ar:سْـَٔلْهُ, tr:is'alhu, gloss:ona sor}nun muhataptan bilgi isteme işi, {ar:بَالُ, tr:bālu, gloss:durum/iş}in içte taşınan mesele anlamıyla birleşir. {ar:قَطَّعْنَ, tr:qaṭṭa'na, gloss:kesip parçaladılar} ve {ar:أَيْدِيَهُنَّ, tr:eydîhinne, gloss:elleri} bu meseleyi görünür yaraya bağlar. Kesme fiilinin bedensel anlamı korunurken, ayırma hareketi sorunun sorumluluğu ve hükmü birbirinden ayırmaya yönelen usulünü de renklendirir. Sondaki {ar:عَلِيمٌ, tr:alîmun, gloss:gerçeği kuşatan bilgi sahibi}, yarayı gizli düzene yönelten ayırt edilebilir bir işaret ufku açar. Yara soruşturmayı başlatan maddi iz olarak kalır; ayrıntıların bütünü bu izden sonraki kamusal açıklıkta belirir.
+
+Bu bağlantının getirdiği görüntü, düzenin kendi eylem araçları üzerinde bedenî sonuç bulmasıdır. {ar:أَيْدِيَهُنَّ, tr:eydîhinne, gloss:elleri}, gerçek el organını korurken güç ve bir işi yapabilme yeterliği basıncını da taşıyabilir; {ar:كَيْدِهِنَّ, tr:kaydihinne, gloss:onların gizli düzeni} ise yoğun çabayı ve düzen kurma işini kadınlara bağlar. Bu iki anlam temas ettiğinde, düzenin kurulmasında kullanılan araçların üzerinde olayın bedenî sonucu belirir; yapılan iş kendi eylem araçlarına geri vurmuş gibi bir görüntü açılır. Görüntünün kapsamı kesilme olayına eklenen bu geri tepme ilişkisine kadar uzanır; kadınların niyeti hakkında kesin hüküm kurma noktasını açık bırakır.
+
+{ar:رَبِّكَ, tr:rabbika, gloss:efendin} ile {ar:رَبِّي, tr:rabbî, gloss:Rabbim} aynı otorite sözünü iki farklı gönderme ve işleve dağıtır. Elçinin döneceği “senin efendin” insan kraldır; ondan olay hakkında cevap ve kamusal soruşturma istenir. Yusuf'un “Rabbim” dediği ise besleyip yetiştiren, sahip çıkan ve gizli hakikati bilen ilahî otoritedir. Böylece kralın {ar:ٱلْمَلِكُ, tr:el-meliku, gloss:kral} olarak kullandığı insanî yargı alanı ile {ar:عَلِيمٌ, tr:alîmun, gloss:her şeyi bilen}de kapanan ilahî bilgi aynı düzleme eritilmeden aynı otorite ufkunda tutulur. Yakın hapishane konuşmasındaki {ar:مُّتَفَرِّقُونَ, tr:mutafarriqūn, gloss:bölünmüş} sözü dağılmış otoriteleri, {ar:سُلْطَٰنٍ, tr:sulṭān, gloss:kanıtlayıcı yetki} haklı çıkaran dayanağı, {ar:حُكْمُ, tr:ḥukmu, gloss:hüküm} ise insanlar arasındaki yargıyı öne çıkarır (12:39, 12:40). “Senin efendin”den “Rabbim”e geçiş, Yusuf'un Rabbine yönelen korunma talebiyle de birleşir (12:33).
+
+## Açıklığın Yolculuğu
+
+Bu yakın bağlantı, ayette hareketten önce bilginin yerleştiğini görünür kılar. Bilginin aktarılmasını anlatan {ar:نَبِّئْ, tr:nabbi', gloss:haber ver} ve bilginin Rabbinden öğrenilmiş bir kaynağa bağlandığını gösteren {ar:عَلَّمَنِى, tr:allamanî, gloss:bana öğretti}, kişisel hünerden önce gelen bir bilgi yolunu açar (12:36, 12:37). Daha sonra {ar:يَعْلَمُ, tr:ya'lemu, gloss:bilir} bilme eylemini yeniden görünür kılar (12:46). Bunlar odaktaki {ar:ٱرْجِعْ, tr:irji', gloss:geri dön} ve {ar:عَلِيمٌ, tr:alîmun, gloss:gerçeği bilen} ile buluştuğunda, önce raporun, açıklamanın ve soruşturmanın; sonra kişinin bedenen gelişinin yerleştiği bir sıra belirir. Bu sıra Yusuf'un emrini bilgi ve doğrulama için işleyen bir eşik olarak açar; yakın bağlam davranışı taktik bir gecikme olarak da okunabilir.
+
+Bu bağlantı, soru ve elçi hattını önceki unutma kopuşuna karşı dayanıklı bir kamu görevi olarak görünür kılar. {ar:رَبَّهُ, tr:rabbahu, gloss:efendisine} yönelen hatırlatma yolu, unutmanın araya girmesiyle kesintiye uğrar; {ar:أَنسَىٰ, tr:ansā, gloss:unutturdu} unutmayı ve {ar:لَبِثَ, tr:labiṯa, gloss:hapiste kaldı} bu kopuşun uzattığı hapsi taşır (12:42). Sonra {ar:ٱدَّكَرَ, tr:iddakara, gloss:hatırladı} ile hatırlama geri gelir ve {ar:أَرْسِلُ, tr:arsilu, gloss:göndereyim} yeni bir taşıyıcıyı harekete geçirir (12:45, 12:46). Odaktaki elçi, dönüş ve soru üçlüsü böylece muhatabı ve konusu belirli bir ileti görevini kurar; sahne önceki kopuşun ardından bilginin güvenilir bir taşıyıcıyla yeniden dolaşıma girmesini görünür kılar.
+
+Bu açık soru farklı tanıklıkları ayıran bir alan kurar. Sarayda rüyanın çözümü istenirken {ar:أَفْتِ, tr:afti, gloss:yorumla} talebi krizi açıklayacak sözü arar (12:43). Sonraki tanıklıklarda {ar:خَطْبُ, tr:khaṭbu, gloss:ağır mesele} olayın konusunu, {ar:رَاوَدَ, tr:rāwada, gloss:eyleme yöneltti} incelenen eylemi, {ar:حَصْحَصَ, tr:ḥaṣḥaṣa, gloss:ortaya çıktı} hakikatin görünür hale gelişini adlandırır. {ar:حَقُّ, tr:ḥaqq, gloss:hakikat} kurulmuş sonucu, {ar:عَلِمْ, tr:ʿalim, gloss:bildi} tanıklığın bilmeye dönüşmesini, {ar:صَّٰدِقِينَ, tr:ṣādiqīn, gloss:doğru söyleyenler} de konuşanların doğruluk niteliğini öne çıkarır (12:51). Toplu inkâr, tekil itiraf ve ayrışan sesler, Yusuf'un burada istediği açık soruyla birlikte görünür olur; kralın olayı zaten bilip yalnızca teyit aramış olması da bu usulî açıklamanın yanında canlı kalır.
+
+Bu bağlam, {ar:كَيْدِهِنَّ, tr:kaydihinne, gloss:onların gizli düzeni} sözündeki sorumluluğu belirli bir ihanet eylemi ve görünmeyen şartlar içinde sınar. {ar:أَخُنْ, tr:akhun, gloss:ihanet etmedim} ve {ar:خَآئِنِينَ, tr:khā'inīn, gloss:hainler}, meselenin belirli bir ihanet eylemine doğru daralabileceğini gösterir; {ar:غَيْبِ, tr:ghayb, gloss:gıyapta} bu eylemi görünmeyen şartlarda sınar (12:52). Aynı akıştaki {ar:أُبَرِّئُ, tr:ubarri'u, gloss:kendimi bütünüyle aklamam}, tam bir kendini ayırmayı askıda tutar; {ar:نَفْسِ, tr:nafs, gloss:benlik} ahlâkî riskin dışarıdaki düzene ek olarak insanın kendi benliğinde de bulunabileceğini açar (12:53). Bu sözlerin sahipliği bütünüyle tek bir sese bağlanmadığı için, odaktaki somut suçlama korunurken son ahlâkî sözün atfı açık kalır.
+
+Bu bağlantı, geri dönüş emrinin sonraki çağrının sonucunu nasıl değiştirdiğini gösterir. Yeniden beliren {ar:مَلِكُ, tr:meliku, gloss:kral} ve {ar:ٱئْتُ, tr:i'tū, gloss:getirin}, ilk çağrının insanî ve kamusal anlamını sürdürür; fakat ardından {ar:كَلَّمَ, tr:kallama, gloss:doğrudan konuştu}, {ar:مَكِينٌ, tr:makīn, gloss:etkin bir mevkide} ve {ar:أَمِينٌ, tr:amīn, gloss:güvenilir} gelir (12:54). İki çağrı arasındaki {ar:ٱرْجِعْ, tr:irji', gloss:geri dön} eşiği sayesinde Yusuf ikinci gelişte yalnızca getirilen kişi olarak kalmaz; konuşan, yetkili bir konuma yerleşen ve güvenilir sayılan kişi olarak huzura çıkar. Bu yeni statüyü doğrudan kralın değerlendirmesinin üretmiş olması da açık bir açıklamadır; dönüş emrinin erişimin niteliğini değiştiren eşik oluşu, bu ihtimalle birlikte okunur.
+
+Bu bağlantı, bilgi niteliğini korunacak kaynakların yönetimine taşır. Odaktaki {ar:عَلِيمٌ, tr:alîmun, gloss:bilgiyi gerçeğiyle kavrayan}, gizli düzenin ilahî bilgi altında bulunduğunu söylerken; sonraki sahnede {ar:خَزَآئِنِ, tr:khazā'in, gloss:hazineler} korunacak emanetleri, {ar:حَفِيظٌ, tr:ḥafīẓ, gloss:koruyucu} gözetme niteliğini, yine {ar:عَلِيمٌ, tr:alîmun, gloss:bilen} ise bunu taşıyan bilgiyi gösterir (12:55). Böylece gerçeği kavrayan bilgi, geçmiş bir suçlamayı aydınlatan tanıklıktan kamuya ait olanı koruma becerisine doğru genişler. Teknik yeterlilik anlamı da bu bağlamda canlıdır; koruyuculuk ile bilgi arasındaki süreklilik, yakın sahnenin açtığı nitelikli bir bağlantı olarak kalır.
+
+Bu maddi temas, soru sormayı içteki tanıklığı dikkatli bir baskıyla dışarı çıkaran bir süreç olarak renklendirir. Hapishane konuşmasındaki {ar:أَعْصِرُ, tr:a'ṣiru, gloss:sıkarım} ve daha sonraki kıtlık cümlesindeki {ar:يَعْصِرُونَ, tr:ya'ṣirūn, gloss:sıkarlar}, basınçla içerideki sıvının dışarı çıkmasını gösterir (12:36, 12:49). Bu görüntü {ar:سْـَٔلْهُ, tr:is'alhu, gloss:ona sor} ile buluştuğunda, olayın içine yerleşmiş tanıklığı dikkatli bir baskıyla dışarı alma süreci belirir. {ar:قَطَّعْنَ, tr:qaṭṭa'na, gloss:kesip parçaladılar} ise çıkarılan tanıklığın sonunda ayrıştırılıp bir hükme yönelmesini mümkün kılan ikinci bir işlem basıncı taşır. Sıkma görüntüsü burada soruşturmanın süreç biçimini aydınlatır; 12:49'daki tarımsal cümle kendi hasat bağlamını korur.
+
+Bu bağlantı, geri göndermeyi delili uygun zamana kadar koruyan bir hareket gibi duyurur. {ar:حَصَد, tr:ḥaṣad, gloss:biçti} hasadın kontrollü kesimini ve {ar:ذَرُ, tr:dhar, gloss:başaklarında bırakın} ürünün hemen tüketilmeyip yerinde tutulmasını gösterir (12:47). {ar:تُحْصِنُ, tr:tuḥṣin, gloss:koruyup saklarsınız} ise koruyucu bir çevrede muhafazayı anlatır (12:48). Bu uzak görüntüler {ar:ٱرْجِعْ, tr:irji', gloss:geri gönder} ile temas ettiğinde Yusuf'un çağrıyı uygun açıklık gelene kadar geri çevirmesi, soruşturmanın değerli maddesini elde tutmaya benzer. Sondaki {ar:عَلِيمٌ, tr:alîmun, gloss:ayırt ederek bilen}, bu saklamayı kapalı bir biriktirme değil, hangi delilin neyi gösterdiğini ayırt eden bir bilgiye bağlar. Bu tarımsal görüntü, odakta soruşturmanın işlevini değil, onun zamanlama ve delil değerini aydınlatır.
+
+Fâtıha bağlamının katkısı, bu iki otoriteyi daha geniş bir ufukta duyurmaktır. Oradaki {ar:رَبِّ الْعَالَمِينَ, tr:rabbil-âlemîn, gloss:âlemlerin Rabbi}, bütün varlıkların Rabbi ufkunu; {ar:مَٰلِكِ يَوْمِ الدِّينِ, tr:mâliki yevmid-dîn, gloss:hesap gününün sahibi} ise nihai hüküm sahibini anımsatır (1:2, 1:4). Bu ifadeler dış bağlamdan gelir; 12:50'nin lafzına eklenmeden, burada soruşturmayı yürüten insanî makam ile bilginin sahibi olan ilahî Rabbin üzerinde duran kapsamı görünür kılar. Elçinin krala dönen yolu ile Yusuf'un Rabbine bağlanan bilgi cümlesi, böylece açıklık ve hükmün farklı katmanlarını açık tutar.
+
+Son söz olan {ar:عَلِيمٌ, tr:alîmun, gloss:her şeyi bilen}, insanlardan cevap isteyen soruşturmayı gizli düzenin zaten kuşatıldığı bir bilgi ufkuna yerleştirir. Eller bu düzenin görünür izi, soru bu izin kamusal açıklama yoludur; ilahî bilme niteliği ikisini aşan bir kavrayışı cümle sonunda tutar. Yusuf'un saraya gidişi bu açıklığın ardından gelecektir; 12:50, o gelişten önce çağrının yönünü ve sorunun açtığı meselenin bilgiye bağlanmasını tamamlar.
+
+</editorial_prose>

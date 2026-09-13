@@ -1,0 +1,183 @@
+# V5 reading invitation — 12:44
+
+You are a fresh reading-invitation writer. Read the complete editorial prose
+before writing. It is your sole semantic source.
+
+Write two to four paragraphs of fluent, contemporary Turkish that reveal a
+surprising reading by following one or two main channels of resonance in the
+ayah. A channel is a connected background of meanings, images, actions, or
+relations through which the ayah can be heard and understood differently.
+Several editorial findings may together develop one channel. Summarize that
+connected movement and its consequence for the ayah's main meaning, rather
+than compressing findings individually. Give the reading's substance now;
+the invitation comes from understanding it, not from a promise of hidden depth.
+
+Before drafting, read the entire editorial prose and silently select the one
+or two channels with the strongest interpretive consequence and enough
+grounding to explain clearly. Favor channels that expand or shift what the
+ayah says, the relation it establishes, or what is at stake in its action or
+image. One fully developed channel is sufficient; add a second only when it
+offers a distinct consequential reading that can be explained within the
+invitation. No finding, channel, or major shift has an individual coverage
+claim. Unselected material may remain entirely in the full commentary.
+
+A channel may develop through grammar, sound, dialogue, a material process,
+time, imagery, or a conceptual relation. Resonance is not limited to acoustic
+effects, and an unusual image alone does not establish a channel. Use only
+connections the editorial prose actually develops. If it supplies no such
+channel, explain its strongest grounded reading without inventing connections
+or surprise.
+
+Begin inside the ayah's own words, images, actions, or relations and reveal a
+selected distinctive reading in the first paragraph. Keep the plain meaning
+reachable with only the orientation needed to understand the change. Do not
+spend an opening paragraph on routine explanation or front-load context about
+the surah, the ayah's position, or the commentary project.
+
+For each selected channel, begin with the expression that opens it, unfold the
+connected background, and show how the ayah reads or sounds against that
+background. Let a detail lead into the next through an intelligible relation
+or process, so the reader experiences the emerging reading. This is a movement
+of thought, not a mandatory sentence pattern or one paragraph per finding.
+Let the reader identify the expression being interpreted,
+where any nonordinary detail comes from, and what that detail changes in the
+reading. Briefly identify the word-family use, restricted form, collocation, or
+context that supplies an essential added detail, and preserve the concrete
+operation that makes the image work. Keep the ordinary reading and necessary
+qualification clear within this explanation; do not repeat them as a fixed
+formula. Preserve the particular object, process, or relation that makes this
+reading distinctive, and state its interpretive consequence for the ayah as a
+whole. Make intelligible what the familiar reading leaves less visible and
+what the expanded or shifted reading now lets the reader understand. Preserve
+the editorial's force: an exploratory possibility remains possible, while a
+developed shift must not be softened into a decorative association or a
+reassurance that everything means the same thing. A concrete
+account of how something is carried, transformed, lost, or restored must not
+shrink to a general statement about care, guidance, dependence, or goodness.
+Keep the details needed to make the selected channel work; omit side findings
+and shorten routine setup. If a channel cannot be explained faithfully from
+the editorial prose, choose another grounded channel or reading.
+
+When a non-focus ayah supplies a contribution used in the invitation, keep its
+reference from the editorial prose beside that contribution.
+
+Do not turn the invitation into a miniature inventory of the commentary's
+conclusions, or flatten distinct channels into a broad theme to include more
+material. Do not repair, extend, or supplement the editorial prose from memory
+or outside knowledge.
+
+Omit technical apparatus. Retain any qualification, source distinction, live
+alternative, or boundary whose absence would change the force or meaning of a
+chosen reading. Express it naturally beside the image or relation it qualifies.
+Favor positive explanations of the relation between layers: what remains in
+the foreground and what the resonance makes audible in the background. State
+how that background reinforces, expands, or shifts the understanding of the
+main meaning, with the source and degree of certainty clear. Reserve explicit
+exclusions for concrete ambiguities or live counter-evidence that need them.
+Repeated "this is not X" endings make a reading sound withdrawn; express the
+substantive qualification through what the reading does contribute wherever
+possible. Use varied, natural language rather than a repeated "second layer"
+formula, and preserve the force of expansions and shifts.
+Do not name branches, candidates, findings, scopes, evidence categories,
+ledgers, or workflow stages, or label the prose as numbered channels. Do not
+list findings serially.
+
+Use the established `{ar:..., tr:..., gloss:...}` syntax, consistent
+Turkish-readable transliteration, and short ordinary glosses. Keep Arabic
+anchors beside the explanations they ground. Within a paragraph, continue with
+the Turkish meaning where clear; provide the necessary local tag when a later
+paragraph interprets the carrier anew. Do not place Arabic script outside a
+valid tag.
+
+Build transitions within a channel through its shared object, action, or
+relation. If two channels are selected, they may occupy separate paragraphs;
+do not invent a link between them. Do not praise the commentary's quality,
+promise what the reader will find, manufacture suspense, recap at the end, or
+add a call to action. End on an image, relation, action, or tension already
+established by the selected reading.
+
+Before finishing, compare the invitation with the entire editorial prose:
+does the chosen channel reveal a consequential reading, or could the text have
+been written from the ordinary translation and a modest explanation alone?
+When the editorial supports a surprising channel, the latter fails this task.
+Can the reader follow the opening expression into a connected background and
+understand how that background expands or shifts the ayah's main meaning?
+Check the selected connections against their editorial explanation: can the
+reader tell where the nonordinary details come from, with the necessary
+qualifications intact? Repair generic explanation, isolated curiosities, or a
+compressed findings list by developing the selected channel. Do not add
+omitted channels merely for coverage. Do not output this check.
+
+Write only the invitation text to:
+
+`_commentary/v5/editorial/s012-p03-with-fatiha/s012/12_44/12_44.invitation.tr.md`
+
+Do not add a heading, wrapper label, index, ledger, evidence file, or any other
+artifact. Do not modify the editorial prose.
+
+After writing the invitation, run:
+
+```bash
+python3 _commentary/v5/validate_prose.py _commentary/v5/editorial/s012-p03-with-fatiha/s012/12_44/12_44.invitation.tr.md
+```
+
+If validation fails, repair only the reported mechanical file-contract issues
+and rerun it, for at most two repair cycles. Report the final validator result
+in your response.
+
+<editorial_prose>
+Bu âyet, kralın gördüğü düşe saray çevresinin verdiği toplu cevabı kaydeder. {ar:قَالُوا, tr:qālū, gloss:dediler} diyerek sözlerini ortaya koyarlar; gördüklerini {ar:أَضْغَاثُ أَحْلَامٍ, tr:aḍghāthu aḥlāmin, gloss:karışık düşler} diye sınıflandırırlar. Ardından {ar:وَ, tr:wa, gloss:ve} ile {ar:مَا, tr:mā, gloss:olumsuzluk} birleşir; topluluk kendisini {ar:نَحْنُ, tr:naḥnu, gloss:biz} diye öne çıkarır ve {ar:تَأْوِيلِ الْأَحْلَامِ, tr:taʾwīli al-aḥlāmi, gloss:düşlerin yorumuna döndürme} alanında {ar:عَالِمِينَ, tr:ʿālimīna, gloss:bilenler} olmadığını söyler. Açık cümle şudur: Bunlar karışık düşlerdir; biz böyle düşlerin yorumunu bilenlerden değiliz.
+
+Bu cevabın ilk hareketi, görüntüyü açıklamak değil, onun ne sayılacağını belirlemektir. {ar:قَالُوا, tr:qālū, gloss:dediler} fiilinin tamamlanmış çoğul yapısı, topluluğun tek tek ihtimaller sıralamak yerine ortak bir hüküm verdiğini duyurur. Fiilin hemen ardından gelen {ar:أَضْغَاثُ, tr:aḍghāthu, gloss:karışık demetler} kelimesi de yalnız bilgi bildirmez; düşü bir kategoriye yerleştiren değerlendirmeyi öne alır. Yalın yüklem olarak önce gelmesi, sarayın önce gördüğünü sınıflandırıp sonra bu sınıflandırmanın malzemesini {ar:أَحْلَامٍ, tr:aḥlāmin, gloss:düşler} diye belirttiğini gösterir.
+
+Bu bağlantının okuyucuya kattığı ilk somutluk, “karışık” hükmünü çözülmemiş bir tutuş olarak duyurmasıdır. {ar:أَضْغَاثُ, tr:aḍghāthu, gloss:karışık demetler} bir elde bir araya getirilen yaş ve kuru otlarla ince dal parçalarının oluşturduğu demeti taşır; {ar:أَحْلَامٍ, tr:aḥlāmin, gloss:düşler} bu maddi görüntüyü düşlere bağlar. Parçalar tek bir tutuşta toplanmış, fakat içlerindeki unsurlar henüz ayrıştırılmamıştır. Bitki ayrıntısı burada kelimenin görüntü katkısıdır; cümlenin nesnesi yine düşlerdir. Ses bakımından ağır ve pürüzlü dokunun daha akıcı düş kelimesinden önce gelmesi, karışıklık hükmüne yoğun bir darbe etkisi ekleyebilir. Bu, anlamı belirleyen bir kural değil, daha ihtiyatlı bir ses etkisidir. Kısa ve kalıplaşmış kuruluş da cevabın yorum denemesinden önce yorumlanabilirliği kapatan yerel bir red olarak duyulmasına katkı verir.
+
+Bu sınıflandırma, kralın tekil deneyimini genel bir düşler sınıfına taşıyarak onun kendine özgü niteliğini geri plana iter. {ar:أَحْلَامٍ, tr:aḥlāmin, gloss:düşler} uykuda görülen düşü adlandırır ve belirsiz çoğul oluşuyla 12:43'teki belirli görüye karşılık genel bir malzeme sınıfı kurar (12:43). {ar:أَضْغَاثُ, tr:aḍghāthu, gloss:karışık demetler} kelimesine bağlı bulunması, bu malzemeyi dağınık bir sınıf olarak sunar. Saray böylece gördüğü şeyin özgül yapısını açmak yerine onu bilinen bir kategoriye kapatır; ilk hükmün küçültücü tonu bu yeniden sınıflandırmada belirir.
+
+Sonra aynı düş alanı {ar:ٱلْأَحْلَامِ, tr:al-aḥlāmi, gloss:belirli düşler} biçiminde geri döner. İlk kullanım genel bir düşler sınıfı açarken, {ar:تَأْوِيلِ, tr:taʾwīli, gloss:yorumuna döndürme} tamlamasının içindeki belirli biçim yorumlanacak düşleri tek bir nesne olarak toplar. Bu nesne tamlamayı kapatır ve sonundaki {ar:عَالِمِينَ, tr:ʿālimīna, gloss:bilenler} yüklemine ulaşır. Aynı kelimenin belirsiz ve belirli iki yüzü, söz içinde malzemenin genelleştirilmesinden yorumun nesnesinin belirginleşmesine doğru bir hareket kurar; ilk karışıklık hükmü bu hareketle birlikte okunur ve yorum alanının hedefini kesinleştirir.
+
+{ar:وَ, tr:wa, gloss:ve} harfinin doğrudan {ar:مَا, tr:mā, gloss:olumsuzluk} ile birleşmesi, cevabı ilk etiketlemeden ikinci biçimsel hamleye kesintisiz geçirir. Nominal bir düş sınıflandırmasıyla olumsuz bir öz-tanım aynı cevapta buluşur: “Düş nedir?” hükmünün ardından “biz kimiz?” açıklaması gelir. {ar:مَا, tr:mā, gloss:olumsuzluk} bütün yeterlik cümlesini kapsar; saray tek bir yorumu o anda üretemediğini söylemekle yetinmez, bu alanda bilenler sınıfına ait olmadığını bildirir. Böylece iki söz parçası tek bir savunma hareketinin iki vuruşuna dönüşür.
+
+Bu sınırı kimin çizdiğini {ar:نَحْنُ, tr:naḥnu, gloss:biz} kelimesinin bağımsız ve açık özne oluşu görünür kılar. Dinleyici önce “biz”i, sonra bu “biz”in hangi yetkinlik alanından çekildiğini duyar: topluluk kendisini öne çıkarır, ardından {ar:بِ, tr:bi, gloss:ilişkin} ve {ar:تَأْوِيلِ, tr:taʾwīli, gloss:yorumuna döndürme} gelir. İlk {ar:بِ, tr:bi, gloss:ilişkin} düşlerin yorumuna ilişkin alanı tanımlar; son bölümdeki aynı yüzey, {ar:بِعَالِمِينَ, tr:bi-ʿālimīna, gloss:bilenlerden} içinde {ar:عَالِمِينَ, tr:ʿālimīna, gloss:bilenler} kelimesine bağlanarak yüklemi güçlendirir. İlk edat alanı, ikincisi topluluğun o alandaki statüsünü kesinler; biçimler arasındaki karşılık bir simetri kurar, fakat görevlerini birbirine karıştırmaz.
+
+Türkçedeki tek “yorum” kelimesi, {ar:تَأْوِيلِ, tr:taʾwīli, gloss:sonuca dönen yorum} kelimesinin kurduğu dönüş yolunu bütünüyle göstermez. Bu kelime bir yandan bir şeyin geri dönüp ulaşacağı durumu, öte yandan bir sözün veya görüntünün varacağı anlama döndürülmesini taşır. Onu bu yöne açan bağımsız tetikleyici {ar:ٱلْأَحْلَامِ, tr:al-aḥlāmi, gloss:belirli düşler}dir: görüntü yalnızca adlandırılacak bir şey değil, anlamına ve sonucuna doğru izlenecek bir nesne hâline gelir. Mastar biçimi alanın adını, belirli düşler de o alanın nesnesini verir. Sarayın sözündeki eksiklik, görüntüyü sözcüklerle adlandıramamaktan çok onu varacağı anlama kadar taşıyacak yetkinliğin kendilerinde bulunmamasıdır.
+
+Bu dönüş üç yakın temasla somutlaşır: rüyayı neye döndürme isteği (12:36), sonuç gerçekleşmeden önceki açıklama vaadi (12:37) ve karşıt akıbetlerin somut bir iş içinde tamamlanması (12:41). 12:41'deki tamamlanmış olay, bu dönüşü yalnızca dilsel bir son nokta olmaktan çıkarıp bir akıbetle temas ettirir (12:41). Böylece “bilmiyoruz” sözü, görüntüyü adlandırama ile sınırlı kalmaz; onu sınanabilir bir sonuca kadar izleyememe biçiminde genişler. Bu bağ, yorumu görüntü ile akıbet arasında izlenebilir bir dönüş olarak açar; kehanet zorunluluğunu ve tek bir hazır sonucu cümleye eklemeden, sonraki olayların önceden verilmiş bir açıklamayı doğrulayabilmesi ihtimalini açık tutar.
+
+{ar:تَأْوِيلِ, tr:taʾwīli, gloss:sonuca dönen yorum} için açılan yol başka yerlerde hükümden bekleyişe ve sonradan açıklanmaya doğru ilerler: tevil gelmeden hüküm verilmesi (10:39), tevilin beklenmesi (7:53), zor görünen yüzlerin sonradan açıklanması (18:78, 18:82), bir rüyanın gerçekleşmesinin tevil diye adlandırılması (12:100), bu yetinin öğretilmesi ve anlatının ileride tamamlanması (12:101, 12:6). Bu temaslar, odaktaki kelimenin görüntüyü bir hedefe doğru izleyen tarafını belirginleştirir. Buradaki cümle belirli sonucu ve kurulun doğruluğunu hazır vermez; görünen katkı, görüntü ile akıbet arasında kurulan dönüş yoludur.
+
+Bu hedefe yöneliş, 12:37'deki açıklama vaadi ile 12:45'te hatırlanıp yeniden erişilen, daha önce öğrenilmiş yorum imkânı arasında bir erişim çizgisi kurar (12:37, 12:45). Bilgi alanı cümlede adlandırılır, fakat bu topluluk için erişilemez bir düğüm olarak kalır; başka bir bilenin kimliği verilmeden dışarıda mevcut olabilecek bir erişim alanı açık bırakılır. Son yüklemdeki {ar:عَالِمِينَ, tr:ʿālimīna, gloss:bilenler}, bu yüzden yalnızca terim eksikliğini değil, görüntüyü anlamına kadar götürecek temasın kurulamadığını duyurur. Açık cümle sarayın rüya yorumunu bilmediğini söyler; genişleyen okuma, grubun o andaki erişim sınırını görünür kılar.
+
+{ar:عَالِمِينَ, tr:ʿālimīna, gloss:bilenler} kelimesi, {ar:تَأْوِيلِ, tr:taʾwīli, gloss:yorumuna döndürme} ile belirlenen alanda bilme ve gerçeği kavrama konumunu taşır. {ar:نَحْنُ, tr:naḥnu, gloss:biz} ile birlikte topluluğun kendi statüsünü belirler: mesele bağımsız bir tahmin becerisinden çok, görüntüyü gerçeğine uygun biçimde kavrayıp anlamına taşıyabilme yetisidir. Bilginin şahitlikle ilişkilendiği yer (4:166), örneklerin bilenlerce kavrandığı yer (29:43), kişisel bilgi sınırının bildirilen bilgiyle ayrıldığı yer (38:69) ve Yusuf'a tevil öğretilirken çoğunluğun bilmezliğinin anıldığı yer (12:21), bu erişim farkının farklı yüzlerini gösterir. Tevil ile bilme sınırlarının birlikte tutulduğu karşılaştırma (3:7) bu genişlemeyi dengeler. Bu temaslar yalnızca bilme konumunu aydınlatır; hedef ayetin dil ayrıntıları üzerine ayrıca hüküm kurmaz. Böylece {ar:بِعَالِمِينَ, tr:bi-ʿālimīna, gloss:bilenlerden} içindeki bilme, gerçeği ayırt etme ve bir işareti tanıma baskısını da taşır; kelime burada bağımsız olarak “işaret” anlamına çevrilmez.
+
+## Demetin İçinde Sıra
+
+Bu bağlantı, karışıklık hükmünü yapısızlıktan ayırır. Aynı {ar:أَضْغَاثُ أَحْلَامٍ, tr:aḍghāthu aḥlāmin, gloss:karışık düşler} sözünün başka bir reddetme zincirinde yeniden geçmesi, etiketin reddetme içindeki tekrarını gösterir (21:5). {ar:ضِغْثًا, tr:ḍighthan, gloss:bir demet} kelimesinin belirli bir iş içinde kullanılabilmesi ise bir araya gelmiş parçaların işe koşulabilirliğini açar (38:44). Bu iki temas karışıklık ile yapısızlık arasındaki farkı görünür kılar. 12:46, 12:47, 12:48, 12:49 ve 12:111'deki geriye dönük izler, ilk bakışta düzensiz bir kütle gibi görünen şeyin parçaları ayrılıp bir sıra kazandığında işletilebilir hâle geldiğini düşündürür (12:46, 12:47, 12:48, 12:49, 12:111). Bu bağlantı geriye dönük bir okumadır; kapsamı, demetin bir araya gelmişliğini otomatik olarak yapısızlıkla eşitleyen hükmü sorgulamakla sınırlıdır.
+
+Demetin yapısı açılınca onu taşıyan düş kelimesine geri dönmek gerekir. {ar:أَحْلَامٍ, tr:aḥlāmin, gloss:düşler} ile {ar:ٱلْأَحْلَامِ, tr:al-aḥlāmi, gloss:belirli düşler} arasındaki geçiş, önce rüya malzemesini, sonra yorumlanması istenen belirli düşleri kurar. 12:46, 12:47, 12:48 ve 12:49'da sonradan belirginleşen unsurlar ve ardışık dönemler, karışmış görüntünün içinde seçilebilir gerçeklikler bulunabileceği ihtimalini açar (12:46, 12:47, 12:48, 12:49). Böylece {ar:أَضْغَاثُ أَحْلَامٍ, tr:aḍghāthu aḥlāmin, gloss:karışık düşler} ifadesi düşü güvenilir yoruma elverişsiz kılan karışıklık hükmünü korurken, sonraki sıranın görünmesi bu karışıklığın yapısızlıkla özdeşleştirilmesini sorgular. Söz alanının başka bir işleve açılabildiğini gösteren {ar:أَحْلَامُهُمْ, tr:aḥlāmuhum, gloss:onların düşleri} kullanımı da bu kelimeyi her bağlamda aynı düş-demeti hükmüne kapatmaz (52:32).
+
+Bu ayrım, (12:43)'teki görüntünün içindeki ilişkileri izlemeye başlayınca maddi bir sıra kazanır. {ar:أَضْغَاثُ, tr:aḍghāthu, gloss:karışık demetler} kelimesinin bir arada tutulmuş parçaları; {ar:سَبْعَ, tr:sabʿ, gloss:yedi} sayısının sığır ve başak kümelerini bağlaması; {ar:سِمَانٍ, tr:simān, gloss:semiz} ile {ar:عِجَافٌ, tr:ʿijāf, gloss:cılız} ve {ar:خُضْرٍ, tr:khuḍr, gloss:yeşil} ile {ar:يَابِسَاتٍ, tr:yābisāt, gloss:kuru} karşıtlıklarının kurulması; hayvanların {ar:يَأْكُلْنَ, tr:yaʾkulna, gloss:yemeleri} ile birbirinden ayırt edilebilir ilişkiler kurar (12:43). Bu ilişkiler 12:47'de {ar:تَزْرَعُونَ, tr:tazraʿūn, gloss:ekersiniz} ve {ar:حَصَدْتُمْ, tr:ḥaṣadtum, gloss:biçtikleriniz} işlemleriyle, 12:48'de hasadı başağında bırakma ve koruma talimatlarıyla, 12:49'da gelen ferahlama ile birleşir (12:47, 12:48, 12:49). Böylece demet, sayı, karşıtlık ve yeme eylemi arasındaki ilişkileri üretim, tükenme ve yeniden açılma dönemlerine taşıyan bir görüntü katkısı verir. {ar:بِعَالِمِينَ, tr:bi-ʿālimīna, gloss:bilenlerden} kelimesinin ayırt edici ve yol gösterici işaret uzantısı, bu sahnede düzeni kuran izleri seçme meselesini öne çıkarır.
+
+Görüntünün yüzeyinden anlamına geçişi bildiren {ar:تَعْبُرُونَ, tr:taʿburūn, gloss:anlamına geçirirsiniz} eylemi (12:43), bu ilişkileri uygulanabilir bir sıraya taşır. İlk tarım işlemi olarak ekme, hayvan ve bitki görüntülerindeki bağıntıyı işleyen bir safha açar; biçme, ekileni bir arada tutulabilecek kesilmiş malzemeye çevirir (12:47). Bu işlemler demet imgesini eyleme geçirilebilecek sıkıştırılmış bir ilişkiler programı olarak açar. Başakların korunması, görüntülerin sıraya dizilmesine elde edileni tükenmeden saklama kuralını ekler (12:48). 12:43'teki görü, 12:47'deki üretim, 12:48'deki muhafaza ve 12:49'daki ferahlama birlikte okunduğunda üretimden tükenmeye ve yeniden açılmaya uzanan bir plan sezilir (12:43, 12:47, 12:48, 12:49). Bu tarımsal plan, sarayın rüyaları karışık sayan açık hükmüne eklenen sınırlı bir ilişkiler okuması olarak kalır.
+
+Aynı maddi sıra, başağın malzemeyi kendi içinde taşıyan doğal bir paket oluşuyla daha belirginleşir. 12:43'teki {ar:سُنْبُلَاتٍ, tr:sunbulāt, gloss:başaklar} ile 12:47'de hasattan sonra ürünün {ar:سُنْبُلِهِ, tr:sunbulihi, gloss:kendi başağında} bırakılması, {ar:أَضْغَاثُ, tr:aḍghāthu, gloss:karışık demetler} kelimesindeki elde tutulmuş topluluğa bağlanır (12:43, 12:47). {ar:تَزْرَعُونَ, tr:tazraʿūn, gloss:ekersiniz} canlı üretimi başlatır; {ar:حَصَدْتُمْ, tr:ḥaṣadtum, gloss:biçtikleriniz} onu bir arada tutulabilir hâle getirir (12:47). {ar:فَذَرُوهُ, tr:faḏarūhu, gloss:onun halinde bırakın} ürünü başağında bütün bırakmayı, {ar:تُحْصِنُونَ, tr:tuḥṣinūn, gloss:korursunuz} ise ekilmiş, biçilmiş ve bütün bırakılmış malzemenin çevrelenerek korunmasını bildirir (12:47, 12:48). Küçümseyici etiketin içinde maddi içeriğin nasıl elde tutulup kullanılacağı da böylece sezilir. Bu bağlantı demetle başak, ekme, biçme, bütün bırakma ve koruma arasındaki malzeme yankısıyla sınırlıdır; depolanmış tahıl anlamı veya tarımsal okumanın tekliği bu bağlantıdan çıkmaz.
+
+Sıra yalnızca maddede değil, yorum işleminin kendisinde de görünür. Bu okuma, düşe tek bir karşılık yapıştırmak yerine bir arada tutulmuş unsurları ayırt edip her birini varacağı anlama yönlendiren bir yorum işlemi gösterir. {ar:أَضْغَاثُ, tr:aḍghāthu, gloss:karışık demetler} içindeki parçalar malzemeyi verir; {ar:تَأْوِيلِ, tr:taʾwīli, gloss:yorumuna döndürme} onları birbirinden ayırıp hedeflerine yönlendiren işi, {ar:عَالِمِينَ, tr:ʿālimīna, gloss:bilenler} ise parçaları ayırt edecek belirgin işaretleri tanıma ölçütünü taşır. Böylece “yorum” bileşiği çözerek unsurları çalışır bir sonuca ulaştıran bir iş olarak duyulur. Bu işlemin sınırı, verilen bileşiğin ayrıştırılma biçimidir; gerçek bitkiler veya metinde verilmeyen somut işaretler hakkında ayrı bir iddia taşımaz.
+
+Bu kelimeler yan yana duyulduğunda cevap iki işlemi art arda görünür kılar: düşler topluluğu içten karışmış olarak adlandırılır, ardından konuşanlar bu karışıklığı yorumlayacak bilenler sınıfının dışında konumlanır. {ar:قَالُوا, tr:qālū, gloss:dediler} sözü hükmü sesle dışarı çıkarır; {ar:أَضْغَاثُ, tr:aḍghāthu, gloss:karışık demetler} ve {ar:أَحْلَامٍ, tr:aḥlāmin, gloss:düşler} nesneye iç içe geçmişlik verir; {ar:تَأْوِيلِ, tr:taʾwīli, gloss:yorumuna döndürme} görüntünün varacağı anlama yönelişi, {ar:عَالِمِينَ, tr:ʿālimīna, gloss:bilenler} ise bu işi taşıyacak gerçeklik kavrayışını belirler. {ar:قَالُوا, tr:qālū, gloss:dediler} ile açılan kamusal ses, {ar:عَالِمِينَ, tr:ʿālimīna, gloss:bilenler} ile kapanan düzende kendi yetki sınırına ulaşır. Bu nitelikli görüntünün alanı, yüzeydeki hükmün içeriğini ve topluluğun kendini sınırlayışını birlikte duyurmaktır.
+
+## Bilginin Erişim Yolu
+
+Düş kelimesinin yanında açılan başka bir kullanım, rüya adının arkasında düzen kurması gereken ağırbaşlı kişileri ve düşünme gücünü taşıyan zihinsel meclisi de duyurabilir. {ar:أَحْلَامٍ, tr:aḥlāmin, gloss:düşünme güçleri} bu okumada kurumsal bir danışma görüntüsüne açılır. 12:39'daki {ar:مُتَفَرِّقُونَ, tr:mutafarriqūn, gloss:dağılmış} otoriteler, çok sayıda parçanın bir arada tutulduğu fakat henüz düzenlenmediği kurumsal demeti gösterir (12:39). 12:40'taki {ar:الْوَاحِدُ, tr:al-wāḥid, gloss:tek ve birleşik} otorite bu dağınık danışmanın karşısına birleşik bir ölçü koyar; {ar:أَسْمَاءً, tr:asmāʾan, gloss:adlar} çoğalması adlandırmanın tek başına açıklayıcı bir düzene dönüşmediğini, {ar:سُلْطَانٍ, tr:Sulṭān, gloss:bağlayıcı kanıt ve yetki} ise eksik dayanağı gösterir (12:40). {ar:حُكْمٍ, tr:ḥukm, gloss:sağlam hüküm} vurgusu, parçaların birbirini izleyen tutarlı bir karara bağlanabildiği alternatifi sunar (12:40). Odaktaki {ar:بِعَالِمِينَ, tr:bi-ʿālimīna, gloss:bilenlerden} inkârı bu diziyle temas edince meclisin çeşitli seslere sahip olmasından öte, gördüğünü bilgiye dönüştürecek düşünme gücü ve dayanağı bir araya getiremediği sezilir. Rüya okuması yerini korur; ağırbaşlı kişiler ve düşünme gücüyle ilgili çağrışım bu kelimenin zorunlu olarak “akıllar” demesi değildir.
+
+Bu dağınık meclisin bilgiye erişimi, toplu {ar:قَالُوا, tr:qālū, gloss:dediler} sözünün sosyal yönünü açar. {ar:نَحْنُ, tr:naḥnu, gloss:biz} ile birlikte {ar:تَأْوِيلِ, tr:taʾwīli, gloss:yorumuna döndürme} gibi ortak bir mesele üzerinde dolaşan kanaat ve karşılıklı görüşme imkânı duyulur; çoğul biçim ve açık topluluk öznesi, söze insanlar arasında dolaşan ortak bir kanaat gücü verir. Bu ortak kanaat, zorunlu olarak yanlış bir söylenti biçiminde kurulmaz. 12:42'deki unutulan bağlantı bilgi ile mevcut yorumcu arasındaki hafıza yolunu keser; 12:45'te hatırlanan bilgi haber ve gönderme eylemine dönüşerek yolu yeniden açar; 12:46'da cevap güvenilir bir muhataba ulaşır (12:42, 12:45, 12:46). 12:46'da muhatabın {ar:الصِّدِّيقُ, tr:aṣ-ṣiddīq, gloss:doğruluğu kanıtlanmış} diye nitelenmesi, aranan şeyin yalnızca başka bir görüş değil, güvenilir bir cevap olduğunu belirginleştirir. Böylece topluluğun sınırı uzmanlığın yokluğu olarak değil, o anda başka yerde mevcut olan bilgiye erişimin kesilmesi olarak görünür; cümle rüyanın yorumlanamazlığını değil, bu grubun zamana ve mekâna bağlı sınırlılığını anlatır.
+
+Erişim yolu açıldığında bilginin sonucu yönetme ve koruma tarafı görünür olur. {ar:تَأْوِيلِ, tr:taʾwīli, gloss:yorumuna döndürme} kelimesi bir sonucu düzene koyup muhafaza etme işiyle de temas eder. 12:54'teki {ar:مَكِينٌ, tr:makīn, gloss:yetkili ve sağlam konumda} oluş, açığa çıkan sonucun içinde hareket edebilme kapasitesini; aynı yerdeki {ar:أَمِينٌ, tr:amīn, gloss:güvenilir} oluş, bu kapasitenin emanet edilebilir bir gözetim yetkisine dönüşmesi için gereken güveni verir (12:54). 12:55'teki {ar:خَزَائِنِ, tr:khazāʾin, gloss:depolar} ifadesi korunacak maddi alanı, {ar:حَفِيظٌ عَلِيمٌ, tr:ḥafīẓun ʿalīm, gloss:koruyan ve bilen} eşleşmesi ise bilme ile korumanın aynı işte birleşmesini gösterir (12:55). Rüya yorumunu bilmek, bu sonraki uygulama bağlamında soyut açıklamadan çok, açığa çıkan akıbeti güven içinde yönetip muhafaza edebilme yeterliğiyle temas eder. Bu bağlantının alanı, {ar:تَأْوِيلِ, tr:taʾwīli, gloss:yorumuna döndürme} kelimesinin tek tanımını değiştirmek değil, odaktaki yetinin ileride açılan uygulama yönünü göstermektir.
+
+Toplu hükmün ağırlığı, yeniden görüşülemeyeceği anlamına gelmez. 12:50'de sorgulama yeniden başlar; 12:51'de toplu cevap, tekil itiraf ve {ar:حَصْحَصَ الْحَقُّ, tr:ḥaṣḥaṣa al-ḥaqq, gloss:gerçek açığa çıktı} ifadesi, önceki çerçeveyi olayların açığa çıkan hesabına yeniden bağlar (12:50, 12:51). {ar:الصَّادِقِينَ, tr:aṣ-ṣādiqīn, gloss:doğru söyleyenler} niteliği, görünür ve sabit hakikatten sonra gelen itirafın güvenilirlik ölçüsünü kurar (12:51). Böylece {ar:قَالُوا, tr:qālū, gloss:dediler} ile bildirilen cevap yeniden müzakere edilebilen bir kurumsal konum olarak kalır: toplumsal ağırlığı vardır, fakat daha tam bir olay hesabı karşısında geçici bir uzlaşıya açılabilir. 12:51'deki sonraki konuşanlar odaktaki mahkemeyle özdeşleştirilmez; odaktaki cevap kendi yerel konuşmasında gerçek bir beyan olmayı sürdürür (12:51).
+
+Bu yeniden açılabilirlikten ayrı, daha ihtiyatlı ve yalnızca ses çağrışımına dayanan bir hareket de vardır. {ar:قَالُوا, tr:qālū, gloss:dediler} sözü yerleşik “dediler” anlamını korurken tam durgun ve son söz olmayan bir konuşma gibi duyulabilir; bu iz korku ya da öfke titremesi değil, alışılmış biçimbilgisel çözümlemenin dışında kalan sınırlı bir ses etkisidir. {ar:أَضْغَاثُ, tr:aḍghāthu, gloss:karışık demetler} imgesindeki dağılmaya açık toplulukla buluşunca mahkemenin toptan nitelemesi daha sonra ayrışabilecek bir demet gibi geri yansır. 12:47'deki {ar:قَلِيلًا, tr:qalīlan, gloss:az bir miktar} tüketimin içinde kalan küçük payı, 12:48'deki {ar:قَلِيلًا, tr:qalīlan, gloss:az bir miktar} ise büyük tüketimden sağ çıkan ve korunan küçük artığı gösterir (12:47, 12:48). Küçük olanın süreç sonunda kalması, toplu dışlamanın içinde belirleyici bir pay bulunduğunu ve sözün kesinliğinin bu pay karşısında sarsılabileceğini düşündürür. Bu ses bağlantısının kapsamı, {ar:قَالُوا, tr:qālū, gloss:dediler} için yerleşik bir kök veya biçimbilgisi açıklaması kurmak değil, olağan anlam içinde hükmün hareketli bir iz bırakmasını duyurmaktır.
+
+Son bir yerel temas, {ar:بِعَالِمِينَ, tr:bi-ʿālimīna, gloss:bilenlerden} kelimesinin olağan bilme ve rüya yorumuna ehil olma anlamını somut yön işaretleriyle buluşturur. Fâtiha'daki {ar:الْعَالَمِينَ, tr:al-ʿālamīn, gloss:âlemler}, {ar:الصِّرَاطَ, tr:aṣ-ṣirāṭ, gloss:yol} ve {ar:الضَّالِّينَ, tr:aḍ-ḍāllīn, gloss:yoldan sapanlar} birlikte duyulduğunda, odaktaki inkâr edilen yeterlik görüntünün hangi yöne açıldığını ve onu anlama götüren işaretlerin nasıl seçileceğini okuyamama olarak da görünür (1:2, 1:6, 1:7). Bu yerel yankı, “bilenlerden değiliz” cümlesine somut bir yol ve yön işareti katkısı verir; kendi açık rüya yorumu anlamını koruyarak, bu topluluk için görüntüyü anlamına götüren yolun ve işaretlerin seçilemediğini duyurur. {ar:بِعَالِمِينَ, tr:bi-ʿālimīna, gloss:bilenlerden} kelimesinin her kullanımında “işaret” anlamının öne çıkması veya Fâtiha'nın bütünü hakkında bir sonuç kurulması bu bağlantının kapsamı değildir.
+
+</editorial_prose>

@@ -1,0 +1,213 @@
+{
+  "schema_version": "commentary-v5-scope-discovery-v1",
+  "ayah_ref": "19:70",
+  "lane": "global",
+  "coverage_complete": true,
+  "candidate_decisions": [
+    {
+      "candidate_id": "cand_51c3e20dae42f8f03c5e",
+      "decision": "accept",
+      "reason": "Güvenilir cross-run kaydı 19:70:3, 19:70:6 ve 19:70:8 taşıyıcılarını tam dal kimlikleriyle birbirine bağlıyor. Üç dalın da çekirdek F001 yüzü, ateşle karşılaşma bakımından bilme, uygunluk ve şiddete uğrama ilişkisini kuruyor; hiçbir aday dalı, açıkça aday gösterilmiş yüzü, bağlamı veya yükümlülüğü dışarıda bırakılmıyor.",
+      "finding_refs": [
+        "global:informed-fire-priority"
+      ],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_50e10f8c79a7dd0a55ca",
+      "decision": "reject",
+      "reason": "19:59'dan ateşe doğru tersine dönüş iddiası yalnızca legacy_unbound HFT reader_summary kaydı ve sup_a7c9e7a4daded2213872 desteğiyle görünür. Tam HFT izi; odak ayeti, kelime indisi, kök, ilişkilendirilmiş rol, taşıyıcı ve odağa dönüş koordinatı sağlamıyor. Bu nedenle başarısız kenar global aktivasyonun temellendirilmesidir; özet ve desteğin kendisi incelenmiş, fakat packet'te dışlanacak bir branch_ref, context_ref veya semantic_obligation_ref verilmemiştir.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_1b2e010beb19ecfcd93a",
+      "decision": "reject",
+      "reason": "19:68-72 için sorting gate iddiası legacy_unbound ve sup_5574777dc6cac269b015 desteğinde anchorsız bir reader_summary olarak verilmiş. Exact HFT taşıyıcı, tetikleyici, rol ve focus return koordinatı bulunmadığından global değişmiş okuma kurulamaz. Kayıt ve desteği gözden geçirildi; packet'te buna bağlı branch, context veya semantic obligation referansı yoktur.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_7d38e34586437a5463a1",
+      "decision": "reject",
+      "reason": "19:73-76 için karşı-scoreboard iddiası legacy_unbound HFT kaydı ve sup_5ba3339465e88ddeecac desteğine dayanıyor, ancak exact focus/context anchor, branch veya focus-return trace yok. Başarısız kenar, wider kaydın odak kelimesine geri bağlanmış bir aktivasyon göstermemesidir; tüm mevcut özet yükümlülüğü incelenmiş ve dışlanacak ayrı branch, context ya da semantic obligation ref'i bulunmadığı için ilgili diziler boş bırakılmıştır.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_69dcbaa344fe79442923",
+      "decision": "reject",
+      "reason": "Üç mekanizmanın, prayer/fire ayrımının ve processional echo'nun aynı kısa clause'da bulunduğu iddiası yalnızca legacy_unbound, anchorsız HFT summary ve sup_4bdf12783a48c21d0885 desteğiyle sunuluyor. Exact word index, root/branch kaydı, bağımsız tetikleyici ve focus return sağlanmadığı için iddia global bulguya dönüşmüyor; adayın bütün özet yükü incelenmiş, packet'te ayrıca hesaplanacak branch, context veya semantic obligation ref'i yoktur.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_45f9480c0d7804487a1b",
+      "decision": "reject",
+      "reason": "Feminine zamirin antecedent'ine dair belirsizlik, sup_90990aea57071553bc5e içindeki legacy_unbound HFT notunda bir uncertainty olarak kayıtlıdır; bu, kendi başına değişmiş bir global okuma veya bağımsız tetikleyici değildir. Exact anchor ve focus return bulunmadığından başarısız kenar aktivasyon kanıtıdır. Kaydın belirsizlik yükü incelenmiş, fakat packet'te branch, context veya semantic obligation ref'i sağlanmamıştır.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_b069620d819aa08bfed3",
+      "decision": "reject",
+      "reason": "Race-follower/processional branch echo'su sup_d92f80dbdb1c61bd9a65 içindeki legacy_unbound HFT uncertainty kaydında productive olabilir diye belirtiliyor, fakat exact branch_ref, focus carrier, independent trigger ve focus return yok. Üstelik kaynak bunu açıkça ihtiyatlı bir olasılık olarak sunuyor. Bu nedenle başarısız kenar hem trace yokluğu hem de aktivasyon eşiğinin aşılmamasıdır; bağlı semantic obligation için packet'te ayrı ref bulunmadığından dizi boştur.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_593780f38343398ccef7",
+      "decision": "reject",
+      "reason": "Garden inheritance ile fire priority arasında simetrik bir hukuk şeması bulunduğu iddiası sup_090a660513e0bb5e8094 legacy_unbound HFT kaydında açıkça kanıtlanmamış bir belirsizlik olarak veriliyor. Exact anchors, branch refs ve focus-return trace olmadan bu structural nomination global finding'e çevrilemez. Özet yükü incelenmiş; packet'te ayrıca dışlanacak context veya semantic obligation ref'i bulunmamaktadır.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_7743fd77722514ced013",
+      "decision": "reject",
+      "reason": "Fuel ve formed-material okumalarının branch-backed exploratory analogies olduğu iddiası sup_115eb7ccf8893647fcb1 içindeki legacy_unbound HFT summary'de geçiyor, ancak packet bu kayda hiçbir exact branch_ref, carrier occurrence, independent trigger veya focus return bağlamıyor. Bu nedenle başarısız kenar, claimed branch backing'in bu lane'de doğrulanabilir olmamasıdır; adayın tüm exploratory obligation'ı incelenmiş ve packet'te ayrı obligation/context/branch ref'i olmadığı için diziler boş bırakılmıştır.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    }
+  ],
+  "findings": [
+    {
+      "finding_ref": "global:informed-fire-priority",
+      "origin_candidate_id": "cand_51c3e20dae42f8f03c5e",
+      "represented_candidate_ids": [],
+      "title": "Bilgiye dayalı ateş önceliği",
+      "claim": "19:70, ateşle karşılaşma bakımından kimlerin daha uygun ve hak sahibi olduğunu, onları eksiksiz bilen bir ilahî ayırt etme içinde bildirir.",
+      "mechanism": "19:70:3:1'deki bilme taşıyıcısı kapsamlı kavrayışı, 19:70:6:1'deki uygunluk ve hak sahibi olma taşıyıcısı karşılaştırmalı önceliği, 19:70:8:1'deki ateşe girme taşıyıcısı da karşılaşmanın sonucunu verir. Packet'teki daha geniş bağlantılar ateşe giriş, cezalandırıcı öncelik ve görünmeyenle yapılanların ilahî bilgide ayırt edilmesini aynı odak ilişkisine geri bağlayarak bu üç unsuru salt yakınlıktan bilgili bir ateş yerleştirmesine dönüştürür.",
+      "reader_payoff": "Okur, 'en çok hak edenler' ifadesini belirsiz bir üstünlük sırası olarak değil, ateşle karşılaşma ölçüsüne göre eksiksiz bilinen ve buna göre ayrılan bir grup olarak görür.",
+      "containment": "Bu bulgu ateş hükmünün bütün ayrıntılarını, hedef ayetlerin morfolojik çözümlemelerini veya garden inheritance ile ateş priority arasında tek bir simetrik hukuk şemasını ileri sürmez. Ateşle karşılaşma, kapsamlı bilme ve uygunluk ilişkisi birlikte korunur; awla'nın kalıplaşmış tehdit anlamı bu odak yapısına taşınmaz.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": [
+          "trusted"
+        ],
+        "reason": "Üç odak taşıyıcısı ve üç çekirdek facet trusted cross-run publication içinde exact anchor'larla sağlanıyor. Wider connection hedeflerinin Arapçası packet'te mevcut olsa da hedef morfolojisi ve lexical analysis verilmediği için global genişletme ayrıntısı qualified tutuluyor."
+      },
+      "support_ids": [
+        "sup_12c59e9181c50d635251"
+      ],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000880/B003",
+          "facet_id": "F001",
+          "branch_gloss": "ateşin veya benzer bir sıkıntının şiddetine uğramak; birini ateşe sokmak",
+          "facet_statement": "Ateşe girmek, onda kalmak ve yakıcı şiddetine uğramaktır.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "19:70:8:1"
+          ],
+          "trigger_refs": [
+            "83:16",
+            "74:26"
+          ],
+          "focus_return_refs": [
+            "19:70:8:1"
+          ],
+          "carrier": "19:70:8:1'deki صِلِيًّا biçimi ateşe girme, ateşte kalma ve yakıcı şiddete uğrama anlamını taşır.",
+          "independent_trigger": "83:16'nın doğrudan cehenneme girişi ve 74:26'nın Saqar'a sokulmayı bildiren sağlanmış hedef metinleri, ateşle doğrudan karşılaşmayı odak taşıyıcısına geri dönen wider bir ceza sahnesi olarak verir.",
+          "activation": "Bu wider ateş girişleri, odaktaki صِلِيًّا taşıyıcısıyla temas ederek sonucu yalnız soyut bir hüküm olmaktan çıkarır; ateşle karşılaşma, belirlenmiş kişilerin fiilî maruziyeti olarak görünür.",
+          "resulting_reading": "Odak, ateşe kimin gireceğini belirleyen karşılaşma alanını ve bu karşılaşmanın gerçek yakıcı sonucunu birlikte taşır.",
+          "boundary": "Hedef ayetlerin morfolojik çözümlemesi packet'te verilmediği için hedef tarafta yeni bir branch veya ayrıntılı fiil analizi ileri sürülmez; yalnızca sağlanan ateş-giriş temasına dayanılır."
+        },
+        {
+          "branch_ref": "root_001040/B001",
+          "facet_id": "F001",
+          "branch_gloss": "bilme ve gerçeğini kavrama",
+          "facet_statement": "Bir şeyi bilme, tanıma ve gerçeğine uygun biçimde kavrama durumu bilgisizliğin karşıtıdır.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "19:70:3:1"
+          ],
+          "trigger_refs": [
+            "49:18",
+            "53:30"
+          ],
+          "focus_return_refs": [
+            "19:70:3:1"
+          ],
+          "carrier": "19:70:3:1'deki أَعْلَمُ biçimi bilme ve gerçeğini kavrama çekirdeğini ilahî özneye bağlı kapsamlı bilme olarak taşır.",
+          "independent_trigger": "49:18 görünmeyenin ve yapılanların bilinmesini, 53:30 ise sapanla doğru yolu bulan kişinin ayırt edilmesini sağlanan wider hedef metinlerde açıkça ilişkilendirir.",
+          "activation": "Bu iki wider bilme sahnesi, odaktaki أَعْلَمُ taşıyıcısıyla temas ederek bilme eylemini genel bir haber bilgisinden, ateşle karşılaşacak kişileri ayırt eden kapsamlı kavrayışa çevirir.",
+          "resulting_reading": "Ateş önceliği rastgele bir sıralama değil, kimlerin neye layık olduğunu gerçeğiyle kavrayan bir bilginin sonucudur.",
+          "boundary": "Wider hedeflerdeki hedef morfoloji ve lexical analysis packet'te yoktur; bu yüzden onların biçimsel dalları veya odak hükmünün ayrıntılı ölçütleri icat edilmez."
+        },
+        {
+          "branch_ref": "root_001684/B008",
+          "facet_id": "F001",
+          "branch_gloss": "daha uygun ve hak sahibi olma",
+          "facet_statement": "Bir şeye daha uygun, daha layık veya daha hak sahibi olma.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "19:70:6:1"
+          ],
+          "trigger_refs": [
+            "75:34",
+            "75:35"
+          ],
+          "focus_return_refs": [
+            "19:70:6:1"
+          ],
+          "carrier": "19:70:6:1'deki أَوْلَىٰ biçimi bir şeye daha uygun, daha layık veya daha hak sahibi olma karşılaştırmasını taşır.",
+          "independent_trigger": "75:34 ve 75:35'in sağlanan hedef metinleri أَوْلَىٰ dilini cezalandırıcı bir uyarı ve uygunluk çerçevesinde yeniden gösterir.",
+          "activation": "Bu wider öncelik kullanımı, odaktaki أَوْلَىٰ taşıyıcısıyla temas ederek karşılaştırmayı genel yakınlıktan ateşle karşılaşma bakımından haklı ve uygun düşme ölçüsüne bağlar.",
+          "resulting_reading": "Odak, ateşin başına gelişini yalnız bildirmekle kalmaz; ateşe girmeye en uygun veya en hak sahibi olanların ayırt edilmesini bildirir.",
+          "boundary": "Bu temas, أَوْلَىٰyı sabit tehdit kalıbı olan B009'a dönüştürmez; hedef ayetlerin morfolojik çözümlemesi de packet'te bulunmadığından hedef kuvveti hakkında daha ince bir iddia kurulmaz."
+        }
+      ],
+      "connection_refs": [
+        "conn_1d14d6e2779dc75d3101",
+        "conn_431522558189d501c083",
+        "conn_22ccb3ceb4676942b900",
+        "conn_e37fe46da55cd22a592b",
+        "conn_2a650a0bdf22ea297075",
+        "conn_1d3101ff217d19df4630"
+      ],
+      "context_refs": [
+        "83:16",
+        "74:26",
+        "49:18",
+        "53:30",
+        "75:34",
+        "75:35"
+      ],
+      "semantic_obligation_refs": []
+    }
+  ],
+  "friction_notes": [
+    "HFT'nin sekiz reader-summary kaydının tamamında anchor_refs ve branch_refs boştur; support_registry bunları legacy_unbound olarak taşır ve exact HFT word index, root, attributed role veya focus-return trace sağlamaz. Bu kayıtlar görünür tutuldu, fakat aktivasyon diye yazılmadı.",
+    "Connection registry hedef ayetlerin exact Arabic metnini verir, ancak hedef morfolojisi ve lexical analysis'in packet'te bulunmadığını bildirir. Kullanılan connections yalnız sağlanan ayet düzeyindeki ateş, bilgi ve öncelik tetikleyicileri olarak değerlendirildi; hedef tarafa branch uydurulmadı.",
+    "focus_word_alignment içinde unresolved alanı boştur ve selected_context_units boştur. Global bağlam bu nedenle seçilmiş context birimlerinden değil, connection registry'de açıkça bulunan hedef ayetlerden taşındı.",
+    "Aday dışı focus branch'leri için bağımsız tetikleyici ve biçim kontrolü yapıldı. Prayer dalı, odak biçiminin ateş anlamından açıkça ayrılıyor; awla tehdidi sabit uyarı kalıbına bağlı kalıyor; geri kalan mevcut dallar packet'te anlamı değiştiren ayrı bir global temas sağlamıyor."
+  ]
+}

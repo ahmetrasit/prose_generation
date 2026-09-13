@@ -1,0 +1,392 @@
+{
+  "schema_version": "commentary-v5-scope-discovery-v1",
+  "ayah_ref": "12:70",
+  "lane": "global",
+  "coverage_complete": true,
+  "candidate_decisions": [
+    {
+      "candidate_id": "cand_0606b80469e9f5459f15",
+      "decision": "narrow",
+      "reason": "The trusted focus publication anchors the vessel, public announcement, caravan, and theft-accusation relation. The water-source branch and the house/household branch do not fit the supplied local carriers: al-siqayah is presented as a placed service vessel, and rahl as the brother's travel container.",
+      "finding_refs": ["global:vessel-to-public-procedure"],
+      "branch_exclusions": [
+        {
+          "branch_ref": "root_000722/B002",
+          "reason": "The focus surface is the named drinking or measuring vessel; no independent supplied trigger makes this occurrence a water source left freely available for use."
+        },
+        {
+          "branch_ref": "root_000551/B004",
+          "reason": "The supplied local gloss makes rahl a singular travel container, while this branch requires a person's dwelling or household arrangement."
+        }
+      ],
+      "facet_exclusions": [
+        {
+          "branch_ref": "root_000722/B002",
+          "facet_id": "F001",
+          "reason": "The supplied local carrier is an institutional vessel placed in baggage, not water being left at a beneficiary's disposal."
+        },
+        {
+          "branch_ref": "root_000551/B004",
+          "facet_id": "F001",
+          "reason": "No supplied evidence turns the brother's travel container into a dwelling, shelter, or residence."
+        },
+        {
+          "branch_ref": "root_000551/B004",
+          "facet_id": "F002",
+          "reason": "The focus supplies travel baggage, but no independent household-goods trigger lands the extension as this reading."
+        }
+      ],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_09bdf6148cdcb0b6d4ff",
+      "decision": "narrow",
+      "reason": "The trusted finding supports the private brotherhood versus public caravan contrast. Its rahl branch is excluded because the packet supplies a travel container rather than the dwelling or household-goods meaning required by that branch.",
+      "finding_refs": ["global:private-kinship-public-caravan"],
+      "branch_exclusions": [
+        {
+          "branch_ref": "root_000551/B004",
+          "reason": "The focus carrier is a brother's travel container, with no independent dwelling or household arrangement supplied."
+        }
+      ],
+      "facet_exclusions": [
+        {
+          "branch_ref": "root_000551/B004",
+          "facet_id": "F001",
+          "reason": "The supplied form does not establish a residence or shelter."
+        },
+        {
+          "branch_ref": "root_000551/B004",
+          "facet_id": "F002",
+          "reason": "The supplied context does not independently activate household goods rather than travel baggage."
+        }
+      ],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_f1f707bfd888c5883058",
+      "decision": "represented",
+      "reason": "Its placed-vessel-to-public-accusation claim is an exact duplicate of the retained finding global:vessel-to-public-procedure.",
+      "finding_refs": ["global:vessel-to-public-procedure"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_31889d4b9991e9657a07",
+      "decision": "represented",
+      "reason": "Its private-kinship and collective-address claim is an exact duplicate of the retained finding global:private-kinship-public-caravan.",
+      "finding_refs": ["global:private-kinship-public-caravan"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_d6a73e15ac7c05a6fe9a",
+      "decision": "accept",
+      "reason": "The supplied retrospective walk gives a concrete later context, 12:76, that changes the focus from an unexplained accusation to a procedure whose purpose is disclosed as retaining the brother. It remains qualified because the reader-walk source is legacy_unbound.",
+      "finding_refs": ["global:retrospective-stratagem"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_db5f20826662c3471845",
+      "decision": "represented",
+      "reason": "Its hospitality-instrument-to-public-evidence claim is an exact duplicate of the retained finding global:vessel-to-public-procedure.",
+      "finding_refs": ["global:vessel-to-public-procedure"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_044e60efc236ea48b915",
+      "decision": "accept",
+      "reason": "The supplied wide retrospective walk gives a distinct later confirmation of the vessel's temporary evidentiary function in 12:76. It is retained as a qualified reader-walk finding rather than treated as an unqualified lexical fact.",
+      "finding_refs": ["global:retrospective-vessel-function"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_17f780511084d6e201c4",
+      "decision": "reject",
+      "reason": "The HFT payload is only an uncertainty statement. It supplies no exact HFT coordinate, carrier, independent trigger, or focus return, so the measure-to-person conversion cannot pass global activation review.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_48b409d78318176a34b0",
+      "decision": "reject",
+      "reason": "The HFT payload is only an uncertainty statement. It supplies no exact HFT coordinate, carrier, independent trigger, or focus return for the pledge-enclosure reading.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_9c92949f5045610e9312",
+      "decision": "reject",
+      "reason": "The payload itself marks the market-drive, double-container, and finishing-stroke readings as branch-distant. No exact HFT trace or focus return is supplied to convert those nominations into activated global findings.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_523c0f7b8436efb6e93f",
+      "decision": "reject",
+      "reason": "The baggage-sign reversal is supplied only as an unanchored HFT summary. Although the packet contains related connection nominations, this record provides no exact HFT carrier, word coordinate, attributed role, or focus return for the claimed reversal.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_1e47b2b4f0ae5bc4b6cb",
+      "decision": "reject",
+      "reason": "The measure-to-royal-evidence-to-person-penalty summary has no exact HFT trace or focus return in the packet; its supplied support contains no anchor evidence and cannot establish the full multi-stage claim.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_17a213dad37186c17ea8",
+      "decision": "represented",
+      "reason": "Its private recognition and public accusation partition is an exact duplicate of the retained finding global:private-kinship-public-caravan.",
+      "finding_refs": ["global:private-kinship-public-caravan"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_d1770f8ee8d90519033d",
+      "decision": "represented",
+      "reason": "Its announcement-to-jurisdiction-to-detention claim is carried in the retained finding global:vessel-to-public-procedure through the exact focus announcement and the supplied 12:78-12:80 procedural connections.",
+      "finding_refs": ["global:vessel-to-public-procedure"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_9aedfe9d729b11730b94",
+      "decision": "reject",
+      "reason": "This is an unanchored composite summary that bundles several unrelated proposed activations, including explicitly branch-distant readings. It supplies no exact HFT trace or focus return for any composite mechanism and cannot be accepted as one global finding.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    }
+  ],
+  "findings": [
+    {
+      "finding_ref": "global:vessel-to-public-procedure",
+      "origin_candidate_id": "cand_0606b80469e9f5459f15",
+      "represented_candidate_ids": [
+        "cand_f1f707bfd888c5883058",
+        "cand_db5f20826662c3471845",
+        "cand_d1770f8ee8d90519033d"
+      ],
+      "title": "Hizmet kabı kamusal işlemin kanıtına dönüşür",
+      "claim": "Yerleştirilen su kabı, sonraki duyuru ve hırsızlık isnadıyla kamusal olarak aranabilir bir kanıt işlevi kazanır; kervana yönelen suçlama, gizli yerleştirmeyi kardeşi tutmaya yarayan bir işleme bağlar.",
+      "mechanism": "12:70:5:2'deki hizmet nesnesi 12:70:7:1'deki taşıma kabına yerleştirilir; 12:70:10:1-12:70:11:1 duyuruyu, 12:70:13:2 toplu muhatabı ve 12:70:15:2 suçlama kimliğini kurar. 12:78-12:82 arasındaki sağlanan bağlantılar, bu sözlü duyurunun arama, bildirim ve belirli kişiyi elde tutma işlemine dönüştüğünü gösterir.",
+      "reader_payoff": "Okur, kabı yalnızca hizmet için kullanılan bir nesne olarak değil, gizli yerleştirmeyi herkesin önündeki suçlamaya bağlayan maddi eşik olarak görür.",
+      "containment": "Bu bağlamsal işlev, kabın kardeşinin taşıma kabına konduğu yalın bildirimi korur; suçlama, kendi başına kervanın gerçekten hırsızlık yaptığını kanıtlayan bir hüküm olarak sunulmaz.",
+      "epistemic": {
+        "status": "grounded",
+        "source_trust": ["trusted"],
+        "reason": "Güvenilir odak yayını ilgili altı yüzeyi doğrudan bağlıyor; sağlanan 12:77, 12:78, 12:79, 12:80, 12:81 ve 12:82 bağlantıları da gizli yerleştirmeden kamusal işlem ve hedefli elde tutmaya uzanan somut sonucu veriyor."
+      },
+      "support_ids": ["sup_12994a09e2107f84e42e"],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000722/B001",
+          "facet_id": "F001",
+          "branch_gloss": "içecek verme veya kaynaktan su alma",
+          "facet_statement": "İçecek, içmesi amaçlanan canlıya doğrudan verilir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["12:70:5:2"],
+          "trigger_refs": ["conn_a5a28baa3c047622bf34"],
+          "focus_return_refs": ["12:70:5:2"],
+          "carrier": "12:70:5:2'deki al-siqayah, içecek hizmetiyle ilişkili kabı taşır ve bu kabın gizli yerleştirilmesiyle nesneye yeni bir işlem rolü verilir.",
+          "independent_trigger": "12:81 bağlantısında sağlanan sonraki rapor, hırsızlık bildirimini ve bildirimin tanıklık sınırını getirir.",
+          "activation": "Hizmet için kullanılan nesne ile sonraki suçlama ve rapor temas eder; kabın yer değiştirmesi, onu kamusal aramayı başlatan maddi kanıta çevirir.",
+          "resulting_reading": "Su kabı, içecek hizmetini korurken, gizli yerleştirme sayesinde kamusal suçlama işlemini başlatan kanıt nesnesi olarak görünür.",
+          "boundary": "Buradaki kanıt işlevi bağlamsal ve geçicidir; yerel anlam, kabın kardeşinin taşıma kabına konmasıdır."
+        },
+        {
+          "branch_ref": "root_000022/B003",
+          "facet_id": "F002",
+          "branch_gloss": "bilme ve başkasına bildirme",
+          "facet_statement": "İkinci çekirdek yön, bir bilgiyi başka bir kişiye bildirmektir.",
+          "application_mode": "lexical",
+          "carrier_refs": ["12:70:10:1", "12:70:11:1"],
+          "trigger_refs": ["conn_42bfcf222e4c9e7d37b0"],
+          "focus_return_refs": ["12:70:10:1", "12:70:11:1"],
+          "carrier": "12:70:10:1 ve 12:70:11:1, bilgiyi topluluğa taşıyan duyuru eylemini ve bu eylemin görevlisini kurar.",
+          "independent_trigger": "12:78 bağlantısında sağlanan sonuç, duyurunun bir kardeşi alıkoyma talebine dönüşen işlem zincirini gösterir.",
+          "activation": "Bildirme eylemi, kabın bulunması ve kardeşin tutulmasıyla temas eder; duyuru yalnızca ses üretmez, topluluğun başvuracağı bir işlem zemini açar.",
+          "resulting_reading": "Görevlinin seslenişi, bilgi aktarmanın yanında, suçlamayı topluluğun tamamına yönelten ve işlemi harekete geçiren kamusal eylem olur.",
+          "boundary": "Bildirim burada hükmün doğruluğunu garanti etmez; onun kamusal olarak yöneltilmesini ve sonuç doğuran prosedürü görünür kılar."
+        },
+        {
+          "branch_ref": "root_001066/B007",
+          "facet_id": "F001",
+          "branch_gloss": "yiyecek yükü taşıyan yolcu topluluğu",
+          "facet_statement": "Bir topluluk yiyecek yüklerini taşıyarak yol alır.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["12:70:13:2"],
+          "trigger_refs": ["conn_97fae7cc679b2dd5df66"],
+          "focus_return_refs": ["12:70:13:2"],
+          "carrier": "12:70:13:2, yiyecek yüküyle yol alan topluluğu tek bir kamusal muhatap halinde seslenişe açar.",
+          "independent_trigger": "12:82 bağlantısında sağlanan sonraki tanıklık, aynı kervanı olay hakkında başvurulabilir toplu tanık olarak geri getirir.",
+          "activation": "Yol alan topluluk ile sonraki tanıklık ve sorgulama temas eder; kervan yalnızca hareket eden bir grup değil, suçlamanın yöneltildiği ve bilgi istenen ortak gövde olur.",
+          "resulting_reading": "Kervana sesleniş, yük taşıyan topluluğu kamusal işlemin birlikte muhatabı haline getirir.",
+          "boundary": "Kervanın ortak muhatap oluşu, her üyenin bireysel olarak hırsızlığının kanıtlandığını söylemez."
+        },
+        {
+          "branch_ref": "root_000700/B005",
+          "facet_id": "F001",
+          "branch_gloss": "hırsızlıkla suçlamak",
+          "facet_statement": "Bir kişiye hırsızlık yaptığı yönünde suç yüklenir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["12:70:15:2"],
+          "trigger_refs": ["conn_bd45b12b31c461c1dc06"],
+          "focus_return_refs": ["12:70:15:2"],
+          "carrier": "12:70:15:2, kervana bir eylem raporu değil, hırsızlık kimliği yükleyen çoğul suçlama biçimidir.",
+          "independent_trigger": "12:77 bağlantısında sağlanan sonraki söz, suçlama dilinin kardeşlik ve gizli bilgiyle yeniden dağıtıldığını gösterir.",
+          "activation": "Suçlama kimliği ile sonraki kardeşlik göndermesi temas eder; kamusal etiket, olayın özel bilgisiyle birlikte ilerleyen bir tutma aracına dönüşür.",
+          "resulting_reading": "Âyetin sonundaki hırsızlık sözü, gizli yerleştirmenin görünür sonucunu üreten ve kişisel bilgiyi kamusal bir isnada çeviren eylem olarak duyulur.",
+          "boundary": "Dal, suçlama yüklenmesini taşır; gerçek hırsızlık fiilinin gerçekleştiği sonucunu zorunlu kılmaz."
+        }
+      ],
+      "connection_refs": [
+        "conn_a5a28baa3c047622bf34",
+        "conn_42bfcf222e4c9e7d37b0",
+        "conn_97fae7cc679b2dd5df66",
+        "conn_bd45b12b31c461c1dc06",
+        "conn_cf1e6b9a3dec1958e717",
+        "conn_e0673457a927207aa355"
+      ],
+      "context_refs": ["12:77", "12:78", "12:79", "12:80", "12:81", "12:82"],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:private-kinship-public-caravan",
+      "origin_candidate_id": "cand_09bdf6148cdcb0b6d4ff",
+      "represented_candidate_ids": [
+        "cand_31889d4b9991e9657a07",
+        "cand_17a213dad37186c17ea8"
+      ],
+      "title": "Özel kardeşlik kamusal muhataptan ayrılır",
+      "claim": "His brother anlamındaki tamlama, kardeşliği tek bir korunan kişiye bağlı tutarken kervana yönelen sesleniş topluluğu kamusal muhatap yapar; böylece akrabalık bilgisi kamusal suçlama işleminden geçici olarak ayrılır.",
+      "mechanism": "12:70:8:1'deki kardeşlik taşıyıcısı ile 12:70:13:2'deki toplu muhatap aynı cümlede farklı görünürlükler kurar. 12:90 bağlantısındaki açık kardeş tanıması ve 12:82 bağlantısındaki kervan tanıklığı, özel ilişki ile kamusal işlem arasındaki ayrımı geri çağırır.",
+      "reader_payoff": "Okur, âyetin yalnızca bir kabın nereye konduğunu ve kime seslenildiğini değil, kardeşlik bilgisinin neden kişisel düzeyde tutulup suçlamanın neden topluluğa açıldığını görür.",
+      "containment": "Bu ayrım, kardeşin gerçek ve belirli bir kişi olarak korunmasını silmez; kervanın kamusal muhatap oluşu da kardeşlik bilgisinin açıklandığı anlamına gelmez.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": ["trusted"],
+        "reason": "Güvenilir fakat zayıf dereceli odak bulgusu kardeş-kervan görünürlük farkını açıkça bildiriyor; odak yüzeyleri ve 12:82 ile 12:90 bağlantıları ilişkiyi destekliyor, ancak bu ayrım daha geniş bir tez olarak kurulmamıştır."
+      },
+      "support_ids": ["sup_c6cf7d8d145437f9281a"],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000020/B001",
+          "facet_id": "F001",
+          "branch_gloss": "kardeşlik ve kardeş sayılan kişiler",
+          "facet_statement": "Temel alan, erkek ve kadın kardeşleri ve aralarındaki doğum ya da soy bağını kapsar.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["12:70:8:1"],
+          "trigger_refs": ["conn_056a4561494bfe69b180"],
+          "focus_return_refs": ["12:70:8:1"],
+          "carrier": "12:70:8:1, sahiplik tamlaması içinde belirli bir erkek kardeşi ve onun Yusuf'la soy bağını görünür kılar.",
+          "independent_trigger": "12:90 bağlantısında sağlanan açık tanıma, Yusuf'un bu kişiyi kardeşi olarak kamusal biçimde adlandırdığı daha sonraki dönüşü verir.",
+          "activation": "Özel sahiplik ifadesi ile sonraki açık tanıma temas eder; odak âyetindeki örtülü kardeşlik, kamusal işlem sürerken korunan kişisel bağ olarak belirginleşir.",
+          "resulting_reading": "Kardeşlik burada yalnızca akrabalık bilgisi değil, kamusal suçlama görünür olurken ayrı tutulan özel bir bağ olarak çalışır.",
+          "boundary": "Bu bağlam, kardeşliğin gizlendiğini ve korunmuş kişiyi işaret eder; başka bir kardeşlik türü veya genel arkadaşlık ileri sürülmez."
+        },
+        {
+          "branch_ref": "root_001066/B007",
+          "facet_id": "F001",
+          "branch_gloss": "yiyecek yükü taşıyan yolcu topluluğu",
+          "facet_statement": "Bir topluluk yiyecek yüklerini taşıyarak yol alır.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["12:70:13:2"],
+          "trigger_refs": ["conn_97fae7cc679b2dd5df66"],
+          "focus_return_refs": ["12:70:13:2"],
+          "carrier": "12:70:13:2, yol alan yük topluluğunu tekil bir seslenişle kamusal muhatap haline getirir.",
+          "independent_trigger": "12:82 bağlantısında sağlanan sonraki ifade, kervanı olayın bilgisine başvurulan toplu gövde olarak geri getirir.",
+          "activation": "Kervanın toplu yolculuğu ile sonraki tanıklık temasa geçer; kamusal işlem kardeşin kişisel kimliğine değil, bütün yolcu topluluğuna yönelir.",
+          "resulting_reading": "Kervan, kardeşlik bilgisinin dışında tutulan kamusal yüzü ve suçlamanın ortak muhatabını oluşturur.",
+          "boundary": "Topluluk muhataplığı, her yolcunun aynı fiili işlediğini veya suçlamanın doğrulandığını söylemez."
+        }
+      ],
+      "connection_refs": ["conn_056a4561494bfe69b180", "conn_97fae7cc679b2dd5df66"],
+      "context_refs": ["12:82", "12:90"],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:retrospective-stratagem",
+      "origin_candidate_id": "cand_d6a73e15ac7c05a6fe9a",
+      "represented_candidate_ids": [],
+      "title": "Sonraki açıklama işlemin amacını açar",
+      "claim": "12:76'da sağlanan sonraki açıklama, odaktaki gizli yerleştirme ve kamusal suçlamayı Yusuf'un kardeşini kendi hükümleri altında tutmasını sağlayan bir düzenek olarak yeniden görünür kılar.",
+      "mechanism": "Odaktaki al-siqayah'ın kardeşin taşıma kabına konması ve ardından kervana yöneltilen isnat, 12:76'nın sağlanan retrospektif açıklamasıyla temas eder; sonraki bağlam, suçlamanın kişiyi elde tutan işlem içindeki işlevini açıklar.",
+      "reader_payoff": "Okur, âyette henüz amacı söylenmeyen kamusal suçlamanın daha sonra açılan tutma işlevini fark eder.",
+      "containment": "Bu retrospektif açıklama, odak âyetinin olay sırasını ve suçlama biçimini değiştirmez; suçlamayı bağımsız bir doğruluk hükmü olarak da kurmaz.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": ["legacy_unbound"],
+        "reason": "Reader-walk payload 12:76'daki amacı açıkça bildiriyor, fakat kaynak legacy_unbound ve bu packet içinde ayrı bir HFT koordinat izi sunulmuyor."
+      },
+      "support_ids": ["sup_958d8d9b93f7cb2173bf"],
+      "branch_activations": [],
+      "connection_refs": [],
+      "context_refs": ["12:76"],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:retrospective-vessel-function",
+      "origin_candidate_id": "cand_044e60efc236ea48b915",
+      "represented_candidate_ids": [],
+      "title": "Sonraki geri çıkarma kabın geçici işlevini doğrular",
+      "claim": "12:76'da sağlanan sonraki geri çıkarma ve plan açıklaması, odaktaki sıradan içecek nesnesinin geçici fakat kesin bir kanıt işlevine yeniden atanmasını görünür kılar.",
+      "mechanism": "12:70:5:2'deki hizmet kabı ile 12:70:7:1'deki kardeşin taşıma kabı, 12:76'nın sağlanan geri çıkarma bilgisinde birleşir; bu temas nesnenin hizmetten kamusal delil işlevine geçişini açıklar.",
+      "reader_payoff": "Okur, suçlamanın havada duran bir söz değil, daha sonra yeri gösterilen bir nesneye bağlanan maddi bir düzenek olduğunu görür.",
+      "containment": "Bu geçici kanıt işlevi, kabın başlangıçtaki hizmet anlamını koruyarak eklenir; metin burada gerçek hırsızlık hükmünü doğrulamış sayılmaz.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": ["legacy_unbound"],
+        "reason": "Reader-walk payload 12:76'daki nesne ve plan ilişkisini sağlıyor, ancak kaynak legacy_unbound ve bağımsız HFT anchor evidence bulunmuyor."
+      },
+      "support_ids": ["sup_7010d663efb9ffbaa1f4"],
+      "branch_activations": [],
+      "connection_refs": [],
+      "context_refs": ["12:76"],
+      "semantic_obligation_refs": []
+    }
+  ],
+  "friction_notes": [
+    "Two supplied branch mappings require narrowing: root_000722/B002 describes making a water source available, while the focus surface is a placed service vessel; root_000551/B004 describes a dwelling or household goods, while the supplied local reading is a travel container.",
+    "The packet exposes eight legacy_unbound HFT summary candidates but supplies zero HFT anchor references, zero cited anchor evidence, and no word coordinate, attributed role, or focus return for them. They remain explicitly reviewed and rejected rather than silently treated as activated global readings.",
+    "The two retained retrospective reader-walk findings are qualified because their payloads supply the 12:76 change in understanding without an independently citable HFT trace."
+  ]
+}

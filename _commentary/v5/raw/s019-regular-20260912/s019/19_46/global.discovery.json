@@ -1,0 +1,423 @@
+{
+  "schema_version": "commentary-v5-scope-discovery-v1",
+  "ayah_ref": "19:46",
+  "lane": "global",
+  "coverage_complete": true,
+  "candidate_decisions": [
+    {
+      "candidate_id": "cand_02e3c9cd182d8a797410",
+      "decision": "accept",
+      "reason": "Güvenilir çapraz-koşu bulgusu odaktaki taşıyıcılarla uyumlu beş dalı birlikte kuruyor; her dal ayrı bir küresel tetikleyici ve odak dönüşüyle indiği için adayın hiçbir dalı ya da yükümlülüğü düşürülmüyor.",
+      "finding_refs": [
+        "global:coercive-worship-rupture"
+      ],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_6b73525cb6e75e470bf1",
+      "decision": "reject",
+      "reason": "Legacy_unbound özet, sağlanan ayet/kelime/kök taşıyıcısını bağımsız bir tetikleyiciye ve odak dönüşüne bağlayan hiçbir anchor_ref, branch_ref veya activation trace içermiyor; ayrıca bu aday için semantik yükümlülük sağlanmamış.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_ceee62ee9bac11405cf9",
+      "decision": "reject",
+      "reason": "Legacy_unbound özet, tehdidin tersine çevrilmesi ve barış cevabı iddiasını packet içindeki belirli taşıyıcı, bağımsız tetikleyici ve odak dönüşüyle kurmuyor; anchor_ref, branch_ref, activation trace ve semantik yükümlülük bulunmuyor.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_763836edadd5b1b91f7c",
+      "decision": "reject",
+      "reason": "Legacy_unbound özet, kovulmayı İbrahim'in sonraki ayrılışı ve armağanlarla ilişkilendiren iddiayı packet içindeki ayet/kelime/kök koordinatlarına bağlamıyor; bağımsız tetikleyiciye dönen bir trace ve semantik yükümlülük yok.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_e26881da28ce0c47045b",
+      "decision": "reject",
+      "reason": "Legacy_unbound özet, ayeti bir menteşe olarak yorumlasa da bu küresel sentezi belirli bir focus carrier, bağımsız trigger ve focus return ile desteklemiyor; anchor/branch/trace ve semantik yükümlülük sağlanmamış.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_77c83a624e375fb0c231",
+      "decision": "reject",
+      "reason": "Legacy_unbound özet, رجم alanındaki fiziksel taşlama, sözlü saldırı ve kovulma ayrımını aday düzeyinde doğrulayacak bir HFT koordinatı veya bağımsız temas sunmuyor; sağlanan semantik yükümlülük de yok.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_65c954c252cbfddbc2a3",
+      "decision": "reject",
+      "reason": "Legacy_unbound özet, مَلِيًّا için mühlet, soğuma veya belirsiz sürgün ayrımını sağlayan belirli context_ref ve focus return trace taşımıyor; bağımsız aktivasyon ve semantik yükümlülük bulunmuyor.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_71734d3addac125d37d4",
+      "decision": "reject",
+      "reason": "Legacy_unbound özet, sonraki armağan ilişkisini okuyucu sentezi olarak bildiriyor fakat packet içinde taşıyıcı, bağımsız tetikleyici ve odak dönüşü göstermiyor; anchor/branch/trace ve semantik yükümlülük yok.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    }
+  ],
+  "findings": [
+    {
+      "finding_ref": "global:coercive-worship-rupture",
+      "origin_candidate_id": "cand_02e3c9cd182d8a797410",
+      "represented_candidate_ids": [],
+      "title": "İbadet anlaşmazlığının zorlayıcı kopuşa dönüşmesi",
+      "claim": "Babanın ibadet yönündeki ayrılığı sorgulaması, daha geniş söylem ağı içinde yaralayıcı söz, taşlama ve kovma tehdidi ile uzun süreli bağ kesme yoluyla İbrahim'in aidiyetini denetleyen bir karşılığa dönüşür.",
+      "mechanism": "Odaktaki رغب...عن, أرجمَنَّكَ, اهجرني ve مليًّا taşıyıcıları; 6:74'teki baba-ilah çatışması, 26:116'daki durmazsa taşlama tehdidi, 15:34'teki رجيم ile kovulma, 3:178'deki mühlet ve 73:10'daki ayrılma düzeniyle ayrı ayrı temas eder. Bu temaslar soruyu tek bir inanç itirazı olmaktan çıkarıp sözden tehdide ve uzatılmış kopuşa yayılan bir denetim hamlesi olarak görünür kılar.",
+      "reader_payoff": "Okur, tehdidin yalnız bedensel zarar değil, inanç tercihini ve baba-oğul bağında kalma imkanını aynı anda denetleyen bir dil olduğunu görür.",
+      "containment": "Bu çapraz ayet temasları babanın sözünü ilahî hüküm, odaktaki fiili رجيم adı veya 73:10'daki güzel ayrılma olarak yeniden tanımlamaz; yalnızca ortak taşıyıcıların odak okumasını genişletir.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": [
+          "trusted"
+        ],
+        "reason": "Güvenilir çapraz-koşu bulgusu beş odağı birlikte veriyor; ancak bağlantı satırlarının bir kısmı hedef morfolojisini vermeden tam Arapça ve ilişki notu sunduğu için birleşik küresel okuma qualified tutuluyor."
+      },
+      "support_ids": [
+        "sup_1cdd371e5f9ad48dccd3"
+      ],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000547/B002",
+          "facet_id": "F001",
+          "branch_gloss": "ağır sözlerle sövme",
+          "facet_statement": "Bir kişiye ya da onun hakkında ağır, incitici ve hoşlanılmayan sözler söylemektir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "19:46:10:2"
+          ],
+          "trigger_refs": [
+            "26:116"
+          ],
+          "focus_return_refs": [
+            "19:46:10:2"
+          ],
+          "carrier": "أَرْجُمَنَّكَ, babanın birinci tekil ve vurgulu tehdidi olarak, sözün kendisinde incitici bir saldırı basıncı taşır.",
+          "independent_trigger": "26:116'da konuşulan, durmama halinde taşlanmayı bildiren açık karşı tehdit, tehdit sözünün kendi başına bir saldırı eylemi olduğunu gösterir.",
+          "activation": "Odaktaki vurgulu رجم tehdidi ile 26:116'da doğrudan söylenen karşı tehdit aynı sözlü ultimatom kalıbında buluşur; bu temas r-j-m taşıyıcısının yaralayıcı söz facetini taşlamanın sonucuna indirgemeden görünür kılar.",
+          "resulting_reading": "Babanın cümlesi yalnızca ilerideki bir fiziksel eylemi bildirmez; İbrahim'i sözle yaralayan ve onu itaate zorlayan mevcut bir saldırı olarak da işler.",
+          "boundary": "Bu, her رجم biçiminin sövme anlamı taşıdığı iddiası değildir; yalnız bu tehdit cümlesindeki sözlü saldırı basıncıdır."
+        },
+        {
+          "branch_ref": "root_000547/B003",
+          "facet_id": "F001",
+          "branch_gloss": "iyilikten kovulmuş kötü varlık",
+          "facet_statement": "Belirli kötü varlığın iyilikten ve yüce çevreden kovulmuş olduğunu bildirir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "19:46:10:2"
+          ],
+          "trigger_refs": [
+            "15:34"
+          ],
+          "focus_return_refs": [
+            "19:46:10:2"
+          ],
+          "carrier": "أَرْجُمَنَّكَ, r-j-m kökünün fiziksel tehdit taşıyıcısı olarak, hedefi güvenlik ve aidiyet alanından dışarı itme basıncına açıktır.",
+          "independent_trigger": "15:34, رجيم nitelemesini açık bir çıkış emriyle birleştirerek r-j-m alanında kovulmuşluk ve dışarıda bırakılma temasını sağlar.",
+          "activation": "Odaktaki رجم fiili, 15:34'te aynı kökün çıkış emri ve kovulmuşluk nitelemesiyle temas eder; böylece tehdit, hedefi güvenli ve ait olunan alandan dışarı atma basıncını da duyurur.",
+          "resulting_reading": "Taşlama tehdidi, kişiyi bir toplumsal veya ahlaki alanın dışına iten kovulma imgesini de taşır.",
+          "boundary": "Bu temas İbrahim'i kötü varlık ilan etmez ve odaktaki fiili رجيم sıfatına dönüştürmez; yalnızca r-j-m alanındaki kovulma facetini sınırlandırılmış biçimde açar."
+        },
+        {
+          "branch_ref": "root_000575/B001",
+          "facet_id": "F002",
+          "branch_gloss": "isteyerek yönelmek veya istemeyip yüz çevirmek",
+          "facet_statement": "Olumsuz yönde kişi bir şeyi istemez, ondan vazgeçer veya bilinçli olarak yüz çevirir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "19:46:2:2",
+            "19:46:4:1"
+          ],
+          "trigger_refs": [
+            "6:74"
+          ],
+          "focus_return_refs": [
+            "19:46:2:2"
+          ],
+          "carrier": "رَاغِبٌ sözcüğü عَنْ ile tamamlandığında bir şeye istemeyerek yüz çevirme ve ondan ayrılma yönünü taşır.",
+          "independent_trigger": "6:74'te İbrahim'in babasına putları ilah edinmeyi sorması, aynı baba-ilah çekişmesini bağımsız biçimde kurar.",
+          "activation": "Odaktaki رغبة عن yönü ile 6:74'teki baba karşısında ilah edinme itirazı buluşunca soru, yalnız içsel tercih değil, babanın sahip çıktığı tapınma düzeninden ayrılma iddiasına dönüşür.",
+          "resulting_reading": "Babanın sorusu, İbrahim'in yönünü sorgulayan ve ailece korunmuş ilahlar düzenine geri çağıran bir aidiyet sınaması olarak okunur.",
+          "boundary": "6:74 odaktaki cümleyi tarihsel olarak yeniden kurmaz; yalnız baba-ilah çatışmasının yönünü genişletir."
+        },
+        {
+          "branch_ref": "root_001446/B001",
+          "facet_id": "F001",
+          "branch_gloss": "zamansal uzama ve süre tanıma",
+          "facet_statement": "Temel anlam, zamanın kesintisiz biçimde uzaması ve geniş bir zaman aralığına yayılmasıdır.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "19:46:12:1"
+          ],
+          "trigger_refs": [
+            "3:178"
+          ],
+          "focus_return_refs": [
+            "19:46:12:1"
+          ],
+          "carrier": "مَلِيًّا, uzak durma emrini kısa bir ayrılık değil, uzun ve kesintisiz bir zaman aralığı olarak kurar.",
+          "independent_trigger": "3:178'de inkârcılara mühlet verilmesinin sürenin uzatılması olarak kurulması, zaman aralığının bir ilişki veya hüküm basıncı taşıyabileceğini gösterir.",
+          "activation": "Odaktaki مَلِيًّا ile 3:178'deki uzatılmış mühlet teması buluşunca süre, yalnız takvim bilgisi olmaktan çıkar ve ayrılığı hemen sona erdirmeyen etkin bir baskı unsuruna dönüşür.",
+          "resulting_reading": "Babanın istediği uzaklık, anlık öfkenin ardından bitecek bir kovma değil, uzunluğuyla ilişkiyi askıda ve dışarıda tutan bir uygulama olarak görünür.",
+          "boundary": "3:178'deki ilahî mühlet babanın emrine aktarılmaz; yalnızca odaktaki uzun süre facetinin zamanın sonuç üreten bir uzatması olarak duyulmasını sağlar."
+        },
+        {
+          "branch_ref": "root_001578/B001",
+          "facet_id": "F001",
+          "branch_gloss": "bağı kesip uzaklaşma",
+          "facet_statement": "Var olan ya da sürdürülmesi gereken bağı ve ilgiyi kesme.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "19:46:11:2"
+          ],
+          "trigger_refs": [
+            "73:10"
+          ],
+          "focus_return_refs": [
+            "19:46:11:2"
+          ],
+          "carrier": "اهْجُرْنِي, mevcut kişisel bağı kesmeyi ve beden, söz veya gönül yönünden uzaklaşmayı buyurur.",
+          "independent_trigger": "73:10'da düşman konuşmacılara sabır ve güzel bir ayrılma emri verilmesi, h-j-r eyleminin çatışma içinde de sınır koyan bir uzaklaşma olabileceğini gösterir.",
+          "activation": "Odaktaki اهجرني ile 73:10'da aynı ayrılma eyleminin düşman sözleri karşısında kurulması buluşunca uzaklaşma, yalnız kovulma değil, karşılık vermeden bağın sınırını belirleyen bir hareket olarak görünür.",
+          "resulting_reading": "İlişkiyi kesme emri, tehdidin ardından gelen kopuşun somut biçimini ve sözlü şiddete rağmen mesafe kurma ihtimalini birlikte duyurur.",
+          "boundary": "73:10'daki جميل niteliği babanın emrine aktarılmaz ve odak cümlesi barışçıl ilan edilmez; ortak olan yalnız ayrılma eyleminin sınır kurucu işlevidir."
+        }
+      ],
+      "connection_refs": [
+        "conn_a1b85e35c9ac7fd758af",
+        "conn_283d2c2b8b25cd04c9ad",
+        "conn_2eae4ff1ab758b0455d8",
+        "conn_13869be66548437dfe5e",
+        "conn_1eb315f9dfae8cb34fc7"
+      ],
+      "context_refs": [
+        "26:116",
+        "15:34",
+        "6:74",
+        "3:178",
+        "73:10"
+      ],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:inherited-idol-set",
+      "origin_candidate_id": null,
+      "represented_candidate_ids": [],
+      "title": "İlahların sahiplenilmiş düzeni",
+      "claim": "Odaktaki birinci tekil iyelikli ilahlar sözü, soyut bir ilah fikrinden çok babanın sahip çıktığı somut tapınma nesnelerinden oluşan bir düzeni savunma konusu haline getirir.",
+      "mechanism": "آلِهَتِي taşıyıcısı, tapınılan varlık veya tapınma konusu nesne facetini taşır; 6:74'te İbrahim'in babasına putları ilah edinmeyi sorması bağımsız tetikleyici olarak bu sahiplenilmiş tapınma düzenine döner. Temas, odaktaki sorunun İbrahim'in yalnızca bir inancı bırakıp bırakmadığını değil, babanın benimsediği nesneler kümesinden yüz çevirip çevirmediğini görünür kılar.",
+      "reader_payoff": "Okur, benim ilahlarım ifadesindeki iyeliğin ailevi ve toplumsal sahiplenme basıncını, inanç anlaşmazlığının somut nesneleriyle birlikte görür.",
+      "containment": "Bu temas ilahlar kümesinin tarihsel kimliğini belirlemez, sözü özel ada dönüştürmez ve odaktaki babanın başka ayetteki konuşmasını kelimesi kelimesine yeniden kurmaz.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": [],
+        "reason": "Odak yüzeyi ve dal facet'i doğrudan mevcut; 6:74 bağlantısı tam Arapça ile sağlanmış olsa da hedef morfolojisi ayrıca verilmediği için ilişki qualified tutuluyor."
+      },
+      "support_ids": [],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000047/B001",
+          "facet_id": "F002",
+          "branch_gloss": "tapınma ve tapınılan varlık",
+          "facet_statement": "Eylemden türeyen varlık anlamı, kendisine tapınılan varlığı veya tapınma konusu sayılan nesneyi gösterir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "19:46:5:1"
+          ],
+          "trigger_refs": [
+            "6:74"
+          ],
+          "focus_return_refs": [
+            "19:46:5:1"
+          ],
+          "carrier": "آلِهَتِي, birinci tekil iyelikle babanın benimsediği tapınılan varlıkları ve tapınma konusu nesneleri gösterir.",
+          "independent_trigger": "6:74'te babaya yöneltilen, putların ilah edinilmesini sorgulayan söz, aynı ailevi tapınma nesnesi çatışmasını bağımsız olarak kurar.",
+          "activation": "Odaktaki iyelikli çoğul ilahlar ile 6:74'teki putları ilah edinme sorgusu temas edince, babanın sahip çıktığı nesneler İbrahim'in yüz çevirdiği somut düzen olarak belirir.",
+          "resulting_reading": "İnanç anlaşmazlığı, kişisel bir fikir ayrılığından çok babanın koruduğu tapınma nesneleriyle bağın koparılması olarak duyulur.",
+          "boundary": "Bu, belirli putların odaktaki ilahlarla özdeş olduğunu veya dalın özel ad facetinin etkinleştiğini söylemez."
+        }
+      ],
+      "connection_refs": [
+        "conn_2eae4ff1ab758b0455d8"
+      ],
+      "context_refs": [
+        "6:74"
+      ],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:desistance-ultimatum",
+      "origin_candidate_id": null,
+      "represented_candidate_ids": [],
+      "title": "Durma şartının tehdide bağlanması",
+      "claim": "تَنتَهِ, koşullu cümlenin içinde İbrahim'den tartışmalı çağrısını kendi eliyle sona erdirmesini isteyen bir geri durma şartı kurar; bu şart, tehdidin yalnız sonucunu değil itaat talebini de taşır.",
+      "mechanism": "Odaktaki VIII. biçim jussive تَنتَهِ, kişinin bir eylemden geri durması facetini taşır. 26:116'da aynı لَئِن لَّمْ تَنتَهِ düzeninin taşlama tehdidiyle birlikte kurulması, odaktaki koşulu peygamberî çağrının sürdürülmesine karşı tekrarlanan bir toplumsal zorlama kalıbı olarak görünür kılar.",
+      "reader_payoff": "Okur, babanın sözünü yalnızca öfke patlaması değil, önce vazgeçmeyi emreden ve sonra zararı bildiren iki aşamalı bir ultimatom olarak okur.",
+      "containment": "26:116 odaktaki baba ilişkisini aynı olay ilan etmez; yalnız koşullu durma talebinin farklı bir peygamberî çatışmada da tehdidin giriş kapısı olduğunu gösterir.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": [],
+        "reason": "Odak morfolojisi ve 26:116'ın tam Arapçası aynı koşullu yapıyı gösteriyor; bağlantı hedefinin ayrı morfolojik çözümlemesi packet'te bulunmadığı için okuma qualified."
+      },
+      "support_ids": [],
+      "branch_activations": [
+        {
+          "branch_ref": "root_001560/B001",
+          "facet_id": "F002",
+          "branch_gloss": "bir eylemi yasaklama, engelleme veya ondan geri durma",
+          "facet_statement": "Yasaklanan veya istenmeyen eylemden geri durma ve kendini tutma.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "19:46:9:1"
+          ],
+          "trigger_refs": [
+            "26:116"
+          ],
+          "focus_return_refs": [
+            "19:46:9:1"
+          ],
+          "carrier": "تَنتَهِ, VIII. biçimde muhatabın sürdürdüğü eylemden kendisinin geri durmasını isteyen jussive biçimdir.",
+          "independent_trigger": "26:116'da لَئِن لَّمْ تَنتَهِ koşulu, bir çağrının veya itirazın sürdürülmesine karşı taşlama tehdidinden önce gelir.",
+          "activation": "Odaktaki geri durma biçimi ile 26:116'daki aynı koşullu formül buluşunca, babanın emri tehditten önce gelen bir itaat talebi olarak yapı kazanır.",
+          "resulting_reading": "Tehdit, İbrahim'in yalnızca cezalandırılacağını değil, önce kendi tanıklığını sona erdirmeye zorlandığını görünür kılar.",
+          "boundary": "Bu paralel, odaktaki tehdidin tarihsel kaynağını belirlemez ve تَنتَهِ biçimini başkasını yasaklayan Form I anlamına taşımaz."
+        }
+      ],
+      "connection_refs": [
+        "conn_a1b85e35c9ac7fd758af"
+      ],
+      "context_refs": [
+        "26:116"
+      ],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:stoning-threat-pattern",
+      "origin_candidate_id": null,
+      "represented_candidate_ids": [],
+      "title": "Taşlama tehdidinin tekrarlanan kalıbı",
+      "claim": "أَرْجُمَنَّكَ, ikinci şahsı açıkça hedefleyen vurgulu bir fiziksel taşlama tehdidi kurar; 36:18'deki benzer durmazsanız taşlarız formülü bu tehdidi dinî itiraza verilen tekrarlanan toplumsal şiddet kalıbı olarak genişletir.",
+      "mechanism": "Odaktaki ر ج م fiili ve ikinci şahıs nesne eki, tehdidi soyut bir lanet değil hedefe yöneltilmiş bir eylem olarak taşır. 36:18'in tam Arapçası, durmama koşulunu رجم tehdidiyle birleştirir; temas focus fiiline dönerek babanın sözündeki fiziksel zarar imgesini daha geniş bir muhalif çağrıya verilen tepki içinde görünür kılar.",
+      "reader_payoff": "Okur, taşlama tehdidini yalnız aile içi bir çıkış değil, inanç itirazlarını susturmak için yinelenen bir zor kullanma dili olarak da algılar.",
+      "containment": "36:18 odaktaki olayla aynı kişiler veya tarihsel bağ iddiası taşımaz; bu bulgu r-j-m kökünün sövme, kovulma ya da başka dallarını bu fiziksel carrier'a eklemez.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": [],
+        "reason": "Odak biçimi açıkça fiziksel hedefli bir tehdit taşıyor ve 36:18'in tam Arapçası yakın formülü veriyor; hedef morfolojisi packet'te ayrıca çözülmediği için küresel paralel qualified."
+      },
+      "support_ids": [],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000547/B001",
+          "facet_id": "F001",
+          "branch_gloss": "taş ya da benzeriyle vurma",
+          "facet_statement": "Bir hedefe taş ya da benzeri sert bir nesne fırlatıp onu vurma eylemidir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "19:46:10:2"
+          ],
+          "trigger_refs": [
+            "36:18"
+          ],
+          "focus_return_refs": [
+            "19:46:10:2"
+          ],
+          "carrier": "أَرْجُمَنَّكَ, ikinci şahıs nesne ekiyle İbrahim'i sert bir nesneyle vurma tehdidinin doğrudan hedefi yapar.",
+          "independent_trigger": "36:18'deki لَنَرْجُمَنَّكُمْ, durmama koşulunun ardından elçiler topluluğuna yönelen açık taşlama tehdidini kurar.",
+          "activation": "Odaktaki hedefli رجم fiili ile 36:18'deki koşullu رجم tehdidi aynı şiddet eyleminde buluşur; tekrar, babanın tehdidini fiziksel zorun daha geniş bir susturma düzenine bağlar.",
+          "resulting_reading": "Babanın tehdidi somut bedensel saldırı olarak kalırken, aynı zamanda dinî itiraz karşısında tekrar eden bir susturma kalıbının parçası olarak görünür.",
+          "boundary": "Bu aktivasyon taşlamanın fiziksel çekirdeğiyle sınırlıdır; sövme, kötü varlık veya bilinçsiz kestirim dalları buraya taşınmaz."
+        }
+      ],
+      "connection_refs": [
+        "conn_2aedf5154f514bcfe355"
+      ],
+      "context_refs": [
+        "36:18"
+      ],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:departure-as-migration",
+      "origin_candidate_id": null,
+      "represented_candidate_ids": [],
+      "title": "Bağ kesmeden göçe açılan ayrılık",
+      "claim": "اهْجُرْنِي'nin kişisel bağı kesen ayrılık emri, İbrahim'in yakın çevreden kopuşunun daha sonra Rabbine yönelen bir göç olarak biçimlenebileceği geniş bir hareket alanı açar.",
+      "mechanism": "Odaktaki ه ج ر emri, sürdürülmesi gereken bağı kesme çekirdeğini taşır. 29:26'da İbrahim'le birlikte anılan göç sözü, aynı ayrılma kökünü inanç uğruna yer değiştirme ve Rabbe yönelme eylemine bağlar; temas odak emrini yalnız anlık dışlama değil, sonraki bir ayrılış güzergahının başlangıç basıncı olarak görünür kılar.",
+      "reader_payoff": "Okur, benden uzak dur emrinin yalnızca dışarı atma değil, yanlış bağlılıktan kopuş sonrasında başka bir yöne hareket etme ihtimalini de taşıdığını fark eder.",
+      "containment": "19:46 göçü açıkça söylemez; 29:26 odaktaki emrin sonucunu zorunlu tarihsel devam olarak kurmaz ve babanın kovma emrine Rabbine yönelme niyeti yüklemez.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": [],
+        "reason": "Odaktaki h-j-r emri ile 29:26'daki aynı kökten göç ifadesi tam Arapça ve bağlantı notuyla birlikte sağlanıyor; hedef morfolojisi ayrı bir çözümleme olarak verilmediği için okuma qualified."
+      },
+      "support_ids": [],
+      "branch_activations": [
+        {
+          "branch_ref": "root_001578/B002",
+          "facet_id": "F001",
+          "branch_gloss": "yurdunu bırakıp başka yere göçme",
+          "facet_statement": "İlk evi veya yurdu bırakarak başka bir yere çıkma.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "19:46:11:2"
+          ],
+          "trigger_refs": [
+            "29:26"
+          ],
+          "focus_return_refs": [
+            "19:46:11:2"
+          ],
+          "carrier": "اهْجُرْنِي, babayla sürdürülen bağı bırakmayı buyuran ayrılma eylemini taşır.",
+          "independent_trigger": "29:26'da İbrahim'le birlikte anılan إِنِّي مُهَاجِرٌ إِلَىٰ رَبِّي sözü, ayrılmayı inanç uğruna göç ve yöneliş olarak kurar.",
+          "activation": "Odaktaki bağ kesme emri ile 29:26'daki göç sözü aynı h-j-r alanında buluşunca, uzaklaşma kişisel dışlamanın ötesinde mekânsal bir ayrılışa açılan hareket olarak görünür.",
+          "resulting_reading": "Ailevi kopuş tehdidi, İbrahim'in yanlış bağlılıktan ayrılıp başka bir yere yönelmesinin mümkün başlangıç koşulu olarak da okunur.",
+          "boundary": "Bu, odak ayetinde göçün açıkça bulunduğunu veya 29:26'daki yönelişin babanın niyeti olduğunu söylemez; yalnızca h-j-r alanının yer değiştirme facetini sınırlar."
+        }
+      ],
+      "connection_refs": [
+        "conn_60c589232b38b92ca1e7"
+      ],
+      "context_refs": [
+        "29:26"
+      ],
+      "semantic_obligation_refs": []
+    }
+  ],
+  "friction_notes": [
+    "Yedi legacy_unbound HFT özeti için packet'te anchor_refs, branch_refs veya odakla geri bağlanan activation trace bulunmadığından bu kayıtlar ayrı küresel bulgu olarak tutulmadı.",
+    "Küresel bağlantıların hedef ayet Arapçası sağlanıyor, ancak hedef morfolojisi ve sözlüksel çözümlemesi sağlanmayan temaslar bu nedenle qualified olarak sınırlandı."
+  ]
+}

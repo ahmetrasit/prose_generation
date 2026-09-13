@@ -1,0 +1,191 @@
+# V5 reading invitation — 12:39
+
+You are a fresh reading-invitation writer. Read the complete editorial prose
+before writing. It is your sole semantic source.
+
+Write two to four paragraphs of fluent, contemporary Turkish that reveal a
+surprising reading by following one or two main channels of resonance in the
+ayah. A channel is a connected background of meanings, images, actions, or
+relations through which the ayah can be heard and understood differently.
+Several editorial findings may together develop one channel. Summarize that
+connected movement and its consequence for the ayah's main meaning, rather
+than compressing findings individually. Give the reading's substance now;
+the invitation comes from understanding it, not from a promise of hidden depth.
+
+Before drafting, read the entire editorial prose and silently select the one
+or two channels with the strongest interpretive consequence and enough
+grounding to explain clearly. Favor channels that expand or shift what the
+ayah says, the relation it establishes, or what is at stake in its action or
+image. One fully developed channel is sufficient; add a second only when it
+offers a distinct consequential reading that can be explained within the
+invitation. No finding, channel, or major shift has an individual coverage
+claim. Unselected material may remain entirely in the full commentary.
+
+A channel may develop through grammar, sound, dialogue, a material process,
+time, imagery, or a conceptual relation. Resonance is not limited to acoustic
+effects, and an unusual image alone does not establish a channel. Use only
+connections the editorial prose actually develops. If it supplies no such
+channel, explain its strongest grounded reading without inventing connections
+or surprise.
+
+Begin inside the ayah's own words, images, actions, or relations and reveal a
+selected distinctive reading in the first paragraph. Keep the plain meaning
+reachable with only the orientation needed to understand the change. Do not
+spend an opening paragraph on routine explanation or front-load context about
+the surah, the ayah's position, or the commentary project.
+
+For each selected channel, begin with the expression that opens it, unfold the
+connected background, and show how the ayah reads or sounds against that
+background. Let a detail lead into the next through an intelligible relation
+or process, so the reader experiences the emerging reading. This is a movement
+of thought, not a mandatory sentence pattern or one paragraph per finding.
+Let the reader identify the expression being interpreted,
+where any nonordinary detail comes from, and what that detail changes in the
+reading. Briefly identify the word-family use, restricted form, collocation, or
+context that supplies an essential added detail, and preserve the concrete
+operation that makes the image work. Keep the ordinary reading and necessary
+qualification clear within this explanation; do not repeat them as a fixed
+formula. Preserve the particular object, process, or relation that makes this
+reading distinctive, and state its interpretive consequence for the ayah as a
+whole. Make intelligible what the familiar reading leaves less visible and
+what the expanded or shifted reading now lets the reader understand. Preserve
+the editorial's force: an exploratory possibility remains possible, while a
+developed shift must not be softened into a decorative association or a
+reassurance that everything means the same thing. A concrete
+account of how something is carried, transformed, lost, or restored must not
+shrink to a general statement about care, guidance, dependence, or goodness.
+Keep the details needed to make the selected channel work; omit side findings
+and shorten routine setup. If a channel cannot be explained faithfully from
+the editorial prose, choose another grounded channel or reading.
+
+When a non-focus ayah supplies a contribution used in the invitation, keep its
+reference from the editorial prose beside that contribution.
+
+Do not turn the invitation into a miniature inventory of the commentary's
+conclusions, or flatten distinct channels into a broad theme to include more
+material. Do not repair, extend, or supplement the editorial prose from memory
+or outside knowledge.
+
+Omit technical apparatus. Retain any qualification, source distinction, live
+alternative, or boundary whose absence would change the force or meaning of a
+chosen reading. Express it naturally beside the image or relation it qualifies.
+Favor positive explanations of the relation between layers: what remains in
+the foreground and what the resonance makes audible in the background. State
+how that background reinforces, expands, or shifts the understanding of the
+main meaning, with the source and degree of certainty clear. Reserve explicit
+exclusions for concrete ambiguities or live counter-evidence that need them.
+Repeated "this is not X" endings make a reading sound withdrawn; express the
+substantive qualification through what the reading does contribute wherever
+possible. Use varied, natural language rather than a repeated "second layer"
+formula, and preserve the force of expansions and shifts.
+Do not name branches, candidates, findings, scopes, evidence categories,
+ledgers, or workflow stages, or label the prose as numbered channels. Do not
+list findings serially.
+
+Use the established `{ar:..., tr:..., gloss:...}` syntax, consistent
+Turkish-readable transliteration, and short ordinary glosses. Keep Arabic
+anchors beside the explanations they ground. Within a paragraph, continue with
+the Turkish meaning where clear; provide the necessary local tag when a later
+paragraph interprets the carrier anew. Do not place Arabic script outside a
+valid tag.
+
+Build transitions within a channel through its shared object, action, or
+relation. If two channels are selected, they may occupy separate paragraphs;
+do not invent a link between them. Do not praise the commentary's quality,
+promise what the reader will find, manufacture suspense, recap at the end, or
+add a call to action. End on an image, relation, action, or tension already
+established by the selected reading.
+
+Before finishing, compare the invitation with the entire editorial prose:
+does the chosen channel reveal a consequential reading, or could the text have
+been written from the ordinary translation and a modest explanation alone?
+When the editorial supports a surprising channel, the latter fails this task.
+Can the reader follow the opening expression into a connected background and
+understand how that background expands or shifts the ayah's main meaning?
+Check the selected connections against their editorial explanation: can the
+reader tell where the nonordinary details come from, with the necessary
+qualifications intact? Repair generic explanation, isolated curiosities, or a
+compressed findings list by developing the selected channel. Do not add
+omitted channels merely for coverage. Do not output this check.
+
+Write only the invitation text to:
+
+`_commentary/v5/editorial/s012-p03-with-fatiha/s012/12_39/12_39.invitation.tr.md`
+
+Do not add a heading, wrapper label, index, ledger, evidence file, or any other
+artifact. Do not modify the editorial prose.
+
+After writing the invitation, run:
+
+```bash
+python3 _commentary/v5/validate_prose.py _commentary/v5/editorial/s012-p03-with-fatiha/s012/12_39/12_39.invitation.tr.md
+```
+
+If validation fails, repair only the reported mechanical file-contract issues
+and rerun it, for at most two repair cycles. Report the final validator result
+in your response.
+
+<editorial_prose>
+## Hitabın İçindeki Soru
+
+Yusuf bu âyette hapishanede birlikte bulunduğu iki kişiye dönerek sorar: “Ey hapishane arkadaşlarım, ayrı ayrı rabler mi daha iyidir, yoksa tek ve karşı konulamaz Allah mı?” Soru, {ar:أَمِ, tr:em, gloss:yoksa} ile iki seçeneği birbirinden ayırır; {ar:خَيْرٌ, tr:hayrun, gloss:daha iyi} ise hükmü yalnız ilk seçeneğe değil, iki seçeneğin tamamına uygulanan ortak ölçü yapar. İlk seçenek, {ar:ءَأَرْبَابٌ, tr:e-erbâbun, gloss:rabler} ile {ar:مُّتَفَرِّقُونَ, tr:müteferrikûn, gloss:ayrı ayrı, dağılmış} sözlerinin kurduğu çoğul ve dağınık rabliktir. Karşı seçenek, {ar:ٱللَّهُ, tr:Allahu, gloss:Allah} adının {ar:ٱلْوَاحِدُ, tr:el-Vâhid, gloss:tek olan} ve {ar:ٱلْقَهَّارُ, tr:el-Kahhâr, gloss:karşı konulamaz biçimde üstün gelen} nitelemeleriyle tek bir ilahî merkeze bağlanmasıdır. Âyet önce bir cevabı ilan etmekten çok, iki mahpusun önünde yetke ve bağlılık ölçüsünü soru hâline getirir.
+
+Başlangıçtaki {ar:يَٰ, tr:yâ, gloss:ey} uzun bir çağrı sesi gibi duyulur. Yoğun karşılaştırmadan önce muhatapları toplar, sözü uzaktan kurulmuş bir öğreti olmaktan çıkarıp karşısındaki iki kişiye yöneltilen canlı bir hitaba dönüştürür. Yakın kişilere yönelen bu çağrı, konuşmayı hedefini değiştirmeden daha duyulur ve kamusal ağırlığı olan bir öğüt hâline getirir. Ardından gelen {ar:صَاحِبَيِ, tr:sâhibey, gloss:iki arkadaşım} önce ilişkiyi bildirir; hapishane tamlaması yeri bundan sonra söyler. İlk tekil iyelikle kurulan ikil biçim, Yusuf'un belirsiz bir kalabalığa değil, tam iki kişiye “benim iki arkadaşım” diye seslendiğini sabitler. Baskı altındaki bir sahnede eşlik ve destek duygusu taşıyan bu adlandırma, iki mahpusu birbirini kollamaya muhtaç, kırılgan bir ortaklığın içinde gösterir; rablik iddiaları henüz anılmadan önce yatay beraberlik kurulmuştur.
+
+Bu beraberliğin mekânı, {ar:ٱلسِّجْنِ, tr:es-sicni, gloss:bilinen hapishane} ile belirli bir yere sabitlenir. Belirlilik ve tamlama, herhangi bir hapishane fikrini değil, bu iki kişinin bildiği ortak kapatılma yerini öne çıkarır. Kelime yer adını korurken özgürlüğü daraltan ve bedeni kapalı tutan bir basınç da duyurur; bu basınç, kelimeyi bir fiile çevirmeden anlamını derinleştirir. Böylece hapishane, arkadaşlığın sosyal zeminidir ve soru soyut bir kürsüden değil, aynı kısıtlamayı yaşayan insanların içinden yükselir. Yakın anlatıda aynı kelimenin hapishane sahnesini sürdürmesi (12:36, 12:41, 12:42), seslenişin sonunda sıkı bir sesle kapanarak soruya geçit verir. Bu alanda ayrı bir Sijjin adıyla ilişkilendirilebilecek kader ve kuşatılma rengi de sezilebilir; bu renk yerel hapishane görüntüsünü yoğunlaştırır. Bu bağlantı âyete ayrı bir Sijjin mekânı yerleştirmez.
+
+## İki Boyun Kuruluşu
+
+Soru hamzası, {ar:ءَأَرْبَابٌ, tr:e-erbâbun, gloss:rabler} sözünü daha tamamlanmadan değerlendirmeye alır. Belirsiz ve çoğul biçim, adı verilmiş kapalı bir liste sunmaz; çoğalabilen, farklı merkezlerde toplanabilen yetke iddialarını ilk karşılaştırma boynuna taşır. Rablik kelimesinin geniş sahiplik, buyruk ve yönetme alanı burada {ar:مُّتَفَرِّقُونَ, tr:müteferrikûn, gloss:ayrı ayrı, dağılmış} ile karşılaşınca rakip ustalık ve bölünmüş egemenlik görünümü kazanır. Bu sıfat rablerin yanına serbestçe eklenmiş bir yorum değil, onların içinde bulunduğu durumu tanımlayan bir bağdır. Fiil kökünden türemiş katılımcı biçim, rableri yalnızca farklı sayıda varlıklar olarak değil, ortaya çıkmış ve sürmekte olan bir dağınıklık hâlinde gösterir. Ayrılma alanının açıklık ve farklılaşma yönleri arka planda kalırken, rakip rablik yanında kaotik bölünme öne çıkar. Başındaki yakalayıcı ses ve çoğul son, bu dağınık topluluğu {ar:خَيْرٌ, tr:hayrun, gloss:daha iyi} gelinceye kadar açıkta tutar. Soru biçimi başka meydan okuma kalıplarını hatırlatabilse de, bu tanıdık yankı hapishane içindeki “hangisi daha iyi?” sorusunun yerel ağırlığını değiştirmez.
+
+Rableri niteleyen {ar:مُّتَفَرِّقُونَ, tr:müteferrikûn, gloss:ayrı ayrı, dağılmış} sözü, çoğulluğu nötr bir sayı olmaktan çıkarır. Bir bütünün ayrı parçalara dağılması, karşısında biraz sonra duyulacak {ar:ٱلْوَاحِدُ, tr:el-Vâhid, gloss:tek olan} ile temas ettiğinde bölünmüş yetke düzeni olarak görünür; çoğul gramer yine yerinde kalır, fakat çoğulluğun nasıl yaşandığı değişir. Böylece ilk boyun yalnızca “birden çok rab” demez, yönetme iddiasının parçalar hâlinde ortaya çıkışını duyurur. İlk boynu mühürleyen {ar:خَيْرٌ, tr:hayrun, gloss:daha iyi} de belirsiz bir iyilik yığını değildir. İki ihtimal arasında daha iyi olanı arayan ve ayıran karşılaştırmalı bir hükümdür; lütuf fikrini de hesaba katarak hangi yetkeye bağlanmanın daha iyi ve yararlı olduğunu sordurur. Bu karşılaştırmalı kalıp başka ilahî üstünlük sorularını hatırlatabilir; bu tanıdık yankı hapishane içindeki yerel sorunun ölçüsünü değiştirmez. Bu yerel hayrun ölçüsü maddi mal veya zenginlik değerlendirmesine değil, hangi yetkeye bağlanmanın daha iyi ve yararlı olduğuna yönelir; başka sözlük dallarını bu bağlantıya taşımaz.
+
+Bu ilk boynun ardından gelen {ar:أَمِ, tr:em, gloss:yoksa}, iki seçeneği tek bir listeye eritmeden birbirine bağlar. Kısa sesi {ar:ٱللَّهُ, tr:Allahu, gloss:Allah} girişine akarak çoğul yetke profilinden adlandırılmış ilahî boyna dönüşü işittirir. Em soru biçimini korurken dinleyeni ikinci boyundaki düzeltici karşılığa taşır; sorunun cevabı ise burada açıkça ilan edilmez. İlk boyunda söylenen hayrunun ikinci boyunda tekrarlanmaması da ölçüyü ortadan kaldırmaz: aynı “daha iyi” hükmü hem rableri hem Allah'ı tartar. Bu açık ayrım, sonraki ayette tapınılan rakiplerin statüsünün ve yetki iddiasının sorgulanmasıyla biraz daha açıklanır (12:40); böylece soru, açıklaması sonraya bırakılmış hâlde canlı kalır.
+
+{ar:ٱللَّهُ, tr:Allahu, gloss:Allah} adı, ilk boyundaki çoğul yetke profilini tek ilahî göndergeye çeviren ikinci özne olarak belirir. Adın tapınma ve ibadetle ilişkili bir türeme çağrışımı işitilebilir; bu bağlantıda yerel biçim sabit özel ad olarak kalır ve ortak bir kategori adına dönüşmez. Belirli adın tek bir ilahî göndergesi vardır; bu yüzden ikinci boyun, ilk boyundaki belirsiz ve çoğul rabler gibi çoğaltılabilen bir sınıfa eklenmez. {ar:ٱلْوَاحِدُ, tr:el-Vâhid, gloss:tek olan} bu ada bitişmiş belirli bir unvan olarak gelir; teklik sonradan eklenmiş bir açıklama değil, burada adın aldığı kimliğin parçasıdır. Birin çokluğa karşı konumunu özellikle öne çıkarır, bölünmüş rablik karşısında sayısal ve yapısal bir karşıtlık kurar. Daha geniş birlik yankıları duyulabilir; burada bunlar hapishane sorusuna verilen yakın cevabı renklendirir. Allah, erbâbın belirsiz çoğulu karşısında bilinen ve tek olan göndergedir; iki boyun da ilk boyunda kurulmuş hayrun ölçüsünü sessizce paylaşır.
+
+## Kapanışta Yoğunlaşan Güç
+
+{ar:ٱلْوَاحِدُ, tr:el-Vâhid, gloss:tek olan} ile {ar:ٱلْقَهَّارُ, tr:el-Kahhâr, gloss:karşı konulamaz biçimde üstün gelen} art arda gelen belirli başlangıçlarla {ar:ٱللَّهُ, tr:Allahu, gloss:Allah} adına bağlanan iki ayrı mühür oluşturur. Birinci unvan tekliği, ikinci unvan üstün gelip boyun eğdiren gücü taşır. Yoğunlaştırılmış biçim, Kahhâr'ı tek seferlik bir eylemden çok Allah'a ilişen süreklilik ve tekrar gücü taşıyan bir nitelik hâline getirir. Seyrek ve işaretli qahr alanının âyetin sonuna bırakılması, son kelimeyi yüksek basınçlı bir seçim olarak öne çıkarır. Böylece “bir ve karşı konulamaz” çifti, hapishane sorusunu tanınabilir bir ilahî niteleme formuyla mühürler; son kelime yeni bir özne açmaz, Allah adına bağlanan ikinci belirli sıfat olarak adı tamamlar.
+
+Bu son sıfat, genel bir güç övgüsünden daha belirgin bir hareket taşır: üstün gelen taraf karşısındakini aşar ve onu boyun eğmiş, güçsüz bir konuma getirir. Hapishanenin ve rakip rablerin kurduğu insanî kısıt, {ar:ٱلْقَهَّارُ, tr:el-Kahhâr, gloss:karşı konulamaz biçimde üstün gelen} ile karşılaşınca onu aşabilecek etkin bir güç karşısında yeniden ölçülür. “Sonunda kim üstün gelir?” sorusunun ağırlık merkezi insanın zorlayıcı iktidar iddialarından Allah'a bağlı bu yoğun sıfata geçer. Aynı qahr alanı, bu üstün gelme hareketini tek bir siyasî çekişmeyle sınırlamayıp sistemik ve direnilmez bir baskı olarak da renklendirir. {ar:ٱلسِّجْنِ, tr:es-sicni, gloss:bilinen hapishane} ile kurulan temas, bu gücü yaşanmış kısıtın karşısına çıkarır; hapishane âyetin tek anlamına dönüşmez. Bu okuma sıfatın boyun eğdirme çekirdeğini korur; bu bağlantı ona ayrıca koruyucu ya da özgürleştirici bir yön yüklemez.
+
+Bu kelimeler birlikte dinlendiğinde, âyetin açık “çok rab mi, tek Allah mı?” sorusunu koruyan yerel bir görüntü belirir. {ar:ءَأَرْبَابٌ, tr:e-erbâbun, gloss:rabler} sahiplik, buyruk ve yönetme merkezlerini; {ar:مُّتَفَرِّقُونَ, tr:müteferrikûn, gloss:ayrı ayrı, dağılmış} bunların parçalara bölünmüş görünümünü kurar. {ar:ٱلْوَاحِدُ, tr:el-Vâhid, gloss:tek olan} rakipsiz merkezi, {ar:ٱلْقَهَّارُ, tr:el-Kahhâr, gloss:karşı konulamaz biçimde üstün gelen} ise bu merkezde toplanan ve rakipleri aşan etkin gücü gösterir. Böylece hayrun, bağlılığın ve hükmetme kanalının nereye aktarılacağını soran pratik bir tercih basıncı kazanır. Bu görüntü yetkenin nasıl bölündüğünü görünür kılarken, gündelik soruyu ve hapishanedeki gerçek baskıyı da yerinde tutar.
+
+Buna paralel ikinci görüntü, aynı kapalı yerde yaşanan bağlılık parçalanmasını öne çıkarır. İki kişi aynı kapalı yerde tutulurken bağlılık merkezleri içten parçalanabilir; {ar:صَاحِبَيِ, tr:sâhibey, gloss:iki arkadaşım} ile {ar:ٱلسِّجْنِ, tr:es-sicni, gloss:bilinen hapishane} arasındaki temas, hapishaneyi yalnız ortak bir mekân değil, bağlılığın sınandığı sosyal bir kuşatma olarak duyurur. {ar:مُّتَفَرِّقُونَ, tr:müteferrikûn, gloss:ayrı ayrı, dağılmış} burada tek bir kapalı yerin içinde bile süren iç bölünmeyi, ortak sözün ve bağlılığın kopmasını gösterir. {ar:ٱلْقَهَّارُ, tr:el-Kahhâr, gloss:karşı konulamaz biçimde üstün gelen} sıfatının kesin üstün gelme gücü bu bölünmüş bağlılıkların karşısına geldiğinde, kapanış rekabet eden hâkimiyetleri yeniden düzenleyebilecek gücü düşündürür. İlk görüntü yetkenin yapısal bölünmesini, bu ikinci görüntü aynı sıkışıklıkta yaşanan parçalanmış bağlılığı açıklar; iki katkı da âyetin iki rablik düzeniyle tek ve karşı konulamaz Allah'ı karşılaştıran sorusunu taşır.
+
+## Yakın Bağlamda Yetkinin Sınanması
+
+Sonraki ayet (12:40), dağınık görünen rabliklerin çoğalan isimler ve dayanağı olmayan otorite iddialarıyla açıldığını düşündürür. Burada {ar:أَسْمَاءً, tr:esmâ, gloss:isimler} adların çoğalmasını, {ar:مُّتَفَرِّقُونَ, tr:müteferrikûn, gloss:ayrı ayrı, dağılmış} ise bu adların ayrı kümelere dağılmasını görünür kılar. Fakat isim sayısı kendi başına {ar:سُلْطَٰنٍ, tr:sultân, gloss:bağlayıcı delil ve yetki} üretmez. {ar:ٱلْحُكْمُ, tr:el-hukm, gloss:hüküm verme yetkisi} tek bir kaynağa yerleştiğinde çoğalan unvanların hükmün kendisi olmadığı anlaşılır; {ar:وَٰحِدٌ, tr:vâhid, gloss:tek ve ortaksız} olanı isim çokluğundan değil, temellendirilebilir yetkiden ayıran ölçü budur. {ar:تَعْبُدُوا, tr:ta'budû, gloss:kulluk etmeniz} da bu tekliği teorik bir isim olarak bırakmaz, fiilî itaati aynı kaynağa yöneltir. Bu bağlantı, hapishanedeki karşılaştırmayı (12:40)'ın yetki ve ibadet sorusuna doğru açan nitelikli bir geriye dönüş işaretidir; ayetin burada açılmayan tam yüzeyi, onu bu sorunun yerine geçen kesin bir açıklama hâline getirmez.
+
+(12:41)'de {ar:صَاحِبَيِ, tr:sâhibey, gloss:iki arkadaşım} ve {ar:ٱلسِّجْنِ, tr:es-sicni, gloss:bilinen hapishane} hitabının yeniden dönmesi, soruyu ortak bir karar ve sonuç alanına taşır. Bu yakınlık, iki tutuklunun güven ve çıkış arayışını korurken insan yönetiminin gerçek işleyişini de görüntünün içinde tutar. Aynı yakın bağlamda {ar:رَبّ, tr:Rabb, gloss:sahip ve yöneten efendi} sözü insanın bir efendiye başvurduğu hiyerarşiye dokunur. (12:42)'de unutma yüzünden hapiste kalışın uzaması, özgürlüğe giden yolun bir aracıda kesilebildiğini gösterir: dışarı taşınacak hatırlatma aracıda kaybolur, erişimin bölünmüşlüğü süreye dönüşür. (12:41)'deki kesin hüküm ile (12:42)'deki unutma yan yana geldiğinde, {ar:ٱلْقَهَّارُ, tr:el-Kahhâr, gloss:karşı konulamaz biçimde üstün gelen} sıfatının gücü erişimi kesilebilen insanî patronajdan farklı bir karşılık olarak duyulur. Bu bağlantı insanî rabliği ilahî rablikle özdeşleştirmez; aracılı himayenin kırılganlığını, tek ve üstün hüküm karşısında görünür kılar.
+
+Bu yetke baskısının farklı temasları, aynı karşılaştırmayı ayrı yüzlerden aydınlatır. (26:29)'da rakip ilahlara çağrı karşısında hapse atma tehdidi, arkadaşlık ile hapsolmayı toplumsal zorlamanın aynı sahnesinde birleştirir. Otorite merkezlerine bölünme yönünü açan {ar:مُّتَفَرِّقُونَ, tr:müteferrikûn, gloss:ayrı ayrı, dağılmış} sözü (3:105)'te açık delillerden sonra ayrışma bağlamını aydınlatır. (12:67)'de kapıların ayrı ayrı kullanılması ve hükmün yalnız Allah'a ait oluşu, yetkenin farklı kanallara dağıtılmasını somutlaştırır. {ar:ٱلْقَهَّارُ, tr:el-Kahhâr, gloss:karşı konulamaz biçimde üstün gelen} sıfatının taşıdığı yukarıdan üstün gelme yönü (6:18)'de kulların üzerinde oluş vurgusuyla genişler. Allah'ın tek ve karşı konulamaz olarak anıldığı (38:65), {ar:ٱلْوَاحِدُ, tr:el-Vâhid, gloss:tek olan} ile Kahhâr'ın ortak ilahî eksenini belirginleştirir; (40:16) ise hükümranlığın tek Allah'a aitliğini aynı eksende görünür kılar. Her kaynak burada yalnız temas ettiği yüzü aydınlatır; bu bağlantılar hedef kelimenin bütün kullanımlarını veya burada verilmemiş ayrıntılı biçimbilimsel sonuçları tek başına kurmaz.
+
+## Dağınıklığın İşleme Dönüşmesi
+
+{ar:مُّتَفَرِّقُونَ, tr:müteferrikûn, gloss:ayrı ayrı, dağılmış} biçiminin açtığı ayrılık, önce (12:43)'te {ar:أَضْغَاثُ أَحْلَامٍ, tr:edgâsu ahlâm, gloss:karmaşık rüya demetleri} diye dağılan görüntülerle, ardından (12:44)'te {ar:تَعْبُرُونَ, tr:ta'birûn, gloss:yorumlayabilirsiniz} diye aranan bütünle ilişki kurar. Farklı parçalar burada anlaşılmazlık olarak bırakılmaz; yorumlama eylemi onları ezmeden birbirine bağlayan bir ilişki arar. Yıllara yayılan ekim, biçim döneminin yıkımından korunmuş pay ve sonra kullanılabilir kalan birikim (12:47, 12:48), farklı safhaları ortak bir düzende buluşturan sürekliliği görünür kılar: ekim üretim akışını, korunmuş pay dayanıklılığı, kullanılabilir kalan birikim ise bu düzenin devamını taşır. Böylece karışık rüya demetinden sıralı programa uzanan sınırlı bir yorum zinciri açılır. Bu zincir, odak âyetteki dağınıklığı ilişkilendirilebilir farklılaşma olarak okur; her ayrı şeyi ayrıca bir rüya işareti saymaz.
+
+{ar:رَبّ, tr:Rabb, gloss:sahip ve yöneten efendi} alanı bu kez adım adım yetiştirme ve koruma görüntüleriyle temas eder. (12:47)'de {ar:تَزْرَعُونَ, tr:tezra'ûn, gloss:ekersiniz} büyütme işini, (12:48)'de {ar:تُحْصِنُونَ, tr:tuhsinûn, gloss:koruyup sakladıklarınız} üretken dönem ile yok edici dönem arasında payı koruma işini gösterir. (12:55)'te {ar:خَزَآئِنِ ٱلْأَرْضِ, tr:hazâinil-ard, gloss:yeryüzü hazineleri} toplanmış kaynakların dayanıklı rezerve dönüşmesini, (12:56)'daki {ar:مَكَّنَّا, tr:mekenna, gloss:yerleştirip güç verdik} ise saklamanın belirli bir yerde gerçek bir idareye dönüşmesini tamamlar. Bu dizide ekim üretimi başlatır, koruma payı yıkım karşısında saklar, hazineler birikimi dayanıklı rezerve çevirir, yerleşip güç verme ise bu rezervi gerçek bir idareye bağlar. {ar:حَفِيظٌ, tr:hafîz, gloss:koruyup gözeten} olma, üstünlüğü tek seferlik el koyma değil, rezervi tüketim karşısında sürekli koruma yeterliği olarak düşündürür. Böylece üretim, beslenme ve tamamlanma ile koruma, tek bir planın yıkımdan sonra da sürmesini birlikte görünür kılar; dağınık iddiaların karşısında süreklilik taşıyan bir koordinasyon belirir. Bu ekonomik görüntü insan idaresi ile ilahî sıfatı özdeşleştirmeden merhamet ihtimalini açık bırakır.
+
+Aynı bağın daha uzak ve sınırlı bir yüzünde botanik görüntü, dağınık oluşum ile ortak büyüme şartını yan yana getirir. {ar:أَرْبَابٌ, tr:erbâb, gloss:rabler} besleyip büyüten bir oluşum düzenini, {ar:مُّتَفَرِّقُونَ, tr:müteferrikûn, gloss:ayrı ayrı, dağılmış} ise seyrek ve kesintili bir bitki örtüsünü düşündürebilir. (12:47)'deki ekim bu gelişmeyi maddileştirirken, (12:49)'daki {ar:يُغَاثُ, tr:yuğâs, gloss:yağmurla yardım edilir} farklı ekimleri canlandıran ortak çevre şartını sağlar. Böylece farklı yetiştiriciler oluşumun dağınık yüzünü, ortak büyüme kaynağı ise bu ayrılıkları bir arada canlı tutan çevreyi görünür kılar. Bu benzetme otorite anlamını botanik bir tercümeyle değiştirmez; biçimsel uzaklığı korunan keşifsel bir bağlantı olarak yalnız dağınık oluşum ile ortak büyüme şartı arasındaki teması taşır.
+
+Hapishane ile Kahhâr arasında açılan en basınçlı temas, Yusuf kıssasının ilgili akışında (12:36, 12:49) belirir. Bu bağlantıda {ar:ٱلسِّجْنِ, tr:es-sicni, gloss:bilinen hapishane} tutan ve sabitleyen bir darbeyi, Kahhâr ise etki ettiği şeyi dönüştüren kuvveti düşündürebilir. Rüyanın başında (12:36) {ar:يَعْصِرُ, tr:ya'siru, gloss:sıkar} ve rahatlamanın sonunda (12:49) {ar:يَعْصِرُونَ, tr:ya'sırûn, gloss:sıkarlar} hareketinin dönmesi, tutulma ile kuvvetin sonuç doğurması arasında maddi bir temas kurar. Böylece baskı, bir şeyin tutulmasından ürünün açığa çıkmasına ilerleyen bir işlem gibi duyulur. Bu süreç görüntüsü belirli bir eşdizime bağlı, mecazî ve formuyla sınırlıdır; hapishanenin sıradan sözlük anlamını değiştirmez ve Kahhâr için literal bir et pişirme açıklaması kurmaz. Odak âyete döndüğünde geriye kalan, basıncın sonucu olan gücün karşılaştırmadaki ilahî sıfata eklediği sınırlı süreç görüntüsüdür. Bu bağın dayandığı {ar:قَهَّارٌ, tr:kahhâr, gloss:üstün gelip boyun eğdiren} biçimi, bu süreç görüntüsünü yalnızca söz konusu bağlantının sınırları içinde tutar.
+
+## Hakikat, Himaye ve Seçim Ölçüsü
+
+(12:50)'de {ar:فَسْـَٔلْهُ, tr:fe'selhu, gloss:ona sor} denmesi, birbirinden ayrılmış anlatıları sorgulanabilir tanıklıklara çevirir. (12:51)'de {ar:حَصْحَصَ ٱلْحَقُّ, tr:has-hasa'l-hakk, gloss:hakikat ortaya çıktı} ifadesi, farklı hesapların varacağı ortak noktayı görünür kılar. Bu ortaklaşmada {ar:حَقّ, tr:hakk, gloss:gerçek ve olguyla uyuşan} sözü birliğin ölçüsünü olup bitene cevap vermek olarak kurar; {ar:وَٰحِدٌ, tr:vâhid, gloss:tek ve ortaksız} ise düz bir özdeşlik değil, hakikatte birleşme yönünde duyulur. Sorgulama dağılmış olanı tek bir kanıt alanına toplar; bu toplama soru, ayrım ve doğrulanabilir karşılıkları korur. (12:54)'te {ar:أَسْتَخْلِصْهُ, tr:estahliṣhu, gloss:onu kendime seçip ayırayım} ile gerçekleşen seçip ayırma, tanıklıktan sonra hakikat ile güven arasında kamusal bir ilişki kurar. Böylece (12:50, 12:51)'de sorulan hesaplar ile (12:54)'te güvene açılan seçim aynı kanıt çizgisinde buluşur; bu çizgide uzlaşma kendiliğinden doğru sayılmaz.
+
+Bu tek kaynak fikri, insan makamı ile ilahî patronajı iki ayrı ama ilişkili düzeyde tutar. (12:54)'te kralın Yusuf'u serbest bırakıp görevlendirmesi insanî siyasî makamın gerçek işleyişini gösterir. Buna karşılık Yusuf'un Allah'ı dünyada da ahirette de velisi olarak anması (12:100) ve (12:101)'de {ar:رَبّ, tr:Rabb, gloss:sahip ve yöneten efendi} ile mülk ve velilik dilini birlikte kurması, insan makamının üzerinde kalan ilahî patronajı görünür kılar. {ar:ٱلْوَاحِدُ, tr:el-Vâhid, gloss:tek olan} bu iki düzeyi birbirine karıştırmadan, insan kralının verdiği görevi ve Yusuf'un Allah'a bağladığı nihai himayeyi aynı çerçevede tutar. Yönetim ve sahiplik çekirdeği burada yalnızca dinî bir etiket olmaktan çıkar; insanın üzerinde düzenleme iddiası taşıyan merkezlerin hangi son kaynağa bağlandığı sorusunu açar. Bu bağlantı insanî serbest bırakma ve görevlendirme sahnesini silmez; ilahî vesayet, onun üstündeki ufuk olarak kalır.
+
+{ar:خَيْرٌ, tr:hayrun, gloss:daha iyi} kelimesinin karşılaştırma yükü, yakın bağlamda anlık gücü aşan bir zaman ölçüsü kurar. (12:57)'de {ar:أَجْرُ ٱلْءَاخِرَةِ, tr:ec-ru'l-âhire, gloss:ahiret mükâfatı} ve {ar:ٱلْءَاخِرَةِ, tr:el-âhire, gloss:sonraki hayat} daha iyi olanı bugünkü avantaja sığmayan kalıcı karşılıkla ilişkilendirir. {ar:يَتَّقُونَ, tr:yettekûn, gloss:sakınarak korunurlar} bu seçimin korunmuş bir ahlâkî ufuk içinde yaşandığını gösterir. Bu yakın tekrar, hapishane sorusundaki seçim ölçüsünü görünür sonuçtan kalıcı karşılığa doğru genişletir; sonraki ayet bağımsız bir öğüt olarak da okunabilir. Soru böylece yalnız ahiret üzerine kurulmaz, fakat “daha iyi”nin zaman içinde hangi sonucu hesaba katacağı sorusu açıkça duyulur.
+
+{ar:ٱللَّهُ, tr:Allahu, gloss:Allah} adı burada kudrete ek olarak ibadetin yöneldiği özel ilahî merkezi kurar. (41:14)'te elçilerin yalnız Allah'a çağrılması, (18:110)'da ibadetin yalnız Allah'a tahsis edilmesi, (3:64)'te ise Allah'a kulluk edip birbirini rab edinmeme çağrısının birlikte verilmesi, bu özel adı ortaklardan ayrılmış tapınılan varlığa bağlar. İkinci seçenek böylece yalnızca güçlü olanı değil, ibadetin yönelmesi gereken ve başka rabliklerle karıştırılmaması gereken Allah'ı gösterir. Bu genişleme tapınma ve özel ad yüzleriyle sınırlı kalır; yemin, yakarış ve türetim gibi diğer kullanım alanları hakkında bu bağlantıdan daha ileri bir sonuç çıkarmaz. Aynı şekilde karşılaştırmalı {ar:خَيْرٌ, tr:hayrun, gloss:daha iyi} kullanımı (27:59), iki seçeneği ortak bir değer ölçüsünde tartan hareketi tanıtır. Bu paralellik değerlendirme eylemini destekler, fakat bu âyette hangi seçeneğin ayrıca seçildiğini kendi başına ilan etmez.
+
+## Bütün Alan ve Yön
+
+Fâtiha'dan gelen dış temas (1:2, 1:4), 12:39'daki dar hapishane sahnesini bütün alanı ve nihai hesabı kuşatan bir ölçeğe açar. {ar:رَبِّ ٱلْعَٰلَمِينَ, tr:Rabbil-âlemîn, gloss:âlemlerin Rabbi} sahiplik ve yönetimi bütün âlemlere, {ar:مَٰلِكِ يَوْمِ ٱلدِّينِ, tr:Mâliki yevmid-dîn, gloss:din gününün sahibi} ise son hüküm gününe uzatır. Böylece tek otorite yalnız iki mahpusun karar sorusundaki merci olarak değil, bütün alanı ve nihai hesaplaşmayı kuşatan bir hüküm ufku olarak duyulur. Bu dış mercek yalnız yönetme temasının evrensel kapsamını ve nihai yetkisini genişletir; Fâtiha'nın bütün teolojisini 12:39'a taşımaz ve sorunun cevabını hazırdan kapatmaz.
+
+Fâtiha'nın yön talebi (1:6, 1:7), seçimin yönünü de belirginleştirir. {ar:ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ, tr:es-sırâta'l-müstakîm, gloss:dosdoğru yol} seçenekler arasına yön veren dosdoğru bir istikamet koyar. {ar:أَنْعَمْتَ, tr:en'amte, gloss:nimet verdiklerin} bu istikameti nimetle ilişkilendirirken, {ar:غَيْرِ, tr:ğayri, gloss:başka} ve {ar:ٱلضَّآلِّينَ, tr:ed-dâllîn, gloss:yolunu şaşıranlar} karşıtlığı yönün ve akıbetin ölçüsünü belirginleştirir. Bu katkı, “daha iyi” olanı salt güçlü olan değil, yönü ve akıbeti doğru olan seçenek olarak düşünmeye iter. (1:6, 1:7) bağlamında bu, {ar:مُّتَفَرِّقُونَ, tr:müteferrikûn, gloss:ayrı ayrı, dağılmış} için gerçek bir yol sözlüğü kurmaz; Fâtiha'nın dış bağlantısı yalnızca seçim sorusuna yön ve sonuç ölçüsünü ekler. Bu bağlantı, 12:39'daki karşılaştırmayı cevaplandırmadan, “daha iyi”nin yönü ve akıbeti de hesaba katan bir seçime açılır.
+
+</editorial_prose>

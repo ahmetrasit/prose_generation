@@ -1,0 +1,700 @@
+{
+  "schema_version": "commentary-v5-scope-discovery-v1",
+  "ayah_ref": "12:7",
+  "lane": "global",
+  "coverage_complete": true,
+  "candidate_decisions": [
+    {
+      "candidate_id": "cand_9671f95a6ba9e6c3be24",
+      "decision": "accept",
+      "reason": "Güvenilir cross-run kaydı odaktaki görünür belirti ve soru sorma dallarını Yusuf ile kardeşleri arasındaki davranış düzenine birlikte bağlar; 12:58'deki sonraki karşılaşma bu ilişkiyi bağımsız bir geniş bağlamla geri döndürür.",
+      "finding_refs": [
+        "global:relational-signs"
+      ],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_3c78fe6fedc41e6994ad",
+      "decision": "accept",
+      "reason": "Reader-walk kaydı, soru sorma eyleminin Yusuf-kardeşler ilişkisini işaret işlevine taşıdığı somut bir okuma verir; 12:46, 12:82 ve 12:89'daki farklı soru biçimleri bu işlemi odak işareti üzerinden bağımsızca geri bağlar.",
+      "finding_refs": [
+        "global:inquiry-connects-relations"
+      ],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_8e46ccaa96ca1fdc8249",
+      "decision": "accept",
+      "reason": "Retrospektif yürüyüş, 12:111'de tamamlanan kıssaların ibret olarak adlandırılmasıyla 12:7'nin işaret hükmünün tek olayı aşan, fakat kıssa sınırında kalan bir okuma davetine dönüştüğünü gösterir.",
+      "finding_refs": [
+        "global:completed-account-as-lesson"
+      ],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_c28979e57c1f80dc7f04",
+      "decision": "accept",
+      "reason": "Wide-walk kaydı, görünür belirti dalının kişi ve topluluk uzantılarını odaktaki Yusuf-kardeşler ilişkisine bağlar; 12:58, 12:90 ve 12:100 kişisel tanınma, kardeş tanınması ve aile topluluğunun tamamlanması için bağımsız geri dönüşler sağlar.",
+      "finding_refs": [
+        "global:persons-and-group-as-sign"
+      ],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_a377bfa4e9cbba0083a7",
+      "decision": "accept",
+      "reason": "Wide retrospektif kayıt, 12:105'te görünür işaretlerin yanından yüz çevirilebilmesini odak işaretine geri döndürür; böylece işaret olma ile onu fark etmenin aynı şey olmadığı, anlamı değiştiren bir karşı-okuma olarak korunur.",
+      "finding_refs": [
+        "global:signs-can-be-overlooked"
+      ],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_e7277323bb4b8ebb623e",
+      "decision": "reject",
+      "reason": "HFT özeti görünür olsa da exact anchor_evidence boş; bekleme ve split-asker/çıkarma iddiası için supplied context ayahı, word indexi, kök, atfedilmiş rol ve odak dönüşü bulunmadığından taşıyıcı-tetikleyici aktivasyonu kurulamaz.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_2851ccac3ffc5a05793a",
+      "decision": "reject",
+      "reason": "Eşitsiz baba ilgisinden silahlandırılmış grup bütünlüğüne geçiş, kaydın kendisinin de belirttiği üzere abduktiftir; exact HFT taşıyıcısı, bağımsız wider trigger ve focus return verilmediği için bu özet global bulguya dönüştürülemez.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_056d7051993141771d2c",
+      "decision": "reject",
+      "reason": "Locative construction için verilen belirsizlik odak yüzeyinin olası kapsamını anlatır; fakat global lane için ayrı bir context trigger veya exact HFT focus return sağlamaz ve bu nedenle ilişki/olay/bütün kıssa seçeneklerinden biri seçilmeden aktivasyon kurulamaz.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_10372477fa18edf18876",
+      "decision": "reject",
+      "reason": "Sahte ağlama olasılığı odak ayetinde bir ağlama taşıyıcısına sahip değildir; exact HFT trace ve odak dönüşü de bulunmadığından bunu Yusuf-kardeşler işaret okumasına eklemek kanıt sınırını aşar.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_c2e6465b01b3e3ec4e98",
+      "decision": "reject",
+      "reason": "Kardeşlik ilişkisinin işaret taşıyan ve silahlandırılabilen sosyal mekanizma oluşu yalnızca anchorsız HFT özeti olarak verilmiştir; exact carrier, bağımsız trigger ve focus return yoktur. Bağlantı satırlarından bu adayın eksik izini geriye doğru icat etmiyorum.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_d6d7d6e13b5ffbe84680",
+      "decision": "reject",
+      "reason": "Soranın iz sürücü ve adli test ediciye dönüşmesi, supplied HFT özetinde exact context coordinate, attributed role veya focus return ile desteklenmiyor; soru dalının bağımsız bağlantı okumaları bu kaydın eksik trace'ini karşılamıyor.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_f71f74a63f770fd093b5",
+      "decision": "reject",
+      "reason": "İşaretlerin gizlenmeden geçip sonraki sonuçlara olgunlaşması anchorsız HFT özeti olarak görünür; exact taşıyıcı, wider trigger ve odak dönüşü verilmediği için bu kaydın kendi before/after ilişkisi aktifleştirilemez.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_42c7b5979c519cccf512",
+      "decision": "reject",
+      "reason": "Split asking-withdrawal ve deceptive-garment iddiaları odak yüzeyine dönen exact branch, word occurrence veya bağımsız trigger taşımıyor; supplied packet'ta gerçek bir giysi taşıyıcısı bulunmadığından iki özel okuma ayrı bir finding olarak kurulamaz.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    }
+  ],
+  "findings": [
+    {
+      "finding_ref": "global:relational-signs",
+      "origin_candidate_id": "cand_9671f95a6ba9e6c3be24",
+      "represented_candidate_ids": [],
+      "title": "İlişkiler soru içinde görünür işaretlere dönüşür",
+      "claim": "Yusuf ile kardeşleri arasındaki davranış ve bağ düzeni, soran kişinin dikkatinde görünür işaretler olarak okunur; işaretler tek tek olağanüstü olaylara kapanmadan kişiler arasındaki örüntüyü de taşır.",
+      "mechanism": "Odaktaki 12:7:6:1 görünür belirtiyi, 12:7:7:3 ise bilgi edinmeye yönelen soranı taşır. 12:58'in Yusuf ve kardeşleri karşılaşmasını tanınma ve tanınmama ekseninde sunması, bu iki odağın ilişki içindeki davranışı işaret yapan bir temas kurduğunu gösterir.",
+      "reader_payoff": "Okur, ayetin işaretlerini yalnızca tek tek harikalarda değil, Yusuf ile kardeşleri arasındaki gizli aile düzenini görünür kılan davranışlarda da görebilir.",
+      "containment": "Yusuf ve kardeşlerinde işaretler bulunduğu yönündeki düz anlam korunur; kıssadaki her ayrıntının tek bir sonuca zorunlu olarak işaret ettiği veya her soranın aynı okuma sonucuna ulaşacağı ileri sürülmez.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": [
+          "trusted"
+        ],
+        "reason": "Trusted cross-run evidence supplies both focus branches; the same-surah connection supplies exact target Arabic but no target morphology, so the wider relation is bounded to the stated encounter."
+      },
+      "support_ids": [
+        "sup_137c28d1f98ec7d26add"
+      ],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000074/B003",
+          "facet_id": "F001",
+          "branch_gloss": "gorunen belirti",
+          "facet_statement": "Temel anlam, bir seyi tanitan veya ona delalet eden gorunen belirtidir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "12:7:6:1"
+          ],
+          "trigger_refs": [
+            "12:7:7:3",
+            "12:58",
+            "conn_ev_e1b07c6a8334f27a626f",
+            "conn_ev_849e253d60a03c97f8f2"
+          ],
+          "focus_return_refs": [
+            "12:7:6:1"
+          ],
+          "carrier": "12:7:6:1'deki çoğul ayet adı, bir şeyi tanıtan veya ona delalet eden görünür belirti çekirdeğini taşır.",
+          "independent_trigger": "12:7:7:3'teki soranlar ve 12:58'deki sonraki Yusuf-kardeşler karşılaşması, ilişkiyi tanınma bakımından okunabilir bir bağlam olarak sağlar.",
+          "activation": "Görünür belirti taşıyıcısı soru sahiplerine yönelip daha sonra kardeşler karşılaşmasının tanınma düzeniyle buluşunca, aile davranışı işaretin taşıdığı yüzey haline gelir.",
+          "resulting_reading": "İşaretler, Yusuf ve kardeşlerinin davranışlarında görünürleşen aile örüntüsünü de soruya açar.",
+          "boundary": "12:58'in hedef morfolojisi veya kıssadaki her davranış için ayrıntılı sözlük dalı bu bulguya taşınmaz."
+        },
+        {
+          "branch_ref": "root_000661/B001",
+          "facet_id": "F001",
+          "branch_gloss": "bilgi sormak veya bir şey istemek",
+          "facet_statement": "Bir muhataba yönelip bilgi edinmeye veya bir şeyi elde etmeye çalışma eylemini bildirir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "12:7:7:3"
+          ],
+          "trigger_refs": [
+            "12:7:6:1",
+            "12:58",
+            "conn_ev_e1b07c6a8334f27a626f",
+            "conn_ev_849e253d60a03c97f8f2"
+          ],
+          "focus_return_refs": [
+            "12:7:7:3"
+          ],
+          "carrier": "12:7:7:3'teki soranlar, bir muhataba yönelerek bilgi edinmeye çalışma eylemini taşır.",
+          "independent_trigger": "12:7:6:1'deki görünür işaret ve 12:58'deki tanınma/tanınmama karşılaşması, sorunun yöneleceği ilişkisel malzemeyi sağlar.",
+          "activation": "Sorma eylemi görünür belirtiyle ve daha sonraki aile karşılaşmasıyla temas edince soru, ilişkiyi açığa çıkaran bir okuma hareketi olarak belirir.",
+          "resulting_reading": "Soranlar yalnızca bir bilgi talep edenler değil, Yusuf-kardeşler davranışındaki işaret düzenini görünür kılmaya yönelenler olarak da okunur.",
+          "boundary": "Bu temas soranlara zorunlu bir niyet veya belirli bir soru yöntemi yüklemez."
+        }
+      ],
+      "connection_refs": [
+        "conn_39c0408019ec2f37b3d2"
+      ],
+      "context_refs": [
+        "12:58"
+      ],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:inquiry-connects-relations",
+      "origin_candidate_id": "cand_3c78fe6fedc41e6994ad",
+      "represented_candidate_ids": [],
+      "title": "Sorma eylemi dağınık ayrıntıları birbirine bağlar",
+      "claim": "Soranların eylemi, Yusuf ve kardeşleri arasındaki ilişkiyi ayrı ayrı olaylar toplamı olarak bırakmayıp ayrıntıları birbirine bağlayan bir işaret okumasına dönüştürür.",
+      "mechanism": "12:7:6:1'deki görünür belirti, 12:7:7:3'teki soru eylemiyle birlikte taşınır. 12:46 yorum istemeyi, 12:82 tanıklara ve şehre yönelen doğrulamayı, 12:89 geçmiş davranışın doğrudan sorulmasını verir; bu farklı soru temasları odaktaki işaretin ilişkisel malzemeyi birbirine bağlama işlevini genişletir.",
+      "reader_payoff": "Okur, soru sahiplerini hazır bir dersi alan kişiler olarak değil, kıssadaki ilişki ayrıntılarını birbirine bağlayarak anlamı görünür kılan etkin bir konumda algılar.",
+      "containment": "Bu, ayetin işaretleri soru sahiplerine yöneltmesini genişleten bir okuma hareketidir; bütün soruların tek bir yönteme veya tek bir sonuca dönüştüğü söylenmez.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": [
+          "legacy_unbound"
+        ],
+        "reason": "The reader-walk support is legacy_unbound, while the cited same-surah rows supply exact target Arabic without target morphology; the mechanism is therefore retained with a bounded qualification."
+      },
+      "support_ids": [
+        "sup_fca2ef7eca90bb20111c"
+      ],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000074/B003",
+          "facet_id": "F001",
+          "branch_gloss": "gorunen belirti",
+          "facet_statement": "Temel anlam, bir seyi tanitan veya ona delalet eden gorunen belirtidir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "12:7:6:1"
+          ],
+          "trigger_refs": [
+            "12:7:7:3",
+            "12:46",
+            "conn_ev_cfdd2b1a102863b4c4d7",
+            "12:82",
+            "conn_ev_1f5bbd8278b306f6f344",
+            "12:89",
+            "conn_ev_73f011791c404abba0c5",
+            "conn_ev_a2b11a2110a019b7991a"
+          ],
+          "focus_return_refs": [
+            "12:7:6:1"
+          ],
+          "carrier": "12:7:6:1'deki çoğul görünür belirti, olaylar arasında bağlantı kurulmasını mümkün kılan odak taşıyıcısıdır.",
+          "independent_trigger": "12:46, 12:82 ve 12:89'un supplied soru ve doğrulama sahneleri, yorum, tanıklık ve geçmiş eylem arasında ayrı soru yönleri kurar.",
+          "activation": "Ayrı sorular aynı Yusuf-kardeşler anlatısına döndüğünde, görünür belirti tek olaydan çıkar ve sorunun ilişki ayrıntılarını birbirine bağladığı bir yapı kazanır.",
+          "resulting_reading": "İşaret, soran kişinin olayları yan yana dizmesinden çok ilişkisel düzeni soru yoluyla görünür kılan bir bağlama işlevi görür.",
+          "boundary": "Hedef ayetlerin morfolojisi verilmediğinden soru biçimlerinin ayrıntılı dilbilgisel eşlemesi veya bütün kıssaya yayılan zorunlu bir yöntem iddia edilmez."
+        }
+      ],
+      "connection_refs": [
+        "conn_6692916893f641e1b33a",
+        "conn_4f8bf43645ce65680bcb",
+        "conn_15f63798e6af67b91b67"
+      ],
+      "context_refs": [
+        "12:46",
+        "12:82",
+        "12:89"
+      ],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:completed-account-as-lesson",
+      "origin_candidate_id": "cand_8e46ccaa96ca1fdc8249",
+      "represented_candidate_ids": [],
+      "title": "Tamamlanan anlatı işaret okumasını ibrete açar",
+      "claim": "Kıssaların tamamlanması, 12:7'deki işaretleri tek bir olayın belirtisi olarak korurken onları olaylar arasındaki geçişlerden ibret çıkaran sınırlı bir okumaya açar.",
+      "mechanism": "12:7:6:1'deki görünür belirti taşıyıcısı, 12:111'in tamamlanmış kıssalarda ibret bulunduğunu söyleyen hedef metni ve bu iki ayeti doğrudan bağlayan connection kaydıyla karşılaşır. Böylece erken işaret hükmü, sonradan bütün anlatı içinden geçerek okuma yapılabilen bir ilişki kazanır.",
+      "reader_payoff": "Okur, ayetteki çoğul işaretlerin yalnızca tek bir sahneyi göstermekle kalmayıp tamamlanan anlatı içinden bağlantı kurmaya izin verdiğini görür.",
+      "containment": "12:111, ayet kelimesinin sözlük karşılığı olarak ibretle eşitlenmez; bu, son ayetin sağladığı retrospektif anlatı çerçevesidir ve işaretlerin odaktaki düz anlamını ikame etmez.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": [
+          "legacy_unbound"
+        ],
+        "reason": "The retrospective walk is legacy_unbound; the exact 12:111 target and reciprocal connection are supplied, but target morphology is absent, so the relation remains explicitly bounded."
+      },
+      "support_ids": [
+        "sup_555c4627c8de092d47c7"
+      ],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000074/B003",
+          "facet_id": "F001",
+          "branch_gloss": "gorunen belirti",
+          "facet_statement": "Temel anlam, bir seyi tanitan veya ona delalet eden gorunen belirtidir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "12:7:6:1"
+          ],
+          "trigger_refs": [
+            "12:111",
+            "conn_ev_e55a339cb0318ab09064",
+            "conn_ev_f38f5b571defdba1e2fa"
+          ],
+          "focus_return_refs": [
+            "12:7:6:1"
+          ],
+          "carrier": "12:7:6:1'deki görünür belirti, anlatıda bir şeyi tanıtan işaret çekirdeğini taşır.",
+          "independent_trigger": "12:111'in supplied hedef metni tamamlanan kıssalarda ibret bulunduğunu bildirir; reciprocal connection bunu 12:7'nin soru sahiplerine yönelik işaret hükmüne doğrudan bağlar.",
+          "activation": "Tamamlanmış kıssa çerçevesi odaktaki işaret kelimesine geri döndüğünde, işaret tek sahneye kapanmayan ve anlatı içinden geçerek okunabilen bir belirti haline gelir.",
+          "resulting_reading": "12:7, soru sahiplerine Yusuf-kardeşler anlatısının bütün geçişlerinden ibret çıkarılabilecek işaretli bir yapı sunduğu şeklinde de okunur.",
+          "boundary": "Bu bağlantı kıssanın tek bir tezinin veya her ayrıntının aynı ibreti taşıdığının kanıtı değildir."
+        }
+      ],
+      "connection_refs": [
+        "conn_af7067be18fb637161d3"
+      ],
+      "context_refs": [
+        "12:111"
+      ],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:persons-and-group-as-sign",
+      "origin_candidate_id": "cand_c28979e57c1f80dc7f04",
+      "represented_candidate_ids": [],
+      "title": "Kişiler ve topluluk görünür belirtinin taşıyıcısı olur",
+      "claim": "Yusuf ve kardeşleri, yalnızca işaretlerin bulunduğu kişiler değil, kişisel tanınma ve topluluk ilişkisi üzerinden görünür belirtiyi taşıyan kişi ve grup olarak da okunabilir.",
+      "mechanism": "12:7:6:1'deki görünür belirti çekirdeği önce Yusuf-kardeşler ilişkisinin tamamına bağlanır; 12:58 ve 12:90'daki tanınma sahneleri kişi uzantısını, 12:100'deki aile düzeninin tamamlanışı ise topluluk uzantısını bağımsızca geri döndürür.",
+      "reader_payoff": "Okur, işaretin olaylardan ayrı duran bir nesne olmadığını; Yusuf'un şahsı, kardeşlerin grubu ve bunlar arasındaki tanınma düzeninin de işaret taşıyabileceğini fark eder.",
+      "containment": "Kişi ve topluluk uzantıları görünür belirti çekirdeğine bağlıdır; Yusuf veya kardeşlerin sözlükte yalnızca 'işaret' anlamına geldiği, bütün kişilerin otomatik olarak işaret olduğu ya da hedef ayetlerin ayrıntılı morfolojisinin çözüldüğü ileri sürülmez.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": [
+          "legacy_unbound"
+        ],
+        "reason": "The wide-walk record is legacy_unbound. The focus branch facets and exact same-surah target Arabic are supplied, but target morphology is not, so the person/group extension remains qualified."
+      },
+      "support_ids": [
+        "sup_887d04f1565c483321c1"
+      ],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000074/B003",
+          "facet_id": "F001",
+          "branch_gloss": "gorunen belirti",
+          "facet_statement": "Temel anlam, bir seyi tanitan veya ona delalet eden gorunen belirtidir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "12:7:6:1"
+          ],
+          "trigger_refs": [
+            "12:7:5:2",
+            "12:58",
+            "conn_ev_e1b07c6a8334f27a626f",
+            "conn_ev_849e253d60a03c97f8f2"
+          ],
+          "focus_return_refs": [
+            "12:7:6:1"
+          ],
+          "carrier": "12:7:6:1'deki çoğul belirti, kişi ve grup gibi görünür taşıyıcılara açılabilen işaret çekirdeğini taşır.",
+          "independent_trigger": "12:7:5:2'deki kardeşler ve 12:58'deki onların Yusuf'la karşılaşması, belirtiyi ilişki içindeki kişi ve grup düzenine bağlar.",
+          "activation": "Kişileri ve kardeşler grubunu birlikte gösteren ilişki, görünür belirti çekirdeğine temas edince işaretin taşıyıcısı yalnızca ayrı bir olay değil insan düzeni olur.",
+          "resulting_reading": "Yusuf-kardeşler ilişkisi, soru sahiplerinin okuyacağı görünür bir sosyal belirti olarak da belirir.",
+          "boundary": "Kişi ve grup uzantılarının her bağlamda otomatik olarak etkin olduğu söylenmez."
+        },
+        {
+          "branch_ref": "root_000074/B003",
+          "facet_id": "F002",
+          "branch_gloss": "gorunen belirti",
+          "facet_statement": "Kisinin sahsi, onun taninmasini saglayan belirti gibi dusunulerek ifade edilir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "12:7:6:1"
+          ],
+          "trigger_refs": [
+            "12:58",
+            "12:90",
+            "conn_ev_e1b07c6a8334f27a626f",
+            "conn_ev_fe0455d647f0b920cca7"
+          ],
+          "focus_return_refs": [
+            "12:7:6:1"
+          ],
+          "carrier": "Görünür belirti taşıyıcısı, bir kişinin onu tanıtan şahsı olarak da genişleyebilir.",
+          "independent_trigger": "12:58'in tanınmayan kardeşler karşılaşması ve 12:90'ın sonradan Yusuf'un tanınmasına açılan hedef metni, kişiyi tanınma belirtisi olarak geri çağırır.",
+          "activation": "Kişinin tanınma ile ilişkili görünürlüğü odaktaki belirti çekirdeğiyle buluşunca Yusuf ve kardeşleri, ilişkiyi açığa çıkaran kişi-belirti taşıyıcıları olur.",
+          "resulting_reading": "İşaret, Yusuf'un şahsında ve kardeşlerin onu tanıma sürecinde kişisel görünürlük kazanır.",
+          "boundary": "Hedef ayetlerin morfolojisi veya tanınmanın tek bir psikolojik açıklaması bu fasete yüklenmez."
+        },
+        {
+          "branch_ref": "root_000074/B003",
+          "facet_id": "F003",
+          "branch_gloss": "gorunen belirti",
+          "facet_statement": "Bir toplulugun eksiksiz butunu icin de kullanilir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "12:7:6:1"
+          ],
+          "trigger_refs": [
+            "12:100",
+            "conn_ev_b28732a66e8f9e3b9860",
+            "conn_ev_9ea72c522ec258f1fe6a"
+          ],
+          "focus_return_refs": [
+            "12:7:6:1"
+          ],
+          "carrier": "Çoğul görünür belirti, eksiksiz bir topluluğu gösteren uzantıyı da taşıyabilir.",
+          "independent_trigger": "12:100'ün supplied hedef metni aile düzeninin sonuçlanmasını ve reciprocal connection bunu Yusuf-kardeşler ayetlerinin baştan işaret taşıdığını bildirir.",
+          "activation": "Aile topluluğunun tamamlanmış görünümü çoğul belirti çekirdeğine döndüğünde, Yusuf ve kardeşleri tek tek kişilerden oluşan bir bütünü işaret eden grup olarak okunur.",
+          "resulting_reading": "İşaret, Yusuf-kardeşler olaylarının tamamlanmış aile topluluğu olarak taşıdığı örüntüyü de kapsar.",
+          "boundary": "Topluluğun bütün oluşu bu bağlamdaki uzantıdır; her çoğul ad veya her aile sahnesi aynı fasete taşınmaz."
+        }
+      ],
+      "connection_refs": [
+        "conn_39c0408019ec2f37b3d2",
+        "conn_e6cc72a6ab5214982882",
+        "conn_cf53c3210981a1e6fb55"
+      ],
+      "context_refs": [
+        "12:58",
+        "12:90",
+        "12:100"
+      ],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:signs-can-be-overlooked",
+      "origin_candidate_id": "cand_a377bfa4e9cbba0083a7",
+      "represented_candidate_ids": [],
+      "title": "Görünür işaret gözden kaçabilir",
+      "claim": "12:7'de işaret olarak adlandırılan şey, görünür olduğu halde dikkatin ondan yüz çevirmesiyle fark edilmeden geçebilir; işaret olma tanınmayı teklif eder, tanınmayı zorlamaz.",
+      "mechanism": "12:7:6:1 görünür belirti çekirdeğini taşır. 12:105'in supplied hedef metni ayetlerin üzerinden geçip onlardan yüz çevirenleri anlar ve reciprocal connection bunu Yusuf kıssasındaki soru sahiplerine yönelik işaret hükmüne geri bağlar; böylece işaret ile alımlanma arasına gerçek bir ayrım yerleşir.",
+      "reader_payoff": "Okur, işaretlerin değerini kaybetmeden fark edilmeme ihtimalini görür; ayetin işaret hükmü, alıcının dikkatine bağlı bir ilişki olarak derinleşir.",
+      "containment": "Bu, işaretlerin bulunmadığını veya 12:7'deki kişilerin kesin olarak yüz çevirdiğini söylemez; yalnızca görünürlük ile tanımanın aynı işlem olmadığını ekler.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": [
+          "legacy_unbound"
+        ],
+        "reason": "The retrospective wide-walk support is legacy_unbound; 12:105 and its reciprocal connection are exact packet evidence, but target morphology is absent."
+      },
+      "support_ids": [
+        "sup_d7ca283054d5585e0674"
+      ],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000074/B003",
+          "facet_id": "F001",
+          "branch_gloss": "gorunen belirti",
+          "facet_statement": "Temel anlam, bir seyi tanitan veya ona delalet eden gorunen belirtidir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "12:7:6:1"
+          ],
+          "trigger_refs": [
+            "12:105",
+            "conn_ev_6ba7c4c38056b438271b",
+            "conn_ev_66c92699202082691e99"
+          ],
+          "focus_return_refs": [
+            "12:7:6:1"
+          ],
+          "carrier": "12:7:6:1'deki ayet adı, tanıtan ve delalet eden görünür belirtiyi taşır.",
+          "independent_trigger": "12:105'in supplied hedef metni görünür ayetlerin üzerinden geçip onlardan yüz çevirmeyi, reciprocal connection ise bunun Yusuf anlatısındaki işaretlere bağlandığını bildirir.",
+          "activation": "Görünür belirti, ondan yüz çevirme eylemiyle temas edince işaretin varlığı ile okuyucunun onu fark etmesi birbirinden ayrılır.",
+          "resulting_reading": "Ayetin işaret hükmü, tanınmayı zorlayan bir gösteri değil, dikkat verildiğinde okunabilen fakat geçilip gidilebilen bir belirti ilişkisi kazanır.",
+          "boundary": "Bu bağlantı her alımlama biçimine, her okuyucuya veya odaktaki kişilere kesin bir yüz çevirme hükmü olarak genellenmez."
+        }
+      ],
+      "connection_refs": [
+        "conn_f0426c553ba5b4abe3dc"
+      ],
+      "context_refs": [
+        "12:105"
+      ],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:questioning-becomes-verification",
+      "origin_candidate_id": null,
+      "represented_candidate_ids": [],
+      "title": "Sorma eylemi doğrulama yolları açar",
+      "claim": "Odaktaki soranlar, daha geniş kıssa içinde yorum isteyen, tanıklara yönelen, kaybı araştıran ve geçmiş eylemi yüzleştiren bir doğrulama hareketinin taşıyıcısı olarak da görünür.",
+      "mechanism": "12:7:7:3'teki bilgi sorma eylemi, 12:46'da Yusuf'tan yorum isteme, 12:82'de şehir ve kervana soru yöneltme, 12:87'de Yusuf ve kardeşi hakkında araştırma buyruğu ve 12:89'da geçmiş eylemin sorulmasıyla tekrar tekrar odaklanır. Bu ayrı target metinler, soranı pasif alıcıdan iddiayı izleyen ve sınayan konuma taşır.",
+      "reader_payoff": "Okur, 'soranlar' adının yalnız merak edenleri değil, anlatıdaki ilişkileri soru, tanıklık ve geçmiş eylem üzerinden sınayan bir okuma konumunu da görünür kıldığını sezer.",
+      "containment": "Odak kelimesine bütün sonraki soru sahnelerinin zorunlu sözlük anlamı yüklenmez; target morphology bulunmadığından bu, aynı kıssa içindeki davranışlara dayanan bağlamsal bir rezonanstır.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": [],
+        "reason": "The focus carrier and four exact same-surah target texts are supplied. Their connection rows are discovery nominations with no target morphology or trust labels, so the wider verification movement is qualified."
+      },
+      "support_ids": [],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000661/B001",
+          "facet_id": "F001",
+          "branch_gloss": "bilgi sormak veya bir şey istemek",
+          "facet_statement": "Bir muhataba yönelip bilgi edinmeye veya bir şeyi elde etmeye çalışma eylemini bildirir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "12:7:7:3"
+          ],
+          "trigger_refs": [
+            "12:46",
+            "conn_ev_cfdd2b1a102863b4c4d7",
+            "12:82",
+            "conn_ev_1f5bbd8278b306f6f344",
+            "12:87",
+            "conn_ev_a0c6d059a948bc11f2c9",
+            "12:89",
+            "conn_ev_73f011791c404abba0c5",
+            "conn_ev_a2b11a2110a019b7991a"
+          ],
+          "focus_return_refs": [
+            "12:7:7:3"
+          ],
+          "carrier": "12:7:7:3'teki soranlar, bir muhataba yönelip bilgi edinmeye çalışma eylemini taşır.",
+          "independent_trigger": "12:46, 12:82, 12:87 ve 12:89'un supplied metinleri yorum isteme, tanıklara sorma, kayıp kişileri araştırma ve geçmiş eylemi sorma hareketlerini ayrı ayrı gösterir.",
+          "activation": "Sorma taşıyıcısı bu dört doğrulama sahnesiyle temas edince soru, yalnızca cevap bekleyen bir istek değil, iddianın izini farklı tanıklar ve geçmiş eylemler boyunca süren bir araştırma olur.",
+          "resulting_reading": "Soranlar, Yusuf-kardeşler işaretlerini anlamlandırmak için ilişkiyi ve iddiaları sınayan bir doğrulama konumunda da okunur.",
+          "boundary": "Bu bulgu bütün soruları adli soruşturmaya çevirmez ve hedef ayetlerin ayrıntılı gramerini odak kelimesine geri taşımaz."
+        }
+      ],
+      "connection_refs": [
+        "conn_6692916893f641e1b33a",
+        "conn_4f8bf43645ce65680bcb",
+        "conn_6e2142776908c81d54e2",
+        "conn_15f63798e6af67b91b67"
+      ],
+      "context_refs": [
+        "12:46",
+        "12:82",
+        "12:87",
+        "12:89"
+      ],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:kinship-carries-memory",
+      "origin_candidate_id": null,
+      "represented_candidate_ids": [],
+      "title": "Kardeşlik geçmişi taşıyan bir ilişki olur",
+      "claim": "Odaktaki kardeşlik, daha geniş kıssada güvenin sınırlandırılması, önceki kusurun hatırlanması, açık itiraf ve yeniden toplanma üzerinden geçmiş eylemleri taşıyan ve sorumluluk üreten bir ilişki olarak da görünür.",
+      "mechanism": "12:7:5:2'deki kardeşlik taşıyıcısı 12:69, 12:64, 12:80, 12:89, 12:91 ve 12:100'ün supplied aile, güven, önceki kusur, yüzleşme, itiraf ve yeniden birleşme sahneleriyle geri döner. Aynı kardeşlik adı böylece yalnız kişi listesini değil, ilişki içinde biriken hafıza ve hesabı da taşıyan bir bağlam kazanır.",
+      "reader_payoff": "Okur, Yusuf ve kardeşlerinin ayetteki birlikteliğini durağan bir aile etiketi yerine geçmişi sonraki güven ve itiraflara ulaşan canlı bir ilişki olarak okuyabilir.",
+      "containment": "Bu, kardeşlik dalının doğum ve soy bağını koruyan bağlamsal bir genişlemedir; odak kelimesi hukuki bir sözleşme, fiziksel bağ veya bütün aile ilişkileri için tek bir kader anlamına dönüştürülmez.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": [],
+        "reason": "The focus sibling occurrence and exact same-surah target Arabic are supplied, while connection rows lack target morphology and trust labels; the memory/accountability relation is therefore retained as a bounded contextual resonance."
+      },
+      "support_ids": [],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000020/B001",
+          "facet_id": "F001",
+          "branch_gloss": "kardeşlik ve kardeş sayılan kişiler",
+          "facet_statement": "Temel alan, erkek ve kadın kardeşleri ve aralarındaki doğum ya da soy bağını kapsar.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "12:7:5:2"
+          ],
+          "trigger_refs": [
+            "12:69",
+            "conn_ev_8727e1813e4a916a91d0",
+            "12:64",
+            "conn_ev_512a13502d7eb72cbdcd",
+            "12:80",
+            "conn_ev_92ec6a79bfcf7c26df7b",
+            "12:89",
+            "conn_ev_73f011791c404abba0c5",
+            "conn_ev_a2b11a2110a019b7991a",
+            "12:91",
+            "conn_ev_c53268024677f5c86bb7",
+            "12:100",
+            "conn_ev_b28732a66e8f9e3b9860",
+            "conn_ev_9ea72c522ec258f1fe6a"
+          ],
+          "focus_return_refs": [
+            "12:7:5:2"
+          ],
+          "carrier": "12:7:5:2'deki kardeşler adı erkek ve kadın kardeşleri ve aralarındaki doğum veya soy bağını taşır.",
+          "independent_trigger": "12:69, 12:64, 12:80, 12:89, 12:91 ve 12:100 supplied metinleri kardeşlik ilişkisini koruma, önceki kusuru hatırlama, yüzleşme, itiraf ve yeniden birleşme üzerinden tekrar kurar.",
+          "activation": "Kardeşlik taşıyıcısı bu ardışık ilişki sahneleriyle temas edince aile bağı, geçmiş davranışların sonraki güven ve sorumluluk anlarında geri döndüğü hafıza taşıyan bir ilişki olarak görünür.",
+          "resulting_reading": "12:7'deki Yusuf ve kardeşleri, daha sonra sınanan, hatırlanan, itiraf edilen ve yeniden toplanan bir kardeşlik düzeninin erken işareti olarak da okunur.",
+          "boundary": "Sonraki sahnelerin hedef morfolojisi veya tüm kardeşlik ilişkilerinin tek bir ahlaki sonuca zorunlu olarak ilerlediği iddia edilmez."
+        }
+      ],
+      "connection_refs": [
+        "conn_ec8f7a684d12c7d6a105",
+        "conn_7dda7cd7c016be113ce5",
+        "conn_d25653575fc9d977cacb",
+        "conn_15f63798e6af67b91b67",
+        "conn_6d37237cf53df70e6f71",
+        "conn_cf53c3210981a1e6fb55"
+      ],
+      "context_refs": [
+        "12:69",
+        "12:64",
+        "12:80",
+        "12:89",
+        "12:91",
+        "12:100"
+      ],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:recognition-delayed",
+      "origin_candidate_id": null,
+      "represented_candidate_ids": [],
+      "title": "İşaretin açılması zamana yayılır",
+      "claim": "Odaktaki görünür işaret, anlamı hemen tüketilen bir gösteri olarak kalmadan gizlenme, bastırılma, açığa çıkma ve sonradan tanınma aşamalarından geçen bir ilişki olarak da görünür.",
+      "mechanism": "12:7:6:1 görünür belirtiyi taşır; 12:19 gizlenen değere dönüşen kuyudan çıkarılışı, 12:35 işaretler görülmüşken hapsedilmeyi, 12:51 bastırılmış gerçeğin ortaya çıkmasını, 12:90 ve 12:96 geç tanınma ile görünür kanıtın açılmasını, 12:100 ise aile ve rüya düzeninin tamamlanmasını verir. Bu exact same-surah temasları, işaretin zaman içinde açılan ve farklı alımlamalardan geçen bir carrier oluşunu kurar.",
+      "reader_payoff": "Okur, 12:7'deki işaretlerin yalnızca o anda görülen nesneler olmadığını; kimi anlamların saklı kalıp daha sonra tanınma ve sonuç üzerinden belirginleşebildiğini algılar.",
+      "containment": "Bu, kıssanın bütününü tek çizgili ve zorunlu bir kader şemasına indirmez; işaretin düz görünür belirti anlamı korunur, her işaretin mutlaka aynı şekilde gecikerek açıldığı söylenmez.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": [],
+        "reason": "Six exact same-surah target texts and their authored connection notes are supplied, but target morphology and trust labels are absent; the temporal recognition relation remains a qualified global synthesis."
+      },
+      "support_ids": [],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000074/B003",
+          "facet_id": "F001",
+          "branch_gloss": "gorunen belirti",
+          "facet_statement": "Temel anlam, bir seyi tanitan veya ona delalet eden gorunen belirtidir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "12:7:6:1"
+          ],
+          "trigger_refs": [
+            "12:19",
+            "conn_ev_b0661d48c651165c8eb1",
+            "12:35",
+            "conn_ev_6346cccfa71757f788bf",
+            "12:51",
+            "conn_ev_6b7f99951571f360249f",
+            "12:90",
+            "conn_ev_fe0455d647f0b920cca7",
+            "12:96",
+            "conn_ev_91442a4d4ca54af7ed81",
+            "12:100",
+            "conn_ev_b28732a66e8f9e3b9860",
+            "conn_ev_9ea72c522ec258f1fe6a"
+          ],
+          "focus_return_refs": [
+            "12:7:6:1"
+          ],
+          "carrier": "12:7:6:1'deki görünür belirti, tanınmayı mümkün kılan fakat anlamı tek anda tüketilmeyen işaret çekirdeğini taşır.",
+          "independent_trigger": "12:19, 12:35, 12:51, 12:90, 12:96 ve 12:100 supplied metinleri gizlenme, görülmüşken bastırılma, gerçeğin açığa çıkması, tanınma, görünür kanıt ve tamamlanma temaslarını birbirine bağlar.",
+          "activation": "Bu farklı zaman ve alımlama sahneleri görünür belirti taşıyıcısına döndüğünde işaret, hemen tanınan tekil gösteri olmaktan çıkıp saklanabilen, bastırılabilen ve sonradan açılabilen bir anlam ilişkisi kazanır.",
+          "resulting_reading": "Yusuf ve kardeşlerindeki işaretler, anlamın olayların ilerleyişi içinde tanınma ve görünür kanıtla açılabileceği bir düzen olarak da okunur.",
+          "boundary": "Target ayetlerin ayrıntılı morfolojisi, tek bir kronolojik mekanizma veya her okurun aynı gecikmiş tanımayı yaşayacağı iddiası bu bulguya dahil değildir."
+        }
+      ],
+      "connection_refs": [
+        "conn_5e62290d86753dc80418",
+        "conn_6943a68c974175814cdc",
+        "conn_42de8cd2336c4b1ed647",
+        "conn_e6cc72a6ab5214982882",
+        "conn_90f38cf81eb93491a95a",
+        "conn_cf53c3210981a1e6fb55"
+      ],
+      "context_refs": [
+        "12:19",
+        "12:35",
+        "12:51",
+        "12:90",
+        "12:96",
+        "12:100"
+      ],
+      "semantic_obligation_refs": []
+    }
+  ],
+  "friction_notes": [
+    "Focus word alignment resolves 10 of 10 analysis units; no unresolved join is present. The packet supplies the exact focus Arabic, QAC morphemes, word-analysis coordinates, and analytic gloss boundaries, but those surface records are not themselves proof of secondary activation.",
+    "The packet contains five anchored cross-run or reader-walk candidates and eight visible legacy_unbound HFT reader-summary candidates. HFT evidence has zero supplied and cited anchor coordinates, no exact context word indices or attributed roles, and no focus-return traces; those eight summaries were explicitly reviewed and rejected rather than reconstructed.",
+    "The connection registry supplies exact target Arabic and authored relation notes, while target morphology and independent trust labels are absent. Connection prior labels were treated as nominations only; accepted connection-grounded findings retain qualified boundaries and do not import target-side lexical claims.",
+    "No staged reader responses, complete HFT trace, explicit consideredNotPrimary record, candidate-specific semantic-obligation list, selected context-unit projection, or lane-specific procedure is supplied. These absences limit provenance and are recorded here rather than filled by inference.",
+    "The declared Fatiha references and host-surah ordered context are present in analysis metadata, but lane_context_refs and selected_context_units are empty; no Fatiha or unprojected context material was used as a carrier."
+  ]
+}

@@ -1,0 +1,185 @@
+# V5 reading invitation — 12:52
+
+You are a fresh reading-invitation writer. Read the complete editorial prose
+before writing. It is your sole semantic source.
+
+Write two to four paragraphs of fluent, contemporary Turkish that reveal a
+surprising reading by following one or two main channels of resonance in the
+ayah. A channel is a connected background of meanings, images, actions, or
+relations through which the ayah can be heard and understood differently.
+Several editorial findings may together develop one channel. Summarize that
+connected movement and its consequence for the ayah's main meaning, rather
+than compressing findings individually. Give the reading's substance now;
+the invitation comes from understanding it, not from a promise of hidden depth.
+
+Before drafting, read the entire editorial prose and silently select the one
+or two channels with the strongest interpretive consequence and enough
+grounding to explain clearly. Favor channels that expand or shift what the
+ayah says, the relation it establishes, or what is at stake in its action or
+image. One fully developed channel is sufficient; add a second only when it
+offers a distinct consequential reading that can be explained within the
+invitation. No finding, channel, or major shift has an individual coverage
+claim. Unselected material may remain entirely in the full commentary.
+
+A channel may develop through grammar, sound, dialogue, a material process,
+time, imagery, or a conceptual relation. Resonance is not limited to acoustic
+effects, and an unusual image alone does not establish a channel. Use only
+connections the editorial prose actually develops. If it supplies no such
+channel, explain its strongest grounded reading without inventing connections
+or surprise.
+
+Begin inside the ayah's own words, images, actions, or relations and reveal a
+selected distinctive reading in the first paragraph. Keep the plain meaning
+reachable with only the orientation needed to understand the change. Do not
+spend an opening paragraph on routine explanation or front-load context about
+the surah, the ayah's position, or the commentary project.
+
+For each selected channel, begin with the expression that opens it, unfold the
+connected background, and show how the ayah reads or sounds against that
+background. Let a detail lead into the next through an intelligible relation
+or process, so the reader experiences the emerging reading. This is a movement
+of thought, not a mandatory sentence pattern or one paragraph per finding.
+Let the reader identify the expression being interpreted,
+where any nonordinary detail comes from, and what that detail changes in the
+reading. Briefly identify the word-family use, restricted form, collocation, or
+context that supplies an essential added detail, and preserve the concrete
+operation that makes the image work. Keep the ordinary reading and necessary
+qualification clear within this explanation; do not repeat them as a fixed
+formula. Preserve the particular object, process, or relation that makes this
+reading distinctive, and state its interpretive consequence for the ayah as a
+whole. Make intelligible what the familiar reading leaves less visible and
+what the expanded or shifted reading now lets the reader understand. Preserve
+the editorial's force: an exploratory possibility remains possible, while a
+developed shift must not be softened into a decorative association or a
+reassurance that everything means the same thing. A concrete
+account of how something is carried, transformed, lost, or restored must not
+shrink to a general statement about care, guidance, dependence, or goodness.
+Keep the details needed to make the selected channel work; omit side findings
+and shorten routine setup. If a channel cannot be explained faithfully from
+the editorial prose, choose another grounded channel or reading.
+
+When a non-focus ayah supplies a contribution used in the invitation, keep its
+reference from the editorial prose beside that contribution.
+
+Do not turn the invitation into a miniature inventory of the commentary's
+conclusions, or flatten distinct channels into a broad theme to include more
+material. Do not repair, extend, or supplement the editorial prose from memory
+or outside knowledge.
+
+Omit technical apparatus. Retain any qualification, source distinction, live
+alternative, or boundary whose absence would change the force or meaning of a
+chosen reading. Express it naturally beside the image or relation it qualifies.
+Favor positive explanations of the relation between layers: what remains in
+the foreground and what the resonance makes audible in the background. State
+how that background reinforces, expands, or shifts the understanding of the
+main meaning, with the source and degree of certainty clear. Reserve explicit
+exclusions for concrete ambiguities or live counter-evidence that need them.
+Repeated "this is not X" endings make a reading sound withdrawn; express the
+substantive qualification through what the reading does contribute wherever
+possible. Use varied, natural language rather than a repeated "second layer"
+formula, and preserve the force of expansions and shifts.
+Do not name branches, candidates, findings, scopes, evidence categories,
+ledgers, or workflow stages, or label the prose as numbered channels. Do not
+list findings serially.
+
+Use the established `{ar:..., tr:..., gloss:...}` syntax, consistent
+Turkish-readable transliteration, and short ordinary glosses. Keep Arabic
+anchors beside the explanations they ground. Within a paragraph, continue with
+the Turkish meaning where clear; provide the necessary local tag when a later
+paragraph interprets the carrier anew. Do not place Arabic script outside a
+valid tag.
+
+Build transitions within a channel through its shared object, action, or
+relation. If two channels are selected, they may occupy separate paragraphs;
+do not invent a link between them. Do not praise the commentary's quality,
+promise what the reader will find, manufacture suspense, recap at the end, or
+add a call to action. End on an image, relation, action, or tension already
+established by the selected reading.
+
+Before finishing, compare the invitation with the entire editorial prose:
+does the chosen channel reveal a consequential reading, or could the text have
+been written from the ordinary translation and a modest explanation alone?
+When the editorial supports a surprising channel, the latter fails this task.
+Can the reader follow the opening expression into a connected background and
+understand how that background expands or shifts the ayah's main meaning?
+Check the selected connections against their editorial explanation: can the
+reader tell where the nonordinary details come from, with the necessary
+qualifications intact? Repair generic explanation, isolated curiosities, or a
+compressed findings list by developing the selected channel. Do not add
+omitted channels merely for coverage. Do not output this check.
+
+Write only the invitation text to:
+
+`_commentary/v5/editorial/s012-p03-with-fatiha/s012/12_52/12_52.invitation.tr.md`
+
+Do not add a heading, wrapper label, index, ledger, evidence file, or any other
+artifact. Do not modify the editorial prose.
+
+After writing the invitation, run:
+
+```bash
+python3 _commentary/v5/validate_prose.py _commentary/v5/editorial/s012-p03-with-fatiha/s012/12_52/12_52.invitation.tr.md
+```
+
+If validation fails, repair only the reported mechanical file-contract issues
+and rerun it, for at most two repair cycles. Report the final validator result
+in your response.
+
+<editorial_prose>
+## Tanıklığın Amacı
+
+Bu âyet, hemen önceki sahnede ortaya konan tanıklığın neyi gösterdiğini açıklar. {ar:ذَٰلِكَ, tr:dhālika, gloss:bu} sözü önceki olaya geri işaret eder; onu hemen önceki kabulle bağlar ve cümlenin sınırını gösterir. Ardından gelen {ar:لِ, tr:li, gloss:için} bu geri dönüşü bir amaca bağlar: bütün bunlar, muhatabın bilmesi içindir. Olağan yüzeyde konuşan kişi, yokluğunda ona ihanet etmediğini ve Allah'ın hainlerin düzenini başarıya ulaştırmadığını bildirir. Âyet önce önceki olayın üzerine döner, sonra o olayın hangi bilmeye hizmet ettiğini gösterir.
+
+Bu bilmenin yönünü {ar:يَعْلَمَ, tr:yaʿlama, gloss:bilmesi} fiili kurar. Amaç yapısı içindeki bu biçim, önceki eylemin hedeflediği gerçeği kavrayışa yerleştirir; bilme burada öğretme veya yavaş yavaş edinme sürecinden çok, yerleşmiş bir tanıma olarak görünür. Fiilin etken yüzünde bilen kişinin kimliği açık kalır; edilgen yönde duyulan renk, aynı bilginin görünür hâle gelmesini öne çıkarır ve bu renk etken yüzeyi yerinden etmez. Fiilin açılıp akışkan biçimde kapanan sesi de amaç cümlesini içten bir kavrayışa doğru dönen hareket gibi renklendirir. {ar:أَنِّي, tr:annī, gloss:benim ... olduğumu} kişisel güvenceyi, {ar:أَنَّ, tr:anna, gloss:... olduğunu} ise genel hükmü bu fiilin yönettiği iki içerik olarak taşır. Birinci tekil ek konuşan beni bilinecek önermenin içine yerleştirir; sesin sahibini ayrıca tayin etmeden kişisel durum ile ilkeyi aynı bilme çerçevesinde buluşturur.
+
+İlk içerik {ar:لَمْ, tr:lam, gloss:etmedi} ile {ar:أَخُنْهُ, tr:akhunhu, gloss:ona ihanet etmedim} sözlerinde belirginleşir. {ar:لَمْ, tr:lam, gloss:etmedi} geçmişte gerçekleşmiş bir ihanetin kesin biçimde reddedildiğini kurar; burada yumuşak bir ihtimal değil, sahiplenilmiş bir eylem hakkında açık bir gerçekleşmeme vardır. {ar:أَخُنْهُ, tr:akhunhu, gloss:ona ihanet etmedim} birinci tekil cezimli fiil olarak konuşanı eylemin faili konumunda tutar. Bu dil bilgisel faillik, niyeti veya konuşanın kimliğini tek başına belirlemez. Fiilin bağlı nesne eki ise ihaneti bir güven sahibine yönelmiş ilişkisel bir sorumluluk olarak sabitler; kişi açık bırakılır, ilişki açık kalır. Böylece ihanet soyut bir kusurdan çok, başkasına verilmiş güveni gözeten bir eylem olarak duyulur. Bu yüzeyin bağlı olduğu kelime ailesindeki başkasının payından eksiltme yönü de, fiili maddi bir eksiltmeye çevirmeden, güveni bozmanın bir hakkı gizlice azaltma basıncını ekler.
+
+Bu reddin sınandığı koşul, cümlenin sonunda gelen {ar:بِ, tr:bi, gloss:...de} ile {ar:ٱلْغَيْبِ, tr:al-ghaybi, gloss:yoklukta ve görünmeyende} öbeğinde açılır. {ar:بِ, tr:bi, gloss:...de} sözü yokluğu hem ihanetin gerçekleşebileceği durum hem de bu durumun alanı yapar. {ar:ٱلْغَيْبِ, tr:al-ghaybi, gloss:yoklukta ve görünmeyende} fiziksel hazır bulunmayışı ve göz önünden saklı ahlaki davranışı aynı yerde canlı tutar; belirli ve mecrur isim, dağınık bir soyutluk yerine yönetilen bir koşul alanı adlandırır. İsim biçimi, saklılığı bir gizleme hareketinin anlık sonucu olarak değil, cümlede kalıcı bir durum kategorisi olarak öne çıkarır. Kelimenin derinden kapanan sesi de savunulan benden gözden uzak davranış alanına geçişi duyurur. Böylece sadakat, bakış ve tanık yokken sürdürülen ilişkisel bir sorumluluk olarak görünür; bu koşul bilme amacına doğru açılırken fiziksel yokluk anlamını korur.
+
+Yoklukta sürdürülen bu davranış, bilmenin nasıl mümkün hâle geldiğini de aydınlatır. {ar:ٱلْغَيْبِ, tr:al-ghaybi, gloss:yoklukta ve görünmeyende} ile {ar:يَعْلَمَ, tr:yaʿlama, gloss:bilmesi} yan yana duyulduğunda, gözetim yokken korunan eylem sonradan ayırt edilebilir bir sadakat izi olarak okunabilir; {ar:ذَٰلِكَ, tr:dhālika, gloss:bu} ile işaret edilen önceki olay da bilmenin konusu olan bu izi taşır. Gizli kalan eylemlerin bilgiyle anlatılması (7:7) ve tanıklığın bilinenle sınırlandırılması (12:81), görünmeyen alandaki davranışın sonradan denetlenebilir bilgiye açılabildiğini gösteren iki bağlamsal dönüş sağlar. Bu ek okuma, konuşanın kimliğini, {ar:يَعْلَمَ, tr:yaʿlama, gloss:bilmesi} fiilindeki bilen özneyi veya bağlı nesnenin kesin gönderimini kapatmaz; açık hükmün yanında, yoklukta korunan sadakatin tanınabilir bir davranışa dönüşmesini görünür kılar.
+
+## Savunmadan İlkeye
+
+İkinci içerik cümlesi {ar:وَ, tr:wa, gloss:ve} ile öncekinin içine bağlanır. Bağlaç kişisel inkârı aynı bilme çerçevesinde tutarken cümleyi adı açık bir ilkeye doğru genişletir; cümle eşiğindeki ritmi savunmadan hükme geçişi duyurur ve ilk inkârı geride bırakmaz. İkinci {ar:أَنَّ, tr:anna, gloss:... olduğunu} kısa ve sıkı sesiyle düz bir devam yerine bilinmesi amaçlanan genel hükmü başlatır. Bu hüküm sonradan eklenmiş bir slogan gibi durmaz; {ar:يَعْلَمَ, tr:yaʿlama, gloss:bilmesi} fiilinin yönettiği iki içerikten biridir.
+
+Bu hükmün öznesi {ar:ٱللَّهَ, tr:allāha, gloss:Allah'ın} adıyla açıkça kurulur. Ad, düzeni yönlendirmeyen fiilin failini belirsiz bir kuvvet yerine adı verilen özneye bağlar; özel adın taşıdığı tapınma ve haşyet basıncı da bu yerel özne görevini renklendirir. {ar:لَا, tr:lā, gloss:...maz} ilk bölümdeki {ar:لَمْ, tr:lam, gloss:etmedi} ile cevaplaşır: biri kişisel olayı geçmişteki kesin gerçekleşmeme alanına yerleştirirken diğeri süregelen bir hüküm açar. Bu yönlendirmeme, aşağıda adı verilen düzene bağlı duran bir ilke olarak duyulur ve kapsamını o nesnenin içinde korur.
+
+O nesne {ar:يَهْدِى, tr:yahdī, gloss:yol gösterir} fiilinin doğrudan karşısında duran {ar:كَيْدَ, tr:kayda, gloss:dolaylı ve gizli düzen}dir. Önce {ar:يَهْدِى, tr:yahdī, gloss:yol gösterir} etken biçimde yönü, yolu ve gerçeğe götüren doğrultuyu gösterir; açık akışı, hemen yanındaki daha kapalı ses dokusuyla {ar:كَيْدَ, tr:kayda, gloss:düzeni} sözcüğüne karşı duyulur. Sonra fiil-nesne teması yönlendirmeyi hainlerin kişiliğine değil, tasarlanmış işin kendisine yöneltir. Böylece düzenin yoğun emeği ile onu hedefe taşıyacak güzergâh birbirinden ayrılır: tertip çok çaba taşıyabilir, fakat dayanıklı bir varış yolu ayrıca kurulmalıdır. Yola ve doğruya yöneltme anlamı, düzen için açılmamış bir başarı güzergâhı beklentisini de kısaca çağrıştırır; bu çağrışım, yerel fiil-nesne ilişkisinin yan rengidir.
+
+{ar:كَيْدَ, tr:kayda, gloss:gizli düzen} mastar biçimiyle gizli bir hareketi değil, üzerinde işlem yapılabilen tasarlanmış bir işi nesneleştirir. Bu yüzden ilahî yönlendirmeme önce düzeni kuran kişilere değil, onların kurduğu işin kendisine ulaşır. Sözcük {ar:ٱلْخَآئِنِينَ, tr:al-khāʾinīna, gloss:hainlerin} ile kurulan tamlamada belirsiz bir gizlilikten daha fazlasını taşır: bir amaca ulaşmak için dolaylı, kasıtlı ve önceden hazırlanmış insanî bir strateji görünür. Tekil mastar çok sayıdaki manevrayı ortak bir düzen türünde toplar; çoğul hainler ise bu stratejinin bağlı olduğu güven bozucu sınıfı adlandırır. Tamlamanın tamamlanmasının sona bırakılması, okuyucuyu düzenin ardındaki ahlaki sahibi beklemeye yöneltir.
+
+Son kelime {ar:ٱلْخَآئِنِينَ, tr:al-khāʾinīna, gloss:hainlerin} belirli çoğul etkin ortaçtır. Tek bir kazara fiil yerine ihaneti karakter hâline getiren kişileri adlandırır ve önceki soyut düzene ahlaki bir sahip verir. İlahi yüklem altında beliren bu işaretli ihanet adı, ifadenin ahlaki iniş noktası gibi duyulur; bu ses rengi karşılaştırmalı ve ölçülüdür. Kelimenin taşıdığı ihanet alanı, daha önce {ar:أَخُنْهُ, tr:akhunhu, gloss:ona ihanet etmedim} ile reddedilen fiile cevap verir: konuşan kişi belirli bir fiili reddederken âyet sonunda o fiile bağlanan sınıfı adlandırır. Uzun sesli sonlanış ve kelimenin en sonda durması, savunulan benden hainler sınıfına doğru genişleyen hareketi sonlandırır. Kişisel vaka genel bir sınıfa açılır; kişisel inkâr ile genel ilke aynı kapanışta birlikte kalır ve hüküm hainlerin düzeniyle sınırlı bir yön-sonuç ilişkisi kurar.
+
+Görünmeyenin açıklanması da bu ikinci hükmün içindeki yön hareketini başka bir açıdan açar. İçte saklanan tepkinin başkalarına gösterilmemesi (12:77), odak âyetindeki {ar:أَخُنْهُ, tr:akhunhu, gloss:güveni gizlice bozmak} ile temas ettiğinde, muhatap yokken gizli malzemeyi kendi çıkarı için açığa vurmamayı sadakatin bir görünümü hâline getirir. Böylece {ar:ٱلْغَيْبِ, tr:al-ghaybi, gloss:yoklukta ve görünmeyende} yalnız eylemin gerçekleştiği alanı değil, açıklama gücünün ölçülü tutulduğu koşulu da duyurur. Bu ilişki (12:77) sahnesinin açıklama ölçüsünü 12:52'deki cümleye taşır; konuşmacının kimliği ve sesin kesin devamlılığı açık alan olarak kalır.
+
+Aynı {ar:ٱلْغَيْبِ, tr:al-ghaybi, gloss:yoklukta ve görünmeyende} yüzeyi, içine gireni gözden saklayan bir yer ilişkisine de açılabilir. Gizli zarar planı ve içine bırakılan şeyi saklayan çukur sahnesi (12:15), yokluğu saklayan ve sonradan açığa çıkabilen bir mekân görüntüsüne dönüştürür. Bu görüntü, mevcut sadakat bildirimini geçmişteki gizli yerleştirme ve gizli zarar sahnesine karşı kurulmuş bir dönüş olarak duyurur. {ar:ٱلْغَيْبِ, tr:al-ghaybi, gloss:yoklukta ve görünmeyende} burada temel yokluk anlamını korurken (12:15) bu anlamın içinden mekânsal bir yankı açar; çukur ayrıntısı bu bağlama ait kalır.
+
+Yokluğun dış denetim anlamı, iç benliğin hareketiyle yan yana geldiğinde ayrı bir sınama kurar. {ar:ٱلنَّفْسَ, tr:an-nafsa, gloss:iç benlik} dışarıdan görülmeyen eylemin ardındaki alanı taşır; {ar:أَمَّارَةٌۢ, tr:ammāratun, gloss:ısrarla buyuran} nefiste kötülüğe doğru ısrarla buyuran kuvveti, {ar:ٱلسُّوٓءِ, tr:as-sūʾi, gloss:kötülük ve çirkinlik} ise bu buyruğun yöneldiği iç hedefi adlandırır. Bu ayrı tetikleyici, dışarıdan kurulmuş hainler düzeni ile içeriden kötülüğe iten emri birbirinden ayırır. Merhamet ve bağışlayıcılık kaydı (12:53), {ar:رَحِمَ ... رَّحِيمٌۭ, tr:raḥima ... raḥīm, gloss:merhamet ve şefkat} ile {ar:غَفُورٌۭ, tr:ghafūr, gloss:bağışlayıcı} yüzeylerinde, belirli bir ihanet hakkındaki savunmanın iç zaafla nasıl sınırlandığını gösterir. Aynı bağlamda {ar:يَهْدِى, tr:yahdī, gloss:doğruya yöneltmek} yüzeyi, kişinin kendine verdiği güvence yerine merhamet içinde işleyen doğru yönelişi öne çıkarır. Böylece 12:52'nin sadakat beyanı belirli bir ihanet hakkında sınırlı bir sorumluluk açıklaması olarak kalır; iç kırılganlığa ilişkin daha geniş hesaplaşma (12:53) bu beyanın yanına yerleşir.
+
+## Bilgi Yeniden Açılırken
+
+Bilme amacı, yakın sahnedeki soruşturma hareketiyle somutlaşır. Doğrudan okunamayan kapalı rüya görüntüsü (12:43), hazır kanaat yerine araştırma ihtiyacını açar; bu katkı, (12:43) sahnesindeki kapalı görüntüye özgü bir bağ olarak kalır. {ar:عَٰلِمِينَ, tr:ʿālimīna, gloss:bilenler} sözü (12:44), bu görüntü karşısında bilme iddiasının yetmediği noktayı gösterir. {ar:يَعْلَمُونَ, tr:yaʿlamūna, gloss:bilmek} ile odaktaki {ar:يَعْلَمَ, tr:yaʿlama, gloss:bilip gerçeğini kavramak} yüzeyi (12:46), cevabı geri taşınabilir ve başkasınca ayırt edilebilir bir işarete dönüştüren bilme ayrıntısını taşır. Ardından {ar:ٱرْجِعْ, tr:irjiʿ, gloss:geri dön} sözü (12:50) kapanmış görünen dosyaya geri dönmeyi, {ar:فَسْـَٔلْهُ, tr:fasʾalhu, gloss:sor} eylemi (12:50) serbest bırakmadan önce olguyu soruşturmayı başlatır. {ar:حَصْحَصَ ٱلْحَقُّ, tr:ḥaṣḥaṣa al-ḥaqq, gloss:hakikat ortaya çıktı} ifadesi (12:51) ile {ar:ٱلْحَقُّ, tr:al-ḥaqqu, gloss:gerçek} sabit ölçü olarak görünür ve saklı davranış itiraf ile hakikat şeklinde yüzeye çıkar. Bu sıra, 12:52'deki bilmenin hazır bir açıklamadan çok, kapalı görüntüden başarısız bilmeye, geri dönüş ve sorudan tanınabilir hakikate uzanan yeniden sınanmış bir kavrayış gibi duyulmasını sağlar. Soruşturma burada araştırma hareketini görünür kılar; görünmeyen her olay için otomatik bir çözüm yöntemi ilan etmez.
+
+Bu soruşturma, geri dönüşü isteyen birinci tekil sesin 12:52'de yeniden duyulabileceği ihtimalini de açık bırakır. {ar:ٱرْجِعْ, tr:irjiʿ, gloss:geri dön} sözü (12:50), önceki eylemin ardından hesap sormaya ve açıklama istemeye dönen bir sesi taşıyabilir. {ar:ٱلصَّٰدِقِينَ, tr:aṣ-ṣādiqīna, gloss:doğru ve sadık olanlar} sözü (12:51) tanıklığın doğruluk niteliğini belirler; odaktaki {ar:أَخُنْهُ, tr:akhunhu, gloss:ona ihanet etmedim} ve {ar:ٱلْخَآئِنِينَ, tr:al-khāʾinīna, gloss:hainlerin} yüzeyi bu ölçüyle buluştuğunda belirli suçlamayı reddeden savunma, doğrulukla sınanan bir ses olarak duyulur. {ar:أَمِينٌ, tr:amīn, gloss:emin ve güvenilir} sıfatı (12:54) bu iddianın anlatıdaki olası sonucunu gösterir; güvenilirlik sonraki sahnede görülen bir nitelik olarak kalır ve 12:52'nin tek başına zorunlu sonucu hâline gelmez. Sahne ardışıklığı bu sesi mümkün kılar; konuşmacının veya erkeğin kimliği açık alan olarak kalır.
+
+Başka bir ses ihtimalinde {ar:رَٰوَدَ, tr:rāwada, gloss:ısrarla yönelmek ve ayartmaya çalışmak} sözü (12:51), geçmişteki ısrarlı yönelme ve ayartma eylemini kabul eden bir itiraf olarak duyulur. Bu fiilin iki yüzeyi birlikte, {ar:حَصْحَصَ, tr:ḥaṣḥaṣa, gloss:örtünün kalkıp ortaya çıkması} sözünün (12:51) kurduğu onarıcı açıklıkta buluşur. Odaktaki {ar:أَخُنْهُ, tr:akhunhu, gloss:güveni gizlice bozmak} iddiası bu itirafla temas ettiğinde doğruyu söylemek, yeni bir gizli yalanı durduran ve güven ilişkisinin bundan sonra yeniden bozulmamasını gözeten bir sorumluluk biçimi olur. Aynı kelime ailesinin başkasının payından eksiltme yönü, geçmişteki hatayı kabul ederek yeni bir eksiltmeyi durdurma ayrıntısını açar; maddi pay görüntüsü burada sorumluluğun ayrıntısını verir, kişi ile pay arasında mülkiyet ilişkisi kuran bir okuma açmaz. {ar:أُبَرِّئُ نَفْسِي, tr:ubarriʾu nafsī, gloss:kendimi aklamam} ifadesi (12:53) ile {ar:ٱلنَّفْسَ, tr:an-nafsa, gloss:iç benlik} alanı, itirafın yanına iç sorumluluk hesabını yerleştirir ve tam öz-aklamaya alan bırakmaz. Böylece hakikatin açığa çıkması geçmiş zararı silmeden yeni gizli yanlışın önünü kesen bir açıklık olur; bu temas konuşmacının kesin biçimde değiştiğini veya açık öz-itirafın öznesini belirlemez.
+
+Planın akıbeti de aynı açığa çıkış içinde başka bir yüz kazanır. Somut entrikayı gösteren {ar:بِكَيْدِهِنَّ, tr:bi-kaydihinna, gloss:onların gizli düzeni} ifadesi (12:50), odaktaki {ar:كَيْدَ, tr:kayda, gloss:gizli tasarı} yüzeyine değerek görünmez sadakat iddiasını bir planın akıbeti sorusuna bağlar. {ar:حَصْحَصَ ٱلْحَقُّ, tr:ḥaṣḥaṣa al-ḥaqq, gloss:hakikat ortaya çıktı} ifadesi (12:51), gizli düzenin beklenen başarısı yerine hakikatin yüzeye çıkmasını kurar; {ar:ٱلْحَقُّ, tr:al-ḥaqqu, gloss:gerçek} bu sahnede olayın sabit ölçüsü olur. Ardından {ar:يَهْدِى, tr:yahdī, gloss:doğruya yöneltmek} ile {ar:كَيْدَ, tr:kayda, gloss:gizli düzen} arasındaki temas, haince kurgunun doğru bir sonuca yönlendirilemeyen bir yol gibi görünmesini sağlar. Planın etkisizleştirilmesi (8:18) bu yolu kesen sonucu, yıkıma varması (40:37) ise dayanıklı bir güzergâh kuramamanın başka bir görünümünü taşır; kısa süreli bir sonuç üretme ihtimali bu iki yankıyla birlikte açık kalır. Bu bağın odağı planın yol bulmasıdır ve olay örgüsü (12:50, 12:51) gizli tasarının gerçekle karşılaşınca tutunamayan bir kurguya dönüşmesini gösterir.
+
+## Saklı Kayıt ve Sanı
+
+Görünmeyen kaydı açıklamak için başka bir koşullu görüntü de {ar:ٱلْغَيْبِ, tr:al-ghaybi, gloss:yoklukta ve görünmeyende} kelimesinin toprağın altındaki saklı kökleri düşündürmesidir. Köklerin görünmeden kalması, yoklukta korunan sadakatin henüz görünür olmayan kaydına analojik bir temas verir; böylece saklılık, bilmenin sonradan iz sürebileceği bir derinlik gibi görünür. {ar:يَعْلَمَ, tr:yaʿlama, gloss:bilmek ve ayırt edebilmek} yüzeyindeki bilme, bu kaydı diğer ihtimallerden ayıran okunabilir izi taşır. {ar:فَسْـَٔلْهُ, tr:fasʾalhu, gloss:sor} sorusu (12:50) bu görüntünün araştırma hareketini, {ar:حَصْحَصَ ٱلْحَقُّ, tr:ḥaṣḥaṣa al-ḥaqq, gloss:hakikat ortaya çıktı} ifadesi (12:51) ise saklı kaydın yüzeye çıkışını taşır. Bu analoji (12:50, 12:51) sırasına bağlıdır; soru araştırmayı açar, sonucu genel ve kesin bir yöntem hâline getirmez.
+
+Bu netleşme çizgisinin yanında kesinleşmemiş sanının yön kaybı da belirir. {ar:ظَنَّ, tr:ẓanna, gloss:zan ve varsayım} sözü (12:42) varsayımın zihinsel başlangıcını, {ar:أَضْغَاثُ أَحْلَامٍ, tr:aḍghāthu aḥlām, gloss:birbirine karışmış rüya parçaları} ifadesi (12:44) şüpheli ve dağınık malzemeyi adlandırır. Bu iki görüntü, odaktaki {ar:يَهْدِى, tr:yahdī, gloss:doğruya yöneltmek} ve {ar:يَعْلَمَ, tr:yaʿlama, gloss:bilmek ve gerçeğini kavramak} yüzeyleriyle buluştuğunda haince düzenin kanıtlanmamış düşünceyi sabit bilgiye çeviremeyen ilk adımları görünür. {ar:ٱلْحَقُّ, tr:al-ḥaqqu, gloss:gerçek} sözü (12:51) bu gölgenin ulaşamadığı sabit noktadır. Zan, (12:42, 12:44, 12:51) bağlamının taşıdığı tali epistemik basınçtır; odak kelimesiyle doğrudan sözlük eşleşmesi kurmadan ana yönlendirme anlamının yanında çalışır.
+
+## Güven Emanete Dönüşürken
+
+İhanet etmeme iddiasının bir başka açılımı, bağlı fiilin başkasının payından eksiltme yönünü emanetin korunmasıyla buluşturur. Önce güvene layık olanı ayıklama ve emanet için hazırlama hareketi {ar:أَسْتَخْلِصْهُ, tr:astakhliṣhu, gloss:onu seçip ayırmak} sözüyle (12:54) görünür. Ardından {ar:أَمِينٌ, tr:amīn, gloss:emin ve güvenilir} seçilmiş kişinin güven niteliğini (12:54), {ar:حَفِيظٌ, tr:ḥafīẓ, gloss:koruyucu ve gözeten} emanetin başında durma işini (12:55) adlandırır. {ar:نُضِيعُ, tr:nuḍīʿu, gloss:ziyan etmek ve kayba bırakmak} ise kayba uğratmama ölçüsünü (12:56) görünür kılar. Bu sıra, özel sadakati kendisine bırakılan kaynağın bütünlüğünü koruyabilecek bir sorumluluk niteliğine doğru genişletir. Bağlantı güvenilirliği sonraki sahnenin niteliği olarak tutar; onu 12:52'nin tek başına verdiği bir kamu görevi ölçütüne dönüştürmez.
+
+Emanet boyutu maddi koruma düzeniyle de belirginleşir. Ürünün hemen tüketilmeyip yerinde bırakılması {ar:فَذَرُوهُ, tr:fa-dharūhu, gloss:onu bırakın} sözüyle (12:47), rezervin zor zamanda tükenmeye karşı tutulması {ar:تُحْصِنُونَ, tr:tuḥṣinūna, gloss:koruyup saklamak} ile (12:48) görünür. Buradaki bırakma ve saklama, gözetim bulunmayan aralıkta da payı koruma eylemini somutlaştırır; {ar:ٱلْغَيْبِ, tr:al-ghaybi, gloss:gözden ve bilgiden uzaklık} bu koşulu taşır. Depolanmış kaynaklar {ar:خَزَآئِنِ, tr:khazāʾini, gloss:ambarlar ve depolanmış kaynaklar} ile (12:55), onları bütün tutan fail de {ar:حَفِيظٌ, tr:ḥafīẓ, gloss:koruyucu ve gözeten} ile (12:55) görünür. Böylece bırakma (12:47), saklama (12:48), ambar (12:55) ve koruyuculuk (12:55) birbirine eklenerek özel güveni maddi bir koruma düzenine bağlar. Bu bağ {ar:أَخُنْهُ, tr:akhunhu, gloss:ona ihanet etmedim} kelimesindeki ilişkisel sadakati korur; tahıl ve ambar görüntüsü, kelime ailesindeki maddi eksiltme yönünün bu sadakate verdiği somut ayrıntı olarak yanında durur.
+
+Sadakat alanı, konuşanın kadın olarak okunduğu koşulda daha özel bir ilişki görüntüsüne de açılabilir. {ar:ٱلْغَيْبِ, tr:al-ghaybi, gloss:yoklukta ve görünmeyende} kocası yanında olmayan kadının bu yoklukta bağlılığı ve korunması gereken bağı gözetmesini, {ar:أَخُنْهُ, tr:akhunhu, gloss:erkek muhataba karşı güveni gizlice çiğnememek} ise erkek muhataba yönelen ilişkisel sadakati duyurabilir. Evlilik ilişkisi içindeki ihanetin kişisel sorumluluk olarak görünmesi (66:10), bu iki yüzeyi buluşturduğunda genel gözetimsizliğe somut bir evlilik sınaması ekler. Bu koşullu ilişki, cümledeki erkek zamirin gönderimini ve konuşmacının cinsiyetini açık alan olarak bırakır.
+
+Son karşılaştırma, fiilin nesneyle kazandığı sınırı aydınlatır. Odaktaki {ar:يَهْدِى, tr:yahdī, gloss:doğruya yöneltmek}, Fâtiha'daki {ar:ٱهْدِنَا ٱلصِّرَٰطَ, tr:ihdinā aṣ-ṣirāṭa, gloss:bizi dosdoğru yola yönelt} talebiyle (1:6) yan yana duyulabilir: orada fiil insana ve doğru yol nesnesine yöneltilmiş olumlu bir istektir, burada ise {ar:كَيْدَ, tr:kayda, gloss:gizli düzen} olumsuzlanan nesnedir. Bu karşılaştırma, Allah'ın rehberlik fiilini genelleştirmek yerine hainlerin düzenine yönelen nesne sınırını aydınlatır. Böylece (1:6) yalnız fiil-nesne ilişkisi üzerinden 12:52'deki hükmü açıklar; sonuç bu sınırlı karşılaştırma içinde kalır.
+
+</editorial_prose>

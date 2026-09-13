@@ -1,0 +1,541 @@
+{
+  "schema_version": "commentary-v5-scope-discovery-v1",
+  "ayah_ref": "12:49",
+  "lane": "global",
+  "coverage_complete": true,
+  "candidate_decisions": [
+    {
+      "candidate_id": "cand_3b008f281ca3ccbec1d8",
+      "decision": "accept",
+      "reason": "Güvenilir çapraz-çalışma kaydı 12:49:8 ve 12:49:11 yüzeylerini doğrudan yağmur, yardım ve sıkım ilişkisine bağlar; dört supplied branch ref'in tamamı üretim zinciri bulgusunda exact activation ile korunur ve geniş bağlantılar bağımsız tetikleyici sağlar.",
+      "finding_refs": [
+        "global:rain-relief-production"
+      ],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_ce25a80fa06692208001",
+      "decision": "accept",
+      "reason": "Reader-walk activation odak yılının geliş/ulaşma dalını açıkça adlandırır; 30:4'teki ayrı gelecek-dönem dönüşü, bu varışın kurtuluş ve üretim penceresi olarak qualified biçimde okunmasını sağlar.",
+      "finding_refs": [
+        "global:arriving-recovery-year"
+      ],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_becb6d57baabadaa1775",
+      "decision": "accept",
+      "reason": "Retrospective reader-walk, odaktaki toplu rahatlamanın daha sonraki idari alana giriş yolu oluştuğuna dair bounded bir bağlantı sağlar; kayıt legacy_unbound olduğu ve hedef ayetin tam yüzeyi packet'te bulunmadığı için yalnız qualified contextual finding olarak tutulur.",
+      "finding_refs": [
+        "global:relief-route-to-administration"
+      ],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_926979ec52e0903f12ed",
+      "decision": "represented",
+      "reason": "Bu reader-walk, yağmur-yardım-sıkım üretim zinciri bakımından global:rain-relief-production bulgusunun exact semantic duplicate'ıdır; kendi iki branch ref'i bulguda aynen land eder ve hiçbir branch, facet, context veya obligation dışarıda bırakılmaz.",
+      "finding_refs": [
+        "global:rain-relief-production"
+      ],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_d4e69ba0f5064cffa6fa",
+      "decision": "accept",
+      "reason": "Retrospective reader-walk, yağmur ve sıkım vaadinin kıtlığın uzağında değil onun sıralı sonrasında geldiğini belirleyen distinct bir temporal boundary sağlar; legacy_unbound kayıt, tam bir lexical trace icat edilmeden qualified tutulur.",
+      "finding_refs": [
+        "global:ordered-relief-after-scarcity"
+      ],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_ce539befb30fcc4222ce",
+      "decision": "reject",
+      "reason": "HFT summary yalnızca final verb hakkında olasılık bildirir; supplied exact focus coordinate, branch identity ve focus-return trace bulunmadığından attributed activation olarak land edilemez.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_5b7fd06e47c6501e194b",
+      "decision": "reject",
+      "reason": "HFT summary social/legal rescue'ı genel bir olasılık olarak verir, fakat exact context coordinate, attributed role, carrier ve focus return yoktur; bu nedenle stated HFT role sınırında tutulamaz.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_3e86ec28ce54b8976be3",
+      "decision": "reject",
+      "reason": "Causal arrow'ın sequence'ten inferred olduğu açıkça belirtilmiş, ancak supplied exact focus/context coordinate ve returning contact yoktur; unbound HFT nomination olarak semantic relation kurulamaz.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_27d50d27055d48b613b7",
+      "decision": "reject",
+      "reason": "Hydrologic-motion model packet'te branch-distant ve exploratory diye nitelenir; exact carrier, independent trigger ve focus-return ref supplied değildir.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_952b55fc35a729a4fb68",
+      "decision": "reject",
+      "reason": "Repeated pressing root summary, focus yüzeyine veya belirli bir supplied branch'e exact trace vermez; prisoner's dream'den society-wide production'a geçiş bu kayıtta landed değildir.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_d261cf8d4d8607ee0b04",
+      "decision": "reject",
+      "reason": "Regime-change summary yalnızca unbound HFT synthesis'tir; exact before/after carrier, independent context trigger ve focus-return coordinate bulunmaz.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_b207c4d2130e507e5756",
+      "decision": "reject",
+      "reason": "Rain-root split mapping iddiası supplied anchor veya branch ref olmadan verilmiştir; exact focus return bulunmadığı için attributed global activation eşiğini geçmez.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_d92e676fe38d003c5366",
+      "decision": "reject",
+      "reason": "Recovery year'ın sevenfold dream görüntülerini aşması iddiası HFT summary'de kalır; exact year carrier, independent context coordinate ve focus-return trace supplied değildir.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_4d49a833d129f73b62cb",
+      "decision": "reject",
+      "reason": "Institutional mediation summary, public knowledge ve custodial authority için exact HFT carrier/context contact sağlamaz; inference stated HFT role'u aşar.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_a68ac2b29866a6b45ed1",
+      "decision": "reject",
+      "reason": "What-was-special synthesis, delayed time'dan agency'ye uzanan bir özet sunar fakat exact focus word, branch, trigger ve focus-return trace içermez.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    }
+  ],
+  "findings": [
+    {
+      "finding_ref": "global:rain-relief-production",
+      "origin_candidate_id": "cand_3b008f281ca3ccbec1d8",
+      "represented_candidate_ids": [
+        "cand_926979ec52e0903f12ed"
+      ],
+      "title": "Yağmur ve yardım sıkılabilir ürünü yeniden üretime açar",
+      "claim": "12:49'da gökten gelen yağmur ve sıkıntıyı gideren yardım, insanların yeniden ürünün sıvısını çıkarmasını mümkün kılan bir üretim zinciri kurar.",
+      "mechanism": "12:49:8:1'deki yughathu yağmur ve yardım temasını, 12:49:11:1'deki yaʿṣirūna'nın sıvı çıkarma işlemiyle buluşturur; 50:9, 42:28, 78:14, 78:15 ve 16:11 bağlantıları gökten suyun bitki, ürün ve rahatlamaya dönüşmesini bağımsız biçimde açar, 16:67 ise ürünün içecek ve rızık olarak işlenmesini gösterir.",
+      "reader_payoff": "Rahatlama yalnız kıtlığın bitmesi olarak kalmaz; suyun bitkiyi, bitkinin işlenebilir ürünü, ürünün de insanların etkin üretimini açtığı görünür hale gelir.",
+      "containment": "Bu bulgu literal yağmuru, yardımı veya insanların fiziksel sıkımını birbirinin yerine koymaz. root_001019/B003 ve root_001118/B004 qualified/unresolved kaynak statülerini korur; 57:20'de yağmurla yükselen ürünün sonra sararıp ufalanması da bu üretimin kalıcılık garantisi olmadığını gösteren karşıt çerçevedir.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": [
+          "legacy_unbound",
+          "trusted"
+        ],
+        "reason": "Trusted cross-run support dört supplied branch'i doğrudan bağlar; reader-walk legacy_unbound'dır ve geniş bağlantı hedeflerinde target morphology supplied değildir. Branch ve bağlantı nitelikleri bu nedenle görünür tutulmuştur."
+      },
+      "support_ids": [
+        "sup_0744756f223f710a39a0",
+        "sup_92022d66fe01a9932394"
+      ],
+      "branch_activations": [
+        {
+          "branch_ref": "root_001019/B002",
+          "facet_id": "F001",
+          "branch_gloss": "sıkarak sıvısını çıkarma",
+          "facet_statement": "Çekirdek işlem, bir şeyi bastırıp sıkarak içindeki sıvıyı dışarı çıkarmaktır.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "12:49:11:1"
+          ],
+          "trigger_refs": [
+            "conn_c35b1382b2545964afd6"
+          ],
+          "focus_return_refs": [
+            "12:49:11:1"
+          ],
+          "carrier": "12:49:11:1'deki yaʿṣirūna, insanların bir şeyi bastırıp içindeki sıvıyı çıkardığı etkin işlemi taşır.",
+          "independent_trigger": "16:67 bağlantısının supplied meyve sahnesi, hurma ve üzümden içecek ile güzel rızık edinmeyi göstererek sıkımın ürün sonucunu açar.",
+          "activation": "Meyveden içecek ve rızık elde edilmesi, odak fiilindeki fiziksel basıncı yağmurla gelen ürünün işlenme aşamasına bağlar.",
+          "resulting_reading": "Yağmurlu yıl yalnız ürünün varlığını değil, insanların ondan sıvı ve yarar çıkardığı üretim işlemini de bildirir.",
+          "boundary": "Burada ürünün mutlaka üzüm veya yağ olduğunu ve kökün bütün çıkarma anlamlarının etkinleştiğini ileri sürmez."
+        },
+        {
+          "branch_ref": "root_001019/B003",
+          "facet_id": "F001",
+          "branch_gloss": "yağmur yüklü bulut ve yağmurun gelişi",
+          "facet_statement": "Yağmur taşıyan ve yağışını boşaltmaya hazır bulut temel görüntüdür.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "12:49:11:1"
+          ],
+          "trigger_refs": [
+            "conn_09f3ad95a7f727281499"
+          ],
+          "focus_return_refs": [
+            "12:49:11:1"
+          ],
+          "carrier": "12:49:11:1'deki yaʿṣirūna yüzeyi, aynı kökün yağmur taşıyan bulut dalı için qualified bir olası taşıyıcıdır.",
+          "independent_trigger": "78:14 bağlantısı, yağmur yüklü bulutlardan bol suyun indirilmesi sahnesini supplied hedef Arapça ile verir.",
+          "activation": "Geniş yağmur-bulutu sahnesi, odak fiilinin aynı kök yüzeyindeki sıkma hareketiyle temas eder ve göğün suyu boşaltmasını odaktaki sıvı çıkarma hareketine bağlar.",
+          "resulting_reading": "Sıkım ile yağış aynı üretim hareketinin iki yönü gibi görünür: su gökten boşalır, ürün yerden ve insan emeğinden sıvı olarak çıkar.",
+          "boundary": "Bu qualified weather resonance, odak fiilinin yerel 'insanlar sıkar' okumasının yerine geçmez ve hedef ayetin eksik morphology ayrıntılarını icat etmez."
+        },
+        {
+          "branch_ref": "root_001118/B001",
+          "facet_id": "F001",
+          "branch_gloss": "gökten inen yağmur",
+          "facet_statement": "Gökten inen yağmur ve canlılığı sürdüren gök suyudur.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "12:49:8:1"
+          ],
+          "trigger_refs": [
+            "conn_a5c74868af8b5c4d1952"
+          ],
+          "focus_return_refs": [
+            "12:49:8:1"
+          ],
+          "carrier": "12:49:8:1'deki yughāthu, insanların yağmura kavuştuğu edilgen rahatlama sahnesinde gökten inen suyu taşıyabilir.",
+          "independent_trigger": "50:9 bağlantısı, gökten indirilen suyun bahçeleri ve hasatlık taneyi bitirdiği tarımsal sonucu supplies eder.",
+          "activation": "Gökten su ile bahçe ve hasat arasındaki ayrı ayet ilişkisi, odaktaki alınan yardımın üretim girdisi olarak çalışmasını tetikler.",
+          "resulting_reading": "Yughāthu yalnız soyut bir kurtarılma değildir; insanların kavuştuğu yağmur, yeniden ürün verecek canlı girdidir.",
+          "boundary": "Her yardım kullanımını yağmur saymaz ve edilgen biçimin failini ya da meteorolojik ayrıntılarını odaktan çıkarmaz."
+        },
+        {
+          "branch_ref": "root_001118/B004",
+          "facet_id": "F001",
+          "branch_gloss": "sıkıntıyı gideren yardım",
+          "facet_statement": "Sıkıntı içindeki kişiye ulaşan yardım, onun darlığını giderir ve rahatlama sağlar.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "12:49:8:1"
+          ],
+          "trigger_refs": [
+            "conn_e3c56ab8ef03d4a5dfd6"
+          ],
+          "focus_return_refs": [
+            "12:49:8:1"
+          ],
+          "carrier": "12:49:8:1'deki edilgen yughāthu, insanların darlıktan çıkarılıp yardıma ulaştırıldığı sonucu taşır.",
+          "independent_trigger": "42:28 bağlantısı, ümitsizlikten sonra yağmurun indirilmesini ve rahmetin yayılmasını supplies eder.",
+          "activation": "Ümitsizlikten sonra gelen yağmur ve rahmet, odaktaki edilgen yardım sonucunu hem maddi hem sosyal bir rahatlama olarak açar.",
+          "resulting_reading": "Aynı yıl hem yağmura kavuşma hem de sıkıntının giderilmesi olarak okunur; su üretim zincirini başlatırken yardım darlığı da çözer.",
+          "boundary": "Yardımın yalnız meteorolojik olduğunu, ya da iki kök açıklamasından birinin kesin olarak seçildiğini ileri sürmez."
+        },
+        {
+          "branch_ref": "root_001118/B002",
+          "facet_id": "F001",
+          "branch_gloss": "yağmurla yetişen ot",
+          "facet_statement": "Yağmurla yetişen ot veya bitki, onu yetiştiren yağmurla ilişkisi üzerinden adlandırılır.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "12:49:8:1"
+          ],
+          "trigger_refs": [
+            "conn_75c6c9077d9d6babcdca"
+          ],
+          "focus_return_refs": [
+            "12:49:8:1"
+          ],
+          "carrier": "12:49:8:1'deki yağmur-yardım yüzeyi, gök suyunun ardından çıkan bitkiyi de çağrışım taşıyıcısı olarak açar.",
+          "independent_trigger": "78:15 bağlantısı, bol suyun tane ve bitki çıkarmasını doğrudan supplies eder.",
+          "activation": "Yağmurun bitkiye dönüşmesi, odaktaki yardım ile sonraki sıkım arasına görünür bir büyüme aşaması yerleştirir.",
+          "resulting_reading": "Rahatlama, yalnız suyun ulaşması değil, suyun sıkılabilir ürüne dönüşmesini sağlayan canlı büyümedir.",
+          "boundary": "Bu ek branch, odakta ayrı bir bitki listesi bulunduğunu veya her yağmur kullanımının ot anlamına geldiğini iddia etmez."
+        },
+        {
+          "branch_ref": "root_001019/B007",
+          "facet_id": "F002",
+          "branch_gloss": "bağış, iyilik veya elde edilen ürün",
+          "facet_statement": "Bir şeyden alınan pay, ürün, tarımsal gelir veya başka kazanç elde etme yönünü oluşturur.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "12:49:11:1"
+          ],
+          "trigger_refs": [
+            "conn_e9948588ee5e7db4cf57"
+          ],
+          "focus_return_refs": [
+            "12:49:11:1"
+          ],
+          "carrier": "12:49:11:1'deki etkin çoğul yaʿṣirūna, ürünün ve tarımsal kazancın insanlar tarafından elde edilmesi yönüne açılabilir.",
+          "independent_trigger": "16:11 bağlantısı, suyla ekin, zeytin, hurma, üzüm ve meyvelerin bitmesini supplies eder.",
+          "activation": "Su ile çeşitli ürünler arasındaki dış bağlantı, insanların yalnız ürünü sıkmadığını, arazinin pay ve gelirini de gerçekleştirdiğini tetikler.",
+          "resulting_reading": "Yaʿṣirūna, fiziksel sıkımın yanında yağmurla açılan hasat ve geçim kazancının elde edilmesini de üretim sonucuna bağlar.",
+          "boundary": "Bu contextual extension literal sıkma işlemini silmez; bütün verme, geri alma veya kazanç kullanımlarını odakta etkin saymaz."
+        }
+      ],
+      "connection_refs": [
+        "conn_c35b1382b2545964afd6",
+        "conn_09f3ad95a7f727281499",
+        "conn_a5c74868af8b5c4d1952",
+        "conn_e3c56ab8ef03d4a5dfd6",
+        "conn_75c6c9077d9d6babcdca",
+        "conn_e9948588ee5e7db4cf57",
+        "conn_ebd0c06874e03c765638"
+      ],
+      "context_refs": [
+        "16:67",
+        "78:14",
+        "50:9",
+        "42:28",
+        "78:15",
+        "16:11",
+        "57:20"
+      ],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:arriving-recovery-year",
+      "origin_candidate_id": "cand_ce25a80fa06692208001",
+      "represented_candidate_ids": [],
+      "title": "Kurtuluş penceresi olarak gelen yıl",
+      "claim": "12:49:2:1'de yılın gelmesi, yağmur, rahatlama ve üretimin açıldığı bir kurtuluş penceresinin varışını da duyurur.",
+      "mechanism": "Odaktaki gelen yıl taşıyıcısı, 30:4 bağlantısındaki önce-sonra düzenlenmiş gelecek dönemiyle temas eder; böylece geliş yalnız takvimdeki bir nokta değil, darlık sonrası rahatlama ve üretken eylemin başlayacağı dönem olarak değişir.",
+      "reader_payoff": "Okur, yılın yalnızca bir tarih etiketi olmadığını, içinde yardım ve üretimin gerçekleştiği gelen bir zaman aralığı olduğunu görür.",
+      "containment": "Bu qualified temporal resonance literal yılın gelişini korur; 12:49'u 30:4'ün kehaneti saymaz ve bütün zaman dallarını etkinleştirmez.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": [
+          "legacy_unbound"
+        ],
+        "reason": "Reader-walk support legacy_unbound'dır; 30:4 bağlantısı yalnız weak bir wider nomination'dır ve hedef morphology supplied değildir."
+      },
+      "support_ids": [
+        "sup_93603f5be74931ec1315"
+      ],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000009/B001",
+          "facet_id": "F001",
+          "branch_gloss": "gelmek, ulaşmak",
+          "facet_statement": "Bir kişi ya da şey gelir veya bir hedefe ulaşır.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "12:49:2:1"
+          ],
+          "trigger_refs": [
+            "conn_49963b63adc091bafab2"
+          ],
+          "focus_return_refs": [
+            "12:49:2:1"
+          ],
+          "carrier": "Yılın özne olduğu 12:49:2:1, bir zaman biriminin gelmesini ve bir hedef döneme ulaşmasını taşır.",
+          "independent_trigger": "30:4 bağlantısı, birkaç yıllık gelecek dönemini ve önce-sonra eşiğinde ortaya çıkan sevinci supplies eder.",
+          "activation": "Geniş gelecek-dönem dönüşü, odaktaki gelen yıl ile temas ederek varışı darlık sonrasındaki üretim açılımının zaman taşıyıcısına dönüştürür.",
+          "resulting_reading": "Gelen yıl, rahatlama ve sıkımın yalnız içinde bulunduğu takvim değil, onları başlatan varış anı olarak görünür.",
+          "boundary": "Bu, yıla yardım etme faili yüklemez; 30:4'ün bütün bağlamını 12:49'a taşımaz ve yerel geliş okumasını ortadan kaldırmaz."
+        }
+      ],
+      "connection_refs": [
+        "conn_49963b63adc091bafab2"
+      ],
+      "context_refs": [
+        "30:4"
+      ],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:relief-route-to-administration",
+      "origin_candidate_id": "cand_becb6d57baabadaa1775",
+      "represented_candidate_ids": [],
+      "title": "Rahatlamanın toplumsal geçit oluşu",
+      "claim": "12:49'da insanların yardıma kavuşması, supplied retrospective reading içinde ayrılmış ailenin daha sonra Yusuf'un idari alanına girebildiği toplumsal geçidi oluşturur.",
+      "mechanism": "12:49:8:1'deki yardım alıcısı ve 12:49:11:1'deki yeniden üretim, rahatlamayı yalnız bireysel bir sonuç değil kamusal hareketi mümkün kılan koşul olarak okur; sup_ed312470495f175c4b52, bu rahatlamanın daha sonraki idari karşılaşmaya yol açtığını bildirir.",
+      "reader_payoff": "Kıtlık çözümü, yalnız yiyeceğe erişim değil, ayrılmış insanların yeniden kamusal bir ilişkiye girebilmesi olarak görünür.",
+      "containment": "Bu finding, supplied retrospective source text'in bounded iddiasıdır; hedef ayetin tam Arapçası veya bağımsız bir connection row packet'te yoktur. 12:49'un açıkça bir idari plan kurduğu ya da bütün surah tezinin bu olduğu ileri sürülmez.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": [
+          "legacy_unbound"
+        ],
+        "reason": "Tek destek legacy_unbound ve citable:false reader-walk metnidir; ilişki focus'a bağlanmış olsa da sonraki sahnenin exact target surface'i supplied değildir."
+      },
+      "support_ids": [
+        "sup_ed312470495f175c4b52"
+      ],
+      "branch_activations": [],
+      "connection_refs": [],
+      "context_refs": [],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:ordered-relief-after-scarcity",
+      "origin_candidate_id": "cand_d4e69ba0f5064cffa6fa",
+      "represented_candidate_ids": [],
+      "title": "Kıtlığın sonrasında gelen rahatlama",
+      "claim": "12:49'daki yağmur ve sıkım yılı, supplied retrospective reading içinde uzun kıtlık dizisinin sonuna yerleşen sıralı bir rahatlama olarak görünür.",
+      "mechanism": "12:49:4:1'deki 'sonra/ardından' zaman sınırı ile 12:49:8:1 ve 12:49:11:1'deki rahatlama-üretim sonuçları, sup_bdf6f8e7adcc895c665e'nin daha sonraki sıkıntı sahnesiyle birlikte okununca iyi yılın önceki zorluğu silmeden onun ardından geldiğini gösterir.",
+      "reader_payoff": "Vaat, hemen sıkıntıdan çıkış değil, dayanılmış bir yokluk döneminin ardından gelen su ve üretim eşiği olarak zaman kazanır.",
+      "containment": "Bu qualified boundary supplied retrospective reader text'e dayanır; sonraki ayetin tam yüzeyi packet'te yoktur. 12:49'un bütün hardship dizisini ayrıntılı biçimde belirlediği veya rahatlamanın garanti edildiği söylenmez.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": [
+          "legacy_unbound"
+        ],
+        "reason": "Tek destek legacy_unbound ve citable:false retrospective record'dur; temporal ordering reader-walk'ta açık, fakat sonraki context'in exact Arabic'i supplied değildir."
+      },
+      "support_ids": [
+        "sup_bdf6f8e7adcc895c665e"
+      ],
+      "branch_activations": [],
+      "connection_refs": [],
+      "context_refs": [],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:time-turns-pressure-into-yield",
+      "origin_candidate_id": null,
+      "represented_candidate_ids": [],
+      "title": "Zamanın sıkımı sonuçlandırması",
+      "claim": "12:49:11:1'deki sıkım, 103:1'deki zaman kullanımına dönen aynı kök temasında, yılın baskısı altında sonucun ve verimin açığa çıkması olarak da görünür.",
+      "mechanism": "Odak yaʿṣirūna taşıyıcısı, 103:1'in supplied 'al-ʿaṣr' yüzeyi ve connection note'undaki zamanın baskı ile sonuç üretmesi ilişkisiyle temas eder; bu temas fiziksel sıkmayı koruyarak zaman aralığını verimi ortaya çıkaran koşul olarak yeniden çerçeveler.",
+      "reader_payoff": "Üretim, yalnız insanların uyguladığı bir işlem değil, zaman içinde biriken baskının sonucu açığa çıkardığı bir süreç olarak algılanır.",
+      "containment": "Bu writer-discovered qualified resonance, 12:49'u 103:1'deki yemin olarak okumaz ve insanların ürün sıkması anlamını değiştirmez. 103:2'deki insanın kayıp içinde oluşu canlı karşı çerçevedir; zamanın her zaman kazanç ürettiği iddia edilmez.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": [],
+        "reason": "Branch facet supplied ve focus carrier exact'tir; wider connection prior label medium'dur ve target morphology supplied değildir."
+      },
+      "support_ids": [],
+      "branch_activations": [
+        {
+          "branch_ref": "root_001019/B001",
+          "facet_id": "F001",
+          "branch_gloss": "devir, vakit ve günün geç bölümü",
+          "facet_statement": "Temel anlam, devir, süre veya belirli bir vakit olarak zamandır.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "12:49:11:1"
+          ],
+          "trigger_refs": [
+            "conn_b0c1c95fb42302f8f573"
+          ],
+          "focus_return_refs": [
+            "12:49:11:1"
+          ],
+          "carrier": "12:49:11:1'deki yaʿṣirūna, literal sıkma ve ürün çıkarma işlemini taşıyan odak fiilidir.",
+          "independent_trigger": "103:1 bağlantısı, aynı kökün zaman/devir kullanımını ve bunu sıkımın kazanım-kayıp baskısıyla ilişkilendiren supplied note'u verir.",
+          "activation": "Zaman dalı, odaktaki sıkım fiiline döndüğünde yılın kendisi verimin açığa çıktığı süre ve baskı alanı olarak temas eder.",
+          "resulting_reading": "Sıkım, zamanın içinde biriken baskının saklı sonucu ortaya çıkarmasıyla birlikte okunur; literal üretim süreci böylece zamansal bir verim imgesi kazanır.",
+          "boundary": "Zaman anlamı yerel fiilin tek veya asli karşılığı sayılmaz; 103:1'in yemin bağlamı odakta yeniden kurulmaz ve sonuç mutlaka kazanç diye sabitlenmez."
+        }
+      ],
+      "connection_refs": [
+        "conn_b0c1c95fb42302f8f573",
+        "conn_b114e1a8ac81a324dfcb"
+      ],
+      "context_refs": [
+        "103:1",
+        "103:2"
+      ],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:production-vulnerability",
+      "origin_candidate_id": null,
+      "represented_candidate_ids": [],
+      "title": "Üretimin karşısındaki yıkıcı kuvvet",
+      "claim": "12:49:11:1'deki üretken sıkım, aynı kökün 2:266'daki ateşli döner toz sütunuyla karşılaşınca yenilenmiş üretimin korunmasızlığını da görünür kılar.",
+      "mechanism": "Odak yaʿṣirūna taşıyıcısı, 2:266'nın supplied 'iʿṣār' yüzeyi ve burned-garden connection note'u ile temas eder; dışarıdaki yıkıcı fırtına, üretim imgesine onun kaybedilebilir bir koşul olduğunu ekler.",
+      "reader_payoff": "Rahatlama ile üretim, kalıcı bir sahiplik değil, gerçekleştiği kadar yıkıma da açık bir imkân olarak görünür.",
+      "containment": "Bu counter-reading 12:49'un felaket öngörüsü değildir; döner toz fırtınası, odaktaki insanların ürün sıkması anlamının yerine konmaz. Connection hedef morphology'si supplied olmadığı için branch contact qualified kalır.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": [],
+        "reason": "Branch facet ve focus occurrence exact supplied'dir; 2:266 connection prior label medium'dur ve target morphology supplied değildir."
+      },
+      "support_ids": [],
+      "branch_activations": [
+        {
+          "branch_ref": "root_001019/B004",
+          "facet_id": "F001",
+          "branch_gloss": "sütun gibi yükselen döner toz rüzgarı",
+          "facet_statement": "Rüzgarın kaldırdığı, dönen ve sütun gibi yükselen toz temel anlamdır.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "12:49:11:1"
+          ],
+          "trigger_refs": [
+            "conn_549ab9e1ec0c2b06e217"
+          ],
+          "focus_return_refs": [
+            "12:49:11:1"
+          ],
+          "carrier": "12:49:11:1'deki yaʿṣirūna, aynı kökün fiziksel basınç ve çıkarma yüzeyini taşıyan odak fiilidir.",
+          "independent_trigger": "2:266 bağlantısı, bahçeyi ateşle yakan iʿṣār'ı ve üretim dönüşünün karşısındaki kayıp sahnesini supplies eder.",
+          "activation": "Yıkıcı döner fırtına, odaktaki ürün çıkarma hareketine temas ederek yağmurla açılan üretimin ters yönde sönebileceği çevresel kuvveti görünür kılar.",
+          "resulting_reading": "İyi yılın üretimi, yalnız verim artışı değil, korunması gereken ve kaybedilebilen bir canlılık olarak okunur.",
+          "boundary": "Bu, yaʿṣirūna'nın sözlükte doğrudan 'fırtına' olduğu iddiası değildir; ilişki aynı kökün geniş bağlamlı karşıt görüntüsüyle sınırlıdır."
+        }
+      ],
+      "connection_refs": [
+        "conn_549ab9e1ec0c2b06e217"
+      ],
+      "context_refs": [
+        "2:266"
+      ],
+      "semantic_obligation_refs": []
+    }
+  ],
+  "friction_notes": [
+    "İstenen lifecycle komutundaki --role global, mevcut monitor.py arayüzünde geçerli değildir; global lane, başarıyla kaydedilebilmesi için --role scope --lane global biçiminde yürütüldü.",
+    "focus_word_alignment tamdır: 12/12 word resolved ve unresolved listesi boştur; packet'te word-level semantic obligation veya required facet listesi bulunmamaktadır.",
+    "hft_evidence source_present ve assigned_record_count 10 olmasına rağmen supplied_unique_anchor_count 0'dır. On HFT summary adayı bu nedenle exact attributed activation olarak retained edilmedi; her biri karar docket'ında explicit reject edildi.",
+    "Retrospective reader-walk destekleri 12:58 ve 12:88 ayetlerini yalnız source text içinde adlandırır; tam hedef Arapça veya structured context unit supplied olmadığı için bu iki finding'de context_refs boş bırakıldı ve iddialar qualified source attribution olarak sınırlandı.",
+    "Global connection rows target Arabic'i sağlıyor ancak target morphology sağlamıyor. Connection prior label karar değildir; bağlantılar bağımsız trigger olarak kullanılırken epistemic status qualified tutuldu.",
+    "57:20'nin yağmurla yükselen ürünün sararıp ufalanmasına dair karşıt döngüsü ve 103:2'nin kayıp çerçevesi containment içinde korundu; hiçbir finding bunları odak ayeti için disambiguation hükmüne çevirmiyor."
+  ]
+}

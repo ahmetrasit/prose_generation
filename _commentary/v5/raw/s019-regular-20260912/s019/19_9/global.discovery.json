@@ -1,0 +1,295 @@
+{
+  "schema_version": "commentary-v5-scope-discovery-v1",
+  "ayah_ref": "19:9",
+  "lane": "global",
+  "coverage_complete": true,
+  "candidate_decisions": [
+    {
+      "candidate_id": "cand_3fa625bdfbba50bcf850",
+      "decision": "accept",
+      "reason": "Güvenilir ve citable cross-run desteği, 19:9:7'deki kolaylık ile 19:9:9'daki ölçüp sınır belirleme dallarını aynı odak yüzeyinde açıkça bağlıyor. İlişki, ilahî kolaylığı ölçü ve zamanlamayı düzenleyen faille birlikte okuyor; iki aday dalı da doğrudan etkinleşen bir çekirdek fasetle korunuyor.",
+      "finding_refs": ["global:measure-timed-ease"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_edb62f468cdf8f72a3fe",
+      "decision": "reject",
+      "reason": "HFT kaydı legacy_unbound ve bu adaya bağlı destekte anchor_refs, branch_refs ya da exact HFT anchor evidence yok. Yalnızca 19:4'teki zayıflık ile 19:9'daki kolaylık arasında izlenimsiz bir özet veriliyor; gerekli bağlam ayeti, kelime indisi, kök, atfedilmiş rol ve odağa dönüş koordinatları bulunmadığı için iddia attributed global evidence olarak korunamaz.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_f5df645212c84bd594f5",
+      "decision": "reject",
+      "reason": "HFT kaydı legacy_unbound; tekrar eden مِن قَبْلُ iddiasının hangi sağlanmış bağlam ayeti ve hangi kelime/kök iziyle odağa döndüğü belirtilmemiş. Destekte anchor_refs, branch_refs ve exact HFT activation trace bulunmadığından, 19:67 ile bağımsız biçimde kurulabilecek anlam bu adayın kendi evidence zinciriyle taşınamaz.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_8bcae0e161c40b3596f7",
+      "decision": "reject",
+      "reason": "HFT özeti, armağan, miras, kitap ve hüküm dizisini anıyor fakat bunlardan hiçbirini sağlanmış bir bağlam ayeti, kelime indisi, kök, rol ve focus return ile bağlamıyor. Legacy_unbound destekte anchor evidence bulunmadığı için yaratılışı amaçlı yetiştirme olarak genişleten çıkarım bu aday için doğrulanmış değildir.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_a705834dba4dba50299b",
+      "decision": "reject",
+      "reason": "İki قَالَ'ın işaret, suskunluk ve jestle performatif bir eyleme dönüştüğü iddiası için HFT trace'i exact carrier, trigger ve focus return vermiyor. Destek yalnızca unanchored summary payload olduğu ve anchor_refs/branch_refs boş kaldığı için bu aday retained attributed evidence eşiğini geçmiyor.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_f4cf361d872d4b6e10d9",
+      "decision": "reject",
+      "reason": "Split-root tersine dönüşleri ve ر ب ب büyüme modelini bildiren HFT özeti, sağlanmış bir taşıyıcı ve bağımsız tetikleyici koordinatı sunmuyor. Legacy_unbound destek kaydı exact context/word/root/role trace ve focus return içermediğinden bu sentez aday düzeyinde kabul edilemez.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_93934039b13756bbda4a",
+      "decision": "reject",
+      "reason": "Kayıt, zayıflık ve büyüme yankılarının yalnızca çağrışımsal olabileceğini söylüyor; bunu sınayacak exact carrier, independent trigger, attributed role ve focus return sağlamıyor. HFT anchor coverage sıfır olduğundan adayın belirsizlik iddiası da global bulgu olarak korunamaz.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_abccc231b55482aab1ef",
+      "decision": "reject",
+      "reason": "Sonraki rol ve yaşam döngüsü dizilerinin خَلَقْتُكَ fiilini belirleyemeyebileceği uyarısı, packet içinde bu dizileri odağa bağlayan exact HFT trace ile desteklenmiyor. Anchor_refs, branch_refs ve anchor evidence bulunmadığı için adayın çıkarımı stated HFT role sınırını aşarak belirsiz kalıyor.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_6a035a80b4fb1d264d25",
+      "decision": "reject",
+      "reason": "Doğumda karşılayıp teslim alma dalının yalnızca image-only olduğu ve zaman sözdiziminin birincil kaldığı söyleniyor; ancak HFT kaydı bu ayrımı exact context ayeti, kelime/kök koordinatı ve focus return ile bağlamıyor. Legacy_unbound destek bu nedenle aday düzeyinde etkinleşmiş bir kanıt değildir.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    }
+  ],
+  "findings": [
+    {
+      "finding_ref": "global:measure-timed-ease",
+      "origin_candidate_id": "cand_3fa625bdfbba50bcf850",
+      "represented_candidate_ids": [],
+      "title": "Kolaylığın ölçü ve zamanlamayla birlikte işlemesi",
+      "claim": "19:9'daki ilahî kolaylık, yaratma fiilini ölçü ve zamanlama dışına çıkaran bir küçümseme değil, ölçüyü ve oluş sırasını egemen biçimde düzenleyen kudret olarak görünür.",
+      "mechanism": "19:9:7:1'deki kolaylık taşıyıcısı, 19:9:9:1'deki yaratma fiilinin ölçüp sınır belirleme çekirdeğiyle temas eder; 25:2 ve 54:49 bağlantıları da yaratma ile ölçü arasındaki bağımsız geniş bağlamı sağlar. Citable cross-run kaydı bu iki odak dalını tek bir ilişki olarak adlandırır.",
+      "reader_payoff": "Kolaylık sözcüğü, engeli yok sayan hafiflikten ziyade neyin ne zaman oluşacağını belirleyen failin kudretini görünür kılar.",
+      "containment": "Bu okuma doğrudan yaratma, ölçü ve zamanlama ilişkisiyle sınırlıdır; biyolojik şartların anlamsız olduğunu, modern bir nedensellik açıklamasını veya خَلَقَ kökünün başka dallarını ileri sürmez. Cross-run kaydının iç derecesi weak olduğu ve bağlantı ayetlerinin hedef morfolojisi verilmediği için ilişki qualified tutulur.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": ["trusted"],
+        "reason": "Desteğin kaynağı trusted ve iki dal ile odak koordinatlarını açıkça veriyor; ancak serialized publication grade weak ve daha geniş bağlantıların hedef morfolojisi packet'te yok."
+      },
+      "support_ids": ["sup_02771eae65ea72ad490a"],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000434/B001",
+          "facet_id": "F001",
+          "branch_gloss": "ölçüp sınırlarını belirleme",
+          "facet_statement": "Nesnenin ölçüsü ve sınırları yapılacak işten önce belirlenir.",
+          "application_mode": "intrinsic_cross_root",
+          "carrier_refs": ["19:9:9:1"],
+          "trigger_refs": ["19:9:7:1", "25:2", "54:49"],
+          "focus_return_refs": ["19:9:9:1"],
+          "carrier": "19:9:9:1'deki خَلَقْتُكَ, nesnenin ya da işin önceden ölçülüp sınırlarının belirlenmesi anlamını taşıyabilecek yaratma taşıyıcısıdır.",
+          "independent_trigger": "19:9:7:1'deki belirli kişiye kolay gelen iş ilişkisi ile 25:2 ve 54:49'da yaratmanın ölçüyle birlikte anılması.",
+          "activation": "Kolaylık, yaratmayı ölçüsüz veya zamansız bir atlama olarak değil, yapılacak oluşun öncesindeki ölçülendirmeyi yöneten bir fiil olarak okutan bağımsız temas noktası sağlar.",
+          "resulting_reading": "Rabbin kolay dediği iş, ölçü ve oluş sırası üzerinde egemen bir düzenleme olarak belirir.",
+          "boundary": "Bu dalın kesme öncesi ölçü çekirdeği korunur; ilahî fiilin fiziksel bir üretim tekniğiyle özdeş olduğu iddia edilmez."
+        },
+        {
+          "branch_ref": "root_001608/B002",
+          "facet_id": "F002",
+          "branch_gloss": "kolay ve hafif olma",
+          "facet_statement": "Bir işin belirli bir kişiye kolay gelmesi ve ona ağır bir yük oluşturmaması anlatılır.",
+          "application_mode": "intrinsic_cross_root",
+          "carrier_refs": ["19:9:7:1"],
+          "trigger_refs": ["19:9:9:1", "25:2", "54:49"],
+          "focus_return_refs": ["19:9:7:1"],
+          "carrier": "19:9:7:1'deki هَيِّنٌ, ilahî birinci şahıs kapsamı içinde işi belirli fail için kolay ve hafif kılan taşıyıcıdır.",
+          "independent_trigger": "19:9:9:1'deki yaratma fiili ile 25:2 ve 54:49'da yaratma-ölçü temasının açıkça kurulması.",
+          "activation": "Yaratma taşıyıcısı, kolaylık yüklemini yalnızca ağırlık yokluğu olmaktan çıkarıp ölçü ve zamanlamayı yöneten failin işi olarak belirginleştirir.",
+          "resulting_reading": "Bu benim için kolaydır sözü, ölçü ve zamanlamayı yeniden düzenleme kudretiyle birlikte duyulur.",
+          "boundary": "Hَيِّنٌ içindeki hafife alma veya küçümseme dalı burada etkinleştirilmez; odak cümlesindeki olumlu ilahî kolaylık korunur."
+        }
+      ],
+      "connection_refs": ["conn_f610c5ebaaa1c71b12fb", "conn_fc161af6c7e0b7e50bb7"],
+      "context_refs": ["25:2", "54:49"],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:surah-proof-pattern",
+      "origin_candidate_id": null,
+      "represented_candidate_ids": [],
+      "title": "Aynı sûrede emsal kalıbının geri dönüşü",
+      "claim": "Sûrenin daha ilerideki iki ayeti, 19:9'un iki dayanağını ayrı ayrı geri getirir: 19:21 kolaylık ve ilahî cevap kalıbını, 19:67 ise yokken yaratılma emsalini yineler; böylece 19:9'daki vaat, sûrenin kendi içinde tekrarlanan bir imkân düzeni olarak belirir.",
+      "mechanism": "19:21'in sağlanan Arapça yüzeyi 19:9'daki قَالَ كَذَٰلِكَ قَالَ رَبُّكَ هُوَ عَلَىَّ هَيِّنٌ kalıbına döner; 19:67'nin sağlanan yüzeyi ise خَلَقْنَاهُ مِن قَبْلُ وَلَمْ يَكُ شَيْئًا ifadesiyle odağın yaratılış emsalini doğrudan tekrarlar. İki dönüş, kolaylık taşıyıcısı ile yaratma taşıyıcısını aynı sûresel kanıt hareketinde birleştirir.",
+      "reader_payoff": "Okur, 19:9'daki cevabı tek seferlik bir teselli değil, sûrede olağanüstü oluşu önceki yaratılış ve ilahî kolaylıkla açıklayan yinelenebilir bir düzen olarak görür.",
+      "containment": "Bu, 19:9'un anlamını 19:21 veya 19:67'ye indirgemez; yalnızca aynı sûredeki iki sonraki dönüşün odak cümlesini nasıl genişlettiğini söyler. Hedef ayetlerin tam morfolojik çözümlemesi verilmediği için ilişki yalnız sağlanan yüzey ve bağlantı notlarıyla qualified tutulur.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": [],
+        "reason": "İki hedef ayetin exact Arabic yüzeyi ve focus-direction connection kayıtları mevcut; ancak connection kayıtlarında hedef morfolojisi ve ayrı bir trust etiketi sağlanmamış."
+      },
+      "support_ids": [],
+      "branch_activations": [
+        {
+          "branch_ref": "root_001608/B002",
+          "facet_id": "F002",
+          "branch_gloss": "kolay ve hafif olma",
+          "facet_statement": "Bir işin belirli bir kişiye kolay gelmesi ve ona ağır bir yük oluşturmaması anlatılır.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["19:9:7:1"],
+          "trigger_refs": ["19:21"],
+          "focus_return_refs": ["19:9:7:1"],
+          "carrier": "19:9:7:1'deki هَيِّنٌ, işin Rab için kolaylığını bildirir.",
+          "independent_trigger": "19:21'in sağlanan yüzeyinde aynı قَالَ كَذَٰلِكَ قَالَ رَبُّكِ هُوَ عَلَىَّ هَيِّنٌ cevap düzeninin ve doğum vaadinin tekrar edilmesi.",
+          "activation": "Aynı cevap formunun sûrenin ilerleyen bölümünde yeniden görünmesi, odaktaki kolaylık sözünü başka bir olağanüstü doğum bağlamına dönen ortak ilahî cevap biçimine bağlar.",
+          "resulting_reading": "19:9'daki kolaylık, yalnız mevcut konuşmanın cevabı değil, sûrenin olağanüstü doğumları açıklayan tekrar eden ilahî cevap hareketinin bir parçası olarak duyulur.",
+          "boundary": "19:9'un 19:21'deki olayla özdeş olduğu veya hedef ayetin morfolojisinin burada çözümlendiği iddia edilmez."
+        },
+        {
+          "branch_ref": "root_000434/B002",
+          "facet_id": "F002",
+          "branch_gloss": "var etme ve ortaya çıkarma",
+          "facet_statement": "Ortaya çıkarma, öncesiz bir örnek olmadan veya mevcut bir şeyden gerçekleştirilebilir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["19:9:9:1"],
+          "trigger_refs": ["19:67"],
+          "focus_return_refs": ["19:9:9:1"],
+          "carrier": "19:9:9:1'deki خَلَقْتُكَ, muhatabın daha önce hiçbir şey değilken var edilmesini taşıyan yaratma fiilidir.",
+          "independent_trigger": "19:67'nin sağlanan yüzeyinde insanın مِن قَبْلُ iken وَلَمْ يَكُ شَيْئًا durumunda yaratıldığının aynı sure içinde yeniden kurulması.",
+          "activation": "Daha sonraki tekrar, odaktaki geçmiş yaratılışı yalnız kişisel bir hatırlatma olmaktan çıkarıp yeni ve olağanüstü bir oluş için sûresel emsal haline getirir.",
+          "resulting_reading": "Seni daha önce hiçbir şey değilken yaratmıştım cümlesi, vaat edilen doğumun imkânını açıklayan tekrar kullanılabilir bir yaratılış delili gibi çalışır.",
+          "boundary": "Bu dal yalnız var etme ve öncesiz örnek çekirdeğiyle etkinleşir; diriliş, her yaratma kullanımı veya hedef ayetin ek morfolojisi burada ileri sürülmez."
+        }
+      ],
+      "connection_refs": ["conn_482f2f2f3e4e24741944", "conn_ad7720503fd3a1358f5b"],
+      "context_refs": ["19:21", "19:67"],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:saying-to-being",
+      "origin_candidate_id": null,
+      "represented_candidate_ids": [],
+      "title": "Söyleyişin oluşa bağlanması",
+      "claim": "19:9'daki ilahî söyleyiş, daha geniş yüzeyde söylenen sözün oluşa geçmesiyle birlikte duyulabilir; böylece iki قَالَ ve önceki yoklukta تَكُ ile kurulan cevap, yalnız haber veren bir cümle değil, oluşu açan söz düzenine bağlanan bir cevap olur.",
+      "mechanism": "Odaktaki iç ilahî söyleyiş taşıyıcısı 19:9:3:1'deki قَالَ ve yokluğu bildiren 19:9:13:1'deki تَكُ'dur. 2:117 ve 36:82'nin sağlanan yüzeyleri ilahî söyleyişi كُنْ فَيَكُونُ oluş dizisine bağlar; bu bağımsız ilişki iki focus formunun haber ve oluş arasındaki temasını görünür kılar.",
+      "reader_payoff": "Rabbin cevabındaki 'dedi' fiili, sonradan eklenmiş bir açıklama gibi değil, yaratıcı sözün oluşu başlatan niteliğini taşıyan bir eylem gibi algılanır.",
+      "containment": "19:9'da açık bir كُنْ emri bulunduğu veya 2:117 ve 36:82'nin hedef morfolojisinin burada çözümlendiği iddia edilmez. Bu, focus söyleyişinin sağlanan daha geniş söz-oluş yüzeyiyle qualified bir rezonansıdır; doğrudan yaratma emsali bulgusunun yerine geçmez.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": [],
+        "reason": "2:117 ve 36:82 için exact Arabic ve focus-direction connection kayıtları mevcut; hedef morfolojisi ayrı olarak sağlanmadığından söz-oluş bağı qualified olarak tutuluyor."
+      },
+      "support_ids": [],
+      "branch_activations": [
+        {
+          "branch_ref": "root_001272/B001",
+          "facet_id": "F001",
+          "branch_gloss": "söze dökme",
+          "facet_statement": "Çekirdek işlem, sözü sesli olarak dışa çıkarmaktır.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["19:9:3:1"],
+          "trigger_refs": ["2:117", "36:82"],
+          "focus_return_refs": ["19:9:3:1"],
+          "carrier": "19:9:3:1'deki قَالَ, Rabbe açıkça kaynaklanan tamamlanmış söyleyiş taşıyıcısıdır.",
+          "independent_trigger": "2:117 ve 36:82'nin sağlanan yüzeylerinde ilahî söyleyişin كُنْ فَيَكُونُ oluş dizisiyle yan yana kurulması.",
+          "activation": "Daha geniş söz-oluş teması, odaktaki Rabbin dedi ifadesini yalnızca aktarım fiili olmaktan çıkarıp söyleniş ile gerçekleşme arasındaki ilahî ilişkiye bağlar.",
+          "resulting_reading": "Cevabın söylenmesi, yaratıcı fiil hakkında konuşan bir haber olmanın yanında oluşu açan ilahî söz düzeninin sesi olarak belirir.",
+          "boundary": "Bu taşıyıcıya doğrudan emir anlamı eklenmez; 19:9'un kendi lafzında كُنْ bulunduğu söylenmez."
+        },
+        {
+          "branch_ref": "root_001332/B001",
+          "facet_id": "F001",
+          "branch_gloss": "gerçekleşme, bulunma ve olma bildirimi",
+          "facet_statement": "Bir şeyin gerçekleşmesi, ortaya çıkması ve bulunur halde olması çekirdektir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["19:9:13:1"],
+          "trigger_refs": ["2:117", "36:82"],
+          "focus_return_refs": ["19:9:13:1"],
+          "carrier": "19:9:13:1'deki تَكُ, لَمْ ile önceki varlık durumunu reddeden olma taşıyıcısıdır.",
+          "independent_trigger": "2:117 ve 36:82'nin sağlanan yüzeylerinde söylenen كُنْ sözünün فَيَكُونُ ile oluşa bağlanması.",
+          "activation": "Oluş fiilinin iki geniş bağlamda sözün sonucu olarak görünmesi, 19:9'daki 'hiçbir şey değilken' zeminini söyleyişten varlığa geçişin karşı kutbu olarak aydınlatır.",
+          "resulting_reading": "Muatabın önce bir şey olmayışı ile sonradan yaratılması, sözün oluşa bağlandığı daha geniş ilahî eylem düzeninde karşılıklı iki eşik olarak okunur.",
+          "boundary": "Focus'taki olma fiilinin olumlu gerçekleşme bildirdiği iddia edilmez; burada onun olumsuzlanmış biçimi ve dış bağlamdaki oluş karşıtlığı korunur."
+        }
+      ],
+      "connection_refs": ["conn_3afbdb8b9bd1e7f42d41", "conn_02199f33f6ba54787f02"],
+      "context_refs": ["2:117", "36:82"],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:ease-not-trivialization",
+      "origin_candidate_id": null,
+      "represented_candidate_ids": [],
+      "title": "İlahî kolaylık küçümseme değildir",
+      "claim": "24:15'te aynı kolaylık alanının insanlara ait bir küçümseme için kullanılması, 19:9'daki هَيِّنٌ ifadesinin Rabbin birinci şahıs kapsamındaki olumlu kolaylık olduğunu ve insanın bir şeyi hafife almasıyla aynı olmadığını belirginleştirir.",
+      "mechanism": "Focus taşıyıcısı 19:9:7:1'deki هَيِّنٌ'dür; 24:15'in exact Arabic yüzeyi ise insanların bir şeyi هَيِّنًا sayması ile onun Allah katındaki büyüklüğünü karşı karşıya getirir. Bu bağımsız karşıtlık, aynı dalın F005 hafife alma fasetini odaktaki ilahî kolaylık alanından sınırlar.",
+      "reader_payoff": "Okur, Rab için kolay denilen işi değersiz veya önemsiz sayan insanî bir yargıyla karıştırmadan, kolaylığın fail ve bağlama göre değişen yönünü görebilir.",
+      "containment": "24:15'teki insanî küçümsemenin 19:9'da bulunduğu söylenmez; bağlantı yalnızca aynı kolaylık dalının iki farklı değer yönünü karşılaştırır. Hedef morfolojisi verilmediği için sonuç exact yüzey ve bağlantı notuyla sınırlıdır.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": [],
+        "reason": "Aynı kelime alanını gösteren exact hedef yüzeyi ve connection kaydı mevcut; bağlantının prior label'ı trust hükmü sayılmadığı ve hedef morfolojisi sağlanmadığı için qualified."
+      },
+      "support_ids": [],
+      "branch_activations": [
+        {
+          "branch_ref": "root_001608/B002",
+          "facet_id": "F005",
+          "branch_gloss": "kolay ve hafif olma",
+          "facet_statement": "Bir şeyin ciddiyetini düşük görerek onu hafife alma ya da önemsiz sayma değerlendirmesi de bulunur.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["19:9:7:1"],
+          "trigger_refs": ["24:15"],
+          "focus_return_refs": ["19:9:7:1"],
+          "carrier": "19:9:7:1'deki هَيِّنٌ, Rabbin 'benim için' kapsamı içinde olumlu kolaylık taşıyıcısıdır.",
+          "independent_trigger": "24:15'in sağlanan yüzeyinde insanların bir şeyi hafif sayması ile onun Allah katında büyük oluşunun karşılaştırılması.",
+          "activation": "İnsanî hafife alma örneği, aynı dalın F005 değer yönünü bağımsızca görünür kılar ve 19:9'daki ilahî kolaylık için sınır oluşturur.",
+          "resulting_reading": "19:9'daki kolaylık, bir şeyi önemsizleştirmek değil, ilahî fail açısından zorlayıcılık taşımayan bir oluşu bildirmektir.",
+          "boundary": "F005 odak cümlesinin yerel anlamı olarak seçilmez; yalnızca 24:15'in karşıt kullanımıyla ilahî kolaylığın sınırı gösterilir."
+        }
+      ],
+      "connection_refs": ["conn_425265b5ae448a51f109"],
+      "context_refs": ["24:15"],
+      "semantic_obligation_refs": []
+    }
+  ],
+  "friction_notes": [
+    "Sekiz legacy_unbound HFT özetinde anchor_refs, branch_refs ve exact HFT anchor evidence yok; bu yüzden payload'lar görünür aday girdileri olarak incelendi fakat exact context ayeti, kelime indisi, kök, atfedilmiş rol ve focus return şartını karşılamadıkları için retained finding olmadı.",
+    "Connection kayıtlarının hedef ayet Arapçası sağlanıyor, fakat hedef morfolojisi sağlanmıyor. Connection-only bulgular bu nedenle qualified ve yalnız exact yüzey ile packet notlarına dayanıyor.",
+    "Connection prior_label değerleri retrieval/discovery etiketleridir; trust veya doğruluk sıralaması olarak kullanılmadı. Zayıf ve orta etiketli fakat bağımsız mekanizma kuran bağlantılar korunurken, sırf mevcut oldukları için başka dallar etkinleştirilmedi.",
+    "Focus word alignment 17/17 çözülmüş durumda. Paket, özellikle 19:4 gibi HFT özetlerinde anılan bazı bağlam ayetleri için anchor evidence sağlamadığından, bu ayetler retained findings içinde kullanılmadı."
+  ]
+}

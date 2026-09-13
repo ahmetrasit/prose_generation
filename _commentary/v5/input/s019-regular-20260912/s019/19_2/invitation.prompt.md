@@ -1,0 +1,191 @@
+# V5 reading invitation — 19:2
+
+You are a fresh reading-invitation writer. Read the complete editorial prose
+before writing. It is your sole semantic source.
+
+Write two to four paragraphs of fluent, contemporary Turkish that reveal a
+surprising reading by following one or two main channels of resonance in the
+ayah. A channel is a connected background of meanings, images, actions, or
+relations through which the ayah can be heard and understood differently.
+Several editorial findings may together develop one channel. Summarize that
+connected movement and its consequence for the ayah's main meaning, rather
+than compressing findings individually. Give the reading's substance now;
+the invitation comes from understanding it, not from a promise of hidden depth.
+
+Before drafting, read the entire editorial prose and silently select the one
+or two channels with the strongest interpretive consequence and enough
+grounding to explain clearly. Favor channels that expand or shift what the
+ayah says, the relation it establishes, or what is at stake in its action or
+image. One fully developed channel is sufficient; add a second only when it
+offers a distinct consequential reading that can be explained within the
+invitation. No finding, channel, or major shift has an individual coverage
+claim. Unselected material may remain entirely in the full commentary.
+
+A channel may develop through grammar, sound, dialogue, a material process,
+time, imagery, or a conceptual relation. Resonance is not limited to acoustic
+effects, and an unusual image alone does not establish a channel. Use only
+connections the editorial prose actually develops. If it supplies no such
+channel, explain its strongest grounded reading without inventing connections
+or surprise.
+
+Begin inside the ayah's own words, images, actions, or relations and reveal a
+selected distinctive reading in the first paragraph. Keep the plain meaning
+reachable with only the orientation needed to understand the change. Do not
+spend an opening paragraph on routine explanation or front-load context about
+the surah, the ayah's position, or the commentary project.
+
+For each selected channel, begin with the expression that opens it, unfold the
+connected background, and show how the ayah reads or sounds against that
+background. Let a detail lead into the next through an intelligible relation
+or process, so the reader experiences the emerging reading. This is a movement
+of thought, not a mandatory sentence pattern or one paragraph per finding.
+Let the reader identify the expression being interpreted,
+where any nonordinary detail comes from, and what that detail changes in the
+reading. Briefly identify the word-family use, restricted form, collocation, or
+context that supplies an essential added detail, and preserve the concrete
+operation that makes the image work. Keep the ordinary reading and necessary
+qualification clear within this explanation; do not repeat them as a fixed
+formula. Preserve the particular object, process, or relation that makes this
+reading distinctive, and state its interpretive consequence for the ayah as a
+whole. Make intelligible what the familiar reading leaves less visible and
+what the expanded or shifted reading now lets the reader understand. Preserve
+the editorial's force: an exploratory possibility remains possible, while a
+developed shift must not be softened into a decorative association or a
+reassurance that everything means the same thing. A concrete
+account of how something is carried, transformed, lost, or restored must not
+shrink to a general statement about care, guidance, dependence, or goodness.
+Keep the details needed to make the selected channel work; omit side findings
+and shorten routine setup. If a channel cannot be explained faithfully from
+the editorial prose, choose another grounded channel or reading.
+
+When a non-focus ayah supplies a contribution used in the invitation, keep its
+reference from the editorial prose beside that contribution.
+
+Do not turn the invitation into a miniature inventory of the commentary's
+conclusions, or flatten distinct channels into a broad theme to include more
+material. Do not repair, extend, or supplement the editorial prose from memory
+or outside knowledge.
+
+Omit technical apparatus. Retain any qualification, source distinction, live
+alternative, or boundary whose absence would change the force or meaning of a
+chosen reading. Express it naturally beside the image or relation it qualifies.
+Favor positive explanations of the relation between layers: what remains in
+the foreground and what the resonance makes audible in the background. State
+how that background reinforces, expands, or shifts the understanding of the
+main meaning, with the source and degree of certainty clear. Reserve explicit
+exclusions for concrete ambiguities or live counter-evidence that need them.
+Repeated "this is not X" endings make a reading sound withdrawn; express the
+substantive qualification through what the reading does contribute wherever
+possible. Use varied, natural language rather than a repeated "second layer"
+formula, and preserve the force of expansions and shifts.
+Do not name branches, candidates, findings, scopes, evidence categories,
+ledgers, or workflow stages, or label the prose as numbered channels. Do not
+list findings serially.
+
+Use the established `{ar:..., tr:..., gloss:...}` syntax, consistent
+Turkish-readable transliteration, and short ordinary glosses. Keep Arabic
+anchors beside the explanations they ground. Within a paragraph, continue with
+the Turkish meaning where clear; provide the necessary local tag when a later
+paragraph interprets the carrier anew. Do not place Arabic script outside a
+valid tag.
+
+Build transitions within a channel through its shared object, action, or
+relation. If two channels are selected, they may occupy separate paragraphs;
+do not invent a link between them. Do not praise the commentary's quality,
+promise what the reader will find, manufacture suspense, recap at the end, or
+add a call to action. End on an image, relation, action, or tension already
+established by the selected reading.
+
+Before finishing, compare the invitation with the entire editorial prose:
+does the chosen channel reveal a consequential reading, or could the text have
+been written from the ordinary translation and a modest explanation alone?
+When the editorial supports a surprising channel, the latter fails this task.
+Can the reader follow the opening expression into a connected background and
+understand how that background expands or shifts the ayah's main meaning?
+Check the selected connections against their editorial explanation: can the
+reader tell where the nonordinary details come from, with the necessary
+qualifications intact? Repair generic explanation, isolated curiosities, or a
+compressed findings list by developing the selected channel. Do not add
+omitted channels merely for coverage. Do not output this check.
+
+Write only the invitation text to:
+
+`_commentary/v5/editorial/s019-regular-20260912/s019/19_2/19_2.invitation.tr.md`
+
+Do not add a heading, wrapper label, index, ledger, evidence file, or any other
+artifact. Do not modify the editorial prose.
+
+After writing the invitation, run:
+
+```bash
+python3 _commentary/v5/validate_prose.py _commentary/v5/editorial/s019-regular-20260912/s019/19_2/19_2.invitation.tr.md
+```
+
+If validation fails, repair only the reported mechanical file-contract issues
+and rerun it, for at most two repair cycles. Report the final validator result
+in your response.
+
+<editorial_prose>
+Rabbinin kulu Zekeriya'ya merhametinin anılmasıdır. (19:1)'deki kesik harflerin ardından {ar:ذِكْرُ, tr:dhikru, gloss:anma} söze girer ve cümlenin sonunda {ar:زَكَرِيَّآ, tr:zakariyyā, gloss:Zekeriya} adı duyulur. Ses, açıkta duran bir başlıktan belirli bir kişiye doğru kapanır; merhamet ve onun ulaşacağı kul, ad daha söylenmeden hazırlanır. Bu halka, başlık ile kişiyi birbirine bağlayan yerel ses ve yapı etkisidir; bağlantının kapsamı bu ayetin ses ve yapısıyla sınırlıdır, yeni bir sözlük anlamı ya da sûrenin tamamına yayılan bir tekrar örgüsü kurmaz. Bununla birlikte {ar:ذِكْرُ, tr:dhikru, gloss:anma} bellekte tutmayı, birinin adını söz içinde görünür kılmayı ve iyi bir adla hatırlanmayı yakınlaştırır; isim cümlesi, merhametin sonunda adı bulunan bir kişiye sunulduğu anma kaydına dönüşür.
+
+Buradaki {ar:ذِكْرُ, tr:dhikru, gloss:anma}, birinin hatırladığı çekimli bir fiil olarak değil, nominatif masdar, yani anmanın kendisi olarak öne çıkar. {ar:رَحْمَتِ, tr:raḥmati, gloss:merhamet} ile tamlama kurar ve cümlenin hareketini ilerideki kul unsuruna taşır. Açıkça hatırlayan bir fail gösterilmeden anmanın kayda geçirilmesi bu biçimin gücüdür. Peygamberi anma girişi de böyle kurulur: önce {ar:عَبْدَهُ, tr:ʿabdahu, gloss:O'nun kulu} diye ilişki içindeki kul, sonra {ar:زَكَرِيَّآ, tr:zakariyyā, gloss:Zekeriya} diye o kulun adı gelir. Bazı okuma varyantları açılışı belirgin bir işe veya buyruğa yaklaştırır; bu karşı basınç, temel biçimin hatırlayan bir kişi göstermeden anmayı nasıl sunduğunu ve başlangıçtaki sükûneti daha görünür kılar. Böylece varyant, nominal okumanın kendi başına yaptığı işi belirginleştirir ve temel okuma yerinde kalır.
+
+Merhamet unsurunun mansup okunabildiği karşı okumada {ar:رَحْمَتِ, tr:raḥmati, gloss:merhamet} fiilin nesnesi gibi öne çıkabilir. Mevcut okuyuşta onun mecrur oluşu, {ar:ذِكْرُ, tr:dhikru, gloss:anma} ile kurduğu tamlama bağını ve ardından {ar:رَبِّكَ, tr:rabbika, gloss:Rabbin} sözüne açılan ilişkiyi gösterir. {ar:رَحْمَتِ, tr:raḥmati, gloss:merhamet} bir yandan anmanın içeriğidir, bir yandan da {ar:رَبِّكَ, tr:rabbika, gloss:Rabbin}i yöneten tamlama başıdır; cümlenin ortasındaki menteşe budur. Merhamet burada anmayı kaynağına ve oradan kula bağlayan işleyen bir ilişkidir; şefkat, acıma, esirgeme ve iyilik yönü {ar:رَبِّكَ, tr:rabbika, gloss:Rabbin} kaynağı ile {ar:عَبْدَهُ, tr:ʿabdahu, gloss:O'nun kulu} alıcısı arasında çalışır. Okur böylece merhametin yalnız ne olduğunu değil, birine nasıl ulaştığını da görür.
+
+İlişkinin sırası bu hareketi derinleştirir. {ar:رَبِّكَ, tr:rabbika, gloss:Rabbin} önce gelir, {ar:عَبْدَهُ, tr:ʿabdahu, gloss:O'nun kulu} sonra; insan, sonradan eklenmiş bağımsız bir ad değil, kaynağı ve alıcısı önceden kurulmuş merhamet ilişkisinin içindeki kişi olarak belirir. {ar:رَبِّكَ, tr:rabbika, gloss:Rabbin} sahip ve yöneten kaynağı gösterirken, gözettiğini eksikten tamamlanmışa doğru yetiştiren Rab yönünü de taşır. Bu yön, merhameti hazır bir iyilikten kulu gözetip tamamlanmaya taşıyan bakıma doğru genişletir; ayetin bu bağlantısı, ayrıca anlatılmamış bir eğitim sahnesini veya sonraki gelişim ayrıntısını kendi üzerine almaz. Kelimenin içindeki -ka eki, kaynağı doğrudan hitabın içindeki "senin Rabbin"e bağlar. (19:1)'deki kesik başlangıçtan sonra bu ekin {ar:رَبِّكَ, tr:rabbika, gloss:Rabbin} içinde duyulması, kulun adına ulaşmadan önce okuyucuyu ilişkisel bir sözün içine alır; ek burada muhataplık ve kaynak ilişkisini gösterir.
+
+{ar:عَبْدَهُ, tr:ʿabdahu, gloss:O'nun kulu} tamlama zincirinden çıkıp {ar:ذِكْرُ, tr:dhikru, gloss:anma} tarafından yönetilen mansup insan ucuna dönüşür. İlâhî kaynak ve merhamet sözünden sonra cümlenin somut bir kişiye vardığı yer burasıdır; ad henüz söylenmeden insan alıcı görünür. İçindeki -hu eki de ilişkiyi ad gelmeden kurar ve {ar:زَكَرِيَّآ, tr:zakariyyā, gloss:Zekeriya} bu önceden belirlenmiş kişiyi açıklar. Sınırlı karşı okumalarda ekin başka bir ilişkiyi veya kulun özneye ya da buyruğun alıcısına yakın rolünü öne çıkaran bir basınç duyulabilir. Bu karşılaştırmalar temel mansup ve anılan kişi işlevini daha görünür kılar; kul-kaynak sırası ile iyelik bağının yerel ilişkisel anlamı yerinde kalır, hukukî mülkiyet ise bu bağlantının kapsamına girmez.
+
+Kul sözü, merhametin insanda karşılık bulduğu yeri de gösterir. {ar:عَبْدَهُ, tr:ʿabdahu, gloss:O'nun kulu} nesneye benzeyen ucu korurken merhameti alan kişiyi somutlaştıran bir açıklama gibi duyulur. Kulluk alanı bağımlılığı Tanrı'ya yönelen tapınma ve kendini verme yönüyle renklendirir; bu ayet belirli bir ibadet fiilini anlatmadan kulun kişi statüsünü kurar. Bu statünün sınırı, ilişkisel kullukta kalır; hukukî kölelik bu bağlantının taşıdığı anlam değildir. Böylece kul, Rabbin merhameti altında adı konacak insanı ve Rabbine yönelen bağımlı ilişkiyi birlikte taşır.
+
+{ar:زَكَرِيَّآ, tr:zakariyyā, gloss:Zekeriya} önceki kul ifadesini açıklayan appozisyon olarak cümleyi tek bir kişide toplar. Ayet ada başlamak yerine ilişki içinden ada ulaşır; adın verdiği şey ayrıntılı biyografi değil, Rab-kul bağı içinde tanıtılmış insanın somut karşılığıdır. Zekeriya yabancı bir özel ad olarak kendi yapısını korur; sağlanan ad tarihi, onun Tanrı'nın hatırlamasıyla ilgili kökenini açılıştaki {ar:ذِكْرُ, tr:dhikru, gloss:anma} ile sınırlı bir yankıda buluşturur. Bu yankı ad tarihine ve ayet içindeki karşılığa aittir; Zekeriya adı Arapçada {ar:ذِكْرُ, tr:dhikru, gloss:anma} kelimesinden türemiş bir biçim olarak kurulmaz. Adın uzun veya daha keskin kapanan okuyuşları, önceki ilişkinin işitilen varışını değiştirir; adın kimliği ve appozisyon görevi aynı kalır.
+
+Bu hareketli okuma, {ar:ذِكْرُ, tr:dhikru, gloss:anma} kelimesindeki geçmişte kalmış ya da gözden uzaklaşmış olanı şimdi yeniden görünür kılma gücünü öne çıkarır. Son addaki {ar:زَكَرِيَّآ, tr:zakariyyā, gloss:Zekeriya} bu anmayı belirli bir kişiye bağlar; {ar:رَحْمَتِ, tr:raḥmati, gloss:merhamet}, {ar:رَبِّكَ, tr:rabbika, gloss:Rabbin} ve {ar:عَبْدَهُ, tr:ʿabdahu, gloss:O'nun kulu} aynı harekette merhameti, yetiştiren kaynağı ve kulluk ilişkisini tutar. Kısa ifade böylece basit bir başlıktan yaşayan bir hatırlama edimine açılır. Aynı {ar:ذِكْرُ, tr:dhikru, gloss:anma}, bir kişiyi dilde geçirip adını söyleme gücünü de {ar:زَكَرِيَّآ, tr:zakariyyā, gloss:Zekeriya} ile birleştirir; özel ad, sözle görünür kılınan belirli kişidir. {ar:رَبِّكَ, tr:rabbika, gloss:Rabbin}in eksikten tamamlanana doğru yetiştirme yönü {ar:رَحْمَتِ, tr:raḥmati, gloss:merhamet} ile buluştuğunda merhamet kulu gözeten bakım, {ar:رَحْمَتِ, tr:raḥmati, gloss:merhamet} de {ar:عَبْدَهُ, tr:ʿabdahu, gloss:O'nun kulu} ile buluştuğunda ilişkisel iyilik olarak görünür. Bu bağlantının katkısı anma, merhamet, Rab ve kul ilişkisini yaşayan bir hatırlama olarak açmaktır; açık bir fail ya da olayın bütün ayrıntıları bu bağlantıya eklenmez.
+
+İçte tutan bakım imgesi, {ar:رَحْمَتِ, tr:raḥmati, gloss:merhamet} kelimesiyle aynı sözlük çevresindeki yakınlık, taşıma ve döl yatağı görüntülerini; {ar:رَبِّكَ, tr:rabbika, gloss:Rabbin}in büyütüp tamamlayan bakımını ve {ar:عَبْدَهُ, tr:ʿabdahu, gloss:O'nun kulu}ndaki bağımlı kişiyi aynı oluşum hattında buluşturur. Soyut lütuf, içinde tutan ve gelişmeye imkân veren bir bakım gibi hissedilir. {ar:رَبِّكَ, tr:rabbika, gloss:Rabbin}in besleyip yetiştiren yönü {ar:رَحْمَتِ, tr:raḥmati, gloss:merhamet} ile birleşince gözetilen varlığın eksikten tamamlanana doğru ilerlemesi görünür; {ar:عَبْدَهُ, tr:ʿabdahu, gloss:O'nun kulu}ndaki tapınma ve kendini verme yönü de bu bakım içinde biçimlenen bağımlı kulluk ilişkisini gösterir. Bu bağlantı organ adı ya da Zekeriya için biyolojik akrabalık bildirmez; ayrıca anlatılmış bir gelişim sahnesi, somut biyolojik beslenme veya gerçekleştirilmiş ibadet iddiası kurmaz.
+
+Anma, ad ve Rab-kul ilişkisi birlikte kalıcı ve onurlu bir hatırlanma ihtimali açar. {ar:ذِكْرُ, tr:dhikru, gloss:anma} kelimesindeki olumlu biçimde anılma ve iyi ün rengi, {ar:زَكَرِيَّآ, tr:zakariyyā, gloss:Zekeriya} adıyla buluşunca merhamet kaydı belirli kulun adını koruyan bir hatıraya dönüşür. Anma, başkasında unutulmuş bilgiyi yeniden hatırlatan bir araç gibi de çalışır; kısa ifade merhameti ve onu alan kişiyi sonraki dinleyenin önünde tutar. {ar:رَبِّكَ, tr:rabbika, gloss:Rabbin}in sahiplik, buyruk yetkisi ve düzenleme yönü {ar:عَبْدَهُ, tr:ʿabdahu, gloss:O'nun kulu} ile temas edince bu hatırlanma, Rabbin kulunu görünür kılan bir ilişki olarak duyulur. Bu bağlantı kalıcı hatırlanma ve saygınlık ihtimalini açar; sonraki bir şöhret, makam veya bütün alımlama tarihi için güvence taşımaz.
+
+## Gizli Sözden Sürekliliğe
+
+Bu anmanın sözle görünür kılma gücü, (19:3)'teki {ar:نَادَىٰ, tr:nādā, gloss:çağırdı}, {ar:نِدَاءً, tr:nidāʾan, gloss:çağrı} ve {ar:خَفِيًّا, tr:khafiyyan, gloss:gizlice} ile temas eder. Sesini yükselten çağrı ile gizlilik aynı sahnede bulunduğunda, merhamet gören kulun kırılganlık içindeki yakarışı daha sonra korunmuş ve kamusal bir anma gibi duyulabilir. Böylece başlıkta yalnız olay değil, mahrem bir adresin silinmeden duyulur hale gelişi de belirir. (19:3)'teki çağrı ve gizlilik, odak anmanın anlamına geçmiş bir mahremiyetin korunarak görünür olma yönünü ekler; sonraki erken sözlerin hepsinde aynı kişinin konuştuğu sonucu bu temastan çıkarılmaz.
+
+Yakın bağlamda merhamet, bir evin ve sorumluluğun devamını mümkün kılan bakım olarak görünür. {ar:رَبِّكَ, tr:rabbika, gloss:Rabbin}in eksikten tamamlanana doğru yetiştirme yönü, (19:5)'teki ardıl korkusu ve (19:6)'daki miras devriyle buluşur. {ar:ءَالِ يَعْقُوبَ, tr:āli yaʿqūb, gloss:Yakub'un ailesi ve bağlıları} aileyi, haneyi, bakmakla yükümlü olunanları ve kendisine dönülen bağlıları görünür kılar; sahne tek bir çocuktan daha geniş bir sorumluluk çevresine taşınır. {ar:وَلِيًّا, tr:waliyyan, gloss:veli ve sorumlu ardıl} işin başına geçip gözetme ve yönetme ihtiyacını, {ar:مَوَالِيَ, tr:mawāliya, gloss:ardıllar ve bağlılar} ise akrabalık, himaye ve bağlılık çevresini taşır. {ar:يَرِثُنِي, tr:yarithunī, gloss:benden miras alır} ve (19:6)'daki devam mirası malın, makamın ve sorumluluğun önceki taşıyandan varise geçişini getirir; aynı sahne bilgi, kitap veya erdemin yaşayan bir emanet olarak aktarılmasına da izin verir. {ar:فَهَبْ لِي, tr:fahab lī, gloss:bana bağışla} isteği, ardılı kazanılmış bir ücret değil, sorumluluk taşısa da değiş tokuşa indirgenemeyen bir bağış olarak duyurur. Bu bağlam, anılan merhameti hazırlanmış bir ev ve ardıllık sorumluluğu hattına açar; aile ve miras ayrıntıları {ar:رَبِّكَ, tr:rabbika, gloss:Rabbin} kelimesinin kendisi değil, onun yetiştirme yönünü görünür kılan bu bağın bağlamsal katkısıdır.
+
+Anma hattı bu ardıl üzerinden hafızanın aktarılmasına da uzanır. {ar:ذِكْرُ, tr:dhikru, gloss:anma} içindeki unutulmuş bilgiyi yeniden hatırlatma yönü, (19:5), (19:6) ve (19:7)'deki ardıl isteği, iki miras geçişi ve adlandırmayla somut bir taşıyıcı bulur. Birinin ardından gelen ve sorumluluğu üstlenen kişi, hatırlanan içeriğin ömrü aşarak sürmesini sağlar. {ar:يَرِثُنِي وَيَرِثُ, tr:yarithunī wa-yarithu, gloss:benden ve mirastan alır} bilgiyi, kitabı veya erdemi taşıyan bir aktarım sahnesi olarak; (19:7)'deki {ar:ٱسْمُهُۥ يَحْيَىٰ, tr:ismuhu Yaḥyā, gloss:adı Yahya'dır} ise bu aktarımın tanınabilir yeni kişisini verir. Aynı ayetteki {ar:سَمِيًّا, tr:samiyyan, gloss:adı benzeri olmayan} yeni ad ve iyi şöhret görüntüsünü açar. Böylece merhametin anılması kapanmış bir geçmiş değil, hizmeti sürdüren ve hatırayı taşıyan canlı bir emanet gibi duyulur: miras aktarımı içeriğin sürmesini, adlandırma ise taşıyıcının tanınmasını sağlar. Bu katkı, miras ve adlandırmayı {ar:ذِكْرُ, tr:dhikru, gloss:anma} kelimesinin doğrudan eş anlamları yapmaz; bunlar (19:5), (19:6) ve (19:7)'nin açtığı atfedilmiş taşıyıcılardır.
+
+Bu yakın çevrede merhamet, insanî oluşumun içine girip hayatı ilişkisel dünyaya taşıyan bakım olarak görünür. {ar:رَحْمَتِ, tr:raḥmati, gloss:merhamet}in taşıdığı içte tutup geliştiren oluşum görüntüsü, (19:5) ve (19:8)'de iki kez gelen {ar:عَاقِرًا, tr:ʿāqiran, gloss:kısır} ile (19:5)'teki bağış isteğine temas eder. Üretimin durmuş olduğu belirtilince sonraki hediye kapanmış bir alana verilen cevap gibi duyulur; merhamet kısırlığın kendisi değil, kapanan yerde açılan karşılıktır. Böylece cevap yalnızca anlık bir mucize değil, karşılanmaya hazır bir hayat gibi belirir. (19:15)'teki {ar:وُلِدَ, tr:wulida, gloss:doğdu} hayatı içte taşınan oluşumdan ilişkisel dünyaya geçirir; (19:12)'deki {ar:صَبِيًّا, tr:ṣabiyyan, gloss:çocukken} bu hayatın yeni doğmuş ya da çok küçük, bağımlı evresini taşır; (19:13)'teki {ar:حَنَانًا, tr:ḥanānan, gloss:şefkat} ise doğumdan sonra onu koruyan içten yakınlığı ekler.
+
+Bu hayat çizgisi, (19:13)'teki {ar:زَكَوٰةًۭ, tr:zakātan, gloss:artma ve arınma} ile büyüyüp artan ve temizlenip doğrulanmış karakteri; (19:14)'teki {ar:وَبَرًّۢا بِوَٰلِدَيْهِ, tr:wa-barran bi-wālidayhi, gloss:anne babasına iyilik} ile rahimden başlayan çizginin karşılıklı bakıma ulaşmasını gösterir. Oluşan hayat yalnızca bakım alan bir çocuk olarak kalmaz, sonunda anne babasına bağlı ve görevli iyilik gösteren bir özne olur. Böylece merhamet, bedensel oluşumdan ahlâkî bakıma uzanan sürdürülmüş bir iş gibi duyulur; bu bağlantı sonraki erdemleri rahim görüntüsünün doğrudan sözlük karşılığına dönüştürmez.
+
+Pastoral ayna, {ar:رَبِّكَ, tr:rabbika, gloss:Rabbin}in yeni başlayan ve taze olanı gözetme yönünü bağımlılık, bakım ve ayrılma ritmi olarak somutlaştırır. (19:11)'deki erken vakit canlılığın tazeliğini, (19:5) ve (19:8)'deki kısırlık üretim noktasındaki kesilmeyi, (19:15)'teki {ar:وُلِدَ, tr:wulida, gloss:doğdu} ise kesilmiş devamlılığın barınabilecek bir yavruya dönüşmesini taşır. Bu ayrıntılar bir araya geldiğinde oluşum, barınak ve sütle sürdürülen; annenin yavrusuna ve sığınağa çekildiği; bağlanma ve ayrılma evreleri olan bir yaşam döngüsü gibi hissedilir. (19:13)'teki {ar:حَنَانًا, tr:ḥanānan, gloss:şefkat} bu aynaya yalnız idareyi değil, yavruya doğru özlemli ve koruyucu yönelişi ekler. (19:15)'te art arda gelen gün eşikleri, genç olanın yetişkin sürüden ayrılmasına benzeyen olgunlaşma hareketini döngünün sonuna yerleştirir. Bu bağlantı insanları hayvanlarla özdeşleştirmez; katkısı bağımlılık, bakım ve sonunda serbest bırakılma ritmini görünür kılmakla sınırlıdır.
+
+Bu çizgi, bedenin zayıfladığı ve üretimin kapandığı yerde yeni bir hattın açılması olarak da okunabilir. (19:4)'teki {ar:وَهَنَ, tr:wahana, gloss:zayıfladı} taşıma gücünün kaybını, (19:5) ve (19:8)'deki {ar:عَاقِرًا, tr:ʿāqiran, gloss:kısır} iki ayrı kapanışı verir. {ar:فَهَبْ لِي, tr:fahab lī, gloss:bana bağışla}nın karşılıksızlığı, {ar:رَبِّكَ, tr:rabbika, gloss:Rabbin}in büyütüp tamamlayan yönüyle buluşunca yeni imkânın satın alınmadığını, özgürce açıldığını duyurur. (19:6)'daki miras, yeniden açılan hayatın doğumla kesilmediğini, önceki taşıyandan sonra da devam ettiğini gösterir. (19:9)'daki {ar:وَلَمْ تَكُ شَيْئًا, tr:wa-lam taku shayʾan, gloss:önceden bir şey değildin} varlıkta-olmama, {ar:خَلَقْتُكَ, tr:khalaqtuka, gloss:seni yarattım} ise yokluktan bilinebilir bir kişiye geçiş köprüsünü taşır. Bu hat, merhameti var olan seçenekler arasındaki sıradan bir iyilikten daha üretken bir imkân gibi duyurur; {ar:خَلَقْتُكَ, tr:khalaqtuka, gloss:seni yarattım} yaratma fiili bu bağlantıda üretici yankıyı açar, {ar:رَبِّكَ, tr:rabbika, gloss:Rabbin} kelimesi ise bu yankının doğrudan sözlük karşılığına dönüştürülmez.
+
+Anma ve oluşum hattı, konuşma kanalı kesildiğinde de sürer. (19:10)'daki {ar:أَلَّا تُكَلِّمَ ٱلنَّاسَ, tr:allā tukallima an-nās, gloss:insanlarla konuşmaman} sesli aktarımın kesildiği eşiği taşır. Ardından (19:11)'deki {ar:فَأَوْحَىٰٓ إِلَيْهِمْ, tr:fa-awḥā ilayhim, gloss:onlara işaret etti} ve {ar:أَن سَبِّحُوا۟, tr:an sabbiḥū, gloss:tesbih edin} ile içerik bedensel işarete ve ortak övgüye dağılır. İşaret ve tesbih bu bağlamda anmanın yeni taşıyıcılarını gösterir: hatırlanan merhamet tek bir ses kanalına bağlı kalmayıp bedende ve toplulukta taşınabilir. {ar:ذِكْرُ, tr:dhikru, gloss:anma} kelimesi burada işaret veya tesbih diye çevrilmez. Bu ayrım, sonraki işaret sahiplerini odak kul ile özdeşleştirmeden, sesin yokluğunda iletişimin nasıl sürdüğünü görünür kılar.
+
+Bu çizginin bir katkısı da merhametin bir karakter biçimi kurmasıdır. {ar:رَبِّكَ, tr:rabbika, gloss:Rabbin}in eksikten tamamlanmışa götüren süreci, {ar:عَبْدَهُ, tr:ʿabdahu, gloss:O'nun kulu}nun boyun eğen hizmetiyle ve (19:12), (19:13) ve (19:14)'teki güç, şefkat, arınma ve anne-babaya iyilik ayrıntılarıyla buluşur. (19:12)'deki {ar:بِقُوَّةٍۢ, tr:bi-quwwatin, gloss:güçle} kapasitenin toplanıp sağlamlaşmasını taşır; bu güç (19:13)'teki {ar:حَنَانًا, tr:ḥanānan, gloss:şefkat} ile koruyucu ve ilişkisel bir sınıra, (19:14)'teki {ar:وَبَرًّۢا بِوَٰلِدَيْهِ, tr:wa-barran bi-wālidayhi, gloss:anne babasına iyilik} ile görevli sadakate yönelir. Böylece kul kimliği edilgen zayıflık değil, egemenlik kurmadan hizmet eden disiplinli teslimiyet olarak duyulur. (19:14)'teki {ar:جَبَّارًا, tr:jabbāran, gloss:zorbaca hükmeden} olumsuzlaması, oluşan gücün zorlayıcı egemenliğe dönüşmediğini; aynı ayetteki {ar:عَصِيًّا, tr:ʿaṣiyyan, gloss:başkaldıran} olumsuzlaması ise hizmetin ilişkiden kopup görevden kaçmadığını sınırlar. Merhamet bu temaslarda gücü şefkatli, bağlı ve zorbalık dışı bir hizmete biçimlendirir.
+
+Merhamet tek bir müdahale anına da kapanmaz. (19:15)'teki {ar:سَلَٰمٌ, tr:salām, gloss:esenlik} güvenlik ve zarardan uzaklık şartını; aynı ayetteki doğum, üç ayrı {ar:يَوْمَ, tr:yawma, gloss:gün} kullanımı, {ar:يَمُوتُ, tr:yamūtu, gloss:ölür} ve {ar:يُبْعَثُ حَيًّا, tr:yubʿathu ḥayyan, gloss:diri kaldırılır} ise doğum, kayıp ve dönüş eşiklerini taşır. Bu unsurlar birlikte, merhametin hayatın açığa çıkışından ölüm sınırına ve yeniden diri kaldırılmaya kadar koruyucu bir zaman çevresi gibi duyulmasını sağlar. Üç gün kullanımı ayrılmış geçişleri tek bir süreklilikte bağlar; bu bağlantı sabit bir takvim iddiası kurmadan merhametin başlangıçta, kayıpta ve dönüşte eşikleri saran bir esenlik olarak görünmesini sağlar. Doğum, ölüm ve diri kaldırılma burada merhametin yerine geçen tanımlar değil, bu zaman çevresini görünür kılan eşiklerdir.
+
+## Anmanın Daha Geniş Hafızası
+
+(19:16), (19:41), (19:51), (19:54) ve (19:56)'da Meryem, İbrahim, Musa, İsmail ve İdris'in Kitap içinde art arda anılması, {ar:ذِكْرُ, tr:dhikru, gloss:sözle anma}yı yalnız zihinde tutmaktan çıkarıp kişiyi ve olayını söz içinde kamusal olarak koruyan bir kayıt gibi duyurur. Bu açık anma dizisi, Zekeriya'ya yönelen merhamet anmasının sonraki peygamber adlarını görünür kılan kalıcı bir hat olabileceğini düşündürür. Anma eyleminin sonucu olarak iyi ün ve övgü de renge katılır; sözle görünür kılma ile onun doğurabileceği toplumsal saygınlık birbirini açıklayan, fakat aynılaşmayan iki katmandır.
+
+{ar:رَحْمَتِ, tr:raḥmati, gloss:merhamet} yakın bağlamdaki olayın ötesine geçen bir bakım ilişkisiyle de duyulur. (18:65)'te bir kula Allah katından rahmet verilmesi ve (43:32)'de Rabbin rahmetinin insanların paylaştırdığı geçimden ayrı tutulması, merhameti soyut bir yumuşaklıktan kula ulaşan etkin gözetme ve iyiliğe taşır. {ar:عَبْدَهُ, tr:ʿabdahu, gloss:kulu}nun (19:93)'te yaratılmışların er-Rahman'a kulluğu ve (25:1)'de peygamberin "O'nun kulu" diye anılması, Zekeriya'nın adlandırılmasını ilâhî nispet içinde duyurur. Böylece birincil cümle aynı kalırken, merhamet Rabbin sahiplik ilişkisi içindeki adlandırılmış kuluna ulaşan ve onun hikâyesini koruyan iyilik olarak derinleşir. Bu bağlamdaki katkı, kul sözünü ilâhî aidiyet ve merhamet ilişkisini görünür kılan bir adlandırma olarak duyurmaktır; hukukî alım satım anlamı bu özel bağlantının kapsamında değildir.
+
+Aile sürekliliğine dair daha uzak temaslar, merhametin kapasite tükendiğinde hayatın devamını açabilen yönünü ve iyiliğin aile bağını taşıyabilmesini belirginleştirir. (3:38)'de Zekeriya'nın nesil dileği, (21:89) ve (21:90)'da yalnızlık korkusundan Yahya'nın bağışlanmasına ve eşin düzelmesine uzanan cevap, (25:54)'te nesep ve sıhriyetin anılması; merhameti yakın ve kalıcı soy bağına değen bir bakım olarak renklendirir. (3:40)'taki yaşlılık ve kısırlık engeli de aynı taşıyıcıyla temas ettiğinde oluşum alanının kapanıp yeniden açılması imgesi belirir. Bu uzak bağlantı, {ar:رَحْمَتِ, tr:raḥmati, gloss:merhamet} kelimesini doğrudan akrabalık veya döl yatağı diye çevirmeden, iyiliğin aile bağını ve hayatın sürmesini taşıyabildiğini gösterir; aile ve üretim görüntüsü birincil merhamet anlamına eklenen nitelikli araştırıcı katman olarak kalır.
+
+{ar:رَبِّكَ, tr:rabbika, gloss:Rabbin} kelimesi yalnız merhametin geldiği kaynağı değil, sahiplik ve düzen kuran yetkeyi de işaret eder. (3:38)'de duanın yöneldiği Rab, (19:65)'te göklerin ve yerin Rabbi, (43:32)'de insanların paylaştırdığı geçimden ayrı tutulan Rab rahmeti, aynı kaynağı farklı yüzlerden gösterir. (21:89) ve (21:90)'daki yalnızlık korkusundan bağışa ve düzelmeye uzanan cevap, Rab adındaki gözetip tamamlayan bakımın aile ve dua çizgisinde sonuç kazandığını görünür kılar. Bu bağlantı, "Rabbinin merhameti"ni sahibi ve düzenleyicisi belirli etkin bir bakım olarak açıklar; yerel tamlama bu okumada korunur, ayrıntılı bir kozmoloji kurmak ise bu bağlantının kapsamına girmez. {ar:عَبْدَهُ, tr:ʿabdahu, gloss:O'nun kulu} için (19:93) ve (25:1)'de açılan ilâhî aidiyet de kaynağa bağlı adlandırmayı kuvvetlendirir; kul adını yalnız bir ibadet fiili olarak okumak bu özel temasın kapsamı değildir.
+
+## Uzak Bir Belge, Açılan Bir Yol
+
+İhtiyatla açılan ilk uzak imgenin katkısı, merhamet anmasını hukukî bir sicilin ağırlığıyla duyurmaktır. {ar:ذِكْرُ, tr:dhikru, gloss:anılması} hakkı yazıyla kaydedip kanıtlayan belge ayrıntısıyla, {ar:رَبِّكَ, tr:rabbika, gloss:Rabbinin} bağlayıcı söz ve güvence yönüyle, {ar:عَبْدَهُ, tr:ʿabdahu, gloss:kulunu} da hukukî-sosyal olarak sahip olunan kişi görüntüsüyle temas eder. (19:6)'daki {ar:يَرِثُنِي وَيَرِثُ, tr:yarithunī wa-yarithu, gloss:benden ve mirastan alır} emanetin ilk taşıyandan sonrakine geçişini, (19:12)'deki {ar:كِتَٰبَ, tr:kitāba, gloss:kitabı} ise hüküm ve sorumluluğun bağlayıcı bir kayda dönüşmesini ekler. Bu ayrıntılar birlikte sıcak hatırlamayı kayıtlı bir emanet ve ardıllık dosyası gibi hissettirir; merhamet geçici bir iyilikten güvence altına alınmış sorumluluğa doğru ağırlaşır. Belgesel imge bu bağlantıda ayetin hukukî bir belge ilanı değil, bakım ve ardıllığı bağlayıcı bir güven olarak düşünmeye açılan uzak bir yankıdır; {ar:رَبِّكَ, tr:rabbika, gloss:Rabbinin} sözleşme, {ar:عَبْدَهُ, tr:ʿabdahu, gloss:kulunu} da mülkiyet diye çevrilmez.
+
+İkinci uzak imgenin katkısı, hizmeti sık geçişle düzleşen ve yürünebilir hale gelen bir yol olarak duyurmaktır. {ar:عَبْدَهُ, tr:ʿabdahu, gloss:kulunu}nun hizmet taşıyıcısı bu yol ayrıntısıyla, {ar:رَبِّكَ, tr:rabbika, gloss:Rabbinin}nin adım adım yetiştiren süreci ise yolun oluşumuyla; (19:5), (19:10) ve (19:12)'deki beden, söz ve güç tıkanmaları da bu geçişin engelleriyle buluşur. (19:5)'teki {ar:عَاقِرًا, tr:ʿāqiran, gloss:kısır} bedenin kesilmiş geçidini, (19:10)'daki {ar:أَلَّا تُكَلِّمَ ٱلنَّاسَ, tr:allā tukallima an-nās, gloss:insanlarla konuşmaman} iletişimde kapanmış geçidi, (19:12)'deki {ar:بِقُوَّةٍۢ, tr:bi-quwwatin, gloss:güçle} ise toplanmış kapasiteyi taşır. Bu ayrıntılar birlikte merhameti daha önce geçilemeyen yolu yürünebilir kılan disiplinli hizmet gücü gibi duyurur; beden, konuşma ve güç engelleri yolun engelsiz olmadığını gösterir. Bu özel analojide {ar:عَبْدَهُ, tr:ʿabdahu, gloss:kulunu} yol, {ar:رَبِّكَ, tr:rabbika, gloss:Rabbinin} de güç değildir; görünen şey, kul statüsünün güçlük içinden geçebilen bir hizmet kapasitesi kazanmasıdır.
+
+Fâtiha'dan gelen temaslar bu yerel bakım ve hizmet görüntüsünü başka bir ufka açar. (1:2)'deki {ar:رَبِّ ٱلْعَٰلَمِينَ, tr:rabbi al-ʿālamīn, gloss:âlemlerin Rabbi} ile {ar:رَبِّكَ, tr:rabbika, gloss:Rabbinin} sahip olup yönetme çekirdeğinde buluşur. Âlemler ölçeği, Zekeriya'nın merhamet sahnesini evrensel yönetimin kişisel bir örneği gibi duyurur; kişisel bakımın dar bir alana kapanmadığı hissedilir. (1:4)'teki {ar:مَٰلِكِ يَوْمِ ٱلدِّينِ, tr:māliki yawmi ad-dīn, gloss:hesap gününün sahibi} aynı çekirdeğe gün ve hesap ufkunu ekler. Merhamet böylece yalnız şefkatli yönetim değil, sorumluluğu ve cevabı bulunan bir yönetim olarak da işitilebilir. Bu iki temas, 19:2'yi bu bağlantı içinde hesap gününün yaşandığı bir sahneye genişletmez; kişisel ikinci şahıs bağını korur ve Fâtiha'nın tamamını yerel ardıllık sahnesinin yerine koymaz.
+
+(1:5)'teki {ar:إِيَّاكَ نَعْبُدُ, tr:iyyāka naʿbudu, gloss:yalnız Sana kulluk ederiz} ise {ar:عَبْدَهُ, tr:ʿabdahu, gloss:kulunu}ndaki boyun eğme, tapınma ve kendini bu yönelişe verme yönünü görünür kılar. Zekeriya'nın kul oluşu bu temasla yalnız bir adlandırma değil, Rabbe yönelen bir teslimiyet biçimi gibi hissedilir. Bu özel bağlantı, Fâtiha'daki çoğul konuşan odağı 19:2'deki tekil kula dönüştürmez ve 19:2'nin tamlamasını ibadet fiiline çevirmez. (1:6)'daki {ar:ٱهْدِنَا ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ, tr:ihdinā aṣ-ṣirāṭ al-mustaqīm, gloss:bizi dosdoğru yola ilet} ile (1:7)'deki {ar:غَيْرِ ٱلْمَغْضُوبِ عَلَيْهِمْ وَلَا ٱلضَّآلِّينَ, tr:ghayri al-maghḍūbi ʿalayhim wa-lā aḍ-ḍāllīn, gloss:öfkelenilenlerin ve sapanların yolu olmayan} ise hizmete hedef, rehberlik ve sapmadan sakınma sınırı verir. Böylece güçlük içinden yürünebilir hale gelen hizmet, doğru istikamete ihtiyaç duyan bir yol gibi duyulur; bu son görüntü analojiktir ve 19:2'nin kul sözünün yerel anlamını taşıyan merhamet ilişkisine eklenir.
+
+</editorial_prose>

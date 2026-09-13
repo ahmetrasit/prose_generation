@@ -1,0 +1,197 @@
+# V5 reading invitation — 12:4
+
+You are a fresh reading-invitation writer. Read the complete editorial prose
+before writing. It is your sole semantic source.
+
+Write two to four paragraphs of fluent, contemporary Turkish that reveal a
+surprising reading by following one or two main channels of resonance in the
+ayah. A channel is a connected background of meanings, images, actions, or
+relations through which the ayah can be heard and understood differently.
+Several editorial findings may together develop one channel. Summarize that
+connected movement and its consequence for the ayah's main meaning, rather
+than compressing findings individually. Give the reading's substance now;
+the invitation comes from understanding it, not from a promise of hidden depth.
+
+Before drafting, read the entire editorial prose and silently select the one
+or two channels with the strongest interpretive consequence and enough
+grounding to explain clearly. Favor channels that expand or shift what the
+ayah says, the relation it establishes, or what is at stake in its action or
+image. One fully developed channel is sufficient; add a second only when it
+offers a distinct consequential reading that can be explained within the
+invitation. No finding, channel, or major shift has an individual coverage
+claim. Unselected material may remain entirely in the full commentary.
+
+A channel may develop through grammar, sound, dialogue, a material process,
+time, imagery, or a conceptual relation. Resonance is not limited to acoustic
+effects, and an unusual image alone does not establish a channel. Use only
+connections the editorial prose actually develops. If it supplies no such
+channel, explain its strongest grounded reading without inventing connections
+or surprise.
+
+Begin inside the ayah's own words, images, actions, or relations and reveal a
+selected distinctive reading in the first paragraph. Keep the plain meaning
+reachable with only the orientation needed to understand the change. Do not
+spend an opening paragraph on routine explanation or front-load context about
+the surah, the ayah's position, or the commentary project.
+
+For each selected channel, begin with the expression that opens it, unfold the
+connected background, and show how the ayah reads or sounds against that
+background. Let a detail lead into the next through an intelligible relation
+or process, so the reader experiences the emerging reading. This is a movement
+of thought, not a mandatory sentence pattern or one paragraph per finding.
+Let the reader identify the expression being interpreted,
+where any nonordinary detail comes from, and what that detail changes in the
+reading. Briefly identify the word-family use, restricted form, collocation, or
+context that supplies an essential added detail, and preserve the concrete
+operation that makes the image work. Keep the ordinary reading and necessary
+qualification clear within this explanation; do not repeat them as a fixed
+formula. Preserve the particular object, process, or relation that makes this
+reading distinctive, and state its interpretive consequence for the ayah as a
+whole. Make intelligible what the familiar reading leaves less visible and
+what the expanded or shifted reading now lets the reader understand. Preserve
+the editorial's force: an exploratory possibility remains possible, while a
+developed shift must not be softened into a decorative association or a
+reassurance that everything means the same thing. A concrete
+account of how something is carried, transformed, lost, or restored must not
+shrink to a general statement about care, guidance, dependence, or goodness.
+Keep the details needed to make the selected channel work; omit side findings
+and shorten routine setup. If a channel cannot be explained faithfully from
+the editorial prose, choose another grounded channel or reading.
+
+When a non-focus ayah supplies a contribution used in the invitation, keep its
+reference from the editorial prose beside that contribution.
+
+Do not turn the invitation into a miniature inventory of the commentary's
+conclusions, or flatten distinct channels into a broad theme to include more
+material. Do not repair, extend, or supplement the editorial prose from memory
+or outside knowledge.
+
+Omit technical apparatus. Retain any qualification, source distinction, live
+alternative, or boundary whose absence would change the force or meaning of a
+chosen reading. Express it naturally beside the image or relation it qualifies.
+Favor positive explanations of the relation between layers: what remains in
+the foreground and what the resonance makes audible in the background. State
+how that background reinforces, expands, or shifts the understanding of the
+main meaning, with the source and degree of certainty clear. Reserve explicit
+exclusions for concrete ambiguities or live counter-evidence that need them.
+Repeated "this is not X" endings make a reading sound withdrawn; express the
+substantive qualification through what the reading does contribute wherever
+possible. Use varied, natural language rather than a repeated "second layer"
+formula, and preserve the force of expansions and shifts.
+Do not name branches, candidates, findings, scopes, evidence categories,
+ledgers, or workflow stages, or label the prose as numbered channels. Do not
+list findings serially.
+
+Use the established `{ar:..., tr:..., gloss:...}` syntax, consistent
+Turkish-readable transliteration, and short ordinary glosses. Keep Arabic
+anchors beside the explanations they ground. Within a paragraph, continue with
+the Turkish meaning where clear; provide the necessary local tag when a later
+paragraph interprets the carrier anew. Do not place Arabic script outside a
+valid tag.
+
+Build transitions within a channel through its shared object, action, or
+relation. If two channels are selected, they may occupy separate paragraphs;
+do not invent a link between them. Do not praise the commentary's quality,
+promise what the reader will find, manufacture suspense, recap at the end, or
+add a call to action. End on an image, relation, action, or tension already
+established by the selected reading.
+
+Before finishing, compare the invitation with the entire editorial prose:
+does the chosen channel reveal a consequential reading, or could the text have
+been written from the ordinary translation and a modest explanation alone?
+When the editorial supports a surprising channel, the latter fails this task.
+Can the reader follow the opening expression into a connected background and
+understand how that background expands or shifts the ayah's main meaning?
+Check the selected connections against their editorial explanation: can the
+reader tell where the nonordinary details come from, with the necessary
+qualifications intact? Repair generic explanation, isolated curiosities, or a
+compressed findings list by developing the selected channel. Do not add
+omitted channels merely for coverage. Do not output this check.
+
+Write only the invitation text to:
+
+`_commentary/v5/editorial/s012-p01-with-fatiha/s012/12_4/12_4.invitation.tr.md`
+
+Do not add a heading, wrapper label, index, ledger, evidence file, or any other
+artifact. Do not modify the editorial prose.
+
+After writing the invitation, run:
+
+```bash
+python3 _commentary/v5/validate_prose.py _commentary/v5/editorial/s012-p01-with-fatiha/s012/12_4/12_4.invitation.tr.md
+```
+
+If validation fails, repair only the reported mechanical file-contract issues
+and rerun it, for at most two repair cycles. Report the final validator result
+in your response.
+
+<editorial_prose>
+## Sözün İçeri Girdiği An
+
+Bu âyette Yusuf babasına seslenir ve gördüğü düşü anlatır: gökte on bir yıldız, güneş ve ay vardır; Yusuf onları kendisine yönelmiş secde edenler olarak görür. Rüya, sayılabilir bir gök topluluğunu ve Yusuf'a doğru ortaklaşan bir hareketi tek cümlede bir araya getirir.
+
+Konuşmayı önceki anlatının belirli bir anına yerleştiren {ar:إِذْ, tr:idh, gloss:o sırada} sözüyle sahne açılır. Ardından gelen {ar:قَالَ, tr:qāla, gloss:dedi}, rüyayı Yusuf'un içinde kalmış bir görüntü olmaktan çıkarıp sesli bir bildirimin içine taşır. {ar:يُوسُفُ, tr:yūsufu, gloss:Yusuf} adının özne olarak açıkça gelmesi, bu bildirimi anonim bir rüya tasviri değil, Yusuf'un kendi tanıklığı olarak çerçeveler. Âyet daha rüyanın içeriğine geçmeden onun hangi ana ve kimin ağzına ait olduğunu belirler.
+
+Bu sözün yönü de cümle kurulmadan önce belirlenir. {ar:لِ, tr:li, gloss:-e/-a} edatı sözü birine doğru çevirir; hemen arkasındaki {ar:أَبِيهِ, tr:abīhi, gloss:babasına} kelimesindeki iyelik, alıcının Yusuf'un kendi babası olduğunu gösterir. Sonra {ar:يَا, tr:yā, gloss:ey} çağrısı ve {ar:أَبَتِ, tr:abati, gloss:babacığım} hitabı, bu gramer yönelişini canlı bir yüz yüze seslenişe dönüştürür. Görüntü böylece adresi belirli bir güven konuşması içinde açılır: yakınlık ve muhataplık bu bağlantının katkısıdır; babanın tepkisi ise sonraki bağlama bırakılır.
+
+{ar:إِنِّى, tr:innī, gloss:şüphesiz ben} biçimi, rüya bildirimini Yusuf'un kendi üzerine aldığı tanıklık olarak sıkılaştırır. Hemen arkasındaki {ar:رَأَيْتُ, tr:raʾaytu, gloss:gördüm} fiili içeriği soyut bir haber halinde bırakmaz; Yusuf'un görme eylemiyle açar. Böylece cümlede hem “ben” diyen kişi hem de onun gördüğü şey aynı başlangıçta tutulur. {ar:يُوسُفُ, tr:yūsufu, gloss:Yusuf} adının ve {ar:أَبَتِ, tr:abati, gloss:babacığım} hitabının sesleri de özne ile muhatap arasındaki yakınlığı ritimde belirginleştirir; ses akışı bu yakınlığı duyurur, ayrı bir anlam kanıtı olarak kullanılmaz.
+
+Görülen şeyin miktarı, {ar:أَحَدَ, tr:aḥada, gloss:bir} ile {ar:عَشَرَ, tr:ʿashara, gloss:on} kelimelerinin birleşiminde açıkça kurulur. “Bir” tek tek birimleri korur, “on” onları belirli bir toplamda tamamlar. Ardından gelen {ar:كَوْكَبًا, tr:kawkaban, gloss:yıldız}, bu sayıyı belirsiz bir çokluğa değil sayılan yıldızlara bağlar. Sayı ile yıldız adının art arda gelişi, üyeleri tek tek duyururken miktarı da kapatır; bu üçlü dizinin sesi, saymadan gök cisimlerinin adlandırılmasına geçişi belirginleştirir.
+
+İlk {ar:وَ, tr:wa, gloss:ve}, yıldızların ardından güneşi aynı görülenler dizisine ekler. {ar:الشَّمْسَ, tr:eş-şems, gloss:güneşi} belirli ve büyük bir ışık olarak listeye girer; rüyanın göğü yalnızca yıldızlardan oluşan tek bir türün alanı değildir. İkinci {ar:وَ, tr:wa, gloss:ve} bu kez güneş ile ayı aynı dizide buluşturur. {ar:الْقَمَرَ, tr:el-kamer, gloss:ayı} da güneşin yanında ayrı bir belirli ışık olarak tutulur. Bağlaçlar listeyi koparmadan genişletir; güneş ve ayın sesleri sayılmış yıldızlardan iki tekil ışığa geçişi ritimde duyurur.
+
+İkinci görme ifadesi, bu listenin nasıl okunacağını değiştirir. {ar:رَأَيْتُهُمْ, tr:raʾaytuhum, gloss:onları gördüm}, önceki yıldız, güneş ve ay dizisini çoğul bir “onları” zamiriyle tek bir bakışta toplar. Hemen yanındaki {ar:لِى, tr:lī, gloss:bana}, ortak eylemin Yusuf'a yöneldiğini gösterir. Son söz olan {ar:سَاجِدِينَ, tr:sâcidîn, gloss:secde edenler}, listenin bütün üyelerini ortak bir hâl içinde adlandırır. Cümle nesnelerin sayılmasından onların kime doğru ve hangi durumda görüldüğüne ilerler.
+
+## Sayılan Göğün Kuruluşu
+
+İlk {ar:رَأَيْتُ, tr:raʾaytu, gloss:gördüm}, görüntüdeki nesneleri açar; {ar:رَأَيْتُهُمْ, tr:raʾaytuhum, gloss:onları gördüm} ise aynı nesneleri {ar:سَاجِدِينَ, tr:sâcidîn, gloss:secde edenler} hâlinde yakalar. Tekrar bu yüzden yalnızca sözü kuvvetlendiren bir yineleme değildir: dikkat, cisimlerin varlığından onların kurduğu ilişkiye döner. Bu tekrarın katkısı, {ar:قَالَ, tr:qāla, gloss:dedi} fiili ve {ar:أَبَتِ, tr:abati, gloss:babacığım} hitabı aracılığıyla görüntüyü güvenilen bir alıcıya ulaşan sesli tanıklık olarak açmaktır. Rüya uyku görüntüsü olarak kalır; paylaşılmış ve dinlenebilir bir bildirim oluşması bu görüntüye eklenir.
+
+On birin içindeki ayrı birimler son ortak hâlde kaybolmaz. {ar:أَحَدَ, tr:aḥada, gloss:bir} her yıldızı tek tek sayılabilir tutar, {ar:عَشَرَ, tr:ʿashara, gloss:on} toplam kuruluşunu tamamlar, {ar:كَوْكَبًا, tr:kawkaban, gloss:yıldız} bu birimleri gökteki yıldızlar olarak sahnede bırakır. {ar:الشَّمْسَ, tr:eş-şems, gloss:güneşi} ile {ar:الْقَمَرَ, tr:el-kamer, gloss:ayı} kendi tekilliklerini koruyarak bu çoğulluğa katılır. Bütün bu farklı ışıklar {ar:سَاجِدِينَ, tr:sâcidîn, gloss:secde edenler} kelimesinin çoğul hâlinde birleşince üç katkı art arda görünür: sayı birimleri ayırır, iki tekil ışık sahneyi genişletir, ortak hâl ise onları tek bir yöne karşılık veren toplulukta birleştirir. Bu birleşim göksel çoğulluğu Yusuf çevresinde ilişkili bir düzen olarak duyurur; cisimlere gerçek irade atfetmek ve onları tek tek aile üyelerine eşlemek bu bağlantının sınırıdır.
+
+Bu yönelişte hareket kadar muhatap da önemlidir. {ar:لِى, tr:lī, gloss:bana} ile {ar:سَاجِدِينَ, tr:sâcidîn, gloss:secde edenler} birlikteliği Yusuf'a doğru bir ilişki kurar. 41:37'de güneş ve ayın Allah'a secdesi, bu iki ışığı ilahî muhataba yönelen kozmik bir ilişki içinde yeniden gösterir; 22:18'de yıldızları da içine alan geniş secde sahnesi göksel çoğulluğu aynı soruya bağlar. 27:24'te güneşe yönelen karşıt ibadet sahnesi, muhatabın yönelişin anlamını değiştirdiğini görünür kılan karşı örnektir; 16:16 ise yıldızın yön bulmayı sağlayan bir işaret olabileceği yankısını ekler. Fâtıha'nın eklenen 1:5 ayetindeki {ar:إِيَّاكَ نَعْبُدُ, tr:iyyāka naʿbudu, gloss:yalnız Sana kulluk ederiz} sözü, aynı alçalma hareketini Allah'a yönelen açık kulluk olarak karşısına koyar. Bu ayetler dışarıdan gelen karşılaştırmalar olarak, âyetteki yönün muhatabından ayrı okunamayacağını aydınlatır. Odak cümlesinin düş sahnesi ve gök cisimlerinin göksel kimliği yerinde kalır; bu bağlantı rüyayı ibadet emrine çevirmeden ve gök cisimlerini kulluk eden varlıklara dönüştürmeden sürer.
+
+## Görüntünün Anlatıya Açılması
+
+Rüya, 12:1'deki işaret ve 12:3'teki anlatı çerçevesiyle birlikte düşünüldüğünde, kısa biçiminin içine ileride açılabilecek bir ilişkiyi sıkıştıran başlangıç görüntüsü gibi duyulur. {ar:إِذْ, tr:idh, gloss:o sırada} bu görüntüyü anlatının belirli anına yerleştirir; {ar:رَأَيْتُ, tr:raʾaytu, gloss:gördüm} ise onu Yusuf'un yaşadığı özel düş olarak tutar. 12:1 ve 12:3'ün katkısı, rüyayı izlenmeye değer bir anlatı başlangıcı olarak çerçevelemektir; sonraki olaylar görüntüde yan yana duran ilişkilerin bazı yönlerini görünür kılabilir. Görüntünün her ayrıntısı tek bir karşılığa bağlanmadan, özel düş niteliği korunur.
+
+Görüntünün söze dönüşmesi, anlatının ilk sonuç doğuran eşiğini kurar. 12:5'te rüyanın kardeşlere anlatılmaması istenir; böylece {ar:قَالَ, tr:qāla, gloss:dedi} ile açılan özel bildirim, karşı koyabilecek bir akrabalık ağına ulaştığında farklı bir risk taşır. Yusuf'un babasına yönelttiği rapor ve düş korunur, fakat görülenin kime ve nasıl ulaştırıldığı önem kazanır. 12:5'teki uyarının katkısı, özel görüntünün korunmuş bir muhataptan bir topluluğa taşınması ihtimaline sınır koymaktır; her sözün otomatik olarak olay doğurduğu genellemesi bu ilişkiye uygulanmaz. 113:5'te hasedin zarar verici yöne dönüşmesi, bu sosyal riski sınırlı bir karşılaştırmayla keskinleştirir. Baba hitabı böylece yakınlığı, doğru muhatapla buluşan görünür bir hakikati ve dolaşıma girme gerilimini aynı anda taşır.
+
+Aynı görüntü, 12:6'da seçilme, öğretme, bilgiye ulaşma, sonuçla tanınma, tamamlanma ve lütufla çevrilen bir öğrenme yolunun ilk malzemesi gibi açılır. {ar:أَبِيهِ, tr:abīhi, gloss:babasına} ve {ar:أَبَتِ, tr:abati, gloss:babacığım} içindeki baba ilişkisi bu öğrenmenin ilk insanî zemini olarak kalır; {ar:رَأَيْتُ, tr:raʾaytu, gloss:gördüm} ile emanet edilen görüntü, ilerideki raporlar ve sonuçlar üzerinden anlaşılabilecek bir başlangıç olur. 12:6'daki geri dönüş, baba soyuna yayılan sürekliliği ve henüz gerçekleşmemiş secde düzeninin tamamlanmaya açık yapısını da duyurur. Aynı ayetteki lütuf bu yolun olumlu sonuç ufkunu açar; bu bağ belirli bir maddî faydayı veya ayrıntıları tamamlanmış bir öğretim programını tanımlama iddiası taşımaz.
+
+12:5 paylaşmanın sınırını, 12:6 ise görüntünün daha sonra öğretim ve yorum yolunda tanınabileceği ufku verir. Böylece görme eylemi nötr bir tasvir olmaktan çıkar: görülenin kime açılacağı ve nasıl işleneceği üzerine bir karar alanı belirir. Yusuf'un rüyayı babasına söylemesi, iç görüntüyü dışarıya taşıyan adreslenmiş bir eylem olarak kalır. Gelecek açıklama ve yorumların yeri bu âyetin lafzına eklenmez; 12:5 ve 12:6, görüntünün işlenme biçimini aydınlatır.
+
+Bu adreslenmiş görüntünün aile ilişkisine açılan yankısı, 12:69'daki kardeşlik sahnesi ve 12:99'daki aile kavuşmasıyla yeniden duyulabilir. {ar:كَوْكَبًا, tr:kawkaban, gloss:yıldız}, {ar:الشَّمْسَ, tr:eş-şems, gloss:güneşi}, {ar:الْقَمَرَ, tr:el-kamer, gloss:ayı} ve {ar:سَاجِدِينَ, tr:sâcidîn, gloss:secde edenler} birlikte düşünüldüğünde, göksel çoğulluk Yusuf çevresinde kurulmuş bir ilişkiler biçimi olarak kalır. Ailevi katkı, kimlikleri tek tek eşleştirmek değil, farklı unsurların Yusuf'a dönük ortak bir düzende görünmesini sağlamaktır; yıldızların tek tek aile üyeleri sayılması bu bağlantının kapsamına girmez.
+
+## Toplanma ve Karşı Yönler
+
+On bir yıldızın tam sayısı, kardeşlerin Yusuf'a karşı toplu hareketiyle ihtiyatlı bir akrabalık yankısına açılabilir. 12:5'teki kardeşler, 12:8'deki kıskançlık ve 12:15'te Yusuf'a karşı ortaklaşa yürütülen iş, rüyadaki on bir birimin yanına insanî bir çoğulluk getirir. {ar:أَحَدَ, tr:aḥada, gloss:bir} ile {ar:عَشَرَ, tr:ʿashara, gloss:on} sayıyı korur; {ar:كَوْكَبًا, tr:kawkaban, gloss:yıldız} ise gök cismi olarak kalırken ortak amaçlı bir topluluk düşüncesine değebilir. Rüyadaki yıldızlar Yusuf'a doğru yönelmiş görünür, kardeşler ise ona karşı bir karar çevresinde toplanır. Bu karşılık, rüya topluluğu ile insanî çoğulluğu aynı ilişkisel düzlemde karşılaştırır; on bir yıldızın her biri bir kardeşe bağlanmaz, güneş ve ayın bu ihtiyatlı karşılıktaki rolleri açık bırakılır.
+
+{ar:سَاجِدِينَ, tr:sâcidîn, gloss:secde edenler} kelimesinin temelindeki bedenin öne eğilerek boyun eğmesi, 12:8 ve 12:9'daki dikkat ve sevgi çekişmesiyle karşılaştığında başka bir yön açar. Kardeşlerin kalplerinde yerleşmiş sevgiden dışlandıklarını düşünmeleri ve Yusuf'u babanın dikkat alanından çıkarmaya dönük planları, rüyadaki {ar:لِى, tr:lī, gloss:bana} yönelişiyle ters bir dikkat hareketi kurar. Secde hâli bedenin teslimiyetini korurken, bakışın aşağıda tutulduğu ve uzun süre bir noktada kaldığı bir imgeyi de çağırabilir: boşaltılmak istenen baba ilgisi, rüyada Yusuf'un çevresinde toplanmış görünür. Bu temas göğe gerçek gözler veya duygular yerleştirmez; bedensel secde ile aile içindeki sevgi rekabetini aynı sahnede birbirine değdirir.
+
+Yıldız kelimesinin topluluğun dağılması ve ayrılması yönünde açılabilen ayrı kullanımı, 12:15'teki insanî toplanmayla birleşince dağılma ile bir araya gelme gerilimini görünür kılar. Kardeşler tek bir iş üzerinde anlaşarak Yusuf'u saklamaya yönelir; rüyadaki yıldızlar ise güneş ve ayla birlikte {ar:سَاجِدِينَ, tr:sâcidîn, gloss:secde edenler} hâlinde tek bir yöne toplanır. Bu birlikteliklerin katkıları farklıdır: kardeşlerin toplanması gizlemeye, rüyadaki yıldızların güneş ve ayla birlikte ortak duruşu Yusuf'a yönelmeye hizmet eder. 12:15'teki gerçek toplantı ile rüyadaki ortak duruş bu nedenle karşılaştırılır; yıldızların saçılması bu rüya sahnesine eklenmez, iki topluluğun ortaklığı da amaçlarının aynı olduğu anlamına gelmez.
+
+Gök cisimlerinin Yusuf'a doğru eğildiği görüntünün yanında olay örgüsü Yusuf'u toprağa ve kuyuya doğru indirir. 12:9'daki toprağa yaklaşma ve 12:10'daki aşağı atılma, kuyu ve görünmez derinlik, rüyadaki yönelmiş eğilime maddî bir karşı iniş kurar. {ar:كَوْكَبًا, tr:kawkaban, gloss:yıldız} kelimesinin olağan yüksek gök anlamı ile kuyunun aşağıdaki derinliği aynı dikey söz dağarcığında karşılaşır. {ar:سَاجِدِينَ, tr:sâcidîn, gloss:secde edenler} biçiminin başı ve gövdeyi öne eğen beden yönü de bu temasa katılır. Bu bağlantının katkısı, gökteki eğilmeyi kuyuya inişin dikey karşılığıyla birlikte düşündürmektir; rüyadaki ortak duruş ile kuyuya zorla atılış, gönüllülükleri ve olay türleri ayrılarak birlikte düşünülür.
+
+12:15'te inişin içine yerleştirilen gizli bilgi, bu karşı inişe bir geri dönüş hattı ekler. Yusuf'un gökteki ışıkların dikkat merkezindeyken görülen konumu, olaylarda gözden uzaklaştırılan bedeniyle karşılaşır; sonra saklı olanın ileride anlatı ve anlam olarak geri dönmesi mümkün olur. Odak âyetteki {ar:قَالَ, tr:qāla, gloss:dedi} fiiliyle başlayan ilk bildirim, Yusuf'un ileride yeniden söz sahibi oluşuna değen bir başlangıç gibi duyulur. Bu bağlantının katkısı, yukarıdaki yöneliş ile aşağıdaki saklılık arasında geri çevrilebilir bir karşılık kurmaktır; kapsamı, âyetin sonraki sözlerini önceden söyleyen tamamlanmış bir kehanete uzanmaz.
+
+Kuyunun açtığı aynı derinlik, tekrarlanan görme için ayrı bir maddî taşıyıcı imgesine izin verir. 12:10'daki kuyu, aşağıda saklanan ve sonra geri alınabilecek bir biriktirme yeri gibi karşılık bulur. {ar:رَأَيْتُ, tr:raʾaytu, gloss:gördüm} fiilinin iki kez yinelenmesi, başkaları için su çekip getirme yönündeki ayrı bir kullanımla ve kuyudan bir şeyi veya su tulumunu ip ile hayvan aracılığıyla geri alma düzeniyle buluştuğunda, rüyanın gizli içeriği taşıyan bir kap gibi hissedilebilir. Burada kuyu, yönün karşılığına ek olarak saklanan içeriğin taşınması ve geri alınmasını görünür kılar: görüntü aşağıdaki sahneye taşınır ve oradan yeniden erişilebilir hale gelir. Bu maddî taşıyıcı resmi, “gördüm” karşılığının yerine geçen bir sözlük anlamı değil, 12:10'un tetiklediği keşifsel bir yankıdır; düşte gerçek su bulunduğu söylenmez. İp, tulum ve geri alma bu ayrı bağlantının somut ayrıntıları olarak kalır.
+
+Gizli olanın kuyuya ve geri alma hareketine değmesinden sonra, 12:16, 12:17 ve 12:18'de görünür kanıtın başka bir düzeni belirir. 12:16'daki ağlama, hesabı inandırıcı kılmak için sergilenen ilk duygu yüzeyi gibi görünür; 12:17'deki inanma beklentisi ayrı bir güven sınavı açar; 12:18'deki gömlek ve kan taşınabilir bir bedensel kanıt görünümü verir. {ar:رَأَيْتُ, tr:raʾaytu, gloss:gördüm} fiilinin gözle veya iç kavrayışla algılama yönü, bu sergilenen yüzeyle karşılaşınca rüyanın iç görüntüsünü görünüşe sonradan eklenen kanıt düzeninin karşısına yerleştirir. Bu bağlantının katkısı, içten görülen ile kamuya sergilenen kanıtın nasıl karşılaştığını göstermektir; 12:18'deki açık yalan, sonradan düzenlenmiş yüzeyin güvenilmezliğini görünür kılar. Bu bağlantı, bütün ağlamaları yapay veya bütün görünen kanıtları yanlış sayan genel bir hükme uzanmaz; kanın fiziksel varlığı, gömleğin maddîliği ve babanın ayırt etme sınırı korunur.
+
+## Işıkların Başka Gerilimleri
+
+{ar:الشَّمْسَ, tr:eş-şems, gloss:güneşi} kelimesinin olağan gök cismi anlamı korunurken, secde hâliyle 12:5'teki gizli düzen kurma karşılaşınca ihtiyatlı bir tersine dönüş de duyulabilir. Bu bağ, güneşin büyüklüğünü dirençten boyun eğmeye doğru aşağı getirilen bir güç olarak duyurur. Güneş adının ürküp kaçınan, durulmayan ve güçlük çıkaran insanî niteliklerle buluşan yönü bu hareketi kurar; belirli bir kişiye düşmanlık gösteren genişletilmiş ayrıntı da aynı bağ içinde kalır. Bu keşifsel bağlantının bağımsız tetikleyicisi 12:5'teki gizli manevradır; kapsamı, insan veya hayvan mizacını göğe taşımadan ve güneşi belirli bir kardeşle özdeşleştirmeden bu manevrayı odakta tutmaktır.
+
+{ar:الْقَمَرَ, tr:el-kamer, gloss:ayı} da sabit bir ikinci ışık olarak kalırken, görünüş ve bağlılık çevresindeki başka bir aile çekişmesine açılabilir. Ay kelimesinin değerin ortaya konduğu bir talih oyununda tarafların karşılıklı oynaması yönüne değen kullanımı, 12:5'teki gizli düzen ve 12:18'deki sahte görünen kanıtla buluşur. Gömlek, babanın inancını kazanmak için öne sürülen görünür bir jeton gibi, ayın bu olası yarış payının karşısına konur; koşulu olay hakkında yalan söyleyen giysi de sonucu taklit eden bir görünüş alanı açar. Böylece bu bağlantı, ayın rüyadaki bağlılığını görünür kanıtın yönünü belirlemeye çalışan bir aile yarışının ihtiyatlı yankısı olarak duyurur. Bu oyun ile sembol arasındaki ilişki bağlamsal bir ihtimaldir; ayın göksel anlamı, gömleğin maddîliği ve yalanın sınırı birlikte kalır.
+
+Yıldız, güneş ve ayın düzenlenmiş envanteri, başka bağlamlarda bu düzenin çözülme ihtimaliyle de karşılaştırılabilir. 82:2'de yıldızların saçılması, rüyadaki bir araya gelmiş yıldız topluluğuna dağılmış bir karşı görüntü verir; 75:9'da güneş ile ayın bir araya getirilmesi, alışılmış ayrılığı zorlayan başka bir kozmik kuruluş açar. Bu iki ayetin katkısı, rüyadaki göğü yalnızca sabit bir hiyerarşi olarak değil, düzenin korunması ile çözülmesi arasında gerilim taşıyan bir sahne olarak duyurmaktır. Bu karşılaştırma ailevi yöneliş ve ortak secde okumasının yanına eklenir; kapsamı kıyamet yorumu veya rüyanın bozulacağı kehanetine genişletilmez.
+
+On birin bir ve on bileşimi, 7:160'ta kendi yerleriyle anılan on iki ayrı toplulukla karşılaştırıldığında sayının iki düzeyini birlikte görünür kılar: ayrı ayrı sayılan birimler ve ortak bir kuruluş. {ar:أَحَدَ, tr:aḥada, gloss:bir} birimlerin toplam içinde kaybolmamasını, {ar:عَشَرَ, tr:ʿashara, gloss:on} ise bu birimlerin sayılı bir toplulukta düzenlenmesini taşır. Bu, on bir yıldızı belirsiz bir kalabalık olmaktan çıkarıp ortak düzen içindeki sayılabilir üyeler olarak izlemeye izin verir. 7:160'taki on iki grup, bu biçimsel yankı içinde on biri on iki kabileye veya belirli bir kaynağa eşlemez; hedef biçimlerin ayrıntıları farklı olduğu için karşılaştırma sınırlı ve keşif düzeyinde kalır.
+
+## Sonradan Tanınan Görüntü
+
+Tekrarlanan görme, başlangıçtaki görüntünün ileride tanınan bir gerçekleşmeye açık kalmasını sağlar. {ar:رَأَيْتُ, tr:raʾaytu, gloss:gördüm} ile {ar:رَأَيْتُهُمْ, tr:raʾaytuhum, gloss:onları gördüm} aynı görme hareketini önce listeyi, sonra o listenin yönelmiş hâlini gösterecek biçimde iki kez kurar. 12:100'de rüyanın tevili olarak adlandırılan aile sahnesi bu tekrarı geriye doğru bağlar: başlangıçta görülen düzen, ilerleyen anlatıda biçim değiştirerek tanınır. Bu bağ rüyayı sıradan uyanık algıya indirgemez; görme fiilinin düş anlamını koruyarak başlangıç ile sonradan tanınan gerçekleşme arasında bir hat açar, fakat sonradan gerçekleşen sahnenin bütün ayrıntıları bu cümleye zorunlu olarak geri taşınmaz.
+
+12:100'de taht çevresindeki aile kavuşması sırasında ortaya çıkan secde, önceki göksel düzenin sosyal bir sahnede gerçekleşmiş biçimi olarak adlandırılır. {ar:سَاجِدِينَ, tr:sâcidîn, gloss:secde edenler} kelimesinin ortak yönelişi burada ailevi tanınma ve onur görünümüne bağlanır; rüyadaki yıldız, güneş ve ayın bütün sembolik ayrıntıları tek tek çözülmeden, rüya ile ailevi secde arasındaki anlatısal karşılık görünür hale gelir. Yusuf'un babasına açtığı görüntü, belirsiz bir önseziye indirgenmeden, paylaşılmış, sınanmış, saklılıktan geçmiş ve 12:100'de aile sahnesi içinde biçim değiştirerek tanınan bir düzen olarak tamamlanır.
+
+</editorial_prose>

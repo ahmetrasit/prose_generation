@@ -1,0 +1,268 @@
+{
+  "schema_version": "commentary-v5-scope-discovery-v1",
+  "ayah_ref": "19:48",
+  "lane": "global",
+  "coverage_complete": true,
+  "candidate_decisions": [
+    {
+      "candidate_id": "cand_0f6b237fed5cd0d0d172",
+      "decision": "accept",
+      "reason": "Güvenilir cross-run yayını, odaktaki uzaklaşma ve çağrı yüzeylerini dört aday dalıyla birlikte ilişkilendiriyor. Her dal için packet içindeki bir çekirdek facet, geçerli bir odak taşıyıcısı ve bağımsız bir bağlantı tetikleyicisi bulunuyor; bu nedenle aday bütünü korunarak tek bir küresel bulgu altında tutuldu.",
+      "finding_refs": [
+        "global:withdrawal-to-directed-invocation"
+      ],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_6bfe75469319688b294c",
+      "decision": "reject",
+      "reason": "Bu legacy_unbound HFT kaydının destek kaydında anchor_evidence, dal, ayet koordinatı veya odağa dönen exact trace yok. 'Geri çekilmenin misillemesiz sınır olması' iddiası için packet içinde taşıyıcı, bağımsız tetikleyici ve değişmiş okuma kurulamadığından kayıt görünür tutuldu fakat aktifleştirilmedi.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_52b38f7b5dbb95b983bb",
+      "decision": "reject",
+      "reason": "Bu legacy_unbound HFT kaydı 19:49'daki armağan ve merhamet iddiasını anchor_evidence veya odağa dönen exact trace ile bağlamıyor. Packet'te taşıyıcı, bağımsız tetikleyici ve değişmiş okuma kurulamadığı için kayıt aktifleştirilmedi.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_5a4fdf797de42530dc52",
+      "decision": "reject",
+      "reason": "Bu legacy_unbound HFT kaydı sonraki yakınlık ve gizli konuşma iddiasını hiçbir anchor_evidence, dal veya odağa dönen exact trace ile desteklemiyor. Genişletilmiş yakınlık okuması packet sınırında doğrulanamadığı için aktifleştirilmedi.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_849b5b372b9276817fda",
+      "decision": "reject",
+      "reason": "Bu legacy_unbound HFT kaydı üç د ع و görünümünü bağlayan bir sentez sunuyor, ancak destek kaydında anchor_evidence ve exact focus-return trace bulunmuyor. Tek tek odak taşıyıcıları packet'te bulunsa da bu HFT iddiasının kendi bağımsız tetikleyicisi ve değişmiş okuması kurulamadı.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_75de61ab8922b33dadbf",
+      "decision": "reject",
+      "reason": "Bu legacy_unbound HFT kaydı uzaklaşmadan armağanlara uzanan telafi okunu kendisi de reader-supplied olarak niteler ve anchor_evidence sunmaz. Packet yalnızca gerekli ayet sınırını ve bağlantı adaylarını sağladığından nedensel değişim kurulamadı; kayıt aktifleştirilmedi.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_6a07a00a7b5826e4b7e5",
+      "decision": "reject",
+      "reason": "Bu legacy_unbound HFT kaydı Musa'nın yakınlık örüntüsünü analogical olarak sunuyor, fakat kaynak ayet, taşıyıcı koordinatı ve odağa dönen exact trace sağlamıyor. Analogik yakınlık packet içinde bağımsız tetikleyici olarak doğrulanamadığı için aktifleştirilmedi.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_e8ce346f1cfce96a3f76",
+      "decision": "reject",
+      "reason": "Bu legacy_unbound HFT kaydı silahsızlık ve süt emme imgelerini biçimden uzak dallara bağlar, ancak destek kaydında exact taşıyıcı, bağımsız tetikleyici, branch ref veya focus-return trace yok. Bu nedenle packet sınırında aktifleştirilemedi.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    }
+  ],
+  "findings": [
+    {
+      "finding_ref": "global:withdrawal-to-directed-invocation",
+      "origin_candidate_id": "cand_0f6b237fed5cd0d0d172",
+      "represented_candidate_ids": [],
+      "title": "Uzaklaşmanın çağrı yönünü değiştirmesi",
+      "claim": "Ayrılma, burada ilişkiyi boşaltan bir geri çekilme olarak kalmaz; başkalarının yönelttiği çağrı ve ileri sürdüğü yakınlık alanından çıkıp Rabbe yönelen yeni bir hitap sınırı kurar.",
+      "mechanism": "19:48'deki kendiliğinden uzaklaşma fiili, üç çağrı biçimindeki yöneltme çekirdeği ve son durum sözcüğündeki güçlük basıncı, 18:16, 40:66, 10:66 ve 16:110 bağlantılarının ayrı temaslarıyla birleşir. Dışarıdaki örnekler ayrılmayı ibadet nesnelerinden kopuş, ortaklık iddiasının reddi ve sıkıntı altında sürdürülen yön değişimi olarak odağa geri döndürür.",
+      "reader_payoff": "Okur, ayetin fiziksel mesafe bildiren ilk hareketinin hemen ardından gelen çağrı fiillerini ilişkilerin hedefini ayıklayan bir dönüş olarak görür; son dilek de bu dönüşün bedbahtlık ve güçlük içinde kaybolmama umudunu taşır.",
+      "containment": "Bu okuma ayetin açık anlamını değiştirmez: İbrahim kavminden ve onların Allah dışındaki çağrılarından uzaklaşır, Rabbine çağrıda bulunur ve bedbaht olmamayı umar. İddia ve güçlük yüzleri, sırasıyla 10:66 ve 16:110 temaslarının açtığı sınırlı yankılardır; çağrının mutlaka karşılık bulduğu veya uzaklaşmanın kendiliğinden ödül doğurduğu söylenmez.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": [
+          "trusted"
+        ],
+        "reason": "Güvenilir cross-run yayını dört aday dalı açık yüzey bağlantılarıyla işaretler; bağlantı kayıtları bağımsız temas ve exact hedef Arapçası sağlar, ancak hedef ayetlerin morfolojik çözümlemesi packet içinde yoktur. Bu nedenle küresel yankı sınırlı ve nitelikli tutulmuştur."
+      },
+      "support_ids": [
+        "sup_c6a0a0d273d4c49725b5"
+      ],
+      "branch_activations": [
+        {
+          "branch_ref": "root_001009/B001",
+          "facet_id": "F002",
+          "branch_gloss": "ayırıp bir yana koyma veya uzak durma",
+          "facet_statement": "Bir kişi birinden, bir topluluktan veya sakınılan bir şeyden uzak durur.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "19:48:1:2"
+          ],
+          "trigger_refs": [
+            "conn_ev_04a6533fe8a92acf4247"
+          ],
+          "focus_return_refs": [
+            "19:48:1:2"
+          ],
+          "carrier": "أَعْتَزِلُكُمْ, topluluktan ve sakınılan şeyden bilinçli biçimde uzak durma eylemini taşır.",
+          "independent_trigger": "18:16'nın exact bağlantı kaydı, insanlardan ve onların kulluk ettiklerinden ayrılmayı mağaraya sığınma ile birlikte verir.",
+          "activation": "Aynı ayrılma hareketinin daha geniş bir peygamberî sahnede ibadet nesnelerinden uzaklaşarak yeni bir korunma ve yönelim sınırı kurması, 19:48'deki fiziksel ayrılığı ilişki düzenini yeniden belirleyen bir eylem olarak görünür kılar.",
+          "resulting_reading": "Uzaklaşma, yalnız mekânsal mesafe değil, yanlış bağlılık alanından çıkıp başka bir hitap yönü kurmaktır.",
+          "boundary": "18:16'nın anlatısı 19:48'in sonucu sayılmıyor; uzaklaşma da toplumdan her türlü kopuş diye genellenmiyor."
+        },
+        {
+          "branch_ref": "root_000478/B001",
+          "facet_id": "F001",
+          "branch_gloss": "seslenerek kendine yöneltme",
+          "facet_statement": "Ses ve söz, yöneltilen kişiyi ya da şeyi konuşana doğru çekmenin aracıdır.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "19:48:3:1",
+            "19:48:7:2",
+            "19:48:12:2"
+          ],
+          "trigger_refs": [
+            "conn_ev_041d223128e0d5a23524"
+          ],
+          "focus_return_refs": [
+            "19:48:3:1",
+            "19:48:7:2",
+            "19:48:12:2"
+          ],
+          "carrier": "تَدْعُونَ, أَدْعُوا۟ ve دُعَآءِ, üç ayrı biçimde çağrının ve yöneltilen hitabın yüzeyini taşır.",
+          "independent_trigger": "40:66'nın exact bağlantı kaydı, Allah dışında çağrılanlardan vazgeçme ile Rabbin âlemlerine teslim olmayı aynı karşıtlık içinde verir.",
+          "activation": "Dışarıdaki karşıtlık, focus'taki üç çağrı yüzeyine bağımsız bir hedef ayrımı getirir: seslenme yalnız bir ses üretimi değil, yanlış ve doğru muhataplar arasında yön değiştiren bir eylemdir.",
+          "resulting_reading": "Üç çağrı yüzeyi, sahte nesnelerin çağrısından Rabbe yönelen çağrıya geçişi görünür kılar.",
+          "boundary": "Bu temas çağrının mutlaka işitildiğini veya karşılık bulduğunu söylemez; ayetin doğrudan dua anlamı korunur."
+        },
+        {
+          "branch_ref": "root_000478/B002",
+          "facet_id": "F001",
+          "branch_gloss": "hak veya aidiyet ileri sürme",
+          "facet_statement": "Bir hak, kişinin kendisi ya da başka biri lehine ileri sürülür.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "19:48:3:1",
+            "19:48:7:2"
+          ],
+          "trigger_refs": [
+            "conn_ev_295a01dfd760a2621814"
+          ],
+          "focus_return_refs": [
+            "19:48:3:1",
+            "19:48:7:2"
+          ],
+          "carrier": "تَدْعُونَ ve أَدْعُوا۟, çağrının bir muhatap veya bağlılık ilişkisine yöneltilmesini taşıyan odak biçimleridir.",
+          "independent_trigger": "10:66'nın exact bağlantı kaydı, Allah dışında çağrılanları ortaklar olarak ileri süren bağlılığı zan ve varsayım alanına yerleştirir.",
+          "activation": "Odaktaki Allah dışındaki çağrı ifadesi, yalnız başka bir seslenişi değil, o çağrının taşıdığı ortaklık veya aidiyet iddiasını da hedefler; 10:66'daki ayrı iddia çerçevesi bu ilişkiyi odağa geri bağlar.",
+          "resulting_reading": "Ayrılma, başka çağrılara sırt çevirmekle birlikte onların taşıdığı sahte ortaklık ve aidiyet iddiasını bırakmaktır.",
+          "boundary": "Bu, د ع و kökünün her yerde hak veya soy iddiası demek değildir; yalnız 10:66 temasının odaktaki من دُونِ ٱللَّهِ ilişkisine açtığı facet olarak tutulur."
+        },
+        {
+          "branch_ref": "root_000808/B002",
+          "facet_id": "F001",
+          "branch_gloss": "güçlük çekme ve zorluğa dayanma",
+          "facet_statement": "Temel anlam, kolaylığın karşıtı olan güçlüğü çekmek ve zorluğa katlanmaktır.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "19:48:14:1"
+          ],
+          "trigger_refs": [
+            "conn_ev_a2b4fe7c064f6dbc43e5"
+          ],
+          "focus_return_refs": [
+            "19:48:14:1"
+          ],
+          "carrier": "شَقِيًّا, sonucun yalnız duygu değil, güçlük ve mahrumiyet altında kalma yönünü de taşıyabilecek bir durum adı olarak görünür.",
+          "independent_trigger": "16:110'un exact bağlantı kaydı, baskıdan sonra göç eden, mücadele eden ve sabredenlerin Rab tarafından bağışlanması temasını verir.",
+          "activation": "Sıkıntı ve dayanma teması, odaktaki uzaklaşma ile son dileği aynı hareket içinde buluşturur: Rabbe yöneliş, dış baskı altında seçilmiş bir ayrılmanın güçlükte tükenmemesi umuduyla birlikte okunur.",
+          "resulting_reading": "Rabbine çağrının umulan sonucu, sürdürülen ayrılığın yıkıcı mahrumiyet ve güçlükte kaybolmaması umudu olarak da duyulur.",
+          "boundary": "16:110'un göç ve sabır sahnesi 19:48'in anlatılmış olayı sayılmıyor; شَقِيًّا'nın yerel bedbahtlık ve ilişki değerlendirmesi de korunuyor."
+        }
+      ],
+      "connection_refs": [
+        "conn_5c55d312420b51d4be03",
+        "conn_4b41f42099fda67de9db",
+        "conn_ed4252c52916461c7dc4",
+        "conn_14925ce50e844dc2de9a"
+      ],
+      "context_refs": [
+        "18:16",
+        "40:66",
+        "10:66",
+        "16:110"
+      ],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:hopeful-invocation-as-guided-course",
+      "origin_candidate_id": null,
+      "represented_candidate_ids": [],
+      "title": "Umut cümlesinin yön bulma yankısı",
+      "claim": "عَسَى, doğrudan Rabbe yönelişi sonucu garanti etmeyen fakat rehberlik umudunu açık bırakan bir eylem olarak kurar.",
+      "mechanism": "19:48:9:1'deki umut sözü, 18:24'teki عَسَىٰٓ رَبِّي أَن يَهْدِيَنِى yapısıyla kurulan ayrı bağlantıda yeniden görünür. Aynı görev sözü, doğrudan Rabbe hitabı kesin hüküm değil, daha doğru bir yola yönelme beklentisi olarak geri döndürür.",
+      "reader_payoff": "Okur, 'umarım'ı belirsiz bir dolgu değil, ayrılma sonrasında yönün Rab tarafından daha doğru kılınmasını bekleyen bilinçli açıklık olarak duyar.",
+      "containment": "18:24, 19:48'in sonucunu garanti eden bir kehanet olarak kullanılmıyor; odaktaki insanî umut kipi korunuyor ve iki ayetin konuşanı ya da anlatı sonucu özdeşleştirilmiyor.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": [],
+        "reason": "Bağlantı kaydı 18:24'ün exact Arapçasını ve odak yönündeki paralellik notunu sağlar, ancak hedef tarafın morfolojik çözümlemesi veya ayrı bir güven etiketli destek kaydı yoktur. Bu nedenle bulgu nitelikli bir küresel yankı olarak tutulmuştur."
+      },
+      "support_ids": [],
+      "branch_activations": [
+        {
+          "branch_ref": "root_001015/B001",
+          "facet_id": "F001",
+          "branch_gloss": "yaklaşma, umut ve kaygılı beklenti bildiren; Tanrı bildirince özel kesinlik taşıyabilen görev sözü",
+          "facet_statement": "Gerçekleşmeye yaklaşma ile umutlu, bazen de kaygılı beklentiyi bildirir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "19:48:9:1"
+          ],
+          "trigger_refs": [
+            "conn_ev_dcb5021cbcbc37e801d9"
+          ],
+          "focus_return_refs": [
+            "19:48:9:1"
+          ],
+          "carrier": "عَسَىٰٓ, konuşanın sonucu garanti etmeyip umut ve beklenti açan görev sözüdür.",
+          "independent_trigger": "18:24'teki عَسَىٰٓ رَبِّي أَن يَهْدِيَنِى, Rabbin daha doğru yola yöneltmesini uman ayrı bir doğrudan hitap örneğidir.",
+          "activation": "Aynı umut kuruluşunun daha doğru bir yola yönelme temasıyla geri dönmesi, focus'taki duayı kesin sonuç bildirimi olmaktan çıkarmaz; fakat uzaklaşma sonrasındaki yön değişimini Rabbin rehberliğine açık bir beklenti olarak belirginleştirir.",
+          "resulting_reading": "Uzaklaşma sonrası dua, kesin hüküm değil, Rabbin yön verebileceğine açık kalan bir yön bulma umududur.",
+          "boundary": "18:24'teki rehberlik beklentisi 19:48'e doğrudan sonuç olarak taşınmıyor; عَسَى'nın insan sözündeki umut ve belirsizlik sınırı korunuyor."
+        }
+      ],
+      "connection_refs": [
+        "conn_a6f7de2dd5574674fe03"
+      ],
+      "context_refs": [
+        "18:24"
+      ],
+      "semantic_obligation_refs": []
+    }
+  ],
+  "friction_notes": [
+    "Yedi HFT kaydı legacy_unbound durumunda ve anchor_evidence kapsamı sıfır; exact koordinat, dal, rol ve focus-return trace bulunmadığından her biri ayrı ayrı reddedildi.",
+    "Bağlantı kayıtları hedef ayetin exact Arapçasını sağlıyor fakat hedef morfolojisini sağlamıyor; bu nedenle kabul edilen küresel bulgular grounded yerine qualified tutuldu.",
+    "16:110 temasının güçlük ve dayanma facet'i ile 10:66 temasının iddia ve aidiyet facet'i packet içindeki bağımsız bağlantılara dayanıyor, ancak bunlar 19:48'in yerel çağrı ve bedbahtlık anlamlarının yerine geçmiyor."
+  ]
+}

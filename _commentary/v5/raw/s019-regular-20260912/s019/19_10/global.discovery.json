@@ -1,0 +1,232 @@
+{
+  "schema_version": "commentary-v5-scope-discovery-v1",
+  "ayah_ref": "19:10",
+  "lane": "global",
+  "coverage_complete": true,
+  "candidate_decisions": [
+    {
+      "candidate_id": "cand_c8124dee84bd1e39bda4",
+      "decision": "accept",
+      "reason": "Guvenilir cross-run bulgusu, isaretin 19:10:5 ve 19:10:7'deki gorunen belirti yuzeyini, 19:10:9'daki insanlara yonelik anlasilir konusmayi ve 19:10:13'teki kendi icinde saglam olma durumunu tek bir secici ve sureli iletisim siniri olarak bagliyor. Uc aday dali da en az bir exact facet ile indi; specialization facetleri icin ilgili core facetler de korundu. 3:41 isaret ve konusma temasina, 53:6 ise saglamlik temasina bagimsiz wider trigger sagliyor; hicbir dal, facet, context veya semantik yukumluluk dislanmadi.",
+      "finding_refs": ["global:selective-speech-sign"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_89b264817fd7e351188b",
+      "decision": "reject",
+      "reason": "sup_9c0192a920590d14358b HFT payload'u isaretin saglam kisi uzerinde enacted ve olculebilir bir istisna oldugunu soyler; ancak assigned record icinde anchor_refs, branch_refs ve anchor_evidence bos. Exact context ayeti, word index, root, attributed role ve focus return iceren bir trace bulunmadigi icin legacy_unbound HFT adayi global activation testini gecemez.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_11b9ce1f35021d361396",
+      "decision": "reject",
+      "reason": "sup_b88925f0f24639b3ca80 HFT payload'u gizli bireysel cagriyi susma ve gesture yoluyla kamusal ovguye donusturur; fakat assigned record exact carrier, independent trigger, attributed role ve focus return vermiyor. Anchor_refs, branch_refs ve anchor_evidence bulunmadigindan stated HFT role'u asmadan global bulguya donusturulemez.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_3edf6353c2bae166dce8",
+      "decision": "reject",
+      "reason": "sup_e11ca8a82d39f057dd76 HFT payload'u uc gecelik sureyi ovguyle isaretlenmis bir uygulamaya cevirir; ancak exact context coordinate, word/root role ve focus return trace'i yoktur. Bu unanchored sentez, packet icindeki bagimsiz 3:41 count baglantisinin yerine gecen bir kanit olarak kullanilamaz.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_3533cdcc401ef645163e",
+      "decision": "reject",
+      "reason": "sup_ba8d965039126cb5537a HFT payload'u qawl, ayah, taklim, insanlar, sure ve butunluk unsurlarini tek mekanizma olarak ozetler; fakat assigned record bunlari focus'a donduren exact carrier-trigger-focus-return izi saglamiyor. Anchor_refs, branch_refs ve anchor_evidence bos oldugu icin bu global genelleme tutulamaz.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_c031878af9a51c5abc35",
+      "decision": "reject",
+      "reason": "sup_085fd61cc862b42b132b HFT payload'u sawiyyan'in saglam kisiye, gecelerin butunlugune veya ikisine birden donup donmedigini acik birakir; ancak exact carrier, independent trigger ve focus return vermedigi icin bu belirsizlik bir attributed activation degildir. Anchor_refs, branch_refs ve anchor_evidence yoktur.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_4254947c61ac548bfd56",
+      "decision": "reject",
+      "reason": "sup_fbbf4f85252eb5a2ee5a HFT payload'u konusma susmasinin istem disi yetersizlik, emredilmis abstention veya ikisinin karisimi olup olmadigini acik birakir; fakat bu alternative readings icin exact HFT trace ve focus return supplied degil. Legacy_unbound kayit global activation icin yeterli bir carrier-trigger temasi kuramiyor.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_e941c47c4a3304003cbb",
+      "decision": "reject",
+      "reason": "sup_04ab204727fa6d19cb31 HFT payload'u uc hayat-gun echo'sunu ve KLM wound resonance'ini exploratory tutar; ancak assigned record anchor_refs, branch_refs, anchor_evidence ve exact focus-return trace saglamiyor. 3:41 ile bagimsiz olarak kurulabilen bounded-three-unit bulgusu bu unbound HFT adayini kabul edilebilir hale getirmez.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    }
+  ],
+  "findings": [
+    {
+      "finding_ref": "global:selective-speech-sign",
+      "origin_candidate_id": "cand_c8124dee84bd1e39bda4",
+      "represented_candidate_ids": [],
+      "title": "Saglamlik icinde secici ve sureli konusma siniri",
+      "claim": "Odaktaki isaret, bedenin veya kisinin genel bir yetersizligini bildirmekten cok, kisi kendi icinde saglamken insanlarla anlasilir konusmanin secici ve sureli olarak askida tutulmasi seklinde belirir.",
+      "mechanism": "19:10:5:1 ve 19:10:7:1'deki isaret, istenen ve sonra belirlenen gorunen belirtiyi tasir; 19:10:9:1'deki Form II konusma, insanlara yonelen anlasilir soz alisverisini tasir; 19:10:13:1'deki sawiyyan ise kisinin kendi yapisinda saglam ve tam oldugunu belirtir. 3:41 baglantisi ayni isaret, insanlara konusamama ve uc birimli sureyi gesture ve praise ile birlikte geri getirir; 19:26 baglantisi ayni sureli insanlara konusmama sinirini yineler; 53:6 baglantisi saglamlik ve tamlik temasini wider bir beden durumuna baglar.",
+      "reader_payoff": "Okur, uc gecelik susmayi genel bir konusma yetisi kaybi olarak degil, saglamligi korunmus bir kisiye verilen, konusma kanalini belirli muhataplara karsi sinirlayan ve suresi belirlenmis bir isaret olarak fark eder.",
+      "containment": "Bu okuma, ayetin Rabb'den isaret isteme ve insanlarla uc gece konusmama acik anlamini korur. Baglantilar target morphology saglamadigi icin hedef ayetlerin ayrintilari focus'a aktarilmaz; okuma tibbi bir teshis, susmanin kesinlikle istem disi veya kesinlikle iradi oldugu sonucu, diger konusma ve iletisim bicimlerinin tumden yoklugu ya da genel bir mucize teorisi ileri surmez.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": ["trusted"],
+        "reason": "Trusted cross-run support uc focus dalini ve odak tasiyicilarini dogrudan sagliyor. 3:41, 19:26 ve 53:6 baglantilari exact target Arabic ve relation notes tasiyor, fakat target morphology ve bagimsiz target lexical analysis saglamiyor; bu nedenle wider resonance qualified tutuluyor."
+      },
+      "support_ids": ["sup_64ef24d8d2923db24485"],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000074/B003",
+          "facet_id": "F001",
+          "branch_gloss": "gorunen belirti",
+          "facet_statement": "Temel anlam, bir seyi tanitan veya ona delalet eden gorunen belirtidir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["19:10:5:1", "19:10:7:1"],
+          "trigger_refs": ["conn_ev_555025d2ced33c023095"],
+          "focus_return_refs": ["19:10:5:1", "19:10:7:1"],
+          "carrier": "19:10:5:1 ve 19:10:7:1'deki ayah, istenen belirsiz isareti ve onun belirli muhataba baglanan cevabini tasir.",
+          "independent_trigger": "conn_ev_555025d2ced33c023095, 3:41'de ayni sign ve insanlara konusmama yapisini uc birimli sure, gesture ve praise ile birlikte kaydeder; hedef morphology packet'te supplied degildir.",
+          "activation": "Odaktaki isaret adi, 3:41'deki ayni dua-cevap duzeninde soyut bir alamet olarak degil, kisinin konusma imkanini belli bir sure ve muhatap siniri icinde degistiren uygulanmis bir sart olarak geri doner.",
+          "resulting_reading": "Isaret, genel bir eksiklik iddiasi degil; saglam kisi uzerinde gorunur hale gelen, secici ve sureli bir konusma siniridir.",
+          "boundary": "Gorunen belirti cekirdegi korunur; 3:41'in hedef morphology'si, gesture'in focus'taki exact bicimi veya isaretin her turlu rehberlik ve mucize facet'i bu aktivasyona eklenmez."
+        },
+        {
+          "branch_ref": "root_000766/B002",
+          "facet_id": "F001",
+          "branch_gloss": "kendi içinde düzgün ve tam duruma gelme",
+          "facet_statement": "Bir şeyin kendi yapısı içinde eğrilikten kurtulması ve düzgün duruma gelmesi çekirdektir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["19:10:13:1"],
+          "trigger_refs": ["conn_ev_eac9b8aaa27e3c4c34da"],
+          "focus_return_refs": ["19:10:13:1"],
+          "carrier": "19:10:13:1'deki sawiyyan, isaret olan susmanin kisinin yapisindaki saglamlikla yan yana geldigini tasir.",
+          "independent_trigger": "conn_ev_eac9b8aaa27e3c4c34da, 53:6'nin exact Arabic'si ve relation note'u ile sound bodily condition'in completeness'i destekledigini bildirir; hedef morphology supplied degildir.",
+          "activation": "Focus'taki kendi icinde duzgun olma tasiyicisi, 53:6'daki soundness temasi ile temas edince, susmanin butun varliga yayilan bir yetersizlik degil, saglam bir durum icindeki sinir oldugunu belirginlestirir.",
+          "resulting_reading": "Kisinin saglamligi, konusmamanin genel bir bozukluk degil, butunluk korunurken belirli bir iletisim eyleminde ortaya cikan istisna oldugunu gorunur kilar.",
+          "boundary": "Core duzgunluk ve tamlik korunur; 53:6'nin hedef morphology'si, fiziksel gucun butun ayrintilari veya focus'ta bir hastalik bulunmadigina dair bagimsiz teshis ileri surulmez."
+        },
+        {
+          "branch_ref": "root_000766/B002",
+          "facet_id": "F002",
+          "branch_gloss": "kendi içinde düzgün ve tam duruma gelme",
+          "facet_statement": "İnsan yaratılışında düzgünlük, görünür bozukluk ve hastalık bulunmayan tam bir yapıyı anlatır.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["19:10:13:1"],
+          "trigger_refs": ["conn_ev_eac9b8aaa27e3c4c34da"],
+          "focus_return_refs": ["19:10:13:1"],
+          "carrier": "19:10:13:1'deki sawiyyan, insanin gorunur bozukluk ve hastalik olmadan tam durmasi yonundeki odak nitelemesini tasir.",
+          "independent_trigger": "conn_ev_eac9b8aaa27e3c4c34da, 53:6'da bedenin soundness ve completeness tarafini wider bir paralel olarak geri getirir; hedef morphology supplied degildir.",
+          "activation": "Insan saglamligi facet'i, ayni isaretin konusma kanalina yonelik olmasi ile temas eder; boylece hedeflenen degisiklik kisinin butun bedenine degil, insanlar ile sozlu iliskisine sinirlanir.",
+          "resulting_reading": "Sapasaglam olma nitelemesi, isaretin kisiye genel bir suskunluk hastaligi getirmedigini; saglam kisi icindeki belirli insanlara konusma eylemini sinirladigini yeni bir aciklikla gosterir.",
+          "boundary": "Bu specialization insan yapisinin gorunur saglamligi ile sinirlidir; medical diagnosis, causal mechanism ve focus'ta kesin irade veya zorunluluk sonucu cikartilmaz."
+        },
+        {
+          "branch_ref": "root_001316/B001",
+          "facet_id": "F001",
+          "branch_gloss": "anlaşılır konuşma, hitap ve söz alışverişi",
+          "facet_statement": "Temel anlam, dinleyenin anlayabileceği biçimde söz üretmektir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["19:10:9:1"],
+          "trigger_refs": ["conn_ev_555025d2ced33c023095", "conn_ev_1d3c5681fcea4ccf57f7"],
+          "focus_return_refs": ["19:10:9:1"],
+          "carrier": "19:10:9:1'deki tukallima, insanlara yoneltilen ve onlarin anlayabilecegi soz uretme eylemidir.",
+          "independent_trigger": "3:41 baglantisi ayni sign-speech-duration dizisini, 19:26 baglantisi ise ayni surenin herhangi bir kisiyle konusmama sinirini kaydeder; iki hedefin morphology'si packet'te supplied degildir.",
+          "activation": "Focus'taki konusma eylemi, iki bagimsiz bounded-silence parallel'i ile temas ederek genel dil veya beden kapasitesinden degil, belirli bir muhatapla anlasilir soz alisverisinden askida tutulmus bir kanal olarak gorunur.",
+          "resulting_reading": "Konusmama, sozu yok eden genel bir yetersizlik degil, insanlara yonelik anlasilir konusma eyleminin gecici olarak kesilmesidir.",
+          "boundary": "Konusma cekirdegi korunur; hedef ayetlerdeki exact morphology, susmanin involuntary veya commanded oldugu secimi ve gesture'in focus'taki tam karsiligi ileri surulmez."
+        },
+        {
+          "branch_ref": "root_001316/B001",
+          "facet_id": "F002",
+          "branch_gloss": "anlaşılır konuşma, hitap ve söz alışverişi",
+          "facet_statement": "Birine hitap etme, onun sözüne karşılık verme ve bir kesintiden sonra yeniden karşılıklı konuşma, konuşma çekirdeğinin kişiler arası gerçekleşmeleridir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["19:10:9:1"],
+          "trigger_refs": ["conn_ev_555025d2ced33c023095", "conn_ev_1d3c5681fcea4ccf57f7"],
+          "focus_return_refs": ["19:10:9:1"],
+          "carrier": "19:10:9:1'deki tukallima al-nas, konusmanin insanlara yonelen ve muhatap iliskisi kuran specialization yuzunu tasir.",
+          "independent_trigger": "3:41'deki ayni insanlara konusmama ve 19:26'daki ayni kisiye yonelik bounded silence, speech restriction'in muhatap iliskisi icinde kuruldugunu bagimsiz olarak geri getirir.",
+          "activation": "Muhatapla kurulan konusma facet'i, odaktaki al-nas ile wider parallels'in insanlara yonelik susma sinirini birlestirir; kesilen sey soyut ses degil, belirli insanlarla kurulan sozlu temas olur.",
+          "resulting_reading": "Uc gece, kisi ile insan toplulugu arasindaki sozlu karsilikliligin askida tutuldugu, fakat bunun butun iletisim veya butun beden kapasitesinin yoklugu olarak adlandirilmadigi bir sure siniri kurar.",
+          "boundary": "Facet'in hitap ve muhatap iliskisi korunur; focus'un mutlaka iki tarafli konusma gerceklestirdigi, target ayetlerin tam dilbilgisel yapisi veya diger sozsuz iletisim bicimlerinin kesinlikle devam ettigi ileri surulmez."
+        }
+      ],
+      "connection_refs": [
+        "conn_3ad59e54ad39b00dae07",
+        "conn_aeba5ec3371252f4b6ef",
+        "conn_4ab528207e4b7f2deedf"
+      ],
+      "context_refs": ["3:41", "19:26", "53:6"],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:bounded-three-unit-sign",
+      "origin_candidate_id": null,
+      "represented_candidate_ids": [],
+      "title": "Uc sayisinin isareti olcen sinir",
+      "claim": "Odaktaki uc, gecelerin sayisini bildiren acik anlamini korurken, 3:41'deki ayni isaret ve konusma sinirinin uc gunle kurulmasiyla, susmanin olculebilir ve sinirli bir sart olarak da duyulmasini saglar.",
+      "mechanism": "19:10:11:1'deki thalatha sayma sayisi olarak ucu tasir. conn_ev_555025d2ced33c023095'un exact target Arabic'si 3:41'de isaret, insanlara konusmama ve uc birimli sureyi yeniden kurar. Iki odak arasindaki geceler/gunler farki korunurken ayni sayinin ayni isaret-speech yapisinda donmesi, ucun belirsiz bir cokluk degil, uygulanabilir bir temporal boundary olmasini gorunur kilar.",
+      "reader_payoff": "Okur, uc geceyi yalnizca gecen zamanin sayisi olarak degil, isaretin ne kadar sureyle ve hangi sinir icinde isledigini belirleyen sayilabilir bir olcu olarak fark eder.",
+      "containment": "Bu bulgu uc sayisinin ve uc gecenin duz anlamini korur; geceleri gunlerle esitlemez, sayiya numerolojik deger yuklemez, 3:41'in hedef morphology'sini odaga tasimaz ve daha genis bir rituel veya kozmik zaman sistemi ileri surmez.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": [],
+        "reason": "3:41 baglantisi exact Arabic ve guclu bir near-verbatim relation note'u sagliyor, ancak target morphology ve target lexical analysis yok. Uc sayisinin bounded sign olarak okunmasi bu baglantidan cikan, sinirlari acik bir global resonance'tir; bagimsiz trusted support bulunmuyor."
+      },
+      "support_ids": [],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000203/B001",
+          "facet_id": "F001",
+          "branch_gloss": "uc sayisi",
+          "facet_statement": "Temel cekirdek, sayma sayisi olarak uctur.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["19:10:11:1"],
+          "trigger_refs": ["conn_ev_555025d2ced33c023095"],
+          "focus_return_refs": ["19:10:11:1"],
+          "carrier": "19:10:11:1'deki thalatha, gecelerin adedini belirleyen sayma sayisidir.",
+          "independent_trigger": "3:41 baglantisi exact target Arabic icinde ayni isaret ve konusma siniri baglaminda uc gunu kaydeder; target morphology supplied degildir.",
+          "activation": "Ayni sayinin iki Zakariya isaret anlatiminda konusma sinirinin suresini belirlemesi, focus'taki ucu yalnizca nicelik degil, isaretin uygulanma sinirini olcen bagimsiz bir zaman kosulu olarak geri getirir.",
+          "resulting_reading": "Uc, isaretin sureli ve olculebilir olmasini kuran sinir olarak duyulur; gecelerin uc olmasi bu siniri somutlar.",
+          "boundary": "Sayma sayisi cekirdegi korunur; geceler ve gunler esitlenmez, ucten pay, ucunculuk, numeroloji veya target ayetin diger sayi facetleri aktive edilmez."
+        }
+      ],
+      "connection_refs": ["conn_3ad59e54ad39b00dae07"],
+      "context_refs": ["3:41"],
+      "semantic_obligation_refs": []
+    }
+  ],
+  "friction_notes": [
+    "Packet icinde candidate-level semantic_obligations veya required_branch_facets supplied degil; bu nedenle retained findings icin semantic_obligation_refs ve candidate exclusion arrays bos tutuldu.",
+    "Yedi legacy_unbound HFT kaydinin assigned records'larinda anchor_refs, branch_refs ve anchor_evidence yok; her biri exact context ayeti, word index, root, attributed role ve focus return trace'i bulunmadigi icin reddedildi. HFT payload'lari karar gerekcelerinde kayda alindi ve bagimsiz packet kaniti gibi kullanilmadi.",
+    "3:41, 19:26 ve 53:6 connection records exact target Arabic ve relation notes sagliyor, fakat target morphology/lexical analysis saglamiyor; trusted finding qualified, uncandidate three-unit finding de qualified olarak tutuldu.",
+    "Focus word alignment 13/13 resolved ve unresolved birim yok. Available night-only duration parallels (89:2, 93:2), KLM wound resonance ve diger branches, focus'a donen bagimsiz ve materially changed bir semantic relation kurmadiklari icin retained finding'e eklenmedi."
+  ]
+}

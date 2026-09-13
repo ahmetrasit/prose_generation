@@ -1,0 +1,1902 @@
+{
+  "schema_version": "commentary-v5-scope-discovery-v1",
+  "ayah_ref": "19:49",
+  "lane": "macro",
+  "coverage_complete": true,
+  "candidate_decisions": [
+    {
+      "candidate_id": "cand_a65bc6f55720ca1028db",
+      "decision": "accept",
+      "reason": "Beş branch_ref'in tamamı için packet'te gerçek taşıyıcı bulundu: root_001685/B003 odakta 19:49:8:1'de, root_000281/B003 19:43:4'te, root_000532/B013 19:47:6'da, root_001040/B005 19:43:6'da ve root_000220/B002 19:58:21'de. Bu taşıyıcılar bağımsız su-toplama ve bağış tetikleyicileriyle birleşiyor; 19:53 ve 19:55 anchor'ları da retained finding içinde landed.",
+      "finding_refs": [
+        "macro:reservoir-rock-basin"
+      ],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_10834adb5c95fcf88964",
+      "decision": "accept",
+      "reason": "Sekiz branch_ref'in tamamı 19:43'teki bilgi, işaret, yönlendirme, takip ve düz yol taşıyıcılarıyla veya focus'taki 19:49:14:1 peygamberlik taşıyıcısıyla landed. 19:41, 19:51, 19:53 ve 19:58 anchor'ları, focus'a dönen bağımsız peygamberlik ve çizgi tetikleyicileri olarak korunuyor.",
+      "finding_refs": [
+        "macro:waymarks-followed-tracks"
+      ],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_8901adf75cf9e2fda39d",
+      "decision": "accept",
+      "reason": "Altı branch_ref'in tamamı gerçek bir focus veya perikop taşıyıcısına bağlanıyor: focus root_001464/B006 19:49:14:1'de, diğer dallar 19:50:7, 19:51:3/9 ve 19:52:1/7'de. Çağrı, özel söyleşi, dil, yazı ve elçilik birbirinden bağımsız aktarım tetikleyicileri kuruyor; tüm aday anchor'ları landed.",
+      "finding_refs": [
+        "macro:call-confidential-relay"
+      ],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_1bc1bb1698b411963a77",
+      "decision": "accept",
+      "reason": "HFT trace 19:41:7-8 ile 19:49:8:1, 19:49:12:2 ve 19:49:14:1 koordinatlarını ve focus return'ünü veriyor. root_000852/B003 çözülmemiş olduğu için gloss/facet icat edilmeden attributed tutuldu; diğer üç branch exact focus facet'iyle landed.",
+      "finding_refs": [
+        "macro:existing-vocation-multiplied"
+      ],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_3e712c5b3170e9221135",
+      "decision": "accept",
+      "reason": "HFT trace 19:42:9, 11 ve 13 ile focus'taki 19:49:4:1, 6:1 ve 8:1 koordinatlarını birlikte veriyor. Yetisizlik, dışarıda olma, tapınma ve etkili bağış arasında bağımsız temas kuruluyor; çözülmemiş üç context branch attributed ve gloss/facet'siz korunuyor.",
+      "finding_refs": [
+        "macro:agency-transferred-to-giver"
+      ],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_1d6a53c9848a7719a0d9",
+      "decision": "accept",
+      "reason": "HFT trace 19:46-48'in exact word coordinates, focus'taki 19:49:2:1 ve 19:49:8:1 dönüşleriyle birlikte veriyor. Threat, peace, forgiveness, prayer, withdrawal ve gift rollerinin her branch_ref'i landed; unresolved branches yalnız attributed HFT evidence olarak tutuldu.",
+      "finding_refs": [
+        "macro:nonviolent-boundary"
+      ],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_e7f4fb41e111862d624d",
+      "decision": "accept",
+      "reason": "HFT trace 19:50:1, 4, 7, 8, 9 ile focus'taki 19:49:8:1 ve 19:49:14:1 dönüşlerini veriyor. Yinelenen gift, mercy, tongue, truth, elevation ve prophetic mediation arasında distinct public-voice relation kuruluyor; çözülmemiş context branches gloss/facet icat edilmeden retained.",
+      "finding_refs": [
+        "macro:private-gift-to-public-voice"
+      ],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_a6bdb847d761bdbb7499",
+      "decision": "accept",
+      "reason": "HFT'nin 19:53:1, 4, 5, 7 ve focus'taki 19:49:2:1, 8:1, 14:1 koordinatları exact biçimde supplied. Kardeşlik, rahmet, peygamberlik, ayrılık ve gift aynı kişi-as-support relation'ında birleşiyor; unresolved branch'ler attributed olarak korunuyor.",
+      "finding_refs": [
+        "macro:person-as-prophetic-support"
+      ],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_478ae55e2be4eac470c2",
+      "decision": "accept",
+      "reason": "HFT trace 19:58:7, 9, 16, 20, 21 ve focus'taki 19:49:8:1, 12:2, 14:1 koordinatlarını ve focus return'ünü veriyor. Soyun dağılması, rehberlik, seçilme, bütünlük, gift ve prophecy distinct selected-line mechanism'i kuruyor; unresolved branches gloss/facet'siz attributed tutuldu.",
+      "finding_refs": [
+        "macro:selected-dispersing-line"
+      ],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_3acee937cac6a3b9b236",
+      "decision": "accept",
+      "reason": "HFT trace 19:46:10 ile focus'taki 19:49:2:1, 8:1 ve 14:1 koordinatlarını exact veriyor. Form-distant silahsızlık branch'i HFT'nin açık exploratory containment'iyle birlikte retained; lexicon glossu yalnız supplied root branch olan focus dallarında kopyalandı, unresolved threat branch'i attributed ve null bırakıldı.",
+      "finding_refs": [
+        "macro:unarmed-exit"
+      ],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    }
+  ],
+  "findings": [
+    {
+      "finding_ref": "macro:reservoir-rock-basin",
+      "origin_candidate_id": "cand_a65bc6f55720ca1028db",
+      "represented_candidate_ids": [],
+      "title": "Bağışın kaya çukurunda biriken su gibi görünmesi",
+      "claim": "19:49'daki ilahi bağış, perikopta bilgi ve armağanın korunmuş bir haznede toplanıp erişilebilir bir kaynağa dönüşmesi imgesiyle de belirginleşir.",
+      "mechanism": "Odaktaki وَهَبْنَا fiilinin kaya çukurunda yağmur suyunu tutan dalı, 19:43'teki su-toplayan oyuk ve büyük su kütlesi, 19:47'deki bol toplanmış su, 19:58'deki toplanmış havza ve 19:53-55'te yinelenen bağış ve rablik bağlamlarıyla temas eder. Böylece İshak ve Yakup'un bağışlanması, yalnızca bir geliş değil, birikmiş ve başvurulabilir bir imkânın açılması olarak değişir.",
+      "reader_payoff": "Okur, iki kişinin verilmesini soyut bir telafi cümlesi olarak bırakmayıp, ayrılıktan sonra korunmuş bir kaynağın erişilebilir hale gelmesi şeklinde de görür.",
+      "containment": "Birincil okuma, Allah'ın İbrahim'e İshak ve Yakup'u bağışlayıp her birini peygamber kılmasıdır. Su haznesi imgesi, perikopta taşınan kök dalları ve güvenilir aday desteğiyle sınırlıdır; gerçek bir su yapısı veya ayetin tek anlamı ileri sürülmez.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": [
+          "trusted"
+        ],
+        "reason": "Odak taşıyıcısı kabul edilmiş dal kaydıyla, bağlam taşıyıcıları ise seçili perikop bağlamı ve trusted kanal adayının kaynak-görüntüleriyle veriliyor; hazne sentezi bu kanıtların sınırlı yorumudur."
+      },
+      "support_ids": [
+        "sup_529eeff38e58def1d291",
+        "sup_55e4340ca4556d2eb67a",
+        "sup_8d93d47a78bd3c035aa6",
+        "sup_f275a4e8a4d43aaa5921",
+        "sup_feb9de7cfa6b6f555f1c"
+      ],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000220/B002",
+          "facet_id": "SOURCE_IMAGE",
+          "branch_gloss": "collected water and the basin",
+          "facet_statement": "collected water and the basin",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "19:58:21"
+          ],
+          "trigger_refs": [
+            "19:49:8:1",
+            "19:43:4",
+            "sup_f275a4e8a4d43aaa5921"
+          ],
+          "focus_return_refs": [
+            "19:49:8:1"
+          ],
+          "carrier": "19:58:21'deki جَبَيْنَا taşıyıcısı, toplanmış su ve havza kaynak-görüntüsünü bağlamda taşır.",
+          "independent_trigger": "19:49:8:1'deki karşılıksız bağış ve 19:43:4'teki su-toplayan oyuk, bu havzayı odaktaki verilme eylemine bağlar.",
+          "activation": "Seçilerek toplanan havza görüntüsü, odaktaki bağışın dağınık bir lütuf değil, toplanıp erişilebilir kılınan bir kaynak gibi algılanmasını sağlar.",
+          "resulting_reading": "İshak ve Yakup'un bağışı, korunmuş bir havzada toplanmış ve başvurulabilir hale gelmiş imkân görünümü kazanır.",
+          "boundary": "Havza görüntüsü bağlamsal bir kök çağrışımıdır; 19:58'de gerçek bir su havzası bulunduğu iddia edilmez."
+        },
+        {
+          "branch_ref": "root_000281/B003",
+          "facet_id": "SOURCE_IMAGE",
+          "branch_gloss": "water-gathering hollow",
+          "facet_statement": "water-gathering hollow",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "19:43:4"
+          ],
+          "trigger_refs": [
+            "19:49:8:1",
+            "19:58:21",
+            "sup_f275a4e8a4d43aaa5921"
+          ],
+          "focus_return_refs": [
+            "19:49:8:1"
+          ],
+          "carrier": "19:43:4'teki جَاءَنِي taşıyıcısı, suyun bir oyukta toplanması görüntüsünü taşır.",
+          "independent_trigger": "Odaktaki وَهَبْنَا'nın karşılıksız verme hareketi ve 19:58:21'deki havza görüntüsü, bu oyuğu bağışın toplandığı biçim olarak etkinleştirir.",
+          "activation": "Bilginin geldiği ve armağanın verildiği anlatı, suyun bir çukurda toplanmasıyla temas ederek varışın korunmuş bir toplama noktasına dönüşmesini görünür kılar.",
+          "resulting_reading": "Bağışın sonucu, dağılmadan önce bir araya gelen ve erişim sağlayan bir oyuk gibi okunabilir.",
+          "boundary": "19:43'teki kelimenin olağan anlamı bilgidir; su oyuğu, aday dalın bağlamsal rezonansıdır."
+        },
+        {
+          "branch_ref": "root_000532/B013",
+          "facet_id": "SOURCE_IMAGE",
+          "branch_gloss": "abundant collected water",
+          "facet_statement": "abundant collected water",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "19:47:6"
+          ],
+          "trigger_refs": [
+            "19:49:8:1",
+            "19:55:8",
+            "sup_f275a4e8a4d43aaa5921"
+          ],
+          "focus_return_refs": [
+            "19:49:8:1"
+          ],
+          "carrier": "19:47:6'daki رَبِّي taşıyıcısı, bolca toplanmış su kaynak-görüntüsünü bağlama getirir.",
+          "independent_trigger": "Aynı perikoptaki rablik ve 19:55:8'deki ربِّ kök teması, odaktaki bağışın besleyici bir bolluk olarak algılanmasını destekler.",
+          "activation": "Bağış fiili, rablik bağlamındaki bolluk görüntüsüyle temas ettiğinde verilen kişiler yalnızca sayısal ek değil, çoğalan bir beslenme imkânı haline gelir.",
+          "resulting_reading": "İlahi verme, birikmiş bolluğun kaynaktan alıcıya ulaşması yönünü de taşır.",
+          "boundary": "Bolluk suyu bir mecazî kaynak-görüntüsüdür; ilahi bağış gerçek suya indirgenmez."
+        },
+        {
+          "branch_ref": "root_001040/B005",
+          "facet_id": "SOURCE_IMAGE",
+          "branch_gloss": "a large gathered body of water called عيلم",
+          "facet_statement": "a large gathered body of water called عيلم",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "19:43:6"
+          ],
+          "trigger_refs": [
+            "19:49:8:1",
+            "19:58:21",
+            "sup_f275a4e8a4d43aaa5921"
+          ],
+          "focus_return_refs": [
+            "19:49:8:1"
+          ],
+          "carrier": "19:43:6'daki عِلْمِ taşıyıcısı, büyük ve toplanmış su kütlesi kaynak-görüntüsünü taşır.",
+          "independent_trigger": "Bilginin odakta daha sonra gerçekleşen bağışla aynı perikopta bulunması ve 19:58:21'deki toplanma imgesi, bilgi ile verilme arasındaki birikme temasını kurar.",
+          "activation": "Bilgiyle gelen fark ediş, bağışlanan kişilerin oluşturduğu peygamberlik imkânına temas ederek küçük bir haberden geniş bir kaynağa açılır.",
+          "resulting_reading": "19:43'teki bilgi anlamı korunur; yalnızca onun odaktaki bağışla temasında toplanmış kaynak görüntüsü belirir.",
+          "boundary": "عيلم dalının kaynak-görüntüsü aktarılır; özel bir su adı veya yer adı bu ayete eklenmez."
+        },
+        {
+          "branch_ref": "root_001685/B003",
+          "facet_id": "F001",
+          "branch_gloss": "yağmur suyu tutan kaya çukuru",
+          "facet_statement": "Kaya veya dağ yüzeyinde küçük ve doğal bir çukur bulunur.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "19:49:8:1"
+          ],
+          "trigger_refs": [
+            "19:43:4",
+            "19:43:6",
+            "19:47:6",
+            "19:53:1",
+            "19:55:8",
+            "19:58:21",
+            "sup_55e4340ca4556d2eb67a",
+            "sup_8d93d47a78bd3c035aa6",
+            "sup_feb9de7cfa6b6f555f1c"
+          ],
+          "focus_return_refs": [
+            "19:49:8:1"
+          ],
+          "carrier": "وَهَبْنَا'nın taşıyıcısı, kaya veya dağ yüzeyindeki doğal küçük çukur dalının odak yüzeyindeki karşılığıdır.",
+          "independent_trigger": "19:43:4'teki su-toplayan oyuk, 19:43:6'daki toplanmış kütle, 19:47:6 ve 19:55:8'deki rablik bolluğu, 19:53:1'deki yinelenen bağış ve 19:58:21'deki havza bu taşıyıcıyı bağımsız bağlamla etkinleştirir.",
+          "activation": "Karşılıksız verme eylemi, bağlamdaki toplama ve koruma görüntüleriyle temas ederek bağışı içine alan bir hazne biçimi kazanır.",
+          "resulting_reading": "Allah'ın İbrahim'e verdiği kişiler, ayrılık sonrasında içine imkân biriktirilen ve başvurulabilir bir kaya çukuru gibi algılanabilir.",
+          "boundary": "Bu facet yalnızca doğal çukur biçimini taşır; suyun gerçekten yağmurdan geldiği veya ayette fiziksel kaya bulunduğu söylenmez."
+        },
+        {
+          "branch_ref": "root_001685/B003",
+          "facet_id": "F002",
+          "branch_gloss": "yağmur suyu tutan kaya çukuru",
+          "facet_statement": "Yağmur suyu bu çukurda tutulup birikir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "19:49:8:1"
+          ],
+          "trigger_refs": [
+            "19:43:4",
+            "19:43:6",
+            "19:47:6",
+            "19:53:1",
+            "19:55:8",
+            "19:58:21",
+            "sup_55e4340ca4556d2eb67a",
+            "sup_8d93d47a78bd3c035aa6",
+            "sup_feb9de7cfa6b6f555f1c"
+          ],
+          "focus_return_refs": [
+            "19:49:8:1"
+          ],
+          "carrier": "وَهَبْنَا'nın bağışlama taşıyıcısı, kaya çukurunda suyun tutulup birikmesi facet'iyle genişler.",
+          "independent_trigger": "Aynı perikoptaki yinelenen bağışlar, rablik ve suyun oyukta toplanması kaynakları, verme eylemini korunan birikme hareketiyle temas ettirir.",
+          "activation": "Bağış, yalnızca bir aktarım anı olmaktan çıkmadan, sonraki peygamberlik kapasitesini içinde tutan ve çoğaltan bir birikim olarak görünür.",
+          "resulting_reading": "İshak ve Yakup'un verilmesi, sonraki peygamberlik çizgisine kaynak sağlayan tutulmuş bir imkân olarak da okunur.",
+          "boundary": "Birikme imgesi bağlamsal rezonanstır; soy, kurum veya fiziksel rezervuar hakkında ek iddia kurulmaz."
+        }
+      ],
+      "connection_refs": [
+        "conn_d4cb1416ee4516e1f465",
+        "conn_2da3b18f720c4c1aea8e"
+      ],
+      "context_refs": [
+        "19:43",
+        "19:47",
+        "19:48",
+        "19:50",
+        "19:53",
+        "19:55",
+        "19:58"
+      ],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "macro:waymarks-followed-tracks",
+      "origin_candidate_id": "cand_10834adb5c95fcf88964",
+      "represented_candidate_ids": [],
+      "title": "Peygamberlik bağışının işaretlenmiş bir yol gibi açılması",
+      "claim": "İshak ve Yakup'un peygamber kılınması, 19:43'te başlayan işaret, önden giden kılavuz, iz sürme ve düz yol örgüsünün yeni düğümü olarak da belirir.",
+      "mechanism": "19:43'teki bilgi, onu gösteren işaret, babayı izlemeye çağrı, yumuşak yönlendirme ve düz yol taşıyıcıları, odaktaki istenen yere götüren açık yol dalıyla temas eder. 19:41, 19:51, 19:53 ve 19:58'deki peygamberlik tekrarları bu yolu yalnız tek bir davet değil, devam eden bir yönlendirilmiş sıra olarak geri döndürür.",
+      "reader_payoff": "Okur, iki ismin eklenmesini yalnız aileye gelen bir armağan değil, zaten açılmış bir yolun yeni yürüyüş noktaları olarak algılar.",
+      "containment": "Ayetin açık anlamı, İshak ve Yakup'un bağışlanması ve her birinin peygamber yapılmasıdır. Yol imgesi aday kaynaklarının odakla temasından doğar; gerçek bir yol haritası veya peygamberliğin yalnızca mecaz olduğu iddia edilmez.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": [
+          "trusted"
+        ],
+        "reason": "19:43'teki bağlam taşıyıcıları, odaktaki kabul edilmiş yol facet'i ve trusted kanal kaynakları birlikte somut bir temas kuruyor; sentez yine de aday düzeyinde kalıyor."
+      },
+      "support_ids": [
+        "sup_8cc04ae5590197ffb57e",
+        "sup_95ea9c5491d769259048",
+        "sup_b9bd378d1fd7bb024476",
+        "sup_e541213d8e2549ce9a32",
+        "sup_fb426afd7c4cb9193233"
+      ],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000175/B001",
+          "facet_id": "SOURCE_IMAGE",
+          "branch_gloss": "following after",
+          "facet_statement": "following after",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "19:43:10"
+          ],
+          "trigger_refs": [
+            "19:49:14:1",
+            "19:43:11",
+            "sup_8cc04ae5590197ffb57e"
+          ],
+          "focus_return_refs": [
+            "19:49:14:1"
+          ],
+          "carrier": "19:43:10'daki ٱتَّبِعْ taşıyıcısı, ardından gitme ve izleyeni takip etme görüntüsünü taşır.",
+          "independent_trigger": "19:49:14:1'deki peygamberlik yolu ve 19:43:11'deki yumuşak yönlendirme bu takip görüntüsünü odaktaki iki yeni peygambere bağlar.",
+          "activation": "Takip eylemi, odaktaki peygamberlik bağışına temas ederek yeni peygamberleri daha önce açılan çağrının ardına yerleşen yürüyüş noktaları gibi gösterir.",
+          "resulting_reading": "İshak ve Yakup, yönlendirilmiş bir yolun ardından gelen ve yolu sürdüren kişiler olarak görünür.",
+          "boundary": "Takip görüntüsü 19:43'teki çağrı ve bağlamla sınırlıdır; fiziksel yürüyüş veya zorunlu biyografik sıra ileri sürülmez."
+        },
+        {
+          "branch_ref": "root_000175/B003",
+          "facet_id": "SOURCE_IMAGE",
+          "branch_gloss": "stepwise tracking",
+          "facet_statement": "stepwise tracking",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "19:43:10"
+          ],
+          "trigger_refs": [
+            "19:49:14:1",
+            "19:43:12",
+            "sup_e541213d8e2549ce9a32"
+          ],
+          "focus_return_refs": [
+            "19:49:14:1"
+          ],
+          "carrier": "ٱتَّبِعْ taşıyıcısı, adım adım iz sürme görüntüsünü de taşır.",
+          "independent_trigger": "19:43:12'deki düz yol ve trusted aday desteğindeki izlenebilir rota, odaktaki peygamberlik atamasını bu iz sürme hareketine bağlar.",
+          "activation": "Bir önceki çağrıdan odaktaki peygamberlik bağışına uzanan temas, peygamberlik dizisini tek sıçrama değil, izlenebilir adımlar halinde duyurur.",
+          "resulting_reading": "İki isim, daha önce işaretlenmiş yol üzerinde arka arkaya beliren adımlar gibi yeni bir devamlılık kazanır.",
+          "boundary": "Adım adım iz sürme, adayın kaynak görüntüsüdür; anlatının bütün tarihini bu tek imge belirlemez."
+        },
+        {
+          "branch_ref": "root_000858/B001",
+          "facet_id": "SOURCE_IMAGE",
+          "branch_gloss": "the straight road",
+          "facet_statement": "the straight road",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "19:43:12"
+          ],
+          "trigger_refs": [
+            "19:49:14:1",
+            "19:43:10",
+            "sup_95ea9c5491d769259048"
+          ],
+          "focus_return_refs": [
+            "19:49:14:1"
+          ],
+          "carrier": "19:43:12'deki صِرَاطًا taşıyıcısı, düz yol kaynak-görüntüsünü taşır.",
+          "independent_trigger": "Odaktaki açık yol dalı ve 19:43:10'daki takip çağrısı, düz yolun peygamberlik bağışıyla temasını sağlar.",
+          "activation": "Düz yolun açık ve izlenebilir niteliği, odaktaki her birinin peygamber yapılmasıyla buluşarak atamayı yönü beliren bir devamlılığa çevirir.",
+          "resulting_reading": "Peygamberlik bağışı, yönü belirli bir yolun devamı gibi yeni bir açıklık kazanır.",
+          "boundary": "Düz yol görüntüsü yönlendirme ilişkisini taşır; ayetin ilahi atamasının yerini almaz."
+        },
+        {
+          "branch_ref": "root_001040/B001",
+          "facet_id": "SOURCE_IMAGE",
+          "branch_gloss": "knowing a thing as it becomes clear",
+          "facet_statement": "knowing a thing as it becomes clear",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "19:43:6"
+          ],
+          "trigger_refs": [
+            "19:49:14:1",
+            "19:43:12",
+            "sup_e541213d8e2549ce9a32"
+          ],
+          "focus_return_refs": [
+            "19:49:14:1"
+          ],
+          "carrier": "19:43:6'daki عِلْمِ taşıyıcısı, şeyin bilen kişiye açılması görüntüsünü taşır.",
+          "independent_trigger": "Aynı ayetteki düz yol ve odaktaki açık yol facet'i, bilginin yalnız edinilmiş içerik değil, yön gösteren açıklık olmasını etkinleştirir.",
+          "activation": "Bilginin açığa çıkması, odaktaki peygamberlik atamasına temas ederek peygamberleri görünür hale gelen yolun taşıyıcıları gibi gösterir.",
+          "resulting_reading": "İshak ve Yakup'un peygamber kılınması, bilgiyi açan ve yönü belirginleştiren bir çizginin devamı gibi okunabilir.",
+          "boundary": "Bilgi dalı odaktaki peygamberlik ofisinin yerine konmaz; yalnız yol imgesini aydınlatır."
+        },
+        {
+          "branch_ref": "root_001040/B002",
+          "facet_id": "SOURCE_IMAGE",
+          "branch_gloss": "a distinguishing mark that points to something",
+          "facet_statement": "a distinguishing mark that points to something",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "19:43:6"
+          ],
+          "trigger_refs": [
+            "19:49:14:1",
+            "19:43:10",
+            "sup_8cc04ae5590197ffb57e"
+          ],
+          "focus_return_refs": [
+            "19:49:14:1"
+          ],
+          "carrier": "19:43:6'daki عِلْمِ taşıyıcısı, bir şeyi gösteren ayırt edici işaret görüntüsünü taşır.",
+          "independent_trigger": "İzlenebilir takip ve odaktaki açık yol dalı, bilgiyi yalnız içsel bilme değil, yolu gösteren bir işaret olarak etkinleştirir.",
+          "activation": "İşaret, takip ve açık yol aynı focus return üzerinden buluşarak peygamberlik bağışını yön gösteren işaretlerin çoğalması olarak da görünür kılar.",
+          "resulting_reading": "İki peygamberin ortaya çıkışı, daha önce bildirilen yönün yeni ve ayırt edilebilir işaretleri gibi belirir.",
+          "boundary": "İşaret görüntüsü, İshak ve Yakup'un gerçek anlamda işaret nesnesi olduğu iddiasına dönüşmez."
+        },
+        {
+          "branch_ref": "root_001464/B007",
+          "facet_id": "F001",
+          "branch_gloss": "istenen yere götüren açık yol",
+          "facet_statement": "Yol açıkça seçilir ve izleyeni gitmek istediği yere ulaştırır.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "19:49:14:1"
+          ],
+          "trigger_refs": [
+            "19:43:6",
+            "19:43:10",
+            "19:43:11",
+            "19:43:12",
+            "19:41:8",
+            "19:51:10",
+            "19:53:7",
+            "19:58:7",
+            "sup_e541213d8e2549ce9a32"
+          ],
+          "focus_return_refs": [
+            "19:49:14:1"
+          ],
+          "carrier": "نَبِيًّا taşıyıcısı, istenen yere götüren açık yol dalının focus yüzeyindeki taşıyıcısıdır.",
+          "independent_trigger": "19:43'teki bilgi, işaret, yönlendirme, takip ve düz yol; 19:41, 19:51, 19:53 ve 19:58'deki peygamberlik temasları bu dalı bağımsız biçimde etkinleştirir.",
+          "activation": "Peygamberlik adı, açık ve hedefe ulaştıran yol görüntüsüyle temas ederek odaktaki atamayı önceki yönlendirmeden sonra gelen yol taşıyıcılığı olarak görünür kılar.",
+          "resulting_reading": "İshak ve Yakup'un peygamber kılınması, hedefe yönü belli bir yolun yeni taşıyıcılarını ortaya çıkarır.",
+          "boundary": "Yol dalının core facet'i korunur; peygamberlik kutsal elçilik anlamını kaybetmez ve yol, ayetin tek okuması değildir."
+        },
+        {
+          "branch_ref": "root_001583/B001",
+          "facet_id": "SOURCE_IMAGE",
+          "branch_gloss": "gentle guidance toward a way or truth",
+          "facet_statement": "gentle guidance toward a way or truth",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "19:43:11"
+          ],
+          "trigger_refs": [
+            "19:49:14:1",
+            "19:43:12",
+            "sup_8cc04ae5590197ffb57e"
+          ],
+          "focus_return_refs": [
+            "19:49:14:1"
+          ],
+          "carrier": "19:43:11'deki أَهْدِكَ taşıyıcısı, yola veya hakikate yumuşak yönlendirme görüntüsünü taşır.",
+          "independent_trigger": "Odaktaki açık yol ve 19:43:10'daki takip çağrısı, yönlendirmenin bir sonraki peygamberlik düğümüne uzanmasını sağlar.",
+          "activation": "Yumuşak yönlendirme, bağışlanan kişilerin ortaya çıkışına temas ederek peygamberlik sırasını baskı değil rehberlik altında ilerleyen bir yol gibi kurar.",
+          "resulting_reading": "Bağış, rehberlik ile ilerleyen bir peygamberlik yolunun yeni aşaması olarak belirir.",
+          "boundary": "Yönlendirme görüntüsü 19:43'teki ilişkiyi korur; İbrahim'in her iki kişiye doğrudan yol gösterdiği söylenmez."
+        },
+        {
+          "branch_ref": "root_001583/B003",
+          "facet_id": "SOURCE_IMAGE",
+          "branch_gloss": "the leading front part",
+          "facet_statement": "the leading front part",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "19:43:11"
+          ],
+          "trigger_refs": [
+            "19:49:14:1",
+            "19:43:10",
+            "19:58:7",
+            "sup_e541213d8e2549ce9a32"
+          ],
+          "focus_return_refs": [
+            "19:49:14:1"
+          ],
+          "carrier": "أَهْدِكَ taşıyıcısı, önden gelen ve yol gösteren ön kısım görüntüsünü taşır.",
+          "independent_trigger": "19:58:7'deki peygamberler kataloğu ve odaktaki açık yol dalı, önden giden kılavuz görüntüsünü focus'taki peygamberlik atamasına bağlar.",
+          "activation": "Önden giden parça görüntüsü, peygamberlik bağışının daha önceki çağrının ardından yolu açan bir öncülük ilişkisi kazanmasını sağlar.",
+          "resulting_reading": "İshak ve Yakup, devam eden peygamberlik çizgisinde yolu önden açan yeni öncüler olarak da algılanabilir.",
+          "boundary": "Öncülük kaynak görüntüsüdür; İshak ve Yakup'un tarihsel olarak birbirinin önünde bulunduğu iddia edilmez."
+        }
+      ],
+      "connection_refs": [
+        "conn_24c0641594f55dd47b0c",
+        "conn_5ba977f9cc09fcd1762f"
+      ],
+      "context_refs": [
+        "19:41",
+        "19:43",
+        "19:51",
+        "19:53",
+        "19:58"
+      ],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "macro:call-confidential-relay",
+      "origin_candidate_id": "cand_8901adf75cf9e2fda39d",
+      "represented_candidate_ids": [],
+      "title": "Peygamberlik haberinin ses ve gizli aktarım kanalı gibi işlemesi",
+      "claim": "19:49'daki peygamberlik ataması, açık çağrıdan gizli söyleşiye, dilden yazıya ve haber taşıyan elçiye uzanan bir aktarım kanalı içinde hafif ve belirsiz bir ses görüntüsünü de taşır.",
+      "mechanism": "Odaktaki نَبِيًّا kelimesinin hafif ve belirsiz ses dalları, 19:52'deki yükseltilmiş çağrı ve özel söyleşi, 19:50'deki diliyle iletme, 19:51'deki yazı ve elçilik, 19:54'teki haber taşıyan elçi ile temas eder. Böylece peygamberlik, yalnız bir makam adı değil, şiddeti düşük olsa bile çağrı, dil, kayıt ve elçilik üzerinden ulaşan bir haber aktarımı olarak değişir.",
+      "reader_payoff": "Okur, peygamberlik dizisindeki bildirimi yalnız yüksek ve kamusal bir ilan olarak değil, sesi kısık veya kaynağı belirsiz olsa da iletimi süren bir kanal olarak hisseder.",
+      "containment": "Ayet, İshak ve Yakup'un peygamber yapılmasını açıkça bildirir. Ses kanalı, trusted adayın kaynak görüntüleriyle kurulan ikincil bir rezonanstır; peygamberlik haberinin belirsiz veya geçersiz olduğu söylenmez ve odak kelimesi yalnız ses anlamına indirgenmez.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": [
+          "trusted"
+        ],
+        "reason": "Focus'taki ses dalının kabul edilmiş facet'leri ve perikoptaki somut çağrı, özel söyleşi, dil, yazı ve elçilik taşıyıcıları trusted aday kaydıyla birlikte bulunuyor."
+      },
+      "support_ids": [
+        "sup_1cc5016a5d27f9f90428",
+        "sup_2311d353857e9d122fea",
+        "sup_8b0bcf62ad02a72e93e0",
+        "sup_95c52129bb2657f68466",
+        "sup_be25b563ce8c7481f1e1"
+      ],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000563/B002",
+          "facet_id": "SOURCE_IMAGE",
+          "branch_gloss": "messenger and message",
+          "facet_statement": "messenger and message",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "19:51:9"
+          ],
+          "trigger_refs": [
+            "19:49:14:1",
+            "19:54:10",
+            "sup_be25b563ce8c7481f1e1"
+          ],
+          "focus_return_refs": [
+            "19:49:14:1"
+          ],
+          "carrier": "19:51:9'daki رَسُولًا taşıyıcısı, haber taşıyan elçi ve mesaj görüntüsünü taşır.",
+          "independent_trigger": "Odaktaki peygamberlik taşıyıcısı ve 19:54:10'daki yinelenen elçilik, bu mesaj aktarımını focus'taki atamayla bağımsız biçimde buluşturur.",
+          "activation": "Elçi ve mesaj görüntüsü, peygamberlik atamasına temas ederek odaktaki kişilerin haberin taşıyıcıları olarak da algılanmasını sağlar.",
+          "resulting_reading": "İshak ve Yakup'un peygamberliği, bir mesajı taşıyan elçilik kanalının yeni düğümleri gibi görünür.",
+          "boundary": "Mesaj kanalı görüntüsüdür; ayet, bu iki kişinin belirli bir sonraki mesajını alıntılamaz."
+        },
+        {
+          "branch_ref": "root_001283/B002",
+          "facet_id": "SOURCE_IMAGE",
+          "branch_gloss": "joining letters into writing and a written book",
+          "facet_statement": "joining letters into writing and a written book",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "19:51:3"
+          ],
+          "trigger_refs": [
+            "19:49:14:1",
+            "19:50:7",
+            "sup_95c52129bb2657f68466"
+          ],
+          "focus_return_refs": [
+            "19:49:14:1"
+          ],
+          "carrier": "19:51:3'teki ٱلْكِتَٰبِ taşıyıcısı, harfleri birleştiren yazı ve yazılı kitap görüntüsünü taşır.",
+          "independent_trigger": "19:50:7'deki dil yoluyla iletim ve odaktaki peygamberlik dalı, haberin ses dışında kayda da bağlanmasını sağlar.",
+          "activation": "Yazı, dil ve peygamberlik taşıyıcısı temas ettiğinde odaktaki atama, aktarımın kaybolmadan düzenlenebildiği bir kanalın devamı gibi okunur.",
+          "resulting_reading": "Peygamberlik bağışı, sözün yazılı bir kayda ve düzenlenmiş bir haber zincirine ulaşabilen biçimini de görünür kılar.",
+          "boundary": "Yazılı kitap görüntüsü 19:51 bağlamına aittir; odak ayetinde yazı eylemi bulunduğu ileri sürülmez."
+        },
+        {
+          "branch_ref": "root_001355/B008",
+          "facet_id": "SOURCE_IMAGE",
+          "branch_gloss": "conveying a message by tongue",
+          "facet_statement": "conveying a message by tongue",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "19:50:7"
+          ],
+          "trigger_refs": [
+            "19:49:14:1",
+            "19:51:9",
+            "sup_95c52129bb2657f68466"
+          ],
+          "focus_return_refs": [
+            "19:49:14:1"
+          ],
+          "carrier": "19:50:7'deki لِسَانَ taşıyıcısı, dille mesaj iletme görüntüsünü taşır.",
+          "independent_trigger": "Odaktaki n-b-ʾ peygamberlik taşıyıcısı ve 19:51:9'daki elçi, dildeki iletimi haber taşıyan role bağlar.",
+          "activation": "Dil aracılığıyla iletim, peygamberlik atamasına temas ederek verilen kişilerin yalnızca isim değil, haberin insanlara ulaşma kapasitesi olarak da görünmesini sağlar.",
+          "resulting_reading": "Peygamberlik, dile ve elçiliğe bağlanan canlı bir aktarım işlevi kazanır.",
+          "boundary": "Dille iletim, 19:50'nin bağlamsal dalıdır; odakta belirli bir konuşma cümlesi bulunduğu iddia edilmez."
+        },
+        {
+          "branch_ref": "root_001464/B006",
+          "facet_id": "F001",
+          "branch_gloss": "hafif ve belirsiz ses",
+          "facet_statement": "Ses yüksek veya şiddetli değil, hafif ve güç fark edilir niteliktedir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "19:49:14:1"
+          ],
+          "trigger_refs": [
+            "19:52:1",
+            "19:52:7",
+            "19:50:7",
+            "19:51:9",
+            "19:41:8",
+            "19:53:7",
+            "19:54:10",
+            "19:56:8",
+            "sup_95c52129bb2657f68466"
+          ],
+          "focus_return_refs": [
+            "19:49:14:1"
+          ],
+          "carrier": "نَبِيًّا taşıyıcısı, yüksek olmayan ve güç fark edilen ses dalının focus yüzeyindeki taşıyıcısıdır.",
+          "independent_trigger": "19:52:1'deki çağrı, 19:52:7'deki özel söyleşi, 19:50:7'deki dil ve 19:51:9'daki elçilik, ayrıca yinelenen peygamberlik ayetleri bu ses görüntüsünü bağımsızca etkinleştirir.",
+          "activation": "Peygamberlik adı, çağrının yükseltilmiş veya özel biçimleriyle temas ederken, haberin her zaman gürültülü bir ilanla değil hafif bir sesle de taşınabileceğini görünür kılar.",
+          "resulting_reading": "Peygamberlik dizisi, şiddeti düşük bir sesin bile dil, elçi ve kayıt üzerinden ulaşabildiği bir aktarım kanalına açılır.",
+          "boundary": "Sesin hafifliği peygamberlik haberinin etkisiz olduğu anlamına gelmez; odaktaki makam ve açık anlam korunur."
+        },
+        {
+          "branch_ref": "root_001464/B006",
+          "facet_id": "F002",
+          "branch_gloss": "hafif ve belirsiz ses",
+          "facet_statement": "Duyan kişi sesin varlığından veya niteliğinden tam olarak emin olmayabilir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "19:49:14:1"
+          ],
+          "trigger_refs": [
+            "19:52:1",
+            "19:52:7",
+            "19:50:7",
+            "19:51:9",
+            "19:41:8",
+            "19:53:7",
+            "19:54:10",
+            "19:56:8",
+            "sup_8b0bcf62ad02a72e93e0"
+          ],
+          "focus_return_refs": [
+            "19:49:14:1"
+          ],
+          "carrier": "نَبِيًّا taşıyıcısı, dinleyende sesin varlığı veya niteliği hakkında tam kesinlik bırakmayan ses facet'ini de taşır.",
+          "independent_trigger": "19:52'deki özel söyleşi ve aday desteğinde belirtilen düşük ses-gizli aktarım ilişkisi, bu belirsizlik facet'ini haber taşıyan peygamberlik rolüne bağlar.",
+          "activation": "Sesin belirsizliği, iletimin yokluğu olarak değil, mesajın çağrı, dil ve elçilik kanallarıyla yine de sürmesi olarak focus'a geri döner.",
+          "resulting_reading": "Haberin taşıyıcısı bazen ilk işitmede belirsiz kalsa da aktarım zinciri görünür kalır.",
+          "boundary": "Belirsizlik burada dinleyenin ilk algısına aittir; vahyin doğruluğu veya peygamberlik görevi hakkında şüphe hükmü kurulmaz."
+        },
+        {
+          "branch_ref": "root_001476/B005",
+          "facet_id": "SOURCE_IMAGE",
+          "branch_gloss": "private counsel",
+          "facet_statement": "private counsel",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "19:52:7"
+          ],
+          "trigger_refs": [
+            "19:49:14:1",
+            "19:52:1",
+            "sup_be25b563ce8c7481f1e1"
+          ],
+          "focus_return_refs": [
+            "19:49:14:1"
+          ],
+          "carrier": "19:52:7'deki نَجِيًّا taşıyıcısı, özel ve gizli söyleşi görüntüsünü taşır.",
+          "independent_trigger": "Aynı ayetteki çağrı ve odaktaki hafif-belirsiz ses dalı, özel söyleşiyi haberin düşük sesli aktarım biçimi olarak etkinleştirir.",
+          "activation": "Özel söyleşi, peygamberlik atamasına temas ederek iletişimin kamusal gürültüye bağlı olmadığını ve yakın bir aktarımda da sürdüğünü gösterir.",
+          "resulting_reading": "Peygamberlik, açık çağrı ile gizli yakınlık arasında hareket edebilen bir iletişim kapasitesi olarak belirir.",
+          "boundary": "Özel söyleşi görüntüsü 19:52'ye aittir; odaktaki kişilerle aynı sahnede gizli konuşma yapıldığı söylenmez."
+        },
+        {
+          "branch_ref": "root_001486/B002",
+          "facet_id": "SOURCE_IMAGE",
+          "branch_gloss": "raised voice and calling",
+          "facet_statement": "raised voice and calling",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "19:52:1"
+          ],
+          "trigger_refs": [
+            "19:49:14:1",
+            "19:52:7",
+            "sup_95c52129bb2657f68466"
+          ],
+          "focus_return_refs": [
+            "19:49:14:1"
+          ],
+          "carrier": "19:52:1'deki نَادَيْنَا taşıyıcısı, yükseltilmiş ses ve çağrı görüntüsünü taşır.",
+          "independent_trigger": "Odaktaki hafif ses facet'i ve 19:52:7'deki özel söyleşi, iletişim kanalının yüksek çağrıdan gizli söyleşiye uzanan aralığını kurar.",
+          "activation": "Çağrı ile hafif-belirsiz ses aynı peygamberlik focus return'ünde buluşarak haberin farklı şiddetlerde iletilebildiğini görünür kılar.",
+          "resulting_reading": "Peygamberlik ataması, çağrının yüksek sesi ile dinleyenin zor fark ettiği ses arasında çalışan bir aktarım yoluna bağlanır.",
+          "boundary": "Çağrı görüntüsü peygamberliğin tek biçimi değildir; odaktaki ayet belirli bir ses olayını anlatmaz."
+        }
+      ],
+      "connection_refs": [
+        "conn_d636734afe408abe5947",
+        "conn_14f815d4b748972443f1",
+        "conn_6bbe5a5760b7fbb0257c"
+      ],
+      "context_refs": [
+        "19:41",
+        "19:50",
+        "19:51",
+        "19:52",
+        "19:53",
+        "19:54",
+        "19:56"
+      ],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "macro:existing-vocation-multiplied",
+      "origin_candidate_id": "cand_1bc1bb1698b411963a77",
+      "represented_candidate_ids": [],
+      "title": "Zaten bulunan peygamberliğin çoğalması",
+      "claim": "19:41'de İbrahim için zaten kurulmuş olan doğruluk ve peygamberlik çerçevesi, 19:49'da bağışlanan İshak ve Yakup'un her birine peygamberlik verilmesiyle dışa açılıp çoğalır.",
+      "mechanism": "19:41:7'deki doğruluk ve sağlamlık, 19:41:8'deki önceden kurulmuş peygamberlik ve 19:49:8:1'deki karşılıksız bağış, 19:49:12:2'deki dağıtıcı bütünlük ve 19:49:14:1'deki peygamberlik taşıyıcısıyla temas eder. Bu sıralama, ayrılığın İbrahim'i kendi makamına ulaştırdığı değil, zaten mevcut olan makamı yeni taşıyıcılara çoğalttığı bir değişim yaratır.",
+      "reader_payoff": "İshak ve Yakup'un peygamber kılınması, İbrahim'in şahsi başlangıcı değil, önceden belirlenmiş bir görevin iki yeni kişide genişlemesi olarak görünür.",
+      "containment": "Ayetin açık anlamı ve İbrahim'in önceki peygamberlik tanımı korunur. 19:41'in proleptik bir özet olabileceği ihtimali açıktır; burada zaman sırası zorunlu bir dogma olarak değil, perikoptaki düzenin desteklediği bir okuma olarak tutulur.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": [
+          "legacy_unbound"
+        ],
+        "reason": "HFT kaydı 19:41 ve focus koordinatlarını, rolleri ve alternatifini veriyor; reader identity legacy_unbound olduğu için çoğalma ilişkisi attributed bağlamsal kanıt olarak tutuluyor."
+      },
+      "support_ids": [
+        "sup_123fe988ddde5f9d4595"
+      ],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000852/B003",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "19:41:7"
+          ],
+          "trigger_refs": [
+            "19:41:8",
+            "19:49:14:1",
+            "sup_123fe988ddde5f9d4595"
+          ],
+          "focus_return_refs": [
+            "19:49:14:1"
+          ],
+          "carrier": "19:41:7 koordinatındaki doğruluk ve sağlamlık çerçevesi, HFT'nin atfettiği biçimde İbrahim'in konumunu önceden kurar.",
+          "independent_trigger": "19:41:8'deki peygamberlik taşıyıcısı ve 19:49:14:1'deki yeni peygamberlik ataması.",
+          "activation": "Önceden kurulmuş doğruluk ve peygamberlik, focus'taki iki yeni atamayla temas ederek görevin tek kişide başlamadığını, yeni taşıyıcılara açıldığını gösterir.",
+          "resulting_reading": "Peygamberlik, ayrılıktan sonra başlatılan bir makam değil, İbrahim'de zaten bulunan ve bağışla çoğalan bir görev görünümü kazanır.",
+          "boundary": "Bu branch için packet'te bağımsız lexicon glossu veya facet'i yoktur; yalnız exact HFT koordinatı ve atfedilen rol taşınır."
+        },
+        {
+          "branch_ref": "root_001315/B003",
+          "facet_id": "F001",
+          "branch_gloss": "bütün, tüm",
+          "facet_statement": "Bir şeyin parçalarının veya bir kümedeki bireylerin hiçbirini dışarıda bırakmadan kapsanması çekirdektir.",
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "19:49:12:2"
+          ],
+          "trigger_refs": [
+            "19:41:8",
+            "19:49:14:1",
+            "sup_123fe988ddde5f9d4595"
+          ],
+          "focus_return_refs": [
+            "19:49:12:2"
+          ],
+          "carrier": "19:49:12:2'deki كُلًّا taşıyıcısı, adlandırılan iki kişinin hiçbirini dışarıda bırakmayan dağıtıcı bütünlüğü taşır.",
+          "independent_trigger": "19:41:8'deki önceden kurulmuş peygamberlik ve 19:49:14:1'deki peygamberlik yüklemi.",
+          "activation": "Bütünlük sözcüğü, önceki peygamberlik çerçevesiyle temas ederek bağışın yalnız bir kişiyi değil, named pair'in her birini göreve dahil ettiğini görünür kılar.",
+          "resulting_reading": "Çoğalma, tekil bir halef değil, her iki kişiye dağıtılmış bir peygamberlik olarak gerçekleşir.",
+          "boundary": "Bütünlük facet'i kapsamı açıklar; İbrahim'in görevden çıktığı veya kişilerin aynı biçimde çalıştığı söylenmez."
+        },
+        {
+          "branch_ref": "root_001464/B003",
+          "facet_id": "F001",
+          "branch_gloss": "Tanrı'dan haber veren elçi",
+          "facet_statement": "Tanrı'dan gelen haberleri insanlara bildiren yetkili bir elçi söz konusudur.",
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "19:49:14:1"
+          ],
+          "trigger_refs": [
+            "19:41:8",
+            "19:49:12:2",
+            "sup_123fe988ddde5f9d4595"
+          ],
+          "focus_return_refs": [
+            "19:49:14:1"
+          ],
+          "carrier": "19:49:14:1'deki نَبِيًّا taşıyıcısı, Tanrı'dan haber veren elçi branch'inin focus taşıyıcısıdır.",
+          "independent_trigger": "19:41:8'de İbrahim için önceden verilen peygamberlik ve 19:49:12:2'deki her-biri kapsamı.",
+          "activation": "Aynı peygamberlik rolünün önce İbrahim'de, sonra her iki bağışlanan kişide görünmesi, görevin çoğalan taşıyıcılara açıldığını kurar.",
+          "resulting_reading": "İshak ve Yakup, İbrahim'in daha önce taşıdığı ilahi haber verme görevine eklenen iki yetkili düğüm olarak görünür.",
+          "boundary": "Peygamberlik görevinin çoğalması HFT'nin ilişki okumasıdır; tarihsel ayrıntı veya kapsamı packet'te olmayan haber eklenmez."
+        },
+        {
+          "branch_ref": "root_001685/B001",
+          "facet_id": "F001",
+          "branch_gloss": "karşılıksız bağışlama",
+          "facet_statement": "Bir şey, bedel ya da karşılık alınmadan başka birinin mülkiyetine geçirilir.",
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "19:49:8:1"
+          ],
+          "trigger_refs": [
+            "19:41:8",
+            "19:49:12:2",
+            "19:49:14:1",
+            "sup_123fe988ddde5f9d4595"
+          ],
+          "focus_return_refs": [
+            "19:49:8:1"
+          ],
+          "carrier": "19:49:8:1'deki وَهَبْنَا taşıyıcısı, bedelsiz verilme hareketini taşır.",
+          "independent_trigger": "İbrahim'in 19:41:8'de zaten peygamber olarak anılması ve 19:49:14:1'de iki kişinin peygamber kılınması.",
+          "activation": "Karşılıksız verme, önceden bulunan görevin başka kişilere aktarılmasına temas eder; bağış yeni bir makam icat etmekten çok taşıyıcıları çoğaltır.",
+          "resulting_reading": "Bağışlanan kişiler, İbrahim'in mevcut peygamberlik çerçevesinin dışında kalan rastgele bir ödül değil, onunla aynı ilahi görev alanına alınan yeni taşıyıcılardır.",
+          "boundary": "Bağışın karşılıksız oluşu korunur; fiziksel mülkiyet veya soyun hukuki aktarımı ileri sürülmez."
+        }
+      ],
+      "connection_refs": [
+        "conn_e139324b25aac1de2dc5"
+      ],
+      "context_refs": [
+        "19:41"
+      ],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "macro:agency-transferred-to-giver",
+      "origin_candidate_id": "cand_3e712c5b3170e9221135",
+      "represented_candidate_ids": [],
+      "title": "Etkili failin güçsüz nesneden bağışlayana geçmesi",
+      "claim": "19:42'de işitemeyen, göremeyen ve hiçbir şey sağlayamayan tapınılan nesnelerden ayrılma, 19:49'da gerçekten veren ve peygamberlik kuran failin görünür hale gelmesiyle bir fail aktarımına dönüşür.",
+      "mechanism": "19:42:9, 19:42:11 ve 19:42:13'teki işitme, görme ve yeterlik yoksunluğu; 19:49:4:1'deki boyun eğerek tapınma, 19:49:6:1'deki Allah dışındaki başkalık ve 19:49:8:1'deki etkili bağışla temas eder. Böylece ayet yalnız doğru ve yanlış tapınma nesnelerini karşılaştırmaz; neyin gerçekten alıp görebildiği ve verebildiği sorusunu da bağışın failinde cevaplar.",
+      "reader_payoff": "Okur, ayrılığı yalnız inanç nesnesi değiştirmek olarak değil, eyleyebilen ve karşılık verebilen bir kaynağa yönelmek olarak algılar.",
+      "containment": "Ayetin tapınılanları Allah'ın dışında bırakması ve Allah'ın İshak ile Yakup'u bağışlaması korunur. 19:42 ile 19:49 arasındaki fail aktarımı HFT'nin bağlamsal çıkarımıdır; Allah hakkında packet'te verilmeyen ek nitelikler kurulmaz.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": [
+          "legacy_unbound"
+        ],
+        "reason": "HFT kaydı üç olumsuz yeti koordinatını, focus'taki tapınma/dışında/bağış dallarını ve alternatifini veriyor; legacy_unbound kaynak nedeniyle ilişki attributed olarak tutuluyor."
+      },
+      "support_ids": [
+        "sup_fc531d5b61773f984e50"
+      ],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000121/B001",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "19:42:11"
+          ],
+          "trigger_refs": [
+            "19:49:4:1",
+            "19:49:8:1",
+            "sup_fc531d5b61773f984e50"
+          ],
+          "focus_return_refs": [
+            "19:49:8:1"
+          ],
+          "carrier": "19:42:11 koordinatındaki görme yoksunluğu, HFT'nin atfettiği biçimde tapınılan nesnenin algısal fail olmadığını taşır.",
+          "independent_trigger": "19:49:4:1'deki boyun eğerek tapınma ve 19:49:8:1'deki fiilen gerçekleşen bağış.",
+          "activation": "Algılayamayan nesne ile kişileri ve görevleri gerçekten veren fail aynı focus return'ünde karşılaşır; ayrılık başarısız bir failden etkili kaynağa yönelir.",
+          "resulting_reading": "Görme ve algı kapasitesi olmayan nesnelerin karşısında, gerçek etki bağışlayanın eyleminde toplanır.",
+          "boundary": "Bu branch için gloss veya facet packet'te çözülmemiştir; görme yoksunluğu yalnız exact HFT koordinatı ve rolüyle attributed taşınır."
+        },
+        {
+          "branch_ref": "root_000502/B003",
+          "facet_id": "F001",
+          "branch_gloss": "başkası ya da daha aşağıda olan",
+          "facet_statement": "Belirli bir yapıda anılan kişi veya varlığın dışında kalan başkası gösterilir.",
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "19:49:6:1"
+          ],
+          "trigger_refs": [
+            "19:42:9",
+            "19:42:11",
+            "19:42:13",
+            "19:49:8:1",
+            "sup_fc531d5b61773f984e50"
+          ],
+          "focus_return_refs": [
+            "19:49:6:1"
+          ],
+          "carrier": "19:49:6:1'deki دُونِ taşıyıcısı, Allah'ın dışında bırakılan başkalık ilişkisini taşır.",
+          "independent_trigger": "19:42'deki işitme, görme ve yeterlik yoksunluğu ile 19:49:8:1'deki etkili bağış.",
+          "activation": "Dışarıda bırakılan konum, güçsüz tapınma nesnelerini gerçek bağışın kaynağından ayıran fail sınırına dönüşür.",
+          "resulting_reading": "Allah'ın dışında kalan nesneler, sağlayıcı fail olarak değil, etkili bağışın karşısında bırakılan başkaları olarak görünür.",
+          "boundary": "Dışarıda olma facet'i kullanılır; ilahi varlıklar arasında packet dışı bir hiyerarşi kurulmaz."
+        },
+        {
+          "branch_ref": "root_000741/B001",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "19:42:9"
+          ],
+          "trigger_refs": [
+            "19:42:11",
+            "19:42:13",
+            "19:49:8:1",
+            "sup_fc531d5b61773f984e50"
+          ],
+          "focus_return_refs": [
+            "19:49:8:1"
+          ],
+          "carrier": "19:42:9 koordinatındaki işitme yoksunluğu, HFT'nin atfettiği biçimde tapınılan nesnenin çağrıyı alamadığını taşır.",
+          "independent_trigger": "19:42:11 ve 19:42:13'teki görme ve yeterlik yoksunlukları, ardından 19:49:8:1'deki gerçekleşen bağış.",
+          "activation": "İşitememe, görememe ve sağlayamama üçlüsü, focus'taki bağış eylemiyle temas ederek işlevsiz nesne ile etkin veren arasındaki farkı keskinleştirir.",
+          "resulting_reading": "Ayrılık, çağrıyı alamayan bir nesneden, kişileri ve peygamberlik görevini fiilen ortaya koyan verene yönelir.",
+          "boundary": "İşitme yoksunluğu HFT rolüyle sınırlıdır; nesnelerin bütün varlık biçimi veya başka bir teolojik sonuç çıkarılmaz."
+        },
+        {
+          "branch_ref": "root_000973/B003",
+          "facet_id": "F002",
+          "branch_gloss": "boyun eğerek itaat ve tapınma",
+          "facet_statement": "Merkezî dinsel kullanım, Tanrı'ya yönelen tapınma ve kendini bu yönelişe vermedir.",
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "19:49:4:1"
+          ],
+          "trigger_refs": [
+            "19:42:9",
+            "19:42:11",
+            "19:42:13",
+            "19:49:8:1",
+            "sup_fc531d5b61773f984e50"
+          ],
+          "focus_return_refs": [
+            "19:49:4:1"
+          ],
+          "carrier": "19:49:4:1'deki يَعْبُدُونَ taşıyıcısı, yöneltilmiş tapınma ve boyun eğme eylemini taşır.",
+          "independent_trigger": "19:42'de tapınılan nesnenin işitememesi, görememesi ve sağlayamaması.",
+          "activation": "Boyun eğme eylemi, yetisiz nesneyle temas ettiğinde yanlış yere yönelmiş bağımlılık görünür; 19:49:8:1'deki bağış ise etkili kaynağı gösterir.",
+          "resulting_reading": "Ayrılık, yalnız bir nesnenin terk edilmesi değil, karşılık üretemeyen nesneye yönelmiş bağımlılığın kesilmesidir.",
+          "boundary": "Dinsel tapınma facet'i korunur; her türlü itaati veya hukuki kulluğu bu okumaya katmaz."
+        },
+        {
+          "branch_ref": "root_001110/B002",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "19:42:13"
+          ],
+          "trigger_refs": [
+            "19:42:9",
+            "19:42:11",
+            "19:49:8:1",
+            "sup_fc531d5b61773f984e50"
+          ],
+          "focus_return_refs": [
+            "19:49:8:1"
+          ],
+          "carrier": "19:42:13 koordinatındaki yeterlik ve bir şeyi sağlayamama yoksunluğu, HFT'nin atfettiği biçimde nesnenin fayda üretemediğini taşır.",
+          "independent_trigger": "Aynı ayetteki işitme ve görme yoksunlukları ve 19:49:8:1'de gerçekleşen somut bağış.",
+          "activation": "Hiçbir şey sağlayamama, focus'taki bağışın gerçek bir sonuç üretmesiyle karşıt temas kurar; fail aktarımı soyut değil, hediye ve peygamberlikte ölçülür.",
+          "resulting_reading": "İlahi bağış, yoksun nesnelerin yapamadığı somut sağlayıcılığı görünür kılar.",
+          "boundary": "Sağlayamama rolü exact HFT trace ile sınırlıdır; Allah'ın başka fiilleri hakkında çıkarım yapılmaz."
+        },
+        {
+          "branch_ref": "root_001685/B001",
+          "facet_id": "F001",
+          "branch_gloss": "karşılıksız bağışlama",
+          "facet_statement": "Bir şey, bedel ya da karşılık alınmadan başka birinin mülkiyetine geçirilir.",
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "19:49:8:1"
+          ],
+          "trigger_refs": [
+            "19:42:9",
+            "19:42:11",
+            "19:42:13",
+            "19:49:4:1",
+            "sup_fc531d5b61773f984e50"
+          ],
+          "focus_return_refs": [
+            "19:49:8:1"
+          ],
+          "carrier": "19:49:8:1'deki وَهَبْنَا taşıyıcısı, karşılık beklemeden gerçekleşen etkili verme eylemini taşır.",
+          "independent_trigger": "19:42'deki üçlü yeti yoksunluğu ve 19:49:4:1'deki yanlış yönelmiş tapınma.",
+          "activation": "Bağış fiili, yetisiz nesnelere yöneltilen tapınmanın tersine, sonucu gerçekleşen bir verme eylemi olarak fail aktarımının focus noktası olur.",
+          "resulting_reading": "Gerçek sağlayıcılık, karşılık üretemeyen nesnelerin dışında, karşılıksız bağışın etkisinde görülür.",
+          "boundary": "Karşılıksız bağış anlamı korunur; bu karşılaştırma basit bir anlatı ardışıklığı ihtimalini dışlamaz."
+        }
+      ],
+      "connection_refs": [
+        "conn_e790a3803e829fcf6b3c"
+      ],
+      "context_refs": [
+        "19:42"
+      ],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "macro:nonviolent-boundary",
+      "origin_candidate_id": "cand_1d6a53c9848a7719a0d9",
+      "represented_candidate_ids": [],
+      "title": "Zorlanmış dışlamanın barışçıl bir sınıra dönüşmesi",
+      "claim": "19:46'daki taşlama tehdidi ve ayrılma buyruğu, 19:47-48'deki selam, bağışlanma dileği ve duayı koruyan geri çekilme ile 19:49'da karşı şiddeti yinelemeyen bir sınıra dönüşür.",
+      "mechanism": "19:46:10'daki taş gibi incitici söz ve 19:46:11'deki zorunlu ayrılık, 19:47:2'deki barış, 19:47:4'teki bağışlanma isteği, 19:48:3/7/12'deki çağrı ve 19:49:2:1'deki seçilmiş uzak durma ile temas eder. Ardından 19:49:8:1'deki karşılıksız bağış, çatışmanın aynı araçlarla sürdürülmesi yerine yeni bir ilişkisel alan kurar.",
+      "reader_payoff": "Okur, İbrahim'in çekilmesini yalnız tehdidden kaçış değil, barış ve dua korunarak kurulan bilinçli bir sınır olarak görür.",
+      "containment": "Ayetin açık ayrılma ve ardından gelen ilahi bağış anlamı korunur. Bu okuma barış ve bağışlanmanın bağımsız kapanışlar olabileceği alternatifini dışlamaz; silahsızlık outlier'ı bu bulguya eklenmemiştir.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": [
+          "legacy_unbound"
+        ],
+        "reason": "HFT kaydı dört ayette exact koordinatları, rollerini, changed reading'i ve alternatifini veriyor; legacy_unbound kimlik nedeniyle tüm HFT dalları attributed tutuluyor."
+      },
+      "support_ids": [
+        "sup_2a85fc2b59b18cab039c"
+      ],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000478/B001",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "19:48:3",
+            "19:48:7",
+            "19:48:12"
+          ],
+          "trigger_refs": [
+            "19:46:10",
+            "19:47:2",
+            "19:49:2:1",
+            "sup_2a85fc2b59b18cab039c"
+          ],
+          "focus_return_refs": [
+            "19:49:2:1"
+          ],
+          "carrier": "19:48'deki üç دَعَا koordinatı, karşı tarafın çağrılarıyla İbrahim'in Rabbine çağrısını ayıran yinelenen çağrı alanını taşır.",
+          "independent_trigger": "19:46:10'daki taşlama tehdidi ve 19:49:2:1'deki seçilmiş uzak durma.",
+          "activation": "Çağrıların karşılaştırılması, tehdidin ardından geri çekilmenin iletişimi ve duayı kesmek değil, yönünü değiştirmek olduğunu gösterir.",
+          "resulting_reading": "Sınır, çağrıyı yok etmek yerine onu Rabbe yönelen korunmuş bir dua olarak sürdürür.",
+          "boundary": "Tek tek çağrıların muhatapları ve sonuçları HFT rolünün ötesinde ayrıştırılmaz."
+        },
+        {
+          "branch_ref": "root_000547/B002",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "19:46:10"
+          ],
+          "trigger_refs": [
+            "19:47:2",
+            "19:48:3",
+            "19:49:2:1",
+            "sup_2a85fc2b59b18cab039c"
+          ],
+          "focus_return_refs": [
+            "19:49:2:1"
+          ],
+          "carrier": "19:46:10 koordinatındaki رُجْم tehdidi, taş gibi incitici ve silahlaşmış sözü taşır.",
+          "independent_trigger": "19:47:2'deki selam ve 19:49:2:1'deki geri çekilme.",
+          "activation": "İncitici tehdidin barış sözüyle karşılanması ve ardından uzak durulması, focus'taki ayrılmayı saldırının aynalanmadığı bir cevap haline getirir.",
+          "resulting_reading": "Ayrılık, tehdidin şiddetini geri vermeyen barışçıl bir sınır olarak belirir.",
+          "boundary": "Tehdit ve şiddet basıncı HFT'nin atfettiği bağlamsal role aittir; karşı saldırının tarihsel olarak hiç olmadığı iddia edilmez."
+        },
+        {
+          "branch_ref": "root_000737/B004",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "19:47:2"
+          ],
+          "trigger_refs": [
+            "19:46:10",
+            "19:47:4",
+            "19:49:2:1",
+            "sup_2a85fc2b59b18cab039c"
+          ],
+          "focus_return_refs": [
+            "19:49:2:1"
+          ],
+          "carrier": "19:47:2 koordinatındaki سَلَامٌ, savaşa karşı barış ve esenlik yönünü taşır.",
+          "independent_trigger": "19:46:10'daki tehdit, 19:47:4'teki bağışlanma dileği ve 19:49:2:1'deki uzak durma.",
+          "activation": "Barış, bağışlanma ve ayrılma aynı ardışık temas içinde buluşarak focus'taki geri çekilmenin düşmanlık üretmeyen niteliğini açıklar.",
+          "resulting_reading": "İbrahim'in ayrılması, ilişkiyi kinle kapatmak yerine barışı koruyan bir mesafe kurar.",
+          "boundary": "Barış facet'i HFT trace ile attributed taşınır; tarafların sonraki bütün ilişkileri hakkında hüküm verilmez."
+        },
+        {
+          "branch_ref": "root_001009/B001",
+          "facet_id": "F002",
+          "branch_gloss": "ayırıp bir yana koyma veya uzak durma",
+          "facet_statement": "Bir kişi birinden, bir topluluktan veya sakınılan bir şeyden uzak durur.",
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "19:49:2:1"
+          ],
+          "trigger_refs": [
+            "19:46:10",
+            "19:46:11",
+            "19:47:2",
+            "19:47:4",
+            "19:48:3",
+            "19:48:7",
+            "19:48:12",
+            "sup_2a85fc2b59b18cab039c"
+          ],
+          "focus_return_refs": [
+            "19:49:2:1"
+          ],
+          "carrier": "ٱعْتَزَلَ taşıyıcısı, bir topluluktan bilinçli biçimde uzak durma ve ayrı bir sınır kurma anlamını taşır.",
+          "independent_trigger": "19:46'daki tehdit ve ayrılık buyruğu ile 19:47-48'deki barış, bağışlanma ve dua.",
+          "activation": "Form VIII uzaklaşma, önceki zorlayıcı alanla temas ederek edilgen kovulmayı seçilmiş ve etik bir mesafeye çevirir.",
+          "resulting_reading": "İbrahim, kendisine dayatılan kopuşu barışı ve duasını koruyan bir sınır olarak yeniden kurar.",
+          "boundary": "Odaktaki olağan sosyal ve kültik uzaklaşma facet'i korunur; silahsızlık dalı bu activation'a katılmaz."
+        },
+        {
+          "branch_ref": "root_001096/B002",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "19:47:4"
+          ],
+          "trigger_refs": [
+            "19:47:2",
+            "19:48:3",
+            "19:49:8:1",
+            "sup_2a85fc2b59b18cab039c"
+          ],
+          "focus_return_refs": [
+            "19:49:2:1"
+          ],
+          "carrier": "19:47:4 koordinatındaki bağışlanma istemi, sınırın ötesinde bile gözetme ve kusuru örtme yönünü taşır.",
+          "independent_trigger": "19:47:2'deki barış ve 19:49:2:1'deki bilinçli uzaklaşma.",
+          "activation": "Bağışlanma dileği, ayrılmanın cezalandırıcı bir kopuş değil, kaygıyı koruyarak mesafe koyma olduğunu focus'a geri taşır.",
+          "resulting_reading": "Sınır, yakınlığı sona erdirirken karşı taraf için iyilik ve dua ihtimalini kapatmaz.",
+          "boundary": "Bağışlanma dalı HFT rolüyle sınırlıdır; babanın affedildiği sonucu çıkarılmaz."
+        },
+        {
+          "branch_ref": "root_001578/B001",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "19:46:11"
+          ],
+          "trigger_refs": [
+            "19:46:10",
+            "19:47:2",
+            "19:49:2:1",
+            "sup_2a85fc2b59b18cab039c"
+          ],
+          "focus_return_refs": [
+            "19:49:2:1"
+          ],
+          "carrier": "19:46:11 koordinatındaki وَٱهْجُرْنِى, ayrılığın karşı taraftan dayatılan biçimini taşır.",
+          "independent_trigger": "19:46:10'daki tehdit ve 19:49:2:1'deki kendi seçimiyle uzak durma.",
+          "activation": "Dayatılan ayrılık emri ile focus'taki tamamlanmış uzaklaşma yan yana geldiğinde, aynı kopuşun failinin ve ahlaki yönünün değiştiği görünür.",
+          "resulting_reading": "İbrahim, kendisine yöneltilen kovma hareketini kendi duasını koruyan seçilmiş bir mesafeye dönüştürür.",
+          "boundary": "Bu branch için bağımsız lexicon glossu yoktur; yalnız HFT'nin exact koordinatı, kökü ve rolü kullanılır."
+        },
+        {
+          "branch_ref": "root_001685/B001",
+          "facet_id": "F001",
+          "branch_gloss": "karşılıksız bağışlama",
+          "facet_statement": "Bir şey, bedel ya da karşılık alınmadan başka birinin mülkiyetine geçirilir.",
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "19:49:8:1"
+          ],
+          "trigger_refs": [
+            "19:46:10",
+            "19:47:2",
+            "19:48:7",
+            "19:49:2:1",
+            "sup_2a85fc2b59b18cab039c"
+          ],
+          "focus_return_refs": [
+            "19:49:8:1"
+          ],
+          "carrier": "19:49:8:1'deki وَهَبْنَا, çatışmanın karşılığında zorla alınmış güç değil, karşılıksız verilen yeni ilişkiyi taşır.",
+          "independent_trigger": "Tehdit, barış, dua ve seçilmiş uzaklaşma sırası.",
+          "activation": "Bağışın karşılıksız oluşu, focus'taki sınırın şiddetle cevaplanmadığını; yeni alanın hediye yoluyla kurulduğunu gösterir.",
+          "resulting_reading": "Çatışmanın sonucu karşı-faksiyon veya misilleme değil, yeni peygamberlik ilişkilerinin bağışlanmasıdır.",
+          "boundary": "Bağış gerçek anlatı sonucu olarak kalır; toplumsal şiddetin tümüyle yok olduğu iddia edilmez."
+        }
+      ],
+      "connection_refs": [
+        "conn_c801dd7671b70c69374f",
+        "conn_e2f5c04b4f5979ea047a",
+        "conn_d4cb1416ee4516e1f465"
+      ],
+      "context_refs": [
+        "19:46",
+        "19:47",
+        "19:48"
+      ],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "macro:private-gift-to-public-voice",
+      "origin_candidate_id": "cand_e7f4fb41e111862d624d",
+      "represented_candidate_ids": [],
+      "title": "Özel bağışın doğru ve yüksek bir kamusal sese açılması",
+      "claim": "19:49'da İshak ve Yakup'a verilen peygamberlik, 19:50'de yinelenen bağış, rahmet ve doğru sözün yükseltilmiş diliyle özel bir armağanın kamusal tanıklığa açılması olarak da belirir.",
+      "mechanism": "19:50:1'de yinelenen bağış, 19:50:4'te rahmet, 19:50:7'de dil, 19:50:8'de doğruluk ve 19:50:9'da yükselme kaynakları, 19:49:8:1'deki bağış ve 19:49:14:1'deki peygamberlik taşıyıcılarıyla temas eder. Kişilere verilen armağan, böylece yalnız özel telafi değil, doğru sözün toplulukta yükselmesini sağlayan bir taşıyıcı haline gelir.",
+      "reader_payoff": "Okur, İshak ve Yakup'u İbrahim'in yalnızlığını dolduran kişiler olarak değil, doğru tanıklığın sürmesini mümkün kılan bir aktarım olarak da algılar.",
+      "containment": "Ayetin açık anlamı, bağış ve peygamberliktir. Kamusal ses veya kalıcı hafıza çıkarımı 19:50'nin exact ayet metni ve HFT rolüne bağlıdır; bunun toplu itibar mı yoksa kişilerin konuşması mı olduğu açık bırakılır.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": [
+          "legacy_unbound"
+        ],
+        "reason": "HFT 19:49-50 koordinatlarını, rollerini, alternative reader inference'ını ve focus return'ünü veriyor; legacy_unbound nedeniyle kamusal ses ilişkisi attributed tutuluyor."
+      },
+      "support_ids": [
+        "sup_993f9708a3ed75295d11"
+      ],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000552/B001",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "19:50:4"
+          ],
+          "trigger_refs": [
+            "19:49:8:1",
+            "19:49:14:1",
+            "19:50:1",
+            "sup_993f9708a3ed75295d11"
+          ],
+          "focus_return_refs": [
+            "19:49:8:1"
+          ],
+          "carrier": "19:50:4 koordinatındaki rahmet, focus'taki bağışın ilişkiyi sürdüren ortamını taşır.",
+          "independent_trigger": "19:49:8:1'deki bağış ve 19:50:1'deki yinelenen verme.",
+          "activation": "Rahmet, kişilerin verilmesini yalnız özel bir telafi olmaktan çıkarıp sonraki söz ve görev aktarımını taşıyan bir ortam olarak focus'a döndürür.",
+          "resulting_reading": "Bağışlanan peygamberlik, rahmet içinden yayılan ve ilişkileri sürdürmeye elveren bir imkân olarak görünür.",
+          "boundary": "Rahmetin kapsamı HFT'nin rolüyle sınırlıdır; packet dışı bir kurtuluş veya sonuç iddia edilmez."
+        },
+        {
+          "branch_ref": "root_000852/B001",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "19:50:8"
+          ],
+          "trigger_refs": [
+            "19:49:8:1",
+            "19:49:14:1",
+            "19:50:1",
+            "sup_993f9708a3ed75295d11"
+          ],
+          "focus_return_refs": [
+            "19:49:14:1"
+          ],
+          "carrier": "19:50:8 koordinatındaki صِدْقٍ, doğru söz veya doğru tanıklık yönünü taşır.",
+          "independent_trigger": "19:49:14:1'deki peygamberlik haber taşıyıcısı ve 19:50:1'deki genişleyen bağış.",
+          "activation": "Doğruluk, focus'taki peygamberlik bağışına temas ederek verilen kişilerin doğru tanıklığın sonraki taşıyıcıları olarak görünmesini sağlar.",
+          "resulting_reading": "İshak ve Yakup'un peygamberliği, İbrahim'in doğru tanıklığının toplulukta sürmesine açılan bir kanal gibi algılanabilir.",
+          "boundary": "Bu branch için bağımsız lexicon glossu yoktur; doğru söz rolü yalnız HFT trace'e atfedilir."
+        },
+        {
+          "branch_ref": "root_001042/B002",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "19:50:9"
+          ],
+          "trigger_refs": [
+            "19:50:8",
+            "19:49:14:1",
+            "sup_993f9708a3ed75295d11"
+          ],
+          "focus_return_refs": [
+            "19:49:14:1"
+          ],
+          "carrier": "19:50:9 koordinatındaki yükselme, doğru dilin kamusal ve kalıcı bir konum kazanması yönünü taşır.",
+          "independent_trigger": "19:50:8'deki doğruluk ve 19:49:14:1'deki peygamberlik görevi.",
+          "activation": "Yükselme, doğru söz ile peygamberlik arasında temas kurarak özel bağışı daha geniş bir işitilme veya hatırlanma alanına taşır.",
+          "resulting_reading": "Bağışlanan peygamberlik, doğru tanıklığın yüksek ve görünür bir sese ulaşmasına imkân veren bir yapı olarak belirir.",
+          "boundary": "Yükselmenin fiziksel veya politik bir mevki olduğu söylenmez."
+        },
+        {
+          "branch_ref": "root_001355/B006",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "19:50:7"
+          ],
+          "trigger_refs": [
+            "19:49:14:1",
+            "19:50:4",
+            "19:50:8",
+            "sup_993f9708a3ed75295d11"
+          ],
+          "focus_return_refs": [
+            "19:49:14:1"
+          ],
+          "carrier": "19:50:7 koordinatındaki لِسَانَ, dili ve sözün insanlara ulaştırılmasını taşıyan HFT rolüne sahiptir.",
+          "independent_trigger": "19:50:8'deki doğru söz ve 19:49:14:1'deki peygamberlik taşıyıcısı.",
+          "activation": "Dil, doğru söz ve peygamberlik aynı focus return'ünde buluşarak bağışı özel bir ilişki içinden kamusal aktarım kapasitesine çevirir.",
+          "resulting_reading": "Peygamberlik, doğru sözün dile gelerek başkalarına ulaşmasını mümkün kılan bir ses kazanır.",
+          "boundary": "Dil dalı HFT'nin rolüyle sınırlıdır; İshak ve Yakup'un belirli bir söylevi packet'te yoktur."
+        },
+        {
+          "branch_ref": "root_001464/B003",
+          "facet_id": "F001",
+          "branch_gloss": "Tanrı'dan haber veren elçi",
+          "facet_statement": "Tanrı'dan gelen haberleri insanlara bildiren yetkili bir elçi söz konusudur.",
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "19:49:14:1"
+          ],
+          "trigger_refs": [
+            "19:50:1",
+            "19:50:4",
+            "19:50:7",
+            "19:50:8",
+            "19:50:9",
+            "sup_993f9708a3ed75295d11"
+          ],
+          "focus_return_refs": [
+            "19:49:14:1"
+          ],
+          "carrier": "19:49:14:1'deki نَبِيًّا, doğru sözün insanlara ulaşmasını sağlayan ilahi haber elçiliği taşıyıcısıdır.",
+          "independent_trigger": "19:50'de yinelenen bağış, rahmet, dil, doğruluk ve yükselme rolleri.",
+          "activation": "Peygamberlik, 19:50'nin kamusal dil kaynaklarıyla temas ederek odaktaki kişilerin özel armağandan toplumsal tanıklığa açılan aracılar olarak okunmasını sağlar.",
+          "resulting_reading": "Özel bağış, doğru tanıklığın yükseltilmiş bir kamusal sese veya kalıcı topluluk hafızasına ulaşmasıyla genişler.",
+          "boundary": "HFT'nin açık bıraktığı toplu itibar ve kişisel söz alternatifleri korunur."
+        },
+        {
+          "branch_ref": "root_001685/B001",
+          "facet_id": "F001",
+          "branch_gloss": "karşılıksız bağışlama",
+          "facet_statement": "Bir şey, bedel ya da karşılık alınmadan başka birinin mülkiyetine geçirilir.",
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "19:49:8:1"
+          ],
+          "trigger_refs": [
+            "19:50:1",
+            "19:50:4",
+            "19:50:7",
+            "19:50:8",
+            "19:50:9",
+            "sup_993f9708a3ed75295d11"
+          ],
+          "focus_return_refs": [
+            "19:49:8:1"
+          ],
+          "carrier": "19:49:8:1'deki وَهَبْنَا, özel kişilere karşılıksız verilen armağanı taşır.",
+          "independent_trigger": "19:50:1'deki yinelenen verme ile rahmet, dil ve doğru söz rolleri.",
+          "activation": "Bağışın tekrarlanması, focus'taki kişisel verilmenin kamusal söz ve tanıklık alanında devam eden bir sonuç ürettiğini görünür kılar.",
+          "resulting_reading": "İshak ve Yakup'un verilmesi, özel bir armağan olarak başlayıp doğru ve yüksek bir sesin sürmesine açılır.",
+          "boundary": "Kamusal ses sonucu HFT'nin attributed sentezidir; bağışın açık anlamı bundan daha dar değildir."
+        }
+      ],
+      "connection_refs": [
+        "conn_2da3b18f720c4c1aea8e"
+      ],
+      "context_refs": [
+        "19:50"
+      ],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "macro:person-as-prophetic-support",
+      "origin_candidate_id": "cand_a6bdb847d761bdbb7499",
+      "represented_candidate_ids": [],
+      "title": "Kişinin kendisinin peygamberlik desteği olarak bağışlanması",
+      "claim": "19:53'te Harun'un Musa'ya rahmetten bağışlanan kardeş ve peygamber olarak sunulması, 19:49'daki İshak ve Yakup'u özel mülk değil, ayrılıktan sonra peygamberlik işini paylaşan ilişkisel kapasite olarak görünür kılar.",
+      "mechanism": "19:53:1'deki bağış, 19:53:4'teki rahmet, 19:53:5'teki kardeşlik ve 19:53:7'deki peygamberlik taşıyıcıları; focus'taki 19:49:2:1 ayrılma, 19:49:8:1 bağış ve 19:49:14:1 peygamberlik ile temas eder. Aynı fiilin bir kişiyi kardeş ve peygamber olarak vermesi, focus'taki iki kişiyi sahip olunan bir ödülden paylaşılan görevin ilişkisel desteğine dönüştürür.",
+      "reader_payoff": "İshak ve Yakup, İbrahim'in yalnızlığını telafi eden iki nesne gibi değil, peygamberlik görevinin paylaşılabilir hale gelmesini sağlayan kişiler olarak görünür.",
+      "containment": "Ayetin nesnel ve açık anlamı olan iki kişinin bağışlanması ve peygamber yapılması korunur. 19:53'ün anlık yardım mı yoksa focus'taki soy devamı mı olduğu alternatifleri birlikte kalır; kişileri mülk sayan bir gerçeklik iddiası yapılmaz.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": [
+          "legacy_unbound"
+        ],
+        "reason": "HFT, 19:53'teki yakın paralelin exact koordinatlarını ve focus return'ünü veriyor; legacy_unbound kaynak nedeniyle kişi-as-support okuması attributed korunuyor."
+      },
+      "support_ids": [
+        "sup_c59fc59344f7a153c4dc"
+      ],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000020/B002",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "19:53:5"
+          ],
+          "trigger_refs": [
+            "19:53:4",
+            "19:53:7",
+            "19:49:8:1",
+            "sup_c59fc59344f7a153c4dc"
+          ],
+          "focus_return_refs": [
+            "19:49:14:1"
+          ],
+          "carrier": "19:53:5 koordinatındaki kardeşlik, bir kişinin sahip olunan nesne değil ilişki kuran bir destek olmasını taşır.",
+          "independent_trigger": "19:53:4'teki rahmet ve 19:53:7'deki peygamberlik.",
+          "activation": "Kardeşlik, bağışlanan kişinin işlevini nesne olmaktan çıkarıp peygamberlik işini paylaşan bir ilişki haline getirir.",
+          "resulting_reading": "Kişi olarak bağış, görev paylaşımına dönüşen ilişkisel kapasite görünümü kazanır.",
+          "boundary": "Kardeşlik rolü Harun paraleline aittir; İshak ve Yakup'un biyografik kardeşlik ayrıntısı buradan yeniden kurulmaz."
+        },
+        {
+          "branch_ref": "root_000552/B001",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "19:53:4"
+          ],
+          "trigger_refs": [
+            "19:53:5",
+            "19:53:7",
+            "19:49:8:1",
+            "sup_c59fc59344f7a153c4dc"
+          ],
+          "focus_return_refs": [
+            "19:49:8:1"
+          ],
+          "carrier": "19:53:4 koordinatındaki rahmet, kişisel desteğin bağışlandığı ilişki ortamını taşır.",
+          "independent_trigger": "19:53:5'teki kardeşlik ve 19:53:7'deki peygamberlik, ardından 19:49:8:1'deki focus bağışı.",
+          "activation": "Rahmet, kişinin verilmesini bir mülk aktarımı değil, görevi taşıyacak ilişkiyi kuran bağış olarak focus'a bağlar.",
+          "resulting_reading": "İshak ve Yakup'un verilmesi, ayrılıktan sonra rahmet içinden açılan peygamberlik desteği gibi görünür.",
+          "boundary": "Rahmetin kapsamı packet'te verilen paralelle sınırlıdır; ek tarihsel sonuç çıkarılmaz."
+        },
+        {
+          "branch_ref": "root_001009/B001",
+          "facet_id": "F002",
+          "branch_gloss": "ayırıp bir yana koyma veya uzak durma",
+          "facet_statement": "Bir kişi birinden, bir topluluktan veya sakınılan bir şeyden uzak durur.",
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "19:49:2:1"
+          ],
+          "trigger_refs": [
+            "19:53:1",
+            "19:53:4",
+            "19:53:5",
+            "19:53:7",
+            "sup_c59fc59344f7a153c4dc"
+          ],
+          "focus_return_refs": [
+            "19:49:2:1"
+          ],
+          "carrier": "ٱعْتَزَلَ taşıyıcısı, ilişkisel kopuş ve topluluktan uzaklaşma başlangıcını taşır.",
+          "independent_trigger": "19:53'teki rahmetten kardeş ve peygamber bağışı.",
+          "activation": "Ayrılma ile kardeş-peygamber bağışının teması, kaybedilen ilişkinin yerine sahiplik değil paylaşılabilir görev ilişkisi geldiğini görünür kılar.",
+          "resulting_reading": "Odaktaki uzaklaşma, yeni bir peygamberlik desteğinin kurulmasına açılan sınır haline gelir.",
+          "boundary": "Uzaklaşmanın 19:53'te doğrudan sonuçlandırıldığı iddia edilmez; paralel mekanizma attributed'dir."
+        },
+        {
+          "branch_ref": "root_001464/B003",
+          "facet_id": "F001",
+          "branch_gloss": "Tanrı'dan haber veren elçi",
+          "facet_statement": "Tanrı'dan gelen haberleri insanlara bildiren yetkili bir elçi söz konusudur.",
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "19:49:14:1"
+          ],
+          "trigger_refs": [
+            "19:53:5",
+            "19:53:7",
+            "19:49:8:1",
+            "sup_c59fc59344f7a153c4dc"
+          ],
+          "focus_return_refs": [
+            "19:49:14:1"
+          ],
+          "carrier": "19:49:14:1'deki نَبِيًّا, bağışlanan kişinin ilahi haber elçiliği işlevini taşır.",
+          "independent_trigger": "19:53:7'de Harun'un aynı peygamberlik rolüyle kardeş olarak verilmesi.",
+          "activation": "Peygamberlik elçiliği, kişi olarak bağışın görev paylaşımına dönüşmesi için focus'taki ortak işlevi sağlar.",
+          "resulting_reading": "İshak ve Yakup, yalnız soy devamı değil, ilahi haber verme görevini taşıyabilen ilişkisel destekler olarak görünür.",
+          "boundary": "Bu, Harun paralelinden kurulan attributed açıklamadır; iki kişinin aynı görev ayrıntılarına sahip olduğu ayrıca iddia edilmez."
+        },
+        {
+          "branch_ref": "root_001685/B001",
+          "facet_id": "F001",
+          "branch_gloss": "karşılıksız bağışlama",
+          "facet_statement": "Bir şey, bedel ya da karşılık alınmadan başka birinin mülkiyetine geçirilir.",
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "19:49:8:1"
+          ],
+          "trigger_refs": [
+            "19:53:1",
+            "19:53:4",
+            "19:53:7",
+            "19:49:14:1",
+            "sup_c59fc59344f7a153c4dc"
+          ],
+          "focus_return_refs": [
+            "19:49:8:1"
+          ],
+          "carrier": "19:49:8:1'deki وَهَبْنَا, İshak ve Yakup'un karşılıksız verilmesini taşır.",
+          "independent_trigger": "19:53:1'deki aynı verme fiilinin Harun adlı bir kişiyi rahmetten bağış olarak sunması.",
+          "activation": "Aynı verme kalıbı kişi ve peygamberlik ile birleştiğinde focus'taki bağışın maddi nesne değil, işlev taşıyan bir kişi olmasını mümkün kılar.",
+          "resulting_reading": "Bağışın sonucu, peygamberlik görevini paylaşan kişisel destek olarak görünür.",
+          "boundary": "Bağışın olağan karşılıksızlık anlamı korunur; kişi-mülk eşitlemesi yapılmaz."
+        }
+      ],
+      "connection_refs": [
+        "conn_8cc9c7c03460620e0d75"
+      ],
+      "context_refs": [
+        "19:53"
+      ],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "macro:selected-dispersing-line",
+      "origin_candidate_id": "cand_478ae55e2be4eac470c2",
+      "represented_candidate_ids": [],
+      "title": "Seçilmiş ve dağılan peygamberlik çizgisi",
+      "claim": "İshak ve Yakup'un her birinin peygamber yapılması, 19:58'de Adem, Nuh, İbrahim ve İsrail soyları içinde rehberlik ve seçilme ile dağılan bir peygamberlik çizgisinin etkin düğümleri olarak da okunur.",
+      "mechanism": "19:58:7'deki peygamberler kataloğu, 19:58:9 ve 19:58:16'daki soyun dağılma görüntüsü, 19:58:20'deki yönlendirme ve 19:58:21'deki seçme/yaklaştırma, focus'taki bağış, bütünlük ve peygamberlik taşıyıcılarıyla temas eder. Böylece 19:49'daki iki isim, İbrahim'in özel hikâyesinde kapanan iki atama değil, seçilmiş ve dağılan bir çizgide çalışan düğümler haline gelir.",
+      "reader_payoff": "Okur, iki ismi yalnız ardıl kişiler olarak değil, rehberlik altında çoğalan ve daha geniş bir peygamberlik hattına bağlanan etkin noktalar olarak görür.",
+      "containment": "Ayetin açık anlamı olan iki kişinin bağışlanması ve peygamber yapılması korunur. 19:58'in geriye dönük kataloglama mı yoksa focus bağışının işlevini açıklayan çizgi mi olduğu alternatifleri birlikte tutulur; ek soy bilgisi eklenmez.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": [
+          "legacy_unbound"
+        ],
+        "reason": "HFT 19:49 ve 19:58 için exact ayet/kelime koordinatları, roller ve alternatif veriyor; legacy_unbound kaynak nedeniyle çizgi sentezi attributed kalıyor."
+      },
+      "support_ids": [
+        "sup_6ff5e5c9b402734c3c46"
+      ],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000220/B004",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "19:58:21"
+          ],
+          "trigger_refs": [
+            "19:49:8:1",
+            "19:49:14:1",
+            "19:58:7",
+            "sup_6ff5e5c9b402734c3c46"
+          ],
+          "focus_return_refs": [
+            "19:49:14:1"
+          ],
+          "carrier": "19:58:21 koordinatındaki seçme ve yaklaştırma rolü, çizginin üyelerinin belirlenmesini taşır.",
+          "independent_trigger": "19:58:7'deki peygamberler kataloğu ve 19:49:14:1'deki focus peygamberlik ataması.",
+          "activation": "Seçme, peygamberlik bağışına temas ederek İshak ve Yakup'un çizgide rastgele değil, yönlendirilmiş biçimde beliren üyeler olduğunu görünür kılar.",
+          "resulting_reading": "İki kişi, seçilmiş peygamberlik çizgisinin etkin üyeleri olarak belirir.",
+          "boundary": "Bu branch için lexicon glossu veya facet'i packet'te yoktur; seçme rolü exact HFT trace'e atfedilir."
+        },
+        {
+          "branch_ref": "root_000511/B001",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "19:58:9",
+            "19:58:16"
+          ],
+          "trigger_refs": [
+            "19:58:7",
+            "19:58:20",
+            "19:49:14:1",
+            "sup_6ff5e5c9b402734c3c46"
+          ],
+          "focus_return_refs": [
+            "19:49:14:1"
+          ],
+          "carrier": "19:58:9 ve 19:58:16 koordinatlarındaki soy taşıyıcıları, küçük birimlerin dağılarak devam etmesi görüntüsünü taşır.",
+          "independent_trigger": "19:58:7'deki peygamberler ve 19:58:20'deki rehberlik, focus'taki iki yeni peygamber düğümünü bu devamlılığa bağlar.",
+          "activation": "Dağılan soy görüntüsü, iki kişinin focus'ta verilmesini bir kapanış değil, çizginin farklı düğümlere yayılması olarak yeniden belirginleştirir.",
+          "resulting_reading": "İshak ve Yakup, İbrahim'in ardından yayılan peygamberlik çizgisinin çoğalan taşıyıcıları gibi görünür.",
+          "boundary": "Dağılma burada HFT'nin soy sürekliliği rolüdür; belirli bir soy ağacı veya biyografik sıra kurulmaz."
+        },
+        {
+          "branch_ref": "root_001315/B003",
+          "facet_id": "F001",
+          "branch_gloss": "bütün, tüm",
+          "facet_statement": "Bir şeyin parçalarının veya bir kümedeki bireylerin hiçbirini dışarıda bırakmadan kapsanması çekirdektir.",
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "19:49:12:2"
+          ],
+          "trigger_refs": [
+            "19:58:7",
+            "19:58:20",
+            "19:58:21",
+            "sup_6ff5e5c9b402734c3c46"
+          ],
+          "focus_return_refs": [
+            "19:49:12:2"
+          ],
+          "carrier": "19:49:12:2'deki كُلًّا, iki kişinin her birini dışarıda bırakmadan kapsar.",
+          "independent_trigger": "19:58'deki peygamberler kataloğu, rehberlik ve seçilme rolleri.",
+          "activation": "Dağılan çizgideki seçilmiş üyelik, focus'taki 'her biri' kapsamıyla temas ederek iki ismin pasif soy halkaları olmadığını gösterir.",
+          "resulting_reading": "Her biri kendi peygamberlik düğümü olarak seçilmiş çizginin içinde etkinleşir.",
+          "boundary": "Bütünlük facet'i iki kişiye uygulanır; tüm peygamberler hakkında packet dışı kapsam çıkarılmaz."
+        },
+        {
+          "branch_ref": "root_001464/B003",
+          "facet_id": "F001",
+          "branch_gloss": "Tanrı'dan haber veren elçi",
+          "facet_statement": "Tanrı'dan gelen haberleri insanlara bildiren yetkili bir elçi söz konusudur.",
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "19:49:14:1"
+          ],
+          "trigger_refs": [
+            "19:58:7",
+            "19:58:9",
+            "19:58:20",
+            "sup_6ff5e5c9b402734c3c46"
+          ],
+          "focus_return_refs": [
+            "19:49:14:1"
+          ],
+          "carrier": "19:49:14:1'deki نَبِيًّا, ilahi haber elçiliği görevini taşır.",
+          "independent_trigger": "19:58:7'deki peygamberler kataloğu ve 19:58:9/16'daki soy dağılımı.",
+          "activation": "Elçilik görevi, soy ve dağılım görüntüsünü pasif kalıtımdan çıkarıp aktif peygamberlik düğümlerine bağlar.",
+          "resulting_reading": "İshak ve Yakup, daha geniş çizgide haber taşıyan etkin peygamberler olarak görünür.",
+          "boundary": "Elçilik görevinin ayrıntıları focus dışındaki kişilerden bu ikisine aktarılmaz."
+        },
+        {
+          "branch_ref": "root_001583/B001",
+          "facet_id": "SOURCE_IMAGE",
+          "branch_gloss": "gentle guidance toward a way or truth",
+          "facet_statement": "gentle guidance toward a way or truth",
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "19:58:20"
+          ],
+          "trigger_refs": [
+            "19:58:7",
+            "19:58:21",
+            "19:49:14:1",
+            "sup_6ff5e5c9b402734c3c46"
+          ],
+          "focus_return_refs": [
+            "19:49:14:1"
+          ],
+          "carrier": "19:58:20 koordinatındaki rehberlik, çizginin doğru yöne yönlendirilmesini taşır.",
+          "independent_trigger": "19:58:21'deki seçme/yaklaştırma ve focus'taki peygamberlik ataması.",
+          "activation": "Rehberlik, bağışlanan kişilerin çizgide yalnız çoğalmadığını, belirli bir yön altında belirdiğini focus'a geri döndürür.",
+          "resulting_reading": "Peygamberlik çizgisi, dağılan ama yönünü kaybetmeyen seçilmiş bir hareket kazanır.",
+          "boundary": "Bu branch için gloss veya facet yoktur; yalnız exact HFT rehberlik rolü taşınır."
+        },
+        {
+          "branch_ref": "root_001685/B001",
+          "facet_id": "F001",
+          "branch_gloss": "karşılıksız bağışlama",
+          "facet_statement": "Bir şey, bedel ya da karşılık alınmadan başka birinin mülkiyetine geçirilir.",
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "19:49:8:1"
+          ],
+          "trigger_refs": [
+            "19:58:7",
+            "19:58:9",
+            "19:58:20",
+            "19:58:21",
+            "sup_6ff5e5c9b402734c3c46"
+          ],
+          "focus_return_refs": [
+            "19:49:8:1"
+          ],
+          "carrier": "19:49:8:1'deki وَهَبْنَا, iki kişiyi karşılıksız biçimde focus'a getiren bağışı taşır.",
+          "independent_trigger": "19:58'deki soy, rehberlik, seçme ve peygamberlik rolleri.",
+          "activation": "Bağış, sonraki çizgideki yayılma ve seçilmeyle temas ederek kişisel bir verme anını daha uzun ömürlü peygamberlik hattının başlangıç düğümü haline getirir.",
+          "resulting_reading": "İshak ve Yakup'un bağışı, yönlendirilmiş ve dağılan peygamberlik çizgisini taşıyacak yeni üyeler sağlar.",
+          "boundary": "Çizgi okuması HFT'nin attributed sentezidir; soy devamlılığı biyolojik veya tarihsel ayrıntıya genişletilmez."
+        }
+      ],
+      "connection_refs": [
+        "conn_5ba977f9cc09fcd1762f"
+      ],
+      "context_refs": [
+        "19:58"
+      ],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "macro:unarmed-exit",
+      "origin_candidate_id": "cand_3acee937cac6a3b9b236",
+      "represented_candidate_ids": [],
+      "title": "Tehdide karşı silahsız çıkış",
+      "claim": "HFT'nin exploratory kök-imge okumasında 19:49'daki uzaklaşma, 19:46'nın taşlama tehdidine silahlanarak karşılık vermeyen silahsız bir çıkış olarak da belirir; etkili güç karşılık kuvvetiyle değil, bağışlanan peygamberlik ilişkileriyle gelir.",
+      "mechanism": "19:46:10'daki taşlama tehdidi, focus'taki عزل fiilinin silahsızlık dalı ve 19:49:8:1 ile 19:49:14:1'deki bağış ve peygamberlik taşıyıcılarıyla temas eder. Aynı kökün focus'ta bulunan silahsız kişi facet'i, form uzaklığı açıkça korunarak, tehdidin karşısına silahsız geri çekilmeyi ve yeni gücün hediye olarak gelmesini yerleştirir.",
+      "reader_payoff": "Okur, geri çekilmeyi yalnız bir kaçış değil, zorlayıcı alanı silahlanmadan terk edip başka türden bir etkinliğe açılma ihtimali olarak da fark eder.",
+      "containment": "Bu, HFT'nin exploratory ve form-distant kök-imge okumasıdır; عزل fiilinin olağan anlamı olan uzaklaşma korunur. Ayette gerçek silah bulunmadığı, karşı şiddetin tarihsel olarak hiç yaşanmadığı veya bu imgenin tek doğru açıklama olduğu iddia edilmez.",
+      "epistemic": {
+        "status": "exploratory",
+        "source_trust": [
+          "legacy_unbound"
+        ],
+        "reason": "HFT exact 19:46:10 ve focus coordinates ile silahsızlık rolünü ve form uzaklığı uyarısını veriyor; lexicon dalı mevcut olsa da kaynak kimliği legacy_unbound ve inference exploratory."
+      },
+      "support_ids": [
+        "sup_5d06a42187067aa6f491"
+      ],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000547/B002",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "19:46:10"
+          ],
+          "trigger_refs": [
+            "19:49:2:1",
+            "19:49:8:1",
+            "19:49:14:1",
+            "sup_5d06a42187067aa6f491"
+          ],
+          "focus_return_refs": [
+            "19:49:2:1"
+          ],
+          "carrier": "19:46:10 koordinatındaki رُجْم tehdidi, taş gibi incitici sözün silahlaşmış basıncını taşır.",
+          "independent_trigger": "19:49:2:1'deki silahsız çıkış kök-imge rolü ve 19:49:8:1'deki karşı kuvvet yerine geçen bağış.",
+          "activation": "Tehdit, focus'taki silahsızlık görüntüsüyle temas ederek geri çekilmeyi karşı saldırı hazırlığı değil, zorlayıcı alandan silahsız çıkış olarak belirginleştirir.",
+          "resulting_reading": "Tehdide verilen cevap, silahlanma yerine silahsız ayrılma ve bağışlanan yeni ilişkiler olarak görünür.",
+          "boundary": "Bu branch yalnız exact HFT coordinate ve role ile attributed kullanılır; lexicon glossu icat edilmez."
+        },
+        {
+          "branch_ref": "root_001009/B004",
+          "facet_id": "F001",
+          "branch_gloss": "silahsızlık nitelemesi",
+          "facet_statement": "Kişi savaşmak için mızraktan veya bütün silahlardan yoksundur.",
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "19:49:2:1"
+          ],
+          "trigger_refs": [
+            "19:46:10",
+            "19:49:8:1",
+            "19:49:14:1",
+            "sup_5d06a42187067aa6f491"
+          ],
+          "focus_return_refs": [
+            "19:49:2:1"
+          ],
+          "carrier": "ٱعْتَزَلَ taşıyıcısı, HFT'nin form uzaklığı uyarısıyla, savaşmak için silahtan yoksun kişi facet'ine de temas eder.",
+          "independent_trigger": "19:46:10'daki taşlama tehdidi ve 19:49:8:1'de güç yerine hediye olarak gelen sonuç.",
+          "activation": "Aynı focus formu, olağan sosyal uzaklaşma ile silahsızlık imgesini temas ettirerek tehdide karşı cevabın araçsızlığını görünür kılar.",
+          "resulting_reading": "İbrahim'in çıkışı, exploratory düzeyde silahsız bir geri çekilme ve karşı kuvvet üretmeme olarak algılanabilir.",
+          "boundary": "Form VIII fiilin olağan uzaklaşma anlamı korunur; silahsızlık literal morphology değil root-image'dır."
+        },
+        {
+          "branch_ref": "root_001464/B003",
+          "facet_id": "F001",
+          "branch_gloss": "Tanrı'dan haber veren elçi",
+          "facet_statement": "Tanrı'dan gelen haberleri insanlara bildiren yetkili bir elçi söz konusudur.",
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "19:49:14:1"
+          ],
+          "trigger_refs": [
+            "19:46:10",
+            "19:49:2:1",
+            "19:49:8:1",
+            "sup_5d06a42187067aa6f491"
+          ],
+          "focus_return_refs": [
+            "19:49:14:1"
+          ],
+          "carrier": "19:49:14:1'deki peygamberlik, silahlaşmış bir karşı-faksiyon yerine haber ve görev taşıyan ilişkiyi taşır.",
+          "independent_trigger": "19:46:10'daki tehdit ve 19:49:2:1'deki silahsız çıkış görüntüsü.",
+          "activation": "Peygamberlik elçiliği, tehdidin karşısına aynı silahı koymadan etkili olmanın farklı bir biçimini focus'a geri bağlar.",
+          "resulting_reading": "Güç, karşı saldırıdan değil ilahi haber ve peygamberlik ilişkilerinden gelir.",
+          "boundary": "Bu contact exploratory ve attributed'dir; peygamberliğin yalnızca silahsızlıkla tanımlandığı söylenmez."
+        },
+        {
+          "branch_ref": "root_001685/B001",
+          "facet_id": "F001",
+          "branch_gloss": "karşılıksız bağışlama",
+          "facet_statement": "Bir şey, bedel ya da karşılık alınmadan başka birinin mülkiyetine geçirilir.",
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "19:49:8:1"
+          ],
+          "trigger_refs": [
+            "19:46:10",
+            "19:49:2:1",
+            "19:49:14:1",
+            "sup_5d06a42187067aa6f491"
+          ],
+          "focus_return_refs": [
+            "19:49:8:1"
+          ],
+          "carrier": "19:49:8:1'deki وَهَبْنَا, silah veya zor kullanımı yerine karşılıksız gelen etkili sonucu taşır.",
+          "independent_trigger": "19:46:10'daki tehdit ve 19:49:14:1'deki peygamberlik aracı.",
+          "activation": "Bağış, silahsız çıkışın sonucunu boşlukta bırakmaz; tehdidin yerine yeni ve görev taşıyan ilişkiler koyar.",
+          "resulting_reading": "Etkili güç, silahsız geri çekilişten sonra bağışlanan peygamberlik ilişkileri olarak görünür.",
+          "boundary": "Karşılıksız bağışın açık anlamı korunur; bu sonuç yalnız exploratory kök-imge sentezidir."
+        }
+      ],
+      "connection_refs": [
+        "conn_c801dd7671b70c69374f"
+      ],
+      "context_refs": [
+        "19:46"
+      ],
+      "semantic_obligation_refs": []
+    }
+  ],
+  "friction_notes": [
+    "focus_word_alignment 18/18 çözülmüş; bu nedenle unresolved analysis unit kaynaklı ek bir taşıyıcı belirsizliği yok.",
+    "Yedi HFT kaydının reader identity durumu legacy_unbound. Exact ayet, word index, kök, rol ve focus return bulunduğunda kayıtlar attributed olarak korundu; registry çözülmemiş branch'lerde gloss veya facet uydurulmadı.",
+    "19:50, 19:53, 19:58 ve diğer bağlantı hedeflerinde hedef morfolojisi packet'te verilmediği için bağlantılar yalnızca kayıtlı ayet ilişkisi olarak kullanıldı; hedef kelime analizi eklenmedi.",
+    "Phase 2'de açıkça eklenen 1:2-1:7 ayat tek tek incelendi. Native pericope zaten aynı Rabb, bilgi, yönlendirme, yol, çağrı ve peygamberlik temaslarını taşıdığı için external overlay yeni bir carrier-trigger-contact ve changed reading üretmedi; ayrı external finding retained edilmedi.",
+    "Kalan focus branch seçenekleri ya primary appointment/exclusion yüzeyini tekrar ediyor ya da packet'te bağımsız tetikleyici ve maddi changed reading kurmuyor; bu nedenle uncandidate ek finding açılmadı."
+  ]
+}

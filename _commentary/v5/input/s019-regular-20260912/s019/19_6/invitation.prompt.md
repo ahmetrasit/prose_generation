@@ -1,0 +1,177 @@
+# V5 reading invitation — 19:6
+
+You are a fresh reading-invitation writer. Read the complete editorial prose
+before writing. It is your sole semantic source.
+
+Write two to four paragraphs of fluent, contemporary Turkish that reveal a
+surprising reading by following one or two main channels of resonance in the
+ayah. A channel is a connected background of meanings, images, actions, or
+relations through which the ayah can be heard and understood differently.
+Several editorial findings may together develop one channel. Summarize that
+connected movement and its consequence for the ayah's main meaning, rather
+than compressing findings individually. Give the reading's substance now;
+the invitation comes from understanding it, not from a promise of hidden depth.
+
+Before drafting, read the entire editorial prose and silently select the one
+or two channels with the strongest interpretive consequence and enough
+grounding to explain clearly. Favor channels that expand or shift what the
+ayah says, the relation it establishes, or what is at stake in its action or
+image. One fully developed channel is sufficient; add a second only when it
+offers a distinct consequential reading that can be explained within the
+invitation. No finding, channel, or major shift has an individual coverage
+claim. Unselected material may remain entirely in the full commentary.
+
+A channel may develop through grammar, sound, dialogue, a material process,
+time, imagery, or a conceptual relation. Resonance is not limited to acoustic
+effects, and an unusual image alone does not establish a channel. Use only
+connections the editorial prose actually develops. If it supplies no such
+channel, explain its strongest grounded reading without inventing connections
+or surprise.
+
+Begin inside the ayah's own words, images, actions, or relations and reveal a
+selected distinctive reading in the first paragraph. Keep the plain meaning
+reachable with only the orientation needed to understand the change. Do not
+spend an opening paragraph on routine explanation or front-load context about
+the surah, the ayah's position, or the commentary project.
+
+For each selected channel, begin with the expression that opens it, unfold the
+connected background, and show how the ayah reads or sounds against that
+background. Let a detail lead into the next through an intelligible relation
+or process, so the reader experiences the emerging reading. This is a movement
+of thought, not a mandatory sentence pattern or one paragraph per finding.
+Let the reader identify the expression being interpreted,
+where any nonordinary detail comes from, and what that detail changes in the
+reading. Briefly identify the word-family use, restricted form, collocation, or
+context that supplies an essential added detail, and preserve the concrete
+operation that makes the image work. Keep the ordinary reading and necessary
+qualification clear within this explanation; do not repeat them as a fixed
+formula. Preserve the particular object, process, or relation that makes this
+reading distinctive, and state its interpretive consequence for the ayah as a
+whole. Make intelligible what the familiar reading leaves less visible and
+what the expanded or shifted reading now lets the reader understand. Preserve
+the editorial's force: an exploratory possibility remains possible, while a
+developed shift must not be softened into a decorative association or a
+reassurance that everything means the same thing. A concrete
+account of how something is carried, transformed, lost, or restored must not
+shrink to a general statement about care, guidance, dependence, or goodness.
+Keep the details needed to make the selected channel work; omit side findings
+and shorten routine setup. If a channel cannot be explained faithfully from
+the editorial prose, choose another grounded channel or reading.
+
+When a non-focus ayah supplies a contribution used in the invitation, keep its
+reference from the editorial prose beside that contribution.
+
+Do not turn the invitation into a miniature inventory of the commentary's
+conclusions, or flatten distinct channels into a broad theme to include more
+material. Do not repair, extend, or supplement the editorial prose from memory
+or outside knowledge.
+
+Omit technical apparatus. Retain any qualification, source distinction, live
+alternative, or boundary whose absence would change the force or meaning of a
+chosen reading. Express it naturally beside the image or relation it qualifies.
+Favor positive explanations of the relation between layers: what remains in
+the foreground and what the resonance makes audible in the background. State
+how that background reinforces, expands, or shifts the understanding of the
+main meaning, with the source and degree of certainty clear. Reserve explicit
+exclusions for concrete ambiguities or live counter-evidence that need them.
+Repeated "this is not X" endings make a reading sound withdrawn; express the
+substantive qualification through what the reading does contribute wherever
+possible. Use varied, natural language rather than a repeated "second layer"
+formula, and preserve the force of expansions and shifts.
+Do not name branches, candidates, findings, scopes, evidence categories,
+ledgers, or workflow stages, or label the prose as numbered channels. Do not
+list findings serially.
+
+Use the established `{ar:..., tr:..., gloss:...}` syntax, consistent
+Turkish-readable transliteration, and short ordinary glosses. Keep Arabic
+anchors beside the explanations they ground. Within a paragraph, continue with
+the Turkish meaning where clear; provide the necessary local tag when a later
+paragraph interprets the carrier anew. Do not place Arabic script outside a
+valid tag.
+
+Build transitions within a channel through its shared object, action, or
+relation. If two channels are selected, they may occupy separate paragraphs;
+do not invent a link between them. Do not praise the commentary's quality,
+promise what the reader will find, manufacture suspense, recap at the end, or
+add a call to action. End on an image, relation, action, or tension already
+established by the selected reading.
+
+Before finishing, compare the invitation with the entire editorial prose:
+does the chosen channel reveal a consequential reading, or could the text have
+been written from the ordinary translation and a modest explanation alone?
+When the editorial supports a surprising channel, the latter fails this task.
+Can the reader follow the opening expression into a connected background and
+understand how that background expands or shifts the ayah's main meaning?
+Check the selected connections against their editorial explanation: can the
+reader tell where the nonordinary details come from, with the necessary
+qualifications intact? Repair generic explanation, isolated curiosities, or a
+compressed findings list by developing the selected channel. Do not add
+omitted channels merely for coverage. Do not output this check.
+
+Write only the invitation text to:
+
+`_commentary/v5/editorial/s019-regular-20260912/s019/19_6/19_6.invitation.tr.md`
+
+Do not add a heading, wrapper label, index, ledger, evidence file, or any other
+artifact. Do not modify the editorial prose.
+
+After writing the invitation, run:
+
+```bash
+python3 _commentary/v5/validate_prose.py _commentary/v5/editorial/s019-regular-20260912/s019/19_6/19_6.invitation.tr.md
+```
+
+If validation fails, repair only the reported mechanical file-contract issues
+and rerun it, for at most two repair cycles. Report the final validator result
+in your response.
+
+<editorial_prose>
+## Aynı kişi, iki kaynak
+
+Bu ayet, 19:5'te korkuyla istenen mirasçıyı yeni bir özne adı getirmeden dua içinde taşır. {ar:يَرِثُنِي, tr:yarithunī, gloss:benden miras alsın} ile {ar:يَرِثُ, tr:yarithu, gloss:miras alsın} aynı kişinin konuşanın ardından hem konuşandan hem de {ar:آلِ يَعْقُوبَ, tr:āli Yaʿqūb, gloss:Yakub ailesinden} miras almasını ister. Sonra {ar:وَاجْعَلْهُ, tr:waj'alhu, gloss:onu bir duruma kıl} ve {ar:رَبِّ, tr:rabbī, gloss:Rabbim} hitabı, bu mirasçının {ar:رَضِيًّا, tr:raḍiyyan, gloss:hoşnut ve uygun bulunmuş} bir hâle getirilmesini diler. Ayetin açık öznesiz üçüncü tekil fiili, 19:5'te başlayan dileğin sınırını korur: önce ardıllık istenir, ardından o ardıllığı taşıyacak kişinin niteliğine yönelinir.
+
+{ar:يَرِثُنِي, tr:yarithunī, gloss:benden miras alsın} içindeki birinci şahıs nesne eki, miras bırakanı konuşan Zakariyya olarak belirler. Fiilin miras alınacak şeyi açık bırakması, kişisel kaynağı sabitlerken içeriği mal, makam, bilgi ve görev ihtimallerine açık tutar. Standart gelecek yönelimli çekim, mirasçının daha sonra üstleneceği işlevi öne çıkarır. Cezmli ve tasgirli okunuş değişkeleri aynı yüzeyde dua etme ve adlandırma basınçlarını duyurur; bu karşılaştırmalı sesler, seçili biçimin gelecek yönelimini ve mirasçı eylemini koruyarak yan yana kalır. Aynı gelecek yönelimi ikinci {ar:يَرِثُ, tr:yarithu, gloss:miras alsın} fiilinde de sürer; bu fiilin değişkeleri unvan ve dua çağrışımlarını görünür kılarken ayetteki sonradan gerçekleşecek miras eylemi yerinde kalır.
+
+İlk {ar:وَ, tr:wa, gloss:ve} iki miras fiilini birbirine bağlayan küçük fakat işitilir bir menteşedir. Ortak gizli üçüncü tekil özne, aynı mirasçıyı iki ilişkide de taşır; Zakariyya'nın şahsından gelen ilişki ile Yakub ailesi alanından gelen ilişki böylece aynı kişide buluşur. Bağlaç iki kaynağın aynı mirasçıda birleştiğini gösterir; kaynaklar bu bağlantıda tek bir fiziksel miras nesnesi olarak özdeşleştirilmez. Önce kişisel kaynak, ardından daha geniş aile alanı duyulur; ayet mirasçının neyi üstleneceğini kurduktan sonra onun hangi hâle getirileceğine geçer.
+
+İkinci {ar:يَرِثُ, tr:yarithu, gloss:miras alsın} doğrudan nesne yerine, {ar:مِنْ, tr:min, gloss:-den ve içinden} ile açılan bir alana bağlanır. {ar:مِنْ, tr:min, gloss:-den ve içinden} aynı anda kaynağı, o kaynağın içinden alınan payı ve ilişkinin belirlediği alanı duyurur; üç yön birlikte açık kalır. Ayet önce miras eylemini söyler, sonra {ar:مِنْ آلِ يَعْقُوبَ, tr:min āli Yaʿqūb, gloss:Yakub ailesinden ve o alanın içinden} ifadesiyle eylemin yöneldiği çevreyi açar. Bu ifade ikinci fiile yerel olarak bağlanır ve 19:5'teki mirasçı dileğiyle anlam akışını sürdürür; bu bağ, iki ayet arasında tek bir zorunlu sözdizimsel çözüm seçmez.
+
+{ar:آلِ, tr:āl, gloss:aile ve hane} başı {ar:يَعْقُوبَ, tr:Yaʿqūba, gloss:Yakub} özel adıyla belirlenen, adı konmuş bir aile ve peygamberî hane alanı açar; üyeleri tek tek sayılmadan bu çevre korunur. {ar:يَعْقُوبَ, tr:Yaʿqūba, gloss:Yakub} tamlamanın genitif üyesidir; durum eki aile ifadesini tamamlar ve özel adı sıradan bir nitelemeye dönüştürmez. Tanınan hane kalıbı (12:6), karşıt hane dili (14:6) ve patriyarkal çizgi (12:6, 19:49, 38:45) bu alanı görünür kılar. 19:49'da Yakub'un ilahî olarak verilmiş bir soy devamı içinde görünmesi, 19:6'daki adlandırılmış soy örüntüsünü derinleştirir; anılan ayetlerin ayrıntılı bağlamları bu okumaya aktarılmaz. İki miras fiilinin devri bu somut haneyi, mirasın geri döndüğü ve sürdüğü bir kaynak çizgisi gibi renklendirir. Yakub adı bu cümlede ardıllık rengi kazanabilir; bu renk adın kökünden değil, bu bağlamdan gelir. Ölçek Zakariyya'nın şahsından Yakub hanesine uzanır ve okuma buradan bütün tarihsel soyun tezine genişletilmez.
+
+Yakub adının ardından gelen ikinci {ar:وَ, tr:wa, gloss:ve}, miras alanını karakter duasına bağlar. İlk bağlaç iki miras ilişkisini birleştirmişti; ikinci bağlaç aynı dua dizisini kesmeden mirasçının ne olması için istendiğine geçirir. Bu tekrar ayete işitilir bir ritim verir; kendi başına ayrı bir miras veya karakter içeriği taşımaz. {ar:وَاجْعَلْهُ, tr:waj'alhu, gloss:onu bir duruma kıl} zaten istenen kişiyi belirli bir hâle getirecek ilahî durum değişikliğini dile getirir; bu bağlantının odağı yeniden adlandırma veya yaratılış değil, mevcut kişideki hâl değişimidir. İçindeki zamir 19:5'te istenen ve 19:7'de duyurulan aynı mirasçıyı görünür tutar. Sonundaki {ar:رَضِيًّا, tr:raḍiyyan, gloss:hoşnut ve uygun bulunmuş} nitelemesi de bu zamirle gösterilen kişiye bağlanır; Yakub ailesi tamlamasına değil.
+
+{ar:اجْعَلْهُ, tr:ij'alhu, gloss:onu kıl} biçimi, Rabbinden bu kişiyi hoşnut ve uygun bir hâle getirmesini isteyen bir yakarış kurar; cümlede istek yönü, tamamlanmış sonuç bildiriminden önce gelir. Benzer ilahî durum veya sonuç dilekleri (19:10, 19:24, 14:35, 14:40, 2:128) bu dua biçiminin nasıl işlediğini aydınlatır; o duaların ayrıntılı sonuçları 19:6'ya aktarılmaz. {ar:رَبِّ, tr:rabbī, gloss:Rabbim} hitabı fiilin eylemini doğrudan ilahî muhataba yöneltir. Fiil ile hitap tek bir dua çifti oluşturur: biri istenen değişimi, diğeri bu değişimin kime yöneldiğini kurar. Standart hitap okuması cümleyi yakarış olarak tutarken nominatif değişke bildirime yaklaşan ayrı bir sözdizimsel ihtimali duyurur; böylece okuma tonundaki fark görünür kalır.
+
+{ar:رَبِّ, tr:rabbī, gloss:Rabbim} kelimesi son niteliği soyut bir övgüden çıkarıp konuşanın Rabbinden beklenen onay ve yetiştirme ilişkisine yerleştirir. Bu hitap sahip olma ve yönetme, besleyip büyütme ve adım adım tamamlama yönlerini birlikte duyurabilir; bu yönler arasında tek bir ilahî mekanizma belirlenmez. {ar:رَضِيًّا, tr:raḍiyyan, gloss:hoşnut ve uygun bulunmuş} fiilin sonucu olarak geldiği için ayetin kapanışı miras eyleminden mirasçıya verilecek hâle yönelir. Biçimdeki yoğun hoşnutluk yönü geçici bir tepkiden daha yerleşik ve dolgun bir vasıf hissi verir. Bu hoşnutluk hem Rab tarafından kabul edilebilir görülmeyi hem de Rabbin hoşnut olacağı bir davranışa yönelmeyi taşır; kabul ve hoşnut etme yönleri birbirine eritilmez. Yankılar (89:28, 19:55) bu son sıfatı daha geniş bir onay ilişkisine bağlar, 17:80'deki Rabb'e yönelen istek ise hitabın kişisel yönünü besler. Böylece aynı mirasçı, iki devam çizgisini taşıyan ve ilahî eylemle kabul edilebilir, güvenilir bir taşıyıcı hâline gelmesi istenen kişi olarak görünür. İçerik bu düzeyde açık kalır; mal, bilgi veya yöneticilik ihtimallerinden biri zorunlu seçime dönüşmez.
+
+## Mirasın çevresi
+
+{ar:آلِ, tr:āl, gloss:aile ve hane} sözcüğü ev halkını, yakınları ve bakmakla yükümlü olunanları da içine alabilen somut bir çevre açar. 19:5'teki {ar:ٱلْمَوَٰلِىَ, tr:al-mawālī, gloss:bağlılar ve ardıllar} konuşanın ardından kalacak bağlı alanı ayrıca görünür kılar. {ar:وَلِيًّا, tr:waliyyan, gloss:işi üstlenen, koruyan ve yakın olan} isteği bu çevrede koruyucu ve yöneten bir ardıl rolü açar. {ar:يَرِثُ, tr:yarithu, gloss:önceki sahibinden sonrakine geçeni almak} fiilinin maddi yüzü, konuşanın ardından bir hakkın veya malın sonraki kişiye geçmesini somutlaştırır. Aile, yakınlık ve bağlılığın özel hukukî biçimi açık kalır; çevre bu okumada bütün takipçileri kuşatan genel bir topluluk alanına genişlemez. Varis, mülk alıcılığının yanı sıra bir ev halkının işini üstlenebilecek kişi olarak duyulur.
+
+Bu ailevi aktarım bakım ve hizmet yükünü de görünür kılar. 19:2'deki {ar:عَبْدَهُۥ, tr:ʿabdahu, gloss:kulu} kulluk ve itaat çerçevesini taşır; aynı ayette rahmetin kula yönelmesi, isteği hizmet ve korunma sorusuna bağlar. 19:5'teki {ar:عَاقِرًا, tr:ʿāqiran, gloss:çocuk sahibi olamayan} olağan biyolojik soy kanalındaki kesintiyi açıkça getirir. Korkulan bağlılar, istenen veli ve çocuk sahibi olamayan eş yan yana geldiğinde, miras talebi sıradan ardıllığın ötesinde bir köprü arayan dua olarak belirir. 19:5'teki {ar:هَبْ, tr:hab, gloss:karşılıksız olarak bağışla} bu köprüyü kazanılmış bir karşılıktan ziyade bağışlanmış bir imkân olarak duyurur. Böylece mirasçı, kopan biyolojik süreklilik karşısında ilahî bağışla göreve getirilen bir koruyucu ve hizmet taşıyıcısı olarak düşünülebilir; olağan ailevi ve maddi miras bu bakım okumasının içinde kalır.
+
+Miras fiilleri, bir kimsenin taşıdığı şeyi başkasına bırakmasını ve sonraki taşıyıcının onu devralıp sürdürmesini anlatan geniş bir alan açar. {ar:يَرِثُنِي, tr:yarithunī, gloss:benden miras almak} ile {ar:يَرِثُ, tr:yarithu, gloss:miras almak}, malın el değiştirmesiyle birlikte konuşandan veya bir aile çizgisinden alınan şeyi devam ettirme yönünü de duyurabilir. 19:2'deki {ar:ذِكْرُ, tr:dhikru, gloss:anma ve hatırlama} bu aktarımı bilgi ve erdem gibi maddi olmayan bir emanete açar. Süleyman'ın Davud'dan miras almasının bilgiyle birlikte anılması (27:16), peygamberlik, bilgi ve aktarılan söz çevreleri (19:58, 42:14) bu ihtimali aile çizgisinin yanında besler. Seçilmiş kullara Kitabın miras bırakılması (35:32) maddi olmayan emanetin başka bir biçimini gösterir; kişinin emek harcamadan değerli bir şeye kavuşması da fiilin bağışlanmış imkân yönünü açıklar. Bu temaslar, 19:6'daki ailevi ve maddi aktarımı koruyarak bilgi, vahiy ve erdem sorumluluğunu duyurur; belirli bir kitap, makam veya tek bir miras içeriği seçilmez. 21:89'daki insanın söyledikleriyle birlikte ilahî mirasa dönmesi sahiplik ufkunu genişletir ve 19:6'daki yerel mirasçının insan taşıyıcılığı içindeki geçiciliğini görünür kılar; bu kişi ilahî mirasçı olarak tanımlanmaz.
+
+## Emanetin biçimleri
+
+19:7'de süreklilik yeni bir adlandırma üzerinden kurulur; bu adlandırma önceki adın tekrarıyla sınırlı değildir. {ar:سَمِيًّا, tr:samiyyan, gloss:önceden adaşı bulunmayan} daha önce eşi bulunmayan bir adı, {ar:ٱسْمُهُۥ, tr:ismuhu, gloss:onun adı} yeni taşıyıcının kimliğini adlandırmanın kendisine bağlar. {ar:قَبْلُ, tr:qabl, gloss:önce} bu adın öncesinde bir karşılık bulunmadığını vurgular. {ar:آلِ, tr:āl, gloss:aile ve hane} ile bu adaşsızlık buluştuğunda, aynı aile çizgisinin yeni bir kimlikle taşınabileceği görülür. 19:7'deki {ar:نَجْعَل, tr:najʿal, gloss:var eder ve ortaya çıkarırız} varlığa getirme kullanımı, 19:6'daki {ar:وَاجْعَلْهُ, tr:waj'alhu, gloss:onu bir duruma kıl} ile temas ederek varisin yeni bir taşıyıcı olarak oluşturulması ihtimalini açar. 19:9'daki {ar:خَلَقْتُكَ, tr:khalaqtuka, gloss:seni yarattım} ise önceki hiçbir şey-olmama hâlinden yaratılışı hatırlatır. Devam, aynı bedenin tekrarı yerine yeni ad ve yeni taşıyıcı üzerinden de kurulabilir; aynı malzeme 19:7'nin yalnızca benzersiz bir ad bildiren açık yüzünü de canlı tutar.
+
+Bu emanetin aktarımı (19:10, 19:11) sözün yanı sıra işaret, susma ve yönlendirme kanallarıyla da taşınır. {ar:يَرِثُنِي وَيَرِثُ, tr:yarithunī wa-yarithu, gloss:önceki taşıyıcıdan sonrakine geçeni almak} alanı, bu kanallarla buluşur. {ar:ءَايَةًۭ, tr:āyatan, gloss:görünür işaret} mirasın topluluk önünde beliren bir taşıyıcı kazanmasını sağlar. {ar:تُكَلِّمَ, tr:tukallima, gloss:insanlarla konuşmak} normal söz kanalını getirir; üç gece boyunca bu kanal askıya alınınca aktarımın konuşma olmadan sürmesi sorusu açılır. Ardından {ar:فَأَوْحَىٰٓ, tr:fa-awḥā, gloss:işaret ederek bildirdi} işaret yoluyla topluluğa ulaşan hareketi, {ar:سَبِّحُوا۟, tr:sabbiḥū, gloss:tesbih edin} ise bu hareketin ortak bir ibadet pratiğini yönlendirdiğini gösterir. Bilgi veya erdem böylece cümlelerle birlikte uygulanmış bir davranış ve toplu düzenleme olarak da taşınabilir. İşaret bu bağlantıda vaadi doğrulayan geçici bir belirti olarak da okunabilir; her iki okumada 19:6'daki ailevi miras isteği söz ve eylem kanallarını birlikte düşündürür.
+
+Bu emanet (19:12) daha somut bir biçim alır. {ar:ٱلْكِتَٰبَ, tr:al-kitāba, gloss:Kitap} aktarılabilir ve elde tutulabilir bir düzenleyici nesne, {ar:خُذِ, tr:khudh, gloss:al ve üzerine al} ise mirası beklenen bir paydan bizzat üstlenilen etkin bir kabule dönüştürür. {ar:بِقُوَّةٍۢ, tr:bi-quwwah, gloss:güç ve sağlamlıkla} Kitabı koruyacak kapasiteyle tutmayı, {ar:ءَاتَيْنَٰهُ, tr:ātaynāhu, gloss:ona verdik} bu kapasitenin mirasçının kendi başarısından önce ona bağışlandığını duyurur. {ar:ٱلْحُكْمَ, tr:al-ḥukma, gloss:hüküm ve hikmet} insanlar arasında karar verme yetkisini ve doğru kavrayış bilgisini birlikte taşır. {ar:صَبِيًّا, tr:ṣabiyyan, gloss:çocukken} bu sorumluluğun yetişkinlikten önce verilebildiğini gösterir. 19:12'deki kitap, güçle tutma, verilen hüküm ve çocukluk aynı sahnede birleştiğinde, 19:6'daki mirasın bilgi ve sorumluluk içerebilmesini belirginleştirir; ailevi mirası her bağlamda metin veya mahkeme alanına indirgemez.
+
+{ar:وَاجْعَلْهُ, tr:waj'alhu, gloss:onu bir duruma kıl} fiilinin oluşum yönü, hazır alıcının görevi taşıyan kişiye dönüşmesi imgesini açar. İlahi bir kılmayla ardıl olarak konumlandırılan Davud (38:26) ve Yakub ailesi çevresinde Rabbin öğretip nimeti tamamlaması (12:6), bu ilahî biçimlendirme yönünü aydınlatır. {ar:رَبِّ, tr:rabbī, gloss:eksiklikten tamamlanmaya doğru yetiştiren Rabbim} hitabı süreci bir anda verilmiş resmî bir etiket olarak değil, gözetilen kişiyi adım adım yetiştiren ilişki olarak duyurur. Bu bağ, mirasçıyı görev taşıyıcısı olarak biçimlendirme ihtimalini taşır; 19:6'daki ifade bu imgeyi açıkça halifelik, resmî makam veya öğretmenlik olarak adlandırmaz.
+
+Mirasçının bu görevi hangi ilişki içinde taşıyacağı 19:13 ve 19:14'te açılır. {ar:رَضِيًّا, tr:raḍiyyan, gloss:hoşnut ve uygun bulunmuş} mirasçının niteliğini üç davranış yönünde açar: buyruğa uyan ve söz dinleyen, ilişki içinde seven, kendisine verilen yükümlülük için güvence veren kişi. 19:13'teki {ar:حَنَانًا, tr:ḥanānan, gloss:şefkat} çevreye karşı yumuşak ilişkiyi, {ar:زَكَوٰةًۭ, tr:zakātan, gloss:arınmışlık ve iyi hâl} iç ve toplumsal sağlamlığı ekler. 19:14'teki {ar:بَرًّا, tr:barran, gloss:ebeveyne iyilik eden} kabulün ebeveynle ilişkide sınandığını gösterir. {ar:جَبَّارًا, tr:jabbāran, gloss:zora başvuran ve hükmeden} ile {ar:عَصِيًّا, tr:ʿaṣiyyan, gloss:itaatten ayrılan} sıfatlarının reddi, emanetin başkalarını ezerek yürütülmesini ve görevden koparak isyana dönüşmesini sınırlar. Sorumlulukların ardından hoşnut olunan kişinin gelmesi (19:55) ve Rabbin hoşnut olacağı işe yönelme duası (27:19), bu niteliği davranış ve ilişki içinde görünür kılar. Aynı sıfat, soyun sürmesini aktarımın tek ölçüsü yapmadan, sürekliliğin hangi hâlle taşınacağını belirler.
+
+Bu davranış çerçevesi, sınırlı bir onarım imgesine de izin verir. {ar:رَبِّ, tr:rabbī, gloss:adım adım yetiştirip tamamlayan Rabbim} hitabının yetiştirme yönü ile {ar:رَضِيًّا, tr:raḍiyyan, gloss:güven veren ve söz dinleyen} kişinin niteliği birleşir; 19:14'teki {ar:جَبَّارًا, tr:jabbāran, gloss:zora başvuran} karşıtlığı içindeki onarıcı veya tamamlayıcı yön de eksik olanı zorlamadan tamamlayan bir görevli görüntüsü oluşturur. Aynı kelime çevresindeki onarıcı veya tamamlayıcı yön, zor kullanma anlamıyla yan yana durur; onarım böylece baskı kurmadan yürüyen bir tamamlama olarak duyulur. Miras, korunacak bitmiş bir nesneyi saklamanın yanında, kırılmış veya eksik olanı ilişkiyi gözeterek tamamlama görevi gibi de görünür. {ar:رَضِيًّا, tr:raḍiyyan, gloss:seven} yüzü bu işi bakıma, {ar:رَضِيًّا, tr:raḍiyyan, gloss:güvence veren} yüzü güvenilir bir taşıyıcıya, {ar:رَضِيًّا, tr:raḍiyyan, gloss:söz dinleyen} yüzü zorlamadan yürütülen itaate bağlar. Bu onarım görüntüsü 19:14'teki davranış karşıtlığı içinde kalır; {ar:جَبَّارًا, tr:jabbāran, gloss:eksikliği gideren veya zorlayan} sözcüğüne doğrudan yeni bir sözlük anlamı yüklemez.
+
+## Devrin sınırları
+
+Bu görev sonlu taşıyıcılar arasındaki devir içinde işler. 19:15'teki {ar:وُلِدَ, tr:wulida, gloss:doğdu} ve {ar:يَمُوتُ, tr:yamūtu, gloss:hayatını kaybeder} ile {ar:يَرِثُنِي وَيَرِثُ, tr:yarithunī wa-yarithu, gloss:sonraki taşıyıcıya geçeni almak} yan yana geldiğinde, emanetin bir ölümlüden başka bir ölümlüye geçtiği görülür. {ar:سَلَٰمٌ, tr:salāmun, gloss:esenlik ve zarar görmeme} bu sonlu taşıyıcının hayatı içinde korunması gereken alanı açar. {ar:يُبْعَثُ, tr:yubʿathu, gloss:yeniden kaldırılır ve diriltilir} ise devamlılığı aile içindeki devreye bırakmayan ilahî bir ufuk getirir. 19:15'te doğum, ölüm, esenlik ve yeniden diriltilmenin aynı selamlama içinde sıralanması, mirasçıyı ölümsüz bir sahipten çok sonlu fakat süreklilik taşıyan bir emanetçi olarak görmeye yardım eder; yeniden diriltilme bu bağlantıda miras fiilinin doğrudan sözlük karşılığına dönüşmez.
+
+Maddi aktarım imgesi, 19:4'teki önceki sahnede belirir. {ar:وَهَنَ, tr:wahana, gloss:zayıfladı ve gücü çözüldü} bedensel ve iradî tükenmeyi getirir; {ar:ٱشْتَعَلَ, tr:ishtaʿala, gloss:tutuştu ve alevlendi} ile {ar:شَيْبًا, tr:shayban, gloss:ak saç ve yaşlılık} başta beliren, harcanmakta olan ateş görüntüsünü kurar. Sağlanan {ar:وَرِثَ, tr:waritha, gloss:koru karıştırıp ateşi tutuşturma} kullanımı, {ar:يَرِثُنِي وَيَرِثُ, tr:yarithunī wa-yarithu, gloss:koru devralıp devam ettirsin} ile birlikte duyulduğunda, varisi yaşlanan taşıyıcının sönmekte olan korunu yeni bir alev gibi sürdüren kişi olarak resmedebilir. 19:5'teki {ar:وَرَآءِى, tr:warāʾī, gloss:arkamda ve geride} henüz görünür olmayan ardıl imkânını bu görüntünün arkasında tutar. Zayıflayan beden, aklaşarak tutuşan baş ve geride bekleyen ardıl (19:4, 19:5) birlikte sınırlı bir maddi analoji kurar; bu analoji olağan ailevi mirasın yerini almaz ve aktarımın neyi taşıdığını açık bırakır.
+
+İnsan ardıllığının son sınırı, iki miras fiilinin başka bir bağlamdaki yankısında görünür. 19:80'de kişinin söyledikleriyle birlikte Allah tarafından miras alınacağı ve kişinin tek başına geleceği söylenir. {ar:يَرِثُ, tr:yarithu, gloss:miras alsın} fiilinin bu kullanımı, 19:6'daki aile içi mirasçıyı geçici bir taşıyıcı ve Rabbe karşı sorumlu bir emanetçi olarak görmeye yardım eder. İnsanlar arasındaki devir, sonunda kişinin tek başına döneceği ilahî ufuk içinde geçici bir aktarım olarak duyulur; son sahiplik bu ufukta Allah'a aittir.
+
+</editorial_prose>

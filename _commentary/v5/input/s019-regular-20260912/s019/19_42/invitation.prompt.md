@@ -1,0 +1,195 @@
+# V5 reading invitation — 19:42
+
+You are a fresh reading-invitation writer. Read the complete editorial prose
+before writing. It is your sole semantic source.
+
+Write two to four paragraphs of fluent, contemporary Turkish that reveal a
+surprising reading by following one or two main channels of resonance in the
+ayah. A channel is a connected background of meanings, images, actions, or
+relations through which the ayah can be heard and understood differently.
+Several editorial findings may together develop one channel. Summarize that
+connected movement and its consequence for the ayah's main meaning, rather
+than compressing findings individually. Give the reading's substance now;
+the invitation comes from understanding it, not from a promise of hidden depth.
+
+Before drafting, read the entire editorial prose and silently select the one
+or two channels with the strongest interpretive consequence and enough
+grounding to explain clearly. Favor channels that expand or shift what the
+ayah says, the relation it establishes, or what is at stake in its action or
+image. One fully developed channel is sufficient; add a second only when it
+offers a distinct consequential reading that can be explained within the
+invitation. No finding, channel, or major shift has an individual coverage
+claim. Unselected material may remain entirely in the full commentary.
+
+A channel may develop through grammar, sound, dialogue, a material process,
+time, imagery, or a conceptual relation. Resonance is not limited to acoustic
+effects, and an unusual image alone does not establish a channel. Use only
+connections the editorial prose actually develops. If it supplies no such
+channel, explain its strongest grounded reading without inventing connections
+or surprise.
+
+Begin inside the ayah's own words, images, actions, or relations and reveal a
+selected distinctive reading in the first paragraph. Keep the plain meaning
+reachable with only the orientation needed to understand the change. Do not
+spend an opening paragraph on routine explanation or front-load context about
+the surah, the ayah's position, or the commentary project.
+
+For each selected channel, begin with the expression that opens it, unfold the
+connected background, and show how the ayah reads or sounds against that
+background. Let a detail lead into the next through an intelligible relation
+or process, so the reader experiences the emerging reading. This is a movement
+of thought, not a mandatory sentence pattern or one paragraph per finding.
+Let the reader identify the expression being interpreted,
+where any nonordinary detail comes from, and what that detail changes in the
+reading. Briefly identify the word-family use, restricted form, collocation, or
+context that supplies an essential added detail, and preserve the concrete
+operation that makes the image work. Keep the ordinary reading and necessary
+qualification clear within this explanation; do not repeat them as a fixed
+formula. Preserve the particular object, process, or relation that makes this
+reading distinctive, and state its interpretive consequence for the ayah as a
+whole. Make intelligible what the familiar reading leaves less visible and
+what the expanded or shifted reading now lets the reader understand. Preserve
+the editorial's force: an exploratory possibility remains possible, while a
+developed shift must not be softened into a decorative association or a
+reassurance that everything means the same thing. A concrete
+account of how something is carried, transformed, lost, or restored must not
+shrink to a general statement about care, guidance, dependence, or goodness.
+Keep the details needed to make the selected channel work; omit side findings
+and shorten routine setup. If a channel cannot be explained faithfully from
+the editorial prose, choose another grounded channel or reading.
+
+When a non-focus ayah supplies a contribution used in the invitation, keep its
+reference from the editorial prose beside that contribution.
+
+Do not turn the invitation into a miniature inventory of the commentary's
+conclusions, or flatten distinct channels into a broad theme to include more
+material. Do not repair, extend, or supplement the editorial prose from memory
+or outside knowledge.
+
+Omit technical apparatus. Retain any qualification, source distinction, live
+alternative, or boundary whose absence would change the force or meaning of a
+chosen reading. Express it naturally beside the image or relation it qualifies.
+Favor positive explanations of the relation between layers: what remains in
+the foreground and what the resonance makes audible in the background. State
+how that background reinforces, expands, or shifts the understanding of the
+main meaning, with the source and degree of certainty clear. Reserve explicit
+exclusions for concrete ambiguities or live counter-evidence that need them.
+Repeated "this is not X" endings make a reading sound withdrawn; express the
+substantive qualification through what the reading does contribute wherever
+possible. Use varied, natural language rather than a repeated "second layer"
+formula, and preserve the force of expansions and shifts.
+Do not name branches, candidates, findings, scopes, evidence categories,
+ledgers, or workflow stages, or label the prose as numbered channels. Do not
+list findings serially.
+
+Use the established `{ar:..., tr:..., gloss:...}` syntax, consistent
+Turkish-readable transliteration, and short ordinary glosses. Keep Arabic
+anchors beside the explanations they ground. Within a paragraph, continue with
+the Turkish meaning where clear; provide the necessary local tag when a later
+paragraph interprets the carrier anew. Do not place Arabic script outside a
+valid tag.
+
+Build transitions within a channel through its shared object, action, or
+relation. If two channels are selected, they may occupy separate paragraphs;
+do not invent a link between them. Do not praise the commentary's quality,
+promise what the reader will find, manufacture suspense, recap at the end, or
+add a call to action. End on an image, relation, action, or tension already
+established by the selected reading.
+
+Before finishing, compare the invitation with the entire editorial prose:
+does the chosen channel reveal a consequential reading, or could the text have
+been written from the ordinary translation and a modest explanation alone?
+When the editorial supports a surprising channel, the latter fails this task.
+Can the reader follow the opening expression into a connected background and
+understand how that background expands or shifts the ayah's main meaning?
+Check the selected connections against their editorial explanation: can the
+reader tell where the nonordinary details come from, with the necessary
+qualifications intact? Repair generic explanation, isolated curiosities, or a
+compressed findings list by developing the selected channel. Do not add
+omitted channels merely for coverage. Do not output this check.
+
+Write only the invitation text to:
+
+`_commentary/v5/editorial/s019-regular-20260912/s019/19_42/19_42.invitation.tr.md`
+
+Do not add a heading, wrapper label, index, ledger, evidence file, or any other
+artifact. Do not modify the editorial prose.
+
+After writing the invitation, run:
+
+```bash
+python3 _commentary/v5/validate_prose.py _commentary/v5/editorial/s019-regular-20260912/s019/19_42/19_42.invitation.tr.md
+```
+
+If validation fails, repair only the reported mechanical file-contract issues
+and rerun it, for at most two repair cycles. Report the final validator result
+in your response.
+
+<editorial_prose>
+## Hatırlanan Karşılaşma
+
+Bu ayet, önceki tasvirde adı geçen İbrahim'i soyut bir hükmün içine değil, tamamlanmış bir konuşmanın içine geri getirir. `{ar:إِذْ, tr:idh, gloss:hani}` “hani, o sırada” diyerek hatırlanan karşılaşmayı açar; okuru doğrudan sonuca değil, anlatı içinde yaşanmış ve şimdi alıntı olarak yeniden duyulan bir ana yerleştirir. Ardından gelen geçmiş zamanın etkin fiili `{ar:قَالَ, tr:qāla, gloss:dedi}`, İbrahim'i sözü gerçekten söylemiş sorumlu özne yapar. Ayetin yalın anlamı şudur: İbrahim babasına seslenir ve işitmeyen, görmeyen, kendisine hiçbir yarar sağlamayan bir şeye neden kulluk ettiğini sorar.
+
+`{ar:قَالَ, tr:qāla, gloss:dedi}` fiilinden sonra gelen hitap, soru ve gerekçeler İbrahim'in doğrudan sözünün içeriğini taşır. `{ar:لِـ, tr:li, gloss:-e}` edatı ile `{ar:أَبِيهِ, tr:abīhi, gloss:babasına}` birleştiğinde sözün alıcısı hitap başlamadan belirlenir: söz belirli bir babaya yönelir. Birleşik yüzey `{ar:لِأَبِيهِ, tr:li-abīhi, gloss:babasına}` önce babayı üçüncü kişi olarak anlatının içine yerleştirir, sonra `{ar:يَا, tr:yā, gloss:ey}` ile onu canlı bir ikinci kişi muhatabına yaklaştırır. Anlatıdan konuşmaya geçerken yeni bir karakter doğmaz; aynı babayla aradaki mesafe kapanır.
+
+`{ar:أَبِيهِ, tr:abīhi, gloss:babasına}` sahiplik eki ve cümledeki yönüyle babayı hem İbrahim'in ilişkisel yakını hem sözün alıcısı yapar. Bu yakınlığın içinde babalık, devralınmış otorite ve alışkanlık basıncı duyulur; ağır soru, ilişki dışından yöneltilen bir polemik değil, aile içinden gelen bir uyarıdır. `{ar:يَا, tr:yā, gloss:ey}` burada fiziksel uzaklığı değil, babanın dikkatini toplamayı öne çıkarır. `{ar:أَبَتِ, tr:abati, gloss:babacığım}` ise tek seferlik bir ünlem gibi kapanmaz; yakınlığı koruyan ve sonraki itirazın da erişebileceği canlı bir hitap kurar. Kabul edilmiş okuma farklılıkları baba göndergesini değiştirmeden seslenişin ritmine sınırlı bir yakınma rengi verebilir.
+
+Bu aile içi hitap, miras alınmış kulluğu ilişkiyi koparmadan sınayan bir öğüt biçimi olarak da duyulur. `{ar:أَبِي, tr:abī, gloss:babam}` baba bağını, `{ar:أَبَتِ, tr:abati, gloss:babacığım}` ise o bağın içindeki doğrudan ve özel sesi taşır; kulluk fiili de basit bir alışkanlığı değil, gerekçelendirilmesi gereken boyun eğişi öne çıkarır. Bu muhakeme çevresinde `(6:74, 26:74)` babayı putlarla karşı karşıya getirir; `(21:52, 26:70, 37:85)` kulluk nesnesini soruya açar; `(2:170)` ataların uygulamasına bağlanmayı, `(31:13)` ebeveyn içindeki şirk uyarısını, `(37:102)` ise baba-oğul arasındaki doğrudan hitabı gösterir. Bu temasların ortaklığı aynı soru ve ailevi öğüt düzenlerine değmeleridir; her baba hitabına aynı nezaket, çatışma tonu veya teolojik sonuç yüklenmez. `{ar:أَبِيهِ, tr:abīhi, gloss:babasına}` ile `{ar:أَبَتِ, tr:abati, gloss:babacığım}` bu ayette yaşayan babaya yöneltilmiş kişisel öğüdü korur.
+
+## Sorunun Üç Eşiği
+
+`{ar:يَا, tr:yā, gloss:ey}` ile dikkat toplandıktan sonra birleşik ve kısalmış `{ar:لِمَ, tr:lima, gloss:niçin}` sözü hızla gerekçe talebine geçer. Bu küçük soru parçası bir emir kurmaz; babanın sürdürdüğü kulluğu cevap verilmesi gereken bir neden sorusunun önüne koyar. `{ar:تَعْبُدُ, tr:taʿbudu, gloss:kulluk ediyorsun}` ikinci tekil kişiye ve sürmekte olan eyleme yönelir. Soru böylece soyut bir inancı değil, babanın o anda yaptığı kişisel kulluk pratiğini yoklar.
+
+`{ar:تَعْبُدُ, tr:taʿbudu, gloss:kulluk ediyorsun}` fiilinin yalın, doğrudan eylem biçimi (I. bâb), tapınma yöneliminin yanında bir şeye boyun eğip kendini ona tabi kılma basıncını da duyurur. Bu bağlılık rengi dinsel kulluk anlamını taşımaya devam eder; yalnızca onun neye yöneldiğini daha görünür kılar. Hemen ardından gelen `{ar:مَا, tr:mā, gloss:şeye}`, ibadet edilen şeyi kişi adıyla daraltmadan kişi-olmayan bir hedef olarak öne alır; `mā`nın açtığı hedef alanının sınırını hemen ardından gelen üç yüklem belirler. Etkin kulluk eden baba ile etkin bir karşılık veremeyen hedef arasındaki asimetri burada kurulur.
+
+`{ar:مَا, tr:mā, gloss:şeye}` ile başlayan bağlı ifade üç kapasiteyi aynı ibadet nesnesine bağlar. Ortak baş, işitme, görme ve yarar sağlama yüklemlerini kendi sıraları içinde taşır; her biri aynı hedefe yönelen kendi ölçütünü getirir. İlk `{ar:لَا, tr:lā, gloss:...mez}` işitme hükmünü bağımsız ve süreğen bir yetersizlik olarak kurar. Üçlü tekrarın ilk kısa vuruşu budur; gerekçe dağınık nitelemeler halinde değil, sayılarak ilerleyen bir dizi halinde açılır.
+
+Nesnesiz `{ar:يَسْمَعُ, tr:ya-smaʿu, gloss:işitir}` herhangi bir çağrıyı alabilecek işitme eşiğini gösterir; belirli bir sesi kaçırma olayından daha geniş bir alıcılık resmi kurar. Muzari biçimindeki süreklilik, ibadet için gereken temel alıcılığın hedefte bulunmadığını duyurur. Fiziksel işitme anlamı zeminde kalırken, bu cümledeki ilişkisel basınç duyulan sözü anlayıp ona uygun bir karşılık verebilme beklentisidir. İlk `{ar:وَلَا, tr:wa-lā, gloss:ve ...mez}` bağı da sonraki yetersizliği öncekinin açıklaması olmaktan çıkarır ve aynı hedefe yeni bir kanıt olarak ekler.
+
+İkinci kapasite, kendi vuruşuyla gelen `{ar:يُبْصِرُ, tr:yubṣiru, gloss:görür}` fiilinde algılayan ve ayırt eden failin eşiğini sınar. Etken görme biçimi (IV. bâb), önündekini fark etmeyi, seçmeyi ve bir işaretle ilişki kurabilmeyi belirginleştirir. Böylece aynı `{ar:مَا, tr:mā, gloss:şeye}` hedefi için işitmeden sonra ayrı bir algı basamağı açılır. İç kavrayışa yaklaşan bu renk, sıradan görme anlamını genişletir; bu bağlantıda ayetin bütün bilinç alanını adlandıran bağımsız bir hüküm kurulmaz.
+
+Üçüncü `{ar:وَلَا, tr:wa-lā, gloss:ve ...mez}` duyusal eşikleri pratik yeterlik sorusuna bağlar. Etkenlik bildiren IV. bâb biçimindeki `{ar:يُغْنِي, tr:yughni, gloss:yarar sağlar}`, başkasını ihtiyacından çıkaracak ve onu yeterli kılacak bir karşılık üretme gücünü sorar. Böylece üçüncü yüklem, işitme ve görmenin ardından aynı kanıt zincirinin işlev basamağını tamamlar. `{ar:عَنكَ, tr:ʿanka, gloss:sana}` edat ile ikinci tekil eki tek biçimde taşıyarak yarar ilişkisinin yönünü babaya çevirir. İçindeki `{ar:عَن, tr:ʿan, gloss:-den yana}` donmuş bir ayrılma ve ilişki edatıdır; beklenen, babayı ihtiyaçtan ayıracak bir gücün bu hedeften ona doğru gelmesidir.
+
+Sonundaki mansup belirsiz `{ar:شَيْـًٔا, tr:shayʾan, gloss:bir şey}`, yararın nesnesini ve kapsamını kapatır. Olumsuzluk, babaya ulaşabilecek her türlü sonucu bu yerel yarar ilişkisi içinde kapatır; sıfırlanan alan, `{ar:يُغْنِي, tr:yughni, gloss:yarar sağlar}` fiilinin babaya dönük ilişkisidir ve ayet dışı mutlak bir hiçlik önermesi kurulmaz. `{ar:عَنكَ, tr:ʿanka, gloss:sana}` ile kişisel hedef belirir, `{ar:شَيْـًٔا, tr:shayʾan, gloss:bir şey}` ile o hedefe ulaşabilecek çıktı alanı genişler. Üçüncü olumsuzluk ve ağır kapanışlı `{ar:يُغْنِي, tr:yughni, gloss:yarar sağlar}` kısa işitme ve görme fiillerinin ritmini pratik bir sonuçta toplar; `ʿanka`nın burunlu, tek nefeslik geçişi de son isme bağlanır.
+
+Bu üçlü denetim, `{ar:تَعْبُدُ, tr:taʿbudu, gloss:kulluk ediyorsun}` ile yönelmiş kulluğu, `{ar:يَسْمَعُ, tr:ya-smaʿu, gloss:işitir}` ile çağrıyı alabilmeyi, `{ar:يُبْصِرُ, tr:yubṣiru, gloss:görür}` ile algılayıp ayırt edebilmeyi, `{ar:يُغْنِي, tr:yughni, gloss:yarar sağlar}` ile babaya gerçek bir karşılık ulaştırabilmeyi aynı ilişkide sınar. Görme taşıyıcısındaki içten kavrama ve kanıtı tanıyıp doğrulama, işitme taşıyıcısındaki sözü anlayıp kabul etme basıncı, kulluk fiilindeki boyun eğişle birlikte görünür olur. `{ar:لِمَ, tr:lima, gloss:niçin}` sorusu ve `{ar:مَا, tr:mā, gloss:şeye}` hedefi, babanın kendisini karşılık veremeyen bir şeye bağlamasını soruya açar; `{ar:شَيْـًٔا, tr:shayʾan, gloss:bir şey}` ise başarısızlığı herhangi bir somut faydayla sınırlamaz. Her eşik kendi işini korur: alım, algı ve etkili sonuç.
+
+Bu işlev ayrımı `(26:72)`de çağrılan putların işitip işitmediği sorusunda, `(35:14)`te işitseler bile cevap verememeleriyle, `(37:92)`de konuşamama halinde, `(20:89)`da ise sesin geri dönmemesinde somutlaşır. `(13:14)` karşılıksız çağrıyı, `(7:195)` göz ve kulak gibi organlar üzerinden güç sınamasını gösterir. `(21:66, 26:73)` yarar ile zararı, `(5:76)` ise sahte muhatabın fayda verememesini gündeme getirir. Bu temaslar, burada `{ar:يَسْمَعُ, tr:ya-smaʿu, gloss:işitir}` kelimesine duyulan sözü alıp karşılık verme, `{ar:يُبْصِرُ, tr:yubṣiru, gloss:görür}` kelimesine de algılayıp ayırt etme basıncı kazandırır; her iki kelimenin olağan duyusal zemini yerinde durur ve soru çağrıya alıcı olma, algı kurma ve gerçek destek verme ilişkisi içinde kalır.
+
+Kapasite ölçütlerinin bir karşıtlığı, doğrudan konuşma sahnesinin içinde belirir. `{ar:قَالَ, tr:qāla, gloss:dedi}`, `{ar:أَبَتِ, tr:abati, gloss:babacığım}` ve `{ar:لِمَ, tr:lima, gloss:niçin}` birlikte canlı bir söz alışverişi kurar: İbrahim seslenir, baba sözün muhatabı olarak kurulabilir, soru da gerekçe ister. Aynı cümlede `{ar:يَسْمَعُ, tr:ya-smaʿu, gloss:işitir}` ibadet edilen şeyin bu ilk alıcılık eşiğinde nasıl konumlandığını gösterir. Baba söz işitebilen bir muhatap olarak, `{ar:مَا, tr:mā, gloss:şeye}` ise çağrıyı alamayan hedef olarak karşı karşıya gelir. Bu sahnenin ek basıncı fiziksel işitmeden çok sesin alınması, anlaşılması ve kabul edilmesi arasındaki ilişkidedir; iki okuma aynı konuşma zemininde birlikte duyulur.
+
+Baba olarak bakım vermesi beklenen kişi, bakım veremeyen bir nesneye boyun eğdiğinde ilişkinin yönleri tersine döner. `{ar:أَبِيهِ, tr:abīhi, gloss:babasına}` ve `{ar:أَبَتِ, tr:abati, gloss:babacığım}` babalık bağını, `{ar:تَعْبُدُ, tr:taʿbudu, gloss:kulluk ediyorsun}` teslimiyeti, `{ar:يُغْنِي, tr:yughni, gloss:yarar sağlar}` ise geri dönmesi beklenen desteği aynı sahnede buluşturur. Babalık adının besleyip büyütme çağrışımı, babanın bakım kaynağı olması beklenirken yetersiz bir hedefe bağlanmasını keskinleştirir. Bu tersine dönüş verilen baba-oğul ilişkisinin içinde kalır; ayet dışı bir biyografi kurmaz.
+
+## Erişim İçin Bir Düzenek
+
+İşitme ve görme sorusu, yakın bağlamda bilgiye erişim sınamasına da açılır. `(19:41)` İbrahim'i doğru sözlü ve peygamberce bildiren bir konuşmacı olarak tanıtır; `(19:43)` bilme, izleme, hidayet, yol ve sağlamlık çizgisini verir. Bu temaslarda `{ar:قَالَ, tr:qāla, gloss:dedi}` gerekçeli bildirimin kaynak ile alıcı arasındaki geçişini, `{ar:يَسْمَعُ, tr:ya-smaʿu, gloss:işitir}` duyulan sözü almanın ilk eşiğini, `{ar:يُبْصِرُ, tr:yubṣiru, gloss:görür}` de alınanı tanıyıp ayırt edebilmenin eşiğini taşır. `(19:43)` içindeki izleme, alınan sözün ardından yürümeyi; yol ve bütünlük, bu güzergâhın güvenilir ve yürünebilir oluşunu ekler. Suskun hedef böylece bilgiye erişim bakımından bir çıkmaz, İbrahim'in sözü ise alınabilen ve izlenebilen bir yolun başlangıcı gibi görünür. Bu karşılaştırmanın sınırı `(19:43)`ün yalnızca İbrahim'i rehber olarak tanıtma ihtimalidir; hidayet ve yolun bağlamsal katkısı burada kalır, bu ayetteki kelimelerin yeni sözlük karşılığına dönüşmez.
+
+Bu bilgi erişimi sorusunun ardından kulluk sorusu, bağlılığın yönünü de yoklar. `{ar:تَعْبُدُ, tr:taʿbudu, gloss:kulluk ediyorsun}` boyun eğişin nereye taşındığını duyurur. `(19:44)` bu kulluk ilişkisini yinelerken `{ar:ٱلشَّيْطَٰنَ, tr:ash-shayṭāna, gloss:Şeytan}` adını ve `{ar:عَصِيًّا, tr:ʿaṣiyyan, gloss:isyan eden}` niteliğini, Rahmân'a karşı isyan çizgisiyle birlikte getirir. Bu temas, suskun görünen hedefe yönelen ibadetin arkasında canlı ve isyankâr bir yöne bağlanma ihtimalini açar; `(19:42)`deki kulluk sorusu böylece görünür nesnenin ötesindeki bağlılık yönüne uzanır. Bu bağlantıda görünen hedef Şeytan adına çevrilmez; `(19:44)`ün katkısı, sessizlik ile isyankâr yönü aynı bağlılık sorusunda buluşturmasıdır.
+
+Aynı yakın dizide maddi bir erişim hareketi belirir. `(19:44, 19:45)`teki uzun, bükülmüş ip ve bağlama görüntüsü yükü kavrayıp tutan hattı kurar. `(19:46)`daki taşlama tehdidinin taşıdığı ağırlık ya da kuyu desteği, çekilecek yükün dayanak noktasını verir. `(19:50)`deki `{ar:عَلِيًّا, tr:ʿaliyyan, gloss:yüceltilmiş}` yükselme görüntüsü ip üzerinde çalışan üst dayanağı, `(19:57)`deki kaldırma kordonu yükü yukarı taşıyan çekişi, `(19:47)`deki `{ar:سَلَامٌ, tr:salāmun, gloss:barış}` ifadesinin çevresinde beliren tek saplı kova ise kaldırılan şeyi alan kabı düşündürür. İp yükü bağlar, ağırlık ve destek çekişin yükünü taşır, yüksek parça hareket için üst noktayı verir, kordon yukarı aktarır ve kap alıcı ucu tamamlar. Bu işlemler birlikte erişilemeyen bir kaynağa ulaşmak için gereken düzeneği görünür kılar.
+
+Bu düzeneğin içinde `{ar:يَسْمَعُ, tr:ya-smaʿu, gloss:işitir}` yüzeyinin taşıma kabını tutan, bağlayan ya da yükünü dengeleyen bir parçaya değen bağlamsal yankısı bulunur. Kova alıcı kabı, ip ve kordon taşıma hattını, dayanak ve ağırlık ise tutma ile dengeleme koşulunu verir; bu katkılar birleştiğinde alıcıya ulaşması beklenen şeyin başında onu tutan bir denge noktası belirir. Böylece işitme ve görme sorusu soyut bir eksiklikten erişim için gereken mekanizmaya doğru somutlaşır. `{ar:يَسْمَعُ, tr:ya-smaʿu, gloss:işitir}` kelimesinin olağan işitme anlamı bu maddi çevrenin içinde zemin olarak kalır. Erişim mekanizması bu bağlantıda kelimeyi kova sapı adına dönüştürmeden ve ayeti fiziksel pranga ya da kordon tasvirine çevirmeden çalışır; görme ve babaya yarar sağlama yüklemleri de aynı açıklamanın parçası olarak kalır.
+
+## Koruma ve Karşılık
+
+`{ar:يُغْنِي, tr:yughni, gloss:yarar sağlar}` fiili, erişimden sonra koruma sınamasını da açar. `(19:45)`teki `{ar:أَخَافُ, tr:akhāfu, gloss:korkarım}` korkusu yaklaşan zararın ufkunu, `{ar:يَمَسَّكَ, tr:yamassuka, gloss:sana dokunup ulaşmak}` dokunma biçimi zararın babaya ulaştığı bedensel noktayı, `{ar:عَذَابٌ, tr:ʿadhābun, gloss:azap}` somut acı veren sonucu, `{ar:وَلِيًّا, tr:waliyyan, gloss:üstlenip himaye eden veli}` ise himaye edebilecek başka bir merkezi getirir. Böylece yeterlilik, ihtiyacı karşılamanın yanı sıra yaklaşan etkiden koruyabilme ve güven ilişkisini taşıyabilme gücü olarak sınanır. `{ar:تَعْبُدُ, tr:taʿbudu, gloss:kulluk ediyorsun}` bu güce boyun eğişi, `{ar:يُغْنِي, tr:yughni, gloss:yarar sağlar}` ise gerçekten bir başkasının yerini tutup tutamadığını sorar.
+
+Bu koruma sorusu, daha geniş temaslarda sahte güce yüklenen vekillik beklentisini açar. `(19:81)` sahte tanrılara güç ve itibar sağlama rolü yüklendiğini, `(36:74)` yardım umuduyla edinildiklerini; `(36:75)` yardım edemediklerini, `(45:19)` ise başkalarının Allah karşısında yarar sağlayamayacağını bildirir. `(19:82)`de bu tanrılar kulluğu reddeden karşıtlara dönüşür; başlangıçtaki yarar sorusu ilişkinin sonundaki tersine dönüşle keskinleşir. Böylece yarar, vaat edilen koruyucu işlevi; kulluk, bu güce teslimiyeti; sahte güç atfı da yardım ve korumayı taşıyan ilişkinin sonucunu sınar. Bu bağlantı sahte tanrı, vekil yardım ve koruma alanında kalır: `{ar:يُغْنِي, tr:yughni, gloss:yarar sağlar}` kelimesinin burada açtığı katkı “vekâlet” sözcüğüne, her kulluk biçiminin de aynı destek ilişkisine dönüşmez.
+
+İşitmeme teması insan ilişkisine de değen bir karşıtlık kurar. `(19:46)`da baba sesli cevap verir, yüz çevirir, `{ar:لَأَرْجُمَنَّكَ, tr:la-arjumannaka, gloss:seni taşlarım}` tehdidiyle sözü incitici bir dönüşe uğratır ve ayrılık isteğini bildirir; `(19:47)`de İbrahim `{ar:سَلَامٌ, tr:salāmun, gloss:barış}` diyerek başka bir karşılık yolu açar. `{ar:يَسْمَعُ, tr:ya-smaʿu, gloss:işitir}` bu sahnede duyulan sözü anlayıp kabul etmeye elverişli muhataplığı düşündürür: cevap gelebilir ve bu cevap sözü duyup anlamaya dayanır; kabul ile yönlendirilmiş karşılık ise ayrı aşamalar olarak kalır. `(19:43)`teki yönlendirmeden yüz çevirme ile `{ar:قَالَ, tr:qāla, gloss:dedi}` fiilinin açtığı doğrudan cevap arasında, yönü tersine çeviren ve barışla karşılık veren iki ayrı ilişki hareketi görünür. Bu baba sahnesi, canlı baba-oğul konuşması içinde sıradan bir reddediş olarak da okunabilir; katkısı, onu putla birebir öykünmeye taşımadan, bu ayetin işitmeyen hedef eleştirisini insanî cevap biçimleriyle yan yana getirmesidir.
+
+Bu karşıtlığın yanında değerli bir muhatap için olumlu bir ölçüt belirir. `(19:47, 19:48)`de İbrahim'in `{ar:رَبِّي, tr:rabbī, gloss:besleyip yetiştiren Rabbim}` diye andığı kaynak, bağışlama, besleme, onarma ve dikkatli ilgi ile ilişkilendirilir. `(19:48)`de çağrı üç kez tekrarlanır ve çağıranın mutsuzluktan esenliğe doğru durum değiştirebilmesi umudu açılır. `{ar:يَسْمَعُ, tr:ya-smaʿu, gloss:işitir}` burada çağrıyı alabilen bir ilişkiye giriş eşiğini, `{ar:يُغْنِي, tr:yughni, gloss:yarar sağlar}` ise bu alımın çağıranın durumuna gerçek bir karşılık verebilmesini düşündürür. Sorudaki örtük ölçüt belirginleşir: tapınılan muhatap çağrıyı almalı, çağırana dikkat göstermeli ve onun için etkili bir fark oluşturmalıdır. Çağrı bu bağlamda tapınma fiiline eşitlenmeden, `(19:47, 19:48)`deki ilahî kimlik karşılaştırmasının ve çağrı-cevap düzeninin taşıdığı bir karşılık olarak kalır.
+
+Bu olumlu çerçeve, bu ayetin fiillerine Allah'ın bütün niteliklerini teknik bir tanım gibi yüklemeden genişler. `(10:31)` işitme ve görmeyi rızıklandırma ve yönetmeyle birlikte Allah'a bağlar; `(18:26)` görme ve işitmeyi hüküm ufkuyla yan yana getirir. `(5:76)` fayda vermeyen sahte muhatabı `{ar:السميع, tr:es-Semî', gloss:her şeyi işiten}` niteliğinin karşısına koyar; `(45:19)` ise başkalarının yarar sağlayamayacağı yerde gerçek koruyuculuğun Allah'a ait olduğunu bildirir. Böylece `{ar:يَسْمَعُ, tr:ya-smaʿu, gloss:işitir}` çağrıyı alabilen ilahî muhatapla sahte hedef arasındaki farkı, `{ar:يُبْصِرُ, tr:yubṣiru, gloss:görür}` algı ve yönetim bütünlüğünü, `{ar:يُغْنِي, tr:yughni, gloss:yarar sağlar}` da rızıklandıran, yöneten ve koruyan karşılığı görünür kılar. Bu, temas eden bağlantıların taşıdığı olumlu karşılıktır; bu ayetteki kelimeler Allah'ın bütün isim ve sıfatlarının sözlük tanımına dönüştürülmez.
+
+Yararsız hedefe bağımlılık sorusu, `(19:49)`daki başka bir akrabalık hareketiyle yan yana gelir. Ayrılış, karşılıksız bağış ve yeni bir durum kurulması; ardından soyun peygamberler kılınması, ilişkinin ne ürettiği ve neyi geleceğe taşıdığı sorusunu açar. `{ar:أَبِيهِ, tr:abīhi, gloss:babasına}` ile `{ar:يَا أَبَتِ, tr:abati, gloss:babacığım}` somut babalık bağını, `{ar:يُغْنِي, tr:yughni, gloss:yarar sağlar}` ise etkili karşılık beklentisini taşır. Bu temasla bir yanda bakım veremeyen hedefe steril bağımlılık, öte yanda alınan ve göreve doğru taşınan bir armağanla devamlılık görünür olur. Bağış bir alışveriş ya da ödeme değil, yararı etkisiz nesnenin üretimi olmaktan çıkarıp alınan ve ileriye taşınan bir armağan olarak gösteren bağlamsal bir karşılıktır; ayrılış ile görevlendirme arasında zorunlu bir nedensellik kurulmaz.
+
+## Sözün ve Akrabalığın Devamı
+
+Özel baba hitabı, `(19:50)`deki dil, doğru söz ve `{ar:عَلِيًّا, tr:ʿaliyyan, gloss:yüceltilmiş}` yükselme görüntüsüyle başka bir ihtimali de açar. `{ar:قَالَ, tr:qāla, gloss:dedi}` burada ilk muhataba yönelmiş özel sözün taşıyıcısı olarak kalırken, doğru içerikli bir sözün ilk reddedişin ötesine geçebilecek bir dolaşım kazanması düşünülebilir. Dil, sözün aktarılabileceği yolu; doğruluk, taşınan içeriğin niteliğini; yücelme ise ilk kapalı konuşmanın daha geniş bir mevkiye ulaşabilme ihtimalini verir. Bu olası yankı yalnızca bu bağlantıda çalışır: babaya yönelmiş rica önceki sahnesini korur; reddin sonraki şöhreti doğurduğunu kanıtlamaz ve `{ar:قَالَ, tr:qāla, gloss:dedi}` fiilini gizli bir “dolaşıma sokmak” anlamına çevirmez.
+
+Tekrarlanan baba hitabı, aile içindeki yönün bakım yoluyla tersine çevrilmesine de ışık tutar. `(19:55)`te ev halkına namaz ve arınma yönünde etkin bir emir verilir; bu ayetteki `{ar:أَبِيهِ, tr:abīhi, gloss:babasına}` ve `{ar:أَبَتِ, tr:abati, gloss:babacığım}` ise akrabalık bağını koruyan özel seslenişi taşır. Bu temas, genç olanın akrabalığın dışından hükmeden biri olarak değil, ilişkiyi muhafaza ederek yön sunan biri olarak görünmesine izin verir. `{ar:تَعْبُدُ, tr:taʿbudu, gloss:kulluk ediyorsun}` ile namaz ve arınma arasında aile içinde öğretilebilen ve sürdürülebilen olumlu bir ibadet yönü belirir; bu ayetteki soru emir kipine dönüşmez. Bu bağlantının sınırı şudur: İbrahim ile İsmail birleştirilmez, evlatlık yükümlülükleri silinmez ve kabul edilmiş okuma farklılıklarından övgü ya da ağır yergi tonu seçilmez; taşınan şey, aile bağını koruyarak yön verme ihtimalidir.
+
+Aynı geniş bağlamda bu ayetteki üç ölçütün tersine çevrilmiş olumlu bir karşılığı `(19:58)`de bedensel bir devre halinde görünür. Yönlendirilmiş ve yaklaştırılmış kişiler için `{ar:ءَايَٰتُ, tr:āyātu, gloss:görünür işaretler}` okunur; `{ar:تُتْلَىٰ, tr:tutlā, gloss:okunur}` sesli aktarım yolunu, rahmet ve seçilme ilişkiyi, düşme ise alınan işaretin bedende yarattığı sarsıcı geçişi açar. Ardından `{ar:سُجَّدًا, tr:sujjadan, gloss:secdeye kapanmış olarak}` bedensel teslimiyeti, `{ar:بُكِيًّا, tr:bukiyyan, gloss:ağlayarak}` duygusal karşılığı görünür kılar. `{ar:يَسْمَعُ, tr:ya-smaʿu, gloss:işitir}` duyulan sözü anlayıp kabul eden alıcının ilk eşiğine, `{ar:يُبْصِرُ, tr:yubṣiru, gloss:görür}` işareti tanıyıp kavramaya, `{ar:تَعْبُدُ, tr:taʿbudu, gloss:kulluk ediyorsun}` ise alınan işarete bedensel ve duygusal karşılık vermeye değen bir yankı kazanır; `{ar:يُغْنِي, tr:yughni, gloss:yarar sağlar}` ölçüsü de işaretin kişide gerçek, bedensel ve duygusal bir fark üretmesiyle pratik karşılığını bulur. İşaretin kişiye ulaşıp secde ve gözyaşına dönüşmesi, bu ayetteki sessiz ve yararsız hedefin karşısına cevap verebilen bir muhatap sahnesi koyar. Bu bağlantının sınırında `(19:58)`in kendi konusu gerçek kulluk sahiplerini ayıran bir sahne olarak da kalabilir; bu ayetteki kelimeler okuma, hidayet, rahmet ya da secde diye çevrilmez.
+
+</editorial_prose>

@@ -1,0 +1,337 @@
+{
+  "schema_version": "commentary-v5-scope-discovery-v1",
+  "ayah_ref": "12:67",
+  "lane": "global",
+  "coverage_complete": true,
+  "candidate_decisions": [
+    {
+      "candidate_id": "cand_eb0a4fea567cd2f2a4ac",
+      "decision": "narrow",
+      "reason": "Güvenilir çapraz-çalışma bulgusu, ayrı kapıları toplu görünürlüğü dağıtan pratik bir tedbir ve hemen ardından gelen teslimiyeti bu tedbirin sonuç üzerindeki sınırı olarak kuruyor. Bağlantı ve odak yüzeyi, kapı, giriş, düzenleme, dağıtma, yarar, hüküm ve tevekkül dallarını bağımsız küresel tetikleyicilerle taşıyor. root_001631/B002 için ise 34:46 bağlantısı yalnız uzak ve biçimsel bir paralel olarak nitelenmiş; sayısal bir dalın küresel okumayı maddi biçimde değiştirdiği gösterilmemiştir.",
+      "finding_refs": ["global:distributed-entry-limits"],
+      "branch_exclusions": [
+        {
+          "branch_ref": "root_001631/B002",
+          "reason": "12:67:7:1 odak yüzeyinde sayısal bir taşıyıcı bulunur, ancak 34:46 bağlantısı bu bir/ikili paralelini yalnız uzak bir biçim paraleli olarak niteler ve bağımsız bir küresel okuma değişikliği sağlamaz; diğer dallar dağıtılmış giriş ve sonuç üzerindeki sınır çekirdeğini taşır."
+        }
+      ],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_9b8187438327ba4dcb5d",
+      "decision": "represented",
+      "reason": "Mekânsal dağılmanın yoğun görünürlüğü azaltan tedbir olarak okunması ve bunun sonucu garanti etmemesi, retained global finding içindeki aynı semantik ilişkidir.",
+      "finding_refs": ["global:distributed-entry-limits"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_6ded1816c7b58427dbf2",
+      "decision": "represented",
+      "reason": "Tedbirin yetersizliği ile hükmün ve tevekkülün ayrı fakat paralel katmanlar olması, ana bulguda root_001110/B002, root_000348/B002 ve root_001681 dallarıyla eksiksiz taşınmaktadır.",
+      "finding_refs": ["global:distributed-entry-limits"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_750d0b2318af475e037d",
+      "decision": "represented",
+      "reason": "12:68'in planın uygulanmasını ve yine de Allah'a karşı yarar sağlayamamasını bildiren geriye dönük doğrulaması, retained finding'in aynı sınırlı-etkililik ilişkisine yeni bir semantik dal eklemez.",
+      "finding_refs": ["global:distributed-entry-limits"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_74fa7e2fb99af7bb0db2",
+      "decision": "represented",
+      "reason": "Kapıların pratik risk-kategorileri olarak bölümlenmesi, root_000163/B001 ve root_000163/B002 aktivasyonlarıyla ana bulguda zaten taşınmaktadır; ek bir anlam ilişkisi sunmaz.",
+      "finding_refs": ["global:distributed-entry-limits"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_c16170510470b7691e2b",
+      "decision": "represented",
+      "reason": "12:68 ve 12:99 boyunca güvenli sonucun kapı yönetimine tek başına yüklenememesi, ana bulgunun pratik tedbir ile egemen sonuç arasındaki aynı sınırını genişletmeden doğrular.",
+      "finding_refs": ["global:distributed-entry-limits"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_f30eeed21396069e4165",
+      "decision": "reject",
+      "reason": "Tanıma-imzası yönetimi yalnız olası bir motivasyon olarak verilmiş; HFT kaydında anchor_refs, branch_refs, anchor_evidence ve odak dönüşünü kuran bağımsız bir tetikleyici yok. Bu nedenle küresel aktivasyon eşiğini geçmiyor.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_ea8abbc88e20b5822b1f",
+      "decision": "reject",
+      "reason": "Yakub'un ihtiyacının duygusal, epistemik veya pratik niteliği açıkça çözümlenmemiş seçenekler halinde bırakılmış; bunları odak taşıyıcısı ve bağımsız küresel tetikleyiciye bağlayan bir kayıt bulunmuyor.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_d3b5851d946daad7b1b5",
+      "decision": "reject",
+      "reason": "Kapı ile sonraki kap/kap-içi örüntü arasındaki yankı yalnız üretken bir olasılık olarak sunulmuş; packet içinde bu iddiayı taşıyan bir dal, exact context carrier veya focus return bulunmuyor.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_777c76560f2a7a2137ae",
+      "decision": "represented",
+      "reason": "Tedbirli maruziyet ile egemen nedenselliğin ayrılması, güvenilir yayın ve bağlantı yüzeyiyle kurulmuş retained finding'in tam semantik çekirdeğidir; unanchored HFT özeti bağımsız bir bulgu olarak değil bu grounded çekirdeğin temsilcisi olarak korunuyor.",
+      "finding_refs": ["global:distributed-entry-limits"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_cf712d2231186bbefea4",
+      "decision": "reject",
+      "reason": "Daha geniş bir risk mimarisi ve felaket sınırı iddiası, exact ayah/word/root coordinate ve odak dönüşü bulunmayan unanchored bir reader synthesis olarak kalıyor; packet kanıtının ötesine taşmadan küresel bulguya dönüştürülemez.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_b065e0797ed903696fda",
+      "decision": "represented",
+      "reason": "Bir sonraki ayetin planın iç ihtiyacı karşılayıp Allah'a karşı yarar sağlayamama sınırını doğrulaması, cand_750d0b2318af475e037d ile birlikte ana bulguda tam olarak korunmuştur.",
+      "finding_refs": ["global:distributed-entry-limits"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_786277df89f629471145",
+      "decision": "reject",
+      "reason": "Sonraki hukukî sürecin insanî cezaya nasıl bağlandığına ilişkin özet, exact context carrier, root/branch ve odak dönüşü olmayan unanchored bir kayıttır; bu lane için gerekli mekanizma sınanamaz.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_daa33e616ece0ffd6479",
+      "decision": "reject",
+      "reason": "Bir/çok kapı karşıtlığını çok sayıda alana yayan sentez, exact HFT trace olmadan geniş bir reader summary olarak kalıyor. Sayısal branch root_001631/B002 için bağımsız küresel tetikleyici de ayrıca başarısız olduğundan, yalnız packet tarafından taşınan dağıtılmış-giriş çekirdeği korunmuştur.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    }
+  ],
+  "findings": [
+    {
+      "finding_ref": "global:distributed-entry-limits",
+      "origin_candidate_id": "cand_eb0a4fea567cd2f2a4ac",
+      "represented_candidate_ids": [
+        "cand_9b8187438327ba4dcb5d",
+        "cand_6ded1816c7b58427dbf2",
+        "cand_750d0b2318af475e037d",
+        "cand_74fa7e2fb99af7bb0db2",
+        "cand_c16170510470b7691e2b",
+        "cand_777c76560f2a7a2137ae",
+        "cand_b065e0797ed903696fda"
+      ],
+      "title": "Dağıtılmış giriş tedbirinin sonuç üzerindeki sınırı",
+      "claim": "Ayrı kapılardan giriş, toplu görünürlüğü dağıtan ve geliş biçimini bölümlere ayıran pratik bir tedbir olarak okunabilir; ayetin hemen kurduğu yarar sağlayamama sınırı ile hükmü Allah'a bırakan sonu, bu tedbirin sonucu belirleyen bir güce dönüşmediğini birlikte korur.",
+      "mechanism": "Odak ayetindeki kapı ve içeri girme taşıyıcıları, 2:189 ve 33:53'teki yönlendirilmiş ve sınırlandırılmış girişlerle temas eder. Kapı çoğulluğu ile dağıtma, 15:44'te her kapıya ayrılmış payların bulunduğu sahneyle düzenlenmiş erişim olarak belirginleşir. Yarar sağlama dalı 6:17'deki ilahî yeterlik sınırıyla, hüküm dalı 6:57'deki nihai yetkiyle, tevekkülün iki dalı da 14:12 ve 33:3'te eylemden sonra sonucu Allah'a bırakma ilişkisiyle temas eder. Böylece tedbir korunur, fakat egemen sonuç iddiasına çevrilmez; 12:68 ve 12:99 anlatı içindeki sınırlı-etkililik dönüşünü taşır.",
+      "reader_payoff": "Tedbir ile tevekkül karşıt seçenekler gibi değil, biri görünürlüğü yönetirken diğeri sonucu kime bırakacağını belirleyen bağlı hareketler gibi görünür. Daha sonraki güvenli giriş, ilk tedbiri değersizleştirmeden ona egemenlik vermez.",
+      "containment": "Bu okuma belirli bir gizli tehdidin niteliğini, oğulların kesin niyetini veya kapı düzeninin zorunlu sebep olduğunu ilan etmez. 15:44 pratik bir paraleldir; 12:68 ve 12:99 tedbirin yararsızlığını değil, sonuç üzerindeki tekilliğini sınırlar. Ana ayetin öğüdü ve Allah'a güveni her zaman geri alınabilir durumda kalır.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": ["legacy_unbound", "trusted"],
+        "reason": "Çekirdek ilişki citable trusted cross-run yayını, exact odak yüzeyi ve bağlantı kayıtlarıyla destekleniyor; legacy_unbound reader walk ve HFT özetleri yalnızca sınırlı doğrulama sağlıyor ve bağımsız motif olarak kullanılmıyor. ح ك م dalı da packet içinde qualified kimlik statüsünde."
+      },
+      "support_ids": [
+        "sup_10c7326e492b527c20f4",
+        "sup_66334cda664bfb07ecab",
+        "sup_1c67c894f8402de2fb22",
+        "sup_3b22dc7804bdd53137c4",
+        "sup_a524f7ab7a17daea4725",
+        "sup_e11b5753a1ed21af8369",
+        "sup_4cea3408627fcce5838a",
+        "sup_0f64d92c38537a78a94f"
+      ],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000163/B001",
+          "facet_id": "F001",
+          "branch_gloss": "giriş yeri veya kapı",
+          "facet_statement": "Bir şeyin içine geçilen açıklık veya giriş noktasıdır ve somut kapıyı da kapsar.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["12:67:6:1", "12:67:10:1"],
+          "trigger_refs": ["conn_ev_188e23e7f29157ae4fbf"],
+          "focus_return_refs": ["12:67:6:1", "12:67:10:1"],
+          "carrier": "12:67:6:1 ve 12:67:10:1'deki kapı biçimleri, bir şeyin içine geçilen giriş yerini veya somut kapıyı taşır.",
+          "independent_trigger": "2:189'daki evlere kapılarından girme buyruğu, giriş yolunun seçimini bağımsız bir düzenleme olarak somutlaştırır.",
+          "activation": "Bu dış temas, odak ayetindeki kapıyı yalnız bir nesne olarak değil, gelişin hangi eşikten yönetileceğini belirleyen bir erişim noktası olarak okutur; ayrı kapılar böylece toplu görünürlüğü dağıtan bir tedbir kazanır.",
+          "resulting_reading": "Toplu girişin tek bir görünürlük odağına yığılmaması için geliş farklı eşiklere dağıtılabilir; bu, tedbirin pratik yararını söyler, sonucunu garanti etmez.",
+          "boundary": "Belirli bir tehdit, gizli niyet veya kapıların ilahî bir sebep olduğu ileri sürülmez."
+        },
+        {
+          "branch_ref": "root_000163/B002",
+          "facet_id": "F001",
+          "branch_gloss": "bölümlere ayırıp düzenleme",
+          "facet_statement": "Bir bütünü konu, tür veya işlev bakımından bölümlere ve sınıflara ayırıp düzenlemektir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["12:67:6:1", "12:67:10:1"],
+          "trigger_refs": ["conn_ev_739435d676c506055e32"],
+          "focus_return_refs": ["12:67:6:1", "12:67:10:1"],
+          "carrier": "Aynı kapı taşıyıcıları, kapıları yalnız çoğaltılmış nesneler olarak değil, girişin düzenlendiği bölümler olarak da taşıyabilir.",
+          "independent_trigger": "15:44'te yedi kapının her biri için ayrılmış payların bulunması, erişimin kapı başına düzenlenmiş bölümlere ayrılmasını gösterir.",
+          "activation": "Her kapıya ayrılmış payı gösteren dış sahne, odak ayetindeki kapı çoğulluğuna sınıflandırılmış erişim düzeni olarak geri döner; çoğulluk bu temasla yalnız nicelik değil düzenleme işlevi kazanır.",
+          "resulting_reading": "Bir topluluğun gelişini farklı giriş bölümlerine ayırmak, görünür yığılmayı azaltan bir düzen kurar; bu düzen aile birliğinin bozulması anlamına gelmez.",
+          "boundary": "Kapıların sabit toplumsal sınıflar oluşturduğu veya odak ayetinin kalıcı bir kurum tasarladığı iddia edilmez."
+        },
+        {
+          "branch_ref": "root_001148/B002",
+          "facet_id": "F001",
+          "branch_gloss": "parçalara ayırıp dağıtma",
+          "facet_statement": "Bir bütünü birden çok parçaya veya kümeye ayırıp dağıtma.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["12:67:11:1"],
+          "trigger_refs": ["conn_ev_739435d676c506055e32"],
+          "focus_return_refs": ["12:67:11:1"],
+          "carrier": "12:67:11:1'deki متفرقة biçimi, bir arada bulunan gelişin parçalara veya ayrı yönlere dağıtılmasını taşır.",
+          "independent_trigger": "15:44'te her kapıya bir pay ayrılması, tek bir topluluğun girişlerinin farklı eşiklere dağıtıldığı karşıt bir sahne sağlar.",
+          "activation": "Kapı başına dağıtılmış pay ilişkisi, متفرقة taşıyıcısının fiziksel ayrılığı birlik bozucu bir kopuş olarak değil, aynı gelişin parçalara dağıtılması olarak kurmasına yardım eder.",
+          "resulting_reading": "Ayrı kapılar, birliği bozacak bir ayrılık değil, ortak gelişin görünürlük bakımından parçalara dağıtılması olarak okunur.",
+          "boundary": "İnanç, aile bağı veya ortak sözün fiilen bozulduğu iddia edilmez; dağıtma burada giriş hareketiyle sınırlıdır."
+        },
+        {
+          "branch_ref": "root_000464/B001",
+          "facet_id": "F001",
+          "branch_gloss": "içeri girmek veya içeri sokmak",
+          "facet_statement": "Bir kişi ya da şey dışarıdaki bir konum veya durumdan içerideki konum veya duruma geçer.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["12:67:4:1", "12:67:8:2"],
+          "trigger_refs": ["conn_ev_72c90a04cc0cd3928166"],
+          "focus_return_refs": ["12:67:4:1", "12:67:8:2"],
+          "carrier": "12:67:4:1 ve 12:67:8:2'deki girmek fiilleri, dışarıdan içeriye yönelen geçişi taşır.",
+          "independent_trigger": "33:53'te girişin izin, zamanlama ve sonrasında dağılma ile sınırlandırılması, içeri geçişi yönetilen bir hareket olarak somutlaştırır.",
+          "activation": "Yönetilen geçiş sahnesi, odak ayetindeki girmeyi çıplak bir yer değiştirme olmaktan çıkarıp maruziyeti düzenlenen bir geliş hareketi olarak geri döndürür.",
+          "resulting_reading": "Girmek, farklı eşiklerden yürütülebilen ve görünürlük riski yönetilebilen bir geçiştir; ayetin sonraki hüküm ve tevekkül cümleleri bu yönetimi sonuç denetimi saymaz.",
+          "boundary": "İçeri girişe gizli veya kalıplaşmış başka anlamlar yüklenmez; yalnız geçiş ve onun bağlamsal düzenlenmesi taşınır."
+        },
+        {
+          "branch_ref": "root_001110/B002",
+          "facet_id": "F001",
+          "branch_gloss": "ihtiyacı karşılayıp yarar sağlama ve yerini tutma",
+          "facet_statement": "Bir unsur, başka bir kişi veya durum için yeterli olur ve ihtiyacı karşılar.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["12:67:13:1"],
+          "trigger_refs": ["conn_ev_7ecac369e2bf44742419"],
+          "focus_return_refs": ["12:67:13:1"],
+          "carrier": "12:67:13:1'deki yarar sağlama fiili, bir tedbirin bir ihtiyacı karşılayıp yeterli olabilmesi ölçüsünü taşır.",
+          "independent_trigger": "6:17'de zararı giderecek ve hayrı verecek merciin yalnız Allah oluşu, insanî düzeneklerin sonuç karşısındaki yeterlik sınırını kurar.",
+          "activation": "Bu dış sınır, odak ayetindeki yarar sağlayamama ifadesine geri dönerek ayrı giriş planının pratik değer ile nihai yeterlik iddiasını birbirinden ayırır.",
+          "resulting_reading": "Ayrı giriş planı gündelik bir fayda sağlayabilir, fakat hiçbir insanî düzenek Allah'a karşı yeterli veya sonucu belirleyici sayılmaz.",
+          "boundary": "Tedbirin her türlü olağan faydası reddedilmez; reddedilen, onun ilahî hüküm karşısında yeterli bir güvence olmasıdır."
+        },
+        {
+          "branch_ref": "root_000348/B002",
+          "facet_id": "F001",
+          "branch_gloss": "uyuşmazlığı bağlayıcı kararla sonuçlandırmak",
+          "facet_statement": "Temel işlem, insanlar arasındaki uyuşmazlığı bağlayıcı bir kararla sona erdirmektir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["12:67:20:2"],
+          "trigger_refs": ["conn_ev_926cef13a695a5f92809"],
+          "focus_return_refs": ["12:67:20:2"],
+          "carrier": "12:67:20:2'deki hüküm adı, sonucu bağlayıcı biçimde karara bağlama ve yetki sınırını taşır.",
+          "independent_trigger": "6:57'de hükmün yalnız Allah'a ait olduğunun söylenmesi, nihai karar yetkisinin odak dışı bir paralel yüzeyde de aynı sınırla kurulduğunu gösterir.",
+          "activation": "Bu temas, giriş planının sınırını tedbirin değersizliğinde değil, sonucu bağlayıcı biçimde belirleme yetkisinin insanda olmamasında görünür kılar.",
+          "resulting_reading": "İnsanların giriş yolunu düzenlemesi ile sonucun hükme bağlanması ayrı düzlemlerdir; ikincisi Allah'a ait kaldığı için birincisi egemenlik kazanmaz.",
+          "boundary": "ح ك م dalının qualified statüsü korunur; odak ayetinde belirli bir insan uyuşmazlığının çözüldüğü veya bütün karar süreçlerinin ayrıntılandırıldığı ileri sürülmez."
+        },
+        {
+          "branch_ref": "root_001681/B001",
+          "facet_id": "F001",
+          "branch_gloss": "bir işi başkasına devredip onu kendi adına yetkilendirme",
+          "facet_statement": "Bir işin veya kişinin sorumluluğu, yürütülmesi ya da karara bağlanması için başkasına bırakılır.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["12:67:24:1", "12:67:26:3", "12:67:27:2"],
+          "trigger_refs": ["conn_ev_81fc22fdcab0b2e8fc62"],
+          "focus_return_refs": ["12:67:24:1", "12:67:26:3", "12:67:27:2"],
+          "carrier": "12:67:24:1, 12:67:26:3 ve 12:67:27:2'deki tevekkül biçimleri, bir işin sonucunu güvenilen merciye bırakma taşıyıcısını sunar.",
+          "independent_trigger": "33:3'te Allah'a tevekkül ile O'nun vekil olarak yeterliliğinin birlikte söylenmesi, güveni sonuç sorumluluğunun Allah'a bırakılması ilişkisiyle somutlaştırır.",
+          "activation": "Vekillik ve tevekkülün dış beraberliği, odak ayetindeki güveni yalnız içsel bir duygu değil, sonuç yönetimini Allah'a devreden bir ilişki olarak geri döndürür.",
+          "resulting_reading": "İnsanî tedbir sonuç üzerinde vekil veya egemen kılınmaz; planın sınırından sonra sonuç yönetimi Allah'a bırakılır.",
+          "boundary": "Bu, تَوَكَّلْ fiilinin tek başına formel hukukî vekâlet bildirdiği iddiası değildir; delegasyon faceti yalnız bağımsız bağlam temasıyla tutulur."
+        },
+        {
+          "branch_ref": "root_001681/B002",
+          "facet_id": "F001",
+          "branch_gloss": "kendi yetersizliğini kabul edip başkasına dayanarak güvenme",
+          "facet_statement": "Kişi bir işte kendi yetersizliğini ortaya koyar ve başka birini dayanak edinir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["12:67:24:1", "12:67:26:3", "12:67:27:2"],
+          "trigger_refs": ["conn_ev_fb523679c2c094c45a03"],
+          "focus_return_refs": ["12:67:24:1", "12:67:26:3", "12:67:27:2"],
+          "carrier": "Aynı tevekkül biçimleri, kişinin kendi tedbirini nihai dayanak saymayıp güvenini başka bir mercie yöneltmesini taşır.",
+          "independent_trigger": "14:12'de doğru yolların yönlendirilmesinden sonra Allah'a tevekkülün ve sabrın birlikte kurulması, pratik hareket ile dayanmanın birbirini dışlamadığını gösterir.",
+          "activation": "Bu temas, odak ayetindeki ayrı giriş öğüdü ile tevekkülü iki rakip tutum olmaktan çıkarıp önce tedbir, ardından sonucu Allah'a bırakma biçiminde aynı düzen içinde buluşturur.",
+          "resulting_reading": "Plan yapmak ile Allah'a güvenmek birbirini dışlamaz; güven, planı sonuç üzerinde yeterli bir güç saymama biçiminde belirir.",
+          "boundary": "Bu okuma kadercilik, eylemsizlik veya planın bütünüyle anlamsız olduğu iddiasını taşımaz."
+        }
+      ],
+      "connection_refs": [
+        "conn_47aa0ddd18b2e45ccd08",
+        "conn_f30296c2043e4357be72",
+        "conn_ee7794df5363ec47371f",
+        "conn_03f5202713c2dfd37e13",
+        "conn_ab53b083f56c201479fa",
+        "conn_50a2161d412f4a963919",
+        "conn_6396cce7e2806281c60c",
+        "conn_a5b31a451e341d8e7593"
+      ],
+      "context_refs": [
+        "2:189",
+        "15:44",
+        "33:53",
+        "6:17",
+        "6:57",
+        "33:3",
+        "14:12",
+        "12:68",
+        "12:99"
+      ],
+      "semantic_obligation_refs": []
+    }
+  ],
+  "friction_notes": [
+    "Odak kelime hizalaması eksiksizdir (35/35); ancak seçili context unit yoktur ve bağlantı kayıtları hedef ayetlerin tam morfolojisini sağlamadığından, küresel tetikleyiciler exact hedef yüzeyi ve kayıt notlarıyla sınırlı tutulmuştur.",
+    "Sekiz HFT reader-summary kaydı legacy_unbound durumunda, boş anchor_evidence ve boş branch_refs ile geldi. Exact koordinat, kök, rol ve focus return bulunmadığı için bunlar bağımsız bulgu yapılmadı; yalnızca bağımsız olarak kurulan sınırlı-etkililik ilişkisi temsil edildiği yerlerde korundu.",
+    "root_001631/B002 için mevcut wider one/dual bağlantısı yalnız uzak bir biçim paralelidir; bu nedenle daraltılmış bulgunun dışında bırakıldı. Uncandidate available branches için carrier-trigger-focus-return testini geçen ek bir küresel aktivasyon bulunmadı."
+  ]
+}

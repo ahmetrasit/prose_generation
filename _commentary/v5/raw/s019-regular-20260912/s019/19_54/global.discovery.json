@@ -1,0 +1,328 @@
+{
+  "schema_version": "commentary-v5-scope-discovery-v1",
+  "ayah_ref": "19:54",
+  "lane": "global",
+  "coverage_complete": true,
+  "candidate_decisions": [
+    {
+      "candidate_id": "cand_40182ee8d10f282ccc95",
+      "decision": "accept",
+      "reason": "Güvenilir çapraz-çalışma yayını, odağın 19:54:7 ve 19:54:8 taşıyıcılarına ve iki sunulan dal kaydına doğrudan bağlanmıştır; geniş bağlantı yüzeyi söz ile eylem arasındaki bağımsız temasları da sağladığı için adayın bütünü korunmuştur.",
+      "finding_refs": [
+        "global:promise-enacted"
+      ],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_170ff6b17e8f9c6e7e54",
+      "decision": "reject",
+      "reason": "Legacy_unbound HFT özeti boş anchor_refs, branch_refs ve anchor evidence ile geliyor; bu nedenle sürdürülen ev içi uygulama iddiası için odak taşıyıcısı, kök, atfedilmiş rol ve odağa dönüş bağlantısı denetlenemiyor. İddia yanlış sayılmadan kaynak kaydı olarak dışarıda bırakıldı.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_544f4013ce9dd277c245",
+      "decision": "reject",
+      "reason": "Legacy_unbound HFT kaydı, Kitap'ta anma çerçevesinin kalıcı kamusal söyleme dönüşmesi iddiası için hiçbir odak anchor'ı, dalı veya bağımsız geniş tetikleyiciyi göstermiyor; boş anchor_refs ve branch_refs nedeniyle kaynak iddiası olarak tutulmadı.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_5d95ebb40954e2c79f78",
+      "decision": "reject",
+      "reason": "Legacy_unbound HFT özeti, iki makam adının alıcıya dönük kabul ve dışa dönük aktarım olarak ayrılması için odak koordinatı, kök, rol veya geri dönüş kontağı vermiyor; boş anchor_refs ve branch_refs sebebiyle atfedilmiş iz değerlendirmeyi geçemiyor.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_d1b1a58311338071e08e",
+      "decision": "reject",
+      "reason": "Legacy_unbound HFT özeti, tekrar eden portre kalıpları, perikop içindeki yerleşim, ev içi devam ve kapanış cevabı için hiçbir somut ayet veya odak yüzeyi bağı sunmuyor; bu çok parçalı sentez anchor_refs ve branch_refs bulunmadığı için kaynaklanamıyor.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_2a9818f8cff5062b2158",
+      "decision": "reject",
+      "reason": "19:55'in vaat içeriğini açıklayıp açıklamadığına dair Legacy_unbound HFT belirsizliği, 19:55'i taşıyıcı veya tetikleyici olarak gösteren bir anchor ya da odağa dönüş izi sunmuyor; bu yüzden açık bir karşı-okuma olarak değil, doğrulanamayan kaynak notu olarak kaldı.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_8abd892e3a4cc4746b0d",
+      "decision": "reject",
+      "reason": "Alıcıya dönük kabul ile dışa dönük taşıma ayrımını yalnızca juxtaposition'a bağlayan Legacy_unbound HFT kaydında odak kelimesi, bağımsız tetikleyici ve dönüş kontağı yok; boş anchor_refs ve branch_refs bu iddianın izlenebilirliğini sağlamıyor.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_978422c6b7ddb9f33599",
+      "decision": "reject",
+      "reason": "Kelime 8 için baskın olmayan eşleme ve kelime 10 için üslup dalı iddiası Legacy_unbound HFT kaydında hiçbir odak kelime, kök, dal veya bağımsız dönüş iziyle verilmemiş; bu nedenle kaynağı olmayan keşif malzemesi olarak tutulmadı.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    }
+  ],
+  "findings": [
+    {
+      "finding_ref": "global:promise-enacted",
+      "origin_candidate_id": "cand_40182ee8d10f282ccc95",
+      "represented_candidate_ids": [],
+      "title": "Sözün açtığı beklentinin eylemle tamamlanması",
+      "claim": "Odaktaki صَادِقَ ٱلْوَعْدِ ilişkisi, sözün doğruluğunu yalnız doğru bir ifade olarak değil, açtığı geleceğe dönük beklentinin zaman içinde eylemle gerçekleşmesi olarak kurar.",
+      "mechanism": "Odaktaki صَادِقَ vaat alanını niteler; 33:23'te bağlılığın bekleme ve değiştirmeme ile sürdürülmesi, 61:2-3'te söylenen ile yapılan arasındaki bağ ve 27:71'de vaadin geleceğe dönük sorusu, bu niteliği geniş bir söz-eylem ilişkisine geri bağlar.",
+      "reader_payoff": "Okur, 'sözüne sadıktı' ifadesinde açılan beklentinin davranışla taşınmasını görür; övgü bir anlık doğruluk beyanından süreklilik kazanan güvenilirliğe açılır.",
+      "containment": "Bu, odaktaki söz ve vaat alanını koruyan bir genişlemedir: vaatlerin iyi ya da kötü yönünü tek bir sonuca indirmez, Ismail'in cümlesine tehdit veya ilahi vaat hakkında ek hüküm yüklemez. 14:22'deki boşa çıkan vaat, bu sınırı görünür kılan karşıt kanıttır.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": [
+          "trusted"
+        ],
+        "reason": "Çekirdek ilişki trusted çapraz-çalışma desteğiyle odağın iki kelimesine bağlanıyor; geniş tetikleyicilerin hedeflerinde tam morfoloji bulunmadığı için global uzantı qualified olarak tutuldu."
+      },
+      "support_ids": [
+        "sup_8b1e3cc51d0bc06d9df8"
+      ],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000852/B004",
+          "facet_id": "F001",
+          "branch_gloss": "sözü veya beklentiyi doğrulayıp gerçekleştirme",
+          "facet_statement": "Bir söz, beklenti veya iddia gerçekleşme, eylem ya da onayla doğru çıkarılır.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "19:54:7:1"
+          ],
+          "trigger_refs": [
+            "33:23",
+            "61:2",
+            "61:3"
+          ],
+          "focus_return_refs": [
+            "19:54:7:1"
+          ],
+          "carrier": "Odaktaki صَادِقَ, vaat alanına bağlanan doğruluk yüklemini taşır.",
+          "independent_trigger": "33:23 bağlılığın bekleme ve değiştirmeme ile sürdürülmesini, 61:2-3 ise söylenen ile yapılan arasındaki ilişkiyi görünür kılar.",
+          "activation": "Bu bağımsız süreklilik ve eylem temasları, odaktaki doğruluk taşıyıcısını beyanın gerçekle doğrulanması yüzüne döndürür; sıfat, vaat alanında eylemle gerçekleşen güvenilirliği okutur.",
+          "resulting_reading": "İsmail'in doğruluğu, sözünün arkasında duran ve bunu davranışla doğrulayan bir güvenilirlik olarak görünür.",
+          "boundary": "Bu facet genel bütünlük, dostluk veya maddi verme anlamlarına açılmaz; vaat alanının başka yönleri burada çözülmez."
+        },
+        {
+          "branch_ref": "root_001662/B001",
+          "facet_id": "F001",
+          "branch_gloss": "iyi ya da kötü bir şeyi yapacağını sözle bildirme",
+          "facet_statement": "Gelecekte iyi ya da kötü bir şey yapılacağı bir kişiye sözle bildirilir ve onda gerçekleşme beklentisi doğar.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "19:54:8:2"
+          ],
+          "trigger_refs": [
+            "27:71",
+            "33:23",
+            "14:22"
+          ],
+          "focus_return_refs": [
+            "19:54:8:2"
+          ],
+          "carrier": "Odaktaki ٱلْوَعْدِ, muhatapta geleceğe dönük gerçekleşme beklentisi doğuran söz alanını taşır.",
+          "independent_trigger": "27:71 vaadi 'ne zaman' sorusuyla beklenen geleceğe yerleştirir; 33:23 bağlılığın bekleyişte korunmasını gösterir; 14:22 ise verilen sözün boşa çıkabildiği karşıt yüzü açıkça korur.",
+          "activation": "Geleceğe yönelen bekleyiş, sürdürme ve bozma örnekleri odaktaki ٱلْوَعْدِ ile temas eder; böylece صَادِقَ bu alanın gerçekleşen ve sürdürülen tarafını belirginleştirir.",
+          "resulting_reading": "Odaktaki vaat, doğruluğu sonunda ortaya çıkan ve zaman içinde taşınan canlı bir beklenti olarak okunur.",
+          "boundary": "Bu aktivasyon belirli bir tarih, tehdit veya ilahi konuşmacı tayin etmez; dalın iyi ve kötü vaat kapsamını korur."
+        }
+      ],
+      "connection_refs": [
+        "conn_18e1945cb9d74d558f87",
+        "conn_c97caacd16c57372d079",
+        "conn_bd503bf2312b54c678ee",
+        "conn_23dd7deb61011f69981b",
+        "conn_76cd45b25e7155847b19"
+      ],
+      "context_refs": [
+        "33:23",
+        "61:2",
+        "61:3",
+        "27:71",
+        "14:22"
+      ],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:textual-remembrance",
+      "origin_candidate_id": null,
+      "represented_candidate_ids": [],
+      "title": "Kitapta anmanın kamusal hatırlamaya açılması",
+      "claim": "Odaktaki ٱذْكُرْ فِى ٱلْكِتَٰبِ emri, bir ismi zihinde saklamaktan öte, onu söz ve metin içinde başkalarının önüne yeniden getiren bir hatırlama eylemi olarak açılır.",
+      "mechanism": "Odak emri sözle anma taşıyıcısını kurar; 19:2 ve 38:48 adlandırılmış peygamberlerin Kitap'ta anılmasını yineler, 88:21 hatırlatma eylemini ve 94:4 yükseltilmiş anılmayı gösterir. Bu geniş temaslar Kitap'ı yalnız bir yer değil, adı yeniden hazır eden kalıcı bir araç olarak okutur.",
+      "reader_payoff": "Okur, İsmail'in 'Kitap'ta anılmasını' metnin onu sonraki okuyuşlarda yeniden hazır etmesi olarak görür; anma eylemi adın kalıcılığına bağlanır.",
+      "containment": "Bu bulgu odaktaki yazılı ve sözlü anma eylemini genişletir; onu yalnız zihinsel bellek, Tanrı'yı kulluk amacıyla anma, kutsal kitabın kendisi veya bağımsız bir şöhret iddiasıyla özdeşleştirmez. Bağlantı hedeflerinde tam morfoloji bulunmadığı için kamusal süreklilik ilişkisi qualified kalır.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": [],
+        "reason": "Hedef ayetlerin tam Arapça yüzeyleri anma ve hatırlatma temasını sağlar; bağlantı kayıtları aday gösterimidir ve hedef morfolojisi verilmediği için bulgu qualified olarak sınırlandırıldı."
+      },
+      "support_ids": [],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000516/B004",
+          "facet_id": "F002",
+          "branch_gloss": "bir şeyi sözle anma",
+          "facet_statement": "Söz aracılığıyla bir şeyi bildirme veya görünür kılma yönünü taşır.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "19:54:1:2"
+          ],
+          "trigger_refs": [
+            "19:2",
+            "38:48",
+            "94:4"
+          ],
+          "focus_return_refs": [
+            "19:54:1:2"
+          ],
+          "carrier": "Odaktaki ٱذْكُرْ, adı söz içinde geçirip bir kişiyi görünür kılan emri taşır.",
+          "independent_trigger": "19:2 ve 38:48 peygamber adının Kitap'ta anılmasını gösterir; 94:4 anılmanın yükseltilmiş ve kamusal bir yüzünü açar.",
+          "activation": "Adlandırılmış kişiyi Kitap'a getiren odak emri, geniş metin yüzeyindeki yinelenen anma ve yükseltilmiş anılma temasına bağlanır; sözle anma görünür ve süreklilik taşıyan bir eylem olarak belirir.",
+          "resulting_reading": "İsmail'in anılması, onun adını yalnız söylemek değil, övgü taşıyan bir şahsı sonraki okuyuşlar için metinde hazır tutmaktır.",
+          "boundary": "Bu facet zihinsel hatırlamayı, kulluk zikrini veya anmanın sonucunda oluşan bağımsız ün dalını tek başına etkinleştirmez."
+        },
+        {
+          "branch_ref": "root_000516/B009",
+          "facet_id": "F001",
+          "branch_gloss": "hatırlatma, hatırlamayı sağlayan araç ve sıkça anma",
+          "facet_statement": "Bir başkasında veya kişinin kendisinde unutulmuş bilginin yeniden hatırlanmasını sağlar.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "19:54:1:2"
+          ],
+          "trigger_refs": [
+            "88:21"
+          ],
+          "focus_return_refs": [
+            "19:54:1:2"
+          ],
+          "carrier": "Odaktaki ٱذْكُرْ, bir adı yeniden hazır ederek başkasında hatırlama meydana getirebilen geçişli eylem olarak taşınır.",
+          "independent_trigger": "88:21 hatırlatma buyruğunu ve hatırlatan kişiyi aynı yüzeyde birlikte gösterir.",
+          "activation": "Hatırlatan eylem ile Kitap'ta adlandırma aynı odak emrinde buluşur; İsmail'in adı, geçmişte kalmış bir bilgi olmaktan çıkıp yeniden karşılaşılabilir bir hatırlatıcıya dönüşür.",
+          "resulting_reading": "Kitap'taki anma, okurun İsmail'i yeniden zihninde hazır bulmasını sağlayan bir hatırlatma işlevi kazanır.",
+          "boundary": "Bu, odak ayetinin belirli bir okur topluluğuna veya tekrar sayısına dair ek iddia değildir; hatırlatıcı işlev burada Kitap'ta anma eylemiyle sınırlıdır."
+        }
+      ],
+      "connection_refs": [
+        "conn_9b79ed6ad780936ffab4",
+        "conn_2762cec0b6a237999791",
+        "conn_f82d41445418af7bad8b",
+        "conn_a423c18ba600e64b500e"
+      ],
+      "context_refs": [
+        "19:2",
+        "38:48",
+        "94:4",
+        "88:21"
+      ],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:prophetic-transmission",
+      "origin_candidate_id": null,
+      "represented_candidate_ids": [],
+      "title": "İki unvanın aktarım ilişkisini görünür kılması",
+      "claim": "Odaktaki رَسُولًا نَبِيًّا, iki unvanı yan yana getirerek ilahî haberin yetkili bir taşıyıcıyla insanlara ulaşması ve alınan haberin aktarılması ilişkisini görünür kılar.",
+      "mechanism": "Odaktaki رَسُولًا gönderenden alıcıya taşınan ileti bağını, نَبِيًّا ise Tanrı'dan haber veren yetkili elçiyi taşıyabilecek yüzleri açar. 62:2'de elçinin ayetleri okuyup Kitap'ı öğrettiği, 42:51'de elçinin gönderilmesiyle vahyin ilişkilendirildiği bağımsız temaslar, odaktaki Kitap çerçevesini kaynak-taşıyıcı-alıcı zincirine bağlar.",
+      "reader_payoff": "Okur, iki unvanı tekrarlı bir övgü olarak okurken aynı zamanda vahyin alınmasıyla insanlara taşınması arasındaki aktarımı da görebilir; elçilik sözü canlı bir ileti hareketi kazanır.",
+      "containment": "Bu ilişki iki unvanın zorunlu ve ayrı sözlük görevleri olduğunu söylemez; belirli bir vahiy içeriği, alıcı topluluğu veya bütün peygamberlik kurumu hakkında ek hüküm kurmaz. Juxtaposition kaynaklı görev ayrımı ve hedef morfolojisi qualified düzeyde tutulmuştur.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": [],
+        "reason": "62:2 ve 42:51 hedef yüzeyleri elçi, gönderme, okuma, öğretme ve vahiy temaslarını açıkça taşır; ancak hedef morfolojisi verilmediği ve unvanların görev ayrımı odak cümlesinde gramerle kurulmadığı için bulgu qualified'dır."
+      },
+      "support_ids": [],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000563/B002",
+          "facet_id": "F001",
+          "branch_gloss": "haber taşıyıcısı veya taşınan haber",
+          "facet_statement": "Çekirdek, bir gönderenden bir alıcıya içerik taşıyan ileti bağını kurar.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "19:54:10:1"
+          ],
+          "trigger_refs": [
+            "62:2",
+            "42:51"
+          ],
+          "focus_return_refs": [
+            "19:54:10:1"
+          ],
+          "carrier": "Odaktaki رَسُولًا, gönderenden alıcıya söz veya haber taşıyan elçi yüzünü taşır.",
+          "independent_trigger": "62:2 elçinin ayetleri okuyup Kitap'ı öğrettiğini, 42:51 ise elçinin gönderilmesini vahiy ile yan yana gösterir.",
+          "activation": "Bu bağımsız gönderen-alıcı ve mesaj taşıma ilişkileri, odaktaki رَسُولًا adını açılmamış bir makam etiketi olmaktan çıkarıp dışa yönelen bir aktarım taşıyıcısı olarak okutur.",
+          "resulting_reading": "Resul unvanı, kaynaktan insanlara doğru ilerleyen haber aktarımının taşıyıcı yüzünü görünür kılar.",
+          "boundary": "Bu aktivasyon kökün bütün gönderme veya akıcılık dallarını etkinleştirmez; odak ayetinde ayrıntılı iki aşamalı bir süreç kurmaz."
+        },
+        {
+          "branch_ref": "root_001464/B003",
+          "facet_id": "F001",
+          "branch_gloss": "Tanrı'dan haber veren elçi",
+          "facet_statement": "Tanrı'dan gelen haberleri insanlara bildiren yetkili bir elçi söz konusudur.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "19:54:11:1"
+          ],
+          "trigger_refs": [
+            "42:51",
+            "62:2"
+          ],
+          "focus_return_refs": [
+            "19:54:11:1"
+          ],
+          "carrier": "Odaktaki نَبِيًّا, Tanrı'dan haber veren yetkili elçi ve bu elçilik makamı yüzünü taşır.",
+          "independent_trigger": "42:51 gönderilen elçi ile vahyi, 62:2 ise elçinin ayetleri insanlara okuyup Kitap'ı öğretmesini birlikte gösterir.",
+          "activation": "İlahi gönderme ile insanlara ulaştırılan haberin aynı geniş yüzeyde buluşması, نَبِيًّا unvanına kaynağa dönük yetki ve haber taşıma niteliğini geri bağlar.",
+          "resulting_reading": "Nebi unvanı, dışa aktarılan haberin ilahi kaynağa bağlı yetkili taşıyıcısını görünür kılar.",
+          "boundary": "Bu, resul ve nebi arasında gramerin zorunlu kıldığı ayrı görevler veya genel bir doktrin hiyerarşisi iddiası değildir; ayrım bağlantılı bir okuma olarak kalır."
+        }
+      ],
+      "connection_refs": [
+        "conn_bf87548d6f48c60be6e4",
+        "conn_6c019b36e3d32f436f38"
+      ],
+      "context_refs": [
+        "62:2",
+        "42:51"
+      ],
+      "semantic_obligation_refs": []
+    }
+  ],
+  "friction_notes": [
+    "Yedi Legacy_unbound HFT kaydının tümü görünür biçimde incelendi; her birinde anchor_refs ve branch_refs boş, anchor evidence sayısı sıfırdı. Bu kayıtlar iddiaları yanlış sayılmadan tutulmuş bulgu kaynağı olarak reddedildi.",
+    "Connection registry hedef ayetlerin tam Arapça yüzeyini ve bağlantı kimliklerini sağlıyor, fakat hedef morfolojisi veya kelime düzeyi QAC koordinatlarını sağlamıyor; bu yüzden bağlantıdan türeyen iki bulgu qualified olarak sınırlandı.",
+    "Seçili context unit, focus-trace anchor evidence, aşamalı okuyucu cevabı ve reader walk sağlanmadı; bunların önce-sonra katkısı yokluklarından türetilmedi.",
+    "Retrieval prior_label değerleri ile reciprocal source label değerleri sıralama veya aday gösterimi olarak değerlendirildi; bağımsız kabul kararı yerine geçirilmedi.",
+    "Pakette candidate semantic_obligations veya required_branch_facets alanı bulunmuyor; kabul edilen adayın iki branch_ref'i de bulguda F001 facet'iyle indiği için obligation ve facet exclusion dizileri boş bırakıldı."
+  ]
+}

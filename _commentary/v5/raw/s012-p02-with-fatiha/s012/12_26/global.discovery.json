@@ -1,0 +1,408 @@
+{
+  "schema_version": "commentary-v5-scope-discovery-v1",
+  "ayah_ref": "12:26",
+  "lane": "global",
+  "coverage_complete": true,
+  "candidate_decisions": [
+    {
+      "candidate_id": "cand_1cfc3635ff8829dd0b05",
+      "decision": "accept",
+      "reason": "Citable trusted publication doğrudan focus yüzeyindeki tanıklık, gömlek, yön, doğruluk ve yalancılık taşıyıcılarını birleştiriyor; bağımsız bağlantılar bu maddi izden koşullu hüküm mekanizmasını destekliyor.",
+      "finding_refs": ["global:material-trace-test"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_3c4b716081bf4741cab0",
+      "decision": "represented",
+      "reason": "Uzamsal yönün maddi gömlek izi üzerinden doğruluk sınamasına dönüşmesi, trusted finding içinde aynı taşıyıcılar ve aynı sonuçla eksiksiz olarak yer alıyor; adayın iki dalı da landed.",
+      "finding_refs": ["global:material-trace-test"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_97d87d6dd235675a57f6",
+      "decision": "accept",
+      "reason": "Reader-walk kaydı 12:27-28'i açıkça sonraki ters koşul ve inceleme olarak veriyor; bu, focus ayetindeki yırtık yönü koşulunun usule dönüşmesi bakımından ayrı ve zamansal bir katkı sağlıyor.",
+      "finding_refs": ["global:conditional-pair"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_2f97243b416294576e63",
+      "decision": "represented",
+      "reason": "Hazır bulunma ile koşullu maddi izin sınırlı tanıklığa dönüşmesi, material-trace finding içinde aynı tanıklık alanı ve aynı reader payoff ile taşınıyor; B001 dalı korunuyor.",
+      "finding_refs": ["global:material-trace-test"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_edb08d9fbed05e525c8f",
+      "decision": "accept",
+      "reason": "12:51'deki yeniden soruşturma ve itiraf, önceki maddi çıkarımı sonradan doğrulayan ayrı bir anlatı dönüşü sunuyor; işaret ile kişisel itirafın özdeşleştirilmemesi kayıtta korunuyor.",
+      "finding_refs": ["global:later-confession"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_0a4d232e0616ef960978",
+      "decision": "reject",
+      "reason": "Genişletilmiş benlik okuması yalnızca unbound HFT payload'ında bulunuyor. anchor_refs ve branch_refs boş; supplied anchor evidence yok ve exact HFT coordinate/root/focus-return trace sağlanmıyor. Bu nedenle HFT rolünü aşmadan attributed activation kurulamaz.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_e21113666de39ae8bbfb",
+      "decision": "reject",
+      "reason": "Yırtık yönünün hareket ve göreli konum kurduğu iddiası, exact HFT koordinatı veya focus'a dönen kelime/root teması olmadan verilmiş bir unbound özettir; sonraki bağlamın ayrıca kayıtlı olması bu adayın eksik HFT izini tamamlamaz.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_fbfd59a00c04ec5dd409",
+      "decision": "reject",
+      "reason": "Sonraki çoğul işaretler iddiası packet'te hangi ayah, kelime veya root üzerinden çalıştığını göstermiyor; adayda carrier, branch ve focus-return trace bulunmadığı için doğrulanabilir bir global activation yok.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_bab6707f116282064dfe",
+      "decision": "reject",
+      "reason": "Yalancı-gömlek ve konuşma kararsızlığı, HFT kaydında contained outlier olarak anılıyor fakat exact focus coordinate, root branch veya bağımsız geri dönüş bağlantısı verilmiyor; bu rol altında branch activation kurulamaz.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_8cddcd3a34215deb63b8",
+      "decision": "reject",
+      "reason": "Gömleğin kinematik bir takip kaydına dönüşmesi yalnızca unanchored HFT özetinde bulunuyor; packet'teki HFT coverage sıfır anchor bildiriyor ve carrier/trigger/focus return coordinates sağlamıyor.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_6d663465c3d37a9e0933",
+      "decision": "reject",
+      "reason": "Zorlama, kuşatma, emir ve hapsedilme hattı HFT özetinde topluca ileri sürülüyor; focus kelimesiyle exact coordinate/root teması ve bağımsız global trigger gösterilmediği için stated HFT role içinde tutulamıyor.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_40003ac1e7a691764c86",
+      "decision": "reject",
+      "reason": "Kişilik ve özneleşme karşı-tarihi, packet'te exact HFT word index/root ve focus return olmadan, daha geniş anlatıdan türetilmiş unbound synthesis olarak duruyor; bu haliyle global bulguya dönüşmüyor.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_9623b1f3fd98ec6eac49",
+      "decision": "reject",
+      "reason": "Hakikatin tanınması ile kurumsal gücün uygulanmaması iddiası, HFT trace içinde coordinate, root, attributed role ve focus return olmadan veriliyor; supplied surface bunu tek başına kanıtlamıyor.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_e99214d9373fbf33111f",
+      "decision": "reject",
+      "reason": "What-was-special özeti, bedensel failden household affiliation ve kamusal itibara uzanan birden çok ölçeği topluyor; ancak exact HFT anchor/branch/focus-return trace yok, dolayısıyla unanchored synthesis olarak kabul edilemez.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    }
+  ],
+  "findings": [
+    {
+      "finding_ref": "global:material-trace-test",
+      "origin_candidate_id": "cand_1cfc3635ff8829dd0b05",
+      "represented_candidate_ids": [
+        "cand_3c4b716081bf4741cab0",
+        "cand_2f97243b416294576e63"
+      ],
+      "title": "Tanıklığın maddi iz ve yön üzerinden sınanabilir hükme dönüşmesi",
+      "claim": "Tanıklık için kullanılan şahitlik dili, gömleğin boyuna yırtığını ön yüz yönüyle ilişkilendirerek iki karşıt sözü sınanabilir bir maddi koşula bağlar; böylece tanık görünmeyen olayı bütünüyle bildiğini değil, görülebilir izden sınırlı bir doğruluk ve yanlışlık hükmü kurduğunu taşır.",
+      "mechanism": "Hazır bulunma ve bilgiye dayalı tanıklık anlamları, gömleği gösterge yapan kullanım ile birleşir; boydan yarılma ve ön yön, maddi izin nasıl okunacağını belirler, doğruluk ve yalancılık adları da bu koşullu okumayı açık bir hükme bağlar.",
+      "reader_payoff": "Okuyucu tanığın rolünü soyut bir otorite olarak değil, fiziksel yönü inceleyip iddiaları sınırlı biçimde ayıran bir kanıt düzeni olarak görür; tanıklık ile görünmeyen olaya dair sınırsız bilgi arasındaki fark belirginleşir.",
+      "containment": "Bu bulgu ayetin açık suçlama, tanıklık ve koşullu hükmünü taşır. Gömlek yönü olayın bütün ayrıntılarını veya tanığın her şeyi gördüğünü tek başına kanıtlamaz. Bağlantı kayıtlarında maddi iz olmadan gerçekleşen sonuçla hüküm kuran karşı hat da korunur; bu karşı hat, focus ayetindeki iz-temelli usulün yerine geçirilmez.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": ["legacy_unbound", "trusted"],
+        "reason": "Citable cross-run finding doğrudan focus anchor'larını ve bounded claim'i sağlıyor; iki legacy reader-walk aynı mekanizmayı destekliyor, fakat connection hedeflerinde tam morphology bulunmadığı için global genişleme qualified tutuluyor."
+      },
+      "support_ids": [
+        "sup_b3b5e03a07b8e7d78c0d",
+        "sup_a9a642f32132ef4b36b5",
+        "sup_1fabf60ddcdcc5adb5cb"
+      ],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000822/B001",
+          "facet_id": "F001",
+          "branch_gloss": "hazır bulunup görme",
+          "facet_statement": "Bir olayın ya da yerin yanında hazır bulunma ve onu doğrudan görme çekirdeği vardır.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["12:26:6:2", "12:26:7:1"],
+          "trigger_refs": ["conn_4b85c6a88af7e8d57450", "46:10"],
+          "focus_return_refs": ["12:26:6:2", "12:26:7:1"],
+          "carrier": "Şehadet fiili ve şahit adı, bir olayın yanında hazır bulunup onu görerek bilme anlamını taşır.",
+          "independent_trigger": "46:10 bağlantısı, uygunluğu tanıyan bilgili tanık çerçevesini sağlar.",
+          "activation": "Hazır bulunma taşıyan şahit sözcüğü, dışarıdan gelen maddi iz incelemesiyle birleşince tanığın olayın bütününü görmüş olması yerine görülebilir delil üzerinden konuşan konumunu kurar.",
+          "resulting_reading": "Tanıklık, yalnızca orada bulunan bir kişinin sözü değil, gözlenebilir bir izin tanık konumunu taşıdığı sınırlı bir bilgi biçimi olarak görünür.",
+          "boundary": "Tanığın olayın her aşamasına doğrudan şahit olduğu veya hukuki bir yemin prosedürünün bütünü burada ileri sürülmüyor."
+        },
+        {
+          "branch_ref": "root_000822/B002",
+          "facet_id": "F002",
+          "branch_gloss": "bilgiye dayalı tanıklık",
+          "facet_statement": "Tanık olan kişi, bildiğini ortaya koyan ve hak konusunda söz söyleyen kimsedir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["12:26:6:2", "12:26:7:1"],
+          "trigger_refs": ["conn_f4b49ef1e99c35611b18", "27:27"],
+          "focus_return_refs": ["12:26:6:2", "12:26:7:1"],
+          "carrier": "Şahid biçimi, bilinen bir şeyi haber veren ve bildiğine dayanarak söz söyleyen tanık konumunu taşır.",
+          "independent_trigger": "27:27 bağlantısı, doğruluk veya yalancılık hükmünden önce bağımsız inceleme yapılmasını getirir.",
+          "activation": "Bilgiye dayalı tanıklık, gömlek yönü koşuluyla temas ettiğinde hükmün kaynağını iddianın etkisinden incelemenin sonucuna taşır.",
+          "resulting_reading": "Ayetin tanığı, taraflardan birinin anlatısını tekrar eden kişi olmaktan çıkar ve hükmü denetlenebilir bir inceleme adımına bağlayan aracı olur.",
+          "boundary": "Bu temas tanığa her türlü gizli bilgiye erişim veya nihai ve sınırsız bir hüküm yetkisi vermiyor."
+        },
+        {
+          "branch_ref": "root_000822/B008",
+          "facet_id": "F001",
+          "branch_gloss": "durumu gösteren belirti",
+          "facet_statement": "Bir şeyin başka bir zaman, durum veya niteliğe belirti olarak işaret etmesi dalın çekirdeğidir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["12:26:7:1"],
+          "trigger_refs": ["conn_767d82d3b43a91a6befe", "36:65"],
+          "focus_return_refs": ["12:26:7:1"],
+          "carrier": "Şahid adı, insan tanığın yanı sıra bir durumu başka bir duruma gösteren belirti olarak okunabilecek bir taşıma alanına sahiptir.",
+          "independent_trigger": "36:65 bağlantısı, beden unsurlarının sözün ötesinde kanıt sağlayabilmesini gündeme getirir.",
+          "activation": "Belirti anlamı, gömleğin ön veya arka yönden yırtılmasıyla temas ederek nesnenin sessiz durumunu tanıklık işleminin içine alır.",
+          "resulting_reading": "Gömlek yalnızca olaydan kalan bir nesne değil, tarafların sözlerini ayıran ve hükme katkı veren sessiz bir gösterge haline gelir.",
+          "boundary": "Gömleğe bilinçli konuşma veya insan tanığın yerini bütünüyle alma niteliği yüklenmiyor; gösterge oluşu maddi durumla sınırlı."
+        },
+        {
+          "branch_ref": "root_001204/B001",
+          "facet_id": "F001",
+          "branch_gloss": "boydan kesme veya yarma",
+          "facet_statement": "Kesme veya yarma, nesnenin uzunluğu boyunca yapılır; enine kesme bu sınırın dışındadır.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["12:26:13:1"],
+          "trigger_refs": ["conn_c6da551fa1ca20830f89", "12:18"],
+          "focus_return_refs": ["12:26:13:1"],
+          "carrier": "Qudda fiili, gömleğin tamamlanmış ve yönü incelenebilir boyuna yarılmasını taşır.",
+          "independent_trigger": "12:18 bağlantısı, gömleğin önce yanlış bir iddiayı taşımak için kullanılmasıyla buradaki ayırt edici iz işlevini karşılaştırır.",
+          "activation": "Gömlek ve boyuna yarılma, önceki yanlış anlatı taşıyıcısının tersine, burada sözleri ölçen fiziksel bir kayıt oluşturur.",
+          "resulting_reading": "Yırtık ayrıntısı dekoratif bir olay ayrıntısı olmaktan çıkar; hükmün hangi maddi değişkene bağlandığını gösterir.",
+          "boundary": "Bu dal genel bir kesme veya gömleğin bütün tarihini değil, packet'te verilen boyuna yarılma ve onun okunabilir yönünü kapsıyor."
+        },
+        {
+          "branch_ref": "root_001198/B001",
+          "facet_id": "F001",
+          "branch_gloss": "karşı karşıya olma ve ön yön",
+          "facet_statement": "İki şey birbirine dönüktür ve karşı karşıya bulunur.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["12:26:15:1"],
+          "trigger_refs": ["conn_815fac1d5d7e75859437", "72:11"],
+          "focus_return_refs": ["12:26:15:1"],
+          "carrier": "Qubul kelimesi, gömleğin ön yüzünü ve bir şeyin karşısına dönük fiziksel yönünü taşır.",
+          "independent_trigger": "72:11 bağlantısı, yönlerin ayrılması fikrini uzak ve sınırlı bir karşılaştırma olarak sağlar.",
+          "activation": "Ön yön, boyuna yırtığın hangi temas düzeninden doğmuş olabileceğini belirleyen ikinci eksen olarak kesilme anlamına bağlanır.",
+          "resulting_reading": "Tanıklığın koşulu yalnızca yırtık var mı sorusu değil, yırtığın karşılaşma yönünü kaydedip kaydetmediği sorusu olur.",
+          "boundary": "72:11 yalnızca uzak bir yön karşılaştırmasıdır; ayetten daha geniş bir yol veya metafizik yön sistemi çıkarılmıyor."
+        },
+        {
+          "branch_ref": "root_000852/B001",
+          "facet_id": "F001",
+          "branch_gloss": "sözün inançla ve gerçekle uyuşması",
+          "facet_statement": "Söylenen söz yalanın karşıtıdır ve gerçeği bildirir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["12:26:16:2"],
+          "trigger_refs": ["conn_c8f1fee8e12a75f029aa", "29:3"],
+          "focus_return_refs": ["12:26:16:2"],
+          "carrier": "Sadaqat fiili, sözün gerçek durumla uyuştuğunu bildiren koşullu doğruluk hükmünü taşır.",
+          "independent_trigger": "29:3 bağlantısı, sınamanın doğru ve yanlış iddia sahiplerini ayırması gerektiğini bildirir.",
+          "activation": "Doğruluk fiili, gömlek yönünden çıkarılan sonuçla temas ederek doğruluğu soyut bir sıfat olmaktan çıkarıp inceleme sonucuna bağlar.",
+          "resulting_reading": "Kadının doğru sayılması, anlatının kendiliğinden kabulü değil, maddi koşul gerçekleştiğinde üretilen sınırlı bir uygunluk hükmü olarak okunur.",
+          "boundary": "Bu koşullu hüküm bütün kişiliğe veya her iddiaya yayılan mutlak bir doğruluk beyanı değildir."
+        },
+        {
+          "branch_ref": "root_001290/B001",
+          "facet_id": "F001",
+          "branch_gloss": "sözde veya davranışta doğruluğa aykırılık",
+          "facet_statement": "Doğruluğa aykırılık hem söylenen bir sözde hem de yapılan bir davranışta gerçekleşebilir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["12:26:19:2"],
+          "trigger_refs": ["conn_ee1c31c73408a69472ef", "107:1"],
+          "focus_return_refs": ["12:26:19:2"],
+          "carrier": "Al-kādhibīn sözcüğü, sözü veya davranışı doğruluğa aykırı olanlar sınıfını adlandırır.",
+          "independent_trigger": "107:1 bağlantısı, inkârın yalnızca söylenen bir cümlede değil, davranışta da açığa çıkabileceğini korur.",
+          "activation": "Yalancılar sınıfı, doğruluk hükmünün karşı kutbunu gömlekten okunan koşula bağlar; maddi yön iki sınıflandırmayı aynı usul içinde karşılaştırılabilir kılar.",
+          "resulting_reading": "Ayetin sonunda yer alan yalancılık, serbest bir hakaret değil, aynı gözlenebilir koşul altında verilen karşıt sınıflandırmanın parçası olur.",
+          "boundary": "Bu bağlantı Yusuf'un veya kadının bütün söz ve davranışlarını kapsamlı biçimde sınıflandırmıyor; yalnızca ayetteki koşula bağlı karşıt hükmü açıklıyor."
+        }
+      ],
+      "connection_refs": [
+        "conn_4b85c6a88af7e8d57450",
+        "conn_f4b49ef1e99c35611b18",
+        "conn_767d82d3b43a91a6befe",
+        "conn_c6da551fa1ca20830f89",
+        "conn_815fac1d5d7e75859437",
+        "conn_c8f1fee8e12a75f029aa",
+        "conn_ee1c31c73408a69472ef",
+        "conn_413b7658b2ccc5c1cf3e"
+      ],
+      "context_refs": [
+        "12:18",
+        "27:27",
+        "29:3",
+        "36:65",
+        "46:10",
+        "72:11",
+        "107:1"
+      ],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:conditional-pair",
+      "origin_candidate_id": "cand_97d87d6dd235675a57f6",
+      "represented_candidate_ids": [],
+      "title": "Koşulun sonraki ayetlerde ters yönden tamamlanması",
+      "claim": "12:27-28'de verilen ters koşul ve ardından gelen gömlek incelemesi, 12:26'nın yırtık yönüne dayalı hükmünü tek adımlı bir sezgi olmaktan çıkarıp iki yönlü ve gözlenebilir bir karşılaştırma düzeni olarak açar.",
+      "mechanism": "Focus'taki boyuna yarılma ve ön yön taşıyıcıları, sonraki ayetlerin arka yön koşulu ve fiilî incelemesiyle temas eder; böylece ilk ayette açılan hipotez sonraki bağlamda karşılaştırmalı bir usul kazanır.",
+      "reader_payoff": "Okuyucu, tanığın sözünün yalnızca olay anındaki kanaat olmadığını, yön değiştirdiğinde ters sonucu da üreten ve incelemeyle sınanan bir düzenek olduğunu görür.",
+      "containment": "Bu okuma 12:26'nın açık koşullu tanıklığını korur ve yalnızca sonraki ayetlerin onun nasıl işletildiğini gösterdiğini söyler. Gömlek geometrisinden olayın bütün güdüsü veya bütün hukuki sonucu çıkarılmıyor.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": ["legacy_unbound"],
+        "reason": "12:27-28 dönüşü reader-walk support'unda açıkça verilmiş, ancak bu retrospektif kayıt legacy_unbound olduğu için bağlamsal katkı qualified tutulmuştur."
+      },
+      "support_ids": ["sup_580aa92c4ec71caf2d56"],
+      "branch_activations": [
+        {
+          "branch_ref": "root_001204/B001",
+          "facet_id": "F001",
+          "branch_gloss": "boydan kesme veya yarma",
+          "facet_statement": "Kesme veya yarma, nesnenin uzunluğu boyunca yapılır; enine kesme bu sınırın dışındadır.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["12:26:13:1"],
+          "trigger_refs": ["12:27", "12:28", "sup_580aa92c4ec71caf2d56"],
+          "focus_return_refs": ["12:26:13:1"],
+          "carrier": "Qudda, gömleğin boyuna yarılmış ve yönü okunabilir maddi durumunu taşır.",
+          "independent_trigger": "12:27-28 ve bunları özetleyen reader-walk kaydı, arka yön için ters koşulu ve ardından yapılan gömlek incelemesini sağlar.",
+          "activation": "Sonraki ayetler ilk yırtık koşulunu ters yönden tamamladığında, boyuna yarılma tek bir işaret değil, iki olasılığı ayıran karşılaştırmalı bir test haline gelir.",
+          "resulting_reading": "12:26'daki delil önerisi, devam ayetleriyle birlikte işletilebilir bir soruşturma biçimi olarak görünür.",
+          "boundary": "Bu bağlam tamamlanması, 12:26'nın içine sonraki ayetlerin bütün ayrıntılarını taşımıyor ve geometrinin tek başına niyet kanıtı olduğunu söylemiyor."
+        },
+        {
+          "branch_ref": "root_001198/B001",
+          "facet_id": "F001",
+          "branch_gloss": "karşı karşıya olma ve ön yön",
+          "facet_statement": "İki şey birbirine dönüktür ve karşı karşıya bulunur.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["12:26:15:1"],
+          "trigger_refs": ["12:27", "12:28", "sup_580aa92c4ec71caf2d56"],
+          "focus_return_refs": ["12:26:15:1"],
+          "carrier": "Qubul, gömleğin ön tarafını arka tarafın karşıtı olarak belirleyen fiziksel yönü taşır.",
+          "independent_trigger": "12:27-28'in arka yönü ayrı bir koşul olarak kurması ve gömleğin incelenmesini bildirmesi, yön karşıtlığını bağımsız biçimde işletir.",
+          "activation": "Ön ve arka yönlerin ardışık koşullara dönüşmesi, tanıklığın maddi yüzeydeki yön farkını nasıl hükme çevirdiğini görünür kılar.",
+          "resulting_reading": "Ayetin ön yön ifadesi, sonraki ayetlerle birlikte tek bir tarafı işaretlemekten çok karşıt yönlerin ürettiği karar yapısının ilk yarısı olur.",
+          "boundary": "Bu karşıtlık yalnızca packet'te verilen gömlek yönleriyle sınırlı; daha geniş bir sembolik yön öğretisi ileri sürülmüyor."
+        }
+      ],
+      "connection_refs": [],
+      "context_refs": ["12:27", "12:28"],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:later-confession",
+      "origin_candidate_id": "cand_edb08d9fbed05e525c8f",
+      "represented_candidate_ids": [],
+      "title": "Maddi çıkarımın sonraki itirafla geriye dönük doğrulanması",
+      "claim": "12:51'deki yeniden soruşturma ve toplu itiraf, 12:26'da gömleğin yönünden çıkarılan sınırlı doğruluk hükmünü geriye dönük olarak doğrular; yine de maddi işareti kişinin bizzat itirafıyla özdeşleştirmez.",
+      "mechanism": "Focus'taki boyuna yarılma ve doğruluk taşıyıcıları, sonraki ayetteki yeniden soruşturma, toplu açıklama ve itirafla temas eder; erken maddi çıkarım daha sonra sözlü kabul ile desteklenir, fakat iki kanıt türü ayrı kalır.",
+      "reader_payoff": "Okuyucu, ayetin kanıt düzeni ile daha sonraki kişisel kabul arasındaki farkı görür: işaret önce sınırlı bir hüküm üretir, itiraf ise bu hükmü sonradan başka bir kanıt kipinde doğrular.",
+      "containment": "12:51 burada 12:26'nın yerine geçen yeni bir anlatı olarak değil, erken çıkarımı sonradan aydınlatan bağlam olarak kullanılıyor. Bu, her maddi işaretin tam itiraf anlamına geldiğini veya focus ayetinin sonraki sahneyi zaten anlattığını ileri sürmüyor.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": ["legacy_unbound"],
+        "reason": "Later-confession support'u legacy_unbound reader-walk'tan geliyor; 12:51'in aynı ilişkiyi bildiren connection kaydı mevcut olsa da global bağlama morfolojik çözümleme eşlik etmiyor."
+      },
+      "support_ids": ["sup_938098173905a4793445"],
+      "branch_activations": [
+        {
+          "branch_ref": "root_001204/B001",
+          "facet_id": "F001",
+          "branch_gloss": "boydan kesme veya yarma",
+          "facet_statement": "Kesme veya yarma, nesnenin uzunluğu boyunca yapılır; enine kesme bu sınırın dışındadır.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["12:26:13:1"],
+          "trigger_refs": ["conn_86897dd2527c63cbe7d4", "12:51", "sup_938098173905a4793445"],
+          "focus_return_refs": ["12:26:13:1"],
+          "carrier": "Qudda, gömleği daha sonra yeniden kullanılan sıradan bir nesne değil, burada yönü okunabilir maddi iz yapan boyuna yarılmayı taşır.",
+          "independent_trigger": "12:51 connection kaydı sonraki yeniden soruşturma, toplu açıklama ve itirafın erken hesabı doğruladığını bildirir.",
+          "activation": "Sonraki itiraf, boyuna yırtık üzerinden yapılan erken çıkarıma ikinci bir doğrulama yolu ekler; maddi iz ile sözlü kabul aynı sonuca farklı temaslardan ulaşır.",
+          "resulting_reading": "Gömlek delili, anlatı içinde daha sonra gelen itirafla geriye dönük olarak etkili bir kanıt haline gelir, ama kanıt kipleri birbirine indirgenmez.",
+          "boundary": "Bu ilişki gömleğin her kullanımını doğrulama işlevine çevirmiyor ve 12:51'in ayrıntılarını 12:26'nın doğrudan sözü olarak göstermiyor."
+        },
+        {
+          "branch_ref": "root_000852/B001",
+          "facet_id": "F001",
+          "branch_gloss": "sözün inançla ve gerçekle uyuşması",
+          "facet_statement": "Söylenen söz yalanın karşıtıdır ve gerçeği bildirir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["12:26:16:2"],
+          "trigger_refs": ["conn_86897dd2527c63cbe7d4", "12:51", "sup_938098173905a4793445"],
+          "focus_return_refs": ["12:26:16:2"],
+          "carrier": "Sadaqat, focus koşulunda kadının sözünün gerçekle uyuştuğunu bildiren doğruluk hükmünü taşır.",
+          "independent_trigger": "12:51'deki toplu itiraf, önceki doğruluk hükmünü daha sonraki sözlü kabul ile destekleyen bağlamdır.",
+          "activation": "Doğruluk fiili, sonraki itirafla temas ettiğinde erken maddi hüküm ile geç sözlü kabulün aynı olay içinde birbirini aydınlatan fakat aynı olmayan kanıtlar olduğunu gösterir.",
+          "resulting_reading": "Focus ayetindeki doğru sayılma, anlatı içinde daha sonra açıkça tanınan gerçekle geriye dönük bir bağ kurar; bu bağ, koşullu hükmün nasıl etkili olduğunu görünür kılar.",
+          "boundary": "Sonraki kabul, focus koşulunun kapsamını bütün sözlere veya bütün kişilere genişletmiyor."
+        }
+      ],
+      "connection_refs": ["conn_86897dd2527c63cbe7d4"],
+      "context_refs": ["12:51"],
+      "semantic_obligation_refs": []
+    }
+  ],
+  "friction_notes": [
+    "focus_word_alignment 22/22 sözcüğü çözüyor ve unresolved listesi boş; buna karşılık selected_context_units boş, bu yüzden global bağlam yalnız packet'teki açık support ve connection kayıtlarıyla sınırlandı.",
+    "Dokuz legacy_unbound HFT özeti görünür olsa da hiçbirinde exact HFT word index, root, attributed role ve focus-return trace birlikte sağlanmıyor. Bu nedenle payload'lar branch activation kanıtı olarak kullanılmadı; her adayın reddi kendi eksik kenarıyla kaydedildi.",
+    "Connection registry çok sayıda uzak nomination ve karşı hat içeriyor. Maddi izden koşullu hüküm bulgusunda ilgili güçlü/orta bağlantılar kullanıldı ve maddi iz olmadan sonuçla hüküm kuran karşı hat containment içinde tutuldu; uzak bağlantılar tek başına yeni bir changed reading oluşturacak bağımsız carrier-trigger teması kurmadı.",
+    "12:27-28 retrospektifi ile 12:51 doğrulaması legacy_unbound kaynaklardan geldiği için kabul edilse de qualified statüsünde tutuldu; hedef bağlantı ayetlerinin tam morphology kayıtları packet'te mevcut değil."
+  ]
+}

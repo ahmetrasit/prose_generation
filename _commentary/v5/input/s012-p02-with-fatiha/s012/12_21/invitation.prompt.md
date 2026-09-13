@@ -1,0 +1,177 @@
+# V5 reading invitation — 12:21
+
+You are a fresh reading-invitation writer. Read the complete editorial prose
+before writing. It is your sole semantic source.
+
+Write two to four paragraphs of fluent, contemporary Turkish that reveal a
+surprising reading by following one or two main channels of resonance in the
+ayah. A channel is a connected background of meanings, images, actions, or
+relations through which the ayah can be heard and understood differently.
+Several editorial findings may together develop one channel. Summarize that
+connected movement and its consequence for the ayah's main meaning, rather
+than compressing findings individually. Give the reading's substance now;
+the invitation comes from understanding it, not from a promise of hidden depth.
+
+Before drafting, read the entire editorial prose and silently select the one
+or two channels with the strongest interpretive consequence and enough
+grounding to explain clearly. Favor channels that expand or shift what the
+ayah says, the relation it establishes, or what is at stake in its action or
+image. One fully developed channel is sufficient; add a second only when it
+offers a distinct consequential reading that can be explained within the
+invitation. No finding, channel, or major shift has an individual coverage
+claim. Unselected material may remain entirely in the full commentary.
+
+A channel may develop through grammar, sound, dialogue, a material process,
+time, imagery, or a conceptual relation. Resonance is not limited to acoustic
+effects, and an unusual image alone does not establish a channel. Use only
+connections the editorial prose actually develops. If it supplies no such
+channel, explain its strongest grounded reading without inventing connections
+or surprise.
+
+Begin inside the ayah's own words, images, actions, or relations and reveal a
+selected distinctive reading in the first paragraph. Keep the plain meaning
+reachable with only the orientation needed to understand the change. Do not
+spend an opening paragraph on routine explanation or front-load context about
+the surah, the ayah's position, or the commentary project.
+
+For each selected channel, begin with the expression that opens it, unfold the
+connected background, and show how the ayah reads or sounds against that
+background. Let a detail lead into the next through an intelligible relation
+or process, so the reader experiences the emerging reading. This is a movement
+of thought, not a mandatory sentence pattern or one paragraph per finding.
+Let the reader identify the expression being interpreted,
+where any nonordinary detail comes from, and what that detail changes in the
+reading. Briefly identify the word-family use, restricted form, collocation, or
+context that supplies an essential added detail, and preserve the concrete
+operation that makes the image work. Keep the ordinary reading and necessary
+qualification clear within this explanation; do not repeat them as a fixed
+formula. Preserve the particular object, process, or relation that makes this
+reading distinctive, and state its interpretive consequence for the ayah as a
+whole. Make intelligible what the familiar reading leaves less visible and
+what the expanded or shifted reading now lets the reader understand. Preserve
+the editorial's force: an exploratory possibility remains possible, while a
+developed shift must not be softened into a decorative association or a
+reassurance that everything means the same thing. A concrete
+account of how something is carried, transformed, lost, or restored must not
+shrink to a general statement about care, guidance, dependence, or goodness.
+Keep the details needed to make the selected channel work; omit side findings
+and shorten routine setup. If a channel cannot be explained faithfully from
+the editorial prose, choose another grounded channel or reading.
+
+When a non-focus ayah supplies a contribution used in the invitation, keep its
+reference from the editorial prose beside that contribution.
+
+Do not turn the invitation into a miniature inventory of the commentary's
+conclusions, or flatten distinct channels into a broad theme to include more
+material. Do not repair, extend, or supplement the editorial prose from memory
+or outside knowledge.
+
+Omit technical apparatus. Retain any qualification, source distinction, live
+alternative, or boundary whose absence would change the force or meaning of a
+chosen reading. Express it naturally beside the image or relation it qualifies.
+Favor positive explanations of the relation between layers: what remains in
+the foreground and what the resonance makes audible in the background. State
+how that background reinforces, expands, or shifts the understanding of the
+main meaning, with the source and degree of certainty clear. Reserve explicit
+exclusions for concrete ambiguities or live counter-evidence that need them.
+Repeated "this is not X" endings make a reading sound withdrawn; express the
+substantive qualification through what the reading does contribute wherever
+possible. Use varied, natural language rather than a repeated "second layer"
+formula, and preserve the force of expansions and shifts.
+Do not name branches, candidates, findings, scopes, evidence categories,
+ledgers, or workflow stages, or label the prose as numbered channels. Do not
+list findings serially.
+
+Use the established `{ar:..., tr:..., gloss:...}` syntax, consistent
+Turkish-readable transliteration, and short ordinary glosses. Keep Arabic
+anchors beside the explanations they ground. Within a paragraph, continue with
+the Turkish meaning where clear; provide the necessary local tag when a later
+paragraph interprets the carrier anew. Do not place Arabic script outside a
+valid tag.
+
+Build transitions within a channel through its shared object, action, or
+relation. If two channels are selected, they may occupy separate paragraphs;
+do not invent a link between them. Do not praise the commentary's quality,
+promise what the reader will find, manufacture suspense, recap at the end, or
+add a call to action. End on an image, relation, action, or tension already
+established by the selected reading.
+
+Before finishing, compare the invitation with the entire editorial prose:
+does the chosen channel reveal a consequential reading, or could the text have
+been written from the ordinary translation and a modest explanation alone?
+When the editorial supports a surprising channel, the latter fails this task.
+Can the reader follow the opening expression into a connected background and
+understand how that background expands or shifts the ayah's main meaning?
+Check the selected connections against their editorial explanation: can the
+reader tell where the nonordinary details come from, with the necessary
+qualifications intact? Repair generic explanation, isolated curiosities, or a
+compressed findings list by developing the selected channel. Do not add
+omitted channels merely for coverage. Do not output this check.
+
+Write only the invitation text to:
+
+`_commentary/v5/editorial/s012-p02-with-fatiha/s012/12_21/12_21.invitation.tr.md`
+
+Do not add a heading, wrapper label, index, ledger, evidence file, or any other
+artifact. Do not modify the editorial prose.
+
+After writing the invitation, run:
+
+```bash
+python3 _commentary/v5/validate_prose.py _commentary/v5/editorial/s012-p02-with-fatiha/s012/12_21/12_21.invitation.tr.md
+```
+
+If validation fails, repair only the reported mechanical file-contract issues
+and rerun it, for at most two repair cycles. Report the final validator result
+in your response.
+
+<editorial_prose>
+Önceki satış bildiriminin (12:20) hemen ardından âyet evin içindeki sese geçer. {ar:وَقَالَ, tr:wa-qāla, gloss:ve dedi} önceki akışı sürdürür ve yeni sahneyi açar; tamamlanmış {ar:قَالَ, tr:qāla, gloss:dedi} fiili de emri, umudu ve iki seçeneği tek bir insan alıntısının içine alır. Anlatıcı böylece işlem haberinden alıcının doğrudan sözüne geçer. {ar:الَّذِي, tr:alladhī, gloss:o kimse ki} alıcıyı adıyla değil yaptığı işle tanıtır: karşımızda somut fakat isimsiz bir fail vardır. {ar:اشْتَرَاهُ, tr:ishtarāhu, gloss:onu satın aldı} Form VIII mazi fiil, bitişik nesne zamiri ve alıcı bağlamıyla geniş mübadele alanını burada Yusuf'u bedel karşılığında edinme anlamında toplar. Aynı zamir Yusuf'u belirli satın alınmış kişi olarak izlenebilir kılar; sonraki konak, yarar ve öğretim rollerinde aynı kişiyi taşır. {ar:مِنْ مِصْرَ, tr:min Miṣra, gloss:Mısır'dan} kaynak edatı alışverişin çıkışını belirler; hareket belirsiz bir yerden değil, adı konmuş Mısır'dan başlar. {ar:مِصْرَ, tr:Miṣra, gloss:Mısır} özel adı da işlemi belirli bir yere bağlar. Bu ad, sınırlı bir şehir veya metropol yankısını taşıyabilir; belirleyici olan yine tarihsel yer referansıdır.
+
+## Evin İçinde Bir Yer
+
+Sözün yöneldiği kişi {ar:لِامْرَأَتِهِ, tr:li-imraʾatihi, gloss:karısına} ile belirir. İlk {ar:لِـ, tr:li-, gloss:-e/-a} hitap ilişkisini kurar; emir isimsiz bir dinleyiciye değil, alıcının karısı olarak tanımlanan belirli ev halkı muhatabına ulaşır. Bu sözcükteki eş ve insan ilişkisi, bağımsız bir kimlikten çok evlilik rolünün arka planında kalır. Ardından gelen dişil ikinci tekil emir {ar:أَكْرِمِي, tr:akrimī, gloss:onurlandır} işi doğrudan bu kadına yükler. Onurlandırma, başkasına değerli ve incitmeden iyi muamele etme eylemi olarak ev içindeki küçük bakım emrini daha geniş bir değer tanıma yankısına açar; âyetin somut işi ise Yusuf'un kalacağı yeri iyi kılmaktır. İyelikli {ar:مَثْوَاهُ, tr:mathwāhu, gloss:onun kalacağı yer} bu emrin gerçek nesnesidir: Yusuf'un yalnızca nerede tutulacağı değil, orada nasıl karşılanacağı da belirlenir. Sözcüğün olağan anlamı korunan dünyevî konak yeridir; yerleşme ve varışa uzanan sınırlı yankı, ikameti olumlu bir nitelikle derinleştirir.
+
+İnsan sözü Yusuf'u tek bir statüyle kapatmaz; iki ihtimali açık tutar. {ar:عَسَىٰ, tr:ʿasā, gloss:umulur ki} umudun kiplik alanını hem yarar hem evlat edinme önerisinin üzerine yayar. {ar:أَنْ, tr:an, gloss:ki} bağlayıcısı sonraki {ar:يَنْفَعَنَا, tr:yanfaʿanā, gloss:bize yarar sağlar} muzari fiilini bu umudun içindeki bağımlı ihtimal yapar; yarar gerçekleşmiş bir sonuç değil, ileride açılabilecek bir beklentidir. Fiildeki birinci çoğul kişi, yararlanıcıyı ev halkı olarak gösterir; onların pratik fayda ufku görünür olurken Yusuf'un değeri bu ölçüye kapanmaz. {ar:أَوْ, tr:aw, gloss:veya} iki amacı aynı umut içindeki bir yol ayrımına koyar: bize yarar sağlaması veya onu edinip çocuk saymamız. {ar:نَتَّخِذَهُ, tr:nattakhidhahu, gloss:onu ediniriz} önceki satın alma fiilinin edinme basıncına yaklaşır; ardından gelen {ar:وَلَدًا, tr:waladan, gloss:bir çocuk} ise bu edinmeyi toplumsal bir ev içi statüye yöneltir. Nesne zamiri alınan kişinin Yusuf, belirsiz mansup isim önerilen rol veya statü olacak şekilde iki unsuru ayırır. Çocuk sözcüğünün doğum ve akrabalık alanı duyulur; yerel yapı bunu insanî evlat edinme tasarısı olarak sınırlar. Bu iki dalın hangisinin gerçekleşeceği, biyolojik bir bağın bulunup bulunmadığı, evlatlığın tamamlanıp tamamlanmadığı ve tarafların karşılıklı rızası açık bırakılır. Aile dili edinilmiş kişinin statüsünü yumuşatır; satın alma ilişkisi ise hâlâ duyulur.
+
+Bu yeniden adlandırmanın katkısı, pazarın fiyatlandırdığı kişinin ev içinde nasıl başka bir ilişkiyle karşılandığını görünür kılmasıdır. 12:19'daki gizlenmiş eşya görünümü ile 12:20'deki düşük bedel, {ar:اشْتَرَاهُ, tr:ishtarāhu, gloss:onu satın aldı} fiilini ticari bir başlangıçta toplar; satın alma evdeki ikamete geçişin ilk basamağı olur. Ardından {ar:أَكْرِمِي, tr:akrimī, gloss:onurlandır} emri {ar:مَثْوَاهُ, tr:mathwāhu, gloss:onun kalacağı yer} üzerine yönelir ve bedelle ölçülen kişi için saygın bir konut açar. Ev, 12:19'da gizlenen ve 12:20'de düşük değer biçilen kategoriyi silmeden yeniden değerlendiren bir mekân hâline gelir. Yusuf burada fiyatlı nesneden onurlu konuta, olası yarara ve mümkün evlatlık rolüne doğru ilerler; alışveriş ile ev içi ilişki aynı kişide kesişir. Bu temasın sınırı da buradadır: komutun değeri başka bir yöne çevirdiği duyulur, fakat yeni bir tarihsel fiyat veya alıcının bilinçli bir etik teorisi kurulmaz.
+
+Bu hareketin katkısı, taşınmış Yusuf'un geçici bir duraktan yerleşik bir gelişme alanına geçişini adım adım kurmasıdır. {ar:مَثْوَاهُ, tr:mathwāhu, gloss:onun kalacağı yer} hareketi durduran ikamet istasyonunu, {ar:أَكْرِمِي, tr:akrimī, gloss:onurlandır} o yerdeki değerli muameleyi, {ar:مَكَّنَّا, tr:makkannā, gloss:yerleştirdik ve güç verdik} ise konumun sağladığı güç ve olanağı taşır. 12:19'daki kafilenin yatay hareketi geçişi, kuyunun içine indirilen kova aşağı yönü getirir; bu iki ayrı yön, {ar:مَكَّنَّا, tr:makkannā, gloss:yerleştirdik ve güç verdik} fiilinde fiziksel bir yön değişikliği olarak değil, toplumsal bir konuma ulaşma olarak kesişir. Kovanın hareketi Yusuf'un fiziksel yükselişine çevrilmez; dönüşen şey aşağı çekilmenin kalıcı bir yere yerleşme sonucudur. Bu yüzden zorla taşınmış olmak Yusuf'un geleceğini tüketmez, fakat bu yerleşimden özgürlük, iyi niyet veya sahipliğin sona ermesi hakkında ayrıca hüküm çıkmaz.
+
+Bu yerleşim görüntüsünün mekânsal katkısı, Mısır'dan başlayan geçişin evden daha geniş bir alanın içine yerleşmeye dönüşmesidir. {ar:مِصْرَ, tr:Miṣra, gloss:Mısır} adının sınır veya engel kenarıyla {ar:الْأَرْضِ, tr:al-arḍi, gloss:toprak}ın içi ve dışı olan geniş alanı buluşunca, Yusuf'un belirli bir eşikten içeri alındığı bir mekân resmi belirir. 12:19'daki hareketli topluluk geçişi, 12:23'teki ev ise bu geniş alanın somut içini taşır. {ar:الْأَرْضِ, tr:al-arḍi, gloss:toprak} böylece Mısır'dan ve evden büyük bir yerleştirme alanı açar. Yusuf ayette açıkça yabancı diye adlandırılmaz; bu Mısır-sınır-yabancı yakınlığı, etimolojik veya tarihsel bir iddia değil, yerleşimin içeriye doğru genişleyen mekânsal yankısıdır.
+
+## Yerleştirmenin Açtığı Alan
+
+Alıntı kapandığında {ar:وَكَذَٰلِكَ, tr:wa-kadhālika, gloss:ve böylece} cümlelerin menteşesi olur. Bağlaç insan sesinden ilahî açıklamaya geçer; içindeki k- karşılaştırma öneki ve geriye bakan {ar:كَذَٰلِكَ, tr:kadhālika, gloss:böylece} gösterimi önceki satış, satın alma ve bakım zincirini Yusuf'un yerleştirilmesine götüren bir güzergâh olarak toplar. Olaylar arka plana atılmaz; ilahî eylemin anlatılma yolu hâline gelir. Bu gösterim, 12:6'daki vaat ufkunu sınırlı bir biçimde hatırlatabilir. İnsanların iki geleceği henüz ihtimal olarak dururken, tamamlanmış birinci çoğul mazi fiil {ar:مَكَّنَّا, tr:makkannā, gloss:yerleştirdik ve güç verdik} belirleyici faili ilahî eyleme taşır. Form II, yalnızca adres değiştirmeyi değil Yusuf için sağlam bir konum ve hareket imkânı hazırlanmasını anlatır; insan sözü ve planı sahnede kalırken ülkedeki yerleştirme tamamlanmış bir ilahî işlem olarak belirir. Bu ilk konum, 12:54 ve 12:55'te görülen kamusal yetkiyi ancak sınırlı bir yankı olarak taşır; yerel yerleştirmenin somut anlamı onun içinde korunur.
+
+Bu yerleştirmenin kime ve nereye yöneldiği de biçimle açılır. {ar:لِيُوسُفَ, tr:li-Yūsufa, gloss:Yusuf için} içindeki ikinci {ar:لِـ, tr:li-, gloss:için} Yusuf'u ilahî eylemin belirli yararlanıcısı yapar. İnsan sözünde zamirler ve roller arasında taşınan kişi, {ar:يُوسُفَ, tr:Yūsufa, gloss:Yusuf} özel adıyla yeniden bireyselleştirilir; adlandırma önceki toplumsal rolleri kaldırmaz, onların kime ait olduğunu gösterir. Ardından {ar:فِي الْأَرْضِ, tr:fī l-arḍi, gloss:toprakta} gelir: Yusuf soyut bir yükselişe değil, belirli toprağın içinde bir konuma yerleştirilir. Bu {ar:فِي, tr:fī, gloss:içinde} ilişkisi ilerideki {ar:عَلَىٰ أَمْرِهِ, tr:ʿalā amrihi, gloss:işi üzerinde} ilişkisinden ayrıdır; biri bir alanın içinde bulunmayı, diğeri gelişen bir iş üzerinde hükmü gösterir. {ar:مَكَّنَّا فِي الْأَرْضِ, tr:makkannā fī l-arḍi, gloss:toprakta yerleştirdik} ev içindeki konaklamayı daha geniş bir yerde eyleme imkânı bulunan kalıcı bir konumlanmaya büyütür. Toprak ölçeği evden geniştir, fakat Yusuf'u yönetici yapan bir makamı henüz kurmaz.
+
+Yusuf'un yararlanıcılığı üçüncü amaç ilişkisiyle tamamlanır: {ar:وَلِنُعَلِّمَهُ, tr:wa-li-nuʿallimahu, gloss:ona öğretmemiz için} yerleştirmeyi öğretimle koordineli kılar. Üç {ar:لِـ, tr:li-, gloss:için} kullanımı aynı sese rağmen aynı görevi yapmaz: ilki karıya yönelen hitabı, ikincisi Yusuf'u ilahî eylemin alıcısı yapan yararlanıcıyı, üçüncüsü öğretimin amacını taşır. {ar:نُعَلِّمَهُ, tr:nuʿallimahu, gloss:ona öğretiyoruz} bitişik nesne zamiriyle Yusuf'u öğretimin doğrudan alıcısı yapar; Form II bilgiyi rastlantısal açıklama değil, onda alımlanacak biçimli bir talim olarak kurar. Kaynak edatıyla gelen {ar:مِنْ تَأْوِيلِ الْأَحَادِيثِ, tr:min taʾwīli l-aḥādīthi, gloss:anlatıların yorumundan} öğretimin alanını sınırlar. {ar:تَأْوِيلِ, tr:taʾwīl, gloss:yorumlama ve sonuca vardırma} bir sözü veya olayı anlamına ve varacağı sonuca doğru izleme hareketini, süreklilik taşıyan bir yorumlama alanını adlandırır. Belirli çoğul {ar:الْأَحَادِيثِ, tr:al-aḥādīthi, gloss:sözler ve anlatılar} öğretimin nesnesini somut sözler, aktarımlar ve anlam taşıyan olay dizileri olarak belirler. Anlatı sözcüğü, anlam taşıyan bir hesabı da hatırlatabilir; bu temasın katkısı söz ve olayları birbirine bağlı, anlam taşıyan malzeme olarak duyurmaktır; öğretimin alanı yine bu belirli malzemeyle sınırlıdır.
+
+{ar:يَنْفَعَنَا, tr:yanfaʿanā, gloss:bize yarar sağlar}nın katkısı, alıcının umduğu yararı hemen alınacak bir kullanım olmaktan çıkarıp öğretimle açılabilecek bir kapasite ufkuna bağlamasıdır. 12:22'deki olgunluk ve tam güç, bağış, hüküm, bilgi, karşılık ve iyilik ifadeleri bu ufku belirginleştirir: yerleştirme ile öğretim arasında bir yetişme eşiği kurulur ve Yusuf'un faydaya dönüşmesi, yerleştirildikten sonra olgunlaşan bir yetkinlik olarak duyulur. Öğrenme böylece hüküm ve bilgi taşıyabilecek bir kapasiteye ulaşır; bu kapasitenin bağışlanmış oluşu onu yalnızca edinilmiş bir mülk veya ev halkının hesabına yazılan bir kazanç olmaktan çıkarır. Alıcının yarar umudu bu gelişimle birlikte korunur ve hemen gerçekleşen bir kullanım olarak kapanmaz.
+
+Bu gecikmenin katkısı, ayetin kelimeleriyle korunan bir imkânın nasıl gelişebileceğini görünür kılmasıdır. {ar:عَسَىٰ, tr:ʿasā, gloss:umulur ki} ev halkının gizli bir yararın açılmasını bekleyen umudunu ve sınırlı verim çağrışımını taşır. {ar:وَلَدًا, tr:waladan, gloss:bir çocuk} çocuk anlamını korurken, {ar:نَتَّخِذَهُ, tr:nattakhidhahu, gloss:onu ediniriz} ile temas eden türeme yönü ilişkiden yeni bir kapasitenin çıkması imgesini açar. {ar:مَكَّنَّا, tr:makkannā, gloss:yerleştirdik ve güç verdik} ise bu imkânın güvenli bir aralıkta gelişmesini taşır; umut verimi, çocuk ilişkiden türemeyi, yerleştirme korunmuş gelişme alanını sağlar ve birlikte yumurta benzeri bir olgunlaşma görüntüsü kurarlar. 12:22'deki bilgi, hüküm ve bağış bu görüntünün görünür yetkinlikle sınanabileceği devam noktasını sağlar. Bu bağlantı biyolojik doğum veya gerçek bir yumurta iddiasına dönüşmez; {ar:عَسَىٰ, tr:ʿasā, gloss:umulur ki} fiiline başka bir sözlük anlamı yüklemeden, olağan umut, evlatlık ve ilahî yerleştirme anlamlarını korur.
+
+Kalacak yerin katkısı, barınmayı ev halkının sorumluluk üstlendiği bir ilişki alanına çevirmesidir. {ar:أَكْرِمِي, tr:akrimī, gloss:onurlandır} eylemi doğrudan {ar:مَثْوَاهُ, tr:mathwāhu, gloss:onun kalacağı yer} üzerine yöneldiği için iyi muamele, yerin kendisine bağlanır. 12:23'teki ev ve kapanmış kapılar, 12:25'teki kapı ve 12:26'daki tanık rolleri bu alanın kabul kadar zorlamayı da taşıyabildiğini gösterir. 12:23'te tanınan iyilik ve besleyip yetiştirme yönündeki rabb dili, ikamete minnet ve sorumluluk boyutu ekler; {ar:مَكَّنَّا, tr:makkannā, gloss:yerleştirdik ve güç verdik} ise bu somut yerde gelişme imkânını açık tutar. Böylece ilk emrin onurlu yerleştirme yönü, sonraki ev içi baskıyı açıklayan tamamlanmış bir antlaşmaya dönüşmeden, kabul ile zorlamanın aynı çevrede karşılaşabileceği bir zemin olarak kalır. Aynı yer kelimesi 12:99'da Yusuf'un anne babasını güven içinde Mısır'a çağırmasıyla başka bir yöne yankılanır: {ar:مَثْوَاهُ, tr:mathwāhu, gloss:kalınan yer ve ev} başkalarını güvenle içeri alabilen bir kabul alanını düşündürür. Bu temas ilk alıcının niyetini aile koruması olarak kanıtlamaz; yerleşim imkânının güvenli kabule açılabilen yüzünü gösterir.
+
+{ar:تَأْوِيلِ, tr:taʾwīl, gloss:yorumlama ve sonuca vardırma}nin katkısı, {ar:الْأَحَادِيثِ, tr:al-aḥādīthi, gloss:sözler ve anlatılar} ile buluştuğunda sözleri ve birbirine bağlanan olayları varacakları anlama doğru izleyen bir yeti görünür kılmasıdır. Süreklilik bu diziyi, bir işi üstlenip yürütme yönü ise {ar:أَمْرِهِ, tr:amrihi, gloss:onun işi veya buyruğu}nin ele alınacak meselesini taşır; hedefe varma yönü bu okumaya sonuç ufku verir. 12:22'deki hüküm ve bilgi, bu nitelikli emanetçilik görüntüsüne ayırt etme kapasitesi ekler. Geri dönüşler 12:6'daki öğretim ufkunda, 12:36'daki te'vil talebinde, 12:43'teki kral rüyasının yorumlatılmasında ve 12:101'de öğretimle te'vilin birlikte anılmasında görünür. {ar:نُعَلِّمَهُ, tr:nuʿallimahu, gloss:ona öğretiyoruz} ile {ar:لَا يَعْلَمُونَ, tr:lā yaʿlamūna, gloss:bilmiyorlar} arasındaki bilgi karşıtlığı 12:6, 12:68 ve 12:101'deki öğretim, verilen bilgi ve bilmeyişle birlikte düşünüldüğünde, yerleştirmenin verilmiş bir kavrayışa da imkân açtığını duyurur. Bu temas Yusuf'a bu âyette makam atamaz ve her sözde gizli bir şifre aramaz; olağan yorum ve sonuca vardırma anlamını genişleten nitelikli bir uzantı olarak kalır.
+
+{ar:تَأْوِيلِ, tr:taʾwīl, gloss:yorumlama ve sonuca vardırma}nin adlî katkısı, anlamı olaylar arasında iz bırakan bir kanıt düzeni içinde takip etmektir. 12:26'daki tanık, gömlek ve yırtılma ile 12:27'deki ön-arka yönleri birlikte düşünüldüğünde gömlek nesnesi ve yırtılma eylemi maddi iz üretir; ön yönün arka yönüyle karşılaştırılması da iki ihtimalin doğrultusunu sınar. Böylece yorum tek bir iddiayı seçmekten çok, izlerin birbirini sınadığı bir açıklama kurar. 12:21'deki öğretim henüz bu davayı anlatmaz; bu, olağan yorum ve sonuca vardırma anlamını koruyan, ilerideki kanıt sahnesine değen sınırlı bir yankıdır.
+
+Sözlerin toplumsal katkısı, {ar:الْأَحَادِيثِ, tr:al-aḥādīthi, gloss:sözler ve anlatılar}nin kapalı bir bilgi olmaktan çıkıp topluluk içinde dolaşmasını göstermesidir. 12:30'daki şehir ve kadınların konuşması, 12:31'deki işitme ve görme ile birleşince söz duyuma, duyum da teşhire ilerler; şehir kadınları bu dolaşımın taşıyıcılarını, işitme ve görme ise haberin kamusal bakışa açılmasını temsil eder. Aynı sahnede {ar:أَكْرِمِي, tr:akrimī, gloss:onurlandır} eylemi toplu tanınmaya doğru genişler: 12:31'de görme, büyütme ve melekleri görme, Yusuf'un olağan ölçünün üstünde algılanmasını sağlar. Ev içinde emredilen onur böylece kamusal bir bakışta yoğunlaşabilir; bu söylenti Yusuf'un gerçek niteliğine tek başına hükmetmez ve ilk emrin somut ev içi muamelesi yerinde kalır.
+
+Evlatlık ihtimalinin katkısı, satın alınmış kişi ile aileye alınabilecek çocuk arasındaki geçişi açık bırakmasıdır. {ar:اشْتَرَاهُ, tr:ishtarāhu, gloss:onu satın aldı} edinilmiş kişi anlamını, {ar:وَلَدًا, tr:waladan, gloss:bir çocuk} aile rolünü taşır; 12:30'daki genç bağımlı ifadesi başlangıçtaki sınıflandırmanın tek bir adla kapanmadığını gösterir. Aynı ayetteki isteme ve çağırma talep eden ile talep edilen arasındaki asimetriyi, kalbe ulaşan arzu ise bu statü geriliminin güçlü istek yönünü açar. 12:32'de kendini tutma emrinin hapse, hapsin aşağılanmaya bağlanması insan iradesinin arzuyu yönetmeye çalıştığı baskı alanını kurar; hapis mekânı kapatırken aşağılanma statüyü de düşürür. Böylece satın alınmış kişi, mümkün çocuk ve başkasının arzusunun nesnesi arasındaki gerilim korunur. Bu sonraki sahneler aileye alınmayı tamamlanmış bir akrabalık veya tek bir sosyal statüye dönüştürmeden, odaktaki geçişin açık kalan yönünü gösterir.
+
+## İşin Gidişi ve Bilginin Sınırı
+
+İnsanî emir ve planların üzerine gelen genel hüküm, {ar:وَاللَّهُ, tr:wa-llāhu, gloss:ve Allah} ile öznesini değiştirir. Yusuf'a özgü öğretimden Allah ve insanların bilgisine dair genel bir hükme geçilir. Allah adının kulluk ve hayretle ilişkilendirilebilen sınırlı çağrışımları duyulsa da cümlenin öznesi olarak açıkça Allah'ı gösterir. {ar:غَالِبٌ, tr:ghālibun, gloss:üstün gelen} etkin ortaç biçimi tek bir zafer anını değil, adı geçen iş üzerinde süren bir üstünlük ilişkisini taşır. {ar:عَلَىٰ, tr:ʿalā, gloss:üzerinde} bu üstünlüğü belirli bir alana bağlar. {ar:أَمْرِهِ, tr:amrihi, gloss:onun işi veya buyruğu} hem yönetici buyruk hem Yusuf'un çevresinde gelişen somut mesele anlamını açık tutar; masdar niteliği işi kararlar ve sonuçlar içinde hareket hâlinde tutar, iyelik zamiri Allah'ın buyruğu ile Yusuf'un vakası arasında yerel bir açıklık bırakır. {ar:فِي الْأَرْضِ, tr:fī l-arḍi, gloss:toprakta} bir alanın içinde bulunmayı, {ar:عَلَىٰ أَمْرِهِ, tr:ʿalā amrihi, gloss:işi üzerinde} ise gelişen iş üzerinde hükmü gösterir. İnsanların {ar:قَالَ, tr:qāla, gloss:dedi} ile kurduğu görünür yol, {ar:نَتَّخِذَهُ, tr:nattakhidhahu, gloss:onu ediniriz} ile yaptığı ev planı ve {ar:مَكَّنَّا, tr:makkannā, gloss:yerleştirdik ve güç verdik} ile gerçekleşen ilahî yerleştirme aynı âyette kalır; daha geniş işleyiş Allah'a bağlanırken insan eylemi de görünür kalır.
+
+Bu ayrımın ilk somut sınaması 12:32'deki kendini tutma, emir, hapis ve aşağılanma dizisidir. Ev sahibinin buyruğu kendi sınırları içinde gerçek bir yaptırım taşırken, {ar:غَالِبٌ عَلَىٰ أَمْرِهِ, tr:ghālibun ʿalā amrihi, gloss:işi üzerinde üstün gelen} bu yerel baskının içinden geçen daha geniş ilahî sonucu görünür kılar. 12:24'te zararı başka yöne çeviren ilahî uzaklaştırma, üstünlüğün kriz içinde çalışan koruyucu yüzünü ekler. Daha sonraki 12:40'taki hüküm, 12:54'teki güvenilir makama kabul, 12:55'teki yönetim sorumluluğu ve 12:76'daki ilahî düzen içinde hareket ise {ar:أَمْرِهِ, tr:amrihi, gloss:onun işi veya buyruğu}nin hüküm, emanet edilen görev ve ilahî düzen yönlerini ayrı ayrı açar. Bu, odaktaki insan buyruğunu Allah'ın işiyle birleştiren tamamlanmış bir makam anlatısı değil; insan eylemini koruyarak ilahî işleyişe doğru genişleyen nitelikli bir yetki yankısıdır.
+
+İkamet görüntüsünün hapse uzanan katkısı, bir yerin hem kalmayı hem de kapasiteyi taşıyabilmesidir. {ar:مَثْوَاهُ, tr:mathwāhu, gloss:onun kalacağı yer} kalma yerini, {ar:مَكَّنَّا, tr:makkannā, gloss:yerleştirdik ve güç verdik} kapasite kazandıran konumu açar. 12:33'teki tercih edilen hapis, 12:34'teki ilahî yön değiştirme ve 12:35'teki hapis, işaretler ve süre biçimleri bu konumu kapatılma, korunma ve zamanla sınırlanma aşamalarına taşır. Yusuf'un hapsi gerçektir; ikamet dili onu ufku bulunan bir ara istasyon olarak da duyurur. {ar:تَأْوِيلِ, tr:taʾwīl, gloss:yorumlama ve sonuca vardırma}in sonuca ulaşma yönü bu zamana bir ufuk ekler. 12:35'te belirtilere rağmen kuşatmanın sürmesi, insanî kısıtlamayı korurken bu sınırlı durak görüntüsünü güçlendirir; sürenin uzunluğu, hapsin sonu ve acının bütünü hakkında bu bağlantı daha ileri bir hüküm vermez.
+
+{ar:مَكَّنَّا, tr:makkannā, gloss:yerleştirdik ve güç verdik}nın 12:56'daki yerleştirme diliyle ve 12:100'de aile dönüşü ile açık {ar:تَأْوِيلِ, tr:taʾwīl, gloss:yorumlama ve sonuca vardırma} bilgisinin görünmesiyle buluşmasının katkısı, 12:21'deki küçük yerleştirmeyi uzun olay akışındaki ilk görünür konum olarak yeniden duyurmaktır. 12:56 yerleştirmenin yetkiyle genişleyen yüzünü, 12:100 ise aile buluşması ve yorumun sonucunun açıldığı yüzünü gösterir. Aynı şekilde {ar:يَنْفَعَنَا, tr:yanfaʿanā, gloss:bize yarar sağlar} ile {ar:وَلَدًا, tr:waladan, gloss:bir çocuk} alıcının gerçek yerel amaçlarını korurken, {ar:غَالِبٌ, tr:ghālibun, gloss:üstün gelen} ve {ar:أَمْرِهِ, tr:amrihi, gloss:onun işi veya buyruğu} bu amaçların alıcıların bilmediği daha geniş bir akış içinde kaldığını gösterir. Bu uzak dönüşler, ara olayların her birini önceden belirleyen bir şema değil; 12:21'deki yerleştirme, yetki ve sonuç arasında kurulan nitelikli biçim-anlam yankılarıdır.
+
+Son cümle ilahî üstünlük ile insan kavrayışını {ar:وَلَٰكِنَّ, tr:walākinna, gloss:fakat} aracılığıyla aynı kapanışa bağlar. Hemen arkasındaki {ar:أَكْثَرَ, tr:akthara, gloss:çoğu}, karşıtlık yapısının içinde insan cümlesinin mansup öznesidir. {ar:النَّاسِ, tr:an-nāsi, gloss:insanlar} tamlayanıyla ölçek ev halkından daha geniş insan sınıfına taşınır; `çoğu` ölçüsü bilmeyişi herkesle özdeşleştirmez. {ar:لَا, tr:lā, gloss:-mez} sonraki fiili yönetir; {ar:يَعْلَمُونَ, tr:yaʿlamūna, gloss:biliyorlar} çoğul muzari biçimi bilmeyişi tek seferlik bir boşluk değil, sürmekte olan bir durum olarak sunar. Bu ifade insanların her konuda bilgisiz kaldığını veya hiç kimsenin sonradan bilemeyeceğini söylemez. {ar:نُعَلِّمَهُ, tr:nuʿallimahu, gloss:ona öğretiyoruz} ile {ar:يَعْلَمُونَ, tr:yaʿlamūna, gloss:biliyorlar} aynı bilgi alanında karşılaşır: Yusuf'a adı konmuş anlatıların yorumuna doğru bir öğretim açılırken insanların çoğu bu yerleştirmenin, öğretimin ve iş üzerindeki üstünlüğün ne yaptığını kendi başına kavrayamaz.
+
+</editorial_prose>

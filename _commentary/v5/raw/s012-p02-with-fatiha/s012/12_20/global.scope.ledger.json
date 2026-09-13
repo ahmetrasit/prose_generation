@@ -1,0 +1,277 @@
+{
+  "schema_version": "commentary-v5-scope-landing-ledger-v1",
+  "ayah_ref": "12:20",
+  "lane": "global",
+  "findings": [
+    {
+      "finding_ref": "global:counted-price-not-value",
+      "landings": [
+        {
+          "movement_refs": ["discovery:claim", "discovery:mechanism"],
+          "paragraph": 1,
+          "anchor": "Buradaki {ar:مَعْدُودَةٍ, tr:ma'dûdetin, gloss:sayılmış ve sınırlandırılmış miktar}, birimleri sayarak toplamı belirleme işini ödemeye taşır: dirhemler miktarı kapatır, fakat insanın değerini kapatmaz."
+        },
+        {
+          "movement_refs": ["discovery:reader_payoff"],
+          "paragraph": 1,
+          "anchor": "Böylece okur birkaç dirhemi yalnız küçük bir rakam olarak değil, sayıya sığdırılmış fakat değer bakımından açıkta bırakılmış bir insan hükmü olarak görür."
+        },
+        {
+          "movement_refs": ["discovery:containment"],
+          "paragraph": 1,
+          "anchor": "Son nitelemedeki {ar:ٱلزَّٰهِدِينَ, tr:ez-zâhidîn, gloss:ona değer vermeyenler}, bu sayısal kapanışı satıcıların Yusuf'u elde tutmaya değmez görmesiyle birleştirir; bu birleşme satışın ve birkaç dirhemin açık anlamını korur, sayıyı kendi başına bir kötülük ilan etmez."
+        },
+        {
+          "movement_refs": ["activation:0", "connection:conn_7d24247c54e469ecaf9f", "connection:conn_c09314e908e4f171731c", "context:104:2", "context:14:34"],
+          "paragraph": 1,
+          "anchor": "104:2'de malı toplayıp sayan elin ve 14:34'te sayılabilen nimetleri kuşatamayan sayının başka yerlerde görünmesi, 12:20'deki sayılmış ödemenin rakamsal kapanışını değer hükmünden ayıran daha geniş bir temas kurar."
+        }
+      ]
+    },
+    {
+      "finding_ref": "global:later-standing-reopens-price",
+      "landings": [
+        {
+          "movement_refs": ["discovery:claim", "discovery:mechanism"],
+          "paragraph": 5,
+          "anchor": "İlerleyen anlatıda 12:54-12:55, Yusuf'un güvenilirliği ve ambarları yönetme kapasitesiyle öne çıkışını gösterir; bu geriye dönük bakış, 12:20'de sayıyla kapatılan düşük bedeli daha sonra açılan emanet ve idare kapasitesinin taşıyamadığı geçici bir sınıflama olarak karşılaştırır."
+        },
+        {
+          "movement_refs": ["discovery:reader_payoff"],
+          "paragraph": 5,
+          "anchor": "Okur düşük fiyatı anlatının son sözü değil, kişinin sonraki sorumluluğu ve etkisi karşısında yetersiz kalan ilk hüküm olarak görür."
+        },
+        {
+          "movement_refs": ["discovery:containment"],
+          "paragraph": 5,
+          "anchor": "Satıcıların geleceği bildiği veya 12:20'nin sonraki konumu önceden açıkladığı söylenmeden, sonraki konum ilk rakamın sınırını görünür kılar."
+        },
+        {
+          "movement_refs": ["context:12:54", "context:12:55"],
+          "paragraph": 5,
+          "anchor": "Bu sonraki sahnenin 12:54-12:55'teki güvenilirlik ve ambar yönetimi bağlamı, ilk satışın rakamla kapatılmış değerini geriye dönük olarak sınırlar."
+        }
+      ]
+    },
+    {
+      "finding_ref": "global:exchange-no-stable-viewpoint",
+      "landings": [
+        {
+          "movement_refs": ["discovery:claim"],
+          "paragraph": 2,
+          "anchor": "{ar:شَرَوْهُ, tr:şerawhû, gloss:bedel karşılığında alıp satma} fiili, Yusuf'un satıcıların elinden bedel karşılığında çıkarıldığını açıkça bildirir; kelimenin edinme ve elden çıkarma yönlerini birlikte taşıması, alışverişin iki tarafını da duyurur."
+        },
+        {
+          "movement_refs": ["discovery:mechanism"],
+          "paragraph": 2,
+          "anchor": "2:207'de aynı değişim dili bir insanın kendisini başka bir amaç uğruna vermesine, 3:77'de ise alışverişin az bir karşılıkla kurulmasına bağlanır; 12:21'de alıcının Yusuf'ta yarar veya evlatlık ihtimali görmesi de aynı aktarımın taraflara göre farklı değerler taşıdığını gösterir."
+        },
+        {
+          "movement_refs": ["discovery:reader_payoff"],
+          "paragraph": 2,
+          "anchor": "Okur satış fiilini yalnızca kimin kimi sattığını bildiren bir hareket olarak değil, bir insanın değerinin bedel tarafından sabitlenemediğini gösteren perspektifli bir değişim olarak okur."
+        },
+        {
+          "movement_refs": ["discovery:containment"],
+          "paragraph": 2,
+          "anchor": "Odak sahnesi yine satıcıların Yusuf'u birkaç dirheme satmasıdır; 2:207'nin amaçlı öz-vermesi, 3:77'nin ahit bağlamı ve 12:21'deki alıcı beklentisi bu sahnenin yerine geçmeden karşılaştırma sağlar."
+        },
+        {
+          "movement_refs": ["activation:0", "activation:1"],
+          "paragraph": 2,
+          "anchor": "Bu fiilin eş ve denk alanı, bedel ile insan arasında kurulmuş sayısal eşdeğerlik varsayımını sınar; odaktaki bedel böylece tek ve sabit bir değer ölçüsü olmaktan çıkar."
+        },
+        {
+          "movement_refs": ["connection:conn_edfa238f44dc97996906", "connection:conn_1d6afc8f6efc2f10733d", "context:12:21", "context:2:207", "context:3:77"],
+          "paragraph": 2,
+          "anchor": "Söz konusu farklı aktör ve amaçlar 2:207, 3:77 ve 12:21'de görünür; bunlar odaktaki satışa yön vermeden değişim dilinin bakışa göre açıldığını gösterir."
+        }
+      ]
+    },
+    {
+      "finding_ref": "global:measured-return-reopens-exchange",
+      "landings": [
+        {
+          "movement_refs": ["discovery:claim", "discovery:mechanism"],
+          "paragraph": 5,
+          "anchor": "Daha sonra 12:59'da tam ölçü beklentisi ve 12:65'te geri verilen malın yeniden ölçü, kardeşi koruma ve bir deve yükü etrafında alışverişe girmesi, ilk satışın kapalı değerlemesini ölçü ve iadenin yeniden açabildiği bir ilişki içindeki çarpılmış bir an olarak düşündürür."
+        },
+        {
+          "movement_refs": ["discovery:reader_payoff"],
+          "paragraph": 5,
+          "anchor": "Böylece düşük bedel hem Yusuf'un sonraki emanet kapasitesi karşısında yetersiz kalan bir ilk hüküm, hem de ileride ölçü ve dönüşle yeniden değerlendirilebilen kapanmış bir işlem olarak kalır."
+        },
+        {
+          "movement_refs": ["discovery:containment"],
+          "paragraph": 5,
+          "anchor": "Bu son bağ, 12:65'in odak satışını zorunlu olarak açıkladığı iddiası değildir; geri dönüş ve ölçü, sonraki sahnede ilişkiyi yeniden açan bir karşı imkân olarak tutulur."
+        },
+        {
+          "movement_refs": ["connection:conn_e5b56095fa261cda7236", "context:12:59", "context:12:65"],
+          "paragraph": 5,
+          "anchor": "12:59 ve 12:65'teki tam ölçü, geri verilen mal, kardeşi koruma ve bir deve yükü ayrıntıları, ölçü ve iadenin bu ilişkiyi yeniden açan temaslarıdır."
+        }
+      ]
+    },
+    {
+      "finding_ref": "global:bounded-count",
+      "landings": [
+        {
+          "movement_refs": ["discovery:claim", "discovery:mechanism", "discovery:reader_payoff"],
+          "paragraph": 1,
+          "anchor": "Aynı {ar:مَعْدُودَةٍ, tr:ma'dûdetin, gloss:sayılmış ve sınırlandırılmış miktar} biçiminin başka bir ayette belirlenmiş bir süreyi sınırlaması, miktara sonlu bir sınır duygusu verir; bu uzak çağrışım dirhemleri zamana çevirmeden, ödemenin kapanmışlığını derinleştirir."
+        },
+        {
+          "movement_refs": ["discovery:containment"],
+          "paragraph": 1,
+          "anchor": "Bu nedenle süre çağrışımı para miktarı olarak kurulan ön anlamı yerinden etmez."
+        },
+        {
+          "movement_refs": ["activation:0", "connection:conn_3d6fa470f2d48fa48686", "context:11:8"],
+          "paragraph": 1,
+          "anchor": "11:8'deki belirlenmiş süre ile 12:20'deki sayılmış dirhemi aynı sınır duygusunda buluşturan bu temas, keşif niteliğinde bir genişleme olarak kalır."
+        }
+      ]
+    },
+    {
+      "finding_ref": "global:concealed-disposal-becomes-commodity",
+      "landings": [
+        {
+          "movement_refs": ["discovery:claim", "discovery:mechanism"],
+          "paragraph": 4,
+          "anchor": "Böylece 12:20'deki satış, tek başına başlayan bir pazar işlemi değil, saklanan kişinin ölçülebilir bir bedelle aktarılmaya çevrildiği önceki tasarruf zincirinin devamı olarak belirir."
+        },
+        {
+          "movement_refs": ["discovery:reader_payoff"],
+          "paragraph": 4,
+          "anchor": "Okur satışın arkasındaki hareketi, gizleme, başkasına bırakma ve sonunda birkaç dirheme aktarma şeklinde somut bir zincir olarak görür."
+        },
+        {
+          "movement_refs": ["discovery:containment"],
+          "paragraph": 4,
+          "anchor": "Bu görüntü satış anlamını değiştirmez; Yusuf'un gerçekten mal olduğu sonucunu vermeden, insanı nesneleştiren görünümü önceki olayların ardışıklığı içinde görünür kılar."
+        },
+        {
+          "movement_refs": ["activation:0"],
+          "paragraph": 4,
+          "anchor": "Bu temas, {ar:شَرَوْهُ, tr:şerawhû, gloss:bedel karşılığında alıp satma} fiilinin satış anlamını koruyarak, önceki gizleme ve başkasının tasarrufuna bırakma zincirini odaktaki bedelli aktarıma bağlar."
+        },
+        {
+          "movement_refs": ["connection:conn_dc4b2411358a4f74ca63"],
+          "paragraph": 4,
+          "anchor": "{ar:شَرَوْهُ, tr:şerawhû, gloss:bedel karşılığında alıp satma} kelimesinin bedelli elden çıkarma yönü, 12:10'daki kuyuda yolcularca bulunmaya bırakma sahnesiyle temas edince, satışın öncesinde bir insanın başkalarının tasarrufuna sokulduğu görülür."
+        },
+        {
+          "movement_refs": ["connection:conn_84dc7af16de532812516", "connection:conn_a5166723521f227e1a78", "connection:conn_76ccd3f1140de9ca1b25"],
+          "paragraph": 4,
+          "anchor": "12:15'te kuyuya atma, 12:17'de kurt tarafından yenmiş olma yalanı ve 12:18'de sahte kanla kurulan örtü, bu gizleme ve yerinden etme çizgisini tamamlar."
+        },
+        {
+          "movement_refs": ["context:12:10", "context:12:15", "context:12:17", "context:12:18"],
+          "paragraph": 4,
+          "anchor": "Bu zincirin bağlandığı sahneler 12:10, 12:15, 12:17 ve 12:18'de sırasıyla kuyuya bırakma, kuyuya atma, kurt yalanı ve sahte kanla gizleme olarak görünür."
+        }
+      ]
+    },
+    {
+      "finding_ref": "global:fair-measure-makes-shortfall-ethical",
+      "landings": [
+        {
+          "movement_refs": ["discovery:claim"],
+          "paragraph": 3,
+          "anchor": "Düşük bedeli adlandıran {ar:بَخْسٍ, tr:bahsın, gloss:payı, değeri veya karşılığı gereğinden aşağı düşürme}, önce bir hak, miktar veya değeri olması gereken düzeyin altına indirme çekirdeğini taşır."
+        },
+        {
+          "movement_refs": ["discovery:mechanism"],
+          "paragraph": 3,
+          "anchor": "7:85 ve 11:85'te insanlara ait şeyleri eksiltmeme, ölçü ve tartıyı kıst ile tamamlama; 83:3 ve 55:9'da alırken tam isteyip verirken teraziyi eksiltmeme yönündeki daha geniş ölçü düzeni, bu sıfatı sıradan bir ucuzluk olmaktan çıkarır."
+        },
+        {
+          "movement_refs": ["discovery:reader_payoff"],
+          "paragraph": 3,
+          "anchor": "Okur satışın fiyatını bir pazarlık ayrıntısı olarak değil, bir insanın payını ve değerini azaltan ölçüsel bir işlem olarak görür."
+        },
+        {
+          "movement_refs": ["discovery:containment"],
+          "paragraph": 3,
+          "anchor": "Bu normatif karşılaştırma satışın düşük bedelle gerçekleştiği açık anlamını güçlendirir; ölçü ayetlerinin bütün toplumsal hükümlerini bu sahneye taşımadan, yalnız eksiltme ve değer-karşılık ilişkisini görünür kılar."
+        },
+        {
+          "movement_refs": ["activation:0"],
+          "paragraph": 3,
+          "anchor": "Bu çekirdeğin odakla kurduğu temas, bahsın yalnız eksik bir miktarı değil, hakkın ve değerin gereken düzeyden aşağı çekilmesini görünür kılar."
+        },
+        {
+          "movement_refs": ["activation:1"],
+          "paragraph": 3,
+          "anchor": "Bu bağımsız ölçü karşısında {ar:بَخْسٍ, tr:bahsın, gloss:değerinin altında karşılık biçme}, birkaç dirhemin gerçek değerin altında biçilen bir karşılık olduğunu ve Yusuf'un payının değerleme içinde aşağı çekildiğini açıklar."
+        },
+        {
+          "movement_refs": ["connection:conn_1a9903a2caf1a3b69570", "connection:conn_cb0ff233f302b2e84adc", "connection:conn_9cee1c3fd66900fb10b9", "connection:conn_d97ac13cf6845f8c51a4", "context:7:85", "context:11:85", "context:83:3", "context:55:9"],
+          "paragraph": 3,
+          "anchor": "7:85, 11:85, 83:3 ve 55:9'daki bu dört ölçü sahnesi, bahsın odaktaki fiyatla kurduğu değer-karşılık temasını somutlaştırır."
+        }
+      ]
+    },
+    {
+      "finding_ref": "global:consent-missing-from-exchange",
+      "landings": [
+        {
+          "movement_refs": ["discovery:claim", "discovery:mechanism", "discovery:reader_payoff"],
+          "paragraph": 2,
+          "anchor": "Aynı alışveriş fiili 4:29'da karşılıklı rızayla kurulan ticaret ölçüsüne değdiğinde, odaktaki bedelin varlığı Yusuf'un kendi pazarlık konumunu güvenceye almadığı ve insanın söz hakkının sahnenin dışında kaldığı görülür."
+        },
+        {
+          "movement_refs": ["discovery:containment"],
+          "paragraph": 2,
+          "anchor": "Bu, Yusuf'un söylenmemiş niyetine kesin bir hüküm vermeyen, değişimin fail ile nesne arasındaki asimetrisini açan temkinli bir okumadır."
+        },
+        {
+          "movement_refs": ["activation:0", "connection:conn_7a230f8e83e6beb5f9b9", "context:4:29"],
+          "paragraph": 2,
+          "anchor": "4:29'un karşılıklı rıza ölçüsü, bu odak fiiline dönen bağımsız karşılaştırma olarak, bedelli değişim ile insanın söz hakkı arasındaki boşluğu belirginleştirir."
+        }
+      ]
+    },
+    {
+      "finding_ref": "global:guaranteed-exchange-contrast",
+      "landings": [
+        {
+          "movement_refs": ["discovery:claim", "discovery:mechanism", "discovery:reader_payoff"],
+          "paragraph": 2,
+          "anchor": "9:111'de canların ve malların cennet karşılığında satın alınması, alışveriş diline vaat ve güvence ekler; bu karşıt çerçeve 12:20'deki birkaç dirhemin kişinin gelecekteki konumunu güvenceye almayan salt sayısal bir karşılık olduğunu belirginleştirir."
+        },
+        {
+          "movement_refs": ["discovery:containment"],
+          "paragraph": 2,
+          "anchor": "Burada ilahî alışveriş odak satışının yerine konmaz; yalnızca karşılığın bir yerde güvence taşıyabildiğini, bu satışta ise rakamın böyle bir güvence sunmadığını gösteren analojik bir ufuk açar."
+        },
+        {
+          "movement_refs": ["activation:0", "connection:conn_eae87f5439d49ecb570e", "context:9:111"],
+          "paragraph": 2,
+          "anchor": "9:111'deki vaatli alışveriş, odak fiiline dönen analojik tetik olarak, rakamın güvence sunmadığını karşıtlıkla açar."
+        }
+      ]
+    },
+    {
+      "finding_ref": "global:price-is-not-enduring-worth",
+      "landings": [
+        {
+          "movement_refs": ["discovery:claim", "discovery:mechanism"],
+          "paragraph": 1,
+          "anchor": "Aynı {ar:ثَمَنٍ, tr:semenin, gloss:satış karşılığı ve değer} kelimesi daha geniş bir değer ufkunda az karşılığı tükenen olanla, Allah katındaki kalıcı olanı ayıran kullanımlara bağlandığında, birkaç dirhem Yusuf'un öz değerini değil, geçici işlemin yerel karşılığını belirleyen bir rakam gibi görünür."
+        },
+        {
+          "movement_refs": ["discovery:reader_payoff", "discovery:containment"],
+          "paragraph": 1,
+          "anchor": "Bu karşılaştırma fiyatın satış içindeki açık anlamını korur; kalıcı değer ufku ona bir gelecek vaadi eklemeden, rakamın taşıyamadığı değeri görünür kılar."
+        },
+        {
+          "movement_refs": ["activation:0", "connection:conn_da3ee37d0b7620b5b292", "connection:conn_d6facd1c24709dd40b58", "context:16:95", "context:16:96"],
+          "paragraph": 1,
+          "anchor": "16:95-16:96'daki az karşılık, tükenen elde olandan ve kalıcı olandan ayrılır; bu geniş temas 12:20'deki fiyatın ölçtüğü şey ile Yusuf'un değerini birbirinden ayırır."
+        }
+      ]
+    }
+  ]
+}

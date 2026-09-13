@@ -166,6 +166,15 @@ into the prose as readerly anchors, not mechanically inserted after every
 ordinary Turkish reference. If a tag makes the sentence clumsy, rewrite the
 sentence around the tagged carrier while preserving the same supported reading.
 
+Surah commentary prose should use readerly thematic subsections in the v5 final
+prose style. Let the number of subsections be determined by the surah's actual
+themes, movements, images, and turns in attention; do not target a fixed count.
+Headings should name the movement the reader is entering, not the workflow
+stage or evidence category. Avoid generic headings such as "Başlangıç",
+"Kapanış", "Âyetlerin akışı", "Postlude", or "Özet" unless the heading is made
+specific to the concrete movement being developed. Use subsections to make the
+reader's path through the commentary legible, not to inventory the outline.
+
 Keep the composition agent open through semantic acceptance and any needed
 revision. In orchestration-only mode, keep it open until the operator either
 accepts the output or requests another pass. Follow the V5 artifact style:
@@ -209,6 +218,13 @@ Specific revision instructions:
   duyurur...", "Açık kalan nokta şudur...", or "Burada sınır şu kadardır...".
 - Make the postlude feel less like an audit report. Keep paragraphs organized
   around readerly movements, not around proving every constraint.
+- Organize the prose under readerly thematic subsections in the v5 final prose
+  style. Let the number of subsections follow the surah's actual themes,
+  movements, images, and turns in attention; do not target a fixed count.
+  Headings should name the movement the reader is entering, not the workflow
+  stage or evidence category. Avoid generic headings such as "Başlangıç",
+  "Kapanış", "Âyetlerin akışı", "Postlude", or "Özet" unless the heading is
+  made specific to the concrete movement being developed.
 - Keep paragraph count flexible. Do not compress distinct movements, but let
   each paragraph have one clear object of attention.
 - Remove repeated disclaimers and repeated formulations.

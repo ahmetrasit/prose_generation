@@ -33,10 +33,18 @@ clearer, wider, or different through the retained images. Explain each member
 image's distinct contribution and how the members work together. All outline
 movements and members must remain recoverable. Do not merge materially
 different systems into a generic moral.
-Organize paragraphs around developing relations, not one paragraph per outline
-member. Several members can work together in one paragraph when their distinct
-contributions remain clear. An ayah reference locates an image; it need not
-restart the explanation as an independent exhibit.
+Organize the whole prose under readerly thematic subsections in the v5 final
+prose style. Let the number of subsections be determined by the surah's actual
+themes, movements, images, and turns in attention; do not target a fixed
+count. Headings should name the movement the reader is entering, not the
+workflow stage or evidence category. Avoid generic headings such as
+"Başlangıç", "Kapanış", "Âyetlerin akışı", "Postlude", or "Özet" unless the
+heading is made specific to the concrete movement being developed. Organize
+paragraphs inside each subsection around developing relations, not one
+paragraph per outline member. Several members can work together in one
+paragraph when their distinct contributions remain clear. An ayah reference
+locates an image; it need not restart the explanation as an independent
+exhibit.
 
 Lead with what a resonance contributes. Let secondary layers accompany,
 support, expand, or shift the hearing of the primary layer as the editorials
@@ -70,12 +78,11 @@ readerly anchor at the moment the Arabic carrier matters, not a citation after
 every ordinary mention. Prefer one well-placed tag for the operative carrier in
 a paragraph; repeat it only when that same carrier does interpretive work again
 in a later paragraph. Write fluent, contemporary prose for a non-specialist.
-Keep
-transitions concrete: each section should take up a question, image, relation,
-or movement from the preceding one. Avoid restarting every paragraph as an
-independent exhibit. Subtitles are optional and should mark real changes in
-the reading, not evidence categories. The ending should return to this surah's
-primary force and earned payoff, without prescribing another surah's sequence.
+Keep transitions concrete: each subsection should take up a question, image,
+relation, or movement from the preceding one. Avoid restarting every paragraph
+as an independent exhibit. Subtitles should mark real changes in the reading,
+not evidence categories. The ending should return to this surah's primary
+force and earned payoff, without prescribing another surah's sequence.
 
 No word or paragraph quota. Let the surah and the reading determine the shape.
 A short surah may need a compact surface; a long surah may need many paragraphs.
