@@ -15,7 +15,7 @@ from pathlib import Path
 from typing import Any
 
 from common import (
-    REPO_ROOT, WORKFLOW_ROOT, content_hash, immutable_write_json,
+    REPO_ROOT, WORKFLOW_ROOT, atomic_write_text, content_hash, immutable_write_json,
     immutable_write_text, load_json, normalize_language, portable_path, sha256_text,
 )
 
@@ -373,7 +373,16 @@ def main() -> int:
     elif args.command == "instantiate":
         output = run_dir(packet) / "outputs" / f"{args.stage}.json"
         path = run_dir(packet) / "inputs" / f"{args.stage}.prompt.md"
-        immutable_write_text(path, assemble(args.stage, packet, outline=outline, draft=composition, output=output))
+        atomic_write_text(
+            path,
+            assemble(
+                args.stage,
+                packet,
+                outline=outline,
+                draft=composition,
+                output=output,
+            ),
+        )
         print(path)
         print(output)
     else:

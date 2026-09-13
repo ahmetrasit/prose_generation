@@ -5,7 +5,9 @@ from __future__ import annotations
 
 import json
 import hashlib
+import os
 import re
+import tempfile
 from pathlib import Path
 from typing import Any
 
@@ -59,6 +61,25 @@ def write_json(path: Path, value: Any, *, compact: bool = False) -> None:
         rendered + "\n",
         encoding="utf-8",
     )
+
+
+def atomic_write_text(path: Path, text: str) -> None:
+    """Replace a regular generated text file atomically."""
+    path.parent.mkdir(parents=True, exist_ok=True)
+    if path.is_symlink() or (path.exists() and not path.is_file()):
+        raise SystemExit(f"error: refusing to replace non-regular artifact: {path}")
+    descriptor, temporary_name = tempfile.mkstemp(
+        dir=path.parent, prefix=f".{path.name}.", suffix=".tmp"
+    )
+    temporary = Path(temporary_name)
+    try:
+        with os.fdopen(descriptor, "w", encoding="utf-8") as handle:
+            handle.write(text)
+            handle.flush()
+            os.fsync(handle.fileno())
+        os.replace(temporary, path)
+    finally:
+        temporary.unlink(missing_ok=True)
 
 
 def canonical_json(value: Any) -> str:

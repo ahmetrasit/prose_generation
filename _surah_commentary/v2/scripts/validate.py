@@ -1918,4 +1918,7 @@ def main() -> int:
 
 
 if __name__ == "__main__":
-    raise SystemExit(main())
+    raise SystemExit(
+        "error: this historical v2 script is disabled for active runs; "
+        "use _surah_commentary/v2/scripts/workflow.py validate"
+    )
