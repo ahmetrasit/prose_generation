@@ -322,12 +322,21 @@ def load_registration(path: Path) -> dict[str, Any]:
         raise MonitorError("Registration scope_count does not match scope_refs")
     if not isinstance(value.get("invitation_required", False), bool):
         raise MonitorError("Registration invitation_required must be a boolean")
+    if not isinstance(value.get("control_polling", True), bool):
+        raise MonitorError("Registration control_polling must be a boolean")
     try:
         poll_seconds = float(value.get("poll_seconds", 10))
     except (TypeError, ValueError) as exc:
         raise MonitorError("Registration poll_seconds must be numeric") from exc
     if poll_seconds <= 0:
         raise MonitorError("Registration poll_seconds must be greater than zero")
+    return value
+
+
+def control_polling_enabled(registration: dict[str, Any]) -> bool:
+    value = registration.get("control_polling", True)
+    if not isinstance(value, bool):
+        raise MonitorError("Registration control_polling must be a boolean")
     return value
 
 
@@ -651,32 +660,46 @@ class FirebaseRestSink:
         )
 
     def register(self, registration: dict[str, Any]) -> str:
-        desired = self._read_control_state(registration) or "running"
+        desired = (
+            self._read_control_state(registration)
+            if control_polling_enabled(registration)
+            else None
+        ) or "running"
         self.last_desired_state = desired
-        self._write(
-            self._path("runs", registration["run_id"]),
-            {
-                "run_id": registration["run_id"],
-                "last_registered_at": utc_now(),
-            },
-        )
-        self._write(
-            self._path("workers", registration["worker_id"]),
-            {
-                "worker_id": registration["worker_id"],
-                "status": "online",
-                "heartbeat_at": utc_now(),
-            },
-        )
-        self._write(
-            self._orchestrator_path(registration),
-            {
-                **public_registration(registration),
-                "desired_state": desired,
-                "monitor_state": "online",
-                "registered_at": utc_now(),
-            },
-        )
+        run_written = False
+        try:
+            self._write(
+                self._path("runs", registration["run_id"]),
+                {
+                    "run_id": registration["run_id"],
+                    "last_registered_at": utc_now(),
+                },
+            )
+            run_written = True
+            self._write(
+                self._path("workers", registration["worker_id"]),
+                {
+                    "worker_id": registration["worker_id"],
+                    "status": "online",
+                    "heartbeat_at": utc_now(),
+                },
+            )
+            self._write(
+                self._orchestrator_path(registration),
+                {
+                    **public_registration(registration),
+                    "desired_state": desired,
+                    "monitor_state": "online",
+                    "registered_at": utc_now(),
+                },
+            )
+        except Exception:
+            if run_written:
+                try:
+                    self.close(registration, utc_now())
+                except Exception:
+                    pass
+            raise
         return desired
 
     def _read_control_state(self, registration: dict[str, Any]) -> str | None:
@@ -688,6 +711,8 @@ class FirebaseRestSink:
         return str(control["desired_state"])
 
     def desired_state(self, registration: dict[str, Any]) -> str | None:
+        if not control_polling_enabled(registration):
+            return None
         desired = self._read_control_state(registration)
         if desired is not None and desired != self.last_desired_state:
             self._write(
@@ -1105,6 +1130,7 @@ class Monitor:
         interval: float,
         heartbeat_interval: float,
         firebase: RemoteSink | None,
+        remote_already_registered: bool = False,
     ) -> None:
         self.registration = registration
         self.interval = interval
@@ -1114,10 +1140,11 @@ class Monitor:
         self.stop_requested = False
         self.fingerprints: dict[Path, tuple[int, int]] = {}
         self.synced_artifacts: dict[tuple[str, str], str] = {}
+        self.synced_tasks: dict[str, str] = {}
         self.pending_refs: set[str] = set()
         self.scope = set(registration["scope_refs"])
         self.last_heartbeat = 0.0
-        self.registration_synced = firebase is None
+        self.registration_synced = firebase is None or remote_already_registered
 
     def _safe_remote(self, method: str, *args: Any) -> tuple[bool, Any]:
         if self.firebase is None:
@@ -1130,6 +1157,10 @@ class Monitor:
 
     def _mirror_control(self, desired: str | None) -> None:
         marker = control_marker(self.registration)
+        if not control_polling_enabled(self.registration):
+            marker.unlink(missing_ok=True)
+            self.local.set_control_state(self.registration, "running")
+            return
         if desired == "paused":
             if not marker.exists():
                 _atomic_write_text(marker, f"paused_at={utc_now()}\n")
@@ -1194,7 +1225,15 @@ class Monitor:
             remote_ok = remote_ok and artifact_ok
             if artifact_ok:
                 self.synced_artifacts[key] = artifact["sha256"]
-        task_ok, _value = self._safe_remote("upsert_task", task)
+        task_digest = hashlib.sha256(
+            json.dumps(task, ensure_ascii=False, sort_keys=True).encode("utf-8")
+        ).hexdigest()
+        if self.synced_tasks.get(task["task_id"]) == task_digest:
+            task_ok = True
+        else:
+            task_ok, _value = self._safe_remote("upsert_task", task)
+            if task_ok:
+                self.synced_tasks[task["task_id"]] = task_digest
         remote_ok = remote_ok and task_ok
         if remote_ok:
             self.pending_refs.discard(ayah_ref)
@@ -1230,8 +1269,12 @@ class Monitor:
 
     def run(self, *, once: bool = False) -> None:
         desired = self.local.register(self.registration)
-        registered, remote_desired = self._safe_remote("register", self.registration)
-        self.registration_synced = registered
+        remote_desired = None
+        if not self.registration_synced:
+            registered, remote_desired = self._safe_remote("register", self.registration)
+            self.registration_synced = registered
+        elif self.firebase is not None:
+            remote_desired = self.registration.get("initial_remote_desired_state")
         self._mirror_control(remote_desired or desired)
         self.local.flush()
         stop_sync_attempts = 0
@@ -1351,6 +1394,7 @@ def create_registration(
         "started_at": utc_now(),
         "repo_root": str(REPO_ROOT),
         "poll_seconds": args.poll_seconds,
+        "control_polling": not getattr(args, "no_control_poll", False),
         "firebase_project_id": args.firebase_project,
         "firebase_api_key": args.firebase_api_key,
         "firebase_passcode_hash": (
@@ -1391,6 +1435,7 @@ def command_start(args: argparse.Namespace) -> int:
         stop_marker(registration).unlink(missing_ok=True)
         remote_desired: str | None = None
         remote: FirebaseRestSink | None = None
+        remote_registered = False
         if not args.local_only:
             passcode_hash = registration.get("firebase_passcode_hash")
             if not passcode_hash:
@@ -1400,23 +1445,37 @@ def command_start(args: argparse.Namespace) -> int:
                 str(registration["firebase_api_key"]),
                 str(passcode_hash),
             )
-            remote_desired = remote.register(registration)
-            if remote_desired == "paused":
-                _atomic_write_text(control_marker(registration), f"paused_at={utc_now()}\n")
-            elif remote_desired == "running":
-                control_marker(registration).unlink(missing_ok=True)
+            try:
+                remote_desired = remote.register(registration)
+                remote_registered = True
+                registration["initial_remote_desired_state"] = remote_desired or "running"
+                _atomic_write_json(path, registration)
+                if remote_desired == "paused":
+                    _atomic_write_text(control_marker(registration), f"paused_at={utc_now()}\n")
+                elif remote_desired == "running":
+                    control_marker(registration).unlink(missing_ok=True)
+            except Exception:
+                if remote_registered:
+                    try:
+                        remote.close(registration, utc_now())
+                    except Exception:
+                        pass
+                raise
+        process: subprocess.Popen[bytes] | None = None
         log_path = _monitor_log_path(registration)
-        log_path.parent.mkdir(parents=True, exist_ok=True)
-        command = [
-            sys.executable,
-            str(Path(__file__).resolve()),
-            "run",
-            "--registration",
-            str(path),
-        ]
-        if args.local_only:
-            command.append("--local-only")
         try:
+            log_path.parent.mkdir(parents=True, exist_ok=True)
+            command = [
+                sys.executable,
+                str(Path(__file__).resolve()),
+                "run",
+                "--registration",
+                str(path),
+            ]
+            if not args.local_only:
+                command.append("--remote-already-registered")
+            if args.local_only:
+                command.append("--local-only")
             with log_path.open("ab", buffering=0) as output:
                 process = subprocess.Popen(
                     command,
@@ -1427,14 +1486,27 @@ def command_start(args: argparse.Namespace) -> int:
                     start_new_session=True,
                     close_fds=True,
                 )
-        except OSError:
-            if remote is not None:
+            _atomic_write_text(_pid_path(registration), f"{process.pid}\n")
+        except Exception:
+            if process is not None and process.poll() is None:
+                try:
+                    process.terminate()
+                    process.wait(timeout=5)
+                except subprocess.TimeoutExpired:
+                    try:
+                        process.kill()
+                        process.wait(timeout=5)
+                    except (OSError, subprocess.TimeoutExpired):
+                        pass
+                except OSError:
+                    pass
+            if remote is not None and remote_registered:
                 try:
                     remote.close(registration, utc_now())
                 except Exception:
                     pass
             raise
-        _atomic_write_text(_pid_path(registration), f"{process.pid}\n")
+        assert process is not None
     print(
         json.dumps(
             {
@@ -1459,6 +1531,7 @@ def command_start(args: argparse.Namespace) -> int:
 def command_run(args: argparse.Namespace) -> int:
     registration = load_registration(args.registration)
     firebase = None
+    remote_already_registered = bool(getattr(args, "remote_already_registered", False))
     if not args.local_only:
         project_id = registration.get("firebase_project_id")
         api_key = registration.get("firebase_api_key")
@@ -1466,11 +1539,18 @@ def command_run(args: argparse.Namespace) -> int:
         if not project_id or not api_key or not passcode_hash:
             raise MonitorError("Registration has incomplete Firebase API credentials")
         firebase = FirebaseRestSink(project_id, api_key, passcode_hash)
+        if remote_already_registered:
+            initial_desired = registration.get("initial_remote_desired_state")
+            if isinstance(initial_desired, str) and initial_desired in {"running", "paused"}:
+                firebase.last_desired_state = str(initial_desired)
+            else:
+                remote_already_registered = False
     monitor = Monitor(
         registration,
         interval=float(registration.get("poll_seconds", 10)),
         heartbeat_interval=60,
         firebase=firebase,
+        remote_already_registered=remote_already_registered,
     )
 
     def request_stop(_signum: int, _frame: Any) -> None:
@@ -1689,12 +1769,18 @@ def parser() -> argparse.ArgumentParser:
         default=os.environ.get("FIREBASE_API_KEY", DEFAULT_FIREBASE_API_KEY),
     )
     start.add_argument("--passcode", default=os.environ.get("V5_MONITOR_PASSCODE"))
+    start.add_argument(
+        "--no-control-poll",
+        action="store_true",
+        help="Disable remote pause/control reads for runs that must not check pause state.",
+    )
     start.add_argument("--local-only", action="store_true")
     start.set_defaults(func=command_start)
 
     run = subparsers.add_parser("run", help="Run a monitor in the foreground.")
     run.add_argument("--registration", type=Path, required=True)
     run.add_argument("--local-only", action="store_true")
+    run.add_argument("--remote-already-registered", action="store_true")
     run.add_argument("--once", action="store_true")
     run.set_defaults(func=command_run)
 
