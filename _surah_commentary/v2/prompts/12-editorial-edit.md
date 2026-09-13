@@ -16,6 +16,18 @@ not repeatedly introduce and recap independent exhibits. Remove redundant
 restatements. Keep materially distinct readings visible; this is not a demand
 to shorten or compress all findings.
 
+Check adjacent sentences for an explanation immediately followed by a shorter
+restatement of the same contribution, especially where the second sentence is
+an evidence anchor. Retain one clear explanation and any genuinely additional
+detail; relocate the anchor to that explanation. Do not preserve a duplicate
+sentence merely because the draft's map points to it. Organize paragraphs by
+the relation being developed, allowing several outline members to share a
+paragraph while keeping each contribution recoverable.
+
+In the prelude, replace announcements about what will be explored or explained
+with the concrete image or question itself. Keep the larger connection open
+without giving its completed payoff or narrating the schedule of the reading.
+
 Read the draft as a reader who has not seen its inputs. Identify where the
 object of attention becomes unclear, where an interaction cannot be
 reconstructed, or where a conclusion appears before its explanation. Repair
@@ -33,6 +45,12 @@ a substantive restriction, preserve that restriction in a concise sentence
 attached to the relevant reading. Retain explicit exclusions wherever positive
 wording would leave the boundary ambiguous. Make clear that a restriction
 concerns this connection, rather than declaring other readings invalid.
+Where the draft refers to unspecified conditions or restrictions, explain the
+actual condition or limit given in the editorial source. Place it with the
+reading it qualifies. If the source leaves it unresolved, preserve that
+uncertainty and report it in friction; do not invent a condition. Consolidate
+repeated exclusions only when their scope remains clear for every affected
+reading.
 
 Preserve truth conditions, modality, agency, attribution, and scope when
 rewriting. Keep possible relations possible, qualified claims qualified, and
@@ -44,8 +62,7 @@ Keep the primary progression and the secondary resonances intelligible together.
 Preserve first-use ayah and surface-word anchors. Use fluent contemporary prose
 in the requested language. Remove analyst shorthand, workflow language, and
 repetitive evidence-catalogue rhythm. Let the ending return to the particular
-surah's primary movement and the payoff earned by these editorials. Do not
-import a Fatiha-shaped ending into another surah.
+surah's primary movement and the payoff earned by these editorials.
 
 Read each passage ending together with the next opening. Carry forward
 something specifically established where the supplied material supports
@@ -59,7 +76,10 @@ consequential movement. If a closing paragraph contains unique information,
 move that information into the explanation that needs it, then remove the
 repeated summary.
 
-Write a new JSON envelope with phase `editorial`, retaining packetHash and
+Complete the prose revision before updating its evidence map, within this same
+response and without writing an intermediate artifact. Select anchors from
+the revised explanations rather than adding sentences for the map. Write a
+new JSON envelope with phase `editorial`, retaining packetHash and
 outlineHash. Update every evidence anchor to the revised surfaces. Each must
 occur exactly once and contain at least six whitespace-separated words.
 Preserve the exact movement/member coverage and record unresolved friction.

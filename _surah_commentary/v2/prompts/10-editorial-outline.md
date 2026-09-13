@@ -36,6 +36,21 @@ it changes the reader's understanding. State its qualifications affirmatively
 where possible, while retaining explicit exclusions where needed. A boundary
 belongs to this connection; it does not invalidate unrelated readings.
 
+Before finalizing, compare the proposed movements with the complete editorial
+texts again. Check for significant cross-ayah readings left out, and for concrete
+mechanisms reduced to broad themes. Coverage of every ayah alone does not show
+that these readings survived. A theme covers a reading only when its members
+and contributions retain the distinctive interaction and reader payoff, not
+merely a shared topic. Revise the selection where a significant supported
+reading has disappeared in this way. This check is not an exhaustive inventory
+or a requirement to include every local finding; do not add output fields.
+
+Use the contribution fields to preserve what each selected image does, how its
+members interact, and what becomes newly intelligible. Keep these particulars
+even when the movement has a broad title. In qualifications, state the actual
+conditions or limits supplied by the editorials, rather than merely saying
+that conditions or limits apply. Leave missing support unresolved in friction.
+
 Every source anchor must be an exact substring of its ayah editorial, contain
 at least six whitespace-separated words, and occur exactly once there. Include
 all spans necessary to support the image, its function, attribution, and
