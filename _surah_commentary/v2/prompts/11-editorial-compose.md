@@ -8,7 +8,9 @@ checking the outline. If an outline claim exceeds them, report the conflict
 in friction; do not silently strengthen it or invent support. Do not read
 other files or change the outline's admitted movements.
 
-Write a reader-facing prelude and postlude in the requested language.
+Write one reader-facing Markdown prose file in the requested language. It
+contains the prelude and postlude as prose surfaces, not a JSON envelope and
+not an evidence map.
 
 The prelude establishes the primary foothold and prepares the reader to hear
 the selected background resonances while reading the ayahs. Give each outline
@@ -32,17 +34,15 @@ member. Several members can work together in one paragraph when their distinct
 contributions remain clear. An ayah reference locates an image; it need not
 restart the explanation as an independent exhibit.
 
-Lead with what a resonance contributes. Let secondary layers accompany and
+Lead with what a resonance contributes. Let secondary layers accompany,
 support, expand, or shift the hearing of the primary layer as the editorials
-permit. Avoid repeated 'this is not X' or lists of unused meanings. Preserve
-substantive restrictions, uncertainty, attribution, and competing possibilities;
-retain explicit exclusions when affirmative phrasing would blur a boundary.
-A qualification concerns this connection, not the validity of other readings.
-State the actual relevant condition, attribution, or limit where the reader
-needs it. Saying that unspecified conditions are preserved does not explain
-them. Use only the conditions supplied by the editorials; record an unresolved
-gap in friction rather than inventing a condition or weakening the claim's
-boundary.
+permit. Prefer affirmative scope over defensive negation: say what the layer
+lets the reader hear, what it adds, and where it belongs. Use explicit
+exclusions only when the boundary would otherwise become misleading. State the
+actual relevant condition, attribution, or limit where the reader needs it. Use
+only the conditions supplied by the editorials; if support remains unresolved,
+name the uncertainty gently in prose rather than inventing a condition or
+weakening the claim's boundary.
 
 Anchor an image's first appearance lightly to its ayah and an ordinary surface
 word or phrase already explained in the editorial. Use the editorials' Arabic
@@ -54,24 +54,15 @@ independent exhibit. Subtitles are optional and should mark real changes in
 the reading, not evidence categories. The ending should return to this surah's
 primary force and earned payoff, without prescribing another surah's sequence.
 
-No word or paragraph quota. Give images enough room to become intelligible;
-remove duplicated explanations rather than compressing distinct meanings.
-Do not put workflow terminology, evidence IDs, or descriptions of the writing
+No word or paragraph quota. Let the surah and the reading determine the shape.
+A short surah may need a compact surface; a long surah may need many paragraphs.
+Use paragraph breaks where attention, image, movement, or scale genuinely
+shifts. Give images enough room to become intelligible; remove duplicated
+explanations rather than compressing distinct meanings. Do not put workflow
+terminology, evidence IDs, hashes, schemas, or descriptions of the writing
 process in reader prose. If movements is empty, provide an honest, grounded
 primary prelude/postlude without inventing a secondary reading.
 
-Within this same response, compose the reader surfaces before filling their
-evidence map. Choose anchors from the prose that already explains the reading;
-do not add a second summary sentence just to supply an anchor. Check adjacent
-sentences for an explanation followed by the same claim in slightly different
-words. Combine such restatements while preserving any distinct contribution or
-qualification. The map documents the finished prose; it is not its paragraph
-template. Keep the single JSON output contract below.
-
-Write one JSON envelope with phase `draft`, copying packetHash and outlineHash.
-The evidence map must give a unique exact prelude anchor and postlude anchor
-for each movement, plus a unique exact postlude anchor for every member and
-for the primary progression. Each anchor needs at least six whitespace-separated
-words. Anchor occurrence is checked mechanically; semantic coverage still
-requires review. Preserve outline order in the map; prose may follow its own
-coherent order. Follow the supplied schema exactly.
+Write only the designated Markdown file. Do not write JSON. Do not include an
+evidence map. Do not add a separate audit, ledger, or commentary on your own
+process.

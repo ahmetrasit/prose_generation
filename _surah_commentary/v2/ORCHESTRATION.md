@@ -13,15 +13,12 @@ The old `_channel/layer3` path is only a compatibility symlink.
 
 ## Active Files
 
-- `scripts/workflow.py`: build, instantiate, validate, publish.
+- `scripts/workflow.py`: build, instantiate, validate.
 - `prompts/10-editorial-outline.md`: select and ground the main movements.
 - `prompts/11-editorial-compose.md`: compose the prelude and postlude.
 - `prompts/12-editorial-edit.md`: integrate prose and clarify contributions.
-- `schemas/editorial-outline-v1.schema.json` and
-  `schemas/editorial-composition-v1.schema.json`: semantic output contracts.
+- `schemas/editorial-outline-v1.schema.json`: outline output contract.
 - `runs/editorial-v1/sNNN/{language}/{runId}/`: frozen inputs and run outputs.
-- `outputs/sNNN/`: latest accepted reader surfaces and evidence.
-- `publication-history/sNNN/{language}/`: preserved superseded stable files.
 
 Scripts other than `workflow.py` and its `common.py` helper, prompts numbered
 01-04, older schemas, `runs/v3/`, `packets/`, and old `inputs/` are historical.
@@ -51,10 +48,10 @@ agents, records their output paths, and runs mechanical validation only. The
 orchestrator must not read composition outputs for meaning, prose quality,
 coherence, anchor support, friction acceptance, or semantic approval.
 
-Semantic review remains a separate human/operator gate. Publication still
-requires an explicit `--approved-by` identity and must not be inferred from a
-successful packet build, prompt instantiation, agent completion, or mechanical
-validation.
+Semantic review remains a separate human/operator gate when the operator wants
+one. It is not encoded as a publication ceremony and must not be inferred from
+a successful packet build, prompt instantiation, agent completion, or
+mechanical validation.
 
 ## 1. Freeze Editorials
 
@@ -118,7 +115,7 @@ python3 -B _surah_commentary/v2/scripts/workflow.py instantiate compose \
 ```
 
 Give the emitted prompt to a fresh native composition agent using the same
-three-line handoff. Record its output as `{DRAFT}` and validate:
+three-line handoff. Record its Markdown prose output as `{DRAFT}` and validate:
 
 ```sh
 python3 -B _surah_commentary/v2/scripts/workflow.py validate \
@@ -135,16 +132,16 @@ python3 -B _surah_commentary/v2/scripts/workflow.py instantiate edit \
 ```
 
 Send the generated prompt to the same composition agent. Record the new
-output as `{EDITORIAL}` and validate:
+Markdown prose output as `{EDITORIAL}` and validate:
 
 ```sh
 python3 -B _surah_commentary/v2/scripts/workflow.py validate \
   --packet {PACKET} --outline {OUTLINE} --composition {EDITORIAL} --phase editorial
 ```
 
-The edit already includes affirmative
-qualification, clarification of each image's contribution, and whole-surah
-continuity. Its ending follows the given surah, not a fixed Fatiha sequence.
+The edit already includes affirmative qualification, clarification of each
+image's contribution, whole-surah continuity, and prose-first reader flow. Its
+ending follows the given surah, not a fixed Fatiha sequence.
 
 Keep the composition agent open through semantic acceptance and any needed
 revision. In orchestration-only mode, keep it open until the operator either
@@ -156,48 +153,21 @@ file-contract issue. Do not advance on an invalid output. An editorial rerun
 can repair prose but must not silently alter the accepted outline; outline
 changes require new composition and editorial passes.
 
-## 5. Approval And Publication
+## 5. Completion
 
-Mechanical validation checks identities, hashes, exact source anchors, full
-outline movement/member coverage, and unique prose anchors. It does not prove
-that an anchor supports a claim or that the prose is coherent. A responsible
-reviewer must check both surfaces against the editorials and outline, resolve
-or explicitly accept friction, and approve the exact editorial revision.
+Mechanical validation checks the file contract only: the prose exists, is
+nonempty Markdown, is not JSON, and does not expose workflow metadata. It does
+not prove that a reading is coherent or well supported. After editorial
+validation, `{EDITORIAL}` is the final run artifact for this workflow.
 
-Check especially that the prelude is anticipatory; the postlude explains the
-main surprising readings without becoming a catalogue; image functions are
-clear; scope and uncertainty survive; and the primary reading remains visible.
-No source missing from the editorials may be used to repair a gap.
+If the operator requests semantic review, check especially that the prelude is
+anticipatory; the postlude explains the main surprising readings without
+becoming a catalogue; image functions are clear; scope and uncertainty survive;
+and the primary reading remains visible. No source missing from the editorials
+may be used to repair a gap.
 
-```sh
-python3 -B _surah_commentary/v2/scripts/workflow.py publish \
-  --packet {PACKET} --outline {OUTLINE} --composition {EDITORIAL} \
-  --approved-by {REVIEWER_ID} --publish-stable
-```
-
-Only `phase: editorial` can be published. Approval is an explicit attestation,
-not an automatic consequence of passing validation. The publisher first saves
-an immutable, content-addressed revision under the run's `published/` directory.
-The exact packet, outline, and composition are archived under `accepted/` with
-the same revision ID, so later changes to working outputs cannot erase lineage.
-With `--publish-stable`, it preserves any prior managed stable files in
-`publication-history/`, then replaces only these four files under `outputs/sNNN/`:
-
-```text
-N.surah-reading.prelude.{language}.md
-N.surah-reading.postlude.{language}.md
-N.surah-reading.evidence.{language}.json
-N.surah-reading.friction.{language}.md
-```
-
-Without `--publish-stable`, publication is run-local only. Revisions and old
-run artifacts remain intact. Concurrent publishers are serialized. Each file
-is replaced atomically, with evidence committed last; the four-file set is not
-a single filesystem transaction. Readers should verify the evidence surface
-hashes and retry on mismatch. Ordinary write failures roll back the changed
-files; a process crash can be recovered from the preserved prior set or by
-republishing the accepted revision.
-
-Close the composition agent after acceptance and publication. Report the two
-reader paths and any accepted friction. Do not claim a successful semantic run
-from a packet build or a fixture test alone.
+Close the composition agent only when the operator is done with follow-up
+revision. In orchestration-only mode, keep it open if requested. Report the
+packet, outline, draft prose, and editorial prose paths. Do not claim semantic
+success from a packet build, prompt instantiation, agent completion, or
+mechanical validation.

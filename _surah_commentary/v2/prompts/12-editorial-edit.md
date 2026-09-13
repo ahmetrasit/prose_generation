@@ -9,7 +9,9 @@ uncertainty level, substantive qualification, and distinct payoff. Check the
 draft against the editorial sources. Record unsupported outline claims or
 unresolved contradictions in friction; do not manufacture agreement or support.
 
-Improve the reader's passage through the whole. The prelude should prepare
+Improve the reader's passage through the whole. The draft is a reader-facing
+Markdown prose file, not a JSON envelope, map, ledger, or audit surface. The
+prelude should prepare
 concrete expectations without repeated withholding formulas or resolved
 conclusions. The postlude should develop the supported movements together,
 not repeatedly introduce and recap independent exhibits. Remove redundant
@@ -17,12 +19,10 @@ restatements. Keep materially distinct readings visible; this is not a demand
 to shorten or compress all findings.
 
 Check adjacent sentences for an explanation immediately followed by a shorter
-restatement of the same contribution, especially where the second sentence is
-an evidence anchor. Retain one clear explanation and any genuinely additional
-detail; relocate the anchor to that explanation. Do not preserve a duplicate
-sentence merely because the draft's map points to it. Organize paragraphs by
-the relation being developed, allowing several outline members to share a
-paragraph while keeping each contribution recoverable.
+restatement of the same contribution. Retain one clear explanation and any
+genuinely additional detail. Organize paragraphs by the relation being
+developed, allowing several outline members to share a paragraph while keeping
+each contribution recoverable.
 
 In the prelude, replace announcements about what will be explored or explained
 with the concrete image or question itself. Keep the larger connection open
@@ -39,12 +39,11 @@ contribution.
 
 Clarify each image's contribution: explain what it does in this connection
 and what the reader gains from it, rather than merely naming it. Lead with
-that contribution and describe its scope affirmatively where possible. Avoid
-repeatedly listing unused images merely to exclude them. When a list expresses
-a substantive restriction, preserve that restriction in a concise sentence
-attached to the relevant reading. Retain explicit exclusions wherever positive
-wording would leave the boundary ambiguous. Make clear that a restriction
-concerns this connection, rather than declaring other readings invalid.
+that contribution and describe its scope affirmatively. Prefer saying what a
+secondary layer lets the reader hear over saying what it is not. Use explicit
+exclusions only where positive wording would leave the boundary ambiguous.
+Make clear that a restriction concerns this connection, rather than declaring
+other readings invalid.
 Where the draft refers to unspecified conditions or restrictions, explain the
 actual condition or limit given in the editorial source. Place it with the
 reading it qualifies. If the source leaves it unresolved, preserve that
@@ -76,11 +75,11 @@ consequential movement. If a closing paragraph contains unique information,
 move that information into the explanation that needs it, then remove the
 repeated summary.
 
-Complete the prose revision before updating its evidence map, within this same
-response and without writing an intermediate artifact. Select anchors from
-the revised explanations rather than adding sentences for the map. Write a
-new JSON envelope with phase `editorial`, retaining packetHash and
-outlineHash. Update every evidence anchor to the revised surfaces. Each must
-occur exactly once and contain at least six whitespace-separated words.
-Preserve the exact movement/member coverage and record unresolved friction.
-Write only the designated output. Follow the supplied schema exactly.
+No word or paragraph quota. Let the surah and the reading determine the shape.
+A short surah may need a compact surface; a long surah may need many
+paragraphs. Use paragraph breaks where attention, image, movement, or scale
+genuinely shifts.
+
+Write only the designated Markdown file. Do not write JSON. Do not include an
+evidence map. Do not add a separate audit, ledger, or commentary on your own
+process.

@@ -1,31 +1,27 @@
 #!/usr/bin/env python3
-"""Build and publish surah readings sourced exclusively from final ayah editorials."""
+"""Build, prompt, and validate surah readings from final ayah editorials."""
 
 from __future__ import annotations
 
 import argparse
-import fcntl
 import importlib
 import json
-import os
 import re
 import sys
-import tempfile
 from pathlib import Path
 from typing import Any
 
 from common import (
     REPO_ROOT, WORKFLOW_ROOT, atomic_write_text, content_hash, immutable_write_json,
-    immutable_write_text, load_json, normalize_language, portable_path, sha256_text,
+    load_json, normalize_language, portable_path, sha256_text,
 )
 
 PACKET_SCHEMA = "surah-editorial-source-v1"
 OUTLINE_SCHEMA = "surah-editorial-outline-v1"
-COMPOSITION_SCHEMA = "surah-editorial-composition-v1"
 STAGES = {
     "outline": ("10-editorial-outline.md", "editorial-outline-v1.schema.json"),
-    "compose": ("11-editorial-compose.md", "editorial-composition-v1.schema.json"),
-    "edit": ("12-editorial-edit.md", "editorial-composition-v1.schema.json"),
+    "compose": ("11-editorial-compose.md", None),
+    "edit": ("12-editorial-edit.md", None),
 }
 
 
@@ -182,37 +178,31 @@ def validate_outline(outline: dict, packet: dict) -> None:
     require(isinstance(outline["friction"], list) and all(isinstance(x, str) and x.strip() for x in outline["friction"]), "invalid friction")
 
 
-def validate_composition(composition: dict, packet: dict, outline: dict, *, phase: str | None = None) -> None:
-    exact(composition, {"schemaVersion", "packetHash", "outlineHash", "phase", "prelude", "postlude",
-                        "primaryLanding", "landings", "friction"}, "composition")
-    require(composition["schemaVersion"] == COMPOSITION_SCHEMA, "unsupported composition schema")
-    require(composition["packetHash"] == packet["packetHash"] and composition["outlineHash"] == content_hash(outline), "composition lineage mismatch")
-    require(composition["phase"] in ("draft", "editorial"), "invalid phase")
-    require(phase is None or composition["phase"] == phase, f"expected {phase} composition")
-    for surface in ("prelude", "postlude"):
-        nonempty(composition[surface], surface)
-        require(not re.search(r"\b(?:packetHash|outlineHash|movementIds|schemaVersion|Layer [23])\b", composition[surface]),
-                f"workflow metadata in {surface}")
-    require(composition["prelude"].strip() != composition["postlude"].strip(),
-            "prelude and postlude must serve distinct reader moments")
-    unique_anchor(composition["primaryLanding"], composition["postlude"], "primary landing")
-    objects(composition["landings"], "landings")
-    require([r.get("movementId") for r in composition["landings"]] == [m["id"] for m in outline["movements"]],
-            "composition must land every outline movement in order")
-    for movement, row in zip(outline["movements"], composition["landings"]):
-        exact(row, {"movementId", "preludeAnchor", "postludeAnchor", "members"}, "landing")
-        unique_anchor(row["preludeAnchor"], composition["prelude"], "prelude promise")
-        unique_anchor(row["postludeAnchor"], composition["postlude"], "postlude movement")
-        objects(row["members"], "landing members")
-        require([m.get("ayahRef") for m in row["members"]] == [m["ayahRef"] for m in movement["members"]], "missing composition member")
-        for member in row["members"]:
-            exact(member, {"ayahRef", "anchor"}, "member landing")
-            unique_anchor(member["anchor"], composition["postlude"], "member landing")
-    require(isinstance(composition["friction"], list) and all(isinstance(x, str) and x.strip() for x in composition["friction"]), "invalid friction")
+def load_text(path: Path) -> str:
+    try:
+        return path.read_text(encoding="utf-8")
+    except FileNotFoundError as exc:
+        raise SystemExit(f"error: required file does not exist: {path}") from exc
+    except UnicodeDecodeError as exc:
+        raise SystemExit(f"error: invalid UTF-8 in {path}: {exc}") from exc
+
+
+def validate_reader_prose(path: Path, *, phase: str | None = None) -> str:
+    text = load_text(path)
+    nonempty(text, str(path))
+    stripped = text.strip()
+    require(not stripped.startswith("{") and not stripped.startswith("["),
+            f"{path}: expected Markdown prose, not JSON")
+    require(not re.search(r"\b(?:packetHash|outlineHash|movementIds|schemaVersion|Layer [23])\b", text),
+            f"{path}: workflow metadata in reader prose")
+    require(not re.search(r"\b(?:evidence map|JSON envelope|schema)\b", text, flags=re.IGNORECASE),
+            f"{path}: audit/schema language in reader prose")
+    require(phase in (None, "draft", "editorial"), "invalid prose phase")
+    return text
 
 
 def assemble(stage: str, packet: dict, *, outline: dict | None = None,
-             draft: dict | None = None, output: Path) -> str:
+             draft: str | None = None, output: Path) -> str:
     validate_packet(packet)
     context: dict[str, Any] = {"packetHash": packet["packetHash"], "surah": packet["surah"],
                                "language": packet["language"],
@@ -224,105 +214,17 @@ def assemble(stage: str, packet: dict, *, outline: dict | None = None,
         context.update(outline=outline, outlineHash=content_hash(outline))
     if stage == "edit":
         require(draft is not None, "draft required")
-        validate_composition(draft, packet, outline)
-        context["draft"] = draft
+        context["draftProse"] = draft
     prompt_name, schema_name = STAGES[stage]
     prompt = (WORKFLOW_ROOT / "prompts" / prompt_name).read_text(encoding="utf-8")
-    schema = load_json(WORKFLOW_ROOT / "schemas" / schema_name)
-    return (prompt + f"\nWrite only `{output}`.\n\n## Output Schema\n```json\n" +
-            json.dumps(schema, ensure_ascii=False) + "\n```\n\n## Editorial Input\n```json\n" +
-            json.dumps(context, ensure_ascii=False) + "\n```\n")
-
-
-def publication_files(packet: dict, outline: dict, composition: dict, approved_by: str) -> dict[str, str]:
-    nonempty(approved_by, "semantic approval identity")
-    validate_packet(packet)
-    validate_outline(outline, packet)
-    validate_composition(composition, packet, outline, phase="editorial")
-    prefix = f"{packet['surah']}.surah-reading"
-    language = packet["language"]
-    prelude, postlude = (composition[key].rstrip() + "\n" for key in ("prelude", "postlude"))
-    evidence = {"schemaVersion": "surah-editorial-publication-v1", "runId": packet["runId"],
-                "packetHash": packet["packetHash"], "outlineHash": content_hash(outline),
-                "compositionHash": content_hash(composition), "approvedBy": approved_by,
-                "surfaceHashes": {"prelude": sha256_text(prelude), "postlude": sha256_text(postlude)},
-                "sources": [{key: value for key, value in row.items() if key != "text"} for row in packet["editorials"]],
-                "primaryArc": outline["primaryArc"], "movements": outline["movements"],
-                "primaryLanding": composition["primaryLanding"], "landings": composition["landings"]}
-    friction = list(dict.fromkeys(outline["friction"] + composition["friction"]))
-    return {
-        f"{prefix}.prelude.{language}.md": prelude,
-        f"{prefix}.postlude.{language}.md": postlude,
-        f"{prefix}.friction.{language}.md": "# Publication Friction\n\n" +
-            ("\n".join(f"- {item}" for item in friction) if friction else "No unresolved friction reported.") + "\n",
-        f"{prefix}.evidence.{language}.json": json.dumps(evidence, ensure_ascii=False, indent=2) + "\n",
-    }
-
-
-def write_immutable_set(directory: Path, files: dict[str, str]) -> None:
-    for name, text in files.items():
-        target = directory / name
-        require(not target.exists() or target.read_text(encoding="utf-8") == text,
-                f"immutable publication already differs: {target}")
-    for name, text in files.items():
-        immutable_write_text(directory / name, text)
-
-
-def replace_stable(directory: Path, files: dict[str, str], history: Path) -> None:
-    """Serialize publishers, preserve the old set, and commit evidence last."""
-    directory.mkdir(parents=True, exist_ok=True)
-    history.mkdir(parents=True, exist_ok=True)
-    with (history / ".publish.lock").open("a") as lock:
-        fcntl.flock(lock, fcntl.LOCK_EX)
-        previous = {name: (directory / name).read_text(encoding="utf-8")
-                    for name in files if (directory / name).exists()}
-        if previous == files:
-            return
-        if previous:
-            write_immutable_set(history / content_hash(previous), previous)
-        temporary: dict[str, Path] = {}
-        replaced = []
-        try:
-            for name, text in files.items():
-                with tempfile.NamedTemporaryFile(dir=directory, mode="w", encoding="utf-8", delete=False) as handle:
-                    temporary[name] = Path(handle.name)
-                    handle.write(text)
-                    handle.flush()
-                    os.fsync(handle.fileno())
-            for name in files:
-                os.replace(temporary[name], directory / name)
-                replaced.append(name)
-        except BaseException:
-            for name in reversed(replaced):
-                if name in previous:
-                    with tempfile.NamedTemporaryFile(dir=directory, mode="w", encoding="utf-8", delete=False) as handle:
-                        handle.write(previous[name])
-                        restore = Path(handle.name)
-                    os.replace(restore, directory / name)
-                else:
-                    (directory / name).unlink(missing_ok=True)
-            raise
-        finally:
-            for path in temporary.values():
-                path.unlink(missing_ok=True)
-
-
-def publish(packet: dict, outline: dict, composition: dict, *, approved_by: str,
-            stable: bool = False) -> Path:
-    files = publication_files(packet, outline, composition, approved_by)
-    revision = content_hash(files)
-    directory = run_dir(packet) / "published" / revision
-    accepted = run_dir(packet) / "accepted" / revision
-    write_immutable_set(accepted, {
-        "source-packet.json": json.dumps(packet, ensure_ascii=False, indent=2) + "\n",
-        "outline.json": json.dumps(outline, ensure_ascii=False, indent=2) + "\n",
-        "composition.json": json.dumps(composition, ensure_ascii=False, indent=2) + "\n",
-    })
-    write_immutable_set(directory, files)
-    if stable:
-        replace_stable(WORKFLOW_ROOT / "outputs" / f"s{packet['surah']:03d}", files,
-                       WORKFLOW_ROOT / "publication-history" / f"s{packet['surah']:03d}" / packet["language"])
-    return directory
+    result = prompt + f"\nWrite only `{output}`.\n"
+    if schema_name is not None:
+        schema = load_json(WORKFLOW_ROOT / "schemas" / schema_name)
+        result += ("\n## Output Schema\n```json\n" +
+                   json.dumps(schema, ensure_ascii=False) + "\n```\n")
+    result += ("\n## Editorial Input\n```json\n" +
+               json.dumps(context, ensure_ascii=False) + "\n```\n")
+    return result
 
 
 def main() -> int:
@@ -335,7 +237,7 @@ def main() -> int:
     build.add_argument("--ayah-count", required=True, type=int)
     build.add_argument("--language", default="tr")
     build.add_argument("--completed-by", required=True)
-    for command in ("instantiate", "validate", "publish"):
+    for command in ("instantiate", "validate"):
         sub = commands.add_parser(command)
         sub.add_argument("--packet", required=True, type=Path)
         sub.add_argument("--outline", type=Path)
@@ -344,9 +246,6 @@ def main() -> int:
             sub.add_argument("stage", choices=STAGES)
         elif command == "validate":
             sub.add_argument("--phase", choices=("draft", "editorial"))
-        elif command == "publish":
-            sub.add_argument("--approved-by", required=True)
-            sub.add_argument("--publish-stable", action="store_true")
     args = parser.parse_args()
     if args.command == "build":
         packet = build_packet(editorial_root=args.editorial_root.resolve(), analysis_id=args.analysis_id,
@@ -359,19 +258,24 @@ def main() -> int:
     packet = load_json(args.packet)
     validate_packet(packet)
     outline = load_json(args.outline) if args.outline else None
-    composition = load_json(args.composition) if args.composition else None
+    composition_path = args.composition
+    phase = getattr(args, "phase", None)
+    composition = validate_reader_prose(composition_path, phase=phase) if composition_path else None
     if outline is not None:
         validate_outline(outline, packet)
     if composition is not None:
         require(outline is not None, "--composition requires --outline")
-        validate_composition(composition, packet, outline,
-                             phase=args.phase if args.command == "validate" else None)
-    if args.command == "validate" and args.phase:
+    if args.command == "validate" and phase:
         require(composition is not None, "--phase requires --composition")
     if args.command == "validate":
         print("ok")
     elif args.command == "instantiate":
-        output = run_dir(packet) / "outputs" / f"{args.stage}.json"
+        if args.stage == "outline":
+            output = run_dir(packet) / "outputs" / "outline.json"
+        elif args.stage == "compose":
+            output = run_dir(packet) / "outputs" / f"{packet['surah']}.surah-reading.draft.{packet['language']}.md"
+        else:
+            output = run_dir(packet) / "outputs" / f"{packet['surah']}.surah-reading.prose.{packet['language']}.md"
         path = run_dir(packet) / "inputs" / f"{args.stage}.prompt.md"
         atomic_write_text(
             path,
@@ -385,9 +289,6 @@ def main() -> int:
         )
         print(path)
         print(output)
-    else:
-        require(outline is not None and composition is not None, "publication requires --outline and --composition")
-        print(publish(packet, outline, composition, approved_by=args.approved_by, stable=args.publish_stable))
     return 0
 
 
