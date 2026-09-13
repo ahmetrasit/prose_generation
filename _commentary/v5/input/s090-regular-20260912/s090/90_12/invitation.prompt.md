@@ -1,0 +1,189 @@
+# V5 reading invitation — 90:12
+
+You are a fresh reading-invitation writer. Read the complete editorial prose
+before writing. It is your sole semantic source.
+
+Write two to four paragraphs of fluent, contemporary Turkish that reveal a
+surprising reading by following one or two main channels of resonance in the
+ayah. A channel is a connected background of meanings, images, actions, or
+relations through which the ayah can be heard and understood differently.
+Several editorial findings may together develop one channel. Summarize that
+connected movement and its consequence for the ayah's main meaning, rather
+than compressing findings individually. Give the reading's substance now;
+the invitation comes from understanding it, not from a promise of hidden depth.
+
+Before drafting, read the entire editorial prose and silently select the one
+or two channels with the strongest interpretive consequence and enough
+grounding to explain clearly. Favor channels that expand or shift what the
+ayah says, the relation it establishes, or what is at stake in its action or
+image. One fully developed channel is sufficient; add a second only when it
+offers a distinct consequential reading that can be explained within the
+invitation. No finding, channel, or major shift has an individual coverage
+claim. Unselected material may remain entirely in the full commentary.
+
+A channel may develop through grammar, sound, dialogue, a material process,
+time, imagery, or a conceptual relation. Resonance is not limited to acoustic
+effects, and an unusual image alone does not establish a channel. Use only
+connections the editorial prose actually develops. If it supplies no such
+channel, explain its strongest grounded reading without inventing connections
+or surprise.
+
+Begin inside the ayah's own words, images, actions, or relations and reveal a
+selected distinctive reading in the first paragraph. Keep the plain meaning
+reachable with only the orientation needed to understand the change. Do not
+spend an opening paragraph on routine explanation or front-load context about
+the surah, the ayah's position, or the commentary project.
+
+For each selected channel, begin with the expression that opens it, unfold the
+connected background, and show how the ayah reads or sounds against that
+background. Let a detail lead into the next through an intelligible relation
+or process, so the reader experiences the emerging reading. This is a movement
+of thought, not a mandatory sentence pattern or one paragraph per finding.
+Let the reader identify the expression being interpreted,
+where any nonordinary detail comes from, and what that detail changes in the
+reading. Briefly identify the word-family use, restricted form, collocation, or
+context that supplies an essential added detail, and preserve the concrete
+operation that makes the image work. Keep the ordinary reading and necessary
+qualification clear within this explanation; do not repeat them as a fixed
+formula. Preserve the particular object, process, or relation that makes this
+reading distinctive, and state its interpretive consequence for the ayah as a
+whole. Make intelligible what the familiar reading leaves less visible and
+what the expanded or shifted reading now lets the reader understand. Preserve
+the editorial's force: an exploratory possibility remains possible, while a
+developed shift must not be softened into a decorative association or a
+reassurance that everything means the same thing. A concrete
+account of how something is carried, transformed, lost, or restored must not
+shrink to a general statement about care, guidance, dependence, or goodness.
+Keep the details needed to make the selected channel work; omit side findings
+and shorten routine setup. If a channel cannot be explained faithfully from
+the editorial prose, choose another grounded channel or reading.
+
+When a non-focus ayah supplies a contribution used in the invitation, keep its
+reference from the editorial prose beside that contribution.
+
+Do not turn the invitation into a miniature inventory of the commentary's
+conclusions, or flatten distinct channels into a broad theme to include more
+material. Do not repair, extend, or supplement the editorial prose from memory
+or outside knowledge.
+
+Omit technical apparatus. Retain any qualification, source distinction, live
+alternative, or boundary whose absence would change the force or meaning of a
+chosen reading. Express it naturally beside the image or relation it qualifies.
+Favor positive explanations of the relation between layers: what remains in
+the foreground and what the resonance makes audible in the background. State
+how that background reinforces, expands, or shifts the understanding of the
+main meaning, with the source and degree of certainty clear. Reserve explicit
+exclusions for concrete ambiguities or live counter-evidence that need them.
+Repeated "this is not X" endings make a reading sound withdrawn; express the
+substantive qualification through what the reading does contribute wherever
+possible. Use varied, natural language rather than a repeated "second layer"
+formula, and preserve the force of expansions and shifts.
+Do not name branches, candidates, findings, scopes, evidence categories,
+ledgers, or workflow stages, or label the prose as numbered channels. Do not
+list findings serially.
+
+Use the established `{ar:..., tr:..., gloss:...}` syntax, consistent
+Turkish-readable transliteration, and short ordinary glosses. Keep Arabic
+anchors beside the explanations they ground. Within a paragraph, continue with
+the Turkish meaning where clear; provide the necessary local tag when a later
+paragraph interprets the carrier anew. Do not place Arabic script outside a
+valid tag.
+
+Build transitions within a channel through its shared object, action, or
+relation. If two channels are selected, they may occupy separate paragraphs;
+do not invent a link between them. Do not praise the commentary's quality,
+promise what the reader will find, manufacture suspense, recap at the end, or
+add a call to action. End on an image, relation, action, or tension already
+established by the selected reading.
+
+Before finishing, compare the invitation with the entire editorial prose:
+does the chosen channel reveal a consequential reading, or could the text have
+been written from the ordinary translation and a modest explanation alone?
+When the editorial supports a surprising channel, the latter fails this task.
+Can the reader follow the opening expression into a connected background and
+understand how that background expands or shifts the ayah's main meaning?
+Check the selected connections against their editorial explanation: can the
+reader tell where the nonordinary details come from, with the necessary
+qualifications intact? Repair generic explanation, isolated curiosities, or a
+compressed findings list by developing the selected channel. Do not add
+omitted channels merely for coverage. Do not output this check.
+
+Write only the invitation text to:
+
+`_commentary/v5/editorial/s090-regular-20260912/s090/90_12/90_12.invitation.tr.md`
+
+Do not add a heading, wrapper label, index, ledger, evidence file, or any other
+artifact. Do not modify the editorial prose.
+
+After writing the invitation, run:
+
+```bash
+python3 _commentary/v5/validate_prose.py _commentary/v5/editorial/s090-regular-20260912/s090/90_12/90_12.invitation.tr.md
+```
+
+If validation fails, repair only the reported mechanical file-contract issues
+and rerun it, for at most two repair cycles. Report the final validator result
+in your response.
+
+<editorial_prose>
+## Sorunun Eşiği
+
+Bu âyet, önceki âyetteki geçilemeyen sarp yokuşun hemen ardından gelir (90:11). Başındaki {ar:وَ, tr:wa, gloss:ve}, o başarısız geçişi yeni bir konuya bırakmadan soruya bağlar; {ar:وَمَآ, tr:wa mā, gloss:ve ne} biçiminin ses içinde bitişik kalması da soruyu soğuk bir başlangıçtan çıkarıp sürmekte olan güçlüğün içinden doğan bir açılış gibi duyurur. {ar:وَمَآ أَدْرَىٰكَ مَا ٱلْعَقَبَةُ, tr:wa mā adrāka mā al-ʿaqabah, gloss:sarp geçidin ne olduğunu sana ne bildirdi} sorusu, önce bilginin nasıl ulaştırıldığını, ardından bu bilginin içeriğini, yani sarp geçidin kendisini açıklamaya açar. Cevabın kendisi bu âyette kapanmaz; özgürleştirme, açlık zamanında doyurma, yakındaki öksüze yönelme ve karşılıklı öğüt eylemleriyle görünür hale gelir (90:13, 90:14, 90:15, 90:16, 90:17).
+
+İlk {ar:مَآ, tr:mā, gloss:ne}, fiil cümlesinde bilmenin kaynağını soran özne olarak muhatabın geçidi bilmesini sağlayan şeyi açar; ikinci {ar:مَا, tr:mā, gloss:ne} ise bilinecek şeyin ne olduğunu sorar. Aynı yüzey iki kez duyulur, fakat cümledeki görevi değişir: erişimin kaynağından tanımın içeriğine ilerler. İlk mā'nın uzayan sesi, önceki âyetin devamına tutunan soruda (90:11) işitilebilir bir bekleme yaratır; geçidin adına varmadan önce bilgiyi ulaştıracak şey aranır. Bu gecikme, sarp geçidi hemen konulacak bir etiket olmaktan çıkarıp açıklanması gereken bir eşik haline getirir. Muhatabın bilmesini sağlayacak olan önce sorulur, geçidin tanımı bu bekleyişin içinden gelir.
+
+{ar:أَدْرَىٰكَ, tr:adrāka, gloss:sana bilmesini sağladı} bilgiyi hazır bir sahiplik olarak değil, bir başkasının bilmesini sağlayan ettirgen bir ulaştırma hareketi olarak kurar. Sonundaki {ar:كَ, tr:ka, gloss:sana} eki bu ulaştırmanın alıcısını doğrudan dinleyici yapar; önceki âyetteki belirsiz geçiş hareketinden (90:11) şimdi sana ulaşan bir kavrayışa dönülür. Fiil, ilk mā'nın sorduğu bilme imkânı ile ikinci mā'nın sorduğu geçit tanımı arasında menteşe kurar: sana bildirilen şey, henüz adı sorulan geçidin içeriğidir. Tanımdan önce hayret ve açıklama beklentisi açan benzer soru kuruluşları (69:3, 74:27) bu hareketi hatırlatır; ortak hareket, ağırlığın önce duyurulup açıklamanın sonra bekletilmesinde belirir. Açılıştaki açık ve uzayan seslerin bu fiil çevresinde teması geciktirip {ar:ٱلْعَقَبَةُ, tr:al-ʿaqabah, gloss:sarp geçit} sözcüğünün daha sıkı kapanışına taşıması da aynı bekleyişi ses düzeyinde kurar.
+
+İkinci {ar:مَا, tr:mā, gloss:ne}, bildirimin ardından gelir ve ilk sorunun içinden ikinci bir soru çıkarır. {ar:ٱلْعَقَبَةُ, tr:al-ʿaqabah, gloss:sarp geçit} belirli ve merfu biçimiyle tanınabilir, tekil ve dişil bir geçidi, dağınık bir zorluk alanı yerine sınırları bulunan bir aşama olarak kurar. Önceki âyette fiilin yöneldiği geçit (90:11), burada anlamı verilecek belirli bir içerik ve tanım yuvası olur. Belirlilik bilinen adı geri getirir; tekillik sonraki açıklamayı önceden tüketmez. Sözcüğün sonundaki sıkı kapanış, açık seslerin ardından cevapsız kalan soruyu geçit adında toplar. Âyet bu adla bittiğinde tanım ileriye açılır; sarp yolun fiziksel görüntüsü korunur ve nasıl aşıldığı takip eden somut eylemler içinde gösterilir (90:13, 90:14, 90:15, 90:16, 90:17).
+
+## Geçidin İçeriği
+
+Bu olağan soru yerinde dururken iki odak kelimesi birbirine değdiğinde yerel bir genişleme açılır. {ar:أَدْرَىٰ, tr:adrā, gloss:bilmek ve kavramak} kelimesinin bilme ve kavrama yönü, {ar:ٱلْعَقَبَةُ, tr:al-ʿaqabah, gloss:sarp geçit} kelimesinin yukarı yönelen, kayalık ve dirençli yol oluşuyla buluşur. Böylece sorulan şey yalnız dışarıda duran bir yolun adı değil, o yolun nasıl aşılacağının kavranmasıdır; bir başkasının geçidi tanıması, geçilebilirliğe ilişkin bilgiyi ona ulaştıran bir hareket olarak duyulur. Ettirgen biçim, geçidin içeriğini geçiş için gerekli anlayışla genişletir ve sarp dağ yolunu ön planda tutar.
+
+{ar:ٱلْعَقَبَةُ, tr:al-ʿaqabah, gloss:sarp geçit} sözcüğünde duyulan ardıl, takip ve sonuç yönleri sarp yolun nasıl yaşandığını üç ayrı biçimde açar. Ardıl yönü, bir eylemin ardından gelen yükü ve henüz varılmamış ufku; takip yönü, sonraki hareketin öncekinin bıraktığı yeri devralmasını; sonuç yönü ise bu eylemlerin sonunda ortaya çıkan etkiyi düşündürür. Sonuç ufku açık bırakılır; geçidin anlamı belirli bir iyiye, kötüye veya cezaya bağlanmaz. Bu yönler birlikte, geçidi tek bir kahramanlık hamlesiyle tüketilmeyen, peş peşe gelen adımların sürdürdüğü bir süreç gibi duyurur. Tamamlanmış görünen bir eylemin ardından benzer bir işe yeniden dönülür ve sonraki eylemler tanımı soyut bir eşanlamlıyla kapatmak yerine geçidin kimler için ve hangi somut işlerle görünür olduğunu izleyerek soruya cevap verir (90:13, 90:14, 90:15, 90:16, 90:17).
+
+Tanımın hemen görünür olmaması, bilginin konumunu koruyarak yaklaşan bir fark ediş gibi duyulmasına izin verir. {ar:أَدْرَىٰكَ, tr:adrāka, gloss:sana bilmesini sağladı} fiilinin bilme ve bildirme yönü bir örtünün, beklemenin ve avın yerini kollamanın imgesiyle buluşur: örtü hedefi saklar, bekleme doğru zamanı kurar, hedef henüz bütünüyle görünmezken gözetleme onu yaklaşılabilir kılar. Avın yiyeceğe dönüşmesi, bu yaklaşımın bekleyene güç veren ayrı verimini gösterir (90:13, 90:14). Bu uzak yerel benzetme, fiilin olağan bilme-bildirme değerinin çevresinde açıklamanın zamana yayılan yaklaşımını görünür kılar; av sahnesi bu ayetteki fiilin çevirisini belirlemeden bekleyişin işlevini açıklar. Aynı fiilin bir yeri veya kişiyi eylemin yöneltileceği hedef olarak seçen dar kullanımı, {ar:ٱلْعَقَبَةُ, tr:al-ʿaqabah, gloss:sarp geçit} sözcüğünün soru içinde dikkat nesnesi yapılmasıyla pratik bir yön kazanır. Sözlük alanındaki baskınlık ya da saldırı ayrıntısı bu yönelmenin sınırını çizer; dikkat burada geçide ve onun adlandırdığı işe yönelir. Boynu özgürleştirme ve açlıkta doyurma, saklı bir kırılganlığı belirginleştirdiğinde soru görülmesi ve eylemle karşılanması gereken ihtiyaca doğru keskinleşir (90:13, 90:14).
+
+Bu dikkat, geçidin topografyasında sınanır. {ar:ٱلْعَقَبَةُ, tr:al-ʿaqabah, gloss:sarp geçit} yükselen, kayalık ve kolay çıkılmayan güzergâhtır; önceki âyetteki güçlüğe düşünmeden dalma geçidin içine girişi ve riski, çıkışı kolay olmayan ağır sıkıntı süren çileyi, görüşü kısıtlayan gizli yükseklik ise kuşatılmış ve saklı yanını öne çıkarır (90:11). Yol böylece dışarıdan seyredilen bir yükseklikten içine girilen, bedel taşıyan bir tehlikeye dönüşür. {ar:أَدْرَىٰكَ, tr:adrāka, gloss:sana bilmesini sağladı} ile bu fiziksel baskı yan yana geldiğinde bilme, eylemle sınanan bir tanımaya dönüşür: bildirim muhataba ulaşır, ardından geçit karşılanır. Bu temas soruyu eylem buyruğuna değil, açıklamanın dirençli bir eşikle karşılaşınca tamamlanan iki aşamalı bir fark edişine bağlar; dalış, çile ve gizli yükseklik sarp görüntünün ayrı basınçlarını taşır.
+
+## Geçidin İnsan Yüzü
+
+Yukarı doğru çıkan sarp yolun yönü, yerde tutulan insana doğru bir aşağı dönüşle başka bir ölçü kazanır. {ar:ٱلْعَقَبَةُ, tr:al-ʿaqabah, gloss:sarp geçit} ile {ar:مِسْكِينًا, tr:miskînen, gloss:yoksul} ve {ar:ذَا مَتْرَبَةٍ, tr:zâ metrabe, gloss:toprağa bulanmış} ifadeleri yan yana geldiğinde, kıpırdayamayan ve toprak seviyesine sabitlenmiş kişiye yönelmek sosyal mesafede aşağıya inen bir hareket gibi görünür (90:16). Geçidin ahlaki yüksekliği, kendi gücüyle ayağa kalkamayan kişiye yakınlıkla ölçülür. Bu bağlamsal yön değişimi, sarp yolun topografyasını korur; yoksulluk ve toprağa bulanmışlık, geçidin karşısında yere sabitlenmiş insanı görünür kılar.
+
+Geçidin dirençli malzeme ve yükümlülük çağrışımı, özgürleştirme eyleminin somut yerinde yoğunlaşır. {ar:ٱلْعَقَبَةُ, tr:al-ʿaqabah, gloss:sarp geçit} için duyulan sert, beyaz ve dayanıklı tendon ya da kiriş, elde tutulan borç ve sorumluluk görüntüsüyle birlikte {ar:فَكُّ رَقَبَةٍ, tr:fakku raqabah, gloss:bir boynu çözmek ve özgürleştirmek} hareketine değdiğinde, geçiş başkasını tutan dirence karşı bağ çözme işine dönüşür (90:13). Düğümün çözülmesi, kilidin açılması ve birbirine dolanmış olanın ayrılması sarp yolun karşı kuvvetine cevap verir; boyun, rehin veya hapsedilmiş kişi, bu çözülmenin uygulandığı somut insanı gösterir. Geçidin güçlüğü böylece başka birinin hapsini çözmenin direncinde de hissedilir; malzeme ve yükümlülük çağrışımı, özgürleştirmenin toplumsal işini görünür kılar.
+
+Bu özgürleştirme hareketi, geçidin bir insandan diğerine taşınan bakım olarak duyulmasına zemin verir. {ar:ٱلْعَقَبَةُ, tr:al-ʿaqabah, gloss:sarp geçit} kelimesinin bir kişinin ardından kalan çocuklar ve torunlar yönü bakımın süreklilik çizgisini, ebeveynlik izinin öksüzlükte açığa çıkan koruma boşluğu ise bu çizgideki kırılmayı gösterir. Yakın akrabaya yönelen merhamet, kopmuş bakımı bir sonraki kişinin üstlendiği somut işe dönüştürür (90:3, 90:15). Ardılın yerini alma ve işi yeniden ele alma yönleri, öksüze dönük korumayı zaman ve kişiler boyunca ileri taşıyan bir bakım zinciri kurar; bir kuşakta aksayan aktarım başka bir eylemle yeniden başlar. İmanla sabır ve merhamet için karşılıklı öğüt bu onarımın topluluk içindeki taşıyıcılarını verir (90:17). Bu kuşaklararası vurgu, sözcüğün diğer kullanımlarını soy anlatısına kapatmadan, bu bakım zincirinin kırıldığı yeri sarp geçidin somut etik eylemleriyle birlikte görünür kılar.
+
+Bakımın zaman içinde aktarılması, topluluğun karşılıklı hareketiyle devam eder. {ar:ءَامَنُوا۟, tr:âmenû, gloss:inandılar ve güven duydular} güvene dayalı ortak bedeni; iki kez geçen {ar:تَوَاصَوْا۟, tr:tevâsav, gloss:birbirlerine tavsiye ettiler} öğüt ile yükün karşılıklı gidip gelmesini; {ar:ٱلصَّبْرِ, tr:sabr, gloss:dayanma} sıkışma anında tutunmak için gereken sürekliliği; {ar:ٱلْمَرْحَمَةِ, tr:merhamet, gloss:şefkat} ise bu dayanmayı taşınan kişiye yönelen bakıma dönüştüren kuvveti getirir (90:17). Birinin açtığı yeri diğeri devralır; öğüdün yeniden verilmesi geçişi tek bir başarı anından çıkarıp yenilenen desteklerle sürdürülen ortak işe dönüştürür. Çıkışı kolay olmayan sıkıntı, bu tekrarın neden gerekli olduğunu açıklar (90:4, 90:17). Böylece fiziksel eşik, kişiler arasında nöbetleşe taşınan bir iş haline gelir; güven ve tavsiye burada sözcüğün yeni sözlük karşılıkları değil, bu aktarımın nasıl sürdüğünü gösteren işlemlerdir.
+
+Geçidin bir başka yüzü, erişim ve yükümlülüklerin düzenlendiği sınırlı bir toplumsal eşiktir. {ar:ٱلْعَقَبَةُ, tr:al-ʿaqabah, gloss:sarp geçit} için duyulan bir şeyin yerine başka bir bedel alma ve değişimden sonra elde kalan yükümlülük ayrıntıları, bu eşiğin borç ve karşılık tarafını verir. Payı bölme ve sınırlandırılmış arazi, kimin neye erişeceğini belirleyen sınırı; düğüm çözme ile yasak ya da statü kısıtlamasının kalkması, bağlı düzenin nasıl gevşeyip erişim açabileceğini gösterir (90:1, 90:2). Bu işlemler bir araya geldiğinde geçidin güçlüğü, kimin gireceğini, kimin hakkı elinde tutacağını, kimin pay alacağını veya kimin serbest kalacağını yeniden düzenleyen sınırlı bir toplumsal boğaza dönüşür. Sarp rota, bu kamusal düzenleme temasının maddi zeminini taşımaya devam eder.
+
+Elde tutulan değer ile ihtiyaç anında açılan el arasındaki zaman da geçidin içeriğine katılır. 90:6'da edinilmiş, çoğaltılmış ve kat kat yığılmış servet geçidin önündeki kapalı birikimi; 90:14'te kriz veya şiddetli sıkıntı zamanında açlık içindeki birini doyurma, bu birikimi harekete geçiren acil ihtiyacı gösterir (90:6, 90:14). Açlık ve yorgunluk alıcıyı belirler; besleme depolanmış değeri dışarı yöneltir; geçidin sonuç ve yükümlülük yönü de bu aktarımın karşılığını, zamanlamasıyla birlikte görünür kılar. Değerin nereye gittiği kadar ne zaman ulaştığı da sonucu değiştirir. Böylece açlıkta beslemenin olağan etik kuvveti korunur ve ihtiyaç anında dolaşıma giren değer geçidin somut baskısını taşır.
+
+Maddi akıştan insan bedenine geçildiğinde, sarp geçidin hayatın içindeki yeri daha da belirginleşir. İnsanın yaratılmış varlığı, görünür insan bedeni, zorluk ve merkez ya da kalp görüntüleriyle buluştuğunda {ar:ٱلْعَقَبَةُ, tr:al-ʿaqabah, gloss:sarp geçit} insanî baskının yoğunlaştığı direnç noktası gibi duyulur (90:4). Geçit, hayatın kurucu güçlüğünü tek bir yerde toplar; yaratılmış insanın taşıdığı yük bu yolla aşılması gereken belirgin bir merkez kazanır. Bu insan-merkezli yoğunlaşma, sarp rotanın doğrudan görüntüsü içinde zorluğun insan hayatında nerede toplandığını görünür kılar; bağlantı burada insanın yaratılmış varlığı ve zorluk görüntüsüyle kurulur.
+
+Bu merkezdeki donanım, geçidin önüne verilmiş imkânlarla bir ayırt ediş sınavı kurar. {ar:أَدْرَىٰكَ, tr:adrāka, gloss:sana bilmesini sağladı} ile {ar:ٱلْعَقَبَةُ, tr:al-ʿaqabah, gloss:sarp geçit} yaratılmış gözler, dil ve dudaklar, yönlendirme ve iki yüksek yolun oluşturduğu çatala temas ettiğinde, geçidi bilmek eldeki yetileri zorluk içinde sorumlu bir seçmeye dönüştürür (90:8, 90:9, 90:10). Gözler farklı yolları görmeye erişim sağlar; dil kavrananı söze ekleyip başkasına aktarılabilir kılar; yüksek yollar ve yönlendirme ise bu yetilerin üzerinde işleyeceği güzergâhı açar. Görmek yolculuğu başlatır, söylemek kavrayışı paylaşılabilir hale getirir, yürüyüş ise hangi zor geçidin kat edileceğini belirler. Böylece geçit, görmenin, söylemenin ve yönlendirilmenin donatılmış imkânlar içinde işleyen bir ayırt edişe dönüştüğü çataktır; bedenlenmiş yetiler sarp rotanın işleyişine bağlanır.
+
+Bu ayırt ediş, kendisi hakkında kapanmış bir güç hesabını dışarıdan gelen bilgiyle karşılaştıran başka bir yerel okumayı açar. Önceki bağlamdaki varsayım, kapasite ve hâkimiyet iddiası; söze dökülmüş serveti tüketme, onu kat kat yığma ve gördüğünü sanma izleriyle bir öz-hesap kurar (90:5, 90:6, 90:7). {ar:أَدْرَىٰكَ, tr:adrāka, gloss:sana bilmesini sağladı} sorusu bu hesabın karşısına gerçekten neyin bilindiğini ulaştıran dış ölçüyü getirir. Güç iddiası ile başkasına bilme sağlayan fiil arasındaki ayrım belirginleşir; görülen şey ile muhataba bildirilen şey, hesaba katılmamış bir gözlemciyi görünür kılar. Servet sahibi olmak anlamayı garanti etmez, tüketilmiş olması da neyin bilindiğini kapatmaz; yığılmış kütle tamamlanmış görünen hesabın dışarıdan görülen ağırlığını verir. Önceki sözler, odak cümlesine gömülmeden sorunun karşısında duran iddialar olarak kalır; soru da bu hesabın bilgi sayılmaya yetip yetmediğini sınar (90:5, 90:6, 90:7).
+
+## Açıklığın Sınırları
+
+Bilginin sınanması, geçidin sonucunu da bir hedefte kurulan beraberliğin yönü olarak duyurur. {ar:أَصْحَٰبُ ٱلْمَيْمَنَةِ, tr:ashâbü'l-meymene, gloss:sağ tarafın yoldaşları} ve {ar:أَصْحَٰبُ ٱلْمَشْـَٔمَةِ, tr:ashâbü'l-meş'eme, gloss:sol tarafın yoldaşları} ifadeleri, geçişin bir topluluk içinde olumlu ya da olumsuz bir son duruma bağlanabileceğini gösterir (90:18, 90:19). Görünür işaretin karşılanması, üstünün örtülmesi veya reddedilmesi bu iki yön arasındaki ayrımı belirginleştirir; sonuç yönün adıyla birlikte işarete verilen karşılıktan şekillenir (90:7, 90:18, 90:19). Sağ ve solun anlamı burada bu bağlamdaki iki yoldaşlık ve iki karşılıkla sınırlı tutulur. {ar:ٱلْعَقَبَةُ, tr:al-ʿaqabah, gloss:sarp geçit} ilk ve erişilebilir anlamıyla sarp geçit kalırken sonuç yönü, geçişin nasıl bir beraberlik içinde tamamlandığını ekler.
+
+Açıklık ile kapanma arasındaki fark, bu sarp yolun zorluğunu daha keskin gösterir. {ar:فَكُّ رَقَبَةٍ, tr:fakku raqabah, gloss:bir boynu çözmek ve özgürleştirmek} kapalı bağı açan ve başka birinin serbest kalmasını mümkün kılan hareket olarak belirir (90:13). Bunun karşısında {ar:نَارٌ مُّؤْصَدَةٌ, tr:nârun mûsade, gloss:kapatılmış ateş} her şeyi örten, sıkıca sürgülenmiş ve çıkış bırakmayan bir son koşulu kurar (90:20). Sarp geçidin içinde hâlâ geçişe izin veren güç bir aralık bulunurken, kapalı ateş bütünüyle kuşatılmış bir akıbeti gösterir. Bu karşılaştırma, geçidin sözlük anlamını açılma ya da kapanma ile tüketmeden, zor yolun açıklık taşıyan eşiği ile maddi olarak mühürlenmiş sonu birbirinden ayırır.
+
+Bu eşikteki yükümlülük, değişim tamamlandı sanıldıktan sonra geride kalan bedeli de duyurabilir. {ar:ٱلْعَقَبَةُ, tr:al-ʿaqabah, gloss:sarp geçit} için kayıtlı bir şeyin yerine başka bir bedel alma ve elde tutulan güvence yönü, değişimden sonra fark edilip giderilmesi gereken talep ile buluştuğunda sarp eşik kapanmamış bir sorumluluk gibi görünür. Satılan malda sonradan fark edilen sorun üzerine geri dönüp karşılık isteme, ödeme tamamlanana kadar malın elde tutulması veya kayıp halinde sorumluluğun elde kalması bu görüntünün ayrı yüzleridir. Bu dar ve keşif niteliğindeki temas, tamamlandı sanılan işin arkasından izleyen yükü ve güvenceyi görünür kılar; kapsamı, bu belirli değişim ve sorumluluk bağlantısında kalır.
+
+İlerleyen kişinin kendi bedenindeki dönüş, bu geri kalan yükle aynı geçit adında başka bir eşik kurar. {ar:ٱلْعَقَبَةُ, tr:al-ʿaqabah, gloss:sarp geçit} sözcüğünün topuk, arka ve geri çekilme yönü, {ar:أَدْرَىٰ, tr:adrā, gloss:bilmek ve bildirmek} kelimesinin kavrama çekirdeğiyle buluştuğunda, ilerlemenin topuk üzerinde geri dönüşe dönebileceği kırılma anı görünür olur. Direnç yalnız ilerideki kayalıkta değil, yürüyenin hemen arkasındaki dayanakta ve bıraktığı izde de hissedilir; ettirgen bildirim bu görünmeyen dönüm noktasını muhataba önceden fark ettirir. Bu anatomik ve yönsel görüntü, ilerleme ile geri çekilme arasındaki anı açık tutar; burada belirginleşen dönüm, her sonraki hareketi başarısızlık diye adlandıran bir hüküm kurmaz.
+
+Bu geri dönüş, daha uzak bir benzetmede aynı eşiğe dönen çalkantılı bir hareket olarak belirir. {ar:أَدْرَىٰكَ, tr:adrāka, gloss:sana bilmesini sağladı} için duyulan girdap ve kendi çevresinde kabaran su imgesi, önceki güçlüğe dalma (90:11) ile {ar:ٱلْعَقَبَةُ, tr:al-ʿaqabah, gloss:sarp geçit} sözcüğünün geri çekilme yönünü bir araya getirir. Çaba ileri gider, sonra yön değiştirip aynı eşiğe döner; soru, bu ilerlemesiz döngünün kırılma noktasını görünür kılar. Gemiye tehdit oluşturan çalkantı, bu uzak benzetmede çabanın kendi çevresinde tüketilebileceği hareketi somutlaştırır. Girdap imgesi fiilin olağan bilme-bildirme çerçevesi içinde kalır; böylece geri dönüşün döngüsel hareketi belirginleşir.
+
+Döngüde tüketilen çaba, bilginin dikkat toplama gücüyle alıştırma hedefi gibi de yeniden görülebilir. {ar:أَدْرَىٰكَ, tr:adrāka, gloss:sana bilmesini sağladı} bildirimi, karşıya yerleştirilmiş ve üzerine atılmak üzere bekleyen bir nesnenin öğrenenin dikkatini toplaması gibi işler. {ar:ٱلْعَقَبَةُ, tr:al-ʿaqabah, gloss:sarp geçit} bu hedefe direnç verir; önceki güçlüğe dalma da açıklamanın hazırlanacağı eylemi belirler (90:11). Direnç hedefe dikkati, önceki dalış ise hazırlanacak eylemi verir; soru bu ikisini bir araya getirerek okuyucuyu zor eşiğe girebilmek için görmeye ve karar vermeye hazırlar. Hedef imgesi pedagojik ve yerel bir benzetme olarak açıklamanın dikkat ve irade hazırlayan işlevini görünür kılar.
+
+## Bilginin Yönü
+
+Bu hazırlık, geçidin yönü açıklanabilen ve yardım istenerek girilen bir güzergâh olarak duyulmasına izin verir. Fâtiha'nın 1:2, 1:5, 1:6 ve 1:7 ayetleriyle yan yana gelen temaslarda {ar:ٱلْعَٰلَمِينَ, tr:el-âlemîn, gloss:âlemler} içindeki belirli alan ve işaret fikri, {ar:ٱهْدِنَا, tr:ihdinâ, gloss:bizi yönelt} yöneltilme talebiyle; {ar:ٱلصِّرَٰطَ, tr:es-sırât, gloss:yol}, {ar:ٱلْمُسْتَقِيمَ, tr:el-müstakîm, gloss:dosdoğru} ve 1:7'de yeniden anılan {ar:صِرَٰطَ, tr:sırât, gloss:yol} ile birlikte bildirimi belirli bir hatta hizalar. {ar:نَسْتَعِينُ, tr:nesteînü, gloss:yardım isteriz} yardım istemesini, {ar:نَعْبُدُ, tr:na'büdü, gloss:ibadet ederiz} ise olağan kulluk anlamının yanında adımlarla yükselip zemini düzleme yönünü bu hatta taşır (1:5). Böylece sarp geçit, yönü açıklanabilen, yardım ve kılavuzluk istenerek girilen, ardışık adımlarla sürdürülen izlenebilir bir rota gibi daha okunaklı olur. Her temas kendi ayetindeki işi taşır; birlikte sorudaki geçişe yön ve destek boyutu ekler, dosdoğru yolu sarp geçidin yerine koymaz.
+
+Daha uzak ve biçim bakımından ayrı bir sözlük teması, bu yönelişi bilgiyi hareket halindeki bir akış gibi düşünmeye taşır. {ar:أَدْرَىٰكَ, tr:adrāka, gloss:sana bilmesini sağladı} için aynı alanda duyulan {ar:درور الشيء وخروجه غزيرا من مصدره, tr:durûru'ş-şey'i ve hurûcuhu ğazîran min masdarihi, gloss:bir kaynaktan bolca çıkma} ayrıntısı, yükseltilmiş güzergâhın ve yönlendirmenin açtığı hatta doğru salınan bir bilinç hareketiyle buluşur (90:10). Yön, doğrultu ve hizalanma bu hareketi {ar:ٱلْعَقَبَةُ, tr:al-ʿaqabah, gloss:sarp geçit} sözcüğünün somut direncine bağlar: bilgi kaynaktan çıkar, rota ile hizalanır ve geçidin direncine doğru işe yarar bir yön kazanır. Bu keşifsel benzetmede akış, bilginin hareketini anlatır; fiilin olağan ettirgen bilme anlamı ile sarp geçidin anlamı aynı kalır. Böylece uzak sözlük teması, fiile sıvı anlamı vermeden bilginin doğru yöne verildiğinde nasıl işlev kazanabileceğini görünür kılar.
+
+</editorial_prose>

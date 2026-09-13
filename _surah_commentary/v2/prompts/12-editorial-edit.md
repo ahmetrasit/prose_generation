@@ -15,8 +15,11 @@ prelude should prepare
 concrete expectations without repeated withholding formulas or resolved
 conclusions. The postlude should develop the supported movements together,
 not repeatedly introduce and recap independent exhibits. Remove redundant
-restatements. Keep materially distinct readings visible; this is not a demand
-to shorten or compress all findings.
+restatements. Keep materially distinct readings visible. Do not make the prose
+easier by omitting supported readings, outline movements, member
+contributions, concrete images, qualifications, uncertainty, or attribution.
+Improve readability by recasting, splitting, reordering, and connecting the
+existing material, not by shortening or compressing away findings.
 
 Check adjacent sentences for an explanation immediately followed by a shorter
 restatement of the same contribution. Retain one clear explanation and any
@@ -40,10 +43,14 @@ contribution.
 Clarify each image's contribution: explain what it does in this connection
 and what the reader gains from it, rather than merely naming it. Lead with
 that contribution and describe its scope affirmatively. Prefer saying what a
-secondary layer lets the reader hear over saying what it is not. Use explicit
-exclusions only where positive wording would leave the boundary ambiguous.
-Make clear that a restriction concerns this connection, rather than declaring
-other readings invalid.
+secondary layer lets the reader hear over saying what it is not. Do not
+preserve boundary sentences in the form "bu X değildir", "kurmaz", "yüklemez",
+"anlamına gelmez", "sayılmaz", "dönüşmez", "oluşturmaz", "belirlenmez",
+"kapatmaz", "bağlamaz", or similar defensive denials. If a boundary is needed
+for truthfulness, express it as positive scope: what the image contributes,
+where the layer works, what remains open, or what the reader should hear. Make
+clear that a restriction concerns this connection, rather than declaring other
+readings invalid.
 Where the draft refers to unspecified conditions or restrictions, explain the
 actual condition or limit given in the editorial source. Place it with the
 reading it qualifies. If the source leaves it unresolved, preserve that
@@ -78,7 +85,14 @@ repeated summary.
 No word or paragraph quota. Let the surah and the reading determine the shape.
 A short surah may need a compact surface; a long surah may need many
 paragraphs. Use paragraph breaks where attention, image, movement, or scale
-genuinely shifts.
+genuinely shifts. Keep each distinct supported finding recoverable where it is
+needed for the outline's movement.
+
+Before finishing, search the revised prose for repeated defensive endings and
+for words like "değildir", "kurmaz", "yüklemez", "anlamına gelmez",
+"sayılmaz", "dönüşmez", "oluşturmaz", "belirlenmez", "kapatmaz", and
+"bağlamaz". Rewrite every avoidable occurrence into affirmative prose while
+preserving truth conditions.
 
 Write only the designated Markdown file. Do not write JSON. Do not include an
 evidence map. Do not add a separate audit, ledger, or commentary on your own

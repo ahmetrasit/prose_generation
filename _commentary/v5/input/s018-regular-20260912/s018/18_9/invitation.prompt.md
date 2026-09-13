@@ -1,0 +1,191 @@
+# V5 reading invitation — 18:9
+
+You are a fresh reading-invitation writer. Read the complete editorial prose
+before writing. It is your sole semantic source.
+
+Write two to four paragraphs of fluent, contemporary Turkish that reveal a
+surprising reading by following one or two main channels of resonance in the
+ayah. A channel is a connected background of meanings, images, actions, or
+relations through which the ayah can be heard and understood differently.
+Several editorial findings may together develop one channel. Summarize that
+connected movement and its consequence for the ayah's main meaning, rather
+than compressing findings individually. Give the reading's substance now;
+the invitation comes from understanding it, not from a promise of hidden depth.
+
+Before drafting, read the entire editorial prose and silently select the one
+or two channels with the strongest interpretive consequence and enough
+grounding to explain clearly. Favor channels that expand or shift what the
+ayah says, the relation it establishes, or what is at stake in its action or
+image. One fully developed channel is sufficient; add a second only when it
+offers a distinct consequential reading that can be explained within the
+invitation. No finding, channel, or major shift has an individual coverage
+claim. Unselected material may remain entirely in the full commentary.
+
+A channel may develop through grammar, sound, dialogue, a material process,
+time, imagery, or a conceptual relation. Resonance is not limited to acoustic
+effects, and an unusual image alone does not establish a channel. Use only
+connections the editorial prose actually develops. If it supplies no such
+channel, explain its strongest grounded reading without inventing connections
+or surprise.
+
+Begin inside the ayah's own words, images, actions, or relations and reveal a
+selected distinctive reading in the first paragraph. Keep the plain meaning
+reachable with only the orientation needed to understand the change. Do not
+spend an opening paragraph on routine explanation or front-load context about
+the surah, the ayah's position, or the commentary project.
+
+For each selected channel, begin with the expression that opens it, unfold the
+connected background, and show how the ayah reads or sounds against that
+background. Let a detail lead into the next through an intelligible relation
+or process, so the reader experiences the emerging reading. This is a movement
+of thought, not a mandatory sentence pattern or one paragraph per finding.
+Let the reader identify the expression being interpreted,
+where any nonordinary detail comes from, and what that detail changes in the
+reading. Briefly identify the word-family use, restricted form, collocation, or
+context that supplies an essential added detail, and preserve the concrete
+operation that makes the image work. Keep the ordinary reading and necessary
+qualification clear within this explanation; do not repeat them as a fixed
+formula. Preserve the particular object, process, or relation that makes this
+reading distinctive, and state its interpretive consequence for the ayah as a
+whole. Make intelligible what the familiar reading leaves less visible and
+what the expanded or shifted reading now lets the reader understand. Preserve
+the editorial's force: an exploratory possibility remains possible, while a
+developed shift must not be softened into a decorative association or a
+reassurance that everything means the same thing. A concrete
+account of how something is carried, transformed, lost, or restored must not
+shrink to a general statement about care, guidance, dependence, or goodness.
+Keep the details needed to make the selected channel work; omit side findings
+and shorten routine setup. If a channel cannot be explained faithfully from
+the editorial prose, choose another grounded channel or reading.
+
+When a non-focus ayah supplies a contribution used in the invitation, keep its
+reference from the editorial prose beside that contribution.
+
+Do not turn the invitation into a miniature inventory of the commentary's
+conclusions, or flatten distinct channels into a broad theme to include more
+material. Do not repair, extend, or supplement the editorial prose from memory
+or outside knowledge.
+
+Omit technical apparatus. Retain any qualification, source distinction, live
+alternative, or boundary whose absence would change the force or meaning of a
+chosen reading. Express it naturally beside the image or relation it qualifies.
+Favor positive explanations of the relation between layers: what remains in
+the foreground and what the resonance makes audible in the background. State
+how that background reinforces, expands, or shifts the understanding of the
+main meaning, with the source and degree of certainty clear. Reserve explicit
+exclusions for concrete ambiguities or live counter-evidence that need them.
+Repeated "this is not X" endings make a reading sound withdrawn; express the
+substantive qualification through what the reading does contribute wherever
+possible. Use varied, natural language rather than a repeated "second layer"
+formula, and preserve the force of expansions and shifts.
+Do not name branches, candidates, findings, scopes, evidence categories,
+ledgers, or workflow stages, or label the prose as numbered channels. Do not
+list findings serially.
+
+Use the established `{ar:..., tr:..., gloss:...}` syntax, consistent
+Turkish-readable transliteration, and short ordinary glosses. Keep Arabic
+anchors beside the explanations they ground. Within a paragraph, continue with
+the Turkish meaning where clear; provide the necessary local tag when a later
+paragraph interprets the carrier anew. Do not place Arabic script outside a
+valid tag.
+
+Build transitions within a channel through its shared object, action, or
+relation. If two channels are selected, they may occupy separate paragraphs;
+do not invent a link between them. Do not praise the commentary's quality,
+promise what the reader will find, manufacture suspense, recap at the end, or
+add a call to action. End on an image, relation, action, or tension already
+established by the selected reading.
+
+Before finishing, compare the invitation with the entire editorial prose:
+does the chosen channel reveal a consequential reading, or could the text have
+been written from the ordinary translation and a modest explanation alone?
+When the editorial supports a surprising channel, the latter fails this task.
+Can the reader follow the opening expression into a connected background and
+understand how that background expands or shifts the ayah's main meaning?
+Check the selected connections against their editorial explanation: can the
+reader tell where the nonordinary details come from, with the necessary
+qualifications intact? Repair generic explanation, isolated curiosities, or a
+compressed findings list by developing the selected channel. Do not add
+omitted channels merely for coverage. Do not output this check.
+
+Write only the invitation text to:
+
+`_commentary/v5/editorial/s018-regular-20260912/s018/18_9/18_9.invitation.tr.md`
+
+Do not add a heading, wrapper label, index, ledger, evidence file, or any other
+artifact. Do not modify the editorial prose.
+
+After writing the invitation, run:
+
+```bash
+python3 _commentary/v5/validate_prose.py _commentary/v5/editorial/s018-regular-20260912/s018/18_9/18_9.invitation.tr.md
+```
+
+If validation fails, repair only the reported mechanical file-contract issues
+and rerun it, for at most two repair cycles. Report the final validator result
+in your response.
+
+<editorial_prose>
+Bu âyet, {ar:أَمْ, tr:em, gloss:yoksa} ile doğrudan bir soru açar: Mağara ve yazıtla tanınan {ar:أَصْحَٰبَ, tr:ashâbe, gloss:arkadaşları} topluluğunun Allah'ın ayetleri arasında {ar:عَجَبًا, tr:acaben, gloss:şaşılacak şey} olduğunu mu sandın? Söz, topluluğun hikâyesini anlatmadan önce, bu hikâyeye biçilen hayret ölçüsünü muhatabın önüne getirir. Mağara arkadaşları gerçekten şaşırtıcı bir vaka olarak kalır; sorunun açtığı şey, bu vakanın ayetler içindeki yerinin nasıl değerlendirildiğidir.
+
+## Sorunun eşiği
+
+{ar:أَمْ, tr:em, gloss:yoksa} daha önce kurulmuş bir varsayımı inceleyen düzeltici dönüşü başlatır. Yeryüzünün süsü ve onun çıplak zemine dönüşmesi üzerine açılan geniş çerçeveden (18:7, 18:8) belirli bir mağara topluluğuna yaklaşılır; büyük ufuk kaybolmadan dikkat tek bir insan vakasına iner. Kısa {ar:أَمْ, tr:em, gloss:yoksa} sesinin hemen ardından gelen daha uzun {ar:حَسِبْتَ, tr:hasibte, gloss:sandın} fiili, bu dönüşü işitilir kılar. İlk sorudan son {ar:عَجَبًا, tr:acaben, gloss:şaşılacak şey} kelimesine kadar uzanan hareket, olaydan önce olay hakkındaki hükmü sınar.
+
+{ar:حَسِبْتَ, tr:hasibte, gloss:sandın} ikinci tekil şahıs geçmiş biçimindedir; böylece soru, henüz oluşacak bir ihtimali değil, muhatabın daha önce kurduğu kanaati karşısına alır. Fiil burada zihinsel tahmin ve hesaplama yönünü taşır: dışarıdaki vakayı bildirmekten önce, gözlemcinin onu nasıl sınıflandırdığını yoklar. Sonraki önerme fiilin bütün içeriğidir; soru yalnızca arkadaşların varlığına değil, onların ayetler arasında şaşılacak sayılmasına yönelir. Yeterlilik çağrışımı burada arka planda kalır; bu biçimin canlı hareketi, bir şeyi yeterli bulmaktan çok onu belli bir hüküm içinde düşünmektir.
+
+{ar:أَنَّ, tr:enne, gloss:ki} bu hükmü tek bir içerik cümlesi içinde toplar. Ardından gelen topluluk, fiilin değerlendirdiği önermenin öznesi olarak içeri yerleşir; dizi, arkadaşlardan son hayret kelimesine kadar kesintisiz ilerler. İçeride tamamlanmış görünen önerme dışarıdaki sorunun içinde tutulduğu için hem “ne söyleniyor?” hem de “bu hükme nasıl bakılıyor?” soruları birlikte açık kalır. Dış soru bu iç önermeyi sınanan bir hüküm olarak taşır ve değerlendirme biçimini öne çıkarır.
+
+## İşaretin ölçüsü
+
+{ar:أَصْحَٰبَ, tr:ashâbe, gloss:arkadaşları} çoğul biçimi, hükümden önce tek bir topluluk kurar. “Arkadaşlar” sözü, yakın ve süreğen eşliği grubun adına yerleştirir. Mansup topluluk, içerik cümlesinin öznesi olarak son hayret yüklemini taşır. Böylece ayetler alanına giren şey, birlikte tanınan ilişkisel bir öznedir; hüküm mağaraya veya yazıta ayrı ayrı değil, bu topluluğa yönelir.
+
+{ar:ءَايَٰتِنَا, tr:âyâtinâ, gloss:ayetlerimiz} çoğul bir işaretler alanı açar. Sondaki birinci çoğul kişi eki, alanın ilahî konuşana ait olduğunu duyurur; mağara hadisesi sıradan bir insan hayretiyle değil, Allah'ın işaretler düzeni içinde ölçülür. Kelime, muhatabın önceki hesabını, şimdi adlandırılan topluluğu ve onların belirli bir hâle yerleştirilişini ilahî iletişimin malzemesi olarak yeniden çerçeveler. İşaret burada yalnızca görülen bir belirti değil, karşılanması ve hakkında hüküm verilmesi gereken bir şeydir. Bu yüzden soru, olayın şaşırtıcılığını korurken işaretin nasıl alındığını ve hangi hükme dönüştürüldüğünü de sınar.
+
+{ar:مِنْ, tr:min, gloss:arasından} bu ölçüyü küçük ama belirleyici bir menteşeyle kurar. Edat, topluluğun durumunu {ar:ءَايَٰتِنَا, tr:âyâtinâ, gloss:ayetlerimiz} alanı ile son {ar:عَجَبًا, tr:acaben, gloss:şaşılacak şey} arasında ilişkilendirir; hayret, havada duran bir niteleme olmaktan çıkıp işaretler arasındaki bir değerlendirme olur. Aynı bağlanma çevresinde hesaplama, yazıt, işaretler ve şaşkınlık birbirine yaklaşır. Edatın burundan kapanan sesi hemen arkasındaki işaret sözüne akarak bu bağı işitsel olarak da sıkılaştırır. Böylece cümle, topluluğu ayetler alanı içindeki ilişkisel ölçüsünde tutar.
+
+Uzun {ar:ءَايَٰتِنَا, tr:âyâtinâ, gloss:ayetlerimiz} ifadesi değerlendirme alanını genişletirken, kısa son {ar:عَجَبًا, tr:acaben, gloss:şaşılacak şey} bu alanı tek bir hükümde toplar. Âyet son kelimeye doğrudan sıçramaz; önce işaretlerin genişliğini duyurur, sonra o genişlik içindeki vakaya iner. {ar:كَانُوا۟, tr:kânû, gloss:onlar oldular} fiili topluluğu bir duruma yerleştiren bağlayıcıdır; geçmiş biçimi, artık kurulmuş ve bu yüzden sorgulanabilir bir kanaati hedefe getirir. Bu geçmiş biçim, olayın tarihî başlangıç ve bitişinden çok kurulmuş kanaatin sorgulanabilirliğini taşır.
+
+Son {ar:عَجَبًا, tr:acaben, gloss:şaşılacak şey} kelimesi belirsiz ve mansuptur; çoğul topluluğa yüklenen tekil bir değerlendirme olarak gelir. Bu biçim hayreti yalnızca yoğunlaştırılmış bir ünlem gibi değil, ölçüsü sorulabilen bir şaşma hâli gibi duyurur. Gerçekten şaşırtıcı olan olay, işaretler çoğulu içindeki bir vaka olarak kalır; aynı anda alışılmamış bir karşılaşmanın zihinsel sarsıntısı da görünür olur. Gözlemci yalnızca şaşmaz, şaşkınlığını hangi sıraya ve ölçüye yerleştireceğiyle de karşılaşır. Soru böylece olayı sıradanlaştırmadan, onu benzersiz veya bütün işaretler düzeninin en yüksek hayreti sayan hükmü yeniden tartar.
+
+Bu ölçü, başka bağlamlarda görülen düzeltme ve genişleme hareketleriyle birlikte daha belirgin duyulur: sürenin yanlış hesaplanıp düzeltildiği örnek (2:259), daha büyük işaretlerin açıldığı ifade (20:23), hayretin kullanıldığı örnekler (18:63, 72:1) ve benzer sorgu (18:102) insanın ilk hükmünü yeniden ölçmeye zorlar. İlahi bilgi ufkunu açıkça taşıyan örnekler (18:91, 18:109) bu ölçünün insan tahmininden geniş olduğunu gösterir. 18:9'daki hayretin gerçekliği bu temaslarda korunur; sorunun baskısı, bir olayın şaşırtıcılığından çok, insan hesabının onu bütün ölçünün yerine koymasında toplanır.
+
+## Mağara ve kayıt
+
+İşaretler alanındaki bu ölçü, şimdi topluluğun adını oluşturan iki belirleyiciye iner: {ar:ٱلْكَهْفِ, tr:el-kehfi, gloss:mağaranın} ve {ar:ٱلرَّقِيمِ, tr:er-rakîmi, gloss:yazıtın}. {ar:وَ, tr:ve, gloss:ve} bağlacı ikinci adı yeni bir cümleye koparmadan aynı isim tamlamasının devamına bağlar. Mağara uzamı, yazıt ise işaretlenmiş kaydı getirir; ikisi aynı arkadaşlar adının iki ayrı tanıtıcısıdır. Son hayret yüklemi bu belirleyicilere değil, onların birlikte tanımladığı topluluğa verilir. Böylece fiziksel mekân ile kayıt yüzeyi aynı anda tutulur, fakat biri ötekinin yerine geçirilmez.
+
+{ar:ٱلْكَهْفِ, tr:el-kehfi, gloss:mağaranın} belirli ve tekil biçimdedir. Çoğul arkadaşlar tanınan bir mağara çevresiyle birlikte adlandırılır. Kelime fiziksel oyuk anlamını korurken topluluğu alabilecek genişlik ve sığınak basıncı da taşır: yalnızca yer bildiren bir ayrıntı değil, karşılaşmanın içeride korunmuş göründüğü bir çevredir. Adın içinde ilk kez sabitlenen bu mekân, sonraki mağara anışlarına yerel bir dönüş noktası sağlar; bu hazırlık 18:9'un somut mağara odağı içinde kalır ve sûrenin bütün mimarisine taşınan bir tez değildir.
+
+{ar:ٱلرَّقِيمِ, tr:er-rakîmi, gloss:yazıtın} başındaki belirlik işaretiyle bilinen bir ad gibi duyulur; somut gönderimi açık kalırken arkadaşlar tamlaması içinde topluluğun ikinci belirleyicisi olarak görev yapar. Bununla birlikte yazma, işaretleme, sayma ve görünür bir desen bırakma alanını taşır; kayıt elle tutulur, ayırt edilebilir ve gerektiğinde yeniden okunabilir bir yüzey gibi belirir. Nadir bir yazılı sicil yankısı bu maddî kayıt duygusunu besler. Metin aktarımında uykuya yönelen karşı-okuma, kelimeye başka bir duyuluş kazandırır; eldeki biçimin kayıt anlamı ve tamlamadaki görevi yerinde kalır.
+
+Bu ikinci adın okunuşu, mekândan kayda doğru işitsel bir menteşe kurar. {ar:وَ, tr:ve, gloss:ve} ile gelen belirli biçimli kelime ses birleşmesiyle tamlamanın yönünü belirginleştirir. Bu vurgu koordineli kayıt okumasını güçlendirir; kelimenin dilbilgisel görevini ve açık bıraktığı gönderimi korur. Mağara ile yazıtın yan yana durması, aynı topluluğu iki farklı koruma yüzüyle tanıtır.
+
+## İz ve koruma
+
+Mağara arkadaşları içeride tutar; yazıt onların adını, sayısını ve izini yokluk boyunca yeniden okunabilir kılar. Saklanma, süreyi sayma ve ardışık anlatımın birlikte taşındığı sahneler (18:11, 18:12, 18:13), fiziksel sığınağın yanına aktarılabilir bir iz koyar. İşaretli kitap, eksiksiz hesap kaydı ve yazılan iz örnekleri (83:9, 18:49, 36:12) bu kayıt yönünü genişletir. {ar:ٱلرَّقِيمِ, tr:er-rakîmi, gloss:işaretli kayıt} böylece mekânsal korumaya eşlik eden yazılı koruma yüzünü görünür kılar; adın hangi nesneye veya yere karşılık geldiği bu bağlantıda açık bırakılır.
+
+Geri çekilen bir iz görüntüsü (18:6), odaktaki işaret ve kayıt kelimeleriyle buluştuğunda yokluk okunabilir bir kalıntı bırakır. Ardından hakikate uygun biçimde aktarılan sıralı anlatım (18:13), bu kalıntıyı birbirine bağlı bir habere dönüştürür. Yazılı Kitap çerçevesi (18:1), ulaşan haber ve gerçekle örtüşen bilgi, işaretlenmiş yüzeyi pasif bir iz olmaktan çıkarıp okunabilir ve aktarılabilir bir tanıklık aşamasına taşır. Burada {ar:ٱلرَّقِيمِ, tr:er-rakîmi, gloss:yazılı kayıt} arşiv işlevine yaklaşır; bu aktarılmış ilişki yazıtı zorunlu olarak kitap veya levha diye teşhis etmeden, 18:9'daki adın koruma ve okunabilirlik basıncını artırır.
+
+Kayıt yüzeyi değişken bir arazide kalan artık biçim olarak da duyulabilir. Yeryüzünün süsünün kaldırılıp çıplak ve bitkisiz zemine çevrildiği sahne (18:7, 18:8), dikkat çeken dış yüzeyin silinmesini gösterir. Mağaranın iç oyuğu ve işaretli yer, bu değişimin karşısında okunabilirliğini sürdüren negatif ve artık biçimler gibi görünür. Böylece korunma, yalnızca geçmişte olmuş bir olayın saklanması değil, yüzey şartları değiştiğinde iz bırakma biçimi olarak genişler; fiziksel mağara ve yazıtın açık anlamları bu maddî resmin içinde kalır.
+
+## Sığınağın açıklığı
+
+Mağara bedensel olarak toplar; {ar:أَصْحَٰبَ, tr:ashâbe, gloss:arkadaşları} kelimesindeki eşlik bu toplanmayı ortak bir yönelişe taşır. Sığınağa yönelen grup (18:10) birlikte duruşu başlatır, kalplerin sağlamlaştırılması (18:14) bu eşliği iç dayanıklılığa çevirir, hakikate uygun biçimde birlikte anlatılan gençler (18:13) ortak adı somutlaştırır. Böylece arkadaşlık yalnızca aynı yerde bulunma değil, korku karşısında birlikte durma ve ortak bir istikamet kazanma ilişkisi olarak açılır. Mağaranın somutluğu ve ilişkili topluluğun merkezî yeri aynı koruma görüntüsünde kalır.
+
+Bu koruma, kapanma kadar açıklıkla da işler. Sığınağa çekilmenin ardından rahmetin yayılması, iç aralığın genişlemesi ve güneşin iki yana saparak geçmesi (18:16, 18:17), mağaranın içeride yaşanabilir bir açıklık bırakan seçici sınırını görünür kılar. Güneşin bir yönden, sonra öteki yönden yanlarından geçmesi; genişlik, fayda ve ölçülü ışığın aynı koruma içinde nasıl yer aldığını gösterir. Bu mekânsal resim fiziksel mağaraya bağlıdır; insan sığınağı olan kişi dalı burada devreye girmez.
+
+Sahnede uzanmış köpeğin bedeni, insan grubuna eşlik eden ayrı bir varlığın mekânsal katılımını gösterir (18:18). {ar:أَصْحَٰبَ, tr:ashâbe, gloss:arkadaşları} kelimesi bu bedensel ayrıntıyla insan topluluğu, koruyucu mağara ve eşlik eden hayvan arasında farklı roller taşıyan bir korunma resmi kurar. Köpek, “mağara arkadaşları” tamlamasının dilbilgisel üyesi yapılmadan, sahneye katılan ayrı bir refakatçi olarak görünür. Böylece eşlik, insan grubunun adı içinde kalan bir ilişki olmanın yanında, korunmuş düzenin unsurları arasında dağılan bir destek biçimi olarak da duyulur.
+
+## Görünüşün sınırı
+
+Mağara ve yazıtın görünür yüzleri bir şeyi tanımaya yardım eder; yine de görünüşün verdiği hüküm kendi başına son söz olmaz. Uyanık sanılanların aslında uyuduğu sahne (18:18), gözün ve zihnin bir durumu yanlış sınıflandırabileceğini somutlaştırır. Bu sahne, {ar:حَسِبْتَ, tr:hasibte, gloss:sandın} fiilindeki tahmin yönüyle temas eder: ayetler ve yazılı izler gerçek belirtiler olarak kalırken, belirtiyi görmek ile onun hakkında doğru ölçüde hüküm vermek birbirinden ayrılır. Böylece hayret, yalnızca olağanüstülüğün adı değil, görünüşün ürettiği sınıflandırmanın sınandığı sorudur.
+
+Hesaplama yönü de aynı sınırı başka bir işlem üzerinden gösterir. {ar:حَسِبْتَ, tr:hasibte, gloss:sandın} fiilinin nicelik belirleme yönü, süre ve uyanma düzeninin anlatıldığı sahnelerde (18:11, 18:12) görünür; kalış süresinin farklı hesaplarla karşılaştırılması (18:12), ölçünün nasıl tartıldığını açar. Görünmeyene dair sayıların ileri sürülmesi (18:22), hesabın bilgiden tahmine kayan eşiğini gösterir. Yılları saymak, yazıtı bir kayıt olarak okumak ve bedeni görünüşten sınıflandırmak işe yarayan işlemlerdir. Sürenin yanlış hesaplanıp düzeltildiği örnek (2:259), bu işlemlerin taşıdığı güveni sınırlar; hesaplama gücünü korurken görünmeyen hakkında tek başına son hüküm kurmaz.
+
+{ar:كَانُوا۟, tr:kânû, gloss:onlar oldular} ile sayma ve kayıt aynı dizide buluştuğunda, yaşanmış hadise ölçülmüş ve saklanmış bir geçmiş nesnesine çevrilir. Geçmiş biçim, kurulmuş bir hâli sorgulanabilir kılarken yazılı iz ve sayı, o hâli yönetilebilir bir tarih kaydına bağlar. Âyet böylece yalnızca hayrete bakmayı değil, hayreti hangi sayıyla, hangi kayıtla ve hangi görünüşe dayanarak sakladığımızı da düşündürür. Bu okuma kopulanın yerel bağlayıcı görevine bağlı kalır; hesap, yazı ve geçmiş hâli aynı soruda birbirine bağlar.
+
+## Tanıklığa açılan sahne
+
+İçeride korunan sahne, daha sonra başkalarının bilgisine açılır. Topluluğun keşfedilmesi, saklı kalmış yerin öğrenilen gerçekle buluştuğu ve işaretli mekânın doğru vaadi doğrulayan kamusal bir kanıt yüzü kazandığı hareketi gösterir (18:21). İnsanların öğrenmesi ile bu öğrenmeyi aşan ilahî bilgi ufku birlikte duyulur (18:91, 18:109); iki bilgi düzeyi kendi işlevini korur. Hemen ardından onların üzerine malzemeleri birleştirerek bir yapı kurma düşüncesinin ortaya çıkması (18:21), keşfedilen mekânı toplumsal bir anıt ve hatırlama yüzü olarak sahiplenme imkânını açar. Mağara ve yazıtla tanınan sahne, fiziksel ve kayıtlı yüzlerini koruyarak keşif yoluyla kamusal bir tanıklık kazanır.
+
+</editorial_prose>

@@ -1,0 +1,1560 @@
+# Commentary v5 scope discovery
+
+You are the fresh **micro** scope discoverer for **90:20**. This is
+the first of two planned turns for this lane. Decide what the supplied evidence
+supports and persist the requested discovery JSON. Do not write polished commentary prose.
+
+Write exactly one JSON object to `_commentary/v5/raw/s090-regular-20260912/s090/90_20/micro.discovery.json` and modify nothing
+else, except for any required monitor lifecycle event command supplied by the
+orchestrator. Remain available for a follow-up composition turn, but make this
+artifact self-contained so a replacement agent can continue if the session is
+lost.
+
+## Evidence And Discovery
+
+- The inline lane packet is the complete evidence boundary. Paths and pointers
+  inside it are provenance, not permission to read other files.
+- Check `focus_word_alignment` for unresolved analysis units. Their source
+  readings remain available; qualify uncertain carriers rather than treating a
+  missing join as evidence against a reading.
+- Analysis refs and QAC refs have separate identities. Use each word candidate's
+  `word_alignment` when supplied. Accepted overlaps can describe a whole
+  expression and its component; shared morphemes do not make their semantic
+  claims duplicates.
+- Candidates are a review docket, not an accepted list, discovery limit, or
+  quota. Decide every candidate exactly once. Independently inspect the full
+  relevant surface, supports, connections, and available branches for
+  uncandidate activations and surprise readings.
+- Do not emit an exhaustive negative inventory for every available branch or
+  connection. Negative accounting is required only for semantics attached to a
+  supplied candidate.
+- Availability is not activation. A branch reading requires a real carrier, an
+  independent trigger, a mechanism, a changed reading, a reader payoff, and a
+  boundary. Another word, root, image, grammatical relation, or act can be the
+  trigger. Macro and global context may supply a trigger within that lane.
+- `root_ids` on a word-analysis candidate are provenance normalization. They
+  identify source/QAC root records but do not nominate or activate a branch.
+  `root_branch_options` is the compact index of focus branches under those
+  roots. Inspect it specifically for a branch that fits the candidate claim
+  and meets an independent word/image/relation in the focus; nominate only a
+  branch that actually passes that test.
+- `accept` preserves the complete candidate. `narrow` preserves a bounded core
+  and explicitly records every omitted candidate branch, branch facet, context
+  ref, and semantic obligation. `represented` is only for an exact semantic
+  duplicate carried by one named finding. `reject` names the failed edge and
+  explicitly accounts for all attached obligations.
+- For every retained finding, write `claim` and `mechanism` as the actual
+  semantic relation. A statement that a supplied record or support merely
+  identifies a contribution does not satisfy either field. Name the carrier,
+  trigger, contact, and resulting change in meaning. If a branch otherwise
+  passes the activation test, do not narrow the candidate or exclude the branch
+  merely because the relation is peripheral, attributed, surprising,
+  multi-step, or difficult to articulate. A form restriction justifies
+  exclusion only when it is incompatible with the actual carrier; otherwise
+  retain the relation with its restriction and evidence status explicit.
+- Every item in a candidate's `semantic_obligations` is first-class. This
+  includes candidate-specific word/channel evidence as well as HFT
+  activation-trace roles, before/after changed readings, and containment; none
+  may disappear behind a generic summary.
+- A retained candidate context ref counts as landed only when it occurs in a
+  branch activation's `carrier_refs` or `trigger_refs`. Merely listing it in
+  `context_refs` does not count.
+- Every candidate `branch_ref` must either land through an exact activated facet
+  or be explicitly excluded. Separately account for any explicitly nominated
+  `required_branch_facets`; do not expand this into all available facets. If a
+  specialization/extension facet survives, at least one core facet of that
+  branch must survive with it.
+- `represented` means exact semantic duplication: it cannot exclude any of the
+  represented candidate's branches, nominated facets, context, or obligations.
+  A `narrow` decision must retain at least one semantic obligation when the
+  candidate has any.
+- Keep uncertainty and counter-readings visible without ranking them. Source
+  trust controls qualification, not automatic acceptance or rejection.
+- For a `legacy_unbound` HFT candidate, `registry: unresolved` means that no
+  independent lexicon branch record is supplied; it does not by itself require
+  exclusion. When its exact HFT trace names a supplied context ayah, word index,
+  root, attributed role, and a contact returning to the focus, evaluate that
+  trace as attributed contextual evidence. If it survives, retain it with
+  `application_mode: attributed`, without inventing a branch gloss or facet.
+  Exclude it when the coordinate or root does not agree with the supplied
+  surface, the focus return is missing, or the inference exceeds the stated
+  HFT role.
+
+## Lane Boundary
+
+- `micro`: local wording, syntax, morphology, sound, root pressure, and
+  whole-ayah cross-root contacts.
+- `macro`: what the declared pericope or host-surah context changes. Automatic
+  basmala and explicitly added ayat are ordinary non-focus context members.
+- `global`: a wider resonance only when a concrete wider trigger returns
+  through a focus word, relation, or act and materially changes the reading.
+
+## Lane-Specific Procedure
+
+- No additional lane-specific procedure.
+
+## Response Schema
+
+Return exactly these top-level fields:
+
+```json
+{
+  "schema_version": "commentary-v5-scope-discovery-v1",
+  "ayah_ref": "90:20",
+  "lane": "micro",
+  "coverage_complete": true,
+  "candidate_decisions": [
+    {
+      "candidate_id": "exact packet candidate ID",
+      "decision": "accept | narrow | represented | reject",
+      "reason": "specific evidentiary reason",
+      "finding_refs": ["micro:stable-key"],
+      "branch_exclusions": [
+        {"branch_ref": "exact ref", "reason": "specific reason"}
+      ],
+      "facet_exclusions": [
+        {"branch_ref": "exact ref", "facet_id": "F001 or null", "reason": "specific reason"}
+      ],
+      "context_exclusions": [
+        {"context_ref": "S:A", "reason": "specific reason"}
+      ],
+      "semantic_obligation_exclusions": [
+        {"obligation_ref": "exact ref", "reason": "specific reason"}
+      ]
+    }
+  ],
+  "findings": [
+    {
+      "finding_ref": "micro:stable-key",
+      "origin_candidate_id": "accepted/narrowed candidate ID, or null",
+      "represented_candidate_ids": ["exact duplicate candidate ID"],
+      "title": "short descriptive title",
+      "claim": "bounded interpretive claim",
+      "mechanism": "how the cited evidence changes the reading",
+      "reader_payoff": "what becomes newly perceptible",
+      "containment": "limits, alternatives, and epistemic boundary",
+      "epistemic": {
+        "status": "grounded | qualified | exploratory",
+        "source_trust": ["sorted exact trust labels from cited evidence"],
+        "reason": "why this status fits"
+      },
+      "support_ids": ["exact support ID"],
+      "branch_activations": [
+        {
+          "branch_ref": "exact branch ref",
+          "facet_id": "exact facet ID, or null only when unresolved",
+          "branch_gloss": "exact packet gloss, or null",
+          "facet_statement": "exact packet statement, or null",
+          "application_mode": "lexical | intrinsic_cross_root | contextual_resonance | analogical | attributed",
+          "carrier_refs": ["exact focus/context occurrence ref"],
+          "trigger_refs": ["exact independent grounding ref"],
+          "focus_return_refs": ["exact focus word/QAC ref"],
+          "carrier": "ordinary/root meaning carried by the cited form",
+          "independent_trigger": "the separate activating evidence",
+          "activation": "why carrier and trigger make contact",
+          "resulting_reading": "the materially changed reading",
+          "boundary": "what is not being claimed"
+        }
+      ],
+      "connection_refs": ["exact connection ref"],
+      "context_refs": ["S:A"],
+      "semantic_obligation_refs": ["exact candidate obligation ref"]
+    }
+  ],
+  "friction_notes": ["unresolved evidence-grounded limitation"]
+}
+```
+
+Use empty arrays, not placeholders. Finding refs must be unique and begin with
+`micro:`. Accepted/narrowed candidates own dedicated findings. A represented
+candidate points to one exact-duplicate finding. Every cited ID/ref must exist
+in the packet. Every branch activation must copy the exact gloss/facet source,
+use a valid carrier occurrence, identify a distinct trigger, and return through
+a focus-surface ref rather than the whole ayah. Include each non-focus ayah
+used by a carrier or trigger in `context_refs`.
+
+The texts below preserve the established v2/v3 linguistic standard. This V5
+handoff controls the evidence boundary, role, response schema, and destination.
+
+<principles>
+# Principles
+
+Rules that govern every layer. Layer-specific rules live in
+[`COMMENTARY_SPEC.md`](COMMENTARY_SPEC.md) and in each output family's own
+directory; nothing there may contradict this file.
+
+---
+
+## 1. Evidence before prose
+
+Every user-facing claim traces to typed evidence in the input bundle. Prose
+renders accepted claims; it is not where claims first become true.
+
+**A true claim from outside the bundle is still a violation.** If a reading needs
+55:9, then 55:9 must be in the bundle. Correctness does not substitute for
+provenance, because the reader's trust in the unusual claims depends entirely on
+the ordinary ones being checkable.
+
+## 2. Candidate systems nominate; review establishes
+
+Semantic networks, embeddings, retrieval ranks, activation runs, and inter-ayah
+similarity can nominate evidence. They do not independently establish a word
+sense, an ayah relation, a channel, a theological claim, or publishable prose.
+
+## 3. No disambiguation
+
+The reader is never told which reading is correct, because the readings are not
+in competition. This is the constraint the whole architecture is built to
+satisfy, and it is expensive: it is why there are separate levels, why depth is
+not confidence, and why nothing is ranked.
+
+Classical exegesis buys depth by selecting — *the correct view is*. That trade is
+refused here.
+
+Two consequences:
+
+- **Readings at the same depth coexist.** If two activated readings do not
+  reconcile, both are said. Neither is adjudicated away.
+- **Ranking is disambiguation under another name.** A ranked list has a winner,
+  and a winner is a selection. Order for reading flow; never to imply truth.
+
+The guarantee lives physically at ayah level, which does not select. See
+`COMMENTARY_SPEC.md` §2.
+
+## 4. Containment
+
+Every latent reading must be expressible in a sentence that **contains the
+primary reading intact**.
+
+```
+PASS   "By time — as the pressure through which what is latent becomes yield."
+FAIL   "Not by time, but by pressing."
+```
+
+If a reading can only be written as *not X but Y*, it is a disambiguation claim
+wearing different clothes; reject or downgrade it. This is checkable at review.
+
+Containment must be achieved in the prose voice, not by a label. Do not write a
+section headed "this does not replace the primary meaning." Write sentences that
+add rather than substitute.
+
+## 5. Grounding
+
+Containment is a logical guarantee: the latent reading does not displace the
+primary one. **Grounding is a reader-state guarantee**, and it is a separate
+axis. A perfectly contained reading still unmoors a reader with no Arabic if it
+arrives without preparation.
+
+Three requirements:
+
+1. **The way back is always open.** At any point the reader can recover the
+   primary reading of what they are looking at. It is never left behind.
+2. **New material arrives from ground already laid.** A resonance enters through
+   a word the reader has already met, in a form they have already been given.
+   Nothing is announced from above.
+3. **Channel disclosure is paced by maturity, not by availability.** That a
+   branch is present in the bundle is not a reason to announce the eventual
+   surah-wide image. This does not suppress a locally grounded surprise reading:
+   layer 2 still states what a secondary resonance does to the primary reading
+   here. See [`docs/CHANNELS.md`](docs/CHANNELS.md).
+
+The failure this prevents is real and was observed: prose that is entirely true,
+fully traceable, and leaves the reader less certain of what the ayah says than
+before they read it.
+
+## 6. Exclusions are handed forward, never dropped
+
+Each layer makes rejections. A rejection recorded nowhere is evidence destroyed.
+
+| layer | selects | rejections go to |
+| --- | --- | --- |
+| 1 — spine | one branch per rooted stem | layers 2 and 3 |
+| 3 — surah | one thesis | the exclusion artifact; Layer 2's full field already preserves them |
+| reviewed channel source | recurring systems and members | compiled plan provenance |
+| combined 3 + 2.5 | thesis and disclosure points, not local readings | exclusions and overlay omissions |
+| 2 — ayah | nothing | — |
+
+Layer 2 does not select, so it is the terminus: it is obliged to carry what the
+others could not. It is not rerun with knowledge of the later thesis; that would
+break the isolation Layer 3 depends on.
+
+The concrete case: layer 1 selects `B003` (created beings, worlds) for
+`عَٰلَمِينَ`; if `B002` (sign, landmark) is genuinely activated as the branch
+the Fātiḥa path channel runs on, it belongs in `primary-anchors.json` as an
+explicit root-scoped resonance. Branches that are merely inapplicable remain
+implicit exclusions.
+
+## 7. Preserve uncertainty and rejection
+
+Rejected senses, weak alternatives, collisions, omissions, additions, and review
+notes are part of the production record. They are not discarded because the
+default reader surface is concise.
+
+**Report gaps rather than filling them.** If a v12 run recorded no reader
+responses, say so. Do not infer what it would have said. Every bundle carries a
+coverage block naming what is present and what is missing, per source, per ayah.
+
+## 8. Integration, not aggregation
+
+Placing readings next to each other is not integration. Integration is letting
+one reading **explain** another.
+
+If N activated readings become N sections, the output has been reformatted, not
+written. Multiple branches of one root are usually facets of a single concept.
+Find the concept.
+
+In S103, eight `ع ص ر` branches — press, rain-cloud, husk, choking throat,
+withholding, refuge, yield — are one idea: *retention under compression*. That
+collapse is what made `خسر` legible as leakage and made the surah's ending on
+`صبر` structurally necessary rather than a pious sign-off.
+
+The collapse is the finding. The list is not. Ask constantly: do these images
+explain each other, or merely sit next to each other? If a paragraph could be
+moved elsewhere without damage, it is sitting.
+
+## 9. Retrieval labels order; they never filter
+
+The inter-ayah `strong`/`medium`/`weak` axis measures a row's **marginal
+contribution to the focus ayah**, not whether a connection is real.
+
+Measured on S103: root-overlap is 55.6% for `strong` and 41.4% for `weak`, and
+for focus 103:3 the order inverts. Weak-dense clusters carry *distributed*
+findings — the S103 oath-genre cluster is 22 rows, 86% weak, zero strong, and no
+single row states the finding.
+
+Filtering at `strong` deletes such findings silently. Use the axis for ordering.
+Never for inclusion.
+
+`no value` is categorically different (10% root overlap; notes read "no clear
+contribution"). Treat it as a retrieval artifact: retain, do not render.
+
+**Counter-evidence is retained and rendered.** 45:24 for S103 is contrary
+evidence for a temporal-agent reading and must survive into output at ayah level.
+
+## 10. Analyze once, render per language
+
+Arabic-side analysis is language-neutral wherever possible. What is shared:
+
+- QAC morpheme, word, and ayah identities;
+- root and branch identities;
+- shared branch selection (`primary-anchors.json`) and its recorded resonances.
+
+The shared selection may use an independently authored ordinary Turkish
+baseline as non-authoritative assistance. Arabic morphology, context, and
+branch boundaries remain controlling.
+
+What each target language authors for itself:
+
+- occurrence and card glosses;
+- the fluent line;
+- target-token-to-QAC-morpheme mapping;
+- language policy.
+
+A Turkish token mapping cannot be reused for English or German. A branch
+selection can, and must be — if two languages disagree about which branch is
+primary, one of them is wrong, and the shared file is what makes that
+impossible.
+
+## 11. Stable identities
+
+- `ayahRef` — `S:A`
+- `qacWordRef` — `S:A:W`
+- `qacMorphemeRef` — `S:A:W:M`
+- word analysis — `(releaseId, ayahRef, analysisIndex)`
+- lexicon — `rootId`, and `branchId` scoped to its root
+
+QAC words, QAC morphemes, and word-analysis records are different layers.
+Similar-looking records must not be merged by position or surface form.
+Cross-layer joins require explicit, versioned crosswalks. Branch IDs are
+per-root, not global: `B002` means nothing without its root.
+
+**One identity is in use upstream but not in this list.** The channel review
+cites motifs as `root:branch/mNN` — e.g. `ع ب د:B005/m01`. That `mNN`
+morpheme-sense level is finer than `branchId` and joins to nothing here. Until
+it is either promoted with a crosswalk or dropped, channel members are recorded
+at branch granularity and the `mNN` distinction is treated as prose, not as a
+reference.
+
+## 12. Prose and apparatus never mix
+
+Two artifacts per output, always separate:
+
+- **prose** — continuous, single voice, no provenance markers, no headers named
+  after evidence layers;
+- **evidence surface** — addressable per phrase, holding refs, branch IDs,
+  counter-evidence, and coverage.
+
+The prose must be readable end to end with the evidence surface closed. The
+reader is never shown which layer a claim came from, how many readers converged,
+confidence labels, ablation records, or row counts. That apparatus is how the
+prose earned the right to speak. It is not what it says.
+
+</principles>
+
+<commentary_spec>
+# Commentary Specification
+
+Governs ayah-level (layer 2) and surah-level (layer 3) commentary. Layer 2 uses
+its evidence bundle; the active surah workflow uses only completed final ayah
+editorials. They differ in source boundary and in what they synthesize.
+
+[`PRINCIPLES.md`](PRINCIPLES.md) governs this file. Sources and formats are in
+[`docs/SOURCES.md`](docs/SOURCES.md); channel rules in
+[`docs/CHANNELS.md`](docs/CHANNELS.md).
+
+The active Layer 3 production contract is
+[`_surah_commentary/v2/ORCHESTRATION.md`](_surah_commentary/v2/ORCHESTRATION.md). The
+former combined Layer 3 + 2.5 overlay workflow is retired.
+
+Status: active draft, updated 2026-09-11. The editorial-only surah contract
+supersedes the legacy channel-first workflow. Mechanical validation and
+semantic acceptance are separate; consult its implementation status.
+
+---
+
+## 1. What commentary is for
+
+The reader understands the ayah better after reading the prose than before.
+Nothing else is a success criterion.
+
+The reader must never be shown which layer a claim came from, how many readers
+converged, confidence labels, ablation records, row counts, branch identifiers,
+or schema names. That apparatus belongs in the evidence surface
+(`PRINCIPLES.md` §12).
+
+The reader must also not be *destabilised*. A latent reading that is true,
+contained, and fully traceable can still leave the reader less certain of what
+the ayah says than before — that is a failure, and grounding
+(`PRINCIPLES.md` §5) is what prevents it.
+
+---
+
+## 2. The two levels
+
+|  | layer 3 — surah | layer 2 — ayah |
+| --- | --- | --- |
+| question | what is this surah's argument, and what runs through it? | what happens in this ayah, on its own? |
+| selection | **must select what qualifies**; admitted channels coexist without ranking or disambiguation | **must not select**; carries the full local field |
+| time | none; the whole is present at once | **has a before and an after** |
+| pass condition | says something no ayah-by-ayah reading could produce | holds what the surah thesis had to drop |
+
+These are not two sizes of one output. A surah reading that decomposes back into
+its ayahs has failed. An ayah reading that is a slice of the surah thesis has
+failed.
+
+The split is also where no-disambiguation is structurally guaranteed. Layer 3
+does make an admission decision: not every local resonance becomes a surah-wide
+channel. But once channels are admitted, it does not choose one as the correct
+reading, rank them, or collapse incompatible channels into a single winner. With
+two levels, the primary-grounded surah argument can be stated, admitted channels
+can coexist, and the full local field still survives at ayah level.
+
+### 2.1 The surah argument rests on the primary reading
+
+An argument that holds only under latent readings is not yet an argument. State
+it from the primary reading first; latent readings then perturb, deepen, or
+recolour it. If removing every latent reading collapses the thesis, the thesis is
+not ready.
+
+This does not demote channels — see `docs/CHANNELS.md` §4. The argument and the
+channels are separate outputs on separate axes, and for some surahs (S100) the
+channel is the more valuable finding.
+
+### 2.2 Local surprise is not a surah-wide system
+
+Layer 2 states the **local surprise reading** made visible by this ayah's own
+words: the secondary resonance, what it does to the recoverable primary reading,
+and what becomes newly legible. This requires no claim that the image recurs
+elsewhere.
+
+A **surah-wide system** is different. It says how recurring semantic operations
+make several ayahs explain one another and change the reading of the assembly.
+The isolated Layer-2 writer cannot know that. The active surah workflow reads
+only the completed final ayah editorials from one selected v5 analysis. It
+synthesizes the readings present there, preserving their attribution, uncertainty,
+and boundaries. Discovery artifacts, scope ledgers, invitations, separate
+primary-floor data, and network/V11 sources do not enter this workflow. It writes
+a separate surah reading and does not rewrite or overlay the ayah prose.
+
+Layer 2 may **not** carry the surah's architecture or name a recurring
+surah-wide system. The distinction is testable: a local surprise is fully
+anchored in this ayah; a Layer-3 system depends on explanatory recurrence across
+multiple ayahs.
+
+---
+
+## 3. Depth model (build-time only)
+
+Evidence enters at six depths. **Depths never appear in output.** They govern
+what may be written and keep the primary reading structurally protected.
+
+```
+D0  what the grammar forces           QAC + attachments
+D1  what the local form selects       word_analysis `used`      ← the primary reading
+D2  what colors it                    word_analysis `narrowed`
+D3  what activates under context      v12 models + trajectory
+D4  what corroborates                 inter-ayah clusters
+D5  apparatus                         variants, shawādhdh, sound
+```
+
+Depth is distance from the grammatical floor — not confidence, not rank. Ranking
+readings forces a winner, which is disambiguation under another name
+(`PRINCIPLES.md` §3). Two readings at the same depth coexist; nothing at D3 can
+displace D1, because they are not on the same axis.
+
+Depth does inform **grounding**: material further from the floor needs more
+ground laid before it can be spoken.
+
+---
+
+## 4. Known failure modes
+
+Observed during S103 development. Each produced output that was rejected.
+
+| failure | symptom |
+| --- | --- |
+| aggregation-as-synthesis | clustering ayah readings, naming the cluster, calling it surah commentary |
+| provenance-as-structure | sections titled by which layer they came from |
+| list reformatting | N source readings become N prose sections in a different language |
+| decorated primary | one latent branch used as seasoning; the rest of the latent field unused |
+| latent-only thesis | a surah argument that collapses if the latent layer is removed |
+| imported citation | a correct reference the writer knew but the bundle did not contain |
+| sample-as-whole | reading one of eighteen word records, then writing as if from all |
+| ungrounded reveal | a contained, traceable reading delivered before the reader had ground for it |
+
+---
+
+## 5. Output contract
+
+Per ayah and per surah:
+
+- **prose** — continuous, single voice, no provenance markers, no headers named
+  after evidence layers, and no wrapper labels such as `=== THE PROSE ===` when
+  the prose is written to its own file;
+- **evidence surface** — separate, addressable per phrase, holding refs, branch
+  IDs, counter-evidence, coverage, and an explicit mark on every claim that is
+  inference rather than bundle-traceable;
+- **findings index** — *ayah level only.* A flat list of every reading the prose
+  carries, one line per reading, each under its bundle ref, with `[inference]`
+  marking the writer's own readings. It compresses how each reading is said and
+  never how many there are: every `must_integrate` topic appears exactly once,
+  `ledger_only` topics are excluded, and no line may name a reading the prose does
+  not carry. It is a table of contents for the field, not a summary. Layer 3 does
+  not emit one — it selects, so its analogue is the exclusion list. Each
+  coherent local surprise carried by the prose gets an additional
+  `surprise:<id>` synthesis row marked `[supports-primary]` or
+  `[shifts-primary]`; these rows expose how secondary readings relate to the
+  primary instead of asking layer 3 to reconstruct that relation. Active V5
+  appends a machine-readable landing map that maps each workflow-derived
+  semantic ref to an exact prose passage and binds each finding to unique
+  evidence and index passages. This is deterministic traceability, not a claim
+  that software can judge semantic entailment. Wording may change while the
+  structured semantics remain explicit. Evidence carries one compact
+  workflow-derived provenance ledger per finding; the index carries only that
+  ledger's source-record hash. Distinct apparatus landing spans may not
+  overlap; the map is apparatus, not reader prose;
+- **friction** — every point where the instructions were ambiguous,
+  contradictory, unsatisfiable, or silent. Profile-specific style audits may be
+  included here when a prompt profile asks for them, but they must be labelled as
+  style audit rather than friction.
+
+The prose must be readable end to end with the evidence surface closed.
+
+Ayah prose makes its surprise turn explicit in reader language. It first gives a
+recoverable primary floor, then enters through a local word, states the
+secondary resonance, and makes clear what that resonance newly supports or
+shifts. This is part of the continuous prose, not a section headed "surprise" and
+not an apparatus label. When no secondary material survives grounding and
+containment, the writer records that in evidence/friction rather than inventing
+a turn.
+
+Arabic lexical items in authored prose should use structured surface spans so one
+text can render for both reading and listening editions:
+
+```text
+{ar:ٱلْقَلَمِ, tr:el-kalem, gloss:kalem}
+```
+
+Use the span at first mention of an ayah word, and again when the prose returns
+to that word after moving to another word or another paragraph. A renderer may
+collapse repeated fields later; the authored source should preserve `ar`, `tr`,
+and `gloss` whenever the word is doing fresh interpretive work.
+
+For reader display, render transliteration first, with Arabic in parentheses and
+the gloss nearby. For TTS, render the Arabic surface form. For Turkish-only
+display, render the gloss. Raw root skeletons, branch IDs, and letter-by-letter
+root transliterations belong in the evidence surface, not in reader prose.
+
+Prose should begin from reader meaning, then bring in grammar: say what the ayah
+or the word does in plain target language, then name the construction that does
+it, within the same sentence. It should not make the reader cross a technical
+threshold before knowing what is happening.
+
+Layer 3 emits:
+
+- **editorial snapshot** - the complete final editorial texts for one surah;
+- **source-anchored outline** - the main cross-ayah movements supported by those
+  texts, with each image's contribution and qualifications;
+- **composition envelope** - prelude/postlude prose with exact anchors for
+  each selected movement and member; semantic support requires review;
+- **surah reading** — continuous reader prose emitted by the deterministic
+  finalizer, not a summary or ayah catalogue;
+- **publication evidence** — separate mapping from prose spans to packet
+  evidence;
+- **friction** — missing evidence and production limitations.
+
+Contracts and schemas are under `_surah_commentary/v2/`.
+
+---
+
+## 6. Input bundle
+
+Layer 2 uses one canonical bundle per Quran analysis unit. A unit is either a
+numbered ayah or a prefatory basmala. `scripts/build_bundle.py` creates the full,
+auditable source. Active V5 derives its focus docket and lane packets from that
+source, while selected non-focus units receive the uniform lean projection
+defined below. The retired direct prompt-instantiation path instead runs
+`scripts/tier_branch_payloads.py` before `scripts/instantiate.py`; that tierer
+may project only `root_lexicon` dictionary/gloss branch payloads and must
+preserve every root target, branch identity, and non-branch field.
+
+Branch payload tiers are transport projections, not finding ranks or prose
+budgets. Layer 2 has no root, paragraph, or word-count quota. It must state every
+materially distinct, anchored latent activation or surprise with a significant
+reader payoff, including one supported by a compact branch; it must also avoid
+repetition, filler, and available branches that do not change understanding.
+The admission threshold is density-invariant: a finding receives the same test
+in a three-root and a twenty-six-root ayah. Findings may share prose only when
+their mechanism and payoff are the same and every admitted ref still has an
+identifiable landing.
+
+An activated branch must become an explicit reader-facing semantic movement,
+not merely an apparatus reference. In fluent prose, state which word or image
+carries the relevant root meaning, which independent word, relation, or context
+detail activates its exact branch facet, why the contact changes the reading,
+and where the inference stops. Root IDs, branch IDs, and analysis coordinates
+remain outside reader prose. Active V5 records the exact carrier, trigger,
+focus-return refs, branch facet, changed reading, and boundary in structured
+discovery. Its planned scope-composition turn maps every resulting semantic ref
+to exact prose passages. Canonical and editorial wording may change, but those
+structured meanings must remain explicit and mapped.
+
+### 6.1 Unit identity and prefatory basmala
+
+Every current bundle declares `unit_kind`, `surface_ref`, and
+`linguistic_source_ref`. For a `numbered_ayah`, all identities resolve to the
+numbered ayah itself. For `prefatory_basmala`, the surface is the target surah's
+`S:0` Quran-text row and the linguistic source is canonical `1:1`. The builder
+must prove normalized surface equivalence before aliasing. QAC, word-analysis,
+and morpheme-span references remain `1:1:*`; it is forbidden to manufacture
+`S:0:*` linguistic identities. When `S:0` is the focus, those `1:1` coordinates
+remain its focus surface and may not be classified or routed as external
+context.
+
+S1 has no separate `1:0` bundle because its basmala is numbered `1:1`. S9 has
+no prefatory basmala. Every other surah emits `S:0` before numbered units. The
+surah bundle keeps `ayah_refs` / `ayah_bundle_files` numbered-only and exposes
+the complete ordered list separately as `bundle_unit_refs` /
+`bundle_unit_files`.
+
+The standalone prefatory unit bundle carries all intrinsic `1:1` semantic
+evidence plus available target-surah reader walks, wide walks, cross-run
+publication, whole-surah line, and channel material. That full depth is used
+when `S:0` is the focus. Native HFT, inter-ayah completeness, and pericope
+membership are `not_applicable`: those protocols are defined on numbered focus
+ayahs. Existing numbered HFT source runs are not rewritten to claim that they
+included zero; V5 adds `S:0` once to the macro packet at ordinary non-focus
+context depth.
+
+### 6.2 Explicit ordered context
+
+Canonical unit bundles remain context-independent. V5 may prepare an analysis
+composition containing one or more ordered, discontinuous, and cross-surah
+segments, with one or more declared focus units. Each focus is authored one at
+a time; every other selected unit becomes context. This supports, without
+changing the canonical source bundles:
+
+- a basmala focus with a selected surah as context;
+- each numbered ayah as focus with its surah's basmala automatically present;
+- each ayah of one surah as focus under an ordered Fatiha or other recitation
+  lens;
+- arbitrary explicit additions such as one external ayah outside a pericope.
+
+For every numbered focus in S2-S8 and S10-S114, V5 automatically and mandatorily
+adds the host surah's `S:0` bundle once to macro as first-class, ordinary
+surah-preface context. An explicitly declared host `S:0` is normalized to the
+same macro route and is not duplicated. S1 and S9 retain the exceptions above.
+A dedicated basmala analysis instead makes `S:0` the host focus and selects its
+complete numbered host surah as ordinary macro context.
+
+External ayat use explicit context membership. Every ref must be enumerated;
+comma-separated lists are allowed but ranges and whole-surah shortcuts are not.
+These members retain their original Quran identities, enter macro once, and are
+never focus-eligible. The declared host surah, not an external ayah's source
+surah, determines the automatic prefatory basmala.
+
+For ordinary ordered segments, selection order is evidence. Same-surah units in
+the focus's own segment enter the macro packet; cross-segment or cross-surah
+units enter the global packet; micro remains focus-local. Every selected context
+unit, whether native, automatic basmala, or explicit external ayah, is projected
+at HFT non-focus depth: one lean ayah record (`text_ar`, root sequence, and root
+occurrences) plus compact `branch_image_ar` cues grouped under every mapped root
+target. A context root already represented by the current focus inventory does
+not duplicate that inventory.
+
+Before lane prompts are written, V5 extracts candidate and support Quran refs
+from structured fields, serialized JSON, Quran coordinates, and same-surah
+ranges. Evidence is routed to the widest lane those exact refs require. This
+inference cannot move automatic host-basmala or explicit external-member
+evidence out of macro: their membership is defined by the host analysis, while
+their linguistic and source identities remain intact.
+
+The complete selected bundle remains the hash-bound provenance source but is
+not embedded as model-visible context. Context projection must exclude the
+unit's standalone-focus word commentary, full QAC rows, morpheme spans,
+coverage report, full root dictionaries/glosses, prior HFT run, reader walks,
+cross-run publication, inter-ayah rows, whole-surah reading, and channel
+material. Those fields remain available only when that unit itself is the
+focus. This boundary prevents automatic basmala and `--add-ayat` members from
+becoming larger or semantically privileged relative to ordinary context ayat.
+
+One narrow enrichment affects an evidence descriptor, not the context-depth
+boundary. If a supplied candidate cites an unresolved branch and its
+branch-specific trace names exact context refs whose canonical bundles contain
+that branch, V5 may hydrate only that branch's semantic detail, review facets,
+and all matching root occurrences from those refs. Those branch refs participate
+in lane routing before hydration, and source-to-carrier bindings remain separate
+per candidate when several candidates use the same branch. Divergent source
+semantics fail closed. It must not import neighboring branches or standalone-focus
+payloads. Every auxiliary source path, byte count, raw SHA-256, canonical
+SHA-256, unit identity, source pointer, and projected branch field is persisted
+and revalidated.
+
+An analysis ID namespaces `input/`, `raw/`, and `editorial/` paths so native and
+custom readings of the same focus cannot collide. The composition JSON, every
+selected bundle hash, deterministic context-projection hash, projected lane
+packets, and output identities are snapshotted in the unit manifest. Multiple
+focus units may be prepared and orchestrated in parallel. V5 preserves the
+established V2/V3 interpretive and prose standard while separating each of the
+micro, macro, and global lanes into a discovery turn and a planned composition
+follow-up to the same agent. Historical stage, role, and file-writing
+instructions in embedded governing texts do not override V5. Discovery must
+account for every candidate, supplied branch facet, connection, and named
+semantic obligation; accepted and narrowed candidates own dedicated findings,
+while only exact semantic duplicates may share one. The second turn renders
+the fixed finding set and maps its ordered semantic inventory to exact Turkish
+passages. The canonical writer receives compact findings projections rather
+than another copy of the full packets. Canonical and editorial indexes retain
+the semantic passage map, one compact evidence ledger, and one index hash per
+finding. The same live canonical session receives the unchanged V3 editorial
+follow-up plus this preservation contract. There is no automated repair,
+reconciliation, or semantic-adjudication cycle.
+
+Layer 3 freezes only the completed final editorial prose for every numbered
+ayah in one selected v5 analysis. The surah number and complete ayah count are
+operator-supplied scope metadata. Missing or malformed editorial prose aborts;
+no other semantic source is required or permitted. See
+[`_surah_commentary/v2/ORCHESTRATION.md`](_surah_commentary/v2/ORCHESTRATION.md).
+
+</commentary_spec>
+
+<channel_definitions>
+# Channels
+
+A **channel** is a coherent secondary image or system that runs across a surah,
+assembled substantially from branches the primary reading does not select.
+
+Channels are the main vehicle for the surprise this project exists to deliver,
+and they are also the main disorientation risk. This document defines what a
+channel is, when it may be spoken, and how layers 2 and 3 divide the active
+work. The old Layer 2.5 overlay lane is retained only as a historical
+experiment.
+
+Status: updated 2026-09-11. New surah runs use only completed final ayah
+editorials. The former channel-first source contract is historical; the active
+runbook is `_surah_commentary/v2/ORCHESTRATION.md`.
+
+---
+
+## 1. What a channel is
+
+Ayah commentary also carries **local surprise readings**: secondary resonances
+that shift or deepen one ayah without necessarily recurring across the surah.
+They are valuable, and they are not channels merely because they are surprising.
+The distinction is recurrence and system:
+
+- a local surprise makes this ayah newly legible;
+- a channel makes both participating ayahs and the assembled surah newly
+  legible through one recurring image.
+
+Channel membership requires:
+
+1. **Lexical anchor.** Each member is a specific branch of a specific root at a
+   specific `qacMorphemeRef`.
+2. **Non-primary contribution.** The system depends substantially on branches
+   layer 1 did not select. Primary members may support it, but a system made only
+   from primary branches is a paraphrase of the translation.
+3. **Cross-ayah recurrence.** The image has members in more than one ayah. One
+   dense local synthesis remains an ayah reading.
+4. **Coherence.** The members explain one another rather than merely sharing a
+   topic. Rain, water collection, grass, a well, and a pulley form a working
+   irrigation system. Five unrelated words that mention water form a topic.
+5. **Explanatory yield.** The channel changes the reading of its focus ayahs and
+   the whole surah: an unattached opening attaches, a flat sequence becomes one
+   scene, or a closing turn becomes structurally necessary.
+
+A coherent cluster without distinct yield is a **motif**. Motifs are recorded
+and not rendered as channels.
+
+Every accepted channel records how it relates to the primary reading at two
+levels:
+
+- **focus-ayah effect** — what the image makes newly visible in each member ayah;
+- **whole-surah effect** — what changes in the assembled reading.
+
+Both may be `supports-primary` or `shifts-primary`. These are relations, not
+confidence grades. The primary remains recoverable in either case.
+
+### The Fātiḥa water channel
+
+Non-primary branches across the surah give rain, water collection, grass, a
+well, and the crossbeam-and-pulley used to draw water. Together they are a
+provisioning system, and `Rabb` — nurturer, sustainer — is the right name for
+its agent because the surah has already named him that way. What the channel
+yields: `الْعَالَمِينَ` stops being an abstract "worlds" and becomes the full extent
+of what is provisioned; sustenance stops being asserted and becomes depicted.
+
+### The Fātiḥa path channel
+
+`na'budu` carries `mu'abbad` — a road that exists *because* it has been walked
+over and over. `الْعَالَمِينَ` carries sign, landmark — waymarks. `صراط` carries a road
+that does not merely run straight but takes its traveler into itself and moves
+him along it. `أنعمت` carries the station where a traveler is received. `ضالين`
+carries the ownerless animal that has strayed with no keeper, and being buried
+and lost.
+
+What the channel yields: the surah's second half stops being a sequence of
+requests and becomes one picture — a traveler who can only move if helped, a
+guide who goes ahead, signs made legible, a road made by a community's repeated
+walking, and at the end the precise danger being prayed against.
+
+### S100
+
+Under the primary reading the running horses of the opening oath have nothing to
+do with the rest of the surah. The channel is what attaches them — and because
+the attachment is not visible without it, S100 is the case that makes layer 3
+non-optional.
+
+---
+
+## 2. Maturity
+
+A channel is not available for use the moment it is detectable. It has a
+**maturity** at each point in the reading, determined by how much of it the
+reader has actually been given.
+
+| maturity | state | may be spoken |
+| --- | --- | --- |
+| `latent` | one member placed | no |
+| `emerging` | two or more members placed and their relation is statable in one sentence | yes, as a *hint*, entered through this ayah's word |
+| `mature` | enough members placed that the system's shape is visible | yes, as a *reading* |
+| `complete` | all members placed | layer 3 |
+
+Maturity is a property of a channel **at a position in the surah**, not of the
+channel. The same channel is `latent` at 1:2 and `mature` at 1:7. It is computed
+over the reading order, not over the evidence.
+
+Two rules follow:
+
+- **Availability is not permission.** That a branch is in the bundle at 1:1 does
+  not license announcing the channel at 1:1. The evidence exists all at once;
+  the reader does not.
+- **Maturity never runs backwards.** A channel that reached `mature` at 1:6 is
+  not re-hinted at 1:7. It is extended.
+
+Maturity does not gate local surprise readings. Those arise from the ayah's own
+evidence and remain part of layer 2 whether or not a surah channel exists.
+
+---
+
+## 3. Disclosure protocol
+
+### Layer 2 (per ayah)
+
+The isolated layer-2 writer produces local surprise readings and does not
+discover or name a surah channel. The active surah workflow reads the final
+editorial prose containing those local readings and writes a separate surah
+reading; it does not patch channel disclosure back into the Layer-2 prose.
+
+The following maturity protocol belongs to the retired Layer 2.5 overlay
+experiment. Keep it as design history, not as active production instruction.
+
+The overlay lane may mention a channel only at `emerging` or above, and then under three
+constraints:
+
+1. **Enter through this ayah's own word.** The channel is reached from a lexical
+   item present here, never announced from outside. "Bu âyette yol imgesi
+   sürüyor" is an announcement. "`na'budu`nun çağrıştırdığı `mu'abbad`…" is an
+   entry.
+2. **Say only what has matured.** Not the channel's eventual shape — its shape
+   *as of here*. Withholding the rest is not a loss; it is the mechanism.
+3. **Do not state the surah's thesis.** A channel increment is anchored in this
+   ayah's lexis and bounded by maturity. A thesis is neither. Carrying an
+   increment is permitted; carrying the thesis is the forbidden move
+   (`COMMENTARY_SPEC.md` §2).
+
+Worked example — the path channel across 1:6–1:7.
+
+At 1:6, `emerging`. Two members are placed and their relation is one sentence:
+
+> Yol imgesi, `na'budu` kelimesinin çağrıştırdığı `mu'abbad` — yani üzerinde
+> tekrar tekrar yürüne yürüne meydana gelen yol — ile daha önce geçen yol
+> işaretlerinin (`âlemîn`) birleşmesinden doğar: bir yol ve onun yolcusu
+> görünür olur.
+
+At 1:7, `mature`. `أنعمت` adds the station where the traveler is received, and
+only now is the whole configuration sayable:
+
+> `En'amte`, yolcunun vardığı ve karşılandığı konak anlamını da taşır. Böylece
+> ancak yardımla yürüyebilen bir yolcuya yaratıcının önden giderek yol
+> göstermesi (`mâlik`), yol işaretlerinin belirginliği (`âlemîn`), yolun bir
+> topluluk tarafından yürüne yürüne açılması (`na'budu`) ve yolun yalnızca
+> dosdoğru değil, yolcusunu içine alıp ilerleten bir yol oluşu (`sırât`) tek bir
+> görüntüde toplanır. `Dâllîn` ise sahibi olmayan, yolunu kaybetmiş hayvan ve
+> toprağa gömülüp kaybolma imgeleriyle yolcunun en büyük tehlikesini öne çıkarır
+> ve duayı, neyden korunmak istendiğiyle tamamlar.
+
+Note what the 1:7 passage does *not* do: it does not state a thesis about the
+Fātiḥa, and every element it names is a word the reader has already met.
+
+### 3.1 Active production
+
+Layer 2 remains cold and states local surprise readings. The active surah
+workflow freezes only the completed final editorial prose for every numbered
+ayah in one selected v5 analysis. It derives an anchored outline, composes the
+prelude/postlude, and edits the prose in the same composition-agent session.
+Discovery artifacts, scope ledgers, invitations, separate primary-floor data,
+and network/V11 sources are not inputs.
+
+The outline selects the main cross-ayah movements supported by these editorials,
+not an inventory compressing every finding. Significant distinct systems remain
+separate; selection is not disambiguation. Each member image must have a clear
+contribution, source anchor, and preserved qualification. Every ayah is accounted
+for, including ayahs serving only as primary context.
+
+### Layer 3 (per surah)
+
+The prelude prepares concrete expectations; the postlude develops their
+whole-surah payoff. All selected movements and members must land visibly, with
+exact source and prose anchors. Mechanical validation checks coverage and
+lineage; a semantic reviewer checks support, scope, and coherence. The workflow
+does not rewrite Layer 2 or add overlays.
+
+---
+
+## 4. Channels and the argument are different outputs
+
+A channel is the secondary image running through a surah. The argument is what
+the surah does as an assembly. **Both are real and they are different axes.**
+Neither may stand in for the other.
+
+The argument must rest on the primary reading: state it such that it holds with
+every latent reading removed, then let channels deepen and recolour it. If
+deleting the channels collapses the thesis, the thesis is not ready. This rule
+exists because it was violated — a first S103 attempt built the surah level
+entirely out of latent readings and explained nothing to a reader who already
+knew the surah.
+
+The inverse error is to let the argument suppress the channel. For S100 the
+channel *is* the finding; a surah reading that reports only the argument has
+withheld the thing worth knowing.
+
+Layer 3 therefore emits both, distinctly. See
+`_surah_commentary/v2/ORCHESTRATION.md`.
+
+---
+
+## 5. What exists upstream
+
+Channels are **not** discovered in this repository. `latent_activation/network/v3`
+does it deterministically — a branch-level top-k graph mined from the surah-local
+SLM affinity matrix, with Qnet labels attached only *after* clustering, so the
+candidates are discovery rather than classification. Generation is complete:
+89,199 dense candidates and 4.16M sparse paths across 111 eligible surahs.
+
+A blind review pass then turns candidates into readable channels, one markdown
+report per surah, structured as parent channel → subchannel with `Semantic
+invariant`, `Surprising reach`, `Active motifs`, `Ayah anchors`, and `Synthesis`.
+110 surahs have one; S108, S110, S113, S114 do not.
+
+**The quality is there.** Both reference channels in §1 were recovered by this
+pipeline for S1, at finer resolution than the hand sketch:
+
+> **Habitation, Water, and the Living Landscape** → *Water-Secured Encampment and
+> Livelihood*: abundant fresh water `ر ب ب:B013`, water-rich well `ع ل م:B005`,
+> water that secures command of camp `م ل ك:B007`, irrigation of land and people
+> `غ ي ر:B001/m02` → *Sky, Rain, Wind, and Enduring Growth*
+
+> **Movement/course** → landmark and boundary `ع ل م:B002/m02`, middle of the road
+> or valley `م ل ك:B006/m01`, **paved or trodden road `ع ب د:B005/m01`**, leading
+> animal followed by the group `م ل ك:B008` → swallowing `ص ر ط:B002`, burial
+> `ض ل ل:B002` → *Disorientation, Forgetting, and the Stray*
+
+The only member of the water channel not found anywhere in the corpus is the
+pulley/crossbeam; `غ ي ر:B001/m02` "irrigation of land and people" is the nearest.
+
+### 5.1 Reviewed source and compiled ledger
+
+The channel reports are the reviewed source for parent/subchannel membership,
+root/branch motifs, synthesis, and surprising reach. The commentary workflow
+does not repeat that review.
+
+They are prose artifacts rather than downstream ledgers, so the bundle compiler
+adds the missing machine join:
+
+- every `root:branch/mNN` citation is normalized;
+- `motifAnchorMap` resolves it to typed Quran anchors;
+- each anchor carries `qacMorphemeRef` and `rootId`;
+- downstream stable membership drops review-local `mNN` and uses
+  `qacMorphemeRef + rootId + branchId`.
+
+Maturity is intentionally absent upstream because it is a reader-order property,
+not a discovery or review property. The retired combined pass tried to derive it
+while designing additions to Layer 2. The active editorial-only workflow does
+not write those additions; it records source-anchored movements and prose landings.
+
+## 6. Recording
+
+Per surah, the active workflow records:
+
+- `surah-editorial-source-v1`: frozen final editorial texts and source hashes;
+- `surah-editorial-outline-v1`: primary progression, main movements, member
+  contributions and qualifications, and exact editorial anchors;
+- `surah-editorial-composition-v1`: draft/editorial prelude and postlude with
+  exact movement/member prose anchors;
+- `surah-editorial-publication-v1`: approved publication lineage and evidence.
+
+The active output schemas are `editorial-outline-v1.schema.json` and
+`editorial-composition-v1.schema.json` under `_surah_commentary/v2/schemas/`.
+Old channel/discovery schemas are historical. Follow
+`_surah_commentary/v2/ORCHESTRATION.md`.
+
+---
+
+## 7. Open
+
+- **Maturity remains archived.** The four-step scale and `emerging`-hint rule
+  belong to the retired Layer 2.5 overlay experiment. They may be revisited
+later, but the active editorial-only workflow does not depend on them.
+- **Motif identity now joins only through its stable portion.** The compiler
+  resolves `root:branch/mNN` citations to typed Quran anchors. `mNN` remains
+  review-local detail; downstream member identity is recorded at branch
+  granularity as `qacMorphemeRef + rootId + branchId`.
+- **The surah argument remains inference.** Reviewed channels establish the
+  recurring secondary systems, but nothing upstream evidences what the surah
+  does as a primary-grounded assembly.
+- **Four surahs have no review**: S108, S110, S113, S114.
+- **Cross-surah channels** are out of scope. Whether an image running across
+  surahs is the same object as a channel is unresolved.
+- Whether branches with lexicon `status='review'` (e.g. `ع ص ر` B016) may serve
+  as channel members is unresolved; they are currently invisible to every
+  consumer.
+
+</channel_definitions>
+
+<canonical_prompt_v2>
+# Ayah Commentary Prompt — layer 2 (v2)
+
+Read `../../PRINCIPLES.md` and `../../COMMENTARY_SPEC.md` first. They govern.
+This file is the task.
+
+---
+
+## Task
+
+You are given the input bundle for one ayah. Write commentary that makes a
+reader understand **this ayah, on its own terms**.
+
+An ayah is a unit people meet alone. It gets memorised, quoted, written on a
+wall, encountered without its neighbours. Your reader may have no intention of
+reading the whole surah. Write for that person.
+
+Your reader has almost no Arabic grammar and reaches Arabic words through Turkish
+loanwords that have shifted, narrowed, or lost their meaning. Assume nothing is
+obvious. Assume also that they are not fragile — they want the real thing, and
+they want to keep their footing while getting it.
+
+## The question you answer
+
+**What happens here?**
+
+Not "what does the surah argue" — that is layer 3's job, and if you answer it you
+have written the wrong document. Concretely, ayah level covers:
+
+- what this ayah *does* as an act: asserts, suspends, answers, excepts, swears;
+- what its grammar forces before any lexical content is weighed;
+- **what each word contributes to building the ayah**, including everything the
+  reader's languages cannot render — Turkish has no definite article, English
+  cannot double one, and `الصِّرَاطَ الْمُسْتَقِيمَ` has two. That doubling is invisible
+  in every translation your reader will ever see, and it is doing work;
+- what its form selects, and what that selection excludes;
+- what its sound does, if the bundle records it;
+- what genre or pattern the reader recognises before understanding it;
+- what it holds that a whole-surah reading has no room for.
+
+## Your reader does not know how Arabic words work
+
+This is the single most important thing about your audience. Your reader does
+not know that an Arabic surface word belongs to a family of related meanings,
+some of which may become relevant when this ayah and its supplied evidence
+activate them. The local form and context still establish the recoverable
+primary reading. A translation usually renders that local sense, but it cannot
+also show every grounded pressure that related meanings place on the ayah.
+
+Do not teach the false rule that every dictionary meaning of a root is active at
+once. Availability is not activation. Show only the meanings that the bundle
+anchors here, while making clear how one word can legitimately carry more than
+the translation had room to display.
+
+**You must teach this as you go.** Not with terminology — not "polysemy," not
+"branch," not "root field." Show the reader that this word carries more than
+what the translation gave them. Show them what opens when that second meaning is
+heard. Show them what changes in the ayah when two words' secondary meanings
+meet.
+
+If you mention a secondary reading without first making the reader understand
+that the word has this capacity, the reading will feel like decorative ambiguity
+— strange pressure with no payoff. The reader will think you are being poetic
+rather than revealing something real.
+
+A materially distinct activated reading may not be dropped because it is hard to
+explain. Make it intelligible without displacing the primary reading. If the
+available evidence does not let you do that, report the unresolved problem in
+evidence and friction; do not silently omit the reading or decorate the prose
+with an unexplained hint.
+
+## Composition
+
+Before writing, identify the ayah's **resonance set**: zero or more materially
+distinct, locally grounded secondary images or shifts that emerge when one or
+more of this ayah's words are heard with their activated meanings. Look for
+nominations in `channel_subchannels_anchored_here`,
+`v12_focus_trace_hermetic` (especially `context_deltas` and
+`surprising_valid_outliers`), and `v12_reader_walks` (especially
+`retrospective_surprises`). These sources may corroborate one another, but
+source count is not rank and convergence does not choose a winner.
+
+Carry every resonance that survives grounding, containment, and the reader-payoff
+test. If two resonances support different pictures, both remain live. Do not
+merge them merely to give the commentary one elegant center, and do not make the
+most vivid resonance the ayah's hidden "real meaning."
+
+Not every ayah has a resonance worth surfacing. Some ayahs' main contribution is
+a grammatical force, a form selection, a sound pattern, or a single dense word.
+When there is no coherent secondary image, the composition still works — the
+word-built development becomes the center and the closing consolidates what the
+ayah does. No resonance is not no depth. Do not force a surprise that is not
+there, and do not shorten an ayah merely because it is not part of a channel.
+
+The movements below are a planning model, not a fixed section template. Let the
+ayah determine paragraph count and proportion.
+
+### 1. Opening — what the ayah plainly says
+
+Establish the ordinary scene and the reader's first footing. What does a
+competent translation already give? Say it compactly. No technical apparatus
+and normally no secondary meanings yet. This movement is grounding: when the
+resonances arrive later, the reader can still recover what the ayah plainly
+says.
+
+### 2. Word-built development — complete in coverage, proportionate in development
+
+Account for every surface word and meaningful morpheme, but do not give every
+word equal architecture. Before drafting, silently map each word to one of three
+reader-facing treatments:
+
+- **develop it explicitly** when it has a distinct grammatical, lexical, formal,
+  sound, or resonance payoff;
+- **integrate it into another sentence or phrase movement** when its work is
+  supportive rather than independent;
+- **carry it transparently in the plain reading** when the bundle supplies no
+  distinct payoff beyond what that reading already makes visible.
+
+Every word is therefore accounted for. Not every word receives its own paragraph,
+root excursion, or technical label. Prose space follows explanatory need, not
+truth rank. A longer treatment does not make one word or reading more correct.
+A significant finding receives enough space to make its mechanism and reader
+payoff clear. Never compress such a finding into a passing clause merely to
+shorten the commentary; compact treatment is for supportive work with no
+independent payoff.
+
+Sustained word development should do at least one of three things:
+
+- **ground the primary reading** — make the reader feel the ayah's plain
+  meaning more precisely than a translation could;
+- **create tension** — show the reader that a word carries more than what they
+  heard, that the translation chose one meaning and set others aside;
+- **prepare one or more resonances** — lay the ground so each later surprise
+  feels earned, not announced.
+
+`must_integrate` topics from `word_analysis` must all appear in the commentary.
+But appearing does not mean getting a dedicated paragraph — a `must_integrate`
+topic can land in a sentence within a paragraph organized around something else.
+What matters is that the reading is present and the `reader_payoff` is
+delivered, not that each topic gets equal architectural weight.
+
+When you introduce a word's secondary meaning, **first show the reader that
+the word has this capacity**. Not "bu kelimenin bağlı olduğu alan da X'i
+taşır" — that is analyst's shorthand the reader cannot use. Instead, begin with
+the translated sense, show the related meaning that is actually activated here,
+and explain the change it makes in this sentence. Show the word opening without
+turning its entire dictionary family into the ayah's meaning.
+
+### 3. Local resonances — what the words reveal together
+
+This is the payoff. For each member of the resonance set, say what image,
+operation, or shift emerges and what it changes. Every materially distinct
+resonance gets an identifiable prose landing. Resonances may share a paragraph
+only when they share the same mechanism and reader payoff.
+
+Do not present this as a separate "channel section" or label it as a secondary
+reading. It is part of the continuous prose. Enter through one of the ayah's own
+words that the reader has already met in the development section. Show how this
+word's activated meaning meets another word or reorients the ayah, and what
+picture emerges here.
+
+Then say what changed. What can the reader now see that a flat translation hid?
+What does this ayah do that was invisible before?
+
+If a resonance supports the primary reading, say so: the ayah's plain meaning
+is not replaced but deepened. If it shifts it, say what shifts: the reader's
+understanding of what the ayah is doing has changed direction.
+
+These relations are not grades. A resonance that supports the primary and one
+that shifts its frame can coexist. If two resonances cannot be reconciled, give
+the reader both without a verdict.
+
+**What you must not do:**
+
+- Name the image as an established surah-wide system. Not "bu sûrede bir yol
+  imgesi sürüyor." You are writing in isolation; you do not know whether this
+  image recurs. Keep it local.
+- Assert maturity or channel status. No maturity has been adjudicated.
+- State the surah's thesis.
+- Call one resonance the strongest, deepest, governing, central, or real one.
+
+### 4. Closing — what the reader now sees
+
+Consolidate what the ayah does — both its plain sense and everything the
+word-built reading made newly visible. Return to the primary reading without
+collapsing the resonance set into a verdict. The reader should finish knowing
+what the ayah plainly says and all the distinct ways its grounded resonances now
+remain live.
+
+### When there is no resonance
+
+Some ayahs will not have a coherent secondary image worth surfacing. The
+channel material may be sparse, the HFT may show no grounded outliers, or the
+secondary branches may not form a coherent picture.
+
+In that case, skip movement 3. Give full attention to the ayah's act, grammar,
+syntax, form selection, semantic precision, sound, genre, and relations among
+its words. The commentary is still valuable: a strong primary reading with
+precise, connected word analysis is better than a forced surprise. Record in the
+evidence coverage and friction that no coherent secondary resonance survived
+grounding and containment.
+
+## What counts as an activated reading
+
+The bundle's `word_analysis` topics carry `commentary_obligation`:
+
+- **`must_integrate`** — obligatory. Every one appears in your commentary.
+- **`candidate`** — review every one. Carry every candidate that is anchored,
+  materially distinct, and has a significant reader payoff not already
+  expressed. Omit only repetition, availability without changed understanding,
+  or material that fails grounding and containment. Candidate status is not a
+  rank and resonance fit is not an admission test. Record every omission and
+  its reason in the evidence surface; conflict with another live reading is
+  never a reason to omit.
+- **`ledger_only`** — apparatus, not reader prose. Retain it in evidence when it
+  explains a boundary or rejection; do not create a findings-index obligation
+  from it.
+
+Beyond `word_analysis`, these bundle fields carry activated readings:
+
+- **`v12_reader_responses`** — retired strict staged focus responses, when
+  present. They are the truer record of what appeared before and after context.
+- **`v12_focus_trace_hermetic`** — a reconstructed, not strictly staged,
+  before/after signal. Use `baseline_models`, `context_deltas`, and
+  `surprising_valid_outliers`; never call them `stage_00` or `stage_01`.
+  Outliers are not errors by default, especially when they preserve an anchored
+  secondary split-root activation.
+- **`v12_reader_walks`** and **`v12_reader_walks_wide`** — retrospective
+  surprises are the highest-value material at this level. They are literally
+  the shape of understanding arriving late.
+- **`v12_cross_run_publication`** — compact coverage/priority check. Do not
+  copy as prose; use as a coverage audit.
+- **`channel_subchannels_anchored_here`** — first-pass, single-reader channel
+  review material anchored at this ayah. It has no accept/reject decision, no
+  second reader, and no maturity. It may nominate a local connection among this
+  ayah's words; it does not establish a recurring channel. Mark a
+  channel-informed synthesis as the writer's inference in the evidence surface.
+- **`channel_generated_outputs`** — lists external quran-data files (candidate
+  graphs, family inventories, path families). If your run gives file access,
+  read only the exact listed files and only when channel detail is necessary.
+  Do not browse the repository generally. If the files are not accessible or
+  inlined, treat the manifest as awareness and do not invent their contents.
+  These are candidate/family/path evidence, not an adjudicated channel ledger.
+- **Branch inventories** — support explanations; they create no standalone
+  prose obligation.
+
+Branch availability, source repetition, and reader convergence do not by
+themselves activate a prose reading. Activation requires an anchored mechanism
+and a changed understanding for the reader.
+
+## You must not select
+
+This is the defining constraint of this level.
+
+Layer 3 is allowed — required — to build a thesis, and a thesis excludes. You are
+the opposite. **You carry the full field.** Every activated reading in the bundle
+that survives review appears here, including ones no surah thesis could use.
+Including ones that pull in different directions.
+
+If two activated readings do not reconcile, say both. Do not adjudicate, do not
+rank, do not pick. Readings at the same depth coexist.
+
+Completeness governs findings; proportion governs exposition. You may give one
+reading more sentences because it takes more work to explain, but never because
+you have chosen it as more correct. Ordering is for reader comprehension, not
+authority. The resonance set may contain several independent or countervailing
+lines, and the prose must leave all of them recoverable.
+
+This is where the no-disambiguation guarantee actually lives. If you select, the
+guarantee is gone and nothing else in the system restores it.
+
+## Integrate without collapsing
+
+Your reader already has the catalogue. They cannot use it — assembling activated
+readings into something that means anything is exactly the work that requires
+the Arabic they do not have.
+
+Connect readings that share a mechanism and reader payoff. Keep readings
+separate when their mechanisms, payoffs, or directions differ. Do not force the
+whole resonance set into one master image for elegance. One section per source
+reading is aggregation; one winning synthesis that absorbs distinct live
+readings is selection. Both fail.
+
+## Keep the reader's feet on the ground
+
+Grounding (`PRINCIPLES.md` §5) is a hard constraint here, not a matter of tone.
+
+- The primary reading stays reachable at every point. The reader must never lose
+  track of what the ayah plainly says.
+- Every resonance enters through a word already in front of the reader, in a form
+  they have already been given. Nothing is announced from above.
+- Containment is at sentence level: `X — as Y`, never `not X but Y`.
+
+An ungrounded reveal is a rejected output even when every claim in it is true and
+traceable.
+
+## Before and after
+
+Ayah level has something surah level cannot have: **the ayah existed before its
+neighbours did.**
+
+If the bundle contains `v12_reader_responses`, use the staged responses for what
+the ayah yielded in isolation and how that changed as context was revealed,
+including any `changed_reading{before, after}` movement.
+
+If the bundle contains `v12_focus_trace_hermetic`, use it as a reconstructed
+replacement signal: `baseline_models` for what the ayah can yield alone,
+`context_deltas` for what later context activates, sharpens, weakens, or revises,
+and `surprising_valid_outliers` for what remains anchored but unexpected. It is
+not a strict staged reveal, so do not call it `stage_00` or `stage_01`.
+
+When both source families exist, staged responses remain the truer reveal
+record. Preserve any live tension between them in evidence rather than making
+their agreement a confidence vote.
+
+Render this as reading experience, not as measurement:
+
+> Bu âyet tek başına gösterildiğinde … Sonra hüsran açıldı, sonra istisna — ve
+> iki okuma da yerine oturdu.
+
+Never as: *"three readers at exploratory confidence converged on two models."*
+
+If the reader walks record *retrospective surprises* — readings that only became
+visible after a later ayah — those are the highest-value material at this level.
+
+**If both staged reader responses and Hermetic Focus Trace are absent, say so in
+the evidence coverage and friction, never in reader prose.** Do not infer what
+they would have contained.
+
+## What earlier selection dropped
+
+You are the terminus for every upstream exclusion actually supplied to this
+ayah (`PRINCIPLES.md` §6).
+
+- If the bundle contains Layer 1 `consideredNotPrimary` readings, carry every one
+  that is activated and grounded here.
+- Do not infer an exclusion artifact that is absent. Record the coverage gap.
+- Do not look for later Layer 3 exclusions. Canonical Layer 2 is not rerun with
+  knowledge of a later thesis.
+
+They are not errors and not leftovers. They are readings that a selection had no
+room for.
+
+## Voice — say what the word does
+
+Write in positive predication. State what a word does and let what it does not do
+be inferred.
+
+Containment (`PRINCIPLES.md` §4) is phrased as a prohibition, so it is tempting
+to discharge it by narrating what is *not* happening. And the `reader_payoff`
+fields in the bundle are themselves written as analyst's shorthand. Do not
+inherit that register.
+
+In Turkish, stacked `-maz / -mez / değildir / yoktur` constructions read as
+hedging and break the flow. Turkish carries contrast through `zaten`, `hem… hem`,
+`-ken`, `ayrıca`, and through simple juxtaposition.
+
+| instead of | write |
+| --- | --- |
+| Bu âyet bir şey bildirmez, bir şey ister. | Bu âyet bir istektir. |
+| Türkçede bunun karşılığı yoktur. | Türkçe burada tek bir "ilet" ile yetinir. |
+| Âyet yolun düz olduğunu ileri sürmüyor; hangi yol olduğunu söylüyor. | Âyet hangi yol olduğunu söyler: o yol, o bilinen dosdoğru olan. |
+
+Use an explicit negative only to correct a likely misconception, protect the
+primary sense from replacement, or preserve live counter-evidence. If no
+explicit negative is needed, say in the friction report that there was no live
+misconception requiring one.
+
+## Arabic word surfaces
+
+Mark Arabic lexical items with a structured span when the Arabic word matters:
+
+```text
+{ar:ٱلْعَادِيَاتِ, tr:el-âdiyât, gloss:koşup atılanlar}
+```
+
+`ar` is the Arabic surface form for TTS, `tr` is the Turkish-readable
+transliteration, `gloss` is the target-language meaning.
+
+Use the span at first mention of an ayah word, and again when the prose returns
+to that word after another word or another paragraph. Inside one short local
+sequence, a Turkish label or transliteration is enough.
+
+Do not display roots as spaced Arabic letters or letter-by-letter transliteration
+in prose. Anchor root discussion to the surface word:
+`{ar:ٱلْعَادِيَاتِ, tr:el-âdiyât, gloss:koşup atılanlar} kelimesinin bağlı
+olduğu kök alanı...`, not `ʿ-d-w kökü...`. Raw roots, branch IDs, and root
+skeletons belong in the evidence surface.
+
+## Structure notes
+
+Section headers named after evidence layers are forbidden. Let the ayah's shape
+decide. A single-word ayah and a twelve-word ayah do not have the same shape.
+The four composition movements are an internal drafting sequence, not four
+mandatory prose headings or four fixed-size paragraphs.
+
+Organize paragraphs around acts, relations, and reader payoffs rather than
+around a serial list of words. A phrase may carry several words together, but a
+word with distinct work must still have an identifiable landing. Likewise,
+several resonances may form one movement without becoming one adjudicated
+reading.
+
+Do not open a paragraph with "isim cümlesi", "edat", "tamlama başı", "yalın
+hâl", or similar technical scaffolding unless the same sentence has already
+given the reader a concrete meaning to hold. Prefer: "Âyet önce hamdi Allah'a
+verir; bunu fiille değil, sabit bir ad cümlesiyle yapar."
+
+**There is no length limit.** Write what the ayah's own work takes. Length is a
+consequence, never a target, and it is never a reason to leave something out —
+carrying the full field outranks brevity at this level.
+
+Absence goes in the coverage note, never in the prose. If a source is missing,
+the reader does not learn that; the reviewer does.
+
+## Failure modes
+
+- **Slicing the surah thesis.** If your ayah commentary reads as one third of the
+  surah reading, you have produced nothing new.
+- **Selecting.** Choosing the most interesting activated reading and dropping the
+  rest. This is the one unrecoverable error.
+- **Cataloguing.** Correct, complete, unconnected. The reader is exactly where
+  they started.
+- **Ungrounded reveal.** True, contained, traceable, and delivered before the
+  reader had ground for it.
+- **Reporting the measurement.** Reader ids, stage numbers, confidence words,
+  convergence counts. Render the experience; suppress the instrument.
+- **Skipping an available walk.** Reader walks are where much of the latent
+  material actually is. When present, review them; when absent, record the gap
+  rather than inventing their contribution.
+- **Burying the surprise in word analysis.** A channel-informed nomination or
+  HFT outlier identifies a coherent secondary image. The prose spends twelve
+  paragraphs on word-by-word grammar, then mentions the image in passing. The
+  finding was present but not organized around.
+- **Decorative ambiguity.** A secondary branch is mentioned in passing — the
+  reader does not know why it matters, does not know the word carries multiple
+  meaning families, and cannot tell whether the author is revealing something
+  real or being poetic. Strange pressure with no payoff. This is a failure of
+  pedagogy, not of content.
+- **Resonance monopoly.** One vivid resonance becomes the organizing truth and
+  absorbs or displaces other grounded lines. A memorable reading is still a
+  selection if competing live readings disappear.
+- **Equal-paragraph completeness.** Every word receives the same amount of prose
+  merely to prove coverage. Coverage is complete; development is proportionate.
+- **Thin no-resonance commentary.** No channel-like image appears, so grammar,
+  form, sound, and word relations are rushed. Absence of resonance changes the
+  center of depth, not the required depth.
+- **Lexical overactivation.** Every available dictionary branch is presented as
+  live. The bundle must activate a meaning; root membership alone does not.
+
+## Pass condition
+
+Someone who already knows this ayah well reads your text and learns something
+they could not have got from a translation plus a dictionary — the thing they
+learn does not depend on having read the rest of the surah — and at no point are
+they unsure what the ayah says.
+
+A secondary condition: a reader who does *not* know this ayah well finishes the
+text understanding both what the ayah plainly says and why certain words carry
+more than the translation showed. They should not feel confused by unexplained
+secondary meanings or wonder why the author mentioned something strange.
+
+The output also passes only if every surface word is accounted for, every
+required or admitted finding has a prose landing, and every materially distinct
+grounded resonance remains recoverable without being ranked or collapsed into a
+winner.
+
+## Output
+
+Produce four separate artifacts:
+
+1. **Prose** — continuous prose in the target language, single voice, no
+   provenance markers, evidence-layer headings, or wrapper label when written to
+   its own file.
+2. **Evidence surface** — addressable per prose phrase, mapping every claim to
+   bundle refs, retaining counter-evidence, marking the writer's inference
+   distinctly, and ending with a coverage note stating what was missing.
+3. **Findings index** — one line per reading the prose carries, under its bundle
+   ref, with `[inference]` on the writer's own readings. Every `must_integrate`
+   topic appears exactly once, `ledger_only` topics are excluded, and no line
+   names a reading absent from prose. Add one `surprise:<id>` synthesis row for
+   every member of the resonance set, marked `[supports-primary]` or
+   `[shifts-primary]`. These are relations, not ranks.
+4. **Friction** — headed exactly `=== PROMPT FRICTION ===`, reporting ambiguity,
+   contradiction, missing evidence, or invented rules. End with a `Density audit`
+   recording counts for `must_integrate` topics, admitted candidates, distinct
+   resonances, prose landings, and any shared landing with its justification.
+
+Never interleave prose and apparatus. If an orchestrator requests separate
+files, the paths supply the artifact names; do not add wrapper labels to prose
+or evidence.
+
+</canonical_prompt_v2>
+
+<lane_packet_json>
+{"analysis_context":{"analysis_id":"s090-regular-20260912","external_ayat_refs":["1:2","1:3","1:4","1:5","1:6","1:7"],"focus_ref":"90:20","host_surah":90,"lane_context_refs":[],"ordered_context_refs":["90:1","90:2","90:3","90:4","90:5","90:6","90:7","90:8","90:9","90:10","90:11","90:12","90:13","90:14","90:15","90:16","90:17","90:18","90:19","1:2","1:3","1:4","1:5","1:6","1:7"]},"branch_registry":[{"boundary":"Dalın çekirdeği kapatma ve kuşatmadır; kapı, ateş ve kişi grubu yalnızca bu çekirdeğin belirli gerçekleşmeleridir.","branch_kind":"mixed_non_bare","branch_ref":"root_000036/B001","candidate_links":[{"candidate_id":"cand_22e41b3f03fa57a5e852","lane":"micro"},{"candidate_id":"cand_e5f47f493d0d9e4e3b42","lane":"micro"}],"focus_root_occurrences":[{"lemma_ar":"مُّؤْصَدَة","morph_features":"STEM|POS:ADJ|LEM:m~u&oSadap|ROOT:wSd|F|INDEF|NOM","morpheme_role":"STEM","pos":"ADJ","qac_ref":"90:20:3:1","qac_word_ref":"90:20:3","surface_ar":"مُّؤْصَدَةٌۢ"}],"gloss":"kuşatıp kapatma","lexicon_identity_status":"accepted","registry":"focus","review_facets":[{"facet_id":"F001","role":"core","source_fields":["distinctive_facets[F001]"],"statements":{"statement":"Bir şey başka bir şeyi içine alır, üstüne kapanır ve onun dışarıya açılmasını engeller."}},{"facet_id":"F002","role":"specialization","source_fields":["distinctive_facets[F002]"],"statements":{"statement":"Kapı söz konusu olduğunda eylem, kapıyı kapalı duruma getirmeyi anlatır."}},{"facet_id":"F003","role":"associated_use","source_fields":["distinctive_facets[F003]"],"statements":{"statement":"Bir topluluğun üzerine kapatma ve ateşin üzerlerine kapatılmış olması, çekirdeğin yapıya bağlı kullanımlarıdır."}}],"root_ar":"و ص د","root_id":"root_000036","root_occurrence_qualification":"These are focus-ayah occurrences mapped to the same root. They identify possible surface carriers but do not prove that this branch sense is active. Activation still requires an independent linguistic or contextual trigger.","semantic_detail":{"applicability":"Dalın hem kapsama hem de kapalı duruma getirme öğelerini birlikte taşıyan en kısa genel karşılığıdır.","boundary_detail":"Dalın çekirdeği kapatma ve kuşatmadır; kapı, ateş ve kişi grubu yalnızca bu çekirdeğin belirli gerçekleşmeleridir.","branch_image_ar":"الإطباق والإغلاق على الشيء","concept_gloss":"kuşatıp kapatma","contextual_glosses":[{"applicability":"Kapının açık durumdan kapalı duruma getirildiği eylem bağlamında kullanılır.","error_profile":{"adds":null,"collision":null,"fit":"narrowing","loses":"Dalın kapı dışındaki kuşatma ve üzerini kapatma kapsamını taşımaz.","preserves":"Kapalı duruma getirme işlemini açık biçimde korur."},"facet_ids":["F002"],"text":"kapıyı kapatmak","usage_role":"contextual"},{"applicability":"Bir topluluğun ya da kapatılmış ateşin dışarıya açılmayacak biçimde çevrelendiği bağlamlarda kullanılır.","error_profile":{"adds":null,"collision":null,"fit":"narrowing","loses":"Genel ad anlamını ve kapı kapatma kullanımını dışarıda bırakır.","preserves":"Bir şeyin başkalarının üzerine kapanması ve onları içeride tutması korunur."},"facet_ids":["F003"],"text":"üzerlerine kapatılmış","usage_role":"contextual"}],"definition":"Bir şeyi başka bir şeyin üzerine kapatmak ya da onu bütünüyle kuşatıp dışarıya açılmasını engellemektir. Bu çekirdek, kapı kapatma gibi eylemlerde ve kapatılmış şeyleri niteleyen yapılarda gerçekleşir.","distinctive_facets":[{"facet_id":"F001","role":"core","statement":"Bir şey başka bir şeyi içine alır, üstüne kapanır ve onun dışarıya açılmasını engeller."},{"facet_id":"F002","role":"specialization","statement":"Kapı söz konusu olduğunda eylem, kapıyı kapalı duruma getirmeyi anlatır."},{"facet_id":"F003","role":"associated_use","statement":"Bir topluluğun üzerine kapatma ve ateşin üzerlerine kapatılmış olması, çekirdeğin yapıya bağlı kullanımlarıdır."}],"identity_rationale":"Kaynak ifadesi, bir şeyin başka bir şeyi içine alıp üstüne kapanması çekirdeğini; kapı kapatma, birilerinin üzerine kapatma ve kapatılmış ateş örnekleriyle birlikte açıkça verir. Hazırlanan dal bu ortak kapatma ve kuşatma anlamını doğru biçimde temsil eder.","lexical_glosses":[{"lexical_unit_id":"lu_001","rendering_kind":"ordinary","target_gloss":"kapatıp örten şey"},{"lexical_unit_id":"lu_002","rendering_kind":"ordinary","target_gloss":"kuşatıp kapatma"},{"lexical_unit_id":"lu_003","rendering_kind":"ordinary","target_gloss":"üzerlerine kapattı"},{"lexical_unit_id":"lu_004","rendering_kind":"ordinary","target_gloss":"kapıyı kapattı"},{"lexical_unit_id":"lu_005","rendering_kind":"ordinary","target_gloss":"üzerlerine kapatılmış ateş"},{"lexical_unit_id":"lu_006","rendering_kind":"ordinary","target_gloss":"kapatıp örten şey için kullanılan ad"}],"lexicalization_note":"Tanım genel kapatma çekirdeğini korur; kapıyı kapatma, insanların üzerine kapatma ve kapatılmış ateş kullanımlarını yalnızca bağlı yapılara özgü gerçekleşmeler olarak ayırır.","neighbor_coverage_note":"Bütün adaylar değerlendirildi; yayımlanan üç karşılaştırma kapı kapatma, açıklığı tıkama ve erişimi engelleme ile karışabilecek sınırları gösterir, diğer adaylar ise daha uzak sonuçları ya da ayrı dal anlamlarını yineler.","neighbor_distinctions":[{"boundary_match":"partial","distinction":"Komşu dal kapı üzerinde gerçekleşen özel bir eylemdir; odak dalın çekirdeği ise daha genel kuşatıp kapatma ilişkisidir ve kapı dışındaki nesne ya da katılımcılara da uygulanır.","focus_only":"Odak dal, bir şeyi kuşatıp üzerine kapanma ile kapatılmış nesne ve durumları da kapsar.","gloss":"kapıyı çekip kapatma","neighbor_only":"Komşu dal özellikle kapıyı geri itip kapatma eylemine bağlıdır.","neighbor_ref":"root_000279/B007","relation_type":"near_synonym","shared_zone":"Her iki dal da kapının kapalı duruma getirilmesini anlatabilir."},{"boundary_match":"partial","distinction":"Odak dalın tanımlayıcı yönü kuşatıp üzerine kapanmadır; komşu dalda ise belirleyici işlem boşluğu tıkamak veya ağzı sıkıca bağlamaktır.","focus_only":"Odak dal, bir şeyin başka bir şeyin üzerine kapanması veya onu kuşatması işlemini öne çıkarır.","gloss":"açıklığı tıkayıp kapatma","neighbor_only":"Komşu dal, bir açıklığın tıkaçla ya da sıkıca bağlanarak ortadan kaldırılmasını öne çıkarır.","neighbor_ref":"root_000884/B002","relation_type":"near_neighbor","shared_zone":"İki dalda da açıklığın kalmaması ve dışarıyla bağlantının kesilmesi sonucu bulunur."},{"boundary_match":"partial","distinction":"Erişimin engellenmesi odak dalda kapatmanın sonucu olabilir; komşu dalda ise sonuç doğrudan çekirdektir ve kuşatıp kapanma şart değildir.","focus_only":"Odak dal somut biçimde kuşatıp kapatma işlemini bildirir.","gloss":"erişimi engelleme","neighbor_only":"Komşu dalın çekirdeği, belirli bir kapatma biçimi aramadan erişimi engellemektir.","neighbor_ref":"root_000294/B001","relation_type":"near_neighbor","shared_zone":"Kapatma, içeridekine erişimi engelleyebilir ve böylece iki anlam aynı sonuçta buluşabilir."}],"source_phrase_ar":"شيء يشتمل على الشيء (maqayis); الإِصد والإِصاد والوصاد بمنزلة المطبق (ayn); أصدت عليهم وأوصدته (ayn); نار مُؤصدة أي مطبقة (ayn); آصدت الباب إذا أغلقته (sihah)","source_summary":"Kaynaklar, anlamı bir şeyin diğerini kuşatıp kapatması çevresinde birleştirir; ad biçimleri kapatan şeyi, eylem biçimleri ise kapatma işlemini belirtir.","sources":["MQ","AY","SI"],"what_is_ar":"يدخل فيه الإِصاد والإِصد بمعنى المطبق؛ وآصدت الباب؛ ونار مُؤصدة","what_is_not_ar":"الحظيرة والقميص والفناء والموضع"},"support_links":["sup_2ad0759d7cbea2ff3d71","sup_8dafb8b4c3a07e67517e"]},{"boundary":"Bu dal bir kapatma eylemini değil, içindekileri çevreleyen ve tutan alan türünü anlatır.","branch_kind":"bare","branch_ref":"root_000036/B002","candidate_links":[],"focus_root_occurrences":[{"lemma_ar":"مُّؤْصَدَة","morph_features":"STEM|POS:ADJ|LEM:m~u&oSadap|ROOT:wSd|F|INDEF|NOM","morpheme_role":"STEM","pos":"ADJ","qac_ref":"90:20:3:1","qac_word_ref":"90:20:3","surface_ar":"مُّؤْصَدَةٌۢ"}],"gloss":"çevrili barınak","lexicon_identity_status":"accepted","registry":"focus","review_facets":[{"facet_id":"F001","role":"core","source_fields":["distinctive_facets[F001]"],"statements":{"statement":"Alan, içinde bulunanları çevreler ve sınırları içinde bir arada tutar."}},{"facet_id":"F002","role":"source_variant","source_fields":["distinctive_facets[F002]"],"statements":{"statement":"Kaynak ifadesinde bu alan, ağıl ya da ona denk bir çevrili yer olarak açıklanır."}}],"root_ar":"و ص د","root_id":"root_000036","root_occurrence_qualification":"These are focus-ayah occurrences mapped to the same root. They identify possible surface carriers but do not prove that this branch sense is active. Activation still requires an independent linguistic or contextual trigger.","semantic_detail":{"applicability":"İçindekileri çevreleyip bir arada tutan alanın yalın ve genel Türkçe karşılığıdır.","boundary_detail":"Bu dal bir kapatma eylemini değil, içindekileri çevreleyen ve tutan alan türünü anlatır.","branch_image_ar":"الحظيرة المشتملة على ما فيها","concept_gloss":"çevrili barınak","contextual_glosses":[{"applicability":"Çevrili alanın hayvan barındıran bir yer olarak kullanıldığı bağlamlarda doğal karşılıktır.","error_profile":{"adds":null,"collision":null,"fit":"narrowing","loses":"İçeride tutulanların mutlaka hayvan olmadığı daha genel alan kapsamını daraltır.","preserves":"Çevrili ve barındırıcı alan niteliğini korur."},"facet_ids":["F002"],"text":"ağıl","usage_role":"contextual"}],"definition":"İçinde bulunanları çevreleyerek bir arada tutan, barınak veya ağıl niteliğindeki çevrili alandır.","distinctive_facets":[{"facet_id":"F001","role":"core","statement":"Alan, içinde bulunanları çevreler ve sınırları içinde bir arada tutar."},{"facet_id":"F002","role":"source_variant","statement":"Kaynak ifadesinde bu alan, ağıl ya da ona denk bir çevrili yer olarak açıklanır."}],"identity_rationale":"Kaynak ifadesi, içindekileri çevreleyip barındırdığı için bu adla anılan bir çitli ya da çevrili alanı doğrudan tanımlar. Hazırlanan dalın çevreleme ve içeride tutma çerçevesi bu ifadeyle uyumludur.","lexical_glosses":[{"lexical_unit_id":"lu_007","rendering_kind":"ordinary","target_gloss":"içindekileri çevreleyen barınak veya ağıl"}],"lexicalization_note":"Tanım yalın alan adını esas alır ve başka dallardaki kapatma eylemi ya da özel söz öbeklerini bu anlama katmaz.","neighbor_coverage_note":"Tüm adaylar incelendi; hayvan ağılı, çitli alan ve somut çevreleme ile yapılan üç karşılaştırma dalın yer türü ve kapsam sınırını yeterince belirginleştirir.","neighbor_distinctions":[{"boundary_match":"partial","distinction":"Komşu dal hayvan barındırma bakımından özelleşmiştir; odak dalın kaynak ifadesi ise çevreleme ve içeride tutmayı temel alır, içeridekilerin türünü sınırlamaz.","focus_only":"Odak dal, içindekileri çevreleyen alanı barındırdığı şeyin türünü zorunlu kılmadan adlandırır.","gloss":"hayvan ağılı","neighbor_only":"Komşu dal özellikle sığır veya koyun gibi hayvanların barındığı ağılı anlatır.","neighbor_ref":"root_000897/B003","relation_type":"near_synonym","shared_zone":"Her iki dal da çevrili bir barınak veya ağıl alanını gösterebilir."},{"boundary_match":"partial","distinction":"Odak dal kapsayıcı alan adı olarak daha yalındır; komşu dal yapı malzemesini, duvarı ve çevrili yerin farklı kullanım alanlarını ayrıca kapsar.","focus_only":"Odak dal, alanın içindekileri kapsayıp bir arada tutma işlevini öne çıkarır.","gloss":"çitli alan","neighbor_only":"Komşu dal, ahşap, kamış veya ağaçtan yapılabilen duvarı ve bu duvarla kurulan çevrili yeri de kapsar.","neighbor_ref":"root_000338/B001","relation_type":"near_synonym","shared_zone":"İki dal da içindekileri sınırlandıran çevrili alanı anlatır."},{"boundary_match":"partial","distinction":"Odak dal bir yer türüdür; komşu dalın çekirdeği ise o yeri meydana getirebilen çevreleme ilişkisidir.","focus_only":"Odak dal, çevreleme sonucunda oluşan barınak niteliğindeki alanı adlandırır.","gloss":"çevreleme","neighbor_only":"Komşu dal, bir şeyi duvarla veya başka unsurlarla çevreleme eylem ve durumunu anlatır.","neighbor_ref":"root_000372/B001","relation_type":"near_neighbor","shared_zone":"Çevrili bir alan, somut çevreleme işleminin sonucudur."}],"source_phrase_ar":"الحظيرة أُصيدة سميت بذلك لاشتمالها على ما فيها (maqayis); الأُصيدة كالحظيرة لغة في الوصيدة (sihah)","source_summary":"Kaynaklar, bu adı içindekileri çevreleyip tutan ağıl benzeri bir alan için verir ve adlandırmayı alanın kapsayıcı niteliğiyle ilişkilendirir.","sources":["MQ","SI"],"what_is_ar":"يدخل فيه الأُصيدة بمعنى الحظيرة أو الوصيدة لاشتمالها على ما فيها","what_is_not_ar":"الإغلاق والقميص والفناء والموضع"},"support_links":[]},{"boundary":"Giysi anlamı dalın çekirdeğidir; giysiye sahip olma ve onu giydirme eylemi çekirdekle eşitlenmemelidir.","branch_kind":"mixed_non_bare","branch_ref":"root_000036/B003","candidate_links":[],"focus_root_occurrences":[{"lemma_ar":"مُّؤْصَدَة","morph_features":"STEM|POS:ADJ|LEM:m~u&oSadap|ROOT:wSd|F|INDEF|NOM","morpheme_role":"STEM","pos":"ADJ","qac_ref":"90:20:3:1","qac_word_ref":"90:20:3","surface_ar":"مُّؤْصَدَةٌۢ"}],"gloss":"kız çocuklarının giydiği küçük veya içe giyilen gömlek","lexicon_identity_status":"qualified","registry":"focus","review_facets":[{"facet_id":"F001","role":"core","source_fields":["distinctive_facets[F001]"],"statements":{"statement":"Kız çocuklarının giydiği küçük bir gömlek veya giysi altına giyilen gömlek türüdür."}},{"facet_id":"F002","role":"associated_use","source_fields":["distinctive_facets[F002]"],"statements":{"statement":"Bir kız çocuğunun bu giysiye sahip olduğu, giysi adıyla kurulan bağlı bir yapıda belirtilir."}},{"facet_id":"F003","role":"extension","source_fields":["distinctive_facets[F003]"],"statements":{"statement":"Türemiş eylem, birine bu küçük gömleği giydirmeyi anlatır."}}],"root_ar":"و ص د","root_id":"root_000036","root_occurrence_qualification":"These are focus-ayah occurrences mapped to the same root. They identify possible surface carriers but do not prove that this branch sense is active. Activation still requires an independent linguistic or contextual trigger.","semantic_detail":{"applicability":"Kaynaklardaki küçük gömlek ve giysi altına giyilen gömlek çeşitlerini, kız çocuklarıyla ilişkisini koruyarak seçenekli biçimde yansıtır.","boundary_detail":"Giysi anlamı dalın çekirdeğidir; giysiye sahip olma ve onu giydirme eylemi çekirdekle eşitlenmemelidir.","branch_image_ar":"الأُصدة التي تلبسها الصبايا","concept_gloss":"kız çocuklarının giydiği küçük veya içe giyilen gömlek","contextual_glosses":[{"applicability":"Kullanıcının bağlamdan kız çocuğu olduğunun anlaşıldığı giysi anlatımlarında doğal karşılıktır.","error_profile":{"adds":null,"collision":null,"fit":"narrowing","loses":"Kız çocuklarına özgü kullanım bilgisini açıkça söylemez.","preserves":"Giysinin küçük bir iç gömleği olmasını korur."},"facet_ids":["F001"],"text":"küçük iç gömleği","usage_role":"general"},{"applicability":"Kız çocuğunun söz konusu giysiye sahip olduğunu bildiren bağlı yapıda kullanılır.","error_profile":{"adds":null,"collision":null,"fit":"none","loses":null,"preserves":"Kız çocuğu ile sahip olduğu küçük iç gömleği arasındaki ilişkiyi eksiksiz korur."},"facet_ids":["F002"],"text":"küçük iç gömleği olan kız","usage_role":"contextual"},{"applicability":"Birine bu özel giysi türünün giydirildiği türemiş eylem bağlamında kullanılır.","error_profile":{"adds":null,"collision":null,"fit":"none","loses":null,"preserves":"Giysiyi başka birine giydirme işlemini ve giysi türünü korur."},"facet_ids":["F003"],"text":"küçük iç gömleğini giydirmek","usage_role":"contextual"}],"definition":"Kız çocuklarının giydiği küçük bir gömlek ya da başka bir giysinin altına giyilen gömlektir. Bu giysiye sahip olma ve birine onu giydirme, ayrı yapılarda kurulan bağlı kullanımlardır.","distinctive_facets":[{"facet_id":"F001","role":"core","statement":"Kız çocuklarının giydiği küçük bir gömlek veya giysi altına giyilen gömlek türüdür."},{"facet_id":"F002","role":"associated_use","statement":"Bir kız çocuğunun bu giysiye sahip olduğu, giysi adıyla kurulan bağlı bir yapıda belirtilir."},{"facet_id":"F003","role":"extension","statement":"Türemiş eylem, birine bu küçük gömleği giydirmeyi anlatır."}],"identity_rationale":"Kaynak ifadesi kız çocuklarının giydiği küçük gömleği veya giysi altına giyilen gömleği temel alır, fakat aynı iddia bu giysiye sahip olma ve birine bu giysiyi giydirme yapılarını da içerir. Dal korunabilir; giysinin kendisi çekirdek, sahiplik ve giydirme ise yapıya bağlı kullanımlar olarak ayrılmalıdır.","lexical_glosses":[{"lexical_unit_id":"lu_008","rendering_kind":"ordinary","target_gloss":"kız çocuklarının giydiği küçük veya içe giyilen gömlek"},{"lexical_unit_id":"lu_009","rendering_kind":"ordinary","target_gloss":"küçük iç gömleği olan kız"},{"lexical_unit_id":"lu_010","rendering_kind":"ordinary","target_gloss":"ona küçük iç gömleğini giydirdi"}],"lexicalization_note":"Tanım küçük iç gömleğini merkezde tutar; giysiye sahip olma ve birine onu giydirme anlamlarını yalnızca ilgili söz öbekleri ve türemiş eylemle sınırlar.","neighbor_coverage_note":"Adayların tamamı değerlendirildi; küçük kısa giysi, iç kat ve genel gömlek karşılaştırmaları bu özel çocuk giysisinin biçim, kullanım ve kullanıcı sınırlarını en açık biçimde gösterir.","neighbor_distinctions":[{"boundary_match":"partial","distinction":"Odak dal gömlek ve içe giyilme özellikleriyle sınırlıdır; komşu dal ise kesim ve gövdedeki duruş bakımından farklı kısa giysileri de içine alır.","focus_only":"Odak dal, kız çocuklarının giydiği veya başka giysinin altına giyilen küçük gömleği anlatır.","gloss":"kısa çocuk giysisi","neighbor_only":"Komşu dal küçük gömleğin yanında gövdeye asılı duran, bele kadar uzanan başka kısa giysi türlerini de kapsar.","neighbor_ref":"root_001039/B015","relation_type":"near_synonym","shared_zone":"Her iki dal da kız çocuklarıyla ilişkilendirilebilen küçük veya kısa bir üst giysisini gösterebilir."},{"boundary_match":"partial","distinction":"Odak dal çocuklara özgü küçük gömlek türüdür; komşu dalın kullanıcı, konum ve giysi biçimi kapsamı daha geniştir.","focus_only":"Odak dal giysiyi küçük kızların giydiği küçük bir gömlek olarak sınırlar.","gloss":"giysi altına giyilen ince kat","neighbor_only":"Komşu dal iki giysi arasında, zırh altında veya kadınların bedeninin başka bölümünde kullanılan daha geniş bir iç giysi sınıfıdır.","neighbor_ref":"root_001102/B007","relation_type":"near_synonym","shared_zone":"İki dal da başka bir giysinin altında giyilen bir giysiyi anlatabilir."},{"boundary_match":"partial","distinction":"Genel gömlek karşılığı odak dalın kullanıcı ve kullanım sınırlarını siler; odak dal da komşunun genel ve aktarmalı kapsamının tümünü taşımaz.","focus_only":"Odak dal küçük boyut, içe giyilme ve kız çocuklarıyla kullanım sınırlarını taşır.","gloss":"gömlek","neighbor_only":"Komşu dal genel gömlek ve giyme anlamlarının yanı sıra örtü ve görev gibi aktarmalı kullanımları da kapsar.","neighbor_ref":"root_001256/B001","relation_type":"near_synonym","shared_zone":"Odak giysi genel gömlek sınıfının küçük ve özel bir türüdür."}],"source_phrase_ar":"الأُصدة قميص صغير يلبسه الصبايا (maqayis); صبية ذات مُؤصد (maqayis); الأُصدة قميص يلبس تحت الثوب وتلبسه صغار الجواري (sihah); أصدته تأصيدا (sihah)","source_summary":"Kaynaklar küçük kızların giydiği, kimi açıklamada başka bir giysinin altında bulunan küçük gömleği bildirir; ayrıca bu giysiye sahip olma ve onu giydirme yapıları aynı iddiada yer alır.","sources":["MQ","SI"],"what_is_ar":"يدخل فيه الأُصدة وهي قميص صغير أو قميص يلبس تحت الثوب وتلبسه صغار الجواري","what_is_not_ar":"الإغلاق والحظيرة والفناء والموضع"},"support_links":[]},{"boundary":"Dal yalnızca avlu anlamıdır; kapı, giriş veya kapatma anlamları bu dala taşınmaz.","branch_kind":"bare","branch_ref":"root_000036/B004","candidate_links":[{"candidate_id":"cand_696be8209b3bc8641035","lane":"micro"}],"focus_root_occurrences":[{"lemma_ar":"مُّؤْصَدَة","morph_features":"STEM|POS:ADJ|LEM:m~u&oSadap|ROOT:wSd|F|INDEF|NOM","morpheme_role":"STEM","pos":"ADJ","qac_ref":"90:20:3:1","qac_word_ref":"90:20:3","surface_ar":"مُّؤْصَدَةٌۢ"}],"gloss":"avlu","lexicon_identity_status":"accepted","registry":"focus","review_facets":[{"facet_id":"F001","role":"core","source_fields":["distinctive_facets[F001]"],"statements":{"statement":"Bir yapıyla bağlantılı açık alanı, başka bir deyişle avluyu belirtir."}},{"facet_id":"F002","role":"source_variant","source_fields":["distinctive_facets[F002]"],"statements":{"statement":"Bu anlam, aynı avlu adının dilsel bir biçim değişkesi olarak aktarılır."}}],"root_ar":"و ص د","root_id":"root_000036","root_occurrence_qualification":"These are focus-ayah occurrences mapped to the same root. They identify possible surface carriers but do not prove that this branch sense is active. Activation still requires an independent linguistic or contextual trigger.","semantic_detail":{"applicability":"Yapıyla bağlantılı açık alan anlamını tam ve doğal biçimde karşılar.","boundary_detail":"Dal yalnızca avlu anlamıdır; kapı, giriş veya kapatma anlamları bu dala taşınmaz.","branch_image_ar":"الفناء والوصيد","concept_gloss":"avlu","contextual_glosses":[{"applicability":"Açık alanın bir eve bağlı olduğunun bağlamda belirtilmesi gerektiğinde kullanılır.","error_profile":{"adds":null,"collision":null,"fit":"narrowing","loses":"Ev dışındaki yapılara bağlı avlu olasılığını sınırlar.","preserves":"Avlunun bir yapıyla bağlantılı açık alan olmasını korur."},"facet_ids":["F001"],"text":"evin avlusu","usage_role":"contextual"}],"definition":"Bir evin ya da yapının çevresinde veya önünde bulunan açık alan, yani avludur.","distinctive_facets":[{"facet_id":"F001","role":"core","statement":"Bir yapıyla bağlantılı açık alanı, başka bir deyişle avluyu belirtir."},{"facet_id":"F002","role":"source_variant","statement":"Bu anlam, aynı avlu adının dilsel bir biçim değişkesi olarak aktarılır."}],"identity_rationale":"Kaynak ifadesi sözcüğü doğrudan avlu anlamındaki başka bir biçimin dilsel çeşidi olarak tanımlar. Hazırlanan dalın avlu odağı bu tek kaynaklı ve açık tanımla tam olarak örtüşür.","lexical_glosses":[{"lexical_unit_id":"lu_011","rendering_kind":"ordinary","target_gloss":"avlu"}],"lexicalization_note":"Tanım yalın biçimin avlu anlamıyla sınırlıdır ve komşu biçimin kapı gibi ek anlamlarını ya da başka söz öbeklerini içeri almaz.","neighbor_coverage_note":"Bütün komşular gözden geçirildi; ev avlusu, evin önü ve genel açık alanla ilgili üç yakın karşılaştırma avlu çekirdeğini ve kapı anlamının dışarıda kalışını açıklar.","neighbor_distinctions":[{"boundary_match":"partial","distinction":"Avlu bağlamında anlamlar örtüşür, ancak komşu dalın kapı kapsamı odak dalda bulunmaz; bu nedenle tam eş anlamlılık yalnızca avlu kullanımında geçerlidir.","focus_only":null,"gloss":"ev avlusu veya kapısı","neighbor_only":"Komşu dal avlunun yanı sıra evin kapısını da gösterebilir ve alanı eve bitişik oluşuyla açıklar.","neighbor_ref":"root_001653/B002","relation_type":"near_synonym","shared_zone":"Her iki dal da evle bağlantılı avlu anlamında kullanılabilir."},{"boundary_match":"partial","distinction":"Odak dal genel avlu adıdır; komşu dal alanın evin yanlarına uzanması ve önündeki genişlik gibi mekânsal ayrıntıları ayrıca taşır.","focus_only":"Odak dal yalın biçimde avlu alanını adlandırır.","gloss":"evin avlusu ve önü","neighbor_only":"Komşu dal evin çevresine uzanan alanı ve özellikle evin önündeki genişliği de vurgular.","neighbor_ref":"root_001181/B002","relation_type":"near_synonym","shared_zone":"İki dal evle bağlantılı avlu veya açık alan anlamında buluşur."},{"boundary_match":"partial","distinction":"Gösterilen yer büyük ölçüde örtüşse de odak dal belirli bir avlu adının biçim çeşididir; komşu dalın sözlüksel kapsamı evin sahası olarak bağımsızdır.","focus_only":"Odak dal kaynakta başka bir avlu adının söyleyiş çeşidi olarak belirlenmiştir.","gloss":"evin açık alanı","neighbor_only":"Komşu dal evin saha ve açık alanını daha genel bir yer adıyla ifade eder.","neighbor_ref":"root_000756/B001","relation_type":"near_synonym","shared_zone":"Her iki dal bir evin avlusunu veya açık sahasını gösterebilir."}],"source_phrase_ar":"الأَصيد لغة في الوصيد وهو الفناء (sihah)","source_summary":"Tek kaynak, biçimi avlu anlamındaki eşdeğer bir söyleyiş çeşidi olarak verir.","sources":["SI"],"what_is_ar":"يدخل فيه الأَصيد لغة في الوصيد وهو الفناء","what_is_not_ar":"الإغلاق والحظيرة والقميص والموضع"},"support_links":["sup_478a1c2d24f86d005faf"]},{"boundary":"Dağlar arasındaki çukur alan yer türüdür; belirli yeri gösteren uzun ifade ise bu çekirdeğe bağlı ayrı bir sözlüksel kullanımdır.","branch_kind":"mixed_non_bare","branch_ref":"root_000036/B005","candidate_links":[],"focus_root_occurrences":[{"lemma_ar":"مُّؤْصَدَة","morph_features":"STEM|POS:ADJ|LEM:m~u&oSadap|ROOT:wSd|F|INDEF|NOM","morpheme_role":"STEM","pos":"ADJ","qac_ref":"90:20:3:1","qac_word_ref":"90:20:3","surface_ar":"مُّؤْصَدَةٌۢ"}],"gloss":"dağlar arasındaki çukur alan","lexicon_identity_status":"qualified","registry":"focus","review_facets":[{"facet_id":"F001","role":"core","source_fields":["distinctive_facets[F001]"],"statements":{"statement":"Dağlar arasında yer alan çukur veya çanak biçimli doğal alanı belirtir."}},{"facet_id":"F002","role":"associated_use","source_fields":["distinctive_facets[F002]"],"statements":{"statement":"Daha uzun bir sözlüksel ifade, belirli bir yerin adı olarak kullanılır."}}],"root_ar":"و ص د","root_id":"root_000036","root_occurrence_qualification":"These are focus-ayah occurrences mapped to the same root. They identify possible surface carriers but do not prove that this branch sense is active. Activation still requires an independent linguistic or contextual trigger.","semantic_detail":{"applicability":"Yalın biçimin doğal yer türünü eksiksiz karşılar; belirli yer kullanımı ayrıca bağlamsal olarak gösterilir.","boundary_detail":"Dağlar arasındaki çukur alan yer türüdür; belirli yeri gösteren uzun ifade ise bu çekirdeğe bağlı ayrı bir sözlüksel kullanımdır.","branch_image_ar":"الموضع بين الجبال","concept_gloss":"dağlar arasındaki çukur alan","contextual_glosses":[{"applicability":"Dağlar arasında kalan çukur ve çanak biçimli doğal alanın kısa bağlamsal karşılığıdır.","error_profile":{"adds":null,"collision":null,"fit":"none","loses":null,"preserves":"Dağlarla çevrili çukur alan görünümünü doğal bir Türkçe ifadeyle korur."},"facet_ids":["F001"],"text":"dağ çanağı","usage_role":"contextual"},{"applicability":"Daha uzun sözlüksel ifadenin özel bir yeri gösterdiği kullanım açıklanırken kullanılır.","error_profile":{"adds":null,"collision":null,"fit":"narrowing","loses":"Yerin dağlar arasındaki çukur alanla sözlüksel bağlantısını açıkça taşımaz.","preserves":"İfadenin tek ve belirli bir yere gönderimde bulunmasını korur."},"facet_ids":["F002"],"text":"belirli bir yer","usage_role":"explanatory"}],"definition":"Dağlar arasında bulunan çukur veya çanak biçimli bir alandır. Daha uzun bir sözlüksel yapıda ise belirli bir yeri gösterir.","distinctive_facets":[{"facet_id":"F001","role":"core","statement":"Dağlar arasında yer alan çukur veya çanak biçimli doğal alanı belirtir."},{"facet_id":"F002","role":"associated_use","statement":"Daha uzun bir sözlüksel ifade, belirli bir yerin adı olarak kullanılır."}],"identity_rationale":"Kaynak ifadesi iki bağlı kullanımı birlikte verir: dağlar arasındaki çukur alanı belirten yalın biçim ve belirli bir yeri gösteren daha uzun ifade. Hazırlanan dal kullanılabilir, ancak yer türü ile özel bir yeri belirten sözlüksel kullanım tek ve belirsiz bir yer anlamıymış gibi birleştirilmemelidir.","lexical_glosses":[{"lexical_unit_id":"lu_012","rendering_kind":"ordinary","target_gloss":"belirli bir yer adı"},{"lexical_unit_id":"lu_013","rendering_kind":"ordinary","target_gloss":"dağlar arasındaki çukur alan"}],"lexicalization_note":"Tanım yalın biçimin dağlar arasındaki çukur alan anlamıyla daha uzun ifadenin belirli yer kullanımını açıkça ayırır.","neighbor_coverage_note":"Tüm adaylar değerlendirildi; alçak arazi, tepe arası çöküntü, dağ geçidi ve özel dağ adı karşılaştırmaları doğal yer türü ile belirli yer kullanımının sınırlarını gösterir.","neighbor_distinctions":[{"boundary_match":"partial","distinction":"Odak dal dağlık çevre ve çukur alanla sınırlıdır; komşu dal farklı yükselti türleri ve benzetmeli beden bölgeleri arasında da kullanılabilir.","focus_only":"Odak dal dağlarla çevrili çukur bir alanı belirtir.","gloss":"iki yükselti arasındaki alçak yer","neighbor_only":"Komşu dal iki yükselti, kum sırtı veya başka beden çıkıntıları arasındaki alçak boşluğa kadar uzanan daha geniş bir kapsama sahiptir.","neighbor_ref":"root_001176/B004","relation_type":"near_synonym","shared_zone":"Her iki dal da dağlar veya yükseltiler arasında kalan alçak bir yeri gösterebilir."},{"boundary_match":"partial","distinction":"Odak dal çanak veya çukur alanı vurgular; komşu dalın ayırt edici yönü düşen şeyin yöneldiği alçak ve eğimli yer olmasıdır ve ayrıca araç parçasına uzanır.","focus_only":"Odak dal dağlar arasındaki çukur doğal alanı yer türü olarak adlandırır.","gloss":"iki tepe arasındaki alçak yer","neighbor_only":"Komşu dal iki tepe arasındaki eğimli alçak yerin yanı sıra tahılın düştüğü değirmen bölümünü de kapsar.","neighbor_ref":"root_000402/B003","relation_type":"near_neighbor","shared_zone":"İki dal, yükseltiler arasında bulunan alçak bir doğal alanı anlatabilir."},{"boundary_match":"partial","distinction":"Odak dal kapalıca bir çukur alan görünümündedir; komşu dal ise aralık, geçiş yolu veya akış koridoru olmasıyla ayrılır.","focus_only":"Odak dal dağlar arasında kalan çukur veya çanak biçimli alanı anlatır.","gloss":"dağ geçidi","neighbor_only":"Komşu dal iki dağ arasındaki yarık, geçit, yol veya su yatağı niteliğini öne çıkarır.","neighbor_ref":"root_000797/B004","relation_type":"near_neighbor","shared_zone":"Her iki dal da iki dağ arasındaki bir arazi biçimini gösterebilir."},{"boundary_match":"thematic_only","distinction":"Odak dalın yalın biçiminde tanımlanabilir bir arazi türü vardır; komşu dal ise yalnızca belirli bir coğrafi varlığı adlandırır.","focus_only":"Odak dal bir doğal yer türünü ve buna bağlı belirli yer kullanımını içerir.","gloss":"belirli dağ veya yer adı","neighbor_only":"Komşu dal belirli bir dağın veya yerin özel adıdır.","neighbor_ref":"root_001243/B009","relation_type":"thematic","shared_zone":"İki dal da dağlık bir coğrafyada belirli bir yere gönderimde bulunabilir."}],"source_phrase_ar":"ذات الأَصاد موضع (sihah); الأَصاد ردهة بين أجبل (sihah)","source_summary":"Tek kaynak, yalın biçimi dağlar arasındaki çukur alan olarak açıklar ve aynı öğeyi içeren daha uzun ifadeyi belirli bir yer için kaydeder.","sources":["SI"],"what_is_ar":"يدخل فيه الأَصاد علما على موضع أو ردهة بين أجبل","what_is_not_ar":"الإغلاق والحظيرة والقميص والفناء"},"support_links":[]},{"boundary":"Dal yalnızca ışık ve aydınlatma anlamını kapsar; ateş, çiçek ve yol işareti ayrı dallardadır.","branch_kind":"bare","branch_ref":"root_001564/B001","candidate_links":[],"focus_root_occurrences":[{"lemma_ar":"نَار","morph_features":"STEM|POS:N|LEM:naAr|ROOT:nwr|F|INDEF|NOM","morpheme_role":"STEM","pos":"N","qac_ref":"90:20:2:1","qac_word_ref":"90:20:2","surface_ar":"نَارٌ"}],"gloss":"ışık ve aydınlatma","lexicon_identity_status":"accepted","registry":"focus","review_facets":[{"facet_id":"F001","role":"core","source_fields":["distinctive_facets[F001]"],"statements":{"statement":"Görmeyi sağlayan aydınlık ve ışık, dalın ad çekirdeğini oluşturur."}},{"facet_id":"F002","role":"extension","source_fields":["distinctive_facets[F002]"],"statements":{"statement":"Bir şeyin ışık vermesi, aydınlanması veya aydınlatılması eylem alanını oluşturur."}}],"root_ar":"ن و ر","root_id":"root_001564","root_occurrence_qualification":"These are focus-ayah occurrences mapped to the same root. They identify possible surface carriers but do not prove that this branch sense is active. Activation still requires an independent linguistic or contextual trigger.","semantic_detail":{"applicability":"Işığın kendisiyle ışık verme, aydınlanma ve aydınlatma eylemlerinin tamamını karşılayan genel anlatımdır.","boundary_detail":"Dal yalnızca ışık ve aydınlatma anlamını kapsar; ateş, çiçek ve yol işareti ayrı dallardadır.","branch_image_ar":"الضياء والإضاءة","concept_gloss":"ışık ve aydınlatma","contextual_glosses":[{"applicability":"Bir nesnenin ya da ortamın ışık kazanmasını anlatan geçişsiz eylem bağlamlarında kullanılır.","error_profile":{"adds":null,"collision":null,"fit":"narrowing","loses":"Işığın ad olarak kullanımı ile başkasını aydınlatma anlamını dışarıda bırakır.","preserves":"Işık kazanma ve aydınlık duruma gelme eylemini korur."},"facet_ids":["F002"],"text":"aydınlanmak","usage_role":"contextual"},{"applicability":"Bir kaynağın başka bir nesneye ya da ortama ışık vermesini anlatan geçişli eylem bağlamlarında kullanılır.","error_profile":{"adds":null,"collision":null,"fit":"narrowing","loses":"Işığın ad anlamını ve kendiliğinden aydınlanma kullanımını dışarıda bırakır.","preserves":"Başka bir şeyi ışıklı duruma getirme eylemini korur."},"facet_ids":["F002"],"text":"aydınlatmak","usage_role":"contextual"}],"definition":"Işığın kendisini, bir şeyin ışık vermesini ya da başka bir şeyi aydınlatmasını anlatır.","distinctive_facets":[{"facet_id":"F001","role":"core","statement":"Görmeyi sağlayan aydınlık ve ışık, dalın ad çekirdeğini oluşturur."},{"facet_id":"F002","role":"extension","statement":"Bir şeyin ışık vermesi, aydınlanması veya aydınlatılması eylem alanını oluşturur."}],"identity_rationale":"Kaynak ifadesi dalı doğrudan ışık, aydınlık ve bir şeyin ışık vermesi üzerinden kurar. Geçici çerçeve bu çekirdeği doğru yansıtır ve ateşin kendisini, çiçeği ya da yalnızca belirgin bir işareti bu anlama katmaz.","lexical_glosses":[{"lexical_unit_id":"lu_001","rendering_kind":"ordinary","target_gloss":"ışık, aydınlık"},{"lexical_unit_id":"lu_002","rendering_kind":"ordinary","target_gloss":"ışık vermek, aydınlanmak veya aydınlatmak"},{"lexical_unit_id":"lu_003","rendering_kind":"ordinary","target_gloss":"aydınlatma; günün ağarması"}],"lexicalization_note":"Tanım yalın dalın ışık ve aydınlatma çekirdeğiyle sınırlıdır; başka yapılara özgü anlamlar içeri alınmaz.","neighbor_coverage_note":"Bütün adaylar değerlendirildi; yalnızca doğrudan eşdeğerlik, sabah aydınlığı sınırı ve ateşle karışma ihtimalini açıklayan üç ilişki seçildi.","neighbor_distinctions":[{"boundary_match":"exact","distinction":"Verilen kartlarda kapsamı ayıran bir koşul, katılımcı veya sonuç bulunmaz; farklı örnek dizileri dal sınırını değiştirmez.","focus_only":null,"gloss":"ışık ve ışık verme","neighbor_only":null,"neighbor_ref":"root_000919/B001","relation_type":"synonym","shared_zone":"Her iki dal da ışığın kendisini ve bir şeyin ışık vermesi ya da başka bir şeyi aydınlatması eylemini kapsar."},{"boundary_match":"partial","distinction":"Odak dal genel ışık ve aydınlatmadır; komşu dal ise sabahın ağarması gibi karanlık sonrası açılma bağlamına daha sıkı bağlıdır.","focus_only":"Her türlü ışık, ışık verme ve aydınlatma bağlamını kapsar.","gloss":"ağarma ve aydınlanma","neighbor_only":"Özellikle karanlıktan sonra beliren gün ışığına ve yüzün parlamasına uzanır.","neighbor_ref":"root_000712/B002","relation_type":"near_synonym","shared_zone":"İki dal da ışığın görünür hale gelmesi ve ortamın aydınlanması alanında buluşur."},{"boundary_match":"partial","distinction":"Odak dal ışığın kendisini ve aydınlatmayı anlatır; komşu dal ise ışığın kaynağı olan yanan ateşi ve ona bağlı damgalama kullanımını anlatır.","focus_only":"Maddi bir ateş bulunmadan da ışık ve aydınlanma gerçekleşebilir.","gloss":"ışık ile ateş","neighbor_only":"Yanma, hareketli alev ve ateşle yapılan hayvan damgasını kapsar.","neighbor_ref":"root_001564/B002","relation_type":"near_neighbor","shared_zone":"Ateş ışık verdiği için iki dal aydınlık üretme noktasında kesişir."}],"source_phrase_ar":"النور الضياء والفعل نار وأنار ونورا وإنارة واستنار أي أضاء (ayn)؛ النور: الضياء؛ أنار الشئ واستنار بمعنى أي أضاء؛ التنوير: الإنارة؛ التنوير: الإسفار (sihah)؛ أصل صحيح يدل على إضاءة واضطراب وقلة ثبات؛ النور والنار سميا بذلك من طريقة الإضاءة (maqayis)","source_summary":"Kaynaklar ışık ve aydınlık anlamında, ayrıca ışık verme ve aydınlatma eylemlerinde birleşir; günün ağarması da aydınlanmanın bağlamsal bir gerçekleşmesi olarak verilir.","sources":["AY","SI","MQ"],"what_is_ar":"يدخل فيه النور بمعنى الضياء، وأفعال نار وأنار واستنار وأضاء، والتنوير بمعنى الإنارة والإسفار.","what_is_not_ar":"لا يدخل فيه النار المتقدة، ولا نور الشجر، ولا المنارة والعلامة إلا من جهة الإضاءة."},"support_links":[]},{"boundary":"Yanan ateş çekirdektir; hayvan damgası ateşle yakma işlemine bağlı özel kullanımdır, yalın ışık değildir.","branch_kind":"mixed_non_bare","branch_ref":"root_001564/B002","candidate_links":[{"candidate_id":"cand_22e41b3f03fa57a5e852","lane":"micro"},{"candidate_id":"cand_696be8209b3bc8641035","lane":"micro"}],"focus_root_occurrences":[{"lemma_ar":"نَار","morph_features":"STEM|POS:N|LEM:naAr|ROOT:nwr|F|INDEF|NOM","morpheme_role":"STEM","pos":"N","qac_ref":"90:20:2:1","qac_word_ref":"90:20:2","surface_ar":"نَارٌ"}],"gloss":"yanan ateş ve ateşle yapılan hayvan damgası","lexicon_identity_status":"accepted","registry":"focus","review_facets":[{"facet_id":"F001","role":"core","source_fields":["distinctive_facets[F001]"],"statements":{"statement":"Işık veren ve hızlı, kararsız hareket gösteren yanan ateş temel anlamdır."}},{"facet_id":"F002","role":"specialization","source_fields":["distinctive_facets[F002]"],"statements":{"statement":"Hayvan üzerinde ateşle yakılarak oluşturulan damga, ateş çekirdeğine bağlı özel anlamdır."}},{"facet_id":"F003","role":"associated_use","source_fields":["distinctive_facets[F003]"],"statements":{"statement":"Hayvanın soyu ile damgasını ilişkilendiren söz, damga anlamına bağlı kalıplaşmış kullanımdır."}}],"root_ar":"ن و ر","root_id":"root_001564","root_occurrence_qualification":"These are focus-ayah occurrences mapped to the same root. They identify possible surface carriers but do not prove that this branch sense is active. Activation still requires an independent linguistic or contextual trigger.","semantic_detail":{"applicability":"Yalın ateş çekirdeğini ve yalnız hayvan damgası yapılarında görülen yakma temelli özel anlamı birlikte gösterir.","boundary_detail":"Yanan ateş çekirdektir; hayvan damgası ateşle yakma işlemine bağlı özel kullanımdır, yalın ışık değildir.","branch_image_ar":"النار المتقدة والسمة بها","concept_gloss":"yanan ateş ve ateşle yapılan hayvan damgası","contextual_glosses":[{"applicability":"Yanmakta olan ateşin kendisinin anlatıldığı yalın bağlamlarda kullanılır.","error_profile":{"adds":null,"collision":null,"fit":"narrowing","loses":"Hayvan damgasını ve bu damgaya bağlı kalıplaşmış sözü dışarıda bırakır.","preserves":"Yanan ve ışık yayan ateş çekirdeğini korur."},"facet_ids":["F001"],"text":"ateş","usage_role":"general"},{"applicability":"Bir hayvanın ateşle yakılarak oluşturulmuş ayırt edici işaretinin sorulduğu bağlamlarda kullanılır.","error_profile":{"adds":null,"collision":null,"fit":"narrowing","loses":"Yalın ateş anlamını ve kalıplaşmış soy-damga sözünü dışarıda bırakır.","preserves":"Hayvana ateşle yapılan damga anlamını korur."},"facet_ids":["F002"],"text":"yakma damgası","usage_role":"contextual"}],"definition":"Yanarak ışık ve ısı yayan, hareketli alevleri bulunan ateşi anlatır. Aynı dalda, hayvana ateşle yakılarak yapılan damgaya ve bu damga üzerinden kurulan bir söze bağlı özel kullanımlar da vardır.","distinctive_facets":[{"facet_id":"F001","role":"core","statement":"Işık veren ve hızlı, kararsız hareket gösteren yanan ateş temel anlamdır."},{"facet_id":"F002","role":"specialization","statement":"Hayvan üzerinde ateşle yakılarak oluşturulan damga, ateş çekirdeğine bağlı özel anlamdır."},{"facet_id":"F003","role":"associated_use","statement":"Hayvanın soyu ile damgasını ilişkilendiren söz, damga anlamına bağlı kalıplaşmış kullanımdır."}],"identity_rationale":"Kaynak ifadesi yanan ateşi, bu adın ışık ve hızlı hareketle bağlantısını ve hayvanın ateşle yapılan damgasını birlikte verir. Geçici çerçeve bu çok parçalı yapıyı doğru yansıtır; damga kullanımı ateşin temel tanımına değil, ona bağlı ayrı bir kullanıma yerleştirilmelidir.","lexical_glosses":[{"lexical_unit_id":"lu_004","rendering_kind":"ordinary","target_gloss":"yanan ateş"},{"lexical_unit_id":"lu_005","rendering_kind":"ordinary","target_gloss":"ateşler"},{"lexical_unit_id":"lu_006","rendering_kind":"ordinary","target_gloss":"devenin ateşle yapılmış damgası"},{"lexical_unit_id":"lu_007","rendering_kind":"ordinary","target_gloss":"hayvanın soyu damgasından belli olur"}],"lexicalization_note":"Yalın ateş anlamı ile hayvana ait damga ve atasözü yapıları ayrı tutulur; özel yapılar genel ateş anlamına yayılmaz.","neighbor_coverage_note":"Tüm adaylar incelendi; alev, hayvan damgası ve ışıkla sınır karışıklığını en açık gösteren üç komşu yayımlandı.","neighbor_distinctions":[{"boundary_match":"partial","distinction":"Odak dal ateşin tamamını ve damga kullanımını içerir; komşu dal ise yalnız ateşin alevlenen bölümüne odaklanır.","focus_only":"Ateşin bütünü ile hayvanın ateşle yapılan damgasını kapsar.","gloss":"ateş ve alev","neighbor_only":"Ateşin yalnız saf ve yükselen alev bölümünü anlatır.","neighbor_ref":"root_001357/B001","relation_type":"near_neighbor","shared_zone":"Her iki dal da yanma ve görünür alev alanına aittir."},{"boundary_match":"field_only","distinction":"Ortak alan damgalamadır; odak dalın belirleyici özelliği yakma aracıdır, komşu dalın belirleyici özelliği ise damganın gizli konumudur.","focus_only":"Damganın ateşle yakılarak yapılmasını ve ateş anlamıyla bağını belirtir.","gloss":"hayvan damgaları","neighbor_only":"Seçkin bir devenin gizli bir yerine konan özel damgayı belirtir.","neighbor_ref":"root_000384/B005","relation_type":"same_field","shared_zone":"İki dal da hayvanı ayırt eden kalıcı bir işaret alanındadır."},{"boundary_match":"partial","distinction":"Odak dal ışık veren fiziksel ateştir; komşu dal ise kaynağından bağımsız olarak ışığı ve aydınlatmayı anlatır.","focus_only":"Yanma, ısı, hareketli alev ve ateşle yapılan damga bulunur.","gloss":"ateş ile ışık","neighbor_only":"Ateş gerektirmeyen genel ışık, aydınlanma ve aydınlatma bulunur.","neighbor_ref":"root_001564/B001","relation_type":"near_neighbor","shared_zone":"Ateşin ışık vermesi iki dalın kesişme noktasıdır."}],"source_phrase_ar":"النار مؤنثة وهي من الواو؛ الجمع نور ونيران (sihah)؛ ما نار هذه الناقة أي ما سمتها؛ نجارها نارها؛ سماتها (sihah)؛ النور والنار سميا بذلك من طريقة الإضاءة ولأن ذلك يكون مضطربا سريع الحركة (maqayis)","source_summary":"Kaynaklar yanan ateşi ışık ve hareket niteliğiyle açıklar; çoğul biçimlerini ve hayvanın ateşle yapılan damgasına bağlı kullanımları da aynı dalda toplar.","sources":["SI","MQ"],"what_is_ar":"يدخل فيه النار وما سميت به لطريقة الإضاءة واضطراب الحركة، وجموعها، والسمة بالنار في الناقة والإبل.","what_is_not_ar":"لا يدخل فيه مجرد الضياء بلا نار، ولا تنور النار من بعيد، ولا النائرة بين القوم."},"support_links":["sup_2ad0759d7cbea2ff3d71","sup_478a1c2d24f86d005faf"]},{"boundary":"Anlam yalnız ateşle kurulan bu yapıya aittir; uzaktan görme ve ateşe yönelme iki ayrı kaynak açıklamasıdır.","branch_kind":"collocation","branch_ref":"root_001564/B003","candidate_links":[{"candidate_id":"cand_e5f47f493d0d9e4e3b42","lane":"micro"}],"focus_root_occurrences":[{"lemma_ar":"نَار","morph_features":"STEM|POS:N|LEM:naAr|ROOT:nwr|F|INDEF|NOM","morpheme_role":"STEM","pos":"N","qac_ref":"90:20:2:1","qac_word_ref":"90:20:2","surface_ar":"نَارٌ"}],"gloss":"ateşi uzaktan görüp ona yönelmek","lexicon_identity_status":"qualified","registry":"focus","review_facets":[{"facet_id":"F001","role":"core","source_fields":["distinctive_facets[F001]"],"statements":{"statement":"Uzakta bulunan ateşi görüp seçmek, yapının algısal açıklamasıdır."}},{"facet_id":"F002","role":"source_variant","source_fields":["distinctive_facets[F002]"],"statements":{"statement":"Ateşe doğru yönelmek, aynı yapının amaç ve hareket bildiren kaynak açıklamasıdır."}}],"root_ar":"ن و ر","root_id":"root_001564","root_occurrence_qualification":"These are focus-ayah occurrences mapped to the same root. They identify possible surface carriers but do not prove that this branch sense is active. Activation still requires an independent linguistic or contextual trigger.","semantic_detail":{"applicability":"Ateş nesnesiyle kurulan yapının hem uzaktan seçme hem de ona doğru gitme açıklamasını birlikte gösterir.","boundary_detail":"Anlam yalnız ateşle kurulan bu yapıya aittir; uzaktan görme ve ateşe yönelme iki ayrı kaynak açıklamasıdır.","branch_image_ar":"تنور النار من بعيد","concept_gloss":"ateşi uzaktan görüp ona yönelmek","contextual_glosses":[{"applicability":"Uzakta görünen ateşin fark edilmesi ve gözle seçilmesi öne çıktığında kullanılır.","error_profile":{"adds":null,"collision":null,"fit":"narrowing","loses":"Ateşe doğru yönelme ve onu amaç edinme açıklamasını dışarıda bırakır.","preserves":"Ateşin uzaktan görülmesi ve seçilmesi anlamını korur."},"facet_ids":["F001"],"text":"ateşi uzaktan seçmek","usage_role":"contextual"},{"applicability":"Bir kimsenin gördüğü ya da bildiği ateşi hedef alarak ona doğru gitmesi öne çıktığında kullanılır.","error_profile":{"adds":null,"collision":null,"fit":"narrowing","loses":"Yalnız uzaktan görüp seçme açıklamasını dışarıda bırakır.","preserves":"Ateşi amaç edinip ona doğru gitme anlamını korur."},"facet_ids":["F002"],"text":"ateşe yönelmek","usage_role":"contextual"}],"definition":"Ateşi uzaktan seçmeyi veya ateşe doğru yönelmeyi anlatan yapıdır. Uzaktan görme ile yönelme, aynı yapı için verilen iki yakın kaynak açıklaması olarak ayrı tutulur.","distinctive_facets":[{"facet_id":"F001","role":"core","statement":"Uzakta bulunan ateşi görüp seçmek, yapının algısal açıklamasıdır."},{"facet_id":"F002","role":"source_variant","statement":"Ateşe doğru yönelmek, aynı yapının amaç ve hareket bildiren kaynak açıklamasıdır."}],"identity_rationale":"Kaynak ifadesi aynı ateş yapısını iki yakın fakat özdeş olmayan biçimde açıklar: ateşe yönelmek ve ateşi uzaktan seçmek. Geçici çerçeve kullanılabilir, ancak görme ile yönelmenin birbirine indirgenmemesi gerekir.","lexical_glosses":[{"lexical_unit_id":"lu_008","rendering_kind":"ordinary","target_gloss":"ateşe doğru yönelmek"},{"lexical_unit_id":"lu_009","rendering_kind":"ordinary","target_gloss":"ateşi uzaktan görüp seçmek"}],"lexicalization_note":"Tanım yalnız ateş nesnesiyle kurulan yapıya bağlıdır; genel görme, arama veya yönelme anlamına genişletilmez.","neighbor_coverage_note":"Bütün adaylar değerlendirildi; gece ateşine yönelme, gözetleme ve görünürlükle en öğretici üç sınır seçildi.","neighbor_distinctions":[{"boundary_match":"partial","distinction":"Odak yapı görme veya yönelme düzeyinde kalır; komşu dal gece koşulunu ve ateş ışığıyla yol bulma sonucunu da içerir.","focus_only":"Ateşi uzaktan seçme açıklaması gece veya yol bulma koşuluna bağlı değildir.","gloss":"uzaktaki ateşe yönelme","neighbor_only":"Gece görünen ateşin ışığıyla yol bulma ve o ışığı kılavuz edinme anlamını taşır.","neighbor_ref":"root_001017/B002","relation_type":"near_synonym","shared_zone":"İki dal da uzakta görülen ateşi hedef alma ve ona doğru yönelme alanında buluşur."},{"boundary_match":"partial","distinction":"Odak dal belirli bir ateş yapısıdır; komşu dal nesnesi değişebilen, süreğen izleme ve bekleme eylemidir.","focus_only":"Nesne ateştir ve bazı açıklamalarda ona doğru gitme de bulunur.","gloss":"uzaktan görme ve gözetleme","neighbor_only":"Bakılan şeyi izleme, gözetleme ve bekleme sürecini kapsar.","neighbor_ref":"root_000142/B005","relation_type":"near_neighbor","shared_zone":"Her iki dal da uzaktaki bir şeyi gözle seçme alanını paylaşır."},{"boundary_match":"field_only","distinction":"Odak dal algılayan kişinin ateşle kurduğu eylemdir; komşu dal ise görülen şeyin açıklık niteliğini tanımlar.","focus_only":"Bir kişinin ateşi görmesi veya ateşe yönelmesi eylemini anlatır.","gloss":"görünürlük ve görme","neighbor_only":"Bir şeyin kendisinin açıkça görünür ve anlaşılır hale gelmesini anlatır.","neighbor_ref":"root_001473/B002","relation_type":"same_field","shared_zone":"İki dalda da bir şeyin gözle seçilebilir olması önemlidir."}],"source_phrase_ar":"تنورت نارا قصدت إليها (ayn)؛ تنورت النار من بعيد: تبصرتها (sihah)؛ تنورت النار تبصرتها (maqayis)","source_summary":"Kaynak açıklamaları aynı ateş yapısını uzaktan görme ile ateşe yönelme arasında konumlandırır; bu iki açıklama birleştirilmeden aynı kullanım çevresinin parçaları olarak korunur.","sources":["AY","SI","MQ"],"what_is_ar":"يدخل فيه تنورت النار إذا قصدت إليها أو تبصرتها من بعد.","what_is_not_ar":"لا يدخل فيه مطلق الإضاءة، ولا النار نفسها بلا فعل التنور."},"support_links":["sup_8dafb8b4c3a07e67517e"]},{"boundary":"Dal ağaç çiçeği ve ağacın çiçek açmasıyla sınırlıdır; genel bitki çıkışı veya ışık anlamı değildir.","branch_kind":"mixed_non_bare","branch_ref":"root_001564/B004","candidate_links":[],"focus_root_occurrences":[{"lemma_ar":"نَار","morph_features":"STEM|POS:N|LEM:naAr|ROOT:nwr|F|INDEF|NOM","morpheme_role":"STEM","pos":"N","qac_ref":"90:20:2:1","qac_word_ref":"90:20:2","surface_ar":"نَارٌ"}],"gloss":"ağaç çiçeği ve çiçeklenme","lexicon_identity_status":"accepted","registry":"focus","review_facets":[{"facet_id":"F001","role":"core","source_fields":["distinctive_facets[F001]"],"statements":{"statement":"Ağaç üzerinde açan çiçek, dalın ad anlamıdır."}},{"facet_id":"F002","role":"extension","source_fields":["distinctive_facets[F002]"],"statements":{"statement":"Ağacın çiçek çıkarması ve çiçeklenmesi, aynı çekirdeğin eylem görünümüdür."}}],"root_ar":"ن و ر","root_id":"root_001564","root_occurrence_qualification":"These are focus-ayah occurrences mapped to the same root. They identify possible surface carriers but do not prove that this branch sense is active. Activation still requires an independent linguistic or contextual trigger.","semantic_detail":{"applicability":"Ağaçta beliren çiçeği ve ağacın bu çiçeği çıkarma sürecini birlikte karşılayan genel anlatımdır.","boundary_detail":"Dal ağaç çiçeği ve ağacın çiçek açmasıyla sınırlıdır; genel bitki çıkışı veya ışık anlamı değildir.","branch_image_ar":"نور الشجر وزهره","concept_gloss":"ağaç çiçeği ve çiçeklenme","contextual_glosses":[{"applicability":"Ağaç üzerinde açmış çiçeğin ad olarak belirtildiği bağlamlarda kullanılır.","error_profile":{"adds":null,"collision":null,"fit":"narrowing","loses":"Ağacın çiçek çıkarma ve çiçeklenme eylemini dışarıda bırakır.","preserves":"Ağaç üzerinde beliren çiçek anlamını korur."},"facet_ids":["F001"],"text":"ağaç çiçeği","usage_role":"general"},{"applicability":"Ağacın çiçeklerini ortaya çıkarması ve çiçekli hale gelmesi anlatıldığında kullanılır.","error_profile":{"adds":null,"collision":null,"fit":"narrowing","loses":"Ortaya çıkan çiçeğin bağımsız ad anlamını dışarıda bırakır.","preserves":"Ağacın çiçek çıkarma sürecini korur."},"facet_ids":["F002"],"text":"çiçek açmak","usage_role":"contextual"}],"definition":"Ağaçta beliren çiçeği ve ağacın çiçek çıkararak çiçeklenmesini anlatır.","distinctive_facets":[{"facet_id":"F001","role":"core","statement":"Ağaç üzerinde açan çiçek, dalın ad anlamıdır."},{"facet_id":"F002","role":"extension","statement":"Ağacın çiçek çıkarması ve çiçeklenmesi, aynı çekirdeğin eylem görünümüdür."}],"identity_rationale":"Kaynak ifadesi ağacın çiçeğini ve ağacın çiçek açmasını açıkça aynı dalda toplar. Geçici çerçeve hem ortaya çıkan çiçeği hem de çiçek çıkarma sürecini korur ve genel ışık anlamını bu dala taşımaz.","lexical_glosses":[{"lexical_unit_id":"lu_010","rendering_kind":"ordinary","target_gloss":"ağaç çiçeği"},{"lexical_unit_id":"lu_011","rendering_kind":"ordinary","target_gloss":"ağaç çiçekleri; tek bir ağaç çiçeği"},{"lexical_unit_id":"lu_012","rendering_kind":"ordinary","target_gloss":"ağaç çiçek açtı"},{"lexical_unit_id":"lu_013","rendering_kind":"ordinary","target_gloss":"ağacın çiçek açması"}],"lexicalization_note":"Ağaç çiçeğini adlandıran biçimler ile ağaç öznesine bağlı çiçek açma yapıları ayrılır; kapsam genel aydınlanmaya genişletilmez.","neighbor_coverage_note":"Bütün adaylar incelendi; ağaç çiçeği, çayır çiçeği ve genel bitki çıkışı arasındaki sınırı gösteren üç ilişki seçildi.","neighbor_distinctions":[{"boundary_match":"partial","distinction":"Odak dal genel ağaç çiçeği çekirdeğidir; komşu dal belirli ağaç, renk ve bitki adlarıyla daha özel bir kapsama sahiptir.","focus_only":"Ağaç çiçeğini tür ve renk sınırlaması olmadan, ayrıca çiçeklenme eylemiyle kapsar.","gloss":"ağaç çiçeği","neighbor_only":"Belirli bir ağacın çiçeklenmesine, beyaz çiçeğe ve bazı bitki adlarına uzanır.","neighbor_ref":"root_000620/B003","relation_type":"near_synonym","shared_zone":"Her iki dal da ağaçta ortaya çıkan çiçeği ve çiçeklenmeyi kapsar."},{"boundary_match":"partial","distinction":"Odak dal ağaç ve çiçeklenme sürecine bağlıdır; komşu dal çayırın çiçekli görünümüne bağlıdır.","focus_only":"Ağaç çiçeğini ve ağacın çiçek açma eylemini kapsar.","gloss":"çiçek örtüsü","neighbor_only":"Çayırın çiçek örtüsünü anlatan özel bir adlandırmadır.","neighbor_ref":"root_001331/B006","relation_type":"near_synonym","shared_zone":"Her iki dal da bitkinin görünen çiçeklerini adlandırır."},{"boundary_match":"field_only","distinction":"Odak dalın sonucu çiçektir; komşu dal çiçekle sınırlı olmayan sürgün ve ekin çıkışını anlatır.","focus_only":"Özellikle ağaç çiçeğinin ortaya çıkmasını anlatır.","gloss":"bitkinin belirmesi","neighbor_only":"Hurma sürgününün ve ekinin genel olarak topraktan ya da bitkiden belirmesini anlatır.","neighbor_ref":"root_000945/B005","relation_type":"same_field","shared_zone":"İki dal da bitkide yeni bir bölümün görünür hale gelmesi sürecindedir."}],"source_phrase_ar":"النور نور الشجر؛ تنوير الشجرة إزهارها؛ النوار نور الشجر (ayn)؛ تنوير الشجرة: إزهارها؛ نورت الشجرة وأنارت أي أخرجت نورها؛ النوار نور الشجر (sihah)؛ ومنه النور نور الشجر ونواره؛ أنارت الشجرة أخرجت النور (maqayis)","source_summary":"Kaynaklar ağaç çiçeğini adlandırmada ve ağacın çiçek çıkarıp çiçeklenmesini anlatan eylemlerde birleşir.","sources":["AY","SI","MQ"],"what_is_ar":"يدخل فيه نور الشجر ونواره، وتنوير الشجرة أو إنارتها بمعنى إزهارها وإخراج نورها.","what_is_not_ar":"لا يدخل فيه الضوء العام، ولا النار، ولا النُّورَة التي يطلى بها."},"support_links":[]},{"boundary":"Belirginlik yol bulma, sınır gösterme, ışık taşıma veya çağrı yeri olma işlevine bağlıdır; yalın ışık değildir.","branch_kind":"mixed_non_bare","branch_ref":"root_001564/B005","candidate_links":[{"candidate_id":"cand_e5f47f493d0d9e4e3b42","lane":"micro"}],"focus_root_occurrences":[{"lemma_ar":"نَار","morph_features":"STEM|POS:N|LEM:naAr|ROOT:nwr|F|INDEF|NOM","morpheme_role":"STEM","pos":"N","qac_ref":"90:20:2:1","qac_word_ref":"90:20:2","surface_ar":"نَارٌ"}],"gloss":"yol gösteren belirgin işaret ve yüksek yapı","lexicon_identity_status":"accepted","registry":"focus","review_facets":[{"facet_id":"F001","role":"core","source_fields":["distinctive_facets[F001]"],"statements":{"statement":"Yol üzerinde kolayca görülüp yön bulmayı sağlayan işaret temel işlevdir."}},{"facet_id":"F002","role":"specialization","source_fields":["distinctive_facets[F002]"],"statements":{"statement":"Arazinin belirgin sınırları ve sınır işaretleri, gösterme işlevinin özel alanıdır."}},{"facet_id":"F003","role":"extension","source_fields":["distinctive_facets[F003]"],"statements":{"statement":"Üstünde ışık bulunan veya çağrı yapılan yüksek ve görünür yapı, işaret işlevinin yapısal uzantısıdır."}}],"root_ar":"ن و ر","root_id":"root_001564","root_occurrence_qualification":"These are focus-ayah occurrences mapped to the same root. They identify possible surface carriers but do not prove that this branch sense is active. Activation still requires an independent linguistic or contextual trigger.","semantic_detail":{"applicability":"Yol işaretini, arazi sınırını ve ışık ya da çağrı işlevli görünür yüksek yapıyı ortak işlevleriyle karşılar.","boundary_detail":"Belirginlik yol bulma, sınır gösterme, ışık taşıma veya çağrı yeri olma işlevine bağlıdır; yalın ışık değildir.","branch_image_ar":"المنار والمنارة الظاهرة","concept_gloss":"yol gösteren belirgin işaret ve yüksek yapı","contextual_glosses":[{"applicability":"Yol üzerinde yön bulmayı sağlayan görünür bir işaret anlatıldığında kullanılır.","error_profile":{"adds":null,"collision":null,"fit":"narrowing","loses":"Arazi sınırını ve ışık ya da çağrı işlevli yüksek yapıyı dışarıda bırakır.","preserves":"Belirgin olma ve yol göstermeye yarama işlevini korur."},"facet_ids":["F001"],"text":"yol gösteren işaret","usage_role":"general"},{"applicability":"Üstünde ışık taşınan veya insanlara çağrı yapılan yüksek ve görünür yapı anlatıldığında kullanılır.","error_profile":{"adds":null,"collision":null,"fit":"narrowing","loses":"Yol işaretini ve arazinin sınır işaretlerini dışarıda bırakır.","preserves":"Yüksek yapının görünürlük, ışık taşıma ve çağrı yeri olma işlevini korur."},"facet_ids":["F003"],"text":"ışık ya da çağrı kulesi","usage_role":"explanatory"}],"definition":"Yol bulmayı veya sınırı tanımayı sağlayan belirgin işaretleri anlatır. Ayrıca üstünde ışık taşınan ya da insanlara çağrı yapılan görünür yüksek yapı bu işlevsel çekirdeğe bağlıdır.","distinctive_facets":[{"facet_id":"F001","role":"core","statement":"Yol üzerinde kolayca görülüp yön bulmayı sağlayan işaret temel işlevdir."},{"facet_id":"F002","role":"specialization","statement":"Arazinin belirgin sınırları ve sınır işaretleri, gösterme işlevinin özel alanıdır."},{"facet_id":"F003","role":"extension","statement":"Üstünde ışık bulunan veya çağrı yapılan yüksek ve görünür yapı, işaret işlevinin yapısal uzantısıdır."}],"identity_rationale":"Kaynak ifadesi yol gösteren belirgin işareti, arazi sınır ve işaretlerini ve üstünde ışık bulunan ya da çağrı yapılan yüksek yapıyı aynı görünürlük işlevi çevresinde toplar. Geçici çerçeve bu işlevsel ortaklığı doğru yansıtır.","lexical_glosses":[{"lexical_unit_id":"lu_014","rendering_kind":"ordinary","target_gloss":"yol gösteren belirgin işaret"},{"lexical_unit_id":"lu_015","rendering_kind":"ordinary","target_gloss":"arazinin sınırları ve belirgin işaretleri"},{"lexical_unit_id":"lu_016","rendering_kind":"ordinary","target_gloss":"yol gösteren, üstünde ışık bulunan veya çağrı yapılan yüksek yapı"}],"lexicalization_note":"Yalın belirgin yol işareti ile arazi sınırı yapısı ve yüksek yapı anlamı ayrılır; özel yapıların kapsamı her işarete yayılmaz.","neighbor_coverage_note":"Bütün adaylar değerlendirildi; genel işaret alanı, zaman anlamına uzanan işaret ve taş yapı arasındaki üç temel sınır seçildi.","neighbor_distinctions":[{"boundary_match":"partial","distinction":"Odak dal yol, arazi sınırı ve yüksek yapı çevresinde toplanır; komşu dal çok daha geniş bir işaretleme ve ayırt etme alanına yayılır.","focus_only":"Işık taşınan veya çağrı yapılan yüksek yapıyı da kapsar.","gloss":"yol ve sınır işaretleri","neighbor_only":"Bayrak, dağ, kumaş işareti, boya ve çeşitli nesnelere konan ayırt edici izleri kapsar.","neighbor_ref":"root_001040/B002","relation_type":"near_synonym","shared_zone":"Her iki dal da yol bulmaya veya bir şeyi tanımaya yarayan görünür işaretleri kapsar."},{"boundary_match":"partial","distinction":"Odak dal görünür yapı ve sınır işlevinde kalır; komşu dal işaret anlamından belirlenmiş zamana da uzanır.","focus_only":"Arazi sınırları ile ışık veya çağrı işlevli yüksek yapıyı kapsar.","gloss":"belirgin yol işareti","neighbor_only":"Belirlenmiş zaman ve buluşma vaktini de kapsar.","neighbor_ref":"root_000051/B005","relation_type":"near_synonym","shared_zone":"İki dal da yol veya açık arazide yön bulduran işareti anlatır."},{"boundary_match":"partial","distinction":"Odak dal işlev ve görünürlük üzerinden tanımlanır; komşu dalın ayırıcı özelliği taş malzeme ve dikili yapı biçimidir.","focus_only":"Taşla sınırlı değildir ve ışık ya da çağrı işlevli yüksek yapıyı içerir.","gloss":"yüksek yol işareti","neighbor_only":"Taşlardan yapılmış veya taş olarak dikilmiş yüksek işareti özel olarak belirtir.","neighbor_ref":"root_000075/B002","relation_type":"near_neighbor","shared_zone":"Her iki dal da uzaktan görülen ve yön bulmaya yardım eden yükseltilmiş işareti kapsar."}],"source_phrase_ar":"المنارة مفعلة من الإنارة؛ كانوا ينورون في الجاهلية ليهتدى ويقتدى بها؛ المنارة الشمعة ذات السراج؛ المنارة ما يوضع عليه للمسرجة؛ المنارة للمؤذن (ayn)؛ المنار: علم الطريق؛ ضرب المنار على طريقه ليهتدى بها؛ المنارة التي يؤذن عليها؛ المنارة ما يوضع فوقها السراج (sihah)؛ المنارة مفعلة من الاستنارة؛ منار الأرض حدودها وأعلامها سميت لبيانها وظهورها (maqayis)","source_summary":"Kaynaklar belirginlik ve görünürlüğü ortak zemin yapar; yol işareti, arazi sınırı ve ışık ya da çağrı için kullanılan yüksek yapı bu zeminde birleşir.","sources":["AY","SI","MQ"],"what_is_ar":"يدخل فيه المنار علامة الطريق، ومنار الأرض حدودها وأعلامها، والمنارة التي يهتدى بها أو يوضع عليها السراج أو يؤذن عليها.","what_is_not_ar":"لا يدخل فيه أسماء الأعلام مثل ذي المنار ومنور إلا من جهة التسمية، ولا يدخل فيه النور المجرد بلا علامة."},"support_links":["sup_8dafb8b4c3a07e67517e"]},{"boundary":"Dal kaçınma, ürkme ve uzaklaştırmayı kapsar; genel ışık ya da topluluklar arası düşmanlık anlamına girmez.","branch_kind":"mixed_non_bare","branch_ref":"root_001564/B006","candidate_links":[],"focus_root_occurrences":[{"lemma_ar":"نَار","morph_features":"STEM|POS:N|LEM:naAr|ROOT:nwr|F|INDEF|NOM","morpheme_role":"STEM","pos":"N","qac_ref":"90:20:2:1","qac_word_ref":"90:20:2","surface_ar":"نَارٌ"}],"gloss":"ürkmek, kaçınmak ve uzaklaştırmak","lexicon_identity_status":"accepted","registry":"focus","review_facets":[{"facet_id":"F001","role":"core","source_fields":["distinctive_facets[F001]"],"statements":{"statement":"Bir şeyden ürkme, kaçınma ve uzaklaşma temel hareket ve tutumdur."}},{"facet_id":"F002","role":"specialization","source_fields":["distinctive_facets[F002]"],"statements":{"statement":"Kötülükten veya erkeklerden uzak duran kadın ile eşten kaçınan dişi hayvan, katılımcıya bağlı özel nitelemelerdir."}},{"facet_id":"F003","role":"extension","source_fields":["distinctive_facets[F003]"],"statements":{"statement":"Bir başkasını söz veya davranışla ürkütüp uzaklaştırmak, katılımcıyı değiştiren ettirgen uzantıdır."}}],"root_ar":"ن و ر","root_id":"root_001564","root_occurrence_qualification":"These are focus-ayah occurrences mapped to the same root. They identify possible surface carriers but do not prove that this branch sense is active. Activation still requires an independent linguistic or contextual trigger.","semantic_detail":{"applicability":"İnsan ve hayvandaki kaçınmayı, uzaklaşmayı ve bir başkasını ürkütüp uzaklaştıran ettirgen eylemi birlikte kapsar.","boundary_detail":"Dal kaçınma, ürkme ve uzaklaştırmayı kapsar; genel ışık ya da topluluklar arası düşmanlık anlamına girmez.","branch_image_ar":"النِّفار وقلة الثبات","concept_gloss":"ürkmek, kaçınmak ve uzaklaştırmak","contextual_glosses":[{"applicability":"Bir insanın ya da hayvanın istemediği şeyden kaçınarak uzak durması anlatıldığında kullanılır.","error_profile":{"adds":null,"collision":null,"fit":"narrowing","loses":"Başkasını ürkütüp uzaklaştıran ettirgen kullanımı dışarıda bırakır.","preserves":"Ürkme, kaçınma ve uzaklaşma çekirdeğini korur."},"facet_ids":["F001","F002"],"text":"ürkü̈p uzaklaşmak","usage_role":"general"},{"applicability":"Bir kişinin söz veya davranışla başka birini kaçırması ya da uzak durmaya itmesi anlatıldığında kullanılır.","error_profile":{"adds":null,"collision":null,"fit":"narrowing","loses":"Öznenin kendisinin kaçınması ile insan ve hayvan nitelemelerini dışarıda bırakır.","preserves":"Başka bir katılımcıyı ürkütüp uzaklaştırma eylemini korur."},"facet_ids":["F003"],"text":"ürkü̈tüp uzaklaştırmak","usage_role":"contextual"}],"definition":"Bir insanın ya da hayvanın hoş görülmeyen bir şeyden, kişiden veya eşten ürküp kaçınmasını ve uzaklaşmasını anlatır. Ettirgen kullanımda bir başkasını söz veya davranışla ürkütüp uzaklaştırma vardır.","distinctive_facets":[{"facet_id":"F001","role":"core","statement":"Bir şeyden ürkme, kaçınma ve uzaklaşma temel hareket ve tutumdur."},{"facet_id":"F002","role":"specialization","statement":"Kötülükten veya erkeklerden uzak duran kadın ile eşten kaçınan dişi hayvan, katılımcıya bağlı özel nitelemelerdir."},{"facet_id":"F003","role":"extension","statement":"Bir başkasını söz veya davranışla ürkütüp uzaklaştırmak, katılımcıyı değiştiren ettirgen uzantıdır."}],"identity_rationale":"Kaynak ifadesi insanın kötülükten veya erkeklerden uzak durmasını, hayvanın ürküp eşinden kaçınmasını, bir şeyden uzaklaşmayı ve başkasını ürkütmeyi ortak bir kaçınma çekirdeğinde toplar. Geçici çerçeve kapsamı ve ettirgen katılımcı değişimini doğru verir.","lexical_glosses":[{"lexical_unit_id":"lu_017","rendering_kind":"ordinary","target_gloss":"kötülükten veya erkeklerden uzak duran iffetli kadın"},{"lexical_unit_id":"lu_018","rendering_kind":"ordinary","target_gloss":"ürkek ve insandan kaçan ceylanlar"},{"lexical_unit_id":"lu_019","rendering_kind":"ordinary","target_gloss":"kuşku verici durumdan uzak duran kadınlar"},{"lexical_unit_id":"lu_020","rendering_kind":"ordinary","target_gloss":"eşinden ürküp kaçınan kısrak veya inek"},{"lexical_unit_id":"lu_021","rendering_kind":"ordinary","target_gloss":"bir şeyden ürküp uzaklaşmak"},{"lexical_unit_id":"lu_022","rendering_kind":"ordinary","target_gloss":"birini söz veya davranışla ürkütüp uzaklaştırmak"},{"lexical_unit_id":"lu_023","rendering_kind":"ordinary","target_gloss":"ürkme, kaçınma ve uzaklaşma"}],"lexicalization_note":"İnsan ve hayvan nitelemeleri ile kaçınma ve başkasını uzaklaştırma eylemleri ayrı tutulur; özel katılımcılar bütün dala zorunlu kılınmaz.","neighbor_coverage_note":"Bütün adaylar değerlendirildi; genel uzaklaşma, hayvanın dirençli ürkekliği ve hoşnutsuzluktan kaçınma sınırlarını gösteren üçü seçildi.","neighbor_distinctions":[{"boundary_match":"partial","distinction":"Odak dal belirli insan ve eşleşme bağlamlarını içerir; komşu dal korku ve düşünsel uzaklaşma dahil daha geniş bir kapsam taşır.","focus_only":"İffetli kadının kötülükten kaçınmasını ve dişi hayvanın eşten uzak durmasını özel olarak kapsar.","gloss":"ürkmek ve uzaklaşmak","neighbor_only":"Korku, vahşi hayvanın kaçışı ve gerçekten uzaklaşma gibi daha geniş neden ve nesnelere uzanır.","neighbor_ref":"root_001532/B001","relation_type":"near_synonym","shared_zone":"İki dal da insan veya hayvanın bir şeyden ürküp uzaklaşmasını ve başkasını uzaklaştırmayı kapsar."},{"boundary_match":"partial","distinction":"Odak dal kaçınma ve uzaklaştırma çekirdeğindedir; komşu dal hayvanın binilmeye direnmesi ve zor huy gibi ek davranışları içerir.","focus_only":"İnsan için ahlaki kaçınmayı ve başkasını ürkütme eylemini kapsar.","gloss":"hayvanın ürkekliği","neighbor_only":"Hayvanın sırtını kullandırmaması ile insandaki huysuzluk ve geçimsizliği kapsar.","neighbor_ref":"root_000818/B002","relation_type":"near_synonym","shared_zone":"İki dal da hayvanın ürkmesi, yaklaşanı kabul etmemesi ve yerinde durmaması alanında buluşur."},{"boundary_match":"partial","distinction":"Odak dal ürkme ve kaçışı öne çıkarır; komşu dal hoşnutsuzluk ve tiksinme nedenlerine göre çeşitlenir.","focus_only":"Kötülükten uzak duran kadın ile bir başkasını ürkütüp uzaklaştırmayı kapsar.","gloss":"istenmeyenden kaçınma","neighbor_only":"Yemden, ülkeden, sinekten ve çeşitli isteklerden tiksinme gibi belirli hoşnutsuzluk nedenlerini kapsar.","neighbor_ref":"root_000060/B006","relation_type":"near_synonym","shared_zone":"İki dal da insan veya hayvanın istemediği bir şeye yaklaşmaması ve ondan uzak durmasıdır."}],"source_phrase_ar":"امرأة نوار وهي العفيفة النافرة عن الشر والقبيح؛ التي تكره الرجال؛ بقرة نوار تنفر من الفحل؛ نرت فلانا أي أنفرته (ayn)؛ النور أيضا: النفر من الظباء؛ نسوة نور أي نفر من الربية؛ الواحدة نوار وهي الفرور؛ فرس وديق نوار؛ نرت من الشئ؛ نرت غيري أي نفرته (sihah)؛ امرأة نوار أي عفيفة تنور أي تنفر من القبيح؛ نارت نفرت؛ نرت فلانا نفرته؛ النوار النفار (maqayis)","source_summary":"Kaynaklar ürkme ve uzak durma çekirdeğinde birleşir; insanın ahlaki ya da toplumsal kaçınmasını, hayvanın eşten uzaklaşmasını ve başkasını ürkütme eylemini aynı dalda verir.","sources":["AY","SI","MQ"],"what_is_ar":"يدخل فيه نوار للمرأة العفيفة النافرة من القبيح أو الرجال، والنور أو النوار في الظباء والنساء والفرس والبقرة النافرة، ونرت فلانا إذا أنفرته.","what_is_not_ar":"لا يدخل فيه النور بمعنى الضياء، ولا نور الشجر، ولا النائرة بمعنى العداوة."},"support_links":[]},{"boundary":"Dal topluluklar arasında var olan düşmanlık ve kine aittir; savaşın kendisini veya yalnız ilan edilmesini zorunlu kılmaz.","branch_kind":"bare","branch_ref":"root_001564/B007","candidate_links":[],"focus_root_occurrences":[{"lemma_ar":"نَار","morph_features":"STEM|POS:N|LEM:naAr|ROOT:nwr|F|INDEF|NOM","morpheme_role":"STEM","pos":"N","qac_ref":"90:20:2:1","qac_word_ref":"90:20:2","surface_ar":"نَارٌ"}],"gloss":"topluluklar arası düşmanlık ve kin","lexicon_identity_status":"accepted","registry":"focus","review_facets":[{"facet_id":"F001","role":"core","source_fields":["distinctive_facets[F001]"],"statements":{"statement":"Topluluklar arasında ortaya çıkan düşmanlık ve kin, dalın ilişkisel çekirdeğidir."}}],"root_ar":"ن و ر","root_id":"root_001564","root_occurrence_qualification":"These are focus-ayah occurrences mapped to the same root. They identify possible surface carriers but do not prove that this branch sense is active. Activation still requires an independent linguistic or contextual trigger.","semantic_detail":{"applicability":"İki topluluk arasında doğan ve süren düşmanlık durumunu genel olarak karşılar.","boundary_detail":"Dal topluluklar arasında var olan düşmanlık ve kine aittir; savaşın kendisini veya yalnız ilan edilmesini zorunlu kılmaz.","branch_image_ar":"النائرة بين القوم","concept_gloss":"topluluklar arası düşmanlık ve kin","contextual_glosses":[{"applicability":"İki topluluğun ilişkisindeki kin ve karşıtlık doğal bir cümle içinde anlatıldığında kullanılır.","error_profile":{"adds":null,"collision":null,"fit":"none","loses":null,"preserves":"Taraflar arasında süren düşmanlık ve kin durumunu korur."},"facet_ids":["F001"],"text":"aralarında düşmanlık var","usage_role":"contextual"}],"definition":"İki topluluk arasında ortaya çıkan ve ilişkilerini bozan düşmanlık, kin ve geçimsizlik durumunu anlatır.","distinctive_facets":[{"facet_id":"F001","role":"core","statement":"Topluluklar arasında ortaya çıkan düşmanlık ve kin, dalın ilişkisel çekirdeğidir."}],"identity_rationale":"Kaynak ifadesi topluluklar arasında ortaya çıkan düşmanlık ve kini açıkça belirtir. Geçici çerçeve bu ilişkisel durumu doğru yansıtır ve onu fiziksel ateş, bireysel ürkme veya yalnız açık düşmanlık ilanıyla karıştırmaz.","lexical_glosses":[{"lexical_unit_id":"lu_024","rendering_kind":"ordinary","target_gloss":"topluluklar arasında çıkan düşmanlık ve kin"}],"lexicalization_note":"Tanım yalın düşmanlık durumu ile sınırlıdır; savaş, açık ilan veya çatışma gibi komşu sonuçlar zorunlu anlam yapılmaz.","neighbor_coverage_note":"Tüm adaylar incelendi; savaş, etkin çatışma ve düşmanlığı açıkça gösterme ile olan üç temel kapsam farkı seçildi.","neighbor_distinctions":[{"boundary_match":"partial","distinction":"Odak dal düşmanlık durumunda kalır; komşu dal bu durumdan fiili savaşa, yere ve katılımcıya kadar genişler.","focus_only":"Özellikle topluluklar arasında ortaya çıkan kin ve bozuk ilişkiyi anlatır.","gloss":"düşmanlık ve savaş","neighbor_only":"Savaş eylemini, savaş durumunu, savaş ülkesini ve savaşan kişiyi de kapsar.","neighbor_ref":"root_000302/B002","relation_type":"near_synonym","shared_zone":"Her iki dal da taraflar arasındaki düşmanlık ve barış karşıtı ilişkiyi kapsar."},{"boundary_match":"partial","distinction":"Odak dal ilişkisel düşmanlık durumudur; komşu dal düşmanlığın karşılıklı mücadele ve savaş halinde gerçekleşmesini öne çıkarır.","focus_only":"Fiili çarpışma olmadan da topluluklar arasındaki kin durumunu anlatabilir.","gloss":"düşmanlık ve çatışma","neighbor_only":"Karşılıklı savaşma, dövüşme ve etkin çatışmayı özellikle kapsar.","neighbor_ref":"root_001550/B007","relation_type":"near_synonym","shared_zone":"İki dal da tarafların birbirine düşman olması alanında buluşur."},{"boundary_match":"partial","distinction":"Odak dal durumun kendisidir; komşu dal bu durumun açıkça gösterilmesi ve ilan edilmesi eylemidir.","focus_only":"Düşmanlığın varlığını anlatır ve onun açıkça ilan edilmesini gerektirmez.","gloss":"düşmanlığı açığa vurmak","neighbor_only":"Düşmanlığın gizlenmeden açıkça ortaya konması eylemini anlatır.","neighbor_ref":"root_000097/B004","relation_type":"near_neighbor","shared_zone":"Her iki dal da taraflar arasındaki düşmanlık ilişkisine dayanır."}],"source_phrase_ar":"النائرة الكائنة تقع بين القوم (ayn)؛ بينهم نائرة أي عداوة وشحناء (sihah)","source_summary":"Kaynaklar anlamı topluluklar arasında beliren düşmanlık ve kin durumu olarak ortak biçimde açıklar.","sources":["AY","SI"],"what_is_ar":"يدخل فيه النائرة الواقعة بين القوم بمعنى العداوة والشحناء.","what_is_not_ar":"لا يدخل فيه النار الحسية، ولا النِّفار، ولا الضياء."},"support_links":[]},{"boundary":"Duman maddesi yalnız göz boyası veya dövme kullanımında yer alır; genel duman ve genel ışık anlamı bu dala girmez.","branch_kind":"bare","branch_ref":"root_001564/B008","candidate_links":[],"focus_root_occurrences":[{"lemma_ar":"نَار","morph_features":"STEM|POS:N|LEM:naAr|ROOT:nwr|F|INDEF|NOM","morpheme_role":"STEM","pos":"N","qac_ref":"90:20:2:1","qac_word_ref":"90:20:2","surface_ar":"نَارٌ"}],"gloss":"göz boyası ve dövme için kullanılan duman karası","lexicon_identity_status":"accepted","registry":"focus","review_facets":[{"facet_id":"F001","role":"core","source_fields":["distinctive_facets[F001]"],"statements":{"statement":"Fitil veya yağ dumanından elde edilen ve göz boyası ya da dövmede kullanılan koyu madde temel nesnedir."}},{"facet_id":"F002","role":"associated_use","source_fields":["distinctive_facets[F002]"],"statements":{"statement":"Deri veya diş eti iğnelendikten sonra açılan yerlere koyu madde sürme işlemi, nesneye bağlı eylemdir."}}],"root_ar":"ن و ر","root_id":"root_001564","root_occurrence_qualification":"These are focus-ayah occurrences mapped to the same root. They identify possible surface carriers but do not prove that this branch sense is active. Activation still requires an independent linguistic or contextual trigger.","semantic_detail":{"applicability":"Duman kökenli koyu maddeyi ve iğneleme sonrasında bu maddeyi uygulama eylemini birlikte kapsar.","boundary_detail":"Duman maddesi yalnız göz boyası veya dövme kullanımında yer alır; genel duman ve genel ışık anlamı bu dala girmez.","branch_image_ar":"دخان الوشم والكحل","concept_gloss":"göz boyası ve dövme için kullanılan duman karası","contextual_glosses":[{"applicability":"Fitil veya yağ dumanından elde edilip göz çevresinde ya da dövmede kullanılan koyu madde anlatıldığında kullanılır.","error_profile":{"adds":null,"collision":null,"fit":"narrowing","loses":"Deriyi veya diş etini iğneleyip madde uygulama eylemini dışarıda bırakır.","preserves":"Duman kökenli koyu madde ve onun göz boyası ile dövme amaçlarını korur."},"facet_ids":["F001"],"text":"duman karası","usage_role":"explanatory"},{"applicability":"Deri ya da diş etinde iğneyle açılan yerlere koyu madde veya göz boyası uygulanması anlatıldığında kullanılır.","error_profile":{"adds":null,"collision":null,"fit":"narrowing","loses":"Kullanılan duman kökenli maddenin bağımsız ad anlamını dışarıda bırakır.","preserves":"İğneleme ile ardından boya maddesi uygulama aşamalarını korur."},"facet_ids":["F002"],"text":"iğneleyip boya serpmek","usage_role":"contextual"}],"definition":"Fitil ya da yağ dumanından elde edilip göz boyası veya dövme maddesi olarak kullanılan koyu ürünü anlatır. Buna bağlı eylem, deri ya da diş etini iğneleyip açılan yerlere bu ürünü veya göz boyasını serpmektir.","distinctive_facets":[{"facet_id":"F001","role":"core","statement":"Fitil veya yağ dumanından elde edilen ve göz boyası ya da dövmede kullanılan koyu madde temel nesnedir."},{"facet_id":"F002","role":"associated_use","statement":"Deri veya diş eti iğnelendikten sonra açılan yerlere koyu madde sürme işlemi, nesneye bağlı eylemdir."}],"identity_rationale":"Kaynak ifadesi fitil ya da yağ dumanından elde edilen koyu maddeyi göz boyası veya dövme malzemesi olarak tanımlar; ayrıca deriyi ya da diş etini iğneleyip bu maddeyi veya göz boyasını uygulama eylemini verir. Geçici çerçeve kullanım amacını doğru sınırlar.","lexical_glosses":[{"lexical_unit_id":"lu_025","rendering_kind":"ordinary","target_gloss":"göz boyası veya dövme için kullanılan fitil ya da yağ dumanı karası"},{"lexical_unit_id":"lu_026","rendering_kind":"ordinary","target_gloss":"deriyi veya diş etini iğneleyip üzerine duman karası ya da göz boyası serpmek"}],"lexicalization_note":"Tanım yalın dalda kozmetik ve dövme amaçlı duman maddesi ile buna bağlı iğneleme işlemini kapsar; genel dumana genişlemez.","neighbor_coverage_note":"Bütün adaylar incelendi; genel siyahlık, alevsiz duman ve göz boyası alanlarıyla en güçlü üç sınır karşılaştırması seçildi.","neighbor_distinctions":[{"boundary_match":"partial","distinction":"Odak dal kullanım amacıyla sınırlı bir boya maddesidir; komşu dal genel siyahlık, kömür, kül ve duman alanına yayılır.","focus_only":"Duman karasını göz boyası veya dövme maddesi olarak ve iğneleme işleminde kullanır.","gloss":"duman karası ve genel siyahlık","neighbor_only":"Kömür, yanık kül, yoğun kara duman ve insan, hayvan ya da bitkideki genel siyahlığı kapsar.","neighbor_ref":"root_000001/B001","relation_type":"near_neighbor","shared_zone":"İki dal da yanma ya da duman sonucunda oluşan koyu siyah madde alanında buluşur."},{"boundary_match":"partial","distinction":"Odak dal dumanın kullanım için elde edilen katımsı karasına odaklanır; komşu dal dumanın kendisini anlatır.","focus_only":"Duman ürünü göz boyası veya dövme maddesi olarak toplanıp uygulanır.","gloss":"alevsiz duman ve boya maddesi","neighbor_only":"Alevsiz dumanı, herhangi bir kozmetik veya dövme amacı olmadan anlatır.","neighbor_ref":"root_001480/B005","relation_type":"near_neighbor","shared_zone":"Her iki dal da alevden ayrı düşünülebilen duman alanındadır."},{"boundary_match":"field_only","distinction":"Odak dal maddenin duman kökeni ve dövme işleviyle tanımlanır; komşu dal parlatma ve görüşü açma işlevine yönelir.","focus_only":"Duman kökenli maddeyi dövmede de kullanır ve iğneleme sonrası uygulama işlemini kapsar.","gloss":"göz boyası kullanımı","neighbor_only":"Kılıcı parlatma ve görüşü açtığı düşünülen göz boyasını kapsar.","neighbor_ref":"root_000256/B002","relation_type":"same_field","shared_zone":"İki dal da göze uygulanan koyu boya maddesi alanında kesişir."}],"source_phrase_ar":"النؤور دخان الفتيلة يتخذ كحلا أو وشما (ayn)؛ النوور: النيلج، وهو دخان الشحم يعالج به الوشم؛ وقد نور ذراعه إذا غرزها بإبرة ثم ذر عليها النوور (sihah)؛ مما شذ عن هذا الأصل النؤور دخان الفتيلة يتخذ كحلا ووشما؛ نورت اللثة غرزتها بإبرة ثم جعلت في الغرز الإثمد (maqayis)","source_summary":"Kaynaklar duman kökenli koyu maddenin göz boyası ve dövme amacıyla kullanımında birleşir; iğneleme sonrası bu maddeyi ya da göz boyasını uygulama işlemini de açıklar.","sources":["AY","SI","MQ"],"what_is_ar":"يدخل فيه النُّؤور أو النُّوور، وهو دخان الفتيلة أو الشحم المتخذ كحلا أو وشما، ويدخل فيه نور العضو إذا غرز ثم ذر عليه الإثمد أو النُّوور.","what_is_not_ar":"لا يدخل فيه ضياء النور، ولا دخان النار مطلقا بلا استعمال كحل أو وشم."},"support_links":[]},{"boundary":"Dal bedene sürülen belirli madde ve onun uygulanmasıyla sınırlıdır; her türlü yağ, boya veya yapıştırıcıyı kapsamaz.","branch_kind":"bare","branch_ref":"root_001564/B009","candidate_links":[],"focus_root_occurrences":[{"lemma_ar":"نَار","morph_features":"STEM|POS:N|LEM:naAr|ROOT:nwr|F|INDEF|NOM","morpheme_role":"STEM","pos":"N","qac_ref":"90:20:2:1","qac_word_ref":"90:20:2","surface_ar":"نَارٌ"}],"gloss":"bedene sürülen özel karışım ve onu sürünme","lexicon_identity_status":"accepted","registry":"focus","review_facets":[{"facet_id":"F001","role":"core","source_fields":["distinctive_facets[F001]"],"statements":{"statement":"Bedene sürülmek için kullanılan özel karışım, dalın nesne anlamıdır."}},{"facet_id":"F002","role":"extension","source_fields":["distinctive_facets[F002]"],"statements":{"statement":"Kişinin bu karışımı kendi bedenine sürmesi, nesne anlamına bağlı eylemdir."}}],"root_ar":"ن و ر","root_id":"root_001564","root_occurrence_qualification":"These are focus-ayah occurrences mapped to the same root. They identify possible surface carriers but do not prove that this branch sense is active. Activation still requires an independent linguistic or contextual trigger.","semantic_detail":{"applicability":"Özel maddenin kendisini ve kişinin onu bedenine uygulamasını birlikte karşılar.","boundary_detail":"Dal bedene sürülen belirli madde ve onun uygulanmasıyla sınırlıdır; her türlü yağ, boya veya yapıştırıcıyı kapsamaz.","branch_image_ar":"النُّورَة المطلية","concept_gloss":"bedene sürülen özel karışım ve onu sürünme","contextual_glosses":[{"applicability":"Kişisel bakım amacıyla bedene sürülen özel maddenin kendisi anlatıldığında kullanılır.","error_profile":{"adds":null,"collision":null,"fit":"narrowing","loses":"Kişinin bu maddeyi kendi bedenine sürmesi eylemini dışarıda bırakır.","preserves":"Maddenin bedene sürülmek üzere hazırlanmış olmasını korur."},"facet_ids":["F001"],"text":"bedene sürülen karışım","usage_role":"explanatory"},{"applicability":"Bir kişinin söz konusu özel karışımı kendi bedenine uygulaması anlatıldığında kullanılır.","error_profile":{"adds":null,"collision":null,"fit":"narrowing","loses":"Uygulanan özel maddenin bağımsız ad anlamını dışarıda bırakır.","preserves":"Kişinin maddeyi kendi bedenine uygulama eylemini korur."},"facet_ids":["F002"],"text":"bedenine sürmek","usage_role":"contextual"}],"definition":"Bedene sürülen özel bir karışımı ve kişinin bu karışımı bedenine sürmesini anlatır.","distinctive_facets":[{"facet_id":"F001","role":"core","statement":"Bedene sürülmek için kullanılan özel karışım, dalın nesne anlamıdır."},{"facet_id":"F002","role":"extension","statement":"Kişinin bu karışımı kendi bedenine sürmesi, nesne anlamına bağlı eylemdir."}],"identity_rationale":"Kaynak ifadesi bedene sürülen özel bir maddeyi ve kişinin bu maddeyi bedenine sürmesini açıkça verir. Geçici çerçeve nesne ile uygulama eylemini doğru bir arada tutar ve onu ışık, duman karası veya genel boya anlamına genişletmez.","lexical_glosses":[{"lexical_unit_id":"lu_027","rendering_kind":"ordinary","target_gloss":"bedene sürülen özel karışım"},{"lexical_unit_id":"lu_028","rendering_kind":"ordinary","target_gloss":"özel karışımı bedenine sürmek"}],"lexicalization_note":"Tanım yalın dalın bedene sürülen özel madde ve onu sürünme anlamıyla sınırlıdır; komşu kaplama maddeleri içeri alınmaz.","neighbor_coverage_note":"Bütün adaylar değerlendirildi; genel yağlama, metal araçla beden bakımı ve sıva benzeri kaplama arasındaki üç sınır seçildi.","neighbor_distinctions":[{"boundary_match":"partial","distinction":"Odak dal özel madde ve beden nesnesine bağlıdır; komşu dal maddenin yağ olması ve daha genel yüzeylere uygulanmasıyla tanımlanır.","focus_only":"Belirli bir karışımın insan bedenine uygulanmasıyla sınırlıdır.","gloss":"bedene sürülen madde ve yağ","neighbor_only":"Her tür yağ ve yağlama eylemini, nesnesi beden olsun olmasın kapsar.","neighbor_ref":"root_000497/B001","relation_type":"near_neighbor","shared_zone":"İki dal da bir maddeyi yüzeye sürerek kaplama eylemini kapsar."},{"boundary_match":"thematic_only","distinction":"Anlamsal çekirdekleri farklıdır: odak dal madde sürmedir, komşu dal metal araçla kesme veya keskinleştirmedir.","focus_only":"Bedene bir karışım sürerek bakım yapmayı anlatır.","gloss":"beden bakımı","neighbor_only":"Demir araç kullanmayı, kıl kesmeyi ve bıçağı keskinleştirmeyi anlatır.","neighbor_ref":"root_000002/B008","relation_type":"thematic","shared_zone":"İki dal kişisel bakım senaryosunda, özellikle beden üzerindeki uygulamalarda buluşabilir."},{"boundary_match":"field_only","distinction":"Odak dal beden uygulamasıdır; komşu dal yapı sıvası ve beyazlık belirtisi çevresinde toplanır.","focus_only":"İnsan bedenine sürülen özel karışımı ve kişinin onu uygulamasını kapsar.","gloss":"sürülen açık renkli madde","neighbor_only":"Yapı ve mezarların sıvanmasını, ayrıca bedensel bir beyazlık belirtisini kapsar.","neighbor_ref":"root_001232/B007","relation_type":"same_field","shared_zone":"İki dal yüzeye sürülen bir madde ve kaplama görüntüsü alanında ilişkilidir."}],"source_phrase_ar":"النورة يطلى بها (ayn)؛ تنور الرجل: تطلى بالنورة (sihah)","source_summary":"Kaynaklar bedene sürülen özel maddeyi ve bir kişinin bu maddeyi kendi bedenine sürmesi eylemini aynı dalda verir.","sources":["AY","SI"],"what_is_ar":"يدخل فيه النُّورَة التي يطلى بها، وتنور الرجل إذا تطلى بالنُّورَة.","what_is_not_ar":"لا يدخل فيه النور بمعنى الضوء، ولا النُّؤور دخان الفتيلة، ولا نور الشجر."},"support_links":[]},{"boundary":"Anlam yalnız kişi yöneltmeli yapıda bir işi karıştırıp yanıltmaktır; genel gizleme veya açıklama anlamına yayılmaz.","branch_kind":"collocation","branch_ref":"root_001564/B010","candidate_links":[],"focus_root_occurrences":[{"lemma_ar":"نَار","morph_features":"STEM|POS:N|LEM:naAr|ROOT:nwr|F|INDEF|NOM","morpheme_role":"STEM","pos":"N","qac_ref":"90:20:2:1","qac_word_ref":"90:20:2","surface_ar":"نَارٌ"}],"gloss":"bir işi karışık gösterip yanıltmak","lexicon_identity_status":"qualified","registry":"focus","review_facets":[{"facet_id":"F001","role":"core","source_fields":["distinctive_facets[F001]"],"statements":{"statement":"Bir işi muhataba karışık göstererek onu yanıltmak, yapının temel eylemidir."}},{"facet_id":"F002","role":"source_variant","source_fields":["distinctive_facets[F002]"],"statements":{"statement":"Kaynak, bu kullanımın kökenini bütünüyle yerli saymadığını ayrıca belirtir."}}],"root_ar":"ن و ر","root_id":"root_001564","root_occurrence_qualification":"These are focus-ayah occurrences mapped to the same root. They identify possible surface carriers but do not prove that this branch sense is active. Activation still requires an independent linguistic or contextual trigger.","semantic_detail":{"applicability":"Yalnız belirli bir kişiye yönelen ve bir işi ona karışık gösteren yapı için geçerlidir.","boundary_detail":"Anlam yalnız kişi yöneltmeli yapıda bir işi karıştırıp yanıltmaktır; genel gizleme veya açıklama anlamına yayılmaz.","branch_image_ar":"التلبيس على الغير","concept_gloss":"bir işi karışık gösterip yanıltmak","contextual_glosses":[{"applicability":"Bir işi bir kişiye belirsiz veya başka türlü göstererek onun doğru anlamasını engelleme bağlamında kullanılır.","error_profile":{"adds":null,"collision":null,"fit":"none","loses":null,"preserves":"Kişiye yönelen karıştırma ve onu doğru anlamdan uzaklaştırma eylemini korur."},"facet_ids":["F001","F002"],"text":"kafasını karıştırmak","usage_role":"contextual"}],"definition":"Belirli bir kişiye bir işi karışık ve başka türlü göstererek onun doğru anlamasını engellemeyi anlatan yapıdır.","distinctive_facets":[{"facet_id":"F001","role":"core","statement":"Bir işi muhataba karışık göstererek onu yanıltmak, yapının temel eylemidir."},{"facet_id":"F002","role":"source_variant","statement":"Kaynak, bu kullanımın kökenini bütünüyle yerli saymadığını ayrıca belirtir."}],"identity_rationale":"Kaynak ifadesi belirli bir kişi yöneltmeli yapıda bir işi ona karışık gösterip onu yanıltma anlamını açıkça verir. Bununla birlikte kaynak kullanımın bütünüyle yerli olmadığını belirtir; bu nedenle anlam kabul edilirken köken açıklaması kesinleştirilmez.","lexical_glosses":[{"lexical_unit_id":"lu_029","rendering_kind":"ordinary","target_gloss":"bir işi birine karışık gösterip onu yanıltmak"}],"lexicalization_note":"Tanım yalnız verilen kişi yöneltmeli yapıya bağlıdır; yalın biçime genel yanıltma anlamı yüklenmez.","neighbor_coverage_note":"Bütün adaylar değerlendirildi; genel belirsizleştirme, gizleme, hile ve açıklığa çıkarma karşıtlığı en yararlı dört sınır olarak seçildi.","neighbor_distinctions":[{"boundary_match":"partial","distinction":"Odak dal muhatabı yanıltan belirli bir yapıdır; komşu dal nesnenin karışması veya karıştırılması biçiminde daha genel bir kapsama sahiptir.","focus_only":"Belirli bir kişi yöneltmeli yapıda bir işi ona karışık gösterir.","gloss":"karıştırmak ve belirsizleştirmek","neighbor_only":"İşin, sözün veya karanlığın kendisinin karışıp belirsizleşmesini daha genel biçimde kapsar.","neighbor_ref":"root_001341/B003","relation_type":"near_synonym","shared_zone":"İki dal da bir işin anlaşılmasını güçleştiren karışıklık ve belirsizlik yaratır."},{"boundary_match":"partial","distinction":"Odak dal yanlış veya karışık görünüm üretir; komşu dal bilginin kendisini saklar ve görünmez kılar.","focus_only":"İşi kişiye başka türlü göstererek zihinsel karışıklık yaratır.","gloss":"yanıltmak ve gizlemek","neighbor_only":"İşi doğrudan gizleyip kişinin ondan haberdar olmasını engeller.","neighbor_ref":"root_001617/B009","relation_type":"near_synonym","shared_zone":"Her iki dal da bir kişinin bir işi doğru biçimde öğrenmesini engeller."},{"boundary_match":"partial","distinction":"Odak dal anlama sürecini karıştırır; komşu dal gizli amaç taşıyan daha geniş bir hile ve davranış düzenini anlatır.","focus_only":"Kişiye belirli bir işi karışık gösterme yapısıyla sınırlıdır.","gloss":"aldatıcı karıştırma","neighbor_only":"Bir şeyi gösterip başka bir şeyi amaçlayan hileli davranışı ve kalıplaşmış sözü kapsar.","neighbor_ref":"root_000439/B008","relation_type":"near_neighbor","shared_zone":"İki dal da görünüş ile gerçek amaç arasındaki ayrılıktan yararlanarak karşı tarafı yanıltır."},{"boundary_match":"opposed","distinction":"Odak dal anlaşılabilirliği azaltır ve yanıltır; komşu dal görünürlüğü ve açıklığı artırır.","focus_only":"Bir işi anlaşılmaz veya yanlış anlaşılır hale getirir.","gloss":"karıştırma ve açıklığa çıkarma","neighbor_only":"Bir şeyin görünür, açık ve kanıtlanabilir hale gelmesini anlatır.","neighbor_ref":"root_000170/B004","relation_type":"polarity_pair","shared_zone":"İki dal da bir işin muhatap tarafından ne ölçüde açıkça anlaşılabildiği eksenindedir."}],"source_phrase_ar":"فلان ينور على فلان إذا شبه عليه أمرا؛ ليست الكلمة بعربية محضة؛ امرأة كانت تسمى نورة (ayn)","source_qualifications":[{"kind":"sole_attestation","summary":"Bir işi kişiye karışık gösterip onu yanıltan yapı tek başına tanıklanır; kullanımın bütünüyle yerli olmadığı da belirtilir."}],"source_summary":"Dalın anlamı ve köken sınırlaması tek bir kaynak tanıklığına dayanır.","sources":["AY"],"what_is_ar":"يدخل فيه قولهم نور على فلان إذا شبه عليه أمرا.","what_is_not_ar":"لا يدخل فيه الإنارة، ولا النُّورَة، ولا النار."},"support_links":[]},{"boundary":"Anlam kümesi açıklık ve belirgin çıkıntı çevresinde tutulur; incelenen köke bağlılığı olasılık düzeyindedir.","branch_kind":"mixed_non_bare","branch_ref":"root_001564/B011","candidate_links":[],"focus_root_occurrences":[{"lemma_ar":"نَار","morph_features":"STEM|POS:N|LEM:naAr|ROOT:nwr|F|INDEF|NOM","morpheme_role":"STEM","pos":"N","qac_ref":"90:20:2:1","qac_word_ref":"90:20:2","surface_ar":"نَارٌ"}],"gloss":"açıkça seçilen veya belirgin biçimde çıkan şey","lexicon_identity_status":"qualified","registry":"focus","review_facets":[{"facet_id":"F001","role":"core","source_fields":["distinctive_facets[F001]"],"statements":{"statement":"Bir şeyin açıkça seçilmesi ve çevresinden belirgin biçimde çıkması ortak anlam ilkesidir."}},{"facet_id":"F002","role":"example","source_fields":["distinctive_facets[F002]"],"statements":{"statement":"Açık yol oluğu ve kumaştaki belirgin işaret, görünürlük ilkesinin nesne örnekleridir."}},{"facet_id":"F003","role":"specialization","source_fields":["distinctive_facets[F003]"],"statements":{"statement":"Çift hayvanının boynuna konan boyunduruk ve iki kat güçle nitelenen kişi, kümenin özel kullanımlarıdır."}},{"facet_id":"F004","role":"source_variant","source_fields":["distinctive_facets[F004]"],"statements":{"statement":"Bu ses yapısının incelenen köke dönmesi kaynakta kesinlik değil, yalnız olasılık olarak sunulur."}}],"root_ar":"ن و ر","root_id":"root_001564","root_occurrence_qualification":"These are focus-ayah occurrences mapped to the same root. They identify possible surface carriers but do not prove that this branch sense is active. Activation still requires an independent linguistic or contextual trigger.","semantic_detail":{"applicability":"Yol oluğu, kumaş işareti, boyunduruk ve güç nitelemesini ortak belirginlik ilkesiyle, kök bağına kesinlik vermeden kapsar.","boundary_detail":"Anlam kümesi açıklık ve belirgin çıkıntı çevresinde tutulur; incelenen köke bağlılığı olasılık düzeyindedir.","branch_image_ar":"وضوح النِّير وبروزه","concept_gloss":"açıkça seçilen veya belirgin biçimde çıkan şey","contextual_glosses":[{"applicability":"Yol üzerinde açıkça görülen uzun çukur ya da iz anlatıldığında kullanılır.","error_profile":{"adds":null,"collision":null,"fit":"narrowing","loses":"Kumaş işareti, boyunduruk, güç nitelemesi ve kök belirsizliğini dışarıda bırakır.","preserves":"Yoldaki açıkça seçilen oluk ve belirginlik özelliğini korur."},"facet_ids":["F001","F002"],"text":"belirgin yol oluğu","usage_role":"contextual"},{"applicability":"Çift süren hayvanın boynuna aracıyla birlikte konan ağaç parça anlatıldığında kullanılır.","error_profile":{"adds":null,"collision":null,"fit":"narrowing","loses":"Yol oluğu, kumaş işareti, güç nitelemesi ve kök belirsizliğini dışarıda bırakır.","preserves":"Hayvanın boynuna konan belirgin ağaç parça anlamını korur."},"facet_ids":["F001","F003"],"text":"çift hayvanı boyunduruğu","usage_role":"contextual"}],"definition":"Açıkça seçilen veya çevresinden belirgin biçimde çıkan şeyleri anlatan bir kümedir; açık yol oluğu, kumaştaki belirgin işaret, çift hayvanının boynundaki boyunduruk ve gücü iki kat sayılan kişi bu çerçevede verilir. Kümenin incelenen köke bağlılığı kesin değil, olasıdır.","distinctive_facets":[{"facet_id":"F001","role":"core","statement":"Bir şeyin açıkça seçilmesi ve çevresinden belirgin biçimde çıkması ortak anlam ilkesidir."},{"facet_id":"F002","role":"example","statement":"Açık yol oluğu ve kumaştaki belirgin işaret, görünürlük ilkesinin nesne örnekleridir."},{"facet_id":"F003","role":"specialization","statement":"Çift hayvanının boynuna konan boyunduruk ve iki kat güçle nitelenen kişi, kümenin özel kullanımlarıdır."},{"facet_id":"F004","role":"source_variant","statement":"Bu ses yapısının incelenen köke dönmesi kaynakta kesinlik değil, yalnız olasılık olarak sunulur."}],"identity_rationale":"Kaynak ifadesi bu kümeyi önce ayrı bir ses yapısı altında açıklık ve çıkıntı ilkesiyle kurar; yol oluğu, kumaş işareti, boyunduruk ve iki kat güç örneklerini verir. Aynı kaynak bunun incelenen köke dönmesinin mümkün olduğunu yalnız ihtimal olarak söyler, bu yüzden dal korunur ancak kök bağı kesin gösterilemez.","lexical_glosses":[{"lexical_unit_id":"lu_030","rendering_kind":"ordinary","target_gloss":"yolun belirgin oluğu"},{"lexical_unit_id":"lu_031","rendering_kind":"ordinary","target_gloss":"kumaşın belirgin işareti veya çizgisi"},{"lexical_unit_id":"lu_032","rendering_kind":"ordinary","target_gloss":"çift hayvanının boynundaki boyunduruk ve takımı"},{"lexical_unit_id":"lu_033","rendering_kind":"ordinary","target_gloss":"gücü başkasının iki katı olan adam"}],"lexicalization_note":"Yol oluğu ve boyunduruk adları ile kumaş ve kişi yapıları ayrı tutulur; olası kök bağı bütün örnekleri yalın ışık anlamına dönüştürmez.","neighbor_coverage_note":"Bütün adaylar değerlendirildi; yol oluğu, işaret, koşum takımı ve görünür hale gelme alanlarıyla en açıklayıcı dört sınır seçildi.","neighbor_distinctions":[{"boundary_match":"partial","distinction":"Odak kullanım açık yol oluğuna bağlı bir alt alandır; komşu dal malzeme ve yer bakımından daha geniş uzun yarık çekirdeğine sahiptir.","focus_only":"Yol üzerindeki açık oluğun yanında kumaş işareti, boyunduruk ve güç nitelemesini de kapsar.","gloss":"belirgin oluk ve uzun yarık","neighbor_only":"Toprakta veya bedende oluşan uzun, derin yarık ve kazılmış izleri daha genel biçimde kapsar.","neighbor_ref":"root_000395/B002","relation_type":"near_synonym","shared_zone":"İki dal da zeminde uzanan, çevresinden ayrılan oluk veya yarık biçimini kapsar."},{"boundary_match":"partial","distinction":"Odak dal kumaştaki işareti genel belirginlik ilkesine bağlar; komşu dalın çekirdeği nesnelerin kenarı boyunca uzanan yan çizgidir.","focus_only":"Kumaştaki belirgin işareti yol oluğu, boyunduruk ve güç nitelemesiyle aynı açıklık kümesinde verir.","gloss":"kumaş işareti ve yan çizgi","neighbor_only":"Dizgin ve yanak üzerindeki yan çizgiyi, duvar ve vadi kenarlarını, yan yana uzanan yolları kapsar.","neighbor_ref":"root_000995/B008","relation_type":"near_neighbor","shared_zone":"İki dal da bir yüzeyde uzanan ve çevresinden belirgin biçimde ayrılan çizgi ya da işaret alanında buluşur."},{"boundary_match":"field_only","distinction":"Odak parça boyun üzerindeki sert boyunduruktur; komşu parça karın ya da bel çevresinde kullanılan bağ ve iptir.","focus_only":"Çift hayvanının boynuna konan ağaç boyunduruğu ve takımını anlatır.","gloss":"hayvan koşum takımı","neighbor_only":"Devenin karnından geçirilen eyer bağı ile bele bağlanan ipi anlatır.","neighbor_ref":"root_000345/B002","relation_type":"same_field","shared_zone":"İki dal da yük veya araç bağlantısında hayvanın bedenine yerleştirilen koşum parçası alanındadır."},{"boundary_match":"partial","distinction":"Odak dal belirgin nesneleri adlandıran bir kümedir; komşu dal görünür hale gelme ve ortaya çıkma sürecini anlatır.","focus_only":"Belirginliği somut nesne adlarına ve güç nitelemesine dönüştürür.","gloss":"belirginlik ve ortaya çıkma","neighbor_only":"Yolun, gerçeğin, işin veya topluluğun görünür hale gelmesi eylem ve durumlarını kapsar.","neighbor_ref":"root_000268/B007","relation_type":"near_neighbor","shared_zone":"İki dal da bir şeyin çevresinden ayrılarak açıkça görünmesi düşüncesini paylaşır."}],"source_phrase_ar":"النون والياء والراء كلمة تدل على وضوح شيء وبروزه؛ أخدود الطريق الواضح منه نير؛ نير الثوب علمه؛ النير الخشبة على عنق الفدان؛ ما ننكر أن يكون أصل هذا كله الواو فيرجع إلى ما ذكرناه في باب النور والنار (maqayis)","source_qualifications":[{"kind":"sole_attestation","summary":"Tek tanıklık açıklık ve belirgin çıkıntı ilkesini yol oluğu, kumaş işareti, boyunduruk ve iki kat güç örnekleriyle verir; kök bağını ise olası sayar."}],"source_summary":"Dalın bütün anlamları ve kök bağlantısına ilişkin ihtimal tek bir kaynak tanıklığına dayanır.","sources":["MQ"],"what_is_ar":"يدخل فيه النِّير في أخدود الطريق الواضح، وعلم الثوب، والخشبة على عنق الفدان، وما قيس على الوضوح والبروز في مدخل نير.","what_is_not_ar":"لا يدخل فيه جذر ن و ر إلا على احتمال رجوع الواو الذي ذكره مقاييس."},"support_links":[]},{"boundary":"Genel bitiştirme çekirdeği ile kapıyı örtüp sıkıca kapatma gerçekleşimi ayrı tutulmalıdır.","branch_kind":"mixed_non_bare","branch_ref":"root_001653/B001","candidate_links":[{"candidate_id":"cand_22e41b3f03fa57a5e852","lane":"micro"},{"candidate_id":"cand_696be8209b3bc8641035","lane":"micro"}],"focus_root_occurrences":[{"lemma_ar":"مُّؤْصَدَة","morph_features":"STEM|POS:ADJ|LEM:m~u&oSadap|ROOT:wSd|F|INDEF|NOM","morpheme_role":"STEM","pos":"ADJ","qac_ref":"90:20:3:1","qac_word_ref":"90:20:3","surface_ar":"مُّؤْصَدَةٌۢ"}],"gloss":"bitiştirerek sıkıca kapatma","lexicon_identity_status":"qualified","registry":"focus","review_facets":[{"facet_id":"F001","role":"core","source_fields":["distinctive_facets[F001]"],"statements":{"statement":"Temel ilişki, bir şeyi başka bir şeye katıp iki şeyi birbirine bitiştirmektir."}},{"facet_id":"F002","role":"specialization","source_fields":["distinctive_facets[F002]"],"statements":{"statement":"Kapıya bağlı gerçekleşimde kapı örtülür, iki yüzey birbirine getirilir ve kapanış sağlamlaştırılır."}},{"facet_id":"F003","role":"extension","source_fields":["distinctive_facets[F003]"],"statements":{"statement":"Eylemin sonucu, kapının bütünüyle örtülmüş ve sıkıca kapalı durumda bulunmasıdır."}}],"root_ar":"و ص د","root_id":"root_001653","root_occurrence_qualification":"These are focus-ayah occurrences mapped to the same root. They identify possible surface carriers but do not prove that this branch sense is active. Activation still requires an independent linguistic or contextual trigger.","semantic_detail":{"applicability":"Genel bitiştirme çekirdeğini ve kapı bağlamındaki örtme, sağlam kapatma ve kapalı sonuç bütününü birlikte anlatır.","boundary_detail":"Genel bitiştirme çekirdeği ile kapıyı örtüp sıkıca kapatma gerçekleşimi ayrı tutulmalıdır.","branch_image_ar":"إطباق الباب وإحكام إغلاقه","concept_gloss":"bitiştirerek sıkıca kapatma","contextual_glosses":[{"applicability":"Kapının örtülerek sağlam biçimde kapatıldığı eylem bağlamlarında doğal bir karşılıktır.","error_profile":{"adds":null,"collision":null,"fit":"narrowing","loses":"Genel bitiştirme çekirdeğini ve kapalı sonucu ayrıca adlandırmaz.","preserves":"Kapıya uygulanan örtme ve sağlam kapatma eylemini korur."},"facet_ids":["F002"],"text":"kapıyı sıkıca kapatmak","usage_role":"contextual"},{"applicability":"Eylemden çok kapının eriştiği örtülü ve sağlam kapalı durumu öne çıkaran bağlamlarda kullanılır.","error_profile":{"adds":null,"collision":null,"fit":"narrowing","loses":"Bitiştirme çekirdeğini ve kapatma işlemini göstermez.","preserves":"Ortaya çıkan sağlam kapalı durumu korur."},"facet_ids":["F003"],"text":"sıkıca kapalı","usage_role":"contextual"}],"definition":"Bir şeyi başka bir şeye katıp bitiştirme düşüncesidir. Kapı bağlamında iki yüzeyi birbirine getirerek kapıyı örtmeyi, sıkıca kapatmayı ve böyle kapalı durumda bulunmayı anlatır.","distinctive_facets":[{"facet_id":"F001","role":"core","statement":"Temel ilişki, bir şeyi başka bir şeye katıp iki şeyi birbirine bitiştirmektir."},{"facet_id":"F002","role":"specialization","statement":"Kapıya bağlı gerçekleşimde kapı örtülür, iki yüzey birbirine getirilir ve kapanış sağlamlaştırılır."},{"facet_id":"F003","role":"extension","statement":"Eylemin sonucu, kapının bütünüyle örtülmüş ve sıkıca kapalı durumda bulunmasıdır."}],"identity_rationale":"Kaynak sözü, kapıyı kapatma kullanımının arkasında bir şeyi başka bir şeye katıp bitiştirme çekirdeğini de açıkça verir. Bu nedenle sağlanan kapı çerçevesi geçerlidir, ancak dalın bütününü yalnızca kapıyla sınırlandırmamak gerekir.","lexical_glosses":[{"lexical_unit_id":"lu_001","rendering_kind":"ordinary","target_gloss":"kapıyı örtüp sıkıca kapatmak"},{"lexical_unit_id":"lu_002","rendering_kind":"ordinary","target_gloss":"kapıyı örtüp sıkıca kapatmak"},{"lexical_unit_id":"lu_003","rendering_kind":"ordinary","target_gloss":"örtülmüş ve kapalı"},{"lexical_unit_id":"lu_004","rendering_kind":"ordinary","target_gloss":"örtülmüş ve sıkıca kapatılmış"}],"lexicalization_note":"Tanım, genel bitiştirme çekirdeğini kapıya bağlı eylem ve kapalı durum bildiren biçimlerle kaynaştırmadan ayırır.","neighbor_coverage_note":"En yakın kapanma eylemleri, kilitleme alanı ve aynı kökteki kapı adı yayımlandı; set çekme, çevreleme, mühürleme, taş barınak ve bitki dalları ise ya daha uzak ya da bu karşıtlıkları yineleyen adaylardır.","neighbor_distinctions":[{"boundary_match":"partial","distinction":"Bu dal kapıdaki yüzeyleri bitiştirip kapanışı sağlamlaştırırken komşu dalın kapsamı bir şeyin üzerine kapanma yönünde daha geneldir.","focus_only":"Bitiştirme yönü ve kapının sağlam biçimde kapanması bu dalda birlikte öne çıkar.","gloss":"üzerine kapatma","neighbor_only":"Komşu dal, kapanmayı kapı dışındaki bir şeyin üzerine kapanma biçiminde de kurar.","neighbor_ref":"root_000036/B001","relation_type":"near_synonym","shared_zone":"Her iki dal da bir şeyi örtme, kapatma ve kapalı duruma getirme alanını paylaşır."},{"boundary_match":"partial","distinction":"Komşu dal kapıyı geri getiren hareketi öne çıkarır; bu dal ise yüzeylerin bitişmesiyle oluşan tam ve sağlam kapanışı vurgular.","focus_only":"Yüzeyleri bitiştirme, kapanışı sıkılaştırma ve kapalı sonucu birlikte içerir.","gloss":"kapıyı geri çekip kapatma","neighbor_only":"Kapıyı geri itme ya da çekme hareketi komşu dalın ayırt edici yönüdür.","neighbor_ref":"root_000279/B007","relation_type":"near_synonym","shared_zone":"İki dal da kapının açık durumdan kapalı duruma geçirilmesini anlatır."},{"boundary_match":"partial","distinction":"Bu dalın çekirdeği örtüp kapatmaktır; komşu dalın çekirdeği kilitleme ya da bağlama yoluyla kapalı tutmadır ve daha geniş yan anlamları vardır.","focus_only":"Kapının örtülüp yüzeylerinin bitişmesi ve böylece kapalı duruma gelmesi anlatılır.","gloss":"kilitleyip bağlama","neighbor_only":"Kilitleme ve bağlama yanında sertleşme, kuruma ve başka genişlemeler de bulunur.","neighbor_ref":"root_001246/B002","relation_type":"near_neighbor","shared_zone":"Her iki dal kapının açılmasını engelleyen sağlam bir kapanışla ilişkilendirilebilir."},{"boundary_match":"field_only","distinction":"Bu dal bir kapatma işlemi ve durumudur; komşu dal ise bir yerin ya da nesnenin adıdır, bu nedenle ortak bağlam anlam özdeşliği doğurmaz.","focus_only":"Kapıyı örtme ve sıkıca kapatma eylemi ile bunun sonucu anlatılır.","gloss":"eve bağlı avlu veya kapı","neighbor_only":"Eve bağlı açık alanı ya da bazı kullanımlarda kapının kendisini adlandırır.","neighbor_ref":"root_001653/B002","relation_type":"same_field","shared_zone":"Her iki dalın kullanımı ev ve kapı çevresinde görülebilir."}],"source_phrase_ar":"أصل يدل على ضم شيء إلى شيء (maqayis)؛ أوصدت الباب أغلقته والموصد المطبق (maqayis)؛ أوصدت الباب وآصدته إذا أغلقته فهو موصد ومطبقة (sihah)؛ أوصدت الباب وآصدته أي أطبقته وأحكمته ومؤصدة مطبقة (mufradat)","source_summary":"Kaynakların ortak anlatımı, bitiştirme temelini kapının örtülüp kapanmasıyla ilişkilendirir; kapatma eylemi, sıkılık ve ortaya çıkan kapalı durum aynı anlam çevresinde yer alır.","sources":["MQ","SI","MU"],"what_is_ar":"يدخل فيه أوصدت وآصدت الباب بمعنى أغلقته، والموصد أو المؤصد بمعنى المطبق المحكم.","what_is_not_ar":"لا يدخل فيه الوصيد بمعنى الفناء أو النبات أو الوصيدة الحجرية إلا من جهة اشتراكها في أصل الضم والاتصال."},"support_links":["sup_2ad0759d7cbea2ff3d71","sup_478a1c2d24f86d005faf"]},{"boundary":"Eve bağlı açık alan temel anlamdır; kapı anlamı kaynaklarda yer alan ayrı bir kullanım olarak korunmalıdır.","branch_kind":"non_bare","branch_ref":"root_001653/B002","candidate_links":[{"candidate_id":"cand_696be8209b3bc8641035","lane":"micro"}],"focus_root_occurrences":[{"lemma_ar":"مُّؤْصَدَة","morph_features":"STEM|POS:ADJ|LEM:m~u&oSadap|ROOT:wSd|F|INDEF|NOM","morpheme_role":"STEM","pos":"ADJ","qac_ref":"90:20:3:1","qac_word_ref":"90:20:3","surface_ar":"مُّؤْصَدَةٌۢ"}],"gloss":"eve bağlı avlu veya kapı","lexicon_identity_status":"accepted","registry":"focus","review_facets":[{"facet_id":"F001","role":"core","source_fields":["distinctive_facets[F001]"],"statements":{"statement":"Temel gönderge, eve bağlı açık alan ya da evin önündeki avludur."}},{"facet_id":"F002","role":"core","source_fields":["distinctive_facets[F002]"],"statements":{"statement":"Açık alanın ayırt edici ilişkisi, evle bitişik ya da eve bağlı olmasıdır."}},{"facet_id":"F003","role":"source_variant","source_fields":["distinctive_facets[F003]"],"statements":{"statement":"Aynı ad bazı kullanımlarda evin kapısını belirtir."}}],"root_ar":"و ص د","root_id":"root_001653","root_occurrence_qualification":"These are focus-ayah occurrences mapped to the same root. They identify possible surface carriers but do not prove that this branch sense is active. Activation still requires an independent linguistic or contextual trigger.","semantic_detail":{"applicability":"Eve bağlı açık alanı temel gönderge, evin kapısını ise ayrı bir kaynak kullanımı olarak birlikte kapsar.","boundary_detail":"Eve bağlı açık alan temel anlamdır; kapı anlamı kaynaklarda yer alan ayrı bir kullanım olarak korunmalıdır.","branch_image_ar":"فناء البيت أو بابه المتصل بالربع","concept_gloss":"eve bağlı avlu veya kapı","contextual_glosses":[{"applicability":"Sözcük evin önündeki ya da eve bağlı açık alanı gösterdiğinde doğal karşılıktır.","error_profile":{"adds":null,"collision":null,"fit":"narrowing","loses":"Aynı adın kapıyı belirten kaynak kullanımını dışarıda bırakır.","preserves":"Eve bağlı açık alanın yer ve bağlantı niteliğini korur."},"facet_ids":["F001","F002"],"text":"evin avlusu","usage_role":"contextual"},{"applicability":"Sözcüğün açık alanı değil doğrudan evin kapısını gösterdiği bağlamlarda kullanılır.","error_profile":{"adds":null,"collision":null,"fit":"narrowing","loses":"Eve bağlı açık alan olan temel göndergeyi içermez.","preserves":"Kapıyı adlandıran kaynak kullanımını korur."},"facet_ids":["F003"],"text":"evin kapısı","usage_role":"contextual"}],"definition":"Eve bağlı olan ve evin önünde ya da çevresinde yer alan açık alandır. Bazı kullanımlarda evin kapısını da adlandırır.","distinctive_facets":[{"facet_id":"F001","role":"core","statement":"Temel gönderge, eve bağlı açık alan ya da evin önündeki avludur."},{"facet_id":"F002","role":"core","statement":"Açık alanın ayırt edici ilişkisi, evle bitişik ya da eve bağlı olmasıdır."},{"facet_id":"F003","role":"source_variant","statement":"Aynı ad bazı kullanımlarda evin kapısını belirtir."}],"identity_rationale":"Kaynak sözü, eve bağlı açık alan anlamını bağlantı ilişkisiyle açıklar ve aynı biçim için kapı anlamını da bildirir. Sağlanan çerçeve bu iki tanıklığı sınırlarını bozmadan yansıtır.","lexical_glosses":[{"lexical_unit_id":"lu_005","rendering_kind":"ordinary","target_gloss":"evin avlusu veya kapısı"}],"lexicalization_note":"Tanım yalnızca belirtilen adın eve bağlı açık alan ve kapı anlamlarıyla sınırlıdır; kökün genel anlamı gibi sunulmaz.","neighbor_coverage_note":"Eve bağlı açık alan ve kapı anlamına en çok yaklaşan üç yer dalı ile aynı kökteki kapatma dalı yayımlandı; genel meydan, giriş, kısa duvar, gizlenme yeri ve diğer kök içi dallar daha uzak alan ilişkileridir.","neighbor_distinctions":[{"boundary_match":"partial","distinction":"Açık alan anlamında örtüşürler; bu dalın ayrıca kapı kullanımı bulunduğu için bütün kapsamları birbirinin yerine geçmez.","focus_only":"Eve bağlı açık alan yanında evin kapısını belirten ayrı bir kullanım da vardır.","gloss":"evin açık alanı","neighbor_only":"Komşu dal yalnızca açık alanı adlandıran sesçe farklı bir biçimdir.","neighbor_ref":"root_000036/B004","relation_type":"near_synonym","shared_zone":"İki dal da eve bağlı açık alanı aynı temel yer ilişkisiyle adlandırır."},{"boundary_match":"partial","distinction":"Bu dal eve bağlı avlu ile kapı arasında sınırlı kalır; komşu dal kapı önü yapıları ve başka kurumsal kullanımlara uzanır.","focus_only":"Eve bağlantıyla tanımlanan avlu ve ayrıca kapı kullanımı bulunur.","gloss":"kapı önü ve avlu","neighbor_only":"Kapı önü, eşik çevresi, gölgelik ya da yönetici kapıları gibi daha geniş kullanımları kapsar.","neighbor_ref":"root_000687/B004","relation_type":"near_synonym","shared_zone":"Her iki dal kapıyı ve kapının önündeki açık alanı adlandırabilir."},{"boundary_match":"partial","distinction":"Komşu dal açık alanın yayılım ve genişlik yönünü öne çıkarır; bu dal ise eve bağlantıyı temel alır ve kapıyı da adlandırabilir.","focus_only":"Açık alanın yanında kapıyı adlandıran kullanım da bulunur.","gloss":"evin önü ve çevresindeki avlu","neighbor_only":"Evin önüne ve yanlarına uzanan genişliği özellikle belirtir.","neighbor_ref":"root_001181/B002","relation_type":"near_synonym","shared_zone":"İki dal da eve bitişik ya da evin önündeki açık alanı anlatır."},{"boundary_match":"field_only","distinction":"Bu dal bir yer ya da nesne adıdır; komşu dal ise kapıya uygulanan eylem ve ortaya çıkan durumdur.","focus_only":"Eve bağlı açık alanı veya kapının kendisini adlandırır.","gloss":"kapıyı sıkıca kapatma","neighbor_only":"Kapıyı örtme, yüzeylerini bitiştirme ve sıkıca kapatma eylemini anlatır.","neighbor_ref":"root_001653/B001","relation_type":"same_field","shared_zone":"İki dal da ev ve kapı çevresinde kullanılan kavramlardır."}],"source_phrase_ar":"الوصيد الفناء لاتصاله بالربع (maqayis)؛ الوصيد فناء البيت والوصيد الباب (ayn)؛ الوصيد الفناء (sihah)","source_summary":"Toplu kaynak anlatımında eve bağlı açık alan ortak merkezdir; bağlantı, bu adlandırmanın gerekçesi olarak verilir. Bunun yanında aynı adın evin kapısını belirttiği bir kullanım da kaydedilir.","sources":["MQ","AY","SI"],"what_is_ar":"يدخل فيه الوصيد بمعنى فناء البيت، وبمعنى الباب، والفناء لاتصاله بالربع.","what_is_not_ar":"لا يدخل فيه إطباق الباب فعلا، ولا الوصيدة الحجرية، ولا النبات المتقارب الأصول."},"support_links":["sup_478a1c2d24f86d005faf"]},{"boundary":"Taştan yapılma, dağda bulunma ve hayvanları barındırma özellikleri genel çevrili alan anlamına indirgenmemelidir.","branch_kind":"mixed_non_bare","branch_ref":"root_001653/B003","candidate_links":[],"focus_root_occurrences":[{"lemma_ar":"مُّؤْصَدَة","morph_features":"STEM|POS:ADJ|LEM:m~u&oSadap|ROOT:wSd|F|INDEF|NOM","morpheme_role":"STEM","pos":"ADJ","qac_ref":"90:20:3:1","qac_word_ref":"90:20:3","surface_ar":"مُّؤْصَدَةٌۢ"}],"gloss":"dağdaki taş hayvan barınağı","lexicon_identity_status":"accepted","registry":"focus","review_facets":[{"facet_id":"F001","role":"core","source_fields":["distinctive_facets[F001]"],"statements":{"statement":"Gönderge, hayvanları içinde tutmak ya da barındırmak için yapılmış oda benzeri çevrili bir yapıdır."}},{"facet_id":"F002","role":"specialization","source_fields":["distinctive_facets[F002]"],"statements":{"statement":"Yapı dağda bulunur ve dallardan değil taşlardan yapılmasıyla sıradan hayvan çevirmeliğinden ayrılır."}},{"facet_id":"F003","role":"associated_use","source_fields":["distinctive_facets[F003]"],"statements":{"statement":"Bu yapıdan türeyen kullanım, dağda böyle bir taş barınak kurma eylemini anlatır."}}],"root_ar":"و ص د","root_id":"root_001653","root_occurrence_qualification":"These are focus-ayah occurrences mapped to the same root. They identify possible surface carriers but do not prove that this branch sense is active. Activation still requires an independent linguistic or contextual trigger.","semantic_detail":{"applicability":"Yapının dağda bulunmasını, taş malzemesini, çevrili oda biçimini ve hayvan barındırma amacını birlikte taşır.","boundary_detail":"Taştan yapılma, dağda bulunma ve hayvanları barındırma özellikleri genel çevrili alan anlamına indirgenmemelidir.","branch_image_ar":"وصيدة حجرية للمال في الجبل","concept_gloss":"dağdaki taş hayvan barınağı","contextual_glosses":[{"applicability":"Oda görünümünden çok hayvanları çevreleyip içinde tutma işlevinin öne çıktığı bağlamlarda kullanılır.","error_profile":{"adds":null,"collision":null,"fit":"narrowing","loses":"Dağda bulunma koşulunu ve oda biçimi seçeneğini açıkça belirtmez.","preserves":"Taş malzemeyi ve hayvanları çevrili alanda tutma işlevini korur."},"facet_ids":["F001","F002"],"text":"taştan hayvan çevirmeliği","usage_role":"contextual"},{"applicability":"Adlandırılan yapının kendisini değil, dağda bu yapıyı kurma eylemini anlatan kullanım içindir.","error_profile":{"adds":null,"collision":null,"fit":"narrowing","loses":"Yapı adının hayvan barındırma amacını açıkça söylemez.","preserves":"Dağda taş barınak yapma eylemini korur."},"facet_ids":["F003"],"text":"dağda taş barınak kurmak","usage_role":"contextual"}],"definition":"Dağda hayvanları barındırmak için taşlardan yapılan oda ya da çevrili alandır. Buna bağlı eylem, dağda böyle bir taş barınak kurmaktır.","distinctive_facets":[{"facet_id":"F001","role":"core","statement":"Gönderge, hayvanları içinde tutmak ya da barındırmak için yapılmış oda benzeri çevrili bir yapıdır."},{"facet_id":"F002","role":"specialization","statement":"Yapı dağda bulunur ve dallardan değil taşlardan yapılmasıyla sıradan hayvan çevirmeliğinden ayrılır."},{"facet_id":"F003","role":"associated_use","statement":"Bu yapıdan türeyen kullanım, dağda böyle bir taş barınak kurma eylemini anlatır."}],"identity_rationale":"Kaynak sözü, dağda hayvanları barındırmak için taşlardan yapılan oda ya da çevrili alanı açıkça tanımlar ve böyle bir yapı kurma eylemini de bildirir. Sağlanan dal çerçevesi yapı, malzeme, yer ve amaç sınırlarını korur.","lexical_glosses":[{"lexical_unit_id":"lu_006","rendering_kind":"ordinary","target_gloss":"dağda hayvanlar için yapılan taş oda veya çevirmelik"},{"lexical_unit_id":"lu_007","rendering_kind":"ordinary","target_gloss":"dağda böyle bir taş barınak kurmak"}],"lexicalization_note":"Tanım, özel yapı adını dağda bu yapıyı kurma eyleminden ayırır ve ikisini genel bir çevreleme anlamına genişletmez.","neighbor_coverage_note":"Taş çevirmeliğe en yakın genel ve bitkisel malzemeli çevirmelikler, çevrili yer ve dağ mağarası yayımlandı; çatı, üst örtü, kapatma eylemi, avlu ve bitki dalları yapının yalnızca ortamını ya da uzak bir özelliğini paylaşır.","neighbor_distinctions":[{"boundary_match":"partial","distinction":"Bu dalı belirleyen malzeme taş ve yer dağdır; komşu dal bitkisel malzemeli çevirmelikleri ve daha geniş amaçları kapsar.","focus_only":"Dağda bulunan ve özellikle taşlardan yapılan oda ya da çevrili barınaktır.","gloss":"dal veya kamıştan hayvan çevirmeliği","neighbor_only":"Tahta, kamış, ağaç ya da dallardan yapılabilir ve ekini çevreleme amacı da taşıyabilir.","neighbor_ref":"root_000338/B001","relation_type":"near_synonym","shared_zone":"İki dal da hayvanları bir arada tutan çevrili bir yapı bildirebilir."},{"boundary_match":"partial","distinction":"Komşu dal kuşatma işlevine dayalı genel çevirmeliktir; bu dal ise dağda hayvanlar için taştan yapılmış özel yapıdır.","focus_only":"Taş malzeme, dağ ortamı ve hayvan barındırma amacı zorunlu sınırlar olarak öne çıkar.","gloss":"içindekileri kuşatan çevirmelik","neighbor_only":"İçindekileri kuşatan genel bir çevirmelik olarak daha geniş kapsamlıdır.","neighbor_ref":"root_000036/B002","relation_type":"near_synonym","shared_zone":"Her iki dal da içindekileri çevreleyip bir arada tutan barınak türünü anlatır."},{"boundary_match":"partial","distinction":"Bu dalın malzeme, yer ve kullanım amacı belirgindir; komşu dal ise çevrili mekânların genel alanıdır.","focus_only":"Dağda hayvanlar için taştan yapılan belirli bir oda ya da çevirmeliktir.","gloss":"duvarla çevrili yer","neighbor_only":"Duvarla çevrilmiş yer, oda, bahçe ve yerleşim gibi pek çok farklı mekânı kapsar.","neighbor_ref":"root_000296/B004","relation_type":"near_neighbor","shared_zone":"İki dal da sınırları belirlenmiş ve çevrelenmiş bir mekânı gösterebilir."},{"boundary_match":"field_only","distinction":"Bu dal taşla kurulan hayvan yapısıdır; komşu dal dağın içinde bulunan mağaradır ve yapım malzemesi ile hayvan amacı taşımaz.","focus_only":"Taşların bir araya getirilmesiyle hayvanlar için insan eliyle kurulan yapıdır.","gloss":"dağ mağarası","neighbor_only":"Dağın içinde doğal ya da oyulmuş geniş bir boşluktur.","neighbor_ref":"root_001325/B001","relation_type":"same_field","shared_zone":"Her iki dal da dağda bulunan, içine girilebilen ve barınma sağlayabilen bir yeri anlatır."}],"source_phrase_ar":"الوصيدة كالحظيرة تتخذ للمال إلا أنها من الحجارة والحظيرة من الغصنة واستوصدت في الجبل (sihah)؛ الوصيدة حجرة تجعل للمال في الجبل (mufradat)","source_summary":"Kaynakların ortak çekirdeği, dağda hayvanlar için yapılan taş oda ya da taşla çevrili barınaktır. Toplu anlatım ayrıca yapıyı dallardan yapılan çevirmelikten ayırır ve dağda bu yapıyı kurma eylemini kaydeder.","sources":["SI","MU"],"what_is_ar":"يدخل فيه الوصيدة: حجرة أو شبه حظيرة من حجارة تتخذ للمال في الجبل، ومنه استوصد في الجبل إذا اتخذها.","what_is_not_ar":"لا يدخل فيه الحظيرة من الغصنة عند الصحاح، ولا مطلق الفناء أو إغلاق الباب."},"support_links":[]},{"boundary":"Yakınlık bitkinin üst bölümünde değil kökler arasındadır; yalnızca sık ya da bol bitki yeterli değildir.","branch_kind":"non_bare","branch_ref":"root_001653/B004","candidate_links":[],"focus_root_occurrences":[{"lemma_ar":"مُّؤْصَدَة","morph_features":"STEM|POS:ADJ|LEM:m~u&oSadap|ROOT:wSd|F|INDEF|NOM","morpheme_role":"STEM","pos":"ADJ","qac_ref":"90:20:3:1","qac_word_ref":"90:20:3","surface_ar":"مُّؤْصَدَةٌۢ"}],"gloss":"kökleri birbirine yakın bitki","lexicon_identity_status":"accepted","registry":"focus","review_facets":[{"facet_id":"F001","role":"core","source_fields":["distinctive_facets[F001]"],"statements":{"statement":"Ayırt edici özellik, bitki köklerinin birbirine yakın aralıklarla bulunmasıdır."}}],"root_ar":"و ص د","root_id":"root_001653","root_occurrence_qualification":"These are focus-ayah occurrences mapped to the same root. They identify possible surface carriers but do not prove that this branch sense is active. Activation still requires an independent linguistic or contextual trigger.","semantic_detail":{"applicability":"Bitkiyi kökler arasındaki yakınlık ölçütüyle tanımlar ve başka bir sıklık türü eklemez.","boundary_detail":"Yakınlık bitkinin üst bölümünde değil kökler arasındadır; yalnızca sık ya da bol bitki yeterli değildir.","branch_image_ar":"نبات متقارب الأصول","concept_gloss":"kökleri birbirine yakın bitki","contextual_glosses":[{"applicability":"Kök yakınlığının yüzeyde dipten sık bir görünüm oluşturduğu betimleyici bağlamlarda kullanılabilir.","error_profile":{"adds":"Kök yakınlığı dışında genel bir örtü yoğunluğu izlenimi ekleyebilir.","collision":null,"fit":"broadening","loses":null,"preserves":"Bitkilerin dip bölümündeki sık ve yakın düzeni korur."},"facet_ids":["F001"],"text":"dipten sık bitki örtüsü","usage_role":"contextual"}],"definition":"Kökleri birbirine yakın duran, dipten sık ve bitişik görünüm veren bitki ya da bitki topluluğudur.","distinctive_facets":[{"facet_id":"F001","role":"core","statement":"Ayırt edici özellik, bitki köklerinin birbirine yakın aralıklarla bulunmasıdır."}],"identity_rationale":"Kaynak sözü, bitkiyi köklerinin birbirine yakın olmasıyla tanımlar. Sağlanan çerçeve bu ölçütü doğru biçimde korur ve onu genel bitki sıklığı ya da dal dolaşıklığıyla karıştırmaz.","lexical_glosses":[{"lexical_unit_id":"lu_008","rendering_kind":"ordinary","target_gloss":"kökleri birbirine yakın bitki"}],"lexicalization_note":"Tanım yalnızca kökleri birbirine yakın bitkiyi adlandıran belirtilmiş sözcükle sınırlıdır ve genel bir kök anlamı sayılmaz.","neighbor_coverage_note":"Genel bitki yoğunluğu, dal dolaşıklığı ve üst üste dizilme en açıklayıcı karşıtlardır; belirli bitki türleri, kumda büyüme, diken filizi ve belirli ağaçlık alan adayları yalnızca bitki alanını paylaşır.","neighbor_distinctions":[{"boundary_match":"partial","distinction":"Komşu dal miktar ve genel yoğunluğu öne çıkarır; bu dalda belirleyici olan bitki sayısı değil köklerin birbirine yakınlığıdır.","focus_only":"Sıklık özellikle köklerin birbirine yakın aralıklarla bulunmasına dayanır.","gloss":"yoğun bitki örtüsü","neighbor_only":"Bir yerde çok sayıda bitki ya da ağaç bulunmasına ve genel yoğun görünüme dayanır.","neighbor_ref":"root_000798/B002","relation_type":"near_neighbor","shared_zone":"Her iki dal da bitkilerin sık ve yoğun görünmesini anlatabilir."},{"boundary_match":"partial","distinction":"Bu dal köklerin yakınlığını ölçüt alır; komşu dal ise dalların çoğalması ve birbirine geçmesiyle oluşan üst bölüm yoğunluğunu anlatır.","focus_only":"Yakınlık bitkinin toprak altındaki ya da dipteki kök düzenindedir.","gloss":"dalları çok ve birbirine geçmiş ağaç","neighbor_only":"Yoğunluk dalların çokluğu ve birbirine dolanıp sıkı biçimde örtüşmesindedir.","neighbor_ref":"root_001025/B007","relation_type":"near_neighbor","shared_zone":"İki dal da bitkinin parçalarının birbirine yakın ve sık bir düzen oluşturmasını anlatır."},{"boundary_match":"partial","distinction":"Bu dal köklerin yan yana yakınlığıdır; komşu dalın belirleyici ilişkisi cisimlerin üst üste binmesi ve katmanlaşmasıdır.","focus_only":"Bitki kökleri aynı düzlemde birbirine yakın konumlanır.","gloss":"üst üste yığılma","neighbor_only":"Doğal cisimler, bulutlar ya da ürünler üst üste dizilip katman oluşturur.","neighbor_ref":"root_001515/B004","relation_type":"near_neighbor","shared_zone":"Her iki dal doğal varlıkların aralarında az boşluk kalacak biçimde düzenlenmesini anlatabilir."}],"source_phrase_ar":"الوصيد النبت المتقارب الأصول (maqayis)؛ الوصيد النبات المتقارب الاصول (sihah)؛ الوصيد المتقارب الأصول (mufradat)","source_summary":"Kaynaklar bitkiyi ortak biçimde köklerinin birbirine yakın oluşuyla tanımlar; belirleyici ölçüt bitkinin türü, boyu ya da dal sayısı değil kökler arasındaki yakınlıktır.","sources":["MQ","SI","MU"],"what_is_ar":"يدخل فيه الوصيد بمعنى النبت أو النبات المتقارب الأصول.","what_is_not_ar":"لا يدخل فيه الفناء أو الباب أو الوصيدة الحجرية أو إطباق الباب إلا من جهة أصل التقارب والضم."},"support_links":[]}],"candidate_inventory":[{"anchor_refs":["90:20:1"],"branch_refs":[],"candidate_id":"cand_08f1bbc776c74f680329","commentary_obligation":"must_integrate","focus_branch_refs":[],"kind":"word_topic","lane":"micro","nominated_branch_refs":[],"root_ids":[],"scope":"focus_ayah","source_local_id":"90:20:1:fronted-predicate-pressure","source_type":"word_analysis","support_ids":["sup_6c3407328f305aa41fba","sup_71701801c49cb06d345c"],"title":"fronted predicate makes pressure first","trust":"trusted","unresolved_branch_citations":[],"unresolved_branch_refs":[],"word_alignment":{"analysis_ref":"90:20:1","qac_refs":["90:20:1:1","90:20:1:2"],"status":"accepted"}},{"anchor_refs":["90:20:1"],"branch_refs":[],"candidate_id":"cand_5cdb0a2769b40295c5f9","commentary_obligation":"candidate","focus_branch_refs":[],"kind":"word_topic","lane":"micro","nominated_branch_refs":[],"root_ids":[],"scope":"focus_ayah","source_local_id":"90:20:1:nasal-frame","source_type":"word_analysis","support_ids":["sup_39d9012193c46831e854","sup_6c3407328f305aa41fba"],"title":"nasal cadence closes the frame","trust":"trusted","unresolved_branch_citations":[],"unresolved_branch_refs":[],"word_alignment":{"analysis_ref":"90:20:1","qac_refs":["90:20:1:1","90:20:1:2"],"status":"accepted"}},{"anchor_refs":["90:20:1"],"branch_refs":[],"candidate_id":"cand_200a3484fcc9dfc71655","commentary_obligation":"candidate","focus_branch_refs":[],"kind":"word_topic","lane":"micro","nominated_branch_refs":[],"root_ids":[],"scope":"focus_ayah","source_local_id":"90:20:1:overness-and-enclosure-pressure","source_type":"word_analysis","support_ids":["sup_1db08bb3441292bc59b4","sup_6c3407328f305aa41fba"],"title":"overness becomes enclosing burden","trust":"trusted","unresolved_branch_citations":[],"unresolved_branch_refs":[],"word_alignment":{"analysis_ref":"90:20:1","qac_refs":["90:20:1:1","90:20:1:2"],"status":"accepted"}},{"anchor_refs":["90:20:1"],"branch_refs":[],"candidate_id":"cand_a772819079dea8856408","commentary_obligation":"must_integrate","focus_branch_refs":[],"kind":"word_topic","lane":"micro","nominated_branch_refs":[],"root_ids":[],"scope":"focus_ayah","source_local_id":"90:20:1:suffix-resumes-previous-class","source_type":"word_analysis","support_ids":["sup_20b82d0437a36ab0a42e","sup_6c3407328f305aa41fba"],"title":"suffix resumes the prior class","trust":"trusted","unresolved_branch_citations":[],"unresolved_branch_refs":[],"word_alignment":{"analysis_ref":"90:20:1","qac_refs":["90:20:1:1","90:20:1:2"],"status":"accepted"}},{"anchor_refs":["90:20:1"],"branch_refs":[],"candidate_id":"cand_c94716ed74c4f1476967","commentary_obligation":"candidate","focus_branch_refs":[],"kind":"word_topic","lane":"micro","nominated_branch_refs":[],"root_ids":[],"scope":"focus_ayah","source_local_id":"90:20:1:verbless-settled-condition","source_type":"word_analysis","support_ids":["sup_6c3407328f305aa41fba","sup_8e21f38c7659d1ebc086"],"title":"verbless clause fixes the condition","trust":"trusted","unresolved_branch_citations":[],"unresolved_branch_refs":[],"word_alignment":{"analysis_ref":"90:20:1","qac_refs":["90:20:1:1","90:20:1:2"],"status":"accepted"}},{"anchor_refs":["90:20:2"],"branch_refs":[],"candidate_id":"cand_3f9cd127825746adb871","commentary_obligation":"must_integrate","focus_branch_refs":[],"kind":"word_topic","lane":"micro","nominated_branch_refs":[],"root_ids":["root_001564"],"scope":"focus_ayah","source_local_id":"90:20:2:agreement-with-sealing-adjective","source_type":"word_analysis","support_ids":["sup_47fcb37cb35820886d76","sup_82681e28b95b66f0e7f7"],"title":"agreement makes fire one sealed entity","trust":"trusted","unresolved_branch_citations":[],"unresolved_branch_refs":[],"word_alignment":{"analysis_ref":"90:20:2","qac_refs":["90:20:2:1"],"status":"accepted"}},{"anchor_refs":["90:20:2"],"branch_refs":[],"candidate_id":"cand_83cd563ad551139d2a87","commentary_obligation":"must_integrate","focus_branch_refs":[],"kind":"word_topic","lane":"micro","nominated_branch_refs":[],"root_ids":["root_001564"],"scope":"focus_ayah","source_local_id":"90:20:2:destructive-light-selection","source_type":"word_analysis","support_ids":["sup_7c1ad59ed4f09b2fd9a0","sup_82681e28b95b66f0e7f7"],"title":"destructive blaze selected from light range","trust":"trusted","unresolved_branch_citations":[],"unresolved_branch_refs":[],"word_alignment":{"analysis_ref":"90:20:2","qac_refs":["90:20:2:1"],"status":"accepted"}},{"anchor_refs":["90:20:2"],"branch_refs":[],"candidate_id":"cand_d66d651f46f68e095f97","commentary_obligation":"must_integrate","focus_branch_refs":[],"kind":"word_topic","lane":"micro","nominated_branch_refs":[],"root_ids":["root_001564"],"scope":"focus_ayah","source_local_id":"90:20:2:indefinite-delayed-subject","source_type":"word_analysis","support_ids":["sup_82681e28b95b66f0e7f7","sup_d7d4c354a71b8e8e7e26"],"title":"indefinite delayed fire completes the frame","trust":"trusted","unresolved_branch_citations":[],"unresolved_branch_refs":[],"word_alignment":{"analysis_ref":"90:20:2","qac_refs":["90:20:2:1"],"status":"accepted"}},{"anchor_refs":["90:20:2"],"branch_refs":[],"candidate_id":"cand_aad72088778b5122997c","commentary_obligation":"candidate","focus_branch_refs":[],"kind":"word_topic","lane":"micro","nominated_branch_refs":[],"root_ids":["root_001564"],"scope":"focus_ayah","source_local_id":"90:20:2:sound-into-closure","source_type":"word_analysis","support_ids":["sup_2db6cec63210d41b8efb","sup_82681e28b95b66f0e7f7"],"title":"fire sound runs into the seal","trust":"trusted","unresolved_branch_citations":[],"unresolved_branch_refs":[],"word_alignment":{"analysis_ref":"90:20:2","qac_refs":["90:20:2:1"],"status":"accepted"}},{"anchor_refs":["90:20:2"],"branch_refs":[],"candidate_id":"cand_e9bd42176979fc346957","commentary_obligation":"candidate","focus_branch_refs":[],"kind":"word_topic","lane":"micro","nominated_branch_refs":[],"root_ids":["root_001564"],"scope":"focus_ayah","source_local_id":"90:20:2:verdict-becomes-fire-environment","source_type":"word_analysis","support_ids":["sup_82681e28b95b66f0e7f7","sup_a64775df29fc625b4bcf"],"title":"verdict becomes sensory fire","trust":"trusted","unresolved_branch_citations":[],"unresolved_branch_refs":[],"word_alignment":{"analysis_ref":"90:20:2","qac_refs":["90:20:2:1"],"status":"accepted"}},{"anchor_refs":["90:20:3"],"branch_refs":[],"candidate_id":"cand_bfc29c791fb73916f583","commentary_obligation":"must_integrate","focus_branch_refs":[],"kind":"word_topic","lane":"micro","nominated_branch_refs":[],"root_ids":[],"scope":"focus_ayah","source_local_id":"90:20:3:barred-closure","source_type":"word_analysis","support_ids":["sup_8b2f2343fa76dac34845","sup_e6e44eb10b3a83564b6e"],"title":"barred closure denies passage","trust":"trusted","unresolved_branch_citations":[],"unresolved_branch_refs":[],"word_alignment":{"analysis_ref":"90:20:3","qac_refs":["90:20:3:1"],"status":"accepted"}},{"anchor_refs":["90:20:3"],"branch_refs":[],"candidate_id":"cand_16970f00fd7eae0f391a","commentary_obligation":"must_integrate","focus_branch_refs":[],"kind":"word_topic","lane":"micro","nominated_branch_refs":[],"root_ids":[],"scope":"focus_ayah","source_local_id":"90:20:3:concord-fastens-to-fire","source_type":"word_analysis","support_ids":["sup_8b2f2343fa76dac34845","sup_a6e1a904ff220072bea7"],"title":"concord fastens the seal to fire","trust":"trusted","unresolved_branch_citations":[],"unresolved_branch_refs":[],"word_alignment":{"analysis_ref":"90:20:3","qac_refs":["90:20:3:1"],"status":"accepted"}},{"anchor_refs":["90:20:3"],"branch_refs":[],"candidate_id":"cand_39d33b4b751ab2e7171d","commentary_obligation":"must_integrate","focus_branch_refs":[],"kind":"word_topic","lane":"micro","nominated_branch_refs":[],"root_ids":[],"scope":"focus_ayah","source_local_id":"90:20:3:final-word-seals-scene","source_type":"word_analysis","support_ids":["sup_84622aa60f46275ce7db","sup_8b2f2343fa76dac34845"],"title":"final word seals the scene","trust":"trusted","unresolved_branch_citations":[],"unresolved_branch_refs":[],"word_alignment":{"analysis_ref":"90:20:3","qac_refs":["90:20:3:1"],"status":"accepted"}},{"anchor_refs":["90:20:3"],"branch_refs":[],"candidate_id":"cand_f5521178088cec5ddb41","commentary_obligation":"candidate","focus_branch_refs":[],"kind":"word_topic","lane":"micro","nominated_branch_refs":[],"root_ids":[],"scope":"focus_ayah","source_local_id":"90:20:3:hard-acoustic-lock","source_type":"word_analysis","support_ids":["sup_7b2e45b43cca3472ebd6","sup_8b2f2343fa76dac34845"],"title":"hard sound locks the ending","trust":"trusted","unresolved_branch_citations":[],"unresolved_branch_refs":[],"word_alignment":{"analysis_ref":"90:20:3","qac_refs":["90:20:3:1"],"status":"accepted"}},{"anchor_refs":["90:20:3"],"branch_refs":[],"candidate_id":"cand_8f3b6f6d4c36fcc55b26","commentary_obligation":"must_integrate","focus_branch_refs":[],"kind":"word_topic","lane":"micro","nominated_branch_refs":[],"root_ids":[],"scope":"focus_ayah","source_local_id":"90:20:3:passive-participle-result-state","source_type":"word_analysis","support_ids":["sup_881627ad964da0928eae","sup_8b2f2343fa76dac34845"],"title":"passive participle stores completed sealing","trust":"trusted","unresolved_branch_citations":[],"unresolved_branch_refs":[],"word_alignment":{"analysis_ref":"90:20:3","qac_refs":["90:20:3:1"],"status":"accepted"}},{"anchor_refs":["90:20:3"],"branch_refs":[],"candidate_id":"cand_a90d5284a0c4a045902b","commentary_obligation":"candidate","focus_branch_refs":[],"kind":"word_topic","lane":"micro","nominated_branch_refs":[],"root_ids":[],"scope":"focus_ayah","source_local_id":"90:20:3:rare-parallel-104-8","source_type":"word_analysis","support_ids":["sup_6d35ad4b5f4cce2b7033","sup_8b2f2343fa76dac34845"],"title":"rare closure word echoes 104:8","trust":"trusted","unresolved_branch_citations":[],"unresolved_branch_refs":[],"word_alignment":{"analysis_ref":"90:20:3","qac_refs":["90:20:3:1"],"status":"accepted"}},{"anchor_refs":["90:20:3"],"branch_refs":[],"candidate_id":"cand_495834c485d1e21f487a","commentary_obligation":"candidate","focus_branch_refs":[],"kind":"word_topic","lane":"micro","nominated_branch_refs":[],"root_ids":[],"scope":"focus_ayah","source_local_id":"90:20:3:variant-surfaces-stable-sense","source_type":"word_analysis","support_ids":["sup_8b2f2343fa76dac34845","sup_db405e2afc226ee52d46"],"title":"variant surfaces keep the sealed sense","trust":"trusted","unresolved_branch_citations":[],"unresolved_branch_refs":[],"word_alignment":{"analysis_ref":"90:20:3","qac_refs":["90:20:3:1"],"status":"accepted"}},{"anchor_refs":["90:20:2"],"branch_refs":[],"candidate_id":"cand_0f521bc7aad0729b1bf2","commentary_obligation":"ledger_only","focus_branch_refs":[],"kind":"focus_root_occurrence","lane":"micro","nominated_branch_refs":[],"root_ids":["root_001564"],"scope":"focus_ayah","source_local_id":"90:20:2:1","source_type":"qac_morpheme","support_ids":["sup_44cf93120d848ce8c720"],"title":"QAC root occurrence: ن و ر","trust":"trusted","unresolved_branch_citations":[],"unresolved_branch_refs":[]},{"anchor_refs":["90:20:3"],"branch_refs":[],"candidate_id":"cand_f24d07754389633c70e8","commentary_obligation":"ledger_only","focus_branch_refs":[],"kind":"focus_root_occurrence","lane":"micro","nominated_branch_refs":[],"root_ids":["root_000036","root_001653"],"scope":"focus_ayah","source_local_id":"90:20:3:1","source_type":"qac_morpheme","support_ids":["sup_361c65a1129990a7fb4c"],"title":"QAC root occurrence: و ص د","trust":"trusted","unresolved_branch_citations":[],"unresolved_branch_refs":[]},{"anchor_refs":["90:20"],"authoring_origin":"lossless_raw_hft_projection","ayah_ref":"90:20","branch_refs":["root_000036/B001","root_001564/B002","root_001653/B001"],"candidate_id":"cand_22e41b3f03fa57a5e852","commentary_obligation":"review","hft_ref":"hft_d83999b9588ffcbddab9","kind":"baseline_model","lane":"micro","lane_assignment_basis":"all explicit HFT anchors are the focus ayah","provenance_qualification":{"anchor_scope_complete":true,"authoring_effect":"Source qualifications affect epistemic status and containment, never visibility or presumptive outcome.","packet_scope_relation":"broader_than_declared_pericope","reader_identity_status":"legacy_unbound","record_warnings":[]},"scope":"focus_ayah","source_local_id":"reader_hft_a:b_enclosing_fire_lid","source_type":"hft","support_ids":["sup_2ad0759d7cbea2ff3d71"],"title":"b_enclosing_fire_lid","trust":"legacy_unbound"},{"anchor_refs":["90:20"],"authoring_origin":"lossless_raw_hft_projection","ayah_ref":"90:20","branch_refs":["root_000036/B004","root_001564/B002","root_001653/B001","root_001653/B002"],"candidate_id":"cand_696be8209b3bc8641035","commentary_obligation":"review","hft_ref":"hft_5f40b9c164fe70ca74cf","kind":"baseline_model","lane":"micro","lane_assignment_basis":"all explicit HFT anchors are the focus ayah","provenance_qualification":{"anchor_scope_complete":true,"authoring_effect":"Source qualifications affect epistemic status and containment, never visibility or presumptive outcome.","packet_scope_relation":"broader_than_declared_pericope","reader_identity_status":"legacy_unbound","record_warnings":[]},"scope":"focus_ayah","source_local_id":"reader_hft_a:b_threshold_consumed","source_type":"hft","support_ids":["sup_478a1c2d24f86d005faf"],"title":"b_threshold_consumed","trust":"legacy_unbound"},{"anchor_refs":["90:20"],"authoring_origin":"lossless_raw_hft_projection","ayah_ref":"90:20","branch_refs":["root_000036/B001","root_001564/B003","root_001564/B005"],"candidate_id":"cand_e5f47f493d0d9e4e3b42","commentary_obligation":"review","hft_ref":"hft_9407e90b0ab962bac400","kind":"baseline_model","lane":"micro","lane_assignment_basis":"all explicit HFT anchors are the focus ayah","provenance_qualification":{"anchor_scope_complete":true,"authoring_effect":"Source qualifications affect epistemic status and containment, never visibility or presumptive outcome.","packet_scope_relation":"broader_than_declared_pericope","reader_identity_status":"legacy_unbound","record_warnings":[]},"scope":"focus_ayah","source_local_id":"reader_hft_a:b_visible_seal","source_type":"hft","support_ids":["sup_8dafb8b4c3a07e67517e"],"title":"b_visible_seal","trust":"legacy_unbound"}],"connection_registry":[],"focus":{"arabic_uthmani":"عَلَيْهِمْ نَارٌۭ مُّؤْصَدَةٌۢ","qac_morphemes":[{"lemma_ar":"عَلَىٰ","morph_features":"STEM|POS:P|LEM:EalaY`","morpheme_role":"STEM","pos":"P","qac_ref":"90:20:1:1","qac_word_ref":"90:20:1","root_ar":"","surface_ar":"عَلَيْ"},{"lemma_ar":"","morph_features":"SUFFIX|PRON:3MP","morpheme_role":"SUFFIX","pos":"PRON","qac_ref":"90:20:1:2","qac_word_ref":"90:20:1","root_ar":"","surface_ar":"هِمْ"},{"lemma_ar":"نَار","morph_features":"STEM|POS:N|LEM:naAr|ROOT:nwr|F|INDEF|NOM","morpheme_role":"STEM","pos":"N","qac_ref":"90:20:2:1","qac_word_ref":"90:20:2","root_ar":"ن و ر","surface_ar":"نَارٌ"},{"lemma_ar":"مُّؤْصَدَة","morph_features":"STEM|POS:ADJ|LEM:m~u&oSadap|ROOT:wSd|F|INDEF|NOM","morpheme_role":"STEM","pos":"ADJ","qac_ref":"90:20:3:1","qac_word_ref":"90:20:3","root_ar":"و ص د","surface_ar":"مُّؤْصَدَةٌۢ"}],"word_analysis_qac_refs":[["90:20:1:1","90:20:1:2"],["90:20:2:1"],["90:20:3:1"]],"word_analysis_ref_namespace":"word-analysis","word_analysis_refs":["90:20:1","90:20:2","90:20:3"]},"focus_surface_evidence":{"arabic_uthmani":"عَلَيْهِمْ نَارٌۭ مُّؤْصَدَةٌۢ","qac_morphemes":[{"lemma_ar":"عَلَىٰ","morph_features":"STEM|POS:P|LEM:EalaY`","morpheme_role":"STEM","pos":"P","qac_ref":"90:20:1:1","qac_word_ref":"90:20:1","root_ar":"","surface_ar":"عَلَيْ"},{"lemma_ar":"","morph_features":"SUFFIX|PRON:3MP","morpheme_role":"SUFFIX","pos":"PRON","qac_ref":"90:20:1:2","qac_word_ref":"90:20:1","root_ar":"","surface_ar":"هِمْ"},{"lemma_ar":"نَار","morph_features":"STEM|POS:N|LEM:naAr|ROOT:nwr|F|INDEF|NOM","morpheme_role":"STEM","pos":"N","qac_ref":"90:20:2:1","qac_word_ref":"90:20:2","root_ar":"ن و ر","surface_ar":"نَارٌ"},{"lemma_ar":"مُّؤْصَدَة","morph_features":"STEM|POS:ADJ|LEM:m~u&oSadap|ROOT:wSd|F|INDEF|NOM","morpheme_role":"STEM","pos":"ADJ","qac_ref":"90:20:3:1","qac_word_ref":"90:20:3","root_ar":"و ص د","surface_ar":"مُّؤْصَدَةٌۢ"}],"qualification":"These records preserve supplied Arabic, transliteration, analytic gloss boundaries, and morphology for accurate prose. Analysis and QAC coordinates are internal provenance and must not appear in reader prose. English gloss ranges require a natural Turkish rendering. These are surface evidence, not a finding list and not proof of any secondary branch activation.","word_analysis_qac_refs":[["90:20:1:1","90:20:1:2"],["90:20:2:1"],["90:20:3:1"]],"word_analysis_refs":["90:20:1","90:20:2","90:20:3"],"word_rows":[{"analysis_record_ref":"90:20:1","analytic_gloss_range_en":"fronted prepositional imposition upon the previously classified plural group, with overness and enclosing burden narrowed to this nominal predicate frame","analytic_root_gloss_range_en":null,"qac_refs":["90:20:1:1","90:20:1:2"],"root":{"note":"no lexical root"},"surface":{"arabic":"عَلَيْهِمْ","transliteration":"ʿalayhim"}},{"analysis_record_ref":"90:20:2","analytic_gloss_range_en":"indefinite concrete fire as the delayed subject, locally selected as punitive destructive blaze and immediately qualified into sealed confinement","analytic_root_gloss_range_en":"broad light and fire range including illumination, burning fire, visible beacons, bloom, aversion, pigment, and other remote branches; the local noun selects the burning-fire branch while preserving adverse visibility against guidance-light associations","qac_refs":["90:20:2:1"],"root":{"arabic":"ن و ر","transliteration":"n-w-r"},"surface":{"arabic":"نَارٌۭ","transliteration":"nārun"}},{"analysis_record_ref":"90:20:3","analytic_gloss_range_en":"feminine singular passive participle qualifying the fire as already sealed, barred, fastened, and made inaccessible","analytic_root_gloss_range_en":"rare barred-closure field around closing, fastening, obstruction, and blocked passage; V4 lacks guardrail rows for this root, so local grammar, variant evidence, and paired occurrence evidence constrain the payoff","qac_refs":["90:20:3:1"],"root":{"arabic":"أ ص د","transliteration":"ʾ-ṣ-d"},"surface":{"arabic":"مُّؤْصَدَةٌۢ","transliteration":"muʾṣadatun"}}]},"focus_word_alignment":{"alignment_version":"qac-analysis-bridge-v1","bridge":{"qac_source_sha256":"706a45d150251ca3114a13499e2b665fe5596b03b2272557574f0ed58eb29594","release_id":"2026.09.02","release_manifest_sha256":"10c30bf9e36c8efcf14ee1cc1d9005024d2eaf97190135ad25b8ef314ebe28b6","schema_version":"qac-masaq-bridge-v1","source":"quran-data/data/bridges/qac-masaq.sqlite.gz","source_sha256":"a3dabe8200c3e172bfd1ea8eff1c051a250ab65eb7bd4dc0cb5144c9117d7a2a","sqlite_user_version":4,"word_analysis_tree_sha256":"95529b40cf4cbcdd88e855ef8418eb465820507b1fd3497094fa5075ecbb7f7e"},"note":"Accepted bridge links preserve independent analysis identities. Several analysis entries may share canonical morphemes. Read their distinct semantic claims; shared morphology alone is not duplication. Legacy aligned_qac_word_ref values are source observations, not QAC joins. Excluded source entries remain available with their explicit qualification.","shared_morphemes":[],"source_namespace":"word-analysis","target_namespace":"qac-morpheme","unresolved":[],"words_resolved":3,"words_total":3,"words_unresolved":0},"hft_evidence":{"anchor_evidence_coverage":{"cited_unique_anchor_count":1,"missing_anchor_refs":[],"supplied_unique_anchor_count":1},"assigned_record_count":3,"assigned_records":[{"anchor_refs":["90:20"],"branch_refs":["root_000036/B001","root_001564/B002","root_001653/B001"],"candidate_id":"cand_22e41b3f03fa57a5e852","evidence_scope":"focus_ayah","hft_ref":"hft_d83999b9588ffcbddab9","item_id":"b_enclosing_fire_lid","kind":"baseline_model","lane_basis":"all explicit HFT anchors are the focus ayah","owning_lane":"micro","qualification":{"anchor_scope_complete":true,"authoring_effect":"Source qualifications affect epistemic status and containment, never visibility or presumptive outcome.","packet_scope_relation":"broader_than_declared_pericope","reader_identity_status":"legacy_unbound","record_warnings":[]},"reader_id":"reader_hft_a","source_local_id":"reader_hft_a:b_enclosing_fire_lid","support_id":"sup_2ad0759d7cbea2ff3d71"},{"anchor_refs":["90:20"],"branch_refs":["root_000036/B004","root_001564/B002","root_001653/B001","root_001653/B002"],"candidate_id":"cand_696be8209b3bc8641035","evidence_scope":"focus_ayah","hft_ref":"hft_5f40b9c164fe70ca74cf","item_id":"b_threshold_consumed","kind":"baseline_model","lane_basis":"all explicit HFT anchors are the focus ayah","owning_lane":"micro","qualification":{"anchor_scope_complete":true,"authoring_effect":"Source qualifications affect epistemic status and containment, never visibility or presumptive outcome.","packet_scope_relation":"broader_than_declared_pericope","reader_identity_status":"legacy_unbound","record_warnings":[]},"reader_id":"reader_hft_a","source_local_id":"reader_hft_a:b_threshold_consumed","support_id":"sup_478a1c2d24f86d005faf"},{"anchor_refs":["90:20"],"branch_refs":["root_000036/B001","root_001564/B003","root_001564/B005"],"candidate_id":"cand_e5f47f493d0d9e4e3b42","evidence_scope":"focus_ayah","hft_ref":"hft_9407e90b0ab962bac400","item_id":"b_visible_seal","kind":"baseline_model","lane_basis":"all explicit HFT anchors are the focus ayah","owning_lane":"micro","qualification":{"anchor_scope_complete":true,"authoring_effect":"Source qualifications affect epistemic status and containment, never visibility or presumptive outcome.","packet_scope_relation":"broader_than_declared_pericope","reader_identity_status":"legacy_unbound","record_warnings":[]},"reader_id":"reader_hft_a","source_local_id":"reader_hft_a:b_visible_seal","support_id":"sup_8dafb8b4c3a07e67517e"}],"diagnostics":[],"lane_counts":{"global":15,"macro":5,"micro":3},"packet_summary":{"ayah_count":20,"focus_ref":"90:20","protocol":"focus-trace-hermetic-packet-v2","split_root_mappings":[{"qac_root":"و ص د","targets":[{"furuq_resolution":"root_norm_unique","furuq_root_id":"root_000036","furuq_root_norm":"ء ص د","furuq_source_root_norm":"أ ص د","is_dominant":true,"target_occurrences":2,"target_rank":1},{"furuq_resolution":"source_root_norm","furuq_root_id":"root_001653","furuq_root_norm":"و ص د","furuq_source_root_norm":"و ص د","is_dominant":false,"target_occurrences":1,"target_rank":2}]},{"qac_root":"ح ل ل","targets":[{"furuq_resolution":"source_root_norm","furuq_root_id":"root_000351","furuq_root_norm":"ح ل ل","furuq_source_root_norm":"ح ل ل","is_dominant":true,"target_occurrences":39,"target_rank":1},{"furuq_resolution":"source_root_norm","furuq_root_id":"root_000353","furuq_root_norm":"ح ل ي","furuq_source_root_norm":"ح ل ي","is_dominant":false,"target_occurrences":6,"target_rank":2}]},{"qac_root":"ق و ل","targets":[{"furuq_resolution":"source_root_norm","furuq_root_id":"root_001272","furuq_root_norm":"ق و ل","furuq_source_root_norm":"ق و ل","is_dominant":true,"target_occurrences":1408,"target_rank":1},{"furuq_resolution":"source_root_norm","furuq_root_id":"root_001251","furuq_root_norm":"ق ل ل","furuq_source_root_norm":"ق ل ل","is_dominant":false,"target_occurrences":163,"target_rank":2}]},{"qac_root":"ر ء ي","targets":[{"furuq_resolution":"root_norm_unique","furuq_root_id":"root_000531","furuq_root_norm":"ر ء ي","furuq_source_root_norm":"ر أ ي","is_dominant":true,"target_occurrences":145,"target_rank":1},{"furuq_resolution":"source_root_norm","furuq_root_id":"root_000615","furuq_root_norm":"ر و ي","furuq_source_root_norm":"ر و ي","is_dominant":false,"target_occurrences":2,"target_rank":2}]},{"qac_root":"ه د ي","targets":[{"furuq_resolution":"source_root_norm","furuq_root_id":"root_001583","furuq_root_norm":"ه د ي","furuq_source_root_norm":"ه د ي","is_dominant":true,"target_occurrences":251,"target_rank":1},{"furuq_resolution":"source_root_norm","furuq_root_id":"root_001580","furuq_root_norm":"ه د د","furuq_source_root_norm":"ه د د","is_dominant":false,"target_occurrences":1,"target_rank":2}]},{"qac_root":"د ر ي","targets":[{"furuq_resolution":"source_root_norm","furuq_root_id":"root_000469","furuq_root_norm":"د ر ر","furuq_source_root_norm":"د ر ر","is_dominant":true,"target_occurrences":7,"target_rank":1},{"furuq_resolution":"source_root_norm","furuq_root_id":"root_000473","furuq_root_norm":"د ر ي","furuq_source_root_norm":"د ر ي","is_dominant":false,"target_occurrences":4,"target_rank":2}]}],"window":["90:1","90:2","90:3","90:4","90:5","90:6","90:7","90:8","90:9","90:10","90:11","90:12","90:13","90:14","90:15","90:16","90:17","90:18","90:19","90:20"]},"payload_location":"Each assigned record's exact raw payload and exact available anchor Arabic are in support_registry under its support_id.","policy":{"every_assigned_record_requires_explicit_review":true,"parseable_hft_is_always_visible_to_authoring":true,"provenance_affects_qualification_not_visibility":true,"scope_mismatch_affects_lane_assignment_not_visibility":true,"unresolved_branch_citations_do_not_suppress_records":true},"provenance":{"authoring_effect":"This is one neutral source qualification. It controls epistemic status and containment, never evidence visibility or presumptive acceptance/rejection.","legacy_docket_assessment":{"adjudicable":false,"packet":null,"status":"invalid"},"packet_scope_relation":"broader_than_declared_pericope","reader_identity":[{"focus_ref":"90:20","identity_status":"legacy_unbound","packet_identity":null,"protocol":"focus-trace-hermetic-response-v4","reader_id":"reader_hft_a","trace_kind":"reconstructed"}]},"reader_synthesis_count":9,"source_present":true,"structured_insight_count":14,"unstructured_record_count":0},"identity":{"ayah_ref":"90:20","lane":"micro","linguistic_source_ref":"90:20","surface_ref":"90:20","unit_kind":"numbered_ayah"},"primary_floor":{"source_ref":"90:20","target_tokens":[["Üzerlerine",["90:20:1"]],["kapatılmış",["90:20:3"]],["bir",["90:20:2"]],["ateş",["90:20:2"]],["vardır",["90:20:2"]]],"text":"Üzerlerine kapatılmış bir ateş vardır."},"schema_version":"commentary-v5-hermetic-scope-packet-v1","scope":{"hft":{"assigned_record_count":3,"authoring_policy":{"every_assigned_record_requires_explicit_review":true,"parseable_hft_is_always_visible_to_authoring":true,"provenance_affects_qualification_not_visibility":true,"scope_mismatch_affects_lane_assignment_not_visibility":true,"unresolved_branch_citations_do_not_suppress_records":true},"authoring_status":"visible_with_provenance_qualification"},"lane_contract":"focus ayah morphology, word analysis, and every available focus-root branch; unavailable dictionaries are explicit","pericope":{"ayah_from":11,"ayah_to":20,"id":"s090-p02-011-020","label":"The steep path and the two companies","number":2,"refs":["90:11","90:12","90:13","90:14","90:15","90:16","90:17","90:18","90:19","90:20"]},"readiness":{"authoring_effect":"Docket readiness is reported for source provenance. HFT visibility is governed by the authoring policy above.","docket_mode":"blocked","docket_ready":false}},"selected_context_units":[],"support_registry":[{"branch_refs":[],"citable":true,"role":"candidate_evidence","scope":"micro","source_local_id":"90:20:1:overness-and-enclosure-pressure","source_type":"word_analysis","support_id":"sup_1db08bb3441292bc59b4","text":"{\"blocking_evidence\":null,\"headline\":\"overness becomes enclosing burden\",\"reader_payoff\":\"The reader notices that the preposition carries burdening overness and enclosure pressure, but only as the local relation of fire imposed upon the recipients.\",\"reason\":\"The local predicate relation licenses overness and hostile imposition; broader particle values are limited to this governed prepositional frame and do not create a separate spatial episode.\",\"representative_source_ids\":[\"QS-41562ecc\",\"QS-fb80b8d9\",\"MS-a5126d0d\"],\"status\":\"narrowed\"}","trust":"trusted"},{"branch_refs":[],"citable":true,"role":"candidate_evidence","scope":"micro","source_local_id":"90:20:1:suffix-resumes-previous-class","source_type":"word_analysis","support_id":"sup_20b82d0437a36ab0a42e","text":"{\"blocking_evidence\":null,\"headline\":\"suffix resumes the prior class\",\"reader_payoff\":\"The reader sees that the final punishment belongs to the same group identified in 90:19, not to a newly introduced or vague recipient.\",\"reason\":\"The third masculine plural suffix is resolved by the attachment evidence to the immediately preceding classified group, and the bound form compresses that recovery into morphology.\",\"representative_source_ids\":[\"QG-b925bf9e\",\"QG-d85cb540\",\"QB-0bf72296\"],\"status\":\"used\"}","trust":"trusted"},{"branch_refs":[],"citable":true,"role":"candidate_evidence","scope":"micro","source_local_id":"90:20:2:sound-into-closure","source_type":"word_analysis","support_id":"sup_2db6cec63210d41b8efb","text":"{\"blocking_evidence\":null,\"headline\":\"fire sound runs into the seal\",\"reader_payoff\":\"The reader hears the open fire noun move straight into its sealing adjective, so sound makes blaze and confinement hard to separate.\",\"reason\":\"The local adjacency, shared indefinite cadence, and recitational transition support the sound payoff while grammar keeps the noun-adjective relation primary.\",\"representative_source_ids\":[\"QE-285ffcf5\",\"QP-af940eef\",\"QY-72a90f78\"],\"status\":\"used\"}","trust":"trusted"},{"branch_refs":[],"citable":true,"role":"focus_occurrence","scope":"micro","source_local_id":"90:20:3:1","source_type":"qac_morpheme","support_id":"sup_361c65a1129990a7fb4c","text":"{\"lemma_ar\":\"مُّؤْصَدَة\",\"morph_features\":\"STEM|POS:ADJ|LEM:m~u&oSadap|ROOT:wSd|F|INDEF|NOM\",\"morpheme_role\":\"STEM\",\"pos\":\"ADJ\",\"qac_ref\":\"90:20:3:1\",\"qac_word_ref\":\"90:20:3\",\"root_ar\":\"و ص د\",\"surface_ar\":\"مُّؤْصَدَةٌۢ\"}","trust":"trusted"},{"branch_refs":[],"citable":true,"role":"candidate_evidence","scope":"micro","source_local_id":"90:20:1:nasal-frame","source_type":"word_analysis","support_id":"sup_39d9012193c46831e854","text":"{\"blocking_evidence\":null,\"headline\":\"nasal cadence closes the frame\",\"reader_payoff\":\"The reader hears the opening suffix answered by the following nasal endings, binding recipient, fire, and seal into one acoustic unit.\",\"reason\":\"The sound observation is local to the three-word clause and reinforces the syntactic compression without controlling the grammar.\",\"representative_source_ids\":[\"QP-234c8029\"],\"status\":\"used\"}","trust":"trusted"},{"branch_refs":[],"citable":true,"role":"focus_occurrence","scope":"micro","source_local_id":"90:20:2:1","source_type":"qac_morpheme","support_id":"sup_44cf93120d848ce8c720","text":"{\"lemma_ar\":\"نَار\",\"morph_features\":\"STEM|POS:N|LEM:naAr|ROOT:nwr|F|INDEF|NOM\",\"morpheme_role\":\"STEM\",\"pos\":\"N\",\"qac_ref\":\"90:20:2:1\",\"qac_word_ref\":\"90:20:2\",\"root_ar\":\"ن و ر\",\"surface_ar\":\"نَارٌ\"}","trust":"trusted"},{"branch_refs":[],"citable":true,"role":"candidate_evidence","scope":"micro","source_local_id":"90:20:2:agreement-with-sealing-adjective","source_type":"word_analysis","support_id":"sup_47fcb37cb35820886d76","text":"{\"blocking_evidence\":null,\"headline\":\"agreement makes fire one sealed entity\",\"reader_payoff\":\"The reader sees the sealing as a defining attribute of the fire itself, not a detachable second statement.\",\"reason\":\"The feminine singular nominative indefinite noun is modified by an agreeing feminine singular nominative passive participle.\",\"representative_source_ids\":[\"QG-8dc8c1c9\",\"QF-0fe7fe00\",\"QP-95708aef\"],\"status\":\"used\"}","trust":"trusted"},{"branch_refs":[],"citable":true,"role":"candidate_evidence","scope":"micro","source_local_id":"90:20:1","source_type":"word_analysis","support_id":"sup_6c3407328f305aa41fba","text":"{\"gloss_range\":\"fronted prepositional imposition upon the previously classified plural group, with overness and enclosing burden narrowed to this nominal predicate frame\",\"prose\":\"{{ar:عَلَيْهِمْ}} ({{tr:ʿalayhim}}) opens the final clause from the recipients' side. The fronted prepositional predicate makes them bear the syntax before the fire is named, so the punishment arrives as directed imposition rather than an undirected scene. Its bound plural suffix carries the group classified in the previous ayah into this consequence (90:19), while the preposition's overness and hostile enclosure pressure anticipate the sealed fire that follows. Because the clause is verbless, the wording does not narrate entry into punishment; it presents a settled condition already upon them, and the word's nasal close is answered by the following nasal endings, binding the three-word sentence into one compressed acoustic frame.\",\"root_display\":\"no lexical root\",\"root_gloss_range\":null,\"surface_display\":\"{{ar:عَلَيْهِمْ}} ({{tr:ʿalayhim}})\"}","trust":"trusted"},{"branch_refs":[],"citable":true,"role":"candidate_evidence","scope":"micro","source_local_id":"90:20:3:rare-parallel-104-8","source_type":"word_analysis","support_id":"sup_6d35ad4b5f4cce2b7033","text":"{\"blocking_evidence\":null,\"headline\":\"rare closure word echoes 104:8\",\"reader_payoff\":\"The reader notices that this rare closure adjective is not generic punishment vocabulary; its paired use in 104:8 concentrates the image around sealed fire.\",\"reason\":\"The contextual profile marks the passive participle as low occurrence, and CRITICAL rows give 104:8 as the concrete paired sealed-fire occurrence.\",\"representative_source_ids\":[\"QI-fb184a07\",\"MI-61bf5417\",\"QH-95f0e005\"],\"status\":\"used\"}","trust":"trusted"},{"branch_refs":[],"citable":true,"role":"candidate_evidence","scope":"micro","source_local_id":"90:20:1:fronted-predicate-pressure","source_type":"word_analysis","support_id":"sup_71701801c49cb06d345c","text":"{\"blocking_evidence\":null,\"headline\":\"fronted predicate makes pressure first\",\"reader_payoff\":\"The reader encounters the affected group before the fire, so the syntax itself makes punishment feel already directed at them.\",\"reason\":\"QAC and attachment evidence identify the word as the fronted prepositional predicate of a nominal clause whose delayed subject is the fire phrase.\",\"representative_source_ids\":[\"QG-5e896d24\",\"MG-90efc141\",\"QT-66400dbd\"],\"status\":\"used\"}","trust":"trusted"},{"branch_refs":[],"citable":true,"role":"candidate_evidence","scope":"micro","source_local_id":"90:20:3:hard-acoustic-lock","source_type":"word_analysis","support_id":"sup_7b2e45b43cca3472ebd6","text":"{\"blocking_evidence\":null,\"headline\":\"hard sound locks the ending\",\"reader_payoff\":\"The reader hears the final adjective constrict and stop, so the surah's ending performs closure as well as naming it.\",\"reason\":\"The phonetic rows are local to the final word and reinforce the barred-closure meaning without displacing the grammatical analysis.\",\"representative_source_ids\":[\"QP-0652cef7\",\"QP-fa9bcd5c\",\"QY-60dee3ec\"],\"status\":\"used\"}","trust":"trusted"},{"branch_refs":[],"citable":true,"role":"candidate_evidence","scope":"micro","source_local_id":"90:20:2:destructive-light-selection","source_type":"word_analysis","support_id":"sup_7c1ad59ed4f09b2fd9a0","text":"{\"blocking_evidence\":null,\"headline\":\"destructive blaze selected from light range\",\"reader_payoff\":\"The reader notices visibility turned into destructive exposure rather than guidance, with 24:35 marking the unchosen light contrast.\",\"reason\":\"V4 preserves both illumination and burning-fire branches, but the local concrete noun, punishment frame, and sealing adjective select fire while allowing adverse visibility as narrowed root pressure.\",\"representative_source_ids\":[\"QS-ab030706\",\"QI-29c263c9\",\"MI-d9109f4f\"],\"status\":\"narrowed\"}","trust":"trusted"},{"branch_refs":[],"citable":true,"role":"candidate_evidence","scope":"micro","source_local_id":"90:20:2","source_type":"word_analysis","support_id":"sup_82681e28b95b66f0e7f7","text":"{\"gloss_range\":\"indefinite concrete fire as the delayed subject, locally selected as punitive destructive blaze and immediately qualified into sealed confinement\",\"prose\":\"{{ar:نَارٌۭ}} ({{tr:nārun}}) answers the opening burden as the delayed subject: first the recipients are placed under pressure, then the fire is named. Its indefiniteness leaves the blaze's scale open, but its singular feminine form lets the following adjective bind sealing to it as one enclosed condition. The wider {{ar:ن و ر}} ({{tr:n-w-r}}) field can move toward illumination, yet this local noun selects destructive fire; against the guiding-light contrast in 24:35, the visibility here exposes and burns rather than opens a path. The boundary from the previous ayah also matters: classification in 90:19 becomes a sensory fire-scene, and the sound of the noun runs directly into {{ar:مُّؤْصَدَةٌۢ}} ({{tr:muʾṣadatun}}), making open flame submit immediately to closure.\",\"root_display\":\"{{ar:ن و ر}} ({{tr:n-w-r}})\",\"root_gloss_range\":\"broad light and fire range including illumination, burning fire, visible beacons, bloom, aversion, pigment, and other remote branches; the local noun selects the burning-fire branch while preserving adverse visibility against guidance-light associations\",\"surface_display\":\"{{ar:نَارٌۭ}} ({{tr:nārun}})\"}","trust":"trusted"},{"branch_refs":[],"citable":true,"role":"candidate_evidence","scope":"micro","source_local_id":"90:20:3:final-word-seals-scene","source_type":"word_analysis","support_id":"sup_84622aa60f46275ce7db","text":"{\"blocking_evidence\":null,\"headline\":\"final word seals the scene\",\"reader_payoff\":\"The reader feels the ayah move from recipients to fire to inescapability, with closure as the surah's final takeaway.\",\"reason\":\"The word stands last in the three-word nominal scene, after recipient pressure and fire have been disclosed.\",\"representative_source_ids\":[\"QT-466ce1a5\",\"QT-cf7566cc\",\"MT-bfbf6db0\"],\"status\":\"used\"}","trust":"trusted"},{"branch_refs":[],"citable":true,"role":"candidate_evidence","scope":"micro","source_local_id":"90:20:3:passive-participle-result-state","source_type":"word_analysis","support_id":"sup_881627ad964da0928eae","text":"{\"blocking_evidence\":null,\"headline\":\"passive participle stores completed sealing\",\"reader_payoff\":\"The reader notices a completed act of sealing compressed into an adjectival state rather than narrated as a separate event.\",\"reason\":\"QAC identifies the word as a passive participle, and attachment evidence places it as the adjective of the fire noun.\",\"representative_source_ids\":[\"QG-4fbe4762\",\"QF-876e2ead\",\"MF-87c07537\"],\"status\":\"used\"}","trust":"trusted"},{"branch_refs":[],"citable":true,"role":"candidate_evidence","scope":"micro","source_local_id":"90:20:3","source_type":"word_analysis","support_id":"sup_8b2f2343fa76dac34845","text":"{\"gloss_range\":\"feminine singular passive participle qualifying the fire as already sealed, barred, fastened, and made inaccessible\",\"prose\":\"{{ar:مُّؤْصَدَةٌۢ}} ({{tr:muʾṣadatun}}) is the surah's final word, so the clause ends by sealing what it has just disclosed. As a feminine passive participle agreeing with {{ar:نَارٌۭ}} ({{tr:nārun}}), it makes closure a completed state attached to the fire, while the sealing agent and finite act remain unspoken. The sense is not ordinary shutting: the adjective makes the blaze an inaccessible environment where passage is barred. Hamzated, smoothed, and pausal variant surfaces alter the sound texture while preserving that closure, and the paired use in 104:8, where the same closure field seals fire rising to hearts, makes the rare word part of a wider sealed-fire pattern. Its final position, hamza catch, emphatic constriction, and stopped ending make the surah's last experience semantic, grammatical, and acoustic closure at once.\",\"root_display\":\"{{ar:أ ص د}} ({{tr:ʾ-ṣ-d}})\",\"root_gloss_range\":\"rare barred-closure field around closing, fastening, obstruction, and blocked passage; V4 lacks guardrail rows for this root, so local grammar, variant evidence, and paired occurrence evidence constrain the payoff\",\"surface_display\":\"{{ar:مُّؤْصَدَةٌۢ}} ({{tr:muʾṣadatun}})\"}","trust":"trusted"},{"branch_refs":[],"citable":true,"role":"candidate_evidence","scope":"micro","source_local_id":"90:20:1:verbless-settled-condition","source_type":"word_analysis","support_id":"sup_8e21f38c7659d1ebc086","text":"{\"blocking_evidence\":null,\"headline\":\"verbless clause fixes the condition\",\"reader_payoff\":\"The reader notices a standing condition already upon the group rather than a narrated action of entering or arriving.\",\"reason\":\"The clause is nominal and uses the prepositional phrase as predicate, so no finite verb narrates a transition into the fire.\",\"representative_source_ids\":[\"QT-8f578c2f\"],\"status\":\"used\"}","trust":"trusted"},{"branch_refs":[],"citable":true,"role":"candidate_evidence","scope":"micro","source_local_id":"90:20:2:verdict-becomes-fire-environment","source_type":"word_analysis","support_id":"sup_a64775df29fc625b4bcf","text":"{\"blocking_evidence\":null,\"headline\":\"verdict becomes sensory fire\",\"reader_payoff\":\"The reader notices the move from classification in 90:19 to a concrete environment of punishment in 90:20.\",\"reason\":\"The prior class is resumed by the preceding suffix, and this noun supplies the physical punitive condition borne by that group.\",\"representative_source_ids\":[\"QS-8ec01a6b\",\"QB-aba496d9\",\"QB-eb920690\"],\"status\":\"used\"}","trust":"trusted"},{"branch_refs":[],"citable":true,"role":"candidate_evidence","scope":"micro","source_local_id":"90:20:3:concord-fastens-to-fire","source_type":"word_analysis","support_id":"sup_a6e1a904ff220072bea7","text":"{\"blocking_evidence\":null,\"headline\":\"concord fastens the seal to fire\",\"reader_payoff\":\"The reader sees sealed closure as grammatically inseparable from the fire rather than a loose second predicate.\",\"reason\":\"The final word agrees with the fire noun in feminine singular nominative indefinite form and is strongly licensed as its adjective.\",\"representative_source_ids\":[\"QG-c371dd13\",\"QG-efb67c82\",\"QF-191aac10\"],\"status\":\"used\"}","trust":"trusted"},{"branch_refs":[],"citable":true,"role":"candidate_evidence","scope":"micro","source_local_id":"90:20:2:indefinite-delayed-subject","source_type":"word_analysis","support_id":"sup_d7d4c354a71b8e8e7e26","text":"{\"blocking_evidence\":null,\"headline\":\"indefinite delayed fire completes the frame\",\"reader_payoff\":\"The reader feels suspense between the imposed-recipient opening and the disclosed fire whose scale is still left open.\",\"reason\":\"The noun is an indefinite nominative delayed subject completing the fronted predicate, not an object or isolated fragment.\",\"representative_source_ids\":[\"QG-149e50db\",\"QG-dff19742\",\"QT-54c3aac0\"],\"status\":\"used\"}","trust":"trusted"},{"branch_refs":[],"citable":true,"role":"candidate_evidence","scope":"micro","source_local_id":"90:20:3:variant-surfaces-stable-sense","source_type":"word_analysis","support_id":"sup_db405e2afc226ee52d46","text":"{\"blocking_evidence\":null,\"headline\":\"variant surfaces keep the sealed sense\",\"reader_payoff\":\"The reader notices that hamzated, smoothed, and pausal surfaces shift recitational texture while preserving the adjective's sealed-fire force.\",\"reason\":\"Variant evidence clarifies sound and morphological pressure, but it remains narrowed because it does not change the local adjectival parse or replace the aligned surface.\",\"representative_source_ids\":[\"QS-28ffb3f2\",\"QF-42634aca\",\"QI-94ecbb2d\"],\"status\":\"narrowed\"}","trust":"trusted"},{"branch_refs":[],"citable":true,"role":"candidate_evidence","scope":"micro","source_local_id":"90:20:3:barred-closure","source_type":"word_analysis","support_id":"sup_e6e44eb10b3a83564b6e","text":"{\"blocking_evidence\":null,\"headline\":\"barred closure denies passage\",\"reader_payoff\":\"The reader notices that the punishment is not only fire but fire made inaccessible from within, with exit or passage blocked.\",\"reason\":\"V4 has no guardrail rows for this root, which is not negative evidence; the CRITICAL semantic rows and local adjectival relation support barred, secured closure.\",\"representative_source_ids\":[\"QS-5dd08a1a\",\"QS-a0abc595\",\"MS-31da21b8\"],\"status\":\"used\"}","trust":"trusted"},{"anchor_evidence":[{"arabic_uthmani":"عَلَيْهِمْ نَارٌۭ مُّؤْصَدَةٌۢ","ayah_ref":"90:20"}],"anchor_evidence_coverage":{"boundary":"Exact Arabic verifies surface contact only. HFT-stated segmentation, word indices, roots, branches, and roles remain attributed nominations unless independently supplied elsewhere in this packet.","cited_anchor_count":1,"exact_arabic_is_surface_evidence_only":true,"missing_anchor_refs":[],"supplied_anchor_count":1,"target_morphology_supplied":false},"branch_refs":["root_000036/B001","root_001564/B002","root_001653/B001"],"payload":{"activation_trace":[{"branch_id":"B002","mapped_root_id":"root_001564","role":"Burning fire, including its capacity to leave a brand, supplies the active punitive material that is laid over the group.","root":"ن و ر","source_ref":"90:20","source_word_indices":["2"]},{"branch_id":"B001","mapped_root_id":"root_000036","role":"Closing over and shutting in makes the adjective an all-around containment mechanism rather than a incidental property.","root":"و ص د","source_ref":"90:20","source_word_indices":["3"]},{"branch_id":"B001","mapped_root_id":"root_001653","role":"A door fastened fully shut adds the concrete denial of an exit to the focus enclosure.","root":"و ص د","source_ref":"90:20","source_word_indices":["3"]}],"changed_reading":{"after":"The fire is itself the closure, shutting over them as an inescapable burning lid.","before":"A fire is upon them and happens to be in a closed place."},"confidence":"strong","focus_anchor":"The construction عليهم نار مؤصدة joins an over-upon relation to a burning noun and an adjective of fastening shut.","mechanism":"Fire is not merely placed inside a closed room. The closing-over image lets the fire itself function as the enclosing surface: it burns, covers, and denies exit in one operation.","model_id":"b_enclosing_fire_lid"},"qualification":{"anchor_scope_complete":true,"authoring_effect":"Source qualifications affect epistemic status and containment, never visibility or presumptive outcome.","packet_scope_relation":"broader_than_declared_pericope","reader_identity_status":"legacy_unbound","record_warnings":[]},"role":"hft_nomination_evidence","scope":"micro","source_local_id":"reader_hft_a:b_enclosing_fire_lid","source_type":"hft","support_id":"sup_2ad0759d7cbea2ff3d71","trust":"legacy_unbound"},{"anchor_evidence":[{"arabic_uthmani":"عَلَيْهِمْ نَارٌۭ مُّؤْصَدَةٌۢ","ayah_ref":"90:20"}],"anchor_evidence_coverage":{"boundary":"Exact Arabic verifies surface contact only. HFT-stated segmentation, word indices, roots, branches, and roles remain attributed nominations unless independently supplied elsewhere in this packet.","cited_anchor_count":1,"exact_arabic_is_surface_evidence_only":true,"missing_anchor_refs":[],"supplied_anchor_count":1,"target_morphology_supplied":false},"branch_refs":["root_000036/B004","root_001564/B002","root_001653/B001","root_001653/B002"],"payload":{"activation_trace":[{"branch_id":"B002","mapped_root_id":"root_001653","role":"The forecourt or doorway adjoining a dwelling supplies the transitional boundary that the focus seal cancels.","root":"و ص د","source_ref":"90:20","source_word_indices":["3"]},{"branch_id":"B004","mapped_root_id":"root_000036","role":"The courtyard-close image broadens the relevant boundary from a door leaf to the approach around it.","root":"و ص د","source_ref":"90:20","source_word_indices":["3"]},{"branch_id":"B001","mapped_root_id":"root_001653","role":"Fastening the door shut converts a zone of transition into a terminal edge.","root":"و ص د","source_ref":"90:20","source_word_indices":["3"]},{"branch_id":"B002","mapped_root_id":"root_001564","role":"The burning material occupies that terminal edge, leaving no neutral threshold from which to depart.","root":"ن و ر","source_ref":"90:20","source_word_indices":["2"]}],"changed_reading":{"after":"The doorway and forecourt have themselves become fire and closure; there is no safe threshold left.","before":"The fire is located somewhere behind a shut boundary."},"confidence":"medium","focus_anchor":"The split inventory of مؤصدة contains both doorway-forecourt and fastening images, while نار occupies the predicated space over them.","mechanism":"A threshold ordinarily mediates passage between inside and outside. Combining its doorway and forecourt branches with sealing makes that mediating zone disappear: the boundary itself is fiery and fastened.","model_id":"b_threshold_consumed"},"qualification":{"anchor_scope_complete":true,"authoring_effect":"Source qualifications affect epistemic status and containment, never visibility or presumptive outcome.","packet_scope_relation":"broader_than_declared_pericope","reader_identity_status":"legacy_unbound","record_warnings":[]},"role":"hft_nomination_evidence","scope":"micro","source_local_id":"reader_hft_a:b_threshold_consumed","source_type":"hft","support_id":"sup_478a1c2d24f86d005faf","trust":"legacy_unbound"},{"anchor_evidence":[{"arabic_uthmani":"عَلَيْهِمْ نَارٌۭ مُّؤْصَدَةٌۢ","ayah_ref":"90:20"}],"anchor_evidence_coverage":{"boundary":"Exact Arabic verifies surface contact only. HFT-stated segmentation, word indices, roots, branches, and roles remain attributed nominations unless independently supplied elsewhere in this packet.","cited_anchor_count":1,"exact_arabic_is_surface_evidence_only":true,"missing_anchor_refs":[],"supplied_anchor_count":1,"target_morphology_supplied":false},"branch_refs":["root_000036/B001","root_001564/B003","root_001564/B005"],"payload":{"activation_trace":[{"branch_id":"B003","mapped_root_id":"root_001564","role":"Fire sighted or sought from afar supplies long-range visibility to the otherwise closed scene.","root":"ن و ر","source_ref":"90:20","source_word_indices":["2"]},{"branch_id":"B005","mapped_root_id":"root_001564","role":"The visible beacon or boundary-marker image lets the fire identify a location rather than disappear behind its seal.","root":"ن و ر","source_ref":"90:20","source_word_indices":["2"]},{"branch_id":"B001","mapped_root_id":"root_000036","role":"Total shutting-in restricts the victims while leaving the separate question of outward visibility open.","root":"و ص د","source_ref":"90:20","source_word_indices":["3"]}],"changed_reading":{"after":"It may be sealed against escape yet remain a conspicuous beacon of the enclosure.","before":"A sealed fire is hidden as well as inaccessible."},"confidence":"exploratory","focus_anchor":"نار can activate distant sighting and beacon images even while مؤصدة anchors complete inward closure.","mechanism":"Sealed need not mean visually hidden. The same fire can be inaccessible from within yet conspicuous from without, producing an asymmetry between the captives' lack of exit and the scene's outward legibility.","model_id":"b_visible_seal"},"qualification":{"anchor_scope_complete":true,"authoring_effect":"Source qualifications affect epistemic status and containment, never visibility or presumptive outcome.","packet_scope_relation":"broader_than_declared_pericope","reader_identity_status":"legacy_unbound","record_warnings":[]},"role":"hft_nomination_evidence","scope":"micro","source_local_id":"reader_hft_a:b_visible_seal","source_type":"hft","support_id":"sup_8dafb8b4c3a07e67517e","trust":"legacy_unbound"}]}
+</lane_packet_json>

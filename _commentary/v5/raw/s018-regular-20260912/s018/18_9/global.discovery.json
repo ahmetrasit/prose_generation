@@ -1,0 +1,378 @@
+{
+  "schema_version": "commentary-v5-scope-discovery-v1",
+  "ayah_ref": "18:9",
+  "lane": "global",
+  "coverage_complete": true,
+  "candidate_decisions": [
+    {
+      "candidate_id": "cand_7b7c96ff001e91ea45ff",
+      "decision": "accept",
+      "reason": "Güvenilir alıntılanabilir destek, 18:9:2:1 taşıyıcısındaki B002 varsayımını doğrudan kuruyor. Sağlanan daha geniş işaret ve düzeltilmiş tahmin bağlantıları, bu varsayımın mağara hayretini silmeden ölçüsünü sınırlayan küresel ilişkiyi bağımsız olarak tetikliyor.",
+      "finding_refs": ["global:wonder-scale"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_1cbff63935ed8d0c42dc",
+      "decision": "accept",
+      "reason": "Güvenilir alıntılanabilir destek, 18:9:6:3 taşıyıcısındaki işaretli kayıt dalını doğrudan kuruyor. 18:11-13 içindeki sayma ve aktarım devamı ile sağlanan kayıt bağlantıları, mağara-kayıt çiftinin silinmeye karşı iki ayrı koruma yüzü olarak değişmiş okumasını taşıyor.",
+      "finding_refs": ["global:paired-preservation"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_58c32c8700277260d7b9",
+      "decision": "represented",
+      "reason": "Bu legacy okuyucu yürüyüşü, global:wonder-scale bulgusundaki aynı B002 varsayımının daha geniş işaret alanı karşısında ölçülmesi ilişkisini taşır; ayrı bir dal, bağlam veya semantik yükümlülük bırakmaz ve desteği named bulguda korunur.",
+      "finding_refs": ["global:wonder-scale"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_8c5a2e64186931d5d3ed",
+      "decision": "represented",
+      "reason": "18:109 ile hayretin daha da geniş bir ilahi söz alanı karşısında ölçülmesi, global:wonder-scale bulgusunun aynı sonuç okumasıdır; bu dar retrospektif uzantı ayrı bir mekanizma kurmaz ve desteği named bulguda korunur.",
+      "finding_refs": ["global:wonder-scale"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_535d2bb33bc9c7a5dc77",
+      "decision": "represented",
+      "reason": "Bu geniş bağlam okuyucu yürüyüşü, global:paired-preservation bulgusundaki mağara ile işaretli kaydın bedensel ve notasyonal koruma olarak eşleşmesini aynen taşır; eklenen 18:11-13 bağlamı named bulguda korunur.",
+      "finding_refs": ["global:paired-preservation"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_3bc74a8dd4039fcc311c",
+      "decision": "represented",
+      "reason": "18:11-12'deki sayma aygıtı olarak kayıt okuması, global:paired-preservation bulgusundaki kayıtla iz ve sayının korunması ilişkisinin tam semantik kopyasıdır; ayrı bir dal veya yükümlülük dışarıda bırakılmaz.",
+      "finding_refs": ["global:paired-preservation"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_0a8bc1885ac54a39047e",
+      "decision": "reject",
+      "reason": "Legacy_unbound HFT kaydının anchor_evidence alanı boştur; 18:18 adı geçse de ayet, kelime dizini, kök, atfedilmiş rol ve odağa dönen kesin iz sağlanmamıştır. Bu nedenle özet, attributed bir taşıyıcı-tetikleyici ilişkisine dönüştürülemez.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_c10027b14cd404bcf5b1",
+      "decision": "reject",
+      "reason": "Legacy_unbound HFT arşiv özeti, yazı, ardışık aktarım ve kamusal kanıt etkilerini topluca bildiriyor; anchor_evidence içinde kesin bağlam koordinatı, kök, rol ve focus return bulunmadığı için tekil bir aktivasyon olarak tutulamaz.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_890137feec44733931c5",
+      "decision": "reject",
+      "reason": "Legacy_unbound HFT kaydı mağarayı geçirgen bir sığınak olarak özetliyor, fakat kesin context ayahı, word index, root, attributed role veya focus return vermiyor. Bu genel sentez, stated HFT rolünü aşmadan doğrulanabilir bir global aktivasyona dönüşemez.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_f3e54b73ba3ff7ec6758",
+      "decision": "reject",
+      "reason": "What-was-special HFT özeti, bedenin korunması, ölçü, görünüş ve kayıt etkilerini çoklu bir üst sentezde birleştiriyor; exact anchor trace ve odağa dönüş olmadığı için tek bir bounded semantic relation olarak retained edilemez.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_1d532c685b5d1206930a",
+      "decision": "reject",
+      "reason": "Legacy_unbound HFT uncertainty kaydı al-Raqim'in yazı, yer veya kapalı adlandırma olabileceğini söylüyor; bu alternatifler için kesin context ayahı, kelime/kök koordinatı, atfedilmiş rol ve focus return sağlanmamıştır.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_fd07422cb7d8fab5c355",
+      "decision": "reject",
+      "reason": "Legacy_unbound HFT kaydı al-Raqim ile sonraki bina sahnesi arasındaki bağı inferential olarak bildiriyor, ancak exact HFT trace ve focus-return contact sunmuyor. Bu nedenle stated role sınırı içinde retained bir bulgu kurulamaz.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_aab7fcc3b86886b09614",
+      "decision": "reject",
+      "reason": "Legacy_unbound HFT outlier, dağınık companionship aktivasyonunu bildiriyor; anchor_evidence, exact word/root coordinate, attributed role ve focus return olmadığı için bu ilişki supplied surface'e doğrulanabilir biçimde bağlanamıyor.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    }
+  ],
+  "findings": [
+    {
+      "finding_ref": "global:wonder-scale",
+      "origin_candidate_id": "cand_7b7c96ff001e91ea45ff",
+      "represented_candidate_ids": [
+        "cand_58c32c8700277260d7b9",
+        "cand_8c5a2e64186931d5d3ed"
+      ],
+      "title": "Hayretin ölçüsü, varsayımın sınırı",
+      "claim": "Odak sorusundaki varsayım, mağara olayının hayretini koruyarak onu Allah'ın daha geniş işaret alanı içindeki yerel bir görünüm olarak ölçer; böylece şaşılacak olan ile insanın onu bütünüyle kavradığını sanması ayrışır.",
+      "mechanism": "18:9:2:1'deki حَسِبْ taşıyıcısı, 18:9:9:1'deki ayetler alanı ve 18:9:10:1'deki عَجَبًا ile temas eder. 18:102, 2:259 ve 20:23 bağlantıları varsayımın, ölçünün ve işaret alanının insan tahminini aşan yönlerini bağımsız olarak açar; 18:63 ve 72:1 bağlantıları da hayret adının daha geniş kullanımlarını gösterir. Temas, soruyu hayreti küçülten bir hükümden, hayretin daha geniş işaret düzenini tüketmediğini bildiren bir ölçü düzeltmesine çevirir.",
+      "reader_payoff": "Okur, mağara olayının şaşırtıcılığını korurken sorunun baskısının olayın hayretinden çok insan tahmininin onu bütünüyle ölçme iddiasında olduğunu görür.",
+      "containment": "Düz soru anlamı ve mağara olayının hayret verici oluşu korunur. Bu bulgu olayın tarihsel ayrıntılarını, bütün ilahi işaretlerin kapsamını veya sûrenin genel tezini belirlemez; sağlanan bağlantıların hedef morfolojisi verilmediği için genişletilmiş ilişki nitelikli kalır.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": [
+          "legacy_unbound",
+          "trusted"
+        ],
+        "reason": "Güvenilir citable destek B002 varsayım taşıyıcısını doğrudan sabitler. Legacy okuyucu yürüyüşleri ve supplied connection satırları ölçek, ölçü ve wonder temasını bağımsız biçimde nomine eder; connection hedef morfolojisi sağlanmadığı için birleşik okuma qualified olarak korunur."
+      },
+      "support_ids": [
+        "sup_eb8b7faa401ff30230f8",
+        "sup_21e98494d94fa7109e90",
+        "sup_5a7da7b6aa778ff82d3e"
+      ],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000318/B002",
+          "facet_id": "F001",
+          "branch_gloss": "öyle olduğunu sanmak",
+          "facet_statement": "Kişi, kesinlik bulunmadığı halde bir durumun öyle olduğuna zihnen yönelir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "18:9:2:1"
+          ],
+          "trigger_refs": [
+            "18:9:9:1",
+            "conn_8c009fd5e9daac4dbeba",
+            "conn_5215f54538fa9855f800",
+            "conn_5abb48dc78f2532595a4",
+            "sup_21e98494d94fa7109e90"
+          ],
+          "focus_return_refs": [
+            "18:9:2:1"
+          ],
+          "carrier": "حَسِبْ yüzeyi, kesinlik bulunmadan bir durum hakkında zihinsel varsayım kurma anlamını taşır.",
+          "independent_trigger": "18:102'deki paralel sorgu, 2:259'daki düzeltilen süre tahmini ve 20:23'teki daha büyük işaret ifadesi, insan varsayımını genişleyen bir işaret alanı karşısında sınırlar.",
+          "activation": "Varsayım taşıyıcısı, odaktaki ayetler alanı ve supplied düzeltme bağlantılarıyla buluşunca soru, hayreti ortadan kaldırmadan insan hesabının kapsamını geri çeker.",
+          "resulting_reading": "Mağara olayı şaşırtıcı kalır; onu tek başına bütün işaret düzeninin ölçüsü sayan varsayım ise sınırlanır.",
+          "boundary": "B002'nin odak içindeki temel varsayım anlamı korunur; mağaranın gerçek süresi veya bütün işaretlerin nicel toplamı ileri sürülmez."
+        },
+        {
+          "branch_ref": "root_000318/B001",
+          "facet_id": "F001",
+          "branch_gloss": "sayarak nicelik belirleme",
+          "facet_statement": "Nesneler tek tek sayılır ve nicelikleri sayı kullanılarak belirlenir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "18:9:2:1"
+          ],
+          "trigger_refs": [
+            "conn_5215f54538fa9855f800",
+            "sup_21e98494d94fa7109e90"
+          ],
+          "focus_return_refs": [
+            "18:9:2:1"
+          ],
+          "carrier": "حَسِبْ yüzeyi, daha geniş karşılaştırmada niceliği tahmin etme baskısına açılır.",
+          "independent_trigger": "2:259, süreyi yanlış tahmin eden kişinin hesabını açık süre bilgisiyle düzeltir; reader-walk desteği de mağara hayretini daha geniş ilahi bilgi karşısında ölçer.",
+          "activation": "Odak fiilindeki varsayım, düzeltilen süre tahminiyle temas ettiğinde hayretin bir sayı veya tek bir ölçüye kapatılması yerine ölçünün tashih edilebilirliği görünür olur.",
+          "resulting_reading": "Soru, olayın hayretini sayısal bir kesinliğe indiren insan ölçüsünün sınırını da duyurur.",
+          "boundary": "Bu qualified yan okuma mağara arkadaşlarının süresini veya ayetin yerel fiil çerçevesini doğrudan sayma fiiline çevirmez."
+        },
+        {
+          "branch_ref": "root_000074/B003",
+          "facet_id": "F001",
+          "branch_gloss": "gorunen belirti",
+          "facet_statement": "Temel anlam, bir seyi tanitan veya ona delalet eden gorunen belirtidir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "18:9:9:1"
+          ],
+          "trigger_refs": [
+            "18:9:2:1",
+            "conn_5abb48dc78f2532595a4"
+          ],
+          "focus_return_refs": [
+            "18:9:9:1"
+          ],
+          "carrier": "ءَايَٰتِ yüzeyi, tanıtan ve delalet eden görünür işaretler alanını taşır.",
+          "independent_trigger": "Odaktaki varsayım sorusu ve 20:23'teki daha büyük işaretler ifadesi, bu sign-domain'i tek bir olayla sınırlamayan bağımsız bir çerçeve sağlar.",
+          "activation": "İşaret taşıyıcısı, varsayımı düzelten soru ve daha geniş işaret örneğiyle temas ettiğinde mağara arkadaşları işaretler arasında yer alan görünür bir belirti olarak okunur.",
+          "resulting_reading": "Mağara olayı Allah'ın işaretleri içinde gerçek bir örnek olarak kalır ve işaret alanının tamamı yerine geçmez.",
+          "boundary": "Bu activation başka ayetlerdeki işaretlerin tüm anlamlarını veya tek bir tarihsel sınıflandırmayı odak ayete taşımaz; 20:23 hedefinin morfolojisi supplied değildir."
+        },
+        {
+          "branch_ref": "root_000984/B001",
+          "facet_id": "F001",
+          "branch_gloss": "olağan dışı şeye şaşma",
+          "facet_statement": "Çekirdek, alışılmamış veya nedeni kavranamayan bir şeye yönelen şaşma halidir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "18:9:10:1"
+          ],
+          "trigger_refs": [
+            "18:9:2:1",
+            "conn_a3de3ebb619ad7ff99d3",
+            "conn_33811fb1409692c8b482",
+            "sup_5a7da7b6aa778ff82d3e"
+          ],
+          "focus_return_refs": [
+            "18:9:10:1"
+          ],
+          "carrier": "عَجَبًا yüzeyi, alışılmamış ve nedeni kavranamayan şeye yönelen şaşma halini taşır.",
+          "independent_trigger": "18:63 ve 72:1'deki supplied عجب kullanımları, ayrıca 18:109'a dönen retrospektif kayıt, hayret adının tek bir olaya kapalı olmadığını gösterir.",
+          "activation": "Hayret taşıyıcısı, odak sorusu ve daha geniş wonder kullanımlarıyla temas edince mağara olayındaki şaşma, daha büyük bir ilahi söz ve işaret alanı içindeki bir hayret olarak ölçülür.",
+          "resulting_reading": "عَجَبًا, mağara olayının hayretini azaltmadan, onun daha geniş bir hayret kayıtları alanında yer aldığını görünür kılar.",
+          "boundary": "18:63 ve 72:1 odak olayının aynı anlatı olduğunu veya sûrede tamamlanmış bir kanal kurduğunu söylemez; yalnızca sağlanan bağlantıların nitelikli genişletmesini taşır."
+        }
+      ],
+      "connection_refs": [
+        "conn_8c009fd5e9daac4dbeba",
+        "conn_5215f54538fa9855f800",
+        "conn_5abb48dc78f2532595a4",
+        "conn_a3de3ebb619ad7ff99d3",
+        "conn_33811fb1409692c8b482"
+      ],
+      "context_refs": [
+        "18:102",
+        "2:259",
+        "20:23",
+        "18:63",
+        "72:1",
+        "18:91",
+        "18:109"
+      ],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:paired-preservation",
+      "origin_candidate_id": "cand_1cbff63935ed8d0c42dc",
+      "represented_candidate_ids": [
+        "cand_535d2bb33bc9c7a5dc77",
+        "cand_3bc74a8dd4039fcc311c"
+      ],
+      "title": "Mekân ve kayıtla korunan iz",
+      "claim": "Mağara ile er-Rakîm yan yana geldiğinde, kişiler bedensel bir sığınakta tutulurken işaretli kayıt onların sayısını veya izini silinmeye karşı taşıyan ikinci bir koruma yüzü olarak görünür.",
+      "mechanism": "18:9:5:2'deki mağara tanımlayıcısı ile 18:9:6:3'teki er-Rakîm aynı kişi grubunu birlikte belirler. Reader-walk kanıtı 18:11-13'te saklanma, sayma ve ardışık aktarımın devam ettiğini bildirir; 83:9, 18:49 ve 36:12 bağlantıları ise işaretli yazı, eksiksiz kayıt ve izlerin yazılmasıyla notasyonal koruma temasını bağımsız olarak döndürür.",
+      "reader_payoff": "Okur, er-Rakîm'i açıklaması zor bir ek ad olarak bırakmak yerine, mağaranın mekânsal korumasına eşlik eden sayıyı ve izi taşıyan bir kayıt işlevini ihtiyatla görebilir.",
+      "containment": "Mağara ve kayıt birlikte anılmasının düz anlamı korunur. Er-Rakîm'in tarihsel olarak hangi fiziksel nesne veya yere karşılık geldiği sabitlenmez; bağlantı ayetlerinin hedef morfolojisi verilmediği için okuma işlevsel ve qualified kalır.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": [
+          "legacy_unbound",
+          "trusted"
+        ],
+        "reason": "Trusted publication desteği odak kayıt taşıyıcısını ve mağara-kayıt işlevini anchors. Legacy reader-walk kayıtları 18:11-13 sayma ve iz devamını sağlar; supplied connection satırları kayıt paralellerini genişletir, bu yüzden fiziksel referans qualified tutulur."
+      },
+      "support_ids": [
+        "sup_a2ee42fb12cc5da51a03",
+        "sup_6484fcf51a4e1aa7f1d7",
+        "sup_9c5a42320b3052c84d64"
+      ],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000587/B001",
+          "facet_id": "F001",
+          "branch_gloss": "yazılı ya da çizili işaret koyma",
+          "facet_statement": "Temel işlem, bir yüzeyde okunabilir veya ayırt edilebilir yazılı ya da çizili bir iz oluşturmaktır.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "18:9:6:3"
+          ],
+          "trigger_refs": [
+            "18:9:5:2",
+            "sup_6484fcf51a4e1aa7f1d7",
+            "sup_9c5a42320b3052c84d64",
+            "conn_1173a36c55e89820b09e",
+            "conn_c31b15fec2b2c95c7751",
+            "conn_600081f1490a6418be18"
+          ],
+          "focus_return_refs": [
+            "18:9:6:3"
+          ],
+          "carrier": "رَّقِيمِ yüzeyi, bir yüzeyde ayırt edilebilir yazılı veya çizili iz oluşturma işlemini taşır.",
+          "independent_trigger": "Mağara ile kurulan odak içi çift, 18:11-13'teki sayma ve ardışık aktarım, ayrıca 83:9, 18:49 ve 36:12'deki supplied kayıt ve iz yazımı örnekleridir.",
+          "activation": "İşaret koyma işlemi, mağara ve daha geniş kayıt örnekleriyle temas edince odaktaki ikinci adın kişilerin ardından kalan sayılabilir ve aktarılabilir izi taşıma yönünü açar.",
+          "resulting_reading": "Er-Rakîm, önce işaretlenmiş bir iz oluşturma işleminin sonucu olarak kişilerin ve olayın sayısını taşıyan kayıt yüzüne bağlanır.",
+          "boundary": "F001 yazı veya çizgiyle iz oluşturma çekirdeğini taşır; belirli bir yazı tekniği, fiziksel kayıt nesnesi veya tarihsel referans seçilmez."
+        },
+        {
+          "branch_ref": "root_000587/B001",
+          "facet_id": "F003",
+          "branch_gloss": "yazılı ya da çizili işaret koyma",
+          "facet_statement": "Yazılmış kitap veya levha, işlemin sonucu olan işaretli nesne olarak adlandırılabilir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "18:9:6:3"
+          ],
+          "trigger_refs": [
+            "18:9:5:2",
+            "sup_6484fcf51a4e1aa7f1d7",
+            "sup_9c5a42320b3052c84d64",
+            "conn_1173a36c55e89820b09e",
+            "conn_c31b15fec2b2c95c7751",
+            "conn_600081f1490a6418be18"
+          ],
+          "focus_return_refs": [
+            "18:9:6:3"
+          ],
+          "carrier": "رَّقِيمِ yüzeyi, yazı veya çizgiyle işaretlenmiş nesne ve kayıt sonucunu taşır.",
+          "independent_trigger": "Mağara ile kurulan odak içi çift, 18:11-13'teki sayma ve ardışık anlatım, 83:9'daki marked record ve 18:49 ile 36:12'deki eksiksiz iz kayıtlarıdır.",
+          "activation": "İşaretli kayıt taşıyıcısı, bedensel mağara ve daha geniş kayıt örnekleriyle temas edince er-Rakîm, kişilerin tutulduğu mekâna eşlik eden sayıyı ve izi taşıyan notasyonal koruma olarak değişir.",
+          "resulting_reading": "Mağara bedeni mekânda korurken er-Rakîm olayın sayısını veya izini işaretli bir kayıtta koruyan ikinci bir saklama yüzü olarak okunur.",
+          "boundary": "Belirli bir levha, mezar, coğrafi işaret veya tarihsel kayıt nesnesi seçilmez; F003'ün işaretli nesne çekirdeği işlevsel bir resonance olarak tutulur."
+        }
+      ],
+      "connection_refs": [
+        "conn_1173a36c55e89820b09e",
+        "conn_c31b15fec2b2c95c7751",
+        "conn_600081f1490a6418be18"
+      ],
+      "context_refs": [
+        "18:11",
+        "18:12",
+        "18:13",
+        "83:9",
+        "18:49",
+        "36:12"
+      ],
+      "semantic_obligation_refs": []
+    }
+  ],
+  "friction_notes": [
+    "focus_word_alignment bu paket için tamdır; unresolved analysis unit bulunmamaktadır.",
+    "Sağlanan inter-ayah bağlantıları hedef Arapçayı içerir, fakat hedef morfolojiyi içermez; bu nedenle connection temelli aktivasyonlar qualified tutulmuş ve reciprocal etiketler karar olarak kullanılmamıştır.",
+    "Yedi legacy_unbound HFT kaydının anchor_evidence alanı boştur. Paket politikası görünürlüğü korusa da exact context ayahı, word index, root, attributed role ve focus return zinciri bulunmadığı için bunlar retained attributed findings değildir.",
+    "Er-Rakîm için yazılı kayıt dalı citable ve legacy desteklerle işlevsel olarak aktive olur; tarihsel fiziksel referansın seçimi paket tarafından belirlenmemiştir."
+  ]
+}

@@ -1,0 +1,187 @@
+# V5 reading invitation — 90:16
+
+You are a fresh reading-invitation writer. Read the complete editorial prose
+before writing. It is your sole semantic source.
+
+Write two to four paragraphs of fluent, contemporary Turkish that reveal a
+surprising reading by following one or two main channels of resonance in the
+ayah. A channel is a connected background of meanings, images, actions, or
+relations through which the ayah can be heard and understood differently.
+Several editorial findings may together develop one channel. Summarize that
+connected movement and its consequence for the ayah's main meaning, rather
+than compressing findings individually. Give the reading's substance now;
+the invitation comes from understanding it, not from a promise of hidden depth.
+
+Before drafting, read the entire editorial prose and silently select the one
+or two channels with the strongest interpretive consequence and enough
+grounding to explain clearly. Favor channels that expand or shift what the
+ayah says, the relation it establishes, or what is at stake in its action or
+image. One fully developed channel is sufficient; add a second only when it
+offers a distinct consequential reading that can be explained within the
+invitation. No finding, channel, or major shift has an individual coverage
+claim. Unselected material may remain entirely in the full commentary.
+
+A channel may develop through grammar, sound, dialogue, a material process,
+time, imagery, or a conceptual relation. Resonance is not limited to acoustic
+effects, and an unusual image alone does not establish a channel. Use only
+connections the editorial prose actually develops. If it supplies no such
+channel, explain its strongest grounded reading without inventing connections
+or surprise.
+
+Begin inside the ayah's own words, images, actions, or relations and reveal a
+selected distinctive reading in the first paragraph. Keep the plain meaning
+reachable with only the orientation needed to understand the change. Do not
+spend an opening paragraph on routine explanation or front-load context about
+the surah, the ayah's position, or the commentary project.
+
+For each selected channel, begin with the expression that opens it, unfold the
+connected background, and show how the ayah reads or sounds against that
+background. Let a detail lead into the next through an intelligible relation
+or process, so the reader experiences the emerging reading. This is a movement
+of thought, not a mandatory sentence pattern or one paragraph per finding.
+Let the reader identify the expression being interpreted,
+where any nonordinary detail comes from, and what that detail changes in the
+reading. Briefly identify the word-family use, restricted form, collocation, or
+context that supplies an essential added detail, and preserve the concrete
+operation that makes the image work. Keep the ordinary reading and necessary
+qualification clear within this explanation; do not repeat them as a fixed
+formula. Preserve the particular object, process, or relation that makes this
+reading distinctive, and state its interpretive consequence for the ayah as a
+whole. Make intelligible what the familiar reading leaves less visible and
+what the expanded or shifted reading now lets the reader understand. Preserve
+the editorial's force: an exploratory possibility remains possible, while a
+developed shift must not be softened into a decorative association or a
+reassurance that everything means the same thing. A concrete
+account of how something is carried, transformed, lost, or restored must not
+shrink to a general statement about care, guidance, dependence, or goodness.
+Keep the details needed to make the selected channel work; omit side findings
+and shorten routine setup. If a channel cannot be explained faithfully from
+the editorial prose, choose another grounded channel or reading.
+
+When a non-focus ayah supplies a contribution used in the invitation, keep its
+reference from the editorial prose beside that contribution.
+
+Do not turn the invitation into a miniature inventory of the commentary's
+conclusions, or flatten distinct channels into a broad theme to include more
+material. Do not repair, extend, or supplement the editorial prose from memory
+or outside knowledge.
+
+Omit technical apparatus. Retain any qualification, source distinction, live
+alternative, or boundary whose absence would change the force or meaning of a
+chosen reading. Express it naturally beside the image or relation it qualifies.
+Favor positive explanations of the relation between layers: what remains in
+the foreground and what the resonance makes audible in the background. State
+how that background reinforces, expands, or shifts the understanding of the
+main meaning, with the source and degree of certainty clear. Reserve explicit
+exclusions for concrete ambiguities or live counter-evidence that need them.
+Repeated "this is not X" endings make a reading sound withdrawn; express the
+substantive qualification through what the reading does contribute wherever
+possible. Use varied, natural language rather than a repeated "second layer"
+formula, and preserve the force of expansions and shifts.
+Do not name branches, candidates, findings, scopes, evidence categories,
+ledgers, or workflow stages, or label the prose as numbered channels. Do not
+list findings serially.
+
+Use the established `{ar:..., tr:..., gloss:...}` syntax, consistent
+Turkish-readable transliteration, and short ordinary glosses. Keep Arabic
+anchors beside the explanations they ground. Within a paragraph, continue with
+the Turkish meaning where clear; provide the necessary local tag when a later
+paragraph interprets the carrier anew. Do not place Arabic script outside a
+valid tag.
+
+Build transitions within a channel through its shared object, action, or
+relation. If two channels are selected, they may occupy separate paragraphs;
+do not invent a link between them. Do not praise the commentary's quality,
+promise what the reader will find, manufacture suspense, recap at the end, or
+add a call to action. End on an image, relation, action, or tension already
+established by the selected reading.
+
+Before finishing, compare the invitation with the entire editorial prose:
+does the chosen channel reveal a consequential reading, or could the text have
+been written from the ordinary translation and a modest explanation alone?
+When the editorial supports a surprising channel, the latter fails this task.
+Can the reader follow the opening expression into a connected background and
+understand how that background expands or shifts the ayah's main meaning?
+Check the selected connections against their editorial explanation: can the
+reader tell where the nonordinary details come from, with the necessary
+qualifications intact? Repair generic explanation, isolated curiosities, or a
+compressed findings list by developing the selected channel. Do not add
+omitted channels merely for coverage. Do not output this check.
+
+Write only the invitation text to:
+
+`_commentary/v5/editorial/s090-regular-20260912/s090/90_16/90_16.invitation.tr.md`
+
+Do not add a heading, wrapper label, index, ledger, evidence file, or any other
+artifact. Do not modify the editorial prose.
+
+After writing the invitation, run:
+
+```bash
+python3 _commentary/v5/validate_prose.py _commentary/v5/editorial/s090-regular-20260912/s090/90_16/90_16.invitation.tr.md
+```
+
+If validation fails, repair only the reported mechanical file-contract issues
+and rerun it, for at most two repair cycles. Report the final validator result
+in your response.
+
+<editorial_prose>
+Bu ayet, 90:14'te başlayan yedirme eyleminin ikinci alıcısını gösterir: toprağa bulanmış bir yoksula yemek yedirmek. Ayetin başındaki {ar:أَوْ, tr:ev, gloss:ya da}, önceki eylemi ayet sınırından geçirerek yeni alıcıyı adı söylenmeden önce duyurur. Ardından gelen {ar:مِسْكِينًا, tr:miskīnan, gloss:muhtaç bir kişi}, önceki yedirmenin yöneldiği ikinci kişiyi belirtme hâlinde gösterir; kısa geçiş, önceki alıcının ritmini eşleyip dinleyiciyi yeni bir seçenek üyesine çevirir. Sonra {ar:ذَا مَتْرَبَةٍ, tr:dhā matrabatin, gloss:toz-yoksulluk taşıyan} bu kişiyi bir koşulla niteler. Böylece 90:15'teki yakın yetim ile burada tozla nitelenen yoksul, tek kişinin iki adı olarak değil, aynı besleme görevinin iki ayrı alıcısı olarak ayakta kalır.
+
+{ar:مِسْكِينًا, tr:miskīnan, gloss:muhtaç bir kişi} cümlenin beslenen nesnesi olduğu için yoksulluğu soyut bir konuya değil, yardımın ulaşacağı insana bağlar. Belirsiz tekil biçim, herhangi böyle bir muhtaç kişiyi kapsar ve onu idari bir sınıf yerine karşılaşılabilir tek bir insan olarak önümüze getirir. Tozla nitelenmek bu kırılganlığı yoğunlaştırırken kişinin bütün eyleme gücünü de görünür tutar: 18:79'da muhtaç kişi çalışabilen ve eyleyebilen bir insan olarak görünür. Kelime önce insanı duyurur, ardından {ar:ذَا مَتْرَبَةٍ, tr:dhā matrabatin, gloss:toz-yoksulluk taşıyan} o insanın taşıdığı koşulu ona bağlar. Bu nedenle burada söz konusu olan yoksulluk, toz düzeyinde görünür olan muhtaç kişiye yönelir; 90:15'te akrabalıkla çevrili mahrumiyetin yanına gelince aynı yedirme eylemi maddi geçim yoksunluğunu da açar.
+
+Yardım bekleyen bu alıcının görüntüsüne, kelimenin başka bir duyuluşu tutunma ihtiyacını ekler. {ar:مِسْكِينًا, tr:miskīnan, gloss:muhtaç bir kişi} bir yere yerleşip yaşamayı sürdürebilen ve insanın yanında içini yatıştıran bir dayanak görüntüsü taşır; {ar:مَتْرَبَةٍ, tr:matrabatin, gloss:toz-yoksulluk hâli} ile verilen çıplak zemin bu dayanağın eksikliğini duyurur. Besleme, böylece geçici bir eksikliği gidermenin yanında kişinin bulunduğu yerde tutunabilmesine ve yerleşmiş bir karşılık beklentisine dokunur. Aynı kelimenin hareketin dinip durulması yönü, {ar:أَوْ, tr:ev, gloss:ya da} ile sürdürülen besleme ve yerde kalan yoksullukla buluşunca alıcının çıkışı daralmış bir durgunluk içinde duyulmasını sağlar. Bu temas, bedensel bir hapsolma olayı anlatmadan yoksulluğun hareket alanını nasıl daralttığını gösterir. Ses akışı, alıcıyı taşıyan daha yumuşak miskīnandan cümlenin sonunda daha sert duyulan toz kapanışına iner; ses bu anlamı kurmaz, son koşulun bellekte kalmasını güçlendirir.
+
+Bu kişi-koşul bağını ayetin kısa menteşesi olan {ar:ذَا, tr:dhā, gloss:niteleyen taşıyan} kurar. 90:14'te açlık, 90:15'te yakınlık, burada ise toz-yoksulluk, aynı besleme dizisinde benzer bir niteleme iskeletine bağlanır; koşul değişirken eylemin alıcısı ve yükümlülüğü görünür kalır. Arapçadaki beş özel isimden biri olan kısa dhā, {ar:مِسْكِينًا, tr:miskīnan, gloss:muhtaç bir kişi} ile belirtme hâli uyumunu korur, ardından {ar:مَتْرَبَةٍ, tr:matrabatin, gloss:toz-yoksulluk hâli}ni tamlayan biçiminde yönetir. Böylece toz ikinci bir nesneye ayrılmaz, aynı kişinin nasıl bir durumda bulunduğunu açıklar. Tamlayan yapı dinleyiciyi kişiden niteliğe, nitelikten son koşula taşır; son isim gecikse de bağ kopmaz. 90:15'teki {ar:ذَا مَقْرَبَةٍ, tr:dhā maqrabatin, gloss:yakınlık taşıyan} ile aynı çerçeve önce yakınlığı, sonra toz-yoksulluğu taşıyarak iki ayrı yardım gerekçesini biçimsel olarak dengeler.
+
+{ar:مَتْرَبَةٍ, tr:matrabatin, gloss:toz-yoksulluk hâli} belirsiz ve soyut bir isimdir: tek bir toz parçasını veya bir adresi değil, muhtaç kişiyi belirleyen tanınabilir bir hâli adlandırır. Bu isim, 90:14'teki açlık ve 90:15'teki yakınlıkla kurulan koşul dizisinin üçüncü halkasıdır. Yalın bir sıfat yerine hâl adı seçilince toprak, kişinin üzerinde okunan sosyal bir mahrumiyet durumuna dönüşür; toprağın maddi ve dokunsal yüzü bu durumun içinde kalır. 30:20'de toprak insanın kökenini anlatırken burada aynı toprak alanı, açıkta kalmış insanın sorumluluk gerektiren durumuna yönelir. Muhtaç kişi ile toprağa yapışmış yoksulluk yan yana geldiğinde mahrumiyet, bedenin yer seviyesine kadar çekildiği bir maruziyet gibi hissedilir; kaburga çağrışımı bu maruziyete yalnızca ikincil bir beden basıncı katar.
+
+Tamlayan biçimindeki {ar:مَتْرَبَةٍ, tr:matrabatin, gloss:toz-yoksulluk hâli}, önceki yedirme eyleminden kişiye, kişiden niteleyiciye ve oradan koşula uzanan zinciri tamamlar. Ayetin sonunda duran ve görece az rastlanan bu kelime, son koşulu sıradan bir ek bilgi gibi geçirmeyip işaretli bir görüntü olarak kapatır. 90:15'teki yakınlıkla kurduğu biçimsel denge, yakınlığı toza eritmeden iki ayrı alıcının aynı besleme görevinde tutulmasını sağlar. Kelimenin göğsün ön kemikleri ve kaburga bölgesiyle ilgili uzak çağrışımı, beden sahibi muhtaç kişiyle ikincil bir beden basıncı olarak temas eder; yerel koşul toz-yoksulluk olarak duyulur. Miskīnanın tanvinli bitişinden matrabanın daha sert ünsüz dokusuna uzanan ses, tanımı alıcıdan yeryüzü düzeyinde görünen mahrumiyete indirir. Son kelime bu yüzden ihtiyacın yer seviyesinde görünür olmasını belleğe bırakır; kişi toza indirgenmeden, yoksulluğun zemini belirginleşir.
+
+Bu iki kelimenin birlikte kurduğu görüntüde {ar:مِسْكِينًا, tr:miskīnan, gloss:muhtaç bir kişi} yoksulluk, güçsüzlük ve ezilmişlik içindeki insanı getirir; {ar:مَتْرَبَةٍ, tr:matrabatin, gloss:toz-yoksulluk hâli} ise bu insanın toprağa yapışmış maddi zeminini görünür kılar. Buluşmaları, yoksul kişiyi hem sosyal olarak yardıma muhtaç hem bedensel olarak aşağı çekilmiş bir insan olarak kurar. 30:38'deki yöneltilmiş geçim ilişkisi bu zemini toplumsal bir yardım yönüne taşır. Besleme böylece durmuş bir hayatın görünüşünü açar ve kişiye ulaşan yardımın bedensel olduğu kadar sosyal bir karşılık taşıdığını gösterir.
+
+## Açlığın Kapattığı Hareket
+
+Bu durmuş hareketin beslemeyle nasıl karşılık bulduğu, 90:13 ve 90:14'teki iki ayrı sahnenin katkılarıyla belirginleşir. {ar:فَكُّ رَقَبَةٍ, tr:fakku raqabah, gloss:bir boynu özgürleştirmek} bağın çözülmesini ve savunmasız bir boynun serbest kalmasını getirir. {ar:إِطْعَامٌ, tr:iṭ‘ām, gloss:yedirme} açlığa yönelen müdahaleyi, {ar:مَسْغَبَةٍ, tr:masğabah, gloss:tüketici açlık} ise bedensel baskıyı öne çıkarır. Boyun serbestliği, yedirme ve açlık görüntüleri miskīnanın kapasitesi kapanmış bedeni ile matrabanın toprağa yapışmış zeminiyle temas ettiğinde, yiyecek açlığın kapattığı hareket alanını gevşeten bir salıverme olarak görünür. Boyun çözülmesi serbestliği, açlık baskıyı taşımaya devam eder; bu temas, yedirmenin burada bedende neyi yeniden açtığını gösterir.
+
+Aynı bedensel sınır, {ar:مِسْكِينًا, tr:miskīnan, gloss:muhtaç bir kişi} kelimesinin uzak ve şaşırtıcı bir kullanımında kesilen hayvanın hareketini ölümle sona erdiren kesici bıçakla ilişkilendirilmesiyle keskinleşir. Bu nadir ayrıntı, {ar:مَتْرَبَةٍ, tr:matrabatin, gloss:toz-yoksulluk hâli}nin taşıdığı toprak ve tozla karşılaşınca hareketin en alt maddi sınırını görünür kılar. 90:13'teki boyun ve salıverme ile 90:14'teki yedirme ve açlık, bu bıçak görüntüsüne ayrı ayrı hareket verir: açlık yaşamı durma noktasına taşıyan baskıyı, yiyecek ise bu başlangıç hâlindeki ölümü kesintiye uğratan hayat koruyucu müdahaleyi gösterir. Bıçak ayrıntısı bu ilişkiye, yoksul kişinin yerel anlamını koruyan keşifsel bir sınır görüntüsü olarak katılır; böylece yedirmenin bedensel aciliyeti keskinleşir.
+
+## Destek ve Eşlik
+
+Hareket alanı açılan kişinin nerede ve kimlerle tutunacağı sorusu, ifadenin sosyal temasını görünür kılar. {ar:مِسْكِينًا, tr:miskīnan, gloss:muhtaç bir kişi} kelimesinin evde yaşayan halkı ve bakılan aile üyelerini düşündüren yönü, {ar:مَتْرَبَةٍ, tr:matrabatin, gloss:toz-yoksulluk hâli} kelimesinin aynı yaşta veya birlikte yetişmiş denk arkadaşı düşündüren yönüyle buluşur. 90:15'teki {ar:يَتِيمًا ذَا مَقْرَبَةٍ, tr:yetîmen dhā maqrabatin, gloss:yakınları bulunan yetim} bakımından kopmuş çocuğu yakın akrabalıkla aynı çerçevede tutar; 90:17'deki {ar:بِٱلْمَرْحَمَةِ, tr:bil-merhamah, gloss:merhametle} bu teması daha geniş bir bakım halkasına uzatır. Bu katkılar birleşince toprak, insan desteğinin çekildiği yerde kalan en yakın eşlikçi gibi görünür ve maddi yoksulluk sürerken ev ve akran ağı çökmüş kişinin yalnızlığını belirginleştirir. Aynı paralellik, yoksul kişinin akrabalığını açıklamadan iki ayrı öncelikli alıcıyı sıralama ihtimalini de açık bırakır.
+
+Bu yalnızlık görüntüsünü topluluk içinde süreklileştiren hareket, yardımın tek seferlik bir ulaştırma olarak kapanmasını engeller. {ar:مِسْكِينًا, tr:miskīnan, gloss:muhtaç bir kişi} ile {ar:مَتْرَبَةٍ, tr:matrabatin, gloss:toz-yoksulluk hâli}nin ev halkı ve denk arkadaş çağrışımları, alıcının yeniden yer bulabileceği zemini hazırlar. 90:17'de iki kez geçen {ar:تَوَاصَوْا۟, tr:tevâsav, gloss:birbirlerine öğüt verdiler} karşılıklı öğüdü, {ar:ٱلصَّبْرِ, tr:sabr, gloss:süreklilikte dayanma} acil yedirmenin sonrasına uzanan sorumluluğu, {ar:ٱلْمَرْحَمَةِ, tr:merhamah, gloss:merhamet} maddi yardımı duygusal bağı ve 90:18'deki {ar:أَصْحَٰبُ, tr:ashâb, gloss:beraber olanlar} devam eden beraberliği adlandırır. Bu sıra, yiyeceğin alıcısını ortak dayanma ve arkadaşlık halkasına katılabilecek eşit bir insan olarak görmeye açılır. 90:17-18'in yardım edenleri anlattığı okuma yerini korurken, alıcının da karşılıklılığın içine alınabileceği bir yön belirir.
+
+Bu toplumsal eşlik, yedirmenin zaman ve mekân içindeki etkisini de derinleştirir. {ar:مِسْكِينًا, tr:miskīnan, gloss:muhtaç bir kişi} kelimesinin bir yere yerleşip yaşamı sürdürebilme yönü, 16:80'deki barınak, yolculukta korunma ve kalmayı mümkün kılan maddi düzenle temas eder. Yiyecek, o anki bedeni ayakta tutmanın yanı sıra kişinin bulunduğu yerde güvenle kalmasını ve toplumsal hayata yeniden yerleşmesini sağlayan bir geçimlik dayanak olarak görünür. Buradaki temas yaşamı sürdüren yiyecek veya geçim payını öne çıkarır; konut boyutu bu desteğin tek biçimi değil, yerleşme ve kalma kapasitesinin bir uzantısıdır. Aynı kişinin desteğe ihtiyaç duyarken itibarı ve arkadaşlığı korunur: {ar:مَتْرَبَةٍ, tr:matrabatin, gloss:toz-yoksulluk hâli}nin denk arkadaşlık yönü 56:37'deki yaşıtlık ve 2:262'deki verme sonrasında incitmeme şartıyla buluşur. Maddi yoksulluk böylece eşit ilişkiyi de taşıyan bir yardım çerçevesinde kalır.
+
+## Isı, Görünürlük ve Kapanma
+
+Tutunma ihtiyacı bu kez sıcaklık ve doğrudan temas görüntüsüyle duyulur. {ar:مِسْكِينًا, tr:miskīnan, gloss:muhtaç bir kişi} kelimesinin insanı rahatlatıp içini yatıştıran dayanak yönü, yanında oturulan ve yakınlık veren ateşi bu anlamın somut bir örneği olarak düşündürür. 90:20'deki {ar:نَارٌۭ, tr:nârun, gloss:yanan ateş} ise ışığı ve teması birlikte getirir: uzaktan aydınlatır, bir şeyi görünür bir odak hâline getirir, bedene değdiğinde kalıcı bir iz bırakır. Dayanak, ışık, sıcaklık ve iz aynı görüntüde buluşunca toprağa bulanmış yoksul insan sıcaklığı ve dinlenme isteyen, durumu görünürleşen ve doğrudan temasın izini taşıyabilen bir kişi olarak belirir. Ateşin gerçek sahnesi bu katkının zeminidir; temas miskīnanın anlamını ateş, ışık veya damga olarak kurmak yerine onun sıcaklık ve yakınlık ihtiyacını yoğunlaştırır.
+
+Açık toprakla ateşin kapanması arasında ayrı bir mekân karşılaştırması oluşur. {ar:مِسْكِينًا, tr:miskīnan, gloss:muhtaç bir kişi}nin yerleşme ve dinlenme dayanağı, {ar:مَتْرَبَةٍ, tr:matrabatin, gloss:toz-yoksulluk hâli}nin koruyucu sınırdan yoksun açık zeminiyle karşılaşır. 90:20'deki {ar:نَارٌۭ مُّؤْصَدَةٌۢ, tr:nârun mu’sadah, gloss:üzeri kapatılmış ateş}, zararlı ateşi içeride tutan kuşatmayı gösterir; kapı ateşin üzerine kapanır ve çıkışı güvenli biçimde sürgüler. Açık toprağa bırakılmış beden ile ateşin içine kapatılmış beden karşılaştırılınca merhametli barınak, koruyan fakat insanı kilitlemeyen, dinlenme ile hareketi birlikte taşıyan bir ara biçim olarak görünür. Bu yerel imge 90:16'daki zemin ile 90:20'deki kapalı ateşin art arda duruşundan doğar; ateş sahnesi kendi anlamını korurken konut boyutu bu karşılaştırmanın sınırlı sonucudur.
+
+## Servetin Karşısındaki Zemin
+
+Toprak yüzeyi, birikmiş servetin karşısında da okunabilir hâle gelir. {ar:مَتْرَبَةٍ, tr:matrabatin, gloss:toz-yoksulluk hâli}nin varlık ve çoğalma yönü, aynı sûrede 90:6'da malı yığdığını söyleyen kişinin bolluğuyla ve 90:5'teki hesap diliyle temas eder; tek maddi alanın iki ucunda toz içindeki yoksulluk ile yığılmış varlık belirir. Matrabanın bu varlık yönü biçim bakımından uzak bir bağlamsal kutup olarak duyulur; ayetin fiilî alıcısı olan yoksul kişi bu karşılaştırmanın zeminidir. Temas, serveti miktarıyla değil varacağı hedefle ölçmeye başlatır: gerçek bir aktarım olduğunda bolluk toplumsal karşılığını bulur, aktarım yoksa yığın kendi içinde kapanır. {ar:ذَا, tr:dhā, gloss:niteleyen taşıyan}nın sahiplik ve karakterizasyon biçimi bu karşıtlığa ironik bir gölge düşürür; kişinin sahip olduğu tek bolluk toz gibi duyulabilir. Böylece servet çağrışımı ayetin yerel anlamına dönüşmeden zenginlik ile yoksulluk aynı maddi düzlemde karşılaştırılır.
+
+Bu karşılaştırma önceki servet söylemini yoksul alıcının karşı defterine çevirir. 90:5'teki hesap, 90:6'da malın söze dökülmesi, tüketilip tükenmesi, elde servet olarak tutulması ve yığın hâlinde biriktirilmesiyle birlikte okununca harcama iddiasının gerçek bir akışa dönüşüp dönüşmediği görünür olur. 90:7'deki görme yönü bu iddiayı göz önünde sınar: söylenen harcama görülen yoksulluğa ulaşmıyorsa eksik kalır. {ar:مِسْكِينًا, tr:miskīnan, gloss:muhtaç bir kişi}nin geçim darlığı, malı yığan kişinin karşısında durur; hesap sözünü, mal stokunu ve göz önündeki ihtiyacı aynı çizgide buluşturur. Karşı defter, servet çağrışımının matraba biçimine uzaklığı sebebiyle genişleyen bir bağlam okumasıdır; bu uzaklık içinde de sıradan alıcı anlamı ve yoksulluğun somutluğu karşılaştırmanın zeminini korur.
+
+Dağıtımın yönü de bu somut kişide belirginleşir. {ar:مِسْكِينًا, tr:miskīnan, gloss:muhtaç bir kişi} başka yerlerde malın içindeki pay, paylaşımın yöneldiği ihtiyaç sahibi ve kaynağın varış noktası olarak kurulan dille temas edince, servetin kendisine ulaşması gereken tanınmış bir hedef gibi görünür. 51:19, 59:7, 70:24, 70:25 ve 9:60'taki pay ve dağıtım bağları, beslemeyi yukarıdan yapılan isteğe bağlı bir iyilikten, geçimden yoksun kişinin tanınmış ihtiyacına karşılık veren bir dönüş hareketine doğru genişletir. Bu hak ilişkisi anılan dağıtım bağlarının izin verdiği kapsamda kalır; kapsamlı bir hukuk kuralı yerine yardım edilen kişiyi hakkaniyetle gözetilmesi gereken bir insan olarak görünür kılar.
+
+## Şehrin Zemini
+
+Toprağın görünür yüzü, açılıştaki şehir görüntüsüne geri döner. {ar:مَتْرَبَةٍ, tr:matrabatin, gloss:toz-yoksulluk hâli}nin yer ve yüzey katkısı, 90:1'deki şehri ortak bir zemin olarak yeniden kurar. Bu zemin, içinde yaşayan kişinin yere kadar inmiş mahrumiyetine göre sorumluluğu ölçülen bir şehir görüntüsü doğurur. Başlangıçta anılan yer toz içindeki kişide yeniden görünür; şehir-toprak teması bakımın kişinin bulunduğu seviyeye kadar ulaşıp ulaşmadığını sorar. Bu dönüş, odaktaki yoksul alıcıyı koruyan sınırlı bir okuyucu çıkarımıdır; şehirle ilgili çözülmemiş başka çağrışımlar bu görüntünün dışında tutulur.
+
+Şehrin sorumluluğu, kişiye bir yer verip vermediği sorusuyla da sınanır. {ar:مِسْكِينًا, tr:miskīnan, gloss:muhtaç bir kişi} kelimesinin bir yere yerleşip yaşamı sürdürebilme kapasitesi, 90:1'deki çevrili şehir ve 90:2'deki yerleşme, konum ve barınma çevresiyle karşılaşır. Bu temas, şehirde bulunmak ile şehir tarafından barındırılmak arasındaki farkı görünür kılar. Çıplak toprak, konut vaadi gerçekleşmediğinde geriye kalan yüzey gibi görünür; toprakta kalan kişi şehrin çevrelediği hâlde yetişemediği barınma vaadini gösterir. 90:2'nin yer bildiren yönüyle birlikte hukukî bir çağrışım taşıyabilecek bu mekân ihtimali açık kalırken temel yoksul alıcı anlamı zeminini korur.
+
+Göz önündeki bu zemin, ona verilen cevabı görünür kılar. {ar:مِسْكِينًا, tr:miskīnan, gloss:muhtaç bir kişi}nin güçsüzlük ve ezilmişlik yönü insan durumunu, {ar:مَتْرَبَةٍ, tr:matrabatin, gloss:toz-yoksulluk hâli}nin toprak maddesi ise bu durumun bedende okunan izini getirir. 90:7'deki görme ve 90:8'deki gözler bu izi fark edilebilir kılar; 90:19'daki örtme ile açık işaret karşıtlığı ise bakışı bir toplumsal cevaba dönüştürür. Tozlu beden gözlerin önünde okunabilen bir mahrumiyet işareti olur. Bakış onu fark etme, karşılık verme veya üzerini örtme üzerinden insanları ayrıştıran bir ölçü kurar. 90:19'daki açık işaret dili bu bedensel belirtiyi düşündürürken işaretlerin vahye ilişkin anlaşılması ihtimali de yerini korur. Bu yerel temasın katkısı, örtmeyi görünür hâle gelmiş ihtiyacı kapatan bir insanî cevap olarak duyurmaktır; sıradan yoksul alıcı anlamı bu işaret katmanıyla birlikte sürer.
+
+## Geçişin Ölçüsü
+
+Yerde tutulmuş bu beden, geçiş ve yükselme görüntülerinin kime yarar sağladığını değiştirir. {ar:مِسْكِينًا, tr:miskīnan, gloss:muhtaç bir kişi}nin durmuş hareketi ile {ar:مَتْرَبَةٍ, tr:matrabatin, gloss:toz-yoksulluk hâli}nin en düşük zemini, 90:10'daki yön ve yükseklik, 90:11'deki zor giriş ve dik engelle karşılaşır. Yön gösteren görüntü, durmuş kişinin yeniden ilerleyebilmesine dönük bir imkân kurar; yükseklik, yer düzeyindeki mahrumiyetle temas edince başka bir insanın durumuna değen bir cevap kazanır. Zor giriş hareketin bedelini ve tehlikesini, dik engel ise yerde kalmış kişinin önündeki maddi eşiği görünür kılar. Bu katkılar birleşince yolu aşmak, yerde kalmış kişiye hareket imkânı aktardığı ölçüde tamamlanan bir geçiş gibi görünür. Bu aktarım bağlamsal ve mecazîdir; besleme ve muhtaç kişi anlamı korunurken kişisel ahlakî yükselme ihtimali de açık kalır.
+
+Hareketin önündeki engel, geçim akışının çöküşü olarak da izlenebilir. {ar:مِسْكِينًا, tr:miskīnan, gloss:muhtaç bir kişi}nin bulunduğu yerde kalmayı sağlayan geçimlik yönü insanın devamlılık ihtiyacını, {ar:مَتْرَبَةٍ, tr:matrabatin, gloss:toz-yoksulluk hâli}nin toprağı ise çevresel zemini taşır. 90:6'daki yağmursuz arazi bu zemine kuruyan çevrenin başlangıç koşulunu, 90:14'teki yedirme, sıkıntı günü ve açlık ise bedenin ulaştığı son basıncı ekler. Bu ihtiyatlı zincirde kuruyan çevre, açlığa ve toprağa bulanmış bedene kadar uzanan bir tedarik arızası; yedirme ise çöken akışın insan ucuna yapılan onarım gibi görünür. Sıkıntı günü yoksulluğu belirli bir ağır olayda ortaya çıkan ve zamanında yardımla onarılabilen bir hâl olarak çerçeveler. Ekolojik neden-sonuç burada mümkün bir açıklama olarak kalır; açlığın ekonomik veya siyasî kaynakları ile matrabanın biçim bakımından uzak toprak kolu açık tutulurken sıradan muhtaç kişi anlamı zeminini korur.
+
+Yönün son bir karşılaşması, yerde kalan kişiyi topluluğun rotasını ölçen bir noktaya getirir. 90:10'daki yön ve dik iniş, düzeltilmesi gereken doğrultuyu ve tehlikeli zemini; 90:15'teki küçük tekne, bu doğrultunun içinde taşınan insanı; 90:17'deki karşılıklı öğüt ise yön düzeltmenin birlikte yürütülmesini getirir. Bu üç katkı birleştiğinde topluluğun doğrultusu, kaynaklarını yerde kalan kişiye doğru düzeltebilip düzeltemediğinde görünür olur. Dik iniş, dümenin düzeltmek zorunda olduğu tehlikeli zemini ve yerde kalmış kişiye yüklenen ağır sonucu açığa çıkarır. Dümen, soyut bir hedefi değil toprak seviyesinde kalan insanı hesaba katan pratik bir yön verme işlevi kazanır; küçük tekne içindeki yoksul kişi, yalnızca taşınan pasif bir yolcu değil, seyrin anlamını açığa çıkaran teşhis noktasıdır. Karşılıklı öğüt, yön vermeyi tek kişinin bağış dürtüsünden çıkarıp kaynakların nereye gideceğini birlikte düzelten bir topluluk hareketine çevirir. Bu çapraz alan benzetmesi, miskīnanın veya matrabanın sözlük karşılığı olarak değil, eldeki muhtaçlık görüntüsünün 90:10, 90:15 ve 90:17'deki yönelişlerle kurduğu sınırlı bir okuma olarak çalışır; topluluğun rotası yerde kalmış kişinin yeniden hareket edebilmesine doğru düzelir.
+
+</editorial_prose>

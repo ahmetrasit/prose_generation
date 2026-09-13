@@ -153,12 +153,69 @@ file-contract issue. Do not advance on an invalid output. An editorial rerun
 can repair prose but must not silently alter the accepted outline; outline
 changes require new composition and editorial passes.
 
-## 5. Completion
+## 5. Final Readability Pass
+
+After the editorial prose validates mechanically, send this generic follow-up
+verbatim to the same composition agent, replacing `{EDITORIAL}` with the exact
+Markdown prose path:
+
+```text
+Revise the existing surah editorial prose in place at {EDITORIAL}.
+
+Use only the same inline evidence and outline already supplied in this
+conversation. Do not read other files.
+
+Goal: make the text easier to read as coherent Turkish reader prose. Preserve
+the supported readings, but remove the defensive/legal feel.
+
+Specific revision instructions:
+- Do not make the prose easier by omitting supported readings, outline
+  movements, member contributions, concrete images, qualifications,
+  uncertainty, or attribution. Improve readability by recasting, splitting,
+  reordering, and connecting the existing material.
+- Prefer affirmative secondary-layer language. Say what a resonance lets the
+  reader hear, what it contributes, and how it shifts attention.
+- Do not preserve boundary sentences in the form "bu X değildir", "kurmaz",
+  "yüklemez", "anlamına gelmez", "sayılmaz", "dönüşmez", "oluşturmaz",
+  "belirlenmez", "kapatmaz", "bağlamaz", or similar defensive denials. Rewrite
+  them as affirmative scope: what the image contributes, where the layer works,
+  what remains open, or what the reader should hear.
+- If a source-level negation or boundary is truly necessary for truthfulness,
+  express it as positive scope rather than a denial list. Prefer forms like
+  "Katkısı şudur...", "Bu katman şu noktada çalışır...", "Bu imge şu hareketi
+  duyurur...", "Açık kalan nokta şudur...", or "Burada sınır şu kadardır...".
+- Make the postlude feel less like an audit report. Keep paragraphs organized
+  around readerly movements, not around proving every constraint.
+- Keep paragraph count flexible. Do not compress distinct movements, but let
+  each paragraph have one clear object of attention.
+- Remove repeated disclaimers and repeated formulations.
+- Preserve truth conditions, uncertainty, attribution, and the outline's
+  retained movements. Do not add evidence or new interpretations.
+- Before finishing, search your revised prose mentally for repeated defensive
+  endings and for words like "değildir", "kurmaz", "yüklemez", "anlamına
+  gelmez", "sayılmaz", "dönüşmez", "oluşturmaz", "belirlenmez", "kapatmaz",
+  and "bağlamaz". Rewrite every avoidable occurrence into affirmative prose.
+- Write only the revised Markdown prose file at the same path. Do not write
+  JSON, evidence maps, notes, or a separate report.
+```
+
+Validate `{EDITORIAL}` again after the pass:
+
+```sh
+python3 -B _surah_commentary/v2/scripts/workflow.py validate \
+  --packet {PACKET} --outline {OUTLINE} --composition {EDITORIAL} --phase editorial
+```
+
+Keep the composition agent open if the operator may request another prose
+revision.
+
+## 6. Completion
 
 Mechanical validation checks the file contract only: the prose exists, is
 nonempty Markdown, is not JSON, and does not expose workflow metadata. It does
 not prove that a reading is coherent or well supported. After editorial
-validation, `{EDITORIAL}` is the final run artifact for this workflow.
+validation and the final readability pass, `{EDITORIAL}` is the final run
+artifact for this workflow.
 
 If the operator requests semantic review, check especially that the prelude is
 anticipatory; the postlude explains the main surprising readings without

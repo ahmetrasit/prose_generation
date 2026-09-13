@@ -1,0 +1,205 @@
+# V5 reading invitation — 18:2
+
+You are a fresh reading-invitation writer. Read the complete editorial prose
+before writing. It is your sole semantic source.
+
+Write two to four paragraphs of fluent, contemporary Turkish that reveal a
+surprising reading by following one or two main channels of resonance in the
+ayah. A channel is a connected background of meanings, images, actions, or
+relations through which the ayah can be heard and understood differently.
+Several editorial findings may together develop one channel. Summarize that
+connected movement and its consequence for the ayah's main meaning, rather
+than compressing findings individually. Give the reading's substance now;
+the invitation comes from understanding it, not from a promise of hidden depth.
+
+Before drafting, read the entire editorial prose and silently select the one
+or two channels with the strongest interpretive consequence and enough
+grounding to explain clearly. Favor channels that expand or shift what the
+ayah says, the relation it establishes, or what is at stake in its action or
+image. One fully developed channel is sufficient; add a second only when it
+offers a distinct consequential reading that can be explained within the
+invitation. No finding, channel, or major shift has an individual coverage
+claim. Unselected material may remain entirely in the full commentary.
+
+A channel may develop through grammar, sound, dialogue, a material process,
+time, imagery, or a conceptual relation. Resonance is not limited to acoustic
+effects, and an unusual image alone does not establish a channel. Use only
+connections the editorial prose actually develops. If it supplies no such
+channel, explain its strongest grounded reading without inventing connections
+or surprise.
+
+Begin inside the ayah's own words, images, actions, or relations and reveal a
+selected distinctive reading in the first paragraph. Keep the plain meaning
+reachable with only the orientation needed to understand the change. Do not
+spend an opening paragraph on routine explanation or front-load context about
+the surah, the ayah's position, or the commentary project.
+
+For each selected channel, begin with the expression that opens it, unfold the
+connected background, and show how the ayah reads or sounds against that
+background. Let a detail lead into the next through an intelligible relation
+or process, so the reader experiences the emerging reading. This is a movement
+of thought, not a mandatory sentence pattern or one paragraph per finding.
+Let the reader identify the expression being interpreted,
+where any nonordinary detail comes from, and what that detail changes in the
+reading. Briefly identify the word-family use, restricted form, collocation, or
+context that supplies an essential added detail, and preserve the concrete
+operation that makes the image work. Keep the ordinary reading and necessary
+qualification clear within this explanation; do not repeat them as a fixed
+formula. Preserve the particular object, process, or relation that makes this
+reading distinctive, and state its interpretive consequence for the ayah as a
+whole. Make intelligible what the familiar reading leaves less visible and
+what the expanded or shifted reading now lets the reader understand. Preserve
+the editorial's force: an exploratory possibility remains possible, while a
+developed shift must not be softened into a decorative association or a
+reassurance that everything means the same thing. A concrete
+account of how something is carried, transformed, lost, or restored must not
+shrink to a general statement about care, guidance, dependence, or goodness.
+Keep the details needed to make the selected channel work; omit side findings
+and shorten routine setup. If a channel cannot be explained faithfully from
+the editorial prose, choose another grounded channel or reading.
+
+When a non-focus ayah supplies a contribution used in the invitation, keep its
+reference from the editorial prose beside that contribution.
+
+Do not turn the invitation into a miniature inventory of the commentary's
+conclusions, or flatten distinct channels into a broad theme to include more
+material. Do not repair, extend, or supplement the editorial prose from memory
+or outside knowledge.
+
+Omit technical apparatus. Retain any qualification, source distinction, live
+alternative, or boundary whose absence would change the force or meaning of a
+chosen reading. Express it naturally beside the image or relation it qualifies.
+Favor positive explanations of the relation between layers: what remains in
+the foreground and what the resonance makes audible in the background. State
+how that background reinforces, expands, or shifts the understanding of the
+main meaning, with the source and degree of certainty clear. Reserve explicit
+exclusions for concrete ambiguities or live counter-evidence that need them.
+Repeated "this is not X" endings make a reading sound withdrawn; express the
+substantive qualification through what the reading does contribute wherever
+possible. Use varied, natural language rather than a repeated "second layer"
+formula, and preserve the force of expansions and shifts.
+Do not name branches, candidates, findings, scopes, evidence categories,
+ledgers, or workflow stages, or label the prose as numbered channels. Do not
+list findings serially.
+
+Use the established `{ar:..., tr:..., gloss:...}` syntax, consistent
+Turkish-readable transliteration, and short ordinary glosses. Keep Arabic
+anchors beside the explanations they ground. Within a paragraph, continue with
+the Turkish meaning where clear; provide the necessary local tag when a later
+paragraph interprets the carrier anew. Do not place Arabic script outside a
+valid tag.
+
+Build transitions within a channel through its shared object, action, or
+relation. If two channels are selected, they may occupy separate paragraphs;
+do not invent a link between them. Do not praise the commentary's quality,
+promise what the reader will find, manufacture suspense, recap at the end, or
+add a call to action. End on an image, relation, action, or tension already
+established by the selected reading.
+
+Before finishing, compare the invitation with the entire editorial prose:
+does the chosen channel reveal a consequential reading, or could the text have
+been written from the ordinary translation and a modest explanation alone?
+When the editorial supports a surprising channel, the latter fails this task.
+Can the reader follow the opening expression into a connected background and
+understand how that background expands or shifts the ayah's main meaning?
+Check the selected connections against their editorial explanation: can the
+reader tell where the nonordinary details come from, with the necessary
+qualifications intact? Repair generic explanation, isolated curiosities, or a
+compressed findings list by developing the selected channel. Do not add
+omitted channels merely for coverage. Do not output this check.
+
+Write only the invitation text to:
+
+`_commentary/v5/editorial/s018-regular-20260912/s018/18_2/18_2.invitation.tr.md`
+
+Do not add a heading, wrapper label, index, ledger, evidence file, or any other
+artifact. Do not modify the editorial prose.
+
+After writing the invitation, run:
+
+```bash
+python3 _commentary/v5/validate_prose.py _commentary/v5/editorial/s018-regular-20260912/s018/18_2/18_2.invitation.tr.md
+```
+
+If validation fails, repair only the reported mechanical file-contract issues
+and rerun it, for at most two repair cycles. Report the final validator result
+in your response.
+
+<editorial_prose>
+## Dosdoğru Kitabın Açtığı Görev
+
+18:2, hemen önceki âyette indirilen kitabın ne yaptığını açar. {ar:أَنزَلَ, tr:enzele, gloss:indirdi ve ulaştırdı} fiiliyle gelen {ar:ٱلْكِتَٰبَ, tr:el-kitâb, gloss:yazılı kitap}, (18:1)'de açıkça anılan {ar:عِوَجًا, tr:ivecen, gloss:eğrilik ve sapma}dan arındırılmış bir taşıyıcı olarak {ar:قَيِّمًا, tr:kayyimen, gloss:dosdoğru ve ayakta tutan} diye nitelenir. Ardından aynı cümle iki işi birlikte kurar: şiddetli bir güçle uyarmak ve iyi işler yapan inananlara güzel bir karşılığı müjdelemek. Uyarı korkulacak kuvveti adlandırır; müjde ise alıcılarını, sürdürdükleri işi ve kendilerine ayrılan sonucu adım adım görünür kılar.
+
+{ar:قَيِّمًا, tr:kayyimen, gloss:dosdoğru ve ayakta tutan} kelimesinin mansup oluşu, (18:1)'de anılan kitabı 18:2'deki amaçlara bağlayan bir durum niteliği kurar. Böylece kitabın dosdoğruluğu uyarı ile müjdenin üzerinde durduğu görev zemini olur; başka i'rab yönleri bu ana bağı gölgelemeyen ihtimaller olarak kalır. Yoğun sıfat biçimi dosdoğruluğu anlık bir övgü değil, sürdürülen bir ölçü gibi duyurur. Kıraatlerdeki ses ağırlıkları bu niteliğin gramer yüzeyini değiştirmeden süreklilik basıncını artırır. Kelimenin tenvini de ilerideki {ar:بَأْسًا, tr:be'sen, gloss:şiddetli güç veya azap} ve {ar:أَجْرًا, tr:ecran, gloss:karşılık ve ödül} kelimelerindeki -en akışıyla birleşerek cümleyi tehditten karşılığa uzanan sıkı bir ses çizgisine bağlar. Bu yüzden dosdoğruluk yalnız dik duran bir niteleme olarak kalmaz; uyarı ile vaadin hangi ölçü içinde okunacağını belirleyen, düzeni ayakta tutan bir standart olarak çalışır.
+
+Bu standart, (18:1)'deki eğrilik karşıtlığıyla birlikte 18:2'nin iki sonucunu aynı korunmuş ölçüde toplar. Dosdoğru yazılar (98:3)'te, Kitabın doğrulayıcı oluşu (46:12)'de ve uyarı ile müjdenin yan yana gelişi (9:52)'de {ar:قَيِّمًا, tr:kayyimen, gloss:dosdoğru ve ayakta tutan} yüzünü yazılı doğruluk ve dengeli sonuçlar içinde duyurur. Vahiy ve hükmün arkasındaki sürdürme gücü (3:2)'de, ağır sonuçla birlikte indirilen hatırlatma (65:10)'da; kalıcılık (18:3), uyarı (18:4) ve asılsız iddia çerçevesi (18:5)'te bu standardın korunup gözeten tarafını belirginleştirir. Bu temaslar kitabın olağan dosdoğru niteliğini korur; (18:1) ve 18:2 eşiğinde, doğru çizginin uyarı ile karşılığı düzen içinde taşımasına ek bir derinlik verir.
+
+## Uyarının Sertliği ve Kaynağı
+
+{ar:لِ, tr:li, gloss:amacıyla} edatı, {ar:يُنذِرَ, tr:yunzire, gloss:uyarıp sakındırmak} fiilini amaç çerçevesine alır. Böylece uyarı bağımsız bir haber değil, kitabın dosdoğru niteliğinden doğan bir görev olur. {ar:يُنذِرَ, tr:yunzire, gloss:uyarıp sakındırmak}ın dördüncü bâb biçimi yaklaşan zararı bildirip sakındırma işini seçer; kökün adak ve yükümlülük alanından gelen sorumluluk basıncı bu görevi beslerken yerel fiil uyarma işini taşır. Sessiz üçüncü tekil özne, (18:1)'deki ilahî gönderen ile indirilen kitap arasında katmanlı bir bağ bırakır. Açık alıcı söylenmeden önce uyarılan şeyin, yani {ar:بَأْسًا, tr:be'sen, gloss:şiddetli güç veya azap}ın öne çıkması da bu yapının parçasıdır. Fiilin sona bıraktığı ince ses, hemen ardından gelen hemzeli kelimede keskin bir eşiğe çarpar; görev soyut bir amaç olmaktan çıkıp somut tehdide ulaşır.
+
+{ar:بَأْسًا, tr:be'sen, gloss:şiddetli güç veya azap} belirsiz bir güç veya olay adı gibi geldiği için tehdidin kapsamını önceden ölçülmüş bir ceza miktarına kapatmaz. Güç, sıkıntı, perişanlık ve kınama alanları aynı uyarı nesnesinde toplanır; böylece cümle nötr bir tehlike işaretinden çok insanın üzerine çöken cezalandırıcı bir sertliği duyurur. Bu kelime, uyarı fiilinin doğrudan nesnesidir: âyet önce kimin uyarıldığını değil, neyin haber verildiğini kurar. Yanındaki {ar:شَدِيدًا, tr:şedîden, gloss:sıkı ve şiddetli} doğrudan bu isme bağlanır; şiddet daha sonra gelen kaynağa değil, önce adlandırılmış kuvvete aittir. İki kelimenin de belirsiz ve mansup oluşu, kuvvetin de yoğunluğun da ölçüsünü açık bırakır.
+
+{ar:شَدِيدًا, tr:şedîden, gloss:sıkı ve şiddetli} burada {ar:بَأْسًا, tr:be'sen, gloss:şiddetli güç veya azap} ile kurulmuş yerleşik bir şiddet eşleşmesi olarak çalışır. Sert ünsüz dokusu ağır kuvveti pürüzlü ve sıkıştırıcı kılar. Kelimenin bağlı olduğu bağlama ve sıkılaştırmaya dönük imge soyut şiddete aktarıldığında, ortaya karşılaştırmalı bir derece hesabından çok tehdidin içine yerleşmiş bir baskı çıkar. Bu eşleşme (18:5) ve (18:22)'deki suçlama ve sert sonuç çağrışımlarına ince bir iplik bırakır; 18:2'deki katkısı, fiziksel biçimi belirlenmiş bir cezayı tanımlamak değil, uyarının yoğunluğunu duyurmaktır.
+
+Tehdit adlandırıldıktan sonra cümle kaynağına döner. {ar:مِن, tr:min, gloss:-den} burada parçadan bir bölüm bildirmekten çok kaynak ve menşe gösterir; burundan lâm'a geçişi {ar:لَدُنْهُ, tr:ledünhû, gloss:O'nun katından} ifadesine sesçe bağlanır ve cümle sanki kuvvetten kaynağa doğru sıkışır. {ar:لَدُنْهُ, tr:ledünhû, gloss:O'nun katından} içindeki üçüncü tekil iyelik eki, (18:1)'deki ilahî gönderene döner: ağır kuvvet kitaptan bağımsız bir güç değil, kitabı ulaştıran aynı merciin katından gelir. Bu, sıradan bir yakınlık değil, hemen huzurundan gelen belirgin bir menşe yakınlığıdır. Kaynak bilgisinin tehdidin ardından gelmesi, okurun önce kuvveti hissedip sonra onun nereden geldiğini görmesini sağlar. Kıraat farklılıkları hece ve zamir ağırlığını değiştirebilir; kaynak ilişkisi ve cümledeki görev sabit kalır.
+
+Bu uyarı, (18:5) ve (18:22)'de başka bir sınama yüzü kazanır. {ar:يُنذِرَ, tr:yunzire, gloss:uyarıp sakındırmak}ın taşıdığı tehlikeye karşı uyandırma işi, (18:5)'te {ar:مَا لَيْسَ لَهُم بِهِۦ عِلْمٌ, tr:mâ leyse lehum bihi ilm, gloss:bilmedikleri şey} hakkında konuşma ve {ar:كَذِبًا, tr:keziben, gloss:asılsız söz} isnat etme ile buluşur. Burada bilmediğini açıklamadan konuşmak dayanıksız iddiayı kurar, gerçeğe aykırılık onun çıktısını adlandırır. (18:22)'de {ar:رَجْمًا بِٱلْغَيْبِ, tr:recm'en bi'l-gayb, gloss:görünmeyen hakkında tahmin} aynı bilgi kusurunu yeniden gösterir; {ar:يُجَٰدِلُونَ, tr:yücâdilûne, gloss:çekişerek tartışırlar} çizgisindeki sert söz düellosu ise temelsiz iddianın toplumsal olarak büyütülmüş biçimini görünür kılar. Bu temas (18:5)'te bilmeden isnat etmeyi, (18:22)'de görünmeyen hakkında tahmini, ağır uyarının iddiaların üretim ve dolaşımını sınayan yüzüne bağlar. İki pasajın kendi konuları ayrı kalırken, 18:2'deki uyarı bu ortak sınama işleviyle yerel bir yankı kazanır.
+
+(18:6)'daki üzüntü, uyarının alıcıya ulaşması ile alıcının iç kabulü arasındaki sınırı görünür kılar. {ar:يُنذِرَ, tr:yunzire, gloss:uyarıp sakındırmak} sakınmayı uyandıran sorumlu bir bakım gibi işler; duyulmuş uyarıya doğru sayıp kabul etme hareketi ise dinleyenin iç eylemi olarak kalır. {ar:ءَامَنُوا, tr:âmenû, gloss:güvenip inandılar} diye kabul etme bu iç harekettir; kaçırılmış olana yönelen {ar:حَسَرَةً, tr:hasreten, gloss:yakıcı üzüntü} ise uyarıcının bu hareketi kendi tam denetimine almaya çalıştığında varacağı tükenişi gösterir. {ar:قَيِّمًا, tr:kayyimen, gloss:dosdoğru ve ayakta tutan}ın gözetip koruyan standardı, uyarıyı sürekli sorumluluk içinde tutar. Böylece uyarının erişimi sorumluluk olarak korunurken iç kabul dinleyene, uyarıcının taşıyabileceği üzüntünün sınırı da (18:6)'daki sahneye bırakılır.
+
+## Aynı Görevde Açılan Müjde
+
+Tehdidin nesnesi ve kaynağı kurulduktan sonra {ar:وَ, tr:ve, gloss:ve} bağlacı cümleyi genişletir. {ar:يُبَشِّرَ, tr:yubeşşiru, gloss:müjdelemek} ilk {ar:لِ, tr:li, gloss:amacıyla} edatının yönettiği ikinci mansup fiildir; böylece müjde uyarının yanına iliştirilmiş bir ek değil, aynı kitabın ve aynı sessiz öznenin ikinci amacıdır. Kısa ve sıkı tehditten insanlara, işlere ve karşılığa açılan uzun vaat bu bağlaçta görünür bir menteşe bulur. {ar:يُبَشِّرَ, tr:yubeşşiru, gloss:müjdelemek}in ikinci bâb biçimi iyi haberi başkasına ulaştıran etkin bildirme işini seçer. İkiz şın fiile işitsel bir ağırlık verir; haberin başkasında sevinç doğurmasından önce, nitelikli alıcıya taşınan bir iletişim olduğunu duyurur. Fiilin ardından cümle kapanmaz: önce alıcı, sonra onu tanımlayan eylem, en sonunda da vaadin içeriği gelir.
+
+{ar:بَأْسًا شَدِيدًا, tr:be'sen şedîden, gloss:zorlayıcı ve şiddetli güç} ile {ar:يُبَشِّرَ, tr:yubeşşiru, gloss:müjdelemek} aynı {ar:لَدُنْهُ, tr:ledünhû, gloss:O'nun katından} çerçevesinde duyulduğunda, tek bir yakın kaynaktan çıkan iki yön belirir: şiddetli güç tehdidi durduracak biçimde zorlar, müjde ise alıcıyı faydaya ve iyiliğe açar. Bu yakın kaynak fikri (18:10)'daki {ar:رَحْمَةً, tr:rahmeten, gloss:incelikli merhamet} ile hazırlayıp onarmaya yönelten harekette, {ar:رَشَدًا, tr:raşeden, gloss:doğru yön ve isabet} ile hatadan uzaklaştıran faydada ve (18:16)'daki {ar:مِرْفَقًا, tr:mirfekan, gloss:kullanılabilir yarar ve kolaylık} ile somut desteğe dönüşür. Böylece (18:10) ve (18:16)'daki merhamet, hazırlık, yön ve yarar, {ar:لَدُنْهُ, tr:ledünhû, gloss:O'nun katından} ifadesinin yakınlık çerçevesini derinleştirirken uyarı ile faydanın ayrı katkılarını birlikte görünür kılar.
+
+## Müjdenin Alıcıları ve Eyleme Dönüşen İnanç
+
+{ar:ٱلْمُؤْمِنِينَ, tr:el-mü'minîn, gloss:inananlar} etkin ortaç biçimiyle tamamlanmış tek bir inanç anını değil, güvenen ve iman edenlerle tanımlanan süregelen bir kimliği müjdenin alıcısı yapar. Belirli, eril çoğul ve mef'ul konumu, müjdeyi belirsiz bir insanlığa değil, bilinen ve sınırları çizilmiş bir topluluğa yöneltir. Kelimenin içindeki hemze, güven ve iman bildiren yüzeyde küçük bir ses yakalaması oluşturur; bu da müjdenin soyut bir iyi dilekten çok belirli bir güven hâline seslendiğini destekler. İman alanının güven, emniyet ve emaneti çağrıştıran yüzü, biraz sonra gelen eylem cümlesiyle davranışta görünür hâle gelir.
+
+Ardından gelen {ar:ٱلَّذِينَ, tr:ellezîne, gloss:o kimseler ki} çoğul ilgi zamiri, inananlar adını geride bırakmaz; onu bir alt cümlenin öznesi olarak eyleme taşır. Alıcı statüsü yapılmış tek bir işin etiketiyle değil, sürdürülen pratikle tanımlanır. Böylece geniş iman kategorisi hemen ardından gelen {ar:يَعْمَلُونَ, tr:ya'melûne, gloss:yapanlar} fiiliyle daralır; kimlik, seçen kişi ile kendisine karşılık ayrılan kişi arasındaki bağı taşır. {ar:يَعْمَلُونَ, tr:ya'melûne, gloss:yapanlar} iş ve üretken eylem alanını açar, ilerideki karşılığa doğru çalışan bir emek duygusu taşır. Geniş zaman-şimdiki zaman biçimi tek seferlik bir başarıyı değil, çoğul ve devam eden bir uygulamayı öne çıkarır; nitelik, tekrar edilen iş içinde kazanılır.
+
+Bu inancın eyleme dönüşen biçimi (18:13), (18:14) ve (18:16)'da daha somut görünür. (18:13)'teki iç kabul, {ar:يَعْمَلُونَ, tr:ya'melûne, gloss:yapanlar} ile buluşarak inanan kimlikten fiile geçişi başlatır. (18:14)'te {ar:رَبَطْنَا عَلَىٰ قُلُوبِهِمْ, tr:rabatnâ alâ kulûbihim, gloss:kalplerini sağlamlaştırdık} ifadesi, yaklaşan kamusal duruşu taşıyacak iç istikrarı verir. Aynı dizideki {ar:قَامُوا, tr:qâmû, gloss:ayağa kalkıp durdular} kararlılıkla işe girişmeyi, (18:16)'daki {ar:اعْتَزَلْتُمُوهُمْ, tr:i'tezeltumûhum, gloss:onlardan ayrıldınız} ise çevredeki uygulama çatıştığında ayrı bir yana çekilerek onarımı korumayı gösterir. Böylece müminlik sabit bir etiket değil, iç kabul, sağlamlaşma, görünen duruş ve koruyucu ayrılma içinde sürdürülen bir yönelim gibi duyulur. Salih işin bu bağlamdaki ölçüsü de (18:13), (18:14) ve (18:16)'da görülen, iç kabulden sağlamlaşmaya, duruştan koruyucu ayrılmaya uzanan somut hareket içinde belirginleşir.
+
+{ar:ٱلصَّٰلِحَٰتِ, tr:es-sâlihât, gloss:iyi ve düzgün işler} bu eylemin niteliğini belirler. Belirli dişil çoğul ve mef'ul olarak {ar:يَعْمَلُونَ, tr:ya'melûne, gloss:yapanlar} fiilinin nesnesidir; başındaki belirleme, tek tek örnekleri saymadan bilinen bir düzgün ve yararlı işler sınıfı kurar. Bu kelime iş, düzelme ve karşılık alanlarının düğümüdür: iyiliğin yanında bozulmuş olanı düzeltme ve barıştırma yüzünü de taşır. Böylece ödüle giden yol yalnız yapılan işin miktarına değil, işin onarıcı yönüne bağlanır. {ar:يَعْمَلُونَ, tr:ya'melûne, gloss:yapanlar} ile {ar:ٱلصَّٰلِحَٰتِ, tr:es-sâlihât, gloss:iyi ve düzgün işler} birlikte, işi ve onun sağlamlaştırıcı niteliğini aynı ifade çizgisine yerleştirir; bu çizgi karşılığın ve son talimatın konuşulduğu kullanımlara uzanan bir yankı da bırakır.
+
+Bu işten dönüşe uzanan anlam, (17:9), (18:30), (18:110), (25:71), (29:7), (18:88) ve (18:107)'de farklı temaslarla açılır. (17:9)'daki rehberlik, (18:30)'daki boşa çıkarılmayan emek ve (18:110)'daki imanla salih işin birlikte anılması, bilinçli eylemin cevaba dönük yüzünü gösterir. (25:71)'de tövbe ile yeni yöne dönme, (29:7)'de yanlışların giderilmesi işin onarım tarafını; (18:88)'de iyi dönüş ve (18:107)'de iman ile salih amellerin ardından kalıcılaşan yarar ise işten geri gelen sonucu görünür kılar. Bu bağlamlar eylemi edilgen bir kimlikten çıkarıp uyarıya cevap veren, bozukluğu onaran ve sonunda yarara dönen bir uygulama olarak duyurur; iyi oluş böylece çalışmanın yöneldiği ve dönüşte karşılık bulduğu nitelik hâline gelir.
+
+Bu onarıcı niteliğin görünüşle sınanması (18:7) ve (18:8)'de belirir. {ar:ٱلصَّٰلِحَٰتِ, tr:es-sâlihât, gloss:iyi ve düzgün işler} ile {ar:يَعْمَلُونَ, tr:ya'melûne, gloss:yapanlar}ın taşıdığı eylem, (18:7)'deki {ar:زِينَةً, tr:zîneten, gloss:süs ve çekici görünüş} ve sınama sahnesiyle karşılaşır; görünüş değerlidir, fakat sonludur ve neyin gerçekten iyi olduğunu yoklamaya açılır. (18:8)'deki {ar:صَعِيدًا جُرُزًا, tr:saîden cürûzen, gloss:çıplak ve bitkisiz zemin} görüntüsü kesip sökerek yüzeyi çıplak bırakır. Böylece iyi işin niteliği, teşhirin altında ve yüzey kaldırıldığında ayakta kalan onarım olarak duyulur. {ar:حَسَنًا, tr:hasenen, gloss:güzel ve iyi} bu çalışmaya arzu edilen kaliteyi ekler; yüzey ile sınama arasındaki ilişki, iyi işin niteliğini özellikle (18:7) ve (18:8)'deki bu sahne içinde görünür kılar.
+
+(18:19)'daki sahne, aynı {ar:ٱلصَّٰلِحَٰتِ, tr:es-sâlihât, gloss:iyi ve düzgün işler} kelimesini sessiz ve yetkin bir bakım biçiminde de görünür kılar. Yöneltilmiş bakış ve ayırt etme, sağlam olanı dikkatle seçer; {ar:أَزْكَىٰ طَعَامًا, tr:ezkâ taâmen, gloss:en temiz ve uygun yiyecek} aranan tedarik niteliğini belirler. {ar:فَلْيَأْتِكُمْ بِرِزْقٍ, tr:fel-ye'tikum bi-rizqin, gloss:size rızık getirsin} desteğin gruba geri taşınmasını, {ar:وَلْيَتَلَطَّفْ, tr:ve'l-yetelattaf, gloss:ince ve gizli davransın} ise bunu küçük, incelikli ve görünürlüğü düşük bir tarzda yapmayı anlatır. Bu iş akışı, iyi işi herkesin görebileceği bir performansla sınırlamayıp başkasını ayakta tutan lojistik bir bakım olarak açar; seçme, tedarik ve gizlilik katkısı (18:19)'daki bu somut akışa aittir.
+
+Kelimeler birlikte dinlendiğinde {ar:قَيِّمًا, tr:kayyimen, gloss:dosdoğru ve ayakta tutan}ın ölçüsü bir akışı da düzenler: {ar:يُنذِرَ, tr:yunzire, gloss:uyarıp sakındırmak} ile dikkat uyanır, {ar:بَأْسًا, tr:be'sen, gloss:şiddetli güç veya azap} ile tehlikenin basıncı hissedilir; {ar:يُبَشِّرَ, tr:yubeşşiru, gloss:müjdelemek} ve {ar:ٱلْمُؤْمِنِينَ, tr:el-mü'minîn, gloss:inananlar} ile güvene açılan bir alıcı belirir. Bu karşılaşma tehdidin dikkati sıkıştırdığı ve müjdenin onu güvene doğru gevşettiği bir gerilim ve açılma oluşturur; {ar:قَيِّمًا, tr:kayyimen, gloss:dosdoğru ve ayakta tutan}ın gözetip düzeni ayakta tutan yüzü bu dönüşümü tek seferlik alarm ve teselli değil, sürdürülen bir dikkat terbiyesi gibi bağlar. {ar:يَعْمَلُونَ, tr:ya'melûne, gloss:yapanlar} ile {ar:ٱلصَّٰلِحَٰتِ, tr:es-sâlihât, gloss:iyi ve düzgün işler} buluştuğunda cevap zihinsel onayda kalmaz, amaçlı onarıma dönüşür; {ar:أَجْرًا, tr:ecran, gloss:karşılık ve ödül} ise bu çalışmadan geri gelen uygun yararı gösterir. Uyarı ile müjdenin sıradan anlamı bu hareket içinde korunur: iki amaç aynı ölçüde birbirini tamamlayan bir dikkat ve eylem yolu açar.
+
+## Karşılığın İçeriği ve Niteliği
+
+{ar:أَنَّ, tr:enne, gloss:şu ki} müjde fiilinden sonra gerçek vaadin içeriğini açar. Cümle alıcıları tanımlamaktan onlara ne ayrıldığını bildirmeye geçerken, {ar:لَ, tr:le, gloss:onlara} ile {ar:هُمْ, tr:hum, gloss:onlar}dan oluşan öne alınmış yararlanıcı birimi ödül daha söylenmeden yerini güvenceye alır. {ar:لَ, tr:le, gloss:onlara} burada iyeliği, ayrılmışlığı ve yöneltilmiş payı birlikte taşır; karşılık yalnızca var olan bir ödül değil, bu nitelikli topluluğa tahsis edilmiş bir şeydir. Bu kısa birim, daha önce imanları ve işleriyle nitelenen aynı topluluğu karşılığın sahibi ve muhatabı yapar. {ar:أَنَّ, tr:enne, gloss:şu ki} içindeki ikiz n sesi de belirsiz bir olumlu havayı belirli bir önermeye bağlayan içerik menteşesine eşlik eder. Böylece vaat, kim olduklarından neye sahip olduklarına doğru genişler.
+
+{ar:أَجْرًا, tr:ecran, gloss:karşılık ve ödül}ın katkısı, karşılık verme işini, bu işi yapanı ve karşılığı alanı tek bir isimde buluşturan mastar biçimiyle işten dönen yararı görünür kılmasıdır. Öne alınan {ar:لَ, tr:le, gloss:onlara} ile birlikte ödül önce yararlanıcısına bağlanır. Belirsiz bırakılması miktarını ve genişliğini önceden ölçmez; -en sonu da hemen ardından gelen {ar:حَسَنًا, tr:hasenen, gloss:güzel ve iyi} ile kapanış sesini birbirine bağlar. Kelime, {ar:يَعْمَلُونَ, tr:ya'melûne, gloss:yapanlar}ın süregelen emeğiyle ücretimsi bir dönüş duygusunu paylaşır ve yerel biçimi yapılan iş sonrasındaki ödül adını taşır. İman eden kişi, süregelen iş, onarıcı iş niteliği ve güzel oluş arasında bir ödül düğümünde görünür. Böylece karşılık eylemin yanına sonradan eklenen soyut bir etiket değil, işten dönen bir yarar olarak duyulur.
+
+{ar:حَسَنًا, tr:hasenen, gloss:güzel ve iyi} mastar benzeri biçimiyle hafif bir sıfat etiketi gibi değil, {ar:أَجْرًا, tr:ecran, gloss:karşılık ve ödül}ın içine yerleşmiş somut bir nitelik gibi çalışır. Güzelliği, ahlaki iyiliği, yararı ve üstünlüğü aynı sonuçta birleştirir; karşılık yalnız kabul edilebilir değil, güzel ve iyi bir dönüş olarak belirir. Dünya süsü ile salihlerin kalıcı güzelliği karşılaştırılırken (18:31), bu kelime görünüşü aşan ve sınamaya dayanıklı bir değerlendirmeye temas eder. İyi dönüş (18:88) ve en iyi dönüşteki artış (10:26), aynı sıfatın ödülde kişiye ulaşan sevindirici sonuç yönünü ayrıca açar. Bu temaslar {ar:حَسَنًا, tr:hasenen, gloss:güzel ve iyi} kelimesinin sıradan iyi ve beğenilir olma anlamını koruyarak üç katkıyı birleştirdiğini gösterir: (18:31)'de görünüşü aşan ve sınamaya dayanan değerlendirme, (18:88)'de kişiye ulaşan iyi dönüş, (10:26)'da artan iyi dönüş. Son kelimenin -en akışı, {ar:أَجْرًا, tr:ecran, gloss:karşılık ve ödül}ı tamamlar; önceki {ar:شَدِيدًا, tr:şedîden, gloss:sıkı ve şiddetli}ın sert kutbuna ve {ar:ٱلصَّٰلِحَٰتِ, tr:es-sâlihât, gloss:iyi ve düzgün işler}in sağlamlık alanına karşılık veren olumlu bir kapanış kurar.
+
+Kalma ve sınırsız süre dili (18:3), {ar:أَجْرًا, tr:ecran, gloss:karşılık ve ödül}ın olağan karşılık anlamını silmeden onu genişletir. {ar:مَّٰكِثِينَ, tr:mâkisîn, gloss:kalıcı kalanlar} ödülün alıcılarını o iyi hâlde tutar; {ar:أَبَدًا, tr:ebeden, gloss:sonu olmayan süre} ise iş-karşılık döngüsünün bitiş kenarını kaldırır. Böylece karşılık yalnızca sonradan teslim edilen bir nesne değil, içine yerleşilen ve sürdürülen iyi bir durum gibi duyulur. Bu temas ödülü gerçek bir mekâna çevirmez; (18:3)'ün süreklilik beklentisi içinde 18:2'deki iyi iş karşılığının dayanma katmanını açar.
+
+Karşılık kelimesi, daha ihtiyatlı ve keşifsel bir maddi imgeye de izin verir. {ar:أَجْرًا, tr:ecran, gloss:karşılık ve ödül}ın nitelikli bir sözlük yüzünde kırık kemiği birleştirme ve bazen eğri kaynama görüntüsü bulunması, {ar:قَيِّمًا, tr:kayyimen, gloss:dosdoğru ve ayakta tutan} ile {ar:ٱلصَّٰلِحَٰتِ, tr:es-sâlihât, gloss:iyi ve düzgün işler} arasında bir onarım resmi açar. (18:1)'deki {ar:عِوَجًا, tr:ivecen, gloss:eğrilik ve sapma} deformasyonu gösterirken dosdoğru ölçü hedef hizayı verir; iyi işler bozukluğu gideren hareketi, karşılık da kırığı yeniden tutturmaya yardım eden bir atel gibi devam eden desteği sezdirir. Bu imge, {ar:أَجْرًا, tr:ecran, gloss:karşılık ve ödül} kelimesinin sıradan ödül anlamını koruyarak atel görüntüsünü onarımın eğrilikten hizaya doğru sürdürülen desteği olarak taşır; bu bağlantının sınırı, kelimenin maddi olarak “atel” diye çevrilmemesidir.
+
+Bu eylem-karşılık bağı daha keşifsel bir değer cetveli de kurar. {ar:قَيِّمًا, tr:kayyimen, gloss:dosdoğru ve ayakta tutan}ın değer biçen ve ölçü koyan çağrışımı, {ar:يُنذِرَ, tr:yunzire, gloss:uyarıp sakındırmak}ın sorumluluk basıncı, {ar:يَعْمَلُونَ, tr:ya'melûne, gloss:yapanlar}ın emek görüntüsü ve {ar:أَجْرًا, tr:ecran, gloss:karşılık ve ödül}ın ücretimsi dönüşüyle aynı ölçekte görünür hâle gelir. Uyarıdaki yükümlülük yankısı fiile sorumluluk tonu, emek görüntüsü de karşılığa yapılan işle bağlanan bir dönüş niteliği verir. Fiilin yerel biçimi uyarma, karşılık kelimesinin yerel biçimi ödül olarak kalır; bağlantı bu sınırlar içinde uyarı, salih iş ve ödülün olağan anlamlarını birlikte taşır.
+
+## Doğruluğun Sürdürülen Yüzü
+
+{ar:قَيِّمًا, tr:kayyimen, gloss:dosdoğru ve ayakta tutan} kelimesinin pratik yüzü, doğruluğu yalnız okunup onaylanan bir özellik olmaktan çıkarıp gerekleri uygulandıkça işler hâlde kalan bir ölçü gibi duyurur. Vakitli ibadetin belirlenmiş gereklilik altında sürdürülmesi (4:103), ayağa kalkma ve toplu devamlılık (73:20), kamusal düzenin ayakta tutulması (5:97) aynı taşıyıcının gereği yerine getirip sürdürme yönünü farklı ölçeklerde gösterir. Bu temaslar kelimeyi doğrudan bir emir kipine veya tek bir ibadet ayrıntısına taşımadan, kişisel ibadet, devamlılık ve ortak düzen içindeki dosdoğruluğun pratikte karşılaşılan bir düzen olduğunu hissettirir.
+
+Aynı {ar:قَيِّمًا, tr:kayyimen, gloss:dosdoğru ve ayakta tutan} doğruluğu topluluk hayatını taşıyan geçim temeli (4:5) ve düzeni koruyan kamusal kurum (5:97) ile buluştuğunda, Kitap bir düzenin ayakta durduğu ana dayanak gibi hissedilir. Uyarı ve vaadin üzerine kurulabildiği yapısal destek görüntüsü, Kitabın olağan doğruluk niteliğine eklenen analojik bir katkıdır: (4:5)'teki maddi geçim ve (5:97)'deki kamusal kurum, düzen taşıma işlevlerini bu taşıyıcıya geri verir. Bu bağlantı Kitabı servet, geçim veya siyasal kurum olarak adlandırmaz; yapısal destek görüntüsünü kendi sınırında tutar.
+
+Bu sürdürülen ölçü hareketsiz de değildir. {ar:قَيِّمًا, tr:kayyimen, gloss:dosdoğru ve ayakta tutan}ın gözetip koruma ve düzgün ekseni muhafaza etme yüzü, mağara görüntüsünde ışığın yana eğilmesi (18:17), yanlarından geçip kesmesi (18:17), korunan geniş aralık (18:17) ve bedenlerin bir yüzden ötekine çevrilmesi (18:18) ile buluşur. {ar:تَزَٰوَرُ, tr:tezâveru, gloss:yana eğilip yön değiştirir} ve {ar:تَقْرِضُهُمْ, tr:takriduhum, gloss:yanlarından geçip keser} kontrollü sapmayı ve sınırlı yanal maruziyeti verir; {ar:فَجْوَةٍ, tr:fecvetin, gloss:geniş aralık} mekânsal tamponu, {ar:يَقْلِبُهُمْ, tr:yaklibuhum, gloss:çevirip durur} ise periyodik düzeltme hareketini ekler. Böylece sabit hedefi korumak için açının değişebildiği ve maruziyetin sınırlanabildiği dinamik bir bakım resmi belirir. Mağara sahnesinin fiziksel koruma yüzü kendi canlılığını taşır; bu temas onu silmeden dosdoğruluğu değişen koşullar altında yönü koruyan bir bakım olarak genişletir.
+
+İyi iş de geleceğe dönük kapalı bir mülkiyet değil, düzeltilmeye açık bir güzergâh gibi görünür. {ar:يَعْمَلُونَ, tr:ya'melûne, gloss:yapanlar}ın eylem yüzü, geleceğe dönük faillik (18:23)'teki {ar:فَاعِلٌ, tr:fâilun, gloss:yapacak olan}, {ar:إِلَّا أَنْ يَشَاءَ اللَّهُ, tr:illâ en yeşâ Allah, gloss:Allah dilerse} şartı ve unutma sonrası düzeltme dizisi (18:24) ile buluşur. {ar:وَاذْكُرْ, tr:vezkur, gloss:hatırla} ile {ar:نَسِيتَ, tr:nesîte, gloss:unuttuğunda} arasındaki dönüş, dikkat dışına düşeni geri çağırır; kesinti eylemi artık düzeltilemez kılmaz. {ar:أَقْرَبَ ... رَشَدًا, tr:akreb ... raşeden, gloss:doğruya daha yakın} tamamlanmış bir varıştan çok karşılaştırmalı ilerleme verir. Bu yüzden iyi iş unutma ve hatadan sonra yeniden kurulan, doğruya daha çok yaklaşan bir pratik olarak da duyulur. Gelecek sözleri için görgü kuralı kuran alternatif okuma, bu katkıyı (18:23) ve (18:24)'ün bağlamındaki düzeltilebilir güzergâh içinde taşır.
+
+Şiddetli güç, bu düzeltilen yönelimi zorla tersine çeviren bir toplumsal yakalama olarak da belirir. {ar:بَأْسًا شَدِيدًا, tr:be'sen şedîden, gloss:zorlayıcı ve şiddetli güç} üstüne çıkıp üstün gelme (18:20)'deki {ar:يَظْهَرُوا عَلَيْكُمْ, tr:yazharû aleykum, gloss:üstünüze çıkıp üstün gelsinler} ifadesiyle birleştiğinde karşı tarafın denetimi ilk baskı koşulu olur. {ar:يُعِيدُوكُمْ, tr:yuîdûkum, gloss:sizi geri döndürsünler} ayrılma sonrasındaki zorunlu tersine çevirmeyi, {ar:مِلَّتِهِمْ, tr:milletihim, gloss:dayatılan topluluk yolu} yeniden içine çekilecek yerleşik normu gösterir. Sonuç {ar:فَلَنْ تُفْلِحُوا, tr:fe-len tuflihû, gloss:başarıya ulaşamazsınız} ile başarı ve gelişme imkânının yitirilmesi olarak belirir; bu, kalıcı iyi hâlin (18:3) karşısında zorla geri çevrilmenin kaybını görünür kılar. Toplumsal yakalama bağlantısı fiziksel saldırı ihtimalini de açık bırakır ve (18:20)'deki bu sahnenin sınırları içinde kalır.
+
+Dosdoğru niteliğin yön veren yüzü, dışarıdan gelen ama doğrudan temas eden 1:6'daki {ar:مُسْتَقِيمَ, tr:müstakîme, gloss:dosdoğru ve izlenebilir yol} ile de duyulur. {ar:قَيِّمًا, tr:kayyimen, gloss:dosdoğru ve ayakta tutan}ın sabit niteliği, burada açıkça istenen doğru yol içinde izlenebilir bir istikamet kazanır. Bu temasın alanı 1:6'daki doğru-yol isteğidir: ölçünün takip edilebilir bir yöne de bakabildiğini gösterir. Bu sınırlı temas 18:2'yi Fâtiha tefsirine veya sûreler arası bir sisteme taşımadan, yalnızca doğru yol görüntüsünü açık tutar.
+
+Son sınır, ölçünün bütün hesabını insanın eline bırakmayan 18:26'da açılır. {ar:قَيِّمًا, tr:kayyimen, gloss:dosdoğru ve ayakta tutan} standardı, {ar:غَيْبُ, tr:gayb, gloss:görünmeyen alan} ile {ar:أَبْصِرْ بِهِ وَأَسْمِعْ, tr:ebsir bihi ve esmi', gloss:ne iyi görür ve işitir} ifadelerinin insan gözünden saklı kapsamlı bilme ve son kalibrasyon diliyle buluşur. İnsan bu ölçüye eylemle karşılık verir; fakat bütün sonuçları önceden hesapladığını ileri süremez. {ar:وَلَا يُشْرِكُ, tr:ve lâ yuşrik, gloss:ortak etmez} son hükümde ortak bir paydaş bulunmadığını, {ar:حُكْمِهِ, tr:hükmihî, gloss:hükmü ve kararı} ise taraflar arasındaki sonucu tayin eden nihai yargıyı belirtir. İnsan sorumluluğu, emeği ve karşılığı taşır; uyarının ve vaadin son ayarı ise insanın yönettiği genel bir tahmin cetveline kapanmadan bu hüküm alanında kalır.
+
+</editorial_prose>

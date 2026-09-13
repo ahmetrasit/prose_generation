@@ -1,0 +1,197 @@
+# V5 reading invitation — 90:19
+
+You are a fresh reading-invitation writer. Read the complete editorial prose
+before writing. It is your sole semantic source.
+
+Write two to four paragraphs of fluent, contemporary Turkish that reveal a
+surprising reading by following one or two main channels of resonance in the
+ayah. A channel is a connected background of meanings, images, actions, or
+relations through which the ayah can be heard and understood differently.
+Several editorial findings may together develop one channel. Summarize that
+connected movement and its consequence for the ayah's main meaning, rather
+than compressing findings individually. Give the reading's substance now;
+the invitation comes from understanding it, not from a promise of hidden depth.
+
+Before drafting, read the entire editorial prose and silently select the one
+or two channels with the strongest interpretive consequence and enough
+grounding to explain clearly. Favor channels that expand or shift what the
+ayah says, the relation it establishes, or what is at stake in its action or
+image. One fully developed channel is sufficient; add a second only when it
+offers a distinct consequential reading that can be explained within the
+invitation. No finding, channel, or major shift has an individual coverage
+claim. Unselected material may remain entirely in the full commentary.
+
+A channel may develop through grammar, sound, dialogue, a material process,
+time, imagery, or a conceptual relation. Resonance is not limited to acoustic
+effects, and an unusual image alone does not establish a channel. Use only
+connections the editorial prose actually develops. If it supplies no such
+channel, explain its strongest grounded reading without inventing connections
+or surprise.
+
+Begin inside the ayah's own words, images, actions, or relations and reveal a
+selected distinctive reading in the first paragraph. Keep the plain meaning
+reachable with only the orientation needed to understand the change. Do not
+spend an opening paragraph on routine explanation or front-load context about
+the surah, the ayah's position, or the commentary project.
+
+For each selected channel, begin with the expression that opens it, unfold the
+connected background, and show how the ayah reads or sounds against that
+background. Let a detail lead into the next through an intelligible relation
+or process, so the reader experiences the emerging reading. This is a movement
+of thought, not a mandatory sentence pattern or one paragraph per finding.
+Let the reader identify the expression being interpreted,
+where any nonordinary detail comes from, and what that detail changes in the
+reading. Briefly identify the word-family use, restricted form, collocation, or
+context that supplies an essential added detail, and preserve the concrete
+operation that makes the image work. Keep the ordinary reading and necessary
+qualification clear within this explanation; do not repeat them as a fixed
+formula. Preserve the particular object, process, or relation that makes this
+reading distinctive, and state its interpretive consequence for the ayah as a
+whole. Make intelligible what the familiar reading leaves less visible and
+what the expanded or shifted reading now lets the reader understand. Preserve
+the editorial's force: an exploratory possibility remains possible, while a
+developed shift must not be softened into a decorative association or a
+reassurance that everything means the same thing. A concrete
+account of how something is carried, transformed, lost, or restored must not
+shrink to a general statement about care, guidance, dependence, or goodness.
+Keep the details needed to make the selected channel work; omit side findings
+and shorten routine setup. If a channel cannot be explained faithfully from
+the editorial prose, choose another grounded channel or reading.
+
+When a non-focus ayah supplies a contribution used in the invitation, keep its
+reference from the editorial prose beside that contribution.
+
+Do not turn the invitation into a miniature inventory of the commentary's
+conclusions, or flatten distinct channels into a broad theme to include more
+material. Do not repair, extend, or supplement the editorial prose from memory
+or outside knowledge.
+
+Omit technical apparatus. Retain any qualification, source distinction, live
+alternative, or boundary whose absence would change the force or meaning of a
+chosen reading. Express it naturally beside the image or relation it qualifies.
+Favor positive explanations of the relation between layers: what remains in
+the foreground and what the resonance makes audible in the background. State
+how that background reinforces, expands, or shifts the understanding of the
+main meaning, with the source and degree of certainty clear. Reserve explicit
+exclusions for concrete ambiguities or live counter-evidence that need them.
+Repeated "this is not X" endings make a reading sound withdrawn; express the
+substantive qualification through what the reading does contribute wherever
+possible. Use varied, natural language rather than a repeated "second layer"
+formula, and preserve the force of expansions and shifts.
+Do not name branches, candidates, findings, scopes, evidence categories,
+ledgers, or workflow stages, or label the prose as numbered channels. Do not
+list findings serially.
+
+Use the established `{ar:..., tr:..., gloss:...}` syntax, consistent
+Turkish-readable transliteration, and short ordinary glosses. Keep Arabic
+anchors beside the explanations they ground. Within a paragraph, continue with
+the Turkish meaning where clear; provide the necessary local tag when a later
+paragraph interprets the carrier anew. Do not place Arabic script outside a
+valid tag.
+
+Build transitions within a channel through its shared object, action, or
+relation. If two channels are selected, they may occupy separate paragraphs;
+do not invent a link between them. Do not praise the commentary's quality,
+promise what the reader will find, manufacture suspense, recap at the end, or
+add a call to action. End on an image, relation, action, or tension already
+established by the selected reading.
+
+Before finishing, compare the invitation with the entire editorial prose:
+does the chosen channel reveal a consequential reading, or could the text have
+been written from the ordinary translation and a modest explanation alone?
+When the editorial supports a surprising channel, the latter fails this task.
+Can the reader follow the opening expression into a connected background and
+understand how that background expands or shifts the ayah's main meaning?
+Check the selected connections against their editorial explanation: can the
+reader tell where the nonordinary details come from, with the necessary
+qualifications intact? Repair generic explanation, isolated curiosities, or a
+compressed findings list by developing the selected channel. Do not add
+omitted channels merely for coverage. Do not output this check.
+
+Write only the invitation text to:
+
+`_commentary/v5/editorial/s090-regular-20260912/s090/90_19/90_19.invitation.tr.md`
+
+Do not add a heading, wrapper label, index, ledger, evidence file, or any other
+artifact. Do not modify the editorial prose.
+
+After writing the invitation, run:
+
+```bash
+python3 _commentary/v5/validate_prose.py _commentary/v5/editorial/s090-regular-20260912/s090/90_19/90_19.invitation.tr.md
+```
+
+If validation fails, repair only the reported mechanical file-contract issues
+and rerun it, for at most two repair cycles. Report the final validator result
+in your response.
+
+<editorial_prose>
+## Hükmün Kuruluşu
+
+Bu âyet, ayetlerimizi inkâr edenlerin sol tarafın insanları olduğunu bildirir. İlk bakışta yaptığı iş, bir topluluğu davranışıyla tanımlayıp ona bir hüküm adı vermektir. {ar:وَ, tr:wa, gloss:ve} (90:18)'deki sağ taraf hükmüne bağlanır; sıradan bağlama görevi sürerken iki yan başlığını yan yana getirerek karşıt düzeni duyurur. {ar:ٱلَّذِينَ, tr:ellezîne, gloss:o kimseler ki} bilinen bir grubu gösterir, ardından o grubun hangi davranışla tanımlandığını açar: {ar:كَفَرُوا۟ بِـَٔايَٰتِنَا, tr:keferû bi-âyâtinâ, gloss:ayetlerimizi inkâr edenler}. Böylece (90:18)'deki kısa gösterme biçimi burada ölçütü açıklayan, daha kanıtlayıcı bir sunuma dönüşür; sol taraf adı tek başına bırakılmaz, kime ve hangi eylem üzerine verildiği görünür. Çoğul biçimler hükmü soyut bir inkâr fikrinden çıkarıp kendi eylemiyle sorumluluk taşıyan bir topluluğa bağlar.
+
+Fiilin tamamlanmış çoğul biçimi olan {ar:كَفَرُوا۟, tr:keferû, gloss:inkâr ettiler}, başlık gelmeden önce gerçekleşmiş ortak bir tutumu duyurur. Bu birinci bâb fiil, doğrudan grubun yaptığı reddi taşır; başkasına inkâr ettirme ya da reddi yoğunlaştırma anlamı bu bağlantının parçası değildir. Yanındaki {ar:بِـ, tr:bi-, gloss:ile ve -e bağlayan edat} suçlamayı belirsiz bir inkâr olmaktan çıkarıp belirli bir alana yöneltir. {ar:َٔايَٰتِنَا, tr:âyâtinâ, gloss:ayetlerimiz} ile birlikte kurulan bu edatlı yapı, yazıda iki unsur gibi görünse de anlam bakımından tek bir tümleçtir: reddin nesnesi ve fiilin temas noktası aynı yerde toplanır. Bu yakınlık, inkârı delilden uzak bir zihinsel tavırdan ziyade delilin hemen yanında kurulan bir karşı koyuş gibi duyurur; sözdizimsel basınç burada maddi bir örtme sahnesi değil, reddin nesnesine bitişik kurulmuş karşı koyuşun anlam etkisidir.
+
+{ar:َٔايَٰتِنَا, tr:âyâtinâ, gloss:ayetlerimiz} fiilin yöneldiği çoğul nesnedir ve davranıştan son hükme geçişi taşır. Âyetleri, delilleri, harikaları ve bir şeyi tanıtan okunabilir göstergeleri aynı işaret alanında buluşturur. İşaret adının ufuklarda ve insanın kendi içinde görülen açıklayıcı belirtileri hatırlatan genişliği, burada reddedilen nesnenin kapsamını belirler. Sonundaki birinci çoğul kişi eki, bunları anonim veriler olarak değil, konuşanın sunduğu ve sahipliğinde bulunan açıklamalar olarak gösterir. Bu yüzden işaretler hâlâ mevcut ve açıklayıcıdır; cümle, birkaç görünür delilin aynı reddin içinde hedef alınmasını kurar. Aynı kelime için kaynaklarda aktarılan dönüş ve sığınak ilişkisi, bu cümlede işaret adının açık görevine eklenen ihtilaflı ve sınırlı bir yankı olarak kalır; bağımsız bir sahne kurmaz. İşaretlerin reddedilmesinden sonra gelen arkadaşlık başı da cümleyi davranıştan hükme ilerleyen bir düzene sokar.
+
+İşaretleri inkâr eden topluluk, hükme geçilmeden hemen önce {ar:هُمْ, tr:hum, gloss:onlar} zamiriyle yeniden göz önüne getirilir. Bu kısa unsur suçlama ile sonuç arasındaki kimlik menteşesidir: az önce tanımlanan kişiler, biraz sonra gelecek adlandırmanın taşıyıcısıdır. Çoğul zamir, {ar:ٱلَّذِينَ, tr:ellezîne, gloss:o kimseler ki} ile başlayan çoğulluğu fiilden son başlığa kadar kesintisiz taşır. Ses bakımından da bu kısa durak, açık arkadaşlık başından önce hükmü bir an belirginleştirir; katkısı yereldir ve gramerin kurduğu menteşeyi destekler.
+
+{ar:أَصْحَٰبُ, tr:ashâbu, gloss:eşlik edenler} zamirden sonra gelen isim cümlesinin yüklem başıdır ve kendisinden sonraki tamlamayı yönetir. Sıradan yakınlık ve eşlik anlamı, son ad alanıyla birleştiğinde geçici bir karşılaşmadan çok süreğen bir mensubiyet duyurur. Kırık çoğul biçim tek bir arkadaşın değil, aynı ad altında toplanan bir sınıfın adını kurar. (90:18)'deki ortak baş, iki hükmü aynı mimari içinde tutar; değişen son unsur ise kutbu ve değeri belirler. Böylece arkadaşlar ifadesi, işaretlerin reddedilmesinden kopuk bir isim değil, az önce anlatılan davranışın vardığı hüküm olarak duyulur.
+
+Son tamlayan olan {ar:ٱلْمَشْـَٔمَةِ, tr:el-meşʾemeti, gloss:sol taraf} belirli dişil tekil biçimiyle başlığı tanınabilir bir alana bağlar: sağın karşısındaki sol yan, uğursuzluğu, kötü talihi ve olumsuz payı aynı adlandırmada toplar. Arkadaşlık başı bu alanı grubun süreğen mensubiyeti olarak etkinleştirir; son alanın kötü talih içeriği de bu mensubiyet içinde grubun üzerine kapanan bir alan gibi duyulur. 56:9'daki sol taraftakiler ve 69:25'te kitabı sol elinden alan kişiyle ilgili sahneler, bu son adın sol kutup ve olumsuz pay çağrışımlarını hatırlatabilir; bu iki sahne burada sınırlı yankı olarak kalır ve mevcut tamlamanın bütün anlatılarını taşımaz. Kelimenin son konumu ve seyrek kullanımı kapanışı alışılmış bir ceza sözünden ayrılan belirgin bir başlıkla yoğunlaştırır. Hemzeli ve şeddeli okuyuşların ses dokusu içten kırılmış ya da sıkışmış bir kapanış hissi verebilir; okuyuş değişse de sol taraf ve olumsuzluk hükmü yerinde kalır. Bu ses ve sonluk vurgusu âyet içindeki kapanışı belirginleştirir; kapsamı bu kapanışla sınırlıdır ve tek başına bütün sûrenin anlamını taşımaz.
+
+## İşaretle Karşılaşma
+
+Aynı kelimelerin birbirine değmesi, açık sınıflandırmanın içinde işaretleri örten ve grubu sola bağlayan yerel bir süreç görüntüsü kurar. {ar:كَفَرُوا۟, tr:keferû, gloss:inkâr ettiler} dinî gerçeği reddetme anlamını taşır ve görünür olanı örten, kapalı duruma getiren yönüyle {ar:َٔايَٰتِنَا, tr:âyâtinâ, gloss:ayetlerimiz} kelimesine bağlanır. İşaretler bu temasta yalnızca adı verilmiş âyetler değil, insanı yönlendiren mevcut belirtiler olarak iş görür; inkâr, onları yok eden bir güçten ziyade olması gereken yönü kapatan etkin bir tavır gibi görünür. {ar:أَصْحَٰبُ, tr:ashâbu, gloss:eşlik edenler} bu eylemi geçici bir karardan kalıcı bir yakınlığa çevirir, {ar:ٱلْمَشْـَٔمَةِ, tr:el-meşʾemeti, gloss:sol taraf} ise bu birlikteliğe yön verir. Böylece grup, işaretleri örten bir süreç içinde sola bağlanmış olarak duyulur. Sözdizimsel yakınlığın taşıdığı örtme rengi, bu yerel bağlantıda fiziksel bir sahne kurmadan hükmü derinleştirir.
+
+İşaret adı, somut bir bakım talebine yön veren görünür açıklamalar olarak çalışabilir. {ar:بِـَٔايَٰتِنَا, tr:bi-âyâtinâ, gloss:ayetlerimize} içindeki işaret adı, (90:13)'teki {ar:فَكُّ, tr:fekku, gloss:bağı çözmek}, (90:14)'teki {ar:إِطْعَٰمٌ, tr:iṭʿâmun, gloss:besleme} ve (90:17)'deki {ar:ٱلْمَرْحَمَةِ, tr:el-merḥameti, gloss:merhamet} ile temas ettiğinde üç bakım katkısını bir araya getirir: fekku başka birinin hâlini özgürleştirmeyi, iṭʿâmun doyurmayı, merḥameti ise merhametle düzeltmeyi düşündürür. Bu üç hareket, inkârı cevaplanabilir bir talebi örten bir hareket olarak hissettirir; cümlenin düz anlamındaki işaret reddi böylece pratik sonucu olan bir açıklamanın reddine doğru genişler. Bu bağlantının kapsamı, işaretlerle bakım eylemleri arasındaki yön gösterme ilişkisidir; işaret kelimesinin her sözlük dalını veya çevredeki her eylemi tek bir sisteme dönüştürmez.
+
+İşaret-kaynak teması, alınmış bir iyiliğin değerini örtüp şükrünü yerine getirmeme yönünü düşündürebilir. {ar:كَفَرُوا۟, tr:keferû, gloss:inkâr ettiler} bu bağlamda nimet yadsıma rengini alırken, {ar:َٔايَٰتِنَا, tr:âyâtinâ, gloss:ayetlerimiz} alınmış kaynağı ve onun görünür talebini taşır. (90:6)'daki tükenmiş veya üst üste yığılmış servet söylemi kaynağın bir yüzünü, (90:14)'teki açlık içinde besleme ise karşılanması gereken bakım talebini gösterir. Bu iki ayrıntı bir araya geldiğinde, elde edileni ihtiyaç içindeki başkasına ulaştırıp ulaştırmadığı sorusu ve iyiliğin dışarıya, karşılık bekleyen kişiye geçmesi gereken akışın kesildiği görüntü belirir. Bu, işaret inkârının yanına eklenen sınırlı bir nankörlük ve aktarım okumasıdır. Kaynağın başka bir yere harcanmış olma ihtimali bu bağlantıda açık kalır; bu yüzden eleştiri zorunlu olarak istiflemeye veya tek bir uğursuzluk sebebine bağlanmaz. Açık sol taraf hükmü ve onun ihtiyatı korunur.
+
+Kelime buluşması, ortak reddin topluluğu aynı ad altında nasıl topladığını görünür kılar. {ar:كَفَرُوا۟, tr:keferû, gloss:inkâr ettiler} belirli bir bağdan uzaklaşma rengini taşır; {ar:أَصْحَٰبُ, tr:ashâbu, gloss:eşlik edenler} bu uzaklaşmanın çevresinde oluşan ortaklığı görünür kılar. Aynı reddin tekrarı, süreğen eşliği sosyal bir tutkal gibi kurar; {ar:ٱلْمَشْـَٔمَةِ, tr:el-meşʾemeti, gloss:sol taraf} da bu beraberliğin sol ve olumsuz yönünü verir. Böylece inkâr, hazır bir sınıfın yalnızca belirtisi olmaktan çıkıp o sınıfı sürekli biçimde oluşturan bir bağ olarak görünür. Bu okuma, taraf adlarının önceden verilmiş sınıflandırmalar olduğu ve önceki pratiklerin yalnızca üyeleri belirlediği ihtimalini de açık bırakır.
+
+## Güçlüğün İçinden
+
+Yakın bölümün güçlük sahnesi, bu ortaklığın yönünü bir geçit arazisi olarak renklendirir. (90:11)'deki {ar:ٱقْتَحَمَ, tr:iktaḥame, gloss:güçlüğe daldı} güçlüğün içine atılmayı ve insanın içine sürüklendiği tehlikeli yeri; (90:12)'deki {ar:ٱلْعَقَبَةَ, tr:el-akabe, gloss:sarp geçit} çıkılması güç, öne çıkmış kayayı veya geçidi; (90:17)'deki {ar:ٱلصَّبْرِ, tr:es-sabr, gloss:dayanma} ise kolay kaçışı olmayan ağır sıkıntı altında sürmeyi duyurur. Odaktaki {ar:كَفَرُوا۟, tr:keferû, gloss:inkâr ettiler} ayetleri reddeden düz anlamını taşır; bu fiil için aktarılan örtülü geçit ve dağlar arasındaki geçit baskısı, bu üç ayrı zeminle birleşince reddeden topluluğu bir geçidin eşiğinde gösterir. Önceki âyetlerdeki ahlaki güçlük üzerinde ilerlenen araziye, sol taraf da geçilmesi zor yöne dönüşür. Bu geçit görüntüsü (90:11, 90:12, 90:17) bağlamında kurulan bir okumadır; ayetleri inkâr edenlerin sol tarafın insanları olduğu ana hüküm bu bağlantı içinde korunur.
+
+Taraf adları, bu arazi görüntüsünün ardından sonuca doğru işleyen yön levhaları gibi çalışır. {ar:ءَايَٰتِنَا, tr:âyâtinâ, gloss:ayetlerimiz} bir belirtiyi, {ar:ٱلْمَشْـَٔمَةِ, tr:el-meşʾemeti, gloss:sol taraf} iyi talihin karşıtı olan yönü taşır; (90:18)'deki {ar:ٱلْمَيْمَنَةِ, tr:el-meymeneti, gloss:sağ taraf} bereket ve iyi talih kutbunu kurar. (90:11)'deki geçit sözüyle birlikte düşünüldüğünde, güçlüğün ardından hangi sonuca varıldığı tarafların yön duygusuyla hissedilir. Sol taraf böylece hem kimlerin bir sınıfa konduğunu hem de o sınıfın hangi olumsuz yöne doğru yerleştiğini düşündürür. Bu ileriye dönük temas, işaret ve uğursuzluk çekirdeklerini sağ-sol karşıtlığı içinde tutar; bu bağlantının kapsamı yön duygusudur ve ana hükmü bağımsız bir kehanete taşımaz.
+
+İşaret kelimesi, tanınması geciken bir eşiğin basıncını taşıyabilir. {ar:ءَايَٰتِنَا, tr:âyâtinâ, gloss:ayetlerimiz} yakın olduğu hâlde henüz tanınmayan bir açıklık noktası gibi duyulur. (90:13)'teki {ar:رَقَبَةٍ, tr:rakabe, gloss:boyun} beklenen gelişe dikkat kesilen duruşu, (90:15)'teki {ar:مَقْرَبَةٍ, tr:makrabe, gloss:yakınlık} tamamlanmaya yaklaşan zamanı, {ar:يَتِيمًا, tr:yetîmen, gloss:yetim} ise bakımın ya da hareketin yavaşlamasıyla ağırlaşan kırılganlığı aynı alana bağlar. Bu üç ayrıntı birlikte, inkâr edilen işareti reddedilmiş bir nesnenin yanında yakında belirecek veya karşılanacak bir talep gibi duyurur. Bu bağlantıda işaret adı zaman kelimesi hâline gelmez; asli işaret anlamı korunur, gecikme görüntüsü (90:13, 90:15) içindeki bir yankı olarak ona eklenir.
+
+Bekleyişin ardından geri çekilme görüntüsü, aynı reddin temas kesen bir karşılığını sunabilir. (90:13)'teki {ar:فَكُّ, tr:fekku, gloss:bağı çözmek} ayrılma imkânını, yanındaki {ar:رَقَبَةٍ, tr:rakabe, gloss:boyun} korunmuş bir mesafeyi taşır. (90:11, 90:12)'deki {ar:ٱلْعَقَبَةَ, tr:el-akabe, gloss:sarp geçit} zorlu eşiğin, hatta topuk üzerinde dönülen geri dönüş noktasının görüntüsünü; (90:20)'deki {ar:نَارٌ, tr:nârun, gloss:ateş} ise kaçınma ve ürkme havasını verir. Bu ayrıntılar bir araya geldiğinde {ar:كَفَرُوا۟, tr:keferû, gloss:inkâr ettiler} ayetleri reddeden düz anlamını korurken, kurulmuş bir itaati itaatsizliğe çeviren ve zorlanan ilişkiden geri çekilen bir hareket de sezdirir. Bu bağlantı isteyerek veya zorlanarak gerçekleşen tek bir nedeni seçmez; geri çekilme görüntüsü (90:11, 90:12, 90:13, 90:20) içinde tamamlanır.
+
+Yakın çevrenin bir başka katkısı, örtmeyi bir bitkinin büyüme döngüsündeki geç aşamayla buluşturmasıdır. {ar:ٱلصَّبْرِ, tr:es-sabr, gloss:dayanma} âyetteki sabır ve dayanma anlamını korur; aynı yüzey için ayrıca aktarılan ekşi meyve baskısı, meyve veren bir oluşumun başka bir ayrıntısını açar. {ar:ٱلْعَقَبَةَ, tr:el-akabe, gloss:sarp geçit} (90:11, 90:12) bağlamında kuruyarak geride kalan izi ve sararan gövdeyi, {ar:كَفَرُوا۟, tr:keferû, gloss:inkâr ettiler} ise gelişen çiçek veya meyveyi dıştan kaplayan bitkisel kılıfı düşündürür. Bu ayrıntılar, meyveye yaklaşan hayatın sararıp kuruması ve geride iz bırakması üzerinden ayetleri örtmeyi tanınmadan önce kapanan bir imkân gibi gösterir. Bu bitki kılıfı, fiilin açık inkâr anlamının yanında duran biçimden uzak bir mecazdır; bu bağlantı her işaretin gerçek anlamda tohum veya meyve olduğunu ileri sürmez.
+
+İşaretlerin yön duygusu, soyut bir reddin somut toplumsal eylemlerden uzak durma biçimini görünür kılabilir. {ar:كَفَرُوا۟, tr:keferû, gloss:inkâr ettiler} odakta reddi, {ar:ءَايَٰتِنَا, tr:âyâtinâ, gloss:ayetlerimiz} üzeri örtülen göstergeleri, {ar:ٱلْمَشْـَٔمَةِ, tr:el-meşʾemeti, gloss:sol taraf} bu örtmenin vardığı yönü kurar. (90:11, 90:12)'deki {ar:ٱقْتَحَمَ ٱلْعَقَبَةَ, tr:iktaḥame el-akabe, gloss:sarp geçide dalmak} bedeli olan eşiği, (90:13)'teki {ar:فَكُّ, tr:fekku, gloss:bağı çözmek} kapalı olanı serbest bırakmayı, (90:14)'teki {ar:إِطْعَٰمٌ, tr:iṭʿâmun, gloss:besleme} ve (90:16)'daki {ar:مَتْرَبَةٍ, tr:matrabe, gloss:toprak ve toz} ise işaretlerin yöneldiği somut ihtiyacı görünür kılar. Bu dört ayrıntı, sol tarafı salıverme ve besleme gibi bedeli olan eylemlerin işaretleri örtüldükten sonra oluşan yön olarak duyurur. Bu ilişkinin kapsamı, çevredeki eylemlerle kurulmuş atfedilmiş bir bağdır; ana ayetin inkârını tek başına tanımlayan yeni bir sözlük hükmü kurmaz.
+
+Sol taraf adı, başa gelen bir sonuç kadar insanların birbirine dönük ilişkilerinde oluşan bir durumu da düşündürebilir. (90:14)'teki açlık ve tükeniş, (90:15)'te bakım veren bağından kopmuş yetim, (90:16)'da aşağılanmış yoksul ve toprağa yapışmış yoksulluk, bu son ada maddi yüzler verir. {ar:ٱلْمَشْـَٔمَةِ, tr:el-meşʾemeti, gloss:sol taraf} bu yüzleri aynı olumsuz alanda toplar; {ar:أَصْحَٰبُ, tr:ashâbu, gloss:eşlik edenler} onlarla geçici değil devamlı bir ilişkiyi, {ar:كَفَرُوا۟, tr:keferû, gloss:inkâr ettiler} ise görünür ihtiyacın bağlayıcı talep hâline gelmesini reddeden örtmeyi anlatır. Böylece ihtiyacı örten topluluğun açlık, kopmuş bakım ve toprak yoksulluğunun sürmesine yardım ettiği bir sosyal görüntü belirir. Son kelimenin kendi hükmünü adlandırması ve bu bağlantıda başkalarının zararında etkenlik taşımaması da canlıdır; bu bağın gücü ihtiyatlıdır. Bu sınır başka okumaları geçersiz kılmaz. Sol taraf sınıflandırması sabit kalır.
+
+{ar:أَصْحَٰبُ, tr:ashâbu, gloss:eşlik edenler} kelimesi burada pratikle oluşan toplulukları karşılaştıran süreğen eşlik alanını görünür kılar. (90:17)'de iki kez geçen {ar:تَوَاصَوْا, tr:tevâsav, gloss:birbirine öğüt verdiler} karşılıklı alışverişi, {ar:ٱلصَّبْرِ, tr:es-sabr, gloss:dayanma} sürekliliği, {ar:ٱلْمَرْحَمَةِ, tr:el-merḥameti, gloss:merhamet} ise ihtiyaç sahibine dönük yumuşak gücü taşır; (90:18)'deki {ar:أَصْحَٰبُ ٱلْمَيْمَنَةِ, tr:ashâbu el-meymeneti, gloss:sağ tarafın arkadaşları} bu pratiğin kurduğu beraberliği gösterir. Odaktaki {ar:كَفَرُوا۟, tr:keferû, gloss:inkâr ettiler} belirli bir bağın dışında kalmayı, {ar:ٱلْمَشْـَٔمَةِ, tr:el-meşʾemeti, gloss:sol taraf} ise bunun karşılığındaki beraberliğin yönünü taşır; aynı {ar:أَصْحَٰبُ, tr:ashâbu, gloss:eşlik edenler} kelimesi iki tarafı ortak bir eşlik yapısında buluşturur. Böylece bir taraf karşılıklı sabır ve merhametle, diğeri ortak bir uzaklaşmayla biçimlenen sosyal oluşumlar olarak okunabilir. Bu sosyal oluşum görüntüsü bu bağlantıyla sınırlıdır: kelimenin iki sabit nüfusun adı olarak okunmasını, taraf adlarının sonradan verilmiş sınıflandırmalar olmasını ve önceki pratiklerin yalnızca üyeleri belirlemesini dışlamaz; ana cümlenin sınıflandırması yerinde kalır.
+
+## Yakınlık ve Kapanma
+
+Örtme eylemine maddi karşılığı (90:20)'deki {ar:نَارٌ, tr:nârun, gloss:ateş} çevreleyen ortam ve {ar:مُّؤْصَدَةٌ, tr:muʾṣade, gloss:sıkıca kapanmış} içeridekilerin üstüne kapanan mühürlü çevre verir. {ar:كَفَرُوا۟, tr:keferû, gloss:inkâr ettiler} düzlemde gerçeği reddetmeyi, {ar:أَصْحَٰبُ, tr:ashâbu, gloss:eşlik edenler} grubun devamlı beraberliğini, {ar:ٱلْمَشْـَٔمَةِ, tr:el-meşʾemeti, gloss:sol taraf} ise bu beraberliğin niteliğini taşır. Bu katkılar temas edince önce durum adı olan sol taraf arkadaşlığı, sonra örtme eylemine cevap veren ateş ve kapanma görüntüsüne dönüşür: örtenler kapanmanın altında kalanlar olur. Bu bağ, (90:20)'deki cümleyi odaktaki örtme hareketine cevap veren bir sonuç gibi duyurur; bu tersine dönüş bu bağlantının bağlamsal karşılığıdır, kapanmanın yalnızca cezayı yoğunlaştırdığı karşı okuma da yerini korur.
+
+Keşifsel tohum görüntüsü, aynı örtmeyi toprağa gömülen bir işaret tohumu olarak açar. {ar:كَفَرُوا۟, tr:keferû, gloss:inkâr ettiler} burada çiftçinin tohumu örten hareketini düşündürür; {ar:َٔايَٰتِنَا, tr:âyâtinâ, gloss:ayetlerimiz} tanınması gereken belirtiyi taşır. (90:13)'teki {ar:فَكُّ, tr:fekku, gloss:bağı çözmek} serbest kalma imkânını, (90:14)'teki {ar:إِطْعَٰمٌ, tr:iṭʿâmun, gloss:besleme} verimli sonucu, (90:16)'daki {ar:مَتْرَبَةٍ, tr:matrabe, gloss:toprak ve toz} ise potansiyelin gömüldüğü zemini kurar. Bu üç ayrıntı birlikte, işaretlerin tanınması, serbest bırakılması ve beslemeye dönüşmesi mümkünken üzeri örtülen tohumlar gibi görünmesini sağlar; inkâr, bu imkânın yüzeye çıkmadan yer altında tutulmasıdır. Bu tarımsal görüntü fiilin biçiminden uzak bir mecaz olarak bu bağlantıda kalır; her işaretin gerçek anlamda tohum olduğunu söylemez ve açık inkâr anlamını da yerinden etmez.
+
+Eşlik görüntüsü, {ar:أَصْحَٰبُ, tr:ashâbu, gloss:eşlik edenler} kelimesinin koruyucu bir refakat yönünü öne çıkarır. {ar:ٱلْمَشْـَٔمَةِ, tr:el-meşʾemeti, gloss:sol taraf} bu refakatin olumsuz yoldaşını, (90:20)'deki {ar:نَارٌ, tr:nârun, gloss:ateş} ve {ar:مُّؤْصَدَةٌ, tr:muʾṣade, gloss:sıkıca kapanmış} ise onu çevreleyen ortamı verir. Önce grup uğursuzluğun mensupları olarak görünür; ardından uğursuzluk, onu yanında tutan ve ateşin içinde muhafaza eden bir refakatçi gibi iş görür. Koruyucu eşlik ile hapsedici kapanma arasındaki değer değişimi bu görüntünün hareketidir. Bu tersine dönüş keşifseldir: dilbilgisi uğursuzluğu açıkça kişileştirmez, koruyucu eşlik de normalde olumlu bir yön taşır. Bu bağlantının yanında düz anlamdaki olumsuz sınıflandırma ve ateş cümlesi birlikte yaşar.
+
+## Görünür Olanın Sınırı
+
+Bu uzamsal bağlantıda {ar:كَفَرُوا۟, tr:keferû, gloss:inkâr ettiler} fiilindeki uzak arazi veya insanlardan kopuk yer yönü, {ar:أَصْحَٰبُ, tr:ashâbu, gloss:eşlik edenler} ile kurulan toplu eşlik ve {ar:ٱلْمَشْـَٔمَةِ, tr:el-meşʾemeti, gloss:sol taraf} ile verilen yönle buluşur. (90:15)'teki yakın ve korunmaya muhtaç ilişki bu uzaklıkla karşılaşınca, yakın olan bir yükümlülük işlevsel olarak uzak ve görünmez gösterilerek cevapsız bırakılmış gibi görünür. Bu uzamsal renk, bu bağlantıda fiili gerçek bir yer adına veya coğrafyaya dönüştürmez; işaret reddinin yanında sorumluluğu erişilmez kılan toplu bir çekilmeyi duyurur.
+
+Görme ve denetim görüntüsü, (90:7)'deki “biri görür mü” varsayımı ile (90:8)'deki göz bağlamının temasından doğabilir. {ar:كَفَرُوا۟, tr:keferû, gloss:inkâr ettiler} görme imkânı verildikten sonra erişilebilir açıklamayı bastıran etkin bir örtme gibi duyulur; {ar:بِـَٔايَٰتِنَا, tr:bi-âyâtinâ, gloss:ayetlerimize} görünen belirti anlamıyla bedensel, vahyedilmiş veya her ikisi olabilecek açıklamaların görünürlük alanını taşır. Bu iki katkı, inkârı yalnızca bilgiye erişememe olmaktan öte, kanıtın kimse tarafından geri kazanılamayacağını varsayan bir görünürlük yönetimi gibi gösterir; {ar:ٱلْمَشْـَٔمَةِ, tr:el-meşʾemeti, gloss:sol taraf} de bu tavrın bağlandığı yönü verir. Aynı göz bağlamı gözetilme ve hesap verebilirlik okumasını canlı tutar: örtülen işaretler yine geri kazanılabilir ve bakışın denetimi altında kalır. Bu görme-denetim bağlantısı, inkâr edenlerin psikolojisini kesinleştirmeden olağan işaret reddini nitelendirir.
+
+Açılıştaki sınırlı alan temasları, sol tarafın bir istasyon veya ayrılmış pay gibi duyulmasına katkı verir. {ar:كَفَرُوا۟, tr:keferû, gloss:inkâr ettiler} dinî gerçeği reddeden davranışı, {ar:أَصْحَٰبُ, tr:ashâbu, gloss:eşlik edenler} sınırları belirlenmiş yerde kalıcı topluluğu, {ar:ٱلْمَشْـَٔمَةِ, tr:el-meşʾemeti, gloss:sol taraf} da o alandaki yönü ve ahlâkî konumu taşır. (90:1)'deki bölüşüm ve sınırlı ortak alan bir payın sınırlarını, (90:2)'deki yasaktan çıkış teması ise o alandan ayrılma baskısını görünür kılar; iki ayrıntı birlikte, bir topluluğun ayrılmış bir yerde ve belirli bir statü içinde durduğu görüntüyü verir. Bu yerleştirme bu mekânsal bağlantı için ihtiyatlıdır: açılıştaki şehir veya alan sahneyi ağırlaştırıyor olabilir; bu bağ, şehrin bütün sakinlerini sınıflandıran bağımsız bir iddia kurmaz. Sol tarafın pay ve istasyon gibi duyulması, davranışın verdiği sınıflandırmayı mekânsal ve hukukî bir biçimde renklendirir.
+
+Yakınlık ve refakat sorusu, nesiller arasındaki bakım tarihi içinde görünür olur. {ar:كَفَرُوا۟, tr:keferû, gloss:inkâr ettiler} bağını reddedip uzaklaşma rengini, {ar:أَصْحَٰبُ, tr:ashâbu, gloss:eşlik edenler} ise sürekli eşlik imkânını taşır. (90:3)'teki ebeveyn-evlat ilişkisi, (90:15)'te bakım vereninden kopmuş ve korunmaya muhtaç yetim, (90:17)'de akrabalıkla birleşen merhamet bu imkânın tarihini görünür kılar. Bu ayrıntılar, eşliğin soy bağından olgunlaşmış bir refakate dönüşebileceğini; dönüşüm kırıldığında ise {ar:ٱلْمَشْـَٔمَةِ, tr:el-meşʾemeti, gloss:sol taraf} ile adlandırılan olumsuz sonucun geride kaldığını düşündürür. Bu aile ve merhamet alanı, bu bağlantıda açık bir aile sözlüğü kurmaz; işaret inkârı ile sol taraf sınıflandırmasının yerini almaz, yalnızca topluluğun oluşumunu kırılmış bir bakım tarihi içinden düşündürür.
+
+İşaretlerin bakım talebine dönük yönü, eldeki kaynakların rahatlatmaya akıp akmadığını soran bir akış görüntüsü kurar. {ar:كَفَرُوا۟, tr:keferû, gloss:inkâr ettiler} nimeti yadsıma rengiyle, {ar:بِـَٔايَٰتِنَا, tr:bi-âyâtinâ, gloss:ayetlerimize} kaynağın ve karşılanmamış ihtiyacın okunabilir belirtileriyle, {ar:ٱلْمَشْـَٔمَةِ, tr:el-meşʾemeti, gloss:sol taraf} ise akış başarısız olduğunda biriken mahrumiyetle buluşur. (90:6)'daki tükenmiş veya üst üste yığılmış servet söylemi kaynağın bu yüzünü, (90:14)'teki açlık içinde besleme ise rahatlatmaya akması gereken yönü görünür kılar. Bu iki ayrıntı, tüketilmiş görünen kaynağın gerçekten kimin yükünü hafiflettiğini sordurur. Bolluk başka birinin gıdasına dönüşmemiş maddî bir tabaka, açlık ise görünür alıcı taraf olarak belirir; işaretler bu iki taraf arasında yol gösterir. Kaynağın başka bir yere harcanmış olma ihtimali bu bağlantıda açık kaldığı için eleştiri zorunlu olarak istiflemeye bağlanmaz; engellenmiş akışla kendine dönük aktarım ihtimali birlikte düşünülür. Yaşanan kötü sonuç ile insanların ürettiği sonuç arasında da bu bağlantı içinde hüküm verilmez.
+
+İşaretlerin bedensel bir tanıma ve karşılık verme düzeni içinde duyulması da mümkündür. {ar:بِـَٔايَٰتِنَا, tr:bi-âyâtinâ, gloss:ayetlerimize} görünen belirti anlamını taşır: (90:8)'deki gözler görme imkânını, (90:9)'daki konuşma organı ve çift dudaklar dile getirme imkânını, (90:10)'daki iki açık yola yönlendirme ise seçme imkânını görünür kılar. Okuyucu bu bağlamda işaretleri görme, dile getirme ve seçme imkânlarının içinden gelen açıklamalar olarak algılar. {ar:كَفَرُوا۟, tr:keferû, gloss:inkâr ettiler} da kendisine verilmiş bu kapasitenin açığa çıkardığı talebe yine o kapasiteyle direnme biçimini düşündürür; cevap soyut bir karar olmaktan çıkıp bedensel ve kamusal bir karşılık kazanır. Bu bedensel bağlantı, işaretlerin kendisinin bedensel imkânlar olduğunu kesinleştirmez; göz, konuşma, dudak ve iki yol, olağan işaret reddini sorumluluk taşıyan bir karşılaşma olarak renklendirir.
+
+Bu görünürlük ve sınır görüntüleri, toplu bir kendini dışlama resmi içinde birleşebilir. (90:1)'deki sınırlı ortak alan başlangıçtaki sınırı, (90:20)'deki dağlar arasındaki kapalı yer son kuşatmayı verir. {ar:كَفَرُوا۟, tr:keferû, gloss:inkâr ettiler} fiilindeki örtme ve uzaklaşma, {ar:أَصْحَٰبُ, tr:ashâbu, gloss:eşlik edenler} ile kurulan topluluk ve {ar:ٱلْمَشْـَٔمَةِ, tr:el-meşʾemeti, gloss:sol taraf} ile verilen istikamet, bu iki sınır görüntüsünü aynı uzamsal cevapta buluşturur. Topluluk kendi örttüğü alandan çekildikçe uzaklığın ve kapanmanın ürettiği yere yerleşmiş gibi görünür; saklı alan sonunda topluluğun üzerine kapanan bir çevriliğe karşılık verir. Bu resmin kapsamı bu uzamsal bağlantıyla sınırlıdır: gerçek bir coğrafya veya fiilin literal yer karşılığı değildir; sınırlı alan içinden dışarı çekilen ve sonunda kapalı bir yerde toplanan topluluğun keşifsel görüntüsünü sunar.
+
+Eklenen Fâtiha bağlamı, {ar:ٱلْمَشْـَٔمَةِ, tr:el-meşʾemeti, gloss:sol taraf} adını istenen dosdoğru yolun yön karşı kutbu olarak duyurabilir. (1:6)'daki {ar:ٱهْدِنَا ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ, tr:ihdinâ es-sırâṭ el-mustakîm, gloss:bizi dosdoğru yola ilet} istenen yolu açıkça kurar; (1:7)'deki {ar:صِرَٰطَ, tr:sırâṭ, gloss:yol} yolun kendisini, {ar:أَنْعَمْتَ, tr:enʿamte, gloss:nimet verdiklerin} bereketli tarafını, {ar:ٱلضَّآلِّينَ, tr:ed-dâllîn, gloss:yolunu kaybedenler} ise kayıp karşıtını gösterir. Bu üç katkı birlikte, sol taraf adını yalnızca sonradan verilmiş olumsuz bir sınıflandırma olmaktan çıkarıp yönelinen dosdoğru yolun karşı kutbu gibi algılatır. Bu son temas, açıkça eklenen yol ayetlerinin sağladığı belirli bir yön karşıtlığıdır; bu bağlantı, 90:19'un ayetleri inkâr edenleri sol tarafın insanları olarak sınıflandıran anlamını korurken başka bir bütün-sûre hükmü kurmaz.
+
+</editorial_prose>

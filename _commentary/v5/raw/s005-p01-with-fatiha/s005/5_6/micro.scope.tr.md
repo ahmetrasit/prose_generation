@@ -1,0 +1,95 @@
+Bu âyet, namaza yönelen müminlere yüzü, dirseklere kadar elleri ve ayakları yıkamayı, başı sıvazlamayı; özel durumlarda bütünüyle temizlenmeyi, su bulunmayınca temiz toprağa yönelip yüzü ve elleri sıvazlamayı emreder ve bütün bu düzenin güçlük değil temizlik, nimet ve şükür amacı taşıdığını bildirir.
+
+{ar:اغْسِلُوا, tr:ighsilū, gloss:yıkayın} emri, suyla yıkama bölümünü açar; yüz ve ellerin doğrudan suyla temizlenmesi sıradan beden yıkamasını değil, burada belirlenen uzuvları kapsar.
+{ar:وُجُوهَكُمْ, tr:wujūhakum, gloss:yüzlerinizi} yüzü, karşıya ve namaza yönelen arayüzü ilk yıkanan yer olarak öne çıkarır; bu, ibadete dönük hazırlığın yönünü korur.
+Ardından gelen {ar:وَ, tr:wa, gloss:ve} yüz ile eli aynı yıkama emrine bağlar; iki işlem ayrı bir ritüel değil, aynı su düzeninin koordineli parçalarıdır.
+{ar:أَيْدِيَكُمْ, tr:aydiyakum, gloss:ellerinizi} elleri, erişme ve kudret araçlarını, belirlenmiş sınıra kadar yıkanan ikinci uzuv olarak gösterir; güç çağrışımı ana anatomik anlamı aşmaz.
+{ar:إِلَى, tr:ilā, gloss:-e kadar} edatı, el yıkamasını dirsekler yönünde bir sona taşır; emir sınırsız bir el temizliği değil, ölçülü bir uzuv alanı kurar.
+{ar:الْمَرَافِقِ, tr:al-marāfiqi, gloss:dirsekler} iki elin dirsekle birleştiği belirli eklemleri sınır taşı yapar; kökteki kolaylık ve destek çağrışımı kalabilir, fakat yerel anlam anatomik uç noktadır.
+İkinci {ar:وَ, tr:wa, gloss:ve} yıkama ile sıvazlamayı yan yana getirirken işlemin kipini değiştirir; ayet suyla yıkamadan elle temas edilen daha hafif bir aşamaya geçer.
+{ar:امْسَحُوا, tr:imsaḥū, gloss:sıvazlayın} emri, başta elin geçirilmesiyle yapılan silme temasını seçer; doğrudan su dökme yerine aracılı ve daha hafif bir temas kurar.
+{ar:بِ, tr:bi, gloss:ile} edatı başın ifadesini yöneterek başın bütünüyle ya da bir bölümüyle temas ihtimalini açık bırakır; kesin hukukî kapsamı zorlamadan temasın aracını belirtir.
+{ar:رُءُوسِكُمْ, tr:ruʾūsikum, gloss:başlarınızı} başları, tepe ve yöneten üst bölgeyi, yıkama değil sıvazlama nesnesi yapar; böylece ritüel hafiflerken başın merkezî yeri korunur.
+
+{ar:يَٰ, tr:yā, gloss:ey} nida edatı, uzun şartlar ve emirler başlamadan önce muhatapları doğrudan çağırır; hüküm soyut bir kullanım kuralı değil, topluluğa yöneltilmiş hitap olur.
+Ayaklar bölümündeki {ar:وَ, tr:wa, gloss:ve} bağlacı, başı sıvazlama ile ayaklar hakkındaki emri aynı dizide tutar; ayetin işlemsel bütünlüğünü korurken ekleme noktasını açık bırakır.
+{ar:أَرْجُلَكُمْ, tr:arjulakum, gloss:ayaklarınızı} ayakları, yürüme ve yere basma araçları olarak anılan uzuvlar haline getirir; okuma ve hareke farkı yıkama-sıvazlama ihtimalini taşır, hükmü tek başına sonraki hukukî tercihe indirgemez.
+{ar:إِلَى, tr:ilā, gloss:-e kadar} edatı, ayak işlemini de belirli bir bitişe bağlar; bedenin tamamına yayılan belirsiz bir temizlik değil, ölçülü bir uzuv talimatı vardır.
+{ar:الْكَعْبَيْنِ, tr:al-kaʿbayni, gloss:iki topuk} ikili biçimiyle iki ayak bileğini ayrı ayrı tanınan sınır noktaları yapar; bu ayrıntı ritüelin anatomik sınırını kesinleştirir.
+Yeni {ar:وَ, tr:wa, gloss:ve} bağlacı, ilk yıkama-sıvazlama dizisinden istisnaî hallere döner; ayet şimdi olağan hazırlığın dışındaki durumları aynı hitap içinde açar.
+{ar:إِنْ, tr:in, gloss:eğer} şart edatı, alışılmış hazırlığı istisnaî bir duruma bağlar; düzenli uygulama ile koşula bağlı tam temizlenmeyi birbirinden ayırır.
+{ar:كُنْتُمْ, tr:kuntum, gloss:olduysanız} bir kimlik tanımı değil, içinde bulunulan hali kurar; muhatapların geçici bir durumunun sonraki emri doğurduğunu gösterir.
+{ar:جُنُبَاً, tr:junuban, gloss:cünüp halde} büyük ritüel uzaklığı bir durum adı olarak öne çıkarır; yan ve uzaklık çağrışımı korunur, fakat yerel anlam ahlâkî kir değil, büyük hades halidir.
+{ar:فَ, tr:fa, gloss:öyleyse} sonuç bağlacı, belirtilen halden zorunlu karşılığa geçer; şart yalnızca tasvir edilmez, uygulanacak temizlenme adımını doğurur.
+{ar:اطَّهَّرُوا, tr:iṭṭahharū, gloss:bütünüyle temizlenin} emri, kapsamlı ve kişinin kendisine yönelen bir arınma ister; bu, uzuvların yıkanmasından daha geniş bir ritüel yeniden merkezlenmedir.
+
+{ar:أَيُّهَا, tr:ayyuhā, gloss:ey siz} hitap kalıbı, yoğun şartlar ve emirler zinciri öncesinde topluluğun dikkatini sabitler; muhataplar uzun düzenlemenin içinde belirlenmiş bir cemaat olarak tutulur.
+İkinci istisna zincirini açan {ar:وَ, tr:wa, gloss:ve} bağlacı, hastalık, yolculuk ve olayları yeni bir ruhsat bloğunda birleştirir; önceki büyük hades hükmünden sonra başka bir şart kümesi kurar.
+Bu kümenin başındaki {ar:إِنْ, tr:in, gloss:eğer} aynı şart mantığını uzatır; farklı sebeplerin cevabı hemen değil, su bulunmayınca toprağa yönelme hükmünde birlikte görünür.
+Tekrar edilen {ar:كُنْتُمْ, tr:kuntum, gloss:olduysanız} fiili, hastalığı da geçici bir varoluş hali olarak çerçeveler; hastalık kişinin özü değil, temizlenme aracını değiştiren koşuldur.
+{ar:مَرْضَى, tr:marḍā, gloss:hasta} hastalık halini ruhsat listesinin başına koyar; bedensel yetersizlik önce gelir, kalbe ilişkin geniş çağrışımlar ise bu yerel bedensel sınırı aşmaz.
+{ar:أَوْ, tr:aw, gloss:veya} edatı hastalık ile yolculuğu birbirinden bağımsız seçenekler yapar; iki şartın aynı anda toplanması gerekmeden her biri su yokluğu hükmüne ulaşabilir.
+{ar:عَلَى, tr:ʿalā, gloss:üzerinde} edatı yolcuyu bir yolculuk hali üzerinde gösterir; seyahat yalnızca bir yer adı değil, ritüel araçları değiştiren çevresel şarttır.
+{ar:سَفَرٍ, tr:safarin, gloss:yolculuk} sözcüğü yer değiştirme ve dışarıda kalma niteliğini taşır; ayette bu geniş açıklık imgesi, erişim ve kaynakları değiştiren yolculuk ruhsatına daralır.
+Bir sonraki {ar:أَوْ, tr:aw, gloss:veya} bağlacı hastalık ve yolculuktan olay temelli tetikleyicilere geçer; dil, bedensel veya çevresel yetersizlikten temizliği bozan olaya döner.
+{ar:جَاءَ, tr:jāʾa, gloss:geldi} üçüncü tekil biçimiyle ikinci tekil muhataplara yöneltilmiş cümle içinde yer alır; anatomik bir söyleyiş yerine bir yerden dönmeyi anlatan mahrem bir hareket seçer.
+{ar:أَحَدٌ, tr:aḥadun, gloss:bir kimse} topluluk içinden tek bir kişiyi öne çıkarır; ortak hüküm, cemaatteki herhangi bir ferdin yaşadığı olayla işletilebilir.
+
+{ar:الَّذِينَ, tr:alladhīna, gloss:o kimseler ki} ilgi zamiri muhatapları imanla tanımlanan bir topluluk olarak sınırlar; hükmün adresi belirsiz bir kalabalık değil, bağlılık taşıyan cemaat olur.
+{ar:مِنْكُمْ, tr:minkum, gloss:sizden} parçasallık edatı tek kişinin olayını çoğul topluluğun içine yerleştirir; bireysel durum, ortak hitabın dışında değil onun içinde işler.
+{ar:مِنَ, tr:mina, gloss:-den} edatı, mahrem olayın kaynağını doğrudan beden dili yerine bir yerden dönüş olarak kurar; mekânsal dolaylılık ifadenin nezaketini taşır.
+{ar:الْغَائِطِ, tr:al-ghāʾiṭi, gloss:alçak yer} topografik bir sözcüğü temizlenme bağlamında yerleşmiş mahrem bir örtmeceye dönüştürür; hukukî tetikleyici, açık ama ölçülü bir mekân diliyle belirtilir.
+Son olay seçeneğindeki {ar:أَوْ, tr:aw, gloss:veya} bağlacı, mahrem dönüş ile teması aynı su bulunamama cevabına paralel bağlar; olayların her biri ikame hükmüne ayrı giriş olur.
+{ar:لَامَسْتُمُ, tr:lāmastumu, gloss:temas ettiniz} karşılıklı temas bildiren fiiliyle kapsam meselesini açar; biçim ve kullanım alanı basit dokunuştan karşılıklı mahrem temasa kadar bir aralık taşır, ayet burada fıkhî sonucu tek başına zorlamaz.
+{ar:النِّسَاءَ, tr:al-nisāʾa, gloss:kadınlar} belirli bir sınıfı doğrudan nesne yapar; kapsamın genişliği kadınlar sözcüğünden çok temas fiilinin nasıl anlaşılacağına bağlı kalır.
+{ar:فَ, tr:fa, gloss:öyleyse} bağlacı sayılan tetikleyicilerden su bulunamaması şartına çevirir; ikame temizliği olayların kendisi değil, sonraki gerçek yokluk açar.
+{ar:لَمْ, tr:lam, gloss:bulamadıysanız} olumsuzluk edatı suya erişimin fiilen gerçekleşmediğini bildirir; toprağa yönelme tercihe veya rahatlık arzusuna değil, bulunamama eşiğine bağlanır.
+{ar:تَجِدُوا, tr:tajidū, gloss:bulursanız} bulma fiilinin olumsuz ve cezmedilmiş biçimi, kökün yenilenme çağrışımını değil suyu arayıp bulamama sonucunu öne çıkarır; hukukî dönüm noktası erişilebilirliktir.
+{ar:مَاءً, tr:māʾan, gloss:su} olağan arındırıcı ortamı açıkça adlandırır; suyun yokluğu, yıkama ve sıvazlamanın yerine temiz toprakla yapılan sınırlı ikameyi mümkün kılar.
+
+{ar:ءَامَنُوا, tr:āmanū, gloss:iman ettiler} fiili, muhatapları yalnızca ritüel uygulayanlar değil, güven ve bağlılıkla tanımlanan bir topluluk olarak belirler; yükümlülük bu emanet edilmiş kimlik içinde okunur.
+{ar:فَ, tr:fa, gloss:öyleyse} burada su yokluğunun sonucunu başlatır; neden sayıldıktan sonra temizlenme aracı hakkında gecikmeden uygulanabilir bir karşılık verir.
+{ar:تَيَمَّمُوا, tr:tayammamū, gloss:yönelin} emri, uygun bir temizlenme aracını bilinçle amaçlamayı ister; rastgele toprağa dokunmak değil, belirlenmiş bir ortama yönelmek söz konusudur.
+{ar:صَعِيدًا, tr:ṣaʿīdan, gloss:yeryüzünün üstü} sözcüğü belirsiz bir toz kütlesi değil, açıkta bulunan üst zemin yüzeyini seçer; ikamenin maddesi erişilebilir ve somut bir yüzeydir.
+{ar:طَيِّبًا, tr:ṭayyiban, gloss:iyi ve temiz} nitelemesi, her zemini kabul etmek yerine temiz ve elverişli olanı filtreler; toprağın ritüel uygunluğu kalitesine bağlanır.
+İkinci {ar:فَ, tr:fa, gloss:öyleyse} seçilen zeminden tanımlı işleme geçirir; niyet ve malzeme belirlendikten sonra sembolik bir ima değil, yapılacak beden temasını bildirir.
+{ar:فَامْسَحُوا, tr:fa-imsaḥū, gloss:öyleyse sıvazlayın} emri, suyla yıkamanın yerine daha hafif bir temas koyar ve temizlenen beden alanını daraltır; ikame, olağan rite ait hareketi aynen çoğaltmaz.
+{ar:بِهِ, tr:bihi, gloss:onunla} ifadesi toprağı aracılı temasın vasıtası yapar; yüz ve ellere doğrudan su vermek yerine seçilen zeminden gelen bir temas kurulur.
+İkame işleminde {ar:وُجُوهِكُمْ, tr:wujūhikum, gloss:yüzlerinizi} yüz yine yöneliş ve karşılaşma arayüzü olarak kalır; su azalınca bile namaza dönük merkez korunur.
+{ar:وَأَيْدِيكُمْ, tr:wa-aydīkum, gloss:ve ellerinizi} elleri yüzle birlikte ikame temizliğinin ikinci alanı yapar; erişme ve eyleme gücü korunur, fakat önceki dirsek sınırı burada açıkça yinelenmez.
+İkinci kez geçen {ar:أَيْدِيكُمْ, tr:aydīkum, gloss:ellerinizi} ifadesi aynı el ve kudret alanını gösterir; bu tekrar, ikame ritüelinin kapsamını önceki yıkama sınırından bağımsız olarak yeniden ölçer.
+
+{ar:قُمْتُمْ, tr:qumtum, gloss:kalktığınızda} fiili, namaza yönelmek üzere ayağa kalkma halini düzenli hazırlığın eşiği yapar; temizlik, tek seferlik değil yönelme anında tekrarlanan bir geçiştir.
+{ar:مِنْهُ, tr:minhu, gloss:ondan} edatı temiz zemini yalnızca arka plan değil, elin ve yüzün temasına katkı veren kaynak ortam olarak kurar; ikame maddesi ritüel içinde etkinleşir.
+{ar:مَا, tr:mā, gloss:ne} olumsuz açıklamayı başlatır; ayet işlemi bitirmek yerine Allah’ın bu düzenle neyi amaçlamadığını da açıklar.
+{ar:يُرِيدُ, tr:yurīdu, gloss:ister} fiili, yükün rastlantısal değil kasıtlı bir düzen içinde ele alındığını gösterir; ilahî niyet sonraki karşıtlıkların ölçüsüdür.
+{ar:اللَّهُ, tr:Allāh, gloss:Allah} bu niyetin açık öznesidir; gerekçe, insanların kolaylık varsayımından değil, Allah’ın kendi irade beyanından doğar.
+{ar:لِ, tr:li, gloss:-mek için} amaç edatı, sonraki yapmayı ilahî hedef olarak sunar; güçlük yalnızca eksik bırakılmış bir sonuç değil, amaçlanmayan bir yöndür.
+{ar:يَجْعَلَ, tr:yajʿala, gloss:kılmak ve yüklemek} fiili güçlüğü kurulup yerleştirilen bir yük gibi tasarlar; ayet, bu yükün müminler için ilahî amaç olmadığını böylece belirginleştirir.
+{ar:عَلَيْكُمْ, tr:ʿalaykum, gloss:üzerinize} ifadesi olası baskının yöneldiği muhatabı açıklar; ardından gelen olumsuzluk, yükün kimin üzerine konmasının reddedildiğini gösterir.
+{ar:مِنْ, tr:min, gloss:-den bile} edatı az miktarı dahi dışarıda bırakmayan bir olumsuzluk kurar; güçlüğün yalnızca tamamı değil, ondan bir pay veya iz de reddedilir.
+{ar:حَرَجٍ, tr:ḥarajin, gloss:darlık ve sıkıntı} sözcüğü güçlüğü daralmış, geçişi tıkanmış bir yol imgesiyle duyurur; yerel bağlamda ritüelin müminleri böyle bir sıkışmaya sokmadığı söylenir.
+{ar:وَلَٰكِنْ, tr:wa-lākin, gloss:fakat} bağlacı olumsuzlanan amacı olumlu amaca çevirir; ayet, sıkıntının reddinden Allah’ın neyi istediğine doğru yön değiştirir.
+
+İkinci {ar:قُمْتُمْ, tr:qumtum, gloss:kalktığınızda} yine namaza doğru yönelişi bildirir; bu tekrar, temizliğin hedefe dönük ve düzenli bir hazırlık olduğunu pekiştirir.
+{ar:لَكِنْ, tr:lākin, gloss:fakat} sözcüğü karşıtlığı daraltıp düzeltir; mesele yük bindirmek değil, arınma ve ihsanın birlikte kurulmasıdır.
+Tekrar gelen {ar:يُرِيدُ, tr:yurīdu, gloss:ister} fiili, olumsuz amaçtan olumlu ilahî maksada geçişin merkezinde durur; aynı irade şimdi yapıcı bir hedef açıklar.
+{ar:لِ, tr:li, gloss:-mek için} amaç edatı, arındırmayı sonuçtan önce belirlenmiş bir ilahî gaye olarak bağlar; işlem yalnızca teknik bir prosedür değildir.
+{ar:يُطَهِّرَكُمْ, tr:yuṭahhirakum, gloss:sizi temizlemek} ikinci kalıp fiili, Allah’ı arındıran özne, müminleri de bu eylemin nesnesi yapar; insanın yıkaması ve sıvazlaması ilahî temizlemenin araçları olarak okunur.
+Birleşen {ar:وَ, tr:wa, gloss:ve} bağlacı arınmayı nimet tamamlanmasıyla eşler; olumlu maksat tek başına temizlikte kapanmaz.
+İkinci amaç yapısındaki {ar:لِ, tr:li, gloss:-mek için} edatı, nimetin tamamlanmasını da aynı iradenin hedefi yapar; ayetin gerekçesi iki yönlüdür.
+{ar:يُتِمَّ, tr:yutimma, gloss:tamamlamak} fiili nimetin eksik bir pay değil, bütünlüğe ulaştırılan bir ihsan olarak tasarlandığını gösterir; ritüel düzen tamamlayıcı bir hareket kazanır.
+{ar:نِعْمَتَهُ, tr:niʿmatahu, gloss:onun nimeti} temizlenme yükümlülüğünü fayda, yumuşaklık ve ihsan diliyle yeniden çerçeveler; emir, ilahî nimetin üzerinizde tamamlanmasıyla birlikte okunur.
+{ar:عَلَيْكُمْ, tr:ʿalaykum, gloss:üzerinize} daha önce reddedilen baskı yönünü bu kez alınan nimet yönüne çevirir; aynı muhatap konumu sıkıntıdan ihsana taşınır.
+{ar:لَعَلَّكُمْ, tr:laʿallakum, gloss:umulur ki} edatı şükrü zorla üretilen bir sonuç değil, nimet fark edildiğinde doğması umulan karşılık olarak bırakır.
+
+{ar:إِلَى, tr:ilā, gloss:-e doğru} edatı, bütün hazırlık zincirinin yöneldiği hedefi belirtir; temizlenme, kendi başına kapanan bir işlem değil, namaza doğru hareketin parçasıdır.
+{ar:تَشْكُرُونَ, tr:tashkurūn, gloss:şükredersiniz} fiili, nimeti ve sağlanan imkânı toplulukça tanıyıp sürdürmeye çağırır; şükür, düzenin zorunlu baskısı değil, fark edilmiş faydaya verilen cevaptır.
+{ar:الصَّلَوٰةِ, tr:aṣ-ṣalāti, gloss:namaz} belirli ibadet hedefini açıkça adlandırır; yıkama, sıvazlama ve ikame temizliği bilinen bu yönelişin hizmetindeki hazırlıklar olur.
+Son {ar:فَ, tr:fa, gloss:öyleyse} bağlacı namaza yönelme şartını doğrudan yıkama emrine bağlar; ayetin başındaki olağan suyla temizlenme, hedefe girişin gerekli karşılığı olarak yeniden duyulur.
+
+Yerel bir bağlantı olarak, {ar:قُمْتُمْ, tr:qumtum, gloss:kalktığınızda ve yöneldiğinizde} fiili yalnızca fiziksel kalkmayı değil, namaza doğru bilinçli bir geçişi de sezdirir; namazın hedef oluşu ile ardından gelen {ar:اغْسِلُوا, tr:ighsilū, gloss:yıkayın} ve {ar:امْسَحُوا, tr:imsaḥū, gloss:sıvazlayın} emirleri bu geçişi bedensel temasla buluşturur, böylece kalkıştan sınırlı bir arınmaya uzanan bir hareket okunabilir, fakat bu çağrışım ayetin açık uzuv yıkama ve sıvazlama talimatının yerine geçmez.
+Bir başka yerel sentez, suyun olağan arındırıcı ortam oluşunu su bulunmadığında temiz toprağa geçişle sınar: {ar:تَيَمَّمُوا, tr:tayammamū, gloss:yönelin} bilinçli yöneliş, {ar:صَعِيدًا, tr:ṣaʿīdan, gloss:üst zemin} seçilmiş yüzey, {ar:طَيِّبًا, tr:ṭayyiban, gloss:temiz ve iyi} nitelik, {ar:فَامْسَحُوا, tr:fa-imsaḥū, gloss:sıvazlayın} hafif temas ve {ar:بِهِ, tr:bihi, gloss:onunla} aracılı temas, {ar:وُجُوهِكُمْ, tr:wujūhikum, gloss:yüzlerinizi} ile {ar:أَيْدِيكُمْ, tr:aydīkum, gloss:ellerinizi} korunan fakat daralan bir ikame ritüeline bağlanır; suyla yıkama olağan okumayı korur ve suyun yokluğu her toprağı ya da rastgele dokunuşu değil, nitelikli ve kural içindeki karşılığı açar.
+Kapanışta {ar:يُرِيدُ, tr:yurīdu, gloss:ister} fiilinin önce {ar:حَرَجٍ, tr:ḥarajin, gloss:darlık} ile reddedilen amacı, sonra {ar:يُطَهِّرَكُمْ, tr:yuṭahhirakum, gloss:sizi temizlemek} ve {ar:يُتِمَّ, tr:yutimma, gloss:tamamlamak} ile kurulan amacı taşıması, hükmün iç ölçüsünü darlık değil arınma ve tamamlanma olarak düşündürür; bu, ayetin irade karşıtlığından çıkan yerel bir okumadır ve kolaylık ilkesini metnin açık sınırlarının ötesine taşımaz.
+Uzuv dizisi, {ar:وُجُوهِكُمْ, tr:wujūhikum, gloss:yüzleriniz} ile yönelişi, {ar:أَيْدِيَكُمْ, tr:aydiyakum, gloss:elleriniz} ile eyleme gücünü, {ar:رُءُوسِكُمْ, tr:ruʾūsikum, gloss:başlarınız} ile üst ve yöneten bölgeyi, {ar:أَرْجُلَكُمْ, tr:arjulakum, gloss:ayaklarınız} ile yürüyüşü birlikte düşündüren keşfedici bir harita da kurabilir; yıkama ve sıvazlama bu haritada bedeni yeniden ayarlayan temaslar gibi görünür, ancak bu imge anatomik uzuvları ve ayetin hukukî sınırlarını ortadan kaldırmaz.
+Keşif niteliğinde ve diğer bağlantılardan daha ihtiyatlı bir ihtimal olarak, {ar:تَشْكُرُونَ, tr:tashkurūn, gloss:şükredersiniz} fiilinin az araçla alınan belirgin faydayı fark etme yönü, su yokluğunda {ar:صَعِيدًا طَيِّبًا, tr:ṣaʿīdan ṭayyiban, gloss:temiz ve iyi zemin} seçilip {ar:بِهِ, tr:bihi, gloss:onunla} yüz ve ellere temas edilmesinde yankılanabilir; {ar:نِعْمَتَهُ, tr:niʿmatahu, gloss:onun nimeti} bu yankıyı tamamlar ve sınırlı bir aracın etkili bir temizlenme imkânına dönüşmesini düşündürür, fakat bu yalnızca benzetme düzeyinde bir keşiftir, suyun olağan yerini küçültmez ve maddî temizliğin açık hükmünü değiştirmez.
