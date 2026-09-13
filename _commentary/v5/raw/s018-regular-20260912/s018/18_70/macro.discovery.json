@@ -1,0 +1,1057 @@
+{
+  "schema_version": "commentary-v5-scope-discovery-v1",
+  "ayah_ref": "18:70",
+  "lane": "macro",
+  "coverage_complete": true,
+  "candidate_decisions": [
+    {
+      "candidate_id": "cand_e053cd7f0e8d3ec60e4b",
+      "decision": "accept",
+      "reason": "18:63'te anmanın unutulması ve 18:64'te izlere dönülmesi, odaktaki gecikmiş ذِكْرًا için bağımsız temas ve olayın izleri üzerinden geri kazanım mekanizması sağlar. Odak dalı root_000516/B003, diğer üç dal ise supplied HFT trace olarak korunmuştur; legacy_unbound niteliği kabulü değil epistemik vasfı sınırlar.",
+      "finding_refs": [
+        "macro:recovered-trace"
+      ],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_77472df4092a0134e947",
+      "decision": "accept",
+      "reason": "18:66'da öğrenmek için ardından gitme isteği, 18:67-68'de sabır ve kuşatıcı bilgi eksikliğiyle temas eder. Bu temas, 18:70'teki izlemeyi geçici epistemik özdenetim ve öğretmenin açıklamasını bekleme düzenine dönüştürür.",
+      "finding_refs": [
+        "macro:temporary-epistemic-restraint"
+      ],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_f0d0d7a77afa8ea4f84f",
+      "decision": "accept",
+      "reason": "18:71'deki yarma ve 18:74'teki öldürme, odaktaki belirsiz شيءٍ nesnesini somut ve ahlaki baskı taşıyan olaylarla doldurur; aynı olaylarda soruların tekrarlanması yasağın gündelik meraktan daha zor bir sınırı yönettiğini gösterir.",
+      "finding_refs": [
+        "macro:moral-pressure-on-the-thing"
+      ],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_a36b771b5c7d0ce83fed",
+      "decision": "accept",
+      "reason": "18:76'da yeni soru arkadaşlığın sona ermesine, 18:78'de ayrılık açıklama ve te'vil haberinin başlamasına bağlanır. Böylece 18:70'teki حَتَّىٰ sınırı, eşlik süresini açıklama başlayana kadar tutan ayrı bir perikope düzeni olarak gerçekleşir.",
+      "finding_refs": [
+        "macro:disclosure-at-separation"
+      ],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_b5c6a8e1ca0af5a3e276",
+      "decision": "accept",
+      "reason": "18:79, 18:81 ve 18:82'de görünen zarar, kayıp ve duvarın korunması daha sonra ortaya çıkan tehdit, ikame ve saklı hazineyle yeniden sınıflandırılır. Odaktaki أُحْدِثَ bu maddi ve zamansal yeniden açıklamayı taşıyacak görünür kılma ilişkisine sahiptir.",
+      "finding_refs": [
+        "macro:counterfactual-redescription"
+      ],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_b63a12ab66c1075f860b",
+      "decision": "accept",
+      "reason": "Odaktaki سَأَلْ ve مِنْهُ ile 18:82'deki saklı hazineyi çıkarma ilişkisi, soruyu anlamı vaktinden önce çekip çıkarma; açıklamayı ise rehberin zamanı geldiğinde görünür kılması olarak sınırlı bir analojiye bağlar. HFT kaydı bu okumayı exploratory ve split-root olarak açıkça nitelediği için branch gloss/facet sınırı aşılmadan korunmuştur.",
+      "finding_refs": [
+        "macro:authorized-extraction"
+      ],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    }
+  ],
+  "findings": [
+    {
+      "finding_ref": "macro:recovered-trace",
+      "origin_candidate_id": "cand_e053cd7f0e8d3ec60e4b",
+      "represented_candidate_ids": [],
+      "title": "Anlamın izler üzerinden geri kazanılması",
+      "claim": "18:70'te ertelenen anma, 18:63'teki unutma ve 18:64'teki izlere dönüşle birlikte, açıklamanın olayın izlerini sırayla koruyup daha sonra geri kazanması olarak okunabilir.",
+      "mechanism": "Odaktaki ذِكْرًا öğretmenin ileride başlatacağı açıklamayı taşır; önceki unutma ve izleri izleyerek geri dönme, bu açıklamayı olaydan kopuk bir bilgi aktarımı olmaktan çıkarıp iz sürerek toparlanan bir anlam hareketine bağlar.",
+      "reader_payoff": "Okur, beklenen açıklamanın yalnızca sonradan söylenecek bir cümle değil, unutulmuş veya ilk bakışta tutulamamış bir olayın izleri üzerinden yeniden kurulacak bir hesap olduğunu görür.",
+      "containment": "Bu ilişki, âyetin sıradan 'ben sana ondan söz açacağım' anlamını taşır ve onu değiştirmez. Her anmanın zorunlu olarak iz araştırması olduğunu ya da bu yerel düzenin sûre çapında bir sistem olduğunu ileri sürmez.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": [
+          "legacy_unbound"
+        ],
+        "reason": "HFT kaydı 18:63-64 ile odak arasında açık temas ve orta düzey bir değişmiş okuma sağlar; ancak kayıt legacy_unbound'dur ve unresolved dallar bağımsız sözlük facet'i olmadan attributed olarak korunur."
+      },
+      "support_ids": [
+        "sup_841119fcbaeb0862a291"
+      ],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000516/B003",
+          "facet_id": "F002",
+          "branch_gloss": "akılda tutma ve yeniden hatırlama",
+          "facet_statement": "Unutulmuş veya gözden uzaklaşmış bir bilgiyi yeniden bilince getirme eylemidir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "18:70:12:1"
+          ],
+          "trigger_refs": [
+            "18:63:8",
+            "18:63:11",
+            "18:63:15"
+          ],
+          "focus_return_refs": [
+            "18:70:12:1"
+          ],
+          "carrier": "Odaktaki ذِكْرًا, öğretmenin ileride öğrenciye yönelteceği anma ve açıklamayı taşır.",
+          "independent_trigger": "18:63:8 ve 18:63:11'de unutma, 18:63:15'te yeniden anma eylemi açıkça görünür.",
+          "activation": "Unutulmuş bir şeyin yeniden anılması, odaktaki ذِكْرًا ile doğrudan temas ederek ertelenen açıklamayı geri çağırma hareketi haline getirir.",
+          "resulting_reading": "Bekletilen açıklama, unutulmuş olayın yeniden bilince getirilmesi ve anlamının geri kazanılması olarak belirir.",
+          "boundary": "Bu facet zihinsel geri çağırma ilişkisini taşır; tek başına sözün sesli söylenmesini veya kamusal duyuruyu iddia etmez."
+        },
+        {
+          "branch_ref": "root_001501/B001",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "18:63:8",
+            "18:63:11"
+          ],
+          "trigger_refs": [
+            "18:70:12:1"
+          ],
+          "focus_return_refs": [
+            "18:70:12:1"
+          ],
+          "carrier": "18:63'teki unutma ve hatırlayamama, olayın ilk anda zihinde tutulamamasını taşır.",
+          "independent_trigger": "Odaktaki ذِكْرًا, anlamın daha sonra rehber tarafından başlatılacağını bildirir.",
+          "activation": "Unutma ile daha sonra başlatılacak anma karşı karşıya geldiğinde, odaktaki gecikme ilk algının eksikliğini taşıyan bir bekleme haline gelir.",
+          "resulting_reading": "Açıklama, kaybolmuş bir anlamı hazır kabul etmekten çok, unutmanın ardından yeniden kurulacak bir anlamı bekletir.",
+          "boundary": "Bu attributed HFT temasında unutmanın ötesinde belirli bir psikolojik mekanizma veya bağımsız lexicon facet'i kurulmaz."
+        },
+        {
+          "branch_ref": "root_000011/B003",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "18:64:8"
+          ],
+          "trigger_refs": [
+            "18:64:9",
+            "18:70:12:1"
+          ],
+          "focus_return_refs": [
+            "18:70:12:1"
+          ],
+          "carrier": "18:64'teki geride kalan iz, meydana gelmiş olayın hâlâ okunabilir işaretini taşır.",
+          "independent_trigger": "Aynı âyette izlerin ardından geri dönme ve odakta vaat edilen anma, işareti açıklamaya bağlayan iki ayrı temastır.",
+          "activation": "Kalıcı işaret ile daha sonra üretilecek anma birleştiğinde, açıklama olayın geride bıraktığı kanıt üzerinden geri çağrılabilir hale gelir.",
+          "resulting_reading": "Odaktaki söz, iz bırakmış bir olayın daha sonra görünür ve anlaşılır kılınmasını bekleyen bir hesap olarak derinleşir.",
+          "boundary": "İz, burada attributed bağlam kanıtıdır; odak sözcüğünün bağımsız sözlük anlamı olarak iz kelimesi ileri sürülmez."
+        },
+        {
+          "branch_ref": "root_001232/B001",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "18:64:9"
+          ],
+          "trigger_refs": [
+            "18:64:8",
+            "18:70:12:1"
+          ],
+          "focus_return_refs": [
+            "18:70:12:1"
+          ],
+          "carrier": "18:64'te izlerin ardına dönerek ilerleme, bilgiyi tek sıçramada değil ardışık işaretlerle aramayı taşır.",
+          "independent_trigger": "İz refi ile odaktaki ilerideki anma birlikte, takip eylemini açıklamanın hazırlığına bağlar.",
+          "activation": "Ardışık iz sürme, ذِكْرًا'nın vaat ettiği açıklama ile temas ederek gecikmiş anlamın adım adım toparlanacağı bir sıra kurar.",
+          "resulting_reading": "Anlamın ortaya çıkışı, soruyla hemen çekilen bir cevap değil, olayın işaretlerini izleyerek tamamlanan bir geri dönüş olur.",
+          "boundary": "Bu, 18:64'ün attributed iz sürme ilişkisini odakla buluşturur; her türlü araştırma veya anlatı biçimini kapsayan genel bir kural değildir."
+        }
+      ],
+      "connection_refs": [
+        "conn_c724240404a9d75103aa",
+        "conn_ac55e46570c2347534ef",
+        "conn_8f01f0274ce59aefce2b",
+        "conn_6c470692d99f1aab255f"
+      ],
+      "context_refs": [
+        "18:61",
+        "18:62",
+        "18:63",
+        "18:64"
+      ],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "macro:temporary-epistemic-restraint",
+      "origin_candidate_id": "cand_77472df4092a0134e947",
+      "represented_candidate_ids": [],
+      "title": "Öğrenme için geçici epistemik özdenetim",
+      "claim": "18:70'te rehberi izlemek, 18:66-68 bağlamıyla birlikte, bütün iç yüz bilinmezken soruyu erteleyip rehberin açıklamasını bekleyen geçici bir öğrenme disiplini kurar.",
+      "mechanism": "Odaktaki ٱتَّبَعْتَنِي, 18:66'daki öğrenme amacı ve 18:68'deki kuşatıcı bilgi eksikliğiyle temas eder; bu temas, takip etmeyi yalnızca fiziksel eşlik değil, bilgi asimetrisi sürerken müdahaleyi tutan bir yöntem haline getirir.",
+      "reader_payoff": "Okur, soru sormama şartını kör itaate indirgemeden, öğrencinin henüz bütünü kavramadığı bir olayda gözlem ve açıklama için alan açan süreli bir düzen olarak görür.",
+      "containment": "Bu okuma, odaktaki takip ve soru yasağını korur; rehberin her hükmünün sorgulanamaz olduğunu, öğrencinin ahlaki değerlendirme yapamayacağını veya sabrın sonsuz olduğunu söylemez.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": [
+          "legacy_unbound"
+        ],
+        "reason": "18:66-68 bağlantıları ve HFT activation trace mekanizmayı açıkça kurar; ancak HFT okuyucu kaydı legacy_unbound olduğu için sonuç qualified olarak tutulur."
+      },
+      "support_ids": [
+        "sup_da1af1b7646cdb468d97"
+      ],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000175/B001",
+          "facet_id": "F001",
+          "branch_gloss": "ardından gitmek ve yolunu benimsemek",
+          "facet_statement": "Bir kişiyle birlikte ya da onun arkasında ilerleyerek ardından gitmek.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "18:70:3:1"
+          ],
+          "trigger_refs": [
+            "18:66:5"
+          ],
+          "focus_return_refs": [
+            "18:70:3:1"
+          ],
+          "carrier": "Odaktaki ٱتَّبَعْتَنِي, muhatabın ardından gitme ve onunla birlikte ilerleme ilişkisini taşır.",
+          "independent_trigger": "18:66:5'te Musa, öğretmeni izleyip onunla birlikte öğrenme yoluna girmeyi ister.",
+          "activation": "Fiziksel eşlik anlamı, öğrenme talebiyle temas ederek takip etmeyi belirli bir öğretmenin yanında yürütülen bir yolculuk haline getirir.",
+          "resulting_reading": "Odaktaki şart, önce rehberle birlikte kalmayı, sonra görülen şeyin açıklamasını beklemeyi gerektiren somut bir eşlik düzeni kurar.",
+          "boundary": "Bu facet takip ilişkisinin bedensel yönünü taşır; dirençten sonra boyun eğme veya adım adım araştırma anlamlarını eklemez."
+        },
+        {
+          "branch_ref": "root_000175/B001",
+          "facet_id": "F002",
+          "branch_gloss": "ardından gitmek ve yolunu benimsemek",
+          "facet_statement": "Bir iz, örnek, buyruk veya öğreti doğrultusunda davranmak ve ona uymak.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "18:70:3:1"
+          ],
+          "trigger_refs": [
+            "18:66:5",
+            "18:66:8",
+            "18:66:10"
+          ],
+          "focus_return_refs": [
+            "18:70:3:1",
+            "18:70:5:1"
+          ],
+          "carrier": "Odaktaki ٱتَّبَعْتَنِي, rehberin yolunu ve öğretme düzenini benimseyerek onun yönlendirmesine uymayı taşır.",
+          "independent_trigger": "18:66:8 ve 18:66:10'da takip etme isteğinin amacı açıkça öğretme ve öğrenmedir.",
+          "activation": "Öğretme amacı, takip etme fiilini sıradan beraberlikten çıkarıp öğretmenin yolu ve açıklama sırasına uyma ilişkisine bağlar.",
+          "resulting_reading": "Soru yasağı, öğrencinin kendi hükmünü hemen kapatmak yerine rehberin öğretim sırasını izlediği geçici bir uyum biçimi olur.",
+          "boundary": "Bu facet eğitim ilişkisini taşır; genel ve koşulsuz itaati veya bütün soruların kalıcı olarak yasaklandığını iddia etmez."
+        },
+        {
+          "branch_ref": "root_001040/B001",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "18:66:8",
+            "18:66:10"
+          ],
+          "trigger_refs": [
+            "18:70:3:1",
+            "18:70:12:1"
+          ],
+          "focus_return_refs": [
+            "18:70:3:1",
+            "18:70:12:1"
+          ],
+          "carrier": "18:66'da öğretmenin öğrettiği bilgi, takip etmenin hedefini ve öğretmen-öğrenci asimetrisini taşır.",
+          "independent_trigger": "Odaktaki takip ve ileride öğretmenin kendisinin anma üreteceği sözü bu bilgi ilişkisini harekete geçirir.",
+          "activation": "Bilginin bir bilen tarafından verilmesi, soru yasağını bilgiye erişimi kapatan değil, erişimin zamanını öğretmene bırakan bir düzen haline getirir.",
+          "resulting_reading": "Öğrenci, bütünü kendi başına kapatmak yerine bilgiyi açıklama yetkisi olan kişiden alacağı bir gözlem dönemine girer.",
+          "boundary": "Bu attributed trace, odak dışı bir bilgi dalını bağımsız lexicon gloss'u olarak tanımlamaz."
+        },
+        {
+          "branch_ref": "root_000840/B001",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "18:68:2"
+          ],
+          "trigger_refs": [
+            "18:70:4:2",
+            "18:70:5:1"
+          ],
+          "focus_return_refs": [
+            "18:70:5:1"
+          ],
+          "carrier": "18:68'deki sabır, kendini aceleci tepki ve zorlanmadan alıkoyma eylemini taşır.",
+          "independent_trigger": "Odaktaki لا ve تَسْـَٔلْ, bu alıkoymanın somut davranışını soru sormayı ertelemek olarak belirler.",
+          "activation": "Sabır, soru yasağıyla temas ettiğinde soyut bir erdem olmaktan çıkar ve açıklama gelene kadar yapılan aktif bir özdenetim olur.",
+          "resulting_reading": "Bekleme, öğrencinin bilgi eksikliği sürerken müdahaleyi tutan işlemsel köprü olarak görünür.",
+          "boundary": "Bu temas, sabrı ahlaki veya ruhsal bütünlük iddiasına genişletmez; yalnızca odaktaki geçici şartı açıklar."
+        },
+        {
+          "branch_ref": "root_000372/B004",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "18:68:6"
+          ],
+          "trigger_refs": [
+            "18:70:7:1",
+            "18:70:8:1"
+          ],
+          "focus_return_refs": [
+            "18:70:7:1"
+          ],
+          "carrier": "18:68'de bütünü kuşatamama, öğrencinin gördüğü şeyin iç yüzüne sahip olmadığını taşır.",
+          "independent_trigger": "Odaktaki 'herhangi bir şey hakkında' ifadesi, bu eksik kuşatmayı soru yönelimiyle karşılaştırır.",
+          "activation": "Kuşatıcı bilgi eksikliği ile soru yasağı birleşerek hemen hüküm vermenin neden zamansal olarak ertelendiğini görünür kılar.",
+          "resulting_reading": "Soru sormama şartı, bilginin yokluğu değil, henüz tamamlanmamış içeriğe erken hüküm vermeyi tutan bir sınır olur.",
+          "boundary": "Bu attributed ilişki, öğrenenin bütünü hiçbir zaman kavrayamayacağını veya bütün soru biçimlerinin aynı olduğunu söylemez."
+        },
+        {
+          "branch_ref": "root_000387/B001",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "18:68:8"
+          ],
+          "trigger_refs": [
+            "18:70:9:1",
+            "18:70:12:1"
+          ],
+          "focus_return_refs": [
+            "18:70:12:1"
+          ],
+          "carrier": "18:68'deki خُبْرًا, bir işin iç yüzüne ve derin bilgisine ulaşma eksikliğini taşır.",
+          "independent_trigger": "Odaktaki أُحْدِثَ ve ذِكْرًا, eksik iç yüzün daha sonra öğretmen tarafından açılacağını bildirir.",
+          "activation": "İç bilgi eksikliği ile öğretmenin açıklama başlatması temas ettiğinde, sabır gözlem ile sonradan gelecek açıklama arasındaki yönteme dönüşür.",
+          "resulting_reading": "Öğrenci, gördüğü olayı hemen tamamlanmış saymak yerine rehberin iç yüzü açmasını bekleyen bir öğrenme konumunda kalır.",
+          "boundary": "Bu, HFT'nin attributed iç-bilgi rolünü taşır; odaktaki ذِكْرًا için tüm ayrıntıların zaten bilindiğini iddia etmez."
+        }
+      ],
+      "connection_refs": [
+        "conn_7f06ddc6e7430de7c36e",
+        "conn_6c470692d99f1aab255f",
+        "conn_cdc521523df3929941b9",
+        "conn_016093fcf75c96046e7c",
+        "conn_9f0b05de5771de9a669e",
+        "conn_8425ac9a302271366f7c",
+        "conn_f576d1ee823931f91415"
+      ],
+      "context_refs": [
+        "18:60",
+        "18:62",
+        "18:65",
+        "18:66",
+        "18:67",
+        "18:68",
+        "18:69"
+      ],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "macro:moral-pressure-on-the-thing",
+      "origin_candidate_id": "cand_f0d0d7a77afa8ea4f84f",
+      "represented_candidate_ids": [],
+      "title": "Belirsiz şeyin ahlaki baskı altında açılması",
+      "claim": "18:70'teki 'herhangi bir şey' yasağı, 18:71'de geminin yarılması ve 18:74'te can alınmasıyla birlikte, görünür zarar karşısında hemen nedensel hüküm vermeyi erteleyen bir sınır olarak çalışır.",
+      "mechanism": "Odaktaki تَسْـَٔلْنِي عَن شَيْءٍ, sonraki ayetlerde aynı شيء alanının yarma ve öldürme fiilleriyle doldurulması ve bunların ağır/garip şeyler diye adlandırılmasıyla temas eder; böylece soru yasağı en yüksek ahlaki tepki doğuran olaylarda denenir.",
+      "reader_payoff": "Okur, bekleme şartının önemsiz meraklara değil, görünüşte açıkça yanlış olan eylemlerin sebep ve zaman anlamını açıklama gelene kadar açık tutmaya yöneldiğini görür.",
+      "containment": "Bu bulgu zararı önemsizleştirmez ve ahlaki alarmı askıya almayı buyurmaz. Sadece görünen eylemin nedensel anlamının, rehberin daha sonra vereceği açıklamaya kadar tamamlanmadığını söyler; itaatin tek alternatif açıklama olabileceği ihtimali canlı kalır.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": [
+          "legacy_unbound"
+        ],
+        "reason": "18:71 ve 18:74 için supplied Arabic ve odak dönüşü güçlüdür; HFT relation explicit olmakla birlikte legacy_unbound ve reader_inference alanları bulunduğu için bulgu qualified'dır."
+      },
+      "support_ids": [
+        "sup_07103c9e5d3832428ab0"
+      ],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000661/B001",
+          "facet_id": "F001",
+          "branch_gloss": "bilgi sormak veya bir şey istemek",
+          "facet_statement": "Bir muhataba yönelip bilgi edinmeye veya bir şeyi elde etmeye çalışma eylemini bildirir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "18:70:5:1"
+          ],
+          "trigger_refs": [
+            "18:71:14",
+            "18:74:16"
+          ],
+          "focus_return_refs": [
+            "18:70:5:1",
+            "18:70:7:1"
+          ],
+          "carrier": "Odaktaki تَسْـَٔلْنِي, öğretmene yöneltilen sorma eylemini taşır.",
+          "independent_trigger": "18:71:14 ve 18:74:16'da açıklama bekleyen şeyler ağır ve olağandışı olaylar olarak adlandırılır.",
+          "activation": "Sorma eylemi, sonraki olayların ahlaki ağırlığıyla temas ettiğinde, sorunun yalnızca bilgi istemek değil görünür zarara nedensel açıklama istemek olduğu belirir.",
+          "resulting_reading": "Soru yasağı, ağır olayların ilk görünüşü karşısında açıklama talebini geçici olarak tutan bir düzen olur.",
+          "boundary": "Bu facet sorma/isteme eylemini taşır; soru soranın yoksul veya çok soru soran kişi olarak adlandırılmasını içermez."
+        },
+        {
+          "branch_ref": "root_000661/B001",
+          "facet_id": "F002",
+          "branch_gloss": "bilgi sormak veya bir şey istemek",
+          "facet_statement": "Bir şeyi doğrudan muhataptan isteme ile bir konu ya da kişi hakkında bilgi sorma, eylemin farklı söz dizimsel kuruluşlarıdır.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "18:70:5:1"
+          ],
+          "trigger_refs": [
+            "18:71:14",
+            "18:71:7",
+            "18:71:9",
+            "18:74:6",
+            "18:74:8",
+            "18:74:16"
+          ],
+          "focus_return_refs": [
+            "18:70:5:1",
+            "18:70:7:1"
+          ],
+          "carrier": "Odaktaki عن شيءٍ kuruluşu, soruyu belirli bir olay/şey hakkında açıklama istemeye yöneltir.",
+          "independent_trigger": "18:71'de yarma, 18:74'te öldürme ve her iki olayın soru biçimiyle karşılanması, sorunun konusunu belirginleştirir.",
+          "activation": "İlgeçli sorma kuruluşu ile görünür eylemler birleştiğinde, yasaklanan şeyin olayın kendisi değil, açıklama gelmeden onun hakkında hüküm istemek olduğu açığa çıkar.",
+          "resulting_reading": "Belirsiz شيءٍ, sonraki iki olayın ahlaki ve nedensel hesabını içine alan gerçek bir olay alanına dönüşür.",
+          "boundary": "Bu facet bilgi sorusunun söz dizimsel yönünü taşır; odaktaki ifade bütün sorma eylemlerini veya karşılıklı soru sormayı genellemez."
+        },
+        {
+          "branch_ref": "root_000831/B001",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "18:71:14"
+          ],
+          "trigger_refs": [
+            "18:70:7:1"
+          ],
+          "focus_return_refs": [
+            "18:70:7:1"
+          ],
+          "carrier": "18:71'deki شيء, odaktaki belirsiz nesnenin ilk somut karşılığını taşır.",
+          "independent_trigger": "Odaktaki شيءٍ, sorunun konu alanını önceden geniş ve açık bırakır.",
+          "activation": "Belirsiz nesne sonraki ayette gemiye yapılan müdahaleyle doldurulunca, odaktaki yasak ilk görünür olayla temas eder.",
+          "resulting_reading": "Yasağın kapsamı, henüz açıklanmamış her olayın ilk görünüşünü içine alan bir bekleme alanı olur.",
+          "boundary": "Bu attributed dal, شيء kelimesinin bağımsız sözlük gloss'unu genişletmez; yalnızca supplied bağlamdaki doldurulmayı kaydeder."
+        },
+        {
+          "branch_ref": "root_000405/B001",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "18:71:7",
+            "18:71:9"
+          ],
+          "trigger_refs": [
+            "18:70:5:1",
+            "18:70:7:1"
+          ],
+          "focus_return_refs": [
+            "18:70:5:1",
+            "18:70:7:1"
+          ],
+          "carrier": "18:71'deki yarma ve delme eylemi, gözle görülen ilk zarar ve açıklama baskısını taşır.",
+          "independent_trigger": "Odaktaki soru yasağı ve شيءٍ, bu eylemin anlamı açıklanmadan önce soruya dönüşeceği alanı kurar.",
+          "activation": "Görünen yarma, soru yasağıyla temas ettiğinde, beklemenin en zor anının eylem ile niyet arasındaki boşluk olduğu görünür.",
+          "resulting_reading": "Müdahale ilk bakışta zarar gibi görünse de, onun nedeni ve sonucu rehberin sonraki açıklamasına kadar açık tutulur.",
+          "boundary": "Bu, yarma eylemini mazur gösteren bir hüküm değildir; yalnızca onun odaktaki ertelenmiş açıklama düzenini sınadığını söyler."
+        },
+        {
+          "branch_ref": "root_001200/B001",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "18:74:6",
+            "18:74:8"
+          ],
+          "trigger_refs": [
+            "18:70:5:1",
+            "18:70:7:1"
+          ],
+          "focus_return_refs": [
+            "18:70:5:1",
+            "18:70:7:1"
+          ],
+          "carrier": "18:74'teki can alma eylemi, odaktaki bekleme şartına en ağır ahlaki basıncı getirir.",
+          "independent_trigger": "Odaktaki شيءٍ ve soru yasağı, bu eylem hakkındaki ilk hükmün henüz son açıklama olmadığını taşıyan karşı kutuptur.",
+          "activation": "Can alma ile açıklama isteme arasındaki temas, sabrın soyut bir nezaket değil, görünür kötülük karşısında nedensel kapanışı geciktiren bir işlem olduğunu gösterir.",
+          "resulting_reading": "Okur, rehberin açıklaması gelene kadar olayın ilk ahlaki görünüşü ile gerideki sebebinin aynı şey sayılmadığını fark eder.",
+          "boundary": "Bu attributed ilişki, can alma hakkında bağımsız bir hüküm üretmez ve ahlaki sorumluluğu ertelemez."
+        },
+        {
+          "branch_ref": "root_001550/B003",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "18:74:16"
+          ],
+          "trigger_refs": [
+            "18:70:7:1",
+            "18:70:12:1"
+          ],
+          "focus_return_refs": [
+            "18:70:7:1",
+            "18:70:12:1"
+          ],
+          "carrier": "18:74'teki ağır ve tanınması güç şey nitelemesi, görünen olayın hemen sınıflandırıldığını taşır.",
+          "independent_trigger": "Odaktaki شيءٍ ve daha sonra gelecek ذِكْرًا, bu sınıflandırmanın açıklamadan önceki geçici aşama olduğunu belirler.",
+          "activation": "Olayı ağır/garip diye adlandırma ile ertelenmiş anma birleştiğinde, ilk adlandırmanın son nedensel açıklama olmadığı açılır.",
+          "resulting_reading": "Yasağın hedefi, ahlaki tepkiyi yok etmek değil, tepkiyi olayın bütün iç yüzü sanarak açıklama kapısını erken kapatmamaktır.",
+          "boundary": "Bu attributed dal, gariplik niteliğini odaktaki kelimeye sözlük anlamı olarak taşımaz."
+        }
+      ],
+      "connection_refs": [
+        "conn_1b3ead364715903374d8",
+        "conn_6ffc832c394cc76df6d2",
+        "conn_537246e2536c39aac955",
+        "conn_8ccafa282e4be29cf57d",
+        "conn_bd07238a9f448cb713e8",
+        "conn_c43815ad62443c18305c"
+      ],
+      "context_refs": [
+        "18:71",
+        "18:72",
+        "18:73",
+        "18:74",
+        "18:75",
+        "18:77"
+      ],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "macro:disclosure-at-separation",
+      "origin_candidate_id": "cand_a36b771b5c7d0ce83fed",
+      "represented_candidate_ids": [],
+      "title": "Açıklamanın ayrılık sınırında başlaması",
+      "claim": "18:70'teki soru yasağı, 18:76'da eşliği sona erdiren son soru ve 18:78'de ayrılığın hemen ardından başlayan te'vil haberiyle, açıklamayı arkadaşlık süresinin sonunda başlatan sınırlandırılmış bir düzen kurar.",
+      "mechanism": "Odaktaki تَسْـَٔلْنِي ve حَتَّىٰ أُحْدِثَ لَكَ ifadesi, 18:76'da sorunun arkadaşlığı bitirmesi ve 18:78'de ayrılık ile haber/te'vilin başlamasıyla temas eder; bekletilen anma böylece eşlik kapanınca yetkili açıklamaya dönüşür.",
+      "reader_payoff": "Okur, rehberin açıklamasının rastgele uygun bir ana bırakılmadığını, soru ile sürdürülen beraberliğin sınırına bağlandığını ve ertelenmiş sözün orada açıldığını görür.",
+      "containment": "Bu okuma, âyetin açıklamayı sonraya bırakan koşulunu korur. 18:78'in yalnızca nezaket cümlesi olabileceği alternatifini silmez ve her açıklamanın zorunlu olarak ayrılıktan sonra geldiğini genellemez.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": [
+          "legacy_unbound"
+        ],
+        "reason": "18:76 ve 18:78 supplied context ayatları odaktaki حَتَّىٰ sınırına doğrudan temas eder; HFT mekanizması strong olsa da reader_identity legacy_unbound olduğu için ilişki qualified'dır."
+      },
+      "support_ids": [
+        "sup_49bc33c9fcafa978ea7f"
+      ],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000661/B001",
+          "facet_id": "F001",
+          "branch_gloss": "bilgi sormak veya bir şey istemek",
+          "facet_statement": "Bir muhataba yönelip bilgi edinmeye veya bir şeyi elde etmeye çalışma eylemini bildirir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "18:70:5:1"
+          ],
+          "trigger_refs": [
+            "18:76:3"
+          ],
+          "focus_return_refs": [
+            "18:70:5:1"
+          ],
+          "carrier": "Odaktaki soru eylemi, öğretmenden bilgi istemeye yönelmiş doğrudan bir eylemdir.",
+          "independent_trigger": "18:76:3'te sorunun tekrarı açıkça kabul edilmiş bir ihlal olarak arkadaşlığın devamını sona erdirir.",
+          "activation": "Soru eylemi ile eşliğin sona ermesi birleştiğinde, odaktaki yasak öğrenme ilişkisinin süresini belirleyen bir sınır olur.",
+          "resulting_reading": "Soru sorma, açıklama gelene kadar askıya alınan ve tekrarlandığında eşliği kapatan belirli bir eylem olarak görünür.",
+          "boundary": "Bu facet sorma eylemini taşır; arkadaşlık veya ayrılık anlamını sözlük dalının kendisi olarak ileri sürmez."
+        },
+        {
+          "branch_ref": "root_000661/B001",
+          "facet_id": "F002",
+          "branch_gloss": "bilgi sormak veya bir şey istemek",
+          "facet_statement": "Bir şeyi doğrudan muhataptan isteme ile bir konu ya da kişi hakkında bilgi sorma, eylemin farklı söz dizimsel kuruluşlarıdır.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "18:70:5:1"
+          ],
+          "trigger_refs": [
+            "18:76:3",
+            "18:78:6",
+            "18:78:7"
+          ],
+          "focus_return_refs": [
+            "18:70:5:1",
+            "18:70:9:1"
+          ],
+          "carrier": "عن شيءٍ kuruluşu, soruyu belirli bir olayın açıklamasını isteme alanına yöneltir.",
+          "independent_trigger": "18:78'de ayrılıktan hemen sonra haber verme ve te'vil, önceki soruların bekletilmiş açıklama talebi olduğunu gösterir.",
+          "activation": "İlgeçli soru ile ayrılık sonrası haber arasında kurulan temas, açıklamanın soru anında değil, ilişkinin kapanış sınırında başlatıldığını gösterir.",
+          "resulting_reading": "Odaktaki soru yasağı, cevap vermeyi sonsuza erteleyen bir susma değil, açıklamanın doğru zamanını belirleyen bir eşik haline gelir.",
+          "boundary": "Bu facet soru kuruluşunu açıklar; 18:78'in bütün anlamını tek başına belirlemez."
+        },
+        {
+          "branch_ref": "root_000844/B001",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "18:76:8"
+          ],
+          "trigger_refs": [
+            "18:70:3:1",
+            "18:70:5:1"
+          ],
+          "focus_return_refs": [
+            "18:70:3:1",
+            "18:70:5:1"
+          ],
+          "carrier": "18:76'da sürdürülen arkadaşlık, soru yasağının içinde tuttuğu sosyal beraberliği taşır.",
+          "independent_trigger": "Odaktaki 'beni izlersen' şartı ve soru yasağı, bu beraberliğin hangi davranışla sürdürüleceğini belirler.",
+          "activation": "Arkadaşlık taşıyıcısı ile soru yasağı temas ettiğinde, açıklanmamış olayların beraberlik içinde tutulduğu sosyal bir kap görünür.",
+          "resulting_reading": "Eşlik, açıklama gelene kadar olayları taşıyan geçici bir öğrenme ortamı olur; yeni soru bu ortamı kapatır.",
+          "boundary": "Bu attributed ilişki, arkadaşlığın bağımsız sözlük dalını veya bütün sosyal ilişkilerin aynı şekilde sona erdiğini iddia etmez."
+        },
+        {
+          "branch_ref": "root_001148/B001",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "18:78:3"
+          ],
+          "trigger_refs": [
+            "18:70:8:1",
+            "18:70:9:1"
+          ],
+          "focus_return_refs": [
+            "18:70:8:1",
+            "18:70:9:1"
+          ],
+          "carrier": "18:78'deki ayrılık, gözlem ve eşlik döneminin kapanış sınırını taşır.",
+          "independent_trigger": "Odaktaki حَتَّىٰ, açıklamanın başlamasından önceki zaman aralığını kurar.",
+          "activation": "Ayrılık ile odaktaki 'kadar' sınırı birleştiğinde, bekleyişin sonu ile açıklamanın başlangıcı aynı geçişte görünür.",
+          "resulting_reading": "Açıklama, beraberlik boyunca ertelenen ve ayrılık anında açılan bir konuşma hareketi olur.",
+          "boundary": "Bu attributed dal, ayrılığı odak fiilinin zorunlu sözlük anlamı yapmaz; perikope içindeki sınır temasını kaydeder."
+        },
+        {
+          "branch_ref": "root_001464/B002",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "18:78:6"
+          ],
+          "trigger_refs": [
+            "18:70:9:1",
+            "18:70:12:1"
+          ],
+          "focus_return_refs": [
+            "18:70:9:1",
+            "18:70:12:1"
+          ],
+          "carrier": "18:78'deki haber verme, odaktaki öğretmenin ileride anma başlatacağı vaadin fiilî açılımını taşır.",
+          "independent_trigger": "Odaktaki أُحْدِثَ لَكَ مِنْهُ ذِكْرًا, açıklamanın öğretmen tarafından başlatılacağını söyler.",
+          "activation": "Sonraki haber verme ile odaktaki üretilecek anma birleşince, beklenen açıklamanın kim tarafından ve hangi sınırdan sonra açıldığı belirginleşir.",
+          "resulting_reading": "Rehberin açıklaması, öğrencinin soruyla koparmaya çalıştığı değil, rehberin kendi başlattığı bir bilgi aktarımıdır.",
+          "boundary": "Bu attributed ilişki, 18:78'in bütün te'vil içeriğini odaktaki tek bir kelimeye indirgemez."
+        },
+        {
+          "branch_ref": "root_000067/B002",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "18:78:7"
+          ],
+          "trigger_refs": [
+            "18:70:12:1"
+          ],
+          "focus_return_refs": [
+            "18:70:12:1"
+          ],
+          "carrier": "18:78'deki te'vil, olayların sonunda döneceği sonuç ve akıbet boyutunu taşır.",
+          "independent_trigger": "Odaktaki ذِكْرًا, sözün olayın ertelenmiş içeriğinden üretileceğini bildirir.",
+          "activation": "Sonuca dönüş anlamı ile odaktaki gecikmiş anma temas ettiğinde, açıklama olayın ilk görünüşünü değil, daha sonra açılan akıbetini bildirir.",
+          "resulting_reading": "Anma, yalnızca olayın adını söylemek değil, olayın neye vardığını ilişki kapandıktan sonra görünür kılmaktır.",
+          "boundary": "Bu attributed dal, te'vilin bütün yorum yöntemlerini veya her gecikmiş açıklamanın aynı akıbet yapısına sahip olduğunu ileri sürmez."
+        }
+      ],
+      "connection_refs": [
+        "conn_e673b073ea16f1dd69b3",
+        "conn_a42056562f5a481dba07"
+      ],
+      "context_refs": [
+        "18:76",
+        "18:78"
+      ],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "macro:counterfactual-redescription",
+      "origin_candidate_id": "cand_b5c6a8e1ca0af5a3e276",
+      "represented_candidate_ids": [],
+      "title": "Görünen eylemin gelecekle yeniden açıklanması",
+      "claim": "18:70'te vaat edilen görünür kılma, 18:79-82'de görünen zararı saklı tehdit, kaybı ikame ve duvarı korunmuş hazineyle yeniden sınıflandıran gelecek-duyarlı bir açıklamaya dönüşür.",
+      "mechanism": "Odaktaki أُحْدِثَ bir şeyi ortaya koyma ve anlaşılır kılma eylemini taşır; 18:79'daki zorla alma tehdidi, 18:81'deki yerine koyma ve 18:82'deki saklı hazinenin ileride çıkarılması, önceki görünen eylemlerin eksik nedensel çerçevesini sonradan tamamlar.",
+      "reader_payoff": "Okur, rehberin sözüne ayrılan açıklamanın olayların üstüne eklenen bir etiket değil, ilk ahlaki ve pratik sınıflandırmayı görünmeyen gelecek veya ilişki üzerinden değiştiren bir yeniden anlatım olduğunu görür.",
+      "containment": "Bu bulgu görünür zararı ortadan kaldırmaz ve sonradan gelen açıklamayı insanın her eylemini otomatik olarak aklayan bir ilkeye çevirmez. Yalnızca bu perikopta odaktaki vaatle sonraki açıklamalar arasındaki nedensel yeniden adlandırmayı taşır.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": [
+          "legacy_unbound"
+        ],
+        "reason": "18:79, 18:81 ve 18:82 supplied ayatları somut tehdit, ikame ve saklı değer temaslarını verir; HFT bunları odaktaki أُحْدِثَ ile ilişkilendirir, fakat reader_inference ve legacy_unbound niteliği nedeniyle vasıf qualified'dır."
+      },
+      "support_ids": [
+        "sup_8cb62354f2b5b641201a"
+      ],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000299/B006",
+          "facet_id": "F001",
+          "branch_gloss": "ortaya koyma ve görünür kılma",
+          "facet_statement": "Bir şey ortaya konur veya görünür hale getirilir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "18:70:9:1"
+          ],
+          "trigger_refs": [
+            "18:79:17",
+            "18:81:3",
+            "18:82:10",
+            "18:82:20"
+          ],
+          "focus_return_refs": [
+            "18:70:9:1"
+          ],
+          "carrier": "Odaktaki أُحْدِثَ, rehberin henüz kapalı olan açıklamayı ileride ortaya koymasını taşır.",
+          "independent_trigger": "18:79'da zorla alma tehdidi, 18:81'de ikame ve 18:82'de saklı hazinenin çıkarılacak olması görünmeyen nedensel yapıyı sağlar.",
+          "activation": "Ortaya koyma eylemi, her olayın görünmeyen gelecek ilişkisiyle temas ettiğinde ilk görünüşü tamamlayan açıklama hareketine dönüşür.",
+          "resulting_reading": "Rehberin ileride söyleyeceği söz, olayların gerçek sonuçlarını görünür kılarak ilk sınıflandırmayı yeniden düzenler.",
+          "boundary": "Bu facet yoktan var etme anlamını taşımaz; var olan fakat kavranmamış bir ilişkiyi görünür kılma ile sınırlıdır."
+        },
+        {
+          "branch_ref": "root_000299/B006",
+          "facet_id": "F002",
+          "branch_gloss": "ortaya koyma ve görünür kılma",
+          "facet_statement": "Ortaya konan şey başkalarınca görülebilir veya anlaşılabilir hale gelir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "18:70:9:1"
+          ],
+          "trigger_refs": [
+            "18:79:17",
+            "18:81:3",
+            "18:82:10",
+            "18:82:20"
+          ],
+          "focus_return_refs": [
+            "18:70:9:1",
+            "18:70:12:1"
+          ],
+          "carrier": "أُحْدِثَ لَكَ, açıklamanın özellikle öğrenci için anlaşılır hale getirileceğini taşır.",
+          "independent_trigger": "Sonraki ayetlerde görünmeyen tehdit, gelecek ikame ve korunmuş hazine öğrenciye açıklanır.",
+          "activation": "Anlaşılır kılma facet'i ile sonradan verilen üç açıklama birleşince, odaktaki sözün amacının olayın iç yapısını muhatabın görmesine açmak olduğu belirir.",
+          "resulting_reading": "Açıklama, yalnızca rehberin bildiği bir bilgi değil, zaman gelince öğrenciye görünür ve kavranır kılınan bir yeniden çerçevelemedir.",
+          "boundary": "Bu facet, öğrencinin bütün ayrıntıları aynı anda veya eksiksiz kavradığını iddia etmez."
+        },
+        {
+          "branch_ref": "root_001090/B001",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "18:79:17"
+          ],
+          "trigger_refs": [
+            "18:70:9:1"
+          ],
+          "focus_return_refs": [
+            "18:70:9:1"
+          ],
+          "carrier": "18:79'daki zorla el koyma tehdidi, gemiye verilen zararın arkasındaki görünmeyen gelecek baskısını taşır.",
+          "independent_trigger": "Odaktaki أُحْدِثَ, bu görünmeyen sebebin ileride açıklığa çıkarılacağı eşiği kurar.",
+          "activation": "Zorla alma tehdidi ile görünür kılma vaadi temas ettiğinde, gemiyi kusurlu gösteren eylem korunma amacıyla yeniden okunabilir hale gelir.",
+          "resulting_reading": "İlk bakışta zarar gibi görünen müdahale, ileride açılan tehdit yüzünden koruyucu bir nedensel zincire yerleşir.",
+          "boundary": "Bu attributed dal, gemi olayının bütün hukukî veya ahlaki değerlendirmesini genellemez."
+        },
+        {
+          "branch_ref": "root_000095/B001",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "18:81:3"
+          ],
+          "trigger_refs": [
+            "18:70:9:1",
+            "18:70:12:1"
+          ],
+          "focus_return_refs": [
+            "18:70:9:1",
+            "18:70:12:1"
+          ],
+          "carrier": "18:81'deki ikame, görünen kaybın yerine gelecekte başka bir şey konacağını taşır.",
+          "independent_trigger": "Odaktaki ileride üretilecek anma ve görünür kılma, kaybın nihai görünüş olmadığını açacak açıklama hareketidir.",
+          "activation": "İkame ile odaktaki açıklama birleştiğinde, ilk kayıp sınıflandırması sonradan gelen bir gelecek ilişkisiyle yeniden çerçevelenir.",
+          "resulting_reading": "Açıklama, kaybın yok oluş olarak kapanmasını engelleyen ve yerine konacak sonucu görünür kılan bir hesap olur.",
+          "boundary": "Bu attributed ilişki, her kaybın mutlaka eşdeğer bir ikameyle sonuçlanacağını söylemez."
+        },
+        {
+          "branch_ref": "root_001322/B001",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "18:82:10",
+            "18:82:21"
+          ],
+          "trigger_refs": [
+            "18:70:9:1",
+            "18:70:12:1"
+          ],
+          "focus_return_refs": [
+            "18:70:9:1",
+            "18:70:12:1"
+          ],
+          "carrier": "18:82'deki saklı hazine, görünür olmayan fakat belirli bir gelecek yararı için korunmuş değeri taşır.",
+          "independent_trigger": "Odaktaki ذِكْرًا ve daha sonra görünür kılınacak açıklama, saklı değerin neden şimdi açıklanmadığını bağlar.",
+          "activation": "Korunmuş değer ile ertelenmiş açıklama temas ettiğinde, şimdiki gizlilik gelecekteki yararın hazırlığı olarak okunabilir.",
+          "resulting_reading": "Rehberin anması, görünmeyen değeri vaktinden önce açmak değil, uygun zamanda kimin için korunduğunu görünür kılmaktır.",
+          "boundary": "Bu attributed hazine dalı, odaktaki ذِكْرًا'nın doğrudan hazine anlamına geldiğini söylemez."
+        },
+        {
+          "branch_ref": "root_000400/B002",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "18:82:20"
+          ],
+          "trigger_refs": [
+            "18:70:9:1",
+            "18:70:12:1"
+          ],
+          "focus_return_refs": [
+            "18:70:9:1",
+            "18:70:12:1"
+          ],
+          "carrier": "18:82'de hazinenin çıkarılması, gizli tutulan değerin daha sonra dışarı alınacağı geleceği taşır.",
+          "independent_trigger": "Odaktaki görünür kılma ve anma, bu çıkarmanın doğru zamanda yapılacak açıklama karşılığını sağlar.",
+          "activation": "Gizliden çıkarma ile odaktaki öğretmen-başlatmalı açıklama birleşince, anlamın zamanlaması soruya değil rehberin açığa çıkarma yetkisine bağlanır.",
+          "resulting_reading": "Sonraki açıklama, gizli bir şeyi hemen çekip almak yerine saklı olanın vaktinde ortaya çıkarılması olarak anlaşılır.",
+          "boundary": "Bu attributed dal, çıkarma eylemini odaktaki أُحْدِثَ ile özdeşleştirmez; yalnızca ikisi arasındaki gecikmiş açığa çıkarma temasını kaydeder."
+        }
+      ],
+      "connection_refs": [
+        "conn_6ed09d4aa82814b7bb63",
+        "conn_01941340c26656042d00",
+        "conn_07286c50b34fe9fd2b89",
+        "conn_592cc5fdd956948f09c7"
+      ],
+      "context_refs": [
+        "18:79",
+        "18:80",
+        "18:81",
+        "18:82"
+      ],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "macro:authorized-extraction",
+      "origin_candidate_id": "cand_b63a12ab66c1075f860b",
+      "represented_candidate_ids": [],
+      "title": "Yetkili açığa çıkarma ve vaktinden önce çekme",
+      "claim": "Odaktaki soru, مِنْهُ ile أُحْدِثَ arasındaki karşıt hareket üzerinden, anlamı olaydan vaktinden önce çekip alma isteği; açıklamayı ise rehberin zamanı geldiğinde içinden görünür kılması olarak da duyulabilir.",
+      "mechanism": "تَسْـَٔلْ için HFT'nin split-root س ل ل temasını, odaktaki مِنْهُ ve أُحْدِثَ ile 18:82'de saklı hazinenin çıkarılması birleştirir; böylece soru anlamı zorla çekmeye, rehberin anması ise korunmuş olanı yetkili biçimde açığa çıkarmaya bağlanır.",
+      "reader_payoff": "Okur, soru yasağının yalnızca cevap zamanını değil, görünmeyen anlam üzerinde kimin ve ne zaman işlem yapacağını da düzenleyen bir gerilim taşıyabileceğini fark eder.",
+      "containment": "Bu, HFT'nin exploratory ve split-root kaydına dayanan sınırlı bir analojidir; تَسْـَٔلْ kelimesinin olağan 'sormak/istemek' anlamını değiştirmez, س ل ل'yi bağımsız çeviri veya kesin etimoloji olarak sunmaz.",
+      "epistemic": {
+        "status": "exploratory",
+        "source_trust": [
+          "legacy_unbound"
+        ],
+        "reason": "Kayıt açık bir focus anchor, 18:82 saklı hazine/çıkarma teması ve containment verir; fakat split-root eşlemesi exploratory ve reader_identity legacy_unbound olduğu için bu bulgu qualified değil exploratory olarak tutulur."
+      },
+      "support_ids": [
+        "sup_af1b643381df20599dab"
+      ],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000736/B001",
+          "facet_id": "F001",
+          "branch_gloss": "nazikçe ve fark ettirmeden çekip çıkarma",
+          "facet_statement": "Bir nesneyi bağlı veya kapalı bulunduğu yerden çekerek ayırıp çıkarma işlemi vardır.",
+          "application_mode": "analogical",
+          "carrier_refs": [
+            "18:70:5:1"
+          ],
+          "trigger_refs": [
+            "18:70:9:1",
+            "18:70:11:1",
+            "18:82:20"
+          ],
+          "focus_return_refs": [
+            "18:70:5:1",
+            "18:70:9:1",
+            "18:70:12:1"
+          ],
+          "carrier": "Odaktaki تَسْـَٔلْ, HFT'nin split-root analojisinde kapalı bir olaydan anlam çekip çıkarma hareketini taşır.",
+          "independent_trigger": "Odaktaki مِنْهُ ve أُحْدِثَ ile 18:82'deki saklı şeyi çıkarma, çekme ve daha sonra görünür kılma karşıtlığını sağlar.",
+          "activation": "Sorma eylemi kapalı olaydan anlam çekme analojisiyle, rehberin açıklaması ise aynı anlamı kendi zamanında açığa çıkarma hareketiyle temas eder.",
+          "resulting_reading": "Soru yasağı, anlamı vaktinden önce çekip almayı tutarken, söz verilen anma yetkili ve zamanlı açığa çıkarmayı bekler.",
+          "boundary": "Bu yalnızca HFT'nin exploratory analojisidir; odaktaki olağan س أ ل kökünü س ل ل olarak yeniden yazmaz ve izinli/izinsiz alma hükmü üretmez."
+        },
+        {
+          "branch_ref": "root_000299/B006",
+          "facet_id": "F001",
+          "branch_gloss": "ortaya koyma ve görünür kılma",
+          "facet_statement": "Bir şey ortaya konur veya görünür hale getirilir.",
+          "application_mode": "analogical",
+          "carrier_refs": [
+            "18:70:9:1"
+          ],
+          "trigger_refs": [
+            "18:70:11:1",
+            "18:82:20"
+          ],
+          "focus_return_refs": [
+            "18:70:9:1",
+            "18:70:12:1"
+          ],
+          "carrier": "Odaktaki أُحْدِثَ, çekilip alınan değil rehber tarafından ortaya konan anlamı taşır.",
+          "independent_trigger": "مِنْهُ ve 18:82'deki çıkarma eylemi, saklı şeyin daha sonra görünür kılınması için maddi bir karşılık sağlar.",
+          "activation": "Ortaya koyma ile saklıdan çıkarma temas ettiğinde, odaktaki açıklama öğrencinin zorladığı bir çekip alma değil, rehberin başlattığı bir açığa çıkarma olarak belirir.",
+          "resulting_reading": "Yetkili açıklama, gizli anlamı vaktinde görünür kılan karşı hareket olarak soru eyleminin karşısında durur.",
+          "boundary": "Bu facet yoktan var etme anlamını taşımaz; yalnızca HFT'nin exploratory zamanlama analojisindeki açığa çıkarmayı taşır."
+        },
+        {
+          "branch_ref": "root_000299/B006",
+          "facet_id": "F002",
+          "branch_gloss": "ortaya koyma ve görünür kılma",
+          "facet_statement": "Ortaya konan şey başkalarınca görülebilir veya anlaşılabilir hale gelir.",
+          "application_mode": "analogical",
+          "carrier_refs": [
+            "18:70:9:1"
+          ],
+          "trigger_refs": [
+            "18:70:11:1",
+            "18:82:20"
+          ],
+          "focus_return_refs": [
+            "18:70:9:1",
+            "18:70:12:1"
+          ],
+          "carrier": "أُحْدِثَ لَكَ, açığa çıkan anlamın özellikle öğrenci için anlaşılır hale getirilmesini taşır.",
+          "independent_trigger": "Saklı hazinenin daha sonra çıkarılması, korunmuş içeriğin doğru zamanda muhataba açık hale gelmesi için bağlam sağlar.",
+          "activation": "Anlaşılır kılma ile zamanlı çıkarma birleşince, odaktaki sözün yönü sorunun zorlamasından rehberin açıklama yetkisine kayar.",
+          "resulting_reading": "Anlam, soru yoluyla erken alınan bir nesne değil, öğretmenin uygun zamanda muhatabına açtığı korunmuş içerik olarak görünür.",
+          "boundary": "Bu facet, HFT analojisinin taşıdığı anlaşılabilirlik ilişkisini korur; tüm saklı anlamların aynı yolla açılacağını iddia etmez."
+        },
+        {
+          "branch_ref": "root_001322/B001",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "18:82:10",
+            "18:82:21"
+          ],
+          "trigger_refs": [
+            "18:70:11:1",
+            "18:70:12:1"
+          ],
+          "focus_return_refs": [
+            "18:70:9:1",
+            "18:70:12:1"
+          ],
+          "carrier": "18:82'deki saklı hazine, zamanı gelene kadar korunmuş değeri taşır.",
+          "independent_trigger": "Odaktaki مِنْهُ ve أُحْدِثَ, saklı olanın öğretmen tarafından daha sonra açılacağını sağlar.",
+          "activation": "Korunmuş hazine ile rehberin başlattığı anma temas ettiğinde, vaktinden önce soru sormak ile doğru zamanda açıklama arasındaki fark görünür olur.",
+          "resulting_reading": "Açıklama, saklı değeri zorla almak değil, onun korunma süresini tamamlayıp görünür kılmaktır.",
+          "boundary": "Bu attributed dal, odaktaki ذِكْرًا kelimesini hazine veya saklama kelimesi olarak tercüme etmez."
+        },
+        {
+          "branch_ref": "root_000400/B002",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "18:82:20"
+          ],
+          "trigger_refs": [
+            "18:70:9:1",
+            "18:70:11:1"
+          ],
+          "focus_return_refs": [
+            "18:70:5:1",
+            "18:70:9:1"
+          ],
+          "carrier": "18:82'deki çıkarma, saklı olanın uygun zamanda kapalı yerinden dışarı alınmasını taşır.",
+          "independent_trigger": "Odaktaki soru ile مِنْهُ, kapalı içeriğe yönelen erken müdahale analojisini sağlar; أُحْدِثَ ise rehberin karşı hareketini kurar.",
+          "activation": "Çıkarma eylemi, soru ve öğretmen-başlatmalı açığa çıkarma ile temas ederek zamanlamayı anlamın kendisi kadar belirleyici kılar.",
+          "resulting_reading": "Odak, soruyu yalnız bilgi talebi olarak değil, açıklanması beklenen şeyi vaktinden önce çekme arzusu olarak da hissettirebilir.",
+          "boundary": "Bu attributed temas, çekip çıkarma dalını odaktaki fiilin kesin sözlük anlamı yapmaz."
+        }
+      ],
+      "connection_refs": [],
+      "context_refs": [
+        "18:82"
+      ],
+      "semantic_obligation_refs": []
+    }
+  ],
+  "friction_notes": [
+    "Tüm altı aday parse edilebilir ve exact_declared_pericope kapsamındadır; ancak altı HFT desteğinin trust değeri legacy_unbound'dur. Bu nedenle bağımsız sözlük kaydı bulunmayan branch'ler branch_gloss ve facet_statement null bırakılarak attributed application_mode ile korunmuştur.",
+    "Branch registry'de 19 aday dal unresolved durumdadır. Koordinat, supplied context ayah, word index, root ve HFT role eşleştiği için bunlar provenance gerekçesiyle elenmemiş; bağımsız facet icat edilmeden bulgulara alınmıştır.",
+    "Focus word alignment 14/14 çözülmüştür; bu lane için unresolved focus analysis unit bulunmamaktadır. Connection target morphology ve lexical analysis sağlanmadığı için connection kullanımı supplied Arabic ve row note ile sınırlı, epistemik vasıf qualified tutulmuştur.",
+    "Host basmala 18:0 ve açıkça eklenen 1:2-1:7 Phase 1'de karantinaya alınmış, Phase 2'de de 18:70'in focus word/QAC yüzeyine dönen özgül carrier-trigger-contact zinciri bulunmadığı için dış overlay finding'i üretilmemiştir. Bunlar native/pericope bulgularını aday göstermemiş, sıralamamış veya bastırmamıştır.",
+    "Packet readiness docket_mode=blocked ve docket_ready=false bildirmektedir; authoring policy parse edilebilir HFT kayıtlarını görünür kıldığı için bu durum discovery'yi durdurmamış, yalnızca kaynak vasfına yansıtılmıştır.",
+    "Bu artifact lifecycle, monitor veya event işlemleri içermez; yalnızca istenen discovery JSON'unu taşır."
+  ]
+}

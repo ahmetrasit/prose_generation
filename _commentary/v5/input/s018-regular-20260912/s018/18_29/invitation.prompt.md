@@ -1,0 +1,187 @@
+# V5 reading invitation — 18:29
+
+You are a fresh reading-invitation writer. Read the complete editorial prose
+before writing. It is your sole semantic source.
+
+Write two to four paragraphs of fluent, contemporary Turkish that reveal a
+surprising reading by following one or two main channels of resonance in the
+ayah. A channel is a connected background of meanings, images, actions, or
+relations through which the ayah can be heard and understood differently.
+Several editorial findings may together develop one channel. Summarize that
+connected movement and its consequence for the ayah's main meaning, rather
+than compressing findings individually. Give the reading's substance now;
+the invitation comes from understanding it, not from a promise of hidden depth.
+
+Before drafting, read the entire editorial prose and silently select the one
+or two channels with the strongest interpretive consequence and enough
+grounding to explain clearly. Favor channels that expand or shift what the
+ayah says, the relation it establishes, or what is at stake in its action or
+image. One fully developed channel is sufficient; add a second only when it
+offers a distinct consequential reading that can be explained within the
+invitation. No finding, channel, or major shift has an individual coverage
+claim. Unselected material may remain entirely in the full commentary.
+
+A channel may develop through grammar, sound, dialogue, a material process,
+time, imagery, or a conceptual relation. Resonance is not limited to acoustic
+effects, and an unusual image alone does not establish a channel. Use only
+connections the editorial prose actually develops. If it supplies no such
+channel, explain its strongest grounded reading without inventing connections
+or surprise.
+
+Begin inside the ayah's own words, images, actions, or relations and reveal a
+selected distinctive reading in the first paragraph. Keep the plain meaning
+reachable with only the orientation needed to understand the change. Do not
+spend an opening paragraph on routine explanation or front-load context about
+the surah, the ayah's position, or the commentary project.
+
+For each selected channel, begin with the expression that opens it, unfold the
+connected background, and show how the ayah reads or sounds against that
+background. Let a detail lead into the next through an intelligible relation
+or process, so the reader experiences the emerging reading. This is a movement
+of thought, not a mandatory sentence pattern or one paragraph per finding.
+Let the reader identify the expression being interpreted,
+where any nonordinary detail comes from, and what that detail changes in the
+reading. Briefly identify the word-family use, restricted form, collocation, or
+context that supplies an essential added detail, and preserve the concrete
+operation that makes the image work. Keep the ordinary reading and necessary
+qualification clear within this explanation; do not repeat them as a fixed
+formula. Preserve the particular object, process, or relation that makes this
+reading distinctive, and state its interpretive consequence for the ayah as a
+whole. Make intelligible what the familiar reading leaves less visible and
+what the expanded or shifted reading now lets the reader understand. Preserve
+the editorial's force: an exploratory possibility remains possible, while a
+developed shift must not be softened into a decorative association or a
+reassurance that everything means the same thing. A concrete
+account of how something is carried, transformed, lost, or restored must not
+shrink to a general statement about care, guidance, dependence, or goodness.
+Keep the details needed to make the selected channel work; omit side findings
+and shorten routine setup. If a channel cannot be explained faithfully from
+the editorial prose, choose another grounded channel or reading.
+
+When a non-focus ayah supplies a contribution used in the invitation, keep its
+reference from the editorial prose beside that contribution.
+
+Do not turn the invitation into a miniature inventory of the commentary's
+conclusions, or flatten distinct channels into a broad theme to include more
+material. Do not repair, extend, or supplement the editorial prose from memory
+or outside knowledge.
+
+Omit technical apparatus. Retain any qualification, source distinction, live
+alternative, or boundary whose absence would change the force or meaning of a
+chosen reading. Express it naturally beside the image or relation it qualifies.
+Favor positive explanations of the relation between layers: what remains in
+the foreground and what the resonance makes audible in the background. State
+how that background reinforces, expands, or shifts the understanding of the
+main meaning, with the source and degree of certainty clear. Reserve explicit
+exclusions for concrete ambiguities or live counter-evidence that need them.
+Repeated "this is not X" endings make a reading sound withdrawn; express the
+substantive qualification through what the reading does contribute wherever
+possible. Use varied, natural language rather than a repeated "second layer"
+formula, and preserve the force of expansions and shifts.
+Do not name branches, candidates, findings, scopes, evidence categories,
+ledgers, or workflow stages, or label the prose as numbered channels. Do not
+list findings serially.
+
+Use the established `{ar:..., tr:..., gloss:...}` syntax, consistent
+Turkish-readable transliteration, and short ordinary glosses. Keep Arabic
+anchors beside the explanations they ground. Within a paragraph, continue with
+the Turkish meaning where clear; provide the necessary local tag when a later
+paragraph interprets the carrier anew. Do not place Arabic script outside a
+valid tag.
+
+Build transitions within a channel through its shared object, action, or
+relation. If two channels are selected, they may occupy separate paragraphs;
+do not invent a link between them. Do not praise the commentary's quality,
+promise what the reader will find, manufacture suspense, recap at the end, or
+add a call to action. End on an image, relation, action, or tension already
+established by the selected reading.
+
+Before finishing, compare the invitation with the entire editorial prose:
+does the chosen channel reveal a consequential reading, or could the text have
+been written from the ordinary translation and a modest explanation alone?
+When the editorial supports a surprising channel, the latter fails this task.
+Can the reader follow the opening expression into a connected background and
+understand how that background expands or shifts the ayah's main meaning?
+Check the selected connections against their editorial explanation: can the
+reader tell where the nonordinary details come from, with the necessary
+qualifications intact? Repair generic explanation, isolated curiosities, or a
+compressed findings list by developing the selected channel. Do not add
+omitted channels merely for coverage. Do not output this check.
+
+Write only the invitation text to:
+
+`_commentary/v5/editorial/s018-regular-20260912/s018/18_29/18_29.invitation.tr.md`
+
+Do not add a heading, wrapper label, index, ledger, evidence file, or any other
+artifact. Do not modify the editorial prose.
+
+After writing the invitation, run:
+
+```bash
+python3 _commentary/v5/validate_prose.py _commentary/v5/editorial/s018-regular-20260912/s018/18_29/18_29.invitation.tr.md
+```
+
+If validation fails, repair only the reported mechanical file-contract issues
+and rerun it, for at most two repair cycles. Report the final validator result
+in your response.
+
+<editorial_prose>
+18:29'un ilk hareketi seçime değil, sözü kimin ve nasıl taşıdığına aittir. Başlangıçtaki `{ar:وَ, tr:wa, gloss:ve}` ile `{ar:قُلِ, tr:quli, gloss:de}` ayeti önceki söyleyişin devamındaki bir emir olarak açar. `{ar:قُلِ, tr:quli, gloss:de}` tekil emir olduğundan elçi hakikatin kaynağı değil, kendisine verileni kamusal söze taşıyan aracıdır. `{ar:مِن, tr:min, gloss:-den}` bu sözün kaynağını belirler; `{ar:رَبِّكُمْ, tr:rabbikum, gloss:Rabbiniz}` kaynağı muhatapların kendi Rabbi olarak kurar. Okur böylece önce Rablerinden gelen açıklamayla, ardından bu açıklamaya verilecek cevapla karşılaşır.
+
+Bu açıklamanın sabit zemini `{ar:ٱلْحَقُّ, tr:al-haqqu, gloss:gerçek}` kelimesidir. Standart merfu okuyuşta kelime, iki cevabın da karşısında duran gerçeklik olarak işitilir; kabul edilen mansup okuyuş ise onu söylenen şey olarak duyurma ihtimalini açık tutar. Bu iki işitim birlikte korunur. `{ar:قُلِ, tr:quli, gloss:de}` gerçeği dışarıya söze çıkarırken `{ar:فَ, tr:fa, gloss:artık/böylece}` bildirilen gerçekten `{ar:مَنْ, tr:man, gloss:kim}` ile açılan cevap alanına geçirir. İlk `{ar:مَنْ, tr:man, gloss:kim}` belirli bir topluluğu adlandırmaz. `{ar:شَآءَ, tr:shaa'a, gloss:diledi}` tamamlanmış biçimiyle görünür, fakat koşul içinde yönünü henüz belirtmez; nesnesini sonraki cevaba bırakarak hem inanmayı hem inkârı taşıyan ortak irade kapısını açar.
+
+İlk yön `{ar:فَ, tr:fa, gloss:böylece}` ile `{ar:فَلْيُؤْمِن, tr:fal-yu'min, gloss:inansın}` içinde belirir. `{ar:لْ, tr:lam, gloss:eylem emri lâmı}` fiili üçüncü şahıs cezmine soktuğu için `{ar:يُؤْمِن, tr:yu'min, gloss:inansın}` çıplak bir haber değil, açık bırakılan her özneye yönelen bir cevap gibi duyulur. Aynı fiilin güven ve emniyet alanı, inanmayı gerçeğe etkin biçimde yerleşme olarak derinleştirir; olağan inanma anlamı korunurken kabul edilene dayanma hareketi de görünür olur. Bu hareketin karşısına ikinci `{ar:وَ, tr:wa, gloss:ve}` ile aynı yapının öteki kolu çıkar. İkinci `{ar:مَنْ, tr:man, gloss:kim}` kişiyi önceden adlandırmaz, onu yine açık koşul alanına yerleştirir.
+
+İkinci `{ar:شَآءَ, tr:shaa'a, gloss:diledi}` ilk dileyiş fiilini biçimsel olarak yankılar; yönünü hemen ardından gelen fiilden alır. `{ar:فَ, tr:fa, gloss:böylece}` ile başlayan bu kol, ilk cevapla aynı izin görünüşünü taşırken uyarı tonuna geçer. Aynı `{ar:لْ, tr:lam, gloss:eylem emri lâmı}` bu kez `{ar:يَكْفُرْ, tr:yakfur, gloss:örtüp inkâr etsin}` fiilini yönetir. Buradaki kullanım, az önce açıklanmış `{ar:ٱلْحَقُّ, tr:al-haqqu, gloss:gerçek}` karşısında gerçeği örtme ve dinî gerçeği reddetme eyleminde sabitlenir; başkasına inkâr ettirme veya kökün bütün yadsıma alanları bu bağlantının kapsamına girmez. Böylece biçimsel simetri, iki cevabın aynı yapıda yer aldığını ve sonuçlarının bu yüzden aynılaşmadığını birlikte gösterir.
+
+Bu ayrımın sonucu `{ar:إِنَّا, tr:innaa, gloss:şüphesiz biz}` ile insanın dileyen öznesinden ilahî birinci çoğul şahsa geçerek vurgulu bir bildirime dönüşür. `{ar:أَعْتَدْنَا, tr:a'tadnaa, gloss:hazırladık}` ateşin tehdit duyulduğu anda hazırlanmış değil, önceden hazır ve kullanılabilir olduğunu bildirir; fiilin bu bağlantıda taşıdığı vurgu ateşin hazır oluşudur, hazırlığın nasıl meydana geldiği açık kalır. `{ar:لِ, tr:li, gloss:için}` normalde tahsis veya yarar çağrışımı taşıyabilir, fakat nesnesi ateş olduğunda hedefe yapılmış bir atamayı kurar. `{ar:ٱلظَّالِمِينَ, tr:az-zaalimiin, gloss:haksızlık edenler}` gerçeği örtme eylemini şeyi yerinden ve sınırından çıkaran haksızlık kategorisi içinde adlandırır. Ceza böylece nötr bir alternatifin yanına değil, seçimin ahlaki sonucu olarak belirlenen kişilere yönelir.
+
+## Ateşin İçindeki Mekân
+
+Hazırlanan `{ar:نَارًا, tr:naaran, gloss:bir ateş}` önce korku verici, belirli bir nesnedir. Burada ışık dalı değil, `{ar:أَعْتَدْنَا, tr:a'tadnaa, gloss:hazırladık}` ile hazır kılınmış yanan ateş öne çıkar. `{ar:أَحَاطَ, tr:ahaata, gloss:kuşattı}` tamamlanmış fiili bu ateşi yardım sahnesinden önce mekânsal bir kapanışa dönüştürür. `{ar:سُرَادِقُهَا, tr:suraadiquhaa, gloss:onun çevreleyen yapısı}` kuşatmayı çevreleyen ya da üstten örten bir yapı olarak görünür kılar; ateş artık uzakta duran bir unsur değil, çıkışı kapatan bir ortamdır. `{ar:بِهِمْ, tr:bihim, gloss:onları}` kuşatılanların az önce adlandırılan haksızlık edenler olduğunu gösterir. Sonraki `{ar:هِمْ, tr:him, gloss:onlar}` aynı kişileri birazdan yardım isteyecek özneler olarak taşır. Böylece ateşin içindekiler ile yardım arayanlar aynı zincirin iki anıdır; yapı da koruyucu bir sığınak biçimini taşıdığı halde korumayan bir hapishane mimarisine dönüşür.
+
+Bu kapanışın içinde yardım aranması cümlenin yeni hareketidir. `{ar:وَ, tr:wa, gloss:ve}` kuşatılma ile yardım sahnesini birbirine bağlar; `{ar:إِنْ, tr:in, gloss:eğer}` isteği tamamlanmış duvarların içinde varsayımsal bırakır. `{ar:يَسْتَغِيثُوا, tr:yastaghiithuu, gloss:yardım isterler}` kendi durumlarından çıkacak bir imkânı değil, dışarıdan kurtuluş talebini taşır. Buna karşılık aynı kökün edilgen biçimi `{ar:يُغَاثُوا, tr:yughaathuu, gloss:yardım edilir}` isteği biçimsel olarak karşılar; fail gizlendiği için alıcılar verilecek şeye açık kalır. İkinci `{ar:بِ, tr:bi, gloss:ile}` bu karşılığın aracını gösterir. Daha önce kişileri kuşatmanın içine yerleştiren edat, şimdi onları etkileyecek vasıtayı işaret eder; yer ile süreç arasındaki bağ tam burada kurulur.
+
+Beklenen vasıtanın adı olağan ve içilen `{ar:مَاءٍ, tr:maa'in, gloss:su}`dur. Fakat `{ar:ٱلْمُهْلِ, tr:al-muhl, gloss:eriyik ve yoğun madde}` bu tanıdık taşıyıcıya temas ettiğinde su, biçim olarak su kalırken yardım işlevini kaybedip cezalandırıcı bir sıvıya dönüşür. `{ar:كَ, tr:ka, gloss:gibi}` iki maddi düzlemi birbirine bağlayan benzetme köprüsüdür: suyun muhl benzeri korkunç bir karşılık verdiğini görünür kılar ve su ile kaynak madde arasındaki ayrımı korur. `{ar:مُهْلِ, tr:muhli, gloss:yoğun eriyik}` için korunan tortu, erimiş metal, irin ve benzeri yoğun akışkan varyantları ortak sıcak, koyu ve yapışkan doku içinde kalır. Bu maddi açıklık, belirli bir madde seçmeden suyun içilebilir hizmetinin yoğun ve yaralayıcı bir karşılığa çevrilmesini sağlar.
+
+Sıvının değişen niteliği, `{ar:يَشْوِي, tr:yashwii, gloss:kavurur}` fiiliyle beden üzerinde görünür olur. Kökün pişirme ve kızartma alanı güçlü ısıya genişler; ayrı hedef olan `{ar:ٱلْوُجُوهَ, tr:al-wujuuha, gloss:yüzleri}` üzerinde işlediği için benzetme sabit bir madde görüntüsünde kalmaz, kavurma eylemine dönüşür. Yüz bedenin görünür önü ve doğrudan hedefidir. Yön, itibar ve kamusal görünüş çağrışımları bu somut yüzeyde sınırlı bir basınç olarak belirir; bu çağrışımlar somut yüz hedefinin üzerine eklenir. Eylemin en yakın taşıyıcısı yakıcı sıvıdır; diğer maddeler ve fail hakkında ek bir özne kurulmadan bedensel sonuç belirginleşir.
+
+Kavurma sahnesi son cümlede yargıya dönüşür. `{ar:بِئْسَ, tr:bi'sa, gloss:ne kötü}` duyusal olanı biçimsel bir kınama hükmüne çevirir. `{ar:ٱلشَّرَابُ, tr:ash-sharaabu, gloss:içecek}` önceki muhl benzeri suyu belirli özne olarak geri alır; işkence dışarıdan gelen bir saldırı değil, bedene alınan içecek biçiminde adlandırılır. Ardından gelen `{ar:وَ, tr:wa, gloss:ve}` hükmü ikinci alana taşır. `{ar:سَاءَتْ, tr:saa'at, gloss:kötü oldu}` tamamlanmış fiili konaklama alanını kesin bir kötü hüküm altında toplar; `{ar:مُرْتَفَقًا, tr:murtafaqan, gloss:dayanak ve dinlenme yeri}` ise rahatlık, destek ve yarar sağlaması beklenen yeri bu hükmün içine alır. Böylece içecek bedene zarar verir, dinlenme yeri de aynı sahnenin düşmanca konaklamasına dönüşür; bu bağlantının odağı rahatlık işlevinin tersyüz oluşudur.
+
+Bu işlemler bir araya geldiğinde sahne, birbirinden kopuk cezalar olarak değil, kabul ve sığınma imkânlarının adım adım bozulması olarak okunur. Önce `{ar:أَعْتَدْنَا, tr:a'tadnaa, gloss:hazırladık}` belirli alıcılar için hazır bir düzen kurar; `{ar:ٱلظَّالِمِينَ, tr:az-zaalimiin, gloss:haksızlık edenler}` bu düzenin kime yöneldiğini belirler. Sonra `{ar:أَحَاطَ, tr:ahaata, gloss:kuşattı}` ile `{ar:سُرَادِقُهَا, tr:suraadiquhaa, gloss:onun çevreleyen yapısı}` sınırı kapanmaya çevirir. Yardım çağrısı `{ar:يَسْتَغِيثُوا, tr:yastaghiithuu, gloss:yardım isterler}` beklenen suyu çağırsa da `{ar:مَاءٍ, tr:maa'in, gloss:su}` `{ar:ٱلْمُهْلِ, tr:al-muhl, gloss:eriyik ve yoğun madde}` ile karşı-yardıma dönüşür; `{ar:يَشْوِي, tr:yashwii, gloss:kavurur}` fiili bu maddeyi `{ar:ٱلْوُجُوهَ, tr:al-wujuuha, gloss:yüzleri}` üzerinde işletir. Son aşamada `{ar:مُرْتَفَقًا, tr:murtafaqan, gloss:dayanak ve dinlenme yeri}` ile `{ar:سَاءَتْ, tr:saa'at, gloss:kötü oldu}` rahatlık beklentisini de bozar. Ateş ateş, su su olarak kalırken her birinin beklenen hizmeti ters yöne çevrilir.
+
+## Sığınak Biçiminin Karşılığı
+
+Bu tersine dönüşün ilk dış karşılığı, (18:16)'daki hazırlanmış `{ar:مِّرْفَقًا, tr:mirfaqan, gloss:yarar ve rahatlık sağlayan olanak}` ile (104:8, 104:9)'daki kapanmış ateş görüntüsü arasındaki işlev farkında görünür. `{ar:سُرَادِقُهَا, tr:suraadiquhaa, gloss:onun çevreleyen yapısı}` ateşin çevresindeki örtü ya da yapı biçimini taşır; (18:16)'da bu biçim sığınma ve kolaylık ihtimalini açarken (104:8, 104:9)'da aynı çevre korumayı değil kapanmayı belirginleştirir. `{ar:أَحَاطَ, tr:ahaata, gloss:çevreledi}` bu mekânı dört yönden bastıran güce çevirir; (90:20) ve (104:8, 104:9)'daki mühürlenmiş ateş imgeleri bu baskının kaçışı nasıl kapattığını görünür kılar. Böylece dış bağlantı 18:29'daki ateşin mekânsal işlevini genişletir; mimari köken hakkında ek bir iddia üretmez.
+
+Rahatlık işlevi de aynı karşıtlık içinde yer değiştirir. `{ar:مُرْتَفَقًا, tr:murtafaqan, gloss:dayanak ve dinlenme yeri}` (18:16)'daki olumlu rahatlık olanağına ve (18:31)'deki iyi dinlenme yerine karşılık gelir. (18:32)'deki üretken bahçeler bu olumlu çevreyi somutlaştırır. 18:29'da ise aynı işlev `{ar:سَاءَتْ, tr:saa'at, gloss:kötü oldu}` ile cezaya çevrilir; sığınma ve kolaylık işlevi burada düşmanca bir konaklama olarak karşılık bulur.
+
+Sıvının maddi görüntüsü de bu bağlamda açık kalır. `{ar:ٱلْمُهْلِ, tr:al-muhl, gloss:eriyik, tortu, metal veya yoğun akışkan}` tek bir kesin maddeye kapanmaz; (47:15)'teki iyi içecek ve kaynar su karşıtlığı, (70:8) ve (44:45)'teki eriyik imgeleri ortak yoğunluk alanını öne çıkarır. (88:5)'teki yüzleri yakan su, yardım diye sunulan sıvının yaralayıcı sonucunu keskinleştirir. `{ar:وُجُوهَ, tr:wujuuha, gloss:yüzler}` canlı yüzünü ve öne bakan bedensel yüzeyi belirtir; (88:5)'teki yakıcı su ile (80:40)'ta yüzlerde görünen sıkıntı, karşılığın görünür bedene yöneldiğini belirginleştirir. Bu yankılar 18:29'daki yardım sahnesine döndüğünde, suyun neden hayat veren hizmet yerine yoğun ve yaralayıcı bir karşılık olarak duyulduğunu açıklar.
+
+## Değişmeden Taşınan Söz
+
+Bu sahnenin öncesinde sözün aktarım biçimi belirlenir. (18:27)'de `{ar:ٱتْلُ, tr:utlu, gloss:ardından okuyup aktarmak}` alınmış sözün izini sürer; `{ar:كِتَابِ, tr:kitaab, gloss:yazılı ve sabit kitap}` malzemenin bağlayıcı biçimini taşır. `{ar:مُبَدِّلَ, tr:mubaddil, gloss:değiştirici}` sözcüklerin değiştirilemeyeceğini söylerken `{ar:كَلِمَاتِهِ, tr:kalimaatihi, gloss:anlamlı ve aktarılabilir sözler}` aktarımın birimini belirler. 18:29'daki `{ar:قُلِ, tr:quli, gloss:de}` bu sabit malzemeyi kamusal söze taşır. Bu aktarım zinciri hakikati değişmeden iletilen bir söz olarak duyurur; serbestlik de sözü yeniden düzenlemekte değil, ona verilecek karşılıkta görünür. (18:27)'nin bu bağlantısı aktarım sınırını aydınlatır; 18:29'daki seçimin bütün nedenlerini açıklama iddiası taşımaz ve sorumluluğu kaldırmaz.
+
+(18:28)'deki iki arzu yönü bu karşılığın iç düzenini görünür kılar. `{ar:يُرِيدُونَ وَجْهَهُۥ, tr:yuriiduuna wajhahu, gloss:yüzünü ve yöneldiği hedefi istemek}` hedefe yönelen arzuyu, `{ar:تُرِيدُ زِينَةَ, tr:turiidu ziynata, gloss:dünya süsünü istemek}` ise dünya süsüne yönelen arzuyu taşır. Bu iki yön karşı karşıya geldiğinde odaktaki iki `{ar:شَآءَ, tr:shaa'a, gloss:dilemek ve istemek}` daha önce biçimlenmiş arzuların cevap noktasına dönüşür; (18:28)'deki `{ar:شَاءَ, tr:shaa'a, gloss:diledi}` biçimi de aynı yöneliş alanını açar. `{ar:عَيْنَاكَ, tr:aynaka, gloss:gözlerin ve dikkat kanalı}` bakışın kanalını, kalbin gafletle dışarıda bırakılması `{ar:أَغْفَلْنَا قَلْبَهُۥ, tr:aghfalnaa qalbahu, gloss:kalbini dikkatten uzak bırakmak}` dikkatin iç merkezini ve arzunun izlenmesi `{ar:ٱتَّبَعَ هَوَىٰهُ, tr:ittaba'a hawaahu, gloss:hevasının akışını izlemek}` yönelişin peşinden gidilen eğilimi belirler. Özgür cevap böylece bakışın, dikkatin, kalbin ve eğilimin biçimlendirdiği bir yöneliş içinde anlaşılır; seçim gerçekliğini koruyan bu bağ psikolojik bir zorunluluk kurmaz.
+
+## Seçimin Açtığı Yol
+
+Odaktaki iki cevap sonraki ayetlerde iki farklı güzergâha dönüşür. (18:30)'da `{ar:ءَامَنُوا۟, tr:aa'manuu, gloss:doğru sayıp kabul ettiler}` inanma cevabına temas eder; `{ar:عَمِلُوا۟ ٱلصَّٰلِحَٰتِ, tr:amiluu as-saalihat, gloss:iyi işleri eyleme geçirmek}` kabulü eyleme taşır ve `{ar:لَا نُضِيعُ, tr:laa nudii'u, gloss:zayi etmeyiz}` bu yolun kaybolmadığını bildirir. (18:31)'de `{ar:مُتَّكِـِٔينَ, tr:muttaqiin, gloss:bir dayanağa yaslanarak dinlenmek}` ile iyi `{ar:مُرْتَفَقًا, tr:murtafaqan, gloss:dayanak ve rahatlık sağlayan dinlenme yeri}` odaktaki kötü dinlenme yerinin karşısına bedensel olarak yaşanabilir bir sonuç koyar. Seçim böylece yalnızca iki son noktasına değil, eylemle açılan ve farklı türde bir dinlenmeye ulaşan yollara bağlanır.
+
+Bu yolun karşısındaki hata (18:32, 18:33, 18:34, 18:35, 18:36, 18:37)'deki bahçe sahibinde somutlaşır. İki bahçe ürününü eksiksiz verirken `{ar:ءَاتَتْ أُكُلَهَا, tr:aatat ukulahaa, gloss:ürününü eksiksiz vermek}` nimet akışını gösterir; sahip yine `{ar:ظَالِمًا لِّنَفْسِهِ, tr:zaaliman linafsihi, gloss:kendine haksızlık eden}` sayılır. `{ar:مَا أَظُنُّ ... أَبَدًا, tr:maa azunnu ... abadan, gloss:sonsuza dek süreceğini sanmak}` mevcut bahçeyi kendi kendine güvence veren kalıcı bir varlık gibi konuşturur; `{ar:قَالَ, tr:qaala, gloss:bir görüşü söze dökmek}` da bu benimsenmiş konumu dışarıya taşır. (18:37)'deki `{ar:أَكَفَرْتَ, tr:akafarta, gloss:dini gerçeği reddettin mi}` sorusu bu konumu odaktaki `{ar:يَكْفُرْ, tr:yakfur, gloss:örtüp inkâr etsin}` kategorisine bağlar. Nimet eksik verilmemiştir; yaratılmış ve bağımlı oluşu örtülmüş, kalıcılık kendine mal edilmiştir. Bu sahne, haksızlık edenler kategorisi içindeki belirli bir atıf hatasını görünür kılar.
+
+Bahçe sahibinin iddiasına doğrudan verilen düzeltme (18:39)'da `{ar:قُلْتَ مَا شَاءَ ٱللَّهُ, tr:qulta maa shaa'a Allaah, gloss:Allah'ın dilediğini söylemek}` ile `{ar:لَا قُوَّةَ إِلَّا بِٱللَّهِ, tr:laa quwwata illaa bi-llaah, gloss:gücün yalnız Allah'tan olduğunu söylemek}` ifadelerini yan yana getirir. Bu ifadeler odaktaki iki `{ar:شَآءَ, tr:shaa'a, gloss:dilemek ve istemek}` biçimine dönerek insanın cevabını gerçek bir seçim olarak bırakır; aynı anda iradeyi kişinin kendine ait bağımsız bir güç gibi kurmasını sınırlar. Bu okuma (18:39)'daki düzeltmenin doğrudan bahçe sahibinin iddiasına dönük nitelikli bağında kalır. Sorumluluk korunurken seçimin çevresindeki güç ve imkânın kendiliğinden üretilmediği görünür olur.
+
+Bu düzeltmeden sonra bahçenin çevresi ile odaktaki kuşatma arasındaki karşılık açılır. (18:32)'deki koruyucu ve verimli çevre, `{ar:وَحَفَفْنَاهُمَا, tr:wa hafafnaahumaa, gloss:çevresine kuşatıcı bir sınır koymak}` ile kurulur; odaktaki `{ar:أَحَاطَ, tr:ahaata, gloss:çevreledi}` ise aynı çevreleme biçimini kişileri alıp karşı konulmaz bir kapanmaya dönüştürür. (18:42)'de `{ar:وَأُحِيطَ بِثَمَرِهِۦ, tr:wa-uhiita bithamarihi, gloss:ürünün kuşatılıp yıkıma uğraması}` ürünün kaybını, `{ar:خَاوِيَةٌ عَلَىٰ عُرُوشِهَا, tr:khaawiyatun alaa urooshihaa, gloss:destekleri üzerine çökmüş boş yapı}` ise yapının destekleriyle birlikte çöküşünü gösterir. (18:41)'de `{ar:مَاؤُهَا غَوْرًا, tr:maa'uhaa ghawran, gloss:suyun erişilemeyecek derinliğe çekilmesi}` hayat veren kaynağı ulaşılmaz kılar; odaktaki `{ar:مَاءٍ, tr:maa'in, gloss:su}` geri döndüğünde `{ar:ٱلْمُهْلِ, tr:al-muhl, gloss:eriyik ve yoğun madde}` ile birleşir ve erişilebilirliği kurtuluş anlamına gelmeyen bir sunuma çevirir. Böylece (18:32, 18:41, 18:42)'deki üç bahçe hareketi, odaktaki kuşatmanın esaretini ve suyun karşı-yardım oluşunu ayrı ayrı aydınlatır; bahçe uyarıları yine tek bir şemaya kapatılmaz.
+
+## Hakikatin Sonuç Düzeni
+
+`{ar:حَقُّ, tr:haqqu, gloss:gerçeğe uygun ve sağlam olan}` sözcüğünün hakikat alanı, farklı ayetlerde ayrı bir katkıyla genişler. (10:108)'de hakikatin Rabden gelmesi hidayet ve sapmayı kişiye döndürür; bu, seçimin yöneldiği sonucu kişiye bağlar. (78:39)'da hak günün ardından dileyenin Rabbine dönüş yolu seçmesi, dileyiş ile dönüş arasındaki yönü görünür kılar. (11:17)'de hakikate iman ve inkâr ateş vaadiyle bağlanır; tercih sonuçtan ayrılmaz. (40:6)'da Rabbin sözünün ateş ehli hakkında gerçekleşmesi, bildirilen hakikatin hüküm doğuran yönünü belirginleştirir. (3:60)'ta hakikatin Rabden geldiği yeniden bildirilerek kaynak sabitlenir; (48:13)'te iman etmeyenler için hazırlanmış alev, bu seçimin sonuç alanını somutlaştırır. Bu ayetler tek bir zincir değil, aynı seçim-gerçeklik ilişkisine ayrı dış yankılar getirir. Perikoptaki bahçe sahibinin seçimi (18:32, 18:33, 18:34, 18:35, 18:36, 18:37, 18:38, 18:39, 18:40, 18:41, 18:42, 18:43, 18:44) boyunca yıkımla çevrilir; yanlış yönelmiş emeğin kayba dönüşmesi de (18:103, 18:104, 18:105, 18:106)'da görünür. Böylece `{ar:ٱلْحَقُّ, tr:al-haqqu, gloss:gerçeğe uygun ve sağlam olan}` karşısında `{ar:يُؤْمِن, tr:yu'min, gloss:inansın}` veya `{ar:يَكْفُرْ, tr:yakfur, gloss:örtüp inkâr etsin}` yönelişi gerçekten seçilirken, seçimin çevresindeki sonuç düzeninin kişi tarafından kurulmadığı açıklık kazanır.
+
+Bu geniş bağlamın içinde iki daha dar karşı-imge belirir. İlkinde, (18:28)'deki `{ar:يُرِيدُونَ وَجْهَهُۥ, tr:yuriiduuna wajhahu, gloss:yöneldikleri yüzü istemek}` yönelinen hedefi, odaktaki `{ar:ٱلْوُجُوهَ, tr:al-wujuuha, gloss:canlıların yüzleri}` ise bedenin görünür önünü taşır. Odaktaki `{ar:يَشْوِي, tr:yashwii, gloss:güçlü ısıyla yüzleri kavurmak}` bu ikinci yüzü ısıya açık bir yüzeye çevirir; böylece arzunun yöneldiği yüz ile ceza sahnesindeki kaçışı olmayan ön yüz arasında bir karşı-imge kurulur. İki kullanım aynı anlamda birleştirilmez ve (18:28)'deki arzu ile 18:29'daki zarar arasında nedensellik kurulmaz. Bu bağ, kök ve ısı temasının taşıdığı keşifsel mekânsal katkıyla sınırlıdır.
+
+İkinci karşı-imge, yardımın yokluğunun yardım görüntüsünü nasıl tersine çevirdiğini gösterir. (18:43)'te `{ar:فِئَةٌ يَنصُرُونَهُ, tr:fii'atun yansuruunahu, gloss:yardım edecek bir topluluk}` bulunmaması, odaktaki `{ar:يَسْتَغِيثُوا۟, tr:yastaghiithuu, gloss:yardım isterler}` ve `{ar:يُغَاثُوا۟, tr:yughaathuu, gloss:yardım edilir}` çiftinin, yani `{ar:يَسْتَغِيثُوا۟ وَيُغَاثُوا۟, tr:yastaghiithuu wa-yughaathuu, gloss:yardım istemek ve yardıma uğratılmak}` biçiminin beklediği kurtarıcı cevabı hazırlar. Ardından `{ar:مَآءٍ, tr:maa'in, gloss:su}` yardım ortamını, `{ar:ٱلْمُهْلِ, tr:al-muhl, gloss:yoğun eriyik}` bu ortamın maddi karşılığını ve `{ar:يَشْوِى, tr:yashwii, gloss:yüzleri kavurmak}` yardımın bedensel sonuca çevrilmesini belirler; üçü birlikte yardım işlevini tersine çevirir. İçecek böylece yardım biçimini taklit eden bir karşı-yardım gibi okunabilir. Bu bağlantının kapsamı (18:43) ile 18:29 arasındaki sahnelerden doğan ihtiyatlı benzetmedir; sözlükte kök eşitliği kurmaz ve yerel okumanın içeceği zalimce uygunsuz sayan sınırını korur.
+
+Son hareket, sonuçların kime ve nasıl döneceğini belirleyen velayet cümlesinde tamamlanır. (18:44)'te `{ar:ٱلْوَلَٰيَةُ لِلَّهِ ٱلْحَقِّ, tr:al-walaayatu li-llaahi al-haqqi, gloss:gerçek velayet Allah'ındır}` sözü, `{ar:ثَوَابًا, tr:thawaaban, gloss:işin failine dönen karşılık}` ve `{ar:عُقْبًا, tr:uqban, gloss:son durum ve akıbet}` ile birlikte odaktaki `{ar:ٱلْحَقُّ, tr:al-haqqu, gloss:gerçekliğe uygun ve kesin doğru}` kelimesine geri döner. Hakikat böylece başlangıçtaki doğru içeriği koruyarak rakip sığınakların ötesinde sonuçların dönüşünü yöneten gerçeklik olarak duyulur. Bu, kelimenin açık doğruluk anlamını taşıyan nitelikli bir genişlemedir; (18:44)'teki hakikat kelimesinin velayetin sıfatı olarak da okunabilmesi bu bağlantının sınırını korur. Perikopun sonuç düzeni, bu daha geniş yönü hakikatin üzerine ek bir hüküm bindirmeden görünür kılar.
+
+</editorial_prose>

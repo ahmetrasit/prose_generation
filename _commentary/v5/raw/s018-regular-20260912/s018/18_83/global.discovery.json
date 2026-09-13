@@ -1,0 +1,535 @@
+{
+  "schema_version": "commentary-v5-scope-discovery-v1",
+  "ayah_ref": "18:83",
+  "lane": "global",
+  "coverage_complete": true,
+  "candidate_decisions": [
+    {
+      "candidate_id": "cand_7cc986cba76f77f78501",
+      "decision": "accept",
+      "reason": "Güvenilir yayın 18:83:9 taşıyıcısını ve root_000516/B009 dalını doğrudan bağlayarak vaat edilen zikrin eksiksiz biyografi değil, bilinmeyen bütünden eyleme yön veren seçilmiş bir hatırlatma olduğunu bildiriyor. 4:164, 40:78 ve 20:99 bağlantıları seçilmiş anlatım ve hatırlatma işlevine bağımsız dönüş sağlıyor.",
+      "finding_refs": [
+        "global:selective-reminder"
+      ],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_186e8e77f3c0654d07c2",
+      "decision": "accept",
+      "reason": "Güvenilir yayın 18:83:4 taşıyıcısında root_001221/B001 ve B006 dallarını birlikte bağlayarak unvanın karşıt yönleri ve karşıt politika sonuçlarını tek yönetim yöntemi altında tutan işlevini bildiriyor. Geniş okuyucu yürüyüşü 18:84-88 sırasını aynı iki dallı ilişkinin somut tetikleyicisi olarak veriyor; iki dal ve başlık yüzü bulguda korunuyor.",
+      "finding_refs": [
+        "global:paired-title-governance"
+      ],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_76e2803baef66803de47",
+      "decision": "represented",
+      "reason": "B009'a bağlı okuyucu yürüyüşünün seçilmiş ve eyleme yön veren hatırlatma okuması global:selective-reminder içinde aynı 18:83:9:1 taşıyıcısı, dal yüzü ve reader-walk bağlamlarıyla tam olarak korunuyor; adayın hiçbir dalı, bağlamı veya yükümlülüğü dışarıda bırakılmıyor.",
+      "finding_refs": [
+        "global:selective-reminder"
+      ],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_f875d934b7303abf1ce1",
+      "decision": "represented",
+      "reason": "18:109'un sınırsız ilahi söz alanı karşısında anlatıyı zorunlu olarak seçici kıldığına dair geriye dönük okuma, global:selective-reminder bulgusunun aynı seçicilik sonucudur; 18:109 desteği ve nitelikli sınırı named finding içinde korunuyor.",
+      "finding_refs": [
+        "global:selective-reminder"
+      ],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_63efdab589d371db7244",
+      "decision": "represented",
+      "reason": "Geniş okuyucu yürüyüşünün root_001221/B006 üzerinden karşıt politika dallarını tek unvan altında düzenleme iddiası, global:paired-title-governance bulgusunun aynı B001-B006 ilişkisi ve 18:84-88 bağlamıyla tam olarak taşınıyor; adayın B006 dalı veya destek yükümlülüğü dışlanmıyor.",
+      "finding_refs": [
+        "global:paired-title-governance"
+      ],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_1df6d04157b4b0dfc221",
+      "decision": "accept",
+      "reason": "18:84-86'yı imkân, izlenen yol ve bir uca varış sırası olarak okuyan geniş okuyucu yürüyüşü, karşıt politika sonuçlarını tek yöntem altında tutan paired-title bulgusundan farklı bir güzergâh ve adın işlev kazanması ilişkisi kuruyor. Destek legacy_unbound olduğu için bu ayrı itinerary okuması keşifsel ve açık sınırlarla korunuyor.",
+      "finding_refs": [
+        "global:title-itinerary"
+      ],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_0fbd11893178baccd988",
+      "decision": "reject",
+      "reason": "Legacy_unbound HFT özeti, sebebin tekrar tekrar izlenmesi ve anlatının başkişinin güzergâhını yeniden izlemesi iddiasını taşıyor, ancak packet'te exact focus veya context word coordinate, root, attributed rol ve focus return yok. Bu nedenle HFT adayının kendi activation zinciri kurulamaz; ayrı connection-temelli recitation bulgusu bu adayı temsil etmiyor.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_f63b7df981f70266e699",
+      "decision": "reject",
+      "reason": "Legacy_unbound HFT özeti total provision ve encompassing knowledge karşıtlığını öne sürüyor, fakat exact carrier, bağımsız context trigger, attributed root/rol veya focus return vermiyor. Bu unanchored sentez, B009 için seçici hatırlatma bulgusuna eklenebilecek aday-özgü bir trace sağlamıyor.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_1ca8200a2171b192aabc",
+      "decision": "reject",
+      "reason": "Legacy_unbound HFT özeti doğu, batı ve iki engel arasındaki birleşimi unvanın mekânsal mimarisi sayıyor, ancak supplied exact context word, root, attributed rol veya focus-return trace yok. Başlık dallarının packet'te bulunması bu kayıtsız uzamı tek başına aktive etmiyor.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_a90e55594dc972985f38",
+      "decision": "reject",
+      "reason": "Legacy_unbound HFT özeti ikili sonuçları hükme bağlama yönünde bir uzantı bildiriyor, fakat exact carrier, bağımsız tetikleyici koordinatı, attributed rol ve focus return sunmuyor. Bu nedenle B006 için ayrı bir HFT aktivasyonu kurulamaz.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_1957ffefb8ee023f97b0",
+      "decision": "reject",
+      "reason": "Legacy_unbound HFT özeti iletişim güçlüğü ve ortak müzakereyi rapordan koordinasyona dönüşüm olarak sunuyor, ancak exact context coordinate, root, attributed rol, bağımsız trigger veya focus return yok. İddia packet sınırında unanchored kalıyor.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_a2c2a88062bc99c16759",
+      "decision": "reject",
+      "reason": "Legacy_unbound HFT kaydı linked itinerary, paired geography, paired judgment, bounded memory ve executable speech dahil bir envanter özeti veriyor, ancak bu bileşenlerden hiçbiri için exact carrier-trigger-focus-return trace sağlamıyor. Kayıt ayrıca unanchored sentezin surah tezi olarak alınmaması gerektiğiyle nitelendirilmiş.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_e578901afb7c7f92c160",
+      "decision": "reject",
+      "reason": "Bu legacy_unbound kayıt, paired spatial ve judicial yapıların bilinçli dal aktivasyonu olmayabileceğine dair bir belirsizliktir; olumlu bir activation trace, exact carrier, independent trigger veya focus return sağlamaz. Belirsizlik tek başına global finding oluşturmaz.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_76fa607913b17aca7fd5",
+      "decision": "reject",
+      "reason": "Bu legacy_unbound kayıt comprehensive knowledge ile partial recital karşıtlığının yalnızca yerel retorik olabileceğini bildiriyor, fakat exact HFT trace, context coordinate, attributed root/rol veya focus return yok. B009'un seçici okuması bu adayın eksik activation zincirini onarmıyor.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_928265bda028afb79638",
+      "decision": "reject",
+      "reason": "Legacy_unbound HFT kaydı extraction ve iron-record outlier'larını form-distant veya cross-domain dallar olarak yalnızca nitelendiriyor; exact carrier, branch, bağımsız trigger ve focus return sunmuyor. Bu nedenle ne outlier iddiası ne de onun sınırı retain edilebilir bir global activationdır.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    }
+  ],
+  "findings": [
+    {
+      "finding_ref": "global:selective-reminder",
+      "origin_candidate_id": "cand_7cc986cba76f77f78501",
+      "represented_candidate_ids": [
+        "cand_76e2803baef66803de47",
+        "cand_f875d934b7303abf1ce1"
+      ],
+      "title": "Anlatı, bilinmeyen bütünden eyleme dönük bir hatırlatma seçer",
+      "claim": "18:83'te vaat edilen ذِكْرًا, Zülkarneyn'in bilinmeyen bütün hayatını tüketen bir biyografi değil, daha geniş bütünden eyleme yön veren seçilmiş bir hatırlatma olarak da duyulur.",
+      "mechanism": "18:83:9:1'deki ذِكْرًا yüzeyi, root_000516/B009'un F001 hatırlatma çekirdeğini taşır. 4:164 ve 40:78 bağlantıları bazı elçi haberlerinin anlatılıp bazılarının anlatılmadığını, 20:99 bağlantısı ise geçmiş haberle verilen zikrin birlikte kurulabildiğini gösterir. Reader-walk kayıtları 18:22'de merakın sayıya bağlanmasını ve 18:109'da ilahi sözlerin anlatılan parçayı aşmasını aynı focus taşıyıcısına geri dönen nitelikli tetikleyiciler olarak ekler; böylece söz, bilinmeyen bütünden seçilen ve eyleme yön veren bir hatırlatma ilişkisine dönüşür.",
+      "reader_payoff": "Okur, 'ondan bir bölüm anlatacağım' ifadesinin bilgi eksikliğinden doğan rastgele bir özet değil, muhatabı eyleme yönlendirmek için seçilmiş bir anlatı olduğunu fark eder.",
+      "containment": "Düz anlamdaki bir bölüm anlatma vaadi korunur. 18:22 ve 18:109 bağlantıları exact hedef morfolojisi değil, legacy_unbound reader-walk aktarımıdır; bunlar anlatının bütün ilahi bilgiyi tükettiğini veya Zülkarneyn'in hayatının tüm sınırlarını belirlediğini göstermez.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": [
+          "legacy_unbound",
+          "trusted"
+        ],
+        "reason": "Trusted publication focus B009'u ve seçici anlatı sonucunu doğrudan sabitliyor; trusted connection kayıtları anlatılmış/anlatılmamış haber ve geçmiş rapor ilişkisini destekliyor, legacy_unbound reader-walk kayıtları ise 18:22 ve 18:109 uzantılarını exact hedef analizi olmadan nitelendiriyor."
+      },
+      "support_ids": [
+        "sup_be3fb021196c598920a3",
+        "sup_58cb3b44d55605b58b4c",
+        "sup_0fc0976db5fe73f30de6"
+      ],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000516/B009",
+          "facet_id": "F001",
+          "branch_gloss": "hatırlatma, hatırlamayı sağlayan araç ve sıkça anma",
+          "facet_statement": "Bir başkasında veya kişinin kendisinde unutulmuş bilginin yeniden hatırlanmasını sağlar.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "18:83:9:1"
+          ],
+          "trigger_refs": [
+            "4:164",
+            "40:78",
+            "20:99",
+            "18:22",
+            "18:109",
+            "conn_216e906602bf81ffc674",
+            "conn_c12cc1aa7976fd3e78ea",
+            "conn_e305c9914ef83a2c47c1",
+            "sup_be3fb021196c598920a3",
+            "sup_58cb3b44d55605b58b4c",
+            "sup_0fc0976db5fe73f30de6"
+          ],
+          "focus_return_refs": [
+            "18:83:9:1"
+          ],
+          "carrier": "ذِكْرًا, 18:83'te sorulan kişiden veya konudan aktarılacak içeriği adlandıran focus nesnesidir; B009 F001 bu aktarımın unutulan bilgiyi yeniden hatırlatan bir araç olma yönünü taşır.",
+          "independent_trigger": "4:164 ve 40:78'de bazı haberlerin anlatılıp bazılarının anlatılmaması, 20:99'da geçmiş haberin verilen bir zikirle eşleşmesi, reader-walk kayıtlarında ise 18:22 ve 18:109'un anlatının daha büyük bilinmeyen karşısında seçici kalması, hatırlatma işlevini focus yüzeyine geri getirir.",
+          "activation": "Seçim ve hatırlatma ilişkisi, focus'taki ذِكْرًا ile temas ettiğinde vaat edilen söz yalnızca bir olay listesi değil, bilinmeyen bütünden muhatabın anlayışını ve eylemini yönlendirmek üzere geri getirilen bir parça olarak duyulur.",
+          "resulting_reading": "Verilecek cevap, daha büyük ve bilinmeyen hayattan eyleme yön veren ilişkileri seçen bir hatırlatma olarak görünür.",
+          "boundary": "Bu temas ذِكْرًا'yı tek başına kutsal kitap, eksiksiz tarih veya ilahi sözlerin toplamı yapmaz; 18:22 ve 18:109 uzantıları legacy_unbound ve niteliklidir."
+        }
+      ],
+      "connection_refs": [
+        "conn_216e906602bf81ffc674",
+        "conn_c12cc1aa7976fd3e78ea",
+        "conn_e305c9914ef83a2c47c1"
+      ],
+      "context_refs": [
+        "4:164",
+        "40:78",
+        "20:99",
+        "18:22",
+        "18:109"
+      ],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:paired-title-governance",
+      "origin_candidate_id": "cand_186e8e77f3c0654d07c2",
+      "represented_candidate_ids": [
+        "cand_63efdab589d371db7244"
+      ],
+      "title": "İki uçlu unvan, karşıt politikaları tek yönetilen ilişkide tutar",
+      "claim": "ذِي ٱلْقَرْنَيْنِ unvanı, iki çıkıntı veya iki uçla açıklanan adlandırma zeminini korurken, iki şeyi birbirine katıp bağlama anlamı üzerinden doğu-batı yönlerini ve ceza-iyilik sonuçlarını tek bir yönetim yöntemi altında tutan bir işlev olarak da okunur.",
+      "mechanism": "18:83:4:2'deki قَرْنَيْنِ yüzeyi hem root_001221/B001'in F001 birleştirme çekirdeğini hem de B006'nın F005 iki çıkıntı veya iki uç üzerinden açıklanan lakap yüzünü taşır. Reader-walk desteği 18:84'te geniş imkânı, 18:85'te izlenen yöntemi ve 18:86-88'de karşıt sonuçlara verilen iki politikayı aynı unvana geri döndürür. Böylece dual biçim yalnız biyografik bir etiket olarak değil, karşıt uçları tek bir güzergâh içinde yönetilebilir kılan bir başlık olarak işlev görür.",
+      "reader_payoff": "Okur, unvanın yalnızca 'iki boynuzlu' bir adlandırma olmadığını, farklı yönlere ve farklı insan sonuçlarına aynı yönetim çerçevesi içinde cevap verebilen bir düzenleyici işlev kazandığını görür.",
+      "containment": "Başlığın olağan özel ad ve iki uçlu biçim zemini korunur. Bu okuma belirli bir tarihsel kişilik tanımlamaz, bütün ق ر ن kullanımlarını birleştirme anlamına çevirmez ve 18:84-88 bağlamını unvanın zorunlu biyografik açıklaması olarak sunmaz.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": [
+          "legacy_unbound",
+          "trusted"
+        ],
+        "reason": "Trusted publication iki focus dalını aynı taşıyıcıya bağlar; legacy_unbound wide reader-walk 18:84-88 içindeki enablement, means, extreme ve karşıt politika temaslarını ekler. Bu context ayetlerinin kelime düzeyi analizleri packet'te bulunmadığı için birleşik global ilişki qualified tutulur."
+      },
+      "support_ids": [
+        "sup_746a7b2868c6e647665b",
+        "sup_0f7eb66fd1e747863447"
+      ],
+      "branch_activations": [
+        {
+          "branch_ref": "root_001221/B001",
+          "facet_id": "F001",
+          "branch_gloss": "bir şeyi başka bir şeye katıp bağlama",
+          "facet_statement": "İki şeyi birbirine katma, bağlama veya birlikte tutma işlemi.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "18:83:4:2"
+          ],
+          "trigger_refs": [
+            "18:84",
+            "18:85",
+            "18:86",
+            "18:87",
+            "18:88",
+            "sup_746a7b2868c6e647665b",
+            "sup_0f7eb66fd1e747863447"
+          ],
+          "focus_return_refs": [
+            "18:83:4:2"
+          ],
+          "carrier": "قَرْنَيْنِ, focus unvanındaki ikilik ve construct ilişkisi içinde iki unsuru birlikte tutma yönünü taşıyabilecek yüzeydir.",
+          "independent_trigger": "18:84-88'u broad enablement, means, sunset extreme ve punitive/beneficent alternatives olarak okuyan supplied reader-walk ile trusted publicationdaki doğu-batı ve ceza-iyilik eşlemesi, iki politik yönün aynı çerçevede buluşmasını sağlar.",
+          "activation": "İki şeyi birlikte tutan B001 çekirdeği, unvanın iki yönlü yüzeyiyle 18:84-88'deki farklı politika sonuçlarına temas eder; başlık böylece birbirinden kopuk kararlar yerine tek yönetilen ilişki içindeki karşıt seçenekleri taşır.",
+          "resulting_reading": "Unvan, karşıt yön ve sonuçları tek bir yönetim yöntemi altında birleştiren işlevsel bir başlık olarak görünür.",
+          "boundary": "B001'in focus'taki ikili unvanı her bağlamda fiziksel bağlama anlamına çevirdiği veya tarihsel yönetim kimliğini kanıtladığı ileri sürülmez."
+        },
+        {
+          "branch_ref": "root_001221/B006",
+          "facet_id": "F005",
+          "branch_gloss": "boynuz veya boynuz biçimli çıkıntı",
+          "facet_statement": "Güneşin ilk görünen üst kenarı ile iki çıkıntı ya da iki uç üzerinden açıklanan lakap.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "18:83:4:2"
+          ],
+          "trigger_refs": [
+            "18:84",
+            "18:85",
+            "18:86",
+            "18:87",
+            "18:88",
+            "sup_746a7b2868c6e647665b",
+            "sup_0f7eb66fd1e747863447"
+          ],
+          "focus_return_refs": [
+            "18:83:4:2"
+          ],
+          "carrier": "قَرْنَيْنِ, iki çıkıntı veya iki uç üzerinden açıklanan dual unvan yüzeyini taşır; B006 F005 bu adlandırma biçimini sınırlar.",
+          "independent_trigger": "18:84-86'daki doğuya ve batıya açılan hareket ile bir extreme ulaşma, iki uçlu başlığın tek bir mekânsal ve yönetimsel düzen içinde okunmasına izin veren supplied context temaslarıdır.",
+          "activation": "İki uçla açıklanan lakap yüzü, focus'taki dual biçime döner ve 18:84-88'deki doğu-batı ile iki sonuç hattını aynı unvan altında görünür kılar.",
+          "resulting_reading": "İki uçlu adlandırma, karşıt yönler ve karşıt politika sonuçları arasında düzenleyici bir başlık ilişkisi kurar.",
+          "boundary": "Bu, gerçek boynuzların tarihsel bir biyografiyi açıkladığını veya unvanın bütün anlamının fiziksel çıkıntıya indirgenebileceğini iddia etmez."
+        }
+      ],
+      "connection_refs": [],
+      "context_refs": [
+        "18:84",
+        "18:85",
+        "18:86",
+        "18:87",
+        "18:88"
+      ],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:title-itinerary",
+      "origin_candidate_id": "cand_1df6d04157b4b0dfc221",
+      "represented_candidate_ids": [],
+      "title": "Unvan, anlatının güzergâhını taşıyan bir işlev kazanır",
+      "claim": "18:84-86'daki imkân, izlenen yol ve bir uca varma sırası, قَرْنَيْنِ unvanını yalnızca bir kişiyi tanımlayan ad olmaktan çıkarıp anlatının ilerlediği güzergâhı taşıyan bir işlev olarak da görünür kılar.",
+      "mechanism": "18:83:4:2'deki قَرْنَيْنِ yüzeyi, root_001221/B001'in iki şeyi birbirine katıp birlikte tutma çekirdeğini taşır. Legacy_unbound wide reader-walk 18:84'te enablement, 18:85'te followed means ve 18:86'da arrival at one extreme sırasını unvana geri döndürür; bu temas dual adı karşıt politikaların içeriğinden ayrı olarak anlatının ardışık güzergâhını taşıyan bir işlev haline getirir.",
+      "reader_payoff": "Okur, daha sonraki anlatının unvanı süsleyen bir arka plan değil, imkândan yönteme ve oradan sınıra ilerleyen olay akışını okuma anahtarı gibi çalıştırdığını fark eder.",
+      "containment": "Bu, title-itinerary ilişkisini yalnızca supplied legacy_unbound reader-walk'in 18:84-86 özetine dayanarak keşifsel biçimde kurar. Unvanın tarihsel kimliği, bütün perikopun tek bir yol metaforu olduğu veya yola çıkma dalının her başlık kullanımında bulunduğu ileri sürülmez; özel ad okuması korunur.",
+      "epistemic": {
+        "status": "exploratory",
+        "source_trust": [
+          "legacy_unbound"
+        ],
+        "reason": "Reader-walk desteği 18:84-86 sırasını ve unvanın itinerary olarak değişen işlevini açıkça bildiriyor, ancak context ayetlerinin target morphology ve bağımsız citable publication desteği packet'te bulunmuyor."
+      },
+      "support_ids": [
+        "sup_04dd56e0e7b1f8c6388a"
+      ],
+      "branch_activations": [
+        {
+          "branch_ref": "root_001221/B001",
+          "facet_id": "F001",
+          "branch_gloss": "bir şeyi başka bir şeye katıp bağlama",
+          "facet_statement": "İki şeyi birbirine katma, bağlama veya birlikte tutma işlemi.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "18:83:4:2"
+          ],
+          "trigger_refs": [
+            "18:84",
+            "18:85",
+            "18:86",
+            "sup_04dd56e0e7b1f8c6388a"
+          ],
+          "focus_return_refs": [
+            "18:83:4:2"
+          ],
+          "carrier": "قَرْنَيْنِ, unvanın dual yapısında unsurları birlikte tutma yönünü taşıyabilecek focus yüzeyidir.",
+          "independent_trigger": "Reader-walk'in 18:84'te enablement, 18:85'te izlenen means ve 18:86'da bir extreme'e varma olarak verdiği ardışık bağlam, unvana dönen bağımsız güzergâh temasını sağlar.",
+          "activation": "Birleştirme ve birlikte tutma çekirdeği, sırayla açılan imkân, yöntem ve uç temasına döner; başlık böylece yalnızca kimlik bildiren bir söz değil, anlatının hareketini bir arada tutan bir işaret gibi çalışır.",
+          "resulting_reading": "Unvan, imkândan yönteme ve son sınıra uzanan güzergâhı taşıyan bir işlev olarak da duyulur.",
+          "boundary": "Bu activation, 18:84-86'daki olay sırasını qrn dalının zorunlu sözlük anlamı yapmaz ve tarihsel bir seyahat iddiası kurmaz."
+        }
+      ],
+      "connection_refs": [],
+      "context_refs": [
+        "18:84",
+        "18:85",
+        "18:86"
+      ],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:question-authorized-disclosure",
+      "origin_candidate_id": null,
+      "represented_candidate_ids": [],
+      "title": "Soru, yetkili ve ölçülü bir açıklama eşiğine döner",
+      "claim": "18:83'teki soru ile ardından gelen قُلْ emri, daha geniş soru-cevap örüntüleriyle temas ettiğinde, sorunun kendi başına sınırsız bilgi üretmediği ve yetkili bir sözlü açıklama çerçevesine alındığı bir okuma açar.",
+      "mechanism": "18:83:1:2'deki يَسْـَٔلُ yüzeyi root_000661/B001'in bilgi sorma çekirdeğini, 18:83:5:1'deki قُلْ ise root_001272/B001'in sözü sesli olarak dışa çıkarma çekirdeğini taşır. 17:85 ve 20:105 bağlantıları soru ardından ölçülü bir cevap formunu, 18:70 aynı sûrede soru ve yetkili zikri, 2:219 ise soru-cevap düzeninin pratik bir konuya yönlendirilebildiğini gösterir. Bu temas soru eylemini cevapla özdeşleştirmeden, focus'taki soruyu yönlendirilmiş bir açıklama eşiğine bağlar.",
+      "reader_payoff": "Okur, 'soruyorlar' ile 'de ki' arasındaki geçişi yalnızca anlatı sırası olarak değil, sorunun kapsamını cevabın yetkili ve ölçülü biçimi içinde düzenleyen bir dönüş olarak görür.",
+      "containment": "Odak ayetin olağan soru ve emir yapısı korunur. Bu bağlantılar bütün soruların yasaklandığını, bütün cevapların eksiksiz olduğunu veya hedef ayetlerin morphology'sinin focus ile aynı olduğunu kanıtlamaz; target morphology packet'te supplied değildir.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": [],
+        "reason": "Focus taşıyıcıları exact surface evidence ile sabittir ve dört connection kaydı exact hedef Arabic ile ilişki notu sağlar, fakat hedef morfoloji veya ayrı citable semantic support sağlamaz."
+      },
+      "support_ids": [],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000661/B001",
+          "facet_id": "F001",
+          "branch_gloss": "bilgi sormak veya bir şey istemek",
+          "facet_statement": "Bir muhataba yönelip bilgi edinmeye veya bir şeyi elde etmeye çalışma eylemini bildirir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "18:83:1:2"
+          ],
+          "trigger_refs": [
+            "17:85",
+            "20:105",
+            "18:70",
+            "2:219",
+            "conn_75e562cde3b29d315dcf",
+            "conn_c78008f223342d99748a",
+            "conn_f733c0d499627bad837d",
+            "conn_ef07e5cf1de288a88da1"
+          ],
+          "focus_return_refs": [
+            "18:83:1:2"
+          ],
+          "carrier": "يَسْـَٔلُونَكَ, focus'ta bir muhataba yönelip konu hakkında bilgi edinmeye çalışma eylemini taşır.",
+          "independent_trigger": "17:85, 20:105 ve 18:70'te soru doğrudan bir cevap veya zikredilecek açıklama çerçevesine girer; 2:219 aynı soru-cevap biçiminin konuya göre yönlendirilebildiğini gösterir.",
+          "activation": "Daha geniş soru-cevap temasları, focus'taki sorma eylemine dönerek sorunun cevabı zorunlu olarak sınırsızlaştırmadığını ve yönlendirilmiş bir açıklama beklediğini görünür kılar.",
+          "resulting_reading": "Soru, yetkili sözün kapsamını açan fakat onun yerine geçmeyen bir bilgi talebi olarak duyulur.",
+          "boundary": "B001'in focus sorusunu genel bir soru yasağına veya bütün cevapların aynı biçimde verildiği iddiasına taşıdığı ileri sürülmez."
+        },
+        {
+          "branch_ref": "root_001272/B001",
+          "facet_id": "F001",
+          "branch_gloss": "söze dökme",
+          "facet_statement": "Çekirdek işlem, sözü sesli olarak dışa çıkarmaktır.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "18:83:5:1"
+          ],
+          "trigger_refs": [
+            "17:85",
+            "20:105",
+            "18:70",
+            "2:219",
+            "conn_75e562cde3b29d315dcf",
+            "conn_c78008f223342d99748a",
+            "conn_f733c0d499627bad837d",
+            "conn_ef07e5cf1de288a88da1"
+          ],
+          "focus_return_refs": [
+            "18:83:5:1"
+          ],
+          "carrier": "قُلْ, focus'taki soruyu muhataba sesli ve yönlendirilmiş bir cevap eylemine çeviren emir yüzeyidir.",
+          "independent_trigger": "17:85 ve 20:105'teki soru ardından gelen قُلْ biçimli cevaplar, 18:70'teki yetkili zikri vaat eden söz ve 2:219'daki konuya yönelen cevap, söze dökme eyleminin açıklama eşiğini sağlar.",
+          "activation": "Yetkili cevap örüntüsü قُلْ taşıyıcısına geri döndüğünde, focus'taki emir soruyu kapatmaz; soruyu seçilmiş içeriğin sözlü olarak açıklanacağı bir kanala yönlendirir.",
+          "resulting_reading": "De ki, soruya verilmiş sınırsız bir bilgi dökümü değil, ardından gelecek recitation'ın sesli başlangıcı olarak görünür.",
+          "boundary": "Bu ilişki قُلْ için bütün söz, hüküm veya vahiy anlamlarını etkinleştirmez; hedef ayetlerin morphology'si supplied değildir."
+        }
+      ],
+      "connection_refs": [
+        "conn_75e562cde3b29d315dcf",
+        "conn_c78008f223342d99748a",
+        "conn_f733c0d499627bad837d",
+        "conn_ef07e5cf1de288a88da1"
+      ],
+      "context_refs": [
+        "17:85",
+        "20:105",
+        "18:70",
+        "2:219"
+      ],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:recitation-as-sequential-trace",
+      "origin_candidate_id": null,
+      "represented_candidate_ids": [],
+      "title": "Recitation, izlenebilir bir anlatı izi açar",
+      "claim": "18:83'teki سَأَتْلُوا۟ vaadi, daha geniş recitation örnekleriyle temas ettiğinde, seçilmiş hesabı muhataba ardışık bir iz halinde taşıyan ve izlenebilen bir anlatı eylemi olarak da görünür.",
+      "mechanism": "18:83:6:2'deki أَتْلُوا۟ yüzeyi root_000186/B001'in ardından izleme ve ardışıklık çekirdeğini taşır. 18:27 bağlantısı vahyedileni okuma emrini, 26:69 ve 7:175 bağlantıları belirli bir kişinin haberini recite etme emirlerini exact hedef Arabic ve ilişki notlarıyla sunar. Bu temas focus'taki gelecek zamanlı recitation'ı, from-him ile sınırlandırılmış içeriğin sırasıyla açılan bir iz olarak duyurur.",
+      "reader_payoff": "Okur, 'ondan bir bölüm anlatacağım' sözünün rastgele bilgi aktarımı değil, takip edilebilir bir anlatı sırasına sokulmuş seçilmiş haber vaadi olduğunu fark eder.",
+      "containment": "Düz recitation ve anlatma zemini korunur. Bu activation hesabı kutsal kitapla özdeşleştirmez, başkişinin güzergâhının literal olarak tekrarlandığını söylemez ve target morphology packet'te bulunmadığı için connection temasını qualified tutar.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": [],
+        "reason": "Focus fiili ve root branch exact packet surface ile sağlanıyor; 18:27, 26:69 ve 7:175 bağlantıları exact hedef Arabic ve ilişki notu veriyor, ancak hedef morphology supplied olmadığı için resulting relation nitelikli kalıyor."
+      },
+      "support_ids": [],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000186/B001",
+          "facet_id": "F001",
+          "branch_gloss": "ardından izleme",
+          "facet_statement": "Bir varlık ya da eylem, önce gelen bir başka şeye bağlı olarak ardından gelir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "18:83:6:2"
+          ],
+          "trigger_refs": [
+            "18:27",
+            "26:69",
+            "7:175",
+            "conn_f1653e9b0e0e853a9085",
+            "conn_da3b5557344382150554",
+            "conn_49138fdf3d17cd175528"
+          ],
+          "focus_return_refs": [
+            "18:83:6:2"
+          ],
+          "carrier": "أَتْلُوا۟, focus'ta yakın gelecekte gerçekleştirilecek recitation eylemini ve bir içeriğin ardışık biçimde aktarılmasını taşıyan fiildir.",
+          "independent_trigger": "18:27'de vahyedileni okuma, 26:69'da İbrahim'in haberini ve 7:175'te belirli kişinin haberini recite etme emirleri, recitation'ı önceden bulunan veya seçilmiş bir içeriğin ardından gitme düzenine bağlar.",
+          "activation": "Bu daha geniş recitation örnekleri focus fiiline döndüğünde, vaat edilen aktarımın içeriği yalnızca söylenmiş olmakla kalmaz; 'ondan' ile sınırlandırılmış haberin adım adım izlenebileceği bir anlatı izi kurulur.",
+          "resulting_reading": "سَأَتْلُوا۟, seçilmiş hesabı izlenebilir bir sıra halinde muhataba taşıyan recitation vaadi olarak görünür.",
+          "boundary": "B001 burada focus fiilini literal yürüyüşe, kutsal kitap okumaya veya başkişinin fiziksel güzergâhının zorunlu tekrarına çevirmez."
+        }
+      ],
+      "connection_refs": [
+        "conn_f1653e9b0e0e853a9085",
+        "conn_da3b5557344382150554",
+        "conn_49138fdf3d17cd175528"
+      ],
+      "context_refs": [
+        "18:27",
+        "26:69",
+        "7:175"
+      ],
+      "semantic_obligation_refs": []
+    }
+  ],
+  "friction_notes": [
+    "Focus word alignment packet'te 10/10 çözümlenmiş, unresolved analysis unit bulunmuyor; primary floor, sorudan yetkili recitation vaadine uzanan doğrudan yüzeyi sağlıyor.",
+    "Packet'te selected_context_units boş. 18:84-88 ve reader-walk tarafından adlandırılan 18:22 ile 18:109, exact context morphology yerine support özeti olarak kullanıldı ve ilgili bulgularda qualified veya exploratory sınırları açık tutuldu.",
+    "Connection kayıtları hedef Arabic ve ilişki notları sağlıyor, ancak çoğunlukla target morphology sağlamıyor; connection-temelli question ve recitation bulguları bu yüzden qualified tutuldu.",
+    "Cand_7cc986cba76f77f78501 ve cand_186e8e77f3c0654d07c2 için iki trusted publication kabul edildi. Reader-walk tekrarları, 18:109 seçicilik uzantısı ile 18:84-88 başlık ilişkisi named findings içinde temsil edildi; 18:84-86 itinerary özeti ayrı bir reader payoff taşıdığı için korunmuş ayrı bir bulgu oldu.",
+    "Dokuz legacy_unbound HFT özeti tek tek incelendi. Hiçbirinde exact carrier, bağımsız trigger, attributed context/root/rol ve focus return zinciri bulunmadığından unanchored HFT sentezleri reject edildi; bu durum packet dışı dalları veya bağlantıları topluca negatif envantere çevirmiyor."
+  ]
+}

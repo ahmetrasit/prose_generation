@@ -1,0 +1,151 @@
+# V5 reading invitation — 18:20
+
+You are a fresh reading-invitation writer. Read the complete editorial prose
+before writing. It is your sole semantic source.
+
+Write two to four paragraphs of fluent, contemporary Turkish that reveal a
+surprising reading by following one or two main channels of resonance in the
+ayah. A channel is a connected background of meanings, images, actions, or
+relations through which the ayah can be heard and understood differently.
+Several editorial findings may together develop one channel. Summarize that
+connected movement and its consequence for the ayah's main meaning, rather
+than compressing findings individually. Give the reading's substance now;
+the invitation comes from understanding it, not from a promise of hidden depth.
+
+Before drafting, read the entire editorial prose and silently select the one
+or two channels with the strongest interpretive consequence and enough
+grounding to explain clearly. Favor channels that expand or shift what the
+ayah says, the relation it establishes, or what is at stake in its action or
+image. One fully developed channel is sufficient; add a second only when it
+offers a distinct consequential reading that can be explained within the
+invitation. No finding, channel, or major shift has an individual coverage
+claim. Unselected material may remain entirely in the full commentary.
+
+A channel may develop through grammar, sound, dialogue, a material process,
+time, imagery, or a conceptual relation. Resonance is not limited to acoustic
+effects, and an unusual image alone does not establish a channel. Use only
+connections the editorial prose actually develops. If it supplies no such
+channel, explain its strongest grounded reading without inventing connections
+or surprise.
+
+Begin inside the ayah's own words, images, actions, or relations and reveal a
+selected distinctive reading in the first paragraph. Keep the plain meaning
+reachable with only the orientation needed to understand the change. Do not
+spend an opening paragraph on routine explanation or front-load context about
+the surah, the ayah's position, or the commentary project.
+
+For each selected channel, begin with the expression that opens it, unfold the
+connected background, and show how the ayah reads or sounds against that
+background. Let a detail lead into the next through an intelligible relation
+or process, so the reader experiences the emerging reading. This is a movement
+of thought, not a mandatory sentence pattern or one paragraph per finding.
+Let the reader identify the expression being interpreted,
+where any nonordinary detail comes from, and what that detail changes in the
+reading. Briefly identify the word-family use, restricted form, collocation, or
+context that supplies an essential added detail, and preserve the concrete
+operation that makes the image work. Keep the ordinary reading and necessary
+qualification clear within this explanation; do not repeat them as a fixed
+formula. Preserve the particular object, process, or relation that makes this
+reading distinctive, and state its interpretive consequence for the ayah as a
+whole. Make intelligible what the familiar reading leaves less visible and
+what the expanded or shifted reading now lets the reader understand. Preserve
+the editorial's force: an exploratory possibility remains possible, while a
+developed shift must not be softened into a decorative association or a
+reassurance that everything means the same thing. A concrete
+account of how something is carried, transformed, lost, or restored must not
+shrink to a general statement about care, guidance, dependence, or goodness.
+Keep the details needed to make the selected channel work; omit side findings
+and shorten routine setup. If a channel cannot be explained faithfully from
+the editorial prose, choose another grounded channel or reading.
+
+When a non-focus ayah supplies a contribution used in the invitation, keep its
+reference from the editorial prose beside that contribution.
+
+Do not turn the invitation into a miniature inventory of the commentary's
+conclusions, or flatten distinct channels into a broad theme to include more
+material. Do not repair, extend, or supplement the editorial prose from memory
+or outside knowledge.
+
+Omit technical apparatus. Retain any qualification, source distinction, live
+alternative, or boundary whose absence would change the force or meaning of a
+chosen reading. Express it naturally beside the image or relation it qualifies.
+Favor positive explanations of the relation between layers: what remains in
+the foreground and what the resonance makes audible in the background. State
+how that background reinforces, expands, or shifts the understanding of the
+main meaning, with the source and degree of certainty clear. Reserve explicit
+exclusions for concrete ambiguities or live counter-evidence that need them.
+Repeated "this is not X" endings make a reading sound withdrawn; express the
+substantive qualification through what the reading does contribute wherever
+possible. Use varied, natural language rather than a repeated "second layer"
+formula, and preserve the force of expansions and shifts.
+Do not name branches, candidates, findings, scopes, evidence categories,
+ledgers, or workflow stages, or label the prose as numbered channels. Do not
+list findings serially.
+
+Use the established `{ar:..., tr:..., gloss:...}` syntax, consistent
+Turkish-readable transliteration, and short ordinary glosses. Keep Arabic
+anchors beside the explanations they ground. Within a paragraph, continue with
+the Turkish meaning where clear; provide the necessary local tag when a later
+paragraph interprets the carrier anew. Do not place Arabic script outside a
+valid tag.
+
+Build transitions within a channel through its shared object, action, or
+relation. If two channels are selected, they may occupy separate paragraphs;
+do not invent a link between them. Do not praise the commentary's quality,
+promise what the reader will find, manufacture suspense, recap at the end, or
+add a call to action. End on an image, relation, action, or tension already
+established by the selected reading.
+
+Before finishing, compare the invitation with the entire editorial prose:
+does the chosen channel reveal a consequential reading, or could the text have
+been written from the ordinary translation and a modest explanation alone?
+When the editorial supports a surprising channel, the latter fails this task.
+Can the reader follow the opening expression into a connected background and
+understand how that background expands or shifts the ayah's main meaning?
+Check the selected connections against their editorial explanation: can the
+reader tell where the nonordinary details come from, with the necessary
+qualifications intact? Repair generic explanation, isolated curiosities, or a
+compressed findings list by developing the selected channel. Do not add
+omitted channels merely for coverage. Do not output this check.
+
+Write only the invitation text to:
+
+`_commentary/v5/editorial/s018-regular-20260912/s018/18_20/18_20.invitation.tr.md`
+
+Do not add a heading, wrapper label, index, ledger, evidence file, or any other
+artifact. Do not modify the editorial prose.
+
+After writing the invitation, run:
+
+```bash
+python3 _commentary/v5/validate_prose.py _commentary/v5/editorial/s018-regular-20260912/s018/18_20/18_20.invitation.tr.md
+```
+
+If validation fails, repair only the reported mechanical file-contract issues
+and rerun it, for at most two repair cycles. Report the final validator result
+in your response.
+
+<editorial_prose>
+Bu ayet, gençlerin saklandıkları yerden çıkarılmaları hâlinde karşılaşacakları tehdidi açıkça kurar: karşı taraf onların üzerine çıkıp onları ele geçirirse ya taşlar ya da onları kendi inanç düzenine geri döndürür; böyle bir sonucun ardından kurtuluşa erişim kapanır. {ar:إِنَّهُمْ, tr:innahum, gloss:şüphesiz onlar} birleşimi tehlikeyi konuşmada hazır bulunan bir failin kesinliğiyle çerçeveler. İçindeki bağlı zamir, düşman topluluğu yeni bir adla tanımlamadan onu işaret eder; tehdit toplumsal bir fail kazanır, fakat bu fail hakkında fazladan bir kimlik kurulmaz. Hemen ardından gelen {ar:إِنْ, tr:in, gloss:eğer} ise bu kesin tehlikeyi gerçekleşmesi şarta bağlı bir duruma yerleştirir: keşif hâlâ önlenebilir bir eşiktir ve oradan taşlama ile geri döndürme olmak üzere iki sonuç açılır. Böylece ayet, önceki saklanma öğüdünün (18:19) nedenini aynı akış içinde açıklar; tehlike gerçektir, fakat henüz kaçınılmaz kılınmamıştır. {ar:إِنَّهُمْ, tr:innahum, gloss:şüphesiz onlar} tehlikeyi bildirirken {ar:إِنْ, tr:in, gloss:eğer} onun hangi durumda açılacağını belirler.
+
+Bu şartın ilk eşiği {ar:يَظْهَرُوا۟, tr:yaẓharū, gloss:görünürlerse} fiilidir. Fiil, bağımsız {ar:عَلَيْكُمْ, tr:ʿalaykum, gloss:üzerinize} ilişkisiyle buluştuğunda yalnızca görünür olmayı değil, gençlerin üzerine çıkıp onlar üzerinde üstünlük kurmayı da duyurur; saklı güvenlik önce görünürlüğün bozulmasına, ardından denetime dönüşür. Fiilin birinci bâbda, çoğul ve meczum biçimde gelmesi bu hareketi şart içinde düşman topluluğun yapabileceği ortak bir eylem olarak sınırlar; kelimenin kendi biçimi dışarıdan birinin onları açığa çıkarmasını zorunlu olarak söylemez. Kabul edilmiş edilgen varyantın açtığı ihtiyatlı yankı, görünme olayında dışarıdan işleyen bir baskıyı sezdirir; ayetin etkin yüzeyinde ise görünen fail yine düşman topluluğudur. Bu yüzden geniş görünürlük alanı burada tarafsız bir açığa çıkma olarak kalmaz: gizli olanın öğrenilmesi, insanî ve tehlikeli bir üstünlüğün başlayabileceği an olur. 9:8'deki aynı “üzerinize çıkma” düzeninin düşman grubun üstünlüğüyle birlikte anılması, bu üstünlük temasını odaktaki görünürlük koşuluna bağlar. {ar:عَلَيْكُمْ, tr:ʿalaykum, gloss:üzerinize} edatı baskının yönünü gençlere verir; içindeki ikinci çoğul ek de onları kişisel hedef olarak belirler ve ardından gelen iki fiildeki nesne ekleriyle birleşerek tehdidin baştan sona aynı gruba yöneldiğini gösterir. Görünürlük böylece saklılığın bozulması, bilginin açığa çıkması ve üstünlüğün kurulması olarak katmanlanır; bu ek görüntü temel görünme anlamını koruyan bağlamsal bir yankıdır.
+
+Bu ilk eşik, 18:19'daki gizli iaşe göreviyle somut bir risk kazanır. {ar:وَرِقِكُمْ, tr:wariqikum, gloss:gümüş paranız} dolaşıma sokulması gereken, gözle görülebilen maddi işarettir; {ar:ٱلْمَدِينَةِ, tr:al-madīnah, gloss:şehir} ise bu işaretin tanınabileceği yoğun toplumsal alandır. Elçinin ince ve düşük görünürlükle hareket etmesini isteyen {ar:يَتَلَطَّفْ, tr:yatalaṭṭaf, gloss:ince davranıp gizlensin} emri ile {ar:يُشْعِرَنَّ بِكُمْ, tr:yušʿiranna bikum, gloss:sizden kimseyi haberdar etmesin} yasağı aynı gizlilik işleminin iki tarafını kurar: temas zorunludur, fakat farkındalık doğurmamalıdır. Bu koşulların içinde {ar:يَظْهَرُوا عَلَيْكُمْ, tr:yaẓharū ʿalaykum, gloss:üzerinize çıkıp sizi açığa vururlarsa} ifadesi soyut bir ihtimal olmaktan çıkar; para, şehir ve dolaşım yoluyla sızabilecek bilgi, yakalama ve zorlayıcı üstünlük ihtimaline bağlanır. Yakın bağlamın güçlü biçimde işaret ettiği bu operasyonel görüntü, tehdidin hemen önceki alışverişin taşıdığı somut tehlike olduğunu gösterir; ayet ise her keşfin mutlaka aynı nedensel yoldan gerçekleştiğini ayrıca belirlemez.
+
+Görünürlük yine de tek bir sonuca kilitlenmez. 18:21'de {ar:أَعْثَرْنَا عَلَيْهِمْ, tr:aʿṯarnā ʿalayhim, gloss:onları ortaya çıkardık} gizli olanın üzerine gelerek onu bulmayı anlatır; {ar:لِيَعْلَمُوا, tr:li-yaʿlamū, gloss:bilsinler diye} bu buluşu kamusal bilgiye yöneltir ve {ar:وَعْدَ ٱللَّهِ حَقٌّ, tr:waʿda Allāhi ḥaqq, gloss:Allah'ın vaadi gerçektir} sözü, ifşanın bir vaadin doğrulanmasına hizmet edebileceğini gösterir. Böylece 18:20'deki düşmanca keşif uyarısı yerinde kalırken, 18:21'deki bulunuş aynı görünürlük kenarına başka bir fail, amaç ve sonuç ekler: gizli olanın bulunması bazen ele geçirme ve geri döndürme baskısına, bazen de bilme, vaadi doğrulama ve hakikati sabitleme işine bağlanabilir. Görünürlüğün kendisi ile onu üreten irade, zaman ve amaç birbirinden ayrılır; sonraki sahne önceki tehlikeyi iptal etmez, yalnızca her açığa çıkışın zorunlu olarak aynı akıbete gitmediğini görünür kılar.
+
+Şart gerçekleştiğinde açılan ilk kol {ar:يَرْجُمُوكُمْ, tr:yarjumūkum, gloss:sizi taşlarlar} fiilidir. Çoğul meczum biçim ve bağlı nesne eki tehdidi doğrudan gençlerin bedenlerine indirir; ilk sonuç soyut bir düşmanlık değil, hedeflenmiş bedensel taşlamadır. Taşın fırlatılması, dışarı savrulma ve koruma alanından atılma basıncı da bu fiilin çevresinde duyulur. Doğrudan nesne ve bedenî hedef, bu geniş yankıyı fiziksel taşlama etrafında tutar. Aynı kökün 18:22'deki {ar:رَجْمًا بِالْغَيْبِ, tr:rajman bil-ghayb, gloss:bilinmeyen hakkında dayanaksız atış} kullanımında bilinmeyen hakkında bilgi olmadan söz söyleme yönü açılır; {ar:الْغَيْبِ, tr:al-ghayb, gloss:gizli olan} bu sözlerin içine atıldığı bilgi yokluğunu belirler. Böylece saklı kişiler hakkında üretilen incitici sözler ile bedenî saldırı aynı kökte karşılaşır, fakat 18:20'nin fiili kamuya açık kestirim anlamına çevrilmez. 60:2'de eller ve dillerle kötülüğe uzanılması da baskının sözle hedef alma ve inkâra çağırma biçimini görünür kılar; bu, fiziksel tehdidin çevresindeki zorun biçimini genişletir. Taşların üst üste duran maddi bir yığın gibi duyulması ilk kolun somutluğunu artırır; anlam bu temasla bir gömüt imgesine kadar ilerlemez.
+
+Taşlamanın yanına gelen {ar:أَوْ, tr:aw, gloss:ya da} kısa ve sert bir çatal açar. Tek görünme koşulundan iki karşıt tehdit çıkar: biri bedene yönelen taşlama, diğeri kazanılmış ayrılığı geri alan zorlamadır. Metin bu iki koldan birini seçmez; ikisi de aynı keşif eşiğinin sonuçları olarak yerinde kalır. İkinci kolu kuran {ar:يُعِيدُوكُمْ, tr:yuʿīdūkum, gloss:sizi geri döndürürler} fiilinin dördüncü bâbı ve bağlı nesne eki, dönüşü gençlerin kendi hareketi olmaktan çıkarıp karşı tarafın dayattığı bir geri çevirme yapar. {ar:فِي, tr:fī, gloss:içine} edatı bu dönüşü belirli bir alanın içine yöneltir; {ar:مِلَّتِهِمْ, tr:millatihim, gloss:onların inanç düzeni} ise varılacak yeri bir mekân değil, onların topluluğuna ait inanç ve yaşam düzeni olarak belirler. Daha önce gençlerin üzerinde güç kurulmasıyla duyulan {ar:عَلَيْكُمْ, tr:ʿalaykum, gloss:üzerinize} ilişkisi, şimdi {ar:فِي, tr:fī, gloss:içine} ile içeri çekilme ve kapatılma görüntüsüne ilerler. Geri dönüş bu yüzden basit bir konum değişikliği değil, dış baskının ayrılmış kişiyi yeniden bir toplumsal sisteme sokmasıdır.
+
+Bu zoraki dönüşün neyi geri aldığı, önceki sahnelerde tamamlanmıştır. {ar:وَرَبَطْنَا عَلَىٰ قُلُوبِهِمْ, tr:wa-rabaṭnā ʿalā qulūbihim, gloss:kalplerini pekiştirdik} kalplerin içten sabitleşmesini; {ar:قَامُوا, tr:qāmū, gloss:ayağa kalktılar} bu kararlılığın açıkça ayağa kalkıp ilan edilen bir duruşa dönüşmesini taşır. {ar:ٱعْتَزَلْتُمُوهُمْ, tr:iʿtazaltumūhum, gloss:onlardan ayrıldınız} toplumsal ve mekânsal kopuşu tamamlar; {ar:يَعْبُدُونَ, tr:yaʿbudūna, gloss:ibadet ettikleri} ise gençlerin ayrıldığı pratiği belirginleştirir. 18:14'te kalplerin pekiştirilmesi ve açık bağlılık ilanı, hangi iç kararlılığın tehdit edildiğini gösterir; 18:16'da topluluktan ve onların ibadetinden ayrılıp mağaraya sığınmaları, bu duruşun dışarıdaki sınırı geçtiğini tamamlar. {ar:يُعِيدُوكُمْ, tr:yuʿīdūkum, gloss:sizi geri döndürürler} bu sahnelerin ardından okunduğunda gençleri yalnızca geri götürmez; bilerek geçtikleri ayrılık sınırının ötesine geri sarar. Olağan anlam, insanların onları kendi inanç düzenlerine döndürebileceği ve bu durumda başarıya ulaşamayacakları yönündedir. Bağlam, dıştan boyun eğmenin içteki inancı zorunlu olarak silip silmeyeceğini karara bağlamadan, yaşanmış bir bağlılığın ve kamusal ayrılığın geri alınması tehdidini görünür kılar.
+
+{ar:مِلَّتِهِمْ, tr:millatihim, gloss:onların inanç düzeni} kelimesi başka bağlamlarda onurlu bir inanç yolunu adlandırabilir; burada ise düşmanların sahiplik ekiyle belirlediği tehdit edilen bir sistemin adıdır. Bu yerel hedef kelimeyi yalnızca soyut bir din sözcüğü olmaktan çıkarır, fakat çekirdekteki benimsenmiş inançlar ve bunlara bağlı yaşam kuralları korunur. Adın taşıdığı dikte edilmiş ve tekrarla yerleşen düzen basıncı, gençlere yeniden dayatılacak örgülü bir hayatı sezdirir. Dönüş fiilinden sonra cümlenin kolunu kapatması da tehdidin yalnızca geri gitmekte bitmediğini, belirli bir ortak düzene yeniden yerleştirmeyle tamamlandığını gösterir. Sahiplik eki bu düzeni onların topluluğuna ait kılar; {ar:فِي, tr:fī, gloss:içine} onu zorla girilecek sınırları olan bir varış alanına dönüştürür. Bu temas, geri sokulmayı toplumsal ve normatif bir yeniden koşullandırma, eski bir davranış kalıbına yeniden alıştırılma olarak renklendirir; yine de sistemin bütün ayrıntılarını belirlemez. Aynı kelime, tekrar tekrar geçilerek belirginleşen bir güzergâh görüntüsünü de bağlamsal olarak açar: gençler işaretsiz bir alana değil, daha önce aşınmış bir yola geri sokuluyor gibidir. 14:13 ve 7:88'deki kendi millalarına zorla döndürülme sahneleri bu dönüşün nötr bir hareket değil, ayrılmış kişiyi eski düzene yeniden yerleştiren bir baskı olduğunu aydınlatır; 2:217 ise dinî dönüşü nihai kayıpla birlikte anarak bu baskının neden kurtuluş ihtimalini tehdit ettiğini görünür kılar.
+
+İki tehdit kolunun ardından gelen {ar:وَ, tr:wa, gloss:ve} bağlacı, başarı inkârını bağımsız bir özdeyiş değil, görünme ve geri döndürülmenin sonucu yapar. Aynı bağlaç, düşmanların yapabileceği üçüncü çoğul fiillerden gençlere yönelen ikinci çoğul akıbete geçişi de duyurur; bakış dış failin eyleminden muhatapların gelecekteki hâline çevrilir. Ardından {ar:لَنْ, tr:lan, gloss:asla} gelir ve {ar:تُفْلِحُوا۟, tr:tufliḥū, gloss:kurtuluşa erersiniz} fiilini geleceğe doğru kapatır. Dördüncü bâbdaki bu fiil, erişilmiş esenliği, amaca ulaşmayı ve bir engeli aşarak iyi sonuca varmayı duyurur; kelimenin daha geniş yarma ve yetişme çağrışımı yalnızca bu başarı görüntüsünü renklendirir. Önceki iki fiilde gençler nesne iken burada nesnesiz ikinci çoğul özne olur: cümle onlara yapılacak zarardan, onların erişemeyeceği gelecekteki hâle döner. Zorla {ar:مِلَّتِهِمْ, tr:millatihim, gloss:onların inanç düzeni} içine sokulma, böylece küçük bir işi başaramamak değil, erişilmiş bir yolun ve iyiliğin elden çıkması olarak ölçülür.
+
+Bu son hükmün işleyişini {ar:إِذًا, tr:idhan, gloss:o zaman} ve {ar:أَبَدًا, tr:abadan, gloss:sonsuza dek} tamamlar. {ar:إِذًا, tr:idhan, gloss:o zaman} iki tehdidin ardından gelerek başarısızlığı tam o görünme ve geri dönme durumunun sonucu kılar; cümle havada duran bir hüküm değil, şartın içinden çıkan bir akıbet olur. Başarı inkârı ile {ar:أَبَدًا, tr:abadan, gloss:sonsuza dek} arasındaki yerleşim önce sonucu, sonra onun süresini işittirir; son kelimenin gecikmesi mantıksal cevabı kadansla mühürler ve parçacığın olağan zarf değerini korur. {ar:أَبَدًا, tr:abadan, gloss:sonsuza dek} ayetin sonunda durarak düşman eyleminden daha geniş bir zaman ufku açar. {ar:لَنْ, tr:lan, gloss:asla} ile birleştiğinde başarı inkârına gelecek içinde bir çıkış ucu bırakmaz; bu, geçici bir yenilgi değil, tehdit cümlesinin kendi kapsamı içinde kesintisiz bir kayıp ufkudur. {ar:تُفْلِحُوا۟, tr:tufliḥū, gloss:kurtuluşa erersiniz} kelimesinin iyilik içinde kalma ve istenen sonuca varma yüzü de burada belirginleşir: geri sokulmanın bedeli erişilmiş iyiliğin kapanmasıdır.
+
+Bu sonu bulunmayan süre, mağaradaki koruyucu bekleyişin ölçülü zamanıyla karşılaştırıldığında daha da keskinleşir. 18:11'de {ar:عَدَدًا, tr:ʿadadan, gloss:sayılarak belirlenmiş} yıllar birimleri sayıp toplam miktarı belirler; 18:12'de {ar:أَمَدًا, tr:amadan, gloss:belirlenmiş süre ve sınır} kalışın son sınırını verir. Aynı zaman dizisinde {ar:بَعَثْنَاهُمْ, tr:baʿathnāhum, gloss:onları uyandırdık} hareketsizlikten gerçek bir çıkışı, {ar:لَبِثُوا, tr:labiṯū, gloss:kalıp beklediler} ise yer içinde değerlendirilebilir bir kalışı gösterir. Böylece mağaradaki korunma sayılabilir ve ilke olarak sınırlıdır; odaktaki {ar:أَبَدًا, tr:abadan, gloss:sonsuza dek} ise zorla dönüşten sonra kurtuluş yolunun sonlandırılamayan kapanışını onun karşısına yerleştirir. Bu karşıtlık, kısa süreli saklanma tedbirinin neden önem taşıdığını görünür kılar; odaktaki zarfı sayma anlamına taşımaz ve önceki öğüdü kendi başına yeniden kurmaz. Aynı kalıcılık alanı 18:35'te yok olmayacağı söylenen bahçenin, 18:108'de ise olumlu ve kalıcı bir sonucun çevresinde ışık kazanır. Bu karşılıklar 18:20'yi olumlu bir vaat ya da tam bir sözlük eşitlemesi haline getirmeden, burada kaybedilen iyi sonucun uzun süreli kapanışını hissettirir: korunmanın ölçülü çıkışına karşı, geri sokulmanın geleceğe açıklık bırakmayan eşiği kalır.
+
+</editorial_prose>

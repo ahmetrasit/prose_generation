@@ -1,0 +1,171 @@
+# V5 reading invitation — 18:100
+
+You are a fresh reading-invitation writer. Read the complete editorial prose
+before writing. It is your sole semantic source.
+
+Write two to four paragraphs of fluent, contemporary Turkish that reveal a
+surprising reading by following one or two main channels of resonance in the
+ayah. A channel is a connected background of meanings, images, actions, or
+relations through which the ayah can be heard and understood differently.
+Several editorial findings may together develop one channel. Summarize that
+connected movement and its consequence for the ayah's main meaning, rather
+than compressing findings individually. Give the reading's substance now;
+the invitation comes from understanding it, not from a promise of hidden depth.
+
+Before drafting, read the entire editorial prose and silently select the one
+or two channels with the strongest interpretive consequence and enough
+grounding to explain clearly. Favor channels that expand or shift what the
+ayah says, the relation it establishes, or what is at stake in its action or
+image. One fully developed channel is sufficient; add a second only when it
+offers a distinct consequential reading that can be explained within the
+invitation. No finding, channel, or major shift has an individual coverage
+claim. Unselected material may remain entirely in the full commentary.
+
+A channel may develop through grammar, sound, dialogue, a material process,
+time, imagery, or a conceptual relation. Resonance is not limited to acoustic
+effects, and an unusual image alone does not establish a channel. Use only
+connections the editorial prose actually develops. If it supplies no such
+channel, explain its strongest grounded reading without inventing connections
+or surprise.
+
+Begin inside the ayah's own words, images, actions, or relations and reveal a
+selected distinctive reading in the first paragraph. Keep the plain meaning
+reachable with only the orientation needed to understand the change. Do not
+spend an opening paragraph on routine explanation or front-load context about
+the surah, the ayah's position, or the commentary project.
+
+For each selected channel, begin with the expression that opens it, unfold the
+connected background, and show how the ayah reads or sounds against that
+background. Let a detail lead into the next through an intelligible relation
+or process, so the reader experiences the emerging reading. This is a movement
+of thought, not a mandatory sentence pattern or one paragraph per finding.
+Let the reader identify the expression being interpreted,
+where any nonordinary detail comes from, and what that detail changes in the
+reading. Briefly identify the word-family use, restricted form, collocation, or
+context that supplies an essential added detail, and preserve the concrete
+operation that makes the image work. Keep the ordinary reading and necessary
+qualification clear within this explanation; do not repeat them as a fixed
+formula. Preserve the particular object, process, or relation that makes this
+reading distinctive, and state its interpretive consequence for the ayah as a
+whole. Make intelligible what the familiar reading leaves less visible and
+what the expanded or shifted reading now lets the reader understand. Preserve
+the editorial's force: an exploratory possibility remains possible, while a
+developed shift must not be softened into a decorative association or a
+reassurance that everything means the same thing. A concrete
+account of how something is carried, transformed, lost, or restored must not
+shrink to a general statement about care, guidance, dependence, or goodness.
+Keep the details needed to make the selected channel work; omit side findings
+and shorten routine setup. If a channel cannot be explained faithfully from
+the editorial prose, choose another grounded channel or reading.
+
+When a non-focus ayah supplies a contribution used in the invitation, keep its
+reference from the editorial prose beside that contribution.
+
+Do not turn the invitation into a miniature inventory of the commentary's
+conclusions, or flatten distinct channels into a broad theme to include more
+material. Do not repair, extend, or supplement the editorial prose from memory
+or outside knowledge.
+
+Omit technical apparatus. Retain any qualification, source distinction, live
+alternative, or boundary whose absence would change the force or meaning of a
+chosen reading. Express it naturally beside the image or relation it qualifies.
+Favor positive explanations of the relation between layers: what remains in
+the foreground and what the resonance makes audible in the background. State
+how that background reinforces, expands, or shifts the understanding of the
+main meaning, with the source and degree of certainty clear. Reserve explicit
+exclusions for concrete ambiguities or live counter-evidence that need them.
+Repeated "this is not X" endings make a reading sound withdrawn; express the
+substantive qualification through what the reading does contribute wherever
+possible. Use varied, natural language rather than a repeated "second layer"
+formula, and preserve the force of expansions and shifts.
+Do not name branches, candidates, findings, scopes, evidence categories,
+ledgers, or workflow stages, or label the prose as numbered channels. Do not
+list findings serially.
+
+Use the established `{ar:..., tr:..., gloss:...}` syntax, consistent
+Turkish-readable transliteration, and short ordinary glosses. Keep Arabic
+anchors beside the explanations they ground. Within a paragraph, continue with
+the Turkish meaning where clear; provide the necessary local tag when a later
+paragraph interprets the carrier anew. Do not place Arabic script outside a
+valid tag.
+
+Build transitions within a channel through its shared object, action, or
+relation. If two channels are selected, they may occupy separate paragraphs;
+do not invent a link between them. Do not praise the commentary's quality,
+promise what the reader will find, manufacture suspense, recap at the end, or
+add a call to action. End on an image, relation, action, or tension already
+established by the selected reading.
+
+Before finishing, compare the invitation with the entire editorial prose:
+does the chosen channel reveal a consequential reading, or could the text have
+been written from the ordinary translation and a modest explanation alone?
+When the editorial supports a surprising channel, the latter fails this task.
+Can the reader follow the opening expression into a connected background and
+understand how that background expands or shifts the ayah's main meaning?
+Check the selected connections against their editorial explanation: can the
+reader tell where the nonordinary details come from, with the necessary
+qualifications intact? Repair generic explanation, isolated curiosities, or a
+compressed findings list by developing the selected channel. Do not add
+omitted channels merely for coverage. Do not output this check.
+
+Write only the invitation text to:
+
+`_commentary/v5/editorial/s018-regular-20260912/s018/18_100/18_100.invitation.tr.md`
+
+Do not add a heading, wrapper label, index, ledger, evidence file, or any other
+artifact. Do not modify the editorial prose.
+
+After writing the invitation, run:
+
+```bash
+python3 _commentary/v5/validate_prose.py _commentary/v5/editorial/s018-regular-20260912/s018/18_100/18_100.invitation.tr.md
+```
+
+If validation fails, repair only the reported mechanical file-contract issues
+and rerun it, for at most two repair cycles. Report the final validator result
+in your response.
+
+<editorial_prose>
+## Toplanan kalabalığın karşısında
+
+Âyetin yalın cümlesi şudur: O gün Cehennemi inkâr edenlerin karşısına açıkça çıkarırız. Önceki âyetteki {ar:يَمُوجُ, tr:yamûcu, gloss:birbirine karışıp dalgalanırlar} sözü, insanları birbirine karışmış ve dengesi bozulmuş bir kalabalık olarak duyurur; hemen ardından {ar:جَمَعْنَاهُمْ جَمْعًا, tr:cemeʿnâhum cemʿan, gloss:onları bütünüyle topladık} bu dağınık parçaları tek bir toplulukta toplar (18:99). Başlangıçtaki {ar:وَ, tr:wa, gloss:ve} bu toplanma ve sesleniş sahnesini yeni görsel sahneye bağlar. Harfin fiile bitişmesi geçişi kopuk bir durak olmaktan çıkarır; kalabalığın birbirine karışan hareketinden, onun karşısına bir gerçekliğin konmasına tek hamlede geçilir. {ar:وَعَرَضْنَا, tr:ve ʿaraḍnâ, gloss:önlerine getirip gösterdik} etkin ve birinci çoğul biçimiyle görünürlüğü kendiliğinden doğan bir hâl olarak değil, açıkça üstlenilmiş bir gösterme eylemi olarak kurar. Önceki sahnenin failin geri planda kaldığı ses kaydından sonra eylem burada sahiplenilir. Bağlaçla birlikte gelen geçmiş biçim, yaklaşan hükmü kararsız bir ihtimal gibi değil, gerçekleşmiş bir işin kesinliğiyle duyurur; bu tamamlanmış gelecek havası, toplanma sahnesinin ardından yalnızca bu bağlaç-fiil birleşiminin açtığı kayda aittir.
+
+Bu görünür kılmanın cümle içindeki düzeni de sahneyi tek bir harekette toplar. {ar:عَرَضْنَا, tr:ʿaraḍnâ, gloss:gösterdik} açık nesne olarak {ar:جَهَنَّمَ, tr:jahannama, gloss:Cehennem'i}, zaman olarak {ar:يَوْمَئِذٍۢ, tr:yawmaʾidhin, gloss:o gün}, hedef olarak {ar:لِّلْكَافِرِينَ, tr:lil-kāfirīn, gloss:inkâr edenlere} ve aynı eylemi sonradan kuvvetlendiren {ar:عَرْضًا, tr:ʿarḍan, gloss:gösterme eylemi} alır. Nesne, zaman, hedef ve vurgu ayrı olaylara ayrılmaz; tek bir gösterme ilişkisinde birleşir. Geçişli yapı, geniş anlam alanını somut bir sunma ilişkisine yöneltir: söz yalnızca Cehennemin varlığını bildirmez, onu muhatapların önüne getirir. {ar:لِ, tr:li, gloss:-e/-a yönelen} edatı da gösteriyi yarar veya mülkiyet ilişkisi olarak değil, etkilenen hedefe yönelen bir eylem olarak kurar. Türkçedeki tek bir “-e”nin çoğu zaman görünmez bıraktığı sıkışmada edat ile belirli sınıfın işareti hem yönü hem de kimin hedef olduğunu taşır. Zaman ifadesi araya girmiş olsa da hedef yine zamanın değil, gösterme fiilinin hedefidir.
+
+Gösterilen nesnenin adı olan {ar:جَهَنَّمَ, tr:jahannama, gloss:Cehennem'i}, belirsiz bir ceza tasvirini değil, adı konmuş eskatolojik bir varlığı doğrudan nesne yapar. Yabancı köken işareti taşıyan bu özel ad Arapça cümle içinde yönetilir; tenvinsiz diptot akusatif biçimi, onu fiilin gösterdiği belirli nesne olarak sabitler ve cümledeki görevini yer zarfından ayırır. Yoğun gırtlak ve burun sesleri de kısa cümlede bu ada işitilir bir ağırlık verir; ses, anlamın yerini almadan nesnenin baskısını artırır. Adın taşıdığı derinlik ve uçurum baskısı, yerel nesne görevine bağlı ihtiyatlı bir renktir. Cehennem adının hazırlanma ve karşılık bağlamlarında yeniden görünmesi (18:102, 18:106), 18:100'ü bu yerel dizide onun ilk görünür nesne olduğu nokta olarak belirginleştirir; sonraki dönüşler gösterme sahnesini başka bir olaya çevirmeden onu hazır karşılık ve sonuç çizgisine bağlar.
+
+Bu nesnenin hangi zamanda karşıya konduğunu {ar:يَوْمَئِذٍۢ, tr:yawmaʾidhin, gloss:o gün} sıkıştırılmış bir ifadeyle belirler. “O zaman”ın işaret ettiği çerçeve, üfleme, kabarma ve toplanma sahnesine yaslanır (18:99); yeni bir olay başlatmak yerine önceki olayın tamamını geri çağırır. Sıradan bir gün uzunluğundan çok, (18:99) ile sonraki hüküm bağlamı (18:105) arasında işaretlenmiş bir dönem duyurur, fakat bu dönemin süresini ölçmez. Nesne ile hedef arasına giren akusatif zaman zarfı, Cehennemden muhataplara geçişi zaman üzerinden döndüren bir menteşe gibi çalışır ve bütün gösteriyi aynı dönemin içine alır. Gün işaretinin bu devamlılığı, gösteri sahnesine girerken zamanı yeniden başlatmaz; Cehennemi, onu görecek topluluğu ve gösterme işini aynı çerçevede tutar.
+
+Hedefin adı olan {ar:الْكَافِرِينَ, tr:al-kāfirīn, gloss:inkâr edenler}, belirli çoğul etkin-ortaç biçimindedir. Bu biçim, sıradan bir çoğul ad yerine ne yaptıklarıyla tanımlanan belirli bir topluluk kurar; edatın yönetimi, belirteç, ortaç ve çoğul ekini tek bir hedef öbeğinde birleştirir. Kelimenin örtme ve inkâr alanı, gösterilen Cehennemle karşılaşınca örtüyle tanımlanan grubun önünde örtüsü kalkmış bir görünürlük kurar. Bu yön, toplama ve ateş bağlamlarıyla çevrelenen yerel bir etkinleşmedir (18:29, 18:99, 18:102, 18:106); bağlantı, kelimenin başka kullanımlarına yayılmadan inkâr ve gizlemenin burada öne çıkan yüzünü taşır. Kelimenin cümlede gecikerek önce Cehennemi ve günü, sonra onu görecek topluluğu duyurması, toplanmış kalabalığı yeni bir topluluk icat etmeden belirginleştirir (18:99). Sert kâf, sürtünmeli fâ ve yuvarlanan râ da son gösterme isminden hemen önce sınıf adına işitilir bir ağırlık verir. Aynı {ar:عَرَضْنَا, tr:ʿaraḍnâ, gloss:gösterme} kökün rol değiştiren görünümü, insanların Rablerinin huzurunda gösterildiği sahnedir (18:48); ortak olan gösterme ilişkisi korunurken nesne ve muhatap değişir, böylece Cehennemin inkâr edenlerin önüne konması karşıt bir sahne olarak belirir.
+
+Cümlenin sonundaki {ar:عَرْضًا, tr:ʿarḍan, gloss:gösterme eylemi}, baştaki fiilin alanını geri çağırarak Cehennemi, zamanı ve hedef topluluğu tek bir gösterme halkasında kapatır. Arapça gramerde mef'ul-i mutlak denen, fiile bağlı bu mastar, tek gösterme hareketini ikinci bir olay açmadan içeriden kuvvetlendirir. Mastar oluşu kelimeyi önceki gösterme eylemine bağlar; böylece yoğunluk aynı nesne ve aynı hedef üzerinde toplanır. Belirsiz ve nitelenmemiş akusatif biçim, hedef topluluğu belirli bırakırken gösterinin ölçüsünü sayıyla sınırlamaz; kapsamı açık tutar. Cümle sonunda seçilmiş, daha az yaygınlığı işaretlenen bu mastar biçimi tekrarın değiştirilebilir bir süs olmadığını duyurur. Ağır kapanış sesi ritmi eylem üzerinde indirir. Sunma ve sergileme alanı da doğrudan gösterme anlamını koruyarak ona sınırlı bir genişlik ve resmî bir ortaya koyma baskısı ekler.
+
+## Örtünün açıldığı yerde
+
+Bu kapanış, kelimelerin aynı cümlede birbirine değdiği ilk yerel görüntüyü açar. {ar:عَرَضْنَا ... عَرْضًا, tr:ʿaraḍnâ ... ʿarḍan, gloss:gösterme eylemi} bir şeyi muhatabın görmesi için ortaya koyma anlamını taşırken {ar:الْكَافِرِينَ, tr:al-kāfirīn, gloss:inkâr edenler ve örtenler} örtme ve kapatma çağrısını getirir. Olağan gösterme, örtüyle tanımlananlara yönelmiş zorunlu bir açığa çıkarma gibi duyulur: onlara gizlenen şey açılır. Ters yönden bakıldığında, örtme karakteri ayrı bir tetikleyici olan gösterme fiiliyle karşılaşır ve görünmez kılmaya dönük nitelik kendisine yöneltilmiş görünürlükle tersine çevrilir. Alıcı kelimesi burada fiilsel bir hareket kurmaz; gösterme eyleminin kime ve hangi nitelikle yöneldiğini belirler. Böylece düz gösterme anlamı korunurken, örtme çağrısı hedefe ulaşan açığa çıkarmanın niteliğini açıklar.
+
+Bu açığa çıkarmanın ölçeği, aynı kökün uzunluğa karşıt en ve yan boyutunu taşıyan ayrı kullanımında genişler. Herkesin ortaya çıkarılması ve hiçbir gizlinin saklı kalmaması, teşhiri seçici bir bakışa bırakılmayan bir alana yayar (69:18); inkâr edenlerin Ateşe sunulması ise gösterme eyleminin muhataba yönelen tarafını güçlendirir (46:20). Bu iki sahne, {ar:وَعَرَضْنَا, tr:ve ʿaraḍnâ, gloss:bilerek görmeye sunuyoruz} ile {ar:عَرْضًا, tr:ʿarḍan, gloss:görmeye sunma eylemi} arasındaki ilişkiye dönerek Cehennemi yalnızca anılan bir son olmaktan çıkarıp inkârcıların önüne getirilen zorunlu bir karşılaşma gibi duyurur. “Açıkça gösterme” böylece görünür olmanın yanında kaçış payını daraltan kapsamlı bir teşhir alanı kurar. En boyutu, bu alandaki daralmayan kapsamı sezdiren bağlamsal bir genişliktir; cümleyi geometrik bir ölçüye dönüştürmez.
+
+Bu geniş teşhir ufku, inkâr edilen hedefi doğrudan karşıya koyan iki başka sunma sahnesiyle keskinleşir. İnkâr edenler Ateşin karşısına çıkarılıp onun gerçekliğiyle yüzleştirilir (46:34); Cehennem gören herkes için görünür kılınır (79:36). Odaktaki {ar:وَعَرَضْنَا, tr:ve ʿaraḍnâ, gloss:bilerek görmeye sunuyoruz} ve {ar:عَرْضًا, tr:ʿarḍan, gloss:görmeye sunma eylemi}, bu paralellerle birlikte hükmü yalnızca gelecekteki cezayı adlandıran bir haber olmaktan çıkarır: inkâr edilen hedef, inkârcının önünde değerlendirmeye açık bir nesne hâline gelir. Bu paralellerin odak âyetine taşıdığı katkı, gösterilen şeyin inkârın nesnesi olarak bizzat karşıya konmasıdır; onların diğer konuşmaları bu bağlantının kapsamına girmez.
+
+Bu karşılaşmanın alımlanma biçimi hemen sonraki âyette açılır. {ar:وَعَرَضْنَا, tr:ve ʿaraḍnâ, gloss:önlerine getirip gösterdik} ile kurulan görsel sunum, gözler üzerine konan {ar:غِطَاءٍ, tr:ğıtâin, gloss:örtü} ile yan yana gelir (18:101). Aynı âyetteki {ar:أَعْيُنُهُمْ, tr:aʿyunuhum, gloss:gözleri} doğrudan görme yetisini, {ar:ذِكْرِي, tr:zikrî, gloss:anışım ve hatırlatmam} içeri girmesi beklenen hatırlamayı, {ar:سَمْعًا, tr:semʿan, gloss:işitme} ise sesle alma kanalını adlandırır (18:101). Gözleri örtülü, işitme kanalı işlemeyen bu topluluğun önüne Cehennemin getirilmesi, görsel sunuma ayrı bir ağırlık verir. Böylece ayetin gösterme eylemi, kapalı göz ve işlemeyen işitme kanallarına karşı yerleşen zorunlu bir görsel karşılaşma olarak duyulur. Örtülü görüş koşulu ile hiçbir gizlinin saklı kalmadığını bildiren geniş sunum birlikte düşünüldüğünde, gizlenmeden açıklığa geçen bir önce-sonra gerilimi belirir (18:101, 69:18). Bu tersine dönüş, fiilin gramerinin zorunlu sonucu değil, bu iki bağlamın ihtiyatlı katkısıdır; aynı bağ, görsel karşılaşmayı düzeltici bir amaç diye kesinleştirmez. Katkısı, “açıkça”nın nötr görünürlükten daha baskılı duyulmasını sağlamasıdır.
+
+Bu zorunlu görsel karşılaşmanın yanına, aynı gösterme eyleminin engel gibi duyulduğu ikinci bir yerel görüntü eklenir. {ar:عَرَضْنَا ... عَرْضًا, tr:ʿaraḍnâ ... ʿarḍan, gloss:gösterme eylemi} içindeki bir yolun önüne girip ilerlemeyi engelleme ayrıntısı, {ar:الْكَافِرِينَ, tr:al-kāfirīn, gloss:dinî gerçeği örten ve reddedenler} kelimesinin hakikati reddetme ayrıntısıyla temas eder. Görsel sunma anlamı yerinde dururken Cehennem, seyredilen bir gerçekliğin yanında inkârın sürdürdüğü kaçışın önüne konan bir engel gibi belirir. Ters yönden, hakikati reddetme niteliği gösterme fiilinin önüne konan şeyi tetikler; devam eden inkârın önüne Cehennem dikilir ve neyin sona erdiği somutlaşır. Bu görüntü, alıcı kelimesinin burada taşıdığı hakikati reddetme yönüyle sınırlıdır; fiilin daha uzak bu kelimeci temasını bütün inkâr biçimlerine yaymadan ihtiyatlı bir yerel yankı olarak kalır.
+
+Aynı gösterme eyleminin daha geniş bir ön yüz gibi sezilmesi, engel görüntüsünden ayrı bir mekânsal temastır. {ar:عَرَضْنَا, tr:ʿaraḍnâ, gloss:önlerine getirip gösterdik} bir şeyin bakan kişiye uzaktan veya belli bir yönden belirip görünmesini duyurabilir. {ar:الْكَافِرِينَ, tr:al-kāfirīn, gloss:örtenler} kelimesinin karanlık, örtü veya enginlikte kapatma alanı bu görünüşle buluşunca, görünür kılınan nesne ufku dolduran bir cephe gibi yaklaşır. Bu cephe imgesi, Cehennemi bir bulut, dağ veya başka bir nesneyle özdeşleştirmeden gösterinin ölçeğinin neden bunaltıcı hissedilebildiğini açar. Örtü alanı içinde beliren ön cephe, düz sunma anlamının yerine geçmeden onun mekânsal basıncını artırır.
+
+## Hazırlanmış karşılığın eşiğinde
+
+Görüş alanına getirilen şeyin bir sonraki niteliği, önceden kurulmuş bir kabulün eşiğinde belirir. Cehennemin alıcısı için önceden hazırlandığını bildiren {ar:أَعْتَدْنَا, tr:aʿtadnâ, gloss:önceden hazırladık}, onu {ar:نُزُلًا, tr:nuzulen, gloss:varan için hazırlanmış konaklama ve ikram} olarak adlandırır (18:102). Aynı kelimenin Firdevs bahçeleri için tekrarlanması, Cehennemin açıkta bırakılmış görünüşünü ağaçların örttüğü korunaklı bahçe kabulüyle karşılaştırır (18:107). Bahçe sakinlerinin başka bir kabul aramadığını bildiren {ar:حِوَلًا, tr:ḥiwelen, gloss:başka bir hâle veya yere geçiş} ve bu kabulün geçici bir durak olmadığını belirten {ar:خَالِدِينَ, tr:ḫâlidîn, gloss:kalıcı olarak kalanlar}, karşılıkların yerleşilmiş niteliğini açar (18:108). Bu çerçevede {ar:عَرَضْنَا, tr:ʿaraḍnâ, gloss:önlerine getirip gösterdik} hazır kabulü muhatabın görüş alanına getiren eşik hareketi olur; {ar:الْكَافِرِينَ, tr:al-kāfirīn, gloss:inkâr edenler ve örtenler} ile anılanlar açıkta duran Cehennem kabulüne yöneltilirken, bahçe tarafında örtülü ve kalıcı bir yerleşme görünür. Cehennem ile bahçeler böylece yalnızca ödül ve ceza başlıkları olarak değil, hazırlanmış ve yerleşilmiş karşılıklar olarak yan yana gelir (18:102, 18:107, 18:108). {ar:نُزُلًا, tr:nuzulen, gloss:hazırlanmış varış yeri ve ikram} kelimesi konaklama, varış yeri ve ikram alanlarını birlikte açık tutar; bu karşılaştırma onun bu yerel yüzünü taşır, kelimenin diğer çağrışımlarını hükme bağlamaz.
+
+Hazırlanmış karşılığın nasıl değer kazandığı, aynı dizideki ölçü ve kayıp diliyle belirginleşir. Yapılan işlere cevap veren sonucu {ar:جَزَاؤُهُمْ, tr:cezâuhum, gloss:onlara dönen karşılıkları} taşır; kazançlı görünen işlerin sonradan kayba dönmesi, {ar:الْأَخْسَرِينَ أَعْمَالًا, tr:el-aḫserîne aʿmâlen, gloss:işleri bakımından en büyük kayba uğrayanlar} ifadesinde görünür (18:106, 18:103). İşleri ölçüye yerleştiren {ar:نُقِيمُ, tr:nuqîmu, gloss:değerini ve ölçüsünü ortaya koyarız} fiili ile kıyamet gününde ağırlık kurulmadığını belirten {ar:وَزْنًا, tr:veznen, gloss:ağırlık ve ölçü}, bu hesabın sonucunu tamamlar (18:105). Değerlendirme, kayıp, ağırlıksız kalma ve karşılık sırası, {ar:عَرْضًا, tr:ʿarḍan, gloss:açıkça ortaya koyarak gösterme} kelimesinin elde edilebilir mal, eşya veya karşılık olarak duyulabilen kullanımını bu bağlama açar. Cehennem, inkârın ardından gelen sonucu koruyarak, kendilerince başarılı sayılan işlerin ölçüye konup hiçbir ağırlık vermemesinden sonra ortaya çıkan karşıdeğer gibi görünür. Ticari eşya imgesi burada bu değerlendirme zincirinin ürettiği sınırlı bir yankıdır; tam bir alışveriş sahnesine dönüşmeden karşıdeğer hissini güçlendirir.
+
+Bu ölçü ve kayıp çizgisi, gösterme eylemini reddedilmiş uyarının doğrudan sergisine bağlar. Daha önce karşıya konmuş işaretleri ve açık delilleri {ar:آيَاتِي, tr:âyâtî, gloss:işaretlerim ve açık delillerim}, uyarının elçi ve mesaj aracılığıyla taşınan biçimini ise {ar:رُسُلِي, tr:rusulî, gloss:elçilerim} kurar (18:106). Buna karşılık {ar:وَعَرَضْنَا, tr:ve ʿaraḍnâ, gloss:önlerine getirip gösterdik}, Cehennemi onu haber veren aracıdan ayrı bir nesne olarak doğrudan görüş alanına getirir. {ar:الْكَافِرِينَ, tr:al-kāfirīn, gloss:dinî gerçeği örten ve reddedenler} bu işaret ve elçilerin taşıdığı hakikati reddeden sınıfı, {ar:هُزُوًا, tr:huzuven, gloss:alay konusu ederek} ise uyarının uzaktan alaya alınışını gösterir (18:106). Aracı uyarı mesafede kalırken gösterilen şeyin kendisiyle karşılaşma mesafeyi kapatır; Cehennem, reddedilmiş uyarının kendi referansı olarak doğrudan karşıya çıkar. Bu hareket, hem alaydan sonra gelen sebep-sonuç akışını hem de son sergi görüntüsünü görünür tutar; metin bu iki açıklama imkânından birini diğerine kapatmaz.
+
+## Görünür alanın uzak yankıları
+
+Gösterme anlamından daha uzakta duran mekânsal temas, {ar:عَرْضًا, tr:ʿarḍan, gloss:açıkça ortaya koyarak gösterme} sözünün en boyutuna değdiği sahnede belirir. {ar:الْبَحْرُ, tr:el-baḥru, gloss:deniz} geniş bir alan kurar; {ar:مِدَادًا, tr:midâden, gloss:yazı mürekkebi} ve {ar:مَدَدًا, tr:mededen, gloss:uzatılan ek destek} uzama ve ek ölçüyü, {ar:لَنَفِدَ, tr:lenefide, gloss:tükenir} ile {ar:تَنفَدَ, tr:tenfede, gloss:tükenir} ise bu uzamanın bir sınırda bitmesini taşır (18:109). Bu üç işlem birlikte, denizle açılan alanı uzama ve tükenme sınırıyla donatır; odaktaki tekrar eden gösterme mastarıyla temas ettiğinde gösterilen alan yanlara açılan bir yüzey gibi sezilir. Bu mekânsal yankı, odaktaki gösterme anlamını “genişlik” diye çevirmeden alan duygusunu genişletir; deniz, Cehennemle özdeşleşmeden bu bağlantının bağımsız bağlamı olarak kalır.
+
+Bundan da daha hafif bir renk, uzak bir karşılaşmanın eşiğinde belirir. {ar:عَرَضْنَا, tr:ʿaraḍnâ, gloss:önlerine getirip gösterdik} bir şeyin bakan kişiye uzaktan veya bir yönden belirip görünmesi yönünü duyurabilir. Rabbin buluşmasını umut etmeyi ve doğru işi bu umutla birlikte anmayı sürdüren {ar:يَرْجُوا, tr:yercû, gloss:ummak ve beklemek}, görünür Cehennemin ön yüzüne çok hafif bir ateş rengi verir (18:110). Bu renk, gösterilen nesneyi uzak bir karşılaşmanın eşiğinde belirginleştirir; {ar:يَرْجُوا, tr:yercû, gloss:ummak} kelimesi ise bu bağlam içinde de olağan umut anlamını taşır. Ateş cephesi, kelimenin anlamını değiştiren bir karşılık değil, çevresindeki karşılaşma görüntüsünü hafifçe renklendiren bir yankıdır; bu yüzden son hareket en ihtiyatlı ve keşifsel sınırında kalır.
+
+</editorial_prose>

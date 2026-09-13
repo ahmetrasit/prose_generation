@@ -1,0 +1,585 @@
+{
+  "schema_version": "commentary-v5-scope-discovery-v1",
+  "ayah_ref": "18:58",
+  "lane": "global",
+  "coverage_complete": true,
+  "candidate_decisions": [
+    {
+      "candidate_id": "cand_1322a56f1ad4844db15b",
+      "decision": "accept",
+      "reason": "Trusted ve atıf yapılabilir yayın, 18:58:2:2 ve 18:58:4:2 taşıyıcılarında üç supplied dalı birlikte adlandırıyor; 16:61, 35:45, 14:10 ve 71:4'teki bağımsız erteleme/bağışlama ilişkileri, kazanılmış sonuç ile hemen yakalanma arasına hesabı silmeyen yönetilmiş zaman koyma iddiasını destekliyor.",
+      "finding_refs": [
+        "global:managed-delay-shield"
+      ],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_cd5f377f02b8ae08d6ab",
+      "decision": "accept",
+      "reason": "Legacy yürüyüşü rahmeti kazanılan şeylerle yakalanma arasına süre koyan etkin bir ilişki olarak kuruyor; root_000552/B001'in 18:58:4:2 taşıyıcısı ve 35:45 bağlantısı aynı ilişkiyi bağımsızca taşıyor. Kaynak güveni qualified statüyle görünür bırakılıyor.",
+      "finding_refs": [
+        "global:mercy-inserts-interval"
+      ],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_3ffe51db3bad02f569e0",
+      "decision": "accept",
+      "reason": "Retrospektif kayıt 18:82 ve 18:98'i rahmetin olgunluğa veya belirlenmiş vakte kadar koruyucu süre açmasıyla ilişkilendiriyor; 18:98'in sağlanan Arapça yüzeyi focus'a dönen bağlantıyla destekleniyor. 18:82'nin ayrıntıları yalnızca legacy desteğinde bulunduğundan bulgu qualified tutuluyor.",
+      "finding_refs": [
+        "global:maturity-and-appointment-interval"
+      ],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_5c155af6435ad93f9922",
+      "decision": "accept",
+      "reason": "Geniş bağlam yürüyüşü root_001096/B001 ve root_001096/B002 dallarını, bağışlayıcı örtünün sonucu silmeden cezaya erişimi geciktirmesi olarak kuruyor; 18:58:2:2 taşıyıcısı ile 14:10 ve 71:4 bağlantıları bunu destekliyor. Legacy_unbound kaynak qualified statüyle korunuyor.",
+      "finding_refs": [
+        "global:forgiving-cover-preserves-account"
+      ],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_434b34005f2ed5bdf567",
+      "decision": "accept",
+      "reason": "Retrospektif kayıt 18:59'daki zamanlanmış sonucu ve 18:63'teki gecikmiş yolculukta geri bulunabilen işareti rahmeti kullanılabilir bir süre olarak okuyor. Destek citable ve tam wider yüzey çözümlemesi sunmadığı için ilişki qualified tutuluyor.",
+      "finding_refs": [
+        "global:timed-interval-confirmed"
+      ],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_6dc84a8460a72123eaf3",
+      "decision": "reject",
+      "reason": "HFT kaydı yalnızca موعد hakkında bir sonuç cümlesi veriyor; anchor_evidence, ayet/kelime koordinatı, kök, atfedilen rol ve focus return yok. Legacy_unbound HFT aktivasyon eşiği geçilmiyor; ayrı semantic_obligation ref'i de sağlanmıyor.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_82a96beae2751bb0cfc2",
+      "decision": "reject",
+      "reason": "HFT kaydı مَوْئِل için no-refuge yorumunu taşısa da supplied anchor_evidence, odak kelime koordinatı, kök, rol ve focus return yok. Aynı ilişki bağımsız lexicon ve bağlantılarla ayrı bulguda kurulabildiğinden bu atfedilmemiş HFT izi reddediliyor; ayrı semantic_obligation ref'i sağlanmıyor.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_4ed737b63c27fc29e431",
+      "decision": "reject",
+      "reason": "HFT özeti warned/evaluative interval ve 18:59 ufkunu bildiriyor, fakat exact trace içinde odak koordinatı, kelime/kök rolü veya focus return bulunmuyor. Bu nedenle küresel aktivasyon eşiği geçilmiyor; ayrı semantic_obligation ref'i yok.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_71fc3d0f3144fd81e654",
+      "decision": "reject",
+      "reason": "HFT kaydı çeşitli bağlamları tek bir geniş sentezde topluyor, ancak focus surface'e bağlanan anchor veya branch ref'i yok. Atfedilmemiş sentez kendi başına aktifleştirilemez; ayrı semantic_obligation ref'i yok.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_61b18e260296071ce70e",
+      "decision": "reject",
+      "reason": "دونه zamirinin olası göndericilerini çoğaltan HFT belirsizliği, supplied anchor_evidence ve focus return olmadan veriliyor. Odağa dönen taşıyıcı-tetikleyici izi kurulamadığı için reddediliyor; ayrı semantic_obligation ref'i yok.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_ac3b422ca6b82abf2622",
+      "decision": "reject",
+      "reason": "Bağlam dizisinin aralığı tanımlayıp tanımlamadığına ilişkin HFT notu exact focus trace veya bağımsız kelime/kök teması sunmuyor. Olasılık notu aktivasyon ilişkisine dönüşmüyor; ayrı semantic_obligation ref'i yok.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_36c008303c3f89d7b8eb",
+      "decision": "reject",
+      "reason": "Sayılmış gebelik/gestation okuması kendi HFT kaydında exploratory branch transfer olarak niteleniyor; supplied anchor_evidence, kelime/kök koordinatı ve focus return yok. Belirtilen HFT rolü aşılmadan aktivasyon kurulamaz; ayrı semantic_obligation ref'i yok.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    }
+  ],
+  "findings": [
+    {
+      "finding_ref": "global:managed-delay-shield",
+      "origin_candidate_id": "cand_1322a56f1ad4844db15b",
+      "represented_candidate_ids": [],
+      "title": "Merhamet ve bağışlama hesabı silmeden zaman açar",
+      "claim": "18:58:2:2'deki ٱلْغَفُورُ ile 18:58:4:2'deki ٱلرَّحْمَةِ, kazanılmış sonuç ile hemen yakalanma arasına koruyucu ve yönetilmiş bir zaman koyar; bu zaman hesabı kaldırmaz.",
+      "mechanism": "غ ف ر'nin örtme ve suçu bağışlayıp cezadan koruma taşıyıcıları, ر ح م'nin etkin esirgeme taşıyıcısıyla temas eder. 16:61 ve 35:45'teki ertelenmiş yakalama ile 14:10 ve 71:4'teki bağışlama-erteleme ilişkileri, bu taşıyıcıların hemen kapanışı geciktiren işleyişini bağımsızca tetikler.",
+      "reader_payoff": "Gecikme, ilgisizlik ya da hesabın yok olması değil, sonucu silmeden kapanışı yöneten bir koruma aralığı olarak görünür.",
+      "containment": "Her gecikmenin bağışlama olduğu veya cezanın kaldırıldığı söylenmiyor; 18:58'in koşullu لو'su, hızlandırılmış azap karşıtlığı ve belirlenmiş موعد sınırı korunuyor.",
+      "epistemic": {
+        "status": "grounded",
+        "source_trust": [
+          "trusted"
+        ],
+        "reason": "Atıf yapılabilir trusted yayın üç focus dalını açıkça taşıyor; focus taşıyıcıları sağlanan bağımsız erteleme ve bağışlama bağlantılarıyla yeniden temas ediyor."
+      },
+      "support_ids": [
+        "sup_c7ec3cb0e866344c5d1e"
+      ],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000552/B001",
+          "facet_id": "F002",
+          "branch_gloss": "acıma duygusuyla esirgeyip iyilik etme",
+          "facet_statement": "Bu iç yöneliş, acınan kişiyi esirgemeyi ve ona iyilikte bulunmayı gerektiren etkin bir sonuç taşır.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "18:58:4:2"
+          ],
+          "trigger_refs": [
+            "conn_e3747198a884cf033c4e"
+          ],
+          "focus_return_refs": [
+            "18:58:4:2"
+          ],
+          "carrier": "18:58:4:2'deki ٱلرَّحْمَةِ, acıma yönelişinin esirgeme ve iyilik sonucunu taşır.",
+          "independent_trigger": "35:45, insanların kazandıkları yüzünden hemen yok edilmek yerine belirlenmiş vakte ertelendiğini söyler.",
+          "activation": "Rahmetin etkin esirgeme sonucu, bağımsız erteleme ilişkisine temas ederek odaktaki rahmeti yönetilmiş gecikme olarak renklendirir.",
+          "resulting_reading": "Rahmet, kazanılmış sonuç ile hemen yakalanma arasına hesabı silmeyen koruyucu bir süre koyar.",
+          "boundary": "İnsani duygulanım Tanrı hakkında aynen varsayılmıyor; yalnızca esirgeme ve iyilik sonucunun zamanlamaya etkisi taşınıyor."
+        },
+        {
+          "branch_ref": "root_001096/B001",
+          "facet_id": "F001",
+          "branch_gloss": "koruyucu biçimde örtme",
+          "facet_statement": "Temel işlem, bir şeyi örterek onu dış etkiden korumak ya da görünmez kılmaktır.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "18:58:2:2"
+          ],
+          "trigger_refs": [
+            "conn_73b74bfc154d8b3b7488"
+          ],
+          "focus_return_refs": [
+            "18:58:2:2"
+          ],
+          "carrier": "18:58:2:2'deki ٱلْغَفُورُ, örtme yoluyla dış etkiden koruma çekirdeğini taşır.",
+          "independent_trigger": "16:61, insanların yaptıkları yüzünden hemen yakalanmayıp belirlenmiş vakte bırakılmasını bildirir.",
+          "activation": "Erteleme tetikleyicisi, غ ف ر'nin koruyucu örtme çekirdeğiyle temas ederek hemen görülecek sonucun bir süre tutulduğunu görünür kılar.",
+          "resulting_reading": "Bağışlayıcı örtü, kazanılmış sonucun varlığını yok etmeden onun hemen açığa çıkmasını geciktirir.",
+          "boundary": "Fiziksel örtü veya görünmezlik iddiası kurulmuyor; yalnızca işlevsel koruma imgesi taşınıyor."
+        },
+        {
+          "branch_ref": "root_001096/B002",
+          "facet_id": "F001",
+          "branch_gloss": "suçu bağışlayıp cezadan koruma",
+          "facet_statement": "Temel işlem, işlenmiş bir suçu bağışlamaktır.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "18:58:2:2"
+          ],
+          "trigger_refs": [
+            "conn_6697b3577e3e58582e26"
+          ],
+          "focus_return_refs": [
+            "18:58:2:2"
+          ],
+          "carrier": "18:58:2:2'deki ٱلْغَفُورُ, işlenmiş suçu bağışlama çekirdeğini taşıyan ilahî niteliği bildirir.",
+          "independent_trigger": "14:10, bağışlamayı insanların belirlenmiş bir vakte kadar ertelenmesiyle aynı ilişkide sunar.",
+          "activation": "Bağışlama taşıyıcısı, belirlenmiş vakte erteleme tetikleyicisiyle temas ederek hemen gelen karşılığın bağışlayıcı bir ara içinde tutulduğunu gösterir.",
+          "resulting_reading": "Bağışlama, kazanılmış sorumluluğu silmeden hemen yakalanmayı erteleyen yönetilmiş bir aralık açar.",
+          "boundary": "Bağışlamanın gerçekleştiği veya her suçun kaldırıldığı kesinleştirilmiyor."
+        },
+        {
+          "branch_ref": "root_001096/B002",
+          "facet_id": "F002",
+          "branch_gloss": "suçu bağışlayıp cezadan koruma",
+          "facet_statement": "Bağışlamanın sonucu, suç işleyeni cezanın ona ulaşmasından korumaktır.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "18:58:2:2"
+          ],
+          "trigger_refs": [
+            "conn_895384b2aa4763be01ec"
+          ],
+          "focus_return_refs": [
+            "18:58:2:2"
+          ],
+          "carrier": "18:58:2:2'deki ٱلْغَفُورُ, suç işleyeni cezanın etkisinden koruma sonucunu taşır.",
+          "independent_trigger": "71:4, günahları bağışlama ile insanların belirlenmiş vakte ertelenmesini doğrudan birleştirir.",
+          "activation": "Belirlenmiş vakte erteleme, cezadan koruma sonucuna bağımsız bir zaman sınırı sağlar.",
+          "resulting_reading": "Cezadan koruma, hesabın yokluğu değil, cezanın belirlenmiş vakte kadar hemen ulaşmamasıdır.",
+          "boundary": "71:4'teki ilişki odaktaki bütün kişilere veya nihai sonuca aynen taşınmıyor."
+        }
+      ],
+      "connection_refs": [
+        "conn_e3747198a884cf033c4e",
+        "conn_73b74bfc154d8b3b7488",
+        "conn_6697b3577e3e58582e26",
+        "conn_895384b2aa4763be01ec"
+      ],
+      "context_refs": [
+        "35:45",
+        "16:61",
+        "14:10",
+        "71:4"
+      ],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:mercy-inserts-interval",
+      "origin_candidate_id": "cand_cd5f377f02b8ae08d6ab",
+      "represented_candidate_ids": [],
+      "title": "Rahmet sonuç ile yakalanma arasına süre koyar",
+      "claim": "18:58:4:2'deki ٱلرَّحْمَةِ, insanların kazandıkları için hemen yakalanmamasını gösteren daha geniş bağlantıyla birlikte, sorumluluk ile kapanış arasına yönetilmiş bir süre koyar.",
+      "mechanism": "Rahmet dalının etkin esirgeme facet'i focus taşıyıcısında bulunur; 35:45'teki ertelenmiş yakalama bu taşıyıcıya bağımsız biçimde temas eder ve rahmeti kapanışı geciktiren koruyucu işlem olarak görünür kılar.",
+      "reader_payoff": "Rahmet, hesabı iptal eden bir kaçış değil, sonuçla hemen karşılaşma arasındaki gerçek zaman aralığını yöneten bir esirgeme olarak görünür.",
+      "containment": "Gecikmenin sonsuz olduğu veya sorumluluğun ortadan kalktığı söylenmiyor; 18:58'deki belirlenmiş vakit ve kaçışsız son korunuyor.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": [
+          "legacy_unbound"
+        ],
+        "reason": "Ana yürüyüş legacy_unbound ve citable değildir; focus carrier, accepted branch ve 35:45'in sağlanan hedef yüzeyi ilişkiyi bağımsızca sınırlar."
+      },
+      "support_ids": [
+        "sup_a8d4fe608e9506fbf9cb"
+      ],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000552/B001",
+          "facet_id": "F002",
+          "branch_gloss": "acıma duygusuyla esirgeyip iyilik etme",
+          "facet_statement": "Bu iç yöneliş, acınan kişiyi esirgemeyi ve ona iyilikte bulunmayı gerektiren etkin bir sonuç taşır.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "18:58:4:2"
+          ],
+          "trigger_refs": [
+            "conn_e3747198a884cf033c4e"
+          ],
+          "focus_return_refs": [
+            "18:58:4:2"
+          ],
+          "carrier": "18:58:4:2'deki ٱلرَّحْمَةِ, esirgeme ve iyiliğin etkin sonucunu taşıyan rahmet adıdır.",
+          "independent_trigger": "35:45, kazanılanlar yüzünden hemen yakalama yerine belirlenmiş vakte ertelemeyi bildirir.",
+          "activation": "Rahmetin esirgeme sonucu, ertelenmiş yakalama ile temas ederek odakta süre açan etkin bir koruma olarak görünür.",
+          "resulting_reading": "Rahmet, sorumluluğu silmeden hesapla hemen karşılaşmayı erteler.",
+          "boundary": "18:79-82 ayrıntıları taşınmıyor; yalnızca focus taşıyıcısı ve 35:45 ilişkisi kullanılıyor."
+        }
+      ],
+      "connection_refs": [
+        "conn_e3747198a884cf033c4e"
+      ],
+      "context_refs": [
+        "35:45"
+      ],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:maturity-and-appointment-interval",
+      "origin_candidate_id": "cand_3ffe51db3bad02f569e0",
+      "represented_candidate_ids": [],
+      "title": "Rahmet korunmuş bir olgunlaşma aralığı açar",
+      "claim": "18:58:4:2'deki rahmet taşıyıcısı, 18:82'deki olgunluğa kadar koruma notu ve 18:98'deki rahmet ile gerçek vaat arasındaki bağla birlikte, sonucu iptal etmeden geleceği belirlenmiş vakte kadar koruyan bir aralık olarak okunabilir.",
+      "mechanism": "Focus rahmet dalı, 18:82'yi adlandıran retrospektif destekle ve 18:98'in sağlanan Arapça yüzeyini odağa geri bağlayan bağlantıyla temas eder; bu wider trigger'lar rahmeti görünmeyen geleceği vakte kadar taşıyan etkin koruma olarak renklendirir.",
+      "reader_payoff": "18:58'deki erteleme, boşluk ya da unutma değil, olgunlaşma ve belirlenmiş karşılaşma için açık tutulan bir zaman olarak belirginleşir.",
+      "containment": "18:82'nin bütün gizli müdahale ayrıntıları veya her ertelenmenin aynı işleve sahip olduğu iddia edilmiyor; 18:82 retrospektif, 18:98 ise hedef morfolojisi eksik bağlantı olarak kalıyor.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": [
+          "legacy_unbound"
+        ],
+        "reason": "18:82 yalnızca legacy_unbound retrospektif destekte adlandırılmıştır; 18:98 için exact target Arabic ve focus'a geri dönen bağlantı vardır, fakat tam lexical reanalysis yoktur."
+      },
+      "support_ids": [
+        "sup_69242ed2ea7fbbb2d092"
+      ],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000552/B001",
+          "facet_id": "F002",
+          "branch_gloss": "acıma duygusuyla esirgeyip iyilik etme",
+          "facet_statement": "Bu iç yöneliş, acınan kişiyi esirgemeyi ve ona iyilikte bulunmayı gerektiren etkin bir sonuç taşır.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "18:58:4:2"
+          ],
+          "trigger_refs": [
+            "sup_69242ed2ea7fbbb2d092",
+            "conn_3f18e2d508369ae3189b"
+          ],
+          "focus_return_refs": [
+            "18:58:4:2"
+          ],
+          "carrier": "18:58:4:2'deki ٱلرَّحْمَةِ, koruyucu esirgeme ve iyilik sonucunu taşıyan rahmet dalının focus taşıyıcısıdır.",
+          "independent_trigger": "Retrospektif destek 18:82'de olgunluğa kadar korumayı, conn_3f18e2d508369ae3189b ise 18:98'de rahmet ile gerçek ve belirlenmiş vaat arasındaki bağı bildirir.",
+          "activation": "Olgunluğa kadar koruma ve belirlenmiş vaadin birlikte anılması, focus rahmetini geleceği koruyup vakte taşıyan bir aralık olarak yeniden temaslandırır.",
+          "resulting_reading": "Rahmet, sonucu silmeden görünmeyen geleceğin olgunlaşması için korunmuş bir süre açar.",
+          "boundary": "18:82'nin ayrıntıları yalnızca destek metninden biliniyor; 18:98 bağlantısının hedef morfolojisi sağlanmadığı için bu qualified bir yankıdır."
+        }
+      ],
+      "connection_refs": [
+        "conn_3f18e2d508369ae3189b"
+      ],
+      "context_refs": [
+        "18:82",
+        "18:98"
+      ],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:forgiving-cover-preserves-account",
+      "origin_candidate_id": "cand_5c155af6435ad93f9922",
+      "represented_candidate_ids": [],
+      "title": "Bağışlayıcı örtü hesabı koruyarak geciktirir",
+      "claim": "18:58:2:2'deki ٱلْغَفُورُ, koruyucu örtme ile suçu bağışlayıp cezadan koruma dallarını, belirlenmiş vakte kadar ertelenen karşılıkla birlikte, kazanılmış hesabı silmeden hemen cezaya dönüşmeyi engelleyen bir örtü olarak görünür kılar.",
+      "mechanism": "Focus taşıyıcısındaki غ ف ر dalları 16:61'deki ertelenmiş yakalama, 14:10'daki bağışlama ve belirlenmiş vakit, 71:4'teki bağışlama ile erteleme bağlantılarıyla ayrı ayrı temas eder. Bu temas örtme işlemini cezaya hemen erişimi engelleyen işlevsel korumaya taşır.",
+      "reader_payoff": "Bağışlama, hesabın yok sayılması değil, hesabın belirlenmiş vakte kadar örtülüp cezaya hemen çevrilmemesi olarak okunabilir.",
+      "containment": "B001'in fiziksel örtü, B002'nin suç ve bağışlama çekirdeği dışında kalan eş adlı kullanımları taşınmıyor; nihai cezanın kaldırıldığı söylenmiyor.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": [
+          "legacy_unbound"
+        ],
+        "reason": "Geniş yürüyüş legacy_unbound'dur; focus kelime, iki accepted ghfr dalı ve 14:10/71:4 hedef yüzeyleri bağışlama-erteleme temasını destekler."
+      },
+      "support_ids": [
+        "sup_73e89be191b71bfc5a0a"
+      ],
+      "branch_activations": [
+        {
+          "branch_ref": "root_001096/B001",
+          "facet_id": "F001",
+          "branch_gloss": "koruyucu biçimde örtme",
+          "facet_statement": "Temel işlem, bir şeyi örterek onu dış etkiden korumak ya da görünmez kılmaktır.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "18:58:2:2"
+          ],
+          "trigger_refs": [
+            "conn_73b74bfc154d8b3b7488"
+          ],
+          "focus_return_refs": [
+            "18:58:2:2"
+          ],
+          "carrier": "18:58:2:2'deki ٱلْغَفُورُ, örtme yoluyla koruma çekirdeğini taşır.",
+          "independent_trigger": "16:61, insanların yaptıkları yüzünden hemen yakalanmamasını ve belirlenmiş vakte bırakılmasını bildirir.",
+          "activation": "Erteleme, örtme dalındaki dış etkiyi bir süre engelleme işleviyle temas eder.",
+          "resulting_reading": "Bağışlayıcı örtü, kazanılmış sonucu yok etmeden cezanın hemen görünür olmasını engeller.",
+          "boundary": "Fiziksel kaplama veya görünmezlik iddiası değildir; işlevsel koruma imgesidir."
+        },
+        {
+          "branch_ref": "root_001096/B002",
+          "facet_id": "F001",
+          "branch_gloss": "suçu bağışlayıp cezadan koruma",
+          "facet_statement": "Temel işlem, işlenmiş bir suçu bağışlamaktır.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "18:58:2:2"
+          ],
+          "trigger_refs": [
+            "conn_6697b3577e3e58582e26"
+          ],
+          "focus_return_refs": [
+            "18:58:2:2"
+          ],
+          "carrier": "18:58:2:2'deki ٱلْغَفُورُ, işlenmiş suçu bağışlama çekirdeğini taşır.",
+          "independent_trigger": "14:10, bağışlamayı belirlenmiş bir vakte kadar ertelenmeyle yan yana kurar.",
+          "activation": "Bağışlama taşıyıcısı, belirlenmiş vakit tetikleyicisiyle temas ederek cezanın hemen uygulanmamasını bağışlayıcı işlem olarak renklendirir.",
+          "resulting_reading": "Bağışlama, sorumluluğu silmeden karşılığın hemen gelmesini geciktirebilir.",
+          "boundary": "Odaktaki bütün kişilerin bağışlandığı veya sonucun kesinlikle kaldırıldığı söylenmiyor."
+        },
+        {
+          "branch_ref": "root_001096/B002",
+          "facet_id": "F002",
+          "branch_gloss": "suçu bağışlayıp cezadan koruma",
+          "facet_statement": "Bağışlamanın sonucu, suç işleyeni cezanın ona ulaşmasından korumaktır.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "18:58:2:2"
+          ],
+          "trigger_refs": [
+            "conn_895384b2aa4763be01ec"
+          ],
+          "focus_return_refs": [
+            "18:58:2:2"
+          ],
+          "carrier": "18:58:2:2'deki ٱلْغَفُورُ, bağışlamanın suç işleyeni cezanın erişiminden koruma sonucunu taşır.",
+          "independent_trigger": "71:4, günahları bağışlama ile belirlenmiş vakte ertelemeyi doğrudan birleştirir.",
+          "activation": "Belirlenmiş vakte erteleme, koruma facet'ine zaman sınırı verir; cezanın ulaşmaması sonsuz kaçış değil, yönetilmiş bir ara olur.",
+          "resulting_reading": "Cezadan korunma, hesabın yokluğu değil, onun belirlenmiş vakte kadar ertelenmesidir.",
+          "boundary": "Nihai akıbet veya bağışlamanın kapsamı hakkında bağlantının ötesine geçmiyor."
+        }
+      ],
+      "connection_refs": [
+        "conn_73b74bfc154d8b3b7488",
+        "conn_6697b3577e3e58582e26",
+        "conn_895384b2aa4763be01ec"
+      ],
+      "context_refs": [
+        "16:61",
+        "14:10",
+        "71:4"
+      ],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:timed-interval-confirmed",
+      "origin_candidate_id": "cand_434b34005f2ed5bdf567",
+      "represented_candidate_ids": [],
+      "title": "Gecikme kullanılabilir bir süre olarak belirir",
+      "claim": "18:59'daki belirlenmiş sonuç ve 18:63'te yeniden bulunabilen gecikmiş işaret, 18:58:4:2'deki rahmet taşıyıcısını, sonucu iptal etmeyen fakat hareket ve olgunlaşma için kullanılabilen bir süre olarak renklendirir.",
+      "mechanism": "Retrospektif destek 18:59 ve 18:63'teki iki wider olayı aynı gecikmiş aralıkla ilişkilendirir; bu ilişki focus rahmetinin esirgeme/iyilik çekirdeğine döner ve ertelemeyi içinde yön ve geri dönüş imkânı bulunan zaman olarak değiştirir.",
+      "reader_payoff": "Ertelemenin boş bir askıya alma değil, belirlenmiş son yaklaşırken kullanılabilen bir zaman alanı olduğu sezilir.",
+      "containment": "18:63'ün tam Arapça ve bağımsız morfolojik analizi packet'te verilmediği için bu qualified bir yankıdır; her gecikmenin aynı şekilde kullanılabildiği söylenmiyor.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": [
+          "legacy_unbound"
+        ],
+        "reason": "18:59 ve 18:63 ilişkisi citable olmayan legacy_unbound retrospektif destekte açıkça veriliyor; focus carrier mevcut, fakat wider hedef yüzeyleri bu kayıtta yeniden sağlanmıyor."
+      },
+      "support_ids": [
+        "sup_df8b18b262d9f1092ab7"
+      ],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000552/B001",
+          "facet_id": "F002",
+          "branch_gloss": "acıma duygusuyla esirgeyip iyilik etme",
+          "facet_statement": "Bu iç yöneliş, acınan kişiyi esirgemeyi ve ona iyilikte bulunmayı gerektiren etkin bir sonuç taşır.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "18:58:4:2"
+          ],
+          "trigger_refs": [
+            "sup_df8b18b262d9f1092ab7"
+          ],
+          "focus_return_refs": [
+            "18:58:4:2"
+          ],
+          "carrier": "18:58:4:2'deki ٱلرَّحْمَةِ, esirgeme ve iyilik sonucu taşıyan rahmet dalının focus taşıyıcısıdır.",
+          "independent_trigger": "Retrospektif kayıt 18:59'un zamanlanmış sonucu ve 18:63'ün gecikmiş yolculuk içinde yeniden bulunabilen işaret olduğunu bildirir.",
+          "activation": "Bu wider zaman örneği rahmet taşıyıcısına dönerek gecikmeyi içinde hareket ve geri dönüş imkânı bulunan bir koruma aralığına bağlar.",
+          "resulting_reading": "Rahmetle açılan süre, sonucu kaldırmadan kullanılabilir ve yönlü bir aralık olur.",
+          "boundary": "18:59 veya 18:63'ün bağımsız tam metin çözümlemesini iddia etmiyor; yalnızca packet'teki retrospektif ilişkiyi taşıyor."
+        }
+      ],
+      "connection_refs": [],
+      "context_refs": [
+        "18:59",
+        "18:63"
+      ],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:no-substitute-refuge",
+      "origin_candidate_id": null,
+      "represented_candidate_ids": [],
+      "title": "Sığınak yokluğu başka koruyucuların da yokluğudur",
+      "claim": "18:58:19:1'deki مَوْئِلًا, 72:22'deki Allah'tan ayrı sığınak bulunmaması ve 71:25'te yardımcıların bulunmamasıyla temas ederek, son cümlenin yalnızca gizlenecek bir yerin yokluğu değil, sonucu savuşturacak alternatif koruyucunun yokluğu olduğunu görünür kılar.",
+      "mechanism": "root_001616/B002'nin sığınak taşıyıcısı, 72:22'nin başka sığınak yokluğu ve 71:25'in Allah'tan başka yardımcı bulunamamasıyla bağımsızca temas eder. Focus refuge noun, bu wider trigger'larla mekânsal saklanma imgesini sonuçtan kurtarıcı alternatifin reddine genişletir.",
+      "reader_payoff": "مَوْئِلًا'nın reddi, yalnızca bir kaçış yerinin bulunamaması değil, başka bir dayanak veya kurtarıcıya geçişin de kapanması olarak belirginleşir.",
+      "containment": "دُونِهِۦ zamirinin gönderimini çözmüyor; HFT özetindeki bütün patron/destek/yanıtlayıcı listesini bağımsız lexical iddia olarak almıyor.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": [
+          "legacy_unbound"
+        ],
+        "reason": "Sığınak dalı ve 72:22 ile 71:25'in sağlanan hedef Arapçası bağımsız taşıyıcı-tetikleyici ilişkisini kuruyor; legacy_unbound HFT özeti yalnızca adaylık düzeyinde ekleniyor."
+      },
+      "support_ids": [
+        "sup_c882086d2a081eed992a"
+      ],
+      "branch_activations": [
+        {
+          "branch_ref": "root_001616/B002",
+          "facet_id": "F001",
+          "branch_gloss": "sığınak ve ona yönelerek kurtulma",
+          "facet_statement": "Tehlikeden korunmak için sığınılan yer güvenlik ve kurtuluş sağlar.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "18:58:19:1"
+          ],
+          "trigger_refs": [
+            "conn_80bfb129f44d85cbf798"
+          ],
+          "focus_return_refs": [
+            "18:58:19:1"
+          ],
+          "carrier": "18:58:19:1'deki مَوْئِلًا, tehlikeden korunulan ve kurtuluş umulan sığınak yerini taşır.",
+          "independent_trigger": "72:22, Allah'tan ayrı hiç kimsenin sığınak sağlayamayacağını bildirir.",
+          "activation": "Dış bağlantıdaki sığınak yokluğu, focus refuge carrier'ına dönerek yokluğu fiziksel yerden daha geniş bir kurtuluş imkânı reddine bağlar.",
+          "resulting_reading": "Başka bir sığınak bulunamaz; sonuçtan kaçış için dışarıda güvenlik ve kurtuluş alanı yoktur.",
+          "boundary": "Focus zamirinin göndericisini seçmiyor ve belirli bir nihai ceza sahnesi eklemiyor."
+        },
+        {
+          "branch_ref": "root_001616/B002",
+          "facet_id": "F002",
+          "branch_gloss": "sığınak ve ona yönelerek kurtulma",
+          "facet_statement": "Kişi korunmak amacıyla bir yere ya da koruyucu odağa sığınır.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "18:58:19:1"
+          ],
+          "trigger_refs": [
+            "conn_374c28c47c0946039e51"
+          ],
+          "focus_return_refs": [
+            "18:58:19:1"
+          ],
+          "carrier": "18:58:19:1'deki مَوْئِلًا, korunmak için yönelinecek yer veya odağı bildirir.",
+          "independent_trigger": "71:25, yok oluşun ardından Allah'tan başka yardımcıların bulunamadığını bildirir.",
+          "activation": "Yardımcı bulunamaması, sığınma eyleminin alternatif koruyucuya yönelme boyutunu kapatır ve focus'taki bulamama fiilini ilişkisel bağımlılık sınırına taşır.",
+          "resulting_reading": "Korunmak için yönelebilecekleri başka bir koruyucu odak bulamazlar.",
+          "boundary": "Yalnızca O'ndan ayrı alternatifin yokluğu görünür kılınıyor; Allah'a sığınmanın bütün biçimleri açıklanmıyor."
+        }
+      ],
+      "connection_refs": [
+        "conn_80bfb129f44d85cbf798",
+        "conn_374c28c47c0946039e51"
+      ],
+      "context_refs": [
+        "72:22",
+        "71:25"
+      ],
+      "semantic_obligation_refs": []
+    }
+  ],
+  "friction_notes": [
+    "focus_word_alignment unresolved sayısı sıfırdır; focus yüzeyindeki taşıyıcı koordinatları çözülmüştür.",
+    "Yedi HFT kaydında supplied anchor_evidence yoktur; bunlar odak koordinatı, kök, rol ve focus return taşımadıkları için kendi atfedilmiş izleri olarak reddedildi.",
+    "18:82, 18:63 ve bazı retrospektif wider bağlamlar yalnızca legacy_unbound destek metninde adlandırılmıştır; ilgili bulgular bu nedenle qualified tutuldu.",
+    "Küresel bağlantı kayıtlarının hedef morfolojisi çoğunlukla sağlanmadığından bağlantılar yalnızca sağlanan hedef Arapçası ve kayıtlı ilişki notu kadar kullanıldı; retrieval etiketleri karar ölçütü yapılmadı."
+  ]
+}

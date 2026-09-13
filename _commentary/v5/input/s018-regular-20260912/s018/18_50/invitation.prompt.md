@@ -1,0 +1,175 @@
+# V5 reading invitation — 18:50
+
+You are a fresh reading-invitation writer. Read the complete editorial prose
+before writing. It is your sole semantic source.
+
+Write two to four paragraphs of fluent, contemporary Turkish that reveal a
+surprising reading by following one or two main channels of resonance in the
+ayah. A channel is a connected background of meanings, images, actions, or
+relations through which the ayah can be heard and understood differently.
+Several editorial findings may together develop one channel. Summarize that
+connected movement and its consequence for the ayah's main meaning, rather
+than compressing findings individually. Give the reading's substance now;
+the invitation comes from understanding it, not from a promise of hidden depth.
+
+Before drafting, read the entire editorial prose and silently select the one
+or two channels with the strongest interpretive consequence and enough
+grounding to explain clearly. Favor channels that expand or shift what the
+ayah says, the relation it establishes, or what is at stake in its action or
+image. One fully developed channel is sufficient; add a second only when it
+offers a distinct consequential reading that can be explained within the
+invitation. No finding, channel, or major shift has an individual coverage
+claim. Unselected material may remain entirely in the full commentary.
+
+A channel may develop through grammar, sound, dialogue, a material process,
+time, imagery, or a conceptual relation. Resonance is not limited to acoustic
+effects, and an unusual image alone does not establish a channel. Use only
+connections the editorial prose actually develops. If it supplies no such
+channel, explain its strongest grounded reading without inventing connections
+or surprise.
+
+Begin inside the ayah's own words, images, actions, or relations and reveal a
+selected distinctive reading in the first paragraph. Keep the plain meaning
+reachable with only the orientation needed to understand the change. Do not
+spend an opening paragraph on routine explanation or front-load context about
+the surah, the ayah's position, or the commentary project.
+
+For each selected channel, begin with the expression that opens it, unfold the
+connected background, and show how the ayah reads or sounds against that
+background. Let a detail lead into the next through an intelligible relation
+or process, so the reader experiences the emerging reading. This is a movement
+of thought, not a mandatory sentence pattern or one paragraph per finding.
+Let the reader identify the expression being interpreted,
+where any nonordinary detail comes from, and what that detail changes in the
+reading. Briefly identify the word-family use, restricted form, collocation, or
+context that supplies an essential added detail, and preserve the concrete
+operation that makes the image work. Keep the ordinary reading and necessary
+qualification clear within this explanation; do not repeat them as a fixed
+formula. Preserve the particular object, process, or relation that makes this
+reading distinctive, and state its interpretive consequence for the ayah as a
+whole. Make intelligible what the familiar reading leaves less visible and
+what the expanded or shifted reading now lets the reader understand. Preserve
+the editorial's force: an exploratory possibility remains possible, while a
+developed shift must not be softened into a decorative association or a
+reassurance that everything means the same thing. A concrete
+account of how something is carried, transformed, lost, or restored must not
+shrink to a general statement about care, guidance, dependence, or goodness.
+Keep the details needed to make the selected channel work; omit side findings
+and shorten routine setup. If a channel cannot be explained faithfully from
+the editorial prose, choose another grounded channel or reading.
+
+When a non-focus ayah supplies a contribution used in the invitation, keep its
+reference from the editorial prose beside that contribution.
+
+Do not turn the invitation into a miniature inventory of the commentary's
+conclusions, or flatten distinct channels into a broad theme to include more
+material. Do not repair, extend, or supplement the editorial prose from memory
+or outside knowledge.
+
+Omit technical apparatus. Retain any qualification, source distinction, live
+alternative, or boundary whose absence would change the force or meaning of a
+chosen reading. Express it naturally beside the image or relation it qualifies.
+Favor positive explanations of the relation between layers: what remains in
+the foreground and what the resonance makes audible in the background. State
+how that background reinforces, expands, or shifts the understanding of the
+main meaning, with the source and degree of certainty clear. Reserve explicit
+exclusions for concrete ambiguities or live counter-evidence that need them.
+Repeated "this is not X" endings make a reading sound withdrawn; express the
+substantive qualification through what the reading does contribute wherever
+possible. Use varied, natural language rather than a repeated "second layer"
+formula, and preserve the force of expansions and shifts.
+Do not name branches, candidates, findings, scopes, evidence categories,
+ledgers, or workflow stages, or label the prose as numbered channels. Do not
+list findings serially.
+
+Use the established `{ar:..., tr:..., gloss:...}` syntax, consistent
+Turkish-readable transliteration, and short ordinary glosses. Keep Arabic
+anchors beside the explanations they ground. Within a paragraph, continue with
+the Turkish meaning where clear; provide the necessary local tag when a later
+paragraph interprets the carrier anew. Do not place Arabic script outside a
+valid tag.
+
+Build transitions within a channel through its shared object, action, or
+relation. If two channels are selected, they may occupy separate paragraphs;
+do not invent a link between them. Do not praise the commentary's quality,
+promise what the reader will find, manufacture suspense, recap at the end, or
+add a call to action. End on an image, relation, action, or tension already
+established by the selected reading.
+
+Before finishing, compare the invitation with the entire editorial prose:
+does the chosen channel reveal a consequential reading, or could the text have
+been written from the ordinary translation and a modest explanation alone?
+When the editorial supports a surprising channel, the latter fails this task.
+Can the reader follow the opening expression into a connected background and
+understand how that background expands or shifts the ayah's main meaning?
+Check the selected connections against their editorial explanation: can the
+reader tell where the nonordinary details come from, with the necessary
+qualifications intact? Repair generic explanation, isolated curiosities, or a
+compressed findings list by developing the selected channel. Do not add
+omitted channels merely for coverage. Do not output this check.
+
+Write only the invitation text to:
+
+`_commentary/v5/editorial/s018-regular-20260912/s018/18_50/18_50.invitation.tr.md`
+
+Do not add a heading, wrapper label, index, ledger, evidence file, or any other
+artifact. Do not modify the editorial prose.
+
+After writing the invitation, run:
+
+```bash
+python3 _commentary/v5/validate_prose.py _commentary/v5/editorial/s018-regular-20260912/s018/18_50/18_50.invitation.tr.md
+```
+
+If validation fails, repair only the reported mechanical file-contract issues
+and rerun it, for at most two repair cycles. Report the final validator result
+in your response.
+
+<editorial_prose>
+## Emrin İçinden Çıkan İstisna
+
+Âyet, Allah'ın meleklere Âdem'e secde etmelerini buyurduğu sahneyi geçmişten çekip şimdiye getirir. {ar:وَ, tr:wa, gloss:ve} anlatıyı sürdürür; {ar:إِذْ, tr:idh, gloss:hani/o vakit} geçmişteki anı, şimdi hatırlanması gereken bir dayanak olarak açar. {ar:قُلْنَا, tr:qulnā, gloss:demiştik} tamamlanmış ilahî söyleyiştir. İçindeki çoğul anlatıcı biçimi ve hemen ardından gelen emir, bu sözün yetkili bir buyruk olarak iş gördüğünü duyurur. İlk {ar:لِ, tr:li, gloss:-e/-a} melekleri buyruğun muhatabı yapar; {ar:ٱلْمَلَٰٓئِكَةِ, tr:al-malāʾikati, gloss:melekler} belirli topluluğu topluca sahneye getirir ve {ar:ٱسْجُدُوا۟, tr:usjudū, gloss:secde edin} emri bütün topluluğa yönelir. İkinci {ar:لِ, tr:li, gloss:-e/-a} bu kez buyruğun yöneldiği hedefi gösterir; {ar:ءَادَمَ, tr:ādama, gloss:Âdem} adı konmuş hedef olarak belirir. Ardından gelen {ar:فَ, tr:fa, gloss:derken/hemen} emirle karşılık arasındaki aralığı kapatır; {ar:سَجَدُوٓا۟, tr:sajadū, gloss:secde ettiler} çoğul biçimiyle itaatin tamamlanmış ortak karşılığını bildirir.
+
+Tamamlanmış bu ortak karşılık {ar:إِلَّا, tr:illā, gloss:ancak/hariç} ile yarılır. İstisna edatı, {ar:إِبْلِيسَ, tr:iblīsa, gloss:İblis} özel adıyla birlikte secde sahnesinin içinden tek uyumsuz kişiyi ayırır; reddeden kişi ortak karşılığın gramer bağından kopmadan görünür olur. {ar:كَانَ, tr:kāna, gloss:idi/oldu} yeni bir hareket başlatmaz, istisnanın ne olduğunu açıklayan varlık cümlesini açar. {ar:مِنَ, tr:mina, gloss:-den/-dan, arasından} İblis'i yalnızca benzetmez, {ar:ٱلْجِنِّ, tr:al-jinni, gloss:cinler} sınıfına ait kılar. Bu sınıfın adında gizli ve örtülü olana dair bir renk vardır; cümledeki yerel anlam cinler olarak belirgindir. İkinci {ar:فَ, tr:fa, gloss:derken} ilk parçacığın itaate taşıyan akışını tersine çevirir ve sınıflandırmadan kopuşa geçirir. {ar:فَسَقَ, tr:fasaqa, gloss:çıktı/başkaldırdı} İblis'in tamamlanmış kişisel ayrılışını, {ar:عَنْ, tr:ʿan, gloss:-den uzaklaşarak} bu ayrılışın belirsiz bir kötülükten değil, belirli bir buyruktan uzaklaşma yönünü gösterir. {ar:أَمْرِ, tr:amri, gloss:buyruk/iş} tekil tamlamayla çiğnenen şeyi belirli ve bağlayıcı bir buyruk olarak sınırlar; {ar:رَبِّهِ, tr:rabbihi, gloss:onun Rabbi} bu buyruğu İblis'in kendi Rabbiyle ilişkilendirir.
+
+Sınıflandırmadan kopuşa geçen hareket, buyruk düzeninden dışarı açılan bir görüntü kurar. {ar:أَمْرِ, tr:amri, gloss:buyruk} yapmayı isteyen ve yükümlü kılan bağı, {ar:رَبِّهِ, tr:rabbihi, gloss:onun Rabbi} ise gözetileni eksikten tamamlanmışa doğru yetiştiren düzeni taşır; ikisi birlikte aşılan sınırı yalnız zorlayıcı değil, biçimlendirici bir buyruk olarak duyurur. {ar:ٱلْجِنِّ, tr:al-jinni, gloss:cinler} kelimesindeki örtülü iç alan, duyuların erişiminden saklı konumu verir. {ar:فَسَقَ, tr:fasaqa, gloss:çıktı} kelimesinin taze hurma tanesini kabuğundan dışarı çıkaran kullanımı bu alanla buluşunca, kopuş içeriden dışarıya doğru görünür bir yarılma kazanır. {ar:رَبِّهِ, tr:rabbihi, gloss:onun Rabbi} kelimesindeki adım adım yetiştirip tamamlama yönü bu iç alanla birleşerek ihlalin içinde oluştuğu düzenin dışına taşmasını gösterir. Ardından {ar:فَسَقَ, tr:fasaqa, gloss:çıktı} kelimesindeki kabuktan çıkma, {ar:أَمْرِ, tr:amri, gloss:buyruk} kelimesinin sınırıyla temas eder ve buyruğun sınırından çıkışı maddi bir hareket gibi görünür. Taze hurma görüntüsü ayetin konusu olarak değil, tamamlanmış ortak secde ile içinden ayrılan istisnanın bu bağlantısının maddi karşılığı olarak çalışır; olağan anlam, buyruğun dışına çıkma olarak kalır. Aynı kolektif çerçeve 2:34, 17:61, 20:116, 7:11 ve 38:74'teki secde emriyle İblis'in tek başına uymamasında da görünür ve toplu itaatin içinden çıkan istisnayı belirginleştirir.
+
+İblis'in uzaklaştığı yetkinin kapsamı {ar:رَبِّهِ, tr:rabbihi, gloss:onun Rabbi} sözüyle daha geniş duyulur. 1:2'deki {ar:رَبِّ ٱلْعَٰلَمِينَ, tr:rabb al-ʿālamīn, gloss:âlemlerin Rabbi}, terk edilen buyruğu bütün âlemlerin sahibi ve yöneticisi olarak adlandırılan yetkiye bağlar. 34:12'de cinlerin Rabbin izniyle iş görmesi ve O'nun emrinden sapanın karşılığı, 72:6'da cinlerden sığınmanın uyarı olarak açılması, 17:2'de ise Allah'tan başkasını vekil edinmeme çağrısı bu Rabb-buyruk ilişkisini farklı yönlerden görünür kılar. Böylece 18:50'deki yerel isyan, yetkinin alanı ve onun yerine başka bir ilişki koyma tehlikesi bakımından genişler. Bu temasın katkısı yetki kapsamındadır: 18:50'ye yeni bir emir eklemez ve insan ile ilahî otoriteyi özdeşleştirmez; kendi ilişkisinden çıkan sınırlı bir yankı olarak kalır.
+
+Hatırlanan sahne şimdi {ar:أَفَ, tr:a-fa, gloss:öyleyse mi/şimdi} ile doğrudan hesap sormaya döner. Soru edatı ve sonuç kuvveti, İblis'in anlatısını karşısındaki muhataplara yöneltilmiş bir suçlamaya çevirir. {ar:تَتَّخِذُونَهُۥ, tr:tattakhidhūnahu, gloss:onu edinirsiniz} biçimi, sürmekte olan ve bile isteye bir şeyi kendisi için edinip kendine ait kılmayı taşır; ikinci çoğul hitap, bu işi yapanları doğrudan karşısına alır. Ekli nesne İblis'i, açıklanacak yardımcı ve koruyucu rolünün merkezinde tutar. Ardından gelen {ar:وَ, tr:wa, gloss:ve} suçlanan nesneyi genişletir; {ar:ذُرِّيَّتَهُۥٓ, tr:dhurriyyatahu, gloss:onun soyunu} belirtme hâliyle edinme fiiline bağlanır ve İblis'in soyunu da aynı seçime katar. {ar:أَوْلِيَآءَ, tr:awliyāʾa, gloss:veliler/koruyucular} kırık çoğul biçimiyle birden çok yakınlık, koruyuculuk veya yönetim makamı açar. Hemen arkasındaki {ar:مِن, tr:min, gloss:-den/-dan, dışında} bu yakınlığı dışlama terkibine bağlar; {ar:دُونِي, tr:dūnī, gloss:Benim dışımda} birinci tekil ekle suçlamayı ilahî konuşana yöneltir ve onun koruyuculuğunun dışında bırakılan başka bir makamı görünür kılar.
+
+Bu seçimin içinde düşmanlık zaten hazırdır. Sonraki {ar:وَ, tr:wa, gloss:ve/halinde} düşmanlık cümlesini, veli edinmenin gerçekleştiği durum olarak kurar. Bağımsız çoğul zamir {ar:هُمْ, tr:hum, gloss:onlar} İblis ile soyunu ekli iyeliklerin içinden çıkarıp ortak bir özne halinde toplar; {ar:لَكُمْ, tr:lakum, gloss:size/size karşı} içindeki ikinci kişi eki, düşmanlığın hedefini aynı muhataplara yöneltir. {ar:عَدُوٌّۢ, tr:ʿaduwwun, gloss:düşman} çoğul özneye tekil yüklem olarak geldiğinde onları tek bir kişiye indirmez, İblis ile soyunu ortak bir düşmanlık türü içinde birleştirir. Kapanıştaki {ar:بِئْسَ, tr:biʾsa, gloss:ne kötü} donmuş kınama biçimi soruyu kesin bir yargıya bağlar; sertlik ve sefillik rengi, düzenlemenin yalnız yanlış değil, yıkıcı derecede kötü duyulmasını sağlar. Hemen arkasındaki {ar:لِ, tr:li, gloss:-e/-a} yargının hedefini belirler. {ar:ٱلظَّٰلِمِينَ, tr:al-ẓālimīna, gloss:zalimler} yanlış yere koyma eylemini sürdüren fail sınıfını adlandırır. Son kelime {ar:بَدَلًا, tr:badalan, gloss:bedel/değiş tokuş} bir şeyin gideni karşılayıp onun yerini tutmasını gösterir. Ayetin açık uyarısı böylece, İblis ve soyunu Allah'ın dışında veli edinmenin, düşman bir tarafı koruyuculuğun yerine geçiren kötü bir değiş tokuş olduğunu söyler.
+
+Bu değiş tokuşun görüntüsü, makamın nasıl kurulduğunu adım adım gösterir. {ar:تَتَّخِذُونَهُۥ, tr:tattakhidhūnahu, gloss:onu kendiniz için edinirsiniz} kendine ait kılma hareketini, {ar:أَوْلِيَآءَ, tr:awliyāʾa, gloss:veliler} işi üstlenip yöneten yakınlık makamını getirir; temasları, veli edinmeyi seçilmiş bir yönetim ve destek yeri kurma işlemine dönüştürür. {ar:بَدَلًا, tr:badalan, gloss:yerine geçme ve yerine koyma} bu işlemin sonucunu verir: koruma beklenen yer başka bir tarafa devredilir. {ar:دُونِي, tr:dūnī, gloss:Benim dışımda} başkayı veya aşağıda olanı gösteren yönüyle {ar:عَدُوٌّۢ, tr:ʿaduwwun, gloss:düşman} kelimesine temas ettiğinde, ilahî ilişkinin yerine fayda görene karşı düşman bir ilişki geçirilir. {ar:ٱلظَّٰلِمِينَ, tr:al-ẓālimīna, gloss:zalimler} kelimesindeki yersiz işlem ayrıntısı, {ar:بَدَلًا, tr:badalan, gloss:yerine koyma} kelimesinin ikame ilişkisiyle birleşerek koruyuculuğun ait olduğu yerden alınıp yanlış yere yerleştirilmesini somutlaştırır. Bu birleşik görüntünün katkısı, düşmanla veli arasındaki karşıtlığı bir makamın kime verildiği ve hangi işlemin onu yerinden ettiği üzerinden genişletmesidir; bağlantı 18:50'nin yerel söz düzeni içinde kalır.
+
+Soy sözü, seçimin tek bir kişide kalmadığını ve dağınık ama birbirini izleyen bir çizgiye yayıldığını gösterir. {ar:ذُرِّيَّتَهُۥٓ, tr:dhurriyyatahu, gloss:onun soyu} küçük parçacıklar ve küçük karıncalar topluluğunu hatırlatan yönüyle yayılma malzemesini verir. {ar:تَتَّخِذُونَهُۥ, tr:tattakhidhūnahu, gloss:edinirsiniz} bu dağınık unsurların yalnızca etkilenmediğini, tekrar tekrar edinilmiş bir bağa katıldığını gösterir. {ar:أَوْلِيَآءَ, tr:awliyāʾa, gloss:veliler} bir şeyin peş peşe sürmesi ve aralıksız yakınlık yönüyle çizgiye ardışıklık verir. {ar:عَدُوٌّۢ, tr:ʿaduwwun, gloss:düşman} ile temas ettiğinde bu ardışıklık boyunca taşınan şeyin düşmanlık olduğu görünür. Bu katkı, 18:50'deki soy ve edinme ilişkisini ihtiyatlı bir ardışıklık görüntüsü olarak derinleştirir; daha geniş bir düzen iddiası kurmaz.
+
+Aynı soy ve yakınlık, taşınabilir bir düşmanlık örüntüsü de düşündürür. {ar:ذُرِّيَّتَهُۥٓ, tr:dhurriyyatahu, gloss:onun soyu} küçük parçacıkların yayılmasını, {ar:أَوْلِيَآءَ, tr:awliyāʾa, gloss:veliler} kelimesindeki ayırıcısız yakınlık bu yayılmanın temas zeminini verir. {ar:عَدُوٌّۢ, tr:ʿaduwwun, gloss:düşman} kelimesinin canlıdan canlıya geçen hastalık yönündeki maddi kullanımı bu zemine bağlandığında, düşmanlık bir taşıyıcıdan diğerine geçen bir örüntü olarak tasavvur edilebilir. Bu bağlantının katkısı düşmanlığın taşınabilirliğini görünür kılmaktır; {ar:عَدُوٌّۢ, tr:ʿaduwwun, gloss:düşman} olağan düşmanlık anlamını korur, hastalık görüntüsü bu ayetin içindeki keşif derecesinde benzetme olarak kalır.
+
+## Yakınlığın İşlevle Sınanması
+
+Veli edinme sözü, yakınlığın bir işi yerine getirme iddiası taşıdığını gösterir. Bu iddia 18:51'de aynı edinme biçiminin saptırıcılar ve dayanak rolü yanında yinelenmesiyle işlev kazanır. {ar:تَتَّخِذُونَهُۥ, tr:tattakhidhūnahu, gloss:kendisi için edinmek} birini kendisi için destek makamına yerleştirmeyi, {ar:أَشْهَدتُّهُمْ, tr:ashhadtuhum, gloss:şahit tuttum} tanık tutulmayı ve {ar:عَضُدًا, tr:ʿaḍudan, gloss:destekleyici dayanak} güç vermeyi görünür kılar. {ar:ٱلْمُضِلِّينَ, tr:al-muḍillīn, gloss:saptıranlar} bu desteğin yönünü bozan aktörleri adlandırır. Böylece 18:50'deki veli makamı duygusal yakınlıktan çıkar, varlığı ve işi taşıması beklenen bir görev olarak sınanır. 18:51'in Allah'ın saptıranları destek almaması yönündeki anlamı kendi bağlamında kalır; bu karşılaştırma ise 18:50'deki düşmanları veli seçme uyarısının hangi işlev üzerinden açıldığını gösterir.
+
+Bu görev 18:52'de çağrı anında sınanır. Odaktaki {ar:أَوْلِيَآءَ, tr:awliyāʾa, gloss:aralıksız yakınlık ve destek} biçimi arada ayırıcı bulunmayan yakınlığı verir; {ar:دَعَوْهُمْ, tr:daʿawhum, gloss:çağırdılar} ve {ar:نَادُوا۟, tr:nādū, gloss:seslenip çağırdılar} bu yakınlığı gerçek bir temas talebine çevirir. {ar:زَعَمْتُمْ, tr:zaʿamtum, gloss:iddia ettiniz} söylenmiş ama doğrulanması gereken ortaklık iddiasını, {ar:شُرَكَآءِىَ, tr:shurakāʾī, gloss:ortaklarım} karşılıklılık beklenen tarafı taşır. Ardından gelen {ar:فَلَمْ يَسْتَجِيبُوا۟, tr:fa-lam yastajībū, gloss:karşılık vermediler} beklenen cevabın yokluğunu bildirir. {ar:بَيْنَهُم مَّوْبِقًا, tr:baynahum mawbiqan, gloss:aralarına konan engel} bu yokluğu iki tarafın arasına giren, uzaklığı sabitleyen ve çıkışı kapatan bir engele dönüştürür. Böylece 18:52, odaktaki yakınlığın kullanılabilirlik ölçüsünü açar: çağrılınca ulaşmak, cevap vermek ve yol açmak. Bu temas, ortaklık sözünü bu ayetler arasındaki işlevsel sınamayla sınırlar; her yakınlığı fiziksel komşuluk olarak tanımlamaz.
+
+İşlev sınaması 18:53'te çıkış imkânına kadar uzanır. {ar:فَسَقَ, tr:fasaqa, gloss:çıkarak ayrıldı} kelimesinin buyruğun dışına çıkmayı bildiren olağan anlamı, ateşe varma ve oradan çevrilecek yol bulamama sahnesiyle birleşerek bir yörünge verir: çıkış bir noktada açılır, son ise çıkışsızdır. {ar:مُّوَاقِعُوهَا, tr:muqāwiʿūhā, gloss:ona düşüp karşılaşacaklar} sabitlenmiş varışı, {ar:مَصْرِفًا, tr:maṣrifan, gloss:dönüş ve uzaklaşma yolu} o varıştan ayrılma imkânını gösterir. Bu katkı, 18:50'deki buyruğa karşı gelmeyi daha sonra gelen sonuçla birlikte duyurur. İki ayet arasındaki bağ, 18:50'deki ayrılığın tek zorunlu nedeni olarak değil, yakın bağlamın ihtiyatlı devamı olarak kalır. Böylece cevapsızlık ve açılamayan çıkış, veli adının işlev ölçülerini birbirine bağlar: tanıklık ve güç, cevap ve temas, kurtarma ve yol açma.
+
+Bu sınamanın yanında soyun ardışıklığı başka bir ölçü kazanır: yayılma, kalıcılık ölçüsünü kendiliğinden taşımaz. 18:45'teki {ar:هَشِيمًا, tr:hashīman, gloss:kuru ve kırılmış bitki parçaları} kuru ve kırılmış parçaları, {ar:تَذْرُوهُ, tr:tadhruhū, gloss:saçıp dağıtır} bunların dışarı taşınmasını, {ar:الرِّيَاحُ, tr:riyāḥ, gloss:rüzgârlar} ise hareket ettiren mekanizmayı verir. Odaktaki {ar:ذُرِّيَّتَهُۥٓ, tr:dhurriyyatahu, gloss:onun soyu} bu üçlüyle temas ettiğinde soyun yayılan bir çizgi olarak duyulması güçlenir. 18:46'daki {ar:بَنُونَ, tr:banūn, gloss:oğullar} bu çizgiyi soy bağıyla sürdürür; {ar:زِينَةُ, tr:zīna, gloss:görünür süs} onun çekici yüzünü, {ar:الْبَاقِيَاتُ الصَّالِحَاتُ, tr:al-bāqiyātu al-ṣāliḥāt, gloss:geride kalan kalıcı iyilikler} ise çekiciliği aşan dayanıklılık ölçüsünü taşır. 18:45'teki geçici hayat ve savrulan kalıntı ile 18:46'daki dünya süsü ve kalıcı iyi işler birlikte, odaktaki soy görüntüsüne yayılma ve süre sınırını verir; soy kelimesinin kendisi bu temas içinde bitkiye veya toza dönüşmez.
+
+Gizli seçimin görünürlük eşiği de vardır. {ar:ٱلْجِنِّ, tr:al-jinni, gloss:gizli varlıklar} gizli kökeni, {ar:تَتَّخِذُونَهُۥ, tr:tattakhidhūnahu, gloss:edinip kendine ait kılmak} seçilmiş bağı taşır. 18:47'deki {ar:بَارِزَةً, tr:bāriza, gloss:açıkta görünür} ve {ar:حَشَرْنَٰهُمْ, tr:ḥasharnāhum, gloss:hepsini bir araya getirdik} bu bağı toplu ve açık bir sahneye çıkarır; 18:48'de herkesin Rabbin önünde sıra halinde görünmesi bu açıklığa düzen verir. 18:49'daki {ar:ٱلْكِتَٰبُ, tr:al-kitāb, gloss:yazılı ve bağlayıcı kayıt}, {ar:أَحْصَىٰهَا, tr:aḥṣāhā, gloss:hepsini saydı} ve {ar:حَاضِرًا, tr:ḥāḍiran, gloss:hazır ve karşıda bulunan} seçilmiş bağı yazılı, eksiksiz ve karşılaşılabilir bir hesaba taşır. Bu bağlantının katkısı, 18:50'de gizli kalan seçimi toplu görünürlük ve hesapla karşılaşabilecek bir bağ olarak genişletmektir; odak ayet bu ayrıntılı kayıt sahnesinin kendisi haline gelmez.
+
+Yer değiştirme işlemi 18:56'da başka bir işleve temas eder. 18:50'deki düşmanları veli seçme uyarısı yerinde dururken, {ar:تَتَّخِذُونَهُۥ, tr:tattakhidhūnahu, gloss:kendisi için edinmek} seçme ve statü verme hareketini, {ar:ٱلظَّٰلِمِينَ, tr:al-ẓālimīna, gloss:yersiz işlem yapanlar} bir şeyi ait olmadığı yere koymayı, {ar:بَدَلًا, tr:badalan, gloss:yerine konan karşılık} ise bu yer değiştirmenin sonucunu taşır. 18:56'daki {ar:ٱلْحَقَّ, tr:al-ḥaqq, gloss:sabit ve gerçek olan} ve {ar:ءَايَٰتِى, tr:āyātī, gloss:işaretlerim}, tekrar edilen {ar:ٱتَّخَذُوا۟, tr:ittakhadhū, gloss:edinip bir statü verdiler} fiili ve {ar:هُزُوًا, tr:huzuwan, gloss:alay konusu} ile buluştuğunda, hakikate işaret eden şey alay nesnesine çevrilmiş görünür. 18:54'te örneklerin tartışma doğurması ve 18:55'te iman ile bağışlanmanın reddedilmesi bu sahnenin karşı seslerini taşır. Bu temas, 18:56'daki edinme fiilinin ayrı bir vakayı yönetme ihtimalini açık bırakarak, iki olayı birleştirmeden rolün tersine çevrilme işlemini görünür kılar.
+
+Dışarıda gizli kalan ilişki 18:57'de içte çalışan bir algı engeli gibi hissedilir. {ar:ٱلْجِنِّ, tr:al-jinni, gloss:örtülü ve gizli sınıf} saklı olanı, {ar:أَوْلِيَآءَ, tr:awliyāʾa, gloss:ayırıcı olmadan yakın duranlar} ise bu saklı bağın erişim alanına ulaşmasını taşır. 18:57'deki {ar:نَسِىَ, tr:nasiya, gloss:unutup ihmal etti} sözü geçmiş işi bellekten düşürür; {ar:قُلُوبِهِمْ, tr:qulūbihim, gloss:iç merkezleri} ve {ar:أَكِنَّةً, tr:akinna, gloss:üzerine konan örtüler} bu unutmayı kalbin üzerine kapanan bir örtüyle sürdürür. {ar:يَفْقَهُوهُ, tr:yafqahūhu, gloss:anlayıp kavrasınlar} kesilen kavrama yetisini, {ar:وَقْرًا, tr:waqran, gloss:kulağa çöken ağırlık} aynı engelin işitmedeki maddi karşılığını verir. Bu katkılar birlikte, seçilmiş yakınlığın hatırlama, anlama ve işitme kanallarında filtre gibi çalışmasını görünür kılar. Bağlantı keşif niteliğindedir; 18:57'nin kendi hükmü ve paralel durumu bu yerel görüntüyle birlikte açık kalır.
+
+Yanlış desteğin başarısızlığı bir anda değil, belirlenmiş bir vakit içinde de sınanır. {ar:أَوْلِيَآءَ, tr:awliyāʾa, gloss:yanında durup destek olanlar} yanında durup destek olma bağını, {ar:مِن دُونِي, tr:min dūnī, gloss:Benim dışımda kalan başkası} dışarıda bırakılan seçeneği, {ar:بَدَلًا, tr:badalan, gloss:yerine geçen şey} ise bu seçimin yer değiştirme sonucunu taşır. Bu üç kelime 18:58 ve 18:59'daki mühlet, sığınak ve belirlenmiş sonla buluştuğunda, geçici koruma görüntüsü vakti geldiğinde sınanan bir sığınak sözleşmesine dönüşür. 18:58'deki {ar:مَّوْعِدٌ, tr:mawʿid, gloss:belirlenmiş vakit} zaman sınırını, {ar:مِن دُونِهِۦ مَوْئِلًا, tr:min dūnihi mawʾilan, gloss:ondan başka sığınak bulamamak} seçilen desteğin güvenli yere dönüşemeyişini taşır. 18:59'daki {ar:أَهْلَكْنَٰهُمْ, tr:ahlaknāhum, gloss:yok oluşa uğrattık} ve {ar:مَهْلِكِهِم مَّوْعِدًا, tr:mahlikihim mawʿidan, gloss:yok oluşları için belirlenmiş vakit} gecikmenin başarılı koruma değil, ikinci bir randevuya bağlanmış son olduğunu gösterir. 18:58'deki merhamet ve gecikme ile 18:59'daki şehirlerin yok oluşu ve tayin edilmiş son, odaktaki destek iddiasına zaman içinde dayanıklılık ölçüsü verir. Bu bağlamda {ar:أَوْلِيَآءَ, tr:awliyāʾa, gloss:destek bağı} sığınak sözcüğüne çevrilmez; kelimenin destek yönü 18:58 ve 18:59'un vakit ve sığınak sözleriyle özel bir temas kazanır, şehirler de daha genel gecikmiş hüküm örnekleri olarak kalır.
+
+Dost ve koruyucu makamının başarısız bir destek alışverişine dönüşmesi 35:6, 8:48, 14:22 ve 59:16'daki bağımsız sahnelerde belirginleşir. {ar:أَوْلِيَآءَ, tr:awliyāʾa, gloss:dostlar ve koruyucular} yanında durup yardım etme çekirdeğini, {ar:عَدُوٌّۢ, tr:ʿaduwwun, gloss:düşman} ise aynı tarafın karşıtlığını taşır. 35:6'da Şeytanın düşman olduğu ve düşman edinilmesi gerektiği, 8:48'de destek sözü verip geri çekildiği, 14:22'de takipçilerini yalnızca çağırdığını söyleyip destekleyemediği, 59:16'da ise insanı inkâra çağırdıktan sonra ondan uzaklaştığı görülür. {ar:بَدَلًا, tr:badalan, gloss:değişim} bir şeyin gideni karşılayıp yerini tutmasını verdiğinde, İblis ve soyunun Allah'ın yerine koruyucu olarak alınması başarısız bir koruma alışverişi olarak görünür. Bu sahneler 18:50'deki düşman-dost çelişkisini ve desteğin karşılıksız kalmasını belirginleştirir; bağlantının kapsamı bu ayetin çelişkisiyle ve sözü edilen paralellerle sınırlıdır.
+
+## Yetkinin ve Yardımın Yönü
+
+Bu soru aynı sûrede 18:102'de yeniden açılır: İblis ve soyu Allah'ın dışında dostlar edinme uyarısıyla tekrar karşılaşır. 18:110'da tek Rabbe kulluk ve O'na başkasını ortak etmeme buyruğu bu dönüşü tamamlar. 18:102 ve 18:110 birlikte, 18:50'deki sahnenin aynı sûrede yeniden karşılaşılan bir ilişki tehlikesi olarak nasıl geri döndüğünü gösterir. Bu dönüşün katkısı bu iki açık bağlantıyla sınırlıdır; 18:50'nin yerel anlatısı kendi yerinde kalır.
+
+Odaktaki {ar:أَوْلِيَآءَ, tr:awliyāʾa, gloss:yanında durup destek olanlar} ile {ar:مِن دُونِي, tr:min dūnī, gloss:Benim dışımda kalan başkası}, 1:5'teki {ar:إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ, tr:iyyāka naʿbudu wa iyyāka nastaʿīn, gloss:Yalnız Sana kulluk eder ve yalnız Senden yardım isteriz} yönelişiyle karşılaştırılır. {ar:نَعْبُدُ, tr:naʿbudu, gloss:kulluk ederiz} kulluğun, {ar:نَسْتَعِينُ, tr:nastaʿīn, gloss:yardım isteriz} yardım talebinin yalnız Allah'a yöneldiği düzeni kurar; böylece 18:50'deki “Benim dışımda” seçimi farklı bir destek kaynağına geçiş olarak belirginleşir. Bu temasın katkısı iki destek düzenini yan yana görünür kılmaktır. 18:50'nin düşmanları veli edinme uyarısı ve 1:5'in kendi bütünü korunur; 1:5'in bütün yol görüntüsü bu bağlantıya taşınmaz. 1:3, 1:4, 1:6 ve 1:7'de bu karşılaştırmayı maddi olarak değiştiren ek bir taşıyıcı açılmadığı için yardım karşıtlığı bu iki temasla sınırlanır.
+
+</editorial_prose>

@@ -1,0 +1,175 @@
+# V5 reading invitation — 18:37
+
+You are a fresh reading-invitation writer. Read the complete editorial prose
+before writing. It is your sole semantic source.
+
+Write two to four paragraphs of fluent, contemporary Turkish that reveal a
+surprising reading by following one or two main channels of resonance in the
+ayah. A channel is a connected background of meanings, images, actions, or
+relations through which the ayah can be heard and understood differently.
+Several editorial findings may together develop one channel. Summarize that
+connected movement and its consequence for the ayah's main meaning, rather
+than compressing findings individually. Give the reading's substance now;
+the invitation comes from understanding it, not from a promise of hidden depth.
+
+Before drafting, read the entire editorial prose and silently select the one
+or two channels with the strongest interpretive consequence and enough
+grounding to explain clearly. Favor channels that expand or shift what the
+ayah says, the relation it establishes, or what is at stake in its action or
+image. One fully developed channel is sufficient; add a second only when it
+offers a distinct consequential reading that can be explained within the
+invitation. No finding, channel, or major shift has an individual coverage
+claim. Unselected material may remain entirely in the full commentary.
+
+A channel may develop through grammar, sound, dialogue, a material process,
+time, imagery, or a conceptual relation. Resonance is not limited to acoustic
+effects, and an unusual image alone does not establish a channel. Use only
+connections the editorial prose actually develops. If it supplies no such
+channel, explain its strongest grounded reading without inventing connections
+or surprise.
+
+Begin inside the ayah's own words, images, actions, or relations and reveal a
+selected distinctive reading in the first paragraph. Keep the plain meaning
+reachable with only the orientation needed to understand the change. Do not
+spend an opening paragraph on routine explanation or front-load context about
+the surah, the ayah's position, or the commentary project.
+
+For each selected channel, begin with the expression that opens it, unfold the
+connected background, and show how the ayah reads or sounds against that
+background. Let a detail lead into the next through an intelligible relation
+or process, so the reader experiences the emerging reading. This is a movement
+of thought, not a mandatory sentence pattern or one paragraph per finding.
+Let the reader identify the expression being interpreted,
+where any nonordinary detail comes from, and what that detail changes in the
+reading. Briefly identify the word-family use, restricted form, collocation, or
+context that supplies an essential added detail, and preserve the concrete
+operation that makes the image work. Keep the ordinary reading and necessary
+qualification clear within this explanation; do not repeat them as a fixed
+formula. Preserve the particular object, process, or relation that makes this
+reading distinctive, and state its interpretive consequence for the ayah as a
+whole. Make intelligible what the familiar reading leaves less visible and
+what the expanded or shifted reading now lets the reader understand. Preserve
+the editorial's force: an exploratory possibility remains possible, while a
+developed shift must not be softened into a decorative association or a
+reassurance that everything means the same thing. A concrete
+account of how something is carried, transformed, lost, or restored must not
+shrink to a general statement about care, guidance, dependence, or goodness.
+Keep the details needed to make the selected channel work; omit side findings
+and shorten routine setup. If a channel cannot be explained faithfully from
+the editorial prose, choose another grounded channel or reading.
+
+When a non-focus ayah supplies a contribution used in the invitation, keep its
+reference from the editorial prose beside that contribution.
+
+Do not turn the invitation into a miniature inventory of the commentary's
+conclusions, or flatten distinct channels into a broad theme to include more
+material. Do not repair, extend, or supplement the editorial prose from memory
+or outside knowledge.
+
+Omit technical apparatus. Retain any qualification, source distinction, live
+alternative, or boundary whose absence would change the force or meaning of a
+chosen reading. Express it naturally beside the image or relation it qualifies.
+Favor positive explanations of the relation between layers: what remains in
+the foreground and what the resonance makes audible in the background. State
+how that background reinforces, expands, or shifts the understanding of the
+main meaning, with the source and degree of certainty clear. Reserve explicit
+exclusions for concrete ambiguities or live counter-evidence that need them.
+Repeated "this is not X" endings make a reading sound withdrawn; express the
+substantive qualification through what the reading does contribute wherever
+possible. Use varied, natural language rather than a repeated "second layer"
+formula, and preserve the force of expansions and shifts.
+Do not name branches, candidates, findings, scopes, evidence categories,
+ledgers, or workflow stages, or label the prose as numbered channels. Do not
+list findings serially.
+
+Use the established `{ar:..., tr:..., gloss:...}` syntax, consistent
+Turkish-readable transliteration, and short ordinary glosses. Keep Arabic
+anchors beside the explanations they ground. Within a paragraph, continue with
+the Turkish meaning where clear; provide the necessary local tag when a later
+paragraph interprets the carrier anew. Do not place Arabic script outside a
+valid tag.
+
+Build transitions within a channel through its shared object, action, or
+relation. If two channels are selected, they may occupy separate paragraphs;
+do not invent a link between them. Do not praise the commentary's quality,
+promise what the reader will find, manufacture suspense, recap at the end, or
+add a call to action. End on an image, relation, action, or tension already
+established by the selected reading.
+
+Before finishing, compare the invitation with the entire editorial prose:
+does the chosen channel reveal a consequential reading, or could the text have
+been written from the ordinary translation and a modest explanation alone?
+When the editorial supports a surprising channel, the latter fails this task.
+Can the reader follow the opening expression into a connected background and
+understand how that background expands or shifts the ayah's main meaning?
+Check the selected connections against their editorial explanation: can the
+reader tell where the nonordinary details come from, with the necessary
+qualifications intact? Repair generic explanation, isolated curiosities, or a
+compressed findings list by developing the selected channel. Do not add
+omitted channels merely for coverage. Do not output this check.
+
+Write only the invitation text to:
+
+`_commentary/v5/editorial/s018-regular-20260912/s018/18_37/18_37.invitation.tr.md`
+
+Do not add a heading, wrapper label, index, ledger, evidence file, or any other
+artifact. Do not modify the editorial prose.
+
+After writing the invitation, run:
+
+```bash
+python3 _commentary/v5/validate_prose.py _commentary/v5/editorial/s018-regular-20260912/s018/18_37/18_37.invitation.tr.md
+```
+
+If validation fails, repair only the reported mechanical file-contract issues
+and rerun it, for at most two repair cycles. Report the final validator result
+in your response.
+
+<editorial_prose>
+Âyetin sahnesi, arkadaşının onunla konuşması sürerken açılır: {ar:قَالَ, tr:qāla, gloss:dedi} burada önceki övünüşün içinden çıkan tamamlanmış bir karşı-sözü taşır. {ar:لَهُ, tr:lahu, gloss:ona} doğrudan tümleci, sözün hedefini konuşanın adı gelmeden belirleyerek azarlamayı genel bir öğüt olmaktan çıkarır. Ardından gelen {ar:صَاحِبُهُ, tr:ṣāḥibuhu, gloss:arkadaşı}, konuşanın dışarıdan gelen bir ses değil, muhatabın süregelen arkadaşı olduğunu gösterir. {ar:وَ, tr:wa, gloss:ve, hal bağlacı} burada yeni bir olayı eklemekten çok {ar:وَهُوَ يُحَاوِرُهُ, tr:wa-huwa yuḥāwiruhu, gloss:onunla karşılıklı konuşurken} hal cümlesini açar; {ar:هُوَ, tr:huwa, gloss:o} canlı sahnedeki katılımcıyı açıkça görünür kılar, {ar:يُحَاوِرُهُ, tr:yuḥāwiruhu, gloss:onunla karşılıklı konuşuyor} ise sözün aynı muhataba dönerek sürdüğünü bildirir. Cevap böylece iki kişinin yüz yüze konuşmasında atılan düzeltici bir hamle olur; zamirler ve hal cümlesi bu yüz yüzelik içinde yerel bir sahne kurar.
+
+Bu kelimeler birbirine değdiğinde {ar:قَالَ, tr:qāla, gloss:dedi}nin söz söyleme anlamı {ar:يُحَاوِرُهُ, tr:yuḥāwiruhu, gloss:onunla karşılıklı konuşuyor}nun iki taraflı alışveriş alanıyla birleşir ve tamamlanmış söz konuşmanın bir turu olarak duyulur. {ar:صَاحِبُهُ, tr:ṣāḥibuhu, gloss:arkadaşı}nın yakın ve süregelen eşlik anlamı {ar:لَهُ, tr:lahu, gloss:ona} ile buluşarak düzeltmenin muhatabın yanındaki kişiden geldiğini belirginleştirir. {ar:يُحَاوِرُهُ, tr:yuḥāwiruhu, gloss:onunla karşılıklı konuşuyor} da biraz sonra gelecek {ar:أَكَفَرْتَ, tr:a-kafarta, gloss:inkâr mı ettin} sorusunu sürmekte olan konuşmanın sözlü karşılığına dönüştürür. Bu yerel temasın katkısı, soruyu ilişkisiz bir hükümden çıkarıp muhatabı yaratılmışlığına geri çağıran bir konuşma hamlesi olarak duyurmaktır.
+
+## Sözün Delile Dönüşmesi
+
+Soru biçimi, bu karşılığın yönünü daraltır. {ar:أَكَفَرْتَ, tr:a-kafarta, gloss:inkâr mı ettin} başındaki soru hemzesiyle ikinci tekil şahıstaki tamamlanmış fiili birleştirerek bitmiş bir inkârı muhatabın yüzüne getirir. Sıradan inkâr anlamıyla birlikte örtme alanı da belirir: söz, görünür olan kaynağı kapatıp tanınmaz kılma gerilimini taşır. {ar:بِ, tr:bi, gloss:bağlayan edat} küçük fakat belirleyici bir menteşe gibi çalışarak inkâr fiilini ardından gelen tanımlayıcı yapıya bağlar. {ar:ٱلَّذِى, tr:alladhī, gloss:ki O} reddedilen kişiyi doğrudan adlandırmak yerine onu eylemiyle tanımlar; yaratma, kaynak maddeleri ve son biçimlenme tek tanımın içinde toplanır. Böylece yaratılış dizisi soruya sonradan eklenmiş bir bilgi değil, sorunun hedefini kuran delil gövdesi olur.
+
+{ar:خَلَقَكَ, tr:khalaqaka, gloss:seni yarattı}nın var etme anlamı {ar:أَكَفَرْتَ, tr:a-kafarta, gloss:inkâr mı ettin} ile temas ettiğinde, yaratma eylemi tamamlanmış kişinin arkasındaki kaynağı görünür kılar. Aynı temas, bu kaynağın üstünü örterek görünmez kılma gerilimini de duyurur; buradaki örtme, fiziksel bir eylemden çok açık inkâr sorusu çevresinde oluşan kapatma görüntüsüdür. {ar:أَكَفَرْتَ, tr:a-kafarta, gloss:inkâr mı ettin} yaratılış zincirinin bütünüyle buluştuğunda alınmış varoluş nimetini yadsıma ve onun değerini kapatma alanına açılır. Sorunun karşısında artık yalnızca bir bilgi değil, görünür kılınmış bir kaynak ve alınmış bir iyilik durur; bu rezonans ayetin yerel kelime temasının sınırında kalır.
+
+Sorunun delil gövdesi, yaratılışı soyut bir insanlık ilkesi olarak değil, doğrudan bu muhatabın kendi kökeni olarak kurar. {ar:خَلَقَكَ, tr:khalaqaka, gloss:seni yarattı} içindeki tamamlanmış fiil ve ikinci tekil kişi eki, iki {ar:مِنْ, tr:min, gloss:kaynak olarak -den} tümlecini aynı yönetim altında tutar. İlk {ar:مِنْ, tr:min, gloss:kaynak olarak -den} ardından gelen belirsiz ismi yaratma fiiline kaynak maddesi olarak bağlar; {ar:تُرَابٍ, tr:turābin, gloss:toprak} böylece yalnızca bulunulan yer değil, yaratılışın maddi başlangıcı olur. Bu kaynak işlevi, edatın diğer kullanımlarını bu yerel okumaya taşımadan kurulur; sıradan toprak, övünen muhatabı ortak ve düşük bir çıkış noktasına geri çeker, yoksulluk ya da beden dallarını açmadan başlangıcın maddiliğini öne çıkarır. İlk {ar:ثُمَّ, tr:thumma, gloss:sonra} toprağı düz bir listenin maddesi olmaktan çıkarıp nutfaya doğru aralıklı bir aşamaya dönüştürür. İkinci {ar:مِنْ, tr:min, gloss:kaynak olarak -den} fiili tekrarlamadan aynı kaynak ilişkisini sürdürür; ilk fiil eksilti boyunca etkin kalır ve yeni bir evre eklenmez. {ar:نُّطْفَةٍ, tr:nuṭfatin, gloss:küçük sıvı damlası} belirsiz tekil biçimiyle toprak ile biçimlenmiş erkek arasında küçük ve belirsiz bir sıvı kaynak tutar; bu küçük ara kaynak, büyük insan biçimiyle başlangıç arasındaki mesafeyi görünür kılar ve kelimenin alanını bütün üreme fizyolojisine tek bir teknik tanıma kapatmadan bırakır. İkinci {ar:ثُمَّ, tr:thumma, gloss:sonra} artık yeni bir kaynak maddesine değil {ar:سَوَّىٰكَ, tr:sawwāka, gloss:seni biçimlendirdi} fiiline açılır. Bağlaç burada kaynakları sıralamayı bırakıp aynı muhatabı doğrudan biçimlendirmeye geçirir; araya gizli bir evre eklemeden oluşumun son eylemini öne çıkarır. Form II tamamlanmış fiil olan {ar:سَوَّىٰكَ, tr:sawwāka, gloss:seni biçimlendirdi}, kişiyi ölçülü ve tamamlanmış bir biçime getirir; bu yerel biçimlenme okuması kökün eşitleme ya da başka düzleme kullanımlarını açmadan çalışır. {ar:رَجُلًا, tr:rajulan, gloss:bir erkek olarak} bu biçimlenmiş insanı sonuç veya hal olarak adlandırır. Erkeklik, biçimlendirme eyleminin ortaya çıkardığı verilmiş durumdur; bu yerel sonuç yürüme ve toplumsal üstünlük çağrışımlarını devreye sokmaz.
+
+Bu dilsel sıra, açık yaratılış okumasını değiştirmeden muhatabı birbirine bağlı aşamalardan geçen bir oluşum olarak yeniden görünür kılar. {ar:تُرَابٍ, tr:turābin, gloss:toprak}ın sıradan maddi anlamı ilk {ar:ثُمَّ, tr:thumma, gloss:sonra}, {ar:نُّطْفَةٍ, tr:nuṭfatin, gloss:küçük sıvı damlası} ve son {ar:سَوَّىٰكَ, tr:sawwāka, gloss:seni biçimlendirdi} ile temas ederek düşük ve ayrışmamış çıkış noktasını kurar. Bu toprak görüntüsü burada maddi başlangıç olarak çalışır; yoksulluk veya gömü yeri imgesini bu bağlantıya taşımaz. {ar:خَلَقَكَ, tr:khalaqaka, gloss:seni yarattı}nın varlığa getirme eylemi, iki {ar:ثُمَّ, tr:thumma, gloss:sonra} işaretinin aşamaları bölmesiyle düzeni ve ölçüsü olan bir oluşum gibi duyulur. {ar:نُّطْفَةٍ, tr:nuṭfatin, gloss:küçük sıvı damlası}nın madde alanı az miktardaki duru sudan özel olarak erkek üreme sıvısına kadar uzanabilir; bu yerel temas, deniz veya akma imgesini değil, toprak başlangıcı ile son biçimlendirme arasındaki küçük ara kaynağı öne çıkarır. {ar:رَجُلًا, tr:rajulan, gloss:bir erkek olarak} sonucu {ar:سَوَّىٰكَ, tr:sawwāka, gloss:seni biçimlendirdi} ile buluştuğunda erkeklik kaynağa değil, biçimlendirme sonucuna bağlanır. Aynı fiilin düzgün ve tam duruma getirme alanı {ar:رَجُلًا, tr:rajulan, gloss:bir erkek olarak} ile birlikte görünür bir beden bütünlüğü kurar; gençlik gelişiminin tamamlanması ve güçlenme alanı da ihtiyatla duyulur. Bu olgunluk kazanılmış bir üstünlük değil, verilmiş bir aşamadır; bütün okuma düzenli ve aşamalı bağımlılık görüntüsüyle sınırlı kalır ve olası bir yaş sınırı ileri sürmez.
+
+Yaratılış zincirinin sözlü niteliği, onu basit bir bilgi aktarımından daha etkili kılar. {ar:قَالَ, tr:qāla, gloss:dedi} burada sesle dışa vurulan ve karşılık bekleyen bir söz eylemidir; arkadaş, toprak, damla ve biçimlenme sırasını anarak inkâr sorusunun dayanağını kurar. Bu yüzden itiraz, kişinin kendisini kendi kaynağı sanmasını bozan nedensel bir hatırlatmaya dönüşür: görünen tamamlanmışlık alınmış bir oluşumdur. Bu okuma, insanın Allah tarafından topraktan, sonra bir damladan yaratıldığı ve biçimlendirildiği açık anlamı içinde çalışır. Aynı zincir, insanın yaratılış dönüşlerini yeniden kuran pasajlarla da somut karşılık bulur (40:67, 36:77). Sözlü sıra ayrıca malzeme ve eylemler düzenlenerek inşa edilen engelle ihtiyatlı bir maddi benzerlik kurar (18:96): tamamlanmış görünen şey, alınmış unsurların tertibi ve düzenlenmiş eylemlerle kurulmuştur. Bu maddi benzerlik, yalnızca (18:96)'daki malzeme ve eylem düzeniyle çalışır; (18:95)'teki aralık ve (18:98)'deki kalıcılık reddi bu özel bağlantının dışındadır. (18:96)'daki demir işçiliği, biçimlendirme kökünün doğrudan sözlük kullanımı olarak değil, söz ile maddi kurulum arasındaki ihtiyatlı benzerliğin dayanağı olarak yer alır.
+
+## Övünüşün Ölçüsünü Değiştiren Arkadaş
+
+Bu karşılık, hemen önceki bahçe sahibinin servetini ve taraftarlarını üstünlük ölçüsü yaptığı sahneye döner (18:34). {ar:صَاحِبُهُ, tr:ṣāḥibuhu, gloss:arkadaşı} yalnızca konuşanın kimliğini değil, iki tarafın yakın ve süreğen biçimde birlikte bulunmasını da taşır. Bahçe sahibinin kendini güçlü ve üstün sunması bu eşliği sessiz bir onaya indirgerken, arkadaşın karşı çıkışı ilişkinin içinden gelen bir düzeltme olur. 18:34'teki daha çok olma iddiası iki kişilik konuşmayı bir bolluk rekabetine çevirir; {ar:أَكَفَرْتَ, tr:a-kafarta, gloss:inkâr mı ettin} sorusu dinî gerçeği reddetme anlamını taşıyarak aynı zamanda miktar ve üstünlük iddiasına yöneltilmiş düzeltici söz haline gelir. Yaratılışa dönüş, serveti kişinin kendisinden önce gelen verilmiş hayatın içine yerleştirir ve arkadaşlığı gururu onaylamak yerine gururun yönünü düzeltme biçiminde korur.
+
+Bu düzeltici söz, kıssanın ilerleyen sonucunda gerçek yardımın biçimi olarak da belirginleşir. Sahibin övündüğü kalabalık yalnızca sayısal sosyal gücü taşır (18:34); bahçenin yıkımından sonra hiçbir hizip ona dönüp yardım edemez (18:43). Bu iki sahne arasındaki açıklık, {ar:يُحَاوِرُهُ, tr:yuḥāwiruhu, gloss:onunla karşılıklı konuşuyor} ile kurulan eşlik ve karşılıklı konuşmayı fiilî yardımın yeri olarak görünür kılar. {ar:صَاحِبُهُ, tr:ṣāḥibuhu, gloss:arkadaşı} yanında duran, korumaya ve desteğe elverişli yakınlığı taşır; {ar:يُحَاوِرُهُ, tr:yuḥāwiruhu, gloss:onunla karşılıklı konuşuyor} yardımın karşılıklı söz alışverişi içinde verildiğini gösterir. Yardım ve savunma işlevi kalabalığın yerine arkadaşın sert fakat düzeltici varlığına geçer; bu işlev bu bahçe kıssasındaki ilişki ölçeğinde kalır.
+
+Yaratılış hatırlatması, sahibin kendine biçtiği değerin ölçüsünü de değiştirir. Daha çok olma iddiası kişiyi miktar üzerinden ölçer (18:34); biriktirilmiş mal sahip olunan niceliği kişisel değere dönüştürür. Oysa {ar:خَلَقَكَ, tr:khalaqaka, gloss:seni yarattı} sözü, sahibin önce bir varlık kazanmış olduğunu öne çıkarır; mal ve taraftarlar bu ilk verilmişliğin üzerine eklenir. {ar:نُّطْفَةٍ, tr:nuṭfatin, gloss:küçük sıvı damlası} küçük ve üretici bir başlangıcı öne getirir; servet ve çokluk iddiası bu verilmiş kaynağın ardından gelir. {ar:سَوَّىٰكَ, tr:sawwāka, gloss:seni biçimlendirdi} ise güç, beden ve kavrayışın olgunlaşmasını tamamlanmış bir oluşum olarak gösterir; elde edilmiş güç kendini kuran ilk neden olmaktan çıkar. Taraftar grubu bu ölçünün sosyal biçimidir: kalabalık insanın varlığını üretmez, var edilmiş kişiye eklenir. Böylece servet ve farklar yerinde kalırken bunların kişinin kaynağı sayılamayacağı görünür olur.
+
+## Gelecekten Başlangıca Dönen Söz
+
+Bahçe sahibi, gelecekte Rabbine döndürülse bile daha iyi bir dönüş yeri bulacağını kendi kanaatine dayandırmıştı (18:36). Arkadaşın cevabı bu ileriye dönük güveni geriye doğru çevirir: yaratılış dizisi yalnızca dirilişe verilen kanıt olarak değil, sahibin hayal ettiği dönüşü gerçek başlangıcına götüren bir cevap olarak da duyulur. Gelecekteki dönüş düşüncesi bir tahminken, {ar:تُرَابٍ, tr:turābin, gloss:toprak} doğrulanabilir maddi başlangıcı öne çıkarır. Kişi sahip olduğu bahçeden veya umduğu gelecekten önce topraktan başlayan bir oluşumdur. {ar:يُحَاوِرُهُ, tr:yuḥāwiruhu, gloss:onunla karşılıklı konuşuyor} içindeki söz alışverişi, bu tersine dönüşü soyut bir hareket olmaktan çıkarıp arkadaşın cevabının konuşma içindeki işi haline getirir. İyi bir geleceğe yükselme tasavvuru, başlangıçtaki bağımlılığa doğru geriye yürütülür; diriliş sorusunun açık yönü bu hareket içinde canlı kalır.
+
+Bu geriye dönüş, bahçenin sahibini çevreleyen maddi bollukla da temas eder. İki bahçenin etrafında kurulan çevre, zenginliği bir merkezin çevresinde toplayan kapsayıcı bir sınır oluşturur (18:32, 18:35); sahibin bahçeye girişi de bu çevreleyici bolluğun içine yerleşmesidir. Görünür zenginlik, kişinin kendisini güvenli gördüğü bir örtülme ve gizlenme alanı gibi işler. {ar:أَكَفَرْتَ, tr:a-kafarta, gloss:inkâr mı ettin} içindeki örtmek ve kapatmak imgesi bu çevreyle birleştiğinde bolluğun görüş alanını daraltmasını somutlaştırır. Bahçenin kuruluşu ve sahibin ona girişi, inkâr sorusunun maddi perdesini görünür kılar (18:32, 18:35); dinî gerçeği reddetme anlamı bu bağlamın içinde korunur.
+
+## Su ve Toprağın Geri Çekilişi
+
+İnsanın {ar:تُرَابٍ, tr:turābin, gloss:toprak} ve {ar:نُّطْفَةٍ, tr:nuṭfatin, gloss:küçük sıvı damlası} ile başlayan oluşumu, bahçenin nehirden suya, sudan geri çekilmeye ve çıplak toprağa dönen akışıyla aynı maddi kırılganlık alanına değinir. Nehir, bahçenin ürününü taşıyan hayat şartını gösterir (18:32, 18:33). Yüzeyde beliren çıplak ve kaygan toprak, bu bolluğun mülkiyeti taşıyan sabit bir dayanak olmadığını gösterir (18:40); suyun derine çekilmesi ise gelişmeyi taşıyan şartı yok oluş yönünde çevirir (18:41). Yapının çözülmesi, maddi çevrimin sahiplik görüntüsüne kadar uzandığını gösterir (18:42). {ar:تُرَابٍ, tr:turābin, gloss:toprak} insan dizisinin maddi başlangıcıyken bahçenin sonunda görünen çıplak zeminde yeniden belirir. {ar:نُّطْفَةٍ, tr:nuṭfatin, gloss:küçük sıvı damlası} küçük bir su kaynağını bildirirken bahçenin içinden geçen nehir, aynı hayat taşıyıcı şartın daha geniş ölçekteki karşılığı olur. Bahçeyi besleyen suyun hem bolluğu ayakta tutması hem de geri çekilerek temeli çözmesi, kişiyi ve mülkü aynı geri dönebilir maddi şartlara bağlı gösterir; karşılaştırma bu bağımlılığı kurar, iki oluşumu birbirine dönüştürmez.
+
+İnsan oluşumundaki {ar:نُّطْفَةٍ, tr:nuṭfatin, gloss:bir damla}, ayetin açık anlamında küçük başlangıç olarak kalırken, kelimenin kök alanındaki duru su kullanımı bahçedeki bolluğa madde ve akış boyutunu verir. Bu su alanı bahçelerin nehirleriyle ve geri çekilen yüzey, su ve yapı sahneleriyle karşılaşır (18:32, 18:33, 18:40, 18:41, 18:42). Yağmurla yetişen hayatın kuruyup dağılması, bu akışın süreklilik garantisi taşımadığını gösterir (18:45); mal ve çocukların dünya hayatının süsü olarak anılması da bolluğun kalıcılık iddiasını sınırlar (18:46). Aynı kökün akma ve damlama kullanımı devreye girdiğinde bahçe bolluğu sabit bir sahiplik değil, akabilen, verim verebilen ve geri çekilebilen bir süreç gibi görünür. Bu karşılaşma damlayı bahçe suyu diye çevirmeden, insanın küçük başlangıcı ile bahçenin verili ve geri alınabilir su şartı arasında nitelikli bir yankı açar.
+
+## Yetiştirenin Yetiştirilmişliği
+
+Bahçenin suyla ayakta duran çevresi, {ar:أَكَفَرْتَ, tr:a-kafarta, gloss:inkâr mı ettin} içindeki örtme eylemini ekme ve yetiştirme dünyasına taşır. Ekim ve yetişmiş ürün sahnesi (18:32, 18:34), tohumu toprağa yerleştirip üzerini örten çiftçi görüntüsünü bu örtme eylemi için bağımsız bir bahçe tetikleyicisi olarak getirir. {ar:تُرَابٍ, tr:turābin, gloss:toprak} iki işlevi birbirine bağlar: insanın ilk maddesidir ve tohumun çalıştığı yetiştirme zeminidir. {ar:نُّطْفَةٍ, tr:nuṭfatin, gloss:bir damla} küçük bir yerleştirilmiş başlangıç gibi duyulur; damla tohumla özdeşleşmeden, oluşmuş kişinin geliştirilmiş bir başlangıç olduğunu sezdirir. Ekin ve yetişme bahçenin açık çalışma alanını, yetişmiş ürün ve mal ise sahibin kendiliğinden kurulmuş sandığı verimi sağlar. Yaratılış dizisi bu verimi önce yerleştirilmiş ve büyütülmüş bir varlığın elde ettiği sonuç olarak geri çevirir. Sahibin kendisi böylece hem yetiştiren kişi hem de toprak ve damladan oluşturulup biçimlendirilmiş varlık olarak görünür; örtme, ekme ve oluşma işlemleri aynı görüntü içinde birbirine bağlanır.
+
+## Ortak Başlangıcın Altında
+
+Toprağın maddi köken anlamı, kıssadaki iki kişinin servet bakımından ayrılırken yaratılmış insanlık bakımından ortak bir sıraya dönmesini de ihtiyatla duyurur. {ar:تُرَابٍ, tr:turābin, gloss:toprak} bu sosyal yankıda servetleri eşitlemez; servet farkının altında ortak bir başlangıç açar. {ar:صَاحِبُهُ, tr:ṣāḥibuhu, gloss:arkadaşı} gerçek ilişkiyi bu daha uzak sosyal yankıya bağlar: eşlik eden iki kişi mal farkına rağmen aynı karşılaştırma içinde kalır. {ar:رَجُلًا, tr:rajulan, gloss:bir erkek olarak} yaratılış dizisini ortak insan kategorisinde tamamlar. İki adamın ortak insan kategorisi mülk ayrımından önce kurulur (18:32); daha çok olma iddiası (18:34) ile daha az mal ve evlat ifadesi (18:39) bu ortak zeminin üzerindeki gerçek nicelik farkını açığa çıkarır. Nicelik farkı korunurken yaratılmış değer bakımından bir altlık kurulmaz. Toprak sözü böylece eşit mülkü değil, eşitsiz mülkün altında ortak insan sırasını duyuran sınırlı bir eşik olur.
+
+Bu ortak başlangıç, mal ve çocukları dünya hayatının süsü olarak karşılayan çerçevede bahçe sahibinin övünüşünü yeniden toprağa döndürür (18:46). Aynı kökün varlıklı olmak ve malın çoğalması alanı, sözcüğün çevirisini değiştirmeden bağlamsal bir karşıtlık kurar: zenginlik kişinin dayandığı kaynak değil, alınmış toprağın üstüne eklenmiş ve değişebilen bir durum gibi görünür. Soru böylece yalnızca nereden yaratıldığını değil, şu andaki bahçeyi ve üstünlük iddiasını da o başlangıçla yüzleştirir. {ar:تُرَابٍ, tr:turābin, gloss:toprak} burada yine toprak olarak kalır; varlıklılık alanı dış bağlamın açtığı kök yankısıdır.
+
+</editorial_prose>

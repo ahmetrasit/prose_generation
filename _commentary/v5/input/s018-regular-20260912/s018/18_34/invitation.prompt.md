@@ -1,0 +1,169 @@
+# V5 reading invitation — 18:34
+
+You are a fresh reading-invitation writer. Read the complete editorial prose
+before writing. It is your sole semantic source.
+
+Write two to four paragraphs of fluent, contemporary Turkish that reveal a
+surprising reading by following one or two main channels of resonance in the
+ayah. A channel is a connected background of meanings, images, actions, or
+relations through which the ayah can be heard and understood differently.
+Several editorial findings may together develop one channel. Summarize that
+connected movement and its consequence for the ayah's main meaning, rather
+than compressing findings individually. Give the reading's substance now;
+the invitation comes from understanding it, not from a promise of hidden depth.
+
+Before drafting, read the entire editorial prose and silently select the one
+or two channels with the strongest interpretive consequence and enough
+grounding to explain clearly. Favor channels that expand or shift what the
+ayah says, the relation it establishes, or what is at stake in its action or
+image. One fully developed channel is sufficient; add a second only when it
+offers a distinct consequential reading that can be explained within the
+invitation. No finding, channel, or major shift has an individual coverage
+claim. Unselected material may remain entirely in the full commentary.
+
+A channel may develop through grammar, sound, dialogue, a material process,
+time, imagery, or a conceptual relation. Resonance is not limited to acoustic
+effects, and an unusual image alone does not establish a channel. Use only
+connections the editorial prose actually develops. If it supplies no such
+channel, explain its strongest grounded reading without inventing connections
+or surprise.
+
+Begin inside the ayah's own words, images, actions, or relations and reveal a
+selected distinctive reading in the first paragraph. Keep the plain meaning
+reachable with only the orientation needed to understand the change. Do not
+spend an opening paragraph on routine explanation or front-load context about
+the surah, the ayah's position, or the commentary project.
+
+For each selected channel, begin with the expression that opens it, unfold the
+connected background, and show how the ayah reads or sounds against that
+background. Let a detail lead into the next through an intelligible relation
+or process, so the reader experiences the emerging reading. This is a movement
+of thought, not a mandatory sentence pattern or one paragraph per finding.
+Let the reader identify the expression being interpreted,
+where any nonordinary detail comes from, and what that detail changes in the
+reading. Briefly identify the word-family use, restricted form, collocation, or
+context that supplies an essential added detail, and preserve the concrete
+operation that makes the image work. Keep the ordinary reading and necessary
+qualification clear within this explanation; do not repeat them as a fixed
+formula. Preserve the particular object, process, or relation that makes this
+reading distinctive, and state its interpretive consequence for the ayah as a
+whole. Make intelligible what the familiar reading leaves less visible and
+what the expanded or shifted reading now lets the reader understand. Preserve
+the editorial's force: an exploratory possibility remains possible, while a
+developed shift must not be softened into a decorative association or a
+reassurance that everything means the same thing. A concrete
+account of how something is carried, transformed, lost, or restored must not
+shrink to a general statement about care, guidance, dependence, or goodness.
+Keep the details needed to make the selected channel work; omit side findings
+and shorten routine setup. If a channel cannot be explained faithfully from
+the editorial prose, choose another grounded channel or reading.
+
+When a non-focus ayah supplies a contribution used in the invitation, keep its
+reference from the editorial prose beside that contribution.
+
+Do not turn the invitation into a miniature inventory of the commentary's
+conclusions, or flatten distinct channels into a broad theme to include more
+material. Do not repair, extend, or supplement the editorial prose from memory
+or outside knowledge.
+
+Omit technical apparatus. Retain any qualification, source distinction, live
+alternative, or boundary whose absence would change the force or meaning of a
+chosen reading. Express it naturally beside the image or relation it qualifies.
+Favor positive explanations of the relation between layers: what remains in
+the foreground and what the resonance makes audible in the background. State
+how that background reinforces, expands, or shifts the understanding of the
+main meaning, with the source and degree of certainty clear. Reserve explicit
+exclusions for concrete ambiguities or live counter-evidence that need them.
+Repeated "this is not X" endings make a reading sound withdrawn; express the
+substantive qualification through what the reading does contribute wherever
+possible. Use varied, natural language rather than a repeated "second layer"
+formula, and preserve the force of expansions and shifts.
+Do not name branches, candidates, findings, scopes, evidence categories,
+ledgers, or workflow stages, or label the prose as numbered channels. Do not
+list findings serially.
+
+Use the established `{ar:..., tr:..., gloss:...}` syntax, consistent
+Turkish-readable transliteration, and short ordinary glosses. Keep Arabic
+anchors beside the explanations they ground. Within a paragraph, continue with
+the Turkish meaning where clear; provide the necessary local tag when a later
+paragraph interprets the carrier anew. Do not place Arabic script outside a
+valid tag.
+
+Build transitions within a channel through its shared object, action, or
+relation. If two channels are selected, they may occupy separate paragraphs;
+do not invent a link between them. Do not praise the commentary's quality,
+promise what the reader will find, manufacture suspense, recap at the end, or
+add a call to action. End on an image, relation, action, or tension already
+established by the selected reading.
+
+Before finishing, compare the invitation with the entire editorial prose:
+does the chosen channel reveal a consequential reading, or could the text have
+been written from the ordinary translation and a modest explanation alone?
+When the editorial supports a surprising channel, the latter fails this task.
+Can the reader follow the opening expression into a connected background and
+understand how that background expands or shifts the ayah's main meaning?
+Check the selected connections against their editorial explanation: can the
+reader tell where the nonordinary details come from, with the necessary
+qualifications intact? Repair generic explanation, isolated curiosities, or a
+compressed findings list by developing the selected channel. Do not add
+omitted channels merely for coverage. Do not output this check.
+
+Write only the invitation text to:
+
+`_commentary/v5/editorial/s018-regular-20260912/s018/18_34/18_34.invitation.tr.md`
+
+Do not add a heading, wrapper label, index, ledger, evidence file, or any other
+artifact. Do not modify the editorial prose.
+
+After writing the invitation, run:
+
+```bash
+python3 _commentary/v5/validate_prose.py _commentary/v5/editorial/s018-regular-20260912/s018/18_34/18_34.invitation.tr.md
+```
+
+If validation fails, repair only the reported mechanical file-contract issues
+and rerun it, for at most two repair cycles. Report the final validator result
+in your response.
+
+<editorial_prose>
+Bahçe sahibinin elinde ürün de vardır; arkadaşıyla konuşurken kendisini mal bakımından daha zengin, insan bakımından daha güçlü ilan eder. Cümlenin başındaki {ar:وَ, tr:wa, gloss:ve} bu sahneyi önceki üretken bahçeye bağlar (18:33): şimdi görünen, bahçe düzeninden adamın elinde bulunan sonuca geçiştir. {ar:كَانَ, tr:kana, gloss:vardı} ürünü konuşmadan önce onun için kurulmuş bir mevcutluk olarak bildirir; böylece ayetin düz yüzünde yerleşmiş bir varlık durumu belirir, üretim failine dair soru açık kalır. {ar:لَهُۥ, tr:lahu, gloss:onun için} nesne söylenmeden yararlanıcıyı öne çıkarır: ürün onun faydasına ve sahiplik alanına görünür. Ardından gelen {ar:ثَمَرٌۭ, tr:thamarun, gloss:ağaç ürünü} belirli bir sayım veya ürün listesi değil, sınırı çizilmemiş bir verimdir.
+
+## Söze Açılan Sahiplik
+
+İlk {ar:لَهُۥ, tr:lahu, gloss:onun için} sahipliği ve yararı, sonra gelen {ar:لِ, tr:li, gloss:-e} ise sözün yöneldiği kişiyi gösterir; aynı ses, adamın elindeki üründen karşısındaki muhataba geçişi kurar. {ar:ثَمَرٌۭ, tr:thamarun, gloss:ağaç ürünü} belirsiz bırakıldığı için verimin miktarı ve ürünlerin dökümü açıkta kalır. Bu meyve alanı sonraki kayıpta tersine dönebilen bir varlık olarak yeniden görünür (18:42); kayıp, sahiplik bildirimini silmekten çok onun kırılabilirliğini görünür kılar. Varyant okumalarının çoğulluk veya ilahî verme yönü, bu yerleşmiş sahiplik cümlesine eşlik eden bir ihtimal olarak kalır. {ar:فَ, tr:fa, gloss:böylece} ürünün onun için mevcut oluşunu hemen ardından gelen söze bağlar; maddi durumun bu sahnede övünmeyi tetiklediğini duyurur. {ar:قَالَ, tr:qāla, gloss:dedi} ile karakterin doğrudan sözüne geçilir; bu temel söyleme kalıbı, konuşmanın karşılıklılığını çevresindeki sahneden alır. Sonraki cevap (18:37) düşünüldüğünde bu söz, kapanmış bir anlatıcı özeti değil, karşılık bekleyen ilk konuşma dönüşüdür.
+
+Bağımsız {ar:هُوَ, tr:huwa, gloss:o} zamiri, konuşma fiilinin içindeki kişi işaretine ayrıca bir özne verir ve övünmeyi görünür bir sahne durumuna çevirir: okur aktarılmış bir fiilden çok, konuşan bir adam görür. Bu açık özne, önceki sahiplik ile alıntının {ar:أَنَا۠, tr:ana, gloss:ben} sözü arasındaki konuşanı aynı kişide toplar. {ar:يُحَاوِرُهُۥٓ, tr:yuḥāwiruhu, gloss:karşılıklı konuşuyor} sürmekte olan söz alışverişinin içindeki dönüşü taşır; nesne eki, övünmenin bir başkasına yöneltilen etkinlik olduğunu gösterir ve alışverişin eşitlik derecesini açık bırakır. Onu çevreleyen {ar:وَ, tr:wa, gloss:ve}, birinci şahıs iddiasını sürmekte olan sahnenin içine yerleştirir.
+
+{ar:لِ, tr:li, gloss:-e} ile gelen {ar:صَٰحِبِهِۦ, tr:sahibihi, gloss:arkadaşına} sözü, alıntı başlamadan önce övünmenin hedefini belirler: bu, nötr bir dinleyiciye değil, yakın ve süreğen beraberlik içindeki belirli bir kişiye yöneltilmiş sözdür. Arkadaşlık kelimesi sahiplik ve efendilik dilini yankılayabilir; cümlenin yerel bağında ise yakın muhatabı gösterir. Arkadaşın karşılaştırmadan önce adlandırılması, mevcut bağı üstünlük hiyerarşisinin zeminine çevirir. Aynı kişinin cevabı (18:37) içindeki {ar:أَكَفَرْتَ, tr:akafarta, gloss:inkâr mı ettin} sorusu, bu yakınlığın sessiz bir kabulleniş olmadığını ve üstünlük sözünü başka bir zemine çektiğini gösterir. Ayetteki üç {ar:وَ, tr:wa, gloss:ve} bağlacı da aynı işi yapmaz: ilki önceki bahçeyi (18:33) taşır, ortadaki konuşma durumunu çerçeveler, sonuncusu maldan insan gücüne geçecek ikinci karşılaştırmayı biriktirir. Bu yapı içinde {ar:يُحَاوِرُهُۥٓ, tr:yuḥāwiruhu, gloss:karşılıklı konuşuyor} ile {ar:صَٰحِبِهِۦ, tr:sahibihi, gloss:arkadaşına} arkadaşlığı, {ar:أَكْثَرُ, tr:aktharu, gloss:daha çok} ve {ar:أَعَزُّ, tr:aʿazzu, gloss:daha güçlü} ifadelerinin kurulduğu kontrollü bir konuşma alanına çevirir; diyalog sürerken sıralamayı bir taraf belirler.
+
+Alıntı {ar:أَنَا۠, tr:ana, gloss:ben} ile açılır. Önceki verilmiş bolluktan konuşanın kendisini öne çıkarmasına geçilir; benlik, servet, arkadaşlık ve toplumsal güç ölçülerinden önce yerini alır. Kabul edilmiş kıraat biçiminde sesin uzaması öznenin işitsel varlığını büyütebilir; gönderimi, cümledeki yeri ve kurduğu iddiayı değiştirmez. Ardından {ar:أَكْثَرُ, tr:aktharu, gloss:daha çok} {ar:مِنكَ, tr:minka, gloss:senden} ile birlikte gelir: çokluk, arkadaş karşısında kurulan ölçüdür. {ar:مَالًۭا, tr:malan, gloss:mal ve varlık} “daha çok ne?” sorusunu servet alanında cevaplar; üstünlük iddiası böylece servetin belirlediği ölçü içinde kalır. {ar:مِنكَ, tr:minka, gloss:senden} standardın doğrudan arkadaş olduğunu gösterdiği için söz, yüz yüze yöneltilmiş bir sıralama olarak duyulur.
+
+İkinci {ar:وَ, tr:wa, gloss:ve} bu ilk üstünlük ifadesini kapatmaz; {ar:أَعَزُّ, tr:aʿazzu, gloss:daha güçlü} ile yeni bir alan açar. İlk çiftte {ar:أَكْثَرُ, tr:aktharu, gloss:daha çok} ve {ar:مَالًۭا, tr:malan, gloss:mal ve varlık} serveti, ikincide {ar:أَعَزُّ, tr:aʿazzu, gloss:daha güçlü} ve {ar:نَفَرًۭا, tr:nafaran, gloss:insan topluluğu} insan desteği ve toplumsal kuvveti ölçer. {ar:مَالًۭا, tr:malan, gloss:mal ve varlık} ile {ar:نَفَرًۭا, tr:nafaran, gloss:insan topluluğu} aynı belirsiz ölçüm ritminde eşleşir; övünme depolanmış değeri yakın çevrenin destek gücüyle yan yana getirir. {ar:أَعَزُّ, tr:aʿazzu, gloss:daha güçlü} biçiminin sıkı işitilişi güç iddiasını yoğunlaştırır. Kelime sağlamlık, direnç ve saygınlık yönlerini duyurur; {ar:نَفَرًۭا, tr:nafaran, gloss:insan topluluğu} bu baskıyı insanî karşılaştırmanın içinde tutar, dolayısıyla buradaki bağlantı toplumsal üstünlük olarak işler. {ar:نَفَرًۭا, tr:nafaran, gloss:insan topluluğu} küçük bir erkek topluluğu veya gerektiğinde yanında harekete geçebilecek yakın destek çevresi olarak duyulur; grubun sayısı ve seferberlik derecesi açık bırakılır. Mal kelimesinde elde tutulup biriktirilen değer baskısı hissedilir; yerel cümle onu servet alanında tutar ve diğer sözlük yönlerini bu bağlantıya taşımaz. Son söz olan {ar:نَفَرًۭا, tr:nafaran, gloss:insan topluluğu}, mal ile kurulan çiftin ikinci yarısını kapatır ve insan desteğini bu üstünlük iddiasının ayrı kaynağı olarak görünür kılar.
+
+## Üretimden Ölçüye
+
+Ürünün arkasındaki düzen de bu sahiplik cümlesinin içinde sıkışır. İki bahçenin kurulması, palmiyelerle çevrelenmesi, aralarında ekin bulunması ve içlerinden nehrin akıtılması önceki sahnede verilir (18:32, 18:33). {ar:ثَمَرٌۭ, tr:thamarun, gloss:ağaç ürünü} bu düz okumada adamın elindeki üründür; {ar:جَعَلْنَا, tr:jaʿalnā, gloss:yerleştirdik ve düzenledik} üretim alanını kurar, {ar:حَفَفْنَا, tr:hafafnā, gloss:çevreledik} verimli merkezin çevresindeki koruyucu katmanı belirler, {ar:فَجَّرْنَا, tr:fajjarna, gloss:akışını açtık} suyun akışını başlatır, {ar:نَهَرًا, tr:naharan, gloss:akan kanal} ise bu akışı bahçeler boyunca taşıyan kaynağı görünür kılar. Bu işlemler birlikte, ürünü kendiliğinden duran bir maldan kurulmuş yer, çevre ve su düzeninin çıktısına çevirir; adamın tekil sahiplik sözü de bu şartlar ağını tek bir mülk görüntüsünde toplar. Ayrıntıların bollukla ilişkisi açık kalırken, sahiplik sözünde geri plana çekilen taşıyıcı koşullar böylece görünür olur.
+
+Bu düzenin ürettiği {ar:ثَمَرٌۭ, tr:thamarun, gloss:ağaç ürünü}, ayrı bir tetikleyici olan {ar:مَالًۭا, tr:malan, gloss:mal ve varlık} ile karşılaşınca birikerek varlığa dönüşen maddi kaynak yönünde genişler. Meyveli bahçenin yıkıma açık oluşu, meyvenin devam eden verime ve onu taşıyan bahçeye bağımlılığını açar (2:266); toplanıp sayılan servet ise ürünün toplumsal olarak sayılabilir bir varlık tabanına dönüşme eşiğini gösterir (104:2). Bu iki katkı birlikte, serveti kendi başına duran bolluk olarak değil, sürekliliği kırılabilir bir üretimin değere çevrilmiş getirisi olarak duyurur. Buradaki hareket meyvenin para diye çevrilmesi değil, ürünün sayılan servete doğru genişlemesidir; bu bağlantının odak ayetteki biçimle doğrudan eşleşmesi gösterilmediği için sınırlı ve keşif niteliğinde kalır. Aynı ürün alanının kuşatılıp kaybedilmesi de bu getirinin tersine dönebilen bir taşıyıcı olduğunu gösterir (18:42).
+
+Ürünün statüye dönüşmesindeki eşik, onu sahiplikten çıkarıp cümleye sokan {ar:قَالَ, tr:qāla, gloss:söze dökme} biçimidir. Eşitsiz sahiplik ve sözlü üstünlük sahnesi, sayısal fazlalığın konuşma içinde kişiler arası rütbeye çevrilebildiğini gösterir (38:23). Kibirin görünür olduğu eşik, meyvenin kendisinden çok, sahip olunanı bir hüküm ve karşılaştırma olarak seslendiren söyleyiştir; bu bağlantının odak ayetteki biçimle doğrudan eşleşmesi ayrıca gösterilmediği için nitelikli bir yankı olarak kalır. {ar:أَكْثَرُ, tr:aktharu, gloss:daha çok} sayılabilir servet zeminini taşır (104:2); {ar:أَعَزُّ, tr:aʿazzu, gloss:daha güçlü} bu zeminin sözle üstün gelme biçimine dönüşmesini çağırır (38:23); {ar:نَفَرًۭا, tr:nafaran, gloss:yakın destek çevresi} ise mal, oğullar ve genişleyen takipçi çevresiyle birlikte anılan insan dayanağını getirir (17:6). Böylece sayılan mal, sözle kurulmuş rütbe ve beklenen insan desteği tek bir toplumsal yarışın içinde birbirine bağlanır. İnsan çevresinin kesin sayısı ve fiilî harekete geçme derecesi açık kalırken, odak cümlesindeki mal ve insan üstünlüğü bu yarışın görünür zemini olarak yerinde durur.
+
+Bu sahipliğin toplumsal yüzü, arkadaşın karşısında hangi değerlerin ölçüldüğünü de değiştirir. Eşlik edilen kişi {ar:صَٰحِبِهِۦ, tr:sahibihi, gloss:yakın arkadaşı}, {ar:أَكْثَرُ, tr:aktharu, gloss:sayıca daha çok} ise göze ve hesaba sunulan üstünlük ölçüsüdür; bu temas önceki öğüdün toplumsal bakışıyla açılır (18:28). Aynı bağlamdaki {ar:عَيْنَا, tr:aynaya, gloss:gözler} görme eylemini, {ar:زِينَةَ, tr:ziynata, gloss:dünya süsünü} çekici yüzeyi, {ar:فُرُطًا, tr:furutan, gloss:ölçüyü aşmayı} ise bu değerlendirme biçiminin sınırını aşmasını duyurur. Bu üç ayrıntı birlikte, arkadaşın görünür dünya değerleriyle kıyaslanan insanî ilişkinin tarafına dönüşmesini ve miktar yarışının kimin görülmeye değer olduğuna yönelen bir bakışa açılmasını sağlar. Buradaki temas iki sahneyi ortak bir olayda birleştirmez; önceki öğüdün bakışı, bu cümledeki toplumsal ölçüyü aydınlatan sınırlı bir yankı olarak yeniden işler.
+
+Yakın çerçevede hakikat karşısında iman veya inkâr tercihi, iyi işlerin karşılığının kaybolmaması ve kalıcı bahçelerin dünyadaki geçici gösterişin karşısına yerleştirilmesi de bu ölçüyü genişletir (18:29, 18:30, 18:31). Bu çevresel karşıtlıklar, 18:34'teki sözün içinde sayılan mal ve insan gücünün hangi ölçü içinde sergilendiğini belirginleştirir; söz, bu çerçevenin içinde kendi karşılaştırma eylemi olarak kalır.
+
+## Geleceğe Uzanan İddia
+
+Karşılaştırma bugünün miktarında durmaz; sonraki cümlelerde geleceğe doğru uzanır (18:35, 18:36). {ar:أَكْثَرُ, tr:aktharu, gloss:daha çok} ile kurulmuş üstünlük, bahçenin yok olmayacağı ve dönüşte daha iyi bir sonuç bulunacağı düşüncesine bağlanır. {ar:أَظُنُّ, tr:azunnu, gloss:sanıyorum} bu geçişe şüphe ve varsayım tonunu verir; şimdiki bolluk yine de gelecek için güvence gibi kullanılır. {ar:تَبِيدَ, tr:tabida, gloss:yok olup gitmek} bahçenin bütünüyle kaybolma ihtimalini açar, {ar:أَبَدًا, tr:abadan, gloss:sonsuza dek} zamanı sınırsızlığa uzatır, {ar:رُدِدْتُ, tr:ruddittu, gloss:geri döndürülürsem} düşünceyi başka bir sahneye taşır, {ar:مُنقَلَبًا, tr:munqalaban, gloss:dönüşte varılacak sonuç} ise dönüş sonunda beklenen sonucu adlandırır. Bu katkılar birlikte, “daha çok mal” sözünü mevcut miktarın yanında geleceği güvenceye alma düşüncesinin eşiğine taşır. Malın sahibini kalıcı kılacağı sanısına bağlanan temas bu süreklilik baskısını güçlendirir (104:3); buradaki katkı doğrudan bir ölümsüzlük hükmü değil, mal taşıyıcısından geçen sınırlı bir süreklilik düşüncesidir. Sonraki sözlerin tek ve kesintisiz bir akıl yürütme olup olmadığı açık kalırken, mevcut üstünlüğün gelecek için dayanak yapıldığı görünür olur.
+
+Arkadaşın cevabı bu kendinden emin çizgiyi yaratılışın maddi başlangıcına geri çevirir. Arkadaşın sorgulayıcı sorusu ve ardından gelen yaratılış hatırlatması aynı karşılığın parçalarıdır (18:37, 18:39). {ar:صَٰحِبِهِۦ, tr:sahibihi, gloss:arkadaşı} burada yalnızca dinleyici değildir; {ar:أَكَفَرْتَ, tr:akafarta, gloss:inkâr mı ettin} sorusuyla üstünlük sözünün temelini sorgular. {ar:أَعَزُّ, tr:aʿazzu, gloss:pekiştirilmiş güç} içindeki güçlendirilmiş olma yönü, {ar:خَلَقَكَ, tr:khalaqaka, gloss:seni yarattı} ile başlangıcını kendisinin kurmadığı bir varlığa bağlanır; {ar:نُّطْفَةٍ, tr:nutfatin, gloss:bir damla} konuşanı asgarî ve somut bir başlangıç maddesi içinde yeniden görünür kılar. {ar:نَفَرًا, tr:nafaran, gloss:yakın destek topluluğu} diye sayılan insanlar, {ar:وَلَدًا, tr:waladan, gloss:evlat} ile birlikte düşünüldüğünde soy veya yakın bağlılık desteğini belirginleştirebilir (18:39). Bu temas, insan topluluğunu evlatla eşitlemekten çok, insan gücünün hangi bağlılıklar üzerinden düşünülebileceğini açar; yeni bir aile kıyası olarak kalma ihtimali de canlıdır. {ar:قُوَّةَ, tr:quwwata, gloss:güç} ise bu sosyal desteğin arkasındaki gücün mal sahibinin kendisinden çıkmadığını, dışarıdan geldiğini görünür kılar. Böylece arkadaş, üstünlük sözünün dinleyicisi olmaktan çıkıp yaratılmışlığı ve gücün kaynağını hatırlatan cevap veren kişiye dönüşür.
+
+## Dayanakların Sınanması
+
+Bu bağımlılık sonraki yıkımda elle tutulur bir diziye dönüşür. {ar:ثَمَرٌۭ, tr:thamarun, gloss:artan ürün} için taşıyıcı yüzey 18:40'ta {ar:صَعِيدًا زَلَقًا, tr:saiidan zalaqan, gloss:üzerinde tutunulamayan kaygan zemin} haline gelir; {ar:زَلَقًا, tr:zalaqan, gloss:kaygan yüzey} ayağın ve yapının tutunamadığı zemini somutlaştırır. {ar:أَعَزُّ, tr:aʿazzu, gloss:sağlamlaştırılmış güç} kelimesinin sertleşip pekişme yönü bu zeminde sınanır: güçlenen ve sağlamlaşan şey, tutunacak bir yüzey bulunmadığında kendi başına taşıyıcı olamaz. Su 18:41'de {ar:غَوْرًا, tr:ghawran, gloss:derine çekilmiş su} olarak erişilemez derinliğe çekilir; böylece ürünün ardındaki akış kesilir. Ürün 18:42'de {ar:أُحِيطَ, tr:uhita, gloss:bütünüyle kuşatılıp kaybedildi} ifadesiyle bütünüyle yitirilir; {ar:أَنفَقَ, tr:anfaqa, gloss:harcadı} artık sonucu görünmeyen harcamayı, {ar:خَاوِيَةٌ, tr:khawiyatun, gloss:boşalmış ve çökmüş} ise üretim düzeninin içinin boşalıp taşıyıcı yapısının yıkılmasını gösterir. Zemin, su, ürün, harcama ve boşalan yapı böylece bolluğun birbirinden bağımsız parçalar olmadığını açar. Felaketin kaynağına dair ayrı bir hüküm kurmadan, bu sıra bolluğun zemin, su ve yapıya bağımlı olduğunu görünür kılar (18:40, 18:41, 18:42).
+
+Son sınama insan desteğine gelir. {ar:نَفَرًا, tr:nafaran, gloss:destek verecek insanlar} sözü, yanında bulunması beklenen ayrı topluluğun fiilen ortaya çıkmamasıyla sınanır (18:43). {ar:فِئَةٌ, tr:fiatun, gloss:ayrılmış grup} beklenen tarafın adını koyar, {ar:يَنصُرُونَهُ, tr:yansurunahu, gloss:ona yardım ederler} fiilî yardımı, {ar:مُنتَصِرًا, tr:muntasiran, gloss:kendi başına galip gelen} ise insanın kendi başına galip gelme imkanını ölçüye getirir. Böylece bir grubun adının anılması ile o grubun gerçekten yardım etmesi arasındaki fark görünür olur. {ar:وَلَدًا, tr:waladan, gloss:doğmuş evlat} önceki insan gücü kıyasının soy ve yakınlık tarafını yeniden görünür kılar (18:39); {ar:نَفَرًا, tr:nafaran, gloss:insan topluluğu} bu temasla evlatla özdeşleşmeden, destek çevresinin başka bir görünümünü taşır. Etkili koruyucu yetki {ar:ٱلْوَلَايَةُ, tr:al-wilayatu, gloss:koruyucu yetki} ile insan rezervinin dışındaki bir yere yerleşir; {ar:عُقْبًا, tr:uqban, gloss:sonuç ve akıbet} ise görünen üstünlüğün vardığı sonuca bakışı çevirir (18:44). İnsan grubunun akrabalık veya basit bir sayı anlamında kalma ihtimali korunurken, onu kurtarma çevresi olarak okuyan temas sayılmış bağlılık ile kriz anında işleyen yardım arasındaki farkı görünür kılar.
+
+Konuşmanın son yankısı, sahnenin başındaki {ar:يُحَاوِرُهُۥٓ, tr:yuḥāwiruhu, gloss:karşılıklı söz alışverişi} fiilinin taşıdığı karşılıklılığı artış ve dönüş çizgisine bağlar. Kelimenin olağan anlamı arkadaşlar arasındaki süren konuşmadır; eşitsiz arkadaşlık ve övünme sahnesi bu karşılıklılığı ayrıca duyurur (37:51). Aynı kökün geri dönme ve gerileme yönü, dönüş yeri bildiren {ar:مُنقَلَبًا, tr:munqalaban, gloss:dönüş yeri} ile maddi kökene dönüşe temas eder (18:36, 18:37); kayıptan sonra {ar:يُقَلِّبُ, tr:yuqallibu, gloss:çevirip duruyor} ellerin çevrilmesi de artışın maddi tersine dönüşünü görünür kılar (18:42). Bu üç katkı birlikte, iddiayı kendini doğrulayan tek yönlü bir sözden karşılık alabilecek ve kendi sonucuna dönebilecek bir konuşma dönüşüne taşır. Sonraki cümlelerin tek ve zorunlu bir akıl yürütme oluşturduğu ayrıca söylenmediği için bu temas, kaynakları ve odak biçimi arasındaki bağ sınırlı kalan, daha uzak ve keşif niteliğinde bir yankı olarak taşınır. {ar:يُحَاوِرُهُۥٓ, tr:yuḥāwiruhu, gloss:karşılıklı konuşuyor} kelimesinin olağan konuşma anlamı böylece yerinde kalırken, sözün biçimi arkadaşına yöneltilmiş üstünlük iddiasını cevaba ve tersine dönüş ihtimaline açık bırakır.
+
+</editorial_prose>

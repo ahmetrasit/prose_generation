@@ -1,0 +1,487 @@
+{
+  "schema_version": "commentary-v5-scope-discovery-v1",
+  "ayah_ref": "18:52",
+  "lane": "global",
+  "coverage_complete": true,
+  "candidate_decisions": [
+    {
+      "candidate_id": "cand_651e595e8e6c36d346c9",
+      "decision": "accept",
+      "reason": "Güvenilen cross-run bulgusu, 18:52:4, 18:52:11 ve 18:52:13 yüzey temaslarını ve dört supplied branch_ref'i birlikte taşıyor. 18:94 ve 18:98'deki yapılmış sınır ile 42:34 ve 57:13'teki ayırıcı/yıkıcı sınır, ilişki alanının işlev değiştirmesini bağımsız biçimde tetikliyor; adayın koruyucu sınır ile yıkıcı kapan karşıtlığı bu global mekanizmayla tam olarak kurulabiliyor.",
+      "finding_refs": [
+        "global:made-between-functional-boundary"
+      ],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_77f0aef9db66ee8808ff",
+      "decision": "accept",
+      "reason": "Legacy reader-walk adayının ortaklık ve durumu değiştirme iddiası, focus'taki şurakâ ve جعلنا taşıyıcılarına, 7:190'daki ortaklaştırma ve 7:194'teki cevap sınamasına geri dönüyor. 18:94 ve 18:98 aynı yapma eyleminin ilişkiler arasına işleyen bir sınır koyabildiğini gösteriyor; bu, yalnızca mevcut adayın tekrarından farklı olarak asserted partnership'ın engineered separation'a dönüşme mekanizmasını kuruyor.",
+      "finding_refs": [
+        "global:claimed-partnership-engineered-separation"
+      ],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_1f1f38ccd8556b29dc7a",
+      "decision": "represented",
+      "reason": "18:94-98'de yapılan aralığın işlevine göre koruyucu ya da ayırıcı oluşu, global:made-between-functional-boundary bulgusunun aynı semantik iddiasıdır. Bulgunun context_refs ve bu adayın sup_83a12df1ff1912646e52 desteği korunuyor; adayın branch, context veya semantic obligation dışlaması yok.",
+      "finding_refs": [
+        "global:made-between-functional-boundary"
+      ],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_4e4a9b03e989fdfe5f46",
+      "decision": "accept",
+      "reason": "Wide reader-walk kaydı, root_001618/B001, B002 ve B003'ü aynı odak taşıyıcısında birleştiriyor; 18:53'teki yön değiştirme yolunun yokluğu ve 42:34'teki aynı kök alanına dönen yıkıcı kullanım, aralığın kapan ve tutulma şartına dönüşmesini maddi olarak değiştiriyor. B002'nin sonuç yönü ve B003'ün qualified tutulma yönü sınırları görünür bırakılarak kabul edildi.",
+      "finding_refs": [
+        "global:relational-gap-as-no-exit-trap"
+      ],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_070f16e6766cabf79237",
+      "decision": "represented",
+      "reason": "18:53'teki absent مَصْرِفًا okuması ve aralığın inescapable detention'a dönüşmesi, global:relational-gap-as-no-exit-trap bulgusunun aynı semantik çekirdeğidir. Bulgu sup_2ec71b3b2b8086d7e920 desteğini ve 18:53 context_ref'ini koruyor; dışlanan branch, context veya obligation yok.",
+      "finding_refs": [
+        "global:relational-gap-as-no-exit-trap"
+      ],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_9b0b95834b7443c7c7f9",
+      "decision": "reject",
+      "reason": "HFT payloadı summons'ı kamusal bir evidentiary audit olarak adlandırıyor, fakat assigned record'ın anchor_refs ve branch_refs alanları boş; hft_evidence.anchor_evidence boş ve packet'te supplied anchor count sıfır. Context ayeti, word index'i, root'u, attributed role'ü ve focus'a dönüş teması verilmediği için legacy_unbound HFT kuralındaki exact trace koşulu sağlanmıyor. Bu nedenle payload bağımsız carrier/trigger olarak tutulamaz; bağlı semantic obligation veya branch/context referansı da yoktur.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_0ec11c8364b658071cbd",
+      "decision": "reject",
+      "reason": "HFT payloadı alleged partners'ı substitute protectors veya co-guarantors olarak genişletiyor, ancak exact HFT trace sağlamıyor: anchor_refs ve branch_refs yok, anchor_evidence yok, focus'a dönen supplied context coordinate yok. Bu nedenle inference, stated HFT role'ün taşıyıcı ve bağımsız tetikleyici koşullarını aşar; bağlı semantic obligation veya branch/context referansı bulunmadığından ayrıca dışlanacak bir obligation yoktur.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_336ee83f4bb4ae36e3fa",
+      "decision": "reject",
+      "reason": "HFT payloadı unanswered appeal'i later guidance call'a aynalıyor, fakat packet'te bu aynayı kuran supplied ayah, word index, root, attributed role veya focus-return ref yok. anchor_refs, branch_refs ve anchor_evidence boş olduğundan yalnızca unbound synthesis mevcut; exact trace koşulu ve bağımsız carrier/trigger kurulamadığı için retained finding üretilemez.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_9bf11e5096b3c9ad477b",
+      "decision": "reject",
+      "reason": "HFT payloadı mawbiq'i appointed no-exit holding condition olarak geliştiriyor, fakat assigned record exact coordinate ve focus return vermiyor: anchor_refs ve branch_refs boş, anchor_evidence boş ve supplied unique anchor count sıfır. Bu nedenle lexicon branch'iyle attributed contextual evidence kurulamadığı gibi carrier, independent trigger ve boundary doğrulanamıyor.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_925ff6414310cf07d579",
+      "decision": "reject",
+      "reason": "HFT payloadı assertion-summons-partnership-silence-separation zincirini genel bir process synthesis olarak veriyor, fakat zincirin hiçbir adımı exact HFT trace ile coordinate edilmemiş. anchor_refs, branch_refs ve anchor_evidence yok; focus-return ve supplied context carrier bulunmadığından bu kayıt global finding'e alınamaz.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_1657308ebb61b90b57e8",
+      "decision": "reject",
+      "reason": "HFT payloadı guarantor okumasının zaʿamtum'un immediate force'unu aştığını zaten bildiriyor; ayrıca exact HFT trace'te carrier coordinate, context ayah, root, attributed role ve focus return yok. Bu provenance qualification, görünürlüğü değil fakat activation'ı belirliyor; supplied trace olmadan retained relation kurulamadığı için aday reddedildi.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_4a37d252c0c21d6a2917",
+      "decision": "reject",
+      "reason": "HFT payloadındaki reciprocal nonresponse model'i later call toward guidance'ın deliberate mirror olduğu varsayımına dayanıyor, fakat bu later call için supplied ayah/word/root/role coordinate'i ve focus-return ref'i yok. anchor_refs, branch_refs ve anchor_evidence boş; inference exact trace olmadan attributed contextual evidence seviyesine ulaşmıyor.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_f58abe576cf07cd832ef",
+      "decision": "reject",
+      "reason": "HFT payloadı snare ve mixed-network okumalarını exploratory mekanizmalar olarak sınırlıyor; ancak bu sınırlamanın packet içinde exact carrier, root/branch, context coordinate ve focus-return trace'i yok. anchor_refs, branch_refs ve anchor_evidence boş olduğundan form uyumu ve bağımsız tetikleyici sınanamıyor; HFT rolü aşılmadan retained finding üretilemez.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    }
+  ],
+  "findings": [
+    {
+      "finding_ref": "global:claimed-partnership-engineered-separation",
+      "origin_candidate_id": "cand_77f0aef9db66ee8808ff",
+      "represented_candidate_ids": [],
+      "title": "İddia edilen ortaklığın kurulmuş ayrılığa dönüşmesi",
+      "claim": "Odakta ortaklık olarak ileri sürülen ilişki, çağrı ve cevapsızlıkla birlikte var olan bir ilişkiyi yeni bir duruma sokan ilahi yapma eylemiyle tarafların arasına konmuş ayrılığa dönüşür.",
+      "mechanism": "18:52:4:1'deki şurakâ taşıyıcısı tarafların aynı ilişkiye katıldığı ortaklık alanını, 18:52:11:2'deki جعلنا ise var olan bir durumu değiştiren ettirici işlemi taşır. 7:190 ortaklaştırılan payı, 34:22 ortaklık payı ve destek iddiasını sınar; 18:94 ve 18:98 aynı yapma eyleminin iki grup arasına işleyen bir sınır kurabildiğini gösterir. Böylece focus'taki çağrı ile cevapsızlık, ileri sürülen ortaklığın işleyen bir destek ilişkisi olmadığını ve ilişkinin hüküm sahnesinde ayrılık olarak kurulduğunu açar.",
+      "reader_payoff": "Okur, cevapsızlığı yalnızca bir sessizlik olarak değil, ileri sürülen ortaklığın karşı tarafta işleyen bir karşılığı bulunmadığını açığa çıkaran dönüşüm anı olarak görür.",
+      "containment": "Ayetin açık sahnesi olan ortakların çağrılması ve cevap vermemesi korunur. Eklenen okuma, dinî ortaklık iddiasını sıradan insan ortaklığıyla özdeşleştirmez; ortaklık dalının ilişki mekanizmasını ve جعلنا fiilinin durum değiştirme yönünü sınırlı bir global yankı olarak kullanır.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": [
+          "legacy_unbound"
+        ],
+        "reason": "Odak yüzeyleri ve bağlantıların hedef Arapçası mevcut; ancak retained synthesis'in reader-walk kaynağı legacy_unbound ve bağlantı hedeflerinde hedef morfolojisi verilmemiştir. Bu nedenle ilişki, supplied branch facet'leri ve açık sınırıyla nitelikli tutuldu."
+      },
+      "support_ids": [
+        "sup_9c0d2aa10b1dab8a9079"
+      ],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000791/B001",
+          "facet_id": "F001",
+          "branch_gloss": "ortaklık ve ortak olma",
+          "facet_statement": "Bir şey, hak veya iş en az iki taraf arasında ortaktır ve taraflardan yalnız birine ait değildir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "18:52:4:1"
+          ],
+          "trigger_refs": [
+            "conn_ev_e79fa82655e0781dd925",
+            "conn_ev_bbceeb34cfa197bb419f",
+            "conn_ev_edbc197499ede30bd2c3"
+          ],
+          "focus_return_refs": [
+            "18:52:4:1"
+          ],
+          "carrier": "Şurakâ yüzeyi, bir şeyin veya hakkın en az iki taraf arasında paylaşıldığı ortaklık ilişkisini taşır.",
+          "independent_trigger": "7:190'da verilen şeyin ortaklara paylaştırılması, 34:22'de pay ve destek iddiasının reddedilmesi, 7:194'te çağrılanların cevap vermesi istenerek iddianın sınanmasıdır.",
+          "activation": "Wider judgment and partnership scenes, focus'taki ortak adını yalnızca bir etiket olmaktan çıkarıp taraflar arasında işlem gören ve cevap verme kapasitesiyle sınanan bir ilişki iddiasına bağlar.",
+          "resulting_reading": "Ortakların çağrılıp karşılık vermemesi, iddia edilen ortaklığın işleyen bir ortak destek ilişkisi olmadığını görünür kılar.",
+          "boundary": "Bu activation, ordinary partnership dalının ilişki mekanizmasını kullanır; focus'taki dinî ortaklık iddiasını sıradan ortaklıkla sözlük düzeyinde özdeşleştirmez."
+        },
+        {
+          "branch_ref": "root_000248/B002",
+          "facet_id": "F001",
+          "branch_gloss": "birini veya şeyi belirli bir duruma getirme",
+          "facet_statement": "Var olan bir katılımcının durumunu, niteliğini veya konumunu değiştiren ettirici işlemi bildirir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "18:52:11:2"
+          ],
+          "trigger_refs": [
+            "conn_ev_6b2f508ade23335c8e9a",
+            "conn_ev_495ad0a684d4b2138e84"
+          ],
+          "focus_return_refs": [
+            "18:52:11:2"
+          ],
+          "carrier": "جعلنا fiili, var olan taraflar veya ilişki-space üzerinde yeni bir durum kuran ettirici yapma eylemini taşır.",
+          "independent_trigger": "18:94'te iki grup arasına bir set konması ve 18:98'de bu setin işlevinin rahmet ve koruyucu sınır olarak açıklanmasıdır.",
+          "activation": "Aynı yapma eyleminin wider local scenes'te bir ilişki alanını sınırlandırdığı görülünce, focus'taki جعلنا cevapsız ortaklık iddiasını taraflar arasına konan yeni bir duruma bağlar.",
+          "resulting_reading": "İlişki, yalnızca başarısız bir çağrının arka planı olarak kalmaz; hüküm sahnesinde ayrılık olarak aktif biçimde yeniden kurulmuş görünür.",
+          "boundary": "Bu, جعلنا'nın yalnızca fiziksel duvar demesi veya düz anlamdaki koyma eylemini kaldırması değildir; eklenen şey, yapma eyleminin ilişki durumunu değiştirmesidir."
+        }
+      ],
+      "connection_refs": [
+        "conn_f54487428984440244d8",
+        "conn_a8a43bb7bc29a43308f2",
+        "conn_4a2768ab4ff480cbb2dc",
+        "conn_a94f49a49db10fd4d88e",
+        "conn_b2b19fe0eb3c4d430413"
+      ],
+      "context_refs": [
+        "7:190",
+        "34:22",
+        "7:194",
+        "18:94",
+        "18:98"
+      ],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:made-between-functional-boundary",
+      "origin_candidate_id": "cand_651e595e8e6c36d346c9",
+      "represented_candidate_ids": [
+        "cand_1f1f38ccd8556b29dc7a"
+      ],
+      "title": "Yapılmış aralığın işlev kazanan sınır olması",
+      "claim": "Odaktaki aralarına konan şey, wider supplied scenes'te koruyucu işlev görebilen yapılmış sınırla aynı ilişki alanına döner; burada ise sözde ortaklık alanını ayıran ve yıkıcı kapanı işleyen bir sınır olarak belirginleşir.",
+      "mechanism": "جعلنا mevcut ilişki-space'i kurar, بينهم bu alanı iki taraf arasındaki konum olarak taşır, موبيق ise oraya konan şeyin ayırıcı ve yıkıcı niteliğini açar. 18:94'te gruplar arasına set, 18:98'de işlevi bağlama göre koruyucu olan sınır, 57:13'te tarafları ayıran duvar ve 42:34'te aynı kök ailesinin yıkıcı tutulma alanı birlikte bağımsız temaslar sağlar. Bu temaslar, aradaki alanın salt boşluk değil işlev gören bir sınır olduğunu focus'a geri döndürür.",
+      "reader_payoff": "Okur, aralarına sözcüğünü boş bir mesafe olarak değil, ilişkiyi taşıyan ve işlevine göre koruyan ya da kapatan kurulmuş bir sınır olarak algılar.",
+      "containment": "Birincil cümle olan Allah'ın onların arasına yok edici bir uçurum koyması aynen korunur. Koruyucu sınır karşılaştırması bu ayetin sonucunu tersine çevirmez, bir sure tezi kurmaz ve her sınırın koruyucu ya da yıkıcı olduğu iddiasına genişlemez.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": [
+          "legacy_unbound",
+          "trusted"
+        ],
+        "reason": "Güvenilen publication supplied branch refs ve focus anchors'ı taşır; represented retrospective support legacy_unbound'dur. Ayrıca B003 qualified bir branch'tir ve inter-ayah bağlantıları hedef morfolojisini vermediği için işlev karşılaştırması açık sınırla niteliklidir."
+      },
+      "support_ids": [
+        "sup_784294d6f7654a8586d6",
+        "sup_83a12df1ff1912646e52"
+      ],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000248/B002",
+          "facet_id": "F001",
+          "branch_gloss": "birini veya şeyi belirli bir duruma getirme",
+          "facet_statement": "Var olan bir katılımcının durumunu, niteliğini veya konumunu değiştiren ettirici işlemi bildirir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "18:52:11:2"
+          ],
+          "trigger_refs": [
+            "conn_ev_6b2f508ade23335c8e9a",
+            "conn_ev_495ad0a684d4b2138e84"
+          ],
+          "focus_return_refs": [
+            "18:52:11:2"
+          ],
+          "carrier": "جعلنا, mevcut iki taraflı alanı başka bir duruma sokan ilahi yapma eylemini taşır.",
+          "independent_trigger": "18:94 ve 18:98'de aynı yapma alanının gruplar arasına konan set olarak kurulması ve işlev kazanmasıdır.",
+          "activation": "Wider local barrier scenes, focus'taki جعلنا fiilinin ilişki alanını yalnızca doldurmadığını, onun işlevini değiştiren bir sınır kurduğunu gösterir.",
+          "resulting_reading": "Aradaki sınır, çağrının ardından ortaya çıkan rastlantısal boşluk değil, kurulmuş bir sonuç durumudur.",
+          "boundary": "Facet, var olan alanın durum değiştirmesini taşır; yoktan yaratma, yalnızca adlandırma veya her yapma kullanımını duvar sayma ileri sürülmez."
+        },
+        {
+          "branch_ref": "root_000791/B001",
+          "facet_id": "F002",
+          "branch_gloss": "ortaklık ve ortak olma",
+          "facet_statement": "Ortaklık, tarafların aynı mülkiyet veya anlam ilişkisi içinde birleşmesini ve birbirine katılmasını içerir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "18:52:4:1"
+          ],
+          "trigger_refs": [
+            "conn_ev_e79fa82655e0781dd925",
+            "conn_ev_bbceeb34cfa197bb419f"
+          ],
+          "focus_return_refs": [
+            "18:52:4:1"
+          ],
+          "carrier": "Şurakâ, tarafların aynı ilişkiye katıldığı ortaklık alanını taşır.",
+          "independent_trigger": "7:190'da ortaklaştırma ve 34:22'de ortak payı ile destek iddiasının sınanmasıdır.",
+          "activation": "Ortaklık ilişkisi ile araya konan set aynı sahnede buluştuğunda, focus'taki aralık iki tarafın zaten var olduğu varsayılan bağın işlevini açığa çıkaran yer haline gelir.",
+          "resulting_reading": "Sözde ortaklık alanı, koruyucu bir birleşme zemini yerine tarafları ayıran yıkıcı sınırın taşıyıcısı olarak görünür.",
+          "boundary": "Bu facet ortaklığın tarafları bir ilişkiye katma yönünü taşır; focus'taki dinsel iddianın ordinary human partnership dalına indirgenmesi değildir."
+        },
+        {
+          "branch_ref": "root_001618/B001",
+          "facet_id": "F001",
+          "branch_gloss": "iki şey arasındaki ayırıcı engel",
+          "facet_statement": "İki şeyin arasına giren ve onları birbirinden ayıran bir unsur olma.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "18:52:13:1"
+          ],
+          "trigger_refs": [
+            "conn_ev_6b2f508ade23335c8e9a",
+            "conn_ev_8937c592425a4d53e729"
+          ],
+          "focus_return_refs": [
+            "18:52:13:1"
+          ],
+          "carrier": "موبقًا, iki tarafın arasına konan ve aradaki ilişkiyi kesen bir unsurun yeri veya hali olarak taşınır.",
+          "independent_trigger": "18:94'te iki grubun arasına konan set ve 57:13'te tarafları ayıran duvarın açıkça kurulmasıdır.",
+          "activation": "Bu wider sınır örnekleri, focus'taki indefinitive mawbiqan'ın araya yerleşen bir ayırıcı unsur olarak okunmasını sağlar.",
+          "resulting_reading": "Aralarına konan uçurum, cevapsızlığın ardından ilişkiyi görünür biçimde kesen sınır olur.",
+          "boundary": "Ayırıcı engel facet'i korunur; bütün engellerin aynı olduğu veya focus sözcüğünün yalnızca fiziksel duvar anlamına geldiği ileri sürülmez."
+        },
+        {
+          "branch_ref": "root_001618/B003",
+          "facet_id": "F001",
+          "branch_gloss": "takılıp kurtulamamak; kimi kullanımlarda bu yüzden yok olmak veya başkasını alıkoyup yok oluşa sürüklemek",
+          "facet_statement": "Bir varlığın takılıp kalması ya da alıkonması nedeniyle kurtulamaması.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "18:52:13:1"
+          ],
+          "trigger_refs": [
+            "conn_ev_e96c24b5caa53d8d237a",
+            "conn_ev_8ecc38cd469bec007cf0"
+          ],
+          "focus_return_refs": [
+            "18:52:13:1"
+          ],
+          "carrier": "موبقًا, aradaki ayırıcı alanın tarafları kurtuluş yolu bulamayacak biçimde tutması yönünü taşır.",
+          "independent_trigger": "42:34'te aynı kök ailesinin yıkıcı bir alıkoyma ve destruction relation'ına bağlanmasıdır.",
+          "activation": "Wider root contact, ayırıcı sınırın yalnızca iki tarafı ayırmadığını, tarafları çıkışsız bir sonuç içinde tutabildiğini focus'a geri getirir.",
+          "resulting_reading": "İlişki alanı, ortaklığa erişim sağlayan bir aralık olmaktan çıkıp sözde ortakları birbirinden ayıran yıkıcı kapan işlevi kazanır.",
+          "boundary": "Qualified B003 burada tutulma ve kurtulamama çekirdeğiyle kullanılır; fiziksel çamur, belirli bir ettirgen yapı veya bütün ayırıcıların mutlaka yok edici olduğu iddia edilmez."
+        },
+        {
+          "branch_ref": "root_000170/B001",
+          "facet_id": "F001",
+          "branch_gloss": "ayrılıp kopma",
+          "facet_statement": "Çekirdek anlam ayrılma, kopma ve tarafların birbirinden ayrı hale gelmesidir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "18:52:12:1"
+          ],
+          "trigger_refs": [
+            "conn_ev_6b2f508ade23335c8e9a",
+            "conn_ev_495ad0a684d4b2138e84"
+          ],
+          "focus_return_refs": [
+            "18:52:12:1"
+          ],
+          "carrier": "بينهم, iki taraf arasındaki aralık ve ilişki-space'i taşıyan locative yüzeydir.",
+          "independent_trigger": "18:94 ve 18:98'de yapılan sınırın grupları birbirinden ayıran işlev kazanmasıdır.",
+          "activation": "Wider made-between scenes, focus'taki بينهم'ın sırf konum bildiren yüzeyinde ayrılma ve kopma sonucunu görünür kılar.",
+          "resulting_reading": "Aralarına konan şey, tarafların ayrı hale gelmesini fiilen kuran bir sınır olarak duyulur.",
+          "boundary": "Locative between-space'in birincil anlamı korunur; bu contextual resonance onu bütün kullanımlarda doğrudan ayrılık fiiline dönüştürmez."
+        }
+      ],
+      "connection_refs": [
+        "conn_a94f49a49db10fd4d88e",
+        "conn_b2b19fe0eb3c4d430413",
+        "conn_d36f07ca6a058f19a6e2",
+        "conn_7a812e855f2eded87b6f",
+        "conn_a8a43bb7bc29a43308f2"
+      ],
+      "context_refs": [
+        "18:94",
+        "18:98",
+        "57:13",
+        "42:34",
+        "34:22"
+      ],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:relational-gap-as-no-exit-trap",
+      "origin_candidate_id": "cand_4e4a9b03e989fdfe5f46",
+      "represented_candidate_ids": [
+        "cand_070f16e6766cabf79237"
+      ],
+      "title": "İlişkisel aralığın çıkışsız kapan olması",
+      "claim": "Odaktaki موبيق, çağrılanlarla çağıranlar arasındaki aralığı yalnızca ayıran bir yer değil, cevap ve yön değiştirme yolu açılmayan bir tutulma koşulu ve bununla birlikte yıkıma varabilen bir kapan olarak görünür kılar.",
+      "mechanism": "Focus'ta فلم يستجيبوا ile cevap kesilir; 18:53'e dair supplied retrospective support, bu ayırıcı aralığın ardından مَصْرِفًا bulunmadığını söyler. 42:34 bağlantısı aynı kök ailesini yıkıcı sonuçla temas ettirir. Root_001618/B001 ayırıcı engeli, B003 kurtulamadan tutulmayı, B002 ise yok oluş sonucunu ayrı facets olarak taşıdığı için tek bir sözlük eşitlemesi yapılmadan aynı no-exit hareketini kurar.",
+      "reader_payoff": "Okur, cevap yokluğunun arada boşluk bırakmadığını; ilişkinin kendisini çıkışsız ve yıkıcı bir duruma dönüştürdüğünü fark eder.",
+      "containment": "Ayetin temel görüntüsü olan iki tarafın arasına konan yok edici uçurum yerinde kalır. Tutulma ve yıkım, موبيق'in qualified/branch-supported bağlam yankılarıdır; sözün yalnızca soyut bir psikolojik tuzak veya her engelin otomatik olarak ölüm anlamı olduğu ileri sürülmez.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": [
+          "legacy_unbound"
+        ],
+        "reason": "18:53 retrospective support ve wide reader-walk desteği legacy_unbound'dur; 42:34 bağlantısı exact target Arabic sağlasa da target morphology sağlamaz. B003 qualified olduğu için no-exit ve ruinous sonuç sınırları açık tutuldu."
+      },
+      "support_ids": [
+        "sup_7d9a8682dde462621e4b",
+        "sup_2ec71b3b2b8086d7e920"
+      ],
+      "branch_activations": [
+        {
+          "branch_ref": "root_001618/B001",
+          "facet_id": "F001",
+          "branch_gloss": "iki şey arasındaki ayırıcı engel",
+          "facet_statement": "İki şeyin arasına giren ve onları birbirinden ayıran bir unsur olma.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "18:52:13:1"
+          ],
+          "trigger_refs": [
+            "sup_2ec71b3b2b8086d7e920",
+            "conn_ev_8ecc38cd469bec007cf0"
+          ],
+          "focus_return_refs": [
+            "18:52:13:1"
+          ],
+          "carrier": "موبقًا, tarafların arasına giren ayırıcı bir unsurun yer ve sonuç değerini taşır.",
+          "independent_trigger": "18:53'te separating interval için yön değiştirme yolunun yokluğu ve 42:34'te aynı alanın destructive barrier olarak dönmesi.",
+          "activation": "Bu iki wider temas, focus'taki ayırıcı locus'u yalnızca mesafe değil, iki tarafı fiilen birbirinden ayıran ve geçişi kapatan unsur olarak etkinleştirir.",
+          "resulting_reading": "Aralık, tarafların birbirine erişemediği bir sınır haline gelir.",
+          "boundary": "B001'in arada duran engel çekirdeği korunur; focus sözcüğü her türlü soyut güçlük veya her fiziksel engel için genellenmez."
+        },
+        {
+          "branch_ref": "root_001618/B002",
+          "facet_id": "F001",
+          "branch_gloss": "yok olmak ya da yok etmek",
+          "facet_statement": "Bir varlığın ölerek ya da ortadan kalkarak yok olması.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "18:52:13:1"
+          ],
+          "trigger_refs": [
+            "conn_ev_e96c24b5caa53d8d237a",
+            "sup_7d9a8682dde462621e4b"
+          ],
+          "focus_return_refs": [
+            "18:52:13:1"
+          ],
+          "carrier": "موبقًا, aralıkla birlikte yok oluşa açılan ruinous locus/condition değerini taşır.",
+          "independent_trigger": "42:34'te aynı kök ailesinin yıkıcı sonuçla, supplied wide reading'de ise gap'in ruin olarak gelişmesiyle temas etmesi.",
+          "activation": "Focus'taki cevapsız çağrı ve wider destruction contact bir araya geldiğinde, araya konan şeyin sonucu yalnız ayrılık değil, yok oluşa varan kapan olarak duyulur.",
+          "resulting_reading": "Aralık, tarafların iddia ettiği desteğin yokluğunu yıkıcı bir sonuca bağlayan yer olur.",
+          "boundary": "F001 sonuç yönünü taşır; موبيق burada finite causative form veya doğrudan belirli kişilerin ölümü olarak yeniden çekimlenmez."
+        },
+        {
+          "branch_ref": "root_001618/B003",
+          "facet_id": "F001",
+          "branch_gloss": "takılıp kurtulamamak; kimi kullanımlarda bu yüzden yok olmak veya başkasını alıkoyup yok oluşa sürüklemek",
+          "facet_statement": "Bir varlığın takılıp kalması ya da alıkonması nedeniyle kurtulamaması.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "18:52:13:1"
+          ],
+          "trigger_refs": [
+            "sup_2ec71b3b2b8086d7e920",
+            "conn_ev_8ecc38cd469bec007cf0"
+          ],
+          "focus_return_refs": [
+            "18:52:13:1"
+          ],
+          "carrier": "موبقًا, cevapsız ortaklık iddiasının tarafları kurtuluş yolu bulamayacak biçimde tutması yönünü taşır.",
+          "independent_trigger": "18:53'te aradan bir yön değiştirme çıkışının kalmaması ve 42:34 bağlantısında yıkıcı tutulma temasının supplied olmasıdır.",
+          "activation": "Wider context, focus'taki ayırıcı şeyi hareketi ve erişimi durduran bir holding condition olarak okutur; bu, sırf boşluk görüntüsüne eklenen somut bir okuyucu değişimidir.",
+          "resulting_reading": "İlişkisel aralık, çağrı ile erişim arasında kapanan no-exit tuzağa dönüşür.",
+          "boundary": "B003'ün tutulma ve kurtulamama çekirdeği korunur; çamur örneği, belirli bir ettirgen yapı veya her separation'ın zorunlu yok oluşu iddia edilmez."
+        }
+      ],
+      "connection_refs": [
+        "conn_7a812e855f2eded87b6f"
+      ],
+      "context_refs": [
+        "18:53",
+        "42:34"
+      ],
+      "semantic_obligation_refs": []
+    }
+  ],
+  "friction_notes": [
+    "Sekiz legacy_unbound HFT kaydında assigned anchor_refs ve branch_refs boş, anchor_evidence yok ve supplied unique anchor count sıfırdır; bu kayıtlar görünürlükleri korunarak exact trace yokluğu nedeniyle reddedildi.",
+    "Inter-ayah connection kayıtları hedef Arapçasını ve ilişki notlarını sağlıyor, fakat hedef morfolojisini sağlamıyor; bu yüzden retained global findings qualified olarak ve branch boundary'leri açık tutularak kaydedildi.",
+    "Focus_word_alignment tamamen resolved durumdadır; seçilmiş context unit listesi boş olsa da retained context ayetleri packet içindeki connection target evidence veya supplied retrospective support üzerinden açıkça adlandırılmıştır."
+  ]
+}

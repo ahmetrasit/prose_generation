@@ -1,0 +1,521 @@
+{
+  "schema_version": "commentary-v5-scope-discovery-v1",
+  "ayah_ref": "18:70",
+  "lane": "global",
+  "coverage_complete": true,
+  "candidate_decisions": [
+    {
+      "candidate_id": "cand_c44a3d3872f49d8f85db",
+      "decision": "accept",
+      "reason": "Güvenilir cross-run kaydı 18:70:3, 18:70:9 ve 18:70:12 yüzeylerine ve dört odak dalına bağlanıyor; 19:43, 20:90, 20:113, 18:83 ve 20:105 bağlantıları izleme, oluş ve söz ilişkilerini bağımsızca geri döndürüyor. Bu nedenle olaydan açıklamaya uzanan zamanlama iddiası korunuyor.",
+      "finding_refs": [
+        "global:ordered-disclosure"
+      ],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_ba6ddbffba2d1d4d0216",
+      "decision": "represented",
+      "reason": "Öğretmenin anma zamanını saklı tutması ve erken yorum kapanışını önlemesi, global:ordered-disclosure bulgusunun aynı 18:70:12:1 taşıyıcısı, aynı root_000516/B004 dalı ve aynı olay-sonra-açıklama ilişkisiyle tam olarak taşınıyor.",
+      "finding_refs": [
+        "global:ordered-disclosure"
+      ],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_80a0be13cb99168b8cea",
+      "decision": "accept",
+      "reason": "Reader-walk kaydı 18:78-82'yi odak ayetindeki ayrılmış sözün sonraki açıklamayla geriye dönük açılması olarak bağlıyor. Odak yüzeyindeki 18:70:12:1 taşıyıcısı ve açık bağlam ayetleri bu global yankıyı destekliyor; kaynak güveni düşük olduğu için bulgu nitelikli tutuluyor.",
+      "finding_refs": [
+        "global:retrospective-fulfillment"
+      ],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_1460b75ffe3d5cc32334",
+      "decision": "accept",
+      "reason": "Aday, ح د ث altındaki oluş, anlatım ve açığa çıkarma dallarını 18:71-75'teki olay-önce-rapor düzeniyle ilişkilendiriyor; 20:113, 20:105 ve 5:101 bağlantıları bu üç yön için bağımsız temas sağlıyor. Destek legacy_unbound olduğu için sonuç qualified olarak korunuyor.",
+      "finding_refs": [
+        "global:event-before-report"
+      ],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_043cb2bbedc7fc13c6d5",
+      "decision": "represented",
+      "reason": "18:71-75'te olaydan önce değil sonra açıklama verilmesi ve erken soruların sıralama içindeki işlevi, global:event-before-report bulgusundaki aynı olay-rapor mekanizmasının tam semantik tekrarıdır.",
+      "finding_refs": [
+        "global:event-before-report"
+      ],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_526b73b2648fc71a276b",
+      "decision": "reject",
+      "reason": "HFT özeti geçici epistemik sınırlama iddiasını içeriyor, ancak packet içinde bu aday için tam activation trace, bağlam ayeti, kelime indeksi, kök, attributed rol ve focus return bulunmuyor. Bu nedenle HFT adayının kendi kanıt zinciri geçmiyor; bağlantı kayıtlarından çıkan bağımsız soru bulgusu bu adayı temsil etmiyor.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_44fc315293ff0b647ddf",
+      "decision": "reject",
+      "reason": "Sonraki raporun sonuç odaklı yorumu için supplied exact HFT trace ve focus return yok; yalnızca legacy_unbound bir okuyucu özeti var. Bu adayın kendi semantik yükümlülüğü taşınmıyor.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_9df356f4664a7dadefb0",
+      "decision": "reject",
+      "reason": "İlk sınıflandırmaları tersine çeviren counterfactual causal redescription iddiasını bağlayan exact HFT trace, coordinate ve focus return packet'te yok. Legacy_unbound summary tek başına bu adayı aktive etmiyor.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_53ab402dbc6afd8b0812",
+      "decision": "reject",
+      "reason": "Odak ayetinin ahlaki açıdan kaygı verici görünümleri açık tutan bir protokol olduğu iddiası için exact HFT activation trace ve focus return sağlanmıyor; legacy_unbound summary, bağımsız taşıyıcı ve tetikleyici yerine geçmiyor.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_c96f795506280753dfdd",
+      "decision": "reject",
+      "reason": "18:78'in until-clause'ı kesin biçimde tamamlayıp tamamlamadığı packet'te açık bir unresolved summary olarak duruyor; bunu taşıyan exact HFT trace, focus return veya bağımsız kelime bağlantısı yok.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_7c6b8641e65ab395f0c2",
+      "decision": "reject",
+      "reason": "18:63-64 trace-recovery örüntüsünün sonraki öğretmen-öğrenci alışverişine taşınması için exact HFT trace ve focus return bulunmuyor; supplied summary bu global adımı kurmaya yetmiyor.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_ab85fd0343166bea0971",
+      "decision": "reject",
+      "reason": "Secondary mapped root'a dayanan extraction okuması için packet'te exact HFT trace, uyumlu kök koordinatı ve focus return yok; bu nedenle analogical adayın inference edge'i geçmiyor.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    }
+  ],
+  "findings": [
+    {
+      "finding_ref": "global:ordered-disclosure",
+      "origin_candidate_id": "cand_c44a3d3872f49d8f85db",
+      "represented_candidate_ids": [
+        "cand_ba6ddbffba2d1d4d0216"
+      ],
+      "title": "İzleme şartı, oluşan olay ve açıklanan söz",
+      "claim": "18:70'teki öğretmen-öğrenci düzeni, izleme şartını koyduktan sonra yaşanan şeyi ve onun sözle açılmasını ayrı zamanlara yerleştirir; açıklamanın zamanı öğretmene aittir.",
+      "mechanism": "18:70:3:1'deki izleme taşıyıcısı 19:43 ve 20:90'daki bilgili ya da yetkili rehberin ardından gitme ilişkisine döner. 18:70:9:1'deki oluş taşıyıcısı 20:113'teki üretilen hatırlama ile, 18:70:9:1'deki söz taşıyıcısı 20:105'teki soru-cevapla, 18:70:12:1'deki sözle anma taşıyıcısı ise 18:83'teki soru-sonrası yetkili anlatımla temas eder. Böylece takip, oluş ve anma aynı anda değil, öğretmenin belirlediği olay-sonra-açıklama sırasıyla okunur.",
+      "reader_payoff": "Okur, susma buyruğunu genel bir soru düşmanlığı olarak değil, olay ile açıklamanın sırasını öğretmenin belirlediği bir öğrenme düzeni olarak fark eder.",
+      "containment": "Bulgu sıradan ardından gitme, bir şeyin oluşması ve bir şeyi sözle anma zeminini korur. 18:78'in until-clause'ı kesin sözdizimsel tamamladığı veya bütün sûre için tek bir tez kurduğu ileri sürülmez; geniş bağlantı hedeflerinde hedef morfolojisi verilmediği için bu dönüş qualified kalır.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": [
+          "trusted"
+        ],
+        "reason": "Trusted cross-run publication dört odak dalını açıkça bağlıyor; global dönüşlerindeki connection kayıtları hedef Arapçasını ve ilişki notunu veriyor, fakat hedef morfolojisini vermiyor."
+      },
+      "support_ids": [
+        "sup_569924ea9b6b994e9f8c"
+      ],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000175/B001",
+          "facet_id": "F001",
+          "branch_gloss": "ardından gitmek ve yolunu benimsemek",
+          "facet_statement": "Bir kişiyle birlikte ya da onun arkasında ilerleyerek ardından gitmek.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "18:70:3:1"
+          ],
+          "trigger_refs": [
+            "conn_f0e2a5e893d1e4e5c660"
+          ],
+          "focus_return_refs": [
+            "18:70:3:1"
+          ],
+          "carrier": "ٱتَّبَعْتَنِى, odak ayetinde öğretmenin ardından gitme ilişkisini taşıyan biçimdir.",
+          "independent_trigger": "19:43, bilgiyi önceleyen bir rehberin babasına 'beni izle' çağrısını verir ve izlemeyi rehberlik ilişkisine bağlar.",
+          "activation": "Wider bilgili-rehber örneği odak biçimine geri dönerek izlemeyi yalnızca mekânsal yürüyüş değil, açıklamaya götüren öğrenci-öğretmen yönelimi haline getirir.",
+          "resulting_reading": "Musa'nın izlemesi, açıklamayı almanın koşulu olan yönlendirilmiş bir takip olarak görünür.",
+          "boundary": "Bu temas odak ayetindeki fiziksel ardından gitme zeminini kaldırmaz; bütün takip eylemlerinin öğretmen-öğrenci ilişkisi olduğu ileri sürülmez."
+        },
+        {
+          "branch_ref": "root_000299/B001",
+          "facet_id": "F001",
+          "branch_gloss": "yokken var olma, var etme veya gerçekleşme",
+          "facet_statement": "Bir şey, daha önce yokken varlık kazanır.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "18:70:9:1"
+          ],
+          "trigger_refs": [
+            "conn_7169eadab6e439a77297"
+          ],
+          "focus_return_refs": [
+            "18:70:9:1"
+          ],
+          "carrier": "أُحْدِثَ, odak ayetinde sonradan ortaya çıkan bir şeyi taşıyan oluş biçimidir.",
+          "independent_trigger": "20:113'te supplied Arabic, يُحْدِثُ لَهُمْ ذِكْرًا ifadesiyle bir hatırlamanın meydana gelmesini bağlar.",
+          "activation": "Daha genişteki meydana getirme ve hatırlama teması odak fiiline dönerek açıklamadan önce bir oluş ya da üretilme eşiği kurar.",
+          "resulting_reading": "Sözün açılması, zaten verilmiş bir yorum değil, olaydan sonra meydana getirilecek bir açıklama olarak duyulur.",
+          "boundary": "Target morphology packet'te supplied değildir; 20:113 ile odak fiilinin bütün dilbilgisel ayrıntılarının özdeş olduğu ileri sürülmez."
+        },
+        {
+          "branch_ref": "root_000299/B003",
+          "facet_id": "F001",
+          "branch_gloss": "söz, anlatım ve karşılıklı konuşma",
+          "facet_statement": "Bir kişiye işitme veya bildirim yoluyla ulaşan söz ve aktarılan içeriktir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "18:70:9:1"
+          ],
+          "trigger_refs": [
+            "conn_012d09eb9e947a07954f"
+          ],
+          "focus_return_refs": [
+            "18:70:9:1"
+          ],
+          "carrier": "أُحْدِثَ, odak ayetindeki oluşu bir açıklama sözünün ortaya çıkışıyla ilişkilendirebilen taşıyıcıdır.",
+          "independent_trigger": "20:105'te soru, ardından yetkili bir açıklama cümlesiyle karşılanır; connection notu bu soru-sonrası rapor düzenini açıkça belirtir.",
+          "activation": "Yetkili cevap örneği odak fiiline geri dönerek meydana gelen şey ile onun muhataba ulaşan anlatımını iki aşamalı bir temas içinde gösterir.",
+          "resulting_reading": "أُحْدِثَ لَكَ مِنْهُ ifadesi, öğretmenin başlatacağı ve muhataba ulaştıracağı bir anlatımın zamanını saklı tutar.",
+          "boundary": "Bu bağlantı odak ayetindeki sözün biçimini tam bir hedef-morfoloji eşleşmesi olarak sunmaz; yalnızca açıklamaya dönüşen söz ilişkisini taşır."
+        },
+        {
+          "branch_ref": "root_000516/B004",
+          "facet_id": "F001",
+          "branch_gloss": "bir şeyi sözle anma",
+          "facet_statement": "Bir kişi, nesne veya konuyu dilde söz olarak geçirmek ve adını söylemektir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "18:70:12:1"
+          ],
+          "trigger_refs": [
+            "conn_b40c08f2ef15d051a0f8"
+          ],
+          "focus_return_refs": [
+            "18:70:12:1"
+          ],
+          "carrier": "ذِكْرًا, odak ayetinde öğretmenin bir şeyi söz konusu edeceği ve dile getireceği taşıyıcıdır.",
+          "independent_trigger": "18:83'te soru, ardından مِنْهُ ذِكْرًا ile yetkili bir anlatı vaadine bağlanır.",
+          "activation": "Aynı sûrenin daha genişindeki soru-sonrası ذِكْرًا, odak ayetindeki anmayı yalnızca belirsiz bir söz değil, zamanı öğretmen tarafından açılan açıklama eylemi olarak geri çağırır.",
+          "resulting_reading": "Anma, olaydan önce dağıtılan bir cevap değil, olay yaşandıktan sonra başlatılan ve muhataba yöneltilen söz olur.",
+          "boundary": "Bu ilişki ذِكْرًا için sözle anma yönünü taşır; kutsal kitap, içten hatırlama veya bütün konuşma anlamları bu activation ile ileri sürülmez."
+        }
+      ],
+      "connection_refs": [
+        "conn_f0e2a5e893d1e4e5c660",
+        "conn_7169eadab6e439a77297",
+        "conn_012d09eb9e947a07954f",
+        "conn_b40c08f2ef15d051a0f8"
+      ],
+      "context_refs": [
+        "19:43",
+        "20:113",
+        "20:105",
+        "18:83"
+      ],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:retrospective-fulfillment",
+      "origin_candidate_id": "cand_80a0be13cb99168b8cea",
+      "represented_candidate_ids": [],
+      "title": "Ayrılmış anmanın geriye dönük açılması",
+      "claim": "18:70'te vaat edilen ذِكْرًا, 18:78-82'deki sonraki açıklama ile geriye dönük olarak olayların anlamını yeniden kuran bir açılma olarak görünür; susma aralığı bir açıklama eşiği kazanır.",
+      "mechanism": "Reader-walk desteği, odak ayetindeki ayrılmış anmayı 18:78-82'deki sonraki açıklamayla açıkça eşleştirir ve üç önceki okumanın değiştiğini bildirir. Odak 18:70:12:1 taşıyıcısı B004 sözle anma anlamını taşırken, 18:78-82 bağımsız bağlam tetikleyicisi olarak geri döner.",
+      "reader_payoff": "Okur, suskunluk aralığını cevapsız bırakılmış bir boşluk değil, daha sonra olayların görünüşünü değiştiren bir açıklama zamanı olarak görür.",
+      "containment": "Bu yalnızca legacy_unbound reader-walk özetinin taşıdığı nitelikli bir geriye dönük okumadır. Sonraki ayetlerin kelime düzeyi taşıyıcıları ve 18:78'in until-clause'ı kesin biçimde tamamlayıp tamamlamadığı supplied değildir; bütün sûre için tez kurulmaz.",
+      "epistemic": {
+        "status": "exploratory",
+        "source_trust": [
+          "legacy_unbound"
+        ],
+        "reason": "Reader-walk özeti focus ve 18:78-82 bağını açıkça verir, fakat citable bir yayın veya sonraki ayetlerin tam kelime/morfoloji kanıtını vermez."
+      },
+      "support_ids": [
+        "sup_1ceb7b5d9ba3fd335d83"
+      ],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000516/B004",
+          "facet_id": "F001",
+          "branch_gloss": "bir şeyi sözle anma",
+          "facet_statement": "Bir kişi, nesne veya konuyu dilde söz olarak geçirmek ve adını söylemektir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "18:70:12:1"
+          ],
+          "trigger_refs": [
+            "sup_1ceb7b5d9ba3fd335d83"
+          ],
+          "focus_return_refs": [
+            "18:70:12:1"
+          ],
+          "carrier": "ذِكْرًا, öğretmenin daha sonra sözle açacağını söylediği içeriği taşır.",
+          "independent_trigger": "Reader-walk kaydı 18:78-82'nin reserved mention'ı yerine getirip önceki üç okumayı birden değiştirdiğini bildirir.",
+          "activation": "Sonraki açıklama odak taşıyıcısına geri dönerek anmayı olayların ilk görünüşünü yeniden düzenleyen gecikmiş bir söz eşiği haline getirir.",
+          "resulting_reading": "Odak ayetindeki 'ben sana ondan söz açıncaya kadar' zamanı, daha sonra gelen açıklamanın geriye dönük anlam kurma işleviyle birlikte duyulur.",
+          "boundary": "Bu support strict syntactic fulfillment veya sonraki ayetlerdeki her kelimenin exact carrier olduğunu kanıtlamaz; okuma exploratory kalır."
+        }
+      ],
+      "connection_refs": [],
+      "context_refs": [
+        "18:78",
+        "18:79",
+        "18:80",
+        "18:81",
+        "18:82"
+      ],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:event-before-report",
+      "origin_candidate_id": "cand_1460b75ffe3d5cc32334",
+      "represented_candidate_ids": [
+        "cand_043cb2bbedc7fc13c6d5"
+      ],
+      "title": "Oluş ile açığa çıkan açıklama arasındaki sıra",
+      "claim": "Aynı odak fiili olayın veya oluşun, sözlü raporun ve açığa çıkarılan açıklamanın ayrı yüzlerini taşır: önce bir şey meydana gelir, sonra öğretmen onun ne olduğunu açık eder.",
+      "mechanism": "18:70:9:1 taşıyıcısı için supplied support, root_000299/B001, B003 ve B006'yı 18:71-75'teki olay-önce-rapor düzenine bağlar. 20:113 oluşan hatırlamayı, 20:105 soru-sonrası açıklamayı, 5:101 ise sorunun ardından disclosure eşiğini getirir; bu bağımsız temaslar oluş, anlatım ve görünür kılma yönlerini aynı sıraya bağlar.",
+      "reader_payoff": "Okur, أُحْدِثَ لَكَ مِنْهُ ذِكْرًا ifadesini gündelik konuşma izni olarak değil, olayın ardından kontrollü biçimde açılan bir rapor olarak kavrar.",
+      "containment": "Bulgu, olay ile raporun birlikte okunmasını sağlar ve odak ayetinin primary floor'unu korur. Destek legacy_unbound'dur; bağlantı hedeflerinde hedef morfolojisi supplied değildir ve 18:78'in strict fulfillment olduğu ileri sürülmez.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": [
+          "legacy_unbound"
+        ],
+        "reason": "Reader-walk desteği üç H-D-TH dalını ve 18:71-75 olay sırasını açıkça adlandırıyor; wider connection kayıtları exact target Arabic ve ilişki notu sağlıyor, fakat hedef analizleri eksik."
+      },
+      "support_ids": [
+        "sup_cf2333ffc39622de4129"
+      ],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000299/B001",
+          "facet_id": "F001",
+          "branch_gloss": "yokken var olma, var etme veya gerçekleşme",
+          "facet_statement": "Bir şey, daha önce yokken varlık kazanır.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "18:70:9:1"
+          ],
+          "trigger_refs": [
+            "conn_7169eadab6e439a77297"
+          ],
+          "focus_return_refs": [
+            "18:70:9:1"
+          ],
+          "carrier": "أُحْدِثَ, açıklanacak şeyin sonradan meydana gelmesini taşıyan odak biçimidir.",
+          "independent_trigger": "20:113'te يُحْدِثُ لَهُمْ ذِكْرًا ifadesi, bir hatırlamanın meydana getirilmesini supplied Arabic içinde gösterir.",
+          "activation": "Üretme ve oluş temasının odak fiiline dönüşü, açıklamadan önce bir olayın veya içeriğin meydana gelmesi sınırını kurar.",
+          "resulting_reading": "Önce yaşanan oluş, sonra ona ilişkin söz gelir; açıklama olayın yerine geçmez, onun ardından açılır.",
+          "boundary": "Target morphology supplied olmadığı için iki fiilin bütün gramatik özellikleri eşitlenmez; yalnızca oluş ilişkisi taşınır."
+        },
+        {
+          "branch_ref": "root_000299/B003",
+          "facet_id": "F001",
+          "branch_gloss": "söz, anlatım ve karşılıklı konuşma",
+          "facet_statement": "Bir kişiye işitme veya bildirim yoluyla ulaşan söz ve aktarılan içeriktir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "18:70:9:1"
+          ],
+          "trigger_refs": [
+            "conn_012d09eb9e947a07954f"
+          ],
+          "focus_return_refs": [
+            "18:70:9:1"
+          ],
+          "carrier": "أُحْدِثَ, sonradan gelecek raporun üretilmesiyle temas eden odak taşıyıcısıdır.",
+          "independent_trigger": "20:105'te soru bir muhatabın yetkili açıklamasıyla karşılanır; connection notu soru ve rapor yapısını açıklar.",
+          "activation": "Yetkili cevap, odak fiilindeki oluşu işitilebilir ve aktarılan içeriğin sonradan verilmesiyle birleştirir.",
+          "resulting_reading": "Buradaki açıklama, olayla aynı anda hazır duran bir söz değil, öğretmenin başlatacağı aktarılmış içeriktir.",
+          "boundary": "Target kelimenin morfolojik çözümlemesi packet'te yoktur; bu, yalnızca soru-sonrası söz ilişkisini taşır."
+        },
+        {
+          "branch_ref": "root_000299/B006",
+          "facet_id": "F001",
+          "branch_gloss": "ortaya koyma ve görünür kılma",
+          "facet_statement": "Bir şey ortaya konur veya görünür hale getirilir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "18:70:9:1"
+          ],
+          "trigger_refs": [
+            "conn_9b53926f7f012324e485"
+          ],
+          "focus_return_refs": [
+            "18:70:9:1"
+          ],
+          "carrier": "أُحْدِثَ, gizli kalan anlamın daha sonra ortaya konmasına açılan taşıyıcıdır.",
+          "independent_trigger": "5:101 supplied Arabic ve connection notu, soru konusu şeylerin daha sonra disclosure ile görünür kılınmasını açıkça getirir.",
+          "activation": "Açığa çıkarma teması odak fiiline geri dönerek öğretmenin sözü yalnız söylemediğini, doğru zamanda saklı içeriği görünür kıldığını duyurur.",
+          "resulting_reading": "Rapor, meydana gelen olayın hemen ardından gelen bir açıklama değil, öğrenenin beklemesiyle görünür hale getirilen içeriktir.",
+          "boundary": "5:101'in hedef morfolojisi supplied değildir; focus verb'inin bütün disclosure kullanımlarını taşıdığı veya ilahi vahiy iddiası ileri sürülmez."
+        }
+      ],
+      "connection_refs": [
+        "conn_7169eadab6e439a77297",
+        "conn_012d09eb9e947a07954f",
+        "conn_9b53926f7f012324e485"
+      ],
+      "context_refs": [
+        "18:71",
+        "18:72",
+        "18:73",
+        "18:74",
+        "18:75",
+        "20:113",
+        "20:105",
+        "5:101"
+      ],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:regulated-questioning",
+      "origin_candidate_id": null,
+      "represented_candidate_ids": [],
+      "title": "Sorunun bilgi sınırı içinde ertelenmesi",
+      "claim": "Odak ayetteki تَسْأَلْنِى, daha geniş ayetlerde bilgi sahibi olunmayan veya açıklanması ağır sonuç doğuracak şeyler hakkında soru sorma sınırıyla temas ederek yasağı soru sormanın özüne değil, açıklama gelmeden önceki zamana bağlar.",
+      "mechanism": "18:70:5:1 soru taşıyıcısı 11:46, 5:101 ve 17:36 bağlantılarındaki soru-bilgi-açıklama sınırlarına geri döner. Bu ortak temas, indefinite prohibition'ı her türlü inquiry yasağı olmaktan çıkarıp, yetkili açıklama gelene kadar süren bir epistemik zamanlama olarak yeniden çerçeveler.",
+      "reader_payoff": "Okur, emri soruya kapalı bir duvar olarak değil, bilginin yetkili kaynaktan ve doğru zamanda alınmasını isteyen bir bekleme düzeni olarak okuyabilir.",
+      "containment": "Bağlantı hedeflerinin exact Arabic'i supplied olsa da hedef morfolojisi ve lexical analysis yoktur; bu nedenle bulgu qualified'dır. Bütün soruların serbest olduğu veya 18:78'in kesin cevap anı olduğu ileri sürülmez.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": [],
+        "reason": "Odak taşıyıcısı exact surface evidence ile sabittir; üç connection kaydı hedef Arabic ve ilişki notu sağlar, fakat ayrı bir trust etiketi veya hedef morfoloji sağlamaz."
+      },
+      "support_ids": [],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000661/B001",
+          "facet_id": "F001",
+          "branch_gloss": "bilgi sormak veya bir şey istemek",
+          "facet_statement": "Bir muhataba yönelip bilgi edinmeye veya bir şeyi elde etmeye çalışma eylemini bildirir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "18:70:5:1"
+          ],
+          "trigger_refs": [
+            "conn_905cd78cff456e92159a",
+            "conn_9b53926f7f012324e485",
+            "conn_75dfed3bc43676538679"
+          ],
+          "focus_return_refs": [
+            "18:70:5:1"
+          ],
+          "carrier": "تَسْأَلْنِى, odak ayetinde öğretmene yöneltilen bilgi isteme ve soru eylemini taşır.",
+          "independent_trigger": "11:46 bilginin bulunmadığı konuda soru sormayı, 5:101 açıklanınca ağırlaşabilecek şeyleri sormayı, 17:36 ise bilgi olmayan şeyi izlemeyi sınırlar.",
+          "activation": "Üç wider sınır aynı soru taşıyıcısına geri dönerek odak ayetindeki yasağın soru sorma yetisinin kendisinden çok, bilgi ve açıklama öncesindeki zamana ilişkin olduğunu gösterir.",
+          "resulting_reading": "Soru, öğretmenin açıklama eşiğine kadar ertelenir; inquiry relation korunurken erken talep askıya alınır.",
+          "boundary": "Bu temas odak ayetindeki prohibition'ı genel izin veya genel yasak olarak çözmez; hedef ayetlerin morfolojik ayrıntıları supplied değildir."
+        }
+      ],
+      "connection_refs": [
+        "conn_905cd78cff456e92159a",
+        "conn_9b53926f7f012324e485",
+        "conn_75dfed3bc43676538679"
+      ],
+      "context_refs": [
+        "11:46",
+        "5:101",
+        "17:36"
+      ],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:reminder-as-produced-report",
+      "origin_candidate_id": null,
+      "represented_candidate_ids": [],
+      "title": "Sözün hatırlatıcı olarak üretilmesi",
+      "claim": "Odak ذِكْرًا kelimesinin sözle anma anlamı korunurken, 20:113'teki يُحْدِثُ لَهُمْ ذِكْرًا teması onu üretilen bir hatırlatıcı ve yönlendirici açıklama olarak da duyurur.",
+      "mechanism": "18:70:12:1 taşıyıcısı root_000516/B009'un hatırlatma çekirdeğine temas eder; conn_7169eadab6e439a77297, 20:113'te oluş ile ذِكْرًا arasındaki exact surface ilişkiyi ve instruction notunu sağlar. Böylece odaktaki üretilmiş söz, yalnızca adlandırma değil, anlayışı yeniden yönelten bir reminder işlevi kazanır.",
+      "reader_payoff": "Okur, öğretmenin daha sonra söyleyeceği şeyi yalnız bilgi aktarımı değil, yaşanan olayın anlamını hatırlatıp düzenleyen bir söz olarak da işitebilir.",
+      "containment": "B009 dalı reframed durumdadır ve hedef ayetin morfolojisi supplied değildir; bu exploratory temas, odak ayetinde kutsal kitap veya ilahi vahiy kullanımı iddia etmez ve sözle anma primary reading'ini kaldırmaz.",
+      "epistemic": {
+        "status": "exploratory",
+        "source_trust": [],
+        "reason": "20:113 bağlantısı exact Arabic ve orta düzey bir relation note verir; focus branch kaydı reframed, hedef lexical analysis ise supplied değildir."
+      },
+      "support_ids": [],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000516/B009",
+          "facet_id": "F001",
+          "branch_gloss": "hatırlatma, hatırlamayı sağlayan araç ve sıkça anma",
+          "facet_statement": "Bir başkasında veya kişinin kendisinde unutulmuş bilginin yeniden hatırlanmasını sağlar.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "18:70:12:1"
+          ],
+          "trigger_refs": [
+            "conn_7169eadab6e439a77297"
+          ],
+          "focus_return_refs": [
+            "18:70:12:1"
+          ],
+          "carrier": "ذِكْرًا, odak ayetinde öğretmenin meydana getireceği sözle anmayı taşır.",
+          "independent_trigger": "20:113 supplied Arabic, يُحْدِثُ لَهُمْ ذِكْرًا ile meydana getirilen ذِكْرًا'yı hatırlatma işlevine bağlar.",
+          "activation": "Üretilen hatırlatma teması focus kelimesine dönerek daha sonra verilecek sözün olayın anlamını yeniden hatırlatan bir araç olabileceğini açar.",
+          "resulting_reading": "ذِكْرًا, öğretmenin zamanını ayırdığı söz olarak kalırken, bu sözün öğrenenin anlayışını yeniden kuran hatırlatıcı işlevi de görünür olur.",
+          "boundary": "Bu analogical/global temas focus kelimesinin vahiy veya kutsal kitap anlamını etkinleştirmez; target morphology supplied olmadığı için exploratory kalır."
+        }
+      ],
+      "connection_refs": [
+        "conn_7169eadab6e439a77297"
+      ],
+      "context_refs": [
+        "20:113"
+      ],
+      "semantic_obligation_refs": []
+    }
+  ],
+  "friction_notes": [
+    "Global connection hedefleri exact Arabic ve ilişki notlarıyla geliyor, fakat hedef morfoloji ve lexical analysis çoğunlukla supplied değil; bu temaslara dayanan bulgular qualified veya exploratory tutuldu.",
+    "Yedi legacy_unbound HFT summary kaydında exact activation trace, context ayah, word index, root, attributed role ve focus return bulunmadığı için aday-özgü HFT iddiaları reject edildi.",
+    "18:78-82 geriye dönük reader-walk desteği summary-level ve citable değil; strict until-clause fulfillment kurmadan exploratory bulgu olarak korundu.",
+    "Packet'te ayrı typed semantic_obligations veya required_branch_facets bulunmadı; bu nedenle obligation ve facet exclusion dizileri boş bırakıldı.",
+    "Global packet'te selected_context_units boş; geniş ayetler yalnızca packet içindeki connection kayıtları ve açıkça adlandırılmış reader-walk bağlamları kadar kullanıldı."
+  ]
+}

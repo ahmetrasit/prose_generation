@@ -1,0 +1,426 @@
+{
+  "schema_version": "commentary-v5-scope-discovery-v1",
+  "ayah_ref": "18:74",
+  "lane": "global",
+  "coverage_complete": true,
+  "candidate_decisions": [
+    {
+      "candidate_id": "cand_83b389f7876f5c624dd3",
+      "decision": "narrow",
+      "reason": "Kaynak, Musa'nın görünür hayat-karşılığı ölçüsünün sonraki gizli gelecek bilgisi karşısında bütünüyle kuşatıcı olmadığını destekliyor; ancak ش ي ء/B001 için açılan iki kök dalı kaydı çözümlenmemiş, kayıtlı odak taşıyıcısı, dal faseti veya HFT koordinatı sağlamıyor. Bu iki dal dışarıda bırakılarak bilgisel sınır çekirdeği korunuyor.",
+      "finding_refs": ["global:visible-knowledge-boundary"],
+      "branch_exclusions": [
+        {
+          "branch_ref": "root_000831/B001",
+          "reason": "Dal kaydı unresolved durumda; odakta kayıtlı occurrence, gloss veya facet yok ve destek metni exact context coordinate, attributed role ya da focus return sağlamıyor."
+        },
+        {
+          "branch_ref": "root_000832/B001",
+          "reason": "Dal kaydı unresolved durumda; odakta kayıtlı occurrence, gloss veya facet yok ve destek metni exact context coordinate, attributed role ya da focus return sağlamıyor."
+        }
+      ],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_1de92f2ca366b3bcabc7",
+      "decision": "represented",
+      "reason": "18:80–81'in gizli geleceğinin Musa'nın protestosunu korurken görünür hayat-karşılığı simetrisini aşması, global:visible-knowledge-boundary bulgusundaki aynı bağlamsal çekirdeği taşır.",
+      "finding_refs": ["global:visible-knowledge-boundary"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_82cdffa76c60910a7d4a",
+      "decision": "accept",
+      "reason": "Güven derecesi legacy_unbound olsa da destek, odak نُّكْرًا sözcüğündeki üç kayıtlı dalı ve görünür korkunçluk ile tanıyamama arasındaki ilişkiyi açıkça adlandırıyor. 18:78–79'un ertelenmiş açıklama ve sonradan açılan koruyucu neden teması bu dalları birbirinden bağımsız biçimde tetikliyor; adayın bütün branch_refs'i bulguya taşınıyor.",
+      "finding_refs": ["global:unrecognized-horror"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_87cd746d6ef7816ef0af",
+      "decision": "represented",
+      "reason": "18:78–79'daki tanıma katmanı ve korkunç görünen müdahalenin sonradan koruyucu bir nedene açılması, global:unrecognized-horror içindeki tanınmama ve görünür dehşet ilişkisinin exact semantik tekrarıdır.",
+      "finding_refs": ["global:unrecognized-horror"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_604532a0e22a3b4e3320",
+      "decision": "reject",
+      "reason": "Legacy_unbound HFT kaydının anchor_refs ve branch_refs alanları boş, destek kaydının anchor_evidence alanı da boş. Odak protestosunu bilgisel olarak konumlandıran özet, exact context coordinate, root, attributed role ve focus-return contact sağlamadığı için HFT kuralıyla tutulamaz.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_5f2a3a182b7049ef28bb",
+      "decision": "reject",
+      "reason": "HFT özeti iki olay formülünde yükselme ve ölüm karşıtlığı öneriyor, fakat exact context occurrence, word index, root, attributed role veya focus-return trace vermiyor. Öneri bu packet sınırında doğrulanabilir bir HFT activation değildir.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_8790216b8eb75f1c4aee",
+      "decision": "reject",
+      "reason": "HFT özeti daha sonraki hesabın öldürmeyi gelecekteki aile zararının önlenmesi olarak yeniden çerçevelediğini söylüyor; ancak kayıt exact context coordinate, root, attributed role ve focus-return contact içermiyor. Bu nedenle bağlamsal çıkarım attributed HFT evidence olarak tutulamaz.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_5a44b79cedb13ff54a9e",
+      "decision": "reject",
+      "reason": "Tekrarlanan saflık diline dair HFT özeti exact carrier, context coordinate, root, attributed role veya focus return sağlamıyor. Saflık ve replacement ilişkisi, bu kaydın unanchored özetinden bağımsız bir activation olarak kurulamaz.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_487a97ef11422c0a92fc",
+      "decision": "reject",
+      "reason": "Yetimlerin ve saklı değerin olgunluğa kadar korunmasına dair HFT kaydı boş anchor_refs, branch_refs ve anchor_evidence ile geliyor. Exact coordinate, root, attributed role ve focus-return trace bulunmadığı için temporal counter-model retention eşiğini geçmiyor.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_01e2e983c6aa66ed6fe5",
+      "decision": "reject",
+      "reason": "Final private-command denialın بِغَيْرِ نَفْسٍ ölçüsüne ne kadar cevap verdiğini soran HFT kaydı exact carrier, context coordinate, root, attributed role veya focus return içermiyor. Bu nedenle cause ve authorization ilişkisi retained HFT activation sayılamaz.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_1ef12687bcaeb0488e5d",
+      "decision": "reject",
+      "reason": "The HFT what_was_special record combines present purity, reciprocal-life wording, future harm and replacement but supplies no exact carrier, trigger coordinate, root, attributed role or focus return. Its named 18:80–81 context is therefore excluded as unlanded HFT evidence.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [
+        {
+          "context_ref": "18:80",
+          "reason": "Ayah yalnızca unanchored HFT payload içinde adlandırılıyor; exact context occurrence ve focus-return trace yok."
+        },
+        {
+          "context_ref": "18:81",
+          "reason": "Ayah yalnızca unanchored HFT payload içinde adlandırılıyor; exact context occurrence ve focus-return trace yok."
+        }
+      ],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_0e1f0ef54bf791ff78a4",
+      "decision": "reject",
+      "reason": "خشية'nin risk dili mi yoksa gözlemcinin erişemediği kesinlik mi olduğu sorusu, exact context occurrence, root, attributed role veya focus-return trace taşıyan bir activation değil. HFT belirsizliği bu nedenle ayrı bir finding olarak tutulamaz.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_73f04dad79e40eba0f20",
+      "decision": "reject",
+      "reason": "Olay formüllerinin gerçek bir escalation mı yoksa anlatı tekrarı mı olduğu sorusu exact carrier, trigger coordinate, root, attributed role ve focus return sağlamıyor; yalnızca çözülmemiş HFT belirsizliği olarak kalıyor.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_4f6170cf816077c8dbda",
+      "decision": "reject",
+      "reason": "Saflık tekrarının operative rationale mı yoksa sonraki sonucu teselli eden bir tanım mı olduğu HFT kaydında exact coordinate, root, attributed role veya focus-return contact ile kurulmamış. İki okuma da unanchored summary sınırında kalıyor.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_fef69cb4deb8f245925e",
+      "decision": "reject",
+      "reason": "How far the final private-command denial answers the legal force of بِغَيْرِ نَفْسٍ is stated only as an unanchored HFT uncertainty; no exact carrier, context coordinate, root, attributed role or focus return is supplied.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_a96daaab7e302d882c56",
+      "decision": "reject",
+      "reason": "Patience-retaliation ve blood-money-substitution outlier'larına dair HFT kaydı exact coordinate, root, attributed role veya focus-return trace sağlamıyor. Branch-distant öneriler bu packet'te activation eşiğini geçmiyor.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    }
+  ],
+  "findings": [
+    {
+      "finding_ref": "global:visible-knowledge-boundary",
+      "origin_candidate_id": "cand_83b389f7876f5c624dd3",
+      "represented_candidate_ids": ["cand_1de92f2ca366b3bcabc7"],
+      "title": "Görünür hayat ölçüsü bilgisel sınıra açılır",
+      "claim": "Musa'nın بِغَيْرِ نَفْسٍ ile kurduğu hayat-karşılığı ölçüsü, görünür sahnede ahlaken ve hukuken güçlü bir protesto olarak kalırken, 18:80–81'in verdiği gelecek bilgisi karşısında olayın bütün nedensel alanını kuşatmadığını da görünür kılar.",
+      "mechanism": "Odaktaki نَفْسًا زَكِيَّةً بِغَيْرِ نَفْسٍ ifadesi, masum görünen bir canın başka bir cana karşılık olmadan alınamayacağı ölçüsünü taşır. 5:32, 2:178, 5:45, 6:151 ve 17:33 bağlantıları aynı right-condition ve life-for-life çerçevesini bağımsız olarak geri getirirken 2:72 gizli bir öldürmenin sonradan açığa çıkarılmasını gösterir; 18:80–81 ise görünür hükmün bilmediği gelecek aile zararını ve replacement bilgisini sağlar. Temas, protestoyu iptal etmeden onu mevcut kanıtla sınırlı bir hüküm olarak yeniden okutur.",
+      "reader_payoff": "Okur, Musa'nın sözünü yalnızca duygusal bir itiraz ya da eksiksiz son hüküm olarak değil, gerçek bir hayat ölçüsünü kullanan ve yine de görünür bilgiyle sınırlı kalan bir protesto olarak görebilir.",
+      "containment": "Odaktaki öldürme itirazı, saflık nitelemesi ve karşılık şartı korunur. Gelecek bilgisi görünür hukuk ölçüsünü geçersiz kılmaz; bu bulgu gizli gerekçenin otomatik bir aklanma veya insanî hükmün yanlışlığı olduğuna karar vermez.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": ["legacy_unbound"],
+        "reason": "Bağlamsal çekirdek legacy_unbound reader kayıtlarından gelir; life-for-life dönüşlerini taşıyan connection kayıtları exact hedef Arabic sağlar fakat hedef morfolojisini vermez. Bu nedenle ilişki nitelikli tutulur."
+      },
+      "support_ids": ["sup_11c87460e01bfe681ba8", "sup_a6c4511bba49564ae442"],
+      "branch_activations": [],
+      "connection_refs": [
+        "conn_6eac5d8501513278e779",
+        "conn_016fb533dc10f8d7fbfa",
+        "conn_23871247127754aa4d97",
+        "conn_f71f82232914ad9b93b3",
+        "conn_7d7c148af11dec673a38",
+        "conn_93f591e42e4a8f0465c9"
+      ],
+      "context_refs": ["18:80", "18:81", "5:32", "2:178", "5:45", "6:151", "17:33", "2:72"],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:unrecognized-horror",
+      "origin_candidate_id": "cand_82cdffa76c60910a7d4a",
+      "represented_candidate_ids": ["cand_87cd746d6ef7816ef0af"],
+      "title": "Korkunçluk tanıyamama ile birleşir",
+      "claim": "نُّكْرًا, öldürme ve saflık karşılığı arasındaki görünür asimetrinin hem ağır ve yadırgatıcı bir iş hem de henüz tanınamayan, aklen ve ahlaken reddedilen bir eylem olarak duyulmasına izin verir.",
+      "mechanism": "Odak occurrence'ı 18:74:16:1'deki نُّكْرًا taşıyıcısı, tanımama, çetinlik ve reddedilen eylem için kayıtlı üç kök dalına döner. 18:74:9:1, 18:74:10:1 ve 18:74:11:2'deki can, saflık ve karşılık yokluğu ilişkisi görünür şoku kurar; 18:78–79 açıklamanın ertelenmesini ve daha önce korkunç görünen müdahalenin sonradan koruyucu bir nedensel yay kazanmasını getirir. 19:27 ve 19:89 bağlantıları da aynı ağır itham biçimini bağımsız olarak geri döndürür; böylece nükür, korkuyu silmeden eksik tanımayı da görünür kılar.",
+      "reader_payoff": "Okur, son hüküm sözcüğünü yalnızca 'kötü' diye kapatmak yerine, görünen olayın dehşeti ile onun henüz tam tanınmamış olması arasındaki gerilimi birlikte işitebilir.",
+      "containment": "Bu bulgu Musa'nın ahlaki protestosunu aklamaz veya gizli açıklamayı görünür hükmün yerine koymaz. Uyanıklık, bedensel akıntı, çatışma ve başka ن ك ر dalları etkinleştirilmez; yalnızca adayın taşıdığı F001 ve F002 yüzleri korunur.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": ["legacy_unbound"],
+        "reason": "Odak dalları kayıtlı ve destek metni bunları doğrudan aday claim'ine bağlıyor; reader walk legacy_unbound, bağlantı hedeflerinde ise hedef morfolojisi yok. Bu yüzden tanıma ve dehşet sentezi nitelikli bir global resonance olarak tutuluyor."
+      },
+      "support_ids": ["sup_e300519a2791c0c5be7e", "sup_d5fc667959275c477e1b"],
+      "branch_activations": [
+        {
+          "branch_ref": "root_001550/B001",
+          "facet_id": "F001",
+          "branch_gloss": "tanımama ve tanınmış saymama",
+          "facet_statement": "Bir şeyi veya kişiyi bilmemek, zihnen benimsememek ya da sözle kabul etmemek.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["18:74:16:1"],
+          "trigger_refs": ["18:74:9:1", "18:74:10:1", "18:74:11:2", "18:78", "18:79", "conn_0e54a824ccb089505bda", "conn_a003a1994f5f1b90b952"],
+          "focus_return_refs": ["18:74:16:1"],
+          "carrier": "نُّكْرًا, odaktaki hüküm sözcüğü olarak eylemi zihnen veya sözle kabul etmeme basıncını taşır.",
+          "independent_trigger": "18:78'de açıklamanın ertelenmesi, 18:79'da önceki olayın sonradan koruyucu bir nedensel çerçeve kazanması ve 19:27 ile 19:89'daki ağır itham biçimleri, görünen eylemin henüz bütünüyle tanınmadığını tetikler.",
+          "activation": "Tanımama taşıyıcısı, saflık ve karşılık yokluğu ile kurulan görünür asimetriye ve sonradan gelen açıklama basıncına değdiğinde, korkunç görünen eylem aynı zamanda bilgi sınırı içinde verilmiş bir yargı olarak duyulur.",
+          "resulting_reading": "نُّكْرًا, eylemin reddedilişini korurken onun görünür kanıtla henüz tam tanınmamış olmasını da açar.",
+          "boundary": "Bu, eylemin ahlaki olarak kabul edildiği veya görünür protestonun yanlışlandığı anlamına gelmez; yalnızca tanımanın eksik kapsamını ekler."
+        },
+        {
+          "branch_ref": "root_001550/B001",
+          "facet_id": "F002",
+          "branch_gloss": "tanımama ve tanınmış saymama",
+          "facet_statement": "Tanınan ve belirli olanın karşıtı olarak tanınmayan ya da belirsiz olan.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["18:74:16:1"],
+          "trigger_refs": ["18:74:9:1", "18:74:10:1", "18:74:11:2", "18:78", "18:79", "conn_0e54a824ccb089505bda", "conn_a003a1994f5f1b90b952"],
+          "focus_return_refs": ["18:74:16:1"],
+          "carrier": "نُّكْرًا, eylemi yalnızca ağır değil, tanınan ve belirli bir çerçeveye henüz yerleşmemiş olarak duyuran odak hüküm sözcüğüdür.",
+          "independent_trigger": "Gecikmiş açıklama ve önceki olayın sonradan açılan nedeni, görünür hüküm ile belirlenmemiş nedensel alan arasındaki bağımsız karşıtlığı kurar.",
+          "activation": "Belirsiz sayılma yüzü, Musa'nın gördüğü tekil ölüm sahnesi ile daha sonra verilen geniş gelecek bilgisi arasında temas kurar.",
+          "resulting_reading": "Eylem, tanınmış bir olgu olarak değil, anlamı sonradan genişleyebilecek belirsiz bir olay olarak da görünür.",
+          "boundary": "Belirsizlik, hukuki ve ahlaki protestonun ortadan kalkması değildir; yalnızca ilk görünüşün nedensel olarak eksik olduğunu söyler."
+        },
+        {
+          "branch_ref": "root_001550/B003",
+          "facet_id": "F001",
+          "branch_gloss": "çetin ve yadırgatıcı durum",
+          "facet_statement": "Bir işin veya olayın çetin, ağır ve gerçekleştirilmesi güç olması.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["18:74:16:1"],
+          "trigger_refs": ["18:74:6:2", "18:74:9:1", "18:74:10:1", "18:78", "18:79", "conn_0e54a824ccb089505bda", "conn_a003a1994f5f1b90b952"],
+          "focus_return_refs": ["18:74:16:1"],
+          "carrier": "نُّكْرًا, öldürme sahnesinin ağır ve taşınması güç olay niteliğini taşıyan hüküm sözcüğüdür.",
+          "independent_trigger": "Bir canın alınması, saf olarak nitelenmesi ve karşılık yokluğu ile kurulan sabit görünür asimetri; 18:78–79'un açıklama öncesi ve sonrası karşıtlığıyla temas eder.",
+          "activation": "Çetinlik taşıyıcısı, eylemin yalnızca yanlış olarak değil, açıklaması geciken ağır bir olay olarak algılanmasını sağlar.",
+          "resulting_reading": "نُّكْرًا, Musa'nın protestosunun olayın ağırlığını ve açıklanmamış zorluğunu birlikte taşımasına izin verir.",
+          "boundary": "Çetinlik, gizli gerekçenin doğruluğunu veya eylemin aklanmasını ilan etmez; yalnızca görünen olayın yükünü artırır."
+        },
+        {
+          "branch_ref": "root_001550/B003",
+          "facet_id": "F002",
+          "branch_gloss": "çetin ve yadırgatıcı durum",
+          "facet_statement": "Çetinliğin, bilinmezlik veya alışılmadık ve yadırgatıcı görünme yönüyle anlatılması.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["18:74:16:1"],
+          "trigger_refs": ["18:74:6:2", "18:74:9:1", "18:74:10:1", "18:78", "18:79", "conn_0e54a824ccb089505bda", "conn_a003a1994f5f1b90b952"],
+          "focus_return_refs": ["18:74:16:1"],
+          "carrier": "نُّكْرًا, eylemin alışılmadık ve yadırgatıcı görünüşünü taşıyan son hüküm sözcüğüdür.",
+          "independent_trigger": "Görünen öldürme ile ertelenmiş açıklama arasındaki mesafe ve aynı itham kalıbının 19:27 ile 19:89'da dönmesi, alışılmadıklık basıncını bağımsızlaştırır.",
+          "activation": "Yadırgatıcı görünüş, sonradan gelecek açıklamanın ilk algıyı basitçe silmeden onu genişletmesine izin verir.",
+          "resulting_reading": "Korkunçluk, yalnız şiddetin derecesi değil, gözlemcinin henüz kavrayamadığı bir olayla karşılaşması olarak da görünür.",
+          "boundary": "Bu faset, bütün alışılmadık olayları aynı saymaz ve sonraki açıklamayı tek doğru okuma diye seçmez."
+        },
+        {
+          "branch_ref": "root_001550/B006",
+          "facet_id": "F001",
+          "branch_gloss": "çirkin bulunan eylem ve onu engelleme",
+          "facet_statement": "Sağlıklı değerlendirme yetisinin çirkin bulduğu ve geri çevrilmesi gereken eylem.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["18:74:16:1"],
+          "trigger_refs": ["18:74:6:2", "18:74:9:1", "18:74:10:1", "18:74:11:2", "19:27", "19:89", "conn_0e54a824ccb089505bda", "conn_a003a1994f5f1b90b952"],
+          "focus_return_refs": ["18:74:16:1"],
+          "carrier": "نُّكْرًا, sağlıklı değerlendirmeye göre geri çevrilmesi gereken eylemi adlandıran son moral-epistemik hükümdür.",
+          "independent_trigger": "Öldürme, saf can ve karşılık yokluğu arasındaki visible legal asymmetry ile 19:27 ve 19:89'daki kamusal dehşet/itham formülleri, reddedilen eylem yüzünü tetikler.",
+          "activation": "Reddedilen eylem taşıyıcısı, 18:78–79'un açıklama gecikmesiyle temas ettiğinde, protestonun ahlaki kuvveti korunur ve buna bilgi sınırı eklenir.",
+          "resulting_reading": "نُّكْرًا, Musa'nın eylemi yalnız korkunç bulmadığını, aklen ve ahlaken geri çevrilecek bir iş saydığını görünür kılar; sonradan gelen açıklama bu protestoyu yok etmez.",
+          "boundary": "Engelleme veya caydırma eyleminin kendisi, ses üstünlüğü ve diğer B006 yüzleri bu odak activation'ına yüklenmez."
+        }
+      ],
+      "connection_refs": ["conn_0e54a824ccb089505bda", "conn_a003a1994f5f1b90b952"],
+      "context_refs": ["18:78", "18:79", "19:27", "19:89"],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:prior-killing-memory",
+      "origin_candidate_id": null,
+      "represented_candidate_ids": [],
+      "title": "İtiraz, önceki can alma hafızasına döner",
+      "claim": "Musa'nın odaktaki öldürme itirazı, kendi önceki can alma ve bunun ardından gelen pişmanlık, kaçış ve karşılık korkusu sahneleriyle temas ederek hayat ölçüsünü kişisel bir hafızaya da bağlar.",
+      "mechanism": "18:74:8:2'deki أَقَتَلْتَ taşıyıcısı can alma eylemini soruya çevirir; 28:15'teki önceki öldürme ve pişmanlık, 28:19'daki doğrudan suçlama, 20:40'taki kurtarılma hattı ve 28:33'teki karşılık korkusu aynı taşıyıcıya bağımsız bağlam tetikleri olarak döner. Böylece odak sorusu soyut bir hukuk cümlesi olmaktan çıkmadan, Musa'nın kendi geçmişinin can alma temasını yeniden açar.",
+      "reader_payoff": "Okur, protestodaki hayat hassasiyetini yalnız dışarıdan uygulanmış bir norm olarak değil, Musa'nın kendi geçmişiyle gerilim kuran yaşanmış bir ölçü olarak da algılar.",
+      "containment": "Bu bağlantı iki öldürme olayını özdeşleştirmez, Musa'yı aynı fail konumunda yeniden yargılamaz ve odaktaki oğlan olayına geçmiş sahnelerden yeni bir neden eklemez.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": [],
+        "reason": "Odak carrier ve branch kaydı doğrudan supplied; wider context relation'ları exact target Arabic içeren connection kayıtlarından geliyor, fakat hedef morfolojisi packet'te yok."
+      },
+      "support_ids": [],
+      "branch_activations": [
+        {
+          "branch_ref": "root_001200/B001",
+          "facet_id": "F001",
+          "branch_gloss": "canını alarak öldürme",
+          "facet_statement": "Bir canlının yaşamını sona erdirip canını bedeninden ayırma eylemidir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["18:74:8:2"],
+          "trigger_refs": ["18:74:6:2", "conn_f3fc14e7346e4153b603", "conn_5c77e014d3580e1c592e", "conn_171c8d93a57a598abdea", "conn_80f43be59cd221a62088"],
+          "focus_return_refs": ["18:74:8:2"],
+          "carrier": "أَقَتَلْتَ, odakta gerçekleşmiş bir can alma eylemini Musa'nın doğrudan muhataba yönelttiği sorunun taşıyıcısıdır.",
+          "independent_trigger": "28:15, 28:19, 20:40 ve 28:33'te Musa'nın önceki öldürme, pişmanlık, suçlanma, kurtarılma ve karşılık korkusu sahneleri aynı can alma alanını geri getirir.",
+          "activation": "Odak taşıyıcısı önceki kişisel can alma izleriyle temas edince, soru yalnız olayın dış ölçüsünü değil, Musa'nın kendi geçmişiyle yüzleşen bir hassasiyeti de taşır.",
+          "resulting_reading": "Musa'nın 'öldürdün mü?' sorusu, hayatın korunmasına dair ölçüyü kendi geçmişinden bağımsız olmayan bir tanıklık olarak görünür kılar.",
+          "boundary": "Geçmiş öldürme sahneleri bu olayın gizli gerekçesi değildir; yalnızca odaktaki öldürme sözcüğünün biyografik karşılığını genişletir."
+        }
+      ],
+      "connection_refs": ["conn_f3fc14e7346e4153b603", "conn_5c77e014d3580e1c592e", "conn_171c8d93a57a598abdea", "conn_80f43be59cd221a62088"],
+      "context_refs": ["28:15", "28:19", "20:40", "28:33"],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:youth-inviolability",
+      "origin_candidate_id": null,
+      "represented_candidate_ids": [],
+      "title": "Oğlan sözü korunma sınırını keskinleştirir",
+      "claim": "Odaktaki غُلَٰمًا, yalnızca olayda karşılaşılan kişi değil, çocukluk ve delikanlılık eşiğiyle birlikte görülen savunmasız bir taşıyıcıdır; daha geniş çocuk öldürme yasakları bu taşıyıcıyı geleceğe dair sıradan hesapların karşısına koyar.",
+      "mechanism": "18:74:5:1'deki غُلَٰمًا, oğlan veya delikanlı dalının yaş ve kişi çekirdeğini taşır; 18:74:6:2'deki öldürme fiili onun bağımsız tetikleyicisidir. 17:31 yoksulluk korkusuyla çocuk öldürmeyi, 6:137 ve 6:140 çocukların öldürülmesini yanlış hesap ve cehaletle ilişkilendirir; 81:9 ise görünürde suçsuz bir çocuğun neden öldürüldüğünü sorar. Bu temas, odaktaki genç kişinin geleceğe dair sıradan yarar hesabıyla feda edilemeyecek bir hayat olarak görünürlüğünü artırır.",
+      "reader_payoff": "Okur, oğlan kelimesinin olayın ahlaki ağırlığını nasıl somutlaştırdığını ve geleceğe dönük bir gerekçenin mevcut savunmasızlığı neden kendiliğinden ortadan kaldırmadığını görür.",
+      "containment": "Bu, odaktaki olayın sıradan yoksulluk korkusuyla işlendiğini söylemez; sonraki açıklamanın özel gelecek bilgisini de bu bağlantılardan türetmez. Yalnızca genç hayatın korunma yönündeki geniş karşı basıncı korunur.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": [],
+        "reason": "Odak oğlan branch'i ve focus morphology supplied; wider child-protection returns exact connection Arabic ve relation notes ile geliyor, fakat hedef morfolojisi supplied değil."
+      },
+      "support_ids": [],
+      "branch_activations": [
+        {
+          "branch_ref": "root_001103/B001",
+          "facet_id": "F001",
+          "branch_gloss": "oğlan veya delikanlı",
+          "facet_statement": "Temel kişi anlamı, erkek çocuk ile bıyığı yeni çıkmaya başlayan genç erkek arasındaki delikanlılık evresine yöneliktir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["18:74:5:1"],
+          "trigger_refs": ["18:74:6:2", "conn_9ca6f3d9e56fb92e673d", "conn_655240321381325dd89a", "conn_378761eda0aaf3bc5017", "conn_7945725d2e6b30a5cb0a"],
+          "focus_return_refs": ["18:74:5:1"],
+          "carrier": "غُلَٰمًا, karşılaşılan kişiyi erkek çocuk ile delikanlılık eşiği arasındaki gençlik alanında taşıyan odak ismidir.",
+          "independent_trigger": "Öldürme fiili ile 17:31, 6:137, 6:140 ve 81:9'daki çocuk hayatının korunması ve açıklama talebi, gençlik taşıyıcısına bağımsız bir inviolability karşı basıncı verir.",
+          "activation": "Genç kişi taşıyıcısı çocukların öldürülmesine dair daha geniş yasak ve itirazlarla temas edince, odaktaki öldürme sahnesi savunmasız bir yaşamın korunması sınırına çarpar.",
+          "resulting_reading": "غُلَٰمًا, olayın ahlaki dehşetini yalnız ölüm eyleminden değil, alınan canın gençlik ve korunma ufkundan da kurar.",
+          "boundary": "Bu bağlantı oğlanı belirli bir yaşa sabitlemez, odak olayını sıradan çocuk öldürme vakası ilan etmez ve gizli gelecek gerekçesini çözmez."
+        }
+      ],
+      "connection_refs": ["conn_9ca6f3d9e56fb92e673d", "conn_655240321381325dd89a", "conn_378761eda0aaf3bc5017", "conn_7945725d2e6b30a5cb0a"],
+      "context_refs": ["17:31", "6:137", "6:140", "81:9"],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:purity-counterweight",
+      "origin_candidate_id": null,
+      "represented_candidate_ids": [],
+      "title": "Saflık, hükmün karşı ağırlığı olarak kalır",
+      "claim": "زَكِيَّةً, odaktaki canı yalnız temiz bir nitelemeyle değil, ahlaki düzgünlük ve arınma yönüyle taşıyarak geniş Kur'anî saflık karşılıklarıyla temas eder; bu saflık, görünür öldürme hükmünün karşı ağırlığı olarak kalır.",
+      "mechanism": "18:74:10:1'deki زَكِيَّةً, ahlaki veya manevi bakımdan temiz ve düzgün olma dalının F001 çekirdeğini taşır. 19:19'daki saf oğlan, 24:21'deki saflık-indecency karşıtlığı, 2:232'de saflık ile insan bilgisinin sınırının birlikte anılması ve 79:18'deki arınma çağrısı bu taşıyıcıya bağımsız dönüşler sağlar. Böylece sıfat, öldürülen kişinin değerini süsleyen bir kelime olarak kalmaz; Musa'nın gördüğü hayatı yargısının merkezine yerleştiren etkin bir ölçü olur.",
+      "reader_payoff": "Okur, 'saf' nitelemesinin olayın önüne eklenmiş bir övgü değil, öldürme hükmünün neden bu kadar keskin duyulduğunu taşıyan bir karşı ağırlık olduğunu fark eder.",
+      "containment": "Saflık, gelecekteki replacement'ın daha iyi olacağını kanıtlamaz ve gizli gerekçeyi aklamaz. 79:18'in farklı biçimi ve connection hedeflerindeki eksik morfoloji, yalnız nitelikli bir lexical-context resonance olarak tutulur.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": [],
+        "reason": "Odak ز ك و branch'i ve faseti supplied; wider returns exact connection Arabic ile adlandırılıyor, fakat hedef morfolojisi bulunmadığı için saflık sentezi nitelikli tutuluyor."
+      },
+      "support_ids": [],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000637/B002",
+          "facet_id": "F001",
+          "branch_gloss": "ahlaken arınıp düzgünleşme",
+          "facet_statement": "Temel anlam, ahlaki veya manevi bakımdan temiz ve düzgün durumda olmaktır.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["18:74:10:1"],
+          "trigger_refs": ["conn_0079560fe0669fe8f549", "conn_b4131ab5cd6a1cec109b", "conn_db048e388290a0ae401f", "conn_0243aa988278c6598ab5"],
+          "focus_return_refs": ["18:74:10:1"],
+          "carrier": "زَكِيَّةً, نَفْسًا sözcüğünü ahlaki veya manevi temizlik ve düzgünlükle niteleyen odak taşıyıcısıdır.",
+          "independent_trigger": "19:19, 24:21, 2:232 ve 79:18'deki saf oğlan, saflık karşıtlığı, daha saf olan ve arınma çağrısı, aynı temizlik ve düzgünlük alanını bağımsız olarak geri getirir.",
+          "activation": "Saflık taşıyıcısı, öldürme fiili ve karşılık yokluğu ile temas ettiğinde, Musa'nın hükmü yalnız alınan canı değil, o canın ahlaki niteliğini koruma iddiasını da taşır.",
+          "resulting_reading": "زَكِيَّةً, görünür protestonun ahlaki karşı ağırlığını kurar ve gizli gelecek bilgisi gelmeden önce öldürülen canın değerini belirginleştirir.",
+          "boundary": "Bu faset yalın büyüme, mali zekât veya gelecekteki replacement anlamlarını odak kullanımına taşımaz; yalnız ahlaki temizlik çekirdeği etkinleştirilir."
+        }
+      ],
+      "connection_refs": ["conn_0079560fe0669fe8f549", "conn_b4131ab5cd6a1cec109b", "conn_db048e388290a0ae401f", "conn_0243aa988278c6598ab5"],
+      "context_refs": ["19:19", "24:21", "2:232", "79:18"],
+      "semantic_obligation_refs": []
+    }
+  ],
+  "friction_notes": [
+    "Focus word alignment complete: all 20 analysis entries resolve to QAC identities; no unresolved join remains.",
+    "cand_83b389f7876f5c624dd3 has two unresolved ش ي ء branch alternatives without a registered focus occurrence, gloss or facet. Its bounded visible-knowledge core is retained, while both unresolved branches are explicitly excluded.",
+    "All 12 assigned HFT records are legacy_unbound and report zero exact anchor coverage. Their summaries were reviewed, but none supplied the exact context coordinate, word index, root, attributed role and focus-return contact required for attributed HFT retention.",
+    "Connection records provide exact target Arabic and authored relation notes but no target morphology or independent trust label. Connection-derived activations are therefore qualified, and prior strong, medium, weak and no-value labels were not used as decisions.",
+    "The retained field is limited to focus-returning life-measure, recognition, prior-killing, youth-protection and purity relations; branch availability alone was not treated as activation."
+  ]
+}

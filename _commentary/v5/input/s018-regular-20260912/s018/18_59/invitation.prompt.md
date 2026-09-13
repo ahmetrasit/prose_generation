@@ -1,0 +1,193 @@
+# V5 reading invitation — 18:59
+
+You are a fresh reading-invitation writer. Read the complete editorial prose
+before writing. It is your sole semantic source.
+
+Write two to four paragraphs of fluent, contemporary Turkish that reveal a
+surprising reading by following one or two main channels of resonance in the
+ayah. A channel is a connected background of meanings, images, actions, or
+relations through which the ayah can be heard and understood differently.
+Several editorial findings may together develop one channel. Summarize that
+connected movement and its consequence for the ayah's main meaning, rather
+than compressing findings individually. Give the reading's substance now;
+the invitation comes from understanding it, not from a promise of hidden depth.
+
+Before drafting, read the entire editorial prose and silently select the one
+or two channels with the strongest interpretive consequence and enough
+grounding to explain clearly. Favor channels that expand or shift what the
+ayah says, the relation it establishes, or what is at stake in its action or
+image. One fully developed channel is sufficient; add a second only when it
+offers a distinct consequential reading that can be explained within the
+invitation. No finding, channel, or major shift has an individual coverage
+claim. Unselected material may remain entirely in the full commentary.
+
+A channel may develop through grammar, sound, dialogue, a material process,
+time, imagery, or a conceptual relation. Resonance is not limited to acoustic
+effects, and an unusual image alone does not establish a channel. Use only
+connections the editorial prose actually develops. If it supplies no such
+channel, explain its strongest grounded reading without inventing connections
+or surprise.
+
+Begin inside the ayah's own words, images, actions, or relations and reveal a
+selected distinctive reading in the first paragraph. Keep the plain meaning
+reachable with only the orientation needed to understand the change. Do not
+spend an opening paragraph on routine explanation or front-load context about
+the surah, the ayah's position, or the commentary project.
+
+For each selected channel, begin with the expression that opens it, unfold the
+connected background, and show how the ayah reads or sounds against that
+background. Let a detail lead into the next through an intelligible relation
+or process, so the reader experiences the emerging reading. This is a movement
+of thought, not a mandatory sentence pattern or one paragraph per finding.
+Let the reader identify the expression being interpreted,
+where any nonordinary detail comes from, and what that detail changes in the
+reading. Briefly identify the word-family use, restricted form, collocation, or
+context that supplies an essential added detail, and preserve the concrete
+operation that makes the image work. Keep the ordinary reading and necessary
+qualification clear within this explanation; do not repeat them as a fixed
+formula. Preserve the particular object, process, or relation that makes this
+reading distinctive, and state its interpretive consequence for the ayah as a
+whole. Make intelligible what the familiar reading leaves less visible and
+what the expanded or shifted reading now lets the reader understand. Preserve
+the editorial's force: an exploratory possibility remains possible, while a
+developed shift must not be softened into a decorative association or a
+reassurance that everything means the same thing. A concrete
+account of how something is carried, transformed, lost, or restored must not
+shrink to a general statement about care, guidance, dependence, or goodness.
+Keep the details needed to make the selected channel work; omit side findings
+and shorten routine setup. If a channel cannot be explained faithfully from
+the editorial prose, choose another grounded channel or reading.
+
+When a non-focus ayah supplies a contribution used in the invitation, keep its
+reference from the editorial prose beside that contribution.
+
+Do not turn the invitation into a miniature inventory of the commentary's
+conclusions, or flatten distinct channels into a broad theme to include more
+material. Do not repair, extend, or supplement the editorial prose from memory
+or outside knowledge.
+
+Omit technical apparatus. Retain any qualification, source distinction, live
+alternative, or boundary whose absence would change the force or meaning of a
+chosen reading. Express it naturally beside the image or relation it qualifies.
+Favor positive explanations of the relation between layers: what remains in
+the foreground and what the resonance makes audible in the background. State
+how that background reinforces, expands, or shifts the understanding of the
+main meaning, with the source and degree of certainty clear. Reserve explicit
+exclusions for concrete ambiguities or live counter-evidence that need them.
+Repeated "this is not X" endings make a reading sound withdrawn; express the
+substantive qualification through what the reading does contribute wherever
+possible. Use varied, natural language rather than a repeated "second layer"
+formula, and preserve the force of expansions and shifts.
+Do not name branches, candidates, findings, scopes, evidence categories,
+ledgers, or workflow stages, or label the prose as numbered channels. Do not
+list findings serially.
+
+Use the established `{ar:..., tr:..., gloss:...}` syntax, consistent
+Turkish-readable transliteration, and short ordinary glosses. Keep Arabic
+anchors beside the explanations they ground. Within a paragraph, continue with
+the Turkish meaning where clear; provide the necessary local tag when a later
+paragraph interprets the carrier anew. Do not place Arabic script outside a
+valid tag.
+
+Build transitions within a channel through its shared object, action, or
+relation. If two channels are selected, they may occupy separate paragraphs;
+do not invent a link between them. Do not praise the commentary's quality,
+promise what the reader will find, manufacture suspense, recap at the end, or
+add a call to action. End on an image, relation, action, or tension already
+established by the selected reading.
+
+Before finishing, compare the invitation with the entire editorial prose:
+does the chosen channel reveal a consequential reading, or could the text have
+been written from the ordinary translation and a modest explanation alone?
+When the editorial supports a surprising channel, the latter fails this task.
+Can the reader follow the opening expression into a connected background and
+understand how that background expands or shifts the ayah's main meaning?
+Check the selected connections against their editorial explanation: can the
+reader tell where the nonordinary details come from, with the necessary
+qualifications intact? Repair generic explanation, isolated curiosities, or a
+compressed findings list by developing the selected channel. Do not add
+omitted channels merely for coverage. Do not output this check.
+
+Write only the invitation text to:
+
+`_commentary/v5/editorial/s018-regular-20260912/s018/18_59/18_59.invitation.tr.md`
+
+Do not add a heading, wrapper label, index, ledger, evidence file, or any other
+artifact. Do not modify the editorial prose.
+
+After writing the invitation, run:
+
+```bash
+python3 _commentary/v5/validate_prose.py _commentary/v5/editorial/s018-regular-20260912/s018/18_59/18_59.invitation.tr.md
+```
+
+If validation fails, repair only the reported mechanical file-contract issues
+and rerun it, for at most two repair cycles. Report the final validator result
+in your response.
+
+<editorial_prose>
+## Gösterilen kentler
+
+Âyet, önceki uyarının (18:58) içinden ilerler. {ar:وَ, tr:wa, gloss:ve} önceki sözü kapatıp bağımsız bir hikâye açmaz; şimdi gösterilecek kentleri o uyarının önüne getirir. {ar:تِلْكَ, tr:tilka, gloss:şu} daha fiil gelmeden bilinen ve işaret edilen bir topluluğu gösterir. Bu işaretteki uzaklık fiziksel bir ölçüden çok, okurun bakışını daha önce anlatılmış ve şimdi önüne konan örneğe yönelten bir gösterme hareketidir. Ardından {ar:ٱلْقُرَىٰٓ, tr:el-kurâ, gloss:yerleşimler} belirli çoğul biçimiyle bu gösterilen sınıfın yerleşimlerden oluştuğunu bildirir. Düz anlam şudur: Bu yerleşimlerin halkı haksızlık ettiğinde yok edilmiş, onların yok oluşu için belirlenmiş bir zaman veya yer konmuştur.
+
+Bu gösterme hareketinin ardından {ar:ٱلْقُرَىٰٓ, tr:el-kurâ, gloss:yerleşimler} insanların toplandığı yerleri ve o yerlerde yaşayan topluluğu birlikte görünür kılar; kelime baştan yalnızca insanlara indirgenmeden, sonraki nesne ilişkisine zemin hazırlar. {ar:أَهْلَكْنَٰهُمْ, tr:ehleknâhum, gloss:onları yok ettik} içindeki erkek çoğul nesne zamiri, adı dişil olan yerleşimler üzerinden onların halkına yönelir. Böylece yer adı ile insan hedefi birbirine temas eder: kentler yıkımın gerçekleştiği toplu yerleşimler, zamir ise bu yerleşimlerdeki insanlar olarak kalır. Bu ilişki yerleşim kelimesini nötr bir arka plan olmaktan çıkarıp haksızlık ve yok oluşun hesap gören yerleşimler alanına taşır. Kelimenin aynı aile içinde ağırlama ve kabul çevresine açılan uzak yankısı da bu toplu düğüm görüntüsüne eşlik eder; yerleşimlerin somut anlamı metindeki taşıyıcı olarak kalır.
+
+Şimdi bu toplu sahnenin fiiline bakınca {ar:أَهْلَكْنَٰهُمْ, tr:ehleknâhum, gloss:onları yok ettik} geçmişte tamamlanmış, dışarıdan gerçekleştirilmiş bir yıkım kurar. Form IV biçimindeki birinci çoğul yapan, yok oluşu belirsizce meydana gelmiş bir sonuçtan çıkarıp açık bir failin tamamladığı eylem olarak gösterir; nesne zamiri de eylemin kentlerde temsil edilen halka yöneldiğini taşır. {ar:لَمَّا, tr:lemmâ, gloss:-dıklarında} bu eylemin zaman eşiğini kurar: haksızlık cümlesi yıkımdan kopuk bir ahlâkî yorum olarak kalmaz, yıkımın hangi olay üzerine geldiğini bildirir. Böylece “haksızlık ettiklerinde” ifadesi, sonraki yok edişe bağlanan somut bir eşik olur.
+
+Bu eşiğin içeriğini {ar:ظَلَمُوا۟, tr:zalemû, gloss:haksızlık ettiler} taşır. Ayetin açık anlamındaki ahlâkî haksızlığa, kelimenin yerinden çıkarma ve sınırı aşma yönü eşlik eder; yerleşimin düzeni olması gereken konumdan oynatılmış gibi hissedilir ve haksızlık kuru bir etiketten daha görünür hale gelir. Fiilin açık bir nesne almaması ve çoğul öznesinin önceki {ar:هُمْ, tr:hum, gloss:onlar} ile aynı topluluğa dönmesi, belirli bir mağdur seçmeden geniş bir ortak yanlış alanı açar: yanlış kendilerine, başkalarına ve ortak düzene uzanabilir. {ar:ظَلَمُوا۟, tr:zalemû, gloss:haksızlık ettiler} ile {ar:لَمَّا, tr:lemmâ, gloss:-dıklarında} ve {ar:أَهْلَكْنَٰهُمْ, tr:ehleknâhum, gloss:onları yok ettik} arasındaki bağ, kent, haksızlık ve uygulanan yıkımı aynı yerel akışta buluşturur; her kelimenin kendi dilbilgisel görevi korunurken bir yerleşim-yargı formülü belirir.
+
+Bu yıkım akışının yanına ikinci {ar:وَ, tr:wa, gloss:ve} gelir. Bağlaç, {ar:أَهْلَكْنَٰهُمْ, tr:ehleknâhum, gloss:onları yok ettik} ile {ar:جَعَلْنَا, tr:cealnâ, gloss:koyduk} fiillerini koordine ederek belirleme cümlesini sonradan iliştirilmiş bir ayrıntı olmaktan çıkarır; aynı anlatının içinde tamamlanan ikinci ilahî eylem vuruşu duyulur. İki eylem yan yana kaldıkça atama, yıkımdan kopuk bir zaman damgası değil, onun zaman çizgisini çevreleyen hareket olarak okunur.
+
+Atamanın nasıl kurulduğunu {ar:جَعَلْنَا, tr:cealnâ, gloss:koyduk} açıklar. Fiil, {ar:لِمَهْلِكِهِمْ, tr:li-mehlikihim, gloss:onların yok oluşu için} ifadesini alır ve {ar:مَّوْعِدًا, tr:mev'iden, gloss:belirlenmiş zaman veya yer} kelimesini yaptığı nesne olarak belirler; böylece genel bir “yapma”dan çok ayarlama ve atama çerçevesi kurar. {ar:لِ, tr:li, gloss:için} önce atamanın neye ilişkin olduğunu, yani yok oluş adını yönlendirir; ardından açık nesne gelir. Birinci çoğul ekin hem yok edişte hem atamada tekrarlanması, iki eylemi aynı ilahî fail çerçevesinde bir arada gösterir. Kelimenin yakın atama kullanımlarıyla duyulan söz dizimsel temas da bu yerel çerçeveyi sıkılaştırır; burada katkısı, atamanın nasıl kurulduğunu daha belirgin kılmaktır.
+
+Atamanın yöneldiği isim {ar:مَهْلِكِهِمْ, tr:mehlikihim, gloss:onların yok oluşu}dur. Sahiplik eki önceki yok edişi tutulan bir olay düğümüne çevirir; lâmın yönettiği bu isim, yıkımı soyut bir tarih olarak bırakmayıp atamanın uygulandığı alanı gösterir. {ar:مَّوْعِدًا, tr:mev'iden, gloss:belirlenmiş zaman veya yer} böylece bağımsız bir zaman zarfı gibi havada kalmaz, bu yok oluş alanına yönelir. {ar:أَهْلَكْنَٰهُمْ, tr:ehleknâhum, gloss:onları yok ettik} ile {ar:مَهْلِكِهِمْ, tr:mehlikihim, gloss:onların yok oluşu} aynı kelime ailesini duyurarak gerçekleşmiş eylem ile o eylemin düğümlendiği olay arasında sesli bir köprü kurar; fiil ile isim farklı dilbilgisel görevleri taşır. İsmin ıssız ve tehlikeli bir yok oluş yeri yönündeki uzak kullanımı da bu alana bir görüntü ekler; {ar:جَعَلْنَا, tr:cealnâ, gloss:koyduk} ile belirlenen {ar:مَّوْعِدًا, tr:mev'iden, gloss:belirlenmiş zaman veya yer} bu görüntüyü yıkım için atanmış bir alana bağlar. Böylece yerleşimlerin yıkıma doğru ilerlediği bir son alan hissedilir.
+
+Son kelime olan {ar:مَّوْعِدًا, tr:mev'iden, gloss:belirlenmiş zaman veya yer}, {ar:جَعَلْنَا, tr:cealnâ, gloss:koyduk} fiilinin yaptığı nesne olarak yok oluşun yöneldiği atanmış terim veya buluşma noktasını gösterir. {ar:لِمَهْلِكِهِمْ, tr:li-mehlikihim, gloss:onların yok oluşu için} ile çevrelendiğinde belirlenmiş sonun vaat ve tehdit alanındaki baskısı duyulur. Kelimenin belirsiz hâli zamanın ya da yerin ayrıntısını açık bırakırken tamamlanmış {ar:جَعَلْنَا, tr:cealnâ, gloss:koyduk} atamanın yapılmış olduğunu kesinleştirir. Önceki uyarıdan (18:58) bu tarihsel örneğe taşınan belirlenmiş vakit, kentleri kopuk bir hikâye olmaktan çıkarıp belirlenmiş sonucun gösterilmiş bir örneği haline getirir.
+
+## Yıkımın açtığı görüntüler
+
+Yerleşim ve halk ilişkisinden ilerleyen bir okumada {ar:ٱلْقُرَىٰٓ, tr:el-kurâ, gloss:yerleşimler} insanların bir araya geldiği ortak bedeni taşır. Bu beden, {ar:أَهْلَكْنَٰهُمْ, tr:ehleknâhum, gloss:onları yok ettik} içindeki uygulanan yıkım ve {ar:ظَلَمُوا۟, tr:zalemû, gloss:haksızlık ettiler} içindeki haksızlıkla buluştuğunda, kentler yalnızca duvarlardan oluşan yerler değil, yıkımın uygulandığı toplu bir varlık gibi görünür. {ar:ظَلَمُوا۟, tr:zalemû, gloss:haksızlık ettiler} kelimesinin hak edileni vermemek ve bir payı sürekli tutmak yönündeki uzak yankısı bu ortak bedeni bir eşiğe getirir; topluluğun bütünlüğü haksızlıkla gerilir, yıkım da onun sürekliliğinin sona ermesi olarak duyulur. Ayet belirli bir pay adlandırmadığı için görünen şey ihtiyatlı bir eşik görüntüsü olarak kalır.
+
+Bu ortak bedenin yıkıma nasıl yerleştiğini {ar:مَهْلِكِهِمْ, tr:mehlikihim, gloss:onların yok oluşu} içindeki tehlikeli, ıssız çukur veya yıkım alanı yönü açar. {ar:جَعَلْنَا, tr:cealnâ, gloss:koyduk} fiilinin durum belirleme gücü ve {ar:مَّوْعِدًا, tr:mev'iden, gloss:belirlenmiş zaman veya yer} kelimesinin zaman-yer sınırı bu görüntüyle karşılaşınca, haksızlıktan sonra gelen yıkım belirsiz bir sonuçtan yapılmış bir olay yuvasına ve atanmış bir varış noktasına doğru yoğunlaşır. Zaman yönü korunur; ayet belirli bir gecikme süresi vermez. Yer yönü de zaman katmanına eşlik ederek bir sınır duygusu ekler.
+
+Bir başka çizgide {ar:ظَلَمُوا۟, tr:zalemû, gloss:haksızlık ettiler} kelimesinin uygun zaman, yer veya koşulu bozan yönü, {ar:مَهْلِكِهِمْ, tr:mehlikihim, gloss:onların yok oluşu} içindeki tehlikeli sonla buluşur. İnsan davranışı tehlikeye maruz kalma çizgisini kurar; {ar:جَعَلْنَا, tr:cealnâ, gloss:koyduk} bu çizginin ilahî olarak belirlenen son durumunu tamamlar. Böylece bu temas, davranışın tehlikeye giriş biçimini ve ilahî yok edişin tamamladığı sonucu aynı hatta görünür kılar; yıkımın faili ilahî eylem olarak kalır. Ayet bu bağlantıda belirli bir fiziksel eylem, tek bir psikolojik yol veya gönüllü atlayış ayrıntısı belirlemez; görüntü kurulmuş tehlike çizgisinin belirlenmiş sonuyla sınırlıdır.
+
+En uzak ve biçim bakımından en ihtiyatlı yankıda {ar:مَّوْعِدًا, tr:mev'iden, gloss:belirlenmiş zaman veya yer}, {ar:لِمَهْلِكِهِمْ, tr:li-mehlikihim, gloss:onların yok oluşu için} ifadesinin taşıdığı yıkım alanıyla birleşerek atanmış zamanı ölçülmüş, uygulanmak üzere hazırlanmış ve aralıkları bilinen bir son tarih gibi duyurur. {ar:جَعَلْنَا, tr:cealnâ, gloss:koyduk} belirlenmiş bir duruma getirirken, sınır birimlerin toplamı ve bilinen aralıkların düzeni gibi hissedilir; böylece atama idari ve takvimsel bir doku kazanır. Ayetin açık bıraktığı sayı, tekrar takvimi ve maddi hazırlık aracı bu yankının kapsamını sınırlar. Gerçek bir tarih veya kesin bir varış adresi gösterilmeden, belirlenmiş sonun yöneldiği sınır görünür olur.
+
+## Bekleyen ve kapanan vakit
+
+18:58'deki hemen önceki belirlenmiş vakit bu ayetin dizilişini sıkılaştırır. {ar:ٱلْقُرَىٰٓ, tr:el-kurâ, gloss:yerleşimler} insanların toplandığı yerleşimi ve halkını birlikte taşırken, {ar:مَّوْعِدًا, tr:mev'iden, gloss:belirlenmiş zaman veya yer} bu toplu varlığa uygulanan sınırı gösterir. Böylece topluluğun haksızlıkla sorumlu hale gelmesi ile yıkımın belirlenmiş vakitte gelmesi ayrılır; kentlerin yok oluşu düz bir sebep-sonuç akışı olarak kalırken, sonucu bekleten bir sınır da kazanır. {ar:أَهْلَكْنَٰهُمْ, tr:ehleknâhum, gloss:onları yok ettik} ile {ar:مَهْلِكِهِمْ, tr:mehlikihim, gloss:onların yok oluşu} gerçekleşmiş kaybı ve onun düğümlendiği noktayı taşır; {ar:ظَلَمُوا۟, tr:zalemû, gloss:haksızlık ettiler} ile belirlenmiş vakit arasındaki temas sorumlulukla sonucun gelişini ayırır. Bu ikinci okuma, ayetin olağan “haksızlık ettiler, yok edildiler ve yıkımları için vakit kondu” anlamını tutar: belirlenmiş sınır yerel ve ayrıntısı açık bırakılmış haliyle kalır. Buradaki {ar:ظَلَمُوا۟, tr:zalemû, gloss:haksızlık ettiler} haksızlık eşiğini taşır; yakınma veya geri isteme yönü bu bağlantının kapsamına girmez.
+
+18:48'deki sıralanmış sunum, 18:58'deki merhamet ve korunma dili ile 18:59'daki kent yıkımı birlikte, sonucun sabit kaldığı bir bekleme aralığı kurar. 18:48'deki {ar:صَفًّا, tr:saffen, gloss:düz bir sıra halinde duruş} ile aynı ayetteki {ar:مَّوْعِدًا, tr:mev'iden, gloss:belirlenmiş zaman veya yer} buluştuğunda randevu, insanların karşısına çıkarıldığı düzenli bir buluşma biçimi kazanır. 18:58'deki {ar:ٱلرَّحْمَةِ, tr:er-rahme, gloss:merhamet ve şefkat} aralığın tutulmuş ve yumuşak yüzünü, {ar:ٱلْغَفُورُ, tr:el-gafûr, gloss:sonuçtan koruyarak bağışlayan} ise hemen doğacak yıkımdan korunma yönünü taşır. Böylece 18:48, 18:58 ve 18:59'daki belirlenmiş vakit; düzenli karşılaşmayı, merhametli gecikmeyi ve kentlerin yıkımını aynı yakın bekleyiş çizgisinde buluşturur.
+
+Bu bekleyişin sonu da çizilir. 18:48'de randevunun reddedilişi, 18:58'de azabın öne alınmaması ve kaçış yerinin bırakılmaması, {ar:لَعَجَّلَ, tr:le-accele, gloss:hemen öne alırdı} ifadesinin reddedilmesiyle birlikte okununca, {ar:مَّوْعِدًا, tr:mev'iden, gloss:belirlenmiş zaman veya yer} kelimesini sonu olan bir mühlet haline getirir. Bekleyiş karar yokluğundan değil, belirlenmiş vaktin korunmasından doğar. 18:58'deki {ar:ٱلرَّحْمَةِ, tr:er-rahme, gloss:merhamet ve şefkat} tutulmuş aralığın yumuşak yüzünü, {ar:ٱلْغَفُورُ, tr:el-gafûr, gloss:sonuçtan koruyarak bağışlayan} korunmayı, {ar:مَوْئِلًا, tr:mev'ilen, gloss:sığınılacak kaçış yeri} ise son geldiğinde sığınacak yer bulunmamasını görünür kılar. Böylece gecikme merhametli bir mühletin niteliğini kazanır; sonu belirlenmiş kalır ve farklı tarihsel vakitler tek bir süreye veya tek bir nedene bağlanmaz.
+
+{ar:جَعَلْنَا, tr:cealnâ, gloss:koyduk} ile {ar:مَّوْعِدًا, tr:mev'iden, gloss:belirlenmiş zaman veya yer} arasındaki temas, bu yıkımı ani bir tepki olmaktan çıkarıp atanmış bir kapanışa yerleştirir. 16:61'de zulmedenlere mühlet verilmesi ve vadenin öne alınamaması ya da ertelenememesi, 22:48'de zalim kentlerin daha sonra yakalanması, 15:5'te toplulukların kendi vadesini aşamaması ve 18:98'de yakın bir vaadin sonunda engelin kaldırılması bu bekleme ile hükmün aynı yönetilen aralıkta buluştuğunu destekler. Böylece zamanın kendisi yıkıcı bir fail gibi öne çıkmadan, haksızlığın ardından gelen yıkım belirlenmiş bir kapanış içinde görünür.
+
+Bu kapanışın kelimelerdeki sınırı da belirgindir. {ar:أَهْلَكْنَٰهُمْ, tr:ehleknâhum, gloss:onları yok ettik} tamamlanmış ve dıştan gerçekleşen yok edişi, {ar:مَهْلِكِهِمْ, tr:mehlikihim, gloss:onların yok oluşu} ise yıkımı bir olay düğümü olarak taşır. Bu kelime ailesinin çekirdeğinde varlığın kaybolması, bozulması, ölmesi veya işlevini yitirmesi; geçişli kullanımında da bir gücün başkasını bu sonuca sürüklemesi görünür. Bu bağlantı çekirdek yok oluş ve geçişli yok etme ilişkisini taşır; yer adı ve kendini tehlikeye atma yönleri burada ayrı bir sözlük eşitlemesi olarak devreye girmez.
+
+Bu çekirdek ilişkiye {ar:مَّوْعِدًا, tr:mev'iden, gloss:belirlenmiş zaman veya yer} bağlandığında kentlerin sonu hem gerçekleşmiş kayıp hem de sabitlenmiş sınır olarak okunur. 15:4'te hükme bağlanmış bir belirleme olmadan kentlerin yıkılmaması, yıkımın önceden belirlenmiş bir hükümle çerçevelendiğini gösterir. 15:5 ve 16:61'de vadenin değişmemesi, bu çerçevenin zaman bakımından sabitliğini taşır. 28:59 ile 11:102'de zulüm ve kentlerin tutulmasının yan yana gelişi, sorumluluk ile yıkım arasındaki bağı görünür kılar; 45:24'te zamanın kendisini yok edici sayan iddianın düzeltilmesi ise fail ile zaman arasındaki ayrımı korur. 18:58'deki mühletin ardından 18:60, 18:61 ve 18:62'deki yolculuk akışı da yıkımı yönsüz bir kaybolmadan çok geçilmiş bir uçta durma gibi hissettirebilir; bu, atanan vade ile yolculuk sınırının daha zayıf analogik temasını korur.
+
+18:98'deki somut vaat, aynı atanmış kapanışı başka bir yüzüyle gösterir. {ar:مَّوْعِدًا, tr:mev'iden, gloss:belirlenmiş zaman veya yer} içindeki vade, 18:98'deki koruyucu engelin vaat edilen sonunda kaldırılması gibi, gecikme ile belirlenmiş sonun iki aşamalı yönetimini görünür kılar. Bu bağlantı 18:59'daki kentleri 18:98'deki engele eşitlemeden ve her vadeyi aynı biçime taşımadan çalışır; 18:98'deki vaat edilen kaldırılış, benzerliğin dayanağı olarak kalır.
+
+## Toplu sorumluluk ve kapanan uyarı
+
+18:49'daki kayıt sahnesi, kentlerin topluca anılmasının altında tek tek görülebilen fiiller bulunduğunu açar. {ar:أَحْصَىٰهَا, tr:ahsâhâ, gloss:hepsini tek tek saydı} küçük büyük hiçbir şeyi dışarıda bırakmayan sayımı taşır; bu ayrıntı {ar:ٱلْقُرَىٰٓ, tr:el-kurâ, gloss:yerleşimler} ile {ar:أَهْلَكْنَٰهُمْ, tr:ehleknâhum, gloss:onları yok ettik} kelimelerinin toplu ölçeğine tek tek hesaplanabilir bir içerik verir. {ar:وَجَدُوا۟ مَا عَمِلُوا۟ حَاضِرًا, tr:vecedû mâ amilû hâdıran, gloss:yaptıklarını hazır buldular} ifadesi kaydı soyut bir liste olmaktan çıkarıp karşılarına çıkan eylemler haline getirir. {ar:مَا عَمِلُوا۟, tr:mâ amilû, gloss:yaptıkları işler} sorumluluğu yalnızca bir yerde bulunmaya değil, kastî eylemlere bağlar; tekrarlanan {ar:ٱلْكِتَٰبُ, tr:el-kitâb, gloss:yazılı kayıt} ise bunları düzenli ve göz önünde tutulabilir bir depoda toplar. Böylece toplu yargı ile bireysel olarak görülebilen fiiller aynı açıklamada tutulur; yıkımın sınırına keyfî bir hak yoksunluğu yerine ölçülebilir bir hak ilişkisi eklenir.
+
+18:50'deki İblîs sahnesi, {ar:ظَلَمُوا۟, tr:zalemû, gloss:haksızlık ettiler} kelimesindeki yer ve koşul bozulmasını tek bir somut ilişki içinde görünür kılar. {ar:بِئْسَ لِلظَّالِمِينَ بَدَلًا, tr:bi'se li'z-zâlimîne bedelen, gloss:haksızlar için ne kötü bir değiş tokuş} bir şeyin başka bir şeyin yerine geçirilmesini taşır. {ar:مِن دُونِي, tr:min dûnî, gloss:benden başkasını} ile {ar:أَوْلِيَاءَ, tr:evliyâe, gloss:koruyucu destek ve bağlılık} birlikte düşünüldüğünde, destek ve bağlılık doğru bağdan koparılıp düşman olarak tanıtılan İblîs ve soyuna çevrilmiş görünür. Böylece haksızlık, ilişkinin olması gereken yerden çıkarılması ve yıkıma götüren toplumsal bir düzenek olarak somutlaşır. Bu örnek haksızlığın yerinden edilmiş bağlılık yüzünü açar; başka haksızlık biçimleri kendi kapsamlarında açık kalır.
+
+Bu yanlış ilişki, uyarı karşısında adım adım kapanan bir sürece bağlanır. 18:55, 18:56 ve 18:57'nin dizilişinde haksızlık yalnızca tamamlanmış bir eylem değil, düzeltmeye erişimi daraltan bir hareket olarak görünür. 18:55'teki {ar:سُنَّةُ ٱلْأَوَّلِينَ, tr:sünnetü'l-evvelîn, gloss:öncekilerin izlenen yolu} engellenen kabulün tek anlık kalmadığını, bir topluluğu belirli bir sona taşıyan izlek olduğunu düşündürür. Aynı ayetteki {ar:مَنَعَ, tr:menea, gloss:önünü kesti} fiili, uyarıcılar geldiğinde imana ve bağışlanmaya giden yolun önündeki ilk engeli taşır; {ar:مُنذِرِينَ, tr:münzirîn, gloss:uyarıcılar} ise düzeltici işaretin bu kapanıştan önce gerçekten sunulduğunu gösterir.
+
+18:56'daki {ar:لِيُدْحِضُوا۟ بِهِ ٱلْحَقَّ, tr:li-yudhidû bihi'l-hakk, gloss:hakikati onunla düşürmeye çalışmaları} ifadesi, karşı çıkışın bir iddiayı yerinden düşürme çabasını taşır. 18:57'deki {ar:فَأَعْرَضَ, tr:fe-a'rada, gloss:yüz çevirdi} hatırlatmanın ardından yönünü bilinçli biçimde değiştiren bir geri çekilmeyi gösterir. Kalpler üzerine konan {ar:أَكِنَّةً, tr:ekinneh, gloss:örtüler} anlayışa geçişi örten koruyucu kabuğu, kulaklardaki {ar:وَقْرًا, tr:vakran, gloss:işitmeye ağırlık} ise işitme kanalını ağırlaştıran katmanı ekler. Kalbin örtülmesiyle kulağın ağırlaşması, kabul yolunun iki ayrı kanaldan daralmasını görünür kılar. 18:55, 18:56 ve 18:57'deki engelleme, hakikati düşürme ve işitme-kavrama kapanışı böylece 18:59'daki olağan haksızlık-yıkım-vakit sırasına geri döner; son kapanmanın ilahî hükümle mühürlenmiş yüzü açık kalırken, reddin birikerek kapanan yüzü de görünür olur.
+
+## Dağılan gövde ve varış sınırı
+
+Başka bir bağlamdaki maddi hareket, 18:45'te suyla büyüyen hayatın kuruyup savrulması ve 18:47'de herkesin yeniden toplanmasıyla açılır. 18:45'teki {ar:تَذْرُوهُ ٱلرِّيَٰحُ, tr:tezrûhü'r-riyâh, gloss:rüzgârlar onu savurur} bir arada duran malzemenin dışarı doğru dağılmasını, {ar:هَشِيمًا, tr:haşîmen, gloss:kuruyup kırıntıya dönüşmüş bitki} ise birleşik hayatın kuru parçalara ayrılmış maddi biçimini gösterir. 18:47'deki {ar:وَحَشَرْنَٰهُمْ, tr:ve haşernâhum, gloss:hepsini topladık} dağılmış olanı tek bir hedefe doğru yeniden sürülen topluluk olarak taşır. {ar:ٱلْقُرَىٰٓ, tr:el-kurâ, gloss:yerleşimler} bu iki yön arasında önce düğüm halinde toplanmış toplumsal gövdeyi taşır; {ar:أَهْلَكْنَٰهُمْ, tr:ehleknâhum, gloss:onları yok ettik} ile {ar:مَهْلِكِهِمْ, tr:mehlikihim, gloss:onların yok oluşu} bu gövdeye bağlandığında yıkım yalnızca hareketsiz bir son değil, bir arada duran bütünlüğün çözülmesi olarak hissedilir. Bu maddi sahne, 18:59'daki kentlerin fiziksel yıkımını açıklayan bir olay değil; toplumsal çözülmeyi hissettiren ihtiyatlı bir benzetmedir.
+
+18:52 ve 18:53'teki sınır, düşüş ve kaçışsızlık görüntüleri, {ar:مَهْلِكِهِمْ, tr:mehlikihim, gloss:onların yok oluşu} kelimesindeki tehlikeli arazi ve ölümcül çukur yönüyle buluşur. 18:53'teki {ar:وَلَمْ يَجِدُوا۟ عَنْهَا مَصْرِفًا, tr:ve lem yecidû anhâ masrifen, gloss:ondan dönecek bir yön bulamadılar} geri çevrilemeyen yönü harekete geçirir. 18:52'deki {ar:مَوْبِقًا, tr:mevbikan, gloss:iki taraf arasındaki ayırıcı sınır} taraflar arasına konan ayırıcı kenarı, aynı kelimenin çıkışı olmayan kapan yönü ise içine alan ve serbest bırakmayan tuzağı gösterir. {ar:مُّوَاقِعُوهَا, tr:muvâkiûhâ, gloss:ona düşüp sabitlenecekler} düşmeyi ve bir yere oturmayı taşır; bu düşüş yıkım alanıyla birleşince topluluğun belirlenmiş, kaçışsız bölgeye girişini görünür kılar. {ar:مَّوْعِدًا, tr:mev'iden, gloss:belirlenmiş zaman veya yer} bu mekânsal temasla zaman anlamını koruyarak varılacak bir yer gibi de duyulur. Bu bağlantı 18:59'daki belirlenmiş vakti ateş sahnesine taşımadan, onun zaman çizgisi ile varış sınırı yüzünü birlikte görünür kılar.
+
+Daha uzak ve somut bir benzetmede 18:45'teki su, kentleri bir akıntıda ilerleyen topluluklar ve yıkım yerini bir havza gibi düşündürür. {ar:مَّوْعِدًا, tr:mev'iden, gloss:belirlenmiş zaman veya yer} kelimesinin başka bir kullanım çevresinde taşıdığı yüzmeye ve akıcı ilerlemeye ilişkin görüntü, 18:45'teki {ar:مَاءٍ, tr:mâin, gloss:su} ile karşılaşınca vakti akıntının yönü gibi hissettirir. {ar:ٱلْقُرَىٰٓ, tr:el-kurâ, gloss:yerleşimler} kelimesinin havuzda su veya madde toplama görüntüsü, 18:45'teki suyla birleşerek kentleri bir araya toplanmış havza benzeri topluluklar olarak düşündürür. {ar:مَهْلِكِهِمْ, tr:mehlikihim, gloss:onların yok oluşu} içindeki tehlikeli arazi yönü su ve akıcı hareketle birleştiğinde, akıntının ulaştığı sınırlı bir yıkım havzası resmi kurulur. Bu su resmi, 18:45'teki suyu 18:59'a taşıyan tarihsel bir olay önermek yerine, yerleşim, yıkım ve belirlenmiş vakit arasındaki olağan anlamın üzerine hareket ekleyen keşifsel ve analojik bir katman sunar.
+
+18:60, 18:61 ve 18:62'deki yolcu akışı, bu sınır görüntüsünü bir kez daha {ar:مَهْلِكِهِمْ, tr:mehlikihim, gloss:onların yok oluşu} ile {ar:مَّوْعِدًا, tr:mev'iden, gloss:belirlenmiş zaman veya yer} çiftine döndürür. Sınır aşılırken hâlâ fark edip düzelme imkânı taşıyan hareket, düzeltilmeyen aşımı helâk gibi hissettirir; yıkım böylece rastgele kaybolmadan, kaçırılmış bir düzeltmenin sonucu olarak görünür. Bu hareketin katkısı, sınır aşımını düzeltilmemiş bir helâk çizgisi olarak hissettirmektir; imge yalnızca 18:60, 18:61 ve 18:62'deki yolculuk akışından çıkan daha zayıf bir keşif düzeyinde kalır. Kelime anlamı bu bağlantıda belirlenmiş sonun aşılmış bir sınırdan sonra tamamlanmasını taşır; yolculuk, yorgunluk veya gerçek bir uzamsal uç anlamı bu kapsamın dışında kalır.
+
+</editorial_prose>

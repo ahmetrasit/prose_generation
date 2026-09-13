@@ -1,0 +1,224 @@
+{
+  "schema_version": "commentary-v5-scope-discovery-v1",
+  "ayah_ref": "18:68",
+  "lane": "global",
+  "coverage_complete": true,
+  "candidate_decisions": [
+    {
+      "candidate_id": "cand_35103c90e3a66cce02c9",
+      "decision": "accept",
+      "reason": "Güvenilir cross-run bulgusu, odak yüzeyindeki üç dalı birlikte taşıyor; 18:91 ve 10:39 bağlantıları bu ilişkinin global lane için gereken somut geniş tetikleyicisini sağlıyor. Dal kimliklerindeki niteliklendirme kabulü değil epistemik durumu sınırlar.",
+      "finding_refs": ["global:epistemic-boundary"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_24e89b03e1aa1bd47559",
+      "decision": "represented",
+      "reason": "Aynı root_000840/B001 taşıyıcısı, aynı 18:91 dönüşü ve aynı sabrı bilgi sınırına göre düzenleme değişimi global:epistemic-boundary bulgusunda korunuyor; adayın dalı, bağlamı veya yükümlülüğü dışarıda bırakılmıyor.",
+      "finding_refs": ["global:epistemic-boundary"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_13502a2fcc5077e55aff",
+      "decision": "represented",
+      "reason": "18:91'in Moses'ın bilgi konumuna getirdiği sonraki dönüş, global:epistemic-boundary içinde hem bağlantı hem de tetikleyici bağlam olarak doğrudan yer alıyor ve ayrı bir taşıyıcı ya da okur getirisi eklemiyor.",
+      "finding_refs": ["global:epistemic-boundary"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_75a2e2ef15fe26477561",
+      "decision": "reject",
+      "reason": "Adayın tek dalı root_000387/B001 olsa da destek yalnızca odak perikopundaki 18:71–73 olay dizisine dayanıyor. Bu, global bir geniş tetikleyici değil macro kapsamındaki yakın bağlamdır ve packet global dönüşünü sağlayan bağımsız bir taşıyıcı/ilişki sunmuyor.",
+      "finding_refs": [],
+      "branch_exclusions": [
+        {
+          "branch_ref": "root_000387/B001",
+          "reason": "18:71–73 iç-perikope olay dizisi global lane içinde bu dalı etkinleştirmiyor; dalın global aday için önerilen taşıması dışarıda bırakıldı."
+        }
+      ],
+      "facet_exclusions": [],
+      "context_exclusions": [
+        {"context_ref": "18:71", "reason": "Aynı ilan edilmiş perikopun macro bağlamıdır; global tetikleyici değildir."},
+        {"context_ref": "18:72", "reason": "Aynı ilan edilmiş perikopun macro bağlamıdır; global tetikleyici değildir."},
+        {"context_ref": "18:73", "reason": "Aynı ilan edilmiş perikopun macro bağlamıdır; global tetikleyici değildir."}
+      ],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_9e6ae2ede3978203d9cd",
+      "decision": "reject",
+      "reason": "18:71–73'teki olay, erken gözlem ile sonradan gelen gerekçe arasındaki perikop-içi farkı gösteriyor; ancak global lane için bunun odak sözcüğüne dönen daha geniş bir tetikleyici olduğu packet tarafından gösterilmiyor.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [
+        {"context_ref": "18:71", "reason": "Aynı ilan edilmiş perikopun macro bağlamıdır; global kapsamda tutulmadı."},
+        {"context_ref": "18:72", "reason": "Aynı ilan edilmiş perikopun macro bağlamıdır; global kapsamda tutulmadı."},
+        {"context_ref": "18:73", "reason": "Aynı ilan edilmiş perikopun macro bağlamıdır; global kapsamda tutulmadı."}
+      ],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_7fa06c26978a149942d2",
+      "decision": "reject",
+      "reason": "HFT kaydı yalnızca anchorless bir reader summary olarak görünür; packet'te supplied context ayah, word index, root, attributed role ve focus return trace'i yoktur. Bu nedenle prosedürel sabır iddiası global bir bulguya bağlanamaz.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_c36df2c3fa1922c67e01",
+      "decision": "reject",
+      "reason": "HFT kaydının karşı-olgusal sistemler ve gelecek ilişkiler hakkındaki payload'ı için hiçbir anchor_evidence veya odak dönüşü supplied değil; bu, stated HFT role sınırını aşan serbest bir global genelleme olur.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_5b165aab3951663d3100",
+      "decision": "reject",
+      "reason": "Ta'wil çerçevesinin geriye dönük açıklama verdiği iddiası anchorless HFT summary'de kalıyor; exact trace, focus return veya bağımsız taşıyıcı bulunmadığı için global aktivasyon eşiğini geçmiyor.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_5726d60e1bf776de8024",
+      "decision": "reject",
+      "reason": "Mekânsal çevreleme ile epistemik yapı arasındaki analoji HFT payload'ında branch-backed olarak adlandırılıyor, fakat exact context occurrence, branch facet ve focus return verilmediği için lexical ya da contextual global bulguya dönüşmüyor.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_27285b295218afe4f60c",
+      "decision": "reject",
+      "reason": "Defect-to-escape ve wall-to-preservation okları packet'te reader-supplied olarak niteleniyor; anchorless HFT kaydı bunları odak yüzeyine döndüren bağımsız bir global mekanizma sunmuyor.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_ebfc48a72c89a67ecac6",
+      "decision": "reject",
+      "reason": "Gelecek yönelimli açıklama için HFT trace'i supplied anchor, root ve focus return içermiyor; packet'in açık sınırı bu çıkarımı insanî erişilemez sonuçlar hakkında global yetki iddiasına dönüştürmeye izin vermiyor.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_759c996477c9dfdb5ce7",
+      "decision": "reject",
+      "reason": "HFT future-oriented payload'ı için exact anchor_evidence ve focus'a dönen bir role trace'i yok; stated qualification, bu kaydı bağımsız global aktivasyon olarak kabul etmeyi engelliyor.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    }
+  ],
+  "findings": [
+    {
+      "finding_ref": "global:epistemic-boundary",
+      "origin_candidate_id": "cand_35103c90e3a66cce02c9",
+      "represented_candidate_ids": [
+        "cand_24e89b03e1aa1bd47559",
+        "cand_13502a2fcc5077e55aff"
+      ],
+      "title": "Bilgi kuşatılamadığında sabrın sınırı",
+      "claim": "Odak âyette görünür olayın doğurduğu tepki, onu bütünüyle kuşatacak bilgi henüz tamamlanmadığı için sabrın önünde durur; aynı surenin 18:91'deki daha geniş kuşatma ve haber bilgisi dönüşü, sabrı kuşatılamayan nesnenin sınırına saygı duyan bir bilgi uygulaması olarak görünür kılar.",
+      "mechanism": "`تُحِطْ` bütüne ulaşma anlamını, `خُبْرًا` edinilip aktarılabilen bilgi alanını, `تَصْبِرُ` ise sarsıntı ve yakınma dürtüsüne karşı kendini tutmayı taşır. 10:39 bağlantısının bilgi tamamlanmadan hüküm vermeye karşı uyarısı ve 18:91 bağlantısının daha sonra gelen kuşatıcı bilgi karşılığı bu üç odak taşıyıcısıyla temas eder; böylece sabır genel bekleyişten, gözlenen yüzey ile tamamlanmış kavrayış arasındaki aralıkta tepkiyi düzenlemeye dönüşür.",
+      "reader_payoff": "Okur soruyu genel bir metanet öğüdü olarak değil, görünür yüzeyin hızlı hüküm üretmesi ile olayın sınırlarını kuşatan bilginin henüz tamamlanmaması arasındaki zaman farkında tepkiyi tutma sorusu olarak görür.",
+      "containment": "Bu bulgu her bilinmeyen olayın gizli bir iyi sonuca bağlandığını, insanın ilahî kuşatıcı bilgiye sahip olduğunu veya 18:91'in odak âyetin doğrudan sorusunun yerine geçtiğini söylemez. 10:39 ve 18:91 global karşılaştırmalı tetikleyicilerdir; hedef bağlantı satırlarında hedef morfolojisi verilmediği için bundan daha ileri bir dilbilgisel iddia kurulmamıştır.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": ["legacy_unbound", "trusted"],
+        "reason": "Odak dallarını ve ana değişmiş okumayı trusted cross-run kaydı doğrudan taşır; ancak root_000372/B004 ile root_000387/B001 niteliklendirilmiş kimliklerdir, global bağlantılar hedef Arapçasını verse de hedef morfolojisini vermez ve iki destek kaydı legacy_unbound provenance taşır."
+      },
+      "support_ids": [
+        "sup_9b5adc94afd38cd03fb6",
+        "sup_ad02109111323b847b00",
+        "sup_ed61023bc5f010fc161c"
+      ],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000372/B004",
+          "facet_id": "F001",
+          "branch_gloss": "bir şeyi bütünüyle bilme veya elde etme",
+          "facet_statement": "İşlem, konusu olan şeyin yalnız bir bölümüne değil tamamına ulaşır.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["18:68:6:1"],
+          "trigger_refs": ["18:91", "10:39", "conn_05cc033273f54c57af11", "conn_68f1b257573fc3fc6353"],
+          "focus_return_refs": ["18:68:6:1"],
+          "carrier": "Odak yüzeyindeki `تُحِطْ`, meselenin yalnız bir parçasına değil bütününe ulaşan kavrayışın yokluğunu taşır.",
+          "independent_trigger": "18:91'in supplied hedef yüzeyi, odaktaki sınırlı kavrayışa karşı daha sonra gelen kuşatıcı bilgi karşılığını verir; 10:39 bağlantısı da bilgi kuşatılmadan hüküm vermeyi açıkça sınırlar.",
+          "activation": "Geniş bağlamdaki iki bilgi sınırı, `تُحِطْ` taşıyıcısının salt farkındalık eksikliği değil, olayın bütününe erişememe olduğunu görünür kılar ve focus'a geri döner.",
+          "resulting_reading": "Sabır, henüz bütünüyle kavranmamış bir olay hakkında görünür parçayı tamamlanmış hüküm saymama disiplini olarak belirir.",
+          "boundary": "Bu, insanın ilahî kuşatıcı bilgiye eriştiğini veya her olayın sonradan açıklanacağını iddia etmez."
+        },
+        {
+          "branch_ref": "root_000387/B001",
+          "facet_id": "F001",
+          "branch_gloss": "bilgi edinme, bildirme ve deneyerek iç yüzü tanıma",
+          "facet_statement": "Bir şey veya olay hakkında edinilen ve aktarılabilen bilgiyi belirtir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["18:68:8:1"],
+          "trigger_refs": ["18:91", "conn_05cc033273f54c57af11"],
+          "focus_return_refs": ["18:68:8:1"],
+          "carrier": "Odak yüzeyindeki `خُبْرًا`, bir şey veya olay hakkında edinilen ve aktarılabilen bilginin alanını adlandırır.",
+          "independent_trigger": "18:91'in supplied hedef yüzeyi aynı kuşatma fiilini `خُبْرًا` ile birlikte geri getirir; connection note bunu ruler'ın durumları hakkındaki kuşatıcı bilgiyle ilişkilendirir.",
+          "activation": "Aynı-surah dönüşü, odaktaki eksikliği sıradan bilgisizlikten ayırıp rapor, sınama ve iç yüzün tamamlanmasıyla temas eden bir bilgi sınırı haline getirir.",
+          "resulting_reading": "Patience is required while the matter's tested and communicable knowledge is incomplete; the visible event may therefore remain insufficient for a final reaction.",
+          "boundary": "Bu, bilginin mutlaka insan tarafından tamamlanacağını veya `خُبْرًا`nın eş sesli arazi, tarım ya da başka dallarını etkinleştirdiğini söylemez."
+        },
+        {
+          "branch_ref": "root_000840/B001",
+          "facet_id": "F001",
+          "branch_gloss": "kendini tutarak dayanma",
+          "facet_statement": "Kişi, sarsıntı ve yakınma dürtüsüne karşı kendini tutar.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["18:68:2:1"],
+          "trigger_refs": ["18:68:6:1", "18:91", "10:39", "conn_05cc033273f54c57af11", "conn_68f1b257573fc3fc6353"],
+          "focus_return_refs": ["18:68:2:1"],
+          "carrier": "Odak yüzeyindeki `تَصْبِرُ`, sarsıntı ve yakınma dürtüsüne karşı kendini tutma dayanmasını taşır.",
+          "independent_trigger": "Aynı âyetteki negated whole-enclosure relation ile 10:39 ve 18:91'in bilgi sınırı bağlantıları, tepkinin henüz tamamlanmamış kavrayış karşısında düzenlenmesi gereken somut durumu sağlar.",
+          "activation": "Bilgi taşıyıcılarının sabır fiiline dönmesi, kendini tutmayı soyut bir erdem olmaktan çıkarıp görünür yüzey ile tamamlanmış bilgi arasındaki aralıkta çalışan bir tepki kontrolü yapar.",
+          "resulting_reading": "`تَصْبِرُ`, olayın tamamı bilinmeden tepkiyi askıda tutma ve açıklama için alan bırakma pratiği olarak okunur.",
+          "boundary": "Bu, sabrı pasif suskunluk, bütün tepkilerin yanlışlığı veya insanın ilahî bilgiyle eşitliği olarak sunmaz."
+        }
+      ],
+      "connection_refs": [
+        "conn_05cc033273f54c57af11",
+        "conn_68f1b257573fc3fc6353"
+      ],
+      "context_refs": ["10:39", "18:91"],
+      "semantic_obligation_refs": []
+    }
+  ],
+  "friction_notes": [
+    "18:91 ve 10:39 bağlantıları exact hedef Arapçası ve ilişki notu sağlıyor, fakat hedef morfolojisi ve ayrıntılı lexical analysis sağlanmadığı için global bulgu qualified olarak tutuldu.",
+    "18:71–73 kanıtı ilan edilmiş 18:60–82 perikopunun içindedir; bu nedenle global bulguya taşınmayıp aday 4 ve 5'te macro kapsamı olarak dışlandı.",
+    "Yedi HFT reader summary kaydının anchor_evidence alanı boş olduğundan, payload'lar görünür tutuldu ancak bağımsız global aktivasyon olarak kabul edilmedi."
+  ]
+}

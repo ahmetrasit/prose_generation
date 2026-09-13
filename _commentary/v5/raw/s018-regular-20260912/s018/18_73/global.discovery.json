@@ -1,0 +1,535 @@
+{
+  "schema_version": "commentary-v5-scope-discovery-v1",
+  "ayah_ref": "18:73",
+  "lane": "global",
+  "coverage_complete": true,
+  "candidate_decisions": [
+    {
+      "candidate_id": "cand_141b8def4c71accb33f4",
+      "decision": "represented",
+      "reason": "The supplied qwl/B001 speech-to-repair relation is carried exactly by global:learning-repair; the trusted publication adds no distinct semantic obligation.",
+      "finding_refs": ["global:learning-repair"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_7f0602c867602212ebc1",
+      "decision": "represented",
+      "reason": "The supplied rhq/B001 and rhq/B003 imposed-burden relation is carried exactly by global:capacity-pressure; the trusted publication is the bounded core of that finding.",
+      "finding_refs": ["global:capacity-pressure"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_5fdabf0be73bba262ba4",
+      "decision": "narrow",
+      "reason": "Retains the anchored qwl/B001 speech-to-repair relation and its same-surah 18:24 contact. The support's additional comparison to 18:57 cannot land as an independent context trigger because that ayah is outside the ordered packet context and has no supplied target evidence here.",
+      "finding_refs": ["global:learning-repair"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [
+        {
+          "context_ref": "18:57",
+          "reason": "The support names this comparison, but the packet supplies neither it as ordered context nor exact target evidence; it is omitted from the landed activation."
+        }
+      ],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_028b49fc420ebb7c1181",
+      "decision": "accept",
+      "reason": "The retrospective record supplies a concrete later pericope boundary at 18:76 that returns to the focus's confessed lapse and makes the repairable-versus-final-breach distinction materially visible.",
+      "finding_refs": ["global:lapse-boundary"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_c29a3ec244c16685bdf9",
+      "decision": "accept",
+      "reason": "Both supplied rhq branches are retained with their core and capacity facets. The wider reader walk gives the later 18:74-18:76 sequence as a concrete trigger for a proportionate-load reading, while the connection rows provide independent wider rhq contacts.",
+      "finding_refs": ["global:capacity-pressure"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_aa1631c4f9382207638f",
+      "decision": "accept",
+      "reason": "The retrospective record adds a distinct temporal boundary: the later pressure and stopping rule make the requested relief provisional rather than a blanket exemption.",
+      "finding_refs": ["global:temporary-relief"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_cea71e56df69e954d96d",
+      "decision": "reject",
+      "reason": "The HFT payload proposes a route-marker reading, but its anchor evidence count is zero and it supplies no context ayah, focus word/QAC coordinate, root, attributed role, or focus-return contact. The activation edge therefore cannot be evaluated.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_629c228fc25e7b4f38f7",
+      "decision": "reject",
+      "reason": "The HFT capacity-calibrated accountability proposal has no supplied anchor evidence or exact HFT carrier, trigger, role, and return coordinate, so its semantic relation cannot be landed in this packet.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_3fa62ae4e6e9c324eec6",
+      "decision": "reject",
+      "reason": "The HFT burden-prevention and agency proposal is an unanchored summary: no context coordinate, focus word, root, attributed role, or focus return is supplied, and the packet cannot distinguish its asserted echoes from the retained branch findings.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_1100e670c7d1e5eb93c7",
+      "decision": "reject",
+      "reason": "The HFT whole-record synthesis names repeated roots and a split mapping without any supplied anchor evidence, word index, root record, or focus-return trace; it cannot establish a new activation.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_8d04b21a566bff9a7c8b",
+      "decision": "reject",
+      "reason": "The HFT involuntary-forgetting versus neglected-obligation uncertainty has no exact carrier, context ayah, root, attributed role, or focus-return trace. Its grounded contrast is separately represented by the connection-backed nsy finding, not by this record.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_1f41c510ce897bcf074b",
+      "decision": "reject",
+      "reason": "The HFT min/ana-versus-min/amri agency proposal has no exact HFT coordinate or independent context evidence; the supplied weak affair-language connection does not establish this unanchored summary as a separate HFT activation.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_336979c00c0ec12995a7",
+      "decision": "reject",
+      "reason": "The HFT confiscation, insolvency, and load-lightening proposal supplies no branch, context, word index, root, attributed role, or focus-return evidence, so its analogies cannot pass the activation test.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    }
+  ],
+  "findings": [
+    {
+      "finding_ref": "global:learning-repair",
+      "origin_candidate_id": "cand_5fdabf0be73bba262ba4",
+      "represented_candidate_ids": ["cand_141b8def4c71accb33f4"],
+      "title": "Sözlü itirafın öğrenme ilişkisine dönüşü",
+      "claim": "18:73'teki sözlü itiraf, unutmayı yalnızca bir mazeret olarak bırakmayıp öğrenme ilişkisine yeniden giriş talebine dönüştürür.",
+      "mechanism": "18:73:1:1'deki qwl taşıyıcısı, takip eden isteği sesli bir kabul olarak dışa çıkarır; 18:24'ün unutmanın ardından hatırlama, söyleme ve daha yakın yönlendirmeyi bir araya getiren sahnesi bu söz edimini bağımsız biçimde tetikler. Temas, Musa'nın unutmayı gizleyen değil, düzeltici ilişkiye geri dönen bir konuşma yaptığını görünür kılar.",
+      "reader_payoff": "Okur, 'dedi' fiilini yalnızca anlatı aktarımı olarak değil, hatanın kabul edilmesiyle düzeltme imkânının açık tutulduğu bir dönüş hareketi olarak görür.",
+      "containment": "Bu okuma, ayetin açık anlamındaki 'Musa ... dedi' zeminini derinleştirir; sorumluluktan bağışlanmanın kesinleştiğini veya konuşmanın bütün sonuçları kaldırdığını söylemez. 18:57 karşılaştırması packet dışında bağımsızca kurulmadığı için bu finding'e dahil edilmemiştir.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": ["legacy_unbound", "trusted"],
+        "reason": "Odak taşıyıcısı ve 18:24 bağlantısı açıkça verilmiştir; ancak reader-walk kaynağı legacy_unbound'dur ve bağlantı hedefinin tam morfolojik analizi packet'te yoktur. Güven etiketi kabul kararını değil, nitelemeyi belirler."
+      },
+      "support_ids": ["sup_00ceaad6c42312e25d66", "sup_d3654f9feec1df04b5c8"],
+      "branch_activations": [
+        {
+          "branch_ref": "root_001272/B001",
+          "facet_id": "F001",
+          "branch_gloss": "söze dökme",
+          "facet_statement": "Çekirdek işlem, sözü sesli olarak dışa çıkarmaktır.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["18:73:1:1"],
+          "trigger_refs": ["18:24"],
+          "focus_return_refs": ["18:73:1:1"],
+          "carrier": "قَالَ / qāla, following the focus's ordinary speech framing, carries the plea as voiced admission.",
+          "independent_trigger": "18:24 joins forgetting to remembrance, voiced instruction, and nearer guidance.",
+          "activation": "The same-surah forgetting scene meets the focus's speech carrier and turns the spoken plea into a route back into instruction.",
+          "resulting_reading": "Musa's utterance becomes an admission that keeps corrective learning contact open while retaining the ordinary report that he spoke.",
+          "boundary": "The Form III accountability request remains the local floor; qwl is not being used to erase the lapse or guarantee pardon."
+        }
+      ],
+      "connection_refs": ["conn_330c5cb9babe02673a66"],
+      "context_refs": ["18:24"],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:capacity-pressure",
+      "origin_candidate_id": "cand_c29a3ec244c16685bdf9",
+      "represented_candidate_ids": ["cand_7f0602c867602212ebc1"],
+      "title": "Öğrenme işine dışarıdan yüklenen baskı",
+      "claim": "İşinde güçlük çıkarılmaması isteği, öğrencinin taşıma gücünü aşacak biçimde üzerine yüklenebilecek baskıyı sınırlar.",
+      "mechanism": "18:73:7:1'deki turhiqnī taşıyıcısı, dışarıdan baskıyla kuşatma ve ağır iş yükleme anlamlarını taşır; 18:74-18:76'daki ardışık olaylar ile 72:6 ve 74:17'deki bağımsız rahq kullanımları bu baskıyı tetikler. Temas, 'güçlük'ü yalnızca içsel bir zorluk değil, öğrenenin taşıma gücüne yüklenen bir basınç olarak yeniden görünür kılar.",
+      "reader_payoff": "Okur, Musa'nın isteğinde yalnızca işi kolaylaştırma arzusunu değil, tek bir hatanın öğrenme kapasitesini aşan bir yüke dönüştürülmemesi talebini de fark eder.",
+      "containment": "Bu okuma, 'işimde bana güçlük çıkarma' düz anlamını taşır ve onun yerine geçmez. 18:74-18:76 etkisi reader-walk kaydı olarak, 72:6 ve 74:17 ise morfolojisi eksik bağlantı bağlamları olarak nitelidir; hiçbir dal bütün dizinin tek açıklaması ilan edilmez.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": ["legacy_unbound", "trusted"],
+        "reason": "Her iki rhq dalı için odak taşıyıcısı ve trusted publication desteği vardır; geniş reader-walk legacy_unbound'dur ve bağlantı hedeflerinde tam morfolojik analiz yoktur."
+      },
+      "support_ids": ["sup_178802aeef30a6139c22", "sup_a5e7c6346f95dd5a5824"],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000606/B001",
+          "facet_id": "F001",
+          "branch_gloss": "baskıyla kuşatıp etkisi altına alma",
+          "facet_statement": "Bir şey hedefi baskın biçimde kuşatır ve etkisi altına alır.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["18:73:7:1"],
+          "trigger_refs": ["18:74", "18:75", "18:76", "72:6", "74:17"],
+          "focus_return_refs": ["18:73:7:1"],
+          "carrier": "تُرْهِقْنِي / turhiqnī ordinarily asks that hardship not be made to press upon the speaker.",
+          "independent_trigger": "The supplied later pericope sequence tightens the learning pressure, while 72:6 and 74:17 give independent rahq scenes of externally increased or imposed difficulty.",
+          "activation": "Those pressure scenes meet the focus's causative form and make its prohibition an appeal against being overtaken by a load imposed from outside.",
+          "resulting_reading": "The plea asks that the learning relation remain breathable rather than allowing one lapse to cover and dominate the whole undertaking.",
+          "boundary": "The focus still names ordinary hardship; no claim is made that every later event has one lexical identity or that the teacher's correction is illegitimate."
+        },
+        {
+          "branch_ref": "root_000606/B003",
+          "facet_id": "F001",
+          "branch_gloss": "ağır bir yükümlülüğü zorla yükleme",
+          "facet_statement": "Bir fail başka birine ağır veya güç bir işi yükler.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["18:73:7:1"],
+          "trigger_refs": ["18:74", "18:75", "18:76", "72:6", "74:17"],
+          "focus_return_refs": ["18:73:7:1"],
+          "carrier": "The focus's turhiqnī names pressure caused to the first-person speaker in his ongoing affair.",
+          "independent_trigger": "The later pericope events and the supplied 72:6/74:17 rahq parallels present difficulty as something imposed by an agent or situation.",
+          "activation": "The external-load scenes contact the focus's request and turn 'güçlük çıkarma' into a relation between a burdening agent and a learner.",
+          "resulting_reading": "Musa asks not to have the next stage of the work made into an imposed heavy task after the admitted lapse.",
+          "boundary": "This does not assign malicious intent to the teacher or replace the direct request for leniency."
+        },
+        {
+          "branch_ref": "root_000606/B003",
+          "facet_id": "F002",
+          "branch_gloss": "ağır bir yükümlülüğü zorla yükleme",
+          "facet_statement": "Yüklenen iş, kişinin taşıma gücünü aşacak ölçüde ağır olabilir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["18:73:7:1"],
+          "trigger_refs": ["18:74", "18:75", "18:76", "72:6", "74:17"],
+          "focus_return_refs": ["18:73:7:1"],
+          "carrier": "The first-person object in turhiqnī makes the speaker's capacity the point at which the imposed pressure is measured.",
+          "independent_trigger": "The packet's wider rhq evidence explicitly frames the pressure as exceeding or tightening around a person's capacity.",
+          "activation": "The capacity boundary meets the focus's request not to be pressed with hardship and changes the reader's sense of what relief is being requested.",
+          "resulting_reading": "The request is for correction that leaves learning possible rather than a load that exceeds the learner's ability to continue.",
+          "boundary": "Capacity language is a qualified contextual resonance; it does not establish a universal rule about every burden or decide whether the next event was proportionate."
+        }
+      ],
+      "connection_refs": ["conn_7d1d287f4c63dbaa45f8", "conn_5a998e77ec73b43ad37b"],
+      "context_refs": ["18:74", "18:75", "18:76", "72:6", "74:17"],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:lapse-boundary",
+      "origin_candidate_id": "cand_028b49fc420ebb7c1181",
+      "represented_candidate_ids": [],
+      "title": "İtirafın açtığı kapının sınırı",
+      "claim": "İtiraf edilen unutma, öğrenme alışverişini açık tutan onarılabilir bir hata olarak kalırken 18:76'daki sınır, bu hoşgörü isteğinin sonsuz olmadığını görünür kılar.",
+      "mechanism": "18:73:5:1'deki nasītu taşıyıcısı kişinin kendi lapse'ını üstlenir; reader-walk kaydının 18:76'ya bağladığı son sınır, aynı öğrenme ilişkisinde tekrar eden ihlalin artık ayrı bir eşik oluşturduğunu tetikler. Böylece unutma sözü, hem geri dönüş imkânını hem de bu imkânın sınırını taşır.",
+      "reader_payoff": "Okur, özrün yalnızca suçu hafifleten bir cümle olmadığını; öğrenmeye geri dönüşü mümkün kılan ama ilişkiyi her koşulda sınırsızlaştırmayan bir tutum olduğunu görür.",
+      "containment": "Packet, nasītu içinde niyetin kesin olarak bilinçli olup olmadığını çözmez; bilerek bırakma gölgesi karşılaştırmalı ve nitelikli kalır. 18:76'nın etkisi bağımsız bir kelime analizi değil, supplied retrospective reading olarak tutulur.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": ["legacy_unbound"],
+        "reason": "Finding, focus anchor'ı ve 18:76'yı açıkça veren legacy_unbound retrospective support'a dayanır; sonraki ayetin tam morfolojik çözümlemesi packet'te yoktur."
+      },
+      "support_ids": ["sup_d3af4ab84827dffb2857"],
+      "branch_activations": [
+        {
+          "branch_ref": "root_001501/B002",
+          "facet_id": "F001",
+          "branch_gloss": "bilerek bırakma ve yerine getirmeme",
+          "facet_statement": "Bir şey unutma sözüyle anlatılsa da asıl işlem onu bilerek bırakmak ve sürdürmemektir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["18:73:5:1"],
+          "trigger_refs": ["18:76"],
+          "focus_return_refs": ["18:73:5:1"],
+          "carrier": "نَسِيتُ / nasītu ordinarily confesses that something has left the speaker's active recollection.",
+          "independent_trigger": "The supplied retrospective record reads 18:76 as a knowingly breached final boundary in the same learning episode.",
+          "activation": "That later boundary supplies the deliberate-neglect contrast against which the focus's confessed lapse becomes legible as repairable but limited.",
+          "resulting_reading": "The apology remains open to correction while carrying a visible shadow of the kind of leaving that would close the learning route.",
+          "boundary": "The deliberate-leaving facet is not substituted for the focus's ordinary confessed forgetting, and intentionality is left unresolved."
+        }
+      ],
+      "connection_refs": [],
+      "context_refs": ["18:76"],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:temporary-relief",
+      "origin_candidate_id": "cand_aa1631c4f9382207638f",
+      "represented_candidate_ids": [],
+      "title": "Rahatlamanın geçici sınırı",
+      "claim": "Güçlük istemeyen bu ikinci rica, öğrenmeyi sürdürmek için sınırlı bir yeniden başlama alanı açar; 18:74-18:76'daki baskı ve durma kuralı bu rahatlamayı geçici kılar.",
+      "mechanism": "18:73:7:1'deki turhiqnī, speaker'ın işine yük bindirilmemesini ister; supplied retrospective record, 18:74, 18:75 ve 18:76'yı artan baskı ve son sınır olarak bağlayarak bu isteğe bağımsız bir zaman akışı verir. Temas, 'güçlük çıkarma' talebini sonuçlardan bağışıklık değil, bir sonraki adımı mümkün kılan geçici kapasite aralığı olarak değiştirir.",
+      "reader_payoff": "Okur, Musa'nın ricasındaki rahatlama isteğinin hem öğrenme devamlılığına alan açtığını hem de sonraki sınırla birlikte koşullu kaldığını görür.",
+      "containment": "Bu finding, sonraki olayların tam içeriğini yeniden kurmaz ve ricanın her durumda kabul edildiğini söylemez; geçicilik, yalnızca supplied reader-walk sequence'in nitelikli etkisidir.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": ["legacy_unbound"],
+        "reason": "Retrospective support focus'a ve 18:74-18:76 dizisine işaret eder, ancak bu context units için bağımsız morfolojik analiz packet'te yoktur."
+      },
+      "support_ids": ["sup_42dbe1a37525011c9e3f"],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000606/B003",
+          "facet_id": "F001",
+          "branch_gloss": "ağır bir yükümlülüğü zorla yükleme",
+          "facet_statement": "Bir fail başka birine ağır veya güç bir işi yükler.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["18:73:7:1"],
+          "trigger_refs": ["18:74", "18:75", "18:76"],
+          "focus_return_refs": ["18:73:7:1"],
+          "carrier": "The focus's turhiqnī is a request concerning pressure placed on the speaker's affair.",
+          "independent_trigger": "The retrospective sequence records later events that increase pressure and then formalize a stopping boundary.",
+          "activation": "The later sequence returns to the focus's burden request and makes its relief a bounded reset inside an ongoing learning relation.",
+          "resulting_reading": "The request asks for enough release to continue, while the later boundary keeps that release temporary.",
+          "boundary": "The sequence is reader-walk evidence, not a claim that every later event is lexically encoded in turhiqnī."
+        },
+        {
+          "branch_ref": "root_000606/B003",
+          "facet_id": "F002",
+          "branch_gloss": "ağır bir yükümlülüğü zorla yükleme",
+          "facet_statement": "Yüklenen iş, kişinin taşıma gücünü aşacak ölçüde ağır olabilir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["18:73:7:1"],
+          "trigger_refs": ["18:74", "18:75", "18:76"],
+          "focus_return_refs": ["18:73:7:1"],
+          "carrier": "The first-person object in turhiqnī makes the speaker's capacity the point of the plea.",
+          "independent_trigger": "The retrospective account describes pressure tightening until a self-imposed stopping rule appears.",
+          "activation": "A capacity boundary in the later sequence meets the focus's request and makes relief a temporary condition for continued learning.",
+          "resulting_reading": "Musa asks not to be pushed past the point at which the journey can continue, while the later stopping rule preserves consequence.",
+          "boundary": "This does not decide the teacher's motives or reduce the later boundary to a mere psychological limit."
+        }
+      ],
+      "connection_refs": [],
+      "context_refs": ["18:74", "18:75", "18:76"],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:accountability-prayer",
+      "origin_candidate_id": null,
+      "represented_candidate_ids": [],
+      "title": "Unutma karşısında ölçülü sorumluluk",
+      "claim": "Musa'nın sorumlu tutulmama isteği, unutma ve hata için aynı ölçülü muhasebe talebini kuran ortak bir dua biçimiyle buluşur.",
+      "mechanism": "18:73:3:1'deki tuʾākhidhnī taşıyıcısı, suç ile kişi arasında sorumluluk bağı kuran accountability anlamına sahiptir; 2:286'nın exact target Arabic'i aynı sorumluluk fiilini unutma ve hata ile birlikte, taşıma gücünü aşan yükten sakınma talebiyle yan yana getirir. Bu temas, iki yasak isteğini tek bir ölçü arayışında birbirine bağlar.",
+      "reader_payoff": "Okur, ilk ricanın yalnızca kişisel bir mazeret değil, unutma karşısında hesabın nasıl ölçülmesi gerektiğine dair daha geniş bir dua düzeniyle konuştuğunu fark eder.",
+      "containment": "Bu bağlantı, iki ayetin konuşanlarını veya bağlamlarını özdeşleştirmez; 2:286'nın toplu dua çerçevesi 18:73'e aktarılmaz, yalnızca focus formunun sorumluluk ilişkisini aydınlatır.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": [],
+        "reason": "Bağlantı kaydı hedef Arabic'i ve focus dönüşünü verir, fakat hedef morfolojisi ve bağımsız sözlüksel çözümleme packet'te sunulmaz."
+      },
+      "support_ids": [],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000018/B002",
+          "facet_id": "F001",
+          "branch_gloss": "suçundan sorumlu tutma",
+          "facet_statement": "Kişi ile işlediği suç arasında bağ kurarak onu bundan sorumlu tutmayı anlatır.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["18:73:3:1"],
+          "trigger_refs": ["2:286"],
+          "focus_return_refs": ["18:73:3:1"],
+          "carrier": "تُؤَاخِذْنِي / tuʾākhidhnī locally asks not to be held accountable for the admitted lapse.",
+          "independent_trigger": "2:286 repeats the accountability form in a prayer against being taken to account for forgetting or error and against unbearable burden.",
+          "activation": "The matching accountability relation joins the focus's personal apology to a wider request for measured responsibility after human failure.",
+          "resulting_reading": "The first prohibition becomes a plea for proportionate reckoning, not a denial that an action has consequences.",
+          "boundary": "No legal equivalence or shared speaker is claimed, and the target's missing morphology remains a qualification."
+        }
+      ],
+      "connection_refs": ["conn_c54634910afb77452056"],
+      "context_refs": ["2:286"],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:culpable-forgetting-contrast",
+      "origin_candidate_id": null,
+      "represented_candidate_ids": [],
+      "title": "Unutmanın iki yönlü basıncı",
+      "claim": "18:73'teki itiraf edilen unutma, başka ayetlerde hatırlatılanı bilerek bırakma ve bunun sonucunu taşıma anlamıyla karşılaştırıldığında, özrün onarılabilir ama otomatik olarak masumlaştırıcı olmayan bir sınırını görünür kılar.",
+      "mechanism": "18:73:5:1'deki nasītu taşıyıcısı, konuşanın kendi lapse'ını söyler; 5:14, 32:14 ve 7:165'teki exact target Arabic'ler unutmayı terk edilen hatırlatma ve sonuçla ilişkilendirir. Bu bağımsız temas, aynı odak kelimesinin itiraf edilen dalgınlık ile yükümlülüğü sürdürmeme arasındaki gerilimi focus'a geri taşır.",
+      "reader_payoff": "Okur, Musa'nın 'unuttum' sözündeki açıklığı, unutmayı her durumda sorumluluktan çıkaran bir formül değil, onarım isteyen bir kabul olarak okur.",
+      "containment": "Culpable-neglect facet, 18:73'teki niyetin kesin tanımı olarak sunulmaz; karşılaştırma iki canlı anlam basıncını birlikte tutar. Bağlantı hedeflerinin tam morfolojisi packet'te yoktur.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": [],
+        "reason": "Üç exact target Arabic connection note'u unutmayı terk ve sonuç ile açıkça ilişkilendirir; yine de hedef morfoloji packet'te bulunmadığından bu, nitelikli bir contextual resonance'tır."
+      },
+      "support_ids": [],
+      "branch_activations": [
+        {
+          "branch_ref": "root_001501/B002",
+          "facet_id": "F001",
+          "branch_gloss": "bilerek bırakma ve yerine getirmeme",
+          "facet_statement": "Bir şey unutma sözüyle anlatılsa da asıl işlem onu bilerek bırakmak ve sürdürmemektir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["18:73:5:1"],
+          "trigger_refs": ["5:14", "32:14", "7:165"],
+          "focus_return_refs": ["18:73:5:1"],
+          "carrier": "The focus's nasītu confesses a lapse while leaving the forgotten object implicit.",
+          "independent_trigger": "5:14, 32:14, and 7:165 supply consequence-bearing instances where forgetting is joined to leaving a reminder or meeting unattended.",
+          "activation": "Those consequence-bearing contexts meet the focus carrier as a contrast and make the repairable confession's boundary newly perceptible.",
+          "resulting_reading": "Musa's admission asks for correction within an open relation; it does not erase the possibility that forgetting can become sustained neglect in another activated frame.",
+          "boundary": "The focus is not reclassified as deliberate abandonment, and no ranking is made between involuntary lapse and neglect."
+        }
+      ],
+      "connection_refs": ["conn_4f848be28809f1b80f83", "conn_86c467a1be17536feb7c", "conn_bddf1bdc04be8f00ad08"],
+      "context_refs": ["5:14", "32:14", "7:165"],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:affair-ease-echo",
+      "origin_candidate_id": null,
+      "represented_candidate_ids": [],
+      "title": "İş alanının kolaylık karşılığı",
+      "claim": "Musa'nın 'işimden' diye sınırlandırdığı alan, başka bir Musa duasındaki 'işimi kolaylaştır' sözüyle birlikte duyulduğunda, güçlük talebini kendi üstlenilen işin yönetilebilirliği olarak belirginleştirir.",
+      "mechanism": "18:73:9:1'deki amrī taşıyıcısı speaker'ın kendi affair/domain alanını kurar; 20:26'nın exact target Arabic'i aynı amrī alanını doğrudan kolaylaştırma isteğiyle tetikler. Bu temas, min amrī ifadesini belirsiz bir 'durum'dan, üzerinde yük ve kolaylık ölçülen üstlenilmiş işe doğru daraltır.",
+      "reader_payoff": "Okur, ikinci ricanın soyut bir rahatlık dileği değil, kişinin yürüttüğü işin taşıyabileceği biçimde kalması isteği olduğunu görür.",
+      "containment": "Bu echo, 20:26'nın görev sahnesini 18:73'e taşımaz ve amrī kelimesini yalnızca 'buyruk' ya da 'otorite' olarak seçmez; affair anlamı ile burden ilişkisini birlikte açıklar.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": [],
+        "reason": "20:26 exact target Arabic'i ve odak dönüşü supplied connection'da açıkça verilmiştir; hedef morfolojisi ve tam sözlüksel çözümleme yoktur."
+      },
+      "support_ids": [],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000051/B001",
+          "facet_id": "F001",
+          "branch_gloss": "konu ve hal",
+          "facet_statement": "Anlamın çekirdeği, insan işleri arasında tek tek sayılabilen konu, hal veya durumdur.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["18:73:9:1"],
+          "trigger_refs": ["20:26"],
+          "focus_return_refs": ["18:73:9:1"],
+          "carrier": "أَمْرِي / amrī names the speaker's own affair as the domain from which hardship would operate.",
+          "independent_trigger": "20:26 repeats amrī in Musa's direct request that his affair be made easy.",
+          "activation": "The parallel affair-domain meets the focus's hardship request and makes the owned work, rather than a free-floating feeling, the site of pressure.",
+          "resulting_reading": "Musa asks that the undertaking he is carrying remain manageable while the teacher corrects the lapse.",
+          "boundary": "The echo does not decide whether amrī also carries command or authority here, and the ordinary affair sense remains intact."
+        }
+      ],
+      "connection_refs": ["conn_cd33d59d586d85f380ab"],
+      "context_refs": ["20:26"],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:relational-obstruction",
+      "origin_candidate_id": null,
+      "represented_candidate_ids": [],
+      "title": "Güçlüğün ilişki içinde üretilmesi",
+      "claim": "Ayetin sonunda adı konan güçlük, karşı çıkma ve işi dolambaçlılaştırma biçiminde ilişki içinde üretilen bir tıkanıklık olarak da görünür.",
+      "mechanism": "18:73:10:1'deki ʿusran taşıyıcısı ordinary difficulty names the imposed content of the plea; 65:6'nın exact target Arabic'inde aynı semantic field, tarafların birbirine güçlük çıkarmasını anlatan taʿāsara formuyla tetiklenir. Temas, hardship'i yalnızca içte yaşanan çetinlikten, iki taraf arasındaki ilerlemeyi bozan eyleme doğru genişletir.",
+      "reader_payoff": "Okur, 'işimde bana güçlük çıkarma' sözünün yalnızca işin zor olmasını değil, öğrenme işinin karşılıklı sürtüşmeyle tıkanmamasını da içerdiğini fark eder.",
+      "containment": "Bu relation, 65:6'nın ailevi bağlamını 18:73'e taşımaz ve ʿusranın sıradan güçlük anlamını silmez; yalnızca karşılıklı engelleme facetini qualified bir contextual resonance olarak tutar.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": [],
+        "reason": "65:6 exact target Arabic'i aynı semantic field içindeki karşılıklı güçlük biçimini içerir ve connection note odağa döner; hedef morfolojisi packet'te ayrıntılı değildir."
+      },
+      "support_ids": [],
+      "branch_activations": [
+        {
+          "branch_ref": "root_001012/B004",
+          "facet_id": "F001",
+          "branch_gloss": "karşı çıkıp işi güçleştirmek",
+          "facet_statement": "Karşı çıkma, düz ilerlemeyi bozma ve işi dolambaçlı hale getirme çekirdeğidir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["18:73:10:1"],
+          "trigger_refs": ["65:6"],
+          "focus_return_refs": ["18:73:10:1"],
+          "carrier": "عُسْرًا / ʿusran closes the plea by naming the hardship to be kept away from the speaker's affair.",
+          "independent_trigger": "65:6 supplies a related difficulty field in which parties make the way hard for one another.",
+          "activation": "The relational obstruction scene meets the focus's closing hardship noun and gives 'güçlük çıkarma' a concrete interpersonal operation.",
+          "resulting_reading": "The plea includes a request that the work not be turned into a blocked contest between learner and teacher.",
+          "boundary": "The ordinary noun still means hardship; no claim is made that 18:73 describes the social setting of 65:6."
+        },
+        {
+          "branch_ref": "root_001012/B004",
+          "facet_id": "F002",
+          "branch_gloss": "karşı çıkıp işi güçleştirmek",
+          "facet_statement": "Bir işi başkasına güçleştirmek veya tarafların karşılıklı güçlük çıkarması bu çekirdeğin eylem görünümüdür.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["18:73:10:1"],
+          "trigger_refs": ["65:6"],
+          "focus_return_refs": ["18:73:10:1"],
+          "carrier": "The indefinite hardship noun leaves open the manner in which difficulty would be produced in the speaker's affair.",
+          "independent_trigger": "The 65:6 target names reciprocal difficulty-making as an action rather than only a state.",
+          "activation": "That action-level trigger returns to the focus's open-ended ʿusran and makes the request against causing hardship relationally specific.",
+          "resulting_reading": "Musa asks that correction not become an action that makes the shared work harder for both sides.",
+          "boundary": "This is an added operation of the hardship image, not a replacement for the primary request or a claim about the teacher's intention."
+        }
+      ],
+      "connection_refs": ["conn_366c798dfc3297ff8ded"],
+      "context_refs": ["65:6"],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:grasp-accountability",
+      "origin_candidate_id": null,
+      "represented_candidate_ids": [],
+      "title": "Hesaba çekmenin tutma imgesi",
+      "claim": "Musa'nın hesaba çekilmemek için söylediği söz, başka bir Musa ailesi sahnesindeki fiziksel 'tutma' ricasıyla duyulduğunda, sorumluluğun kişiye yönelen bir kavrayış gibi hissedilmesini sağlar.",
+      "mechanism": "18:73:3:1'deki tuʾākhidhnī formu yerel olarak sorumlu tutmayı seçer; 20:94'ün exact target Arabic'i aynı root family'nin fiziksel tutma fiiliyle, Aaron'un kendisinin tutulmamasını ve kısıtlı durumunun açıklamasını birleştirir. Bu temas, accountability'nin soyut hükümden önce kişiye yönelen bir 'yakalama' baskısı olarak sezilmesini sağlar.",
+      "reader_payoff": "Okur, 'beni sorumlu tutma' cümlesindeki baskıyı, yalnızca zihinsel bir yargı değil, konuşanın üzerinden el çekilmesini isteyen bedensel bir rica olarak da duyabilir.",
+      "containment": "Focus formunun yerel anlamı fiziksel tutmaya çevrilmez; B001 yalnızca 20:94'teki bağımsız fiziksel trigger üzerinden contextual resonance olarak çalışır. İki Musa sahnesi tek olay sayılmaz.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": [],
+        "reason": "20:94 bağlantısı güçlü bir formal parallel ve exact target Arabic sunar; yine de hedef morfolojisi ile focus formunun ayrıntılı karşılaştırması packet'te yoktur."
+      },
+      "support_ids": [],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000018/B001",
+          "facet_id": "F001",
+          "branch_gloss": "ele geçirip edinme",
+          "facet_statement": "Bir nesneye erişme, onu ele geçirme ve kendi denetim alanına alma eylemini anlatır.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["18:73:3:1"],
+          "trigger_refs": ["20:94"],
+          "focus_return_refs": ["18:73:3:1"],
+          "carrier": "The focus's Form III accountability form keeps the speaker as the person toward whom taking-hold pressure is directed.",
+          "independent_trigger": "20:94 supplies a physical request not to be seized by the beard and head while explaining a constrained failure.",
+          "activation": "The physical taking-hold scene meets the focus's accountability carrier as an image of authority reaching for the person after an error.",
+          "resulting_reading": "The plea not to be held accountable acquires a restrained bodily pressure: do not take hold of me while I explain what happened.",
+          "boundary": "The focus remains relational accountability, not literal seizure or captivity; the target scene is a parallel image only."
+        }
+      ],
+      "connection_refs": ["conn_4a06ffc4c3db8fac4833"],
+      "context_refs": ["20:94"],
+      "semantic_obligation_refs": []
+    }
+  ],
+  "friction_notes": [
+    "The connection registry supplies exact target Arabic but marks target morphology and lexical analysis as unavailable; connection-led activations are therefore qualified and do not inherit prior strong, medium, weak, or no-value labels as decisions.",
+    "The HFT records are parseable and visible but have zero cited and supplied anchor evidence; their summaries cannot meet the attributed HFT trace rule and were reviewed then rejected.",
+    "The reader-walk supports refer to later pericope events while selected_context_units is empty; the retained 18:74-18:76 effects remain attributed reader-walk evidence rather than independently hydrated context analysis.",
+    "One reader-walk support mentions 18:57, which is outside the ordered context refs; it was explicitly excluded from the landed trigger set for global:learning-repair."
+  ]
+}

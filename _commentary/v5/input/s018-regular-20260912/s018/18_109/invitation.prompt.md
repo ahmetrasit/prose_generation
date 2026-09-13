@@ -1,0 +1,191 @@
+# V5 reading invitation — 18:109
+
+You are a fresh reading-invitation writer. Read the complete editorial prose
+before writing. It is your sole semantic source.
+
+Write two to four paragraphs of fluent, contemporary Turkish that reveal a
+surprising reading by following one or two main channels of resonance in the
+ayah. A channel is a connected background of meanings, images, actions, or
+relations through which the ayah can be heard and understood differently.
+Several editorial findings may together develop one channel. Summarize that
+connected movement and its consequence for the ayah's main meaning, rather
+than compressing findings individually. Give the reading's substance now;
+the invitation comes from understanding it, not from a promise of hidden depth.
+
+Before drafting, read the entire editorial prose and silently select the one
+or two channels with the strongest interpretive consequence and enough
+grounding to explain clearly. Favor channels that expand or shift what the
+ayah says, the relation it establishes, or what is at stake in its action or
+image. One fully developed channel is sufficient; add a second only when it
+offers a distinct consequential reading that can be explained within the
+invitation. No finding, channel, or major shift has an individual coverage
+claim. Unselected material may remain entirely in the full commentary.
+
+A channel may develop through grammar, sound, dialogue, a material process,
+time, imagery, or a conceptual relation. Resonance is not limited to acoustic
+effects, and an unusual image alone does not establish a channel. Use only
+connections the editorial prose actually develops. If it supplies no such
+channel, explain its strongest grounded reading without inventing connections
+or surprise.
+
+Begin inside the ayah's own words, images, actions, or relations and reveal a
+selected distinctive reading in the first paragraph. Keep the plain meaning
+reachable with only the orientation needed to understand the change. Do not
+spend an opening paragraph on routine explanation or front-load context about
+the surah, the ayah's position, or the commentary project.
+
+For each selected channel, begin with the expression that opens it, unfold the
+connected background, and show how the ayah reads or sounds against that
+background. Let a detail lead into the next through an intelligible relation
+or process, so the reader experiences the emerging reading. This is a movement
+of thought, not a mandatory sentence pattern or one paragraph per finding.
+Let the reader identify the expression being interpreted,
+where any nonordinary detail comes from, and what that detail changes in the
+reading. Briefly identify the word-family use, restricted form, collocation, or
+context that supplies an essential added detail, and preserve the concrete
+operation that makes the image work. Keep the ordinary reading and necessary
+qualification clear within this explanation; do not repeat them as a fixed
+formula. Preserve the particular object, process, or relation that makes this
+reading distinctive, and state its interpretive consequence for the ayah as a
+whole. Make intelligible what the familiar reading leaves less visible and
+what the expanded or shifted reading now lets the reader understand. Preserve
+the editorial's force: an exploratory possibility remains possible, while a
+developed shift must not be softened into a decorative association or a
+reassurance that everything means the same thing. A concrete
+account of how something is carried, transformed, lost, or restored must not
+shrink to a general statement about care, guidance, dependence, or goodness.
+Keep the details needed to make the selected channel work; omit side findings
+and shorten routine setup. If a channel cannot be explained faithfully from
+the editorial prose, choose another grounded channel or reading.
+
+When a non-focus ayah supplies a contribution used in the invitation, keep its
+reference from the editorial prose beside that contribution.
+
+Do not turn the invitation into a miniature inventory of the commentary's
+conclusions, or flatten distinct channels into a broad theme to include more
+material. Do not repair, extend, or supplement the editorial prose from memory
+or outside knowledge.
+
+Omit technical apparatus. Retain any qualification, source distinction, live
+alternative, or boundary whose absence would change the force or meaning of a
+chosen reading. Express it naturally beside the image or relation it qualifies.
+Favor positive explanations of the relation between layers: what remains in
+the foreground and what the resonance makes audible in the background. State
+how that background reinforces, expands, or shifts the understanding of the
+main meaning, with the source and degree of certainty clear. Reserve explicit
+exclusions for concrete ambiguities or live counter-evidence that need them.
+Repeated "this is not X" endings make a reading sound withdrawn; express the
+substantive qualification through what the reading does contribute wherever
+possible. Use varied, natural language rather than a repeated "second layer"
+formula, and preserve the force of expansions and shifts.
+Do not name branches, candidates, findings, scopes, evidence categories,
+ledgers, or workflow stages, or label the prose as numbered channels. Do not
+list findings serially.
+
+Use the established `{ar:..., tr:..., gloss:...}` syntax, consistent
+Turkish-readable transliteration, and short ordinary glosses. Keep Arabic
+anchors beside the explanations they ground. Within a paragraph, continue with
+the Turkish meaning where clear; provide the necessary local tag when a later
+paragraph interprets the carrier anew. Do not place Arabic script outside a
+valid tag.
+
+Build transitions within a channel through its shared object, action, or
+relation. If two channels are selected, they may occupy separate paragraphs;
+do not invent a link between them. Do not praise the commentary's quality,
+promise what the reader will find, manufacture suspense, recap at the end, or
+add a call to action. End on an image, relation, action, or tension already
+established by the selected reading.
+
+Before finishing, compare the invitation with the entire editorial prose:
+does the chosen channel reveal a consequential reading, or could the text have
+been written from the ordinary translation and a modest explanation alone?
+When the editorial supports a surprising channel, the latter fails this task.
+Can the reader follow the opening expression into a connected background and
+understand how that background expands or shifts the ayah's main meaning?
+Check the selected connections against their editorial explanation: can the
+reader tell where the nonordinary details come from, with the necessary
+qualifications intact? Repair generic explanation, isolated curiosities, or a
+compressed findings list by developing the selected channel. Do not add
+omitted channels merely for coverage. Do not output this check.
+
+Write only the invitation text to:
+
+`_commentary/v5/editorial/s018-regular-20260912/s018/18_109/18_109.invitation.tr.md`
+
+Do not add a heading, wrapper label, index, ledger, evidence file, or any other
+artifact. Do not modify the editorial prose.
+
+After writing the invitation, run:
+
+```bash
+python3 _commentary/v5/validate_prose.py _commentary/v5/editorial/s018-regular-20260912/s018/18_109/18_109.invitation.tr.md
+```
+
+If validation fails, repair only the reported mechanical file-contract issues
+and rerun it, for at most two repair cycles. Report the final validator result
+in your response.
+
+<editorial_prose>
+{ar:قُلْ, tr:qul, gloss:de} emriyle başlayan bu âyet, Rabbimin sözlerini yazmak için denizin mürekkep sayıldığı karşı-olgusal bir sahne kurar. İlk {ar:لَوْ, tr:law, gloss:eğer} bu sahneyi bir gerçeklik bildirimi olarak değil, varsayım olarak açar: {ar:كَانَ, tr:kāna, gloss:olsa} fiili, {ar:ٱلْبَحْرُ, tr:al-baḥru, gloss:deniz} kelimesini özne, {ar:مِدَادًا, tr:midādan, gloss:mürekkep} kelimesini de yüklem yapar. Bu yapı, denize bir dönüştürme eylemi değil, varsayım içinde verilmiş bir mürekkep işlevi yükler; deniz böylece sözlere hizmet eden taşıyıcı olur. {ar:مِدَادًا, tr:midādan, gloss:mürekkep} doğrudan kalemin iz bırakmasını sağlayan yazı sıvısıdır ve ilk {ar:لِ, tr:li-, gloss:için} bu sıvının yöneldiği amacı gösterir: {ar:كَلِمَاتِ رَبِّي, tr:kalimāti rabbī, gloss:Rabbimin sözleri} için. {ar:كَانَ, tr:kāna, gloss:olsa} fiilinin oluş ve biçimlenme çağrışımı kurulmuş sahneyi renklendirir; 18:28 ve 18:98'deki aynı oluş ve Rab dili de burada ilahî sözler için bir varlık çerçevesi yankısı bırakır. Cümlenin yüzeyinde deniz, sözleri yazmaya ayrılan araç olarak yerini alır.
+
+## Tükenen Taşıyıcı
+
+Bu varsayımın cevabı, {ar:لَ, tr:la-, gloss:elbette} ile {ar:نَفِدَ, tr:nafida, gloss:tükenip sona ermek} fiilinin birleştiği yerde kesinleşir: deniz mutlaka tükenir. {ar:ٱلْبَحْرُ, tr:al-baḥru, gloss:deniz} ilk koşulda mürekkep işlevi verilen taşıyıcıdır; cevapta aynı belirli adın yeniden söylenmesi, onu tükenişin öznesi olarak sahnede tutar. Geniş su kütlesi anlamı taşıyan {ar:ٱلْبَحْرُ, tr:al-baḥru, gloss:deniz}, burada büyüklüğü başarısızlığı ağırlaştıran ölçülebilir bir depo olarak iş görür. {ar:نَفِدَ, tr:nafida, gloss:tükenmek} denizin içindekiler kalmayıncaya kadar harcanmasını bildirir; böylece büyük miktar karşılaştırması elle tutulur bir kaynak tüketimine dönüşür. Fiilin kesik ve durucu duyuluşu da tamamlanmış biçimle birleşerek taşıyıcının bir anda susup kalmasını işittirir. İlk koşul, cevabın vurgusu ve bu fiil birlikte hayal edilen önermeden sonlu aracın kesin sonucuna geçer; karşı-olgusal kurgu bu sonucu gerçek bir dönüşüm iddiası olarak değil, kabul edilmiş varsayımın zorunlu akışı olarak verir.
+
+Karşılaştırmanın öteki tarafı aynı tükenme ailesinin başka bir biçimiyle kurulur. {ar:قَبْلَ, tr:qabla, gloss:önce} denizin tükenişini {ar:أَن, tr:an, gloss:bağlı olay kuran edat} tarafından yönetilen {ar:تَنفَدَ, tr:tanfada, gloss:tükenmek} olayından önceye yerleştirir. {ar:أَن, tr:an, gloss:bağlı olay kuran edat} burada yeni bir anlam alanı açmak yerine fiili zaman ölçüsüne bağlar; sözlerin tükenişi bağımsız bir olmuşluk değil, bu karşılaştırmanın içine alınmış henüz gerçekleşmemiş bir sınırdır. {ar:تَنفَدَ, tr:tanfada, gloss:tükenmek}, {ar:كَلِمَاتُ, tr:kalimātu, gloss:Rabbimin sözleri} ile birlikte gelir; çoğul sözler Arapçada dişil tekil uyumla gelen bu gerçekleşmemiş fiilin öznesidir. Böylece deniz için tamamlanmış geçmiş biçim, sözler içinse bağlı ve tamamlanmamış bir biçim vardır: aynı tükenme dili iki ayrı özne ve iki ayrı zaman görünümüyle karşılaşır. Deniz biter; sözlerin bitişi denizin aşamadığı sınır olarak açık kalır.
+
+{ar:قَبْلَ, tr:qabla, gloss:önce} kelimesinin bağlı olduğu anlam alanında karşı karşıya gelme ve yönelme baskısı da duyulabilir. 18:55'teki aynı alanın yüz yüzelik yankısı, burada iki sonun birbirine karşı kurulmuşluğunu yoğunlaştırır; yerel kelime zamansal “önce” anlamıyla çalışır, mekânsal yön ise bu sırayı renklendirir. Bazı kıraat baskıları sözlerin tükenişini tamamlanma veya içe alınma yönünde farklı hissettirebilir. Bu başka duyuluş, {ar:أَن تَنفَدَ, tr:an tanfada, gloss:sözlerin tükenmesi} kuruluşundaki kanonik bağlılığın yanında canlı bir ihtimal olarak kalır. 31:27'deki denizler ve sözler arasındaki paralel de nadir tükenme kelimelerini yan yana getirerek bu karşıtlığı güçlendirir; sözler burada yine fiilin öznesi, tamamlanmış olay olarak sunulan ise denizin tükenişidir.
+
+Sözlerin cümledeki iki görünümü bu zaman farkını biçimle de taşır. İlk {ar:كَلِمَاتِ, tr:kalimāti, gloss:sözleri} {ar:لِ, tr:li-, gloss:için} tarafından yönetilen tamlayan olarak mürekkebin hizmet ettiği ucu gösterir; ikinci {ar:كَلِمَاتُ, tr:kalimātu, gloss:sözler} ise {ar:تَنفَدَ, tr:tanfada, gloss:tükenmek} fiilinin nominatif öznesidir. Aynı kelimenin hâli ve fiille ilişkisi değişince, yazının yöneldiği ifade bu kez sonlu yazının karşısında duran özne olarak yeniden kurulur. {ar:كَلِمَاتِ, tr:kalimāti, gloss:sözleri} tek bir kopuk söz değil, söz, buyruk ve ifade alanını taşıyan bir çoğulluktur; bu çoğulluk birden çok, en az üç söz birimini içine alır ve {ar:رَبِّي, tr:rabbī, gloss:Rabbim} tamlamasıyla belirli ilahî sözlere bağlanır. Sözler iki kez açıkça söylenir, araya bırakılmış bir zamirle görünmez kılınmaz. Böylece mürekkebin yöneldiği içerik ile tükenme karşılaştırmasının öznesi aynı söz tamlamasında birbirine bağlanır.
+
+{ar:رَبِّي, tr:rabbī, gloss:Rabbim} iki söz tamlamasını da birinci tekil iyelikle belirli ve kişisel kılar. İlk kullanımda sözlerin kime ait olduğunu söyler; ikinci kullanımda, cümlenin sonunda aynı kaynağa dönerek karşılaştırmayı bir konuşan-kaynak ilişkisi çevresinde kapatır. Sözlerin çoğul sonu ile `rabbī` içindeki çift b sesi, iki komşu ismi gevşekçe yan yana getirmek yerine sıkı bir nispetli ifade duyurur. {ar:رَبّ, tr:rabb, gloss:sahip olup yöneten} kelimesinin bağlı olduğu anlam alanındaki besleyip sürdürme rengi, sözlerin tükenişe direnmesini de derinleştirir; bu renk yerel sahiplik ve yönetme görevine eşlik eder. 18:27'de Kitabın Rabbe nispet edilmesi ve sözlerin değiştirilemez oluşu, 31:27'deki deniz-söz karşılaşmasıyla birlikte, burada sözlerin tükenmezliğini rastgele bir söz yığınına değil belirtilmiş kaynağa bağlayan bağımsız yankılar oluşturur. Bu yankılar âyetin mürekkep ve tükenme ilişkisini genişletir ve yerel `rabbī` unvanı içinde kalır.
+
+İkinci koşul, ilk sonucun üzerine eklenir. {ar:وَ, tr:wa, gloss:ve} önceki koşul-cevap yapısını sürdürür, ikinci {ar:لَوْ, tr:law, gloss:eğer} ise ilk imkânsızlığı baştan kurmadan ona tavizli bir yükseltme getirir: “Bir o kadarını daha getirsek bile...” İkinci koşulun cevabı yeniden söylenmez; ilk cevabın {ar:لَنَفِدَ ٱلْبَحْرُ, tr:la-nafida al-baḥru, gloss:deniz mutlaka tükenirdi} sonucu, cümlenin sonuna kadar taşınır. Böylece ek kaynak, ilk sonlu başarısızlığın altında sınanır ve cümleye ayrı bir sonuç yüklemez. {ar:جِئْنَا, tr:jiʾnā, gloss:getirdik} birinci çoğul özneyle tamamlanmış bir getirme eylemidir; eksik tedarik ihtimalini ortadan kaldırır ve önceki `rabbī` nispetinden sonra ek kaynağı getiren failin değiştiğini gösterir. {ar:بِ, tr:bi-, gloss:ile} bu fiile eşlik ederek gelişi yalnızca yaklaşma değil, hazır bir kaynağı getirme hâline getirir. İlk {ar:لِ, tr:li-, gloss:için} amacı, sonraki {ar:بِ, tr:bi-, gloss:ile} ise getirme eşliğini kurar; biri tahsisi, diğeri eklenen aracı düzenler.
+
+Getirilen şey {ar:بِمِثْلِهِ, tr:bi-mithlihi, gloss:onun benzeriyle} zinciri içinde adlandırılır. {ar:مِثْلِهِ, tr:mithlihi, gloss:onun dengi veya benzeri}, eril iyelik ekiyle önceki denizi yeniden çağırır; dolayısıyla gevşek bir benzerlikten çok aynı maddî taşıyıcı sınıfına ait denklik kurar. `bi-` bu eşdeğeri getirilen nesneye bağlar, son {ar:مَدَدًا, tr:madadan, gloss:ek destek} da eylem, eşdeğer ve eklenmiş kaynak arasındaki zinciri cümlenin sonuna kadar taşır. Eşitlik deniz ile deniz arasında kurulur ve bu maddî eşdeğerlik sözlerin kaynağına taşınmaz. Zamirin mürekkebe dönen daha zayıf bir referans ihtimali de duyulabilir; yerel ek, önceki deniz ve getirilen kaynak ilişkisi maddî eşdeğerliği öne çıkarır. Aynı surede insan benzerliğine uzanan `mithlihi` yankısı, bu kelimeye daha geniş bir benzerlik basıncı ekleyebilir. Getirilen ikinci kaynak, ilk taşıyıcının yardımcısı olarak çoğalır; rolü sözlerin kaynağıyla eşitlenmez.
+
+Son {ar:مَدَدًا, tr:madadan, gloss:ek destek} kelimesi, ilk {ar:مِدَادًا, tr:midādan, gloss:mürekkep} ile aynı kök ailesinin sesçe yakın iki ayrı biçimi gibi çalışır. Biri yazı sıvısını, diğeri ekleme ve takviyeyi kurar; aralarındaki bağ genişletme fikrini denizin ilk işlevinden son desteğe kadar taşır, iki kelimenin görevlerini ayrı tutar. `midādan`ın uzatma ve yayma baskısı, ilk {ar:لِ, tr:li-, gloss:için} ile sözlere yöneldiğinde yazı sıvısı işlevinde belirginleşir. `madadan` dışarıdan yardım, kaynak veya miktar ekleme alanını duyurur; denize denk getirilen kaynak bu yüzden ilk sonlu taşıyıcıyı sürdüren bir yardım olarak görünür. Kelimenin sonunda oluşan burunlu kapanış da cevap söylenmeden cümlenin ekleme biçiminde mühürlenmesini sağlar. Son yüzeyin yeniden mürekkebe yaklaştırıldığı kıraat baskıları bu ek uzantıyı başka türlü duyurabilir; kanonik biçim yine eklenmiş desteği korur. Kelimenin sözdizimsel yakınlığı, getirilen kaynağı niteleyen bir hâl ile getirilen nesneyi tamamlayan unsur arasında açık bırakılabilir; iki okumada da cümlenin temelinde sonlu bir ek destek vardır.
+
+Bu kelime ilişkilerinin ortak katkısı, karşılaştırmayı iki hacmin hesabından taşıyıcı ile içerik arasındaki ayrıma taşımaktır. {ar:ٱلْبَحْرُ, tr:al-baḥru, gloss:deniz} geniş ve ölçülebilir ortamı, {ar:مِدَادًا, tr:midādan, gloss:mürekkep} yazıya aktarılabilen maddî yüzeyi, {ar:نَفِدَ, tr:nafida, gloss:tükenmek} ise o yüzeyin içindekileri tüketerek sona erişini gösterir. {ar:كَلِمَاتِ رَبِّي, tr:kalimāti rabbī, gloss:Rabbimin sözleri} bu ortamın taşıdığı anlamlı içeriktir; taşıyıcılar çoğaldıkça içerik kuşatılmış olmaz. 31:27'de çoğaltılmış denizlerin karşısında sözlerin tükenmemesi, 16:96'da insanların elindekinin tükenip Allah katındakinin kalması ve 38:54'te tükenmeme dili, aynı tükenme ailesinin sonlu ortam ile kaynak arasındaki ayrımı farklı yüzlerden duyurur. Buradaki fiil, taşıyıcının içindekileri kaybederek sürekliliğini keser; sözlerin kaynak ilişkisi bu kesintinin dışında kalır.
+
+## Sözün Canlı Ucu
+
+Başlangıçtaki {ar:قُلْ, tr:qul, gloss:de} emrinin bu kelimelerle buluşması, deniz-mürekkep sahnesine yaşayan bir hitap katkısı getirir. Emir, sahneyi başıboş bir düşünce olmaktan çıkarıp söylenmesi emredilmiş bir bildirime dönüştürür; bütün koşul peygamberî ses üzerinden taşınır. Bu biçim doğrudan söyleme eylemini taşır; küçüklükle ilgili anlam alanı burada devreye girmez. {ar:كَلِمَاتِ, tr:kalimāti, gloss:sözleri} ve {ar:كَلِمَاتُ, tr:kalimātu, gloss:sözler} ile birlikte duyulduğunda âyet, sınırlı ama etkili bir hitap eylemi de olur. Yazı sıvısı iletişimi kayda geçirir, emredilmiş söyleyiş ise alıcıyla yaşayan bir söz alışverişi imkânını açar. Bu canlılık, mürekkebin sıradan kayıt işlevine eklenir; emrin biçimi daha geniş bir muhatap veya kamu kitlesi belirlemeye yetmez.
+
+`madadan` kelimesinin katkısı, sonlu taşıyıcının yalnızca yenilenmesini değil, çoğaltılarak yine de sınırda kalmasını görünür kılmaktır. Kelime bir şeyi boyuna uzatıp yayma, dışarıdan yardım veya miktar ekleme, suyun akıp dolması ve artması gibi anlam baskılarını taşıyabilir. 31:27'de denizlerin çoğaltılması bu baskıları kapasiteye bağlar: başka denizler eklenir, bir deniz başka suyla beslenen kaynak hâline gelir ve ortam büyür; ekleme yine tükenmezlik üretmez. Buradaki uzatma maddî taşıyıcının genişlemesine aittir; süreye, gölgeye veya bedene taşınmaz. Dışarıdan yardım çağrışımı bu bağlantıda askerî, yiyeceğe ilişkin veya sıradan insan desteği anlamına taşınmaz; suyun artışı da doğal suyun bütün kullanımlarını açmaz. Buna karşılık {ar:مِدَادًا, tr:midādan, gloss:kalemin iz bırakmasını sağlayan yazı sıvısı} doğrudan yazı sıvısıdır; 31:27'deki deniz ve kalem birlikteliği bu işlevi güçlendirir. Buradaki nesne kalemin iz bırakmasını sağlayan mürekkeptir; hokkayı yenileme veya tek dolum gibi işlemler bu bağlantının kapsamına girmez. İlk mürekkep ile son ek destek arasındaki anlam ailesi böylece kapasite artışını iki ayrı işleve dağıtır.
+
+## Çalkantıdan Alıcıya
+
+18:99'daki görüntünün katkısı, odaktaki denizi hareketsiz bir hacimden hareket eden, parçalanabilen ve yeniden toplanabilen sonlu bir bütüne çevirmektir. {ar:وَتَرَكْنَا بَعْضَهُمْ يَمُوجُ فِي بَعْضٍ, tr:wa-taraknā baʿḍahum yamūju fī baʿḍ, gloss:parçaların birbirinin içine dalgalanması} ifadesinde birimler birbirinin içine dalgalanır; {ar:بَعْضَهُمْ ... بَعْضٍ, tr:baʿḍahum ... baʿḍin, gloss:parçalar ve birbirinin parçaları} bölünmüş unsurları görünür kılar. {ar:فَجَمَعْنَاهُمْ جَمْعًا, tr:fa-jamaʿnāhum jamʿan, gloss:hepsini bir araya toplamak} ise dağınık olanın yeniden bir bütüne getirilebildiğini ekler. Bu iki işlem denize döndüğünde, bölünme, çalkantı ve toplanma sonluluk niteliğini değiştirmez; sözlerin taşması ilk hacme değil, yeniden kurulmuş bütünün tamamına karşı düşünülür. Odaktaki {ar:مَدَدًا, tr:madadan, gloss:eklenen destek} için suyun başka sudan beslenip çoğalması da bu sahneye eklenir: ikinci deniz ayrı bir sayıdan çok aynı sonlu alanı besleyen bir uzantı olur. 18:99 ile 18:109 arasındaki yakınlık bu hareket ve sonluluk ayrıntısıyla sınırlı bir temas kurar.
+
+18:100 ve 18:101'deki görüntülerin katkısı, tükenmeyi kaynağın sessizleşmesi değil, alıcının kanallarında beliren bir sınır olarak duyurmaktır. {ar:وَعَرَضْنَا جَهَنَّمَ ... عَرْضًا, tr:wa-ʿaraḍnā ... ʿarḍan, gloss:görünür kılmak ve göstermek} bir şeyi göz önüne serer; 18:101'de {ar:غِطَاءٍ, tr:ghiṭāʾ, gloss:gözün üzerindeki örtü} gösterilen şeyle göz arasında, {ar:لَا يَسْتَطِيعُونَ سَمْعًا, tr:lā yastaṭīʿūna samʿan, gloss:işitmeye güç yetirememek} ise işitilenle alıcı arasında sınır kurar. {ar:ذِكْرِي, tr:dhikrī, gloss:anılan ve dile getirilen hatırlatma} anlamlı bir hitap ve adres ilişkisini, {ar:سَمْعًا, tr:samʿan, gloss:anlayarak işitme ve uyma} sözün anlaşılması ve karşılanması çizgisini taşır. {ar:لِّلْكَافِرِينَ, tr:li-l-kāfirīn, gloss:örtme ve kapama ile alıcıdan kesilenler} de gösterilen şeyin varlığı ile alıcının onu alabilmesini birbirinden ayıran engel görüntüsünü ekler. Bu temas, mürekkebi içeriğin kendisinden ayrı, onu taşıyan sonlu yüzey olarak belirginleştirir; kayıt, görme ve işitme kanalları sınırlanabilirken hitabın kaynağı açık kalır. Bağlamın yalnızca mahkûm edilmiş topluluğu anlatıyor olabileceği ihtimali bu yerel alıcı okumasının sınırıdır; odak âyetin ölçü karşıtlığı onun içinde korunur.
+
+## Harcanan Emek
+
+18:103 ve 18:104'ün katkısı, tükenen taşıyıcı ile hedefe ulaşan anlamı birbirinden ayırmaktır. {ar:ٱلْأَخْسَرِينَ أَعْمَالًا, tr:al-akhsarīna aʿmālan, gloss:işleri bakımından en çok kaybedenler} ve {ar:ضَلَّ سَعْيُهُمْ, tr:ḍalla saʿyuhum, gloss:çabaları yoldan şaşanlar} çok iş ile sürekli çabanın yönünü ve sonucunu ayrı ayrı görünür kılar. {ar:يَحْسَبُونَ أَنَّهُمْ يُحْسِنُونَ صُنْعًا, tr:yaḥsabūna annahum yuḥsinūna ṣunʿan, gloss:iyi yaptıklarını sanarak ustalıkla üretmek} üretimin parlak görünüşünü hedefe temasından ayırır. Bu ayrım, odaktaki {ar:مِدَادًا, tr:midādan, gloss:harcanan yazı sıvısı} ile {ar:كَلِمَاتِ, tr:kalimāti, gloss:anlam taşıyan sözler} arasına yerleşir: bütün mürekkebin kullanılması, sözlerin anlamına sahip olmaya dönüşmez. {ar:صُنْعًا, tr:ṣunʿan, gloss:özenle yapılmış ürün} yazının işçiliğini, {ar:سَعْيُهُمْ, tr:saʿyuhum, gloss:hedefe yönelmiş sürekli çaba} emeğin sürmesini, {ar:ضَلَّ, tr:ḍalla, gloss:amaçtan sapmak} ise üretim ile hedef arasındaki temasın kaçırılmasını adlandırır. {ar:أَعْمَالُهُمْ, tr:aʿmāluhum, gloss:niyetle ortaya konan insan işleri} insan ürünü ile sonlu yazı sıvısını aynı verim alanında buluşturur; {ar:نَفِدَ, tr:nafida, gloss:eldeki tükenip sona ermek} kaynağın bitişini bildirir. Bu temas odak âyetin açık anlamını değişmeden tutar ve harcanmış olmayı anlamı elde etmiş olmakla eşitlemeyen bir ölçü ekler.
+
+18:105 ve 18:106'nın katkısı, fiziksel hacim ölçüsü ile anlamın ve değerlendirmenin kaynağını ayrı kategoriler olarak görünür kılmaktır. {ar:بِآيَاتِ رَبِّهِمْ, tr:bi-āyāti rabbihim, gloss:Rablerinin işaretleri} iletişimin işaret boyutunu, {ar:وَزْنًا, tr:waznan, gloss:ağırlıkla ölçme} sonlu bir hesap çerçevesini açar; {ar:جَزَاؤُهُمْ, tr:jazāʾuhum, gloss:onlara karşılık verilen sonuç} ve {ar:رُسُلِي, tr:rusulī, gloss:elçilerim} mesajın ulaştırılması ile karşılığının değerlendirilmesini birlikte düşündürür. Odaktaki {ar:مِدَادًا, tr:midādan, gloss:mürekkep ve ölçülebilir hacim} bu temasla ölçülebilen taşıyıcı olarak belirginleşir; hacim sözleri taşır, fakat anlamın ve değerlendirmenin kaynağıyla ortak bir cetvel kurmaz. {ar:كَلِمَاتِ رَبِّي, tr:kalimāti rabbī, gloss:anlam ve hüküm taşıyan Rabbimin sözleri} işaretleri ve karşılıkları mümkün kılan içerik olarak görünür; {ar:وَزْنًا, tr:waznan, gloss:sonlu hesap ölçüsü} denizin hacmiyle buluşurken sözlerin kendisi maddî bir ölçüye indirgenmez. Bu bağın gücü, 18:105 ve 18:106'daki işaretlerin inkârı ve tartılmayan işler bağlamından odak âyete taşınan ölçü ve karşılık ayrıntısıyla sınırlıdır; deniz imgesi için doğrudan açıklama hükmü vermez.
+
+18:108'deki kalıcılık dilinin katkısı, tükenme karşılaştırmasına birbirinden farklı iki zaman rejimi vermektir. {ar:خَالِدِينَ فِيهَا, tr:khālidīna fīhā, gloss:orada kalıcı olmak} sona ermeye direnerek kalmayı, {ar:لَا يَبْغُونَ عَنْهَا حِوَلًا, tr:lā yabghūna ʿanhā ḥiwalan, gloss:oradan başka bir dönüş aramamak} ise bir durumdan veya yerden başka bir duruma geçiş aramamayı gösterir. {ar:يَبْغُونَ, tr:yabghūna, gloss:başka bir şeyi aramak} odaktaki denizin tükenince başka kaynakla desteklenmesine karşıt bir arayış açar; {ar:حِوَلًا, tr:ḥiwalan, gloss:bir durumdan veya yerden başka duruma geçiş} bu değişimi hareket olarak görünür kılar. {ar:خَالِدِينَ, tr:khālidīn, gloss:sona ermeye direnerek kalıcı olmak} ile {ar:نَفِدَ, tr:nafida, gloss:tükenip sürekliliği kesilmek} karşılaştığında denizin desteklenerek uzatılan ömrü ile sözlerin bu kopuşun dışında kalışı ayrılır. {ar:مَدَدًا, tr:madadan, gloss:süreyi uzatan ek} süreyi uzatma rengi taşır; uzatılmış süre, kalıcılık rejimine dönüşmez. Bu temas cennetteki kalıcılığı sözlerin ontolojisine hüküm olarak taşımaz; odak âyetin “deniz önce tükenir” hareketini süre bakımından aydınlatır.
+
+## Yardımın Sınırı
+
+18:102'deki {ar:أَن يَتَّخِذُوا عِبَادِي مِن دُونِي أَوْلِيَاءَ, tr:an yattakhidhū ʿibādī min dūnī awliyāʾ, gloss:kullarımı Benden başka koruyucular edinmek} sorusunun katkısı, benzerlik ile destek arasındaki rol farkını görünür kılmaktır. {ar:حَسِبَ, tr:ḥasiba, gloss:öyle sanmak ve hesap etmek} yanılgısı, getirilen ikinci denizin kaynağın yerine geçebileceği hesabını açar. {ar:أَن يَتَّخِذُوا, tr:an yattakhidhū, gloss:edinmek ve yerine koymak} eylemi ile {ar:مِثْلِهِۦ, tr:mithlihi, gloss:onun benzeri} yan yana geldiğinde bir benzeri asıl kaynağın yerine koyma ihtimali belirir; {ar:مِن دُونِي, tr:min dūnī, gloss:Benden başka} ve {ar:أَوْلِيَاءَ, tr:awliyāʾ, gloss:patron ve koruyucu rolü} bu rol değişiminin sınırını belirler. Odaktaki {ar:رَبِّي, tr:rabbī, gloss:sahip olup yöneten Rabbim} mutlak sahiplik ve düzenleyici yetkeyi taşır; benzer deniz bu ilişkinin altında kalan bir vasıta olarak kalır. {ar:مِثْلِهِۦ, tr:mithlihi, gloss:benzerlik ve denklik} iki deniz arasında malzeme eşliği kurar, {ar:مَدَدًا, tr:madadan, gloss:dışarıdan eklenen yardım ve kaynak} ise ikinci denizi ilkini sürdüren yardımcı konumuna yerleştirir. Bu temas 18:102'nin bağlılık bağlamının tamamını taşımadan, desteğin kaynakla karıştırılmaması ayrıntısını odak âyete getirir.
+
+## Sonlu El, Açık Kaynak
+
+18:110'da bu taşıyıcı-kaynak ayrımının katkısı, mesajı taşıyan sonlu el ile mesajın kaynağını aynılaştırmamaktır. {ar:بَشَرٌ مِّثْلُكُمْ, tr:basharun mithlukum, gloss:sizin gibi bir insan} ifadesinde benzerlik insanın kendi sınıfı içinde kalır; insan, deniz gibi, mesajı taşıyan bir aracı olur. {ar:يُوحَىٰ إِلَيَّ, tr:yūḥā ilayya, gloss:bana vahyediliyor} vahyin alıcıya ulaştığı ilişkiyi gösterir. 18:109 ve 18:110'da {ar:قُلْ, tr:qul, gloss:söyle} emrinin tekrarlanması, deniz-mürekkep imgesi ile insan elçinin sınırlı aktarım eylemini yan yana getirir. {ar:كَلِمَاتِ رَبِّي, tr:kalimāti rabbī, gloss:Rabbimin anlaşılır sözleri} ile vahyin ulaşması arasındaki temas, içeriğin taşıyıcıdan ayrı kaldığını belirginleştirir. {ar:مِثْلِهِۦ, tr:mithlihi, gloss:benzerlik ilişkisi} odakta deniz-deniz, burada insan-insan düzleminde işler; iki benzerlik de kendi sınıfı içinde kalır. 17:88'de insan ve cinlerin Kur'an'ın benzerini getiremeyeceğini bildiren meydan okuma, bu benzerlik kelimesine ilahî sözlerin yaratılmış bir eşdeğere indirgenememesi yönünde daha geniş bir sınır ekler; odaktaki deniz-deniz hesabı yine maddî taşıyıcı düzleminde kalır. {ar:مَدَادًا, tr:midādan, gloss:iz bırakan yazı sıvısı} insanla paralel bir sonlu taşıyıcı gibi görünür. {ar:إِلَٰهٌ وَاحِدٌ, tr:ilāhun wāḥid, gloss:tek ilah}, {ar:وَلَا يُشْرِكْ, tr:wa-lā yushrik, gloss:ortak koşmamak} ve {ar:أَحَدًا, tr:aḥadan, gloss:hiçbir kimse} benzerliği kaynakla ortaklığa dönüştürmeyen tek kaynak ilişkisini kurar. 18:110'un bütün bağımsız çağrısını buraya taşımadan, bu ortak görüntü ek denizi maddî bir muadil, insanı da vahyin sonlu alıcısı olarak görünür kılar.
+
+Tükenmeyen sözlerin sonlu insana ulaşması, taşıyıcı ile kaynak ayrımına bir cevap imkânı ekler; 18:110 bu imkânı soyut ölçüden sınırlı bir karşılığa çevirir. Odaktaki {ar:قُلْ, tr:qul, gloss:sonlu bir söyleme eylemi} bir söz edimini başlatır; {ar:يُوحَىٰ إِلَيَّ, tr:yūḥā ilayya, gloss:bana ulaşan vahiy} bu edimin içine alınan sınırlı alıcıyı gösterir. Bu alıcıdan istenen {ar:فَلْيَعْمَلْ عَمَلًا صَالِحًا, tr:falyaʿmal ʿamalan ṣāliḥan, gloss:uygun ve iyi bir iş yapsın} bütün sözleri tüketmek değil, alınan hitaba cevap vermektir. {ar:عَمَلًا, tr:ʿamalan, gloss:niyetli eylem} sözü bütünüyle temsil etmek yerine eylemsel karşılığı, {ar:صَالِحًا, tr:ṣāliḥan, gloss:yerine oturan ve uygun düşen} ise bu karşılığın yerli yerinde olmasını taşır. {ar:عِبَادَةِ رَبِّهِ, tr:ʿibādati rabbihi, gloss:Rabbine yönelen boyun eğiş} anlamlı sözlere verilen ilişkisel cevabı, {ar:وَلَا يُشْرِكْ, tr:wa-lā yushrik, gloss:ortak koşmadan yönelmek} ise cevabın tek kaynağa bağlılığını belirler. Böylece erişim, tükenmeyen kaynağın tamamını kopyalamaya değil, sınırlı söz, uygun eylem ve tek kaynağa yönelen ibadetle gerçek temas kurmaya bağlanır. 18:110'un bağımsız bir amel çağrısı olarak okunması açık kalır; bu pasajda onun odak âyetin ölçü paradoksuna verebildiği nitelikli karşılık görünür kılınır.
+
+## Uzak Bir Su İzi
+
+18:105'teki görüntünün katkısı, maddî kaynağın tükenmesi ile insan ürününün verimini kaybetmesini aynı dar kayıp ekonomisinde buluşturmaktır. {ar:فَحَبِطَتْ أَعْمَالُهُمْ, tr:fa-ḥabiṭat aʿmāluhum, gloss:işleri boşa çıkıp verimi yok olmak} insan işlerinin boşa çıkışını, {ar:نَفِدَ ٱلْبَحْرُ, tr:nafida al-baḥru, gloss:denizin tükenmesi} ise sonlu rezervuarın bitişini gösterir. {ar:حَبِطَتْ, tr:ḥabiṭat, gloss:bir kuyudaki suyun kaybolmasıyla verimin boşa çıkması} için verilen dal, 18:105'in doğrudan kelime anlamı olarak değil, odakla buluşan ek bir su-kaybı görüntüsü olarak çalışır. Deniz, insan ürününün karşısında suyu tükenen sonlu bir rezervuar biçimi verir; {ar:أَعْمَالُهُمْ, tr:aʿmāluhum, gloss:niyetle ortaya konan insan işleri} bu rezervuarın insan verimi tarafını taşır. Böylece maddî kaynak ile insan verimi aynı kayıp ekonomisine girebilirken Rabbimin sözleri kaynak ilişkisi bakımından ayrı kalır. Bu temas 18:105'in doğrudan kuyudan söz ettiğini veya 18:109'un doğrudan amelleri anlattığını kurmaz; bağlantı, su-kaybı görüntüsüyle sınırlı ve keşifseldir.
+
+Deniz, mürekkep ve sözler arasındaki uzak temasın katkısı, yazı izini bedensel bir iz açılması gibi hissettirmektir. {ar:ٱلْبَحْرُ, tr:al-baḥru, gloss:deniz} kelimesinin derinlikten çıkan koyu renk yönü, {ar:كَلِمَات, tr:kalimāt, gloss:sözler} içindeki yara ve yaralama alanı ile {ar:مَدَادًا, tr:midādan, gloss:mürekkep} içindeki yara maddesi çağrışımıyla buluştuğunda, yazı iz açan bir kesik gibi görünür. Aynı deniz alanının koyu kırmızılık baskısı, yara ve tükenme tetikleyicileriyle sonlu sıvıya bir beden rengi ekler. {ar:مَدَادًا, tr:midādan, gloss:mürekkep} ile {ar:مَدَدًا, tr:madadan, gloss:ek destek} içindeki madde alanı, yarada biriken irin görüntüsüne de değebilir; {ar:نَفِدَ, tr:nafida, gloss:tükenmek} bu sonlu sıvının bitişini, sözlerin açtığı kavramsal etkinin açık kalışıyla karşılaştırır. Bu bedensel görüntü, maddî ve keşifsel bir analoji olarak odak yüzeyinde kalır; deniz su, mürekkep yazı sıvısı, sözler de sözler olarak iş görür.
+
+## Alanı Genişleyen Rab
+
+İç bağlamın ötesinde, açıkça eklenen 1:2'nin {ar:رَبِّ الْعَالَمِينَ, tr:rabbi l-ʿālamīn, gloss:bütün âlemlerin Rabbi} ifadesinin katkısı, odaktaki {ar:رَبِّي, tr:rabbī, gloss:Rabbim} tamlamasının kaynak alanını konuşanın özel çerçevesinden bütün âlemlere doğru genişletmektir. “Rabbimin sözleri” konuşanın Rabbine ait kalır; 1:2'deki “bütün âlemler” sözü, sahip olup yöneten Rab ilişkisinin kapsamını somutlaştırır. Bu dış temas 1:2 ile sınırlıdır; 1:3, 1:4, 1:5, 1:6 ve 1:7'deki rahmet, hüküm, yol ve sapma görüntüleri burada odak kelimesine dönen ayırt edici bir anlam kurmaz. 1:2'nin açtığı alan, Rabbimin sözlerini taşıyıcıların çoğaltılmasıyla kuşatılabilir bir nesne olmaktan çıkaran kaynak ilişkisini yerli yerine koyar.
+
+</editorial_prose>

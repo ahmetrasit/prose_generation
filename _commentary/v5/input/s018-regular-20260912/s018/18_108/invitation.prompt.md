@@ -1,0 +1,173 @@
+# V5 reading invitation — 18:108
+
+You are a fresh reading-invitation writer. Read the complete editorial prose
+before writing. It is your sole semantic source.
+
+Write two to four paragraphs of fluent, contemporary Turkish that reveal a
+surprising reading by following one or two main channels of resonance in the
+ayah. A channel is a connected background of meanings, images, actions, or
+relations through which the ayah can be heard and understood differently.
+Several editorial findings may together develop one channel. Summarize that
+connected movement and its consequence for the ayah's main meaning, rather
+than compressing findings individually. Give the reading's substance now;
+the invitation comes from understanding it, not from a promise of hidden depth.
+
+Before drafting, read the entire editorial prose and silently select the one
+or two channels with the strongest interpretive consequence and enough
+grounding to explain clearly. Favor channels that expand or shift what the
+ayah says, the relation it establishes, or what is at stake in its action or
+image. One fully developed channel is sufficient; add a second only when it
+offers a distinct consequential reading that can be explained within the
+invitation. No finding, channel, or major shift has an individual coverage
+claim. Unselected material may remain entirely in the full commentary.
+
+A channel may develop through grammar, sound, dialogue, a material process,
+time, imagery, or a conceptual relation. Resonance is not limited to acoustic
+effects, and an unusual image alone does not establish a channel. Use only
+connections the editorial prose actually develops. If it supplies no such
+channel, explain its strongest grounded reading without inventing connections
+or surprise.
+
+Begin inside the ayah's own words, images, actions, or relations and reveal a
+selected distinctive reading in the first paragraph. Keep the plain meaning
+reachable with only the orientation needed to understand the change. Do not
+spend an opening paragraph on routine explanation or front-load context about
+the surah, the ayah's position, or the commentary project.
+
+For each selected channel, begin with the expression that opens it, unfold the
+connected background, and show how the ayah reads or sounds against that
+background. Let a detail lead into the next through an intelligible relation
+or process, so the reader experiences the emerging reading. This is a movement
+of thought, not a mandatory sentence pattern or one paragraph per finding.
+Let the reader identify the expression being interpreted,
+where any nonordinary detail comes from, and what that detail changes in the
+reading. Briefly identify the word-family use, restricted form, collocation, or
+context that supplies an essential added detail, and preserve the concrete
+operation that makes the image work. Keep the ordinary reading and necessary
+qualification clear within this explanation; do not repeat them as a fixed
+formula. Preserve the particular object, process, or relation that makes this
+reading distinctive, and state its interpretive consequence for the ayah as a
+whole. Make intelligible what the familiar reading leaves less visible and
+what the expanded or shifted reading now lets the reader understand. Preserve
+the editorial's force: an exploratory possibility remains possible, while a
+developed shift must not be softened into a decorative association or a
+reassurance that everything means the same thing. A concrete
+account of how something is carried, transformed, lost, or restored must not
+shrink to a general statement about care, guidance, dependence, or goodness.
+Keep the details needed to make the selected channel work; omit side findings
+and shorten routine setup. If a channel cannot be explained faithfully from
+the editorial prose, choose another grounded channel or reading.
+
+When a non-focus ayah supplies a contribution used in the invitation, keep its
+reference from the editorial prose beside that contribution.
+
+Do not turn the invitation into a miniature inventory of the commentary's
+conclusions, or flatten distinct channels into a broad theme to include more
+material. Do not repair, extend, or supplement the editorial prose from memory
+or outside knowledge.
+
+Omit technical apparatus. Retain any qualification, source distinction, live
+alternative, or boundary whose absence would change the force or meaning of a
+chosen reading. Express it naturally beside the image or relation it qualifies.
+Favor positive explanations of the relation between layers: what remains in
+the foreground and what the resonance makes audible in the background. State
+how that background reinforces, expands, or shifts the understanding of the
+main meaning, with the source and degree of certainty clear. Reserve explicit
+exclusions for concrete ambiguities or live counter-evidence that need them.
+Repeated "this is not X" endings make a reading sound withdrawn; express the
+substantive qualification through what the reading does contribute wherever
+possible. Use varied, natural language rather than a repeated "second layer"
+formula, and preserve the force of expansions and shifts.
+Do not name branches, candidates, findings, scopes, evidence categories,
+ledgers, or workflow stages, or label the prose as numbered channels. Do not
+list findings serially.
+
+Use the established `{ar:..., tr:..., gloss:...}` syntax, consistent
+Turkish-readable transliteration, and short ordinary glosses. Keep Arabic
+anchors beside the explanations they ground. Within a paragraph, continue with
+the Turkish meaning where clear; provide the necessary local tag when a later
+paragraph interprets the carrier anew. Do not place Arabic script outside a
+valid tag.
+
+Build transitions within a channel through its shared object, action, or
+relation. If two channels are selected, they may occupy separate paragraphs;
+do not invent a link between them. Do not praise the commentary's quality,
+promise what the reader will find, manufacture suspense, recap at the end, or
+add a call to action. End on an image, relation, action, or tension already
+established by the selected reading.
+
+Before finishing, compare the invitation with the entire editorial prose:
+does the chosen channel reveal a consequential reading, or could the text have
+been written from the ordinary translation and a modest explanation alone?
+When the editorial supports a surprising channel, the latter fails this task.
+Can the reader follow the opening expression into a connected background and
+understand how that background expands or shifts the ayah's main meaning?
+Check the selected connections against their editorial explanation: can the
+reader tell where the nonordinary details come from, with the necessary
+qualifications intact? Repair generic explanation, isolated curiosities, or a
+compressed findings list by developing the selected channel. Do not add
+omitted channels merely for coverage. Do not output this check.
+
+Write only the invitation text to:
+
+`_commentary/v5/editorial/s018-regular-20260912/s018/18_108/18_108.invitation.tr.md`
+
+Do not add a heading, wrapper label, index, ledger, evidence file, or any other
+artifact. Do not modify the editorial prose.
+
+After writing the invitation, run:
+
+```bash
+python3 _commentary/v5/validate_prose.py _commentary/v5/editorial/s018-regular-20260912/s018/18_108/18_108.invitation.tr.md
+```
+
+If validation fails, repair only the reported mechanical file-contract issues
+and rerun it, for at most two repair cycles. Report the final validator result
+in your response.
+
+<editorial_prose>
+## İçeride Süren Kalış
+
+Âyet, 18:107'de anılan Firdevs bahçelerinde sürekli kalanların orada kalmayı sürdürdüğünü ve o bahçelerden başka bir yere ya da hâle geçiş aramadıklarını bildirir. Başındaki {ar:خَٰلِدِينَ, tr:hâlidîne, gloss:sürekli kalanlar} erkek çoğul etken ortaç ve hâl bildiren kuruluşuyla, kalışı dışarıdan verilmiş bir süre olarak değil, orada yaşayanların sürdürdüğü bir durum olarak kurar. Böylece süre, yaşayanların içinden devam eden bir ikamet gibi duyulur; biçimin anlam ağırlığı zorla tutulmaya değil, kalışın sürdürülmesine aittir. {ar:فِيهَا, tr:fîhâ, gloss:onun içinde} bu devamlılığın yerini, 18:107'de anılan bahçelerin içini gösterir. Ardından {ar:لَا, tr:lâ, gloss:olumsuzlayan parçacık} ile {ar:يَبْغُونَ, tr:yebğûne, gloss:ararlar veya isterler} birleşir; {ar:عَنْهَا, tr:anhâ, gloss:ondan} ve {ar:حِوَلًا, tr:hivelen, gloss:yer veya durum değişimi} ise arayışın bahçeden başka bir yere ya da duruma yönelme imkânını kapattığını gösterir. Buradaki {ar:يَبْغُونَ, tr:yebğûne, gloss:ararlar veya isterler} olağan isteme ve arama anlamını, {ar:حِوَلًا, tr:hivelen, gloss:yer veya durum değişimi} de doğrudan nesne olarak aranan yer veya durum değişimini taşır.
+
+Bu kalışın hangi kabulden doğduğu 18:107'nin hemen önceki sahnesinde görünür. 18:107'deki {ar:عَمِلُوا۟, tr:amilû, gloss:eylediler} ile {ar:ٱلصَّٰلِحَٰتِ, tr:sâlihât, gloss:yerli yerinde ve sağlam işler} birlikte düşünüldüğünde, yalnızca yapılmış bir iş değil, iyilikte sağlamlığını koruyan kasıtlı eylem öne çıkar. Ardından 18:107'de {ar:جَنَّٰتُ ٱلْفِرْدَوْسِ, tr:cennâtü'l-firdevs, gloss:Firdevs bahçeleri} ağaçlarla örtülü ve korunaklı yeri, {ar:نُزُلًا, tr:nüzülen, gloss:varana hazırlanmış konaklama} ise varana hazırlanmış kabulü kurar. 18:108'deki {ar:خَٰلِدِينَ, tr:hâlidîne, gloss:sürekli kalanlar} önceki tümceden öznesini ve alınmış ödülü geri alır; âyet yeni bir fail ya da bağımsız bir olayla değil, kabul edilmiş kişilerin sürüp giden ikametiyle devam eder. Böylece 18:107'nin verdiği kişiler ve yer, 18:108'de gerçekleşmiş bir yerleşmeye açılır; bu devam doğrudan iki komşu âyet arasındaki sınırda işler.
+
+18:108'de bahçe, varana sunulmuş bir yerden kalan kişinin yerleştiği yurda doğru açılır. Bu görüntünün dayanağı, 18:102 ile 18:107'de tekrarlanan {ar:نُزُلًا, tr:nüzülen, gloss:varana hazırlanmış konaklama} sözüdür: 18:102'de cehennem, 18:107'de Firdevs bahçeleri aynı kabul diliyle adlandırılır. 18:107'deki bahçenin ardından gelen {ar:خَٰلِدِينَ, tr:hâlidîne, gloss:sürekli kalanlar} ve olumsuzlanan {ar:يَبْغُونَ, tr:yebğûne, gloss:ararlar veya isterler}, hazırlanmış kabulü kalan kişinin yerleştiği yurda doğru ilerletir. Bu bağlantı, {ar:نُزُلًا, tr:nüzülen, gloss:varana hazırlanmış konaklama} kelimesini zorunlu bir geçici misafirlik tanımına kapatmadan, iki kullanımın ve ardından gelen kalıcılığın açtığı yerleşme imgesi olarak tutar.
+
+Bu yerleşmenin yönü, kısa edatların birbirini izlemesiyle belirginleşir. {ar:فِي, tr:fî, gloss:içinde} edatı, {ar:خَٰلِدِينَ, tr:hâlidîne, gloss:sürekli kalanlar} ile birleşerek kalıcılığı yalnız zamanın uzaması olmaktan çıkarıp bir yerin içinde ikamet hâline getirir. {ar:فِيهَا, tr:fîhâ, gloss:onun içinde} içindeki dişil zamir, 18:107'de kurulmuş belirli bahçeleri yeniden adlandırmadan geri çağırır; ardından {ar:عَنْهَا, tr:anhâ, gloss:ondan} aynı bahçeyi bu kez ayrılmanın kaynağı olarak gösterir. Tek bir yer önce kapsayan iç mekân, sonra içeriden uzaklaşılacak kaynak olarak görünür; gönderim sabit kalır, cümlenin yönü değişir. Kaynak bildiren {ar:عَنْ, tr:an, gloss:uzaklaşma kaynağından} edatı, {ar:يَبْغُونَ, tr:yebğûne, gloss:ararlar veya isterler} fiilinin tamamlayıcısı olarak yönü bahçeden uzağa çevirir. Bu kuruluş bahçeye ilgisizliği değil, bahçeden ayrılmayı istememeyi duyurur; fiziksel bir rota veya varılacak başka bir hedef kurmaz. Fiilin erkek çoğul biçimi de baştaki ortaçla aynı müminleri cümlenin öznesi olarak korur.
+
+Bahçeden uzaklaşma yönünün kapanması, âyetin ilk ve son kelimeleri arasında bir çerçeve kurar. {ar:لَا, tr:lâ, gloss:olumsuzlayan parçacık} bağımsız bir kelime olarak {ar:يَبْغُونَ, tr:yebğûne, gloss:ararlar veya isterler} fiilini yönetir; böylece geçmişte bir kez aranmamış tek bir şey değil, âyetin kurduğu kalış boyunca ayrılma yönündeki arayışın bulunmayışı duyulur. Bu süreklilik, kendi sahnesi içinde kalır. Olumsuzluk yalnızca fiilin yalın biçimine değil, kaynak yönü {ar:عَنْهَا, tr:anhâ, gloss:ondan} ve açık nesnesi {ar:حِوَلًا, tr:hivelen, gloss:yer veya durum değişimi} ile birlikte bütün aktarımı arama olayına yayılır. Belirsiz ve tekil soyut biçim, tek tek çıkışları sıralamak yerine yer ya da hâl değişimini tek bir reddedilmiş kategori hâlinde toplar. Böylece kapanış, arzu ile o arzunun dışarıya doğru hareketini bu kaynak ve nesneyle belirlenen ilişki içinde ele alır. {ar:يَبْغُونَ, tr:yebğûne, gloss:ararlar veya isterler} iki yandaki bahçe zamirleri arasında yer aldığı için dikkati nerede bulunduklarından neyi istemediklerine çevirir; baştaki kalıcılık sondaki kapanışta yerleşmiş bir tercih gibi yeniden duyulur.
+
+18:108'de {ar:يَبْغُونَ, tr:yebğûne, gloss:ararlar veya isterler} fiilinin açtığı görüntü, bahçeden başka yere geçiş aramayan olağan bir istemedir. Kimi kullanımlarda haddi aşma basıncı taşıyabilen bu kelime, burada {ar:حِوَلًا, tr:hivelen, gloss:yer veya durum değişimi} nesnesi ve onu kuşatan olumsuzlukla, aranan şeyi bahçeden başka bir yere ya da duruma geçiş olarak belirler. Arama kelimesinin uygun ya da hak edilmiş başka bir duruma yönelme ihtimalini sezdiren basıncı da bu somut değişim kategorisi içinde kalır; böylece ayrılık gerçekleşmeden önce o ayrılığa yönelen olağan istemenin kapanması görünür olur. Bu cümlede fiilin haddi aşma yönü değil, arama ve isteme yönü çalışır. {ar:لَا, tr:lâ, gloss:olumsuzlayan parçacık} burada genel bir irade öğretisi açmak yerine, bahçelerin içinde bulunmaktan onlardan ayrılmamaya geçen kısa dönüşü kurar.
+
+Son kelime {ar:حِوَلًا, tr:hivelen, gloss:yer veya durum değişimi}, âyetin açılışındaki kalıcılığı değişme alanıyla karşılaştırır. Dönme ve değişme yönündeki daha geniş anlamı, {ar:عَنْهَا, tr:anhâ, gloss:ondan} ile kurulan uzaklaşma kaynağı ve doğrudan nesne kuruluşu içinde bahçeden aktarım ya da durum değişikliğine toplanır. Başlangıçtaki {ar:خَٰلِدِينَ, tr:hâlidîne, gloss:sürekli kalanlar} ile sondaki olumsuzlama bu daralmayı birbirine bağlar. Kelimenin çevre, yan veya dönem dönüşüyle ilişkilendirilebilen basıncı, kalıcı ikametin karşısındaki değişmeme gerilimini artırabilir; okur çevrenin ya da dönen bir çevrimin değişmesi ihtimaline karşı bir direnç hisseder. Bu yankı, kelimenin söz konusu değişme alanını genişletir; ayrıca bir çevre, güç veya dönem olayı kurmadan bahçeden aktarım ve hâl değiştirme arzusunun kapanması sınırında kalır.
+
+Üç kelimenin buluştuğu görüntü şudur: olağan kalma ve oradan ayrılmak istememe anlamı yerinde dururken kalıcılık içeriden doğrulanan bir yerleşiklik gibi görünür. {ar:خَٰلِدِينَ, tr:hâlidîne, gloss:sürekli kalanlar} uzun süreyi ve kesintisiz varlığı, {ar:يَبْغُونَ, tr:yebğûne, gloss:ararlar veya isterler} olağan bir şeyi ya da amacı aramayı, {ar:حِوَلًا, tr:hivelen, gloss:yer veya durum değişimi} ise başka yer veya durum değişikliğini taşır. Olumsuzlanan arama, kalıcılığı dışarıdan dayatılmış bir süre gibi bırakmayıp aranan bir aktarımın yokluğuyla içeriden onaylanan ikamete çevirir. Okur böylece başka bir yer veya duruma yönelmeyen yerleşmiş tercihi görür; bu nitelikli temas, olağan kalma anlamını derinleştirerek kalıcılığın her türlü hareket hakkında genel bir hükme dönüşmesini engeller.
+
+Aynı temas, adresin yanında hâl alanını da açabilir. {ar:خَٰلِدِينَ, tr:hâlidîne, gloss:sürekli kalanlar} ile {ar:حِوَلًا, tr:hivelen, gloss:yer veya durum değişimi} arasındaki ilişki, başka bir adres kadar başka bir varoluş durumunun da aranmadığını düşündürür. {ar:يَبْغُونَ, tr:yebğûne, gloss:ararlar veya isterler} aramayı, {ar:حِوَلًا, tr:hivelen, gloss:yer veya durum değişimi} ise içinde bulunulan durumun değişebilmesini taşıdığında, başka bir koşul ve başka bir adres istenmeyen alternatifte birleşir. Bu genişleme, âyetin bütün olası durumları tek tek adlandırdığı anlamına gelmez; olağan aktarım anlamının üzerine eklenen, fakat ona yeni bir sözlük karşılığı vermeyen sınırlı bir hâl okumasıdır.
+
+Kalıcılık, aynı kelimelerin bir başka temasında bahçeye yönelen bir bağlılık hissi de verir. {ar:خَٰلِدِينَ, tr:hâlidîne, gloss:sürekli kalanlar} kalıcılığı, olumsuzlanan {ar:يَبْغُونَ, tr:yebğûne, gloss:ararlar veya isterler} dışarıya taşmayan arzuyu, {ar:حِوَلًا, tr:hivelen, gloss:yer veya durum değişimi} da çevredeki alternatiflerin değişim alanını taşır. Bu üçlü temasla bahçede kalış, dışarıdan dayatılmış bir tutuluş yerine arzunun da dinlendiği bir yerleşiklik gibi duyulur. Aidiyet hissi ortaçta tek başına yeni bir bağlanma sözü olarak kurulmaz; kalma ile alternatif aramamanın birlikte açtığı sınırlı yankı, bunun ötesinde bir mekân haritası kurmadan yerleşmenin duygusal yönünü görünür kılar.
+
+Kelimeler arasındaki daha dolaylı temas, yerleşmiş sürekliliğin yanında bir çıkış planının da aranmaması görüntüsünü açar. {ar:حِوَلًا, tr:hivelen, gloss:yer veya durum değişimi} olağan aktarım anlamını korurken gizli ya da dolaylı bir düzenekle amaca ulaşma ihtimalini düşündürebilir; bu basınçta {ar:يَبْغُونَ, tr:yebğûne, gloss:ararlar veya isterler} gizli bir yol veya kaldıraç aramayı, baştaki {ar:خَٰلِدِينَ, tr:hâlidîne, gloss:sürekli kalanlar} ise sabit durumu taşır. Olumsuzluk, bir çıkış stratejisinin bile aranmaması sonucunu doğurur. Bu temas, gerçek bir manevra, güç mücadelesi veya fiziksel çıkış iddiasına dönüşmez; olağan isteme anlamı zeminde kalırken dolaylı yankı kalıcılığın yanında kapanan hareket ihtimalini duyurur.
+
+Kelimelerin son bir nitelikli temasında mekânsal kalıcılık, zihinde yer etmiş ve sabitlenmiş bir düşünceyi çağrıştıran sınırlı bir düşünsel yerleşiklikle genişler. {ar:خَٰلِدِينَ, tr:hâlidîne, gloss:sürekli kalanlar} bu yerleşmişliği, sürdürülmeyen {ar:يَبْغُونَ, tr:yebğûne, gloss:ararlar veya isterler} araması ile {ar:حِوَلًا, tr:hivelen, gloss:yer veya durum değişimi} kelimesinin olası durumlar alanı arasındaki temastan alır. Böylece başka bir koşul sürekli bir düşünce ya da arzu projesine dönüşmez. {ar:خَٰلِدِينَ, tr:hâlidîne, gloss:sürekli kalanlar} kelimesi sözlük bakımından akıl veya düşünce anlamına çevrilmez; bilişsel katman bu sınırlı temasın taşıdığı bir yankı olarak kalır.
+
+## Hareketin Sonunda
+
+Bu yerleşmiş kalış, 18:99'da açılan ayrı bir hareketle yan yana geldiğinde hareketin çözülmesinden sonra nasıl bir hâl duyulabileceğini gösterir. 18:99'daki {ar:يَمُوجُ, tr:yemûcu, gloss:birbirine karışarak dalgalanır} önce parçaların istikrarsız biçimde birbirine girmesini taşır. Aynı âyetteki {ar:فَجَمَعْنَاهُمْ جَمْعًا, tr:fe-cema'nâhum cemʿan, gloss:onları toplu hâlde bir araya getirdik} ardından bu dağınıklığı bir bütün hâlinde toplar; ikinci işlem ilkindeki çözülmeyi düzenlenmiş bir sonuca çevirir. Bu değişen durum, 18:108'deki {ar:خَٰلِدِينَ, tr:hâlidîne, gloss:sürekli kalanlar} ile taşınan dayanıklılık ve {ar:حِوَلًا, tr:hivelen, gloss:yer veya durum değişimi} üzerindeki olumsuzlukla temas ettiğinde, hareketten sonra kararlı bir son durak görüntüsü verir. Bu bağlamsal ihtimal, 18:99'un diriliş ve toplama sahnesini 18:108'deki bahçe kalışına doğrudan açıklama yapmadan, çözülmüş hareketten sonraki yerleşiklik olarak duyurur.
+
+18:101'deki yoksunluk, 18:108'deki aramamanın iradeye dokunan yönünü belirginleştirir. 18:101'de gözlerin örtü altında kalması ve işitmeye güç yetirilememesi, {ar:يَسْتَطِيعُونَ, tr:yestetîʿûne, gloss:güç yetiremezler} sözüyle kapasite ve erişim eksikliğini taşır. 18:108'deki {ar:يَبْغُونَ, tr:yebğûne, gloss:ararlar veya isterler} ise bir şeye yönelme ve onu isteme eylemini olumsuzlar; biri yapabilme gücüne, diğeri yönelmiş arzunun bulunmayışına dokunur. Bu ayrım, {ar:خَٰلِدِينَ, tr:hâlidîne, gloss:sürekli kalanlar} ile birlikte bahçede kalışı dışarı çıkışı engellenmiş bir durumdan çok, başka yere yönelme arzusu bulunmayan benimsenmiş bir yerleşme gibi renklendirir. 18:101 ile 18:108 arasındaki bağ, ayrılmanın mümkün ya da imkânsızlığına değil, kalıcı ikametin başka bir imkânın yokluğundan ayrılan bu iradî yönüne ışık tutar.
+
+18:104'teki sahne, çabanın yönü ile doğru varış arasındaki farkı görünür kılar. 18:104'teki {ar:ضَلَّ سَعْيُهُمْ, tr:dalla saʿyuhum, gloss:çabaları saptı} ifadesi, çabanın hedefini kaybedebildiğini; aynı bağlamdaki {ar:سَعْيُهُمْ, tr:saʿyuhum, gloss:amaçlı hareketleri} ise hedefe doğru amaçlı bir çabanın varlığını gösterir. Böylece çabanın bulunması tek başına doğru nesneye ve doğru sonuca ulaşmayı sağlamaz. 18:108'de olumsuzlanan {ar:يَبْغُونَ, tr:yebğûne, gloss:ararlar veya isterler} bu dağılmış arayışın karşısına başka bir yeri aramayan yönelimi koyar; {ar:حِوَلًا, tr:hivelen, gloss:yer veya durum değişimi} da artık başka bir hâle doğru sürmeyen yönelimin sınırını belirler. Bahçedeki sessizlik bu yüzden arzunun yokluğu değil, uygun bir varışa ulaşmış arzunun dinlenmesi olarak da görülebilir. Bu, 18:104 ile 18:108'in iki farklı sonucu karşılaştırdığı canlı ihtimali koruyan ihtiyatlı bir tamamlanma okumasıdır.
+
+18:104'te aramanın yönü sınırlandıktan sonra 18:109, sürekliliğin dokusunu maddi bir bolluk ve tükenme hareketiyle renklendirir. 18:109'daki {ar:ٱلْبَحْرُ, tr:el-bahru, gloss:deniz} büyük ama yine de ölçülebilir bir bolluk taşıyıcısıdır; onun {ar:مِدَادًا, tr:midâden, gloss:mürekkep} oluşu bu bolluğu sözleri yazmaya harcanan bir kaynağa çevirir. {ar:مَدَدًا, tr:mededen, gloss:eklenen destek} bu kaynağa yeniden destek eklenmesini getirir; {ar:تَنفَدَ, tr:tenfede, gloss:tükenir} ise en büyük kaynağın bile tükenme sınırına girebildiğini gösterir. Kaynak tükenme sınırına yaklaşırken yeniden besleniyorsa, 18:108'deki {ar:خَٰلِدِينَ, tr:hâlidîne, gloss:sürekli kalanlar} donmuş bir aynılık değil, tükenme yüzünden değişmesi gerekmeyen bir devamlılık gibi duyulabilir; {ar:حِوَلًا, tr:hivelen, gloss:yer veya durum değişimi} da yenilenme ihtiyacı doğmadığı için aranmayan hâli taşır. 18:109'un 18:108'e komşuluğundan doğan bu tazelik okuması, 18:109'un deniz ve ilahî kelimeler temasını korur; onu bahçe sakinlerinin doğrudan tasviri hâline getirmeden kalıcılığa bir bolluk ve yenilenme dokusu katar.
+
+18:110'daki yöneliş, umudun varacağı karşılaşmayı ve o karşılaşmanın ardından kalışın nasıl duyulabileceğini gösterir. {ar:يَرْجُوا۟, tr:yercûne, gloss:umut eder ve bekler} sözü henüz ulaşılmamış bir buluşmaya yönelen kalbi, {ar:لِقَآءَ, tr:likâe, gloss:karşılaşma} ise bu yönelişin varışını kurar; aynı âyet Rabbe kavuşma umudunu ve bunun için iyi iş yapma çağrısını birlikte taşır. Bu geleceğe dönük hareket, 18:108'de olumsuzlanan {ar:يَبْغُونَ, tr:yebğûne, gloss:ararlar veya isterler} ile yan yana geldiğinde, artık başka bir yer ya da hâl aranmayan tamamlanmış evreyi düşündürür. {ar:خَٰلِدِينَ, tr:hâlidîne, gloss:sürekli kalanlar} burada yalnızca uzun süreyi değil, yönelinen yere bağlanıp ayrılmadan kalmayı da renklendirebilir. Bağın kapsamı, 18:110'un yaşayan muhataba yöneltilmiş bir öğüt oluşunu korur; bu yüzden bahçe sakinlerinin iç hâlini zorunlu biçimde açıklamak yerine, beklenen karşılaşmanın ardından yerleşmiş bir bağlılık görüntüsü açar.
+
+## Yurdun İçinde Karşılanan Arzu
+
+18:35 ve 18:36, kalıcılığı sahiplik iddiası ile alternatif bir dönüş arayışının gerilimi içinde görünür kılar. 18:35'te bahçe sahibi kendi bahçesinin hiç yok olmayacağını sanarak sahip olduğu şeyi kendi iddiasıyla kalıcılaştırır. 18:36'da ise daha iyi bir dönüş yeri tasarlar; mevcut bahçenin sürekliliği böylece başka bir varış ihtimaliyle birlikte düşünülür. Bu iki ayrı sahne 18:108'deki verilmiş kalıcılıkla karşılaştığında, {ar:حِوَلًا, tr:hivelen, gloss:yer veya durum değişimi} kelimesinin aranan değişme alanı belirginleşir: 18:108'deki kalış, sahiplik iddiasını ya da daha iyi bir dönüş arayışını sürdürmekten çok, başka yer veya durum arayışının sona erdiği bir yerleşiklik olarak duyulur. {ar:خَٰلِدِينَ, tr:hâlidîne, gloss:sürekli kalanlar} ile kurulan açık ikamet ve kalıcılık bu karşılaştırmanın içinde korunur; 18:35 ve 18:36 bağlantısı burada kendi sahiplik ve dönüş gerilimiyle sınırlı bir açıklık sağlar.
+
+18:108'deki aramama, arzuyu susturmak yerine onun yönünü belirler. {ar:يَبْغُونَ, tr:yebğûne, gloss:ararlar veya isterler} fiili, {ar:عَنْهَا, tr:anhâ, gloss:ondan} ve {ar:حِوَلًا, tr:hivelen, gloss:yer veya durum değişimi} ile belirlenen ayrılma yönündeki arayışı kapatır; istemenin bütün alanını değil, başka bir yer ya da hâl arayışını sınırlar. Bu yön, 41:31'de son yurtta canların diledikleri ve istedikleri şeye sahip oluşuyla içeride karşılanan bir arzu zemini kazanır. 43:71'de cennette canların aradığı ve gözlerin hoşlandığı şeylerin bulunması, yerleşilen yurdun iç doluluğunu gösterir. 39:74'te cennet varislerinin oraya yerleşip orada diledikleri gibi bulunması ise {ar:خَٰلِدِينَ, tr:hâlidîne, gloss:sürekli kalanlar} ile taşınan kalıcılığı seçilmiş ve ayrılmadan kalınan bir yurt ilişkisine yaklaştırır. Böylece 18:108'de başka bir yere ayrılma arzusunun yokluğu, arzunun yokluğu değil, arzunun kalınan yerde karşılık bulması olarak duyulur; bu ayetlerarası bağ, arzunun içeride karşılanma yönünü açar ve bütün arzuların içeriğini bu âyete taşımaz.
+
+</editorial_prose>

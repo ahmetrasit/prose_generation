@@ -1,0 +1,359 @@
+{
+  "schema_version": "commentary-v5-scope-discovery-v1",
+  "ayah_ref": "18:66",
+  "lane": "global",
+  "coverage_complete": true,
+  "candidate_decisions": [
+    {
+      "candidate_id": "cand_71ea66e5b8d857e5b5e7",
+      "decision": "accept",
+      "reason": "Güvenilir çapraz-çalışma kaydı, odak yüzeyindeki 18:66:5 ve 18:66:11 taşıyıcılarını ve üç aday dalı birlikte adlandırıyor. İzleme, öğretim ve rushd arasındaki ilişki, sure içi izleme örnekleri ve pratik yargı bağlamıyla değişmiş bir küresel okuma kuruyor; bütün aday dalları özel facet aktivasyonlarıyla F1'e indi.",
+      "finding_refs": ["global:guided-following-to-rushd"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_20b79dc2764b713179fe",
+      "decision": "represented",
+      "reason": "B001'in izlemeyi öğrenmenin zamanlı aracı olarak okunduğu bu kayıt, global:guided-following-to-rushd içindeki aynı taşıyıcı, mekanizma ve okuyucu değişikliğinin tam karşılığıdır; dalı, sure içi bağlamı veya ek bir yükümlülüğü dışarıda bırakmıyor.",
+      "finding_refs": ["global:guided-following-to-rushd"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_d2a91d74265494e8061b",
+      "decision": "represented",
+      "reason": "18:85, 18:89 ve 18:92'deki sebebe uymanın izlemeyi hedeflere götüren bir yol grameri olarak genişletmesi, global:guided-following-to-rushd bulgusunun mekanizması içinde açıkça taşındı; ayrı bir semantik değişiklik kalmadı.",
+      "finding_refs": ["global:guided-following-to-rushd"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_3bf5933b4c3b1ddf81af",
+      "decision": "accept",
+      "reason": "Legacy wide-walk kaydı, 18:66:11:1'deki rushd talebini sonraki olaylarda görünen hasarı ve sonucu birlikte tartabilen pratik yargıyla ilişkilendiriyor. Root 000565 altındaki iki aday dalı, 18:67-18:71 perikop akışı ve 49:6 bağlantısıyla ayrı bir bağlamsal aktivasyon olarak F2'ye indi.",
+      "finding_refs": ["global:judgment-beyond-surface"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_e228149260032891cd1f",
+      "decision": "represented",
+      "reason": "18:67-18:71 aralığında görünür kusurun yüzey değerlendirmesine direnmesi, global:judgment-beyond-surface bulgusundaki aynı pratik-yargı mekanizması ve okuyucu getirisiyle tam olarak taşındı.",
+      "finding_refs": ["global:judgment-beyond-surface"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_75a7463d3fc585572ad5",
+      "decision": "reject",
+      "reason": "HFT özetinin destek kaydında context ayah, word index, root, attributed role ve odağa dönen temas bulunmuyor. 'İz sürmeye dönüş' iddiası bu nedenle sağlanmış bir carrier-trigger izi olarak değerlendirilemiyor; odak yüzeyine dönen somut bir global aktivasyon yok.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_07c767f71fab3dcbc1c2",
+      "decision": "reject",
+      "reason": "HFT kaydı yalnızca 'sabır' özetini veriyor; exact HFT trace içinde supplied context coordinate, word index, root, attributed role ve focus return yok. Öğretmen zamanlamasına bağlanan okuma, bu paket sınırında doğrulanabilir bir aktivasyon eşiğine ulaşmıyor.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_d5221de339360254e251",
+      "decision": "reject",
+      "reason": "Retrospektif öğretim iddiası için HFT activation trace sağlanmamış; destek kaydında context ayah, word index, root, attributed role veya odağa dönüş bulunmuyor. Sonuçlara sonradan dönme mekanizması bu lane'de yalnız özet olarak kalıyor.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_2721d1f9dc5a0452a9ca",
+      "decision": "reject",
+      "reason": "Rushd'ı yetimlerin malını ve kırılgan çıkarları koruyan zamanlı vesayet olarak genişleten HFT özeti, exact coordinate/root/role/focus-return izi vermiyor. Bu yüzden supplied carrier ve independent trigger kurulamadı.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_3fb29e620ae3b4cdd578",
+      "decision": "reject",
+      "reason": "'İki علم biçiminin relay ve işaret okuma olarak kenetlenmesi' iddiası için HFT kaydı exact context ayah, word index, root, attributed role ve focus return sağlamıyor. Mevcut branch seçenekleri bu özetle kendiliğinden aktive edilemez.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_ce017d67cad1332591c2",
+      "decision": "reject",
+      "reason": "Gecikmiş sorgulamanın pedagojik niteliği hakkındaki belirsizlik, bir activated HFT trace değil, anchor'sız bir uncertainty özetidir. Context coordinate, word index, root, attributed role ve focus return verilmediği için global bulguya dönüşemez.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_f470d7714abe4ab94bf7",
+      "decision": "reject",
+      "reason": "Üç açıklamanın tek vesayet mekanizması mı olduğu sorusu, supplied carrier-trigger koordinatları ve focus return taşımayan bir HFT uncertainty kaydıdır. Bu lane'de doğrulanabilir bir semantik yükümlülük oluşturmaz.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_a0a4ee993be43d3d25c3",
+      "decision": "reject",
+      "reason": "Material-speech ve gathered-water analojileri packet tarafından branch-distant ve exploratory olarak niteleniyor; ayrıca exact context/root/role/focus-return trace yok. Analojinin varlığı tek başına global activation kurmuyor.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    }
+  ],
+  "findings": [
+    {
+      "finding_ref": "global:guided-following-to-rushd",
+      "origin_candidate_id": "cand_71ea66e5b8d857e5b5e7",
+      "represented_candidate_ids": ["cand_20b79dc2764b713179fe", "cand_d2a91d74265494e8061b"],
+      "title": "İzleyerek öğrenme, doğru yargıya giden yol",
+      "claim": "Musa'nın izin isteyerek izleme talebi, daha önce öğretilmiş bilgiden doğru yön ve yerinde yargıya ulaşmak için bilen birinin sırasına bağlanmayı kurar; surenin ilerleyen sebebe uyma örnekleri bu talebi hedeflere götüren bir yol kullanımı olarak yankılar.",
+      "mechanism": "18:66:5:1'deki izleme taşıyıcısı, 18:66:8:1 ve 18:66:10:1'deki öğretme-öğrenme aktarımıyla ve 18:66:11:1'deki rushd talebiyle temas eder. 18:85, 18:89 ve 18:92 bağlantıları izlemeyi bir sebep boyunca ilerlemeye; 40:38 ve 18:24 bağlantıları izlemeyi doğru yönle; 4:6 bağlantısı ise rushd'ı uygulanabilir yeterlikle buluşturur. Böylece takip, hemen cevap alma değil, sıralı bir öğrenme yolu olarak değişir.",
+      "reader_payoff": "Okur, Musa'nın istediğinin yalnızca birinin yanında bulunmak değil, bilgiyi taşıyan bir düzenin içine girerek doğru yargıyı uygulama içinde öğrenmek olduğunu görür.",
+      "containment": "Temel okuma korunur: Musa, kendisine öğretilenden rushd öğrenmek için o kişiye uyup uymayacağını sorar. Sure içi ve çapraz ayet temasları bütün izleme kullanımlarını tek anlamda birleştirmez ve sonraki örneklerin yerel cümle yapısını değiştirdiğini iddia etmez.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": ["legacy_unbound", "trusted"],
+        "reason": "Branch ve odak koordinatlarını veren trusted cross-run kaydı güçlü bir çekirdek sağlar; reader-walk kayıtları legacy_unbound'dur ve bağlantı satırlarının hedef morfolojisi ayrıca verilmemiştir. Bu nedenle okuma korunur, fakat küresel yankının sınırı açık tutulur."
+      },
+      "support_ids": ["sup_5ff3240b0c116525d3e6", "sup_95a2c9dda5ebcd72eab7", "sup_07634b4ab133e939ff86"],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000175/B001",
+          "facet_id": "F001",
+          "branch_gloss": "ardından gitmek ve yolunu benimsemek",
+          "facet_statement": "Bir kişiyle birlikte ya da onun arkasında ilerleyerek ardından gitmek.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["18:66:5:1"],
+          "trigger_refs": ["18:66:8:1", "18:66:11:1", "18:85", "18:89", "18:92", "conn_0a8a2bf8978f73fbc836", "conn_241d4cf1226b06d3e304", "conn_23f364161ed8b46278d5"],
+          "focus_return_refs": ["18:66:5:1"],
+          "carrier": "Odak biçiminin taşıdığı, bir kişinin ardından gitme ve onun ilerleyişine katılma anlamı.",
+          "independent_trigger": "Aynı surede 18:85, 18:89 ve 18:92'de bir sebebe uyma biçiminde geri dönen izleme, fiili hedeflere ilerleyen bir yol hareketi olarak açar.",
+          "activation": "Kişiye yönelmiş doğrudan nesne, öğretme ve rushd kelimeleriyle birlikte okunduğunda fiziksel/ilişkisel ardından gitme, öğretmenin sırasına girerek ilerleme temasına bağlanır.",
+          "resulting_reading": "Musa'nın talebi, cevabı çekip alma değil, başka birinin açtığı sırayı izleyerek hedefe doğru ilerleme isteği olarak belirir.",
+          "boundary": "Bu temas, 18:85, 18:89 ve 18:92'deki sebep kullanımıyla 18:66'daki kişi takibini özdeşleştirmez; yalnızca ortak ilerleme mekanizmasını görünür kılar."
+        },
+        {
+          "branch_ref": "root_000175/B001",
+          "facet_id": "F002",
+          "branch_gloss": "ardından gitmek ve yolunu benimsemek",
+          "facet_statement": "Bir iz, örnek, buyruk veya öğreti doğrultusunda davranmak ve ona uymak.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["18:66:5:1"],
+          "trigger_refs": ["18:66:8:1", "40:38", "conn_27d5b4f32eb48500ca19"],
+          "focus_return_refs": ["18:66:5:1"],
+          "carrier": "Odak biçiminin taşıdığı takip, burada doğrudan muhatabın öğreteceği yola uyma yönünü de taşır.",
+          "independent_trigger": "40:38 bağlantısı, izlemeyi doğru davranış yoluna çağrıyla aynı cümle alanında buluşturur.",
+          "activation": "Öğretme koşulu, ardından gitmeyi yalnızca eşlik değil, bir bilenden gelen yönlendirmeye davranışla uyma ilişkisi olarak etkinleştirir.",
+          "resulting_reading": "Musa'nın 'uyabilir miyim' sorusu, öğrenilecek şeyi bir öğreti çizgisine sadakat içinde alma talebi olarak genişler.",
+          "boundary": "Bu, itaatin her türünü veya 40:38'in bütün bağlamını 18:66'ya taşımayı değil, öğretici yönlendirme ile izleme arasındaki somut teması bildirir."
+        },
+        {
+          "branch_ref": "root_000565/B001",
+          "facet_id": "F001",
+          "branch_gloss": "doğru yolu bulma ve gösterme",
+          "facet_statement": "Yanılma ve sapmadan uzak, doğru ve amaca ulaştıran yolu bulup o yönde ilerleme.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["18:66:11:1"],
+          "trigger_refs": ["18:66:5:1", "18:66:8:1", "18:24", "40:38", "conn_7c88283b6970f988c810", "conn_27d5b4f32eb48500ca19"],
+          "focus_return_refs": ["18:66:11:1"],
+          "carrier": "Rushd sözcüğünün odakta taşıdığı doğru yön ve amaca ulaştıran yol anlamı.",
+          "independent_trigger": "18:24'teki daha yakına yönelmiş rushd duası ve 40:38'deki doğru yola çağrı, odaktaki talebin yönsel hedefini bağımsız biçimde geri getirir.",
+          "activation": "Takip fiili rushd'ın nesnesiyle temas ettiğinde doğru yön, dışarıdan alınacak bilgi değil, izlenerek girilecek bir yol olarak görünür.",
+          "resulting_reading": "Öğrenme isteği, Musa'nın bir öğretmenin rehberliğinde doğru yola ilerlemek istemesini de duyurur.",
+          "boundary": "Bu dal, rushd'ı yalnızca fiziksel rota anlamına indirmez ve sonraki olayların doğru yolun tek açıklaması olduğunu söylemez."
+        },
+        {
+          "branch_ref": "root_000565/B002",
+          "facet_id": "F001",
+          "branch_gloss": "işin doğrusunu bulup yerinde davranma",
+          "facet_statement": "Bir işin doğru yönünü kavrayıp yerinde karara ulaşma.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["18:66:11:1"],
+          "trigger_refs": ["18:66:5:1", "4:6", "40:38", "conn_08ac9a0b0879a23eb772", "conn_27d5b4f32eb48500ca19"],
+          "focus_return_refs": ["18:66:11:1"],
+          "carrier": "Rushd sözcüğünün odakta taşıdığı bir işin doğru yüzünü kavrayıp isabetli karara varma anlamı.",
+          "independent_trigger": "4:6 bağlantısı rushd'ı sorumluluk ve mal teslimi öncesinde sınanan pratik yeterlik olarak geri getirir.",
+          "activation": "Musa'nın izleyerek öğretim istemesi, rushd'ı soyut yön bilgisi yanında bir durumda neyin doğru olduğunu kavrama kapasitesiyle temas ettirir.",
+          "resulting_reading": "Talep edilen öğrenme, olayların içinde yerinde hüküm verebilecek bir kavrayış kazanma isteği olarak genişler.",
+          "boundary": "Bu temas yasal erginlik, genel zekâ veya her tür mal yönetimi iddiası değildir; yalnızca doğru karara varma facet'ini etkinleştirir."
+        },
+        {
+          "branch_ref": "root_000565/B002",
+          "facet_id": "F002",
+          "branch_gloss": "işin doğrusunu bulup yerinde davranma",
+          "facet_statement": "Ulaşılan doğru kararı davranışa geçirerek işi uygun biçimde yürütme.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["18:66:11:1"],
+          "trigger_refs": ["18:66:5:1", "4:6", "40:38", "conn_08ac9a0b0879a23eb772", "conn_27d5b4f32eb48500ca19"],
+          "focus_return_refs": ["18:66:11:1"],
+          "carrier": "Rushd sözcüğünün odakta taşıdığı doğru kararı davranışa çevirme yönü.",
+          "independent_trigger": "4:6'nın rushd'ı sorumluluk verilecek kişinin fiilî yönetim yeterliğiyle ilişkilendirmesi, odaktaki öğretim talebine uygulama ölçüsü ekler.",
+          "activation": "Takip ve öğretim ilişkisi, bilginin yalnızca edinilmesini değil, doğru kararın iş üzerinde yürütülmesini de hedefleyen bir öğrenme düzeni kurar.",
+          "resulting_reading": "Musa'nın istediği rushd, öğrenilmiş bilgiyi uygun eyleme dönüştüren bir yargı olarak duyulur.",
+          "boundary": "Bu, Musa'nın burada zaten böyle bir yeterliğe sahip olduğunu veya bütün sonraki kararların tek bir mekanizmaya indirgenebileceğini ileri sürmez."
+        }
+      ],
+      "connection_refs": ["conn_27d5b4f32eb48500ca19", "conn_0a8a2bf8978f73fbc836", "conn_241d4cf1226b06d3e304", "conn_23f364161ed8b46278d5", "conn_7c88283b6970f988c810", "conn_08ac9a0b0879a23eb772"],
+      "context_refs": ["4:6", "18:24", "18:85", "18:89", "18:92", "40:38"],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:judgment-beyond-surface",
+      "origin_candidate_id": "cand_3bf5933b4c3b1ddf81af",
+      "represented_candidate_ids": ["cand_e228149260032891cd1f"],
+      "title": "Rushd, yüzeyde görünen kusurun ötesinde hüküm",
+      "claim": "Odaktaki rushd talebi, sonraki olaylarda ilk bakışta kusur gibi görünen şeyi daha geniş bir iş içinde tartıp uygun karara dönüştüren pratik bir yargı olarak açılır.",
+      "mechanism": "18:66:11:1'de istenen rushd, takip ve öğretim ilişkisinin hedefidir. 18:67-18:70 arasındaki usulî uyarılar ve 18:71'deki görünür hasar, bu hedefi yüzeydeki belirtiyle sonuç arasındaki farkı taşıyan bir karar yeteneği olarak geri çağırır. 49:6 bağlantısı da haberle karşılaşınca eylemden önce doğrulamayı aynı pratik değerlendirme hattına bağlar.",
+      "reader_payoff": "Okur, Musa'nın istediği yönlendirmenin rota bilgisiyle sınırlı kalmadığını; görünen olay ile onun doğru anlamı arasındaki mesafeyi taşıyacak bir yargı aradığını fark eder.",
+      "containment": "Temel okuma korunur: Musa, kendisine öğretilmiş rushd'dan öğrenmek için izne başvurur. Sonraki olaylar bu isteği geriye dönük olarak aydınlatır; burada üç açıklamanın tek bir vesayet mekanizmasına indirgenmesi veya her görünür kusurun aynı şekilde okunması ileri sürülmez.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": ["legacy_unbound"],
+        "reason": "İki wide-walk kaydı legacy_unbound'dur ve 18:67-18:71 değişimini özetler; 49:6 satırı exact Arabic taşısa da hedef morfolojisi verilmemiş bir bağlantı nominasyonudur. Bu nedenle pratik-yargı ilişkisi görünür tutulur, fakat kesin bir bağlayıcı açıklama olarak sunulmaz."
+      },
+      "support_ids": ["sup_a24b0176a792db614947", "sup_7c86ff9fa7fdba5c5935"],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000565/B001",
+          "facet_id": "F001",
+          "branch_gloss": "doğru yolu bulma ve gösterme",
+          "facet_statement": "Yanılma ve sapmadan uzak, doğru ve amaca ulaştıran yolu bulup o yönde ilerleme.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["18:66:11:1"],
+          "trigger_refs": ["18:67", "18:68", "18:69", "18:70", "18:71", "49:6", "conn_25d15854967f4d51c669"],
+          "focus_return_refs": ["18:66:11:1"],
+          "carrier": "Rushd sözcüğünün taşıdığı doğru yönü bulma ve sapmadan amaca yönelme anlamı.",
+          "independent_trigger": "18:67-18:71 akışı, görünen eylemin arkasındaki doğru yönü ancak sonraki açıklamayla değerlendirmeye açar; 49:6 aynı değerlendirme ihtiyacını haber karşısında doğrulama olarak kurar.",
+          "activation": "Öğretim için istenen doğru yön, daha sonra görünen hasarın ilk hüküm olmadığını öğreten bir olay dizisiyle temas eder.",
+          "resulting_reading": "Ruşd, yüzeydeki yanlış izlenime kapılmadan olayın doğru yönünü bulmaya yarayan rehberlik olarak belirir.",
+          "boundary": "Bu aktivasyon 18:67-18:71'in bütün anlamını rushd'a yüklemez; yalnızca odaktaki talebin olay değerlendirmesiyle temasını kaydeder."
+        },
+        {
+          "branch_ref": "root_000565/B002",
+          "facet_id": "F001",
+          "branch_gloss": "işin doğrusunu bulup yerinde davranma",
+          "facet_statement": "Bir işin doğru yönünü kavrayıp yerinde karara ulaşma.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["18:66:11:1"],
+          "trigger_refs": ["18:67", "18:68", "18:69", "18:70", "18:71", "49:6", "conn_25d15854967f4d51c669"],
+          "focus_return_refs": ["18:66:11:1"],
+          "carrier": "Rushd sözcüğünün taşıdığı bir işin doğru yüzünü kavrayıp yerinde karara ulaşma anlamı.",
+          "independent_trigger": "Tekne olayının görünür kusur ile daha sonra açıklanan işlev arasındaki gerilimi ve 49:6'nın doğrulama çağrısını taşıması.",
+          "activation": "Sonraki olay, öğretim talebindeki rushd'ı bir durumun yüzeysel görüntüsüne göre değil, işin daha geniş yönüne göre karar verme yeteneğine bağlar.",
+          "resulting_reading": "Musa'nın öğrenmek istediği şey, doğru hükmü olayın bütününe bakarak kurabilme yeterliği olarak duyulur.",
+          "boundary": "Dalın pratik karar facet'i korunur; tekne olayının bütün hukukî veya teolojik sonuçları bu bulguya taşınmaz."
+        },
+        {
+          "branch_ref": "root_000565/B002",
+          "facet_id": "F002",
+          "branch_gloss": "işin doğrusunu bulup yerinde davranma",
+          "facet_statement": "Ulaşılan doğru kararı davranışa geçirerek işi uygun biçimde yürütme.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["18:66:11:1"],
+          "trigger_refs": ["18:67", "18:68", "18:69", "18:70", "18:71", "49:6", "conn_25d15854967f4d51c669"],
+          "focus_return_refs": ["18:66:11:1"],
+          "carrier": "Rushd sözcüğünün doğru kararı uygun eylemle yürütme anlamı.",
+          "independent_trigger": "Sonraki eylem dizisi, doğru değerlendirmenin yalnız zihinsel bir sonuç değil, uygun işleyişi seçen fiilî bir davranış olduğunu görünür kılar.",
+          "activation": "Öğretim isteği, 18:67-18:71'deki eylemleri yüzeyden yargılamaya karşı, kararın sonuç ve amaçla birlikte yürütülmesiyle temas eder.",
+          "resulting_reading": "Ruşd, bilginin davranışta doğru işi yürütme biçimine dönüşmesi olarak belirir.",
+          "boundary": "Bu, sonraki eylemlerin hepsini odaktaki rushd'ın zorunlu örnekleri saymaz; yalnızca pratik uygulama yönünü açar."
+        }
+      ],
+      "connection_refs": ["conn_25d15854967f4d51c669"],
+      "context_refs": ["18:67", "18:68", "18:69", "18:70", "18:71", "49:6"],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:knowledge-as-received-relay",
+      "origin_candidate_id": null,
+      "represented_candidate_ids": [],
+      "title": "Öğrenme, bilen kişiye başvuran bir aktarım",
+      "claim": "18:66'daki iki öğretme biçimi, bilgiyi kendinde varsaymak yerine onu bilen bir kaynaktan alınan ve öğrenene aktarılan bir emanet olarak kurar.",
+      "mechanism": "18:66:8:1 ve 18:66:10:1'deki öğretme ve öğretilmiş olma taşıyıcıları, 16:43 bağlantısındaki 'bilmiyorsanız bilenlere sorun' prosedürüyle temas eder. Bu dış tetik, öğretim talebini yalnız bir ders istemi olmaktan çıkarıp bilginin yetkin bir kaynaktan alınması ve öğrenen tarafından kabul edilmesi ilişkisine dönüştürür.",
+      "reader_payoff": "Okur, Musa'nın bilgiye sahipmiş gibi konuşmadığını; öğrenmeyi, bilginin kaynağına yönelme ve aktarılmış bilgiyi alma biçiminde kurduğunu görür.",
+      "containment": "Bu okuma, odaktaki öğretme ve öğretilmiş olma anlamını korur. 16:43 bağlantısı öğretmenin kimliğini, bilginin bütün kaynağını veya her öğretme eyleminin aynı otoriteyi taşıdığını kanıtlamaz.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": [],
+        "reason": "16:43 için exact Arabic ve güçlü bir bağlantı notu vardır; ancak bağlantı satırı hedef morfolojisini sağlamaz ve bağımsız lexicon trust etiketi taşımaz. Bu nedenle aktivasyon, kaynak sınırı açık bir contextual resonance olarak tutulmuştur."
+      },
+      "support_ids": [],
+      "branch_activations": [
+        {
+          "branch_ref": "root_001040/B001",
+          "facet_id": "F001",
+          "branch_gloss": "bilme ve gerçeğini kavrama",
+          "facet_statement": "Bir şeyi bilme, tanıma ve gerçeğine uygun biçimde kavrama durumu bilgisizliğin karşıtıdır.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["18:66:8:1", "18:66:10:1"],
+          "trigger_refs": ["16:43", "conn_51b3f26b06777d2147aa", "18:66:11:1"],
+          "focus_return_refs": ["18:66:8:1", "18:66:10:1"],
+          "carrier": "Odaktaki öğretme ve daha önce öğretilmiş olma biçimleri, bilginin bir kişiden diğerine geçmesini taşır.",
+          "independent_trigger": "16:43, bilmeyen kişinin bilenlere soru sormasını emrederek bilme durumunu bir başvuru ve aktarım düzenine bağlar.",
+          "activation": "Dışarıdaki soru sorma prosedürü, odaktaki öğretme çiftini yalnızca bilgi içeriği değil, bilgiye sahip olanla öğrenen arasındaki gerçeklik ve kavrayış ilişkisi olarak etkinleştirir.",
+          "resulting_reading": "Musa'nın talebi, bilgiyi kendi başına üretmekten çok bilen birinden gerçeğe uygun kavrayış edinme isteği olarak derinleşir.",
+          "boundary": "Bu, علم kökünün bütün dallarını, belirli bir öğretmenin kimliğini veya ilahî kaynak iddiasını bu aktivasyondan çıkarmayı gerektirmez."
+        },
+        {
+          "branch_ref": "root_001040/B001",
+          "facet_id": "F003",
+          "branch_gloss": "bilme ve gerçeğini kavrama",
+          "facet_statement": "Bildirme, öğretme ve öğrenme biçimleri bilginin bir başkasına ulaştırılması ya da kişinin onu edinmesi süreçlerini anlatır.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["18:66:8:1", "18:66:10:1"],
+          "trigger_refs": ["16:43", "conn_51b3f26b06777d2147aa", "18:66:11:1"],
+          "focus_return_refs": ["18:66:8:1", "18:66:10:1"],
+          "carrier": "Öğretme ve öğretilmiş olma biçimleri, bilginin aktarılmış ve alınmış bir süreç olduğunu doğrudan taşır.",
+          "independent_trigger": "16:43'teki bilenlere başvurma çağrısı, bu aktarım sürecini odak dışındaki açık bir öğrenme prosedürüyle geri getirir.",
+          "activation": "Soru soran bilmeyen ile cevap verecek bilen ayrımı, odaktaki iki علم biçimini bir bilgi relay'i olarak görünür kılar.",
+          "resulting_reading": "Öğrenme, tek seferlik bir cevap değil, bilen kişiden öğrenene geçen ve rushd talebiyle yönlenen bir aktarım eylemi olur.",
+          "boundary": "Bu facet aktarım sürecini açar; belirli bir öğretim kurumunu, bütün bilgiyi veya 16:43'ün başka bağlamlarını odak ayetine taşımaz."
+        }
+      ],
+      "connection_refs": ["conn_51b3f26b06777d2147aa"],
+      "context_refs": ["16:43"],
+      "semantic_obligation_refs": []
+    }
+  ],
+  "friction_notes": [
+    "Sekiz reader_summary HFT kaydı legacy_unbound olarak görünür durumda, fakat hiçbirinde supplied context ayah, word index, root, attributed role ve focus return birlikte verilmemiştir; bu nedenle özetler kabul edilmemiştir.",
+    "Global bağlantı satırları çoğunlukla exact target Arabic sağlar, ancak hedef morfolojisini sağlamaz ve retrieval etiketleri karar yerine geçmez. Bu satırlara dayanan aktivasyonlar qualified olarak tutulmuştur.",
+    "Packet'te adaylara bağlı ayrı semantic_obligations alanı sağlanmamıştır; bu nedenle semantic_obligation_refs ve semantic_obligation_exclusions dizileri boş bırakılmıştır.",
+    "Aynı sure içindeki 18:67-18:71 yargı akışı global wide-walk kaynağında sunulsa da perikop sınırları içindedir; F2 bu lane sınırını açıkça qualified tutar ve daha geniş iddia kurmaz."
+  ]
+}

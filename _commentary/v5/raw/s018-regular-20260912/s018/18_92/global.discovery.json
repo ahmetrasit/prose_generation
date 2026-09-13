@@ -1,0 +1,407 @@
+{
+  "schema_version": "commentary-v5-scope-discovery-v1",
+  "ayah_ref": "18:92",
+  "lane": "global",
+  "coverage_complete": true,
+  "candidate_decisions": [
+    {
+      "candidate_id": "cand_2571caf7c0554c98afef",
+      "decision": "accept",
+      "reason": "Güvenilir çapraz-çalışma bulgusu iki odak dalını da açıkça taşır. Değişen varış alanları karşısında aynı izleme ve ulaştıran araç ilişkisi, 18:66, 18:70 ve 18:28 bağlantılarındaki yönlendirilmiş izleme kullanımlarıyla bağımsız biçimde temas eder; iki dal da kendi aktifleştirilmiş yüzleriyle korunmuştur.",
+      "finding_refs": ["global:method-outlives-destination"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_2aea7c186b8fa23d6de0",
+      "decision": "accept",
+      "reason": "Güvenilir yayımlanmış bulgu, أَتْبَعَ ve سَبَبًا için iki ayrı adım adım izleme/ulaştıran araç dalını birlikte aday gösterir. 18:93-98'e ilişkin sağlanan yürüyüş kayıtları, bu yöntemin hareketten toplumsal onarım ve ortak yapıya taşınmasını aynı odak yüzeyine döndürür; iki aday dalı ve gerekli çekirdek yüzleri bulguda korunmuştur.",
+      "finding_refs": ["global:means-becomes-cooperative-repair"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_e828ace0e51f27abe528",
+      "decision": "represented",
+      "reason": "Üçüncü izleme yöntemiyle hedefin değil yöntemin belirginleşmesi, güvenilir bulgunun taşıdığı أَتْبَعَ/سَبَبًا ilişkisiyle aynıdır. Bu adayın أَتْبَعَ dalı, odak taşıyıcısı ve kaynak niteliği global:method-outlives-destination içinde korunmuştur.",
+      "finding_refs": ["global:method-outlives-destination"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_a9b85ff4376b41d97077",
+      "decision": "represented",
+      "reason": "18:93-98'de üçüncü yöntemin bireysel varıştan ortak mühendisliğe uzanması, sup_234b8695dbc59771172d2 ve tam perikope temaslarıyla global:means-becomes-cooperative-repair bulgusuna dahil edilmiştir; ayrı bir dal, yüz veya yükümlülük eklemez.",
+      "finding_refs": ["global:means-becomes-cooperative-repair"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_52214050cdd8031d6b9f",
+      "decision": "represented",
+      "reason": "Yolculuk yönteminin sosyal onarıma taşınması, global:means-becomes-cooperative-repair içinde aynı iki odak dalı, 18:93-96 temasları ve sup_e73d9b33f5d456e7e54d ile eksiksiz taşınmıştır.",
+      "finding_refs": ["global:means-becomes-cooperative-repair"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_7ec4763a2e3f644ee8bb",
+      "decision": "represented",
+      "reason": "18:93-96'nın varıştan inşaya geçişi, global:means-becomes-cooperative-repair bulgusunun aynı yöntem aktarımıdır; retrospektif destek ve ilgili odak dönüşü burada korunmuştur.",
+      "finding_refs": ["global:means-becomes-cooperative-repair"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_b62806127cdbcb00bb40",
+      "decision": "reject",
+      "reason": "HFT özeti görünür olsa da anchor_refs, branch_refs ve anchor_evidence alanlarının tümü boştur. Sup_396aca7fe79511bc2c4a yalnızca bağlamsız bir özet sunar; tam bağlam ayeti/kelime indeksi, kök, atfedilmiş rol ve odağa dönüş trace'i bulunmadığından atfedilmiş bir aktivasyon kurulamaz.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_8e17f7f4b53f419e04cb",
+      "decision": "reject",
+      "reason": "HFT özeti için anchor_refs, branch_refs ve anchor_evidence sağlanmamıştır. Sup_8888befad3aa48720c84, üçüncü karşılaşma döngüsünü adlandırır ancak exact context coordinate, root, role veya focus-return trace vermediği için atfedilmiş okuyucu aktivasyonu oluşturamaz.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_3b93dfa76b2435170dd2",
+      "decision": "reject",
+      "reason": "Sup_a87f0f2a43762ac41129 yalnızca means'in toplumsal/prosedürel/maddi zincire dönüştüğünü özetler. HFT kaydında exact carrier, bağımsız trigger, kök, rol ve odağa dönüş bulunmadığından mühürlü gedik sonucunu bu yüzeye atfetmek kanıt sınırını aşar.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_712dadd262d977ff0412",
+      "decision": "reject",
+      "reason": "Sup_b94956eead83dfc6690d tamamlanmış işin merhametli ve geçici oluşuna dair unanchored bir sentezdir. HFT anchor_evidence boş olduğu için exact carrier, attributed role ve focus-return bulunmaz; yeni bir aktivasyon icat edilmemiştir.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_80d645bcfde9af8322ac",
+      "decision": "reject",
+      "reason": "Sup_d4cc10e68a1437b20541 üç kelimelik odağı bir menteşe olarak yorumlar, ancak branch_refs ve anchor_evidence yoktur. Terrain, speech, labor ve material transformation zinciri için exact carrier/root/role/focus-return trace'i sağlanmadığından bu sentez atfedilemez.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_69f8ece6b80d5f2a9978",
+      "decision": "reject",
+      "reason": "Sup_c0f271e51b77eb9de5f5 bir belirsizlik kaydıdır ve yol, kaynak, plan ayrımını odağın belirli bir yüzüne bağlamaz. HFT anchor_evidence, branch ve exact focus-return vermediği için bu sınırlama bağımsız bir activation olarak tutulamaz.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_922f61f614c8c553dbf0",
+      "decision": "reject",
+      "reason": "Sup_40087b8f16a8cc913d5f başarılı müzakereyi bir iletişim köprüsü olarak varsayar, fakat exact context ayeti/kelime indeksi, kök, atfedilmiş rol ve odağa dönüş trace'i sağlamaz. HFT anchor coverage sıfır olduğu için nedensel köprü kurulamaz.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_ef184a88c8f38eb88d92",
+      "decision": "reject",
+      "reason": "Sup_2296072d61abec6aa344 temporal-period ve barren-expanse yankılarını tercih edilmeyen okumalar olarak adlandırır, fakat herhangi bir branch/facet, exact carrier veya focus-return trace'i yoktur. Bu özet, mevcut dallar için atfedilmiş aktivasyon kanıtı oluşturmaz.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    }
+  ],
+  "findings": [
+    {
+      "finding_ref": "global:method-outlives-destination",
+      "origin_candidate_id": "cand_2571caf7c0554c98afef",
+      "represented_candidate_ids": ["cand_e828ace0e51f27abe528"],
+      "title": "Varışlar değişirken yöntemin sürmesi",
+      "claim": "Odak ifade, değişen varış ve topluluklar arasında aynı izleme ve ulaştıran araç ilişkisini sürdürür; böylece yol, tek bir hedefe varıştan öte, değişen şartlarda uygulanabilen bir yöntem olarak da görünür.",
+      "mechanism": "18:92:2:1'deki أَتْبَعَ fiziksel ardından gitme ve izlenen yolu benimseme taşıyıcısını, 18:92:3:1'deki سَبَبًا ise erişim sağlayan bağ/araç taşıyıcısını verir. Güvenilir çapraz-çalışma desteği değişen doğu, batı ve dağ arası alanlara rağmen aynı yöntemin sürmesini söyler; 18:28, 18:66 ve 18:70 bağlantıları izlemeyi arzuya kapılmaktan veya belirli bir rehberin yönlendirmesinden ayırır.",
+      "reader_payoff": "Okur, 'Sonra yine bir yol izledi' cümlesindeki yolu yalnızca yeni bir hedefe yönelme olarak değil, farklı ortamlarda yeniden kullanılabilen bir izleme işlemi olarak görür.",
+      "containment": "Bu okuma 'Sonra yine bir yol izledi' düz anlamını korur. Yöntem vurgusu, varışın veya anlatıdaki somut yolun yerine geçirilmez; her takip kullanımının ahlaki itaat anlamına geldiği de söylenmez.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": ["legacy_unbound", "trusted"],
+        "reason": "Trusted publication focus branches and a legacy reader-walk duplicate are supplied. Wider connection rows strengthen the governed-following contact, but their target-side morphology is not supplied and the method synthesis remains interpretive."
+      },
+      "support_ids": ["sup_3a7b29c0eb660e5b6583", "sup_94885fd438cf7335df74"],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000175/B001",
+          "facet_id": "F001",
+          "branch_gloss": "ardından gitmek ve yolunu benimsemek",
+          "facet_statement": "Bir kişiyle birlikte ya da onun arkasında ilerleyerek ardından gitmek.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["18:92:2:1"],
+          "trigger_refs": ["sup_3a7b29c0eb660e5b6583", "sup_94885fd438cf7335df74", "conn_6a80a9978bdcef05b020", "conn_24711c321171b7069f96", "conn_8b9f4342ee4399d8de2f"],
+          "focus_return_refs": ["18:92:2:1"],
+          "carrier": "أَتْبَعَ biçimi, bir önde bulunan yönün veya yolun ardından hareket etme eylemini taşır.",
+          "independent_trigger": "sup_3a7b29c0eb660e5b6583 ve sup_94885fd438cf7335df74 değişen alanlarda aynı izleme yöntemini bildirir; 18:28, 18:66 ve 18:70 bağlantıları izleme eylemini arzu, rehber ve öğrenme bağlamlarında somutlaştırır.",
+          "activation": "Odak fiilindeki ardından gitme eylemi, farklı çevreler ve varışlar karşısında aynı yöntemin yeniden kullanılmasını gösteren daha geniş izleme temasına temas eder.",
+          "resulting_reading": "İzleme, yalnızca bir yere ulaşan hareket değil, değişen hedefler boyunca korunabilen bir uygulama biçimi olarak okunur.",
+          "boundary": "Bu temas, odak fiilini yalnızca bir kişinin peşinden gitmeye indirgemez ve hedeflerin önemsiz olduğunu iddia etmez."
+        },
+        {
+          "branch_ref": "root_000175/B001",
+          "facet_id": "F002",
+          "branch_gloss": "ardından gitmek ve yolunu benimsemek",
+          "facet_statement": "Bir iz, örnek, buyruk veya öğreti doğrultusunda davranmak ve ona uymak.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["18:92:2:1"],
+          "trigger_refs": ["sup_3a7b29c0eb660e5b6583", "conn_6a80a9978bdcef05b020", "conn_24711c321171b7069f96", "conn_8b9f4342ee4399d8de2f"],
+          "focus_return_refs": ["18:92:2:1"],
+          "carrier": "Aynı أَتْبَعَ formu bir yolun, yönlendirmenin veya izlenen yöntemin benimsenmesi yönünü de taşır.",
+          "independent_trigger": "18:28'de sağlanan bir araca bağlı disiplinli izleme arzunun ardından gitmekle karşılaştırılır; 18:66 ve 18:70'te izleme, öğrenme ve rehberlik ilişkisine bağlanır.",
+          "activation": "Fiilin izlenen yolu benimseme yüzü, güvenilir bulgunun değişen topluluklar karşısında yöntem sabitliğini bildiren küresel temasına döner.",
+          "resulting_reading": "Odak cümlesi, ulaşılacak yeri söylemenin yanında, verilen bir bağlantıyı şartlar değişse de izleme ve kullanma tavrını görünür kılar.",
+          "boundary": "Bu, 18:92'de açıkça bir buyruk veya kişi bulunduğunu söylemez; bağlılık çağrışımı, yol ve yöntem ilişkisine bağlı bir yankıdır."
+        },
+        {
+          "branch_ref": "root_000664/B003",
+          "facet_id": "F001",
+          "branch_gloss": "ulaştıran bağ veya araç",
+          "facet_statement": "Somut çekirdek, erişmek veya hareket etmek için tutunulan uzun iptir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["18:92:3:1"],
+          "trigger_refs": ["sup_3a7b29c0eb660e5b6583", "conn_8e1a5ad8675ea4cff59e"],
+          "focus_return_refs": ["18:92:3:1"],
+          "carrier": "سَبَبًا, bir yere erişmeyi veya hareketi mümkün kılan bağlantı/araç anlamını taşır.",
+          "independent_trigger": "22:15 bağlantısında aynı isim göğe doğru uzatılan erişim sağlayıcı bir bağ içinde verilir; trusted support ise odak aracının farklı varışlarda aynı biçimde izlenmesini kaydeder.",
+          "activation": "Somut erişim bağı imgesi, odağın 'bir means izledi' ifadesine, yöntemin hedef değişse de bir bağlantı üzerinden yürüdüğünü duyuracak şekilde temas eder.",
+          "resulting_reading": "Yol, yalnızca çizilmiş bir güzergâh değil, hareketi mümkün kılan ve yeniden kullanılabilen bir erişim bağlantısı olarak da algılanır.",
+          "boundary": "22:15'teki göğe yönelen bağ, 18:92'nin hedefinin gök olduğunu göstermez; burada yalnızca aynı odak kelimesinin erişim taşıyıcısı olarak yankısı korunur."
+        },
+        {
+          "branch_ref": "root_000664/B003",
+          "facet_id": "F002",
+          "branch_gloss": "ulaştıran bağ veya araç",
+          "facet_statement": "Herhangi bir hedefe ulaştıran yol, araç veya dayanak soyut erişim uzantısıdır.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["18:92:3:1"],
+          "trigger_refs": ["sup_3a7b29c0eb660e5b6583", "sup_94885fd438cf7335df74", "conn_6a80a9978bdcef05b020"],
+          "focus_return_refs": ["18:92:3:1"],
+          "carrier": "سَبَبًا, hedefe ulaştıran yol, araç veya dayanak olarak odaktaki doğrudan nesnedir.",
+          "independent_trigger": "Yayımlanmış bulgu, farklı alanlar karşısında aynı aracın izlenmesini; 18:28 bağlantısı ise sağlanan bir means ile arzuya kapılma arasındaki yön farkını verir.",
+          "activation": "Soyut ulaştıran araç yüzü, أَتْبَعَ fiilinin izleme eylemiyle birleşerek yöntemin tekil bir varıştan bağımsız biçimde taşınmasını açıklar.",
+          "resulting_reading": "Bir yol izlemek, hazır bir güzergâhı geçmek kadar, farklı şartlarda iş gören bir ulaşım imkânını yöntemli biçimde kullanmak olarak da görünür.",
+          "boundary": "Bu yüz, odak aracının her zaman soyut bir plan olduğunu veya tüm varışların aynı türde olduğunu ileri sürmez."
+        }
+      ],
+      "connection_refs": ["conn_6a80a9978bdcef05b020", "conn_24711c321171b7069f96", "conn_8b9f4342ee4399d8de2f", "conn_8e1a5ad8675ea4cff59e"],
+      "context_refs": ["18:28", "18:66", "18:70", "22:15"],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:means-becomes-cooperative-repair",
+      "origin_candidate_id": "cand_2aea7c186b8fa23d6de0",
+      "represented_candidate_ids": ["cand_a9b85ff4376b41d97077", "cand_52214050cdd8031d6b9f", "cand_7ec4763a2e3f644ee8bb"],
+      "title": "Ulaştıran means'in ortak onarıma dönüşmesi",
+      "claim": "18:92'de izlenen means, sonraki temaslarda yalnızca yolculuğu tamamlayan bir araç olarak kalmaz; iletişim güçlüğü, korunma talebi ve ortak yapım dizisi içinde toplumsal onarıma taşınır.",
+      "mechanism": "18:92:2:1'deki أَتْبَعَ için adım adım iz sürme dalı, 18:92:3:1'deki سَبَبًا için ulaştıran bağ/araç dalı aynı odak yüzeyinde birleşir. Sup_1bb9a50479fc8c1557f7, sup_e73d9b33f5d456e7e54d, sup_10a3ea093f370b2d47bb ve sup_234b8695dbc59771172d2 18:93-98'i, hareket yönteminin iletişim, korunma ve ortak inşa üzerinden başka bir alanda çalışması olarak döndürür.",
+      "reader_payoff": "Okur, kısa 'bir means izledi' ifadesinin sonraki bölümde tamamlanmış bir varıştan çok, tehdidi birlikte ele alınabilir bir yapıya çeviren aşamalı bir kapasite zincirine açıldığını görür.",
+      "containment": "Bu okuma 'Sonra yine bir yol izledi' düz anlamını taşımaya devam eder. Her yolun toplumsal onarıma dönüşeceği veya sonraki sahnelerin bu dönüşümü zorunlu bir nedensellik olarak kanıtladığı söylenmez; kaynakların atfettiği alan geçişi korunmuş bir yorumdur.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": ["legacy_unbound", "trusted"],
+        "reason": "Trusted cross-run publication supplies the two focus branch anchors, while legacy reader-walk and retrospective supports supply the 18:93-98 domain shift. The packet does not supply full target-side morphology for that pericope sequence, so the social-repair transfer remains qualified."
+      },
+      "support_ids": ["sup_1bb9a50479fc8c1557f7", "sup_e73d9b33f5d456e7e54d", "sup_10a3ea093f370b2d47bb", "sup_234b8695dbc59771172d"],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000175/B003",
+          "facet_id": "F001",
+          "branch_gloss": "adım adım iz sürüp araştırmak",
+          "facet_statement": "Aranan şeyi zaman aralıkları içinde parça parça ve birbirini izleyen adımlarla araştırmak.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["18:92:2:1"],
+          "trigger_refs": ["sup_1bb9a50479fc8c1557f7", "sup_e73d9b33f5d456e7e54d", "sup_10a3ea093f370b2d47bb", "sup_234b8695dbc59771172d2", "18:93", "18:94", "18:95", "18:96", "18:97", "18:98"],
+          "focus_return_refs": ["18:92:2:1"],
+          "carrier": "أَتْبَعَ, bir şeyi veya izi tek hamlede değil, birbirini izleyen adımlarla takip etme yönünü taşır.",
+          "independent_trigger": "18:93-98 için sağlanan yürüyüş kayıtları, üçüncü yöntemi iletişim güçlüğü, korunma isteği ve ortak inşa aşamalarından geçirir.",
+          "activation": "Adım adım izleme taşıyıcısı, sonraki sahnenin tek bir varıştan çok ardışık sosyal ve maddi işlemlerle ilerlemesiyle temas eder.",
+          "resulting_reading": "Odaktaki izleme, coğrafi hareketin yanında, bir sorunu belirtilerinden ortak çözüme kadar adım adım taşıyan işlem dizisi olarak da okunur.",
+          "boundary": "Bu, sonraki sahnenin bütün ayrıntılarını fiilin sözlük anlamına yüklemez; adımlı süreç yalnızca sağlanan bağlamın odak fiiline verdiği yankıdır."
+        },
+        {
+          "branch_ref": "root_000664/B003",
+          "facet_id": "F001",
+          "branch_gloss": "ulaştıran bağ veya araç",
+          "facet_statement": "Somut çekirdek, erişmek veya hareket etmek için tutunulan uzun iptir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["18:92:3:1"],
+          "trigger_refs": ["sup_1bb9a50479fc8c1557f7", "sup_e73d9b33f5d456e7e54d", "sup_10a3ea093f370b2d47bb", "sup_234b8695dbc59771172d2", "18:93", "18:94", "18:95", "18:96", "18:97", "18:98"],
+          "focus_return_refs": ["18:92:3:1"],
+          "carrier": "سَبَبًا, erişimi mümkün kılan somut bağlantı imgesini ve hareketi taşıyan aracı taşır.",
+          "independent_trigger": "18:93-98'e dair destek, means'in iletişim, korunma ve maddi inşa arasında bağlantı kuran bir işlev kazanmasını bildirir.",
+          "activation": "Bağlantı çekirdeği, sonraki ortak çalışmanın ayrı kapasite ve malzemeleri tek bir sınırda birleştirmesiyle temas eder.",
+          "resulting_reading": "Means, yolculuğu tamamlayan nesneden, toplumsal tehdidi birlikte onarılabilir bir yapıya taşıyan bağlantıya doğru genişler.",
+          "boundary": "Bu, odak kelimesini yalnızca fiziksel ipe indirgemez; somut bağ imgesi, bağlamın ortak yapım sahnesinde görünürleşen bir çekirdektir."
+        },
+        {
+          "branch_ref": "root_000664/B003",
+          "facet_id": "F002",
+          "branch_gloss": "ulaştıran bağ veya araç",
+          "facet_statement": "Herhangi bir hedefe ulaştıran yol, araç veya dayanak soyut erişim uzantısıdır.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["18:92:3:1"],
+          "trigger_refs": ["sup_1bb9a50479fc8c1557f7", "sup_e73d9b33f5d456e7e54d", "sup_10a3ea093f370b2d47bb", "sup_234b8695dbc59771172d2", "18:93", "18:94", "18:95", "18:96", "18:97", "18:98"],
+          "focus_return_refs": ["18:92:3:1"],
+          "carrier": "سَبَبًا, bir hedefe ulaştıran yol, araç veya dayanak olarak doğrudan nesne konumundadır.",
+          "independent_trigger": "Sağlanan 18:93-98 kayıtları, aynı means ilişkisinin iletişim, korunma ve ortak mühendislikte çalıştığını söyler.",
+          "activation": "Soyut araç yüzü, أَتْبَعَ fiilinin adımlı izlemesiyle birleşerek yolun bir son noktadan çok kapasiteyi başka bir duruma taşıyan araç olduğunu görünür kılar.",
+          "resulting_reading": "18:92'nin means'i, hareket alanı ile toplumsal onarım alanı arasında iş gören bir geçiş aracı olarak da algılanır.",
+          "boundary": "Sonraki sosyal sahne, 18:92'nin açık sözlük karşılığını değiştirmez ve her aracın ortak mühendislik anlamı taşıdığını kanıtlamaz."
+        }
+      ],
+      "connection_refs": [],
+      "context_refs": ["18:93", "18:94", "18:95", "18:96", "18:97", "18:98"],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:means-as-severable-relation",
+      "origin_candidate_id": null,
+      "represented_candidate_ids": [],
+      "title": "Sürdürülüp kopabilen bağlantı",
+      "claim": "سَبَبًا, ulaştıran bir araç olmasının yanında, sürekliliği kopabildiğinde sonuç doğuran ilişkisel bir bağlantı olarak da görünür.",
+      "mechanism": "18:92:3:1'deki سَبَبًا taşıyıcısı, 2:166 bağlantısında aynı أسباب alanının takip ilişkileriyle birlikte kesilmesi üzerinden tetiklenir. Bağlantı çekirdeği ve insanlar arasındaki özel bağ uzantısı, odaktaki means'in yalnızca nötr bir güzergâh değil, sürdürülen veya kopan bir temas olduğunu görünür kılar.",
+      "reader_payoff": "Okur, 'bir yol izledi' ifadesindeki means'i, iş gördüğü sürece devam eden ve kesildiğinde yolun sonucunu değiştiren bir bağ olarak da duyabilir.",
+      "containment": "2:166'nın hesaplaşma bağlamı 18:92'ye taşınmaz; burada yalnızca aynı means/bağ alanının kopma ihtimali açılır. Odak cümlesi hâlâ bir yol veya araç izlemeyi bildirir.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": [],
+        "reason": "The exact target Arabic and a reciprocal lexical connection are supplied, but the target morphology and lexical analysis are not; the afterlife setting therefore qualifies rather than decides the relational activation."
+      },
+      "support_ids": [],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000664/B003",
+          "facet_id": "F001",
+          "branch_gloss": "ulaştıran bağ veya araç",
+          "facet_statement": "Somut çekirdek, erişmek veya hareket etmek için tutunulan uzun iptir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["18:92:3:1"],
+          "trigger_refs": ["conn_2b2bb1a2ee61d5360852"],
+          "focus_return_refs": ["18:92:3:1"],
+          "carrier": "سَبَبًا, erişimi mümkün kılan ve hareketi sürdüren somut bir bağlantı taşıyıcısıdır.",
+          "independent_trigger": "2:166'da aynı أسباب alanı, takip edilen kişiler ve kesilen bağlantılarla birlikte verilir.",
+          "activation": "Takip ve kopma temaslarının aynı means alanında buluşması, odak aracını sürekliliği korunması gereken bir bağlantı olarak renklendirir.",
+          "resulting_reading": "Means, varışa götüren çizginin yanı sıra, devamı kesildiğinde işlevi bozulan bir erişim bağı olarak da görünür.",
+          "boundary": "Bu, 18:92'de bir kopuş gerçekleştiğini veya 2:166'nın hesaplaşma sonucunun odakta bulunduğunu söylemez."
+        },
+        {
+          "branch_ref": "root_000664/B003",
+          "facet_id": "F003",
+          "branch_gloss": "ulaştıran bağ veya araç",
+          "facet_statement": "Akrabalık, iyilik, inanç ve sevgi gibi insanlar arasında bağlantı kuran ilişkiler özel bağ türleridir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["18:92:3:1"],
+          "trigger_refs": ["conn_2b2bb1a2ee61d5360852"],
+          "focus_return_refs": ["18:92:3:1"],
+          "carrier": "سَبَبًا, kişileri veya hedefleri birbirine ulaştıran bağ fikrini taşır.",
+          "independent_trigger": "2:166'nın bağlantıların kesilmesi ifadesi, means alanını insanlar arasındaki sürdürülebilir ilişkiyle temas ettirir.",
+          "activation": "İlişkisel bağ yüzü, odaktaki ulaştırma işlevine devamlılık ve kopma sınırını ekler.",
+          "resulting_reading": "İzlenen means, yalnızca yolun dış nesnesi değil, hareket edenleri birbirine bağlayan bir ilişki olarak da algılanır.",
+          "boundary": "Bu ilişkisel uzantı odakta bağımsız bir akrabalık, sevgi veya iman iddiası kurmaz; 2:166 yalnızca karşılaştırmalı tetikleyicidir."
+        }
+      ],
+      "connection_refs": ["conn_2b2bb1a2ee61d5360852"],
+      "context_refs": ["2:166"],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:vertical-access-means",
+      "origin_candidate_id": null,
+      "represented_candidate_ids": [],
+      "title": "Erişim aracının dikeyleşmesi",
+      "claim": "سَبَبًا, daha geniş kullanımlarda erişim için uzatılan bir bağ ve göğe yönelen bir giriş düzeni olarak da görünür; bu, odaktaki means'e yön ve tırmanış imgesini ekler.",
+      "mechanism": "18:92:3:1'deki سَبَبًا taşıyıcısı, 22:15'te göğe uzatılan bağ ve 38:10 ile 40:36-37'de göksel asbāb'a ulaşma bağlantılarıyla tetiklenir. Aynı kökün ulaştırma çekirdeği, odaktaki yolu yalnızca yatay güzergâh değil, erişim düzeni olarak da duyulur kılar.",
+      "reader_payoff": "Okur, 'bir yol izledi' ifadesindeki means'in bir rota kadar, erişim sağlayan ve yön verilerek kurulmuş bir bağ olabileceğini görür; yolun yönü ve taşıma kapasitesi daha belirginleşir.",
+      "containment": "Bu temas 18:92'yi göğe çıkış sahnesine çevirmez ve yatay yol anlamını dışlamaz. Göksel hedef, yalnızca aynı kelime alanının dışarıdan gelen somut tetikleyicisidir.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": [],
+        "reason": "The target Arabic, connection notes, and focus return are supplied, while target morphology and independent target-side lexical analysis are absent; the vertical-access image is therefore explicitly qualified."
+      },
+      "support_ids": [],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000664/B003",
+          "facet_id": "F001",
+          "branch_gloss": "ulaştıran bağ veya araç",
+          "facet_statement": "Somut çekirdek, erişmek veya hareket etmek için tutunulan uzun iptir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["18:92:3:1"],
+          "trigger_refs": ["conn_8e1a5ad8675ea4cff59e", "conn_93418f4a274235380b43", "conn_94712dffc12af6d22cb3", "conn_b3caecce57b7c25147a0"],
+          "focus_return_refs": ["18:92:3:1"],
+          "carrier": "سَبَبًا, erişmek veya hareket etmek için kullanılan bağ/araç çekirdeğini taşır.",
+          "independent_trigger": "22:15 aynı alanı göğe doğru uzatılan bir bağla; 38:10 ve 40:36-37 ise göğe erişme araçlarıyla ilişkilendirir.",
+          "activation": "Somut bağ taşıyıcısı, göğe yöneltilmiş erişim örnekleriyle temas ederek means'in yön ve tırmanış kapasitesini görünür kılar.",
+          "resulting_reading": "Odaktaki araç, varışa götüren bir yol olmasının yanında, erişimi fiziksel olarak kuran ve yönlendiren bir bağlantı olarak da duyulur.",
+          "boundary": "Bu, 18:92'de ip bulunduğunu veya göksel bir varışın gerçekleştiğini iddia etmez; çekirdek imge yalnızca dış bağlantıların tetiklediği bir yankıdır."
+        },
+        {
+          "branch_ref": "root_000664/B003",
+          "facet_id": "F004",
+          "branch_gloss": "ulaştıran bağ veya araç",
+          "facet_statement": "Göğün yönleri, katları veya girişleri, erişilecek yerler olarak aynı bağlantı tasarımıyla adlandırılır.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["18:92:3:1"],
+          "trigger_refs": ["conn_8e1a5ad8675ea4cff59e", "conn_93418f4a274235380b43", "conn_94712dffc12af6d22cb3", "conn_b3caecce57b7c25147a0"],
+          "focus_return_refs": ["18:92:3:1"],
+          "carrier": "Odaktaki سَبَبًا, bir hedefe erişimi mümkün kılan bağlantı tasarımını taşıyan isimdir.",
+          "independent_trigger": "22:15'te bağ göğe yönelir; 40:36-37 ve 38:10'da göksel yönler/araçlar erişilecek yer ve yükseliş düzeniyle anılır.",
+          "activation": "Göksel erişim yüzü, focus means'inin yalnızca hedefe götüren yol değil, hedefe erişim için kurulmuş bir düzen olarak okunmasına temas eder.",
+          "resulting_reading": "Bir means izlemek, yönü ve erişim mimarisi kurulmuş bir bağlantı boyunca ilerleme imgesini de taşıyabilir.",
+          "boundary": "Göğe ait erişim yüzü odak cümlesinin asli hedefi değildir; 18:92'nin yolculuk bağlamını seçip diğer anlamları dışarıda bırakmaz."
+        }
+      ],
+      "connection_refs": ["conn_8e1a5ad8675ea4cff59e", "conn_93418f4a274235380b43", "conn_94712dffc12af6d22cb3", "conn_b3caecce57b7c25147a0"],
+      "context_refs": ["22:15", "38:10", "40:36", "40:37"],
+      "semantic_obligation_refs": []
+    }
+  ],
+  "friction_notes": [
+    "focus_word_alignment 3/3 kelimeyi çözmüş ve unresolved listesi boştur; bu nedenle analiz-QAC birleşiminden kaynaklanan açık bir focus yüzeyi boşluğu yoktur.",
+    "Global packet'te selected_context_units boştur. 18:93-98 alanı, packet içindeki açık destek metinleri ve context ref'leri üzerinden kullanılmış; ek ayet metni, morphology veya dosya içi pointer okunmamıştır.",
+    "Connection kayıtları exact target Arabic ve ilişki notlarını verir, ancak target morphology/lexical analysis sağlamaz. 2:166, 22:15, 38:10 ve 40:36-37 temasları bu nedenle qualified olarak tutulmuştur.",
+    "Sekiz assigned HFT kaydının tamamında anchor_evidence boştur ve HFT anchor coverage sıfırdır. Her biri açıkça incelenmiş, exact carrier/root/role/focus-return trace'i icat edilmeden reject edilmiştir.",
+    "Candidate kayıtlarında semantic_obligations veya required_branch_facets alanları bulunmadığından sentetik obligation/facet kimlikleri üretilmemiştir.",
+    "No-value ve konu dışı bağlantılar ayrı bir negative inventory olarak çoğaltılmamış; yalnızca supplied candidate semantics veya gerçek bir focus-return taşıyan bağlantılar findings'e alınmıştır."
+  ]
+}

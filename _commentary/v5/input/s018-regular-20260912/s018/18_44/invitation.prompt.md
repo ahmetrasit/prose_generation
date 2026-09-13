@@ -1,0 +1,192 @@
+# V5 reading invitation — 18:44
+
+You are a fresh reading-invitation writer. Read the complete editorial prose
+before writing. It is your sole semantic source.
+
+Write two to four paragraphs of fluent, contemporary Turkish that reveal a
+surprising reading by following one or two main channels of resonance in the
+ayah. A channel is a connected background of meanings, images, actions, or
+relations through which the ayah can be heard and understood differently.
+Several editorial findings may together develop one channel. Summarize that
+connected movement and its consequence for the ayah's main meaning, rather
+than compressing findings individually. Give the reading's substance now;
+the invitation comes from understanding it, not from a promise of hidden depth.
+
+Before drafting, read the entire editorial prose and silently select the one
+or two channels with the strongest interpretive consequence and enough
+grounding to explain clearly. Favor channels that expand or shift what the
+ayah says, the relation it establishes, or what is at stake in its action or
+image. One fully developed channel is sufficient; add a second only when it
+offers a distinct consequential reading that can be explained within the
+invitation. No finding, channel, or major shift has an individual coverage
+claim. Unselected material may remain entirely in the full commentary.
+
+A channel may develop through grammar, sound, dialogue, a material process,
+time, imagery, or a conceptual relation. Resonance is not limited to acoustic
+effects, and an unusual image alone does not establish a channel. Use only
+connections the editorial prose actually develops. If it supplies no such
+channel, explain its strongest grounded reading without inventing connections
+or surprise.
+
+Begin inside the ayah's own words, images, actions, or relations and reveal a
+selected distinctive reading in the first paragraph. Keep the plain meaning
+reachable with only the orientation needed to understand the change. Do not
+spend an opening paragraph on routine explanation or front-load context about
+the surah, the ayah's position, or the commentary project.
+
+For each selected channel, begin with the expression that opens it, unfold the
+connected background, and show how the ayah reads or sounds against that
+background. Let a detail lead into the next through an intelligible relation
+or process, so the reader experiences the emerging reading. This is a movement
+of thought, not a mandatory sentence pattern or one paragraph per finding.
+Let the reader identify the expression being interpreted,
+where any nonordinary detail comes from, and what that detail changes in the
+reading. Briefly identify the word-family use, restricted form, collocation, or
+context that supplies an essential added detail, and preserve the concrete
+operation that makes the image work. Keep the ordinary reading and necessary
+qualification clear within this explanation; do not repeat them as a fixed
+formula. Preserve the particular object, process, or relation that makes this
+reading distinctive, and state its interpretive consequence for the ayah as a
+whole. Make intelligible what the familiar reading leaves less visible and
+what the expanded or shifted reading now lets the reader understand. Preserve
+the editorial's force: an exploratory possibility remains possible, while a
+developed shift must not be softened into a decorative association or a
+reassurance that everything means the same thing. A concrete
+account of how something is carried, transformed, lost, or restored must not
+shrink to a general statement about care, guidance, dependence, or goodness.
+Keep the details needed to make the selected channel work; omit side findings
+and shorten routine setup. If a channel cannot be explained faithfully from
+the editorial prose, choose another grounded channel or reading.
+
+When a non-focus ayah supplies a contribution used in the invitation, keep its
+reference from the editorial prose beside that contribution.
+
+Do not turn the invitation into a miniature inventory of the commentary's
+conclusions, or flatten distinct channels into a broad theme to include more
+material. Do not repair, extend, or supplement the editorial prose from memory
+or outside knowledge.
+
+Omit technical apparatus. Retain any qualification, source distinction, live
+alternative, or boundary whose absence would change the force or meaning of a
+chosen reading. Express it naturally beside the image or relation it qualifies.
+Favor positive explanations of the relation between layers: what remains in
+the foreground and what the resonance makes audible in the background. State
+how that background reinforces, expands, or shifts the understanding of the
+main meaning, with the source and degree of certainty clear. Reserve explicit
+exclusions for concrete ambiguities or live counter-evidence that need them.
+Repeated "this is not X" endings make a reading sound withdrawn; express the
+substantive qualification through what the reading does contribute wherever
+possible. Use varied, natural language rather than a repeated "second layer"
+formula, and preserve the force of expansions and shifts.
+Do not name branches, candidates, findings, scopes, evidence categories,
+ledgers, or workflow stages, or label the prose as numbered channels. Do not
+list findings serially.
+
+Use the established `{ar:..., tr:..., gloss:...}` syntax, consistent
+Turkish-readable transliteration, and short ordinary glosses. Keep Arabic
+anchors beside the explanations they ground. Within a paragraph, continue with
+the Turkish meaning where clear; provide the necessary local tag when a later
+paragraph interprets the carrier anew. Do not place Arabic script outside a
+valid tag.
+
+Build transitions within a channel through its shared object, action, or
+relation. If two channels are selected, they may occupy separate paragraphs;
+do not invent a link between them. Do not praise the commentary's quality,
+promise what the reader will find, manufacture suspense, recap at the end, or
+add a call to action. End on an image, relation, action, or tension already
+established by the selected reading.
+
+Before finishing, compare the invitation with the entire editorial prose:
+does the chosen channel reveal a consequential reading, or could the text have
+been written from the ordinary translation and a modest explanation alone?
+When the editorial supports a surprising channel, the latter fails this task.
+Can the reader follow the opening expression into a connected background and
+understand how that background expands or shifts the ayah's main meaning?
+Check the selected connections against their editorial explanation: can the
+reader tell where the nonordinary details come from, with the necessary
+qualifications intact? Repair generic explanation, isolated curiosities, or a
+compressed findings list by developing the selected channel. Do not add
+omitted channels merely for coverage. Do not output this check.
+
+Write only the invitation text to:
+
+`_commentary/v5/editorial/s018-regular-20260912/s018/18_44/18_44.invitation.tr.md`
+
+Do not add a heading, wrapper label, index, ledger, evidence file, or any other
+artifact. Do not modify the editorial prose.
+
+After writing the invitation, run:
+
+```bash
+python3 _commentary/v5/validate_prose.py _commentary/v5/editorial/s018-regular-20260912/s018/18_44/18_44.invitation.tr.md
+```
+
+If validation fails, repair only the reported mechanical file-contract issues
+and rerun it, for at most two repair cycles. Report the final validator result
+in your response.
+
+<editorial_prose>
+## Çöküşün İçindeki Hüküm
+
+Bahçenin yıkıldığı, sahibinin hem dışarıdan gelecek yardımı hem de kendi gücüyle kendini toparlama imkânını kaybettiği anda âyet hükmü tam o noktaya yerleştirir: {ar:هُنَالِكَ, tr:hunālika, gloss:işte orada} denilen yerde gerçek koruyuculuk Allah'a aittir; ödül bakımından da sonuç bakımından da en iyi olan O'dur. {ar:هُنَالِكَ, tr:hunālika, gloss:işte orada} başa alınarak sözün uzak ve belirsiz bir yerden değil, yardımın tükendiği belirli çöküş noktasından söylendiği duyulur. Önceki anlatı bahçenin yıkımını hareketli fiillerle izlerken burada isim cümlesi akışı durdurur ve olup biteni yerleşmiş bir hükme çevirir. Özel bir bahçe kaybı böylece genel bir yetki bildirimine açılır.
+
+Bu hükmün ilk taşıyıcısı {ar:ٱلْوَلَٰيَةُ, tr:al-walāyatu, gloss:koruyuculuk ve yetki} kelimesidir. Belirli bir isim olarak öne çıkar; ardından gelen {ar:لِ, tr:li-, gloss:-ait} onun Allah'a ait kılındığını kurar. Bu kelimenin duyurduğu ilişki yanında durmayı, destek olmayı ve bir işi üstlenip yürütmeyi aynı koruyuculukta toplar. Yazıdaki {ar:ٱلْوَلَٰيَةُ, tr:al-walāyatu, gloss:koruyuculuk ve yetki} ile kabul edilen {ar:ٱلْوِلَايَةُ, tr:al-wilāyatu, gloss:yakın destek ve yetki} duyuluşu, himaye ile yetki ve hüküm alanlarını aynı ilahî özneye bağlayan iki basınç taşır. İnsan desteği ve kendi kudreti tükendikten sonra kalan ilişki, böylece hem Allah'ın üstlendiği koruma hem de Allah'a ait hüküm olarak duyulur.
+
+{ar:لِلَّهِ, tr:li-llāhi, gloss:Allah'a ait} biçimindeki birleşme, {ar:لِ, tr:li-, gloss:-ait} edatını Türkçedeki tek bir "için" karşılığından daha işlevli kılar. Edat, {ar:ٱلْوَلَٰيَةُ, tr:al-walāyatu, gloss:koruyuculuk ve yetki} öznesini tamamlayan yüklem menteşesidir; aidiyeti, hakkı ve bağlılığı aynı kısa bağlantıda kurar. {ar:ٱللَّهِ, tr:Allāhi, gloss:Allah'a} adı burada genel bir ilah kategorisini değil, adı anılan ve çöküş anında yönelinilen ilahî varlığı gösterir. Bu yüzden koruyuculuk soyut bir ilke olarak havada kalmaz; dayanılacak ve kendisine dönülecek belirli bir özneye bağlanır. Adın tapınılan varlığı ve kişinin kendini ona yöneltmesini duyuran tarafı da bu ihtiyaçla birleşir: başka destekler çekildiğinde Allah adı, hükmün sahibi olduğu kadar sığınılan varlığı da görünür kılar.
+
+{ar:ٱلْحَقِّ, tr:al-ḥaqqi, gloss:gerçek ve hak} ilk cümlenin sonunda durarak yetki hükmünü karşılaştırma başlamadan önce mühürler. Anlamıyla gerçekliği, sağlamlığı ve bağlayıcılığı taşır; kapanış sesiyle de ilk nominal birimin sonunu belirginleştirir. Alışılmış bağlılıkta Allah'ı niteler ve Allah'a ait koruyuculuğu gerçek ve hakka uygun olanla sabitler. Cümle içindeki başka irap baskıları, aynı kelimeyi bağımsız bir gerçeklik iddiası ya da bütün hükmü doğrulayan bir unsur olarak da duyurabilir; bu uyumlu okumalar aynı yetki hükmünün çevresinde kalır. Velâyet böylece Allah'la birlikte gerçekliği ayakta duran ve hak olarak bağlayıcılık kazanan bir koruyuculuk olur.
+
+İlk hükümden iki değerlendirmeye geçişi {ar:هُوَ, tr:huwa, gloss:Odur} sağlar. Kısa ve bağımsız biçimi, önceki sahnedeki başarısız insan öznesi ile bundan sonra gelecek ölçüler arasında bir soluklanma açar. Bu zamir yeni isim cümlesinin açık öznesi olarak da, yüklem ilişkisini belirginleştiren ayırıcı unsur olarak da okunabilir; her iki duyuluş Allah'ı gösterir. Allah önce yetkinin kendisine ait olduğu adlandırılmış sahip olarak gelir, sonra {ar:هُوَ, tr:huwa, gloss:Odur} ile iki değerlendirme yükleminin açık öznesi olarak yeniden belirir. Ödül bakımından en iyi oluş da sonuç bakımından en iyi oluş da aynı ilahî özneye bağlanır.
+
+İlk {ar:خَيْرٌ, tr:khayrun, gloss:en iyi ve seçilmeye değer} iyilik anlamını taşırken seçilmeye değer olanı da öne çıkarır. Belirsiz elatif biçimi açık bir rakip söylemeden kendi içinde bir karşılaştırma kurar: hangi şeyin gerçekten daha iyi olduğu sorusunu açar. Ardından gelen {ar:ثَوَابًا, tr:thawāban, gloss:yapılan işin sahibine dönen ödül} bu ilk üstünlüğün ölçüsünü belirler. İki mansup ölçü yuvasının ilki olan bu kelime, Allah'ın ilan edilmiş yetkisinin hemen ardından ödül alanını açar ve karşılığın yapılan işin sahibine geri dönmesi yönünü duyurur. Yerel biçim bu geri dönüşü ödül olarak sabitler; sonraki bağlamların açtığı maddî ve mekânsal yankılar bu ödül zeminine bağlanır. {ar:ثَوَابًا, tr:thawāban, gloss:yapılan işin sahibine dönen ödül} kelimesinin sonundaki nazal kapanış da biraz sonra gelecek {ar:عُقْبًا, tr:ʿuqban, gloss:sonuç ve varılan son durum} kelimesinin sesini hazırlar.
+
+İkinci {ar:خَيْرٌ, tr:khayrun, gloss:en iyi ve seçilmeye değer} ilk biçimin belirsiz merfu yapısını aynalar. Yeni bir özne getirmeden hükmü genişletir; aynı kelimenin tekrarı ödül ile sonucu tek bir değer ölçüsünde buluştururken iki alanın ayrılığını da korur. Aradaki {ar:وَ, tr:wa-, gloss:ve} ilk ölçüyü kapatıp ikinci ölçüyü açar, fakat yeni bir cümle başlatmaz. Ardından gelen {ar:عُقْبًا, tr:ʿuqban, gloss:sonuç ve varılan son durum} ikinci mansup ölçüdür: bir sürecin ardından gelen durumu, o gidişin vardığı son hâli ve varış noktasını bildirir. Ayetin son işitilen unsuru olması sonuç basıncını sesle de tamamlar. Farklı irap baskıları kelimenin biçimsel hassasiyetini korurken anlam işlevini yerinde tutar. Ödül ilk geri dönüş ufkunu, ukbâ ise onun ardından gelen sonuç ve akıbet ufkunu taşır.
+
+Bu kelimeler birlikte duyulduğunda Allah'a ait koruyuculuk işleyen bir ilişki halini alır: {ar:ٱلْوَلَٰيَةُ, tr:al-walāyatu, gloss:koruyuculuk ve yetki} işi üstlenip yürütme yönünü, {ar:لِلَّهِ, tr:li-llāhi, gloss:Allah'a ait} bu yükün yöneldiği ilahî özneyi, {ar:ٱلْحَقِّ, tr:al-ḥaqqi, gloss:gerçek ve hak} ise ilişkinin gerçek ve bağlayıcı niteliğini verir. Yakınlık, destek ve ilk hak sahibi olma duyuluşları aynı temas içinde belirir; Allah yalnız yetkiye sahip değil, yöneten ve yanında duran koruyucudur. Öte yandan {ar:ثَوَابًا, tr:thawāban, gloss:yapılan işin sahibine dönen ödül} ile {ar:عُقْبًا, tr:ʿuqban, gloss:sonuç ve varılan son durum} iki ayrı ufku aynı ilahî ölçü altında tutar. Biri yapılan işten geri dönen karşılıktır, diğeri sürecin sonunda kalan durumdur.
+
+## Yerine Konulamayan Yakınlık
+
+Bu ilişkideki yerine konulamama basıncı, sözün ve sığınağın değiştirilemezliğini dile getiren cümleyle buluşur (18:27). {ar:لَا مُبَدِّلَ, tr:lâ mubeddile, gloss:yerine geçecek değiştirici yok} bir şeyin başka bir şeyin yerine konmasını engelleyen sözü taşır. {ar:ٱلْوَلَٰيَةُ, tr:al-walāyatu, gloss:koruyuculuk ve yetki} ile buluştuğunda Allah'ın üstlendiği koruma başka bir merciye devredilemeyen bir ilişki olarak görünür. {ar:مِن دُونِهِۦ مُلْتَحَدًا, tr:min dûnihî multehaden, gloss:O'ndan başka sığınılacak yer} içinden çıkılan durumun dışında başka bir yana eğilmeyi, başka bir sığınak aramayı açar. {ar:دُونِهِۦ, tr:dûnihî, gloss:O'nun dışında} dışarıda bırakılan alternatifi, {ar:مُلْتَحَدًا, tr:multehaden, gloss:sığınılacak yana eğilen yer} ise yönelinen sığınağı görünür kılar. Odaktaki velâyet bu kelimelerle temas ettiğinde aranan kaçış yolunun da koruyuculuk hükmünün dışında bulunamadığı bir sığınak ilişkisi kurar. Bu temas Allah'a ait hükmün yüksekliğini, onun yerine konulamayan ve başka yere devredilemeyen bir sığınak oluşuyla birlikte duyurur.
+
+Bu sığınağın yakınlık olarak nasıl sürdürüldüğü, dikkatin korunmasıyla görünür hale gelir (18:28). {ar:وَٱصْبِرْ نَفْسَكَ مَعَ, tr:vasbir nefseke mea, gloss:nefsini ... ile tut} buyruğu insanın kendini seçilmiş topluluğun yanında tutmasını ister; {ar:ٱصْبِرْ, tr:ısbir, gloss:kendini tut} dağılmayı engelleyen tekrar tekrar korunmuş dikkati taşır. Odaktaki {ar:ٱلْوَلَٰيَةُ, tr:al-walāyatu, gloss:aralıksız yakınlık} böylece yerleşmiş bir ad olmaktan çıkar, kişinin kendini o beraberlik içinde tutmasıyla yaşanan bir ilişkiye dönüşür. {ar:وَجْهَهُۥ, tr:vechehû, gloss:O'nun yüzü} yüzü ve dikkati tek bir hedefe çevirmeyi duyurur; yakınlık yönelinen canlı bir bağ olur. {ar:وَلَا تَعْدُ عَيْنَاكَ, tr:ve lā taʿdu ʿaynāka, gloss:gözlerin aşmasın} sözü gözün o topluluktan dünyalık süse taşmamasını, {ar:وَٱتَّبَعَ هَوَىٰهُ, tr:vettebea hevāhû, gloss:hevasının peşine düştü} ise insanın kendi arzusuyla yön değiştirmesine karşı korunmayı gösterir. Velâyet burada sabit bir etiket değil, dikkatle sürdürülen beraberlik ve ilahî ittifaktır.
+
+## Emeğin Döndüğü Yer
+
+Bu sürdürülen yakınlık, ödül ve sonuç kelimelerinde emeğin nereye vardığı sorusuna bağlanır. 18:29'da {ar:مُرْتَفَقًا, tr:murtefekan, gloss:dayanılacak ve yaslanılacak yer} kötü sonucun başvuru yerini gösterir. 18:30'da {ar:عَمِلُوا۟, tr:ʿamilū, gloss:iş yaptılar} ile {ar:عَمَلًا, tr:ʿamalan, gloss:iş} iyi eylemi öne çıkar, {ar:لَا نُضِيعُ, tr:lā nuḍīʿu, gloss:zayi etmeyiz} ise bu eylemin izinin korunduğunu bildirir. {ar:أَجْرَ, tr:ʾajra, gloss:emeğin karşılığı} iş ile karşılığı arasındaki hesabı kurar; 18:31'deki iyi karşılık ve yaslanılacak yer, bu hesabı yaşanabilir bir desteğe bağlar (18:29, 18:30, 18:31). Bu hareket {ar:ثَوَابًا, tr:thawāban, gloss:yapılan işin sahibine dönen karşılık} kelimesine yapılan işin sahibine dönüp yaşanacak bir şart oluşturan karşılık gücü verir; {ar:عُقْبًا, tr:ʿuqban, gloss:sonuç ve varılan son durum} ise bu dönüşü sürecin vardığı nihai hâle uzatır.
+
+Bu geri dönüşe aynı bağlamdaki giysi görüntüsü maddî bir yüz verir (18:31). {ar:يَلْبَسُونَ, tr:yalbasūna, gloss:giyerler} fiili kişinin üzerine alınan örtüyü, {ar:ثِيَابًا, tr:thiyāban, gloss:giysiler} ise bu örtünün kendisini görünür kılar. {ar:ٱلثَّوَابُ, tr:al-thawābu, gloss:iyi karşılık} ile ses yakınlığı kurulduğunda sevabın kişiye giydirilmiş gibi dönmesi duyulur. Böylece karşılık kişinin üzerinde görünürleşen ve onu kuşatan bir madde imgesine yaklaşır. Ayetin yerel biçimi {ar:ثَوَابًا, tr:thawāban, gloss:ödül ve geri dönen karşılık} kelimesiyle ödül anlamını kurar; giysi teması bu anlamı açıklayan, ses yakınlığından doğan keşifsel görüntü olarak ona eklenir.
+
+## Bahçenin Kurduğu Düzen
+
+Emeğin yaşanabilir bir sonuca dönüşmesi, bahçenin kendisini nasıl bir koruma sistemi gibi kurduğunu aydınlatır. İki bahçe çevrelenmiş verimli iç alanlar olarak belirir; içlerinden su akar, meyve ürün olmaktan çıkıp birikmiş servete dönüşür, sahibinin yanında sayılabilir bir insan topluluğu bulunur ve düzen ebedîlik iddiasına taşınır (18:32, 18:33, 18:34, 18:35). {ar:جَنَّتَيْنِ, tr:jannatayn, gloss:iki bahçe} kapalı üretim merkezini, {ar:وَحَفَفْنَٰهُمَا, tr:wa-ḥafafnāhumā, gloss:ikisini çevreledik} bu merkezin çevresindeki ikinci koruma halkasını kurar. {ar:وَفَجَّرْنَا, tr:wa-fajjarnā, gloss:akıttık ve yarıp çıkardık} suyu içeride dolaştırarak bahçenin kendini yenilediği izlenimini verir. {ar:ثَمَرٌ, tr:thamarun, gloss:ürün ve biriken servet} biyolojik verimi birikmiş servet olarak toplar; {ar:نَفَرًا, tr:neferen, gloss:destekçi topluluk} bu üretime insan gücüyle sosyal güvenlik ekler. {ar:أَبَدًا, tr:ʾabadan, gloss:sonsuza dek} bütün bu dayanıklılığı süreklilik iddiasına çevirir.
+
+Bu parçalar bir araya geldiğinde düzen, bir işi içeriden koruyup üretme yönüyle {ar:ٱلْوَلَٰيَةُ, tr:al-walāyatu, gloss:bir işi üstlenip yönetme} kelimesinin görüntüsünü taşır. Bahçe, su, servet, insan gücü ve ebedîlik iddiası birlikte mülk sahibinin kendini kendi çevresiyle koruyup sürdüren bir velâyet kurduğu izlenimini verir. Sonraki çöküş, bu koruma görünümünün kendi başına kalıcı olmadığını açığa çıkarır; odaktaki ilahî velâyet de insan mülkiyetinin sağlayamadığı gerçek sürdürme gücü olarak duyulur (18:32, 18:33, 18:34, 18:35).
+
+Bu süreklilik iddiası kendi değer ölçüsünü de dile getirir. Bahçe sahibi saati inkâr eden kanaatini {ar:أَظُنُّ, tr:ʾaẓunnu, gloss:sanıyorum} diyerek sonucu bilmeden kurar; {ar:رُدِدْتُ, tr:ruddittu, gloss:geri döndürülürsem} mevcut bahçe ayrıcalığının başka bir dönüşte de korunacağını tasarlar; {ar:خَيْرًا, tr:khayran, gloss:daha iyi olan} ve {ar:مُنقَلَبًا, tr:munqalaban, gloss:dönülecek yer ve dönüş} bu beklentiyi kendi mal ve güç ölçüsüne bağlar (18:36). Odaktaki iki {ar:خَيْرٌ, tr:khayrun, gloss:en iyi ve seçilmeye değer} ise ölçüyü bahçe sahibinin iddiasından Allah'ın hükmüne taşır: ilki ödülü, ikincisi sonucu ölçer; ikisinin öznesi Allah'tır. {ar:ثَوَابًا, tr:thawāban, gloss:gerçek karşılık} daha büyük bir mülkü değil Allah'ın belirlediği geri dönüşü öne çıkarır. Bu temas, dönüş vaadinin yerel anlamını korurken daha iyiyi belirleme yetkisinin sahibini değiştirir.
+
+Ölçünün Allah'a bağlanması, bahçenin varlığı ve işleyişinin hangi kudrete dayandığını da açar. Yaratılış hatırlatması, ortak koşmanın reddi ve Allah'ın dilemesiyle gücün Allah'a bağlanması (18:37, 18:38, 18:39), {ar:لِلَّهِ, tr:li-llāhi, gloss:Allah'a ait} ifadesini yalnız mülkiyet başlığından nedensellik ilişkisine taşır. {ar:خَلَقَكَ, tr:khalaqaka, gloss:seni yarattı} bahçe sahibinin ve bütün kapasitesinin öncelikli oluşumunu hatırlatır; {ar:أُشْرِكُ, tr:ushriku, gloss:ortak koşarım} nihai etkinliği bölme ihtimalini reddeder. {ar:قُوَّةَ, tr:quwwata, gloss:güç ve kapasite} bahçenin üretme ve sürme gücünü bağımsız bir kudret olarak bırakmaz. Aynı cümlede iki kez anılan {ar:ٱللَّه, tr:Allāh, gloss:tapınılan ve ilahî varlık} dileme ile gücü aynı ilahî gönderimde toplar. Böylece velâyet bahçenin yalnız hukukî sahibi değil, etkili işleyişini yüklenip yürüten kaynak olarak duyulur.
+
+## Dayanağın Sınanması
+
+Bahçenin kaynağına bağlanan bu kudret, ayağın basacağı zemin ve ulaşılacak su üzerinden sınanır. {ar:خَيْرًا, tr:khayran, gloss:arzulanan iyilik} daha iyi olanı zengin bahçenin miktarından ayırır; {ar:حُسْبَانًا, tr:ḥusbānan, gloss:hesaplanmış ve ölçülmüş olay} gökten gelen yıkımı hesap ve karşılık düzenine bağlar. {ar:صَعِيدًا زَلَقًا, tr:ṣaʿīdan zaliqan, gloss:üzerinde ayağın tutunamadığı kaygan zemin} sahipliğin altındaki maddî basamağı çeker; ilk soru elde ne kadar mal kaldığı değil, üzerinde durulabilir bir zemin kalıp kalmadığıdır. {ar:مَاؤُهَا غَوْرًا, tr:māʾuhā gawran, gloss:suyu derinliğe çekilmiş} sürdürücü kaynağı erişimin altına indirir. {ar:فَلَن تَسْتَطِيعَ لَهُۥ طَلَبًا, tr:falan tastaṭīʿa lahū ṭalaban, gloss:onu arayıp bulmaya gücün yetmez} aramanın başarısızlığını gösterir: kaynak varlığını korurken erişimden çekilir. Bu temas, velâyet ile hayrı mal miktarından dayanağın ve kaynağın erişilebilirliğine doğru taşıyan temkinli bir sınama görüntüsü kurar (18:40, 18:41). Aynı sahnenin ceza anlatısı olarak da canlı kalması, bu bağlantının kapsamını bu ihtiyatlı görüntüyle sınırlar.
+
+Zemin ve erişim sorusu, suyun geliş ve kesiliş hareketiyle süreklilik kazanır. Bahçenin içindeki {ar:نَهَرًا, tr:nahran, gloss:akıp sürdüren nehir} devamlı beslenmeyi sağlar; {ar:وَيُرْسِلُ, tr:wa-yursilu, gloss:gönderir} yağışın ya da olayın yeniden sevk edilmesini duyurur; {ar:مَاؤُهَا غَوْرًا, tr:māʾuhā gawran, gloss:suyu derinliğe çekilmiş} bu sürekliliğin kesildiği sınırı gösterir (18:33, 18:40, 18:41). Bu üç hareket {ar:ٱلْوَلَٰيَةُ, tr:al-walāyatu, gloss:önceki sağlanışı izleyen koruyucu süreklilik} kelimesini, yağan yağmuru izleyen yağmur gibi yeniden gelen bir sağlama hareketine açar. Koruyuculuk burada statik sahiplikten, yeniden gelen ve yeniden sürdüren bir ilişkiye doğru genişler. Kaynağın erişimin altına inmesi, bu su temasının bağımlı bir beslenme analojisi olarak kaldığını ve sağlayıcı sürekliliği görünür kıldığını gösterir.
+
+Suya bağlı sürekliliğin kırıldığı yerde dönüş bedende ve yapıda görünür hale gelir. Ellerindeki tersine dönüşü {ar:يُقَلِّبُ, tr:yuqallibu, gloss:çevirip tersine döndürür} hareketi taşır; {ar:كَفَّيْهِ, tr:kaffayhi, gloss:iki avucunu} bu dönüşün bedensel yüzeyini verir. {ar:أَنفَقَ, tr:anfaqa, gloss:harcadı} dışarı çıkarılmış yatırımı ve şimdi geriye dönüp bakılan eylemi kurar. Karşısında {ar:خَاوِيَةٌ, tr:khāwiyatun, gloss:içi boşalmış} bahçenin canlı üretim merkezinin boşaldığını, {ar:عُرُوشِهَا, tr:ʿurūshihā, gloss:üzerinde yükseldiği destekler} ise yıkımın bahçenin kendi taşıyıcılarına çöktüğünü gösterir (18:42). {ar:ثَوَابًا, tr:thawāban, gloss:iş sahibine geri dönen karşılık} bu el, harcama ve yapı dizisine bağlanınca eylemin sahibine dönmesi maddî biçim kazanır; {ar:عُقْبًا, tr:ʿuqban, gloss:sonunda varılan durum} bedende yaşanan tersine dönüşü ve desteklerin son hâlini adlandırır. Olağan yas hareketi böylece avuçlarda, boşalan bahçede ve kendi direklerine düşen yapıda görülen bir geri dönüş sahnesiyle birlikte ilerler.
+
+Yapının taşıyıcıları çökerken insan koalisyonunun da taşıyamadığı görülür. Servet sahibi sayılabilir bir insan gücüne yaslanır; sonra yardım için toplanacak grup bulunamaz ve dış yardım ile kişinin kendi kendini kurtarma kapasitesi aynı anda sınanır (18:34, 18:43). {ar:نَفَرًا, tr:neferen, gloss:destekçi insan topluluğu} bu güvenlik gücünü, {ar:فِئَةٌ, tr:fiʾatun, gloss:yardım için toplanan grup} onun bulunamayan karşılığını verir. {ar:يَنصُرُونَهُۥ, tr:yanṣurūnahū, gloss:ona yardım ederler} dış yardımı, {ar:مُنتَصِرًا, tr:muntaṣiran, gloss:kendi kendini kurtaran} kişinin kendi başına zafer kazanma ihtimalini gösterir. {ar:مِن دُونِ ٱللَّهِ, tr:min dūnillāh, gloss:Allah dışında} kurtuluşu Allah'ın dışında arayan yönü açar; ardından gelen {ar:ٱللَّهِ, tr:Allāhi, gloss:tapınılan ve ilahî varlık} adı, grup ve öz-kurtuluş elendikten sonra kalan ilahî desteğe döner. Bu başarısızlık sırası içinde {ar:ٱلْوَلَٰيَةُ, tr:al-walāyatu, gloss:yakın durup destek olma} soyut bir müttefiklik unvanından, dışarıdan ve içeriden kurtarma yolları çöktüğünde yanında duran fiilî yardıma doğru genişler. Bu bağlantı velâyetin zor anda yanında duran yüzünü görünür kılar; kelimenin yönetme ve hükümle ilgili anlamları da asli cümlede yerini korur.
+
+
+## Hükmün Görünürleşmesi
+
+Bu hükümdeki {ar:ٱلْحَقِّ, tr:al-ḥaqqi, gloss:gerçeğe uygun ve kesin doğruluk} kelimesi, {ar:ٱلْحَقُّ مِن رَّبِّكُمْ, tr:al-ḥaqqu min rabbikum, gloss:hak Rabbinizdendir} ifadesindeki doğrulukla temas eder (18:29). İki cümlenin gramerleri ayrı kalırken bu temas, 18:29'daki Rab'den gelen doğruluğu 18:44'te Allah'a ait velâyetin niteliğini açıklayan gerçeklik yüzüne taşır. Bahçe sahibinin iddiası ve dayanakları çöktüğünde geride kalan otorite, gerçekliği ayakta kalan ölçü olarak duyulur. Bu sahnede çöküş yetkinin kaynağı değil, rakip dayanaklar sustuğunda görünür olduğu eşiktir.
+
+Bu görünürlük iki farklı koruyuculuk sorusunu da birbirine bağlar. Saptırılanın doğru yolu gösterecek bir koruyucu bulamaması, velâyetin yön gösteren yüzünü açar (18:17); Allah'tan başka veliler edinmenin boşluğu, dışarıdaki koruyucuların sahiplenme iddiasını çözer (18:102). Allah'tan başka bir veli ve hükümde ortak bulunmadığının söylenmesi, {ar:ٱلْوَلَٰيَةُ, tr:al-walāyatu, gloss:koruyuculuk ve yetki} kelimesinin bir işi üstlenip yönetme tarafını harekete geçirir (18:26). Allah'ın koruyucu ve yardımcıların en iyisi olarak anılması ise aynı kelimeyi zor zamanda yanında duran desteğe açar (3:150). Bu temaslar birlikte Allah'a ait velâyeti hem işi üstlenen ve hükmü yürüten hem de insanın yolu ve gücü tükendiğinde yanında duran koruyuculuk olarak duyurur.
+
+## Sonucun Ölçüsü
+
+Sonuç alanını belirleyen {ar:عُقْبًا, tr:ʿuqban, gloss:sonuç ve varılan son durum} kelimesi, dünya malı ve çocukların yerini kalıcı salih amellerin almasıyla belirginleşen değişimle temas eder (18:46). Kalıcı iyiliklerin ödül ve dönüş bakımından daha hayırlı anılması da aynı sonuç ölçüsünü genişletir (19:76). Böylece ukbânın bir şeyin ardından gelen öğenin öncekinin yerini alması yönü harekete geçer; aynı kelime, aradaki değişimlerin tamamından sonra sürecin vardığı son durumu da adlandırır. “En iyi sonuç” yalnızca ileride beklenen olumlu bir etiket değil, yer değiştiren biçimlerin ardından kalan dayanıklı varış olarak duyulur. Doğrudan eşik, 18:46'daki yer değiştirme karşılaştırmasıdır; 19:76 bu sonucu ödül ve dönüş üstünlüğüyle genişletir. Bahçenin çözülüşünü maddî değişimden kalıcı tortuya, nihai sunum ve kayda uzanan tek bir hareket gibi izleyen daha geniş geriye dönük okuma bu hattı ufuklandırır ve keşif düzeyinde kalır. Bu nedenle ayetin sonuç bildiren yüzü, bu geniş akışı sözdizimsel zorunluluk olarak taşımaz.
+
+Ödül alanında {ar:ثَوَابًا, tr:thawāban, gloss:yapılan işin sahibine dönen karşılık} ile ukbâ arasındaki ayrım korunur. Kalıcı ameller karşılaştırması, yapılan eylemden doğan karşılığın kişiye dönmesi yüzünü açar (18:46, 19:76); sevap eyleme cevap olarak geri gelirken {ar:عُقْبًا, tr:ʿuqban, gloss:sonuç ve varılan son durum} bütün akışın vardığı hâli ölçer. İki {ar:خَيْرٌ, tr:khayrun, gloss:daha iyi olanı seçme} kullanımı bu iki alanı aynı ilahî değerlendirmede tutar: ilkinde ödül, ikincisinde sonuç ölçülür. Dünya malı ve çocuklara göre kalıcı amelleri, ardından kalıcı iyilikleri ödül ve dönüşte öne çıkaran bu karşılaştırmalar, bahçe sahibinin kendi servetinden kurduğu “daha iyi” ölçüsünü Allah'ın belirlediği seçime çevirir (18:46, 19:76). Hayır böylece hangi karşılığın ve hangi sonucun gerçekten seçilmeye değer olduğunu soran bir ölçü olarak tamamlanır.
+
+</editorial_prose>

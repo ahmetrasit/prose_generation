@@ -1,0 +1,122 @@
+Âyet, {ar:حَتَّىٰٓ, tr:ḥattā, gloss:nihayet/…e kadar} ile önceki hareketin varılan sınıra ulaştığı bir sahneye iner; bu edat yolculuğu kopuk bir haber olmaktan çıkarıp geliş çerçevesine bağlar, fakat sonraki hükmü kendi başına belirlemez.  
+Bu {ar:حَتَّىٰٓ, tr:ḥattā, gloss:nihayet/…e kadar} aynı zamanda hedefe doğru izlenen bir yol basıncı taşır; tamamlanmış varış anlamı önde kalırken batı sınırı, hareketin ardından sorumluluk doğuran bir eşik gibi duyulur.  
+{ar:حَتَّىٰٓ إِذَا, tr:ḥattā idhā, gloss:nihayet … olduğunda} kalıbı, önceki takibin bu âyetteki batı varışına devrini kurar; böylece sahne kopuk bir manzara değil, aynı yol ritminin bu âyetteki inişi olarak açılır.  
+Ardından gelen {ar:إِذَا, tr:idhā, gloss:… olduğunda} belirli bir gerçekleşmiş varış çerçevesi kurar; şart biçiminin rengi korunurken ardından gelen tamamlanmış fiil onu alışkanlık bildiren belirsiz bir “ne zaman olursa” kalıbından çıkarır.  
+Bu {ar:إِذَا, tr:idhā, gloss:… olduğunda} varışı, karar çerçevesinin açıldığı koşul gibi de duyurur; ulaşma, gözlem ve hitap birbirini tamamlayarak bu zaman çerçevesini doldurur.  
+{ar:بَلَغَ, tr:balagha, gloss:ulaştı/vardı} tamamlanmış bir ulaşmayı doğrudan bir yere yöneltir; fiilin geçmiş ve yalın biçimi, menzilin yalnızca hedeflenmediğini, varılan bir sınır olduğunu kurar.  
+Aynı {ar:بَلَغَ, tr:balagha, gloss:ulaştı/vardı} kelimesi daha geniş bir erişme alanını hatırlatsa da burada mekân nesnesi fizikî varışı öne çıkarır; eşik duygusu bu varışın üzerine eklenir, başka bir tebliğ veya olgunlaşma anlamı onun yerini almaz.  
+Bu ulaşma fiili, verilen yol örüntüsünde batıdaki menzil açılışını taşır; aynı biçimin doğu ve engel sahneleriyle birlikte anılması, buradaki gelişi sıradan bir yer adı olmaktan çıkarıp belirli bir uç nokta olarak görünür kılar.  
+{ar:مَغْرِبَ, tr:maghrib, gloss:güneşin battığı yer/batı} akkusatif tamlama içindeki bir yer veya zaman adıdır; {ar:بَلَغَ, tr:balagha, gloss:ulaştı} fiilinin ulaştığı belirli menzili, {ar:ٱلشَّمْسِ, tr:al-shamsi, gloss:güneşin} ise bu menzilin hangi güneşe ait olduğunu tamamlar.  
+{ar:مَغْرِبَ, tr:maghrib, gloss:güneşin battığı yer/batı} burada somut batı sınırını korurken, uzaklaşma ve gözden kaybolma anlam alanı o sınırı tanıdık olanın çekildiği bir kenar gibi renklendirir.  
+{ar:مَغْرِبَ, tr:maghrib, gloss:güneşin battığı yer/batı} kelimesindeki sert ses dokusu da tekrarlanan batı kökünü bir ufuk kapanışı gibi duyurur; bu işitsel baskı yer anlamını derinleştirir, yeni bir yön anlamı kurmaz.  
+Yer adı ile hemen ardından gelen {ar:تَغْرُبُ, tr:taghrubu, gloss:batıyor} aynı anlam alanını yeniden kurar; böylece güneşin battığı yer, güneşin batma hareketiyle aynı sahnede birbirini açıklayan yer ve olay olur.  
+{ar:ٱلشَّمْسِ, tr:al-shamsi, gloss:güneşin} belirli ve tamlayan durumundaki biçimiyle varılan yeri bilinen güneşe bağlar; sonraki dişil zamirin geri dönebileceği belirli bir göndergeyi de hazırlar.  
+Bu {ar:ٱلشَّمْسِ, tr:al-shamsi, gloss:güneşin} öncelikle fizikî gök cismidir; sıcaklık ve direnç çağrışımları sahneyi renklendirebilir, fakat güneşin somut varlığını değiştirmez.  
+Güneş kelimesindeki belirtecin güneş harfiyle birleşerek duyulması, bilinen güneşe ait belirginliği ses içinde de bağlar; bu ses, gramerdeki belirli oluşu işitir kılar.  
+Güneşin aynı adla farklı uzamları çerçevelemesi, bu batı menzilini verilen mağara ve doğu hareketleriyle sınırlı bir güneş yayı içinde gösterir; yine de âyetin burada anlattığı şey somut batış yeridir.  
+
+{ar:وَجَدَهَا, tr:wajadahā, gloss:onu buldu/gördü} güneşi nesne alan bir bulmayı, ardından gelen {ar:تَغْرُبُ, tr:taghrubu, gloss:batıyor} ise bu nesnenin bulunduğu hâli kurar; güneşe yapılan bir eylem değil, bir durum içinde gerçekleşen algı ortaya çıkar.  
+Bu {ar:وَجَدَهَا, tr:wajadahā, gloss:onu buldu/gördü} bulma ve tecrübe anlamını, yolcunun ulaştığı noktadan gördüğü olay olarak öne çıkarır; böylece ifade fizikî günbatımını korurken onu gezginin karşılaşması içinden duyurur.  
+İlk bulma burada keşfin ilk basamağıdır: önce güneşin batış hâli bulunur, sonra başka bir bağlaçla insanlar bulunur; kozmik görüntü ile insan karşılaşmasının sırası bu düzenle görünür olur.  
+{ar:تَغْرُبُ, tr:taghrubu, gloss:batıyor} muzari biçimiyle batışı tamamlanmış bir etiket olarak değil, bulunma ânında sürmekte olan bir hareket olarak verir.  
+Bu {ar:تَغْرُبُ, tr:taghrubu, gloss:batıyor} güneşin görünür dünyadan çekilmesini ve tanıdık olandan uzaklaşmasını da hissettirir; çekilme basıncı, gerçek günbatımını destekleyen sınırlı bir ikinci renktir.  
+{ar:تَغْرُبُ, tr:taghrubu, gloss:batıyor} çevresindeki boğaz ve gırtlak ağırlığı, fiilin ardından gelen su ifadesine doğru sesçe bir iniş kurar; işitsel kararma, batış anlamını taşır ama ayrı bir hareket eklemez.  
+{ar:مَغْرِبَ, tr:maghrib, gloss:güneşin battığı yer/batı} ile {ar:تَغْرُبُ, tr:taghrubu, gloss:batıyor} aynı anlam alanını yer ve fiil olarak karşılaştırır; varılan yer, orada gerçekleşen batışla tanınır.  
+{ar:فِى, tr:fī, gloss:içinde/…de} fiilin soyut bir kayboluşla kapanmasını engeller ve batışı ardından gelen belirli bir mekâna bağlar; edatın yönettiği tamlama, algıyı yerleştirilmiş bir olay yapar.  
+Bu {ar:فِى, tr:fī, gloss:içinde/…de} hem bir ortamın içinde bulunma hem de o ortama doğru girme basıncını taşıyabilir; iki yön de tek bir yer bildiren çerçevede kalır, iki ayrı olay hâline gelmez.  
+{ar:فِى عَيْنٍ, tr:fī ʿaynin, gloss:bir gözede/pınarda} ifadesi {ar:عَيْنٍ, tr:ʿaynin, gloss:göze/pınar} kelimesi gelene kadar görüntüyü açık tutar; okur, güneşin nasıl bir ortamda bulunduğunu tamlamanın sonunda öğrenir.  
+{ar:عَيْنٍ, tr:ʿaynin, gloss:göze/pınar} edatın yönettiği belirsiz bir mecradır; belirsiz oluşu, bilinen güneşin altında yeni ve tekil bir su kaynağının sahneye girişini sağlar.  
+Bu {ar:عَيْنٍ, tr:ʿaynin, gloss:göze/pınar} öncelikle yerden çıkan akan su kaynağıdır; aynı kelimenin göz ve açıklık anlamı, bulma ve görme fiilleriyle temas ettiğinde bu kaynağı görülen olayın bir bakış aralığı gibi de duyurur.  
+{ar:عَيْنٍ, tr:ʿaynin, gloss:göze/pınar} çevresindeki gırtlaksı ağırlık, {ar:حَمِئَةٍۢ, tr:ḥamiʾatin, gloss:kara balçıklı} sıfatına doğru sesin batmasını sağlar; bu ses dokusu fizikî kaynağın ağır ortamını duyurur.  
+Aynı pınar kelimesinin berrak kaynaklarla karşılaştırılabilen kullanımı yanında burada {ar:حَمِئَةٍۢ, tr:ḥamiʾatin, gloss:kara balçıklı} sıfatıyla dünyevî ve bulanık bir kayıt kazanması, açıklığı değil yoğun karanlık maddeyi öne çıkarır.  
+{ar:حَمِئَةٍۢ, tr:ḥamiʾatin, gloss:kara balçıklı} kelimesinin tamlayan durumundaki belirsiz sıfat oluşu, kara niteliği doğrudan {ar:عَيْنٍ, tr:ʿaynin, gloss:göze/pınar} kelimesine bağlar; balçık güneşe değil, güneşin içinde bulunduğu su ortamına aittir.  
+Bu {ar:حَمِئَةٍۢ, tr:ḥamiʾatin, gloss:kara balçıklı} yaratılış balçığı ve değişmiş tortu çağrışımını da taşır; böylece ufuktaki karanlık soyut bir ruh hâli değil, maddî ve değişmiş bir tortu gibi hissedilir, fakat sıfatın yerel görevi hâlâ pınarı nitelemektir.  
+{ar:حَمِئَةٍۢ, tr:ḥamiʾatin, gloss:kara balçıklı} içindeki hemze, daha yumuşak sıcaklık varyantının yanında söylenişi kesen bir tutukluk yaratır; sesin bu pürüzü kara ve ağır malzeme imgesini destekler.  
+Okuma geleneğinde anılan sıcaklık biçimi, kara balçık okumasının yanına sınırlı bir ısı basıncı getirir; iki fizikî nitelik aynı pınar betimlemesinde birlikte tutulur ve sıcaklık kara niteliğin yerini almaz.  
+
+{ar:وَ, tr:wa, gloss:ve} ikinci bulma cümlesini öncekinin yanına koyar; insanlar güneş sahnesinin içine eritilmiş bir ayrıntı değil, onunla koordineli ikinci bir keşif olarak gelir.  
+Bu {ar:وَ, tr:wa, gloss:ve} bağlacı insan karşılaşmasını ufuk sahnesine eklerken onu sahneye bağlı tutar; yakınlık ilişkisi korunur, insanlar pınarın içine yerleştirilmez.  
+{ar:وَجَدَ, tr:wajada, gloss:buldu/karşılaştı} önündeki tekrarlanan v sesi, {ar:وَ, tr:wa, gloss:ve} ile birlikte keşif ritmini yeniden başlatır; ses, yeni karşılaşmanın başladığını duyurur.  
+Bu bağlama, kozmik görüntüden insan karşılaşmasına dönen yapısal menteşedir; güneşin algılanan hareketi korunurken âyetin önüne artık ahlâkî muhataplar gelir.  
+İkinci {ar:وَجَدَ, tr:wajada, gloss:buldu/karşılaştı} önceki zamirli yapının aksine açık bir nesne yeri açar ve biraz sonra gelen topluluğu doğrudan bulmanın nesnesi yapar.  
+Böylece {ar:وَجَدَ, tr:wajada, gloss:buldu/karşılaştı} burada yalnızca bir görüntü görmeyi değil, bir topluluğa rastlamayı ve onunla karşılaşmayı taşır; bulma fiilinin olağan anlamı, yeni insan nesnesiyle sosyal bir temas kazanır.  
+İki {ar:وَجَدَ, tr:wajada, gloss:buldu} birlikte iki aşamalı bir keşif kurar: önce güneşin hâli, sonra insanların varlığı; ikinci bulma birincisini silmeden sahneyi fenomenden topluma taşır.  
+{ar:عِنْدَهَا, tr:ʿindahā, gloss:orada/yanında} fiil ile topluluk adı arasına girerek önce mekânı, sonra insanları bildirir; topluluğun adı gelmeden önce nerede bulunduğu duyulur.  
+Bu {ar:عِنْدَهَا, tr:ʿindahā, gloss:orada/yanında} yakınlık bildirir; insanlar güneşin batışını taşıyan kaynağın yanında, o sahnenin içinde görünür, fakat kaynağın içinde gösterilmez.  
+{ar:عِنْدَهَا, tr:ʿindahā, gloss:orada/yanında} içindeki dişil zamir, pınarı, varılan yeri veya bütün sahneyi yerel bağ olarak açık bırakır; bu açıklık, tek bir zorunlu gönderge dayatmadan mekânın katmanlarını korur.  
+{ar:قَوْمًا, tr:qawman, gloss:bir topluluk/halk} belirsiz ve mef'ul durumundaki topluluk adı olarak sahneye yeni bir insan gövdesi getirir; adı konmuş bir millet değil, karşılaşılan bir topluluk belirir.  
+Bu {ar:قَوْمًا, tr:qawman, gloss:bir topluluk/halk} kelimesi ayağa kalkma ve yerleşme basıncını da taşıdığı için topluluğu dağınık kişilerden çok ayakta duran, hüküm ve düzen alabilen bir sosyal gövde gibi duyurur; yine de temel anlamı karşılaşılan halktır.  
+{ar:قَوْمًا, tr:qawman, gloss:bir topluluk/halk} ile biraz sonra gelen {ar:حُسْنًا, tr:ḥusnan, gloss:iyilik/güzellik} kelimesinin tenvinli kapanışı, ses bakımından topluluğu ona yönelen iyi eylemle eşler; bu ses bağı iki kelimeyi aynı gramer unsuru yapmaz.  
+İnsan topluluğunun nesne olarak girişi, ardından gelen hitabı anlaşılır kılar: bulunan halk, cezalandırmanın örtük muhatabı ve iyiliğin uygulanacağı alan hâline gelir; yolculuk görüntüsü böylece konuşmaya döner.  
+
+{ar:قُلْنَا, tr:qulnā, gloss:dedik} tamamlanmış birinci çoğul şahıs biçimiyle anlatıya yeni bir konuşan sokar; seyahat raporu artık doğrudan söylenen bir ilahî hitabın eşiğine gelir.  
+Bu {ar:قُلْنَا, tr:qulnā, gloss:dedik} ardından gelen seçenekler nedeniyle sıradan bir anlatım değil, eylemi yetkilendiren bir bildirim gibi çalışır; kararın faili ve çerçevesi birlikte görünür olur.  
+Konuşma fiili, iki bulmadan sonra üçüncü kişi anlatısını doğrudan hitaba çevirir; gözlem, muhatabına sorumluluk yükleyen eylem alanına böylece geçer.  
+{ar:يَٰ, tr:yā, gloss:ey} doğrudan hitabın kapsamını açar ve seçeneklerden önce kimin çağrıldığını bildirir; parçacık kendi başına yeni bir eylem eklemeden başvuruyu kurar.  
+Bu {ar:يَٰ, tr:yā, gloss:ey} içeriği söylemeden önce dikkati toplar; seçenekler henüz gelmemişken hitabın kişisel ve yöneltilmiş olduğu hissedilir.  
+Uzun açık ünlüsüyle {ar:يَٰ, tr:yā, gloss:ey} hitaba yavaş bir giriş verir; işitsel gecikme, ikili seçeneklerin sıkışmış ritminden önce sorumlu kişiyi öne alır.  
+{ar:يَٰ ذَا ٱلْقَرْنَيْنِ, tr:yā dhā al-qarnayni, gloss:ey iki boynuz/iki çağ sahibi} üç parçalı bir hitap zinciri kurar: çağıran parçacık, niteleyen sahiplik unsuru ve onu tamamlayan ikili unvan.  
+{ar:ذَا, tr:dhā, gloss:sahibi/…olan} tek başına tamamlanmayıp ardından gelen tamlayanla çalışır; burada sahiplik, basit mülkiyetten çok muhatabı belirleyen bir niteleme biçimine dönüşür.  
+Bu {ar:ذَا, tr:dhā, gloss:sahibi/…olan} niteleme, Zülkarneyn'in tam da karar anındaki rolünü unvanın içinde görünür kılar; sahiplik çağrışımı korunur, fakat hitapta kimlik belirleyen özellik öne çıkar.  
+Aynı unvanın anlatının girişinde, bu ilahî hitapta ve sonraki kamusal başvuruda yeniden görünmesi, adın yalnızca burada söylenmiş bir etiket değil, anlatı düğümlerini işaretleyen bir nakarat gibi çalışmasına imkân verir.  
+{ar:ٱلْقَرْنَيْنِ, tr:al-qarnayni, gloss:iki boynuz/iki çağ sahibi} belirli, ikil ve tamlayan durumundaki biçimiyle hitabı tamamlar; ikilik, seçenekler henüz söylenmeden gramerde belirginleşir.  
+Bu {ar:ٱلْقَرْنَيْنِ, tr:al-qarnayni, gloss:iki boynuz/iki çağ sahibi} unvanı boynuz, doruk, çağ ve eşleşme basınçlarını birlikte taşıyabilir; bu yoğunluk unvanı tek bir imgeye indirgemez ve özel adı ortadan kaldırmaz.  
+İkili unvanın hemen ardından ikili seçeneklerin gelmesi, iki biçimsel yapıyı yerel olarak birbirine hazırlar; unvan seçeneklerin anlamı olmaz, fakat kararın ikiye ayrılmış çerçevesine önceden bir eşlik kurar.  
+
+İlk {ar:إِمَّآ, tr:immā, gloss:ya/isterse} ceza seçeneğini bütün buyruk yerine ikili bir alanın ilk kolu olarak açar; parçacığın kapsamı ardından gelen {ar:أَنْ, tr:an, gloss:-mek/-mayı} ve fiile uzanır.  
+Bu {ar:إِمَّآ, tr:immā, gloss:ya/isterse} “ya” anlamıyla birlikte koşula benzeyen bir seçilebilirlik taşır; ceza bir gerçeklik olarak bildirilmez, muhatabın önüne konan bir yol olarak duyulur.  
+İlk {ar:إِمَّآ, tr:immā, gloss:ya/isterse} içindeki ikiz mîm, iki seçenek arasında biçimsel bir basınç yaratır; ses kararı sıkılaştırır, fakat iki koldan birini seçmez.  
+İlk {ar:إِمَّآ, tr:immā, gloss:ya/isterse} daha söylenirken eşini bekletir; {ar:وَإِمَّآ, tr:wa-immā, gloss:ya da} geldiğinde tamamlanacak olan ikili yapı, ceza cümlesinden önce dinleyicide kurulur.  
+{ar:أَنْ, tr:an, gloss:-mek/-mayı} ilk fiili bağımsız bir emir olmaktan çıkarıp seçeneğin içerik birimi yapar; ardından gelen cezalandırma, ikili çerçevenin içinde yönetilen bir eylem olur.  
+Bu yapı cezalandırmayı bir seçenek birimi olarak adlandırır; eylem yalnızca bir sıfat veya dağınık bir zarar değil, bütünlüklü biçimde seçilebilecek bir yol hâline gelir.  
+İlk {ar:أَنْ تُعَذِّبَ, tr:an tuʿadhdhiba, gloss:cezalandırman} kalıbı, ikinci seçenekte tekrarlanacak sözdizimsel şablonu kurar; iki kolun biçimi eşitlenirken içerikleri aynılaştırılmaz.  
+{ar:تُعَذِّبَ, tr:tuʿadhdhiba, gloss:cezalandırabilirsin} ikinci şahıs ve dilek kipindeki biçimiyle eylemi Zülkarneyn'e verir, nesnesi açıkça söylenmese de az önce bulunan topluluk olarak geri alınır.  
+Bu {ar:تُعَذِّبَ, tr:tuʿadhdhiba, gloss:cezalandırabilirsin} genel bir incitme değil, biçim II'nin yoğunlaştırdığı yöneltilmiş cezalandırmadır; topluluğa uygulanabilecek zorlayıcı kol böylece belirginleşir.  
+Fiildeki ikiz orta sessiz, cezalandırmanın yoğunluğunu sesçe de duyurur; bu işitsel kuvvet eylemin biçimsel anlamını destekler ve ayrı bir ceza derecesi icat etmez.  
+Bu cezalandırma kolunun sonraki cevapta aynı anlam alanıyla karşılanması, burada açılan seçeneğin hemen ileriye taşındığını gösterir; yine de bu âyet içinde seçilmiş bir sonuç hâline gelmez.  
+İki kolun arasındaki {ar:وَ, tr:wa, gloss:ve} basit bir ekleme değildir; ikili yapı içinde cezadan iyiliğe dönen bağlayıcı ve ayırıcı menteşedir.  
+Bu bağlaç iki yolu tek bir hitapta tutarken içeriklerini böler; biri ağır ceza, diğeri benimsenen iyilik olarak aynı çerçevede ayrı kalır.  
+{ar:وَ, tr:wa, gloss:ve} çevresindeki {ar:إِمَّآ … وَإِمَّآ, tr:immā … wa-immā, gloss:ya … ya da} ritmi, ses bakımından iki parçalı bir orta nokta kurar; ritim seçenekleri dengeler, aralarında hüküm vermez.  
+Bu bağlaçta kararın dönüşü duyulur: cezalandırma kolu kapanırken iyilik kolu açılır; dönüş, ilk anlamı iptal etmeyip ikinci bir yön ekler.  
+
+İkinci {ar:إِمَّآ, tr:immā, gloss:ya/isterse} ilk parçacığın açtığı alanı kapatır ve iyiliği sonradan eklenen bir teselli değil, eşleşen gerçek alternatif olarak getirir.  
+Bu ikinci parçacık, iyiliğin cezadan sonra gelen bir ilave değil, ikili kararın öteki kolu olduğunu gramer içinde görünür kılar.  
+İki {ar:إِمَّآ, tr:immā, gloss:ya/isterse} biçimindeki ikiz mîm tekrarı, seçenekleri aynı işitsel çerçeve içinde parantezler; sesçe simetri vardır, fakat eylemlerin yönü farklı kalır.  
+İkinci parçacığın ilkine ayna oluşu, biçimsel eşitlik ile içerik karşıtlığını birlikte duyurur: aynı kapı biçimi, cezalandırma yerine benimseme içeriğine açılır.  
+İkinci {ar:أَنْ, tr:an, gloss:-mek/-mayı} de ardından gelen fiili aynı dilek bağımlılığına sokar; yapısal eşitlik, iyilik kolunu cezalandırma koluyla aynı seçilebilir zemine yerleştirir.  
+Bu yüzden {ar:أَنْ تَتَّخِذَ, tr:an tattakhidha, gloss:edinmen/benimsemen} bütünü bir seçenek birimidir; olumlu davranış yalnızca hoş bir niteleme değil, üstlenilecek bir eylem olarak sunulur.  
+İki {ar:أَنْ, tr:an, gloss:-mek/-mayı} kalıbının simetrisi, ahlâkî içeriklerin aynı olduğu anlamına gelmez; paralel sözdizimi, cezalandırma ile yapıcı iyilik arasındaki farkı daha görünür taşır.  
+{ar:تَتَّخِذَ, tr:tattakhidha, gloss:edinmen/benimsemen} biçimi, alma kökünün burada fizikî kapma değil, kendisi için edinme ve bilinçli benimseme yönünü seçer; çünkü alınan şey topluluk değil, biraz sonra gelen iyiliktir.  
+Bu {ar:تَتَّخِذَ, tr:tattakhidha, gloss:edinmen/benimsemen} böylece iyiliği geçici bir nezaket olarak bırakmayıp benimsenebilecek ve kurulabilecek bir yön hâline getirir; alma anlamı yapıcı bir kurma eylemine çevrilir.  
+Fiilin yetkilendirilmiş alma basıncı, bu âyette iyiliğe doğru yönelir; burada görünen şey ele geçirme değil, hitap içinde izin verilen yapıcı benimsemedir ve bu temas daha geniş bir anlatı iddiasına taşınmaz.  
+{ar:فِيهِمْ, tr:fīhim, gloss:onların arasında/onlara dair} insanları fiilin doğrudan nesnesi değil, iyiliğin işleyeceği alan yapar; iyilik alınır, insanlar üzerinde veya insanlar arasında gerçekleşir.  
+Bu {ar:فِيهِمْ, tr:fīhim, gloss:onların arasında/onlara dair} hem topluluğun içinde olmayı hem de ona yönelik olmayı mümkün kılar; iki ilişki, aynı sosyal alanı farklı yönden aydınlatır.  
+İlk {ar:فِى, tr:fī, gloss:içinde/…de} ile bu ikinci {ar:فِيهِمْ, tr:fīhim, gloss:onların arasında} arasında yerel bir yankı vardır: önce güneşin algısı bir su ortamına yerleştirilir, sonra iyilik bir insan ortamına yerleştirilir; fizikî ortam ile sosyal alan eşitlenmeden aynı edatla bağlanır.  
+{ar:حُسْنًا, tr:ḥusnan, gloss:iyilik/güzellik} mef'ul durumundaki mastar olarak benimsenen şeyi adlandırır; iyilik artık yalnızca iyi görünen bir nitelik değil, fiilin aldığı açık içeriktir.  
+Bu {ar:حُسْنًا, tr:ḥusnan, gloss:iyilik/güzellik} güzellik, üstünlük ve ahlâkî iyiliği aynı açık uçlu nesnede birleştirir; tek bir politika seçmeden yapıcı kolu “iyi davranmak”tan daha dolu kılar.  
+{ar:قَوْمًا, tr:qawman, gloss:bir topluluk/halk} ile {ar:حُسْنًا, tr:ḥusnan, gloss:iyilik/güzellik} sonlarındaki tenvin, bulunan topluluğu ona yönelen yapıcı nesneyle sesçe birbirine bağlar; ses bağı anlam alanlarını tek bir kelimeye indirmez.  
+İyilik kolu, cezalandırmanın karşısında eşit bir seçenek olarak durur ve sonraki anlatımda yeniden ele alınabilecek bir iyilik alanı açar; olumlu yön bu âyette hem dengeli hem de eyleme dönüktür.  
+
+Bu kelimeler birlikte okunduğunda, batıya varış yalnızca bir yolculuk raporu olarak kalmaz; varılan uç, bulunan güneş, karşılaşılan topluluk ve sunulan iki eylem aynı eşik üzerinde buluşur.  
+Bu temasın bir katmanı, {ar:بَلَغَ, tr:balagha, gloss:ulaşmak} kelimesinin varışı ile {ar:مَغْرِبَ, tr:maghrib, gloss:batı/batış yeri} ve {ar:قَوْمًا, tr:qawman, gloss:topluluk} kelimelerinin bağımsız çağrılarının buluşmasıdır; coğrafî erişim, insanlarla nasıl karşılaşılacağına dair ahlâkî bir kullanım eşiğine dönüşür.  
+Buradaki {ar:بَلَغَ, tr:balagha, gloss:ulaşmak} yalnızca erişmeyi taşır; yönetme anlamı fiilin içine yerleştirilmez, varışın batı ve insanlar tarafından bir sorumluluk temasına açılmasıyla doğar.  
+{ar:مَغْرِبَ, tr:maghrib, gloss:batış yeri} ile {ar:تَغْرُبُ, tr:taghrubu, gloss:batıyor} güneşi hem hedef hem görünür olay yapar; bu temas, sınırı batışın görüldüğü bir yetki eşiği gibi okur, fakat güneşin fizikî batışını ortadan kaldırmaz.  
+İki {ar:وَجَدَ, tr:wajada, gloss:bulmak/karşılaşmak} fiilinin güneş ve toplulukla ayrı ayrı temas etmesi, bulmayı manzaradan topluma geçiren menteşe yapar; bulma burada varlık yaratmak veya nesneyi tayin etmek değil, karşılaşılanı algılamaktır.  
+{ar:قَوْمًا, tr:qawman, gloss:topluluk} kelimesi, sözlük çekirdeğinde kadınlardan ayrı düşünülen erkekler topluluğunu da taşısa da bu âyette karşılaşılan sosyal gövde olarak iş görür; bulma ve seçenekler onun ufuk görüntüsünü sorumluluk alanına çevirir.  
+{ar:تُعَذِّبَ, tr:tuʿadhdhiba, gloss:cezalandırmak} topluluğa yönelen ağır ceza kolunu, {ar:إِمَّآ … وَإِمَّآ, tr:immā … wa-immā, gloss:ya … ya da} ise bu kolu yapıcı iyilikle yan yana duran bir seçenek olarak etkinleştirir; zorlayıcı kullanım burada önerilen iki yoldan biridir.  
+{ar:حُسْنًا, tr:ḥusnan, gloss:iyilik/güzellik} aynı bağımsız seçenek yapısında iyi ve güzel eylemi taşır; cezanın karşıtı olarak iyilik, yalnızca yumuşaklık değil, topluluğa yarar sağlayan iyi bir eylem olarak belirir.  
+Bu bağlantı, ayetin yüzeyindeki kelimelerin birbirine değmesinden çıkan sınırlı bir okumadır: yolculuk, günbatımı, topluluk, ceza ve iyilik anlamları yerinde kalır; bunların temasından yetkinin ahlâkî eşiği görünür olur.  
+
+Başka bir yerel temas, {ar:وَجَدَهَا, tr:wajadahā, gloss:onu buldu} fiilinin gözlemciye bağlı bulma anlamı ile {ar:عَيْنٍ, tr:ʿaynin, gloss:pınar/göz} ve {ar:حَمِئَةٍۢ, tr:ḥamiʾatin, gloss:kara balçıklı} kelimelerinin bağımsız maddî çağrılarının birleşmesidir; gerçek bir kara su kaynağı, ufuk olayının görüldüğü bir bakış açıklığı gibi de duyulur.  
+Burada {ar:وَجَدَهَا, tr:wajadahā, gloss:onu buldu} gözlemciye bağlı karşılaşmayı taşır, {ar:فِى عَيْنٍ حَمِئَةٍۢ, tr:fī ʿaynin ḥamiʾatin, gloss:kara balçıklı bir pınarda} ise fizikî su ortamını verir; temas, algıyı yerleştirir ve pınarın gerçekliğini askıya almaz.  
+{ar:عَيْنٍ, tr:ʿaynin, gloss:pınar/göz} kelimesinin akan kaynak çekirdeği, {ar:فِى, tr:fī, gloss:içinde/…de} edatı ve {ar:حَمِئَةٍۢ, tr:ḥamiʾatin, gloss:kara balçıklı} sıfatın su içindeki kara çamur ayrıntısıyla etkinleşir; ufuk, karanlık bir su kaynağı üzerinden karşılaşılır.  
+Aynı {ar:عَيْنٍ, tr:ʿaynin, gloss:pınar/göz} kelimesinin gören göz çekirdeği, {ar:وَجَدَهَا, tr:wajadahā, gloss:onu buldu} bulması ve {ar:تَغْرُبُ, tr:taghrubu, gloss:batıyor} fiilinin görülen hareketiyle temas eder; pınar, fizikî kaynak anlamını koruyarak algının açıklığı gibi ikinci bir basınç kazanır.  
+{ar:حَمِئَةٍۢ, tr:ḥamiʾatin, gloss:kara balçıklı} kelimesi, pınar ve sürmekte olan batışla buluştuğunda görsel ortamı karartıp maddîleştirir; kara ve kötü kokulu su çamuru çekirdeği, göz açıklığı okumasını destekler ama onun yerine geçmez.  
+Bu görüntü, ayetin “güneş nerede batar” şeklindeki sıradan cümlesini korur; ona, gezginin gördüğü ufkun karanlık su ve göz temasından geçtiğini ekler ve güneşin kelimenin gerçek öznesi olarak kalmasına izin verir.  
+
+İyilik kolunun bir başka temasında {ar:قَوْمًا, tr:qawman, gloss:topluluk} kelimesindeki topluluğu gözetme ve yönetme basıncı, {ar:تَتَّخِذَ, tr:tattakhidha, gloss:edinmek/benimsemek} fiilinin bilinçli edinmesi ve {ar:حُسْنًا, tr:ḥusnan, gloss:iyilik} kelimesinin iyi eylemiyle birleşir; “iyi davranmak” daha süreklilik taşıyan bir uygulama olarak görünür.  
+Bu bağlantıda {ar:قَوْمًا, tr:qawman, gloss:topluluk} yalnızca karşılaşılan insanlar değil, korunup gözetilebilecek bir topluluk alanıdır; {ar:تَتَّخِذَ, tr:tattakhidha, gloss:edinmek/benimsemek} iyiliği kendine alınacak bir yön yapar ve {ar:حُسْنًا, tr:ḥusnan, gloss:iyilik} bu yönün yarar sağlayan eylem içeriğini verir.  
+{ar:قَوْمًا, tr:qawman, gloss:topluluk} ile {ar:تَتَّخِذَ, tr:tattakhidha, gloss:edinmek/benimsemek} temas ettiğinde topluluk, üzerinde geçici bir lütuf gösterilen nesne değil, gözetim ve düzenin sürdürülebileceği alan hâline gelir; bu okuma belirli bir kurum veya politika icat etmez.  
+{ar:تَتَّخِذَ, tr:tattakhidha, gloss:edinmek/benimsemek} kelimesinin “kendisi için edinmek” yönü, {ar:فِيهِمْ, tr:fīhim, gloss:onların arasında} ve {ar:حُسْنًا, tr:ḥusnan, gloss:iyilik} tarafından sınırlandırılır; alınan topluluk değil, insanlar arasında kurulacak iyilik yönüdür.  
+{ar:حُسْنًا, tr:ḥusnan, gloss:iyilik} burada iyi ve güzel eylemin ortak çekirdeğini taşır; benimseme fiiliyle buluşunca iyilik, topluluk içinde kurulup sürdürülebilecek yapıcı bir pratik olarak okunabilir.  
+Bu son temas da sıradan anlamı iptal etmez: âyet hâlâ Zülkarneyn'e onları cezalandırma veya aralarında iyilik edinme seçeneklerini sunar; kelimelerin birbirini etkinleştirmesi, seçeneklerden birini seçmek yerine iyiliğin eylem ve düzen boyutunu görünür kılar.

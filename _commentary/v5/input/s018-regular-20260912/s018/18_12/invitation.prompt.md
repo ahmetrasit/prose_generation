@@ -1,0 +1,177 @@
+# V5 reading invitation — 18:12
+
+You are a fresh reading-invitation writer. Read the complete editorial prose
+before writing. It is your sole semantic source.
+
+Write two to four paragraphs of fluent, contemporary Turkish that reveal a
+surprising reading by following one or two main channels of resonance in the
+ayah. A channel is a connected background of meanings, images, actions, or
+relations through which the ayah can be heard and understood differently.
+Several editorial findings may together develop one channel. Summarize that
+connected movement and its consequence for the ayah's main meaning, rather
+than compressing findings individually. Give the reading's substance now;
+the invitation comes from understanding it, not from a promise of hidden depth.
+
+Before drafting, read the entire editorial prose and silently select the one
+or two channels with the strongest interpretive consequence and enough
+grounding to explain clearly. Favor channels that expand or shift what the
+ayah says, the relation it establishes, or what is at stake in its action or
+image. One fully developed channel is sufficient; add a second only when it
+offers a distinct consequential reading that can be explained within the
+invitation. No finding, channel, or major shift has an individual coverage
+claim. Unselected material may remain entirely in the full commentary.
+
+A channel may develop through grammar, sound, dialogue, a material process,
+time, imagery, or a conceptual relation. Resonance is not limited to acoustic
+effects, and an unusual image alone does not establish a channel. Use only
+connections the editorial prose actually develops. If it supplies no such
+channel, explain its strongest grounded reading without inventing connections
+or surprise.
+
+Begin inside the ayah's own words, images, actions, or relations and reveal a
+selected distinctive reading in the first paragraph. Keep the plain meaning
+reachable with only the orientation needed to understand the change. Do not
+spend an opening paragraph on routine explanation or front-load context about
+the surah, the ayah's position, or the commentary project.
+
+For each selected channel, begin with the expression that opens it, unfold the
+connected background, and show how the ayah reads or sounds against that
+background. Let a detail lead into the next through an intelligible relation
+or process, so the reader experiences the emerging reading. This is a movement
+of thought, not a mandatory sentence pattern or one paragraph per finding.
+Let the reader identify the expression being interpreted,
+where any nonordinary detail comes from, and what that detail changes in the
+reading. Briefly identify the word-family use, restricted form, collocation, or
+context that supplies an essential added detail, and preserve the concrete
+operation that makes the image work. Keep the ordinary reading and necessary
+qualification clear within this explanation; do not repeat them as a fixed
+formula. Preserve the particular object, process, or relation that makes this
+reading distinctive, and state its interpretive consequence for the ayah as a
+whole. Make intelligible what the familiar reading leaves less visible and
+what the expanded or shifted reading now lets the reader understand. Preserve
+the editorial's force: an exploratory possibility remains possible, while a
+developed shift must not be softened into a decorative association or a
+reassurance that everything means the same thing. A concrete
+account of how something is carried, transformed, lost, or restored must not
+shrink to a general statement about care, guidance, dependence, or goodness.
+Keep the details needed to make the selected channel work; omit side findings
+and shorten routine setup. If a channel cannot be explained faithfully from
+the editorial prose, choose another grounded channel or reading.
+
+When a non-focus ayah supplies a contribution used in the invitation, keep its
+reference from the editorial prose beside that contribution.
+
+Do not turn the invitation into a miniature inventory of the commentary's
+conclusions, or flatten distinct channels into a broad theme to include more
+material. Do not repair, extend, or supplement the editorial prose from memory
+or outside knowledge.
+
+Omit technical apparatus. Retain any qualification, source distinction, live
+alternative, or boundary whose absence would change the force or meaning of a
+chosen reading. Express it naturally beside the image or relation it qualifies.
+Favor positive explanations of the relation between layers: what remains in
+the foreground and what the resonance makes audible in the background. State
+how that background reinforces, expands, or shifts the understanding of the
+main meaning, with the source and degree of certainty clear. Reserve explicit
+exclusions for concrete ambiguities or live counter-evidence that need them.
+Repeated "this is not X" endings make a reading sound withdrawn; express the
+substantive qualification through what the reading does contribute wherever
+possible. Use varied, natural language rather than a repeated "second layer"
+formula, and preserve the force of expansions and shifts.
+Do not name branches, candidates, findings, scopes, evidence categories,
+ledgers, or workflow stages, or label the prose as numbered channels. Do not
+list findings serially.
+
+Use the established `{ar:..., tr:..., gloss:...}` syntax, consistent
+Turkish-readable transliteration, and short ordinary glosses. Keep Arabic
+anchors beside the explanations they ground. Within a paragraph, continue with
+the Turkish meaning where clear; provide the necessary local tag when a later
+paragraph interprets the carrier anew. Do not place Arabic script outside a
+valid tag.
+
+Build transitions within a channel through its shared object, action, or
+relation. If two channels are selected, they may occupy separate paragraphs;
+do not invent a link between them. Do not praise the commentary's quality,
+promise what the reader will find, manufacture suspense, recap at the end, or
+add a call to action. End on an image, relation, action, or tension already
+established by the selected reading.
+
+Before finishing, compare the invitation with the entire editorial prose:
+does the chosen channel reveal a consequential reading, or could the text have
+been written from the ordinary translation and a modest explanation alone?
+When the editorial supports a surprising channel, the latter fails this task.
+Can the reader follow the opening expression into a connected background and
+understand how that background expands or shifts the ayah's main meaning?
+Check the selected connections against their editorial explanation: can the
+reader tell where the nonordinary details come from, with the necessary
+qualifications intact? Repair generic explanation, isolated curiosities, or a
+compressed findings list by developing the selected channel. Do not add
+omitted channels merely for coverage. Do not output this check.
+
+Write only the invitation text to:
+
+`_commentary/v5/editorial/s018-regular-20260912/s018/18_12/18_12.invitation.tr.md`
+
+Do not add a heading, wrapper label, index, ledger, evidence file, or any other
+artifact. Do not modify the editorial prose.
+
+After writing the invitation, run:
+
+```bash
+python3 _commentary/v5/validate_prose.py _commentary/v5/editorial/s018-regular-20260912/s018/18_12/18_12.invitation.tr.md
+```
+
+If validation fails, repair only the reported mechanical file-contract issues
+and rerun it, for at most two repair cycles. Report the final validator result
+in your response.
+
+<editorial_prose>
+## Uykudan Açılan Aralık
+
+Bu âyet, mağara arkadaşlarının uzun bir bekleyişten sonra uyandırılmasını ve iki topluluktan hangisinin onların orada kaldıkları süreyi daha iyi hesapladığının olay içinde açığa çıkmasını anlatır. {ar:ثُمَّ, tr:thumma, gloss:sonra} önceki durgunluğu hemen yanına yeni bir olay koymaz; aradan zaman geçtikten sonra başlayan safhayı kurar. Aralığın uzunluğunu kendisi saymaz, yalnızca uyanışı gecikmiş bir eşik olarak duyurur. {ar:بَعَثْنَاهُمْ, tr:baʿathnāhum, gloss:onları uyandırdık} tamamlanmış ilahî eylemi doğrudan uyuyanlara yöneltir: topluluk geçişi başlatan değil, kendisine yönelen uyandırmayı alan taraftır. {ar:لِنَعْلَمَ, tr:li-naʿlama, gloss:bilelim diye} bu eylemin amacını açar; uyandırma, kalış süresindeki farkın olay içinde görünür kılınmasına yönelir.
+
+Bu karşılaştırmanın ölçü alanını cümlenin sonunda duran {ar:أَمَدًا, tr:amadan, gloss:süre} belirler. Belirsiz ve belirtme durumundaki bu ad, hesabın yöneldiği şeyi bir süre aralığı olarak kurar; soru böylece iki tarafın neyi hesapladığı kadar, kalışın hangi uzunluğa ulaştığına da bağlanır. Son kelime zamanı sayılabilir bir alan olarak açar, fakat kaç yıl ya da kaç gün olduğunu vermez. Belirsizlik burada sınırsızlığı değil, sonlu miktarın sayısının henüz açıklanmamış olduğunu taşır. {ar:أَمَدًا, tr:amadan, gloss:süre} ile {ar:لَبِثُوا, tr:labithū, gloss:kaldılar} buluştuğunda, geçmişte tamamlanmış kalış erişilebilen bir son noktaya bağlanır; kelimenin başka kullanımlarındaki mekânsal uzanım bu cümlede yalnızca bir uca doğru uzanma benzetimi olarak çalışır. Cümle sonundaki bu yerleşim, {ar:ثُمَّ, tr:thumma, gloss:sonra} ile açılan gecikmeyi tek bir hesap ufkunda toplar. Kapanışın taşıdığı alışılmadıklık sınırlıdır; bu kullanımın kesinlikle tek örnek olduğu ileri sürülmez.
+
+Bu son sınırın neye bağlandığını, iki ayrı {ar:لِ, tr:li, gloss:diye} başlangıcının farklı işleri belirginleştirir. İlk {ar:لِ, tr:li, gloss:diye}, {ar:نَعْلَمَ, tr:naʿlama, gloss:bilelim} fiilini uyandırmaya bağlayan amaç menteşesidir. İkinci birleşim olan {ar:لِمَا, tr:limā, gloss:kaldıkları süre bakımından} ise {ar:أَحْصَىٰ, tr:aḥṣā, gloss:hesapladı} kelimesinin hangi alana yöneldiğini gösterir ve {ar:لَبِثُوا, tr:labithū, gloss:kaldılar} eylemini ölçülebilir bir kalışa dönüştürür. Böylece kalış hem gerçekleşmiş olay hem de hesabın içinden geçtiği süre olarak birlikte tutulur; bu kısa birleşim ölçü alanını açıklar. {ar:لَبِثُوا, tr:labithū, gloss:kaldılar} fiilinin üçüncü çoğul geçmiş biçimi de sayımın sürmekte olan bir süreci değil, sona ermiş bir dönemi geriye dönük kavradığını kurar. Bu tamamlanmış kalış, mağara anlatısında 18:19, 18:25 ve 18:26'da yeniden sorulan bir zaman düğümüne bağlanır; dönüşler fiilin geçmişliğini değiştirmez. Gecikmiş {ar:ثُمَّ, tr:thumma, gloss:sonra} ile birlikte süre, yalnızca uzun bir sayı değil, yerinde sürdürülmüş bedensel ve mekânsal bir durgunluk olarak da hissedilir.
+
+Bu durgunluktan çıkarma, olağan uyanma zeminini koruyarak yeniden hayata getirilme ve harekete sevk edilme basıncını da görünür kılar. Mağaradaki kaldırılma böylece yeni bir duruma geçirilme imgesini taşır; ana hareket uyandırmadır, bu yankı da onun çevresindeki geçiş basıncını belirginleştirir.
+
+Ölçü ilişkisinin karşılaştırma menteşesi {ar:أَحْصَىٰ, tr:aḥṣā, gloss:hesapladı} kelimesidir. Kelime, geçen zamanı birimlerine kadar kavrayıp sonucu elde tutan kapsamlı bir hesaplama yönü taşır; iki topluluğu, üzerinde uzlaşılabilecek bir kalış süresi bakımından ölçülebilir hale getirir. {ar:أَيُّ, tr:ayyu, gloss:hangisi} ile {ar:لِمَا لَبِثُوا, tr:limā labithū, gloss:kaldıkları süre bakımından} birlikte okunduğunda {ar:أَحْصَىٰ, tr:aḥṣā, gloss:hesapladı} yüzeyi iki imkânı aynı karşılaştırma zemininde açık tutar: soru hem hangi tarafın süreyi hesapladığını hem de hangi tarafın daha isabetli hesapladığını duyurabilir. Bu cümlede kelimenin kullanımını yönlendiren iş, kapsamlı saymadır; diğer sözlük alanları bu özel bağlantıda ayrı bir sahneye dönüşmez. Eylem olarak sayma ile karşılaştırmalı yeterlik aynı anda işitilir ve bu iki imkân arasında üstünlük sırası kurulmaz.
+
+Sorunun kimi karşılaştırdığını önce {ar:أَيُّ, tr:ayyu, gloss:hangisi} belirler. Bu kelime açık uçlu bir merak bırakmak yerine iki üyeli bir kümeden birini seçmeye yönelen sorguyu kurar. Kümenin sınırını {ar:ٱلْحِزْبَيْنِ, tr:al-ḥizbayni, gloss:iki topluluk} belirli ve ikil biçimiyle çizer: ortada belirsiz sayıda iddia sahibi değil, aynı kalış süresini ölçen iki tanınabilir taraf vardır. Bu adın topluluk ve hizip çağrışımı, aynı görüş ya da yöneliş çevresinde toplanmış konumlara hafif bir toplumsal hizalanma basıncı verir. Hesap böylece nötr sayı kümelerinin işlemi olmaktan çıkarak iki konumun kendi hesabıyla sınandığı bir karşılaştırma sahnesi kazanır. Tarafların kimliği bu biçimden çıkmaz; biçim, kapalı karşılaştırma alanını ve sınırlı hizalanma imgesini taşır.
+
+Bilmenin cümledeki biçimi de bu karşılaştırmanın nasıl açığa çıktığını gösterir. {ar:لِ, tr:li, gloss:diye} tarafından yönetilen {ar:نَعْلَمَ, tr:naʿlama, gloss:bilelim} birinci çoğul biçimi ilahî faili amaç yapısının içinde görünür tutar. Varyant baskısı, alınan biçimde fail ile eylem arasındaki ilişkiyi belirginleştirir; başka bir kuruluşun ihtimali, bu yüzeyin taşıdığı fail ve kip basıncını görünür kılar. Buradaki bilme, ilahî öznenin eksik bir bilgiyi sonradan edinmesinden çok, gizli kalmış farkın uyandırma olayıyla görünür bir ayrım haline gelmesidir. Fiil kendisinden sonra gelen {ar:أَيُّ, tr:ayyu, gloss:hangisi} sorgusunu içine alır; soru, bilme amacının içeriği olarak kalış süresindeki farkı belirler. Uyandırma bedenleri yeniden harekete getirirken, bilme eylemi bu hareketin hangi hesap farkını açığa çıkardığını görünür kılar.
+
+Bu açığa çıkarma yönü, mağara anlatısındaki sonraki bilgi düğümlerinde yeniden belirir. {ar:نَعْلَمَ, tr:naʿlama, gloss:bilmek ve açığa çıkarmak} 18:19'da harekete geçirilen grubun bilgi ve eylem çizgisine, 18:21'de gizli olayın başkalarına açılmasına, 18:22'de bilgi iddialarının sınırlandırılmasına ve 18:26'da mağara anlatısının bilgiyle kapanmasına bağlanır. Bu dönüşler, 18:12'deki uyandırma amacını sonraki bilgi sorularının ilk eşiği olarak aydınlatır; sonraki sahnelerin bütün ayrıntıları bu tek fiilin sözlük anlamına taşınmaz.
+
+Bu noktada kelimelerin işlemleri birbirini tamamlayarak tek bir sahne kurar. {ar:بَعَثْنَاهُمْ, tr:baʿathnāhum, gloss:onları uyandırdık} durgun topluluğu görünür eşiğe taşır. {ar:ٱلْحِزْبَيْنِ, tr:al-ḥizbayni, gloss:iki topluluk} karşılaştırmanın iki konumunu kurduğu için soru açık bir taraflar alanına yerleşir. {ar:نَعْلَمَ, tr:naʿlama, gloss:bilelim} bu kapalı soruyu olay içinde bilinir hale getirir; {ar:أَحْصَىٰ, tr:aḥṣā, gloss:hesapladı} ise açığa çıkan farkı kalış süresi üzerinde ayıran ölçüyü verir. Böylece uyandırma yalnızca uykunun bitişi olarak kalmaz: gizli kalış, iki tarafın hesabıyla sınanabilir bir aralık haline gelir ve hesap, yalnızca bir rakam üretmek yerine süreyi ne kadar eksiksiz kavradıklarını görünür kılar. Bu hareket iki konumu ve onları ayıran ölçüyü görünür kılar; hangi tarafın üstün olduğu yönünde bir seçim üretmez.
+
+{ar:أَحْصَىٰ, tr:aḥṣā, gloss:hesapladı} kelimesinin taşıdığı küçük taş imgesi bu hesabı elle tutulur bir harekete yaklaştırır. {ar:لَبِثُوا, tr:labithū, gloss:kaldılar} fiilinin sürekliliğiyle buluştuğunda, kesintisiz kalışın küçük birimlere ayrılıp elde tutulduğu hissi doğar. {ar:أَحْصَىٰ, tr:aḥṣā, gloss:hesapladı} bu birimleri tam hesaba toplar; {ar:أَمَدًا, tr:amadan, gloss:süre} ise toplanan parçaların ulaşacağı zamansal ucu verir. Taş imgesi saymayı maddi birimler üzerinden kavratır; mağara sahnesine gerçek taşlar eklemeden olağan zaman hesabını yoğunlaştırır.
+
+## Kapanmış Zamanın Yeniden Okunması
+
+Önceki kalma ve sınırsızlık yüzeyleri (18:3), 18:12'deki sonlu aralık duygusunu keskinleştirir. {ar:مَاكِثِينَ, tr:mākithīn, gloss:kalıp duran} yerleşik kalmayı, {ar:أَبَدًا, tr:abadan, gloss:sonsuza dek} ise sonu olmayan süreyi duyurur. 18:12'deki {ar:لَبِثُوا, tr:labithū, gloss:kaldılar} aynı yerde bulunmayı sürdürme anlamını korurken, {ar:أَمَدًا, tr:amadan, gloss:süre} bu kalışı bitişi hesaplanabilir bir aralık içinde okutur. Böylece iki süre rejimi birbirine temas eder: (18:3)'teki sınırsızlık kutbu, 18:12'nin son-sınır sorusunu çerçeveler ve kelimenin bu âyetteki katkısı sonlu kalışı belirginleştirir. Bu özel bağlantının kapsamı sonu bulunan süredir; mutlak sonsuzluk, yarış hedefi veya başka bir zaman dalı 18:12'deki bu süre okumasına taşınmaz.
+
+Bu sonlu aralığın önceki kapanma koşulu (18:11)'de görünür. {ar:فَضَرَبْنَا, tr:fa-ḍarabnā, gloss:örtü koyduk ve kapattık} duyular üzerine kapanmayı, {ar:سِنِينَ عَدَدًا, tr:sinīna ʿadadan, gloss:sayılı yıllar} ise önceden sayıya bağlanmış bekleyişi kurar. Ardından {ar:ثُمَّ, tr:thumma, gloss:sonra} ile gelen {ar:بَعَثْنَاهُمْ, tr:baʿathnāhum, gloss:onları uyandırdık} kapalı aralığı açar; {ar:أَحْصَىٰ, tr:aḥṣā, gloss:hesapladı} da onun miktarını hangi hesabın geri kazanabildiğini sorar. Bu temas, uykuyu koruyucu bir uyku olarak okuma imkânını korurken, dışarıdan harekete geçirme ile sayıya bağlanmış bekleyiş arasındaki geçişi görünür kılar. Burada {ar:بَعَثْنَاهُمْ, tr:baʿathnāhum, gloss:onları uyandırdık} uyandırmanın taşıyıcısıdır; görevlendirme çağrışımı 18:19'daki sonraki bağlamda kendi görevine kavuşur ve kapatma altında sayılmış süre yeniden okunabilir hale gelir.
+
+Sayma eylemi başka ölçüm yüzeyleriyle buluştuğunda daha yoğun bir kapsam kazanır. Önceki kayıt (18:9), sayılı yıllar (18:11) ve insanların sayısının ardışık biçimde belirlendiği sahne (19:94), hesabı yaklaşık bir kestirim olmaktan çıkaran bir zemin kurar. {ar:أَحْصَىٰ, tr:aḥṣā, gloss:hesapladı} hiçbir birimi dışarıda bırakmadan süre iddiasını kuşatabilen hesabı öne çıkarır. Böylece “daha iyi sayan”, yalnızca daha hızlı bir tahminde bulunan taraf değil, miktarı bütün birimleriyle elde tutabilen taraftır. Bu yoğunluk, insan hesabını kendi ölçüm işinde tutarken kuşatıcı ilahî bilginin ayrı düzlemini açık bırakır ve 18:12'deki iki taraflı süre karşılaştırmasını derinleştirir.
+
+Ölçünün güvenilirliği, görünüş ile gerçek durum arasındaki farkla da aydınlanır (18:18). {ar:وَتَحْسَبُهُمْ, tr:wa-taḥsabuhum, gloss:onları uyanık sanırsın} görünüşten yapılan kanaati, {ar:أَيْقَاظًا, tr:ayqāẓan, gloss:uyanıklar} görünen uyanıklığı, {ar:رُقُودٌ, tr:ruqūd, gloss:uyuyanlar} ise aynı kişilerin saklı uykusunu kurar. Bu sahne, 18:12'deki {ar:أَحْصَىٰ, tr:aḥṣā, gloss:hesapladı} ile yapılan hesabı görünüşe dayalı sınıflandırmadan olayla doğrulanabilen duruma doğru genişletir; {ar:لِنَعْلَمَ, tr:li-naʿlama, gloss:bilelim diye} de bu açığa çıkma yönünü taşır. (18:18) kendi görsel betimlemesi içinde kalırken, bu temas süre hesabını koruyarak bilme amacına gerçeğe uygun kavrayış rengi verir. Sınama yönü {ar:لِنَعْلَمَ, tr:li-naʿlama, gloss:bilelim diye} fiilinin sözlük karşılığı olarak değil, görünüşten doğrulanmış duruma geçişte belirir.
+
+Benzer bir sonuç hareketi, görünür yüzey ile sınama arasındaki dizide belirir (18:7, 18:8). {ar:زِينَةً, tr:zīnatan, gloss:süs} yeryüzünün görünen yüzünü açar; {ar:لِنَبْلُوَهُمْ, tr:li-nabluwahum, gloss:onları sınayalım} bu yüzeyi sınama eşiğine çevirir; {ar:صَعِيدًا جُرُزًا, tr:ṣaʿīdan juruzan, gloss:çıplak ve bitki örtüsüz zemin} ise sınama sonrasında okunabilir hale gelen soyulmuş zemini gösterir. Bu üç katkı birlikte, 18:12'deki bilme amacına saklı bir durumun sınama sonunda incelenebilir bir sonuca dönüşmesi yönünde deneysel bir yankı katar. Bu bağ benzetimseldir: (18:8)'de aynı yüzey dönüşünü ayrıca adlandıran bir ifade bulunmadığı için katkı, 18:12'deki uyandırmayı başka bir sözlük anlamına çevirmekten çok, açığa çıkmanın okunabilir sonucunu belirginleştirir.
+
+Bu okunabilirlik yalnızca sonucun kaç olduğuyla sınırlı değildir; olayın bıraktığı sıralı izleri de izler. Ardışık anlatı (18:13), güneşin izlediği güzergâh (18:17) ve gece ile gündüzün işaretleri (17:12), zamanı tek bir rakamdan çok birbirini izleyen ve gözlenebilen işaretler üzerinden okumaya açar. Yılların sayısının ve hesabının bu düzenli izlerle birlikte düşünülmesi, {ar:أَحْصَىٰ, tr:aḥṣā, gloss:hesapladı} çevresindeki ölçüme iz sürme boyutu verir. Bu iz sürme katkısı 18:12'nin söz dizimini genişletmeden, kalış süresinin olay içinde bıraktığı işaretlerden de okunabilir hale gelmesini sağlar.
+
+## Uyanıştan Soruşturmaya
+
+Uyandırma, daha sonra soruşturma ve görevlendirmeye açılan bir hareket kapasitesi de taşır (18:19). 18:12'deki {ar:بَعَثْنَاهُمْ, tr:baʿathnāhum, gloss:onları uyandırdık} ile aynı yüzeyin 18:19'da yinelenmesi, ilk etkinleşmeyi sonraki araştırma adımlarına bağlar. Uyandırılan grup {ar:يَتَسَاءَلُوا, tr:yatasāʾalū, gloss:birbirlerine soru sorsunlar} ile ortak süre sorusunu kurar; ardından {ar:فَابْعَثُوا, tr:fa-bʿathū, gloss:gönderin} bir kişiyi göreve yöneltir ve {ar:فَلْيَنْظُرْ, tr:fal-yanẓur, gloss:baksın ve araştırsın} bu görevi hedefe dönük bakış ve araştırma adımına çevirir. Uyandırmadan soruşturmaya, oradan görevlendirmeye uzanan bu hareket çizgisi 18:12'deki geçiş kapasitesini görünür kılar. 18:12'deki fiil burada uyandırmayı taşır; gönderme ve şehir yolculuğuna ait ayrıntılar (18:19)'daki sonraki bağlamda kendi yerini korur.
+
+## Hesabın Kamusal Sınırı
+
+İki topluluk ve eksiksiz hesap, sonraki sahnelerde kamusal bir iddia alanına açılır. Kapalı olayın bulunup görünür kanıta dönüşmesi (18:21), {ar:أَعْثَرْنَا عَلَيْهِمْ, tr:aʿtharnā ʿalayhim, gloss:onları ortaya çıkardık} ile belirir; aynı sahnedeki çekişme, {ar:يَتَنَازَعُونَ, tr:yatanāzaʿūn, gloss:çekişiyorlar} ile tarafları bu mesele etrafında karşı karşıya getirir. Görünmeyene dair tahmin (18:22), {ar:رَجْمًا بِالْغَيْبِ, tr:rajman bi-l-ghayb, gloss:görünmeyene dair tahmin} ile iddianın bilgi sınırını gösterir; {ar:بِعِدَّتِهِمْ, tr:bi-ʿiddatihim, gloss:sayıları} ise çekişmeyi açık bir sayım nesnesine çevirir. Üç, beş veya yedi gibi sayılar bu nedenle soyut kanaat olarak kalmaz. Sayısal kalış süresi (18:25), bu iddiaları aynı ölçü zemini üzerinde karşılaştırır ve sorunun nesnesini somutlaştırır; sonraki açıklama insanî sayımı yeniden değerlendirirken sayma eylemini karşılaştırma aracı olarak tutar. Allah'ın onların kalışını daha iyi bildiği ve hükmüne kimseyi ortak etmediği sınır (18:26), {ar:أَعْلَمُ, tr:aʿlamu, gloss:daha iyi bilir} ile kuşatıcı bilgiyi, {ar:حُكْمِهِ, tr:ḥukmihi, gloss:onun hükmü} ile son hüküm alanını gösterir. Böylece gizli kalış kamusal kanıta, sayı çekişme nesnesine, sayısal süre ortak ölçüye dönüşür; üstün bilgi ve tek hüküm anlaşmazlığın dış sınırını çizer. İki topluluk, âyet içinde sabit bir çift olmayı sürdürürken hesaplama tarzları çevresinde iki kamusal iddia biçimi olarak da görünür.
+
+Bu kamusal sınır, amaç düzenindeki bilmenin kapsamını da belirginleştirir. {ar:لِنَعْلَمَ, tr:li-naʿlama, gloss:bilelim diye} ile açılan bilme, iki tarafın neyi ve ne kadar hesaplayabildiğini ortaya çıkarırken, tarafların yanı sıra mücadele edenlerle sabredenlerin de olay içinde ayrışabilir hale gelmesiyle birlikte okunabilir (3:140, 3:142). Böylece bilme soyut bir bilgi edinme ifadesinden, farkı olayın içinde görünür kılan bir ayrım sürecine dönüşür. Bu temas grupların adlarını açık bırakır; insanî hesaplar kendi karşılaştırma alanında, kuşatıcı bilgi ise onların üst sınırını belirleyen ayrı düzlemde durur.
+
+Zamanın son noktaya bağlanması, {ar:أَمَدًا, tr:amadan, gloss:süre} için sağlanan iki ayrı yankıda da görünür: süre sınırını soran kullanım (72:25) ile belirli bir güne kadar uzanan kalış (37:144), aralığın bir varış yeri bulunduğunu gösterir. Bu özel bağlantı kelimeyi genel zaman, sonsuzluk, öfke veya yer adı olarak değil, kalışın hesaplanabilir sonuna götüren sınırlı bir uzanım olarak tutar. Miktarın sayısı açık bırakılırken ölçünün varacağı uç görünür kalır.
+
+</editorial_prose>

@@ -1,0 +1,331 @@
+{
+  "schema_version": "commentary-v5-scope-discovery-v1",
+  "ayah_ref": "18:97",
+  "lane": "global",
+  "coverage_complete": true,
+  "candidate_decisions": [
+    {
+      "candidate_id": "cand_1aaf89a937cd5c0b48a8",
+      "decision": "accept",
+      "reason": "Güvenilir ve citable çapraz-koşu kaydı, odak yüzeyindeki iki kapasite taşıyıcısını ve نقبًا için delme ile dağ geçidi dallarını açıkça bağlar. Üstten aşma ile içten geçme arasındaki bağımsız rota karşıtlığı, yetersizliği yalnız failin eksikliği değil engelin karşılık vermemesi olarak kurar; üç aday dalın her biri bir çekirdek facet ile korunmuştur.",
+      "finding_refs": ["global:paired-route-resistance"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_739c903c2cfcf0395c9f",
+      "decision": "represented",
+      "reason": "Legacy reader walk'un odak yüzeyindeki B001 kapasite/nesne ilişkisi, global:paired-route-resistance bulgusundaki aynı bounded ilişkiyi tekrarlar: engel iki eyleme de boyun eğmez ve niyet etkisizleşir. Kaydın Musa ve bahçe suyu karşılaştırmaları bu odak dönüşünden ayrı bir landed dal ya da semantic obligation kurmaz.",
+      "finding_refs": ["global:paired-route-resistance"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_5b044337a9a6cebdb0ac",
+      "decision": "accept",
+      "reason": "Legacy reader walk, 18:98'deki vaat edilen düzleme ile mevcut engellenmişlik arasındaki zaman ilişkisini doğrudan bildirir. Bu, 18:97'nin şimdiki kapanmasını mutlak imkânsızlık yerine ilahî vaade bağlı geçici bir koruma olarak değiştirir; kaynak güveni qualified tutulmuştur.",
+      "finding_refs": ["global:time-bounded-containment"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_96fa3bb9003548fea278",
+      "decision": "accept",
+      "reason": "Geniş legacy reader walk, نقبًا için delip açma, dağ geçidi ve ülkede dolaşıp araştırma dallarını aynı rota-geometrisi önerisinde toplar. 50:36 bağlantısındaki ülkede dolaşma ve çıkış arama görüntüsü B006 için bağımsız tetik sağlar; 18:98-99 bağlantısı gelecekteki düzleme ve akış dönüşünü ayrı bir zaman sınırı olarak korur. Bu nedenle adayın üç dalı da nitelikli bağlamsal/analogical aktivasyonla taşınmıştır.",
+      "finding_refs": ["global:route-production-denial"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_c5b3d57ec1d08589c7be",
+      "decision": "accept",
+      "reason": "Geniş legacy retrospective kayıt, 18:98'deki düzleme vaadini 18:99'daki ani akışla birlikte okuyarak kapatılan güzergâhların geçici bir sınırlama olduğunu söyler. 18:99, 21:96 ve ilahî hükmün tahkim edilmiş yapıları aşan karşı örnekleri bu zamanlı dönüşü bağımsızca nitelendirir.",
+      "finding_refs": ["global:surge-after-containment"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_971dca2867408fa5d7d7",
+      "decision": "reject",
+      "reason": "Assigned legacy_unbound HFT kaydı boş anchor_refs ve branch_refs taşır; destek kaydında anchor evidence yoktur. Tekrarlanan güçlendirme ve rota inkârı için exact context coordinate, attributed role, root ve focus return verilmediğinden HFT rolü içinde landed bir aktivasyon kurulamaz; hft_002b99b9d6612c5673de ve sup_838518c15e32d3f26e19 burada hesaba katılmıştır.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_0ee8389722075fec6d53",
+      "decision": "reject",
+      "reason": "Assigned legacy_unbound HFT kaydı, inşa sırasını arazi, kütle, ısı ve bakırla açıklasa da boş anchor_refs/branch_refs ve anchor evidence içerir. Exact taşıyıcı, bağımsız tetik ve focus return bulunmadığı için bu özet ayrı bir attributed bulguya dönüştürülemez; hft_ef0b02e67f31716745a9 ve sup_db8da43df62fc75ef85f hesaba katılmıştır.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_2a30792af456c52e6cbe",
+      "decision": "reject",
+      "reason": "Assigned legacy_unbound HFT kaydı, bir sonraki ayetin merhamet ve zaman sınırını öne sürse de exact context coordinate, focus word, attributed role veya focus return sağlamaz. Aynı zamanlı ilişki, exact odak dönüşü bulunan reader-walk adayı altında tutulmuştur; hft_43275845c2d77ba2b44f ve sup_0b8b6bc5df68772b0d53 hesaba katılmıştır.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_a135c7d4b7bc22663f01",
+      "decision": "reject",
+      "reason": "Assigned legacy_unbound HFT özeti, kapasite fiilinin iki biçimi ve çeşitli maddi/epistemik okumalar hakkında geniş bir sentez sunar; fakat anchor_refs, branch_refs ve anchor evidence yoktur. Exact carrier-trigger trace ve focus return bulunmadığından bu geniş sentez görünür bir HFT adaylığı olarak kalır; hft_18d082cde420d71e8846 ve sup_f3561a5bbfd33a6eac98 hesaba katılmıştır.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_706873482b054425635d",
+      "decision": "reject",
+      "reason": "Assigned legacy_unbound HFT kaydı, ilk kapasite biçiminde س ط ع yükselme/gölgelenmesinin bulunup bulunmadığını açık bir belirsizlik olarak bırakır; ancak anchor_refs, branch_refs ve anchor evidence yoktur. Belirsizlik görünür tutulur fakat exact taşıyıcı ve focus return olmadan aktivasyona yükseltilmez; hft_1432c77a46e6a2c99418 ve sup_c28e3c82107bfdaed368 hesaba katılmıştır.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_ce920713ad63d7966266",
+      "decision": "reject",
+      "reason": "Assigned legacy_unbound HFT kaydı dış ve iç erişim için epistemik bir yankı sorusu bırakır; fakat exact anchor, branch, attributed role veya focus return vermez. Fiziksel erişim okuması bağlantı bulgusunda korunmuş, bu HFT sorusu ayrı aktivasyona yükseltilmemiştir; hft_eb3f7946abf67edaadb6 ve sup_eb7fa0451964e1479726 hesaba katılmıştır.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_580a372565478498572e",
+      "decision": "reject",
+      "reason": "Assigned legacy_unbound HFT kaydı demir pası dalının maddi bir güç taşıyıp taşımadığını sorar; fakat anchor_refs, branch_refs ve anchor evidence yoktur. Focus'ta pas dalına dönen exact carrier-trigger trace bulunmadığından bu lexicographic belirsizlik aktivasyon değildir; hft_893452fb452b06837c03 ve sup_b918c0f64b697847259f hesaba katılmıştır.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    }
+  ],
+  "findings": [
+    {
+      "finding_ref": "global:paired-route-resistance",
+      "origin_candidate_id": "cand_1aaf89a937cd5c0b48a8",
+      "represented_candidate_ids": ["cand_739c903c2cfcf0395c9f"],
+      "title": "İki geçiş biçimine karşı direnç",
+      "claim": "18:97'deki iki olumsuz kapasite cümlesi, engelin hem üstünden aşılmaya hem içinden geçit açılmasına boyun eğmediği bir ilişkiyi görünür kılar; böylece düşmanca geçiş niyeti yalnız failin eksikliğiyle değil, nesnenin iki eyleme de karşılık vermemesiyle etkisizleşir.",
+      "mechanism": "18:97:2:1 ve 18:97:6:1'deki kapasite taşıyıcıları, 18:97:4:1'deki üstten aşma fiili ve 18:97:8:1'deki delme/yarma adıyla aynı engel üzerinde iki ayrı eylem sınar. Güvenilir yayın bu üç dalı birlikte bağlar; 51:45 ve 36:67 bağlantıları da çift yönlü yetersizlik görüntüsünü, 50:36 ise aşma ile içten geçme yollarının ayrımını bağımsız karşılaştırmalar olarak getirir.",
+      "reader_payoff": "Okur, ayetteki yetersizliği yalnızca yüksek bir duvara yetişememe olarak değil, bir sınırın saldırıya iki farklı yönden de cevap vermemesi olarak fark eder.",
+      "containment": "Bu, kapasite fiilinin olağan yapabilme anlamını yerinden etmez; boyun eğme dalı nitelikli ilişkisel rezonans, delme dalı doğrudan fiziksel temas, dağ geçidi dalı ise sınırlı analogical rota görüntüsü olarak tutulur. Her yetersizliğin nesneden kaynaklandığı veya duvarın mutlak olduğu ileri sürülmez.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": ["trusted"],
+        "reason": "Üç dalı odak koordinatlarına bağlayan citable publication trusted'dır. Bağlantı hedefleri exact Arabic yüzeyi sağlar fakat target morphology sağlamaz; bu nedenle global ilişki qualified olarak sunulur."
+      },
+      "support_ids": ["sup_0ec477a3eb632cd9adcf"],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000956/B001",
+          "facet_id": "F001",
+          "branch_gloss": "zorlanmadan boyun eğme ve kolay yönlenme",
+          "facet_statement": "Bir taraf zorlamanın tersine isteyerek ya da direnç göstermeden başka bir yöneltmeye uyar.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["18:97:2:1", "18:97:6:1"],
+          "trigger_refs": ["18:97:4:1", "18:97:8:1", "sup_0ec477a3eb632cd9adcf", "conn_cf289121ed0b1a323fc9", "conn_86693aca47b6d86560b2"],
+          "focus_return_refs": ["18:97:2:1", "18:97:6:1"],
+          "carrier": "İki ٱسْتَطَٰعُوا۟ taşıyıcısı, bir işi gerçekleştirme kapasitesini ve bu kapasitenin engel karşısında başarısız kalmasını bildirir.",
+          "independent_trigger": "Üstten aşma ve içten delme için verilen iki ayrı odak eylemi ile 51:45 ve 36:67'deki çift yönlü yetersizlik karşılaştırmaları, kapasiteyi tek başına fail özelliği olmaktan çıkarıp fail-engel ilişkisine bağlar.",
+          "activation": "Kapasite taşıyıcıları aynı engelin iki farklı eyleminde başarısız olunca, boyun eğme/kolay yönlenme dalının tersinden kurulmuş bir temas belirir: burada yönlenen nesne değil, nesnenin yönlendirmeye direnmesidir.",
+          "resulting_reading": "Yetersizlik, saldıranların kendi eksikliğinden çok engelin onların eylemine boyun eğmemesi olarak da okunur.",
+          "boundary": "Bu dalın emre uyma anlamı ayetin birincil sözlük karşılığı değildir; yalnız kapasite fiilinin engel ile kurduğu ilişkisel global rezonans korunur."
+        },
+        {
+          "branch_ref": "root_001539/B001",
+          "facet_id": "F001",
+          "branch_gloss": "delip öte yana açma",
+          "facet_statement": "Bir şeyi delip açarak ötesine ya da altındaki katmana ulaşma işlemini bildirir.",
+          "application_mode": "lexical",
+          "carrier_refs": ["18:97:8:1"],
+          "trigger_refs": ["18:97:2:1", "18:97:4:1", "18:97:6:1", "sup_0ec477a3eb632cd9adcf", "conn_1b77c1486a84c3034beb"],
+          "focus_return_refs": ["18:97:8:1"],
+          "carrier": "نَقْبًا taşıyıcısı bir yüzeyi delip açıklığı öte yana veya altındaki katmana ulaştıran fiziksel breach görüntüsünü taşır.",
+          "independent_trigger": "Kapasite cümlelerinin üstten aşma eylemiyle dengelenmesi ve 50:36 bağlantısının içten yol açma/çıkış arama karşıtlığı, نقبًا'nın burada yalnızca genel bir delik değil geçiş üretme girişimi olduğunu tetikler.",
+          "activation": "Delme taşıyıcısı, üstten aşma ile yan yana gelen ikinci rota olarak kurulduğunda, iki olumsuzluk engelin yalnız yüksekliğini değil geçilebilirliğini sınadığını gösterir.",
+          "resulting_reading": "Duvarın içinden bir açıklık üretme yolu da üstünden geçme yolu kadar kapalıdır.",
+          "boundary": "Dallanmış delme görüntüsü korunur; ülkede dolaşma, dağ yolu ve öteki ن ق ب dalları bu bulguda otomatik olarak sözlük anlamı sayılmaz."
+        },
+        {
+          "branch_ref": "root_001539/B005",
+          "facet_id": "F001",
+          "branch_gloss": "dağ geçidi",
+          "facet_statement": "Dağlık veya sert arazide bulunan yolu bildirir.",
+          "application_mode": "analogical",
+          "carrier_refs": ["18:97:8:1"],
+          "trigger_refs": ["18:97:2:1", "18:97:4:1", "18:97:6:1", "sup_0ec477a3eb632cd9adcf", "conn_1b77c1486a84c3034beb"],
+          "focus_return_refs": ["18:97:8:1"],
+          "carrier": "نَقْبًا taşıyıcısı, engelin içinden geçilebilecek sert arazi yolu/gedik görüntüsüne açılabilecek aynı yüzey biçimidir.",
+          "independent_trigger": "Üstten aşma ile içten ilerleme arasındaki rota çifti ve 50:36'da çıkış arayan dolaşmanın başarısızlığı, dağ geçidi facetini engelin bir geçit olarak da sınanmasına bağlar.",
+          "activation": "Geçit dalı, fiziksel duvarın dağ olması iddiasıyla değil, engelin içinden geçiş üretilebilecek bir yol gibi denenmesi ve bu yolun da kapatılmasıyla focus'a döner.",
+          "resulting_reading": "Engel, yalnız aşılamaz bir yükseklik değil, içinden geçit çıkarılamayan sert bir rota olarak da belirir.",
+          "boundary": "Focus'ta literal dağ veya gerçek dağ geçidi ileri sürülmez; facet yalnız iki rota geometrisinin kapsamını genişleten analogical bir görüntüdür."
+        }
+      ],
+      "connection_refs": ["conn_cf289121ed0b1a323fc9", "conn_86693aca47b6d86560b2", "conn_1b77c1486a84c3034beb"],
+      "context_refs": ["51:45", "36:67", "50:36"],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:time-bounded-containment",
+      "origin_candidate_id": "cand_5b044337a9a6cebdb0ac",
+      "represented_candidate_ids": [],
+      "title": "Kapanmanın zamanla sınırlı oluşu",
+      "claim": "18:97'deki geçilmezlik, 18:98'in vaat edilen düzleme sözüyle birlikte okunduğunda mutlak ve sonsuz bir imkânsızlık değil, belirli bir süre için işleyen koruyucu bir kapanma olarak görünür.",
+      "mechanism": "Focus ayetindeki iki başarısız geçiş, hemen sonraki bağlamın yapının gelecekte düzleneceğini bildirmesiyle temas eder. Böylece şimdiki direnç korunur fakat aynı direnç ilahî bir vaatle zaman sınırına alınır.",
+      "reader_payoff": "Okur, koruyucu yapının gücünü küçültmeden onun geçiciliğini de aynı anda görebilir; şimdiki engel gelecekteki açılmayı iptal etmez.",
+      "containment": "Bu okuma 18:97'nin mevcut fiziksel kapanmasını kaldırmaz ve 18:98'in vaadini 18:97'de gerçekleşmiş saymaz. Zaman sınırı yalnız supplied next-ayah relation olarak tutulur.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": ["legacy_unbound"],
+        "reason": "Reader-walk kaydı legacy_unbound'dır; ancak 18:98 odak perikopunda supplied context olarak bulunur ve kaydın değişim iddiasını doğrudan sınırlar."
+      },
+      "support_ids": ["sup_9d20e5bee3acc73e1fd3"],
+      "branch_activations": [],
+      "connection_refs": [],
+      "context_refs": ["18:98"],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:route-production-denial",
+      "origin_candidate_id": "cand_96fa3bb9003548fea278",
+      "represented_candidate_ids": [],
+      "title": "Kaçış rotası üretiminin kesilmesi",
+      "claim": "18:97'nin dengeli olumsuzlukları, yapının yalnız yüksek görünmediğini; üstten aşma, içinden gedik açma ve çıkış arayan bir rota üretme imkânlarını birlikte kapattığını gösterir.",
+      "mechanism": "نَقْبًا taşıyıcısının delme, dağ geçidi ve ülkede dolaşıp araştırma dalları, 18:97:2:1/4:1/6:1'deki iki yönlü sınamayla temas eder. 50:36 bağlantısı ülkede dolaşıp çıkış arama görüntüsünü bağımsız tetik olarak getirir; 18:98-99 bağlantıları bu route-production kapanmasının daha sonra düzleme ve akışla geri çevrileceğini gösterir.",
+      "reader_payoff": "Duvarın başarısı yalnızca kütlesinde değil, alternatif yol biçimlerini tek tek ortadan kaldırmasında belirir; okuyucu yapıyı pasif bir görüntüden işleyen bir rota engeline dönüştürerek görür.",
+      "containment": "B006'nın ülkede dolaşma anlamı focus kelimesinin tek başına literal collocation'ı yapılmaz; 50:36'daki bağımsız dolaşma/çıkış görüntüsüyle attributed contextual resonance olarak tutulur. 18:98-99 gelecekteki dönüşü gösterir, mevcut ayette yolun açıldığını değil.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": ["legacy_unbound"],
+        "reason": "Reader-walk kaydı legacy_unbound'dır. B001/B005 focus branch kayıtları mevcut olsa da B006 ve bağlantı hedeflerinin target morphology'si bağımsız bağlamdan gelir; bu nedenle üç aktivasyon ve gelecek dönüşü qualified tutulur."
+      },
+      "support_ids": ["sup_9f320b1652cb7940222b"],
+      "branch_activations": [
+        {
+          "branch_ref": "root_001539/B001",
+          "facet_id": "F001",
+          "branch_gloss": "delip öte yana açma",
+          "facet_statement": "Bir şeyi delip açarak ötesine ya da altındaki katmana ulaşma işlemini bildirir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["18:97:8:1"],
+          "trigger_refs": ["18:97:2:1", "18:97:4:1", "18:97:6:1", "sup_9f320b1652cb7940222b", "conn_1b77c1486a84c3034beb"],
+          "focus_return_refs": ["18:97:8:1"],
+          "carrier": "نَقْبًا taşıyıcısı, duvarda öte yana ulaşan bir açıklık üretme işlemini taşır.",
+          "independent_trigger": "Üstten aşma ile içten geçme seçeneklerinin dengeli biçimde reddedilmesi ve 50:36'nın başarısız geçişi route-production çekirdeğini bağımsızlaştırır.",
+          "activation": "Delme dalı iki kapasite reddinin ikinci geometrisi olarak temas ettiğinde, yapının işlevi alternatif geçiş üretimini durdurmak şeklinde görünür.",
+          "resulting_reading": "İçten bir yol açma teşebbüsü de üstten aşma teşebbüsü gibi sonuçsuz kalır.",
+          "boundary": "Dallanmış delme anlamı korunur; bu bulgu literal bir tünel planı veya focus dışı bütün نقب kullanımlarının aktarımı değildir."
+        },
+        {
+          "branch_ref": "root_001539/B005",
+          "facet_id": "F001",
+          "branch_gloss": "dağ geçidi",
+          "facet_statement": "Dağlık veya sert arazide bulunan yolu bildirir.",
+          "application_mode": "analogical",
+          "carrier_refs": ["18:97:8:1"],
+          "trigger_refs": ["18:97:4:1", "18:97:2:1", "18:97:6:1", "sup_9f320b1652cb7940222b", "conn_1b77c1486a84c3034beb"],
+          "focus_return_refs": ["18:97:8:1"],
+          "carrier": "نَقْبًا taşıyıcısı, sert bir engelin içinden geçilebilecek yol veya gedik görüntüsüne temas eder.",
+          "independent_trigger": "Aşma ve delme seçeneklerinin aynı engelde denenmesi, dağ geçidi facetinin literal dağ değil geçiş geometrisi olarak devreye girmesini sağlar.",
+          "activation": "Geçit dalı, engelin içinden bir rota üretme imkânının sınanıp kapatılmasına bağlandığında focus'un iki yönlü kapanma işlemini açıklar.",
+          "resulting_reading": "Yapı, içinden geçit çıkarılamayan sert bir rota olarak da iş görür.",
+          "boundary": "Duvarın dağ olduğu iddia edilmez; dağ geçidi yalnız route geometry için analogical bir facet olarak kullanılır."
+        },
+        {
+          "branch_ref": "root_001539/B006",
+          "facet_id": "F001",
+          "branch_gloss": "ülkeyi dolaşıp araştırmak",
+          "facet_statement": "Ülke veya bölgeler içinde yol alıp dolaşmayı bildirir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["18:97:8:1"],
+          "trigger_refs": ["conn_1b77c1486a84c3034beb", "sup_9f320b1652cb7940222b"],
+          "focus_return_refs": ["18:97:8:1"],
+          "carrier": "نَقْبًا taşıyıcısı, geçiş ve yol arama çekirdeğini taşıyabilecek focus biçimidir.",
+          "independent_trigger": "50:36 bağlantısında ülkelerde dolaşıp çıkış yolu arama ve yine de kaçış bulamama, B006'nın ülke-içi dolaşma facetini focus'un başarısız rota üretimine geri döndüren ayrı görüntüdür.",
+          "activation": "Ülkede yol arayan hareket ile duvarın içinden yol açılamaması temas ettiğinde, نقبًا yalnız bir delik değil alternatif kaçış rotalarının araştırılması ve kesilmesi olarak da okunur.",
+          "resulting_reading": "Kaçış için farklı yönlerde yol üretme çabası, mevcut engelin içinde de dışında da sonuç vermez.",
+          "boundary": "Focus'ta literal في البلاد collocation'ı kurulmaz; B006 yalnız exact 50:36 bağlantısının getirdiği nitelikli contextual resonance olarak kalır."
+        }
+      ],
+      "connection_refs": ["conn_1b77c1486a84c3034beb", "conn_3a9ec643da4ea3a3619a"],
+      "context_refs": ["50:36", "18:98", "18:99"],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:surge-after-containment",
+      "origin_candidate_id": "cand_c5b3d57ec1d08589c7be",
+      "represented_candidate_ids": [],
+      "title": "Geçici kapanmadan sonraki akış",
+      "claim": "18:97'de yolların kapatılması, 18:98'deki vaat edilen düzleme ve 18:99'daki Gog ve Magog akınıyla birlikte okunduğunda, erişim engelinin mutlak son değil zamanı belirlenmiş bir containment olduğu izlenimini verir.",
+      "mechanism": "Focus'un üstten aşma ve içten delme başarısızlığı, 18:99 bağlantısında düzlenmiş yapının ardından gelen birlikte akışla; 21:96'da ise daha sonraki açılma ve inişle karşılaştırılır. 59:2 ve 11:43 bağlantıları, tahkim edilmiş yapının ilahî hükme karşı mutlak sığınak sayılamayacağını karşı-evidence olarak sınırlar.",
+      "reader_payoff": "Okur, şimdiki koruyucu direnci küçültmeden onun bir son durum değil, daha sonraki açılmayı mümkün kılan geçici bir eşik olduğunu görür.",
+      "containment": "Bu bulgu 18:99 veya 21:96'yı 18:97'nin şimdiki zamanı yapmaz; sonraki akış yalnız mevcut kapanmanın süreli oluşunu değiştirir. Her fiziksel tahkimatın aynı kaderi paylaştığı da ileri sürülmez.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": ["legacy_unbound"],
+        "reason": "Reader retrospective kaydı legacy_unbound'dır. 18:99 ve 21:96 bağlantıları güçlü adaylık sağlarken hedef morfolojisi verilmemiştir; 59:2 ve 11:43 karşı-evidence olarak yalnız sınırlandırma amacıyla kullanılır."
+      },
+      "support_ids": ["sup_2533ab3b6633cb1340ed"],
+      "branch_activations": [],
+      "connection_refs": ["conn_3a9ec643da4ea3a3619a", "conn_ca1e6a98f54979e3cf12", "conn_b8fb87528b0c8c792c4e", "conn_9ac371378ba9613ac6a0"],
+      "context_refs": ["18:98", "18:99", "21:96", "59:2", "11:43"],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:guarded-access-boundary",
+      "origin_candidate_id": null,
+      "represented_candidate_ids": [],
+      "title": "Engellenen geçişin koruyucu sınır olarak görünmesi",
+      "claim": "18:97'de üstten aşma ile içten geçmenin birlikte engellenmesi, duvarı yalnızca yüksek bir nesne değil, erişimi düzenleyen ve bir alanı koruyan işlevsel bir sınır olarak görünür kılar.",
+      "mechanism": "Focus'un iki kapalı rota ilişkisi, aynı suradaki mağaranın sınırlı güneş erişimi ve caydırıcı eşiği (18:17-18), yetim hazinesini koruyan duvarı (18:82), kapılı ayırıcı sınırı (57:13), denizler arasındaki geçiş engelini (55:20, 55:33) ve guarded heaven erişimini (72:9) anlatan bağlantı satırlarına geri döner. Bu temaslar ortak bir sözlük eşitlemesi değil, erişimi seçerek sınırlayan ayrı sınır işlemlerinin focus ilişkisini açıklamasıdır.",
+      "reader_payoff": "Duvarın direnç göstermesi, yalnızca yapısal sertlik olarak değil, içeridekini dışarıdan ve dışarıdakini içeriden ayıran bir koruma eylemi olarak okunabilir.",
+      "containment": "Bağlantı hedefleri exact Arabic yüzeyi taşır fakat target morphology sağlamaz; bu yüzden bulgu nitelikli global rezonanstır. Mağara, deniz, gök ve duvar görüntüleri aynı olay veya aynı literal dal sayılmaz; 18:97'nin fiziksel bariyer anlamı korunur.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": [],
+        "reason": "Bulguyu kuran kanıtlar connection registry'deki authored focus rows'tur; bunlarda bağımsız trust etiketi ve hedef morphology yoktur. Önceki strong/medium etiketleri yalnız sıralama/provenance işareti olarak kullanılmıştır."
+      },
+      "support_ids": [],
+      "branch_activations": [],
+      "connection_refs": ["conn_20395886bc54410d8585", "conn_c17c67f1dfbb4edc671e", "conn_4f10c8afbe48836b6301", "conn_72a79b0671701e8edd1a", "conn_717b56244851f55bab17", "conn_51aae08f74fec97c9eef", "conn_3d62f93696fb7ae5a6d9"],
+      "context_refs": ["18:17", "18:18", "18:82", "57:13", "55:20", "55:33", "72:9"],
+      "semantic_obligation_refs": []
+    }
+  ],
+  "friction_notes": [
+    "focus_word_alignment tamamdır: words_total=10, words_resolved=10, words_unresolved=0 ve unresolved listesi boştur.",
+    "Aday paketlerinde isimlendirilmiş semantic_obligations dizisi veya obligation ref'i verilmemiştir; bu nedenle hiçbir obligation ref icat edilmemiş, tüm semantic_obligation_exclusions dizileri boş bırakılmıştır.",
+    "Tek trusted citable publication, iki kapasite formu ile delme/rota dallarını doğrudan bağlar. Legacy reader-walk kayıtları yalnız exact focus taşıyıcısı ve bağımsız context/connection dönüşü görülebildiğinde qualified bulgu olarak korunmuştur.",
+    "Yedi HFT özeti görünür fakat legacy_unbound'dır; hepsinde anchor_refs ve branch_refs boştur, anchor evidence sayısı sıfırdır. Exact koordinat, attributed role, root ve focus return bulunmadığından HFT adayları reject edilmiş; yükselme gölgesi, epistemik erişim, pas ve inşa ayrıntıları belirsizlik olarak korunmuştur.",
+    "Connection hedeflerinde target morphology supplied değildir. Connection bulguları bu nedenle qualified tutulmuş, strong/medium/weak/no value etiketleri karar veya sıralı hakikat olarak kullanılmamıştır; no-value ve açıkça ilgisiz bağlantılar ayrı semantic bulguya yükseltilmemiştir.",
+    "B006 ülkede dolaşma dalı, focus biçiminin tek başına bu collocation'ı kurduğu iddiasıyla değil, 50:36'daki exact ülkede dolaşıp çıkış arama bağlantısının bağımsız tetiklediği contextual resonance olarak korunmuştur.",
+    "Global:guarded-access-boundary bulgusu aday olmayan bağlantı kümesinden çıkarılmıştır; koruyucu erişim işlemini genişletir fakat focus'un fiziksel duvar okumasını seçmez veya diğer sınır imgelerini özdeşleştirmez."
+  ]
+}
