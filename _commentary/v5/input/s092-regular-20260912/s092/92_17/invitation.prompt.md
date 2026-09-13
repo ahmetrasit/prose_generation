@@ -1,0 +1,191 @@
+# V5 reading invitation — 92:17
+
+You are a fresh reading-invitation writer. Read the complete editorial prose
+before writing. It is your sole semantic source.
+
+Write two to four paragraphs of fluent, contemporary Turkish that reveal a
+surprising reading by following one or two main channels of resonance in the
+ayah. A channel is a connected background of meanings, images, actions, or
+relations through which the ayah can be heard and understood differently.
+Several editorial findings may together develop one channel. Summarize that
+connected movement and its consequence for the ayah's main meaning, rather
+than compressing findings individually. Give the reading's substance now;
+the invitation comes from understanding it, not from a promise of hidden depth.
+
+Before drafting, read the entire editorial prose and silently select the one
+or two channels with the strongest interpretive consequence and enough
+grounding to explain clearly. Favor channels that expand or shift what the
+ayah says, the relation it establishes, or what is at stake in its action or
+image. One fully developed channel is sufficient; add a second only when it
+offers a distinct consequential reading that can be explained within the
+invitation. No finding, channel, or major shift has an individual coverage
+claim. Unselected material may remain entirely in the full commentary.
+
+A channel may develop through grammar, sound, dialogue, a material process,
+time, imagery, or a conceptual relation. Resonance is not limited to acoustic
+effects, and an unusual image alone does not establish a channel. Use only
+connections the editorial prose actually develops. If it supplies no such
+channel, explain its strongest grounded reading without inventing connections
+or surprise.
+
+Begin inside the ayah's own words, images, actions, or relations and reveal a
+selected distinctive reading in the first paragraph. Keep the plain meaning
+reachable with only the orientation needed to understand the change. Do not
+spend an opening paragraph on routine explanation or front-load context about
+the surah, the ayah's position, or the commentary project.
+
+For each selected channel, begin with the expression that opens it, unfold the
+connected background, and show how the ayah reads or sounds against that
+background. Let a detail lead into the next through an intelligible relation
+or process, so the reader experiences the emerging reading. This is a movement
+of thought, not a mandatory sentence pattern or one paragraph per finding.
+Let the reader identify the expression being interpreted,
+where any nonordinary detail comes from, and what that detail changes in the
+reading. Briefly identify the word-family use, restricted form, collocation, or
+context that supplies an essential added detail, and preserve the concrete
+operation that makes the image work. Keep the ordinary reading and necessary
+qualification clear within this explanation; do not repeat them as a fixed
+formula. Preserve the particular object, process, or relation that makes this
+reading distinctive, and state its interpretive consequence for the ayah as a
+whole. Make intelligible what the familiar reading leaves less visible and
+what the expanded or shifted reading now lets the reader understand. Preserve
+the editorial's force: an exploratory possibility remains possible, while a
+developed shift must not be softened into a decorative association or a
+reassurance that everything means the same thing. A concrete
+account of how something is carried, transformed, lost, or restored must not
+shrink to a general statement about care, guidance, dependence, or goodness.
+Keep the details needed to make the selected channel work; omit side findings
+and shorten routine setup. If a channel cannot be explained faithfully from
+the editorial prose, choose another grounded channel or reading.
+
+When a non-focus ayah supplies a contribution used in the invitation, keep its
+reference from the editorial prose beside that contribution.
+
+Do not turn the invitation into a miniature inventory of the commentary's
+conclusions, or flatten distinct channels into a broad theme to include more
+material. Do not repair, extend, or supplement the editorial prose from memory
+or outside knowledge.
+
+Omit technical apparatus. Retain any qualification, source distinction, live
+alternative, or boundary whose absence would change the force or meaning of a
+chosen reading. Express it naturally beside the image or relation it qualifies.
+Favor positive explanations of the relation between layers: what remains in
+the foreground and what the resonance makes audible in the background. State
+how that background reinforces, expands, or shifts the understanding of the
+main meaning, with the source and degree of certainty clear. Reserve explicit
+exclusions for concrete ambiguities or live counter-evidence that need them.
+Repeated "this is not X" endings make a reading sound withdrawn; express the
+substantive qualification through what the reading does contribute wherever
+possible. Use varied, natural language rather than a repeated "second layer"
+formula, and preserve the force of expansions and shifts.
+Do not name branches, candidates, findings, scopes, evidence categories,
+ledgers, or workflow stages, or label the prose as numbered channels. Do not
+list findings serially.
+
+Use the established `{ar:..., tr:..., gloss:...}` syntax, consistent
+Turkish-readable transliteration, and short ordinary glosses. Keep Arabic
+anchors beside the explanations they ground. Within a paragraph, continue with
+the Turkish meaning where clear; provide the necessary local tag when a later
+paragraph interprets the carrier anew. Do not place Arabic script outside a
+valid tag.
+
+Build transitions within a channel through its shared object, action, or
+relation. If two channels are selected, they may occupy separate paragraphs;
+do not invent a link between them. Do not praise the commentary's quality,
+promise what the reader will find, manufacture suspense, recap at the end, or
+add a call to action. End on an image, relation, action, or tension already
+established by the selected reading.
+
+Before finishing, compare the invitation with the entire editorial prose:
+does the chosen channel reveal a consequential reading, or could the text have
+been written from the ordinary translation and a modest explanation alone?
+When the editorial supports a surprising channel, the latter fails this task.
+Can the reader follow the opening expression into a connected background and
+understand how that background expands or shifts the ayah's main meaning?
+Check the selected connections against their editorial explanation: can the
+reader tell where the nonordinary details come from, with the necessary
+qualifications intact? Repair generic explanation, isolated curiosities, or a
+compressed findings list by developing the selected channel. Do not add
+omitted channels merely for coverage. Do not output this check.
+
+Write only the invitation text to:
+
+`_commentary/v5/editorial/s092-regular-20260912/s092/92_17/92_17.invitation.tr.md`
+
+Do not add a heading, wrapper label, index, ledger, evidence file, or any other
+artifact. Do not modify the editorial prose.
+
+After writing the invitation, run:
+
+```bash
+python3 _commentary/v5/validate_prose.py _commentary/v5/editorial/s092-regular-20260912/s092/92_17/92_17.invitation.tr.md
+```
+
+If validation fails, repair only the reported mechanical file-contract issues
+and rerun it, for at most two repair cycles. Report the final validator result
+in your response.
+
+<editorial_prose>
+## Vaadin Dönüşü
+
+Bu âyetin açık vaadi şudur: en çok sakınan kişi, önceki uyarıda adı konan Ateş'ten uzak tutulacaktır (92:14, 92:15, 92:16). Başlangıçtaki {ar:وَ, tr:ve, gloss:bağlayan dönüş}, kendisine bitişen gelecek işaretli edilgen fiille uyarıdan kurtuluş vaadine bir dönüş kurar. Bağlacın katkısı, güvenceyi kopuk bir genel söz olarak bırakmayıp Ateş uyarısına karşı gelen yeni bir bildirim halinde açmaktır; fiile hemen eklenmesi de bu dönüşü sesçe yoğunlaştırır. Fail ve sebep işlevi bağlacın alanında değil, edilgen vaadin açık bıraktığı yerde kalır. Bu eklemleniş yalnızca fiile değil, bütün gelecek edilgen sonuca yayılır; cümlenin tamamı (92:14, 92:15, 92:16) içindeki Ateş sahnesine bağlı olarak duyulur.
+
+Bu vaadin dilbilgisel hareketi fiilden başlar: {ar:سَيُجَنَّبُهَا, tr:seyücennebühâ, gloss:ondan uzak tutulacaktır} gelecek işaretiyle ileride gerçekleşecek uzaklaştırmayı, edilgen çatısıyla da kişi için gerçekleştirilecek korunmayı bildirir. Sonundaki {ar:هَا, tr:hā, gloss:onu}, daha önce anılan {ar:نَارًا, tr:nâran, gloss:Ateş}e döner (92:14); sözün kapsamını aynı tehdidin alanından uzak tutulma vaadinde toplar. İkinci kalıp edilgenliği, uzaklaştırmayı kişi için uygulanan bir işlem olarak öne çıkarır ve bu işlemi uygulayan kişiyi adlandırmadan bırakır. Gelecek işaretiyle edilgenlik birleşince kurtuluş, öznenin kendi çıkışından önce onun için gerçekleştirilen ve onun alacağı bir sonuç olarak duyulur; biçim zamanın geleceğe ait olduğunu gösterir.
+
+Fiil ve Ateş nesnesi, korunan kişi açıklanmadan önce geldiği için okur önce uzaklaştırma vaadini, sonra bu vaadin kime indiğini öğrenir. Sonradan gelen özne cümlede eksik kalmaz; gecikmiş olarak vaadin iniş noktasını belirler. Gelecek ön eki, edilgen orta yapı ve nesne eki vaat, uzaklaştırma ve Ateş'e dönüşü kısa bir ses biriminde sıkıştırır. Bu ses yoğunluğunun katkısı üç işi birlikte işittirmektir; ses tek başına yeni bir sözlük anlamı üretmez. Ateş önce temas edilen tehditken şimdi uzak tutulmanın nesnesine dönüşür; uyarıyı reddederek kendi yönünü çeviren hareket de (92:16) burada öznenin aldığı edilgen korunma vaadiyle karşılaşır.
+
+## Korunan Kişi
+
+Vaadin sonunda yer alan {ar:ٱلْأَتْقَى, tr:el-etkā, gloss:en çok sakınan}, eril tekil üstünlük biçimiyle edilgen fiilin öznesidir; biçimi fiille uyum kurar ve korunmanın kime uygulandığını belirler. Başındaki belirli artikel ile üstünlük biçimi, belirsiz bir iyilik övgüsü değil, tanınabilir bir en yüksek sakınma tipini adlandırır. Kelime zararı savuşturma, korkulan şeyle kişi arasına koruyucu bir katman koyma, kalkan olma ve kendini sakınma gücünü taşır; üstünlük biçimi bu koruyucu yönelişi zirveye çıkarır. Sakınma böylece geçici bir davranış olarak kalmaz, kurtuluşu alan kişiyi tanımlayan yoğunlaşmış bir nitelik olur. Bu geçiş kişinin bütün geçmişi veya görünmeyen eylemleri hakkında ek bir hüküm vermez.
+
+Bu biçimin nadir oluşu, tanıdık sakınma alanını işaretli bir dorukta seçer. Sakınmayı onur ölçütüyle ilişkilendiren kullanımlara da sınırlı bir yankı bırakır; en çok sakınan kişi bir değer ölçüsü olarak işitilebilir, fakat bu yankı yerel cümlenin sözdizimini yönetmez. Cümle {ar:ٱلْأَتْقَى, tr:el-etkā, gloss:en çok sakınan} ile tamamlanır; sonraki bağlam, (92:14, 92:15, 92:16) içindeki Ateş karşıtlığıyla birlikte bu kişi tipinin nasıl anlaşılacağını açar. Daha önce korunma eylemi olarak görünen yönelişin burada bir kimliğe dönüşmesi, fiilin edilgenliğini kaldırmaz ve bu kişiyi uzaklaştıran faili cümleye eklemez.
+
+## Ateşten Ayrılan Yön
+
+Korunan kişi, hemen önceki Ateş sahnesinin (92:14, 92:15, 92:16) karşı tarafında belirir. {ar:فَأَنذَرْتُكُمْ نَارًۭا تَلَظَّىٰ, tr:fe-enzertukum nâran telezzâ, gloss:alev alev yanan ateşle sizi uyardım} uyarısı tehlikeyi önceden işaretler (92:14); {ar:يَصْلَىٰهَا, tr:yaslâhâ, gloss:ona girer} Ateş'e girip onun ısısıyla temas eden yönü, {ar:تَوَلَّىٰ, tr:tevellâ, gloss:yüz çevirdi} ise uyarıdan kendi yönünü çeviren hareketi görünür kılar (92:15, 92:16). Buna karşılık {ar:ٱلْأَشْقَى, tr:el-eşkā, gloss:en bedbaht} aynı belirli üstünlük düzeninde Ateş'le buluşan karşıt özneyi adlandırırken, {ar:ٱلْأَتْقَى, tr:el-etkā, gloss:en çok sakınan} Ateş'ten uzaklaştırılan karşılığı sağlar. İki kelimenin sesçe yakın sonu bu tersliği aynı kadansta duyurur; kafiye iki kişiyi anlamca özdeşleştirmez, farklı Ateş ilişkilerini yan yana getirir.
+
+Uyarıdan sonra kendini tehlikeye çeviren hareket ile uyarıya açık bir dikkat gösteren {ar:ٱلْأَتْقَى, tr:el-etkā, gloss:en çok sakınan}nın Ateş'ten uzak tutulması, (92:14, 92:15, 92:16) boyunca aynı nesne etrafında birbirini görünür kılar. Bu karşıtlık, edilgen kurtuluşun yerine geçen bir irade açıklaması değil, onun yakın bağlamdan aldığı belirgin yön farkıdır. Böylece {ar:نَارًا, tr:nâran, gloss:Ateş} zamirin döndüğü adı konmuş nesne olarak kalır; {ar:تَلَظَّىٰ, tr:telezzâ, gloss:alev alev yanar} ise onu durağan bir ad olmaktan çıkarıp yayılan ve etkin bir tehdit gibi duyurur. Yalın anlamdaki biri Ateş'e girerken diğerinin ondan uzak tutulması yerinde kalır; bağlam, korunan tarafın yönünü daha somut hale getirir.
+
+## Güvenli Yan
+
+Uzak tutulmanın mekânsal katkısı, kişiyi Ateş'in erişemeyeceği yana alıp kişiyle tehdit arasındaki hatta çalışan bir sınır kurmasıdır. {ar:جَنْب, tr:cenb, gloss:yan ve bitişik çevre} kelimesinin insanın ya da hayvanın böğrünü, bir şeyin yanını ve tarafını bildiren kullanımı, {ar:هَا, tr:hā, gloss:onu} ile Ateş'e karşı kurulan erişim hattını belirginleştirir. {ar:يُجَنَّبُهَا, tr:yücannebuhā, gloss:ondan uzak tutulur} birini zarardan ayırır; {ar:ٱلْأَتْقَى, tr:el-etkā, gloss:en çok sakınan} ise kişiyle zarar arasına araç, katman veya engel koyan koruyucu işlevi çağırır. Bu iki hareket birleşince Ateş ile kişi arasındaki hat değişir: yanında bir örtü ya da bedeni koruyan bir kalkan bulunan, sınırın güvenli tarafına alınmış bir kişi görünür. Yan ve sınır görüntüsü uzak tutulmanın asli anlamını genişletir; bu bağlantının katkısı erişim hattındaki değişimdir ve belirli bir fiziksel araç adı gerektirmez.
+
+Aynı uzaklaştırma kelimesiyle ilgili tartışmalı bir bahçe veya gizlenme kullanımı, bu bağlantıda Ateş karşısında korunmuş bir iç alan yönünü destekleyen bir sığınak yankısı verir. Yerel cümlenin biçimi gelecek zamanda, edilgen biçimde gerçekleştirilen uzaklaştırma olarak kalır; yankı bu fiil biçiminin kapsamını değiştirmez. Yan, kalkan ve sığınak görüntüsü birbirini besleyen sınırlı bir uzamsal basınçtır. Bu bağlantının katkısı Ateş'in erişiminden korunmuş alanı hissettirmektir; Ateş'in söndürülmesine veya belirli bir fiziksel düzenek kurulmasına dair bir sonuç taşımaz.
+
+Açılıştaki görünürlük değişimi bu sınırı hareketli bir ara-sınır olarak kurar. {ar:وَٱلَّيْلِ إِذَا يَغْشَىٰ, tr:ve'l-leyli izâ yağşâ, gloss:gece örtünce} içindeki örtülme (92:1) ile {ar:وَٱلنَّهَارِ إِذَا تَجَلَّىٰ, tr:ve'n-nehâri izâ tecellâ, gloss:gündüz açığa çıkınca} içindeki açılma (92:2), güvenli tarafın görünürlük değiştikçe yeniden belirlenmesini düşündürür. {ar:يُجَنَّبُهَا, tr:yücannebuhā, gloss:ondan uzak tutulur}nın yan veya taraf çağrışımı, gece örtüsünün geri çekilmesiyle gündüzün alanı açılması arasındaki hatta bağlanır. {ar:ٱلْأَتْقَى, tr:el-etkā, gloss:en çok sakınan}nın zarar ile kişi arasına katman koyan koruması bu ritme katılınca, gece tehdit alanının görünmeyen fazını (92:1), gündüz ise genişleyen açık alanı (92:2) taşır. Koruma böylece görünürlük değişse bile işleyen canlı bir sınır olarak duyulur; kişi tehlikeli açıklığın dışında kalan tarafta tutulur.
+
+Bu hareketli yan görüntüsünün katkısı, yayılan alev ile rüzgârın taşıdığı tehlike içinde korunaklı tarafı görünür kılmasıdır. {ar:يُجَنَّبُهَا, tr:yücannebuhā, gloss:ondan uzak tutulur} kelimesinin güneyden esen yel için kullanılan yönü, {ar:ٱلْأَتْقَى, tr:el-etkā, gloss:en çok sakınan}nın araya engel koyan koruma anlamıyla ve {ar:فَأَنذَرْتُكُمْ نَارًۭا تَلَظَّىٰ, tr:fe-enzertukum nâran telezzâ, gloss:alev alev yanan ateşle sizi uyardım} ifadesinin aleviyle buluşur (92:1, 92:14). Rüzgârın taşıdığı ve alevin yayıldığı yoğun alanda kişi, tehlikenin akışından yana alınmış korunaklı tarafta görünür. Yön, rüzgâr ve alev hattı burada analojik bir genişlemedir; güney yeli fiilin doğrudan çevirisi olarak değil, bu korunaklı tarafı belirginleştiren bir yön görüntüsü olarak çalışır. Gece-gündüz çifti yalnızca kozmik bir karşıtlık olarak da okunabilir (92:1, 92:2); her iki okumada da Ateş'ten uzak tutulma vaadi yerinde kalır.
+
+## Yakınlığın Eşiği
+
+Güvenli yanın katkısı, kişiyi boşlukta bırakmadan bir ilişki alanına yerleştirmesidir. {ar:عِندَهُ, tr:indehû, gloss:yanında} birinin yanında ve huzurunda bulunmayı, {ar:وَجْهِ, tr:vech, gloss:yüz/yön} ise karşılaşmanın baktığı yönü taşır (92:19, 92:20). Bu kelimelerin açtığı konum, {ar:يُجَنَّبُهَا, tr:yücannebuhā, gloss:ondan uzak tutulur}nın yan ve kenar alanıyla buluşunca Ateş'ten ayrılan kişinin güvenli tarafta birinin yanında durması ve doğru yöne çevrilmesi gibi duyulur. Yakın cümledeki {ar:تَوَلَّىٰ, tr:tevellâ, gloss:yüz çevirdi} hareketi bu görüntünün karşıtını açık tutar (92:16): biri uyarıdan yüz çevirerek tehlikeye yönelirken, korunan kişi ilişki içinde tutulur. Bu bağlantının kapsamı güvenli yakınlıktır; akrabalık ya da sahiplik iddiası üretmez.
+
+Ateş'ten uzaklığın katkısı, {ar:وَجْهِ, tr:vech, gloss:yüz/yön} arayışıyla birlikte kişiye ilahî huzura doğru bir yön açmasıdır (92:20). {ar:يُجَنَّبُهَا, tr:yücannebuhā, gloss:ondan uzak tutulur} kişinin tehlikeden ayrılmasını taşırken, {ar:رَبِّهِ, tr:Rabbihî, gloss:Rabbinin} yüzüne yönelme uzaklıktan sonra hangi huzura doğru bakıldığını gösterir. Böylece Ateş'ten ayrılma ile huzura yönelme iki yönlü bir konum değişikliği olarak hissedilir. Odak cümlenin doğrudan sözü Ateş'ten uzak tutulmadır; yüz arayışı bunun yanında açılan yakınlık yönünü verir ve {ar:يُجَنَّبُهَا, tr:yücannebuhā, gloss:ondan uzak tutulur}nın karşılığını yaklaştırma yönüne çevirmez. (92:20) içindeki yüz arayışı, temel güvenceyi genişleten ve uzaklığın hangi huzura açıldığını düşündüren canlı bir katmandır.
+
+Bu eşiğin toplumsal katkısı, uzaklığı yabancılık ile kabul arasındaki bir sınıra dönüştürmesidir. {ar:يُجَنَّبُهَا, tr:yücannebuhā, gloss:ondan uzak tutulur}nın yanına alma ve uzaklaştırma alanı, {ar:يُؤْتِي, tr:yu’tî, gloss:verir} çevresindeki dışarıdan gelen temas ve bir yere giriş görüntüsüyle birleşir (92:18). Başka bir topluluk içinde dışarıdan gelen kişi, güvenli sınırın yanında beliren bir komşu gibi görünür; {ar:ٱلْأُولَىٰ, tr:el-ûlâ, gloss:ilk/önceki} çevresindeki hane ve bakmakla yükümlü olunanlar görüntüsü, dışarıdan gelenin içeri kabul edilmesi ile birilerine bağlı olarak toplanma arasındaki geçişi açar (92:13). {ar:رَبِّهِ, tr:Rabbihî, gloss:Rabbinin} çevresindeki kalma, tutunma ve sürme görüntüsü de bu sınırın ötesinde bakım altında devam eden bir yer edinmeyi düşündürür (92:20). Bu bağlantı sosyal bir eşik kurar; odaktaki kişiyi gerçek anlamda yabancı, hane üyesi veya soy bağıyla tanımlama kapsamına taşımaz.
+
+## Yolun ve Zamanın Yönü
+
+Uzaklaştırılmanın bu okumadaki katkısı, kişiyi tehlikeden çıkarıp güvenli bir hatta yönlendiren geçişi görünür kılmasıdır. {ar:ٱلْهُدَىٰ, tr:el-hüdâ, gloss:hidayet/yol gösterme} kelimesinin yol gösterme anlamı (92:12), {ar:يُجَنَّبُهَا, tr:yücannebuhā, gloss:ondan uzak tutulur}nın zarardan uzaklaştırma hareketine güvenli bir kontur verir. {ar:ٱلْأَتْقَى, tr:el-etkā, gloss:en çok sakınan}nın koruyucu öznesi aynı zeminde sert inişte veya toynağındaki ağrı yüzünden adımını sakınan bir hayvan görüntüsüyle buluşur. Böylece korunma dikkatle yönlendirilen bir geçiş, ayağını sert zeminden koruyan bir adım gibi duyulur. Zor bir iniş ya da aşağı düşen karşı rota (92:12), güvenli konturun neden arandığını belirginleştiren ihtiyatlı karşı görüntüdür; bu bağlantının katkısı kesin bir yol öğretisi kurmak değil, geçişin zeminini görünür kılmaktır. İnsan olan {ar:ٱلْأَتْقَى, tr:el-etkā, gloss:en çok sakınan}yı hayvan diye adlandıran bir okuma bu bağlantının kapsamına girmez.
+
+Bu zamansal görüntünün katkısı, önceki etkin öz-korumayı sonradan vaat edilen edilgen tamamlanmaya bağlamaktır. {ar:ٱلْأُولَىٰ, tr:el-ûlâ, gloss:ilk/önceki} ile {ar:ٱلْءَاخِرَةِ, tr:el-âhire, gloss:sonra olan} birlikte anıldığında (92:13), {ar:ٱلْأَتْقَى, tr:el-etkā, gloss:en çok sakınan}nın önce etkin bir öz-koruma göstermesi, {ar:سَيُجَنَّبُهَا, tr:seyücennebühâ, gloss:ondan uzak tutulacaktır}nın ise bu çizginin ilerideki edilgen tamamlanmasını bildirmesi gibi bir yörünge açılır. İlk aşamadaki sakınma ile sonraki uzaklaştırma aynı koruyucu hareketin iki zamanına bağlanır ve kurtuluş uzak bir sonucun gecikmesi gibi hissedilir. (92:13) içindeki bu çift ilk ve son alanların egemenliğini de anabilir; bu alternatif, süreç okumasını açık bir bağlamsal imkân olarak tutar. Her iki durumda da gelecek vaadi ve en çok sakınanı korunan özne yapan yapı yerinde kalır.
+
+Bu yön görüntüsünün katkısı, Ateş'ten uzak tutulmayı güvenli bir hedefe dönük hareket olarak hissettirmesidir. {ar:ٱبْتِغَاءَ, tr:ibtigâ, gloss:arayarak} arama ve isteme yönünü, {ar:وَجْهِ, tr:vech, gloss:yüz/yön} seçilen yüzü veya istikameti, {ar:رَبِّهِ, tr:Rabbihî, gloss:Rabbinin} yetiştirici bakımını, {ar:ٱلْأَعْلَىٰ, tr:el-a‘lâ, gloss:yüce} ise yatay uzaklaşmaya eklenen yükselme boyutunu taşır (92:20). Bu sözler {ar:يُجَنَّبُهَا, tr:yücannebuhā, gloss:ondan uzak tutulur}nın yana alma hareketiyle buluşunca, korunan kişinin amaçsız bir kaçışla değil güvenli bir yöne bakarak ilerlediği düşünülür. (92:20) içindeki yönlü arayış burada pozitif istikameti sağlar; odak fiilinin Ateş'ten uzaklaşmayı bildiren asli hareketi bu temas içinde korunur.
+
+Bu ayrışma görüntüsünün katkısı, korunmayı farklı sonuçlara açılan yollar içindeki belirli bir güvenli uç olarak göstermesidir. {ar:إِنَّ سَعْيَكُمْ لَشَتَّىٰ, tr:inne sa'yekum leşettâ, gloss:çabalarınız gerçekten ayrıdır} ifadesiyle birlikte (92:4), en çok sakınan farklı rotalara ve sonlara ayrılan düzenin korunmuş ucunda görünür. {ar:يُجَنَّبُهَا, tr:yücannebuhā, gloss:ondan uzak tutulur} bir kişiyi tehditten yana çekip uzaklaştırır; {ar:ٱلْأَتْقَى, tr:el-etkā, gloss:en çok sakınan} ise yanlış davranıştan kendini koruyan kişiyi gösterir. Edilgen yapı yönü kişinin ilanına değil, sonucunda güvenli yana alınmasına bağlar. Amaçlı hareket ve dağılma birlikte düşünüldüğünde ayrışma, yönleri ve mesafeleri olan bir rota düzeni gibi duyulur (92:4).
+
+Bu rota düzeninin maddi katkısı, en çok sakınanı tüketici parkurun içinde yarışan bir galipten ziyade güvenli yanda tutulan bir yedek koşucu olarak görünür kılmasıdır. {ar:يُجَنَّبُهَا, tr:yücannebuhā, gloss:ondan uzak tutulur}nın yanında yönlendirilerek götürülen hayvan veya tutsak kullanımı, {ar:ٱلْأَتْقَى, tr:el-etkā, gloss:en çok sakınan}nın sert zeminde hafifçe topallayan ve toynak ağrısından çekinerek yürüyen figürüyle buluşur. Amaçlı yarışan hareket (92:4), paylara bölünen tüketim (92:7) ve Ateş'le temas eden koşu (92:15) aynı parkuru kurar. Bu parkurda rekabetin, kaynak tüketiminin ve yakıcı sonucun içine sürülmeyen koşucu kontrollü adımlarla güvenli yanda kalır. Yarış, toynak ve paylaştırma görüntüleri Ateş'ten uzak tutulma anlamına eklenen analojilerdir; {ar:ٱلْأَتْقَى, tr:el-etkā, gloss:en çok sakınan}nın doğrudan hayvan topallığıyla tanımlanması bu bağlantının kapsamı değildir.
+
+## Verilenin Yenilenmesi
+
+Önceki eylem dizisinin katkısı, {ar:ٱلْأَتْقَى, tr:el-etkā, gloss:en çok sakınan}yı açıklanmamış durağan bir derece değil, oluşmuş bir korunma tarihini taşıyan özne olarak göstermesidir (92:5, 92:6, 92:7). {ar:وَسَيُجَنَّبُهَا, tr:ve seyücennebuhâ, gloss:ve ondan uzak tutulacaktır}nın edilgenliği, önceki etkin fiillerin insan eylemini, Ateş'ten yana alınmanın ise insan hakkında gerçekleşen sonucu kurar. Verme bu tarihin ilk adımını, aktif sakınma yoğunlaşmış yönelişi, doğrulama eylem içinde gerçekleşen pratiği, kolaylaştırılan yol da bu etkin diziden edilgen sonuca geçişi taşır (92:5, 92:6, 92:7). Böylece verilmiş, yaşanmış ve doğrulanmış yöneliş, sonunda dışarıdan tamamlanan bir güvenlik sonucuna ulaşmış gibi görünür. Bu bağlantı ölçülü bir okuma olarak kalır: önceki eylemler sonucu zorunlu kılan bir nedensellik kurmaz, daha gevşek bir ödül dizisine de açık bırakır. Olağan Ateş'ten uzak tutulma vaadi bu tamamlanmayla güçlenir.
+
+Bu maddi temasın katkısı, dışarı verilen mal ile verende gerçekleşen yenilenmeyi aynı koruyucu hareket içinde görünür kılmasıdır. {ar:يُؤْتِي, tr:yu’tî, gloss:verir}, {ar:مَالَهُ, tr:mâlehû, gloss:malını} ve {ar:يَتَزَكَّىٰ, tr:yetezekkâ, gloss:arınır/gelişir} birlikte çalışır (92:18): değer kişinin sınırından dışarı geçer, eldeki mal bu geçişe gerçek bir maliyet verir, arınma-gelişme ise verende ters yönde meydana gelen içsel yenilenmeyi gösterir. {ar:يُجَنَّبُهَا, tr:yücannebuhā, gloss:ondan uzak tutulur} zararlı etkiden ayırmayı, {ar:ٱلْأَتْقَى, tr:el-etkā, gloss:en çok sakınan} ise zarar ile kişi arasına koruyucu engel koymayı taşırken, verilen mal kaybolan bir birikimden çok dönüşebilen bir kaynağın salıverilmesi gibi görünür. Kıtlıkta sütü azalan bir sürünün yanında kökü kalan, yaz boyunca dayanıp yeniden gelişen küçük bir bitki veya çalı görüntüsü bu teması somutlaştırır (92:7, 92:18): kaynak verim ve artış döngüsünde korunur. Bu ekolojik-ekonomik analoji, söz konusu süt, bitki veya büyüme imgelerini kelimelerin doğrudan karşılığı olarak sunmaz; gerçek bir sürü sahnesi kurmadan cömertliği rezervi tüketen kayıp yerine üretken bir yenilenme olarak duyurur.
+
+Bu sosyal temasın katkısı, korunmayı insanî bir alacak-borç yakınlığından ayıran bir kalkan olarak göstermesidir. {ar:عِندَهُ, tr:indehû, gloss:yanında} yakınında hak ileri sürebilecek bir alacaklıyı, {ar:نِعْمَةٍ, tr:nimetin, gloss:lütuf} geri ödenmesi beklenebilecek bir faydayı, {ar:تُجْزَىٰ, tr:tüczâ, gloss:karşılığı verilir} ise iyiliğin karşılığının ödenmesi döngüsünü duyurur (92:19). Bu kelimeler {ar:يُجَنَّبُهَا, tr:yücannebuhā, gloss:ondan uzak tutulur}nın yanına alma alanıyla ve {ar:ٱلْأَتْقَى, tr:el-etkā, gloss:en çok sakınan}nın kişi ile zarar arasına engel koyan korumasıyla birleşince, güvenli tarafın yanında hak ileri süren insanî bir alacaklı bulunmaz. Çevredeki kapsayıcı ret bu perdenin arkasında hak ileri sürecek insan kaynaklarını kapatır; lütuf ve karşılık sözleri iyiliği alacak-borç çevriminden çıkarır. Bu toplumsal serbestleşme Ateş'ten uzak tutulma cümlesine eşlik eden bağlamsal bir görüntüdür; (92:19) içindeki aynı çevre, yalnızca niyetin karşılıksızlığını açıklayan daha sade bir okuma olarak da kalabilir.
+
+## Hoşnutluğa Açılan Sonuç
+
+Son hareketin katkısı, korunmayı {ar:يَرْضَىٰ, tr:yerdâ, gloss:razı olur} kelimesinin geleceğe açılan kabul ve hoşnutluk haliyle tamamlanan bir çizgi olarak duyurmaktır (92:21). {ar:سَيُجَنَّبُهَا, tr:seyücennebühâ, gloss:ondan uzak tutulacaktır} tehlike ilişkisini kesen başlangıç hareketini, {ar:ٱلْأَتْقَى, tr:el-etkā, gloss:en çok sakınan} ise bu sürecin kişisini sabit tutar; ardından gelen hoşnutluk dikkatin güvenli bir sükûnete bırakılması gibi görünür. Bu sıra içinde savunma, razı oluşa geçen yolu açar. İki gelecek cümlesi paralel ve nedensel olarak bağımsız da okunabilir; hoşnutluğa açılan sıra, (92:21) içindeki bağlamsal tamamlamayı korurken asli Ateş'ten uzak tutulma vaadini yerinde bırakır.
+
+</editorial_prose>

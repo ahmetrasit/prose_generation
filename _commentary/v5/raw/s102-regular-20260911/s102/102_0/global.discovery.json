@@ -1,0 +1,484 @@
+{
+  "schema_version": "commentary-v5-scope-discovery-v1",
+  "ayah_ref": "102:0",
+  "lane": "global",
+  "coverage_complete": true,
+  "candidate_decisions": [],
+  "findings": [
+    {
+      "finding_ref": "global:fatiha-address-threshold",
+      "origin_candidate_id": null,
+      "represented_candidate_ids": [],
+      "title": "Fatiha bağlamında adlandırılmış hitabın eşiği",
+      "claim": "1:2, 1:5, 1:6 ve 1:7'nin art arda getirdiği övgü, ibadet ve yardım, hidayet isteği ve yol sınırı, بِسْمِ'deki adı bu hitabın eşiği olarak yeniden işitir.",
+      "mechanism": "Odak taşıyıcısı سْمِ adlandırma işlevini taşır; 1:2'nin övgü ve rablik, 1:5'in ibadet ve yardım, 1:6'nın yol isteği, 1:7'nin nimet ve sınır içeren ifadeleri birbirinden bağımsız bağlam tetikleyicileri olarak bu ada döner. Bu temas, açılış adını yalnız bir tanıtım olmaktan çıkarıp övgünün hitaba, hitabın isteğe, isteğin de sınırları belirlenmiş bir yola açıldığı çerçeve haline getirir.",
+      "reader_payoff": "Okur, kısa açılışı bir isim verme parçası olarak korurken onun ardından gelen övgü, yönelme ve yol istemini başlatan adlandırılmış hitap eşiğini de görür.",
+      "containment": "Bu ilişki basmalanın birincil okumasını değiştirmez; Fatiha'nın bütünü için bir tez kurmaz ve hedef ayetlerdeki morfolojik ayrıntıları verilmemişken onları odak dalı olarak sunmaz.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": ["accepted", "medium", "qualified", "strong"],
+        "reason": "B005 kabul edilmiş, B002 nitelendirilmiş bir odak dalıdır; bağlantıların odak yönü medium/strong etiketleri taşır. Bunlar kaynak yönü adaylık etiketleridir, odak kararı değildir; hedef Arapçası mevcutken hedef morfolojisi mevcut değildir."
+      },
+      "support_ids": [],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000745/B005",
+          "facet_id": "F001",
+          "branch_gloss": "ad, adlandırma ve ad ya da nitelik bakımından denklik",
+          "facet_statement": "Ad, bir varlığı tanıtan ve ondan söz etmeyi sağlayan söz veya anlamdır.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["1:1:1:2"],
+          "trigger_refs": [
+            "1:2",
+            "conn_ev_cb208b44ba2234508a4c",
+            "1:5",
+            "conn_ev_04d35d1366880e4c198c",
+            "1:6",
+            "conn_ev_7b59151ee7dc56197cd3",
+            "1:7",
+            "conn_ev_83de9e02ff9418f1cada"
+          ],
+          "focus_return_refs": ["1:1:1:2"],
+          "carrier": "سْمِ, açılışta sonraki sözün kendisiyle ilişkileneceği adı tanıtan isimdir.",
+          "independent_trigger": "1:2, 1:5, 1:6 ve 1:7'nin supplied target metinleri sırasıyla övgü-rablik, ibadet-yardım, doğru yol isteği ve nimetlendirilmiş yol ile sınırını kurar.",
+          "activation": "Adlandırma taşıyıcısı, bu ardışık bağlamların her birinde aynı hitabın hangi tanınmış ad altında ilerlediğini belirler; böylece basmalanın açılış adı, devam eden sözün yöneldiği ve isteğin kurulduğu çerçeveyle temas eder.",
+          "resulting_reading": "102:0, Allah'ın ve rahmetin adıyla başlayan birincil açılış olarak kalırken, dış bağlamın açtığı named-address eşiği üzerinden övgüden hidayet isteğine uzanan bir giriş hareketi de kazanır.",
+          "boundary": "Bu aktivasyon yalnızca adlandırma ile supplied Fatiha bağlantılarının ilişkisini taşır; Fatiha'nın tüm yapısını veya hedef kelimelerin odak morfolojisini iddia etmez."
+        },
+        {
+          "branch_ref": "root_000047/B002",
+          "facet_id": "F001",
+          "branch_gloss": "Yaratıcıya özgü ad ile seslenme ve ant biçimleri",
+          "facet_statement": "Dalın merkezinde, Yaratıcıyı başkalarından ayırarak gösteren ve yalnız ona özgü sayılan özel ad bulunur.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["1:1:2:1"],
+          "trigger_refs": ["1:5", "conn_ev_04d35d1366880e4c198c"],
+          "focus_return_refs": ["1:1:2:1"],
+          "carrier": "ٱللَّهِ, odak yüzeyinde Yaratıcıyı ayıran özel addır.",
+          "independent_trigger": "1:5'nin supplied metni hitabı tekil ibadet ve yardım isteme eylemine yöneltir.",
+          "activation": "Özel ad taşıyıcısı, 1:5'teki tekil ibadet ve yardım isteme hitabıyla birleşince yalnız tanıtılan ad değil, sonraki yönelişin tanınmış muhatabı olarak iş görür.",
+          "resulting_reading": "Allah adı, açılışta verilen isim olmanın yanında Fatiha'nın ibadet ve yardım hitabının geri döndüğü adlandırılmış muhatap olarak belirginleşir.",
+          "boundary": "Buradaki temas odak ifadesine doğrudan bir seslenme biçimi yüklemez; yalnızca dış bağlamdaki hitabın özel adla ilişkisini kaydeder."
+        }
+      ],
+      "connection_refs": [
+        "conn_dc5a5f2da1c89c1d480d",
+        "conn_84ac0c14382e4f081c6d",
+        "conn_c0cfd53ad4f993040364",
+        "conn_2418fbe94eb889bd084f"
+      ],
+      "context_refs": ["1:2", "1:5", "1:6", "1:7"],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:fatiha-mercy-accountability",
+      "origin_candidate_id": null,
+      "represented_candidate_ids": [],
+      "title": "Merhamet adlarının hesap ve nimet yolu içindeki çerçevesi",
+      "claim": "Fatiha'nın 1:4'teki hesap ve mülkiyet, 1:7'deki nimetlendirilmiş yol ve sınır bağlamı, بِسْمِ الرَّحْمَٰنِ الرَّحِيمِ'deki merhameti hem sorumluluğu kuşatan hem de iyiliğe açılan etkin bir ilişki olarak duyurur.",
+      "mechanism": "Odak taşıyıcısı olan iki merhamet sıfatı, iyiliğe yönelen etkin sonucu ve Tanrı hakkında genişleyen merhamet alanını taşır. 1:4'ün hüküm günü, 1:7'nin nimetlendirilmişler ile öfkelenmişler ve sapmışlar arasındaki yolu, merhamet adlarını hesap ve yön ayrımının önüne yerleştiren bağımsız tetikleyicilerdir.",
+      "reader_payoff": "Merhamet, yalnız yumuşak bir niteleme olarak değil, hesapla karşılaşan ve doğru yola erişme talebini taşıyan ilişkisel bir çerçeve olarak görünür.",
+      "containment": "Bu okuma merhameti hesabı ortadan kaldıran bir güvenceye dönüştürmez; yalnızca supplied Fatiha bağlantılarında merhamet adlarının hesap ve nimetlendirme bağlamına nasıl döndüğünü gösterir.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": ["accepted", "medium"],
+        "reason": "B001 kabul edilmiş bir daldır; odak yönündeki iki bağlantı medium etiketi taşır ve ters yöndeki kayıtlar daha sınırlı katkı bildirir. Hedef Arapçası verilmiş, hedef morfolojisi verilmemiştir; bu yüzden ilişki nitelendirilmiştir."
+      },
+      "support_ids": [],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000552/B001",
+          "facet_id": "F002",
+          "branch_gloss": "acıma duygusuyla esirgeyip iyilik etme",
+          "facet_statement": "Bu iç yöneliş, acınan kişiyi esirgemeyi ve ona iyilikte bulunmayı gerektiren etkin bir sonuç taşır.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["1:1:3:2", "1:1:4:2"],
+          "trigger_refs": [
+            "1:4",
+            "conn_ev_d82d9cea41598dd42c43",
+            "1:7",
+            "conn_ev_83de9e02ff9418f1cada"
+          ],
+          "focus_return_refs": ["1:1:3:2", "1:1:4:2"],
+          "carrier": "الرَّحْمَٰنِ الرَّحِيمِ, merhametin iç yönelişten esirgemeye ve iyiliğe ulaşan etkin sonucunu taşıyan iki odak sıfatıdır.",
+          "independent_trigger": "1:4'ün hüküm günü ve 1:7'nin nimetlendirilmiş yol ile onun karşısındaki sınırları belirleyen supplied metinleri.",
+          "activation": "Merhamet taşıyıcısı, hesap günü ve nimetlendirilmiş yol ayrımıyla temas edince iyilik, yalnız başlangıçtaki duygu olarak değil, yönü ve sonucu olan bir ilişki olarak okunur.",
+          "resulting_reading": "Açılış merhameti, hesapla karşılaşan kişiye yön veren ve nimetlendirilmiş yolun niteliğini görünür kılan etkin iyilik çerçevesi olarak derinleşir.",
+          "boundary": "Bu, hesap hükmünün sonucunu belirlemez ve 1:7'deki tarafların odak sıfatlarına birebir morfolojik eşleşmesini iddia etmez."
+        },
+        {
+          "branch_ref": "root_000552/B001",
+          "facet_id": "F005",
+          "branch_gloss": "acıma duygusuyla esirgeyip iyilik etme",
+          "facet_statement": "Tanrı hakkında kullanıldığında esirgemenin genişliği ve yaratılmışlara iyilik olarak ulaşması belirginleşir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["1:1:3:2", "1:1:4:2"],
+          "trigger_refs": [
+            "1:4",
+            "conn_ev_d82d9cea41598dd42c43",
+            "1:7",
+            "conn_ev_83de9e02ff9418f1cada"
+          ],
+          "focus_return_refs": ["1:1:3:2", "1:1:4:2"],
+          "carrier": "الرَّحْمَٰنِ الرَّحِيمِ, Tanrı hakkında kullanılan iki merhamet adıdır.",
+          "independent_trigger": "1:4'ün hesap ve 1:7'nin nimetlendirme ile yol sınırı bağlamı.",
+          "activation": "İlahi merhamet adları, hesabı ve nimetlendirilmiş yolu aynı supplied bağlam dizisinde karşılayınca merhametin genişliği, yönsüz bir genellik değil, yaratılmışlara ulaşan ve yolu ayıran bir çerçeve olur.",
+          "resulting_reading": "İki merhamet adı, açılışta sorumluluğun dışına taşan bir alan değil, sorumluluk ve nimetlendirme temaslarını birlikte tutan geniş bir ilahi iyilik alanı kurar.",
+          "boundary": "Bu facet yalnızca merhametin Tanrı hakkındaki genişlik baskısını taşır; bütün Fatiha için nihai bir ilke veya hesap sonucuna dair hüküm kurmaz."
+        }
+      ],
+      "connection_refs": [
+        "conn_87f6078de0887b6ea567",
+        "conn_2418fbe94eb889bd084f"
+      ],
+      "context_refs": ["1:4", "1:7"],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:invocation-by-name",
+      "origin_candidate_id": null,
+      "represented_candidate_ids": [],
+      "title": "Ad üzerinden çağırma ve hatırlama",
+      "claim": "7:180, 17:110 ve 73:8'in adlarla çağırma ve Rabbin adını hatırlama eylemlerini açıkça kurması, بِسْمِ'deki adı yaklaşmanın ve yönelişin etkin aracı olarak görünür kılar.",
+      "mechanism": "Focus سْمِ adlandırma işlevini, focus ٱللَّهِ ise Yaratıcıya özgü özel adı taşır. 7:180'de adlarla çağırma, 17:110'da Allah veya Rahman diye çağırma, 73:8'de Rabbin adını hatırlama supplied hedefleri, adlandırmanın bir referans vermenin ötesinde hitabı kurduğunu gösteren ayrı tetikleyicilerdir.",
+      "reader_payoff": "Okur, açılışın kısa ad ifadesinde bir tanımın yanında adı anarak yönelme biçimini de fark eder.",
+      "containment": "Odak yüzeyindeki بِاسْمِ yapısı doğrudan seslenme kalıbı sayılmıyor; dış ayetler yalnız adın çağırma ve hatırlama ile birleşebilen işlevini açıyor. Her ad kullanımı için aynı işlev ileri sürülmüyor.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": ["accepted", "medium", "qualified"],
+        "reason": "B005 kabul edilmiş, B002 nitelendirilmiş odak dallarıdır; üç odak yönü bağlantısı medium etiketlidir. Exact target Arabic doğrudan ad ve çağırma eylemlerini taşır, fakat bağlantı kayıtları hedef morfolojisini sağlamaz."
+      },
+      "support_ids": [],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000745/B005",
+          "facet_id": "F001",
+          "branch_gloss": "ad, adlandırma ve ad ya da nitelik bakımından denklik",
+          "facet_statement": "Ad, bir varlığı tanıtan ve ondan söz etmeyi sağlayan söz veya anlamdır.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["1:1:1:2"],
+          "trigger_refs": [
+            "7:180",
+            "conn_ev_7d196d5cf8b8f57b60a0",
+            "17:110",
+            "conn_ev_d0a90f55529c14361217",
+            "73:8",
+            "conn_ev_cbf5830ab2c148df6775"
+          ],
+          "focus_return_refs": ["1:1:1:2"],
+          "carrier": "سْمِ, bir varlığı tanıtan ve ondan söz etmeyi sağlayan odak adlandırmasıdır.",
+          "independent_trigger": "7:180'in adlarla çağırmayı, 17:110'un Allah veya Rahman diye çağırmayı, 73:8'in Rabbin adını hatırlamayı supplied biçimde kurması.",
+          "activation": "Ad taşıyıcısı, bu üç dış bağlamdaki çağırma ve hatırlama eylemleriyle temas ederek بِسْمِ ifadesinin ad üzerinden yaklaşma yolu açtığını görünür kılar.",
+          "resulting_reading": "Açılış, Allah'ın adıyla başlayan birincil ifade olarak kalırken, adın anılmasıyla söze yönelme ve ilişki kurma eşiği olarak da okunur.",
+          "boundary": "Bu, adlandırma dalının çağırma bağlamlarında açılan ilişkisini taşır; focus yapısına supplied dış ayetlerin doğrudan fiil biçimlerini taşımaz."
+        },
+        {
+          "branch_ref": "root_000047/B002",
+          "facet_id": "F001",
+          "branch_gloss": "Yaratıcıya özgü ad ile seslenme ve ant biçimleri",
+          "facet_statement": "Dalın merkezinde, Yaratıcıyı başkalarından ayırarak gösteren ve yalnız ona özgü sayılan özel ad bulunur.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["1:1:2:1"],
+          "trigger_refs": [
+            "7:180",
+            "conn_ev_7d196d5cf8b8f57b60a0",
+            "17:110",
+            "conn_ev_d0a90f55529c14361217",
+            "73:8",
+            "conn_ev_cbf5830ab2c148df6775"
+          ],
+          "focus_return_refs": ["1:1:2:1"],
+          "carrier": "ٱللَّهِ, Yaratıcıyı başkalarından ayırarak gösteren odak özel adıdır.",
+          "independent_trigger": "Supplied hedeflerde Allah, Rahman veya Rabbin adıyla çağırma ve hatırlama eylemlerinin kurulması.",
+          "activation": "Özel ad, dış bağlamdaki çağırma biçimleriyle birleşince basmaladaki Allah adını salt tanımlayıcı bir isim olmaktan çıkarıp yönelişin belirlenmiş muhatabı olarak görünür kılar.",
+          "resulting_reading": "Allah adı, rahmet adlarıyla birlikte anılan ve anılmasıyla hitabı başlatan özel ad olarak belirginleşir.",
+          "boundary": "Focus kelimesinin doğrudan bir dua veya seslenme çekimi olduğu ileri sürülmez; yalnız özel adın çağırma bağlamındaki ilişkisi korunur."
+        }
+      ],
+      "connection_refs": [
+        "conn_fd960870d2b9a91a2e16",
+        "conn_7523d79bbedae3510ad1",
+        "conn_23834cecff90a3ce1c9b"
+      ],
+      "context_refs": ["7:180", "17:110", "73:8"],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:message-frame",
+      "origin_candidate_id": null,
+      "represented_candidate_ids": [],
+      "title": "Mektup içindeki formül çerçevesi",
+      "claim": "27:30'da aynı tam formülün Süleyman'ın mektubundaki sözün içine yerleşmesi, بِسْمِ'deki adlandırmayı iletilen sözün çerçevesini kuran bir eylem olarak açar.",
+      "mechanism": "Focus سْمِ adı ve ٱللَّهِ özel adı taşır; 27:30'un supplied metni, gönderici tanıtımından sonra aynı بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ formülünü mektup bağlamına yerleştirir. Aynı yüzeyin farklı bir metin eylemi içinde kullanılması, açılış adını bir sonraki sözün hangi ad ve rahmet çerçevesinde iletildiğini belirleyen bağlantıya dönüştürür.",
+      "reader_payoff": "Okur, kısa formülü yalnız başlangıçta duran bir ibare değil, ardından gelen sözün çerçevesini kurabilen bir adlandırma hareketi olarak görür.",
+      "containment": "Bu bağ, her basmalanın mektup imzası olduğunu veya yazarlık iddiasını kanıtlamaz; yalnız supplied 27:30 tekrarının focus formuna verdiği çerçeve etkisini kaydeder.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": ["accepted", "qualified", "strong"],
+        "reason": "B005 kabul edilmiş, B002 nitelendirilmiş odak dallarıdır; 27:30 bağlantısının odak yönü strong etiketlidir. Exact target Arabic tam formülü sağlar, ancak hedef morfolojisi supplied değildir."
+      },
+      "support_ids": [],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000745/B005",
+          "facet_id": "F001",
+          "branch_gloss": "ad, adlandırma ve ad ya da nitelik bakımından denklik",
+          "facet_statement": "Ad, bir varlığı tanıtan ve ondan söz etmeyi sağlayan söz veya anlamdır.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["1:1:1:2"],
+          "trigger_refs": ["27:30", "conn_ev_d2d6bf239a114dd38d7c"],
+          "focus_return_refs": ["1:1:1:2"],
+          "carrier": "سْمِ, ardından gelecek sözü tanınmış bir ad altında başlatan odak adıdır.",
+          "independent_trigger": "27:30 supplied metninde tam basmala formülünün Süleyman'ın mektubundaki gönderici tanıtımından sonra yer alması.",
+          "activation": "Aynı adlandırma formülü bir mektubun içine yerleşince, focus'taki ad sözcüğü yalnız bir isim göstermeyi değil, ardından gelen iletinin çerçevesini kurmayı da görünür kılar.",
+          "resulting_reading": "102:0, Allah ve rahmet adlarıyla başlayan birincil açılış olarak kalırken, sözün hangi ad altında yürüdüğünü belirleyen bir metin çerçevesi işlevi de kazanır.",
+          "boundary": "Mektup bağlamındaki çerçeve işlevi focus'a taşınır; mektup türü, yazarlık veya bütün basmala kullanımları hakkında genelleme yapılmaz."
+        },
+        {
+          "branch_ref": "root_000047/B002",
+          "facet_id": "F001",
+          "branch_gloss": "Yaratıcıya özgü ad ile seslenme ve ant biçimleri",
+          "facet_statement": "Dalın merkezinde, Yaratıcıyı başkalarından ayırarak gösteren ve yalnız ona özgü sayılan özel ad bulunur.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["1:1:2:1"],
+          "trigger_refs": ["27:30", "conn_ev_d2d6bf239a114dd38d7c"],
+          "focus_return_refs": ["1:1:2:1"],
+          "carrier": "ٱللَّهِ, mektuptaki sözün altında gösterilen Yaratıcıya özgü odak adıdır.",
+          "independent_trigger": "27:30'da mektubun tam formülle Allah, Rahman ve Rahim adları altında çerçevelenmesi.",
+          "activation": "Özel ad, mektup içindeki tam formülle temas ederek gönderilen sözün adlandırılmış kaynağa bağlandığını görünür kılar.",
+          "resulting_reading": "Allah adı, başlangıç formülünde yalnız referans verilen ad değil, iletinin ilişkilendirildiği özel ad olarak duyulur.",
+          "boundary": "Bu, focus formunun mektup içindeki aynı kullanımla kazandığı çerçeve ilişkisini taşır; formun kendisine doğrudan mektup anlamı eklemez."
+        }
+      ],
+      "connection_refs": ["conn_b330351f72f7147253db"],
+      "context_refs": ["27:30"],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:worship-boundary",
+      "origin_candidate_id": null,
+      "represented_candidate_ids": [],
+      "title": "İbadet nesnesi çevresinde ilahî ad sınırı",
+      "claim": "43:45'teki Rahman'dan başka tapınılan varlıklar bulunup bulunmadığını soran sınır, basmaladaki ilahî adlandırmayı rakip tapınma nesnelerinden ayrılan bir yöneliş ekseni olarak genişletir.",
+      "mechanism": "Focus ٱللَّهِ özel adını ve tapınılan varlık anlamına açılabilen dalı taşır. 43:45'in supplied metni Rahman'ın dışında tapınılan varlıkları açıkça karşıt kutup olarak kurar; bu bağımsız ibadet sınırı focus adlandırmasıyla temas ederek adın yalnız tanıtıcı değil, ibadet yönünün ayrıldığı eksen olduğunu gösterir.",
+      "reader_payoff": "İlahî adın öne alınması, geniş bir isimlendirme olarak kalırken hangi yönelişin ilahî ada döndüğünü ve hangi nesnelerin onun karşısında kaldığını da görünür kılar.",
+      "containment": "Basmala'nın kendi yüzeyinde polemik bir ibadet cümlesi bulunduğu ileri sürülmez; sınır 43:45'teki dış tetikleyiciden gelir ve focus'un birincil adlandırmasını koruyarak ona eşlik eder.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": ["accepted", "qualified", "strong"],
+        "reason": "B001 kabul edilmiş, B002 nitelendirilmiş odak dallarıdır; 43:45 bağlantısı strong odak-yönü etiketi ve doğrudan rakip ibadet notu taşır. Hedef metin mevcut, hedef morfolojisi mevcut değildir."
+      },
+      "support_ids": [],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000047/B001",
+          "facet_id": "F001",
+          "branch_gloss": "tapınma ve tapınılan varlık",
+          "facet_statement": "Temel eylem, bir varlığa tapınmak ve kişinin kendini bu tapınmaya vermesidir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["1:1:2:1"],
+          "trigger_refs": ["43:45", "conn_ev_ef9e21ceafa67bddc0af"] ,
+          "focus_return_refs": ["1:1:2:1"],
+          "carrier": "ٱللَّهِ, tapınma yönünün adlandırılmış ilahî muhatabını taşıyan focus formudur.",
+          "independent_trigger": "43:45'in supplied metninde Rahman'ın dışında tapınılan varlıkların karşıt seçenek olarak kurulması.",
+          "activation": "Dış ayetteki açık tapınma eylemi, Allah adının gösterdiği ilahî muhatapla temas ederek ibadet anlam alanının yöneldiği ve karşıtlarından ayrıldığı sınırı görünür kılar.",
+          "resulting_reading": "Açılış adı, rahmet adlarıyla birlikte, tapınma yönünün ayrıldığı ilahî kutbu kuran bir adlandırma olarak da okunur.",
+          "boundary": "Bu facet focus'ta bir tapınma fiili bulunduğunu söylemez; fiil ve karşıt nesne dış tetikleyicinin supplied içeriğidir."
+        },
+        {
+          "branch_ref": "root_000047/B001",
+          "facet_id": "F002",
+          "branch_gloss": "tapınma ve tapınılan varlık",
+          "facet_statement": "Eylemden türeyen varlık anlamı, kendisine tapınılan varlığı veya tapınma konusu sayılan nesneyi gösterir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["1:1:2:1"],
+          "trigger_refs": ["43:45", "conn_ev_ef9e21ceafa67bddc0af"],
+          "focus_return_refs": ["1:1:2:1"],
+          "carrier": "ٱللَّهِ, tapınılan varlığın adını gösteren focus özel adıdır.",
+          "independent_trigger": "43:45'in Rahman'ın dışında tapınılan varlıklar sorusunu kuran supplied karşıtlığı.",
+          "activation": "Tapınılan varlık karşıtlığı, Allah adının yalnız bir ad değil, ibadet nesnesinin kimliğini belirleyen adlandırma olarak geri dönmesini sağlar.",
+          "resulting_reading": "İlahî isim, rakip tapınma nesneleriyle çevrelenen bir alanda tapınılan varlığın ayırt edici adı olarak belirginleşir.",
+          "boundary": "Burada başka varlıklar hakkında focus'un kendi cümlesinden çıkan bir hüküm değil, 43:45'in dış bağlamda sağladığı sınır ilişkisi taşınır."
+        },
+        {
+          "branch_ref": "root_000047/B002",
+          "facet_id": "F001",
+          "branch_gloss": "Yaratıcıya özgü ad ile seslenme ve ant biçimleri",
+          "facet_statement": "Dalın merkezinde, Yaratıcıyı başkalarından ayırarak gösteren ve yalnız ona özgü sayılan özel ad bulunur.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["1:1:2:1"],
+          "trigger_refs": ["43:45", "conn_ev_ef9e21ceafa67bddc0af"],
+          "focus_return_refs": ["1:1:2:1"],
+          "carrier": "ٱللَّهِ, Yaratıcıyı başkalarından ayıran focus özel adıdır.",
+          "independent_trigger": "43:45'in Rahman'ı diğer tapınılan varlıklarla karşılaştırarak kurduğu supplied sınır.",
+          "activation": "Karşılaştırmalı ibadet sınırı, özel adın ayırt edici işleviyle birleşerek ilahî adın rakip nesnelerden ayrılmış muhatabı gösterdiğini belirginleştirir.",
+          "resulting_reading": "Allah adı, rahmet nitelemeleriyle beraber ibadet yönünün ayırt edildiği özel ad olarak kalır ve bu yönü görünür kılar.",
+          "boundary": "B002'nin seslenme ve antla ilgili diğer facetleri bu aktivasyona taşınmaz; yalnız özel adın ayırt edici çekirdeği kullanılır."
+        }
+      ],
+      "connection_refs": ["conn_8a560236d5b343c5b9f3"],
+      "context_refs": ["43:45"],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:mercy-active-reach",
+      "origin_candidate_id": null,
+      "represented_candidate_ids": [],
+      "title": "Merhametin ilahî taahhüt ve kuşatıcılık olarak genişlemesi",
+      "claim": "6:12'de merhametin ilahî öz-yükümlülük olarak yazılması ve 7:156'da her şeyi kuşatması, بِسْمِ الرَّحْمَٰنِ الرَّحِيمِ'deki çift merhamet adını etkin ve genişleyen bir iyilik alanı olarak açar.",
+      "mechanism": "Focus'un iki merhamet sıfatı esirgeme ve iyiliğe ulaşan etkin sonucu, Tanrı hakkında da genişleyen merhamet alanını taşır. 6:12'nin merhametin ilahî öz-tanım içinde yazıldığını bildirmesi ve 7:156'nın merhameti her şeyi kuşatan bir alan olarak kurması, focus adlarını soyut bir niteleme yerine ulaşma ve kapsama ilişkisine bağlayan bağımsız tetikleyicilerdir.",
+      "reader_payoff": "Çift merhamet, yalnız iki sıfatın tekrarı olarak değil, iyiliğin kendisine yazıldığı ve kapsam kazandığı bir etkinlik olarak duyulur.",
+      "containment": "Bu, merhametin her durumda aynı biçimde gerçekleştiğini veya 6:12 ve 7:156'nın focus formunun bütün anlamını tükettiğini söylemez; yalnız aynı dalın ilahî genişlik facetini supplied dış ifadelerle sınırlar.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": ["accepted", "medium", "strong"],
+        "reason": "B001 kabul edilmiş bir daldır; 6:12 medium, 7:156 strong odak-yönü etiketi taşır. Hedef metinlerde merhamet açıkça görünür, ancak bağlantı kayıtlarında hedef morfolojisi yoktur; bu nedenle ilişki qualified olarak tutulur."
+      },
+      "support_ids": [],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000552/B001",
+          "facet_id": "F002",
+          "branch_gloss": "acıma duygusuyla esirgeyip iyilik etme",
+          "facet_statement": "Bu iç yöneliş, acınan kişiyi esirgemeyi ve ona iyilikte bulunmayı gerektiren etkin bir sonuç taşır.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["1:1:3:2", "1:1:4:2"],
+          "trigger_refs": [
+            "6:12",
+            "conn_ev_11782fd4374e83fd9f2f",
+            "7:156",
+            "conn_ev_cd212348af37962d6958"
+          ],
+          "focus_return_refs": ["1:1:3:2", "1:1:4:2"],
+          "carrier": "الرَّحْمَٰنِ الرَّحِيمِ, iç yönelişten esirgemeye ve iyiliğe geçen etkin merhamet taşıyıcılarıdır.",
+          "independent_trigger": "6:12'nin merhametin Allah'ın üzerine yazıldığını, 7:156'nın ise ilahî merhametin her şeyi kuşattığını bildiren supplied metinleri.",
+          "activation": "İlahî öz-yükümlülük ve kuşatıcılık ifadeleri, focus merhametini duygu halinde bırakmayıp iyiliğin yazılması ve alana yayılması ilişkisine bağlar.",
+          "resulting_reading": "Açılıştaki merhamet, Allah'ın adıyla birlikte anılan etkin bir esirgeme ve iyilik ulaşımı olarak genişler.",
+          "boundary": "Bu, ilahî merhametin bütün sonuçlarını veya supplied ayetlerin tüm öğretilerini focus'a taşımaz; yalnız etkin iyilik facetini korur."
+        },
+        {
+          "branch_ref": "root_000552/B001",
+          "facet_id": "F005",
+          "branch_gloss": "acıma duygusuyla esirgeyip iyilik etme",
+          "facet_statement": "Tanrı hakkında kullanıldığında esirgemenin genişliği ve yaratılmışlara iyilik olarak ulaşması belirginleşir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["1:1:3:2", "1:1:4:2"],
+          "trigger_refs": [
+            "6:12",
+            "conn_ev_11782fd4374e83fd9f2f",
+            "7:156",
+            "conn_ev_cd212348af37962d6958"
+          ],
+          "focus_return_refs": ["1:1:3:2", "1:1:4:2"],
+          "carrier": "الرَّحْمَٰنِ الرَّحِيمِ, Tanrı hakkında kullanılan ve genişleyen ilahî merhamet adlarıdır.",
+          "independent_trigger": "6:12'de merhametin ilahî öz-tanım olarak yazılması ve 7:156'da her şeyi kuşatması.",
+          "activation": "Bu iki dış ifade, Tanrı hakkındaki merhamet adlarını dar bir nitelik olmaktan çıkarıp yaratılmışlara ulaşan kuşatıcı iyilik alanıyla temas ettirir.",
+          "resulting_reading": "Rahman ve Rahim adları, başlangıçta daha geniş bir ilahî iyilik alanının etkin kapsamını taşıyan çerçeve olarak da görünür.",
+          "boundary": "Kuşatıcılık supplied 7:156'nın bağlamından gelir; focus için her türlü sınırsız sonuç veya otomatik kurtuluş iddiası kurulmaz."
+        }
+      ],
+      "connection_refs": [
+        "conn_a4fa9dd2d90a1b745e70",
+        "conn_b9bb045d5f3820e08439"
+      ],
+      "context_refs": ["6:12", "7:156"],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:mercy-refuge",
+      "origin_candidate_id": null,
+      "represented_candidate_ids": [],
+      "title": "Rahman adına sığınma",
+      "claim": "19:18'de Rahman'a sığınma eyleminin kurulması, basmaladaki merhamet adını koruyucu bir ilişkiye açar.",
+      "mechanism": "Focus الرَّحْمَٰنِ الرَّحِيمِ merhamet ve etkin iyilik taşıyıcılarıdır; 19:18'in supplied metni Rahman'ı kendisine sığınılan açık muhatap yapar. Sığınma fiili, merhamet adını soyut bir niteleme olmaktan çıkarıp tehlike karşısında yönelinen koruyucu iyilik ilişkisine bağlar.",
+      "reader_payoff": "Okur, rahmet adlarının aynı zamanda insanın kendini emanet ettiği koruyucu bir muhatabı gösterebildiğini fark eder.",
+      "containment": "Bu, focus basmalasının kendi içinde sığınma fiili taşıdığını söylemez; sığınma hareketi 19:18'deki bağımsız tetikleyicidir ve yalnız merhamet adının bu hareketle kurduğu teması gösterir.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": ["accepted", "medium"],
+        "reason": "B001 kabul edilmiş odak dalıdır; 19:18 bağlantısı medium odak-yönü etiketiyle Rahman'ı sığınmanın muhatabı olarak açıkça bildirir. Hedef morfolojisi yoktur, bu yüzden ilişki qualified tutulur."
+      },
+      "support_ids": [],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000552/B001",
+          "facet_id": "F002",
+          "branch_gloss": "acıma duygusuyla esirgeyip iyilik etme",
+          "facet_statement": "Bu iç yöneliş, acınan kişiyi esirgemeyi ve ona iyilikte bulunmayı gerektiren etkin bir sonuç taşır.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["1:1:3:2", "1:1:4:2"],
+          "trigger_refs": ["19:18", "conn_ev_b7ec148f794c89116d2f"],
+          "focus_return_refs": ["1:1:3:2", "1:1:4:2"],
+          "carrier": "الرَّحْمَٰنِ الرَّحِيمِ, esirgeme ve iyiliğe ulaşan etkin merhameti taşıyan odak sıfatlarıdır.",
+          "independent_trigger": "19:18'in supplied metni Rahman'a sığınma eylemini açıkça kurar.",
+          "activation": "Sığınan kişinin yöneldiği Rahman adı, focus merhametini tehlike karşısında koruma ve iyilik beklenen etkin bir ilişkiyle temas ettirir.",
+          "resulting_reading": "Rahmet adları, açılışın ilahî çerçevesi içinde koruyucu bir muhataba yönelme imgesini de taşır.",
+          "boundary": "Sığınma fiili focus'a eklenmez; 19:18'in dış bağlamından gelen koruyucu ilişki yalnız merhamet adlarına geri döner."
+        }
+      ],
+      "connection_refs": ["conn_8d4d974b0988f117c00b"],
+      "context_refs": ["19:18"],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:mercy-source-descent",
+      "origin_candidate_id": null,
+      "represented_candidate_ids": [],
+      "title": "Merhamet adlarından gelen iniş",
+      "claim": "41:2'de vahyin Rahman ve Rahim'den indirilmesi, basmaladaki çift merhamet adını gelen sözün kaynağını belirleyen bir çerçeve olarak açar.",
+      "mechanism": "Focus'un çift merhamet adı, merhametin iç yakınlık çekirdeğini ve Tanrı hakkında genişleyen kullanımını taşır. 41:2'nin supplied metni تنزيل'i doğrudan Rahman ve Rahim'e bağlar; iniş hareketi, focus'taki merhamet adlarını yalnız niteliğe değil, sözü gönderen kaynağın adlandırılmasına bağlayan bağımsız tetikleyicidir.",
+      "reader_payoff": "Okur, başlangıçta anılan merhamet adlarının bir metnin geliş kaynağını da çerçeveleyebilen adlar olduğunu görür.",
+      "containment": "Bu, bütün vahiy anlayışını focus basmalasına yüklemez ve 41:2'deki iniş yapısını focus'un kendi grameri saymaz; yalnız aynı iki adın supplied kaynak ilişkisiyle yaptığı geri dönüşü kaydeder.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": ["accepted", "medium"],
+        "reason": "B001 kabul edilmiş odak dalıdır; 41:2 odak yönü medium, karşılıklı kayıt strong etiketlidir. Bağlantı hedef Arapçası iki merhamet adını ve iniş çerçevesini sağlarken hedef morfolojisini sağlamaz."
+      },
+      "support_ids": [],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000552/B001",
+          "facet_id": "F001",
+          "branch_gloss": "acıma duygusuyla esirgeyip iyilik etme",
+          "facet_statement": "Bir başkasının durumu karşısında yüreğin yumuşaması, ona acıma ve içten yakınlık duyma çekirdeği oluşturur.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["1:1:3:2", "1:1:4:2"],
+          "trigger_refs": ["41:2", "conn_ev_7558e1258476c6d59aaf"],
+          "focus_return_refs": ["1:1:3:2", "1:1:4:2"],
+          "carrier": "الرَّحْمَٰنِ الرَّحِيمِ, iç yakınlık ve merhamet çekirdeğini taşıyan çift odak adıdır.",
+          "independent_trigger": "41:2'nin supplied metni تنزيل'i Rahman ve Rahim'den gelen bir iniş olarak kurar.",
+          "activation": "Gelen sözün kaynağı olarak anılan iki merhamet adı, focus'taki merhamet çekirdeğini metnin gelişini taşıyan ilahî kaynak ilişkisiyle temas ettirir.",
+          "resulting_reading": "Basmala, merhamet adlarıyla başlayan birincil çerçeve olarak, sözün kaynağını adlandıran bir başlangıç hareketi de kazanır.",
+          "boundary": "İniş hareketi 41:2'nin supplied bağlamına aittir; focus'a ayrı bir vahiy fiili veya kaynak iddiası eklenmez."
+        },
+        {
+          "branch_ref": "root_000552/B001",
+          "facet_id": "F005",
+          "branch_gloss": "acıma duygusuyla esirgeyip iyilik etme",
+          "facet_statement": "Tanrı hakkında kullanıldığında esirgemenin genişliği ve yaratılmışlara iyilik olarak ulaşması belirginleşir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["1:1:3:2", "1:1:4:2"],
+          "trigger_refs": ["41:2", "conn_ev_7558e1258476c6d59aaf"],
+          "focus_return_refs": ["1:1:3:2", "1:1:4:2"],
+          "carrier": "الرَّحْمَٰنِ الرَّحِيمِ, Tanrı hakkındaki genişleyen ilahî merhamet adlarıdır.",
+          "independent_trigger": "41:2'de supplied inişin iki ilahî merhamet adıyla kaynaklandırılması.",
+          "activation": "İnişin kaynağına bağlanan adlar, ilahî merhametin yalnız bir sıfat olarak değil, yaratılmışlara ulaşan sözün kaynağı olarak da iş gördüğünü görünür kılar.",
+          "resulting_reading": "Çift merhamet adı, başlangıçta hem niteleyen hem de gelen sözün kaynağını işaretleyen geniş bir ilahî çerçeve oluşturur.",
+          "boundary": "Bu ilişki 41:2'nin kaynak çerçevesiyle sınırlıdır; merhamet adlarının bütün metinlerde aynı kaynak işlevini taşıdığı ileri sürülmez."
+        }
+      ],
+      "connection_refs": ["conn_827f05470cf0856308a0"],
+      "context_refs": ["41:2"],
+      "semantic_obligation_refs": []
+    }
+  ],
+  "friction_notes": [
+    "candidate_inventory boştur; bu nedenle aday kararı, aday dal/facet dışlaması, aday bağlam dışlaması veya aday semantik yükümlülük kaydı gerekmemiştir.",
+    "focus_word_alignment tamamen çözülmüştür (5/5); HFT payload'ı yoktur (assigned_record_count=0, source_present=false), bu yüzden HFT aktivasyon izi değerlendirilememiştir.",
+    "support_registry ve selected_context_units boştur. Global bulgular yalnız supplied focus yüzeyi, connection_registry hedef Arapçası ve bağlantı kanıtı üzerinden kurulmuş; hedef ayetler için QAC veya morfoloji iddiası yapılmamıştır.",
+    "Fatiha 1:3 bağlantısı odak sıfatlarının tam tekrarını taşır, fakat bağımsız ve maddi bir anlam değişikliği sağlamadığı için ayrı bir global bulguya dönüştürülmemiştir.",
+    "Supplied host-surah reader walks ve cross-run publication incelenmiştir. 102:1-8'deki rekabet, mezar, görme ve nimet-sorgu okumaları bu lane için macro kapsamındadır; global bağlantı inişi bulunmayan ve yalnız bu yürüyüşlerde geçen komşu dallar global bulguya taşınmamıştır.",
+    "Connection source-direction etiketleri ve channel_generated_outputs manifesti keşif adaylığıdır; dış üretilmiş dosyalar okunmamış, kanal adı, olgunluk veya bütün-sure iddiası kurulmamıştır.",
+    "No-value, tekrar niteliğindeki ve yalnızca genel paralellik sunan bağlantılar ayrı bulguya yükseltilmemiştir; bu, supplied semantik değişim eşiğine göre sınırlı bir taramadır ve tüm bağlantılar için negatif envanter değildir."
+  ]
+}

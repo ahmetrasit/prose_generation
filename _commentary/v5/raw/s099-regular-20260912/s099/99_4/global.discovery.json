@@ -1,0 +1,715 @@
+{
+  "schema_version": "commentary-v5-scope-discovery-v1",
+  "ayah_ref": "99:4",
+  "lane": "global",
+  "coverage_complete": true,
+  "candidate_decisions": [
+    {
+      "candidate_id": "cand_db32b820a1958393098f",
+      "decision": "accept",
+      "reason": "تُحَدِّثُnun odak taşıyıcısı olarak oluş, anlatma ve ağır olay basınçları aynı maddi olayın tanıklığa dönüşmesini destekliyor; üç dalın da odakta geçerli taşıyıcısı ve bağımsız bağlantı tetikleyicisi var.",
+      "finding_refs": ["global:event-becomes-testimony"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_32425655320c474f26cd",
+      "decision": "accept",
+      "reason": "B006 ile B001, odak kelimelerinde geçerli taşıyıcılara ve açığa çıkarma ile sınanmış bilgi arasındaki bağımsız global bağlantılara sahip; kanıtın iç yüzü okuması korunuyor.",
+      "finding_refs": ["global:interior-evidence-report"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_8f22ecbcc83edfc7d0cc",
+      "decision": "accept",
+      "reason": "أخبارها taşıyıcısındaki iki tarımsal dal, yumuşak arazi ve ürün payı anlamlarını bağımsız toprak, sınama ve ölçüm bağlantılarıyla bir hesap ilişkisine bağlayabiliyor; her iki dal da korunuyor.",
+      "finding_refs": ["global:agricultural-ledger"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_4363157942f6b415b0dd",
+      "decision": "accept",
+      "reason": "B004ün odak taşıyıcısı, tekil yer kaydının dağılmış kişilere ulaşan ortak ve kişisel anlatıya dönüşmesini; kişisel kayıt ve insanların anlatı konusu olması bağlantılarıyla birlikte taşıyor.",
+      "finding_refs": ["global:distributed-personal-report"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_29c34dd1858d1dec6c41",
+      "decision": "accept",
+      "reason": "Söz/anlatım ile deneyerek iç yüzü tanıma dalları odak taşıyıcılarında bulunuyor ve olayın rapor olarak duyulması ile kapsamlı iç bilgi bağlantıları tarafından bağımsız biçimde tetikleniyor; bu, olayın kendi tanıklığı iddiasından ayrı bir deneyimsel bilgi ilişkisi kuruyor.",
+      "finding_refs": ["global:earth-experiential-witness"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_3565c213fba66debe278",
+      "decision": "narrow",
+      "reason": "B006 odak taşıyıcısı ve açığa çıkarma bağlantıları korunuyor; root_000400/B002 yalnız kaynak görüntüsü olarak adaylanmış ve odak ya da seçilmiş bağlam içinde geçerli bir taşıyıcı oluşumu sunulmamış.",
+      "finding_refs": ["global:disclosure-after-emergence"],
+      "branch_exclusions": [
+        {
+          "branch_ref": "root_000400/B002",
+          "reason": "Dalın odak veya seçilmiş bağlam taşıyıcısı yok; yalnızca bağımsız bir çıkış görüntüsü olarak adaylanmış ve bu nedenle adayın çekirdek B006 açığa çıkarma ilişkisine dahil edilmiyor."
+        }
+      ],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_5a898cc3a8262c482b27",
+      "decision": "narrow",
+      "reason": "B005 odak taşıyıcısında beklenmedik ağır olay çekirdeği ve bunu raporla ilişkilendiren bağlantılar korunuyor; zaman sarsıntısı ve dolaşan söz dalları için odak taşıyıcısı sağlanmadığından bunlar çekirdekten çıkarılıyor.",
+      "finding_refs": ["global:calamity-history-report"],
+      "branch_exclusions": [
+        {
+          "branch_ref": "root_000638/B002",
+          "reason": "Adaylanan zaman sarsıntısı dalı için packet içinde geçerli odak veya seçilmiş bağlam taşıyıcısı yok."
+        },
+        {
+          "branch_ref": "root_001272/B007",
+          "reason": "Adaylanan dolaşan kamusal söz dalı için packet içinde geçerli odak veya seçilmiş bağlam taşıyıcısı yok."
+        }
+      ],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_e5b6f02e710df838263b",
+      "decision": "narrow",
+      "reason": "أخبارها taşıyıcısındaki yumuşak arazi ve ürün-paylaşımı dalları, toprak ve üretim bağlantılarıyla sınırlı bir işlenmiş zemin çekirdeği kuruyor; root_000025/B002 için odak taşıyıcısı verilmediği için bu dal açıkça çıkarılıyor.",
+      "finding_refs": ["global:worked-ground-yield"],
+      "branch_exclusions": [
+        {
+          "branch_ref": "root_000025/B002",
+          "reason": "Bu aday dalı nominated kayıtta bulunuyor ancak odak veya seçilmiş bağlam taşıyıcısı içermiyor; mevcut çekirdek root_000387/B002 ve root_000387/B003 üzerinden korunuyor."
+        }
+      ],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_ba8473ff2862748d33b6",
+      "decision": "accept",
+      "reason": "Retrospektif kayıt, 99:5 ile raporlamanın yetkilendirilmesini ve 99:7-8 ile haberin amellere bağlanan ahlaki arşive dönüşmesini aynı global ilişki içinde açıkça bildiriyor; destek kaydı adayın kendisiyle sınırlı tutuluyor.",
+      "finding_refs": ["global:commissioned-moral-archive"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_8e408efc826a3cdff108",
+      "decision": "represented",
+      "reason": "Aday, cand_db32b820a1958393098f tarafından taşınan aynı olayın oluşumdan anlatıya ve tanıklığa dönüşmesi ilişkisini taşır; kendi B001 ve B003 dalları temsil edilen bulguda korunuyor ve hiçbir dalı dışlanmıyor.",
+      "finding_refs": ["global:event-becomes-testimony"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_8f44f68cac84b8e0cf05",
+      "decision": "narrow",
+      "reason": "Geniş yürüyüşteki aday, B006 üzerinden açığa çıkarılan içeriğin okunabilir açıklamaya dönüşmesi çekirdeğini taşır; root_000400/B002 için geçerli odak ya da seçilmiş bağlam taşıyıcısı bulunmadığından bu kaynak dalı çıkarılır ve aday ayrı bir daraltılmış bulgu olarak korunur.",
+      "finding_refs": ["global:disclosure-after-emergence-wide"],
+      "branch_exclusions": [
+        {
+          "branch_ref": "root_000400/B002",
+          "reason": "Dal yalnız nominated kaynak görüntüsünde mevcut; packet içinde bu dalı taşıyan odak veya seçilmiş bağlam oluşumu yok."
+        }
+      ],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_cea44fcf98a9d93c9d75",
+      "decision": "represented",
+      "reason": "Root_000387/B002 ve B003 üzerinden ileri sürülen tarımsal hesap ilişkisi, cand_8f22ecbcc83edfc7d0cc tarafından aynı iki kayıtlı odak dalıyla taşınıyor; kayıtsız ع م ل/B001 atfı bağımsız bir packet dalı olmadığı için temsil edilen bulgunun dal setini genişletmiyor.",
+      "finding_refs": ["global:agricultural-ledger"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_dbd292a57ba951219205",
+      "decision": "represented",
+      "reason": "B004ün ortak ve kişiselleştirilmiş anlatı olarak dağıtılması, cand_4363157942f6b415b0dd tarafından aynı odak dalı ve aynı okuyucu değişimiyle taşınıyor; kayıtsız ق و ل/B001 atfı ayrı bir kayıtlı dal değildir.",
+      "finding_refs": ["global:distributed-personal-report"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_9268535310b887814af2",
+      "decision": "represented",
+      "reason": "Retrospektif adayın B004 üzerinden tek yer kaydının dağılmış kişilere ulaşan anlatıya dönüşmesi, cand_4363157942f6b415b0dd tarafından tam olarak taşınıyor; temsil edilen adayın kayıtlı dalı dışlanmıyor.",
+      "finding_refs": ["global:distributed-personal-report"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_7db27e65aadd062c9437",
+      "decision": "reject",
+      "reason": "HFT özeti legacy_unbound ve anchorless; packet içinde kesin bağlam ayeti, kelime indisi, kök, atfedilmiş rol ve odağa dönen temas izi bulunmadığından global aktivasyon kurulamaz.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_cb26daa4c327d72a54db",
+      "decision": "reject",
+      "reason": "HFT özeti legacy_unbound ve anchorless; packet içinde kesin bağlam ayeti, kelime indisi, kök, atfedilmiş rol ve odağa dönen temas izi bulunmadığından global aktivasyon kurulamaz.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_a82e0d61c3839b9da179",
+      "decision": "reject",
+      "reason": "HFT özeti legacy_unbound ve anchorless; packet içinde kesin bağlam ayeti, kelime indisi, kök, atfedilmiş rol ve odağa dönen temas izi bulunmadığından global aktivasyon kurulamaz.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_5d9c74028a8ea5f21080",
+      "decision": "reject",
+      "reason": "HFT özeti legacy_unbound ve anchorless; packet içinde kesin bağlam ayeti, kelime indisi, kök, atfedilmiş rol ve odağa dönen temas izi bulunmadığından global aktivasyon kurulamaz.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_8f695301816a68d693ab",
+      "decision": "reject",
+      "reason": "HFT özeti legacy_unbound ve anchorless; packet içinde kesin bağlam ayeti, kelime indisi, kök, atfedilmiş rol ve odağa dönen temas izi bulunmadığından global aktivasyon kurulamaz.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_c7d1df6972a4ad2e6ae2",
+      "decision": "reject",
+      "reason": "HFT özeti legacy_unbound ve anchorless; packet içinde kesin bağlam ayeti, kelime indisi, kök, atfedilmiş rol ve odağa dönen temas izi bulunmadığından global aktivasyon kurulamaz.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_55327ba0b498d285b233",
+      "decision": "reject",
+      "reason": "HFT özeti legacy_unbound ve anchorless; packet içinde kesin bağlam ayeti, kelime indisi, kök, atfedilmiş rol ve odağa dönen temas izi bulunmadığından global aktivasyon kurulamaz.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    }
+  ],
+  "findings": [
+    {
+      "finding_ref": "global:event-becomes-testimony",
+      "origin_candidate_id": "cand_db32b820a1958393098f",
+      "represented_candidate_ids": ["cand_8e408efc826a3cdff108"],
+      "title": "Olayın kendi tanıklığına dönüşmesi",
+      "claim": "Odak fiilindeki oluş ve anlatma basıncı, sarsıntı olayını dışarıdan hakkında konuşulan bir olay olmaktan çıkarıp kendi maddi meydana gelişini tanıklık olarak duyuran bir eyleme bağlar.",
+      "mechanism": "Odak taşıyıcısı تُحَدِّثُ, oluşu ve sözü aynı hareket içinde duyurur; geçmiş olayın rapora dönüşmesi ve hüküm gününün ağır olay çerçevesiyle temas ettiğinde meydana gelen şey kendi hakkında konuşan bir tanıklık görünümü kazanır.",
+      "reader_payoff": "Okur, yerin haber vermesini yalnızca olaydan sonra gelen bir yorum gibi değil, olayın maddi gerçekleşmesinin kendisinin tanıklığa dönüşmesi olarak da görür.",
+      "containment": "Olağan anlam olan yerin haberlerini anlatması korunur; burada bağımsız bir konuşmacı ya da fiziksel sarsıntının tek açıklaması ileri sürülmez.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": ["legacy_unbound", "trusted"],
+        "reason": "Bulguyu trusted çapraz-run kaydı ile legacy_unbound yürüyüş destekliyor; olay ile anlatının birleşmesi packet içi bağlantılardan çıkarılan global bir yorum olarak niteleniyor."
+      },
+      "support_ids": ["sup_e8064ac5cabb5be35862", "sup_e8f20f31c0f97b107d03"],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000299/B001",
+          "facet_id": "F001",
+          "branch_gloss": "yokken var olma, var etme veya gerçekleşme",
+          "facet_statement": "Bir şey, daha önce yokken varlık kazanır.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["99:4:2:1"],
+          "trigger_refs": ["conn_5c482bfd5036f0e91e5b"],
+          "focus_return_refs": ["99:4:2:1"],
+          "carrier": "تُحَدِّثُ taşıyıcısı, yokken varlık kazanma ve meydana gelme geçişini taşıyan oluş anlamını açar.",
+          "independent_trigger": "79:15 bağlantısı, geçmiş bir olayın rapor aracılığıyla şimdiye gelmesini sağlar.",
+          "activation": "Odaktaki oluş geçişi, bağımsız olay-rapor bağlantısıyla buluşunca meydana gelen olayın anlatıya dönüşmesi aynı fiil hareketinde görünür olur.",
+          "resulting_reading": "Meydana gelen sarsıntı, sonradan hakkında konuşulan bir nesne olmaktan çıkarak kendi oluşumunu haber veren olay gibi duyulur.",
+          "boundary": "Bu, oluş dalının odak fiilindeki sınırlı bir global yankısıdır; bütün oluş veya yaratma anlamları ayete taşınmaz."
+        },
+        {
+          "branch_ref": "root_000299/B003",
+          "facet_id": "F001",
+          "branch_gloss": "söz, anlatım ve karşılıklı konuşma",
+          "facet_statement": "Bir kişiye işitme veya bildirim yoluyla ulaşan söz ve aktarılan içeriktir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["99:4:2:1"],
+          "trigger_refs": ["conn_76ffb69d41cda8a54181"],
+          "focus_return_refs": ["99:4:2:1"],
+          "carrier": "تُحَدِّثُ taşıyıcısı, bir içeriği ulaştıran söz ve anlatım hareketini taşır.",
+          "independent_trigger": "85:17 bağlantısı, alınmış bir haberin dinleyici karşısında hazır bir karşılaşmaya dönüşmesini sağlar.",
+          "activation": "Anlatım taşıyıcısı, olayın rapor olarak karşılanmasıyla temas eder; böylece olayın kendisi aktarılabilir içerik gibi işler.",
+          "resulting_reading": "Sarsıntı, dışarıdan anlatılan bir olay değil, kendi maddi oluşundan içerik üreten bir anlatı haline gelir.",
+          "boundary": "Söz dalı burada odak fiilindeki bildirim işlevinde kalır; insanlar arasındaki her türlü konuşma anlamı kurulmaz."
+        },
+        {
+          "branch_ref": "root_000299/B005",
+          "facet_id": "F001",
+          "branch_gloss": "baş gösteren ağır olay",
+          "facet_statement": "Bir insanın veya topluluğun karşısına beklenmedik bir olay çıkar.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["99:4:2:1"],
+          "trigger_refs": ["conn_75c8fd06659d7b4a66a6"],
+          "focus_return_refs": ["99:4:2:1"],
+          "carrier": "تُحَدِّثُ taşıyıcısı, sözün içinde baş gösteren ağır olayın oluş yönünü de taşıyabilir.",
+          "independent_trigger": "77:15 bağlantısı, يومئذ bağlamını ağır hüküm günü sahnesiyle kurar.",
+          "activation": "Ağır olay facet'i, gün bağlantısının hüküm sahnesiyle buluşunca yerin haberi olayın kendisinden çıkan tanıklık gibi duyulur.",
+          "resulting_reading": "Tanıklık, sarsıntının üzerine eklenmiş bir açıklama değil, o ağır olayın kendi içinden baş gösteren bir anlatımdır.",
+          "boundary": "Hüküm gününün bütün ayrıntıları bu bulguya taşınmaz; yalnızca ağır olay ile tanıklık arasındaki temas korunur."
+        }
+      ],
+      "connection_refs": ["conn_5c482bfd5036f0e91e5b", "conn_76ffb69d41cda8a54181", "conn_75c8fd06659d7b4a66a6"],
+      "context_refs": ["79:15", "85:17", "77:15"],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:interior-evidence-report",
+      "origin_candidate_id": "cand_32425655320c474f26cd",
+      "represented_candidate_ids": [],
+      "title": "İç yüzü açığa çıkaran haber",
+      "claim": "أخبارها, yerin yüzeyde görülen durumunu bildirmekten öte, içinde sınanıp saklanmış bilgiyi görünür kılan bir kanıt raporu olarak okunabilir.",
+      "mechanism": "تُحَدِّثُ içeriği ortaya koyma ve görünür kılma hareketini taşır; أخبارها bilgi ve deneyerek iç yüzü tanıma alanıyla birleşir. Gömülü içeriğin açılması, sınanmış haber ve korunan kayıt bağlantıları bu iki taşıyıcıyı aynı kanıt hareketinde buluşturur.",
+      "reader_payoff": "Okur, haber kelimesini yüzeysel bir duyuru olarak değil, saklı içeriği açığa çıkarıp görünür bilgiye dönüştüren bir ara aşama olarak duyabilir.",
+      "containment": "Yer yine haberlerini anlatan özne olarak kalır; bu okuma, haberin mutlaka yazılı belge olduğunu ya da sonraki hesaplamanın tek biçimi olduğunu söylemez.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": ["trusted"],
+        "reason": "Trusted yayın kaydı iki odak dalını açıkça bağlar; iç yüzü ve açığa çıkarma ilişkisi yine de global bir yorum olduğu için qualified tutulur."
+      },
+      "support_ids": ["sup_ac08b0a625350217053c"],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000299/B006",
+          "facet_id": "F001",
+          "branch_gloss": "ortaya koyma ve görünür kılma",
+          "facet_statement": "Bir şey ortaya konur veya görünür hale getirilir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["99:4:2:1"],
+          "trigger_refs": ["conn_4a71a253306ddf181577"],
+          "focus_return_refs": ["99:4:2:1"],
+          "carrier": "تُحَدِّثُ taşıyıcısı, gizli içeriği ortaya koyup görünür kılan bildirim hareketini taşır.",
+          "independent_trigger": "100:9 bağlantısı, gömülü olanın açığa çıkarılmasını bağımsız bir görünür kılma imgesi olarak sağlar.",
+          "activation": "Açığa çıkarma taşıyıcısı gömülü içeriğin ortaya çıkmasıyla temas edince yerin haberi, zaten saklı bulunan kanıtın görünür hale gelmesi gibi işler.",
+          "resulting_reading": "Yerin haberi, saklı içeriği dışarı çıkaran kanıt hareketinin sözle okunur hale gelmesidir.",
+          "boundary": "Açığa çıkarma dalı burada rapor işlevini açıklar; her fiziksel çıkarma veya mezar sahnesi odak anlamı yapılmaz."
+        },
+        {
+          "branch_ref": "root_000387/B001",
+          "facet_id": "F001",
+          "branch_gloss": "bilgi edinme, bildirme ve deneyerek iç yüzü tanıma",
+          "facet_statement": "Bir şey veya olay hakkında edinilen ve aktarılabilen bilgiyi belirtir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["99:4:3:1"],
+          "trigger_refs": ["conn_6350f4c4373f70bd4ddf"],
+          "focus_return_refs": ["99:4:3:1"],
+          "carrier": "أَخْبَارَ taşıyıcısı, bir olay hakkında edinilmiş ve başkasına aktarılabilen bilgi içeriğini taşır.",
+          "independent_trigger": "47:31 bağlantısı, haberleri sınama ve yaşanmış kanıtla ayırma hareketini sağlar.",
+          "activation": "Bilgi taşıyıcısı sınama bağlantısıyla buluşunca haber, dış görünüşten aktarılmış söz değil, deneyimden edinilmiş içerik olarak belirir.",
+          "resulting_reading": "أخبارها, yerin içinde sınanmış bilgiyi dışarıya bildiren kanıt niteliği kazanır.",
+          "boundary": "Bilginin deneyimsel niteliği korunur; packet, haberlerin nasıl yazıya geçirildiğini belirlemez."
+        },
+        {
+          "branch_ref": "root_000387/B001",
+          "facet_id": "F003",
+          "branch_gloss": "bilgi edinme, bildirme ve deneyerek iç yüzü tanıma",
+          "facet_statement": "Soru sorarak bilgi aramayı ve bir şeyi sınayıp deneyerek tanımayı kapsar.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["99:4:3:1"],
+          "trigger_refs": ["conn_6350f4c4373f70bd4ddf"],
+          "focus_return_refs": ["99:4:3:1"],
+          "carrier": "أَخْبَارَ taşıyıcısı, aktarılmış haberin arkasındaki denenmiş ve iç yüzü tanınmış bilgiyi taşıyabilir.",
+          "independent_trigger": "47:31 bağlantısı, haberlerin sınanarak yaşanmış bilgiye dönüşmesini açıkça kurar.",
+          "activation": "Deneyerek tanıma facet'i, yerin bildirdiği içeriğe temas edince raporun yüzeyden değil sınanmış iç bilgiden geldiği yönü görünür olur.",
+          "resulting_reading": "Haber, yerin tuttuğu iç deneyimin sınanmış sonucu olarak dışarı çıkar.",
+          "boundary": "Bu facet haberin iç yüzünü sınama basıncını taşır; bütün soru-cevap eylemleri veya bağımsız bir araştırma sahnesi eklenmez."
+        }
+      ],
+      "connection_refs": ["conn_4a71a253306ddf181577", "conn_6350f4c4373f70bd4ddf", "conn_55c07704e0204083b9b0"],
+      "context_refs": ["100:9", "47:31", "50:4"],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:agricultural-ledger",
+      "origin_candidate_id": "cand_8f22ecbcc83edfc7d0cc",
+      "represented_candidate_ids": ["cand_cea44fcf98a9d93c9d75"],
+      "title": "Ürün payını kaydeden tarımsal hesap",
+      "claim": "أخبارها, yeryüzünün insan işlerinden doğan ürün ve payı kaydeden tarımsal bir hesap gibi de işler.",
+      "mechanism": "أخبارها taşıyıcısındaki yumuşak ve su tutan arazi facet'i ile toprağın ürün payı karşılığı işlenmesi facet'i, yeşeren toprak, sınanan haber ve tartılan sonuç bağlantılarıyla buluşur; haber böylece olayları soyutça aktarmaktan çok toprağın geri verdiği payı bildirir.",
+      "reader_payoff": "Okur, haberleri yalnızca sözlü bilgi olarak değil, toprağa bırakılan emeğin ölçülebilir çıktısını geri veren bir hesap hareketi olarak da görebilir.",
+      "containment": "Olağan yer haberleri anlamı bütünüyle korunur; bu, haberlerin kelime anlamı olarak tarım terimi olduğu veya her işin literal biçimde ekildiği iddiası değildir.",
+      "epistemic": {
+        "status": "exploratory",
+        "source_trust": ["legacy_unbound", "trusted"],
+        "reason": "Trusted yayın kaydı ile legacy_unbound yürüyüş aynı iki odak dalını destekliyor; insan emeğini tarımsal çıktıya bağlayan adım açıkça analojik ve exploratory."
+      },
+      "support_ids": ["sup_86ef5bd275469cfb653b", "sup_5ce2a6ad86eda18225fb"],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000387/B002",
+          "facet_id": "F001",
+          "branch_gloss": "gevşek, alçak ve su tutan arazi veya su birikintisi",
+          "facet_statement": "Gevşek, yumuşak ya da alçak ve yağmur suyunun toplanabildiği araziyi belirtir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["99:4:3:1"],
+          "trigger_refs": ["conn_4b3cd27c3886d51ec74e"],
+          "focus_return_refs": ["99:4:3:1"],
+          "carrier": "أخبارها taşıyıcısı, haberin arkasında yumuşak, alçak ve suyu tutan bir zemin imgesi taşıyabilir.",
+          "independent_trigger": "22:63 bağlantısı, suyla yeşeren ve verim veren yeryüzünü bağımsız biçimde sağlar.",
+          "activation": "Su tutan zemin facet'i yeşeren toprak bağlantısıyla buluşunca haber, içine alınanı taşıyan ve geri veren bir arazi görünümü kazanır.",
+          "resulting_reading": "Haberlerin zemini, insan işinin izlerini tutup onları geri verebilen işlenmiş toprak gibi duyulur.",
+          "boundary": "Bu, yeryüzünün tarımsal bir malzeme olarak analojik görünmesidir; haber sözcüğü fiziksel su birikintisine indirgenmez."
+        },
+        {
+          "branch_ref": "root_000387/B003",
+          "facet_id": "F002",
+          "branch_gloss": "üründen pay karşılığı ortakçılık ve bunu yapan çiftçi",
+          "facet_statement": "Toprağın, elde edilen ürünün yarısı, üçte biri veya belirli bir payı karşılığında işlenmesi düzenini belirtir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["99:4:3:1"],
+          "trigger_refs": ["conn_6350f4c4373f70bd4ddf", "conn_71f07628228a9a7e615e"],
+          "focus_return_refs": ["99:4:3:1"],
+          "carrier": "أخبارها taşıyıcısı, haberin belirli bir payın hesabını veren ürün bilgisi gibi okunmasına izin verir.",
+          "independent_trigger": "47:31 bağlantısı haberleri sınar; 101:6 bağlantısı sonuçları tartılan ölçülebilir paylara bağlar.",
+          "activation": "Ürün-paylaşımı facet'i sınama ve tartma bağlantılarıyla buluşunca yerin haberi, her işin toprağında ürettiği payı bildiren hesap haline gelir.",
+          "resulting_reading": "Yerin haberleri, insanların işlerinin yeryüzünde ürettiği payı geri bildiren bir tarımsal hesap dökümü gibi işler.",
+          "boundary": "Bu ortakçılık görüntüsü sınırlı bir analojidir; belirli bir hukuk düzeni veya bütün amellerin tarımsal üretim olduğu ileri sürülmez."
+        }
+      ],
+      "connection_refs": ["conn_4b3cd27c3886d51ec74e", "conn_6350f4c4373f70bd4ddf", "conn_71f07628228a9a7e615e"],
+      "context_refs": ["22:63", "47:31", "101:6"],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:distributed-personal-report",
+      "origin_candidate_id": "cand_4363157942f6b415b0dd",
+      "represented_candidate_ids": ["cand_dbd292a57ba951219205", "cand_9268535310b887814af2"],
+      "title": "Ortak kaydın kişisel anlatıya dağılması",
+      "claim": "Tek bir yer kaydı, ayrılmış kişilere ulaştığında hem herkesçe bilinen bir anlatı hem de her kişinin kendi payına düşen kişisel rapor haline gelir.",
+      "mechanism": "تُحَدِّثُ taşıyıcısının insanların dilinde anlatı konusu olma ve anlatıların çoğalması facet'leri, insanların eylemlerinden sonra hikâyeye dönüşmesi ve kişisel kayıtların olumlu-olumsuz biçimde teslim edilmesi bağlantılarıyla buluşur.",
+      "reader_payoff": "Okur, tekil konuşan yer ile dağılmış insanlar arasındaki hareketi görür: ortak zemin tek bir kayıt sunarken kayıt her kişide kişisel bir karşılaşmaya dönüşür.",
+      "containment": "Yerin tekil öznesi ve olağan haber verme anlamı korunur; bütün kişisel kayıtların yer tarafından literal olarak okunması ya da toplumsal şöhretin tek sonuç olması söylenmez.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": ["legacy_unbound", "trusted"],
+        "reason": "Trusted yayın ve iki legacy_unbound yürüyüş aynı B004 taşıyıcısını destekliyor; tek kayıttan kişisel karşılaşmaya geçiş global bağlamsal çıkarımdır."
+      },
+      "support_ids": ["sup_df612d135a3c977ebdbd", "sup_e0f0c6550f66389baa89", "sup_88d2ab3a5c880135852e"],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000299/B004",
+          "facet_id": "F001",
+          "branch_gloss": "insanların dilinde anlatı konusu olma",
+          "facet_statement": "Kişi, topluluk veya durum insanların hakkında konuştuğu konu haline gelir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["99:4:2:1"],
+          "trigger_refs": ["conn_ed2ca48ef6871084cd3a"],
+          "focus_return_refs": ["99:4:2:1"],
+          "carrier": "تُحَدِّثُ taşıyıcısı, yerin haberini insanların hakkında konuştuğu anlatı konusu haline getirme yönünü taşır.",
+          "independent_trigger": "34:19 bağlantısı, insanların eylemlerinden sonra anlatı konusu haline gelmesini sağlar.",
+          "activation": "Anlatı konusu facet'i insan eylemlerinin sonradan dolaşan hikâyeye dönüşmesiyle buluşunca yerin haberi ortak bir kayıt alanına açılır.",
+          "resulting_reading": "Yerin tekil haberi, dağılmış insanlar arasında ortakça karşılaşılan bir anlatıya dönüşür.",
+          "boundary": "Buradaki anlatı toplumsal dolaşım yönünü taşır; yerin haberinin yalnızca insanlar arasındaki söylenti olduğu söylenmez."
+        },
+        {
+          "branch_ref": "root_000299/B004",
+          "facet_id": "F002",
+          "branch_gloss": "insanların dilinde anlatı konusu olma",
+          "facet_statement": "Hakkındaki anlatılar çoğalır ve dilden dile aktarılan sözlü içeriğe dönüşür.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["99:4:2:1"],
+          "trigger_refs": ["conn_eeade8dd3b87127836a3", "conn_e8d279b7ee1a3b09b63d"],
+          "focus_return_refs": ["99:4:2:1"],
+          "carrier": "تُحَدِّثُ taşıyıcısı, bir kaydın çoğalarak kişilere ulaşan anlatı içeriğine dönüşme yönünü taşır.",
+          "independent_trigger": "69:19 ve 69:25 bağlantıları, aynı kişisel kaydın farklı kişilerce sevinç veya karşılaşma olarak alınmasını sağlar.",
+          "activation": "Çoğalan anlatı facet'i kişisel kayıtların iki yönlü teslimiyle temas edince ortak yer kaydı her kişide ayrı bir anlatı karşılaşması kurar.",
+          "resulting_reading": "Tek bir yer kaydı, ayrılmış her kişiye ulaşan ortak ve kişiselleştirilmiş bir anlatı gibi işler.",
+          "boundary": "Olumlu ve karşıt kişisel kayıt sahneleri birlikte açık tutulur; bunlardan biri seçilip diğerinin yerine geçirilmez."
+        }
+      ],
+      "connection_refs": ["conn_ed2ca48ef6871084cd3a", "conn_eeade8dd3b87127836a3", "conn_e8d279b7ee1a3b09b63d"],
+      "context_refs": ["34:19", "69:19", "69:25"],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:earth-experiential-witness",
+      "origin_candidate_id": "cand_29c34dd1858d1dec6c41",
+      "represented_candidate_ids": [],
+      "title": "Yerin deneyimden konuşan tanıklığı",
+      "claim": "Yerin anlatımı, oluşmuş bir olayın söze dönüşmesiyle birlikte, üzerinde gerçekleşenleri deneyimleyerek iç yüzünü bilen bir tanığın konuşması gibi de duyulur.",
+      "mechanism": "تُحَدِّثُ söz ve anlatım taşıyıcısıdır; أخبارها bilgi edinme ve deneyerek tanıma yönünü taşır. Geçmiş olayın hazır bir rapor olarak sunulması ve yerel görüşü aşan bilginin kuşatılması bu iki kelimeyi deneyimden gelen tanıklıkta birleştirir.",
+      "reader_payoff": "Okur, yeri yalnızca olayların bulunduğu pasif bir zemin olarak değil, üzerinde olanlardan iç bilgi edinmiş ve bunu aktarabilen bir tanık olarak da görebilir.",
+      "containment": "Birincil cümlede yer yine haberlerini anlatır; deneyimsel tanıklık, bağımsız bir kişilik veya her ayrıntının nasıl bilindiğine dair ek doktrin değildir.",
+      "epistemic": {
+        "status": "exploratory",
+        "source_trust": ["legacy_unbound"],
+        "reason": "Aday yalnız legacy_unbound yürüyüş desteğine dayanıyor; taşıyıcılar ve global bağlantılar gerçek bir temas sağlasa da deneyimden tanıklığa geçiş abduktif kalıyor."
+      },
+      "support_ids": ["sup_ae6463e291b5a0552e83"],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000299/B003",
+          "facet_id": "F001",
+          "branch_gloss": "söz, anlatım ve karşılıklı konuşma",
+          "facet_statement": "Bir kişiye işitme veya bildirim yoluyla ulaşan söz ve aktarılan içeriktir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["99:4:2:1"],
+          "trigger_refs": ["conn_5c482bfd5036f0e91e5b"],
+          "focus_return_refs": ["99:4:2:1"],
+          "carrier": "تُحَدِّثُ taşıyıcısı, yaşanmış bir şeyin aktarılabilir söz ve içerik haline gelmesini taşır.",
+          "independent_trigger": "79:15 bağlantısı, geçmişteki olayın rapor olarak şimdiye ulaşmasını sağlar.",
+          "activation": "Aktarılabilir söz facet'i geçmiş olay raporuyla buluşunca yerin konuşması, olay dışından gelen bir yorum değil olayın içinden çıkan bildirim gibi görünür.",
+          "resulting_reading": "Yer, üzerinde gerçekleşenleri kendi anlatımına dönüştüren bir tanık gibi konuşur.",
+          "boundary": "Bu tanıklık söze dönüşen içerik düzeyindedir; yer insan benzeri bütün iletişim özellikleriyle donatılmaz."
+        },
+        {
+          "branch_ref": "root_000387/B001",
+          "facet_id": "F001",
+          "branch_gloss": "bilgi edinme, bildirme ve deneyerek iç yüzü tanıma",
+          "facet_statement": "Bir şey veya olay hakkında edinilen ve aktarılabilen bilgiyi belirtir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["99:4:3:1"],
+          "trigger_refs": ["conn_6f2be653fcf51fac2ad4"],
+          "focus_return_refs": ["99:4:3:1"],
+          "carrier": "أخبارها taşıyıcısı, bir şey hakkında edinilen ve aktarılabilen bilgiyi yerin sahip olduğu içerik olarak taşır.",
+          "independent_trigger": "18:91 bağlantısı, yerel görüşün ötesine geçen kuşatıcı bilgi alanını sağlar.",
+          "activation": "Bilgi taşıyıcısı kuşatıcı iç bilgi bağlantısıyla temas edince haber, dışarıdan duyulmuş bilgi değil yerin kendi deneyim alanından gelen içerik gibi duyulur.",
+          "resulting_reading": "Yerin haberi, üzerinde olup bitenlerden edinilmiş bir tanıklık bilgisidir.",
+          "boundary": "Kuşatıcı bilgi bağlantısı, yerin ilahî niteliklere sahip olduğunu söylemez; yalnızca tanıklığın iç bilgi yönünü destekler."
+        }
+      ],
+      "connection_refs": ["conn_5c482bfd5036f0e91e5b", "conn_6f2be653fcf51fac2ad4"],
+      "context_refs": ["79:15", "18:91"],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:disclosure-after-emergence",
+      "origin_candidate_id": "cand_3565c213fba66debe278",
+      "represented_candidate_ids": [],
+      "title": "Çıkarılan içeriğin rapora dönüşmesi",
+      "claim": "Yerin haberi, saklı içeriğin önce ortaya çıkarıldığı, ardından anlaşılır bir rapor olarak açıldığı iki aşamalı bir kanıt hareketi gibi işler.",
+      "mechanism": "تُحَدِّثُnün ortaya koyma facet'i, gömülü olanın açığa çıkması ve yerin içindeki yükü dışarı atması bağlantılarıyla temas eder; bu fiziksel çıkarma zemini أخبارهاnın legible bilgi olarak bildirilmesini hazırlar.",
+      "reader_payoff": "Okur, yerin haberini doğrudan söze atlayan bir sahne yerine, çıkarılmış içeriğin okunabilir hale gelmesinden oluşan bir açıklama hareketi olarak görür.",
+      "containment": "Birincil haber verme anlamı korunur; root_000400/B002 dalı odak taşıyıcısı olarak kullanılmaz ve fiziksel çıkarma, ayetin tek anlamı ilan edilmez.",
+      "epistemic": {
+        "status": "exploratory",
+        "source_trust": ["legacy_unbound"],
+        "reason": "Yürüyüş kaydı iki aşamalı ilişkiyi öneriyor; packet bağlantıları fiziksel açığa çıkarma temasını destekliyor, fakat aşamalar arasındaki nedensellik global bir çıkarım olarak kalıyor."
+      },
+      "support_ids": ["sup_8d9bd55ce6a06dcc2abb"],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000299/B006",
+          "facet_id": "F001",
+          "branch_gloss": "ortaya koyma ve görünür kılma",
+          "facet_statement": "Bir şey ortaya konur veya görünür hale getirilir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["99:4:2:1"],
+          "trigger_refs": ["conn_4a71a253306ddf181577", "conn_5b90424ab2f1daeb8faf"],
+          "focus_return_refs": ["99:4:2:1"],
+          "carrier": "تُحَدِّثُ taşıyıcısı, saklı içeriği görünür hale getiren ortaya koyma hareketini taşır.",
+          "independent_trigger": "100:9 ve 84:4 bağlantıları, gömülü olanın açığa çıkmasını ve yerin içindekini dışarı bırakmasını sağlar.",
+          "activation": "Ortaya koyma taşıyıcısı bu iki çıkarma görüntüsüyle buluşunca haber verme, maddi kanıtın ardından gelen okunabilir açıklama aşaması gibi kurulur.",
+          "resulting_reading": "Yerin sözü, önce dışarı çıkarılmış içeriğin anlamlı rapora dönüşmesidir.",
+          "boundary": "İki aşamalı sıra analojik bir bağlantıdır; burada root_000400/B002nin ayrı bir odak taşıyıcısı veya bütün ayete egemen bir mekanizma olduğu söylenmez."
+        }
+      ],
+      "connection_refs": ["conn_4a71a253306ddf181577", "conn_5b90424ab2f1daeb8faf"],
+      "context_refs": ["100:9", "84:4"],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:calamity-history-report",
+      "origin_candidate_id": "cand_5a898cc3a8262c482b27",
+      "represented_candidate_ids": [],
+      "title": "Ağır olayın tarih taşıyan habere dönüşmesi",
+      "claim": "تُحَدِّثُ içindeki ağır olay yönü, yerin haberlerini yalnız o günün durumu değil, zaman içinde birikmiş olayların tanıklığa dönüşen kaydı gibi de duyurur.",
+      "mechanism": "Odak fiilinin baş gösteren ağır olay facet'i, hüküm günü çerçevesi ve geçmiş olayın rapor olarak sunulması bağlantılarıyla buluşur; böylece olay ile onun hakkında oluşan haber aynı tarihsel hareket içinde birleşir.",
+      "reader_payoff": "Okur, أخبارهاnı yalnızca yerin o anda söylediği bilgi olarak değil, zamanın yer üzerinde bıraktığı olay izlerinin geri dönmesi olarak da okuyabilir.",
+      "containment": "Yer yine haberlerini anlatır; zaman sarsıntısı ve dolaşan söz aday dalları için geçerli taşıyıcı bulunmadığından bu bulgu onları bağımsız anlamlar olarak ileri sürmez.",
+      "epistemic": {
+        "status": "exploratory",
+        "source_trust": ["legacy_unbound"],
+        "reason": "Adayın yürüyüş desteği legacy_unbound; odak B005 ve mevcut gün/olay bağlantıları gerçek temas sağlıyor, fakat birikmiş tarih okuması çıkarımsal kalıyor."
+      },
+      "support_ids": ["sup_bb16b1a52f0dd0de294a"],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000299/B005",
+          "facet_id": "F001",
+          "branch_gloss": "baş gösteren ağır olay",
+          "facet_statement": "Bir insanın veya topluluğun karşısına beklenmedik bir olay çıkar.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["99:4:2:1"],
+          "trigger_refs": ["conn_75c8fd06659d7b4a66a6", "conn_5c482bfd5036f0e91e5b"],
+          "focus_return_refs": ["99:4:2:1"],
+          "carrier": "تُحَدِّثُ taşıyıcısı, zamanın karşıya çıkardığı ağır olay yönünü söz hareketinin içinde taşır.",
+          "independent_trigger": "77:15 hüküm günü çerçevesini, 79:15 ise geçmiş olayın rapor olarak şimdiye taşınmasını sağlar.",
+          "activation": "Ağır olay facet'i gün ve geçmiş-rapor bağlantılarıyla temas edince yerin haberi, zaman içinde birikmiş olayın geri dönen tanıklığı gibi duyulur.",
+          "resulting_reading": "أخبارها, yerin üzerinde biriken olayların tarihsel kaydını yeniden anlatan bir haber olarak açılır.",
+          "boundary": "Zaman sarsıntısı ve dolaşan söz dalları dışlanmıştır; burada yalnız odakta taşıyıcısı bulunan ağır olay çekirdeği korunur."
+        }
+      ],
+      "connection_refs": ["conn_75c8fd06659d7b4a66a6", "conn_5c482bfd5036f0e91e5b"],
+      "context_refs": ["77:15", "79:15"],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:worked-ground-yield",
+      "origin_candidate_id": "cand_e5b6f02e710df838263b",
+      "represented_candidate_ids": [],
+      "title": "İşlenmiş zeminin geri verdiği haber",
+      "claim": "أخبارها, yumuşak ve işlenmiş zeminin içine aldığı emeği ürün payı olarak geri vermesi gibi, yeryüzünün sakladığı izleri verime dönüşmüş bir rapor halinde sunar.",
+      "mechanism": "أخبارهاnın yumuşak su tutan arazi ve ürün payı karşılığı işleme facet'leri, yeşeren toprak, yerin içine giren ve çıkan şeyler, ayrıca ölçülen sonuç bağlantılarıyla buluşur; haber, işlenmiş zeminin geri dönüşü gibi işler.",
+      "reader_payoff": "Okur, yerin içindeki saklı bilgiyi, üzerine bırakılan işin karşılığını taşıyıp geri veren bir zemin hareketi olarak da hisseder.",
+      "containment": "Bu, root_000387 dallarına dayanan sınırlı bir maddi analojidir; root_000025/B002 için odak taşıyıcısı yoktur ve yerin kelimesi tarım terimine çevrilmez.",
+      "epistemic": {
+        "status": "exploratory",
+        "source_trust": ["legacy_unbound"],
+        "reason": "Yürüyüş kaydı yumuşak zemin ve ortakçı üretim dallarını öneriyor; bunların saklı izleri geri verme ilişkisine bağlanması açıkça analojik."
+      },
+      "support_ids": ["sup_3a43a724f0984b53a8c1"],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000387/B002",
+          "facet_id": "F001",
+          "branch_gloss": "gevşek, alçak ve su tutan arazi veya su birikintisi",
+          "facet_statement": "Gevşek, yumuşak ya da alçak ve yağmur suyunun toplanabildiği araziyi belirtir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["99:4:3:1"],
+          "trigger_refs": ["conn_4b3cd27c3886d51ec74e", "conn_9df06b88e25e53eca517"],
+          "focus_return_refs": ["99:4:3:1"],
+          "carrier": "أخبارها taşıyıcısı, suyu ve bırakılan izleri tutan yumuşak bir arazi görüntüsünü taşıyabilir.",
+          "independent_trigger": "22:63 yeşeren toprağı, 57:4 ise yeryüzüne giren ve çıkan şeylerin kuşatılmış bilgisini sağlar.",
+          "activation": "Su tutan arazi facet'i toprakta giriş-çıkış ve verim bağlantılarıyla buluşunca yerin haberi, içeride tutulanın geri verilmesi gibi duyulur.",
+          "resulting_reading": "Yer, içine aldığı izleri yumuşak bir zeminin geri verdiği bilgi gibi bildirir.",
+          "boundary": "Soft-ground görüntüsü adayın dışlanan root_000025/B002 dalı olarak değil, kayıtlı أخبارها dallarının sınırlı analogisi olarak kullanılır."
+        },
+        {
+          "branch_ref": "root_000387/B003",
+          "facet_id": "F002",
+          "branch_gloss": "üründen pay karşılığı ortakçılık ve bunu yapan çiftçi",
+          "facet_statement": "Toprağın, elde edilen ürünün yarısı, üçte biri veya belirli bir payı karşılığında işlenmesi düzenini belirtir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["99:4:3:1"],
+          "trigger_refs": ["conn_71f07628228a9a7e615e"],
+          "focus_return_refs": ["99:4:3:1"],
+          "carrier": "أخبارها taşıyıcısı, toprağın işlenmesinden doğan belirli payı bildiren ürün hesabı yönünü taşır.",
+          "independent_trigger": "101:6 bağlantısı, sonuçların tartılıp ölçülmesini sağlar.",
+          "activation": "Ürün-paylaşımı facet'i ölçüm bağlantısıyla temas edince yerin haberi, üzerine bırakılan işin ölçülmüş karşılığını bildiren geri dönüş haline gelir.",
+          "resulting_reading": "Yerin raporu, insan işinin toprağında ürettiği payı geri veren bir verim hesabı gibi duyulur.",
+          "boundary": "Bu, tarımsal ortakçılık facet'inin analojik kullanımıdır; belirli bir pay oranı veya gerçek bir çiftçilik faaliyeti ayete eklenmez."
+        }
+      ],
+      "connection_refs": ["conn_4b3cd27c3886d51ec74e", "conn_9df06b88e25e53eca517", "conn_71f07628228a9a7e615e"],
+      "context_refs": ["22:63", "57:4", "101:6"],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:commissioned-moral-archive",
+      "origin_candidate_id": "cand_ba8473ff2862748d33b6",
+      "represented_candidate_ids": [],
+      "title": "Yetkilendirilmiş ahlaki arşiv",
+      "claim": "Bağlam, yerin haberlerini kendi başına başlayan bir konuşma olmaktan çıkarıp yetkilendirilmiş, insan eylemlerine bağlanan ve sonunda kişisel hesapta karşılığı görünen bir tanıklık olarak çerçeveler.",
+      "mechanism": "Retrospektif destek 99:5teki vahiy bağını yerin konuşmasının nedeni olarak, 99:7-8deki amelleri ise haberin içeriği olarak gösterir; yetkilendirilmiş bildirim, görünen ameller ve kapsamlı kayıt bağlantıları bu dönüşümü global biçimde destekler.",
+      "reader_payoff": "Okur, yerin haberini yalnızca yerin sesi olarak değil, yetkiyle açılan ve insanların yaptıklarıyla ilgili ahlaki bir kayıt taşıyan tanıklık olarak görür.",
+      "containment": "Bu çerçeve, 99:5 ve 99:7-8in destek kaydında belirtilen bağlamla sınırlıdır; haberin bütün ayrıntılarının yazılı arşiv olduğu veya sonraki ayetlerin tek nedensel açıklamasının bu olduğu ileri sürülmez.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": ["legacy_unbound"],
+        "reason": "Retrospektif destek anchorless bir HFT özeti değil, aday envanterinde ayrı bir legacy_unbound yürüyüş kaydıdır; yetkilendirme ve ahlaki arşiv ilişkisi yine de yorum olarak qualified kalır."
+      },
+      "support_ids": ["sup_1613defc3088ac63b62f"],
+      "branch_activations": [],
+      "connection_refs": ["conn_60dfbae0c3cae9ead1c5", "conn_b7c3c5bb54aad95cb94e", "conn_2d9fbc250d8bbc5a33f9"],
+      "context_refs": ["33:2", "9:105", "36:12"],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:disclosure-after-emergence-wide",
+      "origin_candidate_id": "cand_8f44f68cac84b8e0cf05",
+      "represented_candidate_ids": [],
+      "title": "Görünür açıklamaya açılan haber",
+      "claim": "أخبارها, dışarı çıkarılmış içeriğin herkesin önüne açılan bir açıklamaya dönüşmesi gibi, görünür kılınmış kanıtın okunabilir raporunu taşır.",
+      "mechanism": "تُحَدِّثُnün ortaya koyma ve görünür kılma facet'i, açılmış sayfalar ve mezarlardan çıkarılan içerik bağlantılarıyla temas eder; bu temas haberi görünür bir açıklama arayüzü gibi kurar.",
+      "reader_payoff": "Okur, yerin sözünü kapalı bir bilginin kendisi değil, açılmış ve karşılaşılabilir hale gelmiş içeriğin açıklaması olarak duyabilir.",
+      "containment": "Olağan yerin haberlerini anlatması korunur; root_000400/B002 bu bulgunun taşıyıcısı değildir ve haber literal yazılı sayfalara indirgenmez.",
+      "epistemic": {
+        "status": "exploratory",
+        "source_trust": ["legacy_unbound"],
+        "reason": "Geniş yürüyüş desteği legacy_unbound; B006 taşıyıcısı ve iki açığa çıkarma bağlantısı mevcut olsa da görünür açıklama arayüzü analojik bir global yorumdur."
+      },
+      "support_ids": ["sup_08578032bd11e5a94ca9"],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000299/B006",
+          "facet_id": "F001",
+          "branch_gloss": "ortaya koyma ve görünür kılma",
+          "facet_statement": "Bir şey ortaya konur veya görünür hale getirilir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["99:4:2:1"],
+          "trigger_refs": ["conn_2fcbd58229e8018ac993", "conn_12dccb238ababf89b486"],
+          "focus_return_refs": ["99:4:2:1"],
+          "carrier": "تُحَدِّثُ taşıyıcısı, içeriği başkalarının karşısında görünür ve anlaşılır hale getiren bildirim hareketini taşır.",
+          "independent_trigger": "81:10 açılmış yazılı sayfaları, 82:4 ise mezarların açığa çıkarılmasını görünür disclosure görüntüleri olarak sağlar.",
+          "activation": "Görünür kılma facet'i bu iki açılma görüntüsüyle buluşunca yerin haberi, dışarı alınmış kanıtın herkesçe karşılaşılabilir açıklaması gibi işler.",
+          "resulting_reading": "Yerin raporu, açığa çıkarılmış içeriğin görünür ve okunabilir hale gelmesidir.",
+          "boundary": "Açık sayfa ve mezar görüntüleri global tetikleyicidir; fiziksel sayfa, mezar veya root_000400 dalı odak anlamı olarak kurulmaz."
+        }
+      ],
+      "connection_refs": ["conn_2fcbd58229e8018ac993", "conn_12dccb238ababf89b486"],
+      "context_refs": ["81:10", "82:4"],
+      "semantic_obligation_refs": []
+    }
+  ],
+  "friction_notes": [
+    "Yedi HFT özeti görünür ancak legacy_unbound ve anchorless durumdadır; kesin bağlam ayeti, kelime indisi, kök, atfedilmiş rol ve odağa dönüş izi bulunmadığı için aktivasyon olarak korunmamıştır.",
+    "root_000400/B002, root_000638/B002, root_001272/B007 ve root_000025/B002 nominated dal kayıtlarında bulunur ancak packet içinde odak veya seçilmiş bağlam taşıyıcısı sağlamaz; daraltılan adaylarda her biri açıkça dışlanmıştır.",
+    "Bağlantı kayıtları hedef Arapçasını ve ilişki notunu sağlar, hedef morfolojisini sağlamaz; bu nedenle bağlantılar bağlamsal tetikleyici olarak kullanılmış, bağımsız sözlük kanıtı sayılmamıştır.",
+    "cand_cea44fcf98a9d93c9d75 içindeki ع م ل/B001 ve cand_dbd292a57ba951219205 içindeki ق و ل/B001 atıfları kayıtlı packet dalları değildir; temsil edilen bulgular bu atıfları yeni dal aktivasyonu olarak üretmez, ilgili kaynak destekleri ise kaybolmadan bulgu sınırlarında tutulur.",
+    "Bu packet için adaylara bağlı ayrıca semantic_obligations veya seçilmiş context unit kayıtları sağlanmamıştır; mevcut aday, dal, destek ve bağlantı yüzeyi bir kez incelenmiş, ek bağımsız global aktivasyon korunmamıştır."
+  ]
+}

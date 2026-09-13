@@ -213,8 +213,8 @@ standalone-focus payload is imported.
 
 Each surah's reviewed `network/v3` report is parsed into parent channels and
 subchannels. The ordinary surah bundle carries that parsed source for Layer 2.
-Layer 3 v3 separately projects reviewed network reports into activation cards
-inside `_channel/layer3/scripts/build_packet.py`; it does not consume the old
+The historical Layer 3 v3 workflow separately projected reviewed network reports into activation cards
+inside `_surah_commentary/v2/scripts/build_packet.py`; it does not consume the old
 combined Layer 3 + 2.5 channel bundle. Reviewed channel reports are absent for
 S108, S110, S113, and S114.
 
@@ -368,26 +368,25 @@ trace readers, tiering fails on missing HFT or malformed required evidence, and
 instantiation fails if a tiered bundle has lost HFT readers. Optional source
 absence must appear in coverage; it should not be silently erased.
 
-### Layer 3 v3 surah reading
+### Editorial-Only Surah Reading
 
-The active surah-commentary workflow lives under `_channel/layer3/`.
+The active surah-commentary workflow lives under `_surah_commentary/v2/`.
 
 Do not reconstruct the commands from this README. Use
-`_channel/layer3/ORCHESTRATION.md`, which is the active runbook and includes the
+`_surah_commentary/v2/ORCHESTRATION.md`, which is the active runbook and includes the
 required fresh-agent boundaries.
 
-The v3 packet requires Quran text, a typed Layer-1 primary floor, and a complete
-reader-facing editorial Layer-2 v2 `prose/evidence/index/friction` artifact set
-for every numbered ayah. Discovery, review, compose-draft, and edit are separate
-semantic stages; edit must be sent to the same agent conversation that produced
-the composition draft. Generated v3 files live under `_channel/layer3/runs/v3/`.
+Use `_surah_commentary/v2/scripts/workflow.py`. Its only semantic input is the
+complete final editorial prose for all numbered ayahs in a selected v5 analysis.
+It freezes that prose, derives an anchored outline, and composes and edits the
+prelude/postlude. It needs no discovery outputs, scope ledgers, invitations,
+independent translations, or network data. The same composition agent performs
+the editorial revision. New runs live under `runs/editorial-v1/`.
 
-Validation is intentionally strict. Discovery accounts for every activation card.
-Review must account for every discovery hypothesis and local resonance; local
-resonances require their exact paired Layer-2 `findingRef`, and admitted
-hypotheses carry their relevant activation refs into member or hinge evidence.
-Composition publishes separate prelude and postlude surfaces with shared
-evidence and friction artifacts.
+Validation checks source hashes, exact anchors, and movement/member coverage.
+Semantic approval remains mandatory. Publication retains immutable revisions
+and archives prior stable files before replacing the four managed outputs.
+Legacy v3 commands and contracts remain in `LEGACY_ORCHESTRATION.md` only.
 
 ### Retired combined Layer 3 + Layer 2.5
 

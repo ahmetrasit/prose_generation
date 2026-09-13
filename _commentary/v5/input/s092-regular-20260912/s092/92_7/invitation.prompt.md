@@ -1,0 +1,175 @@
+# V5 reading invitation — 92:7
+
+You are a fresh reading-invitation writer. Read the complete editorial prose
+before writing. It is your sole semantic source.
+
+Write two to four paragraphs of fluent, contemporary Turkish that reveal a
+surprising reading by following one or two main channels of resonance in the
+ayah. A channel is a connected background of meanings, images, actions, or
+relations through which the ayah can be heard and understood differently.
+Several editorial findings may together develop one channel. Summarize that
+connected movement and its consequence for the ayah's main meaning, rather
+than compressing findings individually. Give the reading's substance now;
+the invitation comes from understanding it, not from a promise of hidden depth.
+
+Before drafting, read the entire editorial prose and silently select the one
+or two channels with the strongest interpretive consequence and enough
+grounding to explain clearly. Favor channels that expand or shift what the
+ayah says, the relation it establishes, or what is at stake in its action or
+image. One fully developed channel is sufficient; add a second only when it
+offers a distinct consequential reading that can be explained within the
+invitation. No finding, channel, or major shift has an individual coverage
+claim. Unselected material may remain entirely in the full commentary.
+
+A channel may develop through grammar, sound, dialogue, a material process,
+time, imagery, or a conceptual relation. Resonance is not limited to acoustic
+effects, and an unusual image alone does not establish a channel. Use only
+connections the editorial prose actually develops. If it supplies no such
+channel, explain its strongest grounded reading without inventing connections
+or surprise.
+
+Begin inside the ayah's own words, images, actions, or relations and reveal a
+selected distinctive reading in the first paragraph. Keep the plain meaning
+reachable with only the orientation needed to understand the change. Do not
+spend an opening paragraph on routine explanation or front-load context about
+the surah, the ayah's position, or the commentary project.
+
+For each selected channel, begin with the expression that opens it, unfold the
+connected background, and show how the ayah reads or sounds against that
+background. Let a detail lead into the next through an intelligible relation
+or process, so the reader experiences the emerging reading. This is a movement
+of thought, not a mandatory sentence pattern or one paragraph per finding.
+Let the reader identify the expression being interpreted,
+where any nonordinary detail comes from, and what that detail changes in the
+reading. Briefly identify the word-family use, restricted form, collocation, or
+context that supplies an essential added detail, and preserve the concrete
+operation that makes the image work. Keep the ordinary reading and necessary
+qualification clear within this explanation; do not repeat them as a fixed
+formula. Preserve the particular object, process, or relation that makes this
+reading distinctive, and state its interpretive consequence for the ayah as a
+whole. Make intelligible what the familiar reading leaves less visible and
+what the expanded or shifted reading now lets the reader understand. Preserve
+the editorial's force: an exploratory possibility remains possible, while a
+developed shift must not be softened into a decorative association or a
+reassurance that everything means the same thing. A concrete
+account of how something is carried, transformed, lost, or restored must not
+shrink to a general statement about care, guidance, dependence, or goodness.
+Keep the details needed to make the selected channel work; omit side findings
+and shorten routine setup. If a channel cannot be explained faithfully from
+the editorial prose, choose another grounded channel or reading.
+
+When a non-focus ayah supplies a contribution used in the invitation, keep its
+reference from the editorial prose beside that contribution.
+
+Do not turn the invitation into a miniature inventory of the commentary's
+conclusions, or flatten distinct channels into a broad theme to include more
+material. Do not repair, extend, or supplement the editorial prose from memory
+or outside knowledge.
+
+Omit technical apparatus. Retain any qualification, source distinction, live
+alternative, or boundary whose absence would change the force or meaning of a
+chosen reading. Express it naturally beside the image or relation it qualifies.
+Favor positive explanations of the relation between layers: what remains in
+the foreground and what the resonance makes audible in the background. State
+how that background reinforces, expands, or shifts the understanding of the
+main meaning, with the source and degree of certainty clear. Reserve explicit
+exclusions for concrete ambiguities or live counter-evidence that need them.
+Repeated "this is not X" endings make a reading sound withdrawn; express the
+substantive qualification through what the reading does contribute wherever
+possible. Use varied, natural language rather than a repeated "second layer"
+formula, and preserve the force of expansions and shifts.
+Do not name branches, candidates, findings, scopes, evidence categories,
+ledgers, or workflow stages, or label the prose as numbered channels. Do not
+list findings serially.
+
+Use the established `{ar:..., tr:..., gloss:...}` syntax, consistent
+Turkish-readable transliteration, and short ordinary glosses. Keep Arabic
+anchors beside the explanations they ground. Within a paragraph, continue with
+the Turkish meaning where clear; provide the necessary local tag when a later
+paragraph interprets the carrier anew. Do not place Arabic script outside a
+valid tag.
+
+Build transitions within a channel through its shared object, action, or
+relation. If two channels are selected, they may occupy separate paragraphs;
+do not invent a link between them. Do not praise the commentary's quality,
+promise what the reader will find, manufacture suspense, recap at the end, or
+add a call to action. End on an image, relation, action, or tension already
+established by the selected reading.
+
+Before finishing, compare the invitation with the entire editorial prose:
+does the chosen channel reveal a consequential reading, or could the text have
+been written from the ordinary translation and a modest explanation alone?
+When the editorial supports a surprising channel, the latter fails this task.
+Can the reader follow the opening expression into a connected background and
+understand how that background expands or shifts the ayah's main meaning?
+Check the selected connections against their editorial explanation: can the
+reader tell where the nonordinary details come from, with the necessary
+qualifications intact? Repair generic explanation, isolated curiosities, or a
+compressed findings list by developing the selected channel. Do not add
+omitted channels merely for coverage. Do not output this check.
+
+Write only the invitation text to:
+
+`_commentary/v5/editorial/s092-regular-20260912/s092/92_7/92_7.invitation.tr.md`
+
+Do not add a heading, wrapper label, index, ledger, evidence file, or any other
+artifact. Do not modify the editorial prose.
+
+After writing the invitation, run:
+
+```bash
+python3 _commentary/v5/validate_prose.py _commentary/v5/editorial/s092-regular-20260912/s092/92_7/92_7.invitation.tr.md
+```
+
+If validation fails, repair only the reported mechanical file-contract issues
+and rerun it, for at most two repair cycles. Report the final validator result
+in your response.
+
+<editorial_prose>
+## Sonucun Yönü
+
+Bu kısa cümle, verme, korunma, doğrulama ve iyi olana yönelme şartlarının sonucunu söyler: Allah o kişiyi gelecekte en kolay olana hazırlayacaktır (92:5, 92:6). Başındaki {ar:فَ, tr:fa, gloss:böylece}, gelecek fiilin hemen önünde durarak sonucu bu şartların üzerine bağlar; cümle böylece yeni ve bağımsız bir rahatlık bildirimi açmak yerine bekleyen cevabı tamamlar. {ar:سَنُيَسِّرُهُۥ, tr:se-nüyessiruhû, gloss:onu kolaylaştırıp hazırlayacağız} içindeki gelecek zaman işareti ve birinci çoğul çekim, bu işi ileride üstlenmeye dönük doğrudan bir vaat kurar. Sonundaki kişi zamiri, önceki şartta anılan insanı eylemin doğrudan alıcısı yapar; ardından gelen hedef ifadesi de bu kişinin hangi menzile yöneldiğini açıklar.
+
+{ar:لِ, tr:li, gloss:-e doğru, -için} bu eylem ile menzil arasındaki menteşedir: kolaylaştırmayı belli bir amaca ve yarara yöneltir. Yüzeyde belirli kelimeyle kaynaşan {ar:لِلْيُسْرَىٰ, tr:li’l-yusrâ, gloss:en kolay olana}, hedef yönünü daha ilk anda duyurur. Sonraki kelime olan {ar:ٱلْيُسْرَىٰ, tr:el-yusrâ, gloss:en kolay olan}, belirli dişil üstünlük biçiminin isim gibi kullanılmasıyla bir yol, durum veya sonuç içindeki en kolay menzili adlandırır. Belirlilik ve cümlenin sonundaki konum, vaadi belirsiz bir rahatlık duygusunda bırakmayıp belirli bir varışa indirir. Aynı gelecek sonuç ve hedef lâmı (92:10) korunur, fakat hedef {ar:لِلْعُسْرَىٰ, tr:li’l-usrâ, gloss:en güç olana} olur. İki cümle böylece eşlenmiş bir sonuç çerçevesi kurar; bu karşılaştırma 92:7’nin kolaylık kutbunu görünür kılar.
+
+Kolaylık kelime ailesi sözlüklerde yalnızca “kolay” diye kapanmaz; kolaylaşmayı, birini hazır duruma getirmeyi ve zorluk çıkarmadan kullanılabilir hâle getirmeyi de süreç ve davranış olarak taşır. İkinci kalıp olan {ar:سَنُيَسِّرُهُۥ, tr:se-nüyessiruhû, gloss:onu kolaylaştırıp hazırlayacağız}, bu malzemeyi kişi üzerinde gerçekleşen bir hazırlama eylemine çevirir; kişi zamiri alıcıyı, hedef lâmı da hazırlamanın yönünü belirler. Aynı aileden gelen fiil ile hedefin yan yana gelişi, kolaylığı hem yapılan işte hem varılan yerde duyurur: direnç geçilebilir olur, kullanılabilir bir imkân açılır ve kişi o menzile hazırlanır. Hazırlama ile kolay hedefin yan yana gelişi (87:8), hidayetin yön belirleyen niteliğiyle (92:12) buluşunca, bu yerel fiil-menzil bağını daha geniş bir hazırlık ve varış ilişkisi olarak duyurur. Bu ilişkinin kapsamı bir dünyevî yol adı veya davranışları zorunlu olarak sonuca götüren mekanik bir düzen değil, hazırlama ile varış arasındaki nitelikli bağdır. Hedefteki üstünlük biçiminin seyrek görünmesi, bu özel seçimi 87:8’deki yankı ve 94:5, 94:6’daki farklı kolaylık kuruluşları yanında belirginleştirir. Aktarılmış bir okuyuşta görülen sesli harf açılması ve ailenin yumuşak ses akışı da kolaylık basıncını kulağa taşır; ses varyantı kanonik yüzeyin gramerini korurken onun işitsel izini güçlendirir.
+
+## Hazırlamanın Açtığı Güzergâh
+
+Menzil belirli bir hedef olarak kurulduğunda, ilk bağlamsal görüntü hazırlamanın kapalı bir ihtimali girilebilir bir açıklığa dönüştürmesidir. Örtü görüntüsü {ar:يَغْشَىٰ, tr:yağşâ, gloss:örtüyor} ile görünürleşme {ar:تَجَلَّىٰ, tr:tecellâ, gloss:açığa çıktı} karşılaştığında (92:1, 92:2), güzergâh örtülmüş hâlden görünür hâle, oradan da içine girilebilen bir imkâna açılır. Gündüz tarafındaki açılma ve genişleme (92:2), yolu seçilebilir olmanın ötesinde geçişe elverişli kılar; {ar:سَنُيَسِّرُهُۥ, tr:se-nüyessiruhû, gloss:onu kolaylaştırıp hazırlayacağız} bu örtüden görünürlüğe ve görünürlükten girişe uzanan süreci tek bir hazırlama hareketinde toplar. Gündüz burada kolaylığın doğrudan kaynağı değil, gece ile birlikte örtülme ve görünürleşme arasındaki arka plan temasını kuran taraftır. “Açılış” da somut bir kapıdan çok, hazır hâle getirilen bir giriş menzili görüntüsüdür.
+
+Bu bağlamsal görüntü, kolaylaştırmayı ölçüsü alınmış, yüzeyi düzgünleştirilmiş ve kuvvet altında esneyerek işe yarar kalan bir imkân olarak gösterir. Hazırlama fiilinin güvenilir fakat bağlamı sınırlı bir sözlük kullanımında, bir şeyi aşağı doğru büküp burma ayrıntısı bulunur. Bu ayrıntı, ölçme ve oranlama yoluyla kullanıma hazırlanmış biçim anlamıyla {ar:خَلَقَ, tr:haleka, gloss:yarattı} eyleminde (92:3) buluşur; aynı âyetteki pürüzsüz ve düz yüzey görüntüsü, biçim verilen şeyin hareketi taşıyabilecek kesintisiz bir yüzey kazanmasını düşündürür. Kuvvet altında uyum sağlayan yay görüntüsü ise verme eylemiyle {ar:أَعْطَىٰ, tr:a‘tâ, gloss:verdi} (92:5) tetiklenir: verme, biçim verme ve basınç karşısında esnek kalma aynı kullanılabilirlik hareketine katılır. Hazırlama işleminin karşıt hedefle yeniden kurulması (92:10), bu esnekliği hedefe göre işleyen bir hazırlama hareketi olarak duyurur. 92:3’teki erkek-dişi karşıtlığı bu görüntüye düzenleyici bir arka plan sağlar; ölçülendirme, düzleşme, verme ve uyumlu esneme ise kolaylığın nasıl işe yarar hâle geldiğini adım adım açıklar. Bu sözlük teması, açık vaadin kapsamına eklenen şekillendirme rengidir; burma ve yay ayrıntıları bu nitelikli görüntü içinde kalır.
+
+Bir sonraki görüntü, kolaylaştırılan kişinin hedefe doğru yumuşak ve yönlendirilebilir bir hareket kazanmasıdır. Kolaylık alanının canlıya ilişkin özel kullanımında bu hareket, hafif bacaklar ve adımların iyi aktarılmasıyla görünür. Hareket çekirdeği, {ar:لِلْيُسْرَىٰ, tr:li’l-yusrâ, gloss:en kolay olana} hedefinin gösterdiği yönle birleşince kişinin kolay bir menzile doğru hafif, uyumlu ve akıcı ilerlemesini düşündürür. Bu bağlantının katkısı hedefe giden hareket tarzını açıklamaktır; canlıya ait ayrıntı burada kişinin hayvan olarak yeniden kurulmasına değil, yönlendirmeye çabuk uyan akışa hizmet eder. Amaçlı çaba {ar:سَعْيَكُمْ, tr:sa‘yukum, gloss:çabanız} ve farklı yönlere saçılma {ar:لَشَتَّىٰ, tr:leşettâ, gloss:dağınık ve çeşitli} bir arada görüldüğünde (92:4), hazırlama dağınık gayreti izlenebilir bir kanalda toplar ve seçilmiş bir yörüngeye akıtır. Kolaylık böylece çabadan sonra gelen rahatlığa ek olarak yönlendirilebilir bir ilerleyiş hâline gelir.
+
+Bu ilerleyişin katkısı, kolaylığı düz zemindeki çabasızlık değil, eğim üzerinde yönü koruyan bir geçiş olarak görünür kılmasıdır. Kontrolsüz düşüş (92:11), hidayetin yön vermesi (92:12) ve karşıt akıbet (92:15) birlikte düşünüldüğünde, kolay yol düşme ihtimali süren zorlayıcı bir eğimde kontrol edilebilir bir güzergâh hâline gelir. Hazırlama fiilinin hareket çekirdeği kişiyi bu eğimde ilerleyen biri olarak gösterir; 92:4’teki amaçlı hareket ile dağınıklık da böyle bir yönlendirmenin neden gerekli olduğunu açıklar. Bu bağlantı kişinin kaderi veya alışkanlığı hakkında ayrı bir hüküm kurmaz; sözlükteki hareket imgesi, hidayet ve karşıt sonuçla buluştuğunda kolaylaştırma vaadini nitelendirir.
+
+Güzergâhın katkısı yalnız hareketi akıtmak değil, önceki eylemlerin o hareket için uygun bir düzen hazırladığını göstermektir. Sonuç ilişkisini kuran {ar:فَ, tr:fa, gloss:böylece} ve yeniden görünen {ar:سَنُيَسِّرُهُۥ, tr:se-nüyessiruhû, gloss:onu kolaylaştırıp hazırlayacağız}, verme, korunma, eylemle doğrulama ve pratik iyilik düzenine karşılık veren bir hazırlamayı (92:5, 92:6) görünür kılar. Verme eylemi {ar:أَعْطَىٰ, tr:a‘tâ, gloss:verdi} dışarıya aktaran ve yolu başkasına açan hareketi kurar; korunma {ar:ٱتَّقَىٰ, tr:itteqâ, gloss:korundu} geçişin koşullarını etkin koruma ve sınır gözetmeyle ayakta tutar. Doğrulama {ar:صَدَّقَ, tr:saddaqa, gloss:doğruladı} onayı sözde bırakmayıp eyleme geçirir; {ar:بِٱلْحُسْنَىٰ, tr:bi’l-husnâ, gloss:iyi olana} ise bu fiillerin yöneldiği pratik iyiliği bir varış niteliği hâline getirir. Verme yolu açar, korunma geçişi ayakta tutar, doğrulama onu eyleme çevirir ve iyi olan bu hareketin yönünü belirler. Bu eylemler yolun uygunluğunu gösteren işaretlerdir; ilahî kolaylaştırmanın dışarıdan gelen boyutu ve bu fiillerle arasındaki ilişki açık bırakılır.
+
+## Hedefe Göre Biçimlenen Yol
+
+Aynı hazırlama kalıbının karşıt hedefe çevrilmesi (92:10), bu hareketin değerini hedefinden aldığını gösterir. Alıkoyma {ar:بَخِلَ, tr:bahila, gloss:eli sıkı davrandı} dışarıya açılan hareketi daraltır; kendini yeterli görme {ar:ٱسْتَغْنَىٰ, tr:isteğnâ, gloss:kendini yeterli gördü} dışarıdan desteğe kapalı bir hareket alanı kurar (92:8). İyiyi yalanlama {ar:كَذَّبَ, tr:kezzebe, gloss:yalanladı} karşıt güzergâhı biçimlendirirken, {ar:بِٱلْحُسْنَىٰ, tr:bi’l-husnâ, gloss:iyi olana} ile adlandırılan hedef (92:9) değeri varılan yere bağlar. {ar:ٱلْعُسْرَىٰ, tr:el-usrâ, gloss:en güç olan} bu yüzden yalnız iç sıkıntısı değil, yol boyunca direnç üreten bir patika gibi duyulur. Birikmiş imkân {ar:مَالُهُۥٓ, tr:mâluhu, gloss:malı}, düşüşe yuvarlanma {ar:تَرَدَّىٰٓ, tr:teraddâ, gloss:düşüşe yuvarlandı} anında (92:11) yetersiz kalır; kolaylık böylece dışarıda toplanmış varlıkla değil, yöneldiği hedefle birlikte anlaşılır.
+
+Bu ayrımın kazandırdığı yeni bakış, malı değersizleştirmeden imkânı sahiplikten ilerleme gücüne doğru görmektir. Sahip olma hâli, hidayetin yön vermesiyle (92:12) bir yola girebilme ve o yolda ilerleyebilme kapasitesine doğru açılır. Kolaylık hidayet kelimesiyle özdeşleşmeden, hidayetin yönü maddi imkânı elde tutulan bir bolluktan kullanılabilir bir ilerleme gücüne dönüştüren koşulu görünür kılar. Hazırlama böylece rahatlığın kendisinden çok, hangi yöne akacağı belirlenmiş bir kapasiteyi biçimlendirir.
+
+Gelecek zaman işaretinin kazandırdığı başka bir boyut, hazırlamayı ilk adımdan sonuca uzanan bir oluş süreci olarak duyurmaktır. Başlangıç, bir şeyin peş peşe oluşu ve daha sonraki zaman izleri (92:13), {ar:سَنُيَسِّرُهُۥ, tr:se-nüyessiruhû, gloss:onu kolaylaştırıp hazırlayacağız} fiilini ardışık ayarlara açar. Hazır hâle gelme böylece bir anda verilmiş sonuçtan çok, zaman içinde oluşan bir süreç gibi görünür. Bu okuma belirli aşamaları veya değişmez bir zaman cetvelini sabitlemez; geleceğe açılan vaadin daha geniş bir oluş aralığı taşıyabileceğini açık bırakır.
+
+Bu yönün kazandırdığı görüntü, tehlike alanının yanından geçen koruyucu bir koridordur. Ateşin oluşturduğu alan, ateşle temasın gerçekleşen zararı, yana sevk ve zararı savuşturma izleri (92:14, 92:15, 92:17) buluştuğunda, {ar:سَنُيَسِّرُهُۥ, tr:se-nüyessiruhû, gloss:onu kolaylaştırıp hazırlayacağız} içindeki hazır duruma getirme kişiyi zor yolda daha az acı çeker hâle getiren bir rahatlığın ötesine geçer ve onu tehlike bölgesinin yanından geçirilebilir kılar. Ateşten kaçış burada cümlenin söz dizimsel iddiası değil, hazırlama yönünün ateş, temas, yana sevk ve korunma imgeleriyle aldığı ihtiyatlı mekânsal genişlemedir. Kolaylık bu bağlantıda tehlikeyi silmekten çok, zarar ihtimali bulunan alanda korunmuş bir geçiş imkânı açar.
+
+## Dolaşan İmkân
+
+Bu hedefin kazandırdığı yön, karşılık beklemeyen bir vermeden yukarıya doğru ilerleyen istikamettir. Verilen nimetin geri ödenebilir bir borç gibi kurulmayışı, aramanın ve yönelmenin sonunda daha yükseğe bakışla buluştuğunda (92:18, 92:19, 92:20) {ar:لِلْيُسْرَىٰ, tr:li’l-yusrâ, gloss:en kolay olana} hedefini yatay bir hesaplaşmanın sonucu olmaktan çıkarıp yukarıya dönük bir istikamet hâline getirir. Verme burada borç kapatma amacıyla yapılan bir alışveriş değil, eylemi bir hedefe doğru düzenleyen bir açılış olarak duyulur. Hedefe yöneliş ile hazırlanmış sonuç arasındaki nedensellik tek bir mekanizmaya sabitlenmez; yöneliş, hazırlamanın yanında yaşayan bir istikamet olarak kalır.
+
+Aynı kelime ailesinin maddi bolluk yönünün kazandırdığı görüntü, elde tutulan stok değil, dışarıya bırakıldıkça üretkenleşen imkândır. Varlıklı olma anlamı; verme, sahip olma, artma ve arınma izleriyle (92:18) buluştuğunda {ar:لِلْيُسْرَىٰ, tr:li’l-yusrâ, gloss:en kolay olana} içindeki bolluk dolaşım kazanır. Verilen malın ardından artışın gelmesi, kolaylığı harcamadan sonra imkânın büyümesi şeklinde somutlaştırır; arınma ise bu büyümeyi yalnızca miktar artışına indirgemeyip onun niteliğini de korur. Bu, doğrudan bir ekonomik vaat değil, maddi bolluk anlamının verme ve arınma bağlamında kazandığı nitelikli bir dolaşım görüntüsüdür. Mal, elde tutulduğu için değil, kişiyi iyi yönde ilerletebilecek kullanılabilir bir güç hâline geldiği için kolaylıkla ilişkilendirilir.
+
+Bu dolaşımın kazandırdığı son hareket, arınma ve hoşnutluğa uzanan bir tamamlanmadır. Verme, geri ödeme beklentisinin kalkması, yüze yönelme ve arınma; yetiştirme, onarma ve tamamlamaya dönük kullanımla (92:20), son hoşnutlukla da (92:21) buluştuğunda, {ar:سَنُيَسِّرُهُۥ, tr:se-nüyessiruhû, gloss:onu kolaylaştırıp hazırlayacağız} içindeki hazırlama kişiyi hazırlanmış sonucu zamanla taşıyabilecek bir hâle gelen biri olarak duyurur. Kolaylık burada dışarıdan ulaşılacak tek bir sonuçtan çok, kişiyi dönüştüren ve sonunda yaşanabilir hâle gelen bir olgunlaşma görüntüsüdür. Hoşnutluk bu çizginin içinde oluşan bir tamamlanma da olabilir, yalnızca son ödül olarak da kalabilir; gelişim oku bu yüzden açık fakat ihtiyatlıdır.
+
+## Yan, Pay ve Üretkenlik
+
+Hedefin daha uzak bir kullanımının kazandırdığı görüntü, değişimi bir koridora yönlendiren yanal rotadır. Aynı kelime ailesinin sol el veya sol yönü belirten kullanımı, karşıt yan ve yana sevk hareketiyle (92:10, 92:17) buluştuğunda bu rotayı somutlaştırır. {ar:لِلْيُسْرَىٰ, tr:li’l-yusrâ, gloss:en kolay olana} kelimesi burada “sol” diye çevrilmeden, hedefe doğru aktarımın yön bakımından nasıl duyulabileceğini gösterir; sol tarafın ahlaki değerine ilişkin bir hüküm de bu bağlantının kapsamına girmez. Bu yanal rota, hemen ardından gelen pay görüntüsünden ayrı olarak kendi katkısını korur.
+
+Ayrı bir uzak kullanımın kazandırdığı görüntü, kura ile belirlenen payın geri ödeme hesabının dışındaki dağıtımıdır. Devenin kesilip parçalarının oklarla belirlenen paylara bölünmesiyle oluşan lot görüntüsü, karşılık ve kap/pay ilişkileriyle (92:19, 92:20), kura ve pay bağlamlarıyla (2:219, 5:90, 5:91) temas ettiğinde, kişiye hazırlanan payı böyle bir dağıtım olarak düşündürür. Yanal rota yana aktarılmayı, bu pay görüntüsü ise karşılıklı borç hesabının dışında belirlenen hisseyi görünür kılar. Kumarla ilgili bağlamların sakınma ve zarar çizgisi, bu çağrışımın sınırını belirler; bu nedenle {ar:لِلْيُسْرَىٰ, tr:li’l-yusrâ, gloss:en kolay olana} kelimesi “kumar” diye çevrilmez, yalnızca kolay hedefin alışılmış yön veya pay düzeniyle tüketilemeyen bir atama gibi duyulmasına katkı verir.
+
+Son olarak özel bir canlılık kullanımının kazandırdığı görüntü, serbest bırakılan imkânın yeni hayat ve kullanılabilir ürün meydana getirmesidir. Kolaylık alanındaki bu kullanım koyun sürüsünde sütün çoğalması ve yavru sayısının artmasıyla görünür; verme ve artma, hayvan varlığı ve toplanmış sürü görüntüsüyle (92:18, 92:19, 92:20) buluştuğunda {ar:لِلْيُسْرَىٰ, tr:li’l-yusrâ, gloss:en kolay olana} hedefi üretken bir kapasite olarak duyurur. Bu canlılık, maddi kapasiteyi genişleten bir benzetmedir; hayvan veya tarımsal çoğalma vaadi bu bağlantının kapsamına girmez. Hazırlanan kolaylık böylece serbest bırakıldığında büyüyen ve işe yarar hâle gelen bir imkân görüntüsünde tamamlanır.
+
+</editorial_prose>

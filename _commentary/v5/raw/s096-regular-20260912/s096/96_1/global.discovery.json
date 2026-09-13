@@ -1,0 +1,606 @@
+{
+  "schema_version": "commentary-v5-scope-discovery-v1",
+  "ayah_ref": "96:1",
+  "lane": "global",
+  "coverage_complete": true,
+  "candidate_decisions": [
+    {
+      "candidate_id": "cand_2a2e53dcf22fb1defefe",
+      "decision": "accept",
+      "reason": "Güvenilir yayın bulgusu, 96:1:5'teki yaratma taşıyıcısını ölçü, var etme ve iç biçim verme ilişkileriyle birlikte açıkça temellendirir; sonraki sınır aşımı bağlantısı anlamı maddi olarak değiştirir.",
+      "finding_refs": ["global:xlq-measured-formation"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_211e99eb0fb0b9533e2e",
+      "decision": "accept",
+      "reason": "Güvenilir yayın bulgusu, رَبِّكَ taşıyıcısında sahiplik ve yönetimi, yaratma ile öğretimi aşama aşama tamamlayan yetiştirme ilişkisine bağlar; üç supplied dal aynı açıklayıcı bakım zincirinde birleşir.",
+      "finding_refs": ["global:rabb-nurturing-formation"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_964927036345e65e8066",
+      "decision": "accept",
+      "reason": "Güvenilir yayın bulgusu, yaratmanın gerçek var etme anlamını aynı taşıyıcının uydurup yalan üretme dalıyla karşılaştırır; 52:35 ve 26:137 bağlantıları bu karşıtlığı bağımsız biçimde tetikler.",
+      "finding_refs": ["global:creation-against-fabrication"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_95f9318ce2216a15b428",
+      "decision": "narrow",
+      "reason": "Kaydın odaklanmış ve taşınabilir çekirdeği, اقْرَأْ emrinin sözü toplayıp okunabilir bütün halinde düzenlemesi ve iki çözülmemiş q-r-ء adayında görünür; yaratma ve yalan karşıtlığı ayrı bulgularda korunur, falsehood dalı için focus taşıyıcısı verilmediğinden bu bulguya alınmaz.",
+      "finding_refs": ["global:recitation-as-gathering"],
+      "branch_exclusions": [
+        {
+          "branch_ref": "root_000434/B001",
+          "reason": "Ölçme dalı bu candidate içindeki toplama iddiasının mekanizması değildir; aynı dal global:xlq-measured-formation ve global:measured-creation-as-continuing-care bulgularında ayrı korunur."
+        },
+        {
+          "branch_ref": "root_000434/B002",
+          "reason": "Var etme dalı, toplama ve okunabilir bütün iddiasından farklı bir yaratma ilişkisi kurar; global:xlq-measured-formation ve global:creation-against-fabrication bulgularında ayrı korunur."
+        },
+    {
+      "branch_ref": "root_001290/B001",
+      "reason": "Nominated falsehood dalı için packet'te geçerli focus veya context taşıyıcısı yoktur; bu dal branch activation olarak karaya indirilemez."
+    },
+    {
+      "branch_ref": "root_000532/B002",
+      "reason": "Rabb'in aşama aşama yetiştirme çekirdeği bu candidate'in q-r-ء toplama bulgusuna taşınmaz; aynı dal global:rabb-nurturing-formation bulgusunda ayrı korunur."
+    }
+      ],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_18123dfe030f27d470b5",
+      "decision": "accept",
+      "reason": "Retrospektif reader-walk kaydı, açılıştaki emrin ilerideki rakip buyruğa karşı yetkilendirilmiş bir bağlılık eylemi olarak yeniden duyulmasını focus act ve named-authority bağlantısıyla ilişkilendirir; bu, sırf okuma emrinden ayrı bir global act-level değişimdir.",
+      "finding_refs": ["global:allegiance-bearing-imperative"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_91447a32d402f092676d",
+      "decision": "represented",
+      "reason": "Aynı iki unresolved q-r-ء dalını ve aynı gathering-speech anlamını taşıyan exact duplicate, global:recitation-as-gathering bulgusunda zaten korunmuştur.",
+      "finding_refs": ["global:recitation-as-gathering"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_a60ca2c7ef138d3ba9a1",
+      "decision": "accept",
+      "reason": "Reader-walk kaydı, خَلَقَ taşıyıcısındaki önceden ölçme baskısını رَبِّكَ ile birlikte öğretim ve aşama aşama tamamlanma ilişkisine bağlar; bu, sınır ihlali karşıtlığından farklı bir devam eden yetiştirme etkisidir.",
+      "finding_refs": ["global:measured-creation-as-continuing-care"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_5a0aa7adb0d6844e9ebf",
+      "decision": "accept",
+      "reason": "Reader-walk kaydı, بِاسْمِ رَبِّكَ içindeki اسم dalını adlandırma ile belirginleşen ve kaynağın yükseltici açıklamasıyla yetki taşıyan bir başlangıç olarak temellendirir; tekrar eden isim-Rab bağlantıları bağımsız destek sağlar.",
+      "finding_refs": ["global:named-authority"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_92945d68eee0114130e3",
+      "decision": "represented",
+      "reason": "Ölçü ile sonraki sınır aşımı arasındaki claim, global:xlq-measured-formation bulgusunda aynı focus dalı ve aynı anlam ilişkisiyle zaten taşınmıştır; unresolved ط غ ي kaydı yeni bir branch sağlamaz.",
+      "finding_refs": ["global:xlq-measured-formation"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_ea84a1353fc98b9ac3f0",
+      "decision": "accept",
+      "reason": "Retrospektif kayıt, q-r-ء toplama adaylarını ve خَلَقَ ölçme dalını tek bir before/after yeniden-duyma mekanizmasında birlikte sunar; her üç supplied branch focus taşıyıcısıyla karaya indirilir ve q-r-ء belirsizliği görünür tutulur.",
+      "finding_refs": ["global:retrospective-reframing"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_bc25a82210925a10f97d",
+      "decision": "reject",
+      "reason": "HFT summary kaydı anchor_refs ve branch_refs içermiyor; packet'in HFT anchor coverage değeri sıfır ve supplied trace focus taşıyıcısı, bağımsız trigger veya focus return vermiyor. Bu nedenle kayıt görünür bir nomination olarak değerlendirilmiş, global activation olarak karaya indirilememiştir.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_4ee12126ee4fdca1188d",
+      "decision": "reject",
+      "reason": "Pen ile formation iddiası yalnızca unanchored HFT payload'ında bulunuyor; exact context occurrence, focus return ve bağımsız lexical carrier verilmediği için discovery finding'i olarak tutulamaz.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_6a3b0043ec3d07d07f8a",
+      "decision": "reject",
+      "reason": "Prohibition-prayer ve bodily allegiance iddiası unanchored HFT summary'sinde kalıyor; supplied packet'te bunu taşıyan focus branch, exact context occurrence veya focus-return trace bulunmuyor.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_34814571e0a3e9746dc6",
+      "decision": "reject",
+      "reason": "Gestational reading yalnızca anchor'sız HFT summary payload'ında bildiriliyor; packet'te focus'a dönen geçerli branch veya context carrier sağlanmadığından aktivasyon koşulu tamamlanmıyor.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_8d8bc9d7db2f1bb70928",
+      "decision": "reject",
+      "reason": "HFT'nin broad crossing summary'si q-r-ء, ism ve خَلَقَ için bağımsız anchor veya supplied role vermiyor; mevcut focus branch bulgularının ötesinde doğrulanabilir bir global taşıyıcı ve return yok.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_f5dc4f7564eff336c747",
+      "decision": "reject",
+      "reason": "Gathering ve womb benzetmelerinin unresolved kalması tek başına activation sağlamıyor; HFT kaydı exact coordinate, root, attributed role ve focus return içermiyor.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_a451177e546552b7fd0a",
+      "decision": "reject",
+      "reason": "w-s-m ve s-m-m mapping'leri packet'te supplied branch registry veya focus occurrence olarak bulunmuyor; HFT summary'sinin activation cue iddiası focus'a dönen bir carrier ile sınanamıyor.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_2ea64ab019aaf08d17bd",
+      "decision": "reject",
+      "reason": "Acoustic-return ve hydrological modeller HFT payload'ında yalnızca unanchored cross-domain synthesis olarak veriliyor; exact carrier, trigger ve focus return bulunmadığından ayrı bir global activation kurulamaz.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    }
+  ],
+  "findings": [
+    {
+      "finding_ref": "global:xlq-measured-formation",
+      "origin_candidate_id": "cand_2a2e53dcf22fb1defefe",
+      "represented_candidate_ids": ["cand_92945d68eee0114130e3"],
+      "title": "Yaratma ölçülü oluşumu ve iç biçimi görünür kılar",
+      "claim": "خَلَقَ taşıyıcısı, yaratmayı yalnızca ortaya çıkarma değil, ölçü ve insana biçim kazandıran bir oluşum ilişkisi olarak da açar; sonraki sınır aşımı bu kurulmuş ölçüyle okunabilir.",
+      "mechanism": "Focus'taki خَلَقَ fiili ölçüp sınır belirleme, var etme ve iç karakter dallarıyla aynı yüzeyde buluşur; supplied creator-comparison, human-proportion ve moral-disposition bağlantıları bu dalları bağımsız biçimde tetikleyince sonraki sınır aşımı ölçünün ihlali olarak görünür.",
+      "reader_payoff": "Yaratan ifadesi, insanı yalnızca varlığa getiren bir başlangıç adı olmaktan çıkıp ölçü ve iç yön veren oluşumun kaynağı olarak belirginleşir.",
+      "containment": "Yaratan Rabbinin adıyla oku temel okuması korunur. Ölçü ve iç karakter ilişkisi focus dalının qualified/accepted kaynak sınırları içinde tutulur; yaratılmış ölçünün davranışı zorunlu kıldığı veya bu fiilin yerel olarak yalan anlamına geldiği söylenmez.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": ["trusted"],
+        "reason": "Trusted cross-run publication supplies the exact focus carrier and the three named branches; the relation between measured formation and later boundary crossing is an explicitly bounded global inference."
+      },
+      "support_ids": ["sup_44346958fbfd3d2a4e57", "sup_3552b0ad3a47f820be9b", "sup_38121ca6ce0a5c1b59de"],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000434/B001",
+          "facet_id": "F001",
+          "branch_gloss": "ölçüp sınırlarını belirleme",
+          "facet_statement": "Nesnenin ölçüsü ve sınırları yapılacak işten önce belirlenir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["96:1:5:1"],
+          "trigger_refs": ["conn_620d71c3d4dd0d07b290", "conn_0d37b6d22d45fb7d5395"],
+          "focus_return_refs": ["96:1:5:1"],
+          "carrier": "96:1:5:1'deki خَلَقَ fiili ölçülü oluşum ihtimalini taşıyan focus biçimidir.",
+          "independent_trigger": "80:19 ve 77:23 bağlantıları supplied yaratma ile ölçme ve belirleme aşamasını birlikte gösterir.",
+          "activation": "Yaratma taşıyıcısı ölçme ve belirleme bağlantılarıyla temas edince fiil, yalnızca başlangıçta var etme değil, oluşumun sınırlarını önceden kurma ilişkisini de taşır.",
+          "resulting_reading": "Yaratıcı kaynak, insanın daha sonra aşabileceği ölçülü bir oluşum düzeni kurar.",
+          "boundary": "Ölçme dalı yaratmanın bütün sözlüksel alanı değildir; sonraki davranışın bu ölçü tarafından zorunlu kılındığı iddia edilmez."
+        },
+        {
+          "branch_ref": "root_000434/B002",
+          "facet_id": "F001",
+          "branch_gloss": "var etme ve ortaya çıkarma",
+          "facet_statement": "Bir şey ortaya çıkarılır ve varlık kazanır.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["96:1:5:1"],
+          "trigger_refs": ["conn_93677c4a182c78532af2", "conn_8f5fd76990de88fc4c02"],
+          "focus_return_refs": ["96:1:5:1"],
+          "carrier": "خَلَقَ, ayetin açık yüzeyinde bir şeyi varlığa getiren etkin fiildir.",
+          "independent_trigger": "52:35 ve 82:7 bağlantıları yaratma fiilini insanın oluşumu ve yaratıcı karşılaştırmasıyla çerçeveler.",
+          "activation": "Bu creator-frame, focus fiilinin gerçek var etme ilişkisini görünür kılar; ölçme ve iç biçim baskısı bu temel ortaya çıkarma eyleminin üzerinde çalışır.",
+          "resulting_reading": "Rab, okunması istenen sözün ve muhatabın varlık kaynağı olarak adlandırılır.",
+          "boundary": "Bu activation, fiili gündelik üretme anlamına indirmez ve yerel yaratma okumasını başka bir anlama taşımaz."
+        },
+        {
+          "branch_ref": "root_000434/B004",
+          "facet_id": "F001",
+          "branch_gloss": "huy ve iç karakter",
+          "facet_statement": "Kişinin iç dünyasında yerleşmiş bir huy ve davranış eğilimi bulunur.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["96:1:5:1"],
+          "trigger_refs": ["conn_dc25850647cba48790b5", "conn_f7ee86f7db1d7e915f93"],
+          "focus_return_refs": ["96:1:5:1"],
+          "carrier": "Aynı خَلَقَ fiili, created formation'ın içte yerleşen eğilim boyutuna dönebilen focus taşıyıcısıdır.",
+          "independent_trigger": "68:4'teki supplied خُلُق bağlantısı ve 95:4'teki insanın ölçülü yaratılışı, dış biçimden iç yönelime uzanan ayrı temaslar sağlar.",
+          "activation": "Yaratma fiili iç karakter bağlantısıyla temas edince insanın oluşumu yalnız bedenin ortaya çıkışı değil, davranışa yön veren bir iç biçim kazanma olarak okunur.",
+          "resulting_reading": "Yaratan, insanın dış varlığıyla birlikte iç yönünü biçimlendiren kaynak olarak duyulur.",
+          "boundary": "Qualified iç karakter dalı bütün kişiliği veya yaratmanın zorunlu ahlaki sonucunu ifade etmez; bu, supplied global resonance olarak kalır."
+        }
+      ],
+      "connection_refs": ["conn_620d71c3d4dd0d07b290", "conn_0d37b6d22d45fb7d5395", "conn_93677c4a182c78532af2", "conn_8f5fd76990de88fc4c02", "conn_dc25850647cba48790b5", "conn_f7ee86f7db1d7e915f93"],
+      "context_refs": [],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:rabb-nurturing-formation",
+      "origin_candidate_id": "cand_211e99eb0fb0b9533e2e",
+      "represented_candidate_ids": [],
+      "title": "Rabb sahiplikten yetiştirmeye uzanır",
+      "claim": "رَبِّكَ taşıyıcısı, sahip olup yönetme anlamının yanında yaratmayı öğretimle sürdürerek gözetileni eksikten tamamlanmışa götüren bir yetiştirme ilişkisini de açar.",
+      "mechanism": "Genitif رَبِّكَ ilişkisi muhatabı named authority'ye bağlar; Rabb sahipliği, öğretim ve aşama aşama tamamlama bağlantılarıyla temas ettiğinde okuma emri buyruğu veren bir makamdan gelen gelişim ve bilgi sürecine dönüşür.",
+      "reader_payoff": "Rabbin ifadesi, yalnızca hükmeden bir sahipliği değil, bilgiyi ve oluşumu adım adım tamamlayan ilişkiyi de görünür kılar.",
+      "containment": "Sahiplik ve yönetim taşıyan temel Rab okuması korunur. Yetiştirme ve öğretici bilgin dalları, supplied connections'ın açtığı qualified global relation'dır; insan öğretmen ile ilahi Rabb özdeşleştirilmez.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": ["trusted"],
+        "reason": "Trusted publication support supplies the exact focus Rabb carrier and all three relevant branch identities; the single care-chain relation is an explicit bounded inference from the supplied teaching connections."
+      },
+      "support_ids": ["sup_b471436556258ece29e0"],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000532/B001",
+          "facet_id": "F001",
+          "branch_gloss": "sahip olup yönetme",
+          "facet_statement": "Sahiplik, buyruk yetkisi ve yönetip düzenleme aynı çekirdekte birleşir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["96:1:3:1"],
+          "trigger_refs": ["conn_8eb82912102d9749af44"],
+          "focus_return_refs": ["96:1:3:1"],
+          "carrier": "رَبِّكَ, muhataba aitlik ekiyle birlikte buyruğun yöneldiği sahip ve düzenleyici makamı taşır.",
+          "independent_trigger": "45:36 bağlantısı Rabb adını göklerin ve yerin yöneticisi olarak açıkça genişletir.",
+          "activation": "Sahiplik ve yönetim teması, emrin kimin adına ve yetkisiyle verildiğini belirginleştirir; ardından gelen خَلَقَ bu makamı yaratıcı eyleme bağlar.",
+          "resulting_reading": "Okuma, adı geçen Rabbin yönettiği ve kaynağını verdiği bir ilişki içinde gerçekleşir.",
+          "boundary": "Tamlamalı رَبِّكَ kullanımı mutlak bütün ilahî adlandırmalarla veya packet dışı otorite iddialarıyla genişletilmez."
+        },
+        {
+          "branch_ref": "root_000532/B002",
+          "facet_id": "F001",
+          "branch_gloss": "adım adım yetiştirip tamamlama",
+          "facet_statement": "Süreç, gözetilen şeyi eksik durumdan tamamlanmış duruma doğru geliştirir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["96:1:3:1"],
+          "trigger_refs": ["conn_aa2770ca8afb281d31c9", "conn_178740a6a823bfeacd04"],
+          "focus_return_refs": ["96:1:3:1"],
+          "carrier": "رَبِّكَ, yaratanla birlikte anılan Rabb adıdır ve aşamalı gözetme ilişkisini taşıyabilir.",
+          "independent_trigger": "55:2 ile 2:151 bağlantıları öğretim, recitation ve bilginin zaman içinde aktarılmasını supplied biçimde bir araya getirir.",
+          "activation": "Rabb taşıyıcısı öğretim ve kademeli gelişim temasına değince yaratma, tek seferlik bir geçmiş niteliği olmaktan çıkıp tamamlanmaya doğru süren bir bakım ilişkisi olarak görünür.",
+          "resulting_reading": "Okuma emri, yetiştiren Rabbin bilgi ve oluşum sürecine açılan ilk buyruğudur.",
+          "boundary": "Aşamalı yetiştirme relation'ı focus ayetinin bütün öğretim ayrıntılarını veya tek bir pedagojik yöntemi iddia etmez."
+        },
+        {
+          "branch_ref": "root_000532/B003",
+          "facet_id": "F001",
+          "branch_gloss": "Tanrı bilgisiyle yetiştiren bilgin",
+          "facet_statement": "Kişi Tanrı bilgisiyle ve dinî konulardaki sağlam bilgisiyle tanımlanır.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["96:1:3:1"],
+          "trigger_refs": ["conn_f1322fe13816c4c7dc69"],
+          "focus_return_refs": ["96:1:3:1"],
+          "carrier": "رَبِّكَ yüzeyi, bilgiyi yalnız taşıyan değil onu Tanrı bilgisiyle aktararak yetiştiren bir role açılabilen focus adıdır.",
+          "independent_trigger": "3:79 bağlantısı kitabı öğretme ve insanları Rabbânî olmaya çağırmayı aynı supplied scene içinde verir.",
+          "activation": "Öğreten-bilen Rabb teması, خَلَقَ ile yan yana geldiğinde yaratıcı otoriteyi bilgi aktarımıyla devam eden bir yetiştirme eylemine bağlar.",
+          "resulting_reading": "Rabbin adı altında okumak, kaynağı ilahî olan bilginin yetiştirici aktarımına bağlanır.",
+          "boundary": "Bu dal, focus konuşanını insan bilgin olarak adlandırmaz; supplied branch relation yalnız Rabb adının öğretici yönünü qualified biçimde taşır."
+        }
+      ],
+      "connection_refs": ["conn_8eb82912102d9749af44", "conn_aa2770ca8afb281d31c9", "conn_178740a6a823bfeacd04", "conn_f1322fe13816c4c7dc69"],
+      "context_refs": [],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:creation-against-fabrication",
+      "origin_candidate_id": "cand_964927036345e65e8066",
+      "represented_candidate_ids": [],
+      "title": "Gerçek var etme ile sözde gerçeklik kurma karşılaşır",
+      "claim": "خَلَقَ fiilinin gerçek var etme dalı, aynı focus yüzeyinin uydurup yalan üretme dalıyla temas ettiğinde, yaratıcı otorite ile sözle sahte gerçeklik kurma çabası arasında bir karşıtlık açar.",
+      "mechanism": "Focus fiili gerçek bir şeyi var etme taşıyıcısıdır; 52:35'teki creator karşılaştırması ve 26:137'deki false-construction bağlantısı bağımsız trigger olarak temas edince, ilerideki yalanlama supplied reading içinde yaratmanın taklidi gibi görünür.",
+      "reader_payoff": "Yaratmak kelimesinin daha sonra söz ve anlatı uydurma için de kullanılan aynı yüzeyi, gerçek oluşum ile gerçekmiş gibi sunulan söz arasındaki farkı görünür kılar.",
+      "containment": "Bir şeyi yaratıp var eden Rabbin temel okuması korunur. Uydurma dalı burada contrastive global resonance'dır; 96:1'deki fiilin yerel anlamı yalan üretmek olarak değiştirilmez.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": ["trusted"],
+        "reason": "Trusted publication support supplies both exact focus branches and their anchor; the creator-versus-fabrication relation is a bounded inference corroborated by the supplied connection nominations."
+      },
+      "support_ids": ["sup_9e6252242f56dcfa2ea5"],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000434/B002",
+          "facet_id": "F001",
+          "branch_gloss": "var etme ve ortaya çıkarma",
+          "facet_statement": "Bir şey ortaya çıkarılır ve varlık kazanır.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["96:1:5:1"],
+          "trigger_refs": ["conn_93677c4a182c78532af2", "conn_8dab2d6e89230d6388e4"],
+          "focus_return_refs": ["96:1:5:1"],
+          "carrier": "خَلَقَ, gerçek bir şeyi ortaya çıkaran etkin eylem olarak focus carrier'dır.",
+          "independent_trigger": "52:35 ve 15:86 bağlantıları yaratıcı eylemi yaratılmış olanla ve Rabb adıyla karşılaştırır.",
+          "activation": "Creator contrast, focus fiilinin gerçek var etme çekirdeğini öne çıkarınca karşısındaki sözde kurma hareketi ayrı bir kutup kazanır.",
+          "resulting_reading": "Ayetin yaratıcı kaynağa yönelen emri, gerçek oluşumun kaynağına bağlanan bir konuşma eylemi olarak belirginleşir.",
+          "boundary": "Bu dal yaratmanın ölçü veya iç karakter ayrıntılarını tek başına taşımaz; contrastive relation fiilin yerel gloss'unu silmez."
+        },
+        {
+          "branch_ref": "root_000434/B007",
+          "facet_id": "F001",
+          "branch_gloss": "uydurup yalan üretme",
+          "facet_statement": "Gerçeği olmayan bir söz veya anlatı tasarlanıp üretilir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["96:1:5:1"],
+          "trigger_refs": ["conn_aaa69c3f5be8fd0c58fb", "conn_93677c4a182c78532af2"],
+          "focus_return_refs": ["96:1:5:1"],
+          "carrier": "Aynı خَلَقَ yüzeyi, branch registry'de gerçeği olmayan söz tasarlama dalına da bağlanır.",
+          "independent_trigger": "26:137 ve 52:35 bağlantıları yaratma adını false construction ve rival-creator sınırıyla birlikte gösterir.",
+          "activation": "Gerçek var etme taşıyıcısı, falsehood dalıyla aynı yüzeyde karşılaştırılınca sözün uydurulması gerçek yaratmanın karşısında sahte bir kurma hareketi olarak okunur.",
+          "resulting_reading": "Yaratıcı Rab adına başlayan okuma, insanın kendi uydurduğu gerçeklik iddiasından ayrılan bir kaynak-bağlılık kazanır.",
+          "boundary": "96:1'de خَلَقَ fiilinin yalan söylediği iddia edilmez; falsehood dalı supplied global contrast olarak kalır."
+        }
+      ],
+      "connection_refs": ["conn_93677c4a182c78532af2", "conn_8dab2d6e89230d6388e4", "conn_aaa69c3f5be8fd0c58fb"],
+      "context_refs": [],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:recitation-as-gathering",
+      "origin_candidate_id": "cand_95f9318ce2216a15b428",
+      "represented_candidate_ids": ["cand_91447a32d402f092676d"],
+      "title": "Okuma dağınık sözü okunabilir bütünde toplar",
+      "claim": "ٱقْرَأْ emri, yalnızca seslendirme değil, sözü toplayıp okunabilir bir bütün halinde düzenleyen bir eylem olarak da açılır.",
+      "mechanism": "Focus'taki emir, iki ayrı q-r-ء adayının toplama ve sözü bir araya getirerek recitation anlamıyla temas eder; 17:14 bağlantısı okumayı bir kitabın karşısında gerçekleşen belirli bir act olarak bağımsız biçimde tetikler.",
+      "reader_payoff": "Okuma emri, hazır bir metni seslendirmekten öte, dağınık işaretleri ve edinilmiş bilgiyi düzenli söze toplama hareketi olarak görünür.",
+      "containment": "Yaratan Rabbinin adıyla oku temel emri korunur. q-r-ء mapping'i iki nominated alternatif olarak attributed tutulur; her dictionary branch'in aynı anda etkin olduğu veya yaratma ve otorite bulgularının bu finding'e indirgenebileceği söylenmez.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": ["legacy_unbound"],
+        "reason": "The reader-walk supports explicitly nominate the two focus-carried q-r-ء source images and a direct reading connection, but the packet marks their root mapping as unresolved and legacy-unbound."
+      },
+      "support_ids": ["sup_8dba819d88a78d26439e", "sup_ceda0b2191df89698676"],
+      "branch_activations": [
+        {
+          "branch_ref": "root_001210/B001",
+          "facet_id": "SOURCE_IMAGE",
+          "branch_gloss": "collecting and gathering",
+          "facet_statement": "collecting and gathering",
+          "application_mode": "attributed",
+          "carrier_refs": ["96:1:1:1"],
+          "trigger_refs": ["conn_6bbc5030a881db88d0f6"],
+          "focus_return_refs": ["96:1:1:1"],
+          "carrier": "ٱقْرَأْ, supplied focus imperative, q-r-ء toplama image'ının olası taşıyıcısıdır.",
+          "independent_trigger": "17:14 bağlantısı ٱقْرَأْ fiilini bir kitapla karşı karşıya gerçekleşen okuma eylemi olarak sunar.",
+          "activation": "Okuma eylemi toplama image'ıyla temas edince emir, işaretleri ve bilgiyi tek bir okunabilir bütün içinde bir araya getirme hareketini de görünür kılar.",
+          "resulting_reading": "Oku, sözü dağınık unsurlardan düzenli ve aktarılabilir bir bütüne toplama çağrısı olarak duyulur.",
+          "boundary": "root_001210/B001 packet'te nominated ve unresolved'dur; gathering'in her olası örneği bu ayette etkin sayılmaz."
+        },
+        {
+          "branch_ref": "root_001211/B001",
+          "facet_id": "SOURCE_IMAGE",
+          "branch_gloss": "gathering speech into recitation",
+          "facet_statement": "gathering speech into recitation",
+          "application_mode": "attributed",
+          "carrier_refs": ["96:1:1:1"],
+          "trigger_refs": ["conn_6bbc5030a881db88d0f6"],
+          "focus_return_refs": ["96:1:1:1"],
+          "carrier": "Aynı ٱقْرَأْ emri, sözü bir araya getirip okunur hale getiren recitation image'ının focus carrier'ıdır.",
+          "independent_trigger": "17:14'teki supplied اقرأ كتابك bağlantısı, okumanın bir söz veya metinle düzenli temas kurduğunu gösterir.",
+          "activation": "Sözü gathering olarak kuran q-r-ء image'ı, focus emriyle temas edince seslendirme ile bütünleştirme aynı act içinde birleşir.",
+          "resulting_reading": "Oku, adı verilen kaynağın yetkisi altında sözü toplayıp okunabilir bir bütün kurma hareketi olarak genişler.",
+          "boundary": "Bu attributed source image, focus'un ordinary recitation anlamını değiştirmez ve q-r-ء alternatifleri arasında seçim yapmaz."
+        }
+      ],
+      "connection_refs": ["conn_6bbc5030a881db88d0f6"],
+      "context_refs": [],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:allegiance-bearing-imperative",
+      "origin_candidate_id": "cand_18123dfe030f27d470b5",
+      "represented_candidate_ids": [],
+      "title": "İlk emir yetkilendirilmiş bir bağlılık eylemi olarak yeniden duyulur",
+      "claim": "Açılıştaki oku emri, بِاسْمِ رَبِّكَ ile bağlandığında ve supplied sonraki rakip buyruğa karşı okunduğunda, yalnızca okumayı başlatan değil belirli bir otoriteye bağlılığı taşıyan bir eylem olarak yeniden duyulur.",
+      "mechanism": "Focus act'i isim ve Rabb bağlantısıyla belirli bir kaynağa bağlanır; reader-walk retrospektifi daha sonraki itaat etmeme, secde ve yaklaşma karşıtlığını bu act'e geri döndürerek emrin yönünü ve yetkisini maddi biçimde değiştirir.",
+      "reader_payoff": "İlk emir, kimin adına gerçekleştiği belirleyici olan ve rakip bir buyruğun karşısında yön kazanan bir başlangıç eylemi olarak görünür.",
+      "containment": "Ordinary oku emri ve Rabbin adıyla başlama ilişkisi korunur. Bu yalnızca legacy-unbound retrospective kaydın act-level çıkarımıdır; packet'te 96:19'un bağımsız yüzey morfolojisi veya yeni bir lexical branch bulunmadığından daha güçlü bir kelime iddiası kurulmaz.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": ["legacy_unbound"],
+        "reason": "The retrospective reader-walk explicitly supplies the changed act relation and the focus has a named-authority connection, but the later surface is not independently morpheme-anchored in this packet."
+      },
+      "support_ids": ["sup_78c0217c07682be5754f"],
+      "branch_activations": [],
+      "connection_refs": ["conn_51440b4fa31631da5e25"],
+      "context_refs": [],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:measured-creation-as-continuing-care",
+      "origin_candidate_id": "cand_a60ca2c7ef138d3ba9a1",
+      "represented_candidate_ids": [],
+      "title": "Ölçülü yaratma öğretimle sürer",
+      "claim": "خَلَقَ taşıyıcısının ölçme ve oranlama baskısı, رَبِّكَ ile öğretim temasına bağlandığında yaratmayı bitmiş bir geçmiş niteliğinden çok, aşama aşama sürdürülen oluşumun başlangıcı gibi gösterir.",
+      "mechanism": "Focus'taki yaratma fiili ölçülü hazırlık dalını taşır; 55:2 ve 2:151 bağlantıları bunu öğretim ve aktarım eylemleriyle tetikleyince ilk ölçülendirme Rabb'in zaman içinde tamamlayan bakımına bağlanır.",
+      "reader_payoff": "Yarattı sözü, yalnızca geçmişte tamamlanmış bir işi bildirmek yerine, öğretimle devam eden bir biçimlendirme sürecinin ilk aşamasını da düşündürür.",
+      "containment": "Ayetin açık yaratma ve Rabbin otoritesi okuması sabit kalır. Süregelen bakım ilişkisi legacy-unbound reader-walk çıkarımıdır; focus fiiline Rabb kökünün bütün dalları veya packet dışı gelişim ayrıntıları eklenmez.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": ["legacy_unbound"],
+        "reason": "The reader-walk directly names measured formation continuing through teaching and supplies the focus branch; the continuing-care relation remains a qualified retrospective inference."
+      },
+      "support_ids": ["sup_eca4530bc1ab00bb984e"],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000434/B001",
+          "facet_id": "F001",
+          "branch_gloss": "ölçüp sınırlarını belirleme",
+          "facet_statement": "Nesnenin ölçüsü ve sınırları yapılacak işten önce belirlenir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["96:1:5:1"],
+          "trigger_refs": ["conn_aa2770ca8afb281d31c9", "conn_178740a6a823bfeacd04"],
+          "focus_return_refs": ["96:1:5:1"],
+          "carrier": "خَلَقَ, eylemden önce ölçüp sınır kurma pressure'ının focus taşıyıcısıdır.",
+          "independent_trigger": "55:2 ve 2:151 bağlantıları yaratma çerçevesini öğretim, recitation ve bilinmeyenin öğretilmesiyle devam ettirir.",
+          "activation": "Ölçülü hazırlık, teaching bağlantısıyla temas edince creation act'i Rabb'in gözeterek tamamladığı devamlı oluşumun ilk görünümü olur.",
+          "resulting_reading": "Yaratan Rab, insanın biçimini kuran ve bilgiyi ona aşama aşama veren kaynak olarak görünür.",
+          "boundary": "Bu reading, ölçme dalını yerel fiilin tek anlamı yapmaz; supplied reader-walk inference'ı biyolojik veya pedagojik ayrıntılarla genişletmez."
+        }
+      ],
+      "connection_refs": ["conn_aa2770ca8afb281d31c9", "conn_178740a6a823bfeacd04"],
+      "context_refs": [],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:named-authority",
+      "origin_candidate_id": "cand_5a0aa7adb0d6844e9ebf",
+      "represented_candidate_ids": [],
+      "title": "İsim okumayı belirli bir otorite altında başlatır",
+      "claim": "بِاسْمِ رَبِّكَ içindeki ٱسْمِ, okumayı belirli bir adlandırma ve otorite altında başlatan işaret olarak açılır; adın yükselterek belirginleştirdiğine dair supplied açıklama bu yetki ilişkisini derinleştirir.",
+      "mechanism": "بِ edatıyla yönetilen ٱسْمِ, رَبِّكَ tamlamasına bağlanır; repeated bismi-rabbika connections ve supplied name-as-raised-designation branch'i temas edince okuma eyleminin kaynağı ve yetkisi focus içinde belirlenir.",
+      "reader_payoff": "Adıyla ifadesi, yalnızca formül başlangıcı olmaktan çıkıp sözün kimin adına ve hangi otoriteye bağlı olarak söylendiğini görünür kılar.",
+      "containment": "İsmin ordinary adlandırma anlamı ve Rabbin adıyla okuma floor'u korunur. F005 bir source_variant olarak qualified tutulur; isim kökenine dair açıklama, kesin etimoloji veya bağımsız bir yükselme dalı diye sunulmaz.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": ["legacy_unbound"],
+        "reason": "The focus branch and exact name carrier are supplied, while the authority/elevation relation comes from a legacy-unbound reader-walk and connection nominations; it is retained with explicit qualification."
+      },
+      "support_ids": ["sup_2a8c89fdc17998be3d8b"],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000745/B005",
+          "facet_id": "F005",
+          "branch_gloss": "ad, adlandırma ve ad ya da nitelik bakımından denklik",
+          "facet_statement": "Kaynaklar adın kökenini, adı verilen şeyin anılmasını yükseltmesi ve onu belirgin kılmasıyla açıklar.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["96:1:2:2"],
+          "trigger_refs": ["conn_51440b4fa31631da5e25", "conn_4abd7b8c672ca0139540"],
+          "focus_return_refs": ["96:1:2:2"],
+          "carrier": "ٱسْمِ, بِ ile başlayan phrase içinde adı ve adlandırmayı taşıyan focus noun'dur.",
+          "independent_trigger": "56:74 ve 73:8 bağlantıları اسم ile Rabb adını repeated name-directed acts içinde birlikte gösterir.",
+          "activation": "Adlandırma ve belirginleştirme relation'ı, بِاسْمِ رَبِّكَ tamlamasına temas edince okuma act'inin kişisel üretimden önce named Rabb'e bağlanmasını görünür kılar.",
+          "resulting_reading": "Oku, belirli bir Rabbin adı altında yetkilendirilmiş ve yönlendirilmiş söz eylemi olur.",
+          "boundary": "F005 supplied source variant'tır; etimolojik kesinlik, fiziksel yükselme veya اسم'in ordinary name anlamının dışlanması iddia edilmez."
+        }
+      ],
+      "connection_refs": ["conn_51440b4fa31631da5e25", "conn_4abd7b8c672ca0139540"],
+      "context_refs": [],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:retrospective-reframing",
+      "origin_candidate_id": "cand_ea84a1353fc98b9ac3f0",
+      "represented_candidate_ids": [],
+      "title": "Sonraki temas açılış emrini geriye dönük yeniden çerçeveler",
+      "claim": "Supplied retrospective kayda göre sonraki temas, ٱقْرَأْ emrindeki söz toplama ve خَلَقَ fiilindeki ölçü kurma baskılarını önce görünür kılar, ardından açılıştaki okumayı sınır aşımına karşı yönlenmiş bir başlangıç olarak yeniden işittirir.",
+      "mechanism": "İki q-r-ء nominated taşıyıcısı okuma emrini toplama ve recitation bütünlüğüne bağlar; خَلَقَ'nın ölçme dalı creator/measure connections ile temas eder. Reader-walk before/after kaydı bu iki focus return'ünü daha sonraki sınır bağlamıyla birleştirerek başlangıçtaki act'in anlamını geriye dönük değiştirir.",
+      "reader_payoff": "Okuma buyruğu, hem sözü bir bütünde toplama hem de gerçek oluşumun ölçüsüne karşı sorumluluk taşıyan yetkilendirilmiş bir başlangıç olarak birlikte görünür.",
+      "containment": "Primary 'Yaratan Rabbinin adıyla oku' floor'u korunur; bu finding onu seçmez veya surah thesis kurmaz. q-r-ء kök eşlemesi unresolved ve reader-walk legacy-unbound'dur; kayıt strict staged proof değil, supplied retrospective reconstruction olarak tutulur.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": ["legacy_unbound"],
+        "reason": "The supplied retrospective record explicitly states the changed reading and all three branches have focus occurrences, but two q-r-ء mappings are nominated alternatives and the before/after relation is not an independently staged trace."
+      },
+      "support_ids": ["sup_38121ca6ce0a5c1b59de"],
+      "branch_activations": [
+        {
+          "branch_ref": "root_001210/B001",
+          "facet_id": "SOURCE_IMAGE",
+          "branch_gloss": "collecting and gathering",
+          "facet_statement": "collecting and gathering",
+          "application_mode": "attributed",
+          "carrier_refs": ["96:1:1:1"],
+          "trigger_refs": ["conn_6bbc5030a881db88d0f6"],
+          "focus_return_refs": ["96:1:1:1"],
+          "carrier": "ٱقْرَأْ focus emri, q-r-ء toplama adayının supplied taşıyıcısıdır.",
+          "independent_trigger": "17:14 bağlantısı okuma act'ini kitap ve kişisel karşılaşma çerçevesine yerleştirir.",
+          "activation": "Toplama image'ı later context'in verdiği pen ve acquired-knowledge temasını geriye dönük olarak focus emrine bağlar.",
+          "resulting_reading": "Açılıştaki oku, daha sonra görünür olan söz ve bilginin bir bütün halinde toplanmasına açılan emir olur.",
+          "boundary": "Bu branch unresolved nominated source image'dır; 96:1'deki ordinary recitation anlamını değiştiren kesin kök kararı verilmez."
+        },
+        {
+          "branch_ref": "root_001211/B001",
+          "facet_id": "SOURCE_IMAGE",
+          "branch_gloss": "gathering speech into recitation",
+          "facet_statement": "gathering speech into recitation",
+          "application_mode": "attributed",
+          "carrier_refs": ["96:1:1:1"],
+          "trigger_refs": ["conn_6bbc5030a881db88d0f6"],
+          "focus_return_refs": ["96:1:1:1"],
+          "carrier": "ٱقْرَأْ, sözü gathered speech olarak recitation'a taşıyan ikinci nominated focus image'ının taşıyıcısıdır.",
+          "independent_trigger": "17:14'teki supplied reading-to-book relation, emrin sonraki metin ve bilgi temaslarını alabilecek bir act olduğunu gösterir.",
+          "activation": "Recitation'a toplanan söz, later reader-walk'teki pen ve öğrenilmiş bilgiyle buluşunca açılış emrinin geriye dönük bütünleştirici yönü belirginleşir.",
+          "resulting_reading": "Oku, seslendirme ile sözün düzenlenmesini aynı başlangıç act'inde bir araya getirir.",
+          "boundary": "Bu attributed alternative, diğer q-r-ء mapping'ini dışlamaz ve açılıştaki command'in ordinary floor'unu silmez."
+        },
+        {
+          "branch_ref": "root_000434/B001",
+          "facet_id": "F001",
+          "branch_gloss": "ölçüp sınırlarını belirleme",
+          "facet_statement": "Nesnenin ölçüsü ve sınırları yapılacak işten önce belirlenir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["96:1:5:1"],
+          "trigger_refs": ["conn_0d37b6d22d45fb7d5395", "conn_620d71c3d4dd0d07b290"],
+          "focus_return_refs": ["96:1:5:1"],
+          "carrier": "خَلَقَ, açılışta yaratma olarak görünen fiilin ölçme ve sınır kurma pressure'ını taşır.",
+          "independent_trigger": "77:23 ve 80:19 bağlantıları creation ile determined measure/proportioning temasını ayrı supplied rows olarak verir.",
+          "activation": "Later reader-walk'teki sınır aşımı, focus creation carrier'ının ölçü dalına dönünce ilk emri geriye dönük olarak ölçülü bir başlangıç ve ihlal edilebilir sınır bağlamına yerleştirir.",
+          "resulting_reading": "Okuma buyruğu, gerçek oluşumun ölçüsüyle çatışan kendi kendine kurulmuş iddialardan ayrılan bir başlangıç olarak yeniden çerçevelenir.",
+          "boundary": "Bu activation sonraki ayetlerin bütün anlamını 96:1'e taşımaz; ölçü reading'i yaratmanın ordinary var etme anlamını tamamlar."
+        }
+      ],
+      "connection_refs": ["conn_6bbc5030a881db88d0f6", "conn_0d37b6d22d45fb7d5395", "conn_620d71c3d4dd0d07b290"],
+      "context_refs": [],
+      "semantic_obligation_refs": []
+    }
+  ],
+  "friction_notes": [
+    "Packet'te 6 focus word-analysis kaydı çözülmüş ve unresolved focus_word_alignment bulunmuyor; ancak global lane için selected_context_units boş olduğundan reader-walk metinlerinin andığı sonraki ayetlerde bağımsız context occurrence sağlanmıyor.",
+    "222 connection kaydı discovery nomination olarak gözden geçirildi. Repeated Rabb/name, creation, teaching ve recitation clusters retained findings'e dağıtıldı; no-value reciprocal rows bir focus-direction veto olarak kullanılmadı.",
+    "İki q-r-ء adayının branch registry kaydı nominated ve root mapping'i unresolved; bunlar yalnız attributed application_mode ile tutuldu. root_001290/B001 için focus occurrence bulunmadığından açıkça dışlandı.",
+    "8 HFT assigned record görünürlük politikası gereği değerlendirildi; hepsinde anchor_evidence_coverage cited_unique_anchor_count=0 ve exact carrier/return bulunmadığı için ayrı retained finding oluşturulmadı.",
+    "Dedicated findings count: 8 (including the act-level retrospective finding), represented candidates: 2, rejected candidates: 8; no semantic obligations were supplied in candidate_inventory, so semantic_obligation_refs and exclusions remain empty."
+  ]
+}

@@ -1,0 +1,795 @@
+{
+  "schema_version": "commentary-v5-scope-discovery-v1",
+  "ayah_ref": "99:8",
+  "lane": "global",
+  "coverage_complete": true,
+  "candidate_decisions": [
+    {
+      "candidate_id": "cand_1dd20cf6904cfbf42f3b",
+      "decision": "accept",
+      "reason": "Güvenilir yayımlanmış bulgu, ölçü, zerrelerin dağıtılması ve parçalanma dallarını aynı kişisel hesap ilişkisine bağlar; üç focus taşıyıcısı ve daha geniş ölçü-kayıt paralelleriyle gerçek bir mekanizma kurulabilir.",
+      "finding_refs": ["global:particle-attribution"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_891194a5acf956ede6aa",
+      "decision": "accept",
+      "reason": "Güvenilir yayımlanmış bulgu, zerre ölçeği ile kıvılcım dalını doğrudan birleştirir; kıvılcım bağlantısının yalnız sözcüksel yankı olduğu ayrıca sınırlandırılarak yayılma ihtimali nitelikli biçimde korunabilir.",
+      "finding_refs": ["global:spark-consequence"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_a90400194dcc2c9c9850",
+      "decision": "reject",
+      "reason": "Bu yayımlanmış kaydın kendi desteği exposure okumasını reject derecesiyle işaretler; ayrıca açık yüzey ve kurutma analojisini focus fiiline bağlayan bağımsız, taşınabilir bir mekanizma bu aday için kurulmamıştır.",
+      "finding_refs": [],
+      "branch_exclusions": [
+        {"branch_ref": "root_000531/B001", "reason": "Görme dalı tek başına kötülüğün açık bir yüzeye serildiğini göstermiyor; adayın reject dereceli desteği bu ek imgeyi taşımıyor."},
+        {"branch_ref": "root_000787/B002", "reason": "Kurutma için serme dalı mevcut taşıyıcıdır, fakat bu adayda bağımsız trigger ve ölçülmüş kötülükle temas yeterince kurulmamıştır."}
+      ],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_77b979f5c7b56363f4a1",
+      "decision": "accept",
+      "reason": "Eylem, ağırlık ve sarkan ağırlık dalları kötülüğün failden ayrılmayan kişisel bir yük olarak geri dönmesini taşıyor; 99:2, kişisel sorumluluk ve eylemin geri dönüşüyle global trigger sağlanıyor.",
+      "finding_refs": ["global:burden-return"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_e39efbc8858215ae5b18",
+      "decision": "accept",
+      "reason": "Kendini bütünüyle verme, parçalama ve görme dalları eylemden sonra failin karşısına çıkan ayrışmış nesne ilişkisini kuruyor; yayımlanmış destek zayıf olsa da her taşıyıcı focus yüzeyinde ve kişisel eylem bağlantılarıyla izlenebilir.",
+      "finding_refs": ["global:self-as-exhibit"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_8f31b70a2a2119e93422",
+      "decision": "accept",
+      "reason": "Legacy yürüyüşün ölçüm, tekil küçüklük, kötülük, bilinçli eylem ve görme dallarını birleştiren aynalık okuması, dış hesap paralelleriyle focus'a geri dönen nitelikli bir global rezonans sağlıyor.",
+      "finding_refs": ["global:small-scale-symmetry"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_7eacff406713efd8bcf5",
+      "decision": "narrow",
+      "reason": "Zerre ve kıvılcım dalları focus taşıyıcılarıyla gerçek bir analojik temas kuruyor; ancak adayın nominated authority-like-fire dalında hiçbir occurrence veya exact anchor yok. Bu dal çıkarılarak küçük kaynağın sıçrama imgesi korunuyor.",
+      "finding_refs": ["global:spark-source"],
+      "branch_exclusions": [
+        {"branch_ref": "root_001633/B008", "reason": "Nominated source-image dalı packet içinde occurrence, context coordinate veya valid carrier sağlamıyor; bu nedenle focus'a dönen activation kurulamaz."}
+      ],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_0723a207f3f66151e67c",
+      "decision": "accept",
+      "reason": "Bayrağın görünür yere dikilmesi ile kurutmak üzere serme dalları, 99:6'daki gösterilme ve daha geniş kayıt-görünürlük temasları üzerinden kötülüğün incelemeye açık hale gelmesini nitelikli biçimde kuruyor.",
+      "finding_refs": ["global:public-exposure"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_983a89f8afc876c306c5",
+      "decision": "represented",
+      "reason": "Parçalama, bütünüyle yönelme ve zahmete girme dalları, yayımlanmış bulgunun aynı eylemden ayrışmış görünür nesne okumasında eksiksiz korunmuştur.",
+      "finding_refs": ["global:self-as-exhibit"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_5755810d3fa4f2776fa3",
+      "decision": "represented",
+      "reason": "Sarkan ağırlık ve çıplak ağırlık dalları, failin arkasından gelen küçük yük okumasında yayımlanmış bulgunun activation'larıyla eksiksiz temsil edilmiştir.",
+      "finding_refs": ["global:burden-return"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_039f2335d3cbdb2a7bdd",
+      "decision": "reject",
+      "reason": "Retrospective kayıt yalnızca surah içindeki geri bakışlı bir surprise bildiriyor; belirli bir carrier, bağımsız trigger ve focus word dönüşü vermediği için global finding olarak sınırlandırılamıyor.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_25bb35cf569db334467c",
+      "decision": "represented",
+      "reason": "99:7 ile biçimsel simetri ve aynı ölçüm-görünürlük mekanizması, küçük ölçekli simetri finding'inde bu adayın iki focus dalını da koruyacak şekilde temsil edilmiştir.",
+      "finding_refs": ["global:small-scale-symmetry"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_b3a48f5130e3a22b4671",
+      "decision": "narrow",
+      "reason": "Dağıtma ve parçalama dalları, toplu kötülüğün ölçülerek kişiye bağlanabilir parçalara ayrışmasını taşır; fakat nominated scattering-and-separation dalının packet içinde valid occurrence'ı yoktur ve çıkarılmalıdır.",
+      "finding_refs": ["global:disaggregation-core"],
+      "branch_exclusions": [
+        {"branch_ref": "root_000775/B001", "reason": "Nominated source-image dalı occurrence ve exact carrier içermiyor; 99:8 focus yüzeyine güvenli biçimde döndürülemez."}
+      ],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_270f2d459c3f46b62ecc",
+      "decision": "represented",
+      "reason": "Tek kıvılcım dalı, küçük kötülüğün kıvılcım gibi sonuçlanması finding'inde aynı carrier ve focus dönüşüyle eksiksiz yer alır.",
+      "finding_refs": ["global:spark-consequence"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_89b0b26c9d7e85f81e20",
+      "decision": "represented",
+      "reason": "Kurutmak üzere serme dalı, legacy exposure finding'inde 99:6 gösterilme ve dış kayıt trigger'larıyla aynı bounded reading içinde temsil edilmiştir.",
+      "finding_refs": ["global:public-exposure"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_3982dc54f048fee81df0",
+      "decision": "represented",
+      "reason": "Sarkan uçlar veya ağırlıklar dalı, kötülüğün failine bağlı küçük yük olarak geri dönmesi finding'inde aynı F002 facet'iyle korunmuştur.",
+      "finding_refs": ["global:burden-return"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_8980a56115d955140c5a",
+      "decision": "reject",
+      "reason": "Geniş context penceresinde later ayah bulunmadığını bildiren retrospective kayıt, bir carrier veya changed reading sunmuyor; yokluk tek başına global trigger değildir.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_d1b43efd051f28020ada",
+      "decision": "reject",
+      "reason": "HFT özeti empty anchor_refs ve branch_refs taşıyor; packet'te exact context coordinate, attributed role ve focus return bulunmadığından unanchored sentez olarak retained finding kurulamıyor.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_eb12927ca5afd9f18980",
+      "decision": "reject",
+      "reason": "HFT özeti exact carrier, trigger ve focus-surface return vermiyor; disclosure/reporting iddiası packet'te attributed activation olarak bağlanamadığı için kabul edilemiyor.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_0f881e2ade72f56dce2a",
+      "decision": "reject",
+      "reason": "HFT özeti exact context ayah, word index, root ve focus return içermiyor; scattered-display/source-attribution sentezi packet kaynaklarına bağlanmadan görünür bir finding olamaz.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_682204403507287b28f9",
+      "decision": "reject",
+      "reason": "HFT'nin 99:7 simetri özeti unanchored kalıyor; supplied surface üzerinde exact carrier ve bağımsız trigger koordinatı olmadığı için global karar için yeterli iz bırakmıyor.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_840c9cb358be7f8f1db9",
+      "decision": "reject",
+      "reason": "HFT'nin what-was-special özeti birden çok olası modeli ayırmadan topluyor; exact branch carrier'ı ve focus'a dönen bağımsız temas verilmediği için retained semantic relation kurulamıyor.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_7a10da86943ce9585c7b",
+      "decision": "reject",
+      "reason": "HFT uncertainty kaydı earth-burden modelini olasılık olarak bildiriyor fakat exact context coordinate, carrier ve focus return sağlamıyor; bu belirsizlik tek başına attributed activation değildir.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_654d7cef12a65359e71e",
+      "decision": "reject",
+      "reason": "HFT uncertainty kaydı reporting/inscription ayrımını anchorsız bırakıyor; packet'te exact taşıyıcı ve focus dönüşü bulunmadığından literal substrate claim'i retained olamaz.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_2dd40c3535fdac94c533",
+      "decision": "reject",
+      "reason": "HFT uncertainty kaydı people-separation'dan deed attribution'a geçişi exact carrier ve bağımsız trigger ile göstermiyor; focus word dönüşü olmadığı için retained relation kurulamıyor.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_14b52abcb972f9f2c066",
+      "decision": "reject",
+      "reason": "HFT uncertainty kaydı exchange, residue, mirror ve communal-liability modellerini yalnızca genel biçimde anıyor; exact coordinate ve focus return olmadan bunlardan biri retained reading'e dönüştürülemez.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    }
+  ],
+  "findings": [
+    {
+      "finding_ref": "global:particle-attribution",
+      "origin_candidate_id": "cand_1dd20cf6904cfbf42f3b",
+      "represented_candidate_ids": [],
+      "title": "Ölçülen kötülüğün kişiye ayrışması",
+      "claim": "Toplu ve gizli görünen kötülük, zerre ağırlığıyla ölçümün içine girdiğinde kişiye bağlanabilir küçük parçalara ayrışan bir eylem olarak da görünür.",
+      "mechanism": "مِثْقَالَ dalının ölçü ağırlığı, ذَرَّةٍ dalının serperek ayırma eylemi ve شَرًّا dalının parçalama facet'i, kötülüğü tek bir kütle olarak bırakmayıp ölçülebilir parçalar halinde يَعْمَلْ fiilinin failine geri bağlar; 4:40, 34:3 ve 21:47 ölçü-kayıt temasını dışarıda somutlaştırır.",
+      "reader_payoff": "Okur, küçük kötülüğü yalnızca küçülmüş bir miktar olarak değil, ölçüm sırasında ayrıştırılıp sahibine yeniden bağlanan görünür bir sonuç olarak algılar.",
+      "containment": "Bu okuma fiziksel ölçü ve ayetin doğrudan kötülük hesabını kaldırmaz; parçalanmanın faille bağlanması kaynak bulgudan çıkarılan nitelikli bir mekanizmadır, maddi bir parçacığın gerçekten üretildiği ileri sürülmez.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": ["trusted"],
+        "reason": "Yayımlanmış destek güvenilir ve üç taşıyıcıyı birlikte verir; parçalanmanın kişisel hesaba dönüşmesi ise dış ölçü ve kayıt paralelleriyle desteklenen bir yorumdur."
+      },
+      "support_ids": ["sup_6acf3837c61d53a350d2"],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000202/B004",
+          "facet_id": "F001",
+          "branch_gloss": "ölçü ağırlığı",
+          "facet_statement": "Temel alan, bilinen ağırlık ölçüsü veya tartıda kullanılan ağırlıktır.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["99:8:3:1"],
+          "trigger_refs": ["sup_6acf3837c61d53a350d2", "conn_fcf36e1768559b001005"],
+          "focus_return_refs": ["99:8:3:1"],
+          "carrier": "مِثْقَالَ, kötülüğün zerre ağırlığını ölçü ağırlığı olarak taşır.",
+          "independent_trigger": "4:40'taki en küçük ağırlıkta bile eksiltmeme ve adaleti koruma paraleli.",
+          "activation": "Ölçü ağırlığı taşıyan focus formu, atom-ağırlık hesabının en küçük ölçüyü dışlamayan wider trigger'ıyla buluşunca kötülüğü hesaba giren belirli bir birim haline getirir.",
+          "resulting_reading": "Kötülük, toplu ve gizli bir durum olmaktan çıkarak ölçüm sırasında ayrıştırılabilen kişisel bir ölçü birimi gibi görünür.",
+          "boundary": "Ölçü dalı gerçek bir tartı işlemi veya fiziksel parçacık üretimi iddia etmez; yalnızca hesap ilişkisinin ölçeğini daraltır."
+        },
+        {
+          "branch_ref": "root_000511/B002",
+          "facet_id": "F001",
+          "branch_gloss": "taneli ya da toz maddeyi serperek dağıtmak",
+          "facet_statement": "Bir maddenin küçük parçalarını serpme yoluyla birbirinden ayırıp dağıtma eylemidir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["99:8:4:1"],
+          "trigger_refs": ["99:8:3:1", "sup_6acf3837c61d53a350d2", "conn_4ee14a99a2953cb2e5cb"],
+          "focus_return_refs": ["99:8:4:1"],
+          "carrier": "ذَرَّةٍ, kötülüğü serpilen ve birbirinden ayrılan küçük parçalar imgesiyle taşır.",
+          "independent_trigger": "34:3'te küçük veya büyük hiçbir şeyin kapsamlı kayıttan kaçmaması.",
+          "activation": "Serperek ayırma dalı, focus'taki ölçü ağırlığı ve hiçbir atom-ağırlık birimini dışlamayan wider kayıtla temas ederek toplu kötülüğü ayrıştırılabilir alt parçalara çevirir.",
+          "resulting_reading": "Kötülüğün gizliliği, tek parça halinde saklanabilme değil, ölçüm içinde dağıtılıp her parçasının hesaba bağlanması olarak yeniden görünür.",
+          "boundary": "Dağıtma imgesi gerçek bir maddi serpmeyi zorunlu kılmaz; adayın iddiası yalnızca kişisel hesabın parçalı ve eksiksiz oluşudur."
+        },
+        {
+          "branch_ref": "root_000787/B004",
+          "facet_id": "F001",
+          "branch_gloss": "kesip parçalamak",
+          "facet_statement": "Bir nesneyi kesme, yarma ve parçalara ayırma işlemi temel anlamdır.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["99:8:5:1"],
+          "trigger_refs": ["99:8:4:1", "sup_6acf3837c61d53a350d2", "conn_fe588ab204ef20c653a9"],
+          "focus_return_refs": ["99:8:5:1"],
+          "carrier": "شَرًّا, kötülüğü kesilip ayrılan parçalara dönüşen bir nesne ilişkisi içinde taşır.",
+          "independent_trigger": "21:47'de en küçük birimin bile ortaya getirilmesi ve terazinin kimseye zulmetmemesi.",
+          "activation": "Parçalama dalı, zerrelerin ayrılmasıyla ve en küçük birimin ortaya çıkarılmasını bildiren wider judicial measure ile temas eder; böylece şer, ölçüden kaçan yekpare bir kütle olarak kalmaz.",
+          "resulting_reading": "Kötülük, failine bağlanabilecek küçük sonuçlara ayrıştırılarak görünür hale gelen bir eylem nesnesi gibi okunur.",
+          "boundary": "Dalın kesme ve parçalama anlamı ateş kıvılcımı veya fiziksel yargı sahnesi olarak genişletilmez; faille bağ yalnızca yorumlanan hesap mekanizmasıdır."
+        }
+      ],
+      "connection_refs": ["conn_fcf36e1768559b001005", "conn_4ee14a99a2953cb2e5cb", "conn_fe588ab204ef20c653a9"],
+      "context_refs": ["4:40", "34:3", "21:47"],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:spark-consequence",
+      "origin_candidate_id": "cand_891194a5acf956ede6aa",
+      "represented_candidate_ids": ["cand_270f2d459c3f46b62ecc"],
+      "title": "Küçük kötülüğün kıvılcım gibi genişlemesi",
+      "claim": "Kötülük, ölçü bakımından zerre kadar olsa da kıvılcım imgesiyle kendi boyutunu aşan sonuçlara açılabilen bir başlangıç olarak da okunur.",
+      "mechanism": "ذَرَّةٍ dalının dağılan küçük parçaları ile شَرًّا dalının ateşten sıçrayan parçacığı aynı focus yüzeyinde buluşur; 77:32 yalnız kıvılcım sözcüksel yankısını, 31:16 ise küçük ve gizli olanın erişilebilirliğini sağlayarak yayılma iddiasını sınırlı bir global analojiye dönüştürür.",
+      "reader_payoff": "Okur, kötülüğün küçüklüğünü etkisizliğin garantisi olarak değil, küçük bir kaynaktan daha geniş sonuçlar çıkabileceğini düşündüren bir başlangıç ölçeği olarak da görür.",
+      "containment": "Bu kıvılcım okuması gerçek ateş veya zorunlu toplumsal yayılma iddiası değildir; 77:32 bağlantısı yalnız sözcüksel bir kıvılcım yankısı taşır ve moral accounting bağı kurmaz, bu yüzden sonuç ilişkisi niteliklidir.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": ["legacy_unbound", "trusted"],
+        "reason": "Trusted destek kıvılcım ile zerreyi açıkça birleştirir; represented wide-context kayıt da aynı kıvılcım dalını taşır. Destek derecesi weak'tir ve wider spark connection moral bağ kurmadığını açıkça söyler; okuma bu nedenle sınırlandırılmıştır."
+      },
+      "support_ids": ["sup_768535619407c1e213da", "sup_87cb38e8da2e99404308"],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000511/B002",
+          "facet_id": "F001",
+          "branch_gloss": "taneli ya da toz maddeyi serperek dağıtmak",
+          "facet_statement": "Bir maddenin küçük parçalarını serpme yoluyla birbirinden ayırıp dağıtma eylemidir.",
+          "application_mode": "analogical",
+          "carrier_refs": ["99:8:4:1"],
+          "trigger_refs": ["99:8:5:1", "sup_768535619407c1e213da", "conn_596c240812c185339683"],
+          "focus_return_refs": ["99:8:4:1"],
+          "carrier": "ذَرَّةٍ, küçük parçaların ayrılıp dağılması anlamını taşır.",
+          "independent_trigger": "31:16'da gizli ve çok küçük olanın bile ulaşılabilir kalması.",
+          "activation": "Dağılan küçük parça dalı, gizli küçüklüğün bile erişim dışında kalmadığını bildiren wider trigger ve hemen ardından gelen kıvılcım yüzeyiyle temas eder.",
+          "resulting_reading": "Zerre, yalnızca etkisiz küçüklük değil, küçük bir başlangıcın başka sonuçlara dağılabileceği bir kaynak ölçeği olarak görünür.",
+          "boundary": "Dağıtma dalı tek başına nedensel yayılma kanıtı değildir; genişleme yalnızca kıvılcım analojisinin sınırlı sonucudur."
+        },
+        {
+          "branch_ref": "root_000787/B003",
+          "facet_id": "F001",
+          "branch_gloss": "kıvılcım",
+          "facet_statement": "Ateşten ayrılıp havaya sıçrayan yanar parçacık temel nesnedir.",
+          "application_mode": "analogical",
+          "carrier_refs": ["99:8:5:1"],
+          "trigger_refs": ["99:8:4:1", "sup_768535619407c1e213da", "conn_b30e856b7c1201201a89"],
+          "focus_return_refs": ["99:8:5:1"],
+          "carrier": "شَرًّا, kötülük yüzeyini ateşten sıçrayan küçük parçacık imgesiyle de taşır.",
+          "independent_trigger": "77:32'de focus ile paylaşılan kıvılcım sözcüksel yankısı.",
+          "activation": "Kıvılcım dalı, zerre taşıyıcısının küçüklüğüyle temas eder; wider row yalnız aynı kıvılcım imgesini sağladığı için küçük kötülüğün boyutunu aşan bir sonuç ihtimali aday desteğindeki analojik çıkarım olarak kalır.",
+          "resulting_reading": "Şer, etkisi kendi ölçüsüne hapsolmayabilecek sıçrayan bir parçacık gibi duyulur.",
+          "boundary": "77:32 moral accounting bağlantısını kurmadığından burada ateş, yayılma zorunluluğu veya gerçek fiziksel kıvılcım ileri sürülmez."
+        }
+      ],
+      "connection_refs": ["conn_596c240812c185339683", "conn_b30e856b7c1201201a89"],
+      "context_refs": ["31:16", "77:32"],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:small-scale-symmetry",
+      "origin_candidate_id": "cand_8f31b70a2a2119e93422",
+      "represented_candidate_ids": ["cand_25bb35cf569db334467c"],
+      "title": "En küçük ölçekte ahlaki simetri",
+      "claim": "99:7 ile aynı yapı içinde kötülüğün de ölçülüp görülmesi, zerre kadar şerrin iyinin aldığı hesap ve görünürlük mekanizmasından muaf olmadığını gösteren bir global simetri olarak okunur.",
+      "mechanism": "99:7 biçimsel paraleli, مِثْقَالَ ölçü dalını ذَرَّةٍ tekilliği, شَرًّا kötülük dalı, يَعْمَلْ bilinçli eylem ve يَرَهُ görme ile aynı prosedürde tutar; 4:40, 10:61 ve 40:40 bu ölçü, görme-kayıt ve orantılı karşılık temasını wider alana taşır.",
+      "reader_payoff": "Okur, küçük kötülüğün görünmez kalacağı bir eşik düşünmek yerine, ayetin iyilik ve kötülüğü aynı en küçük hesap düzenine yerleştirdiğini fark eder.",
+      "containment": "Simetri, kötülüğün sonucunu iyilikle özdeşleştirmez ve bütün ahlaki sonuçları sayısal olarak eşitlemez; yalnızca küçük ölçü, eylem ve görülme prosedürünün şer için de işlediğini söyler.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": ["legacy_unbound"],
+        "reason": "İki legacy yürüyüş formal paraleli ve focus dallarını açıkça verir; dış bağlantılar prosedürel teması destekler, fakat aynalı yapıdan accounting parity çıkarımı yorum düzeyindedir."
+      },
+      "support_ids": ["sup_8aac70be975e44236ffc", "sup_853abbd133de6f0a72ef"],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000202/B004",
+          "facet_id": "F001",
+          "branch_gloss": "ölçü ağırlığı",
+          "facet_statement": "Temel alan, bilinen ağırlık ölçüsü veya tartıda kullanılan ağırlıktır.",
+          "application_mode": "intrinsic_cross_root",
+          "carrier_refs": ["99:8:3:1"],
+          "trigger_refs": ["99:7", "sup_8aac70be975e44236ffc", "conn_fcf36e1768559b001005"],
+          "focus_return_refs": ["99:8:3:1"],
+          "carrier": "مِثْقَالَ, ayetin ölçüm prosedürünü taşıyan ölçü ağırlığıdır.",
+          "independent_trigger": "99:7'nin aynı ölçü ve görme çerçevesini iyi için kurması; 4:40'ın en küçük ağırlıkta adalet paraleli.",
+          "activation": "Ölçü dalı, hemen önceki iyi örneğinin aynı cümle düzeni ve wider atom-weight parallel ile temas ederek şer için farklı bir eşik bulunmadığını gösterir.",
+          "resulting_reading": "Kötülük, küçüklüğü nedeniyle prosedür dışına çıkan istisna değil, iyilikle aynı ölçüm kapısından geçen karşıt içerik olarak görünür.",
+          "boundary": "Bu activation iyilik ve kötülüğün sonuçlarını aynılaştırmaz; yalnızca ölçme ve görünür kılma düzenindeki biçimsel eşitliği korur."
+        },
+        {
+          "branch_ref": "root_000511/B001",
+          "facet_id": "F002",
+          "branch_gloss": "küçük karıncalar ve bunlardan biri",
+          "facet_statement": "Tekil kullanım bu topluluktan bir karıncayı, kaynak anlatımında en küçük karıncayı gösterir.",
+          "application_mode": "intrinsic_cross_root",
+          "carrier_refs": ["99:8:4:1"],
+          "trigger_refs": ["99:7", "sup_8aac70be975e44236ffc", "conn_fcf36e1768559b001005"],
+          "focus_return_refs": ["99:8:4:1"],
+          "carrier": "ذَرَّةٍ, kaynak facet'inde tek bir en küçük birim imgesini taşır.",
+          "independent_trigger": "99:7'nin aynı tekil küçük ölçüyü iyi içeriği için kullanması ve 4:40'ın en küçük birimi dışlamaması.",
+          "activation": "Tekil küçüklük dalı, 99:7'nin biçimsel aynası ve atom-ağırlık hesabıyla buluşarak küçüklüğün ahlaki muafiyet üretmediğini focus'a geri taşır.",
+          "resulting_reading": "Zerre kadar şer, küçüklüğü içinde bile aynı görünürlük ve hesap prosedürüne dahil edilen tekil bir vaka olur.",
+          "boundary": "Bu dal genel küçüklük veya dağılma kavramına genişletilmez; burada yalnızca tekil en küçük birim facet'i aktiftir."
+        },
+        {
+          "branch_ref": "root_000531/B001",
+          "facet_id": "F001",
+          "branch_gloss": "gözle ya da içsel kavrayışla görme",
+          "facet_statement": "Görülebilir bir şeyi gözle veya benzer bir içsel kavrayışla algılama.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["99:8:6:1"],
+          "trigger_refs": ["99:7", "sup_8aac70be975e44236ffc", "conn_3ef847b66fd18f63ae16"],
+          "focus_return_refs": ["99:8:6:1"],
+          "carrier": "يَرَهُ, kötülüğün algılanıp görülmesini taşıyan focus fiilidir.",
+          "independent_trigger": "99:7'nin aynı küçük ölçü için sonuç görmesini sürdürmesi ve 10:61'in her eylemi tanıklık ve kayda bağlaması.",
+          "activation": "Görme dalı, önceki ayetin prosedürel paraleli ve eylem-kayıt-tanıklık bağlantısıyla buluşunca kötülüğün küçük olduğu için görünürlükten düşmediğini yeniden kurar.",
+          "resulting_reading": "Görülme, yalnızca sonradan gelen soyut bir fark ediş değil, iyiliktekiyle aynı en küçük hesap düzeninin şer üzerindeki sonucu olarak belirir.",
+          "boundary": "Görme dalı belirli bir fiziksel görüntüleme cihazı veya yalnızca dış göz anlamına kilitlenmez; içsel kavrayış seçeneği korunur."
+        },
+        {
+          "branch_ref": "root_000787/B001",
+          "facet_id": "F001",
+          "branch_gloss": "iyinin karşıtı olan kötülük",
+          "facet_statement": "İyinin karşıtı olan kötülük, kötü durum ve kaçınılan şey anlamı çekirdeği oluşturur.",
+          "application_mode": "intrinsic_cross_root",
+          "carrier_refs": ["99:8:5:1"],
+          "trigger_refs": ["99:7", "sup_853abbd133de6f0a72ef", "conn_e9ace8ab785f3e5b1ca2"],
+          "focus_return_refs": ["99:8:5:1"],
+          "carrier": "شَرًّا, iyinin karşıtı olan kötülüğü ayetin ölçüm ve görülme prosedürüne yerleştirir.",
+          "independent_trigger": "99:7'nin karşıt iyi içeriği aynı yapıya yerleştirmesi ve 40:40'ın sayyi'a karşılığını kendi benzeriyle sınırlaması.",
+          "activation": "Kötülük dalı, biçimsel karşıtlığı ve sayyi'a için like-for-like recompense bağlantısını birleştirerek şerrin küçük olduğu için hesap dışına çıkmadığını gösterir.",
+          "resulting_reading": "Şer, iyiye ayrılmış bir hesap düzeninin dışındaki karanlık artık değil, aynı ölçü ve görülme çerçevesinin karşıt içeriğidir.",
+          "boundary": "Karşıt içeriklerin sonuçları veya değerleri eşitlenmez; simetri yalnızca prosedür ve hesap edilebilirlik düzeyindedir."
+        },
+        {
+          "branch_ref": "root_001046/B001",
+          "facet_id": "F001",
+          "branch_gloss": "bilerek yapılan iş veya eylem",
+          "facet_statement": "Bir yapanın bilerek ortaya koyduğu iş veya eylem anlamı çekirdektir.",
+          "application_mode": "intrinsic_cross_root",
+          "carrier_refs": ["99:8:2:1"],
+          "trigger_refs": ["99:7", "sup_8aac70be975e44236ffc", "conn_3ef847b66fd18f63ae16"],
+          "focus_return_refs": ["99:8:2:1"],
+          "carrier": "يَعْمَلْ, kötülüğü failin bilerek yaptığı eylem olarak taşır.",
+          "independent_trigger": "99:7'nin aynı eylem-ölçü-görme örgüsünü iyi içerikle sürdürmesi ve 10:61'in her eylemi tanıklığa bağlaması.",
+          "activation": "Bilinçli eylem dalı, aynalı ayet düzeni ile eylemi dışarıdan yalnızca oluşmuş bir olay değil, sahibiyle ilişkili hesap nesnesi yapan wider witness trigger'ında buluşur.",
+          "resulting_reading": "Zerre kadar şer, failinden bağımsız bir olay değil, aynı ölçü ve görülme prosedürüne giren kişisel bir eylem olarak duyulur.",
+          "boundary": "Dal ücret, görev veya alışveriş anlamlarına genişletilmez; burada yalnızca bilinçli yapılan eylem çekirdeği korunur."
+        }
+      ],
+      "connection_refs": ["conn_fcf36e1768559b001005", "conn_3ef847b66fd18f63ae16", "conn_e9ace8ab785f3e5b1ca2"],
+      "context_refs": ["99:7", "4:40", "10:61", "40:40"],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:public-exposure",
+      "origin_candidate_id": "cand_0723a207f3f66151e67c",
+      "represented_candidate_ids": ["cand_89b0b26c9d7e85f81e20"],
+      "title": "Gizli kötülüğün açık incelemeye serilmesi",
+      "claim": "Kötülük, son görme anına geldiğinde güneşe serilip kurutulan ve tanınmak üzere görünür yere dikilen bir malzeme gibi açık incelemeye sunulmuş olarak da okunur.",
+      "mechanism": "شَرًّا dalının güneşe serip kurutma facet'i ile رَءَا dalının görünür yere dikilen bayrak facet'i, 99:6'daki gösterilme sırası ve 18:49'daki kaydın yapılanı hazır biçimde sunmasıyla buluşur; böylece görme, yalnızca içsel fark edişten açık teşhire doğru genişler.",
+      "reader_payoff": "Okur, kötülüğün görülmesini yalnızca zihinsel bir tanıma olarak değil, gizli kalmış olanın incelemeye açık bir yüzeye taşınması şeklinde de hisseder.",
+      "containment": "Bu bir sergileme ve kurutma analojisidir; fiziksel yüzey, güneş veya gerçek bir bayrak ileri sürülmez. Trusted exposure candidate'ının reject desteği bu adayın legacy, qualified biçimdeki daha dar taşıyıcısıyla birleştirilmemiştir.",
+      "epistemic": {
+        "status": "exploratory",
+        "source_trust": ["legacy_unbound"],
+        "reason": "Legacy destek iki focus carrier'ını ve 99:6 sırasını verir; açık yüzeyden evidentiary inspection'a geçiş analogical inference olduğundan exploratory tutulmuştur."
+      },
+      "support_ids": ["sup_9be5d5ce60a5da6cee7f", "sup_c60bbd00bac107933aaa"],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000531/B011",
+          "facet_id": "F001",
+          "branch_gloss": "görünür yere dikilen bayrak",
+          "facet_statement": "Görülüp tanınmak üzere yüksek ve görünür yere dikilen bayrak.",
+          "application_mode": "analogical",
+          "carrier_refs": ["99:8:6:1"],
+          "trigger_refs": ["99:6", "sup_9be5d5ce60a5da6cee7f", "conn_a9003d2c76253685534f"],
+          "focus_return_refs": ["99:8:6:1"],
+          "carrier": "يَرَهُ, kötülüğün görülmesini tanınmak üzere açığa çıkan bir işaret gibi taşır.",
+          "independent_trigger": "18:49'da kaydın küçük veya büyük hiçbir şeyi bırakmayıp yapılanı hazır biçimde sunması.",
+          "activation": "Görünür yere dikilen bayrak dalı, 99:6'daki deeds shown sırası ve hazır sunulan kayıtla buluşunca focus fiili kötülüğün tanınabilir bir sergi nesnesi oluşunu çağrıştırır.",
+          "resulting_reading": "Görmek, gizli kötülüğün failin önünde tanınabilir ve incelenebilir bir belirtiye dönüşmesini de kapsar.",
+          "boundary": "Bayrak facet'i genel işaret veya fiziksel dikme eylemine genişletilmez; sunulma ilişkisi analogical kalır."
+        },
+        {
+          "branch_ref": "root_000787/B002",
+          "facet_id": "F001",
+          "branch_gloss": "güneşe serip kurutmak",
+          "facet_statement": "Bir şeyi güneşte veya uygun bir yüzeyde açıp sermek ve böylece kurutmak temel işlemdir.",
+          "application_mode": "analogical",
+          "carrier_refs": ["99:8:5:1"],
+          "trigger_refs": ["99:6", "sup_9be5d5ce60a5da6cee7f", "conn_29df606608fa13480eb6"],
+          "focus_return_refs": ["99:8:5:1"],
+          "carrier": "شَرًّا, kötülüğü açılıp serilerek görünür hale gelen bir malzeme imgesiyle taşır.",
+          "independent_trigger": "9:105'te yapılanın görülmesi, sonra bilene döndürülmesi ve eylemlerin bildirilmesi.",
+          "activation": "Kurutmak üzere serme dalı, 99:6'daki gösterilme ve 9:105'teki görülüp bildirilme hattıyla temas ederek gizli kötülüğü açık incelemeye taşınan bir nesneye dönüştürür.",
+          "resulting_reading": "Kötülük, yalnızca içte saklanan bir niyet değil, ölçülüp serilmiş ve göz önüne getirilen bir içerik gibi okunur.",
+          "boundary": "Kurutma amacının kendisi literal değildir; kötülüğün fiziksel olarak kuruduğu, güneşe çıkarıldığı veya ayrı bir nesne olduğu iddia edilmez."
+        }
+      ],
+      "connection_refs": ["conn_a9003d2c76253685534f", "conn_29df606608fa13480eb6"],
+      "context_refs": ["99:6", "18:49", "9:105"],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:burden-return",
+      "origin_candidate_id": "cand_77b979f5c7b56363f4a1",
+      "represented_candidate_ids": ["cand_5755810d3fa4f2776fa3", "cand_3982dc54f048fee81df0"],
+      "title": "Failin arkasından gelen küçük yük",
+      "claim": "Bilerek yapılan kötülük, zerre ölçüsünde olsa bile failinden ayrılmayan ve görülene kadar arkasından gelen küçük bir ağırlık olarak da okunur.",
+      "mechanism": "يَعْمَلْ dalının bilinçli eylemi, مِثْقَالَ dalının ağırlığı ve شَرًّا B006'nın sarkan uçlar veya ağırlıklar facet'iyle birleşir; 99:2'nin earth-burden görüntüsü, 17:7'nin eylemin failine dönüşü ve 53:38'in başkasının yükünü taşımama sınırı ilişkiyi kişiselleştirir.",
+      "reader_payoff": "Okur, küçük kötülüğü yalnızca tek seferlik bir olay olarak değil, yapanın ardından gelen ve sonunda karşısına çıkan bir sorumluluk ağırlığı olarak da algılar.",
+      "containment": "B006 içindeki seçilen facet ağırlıklar ve sarkan yüklerdir; gerçek kuyruk veya literal fiziksel yük zorunlu değildir. Başkasına aktarılmayan sorumluluk vurgulanır, fakat metafizik taşımanın ayrıntıları ileri sürülmez.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": ["legacy_unbound", "trusted"],
+        "reason": "Trusted yayımlanmış bulgu eylem-ağırlık-bağlılık ilişkisini verir; iki legacy destek 99:2 devamlılığı ve trailing facet'i ekler. Bu birleşimin failin ardından gelen yük olarak okunması niteliklidir."
+      },
+      "support_ids": ["sup_f49754e9e9a9675f9721", "sup_e156bf5150a05c8db4e5", "sup_2b358ae9234da31acddd"],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000202/B001",
+          "facet_id": "F001",
+          "branch_gloss": "ağırlık",
+          "facet_statement": "Temel anlam, hafifliğin karşıtı olan ağırlık ve ağır gelmedir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["99:8:3:1"],
+          "trigger_refs": ["99:2", "sup_f49754e9e9a9675f9721", "sup_e156bf5150a05c8db4e5", "conn_e9db1c72fe247529a390"],
+          "focus_return_refs": ["99:8:3:1"],
+          "carrier": "مِثْقَالَ, kötülüğü hafifliğin karşıtı olan bir ağırlık olarak taşır.",
+          "independent_trigger": "99:2'de yerin içindeki yüklerin çıkarılması ve 53:38'de sorumluluğun başka bir cana devredilmemesi.",
+          "activation": "Çıplak ağırlık dalı, 99:2'nin burden continuity'si ve kişisel sorumluluğu sınırlayan wider trigger ile temas edince zerre ölçüsünü failin kendi hesabına bağlı bir ağırlık olarak kurar.",
+          "resulting_reading": "Miktar küçülse de kötülük, yapanın hesabından düşmeyen kişisel bir ağırlık gibi kalır.",
+          "boundary": "Çıplak ağırlık dalı özel bir günah yükü veya taşınan eşya dalı değildir; bunlar yalnızca nitelikli rezonansın sonucudur."
+        },
+        {
+          "branch_ref": "root_000787/B006",
+          "facet_id": "F002",
+          "branch_gloss": "kuyrukların sarkan uçları veya ağırlıklar",
+          "facet_statement": "Yalın ad kullanımı ayrı bir anlam olarak ağırlıkları, tekil biçimiyle de bir ağırlığı bildirir.",
+          "application_mode": "analogical",
+          "carrier_refs": ["99:8:5:1"],
+          "trigger_refs": ["99:2", "sup_e156bf5150a05c8db4e5", "sup_2b358ae9234da31acddd", "conn_e9db1c72fe247529a390"],
+          "focus_return_refs": ["99:8:5:1"],
+          "carrier": "شَرًّا, qualified B006 kaydındaki ağırlık ve sarkan ek yük imgesini taşır.",
+          "independent_trigger": "99:2'deki yer yükleri ile 53:38'in her failin kendi yüküyle sınırlandırılmış sorumluluk çerçevesi.",
+          "activation": "Ağırlıklar facet'i, macro burden görüntüsünü focus'taki şer nesnesine temas ettirir; 99:8'in görme sonu bu ek yükün failden kopmadığını belirginleştirir.",
+          "resulting_reading": "En küçük kötülük bile yapanın ardından sarkan, sonunda görülecek bir ek ağırlık gibi duyulur.",
+          "boundary": "Sarkan kuyruk uçları facet'i seçilmemiştir; B006'nın qualified ağırlık facet'i gerçek bir uzantı veya fiziksel bağ iddia etmeden tutulur."
+        },
+        {
+          "branch_ref": "root_001046/B001",
+          "facet_id": "F001",
+          "branch_gloss": "bilerek yapılan iş veya eylem",
+          "facet_statement": "Bir yapanın bilerek ortaya koyduğu iş veya eylem anlamı çekirdektir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["99:8:2:1"],
+          "trigger_refs": ["99:2", "sup_f49754e9e9a9675f9721", "sup_2b358ae9234da31acddd", "conn_12106b64dad6c99be00b", "conn_29df606608fa13480eb6"],
+          "focus_return_refs": ["99:8:2:1"],
+          "carrier": "يَعْمَلْ, kötülüğü yapanın bilinçli olarak ortaya koyduğu iş olarak taşır.",
+          "independent_trigger": "17:7'de iyi ve kötü eylemin failine dönmesi; 9:105'te eylemin görülüp bildirilmesi.",
+          "activation": "Bilinçli eylem dalı, eylemin failine geri dönüşü ve görülerek bildirilmesiyle temas eder; böylece yapılan iş sonraki görme anına kadar sahibine bağlı kalır.",
+          "resulting_reading": "Kötülük, yapanın hesabından ayrılmış anonim bir olay değil, sahibine geri dönen ve onun tarafından görülen bir eylem ağırlığı olur.",
+          "boundary": "Bu dal resmi görev, ücret veya karşılıklı alışveriş anlamına çekilmez; yalnızca bilerek yapılan eylem ve kişisel sonuç ilişkisi korunur."
+        }
+      ],
+      "connection_refs": ["conn_e9db1c72fe247529a390", "conn_12106b64dad6c99be00b", "conn_29df606608fa13480eb6"],
+      "context_refs": ["99:2", "53:38", "17:7", "9:105"],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:self-as-exhibit",
+      "origin_candidate_id": "cand_e39efbc8858215ae5b18",
+      "represented_candidate_ids": ["cand_983a89f8afc876c306c5"],
+      "title": "Kişinin kendini verdiği şeyle karşılaşması",
+      "claim": "Kişinin kendini bütün isteğiyle verdiği ve zahmet çekerek yaptığı kötülük, sonunda ondan ayrılıp görmesinin önüne konan bir nesneye dönüşür.",
+      "mechanism": "شَرًّا B007'nin bütünüyle yönelme, شَرًّا B004'ün kesip ayırma ve عَمِلَ B007'nin zahmete girme dalları يَرَهُ görme ve 17:7, 10:61, 18:49'daki eylem-dönüş-kayıt temaslarıyla birleşir; failin yatırımından ayrı bir görülebilir sonuç çıkar.",
+      "reader_payoff": "Okur, kötülüğü yalnızca failin içinde kalan bir niyet olarak değil, kişinin kendini verdiği şeyin ayrışarak karşısına konması şeklinde de görür.",
+      "containment": "Ayrı nesne ifadesi analogical bir sonuçtur; kötülüğün failden fiziksel olarak koptuğu veya öznenin eylemle bütün bağını yitirdiği ileri sürülmez. Görme ve kişisel dönüş primary reading içinde kalır.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": ["legacy_unbound", "trusted"],
+        "reason": "Trusted destek ayrışmış nesne ve görme ilişkisini verir; legacy destek B004/B007/B007 dallarını eylemin failden ayrışmasına bağlar. Reversal mekanizması yorum olduğundan qualified tutulmuştur."
+      },
+      "support_ids": ["sup_49cd9fbcc5fa7ced3503", "sup_4ac2ad78c739733737a6"],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000531/B001",
+          "facet_id": "F001",
+          "branch_gloss": "gözle ya da içsel kavrayışla görme",
+          "facet_statement": "Görülebilir bir şeyi gözle veya benzer bir içsel kavrayışla algılama.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["99:8:6:1"],
+          "trigger_refs": ["99:8:2:1", "sup_49cd9fbcc5fa7ced3503", "conn_3ef847b66fd18f63ae16"],
+          "focus_return_refs": ["99:8:6:1"],
+          "carrier": "يَرَهُ, failin kendi yaptığı şeyle karşılaşmasını görme yoluyla taşır.",
+          "independent_trigger": "10:61'de her eylemin tanıklık ve kayda bağlanması.",
+          "activation": "Görme dalı, bilinçli eylem taşıyıcısı ve wider witnessing-record trigger'ıyla buluşarak son fiili, failin önüne geri gelen eylemle karşılaşma anına dönüştürür.",
+          "resulting_reading": "Görmek, kişinin kendi eylemini dışarıdan tanınabilir bir sonuç olarak karşısında bulmasını da kapsar.",
+          "boundary": "Bu görme yalnızca dış gözün fiziksel erişimi değildir; içsel kavrayış facet'i de korunur."
+        },
+        {
+          "branch_ref": "root_000787/B004",
+          "facet_id": "F001",
+          "branch_gloss": "kesip parçalamak",
+          "facet_statement": "Bir nesneyi kesme, yarma ve parçalara ayırma işlemi temel anlamdır.",
+          "application_mode": "analogical",
+          "carrier_refs": ["99:8:5:1"],
+          "trigger_refs": ["99:8:6:1", "sup_4ac2ad78c739733737a6", "conn_a9003d2c76253685534f"],
+          "focus_return_refs": ["99:8:5:1"],
+          "carrier": "شَرًّا, kişinin verdiği kötülüğün kesilip ayrılmış bir nesne gibi görünmesini taşır.",
+          "independent_trigger": "18:49'da yapılanın kayıt içinde hazır ve karşıda bulunması.",
+          "activation": "Parçalama dalı, son görme fiili ve yapılanı hazır sunan wider kayıtla temas eder; eylemde bütünleşmiş kötülük sonradan ayrışmış bir evidence object gibi belirir.",
+          "resulting_reading": "Kötülük, kişinin kendini verdiği bütün içinden ayrılıp karşılaşılabilir bir parçaya dönüşür.",
+          "boundary": "Kesme dalı gerçek bir parçalama eylemi veya fiziksel nesne yaratımı değildir; ayrışma, kayda ve görmeye bağlı yorumlanan ilişkidir."
+        },
+        {
+          "branch_ref": "root_000787/B007",
+          "facet_id": "F001",
+          "branch_gloss": "kendini bütün isteğiyle vermek",
+          "facet_statement": "Kişi kendisini, isteğini ve bütün ilgilerini tek bir hedefe bütünüyle yöneltir.",
+          "application_mode": "intrinsic_cross_root",
+          "carrier_refs": ["99:8:5:1"],
+          "trigger_refs": ["99:8:2:1", "sup_49cd9fbcc5fa7ced3503", "sup_4ac2ad78c739733737a6", "conn_12106b64dad6c99be00b"],
+          "focus_return_refs": ["99:8:5:1"],
+          "carrier": "شَرًّا, kişinin kendisini ve bütün ilgisini kötülüğe yöneltmesi imgesini taşır.",
+          "independent_trigger": "17:7'de yapılan iyi veya kötü eylemin yeniden failine dönmesi.",
+          "activation": "Bütünüyle yönelme dalı, failine dönen eylem wider trigger'ıyla buluşunca kişisel yatırımın sonradan karşılaşılan bir sonuç nesnesi üretmesi fikrini açar.",
+          "resulting_reading": "Kişinin içine ve emeğine yatırdığı kötülük, sonunda kendisine dışarıdan görülen bir şey olarak geri döner.",
+          "boundary": "Bu facet sıradan ilgi veya yalnız sevgi değildir; yoğun yöneliş analojisi kötülüğün fiziksel olarak nesneleştiğini kanıtlamaz."
+        },
+        {
+          "branch_ref": "root_001046/B007",
+          "facet_id": "F001",
+          "branch_gloss": "zahmete girmek",
+          "facet_statement": "Bir iş uğruna zahmete girme ve kendini yorma ana anlamdır.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["99:8:2:1"],
+          "trigger_refs": ["99:8:5:1", "sup_49cd9fbcc5fa7ced3503", "sup_4ac2ad78c739733737a6", "conn_3ef847b66fd18f63ae16"],
+          "focus_return_refs": ["99:8:2:1"],
+          "carrier": "يَعْمَلْ, kötülük uğruna zahmete giren failin işini taşır.",
+          "independent_trigger": "10:61'de yapılan her işin tanıklık ve kayıt altına alınması.",
+          "activation": "Zahmete girme dalı, eylemin kayda ve tanıklığa bağlanmasıyla temas eder; emek verilmiş kötülük, son görme anında failin karşısına çıkan belirgin bir sonuç kazanır.",
+          "resulting_reading": "Kişinin zahmet çekerek yaptığı kötülük, kaybolan emek değil, görülmek üzere kendisine geri dönen bir iş olarak belirir.",
+          "boundary": "Bu collocation yalın iş yapmak, resmi görev veya ücret anlamına genişletilmez; yalnızca zahmet ve sonradan görme ilişkisi korunur."
+        }
+      ],
+      "connection_refs": ["conn_3ef847b66fd18f63ae16", "conn_a9003d2c76253685534f", "conn_12106b64dad6c99be00b"],
+      "context_refs": ["10:61", "18:49", "17:7"],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:spark-source",
+      "origin_candidate_id": "cand_7eacff406713efd8bcf5",
+      "represented_candidate_ids": [],
+      "title": "Zerreden sıçrayan şer kaynağı",
+      "claim": "Zerre büyüklüğü, şer dalının kıvılcım facet'iyle birleştiğinde küçük bir kaynağın kendi ölçüsünü aşan bir sıçrama ihtimali taşıdığı bir başlangıç gibi de görünür.",
+      "mechanism": "ذَرَّةٍ B001'in tekil en küçük birim facet'i ile شَرًّا B003'ün ateşten ayrılan parçacık facet'i, 31:16'nın gizli küçüklüğün erişilebilir kalması ve 77:32'nin kıvılcım yankısıyla buluşur; nominated authority-like-fire dalı kullanılmadan source-to-spark analojisi korunur.",
+      "reader_payoff": "Okur, zerreyi yalnızca küçüklük sınırı olarak değil, küçük bir şer kaynağının sıçrayabileceğini düşündüren bir başlangıç noktası olarak da duyabilir.",
+      "containment": "Bu reading exploratory bir analojidir; 77:32 yalnızca kıvılcım sözcüksel yankısı verir ve moral accounting bağı kurmaz. Nominated و ح ي/B008 authority-like-fire imgesi anchor'sız olduğu için dışarıda bırakılmış, gerçek ateş veya zorunlu yayılma ileri sürülmemiştir.",
+      "epistemic": {
+        "status": "exploratory",
+        "source_trust": ["legacy_unbound"],
+        "reason": "Legacy destek iki focus branch'ini açıkça verir, fakat nominated üçüncü branch anchor'sızdır ve wider spark connection moral bağ kurmaz; retained core yalnızca sınırlı analojik ihtimaldir."
+      },
+      "support_ids": ["sup_a2e17d6d2d5fc27af46b"],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000511/B001",
+          "facet_id": "F002",
+          "branch_gloss": "küçük karıncalar ve bunlardan biri",
+          "facet_statement": "Tekil kullanım bu topluluktan bir karıncayı, kaynak anlatımında en küçük karıncayı gösterir.",
+          "application_mode": "analogical",
+          "carrier_refs": ["99:8:4:1"],
+          "trigger_refs": ["99:8:5:1", "sup_a2e17d6d2d5fc27af46b", "conn_596c240812c185339683"],
+          "focus_return_refs": ["99:8:4:1"],
+          "carrier": "ذَرَّةٍ, en küçük tekil birim imgesini taşır.",
+          "independent_trigger": "31:16'da gizli ve çok küçük olanın bile erişilebilir kalması.",
+          "activation": "Tekil küçüklük, gizli küçüğün erişilmez olmadığını bildiren wider trigger ve hemen temas ettiği şer-kıvılcım yüzeyiyle buluşur; küçük kaynak fikri böylece focus'a döner.",
+          "resulting_reading": "Zerre, kendi boyutundan büyük bir sıçramanın başlayabileceği bir kaynak ölçeği gibi duyulur.",
+          "boundary": "Tekil karınca facet'i genel küçüklük veya fiilî yayılma anlamına genişletilmez; sonuç yalnızca analojik ihtimaldir."
+        },
+        {
+          "branch_ref": "root_000787/B003",
+          "facet_id": "F001",
+          "branch_gloss": "kıvılcım",
+          "facet_statement": "Ateşten ayrılıp havaya sıçrayan yanar parçacık temel nesnedir.",
+          "application_mode": "analogical",
+          "carrier_refs": ["99:8:5:1"],
+          "trigger_refs": ["99:8:4:1", "sup_a2e17d6d2d5fc27af46b", "conn_b30e856b7c1201201a89"],
+          "focus_return_refs": ["99:8:5:1"],
+          "carrier": "شَرًّا, kötülük yüzeyini ateşten kopup sıçrayan küçük parçacık imgesiyle taşır.",
+          "independent_trigger": "77:32'deki yalnız sözcüksel kıvılcım bağlantısı.",
+          "activation": "Kıvılcım dalı, zerre taşıyıcısının küçük kaynak imgesiyle temas eder; packet'in weak connection'ı görüntüyü sağlar, destek ise bunun şer sonuçlarına uzanmasını abductive bir adım olarak bildirir.",
+          "resulting_reading": "Küçük şer, ölçüsüyle sınırlı kalmayabilecek sıçrayan bir parçacık olarak algılanabilir.",
+          "boundary": "Wider row ahlaki hesap bağı kurmadığı için ateş, yayılma veya kesin nedensellik bu activation'ın iddiası değildir."
+        }
+      ],
+      "connection_refs": ["conn_596c240812c185339683", "conn_b30e856b7c1201201a89"],
+      "context_refs": ["31:16", "77:32"],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:disaggregation-core",
+      "origin_candidate_id": "cand_b3a48f5130e3a22b4671",
+      "represented_candidate_ids": [],
+      "title": "Toplu kötülüğün ayrıştırılabilir parçaları",
+      "claim": "Toplu kötülük, ölçüm sürecinde dağıtılıp parçalanarak her bir faille ilişkilendirilebilir küçük parçalara ayrılan bir bütün olarak da okunur.",
+      "mechanism": "ذَرَّةٍ B002'nin serperek ayırma ve شَرًّا B004'ün kesip parçalama dalları, 99:6'daki açığa çıkarma sırası ve 21:47, 34:3, 24:11'deki küçük birim ve kişisel pay bağlantılarıyla temas eder; nominated ش ت ت/B001 source image'i kullanılmadan disaggregation çekirdeği kalır.",
+      "reader_payoff": "Okur, büyük veya toplu görünen kötülüğün tek bir belirsiz kütle olarak kalamayacağını, ölçümle ayrıştırılarak kişisel paylara dönüşeceğini de fark eder.",
+      "containment": "Ayrıştırma, hesap ve sorumluluk ilişkisinin analojik açıklamasıdır; fiziksel parçalama, hukuki paylaştırmanın teknik yöntemi veya insanların 99:6'da literal olarak bölünmesi ileri sürülmez. Nominated source image anchor'sızdır ve narrow dışında tutulmuştur.",
+      "epistemic": {
+        "status": "exploratory",
+        "source_trust": ["legacy_unbound"],
+        "reason": "Legacy wide-context destek iki focus branch'ini doğrudan taşır ve kişisel attribution çıkarımını açıklar; nominated branch'in yokluğu ve disaggregation adımının analogical oluşu nedeniyle exploratory'dir."
+      },
+      "support_ids": ["sup_768914956b699e04f60c"],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000511/B002",
+          "facet_id": "F001",
+          "branch_gloss": "taneli ya da toz maddeyi serperek dağıtmak",
+          "facet_statement": "Bir maddenin küçük parçalarını serpme yoluyla birbirinden ayırıp dağıtma eylemidir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["99:8:4:1"],
+          "trigger_refs": ["99:6", "sup_768914956b699e04f60c", "conn_fe588ab204ef20c653a9", "conn_595233c68ae4739b5eb0"],
+          "focus_return_refs": ["99:8:4:1"],
+          "carrier": "ذَرَّةٍ, toplu kötülüğün serpilerek ayrılan küçük parçalarını taşır.",
+          "independent_trigger": "21:47'de en küçük birimin ortaya getirilmesi ve 24:11'de her katılımcıya kendi kazanılmış payının verilmesi.",
+          "activation": "Dağıtma dalı, 99:6'daki deeds shown sırası ile küçük birimin ortaya çıkarılması ve kişisel pay trigger'larının temasında aggregate kötülüğü fail bazında ayrışan parçalara dönüştürür.",
+          "resulting_reading": "Kötülük, toplu bir örtü içinde saklanamayan ve ölçümle ayrı kişisel parçalara dağılan bir hesap malzemesi gibi görünür.",
+          "boundary": "Pay kavramı burada yalnız focus'a dönen attribution mekanizmasıdır; 24:11'in özgül tarihsel olayına veya teknik bölüştürme işlemine genişletilmez."
+        },
+        {
+          "branch_ref": "root_000787/B004",
+          "facet_id": "F001",
+          "branch_gloss": "kesip parçalamak",
+          "facet_statement": "Bir nesneyi kesme, yarma ve parçalara ayırma işlemi temel anlamdır.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["99:8:5:1"],
+          "trigger_refs": ["99:8:4:1", "99:6", "sup_768914956b699e04f60c", "conn_4ee14a99a2953cb2e5cb"],
+          "focus_return_refs": ["99:8:5:1"],
+          "carrier": "شَرًّا, aggregate kötülüğün kesilip ayrılan parçalar olarak görünmesini taşır.",
+          "independent_trigger": "34:3'te küçük ve büyük hiçbir şeyin kapsamlı kayıttan dışarıda bırakılmaması.",
+          "activation": "Parçalama dalı, zerrelerin dağıtılması ve hiçbir küçük birimi dışlamayan wider kayıtla temas eder; şer, ölçülürken tek ve ayrışmaz bir bütün olmaktan çıkar.",
+          "resulting_reading": "Toplu kötülük, kişiye bağlanabilir küçük eylem parçalarına ayrıştırılan bir bütün olarak okunur.",
+          "boundary": "Parçalama dalı kıvılcım, kurutma veya literal maddi kesme anlamlarıyla karıştırılmaz; yalnızca attribution sürecindeki değişimi taşır."
+        }
+      ],
+      "connection_refs": ["conn_fe588ab204ef20c653a9", "conn_595233c68ae4739b5eb0", "conn_4ee14a99a2953cb2e5cb"],
+      "context_refs": ["99:6", "21:47", "24:11", "34:3"],
+      "semantic_obligation_refs": []
+    }
+  ],
+  "friction_notes": [
+    "Exposure imgesini taşıyan trusted candidate'ın desteği reject derecesindedir; ayrı tutulan legacy exposure finding'i yalnızca daha dar, exploratory bir analogical activation olarak korunmuştur.",
+    "Kıvılcım bağlantısı 77:32'de yalnız sözcüksel yankı olarak verilir ve moral accounting ilişkisini desteklemez; iki spark finding'i bu nedenle gerçek ateş veya zorunlu yayılma iddiası taşımaz.",
+    "Dokuz HFT kaydının anchor_refs ve branch_refs alanları boştur; exact context coordinate, attributed role ve focus return bulunmadığından tümü görünür aday olarak reddedilmiştir."
+  ]
+}

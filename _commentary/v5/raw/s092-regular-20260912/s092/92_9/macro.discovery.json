@@ -1,0 +1,555 @@
+{
+  "schema_version": "commentary-v5-scope-discovery-v1",
+  "ayah_ref": "92:9",
+  "lane": "macro",
+  "coverage_complete": true,
+  "candidate_decisions": [
+    {
+      "candidate_id": "cand_e6a2e5a4c624472700f9",
+      "decision": "accept",
+      "reason": "The supplied HFT record names the focus word positions and the night cover/day disclosure positions in 92:1-2; exact Arabic anchors are present, all six listed branches land, and the contact materially changes denial into possible re-occlusion. The legacy_unbound qualification limits the claim to attributed contextual evidence but does not suppress it.",
+      "finding_refs": ["macro:occlusion-of-visible-good"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_6a25b1fbe91c2776e086",
+      "decision": "narrow",
+      "reason": "The supplied HFT record connects the focus to measured creation, the explicitly paired sexes, purposeful striving, and scattered courses in 92:3-4. Its focus-side limit branch and attack-collocation branch are incompatible with the actual 92:9 noun and Form II bi-governed surface, so those branches are excluded; the exact context anchors still support a bounded divergent-striving reading under legacy_unbound qualification.",
+      "finding_refs": ["macro:divergent-striving-without-measure"],
+      "branch_exclusions": [
+        {"branch_ref": "root_001290/B004", "reason": "The registered branch is restricted to attack collocations, while the actual focus is Form II كَذَّبَ بِ with no supplied حمل attack construction."},
+        {"branch_ref": "root_000323/B005", "reason": "The registered branch is restricted to the forms حُسَيْناؤه/حُسَيْناه, while the actual focus surface is حُسْنَىٰ."}
+      ],
+      "facet_exclusions": [
+        {"branch_ref": "root_001290/B004", "facet_id": "F001", "reason": "The attack-collocation facet requires a supplied attack construction absent from the actual focus carrier."},
+        {"branch_ref": "root_000323/B005", "facet_id": "F001", "reason": "The limit-and-maximum-effort facet is confined to the registered حُسَيْناؤه/حُسَيْناه expressions, not the supplied حُسْنَىٰ surface."}
+      ],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_371579ef487deedf8019",
+      "decision": "narrow",
+      "reason": "The supplied HFT record gives the matched positive and negative sequences in 92:5-6 and 92:8-9, with exact Arabic anchors. Its focus-side attack-collocation and action branches are incompatible with the actual Form II noun-governed surface, so those branches are excluded; the attributed conduct sequence remains a bounded practical reading under legacy_unbound qualification.",
+      "finding_refs": ["macro:good-verified-in-transfer"],
+      "branch_exclusions": [
+        {"branch_ref": "root_001290/B004", "reason": "The registered branch is restricted to attack collocations, while the actual focus is Form II كَذَّبَ بِ with no supplied حمل attack construction."},
+        {"branch_ref": "root_000323/B002", "reason": "The registered branch names good action, while the supplied local form حُسْنَىٰ is a definite feminine elative substantive naming the good rather than an action."}
+      ],
+      "facet_exclusions": [
+        {"branch_ref": "root_001290/B004", "facet_id": "F001", "reason": "The attack-collocation facet requires a supplied attack construction absent from the actual focus carrier."},
+        {"branch_ref": "root_000323/B002", "facet_id": "F002", "reason": "The beneficent-action facet conflicts with the supplied local noun-form boundary, which does not name an action."}
+      ],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_0968a5887fd224d0d990",
+      "decision": "narrow",
+      "reason": "The supplied HFT record places denial between the mirrored facilitation formulas of 92:7 and 92:10; exact Arabic anchors support the context movement. Its focus-side attack-collocation and non-bare limit branches are incompatible with the actual 92:9 surfaces, so those branches are excluded while the bounded route-hinge reading remains qualified legacy_unbound evidence.",
+      "finding_refs": ["macro:facilitated-path-dependence"],
+      "branch_exclusions": [
+        {"branch_ref": "root_001290/B004", "reason": "The registered branch is restricted to attack collocations, while the actual focus is Form II كَذَّبَ بِ with no supplied حمل attack construction."},
+        {"branch_ref": "root_000323/B005", "reason": "The registered branch is restricted to the forms حُسَيْناؤه/حُسَيْناه, while the actual focus surface is حُسْنَىٰ."}
+      ],
+      "facet_exclusions": [
+        {"branch_ref": "root_001290/B004", "facet_id": "F001", "reason": "The attack-collocation facet requires a supplied attack construction absent from the actual focus carrier."},
+        {"branch_ref": "root_000323/B005", "facet_id": "F001", "reason": "The limit-and-maximum-effort facet is confined to the registered حُسَيْناؤه/حُسَيْناه expressions, not the supplied حُسْنَىٰ surface."}
+      ],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_490d0e30ea938d504e61",
+      "decision": "narrow",
+      "reason": "The supplied HFT record brackets the focus with claimed self-sufficiency in 92:8 and its failure beside wealth and falling in 92:11; exact Arabic anchors support the reversal. Its focus-side milk collocation is incompatible with the actual Form II bi-governed surface, so that branch is excluded while the bounded reliance-reversal reading remains qualified legacy_unbound evidence.",
+      "finding_refs": ["macro:substitute-that-proves-false"],
+      "branch_exclusions": [
+        {"branch_ref": "root_001290/B006", "reason": "The registered branch is restricted to the female-camel milk collocation, while the actual focus is Form II كَذَّبَ بِٱلْحُسْنَىٰ with no milk construction."}
+      ],
+      "facet_exclusions": [
+        {"branch_ref": "root_001290/B006", "facet_id": "F001", "reason": "The milk-loss facet requires the registered female-camel milk form, absent from the actual focus carrier."}
+      ],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    }
+  ],
+  "findings": [
+    {
+      "finding_ref": "macro:occlusion-of-visible-good",
+      "origin_candidate_id": "cand_e6a2e5a4c624472700f9",
+      "represented_candidate_ids": [],
+      "title": "Denial as re-occlusion",
+      "claim": "Within the pericope's cover-and-disclosure movement, 92:9's denial can be heard as actively covering a good that has become perceptible.",
+      "mechanism": "The focus carrier is the verb that declares al-husna false; the night and covering occurrences in 92:1 and the day and disclosure occurrences in 92:2 supply alternating withdrawal and appearance. Their contact makes the fixed object of denial something that can be disclosed and then covered again, while the ordinary judgment of falsehood remains available.",
+      "reader_payoff": "Denial becomes perceptible as an overlay placed on an available good, rather than only as a settled negative proposition.",
+      "containment": "The primary reading remains 've en güzeli yalanlarsa'. The packet also leaves open the ordinary propositional rejection after disclosure; this finding does not assert a surah-wide image or replace the clause's plain sense.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": ["legacy_unbound"],
+        "reason": "Exact Arabic anchors verify surface contact, but HFT segmentation, roles, and the unresolved context branches are attributed nominations. The in-pericope contact is sufficiently explicit for a qualified contextual finding."
+      },
+      "support_ids": ["sup_6bba7cd5b4303ef8a3d7"],
+      "branch_activations": [
+        {
+          "branch_ref": "root_001290/B002",
+          "facet_id": "F001",
+          "branch_gloss": "yalan sayma veya yalancı bulma",
+          "facet_statement": "Bir kişi veya söz, yalan olduğu söylenerek doğruluk bakımından olumsuz değerlendirilir.",
+          "application_mode": "attributed",
+          "carrier_refs": ["92:9:1:2"],
+          "trigger_refs": ["92:1:1", "92:1:3", "92:2:1", "92:2:3"],
+          "focus_return_refs": ["92:9:1:2"],
+          "carrier": "The focus verb carries the supplied judgment of calling the named content false.",
+          "independent_trigger": "The supplied night-cover and day-disclosure occurrences establish a separate visibility cycle.",
+          "activation": "The agentive denial in the focus meets the alternating cover and disclosure cycle, allowing the judgment to be pictured as an active re-covering.",
+          "resulting_reading": "Denial can operate as an occluding act directed at a good that has entered view.",
+          "boundary": "The packet supports the attributed judgment relation; it does not establish a new lexical gloss for the focus verb or erase ordinary propositional denial."
+        },
+        {
+          "branch_ref": "root_000323/B001",
+          "facet_id": "F001",
+          "branch_gloss": "akla, eğilime veya duyulara göre güzel ve beğenilir olma",
+          "facet_statement": "Bir kişi veya şeyin güzel ve beğenilir olması, çirkinliğin karşıtı olan temel anlamdır.",
+          "application_mode": "attributed",
+          "carrier_refs": ["92:9:2:3"],
+          "trigger_refs": ["92:1:1", "92:1:3", "92:2:1", "92:2:3"],
+          "focus_return_refs": ["92:9:2:3"],
+          "carrier": "The focus object carries the supplied quality of what is beautiful and pleasing.",
+          "independent_trigger": "Night's withdrawal and day's disclosure provide the separate condition of visibility.",
+          "activation": "The named good is the object that the cover-and-disclosure cycle makes available to sight and vulnerable to re-covering.",
+          "resulting_reading": "Al-husna is heard as a perceptible good whose visibility matters to the denial.",
+          "boundary": "This is the quality of beauty and pleasingness, not the separate branch of doing good or producing a benefit."
+        },
+        {
+          "branch_ref": "root_001392/B001",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": ["92:1:1"],
+          "trigger_refs": ["92:2:1", "92:2:3", "92:9:2:3"],
+          "focus_return_refs": ["92:9:2:3"],
+          "carrier": "The HFT attributes the 92:1 word-1 occurrence to night's darkness, the scene in which visibility is withdrawn.",
+          "independent_trigger": "Day opening and the focus's named good provide the separate return toward visibility and value.",
+          "activation": "The attributed darkness carrier supplies the withdrawal side of the visibility cycle that meets al-husna at the focus.",
+          "resulting_reading": "The focus can be placed against a scene where what is present becomes hidden.",
+          "boundary": "No registered branch gloss, facet, or independent context morphology is supplied; this remains an attributed contextual role only."
+        },
+        {
+          "branch_ref": "root_001088/B001",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": ["92:1:3"],
+          "trigger_refs": ["92:1:1", "92:2:3", "92:9:2:3"],
+          "focus_return_refs": ["92:9:2:3"],
+          "carrier": "The HFT attributes the 92:1 word-3 occurrence to a covering that rises over and conceals.",
+          "independent_trigger": "The focus object and the disclosure occurrence in 92:2 provide the separate thing covered and the condition that can uncover it.",
+          "activation": "The covering carrier gives the focus's denial a concrete occlusive operation when it meets the named good.",
+          "resulting_reading": "The denial reads as placing a cover over a value rather than merely describing its absence.",
+          "boundary": "The packet supplies no registered lexical detail for this branch; the concealment operation is HFT-attributed and local to the stated pericope."
+        },
+        {
+          "branch_ref": "root_001559/B002",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": ["92:2:1"],
+          "trigger_refs": ["92:1:1", "92:1:3", "92:9:2:3"],
+          "focus_return_refs": ["92:9:2:3"],
+          "carrier": "The HFT attributes the 92:2 word-1 occurrence to day opening through light, the contrary condition to night concealment.",
+          "independent_trigger": "The night-cover occurrences and the focus's named good supply the separate withdrawal and value that the light reveals.",
+          "activation": "The light-bearing day carrier makes disclosure an active counterpart to the concealment that frames the focus.",
+          "resulting_reading": "The good denied in 92:9 is placed within a cycle of appearing and being hidden.",
+          "boundary": "Only the attributed contextual role is retained; no unsupplied day lexicon or wider symbolic system is claimed."
+        },
+        {
+          "branch_ref": "root_000256/B001",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": ["92:2:3"],
+          "trigger_refs": ["92:1:3", "92:2:1", "92:9:2:3"],
+          "focus_return_refs": ["92:9:2:3"],
+          "carrier": "The HFT attributes the 92:2 word-3 occurrence to uncovering and appearance as an event.",
+          "independent_trigger": "The covering occurrence and the focus's fixed good provide the separate concealment and object of disclosure.",
+          "activation": "The appearance carrier turns visibility into an event that can be reversed by the focus's denial.",
+          "resulting_reading": "The denied good can be understood as something disclosed into view and then actively covered.",
+          "boundary": "No registered branch descriptor is supplied, so the event of disclosure remains HFT-attributed rather than a verified lexical branch gloss."
+        }
+      ],
+      "connection_refs": ["conn_1514df1390bb6c60a42a"],
+      "context_refs": ["92:1", "92:2"],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "macro:divergent-striving-without-measure",
+      "origin_candidate_id": "cand_6a25b1fbe91c2776e086",
+      "represented_candidate_ids": [],
+      "title": "A denied orienting limit",
+      "claim": "Against the pericope's measured creation and divergent strivings, denying al-husna leaves purposeful effort without the common measure that could make its scattered courses coherent.",
+      "mechanism": "The focus's ordinary definite good is placed beside the attributed context roles in 92:3-4: measured paired differentiation, purposeful movement, and scattering. Their contact makes the denial consequential within a field of efforts that have direction but do not converge, without relying on the excluded focus-side collocation branches.",
+      "reader_payoff": "The reader can see the denial against a background of different, directed efforts whose lack of convergence gives the named good structural weight.",
+      "containment": "The primary reading remains 've en güzeli yalanlarsa'. The packet leaves open the alternative in which the diversity of striving is neutral and the clause simply names one rejected good; no claim about the surah's thesis is made.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": ["legacy_unbound"],
+        "reason": "The exact Arabic anchors are supplied, but the HFT's word segmentation, contextual roles, and unresolved branches remain attributed. The paired creation and striving contact supports a qualified macro inference."
+      },
+      "support_ids": ["sup_f32e65bbafce1a920551"],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000434/B001",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": ["92:3:2"],
+          "trigger_refs": ["92:3:3", "92:3:4", "92:4:2", "92:4:3", "92:9:2:3"],
+          "focus_return_refs": ["92:9:2:3"],
+          "carrier": "The HFT attributes the 92:3 word-2 occurrence to measuring and proportioning in creation.",
+          "independent_trigger": "The focus's ordinary named good supplies the separate value against which the differentiated field can be considered.",
+          "activation": "Measured creation gives the focus's named good an ordered background against which divergent efforts can be read.",
+          "resulting_reading": "The denied good is placed against an already proportioned world rather than an undifferentiated one.",
+          "boundary": "No registered branch gloss or facet is supplied for this context occurrence; the measuring role remains attributed."
+        },
+        {
+          "branch_ref": "root_000516/B001",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": ["92:3:3"],
+          "trigger_refs": ["92:3:2", "92:3:4", "92:4:2", "92:4:3", "92:9:2:3"],
+          "focus_return_refs": ["92:9:2:3"],
+          "carrier": "The HFT attributes the 92:3 word-3 occurrence to one pole of the explicitly paired differentiation.",
+          "independent_trigger": "The feminine counterpart and the focus's singular limit supply the separate distinction and possible orientation.",
+          "activation": "The masculine pole participates in the paired structure that makes a single denied good stand amid differentiated beings and efforts.",
+          "resulting_reading": "Difference is retained while the focus supplies a possible point against which direction can be considered.",
+          "boundary": "The packet supports the attributed paired-role only; it does not infer a theological or social hierarchy from the pair."
+        },
+        {
+          "branch_ref": "root_000058/B001",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": ["92:3:4"],
+          "trigger_refs": ["92:3:2", "92:3:3", "92:4:2", "92:4:3", "92:9:2:3"],
+          "focus_return_refs": ["92:9:2:3"],
+          "carrier": "The HFT attributes the 92:3 word-4 occurrence to the other pole of the explicitly paired differentiation.",
+          "independent_trigger": "The masculine counterpart, divergent striving, and the focus's named good supply the separate relation.",
+          "activation": "The feminine pole completes the paired field without erasing distinction, allowing the focus's denied good to be read against plurality.",
+          "resulting_reading": "The contact with the denied good preserves differentiated participants while exposing their scattered courses.",
+          "boundary": "No registered context branch descriptor is supplied; only the attributed paired role is retained."
+        },
+        {
+          "branch_ref": "root_000709/B001",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": ["92:4:2"],
+          "trigger_refs": ["92:4:3", "92:3:2", "92:9:2:3"],
+          "focus_return_refs": ["92:9:2:3"],
+          "carrier": "The HFT attributes the 92:4 word-2 occurrence to purposeful movement toward an object.",
+          "independent_trigger": "The focus's named good and the following scattering occurrence supply the separate value and loss of convergence.",
+          "activation": "Directional striving gives the focus's denied good a field in which denial bears on movement rather than only judgment.",
+          "resulting_reading": "Effort remains active but can be seen as lacking a common direction against which al-husna is named.",
+          "boundary": "The purposeful-movement role is HFT-attributed and does not establish that every striving has the same object."
+        },
+        {
+          "branch_ref": "root_000775/B001",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": ["92:4:3"],
+          "trigger_refs": ["92:4:2", "92:3:2", "92:9:2:3"],
+          "focus_return_refs": ["92:9:2:3"],
+          "carrier": "The HFT attributes the 92:4 word-3 occurrence to scattering and loss of convergence.",
+          "independent_trigger": "Purposeful movement and the focus's named good supply the separate directed activity and value.",
+          "activation": "Scattering exposes the consequence of the denied good in this field: separate efforts continue while their courses fail to converge.",
+          "resulting_reading": "The focus's denial can be perceived against the loss of coherence in divergent striving.",
+          "boundary": "The scattering operation is retained only as an attributed contextual role, without a wider claim about all diversity."
+        }
+      ],
+      "connection_refs": ["conn_1cc0c928bb9acc2800f2", "conn_0a865c20a258a40b85f6"],
+      "context_refs": ["92:3", "92:4"],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "macro:good-verified-in-transfer",
+      "origin_candidate_id": "cand_371579ef487deedf8019",
+      "represented_candidate_ids": [],
+      "title": "Goodness tested in conduct",
+      "claim": "The matched giving-and-guarding and withholding-and-self-sufficiency profiles make denying al-husna a practical falsification enacted through conduct.",
+      "mechanism": "The focus's ordinary named good meets the positive sequence of giving, protection, and affirmation in 92:5-6 and the negative sequence of stinginess and claimed self-sufficiency in 92:8. The repeated object and opposed acts turn the good into something conduct can confirm or falsify, while the exact HFT trace leaves that performative arrow as an inference.",
+      "reader_payoff": "The negative pair becomes behaviorally legible: the denial is connected to withholding and relationless sufficiency, not only to an interior opinion.",
+      "containment": "The primary reading remains 've en güzeli yalanlarsa'. The ordinary reading that conduct evidences a prior stance remains live alongside the practical verification reading; neither is selected as the sole meaning.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": ["legacy_unbound"],
+        "reason": "The matched exact Arabic anchors are present, but the HFT roles and context word segmentation are attributed. The opposed sequence supports a qualified conduct-based inference without converting it into a sole doctrinal explanation."
+      },
+      "support_ids": ["sup_7721baf86920745c6e5a"],
+      "branch_activations": [
+        {
+          "branch_ref": "root_001028/B002",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": ["92:5:3"],
+          "trigger_refs": ["92:5:4", "92:6:2", "92:9:2:3"],
+          "focus_return_refs": ["92:9:2:3"],
+          "carrier": "The HFT attributes the 92:5 word-3 occurrence to handing something over.",
+          "independent_trigger": "Protection and affirmation, together with the focus's named good, supply the separate paired response.",
+          "activation": "Outward transfer gives the practical-good facet an observable act that the focus denial stands against.",
+          "resulting_reading": "The good can be verified in the movement of giving, not only in verbal assent.",
+          "boundary": "No registered context branch descriptor is supplied; the transfer role is retained as exact HFT-attributed evidence."
+        },
+        {
+          "branch_ref": "root_001677/B002",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": ["92:5:4"],
+          "trigger_refs": ["92:5:3", "92:6:2", "92:9:2:3"],
+          "focus_return_refs": ["92:9:2:3"],
+          "carrier": "The HFT attributes the 92:5 word-4 occurrence to placing oneself within protection.",
+          "independent_trigger": "Giving and affirmation provide the separate outward and confirming acts.",
+          "activation": "Inward protective placement pairs with transfer, so the focus's named good is connected to a disciplined response rather than benefit alone.",
+          "resulting_reading": "Confirmation of the good has an inward as well as outward enactment.",
+          "boundary": "The protective role is HFT-attributed and does not establish a complete doctrine of protection beyond this contact."
+        },
+        {
+          "branch_ref": "root_000852/B004",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": ["92:6:1"],
+          "trigger_refs": ["92:6:2", "92:5:3", "92:9:2:3"],
+          "focus_return_refs": ["92:9:2:3"],
+          "carrier": "The HFT attributes the 92:6 word-1 occurrence to realizing a promise or deed.",
+          "independent_trigger": "The repeated focus object and the preceding giving-and-protection acts supply the separate content and conduct.",
+          "activation": "Realized action makes affirmation performative when it meets the named good in the positive sequence.",
+          "resulting_reading": "The positive counterpart confirms the good through fulfilled action.",
+          "boundary": "The context role remains attributed; the packet does not establish independent morphology or a verified branch gloss for this occurrence."
+        },
+        {
+          "branch_ref": "root_000089/B001",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": ["92:8:3"],
+          "trigger_refs": ["92:8:4", "92:9:1:2", "92:9:2:3"],
+          "focus_return_refs": ["92:9:2:3"],
+          "carrier": "The HFT attributes the 92:8 word-3 occurrence to stinginess and withheld transfer.",
+          "independent_trigger": "Claimed self-sufficiency and the focus's denial supply the separate posture and judgment.",
+          "activation": "Withholding materially contradicts the beneficent good that the focus names, so denial becomes enacted in the negative sequence.",
+          "resulting_reading": "The negative profile gives denial a visible shape in withheld giving.",
+          "boundary": "This is an attributed conduct contact, not a claim that every denial is caused by stinginess."
+        },
+        {
+          "branch_ref": "root_001110/B001",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": ["92:8:4"],
+          "trigger_refs": ["92:8:3", "92:9:1:2", "92:9:2:3"],
+          "focus_return_refs": ["92:9:2:3"],
+          "carrier": "The HFT attributes the 92:8 word-4 occurrence to claimed self-sufficiency that makes relation and gift seem unnecessary.",
+          "independent_trigger": "Withheld transfer and the focus's named good supply the separate practical contrast.",
+          "activation": "The posture of self-sufficiency meets the focus denial by removing the relation through which the good would be enacted.",
+          "resulting_reading": "Denial is connected to a stance that treats beneficent relation as unnecessary.",
+          "boundary": "The self-sufficiency role is HFT-attributed and does not establish that the focus describes only motive or psychology."
+        }
+      ],
+      "connection_refs": ["conn_0ccd523bd6aa593fb166", "conn_09a16ac88391cc2993bf", "conn_fce08930c67e40a0140b"],
+      "context_refs": ["92:5", "92:6", "92:8"],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "macro:facilitated-path-dependence",
+      "origin_candidate_id": "cand_0968a5887fd224d0d990",
+      "represented_candidate_ids": [],
+      "title": "Denial at the route hinge",
+      "claim": "Placed between the mirrored ease and hardship formulas, denial can function as a hinge before a self-obstructing course becomes easier to travel.",
+      "mechanism": "The focus's ordinary denial is placed immediately before the repeated facilitation formula in 92:10 and opposite its positive counterpart in 92:7, where opposed destinations are made easy. The exact sequence lets the focus be read as a hinge before a course grows easier to continue, while an imposed consequence remains a live alternative.",
+      "reader_payoff": "The focus stands at a temporal hinge: the next movement can be perceived as a course formed by the stance, not only as a disconnected consequence.",
+      "containment": "The primary reading remains 've en güzeli yalanlarsa'. The packet also supports the ordinary reading of denial followed by an imposed hardship; this finding does not claim habituation as settled fact or name a wider path system.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": ["legacy_unbound"],
+        "reason": "Exact Arabic anchors and mirrored formulae are supplied, while the HFT arrow from stance to path dependence is explicitly an inference and the context roles are attributed."
+      },
+      "support_ids": ["sup_e0eb26ca9d539070b61d"],
+      "branch_activations": [
+        {
+          "branch_ref": "root_001694/B001",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": ["92:7:1", "92:7:2"],
+          "trigger_refs": ["92:10:1", "92:10:2", "92:9:1:2", "92:9:2:3"],
+          "focus_return_refs": ["92:9:1:2"],
+          "carrier": "The HFT attributes the 92:7 words to opening into ease and increasing traversability.",
+          "independent_trigger": "The focus denial and the opposed hardship formula supply the separate stance and counter-route.",
+          "activation": "The positive facilitation carrier establishes the same path-making operation that the focus is about to meet in reverse.",
+          "resulting_reading": "The focus is placed inside a pair of routes rather than beside an isolated consequence.",
+          "boundary": "No registered context gloss or facet is supplied; the ease role remains attributed to the exact HFT trace."
+        },
+        {
+          "branch_ref": "root_001694/B005",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": ["92:10:1"],
+          "trigger_refs": ["92:7:1", "92:7:2", "92:10:2", "92:9:1:2"],
+          "focus_return_refs": ["92:9:1:2"],
+          "carrier": "The HFT attributes the 92:10 word-1 occurrence to lightness and compliance in motion, making even the negative path easy to enter and continue.",
+          "independent_trigger": "The focus denial and the hardship destination supply the separate stance and obstructed end.",
+          "activation": "The negative-path ease carrier meets the focus immediately before it, allowing the denial to be read as the route's hinge.",
+          "resulting_reading": "An obstructed course can acquire the ease of continued movement.",
+          "boundary": "The packet supplies no registered context branch descriptor; the apparent path formation remains attributed and local."
+        },
+        {
+          "branch_ref": "root_001012/B004",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": ["92:10:2"],
+          "trigger_refs": ["92:10:1", "92:7:1", "92:9:1:2"],
+          "focus_return_refs": ["92:9:1:2"],
+          "carrier": "The HFT attributes the 92:10 word-2 occurrence to twisting, opposition, and obstruction as the destination of facilitated motion.",
+          "independent_trigger": "The preceding focus denial and the ease operation supply the separate entry stance and mechanism.",
+          "activation": "Obstruction becomes the destination that the same facilitation operation makes easy to enter, completing the hinge relation at 92:9-10.",
+          "resulting_reading": "The route's difficulty and its increasing ease of continuation become one attributed movement.",
+          "boundary": "The obstruction role is not a new lexical gloss for the focus and does not assert that consequence is the only reading."
+        }
+      ],
+      "connection_refs": ["conn_fd1eb2fd912a317ad404", "conn_492ba853196344e93421"],
+      "context_refs": ["92:7", "92:10"],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "macro:substitute-that-proves-false",
+      "origin_candidate_id": "cand_490d0e30ea938d504e61",
+      "represented_candidate_ids": [],
+      "title": "A substitute that fails the test",
+      "claim": "Between claimed self-sufficiency and its later failure, denial participates in a reversal in which reliance displaced from al-husna onto wealth is exposed as unable to suffice.",
+      "mechanism": "The focus's ordinary denial of the named good meets the self-sufficiency claim in 92:8 and the later question of what wealth can avail at the fall in 92:11. The repeated sufficiency field, the material substitute of wealth, and the falling event make the rejected good and the trusted substitute part of one reversal, while the ordinary warning about greed remains live.",
+      "reader_payoff": "The reader sees the focus as part of an expectation dynamic: a declared independence redirects reliance, and wealth later becomes the provision that fails the test.",
+      "containment": "The primary reading remains 've en güzeli yalanlarsa'. The packet also allows a straightforward warning about stinginess and wealth without a deliberate lexical rebound; this finding does not claim that the reversal is the sole interpretation.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": ["legacy_unbound"],
+        "reason": "Exact Arabic anchors are supplied, but the HFT roles and unresolved branches are attributed, and the rebound from the rejected good to wealth is explicitly an inference."
+      },
+      "support_ids": ["sup_91fec92a5b011059f45b"],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000323/B001",
+          "facet_id": "F001",
+          "branch_gloss": "akla, eğilime veya duyulara göre güzel ve beğenilir olma",
+          "facet_statement": "Bir kişi veya şeyin güzel ve beğenilir olması, çirkinliğin karşıtı olan temel anlamdır.",
+          "application_mode": "attributed",
+          "carrier_refs": ["92:9:2:3"],
+          "trigger_refs": ["92:8:4", "92:11:2", "92:11:4", "92:11:6"],
+          "focus_return_refs": ["92:9:2:3"],
+          "carrier": "The focus object carries the supplied quality of a beautiful and pleasing good.",
+          "independent_trigger": "Claimed self-sufficiency and its later failure beside wealth provide the separate reliance reversal.",
+          "activation": "The good that is rejected becomes the displaced object of reliance when the later material substitute fails.",
+          "resulting_reading": "Al-husna is heard as the good whose rejection leaves reliance looking for another support.",
+          "boundary": "The retained facet is the quality of beauty and pleasingness; it does not itself mean wealth, reward, or beneficent action."
+        },
+        {
+          "branch_ref": "root_001110/B001",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": ["92:8:4"],
+          "trigger_refs": ["92:9:1:2", "92:9:2:3", "92:11:2", "92:11:4"],
+          "focus_return_refs": ["92:9:2:3"],
+          "carrier": "The HFT attributes the 92:8 word-4 occurrence to claimed self-sufficiency and independence from external good.",
+          "independent_trigger": "The focus's rejected good and the later sufficiency test supply the separate object and consequence.",
+          "activation": "The independence claim creates the posture that can displace reliance from al-husna to a material substitute.",
+          "resulting_reading": "The focus is connected to a prior decision to treat external good as unnecessary.",
+          "boundary": "No registered context gloss or facet is supplied; the self-sufficiency role remains exact HFT-attributed evidence."
+        },
+        {
+          "branch_ref": "root_001110/B002",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": ["92:11:2"],
+          "trigger_refs": ["92:8:4", "92:11:4", "92:11:6", "92:9:2:3"],
+          "focus_return_refs": ["92:9:2:3"],
+          "carrier": "The HFT attributes the 92:11 word-2 occurrence to actual sufficiency being tested and found absent.",
+          "independent_trigger": "The earlier claim of self-sufficiency and the focus's rejected good supply the separate expectation and displaced object.",
+          "activation": "The later failed sufficiency directly tests the independence posture that frames the focus.",
+          "resulting_reading": "The substitute's promise of sufficiency is exposed at the decisive moment.",
+          "boundary": "This is an attributed contextual test, not an independently verified lexical branch or a claim about every form of wealth."
+        },
+        {
+          "branch_ref": "root_001457/B001",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": ["92:11:4"],
+          "trigger_refs": ["92:8:4", "92:11:2", "92:11:6", "92:9:2:3"],
+          "focus_return_refs": ["92:9:2:3"],
+          "carrier": "The HFT attributes the 92:11 word-4 occurrence to accumulated wealth as the concrete substitute expected to provide sufficiency.",
+          "independent_trigger": "The self-sufficiency claim, failed sufficiency, and the focus's named good supply the separate posture, test, and displaced object.",
+          "activation": "Wealth gives the abstract independence claim a material support whose failure can expose the reversal created by rejecting al-husna.",
+          "resulting_reading": "The focus's denial is connected to reliance moving onto an object that cannot ultimately avail.",
+          "boundary": "The wealth role is HFT-attributed and does not establish that material wealth is the only substitute or motive."
+        },
+        {
+          "branch_ref": "root_000558/B003",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": ["92:11:6"],
+          "trigger_refs": ["92:11:2", "92:11:4", "92:8:4", "92:9:2:3"],
+          "focus_return_refs": ["92:9:2:3"],
+          "carrier": "The HFT attributes the 92:11 word-6 occurrence to falling into destruction, the event at which the substitute's promise fails.",
+          "independent_trigger": "The wealth carrier and failed-sufficiency occurrence supply the separate substitute and test.",
+          "activation": "The fall supplies the decisive event that makes the wealth-based claim of sufficiency visibly fail after the focus's denial.",
+          "resulting_reading": "The focus participates in a sequence where reliance is tested by collapse.",
+          "boundary": "No registered context branch descriptor is supplied; the fall is retained only as the exact attributed role in this candidate."
+        }
+      ],
+      "connection_refs": ["conn_09a16ac88391cc2993bf", "conn_8e5218161944b9e3b451"],
+      "context_refs": ["92:8", "92:11"],
+      "semantic_obligation_refs": []
+    }
+  ],
+  "friction_notes": [
+    "The HFT docket readiness is blocked and its legacy identity is unresolved, but the packet policy keeps all five parseable assigned records visible; each was reviewed and retained with qualified epistemic status.",
+    "Support records supply exact Arabic anchor text, while HFT segmentation, context morphology, roots, and roles remain attributed nominations. Unresolved branch records therefore land with attributed application and null gloss/facet rather than invented lexical detail.",
+    "The focus word alignment resolves all four analysis units with no unresolved joins. No candidate-specific semantic_obligations or required branch facets are supplied, so the corresponding arrays remain empty.",
+    "The automatic host basmala 92:0 is present as ordinary macro context but supplies no independent trigger for a retained finding.",
+    "No separate staged reader responses or reader-walk fields are supplied in this packet; no contribution from those absent sources was inferred. The supplied HFT alternatives remain visible inside finding containment.",
+    "All nine supplied connections were inspected and attached to the findings where their stated relation bears on the candidate. Uncandidate branch options were reviewed for independent activation and none has a supplied carrier-trigger contact in this packet."
+  ]
+}

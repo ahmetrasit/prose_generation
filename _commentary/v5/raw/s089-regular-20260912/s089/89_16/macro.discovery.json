@@ -1,0 +1,1480 @@
+{
+  "schema_version": "commentary-v5-scope-discovery-v1",
+  "ayah_ref": "89:16",
+  "lane": "macro",
+  "coverage_complete": true,
+  "candidate_decisions": [
+    {
+      "candidate_id": "cand_1a6c87e4535b8a9544be",
+      "decision": "narrow",
+      "reason": "Odak yüzeyindeki قَدَرَ taşıyıcısı, perikopta ölçünün bir sınıra varmasıyla gerçekten temas kuruyor. root_000063/B003, root_000261/B007 ve root_000482/B007 ise yalnız kaynak-görüntüsü olarak aday gösterilmiş; bunlar için pakette geçerli bir odak veya bağlam taşıyıcı oluşumu bulunmuyor. Ayrıca destek kaydındaki ء ل ي/B001 alıntısının kayıtlı dal eşleşmesi yok.",
+      "finding_refs": [
+        "macro:measured-culmination"
+      ],
+      "branch_exclusions": [
+        {
+          "branch_ref": "root_000063/B003",
+          "reason": "Kanal desteği bu dalı due completion olarak adlandırıyor, ancak pakette dala ait tam bir odak veya bağlam kelime-oluşumu yok; ayet düzeyindeki kanal işaretleri tek başına geçerli taşıyıcı sağlamıyor."
+        },
+        {
+          "branch_ref": "root_000261/B007",
+          "reason": "Kanal desteği olaya yaklaşma dalını veriyor, ancak pakette bu dal için geçerli bir taşıyıcı koordinatı bulunmuyor; dal yalnız soyut kaynak görüntüsü olarak kalıyor."
+        },
+        {
+          "branch_ref": "root_000482/B007",
+          "reason": "Kanal desteği zaman aralığının tamamlanması dalını veriyor, ancak pakette bu dal için geçerli bir taşıyıcı koordinatı bulunmuyor; dal yalnız soyut kaynak görüntüsü olarak kalıyor."
+        }
+      ],
+      "facet_exclusions": [
+        {
+          "branch_ref": "root_000063/B003",
+          "facet_id": "SOURCE_IMAGE",
+          "reason": "Kaynak görüntüsü için ayrı bir taşıyıcı oluşumu sağlanmadığı için daraltılmış odak-taşıyıcılı bulguya alınmadı."
+        },
+        {
+          "branch_ref": "root_000261/B007",
+          "facet_id": "SOURCE_IMAGE",
+          "reason": "Kaynak görüntüsü için ayrı bir taşıyıcı oluşumu sağlanmadığı için daraltılmış odak-taşıyıcılı bulguya alınmadı."
+        },
+        {
+          "branch_ref": "root_000482/B007",
+          "facet_id": "SOURCE_IMAGE",
+          "reason": "Kaynak görüntüsü için ayrı bir taşıyıcı oluşumu sağlanmadığı için daraltılmış odak-taşıyıcılı bulguya alınmadı."
+        }
+      ],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_41e9be9e111889c7a081",
+      "decision": "accept",
+      "reason": "89:15-89:16 arasındaki aynı sınama ve söyleme çerçevesi, bolluk ile darlığın iki ayrı kişisel değer hükmünü açığa çıkarmasıyla destekleniyor. Kayıtlı odak dalları tam facetleriyle, bağlam dalları ise kesin koordinatları verilmiş legacy_unbound HFT izleri olarak korunuyor.",
+      "finding_refs": [
+        "macro:abundance-mirror"
+      ],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_dcf43d61872c092ec806",
+      "decision": "accept",
+      "reason": "89:16'nın pay ve onur iddiası, 89:17-20'de onurlandırma, besleme, mirası içe çekme ve malı biriktirme eylemleriyle somut bir sosyal dolaşım ilişkisine bağlanıyor. Tüm on bir dal trace içinde yer alıyor; lexicon kaydı olmayan bağlam dalları attributed olarak korunuyor.",
+      "finding_refs": [
+        "macro:social-honor-flow"
+      ],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_2c738d31cd80c7909696",
+      "decision": "accept",
+      "reason": "89:16'daki alınan paya göre konuşma, 89:23-24'teki hatırlama ve ileriye gönderme diliyle gerçek bir zaman yönü değişimi kuruyor. Her supplied branch_ref, kayıtlı facet veya exact HFT context trace üzerinden bulguya taşınıyor.",
+      "finding_refs": [
+        "macro:receipt-to-forward-ledger"
+      ],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_59f0eff743cb7548ed97",
+      "decision": "accept",
+      "reason": "Odaktaki aşağılanma iddiası konuşma fiilinin içinde sunulurken, 89:25-26 gerçek ceza ve bağlamayı doğrudan bildiriyor. Bu supplied contrast, HFT güveni medium ve legacy_unbound olsa da, daralma ile sonradan açıkça bildirilen cezayı ayıran maddi bir okuma değişikliği sağlıyor.",
+      "finding_refs": [
+        "macro:attributed-humiliation-punishment"
+      ],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_6768bdd0ead82d43584e",
+      "decision": "accept",
+      "reason": "Aynı odak fiilinin aşağılanma dalı, 89:27-28'deki iç sükûnet, alçalma, dönüş ve karşılıklı hoşnutlukla birlikte, maddi daralmanın benlik değerini tek başına belirlemediği exploratory karşı modeli kuruyor. Trace'in iki karşıt odak dalı ve tüm bağlam rolleri korunuyor.",
+      "finding_refs": [
+        "macro:lowering-and-composure"
+      ],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_3cc2f85cdffef7fdfd3b",
+      "decision": "accept",
+      "reason": "Konuşma ve aşağılanma taşıyıcıları, hemen ardından gelen onurlandırma ve besleme sorumluluklarıyla temas ediyor. HFT outlier exploratory ve legacy_unbound olduğu için iddia olarak değil, aşağılanma sözünün olası kendini aklama işlevi olarak, tüm dört branch_ref korunarak kabul ediliyor.",
+      "finding_refs": [
+        "macro:humiliation-as-alibi"
+      ],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_0a3a71f6aa7bbc064a41",
+      "decision": "accept",
+      "reason": "Odaktaki Rabb ilişkisi ve aşağılanma sözü, 89:29'daki kullar arasına giriş ile temas ederek bağımlılık ve hizmetin onurlu aidiyete açılabileceği exploratory karşı modeli kuruyor. Lexicon kaydı olmayan hizmet ve giriş dalları attributed trace olarak korunuyor.",
+      "finding_refs": [
+        "macro:service-honor-reversal"
+      ],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    }
+  ],
+  "findings": [
+    {
+      "finding_ref": "macro:measured-culmination",
+      "origin_candidate_id": "cand_1a6c87e4535b8a9544be",
+      "represented_candidate_ids": [],
+      "title": "Ölçünün tamamlanma sınırı",
+      "claim": "Odaktaki قَدَرَ, geçim payının daralmasını perikopta ölçünün, zamanın ve olayın bir sınıra varması olarak da görünür kılar.",
+      "mechanism": "قَدَرَ taşıyıcısındaki ölçü ve erişilen sınır facetine, 89:20'deki yığılma, 89:21'deki tamamlanma, 89:23'teki vaktin gelmesi ve 89:28'deki dönüş yönü temas eder. Böylece odaktaki daralma, yalnız miktarın azalması değil, payın belirlenmiş eşiğine ulaşması olarak yeniden okunur.",
+      "reader_payoff": "Okur, daraltılmış geçimi yalnız eksilmiş bir miktar olarak değil, sınırı görünür hale gelen ölçülmüş bir pay olarak da algılar.",
+      "containment": "Bu bulgu, qdr kökünün pakette kayıtlı ölçü ve sınır çekirdeğiyle sınırlıdır. Üç diğer kanal dalı için geçerli taşıyıcı oluşumu verilmediğinden onların completion görüntüsü bu bulguya eklenmez; odak ayetinin olağan geçim daralması anlamı korunur.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": [
+          "trusted"
+        ],
+        "reason": "Odak taşıyıcısı ve qdr facetleri lexicon kaydıyla sağlanıyor; bağlamsal endpoint işaretleri trusted kanal adayından geliyor, ancak kanal kaydı ilk geçiş nomination'ı ve diğer dallar için exact occurrence sunmuyor."
+      },
+      "support_ids": [
+        "sup_272e019a8e392eba20e4",
+        "sup_3f4c340f526eb799dd66",
+        "sup_4510187db7e02484ce84",
+        "sup_4e551989c1f9ce56e11b",
+        "sup_7cff12c594fd4dd5e45c"
+      ],
+      "branch_activations": [
+        {
+          "branch_ref": "root_001205/B001",
+          "facet_id": "F001",
+          "branch_gloss": "bir şeyin ölçüsü ve eriştiği sınır",
+          "facet_statement": "Bir şeyin miktarını ve eriştiği ölçüyü bildirir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "89:16:5:2"
+          ],
+          "trigger_refs": [
+            "89:20",
+            "89:21",
+            "89:23",
+            "89:28"
+          ],
+          "focus_return_refs": [
+            "89:16:5:2"
+          ],
+          "carrier": "Odaktaki قَدَرَ biçimi, bir şeyin miktarını ve ulaştığı ölçüyü bildiren taşıyıcıdır.",
+          "independent_trigger": "89:20, 89:21, 89:23 ve 89:28 için supplied channel cues; bunlar sırasıyla doluluk, tamamlanma, vaktin gelmesi ve dönüş/varış sınırı görüntülerini aynı perikopta toplar.",
+          "activation": "Odaktaki ölçü taşıyıcısı, bu bağımsız sınır ve tamamlanma işaretleriyle temas ettiğinde geçim daralması belirlenmiş bir eşiğe varan pay olarak görünür.",
+          "resulting_reading": "Daraltılan geçim, miktarı eksilen bir pay olmanın yanında ölçüsü ve eriştiği sınırı görünür hale gelen bir paydır.",
+          "boundary": "Olağan geçim daralması korunur; üç unresolved/source-image dalının ayrı bir taşıyıcıya sahip olduğu veya bütün endpoint görüntülerinin odak kelimesinin literal anlamı olduğu ileri sürülmez."
+        },
+        {
+          "branch_ref": "root_001205/B001",
+          "facet_id": "F002",
+          "branch_gloss": "bir şeyin ölçüsü ve eriştiği sınır",
+          "facet_statement": "Ölçünün bir son, sınır, süre veya belirlenmiş vakit olarak görünmesini kapsar.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "89:16:5:2"
+          ],
+          "trigger_refs": [
+            "89:20",
+            "89:21",
+            "89:23",
+            "89:28"
+          ],
+          "focus_return_refs": [
+            "89:16:5:2"
+          ],
+          "carrier": "Odaktaki قَدَرَ biçimi, ölçünün bir son veya belirlenmiş sınır olarak görünmesine açılabilen odak taşıyıcısıdır.",
+          "independent_trigger": "Perikopun 89:20, 89:21, 89:23 ve 89:28 ayetlerinde supplied edilen doluluk, tamamlanma, vaktin gelmesi ve dönüş sınırı işaretleri.",
+          "activation": "Ölçü taşıyıcısı, sınırı ve vakti belirginleştiren bu context cues ile temas ederek geçim daralmasını tamamlanmaya doğru ilerleyen bir ölçü görüntüsüne bağlar.",
+          "resulting_reading": "Daralma, yalnız yoksunluk değil, belirlenmiş bir sınırın görünür hale gelmesidir.",
+          "boundary": "Bu extension, F001'deki ölçü çekirdeği üzerinde ve supplied pericope cues ile sınırlıdır; odak fiiline bağımsız bir kader veya bütün olaylara uygulanan zorunlu son anlamı yüklenmez."
+        }
+      ],
+      "connection_refs": [],
+      "context_refs": [
+        "89:20",
+        "89:21",
+        "89:23",
+        "89:28"
+      ],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "macro:abundance-mirror",
+      "origin_candidate_id": "cand_41e9be9e111889c7a081",
+      "represented_candidate_ids": [],
+      "title": "Bolluk ve darlığın ortak sınaması",
+      "claim": "89:16'daki geçim daralması, hemen önceki bolluk ve onurlandırma cümlesiyle birlikte, rahatlığın da darlığın da kişisel değere dair acele bir hüküm üretebildiği eşlenmiş bir sınama görünümü kazanır.",
+      "mechanism": "89:15 ve 89:16 aynı sınama, koşul ve söyleme çerçevesini tekrar ederken maddi ve statü şartlarını tersine çevirir. قَدَرَ ile daralan pay ve أَهَانَنِ ile söylenen aşağılanma iddiası, önceki ikram, nimet ve karşılık gelen onur hükmüyle karşılaşır; değişmeyen şey şart değil, şarttan doğrudan değer sonucu çıkarma biçimidir.",
+      "reader_payoff": "Okur, 89:16'yı tek başına nesnel bir aşağılanma raporu olarak değil, bollukta da darlıkta da çalışan bir insan değer ölçme refleksinin ikinci yarısı olarak görür.",
+      "containment": "Odak ayetinin geçim daralması ve kişinin söylediği aşağılanma iddiası korunur. 89:15'teki ikram ve nimet unsurlarının kısmi gerçeklik taşıyabileceği, iki sözün yalnızca aynı retorik çerçevenin ayrı anları olabileceği ihtimalleri açık kalır.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": [
+          "legacy_unbound"
+        ],
+        "reason": "Aynı perikoptaki eşlenmiş yüzey, tekrar eden sınama ve konuşma yapısı exact HFT trace ile sağlanıyor; source reader legacy_unbound ve context morphology supplied değil, bu nedenle ilişki qualified tutuluyor."
+      },
+      "support_ids": [
+        "sup_903d14abaacf9fc77c8b"
+      ],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000153/B002",
+          "facet_id": "F001",
+          "branch_gloss": "deneyerek sınama ve gerçek niteliği ortaya çıkarma",
+          "facet_statement": "Kişi veya şey, gerçek durumu anlaşılmak üzere deneyime ve sınamaya tabi tutulur.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "89:16:4:1"
+          ],
+          "trigger_refs": [
+            "89:15:7",
+            "89:15:8"
+          ],
+          "focus_return_refs": [
+            "89:16:4:1"
+          ],
+          "carrier": "Odaktaki ٱبْتَلَىٰهُ biçimi, kişinin durumunu açığa çıkaran sınama taşıyıcısıdır.",
+          "independent_trigger": "89:15'te aynı sınama çerçevesi içinde gelen ikram ve nimet görüntüsü.",
+          "activation": "Odaktaki sınama, önceki bolluk ve onur şartıyla aynı yapıda karşılaşınca iki şartı da kişinin değerine dair hüküm üreten bir açığa çıkarma düzenine bağlar.",
+          "resulting_reading": "Bolluk ve darlık, farklı maddi durumlar olarak kalırken ikisinin de değer hükmünü görünür kıldığı ortak sınama belirginleşir.",
+          "boundary": "Sınama dalı, odak fiilinin sınama anlamını taşır; önceki bolluğun sahte veya bütünüyle gerçek dışı olduğu söylenmez."
+        },
+        {
+          "branch_ref": "root_000153/B002",
+          "facet_id": "F001",
+          "branch_gloss": "deneyerek sınama ve gerçek niteliği ortaya çıkarma",
+          "facet_statement": "Kişi veya şey, gerçek durumu anlaşılmak üzere deneyime ve sınamaya tabi tutulur.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "89:15:5"
+          ],
+          "trigger_refs": [
+            "89:16:4:1",
+            "89:16:5:2"
+          ],
+          "focus_return_refs": [
+            "89:16:4:1"
+          ],
+          "carrier": "89:15'teki supplied HFT occurrence, aynı sınama taşıyıcısının bolluk koşulundaki karşılığını taşır.",
+          "independent_trigger": "89:16'da sınama fiilinin daraltılmış pay ve aşağılanma iddiasıyla birlikte tekrar edilmesi.",
+          "activation": "Bolluk koşulundaki sınama, odaktaki darlık koşuluna karşılık vererek iki ayrı durumda da insanın kendi değerini şarttan okuduğunu görünür kılar.",
+          "resulting_reading": "Önceki ikram ve şimdiki darlık, aynı sınama çerçevesinin iki maddi yüzü olur.",
+          "boundary": "Bu context carrier HFT tarafından word-index düzeyinde atanmıştır; bağımsız context morphology veya iki konuşanın kesin özdeşliği ileri sürülmez."
+        },
+        {
+          "branch_ref": "root_001205/B004",
+          "facet_id": "F001",
+          "branch_gloss": "birinin geçim payını kısmak",
+          "facet_statement": "Bir kişiyi ya da ona ayrılan şeyi daraltma eylemini bildirir; geçim payını kısma bunun başlıca örneğidir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "89:16:5:2"
+          ],
+          "trigger_refs": [
+            "89:15:8"
+          ],
+          "focus_return_refs": [
+            "89:16:5:2"
+          ],
+          "carrier": "قَدَرَ biçimi, odak bağlamında kişiye ayrılan geçim payının kısılmasını taşır.",
+          "independent_trigger": "89:15'teki rahatlık ve nimet koşulunun aynı sınama çerçevesinde karşıt yüz olarak bulunması.",
+          "activation": "Daraltılmış geçim, önceki rahatlıkla aynı sınama fiiline bağlanınca maddi tersliğin kendisi değer ölçüsü değil, değeri nasıl yorumladığını açığa çıkaran koşul olur.",
+          "resulting_reading": "Geçim payının kısılması, kişisel değerin doğrudan ölçüsü olarak değil, bu ölçü kurma refleksinin maddi kutbu olarak görünür.",
+          "boundary": "Bu dal, supplied collocation içindeki geçim kısılmasını korur; darlığın mutlaka yalnızca algısal olduğu veya maddi kaybın gerçek olmadığı söylenmez."
+        },
+        {
+          "branch_ref": "root_001608/B003",
+          "facet_id": "F001",
+          "branch_gloss": "küçümsenmeden doğan aşağılanma ve onur kaybı",
+          "facet_statement": "Çekirdek, küçümsenmeyle bağlantılı aşağılanma, onur kaybı, değersizlik ve güçsüzlük durumudur.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "89:16:10:1"
+          ],
+          "trigger_refs": [
+            "89:15:7",
+            "89:15:8"
+          ],
+          "focus_return_refs": [
+            "89:16:10:1"
+          ],
+          "carrier": "أَهَانَنِ biçimi, kişinin kendi ağzından kurduğu aşağılanma ve onur kaybı hükmünü taşır.",
+          "independent_trigger": "89:15'teki ikram, nimet ve karşılık gelen onur hükmünün aynı sınama-söyleme yapısında yer alması.",
+          "activation": "Odaktaki aşağılanma sözü, önceki onur sözüyle aynı konuşma kalıbına yerleşince şart değişse de kişisel değeri doğrudan şarttan çıkarma işlemi görünür olur.",
+          "resulting_reading": "Aşağılanma iddiası, darlığın tek başına verdiği bir hüküm olmaktan çok, bollukta da çalışan bir değer okumasının ters yüz edilmiş sonucu olarak belirir.",
+          "boundary": "Bu activation kişinin söylediği hükmün içeriğini taşır; 89:15'teki ikramın tümüyle doğrulanmadığı veya 89:16'daki acının gerçek olmadığı sonucu çıkarılmaz."
+        },
+        {
+          "branch_ref": "root_001294/B001",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "89:15:7"
+          ],
+          "trigger_refs": [
+            "89:16:5:2",
+            "89:16:10:1"
+          ],
+          "focus_return_refs": [
+            "89:16:5:2",
+            "89:16:10:1"
+          ],
+          "carrier": "89:15:7 için exact HFT trace, ikram ve övgüyle ilişkili olumlu statü rolünü taşır.",
+          "independent_trigger": "Odaktaki daraltılmış geçim ve bunun ardından söylenen aşağılanma hükmü.",
+          "activation": "Attributed olumlu statü carrier'ı, odaktaki daralma ve aşağılanma carrier'larıyla karşılaşarak iki şartın da insan değerini nasıl adlandırdığını görünür kılar.",
+          "resulting_reading": "Bollukta onurlandırılma ve darlıkta aşağılanma, aynı kişisel değer hesabının iki karşıt sözel sonucu olarak okunabilir.",
+          "boundary": "Bu dal için bağımsız lexicon gloss veya facet yoktur; HFT rolü attributed tutulur ve 89:15'teki olumlu hüküm odak kişisiyle kesin özdeşlik iddiasına dönüştürülmez."
+        },
+        {
+          "branch_ref": "root_001525/B001",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "89:15:8"
+          ],
+          "trigger_refs": [
+            "89:16:5:2",
+            "89:16:7:1"
+          ],
+          "focus_return_refs": [
+            "89:16:5:2",
+            "89:16:7:1"
+          ],
+          "carrier": "89:15:8 için exact HFT trace, bolluk koşulunun rahatlık ve iyi durum rolünü taşır.",
+          "independent_trigger": "Odaktaki payın daraltılması ve bu daralmanın konuşmada aşağılanma diye adlandırılması.",
+          "activation": "Attributed rahatlık carrier'ı, odaktaki kısıtlı payla karşıtlaşarak bolluk ve darlığın kişisel değer için doğrudan ölçü sayılmasını aynı çerçevede görünür kılar.",
+          "resulting_reading": "Rahatlık ile darlık, değer hesabını üreten iki karşıt şart olarak aynı sınama içinde birleşir.",
+          "boundary": "Bu context branch için bağımsız lexicon gloss veya facet yoktur; rahatlık görüntüsü HFT'ye attributed kalır ve gerçek nimet olasılığı silinmez."
+        },
+        {
+          "branch_ref": "root_001272/B013",
+          "facet_id": "F001",
+          "branch_gloss": "görüş benimseme",
+          "facet_statement": "Çekirdek anlam, bir görüş veya inancı benimsemektir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "89:15:9"
+          ],
+          "trigger_refs": [
+            "89:16:8:2"
+          ],
+          "focus_return_refs": [
+            "89:16:8:2"
+          ],
+          "carrier": "89:15:9 için HFT trace, olumlu şartı tarafsız bir haberden çok benimsenmiş bir görüş olarak taşır.",
+          "independent_trigger": "Odaktaki يَقُولُ fiilinin daralma ve aşağılanma hükmünü doğrudan söz haline getirmesi.",
+          "activation": "Önceki ve odaktaki söyleme carrier'ları aynı sınama yapısına bağlanınca bolluk ve darlık hakkındaki sözler, şartların doğrudan anlamı değil, şartlardan benimsenen görüşler olarak görünür.",
+          "resulting_reading": "İki koşulun iki hükmü, maddi durumun kendisiyle özdeş olmayan insan yorumları olarak birlikte görünür.",
+          "boundary": "Context occurrence ve rol HFT üzerinden gelir; iki sözün tek bir konuşmacıya ait olduğu veya olumlu hükmün bütünüyle yanlış olduğu ileri sürülmez."
+        }
+      ],
+      "connection_refs": [
+        "conn_382df95473a3097c1ea9"
+      ],
+      "context_refs": [
+        "89:15"
+      ],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "macro:social-honor-flow",
+      "origin_candidate_id": "cand_dcf43d61872c092ec806",
+      "represented_candidate_ids": [],
+      "title": "Geçimin sosyal dolaşımı",
+      "claim": "89:16'daki رِزْقَهُۥ, sonraki ayetlerde onurun yetime yönelen bakım ve besleme ile, korkulan aşağılanmanın ise mirası içe çekme ve malı yığma ile ölçüldüğü sosyal bir dolaşım ilişkisine açılır.",
+      "mechanism": "Odaktaki sahip olunan pay taşıyıcısı, 89:17'de onurlandırma ve yetim, 89:18'de başkasını besleme, 89:19'da mirası yiyip toplama ve 89:20'de malı sevip çoğaltma carrier'larıyla temas eder. Bu ardışıklık, geçimi yalnız elde tutulan miktar olmaktan çıkarıp başkasına yönelen bakım ile içe kapanan biriktirme arasındaki hareket üzerinden okur.",
+      "reader_payoff": "Okur, kişinin onurunu yalnız kendisine ayrılan geçim payında değil, o payın ilişkiler içinde nereye aktığı ve nerede tutulduğunda görmeye başlar.",
+      "containment": "89:17-20'deki çoğul suçlamalar odak kişisiyle tipolojik bir temas kurar; odak konuşmacısının her muhatapla kesin özdeşliği kurulmaz. Geçimin maddi pay olma anlamı korunur ve her darlığın otomatik olarak ahlaki bir sonuca bağlandığı söylenmez.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": [
+          "legacy_unbound"
+        ],
+        "reason": "HFT trace, odaktaki payı sonraki onur, besleme, tüketme, toplama, sevgi, mal ve doluluk rolleriyle açıkça bağlıyor; reader identity legacy_unbound ve bağlam morphology verilmediği için ilişki qualified."
+      },
+      "support_ids": [
+        "sup_564193f63e403755c3c2"
+      ],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000560/B001",
+          "facet_id": "F001",
+          "branch_gloss": "yararlanılmak üzere verilen pay",
+          "facet_statement": "Alıcıya yararlanacağı bir şey verilir veya onun için bir pay ayrılır.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "89:16:7:1"
+          ],
+          "trigger_refs": [
+            "89:17:4",
+            "89:18:4"
+          ],
+          "focus_return_refs": [
+            "89:16:7:1"
+          ],
+          "carrier": "رِزْقَهُۥ, kişiye yararlanacağı ayrılmış payı taşıyan odak carrier'ıdır.",
+          "independent_trigger": "89:17'deki onurlandırma ve 89:18'deki başkasını besleme eylemleri.",
+          "activation": "Kişiye ayrılan pay, başkasına yönelen onur ve besleme eylemleriyle temas edince geçim, yalnız alınan miktar değil ilişkide kullanılabilen bir pay olarak görünür.",
+          "resulting_reading": "Geçimin değeri, yalnız miktarıyla değil, bakım ve besleme ilişkilerine açılmasıyla da okunur.",
+          "boundary": "Bu core pay ve kullanım ilişkisini taşır; bütün malın zorunlu olarak dağıtılması veya odak kişisinin sonraki çoğul muhataplarla aynı kişi olduğu ileri sürülmez."
+        },
+        {
+          "branch_ref": "root_000560/B002",
+          "facet_id": "F001",
+          "branch_gloss": "yenip beslenilen yiyecek",
+          "facet_statement": "Madde yenir, bedene girer ve beslenmeyi sağlar.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "89:16:7:1"
+          ],
+          "trigger_refs": [
+            "89:18:4"
+          ],
+          "focus_return_refs": [
+            "89:16:7:1"
+          ],
+          "carrier": "رِزْقَهُۥ, supplied branch üzerinden bedene girip yaşamı besleyen yiyecek payı olarak da taşınır.",
+          "independent_trigger": "89:18'de başkasının yiyeceğine yöneltilen besleme eylemi.",
+          "activation": "Odaktaki besleyici pay, başkasını besleme çağrısıyla karşılaşınca geçimin paylaşılabilir ve hayatı sürdüren işlevi öne çıkar.",
+          "resulting_reading": "Pay, elde tutulacak bir statü miktarı yanında başkasının hayatına ulaşabilen besin olarak belirir.",
+          "boundary": "Yiyecek facetinin bu bağlamsal açılımı geçimin bütün biçimlerini yiyeceğe indirgemez; sosyal dolaşım ilişkisi korunur."
+        },
+        {
+          "branch_ref": "root_001608/B003",
+          "facet_id": "F001",
+          "branch_gloss": "küçümsenmeden doğan aşağılanma ve onur kaybı",
+          "facet_statement": "Çekirdek, küçümsenmeyle bağlantılı aşağılanma, onur kaybı, değersizlik ve güçsüzlük durumudur.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "89:16:10:1"
+          ],
+          "trigger_refs": [
+            "89:17:4",
+            "89:19:1",
+            "89:20:4"
+          ],
+          "focus_return_refs": [
+            "89:16:10:1"
+          ],
+          "carrier": "أَهَانَنِ, kişinin geçim daralmasını kendi statüsüne yönelmiş aşağılanma diye adlandırdığı odak carrier'ıdır.",
+          "independent_trigger": "89:17-20'de onurun dışarıya verilmesiyle miras ve malın içe çekilmesinin art arda suçlama konusu yapılması.",
+          "activation": "Aşağılanma carrier'ı, dışarıya bakım ve içe biriktirme karşıtlığıyla temas edince statü yarasının yalnız alınan paydan değil, payın toplumsal ilişkideki yönünden de okunabileceği görünür olur.",
+          "resulting_reading": "Odaktaki aşağılanma hükmü, geçim miktarını kişisel onurun tek ölçüsü sayan bakıştan sosyal kullanım ve dolaşım sorusuna doğru genişler.",
+          "boundary": "Bu relation sonraki çoğul suçlamaları tipolojik düzeyde odak iddiasına bağlar; her davranışın veya her yoksunluğun aynı aşağılanma anlamını taşıdığı söylenmez."
+        },
+        {
+          "branch_ref": "root_001294/B001",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "89:17:4"
+          ],
+          "trigger_refs": [
+            "89:16:7:1",
+            "89:16:10:1"
+          ],
+          "focus_return_refs": [
+            "89:16:7:1",
+            "89:16:10:1"
+          ],
+          "carrier": "89:17:4 için exact HFT trace, onur ve cömertliğin başkasına yönelen eylem rolünü taşır.",
+          "independent_trigger": "Odaktaki ayrılmış geçim payı ve kişinin bu payın daralmasını aşağılanma diye adlandırması.",
+          "activation": "Attributed onurlandırma carrier'ı, odaktaki pay ve statü carrier'larıyla temas ederek onuru alınan miktardan başkasına yönelen eyleme taşır.",
+          "resulting_reading": "Onur, kişinin aldığı şarttan çok, şart içindeki payın yetim gibi korunmasız olana yönelmesinde görünür hale gelir.",
+          "boundary": "Bu context branch için bağımsız lexicon gloss veya facet yoktur; HFT rolü attributed kalır ve çoğul suçlama odak kişisiyle kesin özdeşleştirilmez."
+        },
+        {
+          "branch_ref": "root_001692/B001",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "89:17:5"
+          ],
+          "trigger_refs": [
+            "89:16:7:1"
+          ],
+          "focus_return_refs": [
+            "89:16:7:1"
+          ],
+          "carrier": "89:17:5 için exact HFT trace, bakım verenden kopmuş çocuğun sosyal konumunu taşır.",
+          "independent_trigger": "Odaktaki kişiye ayrılmış payın daraltılması.",
+          "activation": "Bakım bağlantısı kopmuş bir muhatap carrier'ı, odaktaki pay carrier'ıyla temas ederek geçimin onur ve bakım ilişkilerine açılan sosyal yüzünü görünür kılar.",
+          "resulting_reading": "Geçim, yalnız sahibinin statüsünü belirleyen bir şey değil, korunmasız bir hayatın bakımını mümkün kılan pay olarak duyulur.",
+          "boundary": "HFT'nin attributed sosyal rolü korunur; odak kişinin yetim olduğu veya sonraki toplumsal sahnenin biyografik olarak ona ait olduğu ileri sürülmez."
+        },
+        {
+          "branch_ref": "root_000934/B002",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "89:18:4"
+          ],
+          "trigger_refs": [
+            "89:16:7:1"
+          ],
+          "focus_return_refs": [
+            "89:16:7:1"
+          ],
+          "carrier": "89:18:4 için exact HFT trace, başkasını besleme eylemini taşır.",
+          "independent_trigger": "Odaktaki geçim payının daraltılması.",
+          "activation": "Başkasını besleme carrier'ı, odaktaki pay carrier'ıyla temas ederek geçimin sahip olunan miktardan dışarıya aktarılan yaşatıcı eyleme çevrilmesini sağlar.",
+          "resulting_reading": "Geçim payı, miktar kadar dolaşımıyla da anlam kazanır; beslenme ilişkisine ulaşan bir kaynak olarak belirir.",
+          "boundary": "Bu dal yalnız HFT-attributed context evidence'tır; her kısıtlı payın paylaşılabilir bir miktar olduğu veya odak kişinin bu eylemi gerçekleştirmediği yönünde kesin hüküm kurulmaz."
+        },
+        {
+          "branch_ref": "root_000043/B004",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "89:19:1",
+            "89:19:3"
+          ],
+          "trigger_refs": [
+            "89:16:7:1",
+            "89:18:4"
+          ],
+          "focus_return_refs": [
+            "89:16:7:1"
+          ],
+          "carrier": "89:19:1 ve 89:19:3 için exact HFT trace, mirası tüketip mülkiyeti içe çekme hareketini taşır.",
+          "independent_trigger": "Odaktaki ayrılmış pay ve 89:18'de dışarıya yönelen besleme carrier'ı.",
+          "activation": "Mirası içe çekme carrier'ı, pay ve besleme carrier'larıyla karşıtlaşınca geçimin sosyal dolaşımının ters hareketi, yani ortak kaynağı kendine toplama olarak görünür.",
+          "resulting_reading": "Aşağılanma korkusunun karşısında, payın başkasına ulaşması ile ortak malın içe çekilmesi arasındaki ahlaki yön belirginleşir.",
+          "boundary": "Bu branch için bağımsız gloss veya facet yoktur; supplied HFT rolü attributed tutulur ve odak kişinin mirası tükettiği iddia edilmez."
+        },
+        {
+          "branch_ref": "root_001378/B001",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "89:19:4"
+          ],
+          "trigger_refs": [
+            "89:16:7:1",
+            "89:19:1"
+          ],
+          "focus_return_refs": [
+            "89:16:7:1"
+          ],
+          "carrier": "89:19:4 için exact HFT trace, dağınık şeyi tek bir kütlede toplama hareketini taşır.",
+          "independent_trigger": "Odaktaki pay carrier'ı ve aynı ayetteki mirası içe çekme carrier'ı.",
+          "activation": "Toplama hareketi, payın başkasına ulaşmasıyla karşıtlaşarak sosyal değerin dolaşımın kesilmesi ve tek elde yoğunlaşması üzerinden okunmasını sağlar.",
+          "resulting_reading": "Payın sınırı, yalnız ne kadar alındığında değil, ne kadarının başkalarından koparılıp tek yerde toplandığında da görünür olur.",
+          "boundary": "HFT-attributed toplama rolü odak ayetine taşınan yapısal bir ilişkidir; odak kişisinin gerçek bir toplama eylemi yaptığı ileri sürülmez."
+        },
+        {
+          "branch_ref": "root_000286/B002",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "89:20:1",
+            "89:20:3"
+          ],
+          "trigger_refs": [
+            "89:16:7:1",
+            "89:19:4"
+          ],
+          "focus_return_refs": [
+            "89:16:7:1"
+          ],
+          "carrier": "89:20:1 ve 89:20:3 için exact HFT trace, malın kalpte sabitlenen sevgi nesnesi olmasını taşır.",
+          "independent_trigger": "Odaktaki pay ve 89:19'daki içe toplama hareketi.",
+          "activation": "Malı kalpte sabitleyen sevgi carrier'ı, pay ve toplama carrier'larıyla temas edince geçimin dolaşımı yalnız davranışla değil, malın içte bağlanan statü nesnesine dönüşmesiyle de kesilir.",
+          "resulting_reading": "Biriktirme, yalnız dışarıdan görülen hareket değil, payı dolaşımdan alıkoyan iç bağlılık olarak da görünür.",
+          "boundary": "Bu branch için bağımsız lexicon gloss veya facet yoktur; HFT rolü attributed kalır ve mal sevgisi bütün sahiplik biçimlerine otomatik biçimde kötü hüküm vermez."
+        },
+        {
+          "branch_ref": "root_001457/B001",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "89:20:2"
+          ],
+          "trigger_refs": [
+            "89:16:7:1",
+            "89:20:4"
+          ],
+          "focus_return_refs": [
+            "89:16:7:1"
+          ],
+          "carrier": "89:20:2 için exact HFT trace, malın bir statü deposu gibi edinilip çoğaltılmasını taşır.",
+          "independent_trigger": "Odaktaki geçim payı ve 89:20'deki doluluk/çokluk carrier'ı.",
+          "activation": "Mülk biriktirme carrier'ı, odaktaki payla temas ederek sağlanan şeyi yaşayan ilişkiden koparıp statü depolayan miktara dönüştüren hareketi görünür kılar.",
+          "resulting_reading": "Geçim, bir kişinin değerini saklayan bir statü deposu olarak tutulduğunda sosyal dolaşımın karşıt kutbu belirir.",
+          "boundary": "Bu context branch yalnız attributed HFT evidence'tır; her maddi birikimin veya odaktaki payın aynı statü işlevine sahip olduğu ileri sürülmez."
+        },
+        {
+          "branch_ref": "root_000261/B001",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "89:20:4"
+          ],
+          "trigger_refs": [
+            "89:16:7:1",
+            "89:20:2"
+          ],
+          "focus_return_refs": [
+            "89:16:7:1"
+          ],
+          "carrier": "89:20:4 için exact HFT trace, biriktirmenin doluluk noktasına kadar tamamlanmasını taşır.",
+          "independent_trigger": "Odaktaki ayrılmış pay ve aynı ayette malın edinilip çoğaltılması rolü.",
+          "activation": "Doluluk carrier'ı, pay ve çoğaltma carrier'larıyla birleşince sosyal dolaşımın kesilmesi, miktarın tek elde yeterlilik hissine kadar yoğunlaşması olarak görünür.",
+          "resulting_reading": "Geçim payının sosyal anlamı, onun yalnız mevcut olmasıyla değil, dolaşımı tamamlayacak biçimde dışarı çıkıp çıkmamasıyla belirginleşir.",
+          "boundary": "Bağımsız lexicon gloss veya facet yoktur; attributed HFT doluluk rolü korunur ve herhangi bir bolluk otomatik olarak istifçilik diye adlandırılmaz."
+        }
+      ],
+      "connection_refs": [
+        "conn_15bd5ded0f33d347d475",
+        "conn_05432f2d21c44122e670",
+        "conn_a3ab82819101b8d18195",
+        "conn_c2b7c27428781f23742f"
+      ],
+      "context_refs": [
+        "89:17",
+        "89:18",
+        "89:19",
+        "89:20"
+      ],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "macro:receipt-to-forward-ledger",
+      "origin_candidate_id": "cand_2c738d31cd80c7909696",
+      "represented_candidate_ids": [],
+      "title": "Alınan paydan ileriye gönderilen hayata",
+      "claim": "89:16'da kişi kendi payının daralmasını belirleyici eksik olarak söylerken, 89:23-24 onun daha sonra hatırladığı eksikliği hayata doğru önceden göndermediği şey olarak yeniden kurar.",
+      "mechanism": "Odaktaki رِزْقَهُۥ ve يَقُولُ carrier'ları alınan payı ve onun hakkında benimsenen hükmü kurar. 89:23'te hatırlama ve artık işe yaramayan zaman sorusu, 89:24'te tekrarlanan söyleme ile öne gönderme ve hayat hedefiyle birleşir; hesap, kişiye gelen paydan kişinin hayat için ileriye koyduğu katkıya döner.",
+      "reader_payoff": "Okur, odaktaki darlığın sonraki pişmanlık ışığında yalnız kendisine verilmemiş olanı değil, fırsat varken ileriye gönderilmemiş olanı da görünür kılan bir zaman eşiği olduğunu fark eder.",
+      "containment": "Bu, supplied HFT'nin zaman yönü inference'ıdır; 89:16 ve 89:24 sözlerinin aynı retorik anda veya kesinlikle aynı konuşmacıda birleştiği iddia edilmez. Odaktaki alınan payın daralması anlamı korunur.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": [
+          "legacy_unbound"
+        ],
+        "reason": "HFT exact trace odak sözünü 89:23-24'teki hatırlama, soru, ikinci söz, öne gönderme ve hayat carrier'larıyla bağlıyor; reader identity legacy_unbound ve context morphology absent olduğu için qualified."
+      },
+      "support_ids": [
+        "sup_befdd5b73ce5236452dd"
+      ],
+      "branch_activations": [
+        {
+          "branch_ref": "root_001272/B013",
+          "facet_id": "F001",
+          "branch_gloss": "görüş benimseme",
+          "facet_statement": "Çekirdek anlam, bir görüş veya inancı benimsemektir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "89:16:8:2"
+          ],
+          "trigger_refs": [
+            "89:23:5",
+            "89:24:1"
+          ],
+          "focus_return_refs": [
+            "89:16:8:2"
+          ],
+          "carrier": "يَقُولُ, odaktaki alınan pay hükmünü sesli bir söz ve benimsenmiş bir görüş haline getiren carrier'dır.",
+          "independent_trigger": "89:23'te hatırlama ile 89:24'te tekrarlanan söyleme ve sonraki pişmanlık.",
+          "activation": "Odaktaki söz carrier'ı, daha sonra gelen hatırlama ve ikinci sözle temas edince paya verilen hüküm, kişinin kendi hayat hesabını kurduğu bir görüş olarak görünür.",
+          "resulting_reading": "'Rabbim beni aşağıladı' sözü, alınan payı kişinin değeri için nihai ölçü sayan bir iç hüküm olarak sonraki sözle yeniden okunur.",
+          "boundary": "Bu branch, sözün görüşe dönüşme pressure'ını taşır; odak sözünün bütünüyle yanlış veya sonraki sözle birebir aynı konuşmacıya ait olduğu söylenmez."
+        },
+        {
+          "branch_ref": "root_000560/B001",
+          "facet_id": "F001",
+          "branch_gloss": "yararlanılmak üzere verilen pay",
+          "facet_statement": "Alıcıya yararlanacağı bir şey verilir veya onun için bir pay ayrılır.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "89:16:7:1"
+          ],
+          "trigger_refs": [
+            "89:24:3",
+            "89:24:4"
+          ],
+          "focus_return_refs": [
+            "89:16:7:1"
+          ],
+          "carrier": "رِزْقَهُۥ, kişinin kendisine ayrılmış ve şu anda ölçülen payını taşır.",
+          "independent_trigger": "89:24'te öne koyma ve hayat için ayrılmış hedefe yönelme carrier'ları.",
+          "activation": "Kişiye ayrılmış pay, hayat için ileriye konan şeyle karşılaşınca değer hesabını alınan miktardan kişinin geleceğe gönderdiği katkıya doğru çevirir.",
+          "resulting_reading": "Eksik, yalnız daraltılan pay değil; hâlâ zaman varken hayata doğru gönderilememiş katkı olarak da görünür.",
+          "boundary": "Payın alınmış maddi anlamı korunur; 89:24'teki eylemin mutlaka 89:16'daki kişi tarafından yapılmadığı ihtimali açıktır."
+        },
+        {
+          "branch_ref": "root_000516/B003",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "89:23:5",
+            "89:23:9"
+          ],
+          "trigger_refs": [
+            "89:16:7:1",
+            "89:16:8:2"
+          ],
+          "focus_return_refs": [
+            "89:16:7:1",
+            "89:16:8:2"
+          ],
+          "carrier": "89:23:5 ve 89:23:9 için exact HFT trace, önce yoklukta kalan şeyi sonradan hatırlama rolünü taşır.",
+          "independent_trigger": "Odaktaki payın daralması ve bu durum hakkında söylenen kişisel hüküm.",
+          "activation": "Attributed hatırlama carrier'ı, odaktaki alınan pay ve söz carrier'larına dönerek sonradan gelen fark edişi, şimdiye ait statü hesabının gecikmiş karşılığı haline getirir.",
+          "resulting_reading": "Odaktaki yakın eksik, daha sonra hatırlanan ve artık eyleme çevrilemeyen bir geçmiş hesabının başlangıcı olarak görünür.",
+          "boundary": "Bağımsız branch gloss veya facet yoktur; exact HFT rolü attributed tutulur ve hatırlama ayetinin kesin biçimde odak konuşmacısının biyografisi olduğu ileri sürülmez."
+        },
+        {
+          "branch_ref": "root_000063/B005",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "89:23:7"
+          ],
+          "trigger_refs": [
+            "89:16:7:1",
+            "89:16:8:2"
+          ],
+          "focus_return_refs": [
+            "89:16:7:1",
+            "89:16:8:2"
+          ],
+          "carrier": "89:23:7 için exact HFT trace, imkânın veya vaktin nerede kaldığını soran erişilebilirlik eşiğini taşır.",
+          "independent_trigger": "Odaktaki payın mevcut şart olarak ölçülmesi ve bunun sözle hükme bağlanması.",
+          "activation": "Attributed erişilebilirlik sorusu, odaktaki pay carrier'ıyla temas ederek sonradan hatırlanan şeyin artık kullanıma açık olmayan bir fırsat olduğunu görünür kılar.",
+          "resulting_reading": "Payın daralması, kişinin elindeki imkânı yalnız miktar olarak değil, vakti geçmeden eyleme dönüştürülmesi gereken bir fırsat olarak da çerçeveler.",
+          "boundary": "Bu branch'in bağımsız lexicon kaydı yoktur; HFT rolü attributed kalır ve her darlığın kaçırılmış bir fırsat olduğu söylenmez."
+        },
+        {
+          "branch_ref": "root_001272/B001",
+          "facet_id": "F001",
+          "branch_gloss": "söze dökme",
+          "facet_statement": "Çekirdek işlem, sözü sesli olarak dışa çıkarmaktır.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "89:24:1"
+          ],
+          "trigger_refs": [
+            "89:16:8:2"
+          ],
+          "focus_return_refs": [
+            "89:16:8:2"
+          ],
+          "carrier": "89:24:1 için supplied focus-root branch, sonraki pişmanlığın yeniden söz haline gelmesini taşır.",
+          "independent_trigger": "89:16'da aynı söyleme alanının pay daralması hakkındaki hükmü dışa çıkarması.",
+          "activation": "İki söyleme carrier'ı karşılaştığında, odaktaki pay hükmü ile sonraki hayata dönük pişmanlık aynı sesli ifade biçiminin iki zaman yönü olarak görünür.",
+          "resulting_reading": "Önceki söz alınan paya bakarken sonraki söz ileriye konmamış olana bakar; aynı söyleme eylemi hesabın yönünü değiştirir.",
+          "boundary": "Context occurrence HFT trace ile sağlanır; iki sözün aynı kişiye ait olduğu kesinleştirilmez."
+        },
+        {
+          "branch_ref": "root_001207/B004",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "89:24:3"
+          ],
+          "trigger_refs": [
+            "89:16:7:1"
+          ],
+          "focus_return_refs": [
+            "89:16:7:1"
+          ],
+          "carrier": "89:24:3 için exact HFT trace, değeri kişiye gelen şeyden öne gönderilen şeye çeviren ilerletme rolünü taşır.",
+          "independent_trigger": "Odaktaki kişinin kendisine ayrılan payı belirleyici girdi sayması.",
+          "activation": "İlerletme carrier'ı, alınan pay carrier'ıyla karşılaştığında değer hesabının alıcıya gelen miktardan kişinin hayat için önden koyduğu şeye dönmesini sağlar.",
+          "resulting_reading": "Darlığın anlamı, yalnız eksik alınan pay değil, geleceğe gönderilmeyen değer bakımından da belirginleşir.",
+          "boundary": "Bağımsız branch gloss veya facet yoktur; ileriye gönderme rolü attributed HFT evidence olarak kalır."
+        },
+        {
+          "branch_ref": "root_000383/B013",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "89:24:4"
+          ],
+          "trigger_refs": [
+            "89:16:7:1",
+            "89:24:3"
+          ],
+          "focus_return_refs": [
+            "89:16:7:1"
+          ],
+          "carrier": "89:24:4 için exact HFT trace, ilerletilmesi gereken eylemin hayat ve yarar hedefini taşır.",
+          "independent_trigger": "Odaktaki payın daraltılması ve hemen önceki attributed ileriye gönderme carrier'ı.",
+          "activation": "Hayat hedefi carrier'ı, odaktaki pay ile temas ederek geçimin anlamını kişiye ulaşan tüketime değil, hayatı kuracak yönde ileriye konan yarara bağlar.",
+          "resulting_reading": "Payın daralması, alınan kaynağın geleceğe dönük bir yaşam katkısına dönüşüp dönüşmediği sorusunu açık bırakır ve görünür kılar.",
+          "boundary": "Bu branch için independent gloss veya facet yoktur; hayat hedefi odak fiilinin literal nesnesi yapılmaz."
+        }
+      ],
+      "connection_refs": [
+        "conn_8acbba86a60561b52a0b",
+        "conn_e4e1ae721dd19fd22a33"
+      ],
+      "context_refs": [
+        "89:23",
+        "89:24"
+      ],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "macro:attributed-humiliation-punishment",
+      "origin_candidate_id": "cand_59f0eff743cb7548ed97",
+      "represented_candidate_ids": [],
+      "title": "Söylenen aşağılanma ile bildirilen ceza",
+      "claim": "89:16'da aşağılanma, kişinin Rabbine yönelttiği sözün içinde yer alırken 89:25-26'da acı ve bağlama doğrudan bildirilen ceza kategorileri olarak gelir; bu ayrım daralmayı kişinin hükmüyle açık cezayı aynı şey saymaktan ayırır.",
+      "mechanism": "Odaktaki يَقُولُ carrier'ı أَهَانَنِ iddiasını konuşmacının atfı olarak çerçeveler. 89:25'te acı verme ve 89:26'da bağlama eylemleri doğrudan sonraki hüküm sahnesinde adlandırılır; iki dilsel yerleşim, deneyimlenen kısıt, konuşmacının yorumu ve açıkça bildirilen ceza arasındaki sınırı görünür kılar.",
+      "reader_payoff": "Okur, 89:16'daki sözün Rabbine yöneltilmiş bir insan hükmü olduğunu ve perikopun açık ceza dilini daha sonraki sahnede kurduğunu birlikte görür.",
+      "containment": "Daralma ve kişinin aşağılanma diye konuşması korunur. Önceki kısıtın terbiye edici veya başka bir anlamı olamayacağı söylenmez; yalnızca supplied later punishment language ile birebir özdeşleştirilmez.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": [
+          "legacy_unbound"
+        ],
+        "reason": "Focus quotation and later pain/binding anchors are exact HFT evidence; HFT trust medium/legacy_unbound and context morphology absent, so grammatical contrast qualified olarak kaydedildi."
+      },
+      "support_ids": [
+        "sup_0351724dc943bbedd335"
+      ],
+      "branch_activations": [
+        {
+          "branch_ref": "root_001272/B001",
+          "facet_id": "F001",
+          "branch_gloss": "söze dökme",
+          "facet_statement": "Çekirdek işlem, sözü sesli olarak dışa çıkarmaktır.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "89:16:8:2"
+          ],
+          "trigger_refs": [
+            "89:25:3",
+            "89:26:2"
+          ],
+          "focus_return_refs": [
+            "89:16:8:2"
+          ],
+          "carrier": "يَقُولُ, aşağılanma hükmünü kişinin sesli atfı ve sözü olarak taşıyan odak carrier'ıdır.",
+          "independent_trigger": "89:25'te açık acı/ceza ve 89:26'da açık bağlama eylemlerinin doğrudan bildirilmesi.",
+          "activation": "Odaktaki söz carrier'ı, sonraki doğrudan ceza carrier'larıyla karşılaştığında konuşmacının hükmü ile metnin daha sonra açıkça adlandırdığı ceza ayrı dilsel katmanlar olarak görünür.",
+          "resulting_reading": "Aşağılanma sözü, daha sonraki ceza dilinden önce gelen kişisel bir yorum olarak duyulur.",
+          "boundary": "Sözün kişisel atıf olması onun duygusal deneyimini silmez; kısıtın hiçbir şekilde cezalandırıcı olamayacağı hükmü çıkarılmaz."
+        },
+        {
+          "branch_ref": "root_001608/B003",
+          "facet_id": "F001",
+          "branch_gloss": "küçümsenmeden doğan aşağılanma ve onur kaybı",
+          "facet_statement": "Çekirdek, küçümsenmeyle bağlantılı aşağılanma, onur kaybı, değersizlik ve güçsüzlük durumudur.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "89:16:10:1"
+          ],
+          "trigger_refs": [
+            "89:25:3",
+            "89:26:2"
+          ],
+          "focus_return_refs": [
+            "89:16:10:1"
+          ],
+          "carrier": "أَهَانَنِ, kişinin daralmış payını küçümsenme ve onur kaybı olarak adlandırdığı odak carrier'ıdır.",
+          "independent_trigger": "89:25-26'da acı verme ve bağlamanın fail tarafından doğrudan bildirilen sonraki cezalar olarak görünmesi.",
+          "activation": "Aşağılanma carrier'ı, daha sonra doğrudan bildirilen ceza carrier'larıyla temas ederek odaktaki statü yarasının konuşmacının açıklaması, sonraki cezanın ise ayrı bir hüküm kategorisi olduğunu görünür kılar.",
+          "resulting_reading": "Odaktaki aşağılanma, perikopun açık ceza sözlüğünden önce gelen ve onunla karıştırılmaması gereken bir insan statü hükmü olarak kalır.",
+          "boundary": "Aşağılanma dalı odak sözünün anlamını taşır; odaktaki kısıtın bütün ahlaki veya ilahi anlamları bu ayrımla tüketilmez."
+        },
+        {
+          "branch_ref": "root_000994/B005",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "89:25:3",
+            "89:25:4"
+          ],
+          "trigger_refs": [
+            "89:16:8:2",
+            "89:16:10:1"
+          ],
+          "focus_return_refs": [
+            "89:16:10:1"
+          ],
+          "carrier": "89:25:3 ve 89:25:4 için exact HFT trace, acı ve açık ceza eylemini taşır.",
+          "independent_trigger": "Odaktaki aşağılanma iddiasının يَقُولُ fiiliyle kişinin sözü içine yerleştirilmesi.",
+          "activation": "Attributed açık ceza carrier'ı, odaktaki söz ve aşağılanma carrier'larıyla karşılaşarak kısıt, insanın adlandırdığı statü yarası ve doğrudan bildirilen ceza arasında sınır kurar.",
+          "resulting_reading": "Gerçek ceza dili, odaktaki kişinin kendi aşağılanma açıklamasından sonraki ve ayrı bir hüküm alanı olarak belirir.",
+          "boundary": "Bağımsız lexicon gloss veya facet yoktur; acı/ceza rolü HFT'ye attributed kalır ve 89:16'daki kısıt bütünüyle ceza dışı ilan edilmez."
+        },
+        {
+          "branch_ref": "root_001623/B003",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "89:26:2",
+            "89:26:3"
+          ],
+          "trigger_refs": [
+            "89:16:8:2",
+            "89:16:10:1"
+          ],
+          "focus_return_refs": [
+            "89:16:10:1"
+          ],
+          "carrier": "89:26:2 ve 89:26:3 için exact HFT trace, bağlama ve sabitleme biçimindeki doğrudan hükmü taşır.",
+          "independent_trigger": "Odaktaki aşağılanma sözünün konuşma fiili üzerinden atfedilmesi.",
+          "activation": "Attributed bağlama carrier'ı, odaktaki atfedilmiş aşağılanma carrier'ıyla temas edince sonradan bildirilen hükmün, konuşmacının ilk yorumundan farklı bir doğrudan eylem kategorisi olduğu görünür olur.",
+          "resulting_reading": "İnsanın 'aşağılandım' sözü ile daha sonra bildirilen bağlayıcı ceza aynı semantik olay olarak üst üste binmez.",
+          "boundary": "Bu context branch için bağımsız gloss veya facet yoktur; HFT'nin bağlama rolü korunur ve odaktaki kısıtın bütün sonuçları yalnız bu karşıtlıkla açıklanmaz."
+        }
+      ],
+      "connection_refs": [
+        "conn_fa2efee52e0a158ddc1e"
+      ],
+      "context_refs": [
+        "89:25",
+        "89:26"
+      ],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "macro:lowering-and-composure",
+      "origin_candidate_id": "cand_6768bdd0ead82d43584e",
+      "represented_candidate_ids": [],
+      "title": "Aşağılanma ile sükûnet arasındaki açıklık",
+      "claim": "Odaktaki أَهَانَنِ, doğrudan aşağılanma ve onur kaybı sözünü korurken 89:27-28'deki sakin, alçalmış, dönen ve karşılıklı hoşnut benlik görüntüsüyle birlikte, dar şartların benlik değerini tek başına kapatmadığı exploratory bir karşı okuma açar.",
+      "mechanism": "Aynı focus-root surface için supplied iki ayrı carrier, contemptuous abasement ile yumuşak ve ağırbaşlı sakinliği ayırır. 89:27'de iç benlik ve sükûnet, 89:28'de dönüş ve karşılıklı hoşnutluk bu alternatif response'u taşır; focus sözündeki aşağılanma hükmü böylece silinmeden, alçalmanın her zaman değersizlik olarak yaşanmadığı bir ikinci yön görünür olur.",
+      "reader_payoff": "Okur, odaktaki daralmayı kişinin değerine kapanmış tek bir sonuç gibi değil, aşağılanma diye adlandırılabilen ve yine de sükûnetli bir dönüşe açık kalan bir benlik deneyimi olarak görür.",
+      "containment": "Bu calm reading أَهَانَنِ fiilinin literal karşılığı değildir; focus'un doğrudan aşağılanma anlamı korunur. İlişki, sonraki ayetlerin exploratory karşı modelidir ve yoksulluğu otomatik olarak erdem veya huzur ilan etmez.",
+      "epistemic": {
+        "status": "exploratory",
+        "source_trust": [
+          "legacy_unbound"
+        ],
+        "reason": "HFT trace odak kökündeki iki karşıt branch'i ve 89:27-28'deki iç benlik, sükûnet, dönüş ve hoşnutluk carrier'larını veriyor; source legacy_unbound olduğu için bu karşı model exploratory kalıyor."
+      },
+      "support_ids": [
+        "sup_e42479ea5f1b065838ae"
+      ],
+      "branch_activations": [
+        {
+          "branch_ref": "root_001608/B001",
+          "facet_id": "F001",
+          "branch_gloss": "yumuşak, ağırbaşlı sakinlik",
+          "facet_statement": "Anlamın çekirdeği, yumuşaklıkla birleşen sakinlik ve ağırbaşlılıktır.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "89:16:10:1"
+          ],
+          "trigger_refs": [
+            "89:27:3",
+            "89:28:4"
+          ],
+          "focus_return_refs": [
+            "89:16:10:1"
+          ],
+          "carrier": "أَهَانَنِ surface'ı, HFT'nin aynı kök alanında ağırbaşlı ve sakin bir düşük-ölçü response'una da açılır.",
+          "independent_trigger": "89:27'de sükûnetli benlik ve 89:28'de karşılıklı hoşnutlukla Rabbine dönüş.",
+          "activation": "Odak aşağılanma carrier'ı, sakinlik ve hoşnutluk carrier'larıyla temas edince dar şartın benlikte mutlaka contempt olarak kapanmadığı exploratory bir yaşama biçimi görünür olur.",
+          "resulting_reading": "Aşağıya çekilme, aşağılanma hükmünü silmeden, yumuşaklık ve sükûnetle taşınabilen bir durum olarak da görünür.",
+          "boundary": "Sükûnet branch'i odak fiilinin doğrudan gloss'u değildir; odak sözündeki aşağılanma ve onur kaybı anlamı canlı kalır."
+        },
+        {
+          "branch_ref": "root_001608/B003",
+          "facet_id": "F001",
+          "branch_gloss": "küçümsenmeden doğan aşağılanma ve onur kaybı",
+          "facet_statement": "Çekirdek, küçümsenmeyle bağlantılı aşağılanma, onur kaybı, değersizlik ve güçsüzlük durumudur.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "89:16:10:1"
+          ],
+          "trigger_refs": [
+            "89:27:3",
+            "89:28:4"
+          ],
+          "focus_return_refs": [
+            "89:16:10:1"
+          ],
+          "carrier": "أَهَانَنِ, konuşmacının gerçekten seslendirdiği küçümsenme ve onur kaybı carrier'ıdır.",
+          "independent_trigger": "89:27-28'de aynı perikopun sükûnet, dönüş ve karşılıklı hoşnutlukla kurduğu alternatif benlik sahnesi.",
+          "activation": "Aşağılanma carrier'ı, sükûnet ve hoşnutluk carrier'larıyla karşılaşınca focus claim korunur ve onun yanında dar şartın benliğin bütün değer ufkunu belirlemediği karşı yön açılır.",
+          "resulting_reading": "Metin, kişinin aşağılama diye söylediği hükmü korurken aynı kök alanında değersizlikle özdeş olmayan bir alçalma ihtimalini de açık bırakır.",
+          "boundary": "Bu karşıtlık focus formunun anlamını ikiye bölmez; sakinlik, direct lexical reading değil, supplied context ile kurulan exploratory resonance'tır."
+        },
+        {
+          "branch_ref": "root_001533/B013",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "89:27:2"
+          ],
+          "trigger_refs": [
+            "89:16:10:1"
+          ],
+          "focus_return_refs": [
+            "89:16:10:1"
+          ],
+          "carrier": "89:27:2 için exact HFT trace, alternative response'un kişinin iç benliğinde bulunduğunu taşır.",
+          "independent_trigger": "Odaktaki kişinin kendi benliği hakkında Rabbine yönelttiği aşağılanma sözü.",
+          "activation": "İç benlik carrier'ı, odaktaki statü hükmüne dönerek şartın benlik değerini dışarıdan belirleyen bir sonuç değil, yorumlanan bir deneyim olduğunu görünür kılar.",
+          "resulting_reading": "Aynı dış şartın nasıl yaşandığı ve adlandırıldığı, iç benliğin sonraki sükûnet ve dönüş hareketine açık kalır.",
+          "boundary": "Bağımsız lexicon gloss veya facet yoktur; HFT rolü attributed tutulur ve iç benliğe odak fiilinin doğrudan nesnesi denmez."
+        },
+        {
+          "branch_ref": "root_000948/B001",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "89:27:3"
+          ],
+          "trigger_refs": [
+            "89:16:10:1"
+          ],
+          "focus_return_refs": [
+            "89:16:10:1"
+          ],
+          "carrier": "89:27:3 için exact HFT trace, sükûnet ve iç huzur carrier'ını taşır.",
+          "independent_trigger": "Odaktaki aşağılanma hükmünün dar geçim şartına bağlanması.",
+          "activation": "Sükûnet carrier'ı, odaktaki aşağılanma carrier'ıyla temas ederek dar şartın benlik için zorunlu tek bir duygusal sonucunun bulunmadığı karşı modeli kurar.",
+          "resulting_reading": "Daralma, konuşmacının aşağılanma hükmünü doğurabilirken aynı perikopta iç huzura açık başka bir benlik duruşu da taşır.",
+          "boundary": "Bu branch için bağımsız gloss veya facet yoktur; sükûnet odaktaki fiile doğrudan tercüme edilmez ve HFT attribution olarak kalır."
+        },
+        {
+          "branch_ref": "root_000948/B002",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "89:27:3"
+          ],
+          "trigger_refs": [
+            "89:16:10:1"
+          ],
+          "focus_return_refs": [
+            "89:16:10:1"
+          ],
+          "carrier": "89:27:3 için exact HFT trace, fiziksel veya duygusal alçalmayı değer kaybı olmadan taşıyabilen lowering görüntüsünü taşır.",
+          "independent_trigger": "Odaktaki aşağılanma dalının statü kaybı hükmü.",
+          "activation": "Attributed lowering carrier'ı, contempt carrier'ıyla karşılaşarak aşağıya yönelmenin iki ayrı statü deneyimine açılabileceğini görünür kılar.",
+          "resulting_reading": "Alçalma, küçümsenme ile aynı şey olmadan sükûnetli bir kabul biçimi olarak da düşünülebilir.",
+          "boundary": "Bağımsız lexicon gloss veya facet yoktur; fiziksel lowering odak fiilinin literal anlamı değildir ve bu relation exploratory kalır."
+        },
+        {
+          "branch_ref": "root_000544/B001",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "89:28:1"
+          ],
+          "trigger_refs": [
+            "89:16:10:1",
+            "89:27:3"
+          ],
+          "focus_return_refs": [
+            "89:16:10:1"
+          ],
+          "carrier": "89:28:1 için exact HFT trace, önceki ilişkiye dönüş yönünü ve sükûnetin tamamlanmasını taşır.",
+          "independent_trigger": "Odaktaki Rabbine yönelmiş aşağılanma sözü ve 89:27'deki sükûnet carrier'ı.",
+          "activation": "Dönüş carrier'ı, odaktaki statü yarasıyla temas ederek benlik değerini maddi payda sabitlemek yerine ilişkiye geri dönen bir yönelim ihtimalini açar.",
+          "resulting_reading": "Dar şart, sükûnetle birlikte Rabbine dönüşe doğru ilerleyen bir deneyimin başlangıç noktası olarak da kalabilir.",
+          "boundary": "Bağımsız gloss veya facet yoktur; dönüşün odaktaki olayın kesin sonucu olduğu değil, HFT'nin attributed exploratory bağlantısı olduğu kaydedilir."
+        },
+        {
+          "branch_ref": "root_000569/B003",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "89:28:4",
+            "89:28:5"
+          ],
+          "trigger_refs": [
+            "89:16:10:1",
+            "89:27:3"
+          ],
+          "focus_return_refs": [
+            "89:16:10:1"
+          ],
+          "carrier": "89:28:4 ve 89:28:5 için exact HFT trace, maddi miktara bağlı olmayan karşılıklı hoşnutluk statüsünü taşır.",
+          "independent_trigger": "Odaktaki geçim daralmasının benlik değeri diye yorumlanması ve sonraki sükûnet/dönüş carrier'ları.",
+          "activation": "Karşılıklı hoşnutluk carrier'ı, odaktaki aşağılanma hükmüyle temas ederek kabul ve değer ilişkisinin maddi pay miktarından ayrı bir statü ölçüsü olabileceğini görünür kılar.",
+          "resulting_reading": "Değer, geçimin genişliğiyle tek başına ölçülmeyen karşılıklı bir ilişki içinde yeniden belirir.",
+          "boundary": "Bağımsız branch gloss veya facet yoktur; karşılıklı hoşnutluk odaktaki aşağılanmanın yerine geçirilmez ve HFT-attributed exploratory evidence olarak kalır."
+        }
+      ],
+      "connection_refs": [
+        "conn_1c21494b15107a7f4133",
+        "conn_1cdccbda4e1e783c606a"
+      ],
+      "context_refs": [
+        "89:27",
+        "89:28"
+      ],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "macro:humiliation-as-alibi",
+      "origin_candidate_id": "cand_3cc2f85cdffef7fdfd3b",
+      "represented_candidate_ids": [],
+      "title": "Aşağılanma sözünün mazeret işlevi",
+      "claim": "Odaktaki 'Rabbim beni aşağıladı' sözü, 89:17-18'de hemen ardından gelen onurlandırma ve besleme sorumluluklarıyla temas ettiğinde, kişinin kendi daraltılmış payını dışarıya dönük yükümlülüklerden çekilmek için kullanabileceği olası bir kendini aklama anlatısı olarak da görünür.",
+      "mechanism": "يَقُولُ carrier'ı iddiayı sosyal olarak işleyen bir söz haline getirir; أَهَانَنِ için supplied collocation facetleri asılsız söz ve mazeret işlevini taşır. Bu carrier'lar 89:17'de onurlandırma ve 89:18'de başkasını besleme eylemleriyle karşılaşınca, 'diminished olduğum için dışarıya borcum yok' biçimindeki olası kullanım görünür olur.",
+      "reader_payoff": "Okur, aşağılanma cümlesini yalnız iç acının ifadesi olarak değil, sonraki sosyal sorumlulukları askıya almak için kullanılabilecek bir söz eylemi olarak da işitebilir.",
+      "containment": "Bu okuma, أَهَانَنِ fiilinin sözlükte 'yalan' anlamına geldiğini söylemez ve konuşmacıyı yalancılıkla suçlamaz. Formdan uzak, legacy_unbound HFT outlier'ının kurduğu olası mazeret işlevi olarak kalır; gerçek bir yoksunluk deneyimi korunur.",
+      "epistemic": {
+        "status": "exploratory",
+        "source_trust": [
+          "legacy_unbound"
+        ],
+        "reason": "Exact focus speech, humiliation, honor and feeding anchors are supplied; however the false-pretext branch is a legacy_unbound HFT outlier and form-distant, so the social function is exploratory and explicitly qualified."
+      },
+      "support_ids": [
+        "sup_5acfccc4a2ecc49b2fb5"
+      ],
+      "branch_activations": [
+        {
+          "branch_ref": "root_001272/B001",
+          "facet_id": "F001",
+          "branch_gloss": "söze dökme",
+          "facet_statement": "Çekirdek işlem, sözü sesli olarak dışa çıkarmaktır.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "89:16:8:2"
+          ],
+          "trigger_refs": [
+            "89:17:4",
+            "89:18:4"
+          ],
+          "focus_return_refs": [
+            "89:16:8:2"
+          ],
+          "carrier": "يَقُولُ, aşağılanma açıklamasını sesli ve sosyal olarak işleyen söz carrier'ıdır.",
+          "independent_trigger": "89:17'de onurlandırma ve 89:18'de başkasını besleme sorumluluğunun hemen takip etmesi.",
+          "activation": "Odaktaki söz carrier'ı, sonraki iki sosyal sorumlulukla temas edince iddia yalnız iç değerlendirme değil, eylemden kaçınmayı açıklayabilen bir söylem olarak görünür.",
+          "resulting_reading": "Aşağılanma sözü, sosyal yükümlülüklerin nasıl çerçeveleneceğini belirleyen bir mazeret işlevi de kazanabilir.",
+          "boundary": "Sözün bu işlevi olasılıktır; konuşmacının gerçekten mazeret ürettiği veya iddianın bütünüyle asılsız olduğu ileri sürülmez."
+        },
+        {
+          "branch_ref": "root_001687/B008",
+          "facet_id": "F001",
+          "branch_gloss": "mazeret için uydurulan boş söz",
+          "facet_statement": "Söylenen sözler asılsız, boş veya gerçeğe dayanmayan niteliktedir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "89:16:10:1"
+          ],
+          "trigger_refs": [
+            "89:17:4",
+            "89:18:4"
+          ],
+          "focus_return_refs": [
+            "89:16:10:1"
+          ],
+          "carrier": "أَهَانَنِ, HFT'nin form-distant collocation trace'inde mazeret için boş/aslı olmayan sözle temas eden odak carrier'ıdır.",
+          "independent_trigger": "Sözün hemen ardından onurlandırma ve besleme görevlerinin toplumsal düzeltme olarak gelmesi.",
+          "activation": "Focus humiliation carrier'ı, bu ardışık sosyal düzeltmeyle temas ettiğinde sözün gerçek durumu açıklamak kadar kendini koruyan bir anlatı olarak kullanılabileceği görünür olur.",
+          "resulting_reading": "'Aşağılandım' cümlesi, olası bir kendini aklama sözünün içerik yüzünü de taşır.",
+          "boundary": "Bu facet HFT outlier'ının supplied semantic image'ıdır; odak biçiminin doğrudan yalan söylediği veya sözün asılsız olduğu kanıtlanmış sayılmaz."
+        },
+        {
+          "branch_ref": "root_001687/B008",
+          "facet_id": "F002",
+          "branch_gloss": "mazeret için uydurulan boş söz",
+          "facet_statement": "Konuşan kişi bu sözleri kendine bir mazeret veya bahane oluşturmak için kullanır.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "89:16:10:1"
+          ],
+          "trigger_refs": [
+            "89:17:4",
+            "89:18:4"
+          ],
+          "focus_return_refs": [
+            "89:16:10:1"
+          ],
+          "carrier": "أَهَانَنِ, supplied collocation'ın mazeret oluşturma amacıyla ilişkilendirdiği odak carrier'ıdır.",
+          "independent_trigger": "89:17-18'de kişinin başkasına onur ve besleme borcunu hatırlatan ardışık carrier'lar.",
+          "activation": "Mazeret amacı carrier'ı, odaktaki aşağılanma sözü ile sonraki borçları karşılaştırınca dar şartın dışarıya dönük sorumluluğu askıya alan bir alibi gibi kullanılabilmesini görünür kılar.",
+          "resulting_reading": "Söz, olası bir savunma düzeni kurar: kendimi değersiz hissettiğim için yetime onur ve muhtaca besin borcum kalmadı.",
+          "boundary": "Bu associated-use facet, F001 çekirdeğiyle birlikte ve exploratory olarak taşınır; konuşmacının niyeti veya sonraki eylemsizliği kesin bir vakıa diye sunulmaz."
+        },
+        {
+          "branch_ref": "root_001294/B001",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "89:17:4"
+          ],
+          "trigger_refs": [
+            "89:16:8:2",
+            "89:16:10:1"
+          ],
+          "focus_return_refs": [
+            "89:16:8:2",
+            "89:16:10:1"
+          ],
+          "carrier": "89:17:4 için exact HFT trace, yetime yönelmesi gereken onur ve cömertlik eylemini taşır.",
+          "independent_trigger": "Odaktaki aşağılanma iddiasının söz olarak kurulması.",
+          "activation": "Attributed onur carrier'ı, odaktaki söz ve humiliation carrier'larıyla temas edince sözün, dışarıya yönelmesi gereken onuru ertelemek için kullanılabilecek olası mazeret işlevi belirir.",
+          "resulting_reading": "Aşağılanma iddiası, başkasına verilmesi gereken onurla aynı sosyal sahnede bir savunma cümlesi olarak da duyulabilir.",
+          "boundary": "Bu context branch için bağımsız gloss veya facet yoktur; onur sorumluluğu HFT attribution'dır ve odak kişinin yetime karşı fiil işlediği ileri sürülmez."
+        },
+        {
+          "branch_ref": "root_000934/B002",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "89:18:4"
+          ],
+          "trigger_refs": [
+            "89:16:8:2",
+            "89:16:10:1"
+          ],
+          "focus_return_refs": [
+            "89:16:8:2",
+            "89:16:10:1"
+          ],
+          "carrier": "89:18:4 için exact HFT trace, başkasını besleme ve dışarıya yönelen nourishment obligation rolünü taşır.",
+          "independent_trigger": "Odaktaki kişinin geçim daralmasını kendi aşağılanmasının açıklaması olarak söylemesi.",
+          "activation": "Attributed besleme carrier'ı, focus sözünün mazeret branch'iyle temas edince dar payın, başkasının beslenmesine karşı sorumluluğu ertelemek için anlatılaştırılabileceği görünür olur.",
+          "resulting_reading": "Aşağılanma anlatısı, kişinin kendi payını gerekçe göstererek başkasını besleme borcundan çekilme ihtimalini taşır.",
+          "boundary": "Bağımsız gloss veya facet yoktur; yalnız HFT-attributed social trigger korunur ve gerçek bir mazeret kurulduğu iddia edilmez."
+        }
+      ],
+      "connection_refs": [
+        "conn_15bd5ded0f33d347d475",
+        "conn_05432f2d21c44122e670"
+      ],
+      "context_refs": [
+        "89:17",
+        "89:18"
+      ],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "macro:service-honor-reversal",
+      "origin_candidate_id": "cand_0a3a71f6aa7bbc064a41",
+      "represented_candidate_ids": [],
+      "title": "Bağımlılıktan onurlu aidiyete",
+      "claim": "Odaktaki Rabbine bağlılık ve aşağılanma sözü, 89:29'da kullar arasına girişle karşılaştığında, bağımlılığın ve hizmetin zorunlu olarak onur kaybına kapanmadığı, onurlu bir aidiyete açılabileceği exploratory bir karşı yön kazanır.",
+      "mechanism": "رَبِّى taşıyıcısı sahiplik ve yönetici Rabb ilişkisini, أَهَانَنِ ise bu ilişki içindeki statü yarası iddiasını kurar. 89:29'daki attributed giriş ve kulluk/hizmet carrier'ları, aynı ilişkiyi dışlanma değil bir topluluğa dahil olma yönünde çevirir; hizmet dalındaki iş görme ve ustalık facetleri bu dönüşe somut bir çalışma biçimi verir.",
+      "reader_payoff": "Okur, Rabbine bağımlı olmayı yalnız aşağılanmanın koşulu olarak değil, hizmet ve aidiyet içinde onur kazanabilen bir ilişki olarak da görür.",
+      "containment": "Bu yapısal resonance, odaktaki ه و ن fiilinin doğrudan hizmet anlamı değildir. 89:29'daki kul ilişkisi ile odak sözünün aynı kişiye kesin biçimde ait olduğu söylenmez; maddi darlığın otomatik olarak onurlu veya onursuz bir sonuç doğurduğu da ileri sürülmez.",
+      "epistemic": {
+        "status": "exploratory",
+        "source_trust": [
+          "legacy_unbound"
+        ],
+        "reason": "HFT exact focus relation and 89:29 anchor are supplied, but service/honor reversal is an exploratory outlier with legacy_unbound context trace and no independent context morphology."
+      },
+      "support_ids": [
+        "sup_c9ce023d07ebe93009d9"
+      ],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000532/B001",
+          "facet_id": "F001",
+          "branch_gloss": "sahip olup yönetme",
+          "facet_statement": "Sahiplik, buyruk yetkisi ve yönetip düzenleme aynı çekirdekte birleşir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "89:16:9:1"
+          ],
+          "trigger_refs": [
+            "89:29:1",
+            "89:29:3"
+          ],
+          "focus_return_refs": [
+            "89:16:9:1"
+          ],
+          "carrier": "رَبِّى, kişinin daralma deneyimini sahip ve yöneten Rabb ilişkisi içinde adlandıran odak carrier'ıdır.",
+          "independent_trigger": "89:29'da Rabb'e dönüş ilişkisi içinde kullar arasına girme.",
+          "activation": "Rabbine bağlılık carrier'ı, 89:29'daki giriş ve kulluk carrier'larıyla temas edince bağımlı ilişki dışlanma veya aşağılanma kadar aidiyet ve yönlendirilmiş hizmet sonucu da taşıyabilir.",
+          "resulting_reading": "Kişinin Rabbine bağlılığı, statü kaybının tek çerçevesi olmaktan çıkar ve bir topluluğa kabulün ilişkisel zemini olarak da görünür.",
+          "boundary": "Rabb kelimesinin sahiplik/yönetim çekirdeği korunur; 89:29'un odak kişisine kesin biyografik karşılık olduğu iddia edilmez."
+        },
+        {
+          "branch_ref": "root_001453/B002",
+          "facet_id": "F001",
+          "branch_gloss": "hizmet etme veya işte ustalık",
+          "facet_statement": "Bir kişi veya topluluk için iş görüp hizmet etmektir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "89:16:10:1"
+          ],
+          "trigger_refs": [
+            "89:29:3"
+          ],
+          "focus_return_refs": [
+            "89:16:10:1"
+          ],
+          "carrier": "أَهَانَنِ, supplied split-root mapping içinde hizmet etme yönüne de açılan odak carrier'ıdır.",
+          "independent_trigger": "89:29:3 için attributed kulluk ve hizmet ilişkisi.",
+          "activation": "Odaktaki humiliation carrier'ı, kulluk/hizmet carrier'ıyla temas ettiğinde bağımlı olmanın yalnız küçümsenme değil, bir başkası için iş görme ve ilişki içinde yer alma yüzü de görünür olur.",
+          "resulting_reading": "Hizmet, aşağılanmanın eş anlamlısı olmak yerine Rabbine bağlı ilişkide aidiyet kuran bir eylem olarak duyulabilir.",
+          "boundary": "Bu branch focus formunun direct gloss'u değildir; hizmet relation supplied split-root ve sonraki context üzerinden exploratory olarak taşınır."
+        },
+        {
+          "branch_ref": "root_001453/B002",
+          "facet_id": "F002",
+          "branch_gloss": "hizmet etme veya işte ustalık",
+          "facet_statement": "Bir işi bilerek, beceri ve ustalıkla yapma anlamı da taşır.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "89:16:10:1"
+          ],
+          "trigger_refs": [
+            "89:29:3"
+          ],
+          "focus_return_refs": [
+            "89:16:10:1"
+          ],
+          "carrier": "أَهَانَنِ, supplied branch mapping içinde hizmetin beceri ve iş görme yönünü de taşıyabilen odak carrier'ıdır.",
+          "independent_trigger": "89:29:3'te kullar arasına girişin hizmet ilişkisi olarak supplied edilmesi.",
+          "activation": "İş ve ustalık facetinin carrier'ı, odaktaki Rabbine bağlılık ve sonraki kul ilişkisiyle temas edince bağımlı konumun edilgen değersizlik değil, beceriyle sürdürülen bir görev olarak da okunabileceği görünür olur.",
+          "resulting_reading": "Hizmetin niteliği, statü kaybından ayrı olarak yapılan işin ustalığı ve ilişkiye katkısı üzerinden değer kazanır.",
+          "boundary": "Bu F002, F001 hizmet çekirdeğiyle birlikte ve exploratory taşınır; odaktaki fiilin işte ustalık demek olduğu veya her hizmetin onurlu olduğu ileri sürülmez."
+        },
+        {
+          "branch_ref": "root_000464/B001",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "89:29:1"
+          ],
+          "trigger_refs": [
+            "89:16:9:1",
+            "89:16:10:1"
+          ],
+          "focus_return_refs": [
+            "89:16:9:1",
+            "89:16:10:1"
+          ],
+          "carrier": "89:29:1 için exact HFT trace, bir içeriye girip dışlanmadan aidiyet kazanma endpoint'ini taşır.",
+          "independent_trigger": "Odaktaki Rabbine bağlılık ve bu bağlılık altında yaşanan aşağılanma iddiası.",
+          "activation": "Attributed giriş carrier'ı, Rabb ve statü carrier'larıyla temas ederek bağımlı ilişkinin çıkışsız bir dışlanma değil, bir yere kabul edilme yönü de taşıyabileceğini görünür kılar.",
+          "resulting_reading": "Odaktaki ilişki, aşağılanma sözünü korurken sonradan aidiyete açılan bir içeri giriş ihtimalini de taşır.",
+          "boundary": "Bu context branch için bağımsız gloss veya facet yoktur; giriş endpoint'i HFT-attributed kalır ve 89:29'un odak kişisine kesin karşılık olduğu söylenmez."
+        },
+        {
+          "branch_ref": "root_000973/B003",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "89:29:3"
+          ],
+          "trigger_refs": [
+            "89:16:9:1",
+            "89:16:10:1"
+          ],
+          "focus_return_refs": [
+            "89:16:9:1",
+            "89:16:10:1"
+          ],
+          "carrier": "89:29:3 için exact HFT trace, kulluk ve alçakgönüllü itaat service relation'ını taşır.",
+          "independent_trigger": "Odaktaki Rabbine bağlılık ve kişinin bu bağımlılığı aşağılanma olarak adlandırması.",
+          "activation": "Attributed kulluk carrier'ı, Rabb ve humiliation carrier'larıyla karşılaşınca Rabbine bağlılığın statü kaybı kadar alçakgönüllü bir hizmet ve aidiyet ilişkisi olarak da kurulabileceği görünür olur.",
+          "resulting_reading": "Bağımlılık, aşağılanma iddiasını silmeden hizmete ve ilişki içindeki aidiyete doğru başka bir yön kazanır.",
+          "boundary": "Bağımsız branch gloss veya facet yoktur; kulluk relation HFT'ye attributed'dır ve odaktaki koşulun otomatik olarak kulluk onuruna dönüştüğü söylenmez."
+        },
+        {
+          "branch_ref": "root_000973/B006",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "89:29:3"
+          ],
+          "trigger_refs": [
+            "89:16:9:1",
+            "89:16:10:1"
+          ],
+          "focus_return_refs": [
+            "89:16:9:1",
+            "89:16:10:1"
+          ],
+          "carrier": "89:29:3 için exact HFT trace, hizmet ve kulluk ilişkisinin onur ve yüceltme yönünü taşıyan attributed karşılığıdır.",
+          "independent_trigger": "Odaktaki Rabbine bağlılık ve aşağılanma olarak konuşulan statü kaybı.",
+          "activation": "Attributed onurlu hizmet carrier'ı, odaktaki humiliation carrier'ıyla temas ederek Rabbine bağlı olmanın aşağılanmayla özdeş olmadığı, hizmetin içinde değer ve yücelme taşıyabileceği exploratory reversal'ı kurar.",
+          "resulting_reading": "Aşağılanma sözü canlı kalırken hizmet ilişkisi, aynı bağlılık alanında onurlu bir aidiyet ihtimali olarak belirir.",
+          "boundary": "Bağımsız gloss veya facet yoktur; bu reversal yalnız attributed HFT evidence'tır ve focus formunun onurlandırma anlamına çevrilmesi değildir."
+        }
+      ],
+      "connection_refs": [
+        "conn_0a71ceefa8d8f580b4c7"
+      ],
+      "context_refs": [
+        "89:29"
+      ],
+      "semantic_obligation_refs": []
+    }
+  ],
+  "friction_notes": [
+    "Odak word alignment tamamdır: 13 analysis word ref'in 13'ü QAC köprüleriyle çözülmüş, unresolved focus join yoktur.",
+    "Macro docket readiness blocked ve legacy assessment invalid olarak işaretlenmiştir; buna rağmen packet policy parseable yedi HFT kaydını görünür kılıyor. Bu kayıtların exact context word indices'i lexicon morphology ile bağımsız doğrulanmadığı için kayıtlı dallar contextual_resonance, unresolved dallar attributed olarak tutuldu.",
+    "Otomatik host prefatory basmala 89:0 ordinary macro context olarak değerlendirildi. Sağlanan س م و, ء ل ه ve ر ح م kökleri focus surface'e bağımsız bir carrier/trigger dönüşü vermediği için ayrı macro finding oluşturulmadı.",
+    "Endpoint and Culmination adayındaki üç nominated source-image dalı için ayet düzeyi anchor dışında geçerli carrier occurrence yoktur; daraltılmış bulgu yalnız exact قَدَرَ focus carrier'ını taşır. Destek kaydındaki ء ل ي/B001 citation'ının da registered branch match'i yoktur.",
+    "On üç connection kaydı ve focus-root branch inventory tarandı. No-value veya bağımsız trigger, changed reading, reader payoff ve boundary testi geçmeyen ek bir uncandidate macro activation bulunmadı; supplied candidate semantics dışındaki dallar için exhaustive negative inventory çıkarılmadı.",
+    "Pakette semantic_obligations veya required_branch_facets alanı supplied edilmemiştir; bu nedenle semantic_obligation_refs ve ilgili exclusions dizileri boştur."
+  ]
+}

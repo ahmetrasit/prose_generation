@@ -1,0 +1,201 @@
+# V5 reading invitation — 96:10
+
+You are a fresh reading-invitation writer. Read the complete editorial prose
+before writing. It is your sole semantic source.
+
+Write two to four paragraphs of fluent, contemporary Turkish that reveal a
+surprising reading by following one or two main channels of resonance in the
+ayah. A channel is a connected background of meanings, images, actions, or
+relations through which the ayah can be heard and understood differently.
+Several editorial findings may together develop one channel. Summarize that
+connected movement and its consequence for the ayah's main meaning, rather
+than compressing findings individually. Give the reading's substance now;
+the invitation comes from understanding it, not from a promise of hidden depth.
+
+Before drafting, read the entire editorial prose and silently select the one
+or two channels with the strongest interpretive consequence and enough
+grounding to explain clearly. Favor channels that expand or shift what the
+ayah says, the relation it establishes, or what is at stake in its action or
+image. One fully developed channel is sufficient; add a second only when it
+offers a distinct consequential reading that can be explained within the
+invitation. No finding, channel, or major shift has an individual coverage
+claim. Unselected material may remain entirely in the full commentary.
+
+A channel may develop through grammar, sound, dialogue, a material process,
+time, imagery, or a conceptual relation. Resonance is not limited to acoustic
+effects, and an unusual image alone does not establish a channel. Use only
+connections the editorial prose actually develops. If it supplies no such
+channel, explain its strongest grounded reading without inventing connections
+or surprise.
+
+Begin inside the ayah's own words, images, actions, or relations and reveal a
+selected distinctive reading in the first paragraph. Keep the plain meaning
+reachable with only the orientation needed to understand the change. Do not
+spend an opening paragraph on routine explanation or front-load context about
+the surah, the ayah's position, or the commentary project.
+
+For each selected channel, begin with the expression that opens it, unfold the
+connected background, and show how the ayah reads or sounds against that
+background. Let a detail lead into the next through an intelligible relation
+or process, so the reader experiences the emerging reading. This is a movement
+of thought, not a mandatory sentence pattern or one paragraph per finding.
+Let the reader identify the expression being interpreted,
+where any nonordinary detail comes from, and what that detail changes in the
+reading. Briefly identify the word-family use, restricted form, collocation, or
+context that supplies an essential added detail, and preserve the concrete
+operation that makes the image work. Keep the ordinary reading and necessary
+qualification clear within this explanation; do not repeat them as a fixed
+formula. Preserve the particular object, process, or relation that makes this
+reading distinctive, and state its interpretive consequence for the ayah as a
+whole. Make intelligible what the familiar reading leaves less visible and
+what the expanded or shifted reading now lets the reader understand. Preserve
+the editorial's force: an exploratory possibility remains possible, while a
+developed shift must not be softened into a decorative association or a
+reassurance that everything means the same thing. A concrete
+account of how something is carried, transformed, lost, or restored must not
+shrink to a general statement about care, guidance, dependence, or goodness.
+Keep the details needed to make the selected channel work; omit side findings
+and shorten routine setup. If a channel cannot be explained faithfully from
+the editorial prose, choose another grounded channel or reading.
+
+When a non-focus ayah supplies a contribution used in the invitation, keep its
+reference from the editorial prose beside that contribution.
+
+Do not turn the invitation into a miniature inventory of the commentary's
+conclusions, or flatten distinct channels into a broad theme to include more
+material. Do not repair, extend, or supplement the editorial prose from memory
+or outside knowledge.
+
+Omit technical apparatus. Retain any qualification, source distinction, live
+alternative, or boundary whose absence would change the force or meaning of a
+chosen reading. Express it naturally beside the image or relation it qualifies.
+Favor positive explanations of the relation between layers: what remains in
+the foreground and what the resonance makes audible in the background. State
+how that background reinforces, expands, or shifts the understanding of the
+main meaning, with the source and degree of certainty clear. Reserve explicit
+exclusions for concrete ambiguities or live counter-evidence that need them.
+Repeated "this is not X" endings make a reading sound withdrawn; express the
+substantive qualification through what the reading does contribute wherever
+possible. Use varied, natural language rather than a repeated "second layer"
+formula, and preserve the force of expansions and shifts.
+Do not name branches, candidates, findings, scopes, evidence categories,
+ledgers, or workflow stages, or label the prose as numbered channels. Do not
+list findings serially.
+
+Use the established `{ar:..., tr:..., gloss:...}` syntax, consistent
+Turkish-readable transliteration, and short ordinary glosses. Keep Arabic
+anchors beside the explanations they ground. Within a paragraph, continue with
+the Turkish meaning where clear; provide the necessary local tag when a later
+paragraph interprets the carrier anew. Do not place Arabic script outside a
+valid tag.
+
+Build transitions within a channel through its shared object, action, or
+relation. If two channels are selected, they may occupy separate paragraphs;
+do not invent a link between them. Do not praise the commentary's quality,
+promise what the reader will find, manufacture suspense, recap at the end, or
+add a call to action. End on an image, relation, action, or tension already
+established by the selected reading.
+
+Before finishing, compare the invitation with the entire editorial prose:
+does the chosen channel reveal a consequential reading, or could the text have
+been written from the ordinary translation and a modest explanation alone?
+When the editorial supports a surprising channel, the latter fails this task.
+Can the reader follow the opening expression into a connected background and
+understand how that background expands or shifts the ayah's main meaning?
+Check the selected connections against their editorial explanation: can the
+reader tell where the nonordinary details come from, with the necessary
+qualifications intact? Repair generic explanation, isolated curiosities, or a
+compressed findings list by developing the selected channel. Do not add
+omitted channels merely for coverage. Do not output this check.
+
+Write only the invitation text to:
+
+`_commentary/v5/editorial/s096-regular-20260912/s096/96_10/96_10.invitation.tr.md`
+
+Do not add a heading, wrapper label, index, ledger, evidence file, or any other
+artifact. Do not modify the editorial prose.
+
+After writing the invitation, run:
+
+```bash
+python3 _commentary/v5/validate_prose.py _commentary/v5/editorial/s096-regular-20260912/s096/96_10/96_10.invitation.tr.md
+```
+
+If validation fails, repair only the reported mechanical file-contract issues
+and rerun it, for at most two repair cycles. Report the final validator result
+in your response.
+
+<editorial_prose>
+## Sahnenin Kuruluşu
+
+96:10, (96:9)'daki {ar:يَنْهَىٰ, tr:yanhā, gloss:engelliyor} fiilinin kimi hedef aldığını tamamlar. Başındaki {ar:عَبْدًا, tr:ʿabdan, gloss:kul}, yasaklamanın gecikmiş doğrudan nesnesidir; okur engellemenin yöneldiği kişiyi şimdi görür. Böylece yasak ibadet fikrinin kendisine değil, kulluk statüsü taşıyan somut bir insana yönelir. Kelimenin tekil ve belirsiz oluşu, adı verilmiş tarihsel bir kimlik yerine sahnede beliriveren tek bir kulu gösterirken aynı konumdaki her kul için de temsil alanı açar. {ar:عَبْدًا, tr:ʿabdan, gloss:kul} sözü sahip olunan kişi, yaratılmış olarak ait bulunan varlık ve boyun eğerek kulluk eden kişi yönlerini aynı taşıyıcının çevresinde duyurur; namaz bağlamı statü ile bağlılığı yan yana getirir.
+
+Bu kul önce yasaklamanın nesnesi, sonra {ar:صَلَّىٰٓ, tr:ṣallā, gloss:namaz kıldı} fiilinin gizli öznesi olur. Aynı kişi hem maruz bırakılan hem ibadeti yapan aktördür; önceki yasaklama fiilinin faili ise adlandırılmadan karşı tarafta kalır. Böylece kul ile namazın alışıldık birlikteliği, bu ayette engellenmeye çalışılan ilişki olarak görünür: kullukla ibadet birbirini açıklarken yasak bu bağı kesmeye yönelir. Kul sözcüğünün yerleşik kullanımındaki aitlik ve değer görme ihtimali de bu kırılgan kişiye bir onur ilişkisi ekler; kişi belirli bir tarihsel kimliğe kapatılmaz, fakat namaz kılan kulun değeri ve korunmaya açıklığı duyulur. Anlatım önce beklenen nesneyi, ardından o nesnenin namaz kılmasıyla açılan anı getirir; sahnenin çatışması bu iki vuruşta kurulur.
+
+Aradaki {ar:إِذَا, tr:idhā, gloss:ne zaman} tek bir varsayımsal ânı değil, kul her namaz kıldığında yeniden kurulan karşılaşmayı gösterir. Bu sabit parçacık, kul ile şartı arasına yeni bir kopuş koymadan girer; ilişki ve kapsamı o taşır, eylemi ise fiil bildirir. {ar:إِذَا, tr:idhā, gloss:ne zaman} ile {ar:صَلَّىٰٓ, tr:ṣallā, gloss:namaz kıldı} üzerine kurulan zaman tümcesi (96:9)'daki engellemenin altında kalır. Namaz cümleciği kendi başına duran bir bildirim değil, yasağın hangi anda etkinleştiğini bildiren şarttır. Bakış da bu sırayla ilerler: önce kimin hedef olduğu, sonra o hedef namaz kıldığında engellemenin nasıl harekete geçtiği belirir.
+
+{ar:صَلَّىٰٓ, tr:ṣallā, gloss:namaz kıldı} sözünün ayetin sonunda gelmesi, kul ve şart kurulduktan sonra yasaklanan eylemi açıklığa çıkarır; uzayan okuyuş namazı kapanışta işitilir halde bırakır. Fiilin ikinci kalıbı ve etkin yapısı, namazı kulun bilinçli olarak yaptığı eylem biçiminde öne çıkarır. {ar:إِذَا, tr:idhā, gloss:ne zaman} içindeki geçmiş biçim, şart her gerçekleştiğinde tamamlanmış bir namaz ânı gösterir; yinelenen durum uzak bir ihtimal değil, tek tek yaşanan olayların düzeni olarak duyulur. Namaz alanındaki adlandırmalara göre seyrek görülen bu çekimli geçmiş fiil, ibadeti sahnede gerçekleşen bir olay gibi keskinleştirir. Fiil burada nesnesizdir ve yöneltilmiş bir edatlı tamamlayıcı almaz; ağırlık birine ulaştırılan sonuçta değil, kulun bizzat namaz kılma eylemindedir. Fiilin gizli üçüncü tekil eril öznesi yine kuldur.
+
+Bu fiilin söz alanındaki yakınlık, bedensel hareket, ardınca gitme ve sıcaklık basınçları, namazın sahne içindeki beden ve yön boyutunu genişletir. Bu katkılar (96:10)'daki etkin ibadet işini taşıyarak, namazın onu engelleyen iradenin karşısında neden belirgin bir eylem haline geldiğini duyurur. (96:9)'daki {ar:يَنْهَىٰ, tr:yanhā, gloss:engelliyor} ile {ar:صَلَّىٰٓ, tr:ṣallā, gloss:namaz kıldı} uzun a sesiyle birbirine cevap verir; ses yakınlığı, biri engellemeyi öteki namazı bildiren iki hareket arasındaki karşıtlığı sıkılaştırır. Böyle kurulan namaz olayı, hidayet ve saygılı sakınma sorularının (96:11, 96:12) sınadığı örneğe de yer açar; ileriye açılan bu bağ, ayetin kendi yasaklama çerçevesini korur.
+
+## Bağlılık Ve İrade
+
+Namaz sahnesi, {ar:ٱللَّهَ, tr:Allāha, gloss:Allah'ı} sabit ilah adıyla ve {ar:رَبُّكَ, tr:rabbuka, gloss:Rabbin} hitabının rablik, sahiplik ve yetki çevresiyle birlikte duyulduğunda, yasak ve çağrıların ortasında yönelişin kime dönük olduğunu belirleyen bir çerçeve kazanır. Başlangıçtaki dua ve yemin kalıplarında geçen ilah adı (96:0), Rablik ve sahiplik çağrıları (96:1, 96:3, 96:8) ve ibadet eden ile kendisine ibadet edilen ilişkisi (96:14), {ar:صَلَّىٰٓ, tr:ṣallā, gloss:namaz kıldı} fiilinin adı ve rabliği tanınmış bir kaynağa yönelen cevap gibi işitilmesini sağlar. Bağlam böylece ibadetin yönünü aydınlatır ve eyleyenlerin bütün niyetleri için açık bir alan bırakır.
+
+{ar:عَبْدًا, tr:ʿabdan, gloss:kul} kelimesi bu yönelişin üzerinde bir yetki çekişmesi de taşır. {ar:عَبْدًۭا مَّمْلُوكًۭا, tr:ʿabdan memlūken, gloss:mülkiyetteki kul} ifadesi (16:75) namaz kılan kişiyi başkasının mülkiyetinde bulunan biri olarak görmeye açılır; {ar:إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ, tr:iyyāke naʿbudu ve iyyāke nesteʿīn, gloss:yalnız sana kulluk eder ve yalnız senden yardım isteriz} yönelişi (1:5) aynı kişide isteyerek ilahî olana kulluk etmeyi görünür kılar; {ar:أَنْ عَبَّدتَّ بَنِىٓ إِسْرَٰٓءِيلَ, tr:en ʿabbedte Benî İsrâîl, gloss:İsrâiloğullarını köleleştirdin} ise (26:22) bir insanı zorla köle durumuna getiren kutbu açar. Üç temas aynı kul taşıyıcısına döner: sahiplik, seçilmiş kulluk ve dayatılmış boyunduruk. Bu temas, odak kişiye (16:75)'teki belirli hukukî statüyü aktarmadan, kimin üzerinde hak iddia edildiğini ve namazın neden özellikle müdahale edilen eylem olduğunu hissettirir.
+
+Bu iki yön birlikte okunduğunda, namazdaki alçalma ile köleleştirmedeki zor arasında bir irade karşıtlığı belirir. Kul kendi bedeniyle Rabbe yönelirken başka bir otorite onu kendi buyruğuna çekmeye çalışır; yasak, yönelmiş bir bağlılığın karşısına dikilen müdahale olarak görünür. (96:1)'deki Rablik, sahiplik ve egemenlik çevresi; (96:6)'daki {ar:لَيَطْغَىٰٓ, tr:la-yaṭghā, gloss:sınırı aşar} taşkınlık; (96:9)'daki {ar:يَنْهَىٰ, tr:yanhā, gloss:engelliyor} yasağı; (96:12)'deki emir; (96:13)'teki {ar:تَوَلَّىٰٓ, tr:tawallā, gloss:yüz çevirdi} yön değişimi ve (96:19)'daki {ar:لَا تُطِعْهُ, tr:lā tuṭiʿhu, gloss:ona itaat etme}, {ar:ٱسْجُدْ, tr:usjud, gloss:secde et} ve {ar:ٱقْتَرِب, tr:iqtarib, gloss:yaklaş} hareketleri bu karşıtlığı farklı yönlerden besler. Böylece kötülükten sakınma ve ibadete yönelme okuması canlı kalırken, namaz kimin buyruğuna bedenle cevap verildiğini de düşündüren bir bağlılık olarak genişler.
+
+Kulun saygı gösterilip hizmet edilen kişi yönü, yaratılmış ve tutunmuş insan imgesiyle (96:2), üstünlük, övülebilir soyluluk, cömertlik ve değer verme çevresiyle (96:3) buluşur. {ar:عَلَقٍ, tr:ʿalaq, gloss:asılıp tutunan şeyler} bağlamındaki tutunulan değerli şey ve (96:3)'teki sevilen ya da çok değer verilen kişi kullanımları, namaz kılan kulun bağlılığını sıradan bir hareketten daha fazla hürmet taşıyan bir ilişki halinde gösterir. Bu onur rezonansı, namaz kılan kulun neden yüceltilmiş ve korunmaya değer görülebileceğini bağlılık üzerinden açar. Aynı değer, dizilmiş boncuklardan kolye imgesiyle (96:3) ve boynun kavranacak noktasıyla (96:18) buluştuğunda boyun çevresinde görünür bir işarete dönüşür: bağlılık yalnız içte kalan bir tutum değil, hürmeti taşıyan bir düzen gibi belirir. {ar:عَبْدًا, tr:ʿabdan, gloss:kul} taşıyıcısındaki bu değer, kolye ve kavrama imgeleriyle bağlamsal bir hürmet işareti olarak kalır.
+
+Boyun eğmiş kimlik secde ve yaklaşma hareketiyle (96:19) karşılaştığında, teslimiyetin düşük statüye indirgenemeyeceği başka bir ayrıntı kazanır. Beceri, pratik yeterlilik ve kendini çalışarak güçlendirme kullanımları (96:19), dönüş yönüyle (96:8) birlikte namazı güçsüz bir düşüş değil, kapasitenin bilinçli olarak kullanıldığı bedensel bir gayret gibi gösterir. {ar:عَبْدًا, tr:ʿabdan, gloss:kul} için güç, sağlamlık ve dayanıklılık kullanımı da yağlılığın son sınırına erişme (96:9, 96:15) ve soyun seçkin bir köke yaslanması (96:17) imgeleriyle buluşarak gücü, soyluluğu ve doluluğu bir rezerv gibi düşündürür. Bu bağlantının kapsamı beden benzetmesiyle sınırlıdır: odak kelimelere kapasite, şişmanlık veya soy kütüğü anlamı aktarılmaz ve hangi gücün seçimi taşıdığı açık kalır.
+
+## Beden Ve Yöneliş
+
+{ar:عَبْدًا, tr:ʿabdan, gloss:kul} ile {ar:صَلَّىٰٓ, tr:ṣallā, gloss:namaz kıldı} birlikte, alçalmayı eyleme dönüştüren itaat, isteyerek yumuşama ve bedensel uyum imgeleriyle temas eder. Boyun eğme veya alçaltılma sorusu (96:11) ile gönüllü, yumuşak itaat (96:19), namazdaki alçalmanın seçilmiş bir teslimiyet olarak görünmesini sağlar. Bu ilişki gönüllü ibadeti zorla boyun eğmeye indirmez; iki alçalma biçiminin yönü ve iradesi ayrıdır. (96:19)'daki {ar:ٱسْجُدْ, tr:usjud, gloss:secde et} ve {ar:ٱقْتَرِب, tr:iqtarib, gloss:yaklaş} emirleri bu teslimiyeti mekânı ve bedeni olan eksiksiz bir ibadet sahnesine yerleştirir. Secde yeri, secde uzuvları, bedende kalan iz, ayakta durma, eğilme ve yere kapanma sırası ile düzenli tapınma yeri hakkındaki kullanımlar (96:19), namazı soyut bir etiket olmaktan çıkarıp icra edilen ritüel olarak tamamlar. Bu temas ritüelin beden ve mekân boyutunu açar; ibadet yeri, kilise ve secde izi ayrıntıları bağlamsal katkı olarak kalır.
+
+Bu bedensel seçimin karşısında dışarıdan gelen düşürme, tutma, itme ve tehdit hareketleri yer alır. Sık geçişle basılıp düzleşmiş yolun, katranlanmış devenin veya kaplanmış geminin yumuşatılmış yüzeyiyle ilgili kullanım, {ar:عَبْدًا, tr:ʿabdan, gloss:kul} taşıyıcısında bedeni verilebilir kılan maddi bir karşılaştırma açar. Yükselen kuvvet (96:6), tutma (96:9), {ar:ٱلنَّاصِيَةِ, tr:al-nāṣiya, gloss:perçem}den kavrama (96:15), itme (96:18) ve secde-yaklaşma (96:19), iki kinetik oku yan yana getirir: dış kuvvet yukarıdan ve önden yakalamaya çalışırken seçilmiş secde aşağıya ve yakınlığa yönelir. Tehditlerin ayrı olaylar olarak okunması da açıktır; düzelmiş yol imgesi ise bu bağlantı içinde maddi bir karşılaştırma olarak kalır. Yine de iki kinetik yön arasındaki fark, namazın yalnızca eğilme değil, yönü ve sonucu farklı bir bedensel seçim olduğunu görünür kılar.
+
+Namazın fiil olarak dışa yönelen tarafı da aynı beden sahnesine eklenir. {ar:صَلَّىٰٓ, tr:ṣallā, gloss:namaz kıldı} için başkası adına iyilik, esenlik ve iyi sonuç dileme kullanımı, {ar:وَصَلِّ عَلَيْهِمْ, tr:ve ṣalli ʿaleyhim, gloss:onlar için iyilik dile} ve {ar:إِنَّ صَلَوٰتَكَ سَكَنٌۭ لَّهُمْ, tr:inne ṣalātuke sekenun lehum, gloss:duan onlar için huzurdur} ifadeleriyle (9:103) buluşur. Korunan namaz sahnesi (4:102) ise bir topluluğun nöbetleşe ayakta durmasını, secde etmesini, diğer grubun gelmesini, silah ve dikkatin korunmasını gösterir. Bu iki bağımsız temas, tek bir ``namaz'' karşılığının yanında iki yönü görünür kılar: dışarıya iyilik ve huzur dileği, tehlikeli çevrede sürdürülen beden disiplini. (4:102)'nin askerî ayrıntıları kendi sahnesinde kalır; odak için namazın hem yönelen bir yakarış hem korunan bir beden icrası olduğunu somutlaştırır.
+
+{ar:صَلَّىٰٓ, tr:ṣallā, gloss:namaz kıldı} fiili, korunma ile yakıcı tehdit arasında okunduğunda (96:12, 96:15), namaz kılan bedenin ısı karşısında hem açığa çıkabileceği hem de sığınabileceği bir kutup oluşturur. Kızıl-siyah görünüş, ateş ve sıcak rüzgârla kavrulma (96:15); (96:12)'deki {ar:ٱلتَّقْوَىٰ, tr:al-taqwā, gloss:korunma bilinci} ise ihtiyatla korunmaya çekilme, aynı bedenin tehdit ve sığınak yönlerini yan yana getirir. {ar:ٱلنَّاصِيَةِ, tr:al-nāṣiya, gloss:perçem} etrafındaki tehdit (96:15) ile namazın ateşe girme, ateşin yanında kalma ve yakıcı sıcaklığı çekme yönleri buluştuğunda, ibadetin bedensel riskiyle savunması birlikte görünür. Namaz kılan kulun boyun eğerek itaat etmesi ve {ar:صَلَّىٰٓ, tr:ṣallā, gloss:namaz kıldı} fiilinin merhamet, övgü ve iyilik dileme kullanımları da aynı tehdit çevresinde ısı bakımından iki kutup kurar: bir yanda iyilik isteyen yöneliş, öte yanda kavurucu karşılık. Bu bağlantı ısı benzetmesi olarak kalır; (96:15)'teki tehdidin ibadetten ayrı bir olay olarak okunması da canlıdır.
+
+Fiilin sırtın ortasıyla kuyruk kökünün iki yanını adlandıran kullanımı, secde ve yaklaşma konuşmasına acıya açık bir anatomi ekler. Bedenin yan tarafı (96:19), uyluk kemiğinin yuvarlak başı (96:3), huzursuz eden mide sancısı (96:15) ve toynak ağrısını kollayan temkinli yürüyüş (96:12), {ar:صَلَّىٰٓ, tr:ṣallā, gloss:namaz kıldı} taşıyıcısına ayrı ayrı dönerek namaz kılan bedenin yük taşıyan ve incinebilen taraflarını görünür kılar. Böylece ısı, secde ve yaklaşma, soyut bir hareketin değil kırılgan bir bedenin içinde gerçekleşir. Bu anatomik dizi bedensel kırılganlığı genişletir; hastalık veya hayvan yürüyüşü okuması bu bağlantının kapsamına girmez.
+
+## Kesilen Ve Sürdürülen Hareket
+
+{ar:عَبْدًا, tr:ʿabdan, gloss:kul} taşıyıcısı, bineği yüzünden yolda kalan veya güçlükle ilerleyen yolcu imgesine açıldığında, art arda düşme ve çöküş (96:13, 96:17, 96:18), sert şeyi kesip düzleme (96:4) ve kesintisiz ardışıklık (96:13) ile buluşur. Tek bir engel böylece yalnız o anı durduran bir olay değil, işlevin zincirleme bozulmasına dönüşen bir hareket olarak görünür; namaz ise bu kesintinin içinde yönünü koruyan karşı eylem gibi okunur. (96:4)'teki yazı ve biçim alanından gelen düzleme imgesi bu bağlantıyı destekleyen sınırlı bir işlev benzetmesidir. Bağlantı bu işlev analojisiyle sınırlı kalır; kulun fiziksel çöküşünü veya yalnız (96:4)'ün kesinleştirdiği bir sonucu bildirmez.
+
+Tek ve hazır bulunan kul görüntüsü, çağrısız ev, orada kimsenin bulunmaması ve her yana dağılmış kümeler, nesneler veya yollarla (96:17, 96:18) karşılaştığında hareketin sosyal çevresi değişir. {ar:نَادِيَهُ, tr:nādiyahu, gloss:toplantı yerini} ve {ar:ٱلزَّبَانِيَةَ, tr:al-zabāniya, gloss:zorlayıcı görevlileri} çevresindeki çağrı alanı (96:17, 96:18), dağınık bir topluluğa karşı tek bir bağlılık noktasını öne çıkarır: sessizlik ve yayılma içinde namaz kılan bir mevcudiyet toplanır. İmge sosyal alanda kalır; kulun fiziksel parçalanması ya da dağınık kalıntılar için ayrı bir okuma bu temasın kapsamına girmez.
+
+Hareketin bir başka yüzü, bedensel sahneden maddi hazırlığa geçen sınırlı bir benzetmede belirir. Koyu bir şurubun bir şeyi onunla tedavi etmeye yaradığı kullanım, (96:1, 96:3, 96:8)'deki {ar:رَبِّكَ, tr:rabbika, gloss:Rabbin} çevresiyle buluşunca, namaz kılmayı ısı ve öğütme yoluyla koyu bir maddeyi kullanılabilir macun ya da kokuya dönüştüren yönlendirilmiş bir emek gibi düşündürür. Ateşe girme, ateşin yanında kalma ve yakıcı sıcaklığı çekme kullanımları ısı aşamasını; üzerinde dövülen geniş ve sert taş ile güzel koku maddelerini ezip hazırlayan taş kullanımları öğütme aşamasını taşır. Bu katkı, sözlük kullanımlarıyla (96:1, 96:3, 96:8)'deki bağlam arasındaki dereceli maddi benzetme düzeyindedir; {ar:صَلَّىٰٓ, tr:ṣallā, gloss:namaz kıldı} kelimesine kavurmak, {ar:عَبْدًا, tr:ʿabdan, gloss:kul} kelimesine havan ya da öğütme taşı anlamı aktarmaz. Namazın yönelmiş emeği böylece somutlaşır.
+
+Bu hazırlık resmi, koku macunu ve kokulandırma, ibadet yeri, geniş dövme taşı ve güzel koku maddesini ezip hazırlayan taş kullanımlarıyla (96:1, 96:8) daha duyusal hale gelir. {ar:صَلَّىٰٓ, tr:ṣallā, gloss:namaz kıldı} taşıyıcısı ile {ar:عَبْدًا, tr:ʿabdan, gloss:kul} taşıyıcısı, bir çalışma yüzeyi ve havan içindeki özün dövülüp inceltilmesi, arıtılması ve kokunun yayılması sırasına bağlanır. (96:1, 96:8)'in ibadet ve Rablik çevresi bu hazırlığı kutsanmış bir uygulama gibi duyurur. Bu sıkı fakat maddi analoji, olağan ritüel namazın yanında duran duyusal bir katkıdır; belirli bir ibadet binası veya koku nesnesi tayin etmeden hazırlama, dövme ve yayma sırasını görünür kılar.
+
+Hazırlığın yanına bitki, yağmur, otlak ve büyüme çevresi (96:1, 96:3, 96:4, 96:8, 96:15) eklendiğinde, tehdit ve çekişmenin yanında beslenme, verim ve yeniden üretim alanı açılır. Adı verilen iri başaklı ve develerin otladığı bitki kullanımı, bu ayetlerdeki bitki, yağmurla gelen bolluk, anormal bitki adı ve otlak ayrıntılarıyla buluşarak belirgin tepe taşıyan besleyici bir büyüme alanı kurar. Böylece {ar:صَلَّىٰٓ, tr:ṣallā, gloss:namaz kıldı} yalnızca baskıya cevap veren değil, rızık ve büyümeyi taşıyan bir yöne de dönük görünür. Bu üretken rezonans, bitki ve yağmur ayrıntılarını namazın yanındaki rızık, verim ve yenilenme imgesi olarak tutar; bu ayrıntılar namazın sözlük anlamına aktarılmaz.
+
+Namaz fiilinin ava çıkma ve yakalamak için kapan kurma kullanımları, açılış hareketi (96:1), koşup sonra duran yaban hayvanı (96:13, 96:16) ve {ar:عَلَقٍ, tr:ʿalaq, gloss:asılıp tutunan şeyler} çevresindeki tuzağa yakalanmış av imgesiyle (96:2) buluşunca, hareket eden hedefin sabit bir kapanla durdurulduğu karşı-sahne ortaya çıkar. İlerleyen tarafın kaçışı kesilir; namaz, çekişmeli hareketi durduran yönlendirilmiş bir karşılık gibi algılanır. Bu avlanma ve yakalama imgesi ayetin emre karşı duran hareketini kaçışın kesildiği bir eşikte okumayı genişletir. Bu bağlantı, bağımsız ayet hareketlerinin namaz sahnesine getirdiği sınırlı bir benzetmedir; kapan ve av, kelimelerin doğrudan kimliğini değil, kaçışın kesildiği eşiği aydınlatır.
+
+Bu kapan imgesi, boyun eğmenin kimin gücüyle kurulduğu sorusuna da bağlanır. {ar:عَبْدًا, tr:ʿabdan, gloss:kul} için birini köleleştirme veya köle gibi boyunduruk altına alma süreci, {ar:صَلَّىٰٓ, tr:ṣallā, gloss:namaz kıldı} için avı yakalayan kapan kullanımıyla ve (96:9)'daki {ar:يَنْهَىٰ, tr:yanhā, gloss:engelliyor} yasağı, perçemden kavrama (96:15), itme (96:18) ve (96:19)'daki {ar:لَا تُطِعْهُ, tr:lā tuṭiʿhu, gloss:ona itaat etme} sınırıyla buluşur. Zorlayıcı güç, ibadet anını kendi kulunu üreten bir kapana çevirmeye çalışıyor gibi görünür; reddedilmiş itaat bu dönüşümü kesen hareket olur. Bu şaşırtıcı analoji, köleleştirme, av kapanı, yasak, perçem ve itme kullanımlarının bağlamsal birleşimidir. {ar:عَبْدًا, tr:ʿabdan, gloss:kul} burada köleleştiren fiil, {ar:صَلَّىٰٓ, tr:ṣallā, gloss:namaz kıldı} ise kapan adı olarak kullanılmaz; ihtiyatlı çıkarım bu sınır içinde kalır.
+
+## Hareketin Ritimleri
+
+{ar:صَلَّىٰٓ, tr:ṣallā, gloss:namaz kıldı} için gecikmeden harekete geçme, koşuda biraz hızlanma ve birincinin hemen arkasındaki ikinci yarışmacı kullanımları, yaklaşmayla (96:19) birleştiğinde, kulun bir önceliğin ardında vakit kaybetmeden ilerlediği düzenli takip imgesini açar. Tam dörtnaldan düşük at yürüyüşü ve toynak ağrısını kollayan temkinli yürüyüş (96:19, 96:12) bu tempoyu hız ile korunmuşluk arasında ayarlar. Böylece yaklaşma, başıboş bir atılım değil, kesintisiz ama kontrollü bir ilerleme olarak duyulur. Bu at ve yarış alanından gelen sınırlı bir kinetik analojidir; namazın at yarışı anlamını seçmez.
+
+Aynı hareket, (96:8)'deki {ar:ٱلرُّجْعَىٰ, tr:al-rujʿā, gloss:dönüş} çevresinin dönüş adımı; yarış sırası, at yürüyüşü, destekli veya sallanarak yürüme ve süreklilik kullanımları (96:11, 96:13, 96:19, 96:8) ile genişler. İlk adım dönüşe, ikinci yarışmacı takibe, kontrollü yürüyüş bedensel ritme, ardışıklık ise tekrarlı yaklaşıma dönüşür. Namaz burada bir defalık duruşun yanında sıraya giren, geri dönen ve yeniden kurulan yaklaşımlar dizisi olarak işitilebilir. Bu kinetik okuma, hareket ve sıra sözlüklerinin ayrı bağlamlarla buluşmasından doğan bir genişlemedir; {ar:صَلَّىٰٓ, tr:ṣallā, gloss:namaz kıldı} için tek bir sözlük anlamı seçmek yerine, düzenli yaklaşma ritmini görünür kılar.
+
+Bu ritim, kulun yaratılmış olanın kendini yeterli sanmaktan bağa ve yakınlığa dönmesi şeklinde daha geniş bir hareket de düşündürür. Besleme, onarma ve tamamlama (96:1); yaratılış ve tutunma (96:2); {ar:ٱسْتَغْنَىٰ, tr:istaghnā, gloss:kendini yeterli gördü} (96:7); {ar:ٱلرُّجْعَىٰ, tr:al-rujʿā, gloss:dönüş} (96:8) ve {ar:ٱقْتَرِب, tr:iqtarib, gloss:yaklaş} (96:19) hareketleri, beslenmeden yaratılışa, tutunmadan yeterlik vehmine, oradan dönüşe ve mekânsal yakınlığa uzanan bir yol çizer. {ar:عَبْدًا, tr:ʿabdan, gloss:kul} için seçilmiş bağımlılık ile {ar:صَلَّىٰٓ, tr:ṣallā, gloss:namaz kıldı} için ayakta durma, eğilme ve yere kapanmalı ibadet bu yolu bedende taşır. Bu, bağlamın ayrı besleme, yaratma, tutunma, yeterlik, dönüş ve yakınlık hareketlerinden çıkan ihtiyatlı bir çıkarımdır; namazın bağımlılığı gösteren daha dar okuması da aynı anda yerini korur.
+
+## Baskı Altında Açılan Yönler
+
+Namaz eylemi, hidayet ya da korunma emri (96:11, 96:12) ile yalanlama ve yüz çevirme (96:13) arasında bir teşhis düğümü gibi çalışır. {ar:عَبْدًا, tr:ʿabdan, gloss:kul} için boyun eğmiş itaat, {ar:صَلَّىٰٓ, tr:ṣallā, gloss:namaz kıldı} için kurallı ayakta durma, eğilme ve yere kapanma; dikkat isteyen soru, doğru yola yumuşakça yöneltme, {ar:ٱلتَّقْوَىٰ, tr:al-taqwā, gloss:korunma bilinci} (96:12), {ar:كَذَّبَ, tr:kadhdhaba, gloss:yalanladı} ile gerçeği yalanlama ve {ar:تَوَلَّىٰٓ, tr:tawallā, gloss:yüz çevirdi} ile yönünü çevirme hareketleriyle buluşur. Böylece odak eylemi, iki ahlaki yolun hangi koşulda açıldığını görünür kılar. Bu teşhis iki yolu birlikte açık tutar: zamirlerin hangi faile döndüğü ve tek bir teşhis yolu açıkta kalırken, soru hidayet, korunma, yalanlama ve çekilme ihtimallerini birlikte taşır.
+
+Namaz, okuma, öğretme, görme ve kalemle yazma çevresiyle bedende kalan secde izi arasında buluştuğunda, öğrenilmiş bağlılık okunabilir bir işarete dönüşür. (96:1)'deki {ar:إِقْرَأْ, tr:iqraʾ, gloss:oku} okuma ve tilavet, öğretici ayırt edici işaret ve {ar:ٱلْقَلَمِ, tr:al-qalam, gloss:kalem} (96:4), {ar:يَرَىٰ, tr:yarā, gloss:görür} görme (96:14) ve secde uzuvları ile izi (96:19), {ar:عَبْدًا, tr:ʿabdan, gloss:kul} taşıyıcısındaki hizmet kimliğini ve {ar:صَلَّىٰٓ, tr:ṣallā, gloss:namaz kıldı} taşıyıcısındaki ritmik beden eylemini ayrı yönlerden aydınlatır. Alımlanan bilgi yön veren işarete, kalem yazı aracına, görme tanıklığa, secde ise bedensel kayda bağlanır. Bu işaretsellik ihtiyatlı bir çıkarımdır; ritüel duruş ile görülebilir iz arasında kurulan komşuluk, namazın yazı yazdığı yönünde bir sonuç taşımaz.
+
+Kulun boyun eğerek itaati ve namazın iyilik, övgü ve değer dileme yönü, okuma ve tilavet (96:1), insanları çağıran kurul (96:17) ve karşılık veren zorlayıcı topluluk (96:18) ile buluştuğunda, namazı rakip çağrılar arasındaki ses merkezlerinden biri gibi duyurur. {ar:نَادِيَهُ, tr:nādiyahu, gloss:toplantı yerini} sosyal meclisi, {ar:ٱلزَّبَانِيَةَ, tr:al-zabāniya, gloss:zorlayıcı görevlileri} ise karşılık veren kuvveti taşır; tek hitap, topluluk kurulması, karşı çağrı ve itme-engelleme sırası (96:17, 96:18) ibadetin çevresindeki sosyal gerilimi görünür kılar. Bu ses-toplum karşılaşması namazın sesliliğini zorunlu kılmaz ve sonraki çağrıların işlevini tek bir taktik açıklamaya indirgemez. İbadet, çağrıların içinde yer alan özel bir bağlılık kutbu olarak kalır.
+
+İbadetle yakarışın iki yönü bir araya geldiğinde baskının iki erişime uzandığı görülür: {ar:عَبْدًا, tr:ʿabdan, gloss:kul} ile görünür olan kulluk yönelişi ve {ar:صَلَّىٰٓ, tr:ṣallā, gloss:namaz kıldı} ile dışarıya ulaşan iyi dilek. {ar:إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ, tr:iyyāke naʿbudu ve iyyāke nesteʿīn, gloss:yalnız sana kulluk eder ve yalnız senden yardım isteriz} seçilmiş bağlılığı (1:5), {ar:وَيَصُدَّكُمْ عَن ذِكْرِ ٱللَّهِ وَعَنِ ٱلصَّلَوٰةِ, tr:ve yaṣuddükum ʿan zikrillāhi ve ʿaniṣ-ṣalāti, gloss:sizi Allah'ı anmaktan ve namazdan alıkoyar} namazdan uzaklaştırmayı (5:91), {ar:وَصَلِّ عَلَيْهِمْ, tr:ve ṣalli ʿaleyhim, gloss:onlar için iyilik dile} ise başkası için iyi dileği (9:103) taşır. Böylece yasak, hem bedenî edayı hem iyi sonuca yönelen hitabı kesmeye çalışan yaşayan bir ilişki altında işler. (5:91)'deki hasım özne 96:10'un karşısındaki kişiyle özdeşleştirilmeden, namazdan uzaklaştırma hareketinin yakın bir karşılığı olarak kalır. Bu birleşimin kapsamı iki açık erişimle sınırlıdır; gizli tuzak gibi ek bir imgeyi taşıyacak bağımsız bir unsur bulunmaz.
+
+Engelleme girişiminin ardından (96:19)'daki {ar:وَٱسْجُدْ وَٱقْتَرِب, tr:ve usjud ve iqtarib, gloss:secde et ve yaklaş} buyruğu, odak eyleminin son noktaya kapanmadığını düşündürür. Secdeye varan alçalma ile yaklaşma art arda geldiğinde, namaz kılan kulun yönelişi baskı altında kesilmek yerine beden ve mesafe bakımından yoğunlaşır. Okur böylece namazı, çevresindeki baskıya daha yakın bir kullukla karşılık veren canlı bir eylem olarak görür. Bu sonraki secde ve yakınlaşma, 96:10'un kendi sözlerinin içine taşınan ifadeler olarak değil, engellenmek istenen namazın devam eden ve yoğunlaşan cevabı olarak okunur.
+
+</editorial_prose>

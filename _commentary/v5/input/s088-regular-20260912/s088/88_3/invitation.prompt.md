@@ -1,0 +1,179 @@
+# V5 reading invitation — 88:3
+
+You are a fresh reading-invitation writer. Read the complete editorial prose
+before writing. It is your sole semantic source.
+
+Write two to four paragraphs of fluent, contemporary Turkish that reveal a
+surprising reading by following one or two main channels of resonance in the
+ayah. A channel is a connected background of meanings, images, actions, or
+relations through which the ayah can be heard and understood differently.
+Several editorial findings may together develop one channel. Summarize that
+connected movement and its consequence for the ayah's main meaning, rather
+than compressing findings individually. Give the reading's substance now;
+the invitation comes from understanding it, not from a promise of hidden depth.
+
+Before drafting, read the entire editorial prose and silently select the one
+or two channels with the strongest interpretive consequence and enough
+grounding to explain clearly. Favor channels that expand or shift what the
+ayah says, the relation it establishes, or what is at stake in its action or
+image. One fully developed channel is sufficient; add a second only when it
+offers a distinct consequential reading that can be explained within the
+invitation. No finding, channel, or major shift has an individual coverage
+claim. Unselected material may remain entirely in the full commentary.
+
+A channel may develop through grammar, sound, dialogue, a material process,
+time, imagery, or a conceptual relation. Resonance is not limited to acoustic
+effects, and an unusual image alone does not establish a channel. Use only
+connections the editorial prose actually develops. If it supplies no such
+channel, explain its strongest grounded reading without inventing connections
+or surprise.
+
+Begin inside the ayah's own words, images, actions, or relations and reveal a
+selected distinctive reading in the first paragraph. Keep the plain meaning
+reachable with only the orientation needed to understand the change. Do not
+spend an opening paragraph on routine explanation or front-load context about
+the surah, the ayah's position, or the commentary project.
+
+For each selected channel, begin with the expression that opens it, unfold the
+connected background, and show how the ayah reads or sounds against that
+background. Let a detail lead into the next through an intelligible relation
+or process, so the reader experiences the emerging reading. This is a movement
+of thought, not a mandatory sentence pattern or one paragraph per finding.
+Let the reader identify the expression being interpreted,
+where any nonordinary detail comes from, and what that detail changes in the
+reading. Briefly identify the word-family use, restricted form, collocation, or
+context that supplies an essential added detail, and preserve the concrete
+operation that makes the image work. Keep the ordinary reading and necessary
+qualification clear within this explanation; do not repeat them as a fixed
+formula. Preserve the particular object, process, or relation that makes this
+reading distinctive, and state its interpretive consequence for the ayah as a
+whole. Make intelligible what the familiar reading leaves less visible and
+what the expanded or shifted reading now lets the reader understand. Preserve
+the editorial's force: an exploratory possibility remains possible, while a
+developed shift must not be softened into a decorative association or a
+reassurance that everything means the same thing. A concrete
+account of how something is carried, transformed, lost, or restored must not
+shrink to a general statement about care, guidance, dependence, or goodness.
+Keep the details needed to make the selected channel work; omit side findings
+and shorten routine setup. If a channel cannot be explained faithfully from
+the editorial prose, choose another grounded channel or reading.
+
+When a non-focus ayah supplies a contribution used in the invitation, keep its
+reference from the editorial prose beside that contribution.
+
+Do not turn the invitation into a miniature inventory of the commentary's
+conclusions, or flatten distinct channels into a broad theme to include more
+material. Do not repair, extend, or supplement the editorial prose from memory
+or outside knowledge.
+
+Omit technical apparatus. Retain any qualification, source distinction, live
+alternative, or boundary whose absence would change the force or meaning of a
+chosen reading. Express it naturally beside the image or relation it qualifies.
+Favor positive explanations of the relation between layers: what remains in
+the foreground and what the resonance makes audible in the background. State
+how that background reinforces, expands, or shifts the understanding of the
+main meaning, with the source and degree of certainty clear. Reserve explicit
+exclusions for concrete ambiguities or live counter-evidence that need them.
+Repeated "this is not X" endings make a reading sound withdrawn; express the
+substantive qualification through what the reading does contribute wherever
+possible. Use varied, natural language rather than a repeated "second layer"
+formula, and preserve the force of expansions and shifts.
+Do not name branches, candidates, findings, scopes, evidence categories,
+ledgers, or workflow stages, or label the prose as numbered channels. Do not
+list findings serially.
+
+Use the established `{ar:..., tr:..., gloss:...}` syntax, consistent
+Turkish-readable transliteration, and short ordinary glosses. Keep Arabic
+anchors beside the explanations they ground. Within a paragraph, continue with
+the Turkish meaning where clear; provide the necessary local tag when a later
+paragraph interprets the carrier anew. Do not place Arabic script outside a
+valid tag.
+
+Build transitions within a channel through its shared object, action, or
+relation. If two channels are selected, they may occupy separate paragraphs;
+do not invent a link between them. Do not praise the commentary's quality,
+promise what the reader will find, manufacture suspense, recap at the end, or
+add a call to action. End on an image, relation, action, or tension already
+established by the selected reading.
+
+Before finishing, compare the invitation with the entire editorial prose:
+does the chosen channel reveal a consequential reading, or could the text have
+been written from the ordinary translation and a modest explanation alone?
+When the editorial supports a surprising channel, the latter fails this task.
+Can the reader follow the opening expression into a connected background and
+understand how that background expands or shifts the ayah's main meaning?
+Check the selected connections against their editorial explanation: can the
+reader tell where the nonordinary details come from, with the necessary
+qualifications intact? Repair generic explanation, isolated curiosities, or a
+compressed findings list by developing the selected channel. Do not add
+omitted channels merely for coverage. Do not output this check.
+
+Write only the invitation text to:
+
+`_commentary/v5/editorial/s088-regular-20260912/s088/88_3/88_3.invitation.tr.md`
+
+Do not add a heading, wrapper label, index, ledger, evidence file, or any other
+artifact. Do not modify the editorial prose.
+
+After writing the invitation, run:
+
+```bash
+python3 _commentary/v5/validate_prose.py _commentary/v5/editorial/s088-regular-20260912/s088/88_3/88_3.invitation.tr.md
+```
+
+If validation fails, repair only the reported mechanical file-contract issues
+and rerun it, for at most two repair cycles. Report the final validator result
+in your response.
+
+<editorial_prose>
+## Yüzde Taşınan İki Hâl
+
+Âyet, 88:2'de aşağı çekilmiş ve boyun eğmiş olarak görünen yüzleri aynı sahnede tutar: çalışmış ve yorulmuşlardır. {ar:عَامِلَةٌۭ, tr:âmile, gloss:çalışan} ile {ar:نَّاصِبَةٌۭ, tr:nâsıbe, gloss:yorulmuş} bu iki hâli art arda verir. Türkçedeki “çalışmış” sözü sonucu öne çıkarırken {ar:عَامِلَةٌۭ, tr:âmile, gloss:çalışan} yüzlerin üzerine yerleşmiş süren bir çalışma durumunu gösterir: bu, tamamlanmış tek bir işi bildiren geçmiş fiilden ziyade dişil tekil, belirsiz, merfû etken ortaç biçimidir. Yeni bir özne getirmez; 88:2'deki yüzleri taşır ve aynı yüzleri çalışan bir hâlde niteler. {ar:نَّاصِبَةٌۭ, tr:nâsıbe, gloss:yorulmuş} da bu çalışmanın üzerine eklenmiş sıradan bir sıfat değildir; aynı yüzlere birlikte yüklenen ikinci bir hâl ve ikinci bir yüklemdir.
+
+İki kelimenin sırası, çalışmanın nasıl yorgunluğa vardığını iki kısa vuruşla gösterir. {ar:عَامِلَةٌۭ, tr:âmile, gloss:çalışan} ilk vuruşta emeği ve etkinliği açar; hemen yanındaki {ar:نَّاصِبَةٌۭ, tr:nâsıbe, gloss:yorulmuş} ikinci vuruşta o emeğin bedende bıraktığı yükü görünür kılar. Son kelime cümlenin iniş yeridir: çalışma, yorgunlukta görünen sonucuna kavuşur. İki etken ortaç arasındaki benzer ritim bu teması okunuşta sıkıştırır; kapanıştaki daha ağır ünsüz dokusu da yıpranma duygusunu yoğunlaştırır. {ar:نَّاصِبَةٌۭ, tr:nâsıbe, gloss:yorulmuş} kelimesinin seyrek görülen bu etken ortaç biçimi, yorgunluğu soyut bir ad olmaktan çıkarıp bedende taşınan bir durum gibi duyurur. Kabul edilmiş başka bir çekim okuması cümledeki görevleri farklı bir açıdan işitse de çalışma ile yorgunluğu aynı niteleme çiftinde tutar.
+
+Çalışmanın bu açıklıkta bırakılması, emeğin sonucunun neden doğrudan yorgunlukta göründüğünü anlatır. {ar:عَامِلَةٌۭ, tr:âmile, gloss:çalışan} işin nesnesini, ürününü, karşılığını veya amacını belirtmeden emeği yalın bir etkinlik olarak taşır; bu etkinlik de {ar:نَّاصِبَةٌۭ, tr:nâsıbe, gloss:yorulmuş} kelimesiyle buluşunca yıpranmaya doğru açılır. {ar:عَامِلَةٌۭ, tr:âmile, gloss:çalışan} kelimesinin anlam çevresindeki birini ya da bir aracı işe koşma ve kullanma yönü, bu emeğe dışarıdan kurulmuş bir çalışma basıncı da verir. Etken ortaç biçimi bu basıncı ayrı bir ettirme fiiline çevirmeden yön duygusunu taşır. {ar:نَّاصِبَةٌۭ, tr:nâsıbe, gloss:yorulmuş} ise bedeni yoran kaynağı veya belirli olayı adlandırmadan, yorgunluğu bedene yerleşmiş bir kimlik olarak görünür kılar.
+
+Bu iki sıfatın katkısı, emeği yüzün üzerinde okunabilen bir kayda dönüştürmesidir. {ar:ٱلْغَٰشِيَةِ, tr:el-gâşiye, gloss:örten olay} ile kuşatılmış, {ar:وُجُوهٌۭ, tr:vücûh, gloss:yüzler} olarak gösterilmiş ve {ar:خَٰشِعَةٌ, tr:hâşi'a, gloss:boyun eğmiş} hâle gelmiş olanlar, şimdi emeğin ve yorgunluğun izini taşır. Yüz bütün kişiyi gösterir; boyun eğme ise içte kalan bir duygu olarak değil, aşağı çekilmiş ve yenilmiş bir duruş olarak görünür. Kuşatıcı olayın üstlerine çöküşü böylece çalışma ve yorgunluğu başıboş bir iç hikâyesinden çıkarıp yüzde görünen bir sonuca bağlar. Bu görünür kayıt, sonraki ateş sahnesine geçiş eşiğinde tamamlanır (88:4).
+
+## Emeğin Yönü ve Payı
+
+Bu çiftin emeğe kattığı yön, bilerek sürdürülen çalışmanın bedensel tükenişe dönüşen bir harcama olarak duyulmasıdır. {ar:عَامِلَةٌۭ, tr:âmile, gloss:çalışan} kelimesindeki bilerek ortaya konan iş veya eylem emeğe yön ve irade verir; {ar:نَّاصِبَةٌۭ, tr:nâsıbe, gloss:yorulmuş} kelimesindeki bedensel ya da ruhsal yük, bitkinlik ve tükenmişlik bu çalışmayı onun bedeli gibi gösterir. 18:103'te yönü şaşmış çaba, 18:104'te iyi görünüp yanlış yere giden uğraş ve 24:39'da sonuç vermeyen serap, bu emeğin yön ve ürün sorusunu açar. Bu bağ, yönü veya ürünü bozulan çalışmanın kendi tükenişini üretmesini görünür kılar. Buna karşılık 94:7 ve 94:8'de yenilenerek Rabb'e yönelen çaba, 103:3'te iman, salih amel ve sabırla birleşen emek, 88:9'da ise hoşnutluğa ulaşan gayret vardır. Bu karşılaştırma emeğin sonucunun yön, amaç ve dönüşle belirlendiğini gösterir; 88:3'teki çalışma, iyi iş veya iman çerçevesi açılmadan yorgunlukta kesilir.
+
+Yorgunluğun bedensel biçimine kattığı ayrıntı, yük altında dik tutulmuş ve üzerine belirli bir pay ayrılmış bir beden görüntüsüdür. {ar:نَّاصِبَةٌۭ, tr:nâsıbe, gloss:yorulmuş} kelimesinin çevresindeki dik durma, sabitlik ve pay anlamları bu görüntüyü taşır: 94:7'de çaba belirli bir işe yönelir, 35:35 ve 15:48'de cennet hayatı yıpratıcı sıkıntıdan arınmış olarak görünür, 88:19'da ise bir şey sağlam yerine dikilmiş ve sabitlenmiştir. Bu kullanımlar yerel yorgunluğun sınırını belirginleştirir; ilk kelimenin taşıdığı iş yüküyle buluştuğunda beden yalnızca hareket eden değil, ölçülü bir baskıyı taşıyan yapı gibi hissedilir. Dikilmiş beden görüntüsü, 88:3'teki doğrudan yorgunluk zeminine eklenen ihtimalli bir renktir.
+
+Bu çiftin bedene kattığı görüntü, emeğin ellerden bacaklara ve oradan mesafeye yayılan izidir. {ar:عَامِلَةٌۭ, tr:âmile, gloss:çalışan} kelimesinin ellerini kullanarak ağır iş yapan bir topluluğa ve bir iş uğruna zahmete girmeye açılan yönü, {ar:نَّاصِبَةٌۭ, tr:nâsıbe, gloss:yorulmuş} kelimesinin bedensel yorgunlukla ve bir topluluğun yolculukta ilerleyişiyle buluşur. Yüzlerde el emeğinin birikmiş izi, kendini yorma ve gün boyu sürmüş yol alışının bedensel tortusu okunabilir. Çalışma mesafeye yayılan bir hareket, yorgunluk da bu hareketin bedende kalan maliyeti gibi duyulur. Bu bağlantı belirli bir ekip, araç, kazı ya da yol sahnesinin ayrıntılarını tayin etmeksizin, düz anlamdaki yorgunluğun beden ve süre içinde nasıl hissedilebileceğini açar.
+
+İşletme ile kurulum arasındaki temasın katkısı, çalışmayı önce bir şeyi harekete geçiren, ardından görünür bir düzen kuran işlem gibi duyurmasıdır. {ar:عَامِلَةٌۭ, tr:âmile, gloss:çalışan} bir kişiyi veya şeyi işe koşma ve kullanma yönünü, {ar:نَّاصِبَةٌۭ, tr:nâsıbe, gloss:yorulmuş} ise dikme, dik durma ve yükseltme yönünü taşır. Bu iki yön buluştuğunda önce işletilen, sonra dikilmiş veya yerleştirilmiş bir düzen hayal edilir. Bağlantının kapsamı bu işlemin somut nesnesini, aracını veya gerçek yerleştirme olayını belirlemez; görüntü, yüzlerin çalışma ve yorgunluk hâlinin yanında çalışan operatif bir ihtimal olarak kalır.
+
+Bu işletme görüntüsünün toplumsal katkısı, emeği sınırları çizilmiş bir hizmet ve pay olarak duyurmasıdır. {ar:عَامِلَةٌۭ, tr:âmile, gloss:çalışan} atanmış bir iş üzerinde görev ve yetki taşıyan kişiyi, {ar:نَّاصِبَةٌۭ, tr:nâsıbe, gloss:yorulmuş} ise o görevin belirlenmiş payını veya sabit başvuru ölçüsünü taşıyan bir hizmetliyi düşündürebilir. İş görev olarak üstlenilir; yorgunluk da bu görevin yükü, ayrılmış payı ve ölçülmüş sınırı gibi görünür. Bu ihtimalli hizmet görüntüsünde ücret, makam, gerçek miktar ve hesaplanmış ölçü açık bırakılır; kelimeler çalışma-yorgunluk sahnesinin yanında sınırlandırılmış bir iş payı duyurur.
+
+Bu görev-pay ilişkisi emeğin yanında onu ayakta tutan karşılığı da görünür kılar. {ar:عَامِلَةٌۭ, tr:âmile, gloss:çalışan} kelimesinin özel bir kullanımında iş karşılığı verilen ücret veya çalışanın payı duyulabilir; {ar:نَّاصِبَةٌۭ, tr:nâsıbe, gloss:yorulmuş} da bütünden bir kişiye ayrılan pay görüntüsünü açabilir. 88:12'deki {ar:جَارِيَةٌۭ, tr:câriye, gloss:akıp süren} akışın devamını, 88:6'daki {ar:طَعَامٌ, tr:ta'âm, gloss:yiyecek} geçimin maddi yüzünü ve 88:9'daki {ar:سَعْيِهَا, tr:sa'yihâ, gloss:onun çabası} kazanılan etkinliği görünür kılar. Akıp süren destek, geçim ve kazanılan çaba bir araya gelince çalışma yalnızca harcanan güç olarak değil, dönüş bekleyen bir ilişki olarak duyulur. Ücret ve pay burada gerçek bir bordro ya da kesin bir ödül vaadi değil, yüzeydeki “çalışmış ve yorulmuştur” hükmünü taşıyan ihtimalli geçim katmanıdır.
+
+Bu karşılık ilişkisinin somut katkısı, emeği tüketim olduğu hâlde toparlanma üretmeyen bir döngü içinde göstermesidir (88:4, 88:5, 88:6, 88:7). {ar:نَارًا, tr:nâran, gloss:ateş} ile {ar:حَامِيَةًۭ, tr:hâmiyeten, gloss:kızgın} bedensel talebi artıran çevreyi; {ar:تُسْقَىٰ, tr:tüskâ, gloss:içirilir} bedene ulaşan fakat özneyi güçlendirmeyen alımı; {ar:طَعَامٌ, tr:ta'âm, gloss:yiyecek} geçim ve iyi hâl beklentisini; {ar:ضَرِيعٍۢ, tr:darî', gloss:adı geçen bitki} ise kısıtlı yiyecek içindeki tek maddi girdiyi taşır. Ardından {ar:يُسْمِنُ, tr:yusminu, gloss:besler} bedenin toparlanmasını, {ar:يُغْنِي, tr:yuğnî, gloss:yeterli kılar} ihtiyacın giderilmesini beklenen sonuçlar olarak öne çıkarır; {ar:جُوعٍۢ, tr:cû', gloss:açlık} ise kapanmayan açığı görünür kılar. Ateşle yükselen talep, içeri alınan fakat onarmayan şey ve gerçekleşmeyen beslenme bir araya gelince çalışma ile yorgunluk yenilenebilir bir tükenme döngüsüne bağlanır. Sağlanan şey emeğin dönüşü gibi davranır, fakat işçiyi onarmadığı için başarısız bir ödemeye dönüşür. Bu maddi ilişkinin kapsamı, kelimelerin kurduğu yorgunluk ve onarmayan beslenme temasındadır; âyet teknik bir fizyoloji modeli kurmaz.
+
+Aynı içirilme sahnesinin hareket görüntüsüne katkısı, su verme noktasını bir güzergâh üzerindeki istasyon gibi duyurmasıdır (88:5). {ar:تُسْقَىٰ, tr:tüskâ, gloss:içirilir} kelimesinin içirilmenin yanı sıra sürme ve güdme yönünde bölünmüş çağrışımı, {ar:عَامِلَةٌۭ, tr:âmile, gloss:çalışan} kelimesinin el işçileriyle {ar:نَّاصِبَةٌۭ, tr:nâsıbe, gloss:yorulmuş} kelimesinin özel bir topluluk yolculuğu ve yorgunluk yönünü aynı güzergâhta buluşturur. El emeğiyle çalışan topluluk duraktan durağa ilerleyen grup, yorgunluk ise bu hareketin bedensel maliyeti olarak belirir; yolculuğu sürdürme yönü hareketin devamını taşır. Bu bağlantı, içirilme ile işçi grubu, yolculuk ve yorgunluk arasındaki temkinli kervan görüntüsünü açar. {ar:تُسْقَىٰ, tr:tüskâ, gloss:içirilir} kelimesinin temel içirilme anlamı bu görüntünün zeminidir; sürme anlamı doğrudan sözlük karşılığı olarak değil, bu bağlamın bölünmüş çağrışımı olarak kalır.
+
+Emeğin dönüşüne kattığı açıklık, 88:8 ve 88:9'da yeniden görünen yüzlerle belirir. {ar:وُجُوهٌۭ, tr:vücûh, gloss:yüzler} bu kez {ar:نَاعِمَةٌ, tr:nâ'ime, gloss:iyi durumda} olarak görünür; {ar:سَعْيِهَا, tr:sa'yihâ, gloss:onun çabası} da {ar:رَاضِيَةٌۭ, tr:râdıye, gloss:hoşnut} bir sonuca bağlanır. Bu karşı yüzler, 88:3'teki {ar:نَّاصِبَةٌۭ, tr:nâsıbe, gloss:yorulmuş} kelimesini faaliyet sürerken dönüşün boş kaldığı sonuç karşıtlığının yorgun tarafı olarak geriye dönük biçimde aydınlatır. 11:15'teki dünyevî karşılık, 16:56'daki paylaştırma, 43:72'de devralınan sonuç ve 28:77'de dünyanın payını gözeten çerçeve, iki kelimeyi “emek ne alır?” sorusuyla buluşturur. 88:5, 88:6 ve 88:7'deki sıcaklık, içirilen şey ve bedeni toparlamayan beslenme, sağlanmış fakat onarmamış dönüşün maddi yüzünü verir. Böylece çalışma beklenen karşılığı alamamış bir alışveriş gibi görünür; ücret ve pay görüntüsü bu başarısız dönüşü açıklarken, 88:8 ve 88:9'daki hoşnutluk başka bir sonucun da açık olduğunu gösterir.
+
+Karşılığın gecikmesine kattığı görüntü, şimdiki emeği ileride açılacak bir kayıt ve henüz sonuçlandırılmamış bir pay gibi duyurmaktır. 88:25'teki dönüş ve 88:26'daki son hesap, işin ücreti ve karşılıklı işlemiyle kişinin payını ve sabit ölçüyü aynı ilerideki sonuçta buluşturur; 15:93'te yapılanların sorulabilir oluşu, bu görevi değerlendirilebilir kılar. Şimdiki {ar:عَامِلَةٌۭ, tr:âmile, gloss:çalışan} çalışma daha sonra çözülecek açık bir kayıt, {ar:نَّاصِبَةٌۭ, tr:nâsıbe, gloss:yorulmuş} yorgunluk da henüz sonuçlandırılmamış bir pay gibi duyulur. Dönüş ve hesap, kelimelerin kesin sözlük karşılıkları değil, doğrudan emek ve yorgunluk okumasının yanında duran bağlamsal gecikmiş karşılık ihtimalidir.
+
+Bu görev görüntüsünün katkısı, atanmış hizmet ile egemen kontrol arasındaki sınırı aynı sahnede görünür kılmasıdır. 88:21'deki hatırlatma görevi ile 88:22'de dışarıda bırakılan denetleme yetkisi birlikte düşünüldüğünde, {ar:عَامِلَةٌۭ, tr:âmile, gloss:çalışan} için gerçek bir sorumluluk ve {ar:نَّاصِبَةٌۭ, tr:nâsıbe, gloss:yorulmuş} için belirlenmiş bir iş payı görünür. Bu pay egemen kontrol değil, sınırlandırılmış bir hizmettir; atanmış görev vardır, sınırsız sahiplik yoktur. Bağlantı yüzleri sonraki görevin sahibi olarak belirlemeden, hesap ve yetki arasındaki farkı çalışma-yorgunluk sahnesinin içinde tutar.
+
+## Hazır Olanın Ardındaki Emek
+
+Hazır dinlenme alanının arkasındaki emeğe kattığı açıklık, 88:13, 88:14, 88:15 ve 88:16'da eşyanın nasıl kurulduğunun adım adım görünmesidir. {ar:سُرُرٌۭ, tr:sürür, gloss:dayanma yerleri} yerleşik dinlenmenin kullanım değerini, {ar:مَّرْفُوعَةٌۭ, tr:merfûa, gloss:yükseltilmiş} kaldırma ve dikleştirmeyi; {ar:أَكْوَابٌۭ, tr:ekvâb, gloss:kadehler} ile {ar:مَّوْضُوعَةٌۭ, tr:mevdûa, gloss:yerleştirilmiş} sabit bir yere koymayı; {ar:نَمَارِقُ, tr:nemârik, gloss:yastıklar} ile {ar:مَصْفُوفَةٌۭ, tr:masfûfe, gloss:dizilmiş} düzgün hizalamayı; {ar:زَرَابِيُّ, tr:zerâbî, gloss:halılar} ile {ar:مَبْثُوثَةٌ, tr:mabsûse, gloss:serpiştirilmiş} ise yayılmış son dağılımı taşır. Dört ardışık tamamlanmış sonuç, faili adlandırmadan yükseltme, yerleştirme, hizalama ve yayma işlemlerini görünür kılar. Bu işlemler {ar:عَامِلَةٌۭ, tr:âmile, gloss:çalışan} kelimesinin el işçileri açılımı ve {ar:نَّاصِبَةٌۭ, tr:nâsıbe, gloss:yorulmuş} kelimesinin dikme-yükseltme yönüyle temas edince, hazır dinlenme alanının arkasında görünmeyen bir kurucu ekip sezilir. Okuyucu rahatlığın hazır hâliyle onu kuran yükseltme, yerleştirme, sıralama ve yayma işlerini birlikte görür. Bu bağlantının sınırı, eşyaları odak âyetteki kişilerin yaptığı sonucunu belirlememesidir; faili belirtilmemiş edilgen dizi başlangıçtaki çalışmayı yeniden görünür kılar.
+
+Bu görünmeyen emeğin ses katkısı, ortak çabanın düzenli bir ritim içinde işitilebilmesidir. {ar:نَّاصِبَةٌۭ, tr:nâsıbe, gloss:yorulmuş} kelimesinin belirli bir ezgi türünü taşıyabilen kullanımı, {ar:عَامِلَةٌۭ, tr:âmile, gloss:çalışan} kelimesinin el işçileri görüntüsüyle birleşince bu ritmi düşündürür. 88:11'deki {ar:تَسْمَعُ, tr:tesme'u, gloss:duyar} işitme alanı ihtimali çağırır; aynı yerdeki {ar:لَٰغِيَةًۭ, tr:lâğıye, gloss:boş söz} ise olası çalışma ezgisini karışık ve boş gürültüden ayırır. Böylece toplu el emeği düzeni yükseltilmiş bir ezgiyle duyulabilir, sonraki sessiz ve düzenli mekân bu sesi boş sözden ayırabilir. Özel bir şarkı kullanımı âyetin dilbilgisi tarafından zorunlu kılınmaz; bu, 88:11'in açtığı, kaynağı ve sonucu sınırlı bir ses katmanıdır. Başlangıçtaki çalışma ve yorgunluk zemini, bu ihtimal içinde işitilen ortak ritimle genişler.
+
+## Yük Altında Kurulan Beden
+
+Eyleme kattığı en sert yön, çalışmanın belirli bir tarafa yönelen ve hesabını taşıyan bir duruş gibi hissedilebilmesidir. 88:23 ve 88:24'teki yüz çevirme, hakkı örtme ve acı verici ceza sırası bu bağlantıyı açar. {ar:عَامِلَةٌۭ, tr:âmile, gloss:çalışan} kelimesindeki bilerek yapılan iş veya eylem, {ar:نَّاصِبَةٌۭ, tr:nâsıbe, gloss:yorulmuş} kelimesindeki karşı koyma ve düşmanlık yönüyle buluşunca etkinlik yön kazanır; tükeniş ile hesap verebilirlik aynı özne üzerinde buluşabilir. Bu ilişki 88:23 ve 88:24'ün bağlamsal katkısıdır: 88:3'ün yakın yüzeyi yorgun yüzleri anlatmayı sürdürür, bu yüzden her yorgunluk düşmanlık olarak belirlenmez ve sonraki ceza ilk iki kelimenin doğrudan sözlük karşılığına dönüşmez. Yön kazanmış eylem baskısı, çalışma ve yorgunluk sahnesinin yanında kalır.
+
+Yük altındaki bedene kattığı biçim ise, dikey ve yatay olarak kurulmuş bir dünya karşısında zorlayıcı biçimde tutulan bir yapı gibi hissedilmesidir. {ar:نَّاصِبَةٌۭ, tr:nâsıbe, gloss:yorulmuş} kelimesindeki dikme, dik durma ve yükseltme çağrışımı 88:18, 88:19 ve 88:20'deki kozmik düzene bağlanır: 88:18'de göğün yükseltilmesi, 88:19'da dağların sağlamca dikilmesi ve 88:20'de yerin yayılması art arda görünür. Dışarıdaki dünya düzenlenmiş ve yerinde dururken insan bedeni taşıdığı yükün içinde kurulmuş gibi hissedilir. Bu temas kozmik kuruluşu yorgunluk sözünün yerine geçirmeden, iki görüntüyü aynı kelimenin çevresinde açık tutar; dağlar da bu bağlantı içinde insan bedenine çevrilmez.
+
+Kurulmuş dünyaya kattığı katkı, insan ölçeğindeki işleyişi dünyanın meydana gelişindeki ayrı işlemlerle yan yana göstermesidir. 88:17, 88:18, 88:19 ve 88:20'de bakış nesnelerin yalnızca varlığına değil, nasıl meydana getirildiklerine döner: devenin yaratılıştan taşıma ve hizmete elverişli oluşu, göğün yükseltilmesi, dağın yerine konması ve yerin yayılması aynı kurulmuş dünya içinde ayrı işlemler olarak belirir. Bu düzende {ar:عَامِلَةٌۭ, tr:âmile, gloss:çalışan} bir şeyi işe koşma ve kullanma tarafını, {ar:نَّاصِبَةٌۭ, tr:nâsıbe, gloss:yorulmuş} ise bir şeyi dik ve belirgin biçimde yerleştirme tarafını duyurabilir. İşe koşan fail ile yerleştiren eylem böylece insan ölçeğindeki çalışan işleyişi kurulmuş dünyanın tasarımına bağlar. Bu uzak bağlamın nitelikli yankısı, kelimelere doğrudan yeni bir çeviri vermeden yüzdeki çalışma-yorgunluk sahnesini genişletir.
+
+Deve görüntüsünün son katkısı, insan bedenindeki yorgunluğu hizmet ve yol taşıyabilme kapasitesi üzerinden hissettirmesidir (88:17). İşe elverişli ve dayanıklı biçimde kurulmuş beden, {ar:عَامِلَةٌۭ, tr:âmile, gloss:çalışan} kelimesindeki çalışmaya uygun beden yönüyle ve {ar:نَّاصِبَةٌۭ, tr:nâsıbe, gloss:yorulmuş} kelimesindeki uzun süre ilerleyen yolculuk yönüyle temas eder. İnsanların tükenmiş bedeni böylece taşıyabildiği iş ve mesafe üzerinden görülür. Bu keşifsel karşılaştırma yüzleri deveyle özdeşleştirmeden ve belirli bir taşıma sahnesi tayin etmeden, çalışmanın, sürdürülen yolun ve bedenin kaldırabildiği yükün aynı yüzeyde nasıl hissedilebileceğini açar; ilk yorgunluk görüntüsü bu kapasite temasının içinde yerini korur.
+
+</editorial_prose>

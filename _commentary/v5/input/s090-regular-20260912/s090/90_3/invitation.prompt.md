@@ -1,0 +1,181 @@
+# V5 reading invitation — 90:3
+
+You are a fresh reading-invitation writer. Read the complete editorial prose
+before writing. It is your sole semantic source.
+
+Write two to four paragraphs of fluent, contemporary Turkish that reveal a
+surprising reading by following one or two main channels of resonance in the
+ayah. A channel is a connected background of meanings, images, actions, or
+relations through which the ayah can be heard and understood differently.
+Several editorial findings may together develop one channel. Summarize that
+connected movement and its consequence for the ayah's main meaning, rather
+than compressing findings individually. Give the reading's substance now;
+the invitation comes from understanding it, not from a promise of hidden depth.
+
+Before drafting, read the entire editorial prose and silently select the one
+or two channels with the strongest interpretive consequence and enough
+grounding to explain clearly. Favor channels that expand or shift what the
+ayah says, the relation it establishes, or what is at stake in its action or
+image. One fully developed channel is sufficient; add a second only when it
+offers a distinct consequential reading that can be explained within the
+invitation. No finding, channel, or major shift has an individual coverage
+claim. Unselected material may remain entirely in the full commentary.
+
+A channel may develop through grammar, sound, dialogue, a material process,
+time, imagery, or a conceptual relation. Resonance is not limited to acoustic
+effects, and an unusual image alone does not establish a channel. Use only
+connections the editorial prose actually develops. If it supplies no such
+channel, explain its strongest grounded reading without inventing connections
+or surprise.
+
+Begin inside the ayah's own words, images, actions, or relations and reveal a
+selected distinctive reading in the first paragraph. Keep the plain meaning
+reachable with only the orientation needed to understand the change. Do not
+spend an opening paragraph on routine explanation or front-load context about
+the surah, the ayah's position, or the commentary project.
+
+For each selected channel, begin with the expression that opens it, unfold the
+connected background, and show how the ayah reads or sounds against that
+background. Let a detail lead into the next through an intelligible relation
+or process, so the reader experiences the emerging reading. This is a movement
+of thought, not a mandatory sentence pattern or one paragraph per finding.
+Let the reader identify the expression being interpreted,
+where any nonordinary detail comes from, and what that detail changes in the
+reading. Briefly identify the word-family use, restricted form, collocation, or
+context that supplies an essential added detail, and preserve the concrete
+operation that makes the image work. Keep the ordinary reading and necessary
+qualification clear within this explanation; do not repeat them as a fixed
+formula. Preserve the particular object, process, or relation that makes this
+reading distinctive, and state its interpretive consequence for the ayah as a
+whole. Make intelligible what the familiar reading leaves less visible and
+what the expanded or shifted reading now lets the reader understand. Preserve
+the editorial's force: an exploratory possibility remains possible, while a
+developed shift must not be softened into a decorative association or a
+reassurance that everything means the same thing. A concrete
+account of how something is carried, transformed, lost, or restored must not
+shrink to a general statement about care, guidance, dependence, or goodness.
+Keep the details needed to make the selected channel work; omit side findings
+and shorten routine setup. If a channel cannot be explained faithfully from
+the editorial prose, choose another grounded channel or reading.
+
+When a non-focus ayah supplies a contribution used in the invitation, keep its
+reference from the editorial prose beside that contribution.
+
+Do not turn the invitation into a miniature inventory of the commentary's
+conclusions, or flatten distinct channels into a broad theme to include more
+material. Do not repair, extend, or supplement the editorial prose from memory
+or outside knowledge.
+
+Omit technical apparatus. Retain any qualification, source distinction, live
+alternative, or boundary whose absence would change the force or meaning of a
+chosen reading. Express it naturally beside the image or relation it qualifies.
+Favor positive explanations of the relation between layers: what remains in
+the foreground and what the resonance makes audible in the background. State
+how that background reinforces, expands, or shifts the understanding of the
+main meaning, with the source and degree of certainty clear. Reserve explicit
+exclusions for concrete ambiguities or live counter-evidence that need them.
+Repeated "this is not X" endings make a reading sound withdrawn; express the
+substantive qualification through what the reading does contribute wherever
+possible. Use varied, natural language rather than a repeated "second layer"
+formula, and preserve the force of expansions and shifts.
+Do not name branches, candidates, findings, scopes, evidence categories,
+ledgers, or workflow stages, or label the prose as numbered channels. Do not
+list findings serially.
+
+Use the established `{ar:..., tr:..., gloss:...}` syntax, consistent
+Turkish-readable transliteration, and short ordinary glosses. Keep Arabic
+anchors beside the explanations they ground. Within a paragraph, continue with
+the Turkish meaning where clear; provide the necessary local tag when a later
+paragraph interprets the carrier anew. Do not place Arabic script outside a
+valid tag.
+
+Build transitions within a channel through its shared object, action, or
+relation. If two channels are selected, they may occupy separate paragraphs;
+do not invent a link between them. Do not praise the commentary's quality,
+promise what the reader will find, manufacture suspense, recap at the end, or
+add a call to action. End on an image, relation, action, or tension already
+established by the selected reading.
+
+Before finishing, compare the invitation with the entire editorial prose:
+does the chosen channel reveal a consequential reading, or could the text have
+been written from the ordinary translation and a modest explanation alone?
+When the editorial supports a surprising channel, the latter fails this task.
+Can the reader follow the opening expression into a connected background and
+understand how that background expands or shifts the ayah's main meaning?
+Check the selected connections against their editorial explanation: can the
+reader tell where the nonordinary details come from, with the necessary
+qualifications intact? Repair generic explanation, isolated curiosities, or a
+compressed findings list by developing the selected channel. Do not add
+omitted channels merely for coverage. Do not output this check.
+
+Write only the invitation text to:
+
+`_commentary/v5/editorial/s090-regular-20260912/s090/90_3/90_3.invitation.tr.md`
+
+Do not add a heading, wrapper label, index, ledger, evidence file, or any other
+artifact. Do not modify the editorial prose.
+
+After writing the invitation, run:
+
+```bash
+python3 _commentary/v5/validate_prose.py _commentary/v5/editorial/s090-regular-20260912/s090/90_3/90_3.invitation.tr.md
+```
+
+If validation fails, repair only the reported mechanical file-contract issues
+and rerun it, for at most two repair cycles. Report the final validator result
+in your response.
+
+<editorial_prose>
+Bu kısa ayet, {ar:وَوَالِدٍۢ وَمَا وَلَدَ, tr:wālidin wa mā walada, gloss:doğurana ve doğurduğuna} diyerek “Doğurana ve doğurduğuna” anlamında bir yemin kurar. Başındaki {ar:وَ, tr:wa, gloss:ve}, (90:1) ve (90:2)'deki şehir sahnesiyle başlayan yemin zincirini sürdürür; belirli bir yer görüntüsünden insanın ortak biçimde meydana gelmiş olma hâline geçilir. Ayet böylece kopuk bir liste maddesi değil, sıkıştırılmış tanıklık zincirinin devamı olarak duyulur. Bu yakınlık içinde açıkça söylenen şey, doğuran ile doğurduğu arasındaki bağdır.
+
+İlk {ar:وَالِدٍۢ, tr:wālidin, gloss:doğuran} belirli bir kişinin adını değil, ebeveynlik ve kaynaklık tipini taşır. Belirsiz eril tekil etken ortaç biçimi onu ayakta duran bir kaynak figürü olarak getirir; yemin içindeki cer biçimi de bu figürü karşılığı bulunan bir tanık hâline getirir. Okur doğuranı böylece üzerine dikkat verilmiş bir yemin unsuru olarak işitir. Ardından gelen ikinci {ar:وَ, tr:wa, gloss:ve}, yeni görüntüyü öncekiyle aynı tanıklık ilişkisine bağlar. {ar:وَمَا وَلَدَ, tr:mā walada, gloss:doğurduğu şey} tam bir ikinci yemin birimidir; sonuç, doğuranla baştan ilişkilendirilmiş olarak açılır.
+
+{ar:مَا, tr:mā, gloss:üretilen şey} kişisel olmayan ve açık bırakılmış bir sonuç alanı kurar. Bu alan bir çocuğu ve evladı koruduğu gibi kaynaktan ortaya çıkan şeyi, soyu veya meydana gelmiş bir sonucu da taşıyabilir; genişlik doğurulma ilişkisinden ayrılmaz. Aynı unsur, ardından gelen {ar:وَلَدَ, tr:walada, gloss:doğurdu} fiilinin nesnesi ya da gönderimi olarak sonucu önceden verilmiş bir kimliğe değil, doğurma eylemine bağlar. Böylece ürün ile üretim hareketi birlikte duyulur: doğan şey görünürken onu doğuran süreç de geri planda işlemeyi sürdürür. İki kısa {ar:وَ, tr:wa, gloss:ve} vuruşunun dengesi, kaynaktan üretilmiş sonuca ilerleyen hareketi sesle sıkıştırır; parçacığın katkısı, iki kutbu aynı yeminde tutan bu bağdır.
+
+Kaynak rolünden eyleme geçişi {ar:وَلَدَ, tr:walada, gloss:doğurdu} fiilinin biçimi belirginleştirir. Bu, temel etken kalıpta, geçmiş zamanda tamamlanmış bir dünyaya getirme eylemidir; yoğunlaştırılmış ettirgen ya da edilgen bir doğum profiline kaymadan doğrudan gerçekleşmiş üretimi öne çıkarır. Önce ayakta duran doğuran, sonra o kaynaktan çıkan sonuç gelir. Böylece isimle kurulan ebeveynlik rolü donmuş bir etiket olarak kalmaz, gerçekleşmiş üretimle birleşir; aynı kökün isim ve fiil arasında dönmesi, kaynakta başlayan hareketi son kelimede ses bakımından kapatır. Son kelimenin ritmi de yemin birimini kaynak, eylem ve sonuçla tamamlar. Bu yankı burada biyolojik ve ilişkisel oluş alanında çalışır; sonraki genişlemeler de bu somut zeminden hareket eder.
+
+Bu kaynak-sonuç çifti, doğumu ortak insan oluşunun eşiği olarak duyurmaya da izin verir. {ar:وَالِدٍۢ, tr:wālidin, gloss:doğuran} ile {ar:وَلَدَ, tr:walada, gloss:doğurdu} birbirine değdiğinde doğuranın bedensel ve ilişkisel kaynaklığı ile ortaya çıkan insan aynı oluş zincirinde görünür. (90:4)'teki {ar:لَقَدْ خَلَقْنَا ٱلْإِنسَٰنَ فِى كَبَدٍ, tr:lekad halaknâ el-insâne fî kebed, gloss:insanı zorluk içinde oluşturduk} cümlesi hemen ardından yaratılmış insanı zorlu uğraşın içine yerleştirir. Buradaki tamamlanmış doğurma, (90:4)'teki zorluk ifadesine zaten ortaya çıkmış bir sonuçtan geçilen bir eşik verir; doğum, ortak insan meşakkatini hazırlayan zemin gibi çalışır. (90:4) kendi cümlesi içinde insanı zorlukla kurar; bu ayet ise doğum ilişkisini o cümleye açılan eşik olarak taşır.
+
+İfade iki ayrı görüntüyü yan yana dizmekten çok aynı doğum ilişkisinin karşılıklı uçlarını gösterir. Doğuranın yanında duyulan fiil, doğuranı yalnız başına bir kaynak değil, doğurduğu sonuçla tanımlanan bir ebeveyn olarak görünür kılar; fiilin açık sonucu da ana babadan doğmuş kişiyi görünür hâle getirir. Erkek yönündeki öz baba ayrıntısı bu temasla sezilebilir. Ayetin açık sonucu ise ana babadan doğmuş kişiyi belirli bir ada, yaşa veya cinsiyete kapatmadan taşır. Bu ilişki, ebeveynlik ile üretim arasındaki bağı korurken (31:33)'te görülen sınırı da hatırlatır: ana baba çocuğu fidye vererek kurtaramaz; akrabalık ve sevgi değerlidir, fakat kendiliğinden nihai kurtuluş sayılmaz. Buradaki oluş alanı yaratılmış varlıkların doğurulmasıyla sınırlıdır; (112:3)'teki ilahî doğurma inkârı ve (2:233)'teki hukuki-toplumsal çocuk yükümlülüğü ayrı bağlamlarda kalır.
+
+## Şehrin İçindeki Devamlılık
+
+(90:1)'deki {ar:هَٰذَا ٱلْبَلَدِ, tr:hâzel beled, gloss:bu şehir} ve (90:2)'deki {ar:حِلٌّۢ بِهَٰذَا ٱلْبَلَدِ, tr:hillun bihâzel beled, gloss:bu şehirde bulunan/yerleşmiş} sözleriyle birlikte bakıldığında, doğuranla doğan belirli sınırları olan bir insan çevresinin içinde görünür. Şehir ortak bir kap gibi çalışır; doğum, o yerde yaşayanların kuşaklar boyunca yenilenmesini ve yerleşik dünyanın kendisini sürdürmesini hissettirir. (90:2)'deki bulunma, bağlı kalma, yerleşme veya oraya varma yönleri bu sürekliliğe temas eder; {ar:وَلَدَ, tr:walada, gloss:doğurdu} içindeki kaynak-sonuç bağı da şehrin içindeki insan dünyasının kendini yenileme biçimine açılır. Böylece doğum yalnız özel bir biyolojik olay olarak kalmaz, sınırları belli bir çevrenin sürekliliğini de görünür kılar. Şehir sözleri aynı zamanda yeminin yerini belirleme işlevini korur; yerleşik dünya görüntüsü, ana-baba ile doğan arasındaki açık bağın üzerine eklenir.
+
+## Doğan Kişinin Bütünlüğü
+
+Doğumun sonucu, soyun içinde eriyen belirsiz bir devam noktası olarak kalmaz. (90:4)'teki oluşturulmuş insan, (90:5) ve (90:7)'deki {ar:أَحَدٌ, tr:ehad, gloss:tek kişi/herhangi biri} sözüyle tek tek hesaba katılan kişi ufkuna açılır. Aynı çevredeki {ar:أَيَحْسَبُ, tr:eyahsabu, gloss:hesap ediyor mu/sanıyor mu} hesap ve sayma hareketini getirir; {ar:يَرَهُ, tr:yerahu, gloss:onu görür} ise kişinin görünür ve açığa çıkmış oluşunu belirginleştirir. (90:8)'deki {ar:عَيْنَيْنِ, tr:aynayn, gloss:iki göz} bu görünürlüğü göz önünde duran ve kendi özüyle belirlenebilen bir insan görüntüsüne bağlar. Böylece doğuran ile doğan arasındaki olağan bağ, doğan kişinin kendi biçimi, hesabı ve görünürlüğü bulunan bir bütün olarak belirmesini sağlar. Soy ilişkisi bu kişisel sorumluluğun zeminidir; (90:5) ve (90:7)'deki soruların tek bir övünen kişiye yönelmesi de bu görüntüyü somutlaştırır.
+
+Bu bütünlük, (90:8, 90:9, 90:10)'daki yeti dizisinde edilgen bir sonuçtan etkin bir özneye doğru ilerler. (90:8)'deki {ar:نَجْعَل لَّهُۥ, tr:nac'al lehu, gloss:onu bir duruma koyarız} ifadesi, insanın var edilmekle kalmayıp yetilerle donatılmış bir duruma yerleştirildiğini gösterir. {ar:عَيْنَيْنِ, tr:aynayn, gloss:iki göz} çevreyi algılayan taşıyıcıyı, (90:9)'daki {ar:شَفَتَيْنِ, tr:şefeteyn, gloss:iki dudak} sesin dışarı çıkacağı bedensel eşiği, {ar:لِسَانًا, tr:lisânen, gloss:dil} ise bu varlığı söz ve öğüt üretebilen bir konuşana çevirir. (90:10)'daki {ar:ٱلنَّجْدَيْنِ, tr:en-necdeyn, gloss:iki belirgin yol/yükseklik} birbirinden seçilebilen iki yönü önüne açar; aynı ayetteki {ar:هَدَيْنَٰهُ, tr:hedeynâhu, gloss:ona yön gösterdik} bu donanımı yönelme imkânıyla tamamlar. Doğumdan çıkan kişi böylece görme, söyleme ve seçme kapasitesi taşıyan yeni bir fail olarak geri döner. Yeti dizisinin katkısı, bu insan oluşumunu ebeveynlik bağlantısına yaklaştırmaktır; ebeveynlik burada bütün donanımın tek açıklaması değil, bu nitelikli yakınlığın taşıyıcısıdır.
+
+Bu yönelme imkânı, {ar:هَدَيْنَٰهُ, tr:hedeynâhu, gloss:ona yön gösterdik} kelimesini daha erken ve bedensel bir bakım görüntüsüne de açar. Olağan yöneltme anlamı, henüz konuşamayan çocuğu ritimle sallayıp yatıştıran bir bakım biçimiyle temas ettiğinde, bilinçli seçimden önce bedeni sakinleştiren ve güven veren bir rehberlik sahnesi kurar. Bu temas, {ar:وَالِدٍۢ, tr:wālidin, gloss:doğuran}ın erkek yönündeki baba ihtimali ile {ar:وَلَدَ, tr:walada, gloss:doğurdu} fiilinin yakın zamanda doğmuş çocuk yönünü birbirine bağlar. Yön gösterme böylece soyut istikamet bilgisinin yanı sıra çocuğu tutan ve ritmiyle dengeleyen bir bakım olarak hissedilir. Bu ritmik bakım, (90:10)'daki yön gösterme sözünü erken bedensel bakım açısından derinleştirir; bütün rehberlik dizisinin zorunlu başlangıcı olarak ileri sürülmez.
+
+## Eylemin Ürettiği Sonuç
+
+İnsanın yetileriyle görünür bir fail hâline gelmesinden sonra, {ar:وَلَدَ, tr:walada, gloss:doğurdu} fiilinin kaynak-sonuç alanı davranışların ortaya çıkardığı şeylere doğru genişleyebilir. (90:4)'teki {ar:خَلَقْنَا, tr:halaknâ, gloss:oluşturduk} ile (90:6)'daki {ar:يَقُولُ, tr:yekûlü, gloss:söylüyor} yan yana duyulduğunda, üretilmiş sonuç yapılmış ve sahiplenilmiş bir sözün sonucu gibi de belirir. Söyleme eylemi, bir iddianın başkasına doğru olmayan biçimde yüklenmesi ihtimalini açar; böylece ortaya çıkan şeyin doğruluğu ve kime ait olduğu tartışmalı hâle gelir. Birinci tekil şahısla söylenen {ar:أَهْلَكْتُ, tr:ehlektü, gloss:tükettim ve gücümü harcadım} sözü, sonucu kişinin kendi hesabına çekilmiş ve kendi ürünü gibi sahiplenilmiş bir söyleyişe bağlar. Bu temas biyolojik doğum anlamını yerinde tutarken sözlerin ve davranışların insan dünyasında sonuç doğurmasını duyurur.
+
+(90:6)'daki {ar:مَالًا, tr:mâlen, gloss:mal} ile {ar:لُّبَدًا, tr:lubeden, gloss:üst üste yığılmış} yığını, bu sahiplenilmiş sonuca maddi bir gövde verir: edinilip çoğaltılan şey kat kat birikmiş görünür. Harcanmış güç ve tükenmiş emek de bu gövdenin arkasında kalır; insanın meydana getirdiğini söylediği sonuç, sonunda yanlışlık ve faydasızlık içinde eriyebilecek bir yığının görünümünü alır. Böylece biyolojik doğumun yanında bir iddianın üretilmesi, kişinin onu kendisine mal etmesi ve boşuna tükenmeye sürüklenmesi duyulur. Mal yığını, kişinin kendi çocuğu gibi gururla sunduğu bir sonuç görüntüsüne yaklaşır; bu nedenle maddi benzetme, doğan çocukla aynı açık adlandırmayı değil, üretilmiş sonucun gövdesini gösterir. (90:6)'daki mal övünmesi kendi bağımsız bağlamını da korur; canlı doğumun açık anlamı bu maddi görüntünün zemininde kalır.
+
+## Soydan Yüke
+
+Kaynakta ortaya çıkan sonuç, (90:11) ve (90:12)'deki geçit görüntüsüyle miras alınacak bir devamlılıktan üstlenilmesi gereken bir göreve doğru döner. {ar:فَلَا ٱقْتَحَمَ ٱلْعَقَبَةَ, tr:felâ iktahamel-akabe, gloss:zor geçide girmedi} sözü yükseltilmiş ve dirençli bir geçide girmeyi, {ar:وَمَآ أَدْرَىٰكَ مَا ٱلْعَقَبَةُ, tr:ve mâ edrâkel-akabe, gloss:zor geçidin ne olduğunu sana bildiren} ise bu yükün ne olduğunu açacak soruyu getirir. {ar:وَوَالِدٍۢ وَمَا وَلَدَ, tr:wālidin wa mā walada, gloss:doğurana ve doğurduğuna} içindeki ebeveyn ve doğan kutupları bu hareketle buluştuğunda, soyla statü kazanma görüntüsü o soyun ardından gelen maliyetli talebe dönüşür. Doğmuş kişi geçmişte tamamlanmış bir doğumun ürünü olmanın yanında geleceğe dönük yükün taşıyıcısı olarak görünür; kaynak olmak da o talebi üstlenme anlamı kazanır. Bu bağlantı, (90:11, 90:12)'deki geçidin yerel anlamını koruyarak doğum ilişkisine taşıdığı yükü belirginleştirir.
+
+Bu yük, doğmuş kişinin bağımlılığıyla birleşince {ar:فَكُّ رَقَبَةٍ, tr:fekku rakabe, gloss:bir boynu çözmek} ifadesindeki özgürleştirme hareketine döner. Açık sonuç alanında yeni doğmuş çocuk veya küçük çocuk yönü bulunurken, erkek biçimindeki köle yönü aynı kişinin sahiplik ilişkisine sokulabilen daha sert bir toplumsal görüntü açar. Boynun ya da bedenin çözülmesi, bağlı bir insanı sahiplikten özgürlüğe taşıyan görevi öne çıkarır. Doğmuş kişi bu hareketle korunması ve özgürlüğü geri verilmesi gereken bir insan olarak görünür. Kölelik yönü, ayetin doğuran ve doğan arasındaki açık anlamını genişleten ihtiyatlı bir bağlantıdır; buradan ayrıca bir hukuk hükmü veya kesin bir soy yorumu çıkarılmaz.
+
+Özgürleştirmenin ardından {ar:أَوْ إِطْعَٰمٌۭ فِى يَوْمٍۢ ذِى مَسْغَبَةٍۢ, tr:ev it‘âmun fî yevmin zî mesgaba, gloss:açlık gününde yemek yedirmek} sözü, doğumun başlattığı hayatın sürdürülmesini görünür kılar. {ar:وَلَدَ, tr:walada, gloss:doğurdu} ilk ortaya çıkışı taşırken başkasını doyurmak, bedenli devamın ağır zaman ve açlık içinde kesilmemesi için maddi aktarımı taşır. Beslemek, doğumla başlayan hayatın son bulmaması için ona eşlik eden bir devamlılık görüntüsü kurar. Bu bağlantı doğurma olayını koruyarak sonraki sorumluluğu gösterir. Besleme (90:14)'te kendi bağımsız yardım sahnesini de taşır; kaynak-sonuç ilişkisi burada beslenmiş devamlılığa doğru açılan nitelikli bir yakınlık kazanır.
+
+## Kopan Bağın Cevabı
+
+Doğuran ile doğanın değeri, bakım kaynağının eksildiği yerde daha kırılgan biçimde görünür. {ar:يَتِيمًۭا ذَا مَقْرَبَةٍ, tr:yetîmen zâ makrabe, gloss:yakın akrabalı yetim} sözü, koruyucusunu kaybetmiş kişiyi ve bu eksikliğe cevap verebilecek yakın çevreyi aynı sahneye getirir. {ar:وَوَالِدٍۢ وَمَا وَلَدَ, tr:wālidin wa mā walada, gloss:doğurana ve doğurduğuna} içindeki doğmuş kişi zarar gören uca, doğuran ise eksilen kaynağa dönük bir ilişkiyi görünür kılar. Soy bağı bu sahnenin açık zeminidir; yetimlik ve yakınlık, bakımın kopuşunu ve başkalarının cevabını bu zeminin üzerinde görünür kılar. Yakın akrabalık kırılmaya yönelen onarım yolunu somutlaştırır. Sabır ve {ar:وَٱلْمَرْحَمَةِ, tr:vel-merhame, gloss:rahmet} üzerine karşılıklı öğüt ise koruma işlevinin iki kişi arasından toplulukça sürdürülen bir onarıma taşınabileceğini düşündürür. (90:15)'teki yetimlik sahnesi kopuşu doğrudan verir; (90:17)'deki sabır ve rahmet, bu kopuşun topluluk içinde onarılmasına açılan daha ihtiyatlı bir genişleme getirir. İki hareket de ebeveyn-doğan bağının değerini korur.
+
+Dikey ebeveyn-çocuk ekseni, {ar:وَلَدَ, tr:walada, gloss:doğurdu} ile aynı insan zamanını paylaşan denk kişilere doğru yataylaşabilir. {ar:أَوْ مِسْكِينًۭا ذَا مَتْرَبَةٍۢ, tr:ev miskînen zâ matrabe, gloss:toprağa düşmüş yoksul} sahnesi yoksunluk ve hareketi daraltan bir durumu gösterirken, eşlik ve yaş denkliği olarak duyulan yakınlık bu kişiyi soy çizgisinin dışındaki bir yabancı olmaktan çıkarır. Doğmuş olanlar böylece yalnız ebeveynden çocuğa inen bir sıranın üyeleri değil, aynı yaş ölçüsünde buluşan kırılgan insanlara karşı sorumluluk taşıyan kişiler olarak da görünür. (90:16)'daki yoksulluk sahnesi ekonomik ihtiyacı açıkça taşır; yaşıtlık görüntüsü bu somut ihtiyacın üzerine eklenen ve doğum ilişkisine bağlanan ihtiyatlı bir dayanışma genişlemesidir.
+
+Aynı {ar:وَلَدَ, tr:walada, gloss:doğurdu} fiilinin bir şeyin başka bir şeyden nedenle ortaya çıkması yönü, (90:17)'deki toplumsal pratiklerle yeni bir biçim kazanır. Birbirini gözetmek, karşılıklı öğüt vermek, sabır içinde bağlı ve dayanıklı desteği sürdürmek, {ar:وَٱلْمَرْحَمَةِ, tr:vel-merhame, gloss:rahmet} ile birlikte kan bağı dışında ortak bir ahlaki biçim üretebilir. Rahmetin ana rahmini çağrıştıran bedensel bir başlangıç gibi duyulması, topluluğun yalnız var olan insanları koruyan bir çevre değil, tekrarlı aktarım yoluyla insanî bir biçim oluşturan bir zemin olmasını düşündürür. Bu görüntü biyolojik ebeveynliği temel alır; sosyal rahim, (90:17)'deki rollerden çıkan ihtiyatlı bir genişleme olarak kalır ve erdemlerin daha önce yapılmış bakım eylemlerine eşlik etmesi ihtimalini de açık tutar.
+
+## Beraberliğin Aldığı Yön
+
+Kaynakta üretilen sonuç, (90:18, 90:19, 90:20)'de kişiyi izleyen beraberlik ve kapanma biçimlerine dönüşür. {ar:وَلَدَ, tr:walada, gloss:doğurdu} bir kaynaktan çıkan şeyi taşırken {ar:أُو۟لَٰٓئِكَ أَصْحَٰبُ ٱلْمَيْمَنَةِ, tr:ulâike ashâbul-meymene, gloss:onlar sağ tarafın beraberleridir} ile {ar:وَٱلَّذِينَ كَفَرُوا۟ بِـَٔايَٰتِنَا هُمْ أَصْحَٰبُ ٱلْمَشْـَٔمَةِ, tr:vellezîne keferû bi-âyâtinâ hum ashâbul-meş’eme, gloss:onlar sol tarafın beraberleridir} aynı beraberlik yapısının iki farklı yöne ayrıldığını gösterir. Sonuç kişiye sonradan eklenmiş bir etiket olarak değil, onu izleyen bir aidiyet ve yön olarak eşlik eder. Olumlu taraf bereketli bir beraberlik kurarken karşıt taraf ters yönde bir aidiyet üretir; bu iki yön, aynı yapının farklı sonuçlarını görünür kılar. {ar:عَلَيْهِمْ نَارٌۭ مُّؤْصَدَةٌۢ, tr:aleyhim nârun mûsade, gloss:üzerlerine kapatılmış ateş} sözü ise bu beraberliği kişiyi çevreleyen kapalı bir dünyaya taşır. Eylemin doğurduğu sonuç böylece kişiye eşlik eden bir çevreye ve sonunda onu kuşatan bir kapanmaya dönüşebilir; burada kurulan bağlantı davranış ile sonuç arasındaki genişlemedir.
+
+Bu kapanışın yanında, aynı kaynak-sonuç hareketi ayrı bir maddi benzetmeyi de açar. Saklı bir tohum gibi korunmuş başlangıç, (90:19, 90:20)'deki gizli gelişme, görünür çiçek ve sık köklü büyüme görüntüleriyle temas ettiğinde sonradan görülen bir ürün verir. Ürün kendi köklerini sıklaştırarak onu çevreleyen kapalı bir dünya kurar; türeme burada örtülme, görünür olma ve kapanmayı birlikte taşıyan bir büyüme benzetmesi gibi duyulur. Bu benzetme, (90:19, 90:20)'deki kapanış görüntülerinin kaynak-sonuç hareketine verdiği ihtiyatlı ve keşif niteliğinde bir katkıdır; ebeveyn-doğan ilişkisini ve bir şeyin başka bir şeyden ortaya çıkması anlamını bu bağlantının içinde korur. (90:19, 90:20)'deki görüntü böylece botanik bir hükme değil, saklı başlangıcın görünür ürüne ve oradan kapalı çevreye dönüşmesini anlatan maddi bir hayale hizmet eder. Saklı başlangıcın görünür ürüne, oradan da kendi çevresini yeniden kuran sık köklü büyümeye dönüşmesi, üretim ilişkisinin burada açtığı kapalı çevre görüntüsünü tamamlar.
+
+</editorial_prose>

@@ -1,0 +1,222 @@
+{
+  "schema_version": "commentary-v5-scope-discovery-v1",
+  "ayah_ref": "88:20",
+  "lane": "macro",
+  "coverage_complete": true,
+  "candidate_decisions": [
+    {
+      "candidate_id": "cand_c8214b1bab1fff3be362",
+      "decision": "reject",
+      "reason": "This nomination has no focus branch. Its only supposed focus contact assigns سُطِحَتْ to س ط ر, while the exact supplied QAC surface is س ط ح; the nominated branch has no focus occurrence or focus return. The 88:17 herd and 88:23 separation references therefore provide availability without a valid carrier-trigger mechanism changing 88:20.",
+      "finding_refs": [],
+      "branch_exclusions": [
+        {"branch_ref": "root_000006/B003", "reason": "The herd-group branch is contextual 88:17 material with no returned focus carrier."},
+        {"branch_ref": "root_000704/B007", "reason": "The support misassigns the focus سُطِحَتْ to س ط ر; the supplied focus root is س ط ح and this branch has no focus occurrence."},
+        {"branch_ref": "root_001684/B015", "reason": "The 88:23 separation branch has no independent focus return or changed reading of the earth-surfacing statement."}
+      ],
+      "facet_exclusions": [
+        {"branch_ref": "root_000006/B003", "facet_id": "SOURCE_IMAGE", "reason": "The scattered-group image remains an unjoined context nomination."},
+        {"branch_ref": "root_000704/B007", "facet_id": "SOURCE_IMAGE", "reason": "The young-goat image is attached to the mismatched س ط ر coordinate."},
+        {"branch_ref": "root_001684/B015", "facet_id": "SOURCE_IMAGE", "reason": "The separated-young-livestock image has no valid focus return."}
+      ],
+      "context_exclusions": [
+        {"context_ref": "88:17", "reason": "The camel/herd context is supplied, but its branch occurrence does not survive the focus-coordinate check."},
+        {"context_ref": "88:23", "reason": "The separation context is supplied, but remains an unreturned image for this candidate."}
+      ],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_b7f3f963583589d7075d",
+      "decision": "accept",
+      "reason": "The complete nomination joins the focus earth branch to supplied 88:18 overhead-sky and 88:24 open-to-sky images. Their lower/upper contact changes the listed earth into an exposed lower member while preserving its ordinary meaning.",
+      "finding_refs": ["macro:exposure-beneath-sky"],
+      "branch_exclusions": [], "facet_exclusions": [], "context_exclusions": [], "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_9b6b402765cb77b90e40",
+      "decision": "accept",
+      "reason": "The exact HFT trace supplies focus earth/surfacing carriers and an attributed 88:17 observation, camel-care, and creation/proportioning contact. Every listed branch lands; unresolved context branches remain attributed.",
+      "finding_refs": ["macro:measured-habitat"],
+      "branch_exclusions": [], "facet_exclusions": [], "context_exclusions": [], "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_b47128b2e51e8a9ff6fe",
+      "decision": "accept",
+      "reason": "The exact HFT trace connects focus earth/surfacing to the supplied 88:18 sky/raising and 88:19 mountain/uprighting observations. All six branches land, with unresolved context roles kept attributed.",
+      "finding_refs": ["macro:vertical-architecture"],
+      "branch_exclusions": [], "facet_exclusions": [], "context_exclusions": [], "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_044f714329608f7d322f",
+      "decision": "accept",
+      "reason": "The exact HFT trace connects the inspectable focus surface to directed observation, reminding, and the subsequent denial of coercive control. All five branches land as one qualified local reading.",
+      "finding_refs": ["macro:visible-reminder"],
+      "branch_exclusions": [], "facet_exclusions": [], "context_exclusions": [], "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_a8b28d9c84356e01a920",
+      "decision": "accept",
+      "reason": "The exact HFT trace joins supplied fertile-earth and ground-spreading focus branches with 88:23 turning-away and two attributed covering roles. The productive/occluding contrast is distinct and all five branches land.",
+      "finding_refs": ["macro:productive-or-occluding-cover"],
+      "branch_exclusions": [], "facet_exclusions": [], "context_exclusions": [], "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_0bfea26fc425c99ef016",
+      "decision": "accept",
+      "reason": "The exact HFT outlier has focus fertile-earth and ground-spreading carriers, an attributed non-dominant 88:18 rain mapping, and a successive-rain role at 88:23. Its bounded surface-writing mechanism survives as exploratory.",
+      "finding_refs": ["macro:rain-written-surface"],
+      "branch_exclusions": [], "facet_exclusions": [], "context_exclusions": [], "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_399c1bf424860a56dd72",
+      "decision": "accept",
+      "reason": "The exact HFT outlier has a focus flat-working-surface carrier and attributed roles for durable record, ordered line, and accounting. These form a distinct bounded ledger analogy, so all four branches land.",
+      "finding_refs": ["macro:surface-as-ledger"],
+      "branch_exclusions": [], "facet_exclusions": [], "context_exclusions": [], "semantic_obligation_exclusions": []
+    }
+  ],
+  "findings": [
+    {
+      "finding_ref": "macro:exposure-beneath-sky",
+      "origin_candidate_id": "cand_b7f3f963583589d7075d",
+      "represented_candidate_ids": [],
+      "title": "Earth exposed beneath the sky",
+      "claim": "Within the declared pericope's ordered observation, the definite earth is newly legible as lower ground left open beneath an overhead sky, while remaining the ordinary earth named by the focus.",
+      "mechanism": "The focus earth branch carries lower ground opposite the sky; the 88:18 overhead-sky and 88:24 open-to-sky images supply independent upper/exposure triggers that meet this carrier.",
+      "reader_payoff": "The earth can be seen as a surface situated under an arching sky rather than as an object detached from the preceding scene.",
+      "containment": "This is a pericope-local contextual resonance from a trusted channel nomination, not a replacement gloss for earth or a surah-wide system.",
+      "epistemic": {"status": "qualified", "source_trust": ["trusted"], "reason": "Trusted anchored branch images support the contact, but the assembled exposure relation remains macro inference."},
+      "support_ids": ["sup_5553e96931717ea2f129", "sup_6a85aef38881bb317613", "sup_73747b89a46171a56c68", "sup_780d4350f790faa73328", "sup_f3a430146d52df343a0f"],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000025/B001", "facet_id": "F001", "branch_gloss": "yer ve yere bakan alt bölüm", "facet_statement": "Göğün karşısında aşağıda bulunan ve üzerinde yaşanan yer küresidir.", "application_mode": "lexical",
+          "carrier_refs": ["88:20:2:2"], "trigger_refs": ["88:18", "conn_ee6bdfa13f0725d19d66"], "focus_return_refs": ["88:20:2:2"],
+          "carrier": "Focus ٱلْأَرْضِ occurrence: lower ground opposite the sky.", "independent_trigger": "88:18 overhead-sky occurrence and paired-observation connection.", "activation": "The exact lower-ground carrier meets the upper-sky context.", "resulting_reading": "Earth is exposed lower ground beneath the sky in this scene.", "boundary": "Exposure is contextual; the noun remains earth/ground."
+        },
+        {
+          "branch_ref": "root_000745/B004", "facet_id": "SOURCE_IMAGE", "branch_gloss": "overhead sky and cover", "facet_statement": "السماء وما علا فأظل", "application_mode": "contextual_resonance",
+          "carrier_refs": ["88:18"], "trigger_refs": ["88:20:2:2", "conn_ee6bdfa13f0725d19d66"], "focus_return_refs": ["88:20:2:2"],
+          "carrier": "88:18 context image: overhead sky and cover.", "independent_trigger": "The focus earth occurrence supplies the lower counterpart.", "activation": "The overhead image contacts earth through the exact sky/earth pairing.", "resulting_reading": "The sky is the arching upper side of the earth's exposure.", "boundary": "No further sky symbolism is added."
+        },
+        {
+          "branch_ref": "root_000994/B004", "facet_id": "SOURCE_IMAGE", "branch_gloss": "open to the sky", "facet_statement": "العذوب المكشوف للسماء", "application_mode": "contextual_resonance",
+          "carrier_refs": ["88:24"], "trigger_refs": ["88:20:2:2", "conn_491d9bedf96aa98b3723"], "focus_return_refs": ["88:20:2:2"],
+          "carrier": "88:24 context image: an object or place open to the sky.", "independent_trigger": "The focus earth occurrence supplies the lower surface.", "activation": "The open-to-sky image gives the earth/sky contact a concrete exposure relation.", "resulting_reading": "Earth's lower surface is directly open beneath what arches above it.", "boundary": "This context image does not turn the focus into a punishment statement."
+        }
+      ],
+      "connection_refs": ["conn_ee6bdfa13f0725d19d66", "conn_491d9bedf96aa98b3723"], "context_refs": ["88:18", "88:24"], "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "macro:measured-habitat",
+      "origin_candidate_id": "cand_9b6b402765cb77b90e40",
+      "represented_candidate_ids": [],
+      "title": "Ground fitted to embodied use",
+      "claim": "The focus earth and surfacing operation become newly legible as ground calibrated for an embodied creature's movement, care, and use.",
+      "mechanism": "Focus lower ground and level extension meet attributed 88:17 directed inspection, a cared-for camel, and creation roles involving proportion and evenness; their contact revises generic terrain into a fitted habitat relation.",
+      "reader_payoff": "The earth's surfaced form becomes perceptible in relation to a living user whose movement and care make usability visible.",
+      "containment": "This is a reconstructed legacy-unbound HFT inference. A live alternative keeps each created sign independent; the finding claims only the attributed fit, not a lexical definition of either focus word.",
+      "epistemic": {"status": "qualified", "source_trust": ["legacy_unbound"], "reason": "Exact pericope anchors and trace roles are supplied, but reader identity is legacy_unbound and context branches are unresolved."},
+      "support_ids": ["sup_9ebc421e82623e106329"],
+      "branch_activations": [
+        {"branch_ref":"root_000025/B001","facet_id":"F001","branch_gloss":"yer ve yere bakan alt bölüm","facet_statement":"Göğün karşısında aşağıda bulunan ve üzerinde yaşanan yer küresidir.","application_mode":"lexical","carrier_refs":["88:20:2:2"],"trigger_refs":["88:17","conn_841259ec07b159a8fb80"],"focus_return_refs":["88:20:2:2"],"carrier":"Focus earth occurrence: lower ground for an embodied user.","independent_trigger":"Attributed 88:17 observation of a camel together with care.","activation":"Ground meets the observed cared-for creature as usable substrate.","resulting_reading":"Earth is ground fitted to embodied movement and care.","boundary":"Fit is contextual attribution; earth remains the focus noun."},
+        {"branch_ref":"root_000703/B001","facet_id":"F002","branch_gloss":"düz üst yüzey ve yayarak düzleştirme","facet_statement":"Bir şeyi yayma, uzatma ve düzleyerek yüzey görünümüne getirme işlemidir.","application_mode":"lexical","carrier_refs":["88:20:4:1"],"trigger_refs":["88:17","conn_841259ec07b159a8fb80"],"focus_return_refs":["88:20:4:1"],"carrier":"Focus passive verb: extending and leveling into a surface.","independent_trigger":"Attributed measured proportion and surface evenness around the creature.","activation":"Leveling meets measured creation and becomes functional calibration.","resulting_reading":"Surfacing makes a usable plane fitted to life and movement.","boundary":"Design coupling is attributed; the focus verb remains surfacing."},
+        {"branch_ref":"root_001520/B001","facet_id":null,"branch_gloss":null,"facet_statement":null,"application_mode":"attributed","carrier_refs":["88:17"],"trigger_refs":["88:20:2:2","88:20:4:1"],"focus_return_refs":["88:20:2:2","88:20:4:1"],"carrier":"HFT 88:17 word 2: directed sight or insight.","independent_trigger":"Focus earth/surfacing occurrences supply the examined object and form.","activation":"Directed observation contacts the focus pair and examines functional fit.","resulting_reading":"The earth's form is inspected for service to an embodied user.","boundary":"No independent gloss or facet is supplied."},
+        {"branch_ref":"root_000006/B001","facet_id":null,"branch_gloss":null,"facet_statement":null,"application_mode":"attributed","carrier_refs":["88:17"],"trigger_refs":["88:20:2:2","88:20:4:1"],"focus_return_refs":["88:20:2:2","88:20:4:1"],"carrier":"HFT 88:17 word 4: camel together with its care.","independent_trigger":"Focus earth/surfacing occurrences supply the usable ground and plane.","activation":"The cared-for camel contacts the focus surface as a user.","resulting_reading":"The surfaced earth is seen in a use relation with a living creature.","boundary":"The camel-care role remains attributed."},
+        {"branch_ref":"root_000434/B001","facet_id":null,"branch_gloss":null,"facet_statement":null,"application_mode":"attributed","carrier_refs":["88:17"],"trigger_refs":["88:20:4:1"],"focus_return_refs":["88:20:4:1"],"carrier":"HFT 88:17 word 6: measuring and proportioning in creation.","independent_trigger":"Focus surfacing supplies the operation whose fit is calibrated.","activation":"Measured creation contacts leveling and gives extension a proportioning function.","resulting_reading":"The plane appears deliberately calibrated for use.","boundary":"The measuring role is attributed HFT evidence."},
+        {"branch_ref":"root_000434/B008","facet_id":null,"branch_gloss":null,"facet_statement":null,"application_mode":"attributed","carrier_refs":["88:17"],"trigger_refs":["88:20:4:1"],"focus_return_refs":["88:20:4:1"],"carrier":"HFT 88:17 word 6: smoothness and evenness in creation.","independent_trigger":"Focus surfacing supplies the flat/even result.","activation":"Evenness contacts the leveling operation and sharpens it into a usable plane.","resulting_reading":"Earth's leveling is perceived as evenness supporting embodied use.","boundary":"The smoothness role is attributed; no branch gloss is invented."}
+      ],
+      "connection_refs":["conn_841259ec07b159a8fb80"],"context_refs":["88:17"],"semantic_obligation_refs":[]
+    },
+    {
+      "finding_ref":"macro:vertical-architecture","origin_candidate_id":"cand_b47128b2e51e8a9ff6fe","represented_candidate_ids":[],"title":"Earth as the lower horizontal member",
+      "claim":"The earth's surfacing is newly legible as the lower horizontal member of the same raised-and-erected local world that includes sky above and mountains standing between.",
+      "mechanism":"The pericope coordinates sky being raised, mountains being erected, and earth being extended in one directional/passive frame; focus earth/surfacing therefore meet complementary upper, vertical, and lower operations.",
+      "reader_payoff":"The final earth observation becomes the lower completion of a spatial arrangement rather than a fourth isolated marvel.",
+      "containment":"This is a reconstructed legacy-unbound contextual synthesis. It preserves each ordinary observation and claims no cosmological model beyond the supplied arrangement.",
+      "epistemic":{"status":"qualified","source_trust":["legacy_unbound"],"reason":"Exact Arabic anchors and HFT roles lie in the pericope, but the trace is reconstructed and most context branches are unresolved."},
+      "support_ids":["sup_68820d785ed9e8cc2d15"],
+      "branch_activations":[
+        {"branch_ref":"root_000025/B001","facet_id":"F001","branch_gloss":"yer ve yere bakan alt bölüm","facet_statement":"Göğün karşısında aşağıda bulunan ve üzerinde yaşanan yer küresidir.","application_mode":"lexical","carrier_refs":["88:20:2:2"],"trigger_refs":["88:18","88:19","conn_ee6bdfa13f0725d19d66","conn_eab357638c5f6d157773"],"focus_return_refs":["88:20:2:2"],"carrier":"Focus earth occurrence: lower ground opposite sky.","independent_trigger":"88:18 sky and 88:19 mountain observations supply upper and vertical members.","activation":"Lower ground meets adjacent upper and vertical context.","resulting_reading":"Earth is the lower member of the raised-and-erected scene.","boundary":"Relation is local; earth remains the focus noun."},
+        {"branch_ref":"root_000703/B001","facet_id":"F002","branch_gloss":"düz üst yüzey ve yayarak düzleştirme","facet_statement":"Bir şeyi yayma, uzatma ve düzleyerek yüzey görünümüne getirme işlemidir.","application_mode":"lexical","carrier_refs":["88:20:4:1"],"trigger_refs":["88:18","88:19","conn_ee6bdfa13f0725d19d66","conn_eab357638c5f6d157773"],"focus_return_refs":["88:20:4:1"],"carrier":"Focus verb: extending and leveling into a surface.","independent_trigger":"Neighboring raising and uprighting supply complementary directions.","activation":"Horizontal extension contacts the vertical sequence as its lower complement.","resulting_reading":"Surfacing completes the local vertical architecture horizontally.","boundary":"Architecture is contextual, not a new gloss for the verb."},
+        {"branch_ref":"root_000745/B004","facet_id":"SOURCE_IMAGE","branch_gloss":"overhead sky and cover","facet_statement":"السماء وما علا فأظل","application_mode":"attributed","carrier_refs":["88:18"],"trigger_refs":["88:20:2:2","88:20:4:1"],"focus_return_refs":["88:20:2:2","88:20:4:1"],"carrier":"HFT 88:18 word 2: overhead sky and cover.","independent_trigger":"Focus earth/surfacing supplies the lower counterpart.","activation":"The overhead carrier establishes the top side of the focus arrangement.","resulting_reading":"Sky is the raised upper member over surfaced earth.","boundary":"Only the supplied image is retained."},
+        {"branch_ref":"root_000582/B001","facet_id":null,"branch_gloss":null,"facet_statement":null,"application_mode":"attributed","carrier_refs":["88:18"],"trigger_refs":["88:20:4:1"],"focus_return_refs":["88:20:4:1"],"carrier":"HFT 88:18 word 4: lifting something upward.","independent_trigger":"Focus surfacing supplies the complementary lower operation.","activation":"Upward lifting meets lower extension as opposite directions.","resulting_reading":"Earth is read against a sky established above it.","boundary":"Context branch is unresolved; only its role is retained."},
+        {"branch_ref":"root_000217/B001","facet_id":null,"branch_gloss":null,"facet_statement":null,"application_mode":"attributed","carrier_refs":["88:19"],"trigger_refs":["88:20:2:2","88:20:4:1"],"focus_return_refs":["88:20:2:2","88:20:4:1"],"carrier":"HFT 88:19 word 2: high solid aggregation.","independent_trigger":"Focus earth/surfacing supplies the lower horizontal member.","activation":"Mountain mass contacts the focus pair through height and extension.","resulting_reading":"Earth completes a scene with resistant vertical masses above it.","boundary":"No independent context gloss or facet is supplied."},
+        {"branch_ref":"root_001507/B001","facet_id":null,"branch_gloss":null,"facet_statement":null,"application_mode":"attributed","carrier_refs":["88:19"],"trigger_refs":["88:20:4:1"],"focus_return_refs":["88:20:4:1"],"carrier":"HFT 88:19 word 4: setting something upright and prominent.","independent_trigger":"Focus surfacing supplies the lower extension.","activation":"Uprighting contacts lower leveling as the vertical/horizontal complement.","resulting_reading":"The focus operation is horizontal counterpart to upright mountains.","boundary":"The upright role remains attributed."}
+      ],
+      "connection_refs":["conn_ee6bdfa13f0725d19d66","conn_eab357638c5f6d157773"],"context_refs":["88:18","88:19"],"semantic_obligation_refs":[]
+    },
+    {
+      "finding_ref":"macro:visible-reminder","origin_candidate_id":"cand_044f714329608f7d322f","represented_candidate_ids":[],"title":"The visible ground as reminder",
+      "claim":"The surfaced ground becomes newly legible as accessible visual material for recollection, with the ensuing reminder and denial of coercive control clarifying how the observation functions.",
+      "mechanism":"Focus earth/surface provide an inspectable object; attributed 88:17 observation, 88:21 reminding, and 88:22 denied control connect it to attention and recollection rather than forced assent.",
+      "reader_payoff":"The familiar ground becomes something one is invited to attend to and remember while the plain surfacing question remains intact.",
+      "containment":"This is a qualified reconstructed reading. The denial of control belongs explicitly to the messenger context; mnemonic function is contextual, not a lexical synonym for earth or surfacing.",
+      "epistemic":{"status":"qualified","source_trust":["legacy_unbound"],"reason":"Exact anchors and roles are supplied, but the reconstructed trace is legacy_unbound and context branches are unresolved."},
+      "support_ids":["sup_653cc76172c0f339f13e"],
+      "branch_activations":[
+        {"branch_ref":"root_000025/B001","facet_id":"F001","branch_gloss":"yer ve yere bakan alt bölüm","facet_statement":"Göğün karşısında aşağıda bulunan ve üzerinde yaşanan yer küresidir.","application_mode":"lexical","carrier_refs":["88:20:2:2"],"trigger_refs":["88:17","88:21","conn_841259ec07b159a8fb80","conn_650991b525dfc624b523"],"focus_return_refs":["88:20:2:2"],"carrier":"Focus earth: familiar lower ground available to an observer.","independent_trigger":"Attributed observation and reminder contexts supply directed attention and recollection.","activation":"Visible ground contacts looking and reminding as a recoverable prompt.","resulting_reading":"The earth question works as accessible visual material for recollection.","boundary":"Mnemonic function is contextual; the noun remains earth."},
+        {"branch_ref":"root_000703/B001","facet_id":"F001","branch_gloss":"düz üst yüzey ve yayarak düzleştirme","facet_statement":"Bir nesnenin ya da yapının düz, yayvan ve üstte bulunan yüzüdür.","application_mode":"lexical","carrier_refs":["88:20:4:1"],"trigger_refs":["88:17","88:21","conn_841259ec07b159a8fb80","conn_650991b525dfc624b523"],"focus_return_refs":["88:20:4:1"],"carrier":"Focus surfacing: broad visible plane.","independent_trigger":"Directed observation and reminder supply attention/recollection.","activation":"The surfaced plane carries the later reminder back to the observer.","resulting_reading":"The surface is an open visual prompt, not only terrain.","boundary":"Reminder function is contextual and qualified."},
+        {"branch_ref":"root_001520/B001","facet_id":null,"branch_gloss":null,"facet_statement":null,"application_mode":"attributed","carrier_refs":["88:17"],"trigger_refs":["88:20:2:2","88:20:4:1"],"focus_return_refs":["88:20:2:2","88:20:4:1"],"carrier":"HFT 88:17 word 2: directed sight or insight.","independent_trigger":"Focus earth/surface supply the visible sign.","activation":"Directed observation contacts the focus surface.","resulting_reading":"Ground is offered to active inspection.","boundary":"No independent context gloss or facet is supplied."},
+        {"branch_ref":"root_000516/B009","facet_id":null,"branch_gloss":null,"facet_statement":null,"application_mode":"attributed","carrier_refs":["88:21"],"trigger_refs":["88:20:2:2","88:20:4:1","conn_650991b525dfc624b523"],"focus_return_refs":["88:20:2:2","88:20:4:1"],"carrier":"HFT 88:21 words 1 and 4: reminding that causes recollection.","independent_trigger":"Focus surface supplies visible material to revisit.","activation":"Reminder contacts the inspectable ground and makes observation recoverable.","resulting_reading":"The focus observation can function as a grounded reminder.","boundary":"Reminder role is attributed."},
+        {"branch_ref":"root_000704/B003","facet_id":null,"branch_gloss":null,"facet_statement":null,"application_mode":"attributed","carrier_refs":["88:22"],"trigger_refs":["88:20:2:2","88:20:4:1","conn_7a5c8151aa3c0a98d6e5"],"focus_return_refs":["88:20:2:2","88:20:4:1"],"carrier":"HFT 88:22 word 3: controlling overseer role denied after the reminder.","independent_trigger":"Focus surface supplies the observation bounded by the denial.","activation":"Denied coercive control sets the reminder mode as attention without compulsion.","resulting_reading":"The visible ground invites recollection within an unforced response.","boundary":"No broader theory of agency is added."}
+      ],
+      "connection_refs":["conn_841259ec07b159a8fb80","conn_650991b525dfc624b523","conn_7a5c8151aa3c0a98d6e5"],"context_refs":["88:17","88:21","88:22"],"semantic_obligation_refs":[]
+    },
+    {
+      "finding_ref":"macro:productive-or-occluding-cover","origin_candidate_id":"cand_a8b28d9c84356e01a920","represented_candidate_ids":[],"title":"Cover that shelters or conceals",
+      "claim":"The surfaced earth becomes newly legible as a place where covering can incubate emergence or suppress recognition, so the focus surface holds two divergent consequences of concealment.",
+      "mechanism":"Focus fertile earth and ground-spreading branches supply receptive soil and visible growth; attributed 88:23 roles supply turning away, hiding truth, and covering seed, making material cover a shared mechanism with divergent outcomes.",
+      "reader_payoff":"The earth's surface can be perceived as participating in a distinction between cover that lets life emerge and cover that keeps recognition turned away.",
+      "containment":"This is an exploratory reconstructed HFT inference, not a claim that the focus verb itself means moral concealment; agricultural and epistemic directions remain live.",
+      "epistemic":{"status":"exploratory","source_trust":["legacy_unbound"],"reason":"Focus branches are supplied, but covering roles are unresolved attributed context branches and the contrast is exploratory."},
+      "support_ids":["sup_30996586adcb86125b8f"],
+      "branch_activations":[
+        {"branch_ref":"root_000025/B002","facet_id":"F001","branch_gloss":"yumuşak ve verimli toprak","facet_statement":"Toprak veya çayırlık yumuşak, verimli ve iyi bitki yetiştirir.","application_mode":"lexical","carrier_refs":["88:20:2:2"],"trigger_refs":["88:23","conn_5475aa0269b9c06b120a"],"focus_return_refs":["88:20:2:2"],"carrier":"Focus earth: fertile ground.","independent_trigger":"88:23 covering and turning context.","activation":"Fertile ground meets cover as the medium where hidden material can develop or remain concealed.","resulting_reading":"Earth is receptive medium for divergent consequences of cover.","boundary":"Moral concealment is contextual attribution."},
+        {"branch_ref":"root_000703/B006","facet_id":"F001","branch_gloss":"yere yayılarak büyüyen bir ot","facet_statement":"Toprak üzerinde dik yükselmek yerine yayılarak büyüyen belirli bir ot türüdür.","application_mode":"lexical","carrier_refs":["88:20:4:1"],"trigger_refs":["88:23","conn_5475aa0269b9c06b120a"],"focus_return_refs":["88:20:4:1"],"carrier":"Focus surfacing: a plant spreading along the ground.","independent_trigger":"88:23 trace supplies covering as truth-concealment and seed-covering.","activation":"Visible growth contacts hidden seed and makes productive cover perceptible beside evasive cover.","resulting_reading":"Surface spread discloses the result of sheltering what was covered.","boundary":"The plant branch is not generalized to all vegetation."},
+        {"branch_ref":"root_001684/B007","facet_id":null,"branch_gloss":null,"facet_statement":null,"application_mode":"attributed","carrier_refs":["88:23"],"trigger_refs":["88:20:2:2","88:20:4:1"],"focus_return_refs":["88:20:2:2","88:20:4:1"],"carrier":"HFT 88:23 word 3: turning away.","independent_trigger":"Focus fertile-earth and spreading-surface pair.","activation":"Turning away gives cover an evasive direction.","resulting_reading":"Cover can turn recognition away.","boundary":"Role is attributed and does not redefine the focus surface."},
+        {"branch_ref":"root_001307/B003","facet_id":null,"branch_gloss":null,"facet_statement":null,"application_mode":"attributed","carrier_refs":["88:23"],"trigger_refs":["88:20:2:2","88:20:4:1"],"focus_return_refs":["88:20:2:2","88:20:4:1"],"carrier":"HFT 88:23 word 4: hiding truth.","independent_trigger":"Focus surface and fertile earth supply material cover.","activation":"Truth-concealment contacts material cover as its suppressive direction.","resulting_reading":"One covering suppresses recognition.","boundary":"No independent gloss or facet is supplied."},
+        {"branch_ref":"root_001307/B008","facet_id":null,"branch_gloss":null,"facet_statement":null,"application_mode":"attributed","carrier_refs":["88:23"],"trigger_refs":["88:20:2:2","88:20:4:1"],"focus_return_refs":["88:20:2:2","88:20:4:1"],"carrier":"HFT 88:23 word 4: covering seed.","independent_trigger":"Focus fertile earth and spreading plant supply receptive and visible ends of growth.","activation":"Seed-covering contacts fertile ground and spreading growth as incubation.","resulting_reading":"Another covering shelters what will later emerge.","boundary":"Productive role is attributed, not a direct focus gloss."}
+      ],
+      "connection_refs":["conn_5475aa0269b9c06b120a"],"context_refs":["88:23"],"semantic_obligation_refs":[]
+    },
+    {
+      "finding_ref":"macro:rain-written-surface","origin_candidate_id":"cand_0bfea26fc425c99ef016","represented_candidate_ids":[],"title":"Rain writing the visible surface",
+      "claim":"The earth's visible face is newly legible as repeatedly marked into being by rain and the vegetation that follows, while the focus still describes its surfaced form.",
+      "mechanism":"Focus fertile earth and ground-spreading branches supply receptive medium and visible plant spread; attributed non-dominant 88:18 rain and successive 88:23 rain roles supply repeated marking layers.",
+      "reader_payoff":"The earth's visible surface can be imagined as a living record renewed by rain and growth rather than as a finished surface received once.",
+      "containment":"This is an exploratory split-root cross-domain activation, not a direct gloss of the focus verb. The unusual mapping and later rain role remain attributed.",
+      "epistemic":{"status":"exploratory","source_trust":["legacy_unbound"],"reason":"Focus carriers are supplied, but rain branches are unresolved attributed roles and the source bounds them as a non-dominant mapping."},
+      "support_ids":["sup_9328151575867451fa13"],
+      "branch_activations":[
+        {"branch_ref":"root_000025/B002","facet_id":"F001","branch_gloss":"yumuşak ve verimli toprak","facet_statement":"Toprak veya çayırlık yumuşak, verimli ve iyi bitki yetiştirir.","application_mode":"lexical","carrier_refs":["88:20:2:2"],"trigger_refs":["88:18","88:23","conn_ee6bdfa13f0725d19d66","conn_5475aa0269b9c06b120a"],"focus_return_refs":["88:20:2:2"],"carrier":"Focus earth: fertile ground receiving living marks.","independent_trigger":"Attributed rain roles at 88:18 and 88:23.","activation":"Fertile ground meets successive rain as receptive base of renewed surface marking.","resulting_reading":"Earth's surface is made visible through rain-supported growth.","boundary":"Rain mechanism is exploratory attribution."},
+        {"branch_ref":"root_000703/B006","facet_id":"F001","branch_gloss":"yere yayılarak büyüyen bir ot","facet_statement":"Toprak üzerinde dik yükselmek yerine yayılarak büyüyen belirli bir ot türüdür.","application_mode":"lexical","carrier_refs":["88:20:4:1"],"trigger_refs":["88:18","88:23","conn_ee6bdfa13f0725d19d66","conn_5475aa0269b9c06b120a"],"focus_return_refs":["88:20:4:1"],"carrier":"Focus surface: vegetation spreading along ground.","independent_trigger":"Attributed successive-rain roles.","activation":"Ground-spreading growth contacts rain as visible layer of repeated marking.","resulting_reading":"The surfaced plane appears inscribed by living spread.","boundary":"Repeated rain-writing is exploratory synthesis."},
+        {"branch_ref":"root_001650/B003","facet_id":null,"branch_gloss":null,"facet_statement":null,"application_mode":"attributed","carrier_refs":["88:18"],"trigger_refs":["88:20:2:2","88:20:4:1"],"focus_return_refs":["88:20:2:2","88:20:4:1"],"carrier":"HFT 88:18 word 2: non-dominant first-rain mapping that marks earth with vegetation.","independent_trigger":"Focus fertile-earth and spreading-surface pair.","activation":"First-rain role contacts focus as initial layer of living marking.","resulting_reading":"Rain begins the process writing growth onto earth's face.","boundary":"Mapping is unresolved and no gloss/facet is invented."},
+        {"branch_ref":"root_001684/B010","facet_id":null,"branch_gloss":null,"facet_statement":null,"application_mode":"attributed","carrier_refs":["88:23"],"trigger_refs":["88:20:2:2","88:20:4:1"],"focus_return_refs":["88:20:2:2","88:20:4:1"],"carrier":"HFT 88:23 word 3: rain following the first marking rain.","independent_trigger":"Focus earth and ground-spreading plant supply the receiving surface.","activation":"Later rain extends the initial marking into sequence.","resulting_reading":"Visible earth is renewed by successive rain and growth.","boundary":"Successive-rain role is attributed, not a direct focus translation."}
+      ],
+      "connection_refs":["conn_ee6bdfa13f0725d19d66","conn_5475aa0269b9c06b120a"],"context_refs":["88:18","88:23"],"semantic_obligation_refs":[]
+    },
+    {
+      "finding_ref":"macro:surface-as-ledger","origin_candidate_id":"cand_399c1bf424860a56dd72","represented_candidate_ids":[],"title":"The surface as a record-bearing plane",
+      "claim":"The focus surface is newly legible as a working plane on which action can leave ordered traces available for accounting, while the ordinary surfaced earth reading stays in place.",
+      "mechanism":"The supplied flat-working-surface branch gives the focus verb a material support for analogy; attributed roles for durable record, aligned line, and counting connect that support into a recording mechanism.",
+      "reader_payoff":"The earth's surface can be imagined as a legible plane where what happens acquires an ordered trace.",
+      "containment":"This is an exploratory ledger analogy from a reconstructed legacy-unbound trace, not a lexical translation or a claim that the surface literally writes. The extension stops at the supplied 88:26 role.",
+      "epistemic":{"status":"exploratory","source_trust":["legacy_unbound"],"reason":"The focus branch is supplied, but document/line/accounting contacts are unresolved attributed roles and the source bounds the result as analogy."},
+      "support_ids":["sup_32dede5392b658222a5a"],
+      "branch_activations":[
+        {"branch_ref":"root_000703/B005","facet_id":"F001","branch_gloss":"düz kurutma yeri, su toplayan kaya yüzü veya hasır","facet_statement":"Düz ya da yayvan bir yüzeyden yararlanılan yer ve nesnelere uzanan çok anlamlı bir addır.","application_mode":"analogical","carrier_refs":["88:20:4:1"],"trigger_refs":["88:21","88:22","88:26"],"focus_return_refs":["88:20:4:1"],"carrier":"Focus surfacing through the supplied flat/spread working-surface facet.","independent_trigger":"Attributed document, line, and accounting roles at 88:21, 88:22, and 88:26.","activation":"Flat support meets durable record, aligned inscription, and counting.","resulting_reading":"Surfaced earth can host ordered traces available to account.","boundary":"The branch is analogical; focus verb is not writing/accounting."},
+        {"branch_ref":"root_000516/B008","facet_id":null,"branch_gloss":null,"facet_statement":null,"application_mode":"attributed","carrier_refs":["88:21"],"trigger_refs":["88:20:4:1"],"focus_return_refs":["88:20:4:1"],"carrier":"HFT 88:21 words 1 and 4: durable document record.","independent_trigger":"Focus flat-surface occurrence supplies material support.","activation":"Durable record contacts the plane and makes it a lasting support in the analogy.","resulting_reading":"The surface can retain what is placed upon it.","boundary":"No independent gloss or facet is supplied."},
+        {"branch_ref":"root_000704/B001","facet_id":null,"branch_gloss":null,"facet_statement":null,"application_mode":"attributed","carrier_refs":["88:22"],"trigger_refs":["88:20:4:1"],"focus_return_refs":["88:20:4:1"],"carrier":"HFT 88:22 word 3: aligned written line.","independent_trigger":"Focus surface supplies the flat support.","activation":"Ordered line contacts the plane and makes the imagined trace structured.","resulting_reading":"The surface becomes a plane on which events can be arranged legibly.","boundary":"Line role remains attributed analogy."},
+        {"branch_ref":"root_000318/B001","facet_id":null,"branch_gloss":null,"facet_statement":null,"application_mode":"attributed","carrier_refs":["88:26"],"trigger_refs":["88:20:4:1"],"focus_return_refs":["88:20:4:1"],"carrier":"HFT 88:26 word 4: counting and accounting.","independent_trigger":"Focus surface supplies the record-bearing support.","activation":"Accounting contacts the ordered surface trace as evaluative endpoint.","resulting_reading":"The imagined surface record remains available for account.","boundary":"The role stops at supplied 88:26; no further judgment is added."}
+      ],
+      "connection_refs":["conn_650991b525dfc624b523","conn_7a5c8151aa3c0a98d6e5"],"context_refs":["88:21","88:22","88:26"],"semantic_obligation_refs":[]
+    }
+  ],
+  "friction_notes": [
+    "No staged v12_reader_responses, v12_reader_walks, or retrospective-surprise records are supplied; before/after judgments rely on reconstructed Hermetic Focus Trace where present.",
+    "The six HFT records remain visible because parseable assigned records are authoring-visible despite blocked docket readiness. Their legacy_unbound identity and broader-than-pericope packet relation are preserved through qualified/exploratory status and attributed context activations.",
+    "Context anchors provide exact Arabic ayah text and HFT word indices, but not full context morphology or QAC word references. Context carrier refs therefore use supplied ayah refs, with source word indices preserved in carrier text; unresolved context branches retain null gloss and facet values.",
+    "Automatic host basmala 88:0 was present as ordinary macro context. No supplied candidate established an independent carrier-trigger return through it, so it produced no finding.",
+    "The goat/separated-stock nomination was excluded because its 88:20 support misaligns سُطِحَتْ with س ط ر instead of supplied س ط ح, and the nominated branch has no focus occurrence or valid focus return."
+  ]
+}

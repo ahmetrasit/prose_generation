@@ -1,0 +1,197 @@
+# V5 reading invitation — 89:20
+
+You are a fresh reading-invitation writer. Read the complete editorial prose
+before writing. It is your sole semantic source.
+
+Write two to four paragraphs of fluent, contemporary Turkish that reveal a
+surprising reading by following one or two main channels of resonance in the
+ayah. A channel is a connected background of meanings, images, actions, or
+relations through which the ayah can be heard and understood differently.
+Several editorial findings may together develop one channel. Summarize that
+connected movement and its consequence for the ayah's main meaning, rather
+than compressing findings individually. Give the reading's substance now;
+the invitation comes from understanding it, not from a promise of hidden depth.
+
+Before drafting, read the entire editorial prose and silently select the one
+or two channels with the strongest interpretive consequence and enough
+grounding to explain clearly. Favor channels that expand or shift what the
+ayah says, the relation it establishes, or what is at stake in its action or
+image. One fully developed channel is sufficient; add a second only when it
+offers a distinct consequential reading that can be explained within the
+invitation. No finding, channel, or major shift has an individual coverage
+claim. Unselected material may remain entirely in the full commentary.
+
+A channel may develop through grammar, sound, dialogue, a material process,
+time, imagery, or a conceptual relation. Resonance is not limited to acoustic
+effects, and an unusual image alone does not establish a channel. Use only
+connections the editorial prose actually develops. If it supplies no such
+channel, explain its strongest grounded reading without inventing connections
+or surprise.
+
+Begin inside the ayah's own words, images, actions, or relations and reveal a
+selected distinctive reading in the first paragraph. Keep the plain meaning
+reachable with only the orientation needed to understand the change. Do not
+spend an opening paragraph on routine explanation or front-load context about
+the surah, the ayah's position, or the commentary project.
+
+For each selected channel, begin with the expression that opens it, unfold the
+connected background, and show how the ayah reads or sounds against that
+background. Let a detail lead into the next through an intelligible relation
+or process, so the reader experiences the emerging reading. This is a movement
+of thought, not a mandatory sentence pattern or one paragraph per finding.
+Let the reader identify the expression being interpreted,
+where any nonordinary detail comes from, and what that detail changes in the
+reading. Briefly identify the word-family use, restricted form, collocation, or
+context that supplies an essential added detail, and preserve the concrete
+operation that makes the image work. Keep the ordinary reading and necessary
+qualification clear within this explanation; do not repeat them as a fixed
+formula. Preserve the particular object, process, or relation that makes this
+reading distinctive, and state its interpretive consequence for the ayah as a
+whole. Make intelligible what the familiar reading leaves less visible and
+what the expanded or shifted reading now lets the reader understand. Preserve
+the editorial's force: an exploratory possibility remains possible, while a
+developed shift must not be softened into a decorative association or a
+reassurance that everything means the same thing. A concrete
+account of how something is carried, transformed, lost, or restored must not
+shrink to a general statement about care, guidance, dependence, or goodness.
+Keep the details needed to make the selected channel work; omit side findings
+and shorten routine setup. If a channel cannot be explained faithfully from
+the editorial prose, choose another grounded channel or reading.
+
+When a non-focus ayah supplies a contribution used in the invitation, keep its
+reference from the editorial prose beside that contribution.
+
+Do not turn the invitation into a miniature inventory of the commentary's
+conclusions, or flatten distinct channels into a broad theme to include more
+material. Do not repair, extend, or supplement the editorial prose from memory
+or outside knowledge.
+
+Omit technical apparatus. Retain any qualification, source distinction, live
+alternative, or boundary whose absence would change the force or meaning of a
+chosen reading. Express it naturally beside the image or relation it qualifies.
+Favor positive explanations of the relation between layers: what remains in
+the foreground and what the resonance makes audible in the background. State
+how that background reinforces, expands, or shifts the understanding of the
+main meaning, with the source and degree of certainty clear. Reserve explicit
+exclusions for concrete ambiguities or live counter-evidence that need them.
+Repeated "this is not X" endings make a reading sound withdrawn; express the
+substantive qualification through what the reading does contribute wherever
+possible. Use varied, natural language rather than a repeated "second layer"
+formula, and preserve the force of expansions and shifts.
+Do not name branches, candidates, findings, scopes, evidence categories,
+ledgers, or workflow stages, or label the prose as numbered channels. Do not
+list findings serially.
+
+Use the established `{ar:..., tr:..., gloss:...}` syntax, consistent
+Turkish-readable transliteration, and short ordinary glosses. Keep Arabic
+anchors beside the explanations they ground. Within a paragraph, continue with
+the Turkish meaning where clear; provide the necessary local tag when a later
+paragraph interprets the carrier anew. Do not place Arabic script outside a
+valid tag.
+
+Build transitions within a channel through its shared object, action, or
+relation. If two channels are selected, they may occupy separate paragraphs;
+do not invent a link between them. Do not praise the commentary's quality,
+promise what the reader will find, manufacture suspense, recap at the end, or
+add a call to action. End on an image, relation, action, or tension already
+established by the selected reading.
+
+Before finishing, compare the invitation with the entire editorial prose:
+does the chosen channel reveal a consequential reading, or could the text have
+been written from the ordinary translation and a modest explanation alone?
+When the editorial supports a surprising channel, the latter fails this task.
+Can the reader follow the opening expression into a connected background and
+understand how that background expands or shifts the ayah's main meaning?
+Check the selected connections against their editorial explanation: can the
+reader tell where the nonordinary details come from, with the necessary
+qualifications intact? Repair generic explanation, isolated curiosities, or a
+compressed findings list by developing the selected channel. Do not add
+omitted channels merely for coverage. Do not output this check.
+
+Write only the invitation text to:
+
+`_commentary/v5/editorial/s089-regular-20260912/s089/89_20/89_20.invitation.tr.md`
+
+Do not add a heading, wrapper label, index, ledger, evidence file, or any other
+artifact. Do not modify the editorial prose.
+
+After writing the invitation, run:
+
+```bash
+python3 _commentary/v5/validate_prose.py _commentary/v5/editorial/s089-regular-20260912/s089/89_20/89_20.invitation.tr.md
+```
+
+If validation fails, repair only the reported mechanical file-contract issues
+and rerun it, for at most two repair cycles. Report the final validator result
+in your response.
+
+<editorial_prose>
+89:20, önceki ekonomik ithamların üzerine aynı muhataplara yönelen yeni bir suçlama ekler: malı çok büyük bir sevgiyle seviyorlar (89:17, 89:18, 89:19). Başındaki {ar:وَ, tr:ve, gloss:ve bağlacı}, sözü yeni bir sahneye sıçratmadan önceki akışa bağlar; fiile bitişen bu kısa bağ, cümleyi kopuk bir bilgi olmaktan çıkarıp baskısı artarak sürdürülen bir hitabın üyesi yapar. {ar:تُحِبُّونَ, tr:tuḥibbūna, gloss:seviyorsunuz} fiilinin ikinci çoğul biçimi de muhatabı değiştirmeden taşır. Böylece dışarıda görülen ekonomik davranışların yanına, onları besleyen iç yöneliş gelir.
+
+{ar:تُحِبُّونَ, tr:tuḥibbūna, gloss:seviyorsunuz} fiilinin etkin ve şimdiki biçimi, tek bir sevme anından çok ortak öznenin sürmekte olan yönelişini duyurur. Açık nesne olan {ar:ٱلْمَالَ, tr:al-māla, gloss:serveti}, bu yönelişi belirli bir hedefe bağlar: sevgi, sahip olunabilen ve değer taşıyan servete yönelmiştir. Belirli ve mansup oluşu onu fiilin doğrudan hedefi yapar; bu hedef bir para parçasına daralmaz, mülkü, eşyayı, hayvanı ve kullanılabilir maddi imkânı içine alabilecek bir servet alanı açar. İsim burada servetin edinilme biçimlerini anlatmaz; ağırlık, servetin sevgiyle bağlanılan bir değer haline gelmesindedir.
+
+{ar:تُحِبُّونَ, tr:tuḥibbūna, gloss:seviyorsunuz} biçiminin ikinci çoğul yüzü, suçlamayı doğrudan muhataba taşır; karşılaştırmalı bir kişi biçimi bu doğrudanlığı üçüncü kişi hakkında konuşulan bir teşhire yaklaştırabilir. Böylece değişen şey hitabın mesafesi ve yönelişidir; fiil, nesne ve ölçünün kurduğu servet sevgisi teşhisi aynı kalır. Ardından gelen {ar:حُبًّا, tr:ḥubban, gloss:sevgi}, ikinci bir sevilen nesne değil, fiildeki sevme işini aynı ses ailesinden bir isimle yeniden söyleyen mansup yapıdır; eylemi kendi adıyla adlandırıp ölçer. Cümle önce sevme eğilimini, sonra {ar:ٱلْمَالَ, tr:al-māla, gloss:serveti} hedefini, ardından da sevmenin kendisini gösterir; servet iki sevgi ifadesinin arasında sıkışmış hedef olarak belirginleşir. Aynı ses ailesindeki tane veya çekirdek çağrışımı bu yerel görevden değil, ileride kurulabilecek karşılaştırmalı temaslardan açılır; bu cümlede doğrudan taşınan alan sevgi ve yeğlemedir.
+
+Son kelime {ar:جَمًّا, tr:jammā, gloss:yığılmış bolluk}, sevginin derecesini birikmiş bir bolluk olarak belirler. Ondan önceki belirsiz {ar:حُبًّا, tr:ḥubban, gloss:sevgi}, son nitelemeye kadar ölçüyü açık tutar; {ar:جَمًّا, tr:jammā, gloss:yığılmış bolluk} onunla uyumlanınca bolluk hükmü mala değil sevgiye bağlanır. Seyrek görülen bu niteleme son konumda, benzer mansup sonlanış ve çiftlenen sesle ifadeyi ağırlaştırır: sevgi önce adlandırılır, birikmiş aşırılık son kelimede açığa çıkar. Bu ses ve anlam basıncı, 89:19'daki artırılmış tüketim örüntüsünü iç bağlılığın fazlalığına taşır ve 89:21'deki keskin kopuşa karşı gerilim bırakır. Yoğunluk, bu ifadenin kendi içindeki sevgi ölçüsüne aittir; âyetin açık bildirimi servetin çok büyük bir sevgiyle sevilmesidir.
+
+## Sevginin İçeri Doğru Yoğunlaşması
+
+Bu birleşimin katkısı, servetin dışarıda toplanan bir nesne olmaktan iç değerlendirme merkezini dolduran bir bağlılığa dönüşmesidir. {ar:تُحِبُّونَ, tr:tuḥibbūna, gloss:seviyorsunuz} sevgi yönelişini, {ar:ٱلْمَالَ, tr:al-māla, gloss:serveti} bu yönelişin hedefini, {ar:حُبًّا, tr:ḥubban, gloss:sevgi} içteki bağlılığı, {ar:جَمًّا, tr:jammā, gloss:yığılmış bolluk} ise çoğalıp bir araya gelen basıncı taşır. Böylece sevgi, nesnesiyle birlikte büyüyüp doluluğa basan bir bağlılık gibi görünür. {ar:حُبًّا, tr:ḥubban, gloss:sevgi} için kalbin içindeki kara öz veya nokta çağrışımı hatırlandığında, malın iç değer merkezini doldurduğu düşünülebilir; bu çağrışım anatomik bir önerme değil, iç merkezin dolmasını görünür kılan bir benzetmedir. Yoğunlaşma, 100:8'deki mal sevgisiyle uzaktan yankılanır; iki kullanımın tam bir sözlük özdeşliği bu temasın kapsamına girmez.
+
+Bu birleşimin başka bir katkısı, servetin ortak bir değer onayına dönüşmesidir. {ar:تُحِبُّونَ, tr:tuḥibbūna, gloss:seviyorsunuz} biçimindeki sevgi, övgü ve hoşnut kabul yönünü taşır; {ar:جَمًّا, tr:jammā, gloss:yığılmış bolluk} ise bir araya gelmiş kalabalık görüntüsünü getirir. Bu iki katkı, belirli servet nesnesi ve ikinci çoğul özneyle temas ettiğinde, birçok özel arzunun toplamından daha fazlasını, birlikte onaylanan bir değeri gösterir. Buradaki topluluk görüntüsü, tarihsel bir kurum veya belirli bir karar verici tespiti değil, kanonik sevgi anlamına eklenen yerel bir ortaklık rengidir.
+
+Bu üç katkı, servete yönelen yoğun sevgiyi doyum vaat ederken seveni kendi yerinde tutan bir döngü olarak gösterir. {ar:تُحِبُّونَ, tr:tuḥibbūna, gloss:seviyorsunuz} özneyi bulunduğu yerde sabitleyen bitkinlik görüntüsünü, {ar:حُبًّا, tr:ḥubban, gloss:sevgi} dolma vaadini, {ar:جَمًّا, tr:jammā, gloss:yığılmış bolluk} ise dinlenip gücü yeniden toplama görüntüsünü taşır. Arzu böylece dolup rahatlama umudu verirken, aynı umudun peşinde tükenmiş bir sabitliğe bağlayabilir. Hayvan, hastalık ve su kabı bu benzetmenin literal sahnesi değil; görüntü, sevginin hareket üretirken özneyi kilitleyebilen yüzünü açıklar.
+
+Bu kelimelerin ayrı bir katkısı, serveti gelecekte çoğalabilecek bir çekirdek olarak göstermesidir. {ar:حُبًّا, tr:ḥubban, gloss:sevgi} içindeki tane ve ekilebilir çekirdek çağrışımı, {ar:ٱلْمَالَ, tr:al-māla, gloss:serveti} ile elde tutulan stokta karşılık bulur; {ar:جَمًّا, tr:jammā, gloss:yığılmış bolluk} içindeki henüz tamamlanmamış genç bitki görüntüsü ise bu stokun büyüme imkânını taşır. Tane ve bitkinin beslenmeye açılması (78:15), tanenin yetişmesi (80:27), harcanan malın tane gibi çoğalması (2:261) ve bahçe görüntüsü (89:30) bu karşılaştırmayı genişletir. Cümlenin grameri sevginin ölçüsünü ve bolluğunu taşımayı sürdürür; büyüme burada ortak hayata açılabilecek bir imgedir, servet için yatırım hükmü veya literal tarım sahnesi değildir. Yağmur ve rızıkla ilgili ayrıca çözülmemiş çağrışımlar bu bağlantıya taşınmaz.
+
+## Değerin Ölçüye Dönüşmesi
+
+Olağan sevgi anlamının içinden, malı övgü ve kabulün kanıtı sayan bir değer ölçüsü çıkar. Bolluk ve esenlik (89:15), yetime karşı yerine getirilmeyen sorumluluk (89:17) ve boşa çıkan hatırlama (89:23) aynı odağa döndüğünde servet, yalnızca istenen bir nesne değil, makbullük ölçüsü gibi iş görür. {ar:حُبًّا, tr:ḥubban, gloss:sevgi} malı değerli saymanın ve onay beklemenin dilini verir; davranış ile sonuç arasındaki açıklık, sevginin nasıl bir ölçü kurduğunu gösterir. Bu bağın kapsamı, genel sevgi anlamının çevresinde oluşan onay ölçüsüdür; belirli bir övgü kalıbına veya söylentiye sabitlenmez.
+
+Bu ölçü, bolluk ile kısıntının birbirine çevrildiği sınanma sahnesinde zihinsel bir hesaba dönüşebilir (89:15, 89:16). {ar:تُحِبُّونَ, tr:tuḥibbūna, gloss:seviyorsunuz} ve {ar:حُبًّا, tr:ḥubban, gloss:sevgi} malı şeref sayan isteme yönünü, {ar:ٱلْمَالَ, tr:al-māla, gloss:serveti} ise değişen şartlarda ölçülen miktarı taşır. Bolluğa makbul onur ve cömertlik, darlığa küçülme ve aşağılanma yapıştırıldığında servet, “kim değerli, kim kabul edilmiş, kim küçük görülmüş?” sorularına sahte bir cevap verir. Artışa eklenen ahlaki değer ve rahatlık (89:15), daralan payın değersizleşme sanısıyla karşı karşıya gelir (89:16); paylaştırılmış rızık ise miktarın değişebileceğini, değişimin tek başına insanın değerini belirlemediğini gösterir. Bu güçlü fakat ihtiyatlı bağın yanında, iki karşıt konuşmanın yalnızca şükürle ilgili olabileceği okuma da yerini korur.
+
+Mal ve çocukların dünya hayatının süsü ile kalıcı iyi işler arasındaki karşılaştırma (18:46), servete yönelen sevginin geçici görünen değeri kalıcı değerin önüne alan bir sıralama kurabileceğini düşündürür. {ar:تُحِبُّونَ, tr:tuḥibbūna, gloss:seviyorsunuz} sevgi ve yeğlemeyi, {ar:ٱلْمَالَ, tr:al-māla, gloss:serveti} değer taşıyan sahipliği bildirir; bu temas, “çok sevgi” eleştirisine görünür dünyaya verilmiş önceliği ekler. Servet kelimesi sahip olunan değer anlamını korur; karşılaştırma bu düz bildirimin içinde bir değer sıralaması açar.
+
+## Sesin ve Değerin Dolaşımı
+
+Yığılmış bolluk olarak yerleşen {ar:جَمًّا, tr:jammā, gloss:yığılmış bolluk}, aynı kelimenin açık sözü kuramama yönüyle okunduğunda mal değerlendirmesine bir söyleyiş sürtünmesi ekler. Yerine getirilmeyen sorumluluk (89:17), sonuçsuz hatırlama (89:23) ve geriye dönük pişmanlık (89:24) ile buluşan bu kullanım, neye değer verildiğini berrak bir ahlaki hesaba dönüştüremeyen bir söz görüntüsü kurar. Böylece okur, öznenin değer verdiği şey ile bu değerin doğru adını söyleyebilmesi arasındaki kopukluğu görür. Söyleyişe ilişkin bu temas, bedensel bir konuşma sahnesi değil, servet ve bolluk anlamlarının üzerine eklenen bir açıklık gerilimidir.
+
+Bu söyleyiş gerilimi toplumsal alana yayıldığında, aynı kelime bütünlüğünü kaybeden bir aktarım görüntüsü kurar. Statü sözleri (89:15), yoksulu doyurmaya çağırmama (89:18), tüketim (89:19), sonradan söylenen pişmanlık cümlesi (89:24) ve kullar arasına giriş (89:29) bir araya geldiğinde, mal hakkındaki değerleme davranışlar ve aidiyet içinde dolaşırken dallanan bir rapora benzer. Her sahne aktarımın başka bir yönünü değiştirir; bütün hareket, açık bir ahlaki hesaba varamayan bir değerleme olarak kalır. Bu dolaşım görüntüsü belirli bir söylentiye, çekişme eylemine veya konuşmacıya bağlanmadan, olağan bolluk anlamına eklenen bir toplumsal basınç taşır.
+
+Bu dolaşım görüntüsü, odağın hemen öncesindeki bakım sahnelerinde maddi bir karşılık bulur. {ar:ٱلْمَالَ, tr:al-māla, gloss:serveti} başkasına ulaşabilecek bir imkânı, {ar:تُحِبُّونَ, tr:tuḥibbūna, gloss:seviyorsunuz} ise bu imkânı içeride tutan yönü belirginleştirir. Yetimin bakımından koparılması, başkasını iyiliğe çağırmama, yoksulu doyurmama ve devamlılığı sağlayacak rızkı ulaştırmama (89:17, 89:18), değerin ilişkiye akması gereken yerde elde kalmasını gösterir. Yetimin bakımından koparılması ile eyleme çağırmama, malı serbest bırakacak sosyal köprünün iki kırılmış ayağıdır; doyurma ve geçimi sürdürme ise tutulmuş varlığın karşı hareketini somutlaştırır. Bu bağlantı, olağan mal sevgisinin toplumsal sonuçlarını açar ve ihmalleri tek bir nedene indirgemeden işler.
+
+Sevginin nesnesi dışarı verildiğinde, sevgi ile sahiplikte kilitlenme arasındaki fark açılır. Sevilen maldan muhtaca verme (2:177), sevilen şeyden harcama (3:92) ve sevilen yiyeceği beslenmeye açma (76:8), değerin başkasına ulaştırılabildiğini gösterir. Böylece 89:20'deki eleştirinin sınırı, sevginin varlığından çok sahiplikte kilitlenen yönünde belirir. Bu karşılaştırma sevgi taşıyan ilişkinin bırakma ve paylaşma hareketiyle de gerçekleşebileceğini gösterir; sevgi teşhisi bu yolla bir övgüye çevrilmez.
+
+## Birikimin İçeri Alınması
+
+89:19'da mirasın yenilip tüketilmesi, hemen ardından gelen 89:20'deki sevgiye payları içeri alan bir iştah hareketi kazandırır. {ar:ٱلْمَالَ, tr:al-māla, gloss:serveti} edinilmiş varlığı, {ar:حُبًّا, tr:ḥubban, gloss:sevgi} edinimi sürdüren bağlılığı, {ar:جَمًّا, tr:jammā, gloss:yığılmış bolluk} ise dağınık payların dolu bir kütlede toplanmasını taşır. Mirasın bir kişiden diğerine geçmesi ve tek bir elde toplanmasıyla sevgi, yemenin ardından gelen ayrı bir duygu değil, alınanı tutmayı sürdüren iştah gibi görünür. Bu temas, belirli bir hukuk hükmü koymadan ve her mirası aynı şekilde genellemeden, 89:19'daki tüketim ile 89:20'deki sevgi arasındaki sürekliliği görünür kılar.
+
+Sevgi kökünün 89:19'daki tüketim ve 89:21'deki sarsıntıyla teması, yoğun duygunun arkasındaki hareketi bir kıvılcımın tutuşması üzerinden görünür kılar. Taşın çarpışmasından veya at toynağından çıkan zayıf kıvılcım gibi, servet sevgisi de beslendikçe büyüyen, tüketen ve sarsıntıyla açığa çıkan bir süreç olarak duyulabilir. Buradaki ateşlenme, mal sevgisinin çevresindeki kıvılcım ve tutuşma benzetmesidir; âyetin kelimelerine ateş ya da böcek anlatısı eklemez.
+
+Serveti toplama ve sayma, bu sevgiye kendini sürdüren bir biriktirme hareketi kazandırır. Malı toplama ve sayma (104:2), daha fazlası için yarışma (102:1) ve bu yarışın mezarlara kadar uzanması (102:2), {ar:ٱلْمَالَ, tr:al-māla, gloss:serveti} sahip olunan değerin nesnesi, {ar:جَمًّا, tr:jammā, gloss:yığılmış bolluk} ise toplanmış doluluğun sonucu olarak görünür kılar. Bolluk böylece varılmış bir miktarın yanında toplama, sayma ve karşılaştırmayla sürdürülen bir harekettir. Ölüm ufku bu biriktirme çizgisinin bağlamdaki uzantısıdır; 89:20'deki sevginin tek zorunlu sonucu olarak kurulmaz.
+
+## Payın ve Gücün Sertleşmesi
+
+Aşırı mal sevgisi bu bağlamda başkasına ayrılmış payı kendi sahipliğine ekleyerek bir elde büyüyen, karşı tarafta ise hak eksikliği üreten bir işlem olarak görünür. {ar:جَمًّا, tr:jammā, gloss:yığılmış bolluk} payların bir araya gelerek çoğalmasını, {ar:ٱلْمَالَ, tr:al-māla, gloss:serveti} bu büyümenin sahiplik yüzünü taşır. Komşunun payının kendi malına eklenmesi (89:3) sahipliği büyüten yönü, ayrılmış payların birbirinden ayrılıp düzenlenmesi (89:5) paylaşma ve sınırlama karşıtını görünür kılar. Hasat veya servet içinde muhtacın payının görünür olması (68:24, 70:25), bir eldeki bolluk artarken başka bir hakkın azalabileceği ilişkiyi tamamlar. Bu bağlantı, yeminlerin törensel okuması ile dağıtım düzeni okumasını birlikte açık tutar.
+
+Biriktirilmiş servet özel bir iştahın ötesinde, kalabalık bir topluluğun dayanaklar ve sabit yapılar kuran kapasitesini besleyebilir. {ar:جَمًّا, tr:jammā, gloss:yığılmış bolluk} içindeki toplu insan bütünü çağrışımı, {ar:ٱلْمَالَ, tr:al-māla, gloss:serveti} özel birikimden toplumsal ölçeğe taşıyan köprüyü kurar. Dik tutan destek (89:7), kapasiteyi sertleştiren çivi benzeri sabitlik (89:10), sınırı aşan taşma (89:11) ve düzenin bozulmasıyla artan sonuçlar (89:12), destekten sertleşmeye, taşmadan çoğalmış zarara uzanan bir sıra oluşturur. Bu okuma ekonomik kaynak ile yerleşik kapasite arasındaki sınırlı ilişkiyi görünür kılar; anıtları ya da geçmiş kavimleri salt tarihsel tanım olarak okuma seçeneği de bunun yanında kalır.
+
+## Elde Tutulan Değer
+
+Odağın sonrasındaki düzleme (89:21), saf saf düzenlenme (89:22), iyiliği ileri gönderme (89:24) ve bağlanma (89:26) hareketleri, birikmiş değere yönü kesilmiş bir stok görünümü kazandırır. {ar:جَمًّا, tr:jammā, gloss:yığılmış bolluk} dolu kütleyi, {ar:حُبًّا, tr:ḥubban, gloss:sevgi} ise bitkinlikten yerinde kalan tutuşu taşır; dövülüp düzlenen yüzey ile amaçlı saf düzeni bu kütlenin karşısına çıkar. Mal yaşama dönük bir faydaya ve ileri gönderilmiş iyiliğe çevrilmediğinde, yanında tutulan ama ilerleyemeyen bir stok olarak belirir. Sonuç ve karşılık vurgusu (89:23, 89:25) bu yönsüzlüğü sıkılaştırır; bu bağ, pişmanlığı yalnız malın açıklamasına indirgemeden elde tutulan değerin akıbetini görünür kılar.
+
+Bu kilitlenmiş imkânın zaman içindeki yönü, iyiliği önceden gönderememe (89:24), ölüm gelmeden harcama çağrısı (63:10) ve elde tutulan servetin hüküm anında sahibine dönmesi (9:34, 9:35) ile daha geniş görünür. Servet, bugünkü elde tutuşun içinde kalırken ileride karşılık bulacak iyiye çevrilemeyen bir imkân olur. Böylece 89:20'deki sevgi, nesneye bağlanan duygunun yanında değeri zaman içinde ileri taşıyamayan bir tutuş olarak da duyulur; bu bağlantı belirli bir zaman yönünü açıklar ve her mal sevgisini aynı sonuca bağlamaz.
+
+{ar:جَمًّا, tr:jammā, gloss:yığılmış bolluk} için yaklaşan vakit ve sınıra doğru ilerleyen miktar çekirdeği de bu elde tutuşa eklenir. Ölçünün daralması (89:16), zeminin dümdüz edilmesi (89:21), hatırlamanın sonuçsuz kalması (89:23) ve dönüş ile bahçe sıralaması (89:28, 89:29, 89:30), bolluğun anlamının yakında sınanacağı bir eşiğe doğru ilerlediğini düşündürür. Son kelimedeki çokluk, sınırsız bir yığının yanında anlamı bir hesap anında değişebilecek bir hareket olarak duyulur. Bu eşik belirli bir tarih veya sayı vermez; çizgi, kaçınılmaz bir sonuç ilan etmekten çok yaklaşan sınamada değişen anlamı taşır.
+
+## Bağın Yön Değiştirmesi
+
+Odağın ardından gelen son sahneler, bağlanmanın yönünü değiştirerek servet sevgisine başka bir karşılık gösterir (89:27, 89:28, 89:29, 89:30). {ar:تُحِبُّونَ, tr:tuḥibbūna, gloss:seviyorsunuz} içe çeken bağlılığı, {ar:جَمًّا, tr:jammā, gloss:yığılmış bolluk} ise sahip olunan yığın yerine insanların arasında girilen topluluğu düşündürür. Değer dış mülkten hitap edilen nefse taşınır ve huzur, elde tutulan nesne olmadan yerleşiklik verir (89:27); dönüş, edinmenin içe doğru hareketini tersine çevirir ve karşılıklı hoşnutluk tek taraflı sahipliğin yerini alır (89:28). İçeri girmek ve kullar arasında hizmet etmek, malı kendi etrafında toplama egemenliğinin yerine ilişkiye giren bir kimlik koyar (89:29); bahçe, kişinin kendi çevresinde ördüğü bir yığın yerine içine kabul edildiği bir sığınak olarak belirir (89:30). Bu bağlam son bölümün bağımsız bir ödül tasviri olabileceği ihtimalini açık tutar; olağan mal sevgisi de bu yön değişimiyle birlikte okunur.
+
+Bu yön değişimi, malın vaat ettiği dinlenme ile geri dönme gücünü koruyan huzur arasındaki farkı da açar. {ar:حُبًّا, tr:ḥubban, gloss:sevgi} ile taşınan bağlılık, bitkinlikten yerinden ayrılamayan hayvanın sabitliğini; {ar:جَمًّا, tr:jammā, gloss:yığılmış bolluk} ise dinlenip gücü yeniden toplama görüntüsünü getirir. İlk görüntü malın yanında kalmayı tükenmiş bir hareketsizliğe bağlarken, huzur ve dönüş hareketi serbest bırakabilen bir yerleşiklik kurar (89:27, 89:28). Bu küçük ve keşifsel benzetme, doğrudan sevgi anlamına eklenen fiziksel bir teşhis değil, dinlenme vaadinin iki ayrı sonucunu görünür kılan bir karşılaştırmadır.
+
+Daha tartışmalı bağlantıda {ar:ٱلْمَالَ, tr:al-māla, gloss:serveti} kelimesine iliştirilen örümcek adı, {ar:حُبًّا, tr:ḥubban, gloss:sevgi} içindeki yapışkan bağlılıkla birleşerek servetin çevreleyen ve tutan tarafını görünür kılar. Bağlanma (89:26), içeri girme (89:29) ve örtülü bahçe (89:30) bu görüntünün üç hareketini verir: bağ çevreler, içeri giriş kişiyi onun içine alır, bahçe ise alınan kişiye korunak sağlar. Böylece sevginin yapışması ağın tutucu kuvveti, bağın çevreleyen sınırdan kapanmaya dönüşmesi olur; bahçe kişinin kendi kurduğu ağ değil, içine girdiği ve kabul edildiği sığınaktır. Örümcek bağlantısının tartışmalı oluşu, bu ağı sezdirici bir benzetme olarak sınırlar; {ar:ٱلْمَالَ, tr:al-māla, gloss:serveti} kelimesi olağan servet anlamını korur.
+
+Bu bağlanma ve kapanma görüntülerinin yanında, {ar:جَمًّا, tr:jammā, gloss:yığılmış bolluk} kelimesi yaklaşan bir sınırda basınç biriktiren bir süreç de kurar. {ar:تُحِبُّونَ, tr:tuḥibbūna, gloss:seviyorsunuz} suyla dolma veya suya kanmanın ilk aşamasına ulaşma hareketini, {ar:جَمًّا, tr:jammā, gloss:yığılmış bolluk} ise toplanmış doluluğu taşır. Büyük bir miktarın birden patlayarak çıkması (89:1), tutucu sınırın aşılması (89:11), önceki yapının üzerine dökülme (89:13) ve zeminin dümdüz edilmesi (89:21), dolma, taşma, dışarı dökülme ve düzlenme zincirini kurar. Bu zincir, büyük sevgiyi ve bolluğu duragan bir sıfat olmaktan çıkarıp sınır biriktikçe yön değiştiren bir hareket olarak izletir. Hidrolik bağlantı sezdirici bir benzetme olarak kalır; su ve hazne, âyetin kelimelerinin literal karşılığı değil, bu birikim hareketinin açıklayıcı görüntüsüdür.
+
+</editorial_prose>

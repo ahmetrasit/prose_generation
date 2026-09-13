@@ -122,27 +122,25 @@ That admission threshold is density-invariant: a qualifying finding receives the
 same voice whether its ayah has three roots or twenty-six. Longer ayat do not get
 a fixed prose budget divided among more findings.
 
-### Layer 3 — the whole image (`_channel/layer3/`)
+### Layer 3 — the whole image (`_surah_commentary/v2/`)
 
 What becomes visible only when the surah is read as an assembly: the recurring
 semantic operations through which distant ayahs explain one another.
 
 The active cold-agent runbook is
-[`_channel/layer3/ORCHESTRATION.md`](_channel/layer3/ORCHESTRATION.md).
-Mechanical scripts build stage-specific hermetic prompts. Fresh agents then
-perform blind discovery, latent-dependence review into channel briefs, and
-composition as a validated prose envelope for a reader with no Arabic or
-linguistic knowledge. A deterministic finalizer emits the reader prose,
-publication evidence map, and friction file.
+[`_surah_commentary/v2/ORCHESTRATION.md`](_surah_commentary/v2/ORCHESTRATION.md).
+The only semantic sources are the completed final editorial texts for all
+numbered ayahs in one selected v5 run. The workflow freezes those texts,
+derives a source-anchored outline, and composes and edits a prelude/postlude.
+It does not consume discovery artifacts, scope ledgers, invitations, separate
+translations, Quran datasets, or network/V11 evidence.
 
-The result is not a summary and does not proceed ayah by ayah. A finding belongs
-here only when secondary semantic material changes the reader's model in a way
-the ordinary translation cannot produce, while making something specific in
-the surah newly intelligible. Admitted channels coexist without ranking or
-disambiguation, and every admitted channel and hinge must land visibly in the
-prose. Reviewed Network V3 and V11 inputs are optional; their absence produces
-warnings and does not stop the run. The runbook defines the exact source
-projections, agent boundaries, commands, and output paths.
+The result develops the editorials' main cross-ayah movements rather than
+compressing all findings or proceeding ayah by ayah. Each selected image's
+contribution, attribution, uncertainty, and boundary must remain clear.
+Semantic approval gates publication; accepted revisions and superseded stable
+outputs are preserved. The old channel-first contract remains available only
+in `LEGACY_ORCHESTRATION.md` for historical reproduction.
 
 The retired root-level `_channel` prompt/plan and the old Layer 2.5 overlay lane
 are retained only for historical reproducibility. They are not inputs to the
@@ -161,11 +159,12 @@ bundles/              generated base and tiered commentary input bundles
 _commentary/v5/       canonical Git-native Layer-2 orchestration and outputs
 _translation/         layer 1 — the spine
 _ayah_commentary/v2/  pinned prose guidance and historical direct-run prompt
-_channel/layer3/      active layer 3 — surah-wide resonance systems
+_surah_commentary/v2/      active layer 3 — surah-wide resonance systems
 _channel/*.md         retired combined layer 3 + 2.5 experiment
 _channel_review/      retired review experiment
 _channel_integration/ retired layer-2.5 experiment
-_surah_commentary/    retired separate layer-3 experiment
+_surah_commentary/PROMPT.md retired separate layer-3 experiment
+_channel/layer3       compatibility symlink to _surah_commentary/v2
 _surah_final/         retired final reconciliation experiment
 _words/               not started
 _curriculum/          not started
@@ -193,7 +192,7 @@ they are planned, not because they exist.
   [`scripts/README.md`](scripts/README.md)
   documents base and pericope bundle construction.
 - Running surah commentary Layer 3:
-  [`_channel/layer3/ORCHESTRATION.md`](_channel/layer3/ORCHESTRATION.md).
+  [`_surah_commentary/v2/ORCHESTRATION.md`](_surah_commentary/v2/ORCHESTRATION.md).
 - What evidence exists: [`docs/SOURCES.md`](docs/SOURCES.md) for paths and
   formats, [`docs/DATA_AVAILABILITY.md`](docs/DATA_AVAILABILITY.md) for coverage.
 

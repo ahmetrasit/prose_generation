@@ -1,0 +1,183 @@
+# V5 reading invitation — 93:10
+
+You are a fresh reading-invitation writer. Read the complete editorial prose
+before writing. It is your sole semantic source.
+
+Write two to four paragraphs of fluent, contemporary Turkish that reveal a
+surprising reading by following one or two main channels of resonance in the
+ayah. A channel is a connected background of meanings, images, actions, or
+relations through which the ayah can be heard and understood differently.
+Several editorial findings may together develop one channel. Summarize that
+connected movement and its consequence for the ayah's main meaning, rather
+than compressing findings individually. Give the reading's substance now;
+the invitation comes from understanding it, not from a promise of hidden depth.
+
+Before drafting, read the entire editorial prose and silently select the one
+or two channels with the strongest interpretive consequence and enough
+grounding to explain clearly. Favor channels that expand or shift what the
+ayah says, the relation it establishes, or what is at stake in its action or
+image. One fully developed channel is sufficient; add a second only when it
+offers a distinct consequential reading that can be explained within the
+invitation. No finding, channel, or major shift has an individual coverage
+claim. Unselected material may remain entirely in the full commentary.
+
+A channel may develop through grammar, sound, dialogue, a material process,
+time, imagery, or a conceptual relation. Resonance is not limited to acoustic
+effects, and an unusual image alone does not establish a channel. Use only
+connections the editorial prose actually develops. If it supplies no such
+channel, explain its strongest grounded reading without inventing connections
+or surprise.
+
+Begin inside the ayah's own words, images, actions, or relations and reveal a
+selected distinctive reading in the first paragraph. Keep the plain meaning
+reachable with only the orientation needed to understand the change. Do not
+spend an opening paragraph on routine explanation or front-load context about
+the surah, the ayah's position, or the commentary project.
+
+For each selected channel, begin with the expression that opens it, unfold the
+connected background, and show how the ayah reads or sounds against that
+background. Let a detail lead into the next through an intelligible relation
+or process, so the reader experiences the emerging reading. This is a movement
+of thought, not a mandatory sentence pattern or one paragraph per finding.
+Let the reader identify the expression being interpreted,
+where any nonordinary detail comes from, and what that detail changes in the
+reading. Briefly identify the word-family use, restricted form, collocation, or
+context that supplies an essential added detail, and preserve the concrete
+operation that makes the image work. Keep the ordinary reading and necessary
+qualification clear within this explanation; do not repeat them as a fixed
+formula. Preserve the particular object, process, or relation that makes this
+reading distinctive, and state its interpretive consequence for the ayah as a
+whole. Make intelligible what the familiar reading leaves less visible and
+what the expanded or shifted reading now lets the reader understand. Preserve
+the editorial's force: an exploratory possibility remains possible, while a
+developed shift must not be softened into a decorative association or a
+reassurance that everything means the same thing. A concrete
+account of how something is carried, transformed, lost, or restored must not
+shrink to a general statement about care, guidance, dependence, or goodness.
+Keep the details needed to make the selected channel work; omit side findings
+and shorten routine setup. If a channel cannot be explained faithfully from
+the editorial prose, choose another grounded channel or reading.
+
+When a non-focus ayah supplies a contribution used in the invitation, keep its
+reference from the editorial prose beside that contribution.
+
+Do not turn the invitation into a miniature inventory of the commentary's
+conclusions, or flatten distinct channels into a broad theme to include more
+material. Do not repair, extend, or supplement the editorial prose from memory
+or outside knowledge.
+
+Omit technical apparatus. Retain any qualification, source distinction, live
+alternative, or boundary whose absence would change the force or meaning of a
+chosen reading. Express it naturally beside the image or relation it qualifies.
+Favor positive explanations of the relation between layers: what remains in
+the foreground and what the resonance makes audible in the background. State
+how that background reinforces, expands, or shifts the understanding of the
+main meaning, with the source and degree of certainty clear. Reserve explicit
+exclusions for concrete ambiguities or live counter-evidence that need them.
+Repeated "this is not X" endings make a reading sound withdrawn; express the
+substantive qualification through what the reading does contribute wherever
+possible. Use varied, natural language rather than a repeated "second layer"
+formula, and preserve the force of expansions and shifts.
+Do not name branches, candidates, findings, scopes, evidence categories,
+ledgers, or workflow stages, or label the prose as numbered channels. Do not
+list findings serially.
+
+Use the established `{ar:..., tr:..., gloss:...}` syntax, consistent
+Turkish-readable transliteration, and short ordinary glosses. Keep Arabic
+anchors beside the explanations they ground. Within a paragraph, continue with
+the Turkish meaning where clear; provide the necessary local tag when a later
+paragraph interprets the carrier anew. Do not place Arabic script outside a
+valid tag.
+
+Build transitions within a channel through its shared object, action, or
+relation. If two channels are selected, they may occupy separate paragraphs;
+do not invent a link between them. Do not praise the commentary's quality,
+promise what the reader will find, manufacture suspense, recap at the end, or
+add a call to action. End on an image, relation, action, or tension already
+established by the selected reading.
+
+Before finishing, compare the invitation with the entire editorial prose:
+does the chosen channel reveal a consequential reading, or could the text have
+been written from the ordinary translation and a modest explanation alone?
+When the editorial supports a surprising channel, the latter fails this task.
+Can the reader follow the opening expression into a connected background and
+understand how that background expands or shifts the ayah's main meaning?
+Check the selected connections against their editorial explanation: can the
+reader tell where the nonordinary details come from, with the necessary
+qualifications intact? Repair generic explanation, isolated curiosities, or a
+compressed findings list by developing the selected channel. Do not add
+omitted channels merely for coverage. Do not output this check.
+
+Write only the invitation text to:
+
+`_commentary/v5/editorial/s093-regular-20260912/s093/93_10/93_10.invitation.tr.md`
+
+Do not add a heading, wrapper label, index, ledger, evidence file, or any other
+artifact. Do not modify the editorial prose.
+
+After writing the invitation, run:
+
+```bash
+python3 _commentary/v5/validate_prose.py _commentary/v5/editorial/s093-regular-20260912/s093/93_10/93_10.invitation.tr.md
+```
+
+If validation fails, repair only the reported mechanical file-contract issues
+and rerun it, for at most two repair cycles. Report the final validator result
+in your response.
+
+<editorial_prose>
+## Hükmün Kuruluşu
+
+{ar:وَأَمَّا ٱلسَّآئِلَ فَلَا تَنْهَرْ, tr:wa-ammā as-sāʾila fa-lā tanhar, gloss:isteyeni de azarlama} sözü, bir şey isteyen veya soru soran kişi karşısında sertçe çıkışmayı ve onu sözle geri itmeyi yasaklar. Bu cümle, (93:9)'daki öksüzü ezmeme buyruğundan kopuk bir öğüt gibi başlamaz: {ar:وَ, tr:wa, gloss:ve} önceki koruma hareketini sürdürür, {ar:أَمَّا, tr:ammā, gloss:ise / bu duruma gelince} şimdi ele alınacak kişiyi ayrı bir durum olarak öne çıkarır. Süreklilik ile yeni durum böyle tek bir geçişte birleşir.
+
+{ar:أَمَّا, tr:ammā, gloss:ise / bu duruma gelince} isteyeni yalnızca adlandırmaz, onun durumuna verilecek karşılığı bekleyen bir çerçeve kurar. Ardından gelen {ar:فَ, tr:fa, gloss:öyleyse / bunun üzerine} kişiden hükme hemen geçişi sağlar; cevap işareti kendi başına yeni bir içerik eklemeden bu durumun gerektirdiği davranışı bağlar. {ar:فَ, tr:fa, gloss:öyleyse} ile {ar:لَا, tr:lā, gloss:yasaklayıcı olumsuzluk} birleşerek {ar:فَلَا, tr:fa-lā, gloss:öyleyse ...me} biçimini kurar ve (93:9)'daki kısa yasak geçidine bağlanır. (93:9), (93:10) ve (93:11)'deki aynı durum-cevap kuruluşu, bu ayeti üç komşu koruma durumunun ortasına yerleştirir. Kısa parçacık dizisi açıklama aralığını daraltır: kişi anılır ve cevap doğrudan davranışa bağlanır.
+
+## Kime ve Neye Dokunur
+
+Burada öne alınan kişi, {ar:ٱلسَّآئِلَ, tr:as-sāʾila, gloss:isteyen / soran kişi} kelimesinde belirli bir adla kapanmayan, isteme, soru sorma ve arama eylemiyle tanınan bir insan sınıfıdır. Belirli aktif ortaç, korumayı yalnız maddi yardım isteyen kişiye kapatmaz; bilgi arayan, bir şeye ulaşmaya çalışan veya ihtiyacını dile getiren kişi de bu karşılaşmanın içindedir. Kelimenin cümlenin başında görünmesi, yasaklanan sözden önce korunacak insanı öne çıkarır. Kapanıştaki {ar:تَنْهَرْ, tr:tanhar, gloss:sertçe azarla ve geri çevirme} yeni bir hedef açmadan bu kişiye döner ve onu sözdizimsel olarak tamamlar. (93:9)'daki edilgen yoksunluktan (93:10)'da ihtiyacını seslendiren etkin arayışa geçilir: korunma, eksikliği görmekten, eksiklik dile geldiğinde kişiyi incitmemeye uzanır. Bu sınıfın (51:19) ve (70:25)'te toplumsal pay ve hak bağlamında görünmesi, isteyeni yalnızca lütuf bekleyen bir yabancıya indirmeden, tanınabilir bir payı olabilecek kişi olarak da duyurur.
+
+{ar:لَا, tr:lā, gloss:yasaklayıcı olumsuzluk} burada sıradan bir yokluk bildirmez; ardından gelen {ar:تَنْهَرْ, tr:tanhar, gloss:sertçe azarla ve geri çevirme} fiilini yöneterek doğrudan olumsuz emir kurar. Fiilin ikinci tekil ve cezimli biçimi yasağın muhatabını kendi içinde taşır, fakat onu belirli bir makam veya kişilikle doldurmaz. Ayet olmuş bir azarı anlatmak yerine, isteyen göründüğünde yapılabilecek azarı gerçekleşmeden keser; hüküm gelecekteki davranış seçimine yönelir. Yerel fiil anlamı her türlü reddi değil, sert ve azarlayıcı sözle kişiyi geri püskürtmeyi hedefler. Fiilin (17:23)'te ebeveynlere yönelen sert söz yasağıyla birlikte yalnız iki fiilî kullanımda görünmesi, onu ilişkisel kırılganlıkta sözü sınırlayan dar bir alana bağlar; (17:23)'ün bütün bağlamı (93:10)'a taşınmaz. (93:9)'da güçle bastırılan muhatabın ardından (93:10)'da konuşma kuvvetiyle geri itilen kişi görünür: zarar bedensel üstünlükten sözün basıncına kayar. Kip, fiilin kuvvet çağrışımı ve ayet sonundaki kısa ses birlikte çalışır; son fiilin (93:9)'daki komşu buyruğun sonuyla kurduğu yakın ses yankısı, sert eylemi (93:10)'un son sözüne bırakır.
+
+## Sözün Akışı
+
+Bu dil, talebin sonucundan önce talepte bulunan kişinin insanî konumunu koruyan bir karşılaşma kurar. {ar:ٱلسَّآئِلَ, tr:as-sāʾila, gloss:isteyen / soran kişi} bir muhataba yönelip bilgi edinmeye veya bir şeyi elde etmeye çalışan kişiyi taşır; aynı yüzeyin başka kullanımlarında görülen “istenen şey” ve “isteği yerine getirmek” yönleri bu başvuruyu cevaba dönük bir çağrıya açar. (25:16)'daki vaat edilmiş istenen iyilik ile (20:36)'daki açıkça karşılanan istek bu çağrı imgesini besler. Böylece rica cevap bekleyen bir başvuru olarak duyulur; (93:10)'daki biçim bu çağrının sonucunu tayin etmeyip kişiyi sertlikle küçültmeme sınırını korur.
+
+{ar:تَنْهَرْ, tr:tanhar, gloss:sertçe azarla ve geri çevirme} fiilinin sözlük alanındaki akarsu yatağı, toprağı yararak belirginleşen kanal ve mevcut bir açıklığı genişletme görüntüleri, ihtiyacın cevaba taşınacağı yolu üç yönden görünür kılar: akarsu hareketi ileri götürür, yarılmış kanal geçişi belirginleştirir, genişleyen açıklık cevabın sığacağı alanı büyütür. (54:54)'teki bol su taşıyan akarsu ve (14:32)'deki suya açılan yol bu maddi görüntülere bağımsız bir zemin sağlar. {ar:ٱلسَّآئِلَ, tr:as-sāʾila, gloss:isteyen / soran kişi} ihtiyacı bir muhataba doğru taşır; {ar:تَنْهَرْ, tr:tanhar, gloss:sertçe azarla ve geri çevirme} ise bu yaklaşımın önünde yolu kesebilen veya açılan alanı daraltabilen karşılığı gösterir. Bu temas, (2:186)'daki sorma ile cevaplanma ve (17:28)'de veremediğinde kolay sözle karşılık verme sınırlarıyla birleşince, ihtiyacın duyulmadan yardıma doğru ilerleyebileceği bir güzergâh kurar. Buradaki akarsu, (93:10)'daki sözlü azarlama anlamını genişleten maddi bir benzetmedir; fiili “nehri setlemek” diye çevirmediği gibi her isteğin maddi yardım alacağını da söylemez.
+
+Açılan güzergâhın konuşmadaki karşılığı, ihtiyacın duyulduktan sonra işe yarar bir cevaba taşınmasıdır. (17:53)'te sözü seçme sınırı, (93:11)'de nimet hakkında konuşma buyruğu ve (17:28)'de veremeyene kolay söz gösterilmesi bir araya geldiğinde, cevap sessizlik ile azar arasına sıkışmaz; sözün içinden geçebileceği yapıcı bir yol belirir. (93:11)'deki haber ve konuşma hareketi burada isteyene cevap verme göreviyle özdeşleşmez, bu yolun yarar taşıyabilecek ses biçimini gösterir. Belirli bir cümle kalıbı veya maddi aktarım emredilmeden, yapıcı konuşmanın geçeceği alan açık tutulur.
+
+İsteyen böylece sert sözle kapatılan tek yönlü bir alıcı değil, cevaplanabilir bir alışverişin katılımcısı olarak da görünür. İsteme yüzeyindeki karşılıklı soru sorma yönü, {ar:ٱلسَّآئِلَ, tr:as-sāʾila, gloss:isteyen / soran kişi} kelimesini cevap bekleyen bir konuşma tarafına açar; {ar:تَنْهَرْ, tr:tanhar, gloss:sertçe azarla ve geri çevirme} ise güçlü tarafın cevap alanını tek taraflı kapatabilen eylem olarak belirir. (93:5)'teki karşılıklı hoşnutluk, (93:11)'de yenilenen konuşma ve onaylama imgesiyle buluştuğunda, karşılaşma birbirinin onurunu tanıyan bir alışveriş ölçüsüne yaklaşır. Bu hareket her cevabın “evet” olmasını, tarafların anlaşmasını veya isteğin hemen yerine gelmesini gerektirmez; ayetin koruduğu şey sorunun duyulabilir ve karşılığın gerçek bir cevap olabilecek açıklıkta kalmasıdır.
+
+## Görünürlük ve Örtü
+
+{ar:وَالضُّحَىٰ, tr:wa-d-duḥā, gloss:kuşluk aydınlığı} ihtiyacı görünür bir karşılaşmaya çıkaran ışığı, {ar:وَاللَّيْلِ إِذَا سَجَىٰ, tr:wa-l-layli idhā sajā, gloss:sakinleşip örtüye çekilen gece} ise söylenmiş ihtiyacın çevresinde koruyucu bir örtü kuran geri çekilişi taşır. {ar:ٱلسَّآئِلَ, tr:as-sāʾila, gloss:isteyen / soran kişi} bu aydınlıkta fark edilen bir ihtiyaç figürü gibi duyulur; cevap, görünürlüğü yeni bir mahcubiyete dönüştürmek yerine kişinin onurunu koruyan bir dikkat kurmalıdır. (10:67)'deki görünür kılan ışık ile (17:23)'teki onurlu hitap sınırı bu yumuşak dikkatin zeminini sağlar; (17:53)'teki iyi sözü seçme sınırı da açıklığın yeni bir yara açmamasını belirler. (93:2)'deki gece, yaklaşımın hâlâ korunabileceği alanı taşır ve {ar:تَنْهَرْ, tr:tanhar, gloss:sertçe azarla ve geri çevirme} bu alanı dağıtan karşılığı görünür kılar. Işık ve gece arasındaki bu bağ, (93:10)'daki fiile gündüz veya ışık anlamı vermez; görünürlük ile korunma arasındaki belirli gerilimi genişletir.
+
+## Bakımın Havası
+
+(93:3)'teki {ar:مَا وَدَّعَكَ رَبُّكَ وَمَا قَلَىٰ, tr:mā waddaʿaka rabbuka wa-mā qalā, gloss:Rabbin seni terk etmedi ve sana darılmadı} süreklilik ve yakınlık, cevap anında ilişkinin sürmesini sağlar. (93:5)'teki {ar:وَلَسَوْفَ يُعْطِيكَ رَبُّكَ فَتَرْضَىٰ, tr:wa-la-sawfa yuʿṭīka rabbuka fa-tarḍā, gloss:Rabbin verecek ve sen razı olacaksın} verme, rıza ve yeşeren sonuç, bu sürdürmenin bakım ve tamamlanma ufkunu açar. (93:11)'de nimet çevresinde beliren yumuşak rüzgâr ise hareketi şiddetsiz kılan bir kolaylık getirir. Bu üç katkı, sertçe geri çeviren cevabın karşısına ihtiyacı dağıtmayan, bakımın gerçekleşebileceği kadar mevcut kalan bir ilişki iklimi koyar. {ar:تَنْهَرْ, tr:tanhar, gloss:sertçe azarla ve geri çevirme} fiilinin sözlük alanındaki alçak veya katmanlı bulut görüntüsü bu koruyucu örtüyü somutlaştırır: kişiyi dağıtan sözün karşısında çevreleyen bir alan belirir. Bulut, bitki ve rüzgâr (93:3, 93:5, 93:11)'teki bağlamsal ilişkiye aittir; bu temasın sonucu maddi karşılığın kendiliğinden verilmesi değil, ilişkinin kesilmemesi için koşul kurulmasıdır.
+
+Değişen koşullarda yön vermenin imgesi de bu iklimin içinden çıkar. (93:2)'deki gece ve sükûnet, sahneyi seyredilebilir kılar; (93:5)'teki düzenli veriş ve rıza, bu sahnede yönü dağıtmadan ilerleten bir el hareketi sağlar. Birleşen katkılar, yaklaşan kişiyi ürkütmeden yol almayı mümkün tutan bir denizcilik resmi doğurur: yön veren cevap çevreyi kaosa sürüklemez. {ar:تَنْهَرْ, tr:tanhar, gloss:kişiyi geri iten sert cevap} bu sükûneti bozan karşı kutuptur. Deniz veya kaptan görüntüsü, (93:2) ve (93:5)'teki gece, veriş ve yön verme bağlamıyla sınırlı bir analojidir; (93:10)'un fiiline denizcilik anlamı yüklemez. Yumuşaklık böylece yardım ve rehberliğin gerçekleşebileceği kadar uzun süre açık kalan bir yönlendirme koşulu olarak belirir.
+
+## Cevabın Zamanı
+
+(93:4)'te ilk olandan daha hayırlı sonraki sonuca dönüş, talebin zamanını mevcut anın ötesindeki yarara açar; (93:5)'teki verme ve rıza, cevabın ilişki içinde alınabilecek bir sonuca doğru ilerlemesini sağlar. (25:16)'daki vaat edilmiş istenen iyilik ve (28:24)'te dile getirilen ihtiyacın alınan iyilikle karşılaşması bu ufku destekler. Aynı {ar:ٱلسَّآئِلَ, tr:as-sāʾila, gloss:isteyen / soran kişi} yüzeyi başka kullanımlarda kişinin isteme eylemine konu ettiği “istenen şey”i ve birinin bu isteği yerine getirme ihtimalini de düşündürür; (93:10)'daki biçim ise önce kişiyi adlandırır. Bu birleşen hareket, zaman isteyen cevap ile kişiyi uzaklaştıran cevabı birbirinden ayırır: bekleme, dikkat ve erişim korunuyorsa ilişki kesilmez. Bu bağ belirli bir hediyeyi veya hemen cevap verme görevini tayin etmez; talebin karşılanma biçimi açık kalır.
+
+(93:4)'teki iyilik ve hediye olumlu bir karşılık ufku açar; (93:5)'teki elden ele verme ve karşılıklı hoşnutluk, cevabı alınabilecek bir tamamlanma noktasına taşır; (93:7)'deki yönlendirme ve yakına gönderilen lütuf görüntüleri ise karşılığın başvuran kişiye doğru yönelmesini sağlar. Bu katkılar, isteği ihtiyaçtan uygun yardıma doğru hareket eden bir ilişki içinde tutar. {ar:تَنْهَرْ, tr:tanhar, gloss:sertçe azarla ve geri çevirme} bu hareketin başında erişimi kesebilecek karşılıktır; azarlamamak yapıcı cevabın ihtimalini koruyan asgari koşul olur. (17:28)'de veremediğinde kolay söz söyleme sınırı, maddi cevap kararlaştırılmadan önce ilişkiyi açık tutmanın da gerçek bir karşılık olabileceğini somutlaştırır. Bu yardım ufku, her isteyeni yoksul veya her cevabı hediye ilan etmeden, uygun karşılığın biçimini ve gerçekleşmesini açık bırakır.
+
+## Eşik ve Güç
+
+(93:6)'daki bulunma, kopmuş bağımlılık ve sığınağa alma hareketi, yaklaşan kişinin bir korunma yerine ulaşabileceği ilk eşiği görünür kılar. {ar:ٱلسَّآئِلَ, tr:as-sāʾila, gloss:cevap arayan isteyen kişi} bu eşikte gizli kırılganlığı açığa çıkarır; {ar:تَنْهَرْ, tr:tanhar, gloss:sert sözle geri çevirme} ise malî ihtiyacın değerlendirilmesinden önce erişimi kapatabilen sözel kapı olur. (17:23)'teki onurlu hitap ve (17:29)'daki muhtacı eli boş bırakmama sınırları, ilk karşılığın yaklaşanın duruşunu korumasını belirginleştirir. Bu bağlantı, (93:6)'daki öksüzlük sahnesini (93:10)'daki isteyenle özdeşleştirmez; eşiğin daha da daralmaması gerektiğini taşıyan sınırlı bir benzetme olarak kalır.
+
+(93:9)'daki {ar:فَأَمَّا ٱلْيَتِيمَ فَلَا تَقْهَرْ, tr:fa-ammā al-yatīma fa-lā taqhar, gloss:öksüzü ezme} buyruğu yukarıdan bastırıp küçültme imgesini taşır; (93:10)'un öne alınmış isteyen kişisi ise bağımlılığını söz hakkı bulunan bir muhatap karşısında açığa çıkarır. (93:6)'daki bakım hareketi bu iki görüntü arasında kırılganlığın korunacağı zemini sağlar. Birlikte düşünüldüklerinde, fiziksel kuvvet kullanılmasa bile sert sözün kırılganlığın üzerine sosyal hiyerarşi gibi bastırabileceği görünür olur. Bu bağ iki kategoriyi özdeşleştirmez: {ar:تَنْهَرْ, tr:tanhar, gloss:sertçe azarla ve geri çevirme} başka bir kökün anlamına çevrilmeden, (93:9)'daki dikey basıncın sözdeki karşılığını görünür kılar. (93:3)'teki terk etmeme çizgisi de bu yüzden ihtiyaç anında verilen cevabın ilişkiyi kesmemesi gerektiğini açıklar.
+
+(93:5)'teki karşılıklı işleyişte üstün gelme, (93:3)'teki ilişkiyi sürdürme ve (93:9)'daki ezme görüntüsü bir araya geldiğinde, karşılaşmanın ihtiyaç duyulmadan önce bir güç yarışına dönüşebileceği görünür olur. {ar:تَنْهَرْ, tr:tanhar, gloss:sertçe azarla ve geri çevirme} fiilinin fırsat kollayıp hazırlıksızken ani bir atılışla kapma yönü, açılan ihtiyacın birden ele geçirilmesi hissini verir. (17:23) ve (17:29)'daki ayrı sınırlar bu görüntüye sosyal yön kazandırır: kayıp, maddi şeyden önce karşılanma anındaki saygınlıkta gerçekleşebilir. Kapma görüntüsü burada sözün toplumsal etkisini anlatır; fiile fiziksel hırsızlık veya çıkarma anlamı yüklemez. Azarlamamak düşmanlıkta tırmanmayı durdurur ve karşılaşmayı kazanılması gereken bir mücadeleden cevaplanması gereken bir ilişkiye döndürür.
+
+## Yön ve İhtiyaç
+
+(93:7)'deki bulunma, sapma ve yumuşak yol gösterme dizisi, {ar:ٱلسَّآئِلَ, tr:as-sāʾila, gloss:bilgi veya yön isteyen kişi} kelimesine bilgi ya da yön arayan kişinin boyutunu kazandırır. Yumuşak rehberlik, soruya karşılık verip belirsizlikteki kişiyi yola çıkaran cevabı gösterir; tehdit, korkutma veya utandırma ise aynı cevabın teslim biçimini baskıya dönüştürebilir. Böylece doğru cevabın içeriği kadar nasıl verildiği de önem taşır. (93:7)'nin muhatabın geçmişini anlattığı ve isteyen kategorisini doğrudan genişletmediği okuma burada canlı kalır; bağlantı, (93:10)'daki odak biçimine yeni bir sözlük karşılığı vermeden, yol arayan kişinin aşağılanmayı kabul etmiş sayılmayacağını düşündüren pedagojik bir katkıdır.
+
+Tanıma ve yön verme, (93:8)'deki bulunmuş ihtiyaçtan yeterliliğe uzanan maddi çizgiyle genişler. Yoksulluk görünür talebin arkasındaki eksikliği, bakmakla yükümlü olunan kişiler bu eksikliğin uzandığı insan halkasını, yeter hale gelme hareketi ise yolun varabileceği hedefi gösterir. {ar:ٱلسَّآئِلَ, tr:as-sāʾila, gloss:istenen şeyi dile getiren kişi} burada cevaba konu olan ihtiyacın olası halkasını görünür kılar; {ar:تَنْهَرْ, tr:tanhar, gloss:azarlayıp geri çevirmek} ise ihtiyaç değerlendirilmeden yeterliliğe giden yolu yarıp kesebilecek karşılıktır. Böylece tek bir başvurunun nasıl karşılandığı, (93:8)'deki görünmeyen bağımlılar için de önem taşıyan bir destek zincirine bağlanır. Bu zincir aktarılmış ve keşifsel bir toplumsal modeldir; (93:10)'daki isteyen her durumda yoksul veya bir hanenin temsilcisi olarak kurulmaz. Azarlamamak da kaynak aktarımını kendiliğinden buyurmaz; (93:8)'deki ihtiyaçtan yeterliliğe geçiş, yalnızca yolun açık kalmasının ihtiyacı teşhis edip ilerletebileceği koşulu korur.
+
+İsteme, son bir düşük kesinlikli maddi yankıda, kapalı bir yerden nazikçe çekilip çıkarılan kırılgan bir ihtiyaç gibi duyulur; {ar:ٱلسَّآئِلَ, tr:as-sāʾila, gloss:isteyen / soran kişi} bu açılma hareketini, {ar:تَنْهَرْ, tr:tanhar, gloss:sertçe azarla ve geri çevirme} ise karşı taraf hazırlıksızken fırsat kollayıp ani bir atılışla kapanan açıklığı taşır. Böylece sert söz, ihtiyaçtan cevaba doğru uzanan küçük dışa hareketi açılma anında geri itip kontrol altına alan kuvvet olarak görünür. Bu maddi görüntü (93:10)'daki sözlü azarlama anlamını taşır biçimde onu somutlaştırır; fiile fiziksel kapma anlamı vermez. Yüz yüze gelen iki katkı nettir: yardım veya bilgi istemek üzere açılan kişi ve bu açıklığı birden kapatabilecek söz. Ayetin sonundaki yasak, tam bu karşılaşmada insanı küçülten kapatmayı durdurur.
+
+</editorial_prose>

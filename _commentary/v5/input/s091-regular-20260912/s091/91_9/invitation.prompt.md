@@ -1,0 +1,191 @@
+# V5 reading invitation — 91:9
+
+You are a fresh reading-invitation writer. Read the complete editorial prose
+before writing. It is your sole semantic source.
+
+Write two to four paragraphs of fluent, contemporary Turkish that reveal a
+surprising reading by following one or two main channels of resonance in the
+ayah. A channel is a connected background of meanings, images, actions, or
+relations through which the ayah can be heard and understood differently.
+Several editorial findings may together develop one channel. Summarize that
+connected movement and its consequence for the ayah's main meaning, rather
+than compressing findings individually. Give the reading's substance now;
+the invitation comes from understanding it, not from a promise of hidden depth.
+
+Before drafting, read the entire editorial prose and silently select the one
+or two channels with the strongest interpretive consequence and enough
+grounding to explain clearly. Favor channels that expand or shift what the
+ayah says, the relation it establishes, or what is at stake in its action or
+image. One fully developed channel is sufficient; add a second only when it
+offers a distinct consequential reading that can be explained within the
+invitation. No finding, channel, or major shift has an individual coverage
+claim. Unselected material may remain entirely in the full commentary.
+
+A channel may develop through grammar, sound, dialogue, a material process,
+time, imagery, or a conceptual relation. Resonance is not limited to acoustic
+effects, and an unusual image alone does not establish a channel. Use only
+connections the editorial prose actually develops. If it supplies no such
+channel, explain its strongest grounded reading without inventing connections
+or surprise.
+
+Begin inside the ayah's own words, images, actions, or relations and reveal a
+selected distinctive reading in the first paragraph. Keep the plain meaning
+reachable with only the orientation needed to understand the change. Do not
+spend an opening paragraph on routine explanation or front-load context about
+the surah, the ayah's position, or the commentary project.
+
+For each selected channel, begin with the expression that opens it, unfold the
+connected background, and show how the ayah reads or sounds against that
+background. Let a detail lead into the next through an intelligible relation
+or process, so the reader experiences the emerging reading. This is a movement
+of thought, not a mandatory sentence pattern or one paragraph per finding.
+Let the reader identify the expression being interpreted,
+where any nonordinary detail comes from, and what that detail changes in the
+reading. Briefly identify the word-family use, restricted form, collocation, or
+context that supplies an essential added detail, and preserve the concrete
+operation that makes the image work. Keep the ordinary reading and necessary
+qualification clear within this explanation; do not repeat them as a fixed
+formula. Preserve the particular object, process, or relation that makes this
+reading distinctive, and state its interpretive consequence for the ayah as a
+whole. Make intelligible what the familiar reading leaves less visible and
+what the expanded or shifted reading now lets the reader understand. Preserve
+the editorial's force: an exploratory possibility remains possible, while a
+developed shift must not be softened into a decorative association or a
+reassurance that everything means the same thing. A concrete
+account of how something is carried, transformed, lost, or restored must not
+shrink to a general statement about care, guidance, dependence, or goodness.
+Keep the details needed to make the selected channel work; omit side findings
+and shorten routine setup. If a channel cannot be explained faithfully from
+the editorial prose, choose another grounded channel or reading.
+
+When a non-focus ayah supplies a contribution used in the invitation, keep its
+reference from the editorial prose beside that contribution.
+
+Do not turn the invitation into a miniature inventory of the commentary's
+conclusions, or flatten distinct channels into a broad theme to include more
+material. Do not repair, extend, or supplement the editorial prose from memory
+or outside knowledge.
+
+Omit technical apparatus. Retain any qualification, source distinction, live
+alternative, or boundary whose absence would change the force or meaning of a
+chosen reading. Express it naturally beside the image or relation it qualifies.
+Favor positive explanations of the relation between layers: what remains in
+the foreground and what the resonance makes audible in the background. State
+how that background reinforces, expands, or shifts the understanding of the
+main meaning, with the source and degree of certainty clear. Reserve explicit
+exclusions for concrete ambiguities or live counter-evidence that need them.
+Repeated "this is not X" endings make a reading sound withdrawn; express the
+substantive qualification through what the reading does contribute wherever
+possible. Use varied, natural language rather than a repeated "second layer"
+formula, and preserve the force of expansions and shifts.
+Do not name branches, candidates, findings, scopes, evidence categories,
+ledgers, or workflow stages, or label the prose as numbered channels. Do not
+list findings serially.
+
+Use the established `{ar:..., tr:..., gloss:...}` syntax, consistent
+Turkish-readable transliteration, and short ordinary glosses. Keep Arabic
+anchors beside the explanations they ground. Within a paragraph, continue with
+the Turkish meaning where clear; provide the necessary local tag when a later
+paragraph interprets the carrier anew. Do not place Arabic script outside a
+valid tag.
+
+Build transitions within a channel through its shared object, action, or
+relation. If two channels are selected, they may occupy separate paragraphs;
+do not invent a link between them. Do not praise the commentary's quality,
+promise what the reader will find, manufacture suspense, recap at the end, or
+add a call to action. End on an image, relation, action, or tension already
+established by the selected reading.
+
+Before finishing, compare the invitation with the entire editorial prose:
+does the chosen channel reveal a consequential reading, or could the text have
+been written from the ordinary translation and a modest explanation alone?
+When the editorial supports a surprising channel, the latter fails this task.
+Can the reader follow the opening expression into a connected background and
+understand how that background expands or shifts the ayah's main meaning?
+Check the selected connections against their editorial explanation: can the
+reader tell where the nonordinary details come from, with the necessary
+qualifications intact? Repair generic explanation, isolated curiosities, or a
+compressed findings list by developing the selected channel. Do not add
+omitted channels merely for coverage. Do not output this check.
+
+Write only the invitation text to:
+
+`_commentary/v5/editorial/s091-regular-20260912/s091/91_9/91_9.invitation.tr.md`
+
+Do not add a heading, wrapper label, index, ledger, evidence file, or any other
+artifact. Do not modify the editorial prose.
+
+After writing the invitation, run:
+
+```bash
+python3 _commentary/v5/validate_prose.py _commentary/v5/editorial/s091-regular-20260912/s091/91_9/91_9.invitation.tr.md
+```
+
+If validation fails, repair only the reported mechanical file-contract issues
+and rerun it, for at most two repair cycles. Report the final validator result
+in your response.
+
+<editorial_prose>
+Bu âyet, önceki yemin dizisinin (91:1, 91:2, 91:3, 91:4, 91:5, 91:6, 91:7, 91:8) ardından birikmiş zemini kesin bir hükme bağlar: {ar:قَدْ, tr:qad, gloss:gerçekten} ile tasdik edilen {ar:أَفْلَحَ, tr:aflaḥa, gloss:başarıya ulaştı}, onu arındıran kişinin başarıya ulaştığını bildirir. {ar:قَدْ, tr:qad, gloss:gerçekten} kısa ve kesik başlangıcıyla kulağa sıkı bir tasdik vuruşu bırakır; parçacığın cümle başındaki görevi bu ritimle belirginleşir. Böylece âyet, önceki birikimi hükme bırakan bir cevap hareketi açar. Bu olumlu sonuç, hemen sonraki 91:10'da karşısına çıkan başarısızlık hükmüyle birlikte bir çiftin ilk yarısı gibi duyulur; başarı burada karşısında başka bir akıbeti mümkün kılan açık bir hükümdür.
+
+{ar:أَفْلَحَ, tr:aflaḥa, gloss:başarıya ulaştı} fiilinin tamamlanmış IV. bab biçimi sonucu önce bildirir. Okuyucu önce başarının gerçekleştiğini, ardından bu sonucun kime ve hangi işe bağlandığını duyar. Tekil fiil, genel {ar:مَنْ, tr:man, gloss:kim} ile birleşerek grameri tekil tutar ve hükmü şartı karşılayan herkese açar. Cümlenin ön planındaki başarı anlamı bu tamamlanmış biçimde sabittir; açılma ve üretkenlik yönü, yakınındaki arındırma eylemiyle kurulan sınırlı yankı olarak bu sonuca katkıda bulunur. {ar:أَفْلَحَ, tr:aflaḥa, gloss:başarıya ulaştı} kelimesinin {ar:قَدْ, tr:qad, gloss:gerçekten} sonrasında keskin biçimde açılması, kısa tasdikten genişleyen başarı ilanına geçen ses akışını da duyurur.
+
+Yüklemin öne alınması hükmün kuruluşunu belirler: {ar:أَفْلَحَ, tr:aflaḥa, gloss:başarıya ulaştı} önce görünür, sonra {ar:مَنْ زَكَّىٰهَا, tr:man zakkāhā, gloss:onu arındıran kimse} bu sonucun öznesini açıklar. {ar:مَنْ, tr:man, gloss:kim} kişinin kimliğini eylem üzerinden kurar ve hükmü bu yeri doldurabilecek insana açar; 91:10'da aynı açık özne yeri karşıt sonuç için de korunur (91:10). Kelime, belirli bir kabileyi, mevkiyi veya topluluğu adlandırmak yerine hem kişiyi tanımlayan ilgi yapısını hem de "kim bu işi yaparsa" anlamındaki koşul imkânını taşır. Bu iki gramer gücü birlikte çalışır: hüküm herkese açık kalırken arındırma şartı belirginliğini korur.
+
+Âyetin sonundaki {ar:زَكَّىٰهَا, tr:zakkāhā, gloss:onu arındırdı} işi yapanla işin yöneldiği canı aynı fiilde buluşturur. II. babın ikizlenmiş ses yapısı ve doğrudan yaptıran biçimi, bir failin belirli bir ruh üzerinde gerçekleştirdiği etkin çalışmayı duyurur; ruhun kendiliğinden temizlenmiş hâli bu kuruluşun dışında kalır. Yüzeyde {ar:مَنْ, tr:man, gloss:kim} özne, fiile bağlanan {ar:هَا, tr:hā, gloss:onu} ise doğrudan nesnedir. Ek, daha önce tanıtılmış nefse döner (91:7); başarı böylece belirli bir can üzerinde gerçekleşir. Fiilin tamamlanmış oluşu işi yerine getirilmiş bir eylem, ilgili yan cümleyi de başarı hükmünü doğuran sonuçlu bir ilişki hâline getirir. Son kelimenin {ar:هَا, tr:hā, gloss:onu} sesi gönderimi kapanışta işitilir bir dönüşe taşır; daha önce verilmiş kapasite, insanın o can üzerinde gerçekleştirdiği sorumlu çalışmaya dönüşür.
+
+## Açılma ve Büyüme
+
+Türkçedeki "arındırmak" karşılığı, {ar:زَكَّىٰهَا, tr:zakkāhā, gloss:onu arındırdı} kelimesinin bu cümledeki işini taşır; temizleme, düzgünleştirme ve büyüyüp artma yönleri de aynı fiile nitelikli bir derinlik verir. Malî zekât alanıyla duyulan akrabalık temizleme ve bereket tarafını açar; görünen nesne ruh olduğu için bu bağlantının içinde para, alıcı ve ödeme eylemi yer almaz. {ar:أَفْلَحَ, tr:aflaḥa, gloss:başarıya ulaştı} ile buluşan büyüme yönü, başarıyı üzerinde çalışılmış bir imkânın iyi sonuca varması gibi duyurur. Böylece kelimelerin her uzak yüzünü etkinleştiren bir liste değil, bu hükme temas eden iki yönün kurduğu anlam alanı ortaya çıkar.
+
+Bu iki yüzün birlikte katkısı, arındırılan canı işlenerek verim kazanan bir zemin olarak görünür kılar. Toprağın açılıp büyümeyi çıkarması (80:26, 80:27) canlılığın çıkış alanını, yumuşak ve verimli zemin (91:6) taşıyıcı toprağı, tohumun yarılması (6:95) başlangıç hareketini, korunmuş su payı (91:13) devam koşulunu, onu kesen müdahale (91:14) kesintinin bedelini, aynı başarı-arınma birleşimi de ulaşılan iyi hâli gösterir (87:14). Bu katkılar bir araya geldiğinde {ar:أَفْلَحَ, tr:aflaḥa, gloss:başarıya ulaştı} kelimesindeki çiftçi yüzü emek vereni, {ar:زَكَّىٰهَا, tr:zakkāhā, gloss:onu arındırdı} kelimesindeki büyüme yüzü ortaya çıkan ürünü konumlandırır; su ve kaynak görüntüleri ise ürünün yaşayacağı koşulları kurar. Başarıya ulaşma ile ruhu arındırma, böylece açık, ekime hazır ve gelişen bir imkân görüntüsünde birbirine bağlanır.
+
+Bu zemin görüntüsü açılma, ürün alma, sulama ve kaynağı koruma sırasıyla ilerler (6:95, 80:26, 80:27, 91:6, 91:13, 91:14). Önce kurulmuş can emekle işlenir ve yaşam koşulları sürdükçe verim verir. {ar:وَٱلْأَرْضِ وَمَا طَحَىٰهَا, tr:ve'l-arḍi ve mā ṭaḥāhā, gloss:yere ve onu yayıp döşeyene} ifadesindeki yayılmış zemin hareket payını, {ar:نَاقَةَ ٱللَّهِ وَسُقْيَٰهَا, tr:nāqatallāhi ve suqyāhā, gloss:Allah'ın devesi ve onun su payı} ifadesindeki su payı yaşamı sürdüren kaynağı gösterir (91:6, 91:13). Kaynağın kesilmesi, büyüme başladıktan sonra onu ayakta tutan koşulun korunmasını gündeme getirir (91:14). Böylece maddi döngü, ayetin ahlaki hükmüne eşlik eden devamlılık şartını açıklar.
+
+{ar:أَفْلَحَ, tr:aflaḥa, gloss:başarıya ulaştı} kelimesindeki açılma yönü bu sıranın işlevini belirler: hayatın ilerleyebileceği alanı açan yarılma (80:26, 80:27), büyüme kaynağını kesip gelişmeyi durduran müdahaleden ayrılır (91:13, 91:14). Tohumun yarılarak canlıyı çıkarması açılmanın canlılığı sürdüren tarafını, kaynağın kesilmesi ise aynı düzenin bozulan karşılığını gösterir (6:95, 91:14). Başarı böylece canlılığın devam edebileceği bir açıklık kurma yönünde genişler. Hayvan anlatısı ve sulama görüntüsü, odağın sözlük anlamına eklenen yeni bir ad değil, açma ile kaynak korumayı birlikte düşündüren bağlamsal tamamlayıcıdır (6:95, 91:13, 91:14).
+
+Büyüme yönü sonucu zaman içinde sınanan bir güzergâha taşır. {ar:زَكَّىٰهَا, tr:zakkāhā, gloss:onu arındırdı} kelimesindeki artma, {ar:وَٱلْقَمَرِ إِذَا تَلَىٰهَا, tr:ve'l-kameri izā telāhā, gloss:onu izlediğinde aya} ifadesindeki ardışıklıkla; {ar:فَدَمْدَمَ عَلَيْهِمْ رَبُّهُم بِذَنۢبِهِمْ فَسَوَّىٰهَا, tr:fe demdeme aleyhim rabbuhum bi-zenbihim fe-sevvāhā, gloss:suçları yüzünden üzerlerine yıkımı getirip dümdüz etti} ifadesindeki yıkıcı kesilmeyle ve {ar:وَلَا يَخَافُ عُقْبَٰهَا, tr:ve lā yeḫāfu ʿuqbāhā, gloss:ardından gelecekten korkmaz} ifadesindeki akıbet ufkuyla temas eder (91:2, 91:14, 91:15). Eylemin ardından görülen sonuç, başarının parlak bir anı aşan ve okunabilir bir iz bırakan süreç olduğunu duyurur. "Ardından" ve "kalıntı" bu bağlamın zaman görüntüleridir; fiile göksel bir tanım yüklemeden eylemin sonucunu görünür kılar.
+
+Bu ayrı kullanım hareketin niteliğini belirginleştirir: başarı kelimesinin çiftçiye benzetilerek ücretli taşıyıcıyı adlandıran yüzü, arındırılan kişiyi belirli bir işe yönelen emek taşıyıcısı gibi düşündürür. {ar:إِذِ ٱنۢبَعَثَ أَشْقَىٰهَا, tr:izi'nbeʿaşe eşḳāhā, gloss:en bahtsızı harekete geçirildiğinde} ifadesindeki kaldırılma, {ar:فَقَالَ لَهُمْ رَسُولُ ٱللَّهِ, tr:fe ḳāle lehum resūlullāh, gloss:Allah'ın elçisi onlara dedi} ifadesindeki yön veren söz ve ayın izleyişi bir güzergâh kurar (91:2, 91:12, 91:13). Hareketi başlatan fiil kişiyi kaldırır, hitap yön verir, takip ise yolu sürdürür; bu görüntü başarıyı emek ve yön taşıyan bir hareket olarak genişletir.
+
+Gelişme eylemi, devam edebilmek için zamanında güç kazanma ritmini de taşır. {ar:وَٱلشَّمْسِ وَضُحَىٰهَا, tr:ve'ş-şemsi ve ḍuḥāhā, gloss:güneşe ve onun kuşluğuna} ifadesinin işaretlediği ritim, başarı kelimesinin oruçtan önce yenilen ve devam etmeye güç veren öğünü adlandıran ayrı kullanımıyla buluşur (91:1). {ar:زَكَّىٰهَا, tr:zakkāhā, gloss:onu arındırdı} kelimesindeki büyüme yönü bu gücü gelişen sürecin yakıtı hâline getirir. Kuşluk vaktine ait besin görüntüsü, gücün belirli bir zamanda korunup sonraki eyleme taşınmasını açıklar; bu uzak bağ sürdürülebilir güç fikrine katkıda bulunur ve odağın fiilini yemek veya oruç adına dönüştürmez.
+
+## İç Düzenin Ölçüsü
+
+Arındırma eyleminin onarıcı katkısı, kurulmuş yapının bakım altında çalışır hâle gelmesidir. Arınmaya yönelme çağrısı (79:18), nefsin iç düzgünlüğü ve tamamlığı (91:7), iki ahlaki imkân (91:8), sebat ve korunma (3:200) ve nefsin cimrilikten korunması (59:9) bu katkının farklı koşullarını görünür kılar. {ar:وَنَفْسٍۢ وَمَا سَوَّىٰهَا, tr:ve nefsin ve mā sevvāhā, gloss:nefse ve onu biçimlendirene} canın biçimlendirilmiş bütünlüğünü; {ar:فَأَلْهَمَهَا فُجُورَهَا وَتَقْوَىٰهَا, tr:fe elhemehā fucūrahā ve taqwāhā, gloss:ona taşkınlığını ve korunmasını ilham edene} ise içindeki ayırt edilmiş iki yönü gösterir (91:7, 91:8). {ar:زَكَّىٰهَا, tr:zakkāhā, gloss:onu arındırdı} bu verilmiş kapasiteyi işler, düzeltir ve geliştirir. Bununla birlikte başarı, temiz ve düzgün hâle gelme, iyilik içinde kalma, istenen sonuca ulaşma ve kurtuluş yönlerini birlikte taşıyabilir; bu yönler açık ahlaki hükmü genişletir, onun yerine geçmez.
+
+İki ahlaki imkânın birlikte verilmesi, arınmayı farklılaşmış güçleri ölçü içinde tutan bir hareket olarak düşündürür. Gerçek ölçü ve tartı (7:8) ile adil ölçü ve özen (6:152), 91:8'deki ikili yapının ilişkisel tarafını belirginleştirir (6:152, 7:8, 91:8). İki kapasite bir orta yerde buluşur ve farklılıklarını korur. {ar:زَكَّىٰهَا, tr:zakkāhā, gloss:onu arındırdı} kelimesindeki çift olma yönü, oluşmuş kapasitenin devamı mümkün bir eşleşme içinde olgunlaşmasını düşündürür; yapısal görüntü üreme veya nihai çocuk anlamı kurmaz. Genişletici yön alan açarken koruyucu yön onu yaşatıcı sınırda tutar. Böylece çift, iki cevaptan birini seçmekten çok unsurların birlikte çalışabilir ve adil bir düzene girip girmediğini sınayan bir ilişki olarak görünür.
+
+Bu ilişkinin daha dar katkısı, başarıyı ruhun kendisine uygun imkânını gerçekleştirmesiyle ilişkilendirmesidir. Elde taşınan kısım, iyi durumda kalma ve arındırma işiyle birleşen başarı yönüdür. "Yakışmamak" anlamını taşıyan ayrı kullanım, bir hâlin değerlendirilen kişiye bağdaşmadığını bildiren olumsuz bir yapı içinde bu sınırı gösterir. Mevcut cümle olumlu uygunluk veya elverişlilik iddiası kurmadığı için bu ileri mecaz, {ar:أَفْلَحَ, tr:aflaḥa, gloss:başarıya ulaştı} kelimesinin yerel biçimine yüklenmez. Yarma ve ayırma yönü gücü yok eden somut kesme yerine, farklı kuvvetleri seçilebilir ve yönetilebilir kılan bir ihtimal açar. Eşitlik ve denklik görüntüsü kanalların orantısını, taşkınlık ve korunma ikilisi ise üretken enerjinin ölçü içinde yaşatılmasını düşündürür (91:7, 91:8).
+
+İnsanî çalışma, daha önce kurulmuş kozmik ve maddi hareketlerin içsel devamını taşır. {ar:وَٱلسَّمَآءِ وَمَا بَنَىٰهَا, tr:ve's-semā'i ve mā benāhā, gloss:göğe ve onu kurana} kurulmuş ve sürdürülebilir yapıyı; yerin yayılıp açılması hayat için hareket alanını; gündüzün açığa çıkaran hareketi örtük kapasitenin görünür olmasını; {ar:وَنَفْسٍۢ وَمَا سَوَّىٰهَا, tr:ve nefsin ve mā sevvāhā, gloss:nefse ve onu biçimlendirene} ise canlı ve sağlam bir iç alanın biçimlendirilmesini taşır (91:3, 91:5, 91:6, 91:7). İnsan bu görüntülerle birlikte kuruluşu kendi içinde sürdüren işleyici gibi belirir. Gök veya yer kurmak, gündüzün açığa çıkarması ve nefsi bir alan olarak düşünmek burada odağın sözlük karşılığı değil, arındırılmış kapasitenin bağlamsal rolleridir. Nefsin sağlamca tamamlanmış oluşu büyümenin karşıtı değil, gelişmenin üzerinde çalışabileceği iç düzendir (91:7).
+
+## Açıklık ve Ortak Hayat
+
+Arınmanın görünürlük katkısı, örtük kapasiteyi çalışabilir bir açıklığa çıkarmasıdır. {ar:أَفْلَحَ, tr:aflaḥa, gloss:başarıya ulaştı} kelimesinin açılma yönü gündüzün açığa çıkarması ve gecenin örtmesiyle; {ar:زَكَّىٰهَا, tr:zakkāhā, gloss:onu arındırdı} kelimesinin düzgünleştirme yönü ise gizlenmiş nefsin çalışabilir hâle gelmesiyle temas eder (91:3, 91:4, 91:7). {ar:وَٱلَّيْلِ إِذَا يَغْشَىٰهَا, tr:ve'l-leyli izā yaġşāhā, gloss:onu örttüğünde gece} iç kapasitenin görünürlükten çıkarılmasını somutlaştırır (91:4). Gündüzün ortaya çıkarma hareketi imkânı teşhis edilebilir kılar; gece bu açıklığın sınırını görünür kılar.
+
+Açıklık bir eşik içinde yaşar. Nefsin biçimi, iki yönün birlikte verilmesi, ölçü ve denklik görüntüleriyle yıkımın her şeyi düzleştiren sonucu yan yana geldiğinde güç, biçim taşıyan bir düzen içinde yönetilir (91:7, 91:8, 91:14, 91:15). Yarma ve ayırma farklı kuvvetleri seçilebilir kılar; tekrarlanan eşitleme ve yıkım ise yaşayan farklılığı koruyan gelişme ile geriye canlı biçim bırakmayan sonuç arasındaki farkı açar (91:14). Arındırma bu yüzden ayırt edilmiş bir bütünün gelişmesini sürdürür. "Yakışmamak" sınırı, her hâlin her kişiye bağdaşmadığını gösterir. Biçimlendirilmiş nefsin tamamlığı yaşamı taşıyan bütünlüğü, yıkımın dümdüz edici sonucu ise farkı korumayan işlemin ortak düzeni tüketmesini görünür kılar (91:7, 91:14).
+
+Bu görünürlük hareketinin sınırı, iç arınmanın dışarıdan hemen okunmayan bir iş olmasıdır (80:3). 91:4'teki örtme, 91:10'daki gizleme, 91:11'deki inkâr ve 91:14'teki hayat kaynağını kesme görüntüleri bu gizliliğin karşı yüzünü verir. Bu karşı yüzler arasında {ar:زَكَّىٰهَا, tr:zakkāhā, gloss:onu arındırdı} örtülmüş imkânı tanınabilir ve işe yarar hâle getirir; başarıya ulaşma ve iyi durumda kalma yönü, çalışmanın işlemiş bir yaşama ve tutunmuş bir sonuca açılması gerektiğini duyurur (91:4, 91:10, 91:14, 91:15). Bu bağlam, iç kapasitenin zorunlu dışa vurumunu değil, arınmanın görünürlük eşiğini açıklar.
+
+Arındırmanın ortak hayattaki katkısı, içteki gelişmeyi başkalarının ve başka canlıların yaşayabileceği bir düzenle ilişkilendirmesidir. İnsanları temizleyip geliştiren verme eylemi (9:103), korunmuş su payı ve bu payı kesen müdahaleyle yan yana geldiğinde {ar:زَكَّىٰهَا, tr:zakkāhā, gloss:onu arındırdı} kişinin içinde yaptığı işin ortak yaşama nasıl döndüğünü düşündürür (9:103, 91:13, 91:14). Çiftçi görüntüsü ortak kaynağın payını gözeten emanetçiliği, büyüme görüntüsü gelişmenin ortak hayatı işlemesini, taşkınlık ise gücün sınırlandırılmadığında düzeni aşmasını taşır. {ar:نَاقَةَ ٱللَّهِ وَسُقْيَٰهَا, tr:nāqatallāhi ve suqyāhā, gloss:Allah'ın devesi ve onun su payı} içindeki su payı korunmuş ortak kaynağın sınırını; {ar:فَعَقَرُوهَا, tr:fe ʿaḳarūhā, gloss:onu yaraladılar} ise başka bir hayatı işlevsiz bırakan reddi gösterir (91:13, 91:14). Ardından gelen yıkım, tek bir zararın bütün düzeni kuşatan bir akıbet doğurabildiğini açar (91:14). Su payı ve hayvan görüntüsü, odağın sözlük anlamı değil, arındırılmış gücün ortak hayat karşısındaki sonucunu somutlaştırır.
+
+Ortak düzenin sonucu, hareketin nasıl başlatıldığı ve nereye yöneldiğiyle belirginleşir. {ar:إِذِ ٱنۢبَعَثَ أَشْقَىٰهَا, tr:izi'nbeʿaşe eşḳāhā, gloss:en bahtsızı harekete geçirildiğinde} ifadesi bir insanın veya gücün durgunluktan çıkarılıp sonuç doğuran bir işe sokulmasını; yön veren hitap, su payı ve başka bir hayatın yaralanması ise bu hareketin ortak düzenle bağını gösterir (91:12, 91:13, 91:14). {ar:فَدَمْدَمَ عَلَيْهِمْ رَبُّهُم بِذَنۢبِهِمْ فَسَوَّىٰهَا, tr:fe demdeme aleyhim rabbuhum bi-zenbihim fe-sevvāhā, gloss:suçları yüzünden üzerlerine yıkımı getirip dümdüz etti} ifadesi özel bir müdahalenin toplu akıbetini görünür kılar (91:14). Başarı böylece kişinin kendisini geliştirmesine, gücünü sınırlı kullanmasına ve korunmuş kaynağın payını gözetmesine birlikte bağlanır.
+
+## Sahici Sonuç
+
+Açılmanın yapıcı katkısı canlılığı taşıyan bütünlüğü kurmasıdır; yıkıcı karşılığı ise aynı kaynağı ve bütünlüğü bozan kopuştur. Toprağın yayılması, gerçeğin inkârı, yaranın kesilmesi ve yıkım bu iki sonucu karşılaştırmalı olarak görünür kılar (80:26, 91:6, 91:11, 91:14). {ar:كَذَّبَتْ ثَمُودُ بِطَغْوَىٰهَا, tr:kezzebet Semūdu bi-ṭaġvāhā, gloss:Semûd taşkınlığı yüzünden yalanladı} inkârı, {ar:فَعَقَرُوهَا, tr:fe ʿaḳarūhā, gloss:onu yaraladılar} ise bu inkârın başka bir canlıda açtığı kesintiyi somutlaştırır (91:11, 91:14). Termit, bozulmuş süt ve kalıntı gibi ayrı maddi çağrışımlar burada kelimenin kapsamını belirleyen bir sınır olarak kalır; sahneyi kuran katkı açma ile bozulma arasındaki nitelikli karşıtlıktır.
+
+Açılma ile bütünlük arasındaki kırılganlık, bedensel bir yankıyla da hissedilir. {ar:أَفْلَحَ, tr:aflaḥa, gloss:başarıya ulaştı} kelimesinin dudakta, özellikle alt dudakta belirgin yarık anlamındaki ayrı kullanımı; gece örtüsü, biçimlendirilmiş nefis, açılan yara ve yıkımdan sonraki akıbetle yan yana geldiğinde canlı benliğin çatlağa açık bütünlüğünü gösterir (91:4, 91:7, 91:14, 91:15). Başarı bu görüntüde görünür bir kırılma ihtimaline rağmen canlı benliği koruyan bir düzen olarak genişler. Bedensel yankı keşif niteliğinde ve sınırlıdır; odak fiili yarık veya hastalık adına dönüşmeden arındırma işinin canlı benliği işlemesi yönünü derinleştirir.
+
+Başarının sahicilik katkısı, görünüşteki zafer ile arındırıcı sonucu birbirinden ayıran bir ölçü kurmasıdır. {ar:أَفْلَحَ, tr:aflaḥa, gloss:başarıya ulaştı} kelimesinin alışverişi çekici gösterme, yalanla kandırma ve alaya alma yönleri; inkâr, elçinin sözü, takip ve yaralama görüntüleriyle temas ettiğinde etkileyici görünüş ile arındırıcı sonuç ayrılır (91:2, 91:11, 91:12, 91:13, 91:14). {ar:كَذَّبَتْ ثَمُودُ بِطَغْوَىٰهَا, tr:kezzebet Semūdu bi-ṭaġvāhā, gloss:Semûd taşkınlığı yüzünden yalanladı} iddianın çekici sunumla değil gerçeğe uygun atıfla sınanmasını; elçinin hitabı ve ardışıklık ise sözün bir yöne bağlanmasını taşır (91:2, 91:11, 91:13). Bu temas, başarıyı manipülasyonun ürettiği üstünlükten ayırırken kelimenin olağan başarı anlamını yerinde tutar.
+
+Bu sahnenin karşı-gölgesi, görünür zaferin dayanıklı iyiyle aynı şey olmadığını gösterir. Takip eden hareket bir zafer üretebilir, fakat temiz ve düzgün hâle gelme yönü başarıya doğruluk ölçütü verir; kazanım nefsi geliştirmiyor ve doğru bir dayanağa oturmuyorsa âyetin başarı hükmündeki sahicilik ölçüsüne ulaşmaz (91:2, 91:11, 91:13). Hakikate karşı yalan görüntüsü, inkâr ve manipülatif atıfla birleşerek başarıyı doğruya dayanma şartıyla sınar. Kumar, yalanlama ve kandırma odağın doğrudan sözlük karşılığı değil, bu sahnelerin başarı-arınma ilişkisine düşürdüğü karşı-gölgedir.
+
+Eylemin ardından görülen iz, başarının zaman içindeki katkısını açığa çıkarır. {ar:وَٱلْقَمَرِ إِذَا تَلَىٰهَا, tr:ve'l-kameri izā telāhā, gloss:onu izlediğinde aya} ifadesindeki takip ve {ar:وَلَا يَخَافُ عُقْبَٰهَا, tr:ve lā yeḫāfu ʿuqbāhā, gloss:ardından gelecekten korkmaz} ifadesindeki akıbet, kazanımın eylemden sonra da sürmesi gerektiğini gösterir (91:2, 91:15). {ar:زَكَّىٰهَا, tr:zakkāhā, gloss:onu arındırdı} büyümeyi zaman içinde ilerleyen bir süreç, {ar:أَفْلَحَ, tr:aflaḥa, gloss:başarıya ulaştı} ise iyilik içinde kalmayı ve amaca ulaşmayı devam eden bir çizgi olarak duyurur. Kalan iz, arındırmanın yaşayabilir ve okunabilir bir sonuç bırakmasını düşündürür. Bu zaman ufku fiile göksel bir anlam yüklemez; hükmün sonucuyla sınanmasını sağlar.
+
+Arındırmanın sonucu, hedef aldığı cana geri dönen bir iyilik olarak da görünür. Kendini arındıranın yararının yine kendi nefsine dönmesiyle ilgili bağ (35:18), {ar:زَكَّىٰهَا, tr:zakkāhā, gloss:onu arındırdı} kelimesindeki cana yönelen eylemle buluştuğunda başarıyı arındırılan öznenin aldığı bir iyilik olarak düşündürür. Bu geri dönüş ortak ve ilahi boyutları dışarıda bırakmaz; arındırma işinin hedef aldığı can üzerinde sonuç veren bir ilişki olduğunu belirginleştirir.
+
+İnsanî failin katkısı, can üzerinde gerçekten gerçekleştirilen ve sonucu görülen arındırma işidir. İlahi lütufla çevrilen arınma imkânı (24:21) ve kişinin kendisi hakkında arınmışlık iddiasında bulunmaması (53:32), bu insanî işi daha geniş bir sınır içine yerleştirir: {ar:زَكَّىٰهَا, tr:zakkāhā, gloss:onu arındırdı} fiilinin faili eylemini gerçekleştirir, fakat arınma imkânı kişinin kendi kendine verdiği bir mühür hâline gelmez ve nihai bilgi kişinin kendi beyanına kapanmaz (24:21, 53:32). Böylece âyetin kesin hükmü, ruh üzerinde gerçekleştirilen ve sonucu görülen arındırma işini açık tutarken bu işin sınırlarını da aynı cümle içinde taşır.
+
+</editorial_prose>

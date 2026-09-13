@@ -1,0 +1,586 @@
+{
+  "schema_version": "commentary-v5-scope-discovery-v1",
+  "ayah_ref": "96:16",
+  "lane": "global",
+  "coverage_complete": true,
+  "candidate_decisions": [
+    {
+      "candidate_id": "cand_014c7aea94590832b12f",
+      "decision": "accept",
+      "reason": "Güvenilir yayımlanmış bulgu üç focus kelimesini birlikte taşıyan ahlaki irade ve bedenî ön ilişkisini kuruyor. 11:56, 55:41 ve 45:7 bağlantıları bağımsız wider temaslar sağlıyor; üç dalın focus taşıyıcıları bulguya indi.",
+      "finding_refs": ["global:forelock-agency"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_92129c78c55a57d7a9ea",
+      "decision": "accept",
+      "reason": "Güvenilir yayımlanmış bulgu نَاصِيَةٍ ile seçkin ve önde gelen kesim dalını, ona bağlanan yalan-günah nitelikleriyle toplumsal ön yüz olarak birleştiriyor. 69:9, 63:2 ve 29:12 kolektif yönlendirici triggerları sağlıyor; qualified kimlik ve temsil sınırı korunuyor.",
+      "finding_refs": ["global:corrupt-leading-front"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_9cbe0e321fca256efbbc",
+      "decision": "accept",
+      "reason": "Güvenilir yayımlanmış bulgu كَاذِبَةٍ ile خَاطِئَةٍ sıfatlarının aynı işi yapmadığını kuruyor. 61:7, 79:21 ve 33:5, doğruluk çarpıtması, yönsel sapma ve kasıt sorumluluğu için bağımsız temaslar veriyor.",
+      "finding_refs": ["global:paired-falsehood-direction"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_054458ee8424077345fd",
+      "decision": "reject",
+      "reason": "Yağmurun atladığı arazi dalı için verilen güvenilir kayıt reject derecesinde. Focus'taki خَاطِئَةٍ taşıyıcısına rağmen packet'te yağış-arazi temasını bağımsız kuran trigger yok; anılan yağmur ve merhamet kökleri de çözülmüş branch olarak supplied değil.",
+      "finding_refs": [],
+      "branch_exclusions": [
+        {
+          "branch_ref": "root_000420/B003",
+          "reason": "Bağımsız yağış veya arazi triggerı bulunmadığı ve sup_64b983b5ccd6f0b2b1f3 bu okumayı reject olarak işaretlediği için dal global bulguya alınmadı."
+        }
+      ],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_b211b839cf4e040b542f",
+      "decision": "narrow",
+      "reason": "Legacy okuyuş bedenî önün denetim noktası oluşu ile doğruyu tutturamama basıncını focus taşıyıcılarına bağlıyor; 11:56 ve 33:5 bağımsız temas sağlıyor. Yağmurdan mahrum arazi parçası için gerekli trigger packet'te yok ve açıkça dışarıda bırakıldı.",
+      "finding_refs": ["global:front-control-and-course"],
+      "branch_exclusions": [
+        {
+          "branch_ref": "root_000420/B003",
+          "reason": "Yağmurun araziyi atlaması anlamını etkinleştiren bağımsız yağış veya arazi triggerı packet'te yok."
+        }
+      ],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_c3ff640243ca452ab9e9",
+      "decision": "reject",
+      "reason": "Retrospective record yalnızca 96:17-18'deki aynı pericope içi sonraki sahneyi veriyor. Global lane için daha geniş bağımsız trigger ve focus'a dönen global temas sunulmadığından bu sosyal ayrışma kaydı burada etkinleştirilemez.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [
+        {
+          "context_ref": "96:17",
+          "reason": "Aynı ilan edilmiş pericope içindeki sonraki ayet global genişleme değildir."
+        },
+        {
+          "context_ref": "96:18",
+          "reason": "Aynı ilan edilmiş pericope içindeki sonraki ayet global genişleme değildir."
+        }
+      ],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_f5643055e2c583f0c2ca",
+      "decision": "represented",
+      "reason": "Adayın üç branch'i ve focus yüzeyi global:forelock-agency bulgusunda aynı semantik ilişki olarak eksiksiz taşınıyor; hiçbir branch, facet veya context çıkarılmadı.",
+      "finding_refs": ["global:forelock-agency"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_b1c61c6a43659f523404",
+      "decision": "represented",
+      "reason": "Seçkin ve önde gelen ön yüz okuması global:corrupt-leading-front bulgusundaki root_001512/B003 core ve extension temasının tam semantik kopyasıdır.",
+      "finding_refs": ["global:corrupt-leading-front"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_e17c79c31593beb5f2f5",
+      "decision": "represented",
+      "reason": "Doğruluk karşıtlığı ile yönsel sapmayı birleştiren aday claim'i global:paired-falsehood-direction bulgusunda aynı iki focus branch'i ve ayrımıyla taşınıyor.",
+      "finding_refs": ["global:paired-falsehood-direction"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_1ec8de32772a4bea32ff",
+      "decision": "reject",
+      "reason": "Adayın somut dayanağı 96:17-19 içindeki aynı pericope bağlamı. B001 ve B003 için wider global trigger sağlanmadığından sonraki karşıtlık global lane'de retained finding olamaz.",
+      "finding_refs": [],
+      "branch_exclusions": [
+        {
+          "branch_ref": "root_000420/B001",
+          "reason": "Yönsel ayrım yalnızca 96:17-19 sonraki sahnesine bağlanmış; wider global trigger yok."
+        },
+        {
+          "branch_ref": "root_001512/B003",
+          "reason": "Toplumsal ön dalı yalnızca 96:17-18 sonraki sahnesine bağlanmış; wider global trigger yok."
+        }
+      ],
+      "facet_exclusions": [],
+      "context_exclusions": [
+        {
+          "context_ref": "96:17",
+          "reason": "Aynı pericope içi sonraki sosyal sahne global geniş trigger değildir."
+        },
+        {
+          "context_ref": "96:18",
+          "reason": "Aynı pericope içi sonraki karşı-sahne global geniş trigger değildir."
+        },
+        {
+          "context_ref": "96:19",
+          "reason": "Aynı pericope içi sonraki secde sahnesi global geniş trigger değildir."
+        }
+      ],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_d7f5135b825a79f65886",
+      "decision": "reject",
+      "reason": "HFT özeti legacy_unbound ve exact trace koordinatı, word index'i, root'u, attributed role'ü veya focus'a dönüşü vermiyor. Özet, global lane'de attributed activation kurmak için gerekli carrier ve bağımsız triggerı sağlamıyor.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_7da3304cd0dbc7832de1",
+      "decision": "reject",
+      "reason": "HFT özeti legacy_unbound ve exact trace koordinatı, word index'i, root'u, attributed role'ü veya focus'a dönüşü vermiyor. Özet, global lane'de attributed activation kurmak için gerekli carrier ve bağımsız triggerı sağlamıyor.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_29d1180568cc06720b2f",
+      "decision": "reject",
+      "reason": "HFT özeti legacy_unbound ve exact trace koordinatı, word index'i, root'u, attributed role'ü veya focus'a dönüşü vermiyor. Özet, global lane'de attributed activation kurmak için gerekli carrier ve bağımsız triggerı sağlamıyor.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_8e04ab7a7d38767962dd",
+      "decision": "reject",
+      "reason": "HFT özeti legacy_unbound ve exact trace koordinatı, word index'i, root'u, attributed role'ü veya focus'a dönüşü vermiyor. Özet, global lane'de attributed activation kurmak için gerekli carrier ve bağımsız triggerı sağlamıyor.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_f314e722cc1696a32888",
+      "decision": "reject",
+      "reason": "HFT özeti legacy_unbound ve exact trace koordinatı, word index'i, root'u, attributed role'ü veya focus'a dönüşü vermiyor. Özet, global lane'de attributed activation kurmak için gerekli carrier ve bağımsız triggerı sağlamıyor.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_d9b852c85555a67256b9",
+      "decision": "reject",
+      "reason": "HFT özeti legacy_unbound ve exact trace koordinatı, word index'i, root'u, attributed role'ü veya focus'a dönüşü vermiyor. Özet, global lane'de attributed activation kurmak için gerekli carrier ve bağımsız triggerı sağlamıyor.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_cafeff28c141b8ec6394",
+      "decision": "reject",
+      "reason": "HFT özeti legacy_unbound ve exact trace koordinatı, word index'i, root'u, attributed role'ü veya focus'a dönüşü vermiyor. Özet, global lane'de attributed activation kurmak için gerekli carrier ve bağımsız triggerı sağlamıyor.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_ad6689cffd5b0ff2fbc1",
+      "decision": "reject",
+      "reason": "HFT özeti legacy_unbound ve exact trace koordinatı, word index'i, root'u, attributed role'ü veya focus'a dönüşü vermiyor. Özet, global lane'de attributed activation kurmak için gerekli carrier ve bağımsız triggerı sağlamıyor.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_93c871524181262e8b49",
+      "decision": "reject",
+      "reason": "HFT özeti legacy_unbound ve exact trace koordinatı, word index'i, root'u, attributed role'ü veya focus'a dönüşü vermiyor. Özet, global lane'de attributed activation kurmak için gerekli carrier ve bağımsız triggerı sağlamıyor.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    }
+  ],
+  "findings": [
+    {
+      "finding_ref": "global:forelock-agency",
+      "origin_candidate_id": "cand_014c7aea94590832b12f",
+      "represented_candidate_ids": ["cand_f5643055e2c583f0c2ca"],
+      "title": "Ahlaki niteliklerin denetim noktasında toplanması",
+      "claim": "Focus'taki yalan ve sorumluluk nitelikleri, bedenî ön olarak adlandırılan perçemi kişinin ahlaki iradesinin ve denetlenebilir yönünün kavranabildiği bir temas noktası yapar.",
+      "mechanism": "نَاصِيَةٍ için verilen bedenî ön, 55:41'de suçluların perçemlerinden tutulması ve 11:56'da her canlının perçeminden tutulmasıyla denetim ilişkisine girer; كَاذِبَةٍ ile خَاطِئَةٍ ise 45:7'deki birlikte duran yalancılık-günah profiliyle aynı ön üzerinde ahlaki yükü görünür kılar.",
+      "reader_payoff": "Okur, sıfatların soyut bir kişilik etiketi olarak kalmadığını; yalan ve sorumluluğun kişinin önden yön veren, tutulabilir yüzünde görünür hale geldiğini fark eder.",
+      "containment": "Bu, bedenî perçem ile ahlaki fail arasındaki sınırlı temsil ilişkisidir. Perçem bütün kişiye indirgenmez ve bu bulgu ayrıca topluluk önderi dalını ileri sürmez.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": ["trusted"],
+        "reason": "Citable yayımlanmış bulgu üç focus dalını birlikte bağlıyor; wider ayetlerin denetim ilişkisine döndürülmesi exact Arabic ve bağlantı notları üzerinden yapılan sınırlı bir yorumdur."
+      },
+      "support_ids": ["sup_1174567c7be8837ffe45"],
+      "branch_activations": [
+        {
+          "branch_ref": "root_001512/B001",
+          "facet_id": "F001",
+          "branch_gloss": "alın saç çizgisi; buradan tutup çekme ve denetim altına alma",
+          "facet_statement": "Alındaki saç sınırı ya da ön saçın çıktığı yer, dalın bedensel çekirdeğidir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["96:16:1:1"],
+          "trigger_refs": ["55:41"],
+          "focus_return_refs": ["96:16:1:1"],
+          "carrier": "نَاصِيَةٍ, focus'taki somut ön saç/perçem bölgesini taşır.",
+          "independent_trigger": "55:41, suçluların simalarıyla tanınmasını ve perçemlerinden tutulmasını aynı sahnede verir.",
+          "activation": "Focus taşıyıcısının bedenî ön oluşu, 55:41'deki tanıma ve tutulma eylemiyle temas ederek ön bölgeyi ahlaki failin görünür ve yakalanabilir yeri haline getirir.",
+          "resulting_reading": "Perçem, kişinin üzerinde bulunan beden parçasının yanında yalan ve günah niteliğinin görünür ön yüzü olarak okunur.",
+          "boundary": "Perçem kişinin bütünü veya zorunlu olarak topluluk önderi değildir."
+        },
+        {
+          "branch_ref": "root_001512/B001",
+          "facet_id": "F004",
+          "branch_gloss": "alın saç çizgisi; buradan tutup çekme ve denetim altına alma",
+          "facet_statement": "Bir şeyin ön kısmından tutma görüntüsü, belirli bir söz öbeğinde onun üzerinde denetim ve söz sahibi olmayı anlatır.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["96:16:1:1"],
+          "trigger_refs": ["11:56"],
+          "focus_return_refs": ["96:16:1:1"],
+          "carrier": "نَاصِيَةٍ, kişinin önden gelen ve tutulabilen bedenî önünü taşır.",
+          "independent_trigger": "11:56, her canlının perçeminden tutulmasını ilahi hâkimiyet bağlamında verir.",
+          "activation": "Focus'taki ön, 11:56'daki perçemden tutma görüntüsüyle birleşerek yalan ve günahın bulunduğu yerin denetimin uygulandığı nokta olduğunu duyurur.",
+          "resulting_reading": "Ahlaki irade, kişinin yön veren önünde tutulabilir ve geri döndürülebilir bir denetim ilişkisi içinde görünür.",
+          "boundary": "İlahi tutuşun bütün teolojik sonuçları veya failin iradesinin tamamen yok olduğu iddia edilmez."
+        },
+        {
+          "branch_ref": "root_001290/B001",
+          "facet_id": "F001",
+          "branch_gloss": "sözde veya davranışta doğruluğa aykırılık",
+          "facet_statement": "Doğruluğa aykırılık hem söylenen bir sözde hem de yapılan bir davranışta gerçekleşebilir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["96:16:2:1"],
+          "trigger_refs": ["45:7"],
+          "focus_return_refs": ["96:16:2:1"],
+          "carrier": "كَاذِبَةٍ, focus'taki ön yüzün doğruluğa aykırı niteliğini taşır.",
+          "independent_trigger": "45:7, yalancılığı günahkârlıkla aynı ahlaki tip içinde birlikte adlandırır.",
+          "activation": "Focus'taki doğruluğa aykırılık, 45:7'deki yalancılık-günah birlikteliğiyle temas ederek yalanı sorumluluk taşıyan fail niteliği olarak ön bölgeye yükler.",
+          "resulting_reading": "Yalan, denetim noktasında somutlaşan etkin bir ahlaki davranış olarak görünür.",
+          "boundary": "Özel yalan kalıpları veya kişinin bütün hayatına dair ek hüküm kurulmaz."
+        },
+        {
+          "branch_ref": "root_000420/B002",
+          "facet_id": "F001",
+          "branch_gloss": "bilerek işlenen günah",
+          "facet_statement": "Kişi yapılmaması gereken bir eyleme bilerek yönelir ve günah işler.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["96:16:3:1"],
+          "trigger_refs": ["45:7"],
+          "focus_return_refs": ["96:16:3:1"],
+          "carrier": "خَاطِئَةٍ, focus'taki ön yüzün sorumluluk doğuran kötü eylem niteliğini taşır.",
+          "independent_trigger": "45:7, yalancılığı belirgin bir günahkârlık tipiyle birlikte verir.",
+          "activation": "Focus'taki günah dalı, 45:7'nin yalancılık ile günahı aynı fail profilinde birleştirmesiyle temas ederek ön yüzü sorumluluk doğuran yönelişin taşıyıcısı yapar.",
+          "resulting_reading": "Perçem, ahlaki yükün ve sorumlu yönelişin bedensel olarak tutulduğu yer haline gelir.",
+          "boundary": "Kasıtsız yanılma dalı bunun yerine geçirilmez ve büyük günah facet'i focus'a taşınmaz."
+        },
+        {
+          "branch_ref": "root_000420/B002",
+          "facet_id": "F002",
+          "branch_gloss": "bilerek işlenen günah",
+          "facet_statement": "Eylem tamamlanmış bir yanlış sayılır ve kişi bundan dolayı sorumlu tutulur.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["96:16:3:1"],
+          "trigger_refs": ["55:41"],
+          "focus_return_refs": ["96:16:3:1"],
+          "carrier": "خَاطِئَةٍ, ön üzerinde tamamlanmış ve hesabı sorulabilir yanlış niteliğini taşır.",
+          "independent_trigger": "55:41, suçluların tanınmasını ve ardından bedenî olarak tutulmasını aynı yargı sahnesinde bağlar.",
+          "activation": "Sorumluluk bildiren focus sıfatı, suçlunun tanınıp perçeminden tutulduğu sahneyle temas ederek ahlaki yargıyı bedenî ön üzerinde görünür ve uygulanabilir kılar.",
+          "resulting_reading": "Yalan ve günah, kişinin hesabı sorulan eyleminin tutulabilir ön işaretine dönüşür.",
+          "boundary": "Sorumluluk fiziksel saç parçasına indirgenmez; bu sınırlı bir temsil ilişkisidir."
+        }
+      ],
+      "connection_refs": ["conn_864902a723552cf4c365", "conn_ec2ae4f47ad08464db1d", "conn_3c657edc776b7c109c16"],
+      "context_refs": ["11:56", "45:7", "55:41"],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:corrupt-leading-front",
+      "origin_candidate_id": "cand_92129c78c55a57d7a9ea",
+      "represented_candidate_ids": ["cand_b1c61c6a43659f523404"],
+      "title": "Perçemin toplumsal ön yüze genişlemesi",
+      "claim": "Perçem, focus'taki yalancı ve günahkâr niteliklerin bedenî taşıyıcısı olarak kalırken, wider temaslarla topluluğun önde gelen ve yön veren ön yüzünü görünür kılar.",
+      "mechanism": "نَاصِيَةٍ için seçkin ve önde gelen kesim dalının core facet'i focus taşıyıcısına bağlanır; 69:9'daki Firavun ve toplu günah sahnesi, 63:2'deki topluca yemin edip yolu engelleme ve 29:12'deki başkalarını yola çağırıp sorumluluktan kaçan yalancılar, bedenî önün bozuk bir yönlendirici yapıya yayılmasını tetikler.",
+      "reader_payoff": "Okur, ahlaki teşhisin tek kişinin iç niteliğiyle sınırlı kalmayıp başkalarını yönlendiren ve yanlış yolu koruyan bir ön yapıda da okunabildiğini görür.",
+      "containment": "Toplumsal önderlik root_001512/B003'ün qualified temsil uzantısıdır; her perçem liderlik kurumu değildir ve bireysel bedenî anlamın yerini almaz.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": ["trusted"],
+        "reason": "Güvenilir yayımlanmış bulgu focus kelimelerini kolektif ön yüz olarak bağlıyor; B003 kimliği qualified ve toplumsal genişleme supplied ayetlerden yapılan sınırlı çıkarımdır."
+      },
+      "support_ids": ["sup_469d08748d24dd4e2857"],
+      "branch_activations": [
+        {
+          "branch_ref": "root_001512/B003",
+          "facet_id": "F001",
+          "branch_gloss": "seçkin kesim, en iyiyi seçme ve önde gelme",
+          "facet_statement": "Bir topluluğun ya da herhangi bir şeyin en iyi ve seçkin kesimi, dalın temel adlandırmasıdır.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["96:16:1:1"],
+          "trigger_refs": ["69:9"],
+          "focus_return_refs": ["96:16:1:1"],
+          "carrier": "نَاصِيَةٍ, bedenî önün yanı sıra önde gelen kesim pressure'ını taşır.",
+          "independent_trigger": "69:9, Firavun'u ve ondan öncekileri toplu bir günahla birlikte anar.",
+          "activation": "Focus'taki ön taşıyıcısı, 69:9'daki Firavun ve toplu fail sahnesiyle temas ederek perçemi grubun öne çıkan ve bozulmuş yüzü olarak düşünmeye açar.",
+          "resulting_reading": "Yalancı-günahkâr perçem, topluluğun başını ve görünen önünü taşıyan bir ifade olur.",
+          "boundary": "Geride kalan bölüm, bitki ve başka ن ص ي dalları focus'a eklenmez."
+        },
+        {
+          "branch_ref": "root_001512/B003",
+          "facet_id": "F003",
+          "branch_gloss": "seçkin kesim, en iyiyi seçme ve önde gelme",
+          "facet_statement": "Topluluğun önde gelenleri ile bir topluluğun önderi veya en seçkin kişisi, üstünlük ölçütünün kişi alanındaki uzantısıdır.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["96:16:1:1"],
+          "trigger_refs": ["63:2"],
+          "focus_return_refs": ["96:16:1:1"],
+          "carrier": "نَاصِيَةٍ, topluluğun önde gelen yüzünü temsil etmeye açılan focus önünü taşır.",
+          "independent_trigger": "63:2, görünürdeki yeminleri siper ederek yolu engelleyen ve kötü işler yapan toplu fail resmi verir.",
+          "activation": "Önderlik facet'i, 63:2'deki yol engelleyen toplu faille temas ederek perçemin ahlaki niteliğini onu destekleyen yönlendirici ön yapıya yayar.",
+          "resulting_reading": "Focus, tek kişinin yalanından çok yanlış yönü öne çıkaran bozuk öncülüğün yüzünü de gösterir.",
+          "boundary": "Belirli tarihsel bir topluluğa veya bütün liderlik biçimlerine hüküm verilmez."
+        },
+        {
+          "branch_ref": "root_001290/B001",
+          "facet_id": "F001",
+          "branch_gloss": "sözde veya davranışta doğruluğa aykırılık",
+          "facet_statement": "Doğruluğa aykırılık hem söylenen bir sözde hem de yapılan bir davranışta gerçekleşebilir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["96:16:2:1"],
+          "trigger_refs": ["63:2"],
+          "focus_return_refs": ["96:16:2:1"],
+          "carrier": "كَاذِبَةٍ, toplumsal önün söz veya davranışta doğruluğa aykırılığını taşır.",
+          "independent_trigger": "63:2, görünür yeminlerin arkasına saklanıp yolu engelleyen kötü eylem örüntüsünü verir.",
+          "activation": "Focus'taki yalancılık, 63:2'de sözün toplumsal engelleme davranışına dönüşmesiyle temas ederek doğruluk karşıtlığını yönlendirici eyleme bağlar.",
+          "resulting_reading": "Bozuk ön yüz, yanlış yönü söz ve davranışla yürüten toplumsal fail olarak belirir.",
+          "boundary": "Bütün münafıklık kategorisi veya focus dışı özel kalıplar ileri sürülmez."
+        },
+        {
+          "branch_ref": "root_000420/B002",
+          "facet_id": "F001",
+          "branch_gloss": "bilerek işlenen günah",
+          "facet_statement": "Kişi yapılmaması gereken bir eyleme bilerek yönelir ve günah işler.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["96:16:3:1"],
+          "trigger_refs": ["69:9"],
+          "focus_return_refs": ["96:16:3:1"],
+          "carrier": "خَاطِئَةٍ, önde duran failin bilerek işlenen yanlışlıkla nitelenmesini taşır.",
+          "independent_trigger": "69:9, Firavun ve toplulukların bir arada günah getirmesini bildirir.",
+          "activation": "Focus'taki günah niteliği, 69:9'daki toplu ve yönetici fail görüntüsüyle temas ederek ahlaki bozukluğu tek kişiden ön yapıya yayar.",
+          "resulting_reading": "Günahkâr sıfatı, önde gelen bir yapının ürettiği yönlendirme bozukluğu olarak da görünür.",
+          "boundary": "Toplu yayılım bireysel sorumluluğu silmez ve belirli tarihsel özdeşlik kurulmaz."
+        },
+        {
+          "branch_ref": "root_000420/B002",
+          "facet_id": "F002",
+          "branch_gloss": "bilerek işlenen günah",
+          "facet_statement": "Eylem tamamlanmış bir yanlış sayılır ve kişi bundan dolayı sorumlu tutulur.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["96:16:3:1"],
+          "trigger_refs": ["29:12"],
+          "focus_return_refs": ["96:16:3:1"],
+          "carrier": "خَاطِئَةٍ, toplumsal önün hesabı sorulan tamamlanmış yanlış niteliğini taşır.",
+          "independent_trigger": "29:12, başkalarını belirli bir yola çağıranların kendi hatalarını üstlenme iddiasını ve yalancılıklarını verir.",
+          "activation": "Sorumluluk facet'i 29:12'deki yönlendirme ve sorumluluktan kaçış temasıyla temas ederek bozuk öncülüğün hesabı sorulan bir eylem taşıdığını gösterir.",
+          "resulting_reading": "Toplumsal ön, başkalarını etkileyen yüzü kadar kendi yönlendirmesinden sorumlu fail olarak okunur.",
+          "boundary": "Başkalarının günahının otomatik olarak lidere geçtiği veya bütün topluluğun tek fail olduğu söylenmez."
+        }
+      ],
+      "connection_refs": ["conn_775a6f3b8ba6f3517499", "conn_70e04525c97f7ac8b783", "conn_7fc05448c37ced4865f3"],
+      "context_refs": ["29:12", "63:2", "69:9"],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:paired-falsehood-direction",
+      "origin_candidate_id": "cand_9cbe0e321fca256efbbc",
+      "represented_candidate_ids": ["cand_e17c79c31593beb5f2f5"],
+      "title": "Yalanın yön kaybına dönüşmesi",
+      "claim": "كَاذِبَةٍ doğruluğa aykırılığı, خَاطِئَةٍ ise doğruyu veya hedefi tutturamama ile bilerek işlenen sorumluluk arasındaki yönsel gerilimi taşır; iki sıfat birlikte yanlış sözün yönü bozup sorumluluğa varmasını görünür kılar.",
+      "mechanism": "كَاذِبَةٍ taşıyıcısı 61:7'de teslimiyete çağrı sürerken Allah'a yalan isnat edilmesiyle doğruluk karşıtlığına bağlanır; خَاطِئَةٍ için 33:5 kasıtsız hata ile kalbin kastını ayırır, 79:21 ise inkârı itaatsizlikle aynı hareket içinde gösterir. Bu temaslar son sıfatın basit bir kazayı değil, yönü bozulan ve sorumluluk taşıyan bir seyri duyurur.",
+      "reader_payoff": "Okur, iki sıfatı aynı türden bir yanlış tekrarı olarak değil; hakikati çarpıtma, doğru yönden sapma ve bunun sorumluluk kazanması şeklinde birbirini ilerleten hareketler olarak görebilir.",
+      "containment": "Kasıtsız yanılma dalı ile bilerek işlenen günah dalı ayrımları korunarak birlikte tutulur; 33:5'in kazara hata sınırı canlıdır. Her hata günah sayılmaz ve iki sıfat eşanlamlı yapılmaz.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": ["trusted"],
+        "reason": "Yayımlanmış bulgu iki sıfatın ayrımını ve focus branch'lerini doğrudan verir; doğruluk, yön ve sorumluluk arasındaki ardışık temas supplied wider ayetlerden çıkarılan bounded bir ilişkidir."
+      },
+      "support_ids": ["sup_a787b3533ebe2bafcdff"],
+      "branch_activations": [
+        {
+          "branch_ref": "root_001290/B001",
+          "facet_id": "F001",
+          "branch_gloss": "sözde veya davranışta doğruluğa aykırılık",
+          "facet_statement": "Doğruluğa aykırılık hem söylenen bir sözde hem de yapılan bir davranışta gerçekleşebilir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["96:16:2:1"],
+          "trigger_refs": ["61:7"],
+          "focus_return_refs": ["96:16:2:1"],
+          "carrier": "كَاذِبَةٍ, doğruluğa aykırı söz veya davranış niteliğini taşır.",
+          "independent_trigger": "61:7, teslimiyete çağrılan kişinin Allah'a yalan isnat etmesini karşı karşıya getirir.",
+          "activation": "Focus'taki yalancılık, çağrı sürerken yapılan doğruluk çarpıtmasıyla temas ederek yalanı yönü belirleyen etkin bir davranış yapar.",
+          "resulting_reading": "Perçemin yalancılığı hakikatten ayrılan etkin bir yön verme biçimi olarak duyulur.",
+          "boundary": "Belirli bir focus dışı kalıp veya bütün sözlerin yalan sayılması ileri sürülmez."
+        },
+        {
+          "branch_ref": "root_000420/B001",
+          "facet_id": "F001",
+          "branch_gloss": "istemeden doğruyu tutturamama",
+          "facet_statement": "Kişi doğruyu veya belirli bir sonucu amaçlar, fakat istemeden başka bir yöne ya da sonuca varır.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["96:16:3:1"],
+          "trigger_refs": ["79:21"],
+          "focus_return_refs": ["96:16:3:1"],
+          "carrier": "خَاطِئَةٍ, doğru yönü veya hedeflenen sonucu tutturamama pressure'ını taşır.",
+          "independent_trigger": "79:21, inkârı itaatsizlikle art arda koyarak doğruluk karşıtlığının yönsel davranışa dönüştüğünü gösterir.",
+          "activation": "Focus'taki son sıfat, inkâr ve itaatsizliğin birlikte ilerlediği sahneyle temas ederek yanlışlığı doğru yönden uzaklaşma olarak açar.",
+          "resulting_reading": "Yalanın ardından gelen خَاطِئَةٍ, önün doğru rotayı tutturamayan bir yön taşıdığını görünür kılar.",
+          "boundary": "B001'in kasıtsızlık ve hedefi tutturamama sınırı korunur; bu facet tek başına kasıtlı günah değildir."
+        },
+        {
+          "branch_ref": "root_000420/B002",
+          "facet_id": "F001",
+          "branch_gloss": "bilerek işlenen günah",
+          "facet_statement": "Kişi yapılmaması gereken bir eyleme bilerek yönelir ve günah işler.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["96:16:3:1"],
+          "trigger_refs": ["33:5"],
+          "focus_return_refs": ["96:16:3:1"],
+          "carrier": "خَاطِئَةٍ, yönsel yanlışlığın bilerek işlenen günah kutbuna uzanabilen niteliğidir.",
+          "independent_trigger": "33:5, istemeden yapılan hata ile kalplerin bilerek kastettiği şeyi ayırır.",
+          "activation": "Focus'taki yönü tutturamama pressure'ı 33:5'in kasıt ayrımıyla temas ettiğinde sorumluluk doğuran bilerek yönelişin de canlı kaldığını gösterir.",
+          "resulting_reading": "Ön hem rotayı kaçırmış hem de bu kaçırmanın sorumluluk taşıyan bir yöneliş olabileceği geriliminde belirir.",
+          "boundary": "B001 ile B002 aynılaştırılmaz; 33:5'in kasıtsız hata sınırı korunur."
+        },
+        {
+          "branch_ref": "root_000420/B002",
+          "facet_id": "F002",
+          "branch_gloss": "bilerek işlenen günah",
+          "facet_statement": "Eylem tamamlanmış bir yanlış sayılır ve kişi bundan dolayı sorumlu tutulur.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["96:16:3:1"],
+          "trigger_refs": ["33:5"],
+          "focus_return_refs": ["96:16:3:1"],
+          "carrier": "خَاطِئَةٍ, yönsel yanlışın hesabı sorulan tamamlanmış eylem olarak görünmesini taşır.",
+          "independent_trigger": "33:5, hata ile kasıtlı kalp eylemi arasında sorumluluk sınırı kurar.",
+          "activation": "Bu kasıt sınırı focus'taki son sıfatla temas ederek yön kaybını yalnız hedefin tutmaması olarak bırakmaz; sorumluluk doğuran yanlışlık sonucuna taşır.",
+          "resulting_reading": "İki sıfatın akışı, hakikati çarpıtan sözün yönü bozduğunu ve bu bozulmanın hesap verilecek sonuca ulaştığını gösterir.",
+          "boundary": "Büyük günah specialization'ı veya her yön hatasının otomatik olarak suç olduğu sonucu dahil değildir."
+        }
+      ],
+      "connection_refs": ["conn_004515daa2e6a680df32", "conn_8992fa57f1fbc63cef81", "conn_68d21f9d9176af87a4ae"],
+      "context_refs": ["33:5", "61:7", "79:21"],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:front-control-and-course",
+      "origin_candidate_id": "cand_b211b839cf4e040b542f",
+      "represented_candidate_ids": [],
+      "title": "Denetim önü ile yönü tutturamayan seyir",
+      "claim": "Focus, denetimin uygulanabildiği bedenî ön ile doğruyu tutturamayan yönsel seyri aynı dar alanda buluşturur: ön tutulabilir bir kontrol noktası olurken son sıfat yön kaybını bu noktaya taşır.",
+      "mechanism": "نَاصِيَةٍ dalının bedenî ve denetim facetleri 11:56'daki perçemden tutma sahnesiyle; خَاطِئَةٍ dalının istemeden doğruyu tutturamama core'u 33:5'teki hata-kasıt ayrımıyla tetiklenir. İki carrier focus'ta aynı üç kelimelik düzende temas eder.",
+      "reader_payoff": "Okur, perçemi yalnızca yalanın yüklendiği yer değil, yönün de orada tutulup düzeltilebileceği bir ön noktası olarak algılar.",
+      "containment": "Narrowed core bedenî denetim ile yönü tutturamama pressure'ını korur. Yağmurun atladığı arazi, topluluk önderliği, kasıtlı günahın ayrı dalı ve HFT'nin executive yorumları bu bulguya eklenmez.",
+      "epistemic": {
+        "status": "exploratory",
+        "source_trust": ["legacy_unbound"],
+        "reason": "Reader-walk kaydı iki focus branch'ini birlikte öneriyor fakat legacy_unbound. Wider ayetler exact carrier-trigger temasını mümkün kılıyor; birleşik denetim-seyir ilişkisi exploratory tutuldu."
+      },
+      "support_ids": ["sup_65cafbd74a14ad92f23d"],
+      "branch_activations": [
+        {
+          "branch_ref": "root_001512/B001",
+          "facet_id": "F001",
+          "branch_gloss": "alın saç çizgisi; buradan tutup çekme ve denetim altına alma",
+          "facet_statement": "Alındaki saç sınırı ya da ön saçın çıktığı yer, dalın bedensel çekirdeğidir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["96:16:1:1"],
+          "trigger_refs": ["11:56"],
+          "focus_return_refs": ["96:16:1:1"],
+          "carrier": "نَاصِيَةٍ, kişinin önde bulunan somut bedenî önünü taşır.",
+          "independent_trigger": "11:56, her canlının perçeminden tutulduğu bir hâkimiyet ve kavrama sahnesi verir.",
+          "activation": "Focus'taki bedenî ön, 11:56'daki tutma eylemiyle temas ederek ön bölgeyi failin denetlenebilir noktası olarak görünür kılar.",
+          "resulting_reading": "Perçem, ahlaki niteliğin bulunduğu yer yanında kontrolün uygulanabildiği ön uç olur.",
+          "boundary": "Executive veya liderlik mekanizması olduğu iddia edilmez."
+        },
+        {
+          "branch_ref": "root_001512/B001",
+          "facet_id": "F004",
+          "branch_gloss": "alın saç çizgisi; buradan tutup çekme ve denetim altına alma",
+          "facet_statement": "Bir şeyin ön kısmından tutma görüntüsü, belirli bir söz öbeğinde onun üzerinde denetim ve söz sahibi olmayı anlatır.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["96:16:1:1"],
+          "trigger_refs": ["11:56"],
+          "focus_return_refs": ["96:16:1:1"],
+          "carrier": "نَاصِيَةٍ, önden tutulan şey görüntüsünü ve denetim pressure'ını taşır.",
+          "independent_trigger": "11:56, perçemden tutmayı bütün canlılar üzerinde işleyen bir kontrol görüntüsü haline getirir.",
+          "activation": "Focus'taki ön taşıyıcısı 11:56'daki tutma ve hâkimiyet görüntüsüyle birleştiğinde yanlış yönelen önün denetim altına alınabilirliği duyulur.",
+          "resulting_reading": "Yalan ve hata, kişinin yön veren önünde tutulabilir bir kontrol ilişkisi içinde görünür.",
+          "boundary": "İlahi tutuşun tüm anlam alanı focus'a aktarılmaz."
+        },
+        {
+          "branch_ref": "root_000420/B001",
+          "facet_id": "F001",
+          "branch_gloss": "istemeden doğruyu tutturamama",
+          "facet_statement": "Kişi doğruyu veya belirli bir sonucu amaçlar, fakat istemeden başka bir yöne ya da sonuca varır.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["96:16:3:1"],
+          "trigger_refs": ["33:5"],
+          "focus_return_refs": ["96:16:3:1"],
+          "carrier": "خَاطِئَةٍ, doğruyu veya hedefi tutturamayan yönsel sonucu taşır.",
+          "independent_trigger": "33:5, istemeden yapılan hata ile kalbin bilerek kastettiği şey arasında ayrım kurar.",
+          "activation": "Focus'taki son sıfat 33:5'in hata-kasıt ayrımıyla temas ederek yönü tutturamama pressure'ını kasıtlı günaha kapatmadan görünür kılar.",
+          "resulting_reading": "Denetim noktası olan ön, doğru rotayı tutturamayan seyri de taşıyan yer olarak okunur.",
+          "boundary": "Kasıtlı günah, rain-missed land veya başka خ ط ء facetleri ileri sürülmez."
+        }
+      ],
+      "connection_refs": ["conn_864902a723552cf4c365", "conn_004515daa2e6a680df32"],
+      "context_refs": ["11:56", "33:5"],
+      "semantic_obligation_refs": []
+    }
+  ],
+  "friction_notes": [
+    "Global packet'te selected_context_units boş; global activationlar yalnız packet içinde tam Arabic'i bulunan connection target'larına dayandırıldı.",
+    "HFT source_present olsa da dokuz assigned record yalnız legacy_unbound özetlerinden oluşuyor; hiçbiri exact HFT coordinate, root, attributed role ve focus return vermediği için attributed activation kurulamadı.",
+    "96:17-19 retrospective kayıtları aynı ilan edilmiş pericope içindeki sonraki sahnelerdir. Global lane sınırı nedeniyle bu turda retained global finding yapılmadı; dışlanmaları semantik yanlışlık hükmü değil lane kapsamı sınırlamasıdır.",
+    "Yağmurdan mahrum arazi okuması supplied citable support'ta reject derecesinde ve gerekli bağımsız yağış triggerı packet'te yok; adayın bağlı branch'i bu nedenle açıkça reddedildi."
+  ]
+}

@@ -9,9 +9,9 @@ channel is, when it may be spoken, and how layers 2 and 3 divide the active
 work. The old Layer 2.5 overlay lane is retained only as a historical
 experiment.
 
-Status: active specification, updated 2026-08-18. The Layer 3 v3 workflow is
-implemented and locally validated; a production semantic surah run has not yet
-been completed.
+Status: updated 2026-09-11. New surah runs use only completed final ayah
+editorials. The former channel-first source contract is historical; the active
+runbook is `_surah_commentary/v2/ORCHESTRATION.md`.
 
 ---
 
@@ -121,9 +121,9 @@ evidence and remain part of layer 2 whether or not a surah channel exists.
 ### Layer 2 (per ayah)
 
 The isolated layer-2 writer produces local surprise readings and does not
-discover or name a surah channel. In the active workflow, Layer 3 consumes those
-local surprise rows later and writes a separate surah reading; it does not patch
-channel disclosure back into the Layer-2 prose.
+discover or name a surah channel. The active surah workflow reads the final
+editorial prose containing those local readings and writes a separate surah
+reading; it does not patch channel disclosure back into the Layer-2 prose.
 
 The following maturity protocol belongs to the retired Layer 2.5 overlay
 experiment. Keep it as design history, not as active production instruction.
@@ -168,41 +168,26 @@ Fātiḥa, and every element it names is a word the reader has already met.
 
 ### 3.1 Active production
 
-Layer 2 remains cold and states local surprise readings. Layer 3 v3 consumes the
-unchanged Layer-2 v2 artifact set, especially the findings index and
-`surprise:<id>` local resonance rows, alongside the typed primary floor and
-available network/V11 evidence.
+Layer 2 remains cold and states local surprise readings. The active surah
+workflow freezes only the completed final editorial prose for every numbered
+ayah in one selected v5 analysis. It derives an anchored outline, composes the
+prelude/postlude, and edits the prose in the same composition-agent session.
+Discovery artifacts, scope ledgers, invitations, separate primary-floor data,
+and network/V11 sources are not inputs.
 
-Layer 3 then performs three separate semantic passes:
-
-- blind discovery of possible cross-ayah recognitions;
-- review into channel briefs, with stable hinges, claim policies, and complete
-  accounting for every discovery hypothesis and local resonance;
-- composition into a prose envelope whose evidence map mechanically maps every
-  admitted channel and hinge to reader-visible language.
-
-This is not disambiguation. Review decides whether something qualifies as a
-surah-wide channel, but admitted channels are not ranked and incompatible
-channels may coexist.
-
-| | layer 2 | layer 3 v3 |
-| --- | --- | --- |
-| states local surprise readings | yes | consumes them as local resonances |
-| establishes cross-ayah systems | no | yes |
-| uses Layer-2 prose as semantic input | no | no; prose is hashed for lineage |
-| writes the completed channel reading | no | yes |
-| writes ayah overlays | no | no |
+The outline selects the main cross-ayah movements supported by these editorials,
+not an inventory compressing every finding. Significant distinct systems remain
+separate; selection is not disambiguation. Each member image must have a clear
+contribution, source anchor, and preserved qualification. Every ayah is accounted
+for, including ayahs serving only as primary context.
 
 ### Layer 3 (per surah)
 
-Receives channels at the surah level. States the whole: the operations they
-form, their relation to the primary-grounded surah argument, and how each
-admitted hinge changes the reader's understanding.
-
-Layer 3 v3 writes the complete channel reading and a publication evidence map.
-It does not rewrite Layer 2 and does not add Layer-2.5 increments. The evidence
-map checks that every admitted channel and hinge appears in the prose exactly
-enough to be visible to a regular reader.
+The prelude prepares concrete expectations; the postlude develops their
+whole-surah payoff. All selected movements and members must land visibly, with
+exact source and prose anchors. Mechanical validation checks coverage and
+lineage; a semantic reviewer checks support, scope, and coherence. The workflow
+does not rewrite Layer 2 or add overlays.
 
 ---
 
@@ -224,7 +209,7 @@ channel *is* the finding; a surah reading that reports only the argument has
 withheld the thing worth knowing.
 
 Layer 3 therefore emits both, distinctly. See
-`_channel/layer3/ORCHESTRATION.md`.
+`_surah_commentary/v2/ORCHESTRATION.md`.
 
 ---
 
@@ -274,26 +259,24 @@ adds the missing machine join:
 
 Maturity is intentionally absent upstream because it is a reader-order property,
 not a discovery or review property. The retired combined pass tried to derive it
-while designing additions to Layer 2. The active Layer 3 v3 workflow does not
-write those additions; it records channel hinges and reader-visible prose
-landings instead.
+while designing additions to Layer 2. The active editorial-only workflow does
+not write those additions; it records source-anchored movements and prose landings.
 
 ## 6. Recording
 
-Per surah, active Layer 3 v3 records:
+Per surah, the active workflow records:
 
-- `discovery-hypotheses-v3` for blind concrete image-system candidates and exact
-  activation-card coverage;
-- `channel-briefs-v3` for admitted channels, member landings, hinges, claim
-  policies, and non-channel dispositions, with exact accounting for every
-  discovery hypothesis and local resonance;
-- `surah-composition-v2` for draft/editorial prelude and postlude surfaces plus
-  span-level evidence maps;
-- `surah-reading-evidence-v2` for the finalized publication evidence.
+- `surah-editorial-source-v1`: frozen final editorial texts and source hashes;
+- `surah-editorial-outline-v1`: primary progression, main movements, member
+  contributions and qualifications, and exact editorial anchors;
+- `surah-editorial-composition-v1`: draft/editorial prelude and postlude with
+  exact movement/member prose anchors;
+- `surah-editorial-publication-v1`: approved publication lineage and evidence.
 
-The schemas live under `_channel/layer3/schemas/`. For active v3 runs use only
-the schema versions listed here; older schema files are archival. The runbook is
-`_channel/layer3/ORCHESTRATION.md`.
+The active output schemas are `editorial-outline-v1.schema.json` and
+`editorial-composition-v1.schema.json` under `_surah_commentary/v2/schemas/`.
+Old channel/discovery schemas are historical. Follow
+`_surah_commentary/v2/ORCHESTRATION.md`.
 
 ---
 
@@ -301,7 +284,7 @@ the schema versions listed here; older schema files are archival. The runbook is
 
 - **Maturity remains archived.** The four-step scale and `emerging`-hint rule
   belong to the retired Layer 2.5 overlay experiment. They may be revisited
-  later, but the active Layer 3 v3 workflow does not depend on them.
+later, but the active editorial-only workflow does not depend on them.
 - **Motif identity now joins only through its stable portion.** The compiler
   resolves `root:branch/mNN` citations to typed Quran anchors. `mNN` remains
   review-local detail; downstream member identity is recorded at branch

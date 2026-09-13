@@ -1,0 +1,548 @@
+{
+  "schema_version": "commentary-v5-scope-discovery-v1",
+  "ayah_ref": "89:6",
+  "lane": "macro",
+  "coverage_complete": true,
+  "candidate_decisions": [
+    {
+      "candidate_id": "cand_1925bb3e7fe9d85b641f",
+      "decision": "accept",
+      "reason": "89:1-5 ve 89:6 için verilen exact anchor'lar, source word index'leri, kökler ve roller tamdır; root_000531/B002 odak taşıyıcısı ile beş bağlam taşıyıcısı ayrı bir carrier-trigger teması kurup 89:6:2:1'e döner. Kayıt legacy_unbound olduğu için bağlam dalları attributed olarak korunur; başka branch veya context dışlanmaz.",
+      "finding_refs": [
+        "macro:oath-sequence-trains-recognition"
+      ],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_b8325bdd26a6bf00fb32",
+      "decision": "accept",
+      "reason": "89:7-10 ve 89:6 için verilen exact anchor'lar, source word index'leri, kökler ve roller tamdır; root_001167/B001 odak taşıyıcısı ile beş anıtsal bağlam taşıyıcısı kalıcılık ilişkisini kurup 89:6:4:1'e döner. Kayıt legacy_unbound olduğu için bağlam dalları attributed olarak korunur; başka branch veya context dışlanmaz.",
+      "finding_refs": [
+        "macro:engineered-permanence-exposed"
+      ],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_6d4af374fe971c415cc9",
+      "decision": "accept",
+      "reason": "89:11-14 ve 89:6 için verilen exact anchor'lar, source word index'leri, kökler ve roller tamdır; root_000532/B002 odak taşıyıcısı ile beş taşma-karşılık bağlam taşıyıcısı sınırların yeniden kurulması ilişkisini kurup 89:6:5:1'e döner. Kayıt legacy_unbound olduğu için bağlam dalları attributed olarak korunur; başka branch veya context dışlanmaz.",
+      "finding_refs": [
+        "macro:overflow-counterflow-bounded"
+      ],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    }
+  ],
+  "findings": [
+    {
+      "finding_ref": "macro:oath-sequence-trains-recognition",
+      "origin_candidate_id": "cand_1925bb3e7fe9d85b641f",
+      "represented_candidate_ids": [],
+      "title": "Önceden kurulmuş örüntüyle tanıma sınaması",
+      "claim": "89:1-5'in şafak, eşli-eşsiz ayrımı, gece geçişi ve sınırlayıcı akıl çizgisi, 89:6'daki soruyu tarihî bir olayı fark edip etmemekten öte, bu örüntünün içinden nasıl tanınacağını sınayan düşünsel bir tanıklık olarak da açar.",
+      "mechanism": "Odaktaki تَرَ taşıyıcısının düşünüp bir görüşe varma facet'i, 89:1:1, 89:3:1, 89:3:2, 89:4:3 ve 89:5:6'da verilen ayrı geçiş, karşıtlık, açılma ve sınırlayıcı akıl rolleriyle temas eder; böylece görme sorusu, önceki dizinin ayırt edici bir hükme dönüşmesini test eder.",
+      "reader_payoff": "Okur, odaktaki görme fiilinin burada salt gözle görmenin yanında karşıtlıkları kavrayıp bir görüşe varma yönünü de taşıdığını ve Âd örneğinin bu ayırt edici tanımaya açıldığını fark eder.",
+      "containment": "Rabbinin Âd'a ne yaptığını görüp görmediğini soran temel anlam korunur. HFT kaydı legacy_unbound'dır; bağlam anchor'larında exact Arabic ile birlikte roller ve word index'leri verilse de hedef morphology sağlanmadığı için yemin dizisinin zorunlu bir algı yöntemi olduğu ileri sürülmez. Önceki dizinin yalnızca iddiayı yücelten bir yemin çerçevesi olduğu alternatif okuma canlıdır.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": [
+          "legacy_unbound"
+        ],
+        "reason": "Odak dalı root_000531/B002 exact focus occurrence ve core facet ile kayıtlıdır; beş bağlam rolünün anchor kapsamı tam olsa da target morphology sağlanmamış ve okuyucu kaynağı legacy_unbound olarak işaretlenmiştir. Bu nedenle bağlam aktivasyonları attributed niteliktedir."
+      },
+      "support_ids": [
+        "sup_ca7dd6d80d159c24083c"
+      ],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000531/B002",
+          "facet_id": "F001",
+          "branch_gloss": "düşünüp bir görüşe varma",
+          "facet_statement": "Bir konu hakkında zihinde görüş, kanı veya yargı oluşturma.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "89:6:2:1"
+          ],
+          "trigger_refs": [
+            "89:1:1",
+            "89:3:1",
+            "89:3:2",
+            "89:4:3",
+            "89:5:6"
+          ],
+          "focus_return_refs": [
+            "89:6:2:1"
+          ],
+          "carrier": "Odak yüzeyindeki تَرَ (89:6:2:1), verilen düşünüp bir görüşe varma relation'ını taşır.",
+          "independent_trigger": "89:1:1'deki şafakla açılma, 89:3:1-2'deki eşli ve eşsiz ayrımı, 89:4:3'teki hareket hâlindeki gece ve 89:5:6'daki sınırlayıcı akıl rolleri.",
+          "activation": "Bu ayrı bağlam rolleri تَرَ taşıyıcısına döndüğünde, odaktaki görme sorusu görüntüye tanıklıkla sınırlı kalmayıp karşıtlıkları ve açılmayı kavrayarak tarihî bir hükme varmayı sınar.",
+          "resulting_reading": "Muhatap, önceki işaretlerle eğitilmiş bir ayırt etme üzerinden Rabb'in Âd'a nasıl davrandığını görmeye çağrılır.",
+          "boundary": "Yemin dizisinin zorunlu bir algı yöntemi olduğunu veya sıradan görme anlamını dışladığını söylemez."
+        },
+        {
+          "branch_ref": "root_001132/B002",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "89:1:1"
+          ],
+          "trigger_refs": [
+            "89:6:2:1"
+          ],
+          "focus_return_refs": [
+            "89:6:2:1"
+          ],
+          "carrier": "89:1:1'deki HFT-attributed şafak rolü, geceden açılarak gizli olanı ayırt edilir kılan ilk geçişi taşır.",
+          "independent_trigger": "Odak yüzeyindeki تَرَ (89:6:2:1) taşıyıcısının düşünüp bir görüşe varma anlamı.",
+          "activation": "Atfedilen şafak taşıyıcısı odaktaki düşünsel görme eylemiyle temas ettiğinde, Âd'a yapılan muamele görünür bir olaydan ayırt edilerek kavranan bir tarihî geçiş olarak belirginleşir.",
+          "resulting_reading": "Görme sorusu, geceden açılarak ayırt edilir hâle gelen bir örüntüyü tarih içinde tanıma çağrısına dönüşür.",
+          "boundary": "Bu branch için packet'te bağımsız lexicon gloss'u veya facet kaydı yoktur; yalnızca exact HFT coordinate, kök ve attributed rol korunur."
+        },
+        {
+          "branch_ref": "root_000802/B001",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "89:3:1"
+          ],
+          "trigger_refs": [
+            "89:6:2:1"
+          ],
+          "focus_return_refs": [
+            "89:6:2:1"
+          ],
+          "carrier": "89:3:1'deki HFT-attributed eşli olma rolü, bir şeyi karşılığıyla birleştirerek karşılaştırmalı tanımayı mümkün kılan ilişkiyi taşır.",
+          "independent_trigger": "Odak yüzeyindeki تَرَ (89:6:2:1) taşıyıcısının karşıtlıkları düşünerek tanıma yönü.",
+          "activation": "Atfedilen eşleştirme rolü odaktaki tanıma taşıyıcısıyla temas ettiğinde, soru Âd'a yapılan muameleyi tek başına duran bir olay değil, karşılaştırma içinde ayırt edilen bir iş olarak kurar.",
+          "resulting_reading": "Muhatap, tarihî olayı karşılaştırmalı bir ayırt etme içinde görmeye çağrılır.",
+          "boundary": "Bu branch için packet'te bağımsız lexicon gloss'u veya facet kaydı yoktur; yalnızca exact HFT coordinate, kök ve attributed rol korunur."
+        },
+        {
+          "branch_ref": "root_001621/B001",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "89:3:2"
+          ],
+          "trigger_refs": [
+            "89:6:2:1"
+          ],
+          "focus_return_refs": [
+            "89:6:2:1"
+          ],
+          "carrier": "89:3:2'deki HFT-attributed eşsiz olma rolü, çiftin karşısında tek başına duran şeyi ayırt etme karşıtlığını taşır.",
+          "independent_trigger": "Odak yüzeyindeki تَرَ (89:6:2:1) taşıyıcısının farklı yönleri değerlendirerek görüş oluşturma yönü.",
+          "activation": "Atfedilen tekil karşıtlık odaktaki düşünsel görme ile temas ettiğinde, sorunun istediği tanıma benzerlik kadar ayrılığı da fark eden bir hüküm hâline gelir.",
+          "resulting_reading": "Âd'a yapılan iş, eşli olanın karşısındaki tekil fark gibi ayırt edilerek görülür.",
+          "boundary": "Bu branch için packet'te bağımsız lexicon gloss'u veya facet kaydı yoktur; yalnızca exact HFT coordinate, kök ve attributed rol korunur."
+        },
+        {
+          "branch_ref": "root_000702/B004",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "89:4:3"
+          ],
+          "trigger_refs": [
+            "89:6:2:1"
+          ],
+          "focus_return_refs": [
+            "89:6:2:1"
+          ],
+          "carrier": "89:4:3'teki HFT-attributed rol, geçen gecenin hareketini sabit karanlıktan çok açığa çıkışa götüren bir süreç olarak taşır.",
+          "independent_trigger": "Odak yüzeyindeki تَرَ (89:6:2:1) taşıyıcısının bir süreci kavrayıp görüşe bağlayan anlamı.",
+          "activation": "Atfedilen hareket ve açığa çıkma rolü odaktaki düşünsel görmeyle temas ettiğinde, tarihî örnek tek bir donmuş görüntü değil, içinden anlamın açıldığı bir süreç olarak okunur.",
+          "resulting_reading": "Görme, hareket hâlindeki karanlıktan açılan tarihî bir anlamı kavramayı içerir.",
+          "boundary": "Bu branch için packet'te bağımsız lexicon gloss'u veya facet kaydı yoktur; yalnızca exact HFT coordinate, kök ve attributed rol korunur."
+        },
+        {
+          "branch_ref": "root_000296/B002",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "89:5:6"
+          ],
+          "trigger_refs": [
+            "89:6:2:1"
+          ],
+          "focus_return_refs": [
+            "89:6:2:1"
+          ],
+          "carrier": "89:5:6'daki HFT-attributed sınırlayıcı akıl rolü, önceki karşıtlıkları hükme dönüştüren ve acele çıkarımı tutan bir yetiyi taşır.",
+          "independent_trigger": "Odak yüzeyindeki تَرَ (89:6:2:1) taşıyıcısının tanıma ve görüşe varma yönü.",
+          "activation": "Atfedilen sınırlayıcı akıl, odaktaki düşünsel görmeyle temas ettiğinde, Âd örneğini görmek kanıtları ayırt edip hükme bağlayan disiplinli bir tanıma işi olarak kurulur.",
+          "resulting_reading": "Muhataptan Âd'a yapılan muameleyi sınırlı ve disiplinli bir akılla fark etmesi istenir.",
+          "boundary": "Bu branch için packet'te bağımsız lexicon gloss'u veya facet kaydı yoktur; yalnızca exact HFT coordinate, kök ve attributed rol korunur."
+        }
+      ],
+      "connection_refs": [
+        "conn_911342bc41fe5a8dae14",
+        "conn_b46d64762c37b8148b6f",
+        "conn_35eafc16e42b6db50535"
+      ],
+      "context_refs": [
+        "89:1",
+        "89:3",
+        "89:4",
+        "89:5"
+      ],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "macro:engineered-permanence-exposed",
+      "origin_candidate_id": "cand_b8325bdd26a6bf00fb32",
+      "represented_candidate_ids": [],
+      "title": "Mühendislikle kurulmuş kalıcılığın açığa çıkması",
+      "claim": "89:7-10'un destek, ölçü, kayayı yarma ve saplanan kazıklarla kurduğu anıtsal düzen, 89:6'daki Rabb'in Âd'a yaptığı işi güçlü bir topluluğun cezalandırılması yanında, kalıcılığı teknik düzeneklerle kuran bir yapının bağımlılığının açığa çıkarılması olarak da görünür kılar.",
+      "mechanism": "Odaktaki فَعَلَ taşıyıcısının bir şeyi yapıp etkileme facet'i, 89:7:3'teki destek, 89:8:3'teki ölçülü yapım, 89:9:3-4'teki kayayı yarma ve kaya, 89:10:3'teki kazık gibi dikilme rollerine temas eder; bu temas, Rabb'in eylemini anıtsal kalıcılık iddiasını aşan bir karşı-etki olarak kurar.",
+      "reader_payoff": "Okur, takip eden ayetlerdeki mimari ve maddi ayrıntıları yalnızca yenilmiş bir gücün ölçüsü olarak değil, ayakta kalmayı destek, ölçü, oyma ve sabitlemeyle kuran bir düzenin kırılganlığını gösteren ayrıntılar olarak da görür.",
+      "containment": "Temel soru, Rabb'in Âd'a ne yaptığını sorma ve devamındaki tarihî cezalandırma çerçevesini korur. Kayıt legacy_unbound'dır ve hedef context morphology verilmemiştir; bu nedenle ayrıntıların zorunlu olarak kalıcılık simgesi olduğu değil, supplied HFT rolleriyle böyle bir temas kurduğu söylenir. Bu ayrıntıların yalnızca toplulukların gücünü ve yıkımın büyüklüğünü ölçtüğü alternatif okuma canlıdır.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": [
+          "legacy_unbound"
+        ],
+        "reason": "Odak dalı root_001167/B001 exact focus occurrence ve core facet ile kayıtlıdır; beş bağlam rolünün anchor kapsamı tam olsa da target morphology sağlanmamış ve okuyucu kaynağı legacy_unbound olarak işaretlenmiştir. Bu nedenle bağlam aktivasyonları attributed niteliktedir."
+      },
+      "support_ids": [
+        "sup_879013fcfc4574f5e8d4"
+      ],
+      "branch_activations": [
+        {
+          "branch_ref": "root_001167/B001",
+          "facet_id": "F001",
+          "branch_gloss": "bir şeyi yapıp etkileme",
+          "facet_statement": "Çekirdek, iş veya başka bir şey türünden bir olayı ortaya çıkarma ve gerçekleştirmedir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "89:6:4:1"
+          ],
+          "trigger_refs": [
+            "89:7:3",
+            "89:8:3",
+            "89:9:3",
+            "89:9:4",
+            "89:10:3"
+          ],
+          "focus_return_refs": [
+            "89:6:4:1"
+          ],
+          "carrier": "Odak yüzeyindeki فَعَلَ (89:6:4:1), bir işi ortaya çıkarıp etkide bulunan yapma anlamını taşır.",
+          "independent_trigger": "89:7:3'teki destek, 89:8:3'teki ölçülü yapım, 89:9:3-4'teki kayayı yarma ve kaya, 89:10:3'teki kazık gibi sabitleme rolleri.",
+          "activation": "Bu ayrı yapım ve sabitleme rolleri فَعَلَ taşıyıcısına döndüğünde, odaktaki eylem yalnızca güçlü bir topluluğun başına gelen ceza değil, kalıcılık tekniklerini etkisiz bırakan bir fiil olarak okunur.",
+          "resulting_reading": "Rabb'in Âd'a yaptığı iş, mühendislikle kurulmuş kalıcılığın bağımlılığını açığa çıkaran bir etki olarak görünür.",
+          "boundary": "Tarihî ceza ve toplulukların gücü anlamını dışlamaz; bütün mimari ayrıntıların tek bir simgesel kod oluşturduğu iddia edilmez."
+        },
+        {
+          "branch_ref": "root_001043/B002",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "89:7:3"
+          ],
+          "trigger_refs": [
+            "89:6:4:1"
+          ],
+          "focus_return_refs": [
+            "89:6:4:1"
+          ],
+          "carrier": "89:7:3'teki HFT-attributed destekleme rolü, yüksek ve dayanıklı görünen yapının altında yapısal bağımlılık bulunduğunu taşır.",
+          "independent_trigger": "Odak yüzeyindeki فَعَلَ (89:6:4:1) taşıyıcısının etkide bulunan ve bir sonucu ortaya çıkaran yapma anlamı.",
+          "activation": "Atfedilen destek taşıyıcısı odaktaki etkili yapma fiiliyle temas ettiğinde, Rabb'in eylemi desteklere dayanan kalıcılığın kendisini açığa çıkaran bir karşı-etki olarak belirginleşir.",
+          "resulting_reading": "Âd'ın yüksekliği, ayakta kalmak için desteğe bağlı bir mühendislik düzeni olarak okunur.",
+          "boundary": "Bu branch için packet'te bağımsız lexicon gloss'u veya facet kaydı yoktur; yalnızca exact HFT coordinate, kök ve attributed rol korunur."
+        },
+        {
+          "branch_ref": "root_000434/B001",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "89:8:3"
+          ],
+          "trigger_refs": [
+            "89:6:4:1"
+          ],
+          "focus_return_refs": [
+            "89:6:4:1"
+          ],
+          "carrier": "89:8:3'teki HFT-attributed ölçü ve oran rolü, benzersiz yapının planlı ve rastlantısal olmayan bir kuruluşa dayandığını taşır.",
+          "independent_trigger": "Odak yüzeyindeki فَعَلَ (89:6:4:1) taşıyıcısının ortaya çıkaran eylem anlamı.",
+          "activation": "Atfedilen ölçü rolü odaktaki etkili yapmayla temas ettiğinde, eylemin karşısında duran şey doğal bir görünüş değil, tasarlanmış ve bu yüzden belirli koşullara bağlı bir kalıcılık olur.",
+          "resulting_reading": "Benzersizlik, planlanmış yapının kudretini ve aynı zamanda koşulluluğunu birlikte görünür kılar.",
+          "boundary": "Bu branch için packet'te bağımsız lexicon gloss'u veya facet kaydı yoktur; yalnızca exact HFT coordinate, kök ve attributed rol korunur."
+        },
+        {
+          "branch_ref": "root_000273/B001",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "89:9:3"
+          ],
+          "trigger_refs": [
+            "89:6:4:1"
+          ],
+          "focus_return_refs": [
+            "89:6:4:1"
+          ],
+          "carrier": "89:9:3'teki HFT-attributed kesip içinden geçme rolü, dirençli maddeyi yararak arazide teknik hâkimiyet kurma kapasitesini taşır.",
+          "independent_trigger": "Odak yüzeyindeki فَعَلَ (89:6:4:1) taşıyıcısının hedef üzerinde etki bırakan yapma anlamı.",
+          "activation": "Atfedilen yarma rolü odaktaki etki fiiliyle temas ettiğinde, Rabb'in yaptığı iş, insanların dirençli arazi üzerinde kurduğu teknik hâkimiyeti de aşan bir eylem olarak görünür.",
+          "resulting_reading": "Âd'ın kudreti, kayayı aşan teknik hâkimiyetin bile Rabb'in eylemi karşısında bağımlı oluşuyla belirginleşir.",
+          "boundary": "Bu branch için packet'te bağımsız lexicon gloss'u veya facet kaydı yoktur; yalnızca exact HFT coordinate, kök ve attributed rol korunur."
+        },
+        {
+          "branch_ref": "root_000847/B001",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "89:9:4"
+          ],
+          "trigger_refs": [
+            "89:6:4:1"
+          ],
+          "focus_return_refs": [
+            "89:6:4:1"
+          ],
+          "carrier": "89:9:4'teki HFT-attributed büyük ve katı kaya rolü, teknik hâkimiyetin üzerinde sergilendiği dirençli maddeyi taşır.",
+          "independent_trigger": "Odak yüzeyindeki فَعَلَ (89:6:4:1) taşıyıcısının etkili yapma ve değiştirme yönü.",
+          "activation": "Atfedilen kaya taşıyıcısı odaktaki eylemle temas ettiğinde, yapılan işin karşısında duran maddi direnç görünür olur ve kalıcılık iddiası somut bağımlılıklarla birlikte okunur.",
+          "resulting_reading": "Anıtsal güç, üzerinde çalıştığı katı maddeden bağımsız bir kudret değil, malzemeye ve tekniğe bağlı bir düzen olarak belirir.",
+          "boundary": "Bu branch için packet'te bağımsız lexicon gloss'u veya facet kaydı yoktur; yalnızca exact HFT coordinate, kök ve attributed rol korunur."
+        },
+        {
+          "branch_ref": "root_001620/B003",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "89:10:3"
+          ],
+          "trigger_refs": [
+            "89:6:4:1"
+          ],
+          "focus_return_refs": [
+            "89:6:4:1"
+          ],
+          "carrier": "89:10:3'teki HFT-attributed kazık gibi dik ve sabit olma rolü, siyasal ve maddi gücün ayakta kalmak üzere tasarlandığını taşır.",
+          "independent_trigger": "Odak yüzeyindeki فَعَلَ (89:6:4:1) taşıyıcısının yapılmış düzen üzerinde etki bırakan eylem anlamı.",
+          "activation": "Atfedilen sabitlik rolü odaktaki etkili yapmayla temas ettiğinde, Rabb'in eylemi ayakta kalma tasarımının kendisini aşan ve onun koşullu niteliğini açığa çıkaran bir iş olarak okunur.",
+          "resulting_reading": "Dikilme ve sabitlenme, kalıcılığın bağımsız değil, kurulmuş ve bozulabilir bir düzen olduğunu gösterir.",
+          "boundary": "Bu branch için packet'te bağımsız lexicon gloss'u veya facet kaydı yoktur; yalnızca exact HFT coordinate, kök ve attributed rol korunur."
+        }
+      ],
+      "connection_refs": [
+        "conn_732eb8b0fd715b32b7f7",
+        "conn_b0f21d813227b6f46311",
+        "conn_c2748a72fbab0981330b",
+        "conn_ff0b47c770010d8e05dc"
+      ],
+      "context_refs": [
+        "89:7",
+        "89:8",
+        "89:9",
+        "89:10"
+      ],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "macro:overflow-counterflow-bounded",
+      "origin_candidate_id": "cand_6d4af374fe971c415cc9",
+      "represented_candidate_ids": [],
+      "title": "Taşmaya karşı ölçülü karşı-akış",
+      "claim": "89:11-14'te taşma, fesat, dökülen kamçı ve gözetleme sırası, 89:6'daki Rabb'in Âd'a yaptığı işi üstün bir cezalandırma olarak korurken, sınırı aşan toplumsal akışa ölçülü bir karşı-akışın yeniden sınır vermesi olarak da görünür kılar.",
+      "mechanism": "Odaktaki رَبُّكَ taşıyıcısının adım adım yetiştirip tamamlama facet'i, 89:11:2'deki sınırı aşan güç, 89:12:3'teki dengeden sapma, 89:13:1'deki aşağı dökülme, 89:13:4'teki ölçülü kamçı ve 89:14:3'teki sürekli gözetim rolleriyle temas eder; bu temas eylemi taşmayı durdurup sınırları yeniden kuran bir karşı-akış olarak belirginleştirir.",
+      "reader_payoff": "Okur, 89:6'daki eylemi yalnızca ezici bir ceza olarak değil, sınır aşımını izleyen ve onu ölçülü bir kuvvetle yeniden düzene sokan bir karşılık olarak da görür.",
+      "containment": "Rabbinin Âd'a ne yaptığını ve sonraki ayetlerin ceza çerçevesini taşıyan temel okuma korunur. Kayıt legacy_unbound'dır; hedef context morphology verilmemiştir ve karşı-akışın yönünü HFT'nin supplied rolleri üzerinden yazar çıkarır. Dökülen kamçının hidrolik bir simetri kurmadan yalnızca cezalandırıcı bir deyim olarak okunması alternatif olarak canlıdır.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": [
+          "legacy_unbound"
+        ],
+        "reason": "Odak dalı root_000532/B002 exact focus occurrence ve core facet ile kayıtlıdır; beş bağlam rolünün anchor kapsamı tam olsa da target morphology sağlanmamış, kaynak confidence medium ve okuyucu kaynağı legacy_unbound olarak işaretlenmiştir. Bu nedenle bağlam aktivasyonları attributed niteliktedir."
+      },
+      "support_ids": [
+        "sup_0776184a98f4f8803402"
+      ],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000532/B002",
+          "facet_id": "F001",
+          "branch_gloss": "adım adım yetiştirip tamamlama",
+          "facet_statement": "Süreç, gözetilen şeyi eksik durumdan tamamlanmış duruma doğru geliştirir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "89:6:5:1"
+          ],
+          "trigger_refs": [
+            "89:11:2",
+            "89:12:3",
+            "89:13:1",
+            "89:13:4",
+            "89:14:3"
+          ],
+          "focus_return_refs": [
+            "89:6:5:1"
+          ],
+          "carrier": "Odak yüzeyindeki رَبُّ (89:6:5:1), eksik veya bozulmuş olanı gözetip düzelterek tamamlamaya yönelen lordluk anlamını taşır.",
+          "independent_trigger": "89:11:2'deki sınırı aşma, 89:12:3'teki fesat, 89:13:1'deki dökülme, 89:13:4'teki kamçı ve 89:14:3'teki gözetleme rolleri.",
+          "activation": "Bu ayrı taşma, bozulma, dökülme, ölçülülük ve gözetim rolleri رَبُّ taşıyıcısına döndüğünde, odaktaki eylem sınırları aşan akışı izleyip yeniden düzenleyen bir karşılık olarak okunur.",
+          "resulting_reading": "Rabb'in Âd'a yaptığı iş, sınır kıran taşmaya karşı ölçülü ve gözetilen bir karşı-akışla düzeni yeniden kurar.",
+          "boundary": "Bu activation temel cezalandırma anlamını değiştirmez; bütün sonraki ifadelerin tek bir maddi su imgesine indirgenmesini söylemez."
+        },
+        {
+          "branch_ref": "root_000937/B002",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "89:11:2"
+          ],
+          "trigger_refs": [
+            "89:6:5:1"
+          ],
+          "focus_return_refs": [
+            "89:6:5:1"
+          ],
+          "carrier": "89:11:2'deki HFT-attributed taşma rolü, gücün kendisine ayrılan sınırı aşan su benzeri yükselişini taşır.",
+          "independent_trigger": "Odak yüzeyindeki رَبُّ (89:6:5:1) taşıyıcısının düzenleyip tamamlayan lordluk anlamı.",
+          "activation": "Atfedilen taşma taşıyıcısı odaktaki düzenleyici anlamla temas ettiğinde, Rabb'in eylemi sınır dışına çıkan bir güce karşı düzen kuran karşılık olarak belirginleşir.",
+          "resulting_reading": "Âd'ın gücü, kendi sınırını aşan bir taşma olarak; odaktaki eylem ise bu taşmayı yeniden sınırlayan karşılık olarak görünür.",
+          "boundary": "Bu branch için packet'te bağımsız lexicon gloss'u veya facet kaydı yoktur; yalnızca exact HFT coordinate, kök ve attributed rol korunur."
+        },
+        {
+          "branch_ref": "root_001154/B001",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "89:12:3"
+          ],
+          "trigger_refs": [
+            "89:6:5:1"
+          ],
+          "focus_return_refs": [
+            "89:6:5:1"
+          ],
+          "carrier": "89:12:3'teki HFT-attributed dengeden sapma rolü, taşmanın toplumsal sonucunu sistemik bozulma ve düzen kaybı olarak taşır.",
+          "independent_trigger": "Odak yüzeyindeki رَبُّ (89:6:5:1) taşıyıcısının düzeltip tamamlayan düzenleyici anlamı.",
+          "activation": "Atfedilen bozulma taşıyıcısı odaktaki düzeltme rolüyle temas ettiğinde, Rabb'in yaptığı iş yalnız kuvvet uygulamak değil, bozulmuş toplumsal durumu yeniden düzene çağıran karşılık olarak okunur.",
+          "resulting_reading": "Taşmanın sonucu olan fesat, odaktaki eylemin yeniden düzenleme yönünü görünür kılar.",
+          "boundary": "Bu branch için packet'te bağımsız lexicon gloss'u veya facet kaydı yoktur; yalnızca exact HFT coordinate, kök ve attributed rol korunur."
+        },
+        {
+          "branch_ref": "root_000838/B001",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "89:13:1"
+          ],
+          "trigger_refs": [
+            "89:6:5:1"
+          ],
+          "focus_return_refs": [
+            "89:6:5:1"
+          ],
+          "carrier": "89:13:1'deki HFT-attributed aşağı dökülme rolü, cevap eylemine daha önceki yükselişi tersine çeviren aşağı yönlü bir hareket verir.",
+          "independent_trigger": "Odak yüzeyindeki رَبُّ (89:6:5:1) taşıyıcısının bozulmuş olanı onarıp tamamlayan eylem yönü.",
+          "activation": "Atfedilen aşağı dökülme rolü odaktaki onarıcı düzenlemeyle temas ettiğinde, karşılık önceki sınır aşımının yönünü tersine çeviren bir hareket olarak görünür.",
+          "resulting_reading": "Rabb'in eylemi, taşarak yükselen güce aşağıdan gelen ve onu yeniden sınıra indiren bir karşılık gibi okunur.",
+          "boundary": "Bu branch için packet'te bağımsız lexicon gloss'u veya facet kaydı yoktur; yalnızca exact HFT coordinate, kök ve attributed rol korunur."
+        },
+        {
+          "branch_ref": "root_000759/B001",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "89:13:4"
+          ],
+          "trigger_refs": [
+            "89:6:5:1"
+          ],
+          "focus_return_refs": [
+            "89:6:5:1"
+          ],
+          "carrier": "89:13:4'teki HFT-attributed karışım ve ayarlama rolü, dökülen cevabı farklılaşmamış bir darbe yerine bileşimi olan bir karşılık olarak taşır.",
+          "independent_trigger": "Odak yüzeyindeki رَبُّ (89:6:5:1) taşıyıcısının gözeterek düzeltip tamamlayan düzenleme anlamı.",
+          "activation": "Atfedilen ayarlama rolü odaktaki düzenleyici lordlukla temas ettiğinde, karşılık taşmayı kaba bir ezme hareketiyle değil, ölçüsü ve bileşimi bulunan bir uygulamayla karşılar.",
+          "resulting_reading": "Cezalandırıcı karşılık, sınırları yeniden kuran ayarlı bir kuvvet olarak belirginleşir.",
+          "boundary": "Bu branch için packet'te bağımsız lexicon gloss'u veya facet kaydı yoktur; yalnızca exact HFT coordinate, kök ve attributed rol korunur."
+        },
+        {
+          "branch_ref": "root_000566/B001",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "89:14:3"
+          ],
+          "trigger_refs": [
+            "89:6:5:1"
+          ],
+          "focus_return_refs": [
+            "89:6:5:1"
+          ],
+          "carrier": "89:14:3'teki HFT-attributed sürekli gözetim rolü, karşılığın gözleyen ve zamanını bilen bir düzen içinde verildiğini taşır.",
+          "independent_trigger": "Odak yüzeyindeki رَبُّ (89:6:5:1) taşıyıcısının aşama aşama düzeltip tamamlayan lordluk anlamı.",
+          "activation": "Atfedilen gözetim rolü odaktaki düzenleme anlamıyla temas ettiğinde, Âd'a yapılan iş taşkınlığa rastgele değil, izlenen ve zamanı gözetilen bir karşılık olarak görünür.",
+          "resulting_reading": "Karşı-akış, sınır aşımını izleyen ve uygun anda düzeni yeniden kuran bir gözetim altında işler.",
+          "boundary": "Bu branch için packet'te bağımsız lexicon gloss'u veya facet kaydı yoktur; yalnızca exact HFT coordinate, kök ve attributed rol korunur."
+        }
+      ],
+      "connection_refs": [
+        "conn_20806efefea00b981bf9",
+        "conn_9e849390be22a09515a4",
+        "conn_780ebf650d53b2f2bdf1",
+        "conn_c6d55f2e0cb745b8bcc6"
+      ],
+      "context_refs": [
+        "89:11",
+        "89:12",
+        "89:13",
+        "89:14"
+      ],
+      "semantic_obligation_refs": []
+    }
+  ],
+  "friction_notes": [
+    "Üç assigned HFT kaydı da legacy_unbound okuyucu kaynağından gelir. Exact Arabic anchor'ları, source word index'leri, kökleri, attributed rolleri, before/after okumaları ve focus dönüşleri tamdır; ancak hedef context morphology sağlanmadığı için çözülmemiş bağlam dalları yalnızca application_mode=attributed ile korunmuştur.",
+    "Paketin declared pericope'si 89:1-14'tür; HFT paket kapsamı daha geniş görünür ve readiness docket_mode=blocked, docket_ready=false olarak kayıtlıdır. Lane politikası HFT kayıtlarını görünür tuttuğu için bu provenance sınırlaması adayları otomatik olarak dışlamamıştır.",
+    "Otomatik host-prefatory basmala 89:0 ordinary macro context olarak mevcuttur. Sağlanan س م و, ء ل ه ve ر ح م kök ipuçları 89:6 yüzeyine dönen bağımsız bir carrier-trigger teması kurmadığından hiçbir finding activation'ında kullanılmamıştır.",
+    "Focus word alignment yedi analysis unit'in tamamını çözmektedir; unresolved analysis unit yoktur. Bununla birlikte target context morphology ve bağımsız context lexical analysis verilmediği için exact context coordinates, supplied HFT rolleri dışında genişletilmemiştir.",
+    "Bağlantı kayıtlarındaki prior_label bir karar değildir. 89:1, 89:3 ve 89:5 bağlantıları ilk finding'de sınırlayıcı karşı-notlar olarak tutulmuş; doğrudan 89:7-10 ve 89:11-14 bağlantıları ilgili findings'e eklenmiştir. Bağlantılar candidate dışı yeni bir activation üretmemiştir.",
+    "Kalan focus branch seçenekleri için packet'te ayrı bir carrier-trigger-focus-return zinciri sağlanmadığından uncandidate activation eklenmemiştir; branch availability activation sayılmamıştır. Candidate inventory'de explicit semantic_obligations listesi de bulunmadığı için semantic obligation ref ve exclusion dizileri boş bırakılmıştır."
+  ]
+}

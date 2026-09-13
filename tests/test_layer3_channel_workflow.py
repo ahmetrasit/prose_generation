@@ -10,7 +10,7 @@ from pathlib import Path
 
 
 ROOT = Path(__file__).resolve().parents[1]
-SCRIPTS = ROOT / "_channel" / "layer3" / "scripts"
+SCRIPTS = ROOT / "_surah_commentary" / "v2" / "scripts"
 LAYER3_MODULE_NAMES = ("common", "validate", "build_packet", "finalize", "instantiate")
 saved_modules = {
     name: sys.modules.pop(name)
@@ -41,6 +41,18 @@ def write_json(path: Path, value: object) -> None:
 
 
 class Layer3WorkflowTests(unittest.TestCase):
+    def test_workflow_location_and_legacy_alias(self) -> None:
+        workflow = ROOT / "_surah_commentary" / "v2"
+        self.assertEqual(layer3_common.REPO_ROOT, ROOT)
+        self.assertEqual(layer3_common.WORKFLOW_ROOT, workflow)
+        self.assertEqual((ROOT / "_channel" / "layer3").resolve(), workflow)
+        self.assertEqual(
+            layer3_common.resolve_portable_path(
+                "prose_generation/_channel/layer3/prompts/01-discover.md"
+            ).read_bytes(),
+            (workflow / "prompts" / "01-discover.md").read_bytes(),
+        )
+
     def setUp(self) -> None:
         self.tmp = Path(tempfile.mkdtemp(prefix="layer3-test-"))
         self.quran_data = self.tmp / "qd"

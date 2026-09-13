@@ -1,0 +1,193 @@
+# V5 reading invitation — 96:16
+
+You are a fresh reading-invitation writer. Read the complete editorial prose
+before writing. It is your sole semantic source.
+
+Write two to four paragraphs of fluent, contemporary Turkish that reveal a
+surprising reading by following one or two main channels of resonance in the
+ayah. A channel is a connected background of meanings, images, actions, or
+relations through which the ayah can be heard and understood differently.
+Several editorial findings may together develop one channel. Summarize that
+connected movement and its consequence for the ayah's main meaning, rather
+than compressing findings individually. Give the reading's substance now;
+the invitation comes from understanding it, not from a promise of hidden depth.
+
+Before drafting, read the entire editorial prose and silently select the one
+or two channels with the strongest interpretive consequence and enough
+grounding to explain clearly. Favor channels that expand or shift what the
+ayah says, the relation it establishes, or what is at stake in its action or
+image. One fully developed channel is sufficient; add a second only when it
+offers a distinct consequential reading that can be explained within the
+invitation. No finding, channel, or major shift has an individual coverage
+claim. Unselected material may remain entirely in the full commentary.
+
+A channel may develop through grammar, sound, dialogue, a material process,
+time, imagery, or a conceptual relation. Resonance is not limited to acoustic
+effects, and an unusual image alone does not establish a channel. Use only
+connections the editorial prose actually develops. If it supplies no such
+channel, explain its strongest grounded reading without inventing connections
+or surprise.
+
+Begin inside the ayah's own words, images, actions, or relations and reveal a
+selected distinctive reading in the first paragraph. Keep the plain meaning
+reachable with only the orientation needed to understand the change. Do not
+spend an opening paragraph on routine explanation or front-load context about
+the surah, the ayah's position, or the commentary project.
+
+For each selected channel, begin with the expression that opens it, unfold the
+connected background, and show how the ayah reads or sounds against that
+background. Let a detail lead into the next through an intelligible relation
+or process, so the reader experiences the emerging reading. This is a movement
+of thought, not a mandatory sentence pattern or one paragraph per finding.
+Let the reader identify the expression being interpreted,
+where any nonordinary detail comes from, and what that detail changes in the
+reading. Briefly identify the word-family use, restricted form, collocation, or
+context that supplies an essential added detail, and preserve the concrete
+operation that makes the image work. Keep the ordinary reading and necessary
+qualification clear within this explanation; do not repeat them as a fixed
+formula. Preserve the particular object, process, or relation that makes this
+reading distinctive, and state its interpretive consequence for the ayah as a
+whole. Make intelligible what the familiar reading leaves less visible and
+what the expanded or shifted reading now lets the reader understand. Preserve
+the editorial's force: an exploratory possibility remains possible, while a
+developed shift must not be softened into a decorative association or a
+reassurance that everything means the same thing. A concrete
+account of how something is carried, transformed, lost, or restored must not
+shrink to a general statement about care, guidance, dependence, or goodness.
+Keep the details needed to make the selected channel work; omit side findings
+and shorten routine setup. If a channel cannot be explained faithfully from
+the editorial prose, choose another grounded channel or reading.
+
+When a non-focus ayah supplies a contribution used in the invitation, keep its
+reference from the editorial prose beside that contribution.
+
+Do not turn the invitation into a miniature inventory of the commentary's
+conclusions, or flatten distinct channels into a broad theme to include more
+material. Do not repair, extend, or supplement the editorial prose from memory
+or outside knowledge.
+
+Omit technical apparatus. Retain any qualification, source distinction, live
+alternative, or boundary whose absence would change the force or meaning of a
+chosen reading. Express it naturally beside the image or relation it qualifies.
+Favor positive explanations of the relation between layers: what remains in
+the foreground and what the resonance makes audible in the background. State
+how that background reinforces, expands, or shifts the understanding of the
+main meaning, with the source and degree of certainty clear. Reserve explicit
+exclusions for concrete ambiguities or live counter-evidence that need them.
+Repeated "this is not X" endings make a reading sound withdrawn; express the
+substantive qualification through what the reading does contribute wherever
+possible. Use varied, natural language rather than a repeated "second layer"
+formula, and preserve the force of expansions and shifts.
+Do not name branches, candidates, findings, scopes, evidence categories,
+ledgers, or workflow stages, or label the prose as numbered channels. Do not
+list findings serially.
+
+Use the established `{ar:..., tr:..., gloss:...}` syntax, consistent
+Turkish-readable transliteration, and short ordinary glosses. Keep Arabic
+anchors beside the explanations they ground. Within a paragraph, continue with
+the Turkish meaning where clear; provide the necessary local tag when a later
+paragraph interprets the carrier anew. Do not place Arabic script outside a
+valid tag.
+
+Build transitions within a channel through its shared object, action, or
+relation. If two channels are selected, they may occupy separate paragraphs;
+do not invent a link between them. Do not praise the commentary's quality,
+promise what the reader will find, manufacture suspense, recap at the end, or
+add a call to action. End on an image, relation, action, or tension already
+established by the selected reading.
+
+Before finishing, compare the invitation with the entire editorial prose:
+does the chosen channel reveal a consequential reading, or could the text have
+been written from the ordinary translation and a modest explanation alone?
+When the editorial supports a surprising channel, the latter fails this task.
+Can the reader follow the opening expression into a connected background and
+understand how that background expands or shifts the ayah's main meaning?
+Check the selected connections against their editorial explanation: can the
+reader tell where the nonordinary details come from, with the necessary
+qualifications intact? Repair generic explanation, isolated curiosities, or a
+compressed findings list by developing the selected channel. Do not add
+omitted channels merely for coverage. Do not output this check.
+
+Write only the invitation text to:
+
+`_commentary/v5/editorial/s096-regular-20260912/s096/96_16/96_16.invitation.tr.md`
+
+Do not add a heading, wrapper label, index, ledger, evidence file, or any other
+artifact. Do not modify the editorial prose.
+
+After writing the invitation, run:
+
+```bash
+python3 _commentary/v5/validate_prose.py _commentary/v5/editorial/s096-regular-20260912/s096/96_16/96_16.invitation.tr.md
+```
+
+If validation fails, repair only the reported mechanical file-contract issues
+and rerun it, for at most two repair cycles. Report the final validator result
+in your response.
+
+<editorial_prose>
+## Perçemin Adı
+
+96:16, 96:15'te perçeminden yakalanacağı bildirilen aynı hedefi yeniden adlandırır: {ar:نَاصِيَةٍۢ, tr:nāṣiyatin, gloss:perçem}, {ar:كَٰذِبَةٍ, tr:kādhibatin, gloss:yalancı} ve {ar:خَاطِئَةٍۢ, tr:khāṭiʾatin, gloss:günahkâr} nitelemelerini taşıyan bedensel ön kısımdır. Cümlede yeni bir fiil bulunmadığı için burada yeni bir hareket başlatılmaz; önceki tehdidin hareketli tutuşu, aynı hedef üzerinde duran sabit bir teşhise dönüşür. Tanınmış belirli hedeften belirsiz genitif biçime geçiş de yalnız bir tekrar değildir: perçemi, bu iki niteliğin bağlanabildiği bir taşıyıcı olarak yeniden sınıflandırır. Böylece kopuk bir isim dizisi değil, önceki tehdidin beden üzerinde tamamlanan portresi kurulur.
+
+{ar:نَاصِيَةٍۢ, tr:nāṣiyatin, gloss:perçem} olağan anlamıyla alındaki ön saç ve saçın çıktığı bedensel sınırdır. 96:15'teki onu yakalayıp çekme görüntüsüyle birleştiğinde, yalan ve günah nitelikleri tutulabilir bir ön noktada toplanır. Ön kısmından kavramak, belirli bir bağlamda o şey üzerinde denetim ve söz sahibi olma basıncını da taşır; tehditteki bedenî tutuş böylece teşhis ile kontrolün temas yerine dönüşür. Bu ön kısım dışarıya dönük duruşu temsil eden bir yüz gibi okunabilir; yorumun sınırı da burada kalır: zihnin veya bütün kimliğin değil, ahlaki niteliklerin bedensel temas noktasıdır.
+
+İki sıfat aynı tekil dişil perçeme bağlanır. {ar:كَٰذِبَةٍ, tr:kādhibatin, gloss:yalancı} ile {ar:خَاطِئَةٍۢ, tr:khāṭiʾatin, gloss:günahkâr} arasındaki bağlaçsız diziliş, aynı bedensel taşıyıcı üzerinde art arda yoğunlaşan iki yük duyurur. Hâl seçimi bu ilişkiyi kurar: {ar:كَٰذِبَةٍ, tr:kādhibatin, gloss:yalancı} bağımsız bir kınama veya ilan cümlesi değil, perçemin appozisyon zincirindeki ilk nitelemedir. Sözde ya da davranışta doğruluğa aykırılık bildiren bu sıfat kendi ağırlığını korurken, ardından gelen {ar:خَاطِئَةٍۢ, tr:khāṭiʾatin, gloss:günahkâr} aynı bozulmaya ahlaki sorumluluk yükünü ekler. Son kelimenin genitif biçimi de yönelişi ve suçlamayı aynı perçeme bağlayarak ifadeyi önceki nesneye bağlı kapatır.
+
+Bu kapanış biçimle de işitilir. İki etken ortaçta art arda gelen `-atin` sesleri, beden adından ahlaki nitelemelere inen hareketi tek portre içinde mühürler. Son {ar:خَاطِئَةٍۢ, tr:khāṭiʾatin, gloss:günahkâr} fazladan bir etiket değil, teşhisin işitsel ve anlamsal eşiğidir; yazılı hemze son kelimede kısa bir tutukluk yaratır, yumuşatılmış okuyuşta ses daha akışkan olsa bile perçeme bağlılık ve etken ortaç anlamı sürer. Bu kelimenin başka yerlerdeki günahkâr nitelemeleri 12:29, 12:91, 12:97, 69:9 ve 96:6'daki sahneleri hatırlatabilir; bu hatırlama, o sahnelerin kişilerini ve olaylarını değil, tamamlanmış yanlış ile hesabın aynı ön kısımda yoğunlaşmasını taşır.
+
+## Görünüşün İddiası
+
+{ar:كَٰذِبَةٍ, tr:kādhibatin, gloss:yalancı} sözcüğünün sağlanan özel dilsel kullanımında, renklerle boyanmış veya yüzeyine desen işlenmiş bir kumaşın gerçek dokuma bezemesi varmış gibi görünmesi de duyulur. Bu kullanımın katkısı kumaşın kendisini adlandırmak değil, yüzeyin sahip olmadığı bir maddi değeri varmış gibi taşımasını göstermektir. {ar:ٱقْرَأْ بِٱسْمِ رَبِّكَ ٱلَّذِى خَلَقَ, tr:iqraʾ bi-smi rabbika alladhī khalaq, gloss:yaratan Rabbinin adıyla oku} ifadesinin açılışındaki görünür işaret fikri (96:1) ile {ar:ٱلَّذِى عَلَّمَ بِٱلْقَلَمِ, tr:alladhī ʿallama bi-l-qalam, gloss:kalemle öğreten} ifadesindeki yüzeye yazılan ve doğrulanabilen işaret (96:4) bu kumaş görüntüsünü okunabilir bir iddia alanına taşır. Boyalı veya desenli yüzey görünüşün çekiciliğini, kalem ise o görünüşün doğrulanabilir bir işaret gibi sunulmasını sağlar; ön saç da bu iki işlemin birleştiği bedensel yüzey olur.
+
+Bu yüzey fikri, aynı kelimenin saçı tarama ve düzenleme kullanımından daha ihtiyatlı bir maddi benzetmeye doğru genişler. {ar:نَاصِيَةٍۢ, tr:nāṣiyatin, gloss:perçem} bilinçle hazırlanmış bir kamusal ön yüzü taşır; boyalı veya desenli kumaş bu yüzün görünüşünü, {ar:ٱقْرَأْ بِٱسْمِ رَبِّكَ ٱلَّذِى خَلَقَ, tr:iqraʾ bi-smi rabbika alladhī khalaq, gloss:yaratan Rabbinin adıyla oku} (96:1) görünür işareti, {ar:ٱلَّذِى عَلَّمَ بِٱلْقَلَمِ, tr:alladhī ʿallama bi-l-qalam, gloss:kalemle öğreten} (96:4) ise yazıyla doğrulanabilir işareti verir. Saç, kumaş ve kalem böylece kişinin üzerinde bir koşul yazılıymış gibi duran sahte bir kamusal belirtiyi birlikte kurar; davranış bu belirtinin hakikati taşıyıp taşımadığını sınar. Bu bağlantının kapsamı, düzenlenmiş yüzeyin bir koşulu ilan etmesi ve davranışın o ilanı sınamasıyla sınırlıdır; saç, kumaş ve yazı odak ifadenin sözlük anlamlarının yerine geçmez.
+
+Bu yüzeydeki yanıltıcılık, sözcüğün söz ve hüküm alanına geçişi için bir eşik oluşturur. {ar:كَٰذِبَةٍ, tr:kādhibatin, gloss:yalancı} iki yakın hareketi birlikte taşır: sözde veya davranışta doğruluğa aykırılık ve bir kişi ya da sözün yalan sayılarak olumsuz değerlendirilmesi. Bu nedenle sıfat burada hem yanlış bir hesabı hem de o hesabın kaynağına yöneltilen sınanabilir bir hükmü kurabilir. Sağlanan biçim bu iki yakın kullanımın sınırında kalır; ayette görünür olan, doğruluk niteliği ile o niteliğe verilen hükmün aynı ön yüzde buluşmasıdır.
+
+Bu hüküm hareketi, 96:13'teki {ar:أَرَءَيْتَ إِن كَذَّبَ وَتَوَلَّىٰٓ, tr:araʾayta in kadhdhaba wa tawallā, gloss:yalan sayıp yüz çevirdiyse} dizisiyle ve 96:14'teki {ar:أَلَمْ يَعْلَم بِأَنَّ ٱللَّهَ يَرَىٰ, tr:alam yaʿlam bi-anna Allāha yarā, gloss:Allah'ın gördüğünü bilmiyor mu} sorusuyla açılır. Önce bir kişi veya söz yanlış bulunur, ardından fail yüz çevirir, sonra bu dönüş bilen ve gören bakış altında görünür olur. {ar:كَذَّبَ, tr:kadhdhaba, gloss:yalan saydı} bir hükmün verilmesini, {ar:يَرَىٰ, tr:yarā, gloss:görür} ise o hükmün ilahi görüş altında açığa çıkmasını taşır; perçemin üzerine böylece yalnız bir nitelik değil, incelenebilir bir itham yerleşir. Bu atıf hareketi sergileme, cevap verme veya tanıma gibi çevresel imkânlardan ayrılarak, iddianın kurulması ile incelenmesi arasındaki farkı görünür kılar.
+
+Yalan sayma, yüz çevirme ve görülme arasındaki sıra, önceki eylemlerin bedende sıkışmış sonucunu düşündürür: ön yüz, iddianın kurulması ile sınanmasının izini taşır. Sıfatların durağan niteleme olarak okunabildiği seçenek yerinde dururken, bu ardışıklık onları zaman içinde açılan bir teşhise bağlar. 96:17'deki toplama çağrısı bu gizli niteliği kamusal bir sınamaya taşır; çağrılan topluluk, teşhisin karşısına çıkarılacak iddiaya yönelir ve bu ayet henüz olayın sonucunu değil, karşılaşmanın eşiğini gösterir.
+
+## Yönün Kesilmesi
+
+{ar:خَاطِئَةٍۢ, tr:khāṭiʾatin, gloss:günahkâr} olağan okumada ahlaki olarak suçlanabilir, sorumluluk taşıyan günahkâr oluşu bildirir; aynı kelime hedefi tutturamama ve yanlış yöne varma çekirdeğini de burada canlı tutar. Bu ek yön, kelimenin bütün sözlük alanını aynı anda ayete doldurmaz; perçem, yalan ve günah bağının içinde belirli bir hareket açar. Kelimenin etken ortaç biçimi, yapılmaması gereken eyleme yönelen faili niteliğin içinde canlı bırakır. Yalanın ardından aynı perçeme bağlanması, son sözü kazara bir sürçmeye indirgemek yerine hesap verilebilir bir ihlal ihtimalini de taşır; gerçekleşmiş yanlış ve buna bağlanan sorumluluk birlikte görünür.
+
+Bu kelimenin sağlanan başka bir kullanımında, koşup arkasına bakmak için duran bir yaban hayvanının hareketi belirir. Bu kullanımın taşıdığı ayrıntı, bir mesafe katettikten sonra gelen durma anıdır. 96:15'teki {ar:كَلَّا لَئِن لَّمْ يَنتَهِ لَنَسْفَعًۢا بِٱلنَّاصِيَةِ, tr:kallā laʾin lam yantahi la-nasfaʿan bi-n-nāṣiya, gloss:son vermezse perçeminden yakalayıp çekeceğiz} görüntüsü bu koşunun ön saçtan tutulduğu anda kesilmesini sağlar. Böylece {ar:نَاصِيَةٍۢ, tr:nāṣiyatin, gloss:perçem}, ilerleyen bir rotanın denetlenebilir kontrol noktası gibi görünür; gerçek bedensel yakalama, hareketin momentumunu ele geçiren sınırlı görüntüyü taşır.
+
+Aynı koşup-durma görüntüsü, 96:8'deki {ar:إِنَّ إِلَىٰ رَبِّكَ ٱلرُّجْعَىٰٓ, tr:inna ilā rabbika ar-rujʿā, gloss:dönüş Rabbinedir} dönüş ufkuyla buluştuğunda yalnız kesilen bir hareket değil, geri dönmesi beklenen bir yön de duyulur. Buradaki duruş mevsimsel bir göç sahnesi değil, yanlış yönde ilerleyen rotanın geri dönüp dönmeyeceğinin değerlendirildiği bir eşiktir. Dönüş, {ar:خَاطِئَةٍۢ, tr:khāṭiʾatin, gloss:günahkâr} kelimesinin sözlük karşılığı olan pişmanlık adına dönüşmez; tamamlanmış yanlışın izlenebilir yönünü ve olası düzeltmesini görünür kılan bağlamsal temastır.
+
+Bu yön hareketini çevreleyen basınçlar da ayetin sınırını belirler. 96:6'daki {ar:كَلَّآ إِنَّ ٱلْإِنسَٰنَ لَيَطْغَىٰٓ, tr:kallā inna al-insāna la-yaṭghā, gloss:insan sınırı aşar} sınır aşımı, 96:9'daki {ar:أَرَءَيْتَ ٱلَّذِى يَنْهَىٰ, tr:araʾayta alladhī yanhā, gloss:engel olanı gördün mü} engelleme ve 96:13'teki yalan sayıp yüz çevirme, doğru rotadan sapmış hareketi çevreleyen basınçlar olarak görünür. Bunlar {ar:خَاطِئَةٍۢ, tr:khāṭiʾatin, gloss:günahkâr} sıfatını zorunlu olarak kasıtlı isyanla özdeşleştirmez; engelleme ve yüz çevirme, yanlış rotanın durdurulup tersine çevrilebileceği bir alan açar.
+
+Bu ayrım, 33:5'te istemeden yapılan hata ile kalbin bilerek kastettiği şeyin ayrılmasında daha belirginleşir. {ar:كَٰذِبَةٍ, tr:kādhibatin, gloss:yalancı} doğruluğu söz veya davranışta çarpıtan hareketi taşırken, {ar:خَاطِئَةٍۢ, tr:khāṭiʾatin, gloss:günahkâr} doğruyu ya da hedeflenen sonucu tutturamayan yönü açık bırakır. 61:7'de teslimiyete çağrı sürerken Allah'a yalan isnat edilmesi, ilk sıfatı yönü belirleyen etkin bir doğruluk çarpıtması olarak; 79:21'de inkârın itaatsizlikle art arda gelmesi, ikinci sıfatı doğru yönden uzaklaşan hareket olarak görünür kılar. Böylece kazara hata için açılan alan korunur, tamamlanmış ve hesabı sorulabilir yanlış ihtimali de silinmez; iki sıfat birbirinin tekrarı değil, hakikat bozulması ile yön ve sorumluluk arasındaki ayrı hareketlerdir.
+
+## Denetlenen Ön
+
+Bu bedenî temas, ayetin olağan anlamını daha geniş ama yine de sınırlı bir denetim görüntüsüne açar. 55:41'de suçlular simalarıyla tanınır ve perçemlerinden tutulur; bu sahne {ar:نَاصِيَةٍۢ, tr:nāṣiyatin, gloss:perçem} kelimesinin ön anlamına görünür ve yakalanabilir bir yüz kazandırır. 11:56'da her canlının perçeminden tutulması, aynı ön kısımdan kavramayı denetim ve söz sahibi olma basıncına taşır. 45:7'de yalancılık ile günahkârlığın aynı fail tipinde birlikte anılması ise {ar:كَٰذِبَةٍ, tr:kādhibatin, gloss:yalancı} ve {ar:خَاطِئَةٍۢ, tr:khāṭiʾatin, gloss:günahkâr} niteliklerini o görünür ön üzerinde etkin bir ahlaki profile dönüştürür. Bu üç temas birlikte, perçemi ahlaki yükün tutulabilir yüzü yapar; kişi bütünü veya zorunlu bir liderlik adı değil, bu yükün bedensel temas noktasıdır.
+
+11:56'daki kavrama görüntüsü, {ar:نَاصِيَةٍۢ, tr:nāṣiyatin, gloss:perçem} için verilen denetim uzantısını yön fikriyle de buluşturur. Ön bölge, failin denetlenebilen yeri olur; {ar:خَاطِئَةٍۢ, tr:khāṭiʾatin, gloss:günahkâr} kelimesinin doğruyu veya hedefi istemeden tutturamama yönü, bu noktayı doğru rotayı taşıyamayan bir seyirle ilişkilendirir. 33:5'teki hata-kasıt ayrımı bu bağlantının kapsamını belirler: ön, yanlış yönün denetlenebilir ucu gibi sezilirken bu sezgi ayrı bir yönetim mekanizması hükmü kurmaz. Böylece kasıtsız yanılma ile kasıtlı günah arasındaki sınır yerinde kalır.
+
+Bu temasın daha ihtiyatlı bir ifadesinde {ar:نَاصِيَةٍۢ, tr:nāṣiyatin, gloss:perçem}, yalancının ve bilerek günah işleyenin eyleminin bedensel kaynağı ya da taşıyıcısı gibi genişler. Ön kısmından tutma görüntüsü (96:15), kontrolün uygulandığı yeri verir; {ar:كَٰذِبَةٍ, tr:kādhibatin, gloss:yalancı} yanlış söz veya davranışı, {ar:خَاطِئَةٍۢ, tr:khāṭiʾatin, gloss:günahkâr} ise sorumluluk doğuran yönelişi bu kontrol noktasında buluşturur. Bu ihtiyatlı bağlantının taşıdığı şey, ahlaki eylemin bedensel kaynağına ilişkin bir görüntüdür; bağımsız bir bilinç veya ayrı bir faillik atfetmez. Böylece üç kelimenin temasında ahlaki kusurun yakalanabilir ön yüzü belirir.
+
+## Kendine Yeterlik ve Buyruk
+
+Ön kısımdan tutma ve denetim altında bulundurma anlamı, 96:7'deki {ar:أَن رَّءَاهُ ٱسْتَغْنَىٰٓ, tr:an raʾāhu istaghnā, gloss:kendisini yeterli görürse} iç değerlendirmesiyle birleştiğinde, kendi yönünü tayin ettiğini sanan bir hareketin ön ucunu düşündürür. 96:6'daki sınır aşımı, 96:7'deki kendine yeterlik ve 96:8'deki dönüş ufku aynı küçük akışta görünür. {ar:كَٰذِبَةٍ, tr:kādhibatin, gloss:yalancı} bu özerklik iddiasının söz veya davranışta gerçeğe aykırı oluşunu, {ar:خَاطِئَةٍۢ, tr:khāṭiʾatin, gloss:günahkâr} ise doğru sonucu hedeflerken başka yöne varışını açar; sınır aşımı bu iki sapmayı çevreleyen basınçtır. Bu sıra ihtiyatlı bir bağlam önerisidir: üç adım tek bir nedensel psikolojiye çevrilmeden, denetim uzantısının kendi yönünü tayin ettiğini sanan ön uçta nasıl genişlediğini gösterir.
+
+Başka bir ihtiyatlı genişlemede seçkin veya önde gelen kesim anlamı, perçemi bir komut başı gibi düşündürür. {ar:أَوْ أَمَرَ بِٱلتَّقْوَىٰٓ, tr:aw amara bi-t-taqwā, gloss:takvayı emrediyorsa} içindeki emir, {ar:خَاطِئَةٍۢ, tr:khāṭiʾatin, gloss:günahkâr} dalının yanlış yöne sevk edilen bir komuta, {ar:كَٰذِبَةٍ, tr:kādhibatin, gloss:yalancı} dalının ise hükmü doğruluk bakımından bozulan bir komut kaynağına dönüşmesini gösterir. Bu hareketi 96:9, 96:10, 96:11 ve 96:12'deki temaslar ayrı ayrı görünür kılar: {ar:أَرَءَيْتَ ٱلَّذِى يَنْهَىٰ, tr:araʾayta alladhī yanhā, gloss:engel olanı gördün mü} ibadeti durduran engeli, {ar:عَبْدًا إِذَا صَلَّىٰٓ, tr:ʿabdan idhā ṣallā, gloss:namaz kılan kul} durdurulan pratiği, {ar:أَرَءَيْتَ إِن كَانَ عَلَى ٱلْهُدَىٰٓ, tr:araʾayta in kāna ʿalā al-hudā, gloss:hidayet üzereyse} doğru yönü ve {ar:أَوْ أَمَرَ بِٱلتَّقْوَىٰٓ, tr:aw amara bi-t-taqwā, gloss:takvayı emrediyorsa} koruyucu emri verir. Bu komut imgesi, bu dört temasın kurduğu ölçü içinde kalır.
+
+{ar:كَٰذِبَةٍ, tr:kādhibatin, gloss:yalancı} için sağlanan daha dar bir söylem hareketi, muhataba “sana düşer” diyerek bir işi yükleme çekirdeğini de taşır. Bu yükümlülük, 96:12'deki emri ve 96:17'deki {ar:فَلْيَدْعُ نَادِيَهُۥ, tr:fal-yadʿu nādiyahu, gloss:meclisini çağırsın} çağrısını yan yana getirir: yanlış komut başkasına yük bindiren, ardından bu yükün kabulü için destek toplamaya çalışan toplumsal bir söz hâline gelir. Buradaki katkı, yanlış yönlendirmenin emir ile çağrı arasında işleyen bir baskı kazanmasıdır; yorum bu yükümlülük çekirdeğinin ötesindeki özendirme veya sorgulamaya açılmaz.
+
+İçe dönük bir harekette {ar:كَٰذِبَةٍ, tr:kādhibatin, gloss:yalancı} sözcüğünün sağlanan özel dalı, doğrudan “yalan” eklemekten önce kişinin iç benliğini adlandırır. 96:12'deki takva hedefi ve 96:19'daki {ar:كَلَّا لَا تُطِعْهُ وَٱسْجُدْ وَٱقْتَرِب, tr:kallā lā tuṭiʿhu wasjud waqtarib, gloss:ona uyma secde et ve yaklaş} karşılığı, bu iç benliğin sınandığı alanı açar. Yanlış hesap, kendine ait bir anlatı üretip onu düzeltmeden koruyan bir süreç gibi görünür; bu görüntü koruma ve itaat bağlamlarının sağladığı sınırlı temasta kalır. Böylece iç benliğin kendi hesabını sürdürme baskısı görünür olur, kelimeye tamamlanmış bir psikoloji yüklenmez.
+
+## Zorlanan ve Seçilen Yön
+
+96:15'in {ar:بِٱلنَّاصِيَةِ, tr:bi-n-nāṣiya, gloss:perçeminden yakalayarak} ifadesi, ayetin beden ilişkisini açıkça kurar. Buradan {ar:نَاصِيَةٍۢ, tr:nāṣiyatin, gloss:perçem} için verilen kontrol noktası anlamı, {ar:كَٰذِبَةٍ, tr:kādhibatin, gloss:yalancı} ve {ar:خَاطِئَةٍۢ, tr:khāṭiʾatin, gloss:günahkâr} nitelemeleriyle birleşince failin kullandığı ön ucun tersine çevrilmesini düşündürür. Ön saçtan tutma bedensel taşıyıcıyı verir; yalancılık başarısız bir söz veya davranış, günahkârlık sorumluluk doğuran yöneliş olarak geri döner. Böylece önden yönettiği varsayılan kişinin aynı ön kısımdan yönetilmesi, 96:15'teki gerçek tutma görüntüsünü koruyan somut bir karşılık kazanır.
+
+Bu tersine dönüş, 96:19'daki hareketle karşılaştırıldığında başka bir beden karşıtlığı kazanır: {ar:كَلَّا لَا تُطِعْهُ وَٱسْجُدْ وَٱقْتَرِب, tr:kallā lā tuṭiʿhu wasjud waqtarib, gloss:ona uyma secde et ve yaklaş} sahte komut kaynağına itaat etmeme, başı eğme ve yaklaşma sırasını kurar. {ar:خَاطِئَةٍۢ, tr:khāṭiʾatin, gloss:günahkâr} zorla ele geçirilen kutbu, {ar:سُجُود, tr:sujūd, gloss:secde} ise seçilmiş karşı hareketi belirginleştirir. 96:15'te perçemden yakalama zorlanmış bir indirmedir; 96:19'da itaat etmeme, secde ve yaklaşma gönüllü bir yönelmedir. {ar:نَاصِيَةٍۢ, tr:nāṣiyatin, gloss:perçem} bu iki hareketi karşılaştırılabilir kılan ortak bedensel ekseni sağlar; böylece her baş eğme aynı türden teslimiyet sayılmaz. Bu karşılaştırmanın dayanağı 96:15 ve 96:19'daki iki somut harekettir; ayetin olağan perçem anlamı bu eksen içinde korunur.
+
+## Önde Duran Yüz
+
+96:17'deki {ar:فَلْيَدْعُ نَادِيَهُۥ, tr:fal-yadʿu nādiyahu, gloss:meclisini çağırsın} çağrı ile 96:18'deki {ar:سَنَدْعُ ٱلزَّبَانِيَةَ, tr:sanadʿu az-zabāniya, gloss:karşı kuvveti çağıracağız} cevabı, ön yüzdeki kusuru toplumsal bir ölçeğe taşıyan keşif niteliğinde bir benzetme açar. {ar:نَاصِيَةٍۢ, tr:nāṣiyatin, gloss:perçem} için seçkin ve önde gelen kesim uzantısı, {ar:كَٰذِبَةٍ, tr:kādhibatin, gloss:yalancı} ve {ar:خَاطِئَةٍۢ, tr:khāṭiʾatin, gloss:günahkâr} ile birleşerek sahte ve suçlu bir liderlik tepesi tasarlar. {ar:نَادِيَهُۥ, tr:nādiyahu, gloss:toplandığı meclis} çağrının destek topladığı alanı, {ar:سَنَدْعُ ٱلزَّبَانِيَةَ, tr:sanadʿu az-zabāniya, gloss:karşı kuvveti çağıracağız} ise buna karşı iten ve karşı koyan örgütlü kuvveti gösterir. Böylece meclis çağrısı tepenin toplumsal dayanağını, karşı çağrı da bu dayanağın karşısına çıkan cevabı kurar. Burada perçem siyasal bir makam diye tanımlanmaz; bedensel öncelik ile çağrıya cevap veren topluluk arasındaki ölçeklenme, 96:17 ve 96:18'in dar dizisi içinde görünür olur.
+
+Aynı önde duran yüz, başka bağlamlarla daha geniş bir topluluk görüntüsüne de açılabilir. 69:9'da Firavun ile ondan öncekilerin toplu günahı, {ar:نَاصِيَةٍۢ, tr:nāṣiyatin, gloss:perçem} için seçkin veya önde gelme anlamıyla buluştuğunda, bozulmuş bir topluluğun öne çıkan yüzü düşünülebilir. 63:2'de yeminlerini siper edip Allah yolundan alıkoyan topluluk, yön veren önün davranışa dönüşmesini gösterir; 29:12'de başkalarını bir yola çağırıp onların hatalarını üstleneceğini söyleyenlerin yalancılıkla nitelenmesi ise bu önde duran yapının başkalarını etkileyen eylemlerinden de sorumlu tutulabileceğini görünür kılar. Bu genişleme bireysel perçemin yerini almaz ve belirli bir tarihsel lider tanımlamaz. Yalancılık ve günahkârlık niteliklerinin, başkalarını çağıran ve yolu yönlendiren bir yapının önünde nasıl görünürleşebileceğini ekler.
+
+</editorial_prose>

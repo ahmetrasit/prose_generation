@@ -1,0 +1,177 @@
+# V5 reading invitation — 89:3
+
+You are a fresh reading-invitation writer. Read the complete editorial prose
+before writing. It is your sole semantic source.
+
+Write two to four paragraphs of fluent, contemporary Turkish that reveal a
+surprising reading by following one or two main channels of resonance in the
+ayah. A channel is a connected background of meanings, images, actions, or
+relations through which the ayah can be heard and understood differently.
+Several editorial findings may together develop one channel. Summarize that
+connected movement and its consequence for the ayah's main meaning, rather
+than compressing findings individually. Give the reading's substance now;
+the invitation comes from understanding it, not from a promise of hidden depth.
+
+Before drafting, read the entire editorial prose and silently select the one
+or two channels with the strongest interpretive consequence and enough
+grounding to explain clearly. Favor channels that expand or shift what the
+ayah says, the relation it establishes, or what is at stake in its action or
+image. One fully developed channel is sufficient; add a second only when it
+offers a distinct consequential reading that can be explained within the
+invitation. No finding, channel, or major shift has an individual coverage
+claim. Unselected material may remain entirely in the full commentary.
+
+A channel may develop through grammar, sound, dialogue, a material process,
+time, imagery, or a conceptual relation. Resonance is not limited to acoustic
+effects, and an unusual image alone does not establish a channel. Use only
+connections the editorial prose actually develops. If it supplies no such
+channel, explain its strongest grounded reading without inventing connections
+or surprise.
+
+Begin inside the ayah's own words, images, actions, or relations and reveal a
+selected distinctive reading in the first paragraph. Keep the plain meaning
+reachable with only the orientation needed to understand the change. Do not
+spend an opening paragraph on routine explanation or front-load context about
+the surah, the ayah's position, or the commentary project.
+
+For each selected channel, begin with the expression that opens it, unfold the
+connected background, and show how the ayah reads or sounds against that
+background. Let a detail lead into the next through an intelligible relation
+or process, so the reader experiences the emerging reading. This is a movement
+of thought, not a mandatory sentence pattern or one paragraph per finding.
+Let the reader identify the expression being interpreted,
+where any nonordinary detail comes from, and what that detail changes in the
+reading. Briefly identify the word-family use, restricted form, collocation, or
+context that supplies an essential added detail, and preserve the concrete
+operation that makes the image work. Keep the ordinary reading and necessary
+qualification clear within this explanation; do not repeat them as a fixed
+formula. Preserve the particular object, process, or relation that makes this
+reading distinctive, and state its interpretive consequence for the ayah as a
+whole. Make intelligible what the familiar reading leaves less visible and
+what the expanded or shifted reading now lets the reader understand. Preserve
+the editorial's force: an exploratory possibility remains possible, while a
+developed shift must not be softened into a decorative association or a
+reassurance that everything means the same thing. A concrete
+account of how something is carried, transformed, lost, or restored must not
+shrink to a general statement about care, guidance, dependence, or goodness.
+Keep the details needed to make the selected channel work; omit side findings
+and shorten routine setup. If a channel cannot be explained faithfully from
+the editorial prose, choose another grounded channel or reading.
+
+When a non-focus ayah supplies a contribution used in the invitation, keep its
+reference from the editorial prose beside that contribution.
+
+Do not turn the invitation into a miniature inventory of the commentary's
+conclusions, or flatten distinct channels into a broad theme to include more
+material. Do not repair, extend, or supplement the editorial prose from memory
+or outside knowledge.
+
+Omit technical apparatus. Retain any qualification, source distinction, live
+alternative, or boundary whose absence would change the force or meaning of a
+chosen reading. Express it naturally beside the image or relation it qualifies.
+Favor positive explanations of the relation between layers: what remains in
+the foreground and what the resonance makes audible in the background. State
+how that background reinforces, expands, or shifts the understanding of the
+main meaning, with the source and degree of certainty clear. Reserve explicit
+exclusions for concrete ambiguities or live counter-evidence that need them.
+Repeated "this is not X" endings make a reading sound withdrawn; express the
+substantive qualification through what the reading does contribute wherever
+possible. Use varied, natural language rather than a repeated "second layer"
+formula, and preserve the force of expansions and shifts.
+Do not name branches, candidates, findings, scopes, evidence categories,
+ledgers, or workflow stages, or label the prose as numbered channels. Do not
+list findings serially.
+
+Use the established `{ar:..., tr:..., gloss:...}` syntax, consistent
+Turkish-readable transliteration, and short ordinary glosses. Keep Arabic
+anchors beside the explanations they ground. Within a paragraph, continue with
+the Turkish meaning where clear; provide the necessary local tag when a later
+paragraph interprets the carrier anew. Do not place Arabic script outside a
+valid tag.
+
+Build transitions within a channel through its shared object, action, or
+relation. If two channels are selected, they may occupy separate paragraphs;
+do not invent a link between them. Do not praise the commentary's quality,
+promise what the reader will find, manufacture suspense, recap at the end, or
+add a call to action. End on an image, relation, action, or tension already
+established by the selected reading.
+
+Before finishing, compare the invitation with the entire editorial prose:
+does the chosen channel reveal a consequential reading, or could the text have
+been written from the ordinary translation and a modest explanation alone?
+When the editorial supports a surprising channel, the latter fails this task.
+Can the reader follow the opening expression into a connected background and
+understand how that background expands or shifts the ayah's main meaning?
+Check the selected connections against their editorial explanation: can the
+reader tell where the nonordinary details come from, with the necessary
+qualifications intact? Repair generic explanation, isolated curiosities, or a
+compressed findings list by developing the selected channel. Do not add
+omitted channels merely for coverage. Do not output this check.
+
+Write only the invitation text to:
+
+`_commentary/v5/editorial/s089-regular-20260912/s089/89_3/89_3.invitation.tr.md`
+
+Do not add a heading, wrapper label, index, ledger, evidence file, or any other
+artifact. Do not modify the editorial prose.
+
+After writing the invitation, run:
+
+```bash
+python3 _commentary/v5/validate_prose.py _commentary/v5/editorial/s089-regular-20260912/s089/89_3/89_3.invitation.tr.md
+```
+
+If validation fails, repair only the reported mechanical file-contract issues
+and rerun it, for at most two repair cycles. Report the final validator result
+in your response.
+
+<editorial_prose>
+Bu kısa âyetin yaptığı şey bir yemindir: "Çifte ve teke andolsun!" Önceki yemin akışına (89:1, 89:2) eklenen {ar:وَ, tr:wa, gloss:yemin bağını sürdüren ve} ile {ar:ٱلشَّفْعِ, tr:eş-şefʿi, gloss:çift olan} ilk yemin tanığı belirir. Buradaki çift, sıradan bir liste öğesi gibi sıralanmaz; üzerine yemin edilen bir kutup olarak kurulur. Yemin cevabı bu sıkı birimin ötesinde beklediği için âyet, daha ilk isminde iki tanıklı bir çerçeve açar. Biraz sonra aynı bağlacın yeniden gelmesi, bu çerçevenin yemin zincirine yeni bir tanık ekleyerek ilerleyeceğini gösterir.
+
+İlk {ar:وَ, tr:wa, gloss:yemin bağını sürdüren ve} çözümlemede ayrı bir edattır, fakat okunuşta edat ile isim arasına boşluk girmez. Parçalar dilbilgisel olarak ayrılırken ses akışında yemin kuvveti belirli isimle tek bir başlangıçta toplanır. {ar:ٱلشَّفْعِ, tr:eş-şefʿi, gloss:çift olan} kelimesi olağan anlamında tek duran bir şeye benzerini ekleyip onu çift duruma getirerek artırmayı taşır. Âyetteki belirli tekil soyut ad biçimi yemin edilen çiftlik kategorisini öne çıkarır; bu biçimde işlemi yapan kişi ve işlemin kendisi arka planda kalır. Böylece kelime yalnızca iki sayısını değil, sayılabilir şeylerin hangi düzende bulunduğunu da adlandırır. Çiftlik, biraz sonra gelecek tekliğin karşısındaki bütün alanın ilk kutbu olur; yemin biçimi, kelimenin birleştirme basıncı ve karşıtının önünde yer alması bu kutbu ilişki kuran bir ilke hâline getirir.
+
+Sonra {ar:وَ, tr:wa, gloss:bağlayan ve yemin eden} yeniden duyulur ve {ar:ٱلْوَتْرِ, tr:el-vetri, gloss:tek olan} kelimesini {ar:ٱلشَّفْعِ, tr:eş-şefʿi, gloss:çift olan} ile bağlarken yemin kuvvetini tazeler. Aynı küçük edat, ikinci ismi ilkine koordine eder ve tekliği kendi başına yemin edilen ikinci tanık yapar. İki isimdeki edat-artikel-genitif kalıbı aynıdır: biçim önce eşitliği duyurur, sonra anlamları iki ayrı kutba ayırır. İlk wa'nın hazırladığı iki vuruş, burada çiftlikten tekliğe dönen bir menteşeye dönüşür. Son sözün bu hareketin sonunda yer alması, kesik kapanışı ve belirli tekil soyut ad biçimi anlamı tek kalan uçta sıkıştırır. Bu biçimin seyrek görünmesi de yükü son kelimede toplar. Aynı kök çerçevesindeki ses değişimi tanıdık tek sayılı tekillik yönünü hafifçe duyurabilir; alınan biçimin bilinen tek veya eşsiz kategoriye ait kuvveti ise yerinde kalır. Eşleşenler ile eşleşmenin dışında kalanlar böylece aynı yemin alanında görünür.
+
+Bu iki isim karşı karşıya geldiğinde sayı sınıfları, birbirini açan işlemler olarak da duyulur. {ar:ٱلشَّفْعِ, tr:eş-şefʿi, gloss:benzerini ekleyerek çiftleştirme} tek duran şeye benzerini ekleyip onu çift yapan hareketi; {ar:ٱلْوَتْرِ, tr:el-vetri, gloss:eşi olmayan tek sayı} ise eşsiz kalan tek durumu taşır. Bir taraf eklenerek çiftleşir, öteki eşinden yoksun kaldığı için tek kalır. Bu temas, yemin edilen çiftlik ve teklik zeminine bir oluş hareketi ekler. Hareketin faili ve gerçekleşmiş sahnesi bu bağlantının kapsamına girmez; görünen şey, iki kategorinin birbirine göre aldığı yön değişimidir.
+
+Şefʿ kelimesinin yanına katılma yönü, sayıdaki ikinci unsurun ilişki içindeki desteğe dönüşmesini sağlar. {ar:ٱلشَّفْعِ, tr:eş-şefʿi, gloss:başkasına katılıp destek olan} bir başkasının ihtiyacını yetkiliye taşıyan ve onu güçlendiren yardımcıyı da duyurabilir. Bu ilişkisel rengi açan bağımsız karşılık, {ar:ٱلْوَتْرِ, tr:el-vetri, gloss:tek veya eşsiz kalan} kelimesinin karşıt tekliğidir. Böylece çift, yalnızca miktar bakımından eklenen unsur değil, birinin yanında etkili bir destek olarak görünür. Yemin edilen soyut kategoriye eşlik eden bu renk, çiftlikteki eklenme hareketinin insanî ilişkide aldığı yönü görünür kılar. Bağlantı burada gerçekleşmiş bir dilek veya gerçek bir aracı bildiren ayrı bir sahneye genişlemez.
+
+Vetrin başka bir kullanım alanı bu desteğin karşısındaki açıklığı keskinleştirir. {ar:ٱلْوَتْرِ, tr:el-vetri, gloss:karşılıksız ağır zarar} öldürme, mal alma veya ağır kötülükten doğup karşılığı henüz alınmamış öç alacağını; bir kişinin hakkının ya da yaptığı işin karşılığının eksiltilmesini anlatabilir. Bu basınç, {ar:ٱلشَّفْعِ, tr:eş-şefʿi, gloss:yanına katılıp destek olan} kelimesinin eşlik hareketine değdiğinde tek kalan kutup, karşılığı eksik bırakılmış ve yanında destek arayan bir taraf gibi hissedilir. Buradaki açıklık ağır zarardan doğan karşılıksız alacak veya hak edilmiş payın eksilmesiyle sınırlı, nitelikli bir mahrumiyettir; başka tür azalmalara genellenmez. Âyetin yemin ettiği tekliğin içinde böylece karşılığı bekleyen bir açıkta kalma duyulur.
+
+Teklik aynı zamanda aralık ve gerilim taşıyan bir akış olarak duyulabilir. {ar:ٱلْوَتْرِ, tr:el-vetri, gloss:aralıklı tek tek gelen} kelimesi öğeler arasındaki boşluğu, gerilmiş tek bir kirişin gerginliğini ve iş ya da gidiş sırasında ortaya çıkan geçici gevşemeyi düşündürür. Çiftin yanına katılan destekle birleşince iki durum belirir: biri başka bir unsura bağlanır, diğeri aralıkları ve gerilimiyle açıkta kalır. Bu maddî basınç, yemin edilen soyut çift ve tek kategorilerini derinleştirir. Yay ve yolculuk imgeleri bu özel bağlantının açıklayıcı sınırıdır; belirli bir yay, yolculuk veya dış olayın anlatımı olarak genellenmez.
+
+Çift ve tekin geliş biçimleri de farklı bir ritim açar. {ar:ٱلشَّفْعِ, tr:eş-şefʿi, gloss:tek sağımda iki kap dolduran} kelimesinin özel bir kullanımında dişi devenin tek sağımda iki ayrı kabı dolduracak verimi anlatması, iki çıktının tek bir toplamada kümelenen görünümünü taşır. Bunu karşılayan {ar:ٱلْوَتْرِ, tr:el-vetri, gloss:aralıklı tek tek gelen} kullanımında öğeler aralarında süre bırakarak birer birer gelir; iş veya gidiş sırasında oluşan geçici ara ve hız düşüşü de bu ritme kısa bir duraklama ekler. Çift aynı toplamada biriken üretken kümeyi, tek aralıklı gelişleri ve akıştaki yavaşlamayı hissettirebilir. Bu, iki kutbun geliş biçimine ait ihtiyatlı bir görüntüdür; genel bolluk veya zaman kuramı olarak genellenmez.
+
+## Sayıdan Akışa
+
+Bu ritim, yakın yemin dizisindeki zaman ifadeleriyle temas edince geceyi sayan bir ölçüye dönüşür. {ar:ٱلشَّفْعِ, tr:eş-şefʿi, gloss:çiftleştiren} kelimesi (89:2)'de sayılan on gecenin birikerek tamamlanmaya yaklaşmasını görünür kılar. {ar:ٱلْوَتْرِ, tr:el-vetri, gloss:aralıklı tekliğin kutbu} kelimesinin tek tek akışı, gecenin yürüyüp gitmesini anlatan (89:4)'teki hareketle buluşur; aşamalar aralarında boşluk bırakarak ilerler. {ar:وَٱلْفَجْرِ, tr:ve'l-fecr, gloss:tan yerinin ağarması} (89:1)'de gecenin içinden çıkan sabahı ve bu hareketin yöneldiği son kırılmayı gösterir. On sayısı, dokuza eklenen son birim gibi kapanış noktası sağlar; şefʿin biriktiren, vetrin aralıklı ilerleten, fecrin ise eşiği belirleyen katkıları geceyi sayılan bir süre hâline getirir.
+
+Bu yakınlıkta üç ayrı katkı birleşir: başlangıçtaki {ar:وَٱلْفَجْرِ, tr:ve'l-fecr, gloss:tan yerinin ağarması} (89:1)'de zamansal çerçevenin ilk halkasını kurar, {ar:وَلَيَالٍ عَشْرٍۢ, tr:ve leyâlin aşr, gloss:on gece} (89:2)'de karanlığı sayılabilir bir süre hâline getirir, {ar:وَٱلَّيْلِ إِذَا يَسْرِ, tr:ve'l-leyli izâ yesr, gloss:gece yürüyüp giderken} (89:4)'te sayımı ilerleyen bir akışa yerleştirir. Bu ihtiyatlı komşuluk, çift ve tekin yemin edilen karşıtlığına sayım, aralık ve eşik duygusu verir. Dört nesnenin yan yana duran bağımsız yeminler olması da aynı açıklıkla okunur; gece ifadeleri iki ismin ayrımını çözmek yerine onların yakınında hareketli bir zaman zemini açar.
+
+Sayılmış gecelerin ardından başka bir sınama belirir: görünen ikinci gerçekten bir eş midir? {ar:ٱلشَّفْعِ, tr:eş-şefʿi, gloss:benzerini ekleyen çift} benzerin bulunmasıyla kurulan çifti, {ar:ٱلْوَتْرِ, tr:el-vetri, gloss:eşi bulunmayan tek} ise benzerlik bağının kurulamadığı yerde ayakta kalan biçimi taşır. İrem için benzer yaratılmadığını söyleyen {ar:ٱلَّتِى لَمْ يُخْلَقْ مِثْلُهَا فِى ٱلْبِلَٰدِ, tr:elletî lem yuhlaq misluhâ fi'l-bilâd, gloss:beldelerde benzeri yaratılmamış} ifadesi (89:8), benzeri ekleme hareketini gerçek bir sınamaya sokar. Eş bulunamadığında vetr gibi eşleşmemiş bir kalan görünür. Bu bağlantı, 89:8'deki benzerlik işaretini âyetin "çift ve tek" yeminine taşıyan nitelikli bir genişlemedir. İrem'in adı bu âyetin sözlük anlamına dönüşmeden, eşin bulunması ve bulunmaması arasındaki ilişkiyi duyurur.
+
+Aynı bağlam, çift görünen bir şeyin nasıl sınanacağını da düşündürür. {ar:ٱلشَّفْعِ, tr:eş-şefʿi, gloss:görüntüde çiftleşme} tek bir nesnenin iki görüntü gibi algılanmasını, {ar:ٱلْوَتْرِ, tr:el-vetri, gloss:gerçek tekliği koruyan ölçü} ise görünen ikinciyi değerlendiren tekliği taşır. (89:6)'daki {ar:أَلَمْ تَرَ كَيْفَ فَعَلَ رَبُّكَ بِعَادٍ, tr:e-lem tera keyfe feale rabbuke bi-Âd, gloss:Rabbin Âd'a ne yaptığını görmedin mi} sorusu görmeyi pasif bir görüntü almaktan çıkarıp görüleni üzerinde düşünerek sınamaya taşır. (89:8)'deki benzerlik ifadesi, görünen ikinciyi gerçek bir eş olup olmadığı bakımından karşılaştıracak ölçüyü sağlar. Böylece çift, iki ayrı varlık hükmünden önce gerçek eş ile yansıma arasında yoklanan bir görüntü hâline gelebilir. Bu daha keşifsel bağlantı, 89:6 ve 89:8'deki görme ve benzerlik ilişkisinden gelen ince, dolaylı bir bağlamsal destekle sınırlıdır; Âd anlatısının kendi tarihsel açıklaması yanında görme bozukluğu hakkında bir bildirim taşımaz.
+
+## Açıkta Kalanın Hesabı
+
+Görme sorusundan ayrı bir bağlamsal hareket burada açılır: yakın bölümün taşkınlık, fesat, ceza ve gözetim çizgisi, çift ile tek arasındaki adalet gerilimini görünür kılar. {ar:ٱلشَّفْعِ, tr:eş-şefʿi, gloss:başkasına eklenen destek} bir başkasının ihtiyacına katılan etkin gücü, {ar:ٱلْوَتْرِ, tr:el-vetri, gloss:karşılıksız ağır zarar} ise öldürme, mal alma veya ağır kötülükten doğan ve cevabı bekleyen zararı taşır. (89:11)'deki {ar:ٱلَّذِينَ طَغَوْا۟ فِى ٱلْبِلَٰدِ, tr:ellezîne tağav fi'l-bilâd, gloss:beldelerde sınırı aşanlar} ilk yanlışı, (89:12)'deki {ar:فَأَكْثَرُوا۟ فِيهَا ٱلْفَسَادَ, tr:fe-ekserû fîhe'l-fesâd, gloss:orada bozgunculuğu çoğalttılar} onun toplumsal dengeyi bozan yayılışını gösterir. (89:13)'teki {ar:فَصَبَّ عَلَيْهِمْ رَبُّكَ سَوْطَ عَذَابٍ, tr:fe-sabbe aleyhim rabbuke sevta azâb, gloss:Rabbin üzerlerine azap kamçısını döktü} bu yanlışa karşılık veren cezayı, (89:14)'teki {ar:إِنَّ رَبَّكَ لَبِٱلْمِرْصَادِ, tr:inne rabbeke lebi'l-mirsâd, gloss:Rabbin gözetleme yerindedir} ise yapılanın gözden kaçmadığı gözetim şartını getirir. Böylece destek ile karşılığı bekleyen zarar arasında bir cevap ilişkisi belirir; ceza kendi anlatısındaki sonuç, gözetim ise genel hesap verme çevresindeki güvence olarak yerini alır. Bu bağlantı, hukuk terimi değil, açıkta kalmış zararın cevap bekleyişini yemin edilen iki kutup üzerinden duyuran nitelikli bir bağdır.
+
+Bu karşılık meselesi, (89:15) ve (89:16)'daki aynalı sınama cümlelerinde artış ile eksilmeye yapıştırılan değeri açığa çıkarır. Bolluk, ikram ve rahatlık yaşayan kişi bunu onurlandırılma diye yorumlar (89:15); rızkı daraltılan kişi ise daralmayı horlanma olarak okur (89:16). {ar:ٱلشَّفْعِ, tr:eş-şefʿi, gloss:eklenmiş benzerle artış} bolluğun görünen koşulunu, {ar:ٱلْوَتْرِ, tr:el-vetri, gloss:hakkı eksiltilmiş tekil durum} daralmanın görünen koşulunu sağlar. Değer etiketi miktarın kendisinden değil, kişinin ona verdiği yorumdan doğar: rahatlık ve elverişli hâl artışın yaşanan fazlalığını, horlanma sözü ise daralmadan çıkarılan yanlış hükmü görünür kılar. Çift benzeri artış ile tekleşme ve eksilme, bu aynalı cümlelerde ahlâkî kararlar değil, insanın durumunu açığa çıkaran sınama şartlarıdır. Çifte ve teke edilen yemin, bu şartlar üzerinden artı ile eksiyi doğrudan değer sayan yanlış aritmetiği görünür kılar (89:15, 89:16).
+
+Bu soyut açıkta kalma, yetim ve yoksulun bedenlenen sahnesinde somutlaşır. Yetimin onurlandırılmaması ve yoksula yemek verilmesi için birbirini harekete geçirmeyen topluluk (89:17, 89:18), desteğin ihtiyaç sahibine ulaşmadığı alanı gösterir. {ar:ٱلشَّفْعِ, tr:eş-şefʿi, gloss:başkası adına katılıp destek olma} burada ihtiyaç sahibinin yanına gitmek, onun adına istemek ve desteği ulaştırmak yönünü taşır. {ar:ٱلْوَتْرِ, tr:el-vetri, gloss:korumasız ve karşılıksız kalan} ise tek sayının yanında korunması ve karşılığı eksik bırakılan kişiyi duyurabilir. (89:18)'de birbirini eyleme yöneltmek, yardımın tek kişinin iyi niyetinde kalmayıp başka yardımcıları da harekete geçiren aktarımını gösterir; yemeğin gerçekten ulaştırılması desteği sözden maddî karşılığa taşır. Bu kuvvetli bağlamsal görüntüde vetrin ağır zarar alanı, kan davası ilanı olarak değil, korunmasız bırakılmanın sosyal yankısı olarak belirir.
+
+Şefʿin hayvanlara özgü kullanımları, bu desteğin biçimini canlı bir refakat görüntüsüne çevirir. Yanında yavrusu bulunan koyun ile iki yavru ilişkisi taşıyan dişi deve, bir canlıyı tamamlayan eşliği gösterir. Bu görüntünün yetim sahnesine katkısı hayvanla özdeşlik değil, yanında bulunması gereken bakım ilişkisinin biçimidir; kopmuş bakım ilişkisi insan sahnesinde görünür hâle gelir (89:17). Yoksulluğun düşkünleştirici hâli vetr tarafındaki açıkta kalmayı verir; yiyeceğin ulaştırılması şefʿ tarafındaki desteği maddî onarıma dönüştürür (89:18). Eşlik eden ilişki topluluk içinde çoğalırken, tek başına bırakılmış kişi korunma ve rızık bakımından yeniden bir bağa kavuşur. Bu somut ayrıntı, sayısal çift ve tek yeminini genişletir; yetim, yoksulluk, yönlendirme ve yemek onun içindeki destek ve yoksunluk ilişkisini görünür kılar.
+
+Destek ile açıkta kalma, hakların nasıl paylaştırıldığı sorusuna uzanır. Şefʿin benzeri ekleme hareketi bir kişinin hakkına destek veya ek pay bağlarken, vetrin tekil ve eksiltilmiş yönü başka birinin payını açıkta bırakabilir. Yetim ve yoksul sahnesi (89:17, 89:18), hesabın tekil kişiye kadar daraldığı sahneyle (89:25, 89:26) birlikte düşünüldüğünde, kimin bir ilişkiye bağlandığı ve kimin kendi başına bırakıldığı sorusu keskinleşir. Vetrin hak veya karşılık eksiltme yüzü, kişiye ait olanın azaltılmasını somut bir kayıp olarak açıklar. 89:25 ve 89:26'daki tekil hesap işareti bu ilişkiyi kesin bir sözlük dalına çevirmek yerine bağlamın taşıdığı nitelikli çıkarım olarak bırakır. Çiftlik ve teklik burada miktardan çok, bir paya destek eklenmesi ile başka bir payın açıkta kalması arasındaki hak hesabını duyurur.
+
+Artışın başkasından eksiltmeye dönüşmesi, miras ve mal sevgisi sahnesinde daha maddî bir biçim alır. (89:19)'daki mirasın topluca yenmesi, dağınık parçaların bir araya getirilmesi ve önceki kişiden miras kalana geçen payların tüketilmesi, {ar:ٱلشَّفْعِ, tr:eş-şefʿi, gloss:taşınmazda öncelikli alım hakkı} kelimesinin özel kullanımına temas eder. Bu kullanımın belirli katkısı, ev veya arazi satışında bağlantılı isteklinin öncelikli alım hakkıdır: satılanı eldeki mülke katar ve sonraki isteklilerin önüne geçirir. Şefʿin ekleme çekirdeği böylece başkasının hakkını da içine alan bir toplamaya dönebilir. (89:20)'de malı edinme ve çoğaltma arzusu bu eklemenin güdüsünü büyütür. {ar:ٱلْوَتْرِ, tr:el-vetri, gloss:hakkını veya karşılığını eksiltmek} ise payı emilen tarafın kaybını taşır: birinin şefʿ gibi eklemesi, diğerini vetr gibi hakkından mahrum bırakabilir. Bu keşifsel bağ, burada öncelikli alım hakkının ekleme sonucuyla miras payının kaybı arasındaki özel teması görünür kılar; genel mülk edinme hakkında bir hükme yayılmaz (89:19, 89:20).
+
+## Sıraya Giren ve Gerilen Biçimler
+
+Çift ve tek, yargı sahnesinde bu kez anlam kadar biçimin içinde de hareket eder. Yerin art arda ve çiftlenmiş vuruşlarla dümdüz edilmesi (89:21), {ar:ٱلشَّفْعِ, tr:eş-şefʿi, gloss:benzeri ekleyerek çiftleştirme} kelimesinin işlemsel yönüne biçimsel bir karşılık verir. 89:21'deki art arda vuruş tekrarları ile (89:22)'deki sıra sıra dizilen saflar, ayrı birimlerin yinelenerek aynı çizgide hizalanmasını gösterir. {ar:ٱلْوَتْرِ, tr:el-vetri, gloss:uzun şerit ve tek sıra} kelimesinin uzun şerit ve doğrusal sıra ayrıntısı, bu hizalanmış birimlerin her birinin kendi çizgisinde tek bir uzantı olarak kalmasını açıklar. Bu, açık tekrarlar ve sıralardan doğan orta kuvvette, keşifsel bir biçimsel yankıdır. Yankı, olağan vurgu ve ritim açıklamasıyla birlikte durur; tek tek uzanan sıralar ile tekrarlanarak çoğalan vuruşlar, iki kelimenin biçimsel basıncını yargı görüntüsünde duyurur (89:21, 89:22).
+
+Kapanıştaki hitap, tekili ilişkiye sokarken kimliğini korur. Kendi kimliğiyle duran nefis geri dönmeye çağrılır, karşılıklı hoşnutlukla kabul edilir ve bir topluluğun içine girmeye yönelir (89:27, 89:28, 89:29). {ar:ٱلشَّفْعِ, tr:eş-şefʿi, gloss:başkasına katılma} burada bir başkasına eklenmeyi, {ar:ٱلْوَتْرِ, tr:el-vetri, gloss:tek kişi olarak kalma} hitap edilen kişinin tekilliğini taşır. Nefis ilişkiye girmeden önce kendi kimliğiyle durur; dönüş ayrılıktan ilişkiye geçişi, karşılıklı hoşnutluk iki taraflı kabulü, topluluğa ve içeriye giriş de dışarıdaki tekilden dahil edilmiş varlığa geçişi kurar. İlişki tekilliği eritmez, onu kabul edilmiş bir bağın içine alır. Bu nitelikli bağlamsal çıkarım, birincil çift ve tek yemin zeminini koruyarak tekilliğin ilişki kurmaya engel olmadığını görünür kılar (89:27, 89:28, 89:29).
+
+İki kutup, destek ve gerilim taşıyan maddî bir ilişkide de yan yana gelir. (89:7)'deki taşıyıcı destekler ve (89:10)'daki çakılmış kazık, {ar:ٱلشَّفْعِ, tr:eş-şefʿi, gloss:bir araya getirilmiş destekler} kelimesinin ayrı parçaları ortak yükte birleştiren yönünü düşündürür. Destek yükü taşır, kazık gerilimin karşı koyacağı sabit noktayı verir. {ar:ٱلْوَتْرِ, tr:el-vetri, gloss:yayın iki ucunu geren kiriş} kelimesinin özgül görüntüsünde tek kiriş yayın iki ucuna bağlanır ve onu gerili tutar; tek çizgi birleşmiş parçaları biçimde tutan gerilim olur. (89:26)'daki bağlama ve sabitleme sahnesi, aynı tutturma kuvvetinin destekten hareketsiz bırakmaya dönüşebileceğini gösterir. Bu uzak ve keşifsel yapısal benzetmenin katkısı, yemin edilen çift ve tek kategorilerini maddî bir ilişki içinde derinleştirmesidir: desteklenen parçaları bir arada tutan tek hat, onları aynı anda gerilim içinde sabitleyebilir. Bağlantının kapsamı bu destek-gerilim modelidir; yemin edilen kategorilerin yerine geçen ayrı bir anlam önermez.
+
+</editorial_prose>

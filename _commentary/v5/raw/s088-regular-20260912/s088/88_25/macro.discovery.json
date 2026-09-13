@@ -1,0 +1,839 @@
+{
+  "schema_version": "commentary-v5-scope-discovery-v1",
+  "ayah_ref": "88:25",
+  "lane": "macro",
+  "coverage_complete": true,
+  "candidate_decisions": [
+    {
+      "candidate_id": "cand_1dd6f3a6bee48df680ba",
+      "decision": "reject",
+      "reason": "The oath-and-expiation nomination does not land as a complete macro activation. The Allah formula branch has only the automatic basmala cue and no independent oath or expiation trigger; the supplied كفر and تولى context names do not provide branch-specific carrier coordinates for the nominated B009 and B013 branches; the unresolved ء ل ي/B007 citation has no registered branch. The available evidence therefore supplies no bounded changed reading for this candidate.",
+      "finding_refs": [],
+      "branch_exclusions": [
+        {
+          "branch_ref": "root_000047/B002",
+          "reason": "The automatic 88:0 Allah occurrence is an invocation context, but the packet gives no independent oath or expiation trigger that activates this fixed-formula branch in the focus reading."
+        },
+        {
+          "branch_ref": "root_001307/B009",
+          "reason": "The packet names كفر at 88:23, but supplies no branch-specific carrier occurrence or exact activation trace for B009; the HFT trace for root_001307/B003 is a different branch and cannot substitute."
+        },
+        {
+          "branch_ref": "root_001684/B013",
+          "reason": "The packet names تولى at 88:23, but supplies no branch-specific carrier occurrence or exact activation trace for B013; the HFT trace for root_001684/B007 is a different branch and cannot substitute."
+        }
+      ],
+      "facet_exclusions": [],
+      "context_exclusions": [
+        {
+          "context_ref": "88:17",
+          "reason": "The creation-sign context supplies no independent oath or expiation operation for this candidate."
+        },
+        {
+          "context_ref": "88:23",
+          "reason": "The supplied context names turning away and covering, but does not land the nominated channel branches with exact branch-specific carriers."
+        },
+        {
+          "context_ref": "88:24",
+          "reason": "The punishment and Allah anchor text does not supply the missing oath-formula carrier and expiation mechanism."
+        }
+      ],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_ee24838a8cfd4dee1961",
+      "decision": "narrow",
+      "reason": "The accepted focus branch root_000065/B001 lands through إِيَابَهُمْ and the pericope's directional and turning context supplies a bounded endpoint reading. The nominated root_001684/B002 and B012 branches have no exact branch-specific carrier occurrence in the packet, while the unresolved ء ل ي/B001 citation cannot establish the endpoint branch. The finding therefore retains only the accepted return core.",
+      "finding_refs": [
+        "macro:endpoint-return"
+      ],
+      "branch_exclusions": [
+        {
+          "branch_ref": "root_001684/B002",
+          "reason": "The supplied 88:23 تولى context is not accompanied by an exact carrier occurrence or branch-specific trace for continuous succession B002."
+        },
+        {
+          "branch_ref": "root_001684/B012",
+          "reason": "The supplied 88:23 تولى context is not accompanied by an exact carrier occurrence or branch-specific trace for attaining or taking possession B012."
+        }
+      ],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_a3095ca3cde26ddd984e",
+      "decision": "accept",
+      "reason": "The exact HFT trace stays within the declared pericope, supplies distinct source word indices for all six branches, and returns through the focus word. Its legacy-unbound identity and absent target morphology qualify the finding but do not defeat the supplied activation.",
+      "finding_refs": [
+        "macro:directed-looking-culmination"
+      ],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_a385cc043038c9a6ad52",
+      "decision": "accept",
+      "reason": "The exact HFT trace supplies the reminder, negated control, and focus-return coordinates within the declared pericope. All four branches land as an attributed jurisdictional contrast; legacy-unbound identity and absent target morphology require qualification only.",
+      "finding_refs": [
+        "macro:reminder-without-custody"
+      ],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_89ebb50fc4d5d07fb4df",
+      "decision": "accept",
+      "reason": "The exact HFT trace supplies the preceding turning-away and concealment coordinates and returns through both the accepted focus core and direction facet. The attributed inference remains bounded to the focus's final direction and is qualified by the legacy-unbound source identity.",
+      "finding_refs": [
+        "macro:turning-away-bounded"
+      ],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_df4b1ed58c837ec3b256",
+      "decision": "accept",
+      "reason": "The exact HFT trace supplies punishment and divine agency before the focus and counting and review after it, with every six branch references accounted for. The custody-to-account distinction is retained as attributed and qualified because the source is legacy-unbound and target morphology is absent.",
+      "finding_refs": [
+        "macro:return-into-account"
+      ],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_9ca28dd91377ca29ddc1",
+      "decision": "accept",
+      "reason": "The exploratory HFT outlier supplies an exact focus sun-setting branch, sky and earth context anchors, and an explicit containment warning that the analogy must not replace the human return reading. It survives as a bounded attributed analogy with exploratory status.",
+      "finding_refs": [
+        "macro:setting-analogy"
+      ],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    }
+  ],
+  "findings": [
+    {
+      "finding_ref": "macro:endpoint-return",
+      "origin_candidate_id": "cand_ee24838a8cfd4dee1961",
+      "represented_candidate_ids": [],
+      "title": "Endpoint and return",
+      "claim": "Within the declared pericope, the focus's return is presented as movement resolving at a definite destination: the earlier directional sequence and the immediately preceding turn-away meet the accepted return core in إِيَابَهُمْ.",
+      "mechanism": "The supplied pericope evidence repeats إِلَى before inspected objects and places إِلَيْنَا before إِيَابَهُمْ; the focus branch's core return-to-a-destination meaning gathers those directed movements into a named endpoint.",
+      "reader_payoff": "The closing sentence can be read as the pericope's movement arriving somewhere definite, so 'bize dönüş' carries an endpoint image alongside its plain assertion.",
+      "containment": "This is a bounded pericope resonance using only the accepted root_000065/B001 core. The unresolved ء ل ي/B001 nomination and the two و ل ي branches are not activated; no surah-wide channel or alternative human action is asserted.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": [
+          "trusted"
+        ],
+        "reason": "The channel nomination is trusted and the focus carrier is exact, but the candidate is narrowed because its endpoint and attainment branches lack exact branch-specific carriers and one cited branch is unresolved."
+      },
+      "support_ids": [
+        "sup_1c3153d7105ba33e507c",
+        "sup_4ad1b1d6f3edebbe294d",
+        "sup_a3931f6cda4794f5d97d",
+        "sup_b2863701f02936b4da3b"
+      ],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000065/B001",
+          "facet_id": "F001",
+          "branch_gloss": "dönüş ve dönüş yeri",
+          "facet_statement": "Temel çekirdek, bir kişinin veya şeyin geri dönmesi ve önceki ya da beklenen varış yerine yönelmesidir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "88:25:3"
+          ],
+          "trigger_refs": [
+            "88:17",
+            "88:23"
+          ],
+          "focus_return_refs": [
+            "88:25:3:1"
+          ],
+          "carrier": "إِيَابَهُمْ yüzeyindeki dönüş çekirdeği, kişilerin önceki veya beklenen varış noktasına geri yönelmesini taşır.",
+          "independent_trigger": "88:17-20'deki إِلَى yönelişleri ile 88:23'teki تَوَلَّىٰ hareketi, perikopun yön ve varış bağlamını sağlar.",
+          "activation": "Daha önce farklı nesnelere yönelen ve ardından dışa dönen hareketler, odak kelimesindeki dönüş çekirdeğiyle buluşur; إِلَيْنَا bu hareketlerin çözüldüğü hedefi adlandırır.",
+          "resulting_reading": "İyâb, dağınık yönelişlerin sonunda belirlenmiş bir varış noktasında toplanması olarak görünür; bizedir ifadesi hareketin sonunu adlandırır.",
+          "boundary": "Bu çekirdek yalnızca bildirilen perikop bağlamındaki endpoint ilişkisini taşır; surah-wide bir sistem veya insan dönüşünün iradi niteliği hakkında ek hüküm kurulmaz."
+        }
+      ],
+      "connection_refs": [
+        "conn_a66688b41ba12cf81458"
+      ],
+      "context_refs": [
+        "88:17",
+        "88:23"
+      ],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "macro:directed-looking-culmination",
+      "origin_candidate_id": "cand_a3095ca3cde26ddd984e",
+      "represented_candidate_ids": [],
+      "title": "Directed looking culminates",
+      "claim": "The pericope's repeated looking toward created objects culminates in إِلَيْنَا, so the warned group's return is presented as the final orientation beyond the inspected field.",
+      "mechanism": "The same إِلَى recurs before the camel, sky, mountains, and earth, while the focus repeats the directional form in a first-person destination; creation, raising, erection, and surfacing make those quarters legible as a made field whose orientation closes toward Us.",
+      "reader_payoff": "The focus no longer arrives as an isolated locator alone: the preceding survey of visible order gives the final return a direction that gathers the whole field into its closure.",
+      "containment": "This is an attributed, medium-strength HFT inference with complete supplied anchors but legacy-unbound reader identity and no target morphology. It does not activate the branchless كيف as a lexical branch or establish a surah-wide channel.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": [
+          "legacy_unbound"
+        ],
+        "reason": "The HFT trace is explicit and all anchors lie in the declared pericope, but the source identity is legacy-unbound and its target morphology is surface-only, so the directional synthesis remains attributed."
+      },
+      "support_ids": [
+        "sup_5c5db27d67d6ad403b79"
+      ],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000065/B004",
+          "facet_id": "F001",
+          "branch_gloss": "her yönden",
+          "facet_statement": "Çekirdek, gelişin tek bir yönden değil her yönden gerçekleşmesidir.",
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "88:25:3"
+          ],
+          "trigger_refs": [
+            "88:17:2",
+            "88:17:6",
+            "88:18:4",
+            "88:19:4",
+            "88:20:4"
+          ],
+          "focus_return_refs": [
+            "88:25:3:1"
+          ],
+          "carrier": "إِيَابَهُمْ içindeki her yönden geliş imgesi, dönüşü tek bir başlangıç çizgisine kapatmayan bir yön alanı taşır.",
+          "independent_trigger": "88:17-20'deki dört إِلَى yönelişi ve yaratılma, yükseltilme, dikilme ve yüzey olma fiilleri, kurulmuş bir uzam alanı sağlar.",
+          "activation": "Odak kelimesinin her yönden dönüş alanı, dört nesneye yöneltilen bakışın kurduğu çoklu yönlerle temas eder; böylece önceki yönelişler son dönüşün çıkış çizgileri gibi okunur.",
+          "resulting_reading": "İِلَيْنَا, yaratılmış alanın içindeki son bir konum değil, yönelişlerin ötesinde kapanan nihai istikamet olarak belirir.",
+          "boundary": "HFT'nin yön sentezi korunur; bu, إِيَابَهُمْ kelimesinin insanlara ilişkin olağan dönüş anlamının yerine başka bir anlam koymaz."
+        },
+        {
+          "branch_ref": "root_001520/B001",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "88:17:2"
+          ],
+          "trigger_refs": [
+            "88:25:3:1"
+          ],
+          "focus_return_refs": [
+            "88:25:3:1"
+          ],
+          "carrier": "88:17'nin ikinci kelimesindeki bakış, dikkati belirli bir nesneye yöneltir.",
+          "independent_trigger": "Odak ayetindeki İِيَابَهُمْ, bu yöneltilmiş dikkatin sonradan varacağı yönü sağlar.",
+          "activation": "Bakışın nesneye çevrilmesi ile dönüşün belirli bir hedefe bağlanması aynı yöneliş işlemi içinde temas eder.",
+          "resulting_reading": "Önceki bakışlar, son cümlede bizzat yönün tamamlandığı bir dönüş ufku kazanır.",
+          "boundary": "Bu, HFT'nin atfettiği bağlamsal temasın kaydıdır; nẓr kökü için packet dışında bir sözlük dalı veya surah-wide tekrar ileri sürülmez."
+        },
+        {
+          "branch_ref": "root_000434/B002",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "88:17:6"
+          ],
+          "trigger_refs": [
+            "88:25:3:1"
+          ],
+          "focus_return_refs": [
+            "88:25:3:1"
+          ],
+          "carrier": "88:17'nin altıncı kelimesindeki yaratma fiili, ilk nesneyi meydana getirilmiş bir düzenin kanıtı olarak taşır.",
+          "independent_trigger": "İِيَابَهُمْ içindeki dönüş, kurulmuş düzenin ötesindeki son yönü ve varış noktasını sağlar.",
+          "activation": "Meydana getirilmiş olanın göz önüne alınması, dönüşün rastgele bir kaybolma değil düzenin belirlediği bir yön kapanışı olarak okunmasını tetikler.",
+          "resulting_reading": "Yaratılmış düzenin gözlemi, odak ayetindeki dönüşün bu düzeni aşan belirli bir hedefe bağlanmasını görünür kılar.",
+          "boundary": "Bu kayıt HFT'nin atıflı rolünü taşır; insan dönüşünü yaratılma fiiline indirgemez."
+        },
+        {
+          "branch_ref": "root_000582/B001",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "88:18:4"
+          ],
+          "trigger_refs": [
+            "88:25:3:1"
+          ],
+          "focus_return_refs": [
+            "88:25:3:1"
+          ],
+          "carrier": "88:18'in dördüncü kelimesindeki yükseltilme, incelenen alanın yukarı eksenini kurar.",
+          "independent_trigger": "Odak dönüşü, bu dikey eksenin ötesinde yönelen son varışı sağlar.",
+          "activation": "Yukarı kaldırılmış gök ile İِيَابَهُمْ içindeki hedefe dönüş, görülen uzamın bir yön haritası olarak kapanmasına temas eder.",
+          "resulting_reading": "Yükseltilmiş gök, bizedir dönüşünün görünen gök ile sınırlı olmayan bir yön tamamlanışı olduğunu hissettirir.",
+          "boundary": "Yükselme imgesi yalnızca sağlanan HFT bağlamında kullanılır; aşkınlık hakkında packet dışı bir önerme kurulmaz."
+        },
+        {
+          "branch_ref": "root_001507/B001",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "88:19:4"
+          ],
+          "trigger_refs": [
+            "88:25:3:1"
+          ],
+          "focus_return_refs": [
+            "88:25:3:1"
+          ],
+          "carrier": "88:19'un dördüncü kelimesindeki dikilme, incelenen alanda sabit ve görünür bir işaret kurar.",
+          "independent_trigger": "Odak ayetindeki dönüş, sabit işaretlerin ötesindeki nihai yönü sağlar.",
+          "activation": "Dikilmiş dağların sabitliği, dönüşün de yönsüz bir dağılma değil varılacak bir istikamete bağlı hareket olarak algılanmasına temas eder.",
+          "resulting_reading": "Sabit dikey işaretler, dönüşün belirli bir sonuca doğru yöneldiği izlenimini güçlendirir.",
+          "boundary": "Bu yalnızca atıflı bir uzam ilişkisi olarak tutulur; dağlara bağımsız bir sembolik görev yüklenmez."
+        },
+        {
+          "branch_ref": "root_000703/B001",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "88:20:4"
+          ],
+          "trigger_refs": [
+            "88:25:3:1"
+          ],
+          "focus_return_refs": [
+            "88:25:3:1"
+          ],
+          "carrier": "88:20'nin dördüncü kelimesindeki yayılmış düzlem, yön araştırmasının yatay eksenini tamamlar.",
+          "independent_trigger": "İِيَابَهُمْ içindeki dönüş, yatay düzlemin ötesine uzanan son yönü sağlar.",
+          "activation": "Yerin yayılmış bir kapanış yüzeyi olarak sunulması, odak ayetindeki bizedir ifadesinin görünen zeminde son bulmayan yön tamamlanışıyla temas eder.",
+          "resulting_reading": "Yeryüzü alanın son sınırı gibi görünürken İِلَيْنَا, bu alanın ardından gelen nihai yönü belirler.",
+          "boundary": "Bu, HFT'nin atıflı bağlamsal katkısıdır; yerin ontolojik sınırına ilişkin bağımsız bir iddia değildir."
+        }
+      ],
+      "connection_refs": [
+        "conn_4e162ad9309d0a0b8247",
+        "conn_380ad71fe9d8bba8189c"
+      ],
+      "context_refs": [
+        "88:17",
+        "88:18",
+        "88:19",
+        "88:20"
+      ],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "macro:reminder-without-custody",
+      "origin_candidate_id": "cand_a385cc043038c9a6ad52",
+      "represented_candidate_ids": [],
+      "title": "Reminder and custody",
+      "claim": "The focus assigns exclusive custody of the warned group's return to the divine speaker, while the preceding reminder command and explicit denial of control define the messenger's task as non-coercive.",
+      "mechanism": "The supplied context gives remembering and reminder as the messenger's operation, then negates control over them; the fronted إِلَيْنَا consequently meets the return event as the authority that owns and receives it.",
+      "reader_payoff": "The sentence distinguishes the one who restores awareness through speech from the one who possesses the final return, making the focus's 'to Us' carry jurisdiction rather than destination alone.",
+      "containment": "This is an attributed pericope reading from an exact but legacy-unbound HFT trace. It preserves the plain return assertion and does not claim a full institutional or legal theory beyond the supplied reminder/control contrast.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": [
+          "legacy_unbound"
+        ],
+        "reason": "The HFT trace has complete anchor coverage and explicit word indices, but its reader identity is legacy-unbound and the target morphology is not supplied; the jurisdictional synthesis remains attributed."
+      },
+      "support_ids": [
+        "sup_0d20cccfa47b2bd94c36"
+      ],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000065/B001",
+          "facet_id": "F001",
+          "branch_gloss": "dönüş ve dönüş yeri",
+          "facet_statement": "Temel çekirdek, bir kişinin veya şeyin geri dönmesi ve önceki ya da beklenen varış yerine yönelmesidir.",
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "88:25:3"
+          ],
+          "trigger_refs": [
+            "88:21:1",
+            "88:21:4",
+            "88:22:1",
+            "88:22:3"
+          ],
+          "focus_return_refs": [
+            "88:25:3:1"
+          ],
+          "carrier": "إِيَابَهُمْ, kişilerin bir dönüş noktasına geri yönelmesini ve bu dönüşün kime ait olduğunu taşıyan odak olaydır.",
+          "independent_trigger": "88:21'de hatırlatma ve 88:22'de kontrolün reddi, insan sözünün sınırını ve ilahi yetkinin ayrıldığı alanı sağlar.",
+          "activation": "Dönüş olayı, hatırlatan kişinin sınırlı işi ile kontrolün reddedildiği bağlamla buluştuğunda, إِلَيْنَا dönüşün nihai alıcısını ve yetki sahibini belirler.",
+          "resulting_reading": "Bizedir, yalnızca gidilecek yeri değil, dönüşün nihai gözetim ve kabul makamını da açıklar.",
+          "boundary": "Bu, hatırlatma ile nihai custody arasındaki HFT sentezidir; peygamberin görevi veya ilahi yargı hakkında packet dışı ayrıntı eklenmez."
+        },
+        {
+          "branch_ref": "root_000516/B003",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "88:21:1",
+            "88:21:4"
+          ],
+          "trigger_refs": [
+            "88:25:3:1"
+          ],
+          "focus_return_refs": [
+            "88:25:3:1"
+          ],
+          "carrier": "88:21'deki iki hatırlatma biçimi, bir şeyi yeniden farkındalığa getirme işini taşır.",
+          "independent_trigger": "Odak ayetindeki İِيَابَهُمْ, farkındalığa çağrılan kişilerin nihai dönüşünü sağlar.",
+          "activation": "Hatırlatma ile dönüşün ayrılması, sözle uyandırmanın kişilerin son varışına sahip olmakla aynı işlem olmadığını görünür kılar.",
+          "resulting_reading": "Hatırlatan ses kişiyi farkındalığa çağırır; odak ayeti ise dönüşün ayrı bir ilahi yetki alanına ait olduğunu belirginleştirir.",
+          "boundary": "HFT'nin atfettiği reminder rolü korunur; bu branch için packet dışında sözlük glossu veya bağımsız fail teorisi kurulmaz."
+        },
+        {
+          "branch_ref": "root_001390/B001",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "88:22:1"
+          ],
+          "trigger_refs": [
+            "88:25:3:1"
+          ],
+          "focus_return_refs": [
+            "88:25:3:1"
+          ],
+          "carrier": "88:22'nin ilk kelimesindeki mevcut-hâl olumsuzlaması, kontrol rolünün kişiye ait olmadığını keskin biçimde sınırlar.",
+          "independent_trigger": "İِيَابَهُمْ içindeki dönüş, bu sınırlandırılmış insan rolünün karşısına ilahi alıcıyı koyar.",
+          "activation": "Kontrolün mevcut durumda reddedilmesi, dönüşün kimin yetkisinde olduğunu boş bırakır; odak ayetindeki إِلَيْنَا bu boşluğu ilahi custody ile doldurur.",
+          "resulting_reading": "Olumsuzlanan kontrol ile vurgulanan dönüş, insanın yönlendirme alanı ile ilahi kabul alanını ayırır.",
+          "boundary": "Bu, HFT'nin atfettiği negation rolüdür; olumsuzlama için packet dışında sentaktik ayrıntı iddia edilmez."
+        },
+        {
+          "branch_ref": "root_000704/B003",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "88:22:3"
+          ],
+          "trigger_refs": [
+            "88:25:3:1"
+          ],
+          "focus_return_refs": [
+            "88:25:3:1"
+          ],
+          "carrier": "88:22'nin üçüncü kelimesindeki baskın gözetici imgesi, elinden alınan custody rolünü adlandırır.",
+          "independent_trigger": "Odak ayetindeki bizedir dönüşü, bu reddedilen gözeticiliğin kimde kaldığını gösterir.",
+          "activation": "Baskın denetim imgesinin reddi, İِيَابَهُمْ içindeki dönüşün yalnızca sözle yönlendirilmediğini ve son kabul makamının farklı olduğunu görünür kılar.",
+          "resulting_reading": "Hatırlatmanın yanında zorlayıcı gözetim bulunmaz; dönüşün sahipliği odak ayetinde ilahi tarafa döner.",
+          "boundary": "Bu yalnızca HFT'nin attributed control-role ayrımıdır; branch için packet dışında gloss veya siyasal denetim iddiası eklenmez."
+        }
+      ],
+      "connection_refs": [
+        "conn_a3dc0040497bf5c44fc3"
+      ],
+      "context_refs": [
+        "88:21",
+        "88:22"
+      ],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "macro:turning-away-bounded",
+      "origin_candidate_id": "cand_89ebb50fc4d5d07fb4df",
+      "represented_candidate_ids": [],
+      "title": "Turning away remains bounded",
+      "claim": "The focus keeps even deliberate turning away and concealment within a return whose final direction remains toward Us.",
+      "mechanism": "The coordinated preceding acts of turning the back and covering truth supply a chosen outward vector; the focus's accepted return core and its direction facet meet those acts by assigning them no independent terminal quarter.",
+      "reader_payoff": "The return clause gathers the person who turned away into the same final scope, making refusal a bounded present orientation rather than an alternate ending.",
+      "containment": "This is a strengthened but legacy-unbound HFT inference. It preserves the preceding aversion and concealment as live descriptions and does not claim that the focus word lexically means reversal or that every temporal sequence is spatial.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": [
+          "legacy_unbound"
+        ],
+        "reason": "The HFT supplies exact focus and context word indices and a complete anchor scope; its legacy-unbound identity means the reversal synthesis remains attributed and qualified."
+      },
+      "support_ids": [
+        "sup_2435f04dfa5dbeaf1443"
+      ],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000065/B001",
+          "facet_id": "F001",
+          "branch_gloss": "dönüş ve dönüş yeri",
+          "facet_statement": "Temel çekirdek, bir kişinin veya şeyin geri dönmesi ve önceki ya da beklenen varış yerine yönelmesidir.",
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "88:25:3"
+          ],
+          "trigger_refs": [
+            "88:23:3",
+            "88:23:4"
+          ],
+          "focus_return_refs": [
+            "88:25:3:1"
+          ],
+          "carrier": "إِيَابَهُمْ, kişilerin dönüş noktasına yönelmesini ve önceki dışa dönük hareketi son bir varışta toplar.",
+          "independent_trigger": "88:23'teki تَوَلَّىٰ ve كَفَرَ, sırt çevirme ile gerçeği örtme yönünü birlikte taşır.",
+          "activation": "Dışa dönme ve örtme eylemleri, dönüş çekirdeğiyle aynı hareket alanında buluşur; إِلَيْنَا bu seçilmiş dış yönün son sınırını belirler.",
+          "resulting_reading": "Yüz çevirme kişilerin mevcut yönünü belirleyebilir, fakat bizedir ifadesi onların başka bir nihai istikamet kuramadığını görünür kılar.",
+          "boundary": "Bu, atıflı bir bounded-vector okumasıdır; iradenin tüm sonuçları veya kelimenin sözlük anlamının reversal olduğu iddia edilmez."
+        },
+        {
+          "branch_ref": "root_000065/B004",
+          "facet_id": "F001",
+          "branch_gloss": "her yönden",
+          "facet_statement": "Çekirdek, gelişin tek bir yönden değil her yönden gerçekleşmesidir.",
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "88:25:3"
+          ],
+          "trigger_refs": [
+            "88:23:3",
+            "88:23:4"
+          ],
+          "focus_return_refs": [
+            "88:25:3:1"
+          ],
+          "carrier": "İِيَابَهُمْ içindeki her yönden geliş alanı, dışa çevrilmiş tek bir yönün son yönü belirlemesini sınırlar.",
+          "independent_trigger": "تَوَلَّىٰ ile كَفَرَ, kişilerin kendilerine bir dış yön seçtiğini ve onu örtme eylemiyle sürdürdüğünü sağlar.",
+          "activation": "Her yönden dönüş alanı, seçilmiş dış yönün tek başına son durak olamayacağı fikriyle temas eder.",
+          "resulting_reading": "Dönüşün yön alanı genişledikçe, yüz çevirmenin kendi başına alternatif bir son kuramadığı daha açık hale gelir.",
+          "boundary": "Bu branch yalnızca HFT'nin attributed direction role'ünü taşır; packet dışı yön teorisi kurulmaz."
+        },
+        {
+          "branch_ref": "root_001684/B007",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "88:23:3"
+          ],
+          "trigger_refs": [
+            "88:25:3:1"
+          ],
+          "focus_return_refs": [
+            "88:25:3:1"
+          ],
+          "carrier": "88:23'ün üçüncü kelimesindeki sırt çevirme, kişiye ait bilinçli bir uzaklaşma vektörü sağlar.",
+          "independent_trigger": "Odak dönüşü, bu uzaklaşmanın karşısına kaçınılmaz varış yönünü koyar.",
+          "activation": "Bilinçli dışa dönme ile odaktaki bizedir birleştiğinde, şimdiki uzaklaşma ile nihai yön birbirinden ayrılır.",
+          "resulting_reading": "Sırt çevirme bir anlık yön seçimi olarak kalır; dönüş hükmü onun son yön üzerindeki tekeline izin vermez.",
+          "boundary": "Branch glossu ve facet'i packet'te çözülmemiştir; yalnızca HFT'nin atfettiği role dayanılır."
+        },
+        {
+          "branch_ref": "root_001307/B003",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "88:23:4"
+          ],
+          "trigger_refs": [
+            "88:25:3:1"
+          ],
+          "focus_return_refs": [
+            "88:25:3:1"
+          ],
+          "carrier": "88:23'ün dördüncü kelimesindeki örtme imgesi, uzaklaşmayı gerçeğin tanınmasından da saklama yönüne taşır.",
+          "independent_trigger": "إِيَابَهُمْ, örtülmüş olanı da kendi dönüş kapsamına alan nihai yönü sağlar.",
+          "activation": "Gerçeği örten uzaklaşma, dönüşün belirlediği son hedefle temas edince saklanmanın bağımsız bir çıkış kapısı olmadığı görünür olur.",
+          "resulting_reading": "Örtme, kişinin mevcut reddini açıklar; bizedir ise bu reddin nihai dönüşü ortadan kaldırmadığını belirler.",
+          "boundary": "Branch glossu ve facet'i packet'te çözülmemiştir; HFT'nin attributed concealment role'ü aşılmaz."
+        }
+      ],
+      "connection_refs": [
+        "conn_a66688b41ba12cf81458"
+      ],
+      "context_refs": [
+        "88:23"
+      ],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "macro:return-into-account",
+      "origin_candidate_id": "cand_df4b1ed58c837ec3b256",
+      "represented_candidate_ids": [],
+      "title": "Return and account",
+      "claim": "The closing sequence distinguishes return as the transfer into divine custody from the counting and review that follow it as account placed upon Us.",
+      "mechanism": "The focus stands between the supplied punishment and divine-agency clause at 88:24 and the subsequent حساب clause at 88:26; the two emphatic destination constructions therefore let إِيَابَهُمْ name the arrival into custody while حِسَابَهُم names the distinct operation of account.",
+      "reader_payoff": "Return and reckoning become two connected movements: arrival places the group before the authority, and account examines what has arrived.",
+      "containment": "This is an attributed, strong HFT synthesis with exact three-ayah anchors, legacy-unbound identity, and absent target morphology. It distinguishes the supplied sequence without forcing a complete legal chronology or replacing the plain return reading.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": [
+          "legacy_unbound"
+        ],
+        "reason": "The HFT trace explicitly supplies punishment, divine agency, return, counting, review, and the connective sequence, but the source is legacy-unbound and target morphology is surface-only."
+      },
+      "support_ids": [
+        "sup_af3d099e870c8d235f3f"
+      ],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000047/B001",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "88:24:2"
+          ],
+          "trigger_refs": [
+            "88:25:3:1"
+          ],
+          "focus_return_refs": [
+            "88:25:3:1"
+          ],
+          "carrier": "88:24'ün ikinci kelimesindeki worshiped-deity image, eyleyen ilahi otoriteyi belirler.",
+          "independent_trigger": "Odak ayetindeki bizedir dönüşü, bu otoritenin kabul ettiği dönüşü sağlar.",
+          "activation": "İlahi failin açıkça görünmesi, odaktaki birinci çoğul şahsın belirsiz bir topluluk değil dönüşü elinde tutan otorite olarak okunmasına temas eder.",
+          "resulting_reading": "Dönüşün kime ait olduğu, önceki ceza fiilindeki ilahi fail ile aynı yetki alanına bağlanır.",
+          "boundary": "Bu branch registry'de çözülmemiştir; yalnızca HFT'nin atfettiği deity-role kullanılır ve yeni bir branch glossu üretilmez."
+        },
+        {
+          "branch_ref": "root_000065/B001",
+          "facet_id": "F001",
+          "branch_gloss": "dönüş ve dönüş yeri",
+          "facet_statement": "Temel çekirdek, bir kişinin veya şeyin geri dönmesi ve önceki ya da beklenen varış yerine yönelmesidir.",
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "88:25:3"
+          ],
+          "trigger_refs": [
+            "88:24:1",
+            "88:24:3",
+            "88:26:4"
+          ],
+          "focus_return_refs": [
+            "88:25:3:1"
+          ],
+          "carrier": "إِيَابَهُمْ, grubun ilahi varış noktasına geri dönmesini ve kapanış işlemlerinin girişini taşır.",
+          "independent_trigger": "88:24'teki ceza ve 88:26'daki hesap, dönüşün önce ve sonra gelen farklı işlemler arasında bir kabul aşaması olduğunu sağlar.",
+          "activation": "Dönüş çekirdeği ceza ile hesap arasına yerleştiğinde, yalnızca sonuç adı değil sonraki incelemenin önkoşulu olan varış hareketi olarak okunur.",
+          "resulting_reading": "İyâb, ilahi custody'ye giriş; hesap ise bu girişten sonra yürüyen ayrı sayım ve inceleme işlemi olarak belirir.",
+          "boundary": "HFT'nin prosedürel ayrımı korunur, fakat ayetler arası ilişkinin tam kronolojisi veya hukukî ayrıntısı iddia edilmez."
+        },
+        {
+          "branch_ref": "root_000994/B005",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "88:24:1",
+            "88:24:3"
+          ],
+          "trigger_refs": [
+            "88:25:3:1"
+          ],
+          "focus_return_refs": [
+            "88:25:3:1"
+          ],
+          "carrier": "88:24'teki iki ceza kelimesi acı ve yaptırım sonucunu dönüşün hemen öncesindeki yargısal çerçeve olarak taşır.",
+          "independent_trigger": "Odaktaki dönüş, bu yargısal sonucun kime ve hangi kabul noktasına bağlandığını sağlar.",
+          "activation": "Ceza bağlamı, dönüşü soyut bir gidip gelme değil ilahi otoritenin önüne varma hareketi olarak çerçeveler.",
+          "resulting_reading": "Dönüş, cezanın yanında duran ve sonraki hesabın zeminini hazırlayan bir ilahi karşılaşma aşamasına dönüşür.",
+          "boundary": "Ceza branch'i packet'te çözülmemiştir; HFT'nin supplied role'ü dışında cezanın mahiyeti açıklanmaz."
+        },
+        {
+          "branch_ref": "root_001281/B002",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "88:24:4"
+          ],
+          "trigger_refs": [
+            "88:25:3:1"
+          ],
+          "focus_return_refs": [
+            "88:25:3:1"
+          ],
+          "carrier": "88:24'ün dördüncü kelimesindeki paramount-weight imgesi, dönüşü kuşatan sonucun büyüklüğünü artırır.",
+          "independent_trigger": "İِيَابَهُمْ, bu büyük sonuç çerçevesinin içine giren dönüş hareketini sağlar.",
+          "activation": "Sonucun ağırlığı ile dönüşün ilahi hedefe varışı temas edince, odak ayetinin kısa hükmü önceki cezanın büyüklüğüyle bağlanır.",
+          "resulting_reading": "Dönüş, yalnızca yön değiştirme değil, büyük bir nihai sonuç alanına giriş olarak hissedilir.",
+          "boundary": "Ağırlık branch'i packet'te çözülmemiştir; HFT'nin attributed framing rolü dışında sonuç derecelendirilmez."
+        },
+        {
+          "branch_ref": "root_000318/B001",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "88:26:4"
+          ],
+          "trigger_refs": [
+            "88:25:3:1"
+          ],
+          "focus_return_refs": [
+            "88:25:3:1"
+          ],
+          "carrier": "88:26'nın dördüncü kelimesi sayma ve hesaplama işlemini taşır.",
+          "independent_trigger": "Odaktaki dönüş, hesabın üzerinde çalışacağı gelen grubu ve kabul aşamasını sağlar.",
+          "activation": "Sayma işlemi, dönüşün varışla biten hareketinden sonra devreye girdiği için iki kelime aynı sonu tekrarlamak yerine birbirini tamamlar.",
+          "resulting_reading": "Hesap, dönüşün başka bir adı değil, dönüşle ilahi alana girenlerin sayısal olarak ele alınmasıdır.",
+          "boundary": "Bu branch registry'de çözülmemiştir; HFT'nin counting role'ü dışında hesap yöntemine dair ayrıntı verilmez."
+        },
+        {
+          "branch_ref": "root_000318/B006",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "88:26:4"
+          ],
+          "trigger_refs": [
+            "88:25:3:1"
+          ],
+          "focus_return_refs": [
+            "88:25:3:1"
+          ],
+          "carrier": "88:26'nın aynı dördüncü kelimesi, sayılan meselenin gözden geçirilmesi ve sorumlu biçimde incelenmesi işini taşır.",
+          "independent_trigger": "إِيَابَهُمْ içindeki dönüş, incelenen hesabın önüne gelenleri ilahi alana taşır.",
+          "activation": "Hesap kelimesinin inceleme yönü, dönüşü yalnızca fiziksel bir varış değil sorumluluğun ele alınacağı bir kabul hareketi olarak renklendirir.",
+          "resulting_reading": "Dönüşten sonra hesap, gelenlerin durumunu ve eylemlerini inceleyen sorumlu bir değerlendirme olarak açılır.",
+          "boundary": "Branch registry'de çözülmemiştir; HFT'nin review role'ü korunur ve packet dışı yargı prosedürü eklenmez."
+        }
+      ],
+      "connection_refs": [
+        "conn_3529c7720dd8bd58d425"
+      ],
+      "context_refs": [
+        "88:24",
+        "88:26"
+      ],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "macro:setting-analogy",
+      "origin_candidate_id": "cand_9ca28dd91377ca29ddc1",
+      "represented_candidate_ids": [],
+      "title": "Setting and assigned return",
+      "claim": "By analogy with the sun's setting between sky and earth, the focus's return can be pictured as a course reaching its assigned place rather than simple disappearance from the present field.",
+      "mechanism": "The supplied focus branch carries the sun's movement to its setting-place, while the sky and earth anchors provide the upper and lower visual field; that contact gives human disappearance a bounded temporal-spatial image without changing the human reference of هُمْ.",
+      "reader_payoff": "The return clause can hold an image of vanishing from sight as arrival at a place, so absence is perceived as the closure of a course as well as the plain fact of return.",
+      "containment": "This is an exploratory, attributed analogy. The packet explicitly warns that هُمْ denotes persons, not the sun; the solar-setting image is therefore a bounded comparison and never a lexical replacement for human إِيَاب.",
+      "epistemic": {
+        "status": "exploratory",
+        "source_trust": [
+          "legacy_unbound"
+        ],
+        "reason": "The HFT outlier supplies exact sky, earth, and focus anchors and an explicit containment statement, but it is exploratory, legacy-unbound, and target morphology is absent."
+      },
+      "support_ids": [
+        "sup_630247e7f1973d2b262b"
+      ],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000065/B007",
+          "facet_id": "F001",
+          "branch_gloss": "güneşin batması",
+          "facet_statement": "Çekirdek, güneşin batma yerine gidip görünmez olmasıdır.",
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "88:25:3"
+          ],
+          "trigger_refs": [
+            "88:18:2",
+            "88:20:2"
+          ],
+          "focus_return_refs": [
+            "88:25:3:1"
+          ],
+          "carrier": "إِيَابَهُمْ yüzeyinde güneşin batma yerine gidip görünmez olması dalı, dönüşü sabit bir yere ulaşan bir setting hareketi gibi resmeder.",
+          "independent_trigger": "88:18'in gök ve 88:20'nin yer yüzeyi, batışın üst ve alt ufuklarını kuran görsel alanı sağlar.",
+          "activation": "Gök ile yer arasındaki görsel alan, odaktaki güneş-batışı dönüş dalıyla buluşunca görünürden çekilme bir yok oluş değil belirlenmiş yere varan bir kurs olarak tasvir edilir.",
+          "resulting_reading": "İnsanların dönüşü, kelime anlamı değiştirilmeden, güneşin batışına benzer biçimde görünür alandan çekilip belirlenmiş bir son noktaya ulaşan bir hareket olarak hayal edilebilir.",
+          "boundary": "Bu yalnızca atıflı bir analojidir; هُمْ insanları ifade eder, odak kelimesi güneş anlamına çevrilmez ve analoji surah-wide bir sisteme dönüştürülmez."
+        },
+        {
+          "branch_ref": "root_000745/B004",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "88:18:2"
+          ],
+          "trigger_refs": [
+            "88:25:3:1"
+          ],
+          "focus_return_refs": [
+            "88:25:3:1"
+          ],
+          "carrier": "88:18'in ikinci kelimesindeki gök, yükselen ve örten üst alanı sağlar.",
+          "independent_trigger": "Odaktaki dönüşün setting analojisi, bu üst alan boyunca düşünülen bir batış kursunu sağlar.",
+          "activation": "Gök alanı ile güneşin belirli yere dönmesi temas edince, görünürden çekilme için üst ufukta kapanan bir hareket yolu belirir.",
+          "resulting_reading": "Gök, dönüşün basit yokluk değil ufukta tamamlanan bir hareket olarak imgeleştirilmesine zemin olur.",
+          "boundary": "Branch registry'de çözülmemiştir; HFT'nin sky-role'ü dışında göğe yeni bir anlam yüklenmez."
+        },
+        {
+          "branch_ref": "root_000025/B001",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "88:20:2"
+          ],
+          "trigger_refs": [
+            "88:25:3:1"
+          ],
+          "focus_return_refs": [
+            "88:25:3:1"
+          ],
+          "carrier": "88:20'nin ikinci kelimesindeki yer, göğün karşısında batışın ufukta sonlandığı alt alanı sağlar.",
+          "independent_trigger": "İِيَابَهُمْ içindeki setting analojisi, görünür alanın altında belirlenmiş bir dönüş noktasına varış imgesini sağlar.",
+          "activation": "Yer ile gök arasındaki karşıt görsel alan, batışı bir uçta tamamlanan kurs olarak okur ve bu imgeyi odaktaki insan dönüşüne analojik olarak bağlar.",
+          "resulting_reading": "Yeryüzü, görünür alanın alt sınırı olarak, dönüşün görünmezliğe karışmak yerine bir varış yerine kapanabileceğini düşündürür.",
+          "boundary": "Branch registry'de çözülmemiştir; bu yalnızca HFT'nin horizon-role'üne dayalı analojidir ve insan dönüşünün gerçek taşıyıcısı olarak yer gösterilmez."
+        }
+      ],
+      "connection_refs": [
+        "conn_380ad71fe9d8bba8189c"
+      ],
+      "context_refs": [
+        "88:18",
+        "88:20"
+      ],
+      "semantic_obligation_refs": []
+    }
+  ],
+  "friction_notes": [
+    "The packet reports docket_ready=false and docket_mode=blocked; all five parseable assigned HFT records were nevertheless visible and explicitly reviewed under the supplied authoring policy.",
+    "HFT source identity is legacy_unbound and target morphology is not supplied. Retained HFT activations are therefore attributed and qualified, and unresolved branch gloss and facet fields remain null rather than being invented.",
+    "The automatic host basmala 88:0 was available as ordinary macro context. Its Allah invocation cue did not independently activate the rejected oath-and-expiation cycle.",
+    "The channel nominations include unresolved citations ء ل ي/B007 and ء ل ي/B001. No registered branch record was supplied for either citation, so neither was activated.",
+    "Connections conn_9673696888855e1eecb1 (88:18, no material addition), conn_b123801fd14858664abc (88:19, weak local movement with counterevidence), and conn_4e162ad9309d0a0b8247 (88:17, limited parallel with counterevidence) were reviewed as retrieval evidence; only the last contributes a qualified supporting reference and none creates a separate finding.",
+    "No candidate supplied a semantic_obligations array; every semantic_obligation_exclusions and semantic_obligation_refs array is consequently empty."
+  ]
+}

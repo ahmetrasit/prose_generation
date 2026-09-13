@@ -1,0 +1,257 @@
+# V5 reading invitation — 95:4
+
+You are a fresh reading-invitation writer. Read the complete editorial prose
+before writing. It is your sole semantic source.
+
+Write two to four paragraphs of fluent, contemporary Turkish that reveal a
+surprising reading by following one or two main channels of resonance in the
+ayah. A channel is a connected background of meanings, images, actions, or
+relations through which the ayah can be heard and understood differently.
+Several editorial findings may together develop one channel. Summarize that
+connected movement and its consequence for the ayah's main meaning, rather
+than compressing findings individually. Give the reading's substance now;
+the invitation comes from understanding it, not from a promise of hidden depth.
+
+Before drafting, read the entire editorial prose and silently select the one
+or two channels with the strongest interpretive consequence and enough
+grounding to explain clearly. Favor channels that expand or shift what the
+ayah says, the relation it establishes, or what is at stake in its action or
+image. One fully developed channel is sufficient; add a second only when it
+offers a distinct consequential reading that can be explained within the
+invitation. No finding, channel, or major shift has an individual coverage
+claim. Unselected material may remain entirely in the full commentary.
+
+A channel may develop through grammar, sound, dialogue, a material process,
+time, imagery, or a conceptual relation. Resonance is not limited to acoustic
+effects, and an unusual image alone does not establish a channel. Use only
+connections the editorial prose actually develops. If it supplies no such
+channel, explain its strongest grounded reading without inventing connections
+or surprise.
+
+Begin inside the ayah's own words, images, actions, or relations and reveal a
+selected distinctive reading in the first paragraph. Keep the plain meaning
+reachable with only the orientation needed to understand the change. Do not
+spend an opening paragraph on routine explanation or front-load context about
+the surah, the ayah's position, or the commentary project.
+
+For each selected channel, begin with the expression that opens it, unfold the
+connected background, and show how the ayah reads or sounds against that
+background. Let a detail lead into the next through an intelligible relation
+or process, so the reader experiences the emerging reading. This is a movement
+of thought, not a mandatory sentence pattern or one paragraph per finding.
+Let the reader identify the expression being interpreted,
+where any nonordinary detail comes from, and what that detail changes in the
+reading. Briefly identify the word-family use, restricted form, collocation, or
+context that supplies an essential added detail, and preserve the concrete
+operation that makes the image work. Keep the ordinary reading and necessary
+qualification clear within this explanation; do not repeat them as a fixed
+formula. Preserve the particular object, process, or relation that makes this
+reading distinctive, and state its interpretive consequence for the ayah as a
+whole. Make intelligible what the familiar reading leaves less visible and
+what the expanded or shifted reading now lets the reader understand. Preserve
+the editorial's force: an exploratory possibility remains possible, while a
+developed shift must not be softened into a decorative association or a
+reassurance that everything means the same thing. A concrete
+account of how something is carried, transformed, lost, or restored must not
+shrink to a general statement about care, guidance, dependence, or goodness.
+Keep the details needed to make the selected channel work; omit side findings
+and shorten routine setup. If a channel cannot be explained faithfully from
+the editorial prose, choose another grounded channel or reading.
+
+When a non-focus ayah supplies a contribution used in the invitation, keep its
+reference from the editorial prose beside that contribution.
+
+Do not turn the invitation into a miniature inventory of the commentary's
+conclusions, or flatten distinct channels into a broad theme to include more
+material. Do not repair, extend, or supplement the editorial prose from memory
+or outside knowledge.
+
+Omit technical apparatus. Retain any qualification, source distinction, live
+alternative, or boundary whose absence would change the force or meaning of a
+chosen reading. Express it naturally beside the image or relation it qualifies.
+Favor positive explanations of the relation between layers: what remains in
+the foreground and what the resonance makes audible in the background. State
+how that background reinforces, expands, or shifts the understanding of the
+main meaning, with the source and degree of certainty clear. Reserve explicit
+exclusions for concrete ambiguities or live counter-evidence that need them.
+Repeated "this is not X" endings make a reading sound withdrawn; express the
+substantive qualification through what the reading does contribute wherever
+possible. Use varied, natural language rather than a repeated "second layer"
+formula, and preserve the force of expansions and shifts.
+Do not name branches, candidates, findings, scopes, evidence categories,
+ledgers, or workflow stages, or label the prose as numbered channels. Do not
+list findings serially.
+
+Use the established `{ar:..., tr:..., gloss:...}` syntax, consistent
+Turkish-readable transliteration, and short ordinary glosses. Keep Arabic
+anchors beside the explanations they ground. Within a paragraph, continue with
+the Turkish meaning where clear; provide the necessary local tag when a later
+paragraph interprets the carrier anew. Do not place Arabic script outside a
+valid tag.
+
+Build transitions within a channel through its shared object, action, or
+relation. If two channels are selected, they may occupy separate paragraphs;
+do not invent a link between them. Do not praise the commentary's quality,
+promise what the reader will find, manufacture suspense, recap at the end, or
+add a call to action. End on an image, relation, action, or tension already
+established by the selected reading.
+
+Before finishing, compare the invitation with the entire editorial prose:
+does the chosen channel reveal a consequential reading, or could the text have
+been written from the ordinary translation and a modest explanation alone?
+When the editorial supports a surprising channel, the latter fails this task.
+Can the reader follow the opening expression into a connected background and
+understand how that background expands or shifts the ayah's main meaning?
+Check the selected connections against their editorial explanation: can the
+reader tell where the nonordinary details come from, with the necessary
+qualifications intact? Repair generic explanation, isolated curiosities, or a
+compressed findings list by developing the selected channel. Do not add
+omitted channels merely for coverage. Do not output this check.
+
+Write only the invitation text to:
+
+`_commentary/v5/editorial/s095-regular-20260912/s095/95_4/95_4.invitation.tr.md`
+
+Do not add a heading, wrapper label, index, ledger, evidence file, or any other
+artifact. Do not modify the editorial prose.
+
+After writing the invitation, run:
+
+```bash
+python3 _commentary/v5/validate_prose.py _commentary/v5/editorial/s095-regular-20260912/s095/95_4/95_4.invitation.tr.md
+```
+
+If validation fails, repair only the reported mechanical file-contract issues
+and rerun it, for at most two repair cycles. Report the final validator result
+in your response.
+
+<editorial_prose>
+{ar:لَقَدْ خَلَقْنَا ٱلْإِنسَٰنَ فِي أَحْسَنِ تَقْوِيمٍ, tr:laqad khalaqnā al-insān fī aḥsani taqwīmin, gloss:İnsanı en güzel ve ölçülü kuruluş içinde yarattık}
+
+## Hükmün Eşiği
+
+Önceki yeminlerin (95:1, 95:2, 95:3) açtığı alan içinde bu cümle bir kanaat değil, kesin bir hüküm olarak belirir. Başındaki {ar:لَ, tr:la, gloss:yemin cevabını belirleyen lâm} ile {ar:قَدْ, tr:qad, gloss:kesinlik bildiren edat} birlikte çalışır: lâm yeminlerin cevabını işaretler, qad ise fiilin gerçekleşmişliğini öne çıkarır. Böylece ifade, yaratmanın gerçekleşip tamamlandığını ve bu tamamlanmış fiilin taşıdığı ölçünün güvenilir olduğunu duyurur.
+
+Başlangıçtaki {ar:لَقَدْ, tr:laqad, gloss:kesinlikle} ses ve anlam bakımından cümleyi sıkıca toplar. {ar:خَلَقْنَا, tr:khalaqnā, gloss:yarattık} birinci çoğul şahısla ilahî failin etkinliğini açıklar; geçmiş zaman burada bir tasarıyı değil tamamlanmış yaratmayı gösterir. Bu yüzden yaratma, uydurma bir anlatının karşısında duran gerçek kuruluş olarak kalır. Fiilin formülü, insan nesnesini ve onun fī ile bağlanan niteliğini birlikte taşır.
+
+## Kuruluşun Sözleri
+
+Khalaqnā’nın doğrudan nesnesi olan {ar:ٱلْإِنسَٰنَ, tr:al-insān, gloss:insanı} belirli ve tür bildiren bir isimdir. Bu kullanım, tek bir kişiden önce insan türünü ve ortak imkânını görünür kılar. Sonraki iniş anlatısında (95:5) aynı varlığa dönen gönderim noktası burada kurulur. Tür adı, hüküm ve dönüşlerin öznesi olabilecek algılayan ve ilişki kuran bir insan alanı açar; bu kapasitenin ahlaki sonucu ayrıca belirlenir.
+
+Khalaqnā yaratmayı, görünür bedenin kuruluşundan tanınabilirlik, ilişki, çaba, destek ve sorumluluk taşıyan insan kapasitesine uzanan bir temel olarak verir. Bu unsurlar, tamamlanmış kuruluşun dünyadaki kullanım yönleridir; fiilin sözlük çekirdeği ilahî yaratma olarak kalır.
+
+Fī’nin {ar:فِي, tr:fī, gloss:içinde ve bir durum olarak} anlamı, yaratma ile son niteliği aynı kuruluş durumu içinde bağlar ve insanı bu durumun sınırları içinde tutar. Buradaki bağlantı fiziksel bir kap değil, yaratılmış olma hâlinin niteliğidir. Kısa ses yapısı da cümlenin hükmünü sıkıştırır: yaratılmış olan, şimdi bir kalite ve ölçü içinde görünür.
+
+Aḥsani’nin {ar:أَحْسَنِ, tr:aḥsani, gloss:en güzel ve en iyi} üstünlük yapısı, değer duygusunu kategori kapanmadan önce verir. İzafet yapısının ilk unsuru olarak güzellik, iyilik ve işe yararlılık alanlarını açar; bu alanların neye bağlandığını sonraki {ar:تَقْوِيمٍ, tr:taqwīmin, gloss:ölçülü doğrultma ve kuruluş} belirginleştirir. Aynı ses benzerliği biçimsel bir yankıdır; burada güzellik, ölçülü kuruluşun niteliği olarak kalır.
+
+Taqwīmin, biçimlendirme ve doğrultma eylemini onun ortaya çıkardığı sağlam sonuca birlikte taşır. Belirsiz ve mecrur mastar oluşu, maddi bir nesne adından çok bir kurma tarzını gösterir. Kelime; doğrultma, ayakta tutma, denge ve sapmadan koruma çağrışımlarını yoğunlaştırır. Nadir ve ağır biçimi ayetin son vuruşunu belirgin kılar; sonraki inişle (95:5) ve son hükümle (95:8) oluşan karşıtlık için de açık bir yüzey bırakır.
+
+## Ölçülü ve Görünür Yapı
+
+Yaratma ile taqwīm birlikte okunduğunda, insanın ölçülü bir beden ve işleyen bir bütün olarak kurulduğu görülür. Yaratılışın ölçüsü ve sınırları (32:7, 54:49), oran duygusunu; tamamlanmış biçim (40:64, 87:2), bedenin düzenini; duyusal kuruluş ise (76:2) işaretleri alma kapasitesini görünür kılar. Böylece oluşun dış biçimi, güzellik, denge, doğruluk, boy, oran ve taşıyıcılık aynı ölçülü kuruluşta buluşur.
+
+Buradaki “en güzel” yargısı, yüzeydeki güzelliği yararlılık, uygunluk ve sürdürülebilirlikle aynı ölçülü kuruluşta birleştirir. Yüz ve cilt, bu alanın görünür bir yüzüdür; bedenin boyu ve oranı başlangıç zemini sağlar. İç yöneliş, davranış, hüküm ve bakım ise bu zeminin nasıl sürdürüldüğünü gösterir. Böylece yüzeydeki kusur, bütün insan değerinin ölçüsü yapılmaz.
+
+Kuruluşun dünyadaki katkısı varlıkla bitmez: insan görünür ve tanınır, bir topluluk içinde yerleşir, gözetim, destek ve rızık düzenleri içinde iş görür. Bu okuma, yaratma fiilinin çekirdeğini değiştirmeden tamamlanmış kuruluşun bakım ve işletme kapasitesini açıklar.
+
+Taqwīm’in doğruluk ve sapmadan korunma yönü, ölçünün yalnızca dış çizgide kalmadığını gösterir. Bir şeyin yerli yerinde tutulması, gözetim ve düzeltmeyle sürdürülmesi, sonraki davranış ve hüküm sahasına geçişi mümkün kılar. Böylece biçim, iç sorumluluk ve kullanım için bir eşik olur.
+
+## Tanınabilir Bir Dünyada İnsan
+
+Yemin dizisindeki {ar:وَٱلتِّينِ وَٱلزَّيْتُونِ, tr:wa-t-tīni wa-z-zaytūn, gloss:incir ve zeytin}, {ar:وَطُورِ سِينِينَ, tr:wa-ṭūri sīnīn, gloss:Sînîn dağı} ve {ar:وَهَٰذَا ٱلْبَلَدِ ٱلْأَمِينِ, tr:wa-hādhā l-baladi l-amīn, gloss:bu güvenli belde} üç ayrı katkıyı peş peşe taşır: incir ve zeytin üretim ve geçim hattını, dağ adı yükselti ve eşik hattını, güvenli belde ise korunaklı yer ve ortak düzen hattını görünür kılar (95:1, 95:2, 95:3). Birlikte, insanın tanınabilir beden, yer, sınır ve topluluk içinde konumlandığı adlandırılmış bir manzara kurarlar.
+
+Bu manzara insanın yerine geçmez; ölçülü kuruluşun içinde göründüğü belirli ve yaşanabilir dünyayı belirler. İncir ve zeytin hattı üretim ve geçimle, dağ adı yükselti ve eşikle, güvenli belde yerleşim ve ortak düzenle bağ kurar (95:1, 95:2, 95:3).
+
+Taqwīm’e göksel bir durak veya görünür denge çağrışımı eşlik edebilir; bu çağrışım, insan bedeninin oranını, yerleşik hayatın sınırlarını ve gözetilen düzeni aynı “yerli yerindelik” temasında buluşturur. Dağ, şehir ve gök imgeleri insanın konumunu ve eşiklerini belirler; bu bağlantı çağrışım düzeyindedir ve teknik bir astronomi iddiası taşımaz.
+
+İnsan türünün görünür ve tanınabilir oluşu (76:1, 17:70), insan yüzünü ve karşılaşmayı ortak düzenin şartı yapar. Bu hat, yabanî veya yabancı bir yokluğa karşı tanışıklık ve yakınlık katkısı sağlar; insanı bütünüyle yakınlıkla tanımlamaz. Tanışıklık, güvenilir ilişkinin zeminidir; ahlaki başarının kendisi değildir.
+
+İnsan bu zeminde bir konut, şehir ve yurttaşlık düzenine yerleşebilir. Güvenli belde fikri (95:3), fiziksel korunaklılık, sosyal aidiyet ve sivil itaat katkılarını taşır. {ar:ٱلْبَلَدِ, tr:al-balad, gloss:belde ve şehir} yüzeyi, insanî kuruluşu ortak mekâna bağlar; şehir imgesi insan kimliğinin yerine geçmez.
+
+Yakınlık tek biçimli değildir. Selamı karşılamak (4:86), tanınabilir ve ilişkisel insan düzenini; iç karakter ve karşılıklı güven ise bu düzenin derinliğini kurar (30:30, 5:8). Dağ, şehir ve gök imgeleri insanın konumunu, eşiğini ve çevresini belirler. Her imge kendi alanını korurken, birlikte görünürlük ve düzen duygusunu güçlendirir.
+
+## Yakınlık, Yerleşme ve Görev
+
+İnsan, topluluk içinde hareket eden, çalışan ve beslenen bir varlık olarak da belirir. Beslenen ve fayda üreten insan grubu imgesi, üretim, beslenme, gözetim ve ortak faydayı taşıyabilecek bir beden ve ilişki kapasitesini görünür kılar. Güvenli yerleşim ile çalışan topluluk, yaratılışın dünyada sürdürülme biçimini gösterir; insan anlamı topluluğa indirgenmez.
+
+Görev ve makam çağrışımları da buradan doğar: insan, kendisine bırakılan bir işi, kamusal sorumluluğu veya sivil gözetimi üstlenmeye uygun olabilir. Bu bağlantı görev, âdet, kamu düzeni ve başkasının geçimini destekleme alanlarını açık tutar; belirli bir makam veya kurum tayin etmez. Üstlenme kapasitesi, doğruluk ve başarı için bir imkândır, garanti değildir.
+
+İç yöneliş, ibadet ve itaat için de bir açıklık vardır. Sonraki din ve hüküm bağlamı (95:7, 95:8), insanın yönünü bir merkeze çevirebilme kapasitesini görünür kılar. Taqwīm’in doğrultu tarafı, bedenî ve davranışsal düzlemler arasında geçiş sağlar; yaratılış zemini bu yönelişi mümkün kılar, sonucu kendiliğinden belirlemez.
+
+İnsanın tanınabilirliği, eşlik ve sırdaşlık gibi yakınlık biçimlerine de uzanır. İnsan hem görünen bir yüz hem de iç karakter taşıyan bir muhatap olabilir; bu yakınlık, insanı yalnızca bedene veya sosyal role kapatmayan bir iç alan açar. İlişki, üretim ve ortak düzen, kuruluşun farklı kullanım alanlarıdır.
+
+Bu yüzden iyilik ve sorumluluk cümlesi sonraki istisna ile birlikte okunmalıdır: {ar:ءَامَنُوا۟, tr:āmanū, gloss:inandılar} ve {ar:وَعَمِلُوا۟, tr:wa-ʿamilū, gloss:işlediler} (95:6). İnanç, niyet, iyi iş, iyilik, bakım ve görev, ölçülü kuruluşun nasıl sürdürülebileceğini gösterir. Bu bağlantı taqwīm’in kuruluş anlamını korur; inanç ve eylem, herkes için otomatik bir sonuç değil, sürdürülme şartını açıklar.
+
+## İşleyen ve Fayda Taşıyan Kapasite
+
+Yaratılmış ve tamamlanmış beden, işe hazır olma ve uygunluk kapasitesi taşır. Bu kapasite, bağlandığı görevin niteliğini açık bırakır; iyi iş bağlamında (95:6) kuruluş iş gören bir imkâna dönüşür. Bir işi taşıyabilmek, onun doğru yürütüldüğünü değil, doğru kullanıma elverişli bir zemin bulunduğunu gösterir.
+
+Yük altında sınanan ve uzun süre çalışan hayvan imgesi, ilk bakıştaki güzelliğin yanına güç, dayanıklılık, eğitim, ritim ve sürdürme katkılarını getirir. Bu ayrıntılar, insanın üretme ve taşıma kapasitesini tek bir performans anından daha geniş görmeyi sağlar. Bağlantı bir işleyiş benzetmesidir; insanın değeri hayvanî performansla tanımlanmaz.
+
+Ehlileştirilmiş ve yönlendirilmiş bir fail için dizgin, mızrak veya sap gibi araçlar üç katkı taşır: yön vermek, sınır koymak ve bir işi taşımak. Bu bağlantının kapsamı kılavuzluk ve kumandadır; insan, yönlendirilebilir olmakla birlikte zorlayıcı bir aracın uzantısı olarak kurulmaz.
+
+Çalışma, hizmet, görev ve geçim başkalarını destekleyen bir dolaşım kurabilir. İşin katkısı başkasına yarar ve geçim sağlama kapasitesidir; insanın değeri emeğin ürününden daha geniştir. Bu nedenle iş ve ödül ilişkisi (18:2, 21:94), kapasite ve karşılık imkânını gösterir; genel bir ödül vaadi kurmaz.
+
+İncir ve zeytinin yağ çıkarma, presleme ve geçimle ilgili çağrışımı (95:1), üretimin faydaya dönüşme sürecini somutlaştırır. İşlenme, dolaşma ve besleme adımları faydanın nasıl taşındığını gösterir. Bu bağlantı, ölçülü oluşun dünyada yarar taşıyan yönünü aydınlatır; insanın yaratılış anlamının yerine geçmez.
+
+İyilik, bir bağış olarak başlayıp başa kakma ile siteme dönüşebilir. {ar:غَيْرُ مَمْنُونٍۢ, tr:ghayru mamnūn, gloss:kesintisiz ve başa kakılmayan} ifadesi (95:6), faydanın sürekliliğini ve onuru koruyan aktarımını öne çıkarır. Tamamlanmış ve sağlam sonuç, yararın taşıyıcısı olabilir; tamamlanma tek başına yararı güvenceye almaz.
+
+## Biçimin Kırılganlığı
+
+Ölçülü kuruluş, kırılganlığı da taşır. Aşağıya iniş imgesi, taşıyıcı uzuvlarda ağrılı aksama ve yük taşıma düzeninde kaybı görünür kılar; bu bağlantı olasılık düzeyindedir ve belirli bir tıbbi tanı kurmaz. Bedenin sağlamlığı, kullanım ve bakım içinde korunması gereken bir imkândır.
+
+Alın, deri ve yüz güzelliği gibi görünür yüzeyler, biçimdeki kusurun yerel bir noktada ortaya çıkabileceğini gösterir. Güzel görünüş ile kusur arasındaki açıklık, görünür durumun sonraki değerlendirmeye nasıl yer bıraktığını anlatır; insanın bütünü yüz veya hastalık fikriyle ölçülmez.
+
+Güvenli beldenin zemini ve temas yüzeyi, basınç altında düz ve kapalı bir yüzey çağrışımı kurar (95:3, 95:8). Bu bağlantı temas, dayanma ve yüzeyin düzenlenmesi sınırlarını görünür kılar; hayvan anatomisine dair literal bir açıklama kurmaz.
+
+Bir şey dış biçimini korurken görme veya tanıma imkânını yitirebilir. Sağlam görünüş ile eksik algı arasındaki bu aykırı durum (95:3, 95:7), tanınabilirliğin yanında algı sınırını da görünür kılar. Algı kapasitesi bir işaret alma aracıdır (76:2, 16:78); cevap verebilirlik açar, inancı kendiliğinden belirlemez.
+
+Giyilmiş örtü ve süs, görünen hâl ile gerçek durum arasındaki farkı taşır. Tersine dönüşte örtülerin sıyrılması, içteki doğruluğun açığa çıkması için bir görüntü sağlar. Bu uzak benzetmenin kapsamı görünüş ile iç durum arasındaki açıklıktır; yaratılışı aldatma olarak nitelemez.
+
+## Yön, Destek ve Dönüş
+
+Sonraki ayetteki {ar:رَدَدْنَٰهُ, tr:radadnāhu, gloss:onu geri çevirdik} fiili (95:5), burada kurulmuş insan için dönüş ve geri çevirme hareketini görünür kılar. Bu hareket fiziksel yer değiştirme, yön kaybı, ilişki düzeninden düşme ve dinî dönüş ihtimallerini birlikte taşır. İlk yaratılış hükmü, bütün bu okumaların başlangıç noktası olarak kalır.
+
+Yön, ön ve arka, karşıya bakma ve geride kalma gibi konumsal ilişkilerle belirir. Dağ eşiği, insanın sonraki durumu ve dinî yöneliş birlikte düşünüldüğünde (95:2, 95:5, 95:6, 95:7), bu ayrıntılar inişe ilişkisel konum değişikliği katkısı yapar. Bu bağlantı bir varlık türü değişimini değil yön, karşılaşma ve geride kalma ilişkisini açıklar; Bi-d-dīn bağlamı dönüşün dinî bir geri çevrilme olabileceğini, bedensel, sosyal ve uhrevî seçeneklerin birlikte açık kaldığını gösterir.
+
+Yük taşıyan bir destek veya payanda çöktüğünde, aşağıya iniş açıklanabilir bir dayanım kaybına dönüşür. Destek, yük, sınır ve çöküş imgesi (95:5, 95:6, 95:8), insanın yön ve görev içinde nasıl tutulduğunu görünür kılar. Bu bağlantının alanı destek ve dayanımdır; insan burada mekanik bir parça olarak kurulmaz.
+
+Güç ile tükenme de aynı eksende yer alır. Bedenin dayanması, emeğin sürmesi ve sonunda durması, yaradılışın işe açık ama sınırsız olmayan niteliğini gösterir. İyi iş ve dayanma bağlamı (95:3, 95:6), sınırları görünür kılar; bu bağlantı insan değerini bedensel kuvvete indirmez.
+
+İniş, yerinden edilme kadar onarım ve yerine konma ihtimalini de taşır. Bir şey yeniden hizalanıp işlevine dönebilir; hasar, düzeltme ve yeniden kurma hareketleri (95:5, 95:6, 95:7), insanın kuruluşunda bakım ve sorumluluğa yer açar. Bu, gerçekleşmesi zorunlu bir sonuç değil, yönlendirilmiş bir imkândır.
+
+İnsan bu yüzden tek bir anlık görüntüyle değerlendirilmez. İnanç, eylem, farkındalık, destek ve üretim devamlılık kazandıkça güvenilirlik ortaya çıkar; tek bir performans kesiti bütün hükmü taşımaz. İyilik istisnası (95:6) ile sonraki sorgu (95:7) arasındaki gerilim, süreklilik ve hesap fikrini birlikte tutar.
+
+## Duruşun Ufku
+
+Taqwīm’in “dik ve yerli yerinde olma” yönü, daha sonraki ayetlerdeki duruş ve hesap ufkuna bedenî bir zemin sağlar. Ayağa kalkma ve karşı karşıya durma tasvirleri (83:6, 75:1), bu doğruluğu daha geniş bir sorumluluk sahasına taşır. Kuruluş zemini doğruluk için imkân açar; doğru davranışın kendisini otomatik olarak üretmez.
+
+Dik duruş, gözetim, doğrultma ve mahkeme imgesi birlikte okunduğunda (83:6, 5:8, 30:43, 75:1), “yerli yerinde olma” bedenî, davranışsal ve hüküm verici katkılar kazanır. Mahkeme imgesi burada tek bir literal sahne çizmekten çok, ayetin ilk ölçüsünün daha sonra nasıl değerlendirilebileceği ufkunu açar.
+
+## Ölçü ve Hesap
+
+Yaratılıştaki ölçü, daha sonra değer biçmenin başlangıç standardını sağlar. Ölçü ve takdir (54:49), insanın yaratılışındaki sınır ve oranla birleşir (46:16, 99:6); eşit ağırlık imgesi bu karşılaştırmayı dengeli ve ölçülebilir kılar. Buradaki değer, pazar bedeli değil, sorumluluk için okunabilir bir ölçüdür.
+
+Eşit ağırlıklı oran, görünüşte güzel bulunmanın ötesinde daha kesin bir değerleme biçimi önerir. Oran, sınır ve karşılaştırma, insanın kuruluşunu sonraki sorumluluk için okunabilir kılar. İlk ölçü, sonradan yapılan değerlendirmeye temel verir; insanın değeri bu karşılaştırma içinde korunur.
+
+Bu temel, geçmişe dönük bir değerlendirmeyi de mümkün kılar. Sonraki değerlendirme, başlangıçtaki kuruluş standardıyla karşılaşır (46:16); yaratılmış kapasite ile onun nasıl kullanıldığı arasındaki mesafe böylece görünür kalır. Başlangıçtaki ölçü, tamamlanmış bir ahlaki sonuç değil, değerlendirmenin dayandığı zemindir.
+
+İnsan için algılama, işitme ve araştırma imkânlarının verilmiş olması (76:2, 16:78), daha sonra inkâr veya kötüye kullanımla karşılaşabilecek bir sorumluluk kapasitesi doğurur. Görmek, işitmek ve bilmek, cevap verebilecek bir muhataplık zemini kurar; bu kapasite inancı kendiliğinden belirlemez. Duyusal donanım, sorumluluğa açılan işaret alma alanıdır.
+
+Yaratılışın ölçülü ve tamamlanmış düzeni, insanın iş ve karşılık ilişkisine girebilmesini de açıklar. Uygunluk ve amaçlı çalışma (18:2, 21:94), kuruluşun faydaya çevrilebilen kapasitesini gösterir; ödül, bu kapasitenin doğru kullanımına bağlanan bir ihtimaldir. Başlangıçtaki yaratma, bu sonucun dayanağıdır; sonuçla özdeş değildir.
+
+## Yönlendirilmiş Hüküm
+
+Hüküm sahasında karşılaşma ve çekişme, iddianın direnç altında sınanması ve uyuşmazlığın çözüme bağlanması katkılarını taşır. Doğru sözün dirençle karşılaşması ve sonunda değerlendirilmesi (95:3, 95:7), yaratılmış düzen ile uydurma veya sahte anlatı arasındaki farkı görünür kılar. Bu bağlantı silahlı bir çatışma anlatısı kurmaz; Khalaqnā’nın gerçek kuruluşu ile yapma veya taklit iddiası arasındaki karşıtlık korunur (36:77, 92:9).
+
+Bu karşılaşma, yönlendirilmiş bir failin sorumluluğunu da görünür kılar. Dizgin, sap ve kılavuz çağrışımları yön, sınır ve kumanda içinde hareket edebilen bir muhatap resmi verir. Bu bağlantının kapsamı rehberlik ve sorumluluktur; insan zorla kullanılan bir araç olarak kurulmaz.
+
+Düşüş ve geri dönüşün dinî boyutu {ar:بِٱلدِّينِ, tr:bi-d-dīn, gloss:din ve hesap düzeniyle} bağlamında belirginleşir (95:7). Yakınlık, koruyucu onur, akrabalık ve geri alma çağrışımları bu dönüşe eşlik edebilir. Bağlantı bu düzeyde genel kalır; belirli bir akrabalık sırası veya garantili kurtarılma vaadi tayin etmez. Yer değiştirme, sosyal düşüş ve uhrevî dönüş aynı fiilin farklı açıklıklarıdır.
+
+Kusuru ayırt eden ve sonucu düzelten nüfuzlu hüküm, insan kuruluşundan daha geniş bir değerlendirme alanı açar. {ar:يُكَذِّبُكَ, tr:yukadhdhibuka, gloss:seni yalanlamaya yönelten} itirazın ardından gelen soru (95:7), ölçü ile inkâr arasındaki gerilimi görünür kılar. Bu hüküm kusuru seçme ve sonucu düzeltme katkısı taşır; bilgelik, taqwīm’in sözlük karşılığından daha geniş bir ufuktur. Son soru ise {ar:أَلَيْسَ, tr:a-laysa, gloss:değil midir} ve {ar:ٱللَّهُ, tr:Allāh, gloss:Allah} ile yükselir: {ar:أَحْكَمِ ٱلْحَٰكِمِينَ, tr:aḥkami l-ḥākimīn, gloss:hükmedenlerin en hikmetlisi} (95:8).
+
+Bu son hüküm, yaratılıştaki ölçüyü sonraki hesapla buluşturur. Başlangıçta verilen oran, beden, algı, yön ve işe açıklık; sonradan doğruluk, güvenilirlik ve sorumluluk bakımından değerlendirilir. Gözetim, düzeltme ve hassas yönetim çağrışımları, kuruluşun bir defalık görüntüden öte hükümle buluşan düzenlenmiş bir emanet olduğunu düşündürür.
+
+Son sorunun keskinliği ilk hükmü askıya almaz; insanın yakınlık, çalışma, yönelme ve cevap verme imkânlarını hangi yönde tuttuğunu sorar. Böylece cümle, yaratılıştaki ölçü ile kişinin sorumluluğu arasındaki açık eşikte son bulur.
+
+</editorial_prose>

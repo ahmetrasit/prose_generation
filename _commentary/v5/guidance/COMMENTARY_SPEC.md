@@ -1,20 +1,20 @@
 # Commentary Specification
 
-Governs ayah-level (layer 2) and surah-level (layer 3) commentary. Both consume
-the same input bundle and obey the same evidence rules; they differ in what
-question they answer and in whether they are allowed to select.
+Governs ayah-level (layer 2) and surah-level (layer 3) commentary. Layer 2 uses
+its evidence bundle; the active surah workflow uses only completed final ayah
+editorials. They differ in source boundary and in what they synthesize.
 
 [`PRINCIPLES.md`](PRINCIPLES.md) governs this file. Sources and formats are in
 [`docs/SOURCES.md`](docs/SOURCES.md); channel rules in
 [`docs/CHANNELS.md`](docs/CHANNELS.md).
 
 The active Layer 3 production contract is
-[`_channel/layer3/ORCHESTRATION.md`](_channel/layer3/ORCHESTRATION.md). The
+[`_surah_commentary/v2/ORCHESTRATION.md`](_surah_commentary/v2/ORCHESTRATION.md). The
 former combined Layer 3 + 2.5 overlay workflow is retired.
 
-Status: active draft, updated 2026-09-02. Layer 2 V5 and Layer 3 v3 workflow
-contracts are implemented and locally validated; production Layer 3 semantic
-passes have not yet been run.
+Status: active draft, updated 2026-09-11. The editorial-only surah contract
+supersedes the legacy channel-first workflow. Mechanical validation and
+semantic acceptance are separate; consult its implementation status.
 
 ---
 
@@ -75,13 +75,12 @@ elsewhere.
 
 A **surah-wide system** is different. It says how recurring semantic operations
 make several ayahs explain one another and change the reading of the assembly.
-The isolated Layer-2 writer cannot know that. Layer 3 consumes the unchanged
-Layer-2 v2 artifacts alongside the typed Layer-1 primary floor and available
-network/V11 evidence. It reads the complete Layer-2 findings index, local
-`surprise:<id>` resonance rows, and preserved boundaries. It hashes Layer-2
-prose and friction for lineage, but does not use their prose as the primary
-floor or as semantic input. It writes a separate surah reading and does not
-rewrite or overlay the ayah prose.
+The isolated Layer-2 writer cannot know that. The active surah workflow reads
+only the completed final ayah editorials from one selected v5 analysis. It
+synthesizes the readings present there, preserving their attribution, uncertainty,
+and boundaries. Discovery artifacts, scope ledgers, invitations, separate
+primary-floor data, and network/V11 sources do not enter this workflow. It writes
+a separate surah reading and does not rewrite or overlay the ayah prose.
 
 Layer 2 may **not** carry the surah's architecture or name a recurring
 surah-wide system. The distinction is testable: a local surprise is fully
@@ -199,20 +198,18 @@ threshold before knowing what is happening.
 
 Layer 3 emits:
 
-- **discovery hypotheses** — blind cross-ayah possibilities opened from the
-  typed primary floor and activation cards, not reader prose;
-- **channel briefs** — reviewed operations, stable hinges, safe claim forms,
-  prohibited rejected predications, and explicit before/after reader shifts;
-- **composition envelope** — the publishable prose plus an evidence map proving
-  that every admitted channel and hinge landed visibly, with complete evidence
-  refs and distinct reader-visible spans;
+- **editorial snapshot** - the complete final editorial texts for one surah;
+- **source-anchored outline** - the main cross-ayah movements supported by those
+  texts, with each image's contribution and qualifications;
+- **composition envelope** - prelude/postlude prose with exact anchors for
+  each selected movement and member; semantic support requires review;
 - **surah reading** — continuous reader prose emitted by the deterministic
   finalizer, not a summary or ayah catalogue;
 - **publication evidence** — separate mapping from prose spans to packet
   evidence;
 - **friction** — missing evidence and production limitations.
 
-Contracts and schemas are under `_channel/layer3/`.
+Contracts and schemas are under `_surah_commentary/v2/`.
 
 ---
 
@@ -359,9 +356,8 @@ finding. The same live canonical session receives the unchanged V3 editorial
 follow-up plus this preservation contract. There is no automated repair,
 reconciliation, or semantic-adjudication cycle.
 
-Layer 3 builds a separate hermetic source packet from Quran text, the typed
-primary floor, the completed four-file Layer-2 v2 artifact set for every
-numbered ayah, and whatever network-v3/V11 sources are available. Missing
-optional source families are warnings, not build failures. Missing Quran text,
-typed primary floor, or complete Layer-2 artifacts aborts. See
-[`_channel/layer3/ORCHESTRATION.md`](_channel/layer3/ORCHESTRATION.md).
+Layer 3 freezes only the completed final editorial prose for every numbered
+ayah in one selected v5 analysis. The surah number and complete ayah count are
+operator-supplied scope metadata. Missing or malformed editorial prose aborts;
+no other semantic source is required or permitted. See
+[`_surah_commentary/v2/ORCHESTRATION.md`](_surah_commentary/v2/ORCHESTRATION.md).

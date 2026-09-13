@@ -1,0 +1,462 @@
+{
+  "schema_version": "commentary-v5-scope-discovery-v1",
+  "ayah_ref": "89:9",
+  "lane": "macro",
+  "coverage_complete": true,
+  "candidate_decisions": [
+    {
+      "candidate_id": "cand_84e117721b4a5afb1abe",
+      "decision": "narrow",
+      "reason": "Odak yuzeyindeki delip gecerek kesme, iri ve sert kaya ve vadi dallari, bagimsiz tasiyici ve birbirini aciklayan bir yer-olusturma iliskisi kuruyor. root_000296/B003 ile root_000434/B011 ise yalnizca kanal adayinin kaynak-goruntusu olarak verilmis; pakette bu iki dal icin gecerli odak veya baglam tasiyicisi yok.",
+      "finding_refs": ["macro:cutting-rock-valley-place"],
+      "branch_exclusions": [
+        {
+          "branch_ref": "root_000296/B003",
+          "reason": "Dal aday destek metninde hard stone olarak aniliyor, ancak pakette bu dala ait odak veya baglam kelime-olusumu bulunmuyor; verilen 89:5 yuzey tanikligi tasiyici koordinati saglamiyor."
+        },
+        {
+          "branch_ref": "root_000434/B011",
+          "reason": "Dal aday destek metninde water-holding hollow or new well olarak aniliyor, ancak pakette bu dala ait odak veya baglam kelime-olusumu bulunmuyor; verilen 89:8 yuzey tanikligi tasiyici koordinati saglamiyor."
+        }
+      ],
+      "facet_exclusions": [
+        {
+          "branch_ref": "root_000296/B003",
+          "facet_id": "SOURCE_IMAGE",
+          "reason": "Kaynak-goruntusu ayrica tasiyiciya baglanamadigi icin retained core bulgusuna alinmadi."
+        },
+        {
+          "branch_ref": "root_000434/B011",
+          "facet_id": "SOURCE_IMAGE",
+          "reason": "Kaynak-goruntusu ayrica tasiyiciya baglanamadigi icin retained core bulgusuna alinmadi."
+        }
+      ],
+      "context_exclusions": [
+        {
+          "context_ref": "89:5",
+          "reason": "Kanal destek kaydinda anchor olarak geciyor, fakat bu aday icin pakette 89:5'e ait gecerli tasiyici olusumu veya kelime morfolojisi yok; odak-tasiyicili cekirdekte kullanilmadi."
+        },
+        {
+          "context_ref": "89:8",
+          "reason": "Kanal destek kaydinda anchor olarak geciyor, fakat bu aday icin pakette 89:8'e ait gecerli tasiyici olusumu veya kelime morfolojisi yok; odak-tasiyicili cekirdekte kullanilmadi."
+        }
+      ],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_79389ccb335900619811",
+      "decision": "accept",
+      "reason": "HFT kaydi 89:1 word 1, 89:4 word 3 ve 89:9 word 3 koordinatlarini, bunlarin rollerini ve odaga donusu birlikte veriyor. Odak B004 ve qualified B006 dallari ile iki baglam dalinin temasindan aciklik-kesif ile aciga cikma arasindaki degisim kurulabiliyor; legacy_unbound kayit yalnizca attributed olarak korunuyor.",
+      "finding_refs": ["macro:dawn-aperture"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_03b4871b5dd1de865941",
+      "decision": "accept",
+      "reason": "HFT kaydi 89:5 word 6, 89:7 word 3, 89:8 word 3 ve word 6 ile 89:9 word 3 icin tam koordinat, rol ve odaga donus sagliyor. Kesme ve aciklik tasiyicilari sinir, dayanak, katilik ve sinirli arazi rolleriyle temas ediyor; unresolved baglam dallari lexicon dali gibi degil, attributed contextual evidence olarak tutuluyor.",
+      "finding_refs": ["macro:bounded-place-making"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_ed74b343bac8276fbdbe",
+      "decision": "accept",
+      "reason": "HFT kaydi odaktaki su toplama ve vadi rollerini 89:11 word 2, 89:12 word 3 ve 89:13 word 1'deki tasma, denge kaybi ve dokulme rolleriyle bagliyor; her koordinat ve odaga donus pakette mevcut. Legacy_unbound dallar gloss uydurmadan attributed olarak korunuyor ve su-kontrol okumasinin karsit donusu ile bagimsiz retorik paralellik alternatifi birlikte sinirlaniyor.",
+      "finding_refs": ["macro:overflow-reversal"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    }
+  ],
+  "findings": [
+    {
+      "finding_ref": "macro:cutting-rock-valley-place",
+      "origin_candidate_id": "cand_84e117721b4a5afb1abe",
+      "represented_candidate_ids": [],
+      "title": "Kayayi vadide kullanilabilir bir yere donusturen kesme",
+      "claim": "Odak ayetinin kayayi delip gecerek kesme eylemi, iri ve sert kaya ile vadi arasindaki temas sayesinde vadide kullanilabilir bir aciklik veya yer kurma olarak da okunabilir.",
+      "mechanism": "جَابُوا۟ tasiyicisi fiziksel delip gecme eylemini tasir; ٱلصَّخْرَ bu eylemi direncli iri kayaya, ٱلْوَادِ ise yukseltiler arasindaki arazi acikligina baglar. Guvenilir kanal destegi, bu temas zincirini sert malzemede kesip kaziyarak kullanilabilir bosluk olusturma iliskisine cevirir.",
+      "reader_payoff": "Kisa ayet, yalnizca bir toplulugun gucunu sergileyen gecmis fiil olarak degil, kesme eylemiyle bir yerin kullanima acilmasini ayni sahnede gorunur kilar.",
+      "containment": "Birincil okuma 'Semud vadide kayayi oymustu' olarak korunur. Kullanilabilir yer sentezi trusted kanal adayinin odak dallariyla sinirlidir; tasiyicisi bulunmayan hard-stone ve water-holding-hollow source-image dallari ile belirli bir sehir veya rezervuar ileri surulmez.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": ["trusted"],
+        "reason": "Odak dallari kabul edilmis lexicon kayitlari ve guvenilir destekle tasiniyor; yer-olusturma sonucu ise aday destekten kurulan bounded bir sentezdir."
+      },
+      "support_ids": [
+        "sup_2663c5cb3275403d3ef3",
+        "sup_8df1b809a582a7f4d753",
+        "sup_b6cb2afe8a5db5ce400d",
+        "sup_babbb3803a12079570eb",
+        "sup_cc436340167b7b1d20d9"
+      ],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000273/B001",
+          "facet_id": "F001",
+          "branch_gloss": "delip geçerek kesme",
+          "facet_statement": "Bir nesneyi, içinde geçişli bir açıklık oluşacak biçimde yarma, delme veya kesme işlemi.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["89:9:3:1"],
+          "trigger_refs": ["89:9:4:2", "89:9:5:3", "sup_2663c5cb3275403d3ef3", "sup_cc436340167b7b1d20d9"],
+          "focus_return_refs": ["89:9:3:1"],
+          "carrier": "جَابُوا۟ bicimi kayayi delip gecerek acan fiziksel kesme eylemini tasir.",
+          "independent_trigger": "ٱلصَّخْرَ ile ٱلْوَادِ tasiyicilari ve trusted destek, eylemi direncli malzemede vadide yer acma baglamina yerlestirir.",
+          "activation": "Kesme eylemi kayaya dogrudan yonelir ve vadi onu bosluk olusabilecek bir arazi cercevesine yerlestirir; bu temas yalniz hareketi degil acilan yeri de gorunur kilar.",
+          "resulting_reading": "Kayayi kesmek, vadide kullanilabilir bir aciklik olusturan yer-olusturucu bir isleme donusur.",
+          "boundary": "Fiziksel delme ve kesme korunur; tasiyicisi bulunmayan kuyu veya suyu tutan bosluk dallari bu aktivasyona eklenmez."
+        },
+        {
+          "branch_ref": "root_000847/B001",
+          "facet_id": "F001",
+          "branch_gloss": "iri ve sert kaya",
+          "facet_statement": "Dalın temel konusu büyük hacimli ve sert doğal taştır.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["89:9:4:2"],
+          "trigger_refs": ["89:9:3:1", "sup_2663c5cb3275403d3ef3"],
+          "focus_return_refs": ["89:9:3:1"],
+          "carrier": "ٱلصَّخْرَ dogrudan eylemin uzerinde gerceklestigi iri ve sert kaya kutlesini tasir.",
+          "independent_trigger": "جَابُوا۟nun gecisli kesme eylemi ve trusted destek, bu kaya kutlesini kullanilabilir boslugun direncli malzemesi olarak etkinlestirir.",
+          "activation": "Kayanin yalniz adi anilmaz; kesme eyleminin dogrudan nesnesi olarak direnclilik, yapilan acikligin emek ve malzeme boyutunu kurar.",
+          "resulting_reading": "Odak sahnesi siradan zeminde bir gecisten degil, iri ve sert malzemenin icinde yer acilmasindan olusur.",
+          "boundary": "Kaya dalinin iri ve sert dogal tas siniri korunur; pismis kap, bitki veya carpma sesi dallari etkinlestirilmez."
+        },
+        {
+          "branch_ref": "root_001637/B005",
+          "facet_id": "F001",
+          "branch_gloss": "yükseltiler arasında sel sularına yol veren vadi",
+          "facet_statement": "Dağ, tepe veya yükseltiler arasında fiziksel bir arazi açıklığı bulunur.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["89:9:5:3"],
+          "trigger_refs": ["89:9:3:1", "sup_cc436340167b7b1d20d9"],
+          "focus_return_refs": ["89:9:3:1"],
+          "carrier": "ٱلْوَادِ kayalar arasindaki daha genis arazi acikligini tasir.",
+          "independent_trigger": "جَابُوا۟nun kayayi delerek gecmesi ve trusted destek, bu acikligi yapilan yerin konum ve kullanim cercevesi haline getirir.",
+          "activation": "Vadi, kesmenin icinde gerceklestigi bos bir isim degil, kayada acilan yeri konumlandiran fiziksel acikliktir; boylece kesilen kaya ile kullanilabilir alan arasindaki iliski kurulur.",
+          "resulting_reading": "Vadinin arazi acikligi, kayanin icinde acilan yerin erisilebilir ve kullanilabilir bir yere donusmesini destekler.",
+          "boundary": "Vadi anlaminin arazi acikligi siniri korunur; bu bulgu tam bir su yapisi, yapay kanal veya belirli bir yerlesim plani iddia etmez."
+        }
+      ],
+      "connection_refs": [],
+      "context_refs": [],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "macro:dawn-aperture",
+      "origin_candidate_id": "cand_79389ccb335900619811",
+      "represented_candidate_ids": [],
+      "title": "Tas icinde acilan goz ve tan yerinin acilmasi",
+      "claim": "89:1 ve 89:4'teki yarilma, aydinliga cikma ve ortunun acilmasi rolleri, 89:9'daki kaya acikligini tas icinde gorunurluk kazandiran bir agiz olarak da kurar.",
+      "mechanism": "Odak جَابُوا۟ icin supplied B004 acilmis genis aralik, B006 ise qualified isik ve aciga cikarma baskisi tasir. HFT'nin 89:1 word 1 ve 89:4 word 3 icin verdigi attributed rupture, light-after-opacity ve uncovering rolleri bu odak acikligina doner; boylece tas icindeki bosluk, sirf kazinin sonucu olmaktan cikarak tan benzeri bir aciga cikma hareketi kazanir.",
+      "reader_payoff": "Kaya acigi, kapali ve opak bir maddede gorunurluk kazandiran bir gecit gibi algilanir; ayetin fiziksel kazma anlami yerinde kalirken, ardindaki siralama acilma hareketini de duyulur kilar.",
+      "containment": "Bu legacy_unbound HFT izinin tum dallari attributed olarak tasinir. B006'nin tek ve kisa tanikligi isik, aciga cikarma ve belirginlestirmeyi verir, fakat bunlarin daha dar bir islem dizisi oldugunu kanitlamaz; oath imgelerinin bagimsiz kalmasi canli alternatiftir.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": ["legacy_unbound"],
+        "reason": "HFT kaydi tum anchor ve word koordinatlarini, rollerini ve focus return'u sagliyor; reader identity legacy_unbound ve B006 lexicon kimligi qualified oldugu icin gloss disi baglam dallari yalnizca attributed tutuluyor."
+      },
+      "support_ids": ["sup_473437460adfe6425f42"],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000273/B004",
+          "facet_id": "F001",
+          "branch_gloss": "açılmış ya da ortası boş geniş aralık",
+          "facet_statement": "Bir yüzeyde veya iki bölüm arasında açılmış ve genişlemiş boşluk, aralık ya da çukur alan.",
+          "application_mode": "attributed",
+          "carrier_refs": ["89:9:3:1"],
+          "trigger_refs": ["89:1:1", "89:1", "89:4:3", "89:4", "sup_473437460adfe6425f42"],
+          "focus_return_refs": ["89:9:3:1"],
+          "carrier": "جَابُوا۟ icindeki acilmis veya ortasi bos genis aralik degeri, kayanin icinde olusan agzi tasir.",
+          "independent_trigger": "HFT'nin 89:1 word 1 ve 89:4 word 3 icin verdigi yarilma, opakliktan cikma ve ortunun acilmasi rolleri.",
+          "activation": "Odaktaki olusmus aciklik, siralama icindeki yarilma ve aciga cikma hareketleriyle temas eder; fiziksel bosluk gorunurluk kazandiran bir gecit olarak yeniden belirginlesir.",
+          "resulting_reading": "The excavation also enacts a dawn-like disclosure, forcing an aperture of visibility through stone.",
+          "boundary": "Acilik fiziksel kazinin sonucu olarak kalir; tan analojisi HFT'ye atfedilen baglamsal sentezdir ve odagin tum anlamini degistiren tek okuma olarak ileri surulmez."
+        },
+        {
+          "branch_ref": "root_000273/B006",
+          "facet_id": "F002",
+          "branch_gloss": "ışık, açığa çıkarma ve belirginleştirme",
+          "facet_statement": "Örtülü olanı açığa çıkarma değeri, aynı kısa anlatımda ayrı bir bileşen olarak yer alır.",
+          "application_mode": "attributed",
+          "carrier_refs": ["89:9:3:1"],
+          "trigger_refs": ["89:1:1", "89:1", "89:4:3", "89:4", "sup_473437460adfe6425f42"],
+          "focus_return_refs": ["89:9:3:1"],
+          "carrier": "جَابُوا۟nun qualified aciga cikarma baskisi, tasin kapali yuzeyinde gorunur bir gecit fikrini tasir.",
+          "independent_trigger": "HFT'nin 89:1 word 1 icin dawn breaking ve 89:4 word 3 icin uncovering olarak verdigi baglamsal roller.",
+          "activation": "Kayanin acilmasi, baglamdaki aydinlik ve ortunun kalkmasi yonuyle temas kurar; fiil maddi kesme olarak kalirken aciga cikarma etkisi eklenir.",
+          "resulting_reading": "The excavation also enacts a dawn-like disclosure, forcing an aperture of visibility through stone.",
+          "boundary": "B006'nin packet glossundaki isik, aciga cikarma ve belirginlestirme uc degeri korunur; tek bir kesin teolojik veya mecazi anlam uretilmez."
+        },
+        {
+          "branch_ref": "root_001132/B001",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": ["89:1:1"],
+          "trigger_refs": ["89:9:3:1", "89:1", "sup_473437460adfe6425f42"],
+          "focus_return_refs": ["89:9:3:1"],
+          "carrier": "Wide splitting and emergence supply the opening sequence's first rupture image.",
+          "independent_trigger": "Odak جَابُوا۟nun tas icinde aciklik olusturan atfedilmis maddi aperture rolu.",
+          "activation": "89:1 word 1 icin verilen rupture rolu, focus'taki aciklikla temas ederek kaya kesitini opaklikta acilan ilk yarilma olarak geri dondurur.",
+          "resulting_reading": "Kaya acigi, siralama icindeki yarilma ve ortaya cikma hareketinin maddi karsiligi gibi gorunur.",
+          "boundary": "Bu dal icin bagimsiz lexicon glossu veya facet uretilmez; yalnizca exact HFT koordinati, rolu ve focus return'u attributed evidence olarak kullanilir."
+        },
+        {
+          "branch_ref": "root_001132/B002",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": ["89:1:1"],
+          "trigger_refs": ["89:9:3:1", "89:1", "89:4", "sup_473437460adfe6425f42"],
+          "focus_return_refs": ["89:9:3:1"],
+          "carrier": "Dawn breaking from night supplies the light-after-opacity direction.",
+          "independent_trigger": "Odak جَابُوا۟nun kayayi acan ve iceriye gecis veren atfedilmis aciklik rolu.",
+          "activation": "Tan yerinin karanliktan cikis yonu, focus'taki kaya acigina donerek fiziksel kesmenin kapali maddede aydinliga dogru bir gecit gibi algilanmasini saglar.",
+          "resulting_reading": "Kaya icindeki aciklik, kapali maddeden gorunur alana gecisin yonunu de tasir.",
+          "boundary": "HFT'nin atfettigi yon korunur; burada ayetin literal kayasini kaldiran veya oath dizisini tek bir imgeye zorlayan bir iddia yoktur."
+        },
+        {
+          "branch_ref": "root_000702/B004",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": ["89:4:3"],
+          "trigger_refs": ["89:9:3:1", "89:4", "sup_473437460adfe6425f42"],
+          "focus_return_refs": ["89:9:3:1"],
+          "carrier": "Uncovering and clearing sharpen the transition from night passage to exposed space.",
+          "independent_trigger": "Odak جَابُوا۟nun tas yuzeyini kesip aciklik meydana getiren fiziksel eylemi.",
+          "activation": "89:4 word 3 icin verilen ortuyu kaldirma rolu, odak fiilinin kayada yaptigi acmayla temas eder ve gece gecisinden acik alana yonelen hareketi belirginlestirir.",
+          "resulting_reading": "Odak kaya acigi, gecen gecenin ardindan acilan ve gorunur alan olusturan bir acilma hareketi kazanir.",
+          "boundary": "Bu, lexicon tarafindan dogrulanmis bir branch glossu degil, exact HFT trace'e bagli attributed contextual evidence'tir."
+        }
+      ],
+      "connection_refs": [],
+      "context_refs": ["89:1", "89:4"],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "macro:bounded-place-making",
+      "origin_candidate_id": "cand_03b4871b5dd1de865941",
+      "represented_candidate_ids": [],
+      "title": "Sinir, dayanak ve araziyle kurulan kaya-yeri",
+      "claim": "89:5, 89:7 ve 89:8'in ardindan gelen 89:9, kaya kesme sahnesini sinir, dayanak, katilik ve sinirli araziyi bir araya getiren orgutlu bir yer-olusturma sureci olarak da acabilir.",
+      "mechanism": "جَابُوا۟nun kesme islemi ve ayni odaktaki aciklik, HFT'nin 89:5 word 6'ya atfettigi enclosure, 89:7 word 3'e atfettigi column support, 89:8 word 3'e atfettigi sealed solidity ve word 6'ya atfettigi bounded land rolleriyle temas eder. Bu baglar, yalniz izole bir kaya oyma becerisi okumasini, sinirlari ve dayanaklari olan kaya-sinirli bir yer fikrine genisletir.",
+      "reader_payoff": "Okur, odak fiilinin icinde yalnizca oyulmus nesneler degil, cevrelenmis, tasinan ve belirli bir araziye yerlestirilmis bir yer duzeni de gorur; literal kaya kesme anlami korunur.",
+      "containment": "Tum HFT dallari legacy_unbound ve attributed'dir; unresolved olanlar icin gloss veya facet icat edilmez. Bu sentez kalici bir civic order ihtimalini gosterir, fakat tek bir sehir plani veya bagimsiz guc niteliklerinin yerine gecen kesin bir okuma iddia etmez; ayri ayri attributes alternatifi aciktir.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": ["legacy_unbound"],
+        "reason": "HFT exact coordinates, roles and focus return sagliyor; ancak context morphology ve unresolved branch lexicon kaydi yok. Bu nedenle odak dallari verified facetlerle, context rolleri attributed olarak yazildi."
+      },
+      "support_ids": ["sup_24e06848452b3019630e"],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000273/B001",
+          "facet_id": "F001",
+          "branch_gloss": "delip geçerek kesme",
+          "facet_statement": "Bir nesneyi, içinde geçişli bir açıklık oluşacak biçimde yarma, delme veya kesme işlemi.",
+          "application_mode": "attributed",
+          "carrier_refs": ["89:9:3:1"],
+          "trigger_refs": ["89:5:6", "89:5", "89:7:3", "89:7", "89:8:3", "89:8:6", "89:8", "sup_24e06848452b3019630e"],
+          "focus_return_refs": ["89:9:3:1"],
+          "carrier": "جَابُوا۟nun gecisli kesme islemi, kapali ve direncli malzemede yer acan eylemi tasir.",
+          "independent_trigger": "HFT'nin 89:5, 89:7 ve 89:8 word koordinatlarina verdigi enclosure, column support, sealed solidity ve bounded land rolleri.",
+          "activation": "Kesme islemi bu rollerle temas ettiginde kaya icinde acilan bosluk, sinir ve dayanaklarin duzenledigi bir yerin islemi olarak okunur.",
+          "resulting_reading": "Kesme, izole bir oyma gostergesinden sinirli ve tasinmis bir yer kuran orgutleme eylemine genisler.",
+          "boundary": "Focus branch'in physical cutting siniri korunur; HFT context rolleri lexicon onayli yeni anlamlar gibi sunulmaz."
+        },
+        {
+          "branch_ref": "root_000273/B004",
+          "facet_id": "F001",
+          "branch_gloss": "açılmış ya da ortası boş geniş aralık",
+          "facet_statement": "Bir yüzeyde veya iki bölüm arasında açılmış ve genişlemiş boşluk, aralık ya da çukur alan.",
+          "application_mode": "attributed",
+          "carrier_refs": ["89:9:3:1"],
+          "trigger_refs": ["89:5:6", "89:5", "89:7:3", "89:7", "89:8:3", "89:8:6", "89:8", "sup_24e06848452b3019630e"],
+          "focus_return_refs": ["89:9:3:1"],
+          "carrier": "جَابُوا۟nun aciklik sonucu, yapilmis yerin ic birimi olabilecek boslugu tasir.",
+          "independent_trigger": "HFT'nin sinir, yuk tasiyan destek, kapali kayalik ve sinirli arazi olarak verdigi 89:5, 89:7 ve 89:8 rolleri.",
+          "activation": "Olusmus bosluk bu baglam rolleriyle bulustugunda, tas icindeki aciklik yalniz sonuc degil, cevrelenmis bir yerin ic birimi olur.",
+          "resulting_reading": "Kaya acigi, sinir ve dayanaklarla tanimlanan kaya-sinirli bir yerin ic mekani gibi okunur.",
+          "boundary": "Acikligin olusmus alan olma siniri korunur; bu, bagimsiz bir mimari plan veya kesin yerlesim tarihi kurmaz."
+        },
+        {
+          "branch_ref": "root_000148/B001",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": ["89:8:6"],
+          "trigger_refs": ["89:9:3:1", "89:8", "sup_24e06848452b3019630e"],
+          "focus_return_refs": ["89:9:3:1"],
+          "carrier": "A bounded place on earth scales the rock hollow from object to organized settlement.",
+          "independent_trigger": "Odak جَابُوا۟nun kayada aciklik kuran kesme ve bosluk rolleri.",
+          "activation": "89:8 word 6 icin verilen sinirli yeryuzu yeri rolu, focus bosluguna donerek oyulan nesneyi belirli bir arazi icinde orgutlu bir yere olceklendirir.",
+          "resulting_reading": "Kaya icindeki bosluk, sinirli bir yeryuzu yerinin parcasina donusen bir yer-olusturma hareketi kazanir.",
+          "boundary": "No verified branch gloss or facet is supplied; only the exact HFT coordinate, attributed role and focus return survive."
+        },
+        {
+          "branch_ref": "root_000296/B001",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": ["89:5:6"],
+          "trigger_refs": ["89:9:3:1", "89:5", "sup_24e06848452b3019630e"],
+          "focus_return_refs": ["89:9:3:1"],
+          "carrier": "Prevention and enclosure supply the boundary function that a cut interior negotiates.",
+          "independent_trigger": "Odak جَابُوا۟nun kayayi delip gecerek ic bosluk olusturan fiziksel islemi.",
+          "activation": "89:5 word 6 icin atfedilen cevreleme rolu, kesilen ic boslukla temas ederek acikligin bir sinir icinde kuruldugunu gosterir.",
+          "resulting_reading": "Kesilmis bosluk, sinirlarin icinde yer acan ve sinirla iliski kuran bir yer birimine donusur.",
+          "boundary": "Enclosure rolu attributed'dir; lexicon'da dogrulanmis bir facet veya bagimsiz bir bina terimi eklenmez."
+        },
+        {
+          "branch_ref": "root_000434/B012",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": ["89:8:3"],
+          "trigger_refs": ["89:9:3:1", "89:8", "sup_24e06848452b3019630e"],
+          "focus_return_refs": ["89:9:3:1"],
+          "carrier": "Sealed solidity like rock supplies the closed material state that the focus action reverses.",
+          "independent_trigger": "Odak جَابُوا۟nun kapali ve direncli kayada aciklik olusturan kesme eylemi.",
+          "activation": "89:8 word 3 icin verilen kapali saglamlik rolu, focus kesmesinin tersine cevirdigi maddi durumu saglar; aciklik, saglam kapali yuzeyde yapilan is olarak belirginlesir.",
+          "resulting_reading": "Yer-olusturma, kapali ve saglam malzemenin icinde kontrollu bir aciklik acma olarak gorunur.",
+          "boundary": "Bu dalin glossu ve facet'i packet'te unresolved oldugu icin saglamlik rolu attributed kalir; kayayi yaratan kozmik bir iddia uretilmez."
+        },
+        {
+          "branch_ref": "root_001043/B002",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": ["89:7:3"],
+          "trigger_refs": ["89:9:3:1", "89:7", "sup_24e06848452b3019630e"],
+          "focus_return_refs": ["89:9:3:1"],
+          "carrier": "Supporting something with a column supplies the load-bearing logic of organized construction.",
+          "independent_trigger": "Odak acikligi ve kesme isleminin meydana getirdigi ic birim.",
+          "activation": "89:7 word 3 icin atfedilen dayanak rolu, focus'taki oyulmus boslukla temas ederek yerin yalniz cevrelenmis degil tasinmis bir duzen olarak okunmasini saglar.",
+          "resulting_reading": "Kaya icinde acilan yer, dayanak mantigi tasiyan orgutlu bir yer-olusturma goruntusune baglanir.",
+          "boundary": "Dayanak rolu attributed HFT evidence olarak kalir; belirli sutunlar, mimari ayrintilar veya tamamlanmis sehir iddia edilmez."
+        }
+      ],
+      "connection_refs": ["conn_d736ec908ccac7cb6606", "conn_8f7d88540320447fb560", "conn_a0aebce4fc38eefd8914"],
+      "context_refs": ["89:5", "89:7", "89:8"],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "macro:overflow-reversal",
+      "origin_candidate_id": "cand_ed74b343bac8276fbdbe",
+      "represented_candidate_ids": [],
+      "title": "Akis duzeninin tasma ile tersine donmesi",
+      "claim": "Odaktaki su toplayan tekne ve sel yoluna acilan vadi rolleri, 89:11, 89:12 ve 89:13'teki tasma, bozulma ve yukaridan dokulme rolleriyle bulustugunda, kontrol edilmek istenen akis kendi agirligiyla geri donen bir duzen olarak da okunur.",
+      "mechanism": "جَابُوا۟ icin root_000220/B002 birikmis su veya buyuk su teknesi, ٱلْوَادِ icin root_001637/B005 sel suyuna yol veren vadi tasiyicilarini saglar. HFT, 89:11 word 2'yi rising and sweeping water, 89:12 word 3'u balance'dan sapma, 89:13 word 1'i pouring down olarak atfeder. Bu temas, vadi ve biriktirme ile kurulan akis duzenini tasma ve ustten dokulme yonunde tersine cevirir.",
+      "reader_payoff": "Vadideki teknik hakimiyet goruntusu, sonraki baglamla birlikte tasmanin denetimden cikmasi ve akisin denetleyenlere geri gelmesi ihtimalini aciklar; literal Thamud ve kaya-vadi sahnesi yerinde kalir.",
+      "containment": "Context dallari lexicon glossu veya facet'i olmayan legacy_unbound HFT rolleridir ve attributed olarak korunur. HFT'nin su imgelerinin yalniz retorik paralellik olabilecegine dair alternatifi aciktir; gercek bir su muhendisligi sistemi veya bu hydraulic reversal'in ayetin tek anlami ileri surulmez.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": ["legacy_unbound"],
+        "reason": "HFT exact focus/context coordinates, roles, changed reading and live alternative sagliyor; context morphology ve lexicon identity eksigi nedeniyle su-kontrol sentezi qualified attributed okumadir."
+      },
+      "support_ids": ["sup_b352cd7916dffa58bd45"],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000220/B002",
+          "facet_id": "F001",
+          "branch_gloss": "birikmiş su veya büyük su teknesi",
+          "facet_statement": "Bir su teknesinde ya da başka bir yerde toplanmış su.",
+          "application_mode": "attributed",
+          "carrier_refs": ["89:9:3:1"],
+          "trigger_refs": ["89:9:5:3", "89:11:2", "89:11", "89:12:3", "89:12", "89:13:1", "89:13", "sup_b352cd7916dffa58bd45"],
+          "focus_return_refs": ["89:9:3:1"],
+          "carrier": "جَابُوا۟nun supplied birikmis su veya buyuk su teknesi imgesi, akis alan biriktiren tarafi tasir.",
+          "independent_trigger": "89:11 word 2, 89:12 word 3 ve 89:13 word 1 icin HFT'nin verdigi tasma, denge kaybi ve dokulme rolleri.",
+          "activation": "Odaktaki biriktirici taraf sonraki akis rollerine temas eder; biriktirilip yonetilen su imgesi, siniri asan ve yukaridan geri gelen akisin maddi karsiligi olarak yeniden okunur.",
+          "resulting_reading": "Vadideki kaya calismasi, kontrol edilmek istenen akis duzeninin daha sonra tasma ve dokulme ile tersine dondugu bir sahneye baglanir.",
+          "boundary": "Branch'in suyu veya buyuk tekneyi adlandiran facet'i focus kaydinda korunur; bu, gercek bir havuz veya kesin muhendislik yapisi iddia etmez."
+        },
+        {
+          "branch_ref": "root_001637/B005",
+          "facet_id": "F002",
+          "branch_gloss": "yükseltiler arasında sel sularına yol veren vadi",
+          "facet_statement": "Bu açıklık sel suyunun geçtiği bir yol veya dışarıya açılan bir geçit işlevi görür.",
+          "application_mode": "attributed",
+          "carrier_refs": ["89:9:5:3"],
+          "trigger_refs": ["89:9:3:1", "89:11:2", "89:11", "89:13:1", "89:13", "sup_b352cd7916dffa58bd45"],
+          "focus_return_refs": ["89:9:3:1"],
+          "carrier": "ٱلْوَادِ sel suyuna yol veren aciklik ve gecit islevini tasir.",
+          "independent_trigger": "89:11 word 2'nin tasan akis ve 89:13 word 1'in yukaridan dokulme olarak verilen HFT rolleri.",
+          "activation": "Vadiyi akis yolu yapan islev, sonraki tasma ve dokulme yonleriyle temas eder; aciklik, akisin denetlendigini sanan duzenin geri donus noktasina donusur.",
+          "resulting_reading": "Vadi, yalniz yer bildiren bir cerceve degil, tasmanin ve geri donen akisin hareket ettigi bir yol olarak gorunur.",
+          "boundary": "Vadi dalinin arazi ve sel-gecidi siniri korunur; sonraki HFT rolleri lexicon onayli ayni kelime anlami gibi sunulmaz."
+        },
+        {
+          "branch_ref": "root_000937/B002",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": ["89:11:2"],
+          "trigger_refs": ["89:9:3:1", "89:11", "sup_b352cd7916dffa58bd45"],
+          "focus_return_refs": ["89:9:3:1"],
+          "carrier": "Rising, sweeping water supplies overflow as the material analogue of exceeding limits.",
+          "independent_trigger": "Odaktaki biriktirilmis su ve sel yolu rollerinin kurdugu olasi akis duzeni.",
+          "activation": "89:11 word 2'nin tasma rolu, focus'taki suyu alma ve gecirme kapasitesine temas ederek kapasitenin sinir asimiyla bozuldugu yonu saglar.",
+          "resulting_reading": "Kontrol edilen akis ihtimali, sinirlarini asan bir tasma goruntusune acilir.",
+          "boundary": "No verified branch gloss or facet is supplied; exact HFT role is attributed and its rhetorical-parallel alternative remains live."
+        },
+        {
+          "branch_ref": "root_001154/B001",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": ["89:12:3"],
+          "trigger_refs": ["89:9:3:1", "89:12", "sup_b352cd7916dffa58bd45"],
+          "focus_return_refs": ["89:9:3:1"],
+          "carrier": "Departure from soundness and balance supplies the failed regulation produced by excess.",
+          "independent_trigger": "Odak vadi ve biriktirme rollerinin tasiyan akis uzerindeki duzen fikri.",
+          "activation": "89:12 word 3'un denge ve saglamliktan sapma rolu, focus'taki akis duzenine temas ederek tasmanin yalniz miktar degil regulation failure olarak gorunmesini saglar.",
+          "resulting_reading": "Akis sistemi, fazla gucun duzeni bozup kontrolu icten zayiflattigi bir geri donus kazanir.",
+          "boundary": "Bu unresolved HFT rolu lexicon branch'i olarak adlandirilmaz; focus'un tarihsel sahnesi yerine gecen kesin ahlaki etiket uretilmez."
+        },
+        {
+          "branch_ref": "root_000838/B001",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": ["89:13:1"],
+          "trigger_refs": ["89:9:3:1", "89:13", "sup_b352cd7916dffa58bd45"],
+          "focus_return_refs": ["89:9:3:1"],
+          "carrier": "Pouring down supplies the reversal in which flow arrives upon the would-be controllers.",
+          "independent_trigger": "Odaktaki su toplama ve vadiyi akis yolu olarak kuran roller.",
+          "activation": "89:13 word 1'in dokulme rolu, focus'taki yonetilen akis fikrine temas ederek akisin denetleyen tarafa dogru gelmesini saglar.",
+          "resulting_reading": "Yerlesik akis duzeni, ustten dokulen ve kontrol edenlerin uzerine gelen bir kuvvete doner.",
+          "boundary": "No verified gloss or facet is invented; attributed dokulme rolu HFT'nin sinirlari icinde tutulur ve literal ceza ifadesi silinmez."
+        }
+      ],
+      "connection_refs": ["conn_353e7920d4b7441e3714", "conn_a370a2d8a9d03032585c", "conn_2f675ed67c70abf7b8b6"],
+      "context_refs": ["89:11", "89:12", "89:13"],
+      "semantic_obligation_refs": []
+    }
+  ],
+  "friction_notes": [
+    "focus_word_alignment 7/7 kelimeyi cozulmus gosteriyor; unresolved analysis unit bulunmuyor.",
+    "HFT anchor coverage 9/9; buna karsin context morphology supplied degil ve reader identity legacy_unbound. Bu nedenle 89:1, 89:4, 89:5, 89:7, 89:8, 89:11, 89:12 ve 89:13 tasiyicilari exact HFT word koordinati ve atfedilmis rolle sinirlandi; unresolved dallarda gloss ve facet null birakildi.",
+    "Trusted kanal adayinin root_000296/B003 ve root_000434/B011 source-image dallari icin packet'te gecerli tasiyici bulunmadigindan bunlar ve bagli 89:5/89:8 context refs narrow kararinda acikca dislandi.",
+    "Her uc HFT deltasinin packet_scope_relation degeri broader_than_declared_pericope olsa da explicit anchor'lar ilan edilmis 89:1-14 pericope icinde ve focus return mevcut; bu, lexicon kaniti degil qualified attributed contextual evidence olarak korundu.",
+    "Adaylar, supplied branch facets, supports ve lane connections incelendi; bunlarin disinda bagimsiz tasiyici, tetikleyici, degisen okuma ve reader payoff kosullarini birlikte gecen uncandidate bir macro bulgusu cikmadi.",
+    "Packet'te candidate-specific semantic_obligations alani bulunmuyor; HFT activation trace, before/after degisimi ve containment her ilgili bulgunun icinde ayri ayri tasindi."
+  ]
+}

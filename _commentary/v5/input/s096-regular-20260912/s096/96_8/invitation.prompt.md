@@ -1,0 +1,187 @@
+# V5 reading invitation — 96:8
+
+You are a fresh reading-invitation writer. Read the complete editorial prose
+before writing. It is your sole semantic source.
+
+Write two to four paragraphs of fluent, contemporary Turkish that reveal a
+surprising reading by following one or two main channels of resonance in the
+ayah. A channel is a connected background of meanings, images, actions, or
+relations through which the ayah can be heard and understood differently.
+Several editorial findings may together develop one channel. Summarize that
+connected movement and its consequence for the ayah's main meaning, rather
+than compressing findings individually. Give the reading's substance now;
+the invitation comes from understanding it, not from a promise of hidden depth.
+
+Before drafting, read the entire editorial prose and silently select the one
+or two channels with the strongest interpretive consequence and enough
+grounding to explain clearly. Favor channels that expand or shift what the
+ayah says, the relation it establishes, or what is at stake in its action or
+image. One fully developed channel is sufficient; add a second only when it
+offers a distinct consequential reading that can be explained within the
+invitation. No finding, channel, or major shift has an individual coverage
+claim. Unselected material may remain entirely in the full commentary.
+
+A channel may develop through grammar, sound, dialogue, a material process,
+time, imagery, or a conceptual relation. Resonance is not limited to acoustic
+effects, and an unusual image alone does not establish a channel. Use only
+connections the editorial prose actually develops. If it supplies no such
+channel, explain its strongest grounded reading without inventing connections
+or surprise.
+
+Begin inside the ayah's own words, images, actions, or relations and reveal a
+selected distinctive reading in the first paragraph. Keep the plain meaning
+reachable with only the orientation needed to understand the change. Do not
+spend an opening paragraph on routine explanation or front-load context about
+the surah, the ayah's position, or the commentary project.
+
+For each selected channel, begin with the expression that opens it, unfold the
+connected background, and show how the ayah reads or sounds against that
+background. Let a detail lead into the next through an intelligible relation
+or process, so the reader experiences the emerging reading. This is a movement
+of thought, not a mandatory sentence pattern or one paragraph per finding.
+Let the reader identify the expression being interpreted,
+where any nonordinary detail comes from, and what that detail changes in the
+reading. Briefly identify the word-family use, restricted form, collocation, or
+context that supplies an essential added detail, and preserve the concrete
+operation that makes the image work. Keep the ordinary reading and necessary
+qualification clear within this explanation; do not repeat them as a fixed
+formula. Preserve the particular object, process, or relation that makes this
+reading distinctive, and state its interpretive consequence for the ayah as a
+whole. Make intelligible what the familiar reading leaves less visible and
+what the expanded or shifted reading now lets the reader understand. Preserve
+the editorial's force: an exploratory possibility remains possible, while a
+developed shift must not be softened into a decorative association or a
+reassurance that everything means the same thing. A concrete
+account of how something is carried, transformed, lost, or restored must not
+shrink to a general statement about care, guidance, dependence, or goodness.
+Keep the details needed to make the selected channel work; omit side findings
+and shorten routine setup. If a channel cannot be explained faithfully from
+the editorial prose, choose another grounded channel or reading.
+
+When a non-focus ayah supplies a contribution used in the invitation, keep its
+reference from the editorial prose beside that contribution.
+
+Do not turn the invitation into a miniature inventory of the commentary's
+conclusions, or flatten distinct channels into a broad theme to include more
+material. Do not repair, extend, or supplement the editorial prose from memory
+or outside knowledge.
+
+Omit technical apparatus. Retain any qualification, source distinction, live
+alternative, or boundary whose absence would change the force or meaning of a
+chosen reading. Express it naturally beside the image or relation it qualifies.
+Favor positive explanations of the relation between layers: what remains in
+the foreground and what the resonance makes audible in the background. State
+how that background reinforces, expands, or shifts the understanding of the
+main meaning, with the source and degree of certainty clear. Reserve explicit
+exclusions for concrete ambiguities or live counter-evidence that need them.
+Repeated "this is not X" endings make a reading sound withdrawn; express the
+substantive qualification through what the reading does contribute wherever
+possible. Use varied, natural language rather than a repeated "second layer"
+formula, and preserve the force of expansions and shifts.
+Do not name branches, candidates, findings, scopes, evidence categories,
+ledgers, or workflow stages, or label the prose as numbered channels. Do not
+list findings serially.
+
+Use the established `{ar:..., tr:..., gloss:...}` syntax, consistent
+Turkish-readable transliteration, and short ordinary glosses. Keep Arabic
+anchors beside the explanations they ground. Within a paragraph, continue with
+the Turkish meaning where clear; provide the necessary local tag when a later
+paragraph interprets the carrier anew. Do not place Arabic script outside a
+valid tag.
+
+Build transitions within a channel through its shared object, action, or
+relation. If two channels are selected, they may occupy separate paragraphs;
+do not invent a link between them. Do not praise the commentary's quality,
+promise what the reader will find, manufacture suspense, recap at the end, or
+add a call to action. End on an image, relation, action, or tension already
+established by the selected reading.
+
+Before finishing, compare the invitation with the entire editorial prose:
+does the chosen channel reveal a consequential reading, or could the text have
+been written from the ordinary translation and a modest explanation alone?
+When the editorial supports a surprising channel, the latter fails this task.
+Can the reader follow the opening expression into a connected background and
+understand how that background expands or shifts the ayah's main meaning?
+Check the selected connections against their editorial explanation: can the
+reader tell where the nonordinary details come from, with the necessary
+qualifications intact? Repair generic explanation, isolated curiosities, or a
+compressed findings list by developing the selected channel. Do not add
+omitted channels merely for coverage. Do not output this check.
+
+Write only the invitation text to:
+
+`_commentary/v5/editorial/s096-regular-20260912/s096/96_8/96_8.invitation.tr.md`
+
+Do not add a heading, wrapper label, index, ledger, evidence file, or any other
+artifact. Do not modify the editorial prose.
+
+After writing the invitation, run:
+
+```bash
+python3 _commentary/v5/validate_prose.py _commentary/v5/editorial/s096-regular-20260912/s096/96_8/96_8.invitation.tr.md
+```
+
+If validation fails, repair only the reported mechanical file-contract issues
+and rerun it, for at most two repair cycles. Report the final validator result
+in your response.
+
+<editorial_prose>
+## Hükmün Yönü
+
+Âyetin açık hükmü şudur: {ar:إِنَّ إِلَىٰ رَبِّكَ ٱلرُّجْعَىٰٓ, tr:inna ilā rabbika ar-rujʿā, gloss:Şüphesiz dönüş Rabbinedir}. İnsan sonunda Rabbine dönecektir; cümle bu dönüşü ihtimal olarak değil, kesin bir varış olarak bildirir. (96:7)'de insanın kendisini yeterli görmesiyle açılan teşhis, burada o iddianın karşısına bağlayıcı bir sonuç koyar. Âyet hedefi ve sonucu sabitler; zaman ile ara duraklar bu hükmün kapsamı dışında bırakılır.
+
+Bildirim, önce {ar:إِنَّ, tr:inna, gloss:kesinlikle} ile açılır. Şeddeli başlangıç, hedef ve dönüş henüz duyulmadan kesinlik için kısa bir işitsel eşik kurar; cümlenin açık gramer anlamı da bu vurguyla birlikte ilerler. {ar:إِنَّ, tr:inna, gloss:kesinlikle} nominal yapıyı bağladığı için hüküm, geçici bir hareket tasviri değil, sabit bir bildirim olarak kurulur. Dört kelimelik sıkıştırılmış ifade, (96:7)'deki geniş kendine-yeterlik teşhisini tek bir hedefe ve tek bir dönüş olgusuna toplar. Ardından {ar:إِلَىٰ, tr:ilā, gloss:-e doğru} yön edatı kesinliği soyut bir hüküm olarak bırakmaz; onu Rabbine doğru ilerleyen bir yöneliş halinde açar. Bu yön grubu öne alındığında okuyucu önce varılacak yeri duyar, sonra dönüş adının bu hedefe göre anlaşılmasını bekler. Böylece (96:7)'de içe kapanan yeterlilik görüntüsü belirli bir varışa doğru çevrilir; varış noktası görünürken ara güzergâh belirlenmeden kalır.
+
+{ar:رَبِّكَ, tr:rabbika, gloss:Rabbine} bu yönün gramerdeki hedefidir. Yalnızca cümlenin sonunda duran bir isim değil, {ar:إِلَىٰ, tr:ilā, gloss:-e doğru} tarafından yönetilen ve dönüşün ölçüsünü belirleyen varış merciidir. Kelimenin ses ağırlığı, (96:7)'deki teşhis yanında hedefi sıradan bir yön noktasından ilişki taşıyan Rabbe çevirir; ses, sözlük anlamını değiştirmeden dikkati bu ilişkiye toplar. İsimdeki {ar:كَ, tr:ka, gloss:senin} eki, genel insan teşhisini doğrudan bir “sen” hitabına çevirir; dönüş, soyut bir insanlık fikrinin değil, muhatabın Rabbine yönelir. Açılışta kurulan doğrudan hitap (96:1, 96:3) burada yeniden duyulur ve sesleniş ile sondaki hedef arasında yerel bir çerçeve kurar. (32:11, 45:15, 89:28)'deki farklı hitap biçimleri yanında bu tekil ek, 96:8'de kime dönüldüğünü daraltır; bu karşılaştırma yalnız tekil hitabın yönünü aydınlatır, her ayetin kendi bağlamı yerinde kalır.
+
+“Rab” sözü, olağan anlamıyla sahip olan, buyuran ve yöneten merciyi kurar; aynı zamanda gözetileni eksikten tamamlanmışa doğru yetiştiren ilişkiyi de ihtiyatlı bir yankı olarak açar. İnsan kendisini yeterli sayarken (96:7) bu yetiştirici yön, gizlenmiş bağımlılığı yeniden görünür kılar: dönüş, kendisini kendi başına tamamlanmış sayan varlığın onu geliştiren ilişkiye doğru varışı gibi de duyulur. Bu bağ, 96:8'in açık hükmünü genişletir ve hedefi insanın varlığını taşıyan, onu kendi hükmünün ötesinde tutan etkin bir merci olarak belirginleştirir. Yetiştirme katkısı bu ilişkide kalır; ayete ayrı bir eğitim sahnesi eklenmez.
+
+Son kelime olan {ar:ٱلرُّجْعَىٰٓ, tr:ar-rujʿā, gloss:dönüş}, başındaki belirli artikel ile dönüşü belirli bir geri geliş olgusu halinde duyurur. R sesiyle art arda gelen akış ve son hecedeki uzama, hükmün kulağa kapanarak yerleşmesine yardım eder; sesin katkısı belirlik ile tamamlanma etkisidir. İsim kalıbı geri dönme eylemini tek bir anda olup biten fiil yerine sabit bir olgu halinde bildirir. Yön grubundan sonra gelmesi, önce Rabbine doğru hedefi duyurur, ardından o hedefe ait dönüşü yüklemsel bir kapanışla sabitler. (50:3)'teki belirli dönüş olgusuyla kurulan sınırlı benzerlik, burada bilinen ve kaçınılmaz bir sonu öne çıkarır; (86:8)'deki daha yüksek kesinlik tonlu geri dönüş söyleyişi de bu hükmü yankılar. İsim biçimi seyrek duyulduğunda seçilmiş bir son söz etkisi verir; sözlük anlamı dönüşte sabit kalır. Ettirgen kullanımlarda görülebilen “geri getirme” imkânı, burada fail ve geri getirme eylemi kurmadan, dönüşün geri yönünü destekleyen bir arka plan olarak duyulur. (86:11)'de yağmurun yeniden gelişi ve yeryüzüne tekrar dökülmesi de bu geri gelme yüzeyine maddi bir yankı verir; su görüntüsü insan dönüşünün yerine geçmeden, tekrar eden yönü sezdirir.
+
+Rabbine dönüş ifadesinin yerel buluşması, (96:7)'deki kendine-yeterlik iddiasının yönünü tersine çevirir: kendi başına duran varlık sonunda zaten hükmeden merciye döner. {ar:رَبِّكَ, tr:rabbika, gloss:Rabbine} ile {ar:ٱلرُّجْعَىٰٓ, tr:ar-rujʿā, gloss:dönüş} birlikte, sahiplik ve yönetme anlamını geri dönme anlamıyla aynı noktada toplar. “Rabbine dönüş” bu yüzden yer değiştirme yanında eksikten tamamlanmaya ve yıpranmışlıktan yeniden toparlanmaya açılan bir varış olarak duyulur. Rabb kelimesinin yetiştirici yüzü ile dönüş kelimesinin art arda yolculuklardan yorulmuş bir canlının güçsüzlükten sonra toparlanmasını anlatan kullanımı bu görüntüyü birlikte taşır. Bu birleşimin katkısı ilişkisel toparlanmadır; beden, yolculuk ve bakımın belirli ayrıntıları bu özel bağlantının kapsamına girmez.
+
+## Başlangıçtan Son Varışa
+
+Pasajın bütün sahneleri, dönüşü uzak bir gelecek cümlesi olmaktan çıkarıp davranışların önünde duran canlı bir hesap verme ufku haline getirir. Okuma, adlandırma, yaratma, öğretme ve kalemle yazıya bağlanan oluş sahnesi (96:1, 96:2, 96:3, 96:4, 96:5) insanın taşması ve kendisini yeterli görmesiyle (96:6, 96:7) karşılaşır. Ardından yasaklama, ibadet, hidayet, korunma, yalanlama ve görme (96:9, 96:10, 96:11, 96:12, 96:13, 96:14), alın üzerinden yönlendirme ile bir topluluğa sığınma (96:15, 96:16, 96:17), çağrı ve karşı çağrı (96:17, 96:18) sahnelerine açılır. Kapanıştaki itaat etmeme, secde ve yaklaşma buyruğu (96:19) aynı yönü bedende görünür kılar. Bu eylemler {ar:إِلَىٰ, tr:ilā, gloss:-e doğru} ile {ar:رَبِّكَ, tr:rabbika, gloss:Rabbine} içinde duyulan hedefe bağlandığında, dönüş onların önünde duran sorumluluk ufku olarak belirir. Bu ilişki sahneler arasında ortak bir yön kurar; her sahne kendi eylem niteliğiyle yerinde kalır.
+
+Yaratılış, alın-perçeminden yakalama tehdidi ve iki çağrı sahnesi, dönüşü son-varış ufkunda somutlaştırır. Başlangıcı gösteren {ar:خَلَقَ, tr:khalaqa, gloss:yarattı} ile başlayan varlık, ilerideki {ar:لَنَسْفَعًا, tr:lanasfaʿan, gloss:çekip alacağız} ve {ar:بِالنَّاصِيَةِ, tr:bi-n-nāṣiyah, gloss:perçeminden} ile görülen tehdide (96:15), ardından {ar:فَلْيَدْعُ نَادِيَهُ, tr:fal-yadʿu nādiyahu, gloss:meclisini çağırsın} ve {ar:سَنَدْعُ الزَّبَانِيَةَ, tr:sanadʿu z-zabāniyah, gloss:itip uzaklaştıran görevlileri çağıracağız} sözlerindeki karşı çağrıya (96:17, 96:18) ulaşır. Bu temaslar, Rabbine dönüşü ölümden sonra son geliş ve yeniden diriliş ufkuyla birlikte düşündürür. Son nokta böyle duyulduğunda yalnızca yetkinin gelecekteki hükmü değil, yaratılmış insanın Rabbi önünde son kez beliren gelişi olur. Bu okumanın taşıdığı şey son-varış ufkudur; dirilişin ayrıntıları bu ayetin açık cümlesine eklenmeden kendi kaynak bağlamlarında kalır.
+
+Başlangıçtaki yaratılış ile kendini yeterli görme arasındaki temas (96:2, 96:7), dönüşü insanın başta gizlediği bağımlılığın yeniden açığa çıkması olarak duyurur. {ar:عَلَقٍ, tr:ʿalaq, gloss:asılıp tutunan madde} ilk bağlılığın maddi izini taşır: yaratılmış varlık başlangıçta kendi başına duran bir güç değil, tutunarak başlayan bir varlıktır. {ar:رَبِّكَ, tr:rabbika, gloss:Rabbine}nin yetiştirip tamamlayan yüzü bu başlangıcı son hedefle yeniden yan yana getirir. Kendini yeterli görme sahnesindeki {ar:رَّآهُ, tr:raʾāhu, gloss:onu gördü} ve yeterlilik iddiası (96:7), ilk bağımlılığın üzerinin nasıl örtüldüğünü gösteren bağımsız tetikleyicidir. Dönüş kelimesinin art arda yolculuklardan yıpranmış hayvanın yeniden toparlanmasına açılan kullanımı da ayrılıkla gizlenen ilişkinin yeniden kurulmasını düşündürür. Böylece aynı Rab, başlangıçtaki yetiştirici kaynak ile sondaki varış mercii olarak görünür; son varış hüküm yeri olmanın yanında örtülmüş yetiştirici ilişkiye geri geliş olarak genişler. Bu temasın sınırı, onu belirli bir gelişim şeması veya olay tarihine dönüştürmemesidir.
+
+Başlangıçtaki okuma, ad, yaratma, öğretme ve kalem dizisi dönüşü daha somut bir geri-yanıt görüntüsüne taşır. {ar:ٱقْرَأْ, tr:iqraʾ, gloss:oku} buyruğu, {ar:بِاسْمِ, tr:bismi, gloss:ad ile} belirginleşen adlandırma, {ar:خَلَقَ, tr:khalaqa, gloss:yarattı}, {ar:عَلَّمَ, tr:ʿallama, gloss:öğretti} ve {ar:بِالْقَلَمِ, tr:bi-l-qalam, gloss:kalemle} birlikte sesli, adlandırılmış, oluşturulmuş, öğretilmiş ve yazıyla kalıcılaştırılmış bir oluş zinciri kurar (96:1, 96:3, 96:4). Gönderene dönen mektup veya iletiye verilen yanıt düşüncesi bu zincire temas ettiğinde, sonundaki {ar:ٱلرُّجْعَىٰٓ, tr:ar-rujʿā, gloss:dönüş} kaynağına geri okunabilen bir cevap gibi duyulur. İlk okuma yüzeyinin sesli ya da okunabilir malzeme tarafı ile {ar:بِاسْمِ, tr:bismi, gloss:ad ile} içindeki adlandırmanın ayırt edici iz taşıması bu bağlantıyı destekler (96:1). Bu sözlük bağlantılarının ayrıntısı açık bırakıldığı için katkıları, dönüşün kaynakla okunabilir bir karşılık ilişkisi kazanmasıdır. {ar:رَبِّكَ, tr:rabbika, gloss:Rabbine} bilen ve yetiştiren kaynağı, {ar:خَلَقَ, tr:khalaqa, gloss:yarattı} kaynaktan iz taşıyan ölçülü biçimi, {ar:عَلَّمَ, tr:ʿallama, gloss:öğretti} açığa çıkarılıp bilinir kılınan işareti, {ar:بِالْقَلَمِ, tr:bi-l-qalam, gloss:kalemle} ise öğretimin dayanıklı yazıdaki aracını görünür kılar. Bu katkılar birlikte, oluşmuş ve öğretilmiş hayatın kaynağa okunabilir bir karşılık vermesi imgesini kurar; imge, (96:1, 96:3, 96:4)'teki açılış dizisiyle 96:8'deki dönüş arasındaki bağdan doğar.
+
+Okuma buyruğunun iki kez gelişi, bu yazı ve ses devresine kaynağına yankılanan bir geri dönüş hareketi ekler. İlk {ar:ٱقْرَأْ, tr:iqraʾ, gloss:oku} buyruğu ile üçüncü âyetteki aynı buyruk (96:1, 96:3), bilen-yetiştiren kaynaktan çıkan sözün tekrar ederek geri dönmesine benzer bir sıra kurar. {ar:رَبِّكَ, tr:rabbika, gloss:Rabbine} kaynak ve öğretici yönüyle sesin nereden geldiğini, {ar:ٱلرُّجْعَىٰٓ, tr:ar-rujʿā, gloss:dönüş} ise sesi yineleyip dalgalandıran geri-yanıt hareketini düşündürür. Okur böylece dönüşü yalnız insanın varacağı yer olarak değil, emredilmiş sözün kendi içinde duyulan yankı olarak da işitebilir. Sözlük bağlantısının kesinliği sınırlı olduğu için bu katkı ses imgesi düzeyinde kalır; olağan son-varış anlamı aynı açıklamada yerini korur.
+
+Yaratılışın maddi başlangıcı, dönüşü aynı yapıcı elin yeniden işlediği bir oluş olarak hayal etmeye açılır. {ar:خَلَقَ, tr:khalaqa, gloss:yarattı} ilk biçim vermeyi, {ar:عَلَقٍ, tr:ʿalaq, gloss:asılıp tutunan madde} ise insanın başlangıçtaki maddi tutunma hâlini sağlar (96:2). {ar:رَبِّكَ, tr:rabbika, gloss:Rabbine} eksik olanı tamamlayan faili, {ar:ٱلرُّجْعَىٰٓ, tr:ar-rujʿā, gloss:dönüş} için verilen başka bir kullanım ise bir maddenin veya ürünün önceki işlemden sonra geri gelmesini ya da yeniden ele alınmasını düşündürür. İlk yaratma ile sonraki dönüş bu iki kaynak üzerinden aynı yapıcı elin yeniden işlediği bir süreç benzetmesinde buluşur. Böylece yaratılmış insanın son gelişi, başladığı maddi hâlin tamamlayıcı bakım altında yeniden ele alınması imgesini kazanır. Bu benzetmenin sınırı, fizyolojik bir mekanizma kurmaması ve sözlükteki sindirim, yiyecek ve giysi örneklerini bu özel bağlantıya dahil etmemesidir.
+
+## Taşan İddianın Geri Gelişi
+
+Taşma ile dönüşün su imgesi, (96:6, 96:7)'deki kendine-yeterlik iddiasını kaynağa doğru geri toplanabilecek bir kabarma olarak görünür kılar. {ar:رَبِّكَ, tr:rabbika, gloss:Rabbine}nin olağan Rab anlamına eklenen suyun bol ve toplanmış hâli, {ar:لَيَطْغَىٰٓ, tr:layatghā, gloss:haddi aşar} fiilindeki taşma ve yükselme çağrışımıyla karşılaşır. {ar:ٱسْتَغْنَىٰٓ, tr:istaghnā, gloss:kendisini yeterli sayar} kendi içine kapanan yeterlilik basıncını, {ar:ٱلرُّجْعَىٰٓ, tr:ar-rujʿā, gloss:dönüş} ise yağmurun yeniden gelişi ve suyun yeryüzüne tekrar dökülmesiyle ilişkili kullanımı taşır. Bu iki katkı birleşince kabarmanın kaynağa doğru geri toplanmasına maddi bir biçim verir. Su görüntüsü dönüşün doğrudan sözlük karşılığı olarak değil, (96:6, 96:7)'deki haddi aşma ve sorumluluk okumasını genişleten temkinli bir karşı-akıntı benzetmesi olarak işler.
+
+Bakış ve doğrulama dili, kişinin kendisi hakkında kurduğu hükmü Rabbin karşı-görüşü altında incelenebilir bir kanıta dönüştürür. Kendini görme fiili {ar:رَّآهُ, tr:raʾāhu, gloss:onu gördü} (96:7), insanın kendisi hakkında hüküm vermesini ve kanaatini kesin saymasını taşır; bu fiilin açıldığı sözlük bağlantısının ayrıntısı burada çözülmemiştir. Üç kez yinelenen {ar:أَرَأَيْتَ, tr:araʾayta, gloss:gördün mü} sorusu (96:9, 96:11, 96:13) muhatabı uyandırır ve yerleşmiş görünen hükmü cevaplanabilir hale getirir. {ar:كَذَّبَ, tr:kadhdhaba, gloss:yalanladı} fiilindeki tartışmalı iddia (96:13), {ar:يَعْلَمْ, tr:yaʿlam, gloss:bilir} fiilindeki açığa çıkıp bilinir olma ve {ar:يَرَىٰ, tr:yarā, gloss:görür} fiilindeki ilahî tanıklık (96:14) bu soruların çevresinde birleşir. {ar:رَبِّكَ, tr:rabbika, gloss:Rabbine}nin sahiplik, buyruk ve yönetim çekirdeği bu öz-değerlendirmeyi inceleyecek yetkili mercii sağlar; dönüşün iletiye geri dönen yanıt yüzü de sorulan iddianın bu merciin önüne gelmesini mümkün kılar. Böylece kişinin bakışı ve kendi görüşüne dayanarak kurduğu beraat, Rabbin bakışı altında cevap vermek üzere geri gelir; hesap, kişiyi ve kişinin kendisi hakkında kurduğu görüşü birlikte tanıklık altına alır.
+
+Yasaklama ile dönüşün teması, başkasını durdurmak isteyen kuvvetin kendi sınırına varmasını görünür kılar. {ar:رَبِّكَ, tr:rabbika, gloss:Rabbine}nin yönetme anlamı, {ar:يَنْهَىٰ, tr:yanhā, gloss:yasaklar} fiilinin başkasını durduran zorlayıcı eylemiyle (96:9) ve {ar:يَنتَهِ, tr:yantahi, gloss:sınırına ulaşır} fiilinin sona erme veya sınıra varma biçimiyle (96:15) karşılaşır. Dönüşün geri dönme ve geri döndürme yüzü bu iki ayrı hareketi bir araya getirir; başkasını durdurmak isteyen kuvvet, kendi kontrol edemediği limite varan bir kuvvet olarak görünür. Uyarının katkısı, zorlayıcının kendi sınırını üretip o sınıra geri çevrilmesi görüntüsüdür. Yasaklama ile sonlanmanın sıradan anlamları bu görüntünün içinde korunur; dönüş kelimesi tek bir zorunlu mekanizmaya indirgenmez.
+
+Dönüşün yönü, kaçınılmaz sonla birlikte şimdi terk edilebilecek yanlış yolu da görünür kılar. {ar:رَبِّكَ, tr:rabbika, gloss:Rabbine}nin yetiştirip tamamlayan yüzü, davranışın yeniden biçimlenebileceği bir yön açar. {ar:صَلَّىٰ, tr:ṣallā, gloss:namaz kıldı} bedende tekrarlanabilir ibadeti ve {ar:عَبْدًا, tr:ʿabdan, gloss:kulu} seçilmiş kullukla itaati (96:10) taşır; {ar:الْهُدَىٰ, tr:al-hudā, gloss:hidayet} yürünebilir istikameti (96:11), {ar:بِالتَّقْوَىٰ, tr:bi-t-taqwā, gloss:sakınma ve korunma} ise sapmayı önleyen koruyucu hizalanmayı (96:12) verir. {ar:وَتَوَلَّىٰ, tr:wa-tawallā, gloss:yüz çevirdi} yüz çevirme yönünü (96:13) kurarken dönüş, bu karşıt vektörü tersine çeviren bir hareket olarak duyulur. Bu katkılar, nihai dönüş ufkunu ibadet, hidayet, takva ve geri çekilme karşısında bugün başlanabilen bir yönelişle buluşturur. Çevredeki buyruklar itaati tarif eder; nihai dönüş ise bu pratik yönelişin üzerinde kalan son ufuk olarak yerini korur.
+
+Üç kapanış buyruğu, bugünkü yönelişi bedensel bir yakınlıkta yoğunlaştırır (96:19). {ar:لَا تُطِعْهُ, tr:lā tuṭiʿhu, gloss:ona itaat etme} rakip otoritenin talebini geri çevirir; {ar:وَاسْجُدْ, tr:wasjud, gloss:secde et} bedeni alçaltır, {ar:وَاقْتَرِبْ, tr:waqtarib, gloss:yaklaş} ise mesafeyi kapatır. {ar:رَبِّكَ, tr:rabbika, gloss:Rabbine}nin kalma ve yaklaşma ilişkisi, {ar:ٱلرُّجْعَىٰٓ, tr:ar-rujʿā, gloss:dönüş}nin önceki yoldan geri dönme yüzüyle birleştiğinde, son varışın şimdi seçilen bir yöneliş içinde önceden yaşanabileceği bir tablo kurulur. Reddetme, secde ve yaklaşma birlikte, dönüşü isteyerek başlatan somut bir hareket sırası oluşturur; yakınlık nihai olayın kendisi değil, onun eşiğini bugüne getiren katkıdır.
+
+Secde ve yaklaşmanın aşağı yönü, biçimsel olarak uzak ve çözülmemiş bir karşılaştırmada tersine çevrilmiş bir ölçü sunar (96:19). {ar:رَبِّكَ, tr:rabbika, gloss:Rabbine} için uzaktan beliren artma veya yükselme imgesi, {ar:ٱلرُّجْعَىٰٓ, tr:ar-rujʿā, gloss:dönüş}nin önceki yere ya da duruma geri dönme yönüyle karşılaşır. {ar:وَاسْجُدْ, tr:wasjud, gloss:secde et} ile {ar:وَاقْتَرِبْ, tr:waqtarib, gloss:yaklaş} birlikte okunduğunda, yaklaşmanın kendini yükseltmekten çok alçalma ile yakınlığa varması görünür hale gelir. Bu uzak görüntünün katkısı yükselme ile alçalma arasındaki karşıtlığı belirginleştirmektir; Rabb kelimesi burada boy veya yükseklik anlamı almaz. Sıradan Rabbe dönüş ve kapanıştaki itaat etmeme-secde-yaklaşma sırası bu benzetmeyle birlikte korunur.
+
+İki çağrı ile alın sahnesi, dönüşü rakip meclisin çağrısına karşı daha güçlü bir karşı çağrıyla uygulanan hâkimiyet ve teslimiyet devri olarak canlandırır. {ar:فَلْيَدْعُ نَادِيَهُ, tr:fal-yadʿu nādiyahu, gloss:meclisini çağırsın} bir topluluğu desteğe çağırır (96:17); {ar:سَنَدْعُ الزَّبَانِيَةَ, tr:sanadʿu z-zabāniyah, gloss:itip uzaklaştıran görevlileri çağıracağız} buna simetrik bir karşı çağrı getirir (96:18). {ar:نَادِيَهُ, tr:nādiyahu, gloss:meclisi} sosyal koruma sağlayan gövdeyi, {ar:الزَّبَانِيَةَ, tr:az-zabāniyah, gloss:itip uzaklaştıran görevliler} itme ve uzaklaştırma gücünü taşır. {ar:لَنَسْفَعًا, tr:lanasfaʿan, gloss:çekip alacağız} ve {ar:بِالنَّاصِيَةِ, tr:bi-n-nāṣiyah, gloss:perçeminden} soyut dönüşü bedensel bir yakalamaya bağlar (96:15); Rabbin sahiplik ve buyruk yetkisi, iddiacıyı kendi forumundan çıkarıp daha yüksek bir çağrıya teslim eden üstün gözetim gibi görünür. İlk çağrı karşı çağrıyla buluştuğunda, cevap icraya dönüşür ve dönüşün geri-yanıt yüzü sahneye taşınır. Bu sahnenin katkısı dönüşe beden ve çağrı kazandırmaktır; tehdit, kelimenin bütün anlam alanının yerine geçmez.
+
+## Kaynağa, Cevaba ve Düzeltmeye Dönüş
+
+Dönüş ifadeleri, 96:8'deki yönü yöneten kaynağın sahiplik, kudret ve kabul boyutlarıyla belirginleştirir. (11:4)'teki {ar:إِلَى ٱللَّهِ مَرْجِعُكُمْ, tr:ilā Allāhi marjiʿukum, gloss:Dönüşünüz Allah'adır} çerçevesi, varış ile etkili sahiplik ve hüküm otoritesini birlikte kurar. (86:8)'deki {ar:رَجْعِهِۦ, tr:rajʿihi, gloss:onu geri döndürmesi} bildirimi, dönüşü yeniden kurma kudretiyle buluşturur; (89:28)'deki {ar:ٱرْجِعِىٓ إِلَىٰ رَبِّكِ, tr:irjiʿī ilā rabbiki, gloss:Rabbine dön} çağrısı ise dönüşü kabul ve yeniden kurulma ufkunda somutlaştırır. Bu üç temas, Rabbine dönüşü yalnız bir yön noktası değil, varılanı sahiplenen, yeniden kurabilen ve dönüşü kabul ilişkisi içinde karşılayan kaynak olarak duyurur. Kabul, (89:28)'in kendi bağlamındaki ölçüsüyle kalır; kaynak, kudret ve kabulün üç ayrı temas noktası açık hükmü nitelendirir.
+
+Dönüşün cevap olarak açılan yüzü, çağrı ve sözün muhatabına geri gelmesiyle görünür hale gelir. (40:43)'teki {ar:مَرَدَّنَآ إِلَى ٱللَّهِ, tr:maraddanā ilā Allāh, gloss:Dönüşümüz Allah'adır} çağrı ortamında Allah'a dönüşü kurar; (34:31)'deki {ar:يَرْجِعُ بَعْضُهُمْ إِلَىٰ بَعْضٍ ٱلْقَوْلَ, tr:yarjiʿu baʿḍuhum ilā baʿḍin al-qawl, gloss:birbirlerine sözü geri çevirirler} sözün bir taraftan diğerine geri çevrilmesini gösterir. Bu iki temas, {ar:ٱلرُّجْعَىٰٓ, tr:ar-rujʿā, gloss:dönüş} kelimesinin olağan varış anlamını korurken, Rabbine varışı sahibinin önünde verilecek bir karşılıkla zenginleştirir. Dönüşün kabul ile yan yana durması (89:28), çağrının dönüş ile birleşmesi (40:43) hesap ufkunu Rabbine yönelen bir cevap gibi duyurur. Yapılan işler ve ileri sürülen iddialar böylece yönetici merciin önüne gelen bir karşılık kazanır; cevap katmanı bu iki temasın açtığı ihtiyatlı bağlamsal katkı olarak kalır.
+
+Dönüşün cevap olarak açılan yönü, yanlış eylemi bırakıp istikameti düzeltme katkısını da taşır. Yetkili son dönüş (11:4), azap karşısında geri dönmeye yönelten bağlamla (43:48) buluştuğunda, dönüş davranışsal bir yön değişikliği olarak belirir. (43:48)'deki {ar:لَعَلَّهُمْ يَرْجِعُونَ, tr:laʿallahum yarjiʿūn, gloss:belki geri dönerler} ifadesi bu dönüşü hedef olarak kurar. (96:13)'teki yüz çevirme rehberlikten uzaklaşan karşı yöndür; dönüş ise bu yönü geri çevirip doğru tarafa çevirebilecek davranış olarak görünür. Çağrı ile dönüşün birlikte bulunması (40:43), geri dönüşün hedeflenmesiyle (43:48) birleşince, geri gelen cevabın rotasını değiştiren bir davranış olması düşünülebilir. Bu düzeltici katkı, açık varış ve yalın sözlü cevap ihtimalleriyle birlikte durur; dönüş davranışsal bir tövbe buyruğuna indirgenmez.
+
+Çağrı ve sözün sesle geri gelmesi, dönüşe konuşana dönen cevap ve yinelenen ses dalgası katkısını ekler. Çağrı ile Allah'a dönüşün birlikte bulunması (40:43), sözün karşılıklı geri çevrilmesi (34:31) ve göğe ait yinelenen dönüş görüntüsü (86:11) sorunun dışarı çıkıp karşılığın muhatabına dönmesi gibi işitilebilir bir ritim kurar. {ar:ٱلرُّجْعَىٰٓ, tr:ar-rujʿā, gloss:dönüş} bu ritim içinde konuşana geri dönen cevabı ve yinelenen ses dalgasını uzaktan çağrıştırabilir. (86:11)'deki {ar:وَٱلسَّمَآءِ ذَاتِ ٱلرَّجْعِ, tr:wa-s-samāʾi dhāti ar-rajʿ, gloss:dönüş sahibi göğe} gök döngüsünü 96:8'in doğrudan anlamına taşımadan yankının sınırını belirler. Bu bağlantının katkısı işitilebilir tekrar imgesidir; Rabbine yönelen son varışın sözlük anlamı aynı yerde korunur.
+
+Yeniden kurulmuş hayat ve hesap ufku, son varışı başlangıç, yeniden yaratma ve karşılık ilişkisi içinde genişletir. Başlangıç, yeniden yaratma ve karşılıkla birlikte bütünsel dönüş (10:4); ölüm, yeniden hayat ve dönüşün aynı zincirde anılması (2:28), {ar:ٱلرُّجْعَىٰٓ, tr:ar-rujʿā, gloss:dönüş} kelimesinin son gelişini yeniden diriltilmiş hayatın ve verilecek karşılığın ufkuyla ilişkilendirir. Böylece yaratılmış insanın Rabbine dönüşü, önceki bir yere geri gitmekle sınırlı kalmayan, yeniden kurulmuş varlık ve sonuçla karşılaşma imgesini taşır. Bu iki temasın sınırı açıktır: çerçeve yeniden dünyaya gelişi değil, Rabbine varışla birlikte yeniden kurulan hayat ve hesap ihtimalini aydınlatır.
+
+Yağmurun yeniden gelişi, dönüşün son sesine geri gelme, yinelenme ve süreklilik katkısını bırakır. (86:11)'deki {ar:وَٱلسَّمَآءِ ذَاتِ ٱلرَّجْعِ, tr:wa-s-samāʾi dhāti ar-rajʿ, gloss:dönüş sahibi göğe} göğe bağlanan tekrarlı dönüşü, suyun yeniden inmesi ve yeryüzüne tekrar dökülmesi görüntüsü olarak sunar. {ar:ٱلرُّجْعَىٰٓ, tr:ar-rujʿā, gloss:dönüş} bu görüntüyle birlikte düşünüldüğünde, Rabbine yönelmiş nihai dönüşün çevresinde geri gelme ve yinelenme sezgisi oluşur; tek bir son olay, Rabbin sürekliliği çevresinde yinelenen geri gelişlerin tacı gibi de duyulabilir. Su döngüsünün katkısı bu uzak ve keşifsel analojiyle sınırlıdır; odak ayetin açık Rabbine varış anlamı, hükmün son sesinde yankılanan bu süreklilikle birlikte korunur.
+
+</editorial_prose>

@@ -1,0 +1,183 @@
+# V5 reading invitation — 92:8
+
+You are a fresh reading-invitation writer. Read the complete editorial prose
+before writing. It is your sole semantic source.
+
+Write two to four paragraphs of fluent, contemporary Turkish that reveal a
+surprising reading by following one or two main channels of resonance in the
+ayah. A channel is a connected background of meanings, images, actions, or
+relations through which the ayah can be heard and understood differently.
+Several editorial findings may together develop one channel. Summarize that
+connected movement and its consequence for the ayah's main meaning, rather
+than compressing findings individually. Give the reading's substance now;
+the invitation comes from understanding it, not from a promise of hidden depth.
+
+Before drafting, read the entire editorial prose and silently select the one
+or two channels with the strongest interpretive consequence and enough
+grounding to explain clearly. Favor channels that expand or shift what the
+ayah says, the relation it establishes, or what is at stake in its action or
+image. One fully developed channel is sufficient; add a second only when it
+offers a distinct consequential reading that can be explained within the
+invitation. No finding, channel, or major shift has an individual coverage
+claim. Unselected material may remain entirely in the full commentary.
+
+A channel may develop through grammar, sound, dialogue, a material process,
+time, imagery, or a conceptual relation. Resonance is not limited to acoustic
+effects, and an unusual image alone does not establish a channel. Use only
+connections the editorial prose actually develops. If it supplies no such
+channel, explain its strongest grounded reading without inventing connections
+or surprise.
+
+Begin inside the ayah's own words, images, actions, or relations and reveal a
+selected distinctive reading in the first paragraph. Keep the plain meaning
+reachable with only the orientation needed to understand the change. Do not
+spend an opening paragraph on routine explanation or front-load context about
+the surah, the ayah's position, or the commentary project.
+
+For each selected channel, begin with the expression that opens it, unfold the
+connected background, and show how the ayah reads or sounds against that
+background. Let a detail lead into the next through an intelligible relation
+or process, so the reader experiences the emerging reading. This is a movement
+of thought, not a mandatory sentence pattern or one paragraph per finding.
+Let the reader identify the expression being interpreted,
+where any nonordinary detail comes from, and what that detail changes in the
+reading. Briefly identify the word-family use, restricted form, collocation, or
+context that supplies an essential added detail, and preserve the concrete
+operation that makes the image work. Keep the ordinary reading and necessary
+qualification clear within this explanation; do not repeat them as a fixed
+formula. Preserve the particular object, process, or relation that makes this
+reading distinctive, and state its interpretive consequence for the ayah as a
+whole. Make intelligible what the familiar reading leaves less visible and
+what the expanded or shifted reading now lets the reader understand. Preserve
+the editorial's force: an exploratory possibility remains possible, while a
+developed shift must not be softened into a decorative association or a
+reassurance that everything means the same thing. A concrete
+account of how something is carried, transformed, lost, or restored must not
+shrink to a general statement about care, guidance, dependence, or goodness.
+Keep the details needed to make the selected channel work; omit side findings
+and shorten routine setup. If a channel cannot be explained faithfully from
+the editorial prose, choose another grounded channel or reading.
+
+When a non-focus ayah supplies a contribution used in the invitation, keep its
+reference from the editorial prose beside that contribution.
+
+Do not turn the invitation into a miniature inventory of the commentary's
+conclusions, or flatten distinct channels into a broad theme to include more
+material. Do not repair, extend, or supplement the editorial prose from memory
+or outside knowledge.
+
+Omit technical apparatus. Retain any qualification, source distinction, live
+alternative, or boundary whose absence would change the force or meaning of a
+chosen reading. Express it naturally beside the image or relation it qualifies.
+Favor positive explanations of the relation between layers: what remains in
+the foreground and what the resonance makes audible in the background. State
+how that background reinforces, expands, or shifts the understanding of the
+main meaning, with the source and degree of certainty clear. Reserve explicit
+exclusions for concrete ambiguities or live counter-evidence that need them.
+Repeated "this is not X" endings make a reading sound withdrawn; express the
+substantive qualification through what the reading does contribute wherever
+possible. Use varied, natural language rather than a repeated "second layer"
+formula, and preserve the force of expansions and shifts.
+Do not name branches, candidates, findings, scopes, evidence categories,
+ledgers, or workflow stages, or label the prose as numbered channels. Do not
+list findings serially.
+
+Use the established `{ar:..., tr:..., gloss:...}` syntax, consistent
+Turkish-readable transliteration, and short ordinary glosses. Keep Arabic
+anchors beside the explanations they ground. Within a paragraph, continue with
+the Turkish meaning where clear; provide the necessary local tag when a later
+paragraph interprets the carrier anew. Do not place Arabic script outside a
+valid tag.
+
+Build transitions within a channel through its shared object, action, or
+relation. If two channels are selected, they may occupy separate paragraphs;
+do not invent a link between them. Do not praise the commentary's quality,
+promise what the reader will find, manufacture suspense, recap at the end, or
+add a call to action. End on an image, relation, action, or tension already
+established by the selected reading.
+
+Before finishing, compare the invitation with the entire editorial prose:
+does the chosen channel reveal a consequential reading, or could the text have
+been written from the ordinary translation and a modest explanation alone?
+When the editorial supports a surprising channel, the latter fails this task.
+Can the reader follow the opening expression into a connected background and
+understand how that background expands or shifts the ayah's main meaning?
+Check the selected connections against their editorial explanation: can the
+reader tell where the nonordinary details come from, with the necessary
+qualifications intact? Repair generic explanation, isolated curiosities, or a
+compressed findings list by developing the selected channel. Do not add
+omitted channels merely for coverage. Do not output this check.
+
+Write only the invitation text to:
+
+`_commentary/v5/editorial/s092-regular-20260912/s092/92_8/92_8.invitation.tr.md`
+
+Do not add a heading, wrapper label, index, ledger, evidence file, or any other
+artifact. Do not modify the editorial prose.
+
+After writing the invitation, run:
+
+```bash
+python3 _commentary/v5/validate_prose.py _commentary/v5/editorial/s092-regular-20260912/s092/92_8/92_8.invitation.tr.md
+```
+
+If validation fails, repair only the reported mechanical file-contract issues
+and rerun it, for at most two repair cycles. Report the final validator result
+in your response.
+
+<editorial_prose>
+Bu âyet, önceki olumlu örneğin (92:5) tamamlanmış sonucunun hemen ardından karşı vakayı açar: kim cimrilik eder ve kendini yeterli sayarsa... Başlangıçtaki {ar:وَ, tr:wa, gloss:ve} önceki dalı kapatıp yeni duruma bağlar; burada bağlacın geniş bağlama imkânı, {ar:أَمَّا, tr:ammā, gloss:belirli bir durumu açan edat}nın önünde karşıt vakaları bir arada tutan kullanıma daralır. Tek harflik wa, kendisinden sonra gelen iki mîm'i belirginleşmiş ağır ammā'ya geçişte hafif bir ses menteşesi gibidir: küçük bir başlangıç büyük bir karşı-vaka çerçevesini taşır. Bu bağlantı, âyeti aynı karşılaştırmanın ikinci yüzü olarak duyurur. Ammā, karşı vakayı ayrıntılı bir çerçeveye alır ve beklenen cevabı 92:10'a kadar askıda tutar; okur sonucu duymadan önce bu profili taşır. Önceki olumlu örnekteki {ar:فَأَمَّا, tr:fa-ammā, gloss:olumlu durumu açan çerçeve} yapısının yeniden kurulması (92:5), iki profili aynı sınıflama iskeleti içinde karşılaştırılabilir kılar; bu iskelet iki durumu yan yana tutar.
+
+Bu çerçevenin altında {ar:مَنۢ, tr:man, gloss:kim/kimse} belirli bir ad taşıyan kişiyi değil, ardından gelen fiillerin çizdiği davranış profiline göre tanınan adı konmamış kişiyi konu yapar. Aynı özne yeri önceki olumlu örnekte (92:5) nasıl korunuyorsa burada da korunur; karşıtlık farklı insan etiketleri arasında değil, aynı sözdizimsel kapıdan giren eylemler arasında kurulur. {ar:بَخِلَ, tr:bakhila, gloss:eldeki varlığı haksız yere esirgemek} ile {ar:ٱسْتَغْنَىٰ, tr:istaghnā, gloss:kendini yeterli saymak} tek kişide dışa kapatmayı ve içe dönük yeterlilik iddiasını birlikte gösterir. İki tamamlanmış etken fiil aynı profili kapatır; aralarındaki ilişki iki eylemi yan yana getirir, birinin ötekini doğurduğu bir sıra kurmaz. Man'ın “kim olursa” açıklığı, bu iki davranışa uyan herkesi aynı sözdizimsel kapıdan içeri alır. Düz anlamın zemini açıktır: “Ama kim cimrilik eder ve kendini yeterli sayarsa...” Sonucun henüz söylenmemesi, okuru önce bu iki fiili birlikte taşımaya çağırır.
+
+Dikkat şimdi ilk fiilin yaptığı şeye iner. {ar:بَخِلَ, tr:bakhila, gloss:eldeki varlığı haksız yere esirgemek}, verilmesi gereken kişi ya da amaçtan eldeki varlığı haksız yere alıkoymayı söyler; tamamlanmış etken Form I biçimi bu alıkoymayı man'ın kendi yaptığı bitmiş bir eylem olarak profile bağlar. Biçim, bunun alışkanlık mı tek olay mı olduğunu ayrıca belirlemez. Fiilin nesnesi ya da harf-i cerli tamamlayıcısı açıkça verilmediği için esirgeme mal ile sınırlandırılmaz; neyin tutulduğu açık kalırken, hak edilmiş dolaşımın kapatılması görünür olur. Kelimenin yoğun kh sesi eli, göğsü ve dolaşımı kendi içine çeken bir daralma duygusu uyandırabilir; bu işitsel görüntü ahlaki alıkoymayı yoğunlaştırır. Bakhila'nın önceki olumlu eşleşmedeki verme yuvasının karşısına yerleşmesi (92:5), değişenin kişi değil eylemin yönü olduğunu gösterir: bir yerde eldeki dışarı bırakılırken burada dışarı çıkması beklenen içeride tutulur.
+
+İki fiilin arasındaki ikinci {ar:وَ, tr:wa, gloss:ve} hem bir ses köprüsü hem de açık bir dilbilgisi işareti olur. Kısa bağlaç, {ar:بَخِلَ, tr:bakhila, gloss:eldeki varlığı haksız yere esirgemek} ile {ar:ٱسْتَغْنَىٰ, tr:istaghnā, gloss:kendini yeterli saymak}'yı aynı {ar:مَنۢ, tr:man, gloss:kim/kimse} öznesine taşır ve iki tamamlanmış etken yüklemi tek başlık altında koordine eder; iki eylemin ayrı ayrı duyulmasını da korur. Bu wa'nın önceki olumlu çiftteki iç bağlaç yuvasını karşılaması (92:5), iki olumsuz fiili ortak bir iskelet içinde karşılaştırılabilir kılar; fiiller aynı anlama indirgenmez. Dışarıya dönük esirgeme ile içteki yeterlilik iddiası aynı kişinin ortak profiline bağlanır; aralarındaki kısa ses, üçüncü bir yüklem eklemeden iki yönü birlikte tutar.
+
+İkinci fiil bu iç yönü açar. {ar:ٱسْتَغْنَىٰ, tr:istaghnā, gloss:kendini yeterli saymak}, maddi bolluk ve ihtiyaçtan bağımsızlık alanını taşır; artırılmış biçimin tamamlanmış etken oluşu, yeterliliği dışarıdan kanıtlanmış bir mülk gibi değil, kişinin kendisine atfettiği ya da kendisi için aradığı bir durum gibi kurar. İnsan öznenin kendisine atfettiği bu yeterlilik, aynı anlam alanındaki ilahî mutlak yeterlik diline dokunan bir ironi üretir; yüzeyin yerel aktörü yine insandır. Önceki olumlu çiftteki korunma ve bağlılık yönünün karşısına yerleştiğinde (92:5), burada iddia edilen ihtiyaçsızlık bağımlılık ve sakınma duruşunun karşı kutbu gibi duyulur. Fiilin geçişsiz kalması, bağımsızlığın kaynağını açık bırakır: para, insanlar, Allah ya da yükümlülükler arasından biri cümle tarafından seçilmez. Aynı biçimin insanın kendisini yeterli görmesine dair teşhisi keskinleştirdiği yankı (96:7), bu açıklamayı destekler; bu yankı 96:7'nin bütün bağlamını değil, aynı biçimin bu teşhisini taşır. Yoğun sessiz dizisi başlangıçta kapanma etkisi yaratırken sonundaki uzun â cümle sınırında dışarı doğru uzar; ses, yeterlilik iddiasının kenarını belirginleştirir ve beklenen cevabın askıda kalışını korur.
+
+İstaghnā'nın yeterlilik alanı, kişinin kendini ihtiyaçsız saymasının yanında bir şeyin başkasının ihtiyacını karşılayıp onun yerini tutabilmesini de düşündürür. Bu bağıntılı yüz 92:11'deki ayrı temasla görünür hâle gelir; odak fiilindeki yerel kullanım ise öznenin kendine yeterlik iddiasını taşır. {ar:يُغْنِى عَنْهُ, tr:yuğnî anhu, gloss:onun yerini tutup yarar sağlar} ifadesi, {ar:مَالُهُۥٓ, tr:mâluhû, gloss:onun malı} ve {ar:تَرَدَّىٰٓ, tr:teraddâ, gloss:düşüp yıkılma} ile birlikte kişinin yeterli saydığı şeyin gerçekten onun yerine cevap verip veremeyeceğini sorar (92:11). Elde tutulan servet bir destek ya da vekil gibi beklenebilir; düşüş anında bu işlevi yerine getirememesi, sahip olma iddiası ile gerçek yarar arasındaki farkı açar. Böylece odak anlamı yerinde kalırken yeterlilik iddiasının fiilî etkisi ileriye dönük bir sınamaya girer. Aynı anlam ailesinin diğer kullanımları bu sınamayla başarısızlıkla damgalanmaz; Form X'in bu cümledeki yüzü doğrudan “vekil” adlandırmaz, vekil bağlantısını 92:11'deki olumsuzlama görünür kılar.
+
+## İçeride Kalan Yeterlik
+
+{ar:بَخِلَ, tr:bakhila, gloss:eldeki varlığı haksız yere esirgemek} dışarı çıkması gereken kaynağı içeride tutar; {ar:ٱسْتَغْنَىٰ, tr:istaghnā, gloss:kendini yeterli saymak} ise bu kapanmayı kişinin kendine yeterlilik gerekçesi olarak kurar. Bakhila'nın alıkoyduğu kaynak kapalı sınırı, istaghnā'nın maddi bolluk ve çok mala sahip olma yönü bu sınırın görünür dayanağını sağlar. İhtiyaçların bulunmadığı ya da azaldığı yönü de alıkoymayı yalnızca elde tutma değil, ihtiyaçtan kurtulmuş görünme hareketi olarak derinleştirir. İki fiil birlikte kapalı bir düzen kurar; hangi hareketin ötekini doğurduğu açık bırakılır.
+
+Bu kapalı düzenin ikinci hareketinde, eldeki varlık reddedilmiş bir ilişki veya desteğin yerine geçen bir vekil gibi görünür. {ar:بَخِلَ, tr:bakhila, gloss:eldeki varlığı haksız yere esirgemek} öznenin denetiminde tutulan şeyi alıkoyma hareketini taşırken, {ar:ٱسْتَغْنَىٰ, tr:istaghnā, gloss:kendini yeterli saymak}'nın yeterli olma ve yerini tutma yönü bu alıkoymayı vekili koruyan bir sınır gibi gösterir. Tutulan şey böylece dışarıdaki ihtiyacı karşılayacak yeterli bir unsurmuş gibi görünür. Belirli bir nesne veya alıcı tayin edilmez, toplumsal bir değiştirme olayı kurulmaz ve bu vekilin her ihtiyacı gerçekten karşılayacağı söylenmez; bu sınırlar, yalnızca bu vekil bağlantısına aittir. Sıradan cimrilik ile kendini yeterli sayma anlamları korunurken, kapalı varlığın kişinin kendi yeterlilik iddiasını besleme biçimi görünür olur.
+
+İçeride kalan bu yeterlilik, örtü ile görünürlük arasındaki hareketten yeni bir yüz kazanır. {ar:يَغْشَىٰ, tr:yağşâ, gloss:örter} yükselen bir örtüyü (92:1), {ar:تَجَلَّىٰ, tr:tecellâ, gloss:açığa çıkar} ise onun karşısında görünür hâle geleni getirir (92:2). Örtme, bu âyetteki kendini yeterli gösterme iddiasının içeride kalan bir bağımlılığı gizlemesini; açığa çıkma ise örtülen şeyin görünür hâle gelmeye açık oluşunu düşündürür. {ar:بَخِلَ, tr:bakhila, gloss:eldeki varlığı haksız yere esirgemek}'nın haksız alıkoyması 92:1'deki örtmeyle buluştuğunda ilişkiyi içeri kapatan mühür gibi çalışır; {ar:ٱسْتَغْنَىٰ, tr:istaghnā, gloss:kendini yeterli saymak}'nın ihtiyaçtan bağımsızlık yönü 92:1 ile 92:2 arasındaki gerilime yerleşir. Bu bağ, kozmik fiillerin kendi sahnesini koruyarak 92:8'e bağlamsal bir görünüş ekler; cimrilik ile kendini yeterli sayma ana şart olarak yerinde durur.
+
+Yakın bağlamdaki yaratma düzeni, yeterlilik iddiasına ilişkisel bir kenar ekler. {ar:وَمَا خَلَقَ ٱلذَّكَرَ وَٱلْأُنثَىٰٓ, tr:ve mâ haleka'z-zeker ve'l-ünsâ, gloss:erkeği ve dişiyi yaratana} bir yaratma düzenini; {ar:ٱلذَّكَرَ, tr:ez-zeker, gloss:erkek} ile {ar:ٱلْأُنثَىٰ, tr:el-ünsâ, gloss:dişi} ise o düzen içindeki açık karşılıklılığı gösterir (92:3). İki tarafın yan yana durması, bir tarafın ötekinden koparak tamamlanması fikrine direnç verir. Bu sahnede {ar:بَخِلَ, tr:bakhila, gloss:eldeki varlığı haksız yere esirgemek} iki taraf arasında geçmesi beklenen şeyi geçirmeme hareketini; {ar:ٱسْتَغْنَىٰ, tr:istaghnā, gloss:kendini yeterli saymak} ise başkasına ihtiyaç duymadığını ilan ederek kendisini kurucu ilişkiden çekme teşebbüsünü görünür kılabilir. Yaratma fiilinin açtığı düzen, yeterlilik iddiasını kendi kendine kurulmuş bir başlangıçtan çok, zaten verilmiş farklılıkların içine yerleştirir. Bu bağlantı 92:3'ün sınıflama ihtimalini korur; yalnızca bu âyetteki yeterlilik iddiasına dışarıda kalma kenarı ekler.
+
+## Davranışın Yola Dönüşmesi
+
+İlişki kenarı, davranışın zaman içinde nasıl bir güzergâh kazanabileceği sorusuna açılır. Çabaların birbirinden ayrıldığını bildiren çerçeve (92:4), iki farklı hareketin zeminini hazırlar. Bir tarafta {ar:أَعْطَىٰ, tr:a'tâ, gloss:verdi} eldeki şeyi bırakmayı (92:5), {ar:صَدَّقَ بِٱلْحُسْنَىٰ, tr:saddaka bi'l-husnâ, gloss:güzel olanı doğruladı} iyiyi gerçek saymayı (92:6), {ar:فَسَنُيَسِّرُهُۥ لِلْيُسْرَىٰ, tr:fe-senüyessiruhû li'l-yusrâ, gloss:onun için kolay yolu hazırlayacağız} ise bu yönün kolaylaşan güzergâhını kurmayı gösterir (92:5, 92:6, 92:7). Karşı yönde bu âyetin {ar:بَخِلَ, tr:bakhila, gloss:eldeki varlığı haksız yere esirgemek} ve {ar:ٱسْتَغْنَىٰ, tr:istaghnā, gloss:kendini yeterli saymak} çifti, eldeki stokun dışarı dönmeden yeterli sayıldığı iç gerekçeyi kurar; ardından {ar:كَذَّبَ بِٱلْحُسْنَىٰ, tr:kezzebe bi'l-husnâ, gloss:güzel olanı yalanladı} iyinin gerçekleşmeyeceğine dair reddedilmiş öngörüyü (92:9), {ar:فَسَنُيَسِّرُهُۥ لِلْعُسْرَىٰ, tr:fe-senüyessiruhû li'l-usrâ, gloss:onun için zor yolu hazırlayacağız} ise zorlaşan güzergâhı kurar (92:10). Bu sırayla cimrilik ve kendini yeterli sayma, durağan bir karakter resminden yaşanan bir öngörüye ve tekrarlandıkça yerleşen bir yola dönüşebilir; 92:5'teki verme ve 92:6'daki doğrulama, bu dönüşümün karşısındaki bırakma ve iyinin gerçekleşebileceğine dair beklentiyi gösterir.
+
+Bu karşılıklı sıra, 92:7'deki kolaylaştırmayı vermenin açtığı düşük sürtünmeli güzergâh olarak; 92:9'daki yalanlamayı ise esirgemenin dayandığı reddedilmiş öngörü olarak görünür kılar. 92:10'da aynı kolaylaştırma hareketi zor güzergâhta tekrarlandığında, ters yönün de giderek alışılmış hâle gelebileceği düşünülür. 92:4'teki ayrışmış çabalar iki hareketi ayrı tutar; 92:10'daki zorluk ve bükülme görüntüsü, alışkanlığın nasıl bir yola dönüşebileceğini sınırlar. Bu yakın diziliş, açık karşıtlığı ve iki farklı hareketin zaman içinde yön kazanmasını birlikte gösterir; inkârın doğrudan sebep, kolaylaştırmanın da yalnızca sonuç veya yalnızca alışkanlık olduğu kesinleştirilmez.
+
+Yolun nereye vardığı sorusu, vekil sınamasını başka bir maddi görüntüyle derinleştirir (92:11). {ar:تَرَدَّىٰٓ, tr:teraddâ, gloss:düşüş}nın zemini sınayan hareketi, eldeki servetin gerçekten güvenilir bir destek olup olmadığını açar. {ar:ٱسْتَغْنَىٰ, tr:istaghnā, gloss:kendini yeterli saymak} kelimesinin imkânları arasında bir yerde uzun süre kalma ve orada yaşama yönü bulunur; bu mekân anlamı Form X'in burada doğrudan seçtiği karşılık değildir. Yine de kendine yeterlilik iddiası {ar:بَخِلَ, tr:bakhila, gloss:eldeki varlığı haksız yere esirgemek}'nın içeride tuttuğu servetle buluştuğunda, malın duvarları ve içeriği olan bir kapanma alanına dönüşmüş gibi görünür. Kişi tuttuğu servetin içine yerleşmiş gibidir; düşüş, bu yerleşimin güvenilir bir zemine ve kalıcı bir eve sahip olmadığını açığa çıkarır. Bu daha uzak bir barınma benzetmesi olarak kalır; malın düşüş anında kişiyi kurtaramaması, hem vekil görüntüsünü hem de ev sanılan kapanmanın zeminsizliğini aynı sınırda belirginleştirir.
+
+Yol görüntüsünün yanında {ar:ٱسْتَغْنَىٰ, tr:istaghnā, gloss:kendini yeterli saymak}, daha temkinli ve uzak bir ses görüntüsüne de açılabilir. Kelimenin yerel biçimi maddi bolluk ve ihtiyaçtan bağımsızlık iddiasını kurar; sesle ezgi söyleme yönü bu yerel karşılığın yerine geçmez. 92:3'te erkek ve dişiyi adlandıran söz dizisi, {ar:صَدَّقَ بِٱلْحُسْنَىٰ, tr:saddaka bi'l-husnâ, gloss:güzel olanı doğruladı} ile {ar:كَذَّبَ بِٱلْحُسْنَىٰ, tr:kezzebe bi'l-husnâ, gloss:güzel olanı yalanladı} arasındaki iki değerlendirme kutbuyla buluştuğunda (92:3, 92:6, 92:9), yeterlilik iddiası kendini tekrar eden bir nakarat gibi duyulabilir. {ar:بَخِلَ, tr:bakhila, gloss:eldeki varlığı haksız yere esirgemek}'nın elde tutma davranışı bu sesin savunduğu kapanmaya maddi bir gövde verir; söz ağızda dolaşır, doğrulama ve yalanlama onun iki ayrı yönünü belirginleştirir. Bu, gerçek bir ezgi iddiası değil, temel cimrilik-kendine yeterlik okumasını taşıyan ve onun kendini ikna eden tekrarını görünür kılan akustik bir benzetmedir.
+
+Daha uzaktan beliren bir alternatif, {ar:سَعْيَكُمْ, tr:sa'yukum, gloss:çabanız} kelimesinin olağan çaba ve yönelme anlamıyla açılır. Bu çaba, {ar:بَخِلَ, tr:bakhila, gloss:eldeki varlığı haksız yere esirgemek}'nın dışarıya açılan bağı kapatması ve {ar:ٱسْتَغْنَىٰ, tr:istaghnā, gloss:kendini yeterli saymak}'nın hiçbir rehberliğe ya da desteğe ihtiyaç duymadığını söyleyen görünüşüyle buluşunca başıboş bir sürüklenmeye doğru eğilebilir. 92:4'te ayrışan çaba ile 92:10'da zor güzergâhın kolaylaştırılması, kararlı bir özgürlükten çok gözetimsizce kendi yönüne giden, sürtünmesi azalmış bir akış ihtimalini düşündürür. Burada sa'yukum'un olağan çaba anlamı korunur; terk edilmişlik, kelimenin yeni çevirisi değil, yalnızca bu bağlantının eklediği ihtimaldir. Bağlantı bu nedenle ana yeterlilik anlamına, ilişki kesildikten sonra özgürleşme ile terk edilmiş bir hareketin kolaylaşması arasındaki gerilimi ekler.
+
+## Ufkun Sıkışması
+
+Odaktaki çiftin çevresindeki zaman ve yön sözleri, bu kapanmayı daha geniş bir ufukta sınar. {ar:ٱلْهُدَىٰ, tr:el-hüdâ, gloss:yol gösterme} yönü açar (92:12); {ar:ٱلْءَاخِرَةَ, tr:el-âhire, gloss:sonraki olan} sonrayı, {ar:ٱلْأُولَىٰ, tr:el-ûlâ, gloss:ilk olan} ise ilk olanı birlikte öne çıkarır (92:13). İlk ve sonranın birlikte anılması, eldeki envanterin başlangıç ile sonuç arasındaki çizginin tamamı sayılamayacağını gösterir. Bu zaman ve yön çerçevesi içinde {ar:بَخِلَ, tr:bakhila, gloss:eldeki varlığı haksız yere esirgemek}'nın şimdi alıkoyduğu varlık henüz gelmemiş sonuçlara kapalı bir hâl kazanır; {ar:ٱسْتَغْنَىٰ, tr:istaghnā, gloss:kendini yeterli saymak} da maddi bolluk ve azalmış ihtiyaç çekirdeğini hidayetin açtığı yönün karşısında bütün ufuk yerine koyan bir iddia gibi duyulur. Bu bağlantının katkısı, mevcut malı ve kendini yeterli sayma iddiasını bütün zaman ve yön ufkunun yerine koyan bir tutumu görünür kılmasıdır. Bu, cimriliği zamansal bir yanılgı olarak düşünmeye izin veren bağlamsal bir genişlemedir; 92:12-13'teki sözler ilahî hükümranlığı da bildiriyor olabilir ve aktörün psikolojisi tek zorunlu açıklama hâline getirilmez.
+
+## Kalkanın Sınırı
+
+Zaman ufkunun daralması, elde tutulan kaynağın tehlikeye karşı özel bir kalkan sayılmasıyla da görünür olur. {ar:بَخِلَ, tr:bakhila, gloss:eldeki varlığı haksız yere esirgemek} paylaşılmayan kaynağı, {ar:ٱسْتَغْنَىٰ, tr:istaghnā, gloss:kendini yeterli saymak} ise bu kaynağı denenmiş bir güvenlik sayan kendine yeterlik iddiasını taşır. Sonraki uyarı dizisi bu kalkanın işlevini sınar: {ar:فَأَنذَرْتُكُمْ, tr:fe-enzertüküm, gloss:sizi uyardım} önceden bildirilen tehlikenin eşiğini kurar, {ar:نَارًا تَلَظَّىٰ, tr:nâran telazzâ, gloss:alevlenen ateş} büyüyen ve zarar veren tehdidi sahneye getirir (92:14). {ar:وَتَوَلَّىٰ, tr:ve tevellâ, gloss:arkasını döndü} arkasını dönmeyi ve yön değiştirmeyi söyler (92:16); {ar:ٱلْأَتْقَى, tr:el-etkâ, gloss:en çok sakınan} sıfatı sakınmayı güvenlikle ilişkilendirir ve {ar:يُجَنَّبُهَا, tr:yücennebühâ, gloss:ondan uzak tutulur} ateşten fiilen uzak tutulma sahnesini kurar (92:17). Bu iki hareketin ayrımı, yüzeysel yön değişikliğinin gerçek korunmadan farklı olduğunu gösterir. Odaktaki kendine yeterlik böylece denenmiş bir güvenlik değil, koruyucu işlevi henüz kanıtlanmamış bir kalkan gibi görünür. Sonraki fiillerin failin niyeti olarak okunması açık kalırken, gerçek korunmanın kaynağı kapatmakta değil tehlikeyle ilişkiyi değiştirmekte belirir.
+
+## Dışarı Açılan Değer
+
+Kalkan görüntüsünün karşısında, sonraki verme sahnesi koruma mantığını tersine çevirir. {ar:ٱلَّذِى يُؤْتِى مَالَهُۥ يَتَزَكَّىٰ, tr:ellezî yu'tî mâlehû yetezekkâ, gloss:malını verir, gelişip arınır} ifadesindeki {ar:يُؤْتِى, tr:yu'tî, gloss:verir} kişisel malın dışarı yönelmesini açıkça öne çıkarır (92:18). Bu dışa yönelen hareket, {ar:بَخِلَ, tr:bakhila, gloss:eldeki varlığı haksız yere esirgemek}'nın haksız alıkoymasına karşılık gelir: içeride tutulan varlık dışarı çıktığında nesneyi korumak yerine veren kişide bir değişimin malzemesi hâline gelebilir. {ar:يَتَزَكَّىٰ, tr:yetezekkâ, gloss:gelişir; arınır} çevresinde hem gelişme artışı hem arınma ve iyileşme yönü duyulur; dışarı verme ile temas ettiklerinde “azalma” görüntüsünü veren kişideki artışa çevirirler. {ar:مَالَهُۥ, tr:mâlehû, gloss:onun malı} bunun soyut bir cömertlik fikri değil, öznenin kişisel maddi varlığının aktarılması olduğunu somutlaştırır. Verme ile gelişme ve arınma arasındaki bağ açıkça kurulur; gelişmenin verme tarafından mı doğduğu, onunla mı kurulduğu, yoksa onun işareti mi olduğu açık bırakılır.
+
+Aynı sahne daha maddi bir akış resmiyle genişler. {ar:يُؤْتِى, tr:yu'tî, gloss:verir}'nin dışarıya verme yönü su yatağının ve yolunun açılmasına benzer bir başlangıç noktası sağlar; {ar:بَخِلَ, tr:bakhila, gloss:eldeki varlığı haksız yere esirgemek} ise o kaynağı bloke eden kapanmayı taşır. {ar:يَتَزَكَّىٰ, tr:yetezekkâ, gloss:gelişir; arınır}'nın gelişme yönü, akış ilerledikçe çoğalan sonucu ve veren kişide süren dönüşümü ekler. {ar:وَٱلنَّهَارِ إِذَا تَجَلَّىٰ, tr:vennehâri izâ tecellâ, gloss:gündüz açığa çıktığında} ifadesi açılma ve genişleme yönünü bağımsız bir görüntü olarak getirir (92:2); 92:18'deki verme ve büyüme ile birlikte duyulduğunda, kapalı elde duran değer görünür akışın karşısında belirir. Bu bağlantının sınırı da buradadır: bakhila sözlükte “bent” demek değildir ve her alıkoyma hidrolik bir süreç sayılmaz. Somutlaşan şey, 92:18'deki verme ve gelişme ile 92:2'deki açığa çıkmanın birlikte düşündürdüğü dolaşım imgesidir.
+
+## Karşılık Hesabının Dışında
+
+Verme sahnesi, kapalı yeterliliği bu kez bir karşılık hesabı üzerinden çevirir. {ar:وَمَا لِأَحَدٍ عِندَهُۥ مِن نِّعْمَةٍۢ تُجْزَىٰٓ, tr:ve mâ li-ehadin indehû min ni'metin tüczâ, gloss:ödenecek bir insan iyiliği bulunmayan} ifadesi, insandan gelen ve karşılığı ödenmesi gereken bir iyilik hesabını başlangıçta boşaltır (92:19). {ar:نِّعْمَةٍ, tr:ni'metin, gloss:iyilik; nimet} soyut bir değiş tokuşu değil, bir insanın daha önce sunduğu somut iyiliği; {ar:تُجْزَىٰ, tr:tüczâ, gloss:karşılığı ödenmek} ise borcun kapatılması dilini görünür kılar. Bu sahnede {ar:بَخِلَ, tr:bakhila, gloss:eldeki varlığı haksız yere esirgemek} değeri ilişkiden çekip içeride tutan kaydı, {ar:ٱسْتَغْنَىٰ, tr:istaghnā, gloss:kendini yeterli saymak} ise insan bağımlılığını gereksiz sayan yeterlilik gerekçesini taşır. Bunun karşısında {ar:ٱبْتِغَاءَ, tr:ibtigâe, gloss:arayarak isteme} aktarımın bir alacaklıyı susturmak için değil, aranan bir amaç yönünde yapıldığını açar; {ar:وَجْهِ رَبِّهِ, tr:vechi rabbihî, gloss:Rabbinin yüzü ve yönü} bu yönü insan borcundan Rabbinin rızasına ve yönüne çevirir (92:20). İnsan iyiliğinin borcunu hesaba katmayan 92:19 ile Rabbinin yüzünü arayan 92:20 yan yana geldiğinde, değer insanî denklik kurmak için değil daha yüksek bir amaç için dolaşıma sokulabilir. Bu bağlantı, her cimrilik eylemini işlemsel bir hesap saymaz; sonraki hoşnutluk da hesabın kendisi değil, ondan sonra gelen ayrı bir sonuç olarak kalır.
+
+Bu karşılıksız yöneliş, yeterliliğin zamanını da ayırır. {ar:وَلَسَوْفَ يَرْضَىٰ, tr:ve lesevfe yerdâ, gloss:ileride hoşnut olacaktır} geleceğe dönük bir hoşnutluk bildirir (92:21); bu hoşnutluk verme ve sonucundan sonra gelen, dışarıdan gelecek sonuca açık bir kapanış anıdır. Aynı yüzeyin {ar:يَرْضَىٰ, tr:yerdâ, gloss:hoşnut olur; kabul eder} yönü yalnızca bir tatmini değil, sonucu kabul edip ona açık kalmayı da düşündürür. Bu gelecek yönü, {ar:ٱسْتَغْنَىٰ, tr:istaghnā, gloss:kendini yeterli saymak}'nın şimdi elini kapatarak kendini yeterli saymasıyla karşı karşıya gelir: biri eldeki varlığa kapanarak edinilmiş erken yeterlilik iddiasıdır, diğeri aktarım ve sonuçtan sonra varılan hoşnutluk ve kabuldür. İki durumun zamanı ve yönü ayrı kalır; elde tutmanın hemen verdiği kapalı güven yerine, verme sonrasında dışarıdan gelen sonuca açık kalma hâli belirir.
+
+</editorial_prose>

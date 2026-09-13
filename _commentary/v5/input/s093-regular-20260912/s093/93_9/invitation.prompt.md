@@ -1,0 +1,187 @@
+# V5 reading invitation — 93:9
+
+You are a fresh reading-invitation writer. Read the complete editorial prose
+before writing. It is your sole semantic source.
+
+Write two to four paragraphs of fluent, contemporary Turkish that reveal a
+surprising reading by following one or two main channels of resonance in the
+ayah. A channel is a connected background of meanings, images, actions, or
+relations through which the ayah can be heard and understood differently.
+Several editorial findings may together develop one channel. Summarize that
+connected movement and its consequence for the ayah's main meaning, rather
+than compressing findings individually. Give the reading's substance now;
+the invitation comes from understanding it, not from a promise of hidden depth.
+
+Before drafting, read the entire editorial prose and silently select the one
+or two channels with the strongest interpretive consequence and enough
+grounding to explain clearly. Favor channels that expand or shift what the
+ayah says, the relation it establishes, or what is at stake in its action or
+image. One fully developed channel is sufficient; add a second only when it
+offers a distinct consequential reading that can be explained within the
+invitation. No finding, channel, or major shift has an individual coverage
+claim. Unselected material may remain entirely in the full commentary.
+
+A channel may develop through grammar, sound, dialogue, a material process,
+time, imagery, or a conceptual relation. Resonance is not limited to acoustic
+effects, and an unusual image alone does not establish a channel. Use only
+connections the editorial prose actually develops. If it supplies no such
+channel, explain its strongest grounded reading without inventing connections
+or surprise.
+
+Begin inside the ayah's own words, images, actions, or relations and reveal a
+selected distinctive reading in the first paragraph. Keep the plain meaning
+reachable with only the orientation needed to understand the change. Do not
+spend an opening paragraph on routine explanation or front-load context about
+the surah, the ayah's position, or the commentary project.
+
+For each selected channel, begin with the expression that opens it, unfold the
+connected background, and show how the ayah reads or sounds against that
+background. Let a detail lead into the next through an intelligible relation
+or process, so the reader experiences the emerging reading. This is a movement
+of thought, not a mandatory sentence pattern or one paragraph per finding.
+Let the reader identify the expression being interpreted,
+where any nonordinary detail comes from, and what that detail changes in the
+reading. Briefly identify the word-family use, restricted form, collocation, or
+context that supplies an essential added detail, and preserve the concrete
+operation that makes the image work. Keep the ordinary reading and necessary
+qualification clear within this explanation; do not repeat them as a fixed
+formula. Preserve the particular object, process, or relation that makes this
+reading distinctive, and state its interpretive consequence for the ayah as a
+whole. Make intelligible what the familiar reading leaves less visible and
+what the expanded or shifted reading now lets the reader understand. Preserve
+the editorial's force: an exploratory possibility remains possible, while a
+developed shift must not be softened into a decorative association or a
+reassurance that everything means the same thing. A concrete
+account of how something is carried, transformed, lost, or restored must not
+shrink to a general statement about care, guidance, dependence, or goodness.
+Keep the details needed to make the selected channel work; omit side findings
+and shorten routine setup. If a channel cannot be explained faithfully from
+the editorial prose, choose another grounded channel or reading.
+
+When a non-focus ayah supplies a contribution used in the invitation, keep its
+reference from the editorial prose beside that contribution.
+
+Do not turn the invitation into a miniature inventory of the commentary's
+conclusions, or flatten distinct channels into a broad theme to include more
+material. Do not repair, extend, or supplement the editorial prose from memory
+or outside knowledge.
+
+Omit technical apparatus. Retain any qualification, source distinction, live
+alternative, or boundary whose absence would change the force or meaning of a
+chosen reading. Express it naturally beside the image or relation it qualifies.
+Favor positive explanations of the relation between layers: what remains in
+the foreground and what the resonance makes audible in the background. State
+how that background reinforces, expands, or shifts the understanding of the
+main meaning, with the source and degree of certainty clear. Reserve explicit
+exclusions for concrete ambiguities or live counter-evidence that need them.
+Repeated "this is not X" endings make a reading sound withdrawn; express the
+substantive qualification through what the reading does contribute wherever
+possible. Use varied, natural language rather than a repeated "second layer"
+formula, and preserve the force of expansions and shifts.
+Do not name branches, candidates, findings, scopes, evidence categories,
+ledgers, or workflow stages, or label the prose as numbered channels. Do not
+list findings serially.
+
+Use the established `{ar:..., tr:..., gloss:...}` syntax, consistent
+Turkish-readable transliteration, and short ordinary glosses. Keep Arabic
+anchors beside the explanations they ground. Within a paragraph, continue with
+the Turkish meaning where clear; provide the necessary local tag when a later
+paragraph interprets the carrier anew. Do not place Arabic script outside a
+valid tag.
+
+Build transitions within a channel through its shared object, action, or
+relation. If two channels are selected, they may occupy separate paragraphs;
+do not invent a link between them. Do not praise the commentary's quality,
+promise what the reader will find, manufacture suspense, recap at the end, or
+add a call to action. End on an image, relation, action, or tension already
+established by the selected reading.
+
+Before finishing, compare the invitation with the entire editorial prose:
+does the chosen channel reveal a consequential reading, or could the text have
+been written from the ordinary translation and a modest explanation alone?
+When the editorial supports a surprising channel, the latter fails this task.
+Can the reader follow the opening expression into a connected background and
+understand how that background expands or shifts the ayah's main meaning?
+Check the selected connections against their editorial explanation: can the
+reader tell where the nonordinary details come from, with the necessary
+qualifications intact? Repair generic explanation, isolated curiosities, or a
+compressed findings list by developing the selected channel. Do not add
+omitted channels merely for coverage. Do not output this check.
+
+Write only the invitation text to:
+
+`_commentary/v5/editorial/s093-regular-20260912/s093/93_9/93_9.invitation.tr.md`
+
+Do not add a heading, wrapper label, index, ledger, evidence file, or any other
+artifact. Do not modify the editorial prose.
+
+After writing the invitation, run:
+
+```bash
+python3 _commentary/v5/validate_prose.py _commentary/v5/editorial/s093-regular-20260912/s093/93_9/93_9.invitation.tr.md
+```
+
+If validation fails, repair only the reported mechanical file-contract issues
+and rerun it, for at most two repair cycles. Report the final validator result
+in your response.
+
+<editorial_prose>
+## Sözü Vaka Olarak Açmak
+
+Ayetin yalın anlamı, önceki yardım ve nimet hatırlatmasından doğrudan bir davranış sınırına geçer: {ar:فَأَمَّا ٱلْيَتِيمَ فَلَا تَقْهَرْ, tr:fa-ammā al-yetīme fa-lā taqhar, gloss:öyleyse yetimi ezip boyun eğdirme}. Önceki sığınma, yol gösterme ve rızıklandırma anlatısının (93:6, 93:7, 93:8) ardından muhataba söylenen şudur: koruyucusunu yitirmiş çocuğa üstünlük kurarak onu ezme. Başındaki {ar:فَأَمَّا, tr:fa-ammā, gloss:öyleyse / ona gelince} bu buyruğu kopuk bir kural olmaktan çıkarıp alınmış bakımın davranışa dönüşen karşılığı olarak duyurur.
+
+{ar:أَمَّا, tr:ammā, gloss:ona gelince / vaka söz konusu olduğunda} yetimi hükümden önce ayrı bir vaka olarak öne çıkarır ve yapısı gereği bir cevap bekletir. Böylece önceki anlatıda yardımı alan ikinci tekil muhatap, şimdi davranışı düzenlenen sorumlu aktör olur. Beklenen cevap {ar:فَلَا, tr:fa-lā, gloss:öyleyse yapma} ile gelir. Aynı {ar:فَ, tr:fa, gloss:bağlayan fa} iki kez duyulur: ilki yeni bölümü açar, ikincisi adlandırılmış vakanın bağlayıcı karşılığını başlatır. Okunuşta {ar:أَمَّا ٱلْيَتِيمَ, tr:ammā al-yetīme, gloss:yetim söz konusu olduğunda} daha yumuşak bir bağla öne gelir; sertlik taşıyan {ar:تَقْهَرْ, tr:taqhar, gloss:üstün gelerek boyun eğdirmek} daha sonra duyulur. Dinleyici önce korunacak kişiyi, ardından ona yönelmesi yasaklanan baskıyı alır. Aynı ses biçiminin bu iki ayrı görevde tekrarı, vaka ile hükmü birbirine kenetleyen iki aşamalı bir ritim kurar.
+
+## Korunacak Kişi
+
+Sözü edilen kişi, {ar:ٱلْيَتِيمَ, tr:al-yetīme, gloss:yetim} kelimesinin bu ayetteki olağan anlamıyla, ergenliğe ulaşmadan babasını yitirmiş çocuktur. Belirli tekil biçim ve isim gibi kuruluş, adsız bir örnek yerine tanınabilir bir korunma statüsü kurar. 93:8'deki eksiklik ve korunmasızlık alanı burada somut bir kişiye dönüşür. Kelimenin cümlenin başına alınması, onu hükmün içine alınmış açık nesne olarak öne çıkarır. Yasak böylece adı önceden verilmiş kişinin üzerinde kurulabilecek doğrudan eyleme yönelir. Tekillik ve eşi bulunmazlık yönündeki sınırlı duyum, kişinin hem açıkta hem de kaybı telafi edilemez biri olarak daha keskin işitilmesini sağlar.
+
+Bu nesne ilişkisi, gücü kullanabilecek muhatapla maruz kalabilecek kişi arasındaki asimetriyi açar. {ar:تَقْهَرْ, tr:taqhar, gloss:üstün gelerek boyun eğdirmek} yetimi yönettiğinde, üstün tarafın karşısındakini aşarak onu boyun eğmiş ve güçsüz duruma getirmesini anlatır. Öne alınmış nesne, fiilin sonunda beliren kuvvet tarafından hâlâ yönetilir; yetim yalnız sözü edilen kişi değil, yasağın koruduğu yararlanıcıdır. Fiilin sonunda duran baskı, adı konmuş kişiye yönelen eylem olarak kapanır. Önceki bakım anlatısındaki rol, şimdi sorumluluğa çevrilir: yardım almış kişi, başkasına yönelebilecek gücü denetlenen kişidir (93:6, 93:7, 93:8).
+
+{ar:لَا, tr:lā, gloss:yasaklayan lâ} burada olmuş bir olayı bildiren olumsuzluk değil, muhatabın elindeki mümkün davranışı yöneten yasaktır; fiili cezmli hitaba sokar. {ar:لَا تَقْهَرْ, tr:lā taqhar, gloss:boyun eğdirme} ikinci tekil ve cezmli biçimiyle geçmişi raporlamaz, şimdi düzenlenen davranışa seslenir. Fiilin yalın birinci kalıpta gelmesi yasağı yalnız özel olarak yoğunlaştırılmış bir ezme biçimine bırakmaz; güç kullanarak boyun eğdirmenin sıradan eylem eşiğine kadar iner. Kökün üstün gelme anlamı, bu biçim, cezmli hitap ve fiilin son konumuyla birleşir. Açık ve uzayan {ar:لَا, tr:lā, gloss:yasaklayan lâ} önce, sert kapanışlı {ar:تَقْهَرْ, tr:taqhar, gloss:üstün gelerek boyun eğdirme} sonra gelir; son duyulan sertlik yetime değil, ondan esirgenmesi gereken harekete aittir.
+
+Bu fiilin ayetteki yöneten anlamı, insanın korunmasız yetime üstünlük kurarak onu boyun eğdirmesidir. Kur'an'daki kullanım dağılımının doğurduğu sınırlı karşılaştırmada, üstünlükle ilişkilendirilen güç ilahi adlandırmaların alanında başka bir bağlam taşırken burada insanın yetime yöneltebileceği eylem olarak yasaklanır. Karşılaştırmanın kapsamı gücün yönünü aydınlatır; yerel biçime ilahi adlar üzerinde bir yönetim anlamı yüklemez. Aktarımda birbirine yaklaşan sesler, baskının sert bir azarlama kenarını da işittirebilir. Bu ses yakınlığı, asıl {ar:تَقْهَرْ, tr:taqhar, gloss:üstün gelip boyun eğdirme} yüzeyinin anlamını sabit tutarak baskının sözle de hissedilebilecek yönünü sınırlı biçimde açar.
+
+Bu ayet, yetim vakasıyla başlayan ve rica eden kişi ile nimetin anılmasına ilerleyen dizinin ilk koruyucu halkasıdır (93:9, 93:10, 93:11). 93:10'da aynı olumsuz-cezmli kuruluş ikinci bir sınırı hazırlarken 93:11'de olumlu bir anma yönü açılır. Buradaki yasak kendi hükmünü tamamlar; sonraki ayetteki tekrar onu geri almaz, iki koruyucu sınıra art arda biçim verir. {ar:أَمَّا, tr:ammā, gloss:cevap bekleyen vaka} ile açılan durum soyut bir değerlendirmede bırakılmaz; {ar:فَلَا, tr:fa-lā, gloss:vakanın bağlayıcı cevabı} ile yapılmaması gereken belirli davranışta kapanır.
+
+## İlişkiyi Korumak
+
+93:6'da hatırlanan bulunma ve barınağa alınma, bu buyruğun geriye bağlanan bakım zeminidir. Önceden sığınacak yer bulmuş yetim, bulma, güvenli yere çekme, onarma, besleyip büyütme, tamamlama ve merhamet hareketleriyle şimdi yeniden görünür olduğunda, hatırlanan kurtarılma bugünkü etkin onarım sorumluluğuna döner. Koruyucusunu yitirmiş kişinin üzerinde ezici üstünlük kurmamak, önceki himayeyi geri ödenmesi gereken bir sorumluluk gibi duyurur. 107:2'de yetime yönelen itme, 89:17'de bakım eksikliği ve 90:15'te yakın yetime ulaşan besleme bu tersine dönüşü ayrı sahnelerden aydınlatır. Bu bağlantının katkısı, ayetin doğrudan sözlük anlamı içinde koruma görmüş kişi üzerindeki gücün sorumluluğa çevrilmesini görünür kılmaktır; kapsamı tam bir bakım programından ve genel bir merhamet envanterinden daha dardır.
+
+{ar:ٱلْيَتِيمَ, tr:al-yetīme, gloss:tek kalmış ya da eşi olmayan yetim} kelimesi, ebeveyn kaybının yanında eşlikçisiz ve tek başına kalmış bir varlık görüntüsünü de taşıyabilir. Bu duyumu 107:2'deki itme, 90:11'deki aşılması gereken sarp geçit ve 90:15'teki yakın yetime ulaşan besleme harekete geçirir. Bu bağlantının katkısı, yetimliği kaybedilmiş baba durumunun yanında karşılıksız ve desteksiz bırakılma hâli olarak da duyurmaktır. {ar:تَقْهَرْ, tr:taqhar, gloss:zayıfı üstünlükle boyun eğdirmek} içindeki güçsüzü aşağıya çeken üstünlükle buluştuğunda, tahakküm kişinin tanınma ve aidiyet içindeki yerini geri alan bir harekete dönüşebilir. 93:6'daki barınak hatırlatması bu yalnızlık duyusunu tanınma imgesiyle karşılar: sığınacak yer bulmuş kişi ilişki içinde tutulacak kişidir. Bu temas, bu taşıyıcıların bu sahnelerle buluştuğu yerel okumadır; ana korunma hükmünü genellenen bir kurala çevirmeden derinleştirir.
+
+Tek başına kalan varlık görüntüsü, taşıyıcı bir sedye veya destek aracı ve öne yön veren bir ön kısım görüntüsüyle de temas eder. {ar:ٱلْيَتِيمَ, tr:al-yetīme, gloss:ağırlığı taşınması gereken tekil kişi} böyle duyulduğunda, yalnız kalan kişinin ağırlığını taşıyan ve hareketine yön veren bir destek çerçevesi belirir. Bu bağlantının katkısı, korumayı saldırıyı durdurmanın yanında kişinin hareketini taşıyacak bir dayanak kurma biçiminde göstermektir. Somut destek resmi, kişinin ağırlığını ve ilerleyişini korumaya ayarlanır; sedye imgesi burada cenazeye değil, kırılgan hayatın yükünü taşımaya bağlanır ve olağan insan anlamını önde tutar.
+
+Bakımın ne zaman ulaştığı bu sorumluluğun ikinci ölçüsünü açar. {ar:ٱلْيَتِيمَ, tr:al-yetīme, gloss:iyiliğin geç ulaşabildiği yetim} için kaydedilen gecikme duyumu, 93:4'teki geleceğe açılan ufuk, 93:5'teki verme vaadi ve 93:6'daki hemen hatırlanan barınmayla buluşur. Bu bağlantının katkısı, bakımın varlığı kadar korunmasız kişiye erişme zamanını da görünür kılmaktır; geciken erişim kırılganlığı artırabilir. Bu duyum, gecikmenin her örneğini ezme hükmüne taşıyan genel bir kural olarak değil, bu bakım ilişkisinin zaman ölçüsü olarak kalır. Kuşluk sahnesindeki yumuşak sabır ve bekleme, {ar:تَقْهَرْ, tr:taqhar, gloss:zorlayıcı üstünlük} çevresindeki baskıyla karşılaşınca, kişiye nefes alacak zaman tanımayı bakım görevini ertelemekten ayırır. Yetimi aceleyle sıkıştırmamakla yükümlülüğü geciktirmemek birlikte tutulur.
+
+Zamanın yönü geriye çekilme görüntüsüyle de sınanır. {ar:تَقْهَرْ, tr:taqhar, gloss:topukları üzerinde geriye çekilmek} için verilen kullanım, kişinin geri gitmesini veya topukları üzerinde gerilemesini anlatabilir. Bu görüntü, ilk olandan sonra gelenin daha iyi oluşu, erteleme, başlangıç ve sonuca dönüş anlamlarıyla karşılaşınca yetimin bugünkü açıklığını kalıcı bir aşağı konuma kilitlememeyi önerir. 93:7'de yön ararken yol gösterilmiş kişinin yeniden tek bırakılıp geriye itilmesi bu duyuma karşıt bir hareket kurar. Gece yol alma, barış içinde vedalaşma, bir sonuca dönme ve sığınak çevresinde toplanma sahneleri ise ayrılıştan geri çekilmeye, oradan sığınağa uzanan hareketi yetim lehine çevirir. Bu bağlantının katkısı geri sürmeme yönünü görünür kılmaktır; kapsamı bu yerel harekette kalır ve fiili gerçek bir yolculuk, veda veya genel geri dönüş kuralına genişletmez.
+
+Bu nedenle destek, yalnız varılacak yeri değil, ilerleyişin temposunu da gözetir. Yavaşlama ve gecikme görüntüsü sallanarak yürüme, bir karşılaşma altında ezilip bunalma, destekle yürüme, güçsüz ve ağır hareket eden kişi ile sakin ve ölçülü duruş sahnelerine değdiğinde, korunması kesintiye uğramış kişinin hızını zorlamak yerine ona eşlik eden bir tempo belirir. Bu bağlantının katkısı, yetimin zayıflığını yeni bir istikrarsızlığa çevirmeden destekleyen bu tempoyu görünür kılmaktır; söz konusu bedensel görüntü burada bir yürüyüş bozukluğunu tanımlamaz. Yetimde dalgınlık veya görev eksikliği görüldüğünde bulma ve tanıma, kaybolmuş yön, nazikçe yol gösterme ve tehdit görüntülerini taşıyan rehberlik sahnesi (93:7) devreye girer. {ar:تَقْهَرْ, tr:taqhar, gloss:zorla boyun eğdirmek} ile karşılaşan bu rehberlik, düzeltmeyi aşağılamadan yapma imkânını açar; tehdit ihtimali, nazik yönlendirmenin neden ayrı bir seçenek olduğunu görünür kılar.
+
+Barınak görüntüsü iki yönlü bir sınama taşır. Karanlık ve örtü görünürlüğü azaltan özel bir alan kurduğunda, {ar:ٱلْيَتِيمَ, tr:al-yetīme, gloss:eşi olmayan yetim} ile {ar:تَقْهَرْ, tr:taqhar, gloss:örtü içinde boyun eğdirmek} arasındaki ilişki, örtülü alanın yetimi koruyan bir sığınak mı yoksa denetimi gizleyen bir kapatma mı olduğunu sorar. Bu ihtiyatlı bağın katkısı, korunmanın gizlilik içinde de koruyucu kalması gerektiğini görünür kılmaktır; gece burada tek başına zulüm olarak kurulmaz. Benzer biçimde, türü belirtilmemiş küçük hayvan görüntüsü dağa sığınan erkek dağ keçisi, sığınağa toplanma, bir hayvanı yuvasından yemle çıkarma ve yabanıl erkek sırtlan sahneleriyle temas eder. Daha güçlü olanın saklı ve korunmuş hayatı açık alana çekip denetlemesi ile sığınmak arasındaki fark görünür olur. Yetim burada av değil, yakalanmaya ve başkasının yararına açığa çıkarılmaya karşı korunacak kişidir; hayvan görüntüsü bu sınırlı benzetmenin taşıdığı farkı belirginleştirir.
+
+Sığınak ile başıboşluk arasındaki bu karşıtlık, sürdürülen bir toplulukta yer alma görüntüsüne açılır. Kuşluk öğününün ve erken otlamanın düzeni, verilen nimetle hoşnut kılınma vaadi, toplanmış sürü, damızlık için tutulan erkeğin devamlılığı, çölde başıboş kalmış hayvan ve yönünü yitirmiş, özellikle develer gibi otlayan hayvan görüntüleri {ar:ٱلْيَتِيمَ, tr:al-yetīme, gloss:topluluk içinde korunması gereken yetim} ile buluştuğunda, yetim sürdürülen hayatın korunması gereken bir üyesi gibi belirir. Bu bağlantının katkısı, ezmeme buyruğunu sahipsiz bir başıboşluğa düşmeyi önleyen topluluk bakımına doğru açmaktır. Hayvan görüntülerinin taşıdığı düzen, sürü ve başıboşluk karşıtlığı, insan yetiminin doğrudan anlamını koruyarak bu kişinin topluluk içindeki yerini somutlaştırır.
+
+Canlı topluluk görüntüsünden ayrı bir maddi soru açılır: Gücün düzenlediği şey nasıl tutulur? {ar:تَقْهَرْ, tr:taqhar, gloss:ezmek ve boyun eğdirmek} fiilinin sıradan zorla üstün gelme anlamı, kaplarda veya erzak torbasında düzenli biçimde istiflenmiş yiyecek, günlerce yaşlandırılan içeceği koruyan kap ve ok demeti gibi bir arada tutulan içerik görüntüleriyle karşılaşınca, güçsüz kişiyi keyfîce ele geçirilecek malzeme değil düzenli bir çerçevede korunacak yük olarak görmeye açılır. Bu maddi temasın katkısı, tutma hareketini kişinin iradesini yok eden el koymadan ayırıp dağılmayı ve keyfî el koymaya açılmayı önleyen bir bakım çerçevesi olarak duyurmaktır; insan yetimi ve ezmeme buyruğu bu çerçevenin zemininde kalır.
+
+Aynı fiilin zorla kavrayıp değiştiren kuvveti, tavada kızartma ve kuşluk yemeği, ateşin eti etkileyip suyunu dışarı salması ve kızgın taşlarla sütün kaynama noktasına getirilmesi sahnelerine değdiğinde, güç altında kalan kırılgan şeyi dönüştürüp içindeki kalanı çekip çıkaran bir süreç görünür. 4:10'da yetim malının ateş ve tüketimle ilişkilendirildiği sahne ile 93:3'teki yiyecek ve ateş çağrışımı bu resmi bağımsız olarak tetikler. Ateş-nem köprüsü, tahakkümü soyut bir sertlikten çok içerideki nemi çeken ve tüketen bir basınç gibi duyurur; geriye kalan para, emek, itiraf veya itaatin zorla çıkarılması ihtimalini keşifsel olarak görünür kılar. Bu analojik benzetmenin katkısı, yasağın maddi yüzünü canlandırmaktır; pişirme bu bağlantıda fiilin doğrudan sözlük anlamı veya bağımsız bir hukuk hükmü kapsamı taşımaz. Öğütme taşı görüntüsü ise aynı maddi alan içinde ayrı bir karşılaşma olarak kalır.
+
+Öğütme taşı görüntüsünde sert veya pürüzsüz basınç, külden ayrıştırılan alkaliyi yıkama ve bıçağı ya da kalbi parlatma işlemleriyle buluşur. Bir yüzeyi ezip tozlaştıran basınç ile onu temizleyip biçimini koruyarak parlatan bakım arasındaki fark belirginleşir. {ar:ٱلْيَتِيمَ, tr:al-yetīme, gloss:eşi bulunmayan tekil varlık} bu uzak görüntüde öğütülüp ortadan kaldırılacak artık değil, zararı giderilirken biçimi korunacak kırılgan bir hayat olarak görünür. Bu bağlantının katkısı, açıklık ve yetiştirmeyi yetimin kendine özgü biçimini koruyan bir bakım olarak göstermektir. Eşi olmayan varlığın zorla aynılığa sokulmaması bu uzak benzetmenin kapsamını belirler; olağan insan anlamı ve yetime yönelmiş yasak önde kalır.
+
+## Himayeyi Güce Dönüştürmemek
+
+Bu maddi benzetmelerden insan ilişkisine dönüldüğünde, babasını kaybetmiş çocuk görüntüsü gençlik ve yenilik taşıyan bir hayat, koruyucu aile ve üvey-aile ilişkileriyle buluşur. {ar:ٱلْيَتِيمَ, tr:al-yetīme, gloss:babasından koparılmış çocuk} burada biyolojik bir soy iddiası kurmadan, bir hane içinde alınması ve büyütülmesi gereken kişiyi görünür kılar. Rabbin bırakmadığı ve kalbinden uzaklaştırmadığı kişiye dair terk edilmeme, emanet, onarma ve büyütme hareketleri, yaşanmış kopuşu tekrarlamayan bir yetiştirme sorumluluğu kurar. {ar:تَقْهَرْ, tr:taqhar, gloss:üstün gelip boyun eğdirmek} bu bağlamda sahiplenip boyun eğdirmek yerine onarıp büyütmeye açılan karşı kutbu gösterir. Emanet ve yetiştirme burada kelimelerin doğrudan sözlük karşılığından çok, bu insan ilişkisine bağlanan bağlamsal sonuç olarak görünür.
+
+Velinin bugünkü otoritesi, çocuğu kalıcı olarak aşağıda tutmak yerine sonraki durumuna doğru yönelmelidir. Geçici açıklığı sonraki daha iyi olana bağlayan zaman karşılaştırması, yarar, sonuca dönüş, geçici idare ve yararlanıcının önceliği görüntüleriyle temas ettiğinde, mevcut gücün velinin rahatlığına değil yetimin gelecekteki iyiliğine ve kendi hareket alanına hizmet eden bir gözetim olarak anlaşılması önerilir. Bu genişlemenin ihtiyatı, “daha iyi” olanın kişisel bir teselli olabileceği ihtimalini ve yönetim bağlantılarının çözümlenmemiş yönlerini birlikte taşır. Verme, onarma, yetiştirme ve alıcının hoşnutluğu sahneleriyle buluşan {ar:ٱلْيَتِيمَ, tr:al-yetīme, gloss:koruması eksik çocuk} ile {ar:تَقْهَرْ, tr:taqhar, gloss:zorla almak ve boyun eğdirmek} arasındaki eşitsizlik, yardımın yararı güçsüz tarafa taşıyan yönünü görünür kılar. Bu bağlantı, karşılıklı rıza hakkında sınırlı bir duyumdur; yardımın her biçimini sözleşme olarak tanımlamaz.
+
+Gücün sorumluluğa çevrilmesinin karşıtı, fiilin başka temaslarında da görünür. {ar:تَقْهَرْ, tr:taqhar, gloss:üstün gelerek boyun eğdirmek} bir işte üstün gelme, karşılıklı çekişmede öne çıkma, birini sürüp uzaklaştırma, gizlice veya ansızın kapıp alma ve karşılıklı saldırmazlıkla çatışmayı durdurma görüntüleriyle buluştuğunda, zayıf tarafı aşağıya sabitleyen el koyma zincirinin nerede kesilmesi gerektiğini gösterir. Yetim bu zincirde rakip olarak değil, ondan korunması gereken güçsüz uç olarak görünür. Yetimin dalgınlıkla dikkat göstermemesi veya yükümlülüğün gerektiği kadar yerine getirilmemesi ihtimali ise temas etmeyen gece, el uzatmama, bırakıp gitme, hükmetme ve sahiplik, işleri düzeltip düzenleme sahneleriyle karşılaşınca iki zararı ayıran bir bakım ölçüsü kurar: görevden çekilmek ve üstünlükle ezmek, sorumluluğun iki ayrı ihlal biçimi olarak belirir. Bu bağlantının katkısı, dikkatli gözetimi açık zorlamayı kesmenin yanında işi gerektiği kadar yerine getiren bir sorumluluk olarak göstermektir; kapsamı genel bir yönetim teorisine uzanmaz.
+
+Bu ölçü, tek bir yetime nasıl davranıldığının topluluğun hafızasına nasıl yerleşebileceğini de düşündürür. Yetimin dikkat veya görev eksikliğiyle ilişkilenen görüntüsü, davranışın hikâyeye dönüşmesi, gidiş ve tutum, toplanmış kalabalık, bulunup yönlendirilen kişi ve nimetin anlatılması sahneleriyle buluştuğunda, dikkatli bakım iyi bir örnek, ihmal ise hatırlanan bir sapma olarak kamusal bir yön kazanabilir. Bu bağlantının katkısı, tekil bakımın topluluk hafızasında örnek veya sapma olarak yer edinebileceğini göstermektir. {ar:تَقْهَرْ, tr:taqhar, gloss:ezip küçük düşürmek} fiili burada kamusal anlatı için bir adlandırma almaz; her davranışın mutlaka hikâyeye dönüşmesi de bu yerel duyumun kapsamı değildir.
+
+Yetimin sessiz ihtiyacı, sesini duyuran kişinin ihtiyacıyla aynı sayılmadan yine de aynı güç ilişkisi içinde duyulabilir. 93:10'daki sesli istekte bulunan kişi, onu nazikçe içeri çeken hareket ve sertçe azarlayarak geri püskürten söz, {ar:ٱلْيَتِيمَ, tr:al-yetīme, gloss:sessizce açığa çıkan ihtiyaç} ile {ar:تَقْهَرْ, tr:taqhar, gloss:üstten ezici kuvvet} arasındaki yapıya temas eder. Bu bağlantının katkısı, ihtiyacın sesli ya da sessiz oluşundan bağımsız olarak ses ve bedenin de güç ilişkisi kurabildiğini göstermektir; iki kişinin ihtiyacı ayrı kalır. Yetim burada talep eden kişi gibi kovulacak biri değil, korunacak kişidir; sert azarlama ise maddi boyun eğdirmenin sözlü biçimi olarak atfedilmiş bir karşılaştırma halinde kalır.
+
+93:11'deki yumuşaklık, rahatlık ve esenlik ile sürekli onarma ve iyileştirme, nimeti görünür kılma sahneleriyle buluştuğunda, alınmış nimetin yetime gösterilen muamelede nasıl görünür olabileceği açılır. {ar:ٱلْيَتِيمَ, tr:al-yetīme, gloss:bakımı sınanan yetim} ile {ar:تَقْهَرْ, tr:taqhar, gloss:ezici üstünlük} arasından geçen bu duyumun katkısı, şefkati teşhire çevirmeden davranışı nimete tanıklık eden bir biçim olarak göstermektir. Nimeti anlatma buyruğunun sözlü anlatımı da kendi yerini korur; bakımın görünür hâli söze eşlik eder.
+
+Bağımlı olanla gücü elinde tutan arasındaki sınır, mal, geçim, emanet ve topluluk içindeki yer alanlarına kadar uzanır. Bulma, yoksulluk ve yeterlilik sırasını taşıyan “seni muhtaç bulup zenginleştirdi” sahnesi, {ar:ٱلْيَتِيمَ, tr:al-yetīme, gloss:koruyucusunu yitirmiş çocuk} ile {ar:تَقْهَرْ, tr:taqhar, gloss:üstün gelip boyun eğdirmek} arasındaki ilişkiye bağlandığında, geçim ihtiyacının sağlayıcının keyfî gücünü artırmak için değil azaltmak için karşılanması gerektiğini düşündürür. 4:2'de yetim malına el koymama, 4:6'da malı sınayıp olgunlukla devretme, 17:34'te yetimin malı ve emanet gözetimi, 18:82'de olgunluğa kadar korunan gizli yetim malı, 90:14'te besleme ve 90:15'te yetime bakım sahneleri bu yönü ayrı bağlamlarda belirginleştirir. Bu sahnelerin katkısı, himaye yetkisinin tüketim veya zorlamaya çevrilmemesi yönünü mal, geçim, emanet ve topluluk içindeki yerle birlikte göstermektir. Burada kurulan okuma tam bir hukuk envanteri değil, yetimin maddi açıklığını yoksulluğun kaldıracı yapmadan yeterliliğe doğru ilerlemesine yer açan temkinli bir sınırdır; ayetin fiili de yetimi boyun eğmiş ve güçsüz bırakan üstünlüğün önünü keser.
+
+</editorial_prose>

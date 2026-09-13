@@ -1,0 +1,205 @@
+# V5 reading invitation — 88:6
+
+You are a fresh reading-invitation writer. Read the complete editorial prose
+before writing. It is your sole semantic source.
+
+Write two to four paragraphs of fluent, contemporary Turkish that reveal a
+surprising reading by following one or two main channels of resonance in the
+ayah. A channel is a connected background of meanings, images, actions, or
+relations through which the ayah can be heard and understood differently.
+Several editorial findings may together develop one channel. Summarize that
+connected movement and its consequence for the ayah's main meaning, rather
+than compressing findings individually. Give the reading's substance now;
+the invitation comes from understanding it, not from a promise of hidden depth.
+
+Before drafting, read the entire editorial prose and silently select the one
+or two channels with the strongest interpretive consequence and enough
+grounding to explain clearly. Favor channels that expand or shift what the
+ayah says, the relation it establishes, or what is at stake in its action or
+image. One fully developed channel is sufficient; add a second only when it
+offers a distinct consequential reading that can be explained within the
+invitation. No finding, channel, or major shift has an individual coverage
+claim. Unselected material may remain entirely in the full commentary.
+
+A channel may develop through grammar, sound, dialogue, a material process,
+time, imagery, or a conceptual relation. Resonance is not limited to acoustic
+effects, and an unusual image alone does not establish a channel. Use only
+connections the editorial prose actually develops. If it supplies no such
+channel, explain its strongest grounded reading without inventing connections
+or surprise.
+
+Begin inside the ayah's own words, images, actions, or relations and reveal a
+selected distinctive reading in the first paragraph. Keep the plain meaning
+reachable with only the orientation needed to understand the change. Do not
+spend an opening paragraph on routine explanation or front-load context about
+the surah, the ayah's position, or the commentary project.
+
+For each selected channel, begin with the expression that opens it, unfold the
+connected background, and show how the ayah reads or sounds against that
+background. Let a detail lead into the next through an intelligible relation
+or process, so the reader experiences the emerging reading. This is a movement
+of thought, not a mandatory sentence pattern or one paragraph per finding.
+Let the reader identify the expression being interpreted,
+where any nonordinary detail comes from, and what that detail changes in the
+reading. Briefly identify the word-family use, restricted form, collocation, or
+context that supplies an essential added detail, and preserve the concrete
+operation that makes the image work. Keep the ordinary reading and necessary
+qualification clear within this explanation; do not repeat them as a fixed
+formula. Preserve the particular object, process, or relation that makes this
+reading distinctive, and state its interpretive consequence for the ayah as a
+whole. Make intelligible what the familiar reading leaves less visible and
+what the expanded or shifted reading now lets the reader understand. Preserve
+the editorial's force: an exploratory possibility remains possible, while a
+developed shift must not be softened into a decorative association or a
+reassurance that everything means the same thing. A concrete
+account of how something is carried, transformed, lost, or restored must not
+shrink to a general statement about care, guidance, dependence, or goodness.
+Keep the details needed to make the selected channel work; omit side findings
+and shorten routine setup. If a channel cannot be explained faithfully from
+the editorial prose, choose another grounded channel or reading.
+
+When a non-focus ayah supplies a contribution used in the invitation, keep its
+reference from the editorial prose beside that contribution.
+
+Do not turn the invitation into a miniature inventory of the commentary's
+conclusions, or flatten distinct channels into a broad theme to include more
+material. Do not repair, extend, or supplement the editorial prose from memory
+or outside knowledge.
+
+Omit technical apparatus. Retain any qualification, source distinction, live
+alternative, or boundary whose absence would change the force or meaning of a
+chosen reading. Express it naturally beside the image or relation it qualifies.
+Favor positive explanations of the relation between layers: what remains in
+the foreground and what the resonance makes audible in the background. State
+how that background reinforces, expands, or shifts the understanding of the
+main meaning, with the source and degree of certainty clear. Reserve explicit
+exclusions for concrete ambiguities or live counter-evidence that need them.
+Repeated "this is not X" endings make a reading sound withdrawn; express the
+substantive qualification through what the reading does contribute wherever
+possible. Use varied, natural language rather than a repeated "second layer"
+formula, and preserve the force of expansions and shifts.
+Do not name branches, candidates, findings, scopes, evidence categories,
+ledgers, or workflow stages, or label the prose as numbered channels. Do not
+list findings serially.
+
+Use the established `{ar:..., tr:..., gloss:...}` syntax, consistent
+Turkish-readable transliteration, and short ordinary glosses. Keep Arabic
+anchors beside the explanations they ground. Within a paragraph, continue with
+the Turkish meaning where clear; provide the necessary local tag when a later
+paragraph interprets the carrier anew. Do not place Arabic script outside a
+valid tag.
+
+Build transitions within a channel through its shared object, action, or
+relation. If two channels are selected, they may occupy separate paragraphs;
+do not invent a link between them. Do not praise the commentary's quality,
+promise what the reader will find, manufacture suspense, recap at the end, or
+add a call to action. End on an image, relation, action, or tension already
+established by the selected reading.
+
+Before finishing, compare the invitation with the entire editorial prose:
+does the chosen channel reveal a consequential reading, or could the text have
+been written from the ordinary translation and a modest explanation alone?
+When the editorial supports a surprising channel, the latter fails this task.
+Can the reader follow the opening expression into a connected background and
+understand how that background expands or shifts the ayah's main meaning?
+Check the selected connections against their editorial explanation: can the
+reader tell where the nonordinary details come from, with the necessary
+qualifications intact? Repair generic explanation, isolated curiosities, or a
+compressed findings list by developing the selected channel. Do not add
+omitted channels merely for coverage. Do not output this check.
+
+Write only the invitation text to:
+
+`_commentary/v5/editorial/s088-regular-20260912/s088/88_6/88_6.invitation.tr.md`
+
+Do not add a heading, wrapper label, index, ledger, evidence file, or any other
+artifact. Do not modify the editorial prose.
+
+After writing the invitation, run:
+
+```bash
+python3 _commentary/v5/validate_prose.py _commentary/v5/editorial/s088-regular-20260912/s088/88_6/88_6.invitation.tr.md
+```
+
+If validation fails, repair only the reported mechanical file-contract issues
+and rerun it, for at most two repair cycles. Report the final validator result
+in your response.
+
+<editorial_prose>
+{ar:لَيْسَ لَهُمْ طَعَامٌ إِلَّا مِن ضَرِيعٍ, tr:laysa lahum ṭaʿāmun illā min ḍarīʿin, gloss:onlar için dikenli bitkiden başka yiyecek yoktur} cümlesi, onlar için yiyecek bulunmadığını ve geriye tek bir kaynak kaldığını söyler: dikenli bir bitki. Açlık burada soyut bir durum olarak bırakılmaz; yiyecek adıyla açılan geniş alanın, sonunda sert ve düşmanca bir kaynağa kadar daraldığı bir mahrumiyet sahnesi kurulur.
+
+## Payın Önce Kapatılması
+
+Yokluk yiyecekten önce grubun üzerine yerleştirilir. {ar:لَهُمْ, tr:lahum, gloss:onlar için} öbeğinin öne alınması, önce kimin beslenme payını taşıdığını bildirir; ardından gelen {ar:طَعَامٌ, tr:taʿāmun, gloss:yiyecek} bu grup için açılan yiyecek alanını gösterir. {ar:لَيْسَ, tr:laysa, gloss:yoktur} kişi eki taşımayan kısa ve kişisiz bir başlangıçla bu ilişkinin geçerliliğini kaldırır. Böylece cümle yalnızca açlığı bildirmez; belirli bir grup için yiyecek ilişkisinin kapandığını kurar.
+
+Bu kuruluşta {ar:لَيْسَ, tr:laysa, gloss:yoktur} basit bir “yok” etiketi değildir. {ar:لَهُمْ, tr:lahum, gloss:onlar için} öne alınmış ilişki yüklemidir; {ar:طَعَامٌ, tr:taʿāmun, gloss:yiyecek} ise gecikmiş yalın özne olarak bu ilişkiye sonradan girer. Yazıda {ar:لَ, tr:la, gloss:ilişki işareti} ile {ar:هُمْ, tr:hum, gloss:onlar} ayrı öğelerdir; ses içinde sıkı {ar:لَهُمْ, tr:lahum, gloss:onlar için} öbeği, ilişkiyi ve etkilenen grubu tek bir yoksunluk vuruşunda birleştirir. {ar:لَ, tr:la, gloss:ilişki işareti} aitlik ya da tahsis bildirirken burada gruba yiyecek payı ayrılmayışını duyurur. Etkilenen çoğul zamir olan {ar:هُمْ, tr:hum, gloss:onlar}, daha önce tanınmış mahkûm grubu yeniden adlandırmadan onların üzerine düşen hükme döner; özne görevini {ar:طَعَامٌ, tr:taʿāmun, gloss:yiyecek} taşır. Çoğul grubun tekil ve belirsiz yiyecek adından önce gelmesi porsiyon hesabı yapmaz; birçok alıcıyı tek bir daraltılacak kategori karşısında toplar.
+
+{ar:طَعَامٌ, tr:taʿāmun, gloss:yiyecek} belirsiz tekil biçimiyle, grup için yokluk bildirildikten sonra yiyeceğin bütün alanını açar. Bu alan yenilecek maddeyi, beslenmeyi ve birine ayrılmış geçimi birlikte düşündürür; cümledeki taşıyıcı ise sonradan kaynağı daraltılacak somut bir yiyecek kategorisidir. Yiyeceğin tatma, yeme ve besleme kapasitesi {ar:مِن ضَرِيعٍ, tr:min ḍarīʿin, gloss:dikenli bitkiden} ile buluştuğunda tersine çevrilir: ad yiyecek olarak kalır, ondan beklenen bedensel alım ise başarısızlığa uğrar.
+
+{ar:لَيْسَ, tr:laysa, gloss:yoktur} ile {ar:طَعَامٌ, tr:taʿāmun, gloss:yiyecek}ın kurduğu olumsuz yiyecek predikasyonu, yokluğu önce gruba sonra yiyecek kategorisine bağlayarak sıradan bir açlık bildiriminden daha sıkı bir yapı kurar. Aynı olumsuzluk kalıbının yeniden duyulduğu (88:22) yerde de bir durumun bütün geçerliliğini kapatan bu kuruluş sezilir. Cümlenin düz anlamı bu sıkılık boyunca açıktır: onlar için yiyecek yoktur.
+
+## İstisnanın Sert Kaynağı
+
+{ar:إِلَّا, tr:illā, gloss:ancak / dışında} geniş yiyecek yokluğunu tek bir kaynak çevresinde toplar. Parçacık ilk anda bir çıkış alanı açar; sonuna gelen {ar:ضَرِيعٍ, tr:ḍarīʿin, gloss:dikenli bitki} bu alanı yoksunluğun düşmanca kalanı ile doldurur. İstisnanın katkısı, kapalı yiyecek hükmü içinde kalan son sınırı görünür kılmaktır.
+
+{ar:إِلَّا مِن, tr:illā min, gloss:ancak ...den} istisna ile kaynağı tek bir kısıtlama hareketinde birleştirir: yiyecek reddi doğrudan kaynak öbeğine bağlanır. {ar:إِلَّا, tr:illā, gloss:ancak / dışında} çekim almayan bu parçacık gücünü, reddedilen yiyecek ile kaynak arasındaki konumundan alır; {ar:مِن, tr:min, gloss:-den / kaynağından} de son adı yiyeceğe eşit ikinci bir isim değil, yiyeceğin maddesi ve kaynağı olarak yönetir. Bu öbek {ar:طَعَامٌ, tr:taʿāmun, gloss:yiyecek}ın kapsadığı kalanı ve bütün yokluk cümlesinin sınırını birlikte daraltır. {ar:مِن, tr:min, gloss:-den / kaynağından} son sert kaynağa varmadan önce bir vuruşluk gecikme yaratır; aynı kaynak işaretinin düşmanca içecekten sonra (88:5) yiyeceğe yönelmesi, ihtiyaç türünü değiştirirken cezalandırıcı kaynağı adlandırma işini sürdürür.
+
+Son söz olan {ar:ضَرِيعٍ, tr:ḍarīʿin, gloss:dikenli bitki}, türü kesinleştirilmeyen fakat somutluğu güçlü bir bitki adıdır. Kuruluk, kırmızılık ya da kötü koku ayrıntıları bu sertliği renklendirebilir; türün kesinliği bu ayrıntıların ötesine taşınmaz. Kelime, {ar:مِن, tr:min, gloss:-den / kaynağından} tarafından yönetilen mecrur bir kaynak adı olarak, {ar:طَعَامٌ, tr:taʿāmun, gloss:yiyecek}ın eş anlamlısını değil kaynağını gösterir. Ağır başlangıç sesi ve kapanan son ses, açık yiyecek akışının sert kaynakta yutulup kapanmasını işitsel olarak destekler. Çoğul alıcılar {ar:هُمْ, tr:hum, gloss:onlar} ile görünürken kaynak tekildir; birçok kişi için tek ve ayrışmamış bir yiyecek kalanı belirir. Mahrumiyet böylece sıradan bir yiyecek adında dağılmadan, nadir ve somut bir bitki adına yoğunlaşır.
+
+Bu bitki adının yakın kullanımlarla taşıdığı sıkıntı, alçalış ve ihtiyaç baskısı, somut dikenli kaynağın arka planını koyulaştırır. {ar:ضَرِيعٍ, tr:ḍarīʿin, gloss:dikenli bitki} burada {ar:مِن, tr:min, gloss:-den / kaynağından} tarafından yönetilen tüketilen madde olarak kalırken, besleme organını ve sütü düşündüren yönü normalde besleyen bir kaynağın sert ve başarısız bir alım kaynağına dönüşmesini duyurur. Düşmanca içeceğin ardından cezalandırıcı envanter sürer (88:5); yiyeceğin bedeni düzeltememesi de bu kaynağın rahatlama üretmediğini açar (88:7).
+
+Bu kuruluş ifadeyi şimdiki zamanda kapanmış tek kaynaklı bir iaşe düzeni gibi duyurur: {ar:لَيْسَ لَهُمْ طَعَامٌ إِلَّا مِن ضَرِيعٍ, tr:laysa lahum ṭaʿāmun illā min ḍarīʿin, gloss:onlar için dikenli bitkiden başka yiyecek yoktur} bütünü, o anda geçerli olan beslenme imkânını bir bitki kalıntısına indirger. {ar:لَيْسَ, tr:laysa, gloss:yoktur} mevcut durumu kapatır; tekil belirsiz {ar:طَعَامٌ, tr:taʿāmun, gloss:yiyecek} bütün yiyecek alanını hüküm altına alır; {ar:إِلَّا, tr:illā, gloss:ancak / dışında} tek bir giriş bırakır; {ar:ضَرِيعٍ, tr:ḍarīʿin, gloss:dikenli bitki} kapalı alana türü sabitlenmemiş somut maddeyi yerleştirir. 69:36'daki dışlayıcı yiyecek kuruluşu bu kısıtlamaya biçimsel bir karşılık sunar; oradaki biçimbilgisinin buraya taşınması değil, yiyecek yerini dolduran maddenin bedensel işlevini yitirmesi önemlidir. 88:7'deki semirtmeme, yeterli hale getirmeme ve açlığı dindirmeme ölçütleriyle birlikte kategori korunur, işlev çekilir: madde yiyecek adı altında kalır, yiyeceğin bedeni onarma işi kapanır.
+
+## Bedene Ulaşmayan Besin
+
+88:1'de açılan ve meydana gelen şeyi kuşatan olayın ölçeği bu kapalı yiyecek hükmüne değdiğinde, cümle daha geniş bir gerçekleşme sahnesi kazanır. {ar:لَيْسَ, tr:laysa, gloss:yoktur} ile bildirilen durum yokluğu ve {ar:طَعَامٌ, tr:taʿāmun, gloss:yiyecek}ın geçim-pay yönü, başlangıçtaki olayın büyüklüğüyle buluşunca tek kötü yiyeceğe sahip olma görüntüsü kuşatıcı olayın içinde gerçekleşen bir geçim kapanması gibi görünür. Bu bağ olayın kısıtlamayı ürettiğini kurmaz; olay sahneyi çerçeveleyen bir başlangıç olarak da kalabilir. Odak cümlesine eklenen katkı, düz yiyecek hükmünü bu daha geniş ölçek içinde görünür kılmasıdır.
+
+Bu daha geniş ölçek bedene indiğinde 88:2'de yüzün görünür oluşuyla birlikte alçalmış ve boyun eğmiş bir duruş, 88:3'te çalışma ile bitkinlik, 88:7'de ise yağlanma, yeterlilik ve açlığın dinmesi ölçütleri belirir. {ar:طَعَامٌ, tr:taʿāmun, gloss:yiyecek}ın bedensel ihtiyaca cevap verme yönü bu çizgiye değdiğinde, {ar:ضَرِيعٍ, tr:ḍarīʿin, gloss:dikenli bitki}nin güçsüzlük ve cılızlık baskısı besinin beklenen onarımını geri çevirir. Aç bedenin durması yerine tükenmişliğin yeniden üretildiği bir alım döngüsü görünür: tüketilen şey bedeni toparlayan karşılık değil, zayıflığı sürdüren kaynaktır. Bu okuma, 88:2, 88:3 ve 88:7'deki unsurları tek bir ceza sahnesine eritmeden, aralarındaki beslenme işlevini odak cümlesine geri bağlar.
+
+{ar:ضَرِيعٍ, tr:ḍarīʿin, gloss:dikenli bitki}nin düz anlamındaki bitki, 88:4, 88:7 ve 88:14'teki bağlamla hayvanın yiyebileceği yem ve otlakta kalan kaynak olarak da görünür. Bu pastoral görüntü iki şeyi birlikte gösterir: dikenli bitki tüketilebilir bir madde olarak kalır, fakat ondan beklenen bedensel doluluk gelmez. Böylece yiyecek adının işlevsel başarısızlığı, zararlı ve besleyici olmayan yem ilişkisi içinde belirginleşir. Bu bağın kapsamı bitki türünü kesinleştirmeye ya da grubun hayvan olduğunu varsaymaya uzanmaz; katkı, odaktaki kaynağın besleyemeyen yem oluşudur.
+
+Daha dar pastoral okumada {ar:ضَرِيعٍ, tr:ḍarīʿin, gloss:dikenli bitki}nin meme ve sütlenmeyle ilgili yakın kullanımı, {ar:طَعَامٌ, tr:taʿāmun, gloss:yiyecek}ın hayvan iliğinde yağ belirmesi ve hafifçe semirme yönüyle buluşur; 16:66'daki hayvanlardan süt çıkması ve 23:21'deki hayvanî içecek ve yiyecek bu beklentiyi açar. Meme beklenen sütü, yiyecek sözü beklenen yağı ve doluluğu taşır. 88:7'deki semirtmeme hükmü bu dönüşleri durdurduğunda tek bitki, sütle ve semirmeyle sonuçlanması beklenen pastoral yolun sonunu kapatan bir karşılık gibi duyulur. Buradaki katkı, dikenli kaynağın düz bitki anlamı içinde kalarak bu dönüşüme ulaşamamasını göstermektir.
+
+Bu süt ve doluluk beklentisi 88:17'deki deve görüntüsüyle bedensel bir karşıtlığa dönüşür. Meme taşıyıcısı, 16:66 ve 23:21'de açılan hayvanî geçim yoluna bağlanır; 88:18'deki gök görüntüsü bu üretim beklentisinin üst çerçevesini açar; odaktaki olumsuzluk ise beklenen süt benzeri onarımı geri çeker. Böylece hayvanî geçimin ürününe ulaşması beklenen yolun yanında yine de beslemeyen tek bir pay kalır. Süt beklentisi burada bağlamsal yankıdır; {ar:ضَرِيعٍ, tr:ḍarīʿin, gloss:dikenli bitki} cümlenin taşıdığı dikenli bitki olarak kalır.
+
+Bu beklenti 88:17, 88:18 ve 88:20'deki üretim görüntüleriyle adım adım genişler: sürü ve ölçülü yaratılış canlı varlığı ve uygunluğu, gök üstteki alanı, yer ile bitkinin yayılması ise üretimin zemini ve gelişimini açar. Bu unsurlar hayvan, meme, süt ve toprak üzerinden yiyeceğe varması beklenen pastoral bir çevrim oluşturur. Odak cümlesinde ise üretken dönüşümlerin sonunda yalnız kuru ve düşmanca bitki kalır. {ar:طَعَامٌ, tr:taʿāmun, gloss:yiyecek} beklenen çıktıyı, {ar:ضَرِيعٍ, tr:ḍarīʿin, gloss:dikenli bitki} o çıktının besleyemeyen kalıntısını taşır; odak cümlesi böylece üretim yolunun başarısız son noktasını görünür kılar. Yaratılış, gök ve yer sahneleri kendi anlamlarını da taşıdığı için bu, odak cümlesine dönen nitelikli bir çevrimdir.
+
+## İhtiyacın Biçimleri
+
+{ar:ضَرِيعٍ, tr:ḍarīʿin, gloss:dikenli bitki} kelimesinin boyun eğme, güçsüzlüğünü kabul etme ve ihtiyacını gösterme yönündeki yakın kullanımları, sıkıntı karşısındaki alçalışla (6:42) ve güçsüz, etten düşmüş bedeni düşündüren karşıt tepkiyle (6:43) buluşur. Yiyeceğin semirtmediğini bildiren (88:7) çerçeve bu yakınlığı odak cümlesine taşır: tüketilen nesne yiyenin durumunu onaran değil, tükenişini geri veren bir madde gibi görünür. Yoksunluk böylece menüdeki bir maddeden bedene dönen ihtiyaç ve zayıflık haline gelir. Yakınlık, bitkiye insanî bir fiil yüklemeden, somut kaynağı ceza sahnesi içinde bedenin durumunu yansıtan bir unsur olarak renklendirir.
+
+Aynı boyun eğme ve ihtiyacı göstererek isteme yönü, tek yiyeceği yoksunluğun bedene bürünmüş bir yakarışı gibi duyurabilir. Sıkıntı, alçalma ve tepki karşıtlığı (6:42, 6:43), bedensel yetersizlikle (88:7) buluşunca tüketilen şey sessiz bir ihtiyaç olmaktan çıkar, bağımlılığı ve istemeyi görünür kılan bir biçim kazanır. Yakarış katkısı ayrı bir açlık ya da merhamet adı kurmaz; ayetin yakarma fiili kurmadan, ihtiyaç gösteren bedenin önündeki yiyeceğe bağımlılığını duyurur.
+
+Yiyecek sözü başlangıçtan yenebilirliğe uzanan bir zaman hareketi de açabilir. Meyvenin olgunlaşıp tat kazanmasını anlatan yakın kullanım, tazelik ve yenilik diye duyulan başlangıç işaretleriyle (88:1), öne çıkan ön kısımla (88:2, 88:8), taze başlangıçla (88:10) ve vaktine erişmeyle (88:5) buluşur. Böylece {ar:طَعَامٌ, tr:taʿāmun, gloss:yiyecek} başlangıçtan yenebilirliğe ilerleyen bir çizgi açar; {ar:ضَرِيعٍ, tr:ḍarīʿin, gloss:dikenli bitki} bu çizgide somut dikenli kaynak olarak kalır. Bu temas bitkinin gençliğini ya da belirli bir botanik türün olgunluk noktasını belirlemez; çevredeki başlangıç, öncülük ve tamamlanma işaretlerini yiyeceğin yenebilirlik kapasitesiyle buluşturur.
+
+Bu zaman çizgisi hazırlık eşiğine yaklaşan bir öğün görüntüsüyle kesişir. {ar:طَعَامٌ, tr:taʿāmun, gloss:yiyecek} tat kazanıp yenilebilirliğe yaklaşırken, {ar:ضَرِيعٍ, tr:ḍarīʿin, gloss:dikenli bitki} tencerede pişme eşiğinde duran bir öğün gibi duyulur. {ar:لَيْسَ, tr:laysa, gloss:yoktur} mevcut durumu kapatan olumsuzluğuyla yaklaşan beslenme ile gerçekleşmiş beslenme arasındaki geçişi keser. Ateşe uğrama ve etkin ısı (88:4) ile içirme ve tamamlanma sınırı (88:5) hazırlık sürecini kurar; bu sürecin sonunda beliren şey besleyicilik değil zarardır. Bu bağlantı, 88:4 ve 88:5'teki ateş ve içirme görüntülerini odak cümlesindeki askıda kalmış öğünle ilişkilendirir; her sahnenin kendi anlamı da korunur.
+
+## Emek, Rahatlık ve Pay
+
+{ar:طَعَامٌ, tr:taʿāmun, gloss:yiyecek} geçim, kazanç ve elverişli gelir yönüne açıldığında 88:3'teki çalışma, 88:9'daki etkin çaba ile memnuniyet karşılaştırması ve 88:12'deki kesintisiz akan kaynakla buluşur. Yiyecek bu temas içinde emekle ilişkilenen atanmış bir dönüş ve devam eden geçim karşılığı gibi görünür. İlk çalışmaya düşen dönüş ihtiyaç içindeki gruba verilmiş aşağılayıcı bir karşı-ücret, ikinci çalışmanın sonucu ise memnuniyet olarak belirir; odak cümlesinin tek payı bu iki zıt sonucun ilkine yaklaşır. Bağlamın katkısı, yiyecek kategorisini değiştirmeden aynı adın emek karşılığında iki farklı sonuçla nasıl renklendiğini göstermesidir.
+
+Aynı yiyecek sözü hayvanın iliğinde yağ belirmesini ve biraz semirmesini duyurduğunda, yağlanma ve sadeyağ görüntüleri (88:7) beslenmenin bedensel sonucunu somutlaştırır. Yumuşak ve rahat hayat ile gözün sevinçle karşılanması (88:8) bu sonucu alıcının haline yayılan bir huzur olarak tamamlar. Odak cümlesindeki tek yiyecek, bu beklenen doluluk ve rahatlığın karşısında duran kaynağı görünür kılar; temasın katkısı yağ ayrıntılarını çoğaltmak değil, yiyeceğin bedende ve alıcıda bırakması beklenen sonucu aydınlatmaktır.
+
+Bu rahatlık sahnesinde {ar:طَعَامٌ, tr:taʿāmun, gloss:yiyecek} başkasını besleme, {ar:ضَرِيعٍ, tr:ḍarīʿin, gloss:dikenli bitki} ise belirli bir malı belirli bir alıcıya sunup kullanıma açma yönünü görünür kılar. İyi durumdaki alıcı ve akan kaynak (88:8, 88:12) akışı, kullanıma hazır kap (88:14) alıcının önüne gelen biçimi, düzenli hizalanma (88:15) ile yerleşmiş yayılım (88:16) ise sunumun düzenini kurar. Odak cümlesindeki dikenli yiyecek bu hareketin bozulmuş karşılığı gibi görünür: aksama yalnız maddenin sertliğinde değil, sunma ve ulaştırma ilişkisindedir. Böylece yiyecek adının verici-alıcı katkısı belirir; sonraki eşyaların ödül tasviri olarak okunması da yerini korur.
+
+Payın bedeni düzeltmemesi, onu dönüş ve hesaplamaya girecek belirlenmiş bir kayıt gibi duyurur. Öne alınmış {ar:لَهُمْ, tr:lahum, gloss:onlar için} ile tek giriş bırakan {ar:إِلَّا, tr:illā, gloss:ancak / dışında} yapısı, {ar:طَعَامٌ, tr:taʿāmun, gloss:yiyecek}ın tahsis edilmiş pay yönüyle buluşur. Dönüş (88:25) bu tek payı son kayda geri getirilen bir giriş, sayma, hesaplama ve yeterlilik ölçütü (88:26) ise onu belirlenmiş fakat beslenme ölçüsüne ulaşmayan bir kayıt olarak çerçeveler. Bu katkı, odak cümlesindeki yoksunluğu ahlaki hesaplaşma alanına taşır; belirli bir dağıtıcıya hukuki pay atamaz.
+
+Hatırlatma görevi ile denetleyici yetkinin reddi (88:21, 88:22), odaktaki yiyecek ilişkisini insanın uyarı görevinden ayıran bir sınır çizer. {ar:طَعَامٌ, tr:taʿāmun, gloss:yiyecek} başkasını besleme ve doyurma imkânını taşıyabilir; insanın payına düşen ise uyarıyı duyurmaktır. Erzağın kimin tarafından dağıtıldığı ya da zorlandığı bu bağlamda açık bırakılır. 88:22'de yinelenen {ar:لَيْسَ, tr:laysa, gloss:yoktur} denetim yetkisinin bulunmadığını daha açık duyurur; iki olumsuzluğun birbirinden bağımsız kuruluşlar olarak okunması da mümkündür. Böylece insan sesi yiyecek idaresine taşınmadan, odaktaki yapısal zorlayıcılık yerinde kalır.
+
+Yüz çevirme ile nimeti örtme (88:23), {ar:طَعَامٌ, tr:taʿāmun, gloss:yiyecek}ın tahsis edilmiş pay yönünü {ar:ضَرِيعٍ, tr:ḍarīʿin, gloss:dikenli bitki}nin boyun eğme, ihtiyaç ve güçsüzlük yönüyle buluşturur. Tek erzak bu birleşmede rahatlatan bir pay olmaktan çıkarak reddedilmiş nimetin ihtiyaç ve tükeniş olarak geri dönüşünü duyurur; kıtlık yüz çevirme ile şekillenmiş bir karşılık kazanır. Bu karşılıklılık bağlamsal bir çıkarımdır; (88:23) odaktaki yiyeceğin maddi biçimini tek başına belirlemez ve cezalandırıcı bitki sahnesi bu dönüşün içinde canlı kalır.
+
+Ceza adlandırması (88:24), {ar:طَعَامٌ, tr:taʿāmun, gloss:yiyecek}ın yenilen ve açlığı gidermesi beklenen yönünü {ar:ضَرِيعٍ, tr:ḍarīʿin, gloss:dikenli bitki}nin cılız ve etten düşmüş beden yönüyle buluşturur. Yeme biçimi sürerken onu yiyecek yapan besleyici nitelikler çekilir ve beden tükenmeye devam eder. Tatlılık ile iyilik duygusu çekilir, yemekten uzak durma arzusu belirir, beslenme sütten kesilir gibi geri alınır; acı veren ceza da yeme eyleminin kendisine ulaşır. Böylece odak cümlesindeki başarısız beslenme, sonraki cezanın acı veren bir nesne olarak görünüşünü koruyarak yeme işlevinin geri alınışını da görünür kılar.
+
+Yiyecek sözüne değen daha özel bir bedenî birleşme görüntüsü de vardır. {ar:طَعَامٌ, tr:taʿāmun, gloss:yiyecek}ın ağızların birbirine doğrudan geçmesini düşündüren yakın kullanımı, evlilikle koruma ve yeterli kılma (88:7), örtme yönü (88:1) ve doğrudan akan kaynak görüntüsü (88:12) ile birleşme alanını açar. Böylece yiyecek adı evlilik, örtme ve ağız temasını bedenî ve toplumsal bir yakınlıkta bir araya getirir; bu katkı beslenme ile birleşme arasındaki tersine dönmüş ilişkiyi gösterir. Yiyeceğin niteliği cümlede sürer ve bu yakınlık bir evlilik emrine dönüşmez.
+
+## Daralan Görüntüler
+
+{ar:ضَرِيعٍ, tr:ḍarīʿin, gloss:dikenli bitki} kelimesinin güneşin batmaya yaklaşmasını ve gölgenin daralıp kısalmasını düşündüren yönü, gözden çekilen yıldız görüntüsü (88:2) ile kaynak ve göz çevresinde açılan görüntülere (88:5, 88:12) değdiğinde ışığın geri çekildiği bir küçülme hareketi kurabilir. Bu hareket, yiyecek hükmünü görünür alanın daraldığı bir alçalma görüntüsüne yerleştirir ve odaktaki sert kaynağın çevresini sıkıştırır. Buradaki yankının sınırı, bitkinin güneş ya da yıldız adına çevrilmemesidir; kaynak ve göz görüntüleri kendi anlamlarını taşırken dikenli kaynak ışığın çekildiği bağlamla renklenir.
+
+Daha mekanik bir temas, {ar:طَعَامٌ, tr:taʿāmun, gloss:yiyecek}ın boğazı elle kavrayıp sıkmayı, {ar:ضَرِيعٍ, tr:ḍarīʿin, gloss:dikenli bitki}nin ise ipi oluşturan bükümlü kolları düşündürmesiyle belirir. Yönlendirilmiş sürme hareketi (88:5) bu iki taşıyıcıyı birleştirdiğinde, dikenimsi yiyecek boğaza doğru itilen ve orada beslemek yerine sıkan ipliksi bir alım düzeneği gibi görünür. Bu keşifsel görüntü, odaktaki somut kaynak anlamına boğazda gerçekleşen sıkışma ve beslenememe katkısını ekler.
+
+İstisnanın biçimsel açıklığı, besin kategorisinin kenarına kayan başka bir ihtimali taşır. {ar:طَعَامٌ, tr:taʿāmun, gloss:yiyecek} bazı kullanımlarda içeceği de kapsayan geniş besin alanını, {ar:مِن, tr:min, gloss:-den / kaynağından} kaynak ilişkisini, {ar:ضَرِيعٍ, tr:ḍarīʿin, gloss:dikenli bitki} ise ince ve seyrek kıvamlı bir içecek kullanımını düşündürebilir. {ar:لَيْسَ, tr:laysa, gloss:yoktur} ile {ar:إِلَّا, tr:illā, gloss:ancak / dışında} kapalı yiyecek alanına biçimsel bir açıklık verir; içirme (88:5) ve kullanıma hazır kap (88:14) yiyecek ve içeceğin alıcıya ulaşan biçimlerini yan yana getirir. Bu temas tek kalan öğeyi, kategoriye geri dönen fakat onun merkezinde yer almayan ince bir alım gibi gösterir. İhtimal, bitkiyi içecek diye çevirmekten ziyade, yiyecek ve kaynak ilişkisinin sınırında beliren bu kategori kaymasını duyurur.
+
+Bu mekânsal sıkışmanın yanında, ayrı bir zaman temasında {ar:ضَرِيعٍ, tr:ḍarīʿin, gloss:dikenli bitki}nin batışa yaklaşma yönü 88:18'deki gök görüntüsü ve 88:25'teki dönüşle buluşur. Gök zamansal alanı açar, dönüş görüntüsü batışa yaklaşma hareketini yeniden dönüşle tamamlar; tek erzak böylece sona yaklaşma ve dönüş eşiğinde karşılaşılan bir pay gibi çerçevelenir. Bu keşif niteliğindeki bağ, düz yiyecek hükmündeki sert kaynağa zamanın bitiş eşiği katkısını ekler. Bitki burada güneş batışı adına dönüşmez; gök ve dönüş kendi anlamlarını taşır.
+
+</editorial_prose>

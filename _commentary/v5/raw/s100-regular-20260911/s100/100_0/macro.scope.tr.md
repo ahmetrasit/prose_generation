@@ -1,0 +1,1 @@
+{ar:بِسْمِ, tr:bismillâh, gloss:Allah'ın adıyla} başlanır: {ar:ٱللَّهِ, tr:Allâh'ın, gloss:Allah'ın} adı, {ar:ٱلرَّحْمَٰنِ, tr:er-Rahmân, gloss:merhameti kuşatan} ve {ar:ٱلرَّحِيمِ, tr:er-Rahîm, gloss:merhameti sürekli gösteren} nitelemeleriyle birlikte anılır. Böylece bu kısa açılış, merhameti sınırsız ve merhamet eden Allah'ın adıyla söze girer.

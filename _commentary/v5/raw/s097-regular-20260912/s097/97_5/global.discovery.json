@@ -1,0 +1,1051 @@
+{
+  "schema_version": "commentary-v5-scope-discovery-v1",
+  "ayah_ref": "97:5",
+  "lane": "global",
+  "coverage_complete": true,
+  "candidate_decisions": [
+    {
+      "candidate_id": "cand_a9af729d6c3577b592fe",
+      "decision": "accept",
+      "reason": "Güvenilir ve alıntılanabilir bulgu, odak taşıyıcısı سَلَامٌ ile 97:4'teki iniş ve işlerin şafak sınırına dek korunması arasında doğrudan bir süreklilik kuruyor.",
+      "finding_refs": ["global:protected-state"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_08752e6fd717128fe9ba",
+      "decision": "accept",
+      "reason": "Güvenilir güçlü destek, سَلَامٌ taşıyıcısının önceki inişin çatışmalı okumasını barış ve çatışmasızlık yönünde değiştirdiğini açıkça kuruyor.",
+      "finding_refs": ["global:peace-bearing-descent"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_a0ad4ce1cc634befcfa5",
+      "decision": "accept",
+      "reason": "Güvenilir güçlü destek, سَلَامٌ içindeki verme ve teslim etme dalını 97:1'deki ilk indirme, 97:4'teki izinli iniş ve emredilmiş işler arasında yetkili bir aktarım ilişkisi olarak kuruyor.",
+      "finding_refs": ["global:authorized-handover"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_9565a6aa170613af6ac6",
+      "decision": "accept",
+      "reason": "Güvenilir destek zayıf dereceli olsa da iki odak dalını ve önceki aşağı yönlü hareket ile doğuş sınırını gerçek bir geçit ilişkisi içinde bağlıyor; ilişki, sırf dal bulunabilirliğine dayanmıyor.",
+      "finding_refs": ["global:passage-to-dawn"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_3357393330707fc021fe",
+      "decision": "accept",
+      "reason": "Güvenilir güçlü destek, مَطْلَعِ ile الفجر arasındaki sınırı yalnız kronolojik saat değil, doğuş eylemi ve doğuş eşiği olarak kuruyor.",
+      "finding_refs": ["global:rising-threshold"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_a4f8d0e0c84a248abc22",
+      "decision": "accept",
+      "reason": "Güvenilir güçlü destek, مَطْلَعِ içindeki öğrenme ve bildirme dalını 97:2'deki bilgi eşiğiyle ve الفجر içindeki görünür doğuşla temas ettirerek kapanışı görünür kılma hareketine dönüştürüyor.",
+      "finding_refs": ["global:disclosure-at-dawn"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_8adacdead0998bb6d858",
+      "decision": "accept",
+      "reason": "Güvenilir güçlü destek, الفجر dalının yarılma ve dışarı akış çekirdeğini 97:4'te gece içinde yer alan inişlerle temas ettirerek şafağı üretken bir açılma noktası olarak kuruyor.",
+      "finding_refs": ["global:generative-break"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_482bc552cff4dcbe1e4b",
+      "decision": "reject",
+      "reason": "Adayın güvenilir desteği açıkça reject derecesi taşıyor; ayrıca B008'in istekle yönelme dalı doluluk mekanizmasını kurmuyor ve B005'in iyilik bolluğu dalı gece içinde maddi birikim ya da taşma için bağımsız bir taşıyıcı sunmuyor.",
+      "finding_refs": [],
+      "branch_exclusions": [
+        {"branch_ref": "root_000945/B008", "reason": "İstekle yönelme veya görünüp gizlenme çekirdeği, gecenin dolup taşması iddiasını taşıyan bağımsız bir mekanizma oluşturmuyor."},
+        {"branch_ref": "root_001132/B005", "reason": "İyilik ve verme bolluğu dalı mevcut olsa da bu adayın maddi birikimden şafakta taşma okumasına bağımsız biçimde bağlanmıyor; destek kaydı da adayı reject olarak derecelendiriyor."}
+      ],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_71761d98d52784e4240f",
+      "decision": "narrow",
+      "reason": "Legacy reader desteği, سَلَامٌ, مَطْلَعِ ve الفجر üzerindeki korunmuş süre ve barış taşıyan iniş çekirdeğini açıkça kuruyor. Kılıç gösterme kaydı ise adayda adlandırılmış olsa da bu pakette yalnız nominated olarak bulunuyor ve typed bir odak ya da seçili bağlam taşıyıcısı yok.",
+      "finding_refs": ["global:protected-duration"],
+      "branch_exclusions": [
+        {"branch_ref": "root_000823/B003", "reason": "Bu nominated kaynak dalının focus_root_occurrences alanı boş ve selected_context_units boş; bu nedenle kılıç gösterme dalı taşıyıcı olarak etkinleştirilemiyor."}
+      ],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_632dde3ce72ac1918aa6",
+      "decision": "narrow",
+      "reason": "Legacy reader desteği, سَلَامٌ içindeki başkasına verme ve teslim etme çekirdeğini iniş ve doğuş eşiğiyle birleştiriyor. İzin dalı nominated ve bu pakette odak ya da seçili bağlam taşıyıcısına sahip değil; korunmuş çekirdek B012 ile sınırlandırıldı.",
+      "finding_refs": ["global:handover-threshold"],
+      "branch_exclusions": [
+        {"branch_ref": "root_000022/B004", "reason": "İzin ve yetkilendirme dalı focus_root_occurrences içermiyor; destek metnindeki izin sözü, bu dal için typed carrier yerine yalnız bağlamsal sözlü kanıt sağlıyor."}
+      ],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_2e49c6b0298d9f83f543",
+      "decision": "accept",
+      "reason": "Legacy reader kaydı açıkça yarılma, gece içi kuşatma ve şafakta açılma mekanizması veriyor; iki odak dalı da typed taşıyıcıya sahip ve 97:3-4 ile kapanış sınırından bağımsız tetik alıyor. Merhamet ve rahim analojisi sonuçta sınırlı tutuluyor.",
+      "finding_refs": ["global:generative-dawn-release"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_0101f8eb0caed8ce89bf",
+      "decision": "accept",
+      "reason": "Legacy reader kaydı مَطْلَعِ için öğrenme ve bildirme ile insanın göz önünde belirmesi dallarını 97:2'deki bilgi sorusu ve şafakla ayrı taşıyıcılar üzerinden birleştiriyor; ortaya çıkan görünür kılma ilişkisi materially distinct.",
+      "finding_refs": ["global:disclosed-appearance"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_929caf464ed724486d66",
+      "decision": "narrow",
+      "reason": "Legacy reader kaydı, سَلَامٌ içindeki merdiven ve ulaştırıcı araç dallarıyla مَطْلَعِ içindeki yükselme yolu dallarını aşağıdan yukarıya dönen bir geçit olarak kuruyor. ن ز ل dalı nominated ve typed odak taşıyıcısından yoksun olduğu için dışarıda tutuldu.",
+      "finding_refs": ["global:vertical-passage"],
+      "branch_exclusions": [
+        {"branch_ref": "root_001492/B001", "reason": "Descent and alighting kaydı nominated durumunda, focus_root_occurrences boş ve selected_context_units yok; bu dal için attributed HFT trace de bulunmuyor."}
+      ],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_5b85a47f4ef59a950741",
+      "decision": "reject",
+      "reason": "Retrospective kayıt sonraki ayet bulunmadığını bildiriyor ve B012, bilgi açılması ve merhametli kuşatma okumalarını tek bir yeni mekanizma altında ayırmadan topluyor; bu nedenle tek bir bounded activation olarak yeniden temsil edilemiyor.",
+      "finding_refs": [],
+      "branch_exclusions": [
+        {"branch_ref": "root_000737/B012", "reason": "B012'nin handover çekirdeği authorized-handover ve handover-threshold bulgularında zaten bağımsız taşıyıcı ve tetiklerle ele alındı; retrospective özet yeni bir B012 ilişkisi kurmuyor."}
+      ],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_4f80db171380ea21135c",
+      "decision": "represented",
+      "reason": "Korunmuş aralık boyunca süren güvenlik iddiası global:protected-state bulgusunda aynı B001 taşıyıcısı, 97:4 tetikleyicisi ve şafak sınırıyla tam olarak taşınıyor.",
+      "finding_refs": ["global:protected-state"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_e1eac717f3ef70307f7d",
+      "decision": "represented",
+      "reason": "Barışın olası savaşçı inişi düzeltmesi global:peace-bearing-descent bulgusunda aynı B004 çekirdeği ve çatışma karşıtı tetikleyiciyle tam olarak taşınıyor.",
+      "finding_refs": ["global:peace-bearing-descent"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_97b4d3a572c9ddda1028",
+      "decision": "represented",
+      "reason": "Tamamlanmış handover zinciri global:authorized-handover bulgusunda aynı B012 çekirdeği, önceki indirme ve izinli iniş tetikleriyle tam olarak taşınıyor.",
+      "finding_refs": ["global:authorized-handover"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_de6c1b35055441eed9ab",
+      "decision": "represented",
+      "reason": "Aşağıdan yukarıya bağlanan geçit iddiası global:vertical-passage bulgusunda aynı B006 core/extension çifti ve مَطْلَعِ yükselme tetikleriyle exact duplicate olarak korunuyor.",
+      "finding_refs": ["global:vertical-passage"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_653a05ceca815325db45",
+      "decision": "represented",
+      "reason": "مَطْلَعِ için eylem, zaman ve yer eşzamanlılığı global:rising-threshold bulgusunda B001 core ve source-variant facetleriyle tam olarak taşınıyor.",
+      "finding_refs": ["global:rising-threshold"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_5ebfb54222752516ce8e",
+      "decision": "represented",
+      "reason": "Bilginin görünür açıklığa ulaşması global:disclosure-at-dawn bulgusunda B003 ve B002 taşıyıcılarıyla aynı soru-dawn ilişkisi içinde tam olarak korunuyor.",
+      "finding_refs": ["global:disclosure-at-dawn"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_e0ac6fafc6e8b4cd7510",
+      "decision": "represented",
+      "reason": "Gece içindeki kuşatmanın şafakta yarılıp açılması global:generative-break bulgusunda aynı B001 ve B002 dallarıyla, aynı açılma ve dışarı akış mekanizması içinde korunuyor.",
+      "finding_refs": ["global:generative-break"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_8107821381e866c8448f",
+      "decision": "accept",
+      "reason": "Legacy wide-reader kaydı exploratory olarak adlandırılsa da B007'nin sınırına kadar dolma taşıyıcısı ile B005'in taşarcasına verme taşıyıcısı aynı odak eşiğinde bağımsız tetiklerle temas ediyor; zayıf birikim oku, açık sınır ve karşı kanıtla görünür tutuluyor.",
+      "finding_refs": ["global:fullness-overflow"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_59b2ddfa6e689b180734",
+      "decision": "reject",
+      "reason": "Kayıt yalnızca pakette daha sonraki ayet bulunmadığını bildiriyor; taşıyıcı, bağımsız tetikleyici ve değişmiş anlam içeren bir global bulgu sunmuyor.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_f311f045af84a8403abd",
+      "decision": "reject",
+      "reason": "HFT özeti görünür olsa da legacy_unbound ve anchor_evidence'siz; ölçü, korunma ve handover'ı birden çok ilişki halinde topluyor, fakat exact carrier, independent trigger ve focus return vermiyor.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_838ef86fde737512b909",
+      "decision": "represented",
+      "reason": "Yetkili dispatch'in bütünlüğü HFT'de anchorsız özetlenmiş olsa da global:authorized-handover bulgusundaki B012, 97:1/97:4 aktarım zinciri ve 40:78 izin tetikleyicisi aynı semantic relation'ı eksiksiz taşıyor.",
+      "finding_refs": ["global:authorized-handover"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_28dffc9a892225728a8b",
+      "decision": "represented",
+      "reason": "Şafağın zaman sınırından görünür kılma eylemine dönüşmesi global:disclosure-at-dawn bulgusunda aynı B003-B002 bilgi ve görünürlük ilişkisiyle tam olarak taşınıyor.",
+      "finding_refs": ["global:disclosure-at-dawn"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_2b8a3186bbc65bc89043",
+      "decision": "reject",
+      "reason": "HFT 'what_was_special' kaydı, korunma, eşik, açıklık, yarılma ve bağlamsal ölçüyü tek bir üst özet halinde veriyor; exact carrier ve tekil mekanizma bulunmadığı için ayrı bir retained finding olarak temsil edilemiyor.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_d02e2dcf480567f10713",
+      "decision": "represented",
+      "reason": "مَطْلَعِ için eylem, zaman ve yer profillerinin pakette zorlanmaması global:rising-threshold bulgusunun F001 ve F003 aktarımlarında açık sınır olarak korunuyor.",
+      "finding_refs": ["global:rising-threshold"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_2db0af97fe02ef1c5d7c",
+      "decision": "reject",
+      "reason": "HFT uncertainty kaydı handover, restorative, vertical, performative ve ecological modelleri tek bir analoji listesinde topluyor; yeni bir carrier-trigger contact ya da değişmiş tekil okuma kurmuyor.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_4e1550d778ea9d1f8305",
+      "decision": "reject",
+      "reason": "HFT uncertainty kaydı, idari ve plenitude yönlerini reader-supplied arrow olarak niteliyor; bağımsız taşıyıcı veya yeni semantic relation sunmadığı için finding'e dönüştürülemiyor.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    }
+  ],
+  "findings": [
+    {
+      "finding_ref": "global:protected-state",
+      "origin_candidate_id": "cand_a9af729d6c3577b592fe",
+      "represented_candidate_ids": ["cand_4f80db171380ea21135c"],
+      "title": "Şafağa kadar korunan esenlik",
+      "claim": "سَلَامٌ, 97:4'teki iniş ve bütün işlerin gece içindeki hareketiyle temas ettiğinde, şafağa kadar süren korunmuş bir durum olarak okunur.",
+      "mechanism": "Odak taşıyıcısının kusur ve zarardan uzak esenlik dalı, 97:4'ün meleklerin inişi ve işlerin kapsamı ile birleşir; 41:30'daki inişle birlikte bu esenlik tek bir anın niteliği olmaktan çıkıp şafak sınırına uzanan aralığı kuşatır.",
+      "reader_payoff": "Esenlik sözü, önceki ayetteki iniş ve işlerin içinde bozulmadan süren bir gece aralığını görünür kılar.",
+      "containment": "Bu ilişki ayetin yalın esenlik ve barış zeminini korur; gece içindeki işlerin packet dışında ayrıntılarını veya esenliğin her bağlamda aynı dala ait olduğunu ileri sürmez.",
+      "epistemic": {
+        "status": "grounded",
+        "source_trust": ["trusted"],
+        "reason": "Citable trusted finding, focus carrier and supplied descent/protection parallel directly support the bounded protected-interval relation."
+      },
+      "support_ids": ["sup_f2935dcf67a7c68119fb"],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000737/B001",
+          "facet_id": "F001",
+          "branch_gloss": "kusur ve zarardan uzak esenlik",
+          "facet_statement": "Dış ve iç bozukluklardan, hastalıktan, kusurdan ve zarardan uzak olma durumudur.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["97:5:1:1"],
+          "trigger_refs": ["97:4", "41:30"],
+          "focus_return_refs": ["97:5:1:1"],
+          "carrier": "سَلَامٌ taşıyıcısı dış ve iç bozukluklardan, hastalıktan, kusurdan ve zarardan uzak olma durumunu taşır.",
+          "independent_trigger": "97:4'teki meleklerin inişi ve bütün işlerin gece içinde yer alması; 41:30'da inişin korkunun kaldırılması ve müjdeyle birlikte verilmesi.",
+          "activation": "Korunmuşluk dalı, iniş ve işlerin gece içindeki bağlamına döndüğünde esenliği tekil bir adlandırma değil, süren olay alanının koşulu haline getirir.",
+          "resulting_reading": "Esenlik, meleklerin inişini ve bütün işleri şafağa kadar kuşatan devamlı korunmuşluk olarak belirir.",
+          "boundary": "Bu aktivasyon packet dışında bir koruma ayrıntısı veya esenliğin her kullanımını etkinleştirmez."
+        }
+      ],
+      "connection_refs": ["conn_7c78553a6de51a4e8d87"],
+      "context_refs": ["97:4", "41:30"],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:peace-bearing-descent",
+      "origin_candidate_id": "cand_08752e6fd717128fe9ba",
+      "represented_candidate_ids": ["cand_e1eac717f3ef70307f7d"],
+      "title": "Barış taşıyan iniş",
+      "claim": "سَلَامٌ, önceki inişin çatışmalı bir seferberlik olarak açılabildiği yerde, aynı hareket alanını barış ve çatışmasızlık yönünde belirler.",
+      "mechanism": "Savaşın karşıtı barış dalı, 97:4'teki aşağı yönlü melek ve emir görüntüsüyle temas eder; 8:61'de çatışmadan barışa dönme örneği, bu taşıyıcının hareketi düşmanlık yerine barış taşıyan bir yön olarak yeniden çerçevelemesini sağlar.",
+      "reader_payoff": "İnişin yönü korunurken, ayetin kapanışındaki esenlik bu yönün taşıdığı sonucu barış olarak yeniden görünür kılar.",
+      "containment": "Bu bulgu 97:4'te fiilen savaş olduğunu söylemez; yalnızca B004'ün sağladığı karşıtlıkla çatışmalı ihtimali barış yönünde sınırlar ve selamlama ya da teslim dallarını etkinleştirmez.",
+      "epistemic": {
+        "status": "grounded",
+        "source_trust": ["trusted"],
+        "reason": "Trusted citable support states the non-martial change directly, and the supplied peace-against-conflict connection provides an independent trigger."
+      },
+      "support_ids": ["sup_288258532cbe41bf686a"],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000737/B004",
+          "facet_id": "F001",
+          "branch_gloss": "barış ve karşılıklı uzlaşma",
+          "facet_statement": "Savaşın karşıtı olan barış ve çatışmasızlık durumudur.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["97:5:1:1"],
+          "trigger_refs": ["97:4", "8:61"],
+          "focus_return_refs": ["97:5:1:1"],
+          "carrier": "سَلَامٌ taşıyıcısı savaşın karşıtı olan barış ve çatışmasızlık durumunu taşır.",
+          "independent_trigger": "97:4'teki aşağı yönlü ve emredilmiş hareket ile 8:61'de çatışmadan barışa yönelme örneği.",
+          "activation": "Barış dalı, iniş görüntüsüyle temas ettiğinde aynı hareketin düşmanca seferberlik yerine çatışmasız bir geçiş olarak okunmasını sağlar.",
+          "resulting_reading": "Esenlik, önceki inişin savaşçı olasılığını barış taşıyan bir hareket olarak sınırlar.",
+          "boundary": "Bu okuma 97:4'ü tarihsel bir savaş ilanı saymaz ve toplumsal uzlaşma ayrıntılarını odak ayete taşımaz."
+        }
+      ],
+      "connection_refs": ["conn_58b89df13aa82b4fc8e9"],
+      "context_refs": ["97:4", "8:61"],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:authorized-handover",
+      "origin_candidate_id": "cand_a0ad4ce1cc634befcfa5",
+      "represented_candidate_ids": ["cand_97b4d3a572c9ddda1028", "cand_838ef86fde737512b909"],
+      "title": "Yetkili aktarımın bütünlüğü",
+      "claim": "سَلَامٌ, 97:1'deki ilk indirmeden 97:4'teki izinli inişlere uzanan şeylerin alıcıya eksiksiz geçmesini ve şafağa kadar korunmasını taşıyan bir aktarım durumu olarak da okunur.",
+      "mechanism": "Başkasına verme ve onun eline geçirme dalı, 97:1'deki tamamlanmış indirme ve 97:4'teki meleklerin inişiyle temas eder; 40:78'deki izin ve ilahi emir bağlantısı, bu aktarımın kendiliğinden bir hareket değil yetkili bir dispatch bütünlüğü olarak görünmesini sağlar.",
+      "reader_payoff": "Kapanıştaki esenlik, önceki indirme ve inişleri ayrı olaylar halinde bırakmayıp korunmuş bir teslim zinciri olarak birbirine bağlar.",
+      "containment": "Yalın esenlik bildirimini korur; teslim edilen şeyin packet dışında adını, alıcısını veya fiziksel aktarım biçimini belirlemez.",
+      "epistemic": {
+        "status": "grounded",
+        "source_trust": ["trusted"],
+        "reason": "Trusted citable evidence names the handover relation and the packet supplies the prior descent, command, and permission triggers."
+      },
+      "support_ids": ["sup_6593ea5c5204b32529b5"],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000737/B012",
+          "facet_id": "F001",
+          "branch_gloss": "bir şeyi başkasına verme veya yüzüstü bırakma",
+          "facet_statement": "Bir şeyi başka birine vererek onun eline ve denetimine geçmesini sağlamaktır.",
+          "application_mode": "analogical",
+          "carrier_refs": ["97:5:1:1"],
+          "trigger_refs": ["97:1", "97:4", "40:78"],
+          "focus_return_refs": ["97:5:1:1"],
+          "carrier": "سَلَامٌ taşıyıcısındaki verme dalı, bir şeyin başka birinin eline ve denetimine geçmesini sağlayan teslimi taşır.",
+          "independent_trigger": "97:1'deki ilk indirme, 97:4'teki izinli melek inişi ve 40:78'deki ilahi izinle gelen emir ilişkisi.",
+          "activation": "İlk indirme ve sonraki izinli iniş aynı teslim alanına döndüğünde, esenlik aktarımın eksiksiz ve yetkili biçimde tamamlanmış durumunu adlandırır.",
+          "resulting_reading": "Esenlik, önceki indirmeden meleklerin inişine uzanan yetkili aktarımın bütünlüğü olarak görünür.",
+          "boundary": "Bu temas packet dışında aktarılan nesneyi, alıcıyı veya mekanik taşıma ayrıntısını belirlemez."
+        }
+      ],
+      "connection_refs": ["conn_1273bda221a0d96181cc"],
+      "context_refs": ["40:78", "97:1", "97:4"],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:passage-to-dawn",
+      "origin_candidate_id": "cand_9565a6aa170613af6ac6",
+      "represented_candidate_ids": [],
+      "title": "İnişi doğuşa bağlayan geçit",
+      "claim": "سَلَامٌ, önceki aşağı yönlü hareket ile مَطْلَعِ الفجر arasındaki geçişi açık ve ulaştırıcı bir yol olarak görünür kılar.",
+      "mechanism": "سَلَامٌ içindeki merdiven ve amaca ulaştıran araç dalı, önceki inişle temas eder; مَطْلَعِ içindeki sınırına kadar doldurma dalı ise geçişin doğuş noktasında tamamlanan bir eşik taşıdığını gösterir. 18:90 doğuş yerini doğrudan bir sınır olarak resmeder.",
+      "reader_payoff": "Esenlik, yalnız korunma adı olmaktan çıkarak aşağıdan gelen hareketin şafağın yükselişine ulaşabildiği geçiş biçimini de görünür kılar.",
+      "containment": "Geçit ilişkisi odak dallarının verdiği araç ve eşik sınırındadır; fiziksel bir merdiven, tek bir kozmik yön veya packet dışı bir yol iddia edilmez.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": ["trusted"],
+        "reason": "The citable source is trusted but its cross-run grade is weak; both focus carriers and the rising-point connection are supplied, so the relation is retained with qualification."
+      },
+      "support_ids": ["sup_27d872783c90a84ad210"],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000737/B006",
+          "facet_id": "F001",
+          "branch_gloss": "merdiven ve amaca ulaştıran araç",
+          "facet_statement": "Üzerindeki basamaklara basılarak yukarı çıkmayı sağlayan araçtır.",
+          "application_mode": "intrinsic_cross_root",
+          "carrier_refs": ["97:5:1:1"],
+          "trigger_refs": ["97:4", "97:5:4:1"],
+          "focus_return_refs": ["97:5:1:1"],
+          "carrier": "سَلَامٌ taşıyıcısı basamaklarla yukarı çıkmayı sağlayan araç görüntüsünü taşır.",
+          "independent_trigger": "97:4'teki önceki aşağı yönlü hareket ve 97:5:4:1'deki doğuş eşiği.",
+          "activation": "Yukarı ulaştıran araç dalı, aşağıdan gelen önceki hareket ve doğuş eşiğiyle temas ederek esenliğe iki yönü birbirine bağlayan geçiş işi verir.",
+          "resulting_reading": "Esenlik, inişi şafağın yükselişine bağlayan ulaştırıcı geçit olarak okunur.",
+          "boundary": "Bu aktivasyon fiziksel merdiven bulunduğunu veya inişin her kullanımında bu dalın etkin olduğunu söylemez."
+        },
+        {
+          "branch_ref": "root_000737/B006",
+          "facet_id": "F002",
+          "branch_gloss": "merdiven ve amaca ulaştıran araç",
+          "facet_statement": "Bir hedefe ulaşmayı mümkün kılan sebep, yol veya araç anlamına genişler.",
+          "application_mode": "intrinsic_cross_root",
+          "carrier_refs": ["97:5:1:1"],
+          "trigger_refs": ["97:4", "97:5:4:1"],
+          "focus_return_refs": ["97:5:1:1"],
+          "carrier": "سَلَامٌ taşıyıcısı bir hedefe ulaşmayı mümkün kılan yol veya sebep anlamına genişleyebilir.",
+          "independent_trigger": "Önceki inişin yönü ile مَطْلَعِ tarafından belirlenen doğuş hedefi.",
+          "activation": "Araç anlamının extension facet'i, aynı esenlik taşıyıcısını iniş ile doğuş arasındaki ulaşma ilişkisine bağlar.",
+          "resulting_reading": "Esenlik, önceki inişin doğuş eşiğine varmasını mümkün kılan geçiş koşulu olarak belirir.",
+          "boundary": "Bu extension, odak kelimesini genel olarak her yol veya her amaca ulaştırıcı sebep yapmaz."
+        },
+        {
+          "branch_ref": "root_000945/B007",
+          "facet_id": "F001",
+          "branch_gloss": "bir alanı sınırına kadar doldurma; ayrı aktarımda güneşin gördüğü yeryüzü",
+          "facet_statement": "Bir şey belirli bir alanı veya kabı sınırına kadar doldurur.",
+          "application_mode": "intrinsic_cross_root",
+          "carrier_refs": ["97:5:4:1"],
+          "trigger_refs": ["97:5:5:2", "18:90"],
+          "focus_return_refs": ["97:5:4:1"],
+          "carrier": "مَطْلَعِ taşıyıcısı sınırına kadar doldurma ve bir eşiği tamamına dek kaplama görüntüsünü taşır.",
+          "independent_trigger": "الفجر ile belirlenen doğuş sınırı ve 18:90'da doğuş yerine ulaşma tasviri.",
+          "activation": "Sınırına kadar dolma dalı doğuş noktasıyla temas ettiğinde, geçidin açıkça belirlenmiş bir tamamlanma eşiği olduğu anlaşılır.",
+          "resulting_reading": "İniş ile yükseliş arasındaki geçit, şafak doğuşunun sınırında tamamlanan ölçülü bir varışa dönüşür.",
+          "boundary": "Doluluk facet'i burada maddi içerik birikimi veya yeryüzü kapsamı iddia etmez."
+        }
+      ],
+      "connection_refs": ["conn_eb446bbd8e32a3297f8d"],
+      "context_refs": ["18:90", "97:4"],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:rising-threshold",
+      "origin_candidate_id": "cand_3357393330707fc021fe",
+      "represented_candidate_ids": ["cand_653a05ceca815325db45", "cand_d02e2dcf480567f10713"],
+      "title": "Doğuş eylemi, zamanı ve yeri",
+      "claim": "مَطْلَعِ الفجر, ışığın doğma eylemini ve bu eylemin gerçekleştiği doğuş eşiğini birlikte taşır; حَتَّىٰ bu çoklu profili tek bir sınır içinde tutar.",
+      "mechanism": "مَطْلَعِ dalının core doğuş ve source-variant doğuş olayı/yeri facetleri, الفجرin geceden yarılarak beliren ışığıyla karşılaşır; 17:78 ve 18:90 doğuşu hem zamanlanmış sınır hem de ulaşılan yer olarak dış paralellerle belirginleştirir.",
+      "reader_payoff": "Şafak sınırı, yalnızca saatin bittiği bir an değil, ışığın doğduğu eylem ve eşik olarak üç boyutlu görünür.",
+      "containment": "Eylem, zaman ve yer profilleri birlikte korunur; bunlardan yalnız birinin doğru olduğu seçilmez ve مَطْلَعِ insanın belirmesi, bitki çıkması veya genel erişim yolu anlamına genişletilmez.",
+      "epistemic": {
+        "status": "grounded",
+        "source_trust": ["trusted"],
+        "reason": "Trusted strong support states the action/time/threshold relation, and the packet supplies both the focus variants and rising-point connections."
+      },
+      "support_ids": ["sup_6ab804316292da199227"],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000945/B001",
+          "facet_id": "F001",
+          "branch_gloss": "güneşin, ayın, yıldızın veya tanın doğması; doğuş olayı ve yeri",
+          "facet_statement": "Güneş, ay ve yıldız gibi ışık veren gök varlıkları görünür duruma gelerek doğar.",
+          "application_mode": "intrinsic_cross_root",
+          "carrier_refs": ["97:5:4:1"],
+          "trigger_refs": ["97:5:5:2", "17:78"],
+          "focus_return_refs": ["97:5:4:1"],
+          "carrier": "مَطْلَعِ taşıyıcısı ışık veren bir gök varlığının görünür duruma gelerek doğmasını taşır.",
+          "independent_trigger": "الفجرin sabah ışığı ve 17:78'de şafakla ilişkilendirilen zaman eşiği.",
+          "activation": "Doğuş dalı, الفجرin ışığıyla temas ettiğinde sınırı yalnız bir saat değil doğuşun gerçekleştiği hareket olarak kurar.",
+          "resulting_reading": "Esenlik, şafağın doğduğu ana kadar sürer; sınır doğuş eylemini de içerir.",
+          "boundary": "Bu core facet burada güneşin veya başka bir gök cisminin ayrıca adlandırıldığını söylemez."
+        },
+        {
+          "branch_ref": "root_000945/B001",
+          "facet_id": "F003",
+          "branch_gloss": "güneşin, ayın, yıldızın veya tanın doğması; doğuş olayı ve yeri",
+          "facet_statement": "Aynı ad, kaynaklardaki biçim ayrımına göre doğuş olayını veya doğuş yerini gösterebilir.",
+          "application_mode": "intrinsic_cross_root",
+          "carrier_refs": ["97:5:4:1"],
+          "trigger_refs": ["97:5:5:2", "18:90"],
+          "focus_return_refs": ["97:5:4:1"],
+          "carrier": "مَطْلَعِ taşıyıcısı, verilen biçim ayrımına göre doğuş olayını veya doğuş yerini gösterebilir.",
+          "independent_trigger": "الفجرin belirlediği son ve 18:90'da açıkça doğuş yerine ulaşma sınırı.",
+          "activation": "Doğuş yeri facet'i, olay facet'iyle birlikte şafak sınırını ışığın ortaya çıktığı eşiğe bağlar; biri diğerini dışlamaz.",
+          "resulting_reading": "Kapanış, esenliğin doğuş olayına ve o olayın eşiğine kadar uzandığını birlikte bildirir.",
+          "boundary": "Kaynak biçim ayrımı burada tek bir dilbilgisel seçimle çözülmez; her iki profil görünür tutulur."
+        },
+        {
+          "branch_ref": "root_001132/B002",
+          "facet_id": "F001",
+          "branch_gloss": "sabah aydınlığının gece karanlığını yararak belirmesi",
+          "facet_statement": "Sabah aydınlığı, gecenin sonundaki karanlığın içinden belirir.",
+          "application_mode": "intrinsic_cross_root",
+          "carrier_refs": ["97:5:5:2"],
+          "trigger_refs": ["97:5:4:1", "17:78"],
+          "focus_return_refs": ["97:5:5:2"],
+          "carrier": "الفجر taşıyıcısı sabah aydınlığının gecenin sonundaki karanlıktan belirmesini taşır.",
+          "independent_trigger": "مَطْلَعِ tarafından verilen doğuş eşiği ve 17:78'deki tanıklanan şafak sınırı.",
+          "activation": "Şafak dalı, doğuş eşiğiyle temas ederek sınırın yalnız bitiş değil karanlıktan ışığa geçiş olduğunu görünür kılar.",
+          "resulting_reading": "Esenlik, ışığın geceden belirdiği doğuş eşiğine kadar sürer.",
+          "boundary": "Bu aktivasyon şafağın iki tan görünümünden birini seçmez ve ışığı ahlaki bir kırılma anlamına taşımaz."
+        }
+      ],
+      "connection_refs": ["conn_a45e9b197dc569d49575", "conn_eb446bbd8e32a3297f8d"],
+      "context_refs": ["17:78", "18:90"],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:disclosure-at-dawn",
+      "origin_candidate_id": "cand_a4f8d0e0c84a248abc22",
+      "represented_candidate_ids": ["cand_5ebfb54222752516ce8e", "cand_28dffc9a892225728a8b"],
+      "title": "Sorudan görünür açıklığa",
+      "claim": "مَطْلَعِ içindeki öğrenme ve bildirme dalı, 97:2'deki bilgi eşiğine dönen الفجر ile temas ettiğinde, daha önce soruyla yaklaşılan geceyi görünür bir açıklığa taşır.",
+      "mechanism": "مَطْلَعِ taşıyıcısının bir şeyi bütünüyle öğrenme facet'i 97:2'deki 'sana ne bildirdi' sorusuyla tetiklenir; الفجرin karanlıktan beliren ışığı ve 89:1'deki yarılma/açılma, bilginin yalnız zihinsel değil görünür bir eşikte açılmasını sağlar.",
+      "reader_payoff": "Kapanış, hem özel geceyi hem de onun hakkında bilme sürecini aynı doğuş anında tamamlayan bir görünürlük hareketi olarak okunur.",
+      "containment": "Bu okuma bilginin packet dışında hangi içeriği açıkladığını söylemez; bilgi sorusunu ve görünür doğuşu birbirine bağlar, her aydınlanma kullanımını etkinleştirmez.",
+      "epistemic": {
+        "status": "grounded",
+        "source_trust": ["trusted"],
+        "reason": "Trusted strong support directly states the question-to-disclosure relation, while 89:1 and 19:78 supply disclosure and authorized-knowledge boundaries."
+      },
+      "support_ids": ["sup_53528216d15b16c71b83"],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000945/B003",
+          "facet_id": "F001",
+          "branch_gloss": "bir şeyi öğrenmek ya da başkasına gösterip bildirmek; görüşünü yoklamak",
+          "facet_statement": "Gözlemleyen kişi bir şeye yukarıdan bakar ya da iç yüzüne erişerek onu bütünüyle öğrenir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["97:5:4:1"],
+          "trigger_refs": ["97:2", "97:5:5:2", "89:1", "19:78"],
+          "focus_return_refs": ["97:5:4:1"],
+          "carrier": "مَطْلَعِ taşıyıcısı bir şeyin iç yüzüne erişerek onu bütünüyle öğrenme hareketini taşır.",
+          "independent_trigger": "97:2'deki bilme eşiği, الفجرin belirir hale gelen ışığı, 89:1'deki açılma ve 19:78'deki gizli bilgiye yetkisiz erişimin sınırı.",
+          "activation": "Öğrenme dalı, soruyla yaklaşılan gizli gece ve doğuş ışığıyla temas ettiğinde kapanış, bilinmeyenin görünür hale gelme eşiği olarak çalışır.",
+          "resulting_reading": "Şafak, önceki bilgi sorusunun görünür açıklıkla tamamlandığı eştir.",
+          "boundary": "Bu dal, açıklanan şeyin adını veya insanın packet dışı bir bilgiye sahip olduğunu iddia etmez."
+        },
+        {
+          "branch_ref": "root_001132/B002",
+          "facet_id": "F001",
+          "branch_gloss": "sabah aydınlığının gece karanlığını yararak belirmesi",
+          "facet_statement": "Sabah aydınlığı, gecenin sonundaki karanlığın içinden belirir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["97:5:5:2"],
+          "trigger_refs": ["97:2", "97:5:4:1", "89:1"],
+          "focus_return_refs": ["97:5:5:2"],
+          "carrier": "الفجر taşıyıcısı sabah aydınlığının gecenin karanlığından yarılarak belirmesini taşır.",
+          "independent_trigger": "مَطْلَعِ tarafından verilen doğuş eşiği, 97:2'deki bilgi sorusu ve 89:1'deki doğuşun açılma görüntüsü.",
+          "activation": "Işığın belirerek ortaya çıkması, öğrenme dalının taşıdığı görünür kılma hareketine döner ve kapanışın bilgiyle ilişkisini somutlaştırır.",
+          "resulting_reading": "Şafak, gizli geceyi görünür kılarak hem geceyi hem bilme sürecini kapatır.",
+          "boundary": "Fajr dalının ahlaki sapma veya her türlü disclosure anlamına genişletilmesi bu aktivasyonun dışındadır."
+        }
+      ],
+      "connection_refs": ["conn_6022be6f0cb28a583efb", "conn_f849469b8b8e53d6b15e"],
+      "context_refs": ["19:78", "89:1", "97:2"],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:generative-break",
+      "origin_candidate_id": "cand_8adacdead0998bb6d858",
+      "represented_candidate_ids": ["cand_e0ac6fafc6e8b4cd7510"],
+      "title": "Geceyi açan üretken yarılma",
+      "claim": "الفجر, 97:4'te gece içinde indirilen ve düzenlenen şeylerin etkilerini dışarı çıkaran üretken bir yarılma ve akış noktası olarak okunur.",
+      "mechanism": "ف ج ر dalının genişçe yarılma ve açılan yerden akış facetleri, gece içinde yer alan iniş ve işleri 97:4'ten tetik olarak alır; 76:6'daki açılmış kanallara akış ve 113:1'deki doğrudan daybreak split, yarılmanın yalnız ışık sonucu değil etkilerin dışarı çıkış biçimi olduğunu destekler.",
+      "reader_payoff": "Şafak, gecenin bitişi olarak kalmayıp gece içinde tutulan şeylerin açıklık ve akışa geçtiği üretken eşik olarak görünür.",
+      "containment": "Açılma ve akış mekanizması korunur; hangi etkilerin ne maddi biçimde çıktığı veya Fajrın ahlaki sapma/bolluk dallarını otomatik olarak etkinleştirdiği söylenmez.",
+      "epistemic": {
+        "status": "grounded",
+        "source_trust": ["trusted"],
+        "reason": "Trusted strong support explicitly states productive rupture and outflow, and the packet supplies both focus facets and direct wider opening parallels."
+      },
+      "support_ids": ["sup_63e2a4b567d23acbd24b"],
+      "branch_activations": [
+        {
+          "branch_ref": "root_001132/B001",
+          "facet_id": "F001",
+          "branch_gloss": "genişçe yarılma ve içinden suyun akıp çıkması",
+          "facet_statement": "Bir şey genişçe yarılarak içinde bir açıklık oluşturulur.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["97:5:5:2"],
+          "trigger_refs": ["97:4", "76:6"],
+          "focus_return_refs": ["97:5:5:2"],
+          "carrier": "الفجر taşıyıcısı genişçe yarılma ve içinde açıklık oluşması hareketini taşır.",
+          "independent_trigger": "97:4'te gece içinde yer alan iniş ve işler ile 76:6'da açılan kanallardan yönlendirilmiş akış.",
+          "activation": "Yarılma dalı gece içi kuşatma ve akış paraleliyle temas ettiğinde şafak, kapalı bir sürenin açıklık kazanma eylemi olur.",
+          "resulting_reading": "Şafak, gecenin içinde yer alan etkilerin dışarı çıkabileceği geniş bir açıklık açar.",
+          "boundary": "Bu core facet, packet dışında maddi bir içerik veya belirli bir akış nesnesi belirlemez."
+        },
+        {
+          "branch_ref": "root_001132/B001",
+          "facet_id": "F002",
+          "branch_gloss": "genişçe yarılma ve içinden suyun akıp çıkması",
+          "facet_statement": "Özellikle su, açılan yerden dışarı çıkıp akmaya başlar.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["97:5:5:2"],
+          "trigger_refs": ["97:4", "76:6"],
+          "focus_return_refs": ["97:5:5:2"],
+          "carrier": "الفجر taşıyıcısı, açılan yerden dışarı çıkıp akmaya başlayan şeyin sonuç hareketini de taşır.",
+          "independent_trigger": "97:4'te içeride tutulan düzen ve 76:6'daki kaynağın açılarak kanallara akması.",
+          "activation": "Akış facet'i, yarılmayı yalnız yüzeyde bir çatlak olmaktan çıkarıp açılmanın bir sonuç ürettiği dışarı çıkış hareketine bağlar.",
+          "resulting_reading": "Şafak, gece içinde kurulmuş düzenin etkilerini dışarı veren bir akış eşiği olarak belirir.",
+          "boundary": "Buradaki su facet'i bir analoji olarak kalır; ayetin geceyi suya çevirdiği ileri sürülmez."
+        },
+        {
+          "branch_ref": "root_001132/B002",
+          "facet_id": "F001",
+          "branch_gloss": "sabah aydınlığının gece karanlığını yararak belirmesi",
+          "facet_statement": "Sabah aydınlığı, gecenin sonundaki karanlığın içinden belirir.",
+          "application_mode": "intrinsic_cross_root",
+          "carrier_refs": ["97:5:5:2"],
+          "trigger_refs": ["97:5:4:1", "113:1"],
+          "focus_return_refs": ["97:5:5:2"],
+          "carrier": "الفجر taşıyıcısı sabah ışığının gecenin karanlığını yararak belirmesini taşır.",
+          "independent_trigger": "مَطْلَعِ tarafından verilen doğuş eşiği ve 113:1'de daybreak'in doğrudan bölünme olarak verilmesi.",
+          "activation": "Dawn facet'i, fiziksel yarılma dalını gerçek sabah ışığının gece içinden ortaya çıkışıyla odak yüzeyine geri bağlar.",
+          "resulting_reading": "Üretken yarılma, ışığın geceyi açarak görünür hale gelmesiyle aynı kapanışta tutulur.",
+          "boundary": "Bu facet, iki tan görünümünden birini seçmez ve ahlaki sapma anlamını taşımaz."
+        }
+      ],
+      "connection_refs": ["conn_d05201027de35a7de811", "conn_9c74e9a32d8d87d092cb"],
+      "context_refs": ["76:6", "97:4", "113:1"],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:protected-duration",
+      "origin_candidate_id": "cand_71761d98d52784e4240f",
+      "represented_candidate_ids": [],
+      "title": "Korunmuş süre ve barış taşıyan iniş",
+      "claim": "سَلَامٌ, 97:4'teki iniş alanını şafağa kadar korunan bir süre olarak kuşatırken, barış dalı bu inişi düşmanlık yerine barış taşıyan bir hareket olarak çerçeveler.",
+      "mechanism": "B001 esenlik dalı salam taşıyıcısını 97:4'teki inişle, B004 barış dalı aynı taşıyıcıyı 97:3'teki savaşçı ihtimalle, مَطْلَعِ doğuş dalı ve الفجر dawn dalı ise süreyi 17:78'deki tanıklanan şafak sınırıyla birleştirir.",
+      "reader_payoff": "Tek bir esenlik adı hem olayın bütün süresini hem de o süredeki inişin barış taşıyan niteliğini birlikte görünür kılar.",
+      "containment": "Bu legacy reader synthesis exploratory'dir; 97:4'ün fiilen savaş olduğunu söylemez. Nominated kılıç dalı için typed carrier bulunmadığından o dal bu bulgunun dışında kalır; ordinary esenlik ve barış çekirdekleri korunur.",
+      "epistemic": {
+        "status": "exploratory",
+        "source_trust": ["legacy_unbound"],
+        "reason": "The reader support states the composite relation and all retained branches have focus occurrences, but the source is legacy_unbound and the sword branch has no typed carrier."
+      },
+      "support_ids": ["sup_54732b6f2f1d21ef5878"],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000737/B001",
+          "facet_id": "F001",
+          "branch_gloss": "kusur ve zarardan uzak esenlik",
+          "facet_statement": "Dış ve iç bozukluklardan, hastalıktan, kusurdan ve zarardan uzak olma durumudur.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["97:5:1:1"],
+          "trigger_refs": ["97:4"],
+          "focus_return_refs": ["97:5:1:1"],
+          "carrier": "سَلَامٌ taşıyıcısı zarar ve bozukluklardan uzak korunmuşluk durumunu taşır.",
+          "independent_trigger": "97:4'teki iniş ve işlerin tek gece alanında sürmesi.",
+          "activation": "Korunmuşluk dalı iniş alanına döndüğünde salam bir anlık nitelik değil, olayın tamamını tutan süre olur.",
+          "resulting_reading": "Esenlik, inişin tamamını şafağa kadar taşıyan korunmuş süre olarak belirir.",
+          "boundary": "Bu aktivasyon packet dışında korunan nesneyi veya bütün ayrıntıları belirlemez."
+        },
+        {
+          "branch_ref": "root_000737/B004",
+          "facet_id": "F001",
+          "branch_gloss": "barış ve karşılıklı uzlaşma",
+          "facet_statement": "Savaşın karşıtı olan barış ve çatışmasızlık durumudur.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["97:5:1:1"],
+          "trigger_refs": ["97:3"],
+          "focus_return_refs": ["97:5:1:1"],
+          "carrier": "سَلَامٌ taşıyıcısı savaşın karşıtı barış durumunu taşır.",
+          "independent_trigger": "97:3'teki değer ve üstünlük karşılaştırmasının açtığı önceki savaşçı okuma ihtimali.",
+          "activation": "Barış dalı aynı iniş çerçevesine döndüğünde hareket alanının yönünü düşmanlıktan barışa çevirir.",
+          "resulting_reading": "İniş, esenlik cümlesinde barış taşıyan bir hareket olarak görünür.",
+          "boundary": "Bu, 97:3 veya 97:4'te tarihsel savaş bulunduğunu iddia etmez."
+        },
+        {
+          "branch_ref": "root_000945/B001",
+          "facet_id": "F001",
+          "branch_gloss": "güneşin, ayın, yıldızın veya tanın doğması; doğuş olayı ve yeri",
+          "facet_statement": "Güneş, ay ve yıldız gibi ışık veren gök varlıkları görünür duruma gelerek doğar.",
+          "application_mode": "intrinsic_cross_root",
+          "carrier_refs": ["97:5:4:1"],
+          "trigger_refs": ["17:78"],
+          "focus_return_refs": ["97:5:4:1"],
+          "carrier": "مَطْلَعِ taşıyıcısı ışığın görünür duruma gelerek doğmasını taşır.",
+          "independent_trigger": "17:78'de şafak sınırının tanıklanan ve düzenlenmiş bir zaman eşiği olarak verilmesi.",
+          "activation": "Doğuş dalı korunmuş süreyle temas ederek sürenin açık uçlu değil ışığın ortaya çıktığı eşiğe bağlı olduğunu gösterir.",
+          "resulting_reading": "Korunmuş barış aralığı, tanıklanan doğuş eşiğine kadar uzanır.",
+          "boundary": "Bu aktivasyon doğuşun bütün kaynak dallarını veya ayrı bir güneş görüntüsünü seçmez."
+        },
+        {
+          "branch_ref": "root_000945/B001",
+          "facet_id": "F003",
+          "branch_gloss": "güneşin, ayın, yıldızın veya tanın doğması; doğuş olayı ve yeri",
+          "facet_statement": "Aynı ad, kaynaklardaki biçim ayrımına göre doğuş olayını veya doğuş yerini gösterebilir.",
+          "application_mode": "intrinsic_cross_root",
+          "carrier_refs": ["97:5:4:1"],
+          "trigger_refs": ["17:78"],
+          "focus_return_refs": ["97:5:4:1"],
+          "carrier": "مَطْلَعِ taşıyıcısı doğuş olayını ve doğuş yerini birlikte açık tutan biçimsel profili taşır.",
+          "independent_trigger": "17:78'deki düzenlenmiş gece-gündüz ve şafak sınırı.",
+          "activation": "Olay ve yer profilleri, korunmuşluğun bir zaman dilimi kadar bir geçiş eşiği olduğunu gösterir.",
+          "resulting_reading": "Esenlik, doğuşun gerçekleştiği eşiğe ulaşana kadar korunan bir süre olarak belirir.",
+          "boundary": "Facet profilleri birlikte tutulur; biri diğerini dışlamaz."
+        },
+        {
+          "branch_ref": "root_001132/B002",
+          "facet_id": "F001",
+          "branch_gloss": "sabah aydınlığının gece karanlığını yararak belirmesi",
+          "facet_statement": "Sabah aydınlığı, gecenin sonundaki karanlığın içinden belirir.",
+          "application_mode": "intrinsic_cross_root",
+          "carrier_refs": ["97:5:5:2"],
+          "trigger_refs": ["17:78"],
+          "focus_return_refs": ["97:5:5:2"],
+          "carrier": "الفجر taşıyıcısı sabah aydınlığının gece karanlığından belirmesini taşır.",
+          "independent_trigger": "17:78'de şafakla düzenlenen ve tanıklanan eşik.",
+          "activation": "Şafak dalı, korunmuş sürenin sonunu karanlığın içinden ışığın belirmesi olarak somutlaştırır.",
+          "resulting_reading": "Barış taşıyan iniş ve korunmuşluk, ışığın geceyi açtığı eşikte tamamlanır.",
+          "boundary": "Bu, şafağın ahlaki veya suyla ilgili diğer dallarını etkinleştirmez."
+        }
+      ],
+      "connection_refs": ["conn_7c78553a6de51a4e8d87", "conn_58b89df13aa82b4fc8e9", "conn_a45e9b197dc569d49575"],
+      "context_refs": ["17:78", "97:3", "97:4"],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:handover-threshold",
+      "origin_candidate_id": "cand_632dde3ce72ac1918aa6",
+      "represented_candidate_ids": [],
+      "title": "Eşiğe ulaşan güvenli teslim",
+      "claim": "سَلَامٌ içindeki başkasına verme dalı, 97:4'teki iniş ve مَطْلَعِ tarafından belirlenen doğuş eşiğiyle temas ettiğinde geceye giren şeyin şafağa dek korunarak teslim edilmesini görünür kılar.",
+      "mechanism": "B012'nin başkasının eline ve denetimine geçirme facet'i, 97:4'teki iniş ve işlerden bağımsız tetik alır; 40:78'deki izin ve emir paraleliyle birlikte حَتَّىٰ مَطْلَعِ الفجر, aktarımın ulaştığı son eşiği belirler.",
+      "reader_payoff": "Kapanıştaki esenlik, geceyi yalnız pasif bir zemin değil, giren şeyi koruyup doğuş noktasında teslim eden bir geçiş alanı olarak düşündürür.",
+      "containment": "Permission dalı typed carrier yokluğu nedeniyle bu bulguya alınmamıştır; retained core aktarım ve eşik ilişkisiyle sınırlıdır, teslim edilen şeyin kimliği belirlenmez.",
+      "epistemic": {
+        "status": "exploratory",
+        "source_trust": ["legacy_unbound"],
+        "reason": "The reader support gives a clear procedural arrow, but it is legacy_unbound and the permission branch named beside it has no typed carrier in the packet."
+      },
+      "support_ids": ["sup_7fb51d9246716ccbed84"],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000737/B012",
+          "facet_id": "F001",
+          "branch_gloss": "bir şeyi başkasına verme veya yüzüstü bırakma",
+          "facet_statement": "Bir şeyi başka birine vererek onun eline ve denetimine geçmesini sağlamaktır.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["97:5:1:1"],
+          "trigger_refs": ["97:4", "97:5:4:1", "40:78"],
+          "focus_return_refs": ["97:5:1:1"],
+          "carrier": "سَلَامٌ taşıyıcısı bir şeyin başka birinin eline ve denetimine geçmesini sağlayan teslimi taşır.",
+          "independent_trigger": "97:4'teki iniş ve düzenlenen işler, 40:78'deki izinli emir ve مَطْلَعِ tarafından verilen doğuş eşiği.",
+          "activation": "Teslim dalı, inişin girdiği gece alanı ve doğuş eşiğiyle temas ederek esenliğe koruyup son sınırda bırakma prosedürü verir.",
+          "resulting_reading": "Gece, içine giren yetkili aktarımı şafağın yükseliş noktasına kadar güvenle taşır ve orada teslim eder.",
+          "boundary": "Bu prosedür bir permission branch activation'ı veya packet dışında teslim edilen nesnenin kimliğini kurmaz."
+        }
+      ],
+      "connection_refs": ["conn_1273bda221a0d96181cc"],
+      "context_refs": ["40:78", "97:4"],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:generative-dawn-release",
+      "origin_candidate_id": "cand_2e49c6b0298d9f83f543",
+      "represented_candidate_ids": [],
+      "title": "Ölçülü kuşatmadan doğan açılma",
+      "claim": "الفجر, 97:3-4'teki ölçü ve gece içi kuşatma ile temas ettiğinde, sınırı dolan bir gecenin şafakta doğum benzeri bir yarılmayla etkilerini dışarı bırakması şeklinde okunur.",
+      "mechanism": "ف ج ر B001'in genişçe yarılma facet'i 97:4'te gece içinde yer alan iniş ve işlerle, B002'nin karanlıktan beliren sabah ışığı facet'i مَطْلَعِ doğuş eşiğiyle birleşir; 113:1 ve 80:26 doğuş/üretken yarılma paralelleri açılmayı güçlendirir.",
+      "reader_payoff": "Şafak, ölçülü gecenin yalnız sona erdiği değil, içinde tutulan düzenin açılıp etkilerinin dışarı geçebildiği an olarak görünür.",
+      "containment": "Legacy reader'ın merhamet, rahim ve doğum oku exploratory kalır; packet bu analoji için ayrı typed carrier sağlamaz. Retained relation fiziksel yarılma, kuşatma ve ışığın belirmesiyle sınırlıdır.",
+      "epistemic": {
+        "status": "exploratory",
+        "source_trust": ["legacy_unbound"],
+        "reason": "The reader source explicitly marks the birth-like arrow as reader-supplied; the two Fajr branches and the 97:3-4/focus triggers nevertheless form an anchored exploratory core."
+      },
+      "support_ids": ["sup_6b714f9168ec9525c2a7"],
+      "branch_activations": [
+        {
+          "branch_ref": "root_001132/B001",
+          "facet_id": "F001",
+          "branch_gloss": "genişçe yarılma ve içinden suyun akıp çıkması",
+          "facet_statement": "Bir şey genişçe yarılarak içinde bir açıklık oluşturulur.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["97:5:5:2"],
+          "trigger_refs": ["97:3", "97:4"],
+          "focus_return_refs": ["97:5:5:2"],
+          "carrier": "الفجر taşıyıcısı genişçe yarılma ve açıklık oluşması çekirdeğini taşır.",
+          "independent_trigger": "97:3'teki ölçü karşılaştırması ve 97:4'te gece içinde indirilen ve düzenlenen şeylerin kuşatılması.",
+          "activation": "Yarılma dalı ölçülü ve kuşatılmış geceyle temas ettiğinde sınırın doluma ulaştıktan sonra açılma yönü kazanması görünür olur.",
+          "resulting_reading": "Şafak, kuşatılmış gecenin sınırına ulaştığında açılarak etkilerini dışarı çıkaran üretken bir yarılmadır.",
+          "boundary": "Bu activation maddi bir birikimin gerçekten oluştuğunu veya doğum olayının literal olduğunu söylemez."
+        },
+        {
+          "branch_ref": "root_001132/B002",
+          "facet_id": "F001",
+          "branch_gloss": "sabah aydınlığının gece karanlığını yararak belirmesi",
+          "facet_statement": "Sabah aydınlığı, gecenin sonundaki karanlığın içinden belirir.",
+          "application_mode": "intrinsic_cross_root",
+          "carrier_refs": ["97:5:5:2"],
+          "trigger_refs": ["97:5:4:1", "113:1"],
+          "focus_return_refs": ["97:5:5:2"],
+          "carrier": "الفجر taşıyıcısı sabah ışığının gece karanlığından belirerek ortaya çıkmasını taşır.",
+          "independent_trigger": "مَطْلَعِ doğuş eşiği ve 113:1'deki doğrudan daybreak split paraleli.",
+          "activation": "Dawn facet'i, yarılma çekirdeğini gerçek ışığın karanlıktan çıkışıyla odak yüzeyine geri döndürür.",
+          "resulting_reading": "Doğum benzeri açılma, şafağın karanlıktan belirerek sınırı görünür kılmasıyla somutlaşır.",
+          "boundary": "Şafak dalı burada iki tan profilinden birini seçmez ve ahlaki sapma anlamına geçmez."
+        }
+      ],
+      "connection_refs": ["conn_83bb2b9d1246891c3b32", "conn_9c74e9a32d8d87d092cb"],
+      "context_refs": ["113:1", "97:3", "97:4"],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:disclosed-appearance",
+      "origin_candidate_id": "cand_0101f8eb0caed8ce89bf",
+      "represented_candidate_ids": [],
+      "title": "Bilinenin göz önüne çıkması",
+      "claim": "مَطْلَعِ, bir şeyi öğrenme ve bildirme dalıyla 97:2'deki bilgi sorusuna, insanın göz önünde beliren görünüşü dalıyla da الفجرin ortaya çıkışına döner; kapanış bilinenin göz önüne çıkışını görünür kılar.",
+      "mechanism": "B003'ün iç yüze erişerek öğrenme facet'i 97:2 ve 19:78'deki bilgi sınırıyla, B009'un görülüş facet'i الفجرin görünür doğuşuyla temas eder. Böylece doğuş eşiği hem bilme hem de bilinen şeyin görünüş kazanması olarak iki aşamalı bir değişim üretir.",
+      "reader_payoff": "Şafak, yalnız ışığın gelmesi değil, soruyla aranan şeyin görünür bir biçim kazanması olarak yeniden okunur.",
+      "containment": "Bu exploratory ilişki açıklanan şeyin packet dışı kimliğini veya insan görünüşünün literal bir karakterini belirlemez; öğrenme ve görünür oluş facetlerini ayrı tutar.",
+      "epistemic": {
+        "status": "exploratory",
+        "source_trust": ["legacy_unbound"],
+        "reason": "Legacy reader support supplies both focus carriers and the question-to-dawn contact, but its exact wider inference remains qualified."
+      },
+      "support_ids": ["sup_a74dcc94de061bc63bfe"],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000945/B003",
+          "facet_id": "F001",
+          "branch_gloss": "bir şeyi öğrenmek ya da başkasına gösterip bildirmek; görüşünü yoklamak",
+          "facet_statement": "Gözlemleyen kişi bir şeye yukarıdan bakar ya da iç yüzüne erişerek onu bütünüyle öğrenir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["97:5:4:1"],
+          "trigger_refs": ["97:2", "19:78", "89:1"],
+          "focus_return_refs": ["97:5:4:1"],
+          "carrier": "مَطْلَعِ taşıyıcısı gözlemleyenin bir şeyin iç yüzüne erişerek onu bütünüyle öğrenmesini taşır.",
+          "independent_trigger": "97:2'deki bilgi eşiği, 19:78'deki gizli bilgi sınırı ve 89:1'de doğuşun açılma olarak çerçevelenmesi.",
+          "activation": "Öğrenme dalı, doğuş eşiğiyle temas ettiğinde kapanışta bilginin görünür olma yönü belirir.",
+          "resulting_reading": "مَطْلَعِ, soruyla yaklaşılan şeyi bilinir hale getiren doğuş eşiği olur.",
+          "boundary": "Bilgi dalı yetkisiz veya sınırsız bilgi iddiası taşımaz."
+        },
+        {
+          "branch_ref": "root_000945/B009",
+          "facet_id": "F001",
+          "branch_gloss": "bir insanın görülüşü ve göz önündeki görünüşü",
+          "facet_statement": "Bir insanın göz önünde beliren yüzü ve genel görünüşü adlandırılır.",
+          "application_mode": "intrinsic_cross_root",
+          "carrier_refs": ["97:5:4:1"],
+          "trigger_refs": ["97:5:5:2", "89:1"],
+          "focus_return_refs": ["97:5:4:1"],
+          "carrier": "مَطْلَعِ taşıyıcısı göz önünde beliren yüz ve genel görünüşün ortaya çıkmasını taşır.",
+          "independent_trigger": "الفجرin karanlıktan görünür ışık olarak belirmesi ve 89:1'deki rising disclosure bağlantısı.",
+          "activation": "Görünüş facet'i doğuş ışığıyla temas ettiğinde bilginin soyut eşiği görünür bir belirime bağlanır.",
+          "resulting_reading": "Kapanış, gizli geceyi yalnız bilinir değil, göz önüne çıkarılmış bir görünüş halinde tamamlar.",
+          "boundary": "Bu kullanım insanın özel görünüşünü veya ayrı bir şahsı ayete taşımaz."
+        }
+      ],
+      "connection_refs": ["conn_6022be6f0cb28a583efb", "conn_f849469b8b8e53d6b15e"],
+      "context_refs": ["19:78", "89:1", "97:2"],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:vertical-passage",
+      "origin_candidate_id": "cand_929caf464ed724486d66",
+      "represented_candidate_ids": ["cand_de6c1b35055441eed9ab"],
+      "title": "Aşağıdan yukarıya dikey geçit",
+      "claim": "سَلَامٌ içindeki merdiven ve ulaştırıcı araç dalı, مَطْلَعِ içindeki yükselme ve çıkış yolu dallarıyla temas ettiğinde, önceki inişi doğuşa bağlayan aşağıdan yukarıya bir geçit görünür olur.",
+      "mechanism": "B006'nın core basamak ve extension ulaştırıcı araç facetleri سَلَامٌ taşıyıcısında, root_000945/B006'nın core yükselme ve extension yükselme yolu facetleri مَطْلَعِ taşıyıcısında bulunur; 97:4'teki iniş ve 18:90'daki doğuş noktasına ulaşma bu iki yönü birbirine döndürür.",
+      "reader_payoff": "Esenlik, yalnız güvenli durum değil, aşağı yönlü başlangıç ile yukarı yönlü doğuşu birbirine bağlayan dikey geçiş yapısı olarak da okunur.",
+      "containment": "Bu legacy exploratory okuma fiziksel merdiven veya doğrulanmış ن ز ل branch'i iddia etmez; nominated descent dalı typed carrier yokluğu nedeniyle dışarıda, focus B006 core facetleriyle birlikte tutulmuştur.",
+      "epistemic": {
+        "status": "exploratory",
+        "source_trust": ["legacy_unbound"],
+        "reason": "The reader record supplies the down-then-up arrow and both focus branch families, but the descent branch is nominated without a typed carrier and the source is legacy_unbound."
+      },
+      "support_ids": ["sup_c8d09a31f6248ff73fea"],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000737/B006",
+          "facet_id": "F001",
+          "branch_gloss": "merdiven ve amaca ulaştıran araç",
+          "facet_statement": "Üzerindeki basamaklara basılarak yukarı çıkmayı sağlayan araçtır.",
+          "application_mode": "intrinsic_cross_root",
+          "carrier_refs": ["97:5:1:1"],
+          "trigger_refs": ["97:4", "6:35"],
+          "focus_return_refs": ["97:5:1:1"],
+          "carrier": "سَلَامٌ taşıyıcısı üzerindeki basamaklarla yukarı çıkmayı sağlayan araç görüntüsünü taşır.",
+          "independent_trigger": "97:4'teki aşağı yönlü iniş ve 6:35'te sınır örneği olarak verilen göksel merdiven.",
+          "activation": "Merdiven dalı, inişle temas ederek esenliğin aşağıdan yukarıya yönlü bir bağlantı aracı olarak okunmasına izin verir.",
+          "resulting_reading": "Esenlik, inişin doğuşa doğru çevrilebildiği dikey araçtır.",
+          "boundary": "6:35 yalnız bağımsız sınır ve tetik kanıtıdır; odak ayette gerçek bir merdiven bulunduğu söylenmez."
+        },
+        {
+          "branch_ref": "root_000737/B006",
+          "facet_id": "F002",
+          "branch_gloss": "merdiven ve amaca ulaştıran araç",
+          "facet_statement": "Bir hedefe ulaşmayı mümkün kılan sebep, yol veya araç anlamına genişler.",
+          "application_mode": "intrinsic_cross_root",
+          "carrier_refs": ["97:5:1:1"],
+          "trigger_refs": ["97:4", "97:5:4:1"],
+          "focus_return_refs": ["97:5:1:1"],
+          "carrier": "سَلَامٌ taşıyıcısı bir hedefe ulaşmayı mümkün kılan yol veya sebep anlamına genişler.",
+          "independent_trigger": "Önceki inişin yönü ve مَطْلَعِ tarafından verilen doğuş hedefi.",
+          "activation": "Ulaştırıcı araç facet'i, esenliği iniş ile doğuş arasındaki hedeflenmiş hareketin bağlantı koşulu yapar.",
+          "resulting_reading": "Esenlik, aşağıdan yukarıya geçişi mümkün kılan yol olarak belirir.",
+          "boundary": "Bu extension, her yol veya her ulaştırma anlamını etkinleştirmez."
+        },
+        {
+          "branch_ref": "root_000945/B006",
+          "facet_id": "F001",
+          "branch_gloss": "dağa çıkma ve çıkış yolu; bir işin yaklaşım yönü veya ürkütücü eşiği",
+          "facet_statement": "Bir kişi dağın üst bölümüne doğru yükselerek çıkar.",
+          "application_mode": "intrinsic_cross_root",
+          "carrier_refs": ["97:5:4:1"],
+          "trigger_refs": ["97:4", "18:90"],
+          "focus_return_refs": ["97:5:4:1"],
+          "carrier": "مَطْلَعِ taşıyıcısı yüksek bir yere doğru yükselerek çıkma hareketini taşır.",
+          "independent_trigger": "97:4'teki iniş yönünün tersine dönmesi ve 18:90'da doğuş noktasına ulaşma.",
+          "activation": "Yükselme core facet'i, önceki inişle temas ettiğinde kapanışın yönü aşağıdan yukarıya çeviren karşı hareketini görünür kılar.",
+          "resulting_reading": "Doğuş eşiği, inişten sonra yukarı doğru çıkılan bir hedef olarak belirir.",
+          "boundary": "Dağ veya gerçek bir yükseklik odak ayete eklenmez."
+        },
+        {
+          "branch_ref": "root_000945/B006",
+          "facet_id": "F002",
+          "branch_gloss": "dağa çıkma ve çıkış yolu; bir işin yaklaşım yönü veya ürkütücü eşiği",
+          "facet_statement": "Dağa çıkılan yol, yükselme noktası veya dağa erişilen yön aynı adla gösterilir.",
+          "application_mode": "intrinsic_cross_root",
+          "carrier_refs": ["97:5:4:1"],
+          "trigger_refs": ["97:5:1:1", "18:90"],
+          "focus_return_refs": ["97:5:4:1"],
+          "carrier": "مَطْلَعِ taşıyıcısı yükselme noktası ve erişilen yön olarak çıkış yolunu taşır.",
+          "independent_trigger": "سَلَامٌ içindeki ulaştırıcı araç dalı ve 18:90'daki doğuş yerine ulaşma sınırı.",
+          "activation": "Yükselme yolu extension facet'i, salamın ulaştırıcı aracıyla temas ederek iki odak kelimesi arasında dikey bir yol ilişkisi kurar.",
+          "resulting_reading": "Esenlik, doğuşun yükselme noktasına varan dikey geçit olarak görünür.",
+          "boundary": "Yol facet'i, ayeti genel bir seyahat anlatısına veya ürkütücü eşik anlamına taşımaz."
+        }
+      ],
+      "connection_refs": ["conn_822bfcb70ed00e78522b", "conn_eb446bbd8e32a3297f8d"],
+      "context_refs": ["18:90", "6:35", "97:4"],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:fullness-overflow",
+      "origin_candidate_id": "cand_8107821381e866c8448f",
+      "represented_candidate_ids": [],
+      "title": "Doluluk eşiğinden taşmaya",
+      "claim": "مَطْلَعِ içindeki sınırına kadar dolma dalı, الفجر içindeki taşarcasına bol verme dalıyla temas ettiğinde, şafak gecenin basit bitişi değil doluluğun dışarı akış eşiği olarak belirir.",
+      "mechanism": "مَطْلَعِ taşıyıcısının alanı sınırına kadar doldurma facet'i, الفجرin iyilik ve verme bolluğu facet'ini aynı odak sonuna çağırır; 97:4'teki total düzen ve 76:6'daki açılmış kanallara akış, doluluğun taşmaya dönüşebileceği bağımsız temas noktalarını sağlar.",
+      "reader_payoff": "Şafak sınırı, sürenin tükenmesinden çok dolmuş bir alanın açılıp etkisini dışarı verme eşiği olarak yeni bir biçim kazanır.",
+      "containment": "Bu reading exploratory'dir; packet maddi birikimin gerçekten oluştuğunu, gecenin bütün iyilikleri içerdiğini veya taşmanın zorunlu bir sonuç olduğunu söylemez. Aynı overflow önerisini reject derecesiyle taşıyan trusted sup_f8633240199d57a7846f karşı kanıt olarak korunur.",
+      "epistemic": {
+        "status": "exploratory",
+        "source_trust": ["legacy_unbound", "trusted"],
+        "reason": "The legacy wide-reader support supplies typed focus carriers and a reader payoff, while the packet also contains trusted reject counter-evidence and the source itself marks the accumulation link as weak."
+      },
+      "support_ids": ["sup_aa9809171d0e7cd99232", "sup_f8633240199d57a7846f"],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000945/B007",
+          "facet_id": "F001",
+          "branch_gloss": "bir alanı sınırına kadar doldurma; ayrı aktarımda güneşin gördüğü yeryüzü",
+          "facet_statement": "Bir şey belirli bir alanı veya kabı sınırına kadar doldurur.",
+          "application_mode": "intrinsic_cross_root",
+          "carrier_refs": ["97:5:4:1"],
+          "trigger_refs": ["97:4", "97:5:5:2"],
+          "focus_return_refs": ["97:5:4:1"],
+          "carrier": "مَطْلَعِ taşıyıcısı bir alanın veya kabın sınırına kadar dolmasını taşır.",
+          "independent_trigger": "97:4'teki total düzen ve الفجرin verdiği kapanış sınırı.",
+          "activation": "Doluluk dalı, şafak sınırıyla temas ettiğinde sonu tükenme değil, sınırına ulaşmış bir alanın açılma eşiği olarak kurar.",
+          "resulting_reading": "مَطْلَعِ, gecenin doluluğunun sınırına ulaştığı ve dışarı geçişe hazırlandığı eşik olur.",
+          "boundary": "Bu facet içeriklerin maddi olarak bir kapta toplandığını veya bütün iyiliğin tek bir alanda bulunduğunu kanıtlamaz."
+        },
+        {
+          "branch_ref": "root_001132/B005",
+          "facet_id": "F001",
+          "branch_gloss": "taşarcasına bol iyilik ve eli açıklık",
+          "facet_statement": "İyilik ve verme, taşarcasına geniş ve bol biçimde gerçekleşir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["97:5:5:2"],
+          "trigger_refs": ["97:5:4:1", "76:6"],
+          "focus_return_refs": ["97:5:5:2"],
+          "carrier": "الفجر taşıyıcısı iyilik ve vermenin taşarcasına geniş ve bol gerçekleşmesi facetini taşır.",
+          "independent_trigger": "مَطْلَعِ içindeki sınırına kadar dolma ve 76:6'daki açılmış kanallara yönelen üretken akış.",
+          "activation": "Bolluk dalı doluluk sınırıyla temas ettiğinde, şafak açılmasının korunmuş iyiliği dışarı verme yönünü görünür kılar.",
+          "resulting_reading": "Şafak, doluluğun iyilik ve verme olarak taşmaya başladığı eşiği de düşündürür.",
+          "boundary": "Bu facet, gecenin maddi olarak dolduğunu veya her iyiliğin burada toplandığını tek başına bildirmez."
+        }
+      ],
+      "connection_refs": ["conn_d05201027de35a7de811"],
+      "context_refs": ["76:6", "97:4"],
+      "semantic_obligation_refs": []
+    }
+  ],
+  "friction_notes": [
+    "focus_word_alignment'da unresolved analiz birimi yok; ancak global pakette selected_context_units boş olduğu için nominated root_000022/B004, root_000823/B003 ve root_001492/B001 dalları typed odak taşıyıcısı olarak etkinleştirilemedi.",
+    "Yedi HFT assigned record görünür fakat hepsi legacy_unbound, anchor_evidence'siz reader summary kaydıdır. Exact carrier, independent trigger ve focus return sağlamayan özetler ayrı finding olarak kabul edilmedi; exact semantic duplicate olanlar mevcut trusted bulgulara temsil edildi.",
+    "sup_6b714f9168ec9525c2a7, basmala ve ölçü/rahim çağrışımlarını packet içinde ayrı typed branch veya seçili context occurrence olmadan kullanıyor. Bu nedenle doğum-benzeri ok yalnızca 97:3-4, odak doğuş eşiği ve Fajr yarılmasıyla exploratory olarak sınırlandı.",
+    "Taşma/doluluk önerisi için trusted sup_f8633240199d57a7846f reject dereceli karşı kanıt olarak korunuyor; aynı relation yalnız typed B007-B005 temasına ve açık bir accumulation sınırına sahip exploratory bulgu olarak bırakıldı.",
+    "Uncandidate focus branches arasından B002 ilahi ad/selamlama, B003 boyun eğme ve diğer nesne/anatomik dallar için paket bağlantıları materially changed reading üreten bağımsız carrier-trigger contact kurmadı; bu kullanılabilirlik değil aktivasyon sınırıdır."
+  ]
+}

@@ -1,0 +1,909 @@
+{
+  "schema_version": "commentary-v5-scope-discovery-v1",
+  "ayah_ref": "99:2",
+  "lane": "global",
+  "coverage_complete": true,
+  "candidate_decisions": [
+    {
+      "candidate_id": "cand_7af9d9bc973016b4b726",
+      "decision": "accept",
+      "reason": "Güvenilir yayımlanmış bulgu, أَخْرَجَتِ ile أَثْقَالَهَا arasındaki çıkarma-ağırlık temasını kuruyor; 31:16'nın gizli ve zerre ölçeğindeki şeyin ortaya getirilmesi bu teması focus dışından bağımsız biçimde tetikliyor.",
+      "finding_refs": ["global:extracted-evidence"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_d03ebdefd863cf9cdd6d",
+      "decision": "accept",
+      "reason": "Güvenilir yayımlanmış bulgu, أَثْقَالَهَا içindeki çoğul ağırlığı ölçülebilir envanter olarak kuruyor; 101:6'nın ağır terazileri ve 4:40'ın zerre ağırlığı, ağırlık ile hesap ilişkisinin bağımsız geniş tetikleyicileridir.",
+      "finding_refs": ["global:measured-account"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_45e6578cbd391a9fa322",
+      "decision": "accept",
+      "reason": "Güvenilir kaynak, yeryüzünün taşıdığı şeyleri üretken ve gebelikte ağırlaşan bir taşıyıcı beden gibi okuyor; 79:31 ve 32:27 toprağın ürün çıkarmasını, 22:2 ise taşıyıcı yükün doğum anında bırakılmasını focus eylemine bağımsız biçimde bağlıyor.",
+      "finding_refs": ["global:productive-delivery"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_c098ac9039c585e4b29c",
+      "decision": "accept",
+      "reason": "Güvenilir yayımlanmış bulgu, üretken toprak, ölçü ağırlığı ve belirli mali çıkış dallarını tek bir vadesi gelmiş karşılık ilişkisi olarak bağlıyor; 79:31'in yerden ürün çıkışı, 29:13'ün sorulacak yükleri ve 4:40'ın zerre ölçüsü bu ilişkiyi geniş bağlamda somutlaştırıyor.",
+      "finding_refs": ["global:due-yield"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_caef48db61f6b46adbd3",
+      "decision": "reject",
+      "reason": "Sağlanan yayımlanmış destek bu yolu reject olarak işaretliyor; 56:4 ve 86:12 sarsılma ve yarılmayı gösterse de focus dışı kaynaklarda yara, irin veya hastalıklı beden taşıyıcısı yok, dolayısıyla global patolojik dal için bağımsız tetikleyici zinciri tamamlanmıyor.",
+      "finding_refs": [],
+      "branch_exclusions": [
+        {"branch_ref": "root_000025/B011", "reason": "Yara ve irinlenme çekirdeğini taşıyan bir focus dışı beden/lezyon tetikleyicisi sağlanmıyor; mevcut geniş bağlantılar yalnızca yer sarsıntısı ve yarılmasıdır."},
+        {"branch_ref": "root_000400/B004", "reason": "Beden yüzeyindeki şişlik veya yaranın focus eylemiyle temasını kuracak bağımsız global carrier/trigger çifti yoktur."}
+      ],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_8e63acf0a315b93dedb2",
+      "decision": "narrow",
+      "reason": "Reader walk'ın gizli içeriğin çıkarılarak kanıta dönüşmesi çekirdeği, 31:16 ve 100:10'un focus dışı gizli-içerik açıklama temaslarıyla global ölçekte taşınabilir. root_000299/B006 yalnızca adlandırılmış kaynak imgesi olarak verilmiş ve focus carrier'ı yoktur; bu nedenle çıkarma ve ağırlık çekirdeği korunup o dal dışarıda bırakılmıştır.",
+      "finding_refs": ["global:burden-disclosure"],
+      "branch_exclusions": [
+        {"branch_ref": "root_000299/B006", "reason": "Nominated dalın packetta focus_root_occurrences kaydı veya ayrıntılı bağımsız facet'i yoktur; global lane için bu dalı taşıyacak exact focus carrier sağlanmamıştır."}
+      ],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_07353ceabe7ec56690ac",
+      "decision": "accept",
+      "reason": "Reader walk legacy_unbound olsa da focus'taki gebelikte ağırlaşma ve dışarı çıkarma dalları kayıtlı carrier'lara sahip. 22:2'nin taşıyıcı yükü bırakması ve 32:27'nin toprağın içinden ürün çıkarması, aynı doğum/üretim okunu global bağlamda bağımsızca kuruyor; çözülmemiş ر ح م/B003 alıntısı kullanılmıyor.",
+      "finding_refs": ["global:carried-load-delivery"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_a3b7a790620bbea5fcb7",
+      "decision": "narrow",
+      "reason": "Reader walk'ın ölçülü ödeme/getiri çekirdeği, 79:31'in yerden çıkarılan ürünleri ile 29:13 ve 4:40'ın hesap ve ölçü temasları üzerinden korunabilir. root_001046/B004 nominated kaynak imgesidir ve packetta focus carrier'ı yoktur; ölçü ağırlığı ile mali çıkış korunmuştur.",
+      "finding_refs": ["global:assessed-yield"],
+      "branch_exclusions": [
+        {"branch_ref": "root_001046/B004", "reason": "Wage/pay source image'i için exact focus occurrence veya registered facet sağlanmadığından global branch activation kurulamaz."}
+      ],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_f951445f68a3bf04a2c3",
+      "decision": "reject",
+      "reason": "Reader walk'ın aynı-sure sarsıntı açıklaması global lane için yeterli değildir. Focus dışı 56:4 ve 86:12 yer sarsıntısı/yarılması sağlar, fakat yara veya irinli şişlik için bağımsız lezyon tetikleyicisi sağlamaz; nominated shrr imgesi de focus carrier'ı olmadan kalır.",
+      "finding_refs": [],
+      "branch_exclusions": [
+        {"branch_ref": "root_000025/B011", "reason": "Global packetta yaranın irinlenmesini taşıyan bağımsız focus dışı beden veya lezyon teması yoktur."},
+        {"branch_ref": "root_000400/B004", "reason": "Sarsıntı ve yarılma, bedensel şişlik dalını tek başına aktive etmez; exact carrier/trigger teması kurulmamıştır."},
+        {"branch_ref": "root_000787/B004", "reason": "Nominated shredding-and-shaking-loose dalı için focus occurrence veya registered facet sağlanmamıştır."}
+      ],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_2bae511515b901fade0a",
+      "decision": "narrow",
+      "reason": "Retrospective kayıt, 99:7'deki ölçü dönüşünü globalde 4:40'ın zerre ağırlığıyla destekliyor; bu, focus ölçü ağırlığı dalına gerçek bir dönüş sağlıyor. root_001633/B001 yalnızca hidden-imparting source image'i ve focus carrier'ı yok; o dal çıkarılarak ölçü çekirdeği korunmuştur.",
+      "finding_refs": ["global:minute-settlement"],
+      "branch_exclusions": [
+        {"branch_ref": "root_001633/B001", "reason": "Nominated hidden-imparting dalı packetta focus occurrence veya registered facet taşımıyor; global activation için exact carrier yoktur."}
+      ],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_47ab4f0811a995f5b300",
+      "decision": "narrow",
+      "reason": "Wide reader walk'ın çıkarma ile kanıt akışını başlatma çekirdeği, 31:16'nın gizli olanı getirme ve 100:10'un içeride olanı görünür kılma bağlantılarıyla globalde gerçek bir carrier/trigger teması kuruyor. root_000299/B006 focus carrier'ı olmayan nominated dal olarak dışarıda bırakılmıştır.",
+      "finding_refs": ["global:extraction-pipeline"],
+      "branch_exclusions": [
+        {"branch_ref": "root_000299/B006", "reason": "Disclosure source image'i için packetta exact focus occurrence veya registered facet sağlanmamıştır."}
+      ],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_86a6481b4db650006a06",
+      "decision": "represented",
+      "reason": "Bu wide reader walk, root_000202/B001 ve B004 çekirdekleriyle ölçülebilir ağırlık-envarteri ilişkisini tam olarak cand_d03ebdefd863cf9cdd6d tarafından taşınan bulguyla paylaşır; ek olarak verilen çözülmemiş ع م ل/B001 alıntısı kayıtlı bir branch veya ayrı bir obligation değildir.",
+      "finding_refs": ["global:measured-account"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_9c3a530c710c0b812223",
+      "decision": "accept",
+      "reason": "Wide reader walk'ın üretken toprak çekirdeği, 79:31 ve 32:27'nin toprağın içinden su, ot, ekin ve ürün çıkarmasıyla focus dışı bağımsız tetikleyiciye kavuşuyor; çözülmemiş ر ح م/B003 alıntısı kullanılmıyor.",
+      "finding_refs": ["global:productive-ground"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_396f65b9caa92ef801f9",
+      "decision": "narrow",
+      "reason": "Wide reader walk'ın ürünün emek karşılığı olarak çıkması çekirdeği, 79:31'in yerden ürün çıkarma ve 29:13'ün yüklerin sorgulanması temaslarıyla sınırlı exploratory bir global bulguya dönüşebilir. root_000387/B003 nominated source image'i için focus carrier sağlanmadığından yalnız mali çıkış dalı korunmuştur.",
+      "finding_refs": ["global:yield-as-return"],
+      "branch_exclusions": [
+        {"branch_ref": "root_000387/B003", "reason": "Sharecropping source image'i packetta focus occurrence, registered facet veya exact carrier sağlamıyor."}
+      ],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_60137067cb7bfe70a5f7",
+      "decision": "reject",
+      "reason": "Retrospective kayıt yalnızca aynı-sure 99:4, 99:6 ve 99:7 hareketlerini özetliyor; branch, exact global carrier veya focus dışı bağımsız trigger sunmadığı için global lane'de ayrı bir bulgu kurmuyor.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_c5039fff62e4560ed910",
+      "decision": "reject",
+      "reason": "hft_002b99b9d6612c5673de kaydı unanchored reader synthesis olarak görünürdür, fakat supplied context ayah, word index, root, attributed role ve focus return trace'i yoktur; bu nedenle forced-release iddiası legacy_unbound HFT kuralını geçemez.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_a83cb07f4eb5413577e0",
+      "decision": "reject",
+      "reason": "hft_ef0b02e67f31716745a9 kaydı burdens-as-testimony özetidir, ancak exact HFT coordinate, root, attributed role ve focus'a dönen contact sağlanmamıştır; unanchored HFT summary tek başına global finding taşıyamaz.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_a639ad0a795279c18a81",
+      "decision": "reject",
+      "reason": "hft_43275845c2d77ba2b44f kaydı minute-weighing özetini verir, fakat supplied ayah/word/root/role/focus-return trace'i bulunmaz; bu nedenle legacy_unbound HFT uygulaması olarak dahi değerlendirilemez.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_5d6383a5018135b5e267",
+      "decision": "reject",
+      "reason": "hft_18d082cde420d71e8846 kaydı birden çok focus içi hareketi tek summary içinde birleştiriyor; exact HFT activation trace'i yok ve record kendisi surah thesis olarak kabul edilemeyeceği için global finding'e dönüştürülemiyor.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_1a0fb70a7d74e6ecb3a8",
+      "decision": "reject",
+      "reason": "hft_1432c77a46e6a2c99418 kaydı mekanik nedensellik hakkındaki belirsizliği bildiriyor, fakat bunu focus'a bağlayan supplied coordinate, word index, root, role ve contact bulunmuyor; görünürlük korunmuş olsa da retained semantic relation kurulamaz.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_7ef5bb4fb9b7abd35657",
+      "decision": "reject",
+      "reason": "hft_eb3f7946abf67edaadb6 kaydı burdens'ın works/news ile özdeşliği konusundaki belirsizliği özetliyor, ancak exact HFT coordinate ve focus return trace'i yoktur; bu summary global carrier ve trigger şartını karşılamaz.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_f83a85e958054188b3d5",
+      "decision": "reject",
+      "reason": "hft_893452fb452b06837c03 kaydı split mapping ve remote bodily/burrow branches hakkında niteliksiz bir summary'dir; supplied word/root/role/contact trace'i olmadığı için globalde attributed aktivasyon kurulamaz.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    }
+  ],
+  "findings": [
+    {
+      "finding_ref": "global:extracted-evidence",
+      "origin_candidate_id": "cand_7af9d9bc973016b4b726",
+      "represented_candidate_ids": [],
+      "title": "Gizli yükün kanıta dönüşmesi",
+      "claim": "Focus'taki ağırlıklar, yalnızca yerin taşıdığı nesneler olarak kalmayıp dışarı çıkarıldıklarında görünür bir kanıt malzemesine dönüşür.",
+      "mechanism": "Carrier olarak أَثْقَالَهَا'nın ağırlık çekirdeği ve أَخْرَجَتِ'nin saklı şeyi çıkarıp elde etme facet'i, 31:16'da yerin içindeki zerre ölçüsündeki gizli şeyin getirilmesiyle temas eder; bu temas yükü saklı durumdan kanıt alanına taşır.",
+      "reader_payoff": "Okur, çıkarılmayı yalnızca mekânsal boşaltma değil, gizli olanın sonradan görülebilir ve değerlendirilebilir hale gelmesi olarak da algılar.",
+      "containment": "Yerin gerçek yüklerinin fiziksel anlamı korunur; bunların her durumda insan fiilleriyle özdeş olduğu veya 31:16'nın focus ayetini açıklayan tek okuma olduğu ileri sürülmez.",
+      "epistemic": {
+        "status": "grounded",
+        "source_trust": ["trusted"],
+        "reason": "Güvenilir cross-run bulgu, kayıtlı focus dallarını doğrudan taşır; 31:16'nın exact hedef metni bağımsız gizli-çıkarma temasını sağlar."
+      },
+      "support_ids": ["sup_6579c541aaa4f92daa74"],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000202/B001",
+          "facet_id": "F001",
+          "branch_gloss": "ağırlık",
+          "facet_statement": "Temel anlam, hafifliğin karşıtı olan ağırlık ve ağır gelmedir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["99:2:3:1"],
+          "trigger_refs": ["31:16", "conn_864edc67c71eb8c2c888"],
+          "focus_return_refs": ["99:2:3:1"],
+          "carrier": "أَثْقَالَهَا yüzeyi, hafifliğin karşıtı olan somut ağırlıkları taşır.",
+          "independent_trigger": "31:16, yeryüzünün içinde bulunan zerre ölçüsündeki şeyin dahi getirileceğini söyler.",
+          "activation": "Focus ağırlığı, dışarı çıkarılınca saklı kalmayan küçük ve belirlenebilir içerik fikriyle temas eder.",
+          "resulting_reading": "Yerin ağırlıkları, gizli tutulmuş fakat ortaya çıktığında kanıt değeri kazanan yükler olarak görünür.",
+          "boundary": "Ağırlık çekirdeği korunur; ahlaki yüklerin bu ayette zorunlu tek karşılık olduğu söylenmez."
+        },
+        {
+          "branch_ref": "root_000400/B002",
+          "facet_id": "F002",
+          "branch_gloss": "bir şeyi çıkarma, elde etme veya yetiştirme",
+          "facet_statement": "İşlem, saklı ya da örtük bir şeyi çıkarıp elde etme biçiminde gerçekleşebilir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["99:2:1:2"],
+          "trigger_refs": ["31:16", "conn_864edc67c71eb8c2c888"],
+          "focus_return_refs": ["99:2:1:2"],
+          "carrier": "أَخْرَجَتِ, bir şeyi bulunduğu yerden çıkaran ettirgen eylemi taşır.",
+          "independent_trigger": "31:16'daki gizli şeyin yeri ne olursa olsun getirilmesi, saklı içeriğin görünür elde edilişini tetikler.",
+          "activation": "Ettirgen çıkarma carrier'ı, gizli içeriğin bilgisel olarak elde edilmesiyle birleşerek focus eylemini ifşa hareketine genişletir.",
+          "resulting_reading": "Çıkarma, yükü kapalı bir depodan dışarı alıp kanıt olarak erişilebilir kılan ilk aşama olur.",
+          "boundary": "Disclosure sonucu desteklenir; failin kimliği veya her çıkarılan şeyin ahlaki kayıt olduğu belirlenmez."
+        }
+      ],
+      "connection_refs": ["conn_864edc67c71eb8c2c888"],
+      "context_refs": ["31:16"],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:measured-account",
+      "origin_candidate_id": "cand_d03ebdefd863cf9cdd6d",
+      "represented_candidate_ids": ["cand_86a6481b4db650006a06"],
+      "title": "Yüklerin ölçülebilir hesabı",
+      "claim": "Yerin çoğul yükleri, ağırlığın tek bir kütle olarak kalmadığı, ayrı ayrı tartılabilir bir hesap alanına açılır.",
+      "mechanism": "أَثْقَالَهَا'nın ağırlık facet'i 101:6'daki ağır terazilerle, ölçü ağırlığı facet'i ise 4:40'taki zerre ağırlığı ve adalet ilişkisiyle temas eder; bu iki bağlantı çoğul yükü ölçülebilir bir envantere dönüştürür.",
+      "reader_payoff": "Okur, çoğul ağırlığın belirsiz bir yığın değil, en küçük ölçekte bile kaybolmayan farklılaştırılmış bir değerlendirme alanı olduğunu fark eder.",
+      "containment": "Bu, focus yüklerini sorumluluk ve ölçü bağlamına taşıyan bir rezonanstır; insan eylemlerinin ayette açıkça isimlendirildiği veya her yükün yalnızca ahlaki olduğu iddia edilmez.",
+      "epistemic": {
+        "status": "grounded",
+        "source_trust": ["trusted"],
+        "reason": "Güvenilir yayımlanmış bulgu, iki kayıtlı weight branch'ini taşır; 101:6 ve 4:40 exact hedefleri ölçme ve zerre adaleti temasını bağımsızca verir."
+      },
+      "support_ids": ["sup_7c207dc3c5e6fde5f670"],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000202/B001",
+          "facet_id": "F001",
+          "branch_gloss": "ağırlık",
+          "facet_statement": "Temel anlam, hafifliğin karşıtı olan ağırlık ve ağır gelmedir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["99:2:3:1"],
+          "trigger_refs": ["101:6", "conn_34a3b05370b6bc72c511"],
+          "focus_return_refs": ["99:2:3:1"],
+          "carrier": "أَثْقَالَهَا, hafifliğin karşıtı olan ağırlıkların çoğulunu taşır.",
+          "independent_trigger": "101:6, ağır gelen terazileri yargı ölçüsü içinde adlandırır.",
+          "activation": "Çoğul focus ağırlığı, ağır terazilerdeki hesaplanabilir sonuçla temas ederek yüklerin değerlendirmeye girdiğini gösterir.",
+          "resulting_reading": "Yerin çıkardığı yükler, yargıda karşılığı olan ağır gelen sonuçların envanteri gibi duyulur.",
+          "boundary": "Ağırlık ve hesap ilişkisi korunur; terazilerin bütün ayrıntıları veya belirli failler focus'a eklenmez."
+        },
+        {
+          "branch_ref": "root_000202/B004",
+          "facet_id": "F002",
+          "branch_gloss": "ölçü ağırlığı",
+          "facet_statement": "Bir şeyin kendi ağırlık miktarı veya ona denk tartı karşılığı ifade edilebilir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["99:2:3:1"],
+          "trigger_refs": ["4:40", "conn_b02c21e6fa721b04a5c4"],
+          "focus_return_refs": ["99:2:3:1"],
+          "carrier": "أَثْقَالَهَا, bir şeyin ağırlık miktarı ve ona denk tartı karşılığını taşıyabilecek ölçü dalına açılır.",
+          "independent_trigger": "4:40, zerre ağırlığında iyilik ve karşılığını kaybetmeme ilişkisini kurar.",
+          "activation": "Focus yükü, zerre ölçeğindeki karşılık ilkesiyle temas edince çoğul içerik ölçülebilen tekil değer birimlerine ayrılır.",
+          "resulting_reading": "Yüklerin dışarı çıkışı, tek tek ölçülebilen ve hesabı kaybolmayan karşılıkların açığa çıkışıdır.",
+          "boundary": "Ölçü ve karşılık ilişkisi sınırlandırılmıştır; ayetin bütün hüküm düzeni veya yalnızca iyilik hesabı taşınmaz."
+        }
+      ],
+      "connection_refs": ["conn_34a3b05370b6bc72c511", "conn_b02c21e6fa721b04a5c4"],
+      "context_refs": ["101:6", "4:40"],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:productive-delivery",
+      "origin_candidate_id": "cand_45e6578cbd391a9fa322",
+      "represented_candidate_ids": [],
+      "title": "Üretken taşıyıcının doğurması",
+      "claim": "Yeryüzü, ağırlaşan içeriğini dışarı veren edilgin bir kapı olmanın yanında, taşıdığı şeyi olgunlaştırıp doğuran üretken bir beden olarak da görünür.",
+      "mechanism": "ٱلْأَرْضُ'nun verimli toprak facet'i 79:31'de yerden su ve ot çıkarılmasıyla; أَثْقَالَهَا'nın gebelikte ağırlaşma facet'i 22:2'de taşıyıcının yükünü bırakmasıyla; أَخْرَجَتِ'nin yalın dışarı geçiş facet'i 32:27'de toprağın ürün çıkarmasıyla temas eder.",
+      "reader_payoff": "Okur, sarsıntılı çıkışı yalnızca boşaltma değil, içeride taşınan şeyin zamanı geldiğinde dışarı verilmesi olarak da algılar.",
+      "containment": "Üretkenlik ve doğum imgesi temel 'yer ağırlıklarını çıkardı' cümlesine eklenir; fiziksel olayın gerçekliği, belirli bir canlı doğumu veya tek bir nedensellik açıklaması ortadan kaldırılmaz.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": ["trusted"],
+        "reason": "Yayımlanmış destek trusted olsa da bağlantıların bir bölümü orta kuvvettedir; kayıtlı facet'ler ve exact global hedefler relation'ı taşırken beden/doğum birleştirmesi sınırlı çıkarımdır."
+      },
+      "support_ids": ["sup_c28cff613cd76d4a1634"],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000025/B002",
+          "facet_id": "F001",
+          "branch_gloss": "yumuşak ve verimli toprak",
+          "facet_statement": "Toprak veya çayırlık yumuşak, verimli ve iyi bitki yetiştirir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["99:2:2:2"],
+          "trigger_refs": ["79:31", "conn_a3fba5a40ec241426b97"],
+          "focus_return_refs": ["99:2:2:2"],
+          "carrier": "ٱلْأَرْضُ, üzerinde üretim gerçekleşen yumuşak ve verimli toprağı taşıyabilir.",
+          "independent_trigger": "79:31, yeryüzünden suyunun ve otlağının çıkarılmasını gösterir.",
+          "activation": "Verimli toprak carrier'ı, dışarı çıkarılan ürünün toprağın içinde hazırlanmış bir sonuç olduğunu gösteren geniş üretim sahnesiyle buluşur.",
+          "resulting_reading": "Yerin yükleri, üretken toprağın içinde birikmiş ve çıkışa hazır hale gelmiş içerikler gibi duyulur.",
+          "boundary": "Dalın çekirdeği verimli topraktır; bütün yüklerin bitki veya su olduğu söylenmez."
+        },
+        {
+          "branch_ref": "root_000202/B007",
+          "facet_id": "F001",
+          "branch_gloss": "gebelikte ağırlaşma",
+          "facet_statement": "Kadın, karnındaki gebelik yükü sebebiyle ağırlaşır.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["99:2:3:1"],
+          "trigger_refs": ["22:2", "conn_3fe64056c9a335b6a9d1"],
+          "focus_return_refs": ["99:2:3:1"],
+          "carrier": "أَثْقَالَهَا, gebelik yüküyle ağırlaşan taşıyıcının yükünü adlandırabilecek ağırlık facet'ini taşır.",
+          "independent_trigger": "22:2, gebelik taşıyanın kendi yükünü bırakmasını exact hedef metinde gösterir.",
+          "activation": "Focus'taki çoğul yük, gebeliğin ağırlaştırdığı taşıyıcı ve doğumda bırakılan yük ilişkisiyle temas eder.",
+          "resulting_reading": "Yerin ağır yükleri, içeride taşınmış ve artık dışarı verilme eşiğine gelmiş şeyler olarak görünür.",
+          "boundary": "Bu yalnızca taşıma/doğurma analojisidir; yeryüzüne literal gebelik veya tek bir canlı içeriği yüklenmez."
+        },
+        {
+          "branch_ref": "root_000400/B001",
+          "facet_id": "F001",
+          "branch_gloss": "bir yerden ya da durumdan dışarı çıkma",
+          "facet_statement": "Bir yerden, kapsayıcıdan veya durumdan dışarıya geçme hareketi gerçekleşir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["99:2:1:2"],
+          "trigger_refs": ["32:27", "conn_d466e062f7e7c89a8945"],
+          "focus_return_refs": ["99:2:1:2"],
+          "carrier": "أَخْرَجَتِ, bir kapsayıcıdan dışarı geçiş hareketini açıkça taşır.",
+          "independent_trigger": "32:27, suyun ulaştığı topraktan ekin çıkarılmasını gösterir.",
+          "activation": "Dışarı geçiş carrier'ı, toprağın içinden görünür ürüne dönüşen çıkışla temas ederek eylemi üretim sonucu olarak renklendirir.",
+          "resulting_reading": "Çıkış, içeride taşınanın sarsıntıyla rastgele atılması kadar, olgunlaşmış bir sonucun dışarı verilmesi şeklinde de okunur.",
+          "boundary": "Yalın dışarı çıkış korunur; 32:27'nin bitki nesnesi focus yükleriyle özdeşleştirilmez."
+        }
+      ],
+      "connection_refs": ["conn_a3fba5a40ec241426b97", "conn_3fe64056c9a335b6a9d1", "conn_d466e062f7e7c89a8945"],
+      "context_refs": ["79:31", "22:2", "32:27"],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:due-yield",
+      "origin_candidate_id": "cand_c098ac9039c585e4b29c",
+      "represented_candidate_ids": [],
+      "title": "Vadesi gelmiş karşılık",
+      "claim": "Yerin çıkardıkları, üretken bir zemine bırakılmış emeğin ölçülü, sorgulanabilir ve vadesi gelmiş karşılığı gibi de duyulur.",
+      "mechanism": "ٱلْأَرْضُ'nun verimli toprak facet'i 79:31'in yerden ürün çıkışıyla, أَخْرَجَتِ'nin mali çıkış facet'i 79:31 ve 29:13'ün yük-sorgu ilişkisiyle, أَثْقَالَهَا'nın ölçü facet'i 4:40'ın zerre ağırlığıyla buluşur; böylece çıkarma, hesabı ödenen getiri görünümü kazanır.",
+      "reader_payoff": "Okur, dışarı çıkan yükleri yalnızca içeride bulunmuş nesneler olarak değil, dünyaya bırakılmış bir şeyin karşılığı olarak da okuyabilir.",
+      "containment": "Ürün, ödeme ve karşılık yönleri bağlı bir global rezonanstır; ayet yeryüzünün ekonomik bir fail olduğunu veya bütün yüklerin insan emeğinden oluştuğunu bildirmez.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": ["trusted"],
+        "reason": "Trusted publication support weak retrieval grade ile sunuluyor; global hedefler üretim, sorgu ve ölçüyü destekliyor, fakat emeğin toprağa depo edilmesi çıkarımsal kalıyor."
+      },
+      "support_ids": ["sup_11691b7c047c5bafb217"],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000025/B002",
+          "facet_id": "F001",
+          "branch_gloss": "yumuşak ve verimli toprak",
+          "facet_statement": "Toprak veya çayırlık yumuşak, verimli ve iyi bitki yetiştirir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["99:2:2:2"],
+          "trigger_refs": ["79:31", "conn_a3fba5a40ec241426b97"],
+          "focus_return_refs": ["99:2:2:2"],
+          "carrier": "ٱلْأَرْضُ, ürün yetiştiren ve sonuç çıkaran zemini taşır.",
+          "independent_trigger": "79:31, yerden su ve mera çıkarılmasını somut ürün çıkışı olarak verir.",
+          "activation": "Üretken zemin, focus çıkışını içeride oluşmuş bir hasadın veya getiri sonucunun dışarı verilmesiyle temas ettirir.",
+          "resulting_reading": "Yerin çıkardığı şeyler, toprağın taşıdığı ve zamanı gelince verdiği verim gibi görünür.",
+          "boundary": "Üretken toprak korunur; belirli bir ürün, ücret veya tarihsel ekonomik düzen zorunlu kılınmaz."
+        },
+        {
+          "branch_ref": "root_000202/B004",
+          "facet_id": "F002",
+          "branch_gloss": "ölçü ağırlığı",
+          "facet_statement": "Bir şeyin kendi ağırlık miktarı veya ona denk tartı karşılığı ifade edilebilir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["99:2:3:1"],
+          "trigger_refs": ["4:40", "conn_b02c21e6fa721b04a5c4"],
+          "focus_return_refs": ["99:2:3:1"],
+          "carrier": "أَثْقَالَهَا, ölçülen miktar ve ona denk karşılık alanını taşır.",
+          "independent_trigger": "4:40, zerre ağırlığındaki değerin bile hesaptan düşmediğini gösterir.",
+          "activation": "Ölçü ağırlığı, toprağın çıkardığı karşılığın belirsiz değil, denk miktarla belirlenebilir olmasını sağlar.",
+          "resulting_reading": "Karşılık, ağırlığı kadar ölçülebilen ve kaybolmayan bir çıktı olarak görünür.",
+          "boundary": "Ölçü fikri korunur; focus yüklerinin tamamı iyilik veya ücret birimi sayılmaz."
+        },
+        {
+          "branch_ref": "root_000400/B003",
+          "facet_id": "F001",
+          "branch_gloss": "düzenli mali yükümlülük, getiri veya gider",
+          "facet_statement": "Bir yükümlü tarafından belirli ölçü veya döneme göre çıkarılan mali değer söz konusudur.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["99:2:1:2"],
+          "trigger_refs": ["79:31", "conn_a3fba5a40ec241426b97", "29:13", "conn_0d59d5abc78bc7a6ee50"],
+          "focus_return_refs": ["99:2:1:2"],
+          "carrier": "أَخْرَجَتِ, çıkarılan değeri düzenli bir mali çıkış olarak duyurabilecek ettirgen formu taşır.",
+          "independent_trigger": "79:31'in yerden verilen ürün çıkışı ve 29:13'ün yüklerin sonradan sorgulanması, çıkarılan şeyi hesaplanan bir karşılık alanına yerleştirir.",
+          "activation": "Mali çıkış carrier'ı, üretim sonucu ve sorgulanabilir yük tetikleyicileriyle temas edince boşaltma eylemi vadesi gelmiş getiri/ödeme hareketi gibi görünür.",
+          "resulting_reading": "Yerin verdiği çıktı, belirli bir ölçüye göre çıkarılan ve hesabı sorulabilen bir karşılık olur.",
+          "boundary": "Bu dalın ödeme/getiri yönü korunur; yeryüzüne literal ekonomik irade veya tek bir mali tür yüklenmez."
+        }
+      ],
+      "connection_refs": ["conn_a3fba5a40ec241426b97", "conn_b02c21e6fa721b04a5c4", "conn_0d59d5abc78bc7a6ee50"],
+      "context_refs": ["79:31", "4:40", "29:13"],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:burden-disclosure",
+      "origin_candidate_id": "cand_8e63acf0a315b93dedb2",
+      "represented_candidate_ids": [],
+      "title": "İçerideki yükün ifşası",
+      "claim": "Yerin taşıdığı yük, saklı bir içeriğin dışarı çıkarılıp görünür kanıta çevrilmesiyle ahlaki sorumluluk alanına doğru da açılır.",
+      "mechanism": "أَثْقَالَهَا'nın soyut değerlere taşınabilen ağırlık facet'i 100:10'da göğüslerin içindekilerin toplanıp açığa çıkarılmasıyla; أَخْرَجَتِ'nin saklı şeyi elde etme facet'i 31:16'da gizli zerreyi getirme ilişkisiyle temas eder.",
+      "reader_payoff": "Okur, ağır yükleri yalnızca maddi birikim olarak değil, içte saklı kalmış ve sonradan delil haline gelen sorumluluklar olarak da hisseder.",
+      "containment": "Bu, carrier'ın soyutlaşmaya açık facet'ini kullanan qualified bir global rezonanstır; root_000299/B006'nın ayrı disclosure dalı, focus carrier yokluğu nedeniyle bu bulguya dahil edilmez.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": ["legacy_unbound"],
+        "reason": "Reader walk legacy_unbound'dur; buna karşılık iki exact global hedef gizli içerik ve ifşa temasını bağımsızca destekler."
+      },
+      "support_ids": ["sup_0a53c97e965d3f610e3c"],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000025/B001",
+          "facet_id": "F001",
+          "branch_gloss": "yer ve yere bakan alt bölüm",
+          "facet_statement": "Göğün karşısında aşağıda bulunan ve üzerinde yaşanan yer küresidir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["99:2:2:2"],
+          "trigger_refs": ["77:25", "conn_0d289ecea29291a21e49", "31:16", "conn_864edc67c71eb8c2c888"],
+          "focus_return_refs": ["99:2:2:2"],
+          "carrier": "ٱلْأَرْضُ, göğün karşısında bulunan ve üzerinde yaşanan yer küresi olarak focus'un taşıyıcı zeminidir.",
+          "independent_trigger": "77:25, yeryüzünü canlıları ve ölüleri tutan bir alan olarak adlandırır; 31:16 da onun içindeki gizli şeyin getirilebileceğini gösterir.",
+          "activation": "Yer küresi carrier'ı, içinde tutma ve saklı olanı dışarı verme temaslarıyla buluşunca earth, yükün yalnızca bulunduğu yüzey değil onu taşıyan kap olur.",
+          "resulting_reading": "Yerin çıkardığı ağırlıklar, yeryüzünün içinde tutup sonra açığa çıkardığı içerikler olarak görünür.",
+          "boundary": "Yer ve taşıyıcı zemin anlamı korunur; 77:25'in bütün canlı-ölü kapsamı focus yükleriyle özdeşleştirilmez."
+        },
+        {
+          "branch_ref": "root_000202/B001",
+          "facet_id": "F002",
+          "branch_gloss": "ağırlık",
+          "facet_statement": "Cisimlerdeki ağırlık çekirdeği, soyut durumlara ve değer yargılarına da taşınabilir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["99:2:3:1"],
+          "trigger_refs": ["100:10", "conn_2c60a93551470fc3a489"],
+          "focus_return_refs": ["99:2:3:1"],
+          "carrier": "أَثْقَالَهَا, maddi ağırlığın soyut sorumluluk ve değer alanına taşınmasına izin verir.",
+          "independent_trigger": "100:10, göğüslerde saklanan içeriğin toplanıp açığa çıkarılmasını exact hedefte gösterir.",
+          "activation": "Soyut ağırlık carrier'ı, içte saklı içeriklerin dışarıda bilinir hale gelmesiyle temas ederek yükü görünür sorumluluk olarak renklendirir.",
+          "resulting_reading": "Yerin çıkardığı yükler, içeride saklanmış ve görünür delil olarak toplanan sorumluluklar gibi duyulur.",
+          "boundary": "Ağırlığın soyutlaşması korunur; göğüslerdeki içerik ile yer yüklerinin literal özdeşliği kurulmaz."
+        },
+        {
+          "branch_ref": "root_000400/B002",
+          "facet_id": "F002",
+          "branch_gloss": "bir şeyi çıkarma, elde etme veya yetiştirme",
+          "facet_statement": "İşlem, saklı ya da örtük bir şeyi çıkarıp elde etme biçiminde gerçekleşebilir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["99:2:1:2"],
+          "trigger_refs": ["31:16", "conn_864edc67c71eb8c2c888"],
+          "focus_return_refs": ["99:2:1:2"],
+          "carrier": "أَخْرَجَتِ, örtük olanı dışarı alıp elde etme ettirgenliğini taşır.",
+          "independent_trigger": "31:16, gizli bir zerre ölçüsündeki şeyin yerin içinde olsa da getirilmesini bildirir.",
+          "activation": "Focus çıkarma eylemi, gizli içeriğin konumundan bağımsız biçimde elde edilmesiyle temas eder.",
+          "resulting_reading": "Çıkış, kapalı kalmış yükün kanıt haline gelmek üzere ifşa edilmesidir.",
+          "boundary": "İfşa hareketi eklenir; bunun belirli bir haberci, fail veya bütün sureye yayılan sistem olduğu söylenmez."
+        }
+      ],
+      "connection_refs": ["conn_0d289ecea29291a21e49", "conn_2c60a93551470fc3a489", "conn_864edc67c71eb8c2c888"],
+      "context_refs": ["77:25", "100:10", "31:16"],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:carried-load-delivery",
+      "origin_candidate_id": "cand_07353ceabe7ec56690ac",
+      "represented_candidate_ids": [],
+      "title": "Taşınmış yükün bırakılması",
+      "claim": "Yerin ağır yükleri, uzun süre taşınmış bir içeriğin dışarı verilme eşiğine gelmesiyle, taşıyan bedenin doğum benzeri teslim hareketi olarak da duyulur.",
+      "mechanism": "أَثْقَالَهَا'nın gebelikte ağırlaşma facet'i 22:2'de yükünü bırakan taşıyıcıyla, أَخْرَجَتِ'nin dışarı geçiş facet'i 32:27'de topraktan çıkarılan ürünle temas eder; focus'un dişil yer ve ona dönen zamirleri bu iki geniş tetikleyiciyi aynı taşıma-çıkış ilişkisine bağlar.",
+      "reader_payoff": "Okur, çıkışın yalnızca zorla atılma değil, taşınmış bir içeriğin zamanı geldiğinde teslim edilmesi yönünü de görür.",
+      "containment": "Doğum benzetmesi yerin ve yükün sıradan anlamını korur; focus'a literal rahim, canlı veya 22:2'nin bütün kıyamet sahnesi aktarılmaz.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": ["legacy_unbound"],
+        "reason": "Reader walk legacy_unbound'dur; exact 22:2 ve 32:27 metinleri gebelik-yük ve toprak-ürün temaslarını verir, beden eşleştirmesi ise sınırlı çıkarımdır."
+      },
+      "support_ids": ["sup_eb80de60fdcab03489ba"],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000202/B007",
+          "facet_id": "F001",
+          "branch_gloss": "gebelikte ağırlaşma",
+          "facet_statement": "Kadın, karnındaki gebelik yükü sebebiyle ağırlaşır.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["99:2:3:1"],
+          "trigger_refs": ["22:2", "conn_3fe64056c9a335b6a9d1"],
+          "focus_return_refs": ["99:2:3:1"],
+          "carrier": "أَثْقَالَهَا, bir taşıyıcının gebelik yüküyle ağırlaşmasını duyurabilecek çoğul ağırlık yüzeyidir.",
+          "independent_trigger": "22:2, gebelik taşıyan her varlığın kendi yükünü bırakmasını gösterir.",
+          "activation": "Ağırlaşan taşıyıcı ile bırakılan yük teması, yerin yüklerini içeride taşınmış ve teslim anına erişmiş içerikler olarak renklendirir.",
+          "resulting_reading": "Yerin ağırlaşması, çıkıştan önceki taşıma ve doluluk evresi gibi algılanır.",
+          "boundary": "Gebelik facet'i analojik bağlamdır; yeryüzünün literal canlı organizma olduğu iddia edilmez."
+        },
+        {
+          "branch_ref": "root_000400/B001",
+          "facet_id": "F001",
+          "branch_gloss": "bir yerden ya da durumdan dışarı çıkma",
+          "facet_statement": "Bir yerden, kapsayıcıdan veya durumdan dışarıya geçme hareketi gerçekleşir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["99:2:1:2"],
+          "trigger_refs": ["32:27", "conn_d466e062f7e7c89a8945"],
+          "focus_return_refs": ["99:2:1:2"],
+          "carrier": "أَخْرَجَتِ, kapsayıcıdan dışarı geçiş hareketini taşır.",
+          "independent_trigger": "32:27, toprağın içinden ekin çıkarılmasını verir.",
+          "activation": "Dışarı geçiş, toprakta taşınan şeyin görünür ürün olarak teslim edilmesiyle temas eder.",
+          "resulting_reading": "Yerin çıkarması, içeride birikmiş yükün bir çıkış eylemiyle dış dünyaya teslimidir.",
+          "boundary": "Bu yalnızca dışarı geçiş facet'idir; focus yüklerinin bitkiyle özdeşliği kurulmaz."
+        }
+      ],
+      "connection_refs": ["conn_3fe64056c9a335b6a9d1", "conn_d466e062f7e7c89a8945"],
+      "context_refs": ["22:2", "32:27"],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:assessed-yield",
+      "origin_candidate_id": "cand_a3b7a790620bbea5fcb7",
+      "represented_candidate_ids": [],
+      "title": "Ölçülmüş ödeme ve getiri",
+      "claim": "Çıkarılan yük, ölçüsü belirlenmiş bir mali karşılık veya ürün getirisi gibi okunabildiğinde, yerin dışarı vermesi hesaplaşmanın görünür anına dönüşür.",
+      "mechanism": "أَخْرَجَتِ'nin mali değer çıkarma facet'i 79:31'in yerden verilen ürün ve 29:13'ün sorgulanabilir yükleriyle; أَثْقَالَهَا'nın ölçü facet'i 4:40'ın zerre ağırlığıyla temas eder.",
+      "reader_payoff": "Okur, çıkışı yalnızca hareket değil, miktarı belirlenebilen bir ödeme veya hasat sonucu olarak da kavrar.",
+      "containment": "Mali getiri ve ürün yönleri exploratory/qualified bir ek okumadır; nominated wage/pay dalı focus carrier'ı olmadığı için kullanılmaz ve temel fiziksel çıkış korunur.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": ["legacy_unbound"],
+        "reason": "Wide reader walk legacy_unbound'dur; exact global hedefler ürün, sorgu ve ölçüyü destekler, mali ödeme sentezi bağımsız fakat sınırlı çıkarım olarak kalır."
+      },
+      "support_ids": ["sup_2db8f508b585add04e52"],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000202/B004",
+          "facet_id": "F002",
+          "branch_gloss": "ölçü ağırlığı",
+          "facet_statement": "Bir şeyin kendi ağırlık miktarı veya ona denk tartı karşılığı ifade edilebilir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["99:2:3:1"],
+          "trigger_refs": ["4:40", "conn_b02c21e6fa721b04a5c4"],
+          "focus_return_refs": ["99:2:3:1"],
+          "carrier": "أَثْقَالَهَا, denk tartı miktarı olarak okunabilecek ölçü ağırlığını taşır.",
+          "independent_trigger": "4:40, zerre ağırlığında bir değerin bile karşılıksız kalmadığını gösterir.",
+          "activation": "Ölçü carrier'ı, çıkarılan yükün birimlenmiş ve karşılığı hesaplanabilir bir sonuç olmasına temas eder.",
+          "resulting_reading": "Yerin çıkardığı şeyler, miktarı belirlenmiş bir hesabın kalemleri gibi görünür.",
+          "boundary": "Ölçü çekirdeği korunur; focus'un bütün içeriği mali birim sayılmaz."
+        },
+        {
+          "branch_ref": "root_000400/B003",
+          "facet_id": "F001",
+          "branch_gloss": "düzenli mali yükümlülük, getiri veya gider",
+          "facet_statement": "Bir yükümlü tarafından belirli ölçü veya döneme göre çıkarılan mali değer söz konusudur.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["99:2:1:2"],
+          "trigger_refs": ["79:31", "conn_a3fba5a40ec241426b97", "29:13", "conn_0d59d5abc78bc7a6ee50"],
+          "focus_return_refs": ["99:2:1:2"],
+          "carrier": "أَخْرَجَتِ, belirli bir değerin dışarı çıkarılmasını mali çıkış facet'ine açabilir.",
+          "independent_trigger": "79:31'in yerden ürün vermesi ile 29:13'ün yüklerin sorgulanması, çıkarılan sonucu ölçülü ve hesabı sorulabilir bir getiri olarak tetikler.",
+          "activation": "Çıkarma eylemi, ürün ve sorgu temaslarıyla buluşunca düzenli yükümlülük veya verim karşılığı görünümü kazanır.",
+          "resulting_reading": "Yerin çıkışı, dünyaya bırakılmış emeğin veya değerin geri ödenen çıktısı gibi duyulur.",
+          "boundary": "Mali dalın çekirdeği korunur; belirli bir ücret türü, fail veya tarihsel işlem isnat edilmez."
+        }
+      ],
+      "connection_refs": ["conn_b02c21e6fa721b04a5c4", "conn_a3fba5a40ec241426b97", "conn_0d59d5abc78bc7a6ee50"],
+      "context_refs": ["4:40", "79:31", "29:13"],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:minute-settlement",
+      "origin_candidate_id": "cand_2bae511515b901fade0a",
+      "represented_candidate_ids": [],
+      "title": "Zerreye kadar belirlenen karşılık",
+      "claim": "Focus'taki yük, ölçü dili geniş bağlamda tekrarlandığında, büyük görünen birikimin en küçük karşılık birimine kadar çözülebileceğini gösterir.",
+      "mechanism": "أَثْقَالَهَا'nın ölçü ağırlığı facet'i 4:40'ın zerre ağırlığında değerin kaybolmamasıyla temas eder; bu bağımsız temas, focus çoğul yüklerini tek tek belirlenebilir hesap birimlerine ayırır.",
+      "reader_payoff": "Okur, çoğul yükün belirsizliği saklamadığını, ölçü küçüldükçe daha kesin hale gelen bir karşılık alanı açtığını görür.",
+      "containment": "Bu bulgu ölçü ve hesap yönüyle sınırlıdır; nominated hidden-imparting dalı için focus carrier olmadığı gibi gizli iletişim de ayete eklenmez.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": ["legacy_unbound"],
+        "reason": "Retrospective reader source legacy_unbound'dur; 4:40 exact hedefi ölçü temasını açıkça verir, fakat retrospective kaydın kendi hidden-commission açıklaması global trace olarak mevcut değildir."
+      },
+      "support_ids": ["sup_bad286549d8ea90cc4fb"],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000202/B004",
+          "facet_id": "F002",
+          "branch_gloss": "ölçü ağırlığı",
+          "facet_statement": "Bir şeyin kendi ağırlık miktarı veya ona denk tartı karşılığı ifade edilebilir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["99:2:3:1"],
+          "trigger_refs": ["4:40", "conn_b02c21e6fa721b04a5c4"],
+          "focus_return_refs": ["99:2:3:1"],
+          "carrier": "أَثْقَالَهَا, ölçülen ağırlık ve ona denk karşılık alanını taşır.",
+          "independent_trigger": "4:40, zerre ağırlığındaki değerin bile adalet hesabında korunmasını söyler.",
+          "activation": "Focus çoğul ağırlığı, zerre ölçüsünde bile kaybolmayan karşılıkla temas ederek büyük yükü ayrıştırılmış bir hesap olarak gösterir.",
+          "resulting_reading": "Yerin çıkardığı yükler, ölçü küçülse de belirlenebilirliğini yitirmeyen kalemlerdir.",
+          "boundary": "Yalnız ölçü ağırlığı dalı korunur; ölçünün bütün ahlaki kapsamı focus'a taşınmaz."
+        }
+      ],
+      "connection_refs": ["conn_b02c21e6fa721b04a5c4"],
+      "context_refs": ["4:40"],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:extraction-pipeline",
+      "origin_candidate_id": "cand_47ab4f0811a995f5b300",
+      "represented_candidate_ids": [],
+      "title": "Çıkıştan kanıta uzanan akış",
+      "claim": "Focus'taki çıkarma, dışarıda kalmış tek bir sonuç değil, saklı içeriğin görünür kanıta dönüşmesini başlatan bir süreç olarak da okunur.",
+      "mechanism": "أَخْرَجَتِ'nin saklı şeyi çıkarıp elde etme facet'i 31:16'nın konumdan bağımsız gizli zerreyi getirme ve 100:10'un içeridekini toplama/ifşa etme hedefleriyle temas eder; iki bağlantı çıkarma, bildirme ve görünür kılma yönlerini birbirine bağlar.",
+      "reader_payoff": "Okur, fiilin etkisini yalnızca yükün yer değiştirmesinde değil, daha sonra incelenebilecek bir kanıt zincirinin ilk adımında da görür.",
+      "containment": "Bu, extraction branch'inin global süreç rezonansıdır; disclosure nominated dalı focus carrier'ı olmadığı için ayrı branch olarak kabul edilmez ve olayın bütün sonraki aşamaları focus'a yüklenmez.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": ["legacy_unbound"],
+        "reason": "Wide reader walk legacy_unbound'dur; iki exact global bağlantı saklı içeriğin açığa çıkışını destekler, fakat tek bir kayıt zinciri oldukları çıkarımsaldır."
+      },
+      "support_ids": ["sup_b43d2bf70e3b72928539"],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000400/B002",
+          "facet_id": "F002",
+          "branch_gloss": "bir şeyi çıkarma, elde etme veya yetiştirme",
+          "facet_statement": "İşlem, saklı ya da örtük bir şeyi çıkarıp elde etme biçiminde gerçekleşebilir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["99:2:1:2"],
+          "trigger_refs": ["31:16", "conn_864edc67c71eb8c2c888", "100:10", "conn_2c60a93551470fc3a489"],
+          "focus_return_refs": ["99:2:1:2"],
+          "carrier": "أَخْرَجَتِ, saklı veya örtük olanı çıkarıp görünür kılan ettirgen işlemi taşır.",
+          "independent_trigger": "31:16 gizli zerreyi getirmeyi, 100:10 ise içteki içeriğin açığa çıkarılmasını exact hedeflerde gösterir.",
+          "activation": "Ettirgen çıkarma, gizli içeriğin getirilmesi ve içtekinin görünürleşmesiyle temas ederek focus fiilini ifşa akışının ilk hareketi yapar.",
+          "resulting_reading": "Yerin çıkarması, kapalı içeriği dışarı alıp sonraki bildirime ve değerlendirmeye hazırlar.",
+          "boundary": "Süreç bağlantısı sınırlıdır; target ayatın eksik morfolojisi doldurulmaz ve sonraki aşamalar focus fiiline literal olarak yüklenmez."
+        }
+      ],
+      "connection_refs": ["conn_864edc67c71eb8c2c888", "conn_2c60a93551470fc3a489"],
+      "context_refs": ["31:16", "100:10"],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:productive-ground",
+      "origin_candidate_id": "cand_9c3a530c710c0b812223",
+      "represented_candidate_ids": [],
+      "title": "İçeriden ürün veren zemin",
+      "claim": "Yeryüzü, yalnızca yüklerin üzerinde durduğu zemin değil, içindeki kaynakları ürün olarak dışarı veren üretken bir taşıyıcıdır.",
+      "mechanism": "ٱلْأَرْضُ'nun yumuşak ve verimli toprak facet'i 79:31'de su ve otlağın yerden çıkmasıyla, 32:27'de suyla beslenen topraktan ekinin çıkarılmasıyla temas eder; bu dış tetikleyiciler focus öznesinin üretken zemin yönünü aktive eder.",
+      "reader_payoff": "Okur, yerin dışarı çıkardığı yükleri, içinde hazırlanmış ve görünür ürüne dönüşen kaynaklar olarak da kavrar.",
+      "containment": "Üretken toprak facet'i temel 'yer' anlamını destekler; focus yüklerinin tamamı su, ot veya ekin sayılmaz ve çözülmemiş ر ح م/B003 imgesi kullanılmaz.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": ["legacy_unbound"],
+        "reason": "Wide reader source legacy_unbound'dur; 79:31 ve 32:27 exact metinleri toprağın üretimden ürün çıkarmasını doğrudan destekler."
+      },
+      "support_ids": ["sup_fca550fb27568778dd21"],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000025/B002",
+          "facet_id": "F001",
+          "branch_gloss": "yumuşak ve verimli toprak",
+          "facet_statement": "Toprak veya çayırlık yumuşak, verimli ve iyi bitki yetiştirir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["99:2:2:2"],
+          "trigger_refs": ["79:31", "conn_a3fba5a40ec241426b97", "32:27", "conn_d466e062f7e7c89a8945"],
+          "focus_return_refs": ["99:2:2:2"],
+          "carrier": "ٱلْأَرْضُ, ürün yetiştiren verimli toprak anlamını taşıyabilir.",
+          "independent_trigger": "79:31 ve 32:27, yerden su, ot ve ekin çıkarılmasını exact hedeflerde verir.",
+          "activation": "Verimli zemin carrier'ı, yerin içinden çıkan ürünlerin toprağa ait hazırlanmış sonuçlar olduğunu gösteren iki bağımsız üretim sahnesiyle birleşir.",
+          "resulting_reading": "Yerin taşıdığı ve çıkardığı yükler, iç kaynakların görünür ürünlere dönüşmesi imgesini de taşır.",
+          "boundary": "Dalın çekirdeği verimli topraktır; focus yüklerinin belirli ürünlerle özdeşliği kurulmaz."
+        }
+      ],
+      "connection_refs": ["conn_a3fba5a40ec241426b97", "conn_d466e062f7e7c89a8945"],
+      "context_refs": ["79:31", "32:27"],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:yield-as-return",
+      "origin_candidate_id": "cand_396f65b9caa92ef801f9",
+      "represented_candidate_ids": [],
+      "title": "Ürün gibi geri dönen çıktı",
+      "claim": "Çıkarma eylemi, üretken zeminin içinde çalışılmış bir şeyin ürünü veya geri dönen karşılığı olarak da duyulabilir.",
+      "mechanism": "أَخْرَجَتِ'nin mali getiri facet'i 79:31'in yerden ürün verilmesiyle ve 29:13'ün yüklerin sonradan sorgulanmasıyla temas eder; bu iki global hedef, çıkışı üretim ve hesap arasındaki geri dönüş hareketine bağlar.",
+      "reader_payoff": "Okur, dışarı çıkan şeyi yalnızca boşaltılmış yük değil, zemine bırakılmış emeğin ölçülebilir sonucu gibi görebilir.",
+      "containment": "Bu exploratory bir üretim-hesap analojisidir; nominated sharecropping dalı focus carrier'ı olmadan dışarıda kalır ve insan emeği focus metninin zorunlu öznesi yapılmaz.",
+      "epistemic": {
+        "status": "exploratory",
+        "source_trust": ["legacy_unbound"],
+        "reason": "Wide reader source legacy_unbound ve kendi desteği de emeğin depo edildiği iddiasını inference olarak niteliyor; exact bağlantılar yalnız ürün ve sorgu temasını sağlar."
+      },
+      "support_ids": ["sup_64abaf564d769b4f4193"],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000400/B003",
+          "facet_id": "F001",
+          "branch_gloss": "düzenli mali yükümlülük, getiri veya gider",
+          "facet_statement": "Bir yükümlü tarafından belirli ölçü veya döneme göre çıkarılan mali değer söz konusudur.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["99:2:1:2"],
+          "trigger_refs": ["79:31", "conn_a3fba5a40ec241426b97", "29:13", "conn_0d59d5abc78bc7a6ee50"],
+          "focus_return_refs": ["99:2:1:2"],
+          "carrier": "أَخْرَجَتِ, ölçülü getiri veya mali çıkışın dışarı verilmesi yönünü taşıyabilir.",
+          "independent_trigger": "79:31'in yerden ürün çıkışı ve 29:13'ün yüklerin sorgulanması, sonucu üretimden doğan ve hesabı sorulabilen çıktı olarak tetikler.",
+          "activation": "Mali getiri carrier'ı, ürün ve sorgu temaslarıyla birleşince focus çıkarma hareketini çalışılmış sonucun geri dönüşü gibi renklendirir.",
+          "resulting_reading": "Dışarı çıkan yük, verimli zemine bırakılan şeyin vadesi gelen ürünü olarak keşfedilir.",
+          "boundary": "Ürün/getiri analojisi exploratory kalır; exact bir sharecropping branch'i veya fail ataması yapılmaz."
+        }
+      ],
+      "connection_refs": ["conn_a3fba5a40ec241426b97", "conn_0d59d5abc78bc7a6ee50"],
+      "context_refs": ["79:31", "29:13"],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:moral-burden",
+      "origin_candidate_id": null,
+      "represented_candidate_ids": [],
+      "title": "Sorumluluk olarak yük",
+      "claim": "أَثْقَالَهَا, wider burden vocabulary ile temas ettiğinde, sahibine yüklenen günah ve suç sorumluluklarını da taşıyan bir yük alanına açılır.",
+      "mechanism": "Focus'taki أَثْقَالَهَا carrier'ı root_000202/B003 F001 günah yükü facet'ini taşır; 29:13'teki çoğul yükler ve kıyamet günü sorgusu bağımsız global trigger olarak bu branch'i fiziksel ağırlıktan sorumluluk yüküne çevirir.",
+      "reader_payoff": "Okur, yerin çıkardığı yüklerde yalnız maddi içerikleri değil, sahibinin taşıdığı ve sonunda sorulan sorumlulukları da duyabilir.",
+      "containment": "Moral yük, yerin fiziksel yükünü silmez; bu genişleme 29:13'ün burden-and-questioning temasına bağlıdır ve her yükü otomatik olarak günah saymaz.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": [],
+        "reason": "Kayıtlı focus branch ve exact 29:13 hedefi doğrudan temas sağlar; hedef morfolojisi packetta bulunmadığı için ilişki qualified tutulur."
+      },
+      "support_ids": [],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000202/B003",
+          "facet_id": "F001",
+          "branch_gloss": "günah yükü",
+          "facet_statement": "Günah ve suçlar sahibine yüklenen ağır sorumluluklar gibi düşünülür.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["99:2:3:1"],
+          "trigger_refs": ["29:13", "conn_0d59d5abc78bc7a6ee50"],
+          "focus_return_refs": ["99:2:3:1"],
+          "carrier": "أَثْقَالَهَا, sahibine yüklenen ağır sorumluluklar facet'ine açılabilen yük çoğuludur.",
+          "independent_trigger": "29:13, çoğul yüklerin kıyamet gününde sorulmasını exact hedefte birleştirir.",
+          "activation": "Focus yükü, sahibiyle birlikte taşınan ve sonradan sorgulanan suç/sorumluluk yüküyle temas eder.",
+          "resulting_reading": "Yerin dışarı çıkardığı şeyler, yalnız nesneler değil, yüklenmiş sorumlulukların görünür karşılıkları gibi duyulur.",
+          "boundary": "Günah yükü branch'i korunur; focus ayetinin bütün yüklerini yalnızca günah olarak tanımlamaz."
+        }
+      ],
+      "connection_refs": ["conn_0d59d5abc78bc7a6ee50"],
+      "context_refs": ["29:13"],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:value-bearing-weight",
+      "origin_candidate_id": null,
+      "represented_candidate_ids": [],
+      "title": "Değer taşıyan ağırlık",
+      "claim": "Ağırlık, yalnızca miktarı değil, değeri ve karşılığı korunmaya layık olan şeyin kıymetini de görünür kılabilir.",
+      "mechanism": "أَثْقَالَهَا carrier'ı root_000202/B005 F001 değer ağırlığı facet'ini taşır; 4:40'taki zerre ağırlığında iyiliğin kaybolmaması ve ödüllendirilmesi, ağırlık ile değer arasında bağımsız global temas kurar.",
+      "reader_payoff": "Okur, dışarı çıkarılan yükün miktarının yanında, tartılmaya değer bir kıymet taşıyabileceğini fark eder.",
+      "containment": "Bu, değer facet'inin sınırlı bir global rezonansıdır; her yükü iyi, ödüllü veya değerli ilan etmez ve ölçü ağırlığı bulgusunun yerine geçmez.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": [],
+        "reason": "Focus branch kayıtlıdır ve 4:40 exact hedefi ağırlık ile iyilik/karşılık temasını verir; target morphology bulunmadığından değer geçişi qualified'dır."
+      },
+      "support_ids": [],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000202/B005",
+          "facet_id": "F001",
+          "branch_gloss": "değer ağırlığı",
+          "facet_statement": "Ağırlık, değerli ve korunmaya layık şeyin kıymetini anlatır.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["99:2:3:1"],
+          "trigger_refs": ["4:40", "conn_b02c21e6fa721b04a5c4"],
+          "focus_return_refs": ["99:2:3:1"],
+          "carrier": "أَثْقَالَهَا, ağırlığın değer ve kıymet bildiren facet'ine açılabilir.",
+          "independent_trigger": "4:40, zerre ağırlığında bir iyiliğin bile korunup karşılığının verildiğini söyler.",
+          "activation": "Focus ağırlığı, zerre ölçüsünde bile değer taşıyan ve karşılığı gözetilen şeyle temas eder.",
+          "resulting_reading": "Yerin çıkardığı yükler, miktarı ölçülen nesneler olmanın yanında kıymeti belirlenen içerikler gibi de görünür.",
+          "boundary": "Değer ağırlığı yalnızca ek facet'tir; focus yüklerinin tümü olumlu değer veya mükâfat olarak nitelenmez."
+        }
+      ],
+      "connection_refs": ["conn_b02c21e6fa721b04a5c4"],
+      "context_refs": ["4:40"],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:resurrection-emergence",
+      "origin_candidate_id": null,
+      "represented_candidate_ids": [],
+      "title": "Yerden çıkışın diriliş yankısı",
+      "claim": "أَخْرَجَتِ fiili, geniş diriliş metinleriyle temas ettiğinde, yerin içinden saklı olanı çıkarma hareketini ölümden sonra yeniden görünür olma ufkuna kadar genişletir.",
+      "mechanism": "Focus أَخْرَجَتِ carrier'ı root_000400/B001 F001 dışarı geçiş facet'ini taşır; 30:19'da ölüden dirinin çıkarılması, yerin ölümünden sonra diriltilmesi ve insanların çıkarılması, 71:18'de toprağa dönüşten sonra çıkarılma, aynı çıkarma eylemine bağımsız wider trigger olur.",
+      "reader_payoff": "Okur, yerin yük çıkarmasını yalnızca içerik boşaltma değil, toprağın sakladığını yeniden görünür kılan dönüş hareketi olarak da işitebilir.",
+      "containment": "Diriliş yankısı focus'un dışarı çıkarma anlamını destekler; yüklerin literal olarak insanlar olduğu, hedef ayatın morfolojisinin tamamı veya tek doğru eskatolojik açıklama iddia edilmez.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": [],
+        "reason": "30:19 ve 71:18 exact hedefleri çıkarma ve toprağa dönüş/çıkış temasını doğrudan taşır; target morphology packetta olmadığı için wider resurrection relation qualified'dır."
+      },
+      "support_ids": [],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000400/B001",
+          "facet_id": "F001",
+          "branch_gloss": "bir yerden ya da durumdan dışarı çıkma",
+          "facet_statement": "Bir yerden, kapsayıcıdan veya durumdan dışarıya geçme hareketi gerçekleşir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["99:2:1:2"],
+          "trigger_refs": ["30:19", "conn_bb176062dac7f360ade1", "71:18", "conn_519b1e8fd16dcc09de6f"],
+          "focus_return_refs": ["99:2:1:2"],
+          "carrier": "أَخْرَجَتِ, bir kapsayıcıdan dışarıya geçiş hareketini taşır.",
+          "independent_trigger": "30:19 ve 71:18, ölüm/toprak evresinden sonra canlıların veya insanların çıkarılmasını exact hedeflerde verir.",
+          "activation": "Focus'un dışarı geçiş carrier'ı, toprağa dönüşten sonra yeniden çıkarılma ve earth-revival temaslarıyla birleşerek çıkışı diriliş ufkuna açar.",
+          "resulting_reading": "Yerin yük çıkarması, saklı kalmış olanın ölüm ve toprak evresinden sonra yeniden görünür hale gelmesi gibi de duyulur.",
+          "boundary": "Diriliş yalnızca wider resonance'tır; focus yükleri insanlarla özdeşleştirilmez ve target morphology icat edilmez."
+        }
+      ],
+      "connection_refs": ["conn_bb176062dac7f360ade1", "conn_519b1e8fd16dcc09de6f"],
+      "context_refs": ["30:19", "71:18"],
+      "semantic_obligation_refs": []
+    }
+  ],
+  "friction_notes": [
+    "focus_word_alignment bridge'i dört analysis/QAC kelimesinin tamamını çözümlenmiş bildiriyor; unresolved join yok ve eksik join aleyhe kanıt olarak kullanılmadı.",
+    "Global packetta selected_context_units yok. Global carrier/trigger temasları, connection_registry içindeki exact hedef Arabic ve bağlantı notlarıyla kuruldu; hedef ayatların morfolojisi sağlanmadığından connection-based findings qualified tutuldu ve retrieval etiketleri karar yerine geçirilmedi.",
+    "Nominated root_000299/B006, root_000387/B003, root_000787/B004, root_001046/B004 ve root_001633/B001 için packetta focus_root_occurrences yok; bağlı adaylarda bu dallar açıkça dışarıda bırakıldı. Pathological B011/B004 adayları için geniş hedefler sarsıntı ve yarılma sağlıyor, fakat lesion carrier sağlamadığından kabul edilmedi.",
+    "Yedi legacy_unbound HFT summary kaydı görünür biçimde incelendi; hiçbiri supplied context ayah, word index, root, attributed role ve focus return içeren exact trace sunmadığı için HFT kuralı uyarınca reddedildi.",
+    "Adayların semantic_obligations alanı packetta ayrı first-class liste olarak sağlanmadı; bu nedenle semantic_obligation_refs ve semantic_obligation_exclusions boş bırakıldı. Candidate-specific unresolved branch citations (ر ح م/B003 ve ع م ل/B001) kayıtlı branch olmadıkları için retained activation olarak kullanılmadı.",
+    "No-value ve reciprocal counterevidence connection rows karar dışı bırakılmadı; ancak global finding için materially changed reading sağlayan exact trigger olarak kullanılmadılar."
+  ]
+}

@@ -8,7 +8,7 @@ state in [`STATUS.md`](STATUS.md), channel rules in
 
 > **Layer 3 update:** the combined channel/overlay plan below is retained as
 > historical planning. Active Layer 3 work now follows
-> [`_channel/layer3/ORCHESTRATION.md`](_channel/layer3/ORCHESTRATION.md).
+> [`_surah_commentary/v2/ORCHESTRATION.md`](_surah_commentary/v2/ORCHESTRATION.md).
 
 ---
 

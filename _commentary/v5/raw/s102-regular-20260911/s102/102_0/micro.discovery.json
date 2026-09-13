@@ -1,0 +1,829 @@
+{
+  "schema_version": "commentary-v5-scope-discovery-v1",
+  "ayah_ref": "102:0",
+  "lane": "micro",
+  "coverage_complete": true,
+  "candidate_decisions": [
+    {
+      "candidate_id": "cand_1c46d52273a24776b639",
+      "decision": "accept",
+      "reason": "Bi edatının açılışta tek başına bir hüküm değil, sonraki isme bağlanan formül vuruşu kurduğu doğrudan destekleniyor.",
+      "finding_refs": ["micro:bound-opening"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_ba2e80731a21e085717f",
+      "decision": "narrow",
+      "reason": "Araçlık, içindelik, beraberlik ve bağlama aralığı korunur; bunlar bu tamlamada dört ayrı önerme değil, yönetilen isim öbeğinin tek ilişkisel basıncıdır.",
+      "finding_refs": ["micro:relational-range"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_d9c0b1b4fdb4684a48d0",
+      "decision": "accept",
+      "reason": "Söylenmeyen başlama, okuma veya çağırma ediminin bi aracılığıyla isim üzerinden sıkıştırıldığı yapı doğrudan korunuyor.",
+      "finding_refs": ["micro:scoped-ellipsis"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_3de911178ef87a39e8e3",
+      "decision": "narrow",
+      "reason": "İsmin referenti yükseltip belirginleştiren adlandırma basıncı, Allah özel adıyla kurulan yerel tamlama ilişkisi içinde korunur; bu basınç ad anlamının yerine geçirilmez.",
+      "finding_refs": ["micro:raised-designation"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_39aa3d63b7af231e1d7f",
+      "decision": "accept",
+      "reason": "İsmin soldan bi tarafından yönetilmesi ve sağda Allah ile tamlama kurması, adlandırmayı referentine bağlayan iki yönlü ilişkiyi destekliyor.",
+      "finding_refs": ["micro:construct-name"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_a73536c6f1f30d661198",
+      "decision": "accept",
+      "reason": "İsim, açılış edatı ile Allah özel adı ve merhamet nitelemeleri arasında yerel yapısal menteşe olarak açıkça destekleniyor.",
+      "finding_refs": ["micro:naming-mercy-frame"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_231d00f4806e5125e785",
+      "decision": "narrow",
+      "reason": "Soyut adlandırmanın, aynı kök alanındaki erişilebilir gök ve yükselme kullanımlarından ayrışması korunur; gök veya başka bir kök dalı bu yüzeyde etkinleştirilmez.",
+      "finding_refs": ["micro:abstract-name-pressure"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_cf4f3a926ca2139c97f4",
+      "decision": "narrow",
+      "reason": "Yerel kök hizası s-m-w olarak tutulur; raporlanan alternatif kök yönlendirmesi yalnız karşılaştırmalı bir analitik baskı olarak korunur ve yerel anlama taşınmaz.",
+      "finding_refs": ["micro:variant-root-boundary"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_94927b25c0fed4865f58",
+      "decision": "accept",
+      "reason": "Allah özel adının ardından gelen iki merhamet sıfatını kendisine bağladığı ve merhameti bağımsız bir nitelik olmaktan çıkardığı yapı destekleniyor.",
+      "finding_refs": ["micro:mercy-attribute-anchor"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_4b0304416b7855a41e73",
+      "decision": "accept",
+      "reason": "Allah adının tamlama içinde sesçe yoğunlaşması ve 1:2'de yeniden görünmesi, supplied word-analysis evidence tarafından korunuyor.",
+      "finding_refs": ["micro:name-recurrence"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_fa521af54ad04516cae8",
+      "decision": "accept",
+      "reason": "Allah kelimesinin belirli ve tekil özel ad olarak genitif tamlamayı tamamladığı, genel tür adı veya açık fiil öznesi olmadığı biçimde destekleniyor.",
+      "finding_refs": ["micro:unique-proper-name"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_3a84a87d7339e33a9ee4",
+      "decision": "narrow",
+      "reason": "Özel adın tapınmaya yönelen baskısı, açılış çağırma edimiyle sınırlı bir renk olarak korunur; yerel biçim özel ad olarak kalır ve bağımsız bir genel tür anlamı kurulmaz.",
+      "finding_refs": ["micro:worship-pressure"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_3f864ad15356ff2ac1aa",
+      "decision": "narrow",
+      "reason": "Bildirilmiş farklı hâl okumaları sıfat çiftini yüklem veya nesne gibi yeniden kurabilecek bir sözdizimsel basınç olarak saklanır; focus yüzeyindeki genitif apposition korunur.",
+      "finding_refs": ["micro:case-variant"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_2189a4173d3d3e00fd4b",
+      "decision": "accept",
+      "reason": "İlk merhamet kelimesinin Allah özel adına bağlı belirli genitif sıfat olduğu doğrudan destekleniyor.",
+      "finding_refs": ["micro:definite-mercy-epithet"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_846cad2f7d38c7dae4f1",
+      "decision": "accept",
+      "reason": "Rahman biçiminin Rahim'den önce genişleyen merhamet alanını açtığı ve hemen sonraki biçim farkıyla düz eşanlamlılığı önlediği destekleniyor.",
+      "finding_refs": ["micro:expansive-mercy"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_9685004bc52b37b5f3cb",
+      "decision": "accept",
+      "reason": "Belirlilik, çift başlangıç sesi ve ritmin ilk merhamet sıfatını bağlı çiftin üyesi olarak duyurduğu sound evidence korunuyor.",
+      "finding_refs": ["micro:bound-mercy-sound"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_15645155a921e968fbc4",
+      "decision": "accept",
+      "reason": "İlk merhamet zincirinin 1:3'te dönmesi ve 1:2'nin farklı hamd çerçevesi kurması, yerel sıfat tamlamasını değiştirmeden destekleniyor.",
+      "finding_refs": ["micro:mercy-surah-frame"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_0d92dd869e87a9099286",
+      "decision": "narrow",
+      "reason": "Merhamet kökünün koruyucu ve kuşatıcı basıncı, gerçek döl yatağı anlamına geçmeden korunur; yerel ilahi sıfat mercy facetinde kalır.",
+      "finding_refs": ["micro:protective-mercy-pressure"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_2d0978cd3ad4a24e0f20",
+      "decision": "accept",
+      "reason": "Son merhamet kelimesinin çifti sesçe mühürlediği ve aynı kapanış çizgisinin 1:3'te döndüğü supplied evidence tarafından taşınıyor.",
+      "finding_refs": ["micro:mercy-ending-recurrence"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_4d462bc2882a3f01451d",
+      "decision": "accept",
+      "reason": "Rahim'in formülü tamamlayıp önceki merhamet sıfatını belirlediği ve aynı Allah adına bağlı kaldığı yerel sıra ile destekleniyor.",
+      "finding_refs": ["micro:formula-completion"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_505f30bd726b25681f68",
+      "decision": "accept",
+      "reason": "Aynı kökün hemen tekrarı, biçim değişikliğiyle Rahman'daki genişlemeyi Rahim'de eyleme geçmiş merhamete doğru incelten bir hareket olarak destekleniyor.",
+      "finding_refs": ["micro:mercy-root-echo"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_69fbec494e02bcd3e720",
+      "decision": "narrow",
+      "reason": "Rahim biçiminin başka kişiler için de gerçekleşmiş merhamet bildirebilmesi, yerel ilahi sıfatın sınırını aydınlatan karşıtlık olarak tutulur; focus içindeki referent değişmez.",
+      "finding_refs": ["micro:shareable-mercy-boundary"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_e74130c63d851de1a020",
+      "decision": "accept",
+      "reason": "Ayetin son biriminin yalın tekrarla değil, kalıcı ve gerçekleşmiş merhamet niteliğiyle kapandığı destekleniyor.",
+      "finding_refs": ["micro:enacted-mercy-closure"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_d37a7bc52f828cc7df3e",
+      "decision": "narrow",
+      "reason": "Hâl ve durak varyantlarının 1:2'ye sesleniş köprüsü açabilmesi apparatus sınırında tutulur; focus yüzeyindeki genitif kapanış korunur.",
+      "finding_refs": ["micro:pause-variant"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_353c6d0b915f11c20788",
+      "decision": "reject",
+      "reason": "Ledger-only ismi QAC oluşumu tek başına semantik iddia kurmaz; ilgili kelime bulgularında taşıyıcı kanıtı olarak korunur, bağımsız finding üretmez.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_59d76ebb0fb3cf746c5e",
+      "decision": "reject",
+      "reason": "Ledger-only Allah QAC oluşumu tek başına semantik iddia kurmaz; özel ad ve ilahi çerçeve bulgularında taşıyıcı kanıtı olarak korunur, bağımsız finding üretmez.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_2e4a10b0c79321d62da2",
+      "decision": "reject",
+      "reason": "Ledger-only Rahman QAC oluşumu tek başına semantik iddia kurmaz; merhamet bulgularında taşıyıcı kanıtı olarak korunur, bağımsız finding üretmez.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    }
+  ],
+  "findings": [
+    {
+      "finding_ref": "micro:bound-opening",
+      "origin_candidate_id": "cand_1c46d52273a24776b639",
+      "represented_candidate_ids": [],
+      "title": "Açılış edatı bağlı bir vuruş kuruyor",
+      "claim": "Bi edatı başlangıç edimini kendisinden sonraki isme bağlar ve açılışı bağımsız bir bildirimden önce ilişki olarak kurar.",
+      "mechanism": "Bi'nin sonraki isim üzerinde yönetim kurması ve formülün ilk yüzeyi olarak seslenmesi, söylenmeyen edimi isim üzerinden sıkıştırır.",
+      "reader_payoff": "Okur, açılışta bir fiil beklemeden eylemin adla birlikte ve ada bağlı olarak başladığını fark eder.",
+      "containment": "Bu, açık bir fiil cümlesi veya tek bir fiil seçimi iddiası değil; yerel formülün eylemi sıkıştıran ilişkisel çerçevesidir.",
+      "epistemic": {
+        "status": "grounded",
+        "source_trust": ["trusted"],
+        "reason": "Bi'nin yönetimi, formül içindeki bağlı vuruşu ve söylenmeyen edimi doğrudan focus word-analysis kayıtları destekliyor."
+      },
+      "support_ids": ["sup_0269958b2367af9c5e43", "sup_86c91a923c49bc88a942"],
+      "branch_activations": [],
+      "connection_refs": [],
+      "context_refs": [],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "micro:relational-range",
+      "origin_candidate_id": "cand_ba2e80731a21e085717f",
+      "represented_candidate_ids": [],
+      "title": "İlişki aralığı tek öbekte toplanıyor",
+      "claim": "Bi'nin araçlık, içindelik, beraberlik ve bağlama basıncı, ayrı önermelere bölünmeden Allah adına yönelen tek yönetilmiş öbekte birleşir.",
+      "mechanism": "Edatın geniş ilişkisel aralığı, focus sözdiziminde ismi yönetmesiyle tek bir tamlama ilişkisine sınırlandırılır.",
+      "reader_payoff": "Türkçedeki tek bir 'adıyla' karşılığının ardında birden fazla ilişki tonunun aynı bağlı hareket içinde bulunduğu görünür.",
+      "containment": "Bu aralıklar dört ayrı eylem veya dört ayrı önerme olarak sunulmuyor; yerel tamlama hepsini tek ilişkide tutuyor.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": ["trusted"],
+        "reason": "İlişkisel aralık destekleniyor, ancak focus grammar bu aralığı bağımsız anlamlara ayırmıyor."
+      },
+      "support_ids": ["sup_86c91a923c49bc88a942", "sup_a9711d331c8ab9ebfd32"],
+      "branch_activations": [],
+      "connection_refs": [],
+      "context_refs": [],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "micro:scoped-ellipsis",
+      "origin_candidate_id": "cand_d9c0b1b4fdb4684a48d0",
+      "represented_candidate_ids": [],
+      "title": "Söylenmeyen edim isim üzerinden ilerliyor",
+      "claim": "Başlama, okuma veya çağırma edimi ayette açıkça söylenmeden bi tarafından isim üzerinden yürütülür.",
+      "mechanism": "Bi'nin yönettiği isim ve formülün edimsel açılış işlevi, eksiltilen eylemi Allah adına bağlar.",
+      "reader_payoff": "Okurun kendi başlama veya okuma edimi, ayetin dışına eklenmiş bir açıklama gibi değil, formülün bıraktığı boşluğu dolduran hareket gibi görünür.",
+      "containment": "Eksiltilen edimin tek bir fiille sabitlendiği ileri sürülmüyor; başlama, okuma ve çağırma alanı isim üzerinden sıkıştırılmış halde kalıyor.",
+      "epistemic": {
+        "status": "grounded",
+        "source_trust": ["trusted"],
+        "reason": "Formül eksiltisi ve genitif yönetim ilişkisi focus evidence içinde açıkça kaydedilmiş."
+      },
+      "support_ids": ["sup_86c91a923c49bc88a942", "sup_db7bbf7d31cf15bf9543"],
+      "branch_activations": [],
+      "connection_refs": [],
+      "context_refs": [],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "micro:raised-designation",
+      "origin_candidate_id": "cand_3de911178ef87a39e8e3",
+      "represented_candidate_ids": [],
+      "title": "Adlandırma referenti belirginleştiriyor",
+      "claim": "İsmi kelimesi yerel olarak ad anlamını korurken, adlandırmanın referenti yükseltip belirginleştiren bir basınç taşımasına izin verir.",
+      "mechanism": "İsmin bi tarafından yönetilmesi ve Allah özel adına tamlama içinde bağlanması, adın yalnız etiket değil ayırt edici bir yöneltme aracı olarak okunmasını tetikler.",
+      "reader_payoff": "Allah'ın adıyla başlamak, yalnız bir ad söylemek değil, yönelinen referenti ad yoluyla görünür ve ayrı kılmak olarak da duyulur.",
+      "containment": "İsmi gök, işaret veya başka bir kök dalına çevrilmiyor; yükseltme ve belirginleştirme, yerel ad anlamını taşıyan sınırlı bir renk olarak kalıyor.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": ["trusted"],
+        "reason": "Raised-designation supportu ve focus içindeki construct/proper-name ilişkisi birlikte mevcut; branch glossu kaynak-varyantı düzeyinde tutuluyor."
+      },
+      "support_ids": ["sup_0d8b07eb431a21708089", "sup_46da0fbbee759728567b", "sup_ba54357b33ac2f1cbc46", "sup_7522ff51600da0a209ed", "sup_701f6be1a818d6d1c994"],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000745/B005",
+          "facet_id": "F005",
+          "branch_gloss": "ad, adlandırma ve ad ya da nitelik bakımından denklik",
+          "facet_statement": "Kaynaklar adın kökenini, adı verilen şeyin anılmasını yükseltmesi ve onu belirgin kılmasıyla açıklar.",
+          "application_mode": "intrinsic_cross_root",
+          "carrier_refs": ["1:1:1:2"],
+          "trigger_refs": ["1:1:2:1", "1:1:1"],
+          "focus_return_refs": ["1:1:1:2"],
+          "carrier": "İsmi yüzeyi, bir referenti adla tanınır kılan adlandırma anlamını taşır.",
+          "independent_trigger": "İsmi'nin bi edatıyla yönetilmesi ve Allah özel adına tamlama içinde bağlanması, adın belirginleştirici işlevini tetikleyen yerel ilişkidir.",
+          "activation": "İsim, yalnız etiket olarak değil, başlangıçta yönelinen özel referenti ayırt edip görünür kılan adlandırma aracı olarak Allah adıyla temas eder.",
+          "resulting_reading": "Başlangıç Allah'ın adıyla yapılırken, adın kendisi referenti ayrı ve belirgin kılan bir hareket de taşır.",
+          "boundary": "Bu temas ismi'nin gök, zehir, fiziksel işaret veya başka bir mevcut kök dalı anlamına geçtiğini söylemez."
+        }
+      ],
+      "connection_refs": [],
+      "context_refs": [],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "micro:construct-name",
+      "origin_candidate_id": "cand_39aa3d63b7af231e1d7f",
+      "represented_candidate_ids": [],
+      "title": "İsim iki yönlü tamlama halkasıdır",
+      "claim": "İsmi bi tarafından yönetilirken Allah ile tamlama kurar; böylece açılış edimini hem soldaki edata hem sağdaki referente bağlayan halka olur.",
+      "mechanism": "Bi'nin yönetimi ismi'yi açılış edimine bağlar, genitif construct ise onu Allah özel adına bağlar; iki ilişki tek adlandırma aracında birleşir.",
+      "reader_payoff": "İsim, araya eklenmiş bir kelime değil, başlangıcın hangi ad üzerinden yapıldığını kuran taşıyıcı olarak görünür.",
+      "containment": "Bu yapı Allah'ın açık bir fiil gerçekleştirdiğini veya ismin bağımsız bir özne olduğunu ileri sürmez; ilişki ve referent bağını açıklar.",
+      "epistemic": {
+        "status": "grounded",
+        "source_trust": ["trusted"],
+        "reason": "Prepositional government ve construct attachment focus grammar tarafından doğrudan destekleniyor."
+      },
+      "support_ids": ["sup_0d8b07eb431a21708089", "sup_ba54357b33ac2f1cbc46"],
+      "branch_activations": [],
+      "connection_refs": [],
+      "context_refs": [],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "micro:naming-mercy-frame",
+      "origin_candidate_id": "cand_a73536c6f1f30d661198",
+      "represented_candidate_ids": [],
+      "title": "İsim merhamet zincirine geçiş kuruyor",
+      "claim": "İsmi, bi ile Allah özel adı ve onun ardından gelen merhamet sıfatları arasında yapısal geçiş kurar.",
+      "mechanism": "İsim tamlaması Allah'ı referent olarak kurduktan sonra iki sıfat aynı ada bağlanır; açılış adlandırmadan merhamet nitelemesine kesilmeden geçer.",
+      "reader_payoff": "Merhamet sıfatları sonradan eklenmiş bağımsız övgüler değil, açılışta adı kurulan referentin nasıl nitelendiği olarak duyulur.",
+      "containment": "İsmi'nin merhamet anlamına dönüştüğü söylenmiyor; isim, ilahi adı ve merhamet zincirini bağlayan yapısal menteşe olarak kalıyor.",
+      "epistemic": {
+        "status": "grounded",
+        "source_trust": ["trusted"],
+        "reason": "Construct ve following-genitive-attribute ilişkisi focus word-analysis kayıtlarında açık."
+      },
+      "support_ids": ["sup_0d8b07eb431a21708089", "sup_4a6a06dc50a4443bda26"],
+      "branch_activations": [],
+      "connection_refs": [],
+      "context_refs": [],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "micro:abstract-name-pressure",
+      "origin_candidate_id": "cand_231d00f4806e5125e785",
+      "represented_candidate_ids": [],
+      "title": "Soyut adlandırma alanı ayrışıyor",
+      "claim": "İsmi'nin soyut adlandırma işlevi, aynı kök çevresinde erişilebilir gök ve yükselme alanlarından ayrışarak referenti söz içinde kuran bir belirginlik kazanır.",
+      "mechanism": "Dağılımsal karşıtlık ve focus'taki ad biçimi, soyut designation kullanımını görünür kılar; construct ilişkisi onu yerel ad anlamına sabitler.",
+      "reader_payoff": "Ad kelimesi, yalnız sözlükteki bir etiket değil, somut yükselme alanlarından ayrılarak referenti söz içinde kuran soyut bir işlev olarak anlaşılır.",
+      "containment": "Gök, yükselme veya kökün diğer mevcut dalları ayette etkin anlam olarak sunulmuyor; karşıtlık yalnız adlandırma işlevinin sınırını görünür kılıyor.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": ["trusted"],
+        "reason": "Dağılım ve V4 karşıtlığı supplied supportta var, ancak focus için bağımsız bir gök taşıyıcısı bulunmuyor."
+      },
+      "support_ids": ["sup_0d8b07eb431a21708089", "sup_8e572e4e186ddeacaa5c"],
+      "branch_activations": [],
+      "connection_refs": [],
+      "context_refs": [],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "micro:variant-root-boundary",
+      "origin_candidate_id": "cand_cf4f3a926ca2139c97f4",
+      "represented_candidate_ids": [],
+      "title": "Alternatif kök baskısı sınırda kalıyor",
+      "claim": "İsmi'nin yerel kök hizası s-m-w olarak kalır; raporlanan alternatif kök yönlendirmesi bu hizayı yalnız karşılaştırmalı olarak keskinleştirir.",
+      "mechanism": "Focus word-analysis kaydı yerel kökü sabitlerken varyant kaydı başka bir yönlendirme baskısı bildirir; iki kayıt aynı yerel anlam olarak birleştirilmez.",
+      "reader_payoff": "Adlandırma okumasının hangi ses ve kök hizasına dayandığı, alternatif analitik baskı sayesinde daha belirgin hale gelir.",
+      "containment": "Alternatif kök ayetin yerel anlamına eklenmiyor ve ismi'yi başka bir dala taşımıyor; bulgu bir karşılaştırmalı sınır kaydıdır.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": ["trusted"],
+        "reason": "Support, alternatif yönlendirmeyi apparatus olarak açıkça sınırlandırıyor ve focus hizasıyla çatışmayı görünür kılıyor."
+      },
+      "support_ids": ["sup_0d8b07eb431a21708089", "sup_3904c7864e7ec72fc6b8"],
+      "branch_activations": [],
+      "connection_refs": [],
+      "context_refs": [],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "micro:mercy-attribute-anchor",
+      "origin_candidate_id": "cand_94927b25c0fed4865f58",
+      "represented_candidate_ids": [],
+      "title": "Allah adı merhamet sıfatlarını bağlıyor",
+      "claim": "Allah özel adı, ardından gelen Rahman ve Rahim sıfatlarının tekil referentidir; merhamet bu adın bağlı nitelemesi olarak gerçekleşir.",
+      "mechanism": "Allah'ın genitif construct içindeki özel ad oluşu, iki merhamet sıfatının aynı ada yönelmesini ve merhametin bağımsız bir isim gibi kopmamasını sağlar.",
+      "reader_payoff": "Okur, ilahi adı duyduktan sonra gelen iki merhamet kelimesini ayrı bir soyut özellik listesi değil, aynı referentin iki bağlı görünümü olarak okur.",
+      "containment": "Bu bağ, Allah adının yerini merhamet sıfatlarının aldığı anlamına gelmez; özel ad referent olarak kalır, merhamet sıfatları onu niteler.",
+      "epistemic": {
+        "status": "grounded",
+        "source_trust": ["trusted"],
+        "reason": "QAC/attachment evidence ve divine-name anchor supportu iki sıfatın genitif bağını doğrudan destekliyor."
+      },
+      "support_ids": ["sup_02991ac40aeaac854e72", "sup_f7725957d9a8549cb393", "sup_701f6be1a818d6d1c994", "sup_3d9db17a6b2ee32b24cc"],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000552/B001",
+          "facet_id": "F001",
+          "branch_gloss": "acıma duygusuyla esirgeyip iyilik etme",
+          "facet_statement": "Bir başkasının durumu karşısında yüreğin yumuşaması, ona acıma ve içten yakınlık duyma çekirdeği oluşturur.",
+          "application_mode": "intrinsic_cross_root",
+          "carrier_refs": ["1:1:3:2", "1:1:4:2"],
+          "trigger_refs": ["1:1:2:1"],
+          "focus_return_refs": ["1:1:3:2", "1:1:4:2"],
+          "carrier": "Rahman ve Rahim yüzeyleri acıma, esirgeme ve iyilik yönündeki merhamet çekirdeğini taşır.",
+          "independent_trigger": "Önceki Allah özel adı, iki merhamet sıfatını kendisine bağlı genitif nitelemeler olarak yönlendirir.",
+          "activation": "Allah adı ile merhamet sıfatlarının tamlama bağı, merhametin yalnız soyut bir etiket değil, referente yönelen esirgeyici bir nitelik olarak temas etmesini sağlar.",
+          "resulting_reading": "Açılış, Allah'ı merhamet taşıyan ve bu merhameti referentinden yaratılmışlara yönelen bir nitelik olarak adlandırır.",
+          "boundary": "Yakın soy, döl yatağı ve doğum sonrası hastalık dalları bu temasla etkinleşmez; yerel taşıyıcı merhamet sıfatıdır."
+        },
+        {
+          "branch_ref": "root_000552/B001",
+          "facet_id": "F005",
+          "branch_gloss": "acıma duygusuyla esirgeyip iyilik etme",
+          "facet_statement": "Tanrı hakkında kullanıldığında esirgemenin genişliği ve yaratılmışlara iyilik olarak ulaşması belirginleşir.",
+          "application_mode": "intrinsic_cross_root",
+          "carrier_refs": ["1:1:3:2", "1:1:4:2"],
+          "trigger_refs": ["1:1:2:1"],
+          "focus_return_refs": ["1:1:3:2", "1:1:4:2"],
+          "carrier": "Rahman ve Rahim ilahi ada bağlı merhamet sıfatları olarak esirgeme ve iyilik anlamını taşır.",
+          "independent_trigger": "Allah özel adının tekil ilahi referent oluşu, merhamet dalının Tanrı hakkındaki genişletilmiş kullanımını tetikler.",
+          "activation": "İlahi özel ad, merhamet kökünün genel acıma çekirdeğini yaratılmışlara ulaşan geniş bir esirgeme niteliği olarak çerçeveler.",
+          "resulting_reading": "İki sıfat, Allah'ın adıyla birlikte merhametin hem niteliğini hem de yaratılmışlara ulaşan iyilik yönünü görünür kılar.",
+          "boundary": "Bu genişlik ayrı bir kozmik tez veya döl yatağı imgesi değildir; bağlı ilahi sıfatların yerel sonucudur."
+        }
+      ],
+      "connection_refs": [],
+      "context_refs": [],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "micro:name-recurrence",
+      "origin_candidate_id": "cand_4b0304416b7855a41e73",
+      "represented_candidate_ids": [],
+      "title": "Allah adı yoğun birim olarak dönüyor",
+      "claim": "Allah adı bu tamlama içinde sesçe yoğunlaşır ve 1:2'de hamdin referenti olarak yeniden döner.",
+      "mechanism": "Construct liaison adı önceki isim ve sonraki sıfatlarla tek bağlı birim halinde duyurur; aynı adın 1:2'deki dönüşü bu bağlılığı sürdürür.",
+      "reader_payoff": "Açılışta adı kurulan referentin sonraki hamd çerçevesine taşındığı ve formülün kelimeleri arasında kopmadığı görünür.",
+      "containment": "Bu, bütün sure mimarisini kuran bir tez değildir; supplied 1:2 dönüşünün focus tamlamasına verdiği yerel ses ve referent katkısıdır.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": ["trusted"],
+        "reason": "Aynı adın dönüşü ve construct ses yoğunluğu supplied supportta bulunuyor; burada yalnız micro düzeydeki katkı tutuluyor."
+      },
+      "support_ids": ["sup_106108c5d58aa80ed91f", "sup_f7725957d9a8549cb393"],
+      "branch_activations": [],
+      "connection_refs": [],
+      "context_refs": ["1:2"],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "micro:unique-proper-name",
+      "origin_candidate_id": "cand_fa521af54ad04516cae8",
+      "represented_candidate_ids": [],
+      "title": "Genitif içindeki tekil özel ad",
+      "claim": "Allah kelimesi belirli ve tekil ilahi özel ad olarak genitif tamlamayı tamamlar; genel bir ilah türü veya açık eylem öznesi değildir.",
+      "mechanism": "QAC biçimi ve construct attachment, kelimeyi bi'nin yönettiği ismin sağındaki referent olarak kurar; ardından gelen iki sıfat bu referente bağlanır.",
+      "reader_payoff": "'Allah'ın adıyla' ifadesindeki Allah, belirsiz bir sınıf adı değil, adlandırma zincirinin tekil ve belirli referenti olarak kavranır.",
+      "containment": "Özel adın ilahi referent oluşu korunur; kökün tapınma veya özlem basıncı bu yerel özel ad işlevinin yerine geçirilmez.",
+      "epistemic": {
+        "status": "grounded",
+        "source_trust": ["trusted"],
+        "reason": "QAC ve attachment kayıtları genitif özel ad ilişkisini doğrudan kuruyor."
+      },
+      "support_ids": ["sup_9616286c79c43182bed8", "sup_f7725957d9a8549cb393", "sup_701f6be1a818d6d1c994"],
+      "branch_activations": [],
+      "connection_refs": [],
+      "context_refs": [],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "micro:worship-pressure",
+      "origin_candidate_id": "cand_3a84a87d7339e33a9ee4",
+      "represented_candidate_ids": [],
+      "title": "Özel ad açılış ediminde tapınma basıncı taşıyor",
+      "claim": "Allah özel adı, bi'nin sıkıştırdığı çağırma ve başlama edimiyle birlikte tapınmaya yönelen bir basınç taşır; yerel biçim yine özel addır.",
+      "mechanism": "Allah adı tapınmaya yönelen referenti taşırken, bi'nin bağlı açılış edimi adlandırmayı bu referente dönük bir yönelme hareketi olarak tetikler.",
+      "reader_payoff": "Formül, yalnız referenti adlandıran bir başlangıç değil, o ada yönelerek başlayan ibadet yönelimini de duyurur.",
+      "containment": "Bu, Allah kelimesini genel bir tür adına veya açık bir tapınma fiiline dönüştürmez; tapınma baskısı çağırma ediminin içinde nitelendirici renk olarak kalır.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": ["trusted"],
+        "reason": "Tapınma baskısı supplied supportta korunuyor, ancak root için V4 satırı bulunmadığından özel ad biçimi ve yerel çağırma ilişkisiyle sınırlandırıldı."
+      },
+      "support_ids": ["sup_ce242bd892b0c6e51152", "sup_f7725957d9a8549cb393", "sup_86c91a923c49bc88a942", "sup_db7bbf7d31cf15bf9543", "sup_701f6be1a818d6d1c994"],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000047/B001",
+          "facet_id": "F001",
+          "branch_gloss": "tapınma ve tapınılan varlık",
+          "facet_statement": "Temel eylem, bir varlığa tapınmak ve kişinin kendini bu tapınmaya vermesidir.",
+          "application_mode": "intrinsic_cross_root",
+          "carrier_refs": ["1:1:2:1"],
+          "trigger_refs": ["1:1:1"],
+          "focus_return_refs": ["1:1:2:1"],
+          "carrier": "Allah adı, tapınmaya yönelen özel ilahi referenti taşır.",
+          "independent_trigger": "Bi'nin formül içinde sıkıştırdığı başlama, okuma veya çağırma edimi adı verilen referente yönelir.",
+          "activation": "Açılış edimi ile Allah adının referenti buluştuğunda, adlandırma tapınmaya dönük bir yönelme basıncını da taşır.",
+          "resulting_reading": "Başlangıç, Allah'ın adını anmanın yanında o ada yönelen ibadet edimini de yerel olarak görünür kılar.",
+          "boundary": "Özel ad genel bir ilah sınıfına veya açık bir tapınma fiiline indirgenmez; yalnız F001'in tapınmaya yönelen çekirdeği korunur."
+        }
+      ],
+      "connection_refs": [],
+      "context_refs": [],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "micro:case-variant",
+      "origin_candidate_id": "cand_3f864ad15356ff2ac1aa",
+      "represented_candidate_ids": [],
+      "title": "Hâl varyantları sıfat bağını görünür kılıyor",
+      "claim": "Bildirilmiş hâl varyantları merhamet çiftini yüklem veya nesne gibi yeniden kurabilecek sözdizimsel basıncı gösterirken focus okuması onları genitif apposition olarak tutar.",
+      "mechanism": "Variant apparatus alternatif hâl uçlarını açar; supplied local morphology iki kelimeyi Allah adına bağlı sıfat zincirinde sabitler.",
+      "reader_payoff": "Sıfatların Allah'a bağlılığının rastlantısal değil, seçilmiş hâl biçimiyle kurulduğu anlaşılır.",
+      "containment": "Varyant hâller focus okumasına eklenmiş eşdeğer bir parse olarak sunulmuyor; yalnız mevcut genitif yapının taşıdığı sözdizimsel basıncı kaydediyor.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": ["trusted"],
+        "reason": "Variant supportu canlı alternatif basıncı bildiriyor, ancak focus morphology genitif apposition olarak daha dar bir yüzey sağlıyor."
+      },
+      "support_ids": ["sup_4f18b826f6b812c5f5c8", "sup_6ead5cbdfb87cc7d1f19"],
+      "branch_activations": [],
+      "connection_refs": [],
+      "context_refs": [],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "micro:definite-mercy-epithet",
+      "origin_candidate_id": "cand_2189a4173d3d3e00fd4b",
+      "represented_candidate_ids": [],
+      "title": "İlk merhamet sıfatı ada bağlı",
+      "claim": "Rahman belirli bir genitif sıfat olarak Allah özel adına bağlanır ve bağımsız bir merhamet niteliği gibi serbest kalmaz.",
+      "mechanism": "Belirlilik ve genitif apposition, ilk merhamet kelimesini Allah referentine bağlar; sıfat zincirinin başlangıcını oluşturur.",
+      "reader_payoff": "İlk merhamet sözcüğünün kime ait olduğu ve neden formülün içinde bağlı duyulduğu çevirinin düz sırasından daha net görünür.",
+      "containment": "Rahman'ın yalnızca bir sözlük karşılığına indirgenmediği söyleniyor; bu bulgu Allah özel adının yerine merhameti koymuyor.",
+      "epistemic": {
+        "status": "grounded",
+        "source_trust": ["trusted"],
+        "reason": "Definite genitive epithet ve attachment kayıtları focus morphology ile doğrudan uyumlu."
+      },
+      "support_ids": ["sup_1675ff53e3dda1fc6912", "sup_4f18b826f6b812c5f5c8"],
+      "branch_activations": [],
+      "connection_refs": [],
+      "context_refs": [],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "micro:expansive-mercy",
+      "origin_candidate_id": "cand_846cad2f7d38c7dae4f1",
+      "represented_candidate_ids": [],
+      "title": "Rahman alanı genişletiyor",
+      "claim": "Rahman ilk merhamet biçimi olarak alanı geniş açar; hemen sonraki Rahim biçimi bu açılımı başka bir merhamet niteliğiyle belirginleştirir.",
+      "mechanism": "Aynı kökün ardışık fakat biçimi değişmiş iki sıfatı, ilk kelimedeki yaygınlığı ikinci kelimeye düz eşanlamlı olarak bırakmaz.",
+      "reader_payoff": "İki merhamet kelimesinin tekrar değil, genişleyen alandan gerçekleşmiş niteliğe doğru çalışan bir çift olduğu duyulur.",
+      "containment": "Genişlik tek başına bütün ilahi merhametin kapsamını tüketen bir tanım olarak sunulmuyor; ilk biçimin yerel çift içindeki katkısıdır.",
+      "epistemic": {
+        "status": "grounded",
+        "source_trust": ["trusted"],
+        "reason": "Morfoloji ve immediate same-root neighbor, ilk biçimin genişletici sırasını doğrudan destekliyor."
+      },
+      "support_ids": ["sup_4f18b826f6b812c5f5c8", "sup_990bff7b47282b7f417a"],
+      "branch_activations": [],
+      "connection_refs": [],
+      "context_refs": [],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "micro:bound-mercy-sound",
+      "origin_candidate_id": "cand_9685004bc52b37b5f3cb",
+      "represented_candidate_ids": [],
+      "title": "İlk merhamet kelimesi çiftin içinde duyuluyor",
+      "claim": "Belirlilik, çift başlangıç sesi ve ritim Rahman'ı son merhamet kelimesine bağlı çiftin ilk üyesi olarak duyurur.",
+      "mechanism": "Ses yoğunluğu ve belirli sıfat biçimi, Rahman'ı tek başına kapanan bir niteleme değil, Rahim'le birlikte işleyen bağlı üye yapar.",
+      "reader_payoff": "Yazıda görünmeyen ses bağının, iki merhamet kelimesi arasındaki anlamsal çiftliği nasıl taşıdığı fark edilir.",
+      "containment": "Ses bağı yeni bir kök anlamı üretmiyor; mevcut merhamet sıfatlarının birbirine bağlanma biçimini görünür kılıyor.",
+      "epistemic": {
+        "status": "grounded",
+        "source_trust": ["trusted"],
+        "reason": "Sound rows, definite epithet ve paired mercy sequence aynı focus yüzeyinde verilmiş."
+      },
+      "support_ids": ["sup_4f18b826f6b812c5f5c8", "sup_5e4026cbb17c38d001fa"],
+      "branch_activations": [],
+      "connection_refs": [],
+      "context_refs": [],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "micro:mercy-surah-frame",
+      "origin_candidate_id": "cand_15645155a921e968fbc4",
+      "represented_candidate_ids": [],
+      "title": "Merhamet zinciri daha sonraki çerçeveye bağlanıyor",
+      "claim": "İlk merhamet çizgisi 1:3'te yeniden görünürken 1:2 farklı bir hamd ilişkisi kurar; bu focus'ta Rahman'ın Allah adına bağlı niteliği korunur.",
+      "mechanism": "Aynı merhamet sıfatının dönüşü ve 1:2'deki praise-frame karşıtlığı, ilk sıfatın formül içindeki bağlılığını sure içindeki supplied referanslarla sınırlar.",
+      "reader_payoff": "İlk merhamet kelimesi yalnız kapanış süsü değil, Allah adının nitelemesi olarak daha sonraki bir dönüşe açık bir başlangıç düğümü gibi görünür.",
+      "containment": "Bu bulgu sure tezini veya bütün mimariyi kurmaz; 1:2 ve 1:3 referanslarının focus sıfatına verdiği yerel çerçeveyi kaydeder.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": ["trusted"],
+        "reason": "Aynı-surah dönüşü ve 1:2 karşıtlığı supplied micro supportta mevcut; packette ayrıca context unit ayrıntısı verilmediği için nitelikli tutuldu."
+      },
+      "support_ids": ["sup_4f18b826f6b812c5f5c8", "sup_ba63014c1294abaed965"],
+      "branch_activations": [],
+      "connection_refs": [],
+      "context_refs": ["1:2", "1:3"],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "micro:protective-mercy-pressure",
+      "origin_candidate_id": "cand_0d92dd869e87a9099286",
+      "represented_candidate_ids": [],
+      "title": "Merhamet koruyucu basınç taşıyor",
+      "claim": "Rahmet kökü, Rahman ve Rahim sıfatlarında koruyucu ve kuşatıcı bir basınç hissettirir; yerel anlam ilahi merhamet olarak kalır.",
+      "mechanism": "Merhamet ve döl yatağı dallarını taşıyan kök alanı, Allah'a bağlı sıfat biçimiyle temas ettiğinde korunma ve kapsama yönünde bedensel bir renk verir.",
+      "reader_payoff": "Merhamet, yalnız soyut bir iyi niyet değil, koruyan ve kuşatan bir yakınlık basıncı olarak daha dolu duyulur.",
+      "containment": "Döl yatağı veya doğum hastalığı doğrudan ayette etkin anlam yapılmıyor; bedensel koruma basıncı ilahi merhamet sıfatının içinde sınırlı renk olarak kalıyor.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": ["trusted"],
+        "reason": "V4 root evidence iki alanı kabul ediyor, ancak local divine epithet mercy facetini seçtiği için womb content yalnız embodied pressure olarak daraltıldı."
+      },
+      "support_ids": ["sup_4f18b826f6b812c5f5c8", "sup_dbb3006e444c60b8325c"],
+      "branch_activations": [],
+      "connection_refs": [],
+      "context_refs": [],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "micro:mercy-ending-recurrence",
+      "origin_candidate_id": "cand_2d0978cd3ad4a24e0f20",
+      "represented_candidate_ids": [],
+      "title": "Son kelime sesle mühürlüyor",
+      "claim": "Rahim ayeti eşleyen ritimle mühürler ve aynı merhamet kapanışı 1:3'te yeniden duyulur.",
+      "mechanism": "Son kelimenin konumu, çift kadansı ve 1:3'teki dönüşü, Rahim'i hem semantik kapanış hem ses mührü yapar.",
+      "reader_payoff": "Ayetin sonundaki merhamet kelimesi yalnız çeviri cümlesinin son sözcüğü değil, formülü kapatan işitsel bir sonuç olarak görünür.",
+      "containment": "1:3 dönüşü burada sure çapında bir sistem diye adlandırılmıyor; yalnız focus kapanışının supplied recurrence katkısı kaydediliyor.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": ["trusted"],
+        "reason": "Sound ve same-surah recurrence supportu mevcut; bağlam ayrıntısı supplied supportla sınırlı."
+      },
+      "support_ids": ["sup_696cad80b84a282418b4", "sup_6ef75f06d3884729980a"],
+      "branch_activations": [],
+      "connection_refs": [],
+      "context_refs": ["1:3"],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "micro:formula-completion",
+      "origin_candidate_id": "cand_4d462bc2882a3f01451d",
+      "represented_candidate_ids": [],
+      "title": "Son sıfat formülü tamamlıyor",
+      "claim": "Rahim formülü tamamlar, önceki Rahman'ı belirler ve aynı Allah adına bağlı genitif sıfat olarak kalır.",
+      "mechanism": "Son kelimenin sırası ve adjective chain içindeki konumu, onu bağımsız bir nitelik değil önceki sıfatı tamamlayan üye yapar.",
+      "reader_payoff": "Kapanış kelimesinin neden hem yeni bir merhamet tonu getirdiği hem de Allah adıyla bağını koruduğu anlaşılır.",
+      "containment": "Rahim'in Allah adından kopuk yeni bir özne veya bağımsız cümle olduğu söylenmiyor; tamamlama ve bağlılık birlikte korunuyor.",
+      "epistemic": {
+        "status": "grounded",
+        "source_trust": ["trusted"],
+        "reason": "Local adjective chain ve word order formula completion/attachment ilişkisini doğrudan destekliyor."
+      },
+      "support_ids": ["sup_696cad80b84a282418b4", "sup_a0459e602e39b3c6f314"],
+      "branch_activations": [],
+      "connection_refs": [],
+      "context_refs": [],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "micro:mercy-root-echo",
+      "origin_candidate_id": "cand_505f30bd726b25681f68",
+      "represented_candidate_ids": [],
+      "title": "Aynı kök tekrar içinde inceliyor",
+      "claim": "Rahim, Rahman'daki merhamet kökünü tekrarlar; biçim değişikliği bu tekrarı gerçekleşmiş ve kalıcı merhamete doğru bir inceltmeye dönüştürür.",
+      "mechanism": "Aynı kök ve hemen bitişik iki biçim, ikinci kelimeyi boş tekrar olmaktan çıkarıp ilk geniş alanın belirlenmiş sonucu olarak kurar.",
+      "reader_payoff": "İki merhamet kelimesi eşanlamlı yığılması değil, genişleyen nitelemenin gerçekleşmiş merhamet niteliğine doğru hareketi olarak duyulur.",
+      "containment": "Bu scalar movement ilk kelimenin anlamını silmez ve iki biçimden yalnız birini doğru ilan etmez; ardışık katkıları birlikte tutar.",
+      "epistemic": {
+        "status": "grounded",
+        "source_trust": ["trusted"],
+        "reason": "Same-root adjacency ve form contrast supplied supportta açıkça kurulmuş."
+      },
+      "support_ids": ["sup_5a2186ca53d4a45fa108", "sup_696cad80b84a282418b4"],
+      "branch_activations": [],
+      "connection_refs": [],
+      "context_refs": [],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "micro:shareable-mercy-boundary",
+      "origin_candidate_id": "cand_69fbec494e02bcd3e720",
+      "represented_candidate_ids": [],
+      "title": "Gerçekleşmiş merhamet biçimi sınırını gösteriyor",
+      "claim": "Rahim biçimi ilahi özel ada bağlı bu kullanımın ötesinde gerçekleşmiş merhameti bildirebilecek bir açıklığa sahiptir; burada yine Allah'a bağlı sıfattır.",
+      "mechanism": "Biçimin paylaşılabilir merhamet kullanımı ile focus'taki genitif ilahi attachment arasındaki fark, yerel referentin biçim tarafından değil tamlama tarafından sınırlandığını gösterir.",
+      "reader_payoff": "Son merhamet kelimesinin biçimi yalnız özel unvan gibi kapanmaz; buna rağmen bu ayette kime bağlandığı sözdizimiyle belirlenir.",
+      "containment": "Başka bağlamların örnekleri focus içine taşınmıyor; yalnız biçimin daha geniş kullanım kapasitesi ve bu ayetteki ilahi sınırı korunuyor.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": ["trusted"],
+        "reason": "Shareable-form contrast supplied supportta var; focus attachment bu karşıtlığı yerel sınırla niteliyor."
+      },
+      "support_ids": ["sup_59953667b2f192780589", "sup_696cad80b84a282418b4"],
+      "branch_activations": [],
+      "connection_refs": [],
+      "context_refs": [],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "micro:enacted-mercy-closure",
+      "origin_candidate_id": "cand_e74130c63d851de1a020",
+      "represented_candidate_ids": [],
+      "title": "Kapanış gerçekleşmiş merhamete iniyor",
+      "claim": "Rahim, ayetin son semantik birimini kalıcı ve gerçekleşmiş merhamet niteliğiyle kapatır.",
+      "mechanism": "Son kelimenin konumu ve biçimsel ayrımı, Rahman'ın genişletici açılımını uygulanmış ve süreklilik taşıyan merhametle tamamlar.",
+      "reader_payoff": "Ayetin sonu yalnız 'merhamet' tekrarına değil, merhametin gerçekleşmiş ve kalıcı bir nitelik olarak yerleşmesine iner.",
+      "containment": "Bu kapanış Rahman'ı veya ilk merhamet biçimini dışlamaz; iki sıfatın farkını ve birlikte kurduğu formül sonucunu korur.",
+      "epistemic": {
+        "status": "grounded",
+        "source_trust": ["trusted"],
+        "reason": "Final-word position ve critical morphology rows kalıcı enacted-mercy kapanışını doğrudan destekliyor."
+      },
+      "support_ids": ["sup_5a43ccd2baac6c45ad04", "sup_696cad80b84a282418b4"],
+      "branch_activations": [],
+      "connection_refs": [],
+      "context_refs": [],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "micro:pause-variant",
+      "origin_candidate_id": "cand_d37a7bc52f828cc7df3e",
+      "represented_candidate_ids": [],
+      "title": "Durak ve hâl baskısı kapanışta açılıyor",
+      "claim": "Bildirilmiş hâl ve durak varyantları Rahim'in 1:2'ye bir ses köprüsü kurabilmesi veya özel odak gibi duyulabilmesi ihtimalini açar; focus biçimi genitif kapanışta kalır.",
+      "mechanism": "Apparatus varyantları durak ve cümle sınırı basıncını görünür kılar, ancak supplied local case Rahim'i Allah adına bağlı son sıfat olarak sabitler.",
+      "reader_payoff": "Kapanışın hem kendi başına mühür gibi duyulabilen hem sonraki hamd ilişkisinin eşiğine açılabilen bir ritim basıncı taşıdığı anlaşılır.",
+      "containment": "1:2'ye köprü olasılığı focus parseının yerine geçirilmiyor; bu, yerel genitif kapanışın yanında tutulan apparatus sınırıdır.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": ["trusted"],
+        "reason": "Variant/pause supportu supplied, focus local form ile açıkça sınırlandırılmış ve 1:2 bağlantısı yalnız olasılık olarak tutulmuş."
+      },
+      "support_ids": ["sup_696cad80b84a282418b4", "sup_f5a6078ed810bdf095da"],
+      "branch_activations": [],
+      "connection_refs": [],
+      "context_refs": ["1:2"],
+      "semantic_obligation_refs": []
+    }
+  ],
+  "friction_notes": [
+    "Packet kapsamı üzerinde discovery tamamlandı: 27 aday, 32 support, 33 focus-root branch, 0 connection ve 10/10 çözümlenmiş focus-word alignment kaydı incelendi. HFT kaynağı açıkça yok; bu nedenle before/after reader trace, reader walk ve HFT outlier değerlendirmesi yapılamadı.",
+    "Seçili context unit yok ve connection registry boş; bu micro lane'de macro/global resonance kabul edilmedi. 1:2 ve 1:3'e ilişkin supplied word-analysis destekleri yalnız kendi yerel katkılarıyla nitelendirildi.",
+    "Branch registry'deki dallar kullanılabilirlik düzeyinde kaldı; candidate_links ve support_links boş olduğu için kök üyeliği tek başına activation sayılmadı. Yalnız exact focus carrier ve bağımsız yerel trigger taşıyan root_000745/B005 F005, root_000047/B001 F001 ve root_000552/B001 F001/F005 activations kaydedildi; diğer dallar availability-only bırakıldı.",
+    "Üç QAC morpheme kaydı ledger_only olduğu için bağımsız finding yapılmadı; ilgili word findings içinde taşıyıcı kanıtı olarak korundu. Candidate kayıtlarında ayrıca yapılandırılmış semantic_obligations, nominated branch veya candidate context_refs bulunmadığından bu alanların exclusion dizileri boştur."
+  ]
+}

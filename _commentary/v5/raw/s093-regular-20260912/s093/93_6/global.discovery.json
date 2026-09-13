@@ -1,0 +1,691 @@
+{
+  "schema_version": "commentary-v5-scope-discovery-v1",
+  "ayah_ref": "93:6",
+  "lane": "global",
+  "coverage_complete": true,
+  "candidate_decisions": [
+    {
+      "candidate_id": "cand_d1f77dd81c2852c32543",
+      "decision": "represented",
+      "reason": "Bu adayın hatırlanan barındırılmayı sonraki yetimlik karşısındaki koruma yükümlülüğüne bağlayan anlamı global:retrospective-care-norm bulgusunda aynen taşınır; adayın dalları bulguda iniş yapar ve hiçbir dal, bağlam ya da yükümlülük dışarıda bırakılmaz.",
+      "finding_refs": ["global:retrospective-care-norm"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_5625d8df98eee6e5fc4a",
+      "decision": "accept",
+      "reason": "Yetimlik ve barındırma dalları, exact wider orphan/shelter bağlantılarıyla koruyucu ilişki ve topluluğa katılma yönünde bağımsızca temas eder; çekirdek ve ettirgen barındırma facetleri bulguda korunur.",
+      "finding_refs": ["global:protective-belonging"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_7c26247284e18897802e",
+      "decision": "accept",
+      "reason": "Bulma ve barındırma dallarının duygusal facetleri, barınmayı sıkıntıyı gideren bir koruma ve yetimi itmenin karşıtı olarak gösteren exact wider bağlantılarla buluşur; split-root belirsizliği epistemik niteliği düşürür, görünürlüğü değil.",
+      "finding_refs": ["global:responsive-recognition"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_74f12e01db7eaab64174",
+      "decision": "accept",
+      "reason": "Barındırma dalının yaranın kapanmaya yaklaşması facet'i, dış bağlamdaki yetim için somut bakım ve onurlandırma temasının oluşturduğu bağımsız tetikleyiciyle sosyal ilişkinin onarımı için sınırlı bir analoji kurar.",
+      "finding_refs": ["global:wound-repair"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_c6786d24a1885be9f3a7",
+      "decision": "reject",
+      "reason": "Teklik/eşsizlik dalının focus taşıyıcısı bulunsa da packet'teki tek wider temas olan 26:84, truthful reputation talebidir; bunu yetimlik dalının eşsizliğini örnek hikâyeye dönüştüren bağımsız bir tetikleyiciye bağlayan temas sağlanmamıştır.",
+      "finding_refs": [],
+      "branch_exclusions": [
+        {
+          "branch_ref": "root_001692/B002",
+          "reason": "Peerless-to-tellable transition remains an attributed inference, and the supplied wider connection does not activate this exact branch with a changed focus reading."
+        }
+      ],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_2873511ea1eea97bdd24",
+      "decision": "reject",
+      "reason": "Varlığa gelme dalının focus carrier'ı mevcut olsa da supplied finding açıkça anlatının böyle bir varlık dönüşümü kurmadığını bildirir; 26:18'deki yetiştirme sahnesi varlıktan yokluğa ontolojik geçiş için bağımsız tetikleyici değildir.",
+      "finding_refs": [],
+      "branch_exclusions": [
+        {
+          "branch_ref": "root_001626/B002",
+          "reason": "The wider care/upbringing target does not establish the branch's existence-after-nonexistence relation or materially change the focus finding."
+        }
+      ],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_a843bab890c3ba200df6",
+      "decision": "accept",
+      "reason": "Bulma dalının exact focus carrier'ı, korunmasız bir çocuğun wider sahnede bulunup alınmasıyla doğrudan temas eder; bu bağlantı bulmayı barınmadan önceki ilk kurtarma teması olarak global ölçekte değiştirir.",
+      "finding_refs": ["global:foundness-first-contact"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_7ebfb1450e848356d25b",
+      "decision": "reject",
+      "reason": "Adayın peerless dalı için global geçiş bağımsızca kurulmamış, ayrıca nominated tale branch'inin 93:6 veya supplied context içinde geçerli taşıyıcısı yoktur; unbound reader kaydı bu iki eksikliği kapatmaz.",
+      "finding_refs": [],
+      "branch_exclusions": [
+        {
+          "branch_ref": "root_000299/B004",
+          "reason": "The nominated tale-making branch has no focus or selected-context occurrence; its 93:11 mention exists only in an unanchored reader summary."
+        },
+        {
+          "branch_ref": "root_001692/B002",
+          "reason": "The supplied reputation connection does not independently activate peerless solitude or produce a landed changed reading after the tale branch is removed."
+        }
+      ],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_84000ea5bc7f9a73ca96",
+      "decision": "narrow",
+      "reason": "Kayıtlı barındırma-yara ve yetimlik-gecikme facetleri, yetim bakımının wider zaman örüntüleriyle sınırlı biçimde korunur. Kaydın unresolved ر ح م/B003 citation'ı packet'te kayıtlı bir dal veya exact carrier değildir; bu nedenle onun maternal/womb uzantısı kapsam dışında bırakılır.",
+      "finding_refs": ["global:delayed-repair"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_83f360b5a158467cefbc",
+      "decision": "reject",
+      "reason": "Varlık dalı için reader kaydı ontolojik kurtarılışı exploratory bir çıkarım olarak sunar; supplied care/upbringing connection'ları var olma facetini bağımsızca tetiklemez. Ayrıca ر ب ب/B009 citation'ı kayıtlı değildir.",
+      "finding_refs": [],
+      "branch_exclusions": [
+        {
+          "branch_ref": "root_001626/B002",
+          "reason": "No exact wider existence trigger or focus-return contact is supplied; the source's protected-existence move remains an unsupported inference here."
+        }
+      ],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_8db7f37ac55c18bf5b1d",
+      "decision": "narrow",
+      "reason": "Retrospective kaydın yetimlik dönüşünü koruma normunun zemini olarak okuyan kısmı global:retrospective-care-norm bulgusuna indirgenir. Aynı kaydın peerless/tellable uzantısı, kayıtlı bir tale carrier'ı ve yeterli bağımsız geçiş taşımadığı için bu adayın bounded core'una alınmaz.",
+      "finding_refs": ["global:retrospective-care-norm"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_689d67b025c156a8366c",
+      "decision": "represented",
+      "reason": "Wider reader kaydının hatırlanan kurtarılışın sonraki yetimlik karşısında koruma kuralına dönüşmesi iddiası global:retrospective-care-norm içinde aynen taşınır; ytm B001 dalı orada landed durumdadır.",
+      "finding_refs": ["global:retrospective-care-norm"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_0385109672815c2614f5",
+      "decision": "reject",
+      "reason": "Shelter-reverses-isolation claim'i, nominated tale branch'inin geçerli focus/context carrier'ı bulunmadığı ve kalan peerless branch'in independent global trigger eşiğini geçmediği composite bir adaydır; desteklenen shelter-belonging bulgusu bu eksik composite'i temsil etmez.",
+      "finding_refs": [],
+      "branch_exclusions": [
+        {
+          "branch_ref": "root_000299/B004",
+          "reason": "The tale-making branch has no supplied carrier occurrence; its context mention is unanchored."
+        },
+        {
+          "branch_ref": "root_001692/B002",
+          "reason": "The remaining peerless-isolation claim is not independently activated by the supplied reputation target in this candidate's composite form."
+        }
+      ],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_cec2e9fef973be7c3a78",
+      "decision": "represented",
+      "reason": "Wider reader kaydının affective recognition iddiası global:responsive-recognition bulgusunda aynen taşınır; candidate'in wjd B004 dalı exact facet activation ile landed durumdadır.",
+      "finding_refs": ["global:responsive-recognition"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_291ef53dbeb5adf7142d",
+      "decision": "accept",
+      "reason": "Barındırma dalı, wider exact scenes'te korunmasız topluluğun shelter ve aid ile birlikte alınmasıyla bireysel çatıdan kolektif koruma pratiğine uzanan ayrı bir global movement kurar.",
+      "finding_refs": ["global:collective-shelter"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_45cd2ded8cde53bb7e6f",
+      "decision": "reject",
+      "reason": "Assigned HFT record yalnız unanchored bir summary claim içerir; exact context ayah, word index, root, attributed role ve focus-return trace supplied değildir. Legacy-unbound HFT kuralındaki attributed retention şartı bu nedenle karşılanmaz.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_336fdc6a9f715fb33687",
+      "decision": "reject",
+      "reason": "Future giving ve continuing guardianship iddiası için assigned HFT summary'de exact coordinate, context carrier veya focus-return trace yoktur; global lane'de sadece unanchored temporal inference olarak kalır.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_b1962419a6143c4735cf",
+      "decision": "reject",
+      "reason": "Refuge-guidance-sufficiency triad'ı için HFT record'unda focus carrier, independent trigger ve exact return trace bulunmaz; summary'nin listedeki üç ayrı remedy'yi packet yüzeyine indiren bir bağlantısı yoktur.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_a2d653f82e7f9769fc89",
+      "decision": "reject",
+      "reason": "Later imperatives'in non-domination, hospitable reception ve testimony'ye dönüşmesi assigned HFT summary'de exact context coordinates veya focus-return role ile desteklenmemiştir; bu nedenle global activation landed değildir.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_5e862c3ca17a266ad9c2",
+      "decision": "reject",
+      "reason": "HFT'nin spatial, relational, affective ve temporal composite summary'si exact activation trace sunmaz; packet'te ayrı ayrı kurulabilen ilişkiler bağımsız bulgular olarak değerlendirilmiş, unanchored composite kabul edilmemiştir.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_df71e4dd34bdba92bb87",
+      "decision": "reject",
+      "reason": "Bu HFT kaydı bir affective branch'in yalnızca olabileceğini söyleyen belirsizlik notudur; affirmative activation, exact carrier ve independent trigger sunmadığı için finding oluşturmaz.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_d017c3fc0ea9daca69f1",
+      "decision": "reject",
+      "reason": "Day/night visibility-cover modeli HFT'de yalnız olası bir atmospheric support olarak geçer; exact context carrier, focus return ve changed reading supplied değildir.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_55763090a75eb59d0897",
+      "decision": "reject",
+      "reason": "Severing, child-rocking ve taking-charge outliers için HFT summary non-dominant mapped roots'e işaret eder, ancak exact trace, carrier ve bağımsız global trigger vermez; outlier farkındalığı activation kanıtı değildir.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    }
+  ],
+  "findings": [
+    {
+      "finding_ref": "global:foundness-first-contact",
+      "origin_candidate_id": "cand_a843bab890c3ba200df6",
+      "represented_candidate_ids": [],
+      "title": "Bulunma, korumaya giden ilk temas",
+      "claim": "Focus'taki bulma edimi, wider korunmasız çocuk sahnesiyle temas ettiğinde barındırmadan önce gelen ilk kurtarma teması olarak okunabilir.",
+      "mechanism": "Focus taşıyıcısı olan bulma dalı, korunmasız bir çocuğun wider sahnede yerleştirilip alınmasıyla bağımsız bir kurtarma eylemine bağlanır; böylece bulunmak, shelter'ın öncesindeki erişilebilir hâle gelmeyi görünür kılar.",
+      "reader_payoff": "Okur, 'bulup barındırma' dizisini iki kopuk fiil olarak değil, fark edilmenin korumaya açılan ilk hareket olduğu bir sıra olarak görür.",
+      "containment": "Bu temas bulma fiilini barındırma anlamına dönüştürmez ve wider sahneyi focus'un tarihsel sahnesi ilan etmez; sıradan bulma anlamı korunur.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": ["legacy_unbound"],
+        "reason": "Focus branch ve exact wider target bağlantısı mevcut, fakat reader kaydı legacy_unbound ve bağlantı hedef morfolojisi olmadan sunulmuştur; bu nedenle ilişki sınırlı bir contextual resonance olarak tutulur."
+      },
+      "support_ids": ["sup_49031d4ab29adb795903"],
+      "branch_activations": [
+        {
+          "branch_ref": "root_001626/B001",
+          "facet_id": "F001",
+          "branch_gloss": "bulma ve duyusal ya da zihinsel olarak algılama",
+          "facet_statement": "Bir şeyi, özellikle arananı veya yitiği, bulmak ve ona erişmek.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["93:6:2:1"],
+          "trigger_refs": ["conn_268ea1419afbef85b462"],
+          "focus_return_refs": ["93:6:2"],
+          "carrier": "يَجِدْكَ içindeki bulma ve birine erişme edimi.",
+          "independent_trigger": "12:10'un exact target Arabic'si korunmasız bir çocuğun kuyuya bırakılıp yolcular tarafından alınmasını anlatan wider rescue contact'ı sağlar.",
+          "activation": "Wider pickup sahnesi, focus'taki bulmayı nötr bir saptamadan önce gelen erişim ve kurtarma temasıyla buluşturur.",
+          "resulting_reading": "Bulma, yetimlik hâlinin görülüp korumaya açıldığı ilk temas olarak belirginleşir.",
+          "boundary": "Dalın ordinary bulma anlamı sürer; focus fiiline shelter veya wider sahnenin bütün olay örgüsü yüklenmez."
+        }
+      ],
+      "connection_refs": ["conn_268ea1419afbef85b462"],
+      "context_refs": ["12:10"],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:protective-belonging",
+      "origin_candidate_id": "cand_5625d8df98eee6e5fc4a",
+      "represented_candidate_ids": [],
+      "title": "Barınma, koruyucu ilişkiye katılma",
+      "claim": "Focus'taki barındırma, yalnızca bir çatı sağlamakla kalmayıp tek başına kalmış kişiyi koruyucu bir ilişkiye ve topluluğa katma olarak da belirginleşir.",
+      "mechanism": "Yetimlik dalının tek başına kalma facet'i, wider orphan/kin ve family-shelter sahneleriyle; barındırma dalının ettirgen facet'i ise family shelter ve collective shelter-and-aid sahneleriyle temas eder. İki temas, barınmayı korunacak bir ilişkiye alma yönünde değiştirir.",
+      "reader_payoff": "Barındırma, boş bir mekâna yerleştirme değil, kopmuş koruyuculuğun yerini dolduran bir aidiyet hareketi olarak görünür.",
+      "containment": "Mekânsal sığınak ve focus'un sıradan barındırma anlamı intact kalır; her shelter kelimesi topluluk veya tam bir sosyal kurum anlamına genişletilmez.",
+      "epistemic": {
+        "status": "grounded",
+        "source_trust": ["trusted"],
+        "reason": "Trusted cross-run finding, exact focus branches ve doğrudan wider shelter/orphan targets aynı koruyucu ilişkiyi bağımsızca taşır."
+      },
+      "support_ids": ["sup_f04c48d6fa4e70c074fb"],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000070/B001",
+          "facet_id": "F001",
+          "branch_gloss": "sığınıp barınma ve barındırma",
+          "facet_statement": "Bir varlık, kendisini toplayan veya barındıran bir yere yönelip oraya katılır.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["93:6:4:2"],
+          "trigger_refs": ["conn_d8a21b3cfd00e8c70956", "conn_1491ca0158db4c710f9f"],
+          "focus_return_refs": ["93:6:4"],
+          "carrier": "ـَٔاوَىٰ'nın koruyucu bir yere alma ve o yerde toplama yönü.",
+          "independent_trigger": "70:13 family shelter'ı, 8:74 ise shelter ile yardımın birlikte yürüdüğü collective bir koruma sahnesini sağlar.",
+          "activation": "Wider aile ve topluluk sahneleri, focus'taki shelter carrier'ını yalnız yer değil, içine alan koruyucu bir birlik olarak yeniden temaslandırır.",
+          "resulting_reading": "Barındırma, kişinin korunacağı bir yere ve ilişkiye katılmasını görünür kılar.",
+          "boundary": "Bu core facet, focus'ta açıkça bulunan barındırma edimini korur; özel wider kurumlar focus'a aynen taşınmaz."
+        },
+        {
+          "branch_ref": "root_000070/B001",
+          "facet_id": "F002",
+          "branch_gloss": "sığınıp barınma ve barındırma",
+          "facet_statement": "Başkasını bir yere alıp yerleştirme ve barındırma aynı çekirdeğin ettirgen görünümüdür.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["93:6:4:2"],
+          "trigger_refs": ["conn_d8a21b3cfd00e8c70956", "conn_1491ca0158db4c710f9f"],
+          "focus_return_refs": ["93:6:4"],
+          "carrier": "Form IV ـَٔاوَىٰ'nın başkasını shelter'a alma ve orada tutma yönü.",
+          "independent_trigger": "Wider records shelter'ı aile, yardım ve karşılıklı koruma ilişkileriyle birlikte gösterir.",
+          "activation": "Başkasını alma yönündeki causative carrier, wider collective care sahneleriyle temas ederek barındırmanın ilişki kuran tarafını öne çıkarır.",
+          "resulting_reading": "Focus'taki sheltering, korunmasız kişiyi koruyucu bir ilişkiye yerleştiren etkin bir karşılık olarak okunur.",
+          "boundary": "Ettirgen barındırma facet'i korunur; wider sahneler focus'ta bulunmayan ayrıntılı bir toplumsal program olarak sunulmaz."
+        },
+        {
+          "branch_ref": "root_001692/B002",
+          "facet_id": "F001",
+          "branch_gloss": "tek kalmış ya da benzeri zor bulunan şey",
+          "facet_statement": "Canlı ya da cansız bir varlık, başka bir eşlikçi olmadan tek başına bulunduğunda bu nitelemeyi alabilir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["93:6:3:1"],
+          "trigger_refs": ["conn_c465fe0c135ddcefe8fb", "conn_d8a21b3cfd00e8c70956"],
+          "focus_return_refs": ["93:6:3"],
+          "carrier": "يَتِيمًا içindeki eşlikçisiz ve tek kalmış kişi durumu.",
+          "independent_trigger": "90:15 yetimliği kinship ile yan yana getirir; 70:13 ise shelter'ı family unit olarak görünür kılar.",
+          "activation": "Tek kalmışlık carrier'ı, wider kin/family relations ile temas edince barındırmanın açığı yalnız kapatmadığı, kişiyi bir koruyucu çevreye aldığı okunur.",
+          "resulting_reading": "Yetimlik, bir konut eksikliğinden çok koruyucu eşlikten kopukluk olarak belirginleşir.",
+          "boundary": "Bu facet yalnızlık/tek kalmışlık yönünü taşır; ebeveyn kaybı ve wider aile ayrıntıları bu focus kelimesine zorla eklenmez."
+        }
+      ],
+      "connection_refs": [
+        "conn_c465fe0c135ddcefe8fb",
+        "conn_d8a21b3cfd00e8c70956",
+        "conn_1491ca0158db4c710f9f"
+      ],
+      "context_refs": ["90:15", "70:13", "8:74"],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:responsive-recognition",
+      "origin_candidate_id": "cand_7c26247284e18897802e",
+      "represented_candidate_ids": ["cand_cec2e9fef973be7c3a78"],
+      "title": "Bulma ve barındırmada duygusal karşılık",
+      "claim": "Yetimlik hâlini bulmak ve onu barındırmak, wider temaslarla birlikte kırılganlığı fark edip ona acıyan bir koruma karşılığı verme yönünü de görünür kılar.",
+      "mechanism": "Focus bulma taşıyıcısı, shelter'ın sıkıntıyı giderdiği exact wider sahne ve yetimi itmenin karşıt sahnesiyle; shelter carrier'ı da aynı relief/compassion boundary ile temas eder. Bu contact, bulma ile barındırmayı duygusal olarak karşılık veren bir hareket dizisi hâline getirir.",
+      "reader_payoff": "Okur, korumayı yalnızca yer sağlamak olarak değil, fark edilen kırılganlığa yönelen iç yumuşamasıyla birlikte işleyen bir karşılık olarak algılar.",
+      "containment": "Ordinary bulma ve barındırma anlamları korunur; Form I bulma fiili bağımsız bir duygu fiiline çevrilmez ve focus'a açıklanmamış bir iç psikoloji yüklenmez.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": ["legacy_unbound", "trusted"],
+        "reason": "Trusted cross-run nomination exact focus branches ile uyuşur; wider reader corroboration legacy_unbound olduğu ve w-j-d emotional branch qualified olduğu için affective contact qualified tutulur."
+      },
+      "support_ids": ["sup_50ee32cbd5a433a26d8d", "sup_6bbb720885db91cc3f1d"],
+      "branch_activations": [
+        {
+          "branch_ref": "root_001626/B004",
+          "facet_id": "F001",
+          "branch_gloss": "üzüntü veya sevgi duymak; güçlü isteğin doyumunu yaşamak",
+          "facet_statement": "Üzüntü ve keder duymak; belirli yapıda bir kimse için üzülmek.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["93:6:2:1"],
+          "trigger_refs": ["conn_a6eeaac33f46d4247662", "conn_b73ad43a843302235c87"],
+          "focus_return_refs": ["93:6:2"],
+          "carrier": "يَجِدْكَ'nın focus kişisini bir hâl içinde bulma edimi.",
+          "independent_trigger": "12:69 shelter'ı sıkıntının giderilmesiyle birlikte verir; 107:2 ise yetimi iterek bu korumanın karşıtını gösterir.",
+          "activation": "Relief ve rejection karşıtlığı, focus'taki finding contact'ına kırılganlığı kaydeden bir duygusal yön verir.",
+          "resulting_reading": "Bulmak, yalnız konumu saptamak değil, görülen korunmasızlığın etkisini taşıyan bir tanıma olarak duyulur.",
+          "boundary": "Bu qualified resonance, Form I'nin ordinary finding facetini kaldırmaz; love, grief veya complete inner state kesinlenmez."
+        },
+        {
+          "branch_ref": "root_000070/B002",
+          "facet_id": "F001",
+          "branch_gloss": "acıyarak içi yumuşama",
+          "facet_statement": "Kişiye karşı acıma, iç yumuşaması ve üzülme duygusu dalın çekirdeğidir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["93:6:4:2"],
+          "trigger_refs": ["conn_a6eeaac33f46d4247662", "conn_b73ad43a843302235c87"],
+          "focus_return_refs": ["93:6:4"],
+          "carrier": "ـَٔاوَىٰ'nın kişiyi shelter'a alma eylemi.",
+          "independent_trigger": "12:69 shelter'ı aloneness ve distress'in giderilmesiyle, 107:2 ise orphan rejection ile karşılaştırmalı bir sınırla sunar.",
+          "activation": "Shelter'ın relief-producing wider contact'ı, focus action'ını kişiye yönelen acıma ve esirgeyici yumuşama çizgisine bağlar.",
+          "resulting_reading": "Barındırma, kırılganlığı fark eden ve ona içten bir korumayla cevap veren hareket olarak derinleşir.",
+          "boundary": "Barınma/mekâna yönelme core anlamı sürer; bu facet shelter kelimesini genel merhamet adına dönüştürmez."
+        }
+      ],
+      "connection_refs": ["conn_a6eeaac33f46d4247662", "conn_b73ad43a843302235c87"],
+      "context_refs": ["12:69", "107:2"],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:wound-repair",
+      "origin_candidate_id": "cand_74f12e01db7eaab64174",
+      "represented_candidate_ids": [],
+      "title": "Barınma, kopmuş korumayı onaran bir hareket",
+      "claim": "Barındırma dalının yaranın kapanmaya yaklaşması facet'i, yetimliğin kopardığı koruyucu ilişkiyi toparlanmaya yönelen bir yara gibi algılamaya izin verir.",
+      "mechanism": "Focus shelter carrier'ı, wider yetim için besleme ve onurlandırma eylemleriyle temas eder; bu bağımsız bakım teması, branch'in wound-drawing-together image'ını social severance üzerine sınırlı bir analoji olarak aktive eder.",
+      "reader_payoff": "Shelter, yalnızca açıkta kalmayı önleyen bir konum değil, kopmuş bir koruyucu bağın yeniden bir araya gelmesine yönelen bakım olarak görünür.",
+      "containment": "Bu bedenî yara facet'inin social repair'e uygulanan bir analojisidir; focus'ta gerçek bir yara, annelik veya tamamlanmış iyileşme iddia edilmez.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": ["trusted"],
+        "reason": "Branch facet'i packet'te exact ve trusted cross-run finding olarak kayıtlıdır; sosyal yaraya uygulanışı source tarafından weak olarak işaretlenen analogical bir genişletmedir."
+      },
+      "support_ids": ["sup_bcd448b9e7b16446eb75"],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000070/B001",
+          "facet_id": "F001",
+          "branch_gloss": "sığınıp barınma ve barındırma",
+          "facet_statement": "Bir varlık, kendisini toplayan veya barındıran bir yere yönelip oraya katılır.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["93:6:4:2"],
+          "trigger_refs": ["conn_abe1b098925d6df4241d", "conn_c77d99476f42fdef9db2"],
+          "focus_return_refs": ["93:6:4"],
+          "carrier": "ـَٔاوَىٰ'nın kişiyi koruyucu bir yere alma ve orada toplama yönü.",
+          "independent_trigger": "76:8 yetim için yiyecek verme, 89:17 ise yetimi onurlandırma üzerinden dışarıya yönelen bakım temasını sağlar.",
+          "activation": "Somut bakım ve onurlandırma, focus shelter'ını kopmuş koruyuculuğun yeniden toplanmasına yönelen eylem olarak temaslandırır.",
+          "resulting_reading": "Barındırma, yetimlikteki kopmayı bir araya getirmeye başlayan bir koruma hareketi olarak belirginleşir.",
+          "boundary": "Core sheltering remains primary; wider care scenes do not prove a literal wound or a completed repair."
+        },
+        {
+          "branch_ref": "root_000070/B001",
+          "facet_id": "F004",
+          "branch_gloss": "sığınıp barınma ve barındırma",
+          "facet_statement": "Kuşların birbirine katılıp toplanması ve yaranın kapanmaya yaklaşması, birleşme çizgisindeki özel kullanımlardır.",
+          "application_mode": "analogical",
+          "carrier_refs": ["93:6:4:2"],
+          "trigger_refs": ["conn_abe1b098925d6df4241d", "conn_c77d99476f42fdef9db2"],
+          "focus_return_refs": ["93:6:4"],
+          "carrier": "ـَٔاوَىٰ'nın shelter/gathering carrier'ı.",
+          "independent_trigger": "Wider orphan-care scenes make the severed protective relation and its outward repair visible.",
+          "activation": "Branch'in wound-closing extension'ı, bakımın yetimi koruyucu bir ilişkiye yeniden toplama hareketiyle temas eder.",
+          "resulting_reading": "Shelter, kopmuş korumayı kapanmaya yaklaşan bir bütünlük yönünde taşıyan analogical repair olarak duyulur.",
+          "boundary": "Facet social analogy olarak kalır; bodily wound, medical healing veya literal gathering scene focus'a eklenmez."
+        }
+      ],
+      "connection_refs": ["conn_abe1b098925d6df4241d", "conn_c77d99476f42fdef9db2"],
+      "context_refs": ["76:8", "89:17"],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:delayed-repair",
+      "origin_candidate_id": "cand_84000ea5bc7f9a73ca96",
+      "represented_candidate_ids": [],
+      "title": "Korumanın zamana yayılan onarımı",
+      "claim": "Focus'taki yetimlik ve barındırma, wider korumanın yetim için olgunlaşmaya kadar sürdürüldüğü bir zaman çizgisiyle buluştuğunda, onarımı tek anlık yerleştirmeden zamana yayılan bakım olarak görünür kılar.",
+      "mechanism": "Barınma dalının wound-closing extension'ı ve yetimlik dalının iyiliğin gecikmesi facet'i, yetim malı ve korumasının maturity'ye kadar muhafaza edildiği exact wider sahnelerle birlikte aktive olur; iki branch, repair'in süreç niteliğini açıklar.",
+      "reader_payoff": "Barındırma, açığı hemen kapatan tek bir olay değil, korunmasızlığın etkilerini zaman içinde taşıyan ve tamamlanmasına izin veren bir bakım olarak kavranır.",
+      "containment": "Bu bounded core, kayıtlı Awy ve Ytm facetleriyle sınırlıdır. Unresolved ر ح م/B003 citation'ı maternal/womb taşıyıcısı sağlamaz; focus'un tense veya grammar'ından ayrı bir gecikme hükmü çıkarılmaz.",
+      "epistemic": {
+        "status": "exploratory",
+        "source_trust": ["legacy_unbound"],
+        "reason": "Reader walk exact registered carriers and relevant wider orphan-protection targets supplies a coherent but analogical delay/repair contact; the unresolved maternal citation and unbound authoring require exploratory qualification."
+      },
+      "support_ids": ["sup_a48775042fbadfcd59f6"],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000070/B001",
+          "facet_id": "F001",
+          "branch_gloss": "sığınıp barınma ve barındırma",
+          "facet_statement": "Bir varlık, kendisini toplayan veya barındıran bir yere yönelip oraya katılır.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["93:6:4:2"],
+          "trigger_refs": ["conn_bf2823f3c933080f1166", "conn_aa4d4edf8c965be09749"],
+          "focus_return_refs": ["93:6:4"],
+          "carrier": "ـَٔاوَىٰ'nın kişiyi bir koruma yerine alma yönü.",
+          "independent_trigger": "18:82 ve 17:34, yetim için koruma ve malın maturity'ye kadar korunması yönünde wider temporal care scenes sağlar.",
+          "activation": "Wider delayed-protection scenes, focus shelter'ını yalnız başlangıçtaki sığınma değil, devam eden custody olarak temaslandırır.",
+          "resulting_reading": "Barındırma, korumayı zaman içinde sürdüren bir yerleştirme hareketi olarak derinleşir.",
+          "boundary": "Bu core shelter relation'dır; focus ayah kendi başına uzun süreli custody hükmü kurmaz."
+        },
+        {
+          "branch_ref": "root_000070/B001",
+          "facet_id": "F004",
+          "branch_gloss": "sığınıp barınma ve barındırma",
+          "facet_statement": "Kuşların birbirine katılıp toplanması ve yaranın kapanmaya yaklaşması, birleşme çizgisindeki özel kullanımlardır.",
+          "application_mode": "analogical",
+          "carrier_refs": ["93:6:4:2"],
+          "trigger_refs": ["conn_bf2823f3c933080f1166", "conn_aa4d4edf8c965be09749"],
+          "focus_return_refs": ["93:6:4"],
+          "carrier": "ـَٔاوَىٰ'nın toplayıp koruma yönü.",
+          "independent_trigger": "Wider scenes preserve a vulnerable person's future protection until maturity, giving repair a temporal completion horizon.",
+          "activation": "Yaranın kapanmaya yaklaşması facet'i, orphan-care'ın hemen bitmeyen fakat korunarak ilerleyen onarımıyla analogically temas eder.",
+          "resulting_reading": "Shelter, kopmuş korumayı zamana yayılmış bir toparlanma yönünde taşıyan süreç gibi görünür.",
+          "boundary": "Bu social repair analogy'sidir; literal wound, maternal image veya tamamlanmış iyileşme iddia edilmez."
+        },
+        {
+          "branch_ref": "root_001692/B004",
+          "facet_id": "F001",
+          "branch_gloss": "yavaşlama veya gecikme",
+          "facet_statement": "Temel anlam, hareketin olağan hızından daha ağır ilerlemesi veya gecikmesidir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["93:6:3:1"],
+          "trigger_refs": ["conn_bf2823f3c933080f1166", "conn_aa4d4edf8c965be09749"],
+          "focus_return_refs": ["93:6:3"],
+          "carrier": "يَتِيمًا ile birlikte kayda geçen gecikme/yavaşlama pressure'ı.",
+          "independent_trigger": "17:34 ve 18:82 korumanın yetim büyüyene kadar ertelenmiş bir tamamlanma çizgisi taşıdığını gösteren exact targets'tır.",
+          "activation": "Wider maturity boundary, orphan carrier'ındaki gecikmeyi eksiklik değil korumanın sürdürülme zamanı olarak temaslandırır.",
+          "resulting_reading": "Yetimlik ve barındırma ilişkisi, gecikmeli fakat koruyucu bir bakım sürecini de görünür kılar.",
+          "boundary": "Gecikme branch'i focus'un sözdizimsel zamanını değiştirmez; yalnız wider care contact'ının qualified pressure'ıdır."
+        },
+        {
+          "branch_ref": "root_001692/B004",
+          "facet_id": "F003",
+          "branch_gloss": "yavaşlama veya gecikme",
+          "facet_statement": "Babasını yitirmiş çocuğa iyiliğin geç ulaşması, ebeveyn kaybı adlandırmasıyla kurulan açıklayıcı bağ olarak verilir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["93:6:3:1"],
+          "trigger_refs": ["conn_bf2823f3c933080f1166", "conn_aa4d4edf8c965be09749"],
+          "focus_return_refs": ["93:6:3"],
+          "carrier": "Yetimlik carrier'ının iyiliğin ulaşma zamanıyla ilişkilenebilen delay facet'i.",
+          "independent_trigger": "Wider orphan-property scenes, korunmanın ve kaynağın çocuk yeterliliğe ulaşana kadar tutulduğunu exact Arabic ile gösterir.",
+          "activation": "Gecikmiş iyilik facet'i, focus'taki barındırılmayı bir kereye mahsus acil yanıt değil, korunarak sürdürülen care olarak değiştirir.",
+          "resulting_reading": "Barındırma, kopmuş korunmanın zaman içinde yeniden kurulmasına imkân veren bir bakım olarak okunur.",
+          "boundary": "Bu facet yalnız açıklayıcı delay/repair contact'ıdır; unresolved maternal branch veya focus dışında bir hukuk hükmü değildir."
+        }
+      ],
+      "connection_refs": ["conn_bf2823f3c933080f1166", "conn_aa4d4edf8c965be09749"],
+      "context_refs": ["18:82", "17:34"],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:retrospective-care-norm",
+      "origin_candidate_id": "cand_8db7f37ac55c18bf5b1d",
+      "represented_candidate_ids": ["cand_d1f77dd81c2852c32543", "cand_689d67b025c156a8366c"],
+      "title": "Hatırlanan koruma, sonraki yetim için ölçü",
+      "claim": "93:6'daki hatırlanan barındırma, yetimlik wider bağlamda yeniden karşılaşıldığında, alınmış korumanın başka korunmasız kişiye yönelen bir koruma ölçüsüne dönüşmesini görünür kılar.",
+      "mechanism": "Focus'taki yetimlik ve barındırma carrier'ları, wider ayatlarda yetimi onurlandırma ve itmenin karşıt sonuçlarıyla temas eder; retrospective return kaydı bu temasın kişisel hatırayı dışarıya dönük bir koruma testine çevirdiğini bildirir.",
+      "reader_payoff": "Soru yalnızca geçmişte ne olduğunu hatırlatmaz; korunmuş olmanın, aynı kopmuş durumda bulunan başkasına nasıl davranılacağını değiştiren bir zemin olduğunu da görünür kılar.",
+      "containment": "Focus hâlâ geçmiş barındırmayı soran ayettir; wider norm bu ayetin yerine geçmez ve burada tam bir hukukî program olarak kurulmaz. Reader record'un 93:9/93:11 retrospective işaretleri exact context carriers olmadan geldiği için yalnız packet'teki exact connection targets ile landed edilmiştir.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": ["legacy_unbound", "trusted"],
+        "reason": "Trusted published finding ve legacy retrospective walk aynı care-to-duty movement'ı verir; exact wider orphan-treatment targets bunu destekler, fakat retrospective source'un unbound context coordinate'leri qualified sınırı gerektirir."
+      },
+      "support_ids": [
+        "sup_86595bf00ebfcc53c9bc",
+        "sup_73c09d5728ca14cad38d",
+        "sup_cfd2dc6594417754cc0e"
+      ],
+      "branch_activations": [
+        {
+          "branch_ref": "root_001692/B001",
+          "facet_id": "F001",
+          "branch_gloss": "babasını yitirmiş çocuk veya annesini yitirmiş hayvan yavrusu olma",
+          "facet_statement": "İnsanlarda durum, bir çocuğun ergenliğe ulaşmadan babasını yitirmesiyle oluşur.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["93:6:3:1"],
+          "trigger_refs": ["conn_b73ad43a843302235c87", "conn_c77d99476f42fdef9db2"],
+          "focus_return_refs": ["93:6:3"],
+          "carrier": "يَتِيمًا'nın koruyucu ebeveynden kopmuş çocuk durumunu taşıyan ordinary focus carrier'ı.",
+          "independent_trigger": "107:2 yetimi itme, 89:17 ise yetimi onurlandırma üzerinden wider ethical treatment contrast'ı verir.",
+          "activation": "Kopmuş çocuk carrier'ı, wider honor/rejection contrast'ıyla temas edince focus'taki hatıra sonraki korunmasız kişi için ölçü hâline gelir.",
+          "resulting_reading": "Hatırlanan yetimlik, başkasının yetimliğine karşı koruyucu davranışın deneyimsel zemini olarak görünür.",
+          "boundary": "Bu, focus'un geçmiş sahnesini sonraki wider ethical test ile ilişkilendirir; focus kelimesi kendi başına sonraki ayatların bütün normlarını söylemez."
+        },
+        {
+          "branch_ref": "root_000070/B001",
+          "facet_id": "F001",
+          "branch_gloss": "sığınıp barınma ve barındırma",
+          "facet_statement": "Bir varlık, kendisini toplayan veya barındıran bir yere yönelip oraya katılır.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["93:6:4:2"],
+          "trigger_refs": ["conn_b73ad43a843302235c87", "conn_c77d99476f42fdef9db2"],
+          "focus_return_refs": ["93:6:4"],
+          "carrier": "ـَٔاوَىٰ'nın focus kişisini shelter'a alıp toplama yönü.",
+          "independent_trigger": "Wider orphan-repelling and orphan-honoring scenes, shelter'ın dışarıya dönük ethical consequence'ını sağlar.",
+          "activation": "Kişiyi koruyucu yere alma carrier'ı, wider treatment contrast'ıyla temas ederek alınmış korumanın başkasına aktarılabilir bir ölçü olduğunu görünür kılar.",
+          "resulting_reading": "Barındırılma, yalnız geçmişte kalmış bir iyilik değil, sonraki korunmasız kişiyi korumaya yön veren hatırlanmış bir eylem olur.",
+          "boundary": "Shelter'ın ordinary spatial/relational anlamı korunur; complete moral system veya focus dışı tarihsel ayrıntı iddia edilmez."
+        },
+        {
+          "branch_ref": "root_000070/B001",
+          "facet_id": "F002",
+          "branch_gloss": "sığınıp barınma ve barındırma",
+          "facet_statement": "Başkasını bir yere alıp yerleştirme ve barındırma aynı çekirdeğin ettirgen görünümüdür.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["93:6:4:2"],
+          "trigger_refs": ["conn_b73ad43a843302235c87", "conn_c77d99476f42fdef9db2"],
+          "focus_return_refs": ["93:6:4"],
+          "carrier": "Form IV barındırma eyleminin başkasına yönelen causative tarafı.",
+          "independent_trigger": "Wider ayatlarda yetimin itilmeyip onurlandırılması, alınmış shelter'ın başkasına yönelen koruma biçimini sınar.",
+          "activation": "Other-directed shelter carrier'ı, wider orphan treatment ile temas edince rescue memory'yi outward protective duty olarak okutur.",
+          "resulting_reading": "Birini barındırmış olmanın hatırası, başka bir yetimi üstün güce açıkta bırakmama yönünde bir davranış ölçüsüne dönüşür.",
+          "boundary": "Bu contextual consequence'dır; focus'taki Form IV fiilinin anlamı sonraki hükmün tamamına dönüştürülmez."
+        }
+      ],
+      "connection_refs": ["conn_b73ad43a843302235c87", "conn_c77d99476f42fdef9db2"],
+      "context_refs": ["107:2", "89:17"],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:collective-shelter",
+      "origin_candidate_id": "cand_291ef53dbeb5adf7142d",
+      "represented_candidate_ids": [],
+      "title": "Barındırmanın kolektif koruma yönü",
+      "claim": "Barındırma carrier'ı, wider korunmasız toplulukların shelter, yardım ve güçlendirmeyle birlikte alınmasıyla kolektif bir koruma pratiğine doğru genişleyen bir görüntü kazanır.",
+      "mechanism": "Focus'taki sheltering verb, 8:26'nın az ve korku içindeki topluluğu shelter, help ve provision ile dönüştüren exact target'ı ve 8:74'ün shelter ile aid'i birlikte anan target'ı tarafından bağımsızca tetiklenir.",
+      "reader_payoff": "Okur, focus'taki tekil barındırma eyleminin daha geniş bir 'korunanları birlikte tutma' yönünü duyabilir; kişi korunurken ilişki ağı da toparlanır.",
+      "containment": "Bu wider collective extension focus ayetinin içinde açıkça kurulmuş bir grup sahnesi değildir; barınma ve barındırma ordinary carrier'ı korunur, tam bir community thesis üretilmez.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": ["legacy_unbound"],
+        "reason": "Legacy retrospective support collective turn'ü adaylaştırır; exact 8:26 and 8:74 shelter/aid targets gerçek wider triggers sağlar, ancak source authoring unbound olduğu için inference qualified tutulur."
+      },
+      "support_ids": ["sup_56af2fa5d93b68c5d2c3"],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000070/B001",
+          "facet_id": "F001",
+          "branch_gloss": "sığınıp barınma ve barındırma",
+          "facet_statement": "Bir varlık, kendisini toplayan veya barındıran bir yere yönelip oraya katılır.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["93:6:4:2"],
+          "trigger_refs": ["conn_acde17c81a6400023913", "conn_1491ca0158db4c710f9f"],
+          "focus_return_refs": ["93:6:4"],
+          "carrier": "ـَٔاوَىٰ'nın shelter/gathering yönü.",
+          "independent_trigger": "8:26 collective vulnerability sonrası shelter, aid, strength and provision; 8:74 shelter ile aid'i bir arada veren wider sahnelerdir.",
+          "activation": "Wider collective targets, focus shelter carrier'ını tek bir kişiyi almakla sınırlı bırakmayıp korunmasızların birlikte tutulduğu bir support relation'a temas ettirir.",
+          "resulting_reading": "Barındırma, kolektif korumanın ilkesi gibi çalışan bir toplama hareketi olarak görünür.",
+          "boundary": "Focus ayeti bir topluluk veya tarihsel collective episode anlatmaz; wider scene yalnız carrier'ın global extension'ını tetikler."
+        },
+        {
+          "branch_ref": "root_000070/B001",
+          "facet_id": "F002",
+          "branch_gloss": "sığınıp barınma ve barındırma",
+          "facet_statement": "Başkasını bir yere alıp yerleştirme ve barındırma aynı çekirdeğin ettirgen görünümüdür.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["93:6:4:2"],
+          "trigger_refs": ["conn_acde17c81a6400023913", "conn_1491ca0158db4c710f9f"],
+          "focus_return_refs": ["93:6:4"],
+          "carrier": "Form IV barındırma'nın başkasını shelter'a alma yönü.",
+          "independent_trigger": "Wider records sheltering'i aid and provision ile birleştirerek received protection'ın collective action tarafını gösterir.",
+          "activation": "Causative shelter carrier'ı, wider group-protection actions ile temas edince bir kişiyi almakla topluluğu korumaya yönelen hareket arasında süreklilik kurar.",
+          "resulting_reading": "Focus'taki barındırma, başkasını koruyucu bir çevreye alma eylemi olarak kolektifleşebilen bir yön taşır.",
+          "boundary": "Bu extension, ordinary sheltering anlamını seçmez veya focus'ta bulunmayan bütün topluluk ayrıntılarını iddia etmez."
+        }
+      ],
+      "connection_refs": ["conn_acde17c81a6400023913", "conn_1491ca0158db4c710f9f"],
+      "context_refs": ["8:26", "8:74"],
+      "semantic_obligation_refs": []
+    }
+  ],
+  "friction_notes": [
+    "Global packet'te selected_context_units boştur ve HFT anchor coverage supplied_unique_anchor_count=0'dır. Exact wider ayat yüzeyi connection_registry üzerinden mevcut olduğu için retained global activations bu connection refs'e bağlandı; exact coordinate/root/focus-return trace taşımayan HFT summary adayları reddedildi.",
+    "Legacy_unbound reader walks görünür evidence olarak korundu, fakat source trust activation'ın yerine geçirilmedi. Retained reader-derived findings qualified veya exploratory olarak işaretlendi; unanchored 93:9/93:11 taşıyıcıları yeni context occurrence gibi icat edilmedi.",
+    "Unresolved ر ح م/B003 ve ر ب ب/B009 citation'ları packet'te kayıtlı branch değildir. İlki delayed-repair adayının maternal/womb uzantısını daraltmak için, ikincisi existential adayın reddedilme sınırını belirtmek için görünür tutuldu.",
+    "Peerless-to-tellable geçişi, source kaydı tarafından önerilmesine rağmen, 26:84 reputation target'ı ile exact focus branch arasında yeterli independent contact kurmadığı için retained finding'e alınmadı; tale branch'i carrier yokluğu nedeniyle ayrıca reddedildi.",
+    "Candidate objects içinde semantic_obligations alanı supplied değildir; bu nedenle olmayan obligation ref'leri üretilmedi. Bütün 23 candidate bir kez karara bağlandı ve mevcut branch refs için landing veya explicit exclusion kaydedildi.",
+    "Registered candidate-linked surface dışında bağımsız bir uncandidate global activation, valid focus carrier ve wider trigger koşullarını birlikte sağlayacak şekilde bulunmadı."
+  ]
+}

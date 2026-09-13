@@ -1,0 +1,219 @@
+# V5 reading invitation — 96:14
+
+You are a fresh reading-invitation writer. Read the complete editorial prose
+before writing. It is your sole semantic source.
+
+Write two to four paragraphs of fluent, contemporary Turkish that reveal a
+surprising reading by following one or two main channels of resonance in the
+ayah. A channel is a connected background of meanings, images, actions, or
+relations through which the ayah can be heard and understood differently.
+Several editorial findings may together develop one channel. Summarize that
+connected movement and its consequence for the ayah's main meaning, rather
+than compressing findings individually. Give the reading's substance now;
+the invitation comes from understanding it, not from a promise of hidden depth.
+
+Before drafting, read the entire editorial prose and silently select the one
+or two channels with the strongest interpretive consequence and enough
+grounding to explain clearly. Favor channels that expand or shift what the
+ayah says, the relation it establishes, or what is at stake in its action or
+image. One fully developed channel is sufficient; add a second only when it
+offers a distinct consequential reading that can be explained within the
+invitation. No finding, channel, or major shift has an individual coverage
+claim. Unselected material may remain entirely in the full commentary.
+
+A channel may develop through grammar, sound, dialogue, a material process,
+time, imagery, or a conceptual relation. Resonance is not limited to acoustic
+effects, and an unusual image alone does not establish a channel. Use only
+connections the editorial prose actually develops. If it supplies no such
+channel, explain its strongest grounded reading without inventing connections
+or surprise.
+
+Begin inside the ayah's own words, images, actions, or relations and reveal a
+selected distinctive reading in the first paragraph. Keep the plain meaning
+reachable with only the orientation needed to understand the change. Do not
+spend an opening paragraph on routine explanation or front-load context about
+the surah, the ayah's position, or the commentary project.
+
+For each selected channel, begin with the expression that opens it, unfold the
+connected background, and show how the ayah reads or sounds against that
+background. Let a detail lead into the next through an intelligible relation
+or process, so the reader experiences the emerging reading. This is a movement
+of thought, not a mandatory sentence pattern or one paragraph per finding.
+Let the reader identify the expression being interpreted,
+where any nonordinary detail comes from, and what that detail changes in the
+reading. Briefly identify the word-family use, restricted form, collocation, or
+context that supplies an essential added detail, and preserve the concrete
+operation that makes the image work. Keep the ordinary reading and necessary
+qualification clear within this explanation; do not repeat them as a fixed
+formula. Preserve the particular object, process, or relation that makes this
+reading distinctive, and state its interpretive consequence for the ayah as a
+whole. Make intelligible what the familiar reading leaves less visible and
+what the expanded or shifted reading now lets the reader understand. Preserve
+the editorial's force: an exploratory possibility remains possible, while a
+developed shift must not be softened into a decorative association or a
+reassurance that everything means the same thing. A concrete
+account of how something is carried, transformed, lost, or restored must not
+shrink to a general statement about care, guidance, dependence, or goodness.
+Keep the details needed to make the selected channel work; omit side findings
+and shorten routine setup. If a channel cannot be explained faithfully from
+the editorial prose, choose another grounded channel or reading.
+
+When a non-focus ayah supplies a contribution used in the invitation, keep its
+reference from the editorial prose beside that contribution.
+
+Do not turn the invitation into a miniature inventory of the commentary's
+conclusions, or flatten distinct channels into a broad theme to include more
+material. Do not repair, extend, or supplement the editorial prose from memory
+or outside knowledge.
+
+Omit technical apparatus. Retain any qualification, source distinction, live
+alternative, or boundary whose absence would change the force or meaning of a
+chosen reading. Express it naturally beside the image or relation it qualifies.
+Favor positive explanations of the relation between layers: what remains in
+the foreground and what the resonance makes audible in the background. State
+how that background reinforces, expands, or shifts the understanding of the
+main meaning, with the source and degree of certainty clear. Reserve explicit
+exclusions for concrete ambiguities or live counter-evidence that need them.
+Repeated "this is not X" endings make a reading sound withdrawn; express the
+substantive qualification through what the reading does contribute wherever
+possible. Use varied, natural language rather than a repeated "second layer"
+formula, and preserve the force of expansions and shifts.
+Do not name branches, candidates, findings, scopes, evidence categories,
+ledgers, or workflow stages, or label the prose as numbered channels. Do not
+list findings serially.
+
+Use the established `{ar:..., tr:..., gloss:...}` syntax, consistent
+Turkish-readable transliteration, and short ordinary glosses. Keep Arabic
+anchors beside the explanations they ground. Within a paragraph, continue with
+the Turkish meaning where clear; provide the necessary local tag when a later
+paragraph interprets the carrier anew. Do not place Arabic script outside a
+valid tag.
+
+Build transitions within a channel through its shared object, action, or
+relation. If two channels are selected, they may occupy separate paragraphs;
+do not invent a link between them. Do not praise the commentary's quality,
+promise what the reader will find, manufacture suspense, recap at the end, or
+add a call to action. End on an image, relation, action, or tension already
+established by the selected reading.
+
+Before finishing, compare the invitation with the entire editorial prose:
+does the chosen channel reveal a consequential reading, or could the text have
+been written from the ordinary translation and a modest explanation alone?
+When the editorial supports a surprising channel, the latter fails this task.
+Can the reader follow the opening expression into a connected background and
+understand how that background expands or shifts the ayah's main meaning?
+Check the selected connections against their editorial explanation: can the
+reader tell where the nonordinary details come from, with the necessary
+qualifications intact? Repair generic explanation, isolated curiosities, or a
+compressed findings list by developing the selected channel. Do not add
+omitted channels merely for coverage. Do not output this check.
+
+Write only the invitation text to:
+
+`_commentary/v5/editorial/s096-regular-20260912/s096/96_14/96_14.invitation.tr.md`
+
+Do not add a heading, wrapper label, index, ledger, evidence file, or any other
+artifact. Do not modify the editorial prose.
+
+After writing the invitation, run:
+
+```bash
+python3 _commentary/v5/validate_prose.py _commentary/v5/editorial/s096-regular-20260912/s096/96_14/96_14.invitation.tr.md
+```
+
+If validation fails, repair only the reported mechanical file-contract issues
+and rerun it, for at most two repair cycles. Report the final validator result
+in your response.
+
+<editorial_prose>
+## Sorunun İçeriği
+
+“Allah’ın gördüğünü bilmiyor mu?” diye çevrilen bu kısa âyet (96:14), önce bir soru olarak iş görür. Başındaki {ar:أَلَمْ, tr:alam, gloss:bilmez mi} yüzeyi soruyu ve olumsuzluğu tek bir sıkıştırılmış biçimde bir araya getirir; içerik daha söylenmeden muhatabı bir hesaplaşmanın önüne çıkarır. Bu yüzden ses, sıradan bir bilgi istemekten çok beklenen bir kabulü yoklayan bir azarın basıncını taşır. Cümlenin olağan anlamı yine de açıktır: insanın bilmesi gereken şey, hemen ardından gelen Allah’ın görmesidir.
+
+Burada bilmeye dönen şey, (96:9), (96:11) ve (96:13)'teki görmeye dönük soruların aynen tekrarı değildir. {ar:يَعْلَمْ, tr:yaʿlam, gloss:bilmek} ile soru, sanığın artık neyi bilmesi gerektiğini değiştirir: zaten erişilebilir olan “Allah görür” gerçeğini kabul etmesi beklenir. {ar:لَمْ, tr:lam, gloss:olumsuz geçmiş} bu fiili cezmederek eksikliği şimdi oluşan geçici bir boşluk gibi değil, çoktan yerleşmiş olması gereken bir bilginin taşınmaması gibi duyurur. Böylece olumsuz soru tarafsız bir merak olmaktan çıkar, cevabı işitenin bildiği varsayılan ve sorumluluğunu sınayan bir azara dönüşür. Fiilin açıkça söylenmeyen öznesi de önceki sahnedeki muhatabı (96:13) taşır; mesele soyut bilgisizlik değil, elindeki gerçeği davranışına katması gereken kişinin sorumluluğudur. Bu soru yeni bir öğrenme süreci başlatmaz; zaten verilmiş bir tanımayı hesabına almayan kişiyi sorgular.
+
+{ar:يَعْلَمْ, tr:yaʿlam, gloss:bilmek} fiili bu azarı içeriğe bağlayan menteşedir. Onun ardından gelen {ar:بِأَنَّ, tr:bi-anna, gloss:şüphesiz ki} bilginin neye ilişkin olduğunu açar: {ar:أَنَّ, tr:anna, gloss:ki} içerik cümlesini kurar, {ar:بِ, tr:bi-, gloss:ile} bilinen gerçeği bilme eylemine bağlar. Yazıda tek parça görünen bu bileşik bağlaç, iki ayrı bildirimi yan yana koymak yerine bilmeyi görmeye bağlayan tek bir yapı kurar. Bu nedenle Allah’ın görmesi azarın yanına iliştirilmiş serbest bir haber değildir; {ar:يَعْلَمْ, tr:yaʿlam, gloss:bilmek} fiilinin yere bastığı içeriktir. Okur görme gerçeğine ulaştığında yeniden “bunu bilmesi gerekirdi” sorusuna döner.
+
+{ar:ٱللَّهَ, tr:Allāha, gloss:Allah’ı} içerik cümlesinde mef’ûl konumunda görünse de görme eyleminin gerçek failidir; bu hâl eyleyen rolünü zayıflatmaz. İlâhî ad, son fiilden hemen önce gelerek görenin kimliğini kesin hükmün eşiğinde tutar: okur soyut bir görmeyi değil, kimin gördüğünü bekler. Gizli insan öznenin bilme hareketinden açık ilâhî failliğe geçiş bu adla kurulur. Özel ad göreni belirsiz bir tanık olmaktan çıkarıp tekil ve belirli kılar.
+
+Bu ad, ibadetle ilişkili bir yönü de cümleye taşır. Bir varlığa tapınmayı ve kişinin kendini bu tapınmaya vermesini taşıyan anlam, göreni sıradan bir gözlemciden ayırır; Allah’ın görmesi, kendisine yönelinen Rabbin görüşü olarak duyulur. İlk âyetteki {ar:ٱقْرَأْ بِٱسْمِ رَبِّكَ ٱلَّذِى خَلَقَ, tr:iqraʾ bi-smi rabbika alladhī khalaq, gloss:Rabbinin adıyla oku; O yarattı} (96:1) Rablik, sahiplik ve yetkiyi açarken, onuncu âyetteki {ar:أَرَأَيْتَ ٱلَّذِى يَنْهَىٰ عَبْدًا إِذَا صَلَّىٰ, tr:a-raʾayta alladhī yanhā ʿabdan idhā ṣallā, gloss:namaz kılan kulu engelleyen kişiyi gördün mü} (96:10) ibadeti engelleyen otoriteyi sahneye getirir. {ar:ٱقْرَأْ وَرَبُّكَ ٱلْأَكْرَمُ, tr:iqraʾ wa-rabbuka al-akram, gloss:oku; Rabbin en cömert olandır} (96:3) ve {ar:إِنَّ إِلَىٰ رَبِّكَ ٱلرُّجْعَىٰ, tr:inna ilā rabbika al-rujʿā, gloss:dönüş Rabbinedir} (96:8) ise bu görüşün yöneldiği Rablik merkezini ve dönüş ufkunu belirginleştirir. Bu bağlantının katkısı, özel ad ile görme sözdizimini güçlendirerek kimin önünde sorumluluk bulunduğunu hissettirmesidir; kapsamı genel bir ibadet öğretisi kurmaz.
+
+## Görmenin Kapanışı
+
+Son kelime olan {ar:يَرَىٰ, tr:yarā, gloss:görür}, olağan ve etkin görme anlamını korur; Form I’de Allah gören taraftır, fiil başkasına görmeyi sağlatan ettirgen bir yapıya ya da kendiliğinden görünür hâle gelmeye dönüşmez. Açık bir nesne almadan kapanması, Allah’ın neyi gördüğünü tek bir varlıkla sınırlamaz; görüşün kapsamı açık kalır. {ar:أَنَّ, tr:anna, gloss:ki} adını söyledikten sonra yüklemi bekletir, {ar:يَرَىٰ, tr:yarā, gloss:görür} beklenen sonuca gelerek bilinen gerçeği tamamlar. Uzun kapanış sesi, görenin adından sonra görüşü bir an daha tutar.
+
+Bu kapanışta insan tarafındaki bilmeyiş olumsuzlanır, ilâhî görme ise olumsuzlamanın içine alınmadan şimdiki ve süreklilik taşıyan biçimiyle ayakta kalır. Önceki sahnedeki yönelişten (96:10, 96:11, 96:12, 96:13) uzaklaşma, nesnesi belirtilmeyen bu görmeyle karşılaşır; geri çekilen kişi zaten mevcut olan tanığın görüşü altında kalır ve sonraki tehdide (96:15, 96:16) doğru sözün içinde ileri bir basınç oluşur. Aynı görme alanı daha önce insanın bakmasına açılmışken (96:9, 96:11, 96:13) burada fail değişir: insanın görmesi beklenen yerde insan artık görenin görüşü altındadır. Gramer, son kelime konumu, uzayan ses, açık bırakılmış nesne ve öznenin insandan Allah’a geçişi tek bir inişte birleşir; uyarı bilmeyle başlar, adı verilmiş ilâhî görüşte somutlaşarak biter.
+
+Bu iki fiil, {ar:يَعْلَمْ, tr:yaʿlam, gloss:bilmek} ve {ar:يَرَىٰ, tr:yarā, gloss:görür}, ortak bir görüntü ve tanıma alanını iki ayrı katkıyla kurar. Görme, bir şeyi veya kişiyi başkalarından ayıran belirgin bir işaretin fark edilebileceği alanı açar; bilme de görülür olanı tanınır kılan izi kavrar. Birlikte davranış, gizli bir bilgi olarak kalmayıp failine bağlanan okunabilir bir belirtiye dönüşür. Görme ayrıca gözün kaydetmesinden bir konu hakkında görüş veya yargı oluşturmaya uzanan ihtiyatlı bir tanıklık rengi kazanabilir; görülen davranış tartılabilir bir kanıt gibi duyulur. Bu tanıklık rengi, cümlenin taşıyıcısı olan olağan “görmek” anlamını koruyan sınırlı bir genişlemedir.
+
+Aynı temasın pratik katkısı, bilmenin sorumluluğunu davranışın görülmüş yüzüne bağlamasıdır: sanıktan istenen bilgi, kendisinin zaten görüldüğünü bilmektir. Görülme bilgisi davranıştan kopuk bir düşünce değildir; kişinin hesabına giren bir tanımadır. Davranış kendi failinin belirtisini taşıyan bir yüzey gibi okunabilir; bu yüzey, âyetin somut bir ayna veya belirli bir maddî sergileme önerdiği anlamına gelmez. Davranışın başkaları görsün ve beğensin diye sergilenebileceği karşı-seyirci düzeni de bu alanda ihtiyatlı bir bağlantı olarak belirir: {ar:ٱللَّهَ, tr:Allāha, gloss:Allah’ı} adı yetkili göreni kurar, {ar:يَرَىٰ, tr:yarā, gloss:görür} sosyal onay için sergilenen davranışla aynı görüş sahnesinde buluşur. İnsan seyirciler âyette adlandırılmaz; bu ihtiyat, bütün davranışları gösterişe indirgemez. Böylece tanıklığın kime göre düzenlendiğini soran sınırlı bir gerilim açılır.
+
+## Verilmiş Bilgi Ve Açığa Çıkan Hesap
+
+Bu kısa cümledeki bilme, bölümün daha önce kurduğu okuma, öğretme ve yazıyla da temas eder. İlk ve üçüncü âyetlerdeki {ar:ٱقْرَأْ, tr:iqraʾ, gloss:oku} emirleri (96:1, 96:3), dördüncü âyetteki {ar:ٱلَّذِى عَلَّمَ بِٱلْقَلَمِ, tr:alladhī ʿallama bi-l-qalam, gloss:kalemle öğretti} (96:4) ve beşinci âyetteki {ar:عَلَّمَ ٱلْإِنسَٰنَ مَا لَمْ يَعْلَمْ, tr:ʿallama al-insāna mā lam yaʿlam, gloss:insana bilmediğini öğretti} (96:5) bilginin alınmış, seslendirilmiş ve maddî iz kazanmış bir imkân olduğunu gösterir. Okuma, gizli veya yabanî olanın karşısında görünür insan varlığını öne çıkarır ve dağınık parçaları bir araya getirip sözü okunabilir bir aktarımda düzenler. Rabbin öğretmesi ve gözetmesi bu bilgiyi kendiliğinden sahip olunan bir güçten alınmış bir imkâna dönüştürür; kalem, bilenmiş bir kamış olarak bu imkânı maddî bir kanala ve kalıcılığa taşır. Bu yüzden {ar:يَعْلَمْ, tr:yaʿlam, gloss:bilmek} yalnız zihinsel sahiplik değil, alınmış ve eylemle sınanan bir sorumluluk gibi genişler; okuma, öğretme ve kalem fiilin yerine geçmekten ziyade onun kaynağını ve kalıcılığını açıklar.
+
+Verilmiş kapasite, davranışla sınandığında sorunun odağını açık eder: bilinen imkânın nasıl kullanıldığı görülür ve kapasite kendini ele verir. Allah’ın görmesi, okuma, öğrenme ve yazma imkânıyla donatılmış insanın elindeki yetiyi nasıl kullandığını görünür kılar. Aynı bağ, ilk âyetteki yaratıcı okuma emrini (96:1) tehdit edilen ibadetin Rabbe yöneldiği bir çerçeveye, kalemle öğretmeyi (96:4) verilen imkâna ve bilmediğini öğretmeyi (96:5) bilginin insana ait değil verili oluşuna bağlar. Bu ihtiyatlı ilişki, {ar:يَعْلَمْ, tr:yaʿlam, gloss:bilmek} kelimesine bağlam kazandırır; kelimeyi tek başına “öğretilmiş kapasite” diye çevirmeyi gerektirmez.
+
+Okuma ve yazı yüzeyleri, bilinen gerçeğe çarpan uydurma hesabı iki yönden görünür kılar. İlk âyetteki yaratma ve okuma emri (96:1) kaynağı ve alınmış bilgiyi, on üçüncü âyetteki {ar:أَرَأَيْتَ إِن كَذَّبَ وَتَوَلَّىٰ, tr:a-raʾayta in kadhdhaba wa-tawallā, gloss:yalanladı ve yüz çevirdiyse} (96:13) ise yalanlama ve geri çekilme yüzeyini getirir; bu iki hareket buluştuğunda uydurma söz bilinen gerçeklikle sınanan ve sahibine geri yüklenen bir hesap gibi görünür. “Yalanı, sahte raporu veya başkasına yakıştırılan asılsız isnadı üretme” ayrıntısı okuma emrine, “sözü hakikatin karşısına koyma” ve bir şeyi yanlış saydığını ilan etme ayrıntıları yalanlama sahnesine bağlanır. On altıncı âyetteki {ar:نَاصِيَةٍ كَاذِبَةٍ خَاطِئَةٍ, tr:nāṣiyatin kādhibatin khāṭiʾah, gloss:yalan ve hata ile nitelenen alın} (96:16) ile kalemle öğretme, üretilen sözün ve onun sahibinin görünür bir hesaba dönmesini güçlendirir. Bu bağlantının alanı, olağan “Allah’ın gördüğünü bilmiyor mu?” sorusuna eklenen bölüm içi ve sınırlı bir uyarıdır; her sözün yalan olduğuna dair genel bir hüküm kurmaz.
+
+Bilmenin bu sorumluluk rengi, iki ayrı katkıyla genişler: yanlış davranış ve inatçı tartışma karşısındaki ilâhî görüş (40:69) insanı frenleyen bir tanıklık, görülecek ve değerlendirilecek çaba (53:40) ise eylemi hesaba açan bir ölçü sunar. Birlikte soru, bilgiye ulaşamamayı değil, bilinen görüşe rağmen davranışın neden sürdürüldüğünü yoklar; görme eylemi failine bağlı ve değerlendirmeye açık tutar. Bu bağın sınırı da açıktır: bilmenin her davranışı kendiliğinden durdurduğu veya failin iç dünyası hakkında bağımsız bir psikoloji kurduğu söylenmez. Hesap, bilinen ilâhî görüşe rağmen sürdürülen davranışın sorumluluğunda belirir.
+
+## İz, Ölçü Ve İşaret
+
+Görme ve bilme birlikte düşünüldüğünde eylem, oranı seçilebilen biçimlenmiş bir görünüşe dönüşür. İlk âyetteki yaratmanın tam ve ölçülü biçimi (96:1) şekilli yüzeyi kurar; {ar:يَرَىٰ, tr:yarā, gloss:görür} bu yüzeyin dış görünüş, hâl veya belirti olarak seçilmesini sağlar; {ar:يَعْلَمْ, tr:yaʿlam, gloss:bilmek} ise işareti tanınabilir kılar. Bu üç katkı, görülen eylemi şekilsiz bir bakışta kaybolmayan, ölçülebilen ve yansıtılabilen bir yüzey imgesine dönüştürür. Yüzey imgesi, bu özel bağlantıda okunabilir biçimi açıklar; ilâhî görmeyi somut bir aynaya veya anatomiye dönüştüren bir iddia taşımaz.
+
+Bu biçim, tekrarla koyulaşan bir çizgi olarak da duyulur. {ar:إِنَّ إِلَىٰ رَبِّكَ ٱلرُّجْعَىٰ, tr:inna ilā rabbika al-rujʿā, gloss:dönüş Rabbinedir} içindeki dönüş (96:8) görsel çizginin sürmesini, {ar:كَلَّا لَئِن لَّمْ يَنتَهِ, tr:kallā la-in lam yantahi, gloss:vazgeçmezse} (96:15) ise kızılımsı bir kararmayla koyulaşmasını sağlar. {ar:يَعْلَمْ, tr:yaʿlam, gloss:bilmek} bu iki hareketle bir anda oluşup kaybolmayan, tekrarla koyulaşıp kimliği belirleyen kalıcı bir çizgi gibi hissedilir. Bu bağlantının görüntüsü, odaktaki bilme sorusunu dövme sözcüğüne çevirmeyen nitelikli bir iz benzetmesi olarak kalır.
+
+İşaretin yön gösterme katkısı birkaç görüntünün birleşmesiyle belirir. {ar:أَوْ أَمَرَ بِٱلتَّقْوَىٰ, tr:aw amara bi-l-taqwā, gloss:sakınmayı emrediyorsa} (96:12) işaret, belirti veya belirlenmiş zaman rengi taşır; {ar:يَرَىٰ, tr:yarā, gloss:görür} yüksek ve görünür yere dikilen bayrak imgesiyle tanınmayı mümkün kılar. İlk âyetteki okuma emrinin (96:1) yükseğe çıkma imgesi, {ar:أَرَأَيْتَ إِن كَانَ عَلَى ٱلْهُدَىٰ, tr:a-raʾayta in kāna ʿalā al-hudā, gloss:doğru yol üzerindeyse gördün mü} (96:11) içindeki yola veya hakikate yumuşakça yöneltmeyle birleşir. {ar:يَعْلَمْ, tr:yaʿlam, gloss:bilmek} bu işareti tanıyıp yolu ve sorumluluğu belirginleştirir. Bayrak burada fiilin yerine geçen literal bir nesne değil, doğru yönü okunabilir kılan sınırlı bir belirtidir.
+
+Aynı işaret ölçülmüş ve sınırları çizilmiş bir alan görüntüsü de kurar. Yaratma (96:1) bir şeyi ölçüp oranlama katkısı verir; {ar:ٱلَّذِى عَلَّمَ بِٱلْقَلَمِ, tr:alladhī ʿallama bi-l-qalam, gloss:kalemle öğretti} (96:4) kesilip ayrılmış bir arazi parçası imgesini taşır; {ar:يَعْلَمْ, tr:yaʿlam, gloss:bilmek} kişiyi veya nesneyi başkasından ayıran tanınabilir işareti kurar. {ar:أَرَأَيْتَ إِن كَانَ عَلَى ٱلْهُدَىٰ, tr:a-raʾayta in kāna ʿalā al-hudā, gloss:doğru yol üzerindeyse gördün mü} (96:11) ayrıca var olmaktan türeyen yer, konum veya mertebe fikrini taşır. Bu katkılar, görmenin eylemin nerede durduğunu ve sorumluluğun hangi sınırlar içinde kayda geçtiğini tanıdığı bir alan açar; sonuç fiziksel bir harita değil, yer belirleyen bir mekân benzetmesidir.
+
+Kalemle bağlantı bu işarete dokunsal bir kesinlik verir. {ar:يَعْلَمْ, tr:yaʿlam, gloss:bilmek} üst dudaktaki yarıkla ilgili anatomik çekirdeği, kalem ise sert şeyi yontup düzgünleştiren ve yontulmuş uçta ya da birleşim yerinde keskinleşen aracı düşündürür. Bu iki katkı, bilmeye açılışı ve sonlanışı belirgin, dikkatle yapılmış bir iz niteliği kazandırır. Yarık, uç ve kenar bu özel bağlantıda kesinlik duygusu veren maddî bir benzetmedir; fiziksel bir yara veya kalem ucu iddiası değildir.
+
+İşaretin değer ölçüsüne dönüşmesinde birkaç ayrı katkı birleşir. Dönüşteki tekrarlanan çizgiler (96:8), {ar:كَلَّا لَا تُطِعْهُ وَٱسْجُدْ وَٱقْتَرِب, tr:kallā lā tuṭiʿhu wa-sjud wa-qtarib, gloss:ona uyma, secde et ve yaklaş} (96:19) önünde secde edilen suretli paralar imgesini; {ar:أَوْ أَمَرَ بِٱلتَّقْوَىٰ, tr:aw amara bi-l-taqwā, gloss:sakınmayı emrediyorsa} (96:12) ise ölçü birimi olan ukiyyeyi getirir. {ar:يَعْلَمْ, tr:yaʿlam, gloss:bilmek} bu görüntülerle görülen eylemi tanınan, tartılan ve sahne boyunca taşınan bir değer işareti gibi duyurur. Odakta literal para bulunmaz; ekonomik benzetmenin katkısı işaretin tanınabilirliğini ve ölçülebilirliğini artırmaktır.
+
+Bu işaretlerin hesapla ilişkisi, iki farklı görünürlük katkısında belirir: görülecek çaba (53:40) eylemi değerlendirmeye açar; 47:30'daki {ar:لَأَرَيْنَٰكَهُمْ, tr:la-ureynākahum, gloss:onları gösterirdik} ile {ar:فَلَعَرَفْتَهُم بِسِيمَٰهُمْ, tr:fe-leʿaraftahum bi-sīmāhum, gloss:onları simalarından tanırdın} ifadeleri (47:30) gösterme ve simadan tanımayı getirir. Buradaki gösterme, odak fiilinin biçiminden doğrudan çıkmaz: {ar:يَرَىٰ, tr:yarā, gloss:görür} görmeyi taşır, nedensel gösterme ayrı bağlamdaki fiilden gelir ve odaktaki görmeye sonuç olarak temas eder. {ar:يَعْلَمْ, tr:yaʿlam, gloss:bilmek} ise ayırt edici işaret ile eylemi bilme arasında buluşur. Böylece gizli inkâr tanınabilir ve sahibine bağlanabilir bir iz gibi görünür. Bu bağlantının sınırı, her görülen davranışın fiziksel bir iz yazdığını veya aynı biçimde cezalandırıldığını söylememesidir.
+
+## Beden Ve Canlı Alanı
+
+Beden alanındaki katkıyı {ar:خَلَقَ ٱلْإِنسَٰنَ مِنْ عَلَقٍ, tr:khalaqa al-insāna min ʿalaq, gloss:insanı asılıp tutunan bir özden yarattı} (96:2) içindeki bağlı öz açar: pıhtılaşmış kanı ve kan emen sülüğü, ayrıca boğazı tedavi etme veya sülükle kan çekme müdahalesini düşündüren bir beden izi getirir. {ar:يَرَىٰ, tr:yarā, gloss:görür} gözlenen şeyi bakım çağrısı yapan ve müdahale edilebilen bir belirtiye dönüştürür. Görme taşıyıcısına aybaşı sonunda görülen sarı, beyaz veya bulanık iz rengi de eklenebilir; {ar:يَعْلَمْ, tr:yaʿlam, gloss:bilmek} bu bedensel belirtiyi tanıma yönünü taşır. Bu özel bağlantının kapsamı pıhtı, iz ve müdahale imgelerinin olağan görme sorusuna eklediği nitelikli beden yankısıdır; tıbbi bir hüküm veya tedavi buyruğu kurmaz.
+
+Bedensel iz, {ar:نَاصِيَةٍ كَاذِبَةٍ خَاطِئَةٍ, tr:nāṣiyatin kādhibatin khāṭiʾah, gloss:yalan ve hata ile nitelenen alın} (96:16) ile alın üzerinden yakalanabilir bir sorumluluk noktası verir; on beşinci âyetteki {ar:كَلَّا لَئِن لَّمْ يَنتَهِ, tr:kallā la-in lam yantahi, gloss:vazgeçmezse} (96:15) tehdidi bu noktayı somutlaştırır. Görünüş, dış yüz ve belirti okunabilir alanı sağlar; yalan ve hata da hedefi ıskalamayı yönlü bir belirtiye çevirir. Bu katkılar birlikte bedeni kendini ele veren bir delil gibi gösterir. Bağlantının sınırı, yanlışın görünür ve adlandırılabilir hâle gelişini anlatmasıdır; ilâhî görmeyi anatomik bir işlem veya fiziksel bir el olarak kurmaz.
+
+Canlı alanında bağlı öz (96:2) hayatta kalmaya yetecek kıt geçim görüntüsünü verir; {ar:يَعْلَمْ, tr:yaʿlam, gloss:bilmek} doğan veya atmaca türünde avcı kuşu; {ar:كَلَّا لَئِن لَّمْ يَنتَهِ, tr:kallā la-in lam yantahi, gloss:vazgeçmezse} (96:15, 96:16) otlanan alanı besleyen nasi bitkisini; {ar:أَوْ أَمَرَ بِٱلتَّقْوَىٰ, tr:aw amara bi-l-taqwā, gloss:sakınmayı emrediyorsa} (96:12) ise al-Wāqī adıyla anılan örümcek kuşunu düşündürür. Bu görüntüler bir araya geldiğinde bilme ve görme, canlıları, tehdidi ve rızkı aynı alanda izleyen ekolojik bir dikkat gibi belirir. Bu bağlantının hayvan imgeleri, odak yüzeyine gerçek bir hayvan adı ekleyen bir sahne kurmadan bilişin koruma ile geçimi birlikte izlemesini somutlaştırır.
+
+Bu ekolojik alanın risk görüntüsünü {ar:أَوْ أَمَرَ بِٱلتَّقْوَىٰ, tr:aw amara bi-l-taqwā, gloss:sakınmayı emrediyorsa} (96:12) içindeki küçük koyun veya kuzu, ilk ve üçüncü âyetlerdeki okuma yüzeyinde beliren sürü veya bir araya toplanmış yabani sığır (96:1, 96:3), sekizinci âyetteki bağımsızlık eşiği (96:8) ve {ar:يَعْلَمْ, tr:yaʿlam, gloss:bilmek} içindeki erkek sırtlan birlikte kurar. Sürü, kuzu ve yırtıcı rolleri, görmenin açığa çıkardığı sorumluluğu savunmasızlık ile tehdit arasındaki somut bir alana taşır. Hayvan adları yüzeyde açıkça bulunmadığından bu, nitelikli bir risk görüntüsüdür; bağlantı uzak ve eşleşmemiş bir hayvan çağrışımı eklemez.
+
+Su alanı, bilme ve görmeyi daha büyük bir hazne içinde okumaya yarayan üç katkıyı birleştirir. {ar:كَلَّا إِنَّ ٱلْإِنسَٰنَ لَيَطْغَىٰ, tr:kallā inna al-insāna la-yaṭghā, gloss:insan taşkınlaşır} (96:6) ölçüyü aşan ve bastıran taşkın gücünü, {ar:يَعْلَمْ, tr:yaʿlam, gloss:bilmek} denizi veya suyu bol kuyuyu, {ar:كَلَّا لَئِن لَّمْ يَنتَهِ, tr:kallā la-in lam yantahi, gloss:vazgeçmezse} (96:15) ise taşkının sonunda çöken ve yerleşen suyu getirir. Birlikte bilme-görme sorusu sınırı aşarak yükselen, kapta biriken ve son noktadan kaçamayan, dönüşe doğru yönelen bir fazlalık gibi görünür. Bu su bağlantısının kapsamı sınır, birikme ve sonlanma çizgisini (96:6, 96:9, 96:15) duyurmaktır; odaktaki Allah’ın görmesini suya indirmez.
+
+Aynı su alanı, daha kapsayıcı bir dolaşım görüntüsünü dört ayrı katkıyla kurar. {ar:يَرَىٰ, tr:yarā, gloss:görür} su içip susuzluğu sona erdirme ve suya kanma durumunu, {ar:أَن رَّءَاهُ ٱسْتَغْنَىٰ, tr:an raʾāhu istaghnā, gloss:kendisini yeterli gördü} (96:7) kendine yeterlik vehmini, {ar:إِنَّ إِلَىٰ رَبِّكَ ٱلرُّجْعَىٰ, tr:inna ilā rabbika al-rujʿā, gloss:dönüş Rabbinedir} (96:8) dönüş dolaşımını, {ar:كَلَّا لَا تُطِعْهُ وَٱسْجُدْ وَٱقْتَرِب, tr:kallā lā tuṭiʿhu wa-sjud wa-qtarib, gloss:ona uyma, secde et ve yaklaş} (96:19) ise yaklaşma ihtiyacını verir. Bu katkılar, toplanmış suyu bilgiyi kapsayan bir hazneye, taşmayı sınırı aşan fazlalığa dönüştürür; kendine yeterlik de kaynağı ve kapsayıcısı olmayan bir doluluk değil, daha büyük bir dönüş içinde taşan ihtiyaç gibi görünür. Bu, su dallarını bir araya getiren yapısal bir benzetmedir; bilme ve görmenin temel anlamlarını değiştirmez.
+
+## Bakışın Yönü Ve Otorite
+
+Soru yapısının dikkat katkısı, aynı konuyu tanığın önünde yeniden tartmaya açmasından gelir. Bölümde yinelenen {ar:أَرَأَيْتَ, tr:a-raʾayta, gloss:gördün mü} soruları (96:9, 96:11, 96:13) değerlendirme alanını kurar; {ar:أَوْ أَمَرَ بِٱلتَّقْوَىٰ, tr:aw amara bi-l-taqwā, gloss:sakınmayı emrediyorsa} (96:12) “iş, mesele ve sorumluluk konusu” ile danışıp düşünüp karara varma rengi taşır; {ar:يَرَىٰ, tr:yarā, gloss:görür} ise görüş veya yargı oluşturmayı ve muhataptan bilgi ya da değerlendirme istemeyi çağrıştırır. Bu katkılar kısa sözü eksik bilgi isteyen bir sorudan hükme hazırlayan bilinçli bir dikkat sahnesine taşır. Tekrarlanan biçim retorik kuvveti artırırken mevcut olumsuzluk çerçevesi ve sözdizimi yerinde kalır.
+
+Bu tartma, görme, gösterme ve geri dönen cevap arasında bir delil zinciri kurar. {ar:يَرَىٰ, tr:yarā, gloss:görür} bir şeyi başkasına gösterip onun görmesini sağlama sonucunu; {ar:إِنَّ إِلَىٰ رَبِّكَ ٱلرُّجْعَىٰ, tr:inna ilā rabbika al-rujʿā, gloss:dönüş Rabbinedir} (96:8) geri dönen cevap veya karşılığı; {ar:يَعْلَمْ, tr:yaʿlam, gloss:bilmek} tanıma ve gerçeğe uygun kavramayı taşır. {ar:أَرَأَيْتَ إِن كَذَّبَ وَتَوَلَّىٰ, tr:a-raʾayta in kadhdhaba wa-tawallā, gloss:yalanladı ve yüz çevirdiyse} (96:13) ise sözü hakikatin karşısına koyan yanlışlığı ve bir şeyi yanlış saydığını ilan etmeyi görünür kılar. Böylece tartışmalı hesap tanınır, görünür kılınır ve cevaba hazırlanır. Bu bağlantının alanı inkâr ve bedenî belirtiyle sınırlıdır; adı konmamış başka bir suçlamayı kesinleştirmez.
+
+Kendini yeterli gören özneyle birlikte bakışın yönü tersine döner. {ar:أَن رَّءَاهُ ٱسْتَغْنَىٰ, tr:an raʾāhu istaghnā, gloss:kendisini yeterli gördü} (96:7) öz-değerlendirme ve bağımsızlık ilanını, dokuzuncu, on birinci ve on üçüncü âyetlerde yinelenen {ar:أَرَأَيْتَ, tr:a-raʾayta, gloss:gördün mü} (96:9, 96:11, 96:13) soruları dışarıya çevrilen bakışın geri dönüşünü, odaktaki {ar:يَرَىٰ, tr:yarā, gloss:görür} ise bu bakışın ulaştığı ilâhî görüşü verir. Öznenin kendi hükmü daha büyük bir görüşün içinde nesneleşir ve kendisini dışarıda bıraktığı bakışın içinde tutulur. İlk âyetteki yaratılmış ve bağlı insan (96:1), altıncı âyetteki taşkınlık (96:6) ve yedinci âyetteki sahte yeterlik (96:7) aynı ilişkide buluşarak imkânsız bağımsızlık gösterisini açığa çıkarır. Bu okuma dönüşü soru dizisinin kurduğu ilişki olarak tutar; odaktaki görmeyi öznenin kendi görmesi diye yeniden adlandırmaz.
+
+Bu tersine dönüşün görsel katkısı, insanı ilâhî görüş alanında tutulan bir imge olarak belirginleştirmesidir. İkinci, beşinci ve altıncı âyetlerde tekrarlanan {ar:ٱلْإِنسَٰنَ, tr:al-insāna, gloss:insanı} (96:2, 96:5, 96:6) insan imgesini; {ar:يَرَىٰ, tr:yarā, gloss:görür} ve görünüş-belirti alanı bu imgenin görülen yüzünü kurar. Yaratılmış bağlılık ve insanın taşkınlığı bu imgenin sahnesini kurar; görme davranışın alanını kapsar. Bu özel bağlantı, insanın görsel alana dâhil oluşunu açıklayan sınırlı bir optik metafordur ve ilâhî anatomi iddiası taşımaz.
+
+Bu dizinin katkısı, gören öznenin kimliğini ve emrin yetkisini aynı ibadet çatışması içinde görünür kılmasıdır. Onuncu âyette (96:10) namaz kılan kulu engelleyen kişi, on birinci âyette (96:11) {ar:أَرَأَيْتَ إِن كَانَ عَلَى ٱلْهُدَىٰ, tr:a-raʾayta in kāna ʿalā al-hudā, gloss:doğru yol üzerindeyse gördün mü} doğru yolda olma ihtimali, on ikinci âyette (96:12) {ar:أَوْ أَمَرَ بِٱلتَّقْوَىٰ, tr:aw amara bi-l-taqwā, gloss:sakınmayı emrediyorsa} sakınmayı emreden kişi, on üçüncü âyette (96:13) ise yalanlayıp yüz çeviren kişi olarak sınanır. {ar:ٱللَّهَ, tr:Allāha, gloss:Allah’ı} ve {ar:يَرَىٰ, tr:yarā, gloss:görür} bu talimat çatışmasının üstün tanığı olur; ilâhî görme yalnız eylemi izlemez, hangi buyruğun hesap verebilir olduğunu da belirginleştirir. Bu bağlantı Allah adını yeni bir yönetim terimi olarak değil, özel ad ve görme anlamlarını koruyan bir tanıklık olarak kullanır ve rakip otoritenin en yüksek otorite olma iddiasını açığa çıkarır.
+
+İbadeti engelleyen bakışın karşısındaki koruyucu hareket, iki ayrı katkıyla belirir. {ar:كَلَّا لَا تُطِعْهُ وَٱسْجُدْ وَٱقْتَرِب, tr:kallā lā tuṭiʿhu wa-sjud wa-qtarib, gloss:ona uyma, secde et ve yaklaş} (96:19) reddedişten secdeye ve yakınlığa geçişi, {ar:أَوْ أَمَرَ بِٱلتَّقْوَىٰ, tr:aw amara bi-l-taqwā, gloss:sakınmayı emrediyorsa} (96:12) koruyucu buyruğu taşır. Aynı görülme, zorlayanı teşhir ederken doğru itaati sürdüren kişiyi gözetim altında tutabilir. Bu koruyucu okumanın kapsamı tehditkâr ve koruyucu yönlerin birlikte taşınmasıdır; fiziksel müdahale veya anında kurtarma sözü vermez.
+
+Bu ibadet aidiyetinin dış bağlamları da aynı yönü sabitler. {ar:فَلَا تَدْعُوا۟ مَعَ ٱللَّهِ أَحَدًۭا, tr:fe-lā tedʿū mea’llāhi eḥaden, gloss:Allah’la birlikte başkasına yalvarmayın} (72:18) yalnız Allah’a yönelmeyi, {ar:إِلَٰهِ ٱلنَّاسِ, tr:ilāhi’n-nās, gloss:insanların ilahı} (114:3) Allah adının Yaratıcıya özgü ve tekil referansını, {ar:أَنِ ٱعْبُدُوا۟ ٱللَّهَ, tr:eniʿbudu’llāh, gloss:Allah’a kulluk edin} ile {ar:كُنتَ أَنتَ ٱلرَّقِيبَ عَلَيْهِمْ, tr:kunte ente’r-raqībe ʿaleyhim, gloss:onların üzerinde gözetendin} (5:117) ise ibadet ve gözetim ilişkisini kurar. Bu katkılar cümlenin görenini ibadetin dışından bakan nötr bir gözlemci değil, engellenen ibadetin yöneldiği varlık olarak belirginleştirir. İlişki koruyucu bir imkân açabilir; kapsamı tek bir koruyucu sonuç, fiziksel müdahale veya anında kurtarma ilan etmez.
+
+## Yaklaşan Karşılaşma
+
+Görmenin tanıklığı, yerel bir güç çağrısının kamusal karşılaşmaya dönüşmesini üç katkıyla görünür kılar. İlk âyetteki okuma ve dağınık olanı toplama imgesi (96:1) ortak bir açıklık alanı kurar; on yedinci âyetteki {ar:فَلْيَدْعُ نَادِيَهُ, tr:fal-yadʿu nādiyahu, gloss:meclisini çağırsın} (96:17) destek çağrısı, on sekizinci âyetteki {ar:سَنَدْعُ ٱلزَّبَانِيَةَ, tr:sanadʿu al-zabāniyah, gloss:engelleyici görevlileri çağıracağız} (96:18) karşı çağrı bu alanı karşılaşmaya açar. {ar:يَرَىٰ, tr:yarā, gloss:görür} iki çağrının toplu seferberlik olarak görünür olmasını sağlayan menteşedir. Bu bağlantı çağrıların karşılaşma düzenini açıklar; görme fiilinin sözlük anlamını topluluk çağrısına çevirmez.
+
+Dikey yönde alışılmış değerin tersine dönmesini üç görüntü birlikte taşır: ilk âyetteki yükselme (96:1), {ar:كَلَّا إِنَّ ٱلْإِنسَٰنَ لَيَطْغَىٰ, tr:kallā inna al-insāna la-yaṭghā, gloss:insan taşkınlaşır} içindeki taşkın yükseliş (96:6) ve son âyetteki secde-yaklaşma (96:19). {ar:ٱللَّهَ, tr:Allāha, gloss:Allah’ı} adına yönelen kulluk ile {ar:يَرَىٰ, tr:yarā, gloss:görür} alanındaki görünürlük bu ekseni değer ölçüsüne çevirir: yukarı çıkmak otomatik olarak üstünlük getirmez, bedensel alçalış yakınlık taşıyabilir. Bu özel bağlantının ölçüsü fiziksel bir alet değil, itaat ve yaklaşma bağlamında yeniden okunan dikey imgelerdir.
+
+Bu hareketin zaman ve mesafe tarafını üç ayrı görüntü kapatır. {ar:إِنَّ إِلَىٰ رَبِّكَ ٱلرُّجْعَىٰ, tr:inna ilā rabbika al-rujʿā, gloss:dönüş Rabbinedir} (96:8) dönüşün yetkili merkezini, {ar:كَلَّا لَئِن لَّمْ يَنتَهِ, tr:kallā la-in lam yantahi, gloss:vazgeçmezse} (96:15) vazgeçmemenin somut tehdidini, {ar:كَلَّا لَا تُطِعْهُ وَٱسْجُدْ وَٱقْتَرِب, tr:kallā lā tuṭiʿhu wa-sjud wa-qtarib, gloss:ona uyma, secde et ve yaklaş} (96:19) ise itaat etmeme, secde ve yakınlıkla verilen cevabı kurar. {ar:يَرَىٰ, tr:yarā, gloss:görür} bu yay boyunca eylemi görünür ve hesap alanında tutar; gecikme dönüş ve sınır yaklaşırken görünmez bir aralık oluşturmaz. Bu bağlantı hesabın sürekliliğini açıklar; fiili statik bir kameraya veya zaman dışı teknik bir anlama çevirmez.
+
+Görülmüş eylemin raporlanabilirliği, an geçtikten sonra da okunabilir kalmasını açıklar. {ar:يَرَىٰ, tr:yarā, gloss:görür} alınmış bir haber, anlatı veya şiiri başkasına iletme yönünü; {ar:يَعْلَمْ, tr:yaʿlam, gloss:bilmek} ve kalemle öğretme kişiyi ayırt eden belirgin bir işaret yönünü verir. İlk âyetteki okuma (96:1) bilgiyi alıp seslendirmeyi, dördüncü âyetteki kalem (96:4) bilginin maddî kanalını ve öğretme onun verici kökenini sağlar. Bu katkılar birlikte ilâhî görüşte tutulan eylemi tanınabilir, kayda geçirilebilir ve başkasına aktarılabilir bir olaya dönüştürür. Bu özel bağlantı, görmeyi doğrudan anlatı sözcüğüne çevirmeden okuma-öğretme-kalem üzerinden kurulmuş uzak bir aktarım benzetmesidir.
+
+İnsan kendi görme hükmünü son söz sanmamalıdır. Bu ihtiyatlı bağ, geri çekileni insanî görmenin önüne getiren {ar:أَفَرَءَيْتَ ٱلَّذِى تَوَلَّىٰ, tr:aferaeyta alladhī tawallā, gloss:geri çekileni gördün mü} sorusuyla (53:33) ve insanın gaybı gördüğünü varsayan iddianın sınırını gösteren {ar:عِلْمُ ٱلْغَيْبِ فَهُوَ يَرَىٰ, tr:ʿilmu l-ghaybi fa-huwa yarā, gloss:gaybın bilgisi onda mı ki görüyor} ifadesiyle (53:35) kurulur. Odaktaki {ar:يَرَىٰ, tr:yarā, gloss:ilahî görme} bu iki katkıyla buluştuğunda {ar:يَعْلَمْ, tr:yaʿlam, gloss:bilmek} insanın kendi hükmünü ilâhî görüşün önüne koymaması yönünde kapanır. Hesap verebilirlik, insanın görüp hükmetmesinden önce ilâhî görüş altında bulunmaya bağlanır. Bu genişleme ihtiyatlıdır: insanî görmenin her biçimini geçersiz saymaz ve bütün metni tek bir teze indirmez; bu âyetteki bilme-görme çifti daha geniş bir görüşe doğru yeniden konumlanır.
+
+</editorial_prose>

@@ -1,0 +1,852 @@
+{
+  "schema_version": "commentary-v5-scope-discovery-v1",
+  "ayah_ref": "92:15",
+  "lane": "global",
+  "coverage_complete": true,
+  "candidate_decisions": [
+    {
+      "candidate_id": "cand_accc175dc3123e78a4ac",
+      "decision": "accept",
+      "reason": "Odak yüzeyindeki güçlük ve ateş temasları, 92:10'daki zorlu kurs bağlantısıyla birleşerek ateşe maruz kalmayı önceki güçlük gidişinin uç noktası olarak değiştirir; iki dal da finding'e eksiksiz iner.",
+      "finding_refs": ["global:thermal-endpoint"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_144288b1fae262e5f817",
+      "decision": "reject",
+      "reason": "B004 yalnızca focus occurrence ile verilmiştir. Isıyla düzeltme görüntüsünü küresel bir tetikleyiciye bağlayan bağımsız global occurrence yoktur; destek metni de düzeltme sonucunu özellikle sınırlamaktadır.",
+      "finding_refs": [],
+      "branch_exclusions": [
+        {"branch_ref": "root_000880/B004", "reason": "Global lane için bağımsız wider trigger ve değişmiş okuma kurulmamıştır."}
+      ],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_202bdc771bf1b8e68d7c",
+      "decision": "reject",
+      "reason": "Prayer/blessing tersliği aynı focus formuna yüklenmiştir; 92:12 ve basmala atıfları declared pericope içinde kalır, ayrıca bu global pakette bağımsız exact trigger ve focus return sağlanmaz.",
+      "finding_refs": [],
+      "branch_exclusions": [
+        {"branch_ref": "root_000880/B001", "reason": "Ritual tapınma dalı için bağımsız global carrier-trigger teması yoktur; focus formu ateş nesnesiyle verilmiştir."},
+        {"branch_ref": "root_000880/B002", "reason": "İyilik dileme/esirgeme dalı için bağımsız global özne ve trigger çerçevesi yoktur."}
+      ],
+      "facet_exclusions": [],
+      "context_exclusions": [
+        {"context_ref": "92:12", "reason": "Destekte adı geçen yönlendirme occurrence'ı declared 92:12-21 pericopesi içindedir; global lane'e wider trigger sağlamaz."}
+      ],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_dbe7a23b904f43335ca9",
+      "decision": "represented",
+      "reason": "Yarışta önderin hemen ardından gelen takipçi görüntüsü, cand_85790e032fc287afd0c1 tarafından aynı branch ve aynı global path trigger'larıyla taşınmaktadır.",
+      "finding_refs": ["global:following-course"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_f672a5ac3f7b65ccc218",
+      "decision": "represented",
+      "reason": "Ateş temasının önceki güçlük kursunun uç noktası olması, trusted cross-run finding'iyle aynı semantik ilişki olarak global:thermal-endpoint içinde korunmuştur.",
+      "finding_refs": ["global:thermal-endpoint"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_1e713daa4df06a23623c",
+      "decision": "reject",
+      "reason": "Prayer branch'i için verilen reader-walk açıklaması basmala merhameti ve 92:12 yönlendirmesini anıyor, fakat bunlar bu global packet'te exact wider occurrence olarak sağlanmıyor; focus formunun ateş nesnesi de tek başına branch activation değildir.",
+      "finding_refs": [],
+      "branch_exclusions": [
+        {"branch_ref": "root_000880/B001", "reason": "Bağımsız global trigger, valid carrier ve değişmiş global okuma birlikte kurulmamıştır."}
+      ],
+      "facet_exclusions": [],
+      "context_exclusions": [
+        {"context_ref": "92:12", "reason": "Reader-walk metnindeki yönlendirme atfı pericope içindedir ve global lane için exact word-level landing yoktur."}
+      ],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_85790e032fc287afd0c1",
+      "decision": "accept",
+      "reason": "B007'nin odak occurrence'ı, 92:7 ve 92:10'daki yol/kolaylaştırma kayıtlarıyla bağımsız biçimde temas eder; takipçi görüntüsü ateşe varan olumsuz gidişi maddi olarak değiştirir.",
+      "finding_refs": ["global:following-course"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_d27a8e4d6cc8794975fb",
+      "decision": "reject",
+      "reason": "Taqwa'nın spatial shield olarak geriye dönük birleşmesi unanchored reader summary'dir; focus carrier, independent trigger ve exact focus return sağlamaz.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [
+        {"context_ref": "92:17", "reason": "Destekte anılan removal/avoidance bağlamı declared pericope içinde kalır ve bu global aday için exact landing yoktur."},
+        {"context_ref": "92:18", "reason": "Destekte anılan purification bağlamı declared pericope içinde kalır ve bağımsız global trigger oluşturmaz."}
+      ],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_af11c669b4160671fff4",
+      "decision": "represented",
+      "reason": "Practiced hardship'ın ateş temasıyla tamamlanması cand_accc175dc3123e78a4ac tarafından aynı focus branches ve 92:10 global bağlantısıyla taşınmaktadır.",
+      "finding_refs": ["global:thermal-endpoint"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_2f152c2904101d6ca533",
+      "decision": "reject",
+      "reason": "Composite reader-walk B003+B004 kaydı, B004 ısıda düzeltme görüntüsünü yalnız declared 92:12 ve 92:18 pericopesi içindeki atıflarla kurar; global lane için wider trigger yoktur. B003 parçası da bu adayın kendisine özgü yeni bir global finding olarak ayrıştırılamaz.",
+      "finding_refs": [],
+      "branch_exclusions": [
+        {"branch_ref": "root_000880/B003", "reason": "Bu composite adayda bağımsız global değişim kurulmamış; doğrudan ateş dalı başka retained finding'lerde zaten bağlanmıştır."},
+        {"branch_ref": "root_000880/B004", "reason": "Isıyla düzeltme dalı için trigger'lar pericope içindedir; global scope activation geçmez."}
+      ],
+      "facet_exclusions": [],
+      "context_exclusions": [
+        {"context_ref": "92:12", "reason": "Yönlendirme atfı declared pericope içinde kalır."},
+        {"context_ref": "92:18", "reason": "Arındırma atfı declared pericope içinde kalır."}
+      ],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_d8021ebbe43072371a20",
+      "decision": "reject",
+      "reason": "B004 retrospective kaydı daha sonraki 92:16-18 pericope bağlamını anıyor, fakat global wider trigger veya independently anchored focus return sağlamıyor.",
+      "finding_refs": [],
+      "branch_exclusions": [
+        {"branch_ref": "root_000880/B004", "reason": "Isıyla düzeltme branch'i global scope'ta bağımsız biçimde aktive edilmemiştir."}
+      ],
+      "facet_exclusions": [],
+      "context_exclusions": [
+        {"context_ref": "92:16", "reason": "Declared 92:12-21 pericopesi içinde kalır."},
+        {"context_ref": "92:17", "reason": "Declared 92:12-21 pericopesi içinde kalır."},
+        {"context_ref": "92:18", "reason": "Declared 92:12-21 pericopesi içinde kalır."}
+      ],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_16bca22937eb9c7cb401",
+      "decision": "reject",
+      "reason": "Adjacent warned blaze summary'si primary fire antecedentini tekrarlar; anchor, branch, independent trigger ve focus return içermediği için global semantic finding değildir.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_424911434600958af397",
+      "decision": "reject",
+      "reason": "Divergent striving ve facilitation özeti anchor'sızdır; packet içindeki exact HFT delta'sı yerine geçecek carrier/trigger/focus-return izi yoktur.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_37b0456bcad7e5abd06a",
+      "decision": "reject",
+      "reason": "Exposure versus protected displacement özeti unanchored'dır ve focus'a dönen bağımsız branch activation sunmaz.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_0601b80b0096fa8f7bdc",
+      "decision": "reject",
+      "reason": "Unreciprocated-giving snare summary'si exact carrier ve focus-return olmadan verilmiştir; global lane'de yeni bir focus reading established değildir.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_cf3ec5d9895563494c3a",
+      "decision": "reject",
+      "reason": "What-was-special kaydı birden çok latent imgeyi ve sıralamayı topluca bildirir; tek tek valid activation trace veya changed reading sağlamaz.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_85640a447e563e0e9e44",
+      "decision": "reject",
+      "reason": "Fire antecedentinin formal belirsizliği primary referansına dair unanchored bir summary'dir; 92:14 packet'te exact contextual word record olarak sağlanmaz.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [
+        {"context_ref": "92:14", "reason": "Focus-only pronoun belirsizliğini çözmek için gereken exact 92:14 context occurrence'ı bu global packet'te yoktur."}
+      ],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_2216573ee25e61d52df2",
+      "decision": "reject",
+      "reason": "Facilitation için habituation/external routing alternatiflerini bildiren summary anchor'sızdır; exact delta trace'iyle aynı candidate değildir.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_a4de5644274c6a6c9b9e",
+      "decision": "reject",
+      "reason": "92:16 relative clause kapsamı hakkındaki summary focus branch, carrier veya independent trigger sağlamaz; bu nedenle global finding'e çevrilemez.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [
+        {"context_ref": "92:16", "reason": "Atıf declared pericope içindedir ve exact global activation trace'i yoktur."}
+      ],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_fb0adcc4a6940f96ed0d",
+      "decision": "reject",
+      "reason": "Race, anatomy ve mercy outlier'larını surface translation'a taşımama uyarısı unanchored bir toplu summary'dir; supplied branch refs veya tekil activation trace yoktur.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_4395b4ece6fea7d5ca7e",
+      "decision": "accept",
+      "reason": "HFT delta'sı 92:1 ve 92:2'deki örtme/açılma sequence'ini exact word indices ile verir ve focus B003'e geri bağlar; unresolved lexicon branches attributed olarak korunur.",
+      "finding_refs": ["global:cover-reveal-exposure"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_63e1ee6e0dbc809f7b40",
+      "decision": "accept",
+      "reason": "HFT trace 92:3 ve 92:4'teki creation/striving occurrences'larını exact indices ile focus B002'ye döndürür; unresolved context branches gloss icat edilmeden attributed biçimde tutulur.",
+      "finding_refs": ["global:divergent-striving-endpoint"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_3bd9ac2c388dcb3b6279",
+      "decision": "accept",
+      "reason": "HFT trace opposed biographies, repeated facilitation ve focus outcome'u exact word-index roles ile bağlar; focus branches lexical detail, unresolved context branches attributed olarak kaydedilir.",
+      "finding_refs": ["global:facilitated-negative-course"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_51981e1486fd3a208d0b",
+      "decision": "accept",
+      "reason": "HFT delta 92:11'de wealth/sufficiency failure ve falling occurrence'larını exact indices ile focus B003'e bağlar; direction-to-heat arrow qualified olarak korunur.",
+      "finding_refs": ["global:fall-into-heat"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_cda15114699022bbced8",
+      "decision": "accept",
+      "reason": "HFT outlier exact focus body branches, 92:10 difficult-transition ve 92:20 emergence traces'iyle zorlu eşik resonance'ını kurar; exploratory containment korunur.",
+      "finding_refs": ["global:difficult-threshold"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    }
+  ],
+  "findings": [
+    {
+      "finding_ref": "global:thermal-endpoint",
+      "origin_candidate_id": "cand_accc175dc3123e78a4ac",
+      "represented_candidate_ids": ["cand_f672a5ac3f7b65ccc218", "cand_af11c669b4160671fff4"],
+      "title": "Zorluk yolunun ısıyla tamamlanması",
+      "claim": "Odak yüzeyindeki güçlük ve ateş temasları 92:10'daki zorlu kursla birleştiğinde, en bahtsız kişi ateş temasına ulaşan önceki güçlük gidişinin uç noktası olarak da görünür.",
+      "mechanism": "أَشْقَى'nin güçlük çekme dalı 92:10'daki zorlu kursla, يَصْلَىٰهَا'nın ateş temas dalı da aynı global bağlantıyla temas eder. Bu temas, ateş sahnesini daha önce biçimlenen zorlu gidişin bedensel tamamlanışı olarak değiştirir.",
+      "reader_payoff": "Ateşe girişin önceki zorlukla nasıl bağlandığı ve en uç durumun neden bedensel bir temasla göründüğü belirginleşir.",
+      "containment": "Ateşe girme ve en bahtsız olanın istisna edilmesi temel okuma olarak kalır; 92:10 bağlantısı zorunlu nedensellik veya tek açıklama iddiası taşımaz.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": ["legacy_unbound", "trusted"],
+        "reason": "Focus branches, trusted cross-run wording, reader-walk corroboration and the 92:10 connection are supplied; the endpoint arrow remains an interpretive relation and connection target morphology is absent."
+      },
+      "support_ids": ["sup_bf956861dea432bd8074", "sup_94f1d0e0355789d72c4c", "sup_40695f2e97a0928d5dbf"],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000808/B002",
+          "facet_id": "F001",
+          "branch_gloss": "güçlük çekme ve zorluğa dayanma",
+          "facet_statement": "Temel anlam, kolaylığın karşıtı olan güçlüğü çekmek ve zorluğa katlanmaktır.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["92:15:4"],
+          "trigger_refs": ["92:10"],
+          "focus_return_refs": ["92:15:4"],
+          "carrier": "ٱلْأَشْقَى occurrence'ı en uç güçlük durumunu taşıyan focus carrier'dır.",
+          "independent_trigger": "92:10'un zorlu kursu ve bunun 92:15'e dönen connection kaydıdır.",
+          "activation": "Superlative focus subject ile wider difficult-course context temas ettiğinde, güçlük tek başına bir sıfat olmaktan çıkıp ateş temasına ulaşan gidişin uç durumu olarak okunur.",
+          "resulting_reading": "En bahtsız kişi, önceki zorluk gidişinin ateşle tamamlanan son durumunda görünür.",
+          "boundary": "Bu activation ateş referentini kaldırmaz ve kişinin durumunun yalnızca bu kurs tarafından üretildiğini zorunlu kılmaz."
+        },
+        {
+          "branch_ref": "root_000880/B003",
+          "facet_id": "F001",
+          "branch_gloss": "ateşin veya benzer bir sıkıntının şiddetine uğramak; birini ateşe sokmak",
+          "facet_statement": "Ateşe girmek, onda kalmak ve yakıcı şiddetine uğramaktır.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["92:15:2"],
+          "trigger_refs": ["92:10"],
+          "focus_return_refs": ["92:15:2"],
+          "carrier": "يَصْلَىٰهَا occurrence'ı ateşe girme ve yakıcı şiddete uğrama focus carrier'ıdır.",
+          "independent_trigger": "92:10'da kurulan zorlu kursun focus sonucuna bağlanmasıdır.",
+          "activation": "Ateş teması, wider difficult-course connection ile birleşerek bağımsız bir son sahne değil, gidişin bedensel karşılığı gibi çalışır.",
+          "resulting_reading": "Ateşe maruz kalma, zorlu gidişin bedensel uç temasını görünür kılar.",
+          "boundary": "İlişki, ateşe girmenin temel literal anlamını koruyan nitelikli bir endpoint okumasıdır."
+        }
+      ],
+      "connection_refs": ["conn_5386e163ec312796cae7"],
+      "context_refs": ["92:10"],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:following-course",
+      "origin_candidate_id": "cand_85790e032fc287afd0c1",
+      "represented_candidate_ids": ["cand_dbe7a23b904f43335ca9"],
+      "title": "Önderin ardından giden gidiş",
+      "claim": "يَصْلَىٰ'nin yarışta öndekinin hemen ardından gelen ikinci at görüntüsü, 92:7 ve 92:10'un yol/kolaylaştırma kayıtlarıyla buluşunca, en bahtsız kişiyi seçtiği olumsuz gidişin peşinden ateşe varan takipçi gibi de gösterir.",
+      "mechanism": "Focus B007'nin izleyen ikinci at ilişkisi, wider course connections tarafından sağlanan önden giden yol ve kolaylaştırma görüntüsüyle temas eder. Böylece focus fiili yalnız ısıya ulaşmayı değil, seçilmiş bir güzergâhın arkasından sonucu izlemeyi de görünür kılar.",
+      "reader_payoff": "Ateş teması, bir anda belirlenen sonuç olmaktan çıkarak önde açılan bir gidişi takip eden son adım olarak algılanır.",
+      "containment": "Yarış görüntüsü fiilin ateş temasını kaldırmaz ve focus formunu gerçek bir at adı diye yeniden çözmez; izleme ve sonuç ilişkisi olarak sınırlandırılır.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": ["legacy_unbound", "trusted"],
+        "reason": "The B007 branch and reader-walk support are supplied, with 92:7 and 92:10 reciprocal connections; the procession arrow is abductive and the source connection labels are not decisions."
+      },
+      "support_ids": ["sup_c6ad9ba44d70613946f9", "sup_48010fdf9d968b22f522"],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000880/B007",
+          "facet_id": "F001",
+          "branch_gloss": "yarışta önderin hemen ardındaki ikinci at",
+          "facet_statement": "Yarışta ilk atın hemen ardındaki ikinci attır.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["92:15:2"],
+          "trigger_refs": ["92:7", "92:10"],
+          "focus_return_refs": ["92:15:2"],
+          "carrier": "يَصْلَىٰ occurrence'ı B007'nin önderi hemen izleyen ikinci konum görüntüsünü taşıyan focus carrier'dır.",
+          "independent_trigger": "92:7 ve 92:10'daki kolaylaştırılmış/zorlu course records ve bunların focus'a dönen connections'larıdır.",
+          "activation": "Önderi izleyen ikinci konum, focus subject'in seçilmiş olumsuz güzergâhın arkasından ilerlediği bir takip ilişkisi kurar.",
+          "resulting_reading": "En bahtsız kişinin ateşe varışı, bir gidişin gerisinden gelen sonuç olarak belirir.",
+          "boundary": "Bu, at yarışını ayetin literal subject'i yapmaz; formun ateş anlamını izleme/ardışıklık görüntüsüyle sınırlar."
+        }
+      ],
+      "connection_refs": ["conn_ef0a7b7fdb9a46474eea", "conn_5386e163ec312796cae7"],
+      "context_refs": ["92:7", "92:10"],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:cover-reveal-exposure",
+      "origin_candidate_id": "cand_4395b4ece6fea7d5ca7e",
+      "represented_candidate_ids": [],
+      "title": "Örtünün kalkmasıyla açıkta kalan temas",
+      "claim": "92:1'de örtülme ile 92:2'de açığa çıkma art arda geldiğinde, يَصْلَىٰهَا'nın ateşe maruz bırakma görüntüsü gizlenmenin kalkmasıyla bütünüyle açıkta kalmış bir temas olarak da belirir.",
+      "mechanism": "HFT trace, 92:1:3'teki örtülme ve 92:2:3'teki açığa çıkmayı focus B003'ün ateş temasına bağlar. Örtülme/açılma dönüşü, ateş karşılaşmasının derecesini korunmuş durumdan açıkta bırakılmaya doğru değiştirir.",
+      "reader_payoff": "Ateş karşılaşması, kozmik örtü kalktıktan sonra korumasız kalan bir exposure olarak da görülebilir.",
+      "containment": "Bu ilişki ateş göndergesini değiştirmez; örtüden açığa çıkmaya doğru hareketi ekler. Connection row'un 92:1'in doğrudan fire-subject contribution sağlamadığı uyarısı korunur ve disclosure'dan exposure'a geçiş HFT çıkarımı olarak kalır.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": ["legacy_unbound"],
+        "reason": "HFT supplies exact context ayahs, word indices, attributed roles and focus return; the Arabic surface verifies contact while the exposure arrow remains a qualified reader inference."
+      },
+      "support_ids": ["sup_a23ddb9f42578b741ca5"],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000256/B001",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": ["92:2:3"],
+          "trigger_refs": ["92:1:3", "92:15:2"],
+          "focus_return_refs": ["92:15:2"],
+          "carrier": "92:2:3 occurrence'ı HFT tarafından açığa çıkma/appearance taşıyıcısı olarak atfedilir.",
+          "independent_trigger": "92:1:3'teki önceki örtülme ve focus B003'ün ateş temasıdır.",
+          "activation": "Açığa çıkma occurrence'ı, focus ateş temasını önceki örtünün tersine dönmüş sonucu olarak yeniden çerçeveler.",
+          "resulting_reading": "Ateşe temas eden subject, örtü kalkınca açıkta kalan subject olarak da belirir.",
+          "boundary": "Context branch lexicon unresolved'dır; yalnızca HFT'nin atfettiği role dayanılır, ek gloss icat edilmez."
+        },
+        {
+          "branch_ref": "root_000880/B003",
+          "facet_id": "F001",
+          "branch_gloss": "ateşin veya benzer bir sıkıntının şiddetine uğramak; birini ateşe sokmak",
+          "facet_statement": "Ateşe girmek, onda kalmak ve yakıcı şiddetine uğramaktır.",
+          "application_mode": "attributed",
+          "carrier_refs": ["92:15:2"],
+          "trigger_refs": ["92:1:3", "92:2:3"],
+          "focus_return_refs": ["92:15:2"],
+          "carrier": "يَصْلَىٰهَا occurrence'ı ateşe girme ve yakıcı şiddete uğrama focus carrier'ıdır.",
+          "independent_trigger": "92:1:3'te örtülme ve 92:2:3'te açığa çıkma olarak HFT tarafından atfedilen paired context'tir.",
+          "activation": "Focus heat-contact, concealment-to-disclosure sequence'inin sonundaki açıkta kalma ile temas eder.",
+          "resulting_reading": "Ateş karşılaşması, örtünün kalkmasıyla korumasız exposure derecesine ulaşır.",
+          "boundary": "Temel ateş karşılaşması korunur; cosmic pair'in bu exposure'ı zorunlu kıldığı iddia edilmez."
+        },
+        {
+          "branch_ref": "root_001088/B001",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": ["92:1:3"],
+          "trigger_refs": ["92:2:3", "92:15:2"],
+          "focus_return_refs": ["92:15:2"],
+          "carrier": "92:1:3 occurrence'ı HFT tarafından örtme/concealment taşıyıcısı olarak atfedilir.",
+          "independent_trigger": "92:2:3'teki açığa çıkma ve focus ateş temasının exact word-index dönüşüdür.",
+          "activation": "Örtülme, focus heat-contact için başlangıçtaki korunmuş/obscured state'i sağlar; açığa çıkma bu state'i tersine çevirir.",
+          "resulting_reading": "Focus subject'in ateş karşısında örtüsüz kalması görünür olur.",
+          "boundary": "Context branch ve lexical gloss unresolved'dır; HFT role qualification dışına çıkılmaz."
+        }
+      ],
+      "connection_refs": ["conn_fbffdd5bbf0918d06381"],
+      "context_refs": ["92:1", "92:2"],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:divergent-striving-endpoint",
+      "origin_candidate_id": "cand_63e1ee6e0dbc809f7b40",
+      "represented_candidate_ids": [],
+      "title": "Ayrışmış gayretlerin uç durumu",
+      "claim": "92:3'teki ölçülü yaratılış ve 92:4'teki ayrışmış gayret, أَشْقَى'yı açıklanmamış sabit bir sıfatın yanında, farklı gidişlerin ulaştığı veya açığa çıkardığı en uç güçlük durumu olarak da kurar.",
+      "mechanism": "Focus B002'nin güçlük dalı, 92:3:2'deki formation/differentiation ve 92:4:2-3'teki purposeful motion/separation occurrences'larıyla temas eder. Superlative form, ayrışmış courses içinde bir extremal endpoint görünür kılar; HFT bunun üretilmiş mi yoksa açığa çıkmış mı olduğu seçimini açık bırakır.",
+      "reader_payoff": "En bahtsızlık, sabit bir tip olarak değil, farklı yönlere ayrılan hareket içinde görünen bir uç durum olarak da okunabilir.",
+      "containment": "Temel en bahtsız sınıflaması korunur; durumun yalnızca davranışla üretildiği veya önceden var olup davranışta açığa çıktığı seçilmez.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": ["legacy_unbound"],
+        "reason": "HFT exact word-index trace supplies all context roles and focus return; the 92:3 connection is explicitly remote/qualified, while the process-to-endpoint arrow remains attributed inference."
+      },
+      "support_ids": ["sup_60262eae8b3b1adaa519"],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000434/B001",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": ["92:3:2"],
+          "trigger_refs": ["92:4:2", "92:4:3", "92:15:4"],
+          "focus_return_refs": ["92:15:4"],
+          "carrier": "92:3:2 occurrence'ı HFT tarafından measured formation/differentiation carrier'ı olarak atfedilir.",
+          "independent_trigger": "92:4:2-3'teki striving ve separation occurrences'ları ile focus superlative'dir.",
+          "activation": "Formation'daki ayrıştırma, focus subject'in bir static label değil, divergent courses içinde konumlanan endpoint olarak okunmasına zemin verir.",
+          "resulting_reading": "En uç güçlük durumu farklı gidişlerin içinde ölçülen veya görünen bir sonuç olur.",
+          "boundary": "Unresolved context branch için lexicon gloss'u ve moral causation icat edilmez."
+        },
+        {
+          "branch_ref": "root_000709/B001",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": ["92:4:2"],
+          "trigger_refs": ["92:3:2", "92:4:3", "92:15:4"],
+          "focus_return_refs": ["92:15:4"],
+          "carrier": "92:4:2 occurrence'ı HFT tarafından purposeful striving/motion carrier'ı olarak atfedilir.",
+          "independent_trigger": "92:3:2'deki formation ve 92:4:3'teki separation ile focus B002'dır.",
+          "activation": "Purposeful motion, superlative durumunu bir hareketin uç noktası olarak yeniden çerçeveler.",
+          "resulting_reading": "En bahtsızlık, gidiş içinde ulaşılan veya açığa çıkan bir uç olarak görünür.",
+          "boundary": "HFT'nin attributed role'u dışına çıkılarak specific moral mechanism ileri sürülmez."
+        },
+        {
+          "branch_ref": "root_000775/B001",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": ["92:4:3"],
+          "trigger_refs": ["92:3:2", "92:4:2", "92:15:4"],
+          "focus_return_refs": ["92:15:4"],
+          "carrier": "92:4:3 occurrence'ı HFT tarafından dispersion/separation carrier'ı olarak atfedilir.",
+          "independent_trigger": "92:4:2'deki striving, 92:3:2'deki formation ve focus superlative'dir.",
+          "activation": "Ayrışma, focus B002'nin extremal anlamını ortak bir sabit tipe değil, farklı courses içindeki konuma bağlar.",
+          "resulting_reading": "Divergent courses, en uç güçlük durumunun görülebileceği alan olarak açılır.",
+          "boundary": "Context branch unresolved olduğu için yalnız supplied HFT relation korunur."
+        },
+        {
+          "branch_ref": "root_000808/B002",
+          "facet_id": "F001",
+          "branch_gloss": "güçlük çekme ve zorluğa dayanma",
+          "facet_statement": "Temel anlam, kolaylığın karşıtı olan güçlüğü çekmek ve zorluğa katlanmaktır.",
+          "application_mode": "attributed",
+          "carrier_refs": ["92:15:4"],
+          "trigger_refs": ["92:3:2", "92:4:2", "92:4:3"],
+          "focus_return_refs": ["92:15:4"],
+          "carrier": "ٱلْأَشْقَى occurrence'ı focus'ta extremal hardship carrier'ıdır.",
+          "independent_trigger": "92:3:2 formation ve 92:4:2-3 divergent striving/separation roles'larıdır.",
+          "activation": "Focus hardship branch'i measured formation ve divergent motion ile temas ederek superlative'yi süreç içindeki endpoint olarak yeniden çerçeveler.",
+          "resulting_reading": "En bahtsız, farklı gayret yollarının uç noktasında ulaşılmış veya görünür olmuş durumdur.",
+          "boundary": "HFT'nin live alternative'ı korunur: endpoint üretilmiş de olabilir, önceden var olup açığa çıkmış da."
+        }
+      ],
+      "connection_refs": ["conn_c9b6111861ec10df00ff", "conn_625ce8e063e30b2cd00e"],
+      "context_refs": ["92:3", "92:4"],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:facilitated-negative-course",
+      "origin_candidate_id": "cand_3bd9ac2c388dcb3b6279",
+      "represented_candidate_ids": [],
+      "title": "Zorluğa doğru kolaylaşan kurs",
+      "claim": "92:7 ve 92:10'da aynı kolaylaştırma fiilinin zıt yönlere uygulanması, أَشْقَى'nın ateş temasını inkâr ve kendine yeterlik ile giderek akıcılaşan zorlu bir güzergâhın sonundaki durum gibi de gösterir.",
+      "mechanism": "HFT trace, withholding, claimed sufficiency ve denial occurrences'larını iki taraftaki facilitation formuyla; focus hardship ve fire branches'ını da aynı adverse course ile bağlar. Kolaylaştırma burada yönü kaldırmaz: direnç, seçilmiş hatta azalırken hedef zorluk ve heat-contact olur.",
+      "reader_payoff": "Zorluk yolu yalnız zorlanan bir sonuç değil, inkâr ve kendine yeterlik ile ilerlemesi kolaylaşan bir gidiş olarak görünür.",
+      "containment": "Facilitation'ın habituated momentum, external routing veya ikisinin birleşimi olup olmadığı açık bırakılır; ana ateş ve en bahtsızlık hükmü korunur.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": ["legacy_unbound"],
+        "reason": "HFT supplies exact word-index roles across 92:7-10 and the focus, but all non-focus lexicon branches are unresolved and the path-dependence arrow is explicitly an inference with live alternatives."
+      },
+      "support_ids": ["sup_f8b6bbc9c6ead4eabf38"],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000089/B001",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": ["92:8:3"],
+          "trigger_refs": ["92:8:4", "92:9:1", "92:10:1", "92:10:2", "92:7:1", "92:7:2", "92:15:4", "92:15:2"],
+          "focus_return_refs": ["92:15:4", "92:15:2"],
+          "carrier": "92:8:3 occurrence'ı HFT tarafından withholding/contraction carrier'ı olarak atfedilir.",
+          "independent_trigger": "Aynı course içindeki claimed sufficiency, denial, facilitation ve focus outcome roles'larıdır.",
+          "activation": "Withholding, iki zıt course'un içinde direnç azaltan negative momentum'un başlangıcı olarak focus'a döner.",
+          "resulting_reading": "Zorluğa giden hat, withholding ile daralıp kolaylaşan bir gidiş olur.",
+          "boundary": "Unresolved branch için kaynak gloss'u veya withholding'in tek başına causal olduğu iddia edilmez."
+        },
+        {
+          "branch_ref": "root_000809/B002",
+          "facet_id": "F001",
+          "branch_gloss": "zorluk ve yorucu uğraş",
+          "facet_statement": "Kolaylığın karşıtı olan güçlük, zorluk ve sıkıntıdır.",
+          "application_mode": "attributed",
+          "carrier_refs": ["92:15:4"],
+          "trigger_refs": ["92:7:1", "92:7:2", "92:8:3", "92:8:4", "92:9:1", "92:10:1", "92:10:2", "92:15:2"],
+          "focus_return_refs": ["92:15:4"],
+          "carrier": "ٱلْأَشْقَى occurrence'ı zorluk ve yorucu uğraş focus carrier'ıdır.",
+          "independent_trigger": "92:7-10'daki parallel facilitation ve negative-course roles'larıdır.",
+          "activation": "Focus hardship, aynı facilitation formunun positive ve negative course'larda tekrar edilmesiyle seçilmiş hatta akıcılaşan sonuca dönüşür.",
+          "resulting_reading": "En uç zorluk, zorluğa doğru kolaylaşan kursun terminal durumu olur.",
+          "boundary": "Bu dalın source-qualified kapsamı korunur; her yorgunluk veya tek bir dış tayin mekanizması genellenmez."
+        },
+        {
+          "branch_ref": "root_000879/B001",
+          "facet_id": "F001",
+          "branch_gloss": "ateşin yakıcı sıcaklığına maruz kalma ve ateşle işleme",
+          "facet_statement": "Bir varlık ateşe girer, ateşin yanında kalır veya onun yakıcı sıcaklığını ve şiddetini çeker.",
+          "application_mode": "attributed",
+          "carrier_refs": ["92:15:2"],
+          "trigger_refs": ["92:7:1", "92:8:3", "92:8:4", "92:9:1", "92:10:1", "92:10:2", "92:15:4"],
+          "focus_return_refs": ["92:15:2"],
+          "carrier": "يَصْلَىٰهَا occurrence'ı ateşin yakıcı şiddetine uğrama focus carrier'ıdır.",
+          "independent_trigger": "Negative conduct ve repeated facilitation occurrences'larının focus'a dönmesidir.",
+          "activation": "Heat-contact, withholding/denial ile ilerlemesi kolaylaşan adverse course'un receiving endpoint'i olarak belirir.",
+          "resulting_reading": "Ateş, zorluğa doğru akıcılaşan kursun vardığı terminal contact olur.",
+          "boundary": "Direct heat-contact primary reading korunur; course dependence HFT attribution'ıdır."
+        },
+        {
+          "branch_ref": "root_001012/B004",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": ["92:10:2"],
+          "trigger_refs": ["92:7:1", "92:8:3", "92:8:4", "92:9:1", "92:15:4", "92:15:2"],
+          "focus_return_refs": ["92:15:4", "92:15:2"],
+          "carrier": "92:10:2 occurrence'ı HFT tarafından twisting/opposition/imposed difficulty carrier'ı olarak atfedilir.",
+          "independent_trigger": "Aynı ayetteki facilitation formu, negative conduct ve focus heat-contact'tir.",
+          "activation": "Imposed difficulty, kolaylaşan gidişin varacağı hedefin resistance-heavy niteliğini focus'a geri taşır.",
+          "resulting_reading": "Kursun akıcılaşması, kolay bir hedefe değil zorluğun kendisine yönelir.",
+          "boundary": "Unresolved context branch için ek lexical gloss veya metaphysical assignment yapılmaz."
+        },
+        {
+          "branch_ref": "root_001110/B001",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": ["92:8:4"],
+          "trigger_refs": ["92:8:3", "92:9:1", "92:10:1", "92:10:2", "92:7:1", "92:7:2", "92:15:4", "92:15:2"],
+          "focus_return_refs": ["92:15:4", "92:15:2"],
+          "carrier": "92:8:4 occurrence'ı HFT tarafından claimed independence/self-sufficiency carrier'ı olarak atfedilir.",
+          "independent_trigger": "Withholding, denial, repeated facilitation ve focus outcome roles'larıdır.",
+          "activation": "Claimed sufficiency başka bir route'a ihtiyaç duyulmayan self-sealing premise olarak negative course'u akıcılaştırır.",
+          "resulting_reading": "Kendine yeterlik iddiası, zorluğa doğru gidişi durdurmak yerine onu kolaylaştıran momentum'a dönüşür.",
+          "boundary": "HFT role'u self-sufficiency interaction'ını atfeder; bunun tek neden olduğu iddia edilmez."
+        },
+        {
+          "branch_ref": "root_001290/B002",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": ["92:9:1"],
+          "trigger_refs": ["92:8:3", "92:8:4", "92:10:1", "92:10:2", "92:7:1", "92:7:2", "92:15:4", "92:15:2"],
+          "focus_return_refs": ["92:15:4", "92:15:2"],
+          "carrier": "92:9:1 occurrence'ı HFT tarafından good'un denial/false assignment carrier'ı olarak atfedilir.",
+          "independent_trigger": "Negative course'un withholding/self-sufficiency başlangıcı, facilitation ve focus heat-contact'idir.",
+          "activation": "Denial, adverse course'u yalnız davranışsal değil epistemik olarak da kapatan bir yön verir.",
+          "resulting_reading": "Reddediş, zorluğa doğru kolaylaşan yolun kapanış ve yön belirleme hareketi olur.",
+          "boundary": "Unresolved branch için denial'ın kapsamı veya sonucu packet dışından genişletilmez."
+        },
+        {
+          "branch_ref": "root_001694/B001",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": ["92:7:1"],
+          "trigger_refs": ["92:7:2", "92:8:3", "92:8:4", "92:9:1", "92:10:1", "92:10:2", "92:15:4", "92:15:2"],
+          "focus_return_refs": ["92:15:4", "92:15:2"],
+          "carrier": "92:7:1 occurrence'ı HFT tarafından opening/ease-after-obstruction carrier'ı olarak atfedilir.",
+          "independent_trigger": "92:8-10'daki opposed conduct/facilitation ve focus outcome'dur.",
+          "activation": "Opening and ease, course-making operation olarak negative course ile karşılaştırmalı bir route sağlar.",
+          "resulting_reading": "Kolaylaştırılmış hareket, zıt hedeflere giden iki course'un ortak işlemi olarak belirir.",
+          "boundary": "Unresolved branch ve source reading ayrıntıları HFT attribution sınırında tutulur."
+        },
+        {
+          "branch_ref": "root_001694/B005",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": ["92:10:1"],
+          "trigger_refs": ["92:10:2", "92:8:3", "92:8:4", "92:9:1", "92:15:4", "92:15:2"],
+          "focus_return_refs": ["92:15:4", "92:15:2"],
+          "carrier": "92:10:1 occurrence'ı HFT tarafından light/compliant motion carrier'ı olarak atfedilir.",
+          "independent_trigger": "Aynı 92:10 clause'undaki difficulty ve önceki withholding/denial occurrences'larıdır.",
+          "activation": "Hareketin hafifliği, zor hedefe giden course'un paradoxical akıcılığını kurar.",
+          "resulting_reading": "Zorluğa ilerlemek, direncin azaldığı için akıcılaşan bir hareket olarak okunur.",
+          "boundary": "Unresolved branch için ease'in yalnız alışkanlık veya yalnız dış tayin olduğu seçilmez."
+        }
+      ],
+      "connection_refs": ["conn_ef0a7b7fdb9a46474eea", "conn_ef095b8c733449bcc13e", "conn_5386e163ec312796cae7", "conn_5113238412f192670e0f", "conn_74d849e6f34bb2c9b725"],
+      "context_refs": ["92:5", "92:7", "92:8", "92:9", "92:10"],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:fall-into-heat",
+      "origin_candidate_id": "cand_51981e1486fd3a208d0b",
+      "represented_candidate_ids": [],
+      "title": "Düşüşün ısıyla buluşması",
+      "claim": "92:11'de biriken malın kişiyi düşüşten koruyamaması, يَصْلَىٰهَا'nın ateş temasını servetin başarısız olduğu düşüşün aldığı son temas olarak da kurar.",
+      "mechanism": "HFT trace, 92:11:2'de sufficiency failure, 92:11:4'te accumulated possession ve 92:11:6'da falling into ruin occurrences'larını focus B003'e bağlar. Böylece düşüş, ateş karşılaşmasına yön veren bir hareket olur; servet beklenen support işlevini yerine getiremez.",
+      "reader_payoff": "Ateşe temas, servetin yetersiz kaldığı düşüşten sonra açılan receiving endpoint olarak görünür.",
+      "containment": "Düşüşün fiziksel olarak ateşe ulaştığı yön HFT'nin çıkarımıdır; 92:11'in ölüm veya yıkım anlamı ve temel ateş hükmü açık kalır.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": ["legacy_unbound"],
+        "reason": "HFT supplies exact 92:11 word indices, roles and focus return; the directional continuity from falling to heat is explicitly supplied as an inference with a live alternative."
+      },
+      "support_ids": ["sup_ec399b40ed73d7d152eb"],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000558/B003",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": ["92:11:6"],
+          "trigger_refs": ["92:11:2", "92:11:4", "92:15:2"],
+          "focus_return_refs": ["92:15:2"],
+          "carrier": "92:11:6 occurrence'ı HFT tarafından falling-into-ruin transition carrier'ı olarak atfedilir.",
+          "independent_trigger": "92:11:2 sufficiency failure, 92:11:4 accumulated possession ve focus heat-contact'tir.",
+          "activation": "Falling transition, servetin durduramadığı downward movement olarak focus fire-contact'a bağlanır.",
+          "resulting_reading": "Düşüşün aldığı son temas ateşle karşılaşma olarak belirir.",
+          "boundary": "Unresolved branch için düşüşün yalnızca literal veya yalnızca eskatolojik olduğu seçilmez."
+        },
+        {
+          "branch_ref": "root_000880/B003",
+          "facet_id": "F001",
+          "branch_gloss": "ateşin veya benzer bir sıkıntının şiddetine uğramak; birini ateşe sokmak",
+          "facet_statement": "Ateşe girmek, onda kalmak ve yakıcı şiddetine uğramaktır.",
+          "application_mode": "attributed",
+          "carrier_refs": ["92:15:2"],
+          "trigger_refs": ["92:11:2", "92:11:4", "92:11:6"],
+          "focus_return_refs": ["92:15:2"],
+          "carrier": "يَصْلَىٰهَا occurrence'ı ateşe girme ve yakıcı şiddete uğrama focus carrier'ıdır.",
+          "independent_trigger": "92:11'de servetin yetmemesi ve ardından düşüş olarak HFT tarafından atfedilen sequence'tir.",
+          "activation": "Focus heat-contact, accumulated wealth'in koruyamadığı falling movement'in receiving endpoint'i olur.",
+          "resulting_reading": "Ateş, bağımsız bir sonradan eklenmiş sahne değil, düşüşün aldığı terminal contact olarak görünür.",
+          "boundary": "Bu connection ölüm/ruin ile ateş arasında zorunlu mekânsal continuity iddiasına dönüşmez."
+        },
+        {
+          "branch_ref": "root_001110/B002",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": ["92:11:2"],
+          "trigger_refs": ["92:11:4", "92:11:6", "92:15:2"],
+          "focus_return_refs": ["92:15:2"],
+          "carrier": "92:11:2 occurrence'ı HFT tarafından sufficiency/adequacy function'ı olarak atfedilir.",
+          "independent_trigger": "Accumulated possession, falling transition ve focus heat-contact'tir.",
+          "activation": "Sufficiency function'ının başarısız olması, servetin düşüşü durduramadığı contact sequence'ini açar.",
+          "resulting_reading": "Yeterlik iddiası ateş karşısında koruma sağlayamayan bir işlev olarak görünür.",
+          "boundary": "Unresolved context branch için servetin teolojik veya hukuki anlamı genişletilmez."
+        },
+        {
+          "branch_ref": "root_001457/B001",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": ["92:11:4"],
+          "trigger_refs": ["92:11:2", "92:11:6", "92:15:2"],
+          "focus_return_refs": ["92:15:2"],
+          "carrier": "92:11:4 occurrence'ı HFT tarafından accumulated possession/wealth support'u olarak atfedilir.",
+          "independent_trigger": "Sufficiency failure, falling transition ve focus fire-contact'tir.",
+          "activation": "Biriken possession, kişiyi taşıması beklenen support olarak başarısız olup falling movement'i focus'a bağlar.",
+          "resulting_reading": "Mal, ateş temasına giden düşüşü kesemeyen support olarak belirir.",
+          "boundary": "Unresolved branch için malın tüm anlam ailesi veya tek nedenli sonuç çıkarılmaz."
+        }
+      ],
+      "connection_refs": ["conn_c2664aabdcd642a6a1ee"],
+      "context_refs": ["92:11"],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:difficult-threshold",
+      "origin_candidate_id": "cand_cda15114699022bbced8",
+      "represented_candidate_ids": [],
+      "title": "Zorlu bir bedensel eşik",
+      "claim": "يَصْلَىٰ'nin bedenin sırt-kuyruk dibi ve doğumda açılan bölgesini bildiren dalları, أَشْقَى'nın güçlük dalı ve 92:10 ile 92:20'deki attributed geçiş işaretleriyle buluşunca, ateşe maruz kalma sahnesinin içinde zorlu bir eşikten geçirilme görüntüsü de belirir.",
+      "mechanism": "Focus B006/B005 body facets ve focus B002 difficulty, 92:10:2 difficult-transition ve 92:20:3 emergence/orientation roles'larıyla temas eder. Bu cross-domain contact, external fire entry'nin yanında subject'in constricted bir threshold'dan geçirilmesi yönünde contained bir bodily-process resonance üretir.",
+      "reader_payoff": "Ateşle karşılaşmanın yanında, zorlu bir geçişte bedenin çalıştırıldığı ve eşikten geçirildiği bir görüntü belirir.",
+      "containment": "Bu exploratory body-process resonance, ateş zamirinin rahim anlamına geldiğini söylemez; temel ateş sahnesini değiştirmez ve lexical gloss yerine HFT-attributed image olarak kalır.",
+      "epistemic": {
+        "status": "exploratory",
+        "source_trust": ["legacy_unbound"],
+        "reason": "HFT supplies exact focus/context word-index roles and an explicit containment warning, but the relation crosses lexical domains and remains a surprising attributed outlier."
+      },
+      "support_ids": ["sup_7e48a79538322388bc5b"],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000809/B002",
+          "facet_id": "F001",
+          "branch_gloss": "zorluk ve yorucu uğraş",
+          "facet_statement": "Kolaylığın karşıtı olan güçlük, zorluk ve sıkıntıdır.",
+          "application_mode": "attributed",
+          "carrier_refs": ["92:15:4"],
+          "trigger_refs": ["92:10:2", "92:20:3", "92:15:2"],
+          "focus_return_refs": ["92:15:4"],
+          "carrier": "ٱلْأَشْقَى occurrence'ı zorluk ve yorucu uğraş focus carrier'ıdır.",
+          "independent_trigger": "92:10:2 difficult transition, 92:20:3 emergence/orientation ve focus body branches'ıdır.",
+          "activation": "Difficulty, body-location branches ile birleşerek focus event'i zor bir threshold'dan geçirilme olarak renklendirir.",
+          "resulting_reading": "En bahtsızın ateş teması yanında zorlu bir bodily passage görüntüsü de açılır.",
+          "boundary": "Bu zorluk branch'i fire referentini veya focus'un primary moral reading'ini değiştirmez."
+        },
+        {
+          "branch_ref": "root_000879/B005",
+          "facet_id": "F002",
+          "branch_gloss": "sırtın ortası ve kuyruk kökünün iki yanı",
+          "facet_statement": "Dişinin doğumunda bu bölge açılır; devede yavrunun buraya inmesi doğumun yaklaştığını gösterir.",
+          "application_mode": "attributed",
+          "carrier_refs": ["92:15:2"],
+          "trigger_refs": ["92:10:2", "92:20:3", "92:15:4"],
+          "focus_return_refs": ["92:15:2"],
+          "carrier": "يَصْلَىٰ occurrence'ı B005'in sırt/kuyruk dibi ve doğumda açılan body-location carrier'ıdır.",
+          "independent_trigger": "92:10:2'deki attributed difficulty ve 92:20:3'teki emergence/orientation roles'larıdır.",
+          "activation": "Doğumda açılan bodily threshold, focus heat-contact ile aynı occurrence'a dönerek zorlu geçiş görüntüsünü kurar.",
+          "resulting_reading": "Dış ateşe giriş sahnesi, bedensel olarak açılan ve zorlanarak geçilen bir eşikle birlikte duyulur.",
+          "boundary": "Bu, focus pronoun'un body cavity'ye referans verdiği iddiası değildir; contained image olarak kalır."
+        },
+        {
+          "branch_ref": "root_000880/B006",
+          "facet_id": "F002",
+          "branch_gloss": "sırtın ortası ve kuyruk dibinin iki yanı",
+          "facet_statement": "Dişide doğum sırasında açılan ve yavrunun doğum yaklaşınca indiği beden bölgesidir.",
+          "application_mode": "attributed",
+          "carrier_refs": ["92:15:2"],
+          "trigger_refs": ["92:10:2", "92:20:3", "92:15:4"],
+          "focus_return_refs": ["92:15:2"],
+          "carrier": "يَصْلَىٰ occurrence'ı B006'nın back/haunch ve birth-opening body carrier'ıdır.",
+          "independent_trigger": "Attributed difficult transition, hands-first emergence ve focus hardship roles'larıdır.",
+          "activation": "Body-location carrier'ı, hardship ve emergence ile temas ederek fire-contact'ı threshold passage görüntüsüne açar.",
+          "resulting_reading": "Subject'in ateşle karşılaşması yanında constricted bir geçişte çalıştırılması da görünür olur.",
+          "boundary": "Body facet yalnız HFT outlier'ının sınırları içinde kullanılır; primary referent ve literal fire korunur."
+        },
+        {
+          "branch_ref": "root_001012/B006",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": ["92:10:2"],
+          "trigger_refs": ["92:20:3", "92:15:2", "92:15:4"],
+          "focus_return_refs": ["92:15:2", "92:15:4"],
+          "carrier": "92:10:2 occurrence'ı HFT tarafından difficult/obstructed birth transition carrier'ı olarak atfedilir.",
+          "independent_trigger": "Focus body-location branches, hardship ve 92:20:3 emergence role'udur.",
+          "activation": "Obstructed transition, focus body image'ını constricted threshold olarak yeniden etkinleştirir.",
+          "resulting_reading": "Ateş karşılaşmasının yanında zorlu geçişin direnci duyulur.",
+          "boundary": "Context branch unresolved'dır; HFT role'u dışına çıkılarak literal birth scene ileri sürülmez."
+        },
+        {
+          "branch_ref": "root_001630/B010",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": ["92:20:3"],
+          "trigger_refs": ["92:10:2", "92:15:2", "92:15:4"],
+          "focus_return_refs": ["92:15:2", "92:15:4"],
+          "carrier": "92:20:3 occurrence'ı HFT tarafından hands-first birth orientation/emergence carrier'ı olarak atfedilir.",
+          "independent_trigger": "92:10:2 difficult transition ve focus body/difficulty branches'ıdır.",
+          "activation": "Orientation and emergence, body passage image'ını bir threshold'dan geçiş yönünde focus'a geri bağlar.",
+          "resulting_reading": "Zorlu eşik, subject'in emergence yönü olan bir beden hareketi gibi de belirir.",
+          "boundary": "Bu attributed image, 92:20'nin bağımsız bir literal narrative'sini veya focus pronoun için yeni referent ileri sürmez."
+        }
+      ],
+      "connection_refs": [],
+      "context_refs": ["92:10", "92:20"],
+      "semantic_obligation_refs": []
+    }
+  ],
+  "friction_notes": [
+    "Docket coverage complete: all 25 candidate IDs were reviewed exactly once; accepted owners and represented duplicates are explicitly linked, and every rejected candidate has its supplied branch refs accounted for.",
+    "The candidate records expose scalar commentary_obligation values (optional_review/review), not semantic_obligations arrays or exact obligation refs. Therefore semantic_obligation_refs and semantic_obligation_exclusions remain empty; no synthetic obligation identity was invented.",
+    "The focus_word_alignment is complete for all 4/4 analysis units. The primary floor remains the negation-exception frame with direct fire exposure and the definite elative subject; it is retained as the recoverable floor rather than emitted as a latent finding.",
+    "HFT has 14 assigned records: nine unanchored reader summaries were rejected for lacking a valid carrier, independent trigger and focus return, while the five exact context-delta/outlier records were retained with application_mode attributed and their unresolved context branches left glossless.",
+    "The packet has zero selected_context_units. Retained HFT findings use the supplied exact word-index traces as attributed context occurrences; no external path or source was read beyond the inline lane packet.",
+    "The connection registry contains 176 rows. Direct fire parallels, no-value rows and counterevidence were inspected; no additional uncandidate global semantic change met the activation test. Relevant same-surah connections are attached to retained findings, with their prior labels treated as provenance rather than decisions.",
+    "Prayer/blessing, taqwa-shield and fire-straightening walk items were not promoted in this global lane because their supplied triggers are unanchored or remain inside the declared 92:12-21 pericope; their candidate branches and named context refs are explicitly excluded above.",
+    "The focus-only 92:14 pronoun question and the 92:16 relative-clause scope question remain visible as unresolved summaries, not as findings. Their exact contextual word-level evidence is absent from this packet, so no wider semantic claim is filled in."
+  ]
+}

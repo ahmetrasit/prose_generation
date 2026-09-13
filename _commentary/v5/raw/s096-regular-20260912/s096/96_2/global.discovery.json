@@ -1,0 +1,561 @@
+{
+  "schema_version": "commentary-v5-scope-discovery-v1",
+  "ayah_ref": "96:2",
+  "lane": "global",
+  "coverage_complete": true,
+  "candidate_decisions": [
+    {
+      "candidate_id": "cand_1a1d68c55f2e25ad48d9",
+      "decision": "accept",
+      "reason": "Odaktaki عَلَقٍ taşıyıcısının tutunma ve gebeliğin başlaması yönleri, 40:67'deki bağımlı oluşum dizisi ve 80:5'teki yeterli olma karşıtıyla bağımsız biçimde temas eder. Bu temas, başlangıcı geride kalmış bir aşama değil, sonraki kendine yeterlik vehmini açığa çıkaran bir bağımlılık ilişkisi olarak korur.",
+      "finding_refs": ["global:attachment-dependence-reversal"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_014d9a70c10e0b98ad97",
+      "decision": "accept",
+      "reason": "İnsan adı, yaratma fiilinin ölçü ve biçim yönü ve عَلَقٍ kaydının pıhtılaşmış madde yönü, exact wider insan-oluşum bağlantılarıyla aynı oluşum temasında buluşur. Her dalın çekirdek facet'i ayrı carrier ve trigger ile bulguya indirilmiştir; hedef morfolojisi bulunmayan bağlantılar epistemik niteliği sınırlar, aktivasyonu ortadan kaldırmaz.",
+      "finding_refs": ["global:measured-dependent-formation"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_abf5a76247d6b6ccc99c",
+      "decision": "narrow",
+      "reason": "Adayın fiziksel bağlanmadan yapışkan çekişmeye uzanan bounded core'u 16:4 ve 18:54'te insanın oluşumu ile çekişmenin birlikte görünmesiyle bağımsızca temas eder. Kaydın grade=reject olan daha ileri namaz engelleme ve tuzak dönüşümü için wider bir carrier/trigger yoktur; bu nedenle yalnız avın fiilen yakalanması facet'i çıkarılmıştır.",
+      "finding_refs": ["global:attachment-to-contention"],
+      "branch_exclusions": [
+        {
+          "branch_ref": "root_001039/B011",
+          "reason": "Avın kurulmuş tuzağa fiilen yakalanması için exact wider bir av/tuzak carrier'ı ve focus'a dönen independent trigger supplied değildir; focus içindeki sonraki engelleme anışı global lane aktivasyonu yerine geçmez."
+        }
+      ],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_04685ba9e667add06580",
+      "decision": "reject",
+      "reason": "Göz bebeğindeki küçük yansıma dalı focus'ta taşıyıcıya sahiptir, fakat bu global packet'te onu kendi anlamıyla yeniden etkinleştiren exact wider bir göz/yansıma trigger'ı yoktur. 96:7'ye dayanan self-image önerisi same-surah ve focus-only kalır.",
+      "finding_refs": [],
+      "branch_exclusions": [
+        {
+          "branch_ref": "root_000059/B005",
+          "reason": "Wider bağımsız gözbebeği veya yansıma carrier'ı supplied değildir; mevcut cross-run kaydındaki reject etiketi de bu specific global activation'ı kurmaz."
+        }
+      ],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_0f30b63d93ac51242f63",
+      "decision": "reject",
+      "reason": "Perçem sahnesinin oluşumda tutunmayı kamusal savunmasızlığa geri bağlayan claim'i whole-surah retrospective bir öneridir; global packet'te focus'a dönen independent wider trigger supplied değildir.",
+      "finding_refs": [],
+      "branch_exclusions": [
+        {
+          "branch_ref": "root_001039/B001",
+          "reason": "Tutunma dalı için perçem sahnesi dışında exact wider carrier/trigger yoktur; same-surah sahne global activation eşiğini karşılamaz."
+        },
+        {
+          "branch_ref": "root_001039/B003",
+          "reason": "Pıhtılaşmış kan dalı perçem sahnesindeki geriye dönük bodily contact ile anılır, fakat bunu bağımsız wider trigger'a bağlayan kayıt yoktur."
+        }
+      ],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_cdfecf831e2d8222b8c2",
+      "decision": "narrow",
+      "reason": "Okur yürüyüşündeki görünür insanın bağlı bir maddeden ortaya çıkması core'u, 46:18, 19:67 ve 40:67 exact wider temaslarıyla focus'a döndürülür. Kayıtlı root_001039/B006 yaşamı sürdürecek az besin dalı için independent wider trigger yoktur; ayrıca çözülmemiş غ ن ي citation'ı kayıtlı branch olarak yükseltilmemiştir.",
+      "finding_refs": ["global:visible-emergence-from-attachment"],
+      "branch_exclusions": [
+        {
+          "branch_ref": "root_001039/B006",
+          "reason": "Az besin ve geçimlik anlamı support metninde anılır, ancak bu global packet'te focus'a dönen independent wider beslenme carrier'ı supplied değildir."
+        }
+      ],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_0eb5f7216e216e54a581",
+      "decision": "reject",
+      "reason": "Retrospective perçem kaydı 96:2'nin same-surah sonraki görüntüye dönüşünü bildirir, fakat global lane için exact wider carrier, independent trigger ve focus return sağlamaz. Kayıt bu nedenle kendi başına global finding değildir.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_113d1d18a6ef4da512fd",
+      "decision": "represented",
+      "reason": "Wider okur kaydının bağımlılığın geride kalmış bir ilk aşama değil, kendine yeterlik iddiasını açığa çıkaran yapı olduğu yönündeki core claim'i global:attachment-dependence-reversal bulgusunda aynen taşınır. Kayıtlı B001 carrier'ı bulguda landed durumdadır; çözülmemiş غ ن ي citation'ı ayrı bir branch olarak eklenmemiştir.",
+      "finding_refs": ["global:attachment-dependence-reversal"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_9a87243d0131fb674c51",
+      "decision": "represented",
+      "reason": "Ölçme ile pıhtılaşmış başlangıcın ölçülü varlığa geçişi, global:measured-dependent-formation bulgusunda aynı iki registered branch ve aynı changed reading ile korunur; adayın hiçbir branch'i veya semantic yükümlülüğü dışarıda bırakılmaz.",
+      "finding_refs": ["global:measured-dependent-formation"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_f84e61fe11cf8e71b3cc",
+      "decision": "accept",
+      "reason": "Registered root_000059/B002 perception carrier'ı, 76:2'de insanın işitip gören kılınması ve 50:16'da iç farkındalığın açıkça bağlanmasıyla exact wider trigger alır. Okur kaydının kendine dönen ve kendini yanlış mutlaklaştırabilen algı önerisi bu B002 core'u üzerinden qualified biçimde korunur; ayrı B005 gözbebeği dalı bu adaya ait registered branch değildir.",
+      "finding_refs": ["global:perceiving-human"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_c5cf071b255400d17696",
+      "decision": "reject",
+      "reason": "Geniş okur yürüyüşündeki gözbebeği retrospective'i 96:7'nin same-surah reflexive sahnesine dayanır. Global packet'te B005 için independent wider eye-image trigger veya ayrı focus dönüşü yoktur.",
+      "finding_refs": [],
+      "branch_exclusions": [
+        {
+          "branch_ref": "root_000059/B005",
+          "reason": "Göz görüntüsü facet'i yalnız same-surah retrospective support ile verilir; global lane'in wider activation şartı karşılanmaz."
+        }
+      ],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_5eafc3e582565b706298",
+      "decision": "represented",
+      "reason": "HFT summary'sindeki attached origin'in later self-sufficiency karşıtı olması, independently grounded global:attachment-dependence-reversal bulgusunun exact semantic core'udur. HFT kaydı unanchored olduğu için ayrı bir trace veya branch iddiası eklenmez; yalnız named finding içinde qualified corroboration olarak korunur.",
+      "finding_refs": ["global:attachment-dependence-reversal"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_53be431ab2eb3980dc6c",
+      "decision": "reject",
+      "reason": "HFT kaydı ölçülü oluşumu ethical overflow'a çeviren bir summary claim'dir; exact context coordinate, focus carrier, independent trigger ve focus-return trace supplied değildir. Measured-formation bağlantısı vardır, fakat ethical overflow yönü bu packet'te ayrı bir global activation olarak kurulmaz.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_b0fed3d331fbff528348",
+      "decision": "reject",
+      "reason": "Prenatal attachment'ın contested allegiance'a dönüştüğü HFT summary'si exact coordinate, root, attributed role ve focus return içeren bir trace sunmaz. Global packet'te coercive capture ile prostration/nearness contact'ını bağımsızca indiren carrier yoktur.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_bcc1d422d70eceeb1774",
+      "decision": "reject",
+      "reason": "Reading, marking, teaching ve pen zincirini kuran HFT summary'si focus'ta bu faaliyetleri taşıyan kayıtlı branch veya exact wider trigger sunmaz. Physical creation ile teachable human arasındaki genel benzetme, supplied carrier/trigger/return üçlüsünün yerini tutmaz.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_d4dfc7d10816d4df8c1e",
+      "decision": "reject",
+      "reason": "HFT'nin what_was_special summary'si birkaç ayrı mekanizmayı listeler, fakat bunları exact focus carrier, independent trigger ve focus return olarak bağlamaz. Envanter dili tek başına global activation kurmadığı için ayrı finding üretilmemiştir.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_427cb4def2168076bd23",
+      "decision": "reject",
+      "reason": "Gestational arc'ın ordinary contextual senses'ten uzak olduğu uncertainty kaydı, exact HFT coordinate veya focus'a dönen bir trace değildir. Bu nedenle belirsizlik friction'da korunur, fakat standalone global finding olarak retained edilmez.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_eb4a6f579202cb1a017e",
+      "decision": "reject",
+      "reason": "Pupil-image, clinging-claim, precious-object ve subsistence dallarını exploratory sayan HFT summary'si kendi başına exact carrier/trigger/return vermez. Registered B002, B005 ve B006 adaylarıyla karıştırılmadan yalnızca qualification olarak korunmuştur.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_a9e4b65b583238a36b42",
+      "decision": "reject",
+      "reason": "Creation ile fabricated selfhood arasındaki contrast için HFT kaydı exact focus branch, wider trigger veya return sağlamaz. Root_000434/B007'nin yalan-uydurma dalı focus'ta mevcut olsa da bu candidate'a bağlı independent activation supplied değildir.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_f81e8d740696c55e0c03",
+      "decision": "reject",
+      "reason": "Embriyoloji, social restraint, worship ve nearness arasında ortak attachment mechanism'i kuran HFT summary'si abductive bir sentezdir; exact trace, independent trigger ve focus return supplied değildir. Mevcut grounded attachment findings bu unanchored common-mechanism iddiasını otomatik olarak kabul ettirmez.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    }
+  ],
+  "findings": [
+    {
+      "finding_ref": "global:attachment-dependence-reversal",
+      "origin_candidate_id": "cand_1a1d68c55f2e25ad48d9",
+      "represented_candidate_ids": ["cand_113d1d18a6ef4da512fd", "cand_5eafc3e582565b706298"],
+      "title": "Bağlanarak başlayan insanın yeterlilik tersine çevrimi",
+      "claim": "Odaktaki عَلَقٍ, tutunup bağlı kalma ve gebeliğin başlaması yönleriyle, insanın daha sonra kendini yeterli sanmasıyla karşılaşan bir bağımlılık yapısı kurar.",
+      "mechanism": "96:2:4:1 taşıyıcısındaki bağlı kalma facet'i 80:5'in أَمَّا مَنِ ٱسْتَغْنَىٰ karşıtıyla; gebeliğin tutması facet'i ise 40:67'nin insan oluşumundaki عَلَقَة aşamasıyla temas eder. İki wider temas, başlangıçtaki tutunmayı geride bırakılmış bir evre olmaktan çıkarıp sonraki yeterlik iddiasını ölçen bir oluşum ilişkisi hâline getirir.",
+      "reader_payoff": "Okur, pıhtı veya embriyonik başlangıcı yalnız geçmişte kalmış bir madde olarak değil, insanın kendi kendine yeterlik iddiasını geriye dönük olarak görünür kılan bir bağlılık ilişkisi olarak algılar.",
+      "containment": "Odak ayet hâlâ insanın عَلَقٍ içinden yaratıldığını bildirir; wider yeterlik karşıtı bu bildirimin yerine geçmez. Burada bağımlılık yapısı korunur, fakat bütün insan davranışları veya 96:7'nin tam sahnesi ayrı bir lexical meaning diye kurulmaz.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": ["legacy_unbound", "trusted"],
+        "reason": "Trusted cross-run finding exact focus branches ile uyuşur ve legacy reader/HFT core'u aynı tersine dönüşü destekler; wider connection target'larında hedef morfolojisi bulunmadığı ve HFT summary'si unanchored olduğu için sonuç qualified tutulur."
+      },
+      "support_ids": ["sup_c8d6cdd4f6bc8dea95fd", "sup_f27ffca95d184c9aa7c2", "sup_8feed6a04e83625cfd5a"],
+      "branch_activations": [
+        {
+          "branch_ref": "root_001039/B001",
+          "facet_id": "F001",
+          "branch_gloss": "takılma ve bağlı kalma",
+          "facet_statement": "Bir nesne başka bir nesneye takılır, asılır veya ondan ayrılmayacak biçimde tutunur.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["96:2:4:1"],
+          "trigger_refs": ["conn_363cc7bc3286ec94a516"],
+          "focus_return_refs": ["96:2:4"],
+          "carrier": "عَلَقٍ taşıyıcısının bir şeye tutunup ondan ayrılmama yönü.",
+          "independent_trigger": "80:5 bağlantısındaki أَمَّا مَنِ ٱسْتَغْنَىٰ ifadesi, insanın kendini yeterli görmesi karşıtlığını exact wider yüzeyde verir.",
+          "activation": "Wider yeterlik karşıtı, عَلَقٍ içindeki bağlı kalma carrier'ına temas ederek insanın başlangıçtaki bağımlılığını sonraki özerklik iddiasıyla aynı okuma hareketine bağlar.",
+          "resulting_reading": "Tutunma, insanın kendini yeterli sanmasını sürekli sınayan bağımlılık yapısı olarak görünür.",
+          "boundary": "Bu activation fiziksel ve oluşumsal bağlılığı korur; focus'a bütün bir ahlâkî bağımlılık öğretisi veya 80:5'in tamamı yüklenmez."
+        },
+        {
+          "branch_ref": "root_001039/B009",
+          "facet_id": "F001",
+          "branch_gloss": "döllenmenin tutup gebeliğin başlaması",
+          "facet_statement": "Döllenme dişide tutar ve gebelik başlar.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["96:2:4:1"],
+          "trigger_refs": ["conn_304e5a8bd27b820a6524"],
+          "focus_return_refs": ["96:2:4"],
+          "carrier": "عَلَقٍ taşıyıcısının tutmuş döllenme ve başlayan gebelik yönü.",
+          "independent_trigger": "40:67'nin exact Arabic yüzeyi insan oluşumunu نُّطْفَة ve ardından عَلَقَة aşamalarından geçirerek ilerleyen bir oluşum dizisi kurar.",
+          "activation": "Bu wider oluşum dizisi, odaktaki عَلَقٍ'i yalnız pıhtı maddesi değil, insanın bağımlı biçimde başlamasını taşıyan tutunma eşiği olarak temaslandırır.",
+          "resulting_reading": "İnsan oluşumunun başlangıcı, sonradan kazanılmış yeterlikten önce gelen tutunmuş bir başlangıç olarak kalır.",
+          "boundary": "40:67'nin sonraki yaş evreleri focus ayetine taşınmaz; yalnız عَلَقٍ'in tutunma ve başlangıç ilişkisini tetikler."
+        }
+      ],
+      "connection_refs": ["conn_363cc7bc3286ec94a516", "conn_304e5a8bd27b820a6524"],
+      "context_refs": ["40:67", "80:5"],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:measured-dependent-formation",
+      "origin_candidate_id": "cand_014d9a70c10e0b98ad97",
+      "represented_candidate_ids": ["cand_9a87243d0131fb674c51"],
+      "title": "Yapışık maddeden ölçülü görünür oluşuma geçiş",
+      "claim": "خَلَقَ ile عَلَقٍ birlikte, insanı yapışık ve pıhtılaşmış bir maddeden ölçüsü ve dış biçimi belirginleşen görünür bir varlığa geçen oluşum içinde gösterir.",
+      "mechanism": "ٱلْإِنسَٰنَ taşıyıcısı 46:18'de insan ile görünmeyen varlıkların birlikte anıldığı wider sınıf temasına; خَلَقَ taşıyıcısı 80:19'da kaynak ile ölçülmüş yaratılışın ve 82:7'de yaratma, biçimlendirme ve dengelemenin yan yana gelmesine; عَلَقٍ taşıyıcısı 40:67'deki عَلَقَة oluşum aşamasına döner. Bu contacts, maddî başlangıç ile ölçülü görünür oluşumu tek bir oluşum hareketinde açıklar.",
+      "reader_payoff": "Okur, yaratmayı yalnızca varlığa getiren tek an olarak değil, insanın pıhtılaşmış başlangıcını belirgin ve ölçülü bir dış varlığa taşıyan düzenleme olarak görür.",
+      "containment": "İnsan adı yine insan türünü, خَلَقَ yaratma eylemini ve عَلَقٍ odaktaki kaynak maddesini bildirir. Wider ayatlar focus'a ayrı bir biyoloji dizisi veya tamamlanmış bedenin bütün ayrıntılarını taşımaz; yalnız bu üç carrier'ın oluşum temasını görünür kılar.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": ["legacy_unbound", "trusted"],
+        "reason": "Trusted cross-run formation finding ile legacy wide walk aynı ölçülü oluşum hareketini verir. Connection hedeflerinde hedef morfolojisi bulunmadığı ve human-visibility contact'ı daha dolaylı olduğu için finding qualified statüdedir."
+      },
+      "support_ids": ["sup_2e92d5c5c6935124e92c", "sup_1217bd5011c0df14e9f0"],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000059/B001",
+          "facet_id": "F001",
+          "branch_gloss": "insan türü ve bu türden bir kişi",
+          "facet_statement": "İnsan türünü, insanların oluşturduğu topluluğu veya bu türün tek bir üyesini görünmeyen varlıklar sınıfının karşısında adlandırır.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["96:2:2:2"],
+          "trigger_refs": ["conn_fce046405c9d551342ec"],
+          "focus_return_refs": ["96:2:2"],
+          "carrier": "ٱلْإِنسَٰنَ taşıyıcısının insan türünü adlandıran yönü.",
+          "independent_trigger": "46:18'in exact Arabic yüzeyi insanı cinlerle birlikte anarak insan türü ile görünmeyen varlıklar sınıfı arasındaki ayrımı gösterir.",
+          "activation": "Bu wider sınıf karşıtlığı, odaktaki insan adını yalnız belirsiz bir özne olmaktan çıkarıp görünür insan türünün adlandırılması olarak temaslandırır.",
+          "resulting_reading": "Pıhtılaşmış kaynaktan ortaya çıkan şey, soyut bir insan fikri değil, görünür insan türünün belirgin varlığıdır.",
+          "boundary": "Görünürlük burada adlandırma gerekçesi ve sınıf karşıtlığıdır; root_000059/B002'nin algı dalı veya başka bir görünür beden branch'i bu activation'a eklenmez."
+        },
+        {
+          "branch_ref": "root_000434/B001",
+          "facet_id": "F001",
+          "branch_gloss": "ölçüp sınırlarını belirleme",
+          "facet_statement": "Nesnenin ölçüsü ve sınırları yapılacak işten önce belirlenir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["96:2:1:1"],
+          "trigger_refs": ["conn_6653876b49544b4a6646"],
+          "focus_return_refs": ["96:2:1"],
+          "carrier": "خَلَقَ taşıyıcısının ölçülü ve sınırları belirlenmiş varlığa getirme yönü.",
+          "independent_trigger": "80:19'un exact Arabic yüzeyi مِن نُّطْفَةٍ خَلَقَهُۥ فَقَدَّرَهُۥ diyerek kaynak ile yaratmayı ve ölçülendirmeyi birlikte gösterir.",
+          "activation": "Kaynak ve ölçü fiilinin wider birlikte görünmesi, odaktaki yaratma eylemine sınırları belirlenmiş bir oluşum düzeni temasını verir.",
+          "resulting_reading": "Yaratma, insanı ölçüsüz bir başlangıçtan belirlenmiş bir biçim ve sınır içinde ortaya çıkarma olarak da duyulur.",
+          "boundary": "Ölçme facet'i eylemden önce sınır belirleme yönünü taşır; 80:19'un bütün oluşum aşamaları focus fiiline aktarılmaz."
+        },
+        {
+          "branch_ref": "root_000434/B003",
+          "facet_id": "F001",
+          "branch_gloss": "tam ve dengeli dış biçim",
+          "facet_statement": "Dış biçim tamamlanmış ve gözle seçilebilir durumdadır.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["96:2:1:1"],
+          "trigger_refs": ["conn_0d1f658533da4f41a418"],
+          "focus_return_refs": ["96:2:1"],
+          "carrier": "خَلَقَ taşıyıcısının ortaya çıkan varlığı tamamlanmış dış biçim yönünde duyurma pressure'ı.",
+          "independent_trigger": "82:7'nin exact Arabic yüzeyi insanın yaratılması, biçimlendirilmesi ve dengelenmesini ardışık biçimde verir.",
+          "activation": "Wider biçimlendirme ve dengeleme contact'ı, خَلَقَ eyleminin sonucunu yalnız var olmak değil, gözle seçilen dengeli dış biçime ulaşmak olarak temaslandırır.",
+          "resulting_reading": "Odaktaki insan, yapışık kaynaktan ölçülü ve seçilebilir bir dış varlığa geçen oluşumun sonucu olur.",
+          "boundary": "Bu activation dış biçimle sınırlıdır; iç karakter, güzellik hükmü veya 82:7'nin bütün teolojik çerçevesi focus'a taşınmaz."
+        },
+        {
+          "branch_ref": "root_001039/B003",
+          "facet_id": "F001",
+          "branch_gloss": "pıhtılaşmış kan ve kan emici su canlısı",
+          "facet_statement": "Koyulaşmış veya pıhtılaşmış kan ile ondan ayrılan parça adlandırılır.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["96:2:4:1"],
+          "trigger_refs": ["conn_304e5a8bd27b820a6524"],
+          "focus_return_refs": ["96:2:4"],
+          "carrier": "عَلَقٍ taşıyıcısının koyulaşmış ve pıhtılaşmış kan maddesi yönü.",
+          "independent_trigger": "40:67'nin exact Arabic yüzeyi insan oluşumunda نُّطْفَة sonrasındaki عَلَقَة aşamasını açıkça yerleştirir.",
+          "activation": "Bu wider developmental contact, odaktaki عَلَقٍ'i insanın oluşum zincirindeki yoğunlaşmış ve tutunmuş başlangıç maddesi olarak belirginleştirir.",
+          "resulting_reading": "İnsanın görünür biçimi, küçük ve pıhtılaşmış bir maddî başlangıcın devamında ortaya çıkan ölçülü sonuç olarak okunur.",
+          "boundary": "Pıhtılaşmış kan facet'i kullanılır; kan emici canlı, boğaza yapışma veya başka bodily details focus'a aktarılmaz."
+        }
+      ],
+      "connection_refs": ["conn_fce046405c9d551342ec", "conn_6653876b49544b4a6646", "conn_0d1f658533da4f41a418", "conn_304e5a8bd27b820a6524"],
+      "context_refs": ["40:67", "46:18", "80:19", "82:7"],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:attachment-to-contention",
+      "origin_candidate_id": "cand_abf5a76247d6b6ccc99c",
+      "represented_candidate_ids": [],
+      "title": "Bağlı başlangıçtan yapışkan çekişmeye geçiş",
+      "claim": "عَلَقٍ, fiziksel tutunma görüntüsünü korurken, wider insan-oluşum ve çekişme temaslarıyla tarafları birbirine bağlayan ısrarlı bir contention yönünü de açar.",
+      "mechanism": "96:2:4:1 taşıyıcısındaki bağlı kalma ve yapışkan çekişme facet'leri, 16:4'te yaratılmış insanın açık çekişmeye dönüşmesi ve 18:54'te insanın sürekli tartışmacı olarak görünmesiyle temas eder. Bu contact, başlangıçtaki tutunmanın yalnız hayat veren bir ilişki değil, insanın ilişkiyi karşı tarafa yapışan bir iddiaya dönüştürebilme ihtimalini de görünür kılar.",
+      "reader_payoff": "Okur, عَلَقٍ kelimesindeki bağlanma imgesinin yalnız embryonic origin olarak kapanmadığını; ilişkiyi sürdüren, sertleşen ve karşı tarafa yapışan bir çekişme biçimine de qualified olarak uzanabildiğini görür.",
+      "containment": "Bu bounded core, physical attachment ile persistent contention arasındaki contact'tır. Focus'a 96:9-10'daki namaz engelleme sahnesi, literal av tuzağı veya tamamlanmış bir coercion programı taşınmaz; bunlar candidate'in excluded extension'larıdır.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": ["trusted"],
+        "reason": "Trusted cross-run source'un daha ileri claim'i grade=reject olarak işaretli olsa da B001-B005 bounded core'u 16:4 ve 18:54 wider contentions ile exact temas kurar. Target morphology supplied olmadığı ve literal trap extension'ı dışarıda bırakıldığı için bulgu qualified'dır."
+      },
+      "support_ids": ["sup_ce8884eb9de9e982412f"],
+      "branch_activations": [
+        {
+          "branch_ref": "root_001039/B001",
+          "facet_id": "F001",
+          "branch_gloss": "takılma ve bağlı kalma",
+          "facet_statement": "Bir nesne başka bir nesneye takılır, asılır veya ondan ayrılmayacak biçimde tutunur.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["96:2:4:1"],
+          "trigger_refs": ["conn_834702bbc6e4849f62a0"],
+          "focus_return_refs": ["96:2:4"],
+          "carrier": "عَلَقٍ taşıyıcısının başka bir şeye takılıp ayrılmama yönü.",
+          "independent_trigger": "16:4'ün exact Arabic yüzeyi insanın yaratılmasını hemen ardından açık bir çekişme olan خَصِيمٍ مُّبِينٍ ile yan yana verir.",
+          "activation": "Wider creation-to-contention contact'ı, odaktaki physical binding carrier'ına ilişkinin karşı tarafa yapışıp çatışma olarak sürmesi yönünde bir pressure verir.",
+          "resulting_reading": "Tutunma, hayatın başladığı maddî bağdan ilişkiyi sertçe sürdüren insanî bağlanmaya kadar bounded bir çizgi açar.",
+          "boundary": "Bu carrier literal trap, prayer obstruction veya bütün bir social control sahnesi değildir; yalnız bağlanma ile contention arasındaki wider contact korunur."
+        },
+        {
+          "branch_ref": "root_001039/B005",
+          "facet_id": "F001",
+          "branch_gloss": "yapışkan ve ısrarlı çekişme",
+          "facet_statement": "Taraflar bir iddia veya dava nedeniyle birbirine bağlanan sürekli bir çekişmeye girer.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["96:2:4:1"],
+          "trigger_refs": ["conn_834702bbc6e4849f62a0", "conn_b2d4df07b9c6dcdff913"],
+          "focus_return_refs": ["96:2:4"],
+          "carrier": "عَلَقٍ taşıyıcısının tarafları birbirine bağlayan ısrarlı çekişme yönü.",
+          "independent_trigger": "16:4 insanın oluşumundan sonra açık çekişmeyi, 18:54 ise insanın çok tartışmacı oluşunu exact wider yüzeyde verir.",
+          "activation": "İki wider contention contact'ı, عَلَقٍ içindeki yapışma pressure'ını sıradan bir bağ değil, iddia ve karşı tarafla sürüp giden bir uyuşmazlık ilişkisi olarak temaslandırır.",
+          "resulting_reading": "Odaktaki kaynak adı, insanın bağ kurma gücünü karşı tarafa yapışan bir iddiaya dönüştürme ihtimalini de taşır.",
+          "boundary": "Çekişme facet'i korunur; av tuzağı B011, namaz kılanı engelleme ve sonraki ayatların özel faili bu activation'ın sonucu olarak iddia edilmez."
+        }
+      ],
+      "connection_refs": ["conn_834702bbc6e4849f62a0", "conn_b2d4df07b9c6dcdff913"],
+      "context_refs": ["16:4", "18:54"],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:visible-emergence-from-attachment",
+      "origin_candidate_id": "cand_cdfecf831e2d8222b8c2",
+      "represented_candidate_ids": [],
+      "title": "Görünür insanın bağlı bir başlangıçtan doğması",
+      "claim": "ٱلْإِنسَٰنَ, görünür insan türünü adlandırırken, خَلَقَ ve عَلَقٍ ile birlikte gizli ve bağlı bir maddî başlangıçtan ortaya çıkan varlık olarak da görünür.",
+      "mechanism": "İnsan carrier'ı 46:18'de insan-cin sınıf karşıtlığına, خَلَقَ carrier'ı 19:67'de insanın önce anılmayan bir durumdan yaratılmasına, عَلَقٍ'in bağlılık ve pıhtı facet'leri ise 40:67'deki oluşum dizisine döner. Bu wider contacts, focus'taki insanı bağımsızca duran bir özne gibi değil, tutunmuş bir başlangıçtan görünür hâle gelen oluşum sonucu olarak temaslandırır.",
+      "reader_payoff": "Okur, insan kelimesinin görünür bir türü adlandırdığını korurken, bu görünürlüğün arkasında pıhtılaşmış ve tutunmuş bir başlangıcın bulunduğunu tek bir oluşum hareketi içinde algılar.",
+      "containment": "Bu, reader-walk'in abductive visible-emergence core'udur; 96:2'nin ordinary creation reading'inin yerine geçmez. Kayıtlı olmayan غ ن ي citation'ı ve yaşamı sürdürecek az besin branch'i bu bulguya dahil edilmez.",
+      "epistemic": {
+        "status": "exploratory",
+        "source_trust": ["legacy_unbound"],
+        "reason": "Reader-walk source legacy_unbound'dur ve görünürlükten bağımlı oluşuma geçişi abductive olarak yazar. Wider connection rows exact Arabic yüzeyi verirken target morphology sağlamadığı için bu bounded synthesis exploratory tutulur."
+      },
+      "support_ids": ["sup_ab966513eb411e53ac95"],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000059/B001",
+          "facet_id": "F001",
+          "branch_gloss": "insan türü ve bu türden bir kişi",
+          "facet_statement": "İnsan türünü, insanların oluşturduğu topluluğu veya bu türün tek bir üyesini görünmeyen varlıklar sınıfının karşısında adlandırır.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["96:2:2:2"],
+          "trigger_refs": ["conn_fce046405c9d551342ec"],
+          "focus_return_refs": ["96:2:2"],
+          "carrier": "ٱلْإِنسَٰنَ taşıyıcısının görünür insan türünü ve bu türün üyesini adlandıran yönü.",
+          "independent_trigger": "46:18'in exact Arabic yüzeyi insanı cinlerle birlikte sınıflandırarak görünür insan ile görünmeyen varlıklar karşıtlığını sağlar.",
+          "activation": "Bu sınıf karşıtlığı, odaktaki insan carrier'ının görünür bir varlık olarak ortaya çıkma yönünü, yalnız genel bir kişi adından daha belirgin kılar.",
+          "resulting_reading": "İnsan, görünür oluşu sonradan kazanılmış bir görünüş değil, görünmeyen karşıtının önünde adlandırılan varlık olarak duyulur.",
+          "boundary": "Görünürlük dalın adlandırma gerekçesi olarak kalır; duyusal fark etme B002 veya göz görüntüsü B005 bu activation'a eklenmez."
+        },
+        {
+          "branch_ref": "root_000434/B002",
+          "facet_id": "F001",
+          "branch_gloss": "var etme ve ortaya çıkarma",
+          "facet_statement": "Bir şey ortaya çıkarılır ve varlık kazanır.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["96:2:1:1"],
+          "trigger_refs": ["conn_549c072fd23789126fa4"],
+          "focus_return_refs": ["96:2:1"],
+          "carrier": "خَلَقَ taşıyıcısının insanı varlık kazandırarak ortaya çıkarma yönü.",
+          "independent_trigger": "19:67'nin exact Arabic yüzeyi insanı önce anılmayan bir durumdan yaratılmış olarak sorar ve creation-as-emergence contact'ını verir.",
+          "activation": "Wider önce yokluk/önce anılmama ile yaratılma karşıtlığı, focus fiilini yalnız sonuç bildiren bir form değil, görünür varlığı ortaya çıkaran hareket olarak temaslandırır.",
+          "resulting_reading": "İnsan, gizli ve tutunmuş kaynaktan görünür varlık kazanarak ortaya çıkan oluşum olarak belirir.",
+          "boundary": "Bu branch var etme çekirdeğiyle sınırlıdır; 19:67'nin bütün eskatolojik veya ontolojik çerçevesi focus'a taşınmaz."
+        },
+        {
+          "branch_ref": "root_001039/B001",
+          "facet_id": "F001",
+          "branch_gloss": "takılma ve bağlı kalma",
+          "facet_statement": "Bir nesne başka bir nesneye takılır, asılır veya ondan ayrılmayacak biçimde tutunur.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["96:2:4:1"],
+          "trigger_refs": ["conn_304e5a8bd27b820a6524"],
+          "focus_return_refs": ["96:2:4"],
+          "carrier": "عَلَقٍ taşıyıcısının başka bir şeye tutunup bağlı kalma yönü.",
+          "independent_trigger": "40:67'nin exact formation sequence'i insanı نُّطْفَة ve عَلَقَة aşamalarından geçirerek bağlı bir origin contact'ı sağlar.",
+          "activation": "Bu wider developmental carrier, odaktaki عَلَقٍ'in bağlı başlangıç olarak insanın ortaya çıkışına katıldığını görünür kılar.",
+          "resulting_reading": "Görünür insanın başlangıcı, başka bir şeye tutunmuş ve ondan ayrılmadan gelişen bir oluşumdur.",
+          "boundary": "Tutunma physical/embryonic pressure olarak kalır; social claim, trap veya future self-sufficiency bu activation'a eklenmez."
+        },
+        {
+          "branch_ref": "root_001039/B003",
+          "facet_id": "F001",
+          "branch_gloss": "pıhtılaşmış kan ve kan emici su canlısı",
+          "facet_statement": "Koyulaşmış veya pıhtılaşmış kan ile ondan ayrılan parça adlandırılır.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["96:2:4:1"],
+          "trigger_refs": ["conn_304e5a8bd27b820a6524"],
+          "focus_return_refs": ["96:2:4"],
+          "carrier": "عَلَقٍ taşıyıcısının koyulaşmış veya pıhtılaşmış kan parçası yönü.",
+          "independent_trigger": "40:67'nin exact Arabic yüzeyi عَلَقَة'yı insan oluşumundaki açık bir aşama olarak yerleştirir.",
+          "activation": "Wider stage contact'ı, pıhtılaşmış maddeyi görünür insanın arkasında kalan değil onu başlatan küçük maddî origin olarak temaslandırır.",
+          "resulting_reading": "İnsan görünürlüğü, pıhtılaşmış ve tutunmuş bir maddeden ortaya çıkma hareketi içinde belirir.",
+          "boundary": "Pıhtılaşmış kan facet'i korunur; kan emici canlı, boğaz ve diğer associated-use ayrıntıları focus'a taşınmaz."
+        },
+        {
+          "branch_ref": "root_001039/B009",
+          "facet_id": "F001",
+          "branch_gloss": "döllenmenin tutup gebeliğin başlaması",
+          "facet_statement": "Döllenme dişide tutar ve gebelik başlar.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["96:2:4:1"],
+          "trigger_refs": ["conn_304e5a8bd27b820a6524"],
+          "focus_return_refs": ["96:2:4"],
+          "carrier": "عَلَقٍ taşıyıcısının tutmuş döllenme ve gebeliğin başlaması yönü.",
+          "independent_trigger": "40:67'nin exact formation sequence'i عَلَقَة'yı insan oluşumunun erken, bağımlı aşaması olarak gösterir.",
+          "activation": "Bu wider developmental contact, focus'taki source noun'u görünür insanın ortaya çıkmasından önce tutunmuş bir başlangıç olarak yeniden temaslandırır.",
+          "resulting_reading": "İnsan türü, görünür hâle gelmeden önce tutunmuş bir başlangıçtan gelişen varlık olarak belirir.",
+          "boundary": "Gebeliğin başlaması yönü korunur; 40:67'nin çocukluk, olgunluk ve yaşlılık aşamaları bu focus'a yüklenmez."
+        }
+      ],
+      "connection_refs": ["conn_fce046405c9d551342ec", "conn_549c072fd23789126fa4", "conn_304e5a8bd27b820a6524"],
+      "context_refs": ["19:67", "40:67", "46:18"],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:perceiving-human",
+      "origin_candidate_id": "cand_f84e61fe11cf8e71b3cc",
+      "represented_candidate_ids": [],
+      "title": "Algılayan insanın kendine dönen bakışı",
+      "claim": "ٱلْإِنسَٰنَ, insan türünü adlandıran ordinary yüzünün yanında, wider algı ve iç farkındalık temaslarıyla kendi algısını kendine döndürebilen ve bu dönüşte kendini yanlış mutlaklaştırabilen özne olarak da duyulur.",
+      "mechanism": "96:2:2:2 carrier'ındaki insan adı, 76:2'nin insanı işiten ve gören kılması ve 50:16'nın yaratılmış insan ile içteki fısıltıyı birlikte vermesiyle temas eder. Bu independent perception/awareness triggers, okur yürüyüşündeki 96:5-7 reflexive self-judgment önerisinin B002 görüp fark etme core'u üzerinden focus'a geri dönmesini sağlar.",
+      "reader_payoff": "Okur, insan adını yalnız algılanan bir tür adı olarak değil, dünyayı fark eden ve fark edişini kendine çevirdiğinde kendi görüntüsünü bütün gerçeklik sanma riski taşıyan algılayıcı bir varlık olarak da görür.",
+      "containment": "Bu exploratory reading B002'nin görüp fark etme facet'ine bağlıdır ve ordinary insan anlamını korur. Ayrı B005 gözbebeği yansıması bu bulguya aktive edilmez; self-misreading, supplied reader inference olarak kalır ve focus'un zorunlu sözlük anlamı sayılmaz.",
+      "epistemic": {
+        "status": "exploratory",
+        "source_trust": ["legacy_unbound"],
+        "reason": "Wider reader support B002 perception claim'ini self-misreading'e bağlar, ancak source legacy_unbound'dur. 76:2 ve 50:16 exact Arabic connection surfaces sağlar; target morphology ve eye-image carrier'ı supplied olmadığı için synthesis exploratory'dir."
+      },
+      "support_ids": ["sup_0fd210977a3a979b93a4"],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000059/B002",
+          "facet_id": "F001",
+          "branch_gloss": "görerek fark etme; bağlama göre işitme, sezme ve bakıp araştırma",
+          "facet_statement": "Bir şeyi gözle görerek fark etmeyi veya seçmeyi anlatır.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["96:2:2:2"],
+          "trigger_refs": ["conn_554926ab1c2453950457", "conn_6229ae875c75208ec684"],
+          "focus_return_refs": ["96:2:2"],
+          "carrier": "ٱلْإِنسَٰنَ taşıyıcısının görüp fark eden insan yönü.",
+          "independent_trigger": "76:2'nin exact Arabic yüzeyi insanı işiten ve gören kılar; 50:16 ise yaratılmış insanı içteki fısıltının farkında olan bir bilinç çevresine yerleştirir.",
+          "activation": "Wider sight and inward-awareness contacts, insan carrier'ını yalnız dışarıdan adlandırılan tür olmaktan çıkarıp algısı kendisine geri dönebilen bir özne olarak temaslandırır.",
+          "resulting_reading": "İnsan, gördüğünü fark eden ve bu fark edişi kendine çevirdiğinde kendi yeterliliğini bütünü sanabilen algılayıcı varlık olarak görünür.",
+          "boundary": "B002'nin perception core'u korunur; B005 pupil-image branch'i, genel eye organı veya self-misreading'in kesin bir lexical meaning olduğu iddia edilmez."
+        }
+      ],
+      "connection_refs": ["conn_554926ab1c2453950457", "conn_6229ae875c75208ec684"],
+      "context_refs": ["50:16", "76:2"],
+      "semantic_obligation_refs": []
+    }
+  ],
+  "friction_notes": [
+    "Packet'te focus_word_alignment için çözülmemiş birim yoktur; selected_context_units boştur ve global carrier/trigger inişleri supplied connection target surfaces üzerinden kurulmuştur.",
+    "Connection kayıtları exact hedef Arapçasını sağlar, fakat hedef morfolojisi ve bağımsız lexical analysis sağlamaz. Bu nedenle wider bağlantıların source-trust yerine geçmeyen qualification'ı findings epistemic alanlarında görünür tutulmuştur.",
+    "Dokuz HFT kaydı görünürdür, ancak anchor_evidence coverage sıfırdır ve hiçbir kayıtta exact context ayah, word index, root, attributed role ve focus-return trace yoktur. Yalnız exact semantic duplicate olan self-sufficiency summary'si bağımsız grounded finding altında represented edilmiştir; diğer sekiz HFT summary'si ayrı finding olarak reddedilmiştir.",
+    "Perçem, gözbebeği ve trap yönündeki same-surah veya focus-only bağlantılar global wider trigger eşiğini karşılamadığı için lane-bound olarak dışarıda bırakılmıştır; bu karar claims'in başka bir lane'de imkânsız olduğunu söylemez.",
+    "Candidate inventory dışındaki focus branch'leri için candidate-linked support ile independent wider trigger birlikte supplied olmadığından ek bir uncandidate activation oluşturulmamıştır."
+  ]
+}

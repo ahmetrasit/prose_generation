@@ -1,0 +1,191 @@
+# V5 reading invitation — 89:26
+
+You are a fresh reading-invitation writer. Read the complete editorial prose
+before writing. It is your sole semantic source.
+
+Write two to four paragraphs of fluent, contemporary Turkish that reveal a
+surprising reading by following one or two main channels of resonance in the
+ayah. A channel is a connected background of meanings, images, actions, or
+relations through which the ayah can be heard and understood differently.
+Several editorial findings may together develop one channel. Summarize that
+connected movement and its consequence for the ayah's main meaning, rather
+than compressing findings individually. Give the reading's substance now;
+the invitation comes from understanding it, not from a promise of hidden depth.
+
+Before drafting, read the entire editorial prose and silently select the one
+or two channels with the strongest interpretive consequence and enough
+grounding to explain clearly. Favor channels that expand or shift what the
+ayah says, the relation it establishes, or what is at stake in its action or
+image. One fully developed channel is sufficient; add a second only when it
+offers a distinct consequential reading that can be explained within the
+invitation. No finding, channel, or major shift has an individual coverage
+claim. Unselected material may remain entirely in the full commentary.
+
+A channel may develop through grammar, sound, dialogue, a material process,
+time, imagery, or a conceptual relation. Resonance is not limited to acoustic
+effects, and an unusual image alone does not establish a channel. Use only
+connections the editorial prose actually develops. If it supplies no such
+channel, explain its strongest grounded reading without inventing connections
+or surprise.
+
+Begin inside the ayah's own words, images, actions, or relations and reveal a
+selected distinctive reading in the first paragraph. Keep the plain meaning
+reachable with only the orientation needed to understand the change. Do not
+spend an opening paragraph on routine explanation or front-load context about
+the surah, the ayah's position, or the commentary project.
+
+For each selected channel, begin with the expression that opens it, unfold the
+connected background, and show how the ayah reads or sounds against that
+background. Let a detail lead into the next through an intelligible relation
+or process, so the reader experiences the emerging reading. This is a movement
+of thought, not a mandatory sentence pattern or one paragraph per finding.
+Let the reader identify the expression being interpreted,
+where any nonordinary detail comes from, and what that detail changes in the
+reading. Briefly identify the word-family use, restricted form, collocation, or
+context that supplies an essential added detail, and preserve the concrete
+operation that makes the image work. Keep the ordinary reading and necessary
+qualification clear within this explanation; do not repeat them as a fixed
+formula. Preserve the particular object, process, or relation that makes this
+reading distinctive, and state its interpretive consequence for the ayah as a
+whole. Make intelligible what the familiar reading leaves less visible and
+what the expanded or shifted reading now lets the reader understand. Preserve
+the editorial's force: an exploratory possibility remains possible, while a
+developed shift must not be softened into a decorative association or a
+reassurance that everything means the same thing. A concrete
+account of how something is carried, transformed, lost, or restored must not
+shrink to a general statement about care, guidance, dependence, or goodness.
+Keep the details needed to make the selected channel work; omit side findings
+and shorten routine setup. If a channel cannot be explained faithfully from
+the editorial prose, choose another grounded channel or reading.
+
+When a non-focus ayah supplies a contribution used in the invitation, keep its
+reference from the editorial prose beside that contribution.
+
+Do not turn the invitation into a miniature inventory of the commentary's
+conclusions, or flatten distinct channels into a broad theme to include more
+material. Do not repair, extend, or supplement the editorial prose from memory
+or outside knowledge.
+
+Omit technical apparatus. Retain any qualification, source distinction, live
+alternative, or boundary whose absence would change the force or meaning of a
+chosen reading. Express it naturally beside the image or relation it qualifies.
+Favor positive explanations of the relation between layers: what remains in
+the foreground and what the resonance makes audible in the background. State
+how that background reinforces, expands, or shifts the understanding of the
+main meaning, with the source and degree of certainty clear. Reserve explicit
+exclusions for concrete ambiguities or live counter-evidence that need them.
+Repeated "this is not X" endings make a reading sound withdrawn; express the
+substantive qualification through what the reading does contribute wherever
+possible. Use varied, natural language rather than a repeated "second layer"
+formula, and preserve the force of expansions and shifts.
+Do not name branches, candidates, findings, scopes, evidence categories,
+ledgers, or workflow stages, or label the prose as numbered channels. Do not
+list findings serially.
+
+Use the established `{ar:..., tr:..., gloss:...}` syntax, consistent
+Turkish-readable transliteration, and short ordinary glosses. Keep Arabic
+anchors beside the explanations they ground. Within a paragraph, continue with
+the Turkish meaning where clear; provide the necessary local tag when a later
+paragraph interprets the carrier anew. Do not place Arabic script outside a
+valid tag.
+
+Build transitions within a channel through its shared object, action, or
+relation. If two channels are selected, they may occupy separate paragraphs;
+do not invent a link between them. Do not praise the commentary's quality,
+promise what the reader will find, manufacture suspense, recap at the end, or
+add a call to action. End on an image, relation, action, or tension already
+established by the selected reading.
+
+Before finishing, compare the invitation with the entire editorial prose:
+does the chosen channel reveal a consequential reading, or could the text have
+been written from the ordinary translation and a modest explanation alone?
+When the editorial supports a surprising channel, the latter fails this task.
+Can the reader follow the opening expression into a connected background and
+understand how that background expands or shifts the ayah's main meaning?
+Check the selected connections against their editorial explanation: can the
+reader tell where the nonordinary details come from, with the necessary
+qualifications intact? Repair generic explanation, isolated curiosities, or a
+compressed findings list by developing the selected channel. Do not add
+omitted channels merely for coverage. Do not output this check.
+
+Write only the invitation text to:
+
+`_commentary/v5/editorial/s089-regular-20260912/s089/89_26/89_26.invitation.tr.md`
+
+Do not add a heading, wrapper label, index, ledger, evidence file, or any other
+artifact. Do not modify the editorial prose.
+
+After writing the invitation, run:
+
+```bash
+python3 _commentary/v5/validate_prose.py _commentary/v5/editorial/s089-regular-20260912/s089/89_26/89_26.invitation.tr.md
+```
+
+If validation fails, repair only the reported mechanical file-contract issues
+and rerun it, for at most two repair cycles. Report the final validator result
+in your response.
+
+<editorial_prose>
+## Bağlama standardı
+
+Bu âyet, 89:25'teki eşsiz eziyet hükmünün hemen ardından eşsiz bağlama hükmünü getirir: Hiç kimse de onun bağlayışı gibi bağlayamaz. Başındaki {ar:وَ, tr:wa, gloss:ve} önceki olumsuz hükmü yeni bağlama eylemine taşır ve 89:25'teki cezanın tamamlayıcı devamını açar. Ardından gelen {ar:لَا, tr:lā, gloss:olumsuzluk} ile birlikte wa-lā kısa ve sıkı bir ses vuruşu oluşturur. Bu vuruş, önceki dışlamayı yeniden duyurarak geçişi sıkılaştırır; ses katkısı yerel kalırken iki unsurun gramer görevi ayrıdır: wa devamı taşır, lā yeni yüklemi olumsuzlar.
+
+Bu olumsuz alanın eylemi {ar:يُوثِقُ, tr:yūthiqu, gloss:sıkıca bağlar} ile açılır. Sözcük, “sağlamdır” diyen durağan bir niteleme değil, bir şeyi fiilen sıkıca bağlayan etkin bir muzari yüklemdir; cümlenin taşıdığı hareketi ve bağlama standardını birlikte kurar. {ar:لَا, tr:lā, gloss:olumsuzluk} bu eylemi, böyle bir bağlamayı gerçekleştirmesi düşünülebilecek her rakip için imkânsızlık olarak kuşatır. Böylece dışlama hem eylemi yapacak kişiye hem de karşılaştırılabilir bağlama ölçüsüne ulaşır. Muzari biçim hükmü geçmişte tamamlanmış tek bir olaya kapatmaz; buradan belirli bir zaman bilgisi veya daha geniş bir öğreti çıkarılmadan hükmün süreklilik basıncı korunur. Yüzeyin başka bir okuyuşunda edilgen bir imkân akla gelebilir; etkin cümle kuruluşu ana grameri taşır.
+
+Fiilin ardından gelen {ar:وَثَاقَهُۥٓ, tr:wathāqahu, gloss:onun bağlama ölçüsü} eylemi ölçülebilir hale getirir. Akuzatif ölçü ilişkisi, bağlamanın hangi tarzda ve hangi yoğunlukta gerçekleştiğini bildirir; bu yüzden bağlanan canlı veya nesne ayrıca adlandırılmadan cümle tamamlanır. Fiil ile isim aynı anlam ailesinin iki yüzünü yan yana getirir: {ar:يُوثِقُ, tr:yūthiqu, gloss:sıkıca bağlar} hareketi başlatır, {ar:وَثَاقَهُۥٓ, tr:wathāqahu, gloss:onun bağlama ölçüsü} aynı ses malzemesini ölçü ve tarz olarak geri getirir. Eylem kendi standardıyla yankılanır ve ses birliği bağlamayı tek bir yoğun merkeze toplar. Bu ölçü, dirençli bir sağlamlık rengi taşır; güven ve sözleşme ise bu fiziksel zemine bağlamsal bir renk olarak eklenir. 47:4'teki insanî bağ sıkılaştırması bu ölçü için bir karşılaştırma basıncı kurar: insan failin eşleyemeyeceği bir bağlama standardı görünür. 2:256'daki sağlam tutunma alanı da aynı sağlamlık basıncını başka yöne çevirir; oradaki kurtarıcı tutunmanın karşısında burada kaçışı kapatan dirençli bağlama belirir. Bu iki temas, wathāqahu'nun fiziksel bağlama sertliğini derinleştirir.
+
+Kelime sırası önce ölçüyü, sonra faili gösterir. {ar:وَثَاقَهُۥٓ, tr:wathāqahu, gloss:onun bağlama ölçüsü}, gecikmiş özne {ar:أَحَدٌۭ, tr:aḥadun, gloss:hiç kimse} gelmeden “hangi bağlama?” sorusunu kurar; “kimse?” cevabı kapanışa bırakılır. İsimdeki üçüncü tekil kişi eki ölçüyü belirli bir sahibin “onun bağlayışı” haline getirir, fakat sahibin hangi gramer yoluyla belirlendiğini tek başına açıklamaz. İlâhî ölçü ile yaşanan kısıtlama ihtimali bu sınır içinde birlikte açık kalır. Tekil soyut isim genel bir pranga kümesi yerine belirli bir bağlama ölçüsünü öne çıkarır; uzayan wathāqahu sesi de son özne gelene kadar duyulur bir eşik kurar ve ölçünün belirli bir standarda bağlandığını hissettirir.
+
+Sonundaki {ar:أَحَدٌۭ, tr:aḥadun, gloss:hiç kimse} etkin kuruluşta gecikmiş nominatif öznedir ve dışlamayı mühürler. {ar:لَا, tr:lā, gloss:olumsuzluk} altındaki belirsiz tekil, bağlama rolünü üstlenebilecek kişi türünü tek tek yoklayan dağıtıcı bir kapsam kurar; olumlu “bir” anlamı burada bu işleve hizmet etmez. Böylece bir kişi, iki kişi veya daha geniş bir fail topluluğu arasında istisna kalmaz. Sözcük belirli bir insan grubuna aitlik ya da grup eki taşımadığı için kapsamı önceden adlandırılmış bir topluluğa kapanmadan bütün kişi adaylarını yoklar; bu kullanım insan dışı fail veya kozmik bir iddia kurmaz. 112:1'deki teklik alanı, özel bir teolojik niteleme kurmadan, lā ile birleşen aḥadun'un rakipsiz dışlama keskinliğini duyurur. 89:25 ve 89:26'nın sonunda yinelenen aḥadun, önce eziyeti sonra bağlamayı aynı kişi dışlamasıyla kapatır.
+
+## İki hükmün kapanışı
+
+Bu kuruluşun bütünü, bir canlıyı veya nesneyi yerinde tutup hareketini sınırlayan maddi bağın rakipsiz ölçüsünü görünür kılar. {ar:لَا, tr:lā, gloss:olumsuzluk} dışlamayı açar, aynı anlam ailesinden gelen {ar:وَثَاقَهُۥٓ, tr:wathāqahu, gloss:onun bağlama ölçüsü} standardı kurar, {ar:أَحَدٌۭ, tr:aḥadun, gloss:hiç kimse} ise hiçbir rakibi bırakmadan cümleyi kapatır. 89:13'teki hüküm dili ve 69:47'de hiç kimsenin engel olamaması, bu bağlanmayı başkasının eşdeğerini kuramayacağı son bir dış sınır olarak yoğunlaştırır. Bu karşılaştırmaların katkısı standardın erişilmezliğini güçlendirmektir; fail, araç ve zamirin sahibi konusunda odak cümlenin açık bıraktığı alan korunur. Aynı yüzey bağın bozulmaya dirençli, tamamlanmış bir kapanış gibi duyulabilir; görünür bir ip veya başka nesne bu ölçünün dışından eklenmez.
+
+89:25 ve 89:26 yan yana okunduğunda aynı olumsuz kalıp iki yaptırım biçimini birbirine değdirir. Önceki cümlenin acı veren cezası, bu cümlede hareketi bulunduğu yerde tutan fiziksel bağlama ile karşılaşır; okur iki âyette acı ile kaçıştan mahrum bırakmayı birlikte işitir. Bu iki işlev ayrı yaptırımlar olarak okunabildiği gibi, iki ismin aynı yaptırımı retorik olarak yoğunlaştırdığı da düşünülebilir. Bağlama anlamı her iki hatta da yerini korur. Böylece komşu iki hüküm kendi ölçülerini birbirine bağlar ve 89:26'nın yerel kapanış kuvvetini artırır.
+
+## İçeriden dışarıya bağ
+
+Bağlama ölçüsünün ilişkisel katkısı, 89:17, 89:18, 89:19 ve 89:20'deki bakım ve mülkiyet sahnesinde adım adım belirir. Koruyucusundan koparılan çocuk, bakım bağının nerede kırıldığını; mirasın yenilip sahiplenilmesi, başkasına geçmesi gereken malın nasıl tüketilerek tutulduğunu; önceki kişiden mirasçıya aktarım ise korunması gereken bağın yönünü gösterir. Sevginin kalbe yapışması bu sahiplenmenin içteki tutunmasını, malın dolulukla birikmesi de aynı sürecin yoğunlaşmasını ekler. {ar:وَثَاقَهُۥٓ, tr:wathāqahu, gloss:onun bağlama ölçüsü} bedeni tutan fiziksel bağın yanında tarafları yükümlü kılan ve uygulanabilir hale gelen güvenceyi de duyurabilir. Bu temas, odakta adı konmayan bağlamayı bozulmuş bakım ve mülkiyet ilişkilerinin geri dönen karşılığı olarak görünür kılar. 89:18'deki yoksulu doyurma çağrısının katkısı sosyal sorumluluğu açmaktır; bu çağrı, odaktaki bağlama işlemi için ayrı bir mekanizma kurmadan aynı sahnenin karşıt ayrıntısını taşır. Fiziksel kısıtlama cümlenin zemini, ilişkisel yankı ise bu zeminin bağlamdan aldığı genişlemedir.
+
+Aynı mal sahnesi (89:19, 89:20), bağlamanın dıştaki sonucunu içeride sıkılaşan bir arzunun gelişimiyle ilişkilendirir. Mala yönelen sevgi kalpte tutunan iç bağı, sevgi alanında yerinde kalma ve hareket edememe arzunun hareketsizleştirici sonucunu, mal çoğalması çevresinde biriken nesneyi, birikim ise tercihi sabitleyen kümülatif basıncı gösterir. {ar:يُوثِقُ, tr:yūthiqu, gloss:sıkıca bağlar} ile {ar:وَثَاقَهُۥٓ, tr:wathāqahu, gloss:onun bağlama ölçüsü} içindeki sağlamlaştırma ve fiziksel bağlama bu ayrıntılara değdiğinde, dış bağ daha önce içeride sıkılaşan tutunmanın görünür tamamlanışı gibi belirir. 89:17, 89:18, 89:19 ve 89:20'deki sorumluluk çizgisi de canlı kalır; bu ihtiyatlı temas arzuyu onun içindeki bir yön olarak gösterir, fiziksel bağlamanın zeminini ve doğrudan kelime anlamını değiştirmez.
+
+Wathāqahu'nun ilişkisel biçimi, fiziksel sabitlemenin karşı kutbunu açar. {ar:وَثَاق, tr:wathāq, gloss:bağlayıcı ve pekiştirilmiş bağ}, kişiyi veya nesneyi yerinde tutan zorlayıcı bağın yanında tarafları güvenceye alınmış bir sözle yükümlü kılan bağı da taşıyabilir. 2:27'de ahdin bozulup bağların kesilmesi, 5:7'de bağlayıcı yükümlülük, 13:20'de ahdin sürdürülmesi ve 31:22'de sağlam kulp olarak seçilen tutunma, ihlal edilmiş güven ile güvenli ilişki arasındaki yolu görünür kılar. Bu temas, fiziksel yaptırımın yanına bozulmuş yükümlülüklerden sonra güvenliği yeniden kuran bir bağ yankısı ekler. Aynı biçim ailesi zorla sabitleme ile tarafların isteyerek taşıdığı ahdi karşılaştırır; 89:26'nın fiziksel bağlaması bu rıza görüntüsüyle birleşir, fakat onun yerini almaz.
+
+Hatırlama ve öne gönderilmiş eylem, bu güvenceyi uygulanabilir bir karşılığa bağlar (89:23, 89:24). {ar:وَثَاقَهُۥٓ, tr:wathāqahu, gloss:onun bağlama ölçüsü} güçlü sözün tarafları yükümlü kılan yönünü taşırken, hatırlanan hak veya belge önceki davranışları kanıtlanabilir hale getirir; öne gönderilmiş eylem onları şimdiye getirir. Bu üç unsur birleştiğinde bağlama, ifadesiz ve rastgele bir kuvvet yerine kayda geçen davranışların karşılık bulduğu ve bir anlaşmanın uygulanabilir hale geldiği an olarak görünür. Hatırlamanın katkısı geçmişi şimdiye taşımaktır; bunun hukukî bir kayıt mı yoksa pişmanlığı harekete geçiren bir hatıra mı olduğu açık kalır. Fiziksel bağlama anlamı, kayıt ve karşılık görüntüsünün içinde de yerini korur.
+
+## Kapanan alan
+
+Yargı sahnesinin 89:21 ve 89:22'de verilen genişliği, bağlamanın tek bir ip veya araca bağlı kalmayan alan kapanışını görünür kılar. Yer dövülüp düzlenerek yere tutunma, ağırlık verme ve saklanma için dayanakları azaltır. Düzenli melek topluluğunun gelişi sahneyi bir ev sahibi gibi doldurur; birleşik ve güçlü duruş, gevşek bir kalabalık yerine tek bir tutucu bütünlük kurar. Sıra sıra hizalanan çizgi karşı duruş veya kaçış için aralık bırakmaz. {ar:وَثَاقَهُۥٓ, tr:wathāqahu, gloss:onun bağlama ölçüsü} içindeki sağlamlaştırma yüzü bu üç işlemi, boşluk bırakmayan bir düzene bağlanan bütün bir alan görüntüsünde toplar. Dövülmüş yer dayanağı azaltır, meleklerin gelişi alanı doldurur, saflar kaçış aralığını kapatır; törensel tanıklık görüntüsü bu fiziksel tutuşla birlikte yerini korur.
+
+Gözetim ve sınır ihlali, bu düzenlenmiş alanı izlenmiş bir taşkınlığın son yakalanmasına bağlar (89:11, 89:12, 89:14). {ar:طَغَوْا, tr:ṭaghaw, gloss:sınırı aştılar} yönlü sınır ihlalini, {ar:فَأَكْثَرُوا فِيهَا الْفَسَادَ, tr:fa-aktharū fīhā l-fasād, gloss:orada bozgunculuğu çoğalttılar} düzensizliğin yayılmasını, {ar:إِنَّ رَبَّكَ لَبِالْمِرْصَادِ, tr:inna rabbaka la-bi-l-mirṣād, gloss:Rabbin gözetlemededir} ise önceden gözetilen sınırı taşır. Bu sıra, {ar:يُوثِقُ, tr:yūthiqu, gloss:sıkıca bağlar} ile {ar:وَثَاقَهُۥٓ, tr:wathāqahu, gloss:onun bağlama ölçüsü} bağlanışını sınırı aşanların göz altında büyüyen güzergâhındaki son yakalama noktası gibi görünür kılar. Gözetim burada taşıyıcı kelimenin yeni anlamı değil, canlıyı veya nesneyi yerinde tutan fiziksel işlemin izlenmiş düzensizliğe verdiği bağlamsal karşılıktır.
+
+Rablik ifadesi (89:14) sahiplik ve egemen yetke rolünü, sonraki dönüşteki {ar:ارْجِعِي إِلَىٰ رَبِّكِ رَاضِيَةً مَرْضِيَّة, tr:irjiʿī ilā rabbiki rāḍiyatan marḍiyyah, gloss:Razı olarak Rabbine dön} (89:28) ise onarım, besleme, tamamlama ve geri dönüş rolünü taşır. Bu iki temas, odaktaki “onun” bağını egemen gözetimle ahitli koruma ufkuna doğru genişletebilir. Bakım ve dönüş çizgisi zamirin sahibini belirlemez; sonraki ruhun da bu zamirle özdeş olduğu sonucu çıkmaz. Böylece ağır yaptırımın sertliği ile aynı sahiplik ilişkisinin gözeten ve koruyan yüzü birlikte açık kalır.
+
+Bağlayıcı söz yüzü dönüş ve bir topluluğun içine girişle birleştiğinde, bağlanmanın kabul ve aidiyetle sürdürülen ilişkisel katkısını gösterir. {ar:وَثَاقَهُۥٓ, tr:wathāqahu, gloss:onun bağlama ölçüsü} yükümlü kılan bağı, {ar:ٱرْجِعِىٓ, tr:irciî, gloss:geri dön} dönülen yönü, {ar:فَٱدْخُلِى فِى عِبَادِى, tr:fedhulî fî ʿibādī, gloss:kullarımın içine gir} ise ilişki alanına kabulü taşır (89:28, 89:29). Bu üç unsur bir araya geldiğinde okur bağlanmayı yalnız kaçışı engelleyen kuvvet olarak değil, dönülen ve içine girilen bir aidiyet düzeni olarak da duyabilir. İlişki kabul edilmiş ve sürdürülen bağ sınırında kalır; evliliğe özgü tamamlanma veya evlilik sözleşmesi için gereken taşıyıcılar bu sahnede verilmez.
+
+Bu aidiyet görüntüsü, fiziksel bağ ile koruyucu içeri almayı aynı mekânsal karşıtlıkta buluşturur. {ar:وَثَاقَهُۥٓ, tr:wathāqahu, gloss:onun bağlama ölçüsü} canlıyı yerinde tutan fiziksel kısıtlamayı, aynı biçimin bağlayıcı anlaşma yüzü ise ilişkiyle aidiyeti taşır. İçeri girmek, dışarı çıkmayı engelleyen tutuşun karşı yönünü; kulluk içindeki sahiplik ve itaat, birini ilişki içinde tutmanın iki farklı biçimini; bahçe ise kapatmanın barınak ve koruyucu örtü işlevini gösterir (89:29, 89:30). Bu katkılar birlikte, zorla sahip olmanın kapattığı yerde kabul edilmiş hizmet ve korunan giriş için başka bir aidiyet yolu açar. Sonraki iyelik ifadeleri ödülü bildiriyor da olabilir; bu ihtimal, koruyucu aidiyet bağlantısının kapsamını sınırlar, fiziksel bağlama zeminini değiştirmez.
+
+Koruyucusundan koparılan çocuk görüntüsü (89:17), wathāqahu'nun güvenilir birine dayanma ve canlıyı hareketten alıkoyma yüzlerini birbirine değdirir. {ar:وَثَاقَهُۥٓ, tr:wathāqahu, gloss:onun bağlama ölçüsü} güvenilir dayanağı da fiziksel bağı da taşıdığı için, desteğin çekilmesi hareketi sürdürecek ilişkinin kaybı olarak görünür. Fiziksel bağlama bu görünmez sosyal sıkışmanın maddi karşılığı haline gelir; okur bağlanmanın hareket ve imkân sağlayan güvenilir ilişkinin yokluğuyla da ilişkilendirilebileceğini fark eder. Bu sosyal-maddi analoji, terk edilmeyi odak kelimesinin doğrudan anlamı yapmadan literal bağlanmayı yerinde tutar.
+
+## Zorun ve rızanın eşiği
+
+Bağlamanın hemen ardından gelen sükûnet (89:27), odaktaki biçimin güvene yerleşen daha yumuşak yüzünü açar. {ar:وَثَاقَهُۥٓ, tr:wathāqahu, gloss:onun bağlama ölçüsü} güvenip dayanma yönünü de taşıdığı için {ar:ٱلْمُطْمَئِنَّةُ, tr:el-mutmainne, gloss:huzura yerleşmiş} nefis bu güven yüzünü bağımsız bir tetikleyici olarak açar. Böylece sonraki huzur tasviri, bağlanmanın güvene yerleşmeyle temas eden yerel anlamını görünür kılar. Sükûnetin katkısı güvene yerleşmedir; ayrıca bir hareket-durma veya rahatlık görüntüsü yüklenmez.
+
+Aynı eşikte iki güvenlik biçimi yan yana durur (89:27, 89:28). {ar:يُوثِقُ, tr:yūthiqu, gloss:sıkıca bağlar} ile {ar:وَثَاقَهُۥٓ, tr:wathāqahu, gloss:onun bağlama ölçüsü} hareketi zorla kapatan sabitlemeyi taşırken, {ar:ٱلْمُطْمَئِنَّةُ, tr:el-mutmainne, gloss:huzura yerleşmiş} gönüllü yerleşmeyi; {ar:ٱرْجِعِىٓ, tr:irciî, gloss:geri dön} ait olunan yere ulaşan yönü; {ar:رَاضِيَةًۭ مَّرْضِيَّةًۭ, tr:râdıyeten merdıyye, gloss:razı olmuş ve razı olunmuş} ise karşılıklı kabulü getirir. İlk biçim hareketi zorla kapatarak güvenliği, sonraki üç unsur ise geri dönüş, yerleşme ve karşılıklı hoşnutlukla kurulan güvenliği gösterir. Hitabın yalnızca keskin bir muhatap değişimi olması da açık kalan bir ihtimaldir; bu iki güvenlik biçimi yan yana durur, birbirine eşitlenmez.
+
+Bu karşıtlığın ardından 89:28, 89:29 ve 89:30'daki dönüş, kullar arasına giriş ve bahçeye giriş yönelmiş hareketi açar. {ar:وَثَاقَهُۥٓ, tr:wathāqahu, gloss:onun bağlama ölçüsü} ise hareketi kapatan kutupta durur. Geri dönmek ait olunan yöne, bir topluluğun içine girmek kabul alanına, bahçeye girmek de korunaklı varışa hareket verir; bu üç yön odaktaki bağın kapattığı alanı somutlaştırır. Böylece bağlanış sonraki karşılıklı kabulden önceki son zorlayıcı durak gibi duyulabilir. Sonraki ruhun odaktaki zamirle özdeşliği açık bir sonuç olarak kalmaz; dönüş ve girişler odak biçiminin yeni sözlük anlamı değil, fiziksel bağın karşısına yerleştirilen ayrı hareketlerdir.
+
+## Hareketin tekleşmesi
+
+Bu yönlü hareketler, cümlenin önüne yerleştirilen iki zaman görüntüsüyle karşılaştırmalı bir basınç kurar (89:1, 89:4). {ar:وَالْفَجْرِ, tr:wa-l-fajr, gloss:şafak} açılmayı ve yarılmayı, {ar:وَاللَّيْلِ إِذَا يَسْرِ, tr:wa-l-layli idhā yasri, gloss:gecenin akışı} süren gece geçişini taşır. Bu iki hareketin ardından {ar:يُوثِقُ, tr:yūthiqu, gloss:sıkıca bağlar} ile {ar:وَثَاقَهُۥٓ, tr:wathāqahu, gloss:onun bağlama ölçüsü} geçişin sonunda hareketi tutan benzersiz bir durak gibi düşünülebilir: açılma ve akıştan sonra bağ, hareketi toplar. Açılışın yalnızca yemin zamanını düzenlediği karşı-okuma canlı kalır; bu bağlantı fiziksel bağlanışın yerine geçmeyen bir bağlamsal yankıdır.
+
+Çift ve tek dizisi (89:3), bu toplanan hareketin tek tek birimlere nasıl dağıldığını düşündürür. {ar:الشَّفْعِ وَالْوَتْرِ, tr:ash-shafʿi wa-l-watr, gloss:çift ve tek} içindeki çift bir araya gelmeyi, tek ise eşsiz ve ayrı durmayı çağrıştırır. Bu karşıtlık {ar:وَثَاقَهُۥٓ, tr:wathāqahu, gloss:onun bağlama ölçüsü} ile buluşunca, birliktelik desteği çekildikten sonra her birimi ayrı ayrı hareketsiz bırakan bir işlem görünür. {ar:أَحَدٌۭ, tr:aḥadun, gloss:hiç kimse} ise hâlâ olumsuzluk altında bütün kişi türünü tüketen öznedir; yalnızlık ve birer birer geliş, bu evrensel gramer kapsamına eklenen ikinci görüntüdür ve özne-nesne ilişkisini değiştirmez. Bu dağıtım, 89:3'teki çift ile teki birlikte anan diziden beslenen keşifsel bir bağlantıdır.
+
+Çift ile tek arasındaki ayrılık, aynı sağlamlaştırma yüzeyine gerilimli bir mekanik görüntü ekleyebilir. {ar:وَتْر, tr:watr, gloss:tek} içindeki tekillik, {ar:يُوثِقُ, tr:yūthiqu, gloss:sıkıca bağlar} ve {ar:وَثَاقَهُۥٓ, tr:wathāqahu, gloss:onun bağlama ölçüsü} içindeki sağlamlaştırmayla buluştuğunda bağ, yay kirişi gibi gerilmiş ve olası hareketi denetim altında tutan bir kuvvet olarak hayal edilebilir. Bu ihtiyatlı analojinin katkısı gerilimdir; odak sözcüğünün olağan fiziksel bağlama anlamı yerinde kalır.
+
+Önceki maddi görüntüler bağlanışı bir karşı-mühendislik düzeni olarak ölçeklendirir (89:5, 89:7, 89:9, 89:10). {ar:هَلْ فِي ذَٰلِكَ قَسَمٌ لِذِي حِجْر, tr:hal fī dhālika qasamun li-dhī ḥijr, gloss:bunda akıl sahibi için yemin var mı} çevreleme ve sınır fikrini; {ar:إِرَمَ ذَاتَ الْعِمَاد, tr:Irama dhāti l-ʿimād, gloss:sütunlu İrem} yük taşıyan sütunları; {ar:جَابُوا الصَّخْرَ بِالْوَاد, tr:jābū aṣ-ṣakhra bi-l-wād, gloss:vadide kayayı yonttular} sert direnci yarıp geçmeyi; {ar:ذِي الْأَوْتَاد, tr:dhī l-awtād, gloss:kazıkların sahibi} ise insanı yere sabitleyen kazıkları taşır. Çevreleme sınırı kapatır, sütun yük taşır, kaya direnci aşar, kazık yere tutturur. Bu dört işlem ayrı ayrı katkılarını verdiğinde, {ar:يُوثِقُ, tr:yūthiqu, gloss:sıkıca bağlar} ile {ar:وَثَاقَهُۥٓ, tr:wathāqahu, gloss:onun bağlama ölçüsü} bunları tek tek kopyalamadan, hepsinin hareketi tutan sonucundan daha üstün bir son tutuş düşündürür. Bu analojinin sınırı da buradadır: mühendislik dili odak sözcüğünün doğrudan tanımı değildir ve eski yapıların her biri odakla özdeşleşmez.
+
+Son derece uzak bir temas, görme ve geçmiş olayların izlenmesi üzerinden kurulur (89:6). {ar:أَلَمْ تَرَ كَيْفَ فَعَلَ رَبُّكَ بِعَاد, tr:alam tara kayfa faʿala rabbuka bi-ʿād, gloss:Rabbin Âd'a ne yaptı görmedin mi} geçmiş vakaları görme ve izleme yüzeyini taşır. Bu yüzey, eşleşmesi belirsiz bir ip-germe çağrışımıyla buluştuğunda geçmiş olayları kanıt çizgisi boyunca sıkıp son bağlanışta bitiren bir hareket düşündürür. Böylece cümledeki bağlama, izlenmiş ve karşılığı şimdiye gelen bir güzergâhın son sıkılaşması gibi görünür. Bu analojinin katkısı geçmişi şimdiye bağlayan sıkılaşmadır; görme fiilinin ve {ar:وَثَاقَهُۥٓ, tr:wathāqahu, gloss:onun bağlama ölçüsü} ifadesinin olağan fiziksel anlamı korunur.
+
+</editorial_prose>

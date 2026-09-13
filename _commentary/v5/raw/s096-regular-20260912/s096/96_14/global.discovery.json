@@ -1,0 +1,519 @@
+{
+  "schema_version": "commentary-v5-scope-discovery-v1",
+  "ayah_ref": "96:14",
+  "lane": "global",
+  "coverage_complete": true,
+  "candidate_decisions": [
+    {
+      "candidate_id": "cand_8e1c45adbc7e07455f11",
+      "decision": "accept",
+      "reason": "Güvenilir cross-run kaydı, 96:14:2'deki bilme ile 96:14:5'teki görmenin, bilinen ilahî görüş karşısında kötülüğün sürdürülmesini sorgulayan iç fren ilişkisini açıkça kuruyor; iki taşıyıcı da bağımsız global bağlantılarla destekleniyor.",
+      "finding_refs": ["global:knowledge-restraint"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_065af85231e1054703ed",
+      "decision": "accept",
+      "reason": "Güvenilir cross-run kaydı, görmenin davranışı ayırt edip faile bağlamasını ve sonraki perçem işaretiyle görünür kılınmasını birlikte taşır; bilme işareti, görme ve gösterme dallarının her biri packet içindeki bağlantılarla aktive edilebilir.",
+      "finding_refs": ["global:marked-accountability"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_5fa895695d14ddf4b99e",
+      "decision": "accept",
+      "reason": "Güvenilir cross-run kaydı, başkasının ibadetini gözeten failin ilahî görüş altında görülen nesneye çevrilmesini ve insan gözetiminin iktidarının tersine dönmesini, karşılıklı görünürlük dalı ile doğrudan ilişkilendiriyor.",
+      "finding_refs": ["global:gaze-reversal"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_54dde6dd391bede68086",
+      "decision": "accept",
+      "reason": "Güvenilir cross-run kaydı, Allah adını tapınılan varlık alanı ve görme yüklemiyle ilişkilendirerek ilahî görüşü soyut bir gözlem değil, engellenen ibadetin yöneldiği varlığın gözetimi olarak kuruyor.",
+      "finding_refs": ["global:worshipped-seer"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_e4dbb2d677b91daa4bc4",
+      "decision": "narrow",
+      "reason": "Legacy reader kaydı, ilahî görüşün insanın kendi görme iddiasını aşarak zinciri kapatması yönünde resolved iki dalı ve bağımsız global bağlantıları taşıyor. Görünür perçem/işaret alt okuması ile özel adın tapınma ilişkisi bu bulgudan çıkarıldı; ilki global:marked-accountability'de, ikincisi global:worshipped-seer'de korunuyor.",
+      "finding_refs": ["global:seeing-chain"],
+      "branch_exclusions": [
+        {
+          "branch_ref": "root_000047/B002",
+          "reason": "Özel adın tapınma ilişkisi bu daraltılmış görme zincirinin zorunlu taşıyıcısı değil; aynı dal global:worshipped-seer bulgusunda bağımsız olarak korunuyor."
+        },
+        {
+          "branch_ref": "root_001040/B002",
+          "reason": "Ayırt edici işaret ve sonraki görünür perçem sonucu bu daraltılmış çekirdeğin dışında; aynı dal global:marked-accountability bulgusunda korunuyor."
+        }
+      ],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_5cd8dbe7957228aa171c",
+      "decision": "represented",
+      "reason": "Sonraki perçemin gizli inkârı görünür kılan işarete dönüşmesi iddiası, branch veya ek context yükümlülüğü dışlamadan global:marked-accountability bulgusunda aynen taşınıyor.",
+      "finding_refs": ["global:marked-accountability"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_a809cc477d16807efb5f",
+      "decision": "represented",
+      "reason": "Bilme bilgisinin kötülüğü frenlemesi gerektiği yönündeki resolved B001 katkısı global:knowledge-restraint bulgusunda aynen bulunuyor. Destek metnindeki n ه ي/B003 eşleşmesi packet'te branch kaydı olmayan unresolved bir atıf olduğundan ayrıca aktive edilmedi; bu, temsil edilen adayın packet içindeki branch'ini dışlamıyor.",
+      "finding_refs": ["global:knowledge-restraint"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_68add0004d1624e4f472",
+      "decision": "represented",
+      "reason": "Bilme dalının ayırt edici işaret olarak faile bağlanması ve sonraki perçemle görünürleşmesi, adayın tek resolved branch'i korunarak global:marked-accountability bulgusunda taşınıyor.",
+      "finding_refs": ["global:marked-accountability"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_a294a362485740e5ba5e",
+      "decision": "represented",
+      "reason": "İbadeti gözeten kişinin daha üstün bir bakış altında görülen nesneye dönüşmesi, karşılıklı görünürlük dalı ve global:gaze-reversal bulgusu tarafından eksiksiz taşınıyor.",
+      "finding_refs": ["global:gaze-reversal"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_5802a371114220595203",
+      "decision": "represented",
+      "reason": "Görmenin tapınılan varlığa yönelen ilişki içindeki gözetim olarak okunması, adayın B001 katkısı korunarak global:worshipped-seer bulgusunda aynen yer alıyor.",
+      "finding_refs": ["global:worshipped-seer"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_c3c8dcf96cb60a6756cf",
+      "decision": "represented",
+      "reason": "Perçemin seçilmesi, ahlaki olarak nitelenmesi ve ilahî görüş altında ayırt edilmesi, ek branch veya context dışlamadan global:marked-accountability bulgusunda taşınıyor.",
+      "finding_refs": ["global:marked-accountability"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_2c9ac50faa9b800624d9",
+      "decision": "reject",
+      "reason": "HFT kaydı görünür tutulmuş olsa da packet'te bu iddia için sıfır supplied veya cited anchor vardır; taşıyıcı, bağımsız tetikleyici ve focus dönüşü bulunmadığı için imparted-capacity okuması global aktivasyon eşiğini geçmez.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_b30a1ddc9b007b8e8cc6",
+      "decision": "reject",
+      "reason": "HFT kaydı görünür tutulmuş olsa da packet'te bu iddia için sıfır supplied veya cited anchor vardır; yaratılmış bağlılık ile görünürdeki özerklik arasında global bir taşıyıcı-tetikleyici teması kurulamaz.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_c7c97ac04f0f6f151ea6",
+      "decision": "reject",
+      "reason": "HFT kaydı görünür tutulmuş olsa da packet'te ordered seeing iddiası için sıfır supplied veya cited anchor vardır; exact carrier, independent trigger ve focus return olmadan insanî öz-yargının ilahî görüşe dönüşmesi yayımlanamaz.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_7d78f3a7128824029f0b",
+      "decision": "reject",
+      "reason": "HFT kaydı görünür tutulmuş olsa da packet'te rakip komuta karşı ilahî görüş iddiası için sıfır supplied veya cited anchor vardır; bu nedenle ibadet ve denetim ilişkisini global finding olarak aktive edecek exact trace yoktur.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_0f917e7614a7ebc60fb4",
+      "decision": "reject",
+      "reason": "HFT kaydı görünür tutulmuş olsa da packet'te beden, çağrı ve kapanış ibadeti boyunca uzanan bakış iddiası için sıfır supplied veya cited anchor vardır; global taşıyıcı ve tetikleyici kurulamaz.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_4b2879026699e08ac22b",
+      "decision": "reject",
+      "reason": "HFT kaydı, birden çok eşzamanlı mekanizma ve split-root outlier'ı öneriyor; ancak packet'te sıfır supplied veya cited anchor bulunduğundan bunların hiçbiri exact carrier, independent trigger ve focus return ile global olarak aktive edilemiyor.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_b6dc8728906de9121596",
+      "decision": "reject",
+      "reason": "HFT belirsizlik kaydı, odak ayetinin öznesini bağlamla belirleme önerisi getiriyor; fakat packet'te sıfır supplied veya cited anchor ve dolayısıyla doğrulanabilir global context trace vardır.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_ff7a69e88a6e28d1bdce",
+      "decision": "reject",
+      "reason": "HFT kaydı görmeden yargı veya yetki sonucuna geçişi abductive olarak bildiriyor; packet'te sıfır supplied veya cited anchor bulunduğundan bu geçiş için global activation trace yoktur.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_d70cc18d8d35bfd60f0e",
+      "decision": "reject",
+      "reason": "HFT kaydı non-dominant split-root ve fiziksel outlier'ları exploratory olarak adlandırıyor; packet'te sıfır supplied veya cited anchor bulunduğundan bunlar gerçek taşıyıcı-tetikleyici bağlantısı değil.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_dd797d87f58c97dcb901",
+      "decision": "reject",
+      "reason": "HFT kaydı ilahî görüşün tehdit ve koruma değerlerini birlikte saklıyor; ancak packet'te sıfır supplied veya cited anchor bulunduğundan bu iki valans için exact global carrier ve trigger yoktur.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    }
+  ],
+  "findings": [
+    {
+      "finding_ref": "global:knowledge-restraint",
+      "origin_candidate_id": "cand_8e1c45adbc7e07455f11",
+      "represented_candidate_ids": ["cand_a809cc477d16807efb5f"],
+      "title": "Bilinen ilahî görüşün kötülük karşısında iç fren oluşu",
+      "claim": "96:14'teki bilme ile ilahî görme, failin bilgiden yoksun olmadığını ve bildiği ilahî görüş karşısında kötülüğü sürdürmesinin sorgulandığını açığa çıkarır.",
+      "mechanism": "96:14:2 taşıdığı bilme ve gerçeğini kavrama, 40:69'un ilahî görüşün kötülüğü frenleyen karşıtlık olarak kurulmasıyla temas eder; 96:14:5'teki görme de 53:40'ın eylemin görülerek değerlendirilmesiyle birleşir. Böylece soru bilgi eksikliğini değil, bilinenin suçlu biçimde kullanılmamasını görünür kılar.",
+      "reader_payoff": "Okur, sorunun gizli bilgi yokluğunu değil, mevcut bilginin davranış üzerinde işlemediğini sorguladığını fark eder.",
+      "containment": "Bilmenin her fiili otomatik olarak durdurduğu veya ayetin fail hakkında bağımsız bir psikoloji kurduğu ileri sürülmüyor; iç fren ilişkisi packet bağlantılarının taşıdığı yorum olarak kalıyor.",
+      "epistemic": {
+        "status": "grounded",
+        "source_trust": ["trusted"],
+        "reason": "Citable trusted cross-run publication, iki focus branch'i açıkça bağlayıp global connection kayıtlarıyla bağımsız biçimde destekliyor."
+      },
+      "support_ids": ["sup_5ddd15fd009d1bdb9eb2"],
+      "branch_activations": [
+        {
+          "branch_ref": "root_001040/B001",
+          "facet_id": "F001",
+          "branch_gloss": "bilme ve gerçeğini kavrama",
+          "facet_statement": "Bir şeyi bilme, tanıma ve gerçeğine uygun biçimde kavrama durumu bilgisizliğin karşıtıdır.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["96:14:2:1"],
+          "trigger_refs": ["conn_132f28e8e2ee37424218"],
+          "focus_return_refs": ["96:14:2:1"],
+          "carrier": "يَعْلَم biçimi, burada bir şeyi bilme ve gerçeğine uygun biçimde kavrama anlamını taşır.",
+          "independent_trigger": "40:69 bağlantısı, Allah'ın görülmesi bilgisinin defiant dispute ve yanlış davranış karşısında doğrudan bir fren olması gerektiğini bildirir.",
+          "activation": "Focus'taki bilme taşıyıcısı, dış bağlantıdaki ilahî görüş karşısında yanlış davranışın sorgulanmasıyla temas eder; bilme salt bilgi değil, failin kaçamayacağı bir farkındalık zemini olur.",
+          "resulting_reading": "Allah'ın gördüğünü bilmek, kötülüğün bilgi yokluğundan değil bilinen görüşe rağmen sürdürülmesinden doğan bir suçluluk olarak okunur.",
+          "boundary": "Bu, bilme kökünün her öğretme, bildirme veya öğrenme türevini 96:14'e taşımıyor; ayrıca otomatik nedensel engelleme iddiasında bulunmuyor."
+        },
+        {
+          "branch_ref": "root_000531/B001",
+          "facet_id": "F001",
+          "branch_gloss": "gözle ya da içsel kavrayışla görme",
+          "facet_statement": "Görülebilir bir şeyi gözle veya benzer bir içsel kavrayışla algılama.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["96:14:5:1"],
+          "trigger_refs": ["conn_0db23b7cf7723afce0e3"],
+          "focus_return_refs": ["96:14:5:1"],
+          "carrier": "يَرَىٰ biçimi, burada ilahî görme ve algılama eylemini taşır.",
+          "independent_trigger": "53:40 bağlantısı, insanın çabasının ileride görülecek ve değerlendirilecek bir eylem olduğunu kurar.",
+          "activation": "İlahî görme taşıyıcısı, eylemin görülerek değerlendirilmesi temasına bağlanınca, odaktaki bilme sorusunun davranışsal hesabı görünür hale gelir.",
+          "resulting_reading": "Görülmek, yalnızca bir gözlem değil, bilinen davranışın değerlendirmeye açık ve failine bağlı kalmasıdır.",
+          "boundary": "Görme dalı fiziksel bir kayıt cihazı veya packet dışı bir hüküm verme mekanizması olarak okunmuyor."
+        }
+      ],
+      "connection_refs": ["conn_132f28e8e2ee37424218", "conn_0db23b7cf7723afce0e3"],
+      "context_refs": ["40:69", "53:40"],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:marked-accountability",
+      "origin_candidate_id": "cand_065af85231e1054703ed",
+      "represented_candidate_ids": ["cand_5cd8dbe7957228aa171c", "cand_68add0004d1624e4f472", "cand_c3c8dcf96cb60a6756cf"],
+      "title": "Görmenin davranışı işaretleyerek faile bağlaması",
+      "claim": "İlahî görme, davranışı ayırt edip sahibine bağlayan ve sonraki perçem betiminde gizli inkârı görünür ve tanınabilir bir işaret olarak açığa çıkaran bir hesap verme zemini kurar.",
+      "mechanism": "96:14:5'teki görme, 53:40'taki eylemin görülerek değerlendirilmesiyle temas eder; 96:14:2'deki bilme, 47:30'un kişileri simaları ve sözlerinin tonu üzerinden ayırt etmesiyle birleşir; aynı bağlantıdaki أرَيْنَاهُمْ gösterme eylemi, görmenin sonucu olan görünürleştirme ilişkisini taşır.",
+      "reader_payoff": "Okur, sonraki perçem işaretinin rastgele bir ceza ayrıntısı değil, görünmeyen inkârın ayırt edilebilir bir fail işaretine dönüşmesi olarak okunabildiğini görür.",
+      "containment": "Görme fiilinin kendi biçiminin doğrudan nedensel gösterme veya fiziksel olarak işaret yazma anlamına geldiği söylenmiyor; gösterme ve işaret dalları, dış bağlantının kurduğu bağlamsal rezonans olarak sınırlandırılıyor.",
+      "epistemic": {
+        "status": "grounded",
+        "source_trust": ["trusted"],
+        "reason": "Trusted cross-run publication üç branch'i aynı ilişkiye bağlar; 47:30 ve 53:40 bağlantıları gösterme, ayırt etme ve eylemin görülmesi için bağımsız tetikleyici sağlar."
+      },
+      "support_ids": ["sup_4d4b3298480868f839b0"],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000531/B001",
+          "facet_id": "F001",
+          "branch_gloss": "gözle ya da içsel kavrayışla görme",
+          "facet_statement": "Görülebilir bir şeyi gözle veya benzer bir içsel kavrayışla algılama.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["96:14:5:1"],
+          "trigger_refs": ["conn_0db23b7cf7723afce0e3"],
+          "focus_return_refs": ["96:14:5:1"],
+          "carrier": "يَرَىٰ biçimi, ilahî görme ve algılamayı taşır.",
+          "independent_trigger": "53:40 bağlantısı, çabanın sonradan görülecek bir eylem olarak değerlendirmeye açılmasını bildirir.",
+          "activation": "İlahî görme, dış bağlantının eylemi görünür ve değerlendirilebilir kılan çerçevesiyle temas eder.",
+          "resulting_reading": "Görme, davranışın yalnızca fark edilmesi değil, failine bağlanarak hesap verilebilir hale gelmesidir.",
+          "boundary": "Bu activation, her görülen şeyin aynı biçimde cezalandırıldığını veya fiziksel bir gözlem olayını iddia etmiyor."
+        },
+        {
+          "branch_ref": "root_000531/B012",
+          "facet_id": "F001",
+          "branch_gloss": "gösterip görmesini sağlama",
+          "facet_statement": "Bir şeyi başkasına gösterip onun görmesini sağlama.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["96:14:5:1"],
+          "trigger_refs": ["conn_841dbd0aea91ef62ffda"],
+          "focus_return_refs": ["96:14:5:1"],
+          "carrier": "يَرَىٰ biçimi, ilahî görmenin sonucu olarak bir fiilin başkalarına görünür hale gelmesiyle ilişkilendirilir.",
+          "independent_trigger": "47:30 bağlantısı, kişilerin gösterilmesini ve ardından simalarıyla tanınmasını açıkça birlikte verir.",
+          "activation": "Focus'taki görme, dış bağlantının gösterme ve tanınır kılma eylemiyle temas eder; görmenin sonucu görünür bir ayırt edilebilirlik olur.",
+          "resulting_reading": "İlahî görüş, gizli davranışın görünür ve başkalarınca tanınabilir bir sonuca dönüşmesini mümkün kılan bağlam olarak belirir.",
+          "boundary": "Form I görme biçimi causative gösterme morfolojisi olarak yeniden yazılmıyor; bu, qualified gösterme dalının bağlamsal uzantısıdır."
+        },
+        {
+          "branch_ref": "root_001040/B002",
+          "facet_id": "F001",
+          "branch_gloss": "ayırt edici ve yol gösterici işaret",
+          "facet_statement": "Bir nesneyi veya kişiyi başkalarından ayırıp tanınır kılan belirgin iz ya da işaret çekirdeği oluşturur.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["96:14:2:1"],
+          "trigger_refs": ["conn_841dbd0aea91ef62ffda"],
+          "focus_return_refs": ["96:14:2:1"],
+          "carrier": "يَعْلَم biçimi, bilme ve tanımanın ayırt edici işaret üzerinden gerçekleşmesiyle ilişkilendirilir.",
+          "independent_trigger": "47:30 bağlantısı, kişilerin simaları ve sözlerinin tonuyla ayırt edilmesini, ayrıca eylemlerin Allah tarafından bilinmesini verir.",
+          "activation": "Bilme taşıyıcısı, dış bağlantının tanınır kılan işaret temasına değince, ilahî görüşün davranışı belirsiz bir kalabalıkta bırakmadığı görünür olur.",
+          "resulting_reading": "Soru, failin davranışının Allah'ın bilgisi içinde ayırt edilebilir ve sahibine bağlanabilir olduğunu taşır.",
+          "boundary": "İşaret dalı 96:14'te bağımsız bir bayrak, dağ veya yüz işareti anlamı olarak genellenmiyor; sonraki perçem bağlantısının sınırlı sonucu olarak kalıyor."
+        }
+      ],
+      "connection_refs": ["conn_0db23b7cf7723afce0e3", "conn_841dbd0aea91ef62ffda"],
+      "context_refs": ["53:40", "47:30"],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:gaze-reversal",
+      "origin_candidate_id": "cand_5fa895695d14ddf4b99e",
+      "represented_candidate_ids": ["cand_a294a362485740e5ba5e"],
+      "title": "Gözetleyenin görülene dönüşmesi",
+      "claim": "Başkasının ibadetini gözetip durduran fail, ilahî görme altında görülen nesneye çevrilir; böylece insan gözetiminin kurduğu iktidar tersine döner.",
+      "mechanism": "96:14:5'teki görme, karşılıklı görünürlük dalını taşır; 53:35 bağlantısındaki insanın görmediği gaybı gördüğünü varsayan iddia, Allah'ın gerçek görmesiyle karşılaştırılır. Bu temas, önceki gözetleyenin artık gözetlenen konumunda okunmasını sağlar.",
+      "reader_payoff": "Okur, ayetteki ilahî görmeyi genel bir sıfat cümlesi olarak değil, ibadeti denetlemeye çalışan failin konumunu bozan karşılıklı bir bakış ilişkisi olarak algılar.",
+      "containment": "Bu, fiziksel bir karşılaşmanın gerçekleştiğini veya ayetin hemen müdahale sözü verdiğini iddia etmiyor; yalnızca insanî gözetim iddiasının daha üstün ilahî görüş karşısında konum değiştirmesini taşıyor.",
+      "epistemic": {
+        "status": "grounded",
+        "source_trust": ["trusted"],
+        "reason": "Trusted cross-run publication, accepted karşılıklı görünürlük dalını doğrudan bu ilişkiye bağlar; 53:35 bağlantısı insanî görme iddiası ile ilahî görmeyi ayırır."
+      },
+      "support_ids": ["sup_f10b6a2bbae7abd7a086"],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000531/B004",
+          "facet_id": "F001",
+          "branch_gloss": "karşı karşıya gelip görünür olma",
+          "facet_statement": "İki tarafın karşılaşıp birbirini görmesi.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["96:14:5:1"],
+          "trigger_refs": ["conn_a695683f59315c56cd4c"],
+          "focus_return_refs": ["96:14:5:1"],
+          "carrier": "يَرَىٰ biçimi, görme ve görünür olma ilişkisini taşır.",
+          "independent_trigger": "53:35 bağlantısı, insanın gaybı gördüğünü varsayan iddianın ilahî gerçek görme karşısında sınırlandığını kurar.",
+          "activation": "Focus'taki ilahî görme, insanî görme iddiasıyla karşı karşıya getirilince gözetleyen özne görünür hale gelen nesneye dönüşür.",
+          "resulting_reading": "İbadeti durduran insanın gözetim gücü çözülür; ayet onun daha üstün bir bakış altında bulunduğunu duyurur.",
+          "boundary": "Karşılıklı görünürlük dalı, ayetteki kişinin fiziksel olarak Allah'la karşılaştığını veya her iki tarafın eşit görme gücüne sahip olduğunu söylemiyor."
+        }
+      ],
+      "connection_refs": ["conn_a695683f59315c56cd4c"],
+      "context_refs": ["53:35"],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:worshipped-seer",
+      "origin_candidate_id": "cand_54dde6dd391bede68086",
+      "represented_candidate_ids": ["cand_5802a371114220595203"],
+      "title": "Tapınılan varlığın gözeten oluşu",
+      "claim": "Allah adı, engellenen ibadetin yöneldiği tapınılan varlığı gösterir; aynı varlığın görmesi, ayetteki görüşü soyut bir gözlemden çok ibadet ilişkisi içindeki gözetim olarak kurar.",
+      "mechanism": "96:14:4'teki Allah adı, 72:18 ve 114:3 bağlantılarının ibadet ve ilahî aidiyet vurgusuyla temas eder; 96:14:5'teki görme, 5:117 bağlantısındaki Allah'a ibadet ve O'nun gözeten oluşuyla birleşir. Böylece gören özne ile ibadetin yöneldiği varlık aynı ilişki içinde okunur.",
+      "reader_payoff": "Okur, Allah'ın gördüğünü bildiren cümlede yalnızca her şeyi bilen uzak bir gözlemciyi değil, durdurulmaya çalışılan ibadetin muhatabını da görür.",
+      "containment": "Koruyucu gözetim, kaynak bağlantılarının izin verdiği bir ilişkisel çıkarımdır; ayetin burada fiziksel müdahale, anında kurtarma veya her sonucu açıkça ilan ettiği ileri sürülmüyor.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": ["trusted"],
+        "reason": "Trusted cross-run publication ilişkiyi açıkça kurar; Allah özel ad dalı qualified olduğu için adın türevsel ve kalıp kullanımları genellenmeden, packet'teki worship/watcher bağlantılarıyla sınırlı tutulmuştur."
+      },
+      "support_ids": ["sup_af404c10c8544f5c4cd9"],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000047/B001",
+          "facet_id": "F001",
+          "branch_gloss": "tapınma ve tapınılan varlık",
+          "facet_statement": "Temel eylem, bir varlığa tapınmak ve kişinin kendini bu tapınmaya vermesidir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["96:14:4:1"],
+          "trigger_refs": ["conn_2fbea1240fd2985f57ec"],
+          "focus_return_refs": ["96:14:4:1"],
+          "carrier": "ٱللَّهَ biçimi, tapınmanın yöneldiği ve kişiyi kendisine vermeye çağıran varlık alanını taşır.",
+          "independent_trigger": "72:18 bağlantısı, mescitlerin Allah'a ait olduğunu ve Allah'la birlikte başkasına yalvarılmaması gerektiğini bildirir.",
+          "activation": "Allah adı, dış bağlantının ibadet aidiyetiyle temas edince, focus'taki görmenin ibadetin yöneldiği varlıkla ilişkili olduğu görünür olur.",
+          "resulting_reading": "Gören özne, ibadetin konusu olan varlıktır; görme cümlesi ibadet ilişkisinin dışından yapılan nötr bir gözlem değildir.",
+          "boundary": "Dalın tapınma ve tapınılan varlık çekirdeği kullanılıyor; korkuya bağlı özel yaşayış veya başka türemiş anlamlar 96:14'e taşınmıyor."
+        },
+        {
+          "branch_ref": "root_000047/B001",
+          "facet_id": "F002",
+          "branch_gloss": "tapınma ve tapınılan varlık",
+          "facet_statement": "Eylemden türeyen varlık anlamı, kendisine tapınılan varlığı veya tapınma konusu sayılan nesneyi gösterir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["96:14:4:1"],
+          "trigger_refs": ["conn_2fbea1240fd2985f57ec"],
+          "focus_return_refs": ["96:14:4:1"],
+          "carrier": "ٱللَّهَ biçimi, tapınmanın yöneldiği tapınılan varlığı adlandırır.",
+          "independent_trigger": "72:18 bağlantısındaki Allah'a ait ibadet mekânları ve yalnız O'na yönelme, tapınılan varlık facet'ini bağımsızca tetikler.",
+          "activation": "Özel adın focus içindeki nesne konumu, ibadet aidiyetini bildiren dış bağlantıyla buluşunca Allah adı tapınılan varlık olarak görünür.",
+          "resulting_reading": "İlahî görüşün sahibi, yalnızca bir bilgi öznesi değil, engellenen ibadetin yöneldiği tapınılan varlıktır.",
+          "boundary": "Bu extension, Allah adını bütün genel tanrı adlarına genişletmiyor ve başka tapınılan nesneleri focus'a taşımıyor."
+        },
+        {
+          "branch_ref": "root_000047/B002",
+          "facet_id": "F001",
+          "branch_gloss": "Yaratıcıya özgü ad ile seslenme ve ant biçimleri",
+          "facet_statement": "Dalın merkezinde, Yaratıcıyı başkalarından ayırarak gösteren ve yalnız ona özgü sayılan özel ad bulunur.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["96:14:4:1"],
+          "trigger_refs": ["conn_148de54e5b003e958e17"],
+          "focus_return_refs": ["96:14:4:1"],
+          "carrier": "ٱللَّهَ biçimi, Yaratıcıyı başkalarından ayıran özel ad olarak taşınır.",
+          "independent_trigger": "114:3 bağlantısı Allah'ı insanların ilahı olarak adlandırarak adın ibadet ilişkisi içindeki tekil referansını kurar.",
+          "activation": "Özel ad taşıyıcısı, dış bağlantıdaki tekil ilahî aidiyetle temas edince, görme eyleminin belirli ve ibadetin muhatabı olan bir özneye ait olduğu netleşir.",
+          "resulting_reading": "Allah'ın görmesi, belirsiz bir ilahî güç değil, adı belirli olan Yaratıcıya ait ilişkisel gözetimdir.",
+          "boundary": "Özel ad dalının seslenme, ant ve kısaltılmış kalıpları bu activation'a aktarılmıyor; yalnızca core özel ad facet'i tutuluyor."
+        },
+        {
+          "branch_ref": "root_000531/B001",
+          "facet_id": "F001",
+          "branch_gloss": "gözle ya da içsel kavrayışla görme",
+          "facet_statement": "Görülebilir bir şeyi gözle veya benzer bir içsel kavrayışla algılama.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["96:14:5:1"],
+          "trigger_refs": ["conn_88cc61ce18300d6fa6f4"],
+          "focus_return_refs": ["96:14:5:1"],
+          "carrier": "يَرَىٰ biçimi, Allah'ın görerek gözetmesini taşır.",
+          "independent_trigger": "5:117 bağlantısı, Allah'a ibadeti ve insanlardan ayrıldıktan sonra Allah'ın onlar üzerinde gözeten oluşunu aynı ifadede verir.",
+          "activation": "Focus'taki görme, ibadet emri ve gözetim ilişkisini birlikte taşıyan dış bağlantıyla temas eder; görmek, tapınma ilişkisinin içinden gerçekleşen bir gözetim olarak belirir.",
+          "resulting_reading": "Allah'ın görmesi, ibadeti durduran failin eylemini gözeten ve ibadetin yöneldiği varlıkla bağlantılı bir görmedir.",
+          "boundary": "Bu, gözetimin burada mutlaka görünür bir cezaya dönüştüğünü veya Allah'ın görmesinin yalnızca koruyucu tek bir valansa sahip olduğunu söylemiyor."
+        }
+      ],
+      "connection_refs": ["conn_2fbea1240fd2985f57ec", "conn_148de54e5b003e958e17", "conn_88cc61ce18300d6fa6f4"],
+      "context_refs": ["72:18", "114:3", "5:117"],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:seeing-chain",
+      "origin_candidate_id": "cand_e4dbb2d677b91daa4bc4",
+      "represented_candidate_ids": [],
+      "title": "İnsanî görme iddiasından ilahî görüşe kapanan zincir",
+      "claim": "Bilme ve görme, insanın kendi görme iddiasını ve geri çekilişini aşarak otoriteyi ilahî görüşte toplayan bir zinciri kapatır; hesap verebilirlik görülüyor olmaya bağlanır.",
+      "mechanism": "96:14:2'deki bilme, 53:33 bağlantısının görme sorusuyla birlikte geri çekilen kişiyi göstermesiyle global bir sıra içine girer; 96:14:5'teki görme, 53:35 bağlantısının insanın gaybı gördüğünü varsaymasına karşı ilahî görmeyi sınır olarak kurmasıyla zincirin son halkası olur.",
+      "reader_payoff": "Okur, ayetteki iki fiili yalnızca yan yana duran bilgi ve görüş olarak değil, insanî öz-değerlendirmenin ilahî görüş altında yeniden konumlandığı bir kapanış hareketi olarak fark eder.",
+      "containment": "Bu, bütün sure için bir tez veya insanî görmenin her biçimini geçersiz kılan bir hiyerarşi ilanı değildir; yalnızca packet'teki iki global bağlantının focus'a dönen, legacy kaynakça nitelikli bir rezonansıdır. İşaret ve özel ad katkıları bu dar çekirdeğe dahil edilmemiştir.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": ["legacy_unbound"],
+        "reason": "Legacy reader walk resolved iki focus branch'i global bağlantılarla ilişkilendiriyor; kaynak kimliği unbound olduğu için claim, trusted cross-run findings'e ek bir qualified zincir olarak sınırlandırıldı."
+      },
+      "support_ids": ["sup_f26a49ed1358dbd05c58"],
+      "branch_activations": [
+        {
+          "branch_ref": "root_001040/B001",
+          "facet_id": "F001",
+          "branch_gloss": "bilme ve gerçeğini kavrama",
+          "facet_statement": "Bir şeyi bilme, tanıma ve gerçeğine uygun biçimde kavrama durumu bilgisizliğin karşıtıdır.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["96:14:2:1"],
+          "trigger_refs": ["conn_ffa2a0109fb5d818be72"],
+          "focus_return_refs": ["96:14:2:1"],
+          "carrier": "يَعْلَم biçimi, bilme ve gerçeğini kavrama eylemini taşır.",
+          "independent_trigger": "53:33 bağlantısı, geri çekilen kişi hakkında başlayan görme sorusunun ilahî görüşe doğru kapanan bir devamını önerir.",
+          "activation": "Bilme taşıyıcısı, insanın görme iddiasını sorgulayan dış bağlantıyla temas edince focus sorusu bilgi eksikliğinden çok kimin gerçekten bildiği ve gördüğü meselesine döner.",
+          "resulting_reading": "Bilmek, insanın kendi görme hükmünü son söz sanmaması ve ilahî görüşün önünde konumunu anlamasıdır.",
+          "boundary": "Bilme burada öğretme, haber verme veya bütün gaybı kavrama anlamlarına genişletilmiyor."
+        },
+        {
+          "branch_ref": "root_000531/B001",
+          "facet_id": "F001",
+          "branch_gloss": "gözle ya da içsel kavrayışla görme",
+          "facet_statement": "Görülebilir bir şeyi gözle veya benzer bir içsel kavrayışla algılama.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["96:14:5:1"],
+          "trigger_refs": ["conn_a695683f59315c56cd4c"],
+          "focus_return_refs": ["96:14:5:1"],
+          "carrier": "يَرَىٰ biçimi, ilahî görme ve algılama eylemini taşır.",
+          "independent_trigger": "53:35 bağlantısı, insanın gaybı gördüğünü varsayan iddiayı Allah'ın gerçek görmesi karşısında sınırlar.",
+          "activation": "Focus'taki görme, dış bağlantının insanî iddia ile ilahî görmeyi karşılaştırmasıyla temas edince, görme zincirinin son otoritesi focus'taki ilahî özne olur.",
+          "resulting_reading": "Hesap verebilirlik, insanın kendini görüp hükmetmesinden önce ve öte, ilahî görüş altında bulunmaya bağlanır.",
+          "boundary": "Bu, ilahî görmeyi yalnızca fiziksel görme veya bütün başka görme dallarını reddeden bir formül olarak sunmuyor."
+        }
+      ],
+      "connection_refs": ["conn_ffa2a0109fb5d818be72", "conn_a695683f59315c56cd4c"],
+      "context_refs": ["53:33", "53:35"],
+      "semantic_obligation_refs": []
+    }
+  ],
+  "friction_notes": [
+    "Packet'teki on legacy_unbound HFT kaydının anchor_evidence_coverage alanı supplied_unique_anchor_count ve cited_unique_anchor_count için sıfırdır; kayıtlar görünür biçimde incelenmiş, ancak exact global activation trace bulunmadığı için reddedilmiştir.",
+    "Bir reader-walk desteği n ه ي/B003 için unresolved branch citation taşıyor; packet'te eşleşen branch kaydı bulunmadığından bu atıf aktive edilmemiştir.",
+    "Global packet'te ayrı context-unit occurrence kaydı yoktur; bu discovery yalnızca focus morpheme taşıyıcılarını ve exact connection_ref tetikleyicilerini kullanmış, packet dışı ayet veya morfoloji eklememiştir."
+  ]
+}

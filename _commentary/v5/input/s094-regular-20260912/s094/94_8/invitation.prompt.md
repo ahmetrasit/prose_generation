@@ -1,0 +1,211 @@
+# V5 reading invitation — 94:8
+
+You are a fresh reading-invitation writer. Read the complete editorial prose
+before writing. It is your sole semantic source.
+
+Write two to four paragraphs of fluent, contemporary Turkish that reveal a
+surprising reading by following one or two main channels of resonance in the
+ayah. A channel is a connected background of meanings, images, actions, or
+relations through which the ayah can be heard and understood differently.
+Several editorial findings may together develop one channel. Summarize that
+connected movement and its consequence for the ayah's main meaning, rather
+than compressing findings individually. Give the reading's substance now;
+the invitation comes from understanding it, not from a promise of hidden depth.
+
+Before drafting, read the entire editorial prose and silently select the one
+or two channels with the strongest interpretive consequence and enough
+grounding to explain clearly. Favor channels that expand or shift what the
+ayah says, the relation it establishes, or what is at stake in its action or
+image. One fully developed channel is sufficient; add a second only when it
+offers a distinct consequential reading that can be explained within the
+invitation. No finding, channel, or major shift has an individual coverage
+claim. Unselected material may remain entirely in the full commentary.
+
+A channel may develop through grammar, sound, dialogue, a material process,
+time, imagery, or a conceptual relation. Resonance is not limited to acoustic
+effects, and an unusual image alone does not establish a channel. Use only
+connections the editorial prose actually develops. If it supplies no such
+channel, explain its strongest grounded reading without inventing connections
+or surprise.
+
+Begin inside the ayah's own words, images, actions, or relations and reveal a
+selected distinctive reading in the first paragraph. Keep the plain meaning
+reachable with only the orientation needed to understand the change. Do not
+spend an opening paragraph on routine explanation or front-load context about
+the surah, the ayah's position, or the commentary project.
+
+For each selected channel, begin with the expression that opens it, unfold the
+connected background, and show how the ayah reads or sounds against that
+background. Let a detail lead into the next through an intelligible relation
+or process, so the reader experiences the emerging reading. This is a movement
+of thought, not a mandatory sentence pattern or one paragraph per finding.
+Let the reader identify the expression being interpreted,
+where any nonordinary detail comes from, and what that detail changes in the
+reading. Briefly identify the word-family use, restricted form, collocation, or
+context that supplies an essential added detail, and preserve the concrete
+operation that makes the image work. Keep the ordinary reading and necessary
+qualification clear within this explanation; do not repeat them as a fixed
+formula. Preserve the particular object, process, or relation that makes this
+reading distinctive, and state its interpretive consequence for the ayah as a
+whole. Make intelligible what the familiar reading leaves less visible and
+what the expanded or shifted reading now lets the reader understand. Preserve
+the editorial's force: an exploratory possibility remains possible, while a
+developed shift must not be softened into a decorative association or a
+reassurance that everything means the same thing. A concrete
+account of how something is carried, transformed, lost, or restored must not
+shrink to a general statement about care, guidance, dependence, or goodness.
+Keep the details needed to make the selected channel work; omit side findings
+and shorten routine setup. If a channel cannot be explained faithfully from
+the editorial prose, choose another grounded channel or reading.
+
+When a non-focus ayah supplies a contribution used in the invitation, keep its
+reference from the editorial prose beside that contribution.
+
+Do not turn the invitation into a miniature inventory of the commentary's
+conclusions, or flatten distinct channels into a broad theme to include more
+material. Do not repair, extend, or supplement the editorial prose from memory
+or outside knowledge.
+
+Omit technical apparatus. Retain any qualification, source distinction, live
+alternative, or boundary whose absence would change the force or meaning of a
+chosen reading. Express it naturally beside the image or relation it qualifies.
+Favor positive explanations of the relation between layers: what remains in
+the foreground and what the resonance makes audible in the background. State
+how that background reinforces, expands, or shifts the understanding of the
+main meaning, with the source and degree of certainty clear. Reserve explicit
+exclusions for concrete ambiguities or live counter-evidence that need them.
+Repeated "this is not X" endings make a reading sound withdrawn; express the
+substantive qualification through what the reading does contribute wherever
+possible. Use varied, natural language rather than a repeated "second layer"
+formula, and preserve the force of expansions and shifts.
+Do not name branches, candidates, findings, scopes, evidence categories,
+ledgers, or workflow stages, or label the prose as numbered channels. Do not
+list findings serially.
+
+Use the established `{ar:..., tr:..., gloss:...}` syntax, consistent
+Turkish-readable transliteration, and short ordinary glosses. Keep Arabic
+anchors beside the explanations they ground. Within a paragraph, continue with
+the Turkish meaning where clear; provide the necessary local tag when a later
+paragraph interprets the carrier anew. Do not place Arabic script outside a
+valid tag.
+
+Build transitions within a channel through its shared object, action, or
+relation. If two channels are selected, they may occupy separate paragraphs;
+do not invent a link between them. Do not praise the commentary's quality,
+promise what the reader will find, manufacture suspense, recap at the end, or
+add a call to action. End on an image, relation, action, or tension already
+established by the selected reading.
+
+Before finishing, compare the invitation with the entire editorial prose:
+does the chosen channel reveal a consequential reading, or could the text have
+been written from the ordinary translation and a modest explanation alone?
+When the editorial supports a surprising channel, the latter fails this task.
+Can the reader follow the opening expression into a connected background and
+understand how that background expands or shifts the ayah's main meaning?
+Check the selected connections against their editorial explanation: can the
+reader tell where the nonordinary details come from, with the necessary
+qualifications intact? Repair generic explanation, isolated curiosities, or a
+compressed findings list by developing the selected channel. Do not add
+omitted channels merely for coverage. Do not output this check.
+
+Write only the invitation text to:
+
+`_commentary/v5/editorial/s094-regular-20260912/s094/94_8/94_8.invitation.tr.md`
+
+Do not add a heading, wrapper label, index, ledger, evidence file, or any other
+artifact. Do not modify the editorial prose.
+
+After writing the invitation, run:
+
+```bash
+python3 _commentary/v5/validate_prose.py _commentary/v5/editorial/s094-regular-20260912/s094/94_8/94_8.invitation.tr.md
+```
+
+If validation fails, repair only the reported mechanical file-contract issues
+and rerun it, for at most two repair cycles. Report the final validator result
+in your response.
+
+<editorial_prose>
+{ar:وَإِلَىٰ رَبِّكَ فَٱرْغَبْ, tr:wa ilā rabbike fa-rghab, gloss:Ve Rabbine yönel} sözü, önceki hareketin ardından muhataba doğrudan yön verir: yönünü Rabbine çevir. Ayetin açık anlamı budur ve aşağıdaki bütün açılımlar bu buyruğun üzerinde yükselir. Bu, bir arzuyu haber veren cümle değil, ikinci tekil eril emirle muhatabın kendi yönelişini şimdi kuran canlı bir hitaptır.
+
+## Hedef Önden Kurulur
+
+Başlangıçtaki {ar:وَ, tr:wa, gloss:ve} önceki emir akışını sürdürürken yeni bir fiil buyruğuna geçirir. Böylece cümle hem devam eder hem de taze bir yön tayin eder. {ar:إِلَىٰ, tr:ilā, gloss:-e doğru} hemen ardından gelerek hedefi fiilden önce kurar. Uzun son ünlüsü, öne alınmış hedefe uzanan sesi son kelimenin kısa kapanışına kadar taşır; bu işitsel süreklilik hedefin sesini sürdürür. {ar:إِلَىٰ رَبِّكَ, tr:ilā rabbike, gloss:senin Rabbine doğru} cümle başına alındığında yön açıkça Rabbinedir. Aynı edat, {ar:ٱرْغَبْ, tr:irghab, gloss:iste ve yönel} fiilinin burada olumlu isteme, eğilme ve elde etmeye yönelme tarafını seçer; yüz çevirme yönü başka bir edatlı kullanımla açılır.
+
+Öne alınan {ar:رَبِّكَ, tr:rabbike, gloss:senin Rabbin}, fiil duyulmadan önce hem gramerde hem de ölçülü bir ses yankısında ağırlık kazanır. Bu kelime {ar:إِلَىٰ, tr:ilā, gloss:-e doğru} tarafından yönetilen mecrur isimdir; {ar:ٱرْغَبْ, tr:irghab, gloss:iste ve yönel} fiilinin doğrudan nesnesi olarak değil, arzunun yöneldiği hedef olarak görev yapar. Yapı, Rabb üzerinde işlem kurmak yerine arzuyu Rabbine çeviren bir ilişki kurar. Kelimeye eklenen -ka hedefi belirli ve kişisel kılar: emri alan tekil muhatap ile “senin Rabbin” ilişkisi aynı hitapta birleşir. Rabb unvanı sahiplik, buyruk yetkisi, gözetim, yönetim ve tamamlamaya doğru taşıma renklerini duyurur; bakım eylemi ise ayette ayrı bir fiille anlatılmadığı için bu renk ilişkisel bir derinlik olarak kalır. Tanıdık Rabb unvanının daha seyrek kullanılan emirle yan yana gelmesi alışılmadık buyruğun hedefini keskinleştirir. Sıklık farkı burada yalnız bu temasın açıklamasına yardım eder, doğruluk veya önem ölçüsü oluşturmaz. 94:1'de adı duyulan Rabb ilişkisi de kapanışta {ar:رَبِّكَ, tr:rabbike, gloss:senin Rabbin} ile son hareketin hedefi olarak yeniden duyulabilir; bu, yerel bir kapanış yankısıdır (94:1).
+
+Yapının ikinci yarısı hedefi gecikmiş eyleme bağlar. {ar:فَ, tr:fa, gloss:ardından ve böylece} fiile bitişerek {ar:فَٱرْغَبْ, tr:fa-rghab, gloss:bağlanmış yönelme emri} biçiminde tek sesli bir akış ve kapanış meydana getirir; parçacık kendi başına yeni bir sözlük anlamı eklemeden bağlantıyı sıkılaştırır. Sıra önce {ar:إِلَىٰ رَبِّكَ, tr:ilā rabbike, gloss:senin Rabbine doğru}, sonra fa, en sonda {ar:ٱرْغَبْ, tr:irghab, gloss:iste ve yönel} şeklindedir. Böylece öne alınan hedef gecikmiş fiile yeniden bağlanır. Önceki emrin ardından gelen fa, buyruğa hem sıra hem de sonuç tonu verebilir: emek tamamlanınca yöneliş Rabbine döner (94:7). Bu nitelikli geçişte 94:7'nin olağan çaba sırası korunur; fa'nın olası şart-sonuç yükü tek bir çözüme kapatılmaz (94:7, 94:8).
+
+Son kelime olan {ar:ٱرْغَبْ, tr:irghab, gloss:iste ve yönel}, önceden kurulmuş hedefi gerçekleştiren nesnesiz bir emirdir. Tekil ikinci şahıs biçimi, yönelişi doğrudan muhatabın kendi eyleminde kurar. Birinci kalıp oluşu isteme ve yönelme işini yine muhatabın eylemine bırakır; daha yoğun veya ettirgen biçimlerin anlamları bu biçimin sınırında kalır. Rabbike ile irghab arasındaki b yinelemesi hedef ile eylemi işitsel olarak birbirine yaklaştırır. Emir biçiminin seyrekliği, önündeki tanıdık Rabb unvanıyla temas edince anlam yönünü görünür kılar; sıklık bilgisi bu emri bir doğruluk veya üstünlük ölçüsüne dönüştürmez.
+
+## Boşluktan Yönelişe
+
+Bu son emrin hemen öncesindeki {ar:فَإِذَا فَرَغْتَ فَٱنصَبْ, tr:fa-idhā faraghta fa-nṣab, gloss:İşi bitirince yeniden çaba göster} sözü, tamamlanan iş ile yeni yöneliş arasında bir eşik açar (94:7). {ar:فَرَغْتَ, tr:faraghta, gloss:işi tamamladın ve meşguliyetten çıktın} meşguliyetten sonra oluşan boşluğu taşır; {ar:فَٱنصَبْ, tr:fa-nṣab, gloss:yeniden gayret et} ise bir işe bilerek yönelmeyi ve çaba içinde çalışmayı getirir (94:7). Bu iki ayrıntı birlikte olağan sırayı görünür kılar: bir uğraştan çıkınca yeni bir çabaya geçilir ve ardından yön Rabbine çevrilir. Bu ikinci yüzeyde yorgunluk, gerilim ve sıkıntı da duyulduğunda boşluk edilgen bir dinlenme alanından çok maliyetli bir gayrete açılan aralık olarak belirir; 94:5'teki güçlük-kolaylık çerçevesi bu baskıyı duyulur kılar (94:5). Son {ar:ٱرْغَبْ, tr:irghab, gloss:isteyerek Rabbine yönel} buyruğu, çabayı Rabbine doğru belirli bir hedefe bağlar.
+
+Bu maddi temasın her ayrıntısı kapasitenin farklı bir işlevini taşır. {ar:فَرَغْتَ, tr:faraghta, gloss:meşguliyetten çıktın} için taşınan kabı döküp boşaltma görüntüsü, bitmiş uğraştan sonra dikkat için yer açar. {ar:فَٱنصَبْ, tr:fa-nṣab, gloss:dik ve çaba göster} için duyulan dik işaret veya sarnıç taşı görüntüsü, açılan alanı bir kenarla tutar; yorucu çaba kullanımı bu dikliği emek içinde ayakta tutar (94:7). {ar:ٱرْغَبْ, tr:irghab, gloss:iç hacmi ve hareket açıklığı genişleyen yönelme} iç hacim ve yayılma çekirdeğiyle boşluğu yön verilebilir bir kapasiteye çevirir; ardından {ar:إِلَىٰ رَبِّكَ, tr:ilā rabbike, gloss:senin Rabbine doğru} bu kapasiteye vektör verir. Kap, boşaltma ve yeniden doldurma 94:7 bağlamının taşıdığı keşifsel bir imgedir; ayet gerçek bir kap, su veya havuz işlemi buyurmaz. Olağan “işi bitirip başka bir işe başlama” sırası yerinde kalır.
+
+Bu boşalt-sabitle-yönelt hareketi, her tamamlanma döngüsünün içinden geçen bir istikamet olarak da duyulabilir. Boşluk niyete, niyet yorucu emeğe, emek de Rabbine yönelen arzuya bağlanır; {ar:رَبِّكَ, tr:rabbike, gloss:kalıp sürdüren ve tamamlayan Rabbin} bu ardışık emek bölümleri arasında süreklilik duygusu verir (94:7). Buradaki süreklilik doğrudan dilbilgisi sonucu değildir; meşguliyetten sonraki boşluk, bilerek yeniden işe dönme ve yorgun çaba (94:7) bu okumayı taşır. Bunların her döngüde Rabbine yönelimle birlikte sürmesi ihtiyatlı bir genişlemedir; daha yalın ardışık okuma da canlıdır. Böylece rahatlama çabayı silmez, açılmış kapasiteyi Rabbine doğru kullanılır hâle getirir.
+
+## Açılma ve Karşılık
+
+{ar:الرَّحْمَٰنِ الرَّحِيمِ, tr:ar-Rahmān ar-Rahīm, gloss:Rahmân ve Rahîm} ifadesinin merhamet ve yakınlık çevresi, ev sahibi basmala bağlamından gelerek {ar:رَبِّكَ, tr:rabbike, gloss:gözeterek yetiştirip tamamlayan Rabbin} içindeki tedrici bakım rengini harekete geçirir (94:0). Böyle duyulduğunda Rabbine yöneliş, tek seferlik bir rahatlamanın ardından kesilen talep değil, eksikten tamamlanmışa taşıyan sürdürücü ilişkiye isteyerek dönüştür. Olağan Rabb unvanı bütünüyle korunur; bu bağlamlı renk onu dar bir aile veya koruyucu aile ilişkisine kapatmaz. Yükün indirilmesi ve güçlük içinden açılma, eski baskının yalnız yokluğu değil yeni başlayan bir hâlin eşiği gibi de görünür. {ar:وَوَضَعْنَا عَنكَ وِزْرَكَ, tr:wa-waḍaʿnā ʿanka wizraka, gloss:yükünü senden indirdik} için sağlanan gebeliği doğumda bırakma ve yük bırakma görüntüsü, yeni hâle yer açılmasını; {ar:ٱلْعُسْرِ, tr:al-usr, gloss:güçlük} için taşınan zor doğum görüntüsü ise güçlük içinden açılmanın baskısını görünür kılar (94:2, 94:5). Doğumda yatma ve çözülmemiş rahim gibi ayrıntılar bu doğum-tazelik bağlantısında bağımsız bir sözlük taşıyıcısı bulmaz; bu, ayetin bir doğum olayı bildirdiği anlamına gelmez ve yük, güçlük ile Rabbine yönelme kendi olağan zeminlerinde kalır.
+
+Yeni başlayanın beslenmesine katkıyı bu tazelik çevresindeki birkaç ayrıntı birlikte taşır. {ar:وَرَفَعْنَا لَكَ ذِكْرَكَ, tr:wa-rafaʿnā laka dhikraka, gloss:anılmanı yükselttik} yüzeyindeki yükseltilmiş anılma, kolaylıkla birlikte {ar:رَبِّكَ, tr:rabbike, gloss:yeniliği gözetip sürdüren Rabbin} için bakım ve geçim çağrışımını bağımsızca tetikleyebilir (94:4, 94:5). {ar:ذِكْرَكَ, tr:dhikraka, gloss:anılman}ın başka bir kullanımında memede tutulan süt veya ağız sütü görüntüsü, yeni başlayan hayatın hemen tükenmeyip beslenmesini düşündürür. {ar:يُسْرًا, tr:yusrā, gloss:kolaylık ve açılma} için sağlanan hayvanlarda verimli artış görüntüsü ise süt ve yavruyla çoğalan geçimi bu tazeliğe bağlar (94:4, 94:5). Bu süt, hayvan ve doğum ayrıntıları Rabb kelimesinin veya emrin doğrudan süt, hayvan ya da doğum diye çevrilmesi değildir; merhamet, yükseltilmiş anılma ve kolaylıkla kurulan nitelikli bir bağlam rengidir.
+
+Son emir, daha önceki eylemlere karşılık veren bir dönüş olarak da okunabilir. {ar:أَلَمْ نَشْرَحْ لَكَ صَدْرَكَ, tr:a-lam nashraḥ laka ṣadraka, gloss:göğsünü açmadık mı} açma ve açıklığa kavuşturmayı, {ar:وَوَضَعْنَا عَنكَ وِزْرَكَ, tr:wa-waḍaʿnā ʿanka wizraka, gloss:yükünü senden indirdik} ezen şeyin boşaltılmasını, {ar:وَرَفَعْنَا لَكَ ذِكْرَكَ, tr:wa-rafaʿnā laka dhikraka, gloss:anılmanı yükselttik} de tamamlayıcı yükseltmeyi getirir (94:1, 94:2, 94:4). {ar:رَبِّكَ, tr:rabbike, gloss:eksikten tamamlayarak gözeten Rabbin} bu açma, indirme ve yükseltmeyi biçimlendirici bir bakım çizgisinde toplar; {ar:ٱرْغَبْ, tr:irghab, gloss:isteyerek yönel ve karşılık ver} ise alınmış iyiliklere Rabbine dönen etkin bir cevap verir. Fail birliği metin tarafından zorunlu kılınmaz; bu üç eylemin aynı failde toplanması, sıralı eylemlerle odak arasında kurulan nitelikli bir karşılıklılıktır (94:1, 94:2, 94:4).
+
+Göğsün açılması, son buyruğun içten dışa yönelen bir kaynak hareketi gibi duyulmasını da sağlar. {ar:نَشْرَحْ, tr:nashraḥ, gloss:açmak ve yaymak} için taşınan genişleyen istek ve meyil, {ar:صَدْرَكَ, tr:ṣadraka, gloss:göğsün ve eylemlerin kaynağı} için verilen kaynak imgesiyle birleşir; açılmış göğüs arzunun çıktığı alan, {ar:ٱرْغَبْ, tr:irghab, gloss:isteyerek Rabbine yönel} ise bu alanı Rabbine doğru serbest bırakan vektör olur (94:1). Bu bağlantının neden-sonuç akışı ihtiyatlıdır; aynı açılma rahatlamayı da bildirebilir (94:1). Yine de içte açılan kapasitenin adlandırılmış hedefe doğru kullanılması, düz buyruğu daha etkin bir hareket hâline getirir.
+
+## Yol, Yük ve Yönetim
+
+Bu sınırlı güzergâh resminde {ar:أَلَمْ نَشْرَحْ لَكَ صَدْرَكَ, tr:a-lam nashraḥ laka ṣadraka, gloss:göğsünü açmadık mı} çıkış noktasındaki açılmayı; {ar:وَرَفَعْنَا لَكَ ذِكْرَكَ, tr:wa-rafaʿnā laka dhikraka, gloss:anılmanı yükselttik} ülkeler boyunca yukarı ilerleyen bir hareketi; {ar:ٱلَّذِىٓ أَنقَضَ ظَهْرَكَ, tr:alladhī anqaḍa ẓahraka, gloss:sırtını çatırdatan yük} ise geçilebilir kara yolu ve dış bölge görüntüsünü taşır (94:1, 94:3, 94:4). {ar:رَبِّكَ, tr:rabbike, gloss:varılan ve kalınan Rabbin} için sağlanan kalma-sürme kullanımı varış noktasını geçilip gidilen bir yerden çok ilişkide kalınan bir durak olarak gösterir. {ar:فَإِذَا فَرَغْتَ فَٱنصَبْ, tr:fa-idhā faraghta fa-nṣab, gloss:İşi bitirince yeniden çaba göster} için taşınan tam günlük kolay yürüyüş kullanımı da emeği sürdürülebilir seyir olarak duyurur (94:7). {ar:إِلَىٰ, tr:ilā, gloss:-e doğru} bu ayrılma, ilerleme ve varışı Rabbine bağlar. Bu bağlantı ilgili ayetlerin yüzeyleriyle sınırlı bir yol imgesidir; ayet fiziksel seyahat emretmez (94:1, 94:3, 94:4, 94:7).
+
+Yükten kurtulma ile bu hedef arasında koruyucu bir düzen de hissedilebilir. {ar:وَوَضَعْنَا عَنكَ وِزْرَكَ, tr:wa-waḍaʿnā ʿanka wizraka, gloss:yükünü senden indirdik} yüzeyindeki yükü kesin bir yere bırakma ve sığınak bulma kullanımı, yükten sonra gidilecek koruyucu son noktayı kurar (94:2). {ar:ٱلَّذِىٓ أَنقَضَ ظَهْرَكَ, tr:alladhī anqaḍa ẓahraka, gloss:sırtını çatırdatan yük} içindeki {ar:ظَهْرَكَ, tr:ẓahraka, gloss:sırtın}, ezilen taşıyıcı yüzey olmanın yanında arka çıkma, kullanılabilir destek ve yedek bulundurarak tedbir alma görüntülerine açılır (94:3). Böylece Rabbine varış, yükü bırakıp araçsız kalma sahnesi değil, yardım ve ihtiyatın yönetildiği bir ilişkiye giriş gibi görünür. {ar:رَبِّكَ, tr:rabbike, gloss:sahip olan ve düzenleyen Rabbin} bu desteğin yönetici son noktasını belirler. Sığınak görüntüsü fiziksel bir barınak olarak değil, 94:2 ile 94:3'ün yük-sırt bağlamından çıkan sınırlı bir ilişki olarak kalır; {ar:إِلَىٰ, tr:ilā, gloss:-e doğru} edatının gerçek hedef hareketi önde kalır (94:2, 94:3).
+
+Aynı yük yüzeyi yönü düzelten bir hareket de taşır. {ar:وِزْرَكَ, tr:wizraka, gloss:yükün ve yönü eğen ağırlık} için taşınan eğilme ve sapma görüntüsü, yük kalkmadan önce hareketin yana büküldüğünü düşündürür (94:2). Odaktaki {ar:إِلَىٰ رَبِّكَ, tr:ilā rabbike, gloss:senin Rabbine doğru} açık yönü bu bükülmeyi amaçlı yaklaşmaya çevirir; {ar:رَبِّكَ, tr:rabbike, gloss:yönetici son nokta} için sağlanan ziyaret eden ve amaçlı gelen kişi görüntüsü de Rabbine varan olumlu hareketi verir. Sırtın taşıdığı yükten daha yüksek bir konuma yaklaşma görüntüsü buna eklenebilir; bu bağlantıdaki yükselme konumsal üstünlük sınırında kalır ve rakip yenme, zafer veya belirli bir kişiyi alt etme sahnesi kurmaz (94:3).
+
+## Güçlük İçinden Onarım
+
+94:5 ve 94:6'daki tekrar, yönelişin güçlük ile kolaylık arasındaki bir ortamda sürdüğünü gösteren ayrı bir açılım sağlar. {ar:فَإِنَّ مَعَ ٱلْعُسْرِ يُسْرًا, tr:fa-inna maʿa al-usr yusrā, gloss:güçlükle beraber kolaylık vardır} içindeki güçlük, yönelişin canlı kalması gereken daraltıcı şarttır; {ar:يُسْرًا, tr:yusrā, gloss:kolaylık ve hazır açılma} ise Rabbine hareket için kullanılabilir bir açıklık verir (94:5). İkinci temas olan {ar:إِنَّ مَعَ ٱلْعُسْرِ يُسْرًا, tr:inna maʿa al-usr yusrā, gloss:güçlükle beraber kolaylık vardır} ilk sıkışmayı silmez; yönelişi yalnız rahatlama sonrasına ertelemek yerine aynı çerçevenin içinde sürdürür (94:6). Böylece kolaylık son arzu nesnesi değil, yönelişin içinden geçtiği imkân; güçlük de hareketi durduran son söz değil, etkin bir geçit olur. Bu bağlantıda hazır açılma ve ferahlama, kolaylığın taşıdığı kullanılabilir açıklık ve rahatlama ayrıntıları olarak kalır; bir kolaylık garantisi vermez, güçlüğün ortadan kalktığını söylemez ve iki ayetin daha sade güvence okumasını da yerinden etmez (94:5, 94:6).
+
+Onarım görüntüsü bu iki koşulun arasında ilerler. {ar:رَبِّكَ, tr:rabbike, gloss:adım adım yetiştirip tamamlayan Rabbin} için sağlanan süreç, bırakma, gıcırtı ve dikilerek çaba gösterme yüzeylerini istikrar arayan bir dizide birleştirir (94:2, 94:3, 94:7). {ar:فَإِذَا فَرَغْتَ فَٱنصَبْ, tr:fa-idhā faraghta fa-nṣab, gloss:İşi bitirince yeniden çaba göster} içindeki sabit taban, sap veya eşik görüntüsü onarımın döneceği dayanağı verir (94:7). {ar:ٱلَّذِىٓ أَنقَضَ ظَهْرَكَ, tr:alladhī anqaḍa ẓahraka, gloss:sırtını çatırdatan yük} yüzeyindeki iyileştikten veya kapandıktan sonra yeniden açılma, biçimin gözetilmeye devam ettiğini düşündürür (94:3). {ar:وَوَضَعْنَا عَنكَ وِزْرَكَ, tr:wa-waḍaʿnā ʿanka wizraka, gloss:yükünü senden indirdik} için taşınan sağlam biçimden yoksunluk, tamamlanmayı gerekli kılan zayıf pekişmeyi görünür kılar (94:2). Yöneliş bu bağlantıda engel ile hazır açılma arasında kullanılabilir kapasiteyi yönlendiren bir istikamet olur; şartların bütünüyle bitmesinden sonra başlayan tek bir son harekete indirgenmez.
+
+## Görünürlükten Sadakate
+
+Yükseltilmiş anılma, arzunun toplumsal bir hedefe kayabileceği bir görünürlük oluşturur. {ar:وَرَفَعْنَا, tr:rafaʿnā, gloss:yükselttik ve duyuruya çıkardık} yüzeyinin haberi yayma ve yükseltme kullanımı, artan toplumsal dolaşımı taşır; {ar:ذِكْرَكَ, tr:dhikraka, gloss:anılman ve itibarın} şeref ve itibar olarak duyulduğunda, insanın arzusunu kendine çekebilecek yüksek bir iyiyi belirler (94:4). {ar:ٱرْغَبْ, tr:irghab, gloss:isteğin yönünü değiştirerek yönel} bu görünürlüğü Rabbine geri çevirir. Böylece şöhret, Rabbine dönüşü gerektiren ve kaynağını hatırlatan verilmiş bir işaret gibi görünür; tüketilecek son durak okuması bu bağlantının kapsamına girmez. Bu, anılmanın yalnız güvence olarak da kalabileceği ihtiyatlı bir geri dönüş okumasıdır (94:4).
+
+Anılma emanet edilmiş bir hak belgesi gibi de duyulabilir. {ar:وَرَفَعْنَا لَكَ ذِكْرَكَ, tr:wa-rafaʿnā laka dhikraka, gloss:senin anılmanı yükselttik} verilen itibarı alıcıya ulaşmış bir emanet hâline getirir; {ar:ذِكْرَكَ, tr:dhikraka, gloss:anılman ve hak belgen} için taşınan hukukî araç görüntüsü, seyredilen şöhret yerine cevap bekleyen bir hak senedi çerçevesi kurar (94:4). {ar:رَبِّكَ, tr:rabbike, gloss:bağlayıcı söz ve güvence içindeki Rabbin} için sağlanan sözleşme çekirdeği, “senin Rabbin” hitabını karşılıklı bağlılık alanına taşır. {ar:ٱرْغَبْ, tr:irghab, gloss:olumlu biçimde yönelip sadakat göster}in olumlu yönü de statüyü tüketmek yerine verileni Rabbine sadakatle iade eden bir hareket kurar. Bu hukukî-toplumsal ayrıntı bu bağlantıya ait bağlamlı bir yankı olarak kalır; Rabbine yönelmenin doğrudan çevirisi bir sözleşme kurmaz ve dar özel pay kullanımları bu okumaya katılmaz (94:4).
+
+Yorgun bedenin içinden yükselen soluk, daha uzak bir bedensel eşlik olarak kalır. {ar:صَدْرَكَ, tr:ṣadraka, gloss:göğsün} açılmadan sonra arzunun solukla dışarı çıkabileceği kaynak hâline gelir; {ar:فَٱنصَبْ, tr:fa-nṣab, gloss:yorucu çaba} yorgunluk ve gerilim içindeki bedeni sağlar; {ar:ٱرْغَبْ, tr:irghab, gloss:isteyerek Rabbine doğru yönel} bu yükselen soluğa Rabbine doğru bir vektör verir (94:1, 94:7). {ar:رَبِّكَ, tr:rabbike, gloss:yükselip sıkışan solukla ilişkilendirilen Rabbin} için taşınan uzak imge, soluğun yüksek veya sıkışık hâlini taşıyıcıya bağlar. Bu uzak bedensel eşlik yalnız göğüs açılması ile yorucu çabanın birleştirilmesinden doğan keşifsel bir rezonanstır; Rabb kelimesini nefes kökeniyle açıklamaz (94:1, 94:7).
+
+Hemen önceki çabanın dikilmiş bir ibadet veya kurban nesnesi görüntüsü de vardır. {ar:فَٱنصَبْ, tr:fa-nṣab, gloss:ibadet veya kurban için dikilmiş nesne} için taşınan uzak taş görüntüsü, kurulmuş aracın dikkati kendi üzerinde toplama ihtimalini görünür kılar (94:7). Ardından {ar:ٱرْغَبْ, tr:irghab, gloss:arzu yönünü kurulu biçimin ötesine çevir} son hedefi dikilmiş biçimde değil Rabbinde tutar; arzu araçtan geçip açık hedefe ulaşır. {ar:رَبِّكَ, tr:rabbike, gloss:sahip olup yöneten Rabbin} bu aracın ötesindeki son mercii belirler. Bu yankı doğrudan çaba emrinin yerine geçmez ve gerçek bir nesneye tapıldığı sonucunu kurmaz; 94:7 ile 94:8 temasında yönün aracın üzerinde kapanmasını önleyen sınırlı bir korumadır (94:7).
+
+## Arzunun Yönünü Seçmek
+
+Güvenilir dil ilişkileri, önce açılan ve yükten kurtulan kapasitenin belirli bir muhataba bağlanmasını da düşündürür. {ar:رَبِّكَ, tr:rabbike, gloss:sahibi ve düzenleyici muhatap} sahiplik, buyruk yetkisi ve yönetip düzenleme çekirdeğini taşır; {ar:ٱرْغَبْ, tr:irghab, gloss:isteyerek yönel}ın olumlu istemesiyle temas edince arzu serbestçe dolaşan bir istek olmaktan çıkıp Rabbine bağlanan bir hareket gibi görünür. 9:59'daki Allah'a yönelen rağbet ve 53:42'deki Rabb'e varılan son durak bu hedef ilişkisine iki ayrı daha geniş bağlam örneği verir (9:59, 53:42). Bu bağlantı, hedef ayetlerin biçim ayrıntısı burada açılmadığı için temel dil ilişkisinin üzerine eklenen sınırlı bir bağlamsal genişlemedir; tamlamalı kullanım mutlak egemenlik iddiasına genişletilmez.
+
+Hedef belirlenince, aynı isteme alanı arzunun dünyaya dağılabilen açıklığını Rabbine doğru yeniden yönlendiren bir hareket de açar. {ar:ٱرْغَبْ, tr:irghab, gloss:isteyerek yönel veya yüz çevir} bir şeyi istemeyi ve elde etmeye yönelmeyi taşır; 9:59'daki Allah'a yönelen rağbet ile 18:28'deki dünya süsüne yönelen istek yan yana geldiğinde, isteğin yönünün seçilebilir olduğu görünür (9:59, 18:28). Aynı alanın {ar:رغب عن, tr:raghiba an, gloss:bir şeyden bilinçli olarak yüz çevirmek} kullanımı ve 2:130'daki temas, Rabb hedefinin karşısında ayrı bir dönüş kutbu kurar (2:130). Bu bağlantı Rabbine yönelmenin olumlu hedefini korur: ayet belirli bir dünyevî rakip nesne göstermez ve dünya yönünün her biçimi hakkında hüküm kurmaz. 9:59, 18:28 ve 2:130 bu karşıtlığı ayetin doğrudan sözlük hükmü olarak değil, nitelikli metinlerarası bir okuma olarak taşır.
+
+Bu yönelişin duygusal tonu da genişleyebilir. {ar:ٱرْغَبْ, tr:irghab, gloss:olumlu istekle Rabbine yönel}ın taşıdığı hareket, 21:90'daki {ar:رَغَبًا وَرَهَبًا, tr:raghaban wa rahaban, gloss:umutla ve haşyetle} çağrısıyla buluştuğunda yöneliş, tek duygulu bir iştah yerine umut ile haşyeti birlikte taşıyan bir kulluk hareketi gibi duyulur (21:90). Bu duygusal çift 94:8'e kelimesi kelimesine eklenmez; odakta korku kelimesi bulunduğu iddiası da kurulmaz.
+
+Aynı arzu kelimesinin ölçüyü aşan yeme isteğine açılan uzak dalı, arzunun ham yoğunluğunu görünür kılar. {ar:ٱرْغَبْ, tr:irghab, gloss:ölçüyü aşan iştah ve yöneliş} için taşınan oburluk görüntüsü, {ar:رَبِّكَ, tr:rabbike, gloss:yönetici Rabb} içindeki yetke ile buluştuğunda bastırılmadan Rabbine aktarılmış ve yönetilmiş bir güç gibi görünür. Bu bağlantıda yemek veya aşırılık eylemi buyurulmaz; yiyecek tetikleyicisi bulunmadığı için dal, Rabbine doğru olumlu yönelişin yanında duran keşifsel bir rezonans olarak kalır.
+
+## Süren Dönüş
+
+Rabbine yönelme, rahatlamadan sonra kesilen bir talep yerine oluşumun bir sonraki aşamasına isteyerek girme hareketi olarak da okunabilir. {ar:رَبِّكَ, tr:rabbike, gloss:gözeterek yetiştirip tamamlayan muhatap} için taşınan aşamalı yetiştirme, eksik olanı gözeterek tamamlanmış hâle doğru geliştiren bir süreçtir. {ar:ٱرْغَبْ, tr:irghab, gloss:olumlu isteyerek yaklaş} bu süreçle buluşunca emir yalnız sonuç istemek değil, tamamlanmaya doğru açılan sürece eylemli bir rıza ile katılmak gibi duyulur. 1:2'deki Rabb'lik bakım ve yetke, 20:122'deki seçme-dönüş-yol gösterme ve 11:52'deki Rabb'e dönüp bakım bulma temaları bu okumayı ayrı ayrı destekler (1:2, 20:122, 11:52). Bu bağlantı, hedef morfolojisi açılmadığı için nitelikli bir bağ olarak kalır; literal eğitim sahnesi, çocuk yetiştirme veya tek çizgili bir nedensellik kurmaz.
+
+Son emir 94:1, 94:2, 94:3, 94:4, 94:5, 94:6 ve 94:7'yi geriye dönük olarak aynı hareketin öncesi gibi de gösterebilir. Açılma, yükün kaldırılması, sırt üzerindeki baskının görünürleşmesi, anılmanın yükseltilmesi, güçlükle birlikte iki kez gelen kolaylık ve yeniden çaba, Rabbine yönelen tek bir devam hareketinin ayrı eşikleri hâline gelir (94:1, 94:2, 94:3, 94:4, 94:5, 94:6, 94:7). {ar:رَبِّكَ, tr:rabbike, gloss:önceki dönüşümleri tamamlayan muhatap} için yetiştirme ve tamamlama rengi korunurken, {ar:ٱرْغَبْ, tr:irghab, gloss:sonraki yönelişe geç} bu rahatlama ve emeğin hangi yöne kullanılacağını gösterir. Bu bağlantı, 94:1, 94:2, 94:3, 94:4, 94:5, 94:6 ve 94:7 dizisini ihtiyatlı biçimde toplar; 94:0'daki ayrı merhamet uzantısını veya sonraki ayet beklentisini odakta kurmaz, zorunlu nedensellik de çıkarmaz.
+
+İçte açılan alan, yaklaştıkça genişleyen ve ilişkide süren bir ilerleyiş gibi de duyulabilir. {ar:رَبِّكَ, tr:rabbike, gloss:ilişkide kalıp sürdüren muhatap} için taşınan bir yerde kalma ve ayrılmama kullanımı, {ar:ٱرْغَبْ, tr:irghab, gloss:genişleyen yöneliş}ın hareketiyle buluşunca yakınlığı varılan tek bir nokta olmaktan çıkarıp içinde sürdürülen ilişkiye çevirir. Aynı Rabb alanının hayvanı bir kazığa bağlama özel kullanımı, ilişkide kalma için bağlanmışlık ayrıntısını; bir şeye yaklaşma özel kullanımı ise yakınlaşma hareketini taşır. Bu iki ayrıntı 17:57'de Rabb'e yakınlık arayışı ve 96:19'da secde ile yaklaşma buyruğuyla temas eder (17:57, 96:19). 18:27'deki kalıcı hizalanma ile 17:57 ve 96:19'daki yakınlaşma, Rabb hedefine doğru açılan kapasiteyi ilerlenebilir bir alan gibi gösterir (18:27, 17:57, 96:19). Bu bağlantının kapsamı fiziksel mesafe, hayvan bağlama, secde biçimi veya başarı garantisi hakkında hüküm kurmaz.
+
+Bu süreklilik dikkatin korunması ve zaman içinde emek istemesi olarak da ayrışır. {ar:ٱرْغَبْ, tr:irghab, gloss:olumlu yöneliş}ın hareketi 75:23'teki {ar:إِلَىٰ رَبِّهَا نَاظِرَةٌ, tr:ilā rabbihā nāẓira, gloss:Rabbine bakan yüzler} ifadesinin sürdürülen yakınlık çağrısıyla temas edince yöneliş, bir kez seçilip bırakılan niyet yerine muhataba dönük dikkati koruyan eylem gibi görünür (75:23); görsel tecrübe veya ahiret sahnesi 94:8'e aktarılmaz. 74:7'deki {ar:وَلِرَبِّكَ فَٱصْبِرْ, tr:wa-li-rabbika faṣbir, gloss:Rabbin için sabret} hedefe dönük sabırla buluştuğunda da arzu gelip geçen duygu olmaktan çıkar, zaman içinde korunan ve emek isteyen bir yönelişe genişler (74:7). Sabır ayetin açık kelimesi değildir; 74:7'nin emri 94:8'e kelimesi kelimesine taşınmaz.
+
+## İyilikten Kaynağa
+
+Önceki iyilikler açısından Rabbine yönelmek, nimetten onu verene geçen bir arzu hareketini öne çıkarır; daha çok nimet isteme boyutu bu hareketin yanında kalabilir. {ar:ٱرْغَبْ, tr:irghab, gloss:bol ve arzu edilen bağışa yönel} için taşınan değerli veya çok olan pay görüntüsü, 55:25'te nimetleri kaynağına bağlayan yapı ve 93:11'de nimeti Rabb'e bağlayan anlatımla buluşur (55:25, 93:11). {ar:رَبِّكَ, tr:rabbike, gloss:iyiliğin kaynağı} aynı sözlük alanında gereksinim, sıkı düğüm ve iyilik olarak birbirine indirgenmeyen alternatifler taşırken, burada iyiliğin kaynağı rengi öne çıkabilir. Arzu hediyede durmak yerine onu veren, yöneten ve tamamlayan Rabbine geçer; nimet değersizleşmez ve emir yalnız maddî bolluk istemeye indirgenmez. Bu geçişe 93:11 ve 55:25 zayıf veya orta kuvvette metinlerarası temaslar verir.
+
+Bu iyilik arayışı sürekliliği olan bir bağlılık içinde de duyulabilir. {ar:رَبِّكَ, tr:rabbike, gloss:bağlayıcı güvence muhatabı} için taşınan bağlayıcı söz ve güvence, taraflar arasında ilişki kuran karşılıklı bir bağ görüntüsüdür. 1:2'deki Rabblik yetkesi, 9:120'deki bağlı ve yük taşıyan yol, 93:11'deki Rabb'e bağlanan iyilik ve {ar:ٱرْغَبْ, tr:irghab, gloss:bağışa yönelen istek} bir araya geldiğinde yöneliş ilişki içinde sürdürülen bir iyilik arayışı gibi görünür (1:2, 9:120, 93:11). Aynı {ar:رَبِّكَ, tr:rabbike, gloss:gereksinim düğüm ve iyilik alanını taşıyan muhatap} için sağlanan sıkıca bağlanmış ve çözülmesi zor düğüm kullanımı, bağlılığı taşıyan bir zemin olarak belirir; bu bağlantı onu bağlılığı engelleyen bir düğüm olarak kurmaz. Bu bağlantı literal sözleşme veya hukukî akit kurmaz; gereksinim, düğüm ve iyilik alternatifleri de birbirine eşitlenmez.
+
+Bu farklı hareketler birlikte izlenebilir, fakat tek bir kazanan açıklamaya indirgenmez. {ar:رَبِّكَ, tr:rabbike, gloss:sahip ve düzenleyici muhatap} ile {ar:ٱرْغَبْ, tr:irghab, gloss:olumlu yönelme} yüzeyleri sahiplik, yetiştirme, bağlılık, gereksinim, genişlik ve bağış çizgilerini aynı muhataba değdirebilir. Bir yerde arzu Rabb'in yönetici hedefine bağlanır, başka bir yerde açılmış kapasiteyi sürdürür, başka bir yerde hediyeden verene geçer; yüz çevirme kutbu, iştah, bağ, onarım, yol ve ses imgeleri bu hareketlerin her birine kendi sınırında eşlik eder. Her görüntünün katkısı onu taşıyan ayrıntı ve tetikleyiciyle belirlenir; hak belgesi emanet edilen itibarı, doğum görüntüsü yeni hâlin eşiğini, açılma hazır kapasiteyi, geçim ve araçlar sürdürülen bakım ile desteği, hayvanlarda verimli artış ise süt ve yavruyla çoğalan geçimi görünür kılar. Bu bağlamsal temaslar ilgili taşıyıcı ve tetikleyiciyle sınırlı nitelikli yankılar olarak kalır; {ar:رَبِّكَ, tr:rabbike, gloss:senin Rabbin} veya {ar:ٱرْغَبْ, tr:irghab, gloss:iste ve yönel} kelimelerinin bağımsız karşılıkları olarak kurulmaz. Bu sınır belirli bağlantıların kapsamını çizer, başka okumaları geçersiz kılmaz (94:1, 94:2, 94:3, 94:4, 94:5, 94:7). Cümlenin zemini ise başından sonuna aynıdır: {ar:وَإِلَىٰ رَبِّكَ فَٱرْغَبْ, tr:wa ilā rabbike fa-rghab, gloss:Ve Rabbine yönel}; hedef önden kurulmuş, emir canlı hitapla söylenmiş ve açılan bütün yönler Rabbine doğru tutulmuştur.
+
+</editorial_prose>

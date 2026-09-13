@@ -1,0 +1,215 @@
+# V5 reading invitation — 92:3
+
+You are a fresh reading-invitation writer. Read the complete editorial prose
+before writing. It is your sole semantic source.
+
+Write two to four paragraphs of fluent, contemporary Turkish that reveal a
+surprising reading by following one or two main channels of resonance in the
+ayah. A channel is a connected background of meanings, images, actions, or
+relations through which the ayah can be heard and understood differently.
+Several editorial findings may together develop one channel. Summarize that
+connected movement and its consequence for the ayah's main meaning, rather
+than compressing findings individually. Give the reading's substance now;
+the invitation comes from understanding it, not from a promise of hidden depth.
+
+Before drafting, read the entire editorial prose and silently select the one
+or two channels with the strongest interpretive consequence and enough
+grounding to explain clearly. Favor channels that expand or shift what the
+ayah says, the relation it establishes, or what is at stake in its action or
+image. One fully developed channel is sufficient; add a second only when it
+offers a distinct consequential reading that can be explained within the
+invitation. No finding, channel, or major shift has an individual coverage
+claim. Unselected material may remain entirely in the full commentary.
+
+A channel may develop through grammar, sound, dialogue, a material process,
+time, imagery, or a conceptual relation. Resonance is not limited to acoustic
+effects, and an unusual image alone does not establish a channel. Use only
+connections the editorial prose actually develops. If it supplies no such
+channel, explain its strongest grounded reading without inventing connections
+or surprise.
+
+Begin inside the ayah's own words, images, actions, or relations and reveal a
+selected distinctive reading in the first paragraph. Keep the plain meaning
+reachable with only the orientation needed to understand the change. Do not
+spend an opening paragraph on routine explanation or front-load context about
+the surah, the ayah's position, or the commentary project.
+
+For each selected channel, begin with the expression that opens it, unfold the
+connected background, and show how the ayah reads or sounds against that
+background. Let a detail lead into the next through an intelligible relation
+or process, so the reader experiences the emerging reading. This is a movement
+of thought, not a mandatory sentence pattern or one paragraph per finding.
+Let the reader identify the expression being interpreted,
+where any nonordinary detail comes from, and what that detail changes in the
+reading. Briefly identify the word-family use, restricted form, collocation, or
+context that supplies an essential added detail, and preserve the concrete
+operation that makes the image work. Keep the ordinary reading and necessary
+qualification clear within this explanation; do not repeat them as a fixed
+formula. Preserve the particular object, process, or relation that makes this
+reading distinctive, and state its interpretive consequence for the ayah as a
+whole. Make intelligible what the familiar reading leaves less visible and
+what the expanded or shifted reading now lets the reader understand. Preserve
+the editorial's force: an exploratory possibility remains possible, while a
+developed shift must not be softened into a decorative association or a
+reassurance that everything means the same thing. A concrete
+account of how something is carried, transformed, lost, or restored must not
+shrink to a general statement about care, guidance, dependence, or goodness.
+Keep the details needed to make the selected channel work; omit side findings
+and shorten routine setup. If a channel cannot be explained faithfully from
+the editorial prose, choose another grounded channel or reading.
+
+When a non-focus ayah supplies a contribution used in the invitation, keep its
+reference from the editorial prose beside that contribution.
+
+Do not turn the invitation into a miniature inventory of the commentary's
+conclusions, or flatten distinct channels into a broad theme to include more
+material. Do not repair, extend, or supplement the editorial prose from memory
+or outside knowledge.
+
+Omit technical apparatus. Retain any qualification, source distinction, live
+alternative, or boundary whose absence would change the force or meaning of a
+chosen reading. Express it naturally beside the image or relation it qualifies.
+Favor positive explanations of the relation between layers: what remains in
+the foreground and what the resonance makes audible in the background. State
+how that background reinforces, expands, or shifts the understanding of the
+main meaning, with the source and degree of certainty clear. Reserve explicit
+exclusions for concrete ambiguities or live counter-evidence that need them.
+Repeated "this is not X" endings make a reading sound withdrawn; express the
+substantive qualification through what the reading does contribute wherever
+possible. Use varied, natural language rather than a repeated "second layer"
+formula, and preserve the force of expansions and shifts.
+Do not name branches, candidates, findings, scopes, evidence categories,
+ledgers, or workflow stages, or label the prose as numbered channels. Do not
+list findings serially.
+
+Use the established `{ar:..., tr:..., gloss:...}` syntax, consistent
+Turkish-readable transliteration, and short ordinary glosses. Keep Arabic
+anchors beside the explanations they ground. Within a paragraph, continue with
+the Turkish meaning where clear; provide the necessary local tag when a later
+paragraph interprets the carrier anew. Do not place Arabic script outside a
+valid tag.
+
+Build transitions within a channel through its shared object, action, or
+relation. If two channels are selected, they may occupy separate paragraphs;
+do not invent a link between them. Do not praise the commentary's quality,
+promise what the reader will find, manufacture suspense, recap at the end, or
+add a call to action. End on an image, relation, action, or tension already
+established by the selected reading.
+
+Before finishing, compare the invitation with the entire editorial prose:
+does the chosen channel reveal a consequential reading, or could the text have
+been written from the ordinary translation and a modest explanation alone?
+When the editorial supports a surprising channel, the latter fails this task.
+Can the reader follow the opening expression into a connected background and
+understand how that background expands or shifts the ayah's main meaning?
+Check the selected connections against their editorial explanation: can the
+reader tell where the nonordinary details come from, with the necessary
+qualifications intact? Repair generic explanation, isolated curiosities, or a
+compressed findings list by developing the selected channel. Do not add
+omitted channels merely for coverage. Do not output this check.
+
+Write only the invitation text to:
+
+`_commentary/v5/editorial/s092-regular-20260912/s092/92_3/92_3.invitation.tr.md`
+
+Do not add a heading, wrapper label, index, ledger, evidence file, or any other
+artifact. Do not modify the editorial prose.
+
+After writing the invitation, run:
+
+```bash
+python3 _commentary/v5/validate_prose.py _commentary/v5/editorial/s092-regular-20260912/s092/92_3/92_3.invitation.tr.md
+```
+
+If validation fails, repair only the reported mechanical file-contract issues
+and rerun it, for at most two repair cycles. Report the final validator result
+in your response.
+
+<editorial_prose>
+Bu ayet, “Erkeği ve dişiyi yaratana” diye çevrilen yemin dizisinin üçüncü halkasıdır. (92:1) ve (92:2) içinde geceyi örten, gündüzü açığa çıkaran iki tanıklık kurulmuştur; şimdi yemin bakışı yaratılmış erkek ve dişi farklılaşmasına döner. Bu yaratma ifadesi kendi başına kapanmış bir sonuç bildirmez. (92:4)’te insan çabalarının farklı yönlere ayrılacağını söyleyecek cümleye açık kalan bir giriş oluşturur.
+
+İlk {ar:وَ, tr:wa, gloss:ve/yemin bağı}, (92:2)’deki yemin akışını burada yeni tanığa taşır. Önceki tanığı sürdürür, ardından yaratma tümcesine geçirir; böylece görünür düzenden yaratılış düzenine doğru daralan bir tanıklık kurulur. Yemin edilen nesne burada verilirken cevabın içeriği henüz söylenmez. Cümle, (92:4)’te gelecek iddiaya doğru uzanan bir başlangıç gibi duyulur. Aynı ilk {ar:وَ, tr:wa, gloss:ve/yemin bağı}, içerik gelmeden hem bağlayan hem yemin ettiren kısa bir açılış kurar. İçerideki ikinci {ar:وَ, tr:wa, gloss:ve/koordinasyon bağı} ise bu yemin zincirini değil, iki nesnenin eşgüdümünü taşır. Böylece gece ve gündüzden sonra erkek ile dişi, yakın bağlamda yemin zincirinin yeni tanığı olur.
+
+{ar:وَمَا, tr:wa-mā, gloss:ve/yemin açılışı} dizisi, yeminin nesnesini tek bir ad değil, {ar:مَا, tr:mā, gloss:onu/yaratma eylemini bağlayan mā} ile başlayan bir olay tümcesi olarak kurar. Mā’nın ardından gelen fiil ve iki açık nesne, bütün yaratma olayını yemin edilen malzeme haline getirir. (91:5)’teki aynı biçimsel açılış, içeriği özdeşleştirmeden, bu dizinin yemin edilen tümceyi başlatan tanınabilir bir kalıp olduğunu gösterir. Mā sonraki fiille “onu yaratan”ı gösteren bir ilgi bağına da, fiili adlaştırarak “yaratma eylemi”ni öne çıkaran masdarî yöne de açılabilir. Yemin bağlamı mā’yı olumsuzluk değil, ilişki veya masdar yönünde açık tutar; Türkçe tek bir karşılık, yaratıcı ile eylem arasındaki açıklığı erkenden kapatmaz. Mā ile {ar:خَلَقَ, tr:khalaqa, gloss:yarattı/var etti} birlikte duyulduğunda okur hem eylemi gerçekleştiren faili hem de ölçü kazanmış yaratma olayını izler; yüzeyde açık olmayan fail ya da ek sonuç bu açıklıktan zorunlu olarak çıkarılmaz.
+
+{ar:خَلَقَ, tr:khalaqa, gloss:yarattı} bitmiş zamanın etkin birinci biçimindeki temel fiildir. Erkeği ve dişiyi onun yönettiği açık nesneler olarak kurar; edilgen bir oluş veya türetilmiş bir ettirme değil, tamamlanmış ve etkin bir yaratma eylemi duyulur. Bu ayette fiilin yerel anlamı fiziksel yaratmadır. (92:5, 92:6, 92:8, 92:9)’da görülen verme, doğrulama, sakınma, esirgeme ve yalanlama hareketleri daha sonra kişilerin ahlaki yönünü kurar; huy ve iç karakter bu fiilin burada zorunlu anlamına dönüşmez. Fiil yemin cevabı değildir. Yaratılmış çifti yemin içindeki tanıklık olarak verir ve (92:4)’teki farklı çabalara geçiş için açık bir zemin bırakır.
+
+Fiilin sağlanan anlam alanında ölçüp sınırlarını belirleyerek oluşturma ve dış biçimi tamamlayarak varlık kazandırma yönleri de bu somut nesnelerle temas eder. İki bedenî kategorinin aynı fiil altında bulunması, var etme eylemine düzenli biçim verme rengi katar; bu renk yaratmayı sözsel imal anlamına taşımaz. Mā’dan boğazlı ve duraklı fiile geçilirken ses de hafif bir açılıştan daha ağır bir vuruşa dönüşür. Bu işitsel ağırlık, yemin girişinin yaratma eylemine girerken yoğunlaştığını duyurur. Aktarılan bir okumada açık ilahî fail ve etkin ortaç görülür; bu karşılaştırma kanonik bitmiş zaman fiilinin faili adlandırmadan etkinlik baskısı taşıdığını görünür kılar ve kanonik grameri değiştirmez.
+
+## Çiftin Kuruluşu
+
+{ar:ٱلذَّكَرَ, tr:adh-dhakara, gloss:erkeği}, {ar:خَلَقَ, tr:khalaqa, gloss:yarattı} fiilinin mansup nesnesidir; tek başına yemin edilen bir başlık değil, fiilin yöneldiği somut üyedir. Dişi karşıtıyla birlikte yaratılmış biyolojik çiftin bir kutbunu kurar. Tekil ve belirli biçim burada tek bir kişiyi saymaktan çok, çifti oluşturan erkek kategorisini sunar; hâli de onu ortak yaratma fiilinin nesne alanında tutar. İlk sırada yer alması, dişi gelene kadar tamamlanmayı bekleyen bir kutup duyurur. Bu sözdizimsel bekleyiş üstünlük bildirmez. Aynı kelime ailesinin anma, hatırlama veya kutsal metinle ilişkili yönleri bulunabilir; somut isim biçimi ve dişiyle kurulan yerel karşıtlık, bu ayette biyolojik erkek anlamını öne çıkarır.
+
+Erkek ve dişi adlarının aynı fiile bağlanması, erkeği tek başına bir etiket olmaktan çıkarıp birlikte kurulmuş ilişkisel bir kutup haline getirir. İki belirli mansup ismin birlikte kullanılması (4:124, 16:97, 40:40)’taki çiftleme biçimleriyle biçimsel bir yakınlık taşır; bu örnekler ortak bir dil kalıbını destekler, ayet dışına taşan bir değer sıralaması getirmez. Erkek adının kısa ve yoğun ses dokusu, daha uzun kapanışlı dişi adından önce ilk kutba işitsel belirginlik verir. Bu sıkılık bir semantik sertlik kanıtı değil, iki adın ses bakımından nasıl karşılandığını gösteren bir farktır.
+
+İçteki {ar:وَ, tr:wa, gloss:ve/koordinasyon bağı}, erkeği dişiye bağlayan kısa gramer menteşesidir. İki adı aynı düzleme getirir, ilk nesnenin anlam bakımından tamamlanmasını ikinci nesneye kadar açık tutar ve iki ayrı yemin ya da iki ayrı yan cümle yerine tek bir yaratılmış çift kurar. İlk {ar:وَ, tr:wa, gloss:ve/yemin bağı} (92:2)’den gelen yemin zincirini sürdürürken, bu ikinci {ar:وَ, tr:wa, gloss:ve/koordinasyon bağı} yerel sözdiziminde iki nesnenin arasına sabitlenir. Kısa parça iki ağır isim arasında ritmik bir ara vuruş oluşturur; çift böylece bitişik bir kaynaşma değil, gramer ve ses bakımından dengelenmiş bir birlik olarak duyulur.
+
+{ar:ٱلْأُنثَىٰٓ, tr:al-unthā, gloss:dişiyi}, aynı {ar:خَلَقَ, tr:khalaqa, gloss:yarattı} fiilinin ikinci doğrudan nesnesidir. Belirli ve tekil biçim, tek bir dişi bireyi saymak yerine erkekle karşılıklı kurulan dişi kategorisini tamamlar. Ayet sonundaki hemzetli giriş ve uzun kapanış, ikinci kutba ayrılmış tamamlayıcı bir son vuruş verir; bu iniş hiyerarşi ilan etmez. Dişi adı burada dişileşme süreci değil, ortak yaratma fiilinin nesnesi olarak kurulmuş bir isim kategorisidir. (53:21, 53:27, 53:45)’teki yaratılış bağlantıları, bu ifadenin erkekle birlikte kurulan çiftler alanına açıldığını gösterir; bağlantı, bu somut örneklerin gösterdiği çiftler alanında kalır.
+
+Dişi kelimesinin sağlanan anlam alanında yumuşaklık, esneklik, daha az kuvvetle iş görme ve alıcılık yönünde bir malzeme yankısı da duyulabilir. Bu renk biyolojik dişi anlamının üzerine gelir; kişiler hakkında sabit bir cinsiyet özelliği veya değer hükmü kurmaz. Dişi adı erkeği reddetmeden onu tamamlayan ikinci kutuptur. Ortak nesne rolü, eşgüdüm ve doğrudan eşleşme bu tamamlanmayı sözdiziminde görünür kılar. Aktarılan genişletilmiş bir biçim iki eşi daha açık biçimde yan yana getirir; kanonik metin çift mantığını yeni bir kelime eklemeden, iki mansup nesneyi aynı fiilin altında ve içteki eşgüdümle sıkıştırarak taşır. Bu karşılaştırma kanonik bağlanmayı korur.
+
+Yemin dizisinin yakın hareketi önce gece ve gündüz gibi zamansal kutupları, ardından ortak fiilin yönettiği erkek-dişi biyolojik çiftini verir. (92:1, 92:2)’deki örtme ve görünür olma karşıtlığı, (92:3)’te bedenlenmiş farklılaşmaya döner. Buradaki sıra, yaratılmış zeminin (92:5, 92:6, 92:7, 92:8)’deki bireysel ahlaki hareketlerden önce kurulduğunu gösterir. Bu sonraki tercihler cinsiyetin zorunlu sonucu olarak geriye taşınmaz. Ayetin ön anlamı, yemin tanıklığı içinde tek bir etkin fiilin yönettiği belirli erkek ve dişi kategorileridir.
+
+## Ölçü ve Karşılaşma
+
+Bu açık biyolojik çift, {ar:خَلَقَ, tr:khalaqa, gloss:yaratıp ölçüye koydu} fiilinin ölçülendirerek oluşturma ve varlık kazandırma yönleriyle daha ilişkisel bir farklılaşma düzeni olarak da duyulabilir. (53:45)’teki {ar:وَأَنَّهُۥ خَلَقَ ٱلزَّوْجَيْنِ ٱلذَّكَرَ وَٱلْأُنثَىٰ, tr:wa-annahu khalaqa az-zawjayni adh-dhakara wa-l-unthā, gloss:erkeği ve dişiyi çift olarak yarattı}, (75:39)’daki {ar:فَجَعَلَ مِنْهُ ٱلزَّوْجَيْنِ ٱلذَّكَرَ وَٱلْأُنثَىٰٓ, tr:fa-jaʿala minhu az-zawjayni adh-dhakara wa-l-unthā, gloss:ondan erkek ve dişi çifti kıldı} ve (25:2)’deki {ar:وَخَلَقَ كُلَّ شَىْءٍۢ فَقَدَّرَهُۥ تَقْدِيرًا, tr:wa-khalaqa kulla shayʾin fa-qaddarahu taqdīrā, gloss:her şeyi yarattı ve ölçüsünü verdi} ifadeleri bu temas için bağımsız dayanaklar sağlar. (10:6)’daki gece-gündüz ayrımı ve (91:8)’deki {ar:فَأَلْهَمَهَا فُجُورَهَا وَتَقْوَىٰهَا, tr:fa-alhamahā fujūrahā wa-taqwāhā, gloss:ona kötülük ve sakınma yollarını ilham etti} de ayrımın ortak bir yaratılmış düzen içinde okunabileceğini gösterir. Böylece iki ad yalnızca yan yana konmuş sonuçlar değil, birbirini tamamlayan iki somut kutup olarak görünür; (92:4, 92:5, 92:6, 92:7, 92:8)’deki çabaların çokluğu da tek bir yaratılmış zeminden ayrışan düzenli bir çoğulluk gibi duyulabilir. Bu genişleme biyolojik çifti ve iki kutbun eşit açıklıkta adlandırılmasını korur.
+
+Bu düzen, (92:1)’deki {ar:وَٱلَّيْلِ إِذَا يَغْشَىٰ, tr:wa-l-layli idhā yaghshā, gloss:örtüp bürüyen gece} ile (92:2)’deki {ar:وَٱلنَّهَارِ إِذَا تَجَلَّىٰ, tr:wa-n-nahāri idhā tajallā, gloss:açığa çıkan gündüz} hareketlerine dönünce daha canlı bir biçim kazanır. {ar:يَغْشَىٰ, tr:yaghshā, gloss:örtüp üzerine kapanmak} geceyi örten etkin süreçtir; {ar:تَجَلَّىٰ, tr:tajallā, gloss:açığa çıkmak} gündüzün görünür kılan karşı sürecidir. İki ayrı yemin aynı şeyi söylemez: biri örter, diğeri açığa çıkarır ve bu iki hareket yaratılmış çifte dönen bir karşılıklılık kurar. Erkek ve dişi böylece birbirine düşman iki töz olarak değil, aynı yaratılış düzeninde beliren iki yön olarak algılanabilir. Bu bağ cinsiyetleri kelimesi kelimesine örtülme ve açılma evrelerine çevirmez; ilk iki yemin hareketinin yaratma cümlesine dönüşünü görünür kılar.
+
+Aynı örtme ve açığa çıkma ilişkisi, çifti iki tamamlanmış ürünün yan yana gelişi yerine bedenlenmiş hayatın sürmesine açık bir başlangıç olarak da duyurabilir. {ar:يَغْشَىٰ, tr:yaghshā, gloss:örtmek} burada yaratma fiilinin doğrudan sözlük karşılığı değil, ilişkiyi ve üremeyi birbirine bağlayan bir örtünme imgesidir. {ar:تَجَلَّىٰ, tr:tajallā, gloss:açığa çıkmak} da çift oluşumunu tamamlayan, gelinin açılması benzeri bir toplumsal görünürlük rengi taşır. {ar:ٱلذَّكَرَ, tr:adh-dhakara, gloss:erkek} ile {ar:ٱلْأُنثَىٰٓ, tr:al-unthā, gloss:dişi} bu ilişkide iki katılımcı olarak kalır; {ar:خَلَقَ, tr:khalaqa, gloss:var edip ortaya çıkarmak} onların ortaya çıkışını bedenlenmiş hayatın devamına açılan bir başlangıç gibi gösterir. (92:1, 92:2)’den gelen bu üretkenlik çizgisi nitelikli bir bağdır; üremeyi tek anlam ilan etmeden, kanonik fiilin bitmiş zamanını ve gece-gündüz karşıtlığını korur.
+
+Ölçü yönünün daha uzak bir uzantısında çift, uygun bir kesime ve eşiğe ulaşan dinamik bir ayrım olarak da imgelebilir. {ar:خَلَقَ, tr:khalaqa, gloss:önceden ölçerek oluşturdu} önce ölçüyü ve sınırı kurar; (92:19)’daki {ar:تُجْزَىٰٓ, tr:tujzā, gloss:karşılığı verilir} yüzeyi olağan karşılık ve ödeme anlamının yanında atfedilmiş bir kesim, bölünme ve olgunlaşma zamanı çağrışımı için bağımsız bir temas sağlar. Erkek ve dişi bu ölçülendirilmiş ayrımın iki sonucu olur; çift iki durağan ürün değil, orantı, eşik ve ayrılma içeren bir oluş gibi hissedilebilir. Bu uzak malzeme benzetmesi kesim çağrışımını yaratılmış ayrımın maddi görüntüsünde tutar; (92:19)’daki karşılık görme anlamı ve {ar:تُجْزَىٰٓ, tr:tujzā, gloss:karşılığı verilir} fiilinin çevirisi yerinde kalır.
+
+## Biçimin Tarihi
+
+Bu temas, yaratılmış çifte biçimi görünen, toplumsal olarak taşınan, renklenebilen ve kullanım izleriyle yenilenebilen bir yüzey kazandırır. {ar:ٱلْأُنثَىٰٓ, tr:al-unthā, gloss:dişi} kelimesinin sağlanan kullanım alanında kadınlara ait sayılan bir koku türü ve giysiye renk veren maddelerle ilgili özel bir kullanım bulunur; bu ayrıntı biyolojik dişi anlamının üzerine renklenme yönünü getirir. (92:11)’deki {ar:الرداء وما يلازم المنكبين, tr:ar-ridāʾ wa-mā yulāzimu al-mankibayn, gloss:omuzlara giyilen ve omuzlara tutunan örtü} imgesi bu rengi taşıyan bağımsız yüzeyi getirir. Aynı (92:11) dönüşü, {ar:خَلَقَ, tr:khalaqa, gloss:yaratmak} fiilinin kullanımda yıpranan kumaşla ilgili yan ayrıntısını açar: yüzey tüyünü kaybedebilir, düzleşebilir veya kenarlarından parçalanabilir. Bu iki ayrıntı omuzda taşınan örtüyle birleştiğinde, yaratılmış çiftin görünüşü renk alabilen ve kullanım izleriyle yenilenebilen bir yüzey olarak belirginleşir.
+
+Bu maddi görüntü (92:11)’in kendi hareketinden aldığı bir benzetme olarak kalır. {ar:وَمَا يُغْنِى عَنْهُ مَالُهُۥٓ إِذَا تَرَدَّىٰٓ, tr:wa-mā yughnī ʿanhu māluhu idhā taraddā, gloss:düştüğünde malı ona fayda vermez} servetin düşüş anındaki sonucunu anlatır. Bu bağ, (92:11)’deki servet düşüşünü yaratılmış çifte gerçek bir giysi veya koku olarak taşımadan, görünüşün kullanım, aşınma ve yeniden sunulma tarihini nitelikli biçimde düşündürür.
+
+## Gerilimde Bir Hat
+
+Bu temas, yaratılmış çifti ölçülmüş ve gerilim altında iş görebilen, bükülse de sürekliliğini koruyan bir hat olarak duyurur. Bu görüntüyü önce {ar:خَلَقَ, tr:khalaqa, gloss:ölçüp sınırlarını belirlemek} fiilinin bir nesnenin ölçü ve sınırlarını işe başlamadan önce belirleme kullanımı kurar; aynı taşıyıcının ipin, yay kirişinin veya okun düzeltilip pürüzsüz bir hatta getirilmesiyle ilgili kullanımı, bu hazırlanmış biçime süreklilik kazandırır. (92:5)’teki {ar:فَأَمَّا مَنْ أَعْطَىٰ وَٱتَّقَىٰ, tr:fa-ammā man aʿṭā wa-ttaqā, gloss:veren ve sakınan kimse}, (92:7)’deki {ar:فَسَنُيَسِّرُهُۥ لِلْيُسْرَىٰ, tr:fa-sa-nuyassiruhu lil-yusrā, gloss:kolay yola kolaylaştıracağız} ve (92:10)’daki {ar:فَسَنُيَسِّرُهُۥ لِلْعُسْرَىٰ, tr:fa-sa-nuyassiruhu lil-ʿusrā, gloss:zor yola kolaylaştıracağız} dizileri bu malzeme kullanımına ayrı ayrı temas eder. Verme ve sakınma bir başlangıç hareketi açar; aynı kolaylaştırma işlemi sonra kolay ve zor hedeflere yönelir. Hat imgesi bu ayrı temasları, yaratılmış biçimin baskı altında iş görebilmesi ve sürekliliğini koruyabilmesi yönünde birleştirir.
+
+Bu hat ayrı liflerin bükülerek birbirine bağlanmasıyla süreklilik kazanır; düzleştirme çizgiyi pürüzsüzleştirir, kontrollü esneklik de kuvveti kopmadan taşımasına izin verir. Bağlamdaki {ar:اللين والانقياد والمطاوعة, tr:al-līn wa-l-inqiyād wa-l-muṭāwaʿa, gloss:yumuşaklık, uyum ve boyun eğen esneklik} imgesi, ölçülmüş biçimin kuvvetle ilişkisini kaybetmeden bükülebilmesini açıklar. Buna karşılık {ar:فتل إلى أسفل وطعن حذاء الوجه, tr:fatl ilā asfal wa-ṭaʿn ḥidhāʾa al-wajh, gloss:aşağı doğru bükülme veya yüze yakın itiş} imgesi (92:5, 92:7, 92:10)’daki kolaylık ve zorluğa aşağı doğru çekiş, bükülme ve karşı kuvvet ayrıntısı ekler. Bu temas yaratılmış biçimi gerçek bir kordon veya belirlenmiş bir ahlaki yol haline getirmez; farklı baskılar altında sürekliliğini koruyabilen bir çizgi olarak görülmesini sağlar.
+
+## Beden ve Eylem
+
+Yaratılmış çiftin yanında, bedenlenmiş oluş ile sonradan edinilen ahlaki yön arasındaki ayrım belirginleşir. {ar:إِنَّ سَعْيَكُمْ لَشَتَّىٰ, tr:inna saʿyakum la-shattā, gloss:çabanız gerçekten farklı yönlerdedir} (92:4), farkı yaratılıştaki cinsiyetlerden insanların yürüttüğü eylemlere taşır. (92:5)’te verme ve sakınma, (92:6)’da {ar:وَصَدَّقَ بِٱلْحُسْنَىٰ, tr:wa-ṣaddaqa bil-ḥusnā, gloss:güzeli doğruladı}, (92:8)’de {ar:وَأَمَّا مَنۢ بَخِلَ وَٱسْتَغْنَىٰ, tr:wa-ammā man bakhila wa-staghnā, gloss:elini sıkıp kendini yeterli gören kimse} ve (92:9)’da {ar:وَكَذَّبَ بِٱلْحُسْنَىٰ, tr:wa-kadhdhaba bil-ḥusnā, gloss:güzeli yalanladı} karşıt yolları kurar. {ar:خَلَقَ, tr:khalaqa, gloss:yarattı} fiilinin huy ve iç karakterle ilgili kullanımına yapılan bu dönüş, ahlaki yönü yaratılmış çift hakkında sabit bir hüküm değil, eylemler içinde görünen bir eğilim olarak duyurur. (92:8)’deki {ar:بَخِلَ, tr:bakhila, gloss:elini sıkıp vermemek} de bağımsız bir eylemdir; onu miras alınmış bir cinsiyet özelliği yapan bir sözlük dalı değildir.
+
+Aynı eylem dizisi erkek adındaki sertlik, keskinlik ve güç rengiyle dişi adındaki yumuşaklık ve daha düşük kuvvet rengiyle temas edebilir. Bu iki malzeme yönü sabit karakterler değil, her iki cinse de açık kuvvet kullanma, korunma, esneme ve geri çekilme kapasiteleri olarak anlaşılır. (33:35)’teki {ar:وَٱلْمُتَصَدِّقِينَ وَٱلْمُتَصَدِّقَٰتِ, tr:wa-l-mutaṣaddiqīna wa-l-mutaṣaddiqāti, gloss:erkek ve kadın sadaka verenler} ifadesi aynı etik fiili iki cins için birlikte sayarak bu sınırı somut biçimde korur. Bu nedenle erkeklik sertliğe, dişilik yumuşaklığa ahlaki kader olarak bağlanmaz; (92:5)’teki verme ve sakınma ile (92:8)’deki esirgeme ve kendini yeterli görme, iki bedenî kutuptan bağımsız seçilmiş eylemler olarak kalır.
+
+Bu temas, yaratılmış hazırlığı sonradan yön kazanan, farklı koşullara uyum gösterebilen bir kapasite gibi duyurur. {ar:خَلَقَ, tr:khalaqa, gloss:yaraşır ve uygun kılmak} fiilinin kişiyle ona bağlanan iş veya nitelik arasında uygunluk bildiren kullanımı, bu hazırlanmış biçimi bağlanacağı işe veya niteliğe elverişli kılar. (92:7) ve (92:10)’da aynı kolaylaştırma işleminin karşıt hedeflere uygulanması, kolaylığın kendi başına ahlaki ödül değil, çevredeki davranışın açtığı yolu yaşanabilir kılan bir destek olduğunu gösterir. Kolay hedefe yönelen hareket hafif ve uyumlu bir ilerleme, zor hedefe yönelen hareket ise daralan ve engelli bir yön duygusu verir. Böylece yaratılmış çift sabit yazgıya veya doğuştan paylaştırılmış yeteneğe indirgenmeden, kolay ve zor yolların sonradan karşılaşılan yönler olarak kalmasına izin verir.
+
+## Ad ve Görünüş
+
+{ar:ٱلْأُنثَىٰٓ, tr:al-unthā, gloss:dişi} kelimesinin bir adın veya sözün dilbilgisel biçimini dişil kılma yönündeki biçimsel kullanımı da bu yüzeyde belirir. Bu kullanım bir ismin gramer görünüşüyle ilgilidir; biyolojik dişi anlamı yerinde kalır. {ar:ٱلذَّكَرَ, tr:adh-dhakara, gloss:erkek} kelimesinin bir kişiyi, nesneyi veya konuyu sözle anma yönü ise biyolojik erkek kategorisini silmeden onu konuşmada sunulan bir ada dönüştürür. Böylece erkek ve dişi adlandırmaları hem yaratılmış farkı taşır hem de bu farkı dile getiren yüzeyler olarak düşünülebilir.
+
+{ar:خَلَقَ, tr:khalaqa, gloss:var edip ortaya çıkarmak} fiilinin gerçek var ediş yönü, gerçeği olmayan bir söz veya anlatıyı tasarlayıp üretme yönündeki karşı kullanımla aynı yüzeyde buluşur. (92:6)’daki doğrulama ile (92:9)’daki yalanlama, adlandırmanın yaratılmış biçime uygun düşüp düşmediğini sınayan bağımsız temaslardır. Doğru söz, sunulan adın yaratılmış olana karşılık gelmesini; yalanlama ise görünüşüyle gerçeği örten ikna edici bir biçim üretilebilmesini düşündürür. Bu keşifsel dil hareketi, yaratmanın olağan anlamını sözsel imal diye değiştirmez ve bedenlenmiş cinsiyeti yalnızca dilsel bir işarete indirgemez. Yaratılmış fark ile onu sunan dilsel yüzey birlikte görünür, fakat işlevleri ayrışır.
+
+## Açılma, Akış ve Korunma
+
+Yaratılmış çift, hayatın oluşmasını kuşatan merhamet ve korunma çerçevesi içinde de duyulabilir. Açılıştaki {ar:بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ, tr:bismi llāhi r-raḥmāni r-raḥīm, gloss:Rahmân ve Rahîm olan Allah’ın adıyla} merhamet hitabı (S:0)’da, ilerideki {ar:وَسَيُجَنَّبُهَا ٱلْأَتْقَىٰ, tr:wa-sayujannabuhā al-atqā, gloss:sakınan kişi ondan uzak tutulacaktır} korunma yönü ise (92:17)’de görünür. {ar:خَلَقَ, tr:khalaqa, gloss:ortaya çıkarıp varlık kazandırdı} burada merhametin sözlük karşılığı değildir; merhamet hitabı ve zarardan uzak tutulma, oluşmuş hayatı çevreleyen koşullar gibi geri döner. Bu bağ yaratma fiilini “merhamet” diye çevirmeden, yaratılmış çiftin korunmuş bir hayat taşıyıcılığı olarak hissedilmesini sağlar. {ar:ٱلْأُنثَىٰٓ, tr:al-unthā, gloss:dişi} bu çerçevede yaratılmış çiftin somut üyesi olarak kalır.
+
+Aynı hayat taşıyıcılığı, (92:8)’deki kapanma ile (92:18)’deki arınma ve büyüme arasındaki farkı verimli alıcılık ve üretken olmayan kapanma olarak görünür kılabilir. {ar:ٱلْأُنثَىٰٓ, tr:al-unthā, gloss:dişi} için duyulan yumuşak ve bitki çıkarmaya elverişli toprak imgesi, {ar:خَلَقَ, tr:khalaqa, gloss:varlığa getirdi} fiilinin başlangıç yönüyle buluşur. {ar:وَأَمَّا مَنۢ بَخِلَ وَٱسْتَغْنَىٰ, tr:wa-ammā man bakhila wa-staghnā, gloss:esirgeyip kendini yeterli sayan kimse} kapanan yolu, {ar:ٱلَّذِى يُؤْتِى مَالَهُۥ يَتَزَكَّىٰ, tr:alladhī yuʾtī mālahu yatazakkā, gloss:malını verip arınan kişi} ise aktarım ve büyüme yönünü açar. Böylece etik karşıtlık oluşmuş hayatın açık ya da kapalı kalmasını düşündüren maddi bir görüntü kazanır. Bu ekolojik karşılaştırma kadınları toprağa eşitlemeden, biyolojik çifti ve davranışın bağımsızlığını koruyarak işler.
+
+Bu toprak imgesinin aktarım yönünde artış, tek başına bir özellik değil, alıp vererek çoğalan bir hayat dolaşımı gibi duyulur. {ar:ٱلْأُنثَىٰٓ, tr:al-unthā, gloss:dişi} için sağlanan verimli zemin, (92:18)’deki {ar:يُؤْتِى, tr:yuʾtī, gloss:verir ve elden çıkarır} eylemiyle ve {ar:يَتَزَكَّىٰ, tr:yatazakkā, gloss:arınır ve doğrulur} dönüşümüyle buluşur. Sonraki verme yalnız mali bir işlem değil, hayatın artışını dışarıya aktararak sürdüren canlı bir dolaşım olarak sezilebilir. Bu keşifsel benzetmede dişi sözcüğü “toprak” diye çevrilmez; alıcılığın dışarıya aktarıldığında büyümeye ve arınmaya açılabileceği ayrı bir görüntü eklenir.
+
+Yaratılmış çiftin ortaya çıkışı daha bedensel bir keşifsel titreşimde, kapanmayı aşarak doğuma ve görünür olmaya ilerleyen kırılgan bir geçit gibi de duyulabilir. {ar:خَلَقَ, tr:khalaqa, gloss:oluşturup biçim verdi} için sağlanan kapalı ve geçitsiz üreme yolu imgesi, (92:10)’daki {ar:لِلْعُسْرَىٰ, tr:lil-ʿusrā, gloss:güçlük ve zorluk yönü} ile, (92:18)’deki {ar:يُؤْتِى, tr:yuʾtī, gloss:verir ve dışarı çıkarır} ve (92:20)’deki {ar:وَجْهِ, tr:wajh, gloss:yüz ve yön} ile temas eder. Zor olan yola kolaylaştırma, malın dışarı verilmesi ve bir yöne yönelme, tamamlanmış bir sınıflandırmadan tıkanma, geçiş ve ortaya çıkma riskine doğru bir hareket düşündürür. (75:38)’deki {ar:ثُمَّ كَانَ عَلَقَةًۭ فَخَلَقَ فَسَوَّىٰ, tr:thumma kāna ʿalaqatan fa-khalaqa fa-sawwā, gloss:sonra asılı bir embriyo oldu, yarattı ve düzenledi} oluşumdan düzenlenmiş biçime geçişi destekler. Bu anatomik benzetme yaratma fiilini doğum süreci diye çevirmeden, biyolojik dişi anlamını geçit imgesinin içinde birincil tutar.
+
+Bu geçit düşüncesi, alıcı bir boşlukta akışın ortaya çıkıp büyümeyi beslediği üretken bir ekolojiye de açılabilir. {ar:خَلَقَ, tr:khalaqa, gloss:su tutan bir boşluğu imgeleyen oluşum} yaratma eylemine yağmuru tutan kaya oyuğu gibi alıcı bir kap rengi verir. {ar:ٱلْأُنثَىٰٓ, tr:al-unthā, gloss:dişi} için sağlanan yumuşak ve bitki veren toprak, bu kabın kabul kapasitesini kök salınan bir alana dönüştürür. (92:18)’deki {ar:يُؤْتِى, tr:yuʾtī, gloss:verir ve akışı açar} olağan mal verme anlamını korurken, atfedilmiş su yolu dalı akışın tutulmuş sudan alana geçmesini düşündürür; aynı yüzeyin dışarı çıkarma yönü büyümeyi ve yavrunun görünür olmasını ekolojik çıktı gibi duyurur. {ar:يَتَزَكَّىٰ, tr:yatazakkā, gloss:arınır ve temizlenir} olağan arınma anlamında kalır, fakat uzak büyüme yankısı artışı tek seferlik olmaktan çıkarır. (92:20)’deki {ar:رَبِّهِ, tr:rabbihi, gloss:onun Rabbi} olağan rablık anlamını taşırken, bu benzetmede ortaya çıkanın nasıl sürdürüldüğünü ve geliştirildiğini düşündürür. (42:49)’daki {ar:يَهَبُ لِمَن يَشَآءُ إِنَٰثًۭا وَيَهَبُ لِمَن يَشَآءُ ٱلذُّكُورَ, tr:yahabu liman yashāʾu ināthan wa-yahabu liman yashāʾu adh-dhukūr, gloss:dilediğine kızlar ve oğullar bağışlar} ifadesi de erkek ve dişi yavruları tercih sıralaması kurmadan ilahî verme içinde birlikte gösterir. Bu uzak bağlantı kadın kişileri toprağa, yaratmayı tarıma eşitlemeden, kabul, akış, ortaya çıkış ve bakım arasındaki ilişkiyi maddi bir görüntü olarak açar.
+
+## Failin Geri Çağrılması
+
+Bu ayette yaratma eylemi açık bir özne adıyla değil, mā’nın açık bıraktığı ilişkiyle görünür. Mā’nın göreli ve masdarî yönleri birlikte canlı kaldığı için bu açıklık korunur; ilerideki ifadeler ise faili bağlamsal olarak geri çağıran bir aday oluşturabilir. (92:12)’deki {ar:إِنَّ عَلَيْنَا لَلْهُدَىٰ, tr:inna ʿalaynā la-l-hudā, gloss:doğru yolu göstermek bize aittir}, (92:13)’teki {ar:وَإِنَّ لَنَا لَلْءَاخِرَةَ وَٱلْأُولَىٰ, tr:wa-inna lanā la-l-ākhirata wa-l-ūlā, gloss:son da ilk de bize aittir} ve (92:20)’deki {ar:إِلَّا ٱبْتِغَآءَ وَجْهِ رَبِّهِ ٱلْأَعْلَىٰ, tr:illā ibtighāʾa wajhi rabbihi al-aʿlā, gloss:yalnızca yüce Rabbinin yüzünü aramak} ifadeleri yönlendirme, iki zaman kutbu ve rablık-tamamlama temasını aynı oluş fiiline geri bağlayabilir. Böylece yemin hem yaratma olayını hem de sonradan sorumluluğu duyulan bir sesi taşıyabilir. Bu uzak geri çağırma, “kim yarattı?” sorusunu tek bir zorunlu gramer çözümüne kapatmaz; sonraki sözlerin yaratıcıyla özdeşliği güçlü bir çıkarım olarak kalır.
+
+Bu izde {ar:خَلَقَ, tr:khalaqa, gloss:varlık kazandırdı} daha sonra yönlendirme, zaman sahipliği ve rablıkla fail kazanabilecek örtük bir oluşturma eylemidir. Hidayet, yol ve hakikate yönelten amaçlı rehberlik; {ar:ٱلْءَاخِرَةَ, tr:al-ākhirah, gloss:sonraki olan} ile {ar:ٱلْأُولَىٰ, tr:al-ūlā, gloss:ilk ve önceki olan} başlangıçla sonun ikisini birden üstlenen bir ses; {ar:رَبِّهِ, tr:rabbihi, gloss:onun Rabbi ve sahibi} ise sahiplik ve egemenlik yönünde bir dayanak sağlar. Aynı {ar:رَبِّهِ, tr:rabbihi, gloss:besleyen, onaran ve tamamlayan Rabbi} rablığı oluşanı sürdürüp tamamlayan bir eylem olarak da bağlar. Bu uzak bağlantı iki yönün hangisinin baskın olduğunu kesinleştirmez.
+
+## Biçimin Karşı Oku
+
+Tamamlanmış görünen biçim, sonraki süreçlerde yıkıma, ateşle işlenmeye veya korunarak kenara alınmaya açık kırılgan bir başlangıç olarak da duyulabilir. {ar:خَلَقَ, tr:khalaqa, gloss:tam ve dengeli dış biçim kazandırdı} için sağlanan biçim kullanımı, (92:11)’deki {ar:تَرَدَّىٰ, tr:taraddā, gloss:yıkıma düştü}, (92:14)’teki {ar:نَارًا, tr:nāran, gloss:ateş}, aynı ayetteki {ar:تَلَظَّىٰ, tr:talaẓẓā, gloss:şiddetle alevlendi} ve (92:15)’teki {ar:يَصْلَىٰهَآ, tr:yaṣlāhā, gloss:ona girer ve ateşle temas eder} ile karşılaşır. Biçimlenmiş sonuçtan sonra düşüş, yoğun ateş ve ateşle temas, karşı-biçimlenme baskısını artırır. (92:17)’deki {ar:وَسَيُجَنَّبُهَا, tr:wa-sayujannabuhā al-atqā, gloss:ondan uzaklaştırılacaktır} zarar veren ortamdan yana alınmayı koruyucu karşı hareket olarak getirir; {ar:ٱلْأَتْقَىٰ, tr:al-atqā, gloss:en çok sakınan} olağan sakınan kişi anlamını korurken bu örtüyü tamamlar. Bu maddi benzetme yaratma fiilini ateş işleme diye çevirmeden, biçimlenmiş olanın sonradan yıkılabilir, işlenebilir veya korunabilir bir tarihe girebileceğini düşündürür.
+
+Yaratma ile sonraki verme arasında, farklılaştırılmış hayatın insan borçlanmasına dayanmayan bir başlangıç armağanı gibi duyulan başka bir yankı bulunur. {ar:خَلَقَ, tr:khalaqa, gloss:varlıkları ortaya çıkardı} insan karşılığından önce gelen başlatıcı eylemdir. (92:18)’deki {ar:ٱلَّذِى يُؤْتِى مَالَهُۥ يَتَزَكَّىٰ, tr:alladhī yuʾtī mālahu yatazakkā, gloss:malını verip arınan kişi}, {ar:يُؤْتِى, tr:yuʾtī, gloss:verir ve elden çıkarır} ile elindekini aktarmayı, {ar:يَتَزَكَّىٰ, tr:yatazakkā, gloss:arınır ve doğrulur} ile veren kişinin dönüşümünü gösterir. (92:19)’daki {ar:تُجْزَىٰٓ, tr:tujzā, gloss:karşılığı ödenir} olağan ödeme anlamını taşır; çevresindeki söz, bu verme eylemini insan alacağını kapatan bir işlem olmaktan uzaklaştırır. (92:20)’deki {ar:ٱبْتِغَآءَ, tr:ibtighāʾ, gloss:aramak ve yönelmek} ile {ar:وَجْهِ, tr:wajh, gloss:yüz ve yönelinen zat} eylemi insan geri dönüşünden başka bir hedefe çevirir; {ar:رَبِّهِ, tr:rabbihi, gloss:Rabbi ve kaynak sahibi} hediyeyi bir insan alacağından değil, yönelinen kaynakla kurulan ilişkiden doğan bir hareket gibi duyurur. Bu bağ yaratmayı “bağış” diye çevirmeden, cömertliğin insan borcuna indirgenemeyen yönünü görünür kılar.
+
+Bu son hareket, yaratılmış erkek-dişi çiftini hak ve yükümlülüklerin yazılabilir olduğu bir ilişki alanı gibi renklendirirken, son verme eyleminin insan borcuna indirgenemeyen yönünü de görünür kılar. {ar:خَلَقَ, tr:khalaqa, gloss:payları ve sınırları belirleyerek oluşturdu} için sağlanan paylaştırma yönü, açıkça adlandırılmış çifti böyle bir kayıt alanına bağlar. {ar:ٱلذَّكَرَ, tr:adh-dhakara, gloss:erkek} için duyulan hakkı yazılı biçimde kanıtlayan senet imgesi, {ar:ٱلْأُنثَىٰٓ, tr:al-unthā, gloss:dişi} ile birlikte iki farklılaştırılmış kişinin oluşturduğu çift alanında kalır. (92:18)’deki {ar:مَالَهُۥ, tr:mālahu, gloss:malı ve mülkü} hesaba girebilecek somut varlığı, (92:19)’daki {ar:تُجْزَىٰٓ, tr:tujzā, gloss:karşılığı ödenir} olağan ödeme anlamının yanında borç toplama ve kapatma mekanizmasını sağlar. Aynı ayetteki {ar:وَمَا لِأَحَدٍ عِندَهُۥ مِن نِّعْمَةٍۢ تُجْزَىٰٓ, tr:wa-mā li-aḥadin ʿindahu min niʿmatin tujzā, gloss:kimsenin karşılığı ödenecek bir iyiliği yoktur} ifadesi insan alacaklısını hesaptan çıkarır; (92:20)’deki {ar:ٱبْتِغَآءَ, tr:ibtighāʾ, gloss:arama} da eylemi insan tahsilinden uzaklaştırır. (33:35)’te erkek ve kadınların aynı etik fiillerle birlikte anılması, hak veya davranışın tek bir cinsin mülkü sayılamayacağını yeniden gösterir. Bu uzak hukuki art görüntü, bir hukuk hükmü veya erkeklere hak tekeli kurmadan, yaratılmış çiftin açık anlamı içinde son verme hareketinin insan borcuna indirgenemeyen yönünü görünür kılar.
+
+</editorial_prose>

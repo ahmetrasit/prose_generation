@@ -1,0 +1,199 @@
+# V5 reading invitation — 92:5
+
+You are a fresh reading-invitation writer. Read the complete editorial prose
+before writing. It is your sole semantic source.
+
+Write two to four paragraphs of fluent, contemporary Turkish that reveal a
+surprising reading by following one or two main channels of resonance in the
+ayah. A channel is a connected background of meanings, images, actions, or
+relations through which the ayah can be heard and understood differently.
+Several editorial findings may together develop one channel. Summarize that
+connected movement and its consequence for the ayah's main meaning, rather
+than compressing findings individually. Give the reading's substance now;
+the invitation comes from understanding it, not from a promise of hidden depth.
+
+Before drafting, read the entire editorial prose and silently select the one
+or two channels with the strongest interpretive consequence and enough
+grounding to explain clearly. Favor channels that expand or shift what the
+ayah says, the relation it establishes, or what is at stake in its action or
+image. One fully developed channel is sufficient; add a second only when it
+offers a distinct consequential reading that can be explained within the
+invitation. No finding, channel, or major shift has an individual coverage
+claim. Unselected material may remain entirely in the full commentary.
+
+A channel may develop through grammar, sound, dialogue, a material process,
+time, imagery, or a conceptual relation. Resonance is not limited to acoustic
+effects, and an unusual image alone does not establish a channel. Use only
+connections the editorial prose actually develops. If it supplies no such
+channel, explain its strongest grounded reading without inventing connections
+or surprise.
+
+Begin inside the ayah's own words, images, actions, or relations and reveal a
+selected distinctive reading in the first paragraph. Keep the plain meaning
+reachable with only the orientation needed to understand the change. Do not
+spend an opening paragraph on routine explanation or front-load context about
+the surah, the ayah's position, or the commentary project.
+
+For each selected channel, begin with the expression that opens it, unfold the
+connected background, and show how the ayah reads or sounds against that
+background. Let a detail lead into the next through an intelligible relation
+or process, so the reader experiences the emerging reading. This is a movement
+of thought, not a mandatory sentence pattern or one paragraph per finding.
+Let the reader identify the expression being interpreted,
+where any nonordinary detail comes from, and what that detail changes in the
+reading. Briefly identify the word-family use, restricted form, collocation, or
+context that supplies an essential added detail, and preserve the concrete
+operation that makes the image work. Keep the ordinary reading and necessary
+qualification clear within this explanation; do not repeat them as a fixed
+formula. Preserve the particular object, process, or relation that makes this
+reading distinctive, and state its interpretive consequence for the ayah as a
+whole. Make intelligible what the familiar reading leaves less visible and
+what the expanded or shifted reading now lets the reader understand. Preserve
+the editorial's force: an exploratory possibility remains possible, while a
+developed shift must not be softened into a decorative association or a
+reassurance that everything means the same thing. A concrete
+account of how something is carried, transformed, lost, or restored must not
+shrink to a general statement about care, guidance, dependence, or goodness.
+Keep the details needed to make the selected channel work; omit side findings
+and shorten routine setup. If a channel cannot be explained faithfully from
+the editorial prose, choose another grounded channel or reading.
+
+When a non-focus ayah supplies a contribution used in the invitation, keep its
+reference from the editorial prose beside that contribution.
+
+Do not turn the invitation into a miniature inventory of the commentary's
+conclusions, or flatten distinct channels into a broad theme to include more
+material. Do not repair, extend, or supplement the editorial prose from memory
+or outside knowledge.
+
+Omit technical apparatus. Retain any qualification, source distinction, live
+alternative, or boundary whose absence would change the force or meaning of a
+chosen reading. Express it naturally beside the image or relation it qualifies.
+Favor positive explanations of the relation between layers: what remains in
+the foreground and what the resonance makes audible in the background. State
+how that background reinforces, expands, or shifts the understanding of the
+main meaning, with the source and degree of certainty clear. Reserve explicit
+exclusions for concrete ambiguities or live counter-evidence that need them.
+Repeated "this is not X" endings make a reading sound withdrawn; express the
+substantive qualification through what the reading does contribute wherever
+possible. Use varied, natural language rather than a repeated "second layer"
+formula, and preserve the force of expansions and shifts.
+Do not name branches, candidates, findings, scopes, evidence categories,
+ledgers, or workflow stages, or label the prose as numbered channels. Do not
+list findings serially.
+
+Use the established `{ar:..., tr:..., gloss:...}` syntax, consistent
+Turkish-readable transliteration, and short ordinary glosses. Keep Arabic
+anchors beside the explanations they ground. Within a paragraph, continue with
+the Turkish meaning where clear; provide the necessary local tag when a later
+paragraph interprets the carrier anew. Do not place Arabic script outside a
+valid tag.
+
+Build transitions within a channel through its shared object, action, or
+relation. If two channels are selected, they may occupy separate paragraphs;
+do not invent a link between them. Do not praise the commentary's quality,
+promise what the reader will find, manufacture suspense, recap at the end, or
+add a call to action. End on an image, relation, action, or tension already
+established by the selected reading.
+
+Before finishing, compare the invitation with the entire editorial prose:
+does the chosen channel reveal a consequential reading, or could the text have
+been written from the ordinary translation and a modest explanation alone?
+When the editorial supports a surprising channel, the latter fails this task.
+Can the reader follow the opening expression into a connected background and
+understand how that background expands or shifts the ayah's main meaning?
+Check the selected connections against their editorial explanation: can the
+reader tell where the nonordinary details come from, with the necessary
+qualifications intact? Repair generic explanation, isolated curiosities, or a
+compressed findings list by developing the selected channel. Do not add
+omitted channels merely for coverage. Do not output this check.
+
+Write only the invitation text to:
+
+`_commentary/v5/editorial/s092-regular-20260912/s092/92_5/92_5.invitation.tr.md`
+
+Do not add a heading, wrapper label, index, ledger, evidence file, or any other
+artifact. Do not modify the editorial prose.
+
+After writing the invitation, run:
+
+```bash
+python3 _commentary/v5/validate_prose.py _commentary/v5/editorial/s092-regular-20260912/s092/92_5/92_5.invitation.tr.md
+```
+
+If validation fails, repair only the reported mechanical file-contract issues
+and rerun it, for at most two repair cycles. Report the final validator result
+in your response.
+
+<editorial_prose>
+Önceki sözün (92:4) içinden gelen bu parça, hükmün sonucunu vermeden ilk insan durumunu açar. {ar:فَ, tr:fa, gloss:ardından gelen bağ} önceki akıştan buraya geçişi kurar; hemen ardından {ar:أَمَّا, tr:ammā, gloss:ilk durumu öne çıkaran çerçeve} gelir. Böylece dinlenen şey bağımsız bir öğüt değil, iki fiille doldurulacak şartlı bir durumdur: kim verir ve sakınırsa. Ammā, davranışı söylemeden önce ele alınacak insan durumunu öne alır; kısa fa'nın ardından uzayan ve ikizlenen sesi de bu açılışa işitsel bir ağırlık verir. Bu çerçeve, karşılık gelecek eş durumun yapısal yerini şimdiden açar; bu kısa parça ilk durumu ve onun iki ölçütünü verir, eş durumun içeriğini sonraki açıklamaya bırakır. Şartın cevabı da fiillerden sonra hemen kapanmaz; sonraki açıklama alanına taşınır.
+
+Bu insanın kim olduğu hazır bir adla değil, davranışlarıyla belirlenir. Ardından gelen {ar:مَنْ, tr:man, gloss:kim / her kim} çerçeve ile ilk eylem arasına kısa bir tutunma noktası koyar: dinleyen önce kimin söz konusu olduğunu duyar, sonra bu kişinin ölçütlerini öğrenir. Man'ın fiillerden önce gelmesi açık bir kişi yuvası açar. Tekil görünümü adı konmuş tek bir kişiyi, özel bir adı veya cinsiyeti işaretlemez; iki fiilin şartını taşıyan her kimse bu alanın içindedir. Aynı yuva, ileride benzer biçimde kurulacak karşılık için bir beklenti bırakır. Buraya başka bir kişiyi taşımadan, ilk yapının henüz kapanmadığını duyurur. Man'ın açtığı özne, vermeyi ve sakınmayı iki ayrı kişiye bölmeden aynı insan tipinin iki niteliğini birlikte taşır.
+
+## Elin Dışa Hareketi
+
+İlk somut eylem {ar:أَعْطَىٰ, tr:aʿṭā, gloss:verir} kelimesinde belirir. İki fiilin benzer kapanışı, verme ile sakınmayı sesçe birbirine bağlarken aʿṭā'nın daha seyrek karşılaşılan biçimi ilk işareti öne çıkarır. Önce anlamı duyulur: bir şeyin dışarıdaki bir alıcıya ulaşmasını sağlayan etkin bir verme. Fiilin dördüncü kalıptaki geçişli yapısı, hareketi yalnızca sahiplik değişimi olarak değil, kişinin elinden dışarı doğru yönelen bir aktarım olarak kurar. Geçmişte tamamlanmış biçim bu işi man'ın açtığı özneye ait gerçekleşmiş bir nitelik gibi gösterir; burada yapılması istenen bir emirden çok, kişinin tamamladığı iş vardır. Bu açıklık, verilen şeyin ve alıcının adını belirlemeden, vermeyi geniş bir dışa bırakma tutumu olarak duyurur. Aʿṭā, şartın ilk halkasıdır ve kendi başına sonuca dönüşmeden ikinci ölçüte doğru ilerler.
+
+Bu verme çevresinde daha dar bir bırakma basıncı da duyulabilir. {ar:أَعْطَىٰ, tr:aʿṭā, gloss:verir} bir şeyin kişiden çıkıp dışarıya bırakılmasını hissettirebilir; bu basınç, bağımsız bir bırakma fiili kurmaktan çok vermenin taşıdığı elden çıkarma yönünü belirginleştirir. Ardından sakınma gelir ve yerel çift tamamlanır. Aradaki {ar:وَ, tr:wa, gloss:ve} küçük bağ, iki uzun fiil arasında ritmik bir menteşe kurar: iki vuruş tek bir eyleme erimeden aynı akışta ilerler. Wa'nın cümledeki işi, sakınmayı şartın içindeki ikinci ölçüt olarak aʿṭā'ya bağlamaktır; sonucun bildirimi sonraki alana kalır. Böylece man'ın açtığı kişi önce verir, ardından aynı kişi olarak sakınır; iki yüklem ayrı faillere dağılmaz. İkinci fiil duyulunca iki nitelik belirginleşir, fakat şartın daha büyük cevabı hâlâ açıklanacak yerdedir.
+
+## İçeride Konan Sınır
+
+İkinci eylem {ar:ٱتَّقَىٰ, tr:ittaqā, gloss:sakınır}dır. Bu fiilin sekizinci kalıptaki biçimi sakınmayı kişinin kendi üzerinde gerçekleştirdiği tamamlanmış bir koruyucu tutum olarak seçer; kişi hem sakınan hem bu tutumun korumasını taşıyandır. Söylenmeyen nesne, korumayı tek bir korkuya, zarara veya saygı nesnesine kilitlemez. Fiil, kişinin ahlaki tehlike ve zarar karşısında kendisini korumaya yöneldiği geniş bir alan açar. Biçimde sıkışan özümlenmiş ikiz diş sesi bu tutuma işitsel bir gerilim verir; sesin işi ayrı bir anlam açmak değil, seçilmiş sakınma hareketini yoğunlaştırmaktır. Wa'dan sonra kesintisiz duyulduğunda ittaqā, vermeden kopuk bir cümle değil, aynı şartın bağlı devamıdır. Son fiildeki kapanış şartın nitelik bölümünü tamamlar ve cevabı sonraki açıklamaya taşır.
+
+{ar:ٱتَّقَىٰ, tr:ittaqā, gloss:sakınır}nın koruma alanı, zarar ile korunacak kişi arasına bir araç, katman veya engel koyma görüntüsünü de taşıyabilir. Bu ihtiyatlı yankı, ahlaki sakınmaya mekânsal bir aralık verir. Görüntü, fiziksel bir engeli fiilin doğrudan nesnesi olarak kurmaktan çok, kişinin kendisiyle zarar arasına sınır koymasını görünür kılar. Böylece sakınan kişi tek bir önlem alan biri olmaktan öte, dikkat ve saygıyı sürdüren bir yönelişle renklenir. Yerel biçim kendi kendini koruma anlamını taşırken, korunan tarafı öne çıkaran bu ayrıntı o anlamın çevresini genişletir.
+
+Şimdi iki fiilin birlikte kurduğu görüntü belirir: dışa açılan bir el ve onu yöneten bir sınır. {ar:أَعْطَىٰ, tr:aʿṭā, gloss:verir} bir şeyi başkasına elden uzatıp geçirme ayrıntısını, {ar:ٱتَّقَىٰ, tr:ittaqā, gloss:sakınır} ise korkulan veya zarar verecek şey ile kişi arasına koruyucu bir önlem koymayı duyurabilir. Bu temas, düz anlamdaki verme-sakınma çiftini derinleştirir; armağanı, alıcıyı veya sonucu belirlemeden, dışa açılan elin sınırla birlikte çalıştığı bir hareket gösterir.
+
+Aynı el ve sınır görüntüsü, {ar:أَعْطَىٰ, tr:aʿṭā, gloss:verir} için taşınan başkasının işini görme, ihtiyacı olanı uzatma ve bakımını üstlenme kullanımında başka bir katkı kazanır. {ar:ٱتَّقَىٰ, tr:ittaqā, gloss:sakınır}nın koruyucu aralığıyla buluşan verme, korumayı bir başkasına ulaştıran ve onun koşullarını gözeten bir bakım ilişkisi gibi görünür. Bu bakım okumasının sınırı da aynı yerde belirir: alıcının kimliği, bakımın süresi ve belirli bir sonucun gerçekleşmesi 92:5'teki iki fiilden çıkarılmaz. Daha denemeli bir görüntüde aʿṭā, hakkı olmayan bir şeye el uzatan ve gözü pekçe bir işe girip onu sonuna vardırmak isteyen ileri hareketi duyurur; ittaqā bu erişime taşkınlıktan koruyan bir sınır çizer. Bu çizgi belirli bir işin veya başarının sonucu olarak kurulmaz. Her iki görüntü, temel verme-sakınma anlamının çevresinde çalışır; cesur uzanışın korunarak yönlendirildiği ihtiyatlı bir şema açar.
+
+## Kolaylığa Uyan Hareket
+
+Dışarı uzanan el, 92:7'deki kolaylık hattıyla karşılaşınca sertliğini kaybedip yönünü sürdürebilen bir harekete de benzer. {ar:أَعْطَىٰ, tr:aʿṭā, gloss:verir} için ayrı tutulan bir kullanım, dirençli olmayan ve kolayca bükülüp gerilen yayın uyumunu çağrıştırır. 92:7'deki {ar:فَسَنُيَسِّرُهُۥ لِلْيُسْرَىٰ, tr:fa-sanuyassiruhu lil-yusrā, gloss:onu kolaylığa yönelteceğiz} bağımsız kolaylaştırma hattı bu bedensel imgeyi tetiklediğinde, verme hareketine kırılmadan dışarı taşınan bir esneklik eklenir. Verme böylece yalnız miktarı belli bir aktarım değil, direnç göstermeden kolaylığa doğru sürdürülebilen bir bırakma tavrı gibi duyulur. {ar:ٱتَّقَىٰ, tr:ittaqā, gloss:sakınır}nın kişi ile zarar arasına önlem koyan yüzü bu yumuşamayı yönsüz bir çözülme olmaktan çıkarır; koruyucu duruş kolayca ilerleyen hareketi tutar. Bu bağlantı yalnızca kuvvet altında biçimini koruyan, yönlendirilebilir bir esneklik taşır. Yay imgesi burada tel, ölçü, yüzey ve aşağı burgu ayrıntılarıyla genişleyen bir düzenek sahnesine dönüşmez; kolaylık da aʿṭā'nın dilbilgisel nedeni olarak kurulmaz.
+
+## Açılan Geçişin Sınırı
+
+Esneyen dışa yöneliş, iki fiilin birlikte seçtiği bir geçiş düzenine dönüşür. {ar:أَعْطَىٰ, tr:aʿṭā, gloss:verir}nın elden uzatan yönü ile {ar:ٱتَّقَىٰ, tr:ittaqā, gloss:sakınır}nın koruyucu aralığı, gecenin (92:1) {ar:يَغْشَىٰ, tr:yağşā, gloss:örtmesi ve gizlemesi} ile gündüzün (92:2) {ar:تَجَلَّىٰ, tr:tecellā, gloss:açığa çıkıp görünmesi} arasındaki örtülme-görünme hareketine değdiğinde bu seçim görünür olur. Gece bir şeyi örterken gündüz onu açığa çıkarır; verme yararlı olanı dışarı geçiren, sakınma da zararlı olanı sınırda tutan bir açıklık ve korunma hali gibi çalışır. İnsan çabasının (92:4) {ar:سَعْيَكُمْ, tr:saʿyukum, gloss:çabalarınız} amaçlı bir harekete, yönlerin (92:4) {ar:لَشَتَّىٰ, tr:le-şattā, gloss:elbette ayrı yönlere dağılmış} ise ayrışmaya açıldığını duyunca, iki fiil hangi geçişin açılacağını ve hangisinin kesileceğini ayarlayan bir sınır gibi okunabilir. Okur böylece vermeyi sınırsız açılma, sakınmayı da bütün teması kesen kapanma olarak değil, ayrışan çabalar içinde yönü koruyan bir düzen olarak görür. Bu seçici sınır, açılış yeminlerinin (92:1, 92:2 ve 92:4) gece, gündüz ve ayrışan çabalarla kurduğu karşıtlık çizgisine eklenir; o daha temkinli düz okuma da yerini korur.
+
+## İyiliğin Eyleme Açılması
+
+Bu yön ve sınır duygusu, 92:6'daki iyilik ilişkisiyle başka bir hareket kazanır. {ar:أَعْطَىٰ, tr:aʿṭā, gloss:verir} ile başlayan dışa aktarım, 92:6'daki {ar:صَدَّقَ, tr:saddaqa, gloss:doğruladı ve eylemle gerçek kıldı} ile bir değeri veya vaadi davranış içinde doğrulayan adıma bağlanır. {ar:بِٱلْحُسْنَىٰ, tr:bil-husnā, gloss:iyiliğe ve güzelliğe} bu davranışın değerini, {ar:ٱتَّقَىٰ, tr:ittaqā, gloss:sakınır ve yönünü korur} ise kişiyi yanlış davranıştan uzak tutan öz-koruyucu doğrultuyu taşır. Sonra 92:7'deki {ar:فَسَنُيَسِّرُهُۥ لِلْيُسْرَىٰ, tr:fa-sanuyassiruhu lil-yusrā, gloss:onu kolaylığa yönelteceğiz} gelir. Verme iyiyi eylem içinde doğrular; korunmuş yön tekrarlandıkça iyiliğin yaşanması kolaylaşan bir harekete dönüşür. Bu okuma, 92:5, 92:6 ve 92:7'nin kesintisiz akışından çıkar; aynı sözleri iki niteliğin ardından gelen sonuç olarak duyan daha yalın dizi de canlıdır. İyiliğin gerçekleşerek doğrulanması ile yaşanabilirliğin açılması ayrı katkılar olarak görünür, sakınma da bu iyi yönü sabitler.
+
+## Karşı Güzergahın Sınaması
+
+Kolaylığa açılan bu hareketin karşı görüntüsü, güvenliğin nerede aranacağını sınar. 92:8'deki {ar:بَخِلَ, tr:bahila, gloss:eli kapandı ve vermedi} elde tutmayı bir korunma yolu gibi kurar; {ar:وَٱسْتَغْنَىٰ, tr:wa-istaghnā, gloss:kendini desteğe muhtaç görmedi} kapalı eli kendine yeterlik iddiasıyla destekler. 92:9'daki {ar:وَكَذَّبَ بِٱلْحُسْنَىٰ, tr:wa-kadhdhaba bil-husnā, gloss:iyiliği yalanladı} bu kapalı güzergâhın iyilikle bağını keser. Ardından 92:10'daki {ar:فَسَنُيَسِّرُهُۥ لِلْعُسْرَىٰ, tr:fa-sanuyassiruhu lil-ʿusrā, gloss:onu zorluğa yönelteceğiz} dirençli bir yola açılmayı, 92:11'deki {ar:مَا يُغْنِى عَنْهُ مَالُهُۥ إِذَا تَرَدَّىٰ, tr:mā yughni ʿanhu māluhu idhā taraddā, gloss:düştüğünde malı ona fayda vermez} ise {ar:مَالُهُۥ, tr:māluhu, gloss:malı} denen servetin düşüş anında kalkan olamamasını gösterir. Elde tutulan servet böylece denenmiş ama çalışmamış bir siper gibi görünür. Bu karşı görüntü, 92:5'teki verme ve sakınmayı iki şart olarak kuran düz anlamın yanında, güvenliğin sahip olunan şeyde değil yönü koruyan tutumda aranabileceğini görünür kılar. Sakınma zararlı geçişi kesen koruyucu işlevi taşırken, aynı diziyi iki nitelik ve ardından gelen ayrı bir uyarı olarak okuma imkânı da yerinde kalır.
+
+## Ayağın Bastığı Yer
+
+Düşüşün bu sınırı, verme ve sakınma çiftinde daha şaşırtıcı bir beden görüntüsü açar. {ar:أَعْطَىٰ, tr:aʿṭā, gloss:verir} kelime ailesindeki elle uzanıp alma kullanımının ileriye açılan elini, {ar:ٱتَّقَىٰ, tr:ittaqā, gloss:sakınır ve kendini korur} ise hafif topallayan, toynak ağrısı yüzünden sert zeminde ayağını sakınan hayvanın yürüyüşünü duyurabilir. 92:7'deki {ar:فَسَنُيَسِّرُهُۥ لِلْيُسْرَىٰ, tr:fa-sanuyassiruhu lil-yusrā, gloss:onu kolaylığa yönelteceğiz} düşük dirençli ilerlemeyi uzanışla sakınan ayağın birlikte hareket etmesine açar; 92:11'deki {ar:مَا يُغْنِى عَنْهُ مَالُهُۥ إِذَا تَرَدَّىٰ, tr:mā yughni ʿanhu māluhu idhā taraddā, gloss:düştüğünde malı ona fayda vermez} düşüşü ise ölçüsüz veya korunmasız uzanışın başarısız sınaması olarak karşısına koyar. Böylece soyut cömertlik ve ahlaki dikkat, ileri uzanırken basacağı yeri de yoklayan bir harekete dönüşür. Gerçek bir hayvan sahnesi olarak okunmayan bu imge, hareketin düşüşe dönüşmemesi için ölçülü temasın nasıl çalıştığını gösteren ihtiyatlı bir şema kurar; ayetin sıradan anlamı bu şemanın içinde korunur. Kolay ilerleme ile düşüş aynı uzanışın iki sınırı olarak birlikte duyulur.
+
+## Verirken Korunmak
+
+Dışa bırakmanın sınırı, sevilen bir şeyi elden çıkarma eşiğiyle de görünür olur. {ar:أَعْطَىٰ, tr:aʿṭā, gloss:verir}nın olağan elden verme anlamı, 3:92'deki {ar:تُنفِقُوا مِمَّا تُحِبُّونَ, tr:tunfiqū mimmā tuḥibbūn, gloss:sevdiklerinizden harcayın} ifadesinin sevilen şeyi elde tutma eşiğiyle temas edince, verilen yönün korunmuş bir yön olarak okunmasını güçlendirir. {ar:ٱتَّقَىٰ, tr:ittaqā, gloss:sakınır}nın koruma anlamı 7:26'daki {ar:وَلِبَاسُ ٱلتَّقْوَىٰ, tr:wa-libāsu al-taqwā, gloss:sakınma giysisi} ile ayrı bir örtü ve engel imgesi kazanır; bu imge dışa açılan hediyenin çevresine yerleşen bir sınır gibi görünür. 7:26'daki giysi, bu bağlantıda sınırın hediyenin çevresinde nasıl çalıştığını görünür kılar; 92:5'in kendi görüntüsü ise giysiye değil, verme yönünü düzenleyen sakınma duruşuna dayanır. Bu bağ, her verme eylemine otomatik bir güvenlik garantisi yüklemez; sakınma burada tamamlanmış bir koruma sonucundan önce etkin bir düzenleyici olarak çalışır.
+
+Bu koruyucu sınırın bir başka katkısı, cömertliğin yönünü başkasının hakkı olmayan bir şeye el uzatmaktan korumasıdır. {ar:أَعْطَىٰ, tr:aʿṭā, gloss:verir} için taşınan daha uzak el uzatma kullanımı, {ar:ٱتَّقَىٰ, tr:ittaqā, gloss:sakınır}nın koruyucu yönüyle, 92:8'deki {ar:بَخِلَ وَٱسْتَغْنَىٰ, tr:bahila wa-istaghnā, gloss:elini tuttu ve kendine yeter saydı} ters güzergâhla ve 64:16'daki {ar:وَمَن يُوقَ شُحَّ نَفْسِهِ, tr:wa-man yūqa shuḥḥa nafsih, gloss:nefsinin cimriliğinden korunmuş olan} cimrilik direnciyle temas eder. Verme böylece başkasının üzerinde güç kurma veya kendini gösterme aracına dönüşmekten korunan bir serbest bırakma olarak genişler. Bu bağlantının sınırı da açıktır: gösteriş ve statü arayışı burada adlandırılmaz, bütün verme eylemleri de şüpheli ilan edilmez. Sakınma, elin dışa uzanmasını kesmekten çok, bu uzanışın yönünü ve sınırını korur.
+
+## Başlangıçtan Uca
+
+Bu yön ve sınır, fiilleri tek seferlik karakter etiketleri olmaktan çıkarıp zaman içinde uzanan bir rota ihtimaline de açar. {ar:أَعْطَىٰ, tr:aʿṭā, gloss:verir}nın dışa doğru elden verme, {ar:ٱتَّقَىٰ, tr:ittaqā, gloss:sakınır}nın doğrultuyu koruma anlamı önde kalırken, ilk fiil yola çıkışı, ikinci fiil girilen yolu sürdürmeyi taşıyabilir. 92:12'deki {ar:إِنَّ عَلَيْنَا لَلْهُدَىٰ, tr:inna ʿalaynā la-l-hudā, gloss:yol gösterme bize aittir} ifadesi, vermenin hemen sonrasını düzenleyen bir güzergâh sağlar. 92:13'teki {ar:وَإِنَّ لَنَا لَلْآخِرَةَ, tr:wa-inna lanā la-l-ākhirah, gloss:sonraki uç bize aittir} sonraki varış tarafını, {ar:وَٱلْأُولَىٰ, tr:wa-l-ūlā, gloss:ilk ve önceki uç} ise başlangıç tarafını belirginleştirir. İlk ve sonraki uçlar birlikte tutulduğunda verme, belirli bir başlangıçtan daha ilerideki bir sonuca uzanan bir hareket gibi görünür; ittaqā da bu rotanın doğrultusunu muhafaza eden işlem olarak geri döner. Bu bağlantı 92:12 ve 92:13'ün yol gösterme ile iki ucun aidiyetini bildiren yalın anlamına yalnızca bir yön ve zaman ufku ekler; fiiller yolun sebebi, rehberlik de onların zorunlu sonucu olarak belirlenmez.
+
+## Ateşten Uzaklık
+
+Sakınmanın içe dönük duruşu, zarardan dışarıda tutulma mesafesiyle birlikte görülebilir. {ar:ٱتَّقَىٰ, tr:ittaqā, gloss:sakınır}nın zarar ile korunacak şey arasına araç, katman veya engel koyan ayrıntısı, 92:14'teki {ar:فَأَنذَرْتُكُمْ, tr:fa-andhartukum, gloss:sizi uyardım} uyarısıyla açılan tehlike alanına bağlanır. {ar:نَارًا تَلَظَّىٰ, tr:nāran talaẓẓā, gloss:alev alev yanan ateş} soyut zararı maddi ateş olarak belirir; 92:15'teki {ar:لَا يَصْلَاهَا, tr:lā yaṣlāhā, gloss:ona girmeyecek ve ateşe temas etmeyecek} ateşle temasın geometrisini verir. 92:17'deki {ar:وَسَيُجَنَّبُهَا ٱلْأَتْقَىٰ, tr:wa-sayujannabuhā al-atqā, gloss:sakınan ondan uzak tutulacak} ise aynı koruyucu ilişkinin dışa dönük yüzünü, kişinin ateşten uzak tutulmasını gösterir. Uyarı (92:14), ateş (92:14), temas (92:15) ve uzaklık (92:17) birbirinden kopuk imgeler değil, içe dönük sakınma ile dışa dönük mesafe arasında ilerleyen bir koruma çizgisi kurar. Bu çizgi, sonraki edilgen uzaklaştırmayı iki olasılığıyla açık bırakır: doğrudan nedensel bir devam veya aynı koruma durumunun yeniden adlandırılması. 92:5'in kendi cümlesi ise ateşle teması henüz kurmaz.
+
+## Dışarı Akan Şey
+
+Elden bırakma, 92:18'deki verme ve arınma diliyle buluştuğunda, alıcıdaki değişim kadar verenin tuttuğu şeyle ilişkisini de görünür kılar. {ar:أَعْطَىٰ, tr:aʿṭā, gloss:verir}nın olağan anlamı, 92:18'deki {ar:يُؤْتِي, tr:yuʾtī, gloss:verir ve bağışlar} ile belirgin bir dış akışın başlangıcına bağlanır. Aynı ayetteki {ar:يَتَزَكَّىٰ, tr:yatazakkā, gloss:arınır, iyileşir ve gelişir} gelişme ve artışla birlikte arınma ve saydamlaşma yönlerini açar. {ar:مَالَهُ, tr:mālahu, gloss:malını} diye belirlenen elde tutulmuş şeyle temas edince, bu dış akış verenin tutuşunu gevşeten ve kendi durumuna geri dönen bir değişim gibi duyulabilir. Verme böylece alıcıya ulaşan aktarımın yanında, birikmiş şeyin tutulma biçimini çözen bir hareket olarak da okunur. Odak fiilde nesne ve alıcı açıkça belirlenmez; gelişme ile arınmanın hangisinin neden, hangisinin eşlik eden sonuç olduğu da açık bırakılır.
+
+Dışarı akan şeyin başka birine yönelen yüzü, verme eylemini tek seferlik teslimden daha uzun bir bakıma da açabilir. {ar:أَعْطَىٰ, tr:aʿṭā, gloss:verir} için taşınan başkasının işini görme ve bakımını üstlenme ayrıntısı, 17:26'daki {ar:وَآتِ ذَا ٱلْقُرْبَىٰ حَقَّهُ, tr:wa-āti dhā al-qurbā ḥaqqahu, gloss:yakının hakkını ver} bağımsız alıcıya hakkını ulaştıran imgeyle temas eder. 92:18'deki gelişme, bu ilgiyi alıcının gelişebileceği koşulları gözeten süreğen bir bakım gibi düşündürür; {ar:ٱتَّقَىٰ, tr:ittaqā, gloss:sakınır}nın korunan şeyi incinmeden veya bozulmadan saklayan engel ayrıntısı da bu koşulu zararlı etkiden koruyan bir çevre açar. 92:20'deki {ar:إِلَّا ٱبْتِغَاءَ وَجْهِ رَبِّهِ ٱلْأَعْلَىٰ, tr:illā ibtighāʾa wajhi rabbihi al-aʿlā, gloss:ancak yüce Rabbinin hoşnutluğunu arayarak} daha yüce bakım, onarım ve tamamlanma ufkunu getirir; insan ölçeğindeki hizmet bu daha büyük ufuk içinde düşünülebilir, onunla özdeşleşmez. Alıcının kimliği, bakımın süresi ve gelişmenin verene, alana veya ikisine ait olup olmadığı bu bağlantının dışındadır; bunlar odak çiftinden belirlenmez.
+
+## Borç Defterinin Dışında
+
+Verme ile sakınmanın bir başka sınırı, hediyeyi insanî alacaklılıktan korur. {ar:أَعْطَىٰ, tr:aʿṭā, gloss:verir}nın elden verme anlamı, 92:19, 92:20 ve 92:21'deki karşılık, yön ve hoşnutluk diliyle buluşur. 92:19'daki {ar:وَمَا لِأَحَدٍ عِندَهُ مِن نِّعْمَةٍ تُجْزَىٰ, tr:wa-mā li-aḥadin ʿindahu min niʿmatin tujzā, gloss:hiç kimseye karşı ödenecek bir iyilik borcu yoktur} ifadesi, hediyenin çevresinden insan alacaklı kimliğini kaldırır. Buradaki {ar:نِعْمَةٍ, tr:niʿmah, gloss:iyilik ve lütuf}, toplumsal bir iyilik borcu doğurabilecek şeyi adlandırır; {ar:تُجْزَىٰ, tr:tujzā, gloss:karşılığı ödenir} ile kurulan karşılık mekanizması ise bu borç defterinin hediyeyi ele geçirmesini sınırlar. 92:20'deki {ar:إِلَّا ٱبْتِغَاءَ وَجْهِ رَبِّهِ ٱلْأَعْلَىٰ, tr:illā ibtighāʾa wajhi rabbihi al-aʿlā, gloss:ancak yüce Rabbinin hoşnutluğunu arayarak} yatay geri ödeme isteğinin yerine başka bir yön koyar. 2:262'deki {ar:ثُمَّ لَا يُتْبِعُونَ مَا أَنفَقُوا مَنًّا وَلَا أَذًى, tr:thumma lā yutbiʿūna mā anfaqū mannan wa-lā adhā, gloss:harcadıklarının ardından başa kakma ve incitme getirmezler} sınırı, verme sonrasında hak iddiası, başa kakma veya incitme gelmemesini belirginleştirir. 92:21'deki {ar:وَلَسَوْفَ يَرْضَىٰ, tr:wa-la-sawfa yarḍā, gloss:sonunda hoşnut olacaktır} ise hemen toplumsal bir karşılığa kapanmayan, daha sonraki bir hoşnutluk ufku açar; bu hoşnutluk kesin bir nedensel ödül olarak kurulmaz. {ar:ٱتَّقَىٰ, tr:ittaqā, gloss:sakınır}nın araya engel koyan yönü hediyeyi karşılık hesabının ve alacaklılık baskısının ele geçirmesinden saklayan sınır gibi çalışır. Bu borçsuzluk bütün karşılıklılıkların yokluğu değildir; belirli bir iyilik borcunun, hak iddiasının ve hemen geri dönüş baskısının hediyeyi yönetmediği yönü gösterir.
+
+Bu yön değişimi, vermeyi karşılıklı bir yarışın dışına da çıkarabilir. {ar:أَعْطَىٰ, tr:aʿṭā, gloss:verir}nın olağan elden verme anlamı korunurken, biçimce daha uzak bir kullanım karşılıklı çekişmenin sonunda öteki kişiye üstün gelip onu yenme imgesini çağırır. 92:19'daki karşılık ve değiş tokuş defteri, 92:20'deki yönelmiş arayışla karşılaşınca hediye için kazanılacak bir skor olmaktan çıkar; açık olumsuzlama ve yeni yön bu rekabet çerçevesini kapatır. Böylece hediye karşılık verme zorunluluğunu ve karşılıklı üstünlük ihtiyacını geride bırakan bir açıklık olarak okunabilir. Bu rekabet imgesi aʿṭā'nın asli sözlük çevirisi olarak değil, bu bağlamda insanî borç ve üstünlük hesabından korunmuş bir yönü görünür kılan uzak bir yankı olarak çalışır; bütün toplumsal alışverişler hakkında hüküm vermez.
+
+## Ölçüsü Açık, Yönü Korunan
+
+Son bir bağlam, miktarı bildirmeyen dışa verme hareketini istifleme ile savurganlık arasındaki açıklıkta duyurur. {ar:أَعْطَىٰ, tr:aʿṭā, gloss:verir} için burada yeni bir sözlük dalı değil, sınırlı bir metinlerarası çağrışım açılır. Ayetin nesne ve miktarı belirtmeyen fiili, 25:67'deki {ar:لَمْ يُسْرِفُوا وَلَمْ يُقْتُرُوا وَكَانَ بَيْنَ ذَٰلِكَ قَوَامًا, tr:lam yusrifū wa-lam yaqturū wa-kāna bayna dhālika qiwāman, gloss:israf etmez, kısmaz ve ikisi arasında dengede durur} harcama karşıtlığıyla buluşur. 17:29'daki {ar:مَغْلُولَةً إِلَىٰ عُنُقِكَ, tr:maghlūlatan ilā ʿunuqik, gloss:elini boynuna bağlı} imgesi bir uçta tutulmuş eli, {ar:وَلَا تَبْسُطْهَا كُلَّ ٱلْبَسْطِ, tr:wa-lā tabsuṭhā kulla al-basṭ, gloss:elini bütünüyle açma} imgesi öteki uçta sınırsız açılmayı gösterir. Bu iki bağımsız harcama resmiyle temas eden verme, elde tutulanı serbest bırakan fakat yönünü ve oranını koruyan ölçülü bir açılma gibi duyulur. Bu çağrışım 92:5'te miktar buyruğu kurmaz ve ölçülü harcamayı tek verme biçimine indirgemez; {ar:ٱتَّقَىٰ, tr:ittaqā, gloss:sakınır}nın o açılmayı yön ve sınır içinde tutan etkin duruşuyla birlikte, şartın cevabı açıklanmadan burada tamamlanır.
+
+</editorial_prose>

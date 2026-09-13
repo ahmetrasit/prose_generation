@@ -1,0 +1,211 @@
+# V5 reading invitation — 92:11
+
+You are a fresh reading-invitation writer. Read the complete editorial prose
+before writing. It is your sole semantic source.
+
+Write two to four paragraphs of fluent, contemporary Turkish that reveal a
+surprising reading by following one or two main channels of resonance in the
+ayah. A channel is a connected background of meanings, images, actions, or
+relations through which the ayah can be heard and understood differently.
+Several editorial findings may together develop one channel. Summarize that
+connected movement and its consequence for the ayah's main meaning, rather
+than compressing findings individually. Give the reading's substance now;
+the invitation comes from understanding it, not from a promise of hidden depth.
+
+Before drafting, read the entire editorial prose and silently select the one
+or two channels with the strongest interpretive consequence and enough
+grounding to explain clearly. Favor channels that expand or shift what the
+ayah says, the relation it establishes, or what is at stake in its action or
+image. One fully developed channel is sufficient; add a second only when it
+offers a distinct consequential reading that can be explained within the
+invitation. No finding, channel, or major shift has an individual coverage
+claim. Unselected material may remain entirely in the full commentary.
+
+A channel may develop through grammar, sound, dialogue, a material process,
+time, imagery, or a conceptual relation. Resonance is not limited to acoustic
+effects, and an unusual image alone does not establish a channel. Use only
+connections the editorial prose actually develops. If it supplies no such
+channel, explain its strongest grounded reading without inventing connections
+or surprise.
+
+Begin inside the ayah's own words, images, actions, or relations and reveal a
+selected distinctive reading in the first paragraph. Keep the plain meaning
+reachable with only the orientation needed to understand the change. Do not
+spend an opening paragraph on routine explanation or front-load context about
+the surah, the ayah's position, or the commentary project.
+
+For each selected channel, begin with the expression that opens it, unfold the
+connected background, and show how the ayah reads or sounds against that
+background. Let a detail lead into the next through an intelligible relation
+or process, so the reader experiences the emerging reading. This is a movement
+of thought, not a mandatory sentence pattern or one paragraph per finding.
+Let the reader identify the expression being interpreted,
+where any nonordinary detail comes from, and what that detail changes in the
+reading. Briefly identify the word-family use, restricted form, collocation, or
+context that supplies an essential added detail, and preserve the concrete
+operation that makes the image work. Keep the ordinary reading and necessary
+qualification clear within this explanation; do not repeat them as a fixed
+formula. Preserve the particular object, process, or relation that makes this
+reading distinctive, and state its interpretive consequence for the ayah as a
+whole. Make intelligible what the familiar reading leaves less visible and
+what the expanded or shifted reading now lets the reader understand. Preserve
+the editorial's force: an exploratory possibility remains possible, while a
+developed shift must not be softened into a decorative association or a
+reassurance that everything means the same thing. A concrete
+account of how something is carried, transformed, lost, or restored must not
+shrink to a general statement about care, guidance, dependence, or goodness.
+Keep the details needed to make the selected channel work; omit side findings
+and shorten routine setup. If a channel cannot be explained faithfully from
+the editorial prose, choose another grounded channel or reading.
+
+When a non-focus ayah supplies a contribution used in the invitation, keep its
+reference from the editorial prose beside that contribution.
+
+Do not turn the invitation into a miniature inventory of the commentary's
+conclusions, or flatten distinct channels into a broad theme to include more
+material. Do not repair, extend, or supplement the editorial prose from memory
+or outside knowledge.
+
+Omit technical apparatus. Retain any qualification, source distinction, live
+alternative, or boundary whose absence would change the force or meaning of a
+chosen reading. Express it naturally beside the image or relation it qualifies.
+Favor positive explanations of the relation between layers: what remains in
+the foreground and what the resonance makes audible in the background. State
+how that background reinforces, expands, or shifts the understanding of the
+main meaning, with the source and degree of certainty clear. Reserve explicit
+exclusions for concrete ambiguities or live counter-evidence that need them.
+Repeated "this is not X" endings make a reading sound withdrawn; express the
+substantive qualification through what the reading does contribute wherever
+possible. Use varied, natural language rather than a repeated "second layer"
+formula, and preserve the force of expansions and shifts.
+Do not name branches, candidates, findings, scopes, evidence categories,
+ledgers, or workflow stages, or label the prose as numbered channels. Do not
+list findings serially.
+
+Use the established `{ar:..., tr:..., gloss:...}` syntax, consistent
+Turkish-readable transliteration, and short ordinary glosses. Keep Arabic
+anchors beside the explanations they ground. Within a paragraph, continue with
+the Turkish meaning where clear; provide the necessary local tag when a later
+paragraph interprets the carrier anew. Do not place Arabic script outside a
+valid tag.
+
+Build transitions within a channel through its shared object, action, or
+relation. If two channels are selected, they may occupy separate paragraphs;
+do not invent a link between them. Do not praise the commentary's quality,
+promise what the reader will find, manufacture suspense, recap at the end, or
+add a call to action. End on an image, relation, action, or tension already
+established by the selected reading.
+
+Before finishing, compare the invitation with the entire editorial prose:
+does the chosen channel reveal a consequential reading, or could the text have
+been written from the ordinary translation and a modest explanation alone?
+When the editorial supports a surprising channel, the latter fails this task.
+Can the reader follow the opening expression into a connected background and
+understand how that background expands or shifts the ayah's main meaning?
+Check the selected connections against their editorial explanation: can the
+reader tell where the nonordinary details come from, with the necessary
+qualifications intact? Repair generic explanation, isolated curiosities, or a
+compressed findings list by developing the selected channel. Do not add
+omitted channels merely for coverage. Do not output this check.
+
+Write only the invitation text to:
+
+`_commentary/v5/editorial/s092-regular-20260912/s092/92_11/92_11.invitation.tr.md`
+
+Do not add a heading, wrapper label, index, ledger, evidence file, or any other
+artifact. Do not modify the editorial prose.
+
+After writing the invitation, run:
+
+```bash
+python3 _commentary/v5/validate_prose.py _commentary/v5/editorial/s092-regular-20260912/s092/92_11/92_11.invitation.tr.md
+```
+
+If validation fails, repair only the reported mechanical file-contract issues
+and rerun it, for at most two repair cycles. Report the final validator result
+in your response.
+
+<editorial_prose>
+Bu âyet, önceki kişi tasvirinin devamında açık bir hüküm verir: kişi düştüğünde onun malı kendisine hiçbir yarar sağlayamaz. {ar:وَمَا يُغْنِى عَنْهُ مَالُهُۥٓ إِذَا تَرَدَّىٰٓ, tr:wa-mā yughnī ʿanhu māluhu idhā taraddā, gloss:düştüğü zaman malı ona hiçbir yarar sağlamaz} Buradaki “ve”, sözü önceki akışa bağlar; cümle bağımsız bir atasözü gibi değil, aynı kişinin başına gelen sonucu gösteren devam cümlesi gibi okunur. {ar:إِذَا, tr:idhā, gloss:-dığı zaman} ile açılan düşüş anı da bu hükmün görünür olduğu baskı noktasını kurar; genel yargı yerinde kalırken okur onun hangi olayda açığa çıktığını görür.
+
+Bu devamın ilk vuruşu kısadır: {ar:وَ, tr:wa, gloss:ve} ile {ar:مَا, tr:mā, gloss:yadsıma} birlikte duyulur, daha ağır olan {ar:يُغْنِى, tr:yughnī, gloss:yeterli kılar} açılmadan önce hükmün yönünü belirler. {ar:مَا, tr:mā, gloss:yadsıma} ile muzari fiilin birleşimi, gerçekleşmemiş bir yarar sağlama gücünü olgusal bir yargı içinde ele alır; cümle böylece emir, dilek ya da soru değil, yerleşik bir hüküm kurar. Yadsımanın alanı da bütündür: yarar sağlama eylemi, bundan yararlanacak kişi ve biraz sonra görünen özne aynı yapı içinde kuşatılır. Malın varlığı ortadadır; cümlenin sınadığı şey, onun kişiyi kurtaracak bir eylem gerçekleştirme kapasitesidir.
+
+Bu kapasitenin kime yöneldiğini {ar:عَنْهُ, tr:ʿanhu, gloss:onun için veya onun yerine} gösterir. {ar:يُغْنِى, tr:yughnī, gloss:yeterli kılar} doğrudan bir nesnenin niteliğini anlatmaktan çok, bir insan için yeterli olma, onun ihtiyacını karşılama ve onu koruma ilişkisi kurar. Edatın bağlı tamamlayıcı görevi bu ilişkiyi kişide toplar; temel anlam, malın “ona” yarar sağlamamasıdır. Aynı yeterlilik alanı, 92:8'de kişinin kendini ihtiyaçtan bağımsız saymasıyla açılan görüntüden burada malın onu gerçekten yeterli kılıp kılamayacağına döner. 92:8'deki bağımsızlık görüntüsü bu yerel hükümde sınanır; iki okuma aynı cümlede birlikte tutulur.
+
+Kişi zamirleri bu sınamayı tek bir insanın üzerinde tutar. {ar:عَنْهُ, tr:ʿanhu, gloss:onun için veya onun yerine} içindeki kişi, {ar:مَالُهُۥٓ, tr:māluhu, gloss:onun malı} içindeki iyelik ve {ar:تَرَدَّىٰٓ, tr:taraddā, gloss:düştü ve yok oluşa sürüklendi} fiilinin gizli öznesi önceki aynı erkeği izlettirir: beklenen korunmadan kendi malına, oradan da kendi düşüşüne geçilir. {ar:عَنْهُ, tr:ʿanhu, gloss:onun için veya onun yerine} ile {ar:مَالُهُۥٓ, tr:māluhu, gloss:onun malı} içindeki aynı “hu” sesi de kişiyi ona ait olanla işitsel olarak yan yana tutar. Ses bu bağı sıkılaştırır; gramer, kişi ile malı aynı şey yapmadan malın onun adına etkili olamadığını görünür kılar.
+
+Bu düzen içinde {ar:مَالُهُۥٓ, tr:māluhu, gloss:onun malı} olumsuzlanmış yarar sağlama olayının gecikmiş, belirli öznesidir. Yadsıma ve fiil önce gelir; mal ancak kurtarıcı olarak anılmadan, kurtarma sınavına sokulmuş hâlde görünür. İyelik eki onu açıkça o kişiye ait kılar. Buradaki mal, itibarın ya da toplumsal mevkinin soyut işareti değil, kişinin biriktirdiği elle tutulur ve değer taşıyan varlıkların bütünüdür. Cümle bu durağan birikimi yarar sağlayan fiilin öznesi yapar, sonra onun sahibi için işe yaramadığını gösterir; mal insanî irade kazanmaz, sahibinin adına etkili olması beklenen maddi kaynak olarak başarısızlığın somut göstergesine dönüşür. Hüküm belirli düşüş anındaki kurtarma işlevine yönelir; malın gündelik bütün faydaları bu yerel sınamada birlikte yargılanmaz ve sahiplik düşüşün sebebi olarak kurulmaz.
+
+Genel hükümden onu açığa çıkaran sahneye geçişi {ar:إِذَا, tr:idhā, gloss:-dığı zaman} kurar. Ardından gelen mazi fiil, düşüşü açık bir ihtimal gibi değil, gerçekleşeceği kesinleşmiş zaman olarak sunar. {ar:تَرَدَّىٰٓ, tr:taraddā, gloss:düştü ve yok oluşa sürüklendi} üçüncü tekil erkek, geçişsiz ve V. bâb biçimindedir; düşen yine aynı kişidir ve eylem öznenin üzerinde gerçekleşir. Son fiilin zaman cümlesinin içinde ve ayetin sonunda bulunması, önceki yadsımayı son sahnede toplar: malın işe yarayıp yaramadığı soyut bir kural olarak bırakılmaz, adamın kesinleşmiş düşüşünde sınanır. Fiilin düşme, helake sürüklenme ve yıkıcı eşik duyumu bu yerel kişinin krizinde yoğunlaşır; hüküm bu kişinin düşüşü çevresinde kalır.
+
+{ar:تَرَدَّىٰٓ, tr:taraddā, gloss:düştü ve yok oluşa sürüklendi} biçimi yıkımı, dışarıdan uygulanan bir işlemden çok öznenin içinde gerçekleşen aşağı yönlü düşüş olarak kurar. Kelimenin sağlanan kullanımlarındaki canlı ölümü, bir şeyin varlığını yitirmesi veya yok oluşa gitmesi duyumu, malın vaat ettiği etkinliğin açığa çıktığı ölümcül eşiği ağırlaştırır. Çift ünsüzün tuttuğu vuruş ve ayet sonundaki uzun açıklık da yadsıma ile sınanan maldan sonra kulağı bu düşüşte bırakır; seyrek düşüş ve helak kullanımlarının verdiği doku, kapanışı düz bir “sona erme” sözünden daha aşağı doğru ve ölümcül duyurur. Ses ve biçim, düşüşün ağırlığını taşır; dilbilgisel özne ile yerel olayın sınırları bu ağırlık içinde korunur.
+
+Bu düşüş sözü, sağlanan sözlük kullanımındaki omuzla boynun birleştiği yere alınan dış giysi ve kişiye bağlı duran, onu örten ya da bezeyen nitelikler sayesinde serveti kişiye yapışan bir örtü gibi de duyurabilir. {ar:تَرَدَّىٰٓ, tr:taraddā, gloss:düştü ve yok oluşa sürüklendi} ile {ar:مَالُهُۥٓ, tr:māluhu, gloss:onun malı} arasındaki sahiplik bağı, kriz anında bu örtünün koruma iddiasını sınar. Bu dar ve ihtiyatlı görüntüde giysi duyumu, fiilin V. bâb düşme ve yıkım anlamına eşlik eder; servetin olağan anlamı ve düşüşün açık hükmü taşıyıcı zeminde kalır.
+
+Örtü görüntüsünün bağımsız temas noktası 92:3'teki giysi çağrışımıdır. 92:3'teki güvenilir temas, giyilen kumaşı, koku veya boyayla belirginleşen dış yüzeyi ve biçimlenmiş örtüyü birlikte hatırlatır; bu ayrıntı, odaktaki servete bağlı örtü hissini güçlendirir. 92:3 ile kurulan bu bağlantıda kumaşın dış yüzeyi ve örtme işlevi çalışır; kokuya ya da eskimiş kumaşa dayalı ayrı ayrıntılar için bu ayette ayrıca bir taşıyıcı bulunmaz. Okurun 92:3 ile birlikte gördüğü şey, düşüşte koruyucu görünüşü sınanan servettir; aynı anda açık hüküm, malın o anda sahibine hiçbir yarar sağlayamamasıdır.
+
+Bu örtü, 92:1 ve 92:2'nin kendi görüntüleriyle karşılaştırıldığında görünürlük bakımından yeni bir sonuç kazanır. 92:1'de gece, altta kalan durumu görünmez kılan bir ortam ve onu saklayan etkin bir perde kurar. 92:2'de gündüzün açılması, saklı olanı incelemeye elverişli hâle getirir ve ortaya çıkma hareketi örtünün altında kalan yetersizliği görünür kılar. 92:1'deki saklama ile 92:2'deki açığa çıkma odak cümlesine döndüğünde, servetin bağımlılığı örtebildiği, düşüşün ise bu örtünün korumadığını açığa çıkardığı bir ifşa anı belirir. 92:1 ve 92:2'nin gece-gündüz karşıtlığı kendi görüntüsünü korur; bu bağlam, {ar:مَالُهُۥٓ, tr:māluhu, gloss:onun malı} veya {ar:يُغْنِى, tr:yughnī, gloss:yeterli kılar} için yeni bir sözlük anlamı üretmez.
+
+Kelime temaslarının izin verdiği yerel bir okumada mal, sahibinin yerine geçme kapasitesiyle sınanır. {ar:يُغْنِى, tr:yughnī, gloss:yeterli kılar} bir başkası için yeterli olmayı, ihtiyacı karşılamayı ve onun yerini tutmayı da taşıyabilir; bu ilişki {ar:عَنْهُ, tr:ʿanhu, gloss:onun için veya onun yerine} ile kişiye bağlanır. {ar:تَرَدَّىٰٓ, tr:taraddā, gloss:düştü ve yok oluşa sürüklendi} kelimesinin canlı ölümü veya varlığını yitirme duyumu, malın sahibini ölüm ya da yok oluş eşiğinden çekip çıkaramaması görüntüsünü verir. Kuyuya, dağdan aşağıya veya başka bir derinliğe düşmeyi anlatan somut kullanım da çöküşe derinlik katar; ayetin sahnesi bu duyumu belirli bir kuyu veya yer adıyla sabitlemez. Böylece malın vekillik beklentisi ile düşüşün geri dönüşsüz eşiği aynı yerel görüntüde buluşur.
+
+Başka bir ihtiyatlı temasta {ar:مَالُهُۥٓ, tr:māluhu, gloss:onun malı}nun birikmiş varlık görüntüsü, {ar:يُغْنِى, tr:yughnī, gloss:yeterli kılar}nin maddi bolluk ve ihtiyaçtan bağımsız kılma duyumuna yaklaşır. Zenginlik, sahibinin kendini ihtiyaçsız saymasının kaynağı gibi görünür; düşüş bu görünürdeki kendi kendine yeterliği sınar. Malın bolluğu ile gerçekten ihtiyaçtan kurtulmak arasındaki ayrım belirginleşir. Bu yerel ihtiyat, bütün sahiplikleri kısır ilan etmeden, cümlenin açık yadsımasını keskinleştirir: mal düşüş anında fiilen yeterli olamaz.
+
+Bir başka keşifsel görüntüde malın yerleşik dünyası, sahibinin orada yaşamış olduğunun izi gibi kalır. {ar:مَالُهُۥٓ, tr:māluhu, gloss:onun malı} sabit ve kendisine ait bir mülkü, {ar:يُغْنِى, tr:yughnī, gloss:yarar sağlar} için sağlanan daha uzak yerleşme ve bir yerde uzun süre kalma duyumu ise bu sabitliği çağrıştırır; {ar:تَرَدَّىٰٓ, tr:taraddā, gloss:düştü ve yok oluşa sürüklendi}nin yok oluşu kişiyi kendi mülkünün gerisine bırakır. Okur, geride kalan varlıkla ayrılan hayat arasındaki kopuşu hissedebilir. Bu keşifsel temas, malı belirli bir ev veya meskene çevirmeden, temel hükmü malın düşen kişiyi taşıyamadığı bir hayat izi olarak genişletir.
+
+Hareketin daha hızlı ve başı önde giden bir biçimi de ihtiyatlı bir temas olarak açılır. {ar:تَرَدَّىٰٓ, tr:taraddā, gloss:düştü ve yok oluşa sürüklendi} ile ilişkili kullanımlarda atın özel hızlı gidişi, çocuğun veya genç kızın tek ayaklı sekmesi ve karganın sekmesi anılır. Bu örnekler, özneye bağlı ve farklılaşmış hareketin hızını duyurur; bu duyum {ar:مَالُهُۥٓ, tr:māluhu, gloss:onun malı}nun sağladığı imkânlarla ve {ar:يُغْنِى, tr:yughnī, gloss:yarar sağlar}nin beklenen destek işleviyle buluşunca düşüş, hızlanmış bir yıkıma gidiş gibi hissedilir. Malın kişiyi gidişattan çekip çıkaracak, yön verecek veya frenleyecek kaynak olması beklenir; yadsıma bu beklentiyi boşa çıkarır ve hareket ayrıntısı bu başarısız desteğin duyumunu yoğunlaştırır.
+
+## Gidişin Yönü
+
+92:3'teki ölçü ve oran içinde kurulmuş yaratılış görüntüsü, farklı gidişlerin karşılaştırılabildiği tasarlanmış bir alan açar. 92:4'teki amaçlı yöneliş, çalışma, emek, kazanma ve farklı sonuçlara dağılan çaba görüntüsü bu alanı harekete geçirir. Bu iki temas (92:3, 92:4), {ar:تَرَدَّىٰٓ, tr:taraddā, gloss:düştü ve yok oluşa sürüklendi}nin düşme hareketiyle {ar:مَالُهُۥٓ, tr:māluhu, gloss:onun malı}nun edinilmiş ve değer taşıyan varlıklarını aynı yön sorusunda buluşturur. Servet, kişinin seçtiği ve sürdürdüğü bir gidişte birikmiş olabilir; gidişin sonu geldiğinde sahibini başka bir yöne çevirecek gücü ise bu görüntüde kazanmaz. Düşüş böylece rastlantısal tek bir an olmaktan çok, hareket boyunca biriken getirinin yön karşısında sınandığı çözülme noktası gibi okunur. Bu, 92:3 ve 92:4'ten çıkan nitelikli bağlam ilişkisidir; ölçü, emek ve ayrışma ile düşüş arasında tek bir zorunlu nedensellik kurulmaz.
+
+Bu yön görüntüsünde hareketin farklılığı da önemlidir. {ar:تَرَدَّىٰٓ, tr:taraddā, gloss:düştü ve yok oluşa sürüklendi} ile ilişkilendirilen atın hızlı gidişi, insanın tek ayaklı hareketi ve karganın sekmesi, özneye bağlı ve farklılaşmış hareket örnekleri verir. Odak biçimi bu örneklerden birini seçmek yerine, bunların yön kazanmış hareket duyumunu taşır. {ar:مَالُهُۥٓ, tr:māluhu, gloss:onun malı} edinme, çoğalma ve başkasına kazandırma imkânı taşıyan maddi bütündür; bu temas serveti yönün kendisi değil, gidişin içinde biriken sonuç olarak ayırır. Olağan düşme anlamı ve ayetin açık yargısı bu bağlam hareketi içinde canlı kalır.
+
+## Malın Yön Değiştirmesi
+
+Malın etkisi, elde tutulan miktardan önce onun nereye yöneldiği ve hangi eyleme dönüştüğü üzerinden farklı bir biçimde görülebilir. 92:5'teki elden verme ve koruyucu düzene bırakma görüntüsü, serveti salt sahiplikten çıkaran ilk hareketi sağlar. 92:6'da iyilik sözü eylemde doğrulanır; buna bağlanan malî pay veya sadaka aktarımı, iddiayı başkasına ulaşan elle tutulur bir işe çevirir. 92:7'de güçlüğün ardından kolaylığa açılan yol, bu eyleme geçirilmiş değerin değişmiş bir gidişle ilişkilendirilebileceğini gösterir. Bu temas zinciri (92:5, 92:6, 92:7), {ar:مَالُهُۥٓ, tr:māluhu, gloss:onun malı}nu hem elde duran maddi stok hem dışa yöneldiğinde koruyucu bir eyleme katılabilen madde olarak gösterir; {ar:يُغْنِى, tr:yughnī, gloss:yeterli kılar}nin yeterli olma duyumu da depolanmış yığından çok etkili bir işe geçirilmiş imkâna yaklaşır.
+
+92:5, 92:6 ve 92:7'nin bu temasından çıkan karşılaştırma, verme ve koruma hareketinin koşullu niteliğini korur. 92:5'in verme ve korunmayı açan bağlamı, 92:6'nın doğrulanmış iyilik ve malî aktarımı, 92:7'nin güçlük sonrasındaki kolaylığı odak cümlesine geri dönerek şu farkı görünür kılar: mal sahibinin yerine tutulduğunda başka, etkili bir eyleme katıldığında başka bir işlev kazanabilir. Bu bağlam zinciri özelliklerin mutlaka art arda gerçekleştiğini kanıtlamaz; eyleme dönüşen her mal için otomatik bir korunma güvencesi de üretmez. Düşüş anında elde tutulmuş malın sahibine yarar sağlayamaması açık hüküm olarak sürer.
+
+Bu yüzden 92:8'deki malı esirgeyip elde tutma tavrı da odak cümlesinin yeterlilik sorusuna bağlanabilir. 92:8'de kişi ihtiyacı yokmuş gibi davranmayı sahipliğini koruyarak eyleme döker; {ar:يُغْنِى, tr:yughnī, gloss:yeterli kılar}nin maddi bolluk ve ihtiyaçtan bağımsızlık duyumu bu görüntünün maddi taşıyıcısını verir. {ar:مَالُهُۥٓ, tr:māluhu, gloss:onun malı} “onun” zamiriyle sahibinden ayrı, bağımsız bir güç değil, onun üzerinde biriktirilmiş yığın olarak kalır. Ardından {ar:تَرَدَّىٰٓ, tr:taraddā, gloss:düştü ve yok oluşa sürüklendi}nin ölüm, yok oluş ve çöküş eşiği, bu yığının ihtiyacı ortadan kaldırmadığını görünür kılar. 92:8 ile odak cümlesi arasındaki bu tekrar, servetin daha önce bağımsızlık yerine geçirilmiş olduğu yönünde bağlamsal bir ihtimal açar; bu ihtimal başarısızlığın düşüşten önce kesinlikle başladığını söylemez.
+
+92:9'daki reddetme ve gerçeği yanlışlama görüntüsü, dış görünüşün içteki durumu örten bir giysi gibi çalışmasına izin verir. 92:10'daki bükülen, engellenen ve güçleştirilen yol ise bu giysiyi koruyucu bir sığınak olmaktan çıkarıp kişinin üzerine daralan bir sıkışmaya dönüştürür. Bu iki tetikleyici (92:9, 92:10), {ar:مَالُهُۥٓ, tr:māluhu, gloss:onun malı}nu bağımsızlık görüntüsü veren bir statü kabuğu, {ar:يُغْنِى, tr:yughnī, gloss:yeterli kılar}yi ise bu kabuğun ihtiyaç karşılayıp kişiyi koruma kapasitesini sınayan ilişki olarak gösterir. {ar:تَرَدَّىٰٓ, tr:taraddā, gloss:düştü ve yok oluşa sürüklendi} için omuzlara alınan dış giysi duyumu bu görüntüyü taşır; aynı kelimenin V. bâb düşme fiili olarak yerel anlamı da birlikte çalışır. 92:9'un reddetmesi, 92:10'un güçlüğü, odaktaki düşme ve mal anlamlarıyla birlikte görünmek ile korunmak arasındaki farkı belirginleştirir.
+
+## Yerine Geçme Sınavı
+
+Odaktaki malın bu cümledeki somut sınavı, kişi adına iş görme ve onun yerini tutma kapasitesidir. {ar:يُغْنِى, tr:yughnī, gloss:yeterli kılar} ile {ar:عَنْهُ, tr:ʿanhu, gloss:onun için veya onun yerine} arasındaki ilişki, {ar:مَالُهُۥٓ, tr:māluhu, gloss:onun malı}nu sahibinin yerine geçmesi beklenen bir vekil gibi gösterir; kriz, bu mekanizmanın başarısızlığını açığa çıkarır. 92:18'de aynı malın dışarıya aktarılabilen bir nesne oluşu ve 92:19'da karşılık ya da telafi ilişkisinin devre dışı kalması, odaktaki vekillik sorusunu yeniden çağırır. Okur böylece krizde başarısız olanın yalnızca servetin miktarı değil, servetin kişiyi kurtaracağı mekanizma olduğunu görür. Bu bağ, mal veya yarar bildiren her kullanıma yayılmadan, odak cümlesinin olağan anlamı içinde kalır: insan düştüğünde malı ona fayda veremez.
+
+Düşüşün daha geniş bir güzergâha bağlandığı temas, 92:14'te uyarının ardından ateşli varış ve 92:16'da inkârla yüz çevirme hareketiyle açılır. 92:14 ve 92:16'daki bu iki bağımsız bağlam, {ar:تَرَدَّىٰٓ, tr:taraddā, gloss:düştü ve yok oluşa sürüklendi}nin yıkıcı duyumunu uyarılmış bir yolun son durağı gibi yeniden düşündürür: okur krizi öncesinde uyarı bulunan ve sonunda tanınabilir bir ateş yönüne varan bir dizi içinde görebilir. 92:14 ve 92:16 sonraki olayları tek bir fiilin içine yerleştirmek yerine, düşüşün yönünü ve sonucunu görünür kılar. Odak kelimesi hâlâ düşmeyi, odak cümlesi hâlâ malın o anda fayda vermemesini söyler.
+
+Bu güzergâh, serveti örten ve ona bağlı duran manto görüntüsünü de sınar. {ar:تَرَدَّىٰٓ, tr:taraddā, gloss:düştü ve yok oluşa sürüklendi}nin omuzda duran örtü duyumu {ar:مَالُهُۥٓ, tr:māluhu, gloss:onun malı}yla birleşince servet, kişiye yakın kalan fakat onu yakalayıp koruyamayan bir manto gibi resmedilebilir. 92:14'teki ateş ve 92:16'daki inkârla yüz çevirme, bu bağlılığın neden siper olamadığını bağımsız temaslarla gösterir. İroni, bağlılığın sürmesiyle korumanın kaybolmasının aynı anda gerçekleşmesidir. Bu manto önerisi keşif düzeyindedir ve daha önce sınırlandırılmış giysi koluna dayanır; 92:14 ve 92:16'daki bağlamı tek bir yönetici imgeye çevirmeden, malın olağan anlamını taşıyan cümleye eklenir.
+
+Aynı manto duyumu bu kez güzergâhın içindeki konumla birlikte okunabilir. {ar:مَالُهُۥٓ, tr:māluhu, gloss:onun malı} kişiye bağlı kalırken yolu değiştiremez; {ar:تَرَدَّىٰٓ, tr:taraddā, gloss:düştü ve yok oluşa sürüklendi} yıkıcı son durağı bildirir. 92:14'teki ateş, 92:16'daki inkâr ve geri çekilme, bağlılığın kaçış üretmediğini, kişinin yönünü değiştiremese de güzergâhın içinde kaldığını düşündürür. Okur 92:14 ve 92:16'nın bu temasını hem yıkıma varış hem de yönü değiştiremeyen sahipliğin sürmesi olarak tutabilir. Bu nitelikli görüntü, manto duyumunu asli sözlük anlamı ilan etmeden, sonraki gelişmelerin tek bir düşüş fiilinde kodlanmadığı sınır içinde kalır.
+
+## Yol, Ağırlık ve Konum
+
+Taş ve sert madde duyumu, servetin görünür sağlamlığını bir korunak olmaktan çıkarıp sınanan bir ağırlık gibi hissettirir. {ar:تَرَدَّىٰٓ, tr:taraddā, gloss:düştü ve yok oluşa sürüklendi}nin taş atma veya sert bir maddeyi aşağı yönlü hareket ettirme kullanımı, 92:20'deki yükseklik işaretiyle karşılaştığında birikmiş serveti yukarıda duran bir değer olmaktan çıkarıp aşağı çeken sert bir kütle gibi düşündürür. Taşın hedefe doğru maddi hareketi ile 92:20'deki yukarı karşı vektör temas eder; servetin sahibini yükseltmek yerine ağırlıklandırdığı hissi doğar. Bu fiziksel bir benzetme olarak kalır; servetin düşüşün gerçek yerçekimsel sebebi olduğu sonucu ve ağır yürüyüş duyumu bu bağlantıya eklenmez. 92:20'nin yüksekliği, odaktaki düşme cümlesi içinde bu basınç görüntüsünü sınırlar.
+
+Yine yön sorusuna dönüldüğünde, 92:12'nin yola doğru nazik yönlendirmesi ve zorlu iniş ya da yokuş geçidi, 92:13'ün uzak uç ve sonuca dönüş görüntüsüyle birleşir. {ar:تَرَدَّىٰٓ, tr:taraddā, gloss:düştü ve yok oluşa sürüklendi}nin kuyuya, dağdan aşağıya veya başka bir derinliğe düşme duyumu bu bağımsız güzergâhla buluşunca düşüş, başlangıcı, yönü ve sonucu olan somut bir iniş gibi hissedilir. {ar:يُغْنِى, tr:yughnī, gloss:yeterli kılar}nin yer tutma ve yeterli olma duyumu da 92:12 ile 92:13 arasındaki hatta rehberlik veya refakat ihtiyacını görünür kılar; servet bu hatta kişinin yerine geçemez. 92:12 ve 92:13'ten aktarılan bu nitelikli ilişki, odak fiiline rehberlik anlamı eklemeden, düşüşün güzergâh içindeki yerini belirginleştirir.
+
+Hareketli hat 92:15-17'de konum ve yön bakımından daha da belirginleşir. 92:15'te önderin hemen arkasındaki koşucu, 92:16'da yön değiştirme, 92:17'de yana ayrılma ve yanal siper rolleri vardır. Bu roller (92:15, 92:16, 92:17), {ar:تَرَدَّىٰٓ, tr:taraddā, gloss:düştü ve yok oluşa sürüklendi}nin hızlı hareket duyumuyla temas ettiğinde düşüşü durgun bir bırakılma değil, konumların sonuç doğurduğu bir seyir gibi hissettirir. Servet yanında duran bir koruma, şerit değiştiren bir yön ya da fren yerine geçecek konumsal imkânı burada bulamaz; {ar:يُغْنِى, tr:yughnī, gloss:yeterli kılar}nin yer tutma duyumu bu başarısız koruma sorusunu keskinleştirir. 92:15-17'nin aktardığı malzeme bu nitelikli hareket görüntüsünü kurar; olağan yıkım anlamı onun zemininde kalır.
+
+## Tutulan ve Bırakılan Mal
+
+92:18, aynı maddi kelimeyi odaktaki tutulmuş stoktan dışarıya verilen nesneye doğru çeviren bir temas sağlar. {ar:مَالُهُۥٓ, tr:māluhu, gloss:onun malı} odakta sahibinin elinde, onu koruması beklenen varlıklar bütünüdür; 92:18'de ise başkasına değerli bir varlık vererek onu varlık sahibi kılabilen bir nesne olur. Verme hareketi, kişisel stoğun dışına çıkış olarak başarısız vekillik ilişkisinin bağlamsal karşılığını gösterir. 92:18'deki büyüme, artma, arınma ve onarım rolleri bu bırakılan malın etkisini kişinin üzerinde bir dönüşümle ilişkilendirir: mal sahibinin yerine geçmez, kişinin üzerinde değişimle bağlantılı hâle gelir. Bu, 92:18'den çıkan bir bağlam çıkarımıdır; verme ile arınma arasındaki ilişki nitelikli bir temas olarak kalır.
+
+“Artmak” da iki ayrı yöne açılır. {ar:تَرَدَّىٰٓ, tr:taraddā, gloss:düştü ve yok oluşa sürüklendi} çevresinde görülen ölçünün üzerine eklenen yığın, 92:18'deki kişinin içinde gelişme ve 92:20'deki besleme, onarma, biçimlenme ve yükseklik yönündeki gelişimle aynı şey değildir. Böylece daha büyük bir mal stoğu ile 92:18 ve 92:20'de beslenerek tamamlanan, yön kazanan canlı oluşum ayrılır. {ar:مَالُهُۥٓ, tr:māluhu, gloss:onun malı} maddi miktarı taşır; daha çok mülkün kendiliğinden gelişim olmadığı görünür. Ölçü aşan fazlalık kolu odakta kabul edilmiş olsa da kısır birikim ile gelişen artış arasındaki karşıtlık keşif niteliğindedir; her sahiplik kınanmış veya zorunlu olarak kısır sayılmaz ve olağan düşüş anlamı korunur.
+
+92:19 bu değişimi bir borç hesabına kapatmaz. 92:19'daki önceki yarar, karşılıklı telafi, yerine geçme ve borç kapatma rolleri, odaktaki {ar:يُغْنِى, tr:yughnī, gloss:yeterli kılar} ile {ar:مَالُهُۥٓ, tr:māluhu, gloss:onun malı} için oluşan ödeme beklentisine temas eder ve sonra bu işlem modelini dışarıda bırakır. Servet sahibinin yerine ödeme yapamaz; erdemli verme de önceki bir iyiliğin borcunu kapatan eşdeğer bir işlem olarak kurulmaz. Okur burada yalnız servetin miktarını değil, ahlâkî ilişkinin eşdeğer ödemeler defterine indirgenip indirgenemeyeceğini de görür. Bu daha geniş ekonomik okuma 92:19'dan aktarılan nitelikli bir ilişkidir; başka bağlamlarda şükran veya karşılık bulunamayacağı, her vermenin hiçbir geri dönüş taşımadığı söylenmez.
+
+## Başka Bir Yöne Dönüş
+
+92:20, aşağı doğru yıkımın karşısına daha çok mal biriktiren bir hareket değil, arama, yönelme, yüz ve benliğin biçimlenmesi, tamamlanma ve yüksekliğe doğru ilerleme görüntüsü koyar. 92:20'deki arama veya isteme, {ar:تَرَدَّىٰٓ, tr:taraddā, gloss:düştü ve yok oluşa sürüklendi}nin aşağı durumuyla karşılaşınca düşüşe karşı yönlü bir başlangıç sağlar. 92:20'deki yönelme, bırakılan malın nereye aktarıldığını önemli kılar; yüz ve benlik rolleri, kişinin servetle satın alınamayan bir özne olarak ilişki içinde biçimlenmesini getirir. 92:20'deki biçimlendirme, onarma ve tamamlama serveti çoğaltmaktan çok kişiyi değiştiren süreci; yükseklik ise aşağı vektöre karşı yönlü bir sonucu gösterir. Bu yukarı yön nitelikli bir bağlam çıkarımıdır; gerçek mekânsal tersine dönüş ile mertebe duyumu arasındaki açıklık korunur. Odak cümlesi yine malın düşüşte fayda vermediğini söyler.
+
+Bu karşı hareketin belirleyici katkısı, değişimi servetin miktarından kişinin yön ve biçimlenmesine taşımaktır. {ar:يُغْنِى, tr:yughnī, gloss:yeterli kılar}nin reddedilmiş vekillik duyumu, 92:20'nin amaç ve yönelişini bağımsız bir hareket kaynağı olarak öne çıkarır; malın daha güçlü olması değil, kişinin seyri ve oluşumu değişir. Böylece aynı malı çoğaltmakla 92:20'de kişiyi başka bir yöne sokan oluşum arasındaki fark belirginleşir. 92:20'nin arama, yönelme, yüz-benlik, biçimlenme ve yükseklik rolleri düşüşe karşı bir bağlam kurar; odak fiili bu rollerin sözlük karşılığına dönüşmez.
+
+Sonraki kabul dili de maddi bollukla ilişkisel yeterliliği birbirinden ayırır. {ar:يُغْنِى, tr:yughnī, gloss:yeterli kılar} ve {ar:مَالُهُۥٓ, tr:māluhu, gloss:onun malı} özel ihtiyaçtan bağımsızlığı ve sahip olunan stoğu taşırken, 92:21'deki kabul, karşılıklı hoşnutluk ve itaat, sevgi, güvence taşıyan bağ başka bir “yetme” biçimi kurar. Daha çok mala sahip olmak, malın tek başına üretemediği kabul edilmiş ilişkiyi kendiliğinden doğurmaz. Bu sonuç 92:21'den çıkan nitelikli bir bağlam çıkarımıdır; 92:21'deki kabul, odak kelimesine hoşnutluk anlamı yüklemeden maddi yeter ile ilişkisel hoşnutluğu iki ayrı ölçü olarak yan yana getirir. Odaktaki olumsuz yarar bildirimi kendi yerinde kalır.
+
+Daha tartışmalı bir maddi görüntüde {ar:مَالُهُۥٓ, tr:māluhu, gloss:onun malı} için bazı sözlük aktarımlarında verilen örümcek hayvan adı, serveti kendini çevreleyen kırılgan bir yapı gibi düşündürür. Bu varyantın tartışmalı oluşu, görüntünün keşif düzeyini belirler. Odaktaki düşüş ve fayda verememe ile 92:18'deki aynı malın aktarılabilir nesne oluşu birleştiğinde, kişinin çevresinde kendisi için örülmüş, üreticisine bağlı ama sahibini düşüşte yakalayamayan bir ağ veya yapı belirir. 92:18'deki verme, kendini kapatan yapıyı kalınlaştırmak yerine açan bir hareket gibi hissedilebilir. Örümcek, ağ ve çevre analojileri bu bağlantının maddi görüntüsüdür; malın olağan anlamı ve temel “malı ona yarar sağlamaz” hükmü bu görüntünün taşıyıcı zeminidir.
+
+Son maddi karşılaştırmada taşın sertliği, ateş ve dövülme ile sınanır. {ar:تَرَدَّىٰٓ, tr:taraddā, gloss:düştü ve yok oluşa sürüklendi}nin taş atma veya sert madde duyumu, 92:14'teki tutuşturulmuş ateş ve yoğun, arı alevle temas eder. 92:15'te ateşle bir şeyi düzleme ya da hazırlama ve taşla dövme rolleri bu sert malzemeye ayrı kuvvetler ekler. {ar:مَالُهُۥٓ, tr:māluhu, gloss:onun malı}nın edinilmiş, değer taşıyan varlıkları da görünen sağlamlığı bir sığınak olmaktan çıkıp bu sınamanın içine giren malzeme gibi gösterir. 92:14 ve 92:15'in bu temasında korunması beklenen sertlik, yalıtım yerine açığa çıkarılan ve işlenen bir madde hâline gelir. Fırın, ateş ve dövme görüntüsü odaktaki düşüş cümlesinin tercümesi değil, onu açıklayan çapraz alan benzetmesidir; ateşin içinde sınanan servet, düşüş anında sahibine yarar sağlayamayan servet olarak kalır.
+
+</editorial_prose>

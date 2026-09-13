@@ -1,0 +1,975 @@
+{
+  "schema_version": "commentary-v5-scope-discovery-v1",
+  "ayah_ref": "99:3",
+  "lane": "global",
+  "coverage_complete": true,
+  "candidate_decisions": [
+    {
+      "candidate_id": "cand_3d1d5ff7228cf300e70a",
+      "decision": "accept",
+      "reason": "Kayıtlı algı dalı insan kelimesinde taşınır; wider disruption ve altered-sight bağlantıları, soruyu daha sonra düzelecek tamamlanmamış ilk kavrayış olarak kuran bağımsız tetikleyiciler sağlar.",
+      "finding_refs": [
+        "global:perception-correction"
+      ],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_2361c6442f9dac99896f",
+      "decision": "accept",
+      "reason": "Focus speech branch ve soru yapısına özgü supposition facet, sağlanan yer haberine açılan ilk konuşma dönüşüyle doğrudan buluşur; geniş soru-cevap bağlantıları ilişkiyi destekler.",
+      "finding_refs": [
+        "global:conjectural-first-turn"
+      ],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_5e0caa70fba0929f4177",
+      "decision": "accept",
+      "reason": "Kayıtlı familiarity branch gerçek focus carrier'a sahiptir; önceki yer sarsıntısı ve earth-release bağlantıları tanıdık zeminin sorgulanan zemine dönüşmesini bağımsızca tetikler.",
+      "finding_refs": [
+        "global:familiar-ground-rupture"
+      ],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_d34bcd2a97c4a9ed27b3",
+      "decision": "accept",
+      "reason": "Human ve articulated-speech carrier'ları focus surface üzerinde kayıtlıdır; earth-report ve disclosure evidence bunların temasını bounded listener-side reversal olarak kurar.",
+      "finding_refs": [
+        "global:human-listener"
+      ],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_6bc0e69636d24d1a3129",
+      "decision": "represented",
+      "reason": "Circulating-speech possibility global:collective-speech finding'inde aynen taşınır; source publication içindeki reject grade, finding containment'ında karşı kanıt olarak korunur.",
+      "finding_refs": [
+        "global:collective-speech"
+      ],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_927a11ed0efa329b5034",
+      "decision": "represented",
+      "reason": "B011/B012 ilişkisi global:inner-uncertainty-spoken finding'inin bounded core'unda aynen taşınır ve trusted publication desteği korunur.",
+      "finding_refs": [
+        "global:inner-uncertainty-spoken"
+      ],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_71e64f11243fcc7b14f7",
+      "decision": "accept",
+      "reason": "Reader-walk, qāla ile B002 algı dalının aynı focus yüzeyinde buluştuğu distinct relation'ı sağlar: insanın ilk bilinçli kaydı soru biçimindedir.",
+      "finding_refs": [
+        "global:bewildered-perception"
+      ],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_7f4630bc179770c54938",
+      "decision": "represented",
+      "reason": "Visible-human listener reversal global:human-listener içinde kayıtlı human ve articulated-speech carrier'larıyla aynen taşınır; unresolved ء ر ض/B001 citation'ı packet'te kayıtlı branch olmadığı için ayrı retained claim oluşturmaz.",
+      "finding_refs": [
+        "global:human-listener"
+      ],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_150ec55a4f678bb0fc6b",
+      "decision": "accept",
+      "reason": "B007 focus occurrence'a sahiptir; 99:6'daki dağılmış insanlar ve bağımsız social-dispersal bağlantıları qualified collective trigger sağlar.",
+      "finding_refs": [
+        "global:collective-speech"
+      ],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_ecdeba5f5eb55acaecbf",
+      "decision": "narrow",
+      "reason": "B011 ve B012 core'ları interrogative ve inward-speech evidence ile grounded'dır. Nominated r’y/B002 source image için packet'te focus veya selected-context occurrence bulunmadığından bu branch çıkarılmıştır.",
+      "finding_refs": [
+        "global:inner-uncertainty-spoken"
+      ],
+      "branch_exclusions": [
+        {
+          "branch_ref": "root_000531/B002",
+          "reason": "Nominated source image olarak sağlanmış, fakat exact carrier occurrence bulunmuyor; retained activation ungrounded olurdu."
+        }
+      ],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_a6609efb62ff3e25ab50",
+      "decision": "accept",
+      "reason": "Retrospective reader record distinct before-and-after movement sunar: sonraki seeing ve individualized disclosure, focus question'ı erken ve yetersiz bir epistemic attempt olarak yeniden duyurur; collective broadening de görünür kalır.",
+      "finding_refs": [
+        "global:retrospective-epistemic-turn"
+      ],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_4a86fe50fc4f9e5b2809",
+      "decision": "narrow",
+      "reason": "Focus perception branch, insanın awareness'ının sonraki disclosure ile sınanması olarak korunur. Nominated r’y/B012 showing image için packet'te exact occurrence yoktur.",
+      "finding_refs": [
+        "global:perceptual-subject"
+      ],
+      "branch_exclusions": [
+        {
+          "branch_ref": "root_000531/B012",
+          "reason": "Yalnız nominated source image olarak sağlanmış ve exact focus/selected-context carrier occurrence içermiyor."
+        }
+      ],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_5e9867417b6cee4dc92e",
+      "decision": "represented",
+      "reason": "Familiar-ground rupture global:familiar-ground-rupture içinde B003 carrier ve reader-walk desteğiyle aynen taşınır.",
+      "finding_refs": [
+        "global:familiar-ground-rupture"
+      ],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_63f10e5b6a8406ef8a58",
+      "decision": "narrow",
+      "reason": "Focus articulated-speech core, sağlanan earth-report exchange'in opening turn'ü olarak korunur. Nominated ḥ-d-th/B003 source image için exact occurrence yoktur; earth report ayah-level trigger olarak kalır.",
+      "finding_refs": [
+        "global:earth-witness-exchange"
+      ],
+      "branch_exclusions": [
+        {
+          "branch_ref": "root_000299/B003",
+          "reason": "Packet yalnız source-image entry sağlar; exact focus veya selected-context occurrence olmadığı için branch activation yapılamaz."
+        }
+      ],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_d85c8f36dcc5bc5d81f0",
+      "decision": "represented",
+      "reason": "Attempted awareness'tan later seeing'e correction global:perception-correction içinde aynen taşınır; legacy qualification orada korunur.",
+      "finding_refs": [
+        "global:perception-correction"
+      ],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_795c08650303c2d4238e",
+      "decision": "reject",
+      "reason": "Assigned HFT record yalnız unanchored summary payload'dır; exact context ayah, word index, root, attributed role, carrier, trigger veya focus-return trace yoktur.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_0070e3989ce5366edf52",
+      "decision": "reject",
+      "reason": "Witness handoff yalnız unanchored HFT summary olarak sağlanmıştır; exact carrier-trigger contact ve focus return bulunmadığından attributed activation yapılamaz.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_b3a52bfe7aef34ae9576",
+      "decision": "reject",
+      "reason": "Hidden-communication claim HFT summary'de geçer, fakat assigned record empty anchor/branch fields içerir ve exact coordinate veya focus return sağlamaz.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_45f34e6f988ae2e4b077",
+      "decision": "reject",
+      "reason": "Later minute-act exposure claim için exact HFT carrier, trigger, attributed role veya focus-return reference sağlanmamıştır.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_b009c224dcad7f56fa47",
+      "decision": "reject",
+      "reason": "Disturbance, communicative reversal ve exposure arasındaki hinge yalnız unanchored summary'de bulunur; exact carrier-trigger-return zinciri yoktur.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_bd345eb06013b144d405",
+      "decision": "reject",
+      "reason": "Earth burdens ile later deeds arasındaki bağ HFT kaydında açıkça unresolved'dır ve bunu retained attributed activation'a dönüştürecek exact trace yoktur.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_ad0a7aa1dffea94d589f",
+      "decision": "reject",
+      "reason": "Repeated pronoun linkage yalnız unanchored HFT possibility olarak verilmiştir; exact occurrences ve attributed focus return yoktur.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_1be984d67ddb896ff9c7",
+      "decision": "reject",
+      "reason": "Split-root tremor ve pupil-mirror ideas HFT summary'de lexical substitution yapılmaması gereken branch-level resonances olarak sınırlandırılmıştır; exact carrier ve independent trigger yoktur.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    }
+  ],
+  "findings": [
+    {
+      "finding_ref": "global:perception-correction",
+      "origin_candidate_id": "cand_3d1d5ff7228cf300e70a",
+      "represented_candidate_ids": [
+        "cand_d85c8f36dcc5bc5d81f0"
+      ],
+      "title": "İlk algının sonraki gösterimle düzelmesi",
+      "claim": "İnsan sorusu, sarsılan olay karşısındaki ilk fark ediş çabasını ve sonraki gösterimle doğrudan görmenin bu çabayı düzeltmesini birlikte açar.",
+      "mechanism": "ٱلْإِنسَٰنُ, görüp fark etmeyi anlatan B002 dalıyla insanı olayı kavramaya çalışan algı öznesi yapar. 75:10'daki disruption question ve 75:7'deki altered-sight scene bu carrier ile temas eder; sonuçta مَا لَهَا, tamamlanmış bilgi değil, sonraki seeing ile düzeltilecek ilk kavrayış olur.",
+      "reader_payoff": "Okur soruyu yalnız şaşkınlık değil, olayın kavranmaya çalışıldığı fakat ilk anda tamamlanmadığı bir eşik olarak görür.",
+      "containment": "İlişki insanın algı çabasını görünür kılar; yer sarsıntısının literal olayını ve sonraki gösterme-görme bildirimlerini korur. Soruya yanlış hüküm verildiği ileri sürülmez.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": [
+          "legacy_unbound",
+          "trusted"
+        ],
+        "reason": "Kayıtlı B002 dalı ve trusted publication focus carrier'ı sağlar; later correction legacy walk ve exact connection'larla qualified inference olarak korunur."
+      },
+      "support_ids": [
+        "sup_8a06155c7fef6e4ce8c5",
+        "sup_e63b421af15f7221a10e"
+      ],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000059/B002",
+          "facet_id": "F001",
+          "branch_gloss": "görerek fark etme; bağlama göre işitme, sezme ve bakıp araştırma",
+          "facet_statement": "Bir şeyi gözle görerek fark etmeyi veya seçmeyi anlatır.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "99:3:2:2"
+          ],
+          "trigger_refs": [
+            "conn_95f8b95aad14c380973f",
+            "conn_645ec66044d4c58a49f3"
+          ],
+          "focus_return_refs": [
+            "99:3:2:2"
+          ],
+          "carrier": "ٱلْإِنسَٰنُ, olayı görüp farkına varmaya çalışan insanı algı carrier'ı olarak kurar.",
+          "independent_trigger": "75:10'daki disruption question ve 75:7'deki altered-sight scene, ilk algının kararsız kaldığı bağımsız olay çevreleridir.",
+          "activation": "İnsan carrier'ı bu disruption ve sight contacts ile buluştuğunda, söz tamamlanmış kavrayıştan sonra düzeltilecek ilk fark edişe dönüşür.",
+          "resulting_reading": "مَا لَهَا, insan farkındalığının sarsıntının gerisinden geldiği bir soru olarak okunur; sonraki showing ve direct seeing bu ilk algıyı açar.",
+          "boundary": "Bu, insanın algı çabasına dair qualified bir ilişkidir; ayetin literal olayını veya bütün insan algısının aynı biçimde başarısız olduğunu iddia etmez."
+        }
+      ],
+      "connection_refs": [
+        "conn_95f8b95aad14c380973f",
+        "conn_645ec66044d4c58a49f3"
+      ],
+      "context_refs": [
+        "75:7",
+        "75:10",
+        "99:6",
+        "99:7",
+        "99:8"
+      ],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:conjectural-first-turn",
+      "origin_candidate_id": "cand_2361c6442f9dac99896f",
+      "represented_candidate_ids": [],
+      "title": "Varsayımdan bilgiye açılan ilk söz",
+      "claim": "قَالَ'nın söze dökme ve sanma işlevleri, insanın sorusunu yerin sonraki bilgi taşıyan haberine açılan ilk konuşma dönüşü olarak kurar.",
+      "mechanism": "قَالَ'nın B001 dalı gerçek sesli söz olayını taşırken, مَا'nın sorusu aynı carrier'ı soru yapısına özgü B011 supposition ile sınar. 99:4-5 earth report ile 19:66 ve 75:10'daki disruption questions, bu ilk seslenişin bilgiye dayalı son söz değil, cevap bekleyen bir first turn olduğunu gösterir.",
+      "reader_payoff": "Okur insanın sözünü kesin hüküm olarak değil, sarsıntının anlamını arayan ve ardından gelecek habere açılan ilk konuşma olarak duyar.",
+      "containment": "İnsan sorusu gerçek sesli söz olarak kalır; supposition onu silmez. Earth report'un cevap veren devam olması supplied pericope ve connections'ın ilişkisidir; bütün sorulara genellenmez.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": [
+          "trusted"
+        ],
+        "reason": "Trusted publication B001 ve B011 dallarını focus coordinate'te verir; pericope ve connection temasının açıklanması bu kayıtlı relation'a dayanır."
+      },
+      "support_ids": [
+        "sup_26bdb13afc14457c43df"
+      ],
+      "branch_activations": [
+        {
+          "branch_ref": "root_001272/B001",
+          "facet_id": "F001",
+          "branch_gloss": "söze dökme",
+          "facet_statement": "Çekirdek işlem, sözü sesli olarak dışa çıkarmaktır.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "99:3:1:2"
+          ],
+          "trigger_refs": [
+            "99:4",
+            "conn_6402f06da8655ee80f20"
+          ],
+          "focus_return_refs": [
+            "99:3:1:2"
+          ],
+          "carrier": "قَالَ, insanın sarsıntı karşısındaki sözünü sesli olarak dışa çıkarır.",
+          "independent_trigger": "99:4'te yerin haber vermesi ve 50:23'teki answer-bearing speech, sözün bilgi taşıyan bir karşılığa bağlandığı bağımsız örneklerdir.",
+          "activation": "Focus speech event bu haber ve cevap biçimleriyle temas ettiğinde, insanın cümlesi daha sonra gelecek bilgiyi karşılayan first turn olarak belirginleşir.",
+          "resulting_reading": "İnsan önce konuşur; sözün işlevi yer açıklamasından önce yükselen ilk insan tepkisini görünür kılar.",
+          "boundary": "B001 burada sesli söz olayını taşır; insan sözünün tek başına bilgi ürettiği ileri sürülmez."
+        },
+        {
+          "branch_ref": "root_001272/B011",
+          "facet_id": "F001",
+          "branch_gloss": "sanma işlevli söyleme",
+          "facet_statement": "Çekirdek anlam, söyleme fiilinin sanma ve varsayma işleviyle kullanılmasıdır.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "99:3:1:2"
+          ],
+          "trigger_refs": [
+            "99:3:3:1",
+            "conn_d0210ce7ae3e52de962d",
+            "conn_95f8b95aad14c380973f"
+          ],
+          "focus_return_refs": [
+            "99:3:1:2"
+          ],
+          "carrier": "قَالَ, مَا ile açılan soruda geçici bir varsayımı da seslendirir.",
+          "independent_trigger": "مَا'nın interrogative formu ile 19:66 ve 75:10'daki disruption questions, varsayım işlevini bağımsızca tetikler.",
+          "activation": "Speech carrier interrogative ve parallel human questions ile buluştuğunda, cümle bilgiyi bildiren hüküm değil bilgi bekleyen first appraisal olur.",
+          "resulting_reading": "مَا لَهَا, yerin sonraki bilgisine açılan, varsayımın sesli hale geldiği soru olarak okunur.",
+          "boundary": "B011 soru kuruluşuna bağlıdır; قَالَ'nın bütün kullanımlarına veya insanın tamamen bilgisiz olduğuna genellenmez."
+        }
+      ],
+      "connection_refs": [
+        "conn_d0210ce7ae3e52de962d",
+        "conn_95f8b95aad14c380973f",
+        "conn_6402f06da8655ee80f20"
+      ],
+      "context_refs": [
+        "19:66",
+        "50:23",
+        "75:10",
+        "99:4",
+        "99:5"
+      ],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:familiar-ground-rupture",
+      "origin_candidate_id": "cand_5e0caa70fba0929f4177",
+      "represented_candidate_ids": [
+        "cand_5e9867417b6cee4dc92e"
+      ],
+      "title": "Tanıdık zeminin soruya dönüşmesi",
+      "claim": "İnsan kelimesinin yakınlık ve rahatlık taşıyan B003 dalı, sarsılan yeri insanın tanıdık maddi zemini iken hakkında soru sorulan bir şeye dönüştüren yerel bir yankı kurar.",
+      "mechanism": "ٱلْإِنسَٰنُ üzerindeki B003, kişi veya şey karşısında yabancılığın kalkıp rahatlık oluşmasını taşır. 99:1-2'deki earth upheaval ve 22:1 ile 84:4'teki shaking ve release scenes bu carrier ile buluşur; tanıdık zemin aynı anda yabancılaşıp sorunun nesnesi olur.",
+      "reader_payoff": "Okur مَا لَهَا şaşkınlığını fiziksel değişim yanında alışılmış zeminin tanınmaz hale gelişine de bağlar.",
+      "containment": "Yakınlık dalı yerel duygusal resonance kurar; insan kelimesinin ordinary type anlamını değiştirmez ve yer sarsıntısını mecaza dönüştürmez.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": [
+          "legacy_unbound",
+          "trusted"
+        ],
+        "reason": "B003 kayıtlıdır ve trusted publication ile desteklenir; reader-walk, zemin ile familiarity rupture arasındaki sonucu qualified inference olarak sunar."
+      },
+      "support_ids": [
+        "sup_f6fd19f41590cb6fc1fd",
+        "sup_4e77611b342be2cd1d92"
+      ],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000059/B003",
+          "facet_id": "F001",
+          "branch_gloss": "yabancılık duymadan yakınlık ve rahatlık hissetme",
+          "facet_statement": "Bir kişi ya da şey karşısında yabancılık ve ürkme duygusunun kalkıp yakınlık, rahatlık veya sevinç oluşmasını anlatır.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "99:3:2:2"
+          ],
+          "trigger_refs": [
+            "99:1",
+            "99:2",
+            "conn_070fd09a1d1fba21918a",
+            "conn_7556a38344e8e852504b"
+          ],
+          "focus_return_refs": [
+            "99:3:2:2"
+          ],
+          "carrier": "ٱلْإِنسَٰنُ, insanın yaşadığı zemine karşı tanıdıklık ve rahatlık taşıyan varlık olarak duyulabilir.",
+          "independent_trigger": "99:1-2'deki earth shaking ve release ile 22:1 ve 84:4'teki doğrudan upheaval scenes, alışılmış zeminin değiştiğini gösterir.",
+          "activation": "Familiarity carrier maddi dönüşümle temas ettiğinde, insanın sorusu kendi tanıdığı zeminin artık tanıdıklık vermeyen bir olay alanına dönüşmesine bağlanır.",
+          "resulting_reading": "مَا لَهَا, tanıdık yerin davranışı anlaşılmaz hale geldiğinde yükselen yeniden-tanıma sorusu olarak derinleşir.",
+          "boundary": "Bu ilişki yakınlık ve yabancılaşmayı açık insan ve yer anlamına ekler; insan kelimesinin yalnızca duygusal yakınlık bildirdiğini iddia etmez."
+        }
+      ],
+      "connection_refs": [
+        "conn_070fd09a1d1fba21918a",
+        "conn_7556a38344e8e852504b"
+      ],
+      "context_refs": [
+        "22:1",
+        "84:4",
+        "99:1",
+        "99:2"
+      ],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:human-listener",
+      "origin_candidate_id": "cand_d34bcd2a97c4a9ed27b3",
+      "represented_candidate_ids": [
+        "cand_7f4630bc179770c54938"
+      ],
+      "title": "Görünür insanın dinleyiciye dönüşmesi",
+      "claim": "Görünür insanı adlandıran dal ile sözü dışa çıkaran قَالَ birleştiğinde, insanın konuşan taraf olma ayrıcalığı yerin tanıklığı karşısında dinleyen tarafa döner.",
+      "mechanism": "ٱلْإِنسَٰنُ için sağlanan görünürlük facet'i kişiyi görünür insan olarak kurar; قَالَ'nın B001 dalı bu konumu sesli soruyla açar. 99:4'te earth report ve 39:69 ile 50:23'te report/answer scenes, aşağıdaki dünyanın tanıklığının insan sözünü karşılayan bir muhataplık oluşturmasını tetikler.",
+      "reader_payoff": "Okur insanın sorusunu, kendisinden aşağıda sandığı dünyanın tanıklığı karşısında dinlemeye başlayan görünür insanın sözü olarak görür.",
+      "containment": "Bu local hiyerarşi ilişkisi insanın bütün speech authority'sini kaybettiğini veya earth'ün her bağlamda insan gibi konuştuğunu söylemez. Görünürlük, human branch'inin source variant'ıdır.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": [
+          "legacy_unbound",
+          "trusted"
+        ],
+        "reason": "İki focus branch ve trusted support mevcut; listener-side reversal connections ve legacy walk ile qualified relation olarak tutulmuştur."
+      },
+      "support_ids": [
+        "sup_9befd7e2c31c2164bf19",
+        "sup_f25c735927b28b773d3d"
+      ],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000059/B001",
+          "facet_id": "F002",
+          "branch_gloss": "insan türü ve bu türden bir kişi",
+          "facet_statement": "Adlandırmanın insanların duyularla görünür oluşuna bağlanması, anlamın özü değil kökene ilişkin bir açıklamadır.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "99:3:2:2"
+          ],
+          "trigger_refs": [
+            "99:4",
+            "conn_f054095a773fb387f3e8"
+          ],
+          "focus_return_refs": [
+            "99:3:2:2"
+          ],
+          "carrier": "ٱلْإِنسَٰنُ, konuşma sahnesindeki insanı görünür insan varlığı olarak adlandırır.",
+          "independent_trigger": "99:4'te earth report ve 39:69'da supplied disclosure scene, tanıklığın human dışı zeminden gelmesini sağlar.",
+          "activation": "Görünür human position earth testimony ile temas ettiğinde, normalde konuşan ve gözleyen tarafın bu sahnede aşağıdan gelen haberi dinlediği görülür.",
+          "resulting_reading": "İnsan, yerin ne olduğunu açıklayan tek taraf değil, yerin kendi haberini sunduğu olayda soran ve dinleyen taraf olur.",
+          "boundary": "F002 visibility rationale'yı taşır; human speech authority'sinin bütün bağlamlarda kaldırıldığını iddia etmez."
+        },
+        {
+          "branch_ref": "root_001272/B001",
+          "facet_id": "F001",
+          "branch_gloss": "söze dökme",
+          "facet_statement": "Çekirdek işlem, sözü sesli olarak dışa çıkarmaktır.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "99:3:1:2"
+          ],
+          "trigger_refs": [
+            "99:4",
+            "conn_6402f06da8655ee80f20"
+          ],
+          "focus_return_refs": [
+            "99:3:1:2"
+          ],
+          "carrier": "قَالَ, görünür insanın sorusunu sesli söz olarak dışa çıkarır.",
+          "independent_trigger": "99:4'teki earth report ve 50:23'teki ready answer scene, sesin karşısına tanıklık biçimini yerleştirir.",
+          "activation": "Speech carrier report/answer scene ile buluştuğunda, focus speech tek yönlü human narration değil testimony karşısında açılan ilk söz olur.",
+          "resulting_reading": "وقال الإنسان, insanın yerden gelecek tanıklığı dinlemek üzere konuştuğu bir eşik kurar.",
+          "boundary": "Bu local speech hierarchy relation'ıdır; human sözünü anlamsızlaştırmaz."
+        }
+      ],
+      "connection_refs": [
+        "conn_f054095a773fb387f3e8",
+        "conn_6402f06da8655ee80f20"
+      ],
+      "context_refs": [
+        "39:69",
+        "50:23",
+        "99:1",
+        "99:2",
+        "99:4"
+      ],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:collective-speech",
+      "origin_candidate_id": "cand_150ec55a4f678bb0fc6b",
+      "represented_candidate_ids": [
+        "cand_6bc0e69636d24d1a3129"
+      ],
+      "title": "Tekil sözün dolaşıma açılması",
+      "claim": "قَالَ'nın söze dökme biçimi, 99:6'da dağılmış halde görünen insan topluluğuyla temas ettiğinde tekil soruyu dolaşıma yayılan ortak bir insan tepkisinin başlangıcı olarak da duyurur.",
+      "mechanism": "قَالَ içindeki B007, sözü insanlar arasında yayılan laf trafiği olarak kurar. Focus'taki tekil insan ile 99:6'daki scattered people geçişi ve 23:83 ile 101:4'teki social repetition/dispersal scenes, tekil sözün daha geniş human speech alanına açılmasını tetikler.",
+      "reader_payoff": "Okur tekil insanın sözünde, sarsıntı karşısında yayılabilecek ortak konuşmanın ilk kıpırtısını duyabilir.",
+      "containment": "Tekil gramer çoğula çevrilmez. Trusted publication bu adayı reject olarak işaretlerken reader-walk karşı yönde activation sunar; iki kayıt birlikte tutulur ve collective meaning kesinleştirilmez.",
+      "epistemic": {
+        "status": "exploratory",
+        "source_trust": [
+          "legacy_unbound",
+          "trusted"
+        ],
+        "reason": "B007 focus occurrence ve reader-walk trigger sağlar; trusted publication reject grade verdiği için relation exploratory ve counterevidence görünürdür."
+      },
+      "support_ids": [
+        "sup_9430f3987cb1db0dc6dd",
+        "sup_926d1cbdb23198722a60"
+      ],
+      "branch_activations": [
+        {
+          "branch_ref": "root_001272/B007",
+          "facet_id": "F001",
+          "branch_gloss": "dolaşımdaki söz",
+          "facet_statement": "Çekirdek anlam, sözün insanlar arasında yayılıp dolaşıma girmesidir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "99:3:1:2"
+          ],
+          "trigger_refs": [
+            "99:6",
+            "conn_3b21ba4cf1eea5a4ac9e",
+            "conn_6e73b9576ac0e2d05abc"
+          ],
+          "focus_return_refs": [
+            "99:3:1:2"
+          ],
+          "carrier": "قَالَ, insanın sözünü insanlar arasında dolaşıma girebilen bir söz olarak duyurur.",
+          "independent_trigger": "99:6'daki scattered people ile 23:83 ve 101:4'teki social repetition/dispersal scenes, tekil sözün collective circulation alanına taşınabileceği ayrı bağlamlardır.",
+          "activation": "Tekil speech carrier dağılmış topluluk ve social repetition görüntüleriyle buluştuğunda, focus question ortak human conversation'ın ilk görünür sözü olarak da okunur.",
+          "resulting_reading": "وقال الإنسان, tek kişinin cümlesini korurken aşağıda dağılan insanların konuşma alanına açılan bir başlangıç hareketi kazanır.",
+          "boundary": "Humanın zorunlu olarak crowd'u temsil ettiği veya sözün mutlaka panic olarak yayıldığı iddia edilmez; reject grade karşı kanıt olarak kalır."
+        }
+      ],
+      "connection_refs": [
+        "conn_3b21ba4cf1eea5a4ac9e",
+        "conn_6e73b9576ac0e2d05abc"
+      ],
+      "context_refs": [
+        "23:83",
+        "101:4",
+        "99:6"
+      ],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:inner-uncertainty-spoken",
+      "origin_candidate_id": "cand_ecdeba5f5eb55acaecbf",
+      "represented_candidate_ids": [
+        "cand_927a11ed0efa329b5034"
+      ],
+      "title": "İçteki belirsizliğin söze çıkması",
+      "claim": "Soru biçimindeki قَالَ, içte tasarlanan ve varsayım taşıyan sözün sesli hale geldiği bir eşik kurar; sonraki bilgi bu belirsizliğin karşısına yerleşir.",
+      "mechanism": "قَالَ'nın B011 sanma işlevi مَا sorusuyla birleşerek kesinleşmemiş iç değerlendirmeyi dışa çıkarır; B012 içte kalmış söz dalı, bu sürecin bilgiye dönüşmemiş tarafını görünür kılar. 50:16'daki known inward speech ve 19:66'daki resurrection question, iç söz ile dışa çıkan soru arasındaki bağımsız temaslardır.",
+      "reader_payoff": "Okur soruda, eylemler açığa çıkmadan önce belirsizliğin konuşma biçimine bürünmesini de duyabilir.",
+      "containment": "B012 cümlenin gerçekten içte kaldığını söylemez; konuşmaya dönüşmeden önceki belirsizlik katmanını açıklar. Her söz varsayım sayılmaz ve earth report zorunlu sonuç ilan edilmez.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": [
+          "legacy_unbound",
+          "trusted"
+        ],
+        "reason": "B011/B012 focus records ve trusted publication desteği vardır; inward-to-outward relation legacy reader-walk nedeniyle qualified tutulmuştur."
+      },
+      "support_ids": [
+        "sup_6c72f5978dee2c350a5b",
+        "sup_ccfa61d05be6530885a1"
+      ],
+      "branch_activations": [
+        {
+          "branch_ref": "root_001272/B011",
+          "facet_id": "F001",
+          "branch_gloss": "sanma işlevli söyleme",
+          "facet_statement": "Çekirdek anlam, söyleme fiilinin sanma ve varsayma işleviyle kullanılmasıdır.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "99:3:1:2"
+          ],
+          "trigger_refs": [
+            "99:3:3:1",
+            "conn_d0210ce7ae3e52de962d"
+          ],
+          "focus_return_refs": [
+            "99:3:1:2"
+          ],
+          "carrier": "قَالَ, مَا sorusuyla birlikte kesinleşmemiş kanaatin söz biçiminde dışarı çıkmasını taşır.",
+          "independent_trigger": "مَا interrogative'i ve 19:66'daki varsayım yüklü resurrection question, sözün bilgi öncesi appraisal olarak duyulmasını tetikler.",
+          "activation": "Söyleme biçimi interrogative ve parallel question ile buluştuğunda, focus söz iç belirsizliğin dışa vurulmuş ilk hali olur.",
+          "resulting_reading": "İnsan yerin durumunu bilen biri gibi bildirmez; bilginin eşiğindeki varsayımı soru olarak seslendirir.",
+          "boundary": "B011 bu soru kuruluşuna bağlıdır; قَالَ'nın bütün sözlerini sanma saymaz."
+        },
+        {
+          "branch_ref": "root_001272/B012",
+          "facet_id": "F001",
+          "branch_gloss": "içte kalmış söz",
+          "facet_statement": "Çekirdek anlam, sözün içte tasarlanmış fakat açığa vurulmamış olmasıdır.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "99:3:1:2"
+          ],
+          "trigger_refs": [
+            "conn_07d70e57bd00206033f9",
+            "99:4"
+          ],
+          "focus_return_refs": [
+            "99:3:1:2"
+          ],
+          "carrier": "قَالَ, içteki tasarımın sesli soruya dönüşme sınırındaki sözü taşır.",
+          "independent_trigger": "50:16'daki inner speech'in biliniyor olması ve 99:4'teki outward earth report, iç söz ile açık konuşma arasındaki sınırı sağlar.",
+          "activation": "B012, humanın sesli sorusu ve inner-speech scene ile temas ederek soruyu iç belirsizliğin dışarı çıktığı an yapar.",
+          "resulting_reading": "مَا لَهَا, eylem ve haberden önce içteki tereddüdün ağızdan çıkan biçimi olarak duyulur.",
+          "boundary": "B012 burada transition relation'ıdır; cümlenin sesli olmadığını iddia etmez."
+        }
+      ],
+      "connection_refs": [
+        "conn_07d70e57bd00206033f9",
+        "conn_d0210ce7ae3e52de962d"
+      ],
+      "context_refs": [
+        "19:66",
+        "50:16",
+        "99:4"
+      ],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:bewildered-perception",
+      "origin_candidate_id": "cand_71e64f11243fcc7b14f7",
+      "represented_candidate_ids": [],
+      "title": "Şaşkın algının sesli ilk kaydı",
+      "claim": "قَالَ ile insan kelimesindeki fark etme dalı birleştiğinde, insanın sözü sarsıntının ilk bilinçli kaydı olur ve soru biçimi bu kaydın bilgiye henüz dönüşmediğini gösterir.",
+      "mechanism": "قَالَ'nın B001 dalı ٱلْإِنسَٰنُ içindeki B002 ile aynı focus'ta buluşur. 99:1-2 earth shaking, 22:1 named shaking ve 75:10 cosmic disruption question, bu sözün olaydan sonra gelen şaşkın algı olarak kurulmasını tetikler.",
+      "reader_payoff": "Okur insan cümlesinde sarsıntıyı açıklayan bir sonuçtan önce, olan biteni ilk kez bilince getirmeye çalışan sesli fark edişi duyar.",
+      "containment": "Finding sorunun ilk kaydını açar; sonraki earth report'un cevap işlevini silmez ve question'ı genel ignorance hükmüne dönüştürmez.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": [
+          "legacy_unbound"
+        ],
+        "reason": "Reader-walk iki focus carrier'ı ve shaking sonrası question contact'ını sunar; source trust legacy_unbound olduğu için ilişki qualified'dır."
+      },
+      "support_ids": [
+        "sup_23a3d2ef0ed226239adb"
+      ],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000059/B002",
+          "facet_id": "F001",
+          "branch_gloss": "görerek fark etme; bağlama göre işitme, sezme ve bakıp araştırma",
+          "facet_statement": "Bir şeyi gözle görerek fark etmeyi veya seçmeyi anlatır.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "99:3:2:2"
+          ],
+          "trigger_refs": [
+            "99:1",
+            "99:2",
+            "conn_070fd09a1d1fba21918a"
+          ],
+          "focus_return_refs": [
+            "99:3:2:2"
+          ],
+          "carrier": "ٱلْإِنسَٰنُ, sarsıntıdan sonra olayı farkındalığa almaya çalışan insanı algı carrier'ı yapar.",
+          "independent_trigger": "99:1-2 earth shaking ve 22:1'deki great shaking, insanın fark etmeye zorlandığı ayrı event grounds sağlar.",
+          "activation": "Algı carrier'ı shaking zeminiyle karşılaştığında, insan sorusu olayın ilk conscious registration'ı olarak belirir.",
+          "resulting_reading": "İnsan sarsıntıyı hemen açıklayan değil, onun farkına varıp onunla ilk kez konuşan özne olur.",
+          "boundary": "Fark edişin soruya dönüşümü anlatılır; B002'nin tüm uzantıları veya her question şaşkın algı sayılmaz."
+        },
+        {
+          "branch_ref": "root_001272/B001",
+          "facet_id": "F001",
+          "branch_gloss": "söze dökme",
+          "facet_statement": "Çekirdek işlem, sözü sesli olarak dışa çıkarmaktır.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "99:3:1:2"
+          ],
+          "trigger_refs": [
+            "99:4",
+            "conn_95f8b95aad14c380973f"
+          ],
+          "focus_return_refs": [
+            "99:3:1:2"
+          ],
+          "carrier": "قَالَ, algının tamamlanmadığı anda insan tepkisini sesli cümleye dönüştürür.",
+          "independent_trigger": "99:4 earth report ve 75:10 disruption question, olayın ilk human reaction'dan geniş bir explanation field'e açıldığını gösterir.",
+          "activation": "Sesli söz B002 algı carrier'ı ve independent disruption question ile buluşarak first conscious record olur.",
+          "resulting_reading": "وقال الإنسان, sarsıntının human mind'da question olarak duyulmaya başladığı ilk dışa vurumdur.",
+          "boundary": "First record olması önemsiz veya cevapsız kalacağı anlamına gelmez; later report için başlangıçtır."
+        }
+      ],
+      "connection_refs": [
+        "conn_070fd09a1d1fba21918a",
+        "conn_95f8b95aad14c380973f"
+      ],
+      "context_refs": [
+        "22:1",
+        "75:10",
+        "99:1",
+        "99:2",
+        "99:4"
+      ],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:retrospective-epistemic-turn",
+      "origin_candidate_id": "cand_a6609efb62ff3e25ab50",
+      "represented_candidate_ids": [],
+      "title": "Sorunun sonradan değişen epistemik konumu",
+      "claim": "Sonraki gösterim ve kişisel eylemlerin açığa çıkması, 99:3 insan sözünü yalnız panik değil, bilgi karşısında yetersizliği görülen erken bir kavrayış teşebbüsü olarak yeniden duyurur; tekil söz dağılmış insan sahnesine de açılır.",
+      "mechanism": "Focus question, 99:6-8'de insanların dağılması ve her kişinin yaptığı işi görmesiyle geriye dönük movement kazanır. İlk sözdeki uncertainty later seeing ve individualized disclosure ile temas eder; cümle tamamlanmış knowledge'dan sonradan düzeltilecek first attempt'e döner.",
+      "reader_payoff": "Okur ilk anda korku olarak duyduğu sorunun, sonraki gösterimle epistemic status değiştirdiğini ve tekil human sahnesine açıldığını fark eder.",
+      "containment": "Later ayatların verdiği retrospective movement ilk alarmı silmez ve tekil insanı grammatical plural yapmaz. Collective speech ayrı exploratory finding olarak kalır.",
+      "epistemic": {
+        "status": "exploratory",
+        "source_trust": [
+          "legacy_unbound"
+        ],
+        "reason": "Retrospective reader-walk before-after change'i doğrudan bildirir; exact HFT trace yerine legacy synthesis olduğu için exploratory tutulmuştur."
+      },
+      "support_ids": [
+        "sup_241b7ecd86a6dff237ac"
+      ],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000059/B002",
+          "facet_id": "F001",
+          "branch_gloss": "görerek fark etme; bağlama göre işitme, sezme ve bakıp araştırma",
+          "facet_statement": "Bir şeyi gözle görerek fark etmeyi veya seçmeyi anlatır.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "99:3:2:2"
+          ],
+          "trigger_refs": [
+            "99:7",
+            "99:8"
+          ],
+          "focus_return_refs": [
+            "99:3:2:2"
+          ],
+          "carrier": "ٱلْإِنسَٰنُ, first question'tan sonra gelecek seeing ile yeniden değerlendirilen awareness subject'ini taşır.",
+          "independent_trigger": "99:7-8'de each person's deed'i görmesi, first question'ın karşısına yerleşen doğrudan disclosure scene'dir.",
+          "activation": "İlk awareness later seeing ile buluştuğunda, focus question retrospective olarak early ve incomplete epistemic movement olur.",
+          "resulting_reading": "Human speech, later seeing tarafından düzeltilmeye açık first apprehension olarak yeniden duyulur.",
+          "boundary": "Retrospective change first question'ın gerçekliğini veya all human perception'ın failure'ını ortadan kaldırmaz."
+        },
+        {
+          "branch_ref": "root_001272/B007",
+          "facet_id": "F001",
+          "branch_gloss": "dolaşımdaki söz",
+          "facet_statement": "Çekirdek anlam, sözün insanlar arasında yayılıp dolaşıma girmesidir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "99:3:1:2"
+          ],
+          "trigger_refs": [
+            "99:6"
+          ],
+          "focus_return_refs": [
+            "99:3:1:2"
+          ],
+          "carrier": "قَالَ, tekil human speech'i later scattered-human scene'e bağlanabilen conversation beginning olarak taşır.",
+          "independent_trigger": "99:6'daki separate human groups, first speech'in broader human scene içinde circulation possibility'sidir.",
+          "activation": "Tekil speech ile scattered people arasındaki transition, first sentence'ın social circulation possibility'sini açar.",
+          "resulting_reading": "İlk question, separate groups halinde beliren insanların shared bewilderment alanına açılan bir ses olarak kalır.",
+          "boundary": "Collective conversation zorunlu sonuç yapılmaz; separate collective-speech finding'inin counterevidence'i korunur."
+        }
+      ],
+      "connection_refs": [],
+      "context_refs": [
+        "99:6",
+        "99:7",
+        "99:8"
+      ],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:perceptual-subject",
+      "origin_candidate_id": "cand_4a86fe50fc4f9e5b2809",
+      "represented_candidate_ids": [],
+      "title": "İnsanın algı öznesi olarak görünmesi",
+      "claim": "ٱلْإِنسَٰنُ, sonraki gösterim ve doğrudan görme sahneleriyle temas ettiğinde, genel insan adını farkındalığı düzeltilen algı öznesi olarak belirginleştirir.",
+      "mechanism": "İnsan kelimesinin B002 fark etme dalı focus carrier'dır. 75:7'de sight change ve 99:6-8'de deeds'in gösterilip görülmesi, human awareness'ın dışarıdan açılması ve düzeltilmesi için independent triggers olur.",
+      "reader_payoff": "Okur human adının burada yalnız kimin konuştuğunu değil, görme ve anlama gücü sonradan açılan bir subject'i de kurduğunu fark eder.",
+      "containment": "Nominated r’y/B012 showing image branch olarak retained değildir; finding yalnız kayıtlı B002 ile supplied later-seeing contexts arasındaki relation'ı taşır. Human type meaning korunur.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": [
+          "legacy_unbound"
+        ],
+        "reason": "Reader-walk B002 carrier'ı ve later showing contact'ını verir; showing source image occurrence bulunmadığı için finding B002 ile sınırlandırılmıştır."
+      },
+      "support_ids": [
+        "sup_8fbfae21932c793dc634"
+      ],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000059/B002",
+          "facet_id": "F001",
+          "branch_gloss": "görerek fark etme; bağlama göre işitme, sezme ve bakıp araştırma",
+          "facet_statement": "Bir şeyi gözle görerek fark etmeyi veya seçmeyi anlatır.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "99:3:2:2"
+          ],
+          "trigger_refs": [
+            "99:6",
+            "99:7",
+            "99:8",
+            "conn_645ec66044d4c58a49f3"
+          ],
+          "focus_return_refs": [
+            "99:3:2:2"
+          ],
+          "carrier": "ٱلْإِنسَٰنُ, fark edip anlamaya çalışan algı öznesini adlandırır.",
+          "independent_trigger": "99:6-8'de showing/direct seeing ve 75:7'de altered sight, first awareness'ın dışarıdan açıldığını gösterir.",
+          "activation": "Human carrier later sight scenes ile buluştuğunda, focus person yalnız witness değil awareness'ı sınanan ve tamamlanan subject olur.",
+          "resulting_reading": "Human question, humanın kendiliğinden egemen bir kavrayışa değil, sonradan açılan bir perceptual position'a sahip olduğunu da gösterir.",
+          "boundary": "Bu r’y/B012 için activation değildir; humanın B002 algı dalının later-seeing context'te yeniden duyulmasıdır."
+        }
+      ],
+      "connection_refs": [
+        "conn_645ec66044d4c58a49f3"
+      ],
+      "context_refs": [
+        "75:7",
+        "99:6",
+        "99:7",
+        "99:8"
+      ],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:earth-witness-exchange",
+      "origin_candidate_id": "cand_63f10e5b6a8406ef8a58",
+      "represented_candidate_ids": [],
+      "title": "Sorudan yerin tanıklığına açılan değiş tokuş",
+      "claim": "قَالَ'nın söze dökme dalı, insanın sorusunu yerin sonraki haber ve tanıklık sözünün ilk dönüşü olarak kurar; odak ayet tek yönlü insan tepkisinden soru ile tanıklık arasındaki değiş tokuşa açılır.",
+      "mechanism": "Focus qwl/B001 gerçek sesli sözü taşır. 99:4-5 earth report ve 50:23'teki answer-bearing speech, focus speech'in karşısında information-bearing testimony bulunduğunu tetikler. Nominated ḥ-d-th/B003 branch activation olarak kullanılmaz; report meaning ayah-level trigger olarak korunur.",
+      "reader_payoff": "Okur مَا لَهَا sorusunu boşlukta kalan hayret değil, kısa süre sonra yerin kendi haberini sunacağı bir konuşma başlangıcı olarak görür.",
+      "containment": "Earth report focus fiilinin lexical branch'i olarak sunulmaz; focus speech ile contextual testimony birbirine bağlanır. Hidden imparting veya ḥ-d-th ayrıntıları bu finding'in sınırında kalır.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": [
+          "legacy_unbound"
+        ],
+        "reason": "Reader-walk focus qwl carrier'ı ve earth-report relation'ı birlikte nominates; context branch occurrence bulunmadığı için relation ayah-level trigger olarak qualified tutulmuştur."
+      },
+      "support_ids": [
+        "sup_5e642e296140e302f99a"
+      ],
+      "branch_activations": [
+        {
+          "branch_ref": "root_001272/B001",
+          "facet_id": "F001",
+          "branch_gloss": "söze dökme",
+          "facet_statement": "Çekirdek işlem, sözü sesli olarak dışa çıkarmaktır.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "99:3:1:2"
+          ],
+          "trigger_refs": [
+            "99:4",
+            "99:5",
+            "conn_6402f06da8655ee80f20"
+          ],
+          "focus_return_refs": [
+            "99:3:1:2"
+          ],
+          "carrier": "قَالَ, insanın sorusunu sesli first turn olarak dışa çıkarır.",
+          "independent_trigger": "99:4-5 earth report ve 50:23 answer scene, focus speech'in karşısına testimony ve response tarafını koyar.",
+          "activation": "Focus speech event independent report ve answer scenes ile temas ederek question'ı later testimony'ye açılan first turn yapar.",
+          "resulting_reading": "Human speech, earth report'tan önce gelen ve onunla anlamlı exchange'e giren first movement olarak görünür.",
+          "boundary": "Earth report focus fiilinin lexical branch'i değildir; ayrıntıları context evidence olarak kalır."
+        }
+      ],
+      "connection_refs": [
+        "conn_6402f06da8655ee80f20"
+      ],
+      "context_refs": [
+        "50:23",
+        "99:4",
+        "99:5"
+      ],
+      "semantic_obligation_refs": []
+    }
+  ],
+  "friction_notes": [
+    "Sekiz assigned HFT kaydı yalnız unanchored reader-summary payload'larıdır: anchor_evidence boş, structured_insight_count sıfır ve exact carrier-trigger-focus-return izleri yoktur. HFT candidates görünürlükleri korunarak incelendi, fakat attributed activation için koordinat bulunamadığı için reddedildi.",
+    "Nominated root_000299/B003, root_000531/B002 ve root_000531/B012 kayıtlarında focus_root_occurrences boş, selected_context_units sayısı sıfırdır. Bu branch'ler adaylarında daraltıldı; ayah-level context ilişkileri branch gloss'u icat edilmeden trigger olarak korundu.",
+    "Connection registry'nin 248 satırı incelendi. Strong, medium, weak ve no value labels kabul filtresi yapılmadı; findings'e yalnız focus carrier, independent contact ve changed reading sağlayan rows alındı. Uzak/no-value rows için supplied candidate semantics'e bağlı olmayan exhaustive negative inventory yazılmadı.",
+    "Connection records target Arabic surface'i sağlıyor fakat target morphology ve lexicon sağlamıyor. Cross-surah connections yalnız supplied scene, question, answer, shaking, sight ve testimony relations'ını destekler; target words için ayrıntılı meaning icat edilmedi.",
+    "focus_word_alignment 6/6 words resolved ve unresolved list boş. Global findings daha geniş pericope ve cross-surah contacts nedeniyle qualified veya exploratory tutuldu; source trust ranking veya disambiguation olarak kullanılmadı."
+  ]
+}

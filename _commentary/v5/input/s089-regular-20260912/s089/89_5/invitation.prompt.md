@@ -1,0 +1,181 @@
+# V5 reading invitation — 89:5
+
+You are a fresh reading-invitation writer. Read the complete editorial prose
+before writing. It is your sole semantic source.
+
+Write two to four paragraphs of fluent, contemporary Turkish that reveal a
+surprising reading by following one or two main channels of resonance in the
+ayah. A channel is a connected background of meanings, images, actions, or
+relations through which the ayah can be heard and understood differently.
+Several editorial findings may together develop one channel. Summarize that
+connected movement and its consequence for the ayah's main meaning, rather
+than compressing findings individually. Give the reading's substance now;
+the invitation comes from understanding it, not from a promise of hidden depth.
+
+Before drafting, read the entire editorial prose and silently select the one
+or two channels with the strongest interpretive consequence and enough
+grounding to explain clearly. Favor channels that expand or shift what the
+ayah says, the relation it establishes, or what is at stake in its action or
+image. One fully developed channel is sufficient; add a second only when it
+offers a distinct consequential reading that can be explained within the
+invitation. No finding, channel, or major shift has an individual coverage
+claim. Unselected material may remain entirely in the full commentary.
+
+A channel may develop through grammar, sound, dialogue, a material process,
+time, imagery, or a conceptual relation. Resonance is not limited to acoustic
+effects, and an unusual image alone does not establish a channel. Use only
+connections the editorial prose actually develops. If it supplies no such
+channel, explain its strongest grounded reading without inventing connections
+or surprise.
+
+Begin inside the ayah's own words, images, actions, or relations and reveal a
+selected distinctive reading in the first paragraph. Keep the plain meaning
+reachable with only the orientation needed to understand the change. Do not
+spend an opening paragraph on routine explanation or front-load context about
+the surah, the ayah's position, or the commentary project.
+
+For each selected channel, begin with the expression that opens it, unfold the
+connected background, and show how the ayah reads or sounds against that
+background. Let a detail lead into the next through an intelligible relation
+or process, so the reader experiences the emerging reading. This is a movement
+of thought, not a mandatory sentence pattern or one paragraph per finding.
+Let the reader identify the expression being interpreted,
+where any nonordinary detail comes from, and what that detail changes in the
+reading. Briefly identify the word-family use, restricted form, collocation, or
+context that supplies an essential added detail, and preserve the concrete
+operation that makes the image work. Keep the ordinary reading and necessary
+qualification clear within this explanation; do not repeat them as a fixed
+formula. Preserve the particular object, process, or relation that makes this
+reading distinctive, and state its interpretive consequence for the ayah as a
+whole. Make intelligible what the familiar reading leaves less visible and
+what the expanded or shifted reading now lets the reader understand. Preserve
+the editorial's force: an exploratory possibility remains possible, while a
+developed shift must not be softened into a decorative association or a
+reassurance that everything means the same thing. A concrete
+account of how something is carried, transformed, lost, or restored must not
+shrink to a general statement about care, guidance, dependence, or goodness.
+Keep the details needed to make the selected channel work; omit side findings
+and shorten routine setup. If a channel cannot be explained faithfully from
+the editorial prose, choose another grounded channel or reading.
+
+When a non-focus ayah supplies a contribution used in the invitation, keep its
+reference from the editorial prose beside that contribution.
+
+Do not turn the invitation into a miniature inventory of the commentary's
+conclusions, or flatten distinct channels into a broad theme to include more
+material. Do not repair, extend, or supplement the editorial prose from memory
+or outside knowledge.
+
+Omit technical apparatus. Retain any qualification, source distinction, live
+alternative, or boundary whose absence would change the force or meaning of a
+chosen reading. Express it naturally beside the image or relation it qualifies.
+Favor positive explanations of the relation between layers: what remains in
+the foreground and what the resonance makes audible in the background. State
+how that background reinforces, expands, or shifts the understanding of the
+main meaning, with the source and degree of certainty clear. Reserve explicit
+exclusions for concrete ambiguities or live counter-evidence that need them.
+Repeated "this is not X" endings make a reading sound withdrawn; express the
+substantive qualification through what the reading does contribute wherever
+possible. Use varied, natural language rather than a repeated "second layer"
+formula, and preserve the force of expansions and shifts.
+Do not name branches, candidates, findings, scopes, evidence categories,
+ledgers, or workflow stages, or label the prose as numbered channels. Do not
+list findings serially.
+
+Use the established `{ar:..., tr:..., gloss:...}` syntax, consistent
+Turkish-readable transliteration, and short ordinary glosses. Keep Arabic
+anchors beside the explanations they ground. Within a paragraph, continue with
+the Turkish meaning where clear; provide the necessary local tag when a later
+paragraph interprets the carrier anew. Do not place Arabic script outside a
+valid tag.
+
+Build transitions within a channel through its shared object, action, or
+relation. If two channels are selected, they may occupy separate paragraphs;
+do not invent a link between them. Do not praise the commentary's quality,
+promise what the reader will find, manufacture suspense, recap at the end, or
+add a call to action. End on an image, relation, action, or tension already
+established by the selected reading.
+
+Before finishing, compare the invitation with the entire editorial prose:
+does the chosen channel reveal a consequential reading, or could the text have
+been written from the ordinary translation and a modest explanation alone?
+When the editorial supports a surprising channel, the latter fails this task.
+Can the reader follow the opening expression into a connected background and
+understand how that background expands or shifts the ayah's main meaning?
+Check the selected connections against their editorial explanation: can the
+reader tell where the nonordinary details come from, with the necessary
+qualifications intact? Repair generic explanation, isolated curiosities, or a
+compressed findings list by developing the selected channel. Do not add
+omitted channels merely for coverage. Do not output this check.
+
+Write only the invitation text to:
+
+`_commentary/v5/editorial/s089-regular-20260912/s089/89_5/89_5.invitation.tr.md`
+
+Do not add a heading, wrapper label, index, ledger, evidence file, or any other
+artifact. Do not modify the editorial prose.
+
+After writing the invitation, run:
+
+```bash
+python3 _commentary/v5/validate_prose.py _commentary/v5/editorial/s089-regular-20260912/s089/89_5/89_5.invitation.tr.md
+```
+
+If validation fails, repair only the reported mechanical file-contract issues
+and rerun it, for at most two repair cycles. Report the final validator result
+in your response.
+
+<editorial_prose>
+## Sorunun Eşiği
+
+89:1, 89:2, 89:3 ve 89:4’te peş peşe getirilen fecr, on gece, çift ve tek, ilerleyen gece, 89:5’te şu soruya bağlanır: “Bunlarda akıl sahibi için bir yemin yok mu?” {ar:هَلْ, tr:hal, gloss:soru edatı} daha {ar:قَسَمٌۭ, tr:qasamun, gloss:yemin} adı işitilmeden gelir. Böylece kısa soru yalnızca eksik bir bilgiyi istemez; önceki bütünün yemin gücü taşıyıp taşımadığını tanıma işini dinleyiciye bırakır. Evet-hayır açıklığı korunur ve bekleyiş sorunun parçası olur. Başlangıçtaki kısa {ar:هَلْ, tr:hal, gloss:soru edatı} sesi değerlendirmeden önce bir durak açar, ardından gelen uzun yapı bu duraktan açılan alanı doldurur. Âyet, yemin dizisini sürdürmekten onun yeterli ve bağlayıcı değerini değerlendirmeye geçen bir eşik kurar.
+
+Sorunun aradığı yemin alanını {ar:فِى, tr:fî, gloss:içinde} ile {ar:ذَٰلِكَ, tr:zâlike, gloss:bunlarda} birlikte kurar. {ar:فِى, tr:fî, gloss:içinde} burada geniş bir “ortam”a yayılmaz; yemin değeri, {ar:ذَٰلِكَ, tr:zâlike, gloss:bunlarda} ile işaret edilen tamamlanmış ve belirli dizinin içinde aranır. Küçük edat, 89:1, 89:2, 89:3 ve 89:4’teki işaretleri soruya taşıyan kısa bir geçiş gibi duyulur; ardından gelen gösterici söz, bütünün sınırını çizer. Bu alan cümlenin başına alınınca dinleyici önce yeminin nerede aranacağını, sonra o alanda ne bulunduğunun adını işitir. Önceki yemin zinciri bu düzen içinde tekrarlanmış bir madde değil, bağlayıcılık değeri değerlendirilen bir delil alanı olarak yeniden çerçevelenir.
+
+{ar:ذَٰلِكَ, tr:zâlike, gloss:bunlarda}, önceki yemin unsurlarını tek tek yinelemek yerine tek bir gösterici dönüşle yeniden işitilir kılar. Uzak gösterici, diziyi geride tamamlanmış fakat şimdi yeniden incelenebilir bir söylem nesnesi olarak tutar; geriye işaret ederken onu hükümden koparmaz. Aynı söz, {ar:فِى, tr:fî, gloss:içinde} ile açılan alanı {ar:قَسَمٌۭ, tr:qasamun, gloss:yemin} adının değerlendirilmesine bağlayan gramer köprüsüdür. Ses akışında da qasamun gelmeden önce paketi kapatır; sonraki isim, kapanmış bütünün içindeki yemin değerini adlandırır. Tekil gösterim, birçok yemin unsurunu içeriklerini birbirine karıştırmadan birlikte yönelinen tek bir nesne haline getirir.
+
+{ar:قَسَمٌۭ, tr:qasamun, gloss:yemin}, belirsiz ve yalın bir isim olarak bu alanın içinde bulunan bağlayıcı yemin değerini adlandırır. Önceki dizinin neye dönüştüğünü göstermek üzere gecikerek gelir; isim yapısı, zaten işitilmiş olanı geriye dönük olarak etiketler ve yeni bir yemin maddesi değil, dizinin değerlendirilmiş statüsünü öne çıkarır. Yemin anlamı yerinde kalırken kelimenin bölme ve paylaştırma basıncı da tanımayı ayıran bir çizgi gibi duyulur: kim yemin gücünü alabilecek, kim onu olduğu gibi geçip gidecek? 56:76’da büyük yemin doğrudan ilan edilirken 89:5’te qasamun soru içine alınır; yemin gücü zayıflamaz, onu tanıma eylemi görünür olur. Bu kullanım, yemin etme fiilini bildirmekten çok dizinin bağlayıcılık niteliği üzerine düşündürür.
+
+Bu değer hemen ardından gelen {ar:لِّذِى حِجْرٍ, tr:li-zî hıcr, gloss:akıl ve kendini tutma sahibi için} ifadesiyle alıcısına bağlanır. {ar:لِّ, tr:li, gloss:için} burada bir isim parçası değil, qasamun ile aşağıdaki alıcıyı birbirine bağlayan edattır; kimin için ve kime yönelik olduğunu bu ilişki kurar. Alıcı ve uygunluk aynı yerde buluşur: akıl ve kendini tutma sahibi, yeminin yöneldiği ve yemin değerinin işleyen bir delile dönüştüğü kişidir. Tekrarlanan l sesi qasamun’dan alıcı ifadesine geçişi sıkılaştırır; ifade sonradan eklenmiş bir açıklama gibi değil, yemin gücünün devamı gibi ilerler. Böylece {ar:لِّ, tr:li, gloss:için} yemin gücünü herhangi bir dinleyiciye dağıtmaz, kendini tutma kapasitesi taşıyan alıcıya özgüleştirir.
+
+{ar:ذِى, tr:zî, gloss:sahibi}, yakındaki bir sıfatı bildirmekten çok o niteliği taşıyan kişi sınıfını kurar; {ar:حِجْرٍ, tr:hıcr, gloss:aklı ve kendini tutması} bu sınıfın tamamlayıcısıdır. Tekil baş ve belirsiz tamamlayıcı, adı konmuş bir topluluk yerine genel bir sınıf kurar, fakat ölçüyü her bir kendini tutma sahibinde ayrı ayrı aramayı açık bırakır. Âyet yemini yalnız “akıllı” olana övgü olarak sunmaz, hıcr niteliğine sahip olana yöneltir. 89:7, 89:10 ve 3:190’daki taşıyıcı ve sahiplik dili bu yapıya bir karşılık verir; ortak olan, bir niteliğin kişiyi tanımlamasıdır, yerel gramer yine 89:5’i yönetir. {ar:ذِى, tr:zî, gloss:sahibi} için burada güvenli çekirdek, {ar:حِجْرٍ, tr:hıcr, gloss:aklı ve kendini tutması} niteliğini taşıyan kimliktir; bu cümlede başka gösterici veya ilgi zamiri kullanımları devreye girmez. Bu sahiplik düz bir sıfat ilişkisi değildir: kendini tutma, alıcıyı yemin gücüne uygun kılan ve onu içeriden yapılandıran bir kapasitedir. Zînin taşıdığı uzunluk kısa ve yoğun hıcr kelimesine ulaşmadan önce taşıyıcıyı kurar; görünür tamlayan biçimi de sahiplik ilişkisini çevirideki tek bir “sahibi” sözcüğünden çıkarıp Arapça yapının içinde görünür kılar.
+
+Soru son kelimesine geldiğinde {ar:حِجْرٍ, tr:hıcr, gloss:aklı ve kendini tutması} aklı, taş ve çevreleme alanının sınır basıncıyla birlikte disiplinli biliş olarak kurar. Bu, yalnızca fark eden bir zihin değil, yanlış çıkarımı içeride süzen ve davranışı frenleyen bir eştir. Kelimenin kısa ve sıkı sonu sınır duygusunu sesle pekiştirir; soru, yemin adından onu tanıyabilecek ölçülü akla iner ve sorumluluğu sözün gücü kadar onu karşılayan yetiye de taşır. İşaretli ve seyrek biçim, sıradan bir “bilme” sözcüğü yerine davranışı durdurabilen özel bir kapasite seçer. Bu kapasite 89:6’daki görme ve tanıma sınavına doğru bir eşik hazırlar. 6:138, 25:22 ve 25:53’te yasaklanan veya erişime kapatılan şeylerin yankısı, burada dışarıdan ilan edilmiş yeni bir yasaktan çok algı ve eylem içinde çalışan bir sınır olarak duyulur.
+
+Bu temasın katkısı, yemin gücünü onu doğru karşılayabilen bir aklın eylemi olarak görünür kılmasıdır. {ar:قَسَمٌۭ, tr:qasamun, gloss:yemin} bağlayıcı tanıklık gücünü, {ar:حِجْرٍ, tr:hıcr, gloss:aklı ve kendini tutması} ise aceleci çıkarımı ve davranışı tutan kapasiteyi taşır. Qasamun’un iddia veya söz için yemin etmeyi, hatta karşılıklı yeminleşmeyi taşıyan basıncı hıcrin uygunsuz davranışı durduran alıcı kapasitesiyle temas eder; yemin böylece onu karşılayabilecek kendini tutma sahibinde bağlayıcı bir tanıklık olarak görünür. Tersinden, hıcrin içsel engel oluşu qasamun’un bağlayıcı gücüyle etkinleşir: akıl burada yalnız bilen değil, yemin sözünü ölçüsüz çıkarımdan koruyarak karşılayan alıcıdır. Bu temas, yemini özel bir hukukî uygulamaya taşımadan 89:5’in açık sorusunu ahlaki ve bilişsel bir karşılamaya açar.
+
+Bir başka temasın katkısı, önceki diziyi farkları korunmuş ölçülü bir bütün olarak görmeyi sağlamasıdır. Soru bu yüzden “bunların içinde ölçülmüş bir ayrım ve onu koruyan bir sınır var mı?” diye de duyulabilir. {ar:قَسَمٌۭ, tr:qasamun, gloss:yemin} bütünün parçalara veya paylara ayrılması yönündeki basıncıyla {ar:فِى, tr:fî, gloss:içinde} ve {ar:ذَٰلِكَ, tr:zâlike, gloss:bunlarda} tarafından içine alınan diziyi farkları korunan bir bütün haline getirir. {ar:حِجْرٍ, tr:hıcr, gloss:aklı ve kendini tutması} erişmeyi, yararlanmayı veya bir işleme girişmeyi durduran sınır çekirdeğiyle bu ayrımları içeride tutar; hıcrin halka, çizgi veya belirgin bölgeyle kuşatan yönü, düzeni çevresi çizilmiş bir bütün gibi gösterir. Bu bağlantı düzenin soyut sınırında kalır; taş, ay veya göz çevresi gibi hıcr uygulamaları bu sahneye dahil edilmez. Daha araştırıcı bir ihtimalde qasamun seçenekleri ölçüp biçip farklı yönlere ayıran işleyişi, hıcr ise bu alternatifleri dağılmadan tutan aklı taşır. Seçenekler açık kalır fakat birbirine karışmaz; soru bir hükmü seçmekten önce ayrımları taşıma yeterliliğini yoklar. Bu görüntü kesin bir psikolojik teşhis veya tek bir doğru karar vermez ve diğer canlı okumaları yerinden etmez.
+
+## Dizinin Ölçüsü
+
+Bu temasın katkısı, zamanı kesilip sayılan ve kendi sınırları içinde ilerleyen bir düzen olarak görünür kılmasıdır. “Bunlar” sözü, 89:1, 89:2, 89:3 ve 89:4’ün kendi anlamlarını koruyarak birlikte duyulmasına alan açar. Dizinin ilk kesiti {ar:وَٱلْفَجْرِ, tr:ve’l-fecr, gloss:fecre andolsun} ile gelir; karanlıktan doğan şafak, sayımın başlayabilmesi için ilk zaman ayrımını açar. {ar:وَلَيَالٍ عَشْرٍۢ, tr:ve leyâlin aşr, gloss:on gece} dokuzun tamamlanıp onla kapanan bir aralığı ve sayılan gecelerin karanlık ortamını kurar. {ar:ٱلشَّفْعِ, tr:eş-şef’, gloss:çift olan} bir şeyi benzerine bağlayarak çift sınıfını kurar; karşısındaki {ar:ٱلْوَتْرِ, tr:el-vetr, gloss:tek olan} eşine bağlanmayan tek payı hesaba katar. 89:4’teki {ar:يَسْرِ, tr:yesrî, gloss:gece ilerler} bu ayrımların içinden düzenli geçişi ekler; gece yalnızca sayılan bir karanlık değil, kurulmuş sınırlar boyunca ilerleyen bir akış gibi görünür. Bu yüzden {ar:قَسَمٌۭ, tr:qasamun, gloss:yemin} olağan bağlayıcılığını korurken bir bütünü parçalara ve belirli paylara ayıran işlemi de duyurabilir, {ar:حِجْرٍ, tr:hıcr, gloss:çevreleyen sınır} ise çift, tek ve ilerleyen geceyi aynı çerçevede tutabilir. 89:1’de fecrle açılan, 89:2’de on geceyle kapanan, 89:3’te çift ve tekle ayrışan, 89:4’te ilerleyen geceyle yol alan dizi, 89:5’teki {ar:ذَٰلِكَ, tr:zâlike, gloss:bunlarda} ile tek bir öncül bütün halinde toplanır. Bu, önceki yeminlerin düz anlamlarını kaldırmayan, zamanın kesilip sayıldığını ve sınırları içinde ilerlediğini fark ettiren ihtimalli bir ek bağdır.
+
+Bu taş temasının katkısı, hıcrdeki sınır aklını dirençli maddeden kullanılabilir bir iç mekân çıkaran eylemle somutlaştırmasıdır. {ar:حِجْرٍ, tr:hıcr, gloss:taş} sert maddenin direncini görünür kılar. (89:9)’daki {ar:جَابُوا۟, tr:câbû, gloss:yarıp açtılar} sözü, (89:9)’daki {ar:ٱلصَّخْرَ, tr:es-sahr, gloss:sert kaya} ve (89:9)’daki {ar:بِٱلْوَادِ, tr:bi’l-vâdî, gloss:vadide} ifadesiyle buluşunca kayanın içine geçen bir kesme eylemi belirir: büyük ve karşı koyan kütle açılan bir yüzeye dönüşür. (89:8)’deki {ar:يُخْلَقْ, tr:yuhlaq, gloss:ölçülerek meydana getirilir} eylemi bu açılmış sertliği, içinde su tutabilecek bir oyuk veya yeni kuyuya dönüşen yapılmış bir iç mekân olarak duyurur; bu, bağlamın sunduğu imkânın sınırları içinde kalan bir görüntüdür. Vadi, sertliği başıboş bir kütle olmaktan çıkarıp geçişe ve suyun akışına yol veren sınırlı bir hatta yerleştirir. Böylece (89:8)’deki eşsiz ölçek ile (89:9)’da kayanın vadide yarılması, önündeki yeminlerin yalnızca söylenmiş nesneler değil, ölçü ve somut örneklerle sınanan bir bağlam olduğunu fark ettirir. Akıl ve sınır anlamı korunurken aynı kelime, elde edilen yerin sert maddesini de okuyucunun önüne getirir.
+
+Yapı görüntüsünün katkısı, kaya sertliğine taşıma, destekleme ve sabitleme işlemlerini ekleyerek kudreti işleyen bir düzen halinde göstermesidir. Kesilmiş kaya, orada duran büyük bir yapı görüntüsüne bağlanır. (89:7)’deki {ar:ٱلْعِمَادِ, tr:el-imâd, gloss:sütunlar ve destekler} dışarıdan görülen dikey düzeni ayakta tutar; (89:8)’deki {ar:يُخْلَقْ, tr:yuhlaq, gloss:ölçülerek meydana getirilir} büyüklüğü rastgele bir yığın olmaktan çıkarıp tasarlanmış ölçeğe bağlar; (89:9)’daki {ar:جَابُوا۟, tr:câbû, gloss:yarıp açtılar} ile {ar:ٱلصَّخْرَ, tr:es-sahr, gloss:sert kaya} insanın dirençli maddeyi yarıp şekillendirebildiğini gösterir. (89:10)’daki {ar:ٱلْأَوْتَادِ, tr:el-evtâd, gloss:çakılmış kazıklar} ise bu düzeni zemine sabitler. Kudret bu sahnede yalnız büyüklükle değil, taşıma, destekleme ve sabitlemeyle görünür hale gelir.
+
+Tarihsel sahnenin katkısı, dış yapının gücü ile içeride korunması gereken ölçüyü birbirinden ayırmasıdır. {ar:ٱلَّذِينَ طَغَوْا۟, tr:ellezîne tağav, gloss:sınırı aşanlar} sözü (89:11), güç ile sınır aşma hareketini yan yana getirir; {ar:ٱلْفَسَادَ, tr:el-fesâd, gloss:düzeni bozan bozulma} (89:12), dış düzen davranışta denge ve iyilik üretmediğinde bozulmanın yayıldığını gösterir. Sonraki {ar:بِٱلْمِرْصَادِ, tr:bi’l-mirsâd, gloss:gözetleme noktasında} ifadesi (89:14), kendini gözetmeyenlerin karşısında duran dış gözlem sınırını kurar. Bu sahnede {ar:قَسَمٌۭ, tr:qasamun, gloss:yemin} tarihsel anıtın üzerine konan bağlayıcı çağrı gibi işler: sütunlar (89:7), ölçü (89:8), kaya ve vadi işi (89:9), sabitleme (89:10), sınır aşma (89:11), bozulma (89:12) ve gözetim (89:14), 89:5’in sorusunu somut bir kanıt zincirine bağlar. Dışarıdan yönetilen taş ve yapının içeriden yönetilen akla eşit olmadığı böylece belirginleşir; bu, olağan akıl sahibi anlamını güç, sınır ve sorumluluk arasındaki ilişkiye açan bir karşılaştırmadır. Taş, yapı ve akıl arasındaki ilişki, {ar:حِجْرٍ, tr:hıcr, gloss:akıl ve kendini tutması} kelimesinin akıl ve kendini tutma anlamını koruyan bu bağlamla sınırlı kalır.
+
+Bu üç temasın katkısı, 89:5’teki yemin alanını kapsamlı tanıklık, farkları koruyan paylaştırma ve ayırt eden akıl ile birlikte okunabilir kılmasıdır. (69:38)’deki kapsamlı şahitlik, görünür ve görünmeyen alanları bir araya getiren bağlayıcı tanıklık olarak önceki işaretleri tek bir gövde içinde toplar. (51:4)’teki sıralı bölme, {ar:قَسَمٌۭ, tr:qasamun, gloss:yemin} için bir bütünü belirli paylara ayırır ve her parçanın farkını korur. (15:75)’te işaretleri ayırt eden kimselerle kurulan temas ise {ar:حِجْرٍ, tr:hıcr, gloss:ayırt ederek sınırlayan akıl} için yalnızca anlayan değil, ayrı işaretleri silmeden bütünü kavrayan ve yanlış yönden geri tutan bir alıcı tasviri açar. Böylece yemin anlamı korunur; her önceki işaret kendi payını taşır ve ölçülü yargı bu payları birlikte karşılar. (69:38)’in tanıklığı, (51:4)’ün sıralı ayırması ve (15:75)’in ayırt eden aklı, yerel ifadeye eklenen ihtiyatlı ve nitelikli yorum katmanı olarak birlikte tutulur.
+
+Bu temasın katkısı, hıcrdeki aklı hesaplama ile dürtüyü durdurma arasında işleyen bir yeti olarak görünür kılmasıdır. {ar:حِجْرٍ, tr:hıcr, gloss:sınır koyan akıl} erişimi, yararlanmayı veya bir işleme girişmeyi durduran sınır yönünü taşır. (6:138)’de ortak rızık çevresine insanlarca çekilen dış sınırla karşılaşınca asıl ölçü, dışarıdan ilan edilen sözü içeriden davranışa uygulayacak yargıda belirir. (49:4)’te çevreleme ile düşünmeyişin yan yana gelmesi, aklı uygun olmayan eylemi durduran iç muhafız gibi gösterir. Yapıların sergilediği kudret ne kadar büyük olursa olsun, {ar:حِجْرٍ, tr:hıcr, gloss:yük taşıyan iç sınır} baskı altındaki eylemi sınır içinde tutabilen zihindir. Yük taşıyan imge burada iç aklın eylemi sınır içinde tutan işlevini anlatır; yapı veya hukukî sınır anlamlarını bu bağlantıya dahil etmez.
+
+Bu maddi temasın katkısı, iç sınır fikrini iki ayrı somut yüzeyle görünür kılmasıdır. {ar:حِجْرٍ, tr:hıcr, gloss:engelleyen sınır} erişimi kapatan işlemi taşır; (25:22)’deki açık dışlama formülüyle buluşunca zihinsel engel, görünür bir çevreleme mantığının yanında belirir. Aynı {ar:حِجْرٍ, tr:hıcr, gloss:çevrili yer} duvarla veya taşla dışarıdan ayrılmış bir mekânı çağrıştırabilir; (15:80)’deki taşla çevrili tarihsel yer, sonraki anıtsal örnekleri aklın sınanacağı somut bir alan gibi duyurur. {ar:حِجْرٍ, tr:hıcr, gloss:sert taş} dalı da taşın sert ve katı nesne basıncını doğrudan taşır; muhatap yalnızca soyut düşünceler önünde değil, gücü ve yapıyı gösteren sert bir alan önünde durur. Bu iki temas, taş ve çevrili yer görüntüsünü olağan yanlıştan alıkoyan akla ekler. Odaktaki tamlama burada fiziksel bir yer adı, taş kesme eylemi veya yerleşim adı olarak değil, aklın sınırını somutlaştıran bu karşılaştırma içinde kalır.
+
+## Payın ve Sınırın Dönüşü
+
+Bu ekonomik temasın katkısı, rızkın miktarını insanın değerinden ayıran bir ölçü kurmasıdır. Sınamanın toplumsal yüzü (89:15, 89:16) ayetlerinde görünür. {ar:قَسَمٌۭ, tr:qasamun, gloss:yemin} burada yemin bağını bırakmadan, rızkın genişletilip daraltıldığı değişken payı da duyurabilir. İki âyetin eşleşen imtihan kuruluşları ölçünün kendisini bir yargı nesnesi yapar. {ar:حِجْرٍ, tr:hıcr, gloss:yanlış hükmü durduran akıl} bu iki karşıt sözün arasındaki fren olur: bolluk onur, darlık aşağılanma demeden önce hükmü tutar. Geniş payın insan tarafından ikram ve övgüyle eşitlenmesi, miktar ile insan değeri arasına mesafe koyar; daraltılan rızık, eksiklik damgası değil anlamı yorumlanması gereken değişmiş bir paydır. Rızkın belirlenmiş bir bağış gibi verilmesi, onu farklılaşmamış bir mülk değil dağıtılmış ve birine düşen hak olarak duyurur. Küçük payı doğrudan küçümsenme sayan insan hükmü de hıcr tarafından geri tutulur. (89:15, 89:16) ayetlerinin odak soruda pay dalını yeniden duyurması mümkün bir bağdır; bu iki âyetin yalnızca bağımsız bir değer yargısını düzeltmesi ihtimali açık kalır.
+
+Bu toplumsal temasın katkısı, başkasının payını görünmez kılan iştah ile onu koruyacak akıl arasındaki farkı göstermesidir. Sınama, (89:17, 89:18, 89:19, 89:20) ayetlerinde başkasının payını görmezden gelen iştah biçimine dönüşür. Yetim çocuğa koruma verilmez, yoksulu doyurmaya çağrı yapılmaz; ardından miras yenerek bir araya toplanır ve mal, kalbi dolduran aşırı bir sevgiyle istenir. {ar:قَسَمٌۭ, tr:qasamun, gloss:yemin} bölme ve belirli hakkı koruma basıncıyla bu dizinin karşısında durur; ayrı iddiaları tek tüketimde eritmek, paylaştırmanın tersine dönen bir biçimidir. {ar:حِجْرٍ, tr:hıcr, gloss:başkasını koruyan sınır} ise iştahın başkasına ait olana el koymasını durdurur; akıl burada yalnız bilen değil, bir payı görünür tutup onu ihtiyacı olana yönlendiren dağıtıcı vicdandır. Korumasız bırakılan çocuk, çağrının eksikliği ve başkasını doyurma eylemi, payın kimin için korunacağını ve ihtiyaç sahibine nasıl hareket edeceğini somutlaştırır. Mirasın tüketilmesi, zaten yapılandırılmış hakların üzerine çöküşü; dağınık malın toplanması, ayrı payların tek elde erimesini gösterir. Kalbe bağlanan mal sevgisi ve doymak bilmeyen birikim, sınır ihlalinin yalnızca bir eylem değil, insanı bütünü kendine çekmeye iten duygusal kuvvet olduğunu açığa çıkarır. Bu toplumsal sahne, olağan yemin ve yanlıştan alıkoyan akıl okumasını koruyan nitelikli bir bağlam katmanı olarak kalır.
+
+Bu sahnenin koruyucu yakınlık katkısı, payı yalnızca soyut bir ilke olarak değil, korunmaya muhtaç birinin yanında duran bakım olarak göstermesidir. {ar:حِجْرٍ, tr:hıcr, gloss:yakın koruma} koruyucusuz bırakılmış bağımlının birinin kucağında veya koruyucu kanadı altında saklanmasını düşündürür; {ar:قَسَمٌۭ, tr:qasamun, gloss:yemin} ise bu korumanın pratik içeriğini, belirli hakkın kaybolmaması ve payın ihtiyaç sahibine yönelmesi olarak verir. Koruyucusuz çocuk ve başkasını doyurma eylemi (89:17, 89:18), sınırın neden gerekli olduğunu ve bu korumanın soyut bir duvar değil, payı canlı bir bakım içinde taşıyan davranış olduğunu gösterir. Bu yakın koruma, olağan akıl anlamına eklenen nitelikli bir okumadır; hıcr burada gerçek bir kucak veya velayet terimine indirgenmeden, ayrı bir iddianın payını koruyan davranış olarak duyulur.
+
+Bu zaman temasının katkısı, tanımak ile iyiliği eyleme geçirmek arasındaki fırsat aralığını görünür kılmasıdır. (89:23, 89:24)’te insan hatırlamaya, kararın işe yarayacağı aralık kapandıktan sonra ulaşır ve hayatı için önceden iyi bir şey göndermiş olmayı diler. {ar:قَسَمٌۭ, tr:qasamun, gloss:yemin} olası yönlere bölünmüş bir karar alanını, {ar:حِجْرٍ, tr:hıcr, gloss:zamanında frenleyen akıl} ise yanlış yönü vaktinde durdurup seçilmiş iyiliği öne geçirecek yetiyi taşır. Unutulanı geri getiren hatırlama kapanmış bir fırsatla, vakit penceresi ve ileriye gönderme arzusu ile buluşur; tanımak ile eyleme geçirmek arasındaki süre görünür hale gelir. İleri gönderilmesi istenen iyi, yararlı hayatın yönünü gösterir; bölünmüş karar ancak seçilmiş iyiliği zamanında öne geçirince sonuç kazanır. Böylece hıcr, pişmanlığın geriye dönük bilgisinden önce, fırsat açıkken davranışa dönüşen yargı olarak görünür. Bu bağlantı sonraki pişmanlığı odak yeminiyle buluşturan aktarılmış ve ihtiyatlı bir bağdır; (89:23, 89:24) ayetlerinin genel bir pişmanlık anlattığı ve her qasam basıncını bilinçli biçimde yeniden açmadığı alternatif açıklama açık kalır.
+
+Bu uzun temas dizisinin katkısı, sınırı dışlama duvarından dönüşen bir işlemler dizisine çevirmesidir. Yerin dövülüp dümdüz edilmesi ve safların hizalanması (89:21, 89:22), eski dış çevreleri kaldırıp yıkımdan sonra yeni bir bölümlenmiş düzen kurar; {ar:قَسَمٌۭ, tr:qasamun, gloss:yemin} yeniden düzenlenmiş payların basıncını taşır. {ar:حِجْرٍ, tr:hıcr, gloss:erişimi sınırlayan sınır} (89:26)’da dışarıdan bağlayan zorlayıcı bağ ile karşılaşır; içeriden kurulmamış sınırın yerine zorunlu bir bağ geçebilir. Aynı kelimenin {ar:حِجْرٍ, tr:hıcr, gloss:çevrili yer} yönü içeri girme buyruğuyla (89:29) buluşunca sınır dışarıda bırakmanın yanında izinli bir geçiş de kurar. {ar:حِجْرٍ, tr:hıcr, gloss:yakın koruma} ise yerleşmiş sükûneti (89:27), dönüşü (89:28) ve korunaklı bahçeyi (89:30), zorlayıcı bağ gerektirmeyen olumlu bir sığınak olarak birleştirir. Yıkım ve saf düzeni, zorlayıcı bağ ile sükûnetin karşılaştırılması, ardından dönüş, giriş ve bahçe, çizgiyi ayrılıktan kabule taşır. Yapı çöker, paylar yeniden düzenlenir; iç fren yoksa dış bağ belirir, iç denge kurulduğunda sınır geri döneni alan koruyucu mekâna dönüşür. Bu hareket yerel yemini korur; qasam ile hıcrin farklı katkılarını tek bir sözlük anlamına kapatmadan olağan okumanın ufkunu genişletir.
+
+Bu biçimsel temasın katkısı, dengeyi aynılık değil, farklı payların uyumu olarak görünür kılmasıdır. {ar:قَسَمٌۭ, tr:qasamun, gloss:yemin} yüzde paylanan güzellik yönüyle, yüzün uyumunu parçaların dağılımından doğan bir ahenk olarak duyurabilir. Eşli ve tekil kuruluş (89:3), ölçülü oluş (89:8) ve hizalanmış saflar (89:22) ile buluşunca soru, dengeli fakat tekdüze olmayan bir düzenin kanıtlayıcı güzelliğini sezdirir. {ar:حِجْرٍ, tr:hıcr, gloss:çevreleyen halka} bu parçaları bir bütün halinde görünür kılan çerçeveyi taşır: eşli olan eşine bağlanır, tekil olan bir artık olarak korunur, biçimlenen ve hizalanan şey bir sınır içinde tutulur. Böylece simetri aynılık zorunluluğuna indirgenmez. (89:3), (89:8) ve (89:22), bu biçimsel yankının sırasıyla eşlik, dengeli oluş ve hizalanma yüzeylerini taşır. Buradaki güzellik bağlantısı qasamun’un yerel anlamı olarak değil, biçim bakımından uzak ve sonraki temasları aktarılmış açıkça keşifsel bir benzetme olarak kalır. Olağan yemin ve akıl zemini bu ek görüntü içinde korunur.
+
+Bu son barış temasının katkısı, bağlayıcı söz ile koruyucu sınırı ayrılıktan aidiyete uzanan bir dönüş içinde göstermesidir. {ar:قَسَمٌۭ, tr:qasamun, gloss:yemin} ateşkes yönüyle düşmanlığı durduran bir uzlaşma imgesi taşır; {ar:حِجْرٍ, tr:hıcr, gloss:yakın koruma} bu imgeyi korunan bir içeri yöneltir. Dönüş ve karşılıklı hoşnutluk (89:28), içeri giriş (89:29) ve korunaklı bahçe (89:30), bağlayıcı sözün ayrılığı bitiren, geri döneni korunan içeri alan bir sınır olabileceğini düşündürür. Barış burada tek taraflı bir bağış değil, karşılıklı hoşnutlukla gerçekleşen kabul hareketidir; giriş vaadi ve bahçe, yakın korumayı gerçek bir içeri alma sahnesine dönüştürür. Bu dal yerel kullanımdan ve biçimden uzaktır; son sahneler tek bir sözlük devresi değil, birbirinden ayrı eskatolojik görüntüler olarak da okunabilir. Olağan qasamun-yemin ve hıcr-akıl anlamları yerinde kalırken barış ve sığınak görüntüsü, soruya eklenen sınırlı bir yankı olarak, ayrılığın içeri alınan bir dönüşle nasıl korunmuş aidiyete çevrilebileceğini gösterir.
+
+</editorial_prose>

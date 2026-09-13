@@ -1,0 +1,636 @@
+{
+  "schema_version": "commentary-v5-scope-discovery-v1",
+  "ayah_ref": "96:6",
+  "lane": "macro",
+  "coverage_complete": true,
+  "candidate_decisions": [
+    {
+      "candidate_id": "cand_2773b60bca0d110e950c",
+      "decision": "narrow",
+      "reason": "The focus overflow branch is independently available at 96:6, but the gathered-water and terminal-pool nominations are SOURCE_IMAGE branches with no supplied word-level carrier; the unresolved ط غ و citation also has no registered branch. Retain only the bounded excess-to-stop relation.",
+      "finding_refs": ["macro:flood-boundary"],
+      "branch_exclusions": [
+        {"branch_ref": "root_001040/B005", "reason": "SOURCE_IMAGE gathered-water nomination has no supplied independent word-level carrier."},
+        {"branch_ref": "root_001560/B004", "reason": "SOURCE_IMAGE terminal-pool nomination has no supplied independent word-level carrier."}
+      ],
+      "facet_exclusions": [
+        {"branch_ref": "root_001040/B005", "facet_id": null, "reason": "The nominated SOURCE_IMAGE facet cannot be activated without a supplied carrier occurrence."},
+        {"branch_ref": "root_001560/B004", "facet_id": null, "reason": "The nominated SOURCE_IMAGE facet cannot be activated without a supplied carrier occurrence."}
+      ],
+      "context_exclusions": [
+        {"context_ref": "96:4", "reason": "This anchor belongs to the omitted gathered-water nomination and is not independently located as a carrier."},
+        {"context_ref": "96:14", "reason": "This anchor belongs to the omitted terminal-pool nomination and is not independently located as a carrier."}
+      ],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_401d6eda0f7387005c24",
+      "decision": "narrow",
+      "reason": "The human, pupil-image, and misleading-power focus branches have exact focus carriers and can sustain a bounded self-presentation reading. The spirit/apparition SOURCE_IMAGE nomination has no supplied word-level carrier, so it is excluded rather than promoted to a lexical activation.",
+      "finding_refs": ["macro:apparition-boundary"],
+      "branch_exclusions": [
+        {"branch_ref": "root_000531/B008", "reason": "SOURCE_IMAGE jinn/apparition nomination has no supplied independent word-level carrier."}
+      ],
+      "facet_exclusions": [
+        {"branch_ref": "root_000531/B008", "facet_id": null, "reason": "The nominated SOURCE_IMAGE facet cannot be activated without a supplied carrier occurrence."}
+      ],
+      "context_exclusions": [
+        {"context_ref": "96:2", "reason": "The human/unseen contrast is retained only as attributed source context; no exact carrier for the omitted apparition branch is supplied."},
+        {"context_ref": "96:5", "reason": "The human/unseen contrast is retained only as attributed source context; no exact carrier for the omitted apparition branch is supplied."},
+        {"context_ref": "96:11", "reason": "The guidance anchor is not needed for the bounded retained focus activations."}
+      ],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_0df3a9d923ba1551245e",
+      "decision": "narrow",
+      "reason": "The focus boundary-crossing branch is independently carried at 96:6 and is sharpened by the supplied refusal, denial, warning, and false-authority context. The error, restraint, and turning-away SOURCE_IMAGE branches lack supplied word-level carriers and are explicitly omitted.",
+      "finding_refs": ["macro:refusal-reversal"],
+      "branch_exclusions": [
+        {"branch_ref": "root_000420/B001", "reason": "SOURCE_IMAGE error/passing-beyond nomination has no supplied independent word-level carrier."},
+        {"branch_ref": "root_001560/B001", "reason": "SOURCE_IMAGE restraint nomination has no supplied independent word-level carrier."},
+        {"branch_ref": "root_001684/B007", "reason": "SOURCE_IMAGE turning-away nomination has no supplied independent word-level carrier."}
+      ],
+      "facet_exclusions": [
+        {"branch_ref": "root_000420/B001", "facet_id": null, "reason": "The nominated SOURCE_IMAGE facet cannot be activated without a supplied carrier occurrence."},
+        {"branch_ref": "root_001560/B001", "facet_id": null, "reason": "The nominated SOURCE_IMAGE facet cannot be activated without a supplied carrier occurrence."},
+        {"branch_ref": "root_001684/B007", "facet_id": null, "reason": "The nominated SOURCE_IMAGE facet cannot be activated without a supplied carrier occurrence."}
+      ],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_029931d347aa981604c3",
+      "decision": "narrow",
+      "reason": "The focus smooth-raised-surface branch has an exact carrier at 96:6 and can supply a bounded tactile image of self-elevation against the opening creation cue. The slab, closure, and raised-outline SOURCE_IMAGE branches lack supplied word-level carriers and are omitted.",
+      "finding_refs": ["macro:surface-and-barrier"],
+      "branch_exclusions": [
+        {"branch_ref": "root_000434/B008", "reason": "SOURCE_IMAGE smooth-surface nomination has no supplied independent word-level carrier."},
+        {"branch_ref": "root_000434/B012", "reason": "SOURCE_IMAGE imperforate-closure nomination has no supplied independent word-level carrier."},
+        {"branch_ref": "root_000745/B002", "reason": "SOURCE_IMAGE raised-outline nomination has no supplied independent word-level carrier."}
+      ],
+      "facet_exclusions": [
+        {"branch_ref": "root_000434/B008", "facet_id": null, "reason": "The nominated SOURCE_IMAGE facet cannot be activated without a supplied carrier occurrence."},
+        {"branch_ref": "root_000434/B012", "facet_id": null, "reason": "The nominated SOURCE_IMAGE facet cannot be activated without a supplied carrier occurrence."},
+        {"branch_ref": "root_000745/B002", "facet_id": null, "reason": "The nominated SOURCE_IMAGE facet cannot be activated without a supplied carrier occurrence."}
+      ],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_4c309d27448e70759328",
+      "decision": "accept",
+      "reason": "The complete legacy_unbound HFT activation trace is retained as attributed contextual evidence with every supplied role and coordinate represented.",
+      "finding_refs": ["macro:received-measure"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_00b077adcced2ee5bc12",
+      "decision": "accept",
+      "reason": "The complete legacy_unbound HFT activation trace is retained as attributed contextual evidence with every supplied role and coordinate represented.",
+      "finding_refs": ["macro:dependence-denied"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_6dbb004c5197494854c6",
+      "decision": "accept",
+      "reason": "The complete legacy_unbound HFT activation trace is retained as attributed contextual evidence with every supplied role and coordinate represented.",
+      "finding_refs": ["macro:counterfeit-height"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_68f55022045c10aa506c",
+      "decision": "accept",
+      "reason": "The complete legacy_unbound HFT activation trace is retained as attributed contextual evidence with every supplied role and coordinate represented.",
+      "finding_refs": ["macro:closed-self-gaze"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_a2df614b4bff630314ef",
+      "decision": "accept",
+      "reason": "The complete legacy_unbound HFT activation trace is retained as attributed contextual evidence with every supplied role and coordinate represented.",
+      "finding_refs": ["macro:returning-overflow"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_2fa843e043c110644c59",
+      "decision": "accept",
+      "reason": "The complete legacy_unbound HFT activation trace is retained as attributed contextual evidence with every supplied role and coordinate represented.",
+      "finding_refs": ["macro:monopoly-over-limits"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_ef018c2abf80b5938922",
+      "decision": "accept",
+      "reason": "The complete legacy_unbound HFT activation trace is retained as attributed contextual evidence with every supplied role and coordinate represented.",
+      "finding_refs": ["macro:vertical-reversal"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_add18a2dd6c693f93e74",
+      "decision": "accept",
+      "reason": "The complete legacy_unbound HFT activation trace is retained as attributed contextual evidence with every supplied role and coordinate represented.",
+      "finding_refs": ["macro:voice-counterforce"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_db3ea1e9652860a060ca",
+      "decision": "accept",
+      "reason": "The complete legacy_unbound HFT activation trace is retained as attributed contextual evidence with every supplied role and coordinate represented.",
+      "finding_refs": ["macro:redirected-nearness"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_10af11521958a10b2776",
+      "decision": "accept",
+      "reason": "The exploratory legacy_unbound outlier is retained with its exact focus anchor, attributed trace, and explicit hydraulic containment.",
+      "finding_refs": ["macro:saturation-spill"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_f63dfac8693d2e85f900",
+      "decision": "accept",
+      "reason": "The exploratory legacy_unbound outlier is retained with its exact focus anchor, attributed trace, and explicit image-surface containment.",
+      "finding_refs": ["macro:deceptive-self-surface"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_5f552527e3f87c9e98bf",
+      "decision": "accept",
+      "reason": "The exploratory legacy_unbound outlier is retained with its exact focus anchor, attributed trace, and explicit corporeal-geometry containment.",
+      "finding_refs": ["macro:neck-column"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    }
+  ],
+  "findings": [
+    {
+      "finding_ref": "macro:flood-boundary",
+      "origin_candidate_id": "cand_2773b60bca0d110e950c",
+      "represented_candidate_ids": [],
+      "title": "Flood, Gathering Water, and Terminal Pool",
+      "claim": "The focus overflow branch can be heard as force rising beyond its ordinary limit and meeting the surrounding prohibition and warning language, without asserting a literal water channel in the ayah.",
+      "mechanism": "The focus verb supplies excess beyond a limit; the supplied 96:9 and 96:15 context makes that excess legible against prohibition and an announced stop.",
+      "reader_payoff": "The focus acquires pressure and boundary without losing its ordinary moral reading.",
+      "containment": "The gathered-water and terminal-pool nominations are omitted because their SOURCE_IMAGE branches have no supplied word-level carriers. The unresolved ط غ و citation is not promoted to a lexical activation.",
+      "epistemic": {"status": "grounded", "source_trust": ["trusted"], "reason": "The retained focus branch is registered and carried by the exact focus verb; the contextual effect is limited to supplied surah anchors."},
+      "support_ids": ["sup_1109ea0ea3833cb054b3", "sup_29c7a6965ca2fdc955a7", "sup_797a50494664bff18df1", "sup_82f94faa352bdb9a4da6", "sup_e433f0160c4998ad636c"],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000937/B002",
+          "facet_id": "F001",
+          "branch_gloss": "Su veya sel, olağan miktarı ve düzeyi aşacak ölçüde çoğalır ve yükselir.",
+          "facet_statement": "Su veya sel, olağan miktarı ve düzeyi aşacak ölçüde çoğalır ve yükselir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["96:6:4:2"],
+          "trigger_refs": ["96:9", "96:15"],
+          "focus_return_refs": ["96:6:4:2"],
+          "carrier": "The focus verb's registered overflow branch supplies a force exceeding ordinary bounds.",
+          "independent_trigger": "The supplied 96:9 prohibition and 96:15 warning provide independent limit-setting context.",
+          "activation": "The lexical excess is read as a bounded surge whose limit becomes visible through the local stop language.",
+          "resulting_reading": "Excess rises toward a visible boundary and is answered by prohibition and warning.",
+          "boundary": "This is a bounded contextual resonance, not a claim that the focus verb literally denotes water here."
+        }
+      ],
+      "connection_refs": ["conn_0b7c5fd2f39d36524eb4", "conn_fe5ac99dee1333cfa6d2"],
+      "context_refs": ["96:9", "96:15"],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "macro:apparition-boundary",
+      "origin_candidate_id": "cand_401d6eda0f7387005c24",
+      "represented_candidate_ids": [],
+      "title": "Spirit and Apparition",
+      "claim": "The human focus can become a visible self-presenting authority whose transgressive action is exposed by self-seeing, denial, turning away, and divine seeing; the uncarried apparition nomination remains excluded.",
+      "mechanism": "The focus human branch supplies the visible agent, the pupil-image branch supplies self-representation, and the misleading-power branch supplies a rival authority; 96:7, 96:9, 96:13, and 96:14 supply the independent context.",
+      "reader_payoff": "The reader can track how presence becomes self-display and then authority without collapsing human and unseen categories.",
+      "containment": "The spirit/apparition SOURCE_IMAGE branch is not activated because no independent word-level carrier is supplied. The retained activations remain a contextual boundary image around exact focus branches.",
+      "epistemic": {"status": "grounded", "source_trust": ["trusted"], "reason": "The retained human, pupil-image, and misleading-power branches are registered focus branches with exact focus carriers; the apparition image is explicitly omitted."},
+      "support_ids": ["sup_3bbe6d8c0e6a642b1049", "sup_9552c03803e4858d8287", "sup_e70d32f6793c052e4fc2", "sup_e8929f691899d39bc186", "sup_f46c67b7d2cf0603a81c"],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000059/B001",
+          "facet_id": "F001",
+          "branch_gloss": "insan türü ve bu türden bir kişi",
+          "facet_statement": "İnsan türünü, insanların oluşturduğu topluluğu veya bu türün tek bir üyesini görünmeyen varlıklar sınıfının karşısında adlandırır.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["96:6:3:2"],
+          "trigger_refs": ["96:9", "96:14"],
+          "focus_return_refs": ["96:6:3:2"],
+          "carrier": "The focus noun supplies the human side of the human/unseen boundary.",
+          "independent_trigger": "The supplied prohibition and divine-seeing anchors make the visible human agent answerable to a larger field.",
+          "activation": "The human is read as a visible agent whose self-presentation cannot exhaust the field in which it acts.",
+          "resulting_reading": "Human presence is visible but not self-authorizing.",
+          "boundary": "The excluded apparition nomination is not used to redefine the human branch."
+        },
+        {
+          "branch_ref": "root_000059/B005",
+          "facet_id": "F001",
+          "branch_gloss": "göz bebeğinde görülen küçük yansıma",
+          "facet_statement": "Göz bebeğinin kara bölümünde görülen küçük insan biçimli görüntüyü veya yansımayı adlandırır.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["96:6:3:2"],
+          "trigger_refs": ["96:7"],
+          "focus_return_refs": ["96:6:3:2"],
+          "carrier": "The registered pupil-image facet supplies a miniature self-representation.",
+          "independent_trigger": "The self-seeing clause at 96:7 supplies the independent visual trigger.",
+          "activation": "A person who sees himself as sufficient can be read through the miniature image as mistaking a representation for the whole field.",
+          "resulting_reading": "Self-seeing becomes a mechanism of narrowed authority.",
+          "boundary": "The image remains an analogy around the focus noun, not its ordinary lexical gloss."
+        },
+        {
+          "branch_ref": "root_000937/B003",
+          "facet_id": "F001",
+          "branch_gloss": "Yanlış yola önderlik eden ve başkalarını iyilik yolundan çeviren kişi, varlık veya güç temel kategoriyi oluşturur.",
+          "facet_statement": "Yanlış yola önderlik eden ve başkalarını iyilik yolundan çeviren kişi, varlık veya güç temel kategoriyi oluşturur.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["96:6:4:2"],
+          "trigger_refs": ["96:13", "96:14"],
+          "focus_return_refs": ["96:6:4:2"],
+          "carrier": "The focus verb's registered misleading-power branch supplies a rival authority image.",
+          "independent_trigger": "The supplied denial/turning-away and divine-seeing anchors expose the rival claim.",
+          "activation": "Overstepping is sharpened into a power that redirects another person while remaining visible to a superior observer.",
+          "resulting_reading": "Transgression can present itself as authority, but its authority is not final.",
+          "boundary": "No unseen being is asserted; the retained branch is the registered power image attached to the focus verb."
+        }
+      ],
+      "connection_refs": ["conn_0b7c5fd2f39d36524eb4", "conn_4d2f8081eab38cfc5567", "conn_e1c435b68485f27b62d1", "conn_724767f40be32e19a6da"],
+      "context_refs": ["96:7", "96:9", "96:13", "96:14"],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "macro:refusal-reversal",
+      "origin_candidate_id": "cand_0df3a9d923ba1551245e",
+      "represented_candidate_ids": [],
+      "title": "Refusal, Turning Away, and Transgression",
+      "claim": "The focus core of crossing a proper limit is sharpened by the surrounding refusal, denial, warning, and false-authority sequence into a directional moral reversal.",
+      "mechanism": "The focus supplies the crossed boundary; the supplied 96:9, 96:13, 96:15, and 96:16 anchors show prohibition, denial, warning, and the threatening authority against which the crossing becomes legible.",
+      "reader_payoff": "The focus is felt as an active reversal of a recognized limit rather than as undirected excess.",
+      "containment": "The source-image error, restraint, and turning-away branches are omitted for lack of word-level carriers. Only the registered focus boundary branch is retained.",
+      "epistemic": {"status": "grounded", "source_trust": ["trusted"], "reason": "The retained boundary branch is registered and exactly carried at the focus; the surrounding anchors are used only as supplied contextual triggers."},
+      "support_ids": ["sup_12740971065bbb3113dc", "sup_2530f103212b7b401cf4", "sup_78968493ef0c0ac807c9", "sup_ad002dc7920b08343dcb", "sup_afd78c9caf726b337bcb"],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000937/B001",
+          "facet_id": "F001",
+          "branch_gloss": "itaatsizlikte veya ölçüde sınırı aşma",
+          "facet_statement": "Bir varlığın kendisi için geçerli sınırı veya uygun ölçüyü aşması çekirdek anlamdır.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["96:6:4:2"],
+          "trigger_refs": ["96:9", "96:13", "96:15", "96:16"],
+          "focus_return_refs": ["96:6:4:2"],
+          "carrier": "The registered focus branch supplies crossing beyond a valid limit.",
+          "independent_trigger": "The supplied prohibition, denial, warning, and false-authority anchors provide the surrounding moral boundary.",
+          "activation": "The focus crossing is read as a directional refusal of a recognized limit, not as mere magnitude.",
+          "resulting_reading": "Transgression is boundary crossing that turns against an imposed or recognized direction.",
+          "boundary": "The omitted SOURCE_IMAGE branches do not contribute lexical meanings to the focus activation."
+        }
+      ],
+      "connection_refs": ["conn_0b7c5fd2f39d36524eb4", "conn_4d2f8081eab38cfc5567", "conn_fe5ac99dee1333cfa6d2", "conn_9fecf3cd0586d82b2e33"],
+      "context_refs": ["96:9", "96:13", "96:15", "96:16"],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "macro:surface-and-barrier",
+      "origin_candidate_id": "cand_029931d347aa981604c3",
+      "represented_candidate_ids": [],
+      "title": "Smooth Slabs, Raised Places, and Solid Blockage",
+      "claim": "The focus can be made tactile as a smooth raised hard surface, giving self-elevation a material outline against the opening creation cue.",
+      "mechanism": "The focus branch supplies a smooth raised outcrop; the supplied 96:1 creation and forming context provides the independent material frame.",
+      "reader_payoff": "An abstract moral height becomes briefly graspable as a surface that rises and blocks passage.",
+      "containment": "The slab, imperforate-closure, and raised-outline SOURCE_IMAGE branches are excluded because no word-level carriers are supplied. The retained image is a contextual resonance, not a literal stone gloss.",
+      "epistemic": {"status": "grounded", "source_trust": ["trusted"], "reason": "The retained focus branch is registered with an exact focus carrier and is bounded by the supplied creation anchor."},
+      "support_ids": ["sup_47f36781e98a6943c24d", "sup_483cd8206f0a3fbaef2f", "sup_5f2861ddc34407ed7718", "sup_960d8d030ff5618e53e5", "sup_aa67556f4f8f62c2d340"],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000937/B005",
+          "facet_id": "F001",
+          "branch_gloss": "pürüzsüz kaya yüzeyi, dağ doruğu veya yüksek yer",
+          "facet_statement": "Adın bir kullanımı, yüzeyi düz ve kaygan olan kaya parçasını bildirir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["96:6:4:2"],
+          "trigger_refs": ["96:1"],
+          "focus_return_refs": ["96:6:4:2"],
+          "carrier": "The focus branch supplies the smooth raised hard-surface image.",
+          "independent_trigger": "The opening creation/forming cue supplies the independent material frame.",
+          "activation": "The focus's moral height is rendered as a surface that has become raised, smooth, and resistant to passage.",
+          "resulting_reading": "Self-elevation gains a tactile topology without replacing the moral predicate.",
+          "boundary": "The omitted SOURCE_IMAGE branches do not establish a separate slab or barrier scene."
+        }
+      ],
+      "connection_refs": ["conn_b05c8e62c197f68a9a29"],
+      "context_refs": ["96:1"],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "macro:received-measure",
+      "origin_candidate_id": "cand_4c309d27448e70759328",
+      "represented_candidate_ids": [],
+      "title": "Received Measure De-Calibrated",
+      "claim": "The human de-calibrates from a measure built into creation and made readable through gathering, teaching, distinguishing, and trimming.",
+      "mechanism": "Gathering orders what is dispersed, measuring and trimming establish proportion, and distinguishing makes a limit perceptible; the visible human then crosses that calibrated limit.",
+      "reader_payoff": "The focus reads as a break from a received and legible order rather than as unexplained excess.",
+      "containment": "This is retained as legacy_unbound attributed HFT evidence. The exact roles and coordinates are supplied, but the packet does not upgrade them to independent lexical proof; the live alternative is that the opening only lists gifts.",
+      "epistemic": {"status": "qualified", "source_trust": ["legacy_unbound"], "reason": "HFT supplies exact source coordinates and role claims while explicitly withholding target morphology and independent branch proof."},
+      "support_ids": ["sup_e14af621800266b5fc93"],
+      "branch_activations": [
+        {"branch_ref": "root_000059/B001", "facet_id": "F001", "branch_gloss": "insan türü ve bu türden bir kişi", "facet_statement": "İnsan türünü, insanların oluşturduğu topluluğu veya bu türün tek bir üyesini görünmeyen varlıklar sınıfının karşısında adlandırır.", "application_mode": "attributed", "carrier_refs": ["96:6:3:2"], "trigger_refs": ["96:1:1"], "focus_return_refs": ["96:6:3:2"], "carrier": "Visible human recipient of formation and instruction who later acts publicly.", "independent_trigger": "The attributed opening gathering role supplies the ordered context.", "activation": "The visible human is placed inside an order that precedes the later breach.", "resulting_reading": "Human action can de-calibrate from a received measure.", "boundary": "The role is retained as attributed HFT evidence, not as an independently proven lexical activation."},
+        {"branch_ref": "root_000937/B001", "facet_id": "F001", "branch_gloss": "itaatsizlikte veya ölçüde sınırı aşma", "facet_statement": "Bir varlığın kendisi için geçerli sınırı veya uygun ölçüyü aşması çekirdek anlamdır.", "application_mode": "attributed", "carrier_refs": ["96:6:4:2"], "trigger_refs": ["96:4:2"], "focus_return_refs": ["96:6:4:2"], "carrier": "The focus supplies the boundary breach whose prior calibration is being exposed.", "independent_trigger": "The attributed teaching-by-pen role supplies a readable measure.", "activation": "Crossing the focus limit is set against instruction that makes measure available.", "resulting_reading": "The later excess is a refusal of a measure already made legible.", "boundary": "The HFT role remains qualified and does not prove that teaching is the focus verb's lexical content."},
+        {"branch_ref": "root_001210/B001", "facet_id": null, "branch_gloss": null, "facet_statement": null, "application_mode": "attributed", "carrier_refs": ["96:1:1"], "trigger_refs": ["96:6:3:2"], "focus_return_refs": ["96:6:3:2"], "carrier": "Gathering and assembling make dispersed material into an ordered whole.", "independent_trigger": "The exact focus human occurrence supplies the agent who later exceeds the order.", "activation": "The ordered whole becomes the background against which de-calibration is visible.", "resulting_reading": "Received order precedes the human's later excess.", "boundary": "No unlisted branch gloss or facet is inferred from the HFT role."},
+        {"branch_ref": "root_000434/B001", "facet_id": null, "branch_gloss": null, "facet_statement": null, "application_mode": "attributed", "carrier_refs": ["96:1:5"], "trigger_refs": ["96:6:3:2"], "focus_return_refs": ["96:6:3:2"], "carrier": "Measuring and proportioning supply an originating standard.", "independent_trigger": "The exact focus human occurrence supplies the later recipient of that standard.", "activation": "A prior measure gives the focus crossing a calibrated reference point.", "resulting_reading": "The human exceeds a measure rather than merely becoming large.", "boundary": "The measuring role is attributed to HFT and is not treated as an exact focus lexical branch."},
+        {"branch_ref": "root_001040/B002", "facet_id": null, "branch_gloss": null, "facet_statement": null, "application_mode": "attributed", "carrier_refs": ["96:4:2"], "trigger_refs": ["96:6:4:2"], "focus_return_refs": ["96:6:4:2"], "carrier": "A distinguishing mark guides by making a limit perceptible.", "independent_trigger": "The focus excess supplies the action that meets the marked limit.", "activation": "The focus breach is read against a boundary that has been made visible.", "resulting_reading": "Transgression is an encounter with a readable distinction.", "boundary": "The HFT branch identity and role remain attributed."},
+        {"branch_ref": "root_001252/B001", "facet_id": null, "branch_gloss": null, "facet_statement": null, "application_mode": "attributed", "carrier_refs": ["96:4:3"], "trigger_refs": ["96:6:4:2"], "focus_return_refs": ["96:6:4:2"], "carrier": "Cutting and trimming hard material level a surface and supply concrete calibration.", "independent_trigger": "The focus overflow supplies the later motion beyond that level.", "activation": "The material leveling role gives the focus's moral crossing a concrete measure image.", "resulting_reading": "The excess rises above a previously leveled boundary.", "boundary": "This is an attributed material analogy, not a literal claim about the focus word's root."}
+      ],
+      "connection_refs": ["conn_b05c8e62c197f68a9a29", "conn_c382455ea733d89888fd"],
+      "context_refs": ["96:1", "96:4"],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "macro:dependence-denied",
+      "origin_candidate_id": "cand_00b077adcced2ee5bc12",
+      "represented_candidate_ids": [],
+      "title": "Dependency Claims Independence",
+      "claim": "A formed and attached human treats received existence as self-originating sufficiency, so tughyan appears as the recoding of dependence into independence.",
+      "mechanism": "Nurture and attachment establish a dependent origin, while the later self-seeing and sufficiency clause supplies the human's false self-originating recoding; the focus boundary branch names the resulting excess.",
+      "reader_payoff": "The focus's cause is supplied as a distorted relation to origin, making the later conduct intelligible without reducing it to wealth alone.",
+      "containment": "This remains attributed legacy_unbound HFT evidence. The live alternative is that material abundance directly causes excess; the dependence mechanism is retained as a qualified reading.",
+      "epistemic": {"status": "qualified", "source_trust": ["legacy_unbound"], "reason": "Every supplied HFT role is represented, but target morphology and independent lexical activation are not supplied."},
+      "support_ids": ["sup_c9b376840157946f1a74"],
+      "branch_activations": [
+        {"branch_ref": "root_000059/B001", "facet_id": "F001", "branch_gloss": "insan türü ve bu türden bir kişi", "facet_statement": "İnsan türünü, insanların oluşturduğu topluluğu veya bu türün tek bir üyesini görünmeyen varlıklar sınıfının karşısında adlandırır.", "application_mode": "attributed", "carrier_refs": ["96:6:3:2"], "trigger_refs": ["96:2:4"], "focus_return_refs": ["96:6:3:2"], "carrier": "The visible human is a formed agent whose origin includes attachment and dependence.", "independent_trigger": "The attributed clinging-attachment role supplies dependence at origin.", "activation": "The human subject is read as dependent before later claiming self-sufficiency.", "resulting_reading": "Human independence is a recoding of received dependence.", "boundary": "The dependence relation is an attributed HFT mechanism, not an ordinary gloss of insan."},
+        {"branch_ref": "root_000937/B001", "facet_id": "F001", "branch_gloss": "itaatsizlikte veya ölçüde sınırı aşma", "facet_statement": "Bir varlığın kendisi için geçerli sınırı veya uygun ölçüyü aşması çekirdek anlamdır.", "application_mode": "attributed", "carrier_refs": ["96:6:4:2"], "trigger_refs": ["96:7:3"], "focus_return_refs": ["96:6:4:2"], "carrier": "The focus branch supplies boundary-crossing behavior that denies dependence.", "independent_trigger": "The attributed sufficiency role supplies the claim of no further need.", "activation": "The boundary breach is read as conduct generated by imagined self-sufficiency.", "resulting_reading": "Tughyan is dependence denied in action.", "boundary": "Material abundance remains a live alternative and is not erased."},
+        {"branch_ref": "root_000532/B002", "facet_id": null, "branch_gloss": null, "facet_statement": null, "application_mode": "attributed", "carrier_refs": ["96:1:3"], "trigger_refs": ["96:6:3:2"], "focus_return_refs": ["96:6:3:2"], "carrier": "Nurturing, repair, and completion supply an ongoing source relation.", "independent_trigger": "The exact focus human occurrence supplies the agent who later denies that relation.", "activation": "The focus human is placed within care that precedes his claim of independence.", "resulting_reading": "Self-sufficiency is positioned as a denial of ongoing nurture.", "boundary": "The HFT role is legacy_unbound and branch attribution is not upgraded."},
+        {"branch_ref": "root_001039/B001", "facet_id": null, "branch_gloss": null, "facet_statement": null, "application_mode": "attributed", "carrier_refs": ["96:2:4"], "trigger_refs": ["96:6:3:2"], "focus_return_refs": ["96:6:3:2"], "carrier": "Clinging attachment supplies the human's dependent point of origin.", "independent_trigger": "The exact focus human carrier supplies the later actor.", "activation": "The origin relation makes the later independence claim structurally paradoxical.", "resulting_reading": "The tughyan reading includes an erased origin of dependence.", "boundary": "No general meaning is inferred for the attached root outside this attributed trace."},
+        {"branch_ref": "root_001110/B001", "facet_id": null, "branch_gloss": null, "facet_statement": null, "application_mode": "attributed", "carrier_refs": ["96:7:3"], "trigger_refs": ["96:6:4:2"], "focus_return_refs": ["96:6:4:2"], "carrier": "Claimed independence recodes received formation as self-sufficient completion.", "independent_trigger": "The focus excess supplies the conduct that follows the recoding.", "activation": "Sufficiency is not merely a state but the claimed reason for crossing limits.", "resulting_reading": "Tughyan is a behavioral consequence of self-originating self-description.", "boundary": "The focus remains the supplied moral predicate; the HFT role is a qualified mechanism."}
+      ],
+      "connection_refs": ["conn_b05c8e62c197f68a9a29", "conn_8d038beda0b344724ca9", "conn_724767f40be32e19a6da"],
+      "context_refs": ["96:1", "96:2", "96:7"],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "macro:counterfeit-height",
+      "origin_candidate_id": "cand_6dbb004c5197494854c6",
+      "represented_candidate_ids": [],
+      "title": "Bestowed Growth, Counterfeit Height",
+      "claim": "The focus's tughyan becomes counterfeit height: received growth and honor are hardened into a self-presenting elevation that claims to originate in itself.",
+      "mechanism": "Elevation, increase, and bestowed honor supply several received forms of height; the focus smooth-raised branch hardens that height into a self-positioning outcrop.",
+      "reader_payoff": "The reader can distinguish gifted elevation from the rigid elevation that tughyan falsely claims.",
+      "containment": "The HFT trace is retained as qualified legacy_unbound evidence. The live alternative is a split mapping based only on lexical proximity among elevation-related branches.",
+      "epistemic": {"status": "qualified", "source_trust": ["legacy_unbound"], "reason": "The exact HFT roles and focus carriers are represented, while contextual branch identities remain attributed where unresolved."},
+      "support_ids": ["sup_140f892c7c0a516a3c6b"],
+      "branch_activations": [
+        {"branch_ref": "root_000059/B001", "facet_id": "F001", "branch_gloss": "insan türü ve bu türden bir kişi", "facet_statement": "İnsan türünü, insanların oluşturduğu topluluğu veya bu türün tek bir üyesini görünmeyen varlıklar sınıfının karşısında adlandırır.", "application_mode": "attributed", "carrier_refs": ["96:6:3:2"], "trigger_refs": ["96:3:2"], "focus_return_refs": ["96:6:3:2"], "carrier": "The visible human status is displayed before others.", "independent_trigger": "The attributed generosity/elevation role supplies received height.", "activation": "Human elevation begins as a bestowed condition rather than a self-created possession.", "resulting_reading": "The subject's height is received before it is counterfeit.", "boundary": "This is an attributed HFT role, not a new facet of insan."},
+        {"branch_ref": "root_000937/B005", "facet_id": "F001", "branch_gloss": "pürüzsüz kaya yüzeyi, dağ doruğu veya yüksek yer", "facet_statement": "Adın bir kullanımı, yüzeyi düz ve kaygan olan kaya parçasını bildirir.", "application_mode": "attributed", "carrier_refs": ["96:6:4:2"], "trigger_refs": ["96:1:2"], "focus_return_refs": ["96:6:4:2"], "carrier": "The focus supplies a smooth raised outcrop as hardened self-elevation.", "independent_trigger": "The attributed opening elevation role supplies prior upward motion.", "activation": "A received upward movement hardens into an apparently stable self-height.", "resulting_reading": "Tughyan is counterfeit height made rigid and self-presenting.", "boundary": "The material image remains an attributed activation around the focus branch."},
+        {"branch_ref": "root_000745/B001", "facet_id": null, "branch_gloss": null, "facet_statement": null, "application_mode": "attributed", "carrier_refs": ["96:1:2"], "trigger_refs": ["96:6:4:2"], "focus_return_refs": ["96:6:4:2"], "carrier": "Elevation and rising supply the prior upward vector.", "independent_trigger": "The focus hard-surface branch supplies the hardened endpoint.", "activation": "The upward vector is recoded as a fixed height claimed by the subject.", "resulting_reading": "Growth can be converted into self-elevation.", "boundary": "The HFT branch is unresolved and remains attributed."},
+        {"branch_ref": "root_000537/B001", "facet_id": null, "branch_gloss": null, "facet_statement": null, "application_mode": "attributed", "carrier_refs": ["96:3:2"], "trigger_refs": ["96:6:3:2"], "focus_return_refs": ["96:6:3:2"], "carrier": "Non-dominant increase or elevation makes growth received under lordship.", "independent_trigger": "The human focus supplies the recipient who can misread received increase.", "activation": "Increase is placed under a prior relation of bestowal before tughyan changes its ownership claim.", "resulting_reading": "The focus's height is counterfeit when it erases its source.", "boundary": "No independent facet is inferred for the contextual branch."},
+        {"branch_ref": "root_001294/B001", "facet_id": null, "branch_gloss": null, "facet_statement": null, "application_mode": "attributed", "carrier_refs": ["96:3:3"], "trigger_refs": ["96:6:4:2"], "focus_return_refs": ["96:6:4:2"], "carrier": "Bestowed honor and generosity distinguish gifted elevation from self-exalting elevation.", "independent_trigger": "The focus excess supplies the distortion of that distinction.", "activation": "The focus converts a bestowed distinction into an apparent personal height.", "resulting_reading": "Tughyan is the counterfeit of bestowed elevation.", "boundary": "This remains a medium-confidence attributed relation."}
+      ],
+      "connection_refs": ["conn_b05c8e62c197f68a9a29", "conn_7af2bcfaf3d6b97b5cb5"],
+      "context_refs": ["96:1", "96:3"],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "macro:closed-self-gaze",
+      "origin_candidate_id": "cand_68f55022045c10aa506c",
+      "represented_candidate_ids": [],
+      "title": "Closed Self-Gaze",
+      "claim": "A reflected self mistakes its own bounded image for the whole evidence field, so tughyan becomes self-confirming closure rather than simple abundance.",
+      "mechanism": "The pupil image and mirror apparatus feed visual self-confirmation; sufficiency recodes that bounded image as independence, while divine seeing reopens the field beyond it.",
+      "reader_payoff": "The focus's self-sufficiency clause becomes a concrete feedback loop of seeing, narrowing, and mistaken closure.",
+      "containment": "This is retained as qualified legacy_unbound HFT evidence. The live alternative is material wealth; the visual mechanism is not asserted as the ordinary gloss of the focus words.",
+      "epistemic": {"status": "qualified", "source_trust": ["legacy_unbound"], "reason": "The complete HFT trace is represented with exact focus and context coordinates, but its role mappings remain attributed."},
+      "support_ids": ["sup_287a43e06cf16fbe4d8b"],
+      "branch_activations": [
+        {"branch_ref": "root_000047/B001", "facet_id": null, "branch_gloss": null, "facet_statement": null, "application_mode": "attributed", "carrier_refs": ["96:14:4"], "trigger_refs": ["96:6:4:2"], "focus_return_refs": ["96:6:4:2"], "carrier": "A divine referent supplies an observer outside the actor's closed frame.", "independent_trigger": "The focus overflow supplies the self-enlarging action inside that frame.", "activation": "The external observer prevents the reflected self from becoming the whole field.", "resulting_reading": "Self-confirmation remains answerable to a wider seeing.", "boundary": "The HFT observer role is legacy_unbound and not generalized beyond this trace."},
+        {"branch_ref": "root_000059/B005", "facet_id": "F001", "branch_gloss": "göz bebeğinde görülen küçük yansıma", "facet_statement": "Göz bebeğinin kara bölümünde görülen küçük insan biçimli görüntüyü veya yansımayı adlandırır.", "application_mode": "attributed", "carrier_refs": ["96:6:3:2"], "trigger_refs": ["96:7:2"], "focus_return_refs": ["96:6:3:2"], "carrier": "The focus human carries the registered miniature pupil image.", "independent_trigger": "The attributed self-seeing role supplies the visual feedback trigger.", "activation": "The miniature self is treated as a sufficient whole rather than a bounded representation.", "resulting_reading": "Self-gaze closes around a reflected human image.", "boundary": "The pupil facet is exact, but the HFT mechanism remains attributed."},
+        {"branch_ref": "root_000531/B001", "facet_id": null, "branch_gloss": null, "facet_statement": null, "application_mode": "attributed", "carrier_refs": ["96:14:5"], "trigger_refs": ["96:6:4:2"], "focus_return_refs": ["96:6:4:2"], "carrier": "Actual seeing reopens the field beyond the actor's self-image.", "independent_trigger": "The focus overflow supplies the closed stance that needs reopening.", "activation": "The wider act of seeing interrupts the self-confirming loop.", "resulting_reading": "The focus's closure is exposed as partial rather than total.", "boundary": "The contextual seeing role remains attributed."},
+        {"branch_ref": "root_000531/B006", "facet_id": null, "branch_gloss": null, "facet_statement": null, "application_mode": "attributed", "carrier_refs": ["96:7:2"], "trigger_refs": ["96:6:4:2"], "focus_return_refs": ["96:6:4:2"], "carrier": "A view, spectacle, or mirror encloses a reflective field.", "independent_trigger": "The focus excess supplies the self that expands within the enclosure.", "activation": "The bounded apparatus models how a partial field can be mistaken for total evidence.", "resulting_reading": "Tughyan is a closed self-gaze inside a narrowed frame.", "boundary": "The apparatus image is unresolved HFT evidence, not a lexical gloss."},
+        {"branch_ref": "root_000937/B002", "facet_id": "F001", "branch_gloss": "Su veya sel, olağan miktarı ve düzeyi aşacak ölçüde çoğalır ve yükselir.", "facet_statement": "Su veya sel, olağan miktarı ve düzeyi aşacak ölçüde çoğalır ve yükselir.", "application_mode": "attributed", "carrier_refs": ["96:6:4:2"], "trigger_refs": ["96:7:3"], "focus_return_refs": ["96:6:4:2"], "carrier": "The focus overflow supplies the expansion when the reflected self is treated as sufficient.", "independent_trigger": "The attributed sufficiency role supplies the closure that makes expansion self-confirming.", "activation": "The bounded self-image expands beyond its frame as though no outside measure remained.", "resulting_reading": "Tughyan is overflow generated by closed self-gaze.", "boundary": "The hydraulic force is a qualified HFT analogy, not the sole meaning of the focus verb."},
+        {"branch_ref": "root_001040/B001", "facet_id": null, "branch_gloss": null, "facet_statement": null, "application_mode": "attributed", "carrier_refs": ["96:14:2"], "trigger_refs": ["96:6:4:2"], "focus_return_refs": ["96:6:4:2"], "carrier": "Disclosure to a knower opens a wider field than the actor's self-image.", "independent_trigger": "The focus overflow supplies the stance that resists that wider disclosure.", "activation": "The knowing relation makes the actor's self-contained image porous.", "resulting_reading": "The focus's imagined independence cannot close the field of knowledge.", "boundary": "The opening role is retained only as attributed context."},
+        {"branch_ref": "root_001110/B001", "facet_id": null, "branch_gloss": null, "facet_statement": null, "application_mode": "attributed", "carrier_refs": ["96:7:3"], "trigger_refs": ["96:6:4:2"], "focus_return_refs": ["96:6:4:2"], "carrier": "Imagined independence is generated by a self-confirming image.", "independent_trigger": "The focus branch supplies the resulting overflow.", "activation": "The self-image's sufficiency claim turns seeing into a closed proof of itself.", "resulting_reading": "Tughyan is the action of a self-sealed evidence field.", "boundary": "The HFT relation remains qualified and does not erase the material reading."}
+      ],
+      "connection_refs": ["conn_e1c435b68485f27b62d1", "conn_724767f40be32e19a6da"],
+      "context_refs": ["96:7", "96:14"],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "macro:returning-overflow",
+      "origin_candidate_id": "cand_a2df614b4bff630314ef",
+      "represented_candidate_ids": [],
+      "title": "Return Contains Overflow",
+      "claim": "The focus overflow can be seen as an outbound surge inside a larger return circuit, so apparent escape is eventually contained by return to a source and destination.",
+      "mechanism": "The focus supplies rising engulfing motion; the supplied return, completion, and returning-water roles fold that outbound vector back toward its source.",
+      "reader_payoff": "The focus's one-way appearance gains a larger temporal and relational circuit without losing its force.",
+      "containment": "This remains medium-confidence legacy_unbound HFT evidence. The live alternative is that return language names judgment only and contributes no hydraulic mechanism.",
+      "epistemic": {"status": "qualified", "source_trust": ["legacy_unbound"], "reason": "The exact HFT traces and focus carrier are supplied, but the return mechanism is attributed and not independently established as lexical meaning."},
+      "support_ids": ["sup_18309924eb1526d3cba3"],
+      "branch_activations": [
+        {"branch_ref": "root_000532/B002", "facet_id": null, "branch_gloss": null, "facet_statement": null, "application_mode": "attributed", "carrier_refs": ["96:8:3"], "trigger_refs": ["96:6:4:2"], "focus_return_refs": ["96:6:4:2"], "carrier": "Nurturing completion supplies a destination toward which return can move.", "independent_trigger": "The focus overflow supplies the outbound vector.", "activation": "The surge is placed inside a larger circuit that has a destination rather than an open end.", "resulting_reading": "Overflow remains contained within a return relation.", "boundary": "The return destination is an attributed HFT role."},
+        {"branch_ref": "root_000544/B001", "facet_id": null, "branch_gloss": null, "facet_statement": null, "application_mode": "attributed", "carrier_refs": ["96:8:4"], "trigger_refs": ["96:6:4:2"], "focus_return_refs": ["96:6:4:2"], "carrier": "Return closes the outbound vector against its prior state.", "independent_trigger": "The focus supplies the apparent successful movement out.", "activation": "The focus surge is understood as temporary within a reversal-capable sequence.", "resulting_reading": "Apparent escape does not establish final independence.", "boundary": "No literal hydraulic return is asserted outside the HFT analogy."},
+        {"branch_ref": "root_000544/B006", "facet_id": null, "branch_gloss": null, "facet_statement": null, "application_mode": "attributed", "carrier_refs": ["96:8:4"], "trigger_refs": ["96:6:4:2"], "focus_return_refs": ["96:6:4:2"], "carrier": "Returning water folds a flood toward its source.", "independent_trigger": "The focus overflow supplies the flood-like movement being folded back.", "activation": "The water image gives the return circuit a concrete containment shape.", "resulting_reading": "The focus's overflow is not a final one-way escape.", "boundary": "This is the most material part of a qualified attributed HFT relation."},
+        {"branch_ref": "root_000937/B002", "facet_id": "F001", "branch_gloss": "Su veya sel, olağan miktarı ve düzeyi aşacak ölçüde çoğalır ve yükselir.", "facet_statement": "Su veya sel, olağan miktarı ve düzeyi aşacak ölçüde çoğalır ve yükselir.", "application_mode": "attributed", "carrier_refs": ["96:6:4:2"], "trigger_refs": ["96:8:4"], "focus_return_refs": ["96:6:4:2"], "carrier": "The focus branch supplies rising engulfing motion.", "independent_trigger": "The attributed return role supplies the larger circuit that contains the rise.", "activation": "The lexical overflow is read as outbound movement later met by return.", "resulting_reading": "Tughyan can surge without becoming uncontainable.", "boundary": "The return circuit is HFT-attributed and does not replace the focus's boundary-crossing core."}
+      ],
+      "connection_refs": ["conn_1f4ed1f63559dddd7e68"],
+      "context_refs": ["96:8"],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "macro:monopoly-over-limits",
+      "origin_candidate_id": "cand_2fa843e043c110644c59",
+      "represented_candidate_ids": [],
+      "title": "Monopoly Over Limits",
+      "claim": "The transgressor sets another person's limit while refusing his own, turning tughyan into asymmetrical boundary administration.",
+      "mechanism": "The focus supplies crossing beyond a proper bound; prohibition, worship, humble orientation, and the demanded endpoint show a subject trying to administer another's action while resisting self-limitation.",
+      "reader_payoff": "The focus's excess becomes relational and political: it controls another's boundary while declaring itself exempt.",
+      "containment": "This is strong-confidence legacy_unbound HFT evidence. The live alternative is ordinary repetition of stopping-root meanings, without the asymmetry being part of the focus mechanism.",
+      "epistemic": {"status": "qualified", "source_trust": ["legacy_unbound"], "reason": "All HFT roles are represented with exact coordinates; their cross-root mechanism remains attributed."},
+      "support_ids": ["sup_17b579ff26801c66a49b"],
+      "branch_activations": [
+        {"branch_ref": "root_000879/B003", "facet_id": null, "branch_gloss": null, "facet_statement": null, "application_mode": "attributed", "carrier_refs": ["96:10:3"], "trigger_refs": ["96:6:4:2"], "focus_return_refs": ["96:6:4:2"], "carrier": "A specified worship act supplies the observable action being controlled.", "independent_trigger": "The focus excess supplies the authority that attempts to control it.", "activation": "The focus is read against a concrete act whose limit the transgressor wants to monopolize.", "resulting_reading": "Tughyan acts on another person's visible orientation.", "boundary": "The worship role is attributed and not generalized into the focus gloss."},
+        {"branch_ref": "root_000936/B004", "facet_id": "F001", "branch_gloss": "İnatçı, kendini büyük gören ve insanları baskıyla ezen zalim kişi ya da hükümdardır.", "facet_statement": "İnatçı, kendini büyük gören ve insanları baskıyla ezen zalim kişi ya da hükümdardır.", "application_mode": "attributed", "carrier_refs": ["96:6:4:2"], "trigger_refs": ["96:10:3"], "focus_return_refs": ["96:6:4:2"], "carrier": "The focus occurrence carries the attributed overbearing tyrant image.", "independent_trigger": "The specified worship act supplies the person subjected to coercive rule.", "activation": "The focus excess is rendered as authority that presses another person's action.", "resulting_reading": "Tughyan becomes coercive administration of another's limit.", "boundary": "The tyrant facet is exact in the branch registry, but the cross-root use remains HFT-attributed."},
+        {"branch_ref": "root_000937/B001", "facet_id": "F001", "branch_gloss": "itaatsizlikte veya ölçüde sınırı aşma", "facet_statement": "Bir varlığın kendisi için geçerli sınırı veya uygun ölçüyü aşması çekirdek anlamdır.", "application_mode": "attributed", "carrier_refs": ["96:6:4:2"], "trigger_refs": ["96:15:4"], "focus_return_refs": ["96:6:4:2"], "carrier": "The registered focus boundary branch supplies transgression against a proper limit.", "independent_trigger": "The demanded endpoint supplies the limit the transgressor refuses for himself.", "activation": "The focus crossing becomes asymmetrical when the actor administers the endpoint for someone else.", "resulting_reading": "Tughyan is a boundary claim that exempts its claimant.", "boundary": "The asymmetry is a qualified HFT mechanism, not a replacement for the core branch gloss."},
+        {"branch_ref": "root_000973/B003", "facet_id": null, "branch_gloss": null, "facet_statement": null, "application_mode": "attributed", "carrier_refs": ["96:10:1"], "trigger_refs": ["96:6:4:2"], "focus_return_refs": ["96:6:4:2"], "carrier": "A humble worshipper supplies a yielded orientation that the obstructing authority tries to override.", "independent_trigger": "The focus authority supplies the obstruction.", "activation": "The focus excess is measured against a subject who does not claim the same monopoly of limits.", "resulting_reading": "Coercion appears as a refusal of reciprocal limitation.", "boundary": "The role is legacy_unbound and remains attributed."},
+        {"branch_ref": "root_001560/B001", "facet_id": null, "branch_gloss": null, "facet_statement": null, "application_mode": "attributed", "carrier_refs": ["96:9:3"], "trigger_refs": ["96:6:4:2"], "focus_return_refs": ["96:6:4:2"], "carrier": "Forbidding and restraining supply an outward stop imposed on another.", "independent_trigger": "The focus breach supplies the actor who refuses an inward stop.", "activation": "The stop becomes an instrument of monopoly when it applies outward only.", "resulting_reading": "The transgressor administers prohibition without accepting its reciprocity.", "boundary": "The restraint role is HFT-attributed and not independently lexically activated."},
+        {"branch_ref": "root_001560/B002", "facet_id": null, "branch_gloss": null, "facet_statement": null, "application_mode": "attributed", "carrier_refs": ["96:15:4"], "trigger_refs": ["96:6:4:2"], "focus_return_refs": ["96:6:4:2"], "carrier": "The demanded endpoint supplies the self-limit that the actor is told to observe.", "independent_trigger": "The focus supplies the actor whose conduct exceeds limits.", "activation": "The endpoint turns the focus's excess into refusal of self-application.", "resulting_reading": "Tughyan seeks monopoly over who must stop.", "boundary": "The endpoint role is attributed, with no extra semantic obligation supplied."}
+      ],
+      "connection_refs": ["conn_0b7c5fd2f39d36524eb4", "conn_d876722c887049af1c15", "conn_fe5ac99dee1333cfa6d2"],
+      "context_refs": ["96:9", "96:10", "96:15"],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "macro:vertical-reversal",
+      "origin_candidate_id": "cand_ef018c2abf80b5938922",
+      "represented_candidate_ids": [],
+      "title": "Vertical Reversal at the Head",
+      "claim": "Tughyan is embodied as hardened self-height, reversed either by seizure at the forelock or by voluntary lowering that paradoxically brings nearness.",
+      "mechanism": "The focus raised-outcrop branch supplies hardened height; forelock seizure reverses it involuntarily, while obedience, bowing, and nearness supply a voluntary downward movement with a relationally ascending result.",
+      "reader_payoff": "The abstract excess gains a bodily axis whose reversal distinguishes coercion from chosen nearness.",
+      "containment": "This is medium-confidence legacy_unbound HFT evidence. The live alternative is that the body images are consequences of transgression rather than part of the focus mechanism.",
+      "epistemic": {"status": "qualified", "source_trust": ["legacy_unbound"], "reason": "The focus and context coordinates are exact as supplied, while the vertical reversal remains an attributed cross-root mechanism."},
+      "support_ids": ["sup_318ae256920a570cbe1c"],
+      "branch_activations": [
+        {"branch_ref": "root_000675/B004", "facet_id": null, "branch_gloss": null, "facet_statement": null, "application_mode": "attributed", "carrier_refs": ["96:19:4"], "trigger_refs": ["96:6:4:2"], "focus_return_refs": ["96:6:4:2"], "carrier": "Bowing the head supplies voluntary downward motion.", "independent_trigger": "The focus raised-height image supplies the posture being answered.", "activation": "Lowering breaks the rigid vertical claim.", "resulting_reading": "Chosen lowering reverses self-height.", "boundary": "The bowing role remains attributed and does not define the obedience branch lexically."},
+        {"branch_ref": "root_000713/B001", "facet_id": null, "branch_gloss": null, "facet_statement": null, "application_mode": "attributed", "carrier_refs": ["96:15:5"], "trigger_refs": ["96:6:4:2"], "focus_return_refs": ["96:6:4:2"], "carrier": "Forelock seizure supplies involuntary reversal at the head.", "independent_trigger": "The focus supplies hardened self-elevation.", "activation": "The elevated posture is reversed by force at its leading point.", "resulting_reading": "Self-height is vulnerable to embodied reversal.", "boundary": "This remains legacy_unbound HFT evidence."},
+        {"branch_ref": "root_000937/B005", "facet_id": "F001", "branch_gloss": "pürüzsüz kaya yüzeyi, dağ doruğu veya yüksek yer", "facet_statement": "Adın bir kullanımı, yüzeyi düz ve kaygan olan kaya parçasını bildirir.", "application_mode": "attributed", "carrier_refs": ["96:6:4:2"], "trigger_refs": ["96:15:5"], "focus_return_refs": ["96:6:4:2"], "carrier": "The focus branch supplies a smooth raised outcrop as rigid self-elevation.", "independent_trigger": "Forelock seizure supplies the reversal that exposes its rigidity.", "activation": "The material high place gives tughyan a vertical geometry.", "resulting_reading": "The focus is imagined as a hardened height that can be seized or lowered.", "boundary": "The geometry is a qualified contextual image, not a replacement gloss."},
+        {"branch_ref": "root_000956/B001", "facet_id": null, "branch_gloss": null, "facet_statement": null, "application_mode": "attributed", "carrier_refs": ["96:19:3"], "trigger_refs": ["96:6:4:2"], "focus_return_refs": ["96:6:4:2"], "carrier": "Obedience supplies the allegiance that must be refused before orientation changes.", "independent_trigger": "The focus false-height image supplies the rival allegiance.", "activation": "The vertical reversal depends on first breaking the relation that sustains self-height.", "resulting_reading": "Refusal of false obedience enables a different bodily direction.", "boundary": "The obedience role is attributed, not used as an ordinary focus gloss."},
+        {"branch_ref": "root_001212/B001", "facet_id": null, "branch_gloss": null, "facet_statement": null, "application_mode": "attributed", "carrier_refs": ["96:19:5"], "trigger_refs": ["96:6:4:2"], "focus_return_refs": ["96:6:4:2"], "carrier": "Nearness makes voluntary lowering relationally ascending.", "independent_trigger": "The focus self-height supplies the distance being reversed.", "activation": "Spatial descent becomes relational approach when the false height is relinquished.", "resulting_reading": "The opposite of tughyan is not mere lower position but nearness.", "boundary": "The nearness relation is retained only as attributed HFT evidence."},
+        {"branch_ref": "root_001512/B001", "facet_id": null, "branch_gloss": null, "facet_statement": null, "application_mode": "attributed", "carrier_refs": ["96:15:6"], "trigger_refs": ["96:6:4:2"], "focus_return_refs": ["96:6:4:2"], "carrier": "The forelock localizes reversal at the leading, self-presenting part of the body.", "independent_trigger": "The focus raised surface supplies the self-presenting height.", "activation": "The point that leads the posture becomes the point at which height is reversed.", "resulting_reading": "Tughyan's vertical claim can be overturned at its front edge.", "boundary": "The bodily localization is attributed and exploratory within the qualified model."}
+      ],
+      "connection_refs": ["conn_fe5ac99dee1333cfa6d2", "conn_9f5f12f57137dc40fba6"],
+      "context_refs": ["96:15", "96:19"],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "macro:voice-counterforce",
+      "origin_candidate_id": "cand_add18a2dd6c693f93e74",
+      "represented_candidate_ids": [],
+      "title": "Voice Scaled into Counterforce",
+      "claim": "Human tughyan can become a noisy social technology: a claim voiced into an assembly, scaled into coercive pressure, and answered by counter-mobilization.",
+      "mechanism": "A human voice becomes a summons, the summons gathers an assembly, speech acquires the force of a shove, and an answering call brings repelling counterforce.",
+      "reader_payoff": "The focus can be felt moving from solitary excess into a social mechanism without treating the social image as its ordinary lexical gloss.",
+      "containment": "This is exploratory legacy_unbound HFT evidence. The live alternative is a literal contest of summoned groups with no claim that voice constitutes the original excess.",
+      "epistemic": {"status": "exploratory", "source_trust": ["legacy_unbound"], "reason": "The full HFT trace is represented, but the social scaling model is explicitly exploratory and cross-root."},
+      "support_ids": ["sup_f259b8bfa1b1969fef91"],
+      "branch_activations": [
+        {"branch_ref": "root_000059/B001", "facet_id": "F001", "branch_gloss": "insan türü ve bu türden bir kişi", "facet_statement": "İnsan türünü, insanların oluşturduğu topluluğu veya bu türün tek bir üyesini görünmeyen varlıklar sınıfının karşısında adlandırır.", "application_mode": "attributed", "carrier_refs": ["96:6:3:2"], "trigger_refs": ["96:17:1"], "focus_return_refs": ["96:6:3:2"], "carrier": "The individual human supplies the voice that can recruit a public collective.", "independent_trigger": "The attributed calling role supplies the outward summons.", "activation": "A private human act becomes socially extensible through speech.", "resulting_reading": "The focus can scale from individual excess into public mobilization.", "boundary": "The scaling is HFT-attributed and not a new facet of the human noun."},
+        {"branch_ref": "root_000477/B001", "facet_id": null, "branch_gloss": null, "facet_statement": null, "application_mode": "attributed", "carrier_refs": ["96:17:1"], "trigger_refs": ["96:6:4:2"], "focus_return_refs": ["96:6:4:2"], "carrier": "A forceful shove makes the summons an attempt to move others, not mere sound.", "independent_trigger": "The focus overflow supplies the pressure that seeks outward effect.", "activation": "Speech is rendered as pressure on another body or decision.", "resulting_reading": "Tughyan gains coercive force through an outward call.", "boundary": "The mapped role is legacy_unbound."},
+        {"branch_ref": "root_000478/B001", "facet_id": null, "branch_gloss": null, "facet_statement": null, "application_mode": "attributed", "carrier_refs": ["96:17:1"], "trigger_refs": ["96:6:4:2"], "focus_return_refs": ["96:6:4:2"], "carrier": "Calling and drawing by speech convert private noise into an outward summons.", "independent_trigger": "The focus voice/excess supplies the private source of the summons.", "activation": "The focus's excess is given a channel through which it recruits others.", "resulting_reading": "Voice becomes an instrument of tughyan's expansion.", "boundary": "The calling role is attributed rather than lexically assigned to the focus."},
+        {"branch_ref": "root_000478/B001", "facet_id": null, "branch_gloss": null, "facet_statement": null, "application_mode": "attributed", "carrier_refs": ["96:18:1"], "trigger_refs": ["96:6:4:2"], "focus_return_refs": ["96:6:4:2"], "carrier": "The answering call mirrors the first summons and reverses who controls mobilization.", "independent_trigger": "The focus supplies the initial overreaching call that is answered.", "activation": "The social mechanism contains an internal reversal through counter-calling.", "resulting_reading": "Amplified tughyan meets a structurally matched response.", "boundary": "This is a separate supplied activation trace on the repeated branch, not a new lexical identity."},
+        {"branch_ref": "root_000622/B001", "facet_id": null, "branch_gloss": null, "facet_statement": null, "application_mode": "attributed", "carrier_refs": ["96:18:2"], "trigger_refs": ["96:6:4:2"], "focus_return_refs": ["96:6:4:2"], "carrier": "Pushing, collision, and prevention supply the counterforce answering amplified pressure.", "independent_trigger": "The focus's socially scaled pressure supplies what is resisted.", "activation": "The answering force gives the social image a concrete counter-motion.", "resulting_reading": "Tughyan's public amplification is met by repelling force.", "boundary": "The counterforce remains exploratory HFT evidence."},
+        {"branch_ref": "root_000936/B008", "facet_id": "F001", "branch_gloss": "Kalıp, adı geçen kişinin veya topluluğun işitilen sesini belirtir.", "facet_statement": "Kalıp, adı geçen kişinin veya topluluğun işitilen sesini belirtir.", "application_mode": "attributed", "carrier_refs": ["96:6:4:2"], "trigger_refs": ["96:17:1"], "focus_return_refs": ["96:6:4:2"], "carrier": "The focus split-root voice/noise branch supplies acoustic scale beyond one person.", "independent_trigger": "The attributed call supplies the social channel for that acoustic excess.", "activation": "The focus voice is heard as a public force once it enters summons and assembly.", "resulting_reading": "A personal overreach can become collective noise and pressure.", "boundary": "The voice facet is registered, while its social mechanism remains HFT-attributed."},
+        {"branch_ref": "root_001487/B003", "facet_id": null, "branch_gloss": null, "facet_statement": null, "application_mode": "attributed", "carrier_refs": ["96:17:2"], "trigger_refs": ["96:6:4:2"], "focus_return_refs": ["96:6:4:2"], "carrier": "An assembled council supplies the social body through which one person's excess multiplies.", "independent_trigger": "The focus voice supplies the initiating claim.", "activation": "Assembly turns the focus's private excess into organized public force.", "resulting_reading": "Tughyan scales through collective uptake.", "boundary": "The council image is unresolved HFT evidence and remains attributed."}
+      ],
+      "connection_refs": ["conn_2a308f879c5102cda3a4", "conn_cf2ccb39577d6da800c6"],
+      "context_refs": ["96:17", "96:18"],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "macro:redirected-nearness",
+      "origin_candidate_id": "cand_db3ea1e9652860a060ca",
+      "represented_candidate_ids": [],
+      "title": "Redirected Obedience and Nearness",
+      "claim": "Tughyan is misdirected allegiance organized around a false center; its reversal requires refusing that obedience and reorienting the body toward nearness.",
+      "mechanism": "The focus supplies a rival authority and human-facing orientation; obedience reproduces the rival center, while humble lowering and nearness redirect the relation.",
+      "reader_payoff": "The focus's excess becomes an orientation circuit that can be broken and reversed, not merely an amount that must be reduced.",
+      "containment": "This remains strong-confidence legacy_unbound HFT evidence. The live alternative is that the final commands are remedies for tughyan without defining its internal mechanism.",
+      "epistemic": {"status": "qualified", "source_trust": ["legacy_unbound"], "reason": "Exact focus and final-sequence coordinates are supplied; the orientation circuit remains an attributed HFT reading."},
+      "support_ids": ["sup_af0d8c75df74d2388493"],
+      "branch_activations": [
+        {"branch_ref": "root_000059/B004", "facet_id": "F001", "branch_gloss": "insana en yakın olan veya insana doğru bakan yan", "facet_statement": "Bir şeyin insana en yakın olan veya insana doğru bakan yanını belirtir.", "application_mode": "attributed", "carrier_refs": ["96:6:3:2"], "trigger_refs": ["96:19:4"], "focus_return_refs": ["96:6:3:2"], "carrier": "The human-facing side supplies an orientation anchor for what the person turns toward.", "independent_trigger": "The attributed humble-lowering role supplies the contrary orientation.", "activation": "The focus human is located within a choice of facing and turning.", "resulting_reading": "Tughyan involves a misdirected human-facing orientation.", "boundary": "The F001 facet is exact, but the circuit remains attributed HFT evidence."},
+        {"branch_ref": "root_000675/B001", "facet_id": null, "branch_gloss": null, "facet_statement": null, "application_mode": "attributed", "carrier_refs": ["96:19:4"], "trigger_refs": ["96:6:4:2"], "focus_return_refs": ["96:6:4:2"], "carrier": "Humble lowering supplies the contrary bodily orientation after false obedience is refused.", "independent_trigger": "The focus supplies the false center whose orientation must be reversed.", "activation": "The body changes direction when the rival claim is rejected.", "resulting_reading": "Reversal is enacted through voluntary reorientation.", "boundary": "The bodily role remains attributed."},
+        {"branch_ref": "root_000937/B003", "facet_id": "F001", "branch_gloss": "Yanlış yola önderlik eden ve başkalarını iyilik yolundan çeviren kişi, varlık veya güç temel kategoriyi oluşturur.", "facet_statement": "Yanlış yola önderlik eden ve başkalarını iyilik yolundan çeviren kişi, varlık veya güç temel kategoriyi oluşturur.", "application_mode": "attributed", "carrier_refs": ["96:6:4:2"], "trigger_refs": ["96:19:3"], "focus_return_refs": ["96:6:4:2"], "carrier": "The focus false-power branch supplies the rival center that demands compliance.", "independent_trigger": "The attributed obedience role supplies the relation through which the center operates.", "activation": "The focus excess is organized as a claim on another's allegiance.", "resulting_reading": "Tughyan redirects obedience toward a false center.", "boundary": "The registered power facet is exact; the final-sequence mechanism is HFT-attributed."},
+        {"branch_ref": "root_000956/B001", "facet_id": null, "branch_gloss": null, "facet_statement": null, "application_mode": "attributed", "carrier_refs": ["96:19:3"], "trigger_refs": ["96:6:4:2"], "focus_return_refs": ["96:6:4:2"], "carrier": "Obedience identifies the allegiance channel through which the false center reproduces its excess.", "independent_trigger": "The focus false authority supplies the claimant of that allegiance.", "activation": "The relation itself becomes the site at which tughyan can be redirected or refused.", "resulting_reading": "Refusing false obedience interrupts the focus's orientation circuit.", "boundary": "The obedience role remains legacy_unbound."},
+        {"branch_ref": "root_001212/B001", "facet_id": null, "branch_gloss": null, "facet_statement": null, "application_mode": "attributed", "carrier_refs": ["96:19:5"], "trigger_refs": ["96:6:4:2"], "focus_return_refs": ["96:6:4:2"], "carrier": "Nearness supplies the relational result of redirected obedience and lowering.", "independent_trigger": "The focus false center supplies the distance being overcome.", "activation": "The opposite movement of tughyan is defined by approach rather than height.", "resulting_reading": "Reorientation culminates in nearness.", "boundary": "The nearness result is attributed to the HFT model and does not alter the focus lexical core."}
+      ],
+      "connection_refs": ["conn_9f5f12f57137dc40fba6"],
+      "context_refs": ["96:19"],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "macro:saturation-spill",
+      "origin_candidate_id": "cand_10af11521958a10b2776",
+      "represented_candidate_ids": [],
+      "title": "Saturation Spills Over",
+      "claim": "Perceived sufficiency fills the self past capacity, so tughyan is rendered as the spillover of imagined saturation.",
+      "mechanism": "Perception becomes self-diagnosis, fullness and sufficiency become a thickened material state, and the focus overflow supplies the spill beyond that imagined capacity.",
+      "reader_payoff": "The self-sufficiency clause gives the focus an intuitive pressure curve from fullness to overflow.",
+      "containment": "This is surprising because it activates the non-dominant fullness image under the seeing root as a material state rather than sight. It remains anchored because 96:7 couples self-seeing with sufficiency and the focus verb has an explicit overflow branch. Render it as a hydraulic analogy, not a replacement gloss.",
+      "epistemic": {"status": "exploratory", "source_trust": ["legacy_unbound"], "reason": "The outlier has exact focus anchors and a complete attributed HFT trace, but its hydraulic mechanism is explicitly exploratory."},
+      "support_ids": ["sup_379f4717524600334637"],
+      "branch_activations": [
+        {"branch_ref": "root_000059/B002", "facet_id": "F001", "branch_gloss": "görerek fark etme; bağlama göre işitme, sezme ve bakıp araştırma", "facet_statement": "Bir şeyi gözle görerek fark etmeyi veya seçmeyi anlatır.", "application_mode": "attributed", "carrier_refs": ["96:6:3:2"], "trigger_refs": ["96:7:2"], "focus_return_refs": ["96:6:3:2"], "carrier": "Perceiving something into awareness supplies the self-diagnosis of fullness.", "independent_trigger": "The attributed self-seeing role supplies the sufficiency perception.", "activation": "The human's awareness turns perceived sufficiency into a self-description.", "resulting_reading": "The self first sees itself as full before it spills beyond limits.", "boundary": "The seeing facet is registered; the saturation mechanism is exploratory HFT evidence."},
+        {"branch_ref": "root_000615/B008", "facet_id": null, "branch_gloss": null, "facet_statement": null, "application_mode": "attributed", "carrier_refs": ["96:7:2"], "trigger_refs": ["96:6:4:2"], "focus_return_refs": ["96:6:4:2"], "carrier": "Fullness thickens and straightens a material state.", "independent_trigger": "The focus overflow supplies the movement beyond that state.", "activation": "The material fullness image gives perceived sufficiency a pressure-bearing body.", "resulting_reading": "Saturation is the precondition for spillover.", "boundary": "The branch is unresolved and retained only as attributed outlier evidence."},
+        {"branch_ref": "root_000937/B002", "facet_id": "F001", "branch_gloss": "Su veya sel, olağan miktarı ve düzeyi aşacak ölçüde çoğalır ve yükselir.", "facet_statement": "Su veya sel, olağan miktarı ve düzeyi aşacak ölçüde çoğalır ve yükselir.", "application_mode": "attributed", "carrier_refs": ["96:6:4:2"], "trigger_refs": ["96:7:3"], "focus_return_refs": ["96:6:4:2"], "carrier": "The focus branch supplies surging spill after saturation.", "independent_trigger": "The attributed sufficiency role supplies the imagined full capacity.", "activation": "The focus excess is read as pressure escaping a self-declared full state.", "resulting_reading": "Tughyan is saturation made outwardly excessive.", "boundary": "Use only as the contained hydraulic analogy specified by the outlier."},
+        {"branch_ref": "root_001110/B002", "facet_id": null, "branch_gloss": null, "facet_statement": null, "application_mode": "attributed", "carrier_refs": ["96:7:3"], "trigger_refs": ["96:6:3:2"], "focus_return_refs": ["96:6:3:2"], "carrier": "Sufficiency supplies perceived completion with no room for further dependence.", "independent_trigger": "The focus human supplies the perceiver who accepts that completion.", "activation": "The completion claim establishes the pressure state that the focus verb then exceeds.", "resulting_reading": "The spill follows from a sufficiency claim, not from an empty lack.", "boundary": "The sufficiency branch remains legacy_unbound and exploratory."}
+      ],
+      "connection_refs": ["conn_724767f40be32e19a6da"],
+      "context_refs": ["96:7"],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "macro:deceptive-self-surface",
+      "origin_candidate_id": "cand_f63dfac8693d2e85f900",
+      "represented_candidate_ids": [],
+      "title": "Deceptive Self-Surface",
+      "claim": "Tughyan can operate as a self-image that misreports dependence, then turns away to keep that deceptive surface intact.",
+      "mechanism": "The pupil image and reflective surface produce a self-representation; boundary-crossing makes its distortion consequential, while garment-like false appearance and turning away protect the surface from correction.",
+      "reader_payoff": "The focus's self-sufficiency becomes a visual error that explains why denial and retreat follow it.",
+      "containment": "This is branch-distant exploratory legacy_unbound evidence. It remains valid as an image-surface analogy anchored in the focus noun and boundary-crossing predicate; human is never literally glossed as a deceptive image.",
+      "epistemic": {"status": "exploratory", "source_trust": ["legacy_unbound"], "reason": "The exact focus anchors and all supplied HFT roles are represented, but the image-surface mechanism is explicitly exploratory."},
+      "support_ids": ["sup_ea9605988e0d4c626006"],
+      "branch_activations": [
+        {"branch_ref": "root_000059/B005", "facet_id": "F001", "branch_gloss": "göz bebeğinde görülen küçük yansıma", "facet_statement": "Göz bebeğinin kara bölümünde görülen küçük insan biçimli görüntüyü veya yansımayı adlandırır.", "application_mode": "attributed", "carrier_refs": ["96:6:3:2"], "trigger_refs": ["96:7:2"], "focus_return_refs": ["96:6:3:2"], "carrier": "The miniature human image in the eye supplies a self-representation.", "independent_trigger": "The attributed mirror/surface role supplies the reflective field.", "activation": "A bounded image can be trusted as though it were the whole person.", "resulting_reading": "Self-sufficiency begins as a deceptive self-surface.", "boundary": "The pupil facet is exact; deception is only an exploratory analogy."},
+        {"branch_ref": "root_000531/B006", "facet_id": null, "branch_gloss": null, "facet_statement": null, "application_mode": "attributed", "carrier_refs": ["96:7:2"], "trigger_refs": ["96:6:4:2"], "focus_return_refs": ["96:6:4:2"], "carrier": "Mirror and spectacle imagery supplies the reflective surface on which the self-image is trusted.", "independent_trigger": "The focus boundary crossing supplies the distortion that the surface conceals.", "activation": "The reflective apparatus turns self-seeing into a possible misreport.", "resulting_reading": "Tughyan can preserve itself through a misleading image.", "boundary": "The apparatus branch remains unresolved HFT evidence."},
+        {"branch_ref": "root_000937/B001", "facet_id": "F001", "branch_gloss": "itaatsizlikte veya ölçüde sınırı aşma", "facet_statement": "Bir varlığın kendisi için geçerli sınırı veya uygun ölçüyü aşması çekirdek anlamdır.", "application_mode": "attributed", "carrier_refs": ["96:6:4:2"], "trigger_refs": ["96:13:3"], "focus_return_refs": ["96:6:4:2"], "carrier": "The focus boundary crossing makes the self-image's distortion enacted rather than merely apparent.", "independent_trigger": "The attributed garment-lie role supplies outward appearance that misreports what lies beneath.", "activation": "Tughyan turns a false surface into conduct that crosses a real limit.", "resulting_reading": "The deceptive image has behavioral consequences.", "boundary": "The image relation is exploratory and does not change the registered focus gloss."},
+        {"branch_ref": "root_001290/B009", "facet_id": null, "branch_gloss": null, "facet_statement": null, "application_mode": "attributed", "carrier_refs": ["96:13:3"], "trigger_refs": ["96:6:3:2"], "focus_return_refs": ["96:6:3:2"], "carrier": "A garment that lies by appearance supplies the model of an outward surface misreporting its condition.", "independent_trigger": "The focus human supplies the self whose condition is being misreported.", "activation": "The image-surface mechanism gains a social form of deceptive presentation.", "resulting_reading": "The focus self can appear independent while remaining dependent.", "boundary": "This is a branch-distant HFT analogy, not a claim that human means garment."},
+        {"branch_ref": "root_001684/B007", "facet_id": null, "branch_gloss": null, "facet_statement": null, "application_mode": "attributed", "carrier_refs": ["96:13:4"], "trigger_refs": ["96:6:4:2"], "focus_return_refs": ["96:6:4:2"], "carrier": "Turning away protects the deceptive self-surface from corrective inspection.", "independent_trigger": "The focus excess supplies the surface that needs protection.", "activation": "Retreat becomes the maneuver by which a false self-description remains intact.", "resulting_reading": "Tughyan preserves its misreport by refusing corrective contact.", "boundary": "The turning-away role is unresolved and retained only as exploratory attributed evidence."}
+      ],
+      "connection_refs": ["conn_4d2f8081eab38cfc5567", "conn_724767f40be32e19a6da"],
+      "context_refs": ["96:7", "96:13"],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "macro:neck-column",
+      "origin_candidate_id": "cand_5f552527e3f87c9e98bf",
+      "represented_candidate_ids": [],
+      "title": "Extended Neck Column",
+      "claim": "Tughyan appears as extended-neck, column-like self-elevation whose rigid vertical claim is undone by bowing.",
+      "mechanism": "The focus smooth-raised branch supplies rigid height, the attributed long-neck and upright-column images turn height into bodily posture, and final bowing breaks the geometry.",
+      "reader_payoff": "The focus's abstract vertical claim becomes visible as posture and its opposite as a concrete break in posture.",
+      "containment": "This is the most form-distant exploratory legacy_unbound reading. It is anchored through the focus raised-outcrop branch and final bowing, but must be rendered only as corporeal geometry, never as a lexical gloss of obedience.",
+      "epistemic": {"status": "exploratory", "source_trust": ["legacy_unbound"], "reason": "The full outlier trace and exact focus anchors are represented, while the corporeal geometry is explicitly the most form-distant model."},
+      "support_ids": ["sup_91c2f54f91c83a6b5515"],
+      "branch_activations": [
+        {"branch_ref": "root_000059/B004", "facet_id": "F001", "branch_gloss": "insana en yakın olan veya insana doğru bakan yan", "facet_statement": "Bir şeyin insana en yakın olan veya insana doğru bakan yanını belirtir.", "application_mode": "attributed", "carrier_refs": ["96:6:3:2"], "trigger_refs": ["96:19:4"], "focus_return_refs": ["96:6:3:2"], "carrier": "The person-facing side supplies bodily orientation from which neck, head, and posture can be tracked.", "independent_trigger": "The attributed bowing role supplies the counter-motion.", "activation": "The focus's height is attached to a body that can face and lower itself.", "resulting_reading": "Self-elevation has a bodily orientation.", "boundary": "The F001 facet is exact; the geometry remains exploratory HFT evidence."},
+        {"branch_ref": "root_000675/B004", "facet_id": null, "branch_gloss": null, "facet_statement": null, "application_mode": "attributed", "carrier_refs": ["96:19:4"], "trigger_refs": ["96:6:4:2"], "focus_return_refs": ["96:6:4:2"], "carrier": "Bowing the head breaks the neck-column geometry.", "independent_trigger": "The focus supplies the rigid self-elevation being broken.", "activation": "The final downward motion reverses the vertical self-presentation.", "resulting_reading": "Bowing is the corporeal counter-shape to tughyan height.", "boundary": "The bowing role is attributed and cannot define the focus lexically."},
+        {"branch_ref": "root_000706/B002", "facet_id": null, "branch_gloss": null, "facet_statement": null, "application_mode": "attributed", "carrier_refs": ["96:19:3"], "trigger_refs": ["96:6:4:2"], "focus_return_refs": ["96:6:4:2"], "carrier": "The long-neck image turns elevation into extended bodily posture.", "independent_trigger": "The focus raised surface supplies the height being extended.", "activation": "An abstract moral excess receives an elongated vertical silhouette.", "resulting_reading": "Tughyan can be imagined as extended posture.", "boundary": "This non-dominant branch is unresolved and remains exploratory."},
+        {"branch_ref": "root_000706/B003", "facet_id": null, "branch_gloss": null, "facet_statement": null, "application_mode": "attributed", "carrier_refs": ["96:19:3"], "trigger_refs": ["96:6:4:2"], "focus_return_refs": ["96:6:4:2"], "carrier": "The upright-column image intensifies the posture as rigid vertical self-presentation.", "independent_trigger": "The focus supplies the hardened elevated surface.", "activation": "The column makes self-height appear structurally fixed.", "resulting_reading": "Tughyan's height is not merely high but rigidly displayed.", "boundary": "This is the most form-distant attributed image in the outlier."},
+        {"branch_ref": "root_000937/B005", "facet_id": "F001", "branch_gloss": "pürüzsüz kaya yüzeyi, dağ doruğu veya yüksek yer", "facet_statement": "Adın bir kullanımı, yüzeyi düz ve kaygan olan kaya parçasını bildirir.", "application_mode": "attributed", "carrier_refs": ["96:6:4:2"], "trigger_refs": ["96:19:3"], "focus_return_refs": ["96:6:4:2"], "carrier": "The focus smooth raised outcrop supplies rigid self-elevation.", "independent_trigger": "The attributed upright posture supplies a body-scale expression of that elevation.", "activation": "The material high-place image becomes a vertical body claim.", "resulting_reading": "Tughyan is embodied as hardened height before the final bowing reverses it.", "boundary": "The registered focus facet anchors the image, but the neck-column mapping remains exploratory."}
+      ],
+      "connection_refs": ["conn_9f5f12f57137dc40fba6"],
+      "context_refs": ["96:19"],
+      "semantic_obligation_refs": []
+    }
+  ],
+  "friction_notes": [
+    "The four channel nominations include SOURCE_IMAGE or unresolved context branches without supplied word-level carriers; those branches are explicitly excluded and are not promoted to lexical activations.",
+    "Legacy-unbound HFT records remain visible as attributed evidence. Their exact source coordinates and supplied roles are retained without upgrading them to independent lexical proof.",
+    "The automatic 96:0 basmala context is present in the packet but no candidate activation lands it.",
+    "No semantic-obligation records were supplied in the packet, so semantic_obligation_refs remain empty."
+  ]
+}

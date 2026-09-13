@@ -1,0 +1,33 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Editorial-only surah prelude and postlude",
+  "type": "object", "additionalProperties": false,
+  "required": ["schemaVersion", "packetHash", "outlineHash", "phase", "prelude", "postlude", "primaryLanding", "landings", "friction"],
+  "properties": {
+    "schemaVersion": {"const": "surah-editorial-composition-v1"},
+    "packetHash": {"type": "string", "pattern": "^[a-f0-9]{64}$"},
+    "outlineHash": {"type": "string", "pattern": "^[a-f0-9]{64}$"},
+    "phase": {"enum": ["draft", "editorial"]},
+    "prelude": {"$ref": "#/$defs/text"},
+    "postlude": {"$ref": "#/$defs/text"},
+    "primaryLanding": {"$ref": "#/$defs/text"},
+    "landings": {"type": "array", "items": {
+      "type": "object", "additionalProperties": false,
+      "required": ["movementId", "preludeAnchor", "postludeAnchor", "members"],
+      "properties": {
+        "movementId": {"$ref": "#/$defs/text"},
+        "preludeAnchor": {"$ref": "#/$defs/text"},
+        "postludeAnchor": {"$ref": "#/$defs/text"},
+        "members": {"type": "array", "minItems": 2, "items": {
+          "type": "object", "additionalProperties": false, "required": ["ayahRef", "anchor"],
+          "properties": {
+            "ayahRef": {"type": "string", "pattern": "^[1-9][0-9]{0,2}:[1-9][0-9]*$"},
+            "anchor": {"$ref": "#/$defs/text"}
+          }
+        }}
+      }
+    }},
+    "friction": {"type": "array", "items": {"$ref": "#/$defs/text"}}
+  },
+  "$defs": {"text": {"type": "string", "minLength": 1}}
+}

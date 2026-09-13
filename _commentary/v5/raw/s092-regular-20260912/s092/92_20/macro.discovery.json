@@ -1,0 +1,3712 @@
+{
+  "schema_version": "commentary-v5-scope-discovery-v1",
+  "ayah_ref": "92:20",
+  "lane": "macro",
+  "coverage_complete": true,
+  "candidate_decisions": [
+    {
+      "candidate_id": "cand_0acf878d5e7ff378fe74",
+      "decision": "narrow",
+      "reason": "A bounded core survives through the exact focus branch or branches named in the finding; every other candidate branch, facet, and unused context is explicitly accounted for.",
+      "finding_refs": [
+        "macro:cand_0acf878d5e7ff378fe74:channel"
+      ],
+      "branch_exclusions": [
+        {
+          "branch_ref": "root_001684/B003",
+          "reason": "This candidate branch is outside the retained semantic edge or fails its required carrier-trigger contact."
+        }
+      ],
+      "facet_exclusions": [
+        {
+          "branch_ref": "root_000532/B001",
+          "facet_id": "F002",
+          "reason": "The branch core is retained, but this additional facet has no independent activation in the bounded finding."
+        },
+        {
+          "branch_ref": "root_000532/B002",
+          "facet_id": "F002",
+          "reason": "The branch core is retained, but this additional facet has no independent activation in the bounded finding."
+        },
+        {
+          "branch_ref": "root_001630/B006",
+          "facet_id": "F002",
+          "reason": "The branch core is retained, but this additional facet has no independent activation in the bounded finding."
+        },
+        {
+          "branch_ref": "root_001684/B003",
+          "facet_id": "SOURCE_IMAGE",
+          "reason": "The parent branch is excluded, so its attached facet is not retained."
+        }
+      ],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_541fc1862e6a29bce4ee",
+      "decision": "narrow",
+      "reason": "A bounded core survives through the exact focus branch or branches named in the finding; every other candidate branch, facet, and unused context is explicitly accounted for.",
+      "finding_refs": [
+        "macro:cand_541fc1862e6a29bce4ee:channel"
+      ],
+      "branch_exclusions": [
+        {
+          "branch_ref": "root_000262/B002",
+          "reason": "This candidate branch is outside the retained semantic edge or fails its required carrier-trigger contact."
+        },
+        {
+          "branch_ref": "root_001052/B004",
+          "reason": "This candidate branch is outside the retained semantic edge or fails its required carrier-trigger contact."
+        },
+        {
+          "branch_ref": "root_001684/B001",
+          "reason": "This candidate branch is outside the retained semantic edge or fails its required carrier-trigger contact."
+        }
+      ],
+      "facet_exclusions": [
+        {
+          "branch_ref": "root_000262/B002",
+          "facet_id": "SOURCE_IMAGE",
+          "reason": "The parent branch is excluded, so its attached facet is not retained."
+        },
+        {
+          "branch_ref": "root_001052/B004",
+          "facet_id": "SOURCE_IMAGE",
+          "reason": "The parent branch is excluded, so its attached facet is not retained."
+        },
+        {
+          "branch_ref": "root_001630/B003",
+          "facet_id": "F002",
+          "reason": "The branch core is retained, but this additional facet has no independent activation in the bounded finding."
+        },
+        {
+          "branch_ref": "root_001684/B001",
+          "facet_id": "SOURCE_IMAGE",
+          "reason": "The parent branch is excluded, so its attached facet is not retained."
+        }
+      ],
+      "context_exclusions": [
+        {
+          "context_ref": "92:16",
+          "reason": "This supplied context anchor is not used by the retained or rejected semantic edge."
+        },
+        {
+          "context_ref": "92:17",
+          "reason": "This supplied context anchor is not used by the retained or rejected semantic edge."
+        }
+      ],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_0197b87bfd8441eeedf5",
+      "decision": "narrow",
+      "reason": "A bounded core survives through the exact focus branch or branches named in the finding; every other candidate branch, facet, and unused context is explicitly accounted for.",
+      "finding_refs": [
+        "macro:cand_0197b87bfd8441eeedf5:channel"
+      ],
+      "branch_exclusions": [
+        {
+          "branch_ref": "root_000880/B001",
+          "reason": "This candidate branch is outside the retained semantic edge or fails its required carrier-trigger contact."
+        },
+        {
+          "branch_ref": "root_000880/B008",
+          "reason": "This candidate branch is outside the retained semantic edge or fails its required carrier-trigger contact."
+        },
+        {
+          "branch_ref": "root_001583/B002",
+          "reason": "This candidate branch is outside the retained semantic edge or fails its required carrier-trigger contact."
+        }
+      ],
+      "facet_exclusions": [
+        {
+          "branch_ref": "root_000880/B001",
+          "facet_id": "SOURCE_IMAGE",
+          "reason": "The parent branch is excluded, so its attached facet is not retained."
+        },
+        {
+          "branch_ref": "root_000880/B008",
+          "facet_id": "SOURCE_IMAGE",
+          "reason": "The parent branch is excluded, so its attached facet is not retained."
+        },
+        {
+          "branch_ref": "root_001583/B002",
+          "facet_id": "SOURCE_IMAGE",
+          "reason": "The parent branch is excluded, so its attached facet is not retained."
+        },
+        {
+          "branch_ref": "root_001630/B002",
+          "facet_id": "F002",
+          "reason": "The branch core is retained, but this additional facet has no independent activation in the bounded finding."
+        },
+        {
+          "branch_ref": "root_001630/B002",
+          "facet_id": "F003",
+          "reason": "The branch core is retained, but this additional facet has no independent activation in the bounded finding."
+        }
+      ],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_8a37183add85d59a3919",
+      "decision": "narrow",
+      "reason": "A bounded core survives through the exact focus branch or branches named in the finding; every other candidate branch, facet, and unused context is explicitly accounted for.",
+      "finding_refs": [
+        "macro:cand_8a37183add85d59a3919:channel"
+      ],
+      "branch_exclusions": [
+        {
+          "branch_ref": "root_000009/B003",
+          "reason": "This candidate branch is outside the retained semantic edge or fails its required carrier-trigger contact."
+        },
+        {
+          "branch_ref": "root_000009/B010",
+          "reason": "This candidate branch is outside the retained semantic edge or fails its required carrier-trigger contact."
+        },
+        {
+          "branch_ref": "root_001583/B002",
+          "reason": "This candidate branch is outside the retained semantic edge or fails its required carrier-trigger contact."
+        }
+      ],
+      "facet_exclusions": [
+        {
+          "branch_ref": "root_000009/B003",
+          "facet_id": "SOURCE_IMAGE",
+          "reason": "The parent branch is excluded, so its attached facet is not retained."
+        },
+        {
+          "branch_ref": "root_000009/B010",
+          "facet_id": "SOURCE_IMAGE",
+          "reason": "The parent branch is excluded, so its attached facet is not retained."
+        },
+        {
+          "branch_ref": "root_001583/B002",
+          "facet_id": "SOURCE_IMAGE",
+          "reason": "The parent branch is excluded, so its attached facet is not retained."
+        },
+        {
+          "branch_ref": "root_001630/B002",
+          "facet_id": "F002",
+          "reason": "The branch core is retained, but this additional facet has no independent activation in the bounded finding."
+        },
+        {
+          "branch_ref": "root_001630/B002",
+          "facet_id": "F003",
+          "reason": "The branch core is retained, but this additional facet has no independent activation in the bounded finding."
+        }
+      ],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_3c433e0df7e8293ce3f1",
+      "decision": "narrow",
+      "reason": "A bounded core survives through the exact focus branch or branches named in the finding; every other candidate branch, facet, and unused context is explicitly accounted for.",
+      "finding_refs": [
+        "macro:cand_3c433e0df7e8293ce3f1:channel"
+      ],
+      "branch_exclusions": [
+        {
+          "branch_ref": "root_000017/B001",
+          "reason": "This candidate branch is outside the retained semantic edge or fails its required carrier-trigger contact."
+        },
+        {
+          "branch_ref": "root_000017/B002",
+          "reason": "This candidate branch is outside the retained semantic edge or fails its required carrier-trigger contact."
+        },
+        {
+          "branch_ref": "root_000017/B003",
+          "reason": "This candidate branch is outside the retained semantic edge or fails its required carrier-trigger contact."
+        },
+        {
+          "branch_ref": "root_000637/B005",
+          "reason": "This candidate branch is outside the retained semantic edge or fails its required carrier-trigger contact."
+        }
+      ],
+      "facet_exclusions": [
+        {
+          "branch_ref": "root_000017/B001",
+          "facet_id": "SOURCE_IMAGE",
+          "reason": "The parent branch is excluded, so its attached facet is not retained."
+        },
+        {
+          "branch_ref": "root_000017/B002",
+          "facet_id": "SOURCE_IMAGE",
+          "reason": "The parent branch is excluded, so its attached facet is not retained."
+        },
+        {
+          "branch_ref": "root_000017/B003",
+          "facet_id": "SOURCE_IMAGE",
+          "reason": "The parent branch is excluded, so its attached facet is not retained."
+        },
+        {
+          "branch_ref": "root_000532/B004",
+          "facet_id": "F002",
+          "reason": "The branch core is retained, but this additional facet has no independent activation in the bounded finding."
+        },
+        {
+          "branch_ref": "root_000637/B005",
+          "facet_id": "SOURCE_IMAGE",
+          "reason": "The parent branch is excluded, so its attached facet is not retained."
+        }
+      ],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_ff9f02c92b045a380f35",
+      "decision": "reject",
+      "reason": "The particle-and-scope edge conflicts with the supplied focus analysis: رَبِّهِ is a genitive noun in construct and أَعْلَىٰ is an adjective, while the nominated particle/function-word branches have no compatible carrier in this surface.",
+      "finding_refs": [],
+      "branch_exclusions": [
+        {
+          "branch_ref": "root_000017/B002",
+          "reason": "This candidate branch is outside the retained semantic edge or fails its required carrier-trigger contact."
+        },
+        {
+          "branch_ref": "root_000532/B015",
+          "reason": "This candidate branch is outside the retained semantic edge or fails its required carrier-trigger contact."
+        },
+        {
+          "branch_ref": "root_001042/B012",
+          "reason": "This candidate branch is outside the retained semantic edge or fails its required carrier-trigger contact."
+        },
+        {
+          "branch_ref": "root_001052/B004",
+          "reason": "This candidate branch is outside the retained semantic edge or fails its required carrier-trigger contact."
+        },
+        {
+          "branch_ref": "root_001525/B004",
+          "reason": "This candidate branch is outside the retained semantic edge or fails its required carrier-trigger contact."
+        }
+      ],
+      "facet_exclusions": [
+        {
+          "branch_ref": "root_000017/B002",
+          "facet_id": "SOURCE_IMAGE",
+          "reason": "The parent branch is excluded, so its attached facet is not retained."
+        },
+        {
+          "branch_ref": "root_000532/B015",
+          "facet_id": "F001",
+          "reason": "The parent branch is excluded, so its attached facet is not retained."
+        },
+        {
+          "branch_ref": "root_000532/B015",
+          "facet_id": "F002",
+          "reason": "The parent branch is excluded, so its attached facet is not retained."
+        },
+        {
+          "branch_ref": "root_000532/B015",
+          "facet_id": "F003",
+          "reason": "The parent branch is excluded, so its attached facet is not retained."
+        },
+        {
+          "branch_ref": "root_001042/B012",
+          "facet_id": "F001",
+          "reason": "The parent branch is excluded, so its attached facet is not retained."
+        },
+        {
+          "branch_ref": "root_001042/B012",
+          "facet_id": "F002",
+          "reason": "The parent branch is excluded, so its attached facet is not retained."
+        },
+        {
+          "branch_ref": "root_001042/B012",
+          "facet_id": "F003",
+          "reason": "The parent branch is excluded, so its attached facet is not retained."
+        },
+        {
+          "branch_ref": "root_001052/B004",
+          "facet_id": "SOURCE_IMAGE",
+          "reason": "The parent branch is excluded, so its attached facet is not retained."
+        },
+        {
+          "branch_ref": "root_001525/B004",
+          "facet_id": "SOURCE_IMAGE",
+          "reason": "The parent branch is excluded, so its attached facet is not retained."
+        }
+      ],
+      "context_exclusions": [
+        {
+          "context_ref": "92:19",
+          "reason": "This supplied context anchor is not used by the retained or rejected semantic edge."
+        }
+      ],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_f29e97efb96281ec5e2f",
+      "decision": "narrow",
+      "reason": "A bounded core survives through the exact focus branch or branches named in the finding; every other candidate branch, facet, and unused context is explicitly accounted for.",
+      "finding_refs": [
+        "macro:cand_f29e97efb96281ec5e2f:channel"
+      ],
+      "branch_exclusions": [
+        {
+          "branch_ref": "root_000067/B001",
+          "reason": "This candidate branch is outside the retained semantic edge or fails its required carrier-trigger contact."
+        },
+        {
+          "branch_ref": "root_001583/B003",
+          "reason": "This candidate branch is outside the retained semantic edge or fails its required carrier-trigger contact."
+        },
+        {
+          "branch_ref": "root_001684/B003",
+          "reason": "This candidate branch is outside the retained semantic edge or fails its required carrier-trigger contact."
+        }
+      ],
+      "facet_exclusions": [
+        {
+          "branch_ref": "root_000067/B001",
+          "facet_id": "SOURCE_IMAGE",
+          "reason": "The parent branch is excluded, so its attached facet is not retained."
+        },
+        {
+          "branch_ref": "root_001583/B003",
+          "facet_id": "SOURCE_IMAGE",
+          "reason": "The parent branch is excluded, so its attached facet is not retained."
+        },
+        {
+          "branch_ref": "root_001684/B003",
+          "facet_id": "SOURCE_IMAGE",
+          "reason": "The parent branch is excluded, so its attached facet is not retained."
+        }
+      ],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_638778ac137aecce8f30",
+      "decision": "narrow",
+      "reason": "A bounded core survives through the exact focus branch or branches named in the finding; every other candidate branch, facet, and unused context is explicitly accounted for.",
+      "finding_refs": [
+        "macro:cand_638778ac137aecce8f30:channel"
+      ],
+      "branch_exclusions": [
+        {
+          "branch_ref": "root_000009/B013",
+          "reason": "This candidate branch is outside the retained semantic edge or fails its required carrier-trigger contact."
+        },
+        {
+          "branch_ref": "root_001630/B014",
+          "reason": "This branch requires an incoming person to be sent back; the supplied focus and 92:16 provide facing and turning but no incoming person."
+        },
+        {
+          "branch_ref": "root_001684/B006",
+          "reason": "This candidate branch is outside the retained semantic edge or fails its required carrier-trigger contact."
+        },
+        {
+          "branch_ref": "root_001684/B007",
+          "reason": "This candidate branch is outside the retained semantic edge or fails its required carrier-trigger contact."
+        }
+      ],
+      "facet_exclusions": [
+        {
+          "branch_ref": "root_000009/B013",
+          "facet_id": "SOURCE_IMAGE",
+          "reason": "The parent branch is excluded, so its attached facet is not retained."
+        },
+        {
+          "branch_ref": "root_001630/B003",
+          "facet_id": "F002",
+          "reason": "The branch core is retained, but this additional facet has no independent activation in the bounded finding."
+        },
+        {
+          "branch_ref": "root_001630/B014",
+          "facet_id": "F001",
+          "reason": "The parent branch is excluded, so its attached facet is not retained."
+        },
+        {
+          "branch_ref": "root_001684/B006",
+          "facet_id": "SOURCE_IMAGE",
+          "reason": "The parent branch is excluded, so its attached facet is not retained."
+        },
+        {
+          "branch_ref": "root_001684/B007",
+          "facet_id": "SOURCE_IMAGE",
+          "reason": "The parent branch is excluded, so its attached facet is not retained."
+        }
+      ],
+      "context_exclusions": [
+        {
+          "context_ref": "92:18",
+          "reason": "This supplied context anchor is not used by the retained or rejected semantic edge."
+        }
+      ],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_246df883db5d63f5dca0",
+      "decision": "narrow",
+      "reason": "A bounded core survives through the exact focus branch or branches named in the finding; every other candidate branch, facet, and unused context is explicitly accounted for.",
+      "finding_refs": [
+        "macro:cand_246df883db5d63f5dca0:channel"
+      ],
+      "branch_exclusions": [
+        {
+          "branch_ref": "root_000569/B006",
+          "reason": "This candidate branch is outside the retained semantic edge or fails its required carrier-trigger contact."
+        },
+        {
+          "branch_ref": "root_001583/B007",
+          "reason": "This candidate branch is outside the retained semantic edge or fails its required carrier-trigger contact."
+        },
+        {
+          "branch_ref": "root_001684/B005",
+          "reason": "This candidate branch is outside the retained semantic edge or fails its required carrier-trigger contact."
+        }
+      ],
+      "facet_exclusions": [
+        {
+          "branch_ref": "root_000532/B011",
+          "facet_id": "F002",
+          "reason": "The branch core is retained, but this additional facet has no independent activation in the bounded finding."
+        },
+        {
+          "branch_ref": "root_000532/B011",
+          "facet_id": "F003",
+          "reason": "The branch core is retained, but this additional facet has no independent activation in the bounded finding."
+        },
+        {
+          "branch_ref": "root_000569/B006",
+          "facet_id": "SOURCE_IMAGE",
+          "reason": "The parent branch is excluded, so its attached facet is not retained."
+        },
+        {
+          "branch_ref": "root_001583/B007",
+          "facet_id": "SOURCE_IMAGE",
+          "reason": "The parent branch is excluded, so its attached facet is not retained."
+        },
+        {
+          "branch_ref": "root_001684/B005",
+          "facet_id": "SOURCE_IMAGE",
+          "reason": "The parent branch is excluded, so its attached facet is not retained."
+        }
+      ],
+      "context_exclusions": [
+        {
+          "context_ref": "92:12",
+          "reason": "This supplied context anchor is not used by the retained or rejected semantic edge."
+        },
+        {
+          "context_ref": "92:16",
+          "reason": "This supplied context anchor is not used by the retained or rejected semantic edge."
+        }
+      ],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_bb7bf0eeeeafbdfa8b19",
+      "decision": "narrow",
+      "reason": "A bounded core survives through the exact focus branch or branches named in the finding; every other candidate branch, facet, and unused context is explicitly accounted for.",
+      "finding_refs": [
+        "macro:cand_bb7bf0eeeeafbdfa8b19:channel"
+      ],
+      "branch_exclusions": [
+        {
+          "branch_ref": "root_000009/B010",
+          "reason": "This candidate branch is outside the retained semantic edge or fails its required carrier-trigger contact."
+        },
+        {
+          "branch_ref": "root_001564/B005",
+          "reason": "This candidate branch is outside the retained semantic edge or fails its required carrier-trigger contact."
+        },
+        {
+          "branch_ref": "root_001583/B001",
+          "reason": "This candidate branch is outside the retained semantic edge or fails its required carrier-trigger contact."
+        }
+      ],
+      "facet_exclusions": [
+        {
+          "branch_ref": "root_000009/B010",
+          "facet_id": "SOURCE_IMAGE",
+          "reason": "The parent branch is excluded, so its attached facet is not retained."
+        },
+        {
+          "branch_ref": "root_001564/B005",
+          "facet_id": "SOURCE_IMAGE",
+          "reason": "The parent branch is excluded, so its attached facet is not retained."
+        },
+        {
+          "branch_ref": "root_001583/B001",
+          "facet_id": "SOURCE_IMAGE",
+          "reason": "The parent branch is excluded, so its attached facet is not retained."
+        },
+        {
+          "branch_ref": "root_001630/B002",
+          "facet_id": "F002",
+          "reason": "The branch core is retained, but this additional facet has no independent activation in the bounded finding."
+        },
+        {
+          "branch_ref": "root_001630/B002",
+          "facet_id": "F003",
+          "reason": "The branch core is retained, but this additional facet has no independent activation in the bounded finding."
+        }
+      ],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_825bbb3a456ab2c86806",
+      "decision": "narrow",
+      "reason": "A bounded core survives through the exact focus branch or branches named in the finding; every other candidate branch, facet, and unused context is explicitly accounted for.",
+      "finding_refs": [
+        "macro:cand_825bbb3a456ab2c86806:channel"
+      ],
+      "branch_exclusions": [
+        {
+          "branch_ref": "root_000009/B006",
+          "reason": "This candidate branch is outside the retained semantic edge or fails its required carrier-trigger contact."
+        },
+        {
+          "branch_ref": "root_000067/B003",
+          "reason": "This candidate branch is outside the retained semantic edge or fails its required carrier-trigger contact."
+        },
+        {
+          "branch_ref": "root_000262/B002",
+          "reason": "This candidate branch is outside the retained semantic edge or fails its required carrier-trigger contact."
+        },
+        {
+          "branch_ref": "root_000262/B003",
+          "reason": "This candidate branch is outside the retained semantic edge or fails its required carrier-trigger contact."
+        }
+      ],
+      "facet_exclusions": [
+        {
+          "branch_ref": "root_000009/B006",
+          "facet_id": "SOURCE_IMAGE",
+          "reason": "The parent branch is excluded, so its attached facet is not retained."
+        },
+        {
+          "branch_ref": "root_000067/B003",
+          "facet_id": "SOURCE_IMAGE",
+          "reason": "The parent branch is excluded, so its attached facet is not retained."
+        },
+        {
+          "branch_ref": "root_000262/B002",
+          "facet_id": "SOURCE_IMAGE",
+          "reason": "The parent branch is excluded, so its attached facet is not retained."
+        },
+        {
+          "branch_ref": "root_000262/B003",
+          "facet_id": "SOURCE_IMAGE",
+          "reason": "The parent branch is excluded, so its attached facet is not retained."
+        },
+        {
+          "branch_ref": "root_000532/B007",
+          "facet_id": "F002",
+          "reason": "The branch core is retained, but this additional facet has no independent activation in the bounded finding."
+        },
+        {
+          "branch_ref": "root_000532/B007",
+          "facet_id": "F003",
+          "reason": "The branch core is retained, but this additional facet has no independent activation in the bounded finding."
+        }
+      ],
+      "context_exclusions": [
+        {
+          "context_ref": "92:13",
+          "reason": "This supplied context anchor is not used by the retained or rejected semantic edge."
+        }
+      ],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_969eea73c7e837984443",
+      "decision": "narrow",
+      "reason": "A bounded core survives through the exact focus branch or branches named in the finding; every other candidate branch, facet, and unused context is explicitly accounted for.",
+      "finding_refs": [
+        "macro:cand_969eea73c7e837984443:channel"
+      ],
+      "branch_exclusions": [
+        {
+          "branch_ref": "root_000009/B007",
+          "reason": "This candidate branch is outside the retained semantic edge or fails its required carrier-trigger contact."
+        },
+        {
+          "branch_ref": "root_000637/B001",
+          "reason": "This candidate branch is outside the retained semantic edge or fails its required carrier-trigger contact."
+        },
+        {
+          "branch_ref": "root_001525/B001",
+          "reason": "This candidate branch is outside the retained semantic edge or fails its required carrier-trigger contact."
+        },
+        {
+          "branch_ref": "root_001630/B012",
+          "reason": "This candidate branch is outside the retained semantic edge or fails its required carrier-trigger contact."
+        }
+      ],
+      "facet_exclusions": [
+        {
+          "branch_ref": "root_000009/B007",
+          "facet_id": "SOURCE_IMAGE",
+          "reason": "The parent branch is excluded, so its attached facet is not retained."
+        },
+        {
+          "branch_ref": "root_000138/B001",
+          "facet_id": "F002",
+          "reason": "The branch core is retained, but this additional facet has no independent activation in the bounded finding."
+        },
+        {
+          "branch_ref": "root_000138/B001",
+          "facet_id": "F003",
+          "reason": "The branch core is retained, but this additional facet has no independent activation in the bounded finding."
+        },
+        {
+          "branch_ref": "root_000637/B001",
+          "facet_id": "SOURCE_IMAGE",
+          "reason": "The parent branch is excluded, so its attached facet is not retained."
+        },
+        {
+          "branch_ref": "root_001525/B001",
+          "facet_id": "SOURCE_IMAGE",
+          "reason": "The parent branch is excluded, so its attached facet is not retained."
+        },
+        {
+          "branch_ref": "root_001630/B012",
+          "facet_id": "F001",
+          "reason": "The parent branch is excluded, so its attached facet is not retained."
+        }
+      ],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_4ea68ca654734b36fc48",
+      "decision": "narrow",
+      "reason": "A bounded core survives through the exact focus branch or branches named in the finding; every other candidate branch, facet, and unused context is explicitly accounted for.",
+      "finding_refs": [
+        "macro:cand_4ea68ca654734b36fc48:channel"
+      ],
+      "branch_exclusions": [
+        {
+          "branch_ref": "root_000019/B001",
+          "reason": "This candidate branch is outside the retained semantic edge or fails its required carrier-trigger contact."
+        },
+        {
+          "branch_ref": "root_000067/B001",
+          "reason": "This candidate branch is outside the retained semantic edge or fails its required carrier-trigger contact."
+        },
+        {
+          "branch_ref": "root_001042/B011",
+          "reason": "This recovery branch requires a postpartum or illness collocation absent from the supplied أعلى carrier."
+        }
+      ],
+      "facet_exclusions": [
+        {
+          "branch_ref": "root_000019/B001",
+          "facet_id": "SOURCE_IMAGE",
+          "reason": "The parent branch is excluded, so its attached facet is not retained."
+        },
+        {
+          "branch_ref": "root_000067/B001",
+          "facet_id": "SOURCE_IMAGE",
+          "reason": "The parent branch is excluded, so its attached facet is not retained."
+        },
+        {
+          "branch_ref": "root_000532/B009",
+          "facet_id": "F002",
+          "reason": "The branch core is retained, but this additional facet has no independent activation in the bounded finding."
+        },
+        {
+          "branch_ref": "root_000532/B009",
+          "facet_id": "F003",
+          "reason": "The branch core is retained, but this additional facet has no independent activation in the bounded finding."
+        },
+        {
+          "branch_ref": "root_001042/B011",
+          "facet_id": "F001",
+          "reason": "The parent branch is excluded, so its attached facet is not retained."
+        },
+        {
+          "branch_ref": "root_001042/B011",
+          "facet_id": "F002",
+          "reason": "The parent branch is excluded, so its attached facet is not retained."
+        },
+        {
+          "branch_ref": "root_001042/B011",
+          "facet_id": "F003",
+          "reason": "The parent branch is excluded, so its attached facet is not retained."
+        }
+      ],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_421ed5418922416345c4",
+      "decision": "narrow",
+      "reason": "A bounded core survives through the exact focus branch or branches named in the finding; every other candidate branch, facet, and unused context is explicitly accounted for.",
+      "finding_refs": [
+        "macro:cand_421ed5418922416345c4:channel"
+      ],
+      "branch_exclusions": [
+        {
+          "branch_ref": "root_000067/B009",
+          "reason": "This candidate branch is outside the retained semantic edge or fails its required carrier-trigger contact."
+        },
+        {
+          "branch_ref": "root_000808/B002",
+          "reason": "This candidate branch is outside the retained semantic edge or fails its required carrier-trigger contact."
+        },
+        {
+          "branch_ref": "root_000808/B004",
+          "reason": "This candidate branch is outside the retained semantic edge or fails its required carrier-trigger contact."
+        }
+      ],
+      "facet_exclusions": [
+        {
+          "branch_ref": "root_000067/B009",
+          "facet_id": "SOURCE_IMAGE",
+          "reason": "The parent branch is excluded, so its attached facet is not retained."
+        },
+        {
+          "branch_ref": "root_000808/B002",
+          "facet_id": "SOURCE_IMAGE",
+          "reason": "The parent branch is excluded, so its attached facet is not retained."
+        },
+        {
+          "branch_ref": "root_000808/B004",
+          "facet_id": "SOURCE_IMAGE",
+          "reason": "The parent branch is excluded, so its attached facet is not retained."
+        },
+        {
+          "branch_ref": "root_001042/B001",
+          "facet_id": "F002",
+          "reason": "The branch core is retained, but this additional facet has no independent activation in the bounded finding."
+        },
+        {
+          "branch_ref": "root_001042/B001",
+          "facet_id": "F003",
+          "reason": "The branch core is retained, but this additional facet has no independent activation in the bounded finding."
+        }
+      ],
+      "context_exclusions": [
+        {
+          "context_ref": "92:13",
+          "reason": "This supplied context anchor is not used by the retained or rejected semantic edge."
+        }
+      ],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_71322ff13b8493dd39c1",
+      "decision": "accept",
+      "reason": "The exact HFT traces cover every candidate branch and return through supplied focus-surface references; legacy_unbound status is retained as epistemic containment.",
+      "finding_refs": [
+        "macro:hft:D4_guided_pursuit"
+      ],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_9de79840081e6c546d7d",
+      "decision": "accept",
+      "reason": "The exact HFT traces cover every candidate branch and return through supplied focus-surface references; legacy_unbound status is retained as epistemic containment.",
+      "finding_refs": [
+        "macro:hft:D5_first_last_priority"
+      ],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_70630ab3762411824743",
+      "decision": "accept",
+      "reason": "The exact HFT traces cover every candidate branch and return through supplied focus-surface references; legacy_unbound status is retained as epistemic containment.",
+      "finding_refs": [
+        "macro:hft:D6_turning_and_distance"
+      ],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_9ccd0df4d8de6834d537",
+      "decision": "accept",
+      "reason": "The exact HFT traces cover every candidate branch and return through supplied focus-surface references; legacy_unbound status is retained as epistemic containment.",
+      "finding_refs": [
+        "macro:hft:D7_wealth_into_growth"
+      ],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_ed7a63017bc41470beec",
+      "decision": "accept",
+      "reason": "The exact HFT traces cover every candidate branch and return through supplied focus-surface references; legacy_unbound status is retained as epistemic containment.",
+      "finding_refs": [
+        "macro:hft:D8_reciprocity_ledger_severed"
+      ],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_0d84c1df07e2e9afb347",
+      "decision": "accept",
+      "reason": "The exact HFT traces cover every candidate branch and return through supplied focus-surface references; legacy_unbound status is retained as epistemic containment.",
+      "finding_refs": [
+        "macro:hft:D9_desire_arrives_as_contentment"
+      ],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_d104a66e778f00f00654",
+      "decision": "accept",
+      "reason": "The exact HFT traces cover every candidate branch and return through supplied focus-surface references; legacy_unbound status is retained as epistemic containment.",
+      "finding_refs": [
+        "macro:hft:O1_anti_surplus_increase"
+      ],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_d48331dd93cfd5c8aa25",
+      "decision": "accept",
+      "reason": "The exact HFT traces cover every candidate branch and return through supplied focus-surface references; legacy_unbound status is retained as epistemic containment.",
+      "finding_refs": [
+        "macro:hft:O2_irrigating_gift"
+      ],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_1e3830c240df66a3bedf",
+      "decision": "accept",
+      "reason": "The exact HFT traces cover every candidate branch and return through supplied focus-surface references; legacy_unbound status is retained as epistemic containment.",
+      "finding_refs": [
+        "macro:hft:O3_deed_as_advance_party"
+      ],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_d02b356adf6ba10b3655",
+      "decision": "accept",
+      "reason": "The exact HFT traces cover every candidate branch and return through supplied focus-surface references; legacy_unbound status is retained as epistemic containment.",
+      "finding_refs": [
+        "macro:hft:O4_prayer_fire_contact_bifurcation"
+      ],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_05b816f951f20a219799",
+      "decision": "accept",
+      "reason": "The exact HFT traces cover every candidate branch and return through supplied focus-surface references; legacy_unbound status is retained as epistemic containment.",
+      "finding_refs": [
+        "macro:hft:O5_reciprocal_face_satisfaction"
+      ],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    }
+  ],
+  "findings": [
+    {
+      "finding_ref": "macro:cand_0acf878d5e7ff378fe74:channel",
+      "origin_candidate_id": "cand_0acf878d5e7ff378fe74",
+      "represented_candidate_ids": [
+        "cand_0acf878d5e7ff378fe74"
+      ],
+      "title": "Lordship, Stewardship, and Corrective Rule",
+      "claim": "The Lordship carrier makes the exclusive purpose an active governing relation: the sought face is attached to a Lord who claims, orders, and tends the giver's course.",
+      "mechanism": "The ownership-and-rule and corrective-completion carriers meet the turning-away contrast, while the face's status branch makes the relation publicly legible; the focus thus becomes accountable orientation under lordship.",
+      "reader_payoff": "The sought Lord appears as an active claimant and steward, not only as a distant title.",
+      "containment": "This is qualified contextual resonance; absolute divine use must remain distinct from bounded human ownership, and status does not prove a full social office.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": [
+          "trusted"
+        ],
+        "reason": "The packet supplies a carrier and an independent contextual contact; the status records the strength and boundary of that contact."
+      },
+      "support_ids": [
+        "sup_0376a7c4d45d84b3f43b",
+        "sup_493545302869a46dfb86",
+        "sup_aed7e27977a6e6333bf6",
+        "sup_eb4949f2b4bc7ff1d026",
+        "sup_fa91f5e7e209dd899144"
+      ],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000532/B001",
+          "facet_id": "F001",
+          "branch_gloss": "sahip olup yönetme",
+          "facet_statement": "Sahiplik, buyruk yetkisi ve yönetip düzenleme aynı çekirdekte birleşir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "92:20:4:1"
+          ],
+          "trigger_refs": [
+            "92:16",
+            "conn_ev_f29bb47e2d6c7426269a"
+          ],
+          "focus_return_refs": [
+            "92:20:4:1"
+          ],
+          "carrier": "The focus carrier holds the sahip olup yönetme sense at 92:20:4:1.",
+          "independent_trigger": "The independent trigger is the pericope context at 92:16 and its connection evidence.",
+          "activation": "The focus carrier meets that separate contextual trigger, so the branch changes the reading through the stated relation rather than through availability alone.",
+          "resulting_reading": "The Lordship carrier makes the exclusive purpose an active governing relation: the sought face is attached to a Lord who claims, orders, and tends the giver's course.",
+          "boundary": "This is qualified contextual resonance; absolute divine use must remain distinct from bounded human ownership, and status does not prove a full social office."
+        },
+        {
+          "branch_ref": "root_000532/B002",
+          "facet_id": "F001",
+          "branch_gloss": "adım adım yetiştirip tamamlama",
+          "facet_statement": "Süreç, gözetilen şeyi eksik durumdan tamamlanmış duruma doğru geliştirir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "92:20:4:1"
+          ],
+          "trigger_refs": [
+            "92:16",
+            "conn_ev_f29bb47e2d6c7426269a"
+          ],
+          "focus_return_refs": [
+            "92:20:4:1"
+          ],
+          "carrier": "The focus carrier holds the adım adım yetiştirip tamamlama sense at 92:20:4:1.",
+          "independent_trigger": "The independent trigger is the pericope context at 92:16 and its connection evidence.",
+          "activation": "The focus carrier meets that separate contextual trigger, so the branch changes the reading through the stated relation rather than through availability alone.",
+          "resulting_reading": "The Lordship carrier makes the exclusive purpose an active governing relation: the sought face is attached to a Lord who claims, orders, and tends the giver's course.",
+          "boundary": "This is qualified contextual resonance; absolute divine use must remain distinct from bounded human ownership, and status does not prove a full social office."
+        },
+        {
+          "branch_ref": "root_001630/B006",
+          "facet_id": "F001",
+          "branch_gloss": "toplumsal itibar, yüksek mevki ve önde gelen kişi",
+          "facet_statement": "Kişinin başkaları yanındaki toplumsal mevki, değer ve saygınlığını belirtir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "92:20:3:1"
+          ],
+          "trigger_refs": [
+            "92:16",
+            "conn_ev_f29bb47e2d6c7426269a"
+          ],
+          "focus_return_refs": [
+            "92:20:3:1"
+          ],
+          "carrier": "The focus carrier holds the toplumsal itibar, yüksek mevki ve önde gelen kişi sense at 92:20:3:1.",
+          "independent_trigger": "The independent trigger is the pericope context at 92:16 and its connection evidence.",
+          "activation": "The focus carrier meets that separate contextual trigger, so the branch changes the reading through the stated relation rather than through availability alone.",
+          "resulting_reading": "The Lordship carrier makes the exclusive purpose an active governing relation: the sought face is attached to a Lord who claims, orders, and tends the giver's course.",
+          "boundary": "This is qualified contextual resonance; absolute divine use must remain distinct from bounded human ownership, and status does not prove a full social office."
+        }
+      ],
+      "connection_refs": [
+        "conn_d5b5a3be0984c7eb81ae"
+      ],
+      "context_refs": [
+        "92:16"
+      ],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "macro:cand_541fc1862e6a29bce4ee:channel",
+      "origin_candidate_id": "cand_541fc1862e6a29bce4ee",
+      "represented_candidate_ids": [
+        "cand_541fc1862e6a29bce4ee"
+      ],
+      "title": "Nearness, Side-by-Side Presence, and Attendance",
+      "claim": "The direct-facing branch turns seeking the Lord's face into attendance that stands opposite human credit and social proximity.",
+      "mechanism": "The face-to-face carrier meets the at-hand context and denial of repayable favor; the focus names oriented presence rather than an abstract motive or human patron's recognition.",
+      "reader_payoff": "The phrase becomes a scene of whom the seeker stands before.",
+      "containment": "Direct-facing attendance is supported as context; grammar alone does not encode reciprocal encounter.",
+      "epistemic": {
+        "status": "grounded",
+        "source_trust": [
+          "trusted"
+        ],
+        "reason": "The packet supplies a carrier and an independent contextual contact; the status records the strength and boundary of that contact."
+      },
+      "support_ids": [
+        "sup_169c2a4bb6e2361818c6",
+        "sup_45cb5d25d69c2f7e1b1f",
+        "sup_6792c365117931831253",
+        "sup_d098508b276a8d0ee36e",
+        "sup_d2925add88b7273bc6fa"
+      ],
+      "branch_activations": [
+        {
+          "branch_ref": "root_001630/B003",
+          "facet_id": "F001",
+          "branch_gloss": "karşı karşıya gelme ve doğrudan yüzüne söyleme",
+          "facet_statement": "İki tarafın birbirinin karşısına gelmesini veya karşılıklı durmasını belirtir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "92:20:3:1"
+          ],
+          "trigger_refs": [
+            "92:19",
+            "conn_ev_f80106c5e7dd1e8ff524"
+          ],
+          "focus_return_refs": [
+            "92:20:3:1"
+          ],
+          "carrier": "The focus carrier holds the karşı karşıya gelme ve doğrudan yüzüne söyleme sense at 92:20:3:1.",
+          "independent_trigger": "The independent trigger is the pericope context at 92:19 and its connection evidence.",
+          "activation": "The focus carrier meets that separate contextual trigger, so the branch changes the reading through the stated relation rather than through availability alone.",
+          "resulting_reading": "The direct-facing branch turns seeking the Lord's face into attendance that stands opposite human credit and social proximity.",
+          "boundary": "Direct-facing attendance is supported as context; grammar alone does not encode reciprocal encounter."
+        }
+      ],
+      "connection_refs": [
+        "conn_2999478c4349ae056fc5"
+      ],
+      "context_refs": [
+        "92:19"
+      ],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "macro:cand_0197b87bfd8441eeedf5:channel",
+      "origin_candidate_id": "cand_0197b87bfd8441eeedf5",
+      "represented_candidate_ids": [
+        "cand_0197b87bfd8441eeedf5"
+      ],
+      "title": "Prayer, Worship Place, and Sacred Direction",
+      "claim": "The face-as-direction carrier lets guidance and the fire boundary frame the exclusive purpose as a sacred heading.",
+      "mechanism": "Guidance supplies a course and the fire restriction supplies its negative boundary; the focus direction carrier turns those contacts into a heading for seeking.",
+      "reader_payoff": "Worship becomes directed movement toward a specified destination.",
+      "containment": "Direction and destination are retained; ritual prayer is only a contextual resonance, not the focus sense.",
+      "epistemic": {
+        "status": "grounded",
+        "source_trust": [
+          "trusted"
+        ],
+        "reason": "The packet supplies a carrier and an independent contextual contact; the status records the strength and boundary of that contact."
+      },
+      "support_ids": [
+        "sup_42e6df6c6c419d1bfc7e",
+        "sup_69d5c5c0d75e4ccf2caa",
+        "sup_6aaf49ec171aae59f63f",
+        "sup_73d75f47ce30f44f2488",
+        "sup_9fc3842e4443042b7c4a"
+      ],
+      "branch_activations": [
+        {
+          "branch_ref": "root_001630/B002",
+          "facet_id": "F001",
+          "branch_gloss": "yön ve hedef; o yöne sevk etme veya yolu belli etme",
+          "facet_statement": "Dönülen veya gidilen yönü, tarafı ve hedefi belirtir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "92:20:3:1"
+          ],
+          "trigger_refs": [
+            "92:12",
+            "92:15",
+            "conn_ev_8fc19e58f9a6c764a83b",
+            "conn_ev_6ed87e952bd251895a45"
+          ],
+          "focus_return_refs": [
+            "92:20:3:1"
+          ],
+          "carrier": "The focus carrier holds the yön ve hedef; o yöne sevk etme veya yolu belli etme sense at 92:20:3:1.",
+          "independent_trigger": "The independent trigger is the pericope context at 92:12, 92:15 and its connection evidence.",
+          "activation": "The focus carrier meets that separate contextual trigger, so the branch changes the reading through the stated relation rather than through availability alone.",
+          "resulting_reading": "The face-as-direction carrier lets guidance and the fire boundary frame the exclusive purpose as a sacred heading.",
+          "boundary": "Direction and destination are retained; ritual prayer is only a contextual resonance, not the focus sense."
+        }
+      ],
+      "connection_refs": [
+        "conn_21bd22335d6b2db79616",
+        "conn_9edeeae7298cacde781f"
+      ],
+      "context_refs": [
+        "92:12",
+        "92:15"
+      ],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "macro:cand_8a37183add85d59a3919:channel",
+      "origin_candidate_id": "cand_8a37183add85d59a3919",
+      "represented_candidate_ids": [
+        "cand_8a37183add85d59a3919"
+      ],
+      "title": "Road, Junction, and Proper Approach",
+      "claim": "The face-as-direction carrier presents the purpose as a proper approach along a guided road, not aimless desire.",
+      "mechanism": "Guidance supplies a traversable course and the gift supplies an outward act; the focus carrier gives that movement a destination and proper approach.",
+      "reader_payoff": "The act of giving can be perceived as travel toward a destination.",
+      "containment": "Road and junction remain contextual images, not a literal replacement for seeking.",
+      "epistemic": {
+        "status": "grounded",
+        "source_trust": [
+          "trusted"
+        ],
+        "reason": "The packet supplies a carrier and an independent contextual contact; the status records the strength and boundary of that contact."
+      },
+      "support_ids": [
+        "sup_253a1e2a28cb2e9c25a8",
+        "sup_2b2341b5bb66596c91ed",
+        "sup_7bd8f2bf2f2a3e4428d6",
+        "sup_8664b346a848c2e964ac",
+        "sup_b01c70b93b4f8d0ba1bb"
+      ],
+      "branch_activations": [
+        {
+          "branch_ref": "root_001630/B002",
+          "facet_id": "F001",
+          "branch_gloss": "yön ve hedef; o yöne sevk etme veya yolu belli etme",
+          "facet_statement": "Dönülen veya gidilen yönü, tarafı ve hedefi belirtir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "92:20:3:1"
+          ],
+          "trigger_refs": [
+            "92:12",
+            "92:18",
+            "conn_ev_8fc19e58f9a6c764a83b",
+            "conn_ev_dfb9c5507af32cad1982"
+          ],
+          "focus_return_refs": [
+            "92:20:3:1"
+          ],
+          "carrier": "The focus carrier holds the yön ve hedef; o yöne sevk etme veya yolu belli etme sense at 92:20:3:1.",
+          "independent_trigger": "The independent trigger is the pericope context at 92:12, 92:18 and its connection evidence.",
+          "activation": "The focus carrier meets that separate contextual trigger, so the branch changes the reading through the stated relation rather than through availability alone.",
+          "resulting_reading": "The face-as-direction carrier presents the purpose as a proper approach along a guided road, not aimless desire.",
+          "boundary": "Road and junction remain contextual images, not a literal replacement for seeking."
+        }
+      ],
+      "connection_refs": [
+        "conn_21bd22335d6b2db79616",
+        "conn_e825e87912f0bd1907eb"
+      ],
+      "context_refs": [
+        "92:12",
+        "92:18"
+      ],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "macro:cand_3c433e0df7e8293ce3f1:channel",
+      "origin_candidate_id": "cand_3c433e0df7e8293ce3f1",
+      "represented_candidate_ids": [
+        "cand_3c433e0df7e8293ce3f1"
+      ],
+      "title": "One, Pair, and Multitude",
+      "claim": "The large-community branch places the exclusive purpose within a social field while detaching the act from human beneficiaries as final claimants.",
+      "mechanism": "The community carrier meets the gift and the exhaustive denial of a human creditor; the divine target of purpose is separated from the social field through which the act may pass.",
+      "reader_payoff": "Public generosity and non-social motive can be held together.",
+      "containment": "The community image requires an actually gathered group and is not a lexical claim that ربّه names a community.",
+      "epistemic": {
+        "status": "grounded",
+        "source_trust": [
+          "trusted"
+        ],
+        "reason": "The packet supplies a carrier and an independent contextual contact; the status records the strength and boundary of that contact."
+      },
+      "support_ids": [
+        "sup_329f8dac51048ca37ece",
+        "sup_37ae7670eb645b7fa577",
+        "sup_4a652c2a403901a9d587",
+        "sup_717d8ffa10de16ac5ef1",
+        "sup_98171a18a62ffa5c6467"
+      ],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000532/B004",
+          "facet_id": "F001",
+          "branch_gloss": "büyük insan topluluğu",
+          "facet_statement": "Temel anlam, insanların büyük sayıda bir araya gelerek topluluk oluşturmasıdır.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "92:20:4:1"
+          ],
+          "trigger_refs": [
+            "92:18",
+            "92:19",
+            "conn_ev_dfb9c5507af32cad1982",
+            "conn_ev_f80106c5e7dd1e8ff524"
+          ],
+          "focus_return_refs": [
+            "92:20:4:1"
+          ],
+          "carrier": "The focus carrier holds the büyük insan topluluğu sense at 92:20:4:1.",
+          "independent_trigger": "The independent trigger is the pericope context at 92:18, 92:19 and its connection evidence.",
+          "activation": "The focus carrier meets that separate contextual trigger, so the branch changes the reading through the stated relation rather than through availability alone.",
+          "resulting_reading": "The large-community branch places the exclusive purpose within a social field while detaching the act from human beneficiaries as final claimants.",
+          "boundary": "The community image requires an actually gathered group and is not a lexical claim that ربّه names a community."
+        }
+      ],
+      "connection_refs": [
+        "conn_e825e87912f0bd1907eb",
+        "conn_2999478c4349ae056fc5"
+      ],
+      "context_refs": [
+        "92:18",
+        "92:19"
+      ],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "macro:cand_f29e97efb96281ec5e2f:channel",
+      "origin_candidate_id": "cand_f29e97efb96281ec5e2f",
+      "represented_candidate_ids": [
+        "cand_f29e97efb96281ec5e2f"
+      ],
+      "title": "Captain, Vanguard, and Directed Company",
+      "claim": "The captain branch casts the sought Lord as directing head whose guidance coordinates a moving company and whose priority governs its course.",
+      "mechanism": "The captain carrier meets guidance, first-and-last possession, and the contrast with turning away; lordship becomes directed command over collective movement.",
+      "reader_payoff": "The moral contrast gains a visible command structure.",
+      "containment": "The captain image is a branch resonance, not a literal ship-captain gloss here.",
+      "epistemic": {
+        "status": "grounded",
+        "source_trust": [
+          "trusted"
+        ],
+        "reason": "The packet supplies a carrier and an independent contextual contact; the status records the strength and boundary of that contact."
+      },
+      "support_ids": [
+        "sup_04b82f9582a1c927fe0c",
+        "sup_43b1c979521df28d9de8",
+        "sup_8b6f8abd654d22812f1f",
+        "sup_f4407d36b60be1dd7a72",
+        "sup_f8aba62708948cc67460"
+      ],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000532/B017",
+          "facet_id": "F001",
+          "branch_gloss": "gemicilerin başı",
+          "facet_statement": "Kişi gemiciler topluluğu üzerinde yönetsel başlık ve yetki taşır.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "92:20:4:1"
+          ],
+          "trigger_refs": [
+            "92:12",
+            "92:13",
+            "92:16",
+            "conn_ev_8fc19e58f9a6c764a83b",
+            "conn_ev_8c31c08c2272b1cfdd89",
+            "conn_ev_f29bb47e2d6c7426269a"
+          ],
+          "focus_return_refs": [
+            "92:20:4:1"
+          ],
+          "carrier": "The focus carrier holds the gemicilerin başı sense at 92:20:4:1.",
+          "independent_trigger": "The independent trigger is the pericope context at 92:12, 92:13, 92:16 and its connection evidence.",
+          "activation": "The focus carrier meets that separate contextual trigger, so the branch changes the reading through the stated relation rather than through availability alone.",
+          "resulting_reading": "The captain branch casts the sought Lord as directing head whose guidance coordinates a moving company and whose priority governs its course.",
+          "boundary": "The captain image is a branch resonance, not a literal ship-captain gloss here."
+        }
+      ],
+      "connection_refs": [
+        "conn_21bd22335d6b2db79616",
+        "conn_902ae3a00bb47da53802",
+        "conn_d5b5a3be0984c7eb81ae"
+      ],
+      "context_refs": [
+        "92:12",
+        "92:13",
+        "92:16"
+      ],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "macro:cand_638778ac137aecce8f30:channel",
+      "origin_candidate_id": "cand_638778ac137aecce8f30",
+      "represented_candidate_ids": [
+        "cand_638778ac137aecce8f30"
+      ],
+      "title": "Facing, Turning Away, and Repulse",
+      "claim": "The direct-facing branch makes the focus a positive reorientation against the turning-away movement in the pericope.",
+      "mechanism": "The face-to-face carrier meets the turning-away contrast and changes an interior intention into an approach vector opposed to withdrawal.",
+      "reader_payoff": "Purpose is felt as a turn of the whole person.",
+      "containment": "The branch requires two-sided facing, but need not imply literal bodily encounter.",
+      "epistemic": {
+        "status": "grounded",
+        "source_trust": [
+          "trusted"
+        ],
+        "reason": "The packet supplies a carrier and an independent contextual contact; the status records the strength and boundary of that contact."
+      },
+      "support_ids": [
+        "sup_31685fa5d3986d352bb1",
+        "sup_3182e2d557ea2210b0bd",
+        "sup_4a45834d218f1ece3534",
+        "sup_b512348b8bd779ab97be",
+        "sup_cb1004ac4926e36b4cc9"
+      ],
+      "branch_activations": [
+        {
+          "branch_ref": "root_001630/B003",
+          "facet_id": "F001",
+          "branch_gloss": "karşı karşıya gelme ve doğrudan yüzüne söyleme",
+          "facet_statement": "İki tarafın birbirinin karşısına gelmesini veya karşılıklı durmasını belirtir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "92:20:3:1"
+          ],
+          "trigger_refs": [
+            "92:16",
+            "conn_ev_f29bb47e2d6c7426269a"
+          ],
+          "focus_return_refs": [
+            "92:20:3:1"
+          ],
+          "carrier": "The focus carrier holds the karşı karşıya gelme ve doğrudan yüzüne söyleme sense at 92:20:3:1.",
+          "independent_trigger": "The independent trigger is the pericope context at 92:16 and its connection evidence.",
+          "activation": "The focus carrier meets that separate contextual trigger, so the branch changes the reading through the stated relation rather than through availability alone.",
+          "resulting_reading": "The direct-facing branch makes the focus a positive reorientation against the turning-away movement in the pericope.",
+          "boundary": "The branch requires two-sided facing, but need not imply literal bodily encounter."
+        }
+      ],
+      "connection_refs": [
+        "conn_d5b5a3be0984c7eb81ae"
+      ],
+      "context_refs": [
+        "92:16"
+      ],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "macro:cand_246df883db5d63f5dca0:channel",
+      "origin_candidate_id": "cand_246df883db5d63f5dca0",
+      "represented_candidate_ids": [
+        "cand_246df883db5d63f5dca0"
+      ],
+      "title": "Pact, Surety, and Protected Alliance",
+      "claim": "The covenant-and-surety branch lets the focus close toward a binding relation whose endpoint is satisfaction rather than repayment.",
+      "mechanism": "The binding-word carrier meets future satisfaction; exclusive purpose reads as pledged orientation that can culminate in settled acceptance.",
+      "reader_payoff": "The phrase gains the force of fidelity to a promised relation.",
+      "containment": "The covenant image does not make رضا a contractual counterparty or assert a reciprocal legal form.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": [
+          "trusted"
+        ],
+        "reason": "The packet supplies a carrier and an independent contextual contact; the status records the strength and boundary of that contact."
+      },
+      "support_ids": [
+        "sup_3d50316b00c9a1212692",
+        "sup_8968f619ebfe50a39f7a",
+        "sup_a088b868766810a076b6",
+        "sup_c7528e0facc51deac56b",
+        "sup_dfebde7686b9bdca73c4"
+      ],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000532/B011",
+          "facet_id": "F001",
+          "branch_gloss": "bağlayıcı söz ve güvence",
+          "facet_statement": "Karşılıklı söz ve güvence, taraflar arasında bağlayıcı bir ilişki kurar.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "92:20:4:1"
+          ],
+          "trigger_refs": [
+            "92:21",
+            "conn_ev_d863fe7533caee1f78a0"
+          ],
+          "focus_return_refs": [
+            "92:20:4:1"
+          ],
+          "carrier": "The focus carrier holds the bağlayıcı söz ve güvence sense at 92:20:4:1.",
+          "independent_trigger": "The independent trigger is the pericope context at 92:21 and its connection evidence.",
+          "activation": "The focus carrier meets that separate contextual trigger, so the branch changes the reading through the stated relation rather than through availability alone.",
+          "resulting_reading": "The covenant-and-surety branch lets the focus close toward a binding relation whose endpoint is satisfaction rather than repayment.",
+          "boundary": "The covenant image does not make رضا a contractual counterparty or assert a reciprocal legal form."
+        }
+      ],
+      "connection_refs": [
+        "conn_6f6a88dd186845137003"
+      ],
+      "context_refs": [
+        "92:21"
+      ],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "macro:cand_bb7bf0eeeeafbdfa8b19:channel",
+      "origin_candidate_id": "cand_bb7bf0eeeeafbdfa8b19",
+      "represented_candidate_ids": [
+        "cand_bb7bf0eeeeafbdfa8b19"
+      ],
+      "title": "Guidance by Beacon and Visible Course",
+      "claim": "The face-as-direction carrier functions as the visible course distinguishing guidance from warned fire and directing the gift's purpose.",
+      "mechanism": "Guidance, fire warning, and giving supply course, danger, and action; the focus carrier binds them into a visible destination.",
+      "reader_payoff": "The moral architecture reads as a marked course with a real alternative.",
+      "containment": "Beacon and road are contextual supports for direction, not alternate lexical parses of وجه.",
+      "epistemic": {
+        "status": "grounded",
+        "source_trust": [
+          "trusted"
+        ],
+        "reason": "The packet supplies a carrier and an independent contextual contact; the status records the strength and boundary of that contact."
+      },
+      "support_ids": [
+        "sup_24710997cc37ed6f6d8a",
+        "sup_5d5a6bd5108be25d82e6",
+        "sup_6e9958c9fd62d99b194d",
+        "sup_9239333167737d49cf46",
+        "sup_a2f5c2d353fe90e8eac2"
+      ],
+      "branch_activations": [
+        {
+          "branch_ref": "root_001630/B002",
+          "facet_id": "F001",
+          "branch_gloss": "yön ve hedef; o yöne sevk etme veya yolu belli etme",
+          "facet_statement": "Dönülen veya gidilen yönü, tarafı ve hedefi belirtir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "92:20:3:1"
+          ],
+          "trigger_refs": [
+            "92:12",
+            "92:14",
+            "92:18",
+            "conn_ev_8fc19e58f9a6c764a83b",
+            "conn_ev_b4caa971df7b67807116",
+            "conn_ev_dfb9c5507af32cad1982"
+          ],
+          "focus_return_refs": [
+            "92:20:3:1"
+          ],
+          "carrier": "The focus carrier holds the yön ve hedef; o yöne sevk etme veya yolu belli etme sense at 92:20:3:1.",
+          "independent_trigger": "The independent trigger is the pericope context at 92:12, 92:14, 92:18 and its connection evidence.",
+          "activation": "The focus carrier meets that separate contextual trigger, so the branch changes the reading through the stated relation rather than through availability alone.",
+          "resulting_reading": "The face-as-direction carrier functions as the visible course distinguishing guidance from warned fire and directing the gift's purpose.",
+          "boundary": "Beacon and road are contextual supports for direction, not alternate lexical parses of وجه."
+        }
+      ],
+      "connection_refs": [
+        "conn_21bd22335d6b2db79616",
+        "conn_4cef10c5c719bb0ec890",
+        "conn_e825e87912f0bd1907eb"
+      ],
+      "context_refs": [
+        "92:12",
+        "92:14",
+        "92:18"
+      ],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "macro:cand_825bbb3a456ab2c86806:channel",
+      "origin_candidate_id": "cand_825bbb3a456ab2c86806",
+      "represented_candidate_ids": [
+        "cand_825bbb3a456ab2c86806"
+      ],
+      "title": "Stranger, Neighbor, and Household Boundary",
+      "claim": "The staying-and-residence branch makes the sought Lord a stable boundary: the protected giver is kept from fire and the gift remains within sustaining care.",
+      "mechanism": "Protection and distancing meet the gift's transfer; residence changes the focus from a momentary aim into durable attachment and care.",
+      "reader_payoff": "Salvation can be perceived as belonging somewhere under care, not only escaping danger.",
+      "containment": "The household image is a bounded extension, not literal dwelling in the focus phrase.",
+      "epistemic": {
+        "status": "grounded",
+        "source_trust": [
+          "trusted"
+        ],
+        "reason": "The packet supplies a carrier and an independent contextual contact; the status records the strength and boundary of that contact."
+      },
+      "support_ids": [
+        "sup_0c48d9fa15b1432fbfea",
+        "sup_18d23df310f57b375484",
+        "sup_a7e4b0fd1a48065daf9c",
+        "sup_e2f008fd16efc471f76c",
+        "sup_e53c2590fe104436ce91"
+      ],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000532/B007",
+          "facet_id": "F001",
+          "branch_gloss": "bir yerde kalıp sürme",
+          "facet_statement": "Kişi, hayvan veya başka bir varlık bulunduğu yere bağlanır ve oradan ayrılmaz.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "92:20:4:1"
+          ],
+          "trigger_refs": [
+            "92:17",
+            "92:18",
+            "conn_ev_57811de47607fd69170d",
+            "conn_ev_dfb9c5507af32cad1982"
+          ],
+          "focus_return_refs": [
+            "92:20:4:1"
+          ],
+          "carrier": "The focus carrier holds the bir yerde kalıp sürme sense at 92:20:4:1.",
+          "independent_trigger": "The independent trigger is the pericope context at 92:17, 92:18 and its connection evidence.",
+          "activation": "The focus carrier meets that separate contextual trigger, so the branch changes the reading through the stated relation rather than through availability alone.",
+          "resulting_reading": "The staying-and-residence branch makes the sought Lord a stable boundary: the protected giver is kept from fire and the gift remains within sustaining care.",
+          "boundary": "The household image is a bounded extension, not literal dwelling in the focus phrase."
+        }
+      ],
+      "connection_refs": [
+        "conn_3aca32c595a67ecb195f",
+        "conn_e825e87912f0bd1907eb"
+      ],
+      "context_refs": [
+        "92:17",
+        "92:18"
+      ],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "macro:cand_969eea73c7e837984443:channel",
+      "origin_candidate_id": "cand_969eea73c7e837984443",
+      "represented_candidate_ids": [
+        "cand_969eea73c7e837984443"
+      ],
+      "title": "Yield, Harvest, and Productive Increase",
+      "claim": "The seeking carrier redirects the productive increase of the gift away from human repayment and toward the Lord as chosen source and destination.",
+      "mechanism": "Seeking meets wealth and growth and the denied debt ledger; increase changes from exchange with another person into purpose directed to the highest Lord.",
+      "reader_payoff": "Giving becomes pursuit of a non-human return while remaining socially effective.",
+      "containment": "The retained branch is seeking; crop-yield and production images are not the literal sense of ابتغاء.",
+      "epistemic": {
+        "status": "grounded",
+        "source_trust": [
+          "trusted"
+        ],
+        "reason": "The packet supplies a carrier and an independent contextual contact; the status records the strength and boundary of that contact."
+      },
+      "support_ids": [
+        "sup_05177c88a2599a75669d",
+        "sup_229fed7069e0f3a5634f",
+        "sup_a09fd9a29b86713fb38d",
+        "sup_ab71643f3d4ac6d6827f",
+        "sup_fd5896e4d4f8c3ee8d7b"
+      ],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000138/B001",
+          "facet_id": "F001",
+          "branch_gloss": "bir şeyi arayıp istemek; başkası için aramak veya arayışına yardım etmek",
+          "facet_statement": "Bir şeyi, ihtiyacı veya amacı istemek, aramak ve ona yönelmek.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "92:20:2:1"
+          ],
+          "trigger_refs": [
+            "92:18",
+            "92:19",
+            "conn_ev_dfb9c5507af32cad1982",
+            "conn_ev_f80106c5e7dd1e8ff524"
+          ],
+          "focus_return_refs": [
+            "92:20:2:1"
+          ],
+          "carrier": "The focus carrier holds the bir şeyi arayıp istemek; başkası için aramak veya arayışına yardım etmek sense at 92:20:2:1.",
+          "independent_trigger": "The independent trigger is the pericope context at 92:18, 92:19 and its connection evidence.",
+          "activation": "The focus carrier meets that separate contextual trigger, so the branch changes the reading through the stated relation rather than through availability alone.",
+          "resulting_reading": "The seeking carrier redirects the productive increase of the gift away from human repayment and toward the Lord as chosen source and destination.",
+          "boundary": "The retained branch is seeking; crop-yield and production images are not the literal sense of ابتغاء."
+        }
+      ],
+      "connection_refs": [
+        "conn_e825e87912f0bd1907eb",
+        "conn_2999478c4349ae056fc5"
+      ],
+      "context_refs": [
+        "92:18",
+        "92:19"
+      ],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "macro:cand_4ea68ca654734b36fc48:channel",
+      "origin_candidate_id": "cand_4ea68ca654734b36fc48",
+      "represented_candidate_ids": [
+        "cand_4ea68ca654734b36fc48"
+      ],
+      "title": "Birth-Newness, Recovery, and Old Age",
+      "claim": "The newness and old-age branches place exclusive purpose across a whole life span, from first freshness through its final stage, under completing care.",
+      "mechanism": "The formative and terminal-life carriers meet the first-and-last pair; purpose becomes longitudinal, reaching beyond one act into the arc the Lord completes.",
+      "reader_payoff": "Intention can be perceived across changing life stages.",
+      "containment": "These are qualified branch resonances and do not erase the primary morphology or make ربّه mean youth.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": [
+          "trusted"
+        ],
+        "reason": "The packet supplies a carrier and an independent contextual contact; the status records the strength and boundary of that contact."
+      },
+      "support_ids": [
+        "sup_27bd5a3b5242ce8a007f",
+        "sup_31ea7b136ec67fa2e0a2",
+        "sup_748bacc3530ecbff1bfd",
+        "sup_77cc83e58f460ce3b0a2",
+        "sup_a6b6b5a6a54ae4128923"
+      ],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000532/B009",
+          "facet_id": "F001",
+          "branch_gloss": "başlangıçtaki tazelik",
+          "facet_statement": "Temel nitelik yakın zamanda başlamış olma, yenilik ve tazeliktir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "92:20:4:1"
+          ],
+          "trigger_refs": [
+            "92:13",
+            "conn_ev_8c31c08c2272b1cfdd89"
+          ],
+          "focus_return_refs": [
+            "92:20:4:1"
+          ],
+          "carrier": "The focus carrier holds the başlangıçtaki tazelik sense at 92:20:4:1.",
+          "independent_trigger": "The independent trigger is the pericope context at 92:13 and its connection evidence.",
+          "activation": "The focus carrier meets that separate contextual trigger, so the branch changes the reading through the stated relation rather than through availability alone.",
+          "resulting_reading": "The newness and old-age branches place exclusive purpose across a whole life span, from first freshness through its final stage, under completing care.",
+          "boundary": "These are qualified branch resonances and do not erase the primary morphology or make ربّه mean youth."
+        },
+        {
+          "branch_ref": "root_001630/B009",
+          "facet_id": "F001",
+          "branch_gloss": "yaşlanıp ömrünün son dönemine girmek",
+          "facet_statement": "Yaşlı kişinin daha ileri yaşa geçmesini ve ömrünün son dönemine yaklaşmasını belirtir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "92:20:3:1"
+          ],
+          "trigger_refs": [
+            "92:13",
+            "conn_ev_8c31c08c2272b1cfdd89"
+          ],
+          "focus_return_refs": [
+            "92:20:3:1"
+          ],
+          "carrier": "The focus carrier holds the yaşlanıp ömrünün son dönemine girmek sense at 92:20:3:1.",
+          "independent_trigger": "The independent trigger is the pericope context at 92:13 and its connection evidence.",
+          "activation": "The focus carrier meets that separate contextual trigger, so the branch changes the reading through the stated relation rather than through availability alone.",
+          "resulting_reading": "The newness and old-age branches place exclusive purpose across a whole life span, from first freshness through its final stage, under completing care.",
+          "boundary": "These are qualified branch resonances and do not erase the primary morphology or make ربّه mean youth."
+        }
+      ],
+      "connection_refs": [
+        "conn_902ae3a00bb47da53802"
+      ],
+      "context_refs": [
+        "92:13"
+      ],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "macro:cand_421ed5418922416345c4:channel",
+      "origin_candidate_id": "cand_421ed5418922416345c4",
+      "represented_candidate_ids": [
+        "cand_421ed5418922416345c4"
+      ],
+      "title": "Mountain Ascent, Ledge, and Refuge",
+      "claim": "The upward-height carrier makes the highestness a demanding ascent set against the fire's danger, so purpose carries exertion and elevation.",
+      "mechanism": "The height carrier meets the fire boundary; the focus superlative changes direction toward the highest into a vertical demand rather than a flat label.",
+      "reader_payoff": "The phrase gains a felt axis toward what exceeds the warned danger.",
+      "containment": "This is ascent imagery, not a literal mountain or the focus sense itself.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": [
+          "trusted"
+        ],
+        "reason": "The packet supplies a carrier and an independent contextual contact; the status records the strength and boundary of that contact."
+      },
+      "support_ids": [
+        "sup_1d67213099dc06ff137e",
+        "sup_3d30607c112e5ffbeef3",
+        "sup_87390fda662da68cca32",
+        "sup_dc8a993f29138a92d3bb",
+        "sup_e31e4a08b11ded73b13c"
+      ],
+      "branch_activations": [
+        {
+          "branch_ref": "root_001042/B001",
+          "facet_id": "F001",
+          "branch_gloss": "yukarı yükselme ve yüksekte olma",
+          "facet_statement": "Çekirdek anlam, yukarıda olma ve aşağı karşıtı yüksekliktir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "92:20:5:2"
+          ],
+          "trigger_refs": [
+            "92:15",
+            "conn_ev_6ed87e952bd251895a45"
+          ],
+          "focus_return_refs": [
+            "92:20:5:2"
+          ],
+          "carrier": "The focus carrier holds the yukarı yükselme ve yüksekte olma sense at 92:20:5:2.",
+          "independent_trigger": "The independent trigger is the pericope context at 92:15 and its connection evidence.",
+          "activation": "The focus carrier meets that separate contextual trigger, so the branch changes the reading through the stated relation rather than through availability alone.",
+          "resulting_reading": "The upward-height carrier makes the highestness a demanding ascent set against the fire's danger, so purpose carries exertion and elevation.",
+          "boundary": "This is ascent imagery, not a literal mountain or the focus sense itself."
+        }
+      ],
+      "connection_refs": [
+        "conn_9edeeae7298cacde781f"
+      ],
+      "context_refs": [
+        "92:15"
+      ],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "macro:hft:D4_guided_pursuit",
+      "origin_candidate_id": "cand_71322ff13b8493dd39c1",
+      "represented_candidate_ids": [
+        "cand_71322ff13b8493dd39c1"
+      ],
+      "title": "Guided pursuit",
+      "claim": "The seeker actively pursues a heading already gently indicated and undertaken by the Lord; agency remains real but responsive.",
+      "mechanism": "The pursuit is not self-authored navigation. Contextual guidance supplies gentle direction to the path; the focus supplies active seeking and a face as heading; lordship supplies the party who undertakes that guidance.",
+      "reader_payoff": "The seeker's agency stays active while becoming responsive to a direction supplied before the focus act.",
+      "containment": "The seeker's agency stays active while becoming responsive to a direction supplied before the focus act. The packet supplies an assigned guidance relation and an active pursuit; I infer a two-agent coupling in which the Lord provides direction and the seeker answers it. Alternatively, 92:12 may declare guidance's availability without specifying how pursuit and guidance interact.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": [
+          "legacy_unbound"
+        ],
+        "reason": "The exact HFT traces return to the supplied focus surface, while legacy_unbound identity limits the result to attributed contextual evidence."
+      },
+      "support_ids": [
+        "sup_45b68269ec60ee208537"
+      ],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000138/B001",
+          "facet_id": "F001",
+          "branch_gloss": "bir şeyi arayıp istemek; başkası için aramak veya arayışına yardım etmek",
+          "facet_statement": "Bir şeyi, ihtiyacı veya amacı istemek, aramak ve ona yönelmek.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "92:20:2:1"
+          ],
+          "trigger_refs": [
+            "92:20:3:1",
+            "92:20:4:1",
+            "92:12:3",
+            "92:12",
+            "conn_ev_8fc19e58f9a6c764a83b"
+          ],
+          "focus_return_refs": [
+            "92:20:2:1",
+            "92:20:3:1",
+            "92:20:4:1"
+          ],
+          "carrier": "The HFT trace assigns Seeking supplies the responsive motion of the seeker along a path. to root_000138/B001.",
+          "independent_trigger": "The independent trigger is the supplied contact at 92:20:2 together with the other trace occurrences.",
+          "activation": "The attributed carrier and independent trigger meet at the coordinates named by the HFT record, changing the focus reading without becoming an unqualified lexical gloss.",
+          "resulting_reading": "The seeker actively pursues a heading already gently indicated and undertaken by the Lord; agency remains real but responsive.",
+          "boundary": "The seeker's agency stays active while becoming responsive to a direction supplied before the focus act."
+        },
+        {
+          "branch_ref": "root_001630/B002",
+          "facet_id": "F001",
+          "branch_gloss": "yön ve hedef; o yöne sevk etme veya yolu belli etme",
+          "facet_statement": "Dönülen veya gidilen yönü, tarafı ve hedefi belirtir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "92:20:3:1"
+          ],
+          "trigger_refs": [
+            "92:20:2:1",
+            "92:20:4:1",
+            "92:12:3",
+            "92:12",
+            "conn_ev_8fc19e58f9a6c764a83b"
+          ],
+          "focus_return_refs": [
+            "92:20:2:1",
+            "92:20:3:1",
+            "92:20:4:1"
+          ],
+          "carrier": "The HFT trace assigns Direction and destination give the guided motion a determinate heading. to root_001630/B002.",
+          "independent_trigger": "The independent trigger is the supplied contact at 92:20:3 together with the other trace occurrences.",
+          "activation": "The attributed carrier and independent trigger meet at the coordinates named by the HFT record, changing the focus reading without becoming an unqualified lexical gloss.",
+          "resulting_reading": "The seeker actively pursues a heading already gently indicated and undertaken by the Lord; agency remains real but responsive.",
+          "boundary": "The seeker's agency stays active while becoming responsive to a direction supplied before the focus act."
+        },
+        {
+          "branch_ref": "root_000532/B001",
+          "facet_id": "F001",
+          "branch_gloss": "sahip olup yönetme",
+          "facet_statement": "Sahiplik, buyruk yetkisi ve yönetip düzenleme aynı çekirdekte birleşir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "92:20:4:1"
+          ],
+          "trigger_refs": [
+            "92:20:2:1",
+            "92:20:3:1",
+            "92:12:3",
+            "92:12",
+            "conn_ev_8fc19e58f9a6c764a83b"
+          ],
+          "focus_return_refs": [
+            "92:20:2:1",
+            "92:20:3:1",
+            "92:20:4:1"
+          ],
+          "carrier": "The HFT trace assigns Lordship and authority identify the guide whose claim governs the route. to root_000532/B001.",
+          "independent_trigger": "The independent trigger is the supplied contact at 92:20:4 together with the other trace occurrences.",
+          "activation": "The attributed carrier and independent trigger meet at the coordinates named by the HFT record, changing the focus reading without becoming an unqualified lexical gloss.",
+          "resulting_reading": "The seeker actively pursues a heading already gently indicated and undertaken by the Lord; agency remains real but responsive.",
+          "boundary": "The seeker's agency stays active while becoming responsive to a direction supplied before the focus act."
+        },
+        {
+          "branch_ref": "root_001583/B001",
+          "facet_id": "SOURCE_IMAGE",
+          "branch_gloss": "gentle guidance toward a way or truth",
+          "facet_statement": "gentle guidance toward a way or truth",
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "92:12:3"
+          ],
+          "trigger_refs": [
+            "92:20:2:1",
+            "92:20:3:1",
+            "92:20:4:1",
+            "92:12",
+            "conn_ev_8fc19e58f9a6c764a83b"
+          ],
+          "focus_return_refs": [
+            "92:20:2:1",
+            "92:20:3:1",
+            "92:20:4:1"
+          ],
+          "carrier": "The HFT trace assigns Gentle indication toward road and truth supplies the route that precedes the seeker's response. to root_001583/B001.",
+          "independent_trigger": "The independent trigger is the supplied contact at 92:12:3 together with the other trace occurrences.",
+          "activation": "The attributed carrier and independent trigger meet at the coordinates named by the HFT record, changing the focus reading without becoming an unqualified lexical gloss.",
+          "resulting_reading": "The seeker actively pursues a heading already gently indicated and undertaken by the Lord; agency remains real but responsive.",
+          "boundary": "The seeker's agency stays active while becoming responsive to a direction supplied before the focus act."
+        }
+      ],
+      "connection_refs": [
+        "conn_21bd22335d6b2db79616"
+      ],
+      "context_refs": [
+        "92:12"
+      ],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "macro:hft:D5_first_last_priority",
+      "origin_candidate_id": "cand_9de79840081e6c546d7d",
+      "represented_candidate_ids": [
+        "cand_9de79840081e6c546d7d"
+      ],
+      "title": "First and last become priority",
+      "claim": "The exception is not delayed compensation but priority: across the entire first-to-last span, the highest Lord has the first and overriding claim on the act.",
+      "mechanism": "The context brackets later and first, while the split mapping of الأولى activates priority and entitlement. الأعلى then converts temporal comprehensiveness into an order of claims: the Lord who encompasses first and last also has the highest prior claim on purpose.",
+      "reader_payoff": "The phrase can be heard as priority of claim across the whole temporal span, not merely delayed reward.",
+      "containment": "The phrase can be heard as priority of claim across the whole temporal span, not merely delayed reward. The packet supplies first, later, high rank, authority, and a split-root priority image; I infer a conversion from time-order to claim-order. The safer alternative keeps 92:13 as temporal ownership and الأعلى as an unrelated epithet.",
+      "epistemic": {
+        "status": "exploratory",
+        "source_trust": [
+          "legacy_unbound"
+        ],
+        "reason": "The exact HFT traces return to the supplied focus surface, while legacy_unbound identity limits the result to attributed contextual evidence."
+      },
+      "support_ids": [
+        "sup_a82e7af7f8f257db6483"
+      ],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000532/B001",
+          "facet_id": "F001",
+          "branch_gloss": "sahip olup yönetme",
+          "facet_statement": "Sahiplik, buyruk yetkisi ve yönetip düzenleme aynı çekirdekte birleşir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "92:20:4:1"
+          ],
+          "trigger_refs": [
+            "92:20:5:2",
+            "92:13:3",
+            "92:13:4",
+            "92:13",
+            "conn_ev_8c31c08c2272b1cfdd89"
+          ],
+          "focus_return_refs": [
+            "92:20:4:1",
+            "92:20:5:2"
+          ],
+          "carrier": "The HFT trace assigns Lordship and authority make temporal possession relevant as a claim upon the seeker's purpose. to root_000532/B001.",
+          "independent_trigger": "The independent trigger is the supplied contact at 92:20:4 together with the other trace occurrences.",
+          "activation": "The attributed carrier and independent trigger meet at the coordinates named by the HFT record, changing the focus reading without becoming an unqualified lexical gloss.",
+          "resulting_reading": "The exception is not delayed compensation but priority: across the entire first-to-last span, the highest Lord has the first and overriding claim on the act.",
+          "boundary": "The phrase can be heard as priority of claim across the whole temporal span, not merely delayed reward."
+        },
+        {
+          "branch_ref": "root_001042/B002",
+          "facet_id": "F001",
+          "branch_gloss": "saygınlıkta yüksek mevki",
+          "facet_statement": "Çekirdek anlam, değer ve saygınlık bakımından yüksek konumdur.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "92:20:5:2"
+          ],
+          "trigger_refs": [
+            "92:20:4:1",
+            "92:13:3",
+            "92:13:4",
+            "92:13",
+            "conn_ev_8c31c08c2272b1cfdd89"
+          ],
+          "focus_return_refs": [
+            "92:20:4:1",
+            "92:20:5:2"
+          ],
+          "carrier": "The HFT trace assigns Highest rank translates the temporal bracket into a hierarchy of claims. to root_001042/B002.",
+          "independent_trigger": "The independent trigger is the supplied contact at 92:20:5 together with the other trace occurrences.",
+          "activation": "The attributed carrier and independent trigger meet at the coordinates named by the HFT record, changing the focus reading without becoming an unqualified lexical gloss.",
+          "resulting_reading": "The exception is not delayed compensation but priority: across the entire first-to-last span, the highest Lord has the first and overriding claim on the act.",
+          "boundary": "The phrase can be heard as priority of claim across the whole temporal span, not merely delayed reward."
+        },
+        {
+          "branch_ref": "root_000019/B001",
+          "facet_id": "SOURCE_IMAGE",
+          "branch_gloss": "that which is later or other than the first",
+          "facet_statement": "that which is later or other than the first",
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "92:13:3"
+          ],
+          "trigger_refs": [
+            "92:20:4:1",
+            "92:20:5:2",
+            "92:13:4",
+            "92:13",
+            "conn_ev_8c31c08c2272b1cfdd89"
+          ],
+          "focus_return_refs": [
+            "92:20:4:1",
+            "92:20:5:2"
+          ],
+          "carrier": "The HFT trace assigns Laterness after the first supplies one boundary of the complete temporal span. to root_000019/B001.",
+          "independent_trigger": "The independent trigger is the supplied contact at 92:13:3 together with the other trace occurrences.",
+          "activation": "The attributed carrier and independent trigger meet at the coordinates named by the HFT record, changing the focus reading without becoming an unqualified lexical gloss.",
+          "resulting_reading": "The exception is not delayed compensation but priority: across the entire first-to-last span, the highest Lord has the first and overriding claim on the act.",
+          "boundary": "The phrase can be heard as priority of claim across the whole temporal span, not merely delayed reward."
+        },
+        {
+          "branch_ref": "root_000067/B001",
+          "facet_id": "SOURCE_IMAGE",
+          "branch_gloss": "beginning and precedence",
+          "facet_statement": "beginning and precedence",
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "92:13:4"
+          ],
+          "trigger_refs": [
+            "92:20:4:1",
+            "92:20:5:2",
+            "92:13:3",
+            "92:13",
+            "conn_ev_8c31c08c2272b1cfdd89"
+          ],
+          "focus_return_refs": [
+            "92:20:4:1",
+            "92:20:5:2"
+          ],
+          "carrier": "The HFT trace assigns Beginning and precedence supply the other boundary of the temporal span. to root_000067/B001.",
+          "independent_trigger": "The independent trigger is the supplied contact at 92:13:4 together with the other trace occurrences.",
+          "activation": "The attributed carrier and independent trigger meet at the coordinates named by the HFT record, changing the focus reading without becoming an unqualified lexical gloss.",
+          "resulting_reading": "The exception is not delayed compensation but priority: across the entire first-to-last span, the highest Lord has the first and overriding claim on the act.",
+          "boundary": "The phrase can be heard as priority of claim across the whole temporal span, not merely delayed reward."
+        },
+        {
+          "branch_ref": "root_001684/B008",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "92:13:4"
+          ],
+          "trigger_refs": [
+            "92:20:4:1",
+            "92:20:5:2",
+            "92:13:3",
+            "92:13",
+            "conn_ev_8c31c08c2272b1cfdd89"
+          ],
+          "focus_return_refs": [
+            "92:20:4:1",
+            "92:20:5:2"
+          ],
+          "carrier": "The HFT trace assigns The non-dominant priority-and-entitlement branch changes firstness from chronology into precedence of claim. to root_001684/B008.",
+          "independent_trigger": "The independent trigger is the supplied contact at 92:13:4 together with the other trace occurrences.",
+          "activation": "The attributed carrier and independent trigger meet at the coordinates named by the HFT record, changing the focus reading without becoming an unqualified lexical gloss.",
+          "resulting_reading": "The exception is not delayed compensation but priority: across the entire first-to-last span, the highest Lord has the first and overriding claim on the act.",
+          "boundary": "The phrase can be heard as priority of claim across the whole temporal span, not merely delayed reward."
+        }
+      ],
+      "connection_refs": [
+        "conn_902ae3a00bb47da53802"
+      ],
+      "context_refs": [
+        "92:13"
+      ],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "macro:hft:D6_turning_and_distance",
+      "origin_candidate_id": "cand_70630ab3762411824743",
+      "represented_candidate_ids": [
+        "cand_70630ab3762411824743"
+      ],
+      "title": "Turning and distance",
+      "claim": "It names a bodily and existential reorientation: turn toward this face, and the whole field of approach, avoidance, and protection is rearranged.",
+      "mechanism": "Turning away, being moved aside, and protection establish a spatial field of facing and distance. In that field, seeking the Lord's face is a positive turn that determines both what the seeker approaches and what the seeker is kept away from.",
+      "reader_payoff": "Approach, withdrawal, protection, and danger form one orientation field around seeking.",
+      "containment": "Approach, withdrawal, protection, and danger form one orientation field around seeking. The packet supplies turning, facing, distancing, and protection; I infer a shared orientation architecture in which approach to one endpoint entails distance from another. Alternatively, the movements may be separate outcomes rather than one spatial mechanism.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": [
+          "legacy_unbound"
+        ],
+        "reason": "The exact HFT traces return to the supplied focus surface, while legacy_unbound identity limits the result to attributed contextual evidence."
+      },
+      "support_ids": [
+        "sup_97ab3ba83c59cce3e07f"
+      ],
+      "branch_activations": [
+        {
+          "branch_ref": "root_001630/B002",
+          "facet_id": "F001",
+          "branch_gloss": "yön ve hedef; o yöne sevk etme veya yolu belli etme",
+          "facet_statement": "Dönülen veya gidilen yönü, tarafı ve hedefi belirtir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "92:20:3:1"
+          ],
+          "trigger_refs": [
+            "92:16:3",
+            "92:17:1",
+            "92:17:2",
+            "92:16",
+            "92:17",
+            "conn_ev_f29bb47e2d6c7426269a",
+            "conn_ev_57811de47607fd69170d"
+          ],
+          "focus_return_refs": [
+            "92:20:3:1"
+          ],
+          "carrier": "The HFT trace assigns Orientation and direction make the focus phrase the positive heading within the spatial contrast. to root_001630/B002.",
+          "independent_trigger": "The independent trigger is the supplied contact at 92:20:3 together with the other trace occurrences.",
+          "activation": "The attributed carrier and independent trigger meet at the coordinates named by the HFT record, changing the focus reading without becoming an unqualified lexical gloss.",
+          "resulting_reading": "It names a bodily and existential reorientation: turn toward this face, and the whole field of approach, avoidance, and protection is rearranged.",
+          "boundary": "Approach, withdrawal, protection, and danger form one orientation field around seeking."
+        },
+        {
+          "branch_ref": "root_001630/B003",
+          "facet_id": "F001",
+          "branch_gloss": "karşı karşıya gelme ve doğrudan yüzüne söyleme",
+          "facet_statement": "İki tarafın birbirinin karşısına gelmesini veya karşılıklı durmasını belirtir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "92:20:3:1"
+          ],
+          "trigger_refs": [
+            "92:16:3",
+            "92:17:1",
+            "92:17:2",
+            "92:16",
+            "92:17",
+            "conn_ev_f29bb47e2d6c7426269a",
+            "conn_ev_57811de47607fd69170d"
+          ],
+          "focus_return_refs": [
+            "92:20:3:1"
+          ],
+          "carrier": "The HFT trace assigns Direct facing supplies the approach relation opposed to turning away. to root_001630/B003.",
+          "independent_trigger": "The independent trigger is the supplied contact at 92:20:3 together with the other trace occurrences.",
+          "activation": "The attributed carrier and independent trigger meet at the coordinates named by the HFT record, changing the focus reading without becoming an unqualified lexical gloss.",
+          "resulting_reading": "It names a bodily and existential reorientation: turn toward this face, and the whole field of approach, avoidance, and protection is rearranged.",
+          "boundary": "Approach, withdrawal, protection, and danger form one orientation field around seeking."
+        },
+        {
+          "branch_ref": "root_001684/B007",
+          "facet_id": "SOURCE_IMAGE",
+          "branch_gloss": "turning away and withdrawal",
+          "facet_statement": "turning away and withdrawal",
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "92:16:3"
+          ],
+          "trigger_refs": [
+            "92:20:3:1",
+            "92:17:1",
+            "92:17:2",
+            "92:16",
+            "92:17",
+            "conn_ev_f29bb47e2d6c7426269a",
+            "conn_ev_57811de47607fd69170d"
+          ],
+          "focus_return_refs": [
+            "92:20:3:1"
+          ],
+          "carrier": "The HFT trace assigns Turning the back and withdrawing provide the explicit counter-orientation. to root_001684/B007.",
+          "independent_trigger": "The independent trigger is the supplied contact at 92:16:3 together with the other trace occurrences.",
+          "activation": "The attributed carrier and independent trigger meet at the coordinates named by the HFT record, changing the focus reading without becoming an unqualified lexical gloss.",
+          "resulting_reading": "It names a bodily and existential reorientation: turn toward this face, and the whole field of approach, avoidance, and protection is rearranged.",
+          "boundary": "Approach, withdrawal, protection, and danger form one orientation field around seeking."
+        },
+        {
+          "branch_ref": "root_000262/B003",
+          "facet_id": "SOURCE_IMAGE",
+          "branch_gloss": "keeping aside, avoiding, distance, and foreignness",
+          "facet_statement": "keeping aside, avoiding, distance, and foreignness",
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "92:17:1"
+          ],
+          "trigger_refs": [
+            "92:20:3:1",
+            "92:16:3",
+            "92:17:2",
+            "92:16",
+            "92:17",
+            "conn_ev_f29bb47e2d6c7426269a",
+            "conn_ev_57811de47607fd69170d"
+          ],
+          "focus_return_refs": [
+            "92:20:3:1"
+          ],
+          "carrier": "The HFT trace assigns Distancing and putting aside supply the protective relocation away from danger. to root_000262/B003.",
+          "independent_trigger": "The independent trigger is the supplied contact at 92:17:1 together with the other trace occurrences.",
+          "activation": "The attributed carrier and independent trigger meet at the coordinates named by the HFT record, changing the focus reading without becoming an unqualified lexical gloss.",
+          "resulting_reading": "It names a bodily and existential reorientation: turn toward this face, and the whole field of approach, avoidance, and protection is rearranged.",
+          "boundary": "Approach, withdrawal, protection, and danger form one orientation field around seeking."
+        },
+        {
+          "branch_ref": "root_001677/B001",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "92:17:2"
+          ],
+          "trigger_refs": [
+            "92:20:3:1",
+            "92:16:3",
+            "92:17:1",
+            "92:16",
+            "92:17",
+            "conn_ev_f29bb47e2d6c7426269a",
+            "conn_ev_57811de47607fd69170d"
+          ],
+          "focus_return_refs": [
+            "92:20:3:1"
+          ],
+          "carrier": "The HFT trace assigns Repelling harm by protection gives the distancing a functional rather than merely geometric purpose. to root_001677/B001.",
+          "independent_trigger": "The independent trigger is the supplied contact at 92:17:2 together with the other trace occurrences.",
+          "activation": "The attributed carrier and independent trigger meet at the coordinates named by the HFT record, changing the focus reading without becoming an unqualified lexical gloss.",
+          "resulting_reading": "It names a bodily and existential reorientation: turn toward this face, and the whole field of approach, avoidance, and protection is rearranged.",
+          "boundary": "Approach, withdrawal, protection, and danger form one orientation field around seeking."
+        }
+      ],
+      "connection_refs": [
+        "conn_d5b5a3be0984c7eb81ae",
+        "conn_3aca32c595a67ecb195f"
+      ],
+      "context_refs": [
+        "92:16",
+        "92:17"
+      ],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "macro:hft:D7_wealth_into_growth",
+      "origin_candidate_id": "cand_9ccd0df4d8de6834d537",
+      "represented_candidate_ids": [
+        "cand_9ccd0df4d8de6834d537"
+      ],
+      "title": "Wealth becomes growth",
+      "claim": "The gift changes the medium of increase: accumulated wealth leaves the hand and becomes purified growth within a lordly process of completion and ascent.",
+      "mechanism": "The immediate context joins giving, accumulated wealth, and purification-growth. The focus joins lordly nurture to rising. This permits a conversion model: what leaves the possessor as wealth becomes formative increase in the seeker under the Most High.",
+      "reader_payoff": "The gift can be perceived as conversion from stored possession into formative increase.",
+      "containment": "The gift can be perceived as conversion from stored possession into formative increase. The packet supplies transfer, stored wealth, growth-purity, nurture, and rising; I infer a conversion arrow from outward loss to inward formation. A live alternative treats يتزكى as motive or accompanying state, not an effect of giving.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": [
+          "legacy_unbound"
+        ],
+        "reason": "The exact HFT traces return to the supplied focus surface, while legacy_unbound identity limits the result to attributed contextual evidence."
+      },
+      "support_ids": [
+        "sup_9d0f901456348cf2f911"
+      ],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000532/B002",
+          "facet_id": "F001",
+          "branch_gloss": "adım adım yetiştirip tamamlama",
+          "facet_statement": "Süreç, gözetilen şeyi eksik durumdan tamamlanmış duruma doğru geliştirir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "92:20:4:1"
+          ],
+          "trigger_refs": [
+            "92:20:5:2",
+            "92:18:2",
+            "92:18:3",
+            "92:18:4",
+            "92:18",
+            "conn_ev_dfb9c5507af32cad1982"
+          ],
+          "focus_return_refs": [
+            "92:20:4:1",
+            "92:20:5:2"
+          ],
+          "carrier": "The HFT trace assigns Repair, nurture, and completion provide the formative process into which relinquished wealth is converted. to root_000532/B002.",
+          "independent_trigger": "The independent trigger is the supplied contact at 92:20:4 together with the other trace occurrences.",
+          "activation": "The attributed carrier and independent trigger meet at the coordinates named by the HFT record, changing the focus reading without becoming an unqualified lexical gloss.",
+          "resulting_reading": "The gift changes the medium of increase: accumulated wealth leaves the hand and becomes purified growth within a lordly process of completion and ascent.",
+          "boundary": "The gift can be perceived as conversion from stored possession into formative increase."
+        },
+        {
+          "branch_ref": "root_000537/B005",
+          "facet_id": "F001",
+          "branch_gloss": "besleyip büyütmek ve yetişmek",
+          "facet_statement": "Büyüyen varlık beslenir ve gelişmesi sağlanır.",
+          "application_mode": "intrinsic_cross_root",
+          "carrier_refs": [
+            "92:20:4:1"
+          ],
+          "trigger_refs": [
+            "92:20:5:2",
+            "92:18:2",
+            "92:18:3",
+            "92:18:4",
+            "92:18",
+            "conn_ev_dfb9c5507af32cad1982"
+          ],
+          "focus_return_refs": [
+            "92:20:4:1",
+            "92:20:5:2"
+          ],
+          "carrier": "The HFT trace assigns The split-root nurture-and-growth image reinforces development while remaining a secondary activation. to root_000537/B005.",
+          "independent_trigger": "The independent trigger is the supplied contact at 92:20:4 together with the other trace occurrences.",
+          "activation": "The attributed carrier and independent trigger meet at the coordinates named by the HFT record, changing the focus reading without becoming an unqualified lexical gloss.",
+          "resulting_reading": "The gift changes the medium of increase: accumulated wealth leaves the hand and becomes purified growth within a lordly process of completion and ascent.",
+          "boundary": "The gift can be perceived as conversion from stored possession into formative increase."
+        },
+        {
+          "branch_ref": "root_001042/B001",
+          "facet_id": "F001",
+          "branch_gloss": "yukarı yükselme ve yüksekte olma",
+          "facet_statement": "Çekirdek anlam, yukarıda olma ve aşağı karşıtı yüksekliktir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "92:20:5:2"
+          ],
+          "trigger_refs": [
+            "92:20:4:1",
+            "92:18:2",
+            "92:18:3",
+            "92:18:4",
+            "92:18",
+            "conn_ev_dfb9c5507af32cad1982"
+          ],
+          "focus_return_refs": [
+            "92:20:4:1",
+            "92:20:5:2"
+          ],
+          "carrier": "The HFT trace assigns Rising and height make the resulting formation an ascent rather than mere replacement. to root_001042/B001.",
+          "independent_trigger": "The independent trigger is the supplied contact at 92:20:5 together with the other trace occurrences.",
+          "activation": "The attributed carrier and independent trigger meet at the coordinates named by the HFT record, changing the focus reading without becoming an unqualified lexical gloss.",
+          "resulting_reading": "The gift changes the medium of increase: accumulated wealth leaves the hand and becomes purified growth within a lordly process of completion and ascent.",
+          "boundary": "The gift can be perceived as conversion from stored possession into formative increase."
+        },
+        {
+          "branch_ref": "root_000009/B002",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "92:18:2"
+          ],
+          "trigger_refs": [
+            "92:20:4:1",
+            "92:20:5:2",
+            "92:18:3",
+            "92:18:4",
+            "92:18",
+            "conn_ev_dfb9c5507af32cad1982"
+          ],
+          "focus_return_refs": [
+            "92:20:4:1",
+            "92:20:5:2"
+          ],
+          "carrier": "The HFT trace assigns Giving supplies the outward transfer that begins the conversion. to root_000009/B002.",
+          "independent_trigger": "The independent trigger is the supplied contact at 92:18:2 together with the other trace occurrences.",
+          "activation": "The attributed carrier and independent trigger meet at the coordinates named by the HFT record, changing the focus reading without becoming an unqualified lexical gloss.",
+          "resulting_reading": "The gift changes the medium of increase: accumulated wealth leaves the hand and becomes purified growth within a lordly process of completion and ascent.",
+          "boundary": "The gift can be perceived as conversion from stored possession into formative increase."
+        },
+        {
+          "branch_ref": "root_001457/B001",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "92:18:3"
+          ],
+          "trigger_refs": [
+            "92:20:4:1",
+            "92:20:5:2",
+            "92:18:2",
+            "92:18:4",
+            "92:18",
+            "conn_ev_dfb9c5507af32cad1982"
+          ],
+          "focus_return_refs": [
+            "92:20:4:1",
+            "92:20:5:2"
+          ],
+          "carrier": "The HFT trace assigns The taking and accumulation of wealth supply the stored quantity that is deliberately released. to root_001457/B001.",
+          "independent_trigger": "The independent trigger is the supplied contact at 92:18:3 together with the other trace occurrences.",
+          "activation": "The attributed carrier and independent trigger meet at the coordinates named by the HFT record, changing the focus reading without becoming an unqualified lexical gloss.",
+          "resulting_reading": "The gift changes the medium of increase: accumulated wealth leaves the hand and becomes purified growth within a lordly process of completion and ascent.",
+          "boundary": "The gift can be perceived as conversion from stored possession into formative increase."
+        },
+        {
+          "branch_ref": "root_000637/B001",
+          "facet_id": "SOURCE_IMAGE",
+          "branch_gloss": "growth and increase",
+          "facet_statement": "growth and increase",
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "92:18:4"
+          ],
+          "trigger_refs": [
+            "92:20:4:1",
+            "92:20:5:2",
+            "92:18:2",
+            "92:18:3",
+            "92:18",
+            "conn_ev_dfb9c5507af32cad1982"
+          ],
+          "focus_return_refs": [
+            "92:20:4:1",
+            "92:20:5:2"
+          ],
+          "carrier": "The HFT trace assigns Growth and increase supply the positive result that counters material depletion. to root_000637/B001.",
+          "independent_trigger": "The independent trigger is the supplied contact at 92:18:4 together with the other trace occurrences.",
+          "activation": "The attributed carrier and independent trigger meet at the coordinates named by the HFT record, changing the focus reading without becoming an unqualified lexical gloss.",
+          "resulting_reading": "The gift changes the medium of increase: accumulated wealth leaves the hand and becomes purified growth within a lordly process of completion and ascent.",
+          "boundary": "The gift can be perceived as conversion from stored possession into formative increase."
+        },
+        {
+          "branch_ref": "root_000637/B002",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "92:18:4"
+          ],
+          "trigger_refs": [
+            "92:20:4:1",
+            "92:20:5:2",
+            "92:18:2",
+            "92:18:3",
+            "92:18",
+            "conn_ev_dfb9c5507af32cad1982"
+          ],
+          "focus_return_refs": [
+            "92:20:4:1",
+            "92:20:5:2"
+          ],
+          "carrier": "The HFT trace assigns Purity and soundness keep the increase qualitative rather than equating it with more possessions. to root_000637/B002.",
+          "independent_trigger": "The independent trigger is the supplied contact at 92:18:4 together with the other trace occurrences.",
+          "activation": "The attributed carrier and independent trigger meet at the coordinates named by the HFT record, changing the focus reading without becoming an unqualified lexical gloss.",
+          "resulting_reading": "The gift changes the medium of increase: accumulated wealth leaves the hand and becomes purified growth within a lordly process of completion and ascent.",
+          "boundary": "The gift can be perceived as conversion from stored possession into formative increase."
+        }
+      ],
+      "connection_refs": [
+        "conn_e825e87912f0bd1907eb"
+      ],
+      "context_refs": [
+        "92:18"
+      ],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "macro:hft:D8_reciprocity_ledger_severed",
+      "origin_candidate_id": "cand_ed7a63017bc41470beec",
+      "represented_candidate_ids": [
+        "cand_ed7a63017bc41470beec"
+      ],
+      "title": "The human ledger is severed",
+      "claim": "The gift exits the whole human credit system: it neither settles a beneficiary's debt nor purchases a patron's face, leaving only pursuit of the highest Lord as its live claim.",
+      "mechanism": "Exhaustive negation removes every nearby human creditor, while favor and recompense supply the ledger that is denied. The following إلا leaves one surviving orientation. Seeking the Lord's face is therefore not one motive among social exchanges but the severance of compensatory patronage.",
+      "reader_payoff": "The exclusive purpose appears after human credit, patronage, and repayable favor have been removed.",
+      "containment": "The exclusive purpose appears after human credit, patronage, and repayable favor have been removed. The packet supplies favor, proximity, recompense, status, and exception; I infer a social ledger whose causal claim on the gift is severed. The narrower alternative denies repayment for a specific prior favor without excluding every public effect of giving.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": [
+          "legacy_unbound"
+        ],
+        "reason": "The exact HFT traces return to the supplied focus surface, while legacy_unbound identity limits the result to attributed contextual evidence."
+      },
+      "support_ids": [
+        "sup_f61da55d40c2eb0d9a01"
+      ],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000138/B001",
+          "facet_id": "F001",
+          "branch_gloss": "bir şeyi arayıp istemek; başkası için aramak veya arayışına yardım etmek",
+          "facet_statement": "Bir şeyi, ihtiyacı veya amacı istemek, aramak ve ona yönelmek.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "92:20:2:1"
+          ],
+          "trigger_refs": [
+            "92:20:3:1",
+            "92:20:5:2",
+            "92:19:2",
+            "92:19:3",
+            "92:19:5",
+            "92:19:6",
+            "92:19",
+            "conn_ev_f80106c5e7dd1e8ff524"
+          ],
+          "focus_return_refs": [
+            "92:20:2:1",
+            "92:20:3:1",
+            "92:20:5:2"
+          ],
+          "carrier": "The HFT trace assigns Seeking supplies the sole positive purpose remaining after reciprocal motives are removed. to root_000138/B001.",
+          "independent_trigger": "The independent trigger is the supplied contact at 92:20:2 together with the other trace occurrences.",
+          "activation": "The attributed carrier and independent trigger meet at the coordinates named by the HFT record, changing the focus reading without becoming an unqualified lexical gloss.",
+          "resulting_reading": "The gift exits the whole human credit system: it neither settles a beneficiary's debt nor purchases a patron's face, leaving only pursuit of the highest Lord as its live claim.",
+          "boundary": "The exclusive purpose appears after human credit, patronage, and repayable favor have been removed."
+        },
+        {
+          "branch_ref": "root_001630/B006",
+          "facet_id": "F001",
+          "branch_gloss": "toplumsal itibar, yüksek mevki ve önde gelen kişi",
+          "facet_statement": "Kişinin başkaları yanındaki toplumsal mevki, değer ve saygınlığını belirtir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "92:20:3:1"
+          ],
+          "trigger_refs": [
+            "92:20:2:1",
+            "92:20:5:2",
+            "92:19:2",
+            "92:19:3",
+            "92:19:5",
+            "92:19:6",
+            "92:19",
+            "conn_ev_f80106c5e7dd1e8ff524"
+          ],
+          "focus_return_refs": [
+            "92:20:2:1",
+            "92:20:3:1",
+            "92:20:5:2"
+          ],
+          "carrier": "The HFT trace assigns Status and eminence expose the human faces and patrons whose recognition could otherwise function as repayment. to root_001630/B006.",
+          "independent_trigger": "The independent trigger is the supplied contact at 92:20:3 together with the other trace occurrences.",
+          "activation": "The attributed carrier and independent trigger meet at the coordinates named by the HFT record, changing the focus reading without becoming an unqualified lexical gloss.",
+          "resulting_reading": "The gift exits the whole human credit system: it neither settles a beneficiary's debt nor purchases a patron's face, leaving only pursuit of the highest Lord as its live claim.",
+          "boundary": "The exclusive purpose appears after human credit, patronage, and repayable favor have been removed."
+        },
+        {
+          "branch_ref": "root_001042/B002",
+          "facet_id": "F001",
+          "branch_gloss": "saygınlıkta yüksek mevki",
+          "facet_statement": "Çekirdek anlam, değer ve saygınlık bakımından yüksek konumdur.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "92:20:5:2"
+          ],
+          "trigger_refs": [
+            "92:20:2:1",
+            "92:20:3:1",
+            "92:19:2",
+            "92:19:3",
+            "92:19:5",
+            "92:19:6",
+            "92:19",
+            "conn_ev_f80106c5e7dd1e8ff524"
+          ],
+          "focus_return_refs": [
+            "92:20:2:1",
+            "92:20:3:1",
+            "92:20:5:2"
+          ],
+          "carrier": "The HFT trace assigns Highest rank relocates recognition beyond the hierarchy of human benefactors and beneficiaries. to root_001042/B002.",
+          "independent_trigger": "The independent trigger is the supplied contact at 92:20:5 together with the other trace occurrences.",
+          "activation": "The attributed carrier and independent trigger meet at the coordinates named by the HFT record, changing the focus reading without becoming an unqualified lexical gloss.",
+          "resulting_reading": "The gift exits the whole human credit system: it neither settles a beneficiary's debt nor purchases a patron's face, leaving only pursuit of the highest Lord as its live claim.",
+          "boundary": "The exclusive purpose appears after human credit, patronage, and repayable favor have been removed."
+        },
+        {
+          "branch_ref": "root_000017/B002",
+          "facet_id": "SOURCE_IMAGE",
+          "branch_gloss": "negative exhaustive anyone",
+          "facet_statement": "negative exhaustive anyone",
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "92:19:2"
+          ],
+          "trigger_refs": [
+            "92:20:2:1",
+            "92:20:3:1",
+            "92:20:5:2",
+            "92:19:3",
+            "92:19:5",
+            "92:19:6",
+            "92:19",
+            "conn_ev_f80106c5e7dd1e8ff524"
+          ],
+          "focus_return_refs": [
+            "92:20:2:1",
+            "92:20:3:1",
+            "92:20:5:2"
+          ],
+          "carrier": "The HFT trace assigns Exhaustive scope under negation removes every possible human claimant from the ledger. to root_000017/B002.",
+          "independent_trigger": "The independent trigger is the supplied contact at 92:19:2 together with the other trace occurrences.",
+          "activation": "The attributed carrier and independent trigger meet at the coordinates named by the HFT record, changing the focus reading without becoming an unqualified lexical gloss.",
+          "resulting_reading": "The gift exits the whole human credit system: it neither settles a beneficiary's debt nor purchases a patron's face, leaving only pursuit of the highest Lord as its live claim.",
+          "boundary": "The exclusive purpose appears after human credit, patronage, and repayable favor have been removed."
+        },
+        {
+          "branch_ref": "root_001052/B004",
+          "facet_id": "SOURCE_IMAGE",
+          "branch_gloss": "proximity and presence at something",
+          "facet_statement": "proximity and presence at something",
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "92:19:3"
+          ],
+          "trigger_refs": [
+            "92:20:2:1",
+            "92:20:3:1",
+            "92:20:5:2",
+            "92:19:2",
+            "92:19:5",
+            "92:19:6",
+            "92:19",
+            "conn_ev_f80106c5e7dd1e8ff524"
+          ],
+          "focus_return_refs": [
+            "92:20:2:1",
+            "92:20:3:1",
+            "92:20:5:2"
+          ],
+          "carrier": "The HFT trace assigns Nearness and presence locate the denied claim in the seeker's immediate social relation. to root_001052/B004.",
+          "independent_trigger": "The independent trigger is the supplied contact at 92:19:3 together with the other trace occurrences.",
+          "activation": "The attributed carrier and independent trigger meet at the coordinates named by the HFT record, changing the focus reading without becoming an unqualified lexical gloss.",
+          "resulting_reading": "The gift exits the whole human credit system: it neither settles a beneficiary's debt nor purchases a patron's face, leaving only pursuit of the highest Lord as its live claim.",
+          "boundary": "The exclusive purpose appears after human credit, patronage, and repayable favor have been removed."
+        },
+        {
+          "branch_ref": "root_001525/B001",
+          "facet_id": "SOURCE_IMAGE",
+          "branch_gloss": "pleasant well-being and bestowed favor",
+          "facet_statement": "pleasant well-being and bestowed favor",
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "92:19:5"
+          ],
+          "trigger_refs": [
+            "92:20:2:1",
+            "92:20:3:1",
+            "92:20:5:2",
+            "92:19:2",
+            "92:19:3",
+            "92:19:6",
+            "92:19",
+            "conn_ev_f80106c5e7dd1e8ff524"
+          ],
+          "focus_return_refs": [
+            "92:20:2:1",
+            "92:20:3:1",
+            "92:20:5:2"
+          ],
+          "carrier": "The HFT trace assigns Favor and good condition provide the benefit that could have created reciprocal obligation. to root_001525/B001.",
+          "independent_trigger": "The independent trigger is the supplied contact at 92:19:5 together with the other trace occurrences.",
+          "activation": "The attributed carrier and independent trigger meet at the coordinates named by the HFT record, changing the focus reading without becoming an unqualified lexical gloss.",
+          "resulting_reading": "The gift exits the whole human credit system: it neither settles a beneficiary's debt nor purchases a patron's face, leaving only pursuit of the highest Lord as its live claim.",
+          "boundary": "The exclusive purpose appears after human credit, patronage, and repayable favor have been removed."
+        },
+        {
+          "branch_ref": "root_000244/B001",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "92:19:6"
+          ],
+          "trigger_refs": [
+            "92:20:2:1",
+            "92:20:3:1",
+            "92:20:5:2",
+            "92:19:2",
+            "92:19:3",
+            "92:19:5",
+            "92:19",
+            "conn_ev_f80106c5e7dd1e8ff524"
+          ],
+          "focus_return_refs": [
+            "92:20:2:1",
+            "92:20:3:1",
+            "92:20:5:2"
+          ],
+          "carrier": "The HFT trace assigns Matching an act with its recompense supplies the general exchange mechanism that the negation cancels. to root_000244/B001.",
+          "independent_trigger": "The independent trigger is the supplied contact at 92:19:6 together with the other trace occurrences.",
+          "activation": "The attributed carrier and independent trigger meet at the coordinates named by the HFT record, changing the focus reading without becoming an unqualified lexical gloss.",
+          "resulting_reading": "The gift exits the whole human credit system: it neither settles a beneficiary's debt nor purchases a patron's face, leaving only pursuit of the highest Lord as its live claim.",
+          "boundary": "The exclusive purpose appears after human credit, patronage, and repayable favor have been removed."
+        },
+        {
+          "branch_ref": "root_000244/B003",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "92:19:6"
+          ],
+          "trigger_refs": [
+            "92:20:2:1",
+            "92:20:3:1",
+            "92:20:5:2",
+            "92:19:2",
+            "92:19:3",
+            "92:19:5",
+            "92:19",
+            "conn_ev_f80106c5e7dd1e8ff524"
+          ],
+          "focus_return_refs": [
+            "92:20:2:1",
+            "92:20:3:1",
+            "92:20:5:2"
+          ],
+          "carrier": "The HFT trace assigns Collecting and satisfying a debt sharpens recompense into a ledger of outstanding claims. to root_000244/B003.",
+          "independent_trigger": "The independent trigger is the supplied contact at 92:19:6 together with the other trace occurrences.",
+          "activation": "The attributed carrier and independent trigger meet at the coordinates named by the HFT record, changing the focus reading without becoming an unqualified lexical gloss.",
+          "resulting_reading": "The gift exits the whole human credit system: it neither settles a beneficiary's debt nor purchases a patron's face, leaving only pursuit of the highest Lord as its live claim.",
+          "boundary": "The exclusive purpose appears after human credit, patronage, and repayable favor have been removed."
+        }
+      ],
+      "connection_refs": [
+        "conn_2999478c4349ae056fc5"
+      ],
+      "context_refs": [
+        "92:19"
+      ],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "macro:hft:D9_desire_arrives_as_contentment",
+      "origin_candidate_id": "cand_0d84c1df07e2e9afb347",
+      "represented_candidate_ids": [
+        "cand_0d84c1df07e2e9afb347"
+      ],
+      "title": "Pursuit arrives as contentment",
+      "claim": "The pursuit has a non-possessive arrival: the seeker comes to رضا, a state in which desire rests because its orientation has become sufficient.",
+      "mechanism": "The focus is grammatically open pursuit; the following verse supplies satisfaction and acceptance. The sequence lets رضا answer ابتغاء without turning the sought face into a commodity: desire reaches repose through alignment rather than acquisition.",
+      "reader_payoff": "The open seeking act receives a non-material endpoint in satisfaction and acceptance.",
+      "containment": "The open seeking act receives a non-material endpoint in satisfaction and acceptance. The packet supplies pursuit followed by future satisfaction; I infer that رضا is the experiential arrival of the prior orientation. A live alternative is that satisfaction concerns a separate reward not specified in the packet.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": [
+          "legacy_unbound"
+        ],
+        "reason": "The exact HFT traces return to the supplied focus surface, while legacy_unbound identity limits the result to attributed contextual evidence."
+      },
+      "support_ids": [
+        "sup_dbabc0ddcd920981f785"
+      ],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000138/B001",
+          "facet_id": "F001",
+          "branch_gloss": "bir şeyi arayıp istemek; başkası için aramak veya arayışına yardım etmek",
+          "facet_statement": "Bir şeyi, ihtiyacı veya amacı istemek, aramak ve ona yönelmek.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "92:20:2:1"
+          ],
+          "trigger_refs": [
+            "92:20:3:1",
+            "92:21:2",
+            "92:21",
+            "conn_ev_d863fe7533caee1f78a0"
+          ],
+          "focus_return_refs": [
+            "92:20:2:1",
+            "92:20:3:1"
+          ],
+          "carrier": "The HFT trace assigns Seeking and pursuit supply an open desiderative motion awaiting resolution. to root_000138/B001.",
+          "independent_trigger": "The independent trigger is the supplied contact at 92:20:2 together with the other trace occurrences.",
+          "activation": "The attributed carrier and independent trigger meet at the coordinates named by the HFT record, changing the focus reading without becoming an unqualified lexical gloss.",
+          "resulting_reading": "The pursuit has a non-possessive arrival: the seeker comes to رضا, a state in which desire rests because its orientation has become sufficient.",
+          "boundary": "The open seeking act receives a non-material endpoint in satisfaction and acceptance."
+        },
+        {
+          "branch_ref": "root_001630/B002",
+          "facet_id": "F001",
+          "branch_gloss": "yön ve hedef; o yöne sevk etme veya yolu belli etme",
+          "facet_statement": "Dönülen veya gidilen yönü, tarafı ve hedefi belirtir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "92:20:3:1"
+          ],
+          "trigger_refs": [
+            "92:20:2:1",
+            "92:21:2",
+            "92:21",
+            "conn_ev_d863fe7533caee1f78a0"
+          ],
+          "focus_return_refs": [
+            "92:20:2:1",
+            "92:20:3:1"
+          ],
+          "carrier": "The HFT trace assigns Orientation makes resolution a matter of arriving in right alignment rather than possessing an object. to root_001630/B002.",
+          "independent_trigger": "The independent trigger is the supplied contact at 92:20:3 together with the other trace occurrences.",
+          "activation": "The attributed carrier and independent trigger meet at the coordinates named by the HFT record, changing the focus reading without becoming an unqualified lexical gloss.",
+          "resulting_reading": "The pursuit has a non-possessive arrival: the seeker comes to رضا, a state in which desire rests because its orientation has become sufficient.",
+          "boundary": "The open seeking act receives a non-material endpoint in satisfaction and acceptance."
+        },
+        {
+          "branch_ref": "root_000569/B001",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "92:21:2"
+          ],
+          "trigger_refs": [
+            "92:20:2:1",
+            "92:20:3:1",
+            "92:21",
+            "conn_ev_d863fe7533caee1f78a0"
+          ],
+          "focus_return_refs": [
+            "92:20:2:1",
+            "92:20:3:1"
+          ],
+          "carrier": "The HFT trace assigns Satisfaction as the opposite of displeasure supplies repose and acceptance at the end of pursuit. to root_000569/B001.",
+          "independent_trigger": "The independent trigger is the supplied contact at 92:21:2 together with the other trace occurrences.",
+          "activation": "The attributed carrier and independent trigger meet at the coordinates named by the HFT record, changing the focus reading without becoming an unqualified lexical gloss.",
+          "resulting_reading": "The pursuit has a non-possessive arrival: the seeker comes to رضا, a state in which desire rests because its orientation has become sufficient.",
+          "boundary": "The open seeking act receives a non-material endpoint in satisfaction and acceptance."
+        }
+      ],
+      "connection_refs": [
+        "conn_6f6a88dd186845137003"
+      ],
+      "context_refs": [
+        "92:21"
+      ],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "macro:hft:O1_anti_surplus_increase",
+      "origin_candidate_id": "cand_d104a66e778f00f00654",
+      "represented_candidate_ids": [
+        "cand_d104a66e778f00f00654"
+      ],
+      "title": "Increase without extraction",
+      "claim": "The giver also refuses to make another person finance his increase: wealth is released from debt-producing surplus and redirected toward growth sought from the Lord alone.",
+      "reader_payoff": "The gift can be distinguished from making another person finance the giver's increase.",
+      "containment": "This is surprising because the surplus or usury image enters through the non-dominant ر ب و target mapped from focus ر ب ب, not through the ordinary lordship branch. It remains anchored by that explicit packet mapping and by adjacent wealth, growth, and debt-repayment cues. Downstream prose should present it only as a split-root anti-ledger activation, never as a lexical gloss of رب.",
+      "epistemic": {
+        "status": "exploratory",
+        "source_trust": [
+          "legacy_unbound"
+        ],
+        "reason": "The exact HFT traces return to the supplied focus surface, while legacy_unbound identity limits the result to attributed contextual evidence."
+      },
+      "support_ids": [
+        "sup_841ddea7c2bbe2c3d9f9"
+      ],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000537/B003",
+          "facet_id": "F001",
+          "branch_gloss": "belirli işlem biçimleriyle sınırlı anapara fazlalığı",
+          "facet_statement": "İşlemde anaparanın üstüne bir fazlalık eklenir.",
+          "application_mode": "intrinsic_cross_root",
+          "carrier_refs": [
+            "92:20:4:1"
+          ],
+          "trigger_refs": [
+            "92:20:2:1",
+            "92:18:3",
+            "92:18:4",
+            "92:19:6",
+            "92:18",
+            "92:19",
+            "conn_ev_dfb9c5507af32cad1982",
+            "conn_ev_f80106c5e7dd1e8ff524"
+          ],
+          "focus_return_refs": [
+            "92:20:4:1",
+            "92:20:2:1"
+          ],
+          "carrier": "The HFT trace assigns Usurious surplus activates the possibility of increase extracted through an exchange, which the surrounding gift can reverse. to root_000537/B003.",
+          "independent_trigger": "The independent trigger is the supplied contact at 92:20:4 together with the other trace occurrences.",
+          "activation": "The attributed carrier and independent trigger meet at the coordinates named by the HFT record, changing the focus reading without becoming an unqualified lexical gloss.",
+          "resulting_reading": "The giver also refuses to make another person finance his increase: wealth is released from debt-producing surplus and redirected toward growth sought from the Lord alone.",
+          "boundary": "The gift can be distinguished from making another person finance the giver's increase."
+        },
+        {
+          "branch_ref": "root_000138/B001",
+          "facet_id": "F001",
+          "branch_gloss": "bir şeyi arayıp istemek; başkası için aramak veya arayışına yardım etmek",
+          "facet_statement": "Bir şeyi, ihtiyacı veya amacı istemek, aramak ve ona yönelmek.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "92:20:2:1"
+          ],
+          "trigger_refs": [
+            "92:20:4:1",
+            "92:18:3",
+            "92:18:4",
+            "92:19:6",
+            "92:18",
+            "92:19",
+            "conn_ev_dfb9c5507af32cad1982",
+            "conn_ev_f80106c5e7dd1e8ff524"
+          ],
+          "focus_return_refs": [
+            "92:20:4:1",
+            "92:20:2:1"
+          ],
+          "carrier": "The HFT trace assigns Seeking redirects the desired increase away from extraction from another person. to root_000138/B001.",
+          "independent_trigger": "The independent trigger is the supplied contact at 92:20:2 together with the other trace occurrences.",
+          "activation": "The attributed carrier and independent trigger meet at the coordinates named by the HFT record, changing the focus reading without becoming an unqualified lexical gloss.",
+          "resulting_reading": "The giver also refuses to make another person finance his increase: wealth is released from debt-producing surplus and redirected toward growth sought from the Lord alone.",
+          "boundary": "The gift can be distinguished from making another person finance the giver's increase."
+        },
+        {
+          "branch_ref": "root_001457/B001",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "92:18:3"
+          ],
+          "trigger_refs": [
+            "92:20:4:1",
+            "92:20:2:1",
+            "92:18:4",
+            "92:19:6",
+            "92:18",
+            "92:19",
+            "conn_ev_dfb9c5507af32cad1982",
+            "conn_ev_f80106c5e7dd1e8ff524"
+          ],
+          "focus_return_refs": [
+            "92:20:4:1",
+            "92:20:2:1"
+          ],
+          "carrier": "The HFT trace assigns Accumulated wealth supplies the capital whose ordinary logic would be preservation or increase. to root_001457/B001.",
+          "independent_trigger": "The independent trigger is the supplied contact at 92:18:3 together with the other trace occurrences.",
+          "activation": "The attributed carrier and independent trigger meet at the coordinates named by the HFT record, changing the focus reading without becoming an unqualified lexical gloss.",
+          "resulting_reading": "The giver also refuses to make another person finance his increase: wealth is released from debt-producing surplus and redirected toward growth sought from the Lord alone.",
+          "boundary": "The gift can be distinguished from making another person finance the giver's increase."
+        },
+        {
+          "branch_ref": "root_000637/B001",
+          "facet_id": "SOURCE_IMAGE",
+          "branch_gloss": "growth and increase",
+          "facet_statement": "growth and increase",
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "92:18:4"
+          ],
+          "trigger_refs": [
+            "92:20:4:1",
+            "92:20:2:1",
+            "92:18:3",
+            "92:19:6",
+            "92:18",
+            "92:19",
+            "conn_ev_dfb9c5507af32cad1982",
+            "conn_ev_f80106c5e7dd1e8ff524"
+          ],
+          "focus_return_refs": [
+            "92:20:4:1",
+            "92:20:2:1"
+          ],
+          "carrier": "The HFT trace assigns Growth and increase provide a non-extractive alternative form of gain. to root_000637/B001.",
+          "independent_trigger": "The independent trigger is the supplied contact at 92:18:4 together with the other trace occurrences.",
+          "activation": "The attributed carrier and independent trigger meet at the coordinates named by the HFT record, changing the focus reading without becoming an unqualified lexical gloss.",
+          "resulting_reading": "The giver also refuses to make another person finance his increase: wealth is released from debt-producing surplus and redirected toward growth sought from the Lord alone.",
+          "boundary": "The gift can be distinguished from making another person finance the giver's increase."
+        },
+        {
+          "branch_ref": "root_000244/B003",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "92:19:6"
+          ],
+          "trigger_refs": [
+            "92:20:4:1",
+            "92:20:2:1",
+            "92:18:3",
+            "92:18:4",
+            "92:18",
+            "92:19",
+            "conn_ev_dfb9c5507af32cad1982",
+            "conn_ev_f80106c5e7dd1e8ff524"
+          ],
+          "focus_return_refs": [
+            "92:20:4:1",
+            "92:20:2:1"
+          ],
+          "carrier": "The HFT trace assigns Debt collection supplies the financial-social mechanism explicitly denied by the preceding clause. to root_000244/B003.",
+          "independent_trigger": "The independent trigger is the supplied contact at 92:19:6 together with the other trace occurrences.",
+          "activation": "The attributed carrier and independent trigger meet at the coordinates named by the HFT record, changing the focus reading without becoming an unqualified lexical gloss.",
+          "resulting_reading": "The giver also refuses to make another person finance his increase: wealth is released from debt-producing surplus and redirected toward growth sought from the Lord alone.",
+          "boundary": "The gift can be distinguished from making another person finance the giver's increase."
+        }
+      ],
+      "connection_refs": [
+        "conn_e825e87912f0bd1907eb",
+        "conn_2999478c4349ae056fc5"
+      ],
+      "context_refs": [
+        "92:18",
+        "92:19"
+      ],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "macro:hft:O2_irrigating_gift",
+      "origin_candidate_id": "cand_d48331dd93cfd5c8aa25",
+      "represented_candidate_ids": [
+        "cand_d48331dd93cfd5c8aa25"
+      ],
+      "title": "The gift as an opening channel",
+      "claim": "Giving can be imagined as opening a channel: possession ceases to dam the resource, and directed release irrigates growth under the Lord's sustaining care.",
+      "reader_payoff": "Giving becomes imaginable as directed release that irrigates growth.",
+      "containment": "This is a cross-domain hydraulic reading: downpour, cloud, watercourse, and growth are branch images rather than the direct senses demanded by the forms in 92:18-20. It remains anchored in ابتغاء, ربه, وجه as direction, and the contextual giving-growth chain. Render it as a material analogy for resource flow, not as a translation.",
+      "epistemic": {
+        "status": "exploratory",
+        "source_trust": [
+          "legacy_unbound"
+        ],
+        "reason": "The exact HFT traces return to the supplied focus surface, while legacy_unbound identity limits the result to attributed contextual evidence."
+      },
+      "support_ids": [
+        "sup_5bb9c6b37dd6bcef7d48"
+      ],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000138/B006",
+          "facet_id": "F001",
+          "branch_gloss": "göğün şiddetli, bol ve gereğinden fazla yağdırması",
+          "facet_statement": "Göğün şiddetli ve bol yağmur yağdırması, yağışın büyük bölümünün gelmesi.",
+          "application_mode": "analogical",
+          "carrier_refs": [
+            "92:20:2:1"
+          ],
+          "trigger_refs": [
+            "92:20:3:1",
+            "92:20:4:1",
+            "92:18:2",
+            "92:18:4",
+            "92:18",
+            "conn_ev_dfb9c5507af32cad1982"
+          ],
+          "focus_return_refs": [
+            "92:20:2:1",
+            "92:20:3:1",
+            "92:20:4:1"
+          ],
+          "carrier": "The HFT trace assigns The main downpour image supplies abundant release rather than measured reciprocal payment. to root_000138/B006.",
+          "independent_trigger": "The independent trigger is the supplied contact at 92:20:2 together with the other trace occurrences.",
+          "activation": "The attributed carrier and independent trigger meet at the coordinates named by the HFT record, changing the focus reading without becoming an unqualified lexical gloss.",
+          "resulting_reading": "Giving can be imagined as opening a channel: possession ceases to dam the resource, and directed release irrigates growth under the Lord's sustaining care.",
+          "boundary": "Giving becomes imaginable as directed release that irrigates growth."
+        },
+        {
+          "branch_ref": "root_001630/B002",
+          "facet_id": "F001",
+          "branch_gloss": "yön ve hedef; o yöne sevk etme veya yolu belli etme",
+          "facet_statement": "Dönülen veya gidilen yönü, tarafı ve hedefi belirtir.",
+          "application_mode": "analogical",
+          "carrier_refs": [
+            "92:20:3:1"
+          ],
+          "trigger_refs": [
+            "92:20:2:1",
+            "92:20:4:1",
+            "92:18:2",
+            "92:18:4",
+            "92:18",
+            "conn_ev_dfb9c5507af32cad1982"
+          ],
+          "focus_return_refs": [
+            "92:20:2:1",
+            "92:20:3:1",
+            "92:20:4:1"
+          ],
+          "carrier": "The HFT trace assigns Orientation and direction keep the imagined flow attached to the focus phrase's destination. to root_001630/B002.",
+          "independent_trigger": "The independent trigger is the supplied contact at 92:20:3 together with the other trace occurrences.",
+          "activation": "The attributed carrier and independent trigger meet at the coordinates named by the HFT record, changing the focus reading without becoming an unqualified lexical gloss.",
+          "resulting_reading": "Giving can be imagined as opening a channel: possession ceases to dam the resource, and directed release irrigates growth under the Lord's sustaining care.",
+          "boundary": "Giving becomes imaginable as directed release that irrigates growth."
+        },
+        {
+          "branch_ref": "root_000532/B008",
+          "facet_id": "F001",
+          "branch_gloss": "katmanlı asılı bulut kümesi",
+          "facet_statement": "Bulut parçaları üst üste binmiş veya aşağıda asılı duran belirgin bir küme oluşturur.",
+          "application_mode": "analogical",
+          "carrier_refs": [
+            "92:20:4:1"
+          ],
+          "trigger_refs": [
+            "92:20:2:1",
+            "92:20:3:1",
+            "92:18:2",
+            "92:18:4",
+            "92:18",
+            "conn_ev_dfb9c5507af32cad1982"
+          ],
+          "focus_return_refs": [
+            "92:20:2:1",
+            "92:20:3:1",
+            "92:20:4:1"
+          ],
+          "carrier": "The HFT trace assigns A persistent low cloud that nurtures plants supplies the sustaining source of the ecological mechanism. to root_000532/B008.",
+          "independent_trigger": "The independent trigger is the supplied contact at 92:20:4 together with the other trace occurrences.",
+          "activation": "The attributed carrier and independent trigger meet at the coordinates named by the HFT record, changing the focus reading without becoming an unqualified lexical gloss.",
+          "resulting_reading": "Giving can be imagined as opening a channel: possession ceases to dam the resource, and directed release irrigates growth under the Lord's sustaining care.",
+          "boundary": "Giving becomes imaginable as directed release that irrigates growth."
+        },
+        {
+          "branch_ref": "root_000009/B004",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "92:18:2"
+          ],
+          "trigger_refs": [
+            "92:20:2:1",
+            "92:20:3:1",
+            "92:20:4:1",
+            "92:18:4",
+            "92:18",
+            "conn_ev_dfb9c5507af32cad1982"
+          ],
+          "focus_return_refs": [
+            "92:20:2:1",
+            "92:20:3:1",
+            "92:20:4:1"
+          ],
+          "carrier": "The HFT trace assigns A watercourse and the opening of its channel recast giving as enabling flow. to root_000009/B004.",
+          "independent_trigger": "The independent trigger is the supplied contact at 92:18:2 together with the other trace occurrences.",
+          "activation": "The attributed carrier and independent trigger meet at the coordinates named by the HFT record, changing the focus reading without becoming an unqualified lexical gloss.",
+          "resulting_reading": "Giving can be imagined as opening a channel: possession ceases to dam the resource, and directed release irrigates growth under the Lord's sustaining care.",
+          "boundary": "Giving becomes imaginable as directed release that irrigates growth."
+        },
+        {
+          "branch_ref": "root_000637/B001",
+          "facet_id": "SOURCE_IMAGE",
+          "branch_gloss": "growth and increase",
+          "facet_statement": "growth and increase",
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "92:18:4"
+          ],
+          "trigger_refs": [
+            "92:20:2:1",
+            "92:20:3:1",
+            "92:20:4:1",
+            "92:18:2",
+            "92:18",
+            "conn_ev_dfb9c5507af32cad1982"
+          ],
+          "focus_return_refs": [
+            "92:20:2:1",
+            "92:20:3:1",
+            "92:20:4:1"
+          ],
+          "carrier": "The HFT trace assigns Growth and increase supply the irrigated result of the released flow. to root_000637/B001.",
+          "independent_trigger": "The independent trigger is the supplied contact at 92:18:4 together with the other trace occurrences.",
+          "activation": "The attributed carrier and independent trigger meet at the coordinates named by the HFT record, changing the focus reading without becoming an unqualified lexical gloss.",
+          "resulting_reading": "Giving can be imagined as opening a channel: possession ceases to dam the resource, and directed release irrigates growth under the Lord's sustaining care.",
+          "boundary": "Giving becomes imaginable as directed release that irrigates growth."
+        }
+      ],
+      "connection_refs": [
+        "conn_e825e87912f0bd1907eb"
+      ],
+      "context_refs": [
+        "92:18"
+      ],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "macro:hft:O3_deed_as_advance_party",
+      "origin_candidate_id": "cand_1e3830c240df66a3bedf",
+      "represented_candidate_ids": [
+        "cand_1e3830c240df66a3bedf"
+      ],
+      "title": "The deed sent ahead",
+      "claim": "The gift becomes an advance party of the self, sent ahead toward the Lord's face and testing the direction in which the giver's larger life will follow.",
+      "reader_payoff": "The gift gains an anticipatory shape: an act sent toward the face before the giver's larger life arrives.",
+      "containment": "The scouting image is form-distant from ابتغاء and therefore cannot control the reading. It remains visibly anchored in the focus root and gains coherence from giving, front-facing, and contextual precedence. Downstream prose should mark it as an anticipatory image: the deed sent ahead, not a claim that ابتغاء literally means a scout here.",
+      "epistemic": {
+        "status": "exploratory",
+        "source_trust": [
+          "legacy_unbound"
+        ],
+        "reason": "The exact HFT traces return to the supplied focus surface, while legacy_unbound identity limits the result to attributed contextual evidence."
+      },
+      "support_ids": [
+        "sup_6f3c62eeb67b2a7f2289"
+      ],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000138/B008",
+          "facet_id": "F001",
+          "branch_gloss": "ordudan önce ilerleyen öncüler",
+          "facet_statement": "Ordunun gelişinden önce ilerleyen öncü kişiler veya öncü topluluk.",
+          "application_mode": "analogical",
+          "carrier_refs": [
+            "92:20:2:1"
+          ],
+          "trigger_refs": [
+            "92:20:3:1",
+            "92:18:2",
+            "92:13:4",
+            "92:13",
+            "92:18",
+            "conn_ev_8c31c08c2272b1cfdd89",
+            "conn_ev_dfb9c5507af32cad1982"
+          ],
+          "focus_return_refs": [
+            "92:20:2:1",
+            "92:20:3:1"
+          ],
+          "carrier": "The HFT trace assigns Scouting advance parties supply an anticipatory movement sent before a larger arrival. to root_000138/B008.",
+          "independent_trigger": "The independent trigger is the supplied contact at 92:20:2 together with the other trace occurrences.",
+          "activation": "The attributed carrier and independent trigger meet at the coordinates named by the HFT record, changing the focus reading without becoming an unqualified lexical gloss.",
+          "resulting_reading": "The gift becomes an advance party of the self, sent ahead toward the Lord's face and testing the direction in which the giver's larger life will follow.",
+          "boundary": "The gift gains an anticipatory shape: an act sent toward the face before the giver's larger life arrives."
+        },
+        {
+          "branch_ref": "root_001630/B001",
+          "facet_id": "F001",
+          "branch_gloss": "yüz ve bir şeyin öne bakan yanı",
+          "facet_statement": "Canlılarda yüz denen organı ve yüz bölgesini belirtir.",
+          "application_mode": "analogical",
+          "carrier_refs": [
+            "92:20:3:1"
+          ],
+          "trigger_refs": [
+            "92:20:2:1",
+            "92:18:2",
+            "92:13:4",
+            "92:13",
+            "92:18",
+            "conn_ev_8c31c08c2272b1cfdd89",
+            "conn_ev_dfb9c5507af32cad1982"
+          ],
+          "focus_return_refs": [
+            "92:20:2:1",
+            "92:20:3:1"
+          ],
+          "carrier": "The HFT trace assigns Face and front provide the forward edge or meeting point toward which the advance movement travels. to root_001630/B001.",
+          "independent_trigger": "The independent trigger is the supplied contact at 92:20:3 together with the other trace occurrences.",
+          "activation": "The attributed carrier and independent trigger meet at the coordinates named by the HFT record, changing the focus reading without becoming an unqualified lexical gloss.",
+          "resulting_reading": "The gift becomes an advance party of the self, sent ahead toward the Lord's face and testing the direction in which the giver's larger life will follow.",
+          "boundary": "The gift gains an anticipatory shape: an act sent toward the face before the giver's larger life arrives."
+        },
+        {
+          "branch_ref": "root_000009/B002",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "92:18:2"
+          ],
+          "trigger_refs": [
+            "92:20:2:1",
+            "92:20:3:1",
+            "92:13:4",
+            "92:13",
+            "92:18",
+            "conn_ev_8c31c08c2272b1cfdd89",
+            "conn_ev_dfb9c5507af32cad1982"
+          ],
+          "focus_return_refs": [
+            "92:20:2:1",
+            "92:20:3:1"
+          ],
+          "carrier": "The HFT trace assigns Giving supplies the deed that can be imaginatively dispatched ahead of the giver. to root_000009/B002.",
+          "independent_trigger": "The independent trigger is the supplied contact at 92:18:2 together with the other trace occurrences.",
+          "activation": "The attributed carrier and independent trigger meet at the coordinates named by the HFT record, changing the focus reading without becoming an unqualified lexical gloss.",
+          "resulting_reading": "The gift becomes an advance party of the self, sent ahead toward the Lord's face and testing the direction in which the giver's larger life will follow.",
+          "boundary": "The gift gains an anticipatory shape: an act sent toward the face before the giver's larger life arrives."
+        },
+        {
+          "branch_ref": "root_000067/B001",
+          "facet_id": "SOURCE_IMAGE",
+          "branch_gloss": "beginning and precedence",
+          "facet_statement": "beginning and precedence",
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "92:13:4"
+          ],
+          "trigger_refs": [
+            "92:20:2:1",
+            "92:20:3:1",
+            "92:18:2",
+            "92:13",
+            "92:18",
+            "conn_ev_8c31c08c2272b1cfdd89",
+            "conn_ev_dfb9c5507af32cad1982"
+          ],
+          "focus_return_refs": [
+            "92:20:2:1",
+            "92:20:3:1"
+          ],
+          "carrier": "The HFT trace assigns Beginning and precedence reinforce the temporal logic of something going first. to root_000067/B001.",
+          "independent_trigger": "The independent trigger is the supplied contact at 92:13:4 together with the other trace occurrences.",
+          "activation": "The attributed carrier and independent trigger meet at the coordinates named by the HFT record, changing the focus reading without becoming an unqualified lexical gloss.",
+          "resulting_reading": "The gift becomes an advance party of the self, sent ahead toward the Lord's face and testing the direction in which the giver's larger life will follow.",
+          "boundary": "The gift gains an anticipatory shape: an act sent toward the face before the giver's larger life arrives."
+        }
+      ],
+      "connection_refs": [
+        "conn_902ae3a00bb47da53802",
+        "conn_e825e87912f0bd1907eb"
+      ],
+      "context_refs": [
+        "92:13",
+        "92:18"
+      ],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "macro:hft:O4_prayer_fire_contact_bifurcation",
+      "origin_candidate_id": "cand_d02b356adf6ba10b3655",
+      "represented_candidate_ids": [
+        "cand_d02b356adf6ba10b3655"
+      ],
+      "title": "Two modes of contact",
+      "claim": "The branch field suggests two rival contacts: active facing can become worshipful attachment to the Lord's face or culminate in involuntary encounter with consuming heat.",
+      "reader_payoff": "The fire contrast can be read as a rival contact mode to worshipful attachment.",
+      "containment": "This activation is surprising because the 92:15 form is directly situated in fire-contact, while prayer is a different branch of the same mapped root. It remains anchored by the packet's co-present branches and by the focus's pursuit and facing. Render it only as a bifurcation of sustained contact—worshipful attachment versus consuming encounter—not as an alternative parsing of 92:15.",
+      "epistemic": {
+        "status": "exploratory",
+        "source_trust": [
+          "legacy_unbound"
+        ],
+        "reason": "The exact HFT traces return to the supplied focus surface, while legacy_unbound identity limits the result to attributed contextual evidence."
+      },
+      "support_ids": [
+        "sup_12c8aa9d25b759d959ef"
+      ],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000138/B001",
+          "facet_id": "F001",
+          "branch_gloss": "bir şeyi arayıp istemek; başkası için aramak veya arayışına yardım etmek",
+          "facet_statement": "Bir şeyi, ihtiyacı veya amacı istemek, aramak ve ona yönelmek.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "92:20:2:1"
+          ],
+          "trigger_refs": [
+            "92:20:3:1",
+            "92:15:2",
+            "92:15",
+            "conn_ev_6ed87e952bd251895a45"
+          ],
+          "focus_return_refs": [
+            "92:20:2:1",
+            "92:20:3:1"
+          ],
+          "carrier": "The HFT trace assigns Seeking supplies the chosen approach that determines what kind of contact is pursued. to root_000138/B001.",
+          "independent_trigger": "The independent trigger is the supplied contact at 92:20:2 together with the other trace occurrences.",
+          "activation": "The attributed carrier and independent trigger meet at the coordinates named by the HFT record, changing the focus reading without becoming an unqualified lexical gloss.",
+          "resulting_reading": "The branch field suggests two rival contacts: active facing can become worshipful attachment to the Lord's face or culminate in involuntary encounter with consuming heat.",
+          "boundary": "The fire contrast can be read as a rival contact mode to worshipful attachment."
+        },
+        {
+          "branch_ref": "root_001630/B003",
+          "facet_id": "F001",
+          "branch_gloss": "karşı karşıya gelme ve doğrudan yüzüne söyleme",
+          "facet_statement": "İki tarafın birbirinin karşısına gelmesini veya karşılıklı durmasını belirtir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "92:20:3:1"
+          ],
+          "trigger_refs": [
+            "92:20:2:1",
+            "92:15:2",
+            "92:15",
+            "conn_ev_6ed87e952bd251895a45"
+          ],
+          "focus_return_refs": [
+            "92:20:2:1",
+            "92:20:3:1"
+          ],
+          "carrier": "The HFT trace assigns Facing and encounter make contact, rather than abstract belief, the shared mechanism. to root_001630/B003.",
+          "independent_trigger": "The independent trigger is the supplied contact at 92:20:3 together with the other trace occurrences.",
+          "activation": "The attributed carrier and independent trigger meet at the coordinates named by the HFT record, changing the focus reading without becoming an unqualified lexical gloss.",
+          "resulting_reading": "The branch field suggests two rival contacts: active facing can become worshipful attachment to the Lord's face or culminate in involuntary encounter with consuming heat.",
+          "boundary": "The fire contrast can be read as a rival contact mode to worshipful attachment."
+        },
+        {
+          "branch_ref": "root_000880/B001",
+          "facet_id": "SOURCE_IMAGE",
+          "branch_gloss": "ritual prayer as binding worship",
+          "facet_statement": "ritual prayer as binding worship",
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "92:15:2"
+          ],
+          "trigger_refs": [
+            "92:20:2:1",
+            "92:20:3:1",
+            "92:15",
+            "conn_ev_6ed87e952bd251895a45"
+          ],
+          "focus_return_refs": [
+            "92:20:2:1",
+            "92:20:3:1"
+          ],
+          "carrier": "The HFT trace assigns Prayer as binding worship supplies one sustained mode of approach and attachment. to root_000880/B001.",
+          "independent_trigger": "The independent trigger is the supplied contact at 92:15:2 together with the other trace occurrences.",
+          "activation": "The attributed carrier and independent trigger meet at the coordinates named by the HFT record, changing the focus reading without becoming an unqualified lexical gloss.",
+          "resulting_reading": "The branch field suggests two rival contacts: active facing can become worshipful attachment to the Lord's face or culminate in involuntary encounter with consuming heat.",
+          "boundary": "The fire contrast can be read as a rival contact mode to worshipful attachment."
+        },
+        {
+          "branch_ref": "root_000880/B003",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "92:15:2"
+          ],
+          "trigger_refs": [
+            "92:20:2:1",
+            "92:20:3:1",
+            "92:15",
+            "conn_ev_6ed87e952bd251895a45"
+          ],
+          "focus_return_refs": [
+            "92:20:2:1",
+            "92:20:3:1"
+          ],
+          "carrier": "The HFT trace assigns Meeting fire and its heat supplies the destructive counter-mode of direct contact. to root_000880/B003.",
+          "independent_trigger": "The independent trigger is the supplied contact at 92:15:2 together with the other trace occurrences.",
+          "activation": "The attributed carrier and independent trigger meet at the coordinates named by the HFT record, changing the focus reading without becoming an unqualified lexical gloss.",
+          "resulting_reading": "The branch field suggests two rival contacts: active facing can become worshipful attachment to the Lord's face or culminate in involuntary encounter with consuming heat.",
+          "boundary": "The fire contrast can be read as a rival contact mode to worshipful attachment."
+        }
+      ],
+      "connection_refs": [
+        "conn_9edeeae7298cacde781f"
+      ],
+      "context_refs": [
+        "92:15"
+      ],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "macro:hft:O5_reciprocal_face_satisfaction",
+      "origin_candidate_id": "cand_05b816f951f20a219799",
+      "represented_candidate_ids": [
+        "cand_05b816f951f20a219799"
+      ],
+      "title": "Face-to-face consonance",
+      "claim": "As an exploratory resonance, the sought face-to-face relation may close in mutual consonance: pursuit is answered by a رضى that can be imagined as relational rather than solitary.",
+      "reader_payoff": "The sequence can close in relational consonance rather than solitary satisfaction.",
+      "containment": "Reciprocity is not encoded by the simple form يرضى alone; it is activated by the root inventory's mutual-satisfaction branch. The reading remains anchored in the focus's direct-facing construction and the immediate sequel. Downstream prose should qualify it as relational resonance, not assert that 92:21 grammatically names both parties.",
+      "epistemic": {
+        "status": "exploratory",
+        "source_trust": [
+          "legacy_unbound"
+        ],
+        "reason": "The exact HFT traces return to the supplied focus surface, while legacy_unbound identity limits the result to attributed contextual evidence."
+      },
+      "support_ids": [
+        "sup_3c623203df7b02bf6fc7"
+      ],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000138/B001",
+          "facet_id": "F001",
+          "branch_gloss": "bir şeyi arayıp istemek; başkası için aramak veya arayışına yardım etmek",
+          "facet_statement": "Bir şeyi, ihtiyacı veya amacı istemek, aramak ve ona yönelmek.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "92:20:2:1"
+          ],
+          "trigger_refs": [
+            "92:20:3:1",
+            "92:21:2",
+            "92:21",
+            "conn_ev_d863fe7533caee1f78a0"
+          ],
+          "focus_return_refs": [
+            "92:20:2:1",
+            "92:20:3:1"
+          ],
+          "carrier": "The HFT trace assigns Pursuit supplies one party's movement into the relation. to root_000138/B001.",
+          "independent_trigger": "The independent trigger is the supplied contact at 92:20:2 together with the other trace occurrences.",
+          "activation": "The attributed carrier and independent trigger meet at the coordinates named by the HFT record, changing the focus reading without becoming an unqualified lexical gloss.",
+          "resulting_reading": "As an exploratory resonance, the sought face-to-face relation may close in mutual consonance: pursuit is answered by a رضى that can be imagined as relational rather than solitary.",
+          "boundary": "The sequence can close in relational consonance rather than solitary satisfaction."
+        },
+        {
+          "branch_ref": "root_001630/B003",
+          "facet_id": "F001",
+          "branch_gloss": "karşı karşıya gelme ve doğrudan yüzüne söyleme",
+          "facet_statement": "İki tarafın birbirinin karşısına gelmesini veya karşılıklı durmasını belirtir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "92:20:3:1"
+          ],
+          "trigger_refs": [
+            "92:20:2:1",
+            "92:21:2",
+            "92:21",
+            "conn_ev_d863fe7533caee1f78a0"
+          ],
+          "focus_return_refs": [
+            "92:20:2:1",
+            "92:20:3:1"
+          ],
+          "carrier": "The HFT trace assigns Direct facing supplies the interpersonal geometry in which reciprocity can be imagined. to root_001630/B003.",
+          "independent_trigger": "The independent trigger is the supplied contact at 92:20:3 together with the other trace occurrences.",
+          "activation": "The attributed carrier and independent trigger meet at the coordinates named by the HFT record, changing the focus reading without becoming an unqualified lexical gloss.",
+          "resulting_reading": "As an exploratory resonance, the sought face-to-face relation may close in mutual consonance: pursuit is answered by a رضى that can be imagined as relational rather than solitary.",
+          "boundary": "The sequence can close in relational consonance rather than solitary satisfaction."
+        },
+        {
+          "branch_ref": "root_000569/B003",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "92:21:2"
+          ],
+          "trigger_refs": [
+            "92:20:2:1",
+            "92:20:3:1",
+            "92:21",
+            "conn_ev_d863fe7533caee1f78a0"
+          ],
+          "focus_return_refs": [
+            "92:20:2:1",
+            "92:20:3:1"
+          ],
+          "carrier": "The HFT trace assigns Mutual satisfaction and conciliation activate a two-sided closure rather than solitary contentment alone. to root_000569/B003.",
+          "independent_trigger": "The independent trigger is the supplied contact at 92:21:2 together with the other trace occurrences.",
+          "activation": "The attributed carrier and independent trigger meet at the coordinates named by the HFT record, changing the focus reading without becoming an unqualified lexical gloss.",
+          "resulting_reading": "As an exploratory resonance, the sought face-to-face relation may close in mutual consonance: pursuit is answered by a رضى that can be imagined as relational rather than solitary.",
+          "boundary": "The sequence can close in relational consonance rather than solitary satisfaction."
+        }
+      ],
+      "connection_refs": [
+        "conn_6f6a88dd186845137003"
+      ],
+      "context_refs": [
+        "92:21"
+      ],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "macro:uncandidate:host_basmala_nurture_frame",
+      "origin_candidate_id": null,
+      "represented_candidate_ids": [],
+      "title": "Host basmala nurture frame",
+      "claim": "The focus's lordship carrier can be heard within the host basmala's mercy frame as sustaining and completing care.",
+      "mechanism": "The rbb corrective-completion carrier returns through the focus word while the automatic basmala supplies mercy and tenderness at 92:0; macro continuity adds care without changing focus morphology.",
+      "reader_payoff": "The sought Lord's claim gains a sustaining-care dimension.",
+      "containment": "The host basmala is ordinary non-focus context and focus-ineligible; this is a continuity frame, not a second focus occurrence or a mercy gloss of ربّ.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": [
+          "trusted"
+        ],
+        "reason": "This is an independently inspected non-docket activation from the supplied focus branch and macro context."
+      },
+      "support_ids": [],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000532/B002",
+          "facet_id": "F001",
+          "branch_gloss": "adım adım yetiştirip tamamlama",
+          "facet_statement": "Süreç, gözetilen şeyi eksik durumdan tamamlanmış duruma doğru geliştirir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "92:20:4:1"
+          ],
+          "trigger_refs": [
+            "92:0:3",
+            "92:0:4"
+          ],
+          "focus_return_refs": [
+            "92:20:4:1"
+          ],
+          "carrier": "The focus carrier holds the adım adım yetiştirip tamamlama sense at 92:20:4:1.",
+          "independent_trigger": "The independent trigger is supplied by 92:0 and its concrete context occurrence.",
+          "activation": "The focus branch meets the separate macro trigger, producing the bounded contextual relation named by this finding.",
+          "resulting_reading": "The focus's lordship carrier can be heard within the host basmala's mercy frame as sustaining and completing care.",
+          "boundary": "The host basmala is ordinary non-focus context and focus-ineligible; this is a continuity frame, not a second focus occurrence or a mercy gloss of ربّ."
+        }
+      ],
+      "connection_refs": [],
+      "context_refs": [
+        "92:0"
+      ],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "macro:uncandidate:host_basmala_worship_orientation",
+      "origin_candidate_id": null,
+      "represented_candidate_ids": [],
+      "title": "Host basmala worship orientation",
+      "claim": "The focus face carrier admits a purpose-and-worship orientation when the host basmala's named deity supplies the independent destination trigger.",
+      "mechanism": "The focus branch defines aiming toward a goal and sincere worship attachment; the Allah carrier at 92:0 supplies the worship-facing context, so purpose becomes devotionally directed.",
+      "reader_payoff": "Directed worship can be distinguished from mere frontality.",
+      "containment": "This focus-branch option is not ritual prayer by itself; the basmala remains focus-ineligible and the retained spatial core is unchanged.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": [
+          "trusted"
+        ],
+        "reason": "This is an independently inspected non-docket activation from the supplied focus branch and macro context."
+      },
+      "support_ids": [],
+      "branch_activations": [
+        {
+          "branch_ref": "root_001630/B005",
+          "facet_id": "F001",
+          "branch_gloss": "amaç edinip yönelme; ibadette içtenlikle bağlanma",
+          "facet_statement": "Bir hedefi amaç edinip ona yönelmeyi belirtir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "92:20:3:1"
+          ],
+          "trigger_refs": [
+            "92:0:2"
+          ],
+          "focus_return_refs": [
+            "92:20:3:1"
+          ],
+          "carrier": "The focus carrier holds the amaç edinip yönelme; ibadette içtenlikle bağlanma sense at 92:20:3:1.",
+          "independent_trigger": "The independent trigger is supplied by 92:0 and its concrete context occurrence.",
+          "activation": "The focus branch meets the separate macro trigger, producing the bounded contextual relation named by this finding.",
+          "resulting_reading": "The focus face carrier admits a purpose-and-worship orientation when the host basmala's named deity supplies the independent destination trigger.",
+          "boundary": "This focus-branch option is not ritual prayer by itself; the basmala remains focus-ineligible and the retained spatial core is unchanged."
+        }
+      ],
+      "connection_refs": [],
+      "context_refs": [
+        "92:0"
+      ],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "macro:uncandidate:proper_course_under_guidance",
+      "origin_candidate_id": null,
+      "represented_candidate_ids": [],
+      "title": "Proper course under guidance",
+      "claim": "The focus face carrier can mark the right course of an act when the pericope's explicit guidance supplies the independent norm of approach.",
+      "mechanism": "The proper-course branch names intended direction and orderly action; guidance in 92:12 returns through the focus direction carrier and makes seeking a guided approach.",
+      "reader_payoff": "Purpose becomes rightly ordered direction.",
+      "containment": "This is a non-docket proper-course resonance, not a replacement for the retained direction branch and not a literal function-word or road parsing.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": [
+          "trusted"
+        ],
+        "reason": "This is an independently inspected non-docket activation from the supplied focus branch and macro context."
+      },
+      "support_ids": [],
+      "branch_activations": [
+        {
+          "branch_ref": "root_001630/B008",
+          "facet_id": "F001",
+          "branch_gloss": "sözün veya işin doğru yönü ve ona uygun düzenleme",
+          "facet_statement": "Sözün amaçlanan yönünü ve görüşün doğru biçimini belirtir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "92:20:3:1"
+          ],
+          "trigger_refs": [
+            "92:12",
+            "conn_ev_8fc19e58f9a6c764a83b"
+          ],
+          "focus_return_refs": [
+            "92:20:3:1"
+          ],
+          "carrier": "The focus carrier holds the sözün veya işin doğru yönü ve ona uygun düzenleme sense at 92:20:3:1.",
+          "independent_trigger": "The independent trigger is supplied by 92:12 and its concrete context occurrence.",
+          "activation": "The focus branch meets the separate macro trigger, producing the bounded contextual relation named by this finding.",
+          "resulting_reading": "The focus face carrier can mark the right course of an act when the pericope's explicit guidance supplies the independent norm of approach.",
+          "boundary": "This is a non-docket proper-course resonance, not a replacement for the retained direction branch and not a literal function-word or road parsing."
+        }
+      ],
+      "connection_refs": [
+        "conn_21bd22335d6b2db79616"
+      ],
+      "context_refs": [
+        "92:12"
+      ],
+      "semantic_obligation_refs": []
+    }
+  ],
+  "friction_notes": [
+    "The inline HFT packet is legacy_unbound: exact Arabic anchors and focus returns are preserved, while segmentation, branch labels, roles, and reader inferences remain attributed.",
+    "Narrowed channel candidates retain only branches with a concrete focus carrier and pericope trigger; omitted candidate branches, facets, and context anchors are accounted for in decisions.",
+    "The particle-and-scope candidate is rejected because its proposed function-word edge conflicts with the supplied noun and adjective analysis.",
+    "The automatic host basmala is ordinary macro context and remains focus-ineligible; its continuity readings are separately bounded.",
+    "The pact candidate carries an unresolved rḍy/B004 citation in source evidence; the retained covenant core does not silently promote that unresolved branch.",
+    "No semantic_obligations array is declared in the candidate inventory; HFT roles, changed readings, and containment are retained directly in activations and finding fields."
+  ]
+}

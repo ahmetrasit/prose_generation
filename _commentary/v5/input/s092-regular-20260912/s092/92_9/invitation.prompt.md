@@ -1,0 +1,179 @@
+# V5 reading invitation — 92:9
+
+You are a fresh reading-invitation writer. Read the complete editorial prose
+before writing. It is your sole semantic source.
+
+Write two to four paragraphs of fluent, contemporary Turkish that reveal a
+surprising reading by following one or two main channels of resonance in the
+ayah. A channel is a connected background of meanings, images, actions, or
+relations through which the ayah can be heard and understood differently.
+Several editorial findings may together develop one channel. Summarize that
+connected movement and its consequence for the ayah's main meaning, rather
+than compressing findings individually. Give the reading's substance now;
+the invitation comes from understanding it, not from a promise of hidden depth.
+
+Before drafting, read the entire editorial prose and silently select the one
+or two channels with the strongest interpretive consequence and enough
+grounding to explain clearly. Favor channels that expand or shift what the
+ayah says, the relation it establishes, or what is at stake in its action or
+image. One fully developed channel is sufficient; add a second only when it
+offers a distinct consequential reading that can be explained within the
+invitation. No finding, channel, or major shift has an individual coverage
+claim. Unselected material may remain entirely in the full commentary.
+
+A channel may develop through grammar, sound, dialogue, a material process,
+time, imagery, or a conceptual relation. Resonance is not limited to acoustic
+effects, and an unusual image alone does not establish a channel. Use only
+connections the editorial prose actually develops. If it supplies no such
+channel, explain its strongest grounded reading without inventing connections
+or surprise.
+
+Begin inside the ayah's own words, images, actions, or relations and reveal a
+selected distinctive reading in the first paragraph. Keep the plain meaning
+reachable with only the orientation needed to understand the change. Do not
+spend an opening paragraph on routine explanation or front-load context about
+the surah, the ayah's position, or the commentary project.
+
+For each selected channel, begin with the expression that opens it, unfold the
+connected background, and show how the ayah reads or sounds against that
+background. Let a detail lead into the next through an intelligible relation
+or process, so the reader experiences the emerging reading. This is a movement
+of thought, not a mandatory sentence pattern or one paragraph per finding.
+Let the reader identify the expression being interpreted,
+where any nonordinary detail comes from, and what that detail changes in the
+reading. Briefly identify the word-family use, restricted form, collocation, or
+context that supplies an essential added detail, and preserve the concrete
+operation that makes the image work. Keep the ordinary reading and necessary
+qualification clear within this explanation; do not repeat them as a fixed
+formula. Preserve the particular object, process, or relation that makes this
+reading distinctive, and state its interpretive consequence for the ayah as a
+whole. Make intelligible what the familiar reading leaves less visible and
+what the expanded or shifted reading now lets the reader understand. Preserve
+the editorial's force: an exploratory possibility remains possible, while a
+developed shift must not be softened into a decorative association or a
+reassurance that everything means the same thing. A concrete
+account of how something is carried, transformed, lost, or restored must not
+shrink to a general statement about care, guidance, dependence, or goodness.
+Keep the details needed to make the selected channel work; omit side findings
+and shorten routine setup. If a channel cannot be explained faithfully from
+the editorial prose, choose another grounded channel or reading.
+
+When a non-focus ayah supplies a contribution used in the invitation, keep its
+reference from the editorial prose beside that contribution.
+
+Do not turn the invitation into a miniature inventory of the commentary's
+conclusions, or flatten distinct channels into a broad theme to include more
+material. Do not repair, extend, or supplement the editorial prose from memory
+or outside knowledge.
+
+Omit technical apparatus. Retain any qualification, source distinction, live
+alternative, or boundary whose absence would change the force or meaning of a
+chosen reading. Express it naturally beside the image or relation it qualifies.
+Favor positive explanations of the relation between layers: what remains in
+the foreground and what the resonance makes audible in the background. State
+how that background reinforces, expands, or shifts the understanding of the
+main meaning, with the source and degree of certainty clear. Reserve explicit
+exclusions for concrete ambiguities or live counter-evidence that need them.
+Repeated "this is not X" endings make a reading sound withdrawn; express the
+substantive qualification through what the reading does contribute wherever
+possible. Use varied, natural language rather than a repeated "second layer"
+formula, and preserve the force of expansions and shifts.
+Do not name branches, candidates, findings, scopes, evidence categories,
+ledgers, or workflow stages, or label the prose as numbered channels. Do not
+list findings serially.
+
+Use the established `{ar:..., tr:..., gloss:...}` syntax, consistent
+Turkish-readable transliteration, and short ordinary glosses. Keep Arabic
+anchors beside the explanations they ground. Within a paragraph, continue with
+the Turkish meaning where clear; provide the necessary local tag when a later
+paragraph interprets the carrier anew. Do not place Arabic script outside a
+valid tag.
+
+Build transitions within a channel through its shared object, action, or
+relation. If two channels are selected, they may occupy separate paragraphs;
+do not invent a link between them. Do not praise the commentary's quality,
+promise what the reader will find, manufacture suspense, recap at the end, or
+add a call to action. End on an image, relation, action, or tension already
+established by the selected reading.
+
+Before finishing, compare the invitation with the entire editorial prose:
+does the chosen channel reveal a consequential reading, or could the text have
+been written from the ordinary translation and a modest explanation alone?
+When the editorial supports a surprising channel, the latter fails this task.
+Can the reader follow the opening expression into a connected background and
+understand how that background expands or shifts the ayah's main meaning?
+Check the selected connections against their editorial explanation: can the
+reader tell where the nonordinary details come from, with the necessary
+qualifications intact? Repair generic explanation, isolated curiosities, or a
+compressed findings list by developing the selected channel. Do not add
+omitted channels merely for coverage. Do not output this check.
+
+Write only the invitation text to:
+
+`_commentary/v5/editorial/s092-regular-20260912/s092/92_9/92_9.invitation.tr.md`
+
+Do not add a heading, wrapper label, index, ledger, evidence file, or any other
+artifact. Do not modify the editorial prose.
+
+After writing the invitation, run:
+
+```bash
+python3 _commentary/v5/validate_prose.py _commentary/v5/editorial/s092-regular-20260912/s092/92_9/92_9.invitation.tr.md
+```
+
+If validation fails, repair only the reported mechanical file-contract issues
+and rerun it, for at most two repair cycles. Report the final validator result
+in your response.
+
+<editorial_prose>
+{ar:وَكَذَّبَ بِٱلْحُسْنَىٰ, tr:wa-kadhdhaba bi'l-husnā, gloss:ve en güzeli yalanlarsa} sözü, 92:8'deki olumsuz tutumların ardından aynı kişi hakkında açık bir hüküm getirir: kişi en güzeli yalanlar. Başındaki {ar:وَ, tr:wa, gloss:önceki akışı sürdüren ve bağlayan} bu eylemi 92:8'de cimrilik edip kendini yeterli gören aynı kişiye bağlar; böylece "kim bunu yaparsa" diye açılan koşul sürerken üçüncü bir hareket eklenir. Dışarıya yönelmeyen tutum, kendine yeterlik iddiası ve şimdi iyiyi yalanlama, davranıştan hakikat hakkında verilmiş hükme doğru sıkılaşan bir dizi kurar. {ar:وَكَذَّبَ, tr:wa-kadhdhaba, gloss:ve yalanladı} içindeki hafif bağlayıcı sesin ardından gelen şeddeli fiil akışı ağırlaştırır; bu işitsel basınç yalanlama eyleminin cümledeki ağırlığını duyurur ve katkısı bu yoğunlaştırmayla sınırlı kalır. Ayetin düz ve geri dönülebilir yüzü bu yüzden açıktır: "ve en güzeli yalanlarsa".
+
+## Fiilin ve İyinin Biçimi
+
+Bu hükmün iç yapısında {ar:كَذَّبَ, tr:kadhdhaba, gloss:yalanladı} fiilinin sonlu, etkin geçmiş biçimi yapanı ve tamamlanmış hareketi birlikte gösterir. Okur edilgen bir söylentiyle değil, önceki cümledeki kişinin gerçekleştirdiği belirli bir yalanlamayla karşılaşır. Fiilin şeddeli ikinci kalıp biçimi, {ar:بِ, tr:bi, gloss:reddedilen içeriği gösteren edat} ile birleşince eylemi bir içeriği geçersiz sayma yönünde toplar. Bu içerik {ar:ٱلْحُسْنَىٰ, tr:al-husnā, gloss:en güzel olan} ile yerel olarak belirginleşir: soyut bir yalanlama değil, iyilik olarak adlandırılmış belirli bir şeyin reddi öne çıkar. 92:8'deki {ar:وَٱسْتَغْنَىٰ, tr:wa-staghnā, gloss:kendini yeterli gördü} tavrının hemen ardından gelen bu fiil, kendine yeterlik iddiasının hakikati ve iyiyi kabul etmeme yönüne devrildiğini düşündürür. Fiil 92:9'da hükmü tamamlar; 92:10'daki zorlu karşılık ve 92:16'daki aynı kişiyi tanıtan eylem izi bu tamamlanmış hükmün yakın bağlamdaki yankılarıdır. 92:9'un grameri kendi içinde tamamlanır; sonraki sonuçlar cümlede ayrıca kurulmadan, hükmün önünde görünür.
+
+Yalanlamanın yönünü küçük bir edat kesinleştirir. {ar:بِ, tr:bi, gloss:reddedilen içeriği gösteren edat}, {ar:كَذَّبَ, tr:kadhdhaba, gloss:yalanladı} fiilini onun hükmettiği içeriğe bağlar; ardından gelen {ar:ٱلْحُسْنَىٰ, tr:al-husnā, gloss:en güzel olan} bu nedenle yalnızca cümlenin konusu değil, doğrudan yalanlanan şeydir. Edatın bu bağlantıdaki katkısı içerik ilişkisidir; araç bildiren bir "ile" anlamı burada geri planda kalır. Tek harflik bu bağ, ağır fiili iyinin adına aynı değerlik menteşesiyle bağlar. {ar:حُسْنَىٰ, tr:husnā, gloss:en güzel olan} da edatın yönelttiği soyut nesne olarak durur; biçim, iyiyi sahiplik ilişkisine değil fiilin içerik ilişkisine bağlar. Bu kullanım, 92:6'daki {ar:وَصَدَّقَ بِٱلْحُسْنَىٰ, tr:wa-saddaqa bi'l-husnā, gloss:ve en güzeli doğruladı} ile aynı edat-isim çerçevesini kurar. Aynı iyilik sözü 92:6'da doğrulamanın, 92:9'da yalanlamanın nesnesidir; karşıtlık nesnenin değişmesinden değil, ona verilen hükümden doğar.
+
+Nesne belirlendikten sonra iyinin adının biçimi açılır. Başındaki {ar:ٱلْ, tr:al, gloss:belirlik takısı} ile dişil üstünlük biçimindeki {ar:حُسْنَىٰ, tr:husnā, gloss:en güzel olan} birleşince sıradan bir güzellik değil, belirli ve en üstün bir iyilik standardı adlaşır. Bu ad, kişiden veya tek bir iyilik hareketinden çok ödül, en iyi söz, cennet ufku ya da soyut iyilik gibi alanları açık tutan bir nitelik standardı olarak gelir. Onu yöneten {ar:كَذَّبَ, tr:kadhdhaba, gloss:yalanladı} fiili bu açıklığı yerel yalanlama hükmüne bağlar. Kelimenin bağlı olduğu dil alanında güzelleştirme, işi iyi yapma, iyilik etme, güzel olma ve yetkinlik birbirine değen kullanımlardır. Burada bu alan, yalanlama fiiliyle karşılaşınca reddedilen bir nitelik standardı olarak duyulur; adlaşmış biçim yine "en güzel olan"ı taşır. 92:6 ile 92:9'da aynı dişil üstünlük biçiminin tekrarlanması, iki karşıt hükmün aynı bilinen iyiye yöneldiğini gösterir. 92:8'deki kendine yeterlik tavrı bu adla karşılaşınca ihtiyaç duyulan iyiliğe yer bırakmayan bir kapanma gibi belirir.
+
+Bu karşıtlık kulağa da yerleşir. {ar:كَذَّبَ, tr:kadhdhaba, gloss:yalanladı} fiilinin sert, çiftlenmiş orta sesi, {ar:حُسْنَىٰ, tr:husnā, gloss:en güzel olan} kelimesinin uzun ve akıcı sonlanmasına çarpar; reddin sert başlangıcı ile iyinin uzayan adı arasında ikincil bir ses teması oluşur. Aynı şeddeli kuvvet, 92:6'daki {ar:صَدَّقَ, tr:saddaqa, gloss:doğruladı} ile 92:9'daki yalanlamada ters yönlere dağılır. Böylece iki ifade arasında biçimsel ve işitsel bir ayna kurulur; üçüncü {ar:كَذَّبَ, tr:kadhdhaba, gloss:yalanladı} yüklem de önceki tutumların yanına yalnızca yeni bir davranış eklemeyip kişinin hakikat karşısındaki duruşunu görünür kılan bir hüküm doruğu kurar. {ar:ٱلْحُسْنَىٰ, tr:al-husnā, gloss:en güzel olan} kelimesinin uzun sonu, reddedilen iyinin akustik kapanışı olur. İyinin reddedilmesi 92:10'da beliren zorlu karşılığı hazırlar; 92:15'teki {ar:نَارًا تَلَظَّىٰ, tr:nāran talazzā, gloss:alevlenen bir ateş} bu sonuca sınırlı bir ileri yankı verir. Bu iki ayet, 92:9'un kapanışına yakın bağlamdan gelen sonuç yankısı ekler; cümlenin grameri ise yalanlama hükmüyle tamamlanır.
+
+Bu biçimsel zemin üzerinde ilk yankı, yalanlamanın hedefini keskinleştirir. İhtiyatlı bir sözlük kullanımında {ar:كَذَّبَ, tr:kadhdhaba, gloss:yalanladı} bir şeyi yalan sayma veya birini yalancı bulma yönünü taşırken, {ar:حُسْنَىٰ, tr:husnā, gloss:güzel ve beğenilir olan} akla, eğilime ya da duyulara göre güzel bulunanı duyurur. Bu iki kullanım temas ettiğinde kişi yalnızca bir öneriyi reddetmiş gibi görünmez; güzeli veya iyiyi bizzat yanlış sayan etkin bir hüküm de belirir. Böylece yalanlama, değer olarak karşısına konan şeyi yanlış ilan eden bir duruş gibi hissedilir. Bu ihtiyatlı yankının kapsamı, fiilin içerik reddeden olağan anlamı ve iyinin cümledeki nesne oluşu içinde kalır.
+
+Bu temas, yalanlamanın eylemde tamamlanamayan bir iddiaya dönüşmesini görünür kılar. {ar:كَذَّبَ, tr:kadhdhaba, gloss:yalanladı} fiilinin şeddeli ikinci kalıbıyla ilişkilendirilen özel kullanım, saldırıya geçmiş olanın durmasını, geride kalmasını veya işi sonuna kadar taşıyamamasını anlatır. {ar:ٱلْحُسْنَىٰ, tr:al-husnā, gloss:en güzel olan} kelimesinin bir şeyi güzelleştirme, iyi yapma veya başkasına iyilik etme yönü bu hareketle buluşunca, en iyi olana yönelen pratik iddia tamamlanmayan bir hamle gibi görünür. Bu özel kullanımın somut katkısı bir savaş sahnesi kurmak değil, iyinin eyleme geçişindeki başarısızlığı duyurmaktır. Aynı eylem sınaması 92:14'teki {ar:فَأَنذَرْتُكُمْ نَارًا تَلَظَّىٰ, tr:fa-andhartukum nāran talazzā, gloss:sizi alevlenen ateşle uyardım} uyarısı ile 92:16'daki {ar:كَذَّبَ وَتَوَلَّىٰ, tr:kadhdhaba wa-tawallā, gloss:yalanladı ve yüz çevirdi} dönüşünde bağımsız bir davranış kaydı kazanır: sözdeki güç sonuç ve yüz çevirme anında sınanır, kurs tamamlanamaz. Bu bağlam, içerik reddinin davranışta nasıl taşındığını ve nerede kırıldığını gösterir.
+
+## Kırılan Hareket
+
+Kesilme duygusu daha uzak ve daha düşük kesinlikli bir sözlük temasında, iyi sonucun beklenmedik biçimde kesilmesi olarak belirir. {ar:كَذَّبَ, tr:kadhdhaba, gloss:yalanladı} fiilinin özel bir kullanımında dişi devenin sütünün kesilmesi veya beklenenden önce tükenmesi anlamı bulunur; {ar:حُسْنَىٰ, tr:husnā, gloss:en güzel olan} ile temas ettiğinde iyinin sürmesi beklenirken güvenin kesildiği bir an duyulur. Süt görüntüsünün katkısı bu bekleyiş kırılmasını somutlaştırmaktır; bu bağlantı gerçek bir süt sahnesi kurmadan, biçimle ilişkilendirilen ihtiyatlı bir imge olarak kalır. Karşı yönden {ar:حُسْنَىٰ, tr:husnā, gloss:en güzel olan} kelimesinin bir işteki en yüksek çabayı ve ulaşılabilecek son sınırı anlatan kullanımı, reddin erişilebilir en iyi sonuca ve erişim sınırına yöneldiği hissini açar. Doğrudan yalanlama hükmü bu iki düşük kesinlikli temasın içinde bekleyişin kırılması ve varılabilir sınırın geri çevrilmesi boyutlarını da düşündürür.
+
+Bu kesilme, çabanın hedefe ulaşmadan geri çekilmesini kuran başka bir somut hareket dizisinde görünür bir seyre dönüşür. {ar:كَذَّبَ, tr:kadhdhaba, gloss:koşup sonra duran ve geriye bakan canlı imgesi} için kaydedilen özel kollokasyon, yaban hayvanının bir mesafe koştuktan sonra durup geride kalana bakmasını anlatır; {ar:ٱلْحُسْنَىٰ, tr:al-husnā, gloss:en yüksek çaba ve erişilebilir son sınır} koşunun erişmesi gereken ufku verir. 92:4'teki {ar:إِنَّ سَعْيَكُمْ لَشَتَّىٰ, tr:inna sa'yakum la-shattā, gloss:çabanızın yönleri ayrıdır} bu koşuya ilk momentumu verir. 92:10'daki {ar:فَسَنُيَسِّرُهُۥ لِلْعُسْرَىٰ, tr:fa-sanuyassiruhu lil-'usrā, gloss:onun zorluğa gidişini kolaylaştıracağız} eşikten sonra akışın zorluğa doğru kolaylaşmasını, 92:11'deki {ar:وَمَا يُغْنِي عَنْهُ مَالُهُ إِذَا تَرَدَّىٰ, tr:wa-mā yughnī 'anhu māluhu idhā taraddā, gloss:düşüşe yuvarlandığında malı ona yetmez} kopan hareketin düşüşünü gösterir. 92:16'daki {ar:الَّذِي كَذَّبَ وَتَوَلَّىٰ, tr:alladhī kadhdhaba wa-tawallā, gloss:yalanlayan ve yüz çeviren} geri dönüşü ve geri çekilmeyi görünür kılar. Bu dört bağlam kaydı koşuyu başlangıçtan kırılmaya taşır: 92:4 momentum verir, 92:10 akışı ters hedefe kolaylaştırır, 92:11 düşüşte hareketi çözer, 92:16 onu geri çekilmeyle kapatır. Hayvan görüntüsü bu bağlantıda "yalanladı" fiilinin doğrudan çevirisi olarak değil, reddin davranış içinde yarıda kalan seyrini açan uzak ve keşifsel bir imge olarak iş görür.
+
+Kırılan hareketin ardından dikkat görünürlüğe döner: bu temas, görünür hâle gelmiş iyinin üzerine yeniden kapanan örtüyü görünür kılar. {ar:وَٱلَّيْلِ إِذَا يَغْشَىٰ, tr:wa-l-layli idhā yaghshā, gloss:örttüğünde gece} ifadesi karanlığı ve görünürlüğün geri çekildiği zemini kurar. Buradaki {ar:يَغْشَىٰ, tr:yaghshā, gloss:üzerini örter} yukarıdan yükselen bir örtünün bir şeyin üzerini kapatmasını duyurur. Karşısındaki {ar:وَٱلنَّهَارِ إِذَا تَجَلَّىٰ, tr:wa-n-nahāri idhā tajallā, gloss:açığa çıktığında gündüz} günün ışıkla açılmasını getirir; {ar:تَجَلَّىٰ, tr:tajallā, gloss:görünür hâle gelir} görünürlüğü durağan bir özellik değil, ortaya çıkma olayı yapar. Gece ve gündüzün bu iki hareketi {ar:كَذَّبَ, tr:kadhdhaba, gloss:yalanladı} fiiliyle ve {ar:ٱلْحُسْنَىٰ, tr:al-husnā, gloss:en güzel olan} adıyla temas ettiğinde, görünür hâle gelmiş bir iyinin üzerine yeniden kapanabilen etkin bir örtü görüntüsü oluşur. Gece geri çekilen tarafı, gündüz açığa çıkan tarafı taşır (92:1, 92:2); yalanlama da iyiyi yanlış hükme bağlayan söz olmanın yanında görünür iyiyi örten bir işlem gibi hissedilir. Bu, ana anlamı koruyan ve 92:1 ile 92:2'deki gece-gündüz karşıtlığının belirli nesneye eklediği ihtiyatlı bir genişlemedir.
+
+Görünür olan iyinin farklılaşmış çabalar karşısında ortak bir ölçü ve yön imkânı gibi duyulması, 92:3 ve 92:4'teki iki ayrı görüntünün temasından doğar. {ar:وَمَا خَلَقَ ٱلذَّكَرَ وَٱلْأُنثَىٰٓ, tr:wa-mā khalaqa adh-dhakar wa-l-unthā, gloss:erkeği ve dişiyi yaratması} farkları ölçü ve oran içinde koruyan bir zemin gösterir. {ar:ٱلذَّكَرَ, tr:adh-dhakar, gloss:erkek} çiftin bir kutbunu, {ar:ٱلْأُنثَىٰٓ, tr:al-unthā, gloss:dişi} onu tamamlayan öteki kutbu adlandırır; ikisinin birlikte anılması ayrımı korur ve birini diğerinin içinde eritmez (92:3). Ardından {ar:إِنَّ سَعْيَكُمْ لَشَتَّىٰ, tr:inna sa'yakum la-shattā, gloss:çabanız gerçekten farklı yönlerdedir} içindeki çaba belli bir hedefe yönelen amaçlı hareketi taşır; {ar:لَشَتَّىٰ, tr:la-shattā, gloss:dağınık ve birbirinden ayrılmış} ise bu yönlerin ortak bir hatta toplanmayıp ayrı kurslar oluşturduğunu söyler (92:4). Bu iki görüntü birleşince {ar:ٱلْحُسْنَىٰ, tr:al-husnā, gloss:bilinen en iyi olan} farklı çabaların karşısında ortak bir ölçü ve yön imkânı taşıyan değere dönüşür; onu yalanlamak, yönleri bulunan fakat ortak ölçüde birleşmeyen gayretlerin karşısında gerçekleşen bir reddediş gibi okunur. 92:3'teki yaratılış ayrımı ve 92:4'teki çaba dağılması bu özel bağlantıyı kurar; kendi başlarına odak cümlesinin hükmünü vermezler.
+
+## İyinin Eylemde Görünmesi
+
+Bu karşılaştırmanın katkısı, iyiyi sözde bir onaydan çıkarıp verme, korunma ve gerçekleştirme içinde sınanabilen bir değere dönüştürmesidir. 92:5'teki {ar:فَأَمَّا مَنْ أَعْطَىٰ وَٱتَّقَىٰ, tr:fa-ammā man a'tā wa-ttaqā, gloss:veren ve sakınan kimse} dizisinde verme, bir şeyi elden çıkarıp başkasına ulaştıran dış hareketi kurar; sakınma ise kişiyi koruyucu bir sınır içinde tutan iç disiplini getirir. Bu iki hareket iyinin hem dışarıya uzanan hem içeride düzenlenen yüzünü hazırlar. Ardından 92:6'daki {ar:وَصَدَّقَ بِٱلْحُسْنَىٰ, tr:wa-saddaqa bi'l-husnā, gloss:ve en güzeli doğruladı} ifadesinde doğrulama, yalnızca sözle kabul değil, bir vaadi veya işi gerçekleştirerek doğru çıkarmaya dönüşür. Buna karşılık 92:8'deki {ar:وَأَمَّا مَنۢ بَخِلَ وَٱسْتَغْنَىٰ, tr:wa-ammā man bakhila wa-staghnā, gloss:cimrilik edip kendini yeterli sayan kimse} dizisinde cimrilik iyinin dışarıya ulaşacağı aktarımı keser, kendine yeterlik ise ilişkiyi ve armağanı gereksiz gören bir bağımsızlık tavrı kurar. Aynı iyinin bir yanda verilerek ve gerçekleştirilerek doğrulanması, öte yanda aktarımı kesen bir tutumla fiilen yalanlanması, odak cümlesine davranışta görünen bir karşı-performans boyutu ekler. Davranışlar önceden benimsenmiş hükmün belirtisi olarak da okunabilir; bu yalın açıklama, eylemdeki okumanın yanında yerini korur.
+
+İyinin başkasına yönelmiş ve arındırıcı bir eylem olarak görünmesi 92:18'deki {ar:يُؤْتِي مَالَهُ يَتَزَكَّىٰ, tr:yu'tī mālahu yatazakkā, gloss:malını verir ve arınır} dizisinde belirir. {ar:كَذَّبَ, tr:kadhdhaba, gloss:içeriği yalan sayıp reddetti} fiili, {ar:ٱلْحُسْنَىٰ, tr:al-husnā, gloss:güzel ve beğenilir olan} adının başkasına yarar sağlayan iyilik etme yönüyle karşılaşınca, reddedilen şey soyut bir değer olmaktan çıkar; malı kendinden dışarıya yönelterek başkasında etkili olan ve vereni arındıran bir düzen görünür. Güzel olma, hoş bir nitelik olarak asılı kalmayıp yaşanmış bir verme içinde iş görür. 92:18'de mal vermenin arınmayı somut bir eylem olarak göstermesi, iyinin başkasına yönelmiş aktarım içinde görünmesini sağlar. Bu bağlantı 92:18'deki somut verme ve arınma hareketiyle sınırlıdır; "yalanladı"nın olağan içeriğe yönelik anlamı sadaka için genel bir karşılığa veya kapsamlı bir ahlak tezine dönüşmez.
+
+Bu karşıt kolaylaştırmanın katkısı, yalanlamayı iki sonucun önünde duran bir yol eşiği olarak duyurmaktır. 92:7'deki {ar:فَسَنُيَسِّرُهُۥ لِلْيُسْرَىٰ, tr:fa-sanuyassiruhu lil-yusrā, gloss:onu kolaylık yoluna kolaylaştıracağız} olumlu yola açılmayı ve orada ilerlemenin giderek hafiflemesini taşır. Aynı kolaylaştırma hareketi 92:10'daki {ar:فَسَنُيَسِّرُهُۥ لِلْعُسْرَىٰ, tr:fa-sanuyassiruhu lil-'usrā, gloss:onu zorluk yoluna kolaylaştıracağız} ifadesinde ters hedefe yönelir. {ar:لِلْعُسْرَىٰ, tr:lil-'usrā, gloss:zorluk ve engel yönüne} burulma, karşı koyma ve engel niteliğinde bir son noktayı duyurur; hareketin kolaylığı ile vardığı zorluk aynı yapıda birleşir. 92:7'deki kolaylık ile 92:10'daki zorluk, 92:9'u iki ayrı sonuçtan önce duran bir eşik hâline getirir. Bu yakın sıra içinde yalanlama, kendini engelleyen bir rotaya giriş ve o rotayı sürdürmenin kolaylaşması olarak okunabilir. Bağ 92:7 ve 92:10'un yakın sırasına aittir; zorluğun bağımsız biçimde uygulanan bir sonuç oluşu ve alışkanlık ya da kader hakkında daha geniş bir hüküm de kendi yerini korur.
+
+Bu yolun bir başka katkısı, reddedilen iyinin yerine konan dayanağın 92:11'de nasıl sınandığını göstermesidir. {ar:ٱلْحُسْنَىٰ, tr:al-husnā, gloss:güzel ve beğenilir olan} reddedilen iyi olarak dururken, 92:8'deki {ar:وَأَمَّا مَنۢ بَخِلَ وَٱسْتَغْنَىٰ, tr:wa-ammā man bakhila wa-staghnā, gloss:cimrilik edip kendini yeterli sayan kimse} kişinin dışarıdan gelecek iyiliğe ihtiyaç duymadığını ileri süren konumunu gösterir. Kendine yeterlik, güvenin başka bir dayanağa aktarılmasının başlangıcı olur. 92:11'deki {ar:وَمَا يُغْنِي عَنْهُ مَالُهُ إِذَا تَرَدَّىٰ, tr:wa-mā yughnī 'anhu māluhu idhā taraddā, gloss:düştüğünde malı ona yetmez} ifadesi bu iddiayı karar anında sınar: mal, soyut bağımsızlık tavrının güvenilen maddi karşılığıdır; düşme ve yıkıma sürüklenme, bu dayanağın beklenen korumayı sağlayamadığı anı gösterir. Böylece iyi güvenin boşaldığı ilk yer, mal ise onun yerine konan fakat düşüşte beklentiyi karşılamayan destek olarak belirir. Yalanlama, güvenin bir nesneden diğerine aktarılması ve maddi ikamenin sonunda başarısız olmasıyla örülen bir beklenti tersine dönüşü gibi duyulur. Bu özel bağlantı 92:8 ile 92:11'deki ardışıklığa dayanır; doğrudan uyarı okuması da aynı anda canlıdır.
+
+Bu bağlantının katkısı, reddedilen iyiyi başlangıcı ve sonu görünen bir yönün ufku olarak duyurmaktır. {ar:كَذَّبَ بِٱلْحُسْنَىٰ, tr:kadhdhaba bi'l-husnā, gloss:en güzeli içerik olarak reddetti} cümlesindeki fiil reddetmeyi, iyinin adı yalanlanan içeriği söyler. Buna rağmen 92:12'deki {ar:إِنَّ عَلَيْنَا لَلْهُدَىٰ, tr:inna 'alaynā la-l-hudā, gloss:yol göstermenin bize ait olması} ifadesi yönlendirmeyi yola veya hakikate doğru nazikçe işaret etme şeklinde duyurur. Buradaki {ar:ٱلْهُدَىٰ, tr:al-hudā, gloss:yol gösteren ve yönlendiren} sevilen birine sunulan veya armağan edilen istikamet imgesini de açar. 92:13'teki {ar:وَإِنَّ لَنَا لَلْآخِرَةَ وَٱلْأُولَىٰ, tr:wa-inna lanā la-l-ākhira wa-l-ūlā, gloss:son da başlangıç da bize aittir} ifadesi {ar:ٱلْآخِرَةَ, tr:al-ākhira, gloss:sonraki ve son olan} ile {ar:ٱلْأُولَىٰ, tr:al-ūlā, gloss:ilk ve başlangıç olan}ı karşı karşıya getirir. Bu başlangıç-son çerçevesi, iyi ufkunu tek bir noktadan başlangıcı ve sonu görünen bir seyre genişletir (92:12, 92:13). {ar:ٱلْحُسْنَىٰ, tr:al-husnā, gloss:en yüksek çaba ve ulaşılabilir son sınır} desteklenmemiş bir vaat olarak değil, yönlendirmeyle açılan ve son sınıra kadar uzanan bir hedef gibi görünür. Bu bağlantıda yol ve ufuk, reddedilen iyinin bağlamla derinleşen katmanıdır; odak fiilinin kendisi bağımsız bir "yön" anlamı taşımaz.
+
+Bu yönün katkısı, iki ayrı bağlam kaydını aynı ufuk üzerinde ardışık hâle getirmesidir: 92:12'de yön teklif edilir, 92:14'te sonuçtan sakındıran uyarıya dönüşür. {ar:كَذَّبَ, tr:kadhdhaba, gloss:reddedilen içeriğe direnmek} ile {ar:ٱلْحُسْنَىٰ, tr:al-husnā, gloss:ulaşılacak en yüksek iyi} birlikte düşünüldüğünde 92:12'deki {ar:إِنَّ عَلَيْنَا لَلْهُدَىٰ, tr:inna 'alaynā la-l-hudā, gloss:yol gösterme bize aittir} nazik yönlendirmeyi, 92:14'teki {ar:فَأَنذَرْتُكُمْ, tr:fa-andhartukum, gloss:sizi uyardım} ise bu yönün sertleşen sonuç kaydını taşır. Bu birleşim sözlükte tek bir rehberlik-tehdit anlamı kurmaz; 92:12 ve 92:14'teki ayrı bağlam taşıyıcıları reddedilen ufukla temas eder. Davet olarak başlayan yön, 92:14'teki uyarıyla korunmaya götüren bir doğrultu gibi belirir; yalanlama ise o doğrultudan yüz çeviren hareket olarak duyulur.
+
+Uyarının bedensel katkısı, yönün tehlikeden korunmaya uzanan hareketini adım adım görünür kılmasıdır. 92:14'teki {ar:فَأَنذَرْتُكُمْ, tr:fa-andhartukum, gloss:sizi sakındırdım} sözü, {ar:نَارًا تَلَظَّىٰ, tr:nāran talazzā, gloss:alevlenen ve kızışan ateş} ile birleşerek iyinin reddinden ihtiyata ve korunmaya açılabilecek yolu gösterir; ateşin tutuşan ve yoğunlaşan yüzü tehlikenin derecesini artırır. 92:15'teki {ar:لَا يَصْلَىٰهَا, tr:lā yaṣlāhā, gloss:ateşe temas edip yanmamak} tehlikeyi uzaktaki bir işaretten bedensel temasa çevirir. 92:16'daki {ar:وَتَوَلَّىٰ, tr:wa-tawallā, gloss:geri dönüp yüz çevirdi} bu temasın yanına geri çekilmeyi koyar; reddin yönü soyut hükümden taşıyışa dönüşür. Buna karşılık 92:17'deki {ar:وَسَيُجَنَّبُهَا ٱلْأَتْقَىٰ, tr:wa-sayujannabuhā al-atqā, gloss:ondan en sakınan uzak tutulacak} yana çekilme, zararı savuşturma ve korunma imkânını görünür kılar. 92:14, 92:15, 92:16 ve 92:17'deki ateş, temas, geri dönüş ve uzak tutulma dizisi, reddedilen iyinin sonuçlarını aynı yön bağlantısı içinde birbirine bağlar. Okur reddi, uyarının korumaya götürebileceği doğrultudan yüz çevirip tehlikeye açık kalmak şeklinde bedensel olarak hisseder. Bu özel bağlantı 92:14, 92:15, 92:16 ve 92:17'deki bağlamla sınırlı, başkasına atfedilen nitelikli bir yön çağrışımıdır; gerçek bir mekân tarifi veya hukukî sonuç olarak kurulmaz.
+
+## Karşılıksız Veriş
+
+Bu bağlamın katkısı, iyiyi denk alışverişi aşan bir verme eylemi olarak görünür kılmasıdır. {ar:كَذَّبَ, tr:kadhdhaba, gloss:reddedilen içeriği eylemde boşa çıkardı} fiilinin saldırıdan sonra duraklayan ve işi sonuna kadar taşıyamayan özel kullanımı, {ar:ٱلْحُسْنَىٰ, tr:al-husnā, gloss:başkasına yönelen güzel iyilik} adının başkasına yarar sağlayan eylem yönüyle buluşur. Bu temas, denk bir alışverişi aşan iyiliği eyleme geçirmeyi reddetmek gibi duyulur. 92:18'deki {ar:يُؤْتِي مَالَهُ يَتَزَكَّىٰ, tr:yu'tī mālahu yatazakkā, gloss:malını verir ve arınarak büyür} verme hareketini dışarıya yöneltir; birikmiş mal kendine kapalı hâlden çıkar ve bırakma eksilme değil arınarak büyüme olur. 92:19'daki {ar:مِن نِّعْمَةٍ تُجْزَىٰ, tr:min ni'matin tujzā, gloss:karşılığı ödenecek bir iyilik} ise alınmış lütufla doğabilecek borcu ve ona denk karşılığı sahneye getirir. Bu temas, iyiyi eşleşen bir iade ekonomisine sığdırmayan karşılıksız veriş düzenini gösterir; ana cümledeki yalanlama hükmü bu bağlamın içinde korunur.
+
+Bu verme düzeni 92:20'deki {ar:إِلَّا ٱبْتِغَاءَ وَجْهِ رَبِّهِ ٱلْأَعْلَىٰ, tr:illā ibtighā'a wajhi rabbihi al-a'lā, gloss:yalnız yüce Rabbin yönünü arayarak} ifadesinde karşılık ödemesinin yerine geçen bir arayışa dönüşür. {ar:وَجْهِ, tr:wajh, gloss:yüz ve yön} insan ortağıyla yatay bir alışverişten başka bir istikamet açar; {ar:رَبِّهِ, tr:rabbihi, gloss:besleyen ve tamamlayan Rabbi} büyüten ve onaran bir ilişkiyi, {ar:ٱلْأَعْلَىٰ, tr:al-a'lā, gloss:daha yüce} ise bu yönün alışverişin üstüne yükselmesini duyurur. Sonunda 92:21'deki {ar:وَلَسَوْفَ يَرْضَىٰ, tr:wa-la-sawfa yarḍā, gloss:sonunda hoşnut olacaktır} kapanışı, verme seyrini borcun kapatılmasıyla değil yaşanan bir tamamlanma ve hoşnutlukla bitirir. 92:18'deki verme ve arınma, 92:19'daki denk karşılık, 92:20'deki daha yüce yöneliş ve 92:21'deki hoşnutluk birlikte, iyiyi serveti serbest bırakan, yatay borç hesabını aşan ve tamamlanmaya yönelen bir armağan düzeni olarak gösterir. Bu görüntü 92:18, 92:19, 92:20 ve 92:21'deki verme dizisinin açtığı nitelikli bağlam katmanıdır; cümlenin olağan iyiyi veya ödülü reddetme anlamı bu katmanın içinde yerini korur.
+
+Bu maddi görüntünün katkısı, güzel görünen yüzey ile gizlenen karşıtlık arasındaki ilişkiyi elle tutulur hâle getirmesidir. {ar:كَذَّبَ, tr:kadhdhaba, gloss:aldatıcı görünüş taşıyan boyalı kumaş} fiilinin kabul edilmiş bir kollokasyonu, boya ve desenleriyle dokunmuş izlenimi veren fakat görünüşüyle şartını yanıltan bir kumaşı taşır; {ar:ٱلْحُسْنَىٰ, tr:al-husnā, gloss:çekici güzellik} bu yüzeyde sunulan güzel ve beğenilir niteliği sağlar. Örtme hareketi 92:1'deki {ar:وَٱلَّيْلِ إِذَا يَغْشَىٰ, tr:wa-l-layli idhā yaghshā, gloss:gece örtüp kapladığında} ifadesinden gelir; çekici yüzeyin altındaki durumu saklar. 92:2'deki {ar:وَٱلنَّهَارِ إِذَا تَجَلَّىٰ, tr:wa-n-nahāri idhā tajallā, gloss:gündüz açığa çıktığında} ise örtünün sakladığı karşıt durumu görünür hâle getirir. 92:20'deki {ar:وَجْهِ رَبِّهِ ٱلْأَعْلَىٰ, tr:wajhi rabbihi al-a'lā, gloss:yüce Rabbin yönü} birbiriyle bağdaşmayan yönleri aynı toplumsal yüzeyde sunabilen iki-yüzlülük için ayrı bir benzetme alanı açar. Örtme yüzeyi saklar, açığa çıkma onu ele verir, uyumsuz yöneliş ise aynı yüzeyde iki ayrı yönün sunulabildiğini gösterir (92:1, 92:2, 92:20). Böylece güzel görünen yüzey kendi karşıtını saklayıp ifşa anında ele verebilir; görünüşün anlamı açığa çıkma olayıyla değişir. Bu özel bağlantının kapsamı, kabul edilmiş kumaş kollokasyonundan 92:1, 92:2 ve 92:20'deki örtme, görünür olma ve yön sahnelerine uzanan keşifsel maddi benzetmedir; cümlenin fiili ve adı burada doğrudan çeviri işleviyle değil, bu benzetmenin taşıyıcıları olarak çalışır. Cümlenin zemini yine kişinin {ar:وَكَذَّبَ بِٱلْحُسْنَىٰ, tr:wa-kadhdhaba bi'l-husnā, gloss:ve en güzeli yalanlarsa} ile en güzel olanı yalanlamasıdır.
+
+</editorial_prose>

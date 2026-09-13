@@ -1,0 +1,207 @@
+# V5 reading invitation — 90:4
+
+You are a fresh reading-invitation writer. Read the complete editorial prose
+before writing. It is your sole semantic source.
+
+Write two to four paragraphs of fluent, contemporary Turkish that reveal a
+surprising reading by following one or two main channels of resonance in the
+ayah. A channel is a connected background of meanings, images, actions, or
+relations through which the ayah can be heard and understood differently.
+Several editorial findings may together develop one channel. Summarize that
+connected movement and its consequence for the ayah's main meaning, rather
+than compressing findings individually. Give the reading's substance now;
+the invitation comes from understanding it, not from a promise of hidden depth.
+
+Before drafting, read the entire editorial prose and silently select the one
+or two channels with the strongest interpretive consequence and enough
+grounding to explain clearly. Favor channels that expand or shift what the
+ayah says, the relation it establishes, or what is at stake in its action or
+image. One fully developed channel is sufficient; add a second only when it
+offers a distinct consequential reading that can be explained within the
+invitation. No finding, channel, or major shift has an individual coverage
+claim. Unselected material may remain entirely in the full commentary.
+
+A channel may develop through grammar, sound, dialogue, a material process,
+time, imagery, or a conceptual relation. Resonance is not limited to acoustic
+effects, and an unusual image alone does not establish a channel. Use only
+connections the editorial prose actually develops. If it supplies no such
+channel, explain its strongest grounded reading without inventing connections
+or surprise.
+
+Begin inside the ayah's own words, images, actions, or relations and reveal a
+selected distinctive reading in the first paragraph. Keep the plain meaning
+reachable with only the orientation needed to understand the change. Do not
+spend an opening paragraph on routine explanation or front-load context about
+the surah, the ayah's position, or the commentary project.
+
+For each selected channel, begin with the expression that opens it, unfold the
+connected background, and show how the ayah reads or sounds against that
+background. Let a detail lead into the next through an intelligible relation
+or process, so the reader experiences the emerging reading. This is a movement
+of thought, not a mandatory sentence pattern or one paragraph per finding.
+Let the reader identify the expression being interpreted,
+where any nonordinary detail comes from, and what that detail changes in the
+reading. Briefly identify the word-family use, restricted form, collocation, or
+context that supplies an essential added detail, and preserve the concrete
+operation that makes the image work. Keep the ordinary reading and necessary
+qualification clear within this explanation; do not repeat them as a fixed
+formula. Preserve the particular object, process, or relation that makes this
+reading distinctive, and state its interpretive consequence for the ayah as a
+whole. Make intelligible what the familiar reading leaves less visible and
+what the expanded or shifted reading now lets the reader understand. Preserve
+the editorial's force: an exploratory possibility remains possible, while a
+developed shift must not be softened into a decorative association or a
+reassurance that everything means the same thing. A concrete
+account of how something is carried, transformed, lost, or restored must not
+shrink to a general statement about care, guidance, dependence, or goodness.
+Keep the details needed to make the selected channel work; omit side findings
+and shorten routine setup. If a channel cannot be explained faithfully from
+the editorial prose, choose another grounded channel or reading.
+
+When a non-focus ayah supplies a contribution used in the invitation, keep its
+reference from the editorial prose beside that contribution.
+
+Do not turn the invitation into a miniature inventory of the commentary's
+conclusions, or flatten distinct channels into a broad theme to include more
+material. Do not repair, extend, or supplement the editorial prose from memory
+or outside knowledge.
+
+Omit technical apparatus. Retain any qualification, source distinction, live
+alternative, or boundary whose absence would change the force or meaning of a
+chosen reading. Express it naturally beside the image or relation it qualifies.
+Favor positive explanations of the relation between layers: what remains in
+the foreground and what the resonance makes audible in the background. State
+how that background reinforces, expands, or shifts the understanding of the
+main meaning, with the source and degree of certainty clear. Reserve explicit
+exclusions for concrete ambiguities or live counter-evidence that need them.
+Repeated "this is not X" endings make a reading sound withdrawn; express the
+substantive qualification through what the reading does contribute wherever
+possible. Use varied, natural language rather than a repeated "second layer"
+formula, and preserve the force of expansions and shifts.
+Do not name branches, candidates, findings, scopes, evidence categories,
+ledgers, or workflow stages, or label the prose as numbered channels. Do not
+list findings serially.
+
+Use the established `{ar:..., tr:..., gloss:...}` syntax, consistent
+Turkish-readable transliteration, and short ordinary glosses. Keep Arabic
+anchors beside the explanations they ground. Within a paragraph, continue with
+the Turkish meaning where clear; provide the necessary local tag when a later
+paragraph interprets the carrier anew. Do not place Arabic script outside a
+valid tag.
+
+Build transitions within a channel through its shared object, action, or
+relation. If two channels are selected, they may occupy separate paragraphs;
+do not invent a link between them. Do not praise the commentary's quality,
+promise what the reader will find, manufacture suspense, recap at the end, or
+add a call to action. End on an image, relation, action, or tension already
+established by the selected reading.
+
+Before finishing, compare the invitation with the entire editorial prose:
+does the chosen channel reveal a consequential reading, or could the text have
+been written from the ordinary translation and a modest explanation alone?
+When the editorial supports a surprising channel, the latter fails this task.
+Can the reader follow the opening expression into a connected background and
+understand how that background expands or shifts the ayah's main meaning?
+Check the selected connections against their editorial explanation: can the
+reader tell where the nonordinary details come from, with the necessary
+qualifications intact? Repair generic explanation, isolated curiosities, or a
+compressed findings list by developing the selected channel. Do not add
+omitted channels merely for coverage. Do not output this check.
+
+Write only the invitation text to:
+
+`_commentary/v5/editorial/s090-regular-20260912/s090/90_4/90_4.invitation.tr.md`
+
+Do not add a heading, wrapper label, index, ledger, evidence file, or any other
+artifact. Do not modify the editorial prose.
+
+After writing the invitation, run:
+
+```bash
+python3 _commentary/v5/validate_prose.py _commentary/v5/editorial/s090-regular-20260912/s090/90_4/90_4.invitation.tr.md
+```
+
+If validation fails, repair only the reported mechanical file-contract issues
+and rerun it, for at most two repair cycles. Report the final validator result
+in your response.
+
+<editorial_prose>
+Bu âyetin açık hükmü, insanın yaratılmış olduğunu ve bu yaratılmış varlığın zorluk içinde bulunduğunu birlikte bildirir: {ar:لَقَدْ خَلَقْنَا ٱلْإِنسَٰنَ فِى كَبَدٍ, tr:laqad khalaqnā al-insāna fī kabadin, gloss:İnsanı gerçekten bir zorluk içinde yarattık}. İnsan ve zorluk henüz cümleye girmeden gelen {ar:لَقَدْ, tr:laqad, gloss:kesinlikle}, bu hükmü sonradan eklenmiş bir değerlendirme olmaktan çıkarır. İçindeki lâm, önceki yemin dizisinin cevabını işaret eder ve (90:1, 90:2, 90:3) boyunca biriken yemin basıncını yaratma iddiasına bağlar. Böylece kesinlik yalnız ilk kelimeye değil yaratma, insan ve zorluk arasındaki ilişkinin tamamına yayılır.
+
+Bu ön çerçevenin ikinci parçası {ar:قَدْ, tr:qad, gloss:gerçekleşmiş tasdik}tir. Qad, tamamlanmış fiil olan {ar:خَلَقْنَا, tr:khalaqnā, gloss:yarattık} önünde bulunduğu için yaratmayı gelecekte gerçekleşecek bir ihtimal değil gerçekleşmiş bir eylem olarak duyurur. Kısa ve sert ses kapanışı, fiil açılmadan önce tasdiki sabitler; {ar:لَقَدْ, tr:laqad, gloss:yemin cevabı olan kesinlik} de tek tek parçacıkların toplamından daha sıkı bir yemin cevabı kurar. Cümlenin kesinliği, yaratılmış insan hakkındaki sözün başına yerleşmiş durumdadır.
+
+Fiilin biçimi bu hükmün failini de gösterir. {ar:خَلَقْنَا, tr:khalaqnā, gloss:yarattık} birinci çoğul etkin biçimiyle konuşan yaratıcı öznenin tamamlanmış yaratma eylemidir; içindeki -nâ, insanın yaşadığı zorlukla birlikte onu yaratan faili aynı cümlede taşır. Fiilin bu kullanımı var etme, biçimlendirme ve ortaya çıkarma işini kurar. Bu cümlede taşıdığı anlam, var olmayanı ortaya çıkaran yaratma eylemidir; kelime ailesindeki uydurma, yalan üretme veya var olanı başka bir duruma sokma çizgileri bu özel kullanımın kapsamına girmez. Fiil, tasdik açılışı ile insan nesnesi arasına yerleşerek yaratıcı fail, insan ve zorluk alanını tek bir tamamlanmış sahnede bağlar.
+
+Bu sahnenin nesnesi {ar:ٱلْإِنسَٰنَ, tr:al-insāna, gloss:insan}dır. Belirtme durumundaki bu belirli tekil isim, yaratılmış insanı önce yaratıcı failin fiiliyle kurulmuş nesne olarak gösterir; hemen ardından {ar:فِى كَبَدٍ, tr:fī kabadin, gloss:zorluk içinde} ile kuşatıcı bir hâle yerleştirir. Belirli tekil biçim, bütün insan sınıfını tek bir tanınabilir ve bedensel insan figüründe toplar. İnsanın ileride fail gibi davranabilmesi veya kendini değerlendirebilmesi bu başlangıçla silinmez; bu âyetin giriş sırası önce yaratılmış nesneyi kurar.
+
+{ar:ٱلْإِنسَٰنَ, tr:al-insāna, gloss:insan} kelimesinin görünürlük, tanınma, fark etme ve yakınlık çevresi de bu somut figürün etrafında duyulabilir. (90:3)'teki {ar:وَوَالِدٍ وَمَا وَلَدَ, tr:ve vâlidin ve mâ veled, gloss:bir baba ve doğurduğu} baba ve yavru çifti, insanı bedenli ve soy ilişkisi içinde görünen bir hayat olarak belirginleştirir. Zorluk içinde yaratılma hükmü böylece soy bağıyla gelen bedene dokunur; yine de (90:3)'teki doğum teması 90:4'ün bütün doğum sürecini tanımlayan bağımsız bir açıklaması değildir.
+
+{ar:فِى, tr:fī, gloss:içinde} önce bir yerleştirme hareketi duyurur, belirsiz {ar:كَبَدٍ, tr:kabadin, gloss:zorluk} ise bu yerleşimin niteliğini sonradan verir. Zorluk burada serbest duran bir etiket değil, insanın içine yerleştirildiği çevreleyici alandır. Bu sıra, insanı kendi gücünü hesaplayan bir figür olarak görünmeden önce yaratılmış bir kısıtın içine alır; cümle güçlüğü sonradan gelen tekil bir olaydan çok insanın kurulduğu şart içinde duyurur. {ar:فِى كَبَدٍ, tr:fī kabadin, gloss:zorluk içinde} yaratma fiiliyle nesnenin kurduğu bütün sahneyi gerilim alanına taşır.
+
+{ar:كَبَدٍ, tr:kabadin, gloss:zorluk} cümlenin son semantik mührüdür. Belirsiz tekil isim biçimi, adı konmuş tek bir felaket yerine niteliği açık bırakılmış bir insanlık hâli bildirir; isim oluşu zorluğu anlatıdaki tek bir olaydan çok varoluş durumu içinde tutar. Fīnin açık akışı kabadın sıkışık kapanışına geçer ve sert ses çerçevesi cümleyi basınçla kapatır. Kabadın çetinliğe dayanma yönü bu isim alanında duyulabilir; biçim ise bunu açık bir mücadele fiiline değil, taşınan bir durumun yoğunluğuna bağlar. Kelimenin bu cümlede tek görünmesi yoğunluk sağlar; anlamı, bu cümlede kurulan taşıyıcı üzerinden okunur ve başka sözlük çizgileri ayrıca etkinleşmeden devreye girmez.
+
+## Yaratılmış Şartın İç Yüzü
+
+Bu gramer zemini üzerinde {ar:خَلَقْنَا, tr:khalaqnā, gloss:yarattık} fiilinin ölçme, sınır belirleme ve biçim verme yönü, {ar:كَبَدٍ, tr:kabadin, gloss:zorluk} içindeki şartı daha belirgin kılar. İnsan meşakkat içinde ölçülmüş ve o meşakkatle birlikte kurulmuş bir varlık gibi görünür; zorluk hayatın dış dekoru olmaktan çıkar ve kuruluşun içinde yer alır. İnsan basınç içinde ölçüsüzce savrulan bir madde değil, o basıncı taşıyacak bir oluşum olarak da duyulur. Yerel yaratma anlamı önde durur; ölçü ile meşakkat arasındaki temas bu anlamı teknik bir tasarım şemasına çevirmeden onu nitelikli biçimde genişletir ve dayanmanın sonucunu ayrıca belirlemez.
+
+Tamamlanmış dış biçim, bu basınç içindeki insanı dik ve dengeli bir oluşum olarak hissettiren ayrı bir çizgi açar. {ar:خَلَقْنَا, tr:khalaqnā, gloss:yarattık} ile {ar:كَبَدٍ, tr:kabadin, gloss:zorluk} arasındaki içerme, biçimsiz bir sıkıntıdan çok tamamlanmış insan formunun taşıdığı şartı gösterir. Bu oluşum, baskı karşısında taşıma imkânı bulunan insanı düşündürür; sıradan meşakkat anlamı böylece bedensel bir taşıyıcılık görüntüsüyle derinleşir. Ölçülmüşlük fiziksel boyutlara dair teknik bir sayı değil, yaratılmış insanın kendine biçtiği sınırsız kapasiteyle karşılaştığı bir oran duygusudur.
+
+Kabadın bedensel merkezi bu oranı içeriden duyurur. Karaciğer imgesi, zorluğu insan bedeninin içinde taşınan bir basınç hâline getirir; orta yer imgesi ise baskıların toplandığı mekânı gösterir. Görünür dış beden ile gizli ve korunmasız iç merkez böylece aynı yaratılmış durumda buluşur. Koyu renkli ve bedende bulunan karaciğer, güçlüğe somut bir taşıma noktası verir; merkez, bu basıncın toplandığı yeri belirginleştirir. Bu organ ve merkez imgeleri sınırlı bir beden yankısı olarak çalışır; bağlantı burada gerçek bir hastalık, ayrıntılı anatomi veya kabadın doğrudan organ adı anlamına taşınmaz.
+
+İç merkezdeki insan, kelimenin ilişki çevresi açıldığında sosyal bir varlık olarak da belirir. {ar:ٱلْإِنسَٰنَ, tr:al-insāna, gloss:insan} adı, zorluk içinde yalnızca soyut bir türü değil, çevresini fark edebilen ve başkaları tarafından tanınabilen bir kişiyi düşündürür. 32:9'daki duyusal fakülteler insanı gören, işiten, sezen ve araştıran bir varlık olarak geri çağırır; 24:27'deki yakınlık ve yabancılığın kalkması, başkaları karşısında rahatlık kurabilen yönü ekler. 32:9'un katkısı algı kanallarını, 24:27'nin katkısı ise bu algılayan insanın ilişki içindeki yakınlığını belirginleştirir; birlikte görünür ve ilişki kuran bir insan sahnesi açılır. Görünürlük burada adın kökenine ilişkin bir açıklama olarak kalır; görme, işitme, sezme ve araştırma uzantıları ayrıca etkinleşmeden kelimenin zorunlu anlamına dönüşmez. Bu ilişkisel basınçta düşmanlık ve yabancılaşma ihtimali de açık kalır.
+
+Bu ilişkisel insan görüntüsü, 90:7'deki {ar:يَرَهُ, tr:yarahu, gloss:onu görür} görme eylemi ve 90:8'deki {ar:عَيْنَيْنِ, tr:ayneyn, gloss:iki göz} ile dışarıya açılır. Görme eylemi, zorluk içindeki insanı durumu bilinebilen bir varlık olarak gözlem alanına getirir; iki göz ise bu görünürlüğe bedensel bir kanal verir. Böylece baskı içte yaşanan bir hâl olarak kalmaz, tanıklık ve hesap verilebilirlik çerçevesinde okunur. Bu karşılaşma (90:7, 90:8) bağlamının katkısıdır: görme fiili 90:4'e ikinci bir fiil eklemez, göz de insan adının karşılığı olmaz. Odak hükmü yine insanın zorluk içinde yaratılmış olmasıdır.
+
+90:5 ve 90:7'deki olumsuz sorular, {ar:أَحَدٌ, tr:ehad, gloss:herhangi biri} biçimindeki tekil soruyu uygun bütün kişiler alanına yayar. Bu soru biçimi, gücün ve tanıklığın herkes için sınandığı bir birlik çevresi kurar; birlik burada soruların olumsuz kapsamından doğar ve 90:4'teki insanın birincil anlamına dönüşmez. Soruların işlevi gerçek güçsüzlüğü veya gerçek görmezliği kesinleştirmek değil, zorluk içindeki insanı mümkün güç ve görünürlük alanının önüne çıkarmaktır. Tür ile tekil üye arasındaki aralık böylece korunur.
+
+Gözün kendisiyle kurulan temas, insanın başka bir bakışın içinde görünmesini sağlayan daha uzak bir optik görüntü de açabilir. {ar:ٱلْإِنسَٰنَ, tr:al-insāna, gloss:insan} adı, 90:8'deki {ar:عَيْنَيْنِ, tr:ayneyn, gloss:iki göz} içinde karanlık bir merkezde görülen küçük ve tanınabilir bir insan sureti gibi belirir. Yaratılmış biçim ile 90:7'deki görme eylemi görünür bir kendilik verir; {ar:كَبَدٍ, tr:kabadin, gloss:zorluk} içindeki merkez de bu suretin tutulduğu hassas mekân mantığını sağlar. Göz böylece hem organ hem de kendiliğin tanındığı görünüş alanı olur. Bu keşifsel optik yankı, bu bağlantının sınırları içinde bir görüntüdür; gerçek bir ayna veya göz ile insanın literal özdeşliğini kurmadan insanın tür olarak okunmasını ve zorluk içindeki yaratılış hükmünü taşır.
+
+## Ölçülen ve Donatılan İnsan
+
+Yaratılıştaki ölçü, insan emeği ve kapasiteyle sınanır. 84:6'daki doğrudan insan emeği, yaratma ile meşakkat arasına etkin biçimde taşınan emek boyutunu getirir. 95:4'teki düzenli insan oluşumu, 2:286'daki yükün kapasiteye göre tutulması ve 96:7'deki kendine yeterlik teması, var etme ile sınır arasındaki ilişkiyi üç ayrı yönden görünür kılar: insan verilmiş ve sınırları bulunan bir kapasiteyle karşılaşır. Bu çerçeve eylem gücünü koruyarak sınırsız özerklik iddiasını sınırlar; ölçü burada sayısal bir teknik şema değil, yaratılmış insanın basınç altında karşılaştığı orandır.
+
+Bu oran iç dünyadaki eğilimi de görünür kılar. {ar:خَلَقْنَا, tr:khalaqnā, gloss:yarattık} yaratmayı yalnız dış bedenin ortaya çıkışı değil, zorluk karşısında davranışa temas eden yerleşik bir iç kuruluş gibi duyurabilir. 21:37'deki yaratılmış insan eğilimi, kişinin zorluk karşısındaki davranışına yerleşmiş bir yön kazandırır; 91:8'deki ahlaki ayırt etme çerçevesi ise kişi ile kendisine bağlanan iş veya nitelik arasındaki uygunluğu düşündürür. Kabad böylece sorumluluğu askıya alan bir mazeret alanı değil, iç yatkınlıkların sınandığı bir karşılaşma alanı olur. Bu eğilim tek bir ahlaki sonucu önceden belirlemez; uygunluk da başarı garantisi vermeden insanın eylem imkânını açık bırakır.
+
+İnsan kendi kapasitesini hesapladığında, bu ölçü 90:5'teki {ar:أَيَحْسَبُ, tr:eyahsabu, gloss:sanıyor mu} varsayım ile {ar:يَقْدِرَ, tr:yaqdir, gloss:gücü yeter} güç yetirme ifadesinde sınanır. 90:6'daki {ar:يَقُولُ, tr:yaqūlu, gloss:söylüyor} sözü özel kalabilecek tahmini dışarı çıkarır; {ar:لُّبَدًا, tr:lubeden, gloss:yığılı mal} yığılmış malı görünür bir ölçeğe, {ar:أَهْلَكْتُ, tr:ehlektu, gloss:tükettim} ise harcanmış çabaya ve tükenmiş insan gücüne bağlar. 90:7'deki görme ile 90:8'deki iki göz, bu iddiayı gözlem alanına getirerek basıncın neye güç yetirildiğini, neyin tüketildiğini ve neyin söylendiğini görünür kılmasını sağlar. Bu bağlam soru biçiminde ilerler; gerçek güçsüzlük veya görmezlik hükmü kurmaz ve {ar:أَحَدٌ, tr:ehad, gloss:herhangi biri} çevresindeki birlik temasından ayrı kalır.
+
+Bu hesap sahnesi organların verdiği cevap imkânıyla tamamlanır. 90:8'deki {ar:نَجْعَل, tr:nec'al, gloss:yerleştiririz ve yaparız} var etme ve yerleştirme eylemi, 90:4'teki yaratmaya yapıcı bir karşılık verir. {ar:عَيْنَيْنِ, tr:ayneyn, gloss:iki göz} dışa dönük ayırt etme ve tanıklık kanalını; 90:9'daki {ar:وَلِسَانًا وَشَفَتَيْنِ, tr:ve lisānen ve şefeteyn, gloss:bir dil ve iki dudak} ise algılananı biçimlendirip ileten yolu verir. Tek dilin iki dudak arasında hareket etmesi, sözün anatomik bir imkândan kişiler arası bir eyleme geçişini duyurur. Bu donanım güçlük içindeki insana algılama, ifade etme ve karşılık verme imkânı verir; organların kendisi güçlüğün kaynağı olarak kurulmaz.
+
+Bu donanım, yaratma ile söz arasında ikinci bir üretim görüntüsü açar. {ar:خَلَقْنَا, tr:khalaqnā, gloss:yarattık} fiili ile 90:6'daki {ar:يَقُولُ, tr:yaqūlu, gloss:söylüyor} sözü yan yana geldiğinde, insanın söylediği şey yapılmış ve hesabı taşınacak bir ürün gibi duyulur. Yanlış söyleme veya yanlış atfetme ihtimali, kimin iddia ürettiğini ve ona kimin sahip çıktığını sorar; konuşana peşinen hüküm verilmez. (90:3)'teki {ar:وَوَالِدٍ وَمَا وَلَدَ, tr:ve vâlidin ve mâ veled, gloss:bir baba ve doğurduğu} bedensel üretkenliği ile 90:6'daki sözün üretilmesi arasında bir temas kurulur; üretilmiş hayat ile üretilmiş sözün ayrımı bu bağlantının sınırını korur. 90:6'daki boşa giden vadi çağrışımı, sahiplenilmiş iddianın sağlam bir hesaba da boşalmaya da yönelebileceğini düşündürür; bu, yaratma fiiline eklenen doğrudan bir vadi anlamı değil, sözün yönüne ilişkin bir yankıdır.
+
+## Basıncın Arazisi
+
+Zorluk, insanın taşıdığı ağırlık olarak kalırken yönü ve eşiği bulunan şekilli bir direnç alanı da kazanır. 90:10, 90:11 ve 90:12'deki hareketler bu araziyi üç katkıyla kurar: {ar:وَهَدَيْنَٰهُ ٱلنَّجْدَيْنِ, tr:ve hedeynāhu'n-necdeyn, gloss:iki yolu gösterdik} yön ve yükseltiyi işaretler; {ar:فَلَا ٱقْتَحَمَ ٱلْعَقَبَةَ, tr:fa-lā iqtahama al-ʿaqabah, gloss:sarp geçide göğüs germedi} şiddetle içine girilmesi gereken eşiği getirir; {ar:وَمَآ أَدْرَىٰكَ مَا ٱلْعَقَبَةُ, tr:wa-mā adrāka mā al-ʿaqabah, gloss:sarp geçidin ne olduğunu sana ne bildirdi} ise engelin yapısını ayırt etme ve bilme hareketini açar. Yön araziye istikamet, eşik ona direnç, bilme sorusu da karşılaşmanın anlaşılabilir bir yapısı olduğunu verir. Bu katkılar kabadın ağır zorluk anlamını biçimi olan bir karşılaşma zemininde derinleştirir; insan yalnız ağırlık taşımaz, seçenekler ve eşikler arasında yön arar.
+
+Bu arazideki hareket, yolculuk için gerekli destekle somutlaşır. 90:2'deki {ar:حِلٌّ, tr:hill, gloss:çözülmüş ve serbest} çevresinde düşünülen taşınabilir kamp donanımı, baskı içinden ilerlemeyi mümkün kılan maddi desteği verir. 90:10'daki iki yolun hızlı ve etkili ilerleme çağrışımı, hareketi hedefsiz yer değiştirmeden ayırır; {ar:وَهَدَيْنَٰهُ ٱلنَّجْدَيْنِ, tr:ve hedeynāhu'n-necdeyn, gloss:iki yolu gösterdik} yönlendirmesi de {ar:فِى, tr:fī, gloss:içinde} bağının içindeki {ar:كَبَدٍ, tr:kabadin, gloss:zorluk} hâlini güçlük altında amaçlı bir güzergâha bağlar. Donanım ilerlemeyi mümkün kılar, etkili varış hareketin hedefini belirginleştirir, yönlendirme ise bu hareketin tarzını verir. Zorluk böylece birine ulaşmaya çalışan bir yolculuk gibi hissedilir; 90:2'deki kelimenin doğrudan kamp eşyası anlamına çevrilmesi veya iki güzergâhtan birinin seçilmesi bu bağlantının kapsamına girmez.
+
+Yön, kavrama imgesiyle birleştiğinde direnç elde tutulabilir bir kuvvet gibi görünür. {ar:كَبَدٍ, tr:kabadin, gloss:zorluk} içindeki yay kabzası ve okun dayandığı üst bölüm çağrışımı, 90:1'deki {ar:ٱلْبَلَدِ, tr:al-balad, gloss:şehir ve yer} çevresi, 90:6'daki bağlamsal sopa ve 90:10'daki iki yolun kuvvetiyle aynı bedensel temas noktasında buluşur. Şehir yakın temasın baskı ve tehlike çevresini, sopa kavrayışa aktarılan kuvveti, iki yol ise direnç karşısında cevap verecek desteği verir. 90:11'deki engelin içine giriş, kuvvetin neden yönlendirilmesi gerektiğini açıklar. Bu katkılar birleştiğinde zorluk doğru yöne çevrildiğinde eylem üreten bir tutamak ve karşılaşma zemini gibi duyulur; bu bağlantı 90:4'te gerçek bir savaş veya doğrudan yay anlatısı kurmaz.
+
+Yön verme çevresindeki daha uzak gölge, rehberliğin güçlük içinde hareket edilecek bir rota düzenleyebileceğini düşündürür. Yön ve yükselti çıkış çizgisini, aşağı doğru zorlanma ve şiddet ise güzergâhın hâlâ talepkâr oluşunu taşır. Bu bağlantı 90:10'daki yön gösteren ifadenin doğrudan çevirisi olarak değil, farklı anlam çizgilerinin temasından doğan atıflı bir gölge olarak kalır. Kabadın zorluk anlamı böylece korunur; rehberlik onu ortadan kaldırmadan düzenler ve iki güzergâhtan birini seçmeye zorlamaz.
+
+Yönü bulunan bu arazi, yaratılmış insanın sınırlandırılmış bir yerde ve ilişkide ortaya çıkmasıyla başka bir sahneye dönüşür. 90:1'deki {ar:ٱلْبَلَدِ, tr:al-balad, gloss:şehir ve yer} çevre sınırını, 90:2'deki {ar:حِلٌّ, tr:hill, gloss:çözülmüş ve serbest} gevşeme veya yerleşme imkânını, 90:3'teki {ar:وَوَالِدٍ وَمَا وَلَدَ, tr:ve vâlidin ve mâ veled, gloss:bir baba ve doğurduğu} ise soy ve doğum geçidini verir. Bu üç katkı ölçü, sınır, pay, serbestlik, soy ve doğum çizgilerini {ar:خَلَقْنَا, tr:khalaqnā, gloss:yarattık} ile {ar:كَبَدٍ, tr:kabadin, gloss:zorluk} arasındaki insanda toplar: insan belirli bir yerde yaşanan ve taşınan hayat gibi duyulur. Bu görüntü 90:3'teki doğumun bütün mekanizmasını açıklamaz; soy ve bedensel ortaya çıkış bağlantısı burada kendi kapsamı içinde kalır.
+
+Şehir ile beden arasındaki ölçek benzetmesi, bu yerleşme ilişkisinin katkılarını sıraya koyar. 90:1'deki {ar:ٱلْبَلَدِ, tr:al-balad, gloss:şehir ve yer}, göğüs ve göğüs kemiğiyle ilişkilendirilen dış çevreyi verir; 90:2'deki {ar:حِلٌّ, tr:hill, gloss:çözülmüş ve serbest}, yerleşme ve konut bağını kurar; {ar:كَبَدٍ, tr:kabadin, gloss:zorluk} ise karaciğer ve orta yerden oluşan hassas iç merkezi sağlar. {ar:فِى, tr:fī, gloss:içinde} ilişkisi bu üç katkıyı birleştirerek şehri göğüs gibi kuşatan çevreyi ve onun içinde konumlanan insanı aynı ölçeğe getirir. İnsan daha büyük bir sınırın içinde kırılgan hayat taşıyan merkez gibi görünür; bu, şehri anatomiye veya merkezi salt fiziksel organa eşitleyen bir açıklama değil, bu bağlantıya özgü bir ölçek yankısıdır.
+
+İç merkezdeki yoğunluk, 90:6'daki dış yığında görsel bir karşılık bulabilir. {ar:لُّبَدًا, tr:lubeden, gloss:yığılı mal} kat kat üst üste gelen malzemeyi, {ar:أَهْلَكْتُ, tr:ehlektu, gloss:tükettim} ise bu birikimin arkasındaki harcanmış insan gücünü verir. Kabadın koyulaşma ve pıhtılaşma yönü yığılmış malı sıkışmış bir merkez gibi, kabarmış orta yönü de ona dışarıdan görülebilen bedensel bir geometri gibi gösterir. Dış yığın böylece onu meydana getiren basıncı bedenleştiren veya örten bir şekil kazanır. Bu bağlantı, yığın için kabadın sözlük anlamını kurmadan ve her birikime tek bir ahlaki sonuç yüklemeden, iç zorlanmayı görünür kılan sınırlı bir maddi benzetme olarak kalır.
+
+## Başkasına Açılan Basınç
+
+Zorluk alanı tek bir bedenin içine kapanmaz; insanlar arasında farklı yoğunluklarda taşınan ortak bir basınç da olabilir. {ar:ٱلْإِنسَٰنَ, tr:al-insāna, gloss:insan} adının yakınlık ve yabancılığın kalkması yönü, 90:13'teki açma ve 90:15'teki akrabalık-yakınlık rolleriyle karşılaştığında bir insanın baskısına başka bir insanın yaklaşabileceği ilişkiyi kurar. 90:14'teki yiyecek aktarımı, açlık ve yorgunluğu başkasının bedeninde hissedilebilir kılan maddi karşılığı verir; daralmış zaman aralığı yardımın ne kadar yerinde olması gerektiğini gösterir. 90:16'daki eylem alanı kaybı ve tozda tutunma görüntüsü, eksikliği yere ve bedene bağlar. 90:13'teki açılma ise baskıya müdahale edilebilen bir yönü açar; bu bağlantı müdahale imkânını gösterir ve her açılmanın zorluğu bütünüyle çözdüğü sonucunu taşımaz.
+
+Bu sahnede 90:15'teki bakım bağının kaybı, bağ koptuğunda baskının ağırlaşan yüzünü gösterir; aynı ayetteki akrabalık yakınlığı sorumluluğun mevcut yakınlığa yönelmesini sağlar. Yiyecek vermek, soyut bir ilkeye değil baskı altındaki bedensel kişiye maddi karşılık vermektir. İnsan adının görerek fark etme ve tanınma çevresi, başkasının hâline yaklaşmayı mümkün kılan dikkat alanını açar. Böylece bu bağlantı kabadın temel meşakkat anlamını koruyarak, zorluğu başka bir insanın yakınlık kuran ve karşılık veren eylemine açılabilen nitelikli bir hâl olarak genişletir.
+
+Ortak basınçta dayanma, kişinin kendi içinde tuttuğu tek yönlü bir direnç değil, karşılıklı oluşan bir ilişki pratiğidir. {ar:خَلَقْنَا, tr:khalaqnā, gloss:yarattık} fiilinin iç karakter yönü, 90:17'deki kendini tutma ve merhamet rollerini yerleşik bir davranış eğilimi gibi duyurur. {ar:ٱلْإِنسَٰنَ, tr:al-insāna, gloss:insan} adının yakınlık çevresi 90:17'deki merhamet ve 90:18'deki yanında kalmaya dayalı yoldaşlıkla birleşince, baskı altındaki kişi terk edilmiş tekil bir beden olarak kalmaz. Karşılıklı öğüt, söylenen ve geri alınan bir alışveriştir; kendini tutma dağılmadan dayanmayı, merhamet başkasının baskısına kayıtsızlaşmamayı ekler. 90:18'deki yoldaşlık bu davranışları geçici yardımdan daha sürekli bir beraberliğe taşır. Zorluk sürerken insanlar birbirine dayanma ve şefkat aktarabilir.
+
+Kabad üzerinde gerçekleşen eylemler açılma kadar yoğunlaşma ve kapanma da taşır. 90:13'teki açılma kapalı veya dolaşmış bir hâlin dışa çözülmesini ve başkasının sıkışıklığına yönelen rahatlatıcı hareketi gösterir. 90:19'daki örtme ve geri çevirme, açıklamayı engelleyen karşı yönü ekler. Kabadın içeceğin koyulaşıp pıhtılaşmasına ilişkin maddi çağrışımı, geçirgenliğini yitiren yoğun bir merkez görüntüsü verir; 90:20'deki içinde enerji biriken ateş ve üzeri sıkıca kapatılan şey bu görüntüyü daha da sıkıştırır. Aynı kapanma dışarıya açılma imkânı kesilmiş bir kapı gibi düşünülebilir. Bu katkılar insan zorluğunun hem açılabilen hem koyulaşıp kapanabilen bir basınç alanı olarak duyulmasını sağlar; ateş, kapı ve içecek imgeleri bu bağlantıya ait bağlamsal analojiler olarak kalır.
+
+Orta yer imgesi, ortak baskı merkezinden ayrılan cevapların iki yönlü sonuçlar kazanmasını gösterir. 90:18'deki yoldaşlık ve sağ taraf görüntüsü bir beraberlik yönü açar; 90:19'da yoldaşlığın yeniden görünmesi ve sol taraf karşılığının gelmesi, aynı insanlık merkezinden karşı yönde ikinci bir kalıcı topluluk çıkabileceğini düşündürür. İlk beraberlik silinip tek bir sonuca eritilmez; aynı yoldaşlık çizgisinin iki ayrı bağlamdaki sonuçları olarak kalır. İnsan zorluğun ortasında yalnız duran bir beden değil, cevaplarıyla yön ve beraberlik kazanan bir varlık gibi belirir. Sağ ve solun katkıları burada değer sıralaması kurmaz; iki yön aynı baskı merkezinden çıkar.
+
+Yaratma ve kabad, doğum ve merhamet temalarıyla korunan fakat basınçlı bir iç alandan ortaya çıkma görüntüsü de kazanır. {ar:خَلَقْنَا, tr:khalaqnā, gloss:ortaya çıkararak var ettik} fiilinin ortaya çıkış yönü, 90:3'teki doğum ve doğurtma hareketlerinin bedensel geçişini taşır. {ar:كَبَدٍ, tr:kabadin, gloss:zorluk} kelimesinin karaciğer yönü korunan iç alanın bedensel taşıyıcısını, meşakkat yönü ortaya çıkış içindeki baskıyı düşündürür. 90:17'deki merhamet ve şefkat bu basıncı kayıtsız bir boşluk olmaktan çıkarıp koruyucu bir iç ilişki içinde duyurur. İnsan var edilmesi böylece korunmuş fakat zorlayıcı bir iç basınçtan geçerek ortaya çıkıyormuş gibi hissedilir. Bu gebelik ve doğum görüntüsü bu bağlantının keşif niteliğindeki sınırında kalır; 90:3'teki doğum temasının kendi sözlük dalı kurulmaz, kabad doğrudan rahim adı hâline gelmez ve sıradan zorluk anlamı yerinde kalır.
+
+Kabadın yoğunluğu, zorluk ile kolaylığın aynı karşılaştırma alanında tutulmasına da izin verir. 94:5 ve 94:6'da tekrar eden {ar:فَإِنَّ مَعَ ٱلْعُسْرِ يُسْرًا, tr:fa-inna maʿa al-ʿusri yusrā, gloss:zorlukla beraber kolaylık vardır} eşleşmesi, kolaylığı zorluğun yanına ve ardından düşünülür hâle getirir. 94:5 ve 94:6, 90:4'ün yakın bağlamı değildir; bu ayetler kabadın doğrudan sözlük anlamını değiştirmeden, zorluğun tek başına son söz olmadığını gösteren ayetler arası bir denge getirir. İnsan zorluğu ciddiye alırken kolaylığın onunla birlikte veya ardından düşünülebileceğini görür.
+
+17:70'te insanın onur ve rızıkla anılması, baskı içindeki insanın korunmuş değerini görünür kılar. {ar:كَبَدٍ, tr:kabadin, gloss:zorluk} içindeki ağır meşakkat, bu onur ve rızıklandırma görüntüsüyle insanın bütün değerini tüketen tek tanım olmaktan çıkar; gerçek baskı ile normatif değer aynı insan tasvirinde birlikte tutulur. 17:70'in katkısı kabadın doğrudan sözcüksel karşılığı değil, zorluk okumasını sınırlayan bağlamsal bir karşılıktır.
+
+Yaratmanın var etme ve ortaya çıkarma yönü, 23:115'te insanın amaçsız yaratılmış olamayacağına yönelen güçlü sorgulamayla birlikte düşünüldüğünde, zorluk içindeki yaratılışı anlamsızlığa kapatmaz. İnsan gerçekten zorluk içinde yaratılmıştır; 23:115'in katkısı bu baskının amaç yokluğuna çevrilmesini engelleyen bir sınır getirmektir. Böylece baskı ciddiyetini korurken insan varoluşu anlam bakımından açık kalır. Amaç 90:4'ün doğrudan sözcüksel içeriği değil, 23:115'in bu yaratılmış insan hâline eklediği bağlamsal niteliktir.
+
+</editorial_prose>

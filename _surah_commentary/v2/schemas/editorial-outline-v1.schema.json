@@ -1,0 +1,58 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Surah outline grounded only in final editorials",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schemaVersion", "packetHash", "primaryArc", "movements", "ayahCoverage", "friction"],
+  "properties": {
+    "schemaVersion": {"const": "surah-editorial-outline-v1"},
+    "packetHash": {"type": "string", "pattern": "^[a-f0-9]{64}$"},
+    "primaryArc": {
+      "type": "object", "additionalProperties": false, "required": ["text", "evidence"],
+      "properties": {
+        "text": {"$ref": "#/$defs/text"},
+        "evidence": {"type": "array", "minItems": 1, "items": {"$ref": "#/$defs/anchor"}}
+      }
+    },
+    "movements": {
+      "type": "array", "items": {
+        "type": "object", "additionalProperties": false,
+        "required": ["id", "title", "contribution", "members"],
+        "properties": {
+          "id": {"type": "string", "pattern": "^[a-z][a-z0-9-]*$"},
+          "title": {"$ref": "#/$defs/text"},
+          "contribution": {"$ref": "#/$defs/text"},
+          "members": {"type": "array", "minItems": 2, "items": {
+            "type": "object", "additionalProperties": false,
+            "required": ["ayahRef", "image", "contribution", "qualification", "anchors"],
+            "properties": {
+              "ayahRef": {"$ref": "#/$defs/ayahRef"},
+              "image": {"$ref": "#/$defs/text"},
+              "contribution": {"$ref": "#/$defs/text"},
+              "qualification": {"$ref": "#/$defs/text"},
+              "anchors": {"type": "array", "minItems": 1, "items": {"$ref": "#/$defs/text"}}
+            }
+          }}
+        }
+      }
+    },
+    "ayahCoverage": {"type": "array", "items": {
+      "type": "object", "additionalProperties": false,
+      "required": ["ayahRef", "movementIds", "note"],
+      "properties": {
+        "ayahRef": {"$ref": "#/$defs/ayahRef"},
+        "movementIds": {"type": "array", "uniqueItems": true, "items": {"$ref": "#/$defs/text"}},
+        "note": {"$ref": "#/$defs/text"}
+      }
+    }},
+    "friction": {"type": "array", "items": {"$ref": "#/$defs/text"}}
+  },
+  "$defs": {
+    "text": {"type": "string", "minLength": 1},
+    "ayahRef": {"type": "string", "pattern": "^[1-9][0-9]{0,2}:[1-9][0-9]*$"},
+    "anchor": {
+      "type": "object", "additionalProperties": false, "required": ["ayahRef", "anchor"],
+      "properties": {"ayahRef": {"$ref": "#/$defs/ayahRef"}, "anchor": {"$ref": "#/$defs/text"}}
+    }
+  }
+}

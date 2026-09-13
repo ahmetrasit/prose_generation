@@ -1,0 +1,452 @@
+{
+  "schema_version": "commentary-v5-scope-discovery-v1",
+  "ayah_ref": "88:22",
+  "lane": "macro",
+  "coverage_complete": true,
+  "candidate_decisions": [
+    {
+      "candidate_id": "cand_1727414a5115eb5270b8",
+      "decision": "narrow",
+      "reason": "The pericope supports a bounded institutional-watch reading through the exact focus occurrence of root_000704/B003 and the observation and final-account connections. The nominated counting, administrative-accountability, and appointed-watcher branches have no exact branch-specific carrier occurrence or attached HFT trace in this candidate, so they cannot be retained as activated facets.",
+      "finding_refs": ["macro:institutional-watch-boundary"],
+      "branch_exclusions": [
+        {
+          "branch_ref": "root_000318/B001",
+          "reason": "The channel nomination names counting at 88:26, but the packet supplies no exact branch-specific occurrence or word alignment for this candidate; its registry record has no focus occurrence."
+        },
+        {
+          "branch_ref": "root_000318/B006",
+          "reason": "The channel nomination names administrative accountability, but the packet supplies no exact branch-specific carrier occurrence or word alignment for this candidate."
+        },
+        {
+          "branch_ref": "root_001520/B009",
+          "reason": "The channel nomination names an appointed watcher at 88:17, but the packet supplies no exact branch-specific carrier occurrence or attached trace for this candidate."
+        }
+      ],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_f71b5bcd46f520c5291d",
+      "decision": "accept",
+      "reason": "The exact HFT trace connects the focus controller occurrence at 88:22:3:2 with the audience-directed looking occurrence at 88:17:2 and supplies both the perceptive and watcher alternatives. All nominated branches land, with unresolved context branches retained as attributed evidence.",
+      "finding_refs": ["macro:seeing-without-surveillance"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_ce0ac52ded923f775f17",
+      "decision": "accept",
+      "reason": "The exact HFT trace places the reminder occurrences at 88:21:1 and 88:21:4 beside the focus negated role at 88:22, yielding a distinct catalytic-versus-custodial relation. The focus and unresolved contextual branches all land through the supplied coordinates.",
+      "finding_refs": ["macro:reminder-catalytic-boundary"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_22a23cb839cb0607499a",
+      "decision": "accept",
+      "reason": "The exact HFT trace returns the focus controller denial through the next verse's turning and covering occurrences at 88:23:3 and 88:23:4. The directional and concealing response remains a distinct agency reading, and every supplied branch is accounted for.",
+      "finding_refs": ["macro:respondent-agency-boundary"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_f781ee3535e3d42c4efc",
+      "decision": "accept",
+      "reason": "The exact HFT trace connects the focus denial to the subsequent punishment, return, and account anchors at 88:24-26. The resulting division of jurisdiction is distinct from the reminder, observation, and respondent-agency findings, and every supplied branch is accounted for.",
+      "finding_refs": ["macro:jurisdiction-not-delegated"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    }
+  ],
+  "findings": [
+    {
+      "finding_ref": "macro:institutional-watch-boundary",
+      "origin_candidate_id": "cand_1727414a5115eb5270b8",
+      "represented_candidate_ids": [],
+      "title": "A denied office between observation and account",
+      "claim": "Within the declared pericope, the denied controller is framed against an office that watches conduct and meets it with a final account.",
+      "mechanism": "The focus occurrence carries the authorized, responsible overseer in root_000704/B003; the 88:17 observation connection and the 88:26 final-account connection place that office inside a pericope-level inspection-and-accounting process, so the negation marks the speaker's boundary against it.",
+      "reader_payoff": "The focus becomes a jurisdictional boundary around an inspecting and accounting office, rather than a bare statement of insufficient force.",
+      "containment": "The primary reading remains that the addressee is not a controller over them. The institutional process is a bounded pericope-level resonance, and the three nominated contextual branches without exact carrier coordinates are excluded.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": ["trusted"],
+        "reason": "The channel supports and exact focus carrier are trusted, but the channel nomination is not an adjudicated acceptance and its three contextual branch nominations lack exact candidate-specific carrier coordinates."
+      },
+      "support_ids": [
+        "sup_1c7603757032ae456fa0",
+        "sup_29e949f4d43080a3b9b6",
+        "sup_d6b149ea39dfdd116634",
+        "sup_de751bba7f366a2c4c01",
+        "sup_e3d86311860e99931098"
+      ],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000704/B003",
+          "facet_id": "F001",
+          "branch_gloss": "gözeten, koruyan ve hesap tutan yetkili denetleyici",
+          "facet_statement": "Kişi, gözettiği şeyin sorumluluğunu üstlenen yetkili bir denetleyicidir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["88:22:3:2"],
+          "trigger_refs": ["88:17", "88:26"],
+          "focus_return_refs": ["88:22:3:2"],
+          "carrier": "The focus occurrence carries an authorized overseer responsible for the people under observation.",
+          "independent_trigger": "The declared pericope supplies an observation anchor at 88:17 and a final-account anchor at 88:26.",
+          "activation": "The focus controller role meets the pericope's observation-to-account movement, making the denied office legible as an inspecting and answerable authority.",
+          "resulting_reading": "The negation bounds the speaker away from the office that inspects conduct and receives its account.",
+          "boundary": "Only the exact focus B003 core is retained; the nominated counting, administrative-accountability, and appointed-watcher branches lack exact candidate-specific carrier coordinates."
+        }
+      ],
+      "connection_refs": [
+        "conn_d57c6f3cb5c02d264884",
+        "conn_7926b78da39a4a96c6cb"
+      ],
+      "context_refs": ["88:17", "88:26"],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "macro:seeing-without-surveillance",
+      "origin_candidate_id": "cand_f71b5bcd46f520c5291d",
+      "represented_candidate_ids": [],
+      "title": "Seeing stays with the hearers",
+      "claim": "The pericope places audience-directed seeing beside the focus's denial of a watcher-controller office: observation is invited for them, while surveillance is not assigned to the messenger.",
+      "mechanism": "The focus occurrence carries the responsible overseer in root_000704/B003, while the 88:17 occurrence named by the HFT trace carries both directed perception and a watching guard. Their contact turns the focus denial into a contrast between opening signs to the hearers' seeing and owning the people being addressed.",
+      "reader_payoff": "The sentence draws a clear line between enabling perception and taking custody of another person's response.",
+      "containment": "The primary denial that the addressee is a controller over them remains intact. The observation and watcher readings are a qualified contextual contrast, not a replacement of the focus sense.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": ["legacy_unbound"],
+        "reason": "The HFT trace gives exact in-pericope anchors and word indices, but its reader identity is legacy_unbound and its target morphology and branch segmentation remain attributed rather than independently verified."
+      },
+      "support_ids": ["sup_c55bc501039f6642aacf"],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000704/B003",
+          "facet_id": "F002",
+          "branch_gloss": "gözeten, koruyan ve hesap tutan yetkili denetleyici",
+          "facet_statement": "Gözetilen şeyi korur, durumlarını izler ve onun üzerinde denetim yetkisi kullanır.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["88:22:3:2"],
+          "trigger_refs": ["88:17:2"],
+          "focus_return_refs": ["88:22:3:2"],
+          "carrier": "The focus occurrence carries the overseer who protects, monitors, and exercises authority over the addressed people.",
+          "independent_trigger": "The 88:17 word occurrence is the pericope's directed looking toward a created sign.",
+          "activation": "The observation command supplies an independent act of seeing against which the focus's denied monitoring office becomes legible.",
+          "resulting_reading": "The focus separates making perception possible from holding a surveillance office over the hearers.",
+          "boundary": "The contrast is local to the supplied pericope and does not claim that the speaker is assigned any other institutional office."
+        },
+        {
+          "branch_ref": "root_001520/B001",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": ["88:17:2"],
+          "trigger_refs": ["88:22:3:2"],
+          "focus_return_refs": ["88:22:3:2"],
+          "carrier": "The 88:17 occurrence carries audience-directed looking or perception.",
+          "independent_trigger": "The focus occurrence denies the addressee the watcher-controller office.",
+          "activation": "The trace assigns directed perception to the audience and places it in contact with the focus's denied surveillance role.",
+          "resulting_reading": "The hearers' own seeing becomes the active response opened by the focus boundary.",
+          "boundary": "The branch is retained only as attributed HFT contextual evidence; no independent lexicon branch gloss or facet is supplied."
+        },
+        {
+          "branch_ref": "root_001520/B009",
+          "facet_id": "SOURCE_IMAGE",
+          "branch_gloss": "a watcher who looks and guards",
+          "facet_statement": "a watcher who looks and guards",
+          "application_mode": "attributed",
+          "carrier_refs": ["88:17:2"],
+          "trigger_refs": ["88:22:3:2"],
+          "focus_return_refs": ["88:22:3:2"],
+          "carrier": "The 88:17 occurrence carries the watcher who looks and guards supplied by the trace.",
+          "independent_trigger": "The focus occurrence denies the addressee the controller role over the people addressed.",
+          "activation": "The watcher image supplies the surveillance alternative that the focus controller branch explicitly rejects for the speaker.",
+          "resulting_reading": "A watching-and-guarding office remains a contrastive role outside the messenger's denied position.",
+          "boundary": "The nominated watcher branch is retained only in the HFT-attributed contact; it is not used to assign surveillance to the speaker."
+        }
+      ],
+      "connection_refs": ["conn_d57c6f3cb5c02d264884"],
+      "context_refs": ["88:17"],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "macro:reminder-catalytic-boundary",
+      "origin_candidate_id": "cand_ce0ac52ded923f775f17",
+      "represented_candidate_ids": [],
+      "title": "Reminder is catalytic, not custodial",
+      "claim": "The preceding reminder and the focus role denial distinguish triggering recollection from maintaining a person's resulting state: the messenger is authorized to recall, while custody of the response remains outside his office.",
+      "mechanism": "The focus negation and controller occurrence meet the 88:21 reminder occurrences, whose traced meanings include recalling after forgetfulness and functioning as the means of recall. That contact changes the role boundary from a general inability to force into a distinction between reactivating memory and externally maintaining its object.",
+      "reader_payoff": "The adjacent verses clarify what reminding does: it reactivates a capacity in the recipient while leaving the resulting state with the recipient and its proper judge.",
+      "containment": "The focus still plainly denies that the addressee is a controller over them. The catalytic and custodial distinction is a qualified pericope reading, not a claim that the command to remind is weakened into irrelevance.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": ["legacy_unbound"],
+        "reason": "The HFT trace supplies exact 88:21 and 88:22 coordinates and a changed reading, but the reader identity is legacy_unbound and the contextual branch roles remain attributed."
+      },
+      "support_ids": ["sup_8da5191f1cefe028bd18"],
+      "branch_activations": [
+        {
+          "branch_ref": "root_001390/B001",
+          "facet_id": "F001",
+          "branch_gloss": "özneyi yalın, yüklemi belirtme durumunda tutan geçmiş biçimli olumsuzluk eylemi",
+          "facet_statement": "Bir durum ya da niteliğin özne için geçerli olmadığını bildirir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["88:22:1:1"],
+          "trigger_refs": ["88:21:1", "88:21:4"],
+          "focus_return_refs": ["88:22:1:1"],
+          "carrier": "The focus negating predication marks the denied role as a present state or status of the addressee.",
+          "independent_trigger": "The preceding 88:21 occurrences supply the reminder and recollection relation.",
+          "activation": "The focus negation closes the role definition begun by the reminder, making the role boundary explicit in the present predication.",
+          "resulting_reading": "The addressee's present office is bounded by the reminder's limited instrument rather than by a controlling status.",
+          "boundary": "The exact grammatical branch is retained; no unrelated nominal or exceptional negation branch is activated."
+        },
+        {
+          "branch_ref": "root_000704/B003",
+          "facet_id": "F002",
+          "branch_gloss": "gözeten, koruyan ve hesap tutan yetkili denetleyici",
+          "facet_statement": "Gözetilen şeyi korur, durumlarını izler ve onun üzerinde denetim yetkisi kullanır.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["88:22:3:2"],
+          "trigger_refs": ["88:21:1", "88:21:4"],
+          "focus_return_refs": ["88:22:3:2"],
+          "carrier": "The focus occurrence carries the external oversight and preservation office that is denied.",
+          "independent_trigger": "The preceding reminder occurrences describe recalling as the messenger's supplied instrument.",
+          "activation": "Reminder and external oversight meet as two different ways of affecting a recipient: one reactivates recall, the other monitors and maintains.",
+          "resulting_reading": "The focus denies custodial maintenance while preserving the reminder's authorized catalytic role.",
+          "boundary": "The contact concerns the adjacent reminder and focus roles; it does not assign an independent institutional office to the addressee."
+        },
+        {
+          "branch_ref": "root_000516/B003",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": ["88:21:1", "88:21:4"],
+          "trigger_refs": ["88:22:3:2"],
+          "focus_return_refs": ["88:22:3:2"],
+          "carrier": "The 88:21 occurrences carry recollection after forgetfulness as the recipient-side reactivation.",
+          "independent_trigger": "The focus supplies the denied external oversight role.",
+          "activation": "The trace contrasts the recipient's reactivated remembrance with the focus's denied external maintenance and returns both to the focus role boundary.",
+          "resulting_reading": "The recipient's remembered response is reactivated rather than externally preserved by the messenger.",
+          "boundary": "This is attributed HFT contextual evidence; no independent lexicon branch gloss or facet is supplied for root_000516/B003."
+        },
+        {
+          "branch_ref": "root_000516/B009",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": ["88:21:1", "88:21:4"],
+          "trigger_refs": ["88:22:3:2"],
+          "focus_return_refs": ["88:22:3:2"],
+          "carrier": "The 88:21 occurrences carry the reminder as an instrument of recalling.",
+          "independent_trigger": "The focus occurrence denies the external controller and maintainer role.",
+          "activation": "The reminder instrument contacts the focus denial by specifying the limited action authorized to the addressee.",
+          "resulting_reading": "The messenger's action is to reactivate recall, while the recipient's resulting state remains outside that office.",
+          "boundary": "This is attributed HFT contextual evidence; no independent lexicon branch gloss or facet is supplied for root_000516/B009."
+        }
+      ],
+      "connection_refs": ["conn_dabd3ed05a2883223ab2"],
+      "context_refs": ["88:21"],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "macro:respondent-agency-boundary",
+      "origin_candidate_id": "cand_22a23cb839cb0607499a",
+      "represented_candidate_ids": [],
+      "title": "Refusal remains the respondent's act",
+      "claim": "The next verse locates turning away and concealing the truth in the respondent, so the focus's denial of control leaves responsibility with the one who turns.",
+      "mechanism": "The focus controller occurrence meets the 88:23 occurrences traced as turning the face, withdrawing, and covering truth. Because the focus denies the messenger control over the addressed people, the next verse's singular respondent retains the directional and inward acts of refusal.",
+      "reader_payoff": "The boundary clarifies where refusal belongs: the messenger's inability to compel preserves the respondent's own direction and concealment as meaningful acts.",
+      "containment": "The focus remains the plain denial of a controller office. The attributed 88:23 branches describe the respondent's agency without turning the focus into a general theory of human freedom.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": ["legacy_unbound"],
+        "reason": "The HFT trace gives exact focus and next-verse word coordinates and labels the changed reading strengthened, but its reader identity is legacy_unbound and the contextual branch roles remain attributed; the supplied confidence is medium."
+      },
+      "support_ids": ["sup_defd762b932d169ecb59"],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000704/B003",
+          "facet_id": "F001",
+          "branch_gloss": "gözeten, koruyan ve hesap tutan yetkili denetleyici",
+          "facet_statement": "Kişi, gözettiği şeyin sorumluluğunu üstlenen yetkili bir denetleyicidir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["88:22:3:2"],
+          "trigger_refs": ["88:23:3", "88:23:4"],
+          "focus_return_refs": ["88:22:3:2"],
+          "carrier": "The focus occurrence carries the controller office whose denied scope would otherwise absorb the respondent's acts.",
+          "independent_trigger": "The next verse supplies a singular respondent who turns away and covers truth.",
+          "activation": "The focus boundary meets the next verse's concentrated respondent, showing the denied controller office as a limit on taking over another person's direction and refusal.",
+          "resulting_reading": "The messenger's boundary preserves the respondent's own refusal as an attributable act.",
+          "boundary": "The finding concerns the supplied focus-to-next-verse relation and does not claim that every form of responsibility is independent of divine judgment."
+        },
+        {
+          "branch_ref": "root_001684/B006",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": ["88:23:3"],
+          "trigger_refs": ["88:22:3:2"],
+          "focus_return_refs": ["88:22:3:2"],
+          "carrier": "The 88:23 occurrence carries turning the face as the respondent's directional act.",
+          "independent_trigger": "The focus denies the messenger the controller role over the addressed people.",
+          "activation": "The respondent's turning supplies a concrete directional act that the denied controller office does not absorb.",
+          "resulting_reading": "Turning away remains the respondent's own movement within the focus boundary.",
+          "boundary": "This branch is retained only as attributed HFT evidence; no independent lexicon branch gloss or facet is supplied."
+        },
+        {
+          "branch_ref": "root_001684/B007",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": ["88:23:3"],
+          "trigger_refs": ["88:22:3:2"],
+          "focus_return_refs": ["88:22:3:2"],
+          "carrier": "The 88:23 occurrence carries turning away as the respondent's withdrawal.",
+          "independent_trigger": "The focus denies the messenger the power to control the addressed people's response.",
+          "activation": "The withdrawal image makes the denied controller office concrete by showing the response it would otherwise attempt to prevent.",
+          "resulting_reading": "The respondent's withdrawal remains their own act under the focus's stated boundary.",
+          "boundary": "This branch is retained only as attributed HFT evidence; no independent lexicon branch gloss or facet is supplied."
+        },
+        {
+          "branch_ref": "root_001307/B003",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": ["88:23:4"],
+          "trigger_refs": ["88:22:3:2"],
+          "focus_return_refs": ["88:22:3:2"],
+          "carrier": "The 88:23 occurrence carries covering or concealing truth as an inward aspect of refusal.",
+          "independent_trigger": "The focus denies the messenger an office that externally controls the addressed people.",
+          "activation": "The inward covering act joins the outward turning while the focus boundary prevents the messenger from taking either act over.",
+          "resulting_reading": "Refusal remains both a directional withdrawal and a respondent-side concealment.",
+          "boundary": "This branch is retained only as attributed HFT evidence; no independent lexicon branch gloss or facet is supplied."
+        }
+      ],
+      "connection_refs": ["conn_9484b0a9b7c0107ebfce"],
+      "context_refs": ["88:23"],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "macro:jurisdiction-not-delegated",
+      "origin_candidate_id": "cand_f781ee3535e3d42c4efc",
+      "represented_candidate_ids": [],
+      "title": "Jurisdiction is assigned elsewhere",
+      "claim": "After the focus denies a human controller, the nearby pericope assigns punishment, return, and accounting to the divine side, making the denial a division of jurisdiction rather than a bare lack of power.",
+      "mechanism": "The focus controller occurrence meets the 88:24 punishment and named divine-agent occurrences, the 88:25 return occurrence, and the 88:26 accounting occurrence. Their repeated assignment of sanction, return, and account away from the focus office changes the denial into an explicit distribution of functions.",
+      "reader_payoff": "The focus acquires a precise institutional boundary: reminding can be delegated, while punishment, final return, and accounting remain assigned beyond the messenger.",
+      "containment": "The primary reading remains that the addressee is not a controller over them. The subsequent assignments are a qualified pericope-level division of functions, not a claim that every available control-related branch is active.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": ["legacy_unbound"],
+        "reason": "The HFT trace supplies exact anchors and word indices for all four verses and a strengthened changed reading, but its reader identity is legacy_unbound and unresolved branch roles remain attributed."
+      },
+      "support_ids": ["sup_7b7cb53eead9aa9f04e9"],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000704/B003",
+          "facet_id": "F001",
+          "branch_gloss": "gözeten, koruyan ve hesap tutan yetkili denetleyici",
+          "facet_statement": "Kişi, gözettiği şeyin sorumluluğunu üstlenen yetkili bir denetleyicidir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["88:22:3:2"],
+          "trigger_refs": ["88:24:2", "88:25:3", "88:26:4"],
+          "focus_return_refs": ["88:22:3:2"],
+          "carrier": "The focus occurrence carries the responsible controller office whose jurisdiction is denied.",
+          "independent_trigger": "The subsequent anchors assign punishment, return, and accounting to the divine side.",
+          "activation": "The focus office meets the repeated subsequent assignments, making its non-control legible as a jurisdictional boundary rather than an accidental weakness.",
+          "resulting_reading": "The messenger reminds while sanction, return, and final account remain outside the denied controller office.",
+          "boundary": "The finding is limited to the supplied 88:22-26 allocation and does not infer a broader doctrine of institutional authority."
+        },
+        {
+          "branch_ref": "root_000994/B005",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": ["88:24:1", "88:24:3"],
+          "trigger_refs": ["88:22:3:2", "88:24:2"],
+          "focus_return_refs": ["88:22:3:2"],
+          "carrier": "The 88:24 occurrences carry painful punishment as the sanction beyond the messenger's office.",
+          "independent_trigger": "The focus denies the controller office, and the same verse names the divine agent.",
+          "activation": "Punishment supplies the coercive function that the focus controller role does not delegate to the speaker.",
+          "resulting_reading": "The focus boundary is followed by a sanction assigned elsewhere.",
+          "boundary": "This branch is retained only as attributed HFT evidence; no independent lexicon branch gloss or facet is supplied."
+        },
+        {
+          "branch_ref": "root_000047/B001",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": ["88:24:2"],
+          "trigger_refs": ["88:22:3:2", "88:24:1", "88:24:3"],
+          "focus_return_refs": ["88:22:3:2"],
+          "carrier": "The 88:24 occurrence carries the explicitly named divine referent as agent of the sanction.",
+          "independent_trigger": "The focus denial supplies the office from which sanction is withheld.",
+          "activation": "The named divine agent contacts the focus denial by receiving the punitive function that the messenger does not hold.",
+          "resulting_reading": "The denied controller office is bounded by a separately named agent of punishment.",
+          "boundary": "This branch is retained only as attributed HFT evidence; no independent lexicon branch gloss or facet is supplied."
+        },
+        {
+          "branch_ref": "root_000065/B001",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": ["88:25:3"],
+          "trigger_refs": ["88:22:3:2", "88:26:4"],
+          "focus_return_refs": ["88:22:3:2"],
+          "carrier": "The 88:25 occurrence carries return to the place of return as a terminal movement assigned beyond the messenger.",
+          "independent_trigger": "The focus denies the messenger the controller office, while the following verse assigns return to the divine side.",
+          "activation": "Return contacts the focus boundary as a subsequent jurisdictional function, completing the movement away from messenger control.",
+          "resulting_reading": "The people’s final return remains assigned outside the denied office.",
+          "boundary": "This branch is retained only as attributed HFT evidence; no independent lexicon branch gloss or facet is supplied."
+        },
+        {
+          "branch_ref": "root_000318/B001",
+          "facet_id": "SOURCE_IMAGE",
+          "branch_gloss": "counting and reckoning",
+          "facet_statement": "counting and reckoning",
+          "application_mode": "attributed",
+          "carrier_refs": ["88:26:4"],
+          "trigger_refs": ["88:22:3:2", "88:25:3"],
+          "focus_return_refs": ["88:22:3:2"],
+          "carrier": "The 88:26 occurrence carries counting and reckoning as the final evaluative operation.",
+          "independent_trigger": "The focus denies the controller office, and the preceding return assignment extends the same post-reminder boundary.",
+          "activation": "Final accounting contacts the denied controller role by naming the evaluative function that remains assigned beyond the messenger.",
+          "resulting_reading": "The pericope ends with account held outside the messenger's office.",
+          "boundary": "The branch is retained through the exact HFT context coordinate and nominated source image; no wider calculation imagery is activated."
+        }
+      ],
+      "connection_refs": [
+        "conn_71ad10f57e9db0318967",
+        "conn_1bb484d8c90c1ec6f8b8",
+        "conn_7926b78da39a4a96c6cb"
+      ],
+      "context_refs": ["88:24", "88:25", "88:26"],
+      "semantic_obligation_refs": []
+    }
+  ],
+  "friction_notes": [
+    "All four assigned HFT records are visible and have exact anchors within the declared pericope, but the reader identity is legacy_unbound; exact Arabic verifies surface contact while target morphology, segmentation, and unresolved branch roles remain attributed, so those findings are qualified.",
+    "The HFT packet reports broader_than_declared_pericope provenance, while every retained HFT anchor used here lies within 88:17-88:26; no outside anchor was used.",
+    "The automatic host prefatory basmala 88:0 is present as ordinary macro context and supplies no carrier or trigger for a retained finding.",
+    "The channel nomination is trusted but does not supply exact candidate-specific carrier coordinates for its counting, administrative-accountability, or appointed-watcher nominations; those branches are explicitly excluded from the narrowed finding."
+  ]
+}

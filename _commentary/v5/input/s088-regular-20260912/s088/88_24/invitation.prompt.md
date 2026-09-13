@@ -1,0 +1,175 @@
+# V5 reading invitation — 88:24
+
+You are a fresh reading-invitation writer. Read the complete editorial prose
+before writing. It is your sole semantic source.
+
+Write two to four paragraphs of fluent, contemporary Turkish that reveal a
+surprising reading by following one or two main channels of resonance in the
+ayah. A channel is a connected background of meanings, images, actions, or
+relations through which the ayah can be heard and understood differently.
+Several editorial findings may together develop one channel. Summarize that
+connected movement and its consequence for the ayah's main meaning, rather
+than compressing findings individually. Give the reading's substance now;
+the invitation comes from understanding it, not from a promise of hidden depth.
+
+Before drafting, read the entire editorial prose and silently select the one
+or two channels with the strongest interpretive consequence and enough
+grounding to explain clearly. Favor channels that expand or shift what the
+ayah says, the relation it establishes, or what is at stake in its action or
+image. One fully developed channel is sufficient; add a second only when it
+offers a distinct consequential reading that can be explained within the
+invitation. No finding, channel, or major shift has an individual coverage
+claim. Unselected material may remain entirely in the full commentary.
+
+A channel may develop through grammar, sound, dialogue, a material process,
+time, imagery, or a conceptual relation. Resonance is not limited to acoustic
+effects, and an unusual image alone does not establish a channel. Use only
+connections the editorial prose actually develops. If it supplies no such
+channel, explain its strongest grounded reading without inventing connections
+or surprise.
+
+Begin inside the ayah's own words, images, actions, or relations and reveal a
+selected distinctive reading in the first paragraph. Keep the plain meaning
+reachable with only the orientation needed to understand the change. Do not
+spend an opening paragraph on routine explanation or front-load context about
+the surah, the ayah's position, or the commentary project.
+
+For each selected channel, begin with the expression that opens it, unfold the
+connected background, and show how the ayah reads or sounds against that
+background. Let a detail lead into the next through an intelligible relation
+or process, so the reader experiences the emerging reading. This is a movement
+of thought, not a mandatory sentence pattern or one paragraph per finding.
+Let the reader identify the expression being interpreted,
+where any nonordinary detail comes from, and what that detail changes in the
+reading. Briefly identify the word-family use, restricted form, collocation, or
+context that supplies an essential added detail, and preserve the concrete
+operation that makes the image work. Keep the ordinary reading and necessary
+qualification clear within this explanation; do not repeat them as a fixed
+formula. Preserve the particular object, process, or relation that makes this
+reading distinctive, and state its interpretive consequence for the ayah as a
+whole. Make intelligible what the familiar reading leaves less visible and
+what the expanded or shifted reading now lets the reader understand. Preserve
+the editorial's force: an exploratory possibility remains possible, while a
+developed shift must not be softened into a decorative association or a
+reassurance that everything means the same thing. A concrete
+account of how something is carried, transformed, lost, or restored must not
+shrink to a general statement about care, guidance, dependence, or goodness.
+Keep the details needed to make the selected channel work; omit side findings
+and shorten routine setup. If a channel cannot be explained faithfully from
+the editorial prose, choose another grounded channel or reading.
+
+When a non-focus ayah supplies a contribution used in the invitation, keep its
+reference from the editorial prose beside that contribution.
+
+Do not turn the invitation into a miniature inventory of the commentary's
+conclusions, or flatten distinct channels into a broad theme to include more
+material. Do not repair, extend, or supplement the editorial prose from memory
+or outside knowledge.
+
+Omit technical apparatus. Retain any qualification, source distinction, live
+alternative, or boundary whose absence would change the force or meaning of a
+chosen reading. Express it naturally beside the image or relation it qualifies.
+Favor positive explanations of the relation between layers: what remains in
+the foreground and what the resonance makes audible in the background. State
+how that background reinforces, expands, or shifts the understanding of the
+main meaning, with the source and degree of certainty clear. Reserve explicit
+exclusions for concrete ambiguities or live counter-evidence that need them.
+Repeated "this is not X" endings make a reading sound withdrawn; express the
+substantive qualification through what the reading does contribute wherever
+possible. Use varied, natural language rather than a repeated "second layer"
+formula, and preserve the force of expansions and shifts.
+Do not name branches, candidates, findings, scopes, evidence categories,
+ledgers, or workflow stages, or label the prose as numbered channels. Do not
+list findings serially.
+
+Use the established `{ar:..., tr:..., gloss:...}` syntax, consistent
+Turkish-readable transliteration, and short ordinary glosses. Keep Arabic
+anchors beside the explanations they ground. Within a paragraph, continue with
+the Turkish meaning where clear; provide the necessary local tag when a later
+paragraph interprets the carrier anew. Do not place Arabic script outside a
+valid tag.
+
+Build transitions within a channel through its shared object, action, or
+relation. If two channels are selected, they may occupy separate paragraphs;
+do not invent a link between them. Do not praise the commentary's quality,
+promise what the reader will find, manufacture suspense, recap at the end, or
+add a call to action. End on an image, relation, action, or tension already
+established by the selected reading.
+
+Before finishing, compare the invitation with the entire editorial prose:
+does the chosen channel reveal a consequential reading, or could the text have
+been written from the ordinary translation and a modest explanation alone?
+When the editorial supports a surprising channel, the latter fails this task.
+Can the reader follow the opening expression into a connected background and
+understand how that background expands or shifts the ayah's main meaning?
+Check the selected connections against their editorial explanation: can the
+reader tell where the nonordinary details come from, with the necessary
+qualifications intact? Repair generic explanation, isolated curiosities, or a
+compressed findings list by developing the selected channel. Do not add
+omitted channels merely for coverage. Do not output this check.
+
+Write only the invitation text to:
+
+`_commentary/v5/editorial/s088-regular-20260912/s088/88_24/88_24.invitation.tr.md`
+
+Do not add a heading, wrapper label, index, ledger, evidence file, or any other
+artifact. Do not modify the editorial prose.
+
+After writing the invitation, run:
+
+```bash
+python3 _commentary/v5/validate_prose.py _commentary/v5/editorial/s088-regular-20260912/s088/88_24/88_24.invitation.tr.md
+```
+
+If validation fails, repair only the reported mechanical file-contract issues
+and rerun it, for at most two repair cycles. Report the final validator result
+in your response.
+
+<editorial_prose>
+88:24, önceki ayette yüz çevirip gerçeği örten tekil kişi için verilen sonucu bildirir: Allah onu en büyük cezayla cezalandırır. Başındaki {ar:فَ, tr:fe, gloss:sonuç olarak} önceki reddedişi bu cümleye bağlar; söz böylece hemen önceki tutuma verilen karşılık olarak duyulur. Edatın fiile bitişmiş görünümü {ar:فَيُعَذِّبُهُ, tr:fe-yuazzibuhu, gloss:sonuç olarak onu cezalandırır} geçişi tek hamlede işittirir. Bu ses sıkışması edatın görevini değiştirmez ve yeni bir sözlük anlamı açmaz; yine de ayetin ilk vuruşunu belirler, çünkü sonuç eylem, fail ve cezanın derecesi adlandırılmadan önce öne gelir. {ar:فَ, tr:fe, gloss:sonuç olarak} fiili, ona bağlı kişiyi, ardından gelen Allah'ı, ceza adını ve son ölçüyü aynı sonuç çerçevesinde toplar. Böylece son kelimeye kadar yapı önceki reddin cevabı olarak ilerler: 88:23'teki reddediş ile 88:24'teki sonuç arasındaki cümle ilişkisi kurulur, 88:25'teki dönüş için de yalnızca bir eşik açılır.
+
+Önceki ayetteki yüz çeviren ve örten kişi, {ar:هُ, tr:hu, gloss:onu} zamiriyle burada cezanın doğrudan muhatabı olur. Ret, belirsiz bir topluluğa değil, tekil bir kişiye yönelen sonuç halinde görünür. {ar:يُعَذِّبُهُ, tr:yuazzibuhu, gloss:onu cezalandırır} fiili önce geldiği için cezalandırma birine uygulanan hareket olarak başlar; açık fail biraz sonra söylendiğinde bu hareketin kime ait olduğu açıklığa kavuşur. Fiilin tekrarlı orta harfli II. bâb biçimi, eyleyen ile maruz kalanı aynı yapıda görünür kılar ve uygulama basıncını taşır. Sert ünsüz dokusu da isim henüz gelmeden bu zorlayıcı eylemi kulağa verir; ses, biçimin basıncını güçlendirir ama yeni bir anlam üretmez. Fiil, aynı anlam ailesinden gelen {ar:ٱلْعَذَابَ, tr:el-azâb, gloss:ceza} adını önceden çağırır; sonra gelen isim yapılan işi kendi olay adıyla tamamlar. Ceza böylece hem uygulanan eylem hem de adı konmuş olay olarak belirir. 9:14'te insanların elleriyle aracılanan ve 89:25'te farklı kurulmuş cezalandırma biçimleri, bu kuruluşu karşılaştırmalı olarak aydınlatır; buradaki cümlenin özel aracı ve işkence biçimi bu karşılaştırmalardan alınmaz. 88:4'teki sıcak ateş sahnesi de aynı ceza ailesi, tekil muhatap ve açık fail ile temas ettiğinde burada faili ve olay adı belirtilmiş bir cezalandırma eylemi olarak yeniden duyulur; 88:4'ün sahnesi bu cümlede yalnız yerel yankı olarak kalır.
+
+Fiil ile ceza adının arasına yerleşen {ar:ٱللَّهُ, tr:Allah, gloss:Allah} açık ve nominatif faildir. Bu orta konum, yapanı uygulamadan ayırırken ikisini aynı cümlede birbirine bağlar: ceza, Allah'ın uyguladığı ve ardından adı konan olay olarak belirir. Araya araç bildiren bir söz girmediği için eylem doğrudan ilahî faile bağlanır; 9:14'teki aracılı düzen bu doğrudanlığı karşılaştırmalı olarak görünür kılar. Allah adının ibadet, ilahlık ve sığınma çevresindeki çağrışımları burada ayrı eylemler kurmaz; cezalandırma işindeki açık fail rolünün çevresinde sınırlı bir arka plan basıncı olarak kalır. Ses akışında Allah'tan hemen sonra gelen ceza adı failden olaya kesintisiz bir geçiş kurar ve sözdizimsel rolleri değiştirmeden işitilişi sıkılaştırır. 88:24'teki Allah adı, 88:25'te dönüşün yöneldiği “Biz” hitabında aynı yetki noktasını sürdürür; bu bağlantı cezalandırma ile dönüşün merciini birbirine bağlar, 88:25'in bütün ayrıntılarını tek başına belirlemez.
+
+Bu fail açıklığı, perikoptaki görev dağılımıyla birlikte daha da berraklaşır. {ar:فَذَكِّرْ, tr:fezekkir, gloss:hatırlat} emri ve {ar:مُذَكِّرٌ, tr:müzekkir, gloss:hatırlatan} sözü insanın elindeki işi hatırlatma olarak kurar (88:21); {ar:لَّسْتَ, tr:leste, gloss:sen değilsin} ile {ar:بِمُصَيْطِرٍ, tr:bi-musaytir, gloss:zorlayıcı denetçi} ise bu görevin insanlar üzerinde zorlayıcı bir denetim yetkisine dönüşmediğini bildirir (88:22). Bu ardışıklık görevleri üç ayrı hatta yerleştirir: hatırlatma hatırlatanın görevi, reddediş muhatabın eylemi, ceza Allah'ın uygulamasıdır. {ar:تَوَلَّىٰ, tr:tevellâ, gloss:yüz çevirdi} ve {ar:كَفَرَ, tr:kefera, gloss:gerçeği örttü} fiilleri sorumluluğu o muhatabın kendi dönüşü ve örtmesi olarak bırakır (88:23). Sonraki {ar:إِلَيْنَآ إِيَابَهُمْ, tr:ileynâ iyâbuhum, gloss:onların dönüşü bize} dönüşün yönünü, {ar:عَلَيْنَا حِسَابَهُم, tr:aleyna hisâbuhum, gloss:hesapları bizim üzerimizdedir} ise hesap görme işini aynı ilahî tarafa bağlar (88:25, 88:26). Hatırlatma, reddediş, ceza, dönüş ve hesap bu sıralı yetki çizgisinde birbirine karışmadan yerleşir. İstisnanın tam dilbilgisel erişimi açık kalırken insanın hatırlatma ile sınırlı görevi, sorumlu kişinin reddi ve ilahî cezalandırma yetkisi korunur. Elçi gönderilmeden otomatik azap kurulmayacağını belirleyen sınır da bu ayrımı sürdürür (17:15); bu bağlam elçiye zorlayıcı ceza yetkisi yükleyen ayrı bir mekanizma kurmaz.
+
+Ceza adının içindeki {ar:ٱلْ, tr:el-, gloss:belirlilik} artikeli onu derecesi henüz söylenmemiş olsa da tanınabilir bir ceza kategorisi olarak açar. Fiilin yaptığı iş önce gelir, aynı anlam ailesinin isim biçimi sonra dönerek bu işi adlandırılmış olaya çevirir. Fiil ile isim ayrı görevler üstlenir; ret ile ceza arasındaki dönüş ise aynı ses ailesinin yankısıyla görünür olur. Allah'ın araya girmesi bu yankıyı kesmez: önceki eylem fail üzerinden sonraki olay adına bağlanır. {ar:ٱلْعَذَابَ, tr:el-azâb, gloss:ceza} uygulanan cezayı taşıyan akuzatif olay adıdır ve arkasından gelecek nitelemeye baş olur. Aynı anlam ailesinin tatlı, taze ve kolay tüketilen yiyecek-içecek yönü de bu bitişiklikte duyulabilir; ayetin doğrudan ceza anlamı korunurken, rahatlık ve ferahlığın geri çekilmesiyle açılacak maddi karşıtlığın zeminini hazırlar.
+
+{ar:ٱلْأَكْبَرَ, tr:el-ekber, gloss:en büyük} son sözcükteki belirli elatif olarak cezanın ölçüsünü kurar: onu daha büyük, bağlamın kurduğu karşılaştırmada en büyük dereceye yerleştirir. Sıfat ceza adından sonra geldiği ve onunla belirlilik, cinsiyet, sayı ve akuzatif bakımından uyum kurduğu için derecenin başı cezadır; Allah'a veya cezalandırılan kişiye ait yeni bir yüklem kurulmaz. Okur önce tanınabilir ceza olayını, son kelimede onun ölçüsünü alır. Bu gecikme, olay dünyasında derecenin bilinmediğini değil, ayetin işitilişinde doruğun sona bırakıldığını gösterir. Eşleşen artikeller, akuzatif sonlar ve sert ses dokusu son iki kelimeyi kapalı bir ceza-ölçeği alanında mühürler. Gizli karşılaştırıcının kimliği açık bırakılır; 32:21'deki daha yakın ve daha büyük ceza karşılaştırması yalnız derece fikrini aydınlatır. Sonuç edatından eyleme, açık faile, adlandırılmış olaya ve nihayet derecelendirilmiş cezaya doğru daralan bu sıra yerel bir yapısal ilerlemedir; ayette birlikte duran okumalar için bir üstünlük sırası kurmaz.
+
+Bu yerel yapı, Allah'ın cezayı eylem olarak uyguladığı, aynı olayı isimle adlandırdığı ve onu derecelendirdiği bütünüyle atanmış bir ceza olayını açık tutar. Fiilin biçimi uygulamayı, {ar:ٱلْعَذَابَ, tr:el-azâb, gloss:ceza} adı olayın kendisini, {ar:ٱللَّهُ, tr:Allah, gloss:Allah} adı faili, {ar:ٱلْأَكْبَرَ, tr:el-ekber, gloss:en büyük} ise derecesini taşır. Cümlenin bu açık kuruluşu özel aracın, işkence biçiminin ve sürenin ayrıntılarını belirtmeden 88:23'teki reddedişe verilen ilahî sonucu görünür kılar; hatırlatıcı elçinin zorlayıcı gücü bu sonuçtan ayrı bir yetki çizgisinde kalır. Aynı ölçü, {ar:ٱلْأَكْبَرَ, tr:el-ekber, gloss:en büyük} kelimesinin saygınlık, önderlik ve haklı ululuk yönleriyle Allah'ın yüksek yetkisine de dokunur: reddedilen insan denetiminin üzerinde duran merci görünür olur. Sıfatın dilbilgisel başı cezadır; 88:23'teki dönme, 88:25'teki dönüş ve 88:26'daki hesap bu yetkiyi aynı yargı alanında buluşturur. Böylece ortaya sabit bir ceza tarifesi değil, reddediş ile sonuç arasındaki nitelikli bir değerlendirme çıkar.
+
+## Cezanın Bedensel Karşılığı
+
+Ceza anlamı, çevredeki yiyecek ve içecek sahnesini bedensel bir mahrumiyet düzeni olarak görünür kılar. {ar:عَذَاب, tr:azâb, gloss:ağır acı ve ceza} yüzeyinin ağır acı ve yaptırım yönü, aynı kelime ailesinin tatlı ve kolay tüketilen yiyecek-içecek yönüyle karşılaşır. 88:5'teki ısıtılmış içecek ısının bedene nasıl döndüğünü, 88:6'daki işe yaramayan yiyecek tüketimin neden sonuç vermediğini, 88:7'deki kapanmayan açlık rahatlamanın sürmediğini, 88:12'deki serbestçe akan pınar ise beklenen iyi oluşun olumlu kutbunu gösterir. Yemeden içmeden durma yönü yiyecek ve içecek görünürken bedenin gevşeyememesini açıklar; vazgeçme ve alıkoyma yönü beklenen rahatlığın etkin biçimde geri çekilmesini getirir. Bu katkılar birleşince ateş, kızgın içecek, sonuçsuz yiyecek ve süren açlık ceza sonucunun birbirini açıklayan bedensel yüzleri haline gelir. Maddi karşıtlık, ağır acı ve cezalandırma yönünün taşıdığı hükme eşlik eder; cümledeki ceza böylece belirli bir fizikî işkence biçimine indirgenmeden yaşantı kazanır.
+
+Bu bedensel devre, daha geniş ve ihtiyatlı bir maddi modelde sahte beslenmenin nasıl işlediğini de gösterir. İçecek ve yiyecek görünür hale gelir; tatlılık ve serinlik beklenen rahatlığı, yağlanma bedenin maddi sonucunu, yeterlilik ise ihtiyacın kapanışını temsil eder. Ateş çevreyi ısıtarak içeceği zararlı bir koşula dönüştürür. Sunulan içecek alıkoyma yönüyle karşılaşınca beklenen beslemeyi yerine getiremez; kayıtta ihtiyatla korunan itme veya sürme vektörü, bu sunumu zorlayıcı bir harekete yaklaştırır. Bu itme veya sürme doğrudan sulama anlamı değil, ikincil bir ihtimal olarak kalır. Pınar beklenen ferahlığın kaynağını, tamamlanmış sıvı hali görünüşteki bütünlüğü, yeme tüketimi, yağlanma bedenin beklenen sonucunu taşır. Yeterlilik rahatlamanın gerçekleşmesi gereken yeri, boş mide ise yeme sonrasında açık kalan ihtiyacı gösterir. Gerçekten akan kaynak bu düzenin olumlu karşı kutbudur: orada akış işlevini tamamlar, burada sunum bedensel ihtiyacı kapatamaz. Böylece bu model, ceza anlamını değiştirmeden çevresindeki ikramın hangi katkıları taşıdığını ve neden rahatlatmadığını açıklar.
+
+Bu maddi okumanın kişisi ve faili cümlenin küçük unsurlarında sabittir. {ar:هُ, tr:hu, gloss:onu} zamiri tekil kişiyi yemeden içmeden durma ve erişimin kesilmesi deneyiminin taşıyıcısı yapar; {ar:ٱللَّهُ, tr:Allah, gloss:Allah} açık fail oluşuyla bu durmayı uygulanmış ceza içinde tutar. Fiilin ettirgen biçimi vazgeçirme veya başkasını alıkoyma yönünü çağırdığında, erişimin kesilmesi ferahlığa giden yolun geri çekilmesi olarak görünür. Cümle bu deneyimin süresini, susuzluk derecesini ve belirli bir beslenme düzenini tayin etmez; ayrı bir alıkoyucu ya da çekilen nesne de kurmaz. Ağır acı ve cezalandırma anlamı zeminde kaldığı için mahrumiyet, temel cezanın yanında onun yaşantı biçimi olarak belirir.
+
+## Ölçüden Yüke
+
+{ar:ٱلْأَكْبَرَ, tr:el-ekber, gloss:en büyük} kelimesi büyüklüğü, bir işin kişiye ağır ve güç gelmesi yönünden taşınan bir yük olarak da hissettirir. Bu katkı, cezayı fiziksel bir nesneye çevirmeden onun taşıyıcı üzerindeki baskısını görünür kılar. 88:19'da yükselen yoğun ve katı dağ kütlesi bu duyguyu başlatan çevresel basınçtır; dağın katkısı cezanın kendisini adlandırmak değil, yükün direnç ve kütlesini duyurmaktır. Aynı sıfatın bir bütünün ana, en büyük ya da belirleyici payını anlatan yönü 88:3'teki gerilmiş ve tükenmiş çalışma ile 88:9'daki çabalama, kazanma ve memnuniyet sahnelerine dokunur. Yüzlerin zorlanması ile başarılı çabanın karşıtlığı, olumsuz çabanın sonunda başlıca yükün adlandırılması gibi bir görüntü kurar. Bu dar yük bağlantısı hayvan veya gerilim imgesini genişletmez; 88:19'daki dağ da yalnız ağırlık temasını başlatan çevresel imge olarak kalır.
+
+Ağırlık, başka bir ihtiyatlı bağlam okumasında karşılığı kesilmiş bir emek düzenini görünür kılar. Üretken çaba ve beklenen ücret ya da rızık, odaktaki alıkoyma yönüyle karşılaşır; çalışma ağırlaşırken onu rahatlatacak besleyici dönüş gelmez. Tükenmiş çalışma cezai yükü, çabalama ve kazanma yönleri alıkonmuş dönüşün olumlu karşıtını, memnuniyet ise emeğin beklenen başarılı sonucunu taşır. Bu karşı-ücret hareketi 88:3'teki çalışma ve tükenme ile 88:9'daki çabalama, kazanma ve memnuniyet sahnelerinden beslenir. Emek ve karşılık bağı burada somut bir okuma yardımıdır; odak cümlesi bu bağı gerçek bir ekonomik sözleşme veya ayrı bir ücret mekanizması olarak kurmaz. Ceza anlamı, engellenmiş emeğin bütün bu hareketlerini taşıyan temel olarak yerinde kalır.
+
+Bu ağırlık duygusu uzamsal bir ölçekte de görünür olur. 88:10'daki yüksek bahçe ilk olumlu yükseltiyi, 88:13'teki yükseltilmiş sedir insan ölçeğindeki ara basamağı verir. 88:18'de üstten örten ve yükseltilen gök, ölçüyü daha geniş dünya alanına taşır. 88:19'daki dağın katı kütlesi ve dik duruşu yerleşmiş direnci, 88:20'deki alçak zemin ve yayılmış yeryüzü ise alt sınırı ve genişliği kurar. Bu katkılar birlikte yükseklik ile genişliği aynı büyüklük alanında buluşturur; ceza, taşıyıcının kaldırma gücünü aşan bir baskı gibi duyulur. Bahçe, sedir, gök, dağ ve yer soyut dereceyi yükselen, duran ve yayılan biçimlerle ölçülebilir kılar. Bu mekânsal ölçek tek bir yapıyı cezanın gerçek karşılaştırılanı ilan etmez.
+
+## Açıklamadan Dönüşe
+
+Ayetin kendi yüzünde ceza, bilginin açılması ile hesabın kapanması arasındaki son halkayı oluşturur. Başındaki {ar:فَ, tr:fe, gloss:sonuç olarak} reddedişten sonra uygulamayı öne çıkarır ve cümleyi açılan bir bildiri yoluna bağlar. İlk hareketlerde bilgi muhataba ulaşır, işitilebilir bildirim yenilenir; yönlendirilmiş bakış ile biçim verilmiş anlaşılır düzen, görülebilir işareti inceleme ve yaratılıştaki ölçüyle buluşturur (88:1, 79:20). Hatırlatma unutulmuş olana yeniden erişim verir, örtme ise bu erişimden sonra yapılan etkin bir kapatma hareketi olur (88:21, 88:23). Son inceleme ve hesap açılmış kanalları kapattığında, ceza açıklama, hatırlatma ve reddedişin ardından gelen hesaplı sonuç olarak belirir (88:26). Bu okuma 5:115'te kesin işaretten sonraki reddediş ve elçiden önce otomatik ceza kurulmayacağını belirleyen sınırla da aydınlanır (5:115, 17:15). 88:17 bu dizideki yaratılış ve gözlem zeminine, 88:21 hatırlatmaya, 88:23 reddedişe, 88:26 hesaba temas eder; önceki istisnanın tam dilbilgisel kapsamı ise açık bırakılır.
+
+Ceza burada bir hareket menteşesi olarak da çalışır: yüzünü sunan veya yönelen kişi geri çekilir, ardından Allah'ın uyguladığı ceza bu kaçış çizgisini kapatan dönüşe açılır. {ar:ٱللَّهُ, tr:Allah, gloss:Allah} hem uygulamanın faili hem karşılaşmanın merciidir; {ar:هُ, tr:hu, gloss:onu} yönü olan aynı kişiyi cezanın muhatabı yapar. 88:2'deki alçalmış yüzler ve 88:8'deki olumlu yüzler yüzün iki yönünü, 88:23'teki yüz çevirme geri çekilmeyi, 88:25'teki dönüş ise mesafeyi kapatan varışı verir. Bu katkılar birlikte kişiyi önceki yönelişten geri çekilmeye, oradan da kaçışı kapatan karşılaşmaya taşır. Yüz ifadeleri bu bağlantıda tek bir sözlük tanımına kapanmaz; cezanın yönü olan ve sonra geri dönen aynı kişiye uygulandığını görünür kılar.
+
+{ar:ٱلْعَذَابَ, tr:el-azâb, gloss:ceza} kelimesinin ağır acı ve yaptırım anlamı korunurken, kayıtlı bir kullanım gökyüzüne karşı örtüsüz kalma görüntüsünü de taşır. Bu özel bağlantıyı 88:18'de yukarı kaldırılan {ar:ٱلسَّمَآءِ, tr:es-semâ, gloss:gökyüzü} ile 88:20'de serilen {ar:ٱلْأَرْضِ, tr:el-ard, gloss:yeryüzü} kurar. Gökyüzü üstteki örtü görevini, yeryüzü alttaki zemini verir; ceza böylece yukarıya doğrudan açık ve altı yerle belirlenmiş bir maruz kalma sahnesi olarak hissedilir. Bu görüntü, kelimenin kayıtlı kullanımı ile üst-alt ilişkisinin buluştuğu yerel bir açılımdır; cezanın gerçek mekânını veya yeni bir ceza biçimini tayin etmez. Deve ve dağ gözlemleri bu özel temasa katkı vermediği için, bağlantının sınırı gökyüzü ile yeryüzünün kurduğu çerçevedir (88:17, 88:19).
+
+Bu üst-alt açıklığı, daha geniş ve keşifsel bir korunaksızlık görüntüsüne taşır. Açılıştaki kuşatıcı örtü koruyucu çerçeveyi, bahçe sığınmayı, üstteki gök çevreleyen katmanı, reddeden kişinin örtme hareketi ise korumayı etkin bir davranış olarak verir (88:1, 88:10, 88:18, 88:23). Cezalandırma bu katmanlarla karşılaştığında sığınaktan çıplak maruziyete doğru bir tersine dönüş sezilir: koruyucu örtülerin kalkması açıklığı görünür kılar. Bu genişletilmiş görüntü, göğü cezanın gerçek mekânı yapmadan ve ceza kelimesini örtüsüzlük kelimesiyle yeniden adlandırmadan, olağan ceza anlamına maddi bir eşlik sunar.
+
+Su ve yük sahneleriyle temas eden daha keşifsel bir karşılaştırma, cezanın uyarlanmış bir canlının sınırlarını aşan mahrumiyet ve ağırlık olduğunu hissettirir. Yemeden içmeden durma yönü, 88:5'teki suya dayanma ve 88:17'deki canlıyı sulama sahnesiyle karşılaşınca susuzluk baskısını görünür kılar. {ar:ٱلْأَكْبَرَ, tr:el-ekber, gloss:en büyük} kelimesinin ağır gelme yönü ise yük taşıma kapasitesiyle buluşunca kaldırma sınırının aşılmasını getirir. Canlının su olmadan idare edebilmesi ve yük taşıyabilmesi iki kapasite sınırını, sulanma ise bunların karşısındaki anlık imkânı verir. Cezanın ölçüsü böylece uyarlanmış kapasiteyi bile aşan bir yoksunluk ve yük gibi duyulur. Hayvan imgesi bu bağlantıda ceza kelimesinin sözlük anlamına dönüşmez; yalnızca mahrumiyet ve ağırlık sınırını görünür kılan karşılaştırmalı temas olarak kalır.
+
+Daha uçta duran bir maddi ilişkide ceza, gizlenmiş olanın açıldığı, yükün bırakıldığı ve öznenin kaçınılmaz dönüş ile hesaba çıktığı daha sert bir ortaya çıkış gibi hayal edilebilir. {ar:عَذَاب, tr:azâb, gloss:ağır acı ve ceza} yüzeyinin bu modelle teması, ceza cümlesi içinde bir maddi hareket kurar. Gizlilik, bırakılma, biçim verilmiş yaratılış ve dönüş art arda geldiğinde korunaklı bir yerden çıkarılıp daha sert bir hesaba teslim edilme görüntüsü belirir. {ar:ٱلْأَكْبَرَ, tr:el-ekber, gloss:en büyük} kelimesinin doğum sırası ve öncelik yönü, daha önceki yaratılmış konumun ötesinde ikinci bir varış fikrine dokunur. 88:10'daki korunaklı bahçe, 88:14'teki olumlu düzen, 88:17'deki yaratılış ve 88:25'teki dönüş bu ortaya çıkışın sıralı temaslarını verir. Bu maddi model cezalandırılan kişiye aile bağı, doğum ilişkisi veya gerçek bir ikinci yaratılış yüklemez; yaratılış ve doğum burada odak kelimenin sözlük karşılığı değil, ceza altında duyulan ihtiyatlı ilişkidir.
+
+Son bir yönsel karşılaşmada, büyük ceza sahte kendini büyütmenin geri çevrilmesini görünür kılar. {ar:ٱلْأَكْبَرَ, tr:el-ekber, gloss:en büyük} kelimesinin ululuk ve kendini üstün görme yönleri Allah'ın adı ve doğrudan uygulanan ceza ile buluşunca, bağımsızlık iddiası alçalmaya, insanın üstünlük pozu da haklı ilahî yüksekliğin önünde geri çekilmeye döner. 88:2'deki alçalmış yüz, 88:23'teki yüz çevirme ve örtme bu karşıtlığın yönünü verir; ceza sahte üstünlüğün aşağı çevrildiği sonuç gibi duyulur. Bu ilişki iki kişi arasında gerçek bir üstünlük müsabakası kurmaz ve her reddeden kişiyi sözlük bakımından kibirli ilan etmez. Olağan “en büyük ceza” anlamı yerinde dururken, bu yönsel katkı insanın kendine verdiği yüksekliği ilahî yetkinin karşısında ölçer.
+
+</editorial_prose>

@@ -1,0 +1,342 @@
+{
+  "schema_version": "commentary-v5-scope-landing-ledger-v1",
+  "ayah_ref": "89:19",
+  "lane": "global",
+  "findings": [
+    {
+      "finding_ref": "global:estate-consolidation",
+      "landings": [
+        {
+          "movement_refs": ["discovery:claim"],
+          "paragraph": 1,
+          "anchor": "Mirası bütünüyle yemek, farklı hak sahiplerine aktarılmış payları tek bir tüketicinin iştahında birleştirip ayrı hakları silen bir el koyma olarak belirginleşir."
+        },
+        {
+          "movement_refs": ["discovery:mechanism", "discovery:reader_payoff"],
+          "paragraph": 1,
+          "anchor": "Böylece okur, “bütünüyle” ifadesinin yalnızca miktar fazlasını değil, malı alma, miras payını tekleştirme ve dağınık olanı eksiksiz yutarak yeniden düzenleme hareketini de görünür kıldığını izler."
+        },
+        {
+          "movement_refs": ["discovery:containment"],
+          "paragraph": 1,
+          "anchor": "Ölçü mirasın kendisi değil, başkasına belirlenmiş payın hak ihlaliyle tüketicinin elinde toplanmasıdır; meşru intikal veya sıradan mal harcaması bu ikinci katmana kendiliğinden dönüşmez."
+        },
+        {
+          "movement_refs": ["activation:0"],
+          "paragraph": 1,
+          "anchor": "Yeme fiili ve {ar:أَكْلًا, tr:aklan, gloss:yeme ve tüketme} mastarı, besini tüketmenin sıradan anlamını korurken mal kalıbındaki kullanım, malı harcamayı veya bir amaç uğruna tüketmeyi ve hakka aykırı malı yanlış yere sarf etmeyi de taşır; Nisâ 4:2'de yetim malıyla kurulan açık temas bu taşıyıcıyı başkasının malını alma ve sömürme olarak etkinleştirir."
+        },
+        {
+          "movement_refs": ["activation:1"],
+          "paragraph": 1,
+          "anchor": "{ar:ٱلتُّرَاثَ, tr:at-turātha, gloss:mirası} kelimesinin olağan anlamında önceki sahibinden sonraki hak sahibine geçen mal vardır; Nisâ 4:11'de payların açıkça belirlenmesi, bu geçişi tek elde eritilemeyecek ayrı haklar olarak keskinleştirir."
+        },
+        {
+          "movement_refs": ["activation:2"],
+          "paragraph": 1,
+          "anchor": "Sonundaki {ar:لَمًّا, tr:lamman, gloss:bütünüyle bir araya getirerek} ise dağılmış parçaları bir araya getirip düzensizliği gideren toplama anlamını taşır; paylaştırma görüntüsüyle temas ettiğinde bu toplama, her parçayı hak sahibine düzenlemek yerine bütün payları aynı tüketicide birleştirir."
+        },
+        {
+          "movement_refs": ["connection:conn_a0868d3f0ad314f3f572", "connection:conn_0df1a9524229fdb3ee73", "context:4:2", "context:4:11"],
+          "paragraph": 1,
+          "anchor": "Nisâ 4:2 ve 4:11'deki iki doğrudan temas, biri korunması gereken malı, diğeri ayrı ayrı belirlenmiş miras payını göstererek bu el koyma mekanizmasının iki dayanağını birlikte görünür kılar."
+        }
+      ]
+    },
+    {
+      "finding_ref": "global:inheritance-relay-break",
+      "landings": [
+        {
+          "movement_refs": ["discovery:claim", "discovery:mechanism"],
+          "paragraph": 2,
+          "anchor": "Bu yön tersine çevrildiğinde mirasın bir sonraki kuşağa değer taşıyan iletim zinciri kesilir: emeksizce geçmişten gelen pay, geleceğe yarar olarak gönderilmeden tüketilir."
+        },
+        {
+          "movement_refs": ["discovery:reader_payoff"],
+          "paragraph": 2,
+          "anchor": "Bu ikinci hareket, okurun mirası geçmişten gelen bir servet olarak değil, geçmişten geleceğe bakım ve değer taşıması gereken bir emanet olarak izlemesini sağlar."
+        },
+        {
+          "movement_refs": ["discovery:containment"],
+          "paragraph": 2,
+          "anchor": "Buradaki ileriye gönderme zamansal ve bakım yönlü bir yorumdur; her emeksiz edinim veya her meşru tüketim, kuşaklar arası aktarımın kesildiği anlamına gelmez."
+        },
+        {
+          "movement_refs": ["activation:0"],
+          "paragraph": 2,
+          "anchor": "89:24'te insanın önden göndermediği şeyi pişmanlıkla hatırlaması ve 2:233'te mirasçıya düşen besleme ve geçim yükünün görünür olması, {ar:أَكْلًا, tr:aklan, gloss:yeme ve tüketme} içindeki malı hakka aykırı sarf etme anlamını zamansal bir karşıtlığa bağlar; tüketilen miras ileriye geçmesi gereken değeri yanlış yerde bitirir."
+        },
+        {
+          "movement_refs": ["activation:1"],
+          "paragraph": 2,
+          "anchor": "Mirasın emek harcamadan kazanılabilen bir şey olması, onu kendiliğinden anlamsız kılmaz; fakat sonraki mirasçıya bırakılacak veya yarara çevrilecek pay odak tüketiminde geriye dönük bir kazanç olarak kapanır."
+        },
+        {
+          "movement_refs": ["connection:conn_9952ee86f33f6694c026", "context:89:24", "context:2:233"],
+          "paragraph": 2,
+          "anchor": "89:24 ile 2:233'ün birlikte hatırlattığı ileriye gönderme ve mirasçıya bakım yükü, tüketilen payın kuşaklar arası aktarımda nerede kesildiğini somutlaştırır."
+        }
+      ]
+    },
+    {
+      "finding_ref": "global:repair-inversion",
+      "landings": [
+        {
+          "movement_refs": ["discovery:claim", "discovery:mechanism", "discovery:reader_payoff"],
+          "paragraph": 4,
+          "anchor": "Toplama anlamı, kimin ve neyin toplandığına göre onarıcı veya bozucu bir harekete dönüşebilir; bu yüzden {ar:لَمًّا, tr:lamman, gloss:bütünüyle bir araya getirerek} yalnızca olumlu bir düzenleme sözü değildir."
+        },
+        {
+          "movement_refs": ["discovery:containment"],
+          "paragraph": 4,
+          "anchor": "Bu onarımın tersine dönüşü, yalnızca pay ve korunmasız hak sahipleriyle kurulan bağlarda geçerlidir; lamma'nın her toplama anlamı veya her küçük yanlış bu miras okumasına taşınmaz."
+        },
+        {
+          "movement_refs": ["activation:0"],
+          "paragraph": 4,
+          "anchor": "4:8'de akraba, yetim ve yoksula bölüşüm sırasında karşılık verilmesi, 4:11'de ise payların belirlenmesi, lamma'nın dağılmış parçaları bir araya getirip düzensizliği gideren olağan taşıyıcısını korunması gereken hak sahiplerine yöneltir."
+        },
+        {
+          "movement_refs": ["activation:1"],
+          "paragraph": 4,
+          "anchor": "Aynı lamma yüzeyi, ağır kötülükten ayrı duran küçük yanlışlar çevresiyle temas ettiğinde, birer küçük ihlalin toplanarak pay düzenini aşındırdığı başka bir katman açar; bu okuma lamma'nın bütünleştirme anlamını silmeden onun kimin yararına çalıştığını değiştirir."
+        },
+        {
+          "movement_refs": ["connection:conn_6b0ca17eff4f91dd7579", "connection:conn_0df1a9524229fdb3ee73", "context:4:8", "context:4:11"],
+          "paragraph": 4,
+          "anchor": "4:8 ve 4:11'deki iki dağıtım bağlantısı, bu toparlama ve küçük yanlış katmanlarının hangi hak sahipleri üzerinde çalıştığını belirler."
+        }
+      ]
+    },
+    {
+      "finding_ref": "global:partition-erasure",
+      "landings": [
+        {
+          "movement_refs": ["discovery:claim", "discovery:mechanism", "discovery:reader_payoff"],
+          "paragraph": 4,
+          "anchor": "Bu daha geniş temas, bütünüyle yenen mirası bir payın eklenmesi, başka bir hakkın eksiltilmesi ve bölüşümün bozulduğu bir anti-partition dizisi olarak yeniden gösterir."
+        },
+        {
+          "movement_refs": ["discovery:containment"],
+          "paragraph": 4,
+          "anchor": "Bu son üçlü daha keşifsel bir yorumdur; 89:3 ve 89:5'in kendi bağımsız yemin imgeleri korunur, ekleme, eksiltme ve bölüşüm rolleri odak yeme yüzeyine yalnızca ihtiyatlı bir ikinci katman olarak döner."
+        },
+        {
+          "movement_refs": ["activation:0"],
+          "paragraph": 4,
+          "anchor": "Malı ele geçirme anlamı bu temasla, bir payı başka bir paya ekleyip bütününü tek elde toplama hareketi olarak genişler."
+        },
+        {
+          "movement_refs": ["activation:1"],
+          "paragraph": 4,
+          "anchor": "Mirasın mirasçıya kalması, bu kez bölünebilir nesnenin kendisini sağlar: başka bir payın eklenmesiyle bir hak sahibinin belirli payı eksiltilir."
+        },
+        {
+          "movement_refs": ["activation:2"],
+          "paragraph": 4,
+          "anchor": "Lamma'nın dağınık parçaları eksiksiz bir bütün haline getirmesi, paylaştırma normu tersine çevrildiğinde hak sahipleri arasında düzen kurmak yerine estate'i tek tüketicide yeniden birleştirir."
+        },
+        {
+          "movement_refs": ["activation:3"],
+          "paragraph": 4,
+          "anchor": "Çift ve tek dizisinden gelen ilk rol, başka bir payın mevcut paya katılmasıdır; bu, miras yeme eyleminin annexation adımını görünür kılar."
+        },
+        {
+          "movement_refs": ["activation:4"],
+          "paragraph": 4,
+          "anchor": "İkinci rol, bir hak sahibinin payının eksiltilmesidir; tek elde büyüyen tüketici karşısında karşı tarafta eksilmiş bir hak bırakılır."
+        },
+        {
+          "movement_refs": ["activation:5"],
+          "paragraph": 4,
+          "anchor": "Yemin ve bölme çağrışımından gelen üçüncü rol ise, her parçanın ayrı tutulmasını gerektiren paylaştırma normunun bütünüyle yeme tarafından işlemez hale getirilmesidir."
+        },
+        {
+          "movement_refs": ["context:89:3", "context:89:5"],
+          "paragraph": 4,
+          "anchor": "Daha geniş bir yankıda {ar:وَٱلشَّفْعِ وَٱلْوَتْرِ, tr:wa-sh-shaf'i wa-l-watr, gloss:çift ve tek} dizisiyle 89:3 ve {ar:قَسَمٌۭ, tr:qasamun, gloss:yemin} sorusuyla 89:5, odak yeme hareketine ekleme, eksiltme ve paylaştırma karşıtlıkları getirir."
+        }
+      ]
+    },
+    {
+      "finding_ref": "global:household-corruption",
+      "landings": [
+        {
+          "movement_refs": ["discovery:claim", "discovery:mechanism", "discovery:reader_payoff"],
+          "paragraph": 5,
+          "anchor": "Miras tüketimi, kuşaklar arası ilişki ağını taşıması gereken hane içinde söz taşıma ve bozma etkisini çoğaltan bir bozulma motoru olarak da okunabilir."
+        },
+        {
+          "movement_refs": ["discovery:containment"],
+          "paragraph": 5,
+          "anchor": "Bu ölçek geçişi keşifseldir: 89:12 önceki kavimlerin toplu bozulmasını anlatan bağımsız bir sahne olarak kalabilir ve her aile içi miras aktarımı otomatik olarak fesat sayılmaz."
+        },
+        {
+          "movement_refs": ["activation:0"],
+          "paragraph": 5,
+          "anchor": "89:12'de toprağa yayılmış ve çoğalmış fesat anlatısı, {ar:وَتَأْكُلُونَ, tr:wa-ta'kulūna, gloss:yiyorsunuz} fiilinin söz taşıyarak kişiler arasını bozma anlamını bağımsız bir sosyal tetikle buluşturur; özel miras tüketimi böylece ilişkisel bir etki kazanır."
+        },
+        {
+          "movement_refs": ["activation:1"],
+          "paragraph": 5,
+          "anchor": "{ar:ٱلتُّرَاثَ, tr:at-turātha, gloss:mirası} kelimesinin akrabalık ve hak üzerinden sonraki kişiye geçişi, bu sosyal bozulmanın yayılacağı ilişki ağını kurar."
+        },
+        {
+          "movement_refs": ["activation:2"],
+          "paragraph": 5,
+          "anchor": "89:12'deki çoğalma rolü, tek bir miras kaybının aynı hane içindeki birden çok hak ilişkisine yayılan ve tekrarlanabilen bir süreç olarak görülmesini sağlar."
+        },
+        {
+          "movement_refs": ["activation:3"],
+          "paragraph": 5,
+          "anchor": "Fesat rolü ise düzenli aktarım ağının sound order'dan ayrılıp söz taşıma ve çıkar çatışmasıyla bozulduğunu gösterir."
+        },
+        {
+          "movement_refs": ["connection:conn_bc953b3b43ca81a14b6d", "context:89:12"],
+          "paragraph": 5,
+          "anchor": "89:12'nin çoğalmış fesat görüntüsü, bu sosyal bozulma önerisinin dayandığı uzak tetik olarak kalır; hane ölçeğine geçiş burada ihtiyatla yapılır."
+        }
+      ]
+    },
+    {
+      "finding_ref": "global:fire-return",
+      "landings": [
+        {
+          "movement_refs": ["discovery:claim"],
+          "paragraph": 6,
+          "anchor": "Son olarak malı yiyip tüketen kişinin ileride kendisini tüketen ateşle karşılaşması, yiyen ile yenilen rollerinin geri dönmesi yönünde bir karşıtlık kurar."
+        },
+        {
+          "movement_refs": ["discovery:mechanism", "discovery:reader_payoff"],
+          "paragraph": 6,
+          "anchor": "Okur böylece sonucu soyut bir ceza olarak değil, mirası yiyen kişinin bir gün kendisini tüketen şeyin karşısında kalacağı maddi bir rol tersine dönüşü olarak görür."
+        },
+        {
+          "movement_refs": ["discovery:containment"],
+          "paragraph": 6,
+          "anchor": "Bu ateş karşıtlığı anlamlı ve güçlü bir analojidir, fakat malın sözlük anlamının ateşe dönüştüğünü veya her ateş imgesinin 89:19'u açıkladığını söylemez; qadam'ın zamansal uzantısı da bu sınırlı ateş çekirdeğine eklenmez."
+        },
+        {
+          "movement_refs": ["activation:0"],
+          "paragraph": 6,
+          "anchor": "{ar:وَتَأْكُلُونَ, tr:wa-ta'kulūna, gloss:yiyorsunuz} ve {ar:أَكْلًا, tr:aklan, gloss:yeme ve tüketme} içindeki tüketici rolü, 89:23'teki cehennem ateşi ve 4:10'da zulümle yetim malını yiyenler için ateş sonucunun kurulmasıyla temas eder; ateşin odunu yakarak tüketmesi, failin kendi tüketme kipini ona geri çeviren analojik bir tetik olur."
+        },
+        {
+          "movement_refs": ["connection:conn_f83c8312790471c3699a", "context:89:23", "context:4:10"],
+          "paragraph": 6,
+          "anchor": "89:23 ile 4:10'un birlikte kurduğu ateş sonucu, bu maddi reversal'ın bağımsız bağlamsal dayanağıdır."
+        }
+      ]
+    },
+    {
+      "finding_ref": "global:vulnerable-support-reversal",
+      "landings": [
+        {
+          "movement_refs": ["discovery:claim", "discovery:mechanism", "discovery:reader_payoff"],
+          "paragraph": 2,
+          "anchor": "Mirası yemek, kırılgan hak sahiplerini desteklemesi gereken kaynağın tüketiciye akıtılması olduğunda, bir pay kaybından daha fazlasına, destek akışının tersine çevrilmesine dönüşür."
+        },
+        {
+          "movement_refs": ["discovery:containment"],
+          "paragraph": 2,
+          "anchor": "Bu bağlantı, her mirasçının korunmasız veya her tüketicinin güçlü olduğu sonucunu vermez; yalnızca yetim, yoksul ve mirasçıya doğru yönelmesi gereken kaynağın tüketiciye çevrildiği durumları aydınlatır."
+        },
+        {
+          "movement_refs": ["activation:0"],
+          "paragraph": 2,
+          "anchor": "Nisâ 4:2 yetimlerin malını korumayı, 4:6 vasinin onu tüketmeden sahibine geri vermesini, 76:8 ise yiyeceği yoksul ve yetime ulaştırmayı öne çıkarır; bu üç bağımsız temas, {ar:وَتَأْكُلُونَ, tr:wa-ta'kulūna, gloss:yiyorsunuz} yüzeyindeki malı alma ve sömürme kullanımını bakım için ayrılmış kaynağın ters akışı olarak etkinleştirir."
+        },
+        {
+          "movement_refs": ["activation:1"],
+          "paragraph": 2,
+          "anchor": "Aynı üçlü, {ar:ٱلتُّرَاثَ, tr:at-turātha, gloss:mirası} kelimesindeki “kime geçmesi gerekir?” sorusunu da açar: mirasın belirli hak sahibine kalması gerekirken, odak tüketimi yönü korunmasız alıcıdan gücü elinde tutan tüketiciye çevirir."
+        },
+        {
+          "movement_refs": ["connection:conn_a0868d3f0ad314f3f572", "connection:conn_f5b16b9600f9f9eecec9", "connection:conn_24fcea740fcbe3ec0ece", "context:4:2", "context:4:6", "context:76:8"],
+          "paragraph": 2,
+          "anchor": "4:2, 4:6 ve 76:8'in birlikte kurduğu bakım yönü, malın alınmasından önce korunması, iade edilmesi ve ihtiyaç sahibine ulaştırılması gereken akışı somutlaştırır."
+        }
+      ]
+    },
+    {
+      "finding_ref": "global:rightful-inheritance-contrast",
+      "landings": [
+        {
+          "movement_refs": ["discovery:claim", "discovery:mechanism", "discovery:reader_payoff"],
+          "paragraph": 3,
+          "anchor": "Mirasın olumlu yüzü de aynı taşıyıcıyı aydınlatır: miras, yalnızca ele geçirilen mal değil, hak veya akrabalık sebebiyle sonraki kişiye ulaşan bir aktarım biçimidir."
+        },
+        {
+          "movement_refs": ["discovery:containment"],
+          "paragraph": 3,
+          "anchor": "Bu olumlu örnekler, cennet mirasını dünyevi miras hukukunun birebir şeması yapmadan, 89:19'daki pay silinmesini görünür kılan sınırlı bir karşıtlık olarak kalır."
+        },
+        {
+          "movement_refs": ["activation:0"],
+          "paragraph": 3,
+          "anchor": "{ar:ٱلتُّرَاثَ, tr:at-turātha, gloss:mirası} kelimesi bu olağan intikal anlamıyla 19:6'daki aile içi ardıllık, 23:10'daki cennete mirasçı olma ve 43:72'deki cennet mirası bağlantılarıyla buluşur; bu örnekler mirasın haklı bir sonuca ve doğru alıcıya ulaşan yönünü bağımsızca tetikler."
+        },
+        {
+          "movement_refs": ["connection:conn_c1795c9c0f5ebf952c48", "connection:conn_259796b512452d44030e", "connection:conn_b4c432e1b70f00618824", "context:19:6", "context:23:10", "context:43:72"],
+          "paragraph": 3,
+          "anchor": "19:6, 23:10 ve 43:72'deki üç miras bağlantısı, aile içi ardıllıkla cennetteki kazanımı aynı haklı ulaşma yönünde buluşturur."
+        }
+      ]
+    },
+    {
+      "finding_ref": "global:temporary-custody",
+      "landings": [
+        {
+          "movement_refs": ["discovery:claim", "discovery:mechanism"],
+          "paragraph": 3,
+          "anchor": "Mirasın nihai sahibi ve varisi üzerine kurulan daha geniş ufuk, insanın elindeki payı mutlak mülk değil geçici bir emanet olarak da çerçeveler."
+        },
+        {
+          "movement_refs": ["discovery:reader_payoff"],
+          "paragraph": 3,
+          "anchor": "Bu temas, mirasçının elindeki payı hiçbir tasarruf hakkı olmayan bir nesneye çevirmeden, onu nihai sahiplik iddiasıyla bütünüyle tüketilemeyecek bir custody, yani sınırlı bir emanet olarak yeniden görmeyi sağlar."
+        },
+        {
+          "movement_refs": ["discovery:containment"],
+          "paragraph": 3,
+          "anchor": "İlahi nihai sahiplik karşıtlığı, insanın her kullanımını yasaklayan doğrudan bir kural değil, 89:19'daki tekelleştirme iddiasını sınırlayan keşifsel bir küresel yankıdır."
+        },
+        {
+          "movement_refs": ["activation:0"],
+          "paragraph": 3,
+          "anchor": "{ar:ٱلتُّرَاثَ, tr:at-turātha, gloss:mirası} taşıyıcısı 19:40'ta yeryüzünün nihai mirasının Allah'a ait oluşu, 57:10'da göklerin ve yerin mirasının Allah'a aitliği ve 15:23'te son varis oluşuyla temas eder; bu üç bağlantı insan mülkiyetinin sınırlı ve geçici yönünü bağımsızca etkinleştirir."
+        },
+        {
+          "movement_refs": ["connection:conn_84d88206cf624cea097a", "connection:conn_93e896d5c61be17c8db5", "connection:conn_7c2d545fea1b88ab4f05", "context:19:40", "context:57:10", "context:15:23"],
+          "paragraph": 3,
+          "anchor": "19:40, 57:10 ve 15:23'ün ortak vurgusu, insanın elindeki miras payını nihai mülk değil sınırlı bir elde tutma olarak çerçeveler."
+        }
+      ]
+    },
+    {
+      "finding_ref": "global:wealth-appetite-loop",
+      "landings": [
+        {
+          "movement_refs": ["discovery:claim", "discovery:mechanism", "discovery:reader_payoff"],
+          "paragraph": 5,
+          "anchor": "Serveti toplama ve sayma, onu kalıcı sanma, çoğalma yarışına girme ve mala yoğun sevgi duyma bağlantıları ise 89:19'daki tüketimi tek seferlik açgözlülükten her edinimle beslenen bir iştah döngüsüne taşır."
+        },
+        {
+          "movement_refs": ["discovery:containment"],
+          "paragraph": 5,
+          "anchor": "Bu küresel yankı, her servet birikimini miras gaspıyla özdeşleştirmez; yalnızca yeni alınan payın bir sonraki tüketimi beslediği iştah mekanizmasını görünür kılar."
+        },
+        {
+          "movement_refs": ["activation:0"],
+          "paragraph": 5,
+          "anchor": "{ar:أَكْلًا, tr:aklan, gloss:yeme ve tüketme} ile malın harcanması veya tüketilmesi anlamı, 104:2'de serveti toplama ve sayma, 104:3'te servetin kişiyi kalıcı kılacağı vehmi, 102:1'de çoğalma yarışı ve 100:8'de mala duyulan yoğun sevgi tarafından aynı geri besleme döngüsüne çekilir."
+        },
+        {
+          "movement_refs": ["connection:conn_1120b942de1e70195147", "connection:conn_786fe524008bbc444ff5", "connection:conn_b3408a9d19415d84de56", "connection:conn_a05b500ba971e107d8b8", "context:104:2", "context:104:3", "context:102:1", "context:100:8"],
+          "paragraph": 5,
+          "anchor": "104:2, 104:3, 102:1 ve 100:8'deki dört servet bağlantısı, toplama, kalıcılık vehmi, çoğalma ve yoğun sevgi adımlarını aynı iştah zincirinde birbirine bağlar."
+        }
+      ]
+    }
+  ]
+}

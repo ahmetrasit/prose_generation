@@ -1,0 +1,581 @@
+{
+  "schema_version": "commentary-v5-scope-discovery-v1",
+  "ayah_ref": "94:3",
+  "lane": "global",
+  "coverage_complete": true,
+  "candidate_decisions": [
+    {
+      "candidate_id": "cand_a15c8111f3adbc1dfff1",
+      "decision": "represented",
+      "reason": "Bu trusted yayım, global:audible-load bulgusunda taşınan root_000970/B002 ve root_001543/B005 gürültülü yük ilişkisini aynen taşır; dal, facet, bağlam veya obligation dışarıda bırakılmaz.",
+      "finding_refs": ["global:audible-load"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_61f3865759617020d861",
+      "decision": "represented",
+      "reason": "Bu trusted yayım, global:support-structure-strain bulgusundaki bedenin ötesine geçen destek düzeninin çözülme baskısını aynen taşır; bütün üç focus branch'i aynı bulguda korunur.",
+      "finding_refs": ["global:support-structure-strain"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_0523f04f7c9095bd2bff",
+      "decision": "represented",
+      "reason": "Bu trusted yayım, global:journey-worn-carrier bulgusundaki yolculukla tükenen taşıma gücü ve sonraki hareket ilişkisini aynen taşır.",
+      "finding_refs": ["global:journey-worn-carrier"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_797f79f17e7c7321f3e1",
+      "decision": "represented",
+      "reason": "Bu trusted yayım, global:pressure-disclosure bulgusunda korunan gıcırdamanın gizli baskıyı görünür ve bilinir kılması ilişkisini aynen taşır.",
+      "finding_refs": ["global:pressure-disclosure"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_245dd2445b0133157b69",
+      "decision": "reject",
+      "reason": "Moral-liability önerisi, focus yüzeyindeki yalın ظَهْرَكَ isminden ayıbın kişiden ayrılması için gereken idiomatik biçimi kuramıyor. Ayrıca trusted yayım bu bulguyu reject olarak işaretliyor; mevcut doğrudan nesne ilişkisi, root_001543/B001'in yapısal çözülmesini destekleyebilirken ahlaki suçlama çözülmesini desteklemiyor.",
+      "finding_refs": [],
+      "branch_exclusions": [
+        {
+          "branch_ref": "root_000970/B013",
+          "reason": "B013'ün ayıbın kişiye bağlanmaması anlamı focus'taki yalın ظَهْرَكَ isminden değil, supplied idiomatik kullanımdan doğar; candidate support da bu yüzeyin form-distant olduğunu açıkça belirtir."
+        },
+        {
+          "branch_ref": "root_001543/B001",
+          "reason": "أَنقَضَ'nın ظَهْرَكَ doğrudan nesnesiyle kurduğu supplied yerel ilişki gıcırdama ve baskı yönündedir; moral-liability okumasının B013 ayağı olmadan B001 bu candidate iddiasını taşımaz."
+        }
+      ],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_3def8d396eb6bdec8ba9",
+      "decision": "narrow",
+      "reason": "Reader walk, focus yüzeyine dönen dört materially distinct ilişkiyi destekliyor: duyulur yük, çözülmekte olan destek, yolculukla tükenen taşıyıcı ve gizli baskının açığa çıkması. Üç nominated source-image branch'i için packet'te geçerli focus/context carrier ve focus return bulunmadığından bunlar açıkça çıkarıldı; unresolved ف ر غ/B003 ve و ض ع/B003 citation'ları da branch gloss'u icat edilmeden qualification olarak tutuldu.",
+      "finding_refs": [
+        "global:audible-load",
+        "global:support-structure-strain",
+        "global:journey-worn-carrier",
+        "global:pressure-disclosure"
+      ],
+      "branch_exclusions": [
+        {
+          "branch_ref": "root_000532/B011",
+          "reason": "Covenant source-image branch'i nominated durumda ve focus'ta root occurrence taşımıyor; 94:8 yalnız supplied reader text içinde geçiyor, exact context carrier ve focus return sağlamıyor."
+        },
+        {
+          "branch_ref": "root_001507/B010",
+          "reason": "Full-day easy march source-image branch'i için packet'te focus/context occurrence yok; ayrıca onu taşıyacak و ض ع/B003 ve ف ر غ/B003 citation'ları registered branch olarak çözülemiyor."
+        },
+        {
+          "branch_ref": "root_001643/B002",
+          "reason": "Heavy-burden source-image branch'i 94:2'yi trigger olarak adlandırıyor, fakat packet'te bu branch'in exact context carrier occurrence'ı veya focus return'ü supplied değil."
+        }
+      ],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_ffbc0cdcd00654796045",
+      "decision": "narrow",
+      "reason": "Retrospective walk, root_001543/B002 yolculukla tükenen taşıyıcı dalını 94:7'deki sonraki hareketle geriye dönük olarak görünür kılıyor. Root_000532/B011 covenant branch'i için focus/context carrier ve focus return yok; bu yüzden yalnız bounded retrospective travel core korunuyor.",
+      "finding_refs": ["global:retrospective-travel"],
+      "branch_exclusions": [
+        {
+          "branch_ref": "root_000532/B011",
+          "reason": "Nominated covenant source-image branch'i focus'ta gerçekleşmiyor; supplied 94:8 mention'ı exact carrier occurrence veya focus return sağlamıyor."
+        }
+      ],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_66790f41bbed06d7f855",
+      "decision": "narrow",
+      "reason": "Wide reader activation'ının root_000970/B002 ve root_001543/B005 ile kurduğu audible-load core, global:audible-load bulgusunda aynen landed. Root_001643/B002 source-image branch'i için exact context carrier ve focus return supplied olmadığından candidate o bounded core'a daraltıldı.",
+      "finding_refs": ["global:audible-load"],
+      "branch_exclusions": [
+        {
+          "branch_ref": "root_001643/B002",
+          "reason": "Heavy-burden branch'i yalnız reader açıklamasında 94:2 ile ilişkilendiriliyor; packet'te bu branch'in exact occurrence carrier'ı ve focus'a dönen ref'i yok."
+        }
+      ],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_7f56853f48812b8ebfe0",
+      "decision": "represented",
+      "reason": "Bu tek-branch wide reading, global:journey-worn-carrier bulgusundaki root_001543/B002 yolculukta tükenen taşıyıcı anlamının exact duplicate'idir; unresolved و ض ع/B003 citation'ı registered bir branch veya ayrı obligation eklemiyor.",
+      "finding_refs": ["global:journey-worn-carrier"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_fa0b499d28f16f169139",
+      "decision": "reject",
+      "reason": "Bu moral-liability ve public-repair activation'ı, focus'ta olmayan 94:4 honor carrier'ına ve source text'te candidate branch listesinde de bulunmayan form-distant root_000970/B013'e dayanıyor. Root_001543/B001 tek başına mevcut moral iddiasını kurmuyor; root_001643/B002 için de exact context carrier yok.",
+      "finding_refs": [],
+      "branch_exclusions": [
+        {
+          "branch_ref": "root_000516/B007",
+          "reason": "Honorable mention branch'i focus surface'te bulunmuyor; 94:4 context olarak metinde geçse de packet'te bu branch için exact carrier ve focus return yok."
+        },
+        {
+          "branch_ref": "root_001543/B001",
+          "reason": "أَنقَضَ'nın focus'taki back-object ilişkisi bu candidate'in moral liability claim'ini kurmaz; supplied support'taki B013 reference'ı candidate branch listesine bağlı ve geçerli bir focus carrier olarak gelmemiştir."
+        },
+        {
+          "branch_ref": "root_001643/B002",
+          "reason": "Heavy-burden branch'i için packet'te exact context occurrence carrier'ı veya focus return supplied değildir."
+        }
+      ],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_92c1c5f866cafb45edaf",
+      "decision": "narrow",
+      "reason": "Retrospective wide reading'in root_001543/B002 travel core'u global:retrospective-travel bulgusunda korunuyor. Root_000516/B007 honor branch'i focus'ta carrier taşımıyor; 94:4'teki public mention supplied context olsa da bu branch için exact focus return yok.",
+      "finding_refs": ["global:retrospective-travel"],
+      "branch_exclusions": [
+        {
+          "branch_ref": "root_000516/B007",
+          "reason": "Honorable mention source-image branch'i focus surface'te yoktur ve supplied 94:4 reference'ı exact carrier occurrence veya focus return sağlamaz."
+        }
+      ],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_0d897331bb14431c8381",
+      "decision": "reject",
+      "reason": "Assigned legacy_unbound HFT summary's anchor_refs ve branch_refs alanları boş, support kaydındaki anchor_evidence de boş. Exact context coordinate, attributed role, branch carrier veya focus return supplied olmadığı için bu record attributed activation eşiğini geçmiyor.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_2573f409adb790a8919b",
+      "decision": "reject",
+      "reason": "Assigned legacy_unbound HFT summary's exact anchor, branch, context coordinate ve focus return'ü yok; exact Arabic surface evidence'i tek başına carrier-trigger trace kurmuyor.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_3b383bdc47b2c71c9ff6",
+      "decision": "reject",
+      "reason": "Assigned HFT hardship/ease summary's anchor_refs, branch_refs ve anchor_evidence'i yok; supplied packet bu genel gözlemi focus'a döndüren exact trace vermiyor.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_3ce60dd9c8c1ff698e95",
+      "decision": "reject",
+      "reason": "Assigned HFT later-imperative summary's exact context coordinate, branch carrier ve focus return'ü yok; supplied record bu ayrımı attributed contextual evidence düzeyinde kurmuyor.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_659cf9bf51e873cb7cc7",
+      "decision": "reject",
+      "reason": "Assigned HFT what-was-special inventory multiple mechanisms names but supplies no exact carrier, independent trigger, attributed role or focus return; it cannot be retained as a global finding.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_9098929ac666104b6d96",
+      "decision": "reject",
+      "reason": "Assigned HFT social-backing uncertainty has no exact anchor, branch carrier, independent context coordinate or focus return; its qualification is preserved in friction rather than promoted to a finding.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_278a9fbb0793d269fe1c",
+      "decision": "reject",
+      "reason": "Assigned HFT analogical-carrier uncertainty has no exact carrier-trigger-focus-return trace and no supplied branch activation to evaluate.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_df9a2f1e545fdcfaf386",
+      "decision": "reject",
+      "reason": "Assigned HFT grammar summary says the temporal relation is unresolved but supplies no exact activation trace, carrier, trigger or focus return; no before/after claim is inferred.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_477dba3129c9832544f4",
+      "decision": "reject",
+      "reason": "Assigned HFT split-root uncertainty has no exact carrier, trigger or focus return, and the packet supplies no branch-level trace that could be retained as attributed evidence.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    }
+  ],
+  "findings": [
+    {
+      "finding_ref": "global:audible-load",
+      "origin_candidate_id": "cand_3def8d396eb6bdec8ba9",
+      "represented_candidate_ids": ["cand_a15c8111f3adbc1dfff1"],
+      "title": "Yükün sırtta duyulur hale gelmesi",
+      "claim": "أَنقَضَ taşıyıcısı, ظَهْرَكَ doğrudan nesnesi üzerinde ağır yükün sırttan duyulur bir gıcırtı çıkarması ilişkisini kurar; geniş Quranic load contacts bu baskıyı taşıma kapasitesine yaklaşan somut bir strain olarak açar.",
+      "mechanism": "94:3:2:1'deki أَنقَضَ, root_001543/B005'in eklem veya yük aracından çıkan gıcırtı alanını; 94:3:3:1'deki ظَهْرَكَ, root_000970/B002'nin gerçek sırt carrier'ını verir. Önceki 94:2 burden ile 6:31'in sırtta taşınan burdens ve 2:286'nın beyond-capacity load bağlantıları bu iki focus carrier'a bağımsız biçimde dönerek relative clause'u yalnız ağırlaştırma değil, yükün ses eşiğine ulaşması olarak değiştirir.",
+      "reader_payoff": "Önceki yük soyut bir ağırlık olarak kalmaz; okuyucu onun sırtta ses çıkaracak kadar bedensel hale geldiğini ve çökme eşiğini duyumsar.",
+      "containment": "Birincil zemin 'O, belini ağırlaştırmıştı' olarak korunur. Burada root_001643/B002'nin ahlaki burden anlamı, yeni bir literal sebep veya supplied relative clause'un ötesinde zorunlu nedensellik ileri sürülmez; wider target morphology packet'te yoktur.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": ["legacy_unbound", "trusted"],
+        "reason": "Trusted publication doğrudan focus branch çiftini taşır; legacy reader walk aynı mekanizmayı ayrıntılandırır. Wider connection target'ları exact Arabic verse sunsa da target morphology sağlamadığı için global activation qualified tutulur."
+      },
+      "support_ids": [
+        "sup_60191e637f75e1e657a2",
+        "sup_77cf5b1bb55bdd7edba3",
+        "sup_db95dc99ad2295973e92"
+      ],
+      "branch_activations": [
+        {
+          "branch_ref": "root_001543/B005",
+          "facet_id": "F001",
+          "branch_gloss": "baskı altındaki eklem veya yük aracının gıcırtısı",
+          "facet_statement": "Eklem, parmak, kaburga veya kemiğin hareket ya da baskı altında gıcırdaması.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["94:3:2:1"],
+          "trigger_refs": ["94:2", "conn_ea3a97e90e4efb9772c3", "conn_68715779073001ce4926"],
+          "focus_return_refs": ["94:3:2:1"],
+          "carrier": "أَنقَضَ fiili, baskı veya hareket altında duyulan eklem ve yük gıcırtısı alanını taşır.",
+          "independent_trigger": "94:2'nin supplied burden bağlantısı ile 6:31'de sırtlarda taşınan burdens ve 2:286'da kapasiteyi aşan yük için kurulan exact connection kayıtları.",
+          "activation": "Gıcırtı carrier'ı, focus'taki yüklenmiş sırt nesnesiyle ve wider yük sınırı kayıtlarıyla temas edince önceki burden'ın yalnız kavramsal değil, işitilebilir bir bedensel baskıya dönüştüğünü gösterir.",
+          "resulting_reading": "Relative clause, yükün sırtta gıcırtı oluşturacak kadar baskı kurduğu bir strain eşiğini görünür kılar.",
+          "boundary": "Hayvan ötüşü, dil şaklatması, covenant çözülmesi veya bağımsız bir moral burden branch'i bu facet'e taşınmaz."
+        },
+        {
+          "branch_ref": "root_001543/B005",
+          "facet_id": "F002",
+          "branch_gloss": "baskı altındaki eklem veya yük aracının gıcırtısı",
+          "facet_statement": "Ağır yükün sırta baskı yaparak ondan duyulur bir gıcırtı çıkarması.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["94:3:2:1"],
+          "trigger_refs": ["94:2", "conn_ea3a97e90e4efb9772c3", "conn_68715779073001ce4926"],
+          "focus_return_refs": ["94:3:2:1"],
+          "carrier": "أَنقَضَ fiili, ağır yükün sırtı ses çıkaracak ölçüde zorlaması specialization'ını taşır.",
+          "independent_trigger": "6:31'in backs üzerinde taşınan açık burdens paraleli ve 2:286'nın beyond-capacity load sınırı, 94:2'nin local burden referansını wider bir ölçüye bağlar.",
+          "activation": "Focus fiilinin gıcırtı sonucu, yük taşıyan sırt carrier'ı ile birleşip wider load-capacity temasına döndüğünde ses, baskının ulaştığı sınırın belirtisi olur.",
+          "resulting_reading": "Belin ağırlaşması, yükün artık sessizce taşınmadığı; strain'in duyulur hale geldiği bir yüklenme olarak okunur.",
+          "boundary": "B005'in specialization'ı korunur ama 94:3'e gerçek bir dış yük nesnesi, kesin bir çöküş sonucu veya camel carrier eklenmez."
+        },
+        {
+          "branch_ref": "root_000970/B002",
+          "facet_id": "F001",
+          "branch_gloss": "sırt ve arka yüz",
+          "facet_statement": "Sırt, bedende karın tarafının karşısındaki bölüm; nesnede ise buna benzetilen arka yüzdür.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["94:3:3:1"],
+          "trigger_refs": ["94:2", "conn_ea3a97e90e4efb9772c3", "conn_68715779073001ce4926"],
+          "focus_return_refs": ["94:3:3:1"],
+          "carrier": "ظَهْرَكَ, ikinci şahsa ait gerçek sırtı yükün doğrudan etkilediği load-bearing body surface olarak taşır.",
+          "independent_trigger": "6:31'in yüklerin ظُهُور üzerinde taşınmasını açıkça göstermesi ve 2:286'nın burden'ı bearer's capacity ile sınırlandırması.",
+          "activation": "Anatomical back carrier'ı wider burden-on-back ve capacity contacts ile buluşunca focus nesnesi, sesin çıktığı taşıyıcı yüzey olarak somutlaşır.",
+          "resulting_reading": "Bel, yalnız etkilenen bir organ değil, yükün eşiğini ses yoluyla açığa vuran taşıma yüzeyi olarak görünür.",
+          "boundary": "Sırt anlamı korunur; social support, dış yüz veya ظهور branch'leri bu activation'ın literal anlamı yapılmaz."
+        }
+      ],
+      "connection_refs": ["conn_ea3a97e90e4efb9772c3", "conn_68715779073001ce4926"],
+      "context_refs": ["94:2", "6:31", "2:286"],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:support-structure-strain",
+      "origin_candidate_id": "cand_3def8d396eb6bdec8ba9",
+      "represented_candidate_ids": ["cand_61f3865759617020d861"],
+      "title": "Bedenin arkasında çözülen destek düzeni",
+      "claim": "Focus'taki أَنقَضَ ظَهْرَكَ ilişkisi, yükün yalnız bedeni zorlaması değil, kişiyi ayakta tutan kurulmuş destek düzenini de çözülme eşiğine getirmesi olarak genişler.",
+      "mechanism": "94:3:2:1'deki أَنقَضَ root_001543/B001'in kurulmuş bir bütünü çözme core'unu taşırken, 94:3:3:1'deki ظَهْرَكَ root_000970/B006 yardım-güçlendirme ve root_000970/B016 destekçi topluluğu carrier'larını taşır. 16:92'nin güçten sonra çözülmüş örgü, 20:31'in sırtı güçlendirme ve 11:92 ile 66:4'ün destek düzenleri bu focus pair'ine bağımsız wider contacts olarak dönüp strain'i destek yapısının kırılma riskiyle okutur.",
+      "reader_payoff": "Yük, yalnızca bir insanın içindeki fiziksel acı değil, onu taşıyan dayanakların da gerilebildiği bir durum olarak seçilebilir hale gelir.",
+      "containment": "Anatomik sırt ve duyulur gıcırtı birincil okumada kalır. Focus'ta covenant carrier'ı yoktur; sosyal düzenin gerçekten çöktüğü, belirli bir topluluğun fail olduğu veya support branch'lerinin literal sözlük anlamını değiştirdiği ileri sürülmez.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": ["legacy_unbound", "trusted"],
+        "reason": "Trusted publication B001/B006/B016 relation'ını taşır ve connection registry'de exact Arabic wider parallels vardır; reader walk legacy_unbound olduğu ve connection target morphology supplied olmadığı için relation qualified'dır."
+      },
+      "support_ids": ["sup_c91158143ee55161dd4c", "sup_db95dc99ad2295973e92"],
+      "branch_activations": [
+        {
+          "branch_ref": "root_001543/B001",
+          "facet_id": "F001",
+          "branch_gloss": "kurulu bütünü çözme, geçersiz kılma veya karşı savla çürütme",
+          "facet_statement": "İp, örgü, yapı veya düğüm gibi önceden bir araya getirilmiş bir bütünü çözme, sökme ya da bozma.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["94:3:2:1"],
+          "trigger_refs": ["16:92", "conn_1361bbdb557607821eb1"],
+          "focus_return_refs": ["94:3:2:1"],
+          "carrier": "أَنقَضَ, mevcut focus object'ini zorlayan çözülme fiili olarak kurulu bir bütünün dağılması image'ını taşır.",
+          "independent_trigger": "16:92'nin güçten sonra örülmüş bütünün çözülmesini açıkça göstermesi ve conn_1361bbdb557607821eb1'in bunu focus destek-strain ilişkisine bağlaması.",
+          "activation": "Kurulu bütünün çözülmesi carrier'ı focus fiiline döndüğünde, sırtı zorlayan burden taşıma kapasitesinin arkasındaki düzeni de çözülme eşiğinde gösterir.",
+          "resulting_reading": "Anqaḍa, yalnız ses üreten baskı değil, kişiyi ayakta tutan kurulmuş bağların gevşemeye başlaması olarak da okunur.",
+          "boundary": "Covenant B011, ant veya belirli bir sosyal fail eklenmez; yapısal image focus'un anatomical reading'ini yerinden etmez."
+        },
+        {
+          "branch_ref": "root_000970/B006",
+          "facet_id": "F001",
+          "branch_gloss": "yardım edip güçlendirmek",
+          "facet_statement": "Bir taraf diğerine yardım ve dayanak sağlayarak onun gücünü artırır.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["94:3:3:1"],
+          "trigger_refs": ["20:31", "conn_50c7bbf5de51f204b603"],
+          "focus_return_refs": ["94:3:3:1"],
+          "carrier": "ظَهْرَكَ, sırtı bir kişinin gücünü taşıyan ve yardım ile güçlendirme image'ına açılan focus carrier olarak taşır.",
+          "independent_trigger": "20:31'in supplied sırtı güçlendirme ifadesi ve conn_50c7bbf5de51f204b603'ün bunu focus'a en yakın support-capacity parallel olarak kaydetmesi.",
+          "activation": "Wider strengthening carrier'ı ظَهْرَكَ'ya döndüğünde, focus'taki zorlanan sırtın karşısında onu güçlendiren support relation'ı görünür kılar.",
+          "resulting_reading": "Sırt, strain'in pasif yüzeyi yanında destek alınan veya güçlendirilen bir dayanak olarak da belirir.",
+          "boundary": "Bu, 94:3'te açık bir yardımcı fail bulunduğunu veya B006'nın anatomical noun'un literal translation'ı olduğunu söylemez."
+        },
+        {
+          "branch_ref": "root_000970/B016",
+          "facet_id": "F001",
+          "branch_gloss": "güç alınan destekçi topluluğu",
+          "facet_statement": "Yardımcılar ve yakın topluluk, kişiye toplu bir güç ve dayanak sağlar.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["94:3:3:1"],
+          "trigger_refs": ["11:92", "conn_be7a36d63ac000ceaabb", "66:4", "conn_8e93cd174d19624d98dc"],
+          "focus_return_refs": ["94:3:3:1"],
+          "carrier": "ظَهْرَكَ, kişinin arkasında veya yanında güç sağlayan support surface olarak destekçi topluluğu image'ına döner.",
+          "independent_trigger": "11:92'nin kin-based backing ile ultimate support karşıtlığı ve 66:4'ün support coalitions kaydı, iki ayrı wider support contact olarak supplied'dir.",
+          "activation": "Toplu backing trigger'ları focus sırt carrier'ına temas edince ağırlaşan back, kişinin dayandığı support network'ünün taşıma gücüyle birlikte okunur.",
+          "resulting_reading": "Burden, tek bedensel yüzeyde kalmadan kişiyi ayakta tutan destekçilerin düzenini zorlayan bir pressure olarak hissedilir.",
+          "boundary": "Belirli bir topluluk, siyasi zafer, covenant veya gerçek bir sosyal çöküş focus'a eklenmez."
+        }
+      ],
+      "connection_refs": [
+        "conn_1361bbdb557607821eb1",
+        "conn_50c7bbf5de51f204b603",
+        "conn_be7a36d63ac000ceaabb",
+        "conn_8e93cd174d19624d98dc"
+      ],
+      "context_refs": ["16:92", "20:31", "11:92", "66:4"],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:journey-worn-carrier",
+      "origin_candidate_id": "cand_3def8d396eb6bdec8ba9",
+      "represented_candidate_ids": ["cand_0523f04f7c9095bd2bff", "cand_7f56853f48812b8ebfe0"],
+      "title": "Yolculuğun tükettiği taşıyıcı",
+      "claim": "Root_001543/B002'nin yolculukların gücünü tükettiği deve image'ı ile root_000970/B005'in yük taşıyan binek image'ı birlikte, focus sırtını uzun bir yolun yük taşıma kapasitesi olarak yeniden duyurur; sonraki hareket bu kapasitenin yeniden yönlenmesini sağlar.",
+      "mechanism": "94:3:2:1'deki أَنقَضَ exhausted-travel carrier'ına, 94:3:3:1'deki ظَهْرَكَ yük taşıyan binek/sırt carrier'ı eşlik eder. 94:7-8'in sonraki çaba ve yönelişi, 16:7'nin zor yol boyunca taşınan ağır yükleri, 43:13'ün riding backs'i ve 9:120'nin journey hardship kaydı focus pair'ine wider independent triggers olarak dönerek statik ağırlığı yolculukta yıpranmış taşıma gücüne çevirir.",
+      "reader_payoff": "Okuyucu, belin yalnızca bir yükün altında kalan insan bedeni değil, uzun bir yolu taşıdığı için yıpranan bir taşıyıcı olarak da çalıştığını görür.",
+      "containment": "Birincil bel ve yük anlamı korunur; 94:3'te literal camel, yolcu, belirli bir görev süresi veya unresolved و ض ع/B003 ve ف ر غ/B003 branch'i zorunlu kılınmaz.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": ["legacy_unbound", "trusted"],
+        "reason": "Trusted publication B002/B005 travel relation'ını açıkça taşır; legacy reader walk ve exact Arabic connection rows bunu genişletir, ancak wider target morphology supplied değildir."
+      },
+      "support_ids": [
+        "sup_7f230123882abe4c2ac9",
+        "sup_82f422b2d9ca73f9aaef",
+        "sup_db95dc99ad2295973e92"
+      ],
+      "branch_activations": [
+        {
+          "branch_ref": "root_001543/B002",
+          "facet_id": "F001",
+          "branch_gloss": "yolculukların gücünü tükettiği deve",
+          "facet_statement": "Yolculukların bir deve veya dişi devenin gücünü tüketip onu zayıf ve bitkin bırakması.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["94:3:2:1"],
+          "trigger_refs": ["94:7", "94:8", "16:7", "conn_48a84a656d20a9b8d34e", "43:13", "conn_fd13c308d817acd683e2", "9:120", "conn_e33d690e22fea869c317"],
+          "focus_return_refs": ["94:3:2:1"],
+          "carrier": "أَنقَضَ, yolculukların bir taşıyıcının gücünü tüketmesiyle oluşan exhausted-travel durumunu taşır.",
+          "independent_trigger": "94:7-8'deki sonraki hareket ve hedef, 16:7'nin ağır yükle zor yolculuğu ve 9:120'nin journey hardship bağlantıları.",
+          "activation": "Yolculukta tüketilmiş taşıyıcı trigger'ı focus fiiline dönünce anqaḍa, yalnız bir anlık yük etkisi değil, ilerleme boyunca birikmiş taşıma yorgunluğu olarak duyulur.",
+          "resulting_reading": "Belin ağırlaşması, uzun hareketin taşıyıcıyı güçten düşürdüğü ve sonraki çabayla yeniden yola koyulduğu bir image kazanır.",
+          "boundary": "Focus'ta deve veya hayvan öznesi zorunlu kılınmaz; wider travel image literal translation yerine bounded resonance'tır."
+        },
+        {
+          "branch_ref": "root_000970/B005",
+          "facet_id": "F001",
+          "branch_gloss": "yük bineği ve yedek deve",
+          "facet_statement": "Hayvanlar yükü sırtlarında taşıdıkları için binek ve yük hayvanı topluluğu bu adla anılır.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["94:3:3:1"],
+          "trigger_refs": ["94:7", "94:8", "16:7", "conn_48a84a656d20a9b8d34e", "43:13", "conn_fd13c308d817acd683e2", "9:120", "conn_e33d690e22fea869c317"],
+          "focus_return_refs": ["94:3:3:1"],
+          "carrier": "ظَهْرَكَ, yükü sırtında taşıyan bineklerin adlandırıldığı somut load-bearing surface alanını taşır.",
+          "independent_trigger": "43:13'ün riding backs'i, 16:7'nin ağır yükleri zor yol boyunca taşıması ve 94:7-8'in sonraki hareket/hedef düzeni.",
+          "activation": "Binek ve taşıma carrier'ı ظَهْرَكَ ile temas edince back, yolculuğun yükü altında yıpranan bir taşıma yüzeyi olarak yeniden çerçevelenir.",
+          "resulting_reading": "Focus, sabit bir beden hasarı yanında, taşıyıcı kapasitenin yol bitkinliğiyle zorlandığı bir yolculuk image'ı da verir.",
+          "boundary": "B005'in somut binek anlamı korunur; 94:3'te yedek deve, animal actor veya literal travel scene asserted edilmez."
+        }
+      ],
+      "connection_refs": [
+        "conn_48a84a656d20a9b8d34e",
+        "conn_fd13c308d817acd683e2",
+        "conn_e33d690e22fea869c317"
+      ],
+      "context_refs": ["94:7", "94:8", "16:7", "43:13", "9:120"],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:pressure-disclosure",
+      "origin_candidate_id": "cand_3def8d396eb6bdec8ba9",
+      "represented_candidate_ids": ["cand_797f79f17e7c7321f3e1"],
+      "title": "Gizli baskının sesle açığa çıkması",
+      "claim": "أَنقَضَ'nın duyulur gıcırtısı, ظَهْرَكَ üzerinde içte kalan baskıyı görünür ve bilinir hale getirir; root_000970/B001 ve B008'in dışa çıkma ile bilgiye ulaşma carrier'ları bu açığa çıkışı wider hidden-to-visible contacts ile derinleştirir.",
+      "mechanism": "94:3:3:1'deki ظَهْرَكَ, B001'in gizliden belirgin olma ve B008'in erişilemeyen bilgiye ulaşma facet'lerine gerçek focus carrier sağlar; 94:3:2:1'deki أَنقَضَ B005 F001 gıcırtısıyla görünürleşen belirtinin sound carrier'ıdır. 66:3'ün sırdan açıklığa geçişi, 72:26'nın concealed/disclosed boundary'si, 9:48'in ortaya çıkan divine matter'ı ve 30:7'nin outward/depth karşıtlığı bu relation'a bağımsız wider triggers olarak döner.",
+      "reader_payoff": "Belin çıkardığı ses, görünmeyen bir strain'in yalnız hissedilmediğini, bedensel belirti üzerinden bilinir hale geldiğini açar.",
+      "containment": "ظَهْرَكَ'nın ordinary anatomical back reading'i korunur; noun'un tek başına 'ortaya çıkmak' anlamına geldiği, belirli bir gizli bilgi veya divine disclosure bulunduğu ileri sürülmez. Target morphology supplied olmadığından wider ayat yalnız connection-level trigger'dır.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": ["legacy_unbound", "trusted"],
+        "reason": "Trusted publication exact focus carriers ve hidden-pressure change'i verir; legacy source bunu four-way reader activation olarak açar. Wider connections exact Arabic taşısa da target morphology ve reader provenance sınırlıdır."
+      },
+      "support_ids": ["sup_b1c43dc9b02d80cf7c95", "sup_db95dc99ad2295973e92"],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000970/B001",
+          "facet_id": "F001",
+          "branch_gloss": "açığa çıkıp belirginleşmek",
+          "facet_statement": "Önceden gizli olan şey açığa çıkar, belirginleşir ve artık saklı kalmaz.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["94:3:3:1"],
+          "trigger_refs": ["94:4", "30:7", "conn_8fc77eea92de050b1477", "66:3", "conn_9fbec212681029f18fc4", "9:48", "conn_becb07a20a1d80d69b3d"],
+          "focus_return_refs": ["94:3:3:1"],
+          "carrier": "ظَهْرَكَ, baskının saklı kalmayan dışa vuran yüzeyi olarak appearance carrier'ına açılır.",
+          "independent_trigger": "94:4'teki public mention ile 66:3'ün sırdan açığa geçişi, 30:7 ve 9:48'in outward/emergent records'larıdır.",
+          "activation": "Gizli olandan görünür olana geçiş carrier'ı ظَهْرَكَ'ya döndüğünde gıcırtı, içteki baskının bedensel bir dışavurumuna dönüşür.",
+          "resulting_reading": "Anqaḍa'nın sesi, yükün saklı strain'ini dışarıda belirginleştiren bir threshold olarak okunur.",
+          "boundary": "B001 burada focus noun'un ordinary back anlamını silmez; abstract emergence noun'un literal translation'ı yapılmaz."
+        },
+        {
+          "branch_ref": "root_000970/B008",
+          "facet_id": "F001",
+          "branch_gloss": "bilgiye ulaşıp öğrenmek",
+          "facet_statement": "Özne daha önce bilmediği veya erişemediği bir bilgiye ulaşır.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["94:3:3:1"],
+          "trigger_refs": ["30:7", "conn_8fc77eea92de050b1477", "66:3", "conn_9fbec212681029f18fc4", "72:26", "conn_cb5350d1b00b193b714b", "9:48", "conn_becb07a20a1d80d69b3d"],
+          "focus_return_refs": ["94:3:3:1"],
+          "carrier": "ظَهْرَكَ, daha önce okunmayan strain'in belirtiyle erişilebilir hale geldiği focus surface olarak knowledge-access image'ını taşır.",
+          "independent_trigger": "66:3 ve 72:26'nın hidden/disclosed knowledge boundary'si ile 30:7 ve 9:48'in outward emergence kayıtları.",
+          "activation": "Görünür veya bilinir hale gelme trigger'ı back carrier'a temas edince ses, okuyucunun baskıyı yalnız varsaymayıp belirtilen yüzeyde fark etmesini sağlar.",
+          "resulting_reading": "Focus, gizli pressure'ın gıcırtı üzerinden fark edilebilir ve anlaşılabilir bir condition'a dönüşmesini taşır.",
+          "boundary": "Bir kişi tarafından edinilmiş belirli bir bilgi, revelation claim'i veya B008'in formüle bağlı lexical use'ı focus'a zorunlu olarak eklenmez."
+        },
+        {
+          "branch_ref": "root_001543/B005",
+          "facet_id": "F001",
+          "branch_gloss": "baskı altındaki eklem veya yük aracının gıcırtısı",
+          "facet_statement": "Eklem, parmak, kaburga veya kemiğin hareket ya da baskı altında gıcırdaması.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["94:3:2:1"],
+          "trigger_refs": ["94:2", "66:3", "conn_9fbec212681029f18fc4", "72:26", "conn_cb5350d1b00b193b714b", "9:48", "conn_becb07a20a1d80d69b3d"],
+          "focus_return_refs": ["94:3:2:1"],
+          "carrier": "أَنقَضَ, gıcırtıyı hidden pressure'ın dışa vuran bedensel belirtisi olarak taşır.",
+          "independent_trigger": "66:3, 72:26 ve 9:48'de supplied hidden-to-visible transitions; 94:2 ise focus relative clause'un local burden antecedent'ıdır.",
+          "activation": "Sound carrier'ı disclosure trigger'larıyla temas edince gıcırtı, içerideki zorlanmanın okuyucuya açılan fiziksel evidence'ı olur.",
+          "resulting_reading": "Yükün etkisi, görünmeyen bir ağırlıktan duyularla yakalanabilen bir pressure sign'ına dönüşür.",
+          "boundary": "Bu, sesin literal olarak konuştuğunu veya disclosure'un focus fiilinin sözlük anlamı olduğunu söylemez; B005 hayvan seslerine genişletilmez."
+        }
+      ],
+      "connection_refs": [
+        "conn_8fc77eea92de050b1477",
+        "conn_9fbec212681029f18fc4",
+        "conn_cb5350d1b00b193b714b",
+        "conn_becb07a20a1d80d69b3d"
+      ],
+      "context_refs": ["94:2", "94:4", "30:7", "66:3", "72:26", "9:48"],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:retrospective-travel",
+      "origin_candidate_id": "cand_ffbc0cdcd00654796045",
+      "represented_candidate_ids": [],
+      "title": "Sonraki hareketin önceki yorgunluğu geriye dönük açması",
+      "claim": "94:7'deki sonraki hareket, focus'taki root_001543/B002 yolculukla tükenen carrier'ı geriye dönük olarak görünür kılar: strain hareketi iptal etmekten çok, onun yeniden düzenlenmesini açıklar.",
+      "mechanism": "94:3:2:1'deki أَنقَضَ, yolculukla tükenen deve facet'inin focus carrier'ıdır; 94:7'nin supplied imperative'i ve 84:6'nın Lord'a doğru sustained effort connection'ı, daha sonra gelen hareketin önceki yorgunluğa dönerek onu yeni bir direction içinde okumasını sağlar.",
+      "reader_payoff": "Okuyucu, önceki ağırlaşmayı sonradan gelen çabanın karşıtı değil, yeniden yönelen hareketin geriye dönük olarak açıkladığı bir taşıma yorgunluğu olarak görür.",
+      "containment": "Bu, legacy retrospective context evidence'dır; focus'un gramatik öznesi deve yapılmaz, 94:7'nin anlamı 94:3'e taşınarak replacement kurulmaz ve covenant source-image branch'i ileri sürülmez.",
+      "epistemic": {
+        "status": "exploratory",
+        "source_trust": ["legacy_unbound"],
+        "reason": "Retrospective reader walk exact focus branch ve 94:7 contact'ını supplies eder; reader identity legacy_unbound'dur ve wider supporting target morphology yoktur."
+      },
+      "support_ids": ["sup_a1b21a786e6a0e743a80"],
+      "branch_activations": [
+        {
+          "branch_ref": "root_001543/B002",
+          "facet_id": "F001",
+          "branch_gloss": "yolculukların gücünü tükettiği deve",
+          "facet_statement": "Yolculukların bir deve veya dişi devenin gücünü tüketip onu zayıf ve bitkin bırakması.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["94:3:2:1"],
+          "trigger_refs": ["94:7", "84:6", "conn_71f8fbc899d961cb65da"],
+          "focus_return_refs": ["94:3:2:1"],
+          "carrier": "أَنقَضَ, yolculukların taşıyıcıyı güçten düşürdüğü retrospective travel carrier'ını taşır.",
+          "independent_trigger": "94:7'nin sonraki hareket buyruğu ve 84:6'nın Lord'a doğru sürdürülen effort paraleli.",
+          "activation": "Sonraki hareket trigger'ı exhausted-travel carrier'ına dönünce earlier strain, hareketin bitişi değil, yeniden yönlendirilmeden önceki taşıma yorgunluğu olarak okunur.",
+          "resulting_reading": "Focus'taki ağırlaşma, 94:7'nin hareketiyle geriye dönük olarak yeniden düzenlenen bir journey-wear state'i kazanır.",
+          "boundary": "Bu carrier'ın deveye ilişkin sözlük çekirdeği korunur; 94:3'te literal hayvan, belirli yol veya otomatik neden-sonuç asserted edilmez."
+        }
+      ],
+      "connection_refs": ["conn_71f8fbc899d961cb65da"],
+      "context_refs": ["94:7", "84:6"],
+      "semantic_obligation_refs": []
+    }
+  ],
+  "friction_notes": [
+    "focus_word_alignment üç word-analysis kaydının üçünü de exact QAC morphemes'e çözüyor; unresolved analysis unit veya missing join yok.",
+    "selected_context_units boş. 94:2, 94:4, 94:7 ve 94:8 aynı pericope refs'i olarak yalnız supplied support metinlerinde kullanıldı; wider connection kayıtları exact target Arabic verse sağlıyor fakat target morphology sağlamıyor. Bu nedenle global findings qualified veya exploratory tutuldu ve dış ayatların ayrıntılı morphology'si icat edilmedi.",
+    "v12_reader_responses mevcut değil. v12_focus_trace_hermetic mevcut olsa da dokuz assigned global HFT kaydının anchor_refs ve branch_refs alanları boş, support kayıtlarının anchor_evidence'i de boş; exact context coordinate, attributed role ve focus return bulunmadığı için dokuzunun tamamı reject edildi.",
+    "cand_3def8d396eb6bdec8ba9 reader walk'ında ف ر غ/B003 ve و ض ع/B003 unresolved citation'ları, ayrıca root_000532/B011, root_001507/B010 ve root_001643/B002 nominated source-image branch'leri bulunuyor. Bunlar için packet'te exact carrier/focus return olmadığı kaydedildi; yeni branch gloss veya facet icat edilmedi.",
+    "cand_fa0b499d28f16f169139 support metni root_000970/B013 moral-liability branch'ine değinse de candidate branch listesi root_000516/B007 içeriyor; bu source/candidate identity uyuşmazlığı ve plain ظَهْرَكَ form restriction nedeniyle moral proposal reject edildi.",
+    "Connection prior labels retrieval nomination olarak ele alındı. Doğrudan load, support, journey ve disclosure temasları retained findings içinde carrier-trigger ilişkilerine bağlandı; no-value veya redundant rows için exhaustive negative inventory üretilmedi.",
+    "Candidate kayıtlarında semantic_obligations ve required_branch_facets alanları supplied değil; bu nedenle obligation ref uydurulmadı. B005 specialization retained edilirken aynı branch'in F001 core facet'i de explicit activation olarak korundu."
+  ]
+}

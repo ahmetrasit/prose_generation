@@ -1,0 +1,836 @@
+{
+  "schema_version": "commentary-v5-scope-discovery-v1",
+  "ayah_ref": "93:1",
+  "lane": "global",
+  "coverage_complete": true,
+  "candidate_decisions": [
+    {
+      "candidate_id": "cand_2585ba0e17eacbaad9df",
+      "decision": "accept",
+      "reason": "root_000904/B001 has the supplied focus carrier 93:1:1:3, while the direct night-to-day connection at 79:29 and the supplied 93:2-93:5 sequence independently activate the branch's extending-time and delayed-arrival relation. The care/non-abandonment implication remains a qualified contextual inference.",
+      "finding_refs": ["global:daylight-extension-care"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_967cb950c259da8b8790",
+      "decision": "accept",
+      "reason": "root_000904/B002 is carried by 93:1:1:3 and is independently activated by the supplied exposure/shelter and daytime-security boundary evidence at 20:119 and 7:98. The finding retains the inferred relation without making daylight itself the cause of vulnerability.",
+      "finding_refs": ["global:exposure-vulnerability-response"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_eafdd0d9e3b0978d65a1",
+      "decision": "accept",
+      "reason": "Both focus branches root_000904/B002 and root_000904/B005 share the supplied carrier 93:1:1:3 and meet the explicit 93:11 disclosure/narration cue in the packet. Their contact yields a weak, qualified relation from exposed brightness to narrated blessing; neither branch is treated as the literal grammatical meaning of the oath.",
+      "finding_refs": ["global:light-to-narrated-gratitude"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_c4d9b8ea8453f3edbbca",
+      "decision": "accept",
+      "reason": "root_000904/B003 has a supplied focus carrier and an independent day-for-livelihood trigger in connection conn_a6cee1256e5a64a414c5, with support sup_85d0cfb07aba1da44cd5 naming the later giving and care sequence. The pastoral provision rhythm is retained as a qualified global analogy.",
+      "finding_refs": ["global:forenoon-provision-rhythm"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_cbde6776c54e6fe5a82d",
+      "decision": "represented",
+      "reason": "The sacrificial-redistribution reading is an exact semantic duplicate of cand_ed511124c6181c8b97de and is carried by its dedicated finding; no branch, facet, context, or obligation is omitted from the represented candidate.",
+      "finding_refs": ["global:sacrificial-redistribution"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_a77ad20772ae309a02ba",
+      "decision": "represented",
+      "reason": "The delayed-forenoon-as-care reading is an exact semantic duplicate of cand_2585ba0e17eacbaad9df and is carried by its dedicated finding, with its legacy support and unresolved neighboring citations preserved there.",
+      "finding_refs": ["global:daylight-extension-care"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_03d86a48d28ec815ad1f",
+      "decision": "narrow",
+      "reason": "The root_000904/B002 exposure-to-public-narration core is independently grounded by the support's 93:11 disclosure cue and is retained. The same support also invokes 93:0, which is outside the declared 93:1-93:11 pericope, so that context is excluded from the retained global contact.",
+      "finding_refs": ["global:public-exposure-speech"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [
+        {
+          "context_ref": "93:0",
+          "reason": "The support record names 93:0, but the declared pericope and supplied context boundary begin at 93:1; the retained core uses the independently named 93:11 disclosure cue."
+        }
+      ],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_07d506114c8cb3cc1337",
+      "decision": "accept",
+      "reason": "The focus branch root_000904/B003 is carried at 93:1:1:3, and the nominated root_001525/B005 has an explicitly named context carrier at 93:11 in support sup_1ebf8ded9351b37188f4. The two contacts form a provisional pastoral-provision relation, retained with attributed status for the nominated context branch.",
+      "finding_refs": ["global:pastoral-provision"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_ed511124c6181c8b97de",
+      "decision": "accept",
+      "reason": "root_000904/B004 has the supplied focus carrier 93:1:1:3 and meets the explicitly named 93:7 offering, 93:10 requester, and 93:11 livestock context cues. The packet's direct-link reservation is retained as an exploratory boundary rather than used to erase the attributed ritual-redistribution relation.",
+      "finding_refs": ["global:sacrificial-redistribution"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_a5a9008a4d6b69302077",
+      "decision": "accept",
+      "reason": "root_000904/B002 is independently activated by the 93:10 requester/rebuke contact, and root_001525/B005 is explicitly carried at 93:11 in support sup_a9fccf6504e535134ec0. The resulting harsh-exposure and livestock-provision pair is retained as a qualified retrospective relation, with the nominated branch remaining attributed.",
+      "finding_refs": ["global:exposure-pastoral-provision"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_1b8774ef2b5f6473631a",
+      "decision": "represented",
+      "reason": "The wide-context extending-daylight reading is an exact semantic duplicate of cand_2585ba0e17eacbaad9df and is carried by its dedicated finding with the wide-context support preserved.",
+      "finding_refs": ["global:daylight-extension-care"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_8aca589da8bb58d0e1bf",
+      "decision": "accept",
+      "reason": "root_000904/B002 is carried at 93:1:1:3 and the nominated root_001692/B001 has an explicitly named 93:6 orphan/vulnerability carrier in support sup_3061f6e00c609f0e3b3e. Their contact yields an attributed exposure-and-refuge relation without turning it into a causal claim about daylight.",
+      "finding_refs": ["global:exposure-orphan-refuge"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_240205efab370b1af8fe",
+      "decision": "accept",
+      "reason": "root_000904/B003 has the supplied focus carrier and is independently met by the 93:5 giving and 93:6 dependent-care contexts. The nominated root_001028/B002 is explicitly named at 93:5 and is retained as an attributed giving contact; the missing food term keeps the combined provision rhythm exploratory.",
+      "finding_refs": ["global:provision-rhythm-giving"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_453b8dddfff26c68fc1b",
+      "decision": "accept",
+      "reason": "The focus branches root_000904/B002 and root_000904/B003 both have the supplied carrier 93:1:1:3 and independently contact the explicitly named 93:5-93:6 gift, exposure, and refuge sequence. B002 retains the risk/response relation, while B003 is retained as an exploratory provision facet because the support expressly records that food is not named.",
+      "finding_refs": ["global:exposure-and-provision-dual"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_ac15b9fc1411e2b34196",
+      "decision": "reject",
+      "reason": "The HFT summary is unanchored: its packet record has no anchor_refs, branch_refs, exact context carrier, word index, root, attributed role, or focus-return trace. It therefore supplies no independently checkable activation for a retained global finding.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_58fd830669ab5952540b",
+      "decision": "reject",
+      "reason": "The HFT public-exposure synthesis is visible but unanchored. No exact HFT coordinate identifies a carrier, independent trigger, attributed role, or return through the 93:1 focus surface, so the ethical sequence cannot be retained as an HFT activation.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_7445fbc0f46e039a6e5f",
+      "decision": "reject",
+      "reason": "The HFT provisioning-ecology summary has no supplied anchor evidence and no exact branch or context occurrence. Without a coordinate-level carrier, trigger, attributed role, and focus return, its synthesis remains an ungrounded nomination.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_2ab1bd96632b56bba53c",
+      "decision": "reject",
+      "reason": "The HFT day-opening/flow/request/speech summary is unanchored in this packet. It names no exact carrier, trigger coordinate, attributed role, or focus-return ref and therefore cannot establish a retained global activation.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_f6e288ef5727e084148d",
+      "decision": "reject",
+      "reason": "The HFT coexistence summary is a synthesis without exact anchor evidence. Its record supplies no coordinate-level carrier, distinct trigger, attributed role, or focus return that could be evaluated as a finding.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_bb78a9124eedcd73eddb",
+      "decision": "reject",
+      "reason": "The HFT special-outlier summary names split branches and a care rhythm only at synthesis level. The packet has no exact HFT carrier, trigger, role, or focus-return coordinate for any of those images, so the unanchored nomination cannot be retained.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_ec5452e2d7c3f71e1b1c",
+      "decision": "reject",
+      "reason": "The HFT uncertainty about the gentle-delay branch has no exact anchor evidence or branch-specific trace in the packet. Availability of the focus branch alone does not provide the independent trigger and focus return required for activation.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_d1187308de172c595de9",
+      "decision": "reject",
+      "reason": "The HFT provisioning uncertainty is unanchored and has no exact carrier, context occurrence, attributed role, or focus-return trace. Its qualification cannot substitute for an activation mechanism.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_fde3afdd91c05dbc555f",
+      "decision": "reject",
+      "reason": "The HFT later-versus-first comparison is explicitly left unanchored in the packet. No exact context coordinate, branch carrier, attributed role, or focus return is supplied for the proposed temporal/eschatological relation.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_f445a7591b232460b409",
+      "decision": "reject",
+      "reason": "The HFT social-mechanism qualification has no exact anchor evidence, branch ref, context carrier, attributed role, or focus-return trace. It remains a source summary rather than an activatable global finding.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_b9f1bc231a2b26b639a0",
+      "decision": "reject",
+      "reason": "The HFT outlier summary groups sacrificial, thermal, lullaby, and voiced-daylight possibilities without exact HFT anchors. No carrier, independent trigger, attributed role, or focus return is supplied, so none can be retained from this candidate.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    }
+  ],
+  "findings": [
+    {
+      "finding_ref": "global:daylight-extension-care",
+      "origin_candidate_id": "cand_2585ba0e17eacbaad9df",
+      "represented_candidate_ids": ["cand_a77ad20772ae309a02ba", "cand_1b8774ef2b5f6473631a"],
+      "title": "Kuşluk zamanının yayılması ve gecikmenin bakım olarak görünmesi",
+      "claim": "ٱلضُّحَىٰ, güneş yükseldikten sonra ilerleyen ve genişleyen bir zaman alanı olarak, sonraki karanlık-geçiş düzeni içinde bekleyişi terk edilme işareti olmaktan çıkarıp zaman içinde belirginleşen bir bakım ihtimali olarak açar.",
+      "mechanism": "93:1:1:3'te taşınan root_000904/B001'in F001-F003 zaman çekirdeği, 79:29'daki geceden sonra kuşluğun çıkarılması ve 93:2-93:5'teki gece, terk edilmeme ve daha iyi sonraki aşama temaslarıyla temas eder; böylece sabit bir saat noktası yerine aşamalı bir açılma ve gecikmiş varış okunur.",
+      "reader_payoff": "Okur kuşluğu yalnızca parlak bir an olarak değil, karanlığın ardından gelişen ve anlamı zamanla görünürleşen bir süreç olarak algılar; düz zaman çevirisinin sakladığı süreklilik açılır.",
+      "containment": "Yeminli sıradan okuma, kuşluk vaktine and içilmesi olarak bütünüyle korunur. Bakım ve terk edilmeme ilişkisi bağlamsal bir çıkarımdır; cand_a77ad20772ae309a02ba'nın ء خ ر/B002 ve و د ع/B001 eşleştirmeleri çözümlenmemiş kaldığı için bağımsız dal kaydı sayılmaz.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": ["legacy_unbound", "trusted"],
+        "reason": "B001'in focus taşıyıcısı ve doğrudan zamansal bağlantı paket içinde mevcut; bakım olarak yeniden okuma ise trusted cross-run iddiası ile legacy bağlam sentezinin ortak, fakat çıkarımsal, sonucudur."
+      },
+      "support_ids": ["sup_da7c99f5d8bd9e8abf3b", "sup_fea8730cec49c473b182", "sup_d7823826dd947565a27e"],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000904/B001",
+          "facet_id": "F001",
+          "branch_gloss": "güneş yükseldikten sonraki kuşluk vakti",
+          "facet_statement": "Güneş doğduktan sonra gün yükselir ve erken aydınlık zaman dilimi başlar.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["93:1:1:3"],
+          "trigger_refs": ["conn_e335789e0415a903bde9", "79:29", "93:2", "93:3", "93:4", "93:5", "sup_da7c99f5d8bd9e8abf3b", "sup_d7823826dd947565a27e"],
+          "focus_return_refs": ["93:1:1:3"],
+          "carrier": "ٱلضُّحَىٰ yüzeyi, güneş doğduktan sonra başlayan erken aydınlık zamanını taşır.",
+          "independent_trigger": "79:29'da gecenin ardından kuşluğun çıkarılması ve 93:2-93:5'in gece, terk edilmeme ve sonraki aşama sıralaması, zamanı tek bir ışık anından daha geniş bir geçiş olarak kurar.",
+          "activation": "Odak zaman adı, gece ve sonraki aşama temaslarıyla birleşince süreklilik ve ilerleyen açıklık ilişkisini görünür kılar.",
+          "resulting_reading": "Kuşluk, yalnız mevcut parlaklık değil, karanlıktan sonra açılan ve bakımın zaman içinde fark edilir hale gelmesine izin veren bir zaman sürecidir.",
+          "boundary": "Bu temas kuşluğu kendi başına bakım sözcüğüne çevirmez ve 79:29'un hedef morfolojisi hakkında packet dışı ayrıntı kurmaz; bakım bağlantısı qualified contextual inference olarak kalır."
+        },
+        {
+          "branch_ref": "root_000904/B001",
+          "facet_id": "F002",
+          "branch_gloss": "güneş yükseldikten sonraki kuşluk vakti",
+          "facet_statement": "Bu zaman, doğuşun hemen sonrasından başlayıp günün uzadığı ve öğleye yaklaştığı daha ileri aşamalara ayrılır.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["93:1:1:3"],
+          "trigger_refs": ["conn_e335789e0415a903bde9", "79:29", "93:2", "93:4", "93:5", "sup_da7c99f5d8bd9e8abf3b", "sup_d7823826dd947565a27e"],
+          "focus_return_refs": ["93:1:1:3"],
+          "carrier": "ٱلضُّحَىٰ, güneş yükseldikçe ilerleyen kuşluk aşamalarını adlandıran zaman taşıyıcısıdır.",
+          "independent_trigger": "79:29'un geceden sonra ortaya çıkış görüntüsü ve 93:4-93:5'in daha iyi sonraki aşamaya bağlanan sıralaması, erken gündüzün uzayan aşamalarını tetikler.",
+          "activation": "Zaman dalının aşamalılık facet'i, odak ayetin sonraki aşama ve gecikme bağlamıyla temas ederek gecikmeyi süreç içindeki yerleşik bir evre olarak okutur.",
+          "resulting_reading": "Gecikme, yokluk kanıtı yerine gelişimin henüz ilerleyen bir evresi olarak algılanabilir.",
+          "boundary": "Bu, 93:1'in gramatik yeminini veya kuşluk zamanının olağan anlamını değiştirmez; süreklilik ve bakım bağlantısı bağlamsal kalır."
+        },
+        {
+          "branch_ref": "root_000904/B001",
+          "facet_id": "F003",
+          "branch_gloss": "güneş yükseldikten sonraki kuşluk vakti",
+          "facet_statement": "Bir yerde bu vakte kadar kalmak veya bir eylemi vaktin yükselmesine kadar geciktirmek zaman anlamına bağlı kullanımlardır.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["93:1:1:3"],
+          "trigger_refs": ["93:3", "93:4", "93:5", "sup_fea8730cec49c473b182", "sup_d7823826dd947565a27e"],
+          "focus_return_refs": ["93:1:1:3"],
+          "carrier": "ٱلضُّحَىٰ, yükselen vakte kadar kalma veya işi o vakte bırakma yönünü de taşıyabilen zaman adıdır.",
+          "independent_trigger": "93:3'te terk edilmenin reddi ve 93:4-93:5'te sonradan gelen daha iyi aşama ve verme sıralaması, bekleyişi ihmal değil zamanlamalı bir ilerleyiş olarak tetikler.",
+          "activation": "Gecikmiş eylem kullanımı, odak zaman adını 93:3-93:5'in güvence ve sonraki aşama ilişkisine bağlar.",
+          "resulting_reading": "Vaktin henüz yükselmemiş olması, kopuşu değil, henüz tamamlanmamış bir geliş sürecini taşıyabilir.",
+          "boundary": "Çözümlenmemiş ء خ ر/B002 ve و د ع/B001 kayıtları bu aktivasyona yeni lexicon dalları olarak eklenmemiştir; çıkarım, supplied context relation ile sınırlıdır."
+        }
+      ],
+      "connection_refs": ["conn_e335789e0415a903bde9"],
+      "context_refs": ["79:29", "93:2", "93:3", "93:4", "93:5"],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:exposure-vulnerability-response",
+      "origin_candidate_id": "cand_967cb950c259da8b8790",
+      "represented_candidate_ids": [],
+      "title": "Açık ışığın kırılganlığı ve koruyucu karşılığı görünür kılması",
+      "claim": "root_000904/B002'nin güneşe ve bakışa açıklık yönü, açık alanı yalnızca olumlu görünürlük olarak değil, korunmasızlığın ve ona yönelen koruyucu karşılığın birlikte seçilebildiği bir eşik olarak kurar.",
+      "mechanism": "93:1:1:3'teki B002 taşıyıcısı, 20:119'daki maruz kalma/sığınma karşıtlığı ve 7:98'deki gündüz vakti güvenlik sınırıyla temas eder; açıklık böylece hem riski hem de risk karşısındaki cevabı aynı görsel alanda belirginleştirir.",
+      "reader_payoff": "Okur açık gün ışığını otomatik güvenlik işareti olarak değil, ihtiyacın ve korumanın aynı anda görünür hale geldiği bir alan olarak okuyabilir.",
+      "containment": "Birincil yemin, kuşluk vaktine and içme olarak yerinde kalır. Gündüzün kırılganlık ürettiği ileri sürülmez; packet, açıkta kalma ile sığınma arasındaki bağı contextual resonance olarak sunar ve 7:98 karşıt sınırını korur.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": ["trusted"],
+        "reason": "B002 için trusted focus-anchored publication ve iki exact-Arabic connection mevcut; koruyucu cevabın ışık tarafından kurulması değil, ışıkta birlikte görünür hale gelmesi çıkarımsaldır."
+      },
+      "support_ids": ["sup_b50438468730894e1a8d"],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000904/B002",
+          "facet_id": "F001",
+          "branch_gloss": "güneşe veya bakışa açık olup görünürleşme",
+          "facet_statement": "Bir kişi veya şey güneşe ya da bakışa açık hale gelir ve görünür olur.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["93:1:1:3"],
+          "trigger_refs": ["conn_b9a2aa6cf800ee3f1a47", "20:119", "conn_a0907d7b99bc191768e7", "7:98", "sup_b50438468730894e1a8d"],
+          "focus_return_refs": ["93:1:1:3"],
+          "carrier": "ٱلضُّحَىٰ, güneşe veya bakışa açık olup belirginleşme yönünü taşıyabilir.",
+          "independent_trigger": "20:119'un parlak dönem içinde maruz kalmayı ve 7:98'in gündüz vakti güvenlik garantisi taşımayan açıklığı göstermesi, görünürlüğün kırılganlıkla temasını sağlar.",
+          "activation": "Açıklık taşıyıcısı, maruz kalma ve güvenlik sınırıyla birleşince görünürlüğü risk ile koruyucu cevabın ortak yüzeyi haline getirir.",
+          "resulting_reading": "Kuşluk ışığı, korunmasız ihtiyacın da ona verilen cevabın da saklanmadan fark edilebildiği bir alan olarak genişler.",
+          "boundary": "B002'nin açıklık çekirdeği gündüzü tek başına güvenli veya tehlikeli ilan etmez; ilişki, supplied context ile sınırlı ve qualified'dır."
+        }
+      ],
+      "connection_refs": ["conn_b9a2aa6cf800ee3f1a47", "conn_a0907d7b99bc191768e7"],
+      "context_refs": ["20:119", "7:98"],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:public-exposure-speech",
+      "origin_candidate_id": "cand_03d86a48d28ec815ad1f",
+      "represented_candidate_ids": [],
+      "title": "Açıkta görünmenin kamusal anlatıya dönüşmesi",
+      "claim": "root_000904/B002'nin açıklığa ve bakışa açılma yönü, 93:11'deki nimet hakkında konuşma ve anlatma temasına bağlandığında, görünürlüğü kamusal bir tanıklığa hazırlanma alanı olarak da kurar.",
+      "mechanism": "93:1:1:3'teki B002 focus carrier'ı F001 görünürlük ve F003 aleni eylem facet'lerini taşır; support sup_aba21c39666f66b0eb1c, 93:11'deki report/conversation/disclosure temasını bağımsız tetik olarak verir. Temas, ışığı doğrudan söz anlamına çevirmeden görünür olanın anlatılabilir hale gelmesi yönünde bir analogical arrow kurar.",
+      "reader_payoff": "Okur açıklığı yalnızca gözün gördüğü bir alan olarak değil, görünür hale gelen nimetin açıkça dile getirilebildiği bir kamusal erişim zemini olarak da fark eder.",
+      "containment": "Kuşluk vaktine edilen yemin birincil okumadır. Support'un 93:0'a yaptığı gönderme declared pericope dışında kaldığı için kullanılmaz; retained relation yalnızca 93:11'in supplied disclosure cue'uyla sınırlıdır ve B002'nin konuşmak anlamına geldiği söylenmez.",
+      "epistemic": {
+        "status": "exploratory",
+        "source_trust": ["legacy_unbound"],
+        "reason": "B002 carrier ve 93:11 disclosure cue aynı support içinde görünür, ancak visibility-to-communicability oku reader'ın analogical çıkarımıdır; 93:0 kapsam dışında bırakılmıştır."
+      },
+      "support_ids": ["sup_aba21c39666f66b0eb1c"],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000904/B002",
+          "facet_id": "F001",
+          "branch_gloss": "güneşe veya bakışa açık olup görünürleşme",
+          "facet_statement": "Bir kişi veya şey güneşe ya da bakışa açık hale gelir ve görünür olur.",
+          "application_mode": "analogical",
+          "carrier_refs": ["93:1:1:3"],
+          "trigger_refs": ["93:11", "sup_aba21c39666f66b0eb1c"],
+          "focus_return_refs": ["93:1:1:3"],
+          "carrier": "ٱلضُّحَىٰ, güneşe veya bakışa açılan ve böylece görünürleşen alanı taşır.",
+          "independent_trigger": "93:11'deki report/conversation/disclosure teması, açıkta bulunanın söze taşınabilmesi için ayrı bir packet bağlamı sağlar.",
+          "activation": "Görünürlük carrier'ı, anlatma temasına değince açıklık ile kamusal tanıklık arasında bir geçiş kurar.",
+          "resulting_reading": "Kuşluk, nimetin fark edilip açıkça dile getirilebildiği bir görünürlük zemini olarak genişler.",
+          "boundary": "Bu, ışığın konuşmayı nedensel olarak ürettiğini veya B002'nin lexicon anlamının konuşma olduğunu ileri sürmez."
+        },
+        {
+          "branch_ref": "root_000904/B002",
+          "facet_id": "F003",
+          "branch_gloss": "güneşe veya bakışa açık olup görünürleşme",
+          "facet_statement": "Bir işi açıkça ve herkesin görebileceği biçimde yapmak, görünür olmanın eylem alanındaki kullanımıdır.",
+          "application_mode": "analogical",
+          "carrier_refs": ["93:1:1:3"],
+          "trigger_refs": ["93:11", "sup_aba21c39666f66b0eb1c"],
+          "focus_return_refs": ["93:1:1:3"],
+          "carrier": "ٱلضُّحَىٰ, görünür olmanın eylem alanına taşınabildiği B002 facet'ini de taşır.",
+          "independent_trigger": "93:11'deki anlatma/disclosure teması, görünür eylem ile açık tanıklık arasında bağımsız contact noktasıdır.",
+          "activation": "Aleni eylem facet'i, son ayetteki anlatma bağlamıyla buluşarak açıklığı saklı olmayan bir tanıklık hareketine bağlar.",
+          "resulting_reading": "Açıklık, yalnız görülme değil, görülen nimeti herkesin önünde dile getirme ihtimalini de taşır.",
+          "boundary": "F003 yalnız contextual/analogical olarak etkinleşir; 93:1'in grammatical oath act'ı ve B002'nin ordinary visibility core'u korunur."
+        }
+      ],
+      "connection_refs": [],
+      "context_refs": ["93:11"],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:light-to-narrated-gratitude",
+      "origin_candidate_id": "cand_eafdd0d9e3b0978d65a1",
+      "represented_candidate_ids": [],
+      "title": "Açığa çıkaran ışığın nimeti anlatılabilir kılması",
+      "claim": "B002'nin açıklığa çıkaran yönü ile B005'in kuşluk aydınlığını andıran parlaklığı birlikte duyulduğunda, ışık surenin sonundaki nimetin saklanmadan dile gelmesine hazırlık yapan bir görünürlük zemini olarak okunur.",
+      "mechanism": "93:1:1:3'ün B002 ve B005 taşıyıcıları, packet'te 93:11'e bağlanan nimet ve anlatma temasına birlikte döner; görünürlük, bizzat söz anlamına dönüşmeden, nimetin fark edilip ifade edilebilir olmasını sağlayan bir ara ilişki kurar.",
+      "reader_payoff": "Okur ışığı yalnızca görülen manzara olarak değil, görünür hale gelen iyiliğin sonradan anlatılabilmesinin koşulu olarak algılar.",
+      "containment": "Kuşluk yine kuşluk vaktidir; B002 ve B005, 93:11'in anlatma fiilinin lexicon karşılığı değildir. Işık-anlatı oku weak cross-run publication ve attributed reader relation olarak kalır.",
+      "epistemic": {
+        "status": "exploratory",
+        "source_trust": ["trusted"],
+        "reason": "Trusted publication B002/B005'i 93:1'e sabitler, fakat ışığın son ayetteki anlatıya zemin olması weak bir yapısal çıkarımdır ve packet içindeki 93:11 temasından öteye taşınmaz."
+      },
+      "support_ids": ["sup_b8c91b95db0addc6b9f4"],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000904/B002",
+          "facet_id": "F001",
+          "branch_gloss": "güneşe veya bakışa açık olup görünürleşme",
+          "facet_statement": "Bir kişi veya şey güneşe ya da bakışa açık hale gelir ve görünür olur.",
+          "application_mode": "analogical",
+          "carrier_refs": ["93:1:1:3"],
+          "trigger_refs": ["93:11", "sup_b8c91b95db0addc6b9f4"],
+          "focus_return_refs": ["93:1:1:3"],
+          "carrier": "ٱلضُّحَىٰ, bakışa ve açıklığa açılan görünürlük alanını taşır.",
+          "independent_trigger": "93:11'deki nimetin dile getirilmesi, görünür olanın anlatıya dönmesi yönünde bağımsız bir packet bağlamıdır.",
+          "activation": "Görünürlük alanı, son ayetteki anlatma temasıyla temas ederek açıklığı iletişime elverişli bir zemin gibi yeniden çerçeveler.",
+          "resulting_reading": "Açığa çıkaran ışık, nimetin gizli bir veri olarak kalmayıp söze taşınabilmesinin ön koşulu olarak duyulur.",
+          "boundary": "Bu, ışığın anlatmayı nedensel olarak ürettiğini veya B002'nin anlatmak anlamına geldiğini söylemez."
+        },
+        {
+          "branch_ref": "root_000904/B005",
+          "facet_id": "F001",
+          "branch_gloss": "kuşluk aydınlığını andıran parlak açıklık",
+          "facet_statement": "Kuşluk aydınlığını andıran parlak ve açık görünüm temel niteliktir.",
+          "application_mode": "analogical",
+          "carrier_refs": ["93:1:1:3"],
+          "trigger_refs": ["93:11", "sup_b8c91b95db0addc6b9f4"],
+          "focus_return_refs": ["93:1:1:3"],
+          "carrier": "ٱلضُّحَىٰ, kuşluk aydınlığına benzeyen parlak ve açık görünüm olarak da duyulabilir.",
+          "independent_trigger": "93:11'deki nimeti anlatma yönü, açıklığın bir şeyi görünür ve dile getirilebilir kılmasıyla temas eder.",
+          "activation": "Parlak açıklık, anlatılan nimetin önce görünür hale gelmesiyle birleşerek ışık ile söz arasında bir geçiş kurar.",
+          "resulting_reading": "Kuşluk aydınlığı, saklı bırakılmayan nimetin fark edilip anlatıldığı bir açıklık duygusu verir.",
+          "boundary": "B005'in parlaklık çekirdeği korunur; anlatı bağlantısı packet'in weak global çıkarımıdır ve gramatik yemin anlamını ikame etmez."
+        }
+      ],
+      "connection_refs": [],
+      "context_refs": ["93:11"],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:forenoon-provision-rhythm",
+      "origin_candidate_id": "cand_c4d9b8ea8453f3edbbca",
+      "represented_candidate_ids": [],
+      "title": "Kuşluk vaktinin günlük rızık ritmine açılması",
+      "claim": "root_000904/B003'ün erken gündüz öğünü ve otlatma alanı, 93:1'i yalnızca göksel parlaklığın adı olmaktan çıkarıp daha sonra görülen verme ve muhtaçları gözetme dizisinin günlük rızık başlangıcı olarak da duyurur.",
+      "mechanism": "93:1:1:3'teki B003 taşıyıcısı, günün geçim için ayrıldığı 78:11 connection'ı ve support sup_85d0cfb07aba1da44cd5'in sonraki verme/bakım dizisiyle temas eder; erken yemek ve otlatma, daha sonraki verme temasına tekrarlanan maddi bir ritim sağlar.",
+      "reader_payoff": "Okur kuşluğu yalnızca ışığın görünme vakti olarak değil, canlıların beslenme ve geçim hareketinin başladığı bir zaman eşiği olarak da görebilir.",
+      "containment": "Gündüz vaktinin olağan anlamı korunur. Sonraki ayatların food adı verdiği veya B003'ü zorunlu kıldığı ileri sürülmez; cosmic sign ile pastoral provision arasındaki bağ analogical ve qualified'dır.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": ["trusted"],
+        "reason": "B003 focus branch ve 78:11'in day-for-livelihood connection'ı packet içinde mevcut; daily provision rhythm, publication finding'in weak global relationını açıklayan nitelikli bir çıkarımdır."
+      },
+      "support_ids": ["sup_85d0cfb07aba1da44cd5"],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000904/B003",
+          "facet_id": "F001",
+          "branch_gloss": "erken gündüz öğünü ve o vakitte otlatma",
+          "facet_statement": "Günün erken aydınlık bölümünde yenen öğün ve bu öğünü yeme eylemi adlandırılır.",
+          "application_mode": "analogical",
+          "carrier_refs": ["93:1:1:3"],
+          "trigger_refs": ["conn_a6cee1256e5a64a414c5", "78:11", "sup_85d0cfb07aba1da44cd5"],
+          "focus_return_refs": ["93:1:1:3"],
+          "carrier": "ٱلضُّحَىٰ, erken aydınlık bölümdeki öğün ve yeme zamanına bağlanabilen bir vakit alanıdır.",
+          "independent_trigger": "78:11'de gündüzün geçim için açılması ve support'ta sonraki verme/muhtaç gözetme dizisinin anılması, erken vaktin tekrarlanan rızık hareketiyle temas eder.",
+          "activation": "Erken öğün vakti, geçim için açılan gündüz ve sonraki verme dizisiyle birleşerek kuşluğu maddi sürekliliğin başlangıç eşiği gibi gösterir.",
+          "resulting_reading": "Kuşluk, ışığın yanında günlük beslenme ve yeterliğe doğru ilerleyen bir bakım ritmini de çağrıştırır.",
+          "boundary": "B003 genel yemek veya bütün sonraki yardım düzeni değildir; ilişki food'ın sonraki ayatlarda açıkça adlandırılmadığı qualified global analogy olarak kalır."
+        },
+        {
+          "branch_ref": "root_000904/B003",
+          "facet_id": "F002",
+          "branch_gloss": "erken gündüz öğünü ve o vakitte otlatma",
+          "facet_statement": "Develerin günün başında otlamaya koyulması, aynı vakte bağlı hayvan yetiştiriciliği kullanımıdır.",
+          "application_mode": "analogical",
+          "carrier_refs": ["93:1:1:3"],
+          "trigger_refs": ["conn_a6cee1256e5a64a414c5", "78:11", "sup_85d0cfb07aba1da44cd5"],
+          "focus_return_refs": ["93:1:1:3"],
+          "carrier": "ٱلضُّحَىٰ, erken gündüzde hayvanların otlamaya başladığı vakit yönünü de taşıyan B003 alanına açılır.",
+          "independent_trigger": "Gündüzün geçim ve livelihood için açılması, early grazing facet'ini görsel zamandan maddi harekete bağlayan bağımsız tetiktir.",
+          "activation": "Otlatma zamanı ile geçim için açılan gün temas edince kuşluğun canlıların yeterliğe yöneldiği ritmin başlangıcı olduğu görünür.",
+          "resulting_reading": "Aydınlığın yayılması, canlıların rızık arayışına çıkmasıyla birlikte işleyen bir sabah sonrası düzeni taşır.",
+          "boundary": "Bu activation genel otlatma veya zorunlu pastoral sahne iddiası değildir; yalnızca B003'ün early-day grazing facet'iyle sınırlıdır."
+        }
+      ],
+      "connection_refs": ["conn_a6cee1256e5a64a414c5"],
+      "context_refs": ["78:11"],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:sacrificial-redistribution",
+      "origin_candidate_id": "cand_ed511124c6181c8b97de",
+      "represented_candidate_ids": ["cand_cbde6776c54e6fe5a82d"],
+      "title": "Kurban dalının hediye ve ihtiyaç çevresinde açtığı ritüel paylaşım görüntüsü",
+      "claim": "root_000904/B004'ün belirli bayram gününde dinsel amaçla kesilen hayvanı anlatan facet'i, 93:7'deki adak/kurban gönderimi, 93:10'daki isteyen kişi ve 93:11'deki hayvan bağlamıyla temas ederek ışığın ritüel bir paylaştırma ekonomisine bağlanabildiği exploratory bir görüntü kurar.",
+      "mechanism": "93:1:1:3'teki B004 focus carrier, packet'in aynı perikopta adak, requester ve livestock olarak açıkça adlandırdığı 93:7, 93:10 ve 93:11 bağlamlarıyla buluşur; kesilmek üzere ayrılan hayvan, verilme ve ihtiyacın karşılanması yönünde bir sosyal aktarım zinciri kurar.",
+      "reader_payoff": "Okur kuşluk adının bir bayram kesimi değil, böyle bir dal etkinleştiğinde adanmış hayvanın hediye ve ihtiyaçla kesiştiği bir paylaşım sahnesini de taşıyabildiğini fark eder.",
+      "containment": "B004'ün kurban hayvanı anlamı, kuşluk vaktinin birincil yemin okumasının yerine geçirilmez. Trusted publication desteği doğrudan bağın kurulmadığını işaretler; reader support'ın verdiği temas bu nedenle exploratory ve analogical kalır.",
+      "epistemic": {
+        "status": "exploratory",
+        "source_trust": ["legacy_unbound", "trusted"],
+        "reason": "Focus branch ve exact pericope context refs supplied; ancak trusted finding-5 doğrudan bağlantıyı reject olarak niteler ve reader record kendi ritüel aktarım okunu abductive sayar."
+      },
+      "support_ids": ["sup_afd4394d0f8426212c6a", "sup_fbae4f1037da207b3eae"],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000904/B004",
+          "facet_id": "F001",
+          "branch_gloss": "bayram gününde dinsel amaçla kesilen hayvan",
+          "facet_statement": "Belirli bayram gününde dinsel amaçla kesilmek üzere ayrılan veya kesilen hayvan adlandırılır.",
+          "application_mode": "analogical",
+          "carrier_refs": ["93:1:1:3"],
+          "trigger_refs": ["93:7", "93:10", "93:11", "sup_afd4394d0f8426212c6a", "sup_fbae4f1037da207b3eae"],
+          "focus_return_refs": ["93:1:1:3"],
+          "carrier": "ٱلضُّحَىٰ yüzeyi, B004'ün belirli bayram günündeki dinsel kesim hayvanı facet'ini taşımaya adaydır.",
+          "independent_trigger": "93:7'nin adak/kurban gönderimi, 93:10'un isteyen kişi ve 93:11'in livestock bağlamı, kesim nesnesini verme ve ihtiyaç çevresinde konumlandırır.",
+          "activation": "Kurban hayvanı taşıyıcısı, adama, isteyen kişi ve hayvan temaslarıyla birleşince ışık adı altında ritüel paylaşım yönü görünür hale gelir.",
+          "resulting_reading": "Kuşluk, exploratory bir yan okumada, adanmış hayvanın ihtiyaç sahibine ulaşan bir verme düzenine bağlandığı sahneyi çağırabilir.",
+          "boundary": "Bu, B004'ün belirli bayram/amaç koşullarını genelleştirmez; kurban bağlantısı doğrudan lexical claim değil, packet'te açıkça qualified analogical activation'dır."
+        }
+      ],
+      "connection_refs": [],
+      "context_refs": ["93:7", "93:10", "93:11"],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:pastoral-provision",
+      "origin_candidate_id": "cand_07d506114c8cb3cc1337",
+      "represented_candidate_ids": [],
+      "title": "Kuşluk başlangıcının otlayan hayvanlar ve bağımlıların geçimiyle buluşması",
+      "claim": "root_000904/B003'ün erken öğün/otlatma facet'i ile root_001525/B005'in 93:11'de adı geçen otlayan hayvan görüntüsü birleştiğinde, kuşluk bağımlıların yeterliğe doğru taşındığı günlük bir provisioning başlangıcı olarak okunur.",
+      "mechanism": "93:1:1:3'teki B003 focus carrier, 93:5'teki verme, 93:8'deki yoksulluk/bağımlı, 93:11'deki livestock bağlamları ve 78:11'in day-for-livelihood connection'ı ile temas eder; focus zamanının erken besleme/otlatma yönü, nominated livestock carrier üzerinden sonraki ihtiyaç alanına döner.",
+      "reader_payoff": "Okur kuşluğu soyut bir başlangıç saati olarak değil, insan ve hayvan yaşamının geçim döngüsüne açıldığı maddi bir eşik olarak algılayabilir.",
+      "containment": "root_001525/B005 için 93:11 carrier'ı support'ta attributed olarak adlandırılır; packet'te bunun bağımsız QAC morfolojisi verilmez. Bu nedenle pastoral provisioning, B003'ün zaman anlamını silmeyen exploratory bir relation'dır.",
+      "epistemic": {
+        "status": "exploratory",
+        "source_trust": ["legacy_unbound"],
+        "reason": "Reader walk exact context ayah refs and branch images supplies; nominated livestock record lacks focus morphology and is therefore retained only as attributed contextual evidence."
+      },
+      "support_ids": ["sup_1ebf8ded9351b37188f4"],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000904/B003",
+          "facet_id": "F001",
+          "branch_gloss": "erken gündüz öğünü ve o vakitte otlatma",
+          "facet_statement": "Günün erken aydınlık bölümünde yenen öğün ve bu öğünü yeme eylemi adlandırılır.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["93:1:1:3"],
+          "trigger_refs": ["93:5", "93:8", "93:11", "78:11", "conn_a6cee1256e5a64a414c5", "sup_1ebf8ded9351b37188f4"],
+          "focus_return_refs": ["93:1:1:3"],
+          "carrier": "ٱلضُّحَىٰ, erken gündüz öğünü ve bu vakte bağlı beslenme yönünü taşır.",
+          "independent_trigger": "93:5'teki verme, 93:8'deki yoksulluk/bağımlı ve 93:11'deki livestock ile 78:11'in geçim için açılan gündüzü, focus zamanına maddi provisioning ilişkisi sağlar.",
+          "activation": "Erken besleme zamanı, bağımlıların ihtiyaç alanı ve otlayan hayvan carrier'ı ile buluşarak kuşluğun günlük geçim hareketinin başlangıcı gibi görünmesini sağlar.",
+          "resulting_reading": "Kuşluk, açık ışığın yanında canlıların beslenmeye ve yeterliğe yöneldiği tekrarlı bir başlangıç ritmini taşır.",
+          "boundary": "Food/provision relation reader source'un provisional inference'ıdır; B003'ün sıradan zaman çekirdeği korunur."
+        },
+        {
+          "branch_ref": "root_000904/B003",
+          "facet_id": "F002",
+          "branch_gloss": "erken gündüz öğünü ve o vakitte otlatma",
+          "facet_statement": "Develerin günün başında otlamaya koyulması, aynı vakte bağlı hayvan yetiştiriciliği kullanımıdır.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["93:1:1:3"],
+          "trigger_refs": ["93:11", "78:11", "conn_a6cee1256e5a64a414c5", "sup_1ebf8ded9351b37188f4"],
+          "focus_return_refs": ["93:1:1:3"],
+          "carrier": "ٱلضُّحَىٰ, günün başında hayvanların otlamaya koyulmasıyla ilişkilendirilen erken vakit yönünü taşır.",
+          "independent_trigger": "93:11'deki nominated grazing-livestock image ve 78:11'in day-for-livelihood relation'ı, focus vaktiyle hayvanların geçim hareketini buluşturur.",
+          "activation": "Otlatma facet'i, kuşluk vaktini insan/hayvan provisioning hareketinin birlikte açıldığı bir zamansal kapı olarak yeniden duyurur.",
+          "resulting_reading": "Işığın yayılması, geçim için dışarı çıkan ve otlayan canlıların ritmiyle birlikte işler.",
+          "boundary": "Nominated branch carrier'ı attributed'dır; genel hayvan yetiştiriciliği veya packet dışı pastoral ayrıntı ileri sürülmez."
+        },
+        {
+          "branch_ref": "root_001525/B005",
+          "facet_id": "SOURCE_IMAGE",
+          "branch_gloss": "grazing livestock, especially camels",
+          "facet_statement": "grazing livestock, especially camels",
+          "application_mode": "attributed",
+          "carrier_refs": ["93:11"],
+          "trigger_refs": ["93:1:1:3", "93:8", "sup_1ebf8ded9351b37188f4"],
+          "focus_return_refs": ["93:1:1:3"],
+          "carrier": "Support sup_1ebf8ded9351b37188f4, 93:11 bağlamında root_001525/B005'i otlayan hayvanlar olarak adlandırır.",
+          "independent_trigger": "93:1:1:3'teki B003 erken öğün/otlatma facet'i, nominated livestock carrier'ını kuşluk zamanına bağlayan ayrı odak tetikleyicisidir.",
+          "activation": "Erken otlatma zamanı ile 93:11'deki hayvan görüntüsü temas ederek kuşluğu maddi provisioning döngüsünün başlangıcı olarak gösterir.",
+          "resulting_reading": "Kuşluk, yalnız insanın gördüğü ışık değil, otlayan hayvanların da geçim alanına çıktığı bir başlangıç olabilir.",
+          "boundary": "Bu carrier için packet'te bağımsız QAC word index veya lexical record yoktur; branch gloss yalnız supplied source image olarak korunur."
+        }
+      ],
+      "connection_refs": ["conn_a6cee1256e5a64a414c5"],
+      "context_refs": ["93:5", "93:8", "93:11", "78:11"],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:provision-rhythm-giving",
+      "origin_candidate_id": "cand_240205efab370b1af8fe",
+      "represented_candidate_ids": [],
+      "title": "Erken beslenme vaktinin verme eylemiyle ritim kazanması",
+      "claim": "root_000904/B003'ün erken gündüz öğünü ve otlatma alanı, 93:5'teki root_001028/B002 verme görüntüsü ve 93:6'daki bağımlı bakım bağlamıyla buluşarak kuşluğu tek seferlik bir ışık anından çok yinelenen bir replenishment ritmi olarak açar.",
+      "mechanism": "93:1:1:3 focus carrier'ı B003 facet'ini taşır; 93:5'te support tarafından adlandırılan root_001028/B002 giving carrier'ı ve 93:6 dependent-care context'i, erken besleme ile sonradan elden ele verme arasında bir provisioning contact kurar.",
+      "reader_payoff": "Okur kuşluk vaktinde yalnızca ışığın başlamasını değil, ihtiyaç içindeki birinin tekrar tekrar beslenip desteklenebileceği bir süreklilik imgesini de duyabilir.",
+      "containment": "Packet açıkça food adının sonraki ayatlarda bulunmadığını ve bağlantının weak olduğunu söyler. Bu nedenle B003'ün kuşluk zamanı korunur; verme ve daily replenishment exploratory analogical relation olarak kalır.",
+      "epistemic": {
+        "status": "exploratory",
+        "source_trust": ["legacy_unbound"],
+        "reason": "Reader walk support supplies exact 93:5 and 93:6 context names and both branch images, but itself calls the food/provision bridge the weak link; nominated giving carrier remains attributed."
+      },
+      "support_ids": ["sup_413990de52e648f31b90"],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000904/B003",
+          "facet_id": "F001",
+          "branch_gloss": "erken gündüz öğünü ve o vakitte otlatma",
+          "facet_statement": "Günün erken aydınlık bölümünde yenen öğün ve bu öğünü yeme eylemi adlandırılır.",
+          "application_mode": "analogical",
+          "carrier_refs": ["93:1:1:3"],
+          "trigger_refs": ["93:5", "93:6", "sup_413990de52e648f31b90"],
+          "focus_return_refs": ["93:1:1:3"],
+          "carrier": "ٱلضُّحَىٰ, erken aydınlıkta yenilen öğün ve beslenme zamanını taşıyan B003 alanıdır.",
+          "independent_trigger": "93:5'teki verme ve 93:6'daki shelter/dependent-care context'i, erken beslenme vaktine tekrarlanan destek ilişkisi sağlayan ayrı temaslardır.",
+          "activation": "B003'ün erken öğün taşıyıcısı, verme ve bağımlı bakım bağlamıyla birleşerek ışığı tekil görüntüden süreklilik taşıyan provisioning rhythm'e çevirir.",
+          "resulting_reading": "Kuşluk, her gün yeniden başlayan bir yeterliğe doğru akışın başlangıcı gibi okunabilir.",
+          "boundary": "B003 genel yemek veya sonraki yardımın zorunlu açıklaması değildir; support'un food yokluğu uyarısı korunur."
+        },
+        {
+          "branch_ref": "root_001028/B002",
+          "facet_id": "SOURCE_IMAGE",
+          "branch_gloss": "handing over and giving",
+          "facet_statement": "handing over and giving",
+          "application_mode": "attributed",
+          "carrier_refs": ["93:5"],
+          "trigger_refs": ["93:1:1:3", "93:6", "sup_413990de52e648f31b90"],
+          "focus_return_refs": ["93:1:1:3"],
+          "carrier": "Support sup_413990de52e648f31b90, 93:5'i root_001028/B002 handing-over-and-giving image'iyle adlandırır.",
+          "independent_trigger": "93:1:1:3'teki B003 erken öğün/otlatma facet'i, giving carrier'ını kuşluk zamanına bağlayan ayrı focus contact'tır.",
+          "activation": "Elden verme carrier'ı ile erken beslenme zamanı temas ederek kuşlukta başlayan maddi desteğin başkasına ulaşan bir hareket olduğunu görünür kılar.",
+          "resulting_reading": "Işık, ihtiyaç içindeki kişiye doğru düzenli bir verme hareketinin başlangıç ritmini de taşıyabilir.",
+          "boundary": "Nominated branch için bağımsız QAC morfolojisi yoktur; exact source image korunur ve relation attributed/analogical kalır."
+        }
+      ],
+      "connection_refs": [],
+      "context_refs": ["93:5", "93:6"],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:exposure-pastoral-provision",
+      "origin_candidate_id": "cand_a5a9008a4d6b69302077",
+      "represented_candidate_ids": [],
+      "title": "Açıklığın sert karşılaşma ve hayvan geçimi yönleri",
+      "claim": "root_000904/B002'nin açıkta ve görünür olma yönü, 93:10'daki isteyen kişiye yönelen sert karşılaşma ile buluştuğunda ışığın her zaman yumuşak bir sahne olmadığını; root_001525/B005'in 93:11'deki otlayan hayvan görüntüsüyle teması ise aynı global alanda provisioning karşılığının da yaşayabildiğini gösterir.",
+      "mechanism": "93:1:1:3 focus carrier'ı B002'yi taşır; 93:10 requester/rebuke context'i açıklığı harsh glare sınırına çeker, 7:98 connection'ı açık gündüzün güvenlik garantisi olmadığını destekler, 93:11 nominated livestock carrier'ı ve 78:11 livelihood connection'ı ise pastoral provision yönünü açar.",
+      "reader_payoff": "Okur görünürlük imgesini yalnızca olumlu bir aydınlanma olarak sabitlemez; aynı açıklıkta incitici karşılaşma ve geçime açılan maddi alanın birlikte bulunabildiğini görür.",
+      "containment": "B002 özü genel olarak güneşe/bakışa açıklıktır; sertlik context encounter'dan gelir. root_001525/B005 yalnız attributed source image'dır ve iki yönün birlikte bulunması bir seçim veya tek hüküm değildir.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": ["legacy_unbound"],
+        "reason": "Retrospective reader support exact 93:10 and 93:11 contexts with the two branch images; connections add boundary support, but the harshness/provision synthesis remains an attributed, qualified inference."
+      },
+      "support_ids": ["sup_a9fccf6504e535134ec0"],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000904/B002",
+          "facet_id": "F001",
+          "branch_gloss": "güneşe veya bakışa açık olup görünürleşme",
+          "facet_statement": "Bir kişi veya şey güneşe ya da bakışa açık hale gelir ve görünür olur.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["93:1:1:3"],
+          "trigger_refs": ["93:10", "7:98", "conn_a0907d7b99bc191768e7", "sup_a9fccf6504e535134ec0"],
+          "focus_return_refs": ["93:1:1:3"],
+          "carrier": "ٱلضُّحَىٰ, güneşe veya bakışa açık olup görünürleşme alanını taşır.",
+          "independent_trigger": "93:10'daki isteyen kişiyle sert karşılaşma ve 7:98'deki gündüz güvenliği sınırı, açık görünürlüğün harsh glare yönünü bağımsız olarak tetikler.",
+          "activation": "Açıklık carrier'ı requester/rebuke contact'ıyla buluşunca aynı görünür alanın korunmasız bir karşılaşmayı da görünür kıldığı anlaşılır.",
+          "resulting_reading": "Kuşluk ışığı, açığa çıkmanın rahatlatıcı olduğu kadar talep sahibini sert bir bakışla karşı karşıya bırakabildiği bir alan olarak da duyulur.",
+          "boundary": "Sertlik B002'nin zorunlu anlamı değildir; context'e bağlıdır ve B002'nin ordinary visibility core'unu değiştirmez."
+        },
+        {
+          "branch_ref": "root_001525/B005",
+          "facet_id": "SOURCE_IMAGE",
+          "branch_gloss": "grazing livestock, especially camels",
+          "facet_statement": "grazing livestock, especially camels",
+          "application_mode": "attributed",
+          "carrier_refs": ["93:11"],
+          "trigger_refs": ["93:1:1:3", "93:10", "78:11", "conn_a6cee1256e5a64a414c5", "sup_a9fccf6504e535134ec0"],
+          "focus_return_refs": ["93:1:1:3"],
+          "carrier": "Support sup_a9fccf6504e535134ec0, 93:11 bağlamında root_001525/B005'i grazing livestock image'iyle adlandırır.",
+          "independent_trigger": "93:1:1:3'teki B002 açıklık carrier'ı ve 93:10-78:11'deki ihtiyaç/geçim temasları, livestock carrier'ını focus'un global açıklık alanına geri bağlar.",
+          "activation": "Otlayan hayvan carrier'ı, açıkta kalan requester ve livelihood context'leriyle temas ederek görünürlüğün yanında maddi geçim yönünü de belirginleştirir.",
+          "resulting_reading": "Açık gün, hem sert bir karşılaşmanın hem de hayvanların geçim alanına çıktığı provisioning düzeninin sahnesi olabilir.",
+          "boundary": "Nominated branch'in bağımsız morphology veya lexical proof'u packet'te yoktur; source image attributed olarak sınırlandırılmıştır."
+        }
+      ],
+      "connection_refs": ["conn_a0907d7b99bc191768e7", "conn_a6cee1256e5a64a414c5"],
+      "context_refs": ["93:10", "93:11", "7:98", "78:11"],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:exposure-orphan-refuge",
+      "origin_candidate_id": "cand_8aca589da8bb58d0e1bf",
+      "represented_candidate_ids": [],
+      "title": "Açık alanın yetim kalmış bağımlıyı ve sığınağı görünür kılması",
+      "claim": "root_000904/B002'nin açıkta ve görünür olma yönü, root_001692/B001'in koruyucu ebeveynden kopmuş yavru/çocuk görüntüsüyle 93:6'da buluştuğunda, ışık ihtiyacı ve sığınağa alınmayı aynı açıklık alanında görünür kılar.",
+      "mechanism": "93:1:1:3 focus carrier'ı B002'yi taşır; support sup_3061f6e00c609f0e3b3e, 93:6'da orphaned exposure ile shelter response'u ve nominated root_001692/B001'i açıkça bağlar; 20:119 connection'ı da exposure/shelter karşıtlığını destekler.",
+      "reader_payoff": "Okur açık ışığı yalnızca görme imkânı olarak değil, korunmasız olanın fark edilip sığınağa yönelmesinin görünür hale geldiği bir eşik olarak görebilir.",
+      "containment": "B002, ışık veya görünürlük anlamını korur; daylight'ın yetimlik yarattığı söylenmez. root_001692/B001 context carrier'ı nominated ve attributed'dır; ilişki bu packet temasının ötesine taşınmaz.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": ["legacy_unbound"],
+        "reason": "Support gives an exact 93:6 context and both source images, while the nominated orphan branch has no independent focus morphology; the relation is therefore attributed contextual evidence."
+      },
+      "support_ids": ["sup_3061f6e00c609f0e3b3e"],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000904/B002",
+          "facet_id": "F001",
+          "branch_gloss": "güneşe veya bakışa açık olup görünürleşme",
+          "facet_statement": "Bir kişi veya şey güneşe ya da bakışa açık hale gelir ve görünür olur.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["93:1:1:3"],
+          "trigger_refs": ["93:6", "20:119", "conn_b9a2aa6cf800ee3f1a47", "sup_3061f6e00c609f0e3b3e"],
+          "focus_return_refs": ["93:1:1:3"],
+          "carrier": "ٱلضُّحَىٰ, güneşe ve bakışa açık olanın görünür hale gelmesi yönünü taşır.",
+          "independent_trigger": "93:6'da orphaned exposure ile shelter'ın birlikte verilmesi ve 20:119'un exposure/shelter boundary'si, açıklık carrier'ını korunma ihtiyacıyla temas ettirir.",
+          "activation": "Görünür açıklık, koruyucu ebeveynden kopmuş dependent carrier'ıyla buluşunca ışık alanını risk ve refuge response'unun ortak yüzeyi yapar.",
+          "resulting_reading": "Kuşluk, ihtiyacın saklanamayacak kadar görünür olduğu ve bu görünürlüğün koruyucu karşılığı çağırdığı bir alan gibi duyulur.",
+          "boundary": "B002'nin ordinary exposure sense'i korunur; daylight'ın causally orphaning olduğu veya shelter'ın lexical meaning olduğu iddia edilmez."
+        },
+        {
+          "branch_ref": "root_001692/B001",
+          "facet_id": "SOURCE_IMAGE",
+          "branch_gloss": "orphaned offspring cut off from its protecting parent",
+          "facet_statement": "orphaned offspring cut off from its protecting parent",
+          "application_mode": "attributed",
+          "carrier_refs": ["93:6"],
+          "trigger_refs": ["93:1:1:3", "20:119", "sup_3061f6e00c609f0e3b3e"],
+          "focus_return_refs": ["93:1:1:3"],
+          "carrier": "Support sup_3061f6e00c609f0e3b3e, 93:6 bağlamını protecting parent'tan kopmuş orphaned offspring image'iyle adlandırır.",
+          "independent_trigger": "93:1:1:3'teki B002 exposure carrier'ı, 93:6'daki orphaned dependent'in açıkta kalma yönünü odak ayete geri bağlar.",
+          "activation": "Kopmuş yavru/çocuk carrier'ı, focus açıklık alanıyla temas ederek görünürlüğün vulnerability ve refuge response'una dönüşen sosyal tarafını açar.",
+          "resulting_reading": "Kuşluk, korunmasız olanın görüldüğü ve sığınağa alınmasının anlam kazandığı açık bir karşılaşma zemini olabilir.",
+          "boundary": "Bu exact source image'dır; packet'te 93:6 için bağımsız QAC word index veya lexicon branch record verilmediğinden attributed olarak kalır."
+        }
+      ],
+      "connection_refs": ["conn_b9a2aa6cf800ee3f1a47"],
+      "context_refs": ["93:6", "20:119"],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:exposure-and-provision-dual",
+      "origin_candidate_id": "cand_453b8dddfff26c68fc1b",
+      "represented_candidate_ids": [],
+      "title": "Açıklıkta aynı anda risk/cevap ve erken rızık ihtimalinin görünmesi",
+      "claim": "root_000904/B002'nin açıklık alanı ile root_000904/B003'ün erken öğün/otlatma alanı, 93:5-93:6'nın hediye, yetimlik ve sığınma temaslarıyla birlikte duyulduğunda, kuşlukta hem korunmasızlığın cevabını hem de exploratory bir provisioning ihtimalini aynı anda görünür kılar.",
+      "mechanism": "93:1:1:3 tek focus carrier'ında B002 ve B003 ayrı facet'ler olarak bulunur; 93:6'nın exposure-to-refuge surprise'ı B002'yi, 93:5 gift ve 93:6 dependent-care bağlamı B003'ü tetikler. Temas, iki farklı mekanizmayı tek hükme indirmeden ışık alanında yan yana işler.",
+      "reader_payoff": "Okur odak kelimesinin yalnızca aydınlık bir manzara vermediğini, o açıklıkta birinin korunmaya alınması ile günlük beslenmenin başlaması gibi iki ayrı sosyal/maddi sonucu da düşündürebildiğini görür.",
+      "containment": "B002'nin exposure core'u ve B003'ün early-day meal/grazing core'u ayrı tutulur. Support, sonraki ayatlarda food bulunmadığını açıkça belirttiği için provisioning çizgisi exploratory'dir; iki çizgi birbirinin yerine seçilmez.",
+      "epistemic": {
+        "status": "exploratory",
+        "source_trust": ["legacy_unbound"],
+        "reason": "Retrospective support exact 93:5-93:6 context contacts and both focus branches, but labels the B003 provision bridge exploratory because food is absent from the named ayat."
+      },
+      "support_ids": ["sup_4bc96dbeb5bef0ab999a"],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000904/B002",
+          "facet_id": "F001",
+          "branch_gloss": "güneşe veya bakışa açık olup görünürleşme",
+          "facet_statement": "Bir kişi veya şey güneşe ya da bakışa açık hale gelir ve görünür olur.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["93:1:1:3"],
+          "trigger_refs": ["93:5", "93:6", "sup_4bc96dbeb5bef0ab999a"],
+          "focus_return_refs": ["93:1:1:3"],
+          "carrier": "ٱلضُّحَىٰ, güneşe/bakışa açık olup görünürleşme yönünü taşır.",
+          "independent_trigger": "93:6'da orphaned exposure'ın shelter ile izlenmesi, 93:5'teki gift context'iyle birlikte açıklık alanını risk ve response'un buluştuğu yere çevirir.",
+          "activation": "B002 görünürlüğü, dependent'in açığa çıkması ve korunmaya alınmasıyla temas ederek kuşluğun sosyal bir risk/cevap sahnesi olarak duyulmasını sağlar.",
+          "resulting_reading": "Işık, kırılganlığın görünür olup koruyucu karşılığın da seçilebilir hale geldiği açıklıktır.",
+          "boundary": "B002 gündüzün causally vulnerability ürettiğini söylemez; 93:5-93:6 bağlamı supplied contextual relation olarak kalır."
+        },
+        {
+          "branch_ref": "root_000904/B003",
+          "facet_id": "F001",
+          "branch_gloss": "erken gündüz öğünü ve o vakitte otlatma",
+          "facet_statement": "Günün erken aydınlık bölümünde yenen öğün ve bu öğünü yeme eylemi adlandırılır.",
+          "application_mode": "analogical",
+          "carrier_refs": ["93:1:1:3"],
+          "trigger_refs": ["93:5", "93:6", "sup_4bc96dbeb5bef0ab999a"],
+          "focus_return_refs": ["93:1:1:3"],
+          "carrier": "ٱلضُّحَىٰ, erken gündüzde öğün ve beslenme zamanını taşıyan B003 facet'ine açılır.",
+          "independent_trigger": "93:5'teki gift ve 93:6'daki dependent-care/refuge sequence, erken beslenme zamanına ihtiyaçtan yeterliğe doğru bir provisioning contact sağlar.",
+          "activation": "B003'ün erken öğün carrier'ı, hediye ve bağımlı bakım context'iyle birleşerek kuşluğu günlük rızık hareketinin başlangıcı gibi duyurur.",
+          "resulting_reading": "Açıklık, yalnız birinin görülmesini değil, bedenî ihtiyacın düzenli destekle karşılanmaya başlamasını da exploratory olarak düşündürür.",
+          "boundary": "Food sonraki named context'te yoktur; B003 provision relation'ı exploratory kalır ve B002'nin risk/response relation'ını absorbe etmez."
+        }
+      ],
+      "connection_refs": [],
+      "context_refs": ["93:5", "93:6"],
+      "semantic_obligation_refs": []
+    }
+  ],
+  "friction_notes": [
+    "Packet kapsamı üzerinde 25 adayın tamamı candidate_inventory sırasıyla bir kez karara bağlandı; 11 accepted/narrowed owners için dedicated finding, üç exact duplicate candidate için represented kararı yazıldı.",
+    "HFT assigned_record_count 11 olmasına rağmen anchor_evidence_coverage supplied_unique_anchor_count=0 ve cited_unique_anchor_count=0'dır. Bu nedenle tüm HFT reader_summary_claim adayları, exact context ayah/word index/root/attributed role/focus-return trace yokluğu nedeniyle rejected olarak görünür tutuldu.",
+    "connection_registry'deki 137 authored_focus_row ve 31 reciprocal projection kaydı tarandı. Doğrudan zaman, exposure, livelihood ve day/night boundary sağlayan kayıtlar yalnızca ilgili activation'larda trigger olarak kullanıldı; no-value, generic-form ve açıkça redundant kayıtlar yeni finding'e dönüştürülmedi.",
+    "selected_context_units boştur ve nominated non-focus branches için bağımsız QAC morphology satırları sağlanmamıştır. 93:5, 93:6, 93:10 ve 93:11 taşıyıcıları yalnız support kayıtlarının exact ayah-level source image'i olarak ve application_mode=attributed ile kullanıldı; packet dışı word index veya lexical ayrıntı icat edilmedi.",
+    "root_000904/B006 (yumuşak davranıp acele etmemek) branch registry'de mevcut, ancak candidate link, support link veya exact bağımsız trigger taşımaz. HFT'nin unanchored gentle-delay özeti activation testini karşılamadığından bu branch için finding üretilmedi.",
+    "cand_a77ad20772ae309a02baad ve cand_1b8774ef2b5f6473631a'nın B001 gecikme/uzayan kuşluk okumaları global:daylight-extension-care altında exact duplicate olarak temsil edildi; çözülmemiş komşu branch citation'ları finding containment içinde görünür tutuldu.",
+    "cand_cbde6776c54e6fe5a82d ile cand_ed511124c6181c8b97de aynı B004 ritüel-paylaştırma semantiğini taşır. Publication support doğrudan bağı reddeden bir grade içerdiği için ortak finding exploratory olarak sınırlandı; bu counter-evidence silinmedi.",
+    "Packet'te semantic_obligations alanı supplied değildir; bu nedenle hiçbir semantic obligation exclusion icat edilmedi ve bütün kararların semantic_obligation_exclusions dizileri boştur."
+  ]
+}
