@@ -143,6 +143,29 @@ The edit already includes affirmative qualification, clarification of each
 image's contribution, whole-surah continuity, and prose-first reader flow. Its
 ending follows the given surah, not a fixed Fatiha sequence.
 
+When an Arabic word, phrase, carrier, or anchor does interpretive work in a
+paragraph, surah commentary prose must use a display tag. The preferred lighter
+surah commentary shape is:
+
+```text
+{ar:ARABIC, tr:transliteration}
+```
+
+Existing v5-style tags copied from source editorials are also valid and do not
+need normalization:
+
+```text
+{ar:ARABIC, tr:transliteration, gloss:Turkish gloss}
+```
+
+Tags are paragraph-local. A tag in an earlier paragraph does not cover a later
+paragraph. If the same Arabic item does interpretive work again in a later
+paragraph, repeat the full tag there. Do not place Arabic script outside a
+valid tag, add QAC IDs, or invent another tag shape. Tags should be composed
+into the prose as readerly anchors, not mechanically inserted after every
+ordinary Turkish reference. If a tag makes the sentence clumsy, rewrite the
+sentence around the tagged carrier while preserving the same supported reading.
+
 Keep the composition agent open through semantic acceptance and any needed
 revision. In orchestration-only mode, keep it open until the operator either
 accepts the output or requests another pass. Follow the V5 artifact style:
@@ -191,6 +214,15 @@ Specific revision instructions:
 - Remove repeated disclaimers and repeated formulations.
 - Preserve truth conditions, uncertainty, attribution, and the outline's
   retained movements. Do not add evidence or new interpretations.
+- Preserve and add Arabic display tags wherever an Arabic word, phrase,
+  carrier, or anchor does interpretive work in that paragraph. Use
+  `{ar:ARABIC, tr:transliteration}` or copy the existing source-editorial
+  `{ar:ARABIC, tr:transliteration, gloss:Turkish gloss}` tag. Tags are
+  paragraph-local; repeat the full tag in each later paragraph where the same
+  item does interpretive work. Do not place Arabic script outside a valid tag,
+  add QAC IDs, or invent another tag shape. Keep the tags readable: recast the
+  sentence around the tagged carrier instead of mechanically appending tags to
+  every ordinary Turkish mention.
 - Before finishing, search your revised prose mentally for repeated defensive
   endings and for words like "değildir", "kurmaz", "yüklemez", "anlamına
   gelmez", "sayılmaz", "dönüşmez", "oluşturmaz", "belirlenmez", "kapatmaz",

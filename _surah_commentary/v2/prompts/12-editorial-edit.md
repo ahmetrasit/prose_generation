@@ -65,10 +65,25 @@ construction, operative detail, qualification, uncertainty, and restriction
 that is needed for the outline's retained movement to remain honest.
 
 Keep the primary progression and the secondary resonances intelligible together.
-Preserve first-use ayah and surface-word anchors. Use fluent contemporary prose
-in the requested language. Remove analyst shorthand, workflow language, and
-repetitive evidence-catalogue rhythm. Let the ending return to the particular
-surah's primary movement and the payoff earned by these editorials.
+Preserve first-use ayah and surface-word anchors. When an Arabic word, phrase,
+carrier, or anchor does interpretive work in a paragraph, preserve or add a
+valid display tag copied from the supplied editorials where available:
+`{ar:ARABIC, tr:transliteration}` or the existing v5-style
+`{ar:ARABIC, tr:transliteration, gloss:Turkish gloss}`. Tags are
+paragraph-local. A tag in an earlier paragraph does not cover a later
+paragraph; if the same Arabic item does interpretive work again in a later
+paragraph, repeat the full tag there. Do not place Arabic script outside a
+valid tag, do not add QAC IDs, and do not invent another tag shape. The Turkish
+sentence itself should carry the meaning. Use only Arabic, transliteration, and
+glosses already supplied by the editorials; do not add Arabic or a new
+transliteration from memory. Tags should be woven into the sentence where the
+Arabic carrier is doing work, not appended mechanically after every ordinary
+Turkish reference. If tags make a sentence hard to read, recast the sentence
+around the tagged carrier instead of piling annotations into the old wording.
+Use fluent contemporary prose in the requested language. Remove
+analyst shorthand, workflow language, and repetitive evidence-catalogue rhythm.
+Let the ending return to the particular surah's primary movement and the payoff
+earned by these editorials.
 
 Read each passage ending together with the next opening. Carry forward
 something specifically established where the supplied material supports

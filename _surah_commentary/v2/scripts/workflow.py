@@ -23,6 +23,13 @@ STAGES = {
     "compose": ("11-editorial-compose.md", None),
     "edit": ("12-editorial-edit.md", None),
 }
+ARABIC_SCRIPT_RE = re.compile(r"[\u0600-\u06ff\u0750-\u077f\u08a0-\u08ff\ufb50-\ufdff\ufe70-\ufefc]+")
+BRACE_CANDIDATE_RE = re.compile(r"\{[^{}\n]*\}")
+SURAH_TAG_RE = re.compile(
+    r"\{\s*ar\s*:\s*(?P<ar>[^{},\n]+?)\s*,\s*"
+    r"tr\s*:\s*(?P<tr>[^{},\n]+?)"
+    r"(?:\s*,\s*gloss\s*:\s*(?P<gloss>[^{}\n]+?))?\s*\}"
+)
 
 
 def require(condition: bool, message: str) -> None:
@@ -187,6 +194,38 @@ def load_text(path: Path) -> str:
         raise SystemExit(f"error: invalid UTF-8 in {path}: {exc}") from exc
 
 
+def line_for_offset(text: str, offset: int) -> int:
+    return text.count("\n", 0, offset) + 1
+
+
+def validate_surah_tags(text: str, path: Path) -> None:
+    require(text.count("{") == text.count("}"), f"{path}: unbalanced braces")
+    candidates = list(BRACE_CANDIDATE_RE.finditer(text))
+    require(len(candidates) == text.count("{"),
+            f"{path}: malformed, nested, or multiline brace tag")
+    cleaned: list[str] = []
+    cursor = 0
+    for match in candidates:
+        cleaned.append(text[cursor:match.start()])
+        token = match.group(0)
+        line = line_for_offset(text, match.start())
+        tag = SURAH_TAG_RE.fullmatch(token)
+        require(tag is not None,
+                f"{path}:{line}: expected display tag {{ar:..., tr:...}} "
+                f"or {{ar:..., tr:..., gloss:...}}")
+        arabic = tag.group("ar").strip()
+        require(ARABIC_SCRIPT_RE.search(arabic) is not None,
+                f"{path}:{line}: tag ar field has no Arabic script")
+        cleaned.append(" ")
+        cursor = match.end()
+    cleaned.append(text[cursor:])
+    text_without_tags = "".join(cleaned)
+    outside = ARABIC_SCRIPT_RE.search(text_without_tags)
+    if outside is not None:
+        line = line_for_offset(text_without_tags, outside.start())
+        require(False, f"{path}:{line}: Arabic script outside surah display tag")
+
+
 def validate_reader_prose(path: Path, *, phase: str | None = None) -> str:
     text = load_text(path)
     nonempty(text, str(path))
@@ -197,6 +236,7 @@ def validate_reader_prose(path: Path, *, phase: str | None = None) -> str:
             f"{path}: workflow metadata in reader prose")
     require(not re.search(r"\b(?:evidence map|JSON envelope|schema)\b", text, flags=re.IGNORECASE),
             f"{path}: audit/schema language in reader prose")
+    validate_surah_tags(text, path)
     require(phase in (None, "draft", "editorial"), "invalid prose phase")
     return text
 

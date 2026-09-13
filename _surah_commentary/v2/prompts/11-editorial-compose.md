@@ -53,9 +53,24 @@ unresolved, name the uncertainty gently in prose rather than inventing a
 condition or weakening the claim's boundary.
 
 Anchor an image's first appearance lightly to its ayah and an ordinary surface
-word or phrase already explained in the editorial. Use the editorials' Arabic
-tag format only when the Arabic itself matters. Do not add Arabic or a new
-gloss from memory. Write fluent, contemporary prose for a non-specialist. Keep
+word or phrase already explained in the editorial. When an Arabic word, phrase,
+carrier, or anchor does interpretive work in a paragraph, use a valid display
+tag copied from the supplied editorials where available:
+`{ar:ARABIC, tr:transliteration}` or the existing v5-style
+`{ar:ARABIC, tr:transliteration, gloss:Turkish gloss}`. Tags are
+paragraph-local. A tag in an earlier paragraph does not cover a later
+paragraph; if the same Arabic item does interpretive work again in a later
+paragraph, repeat the full tag there. Do not place Arabic script outside a
+valid tag, do not add QAC IDs, and do not invent another tag shape. The Turkish
+sentence itself should carry the meaning. Use only Arabic, transliteration, and
+glosses already supplied by the editorials; do not add Arabic or a new
+transliteration from memory. Compose with tags from the start rather than
+bolting them onto finished Turkish sentences. The tag should feel like a
+readerly anchor at the moment the Arabic carrier matters, not a citation after
+every ordinary mention. Prefer one well-placed tag for the operative carrier in
+a paragraph; repeat it only when that same carrier does interpretive work again
+in a later paragraph. Write fluent, contemporary prose for a non-specialist.
+Keep
 transitions concrete: each section should take up a question, image, relation,
 or movement from the preceding one. Avoid restarting every paragraph as an
 independent exhibit. Subtitles are optional and should mark real changes in
